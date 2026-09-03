@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -47,19 +47,27 @@ apis:
 - description: The Memfault Cloud REST API is the primary programmatic interface to the Memfault platform. It covers organization and project administration, device management, software versions and releases, OTA de
   name: Memfault Cloud REST API
   slug: memfault-cloud-rest-api
-- description: Manage Memfault organizations, users, and authentication tokens scoped to an organization.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: Manage Memfault organizations, users, and authentication tokens scoped to an organization.
   name: Memfault Organizations API
   slug: memfault-organizations-api
-- description: Create and manage Memfault projects that group devices, software, and releases.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: Create and manage Memfault projects that group devices, software, and releases.
   name: Memfault Projects API
   slug: memfault-projects-api
-- description: List, search, and update devices including hardware version, software version, cohort membership, and metadata.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: List, search, and update devices including hardware version, software version, cohort membership, and metadata.
   name: Memfault Devices API
   slug: memfault-devices-api
 - description: Manage software types, software versions, OTA releases, deployments, and cohorts that target devices for updates.
   name: Memfault Software and Releases API
   slug: memfault-software-releases-api
-- description: Retrieve and manage grouped issues created from device traces, coredumps, and reboots.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: Retrieve and manage grouped issues created from device traces, coredumps, and reboots.
   name: Memfault Issues API
   slug: memfault-issues-api
 - description: Configure alert sources and review fired alerts for device fleet conditions and issue thresholds.
@@ -68,40 +76,64 @@ apis:
 - description: Query timeseries metrics, custom charts, and aggregated fleet data collected from devices.
   name: Memfault Metrics and Charts API
   slug: memfault-metrics-charts-api
-- description: Upload chunks of data (events, traces, coredumps, metrics) from devices into Memfault, typically called by on-device SDKs or a customer-operated proxy.
+- baseURL: https://chunks.memfault.com
+  baseurl_source: declared
+  description: Upload chunks of data (events, traces, coredumps, metrics) from devices into Memfault, typically called by on-device SDKs or a customer-operated proxy.
   name: Memfault Chunks Ingestion API
   slug: memfault-chunks-api
-- description: The Auth API from Memfault — 2 operation(s) for auth.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Auth API from Memfault — 2 operation(s) for auth.
   name: Memfault Auth API
   slug: memfault-auth-api
-- description: The Chunks API from Memfault — 1 operation(s) for chunks.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Chunks API from Memfault — 1 operation(s) for chunks.
   name: Memfault Chunks API
   slug: memfault-chunks-api
-- description: The Cohorts API from Memfault — 3 operation(s) for cohorts.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Cohorts API from Memfault — 3 operation(s) for cohorts.
   name: Memfault Cohorts API
   slug: memfault-cohorts-api
-- description: The Deployments API from Memfault — 2 operation(s) for deployments.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Deployments API from Memfault — 2 operation(s) for deployments.
   name: Memfault Deployments API
   slug: memfault-deployments-api
-- description: The Devices API from Memfault — 3 operation(s) for devices.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Devices API from Memfault — 3 operation(s) for devices.
   name: Memfault Devices API
   slug: memfault-devices-api
-- description: The Files API from Memfault — 3 operation(s) for files.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Files API from Memfault — 3 operation(s) for files.
   name: Memfault Files API
   slug: memfault-files-api
-- description: The Issues API from Memfault — 2 operation(s) for issues.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Issues API from Memfault — 2 operation(s) for issues.
   name: Memfault Issues API
   slug: memfault-issues-api
-- description: The Organizations API from Memfault — 1 operation(s) for organizations.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Organizations API from Memfault — 1 operation(s) for organizations.
   name: Memfault Organizations API
   slug: memfault-organizations-api
-- description: The Projects API from Memfault — 3 operation(s) for projects.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Projects API from Memfault — 3 operation(s) for projects.
   name: Memfault Projects API
   slug: memfault-projects-api
-- description: The Releases API from Memfault — 3 operation(s) for releases.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Releases API from Memfault — 3 operation(s) for releases.
   name: Memfault Releases API
   slug: memfault-releases-api
-- description: The Software API from Memfault — 2 operation(s) for software.
+- baseURL: https://api.memfault.com
+  baseurl_source: declared
+  description: The Software API from Memfault — 2 operation(s) for software.
   name: Memfault Software API
   slug: memfault-software-api
 artifact_total: 39
@@ -270,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/screenshots/memfault-2026-06-20T185230.png
 security:

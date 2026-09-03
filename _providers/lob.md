@@ -33,151 +33,247 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Lob — 1 operation(s) for accounts.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Accounts API from Lob — 1 operation(s) for accounts.
   name: Lob Accounts API
   slug: lob-accounts-api
-- description: To add an address to your address book, you create a new address object. You can retrieve and delete individual addresses as well as get a list of addresses. Addresses are identified by a unique rando
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: To add an address to your address book, you create a new address object. You can retrieve and delete individual addresses as well as get a list of addresses. Addresses are identified by a unique rando
   name: Lob Addresses API
   slug: lob-addresses-api
-- description: The Bank Accounts API from Lob — 1 operation(s) for bank accounts.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Bank Accounts API from Lob — 1 operation(s) for bank accounts.
   name: Lob Bank  Accounts API
   slug: lob-bank-accounts-api
-- description: The Bank_id API from Lob — 2 operation(s) for bank_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Bank_id API from Lob — 2 operation(s) for bank_id.
   name: Lob Bank_id API
   slug: lob-bank-id-api
-- description: The Bg_id API from Lob — 1 operation(s) for bg_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Bg_id API from Lob — 1 operation(s) for bg_id.
   name: Lob Bg_id API
   slug: lob-bg-id-api
-- description: The Billing Groups API from Lob — 1 operation(s) for billing groups.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Billing Groups API from Lob — 1 operation(s) for billing groups.
   name: Lob Billing  Groups API
   slug: lob-billing-groups-api
-- description: The Booklet_id API from Lob — 1 operation(s) for booklet_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Booklet_id API from Lob — 1 operation(s) for booklet_id.
   name: Lob Booklet_id API
   slug: lob-booklet-id-api
-- description: The Booklets API from Lob — 1 operation(s) for booklets.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Booklets API from Lob — 1 operation(s) for booklets.
   name: Lob Booklets API
   slug: lob-booklets-api
-- description: The Buckslip_id API from Lob — 2 operation(s) for buckslip_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Buckslip_id API from Lob — 2 operation(s) for buckslip_id.
   name: Lob Buckslip_id API
   slug: lob-buckslip-id-api
-- description: 'The Buckslips endpoint allows you to easily create buckslips that can later be used as add-ons for Letters Campaigns. Note that a Letter Campaign with Buckslip add-on requires a minimum send quantity '
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: 'The Buckslips endpoint allows you to easily create buckslips that can later be used as add-ons for Letters Campaigns. Note that a Letter Campaign with Buckslip add-on requires a minimum send quantity '
   name: Lob Buckslips API
   slug: lob-buckslips-api
-- description: The Bulk API from Lob — 2 operation(s) for bulk.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Bulk API from Lob — 2 operation(s) for bulk.
   name: Lob Bulk API
   slug: lob-bulk-api
-- description: The campaigns endpoint allows you to create and view campaigns that can be used to send multiple letters or postcards. The API provides endpoints for creating campaigns, updating campaigns, retrieving
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The campaigns endpoint allows you to create and view campaigns that can be used to send multiple letters or postcards. The API provides endpoints for creating campaigns, updating campaigns, retrieving
   name: Lob Campaigns API
   slug: lob-campaigns-api
-- description: The cards endpoint allows you to easily create cards that can later be affixed to Letters. The API provides endpoints for creating cards, retrieving individual cards, creating card orders, and retriev
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The cards endpoint allows you to easily create cards that can later be affixed to Letters. The API provides endpoints for creating cards, retrieving individual cards, creating card orders, and retriev
   name: Lob Cards API
   slug: lob-cards-api
-- description: Checks allow you to send payments via physical checks. The API provides endpoints for creating checks, retrieving individual checks, canceling checks, and retrieving a list of checks. <div class="back
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: Checks allow you to send payments via physical checks. The API provides endpoints for creating checks, retrieving individual checks, canceling checks, and retrieving a list of checks. <div class="back
   name: Lob Checks API
   slug: lob-checks-api
-- description: The creatives endpoint allows you to create and view creatives. Creatives are used to create reusable letter and postcard templates. The API provides endpoints for creating creatives, updating creativ
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The creatives endpoint allows you to create and view creatives. Creatives are used to create reusable letter and postcard templates. The API provides endpoints for creating creatives, updating creativ
   name: Lob Creatives API
   slug: lob-creatives-api
-- description: The Crv_id API from Lob — 1 operation(s) for crv_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Crv_id API from Lob — 1 operation(s) for crv_id.
   name: Lob Crv_id API
   slug: lob-crv-id-api
-- description: The Domains API from Lob — 2 operation(s) for domains.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Domains API from Lob — 2 operation(s) for domains.
   name: Lob Domains API
   slug: lob-domains-api
-- description: The Exports API from Lob — 2 operation(s) for exports.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Exports API from Lob — 2 operation(s) for exports.
   name: Lob Exports API
   slug: lob-exports-api
-- description: The Files API from Lob — 1 operation(s) for files.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Files API from Lob — 1 operation(s) for files.
   name: Lob Files API
   slug: lob-files-api
-- description: The Identity Validation API from Lob — 1 operation(s) for identity validation.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Identity Validation API from Lob — 1 operation(s) for identity validation.
   name: Lob Identity  Validation API
   slug: lob-identity-validation-api
-- description: The Informed Delivery Campaign API from Lob — 1 operation(s) for informed delivery campaign.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Informed Delivery Campaign API from Lob — 1 operation(s) for informed delivery campaign.
   name: Lob Informed  Delivery  Campaign API
   slug: lob-informed-delivery-campaign-api
-- description: The Intl Verifications API from Lob — 2 operation(s) for intl verifications.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Intl Verifications API from Lob — 2 operation(s) for intl verifications.
   name: Lob Intl  Verifications API
   slug: lob-intl-verifications-api
-- description: The letters endpoint allows you to easily print and mail letters. The API provides endpoints for creating letters, retrieving individual letters, canceling letters, and retrieving a list of letters. <
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The letters endpoint allows you to easily print and mail letters. The API provides endpoints for creating letters, retrieving individual letters, canceling letters, and retrieving a list of letters. <
   name: Lob Letters API
   slug: lob-letters-api
-- description: The Links API from Lob — 2 operation(s) for links.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Links API from Lob — 2 operation(s) for links.
   name: Lob Links API
   slug: lob-links-api
-- description: The Ltr_id API from Lob — 1 operation(s) for ltr_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Ltr_id API from Lob — 1 operation(s) for ltr_id.
   name: Lob Ltr_id API
   slug: lob-ltr-id-api
-- description: The Orders API from Lob — 2 operation(s) for orders.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Orders API from Lob — 2 operation(s) for orders.
   name: Lob Orders API
   slug: lob-orders-api
-- description: 'The postcards endpoint allows you to easily print and mail postcards. The API provides endpoints for creating postcards, retrieving individual postcards, canceling postcards, and retrieving a list of '
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: 'The postcards endpoint allows you to easily print and mail postcards. The API provides endpoints for creating postcards, retrieving individual postcards, canceling postcards, and retrieving a list of '
   name: Lob Postcards API
   slug: lob-postcards-api
-- description: The Psc_id API from Lob — 1 operation(s) for psc_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Psc_id API from Lob — 1 operation(s) for psc_id.
   name: Lob Psc_id API
   slug: lob-psc-id-api
-- description: The Q R Codes API from Lob — 1 operation(s) for q r codes.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Q R Codes API from Lob — 1 operation(s) for q r codes.
   name: Lob Q R  Codes API
   slug: lob-q-r-codes-api
-- description: The Reports API from Lob — 1 operation(s) for reports.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Reports API from Lob — 1 operation(s) for reports.
   name: Lob Reports API
   slug: lob-reports-api
-- description: The Reverse Geocode Lookups API from Lob — 1 operation(s) for reverse geocode lookups.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Reverse Geocode Lookups API from Lob — 1 operation(s) for reverse geocode lookups.
   name: Lob Reverse  Geocode  Lookups API
   slug: lob-reverse-geocode-lookups-api
-- description: The Self Mailers API from Lob — 1 operation(s) for self mailers.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Self Mailers API from Lob — 1 operation(s) for self mailers.
   name: Lob Self  Mailers API
   slug: lob-self-mailers-api
-- description: The Send API from Lob — 1 operation(s) for send.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Send API from Lob — 1 operation(s) for send.
   name: Lob Send API
   slug: lob-send-api
-- description: The Sfm_id API from Lob — 1 operation(s) for sfm_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Sfm_id API from Lob — 1 operation(s) for sfm_id.
   name: Lob Sfm_id API
   slug: lob-sfm-id-api
-- description: The Snap_pack_id API from Lob — 1 operation(s) for snap_pack_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Snap_pack_id API from Lob — 1 operation(s) for snap_pack_id.
   name: Lob Snap_pack_id API
   slug: lob-snap-pack-id-api
-- description: The Snap Packs API from Lob — 1 operation(s) for snap packs.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Snap Packs API from Lob — 1 operation(s) for snap packs.
   name: Lob Snap  Packs API
   slug: lob-snap-packs-api
-- description: The Template Versions API from Lob — 1 operation(s) for template versions.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Template Versions API from Lob — 1 operation(s) for template versions.
   name: Lob Template  Versions API
   slug: lob-template-versions-api
-- description: These API endpoints allow you to create, retrieve, update and delete reusable HTML templates for use with the Print & Mail API. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top<
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: These API endpoints allow you to create, retrieve, update and delete reusable HTML templates for use with the Print & Mail API. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top<
   name: Lob Templates API
   slug: lob-templates-api
-- description: The U R L Shortener API from Lob — 2 operation(s) for u r l shortener.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The U R L Shortener API from Lob — 2 operation(s) for u r l shortener.
   name: Lob U R L  Shortener API
   slug: lob-u-r-l-shortener-api
-- description: The U S Autocompletions API from Lob — 1 operation(s) for u s autocompletions.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The U S Autocompletions API from Lob — 1 operation(s) for u s autocompletions.
   name: Lob U S  Autocompletions API
   slug: lob-u-s-autocompletions-api
-- description: The U S Verifications API from Lob — 2 operation(s) for u s verifications.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The U S Verifications API from Lob — 2 operation(s) for u s verifications.
   name: Lob U S  Verifications API
   slug: lob-u-s-verifications-api
-- description: The uploads endpoint allows you to upload audience files that are then associated with a given campaign. At this time, only CSV files are allowed. The API provides endpoints for creating uploads, uplo
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The uploads endpoint allows you to upload audience files that are then associated with a given campaign. At this time, only CSV files are allowed. The API provides endpoints for creating uploads, uplo
   name: Lob Uploads API
   slug: lob-uploads-api
-- description: The Usps_campaign_id API from Lob — 1 operation(s) for usps_campaign_id.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Usps_campaign_id API from Lob — 1 operation(s) for usps_campaign_id.
   name: Lob Usps_campaign_id API
   slug: lob-usps-campaign-id-api
-- description: The Verify API from Lob — 1 operation(s) for verify.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Verify API from Lob — 1 operation(s) for verify.
   name: Lob Verify API
   slug: lob-verify-api
-- description: The Versions API from Lob — 2 operation(s) for versions.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Versions API from Lob — 2 operation(s) for versions.
   name: Lob Versions API
   slug: lob-versions-api
-- description: The Zip Lookups API from Lob — 1 operation(s) for zip lookups.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Zip Lookups API from Lob — 1 operation(s) for zip lookups.
   name: Lob Zip  Lookups API
   slug: lob-zip-lookups-api
-- description: The Events API from Lob — 0 operation(s) for events.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Events API from Lob — 0 operation(s) for events.
   name: Lob Events API
   slug: lob-events-api
-- description: The Tracking Events API from Lob — 0 operation(s) for tracking events.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The Tracking Events API from Lob — 0 operation(s) for tracking events.
   name: Lob Tracking Events API
   slug: lob-tracking-events-api
 artifact_total: 100
@@ -441,7 +537,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -451,7 +547,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 22.4
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     contracts:
       callable: 100.0
@@ -459,7 +555,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184627.png
 security:

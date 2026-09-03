@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 1
 apis:
-- description: The Dev API from Nected — 7 operation(s) for dev.
+- baseURL: https://api.nected.ai
+  baseurl_source: declared
+  description: The Dev API from Nected — 7 operation(s) for dev.
   name: Nected Dev API
   slug: nected-dev-api
-- description: The Nected API from Nected — 2 operation(s) for nected.
+- baseURL: https://api.nected.ai
+  baseurl_source: declared
+  description: The Nected API from Nected — 2 operation(s) for nected.
   name: Nected Nected API
   slug: nected-nected-api
 artifact_total: 12
@@ -149,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/screenshots/nected-2026-06-20T190119.png
 security:

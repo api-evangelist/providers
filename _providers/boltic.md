@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 64 operations · 36 acting
 api_count: 3
 apis:
-- description: Manage SSL/TLS certificates
+- baseURL: https://gateway.boltic.io/v1
+  baseurl_source: spec
+  description: Manage SSL/TLS certificates
   name: Boltic Certificates API
   slug: boltic-certificates-api
-- description: Manage API consumers and access credentials
+- baseURL: https://gateway.boltic.io/v1
+  baseurl_source: spec
+  description: Manage API consumers and access credentials
   name: Boltic Consumers API
   slug: boltic-consumers-api
-- description: Manage data destinations
+- baseURL: https://api.boltic.io/v1
+  baseurl_source: spec
+  description: Manage data destinations
   name: Boltic Destinations API
   slug: boltic-destinations-api
-- description: Send and query events
+- baseURL: https://api.boltic.io/v1
+  baseurl_source: spec
+  description: Send and query events
   name: Boltic Events API
   slug: boltic-events-api
-- description: Track and manage workflow executions
+- baseURL: https://api.boltic.io/v1
+  baseurl_source: spec
+  description: Track and manage workflow executions
   name: Boltic Executions API
   slug: boltic-executions-api
-- description: Manage gateway plugins for transformation and security
+- baseURL: https://gateway.boltic.io/v1
+  baseurl_source: spec
+  description: Manage gateway plugins for transformation and security
   name: Boltic Plugins API
   slug: boltic-plugins-api
-- description: Manage API routes and request routing rules
+- baseURL: https://gateway.boltic.io/v1
+  baseurl_source: spec
+  description: Manage API routes and request routing rules
   name: Boltic Routes API
   slug: boltic-routes-api
-- description: The Services API from Boltic — 2 operation(s) for services.
+- baseURL: https://gateway.boltic.io/v1
+  baseurl_source: spec
+  description: The Services API from Boltic — 2 operation(s) for services.
   name: Boltic Services API
   slug: boltic-services-api
-- description: Manage stream sources for event ingestion
+- baseURL: https://api.boltic.io/v1
+  baseurl_source: spec
+  description: Manage stream sources for event ingestion
   name: Boltic Stream Sources API
   slug: boltic-stream-sources-api
-- description: Manage workflow triggers
+- baseURL: https://api.boltic.io/v1
+  baseurl_source: spec
+  description: Manage workflow triggers
   name: Boltic Triggers API
   slug: boltic-triggers-api
-- description: Create and manage automation workflows
+- baseURL: https://api.boltic.io/v1
+  baseurl_source: spec
+  description: Create and manage automation workflows
   name: Boltic Workflows API
   slug: boltic-workflows-api
 artifact_total: 85
@@ -407,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/screenshots/boltic-2026-06-20T173556.png
 security:

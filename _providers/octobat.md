@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 48 operations · 32 acting
 api_count: 1
 apis:
-- description: Discount coupons for invoices and subscriptions.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Discount coupons for invoices and subscriptions.
   name: Octobat Coupons API
   slug: octobat-coupons-api
-- description: Compliant credit notes issued against invoices.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Compliant credit notes issued against invoices.
   name: Octobat Credit Notes API
   slug: octobat-credit-notes-api
-- description: Customers and their billing / tax details.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Customers and their billing / tax details.
   name: Octobat Customers API
   slug: octobat-customers-api
-- description: Compliant invoices, their items, and lifecycle actions.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Compliant invoices, their items, and lifecycle actions.
   name: Octobat Invoices API
   slug: octobat-invoices-api
-- description: Settlement payouts and their balance transactions.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Settlement payouts and their balance transactions.
   name: Octobat Payouts API
   slug: octobat-payouts-api
-- description: Products and their tax categorization.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Products and their tax categorization.
   name: Octobat Products API
   slug: octobat-products-api
-- description: Recurring-billing subscriptions and metered usage.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Recurring-billing subscriptions and metered usage.
   name: Octobat Subscriptions API
   slug: octobat-subscriptions-api
-- description: Real-time tax determination for customers and carts / checkouts.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Real-time tax determination for customers and carts / checkouts.
   name: Octobat Tax Evidence API
   slug: octobat-tax-evidence-api
-- description: Payments registered against invoices for reconciliation and tax reporting.
+- baseURL: https://apiv2.octobat.com
+  baseurl_source: declared
+  description: Payments registered against invoices for reconciliation and tax reporting.
   name: Octobat Transactions API
   slug: octobat-transactions-api
 artifact_total: 26
@@ -205,7 +223,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octobat/refs/heads/main/screenshots/octobat-2026-08-07T185941.png
 security:

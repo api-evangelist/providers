@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 6
@@ -33,22 +44,34 @@ agentic_access:
   summary_line: 25 operations · 18 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: Equalizer and night-mode settings, hosted by the system leader.
+- baseURL: http://192.168.1.20/ipcontrol/v1
+  baseurl_source: declared
+  description: Equalizer and night-mode settings, hosted by the system leader.
   name: Devialet Audio Settings API
   slug: devialet-audio-settings-api
-- description: Individual physical Devialet products on the local network, including accessories.
+- baseURL: http://192.168.1.20/ipcontrol/v1
+  baseurl_source: declared
+  description: Individual physical Devialet products on the local network, including accessories.
   name: Devialet Devices API
   slug: devialet-devices-api
-- description: Sets of one or more systems playing the same content in the multi-room configuration.
+- baseURL: http://192.168.1.20/ipcontrol/v1
+  baseurl_source: declared
+  description: Sets of one or more systems playing the same content in the multi-room configuration.
   name: Devialet Groups API
   slug: devialet-groups-api
-- description: Play, pause, mute, unmute, next, and previous on the group's current source.
+- baseURL: http://192.168.1.20/ipcontrol/v1
+  baseurl_source: declared
+  description: Play, pause, mute, unmute, next, and previous on the group's current source.
   name: Devialet Playback API
   slug: devialet-playback-api
-- description: Volume query and control at the system level.
+- baseURL: http://192.168.1.20/ipcontrol/v1
+  baseurl_source: declared
+  description: Volume query and control at the system level.
   name: Devialet Sound Control API
   slug: devialet-sound-control-api
-- description: Sets of one or more speakers that always share playback state (solo or stereo).
+- baseURL: http://192.168.1.20/ipcontrol/v1
+  baseurl_source: declared
+  description: Sets of one or more speakers that always share playback state (solo or stereo).
   name: Devialet Systems API
   slug: devialet-systems-api
 artifact_total: 17
@@ -226,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png
 security:

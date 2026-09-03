@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: Backup reserve threshold for Powerwall sites
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Backup reserve threshold for Powerwall sites
   name: Tesla Energy Backup API
   slug: tesla-energy-backup-api
-- description: Historical energy production, consumption, and battery flow
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Historical energy production, consumption, and battery flow
   name: Tesla Energy History API
   slug: tesla-energy-history-api
-- description: Real-time power, state-of-charge, and grid status for an energy site
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Real-time power, state-of-charge, and grid status for an energy site
   name: Tesla Energy Live Status API
   slug: tesla-energy-live-status-api
-- description: Reserve threshold for EV charging when the site is islanded from the grid
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Reserve threshold for EV charging when the site is islanded from the grid
   name: Tesla Energy Off Grid Charging API
   slug: tesla-energy-off-grid-charging-api
-- description: Operation mode — self_consumption, backup, or autonomous
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Operation mode — self_consumption, backup, or autonomous
   name: Tesla Energy Operation API
   slug: tesla-energy-operation-api
-- description: Discover energy_sites and other products owned by the authenticated account
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Discover energy_sites and other products owned by the authenticated account
   name: Tesla Energy Products API
   slug: tesla-energy-products-api
-- description: Virtual power plant and grid-services program participation
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Virtual power plant and grid-services program participation
   name: Tesla Energy Programs API
   slug: tesla-energy-programs-api
-- description: Static configuration of an energy site (components, address, time zone)
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Static configuration of an energy site (components, address, time zone)
   name: Tesla Energy Site Info API
   slug: tesla-energy-site-info-api
-- description: Pre-charge Powerwall to 100% ahead of severe weather alerts
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Pre-charge Powerwall to 100% ahead of severe weather alerts
   name: Tesla Energy Storm Mode API
   slug: tesla-energy-storm-mode-api
-- description: Tariff schedule, peak/off-peak rate plans, and TOU optimization
+- baseURL: https://fleet-api.prd.na.vn.cloud.tesla.com/api/1
+  baseurl_source: declared
+  description: Tariff schedule, peak/off-peak rate plans, and TOU optimization
   name: Tesla Energy Time Of Use API
   slug: tesla-energy-time-of-use-api
 artifact_total: 65
@@ -384,7 +404,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -394,7 +414,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 50.0
-  previous_composite: 62.8
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     contracts:
@@ -409,7 +429,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesla-energy/refs/heads/main/screenshots/tesla-energy-2026-08-17T125758.png
 security:

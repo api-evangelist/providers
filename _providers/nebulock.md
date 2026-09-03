@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 55 operations · 33 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Actors, users, and hosts — the identity/asset correlation graph.
+- baseURL: https://api.nebulock.io
+  baseurl_source: declared
+  description: Actors, users, and hosts — the identity/asset correlation graph.
   name: Nebulock Entities API
   slug: nebulock-entities-api
-- description: Retrieve and manage security findings and their comments.
+- baseURL: https://api.nebulock.io
+  baseurl_source: declared
+  description: Retrieve and manage security findings and their comments.
   name: Nebulock Findings API
   slug: nebulock-findings-api
-- description: Threat hunts, hunt suggestions, and hunt reports.
+- baseURL: https://api.nebulock.io
+  baseurl_source: declared
+  description: Threat hunts, hunt suggestions, and hunt reports.
   name: Nebulock Hunts API
   slug: nebulock-hunts-api
-- description: Create, validate, and run detection rules (Sigma / scheduled SQL).
+- baseURL: https://api.nebulock.io
+  baseurl_source: declared
+  description: Create, validate, and run detection rules (Sigma / scheduled SQL).
   name: Nebulock Rules API
   slug: nebulock-rules-api
 arazzos:
@@ -223,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/screenshots/nebulock-2026-08-07T184813.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 72 operations · 33 acting
 api_count: 15
 apis:
-- description: Operations for managing action groups
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing action groups
   name: Azure Monitor Action Groups API
   slug: microsoft-azure-monitor-action-groups-api
-- description: Operations for querying Azure Activity Log events
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for querying Azure Activity Log events
   name: Azure Monitor Activity Logs API
   slug: microsoft-azure-monitor-activity-logs-api
-- description: Operations for managing classic metric alert rules
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing classic metric alert rules
   name: Azure Monitor Alert Rules API
   slug: microsoft-azure-monitor-alert-rules-api
-- description: Operations for managing autoscale settings
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing autoscale settings
   name: Azure Monitor Autoscale Settings API
   slug: microsoft-azure-monitor-autoscale-settings-api
-- description: Operations for managing data collection endpoints
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing data collection endpoints
   name: Azure Monitor Data Collection Endpoints API
   slug: microsoft-azure-monitor-data-collection-endpoints-api
-- description: Operations for managing data collection rules
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing data collection rules
   name: Azure Monitor Data Collection Rules API
   slug: microsoft-azure-monitor-data-collection-rules-api
-- description: Operations for managing diagnostic settings on Azure resources
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing diagnostic settings on Azure resources
   name: Azure Monitor Diagnostic Settings API
   slug: microsoft-azure-monitor-diagnostic-settings-api
-- description: Operations for retrieving Application Insights events
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for retrieving Application Insights events
   name: Azure Monitor Events API
   slug: microsoft-azure-monitor-events-api
-- description: Operations for ingesting custom log data into Azure Monitor
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for ingesting custom log data into Azure Monitor
   name: Azure Monitor Logs Ingestion API
   slug: microsoft-azure-monitor-logs-ingestion-api
-- description: Operations for retrieving Application Insights metadata
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for retrieving Application Insights metadata
   name: Azure Monitor Metadata API
   slug: microsoft-azure-monitor-metadata-api
-- description: Operations for listing metric definitions
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for listing metric definitions
   name: Azure Monitor Metric Definitions API
   slug: microsoft-azure-monitor-metric-definitions-api
-- description: Operations for retrieving Application Insights metrics
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for retrieving Application Insights metrics
   name: Azure Monitor Metrics API
   slug: microsoft-azure-monitor-metrics-api
-- description: Operations for batch querying Azure Monitor metrics across multiple resources
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for batch querying Azure Monitor metrics across multiple resources
   name: Azure Monitor Metrics Batch API
   slug: microsoft-azure-monitor-metrics-batch-api
-- description: Operations for getting predictive autoscale metrics
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for getting predictive autoscale metrics
   name: Azure Monitor Predictive Metrics API
   slug: microsoft-azure-monitor-predictive-metrics-api
-- description: Operations for managing Azure Monitor Private Link Scopes
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing Azure Monitor Private Link Scopes
   name: Azure Monitor Private Link Scopes API
   slug: microsoft-azure-monitor-private-link-scopes-api
-- description: Operations for querying Application Insights telemetry data
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for querying Application Insights telemetry data
   name: Azure Monitor Query API
   slug: microsoft-azure-monitor-query-api
-- description: Operations for managing scheduled query-based alert rules
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing scheduled query-based alert rules
   name: Azure Monitor Scheduled Query Rules API
   slug: microsoft-azure-monitor-scheduled-query-rules-api
-- description: Operations for managing scoped resources within a Private Link Scope
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing scoped resources within a Private Link Scope
   name: Azure Monitor Scoped Resources API
   slug: microsoft-azure-monitor-scoped-resources-api
-- description: Operations for sending and retrieving test notifications
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for sending and retrieving test notifications
   name: Azure Monitor Test Notifications API
   slug: microsoft-azure-monitor-test-notifications-api
 arazzos:
@@ -828,7 +866,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:

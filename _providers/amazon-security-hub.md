@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: Operations for enabling and configuring Security Hub.
+- baseURL: https://securityhub.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for enabling and configuring Security Hub.
   name: Amazon Security Hub Administration API
   slug: amazon-security-hub-administration-api
-- description: Operations for managing security findings.
+- baseURL: https://securityhub.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing security findings.
   name: Amazon Security Hub Findings API
   slug: amazon-security-hub-findings-api
-- description: Operations for managing security insights.
+- baseURL: https://securityhub.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing security insights.
   name: Amazon Security Hub Insights API
   slug: amazon-security-hub-insights-api
-- description: Operations for managing product integrations.
+- baseURL: https://securityhub.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing product integrations.
   name: Amazon Security Hub Integrations API
   slug: amazon-security-hub-integrations-api
-- description: Operations for managing security standards.
+- baseURL: https://securityhub.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing security standards.
   name: Amazon Security Hub Standards API
   slug: amazon-security-hub-standards-api
 arazzos:
@@ -351,7 +361,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/screenshots/amazon-security-hub-2026-06-20T171826.png
 security:

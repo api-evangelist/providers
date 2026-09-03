@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
-- description: The Journal S3 Exports API from Amazon QLDB — 1 operation(s) for journal s3 exports.
+- baseURL: https://qldb.amazonaws.com
+  baseurl_source: declared
+  description: The Journal S3 Exports API from Amazon QLDB — 1 operation(s) for journal s3 exports.
   name: Amazon QLDB Journal S3 Exports API
   slug: amazon-qldb-journal-s3-exports-api
-- description: The Ledgers API from Amazon QLDB — 10 operation(s) for ledgers.
+- baseURL: https://qldb.amazonaws.com
+  baseurl_source: declared
+  description: The Ledgers API from Amazon QLDB — 10 operation(s) for ledgers.
   name: Amazon QLDB Ledgers API
   slug: amazon-qldb-ledgers-api
-- description: The Tags API from Amazon QLDB — 2 operation(s) for tags.
+- baseURL: https://qldb.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon QLDB — 2 operation(s) for tags.
   name: Amazon QLDB Tags API
   slug: amazon-qldb-tags-api
 artifact_total: 136
@@ -1047,7 +1053,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/screenshots/amazon-qldb-2026-06-20T171803.png
 security:

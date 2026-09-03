@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -36,82 +49,134 @@ apis:
 - description: SantéVet's partner quote-to-subscribe funnel and rating engine. Creates and updates prospects (with a dedicated GDPR anonymisation operation), creates, searches, validates and subscribes quotations, a
   name: SantéVet Acquisition API
   slug: santevet-acquisition
-- description: The Appareil API from SantéVet — 2 operation(s) for appareil.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Appareil API from SantéVet — 2 operation(s) for appareil.
   name: SantéVet Appareil API
   slug: santevet-appareil-api
-- description: The Civilite API from SantéVet — 2 operation(s) for civilite.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Civilite API from SantéVet — 2 operation(s) for civilite.
   name: SantéVet Civilite API
   slug: santevet-civilite-api
-- description: The ContratRaisonAnnulation API from SantéVet — 2 operation(s) for contratraisonannulation.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The ContratRaisonAnnulation API from SantéVet — 2 operation(s) for contratraisonannulation.
   name: SantéVet Contrat Raison Annulation API
   slug: santevet-contratraisonannulation-api
-- description: The Espece API from SantéVet — 2 operation(s) for espece.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Espece API from SantéVet — 2 operation(s) for espece.
   name: SantéVet Espece API
   slug: santevet-espece-api
-- description: The Fractionnement API from SantéVet — 2 operation(s) for fractionnement.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Fractionnement API from SantéVet — 2 operation(s) for fractionnement.
   name: SantéVet Fractionnement API
   slug: santevet-fractionnement-api
-- description: The Langue API from SantéVet — 2 operation(s) for langue.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Langue API from SantéVet — 2 operation(s) for langue.
   name: SantéVet Langue API
   slug: santevet-langue-api
-- description: The MotifNonRemboursement API from SantéVet — 2 operation(s) for motifnonremboursement.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The MotifNonRemboursement API from SantéVet — 2 operation(s) for motifnonremboursement.
   name: SantéVet Motif Non Remboursement API
   slug: santevet-motifnonremboursement-api
-- description: The MotifPeriode API from SantéVet — 2 operation(s) for motifperiode.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The MotifPeriode API from SantéVet — 2 operation(s) for motifperiode.
   name: SantéVet Motif Periode API
   slug: santevet-motifperiode-api
-- description: The OrigineCommerciale API from SantéVet — 2 operation(s) for originecommerciale.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The OrigineCommerciale API from SantéVet — 2 operation(s) for originecommerciale.
   name: SantéVet Origine Commerciale API
   slug: santevet-originecommerciale-api
-- description: The OrigineConnaissance API from SantéVet — 2 operation(s) for origineconnaissance.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The OrigineConnaissance API from SantéVet — 2 operation(s) for origineconnaissance.
   name: SantéVet Origine Connaissance API
   slug: santevet-origineconnaissance-api
-- description: The Pays API from SantéVet — 2 operation(s) for pays.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Pays API from SantéVet — 2 operation(s) for pays.
   name: SantéVet Pays API
   slug: santevet-pays-api
-- description: The Race API from SantéVet — 3 operation(s) for race.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The Race API from SantéVet — 3 operation(s) for race.
   name: SantéVet Race API
   slug: santevet-race-api
-- description: Reimbursement
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: Reimbursement
   name: SantéVet Reimbursement API
   slug: santevet-reimbursement-api
-- description: The SinistreMotifRetour API from SantéVet — 2 operation(s) for sinistremotifretour.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SinistreMotifRetour API from SantéVet — 2 operation(s) for sinistremotifretour.
   name: SantéVet Sinistre Motif Retour API
   slug: santevet-sinistremotifretour-api
-- description: The StatutSocialPartenaire API from SantéVet — 2 operation(s) for statutsocialpartenaire.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The StatutSocialPartenaire API from SantéVet — 2 operation(s) for statutsocialpartenaire.
   name: SantéVet Statut Social Partenaire API
   slug: santevet-statutsocialpartenaire-api
-- description: The SvDefContratAssurance API from SantéVet — 3 operation(s) for svdefcontratassurance.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SvDefContratAssurance API from SantéVet — 3 operation(s) for svdefcontratassurance.
   name: SantéVet Sv Def Contrat Assurance API
   slug: santevet-svdefcontratassurance-api
-- description: The SvDefOptionAppliqueeAuDefContrat API from SantéVet — 3 operation(s) for svdefoptionappliqueeaudefcontrat.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SvDefOptionAppliqueeAuDefContrat API from SantéVet — 3 operation(s) for svdefoptionappliqueeaudefcontrat.
   name: SantéVet Sv Def Option Appliquee Au Def Contrat API
   slug: santevet-svdefoptionappliqueeaudefcontrat-api
-- description: The SvGroupeRace API from SantéVet — 2 operation(s) for svgrouperace.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SvGroupeRace API from SantéVet — 2 operation(s) for svgrouperace.
   name: SantéVet Sv Groupe Race API
   slug: santevet-svgrouperace-api
-- description: The SvMarqueTel API from SantéVet — 3 operation(s) for svmarquetel.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SvMarqueTel API from SantéVet — 3 operation(s) for svmarquetel.
   name: SantéVet Sv Marque Tel API
   slug: santevet-svmarquetel-api
-- description: The SvPromo API from SantéVet — 2 operation(s) for svpromo.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SvPromo API from SantéVet — 2 operation(s) for svpromo.
   name: SantéVet Sv Promo API
   slug: santevet-svpromo-api
-- description: The SvTarifsContrat API from SantéVet — 2 operation(s) for svtarifscontrat.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The SvTarifsContrat API from SantéVet — 2 operation(s) for svtarifscontrat.
   name: SantéVet Sv Tarifs Contrat API
   slug: santevet-svtarifscontrat-api
-- description: The TypeIdentifiantOfficielPartenaire API from SantéVet — 2 operation(s) for typeidentifiantofficielpartenaire.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The TypeIdentifiantOfficielPartenaire API from SantéVet — 2 operation(s) for typeidentifiantofficielpartenaire.
   name: SantéVet Type Identifiant Officiel Partenaire API
   slug: santevet-typeidentifiantofficielpartenaire-api
-- description: The TypeOption API from SantéVet — 2 operation(s) for typeoption.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The TypeOption API from SantéVet — 2 operation(s) for typeoption.
   name: SantéVet Type Option API
   slug: santevet-typeoption-api
-- description: The TypePartenaire API from SantéVet — 2 operation(s) for typepartenaire.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The TypePartenaire API from SantéVet — 2 operation(s) for typepartenaire.
   name: SantéVet Type Partenaire API
   slug: santevet-typepartenaire-api
-- description: The TypeReglement API from SantéVet — 2 operation(s) for typereglement.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The TypeReglement API from SantéVet — 2 operation(s) for typereglement.
   name: SantéVet Type Reglement API
   slug: santevet-typereglement-api
-- description: The TypeSinistre API from SantéVet — 2 operation(s) for typesinistre.
+- baseURL: https://toolkit.api.santevet.com
+  baseurl_source: declared
+  description: The TypeSinistre API from SantéVet — 2 operation(s) for typesinistre.
   name: SantéVet Type Sinistre API
   slug: santevet-typesinistre-api
 artifact_total: 33
@@ -240,11 +305,11 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -254,7 +319,7 @@ score:
     discoverability: 77.8
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 38.4
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +337,9 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/screenshots/santevet-2026-09-02T154405.png
 security:
 - kind: authentication
   name: Santevet Authentication

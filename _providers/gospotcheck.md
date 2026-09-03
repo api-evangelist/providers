@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 53 operations · 27 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AsyncJobs API from GoSpotCheck — 1 operation(s) for asyncjobs.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The AsyncJobs API from GoSpotCheck — 1 operation(s) for asyncjobs.
   name: GoSpotCheck AsyncJobs API
   slug: gospotcheck-asyncjobs-api
-- description: The CatalogItems API from GoSpotCheck — 2 operation(s) for catalogitems.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The CatalogItems API from GoSpotCheck — 2 operation(s) for catalogitems.
   name: GoSpotCheck CatalogItems API
   slug: gospotcheck-catalogitems-api
-- description: The Catalogs API from GoSpotCheck — 2 operation(s) for catalogs.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Catalogs API from GoSpotCheck — 2 operation(s) for catalogs.
   name: GoSpotCheck Catalogs API
   slug: gospotcheck-catalogs-api
-- description: The CustomViews API from GoSpotCheck — 3 operation(s) for customviews.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The CustomViews API from GoSpotCheck — 3 operation(s) for customviews.
   name: GoSpotCheck CustomViews API
   slug: gospotcheck-customviews-api
-- description: The MissionResponses API from GoSpotCheck — 2 operation(s) for missionresponses.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The MissionResponses API from GoSpotCheck — 2 operation(s) for missionresponses.
   name: GoSpotCheck MissionResponses API
   slug: gospotcheck-missionresponses-api
-- description: The Missions API from GoSpotCheck — 2 operation(s) for missions.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Missions API from GoSpotCheck — 2 operation(s) for missions.
   name: GoSpotCheck Missions API
   slug: gospotcheck-missions-api
-- description: The PlaceGroups API from GoSpotCheck — 4 operation(s) for placegroups.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The PlaceGroups API from GoSpotCheck — 4 operation(s) for placegroups.
   name: GoSpotCheck PlaceGroups API
   slug: gospotcheck-placegroups-api
-- description: The Places API from GoSpotCheck — 2 operation(s) for places.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Places API from GoSpotCheck — 2 operation(s) for places.
   name: GoSpotCheck Places API
   slug: gospotcheck-places-api
-- description: The TaskResponses API from GoSpotCheck — 2 operation(s) for taskresponses.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The TaskResponses API from GoSpotCheck — 2 operation(s) for taskresponses.
   name: GoSpotCheck TaskResponses API
   slug: gospotcheck-taskresponses-api
-- description: The Tasks API from GoSpotCheck — 2 operation(s) for tasks.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Tasks API from GoSpotCheck — 2 operation(s) for tasks.
   name: GoSpotCheck Tasks API
   slug: gospotcheck-tasks-api
-- description: The Teams API from GoSpotCheck — 4 operation(s) for teams.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Teams API from GoSpotCheck — 4 operation(s) for teams.
   name: GoSpotCheck Teams API
   slug: gospotcheck-teams-api
-- description: The UserPlaceAssignments API from GoSpotCheck — 2 operation(s) for userplaceassignments.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The UserPlaceAssignments API from GoSpotCheck — 2 operation(s) for userplaceassignments.
   name: GoSpotCheck UserPlaceAssignments API
   slug: gospotcheck-userplaceassignments-api
-- description: The Users API from GoSpotCheck — 4 operation(s) for users.
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Users API from GoSpotCheck — 4 operation(s) for users.
   name: GoSpotCheck Users API
   slug: gospotcheck-users-api
 artifact_total: 34
@@ -310,7 +336,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gospotcheck/refs/heads/main/screenshots/gospotcheck-2026-07-25T220116.png
 security:

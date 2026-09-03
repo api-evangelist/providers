@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 52 operations · 4 acting
 api_count: 1
 apis:
-- description: 'Add new podcast feeds to the index. **NOTE**: To add to the index, the API Key must have write or publisher permissions.'
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: 'Add new podcast feeds to the index. **NOTE**: To add to the index, the API Key must have write or publisher permissions.'
   name: PodcastIndex Add API
   slug: podcastindex-add-api
-- description: The Apple Replacement API from PodcastIndex — 2 operation(s) for apple replacement.
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: The Apple Replacement API from PodcastIndex — 2 operation(s) for apple replacement.
   name: PodcastIndex Apple Replacement API
   slug: podcastindex-apple-replacement-api
-- description: Categories used by the Podcast Index
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Categories used by the Podcast Index
   name: PodcastIndex Categories API
   slug: podcastindex-categories-api
-- description: Find details about one or more episodes of a podcast or podcasts.
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Find details about one or more episodes of a podcast or podcasts.
   name: PodcastIndex Episodes API
   slug: podcastindex-episodes-api
-- description: Notify the index that a feed has changed
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Notify the index that a feed has changed
   name: PodcastIndex Hub API
   slug: podcastindex-hub-api
-- description: Find details about a Podcast and its feed.
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Find details about a Podcast and its feed.
   name: PodcastIndex Podcasts API
   slug: podcastindex-podcasts-api
-- description: Find recent additions to the index
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Find recent additions to the index
   name: PodcastIndex Recent API
   slug: podcastindex-recent-api
-- description: Search the index
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Search the index
   name: PodcastIndex Search API
   slug: podcastindex-search-api
-- description: The Static Data API from PodcastIndex — 11 operation(s) for static data.
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: The Static Data API from PodcastIndex — 11 operation(s) for static data.
   name: PodcastIndex Static Data API
   slug: podcastindex-static-data-api
-- description: Statistics for items in the Podcast Index
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: Statistics for items in the Podcast Index
   name: PodcastIndex Stats API
   slug: podcastindex-stats-api
-- description: The podcast's "Value for Value" information
+- baseURL: https://api.podcastindex.org/api/1.0
+  baseurl_source: declared
+  description: The podcast's "Value for Value" information
   name: PodcastIndex Value API
   slug: podcastindex-value-api
 artifact_total: 30
@@ -224,7 +246,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

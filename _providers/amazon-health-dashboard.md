@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 13 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeaffectedaccountsfororganizat'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeaffectedaccountsfororganizat'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedaccountsfororganization-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeaffectedentities.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeaffectedentities.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeAffectedEntities API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedentities-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeaffectedentitiesfororganizat'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeaffectedentitiesfororganizat'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeAffectedEntitiesForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeaffectedentitiesfororganization-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEntityAggregates API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeentityaggregates.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEntityAggregates API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeentityaggregates.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEntityAggregates API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeentityaggregates-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventAggregates API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventaggregates.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventAggregates API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventaggregates.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEventAggregates API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventaggregates-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventDetails API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventdetails.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventDetails API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventdetails.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEventDetails API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventdetails-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventDetailsForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventdetailsfororganization.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventDetailsForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventdetailsfororganization.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEventDetailsForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventdetailsfororganization-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEvents API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeevents.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEvents API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeevents.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEvents API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeevents-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventsForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventsfororganization.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventsForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventsfororganization.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEventsForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventsfororganization-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventTypes API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventtypes.'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeEventTypes API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describeeventtypes.'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeEventTypes API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describeeventtypes-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DescribeHealthServiceStatusForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describehealthservicestatusfororg'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DescribeHealthServiceStatusForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.describehealthservicestatusfororg'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DescribeHealthServiceStatusForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-describehealthservicestatusfororganization-api
-- description: 'The #X Amz Target=AWSHealth 20160804.DisableHealthServiceAccessForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.disablehealthserviceaccessfororgan'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.DisableHealthServiceAccessForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.disablehealthserviceaccessfororgan'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.DisableHealthServiceAccessForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-disablehealthserviceaccessfororganization-api
-- description: 'The #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.enablehealthserviceaccessfororganiz'
+- baseURL: https://health.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API from Amazon Health Dashboard — 1 operation(s) for #x amz target=awshealth 20160804.enablehealthserviceaccessfororganiz'
   name: 'Amazon Health Dashboard #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API'
   slug: amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
 artifact_total: 303
@@ -1068,7 +1094,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/screenshots/amazon-health-dashboard-2026-06-20T171659.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 69 operations · 36 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Admin API from Bigtincan — 10 operation(s) for admin.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Admin API from Bigtincan — 10 operation(s) for admin.
   name: Bigtincan Admin API
   slug: bigtincan-admin-api
-- description: The Bookmark API from Bigtincan — 1 operation(s) for bookmark.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Bookmark API from Bigtincan — 1 operation(s) for bookmark.
   name: Bigtincan Bookmark API
   slug: bigtincan-bookmark-api
-- description: The Channel API from Bigtincan — 7 operation(s) for channel.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Channel API from Bigtincan — 7 operation(s) for channel.
   name: Bigtincan Channel API
   slug: bigtincan-channel-api
-- description: The CRM API from Bigtincan — 1 operation(s) for crm.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The CRM API from Bigtincan — 1 operation(s) for crm.
   name: Bigtincan CRM API
   slug: bigtincan-crm-api
-- description: The Event API from Bigtincan — 1 operation(s) for event.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Event API from Bigtincan — 1 operation(s) for event.
   name: Bigtincan Event API
   slug: bigtincan-event-api
-- description: The File API from Bigtincan — 4 operation(s) for file.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The File API from Bigtincan — 4 operation(s) for file.
   name: Bigtincan File API
   slug: bigtincan-file-api
-- description: The Form API from Bigtincan — 5 operation(s) for form.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Form API from Bigtincan — 5 operation(s) for form.
   name: Bigtincan Form API
   slug: bigtincan-form-api
-- description: The Group API from Bigtincan — 5 operation(s) for group.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Group API from Bigtincan — 5 operation(s) for group.
   name: Bigtincan Group API
   slug: bigtincan-group-api
-- description: The History API from Bigtincan — 1 operation(s) for history.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The History API from Bigtincan — 1 operation(s) for history.
   name: Bigtincan History API
   slug: bigtincan-history-api
-- description: The Links API from Bigtincan — 1 operation(s) for links.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Links API from Bigtincan — 1 operation(s) for links.
   name: Bigtincan Links API
   slug: bigtincan-links-api
-- description: The Public File Share API from Bigtincan — 3 operation(s) for public file share.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Public File Share API from Bigtincan — 3 operation(s) for public file share.
   name: Bigtincan Public File Share API
   slug: bigtincan-public-file-share-api
-- description: The Search API from Bigtincan — 2 operation(s) for search.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Search API from Bigtincan — 2 operation(s) for search.
   name: Bigtincan Search API
   slug: bigtincan-search-api
-- description: The Settings API from Bigtincan — 1 operation(s) for settings.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Settings API from Bigtincan — 1 operation(s) for settings.
   name: Bigtincan Settings API
   slug: bigtincan-settings-api
-- description: The Story API from Bigtincan — 11 operation(s) for story.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Story API from Bigtincan — 11 operation(s) for story.
   name: Bigtincan Story API
   slug: bigtincan-story-api
-- description: The Tab API from Bigtincan — 7 operation(s) for tab.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Tab API from Bigtincan — 7 operation(s) for tab.
   name: Bigtincan Tab API
   slug: bigtincan-tab-api
-- description: The Tag API from Bigtincan — 1 operation(s) for tag.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The Tag API from Bigtincan — 1 operation(s) for tag.
   name: Bigtincan Tag API
   slug: bigtincan-tag-api
-- description: The User API from Bigtincan — 6 operation(s) for user.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The User API from Bigtincan — 6 operation(s) for user.
   name: Bigtincan User API
   slug: bigtincan-user-api
-- description: The User Metadata API from Bigtincan — 2 operation(s) for user metadata.
+- baseURL: https://pubapi.bigtincan.com
+  baseurl_source: declared
+  description: The User Metadata API from Bigtincan — 2 operation(s) for user metadata.
   name: Bigtincan User Metadata API
   slug: bigtincan-user-metadata-api
 artifact_total: 27
@@ -311,7 +347,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/screenshots/bigtincan-2026-06-20T173235.png
 security:

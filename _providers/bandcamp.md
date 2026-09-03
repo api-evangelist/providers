@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: 'Merch Orders API for fulfillment partners: list and update merchandise orders (mark shipped, set tracking). Restricted to merchandise fulfillment partners.'
   name: Bandcamp Merch Orders API
   slug: merch-orders
-- description: Account and band information
+- baseURL: https://bandcamp.com/api
+  baseurl_source: declared
+  description: Account and band information
   name: Bandcamp Account API
   slug: bandcamp-account-api
-- description: Merchandise order management and fulfillment
+- baseURL: https://bandcamp.com/api
+  baseurl_source: declared
+  description: Merchandise order management and fulfillment
   name: Bandcamp Merch Orders API
   slug: bandcamp-merch-orders-api
-- description: OAuth 2.0 token issuance and refresh
+- baseURL: https://bandcamp.com/api
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance and refresh
   name: Bandcamp OAuth API
   slug: bandcamp-oauth-api
-- description: Sales reporting for labels
+- baseURL: https://bandcamp.com/api
+  baseurl_source: declared
+  description: Sales reporting for labels
   name: Bandcamp Sales API
   slug: bandcamp-sales-api
 artifact_total: 20
@@ -191,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/screenshots/bandcamp-2026-06-20T172941.png
 security:

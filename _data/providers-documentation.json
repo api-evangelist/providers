@@ -29,7 +29,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -75,7 +75,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -111,8 +111,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Zeroheight",
@@ -132,7 +132,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
@@ -178,7 +178,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -224,7 +224,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -270,7 +270,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -316,7 +316,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -362,7 +362,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -408,7 +408,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -437,6 +437,52 @@
      "rank": 9
     },
     {
+     "name": "Apiary",
+     "slug": "apiary",
+     "description": "Apiary is an API design and documentation platform, now part of Oracle Cloud Infrastructure. With 486,000+ users and 591,000+ APIs managed, it uses API Blueprint and Swagger/OpenAPI specifications to produce interactive API documentation, mock servers, automated testing, and collaborative API design workflows. Apiary enables teams to design APIs before writing code, generate documentation automatically, and validate implementations against specifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/screenshots/apiary-2026-06-20T172227.png",
+     "score": 44.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 21.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 70.8,
+      "commercial_clarity": 77.6,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 27.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Hosted Documentation Platforms",
+     "rank": 10
+    },
+    {
      "name": "Document360",
      "slug": "document360",
      "description": "Document360 is a SaaS knowledge base platform that allows teams to create, manage, and publish self-service knowledge bases and documentation portals. It supports version control, categories, team collaboration, analytics, and an API for integrating documentation into external workflows.",
@@ -454,7 +500,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -480,7 +526,7 @@
       "agentic_commerce": false
      },
      "tier": "Hosted Documentation Platforms",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Archbee",
@@ -500,7 +546,7 @@
       "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -526,7 +572,7 @@
       "agentic_commerce": false
      },
      "tier": "Hosted Documentation Platforms",
-     "rank": 11
+     "rank": 12
     }
    ],
    "open": true
@@ -557,7 +603,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -583,7 +629,7 @@
       "agentic_commerce": false
      },
      "tier": "Hosted Documentation Platforms",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "DeveloperHub",
@@ -603,7 +649,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -629,7 +675,7 @@
       "agentic_commerce": false
      },
      "tier": "Hosted Documentation Platforms",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "RapiDoc",
@@ -649,7 +695,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -675,7 +721,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Doctave",
@@ -695,7 +741,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -721,7 +767,7 @@
       "agentic_commerce": false
      },
      "tier": "Hosted Documentation Platforms",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Zudoku",
@@ -741,7 +787,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
@@ -767,7 +813,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Swagger",
@@ -787,7 +833,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -813,7 +859,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Stoplight Elements",
@@ -833,7 +879,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -859,7 +905,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Slate",
@@ -879,7 +925,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -905,7 +951,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Fumadocs",
@@ -925,7 +971,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -951,7 +997,7 @@
       "agentic_commerce": false
      },
      "tier": "Docs-as-Code Static Site Generators",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "ReDoc",
@@ -971,7 +1017,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.3,
      "agent_band": "agent-aware",
@@ -997,7 +1043,7 @@
       "agentic_commerce": false
      },
      "tier": "API Reference Renderers",
-     "rank": 21
+     "rank": 22
     }
    ]
   },
@@ -1006,55 +1052,9 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
-    {
-     "name": "Apiary",
-     "slug": "apiary",
-     "description": "Apiary is an API design and documentation platform, now part of Oracle Cloud Infrastructure. With 486,000+ users and 591,000+ APIs managed, it uses API Blueprint and Swagger/OpenAPI specifications to produce interactive API documentation, mock servers, automated testing, and collaborative API design workflows. Apiary enables teams to design APIs before writing code, generate documentation automatically, and validate implementations against specifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/screenshots/apiary-2026-06-20T172227.png",
-     "score": 25.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 53.9,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Hosted Documentation Platforms",
-     "rank": 22
-    },
     {
      "name": "Docusaurus",
      "slug": "docusaurus",
@@ -1073,7 +1073,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1119,7 +1119,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1165,7 +1165,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1211,7 +1211,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1257,7 +1257,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1303,7 +1303,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1349,7 +1349,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.1,
      "agent_band": "agent-aware",

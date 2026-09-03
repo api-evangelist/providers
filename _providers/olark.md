@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: 'Browser-side JavaScript API for controlling the Olark chat widget, including chatbox appearance and behavior, chat conversations, visitor information, attention grabber, greeter and pre-chat surveys, '
   name: Olark JavaScript API
   slug: javascript-api
-- description: Chatbox visibility and lifecycle
+- baseURL: https://www.olark.com/api
+  baseurl_source: declared
+  description: Chatbox visibility and lifecycle
   name: Olark Box API
   slug: olark-box-api
-- description: Chat conversation and operator control
+- baseURL: https://www.olark.com/api
+  baseurl_source: declared
+  description: Chat conversation and operator control
   name: Olark Chat API
   slug: olark-chat-api
-- description: Pre-load configuration
+- baseURL: https://www.olark.com/api
+  baseurl_source: declared
+  description: Pre-load configuration
   name: Olark Configure API
   slug: olark-configure-api
-- description: Targeted chat rules
+- baseURL: https://www.olark.com/api
+  baseurl_source: declared
+  description: Targeted chat rules
   name: Olark Rules API
   slug: olark-rules-api
-- description: Visitor profile updates
+- baseURL: https://www.olark.com/api
+  baseurl_source: declared
+  description: Visitor profile updates
   name: Olark Visitor API
   slug: olark-visitor-api
 artifact_total: 18
@@ -181,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/screenshots/olark-2026-06-20T190655.png
 security:

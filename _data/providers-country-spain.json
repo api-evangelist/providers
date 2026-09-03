@@ -1,6 +1,6 @@
 {
- "total": 35,
- "shown": 35,
+ "total": 36,
+ "shown": 36,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -99,7 +99,7 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -144,7 +144,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -196,7 +196,7 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -241,7 +241,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -286,7 +286,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -342,7 +342,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -394,7 +394,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -446,7 +446,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -491,7 +491,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -543,7 +543,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -588,7 +588,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -640,7 +640,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -681,8 +681,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Autonomous University of Madrid",
@@ -702,7 +702,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -754,7 +754,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -806,7 +806,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -850,7 +850,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -902,7 +902,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -930,6 +930,57 @@
      "rank": 18
     },
     {
+     "name": "Veratech for Health",
+     "slug": "veratech",
+     "description": "VeraTech for Health S.L. is a Spanish semantic-interoperability consultancy and health-data tooling vendor, founded in 2010 in Valencia as a spin-off of the Biomedical Informatics group (IBIME) at the Universitat Politecnica de Valencia and based at BIOHUB VLC. It helps hospitals, regional health services and research networks make clinical data comprehensible and reusable, combining advisory work, an interoperability office model and applied innovation (NLP, knowledge graphs, machine learning) with its own LinkEHR Interoperability Platform. LinkEHR is a set of desktop and server tools for authoring clinical information models as archetypes and normalizing legacy clinical data into openEHR, ISO/EN 13606, HL7 CDA, HL7 FHIR, OMOP CDM and CDISC ODM. Veratech is an official openEHR training provider for CatSalut, is EHDEN-accredited for OMOP CDM mapping, and works on SNOMED CT adoption in the Spanish national health system. It publishes no public developer program, no API and no machine-readable contract; its software is distributed as downloadable builds and commercially licensed modules sold through direct contact.",
+     "score": 21.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 23.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
      "name": "IDOVEN",
      "slug": "idoven",
      "description": "Idoven builds artificial-intelligence solutions for cardiovascular care. Its flagship platform, Willem, is a CE-marked Class IIa medical device that analyzes electrocardiograms (ECGs) to detect, diagnose, and monitor cardiac disease, identifying 22 cardiac patterns and 4 intervals across ambulatory devices, diagnostic ECGs, and insertable cardiac monitors. Idoven serves MedTech companies, Life Sciences (cardiotoxicity monitoring and disease-risk scoring for pharma trials), and preventative remote-screening programs. The Willem API supports bi-directional data exchange in EDF, HL7, DICOM, JSON, XML, and PDF. The company is headquartered in Spain, holds an extensive ISO and IEC certification program, and is backed by Insight Partners and Northzone. Sector: healthcare / cardiology AI.",
@@ -947,7 +998,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -979,7 +1030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Aragón Open Data",
@@ -999,59 +1050,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Bienvenido a OpenData UGR",
-     "slug": "opendata-ugr-es",
-     "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
-     "score": 15.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1086,10 +1085,10 @@
      "rank": 21
     },
     {
-     "name": "Datos abiertos",
-     "slug": "datos-madrid-es",
-     "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
+     "name": "Bienvenido a OpenData UGR",
+     "slug": "opendata-ugr-es",
+     "description": "Bienvenido a OpenData UGR is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 65 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-ugr-es/refs/heads/main/screenshots/opendata-ugr-es-2026-06-20T190951.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1103,7 +1102,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1138,10 +1137,10 @@
      "rank": 22
     },
     {
-     "name": "Madrid Region Open Data",
-     "slug": "datos-comunidad-madrid",
-     "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
+     "name": "Datos abiertos",
+     "slug": "datos-madrid-es",
+     "description": "Datos abiertos is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 667 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-madrid-es/refs/heads/main/screenshots/datos-madrid-es-2026-06-20T175723.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1155,7 +1154,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1190,10 +1189,10 @@
      "rank": 23
     },
     {
-     "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
-     "slug": "datosabiertos-malaga-eu",
-     "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
+     "name": "Madrid Region Open Data",
+     "slug": "datos-comunidad-madrid",
+     "description": "Madrid Region Open Data is a regional government open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,282 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datos-comunidad-madrid/refs/heads/main/screenshots/datos-comunidad-madrid-2026-06-20T175719.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1207,7 +1206,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1242,10 +1241,10 @@
      "rank": 24
     },
     {
-     "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
-     "slug": "datosabiertos-rivasciudad-es",
-     "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
+     "name": "Portal Datos Abiertos Ayuntamiento de Málaga",
+     "slug": "datosabiertos-malaga-eu",
+     "description": "Portal Datos Abiertos Ayuntamiento de Málaga is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,368 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-malaga-eu/refs/heads/main/screenshots/datosabiertos-malaga-eu-2026-06-20T175730.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1259,7 +1258,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1294,6 +1293,58 @@
      "rank": 25
     },
     {
+     "name": "Portal oficial Ayuntamiento de Rivas Vaciamadrid",
+     "slug": "datosabiertos-rivasciudad-es",
+     "description": "Portal oficial Ayuntamiento de Rivas Vaciamadrid is a open data portal open-data portal for Spain running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 7 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/screenshots/datosabiertos-rivasciudad-es-2026-06-20T175731.png",
+     "score": 15.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
+    },
+    {
      "name": "Ontruck",
      "slug": "ontruck",
      "description": "Ontruck is a Spanish road-freight technology platform that connects shippers (cargadores) with a network of professional carriers (transportistas) for full-truckload and less-than-truckload pallet, package, and parcel transport across Spain, France, and wider Europe. Shippers get instant AI-driven pricing, automated carrier assignment, real-time traceability, and digital documentation through service tiers (Economy, Flex, Express); carriers get access to freight loads with dynamic pricing and 24/7 support. Ontruck also packages its stack as \"Ontruck AI Tech\" — an AI pricing engine, AI routing engine, a predictive incident system, and a forecast/capacity planner — offered as transport-management software. The company operates a marketing and customer web surface plus an in-product shipper/carrier application; it publishes no public developer/API portal, OpenAPI, or SDKs at this time.",
@@ -1311,7 +1362,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1336,7 +1387,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Impress",
@@ -1356,7 +1407,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1388,7 +1439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     }
    ]
   },
@@ -1418,52 +1469,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "Magnific",
-     "slug": "magnific-ai",
-     "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1491,6 +1497,51 @@
      "rank": 29
     },
     {
+     "name": "Magnific",
+     "slug": "magnific-ai",
+     "description": "Magnific is a Spanish AI image enhancement startup, founded in 2023 by Javi Lopez and Emilio Nicolas, best known for its AI image upscaler and enhancer that hallucinates believable new detail at higher resolutions. The product line expanded from the original Upscaler into Relight (AI-driven scene relighting), Structure (compose-from-sketch), Style Transfer, Mystic (text-to-image), and Fluffy (consistent characters). Magnific was acquired by Freepik in May 2024 and continues to operate under the Magnific brand while powering Freepik's image enhancement surface. There is no publicly documented developer API for Magnific itself; access is via the web application at magnific.ai (now magnific.com) and through the Freepik AI suite, where related image generation and upscaling capabilities are exposed via the Freepik API. Customer support is handled through an Intercom-backed help center and the founders maintain a high-visibility presence on X/Twitter.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magnific-ai/refs/heads/main/screenshots/magnific-ai-2026-06-20T184848.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 30
+    },
+    {
      "name": "Goin",
      "slug": "goin",
      "description": "Goin is a European consumer fintech platform, backed by Anthemis and based in Barcelona, Spain, that helps more than 700,000 users across Europe grow their money and spend less. The app bundles automated savings (fixed daily, weekly or monthly rules and goal-based portfolios), investing, buying and selling of cryptocurrencies, cashback and rewards at hundreds of online and physical stores, gift cards and coupons, and a browser extension that surfaces discounts while shopping. Bank accounts are connected securely under Europe's PSD2 open banking regulation, and a referral program rewards users for inviting friends. Goin is a business-to-consumer mobile product distributed through the Apple App Store and Google Play; it does not publish a public developer program, API, or documentation surface. This API Evangelist profile tracks Goin as a portfolio lead and captures its public web, help, and legal presence.",
@@ -1508,7 +1559,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1540,7 +1591,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "UPM YODA Open Data Portal",
@@ -1560,7 +1611,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1592,7 +1643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Blink Booking",
@@ -1612,51 +1663,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "Circular",
-     "slug": "circular",
-     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1684,6 +1691,50 @@
      "rank": 33
     },
     {
+     "name": "Circular",
+     "slug": "circular",
+     "description": "Circular was a Spanish hiring community that connected tech recruiters with software developers, describing itself as a \"Hiring Community for Tech Recruiters & Developers.\" It operated a referral-driven talent network in which recruiters shared vetted candidates they could not place themselves, and developers received job opportunities through that trusted pool rather than through cold outreach. The company was backed by Point Nine Capital and ran its candidate and recruiter landing experiences on a Next.js application served from circular.io and static.circular.io. Circular has since shut down and merged into Manfred (getmanfred.com), the largest tech community in Spain, with its own migration notice stating \"Circular cierra sus puertas para integrarse en Manfred.\" The circular.io domain remains registered to Singular People Europe S.L. but has been fully undelegated, and Point Nine no longer lists Circular in its portfolio. Circular never published a public developer program, API, SDK, or specification. This profile is retained as a historical record; there is no API surface to enrich.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
+    },
+    {
      "name": "Masmovil",
      "slug": "masmovil",
      "description": "Masmovil (MasMovil Group) is a Spanish telecommunications operator providing mobile, fiber optic internet, and fixed-line services to consumers and businesses across Spain, with bundled fiber-plus-mobile packages, device sales, roaming, and international calling. The group operates a family of consumer telecom brands and, following its 2024 combination with Orange Spain, is part of the MasOrange joint venture. As of this enrichment pass Masmovil publishes no public developer portal, API documentation, or machine-readable API specification; the network profile carries the identity and a domain security posture probe only.",
@@ -1701,7 +1752,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1733,7 +1784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Groupalia",
@@ -1753,7 +1804,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1785,7 +1836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     }
    ]
   }

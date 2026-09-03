@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Submit and manage batches of requests.
+- baseURL: https://api.sailresearch.com/v1
+  baseurl_source: declared
+  description: Submit and manage batches of requests.
   name: Sail Research Batches API API
   slug: sail-research-batches-api-api
-- description: OpenAI-compatible Chat Completions API endpoints.
+- baseURL: https://api.sailresearch.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible Chat Completions API endpoints.
   name: Sail Research Chat Completions API API
   slug: sail-research-chat-completions-api-api
-- description: Anthropic-compatible Messages API endpoints.
+- baseURL: https://api.sailresearch.com/v1
+  baseurl_source: declared
+  description: Anthropic-compatible Messages API endpoints.
   name: Sail Research Messages API API
   slug: sail-research-messages-api-api
-- description: Model discovery endpoints.
+- baseURL: https://api.sailresearch.com/v1
+  baseurl_source: declared
+  description: Model discovery endpoints.
   name: Sail Research Models API API
   slug: sail-research-models-api-api
-- description: OpenAI-compatible Responses API endpoints.
+- baseURL: https://api.sailresearch.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible Responses API endpoints.
   name: Sail Research Responses API API
   slug: sail-research-responses-api-api
 artifact_total: 15
@@ -220,7 +230,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -230,7 +240,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 48.2
+  previous_composite: 47.9
   provenance:
     conformance: derived
     contracts:
@@ -241,7 +251,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sail-research/refs/heads/main/screenshots/sail-research-2026-08-17T081712.png
 security:

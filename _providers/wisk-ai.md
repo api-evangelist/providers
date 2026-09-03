@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: No public, documented webhook or event-subscription surface is published by WISK as of this catalog date. Event-driven exchange with POS partners is arranged through WISK's partner integration process
   name: WISK Webhooks
   slug: wisk-ai-webhooks
-- description: Push point-of-sale sales line items into a WISK venue account.
+- baseURL: https://api.wisk.ai
+  baseurl_source: spec
+  description: Push point-of-sale sales line items into a WISK venue account.
   name: WISK Sales API
   slug: wisk-ai-sales-api
 artifact_total: 27
@@ -240,7 +242,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/screenshots/wisk-ai-2026-06-20T201524.png
 security:

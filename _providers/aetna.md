@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,13 +48,19 @@ agentic_access:
   summary_line: 99 operations
 api_count: 95
 apis:
-- description: HL7 FHIR R4 Patient Access API giving Aetna members, through an app they authorize, access to their adjudicated claims, encounter data, coverage, clinical records and formulary information. Implements
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: HL7 FHIR R4 Patient Access API giving Aetna members, through an app they authorize, access to their adjudicated claims, encounter data, coverage, clinical records and formulary information. Implements
   name: Aetna Patient Access FHIR API
   slug: aetna-patient-access-fhir-api
-- description: HL7 FHIR R4 Provider Directory API implementing the Da Vinci PDex Plan Net Implementation Guide (upgraded to version 1.2.0 on 2026-06-23), covering both Medicare and Commercial networks. Exposes Pract
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: HL7 FHIR R4 Provider Directory API implementing the Da Vinci PDex Plan Net Implementation Guide (upgraded to version 1.2.0 on 2026-06-23), covering both Medicare and Commercial networks. Exposes Pract
   name: Aetna Provider Directory FHIR API
   slug: aetna-provider-directory-fhir-api
-- description: Da Vinci PDex US Drug Formulary 2.0.0 STU 2 formulary data, delivered as part of the Patient Access API product rather than as a separate base URL. MedicationKnowledge carries covered drugs, tiers, co
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: Da Vinci PDex US Drug Formulary 2.0.0 STU 2 formulary data, delivered as part of the Patient Access API product rather than as a separate base URL. MedicationKnowledge carries covered drugs, tiers, co
   name: Aetna Drug Formulary FHIR API
   slug: aetna-drug-formulary-fhir-api
 - description: 'Da Vinci prior-authorization surface built for CMS-0057-F: Coverage Requirements Discovery (STU 2.1) at /coveragerequirementsdiscovery/v1/cds-services/{id} supporting the order-sign, order-dispatch an'
@@ -791,7 +797,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -4.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -801,7 +807,7 @@ score:
     discoverability: 74.1
     governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 51.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -819,7 +825,7 @@ score:
     regime_id: health
     score: 68.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

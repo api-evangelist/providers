@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: 'The Symantec DLP REST API enables integration with the DLP Enforce platform for incident management, policy management, and data discovery. Supports retrieving incidents, updating remediation status, '
   name: Symantec Data Loss Prevention API
   slug: symantec-dlp-api
-- description: SEPM administrator account management
+- baseURL: https://{sepm-host}:8446/sepm/api/v1
+  baseurl_source: declared
+  description: SEPM administrator account management
   name: Symantec Administrators API
   slug: symantec-administrators-api
-- description: API version information
+- baseURL: https://{sepm-host}:8446/sepm/api/v1
+  baseurl_source: declared
+  description: API version information
   name: Symantec API Version API
   slug: symantec-api-version-api
-- description: OAuth 2.0 authentication endpoints
+- baseURL: https://{sepm-host}:8446/sepm/api/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authentication endpoints
   name: Symantec Authentication API
   slug: symantec-authentication-api
-- description: Endpoint computer management and querying
+- baseURL: https://{sepm-host}:8446/sepm/api/v1
+  baseurl_source: declared
+  description: Endpoint computer management and querying
   name: Symantec Computers API
   slug: symantec-computers-api
-- description: SEPM group management
+- baseURL: https://{sepm-host}:8446/sepm/api/v1
+  baseurl_source: declared
+  description: SEPM group management
   name: Symantec Groups API
   slug: symantec-groups-api
 artifact_total: 28
@@ -293,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/screenshots/symantec-2026-06-20T194819.png
 security:

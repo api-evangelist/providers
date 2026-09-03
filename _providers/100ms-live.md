@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 8
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 63 operations · 34 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: In-session control of running rooms and connected peers.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: In-session control of running rooms and connected peers.
   name: 100ms Active Rooms API
   slug: 100ms-live-active-rooms-api
-- description: Query webhook events, track events, recording events, errors, and peer quality.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Query webhook events, track events, recording events, errors, and peer quality.
   name: 100ms Analytics API
   slug: 100ms-live-analytics-api
-- description: Push the room feed to YouTube / Twitch / Facebook via RTMP.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Push the room feed to YouTube / Twitch / Facebook via RTMP.
   name: 100ms External Streams API
   slug: 100ms-live-external-streams-api
-- description: HLS live streams driven from a 100ms room.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: HLS live streams driven from a 100ms room.
   name: 100ms Live Streams API
   slug: 100ms-live-live-streams-api
-- description: Templates, roles, and recording configuration.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Templates, roles, and recording configuration.
   name: 100ms Policy API
   slug: 100ms-live-policy-api
-- description: Real-time polls and quizzes inside a room.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Real-time polls and quizzes inside a room.
   name: 100ms Polls API
   slug: 100ms-live-polls-api
-- description: Output assets (mp4, mp3, transcript, chat) produced by recordings.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Output assets (mp4, mp3, transcript, chat) produced by recordings.
   name: 100ms Recording Assets API
   slug: 100ms-live-recording-assets-api
-- description: Composite and track-level recordings of sessions.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Composite and track-level recordings of sessions.
   name: 100ms Recordings API
   slug: 100ms-live-recordings-api
-- description: Short codes used by client apps to join a room.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Short codes used by client apps to join a room.
   name: 100ms Room Codes API
   slug: 100ms-live-room-codes-api
-- description: Persistent containers for a live session.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Persistent containers for a live session.
   name: 100ms Rooms API
   slug: 100ms-live-rooms-api
-- description: Historical sessions inside a room.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Historical sessions inside a room.
   name: 100ms Sessions API
   slug: 100ms-live-sessions-api
-- description: Per-room RTMP ingest stream keys.
+- baseURL: https://api.100ms.live/v2
+  baseurl_source: declared
+  description: Per-room RTMP ingest stream keys.
   name: 100ms Stream Keys API
   slug: 100ms-live-stream-keys-api
 artifact_total: 57
@@ -407,7 +431,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png
 security:

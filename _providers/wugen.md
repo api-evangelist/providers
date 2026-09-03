@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,25 +44,39 @@ agentic_access:
   summary_line: 38 operations
 api_count: 7
 apis:
-- description: The Comments API from Wugen — 2 operation(s) for comments.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Wugen — 2 operation(s) for comments.
   name: Wugen Comments API
   slug: wugen-comments-api
-- description: The Discovery API from Wugen — 7 operation(s) for discovery.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Wugen — 7 operation(s) for discovery.
   name: Wugen Discovery API
   slug: wugen-discovery-api
-- description: The Media API from Wugen — 2 operation(s) for media.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Wugen — 2 operation(s) for media.
   name: Wugen Media API
   slug: wugen-media-api
-- description: The Pages API from Wugen — 2 operation(s) for pages.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Wugen — 2 operation(s) for pages.
   name: Wugen Pages API
   slug: wugen-pages-api
-- description: The Posts API from Wugen — 2 operation(s) for posts.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Wugen — 2 operation(s) for posts.
   name: Wugen Posts API
   slug: wugen-posts-api
-- description: The Search API from Wugen — 1 operation(s) for search.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Wugen — 1 operation(s) for search.
   name: Wugen Search API
   slug: wugen-search-api
-- description: The Taxonomy API from Wugen — 4 operation(s) for taxonomy.
+- baseURL: https://alloteratx.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Wugen — 4 operation(s) for taxonomy.
   name: Wugen Taxonomy API
   slug: wugen-taxonomy-api
 artifact_total: 18
@@ -223,11 +248,11 @@ score:
   band: thin
   composite: 27.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 60.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -237,7 +262,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.6
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +279,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wugen/refs/heads/main/screenshots/wugen-2026-09-02T171015.png
 security:
 - kind: authentication
   name: Wugen Authentication

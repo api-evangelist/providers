@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The primary, supported interface to Arcjet. SDKs ship for Node.js, Next.js, Bun, Deno, SvelteKit, NestJS, Remix, Astro, React Router, Fastify, and Python, each wrapping the Connect/gRPC Decide protoco
   name: Arcjet SDKs
   slug: arcjet-sdks
-- description: The Decide API from Arcjet — 1 operation(s) for decide.
+- baseURL: https://decide.arcjet.com
+  baseurl_source: declared
+  description: The Decide API from Arcjet — 1 operation(s) for decide.
   name: Arcjet Decide API
   slug: arcjet-decide-api
-- description: The Report API from Arcjet — 1 operation(s) for report.
+- baseURL: https://decide.arcjet.com
+  baseurl_source: declared
+  description: The Report API from Arcjet — 1 operation(s) for report.
   name: Arcjet Report API
   slug: arcjet-report-api
 artifact_total: 14
@@ -164,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcjet/refs/heads/main/screenshots/arcjet-2026-06-20T172415.png
 security:

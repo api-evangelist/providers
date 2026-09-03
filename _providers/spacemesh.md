@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,28 +42,44 @@ agentic_access:
   summary_line: 26 operations · 16 acting
 api_count: 2
 apis:
-- description: The AccountService API from Spacemesh — 2 operation(s) for accountservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The AccountService API from Spacemesh — 2 operation(s) for accountservice.
   name: Spacemesh AccountService API
   slug: spacemesh-accountservice-api
-- description: The ActivationService API from Spacemesh — 6 operation(s) for activationservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The ActivationService API from Spacemesh — 6 operation(s) for activationservice.
   name: Spacemesh ActivationService API
   slug: spacemesh-activationservice-api
-- description: The LayerService API from Spacemesh — 2 operation(s) for layerservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The LayerService API from Spacemesh — 2 operation(s) for layerservice.
   name: Spacemesh LayerService API
   slug: spacemesh-layerservice-api
-- description: The MalfeasanceService API from Spacemesh — 2 operation(s) for malfeasanceservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The MalfeasanceService API from Spacemesh — 2 operation(s) for malfeasanceservice.
   name: Spacemesh MalfeasanceService API
   slug: spacemesh-malfeasanceservice-api
-- description: The NetworkService API from Spacemesh — 2 operation(s) for networkservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The NetworkService API from Spacemesh — 2 operation(s) for networkservice.
   name: Spacemesh NetworkService API
   slug: spacemesh-networkservice-api
-- description: The NodeService API from Spacemesh — 2 operation(s) for nodeservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The NodeService API from Spacemesh — 2 operation(s) for nodeservice.
   name: Spacemesh NodeService API
   slug: spacemesh-nodeservice-api
-- description: The RewardService API from Spacemesh — 2 operation(s) for rewardservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The RewardService API from Spacemesh — 2 operation(s) for rewardservice.
   name: Spacemesh RewardService API
   slug: spacemesh-rewardservice-api
-- description: The TransactionService API from Spacemesh — 8 operation(s) for transactionservice.
+- baseURL: https://api.spacemesh.network
+  baseurl_source: declared
+  description: The TransactionService API from Spacemesh — 8 operation(s) for transactionservice.
   name: Spacemesh TransactionService API
   slug: spacemesh-transactionservice-api
 artifact_total: 20
@@ -225,7 +241,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -254,8 +270,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spacemesh/refs/heads/main/screenshots/spacemesh-2026-09-02T160328.png
 security:
 - kind: domain-security
   name: Spacemesh Domain Security

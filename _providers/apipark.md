@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: The AI Models API from APIPark — 1 operation(s) for ai models.
+- baseURL: https://api.apipark.com/v1
+  baseurl_source: declared
+  description: The AI Models API from APIPark — 1 operation(s) for ai models.
   name: APIPark AI Models API
   slug: apipark-ai-models-api
-- description: The Services API from APIPark — 1 operation(s) for services.
+- baseURL: https://api.apipark.com/v1
+  baseurl_source: declared
+  description: The Services API from APIPark — 1 operation(s) for services.
   name: APIPark Services API
   slug: apipark-services-api
-- description: The Subscriptions API from APIPark — 1 operation(s) for subscriptions.
+- baseURL: https://api.apipark.com/v1
+  baseurl_source: declared
+  description: The Subscriptions API from APIPark — 1 operation(s) for subscriptions.
   name: APIPark Subscriptions API
   slug: apipark-subscriptions-api
-- description: The Teams API from APIPark — 1 operation(s) for teams.
+- baseURL: https://api.apipark.com/v1
+  baseurl_source: declared
+  description: The Teams API from APIPark — 1 operation(s) for teams.
   name: APIPark Teams API
   slug: apipark-teams-api
 artifact_total: 37
@@ -232,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/screenshots/apipark-2026-06-20T172255.png
 security:

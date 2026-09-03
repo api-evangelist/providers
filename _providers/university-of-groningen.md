@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'The JSON backend behind Ocasys, the University''s own course and degree-programme catalog. Verified live 2026-08-30 with no credentials: course search, full course records, the catalog page projection,'
+- baseURL: https://ocasys.rug.nl/api
+  baseurl_source: declared
+  description: 'The JSON backend behind Ocasys, the University''s own course and degree-programme catalog. Verified live 2026-08-30 with no credentials: course search, full course records, the catalog page projection,'
   name: University of Groningen Ocasys Course Catalog API
   slug: ocasys-course-catalog
-- description: 'Keyless OAI-PMH 2.0 metadata-harvesting endpoint operated by the University on its own domain. Verified live 2026-08-30: Identify reports protocolVersion 2.0, repositoryName "University of Groningen R'
+- baseURL: https://pure.rug.nl/ws/oai
+  baseurl_source: declared
+  description: 'Keyless OAI-PMH 2.0 metadata-harvesting endpoint operated by the University on its own domain. Verified live 2026-08-30: Identify reports protocolVersion 2.0, repositoryName "University of Groningen R'
   name: University of Groningen Research Database OAI-PMH
   slug: pure-oai-pmh
 - description: 'The University runs its own SAML 2.0 identity provider and publishes signed federation metadata at signon.rug.nl for entityID https://signon.rug.nl/nidp/saml2/metadata. Verified live 2026-08-30: 25KB '
@@ -246,23 +250,23 @@ rules:
   slug: university-of-groningen-course-catalog-rules
 score:
   band: developing
-  composite: 46.9
+  composite: 46.7
   coverage:
     artifact_dirs: 16
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: -0.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 22.7
-    contract_quality: 54.8
+    contract_quality: 54.1
     developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 22.7
     operational_transparency: 26.3
-  previous_composite: 46.8
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     contracts:
@@ -277,7 +281,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png
 security:

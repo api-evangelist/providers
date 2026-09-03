@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -33,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 16 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Provides APIs to manage API key(s), including adding new keys, listing existing keys, and deleting keys.
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: Provides APIs to manage API key(s), including adding new keys, listing existing keys, and deleting keys.
   name: ActiveFence api keys API
   slug: activefence-api-keys-api
-- description: Collection API Represents grouped entities. A collection is comprised of multiple items grouped together in a playlist, album, folder, group or channel on your platform. For example, a playlist of vid
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: Collection API Represents grouped entities. A collection is comprised of multiple items grouped together in a playlist, album, folder, group or channel on your platform. For example, a playlist of vid
   name: ActiveFence Collection API
   slug: activefence-collection-api
-- description: Content APIs Represents WHAT content was created on your platform, such as a post, comment, review, message, article or data. For example, a web page containing a video, a customer review of a product
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: Content APIs Represents WHAT content was created on your platform, such as a post, comment, review, message, article or data. For example, a web page containing a video, a customer review of a product
   name: ActiveFence Content API
   slug: activefence-content-api
-- description: The Flags API enables you to send details about the flag made on an item on your platform to the Alice T&S platform.
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: The Flags API enables you to send details about the flag made on an item on your platform to the Alice T&S platform.
   name: ActiveFence Flags API
   slug: activefence-flags-api
-- description: Users API Represents WHO created content on your platform. These are the end users that have uploaded content to your platform, meaning the people who are the creators or publishers of the content. Fo
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: Users API Represents WHO created content on your platform. These are the end users that have uploaded content to your platform, meaning the people who are the creators or publishers of the content. Fo
   name: ActiveFence Users API
   slug: activefence-users-api
-- description: WonderBuild provides red teaming and security assessment tools for AI applications. APIs for running comprehensive security assessments on gen-AI applications.
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: WonderBuild provides red teaming and security assessment tools for AI applications. APIs for running comprehensive security assessments on gen-AI applications.
   name: ActiveFence Wonder Build API
   slug: activefence-wonderbuild-api
-- description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
+- baseURL: https://api.alice.io
+  baseurl_source: declared
+  description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
   name: ActiveFence Wonder Fence API
   slug: activefence-wonderfence-api
 artifact_total: 20
@@ -234,7 +259,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -244,7 +269,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,7 +281,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activefence/refs/heads/main/screenshots/activefence-2026-08-07T160856.png
 security:

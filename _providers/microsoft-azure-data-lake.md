@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: Filesystems operations
+- baseURL: https://{account}.dfs.core.windows.net/
+  baseurl_source: declared
+  description: Filesystems operations
   name: Azure Data Lake Storage Filesystems API
   slug: microsoft-azure-data-lake-filesystems-api
 artifact_total: 10
@@ -147,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-lake/refs/heads/main/screenshots/microsoft-azure-data-lake-2026-06-20T185410.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations
 api_count: 3
 apis:
-- description: Real-time single email address validation. Returns a deliverability result (Safe to Send, Risky, Invalid, Unknown), a result code, role-account and free-provider flags, a did-you-mean typo suggestion,
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: Real-time single email address validation. Returns a deliverability result (Safe to Send, Risky, Invalid, Unknown), a result code, role-account and free-provider flags, a did-you-mean typo suggestion,
   name: DeBounce Validation API
   slug: debounce-validation-api
-- description: Asynchronous bulk email list validation on bulk.debounce.io. Submit the URL of a hosted CSV or TXT list for processing, receive a list_id, then poll the status endpoint for the processing percentage a
+- baseURL: https://bulk.debounce.io
+  baseurl_source: declared
+  description: Asynchronous bulk email list validation on bulk.debounce.io. Submit the URL of a hosted CSV or TXT list for processing, receive a list_id, then poll the status endpoint for the processing percentage a
   name: DeBounce Bulk API
   slug: debounce-bulk-api
-- description: Reverse email lookup / data append. Returns additional contact data associated with an email address. The same enrichment engine is reachable from the single-validation endpoint via the append and pho
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: Reverse email lookup / data append. Returns additional contact data associated with an email address. The same enrichment engine is reachable from the single-validation endpoint via the append and pho
   name: DeBounce Data API
   slug: debounce-data-api
-- description: Account operations. Returns the remaining credit balance on the account and a dated API usage history for a requested start/end window, so consumers can monitor consumption and top up before hitting t
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: Account operations. Returns the remaining credit balance on the account and a dated API usage history for a requested start/end window, so consumers can monitor consumption and top up before hitting t
   name: DeBounce Account API
   slug: debounce-account-api
-- description: Free, unauthenticated disposable email detector on disposable.debounce.io. A single GET with an email address or domain returns whether it belongs to a known disposable or temporary email provider, ch
+- baseURL: https://disposable.debounce.io
+  baseurl_source: declared
+  description: Free, unauthenticated disposable email detector on disposable.debounce.io. A single GET with an email address or domain returns whether it belongs to a known disposable or temporary email provider, ch
   name: DeBounce Disposable Detector API
   slug: debounce-disposable-api
 - description: 'Free company logo lookup service positioned as a drop-in replacement for the deprecated Clearbit Logo API. A GET against logo.debounce.com with a company domain returns a high-quality PNG logo served '
@@ -362,7 +372,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/screenshots/debounce-2026-06-20T175751.png
 security:

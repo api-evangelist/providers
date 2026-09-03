@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Jifiti's Buy Now Pay Later API enables merchants and lenders to offer split payment and consumer financing options, including one-time loans and revolving lines of credit.
@@ -190,7 +190,7 @@ score:
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jifiti/refs/heads/main/screenshots/jifiti-2026-06-20T183731.png
 security:

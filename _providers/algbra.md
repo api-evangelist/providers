@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: Algbra Labs' first-party Partner Banking (Banking-as-a-Service) API for B2B partners, covering customer onboarding and compliance checks, primary and virtual accounts, card issuing, internal/inbound/o
   name: Algbra Partner Banking API
   slug: algbra-partner-banking-api
-- description: The Account Access API from Algbra — 2 operation(s) for account access.
+- baseURL: https://secure.tell.systems/algbra/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Account Access API from Algbra — 2 operation(s) for account access.
   name: Algbra Account Access API
   slug: algbra-account-access-api
-- description: The Accounts API from Algbra — 2 operation(s) for accounts.
+- baseURL: https://secure.tell.systems/algbra/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Accounts API from Algbra — 2 operation(s) for accounts.
   name: Algbra Accounts API
   slug: algbra-accounts-api
-- description: The Balances API from Algbra — 1 operation(s) for balances.
+- baseURL: https://secure.tell.systems/algbra/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Balances API from Algbra — 1 operation(s) for balances.
   name: Algbra Balances API
   slug: algbra-balances-api
-- description: The Beneficiaries API from Algbra — 1 operation(s) for beneficiaries.
+- baseURL: https://secure.tell.systems/algbra/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from Algbra — 1 operation(s) for beneficiaries.
   name: Algbra Beneficiaries API
   slug: algbra-beneficiaries-api
-- description: The Transactions API from Algbra — 1 operation(s) for transactions.
+- baseURL: https://secure.tell.systems/algbra/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Transactions API from Algbra — 1 operation(s) for transactions.
   name: Algbra Transactions API
   slug: algbra-transactions-api
 arazzos:
@@ -224,7 +234,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -234,7 +244,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 56.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,7 +265,7 @@ score:
     regime_id: banking_open_finance
     score: 88.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png
 security:

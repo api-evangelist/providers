@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: 'The SharePoint Framework (SPFx) is a development model for building client-side web parts, extensions, and adaptive card extensions for SharePoint and Microsoft Teams. It uses modern web technologies '
   name: SharePoint Framework (SPFx)
   slug: framework
-- description: The $batch API from Microsoft SharePoint — 1 operation(s) for $batch.
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The $batch API from Microsoft SharePoint — 1 operation(s) for $batch.
   name: Microsoft SharePoint $batch API
   slug: microsoft-sharepoint-batch-api
-- description: The Files API from Microsoft SharePoint — 3 operation(s) for files.
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The Files API from Microsoft SharePoint — 3 operation(s) for files.
   name: Microsoft SharePoint Files API
   slug: microsoft-sharepoint-files-api
-- description: The ListItems API from Microsoft SharePoint — 2 operation(s) for listitems.
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The ListItems API from Microsoft SharePoint — 2 operation(s) for listitems.
   name: Microsoft SharePoint ListItems API
   slug: microsoft-sharepoint-listitems-api
-- description: The Lists API from Microsoft SharePoint — 2 operation(s) for lists.
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The Lists API from Microsoft SharePoint — 2 operation(s) for lists.
   name: Microsoft SharePoint Lists API
   slug: microsoft-sharepoint-lists-api
-- description: The Site API from Microsoft SharePoint — 1 operation(s) for site.
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The Site API from Microsoft SharePoint — 1 operation(s) for site.
   name: Microsoft SharePoint Site API
   slug: microsoft-sharepoint-site-api
-- description: The Web API from Microsoft SharePoint — 2 operation(s) for web.
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The Web API from Microsoft SharePoint — 2 operation(s) for web.
   name: Microsoft SharePoint Web API
   slug: microsoft-sharepoint-web-api
 artifact_total: 24
@@ -209,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/screenshots/microsoft-sharepoint-2026-06-20T185531.png
 security:

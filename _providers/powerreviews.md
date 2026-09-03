@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 12 operations · 4 acting
 api_count: 4
 apis:
-- description: Endpoint for submitting answers.
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoint for submitting answers.
   name: PowerReviews B2B Answer API
   slug: powerreviews-b2b-answer-api
-- description: Endpoint for submitting merchant responses.
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoint for submitting merchant responses.
   name: PowerReviews B2B MerchantResponse API
   slug: powerreviews-b2b-merchantresponse-api
-- description: Endpoint for submitting questions
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoint for submitting questions
   name: PowerReviews B2B Question API
   slug: powerreviews-b2b-question-api
-- description: Endpoints designed to provide external integration to PowerReviews WAR
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoints designed to provide external integration to PowerReviews WAR
   name: PowerReviews B2B Write a Review API
   slug: powerreviews-b2b-write-a-review-api
-- description: Endpoints for merchant configuration
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoints for merchant configuration
   name: PowerReviews Configuration API
   slug: powerreviews-configuration-api
-- description: Endpoints for product questions and answers by merchant
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoints for product questions and answers by merchant
   name: PowerReviews Q&A API
   slug: powerreviews-q-a-api
-- description: Endpoints for product reviews by merchant
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoints for product reviews by merchant
   name: PowerReviews Reviews API
   slug: powerreviews-reviews-api
-- description: Endpoints for product snippets by merchant
+- baseURL: https://readservices-b2c.powerreviews.com
+  baseurl_source: declared
+  description: Endpoints for product snippets by merchant
   name: PowerReviews Snippets API
   slug: powerreviews-snippets-api
 artifact_total: 15
@@ -250,7 +266,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -260,7 +276,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 47.9
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/screenshots/powerreviews-2026-06-20T192030.png
 security:

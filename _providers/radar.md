@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 6 acting
 api_count: 1
 apis:
-- description: Query location events
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Query location events
   name: Radar Events API
   slug: radar-events-api
-- description: Forward, reverse, and IP geocoding
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Forward, reverse, and IP geocoding
   name: Radar Geocoding API
   slug: radar-geocoding-api
-- description: Manage geographic boundaries
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Manage geographic boundaries
   name: Radar Geofences API
   slug: radar-geofences-api
-- description: Distance, matrix, match, directions, and route optimization
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Distance, matrix, match, directions, and route optimization
   name: Radar Routing API
   slug: radar-routing-api
-- description: Autocomplete, search users, geofences, places, and validate addresses
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Autocomplete, search users, geofences, places, and validate addresses
   name: Radar Search API
   slug: radar-search-api
-- description: Update user locations and generate events
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Update user locations and generate events
   name: Radar Track API
   slug: radar-track-api
-- description: Manage user records
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Manage user records
   name: Radar Users API
   slug: radar-users-api
 artifact_total: 22
@@ -171,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/screenshots/radar-2026-06-20T192516.png
 security:

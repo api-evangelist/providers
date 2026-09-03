@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -33,19 +47,29 @@ agentic_access:
   summary_line: 5 operations · 4 acting
 api_count: 1
 apis:
-- description: The Chat API from RouterPlex — 1 operation(s) for chat.
+- baseURL: https://api.routerplex.com/v1
+  baseurl_source: declared
+  description: The Chat API from RouterPlex — 1 operation(s) for chat.
   name: RouterPlex Chat API
   slug: routerplex-chat-api
-- description: The Images API from RouterPlex — 1 operation(s) for images.
+- baseURL: https://api.routerplex.com/v1
+  baseurl_source: declared
+  description: The Images API from RouterPlex — 1 operation(s) for images.
   name: RouterPlex Images API
   slug: routerplex-images-api
-- description: The Messages API from RouterPlex — 1 operation(s) for messages.
+- baseURL: https://api.routerplex.com/v1
+  baseurl_source: declared
+  description: The Messages API from RouterPlex — 1 operation(s) for messages.
   name: RouterPlex Messages API
   slug: routerplex-messages-api
-- description: The Models API from RouterPlex — 1 operation(s) for models.
+- baseURL: https://api.routerplex.com/v1
+  baseurl_source: declared
+  description: The Models API from RouterPlex — 1 operation(s) for models.
   name: RouterPlex Models API
   slug: routerplex-models-api
-- description: The Responses API from RouterPlex — 1 operation(s) for responses.
+- baseURL: https://api.routerplex.com/v1
+  baseurl_source: declared
+  description: The Responses API from RouterPlex — 1 operation(s) for responses.
   name: RouterPlex Responses API
   slug: routerplex-responses-api
 artifact_total: 17
@@ -272,7 +296,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/screenshots/routerplex-2026-08-17T081643.png
 security:

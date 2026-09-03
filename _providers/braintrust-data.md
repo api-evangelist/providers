@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 69 operations · 42 acting
 api_count: 1
 apis:
-- description: The ACL API from Braintrust — 4 operation(s) for acl.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The ACL API from Braintrust — 4 operation(s) for acl.
   name: Braintrust ACL API
   slug: braintrust-data-acl-api
-- description: The AI Proxy API from Braintrust — 3 operation(s) for ai proxy.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The AI Proxy API from Braintrust — 3 operation(s) for ai proxy.
   name: Braintrust AI Proxy API
   slug: braintrust-data-ai-proxy-api
-- description: The Credentials API from Braintrust — 3 operation(s) for credentials.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Credentials API from Braintrust — 3 operation(s) for credentials.
   name: Braintrust Credentials API
   slug: braintrust-data-credentials-api
-- description: The Datasets API from Braintrust — 6 operation(s) for datasets.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Datasets API from Braintrust — 6 operation(s) for datasets.
   name: Braintrust Datasets API
   slug: braintrust-data-datasets-api
-- description: The Evals API from Braintrust — 1 operation(s) for evals.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Evals API from Braintrust — 1 operation(s) for evals.
   name: Braintrust Evals API
   slug: braintrust-data-evals-api
-- description: The Experiments API from Braintrust — 6 operation(s) for experiments.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Experiments API from Braintrust — 6 operation(s) for experiments.
   name: Braintrust Experiments API
   slug: braintrust-data-experiments-api
-- description: The Functions API from Braintrust — 3 operation(s) for functions.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Functions API from Braintrust — 3 operation(s) for functions.
   name: Braintrust Functions API
   slug: braintrust-data-functions-api
-- description: The Logs API from Braintrust — 3 operation(s) for logs.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Logs API from Braintrust — 3 operation(s) for logs.
   name: Braintrust Logs API
   slug: braintrust-data-logs-api
-- description: The Organization API from Braintrust — 3 operation(s) for organization.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Organization API from Braintrust — 3 operation(s) for organization.
   name: Braintrust Organization API
   slug: braintrust-data-organization-api
-- description: The Project Configuration API from Braintrust — 4 operation(s) for project configuration.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Project Configuration API from Braintrust — 4 operation(s) for project configuration.
   name: Braintrust Project Configuration API
   slug: braintrust-data-project-configuration-api
-- description: The Projects API from Braintrust — 2 operation(s) for projects.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Projects API from Braintrust — 2 operation(s) for projects.
   name: Braintrust Projects API
   slug: braintrust-data-projects-api
-- description: The Prompts API from Braintrust — 2 operation(s) for prompts.
+- baseURL: https://api.braintrust.dev/v1
+  baseurl_source: declared
+  description: The Prompts API from Braintrust — 2 operation(s) for prompts.
   name: Braintrust Prompts API
   slug: braintrust-data-prompts-api
 artifact_total: 34
@@ -221,7 +245,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -231,7 +255,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 44.0
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -240,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/screenshots/braintrust-data-2026-06-20T173631.png
 security:

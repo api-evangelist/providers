@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
 - description: 'HAL-based REST API for Biblos-e Archivo, UAM''s institutional repository, running DSpace 7.6.5. Anonymously readable, HATEOAS-navigable access to communities, collections, items, bitstreams, discovery '
@@ -174,7 +174,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -184,7 +184,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.9
+  previous_composite: 25.9
   provenance:
     conformance: first-party
   regulatory:
@@ -194,7 +194,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png
 security:

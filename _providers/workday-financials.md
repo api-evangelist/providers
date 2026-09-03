@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 71 operations · 14 acting
 api_count: 7
 apis:
-- description: Manage account reconciliation processes
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage account reconciliation processes
   name: Workday Financials Account Reconciliations API
   slug: workday-financials-account-reconciliations-api
-- description: Access and manage accounting journals
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access and manage accounting journals
   name: Workday Financials Accounting Journals API
   slug: workday-financials-accounting-journals-api
-- description: Manage accounting periods and period close
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage accounting periods and period close
   name: Workday Financials Accounting Periods API
   slug: workday-financials-accounting-periods-api
-- description: Manage supplier invoices and payment processing
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage supplier invoices and payment processing
   name: Workday Financials Accounts Payable API
   slug: workday-financials-accounts-payable-api
-- description: Manage customer invoices and receivables
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage customer invoices and receivables
   name: Workday Financials Accounts Receivable API
   slug: workday-financials-accounts-receivable-api
-- description: Access financial audit trail data
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access financial audit trail data
   name: Workday Financials Audit Logs API
   slug: workday-financials-audit-logs-api
-- description: Manage bank accounts
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage bank accounts
   name: Workday Financials Bank Accounts API
   slug: workday-financials-bank-accounts-api
-- description: Access and manage bank transactions
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access and manage bank transactions
   name: Workday Financials Bank Transactions API
   slug: workday-financials-bank-transactions-api
-- description: Manage billing schedules and invoice generation
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage billing schedules and invoice generation
   name: Workday Financials Billing Schedules API
   slug: workday-financials-billing-schedules-api
-- description: Access cash forecasting data
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access cash forecasting data
   name: Workday Financials Cash Forecasts API
   slug: workday-financials-cash-forecasts-api
-- description: View and manage cash positions
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: View and manage cash positions
   name: Workday Financials Cash Positions API
   slug: workday-financials-cash-positions-api
-- description: Manage company entities within the financial system
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage company entities within the financial system
   name: Workday Financials Companies API
   slug: workday-financials-companies-api
-- description: Manage cost centers for financial allocation
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage cost centers for financial allocation
   name: Workday Financials Cost Centers API
   slug: workday-financials-cost-centers-api
-- description: Manage custom report definitions
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage custom report definitions
   name: Workday Financials Custom Reports API
   slug: workday-financials-custom-reports-api
-- description: Manage individual expense line items
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage individual expense line items
   name: Workday Financials Expense Items API
   slug: workday-financials-expense-items-api
-- description: Access expense policy configurations
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access expense policy configurations
   name: Workday Financials Expense Policies API
   slug: workday-financials-expense-policies-api
-- description: Create and manage expense reports
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Create and manage expense reports
   name: Workday Financials Expense Reports API
   slug: workday-financials-expense-reports-api
-- description: Create and manage journal entries
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Create and manage journal entries
   name: Workday Financials Journal Entries API
   slug: workday-financials-journal-entries-api
-- description: Manage general ledger accounts and chart of accounts
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage general ledger accounts and chart of accounts
   name: Workday Financials Ledger Accounts API
   slug: workday-financials-ledger-accounts-api
-- description: Manage payment processing
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage payment processing
   name: Workday Financials Payments API
   slug: workday-financials-payments-api
-- description: Manage purchase orders
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage purchase orders
   name: Workday Financials Purchase Orders API
   slug: workday-financials-purchase-orders-api
-- description: Create and manage purchase requisitions
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Create and manage purchase requisitions
   name: Workday Financials Purchase Requisitions API
   slug: workday-financials-purchase-requisitions-api
-- description: Upload and manage expense receipts
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Upload and manage expense receipts
   name: Workday Financials Receipts API
   slug: workday-financials-receipts-api
-- description: Execute reports and retrieve results
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Execute reports and retrieve results
   name: Workday Financials Report Execution API
   slug: workday-financials-report-execution-api
-- description: Manage report prompt values
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage report prompt values
   name: Workday Financials Report Prompts API
   slug: workday-financials-report-prompts-api
-- description: Access and manage report definitions
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access and manage report definitions
   name: Workday Financials Reports API
   slug: workday-financials-reports-api
-- description: Manage revenue contracts and performance obligations
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage revenue contracts and performance obligations
   name: Workday Financials Revenue Contracts API
   slug: workday-financials-revenue-contracts-api
-- description: Revenue recognition events and processing
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Revenue recognition events and processing
   name: Workday Financials Revenue Recognition API
   slug: workday-financials-revenue-recognition-api
-- description: Access and manage revenue recognition schedules
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access and manage revenue recognition schedules
   name: Workday Financials Revenue Schedules API
   slug: workday-financials-revenue-schedules-api
-- description: Manage supplier contracts
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage supplier contracts
   name: Workday Financials Supplier Contracts API
   slug: workday-financials-supplier-contracts-api
-- description: Manage supplier records
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Manage supplier records
   name: Workday Financials Suppliers API
   slug: workday-financials-suppliers-api
-- description: Access trial balance data
+- baseURL: https://api.workday.com/financialManagement
+  baseurl_source: declared
+  description: Access trial balance data
   name: Workday Financials Trial Balances API
   slug: workday-financials-trial-balances-api
 artifact_total: 146
@@ -616,7 +680,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-financials/refs/heads/main/screenshots/workday-financials-2026-06-20T201558.png
 security:

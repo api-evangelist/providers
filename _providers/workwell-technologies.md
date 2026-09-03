@@ -32,16 +32,22 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Raw punch records across a date range
+- baseURL: https://api.workwelltech.com
+  baseurl_source: declared
+  description: Raw punch records across a date range
   name: Workwell Technologies Punch Reports API
   slug: workwell-technologies-punch-reports-api
-- description: Per-user, per-pay-period timecards
+- baseURL: https://api.workwelltech.com
+  baseurl_source: declared
+  description: Per-user, per-pay-period timecards
   name: Workwell Technologies Timecards API
   slug: workwell-technologies-timecards-api
-- description: User records for the uAttend account
+- baseURL: https://api.workwelltech.com
+  baseurl_source: declared
+  description: User records for the uAttend account
   name: Workwell Technologies Users API
   slug: workwell-technologies-users-api
 artifact_total: 8
@@ -116,7 +122,7 @@ score:
   band: emerging
   composite: 16.9
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -139,8 +145,9 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workwell-technologies/refs/heads/main/screenshots/workwell-technologies-2026-09-02T170954.png
 slug: workwell-technologies
 tags:
 - Company

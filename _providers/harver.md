@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 54 operations · 26 acting
 api_count: 1
 apis:
-- description: The accounts API from Harver — 16 operation(s) for accounts.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The accounts API from Harver — 16 operation(s) for accounts.
   name: Harver accounts API
   slug: harver-accounts-api
-- description: The applications API from Harver — 12 operation(s) for applications.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The applications API from Harver — 12 operation(s) for applications.
   name: Harver applications API
   slug: harver-applications-api
-- description: The candidate-statuses API from Harver — 1 operation(s) for candidate-statuses.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The candidate-statuses API from Harver — 1 operation(s) for candidate-statuses.
   name: Harver candidate-statuses API
   slug: harver-candidate-statuses-api
-- description: The candidateApplications API from Harver — 1 operation(s) for candidateapplications.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The candidateApplications API from Harver — 1 operation(s) for candidateapplications.
   name: Harver candidateApplications API
   slug: harver-candidateapplications-api
-- description: The oauth API from Harver — 3 operation(s) for oauth.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The oauth API from Harver — 3 operation(s) for oauth.
   name: Harver oauth API
   slug: harver-oauth-api
-- description: The scheduling API from Harver — 2 operation(s) for scheduling.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The scheduling API from Harver — 2 operation(s) for scheduling.
   name: Harver scheduling API
   slug: harver-scheduling-api
-- description: The user-profile API from Harver — 3 operation(s) for user-profile.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The user-profile API from Harver — 3 operation(s) for user-profile.
   name: Harver user-profile API
   slug: harver-user-profile-api
-- description: The vacancies API from Harver — 6 operation(s) for vacancies.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The vacancies API from Harver — 6 operation(s) for vacancies.
   name: Harver vacancies API
   slug: harver-vacancies-api
-- description: The webhook API from Harver — 1 operation(s) for webhook.
+- baseURL: https://api.harver.com/api/v1.0/
+  baseurl_source: declared
+  description: The webhook API from Harver — 1 operation(s) for webhook.
   name: Harver webhook API
   slug: harver-webhook-api
 artifact_total: 25
@@ -239,7 +257,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -249,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 37.6
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/screenshots/harver-2026-07-25T220747.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 1
@@ -62,121 +62,199 @@ apis:
 - description: The Library's discovery layer is VuFind, self-hosted at catalog.lib.uchicago.edu and forked in the institution's own GitHub organization (uchicago-library/vufind). VuFind ships a REST search API at /v
   name: University of Chicago Library Catalog API (VuFind)
   slug: vufind-catalog-api
-- description: The admin/user API from University of Chicago — 4 operation(s) for admin/user.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The admin/user API from University of Chicago — 4 operation(s) for admin/user.
   name: University of Chicago Gen3 Fence — admin/user API
   slug: university-of-chicago-admin-user-api
-- description: create an alias for an entity stored in an external system managed by some other authority
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: create an alias for an entity stored in an external system managed by some other authority
   name: University of Chicago Gen3 indexd — alias API
   slug: university-of-chicago-alias-api
-- description: bulk endpoints
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: bulk endpoints
   name: University of Chicago Gen3 indexd — bulk API
   slug: university-of-chicago-bulk-api
-- description: Bundle endpoints.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Bundle endpoints.
   name: University of Chicago Gen3 indexd — bundle API
   slug: university-of-chicago-bundle-api
-- description: The core metadata API from University of Chicago — 1 operation(s) for core metadata.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The core metadata API from University of Chicago — 1 operation(s) for core metadata.
   name: University of Chicago Gen3 Peregrine — core metadata API
   slug: university-of-chicago-core-metadata-api
-- description: API Credentials
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: API Credentials
   name: University of Chicago Gen3 Fence — credentials/api API
   slug: university-of-chicago-credentials-api-api
-- description: Access credentials
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Access credentials
   name: University of Chicago Gen3 Fence — credentials API
   slug: university-of-chicago-credentials-api
-- description: Deprecated! Use credentials/api
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Deprecated! Use credentials/api
   name: University of Chicago Gen3 Fence — credentials/cdis API
   slug: university-of-chicago-credentials-cdis-api
-- description: Google Credentials
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Google Credentials
   name: University of Chicago Gen3 Fence — credentials/google API
   slug: university-of-chicago-credentials-google-api
-- description: Other provider credentials
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Other provider credentials
   name: University of Chicago Gen3 Fence — credentials/{provider} API
   slug: university-of-chicago-credentials-provider-api
-- description: Generate signed URLs
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Generate signed URLs
   name: University of Chicago Gen3 Fence — data API
   slug: university-of-chicago-data-api
-- description: The datasets API from University of Chicago — 2 operation(s) for datasets.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The datasets API from University of Chicago — 2 operation(s) for datasets.
   name: University of Chicago Gen3 Peregrine — datasets API
   slug: university-of-chicago-datasets-api
-- description: The dictionary API from University of Chicago — 8 operation(s) for dictionary.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The dictionary API from University of Chicago — 8 operation(s) for dictionary.
   name: University of Chicago Gen3 Sheepdog — dictionary API
   slug: university-of-chicago-dictionary-api
-- description: Data Object Service Retrieval Endpoints
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Data Object Service Retrieval Endpoints
   name: University of Chicago Gen3 indexd — DOS API
   slug: university-of-chicago-dos-api
-- description: Data Repository Service Retrieval Endpoints
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Data Repository Service Retrieval Endpoints
   name: University of Chicago Gen3 indexd — DRS API
   slug: university-of-chicago-drs-api
-- description: The dry run API from University of Chicago — 12 operation(s) for dry run.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The dry run API from University of Chicago — 12 operation(s) for dry run.
   name: University of Chicago Gen3 Sheepdog — dry run API
   slug: university-of-chicago-dry-run-api
-- description: The entity API from University of Chicago — 7 operation(s) for entity.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The entity API from University of Chicago — 7 operation(s) for entity.
   name: University of Chicago Gen3 Sheepdog — entity API
   slug: university-of-chicago-entity-api
-- description: The export API from University of Chicago — 1 operation(s) for export.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The export API from University of Chicago — 1 operation(s) for export.
   name: University of Chicago Gen3 Sheepdog — export API
   slug: university-of-chicago-export-api
-- description: The file API from University of Chicago — 5 operation(s) for file.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The file API from University of Chicago — 5 operation(s) for file.
   name: University of Chicago Gen3 Sheepdog — file API
   slug: university-of-chicago-file-api
-- description: Search for an alias or index, potentially even a distributed search.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Search for an alias or index, potentially even a distributed search.
   name: University of Chicago Gen3 indexd — global API
   slug: university-of-chicago-global-api
-- description: Google functionality
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Google functionality
   name: University of Chicago Gen3 Fence — google API
   slug: university-of-chicago-google-api
-- description: GraphQL Queries
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: GraphQL Queries
   name: University of Chicago Gen3 Peregrine — graphql API
   slug: university-of-chicago-graphql-api
-- description: Endpoints for generation of Gen3 GUIDs
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Endpoints for generation of Gen3 GUIDs
   name: University of Chicago Gen3 indexd — GUID API
   slug: university-of-chicago-guid-api
-- description: Associate a file (object) with a unique id, and store some basic metadata.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Associate a file (object) with a unique id, and store some basic metadata.
   name: University of Chicago Gen3 indexd — index API
   slug: university-of-chicago-index-api
-- description: Get public keys used to validate JWTs issued by fence
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Get public keys used to validate JWTs issued by fence
   name: University of Chicago Gen3 Fence — keys API
   slug: university-of-chicago-keys-api
-- description: Link access identities
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Link access identities
   name: University of Chicago Gen3 Fence — link API
   slug: university-of-chicago-link-api
-- description: The login API from University of Chicago — 2 operation(s) for login.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The login API from University of Chicago — 2 operation(s) for login.
   name: University of Chicago Gen3 Fence — login API
   slug: university-of-chicago-login-api
-- description: Log out the current user
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Log out the current user
   name: University of Chicago Gen3 Fence — logout API
   slug: university-of-chicago-logout-api
-- description: Authorization and token management
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: Authorization and token management
   name: University of Chicago Gen3 Fence — oauth2 API
   slug: university-of-chicago-oauth2-api
-- description: The OIDC API from University of Chicago — 1 operation(s) for oidc.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The OIDC API from University of Chicago — 1 operation(s) for oidc.
   name: University of Chicago Gen3 Fence — OIDC API
   slug: university-of-chicago-oidc-api
-- description: The privacy-policy API from University of Chicago — 1 operation(s) for privacy-policy.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The privacy-policy API from University of Chicago — 1 operation(s) for privacy-policy.
   name: University of Chicago Gen3 Fence — privacy-policy API
   slug: university-of-chicago-privacy-policy-api
-- description: The program API from University of Chicago — 2 operation(s) for program.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The program API from University of Chicago — 2 operation(s) for program.
   name: University of Chicago Gen3 Sheepdog — program API
   slug: university-of-chicago-program-api
-- description: The project API from University of Chicago — 6 operation(s) for project.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The project API from University of Chicago — 6 operation(s) for project.
   name: University of Chicago Gen3 Sheepdog — project API
   slug: university-of-chicago-project-api
-- description: query endpoints
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: query endpoints
   name: University of Chicago Gen3 indexd — query API
   slug: university-of-chicago-query-api
-- description: The register API from University of Chicago — 1 operation(s) for register.
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: The register API from University of Chicago — 1 operation(s) for register.
   name: University of Chicago Gen3 Fence — register API
   slug: university-of-chicago-register-api
-- description: System endpoints
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: System endpoints
   name: University of Chicago Gen3 indexd — system API
   slug: university-of-chicago-system-api
-- description: User information
+- baseURL: https://gen3.datacommons.io/
+  baseurl_source: declared
+  description: User information
   name: University of Chicago Gen3 Fence — user API
   slug: university-of-chicago-user-api
-- description: Repository communities (collections).
+- baseURL: https://shibboleth2.uchicago.edu/idp/shibboleth
+  baseurl_source: declared
+  description: Repository communities (collections).
   name: University of Chicago Communities API
   slug: university-of-chicago-communities-api
-- description: Published repository records.
+- baseURL: https://shibboleth2.uchicago.edu/idp/shibboleth
+  baseurl_source: declared
+  description: Published repository records.
   name: University of Chicago Records API
   slug: university-of-chicago-records-api
 artifact_total: 102
@@ -523,7 +601,7 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -533,7 +611,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 44.4
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -549,7 +627,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png
 security:

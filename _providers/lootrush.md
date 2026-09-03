@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Connect API from LootRush — 1 operation(s) for connect.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The Connect API from LootRush — 1 operation(s) for connect.
   name: LootRush Connect API
   slug: lootrush-connect-api
-- description: The History API from LootRush — 1 operation(s) for history.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The History API from LootRush — 1 operation(s) for history.
   name: LootRush History API
   slug: lootrush-history-api
-- description: The MCP API from LootRush — 1 operation(s) for mcp.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The MCP API from LootRush — 1 operation(s) for mcp.
   name: LootRush MCP API
   slug: lootrush-mcp-api
-- description: The Withdrawals API from LootRush — 2 operation(s) for withdrawals.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The Withdrawals API from LootRush — 2 operation(s) for withdrawals.
   name: LootRush Withdrawals API
   slug: lootrush-withdrawals-api
 artifact_total: 14
@@ -174,7 +182,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -184,7 +192,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 33.4
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -202,7 +210,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png
 security:

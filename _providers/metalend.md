@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 17 operations · 5 acting
 api_count: 1
 apis:
-- description: Machine-readable flow guide for AI agents — signing formats, wizard flows, and integration gotchas
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Machine-readable flow guide for AI agents — signing formats, wizard flows, and integration gotchas
   name: MetaLend AI Agent Guide API
   slug: metalend-ai-agent-guide-api
-- description: Get challenge / verify challenge authentication
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Get challenge / verify challenge authentication
   name: MetaLend Auth API
   slug: metalend-auth-api
-- description: Balance queries across pools and protocols
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Balance queries across pools and protocols
   name: MetaLend Balances API
   slug: metalend-balances-api
-- description: Deposit operations for rebalancing
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Deposit operations for rebalancing
   name: MetaLend Deposits API
   slug: metalend-deposits-api
-- description: Protocol and pool information
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Protocol and pool information
   name: MetaLend Pools API
   slug: metalend-pools-api
-- description: Reward aggregation and claim data
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Reward aggregation and claim data
   name: MetaLend Rewards API
   slug: metalend-rewards-api
-- description: The Services API from MetaLend — 1 operation(s) for services.
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: The Services API from MetaLend — 1 operation(s) for services.
   name: MetaLend Services API
   slug: metalend-services-api
-- description: Transaction cost queries
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Transaction cost queries
   name: MetaLend Transaction Costs API
   slug: metalend-transaction-costs-api
-- description: User rebalancer configuration management
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: User rebalancer configuration management
   name: MetaLend User Configuration API
   slug: metalend-user-configuration-api
-- description: Withdrawal operations from pools
+- baseURL: https://api.metalend.tech
+  baseurl_source: declared
+  description: Withdrawal operations from pools
   name: MetaLend Withdrawals API
   slug: metalend-withdrawals-api
 artifact_total: 25
@@ -270,7 +290,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metalend/refs/heads/main/screenshots/metalend-2026-08-07T172645.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: Beta REST API for Cloud Datastore exposing the same surface as v1 with newer features. Discovery document available for tooling and code generation.
   name: Cloud Datastore API v1beta3
   slug: rest-api-v1beta3
-- description: The Projects API from Google Cloud Datastore — 9 operation(s) for projects.
+- baseURL: https://datastore.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Cloud Datastore — 9 operation(s) for projects.
   name: Google Cloud Datastore Projects API
   slug: google-cloud-datastore-projects-api
 artifact_total: 11
@@ -161,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/screenshots/google-cloud-datastore-2026-06-20T182103.png
 security:

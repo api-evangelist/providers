@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: Public REST API covering /track, /album, /artist, /playlist, /chart, /search, /genre, /radio, /user, and /editorial. Public endpoints (catalog, search) are unauthenticated and return JSON; user-scoped
   name: Deezer API
   slug: platform
-- description: The Album API from Deezer — 2 operation(s) for album.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Album API from Deezer — 2 operation(s) for album.
   name: Deezer Album API
   slug: deezer-album-api
-- description: The Artist API from Deezer — 6 operation(s) for artist.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Artist API from Deezer — 6 operation(s) for artist.
   name: Deezer Artist API
   slug: deezer-artist-api
-- description: The Chart API from Deezer — 5 operation(s) for chart.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Chart API from Deezer — 5 operation(s) for chart.
   name: Deezer Chart API
   slug: deezer-chart-api
-- description: The Editorial API from Deezer — 3 operation(s) for editorial.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Editorial API from Deezer — 3 operation(s) for editorial.
   name: Deezer Editorial API
   slug: deezer-editorial-api
-- description: The Genre API from Deezer — 3 operation(s) for genre.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Genre API from Deezer — 3 operation(s) for genre.
   name: Deezer Genre API
   slug: deezer-genre-api
-- description: The Infos API from Deezer — 1 operation(s) for infos.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Infos API from Deezer — 1 operation(s) for infos.
   name: Deezer Infos API
   slug: deezer-infos-api
-- description: The Playlist API from Deezer — 2 operation(s) for playlist.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Playlist API from Deezer — 2 operation(s) for playlist.
   name: Deezer Playlist API
   slug: deezer-playlist-api
-- description: The Radio API from Deezer — 3 operation(s) for radio.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Radio API from Deezer — 3 operation(s) for radio.
   name: Deezer Radio API
   slug: deezer-radio-api
-- description: The Search API from Deezer — 5 operation(s) for search.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Search API from Deezer — 5 operation(s) for search.
   name: Deezer Search API
   slug: deezer-search-api
-- description: The Track API from Deezer — 1 operation(s) for track.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The Track API from Deezer — 1 operation(s) for track.
   name: Deezer Track API
   slug: deezer-track-api
-- description: The User API from Deezer — 7 operation(s) for user.
+- baseURL: https://api.deezer.com
+  baseurl_source: declared
+  description: The User API from Deezer — 7 operation(s) for user.
   name: Deezer User API
   slug: deezer-user-api
 artifact_total: 34
@@ -235,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/screenshots/deezer-2026-06-20T175819.png
 security:

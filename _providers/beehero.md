@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -33,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 12 acting
 api_count: 1
 apis:
-- description: Get audio files from sensors
+- baseURL: https://backend.beehero.io/external
+  baseurl_source: declared
+  description: Get audio files from sensors
   name: BeeHero Audio API
   slug: beehero-audio-api
-- description: Login to BeeHero API
+- baseURL: https://backend.beehero.io/external
+  baseurl_source: declared
+  description: Login to BeeHero API
   name: BeeHero Auth API
   slug: beehero-auth-api
-- description: Get gateways sample data
+- baseURL: https://backend.beehero.io/external
+  baseurl_source: declared
+  description: Get gateways sample data
   name: BeeHero Gateways API
   slug: beehero-gateways-api
-- description: Get sensors sample data
+- baseURL: https://backend.beehero.io/external
+  baseurl_source: declared
+  description: Get sensors sample data
   name: BeeHero Sensors API
   slug: beehero-sensors-api
 artifact_total: 13
@@ -202,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehero/refs/heads/main/screenshots/beehero-2026-08-07T162253.png
 security:

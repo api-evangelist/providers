@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 93 operations · 76 acting
 api_count: 1
 apis:
-- description: The Asset Management API from Blockaid — 6 operation(s) for asset management.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Asset Management API from Blockaid — 6 operation(s) for asset management.
   name: Blockaid Asset Management API
   slug: blockaid-asset-management-api
-- description: The Audit Logs API from Blockaid — 1 operation(s) for audit logs.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Audit Logs API from Blockaid — 1 operation(s) for audit logs.
   name: Blockaid Audit Logs API
   slug: blockaid-audit-logs-api
-- description: The Bitcoin API from Blockaid — 3 operation(s) for bitcoin.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Bitcoin API from Blockaid — 3 operation(s) for bitcoin.
   name: Blockaid Bitcoin API
   slug: blockaid-bitcoin-api
-- description: The Chain Agnostic API from Blockaid — 2 operation(s) for chain agnostic.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Chain Agnostic API from Blockaid — 2 operation(s) for chain agnostic.
   name: Blockaid Chain Agnostic API
   slug: blockaid-chain-agnostic-api
-- description: The cosigner API from Blockaid — 6 operation(s) for cosigner.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The cosigner API from Blockaid — 6 operation(s) for cosigner.
   name: Blockaid cosigner API
   slug: blockaid-cosigner-api
-- description: The Crypto Fraud Prevention API from Blockaid — 1 operation(s) for crypto fraud prevention.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Crypto Fraud Prevention API from Blockaid — 1 operation(s) for crypto fraud prevention.
   name: Blockaid Crypto Fraud Prevention API
   slug: blockaid-crypto-fraud-prevention-api
-- description: The Enrichment API from Blockaid — 3 operation(s) for enrichment.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Enrichment API from Blockaid — 3 operation(s) for enrichment.
   name: Blockaid Enrichment API
   slug: blockaid-enrichment-api
-- description: The EVM API from Blockaid — 14 operation(s) for evm.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The EVM API from Blockaid — 14 operation(s) for evm.
   name: Blockaid EVM API
   slug: blockaid-evm-api
-- description: The external api integrations API from Blockaid — 2 operation(s) for external api integrations.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The external api integrations API from Blockaid — 2 operation(s) for external api integrations.
   name: Blockaid external api integrations API
   slug: blockaid-external-api-integrations-api
-- description: The external API from Blockaid — 1 operation(s) for external.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The external API from Blockaid — 1 operation(s) for external.
   name: Blockaid external API
   slug: blockaid-external-api
-- description: The Hedera API from Blockaid — 2 operation(s) for hedera.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Hedera API from Blockaid — 2 operation(s) for hedera.
   name: Blockaid Hedera API
   slug: blockaid-hedera-api
-- description: The Metrics API from Blockaid — 3 operation(s) for metrics.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Metrics API from Blockaid — 3 operation(s) for metrics.
   name: Blockaid Metrics API
   slug: blockaid-metrics-api
-- description: The Monitors API from Blockaid — 3 operation(s) for monitors.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Monitors API from Blockaid — 3 operation(s) for monitors.
   name: Blockaid Monitors API
   slug: blockaid-monitors-api
-- description: The Organization Risk Config API from Blockaid — 1 operation(s) for organization risk config.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Organization Risk Config API from Blockaid — 1 operation(s) for organization risk config.
   name: Blockaid Organization Risk Config API
   slug: blockaid-organization-risk-config-api
-- description: The Report API from Blockaid — 3 operation(s) for report.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Report API from Blockaid — 3 operation(s) for report.
   name: Blockaid Report API
   slug: blockaid-report-api
-- description: The Scan Feedback API from Blockaid — 1 operation(s) for scan feedback.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Scan Feedback API from Blockaid — 1 operation(s) for scan feedback.
   name: Blockaid Scan Feedback API
   slug: blockaid-scan-feedback-api
-- description: The Site API from Blockaid — 2 operation(s) for site.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Site API from Blockaid — 2 operation(s) for site.
   name: Blockaid Site API
   slug: blockaid-site-api
-- description: The Solana API from Blockaid — 3 operation(s) for solana.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Solana API from Blockaid — 3 operation(s) for solana.
   name: Blockaid Solana API
   slug: blockaid-solana-api
-- description: The Starknet API from Blockaid — 2 operation(s) for starknet.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Starknet API from Blockaid — 2 operation(s) for starknet.
   name: Blockaid Starknet API
   slug: blockaid-starknet-api
-- description: The Stellar API from Blockaid — 3 operation(s) for stellar.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Stellar API from Blockaid — 3 operation(s) for stellar.
   name: Blockaid Stellar API
   slug: blockaid-stellar-api
-- description: The Sui API from Blockaid — 3 operation(s) for sui.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Sui API from Blockaid — 3 operation(s) for sui.
   name: Blockaid Sui API
   slug: blockaid-sui-api
-- description: The Token API from Blockaid — 10 operation(s) for token.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Token API from Blockaid — 10 operation(s) for token.
   name: Blockaid Token API
   slug: blockaid-token-api
-- description: The Tron API from Blockaid — 2 operation(s) for tron.
+- baseURL: https://api.blockaid.io
+  baseurl_source: declared
+  description: The Tron API from Blockaid — 2 operation(s) for tron.
   name: Blockaid Tron API
   slug: blockaid-tron-api
 artifact_total: 52
@@ -319,7 +365,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -329,7 +375,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,7 +393,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockaid/refs/heads/main/screenshots/blockaid-2026-07-25T203339.png
 security:

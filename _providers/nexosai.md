@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 55 operations · 34 acting
 api_count: 1
 apis:
-- description: Manage agents.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Manage agents.
   name: nexos.ai Agent Management API
   slug: nexosai-agent-management-api
-- description: Manage assistants.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Manage assistants.
   name: nexos.ai Assistant Management API
   slug: nexosai-assistant-management-api
-- description: Generate audio or text from audio or text input.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Generate audio or text from audio or text input.
   name: nexos.ai Audio API
   slug: nexosai-audio-api
-- description: Create and run large groups of requests asynchronously. Batches are only available for OpenAI models.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Create and run large groups of requests asynchronously. Batches are only available for OpenAI models.
   name: nexos.ai Batches API
   slug: nexosai-batches-api
-- description: Manage company budget limits.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Manage company budget limits.
   name: nexos.ai Budget Limit Management API
   slug: nexosai-budget-limit-management-api
-- description: Generate a response from conversation messages.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Generate a response from conversation messages.
   name: nexos.ai Chat API
   slug: nexosai-chat-api
-- description: List company API keys and their usage.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: List company API keys and their usage.
   name: nexos.ai Company Management API
   slug: nexosai-company-management-api
-- description: Create vector embeddings for input text.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Create vector embeddings for input text.
   name: nexos.ai Embeddings API
   slug: nexosai-embeddings-api
-- description: Upload and manage files used by other endpoints.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Upload and manage files used by other endpoints.
   name: nexos.ai Files API
   slug: nexosai-files-api
-- description: Generate images from image or text input.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Generate images from image or text input.
   name: nexos.ai Images API
   slug: nexosai-images-api
-- description: Anthropic-native Messages API for prompt-cache-preserving passthrough.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Anthropic-native Messages API for prompt-cache-preserving passthrough.
   name: nexos.ai Messages API
   slug: nexosai-messages-api
-- description: List available models.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: List available models.
   name: nexos.ai Models API
   slug: nexosai-models-api
-- description: Create and manage model responses.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Create and manage model responses.
   name: nexos.ai Responses API
   slug: nexosai-responses-api
-- description: Upload and manage media files.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Upload and manage media files.
   name: nexos.ai Storage API
   slug: nexosai-storage-api
-- description: Manage teams, API keys, and models.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Manage teams, API keys, and models.
   name: nexos.ai Team Management API
   slug: nexosai-team-management-api
-- description: Manage user API keys.
+- baseURL: https://api.nexos.ai
+  baseurl_source: declared
+  description: Manage user API keys.
   name: nexos.ai User Management API
   slug: nexosai-user-management-api
 artifact_total: 38
@@ -284,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexosai/refs/heads/main/screenshots/nexosai-2026-08-07T185156.png
 security:

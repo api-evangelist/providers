@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: User access management operations
+- baseURL: https://rest.latchaccess.com/access/sdk
+  baseurl_source: declared
+  description: User access management operations
   name: Door Access Management API
   slug: door-access-management-api
-- description: Building operations
+- baseURL: https://rest.latchaccess.com/access/sdk
+  baseurl_source: declared
+  description: Building operations
   name: Door Buildings API
   slug: door-buildings-api
-- description: Door/Key and key operations
+- baseURL: https://rest.latchaccess.com/access/sdk
+  baseurl_source: declared
+  description: Door/Key and key operations
   name: Door Doors and Keys API
   slug: door-doors-and-keys-api
-- description: Partner authentication operations
+- baseURL: https://rest.latchaccess.com/access/sdk
+  baseurl_source: declared
+  description: Partner authentication operations
   name: Door Partner Authentication API
   slug: door-partner-authentication-api
-- description: User authentication operations
+- baseURL: https://rest.latchaccess.com/access/sdk
+  baseurl_source: declared
+  description: User authentication operations
   name: Door User Authentication API
   slug: door-user-authentication-api
-- description: User operations
+- baseURL: https://rest.latchaccess.com/access/sdk
+  baseurl_source: declared
+  description: User operations
   name: Door Users API
   slug: door-users-api
 artifact_total: 17
@@ -256,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/door/refs/heads/main/screenshots/door-2026-07-25T212301.png
 security:

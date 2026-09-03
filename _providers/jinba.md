@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 39 operations · 23 acting
 api_count: 2
 apis:
-- description: The API Keys API from Jinba — 2 operation(s) for api keys.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The API Keys API from Jinba — 2 operation(s) for api keys.
   name: Jinba API Keys API
   slug: jinba-api-keys-api
-- description: The Credits API from Jinba — 1 operation(s) for credits.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Credits API from Jinba — 1 operation(s) for credits.
   name: Jinba Credits API
   slug: jinba-credits-api
-- description: The Execution API from Jinba — 2 operation(s) for execution.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Execution API from Jinba — 2 operation(s) for execution.
   name: Jinba Execution API
   slug: jinba-execution-api
-- description: The Explore API from Jinba — 2 operation(s) for explore.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Explore API from Jinba — 2 operation(s) for explore.
   name: Jinba Explore API
   slug: jinba-explore-api
-- description: The Flows API from Jinba — 1 operation(s) for flows.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Flows API from Jinba — 1 operation(s) for flows.
   name: Jinba Flows API
   slug: jinba-flows-api
-- description: The MCP API from Jinba — 2 operation(s) for mcp.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The MCP API from Jinba — 2 operation(s) for mcp.
   name: Jinba MCP API
   slug: jinba-mcp-api
-- description: The Members API from Jinba — 1 operation(s) for members.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Members API from Jinba — 1 operation(s) for members.
   name: Jinba Members API
   slug: jinba-members-api
-- description: The Organizations API from Jinba — 2 operation(s) for organizations.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Organizations API from Jinba — 2 operation(s) for organizations.
   name: Jinba Organizations API
   slug: jinba-organizations-api
-- description: The Public API from Jinba — 2 operation(s) for public.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Public API from Jinba — 2 operation(s) for public.
   name: Jinba Public API
   slug: jinba-public-api
-- description: The Runs API from Jinba — 2 operation(s) for runs.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Runs API from Jinba — 2 operation(s) for runs.
   name: Jinba Runs API
   slug: jinba-runs-api
-- description: The Tools API from Jinba — 2 operation(s) for tools.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Tools API from Jinba — 2 operation(s) for tools.
   name: Jinba Tools API
   slug: jinba-tools-api
-- description: The ToolSets API from Jinba — 2 operation(s) for toolsets.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The ToolSets API from Jinba — 2 operation(s) for toolsets.
   name: Jinba ToolSets API
   slug: jinba-toolsets-api
-- description: The Versions API from Jinba — 3 operation(s) for versions.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Versions API from Jinba — 3 operation(s) for versions.
   name: Jinba Versions API
   slug: jinba-versions-api
-- description: The Webhooks API from Jinba — 3 operation(s) for webhooks.
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Webhooks API from Jinba — 3 operation(s) for webhooks.
   name: Jinba Webhooks API
   slug: jinba-webhooks-api
 artifact_total: 34
@@ -278,7 +306,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -288,7 +316,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 42.8
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -300,7 +328,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/screenshots/jinba-2026-07-25T223154.png
 security:

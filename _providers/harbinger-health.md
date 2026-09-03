@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -47,112 +47,184 @@ apis:
 - description: A live Model Context Protocol server namespace published on Harbinger Health's own host at https://harbinger-health.com/wp-json/mcp/, exposing two servers - mcp-oauth-server and mcp-adapter-default-se
   name: Harbinger Health MCP Server
   slug: harbinger-health-mcp-server
-- description: WordPress block-directory resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-directory resource routes.
   name: Harbinger Health Block Directory API
   slug: harbinger-health-block-directory-api
-- description: WordPress block-patterns resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-patterns resource routes.
   name: Harbinger Health Block Patterns API
   slug: harbinger-health-block-patterns-api
-- description: WordPress block-renderer resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-renderer resource routes.
   name: Harbinger Health Block Renderer API
   slug: harbinger-health-block-renderer-api
-- description: WordPress block-types resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-types resource routes.
   name: Harbinger Health Block Types API
   slug: harbinger-health-block-types-api
-- description: WordPress blocks resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress blocks resource routes.
   name: Harbinger Health Blocks API
   slug: harbinger-health-blocks-api
-- description: WordPress categories resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress categories resource routes.
   name: Harbinger Health Categories API
   slug: harbinger-health-categories-api
-- description: WordPress comments resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress comments resource routes.
   name: Harbinger Health Comments API
   slug: harbinger-health-comments-api
-- description: WordPress events resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress events resource routes.
   name: Harbinger Health Events API
   slug: harbinger-health-events-api
-- description: WordPress font-collections resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress font-collections resource routes.
   name: Harbinger Health Font Collections API
   slug: harbinger-health-font-collections-api
-- description: WordPress font-families resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress font-families resource routes.
   name: Harbinger Health Font Families API
   slug: harbinger-health-font-families-api
-- description: WordPress global-styles resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress global-styles resource routes.
   name: Harbinger Health Global Styles API
   slug: harbinger-health-global-styles-api
-- description: WordPress icons resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress icons resource routes.
   name: Harbinger Health Icons API
   slug: harbinger-health-icons-api
-- description: WordPress index resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress index resource routes.
   name: Harbinger Health Index API
   slug: harbinger-health-index-api
-- description: WordPress media resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress media resource routes.
   name: Harbinger Health Media API
   slug: harbinger-health-media-api
-- description: WordPress menu-items resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress menu-items resource routes.
   name: Harbinger Health Menu Items API
   slug: harbinger-health-menu-items-api
-- description: WordPress menu-locations resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress menu-locations resource routes.
   name: Harbinger Health Menu Locations API
   slug: harbinger-health-menu-locations-api
-- description: WordPress menus resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress menus resource routes.
   name: Harbinger Health Menus API
   slug: harbinger-health-menus-api
-- description: WordPress navigation resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress navigation resource routes.
   name: Harbinger Health Navigation API
   slug: harbinger-health-navigation-api
-- description: WordPress pages resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress pages resource routes.
   name: Harbinger Health Pages API
   slug: harbinger-health-pages-api
-- description: WordPress pattern-directory resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress pattern-directory resource routes.
   name: Harbinger Health Pattern Directory API
   slug: harbinger-health-pattern-directory-api
-- description: WordPress plugins resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress plugins resource routes.
   name: Harbinger Health Plugins API
   slug: harbinger-health-plugins-api
-- description: WordPress posts resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress posts resource routes.
   name: Harbinger Health Posts API
   slug: harbinger-health-posts-api
-- description: WordPress search resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress search resource routes.
   name: Harbinger Health Search API
   slug: harbinger-health-search-api
-- description: WordPress settings resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress settings resource routes.
   name: Harbinger Health Settings API
   slug: harbinger-health-settings-api
-- description: WordPress sidebars resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress sidebars resource routes.
   name: Harbinger Health Sidebars API
   slug: harbinger-health-sidebars-api
-- description: WordPress statuses resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress statuses resource routes.
   name: Harbinger Health Statuses API
   slug: harbinger-health-statuses-api
-- description: WordPress tags resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress tags resource routes.
   name: Harbinger Health Tags API
   slug: harbinger-health-tags-api
-- description: WordPress taxonomies resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress taxonomies resource routes.
   name: Harbinger Health Taxonomies API
   slug: harbinger-health-taxonomies-api
-- description: WordPress template-parts resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress template-parts resource routes.
   name: Harbinger Health Template Parts API
   slug: harbinger-health-template-parts-api
-- description: WordPress templates resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress templates resource routes.
   name: Harbinger Health Templates API
   slug: harbinger-health-templates-api
-- description: WordPress themes resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress themes resource routes.
   name: Harbinger Health Themes API
   slug: harbinger-health-themes-api
-- description: WordPress types resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress types resource routes.
   name: Harbinger Health Types API
   slug: harbinger-health-types-api
-- description: WordPress users resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress users resource routes.
   name: Harbinger Health Users API
   slug: harbinger-health-users-api
-- description: WordPress widget-types resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress widget-types resource routes.
   name: Harbinger Health Widget Types API
   slug: harbinger-health-widget-types-api
-- description: WordPress widgets resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress widgets resource routes.
   name: Harbinger Health Widgets API
   slug: harbinger-health-widgets-api
-- description: WordPress wp_pattern_category resource routes.
+- baseURL: https://harbinger-health.com/wp-json
+  baseurl_source: declared
+  description: WordPress wp_pattern_category resource routes.
   name: Harbinger Health Wp Pattern Category API
   slug: harbinger-health-wp-pattern-category-api
 artifact_total: 85
@@ -491,7 +563,7 @@ score:
     regime_id: health
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:

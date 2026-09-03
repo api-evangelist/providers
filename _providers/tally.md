@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: JavaScript embed library exposing Tally.openPopup, Tally.closePopup, Tally.loadEmbeds and event listeners for form load, page view, submission and popup close.
   name: Tally Embed JS
   slug: embed
-- description: The Forms API from Tally — 3 operation(s) for forms.
+- baseURL: https://api.tally.so
+  baseurl_source: declared
+  description: The Forms API from Tally — 3 operation(s) for forms.
   name: Tally Forms API
   slug: tally-forms-api
-- description: The Organization API from Tally — 4 operation(s) for organization.
+- baseURL: https://api.tally.so
+  baseurl_source: declared
+  description: The Organization API from Tally — 4 operation(s) for organization.
   name: Tally Organization API
   slug: tally-organization-api
-- description: The Submissions API from Tally — 2 operation(s) for submissions.
+- baseURL: https://api.tally.so
+  baseurl_source: declared
+  description: The Submissions API from Tally — 2 operation(s) for submissions.
   name: Tally Submissions API
   slug: tally-submissions-api
-- description: The Users API from Tally — 1 operation(s) for users.
+- baseURL: https://api.tally.so
+  baseurl_source: declared
+  description: The Users API from Tally — 1 operation(s) for users.
   name: Tally Users API
   slug: tally-users-api
-- description: The Webhooks API from Tally — 4 operation(s) for webhooks.
+- baseURL: https://api.tally.so
+  baseurl_source: declared
+  description: The Webhooks API from Tally — 4 operation(s) for webhooks.
   name: Tally Webhooks API
   slug: tally-webhooks-api
-- description: The Workspaces API from Tally — 2 operation(s) for workspaces.
+- baseURL: https://api.tally.so
+  baseurl_source: declared
+  description: The Workspaces API from Tally — 2 operation(s) for workspaces.
   name: Tally Workspaces API
   slug: tally-workspaces-api
 artifact_total: 22
@@ -180,7 +192,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -190,7 +202,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 32.6
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/screenshots/tally-2026-06-20T194908.png
 security:

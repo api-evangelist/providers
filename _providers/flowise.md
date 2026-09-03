@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -45,43 +45,69 @@ agentic_access:
   summary_line: 46 operations · 30 acting
 api_count: 1
 apis:
-- description: The assistants API from Flowise — 2 operation(s) for assistants.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The assistants API from Flowise — 2 operation(s) for assistants.
   name: Flowise assistants API
   slug: flowise-assistants-api
-- description: The attachments API from Flowise — 1 operation(s) for attachments.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The attachments API from Flowise — 1 operation(s) for attachments.
   name: Flowise attachments API
   slug: flowise-attachments-api
-- description: The chatflows API from Flowise — 3 operation(s) for chatflows.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The chatflows API from Flowise — 3 operation(s) for chatflows.
   name: Flowise chatflows API
   slug: flowise-chatflows-api
-- description: The chatmessage API from Flowise — 1 operation(s) for chatmessage.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The chatmessage API from Flowise — 1 operation(s) for chatmessage.
   name: Flowise chatmessage API
   slug: flowise-chatmessage-api
-- description: The document-store API from Flowise — 9 operation(s) for document-store.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The document-store API from Flowise — 9 operation(s) for document-store.
   name: Flowise document-store API
   slug: flowise-document-store-api
-- description: The feedback API from Flowise — 2 operation(s) for feedback.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The feedback API from Flowise — 2 operation(s) for feedback.
   name: Flowise feedback API
   slug: flowise-feedback-api
-- description: The leads API from Flowise — 2 operation(s) for leads.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The leads API from Flowise — 2 operation(s) for leads.
   name: Flowise leads API
   slug: flowise-leads-api
-- description: The ping API from Flowise — 1 operation(s) for ping.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The ping API from Flowise — 1 operation(s) for ping.
   name: Flowise ping API
   slug: flowise-ping-api
-- description: The prediction API from Flowise — 1 operation(s) for prediction.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The prediction API from Flowise — 1 operation(s) for prediction.
   name: Flowise prediction API
   slug: flowise-prediction-api
-- description: The tools API from Flowise — 2 operation(s) for tools.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The tools API from Flowise — 2 operation(s) for tools.
   name: Flowise tools API
   slug: flowise-tools-api
-- description: The upsert-history API from Flowise — 1 operation(s) for upsert-history.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The upsert-history API from Flowise — 1 operation(s) for upsert-history.
   name: Flowise upsert-history API
   slug: flowise-upsert-history-api
-- description: The variables API from Flowise — 2 operation(s) for variables.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The variables API from Flowise — 2 operation(s) for variables.
   name: Flowise variables API
   slug: flowise-variables-api
-- description: The vector API from Flowise — 1 operation(s) for vector.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The vector API from Flowise — 1 operation(s) for vector.
   name: Flowise vector API
   slug: flowise-vector-api
 artifact_total: 50
@@ -356,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/screenshots/flowise-2026-06-20T181334.png
 security:

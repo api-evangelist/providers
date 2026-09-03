@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: Embase APIs provide access to biomedical and pharmacological abstracts and indexing for life sciences research, drug development, and evidence-based medicine.
   name: Elsevier Embase API
   slug: elsevier-embase-api
-- description: The Abstract API from Elsevier — 5 operation(s) for abstract.
+- baseURL: https://api.elsevier.com
+  baseurl_source: spec
+  description: The Abstract API from Elsevier — 5 operation(s) for abstract.
   name: Elsevier Abstract API
   slug: elsevier-abstract-api
-- description: The Search API from Elsevier — 3 operation(s) for search.
+- baseURL: https://api.elsevier.com
+  baseurl_source: spec
+  description: The Search API from Elsevier — 3 operation(s) for search.
   name: Elsevier Search API
   slug: elsevier-search-api
 artifact_total: 17
@@ -194,7 +198,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png
 security:

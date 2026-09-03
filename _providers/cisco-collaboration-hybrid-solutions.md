@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Create and manage Webex Webinars and large-format virtual events, including registration, panelists, and analytics.
   name: Webex Events API
   slug: webex-events
-- description: The Devices API from Cisco Collaboration Hybrid Solutions — 1 operation(s) for devices.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Devices API from Cisco Collaboration Hybrid Solutions — 1 operation(s) for devices.
   name: Cisco Collaboration Hybrid Solutions Devices API
   slug: cisco-collaboration-hybrid-solutions-devices-api
-- description: The Memberships API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for memberships.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Memberships API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for memberships.
   name: Cisco Collaboration Hybrid Solutions Memberships API
   slug: cisco-collaboration-hybrid-solutions-memberships-api
-- description: The Messages API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for messages.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Messages API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for messages.
   name: Cisco Collaboration Hybrid Solutions Messages API
   slug: cisco-collaboration-hybrid-solutions-messages-api
-- description: The Rooms API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for rooms.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Rooms API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for rooms.
   name: Cisco Collaboration Hybrid Solutions Rooms API
   slug: cisco-collaboration-hybrid-solutions-rooms-api
-- description: The Teams API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for teams.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Teams API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for teams.
   name: Cisco Collaboration Hybrid Solutions Teams API
   slug: cisco-collaboration-hybrid-solutions-teams-api
-- description: The Webhooks API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for webhooks.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Cisco Collaboration Hybrid Solutions — 2 operation(s) for webhooks.
   name: Cisco Collaboration Hybrid Solutions Webhooks API
   slug: cisco-collaboration-hybrid-solutions-webhooks-api
 artifact_total: 27
@@ -187,7 +199,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/screenshots/cisco-collaboration-hybrid-solutions-2026-06-20T174354.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: TensorFlow's visualization toolkit for experiment tracking, model debugging, and performance profiling via an embedded web server with REST endpoints.
   name: TensorBoard API
   slug: tensorboard
-- description: Model inference operations including classify, regress, and predict
+- baseURL: http://host:8501
+  baseurl_source: declared
+  description: Model inference operations including classify, regress, and predict
   name: TensorFlow Inference API
   slug: tensorflow-inference-api
-- description: Model status and metadata operations
+- baseURL: http://host:8501
+  baseurl_source: declared
+  description: Model status and metadata operations
   name: TensorFlow Models API
   slug: tensorflow-models-api
 arazzos:
@@ -348,7 +352,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
 security:

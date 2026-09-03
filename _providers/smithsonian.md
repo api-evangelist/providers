@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Retrieve individual collection objects by ID or URL
+- baseURL: https://api.si.edu/openaccess/api/v1.0
+  baseurl_source: declared
+  description: Retrieve individual collection objects by ID or URL
   name: Smithsonian Institution content API
   slug: smithsonian-content-api
-- description: Statistics about CC0 objects and media
+- baseURL: https://api.si.edu/openaccess/api/v1.0
+  baseurl_source: declared
+  description: Statistics about CC0 objects and media
   name: Smithsonian Institution metrics API
   slug: smithsonian-metrics-api
-- description: Search across Smithsonian collections
+- baseURL: https://api.si.edu/openaccess/api/v1.0
+  baseurl_source: declared
+  description: Search across Smithsonian collections
   name: Smithsonian Institution search API
   slug: smithsonian-search-api
 artifact_total: 19
@@ -209,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/screenshots/smithsonian-2026-06-20T194054.png
 security:

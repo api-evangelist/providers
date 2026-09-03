@@ -32,13 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Domob's mobile ad exchange, supporting RTB, PMP, PD and PDB buying. Listed on the Domob developer platform's API docking page with a docking document updated 2025-06-13, but that document is hosted on
   name: Domob ADX
   slug: domob-adx
-- description: Media revenue and delivery statistics for a publisher's ad slots.
+- baseURL: https://developer.domob.cn
+  baseurl_source: declared
+  description: Media revenue and delivery statistics for a publisher's ad slots.
   name: domob Reporting API
   slug: domob-reporting-api
 artifact_total: 8
@@ -226,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/screenshots/domob-2026-07-25T212250.png
 security:

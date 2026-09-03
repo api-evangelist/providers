@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 27 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: AI agent operations for answer generation and streaming
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: AI agent operations for answer generation and streaming
   name: Brainfish Agents API
   slug: brainfish-agents-api
-- description: Conversation thread analytics with filtering and pagination
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Conversation thread analytics with filtering and pagination
   name: Brainfish Analytics API
   slug: brainfish-analytics-api
-- description: Authentication and token validation operations
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Authentication and token validation operations
   name: Brainfish Authentication API
   slug: brainfish-authentication-api
-- description: Catalog management operations. Create catalogs and sync content programmatically via the API.
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Catalog management operations. Create catalogs and sync content programmatically via the API.
   name: Brainfish Catalogs API
   slug: brainfish-catalogs-api
-- description: Collection management operations including create, read, update, list, and delete
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Collection management operations including create, read, update, list, and delete
   name: Brainfish Collections API
   slug: brainfish-collections-api
-- description: Conversation operations including follow-up question generation
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Conversation operations including follow-up question generation
   name: Brainfish Conversations API
   slug: brainfish-conversations-api
-- description: Document management operations including create, read, update, list, and delete
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Document management operations including create, read, update, list, and delete
   name: Brainfish Documents API
   slug: brainfish-documents-api
-- description: Chat session search, detail, timeline, and AI-powered insights. A "session" is a chat conversation keyed by conversationId.
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: Chat session search, detail, timeline, and AI-powered insights. A "session" is a chat conversation keyed by conversationId.
   name: Brainfish Sessions API
   slug: brainfish-sessions-api
-- description: User-scoped operations. Generate answers personalized to a specific external/platform user with automatic attribute-based collection filtering.
+- baseURL: https://api.brainfi.sh
+  baseurl_source: declared
+  description: User-scoped operations. Generate answers personalized to a specific external/platform user with automatic attribute-based collection filtering.
   name: Brainfish Users API
   slug: brainfish-users-api
 arazzos:
@@ -268,7 +286,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

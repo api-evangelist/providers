@@ -33,136 +33,222 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The AD Base Entities API from SpecterOps — 3 operation(s) for ad base entities.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The AD Base Entities API from SpecterOps — 3 operation(s) for ad base entities.
   name: SpecterOps AD Base Entities API
   slug: specterops-ad-base-entities-api
-- description: The AD Users API from SpecterOps — 11 operation(s) for ad users.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The AD Users API from SpecterOps — 11 operation(s) for ad users.
   name: SpecterOps AD Users API
   slug: specterops-ad-users-api
-- description: The AIA CAs API from SpecterOps — 3 operation(s) for aia cas.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The AIA CAs API from SpecterOps — 3 operation(s) for aia cas.
   name: SpecterOps AIA CAs API
   slug: specterops-aia-cas-api
-- description: The Analysis API from SpecterOps — 3 operation(s) for analysis.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Analysis API from SpecterOps — 3 operation(s) for analysis.
   name: SpecterOps Analysis API
   slug: specterops-analysis-api
-- description: The API Info API from SpecterOps — 2 operation(s) for api info.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The API Info API from SpecterOps — 2 operation(s) for api info.
   name: SpecterOps API Info API
   slug: specterops-api-info-api
-- description: The API Tokens API from SpecterOps — 2 operation(s) for api tokens.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The API Tokens API from SpecterOps — 2 operation(s) for api tokens.
   name: SpecterOps API Tokens API
   slug: specterops-api-tokens-api
-- description: The Asset Isolation API from SpecterOps — 21 operation(s) for asset isolation.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Asset Isolation API from SpecterOps — 21 operation(s) for asset isolation.
   name: SpecterOps Asset Isolation API
   slug: specterops-asset-isolation-api
-- description: The Attack Paths API from SpecterOps — 10 operation(s) for attack paths.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Attack Paths API from SpecterOps — 10 operation(s) for attack paths.
   name: SpecterOps Attack Paths API
   slug: specterops-attack-paths-api
-- description: The Audit API from SpecterOps — 1 operation(s) for audit.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Audit API from SpecterOps — 1 operation(s) for audit.
   name: SpecterOps Audit API
   slug: specterops-audit-api
-- description: The Auth API from SpecterOps — 12 operation(s) for auth.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Auth API from SpecterOps — 12 operation(s) for auth.
   name: SpecterOps Auth API
   slug: specterops-auth-api
-- description: The Azure Entities API from SpecterOps — 1 operation(s) for azure entities.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Azure Entities API from SpecterOps — 1 operation(s) for azure entities.
   name: SpecterOps Azure Entities API
   slug: specterops-azure-entities-api
-- description: The BloodHound Users API from SpecterOps — 6 operation(s) for bloodhound users.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The BloodHound Users API from SpecterOps — 6 operation(s) for bloodhound users.
   name: SpecterOps BloodHound Users API
   slug: specterops-bloodhound-users-api
-- description: The Cert Templates API from SpecterOps — 3 operation(s) for cert templates.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Cert Templates API from SpecterOps — 3 operation(s) for cert templates.
   name: SpecterOps Cert Templates API
   slug: specterops-cert-templates-api
-- description: The Client Ingest API from SpecterOps — 1 operation(s) for client ingest.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Client Ingest API from SpecterOps — 1 operation(s) for client ingest.
   name: SpecterOps Client Ingest API
   slug: specterops-client-ingest-api
-- description: The Clients API from SpecterOps — 11 operation(s) for clients.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Clients API from SpecterOps — 11 operation(s) for clients.
   name: SpecterOps Clients API
   slug: specterops-clients-api
-- description: The Collection Uploads API from SpecterOps — 6 operation(s) for collection uploads.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Collection Uploads API from SpecterOps — 6 operation(s) for collection uploads.
   name: SpecterOps Collection Uploads API
   slug: specterops-collection-uploads-api
-- description: The Collectors API from SpecterOps — 6 operation(s) for collectors.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Collectors API from SpecterOps — 6 operation(s) for collectors.
   name: SpecterOps Collectors API
   slug: specterops-collectors-api
-- description: The Computers API from SpecterOps — 16 operation(s) for computers.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Computers API from SpecterOps — 16 operation(s) for computers.
   name: SpecterOps Computers API
   slug: specterops-computers-api
-- description: The Config API from SpecterOps — 3 operation(s) for config.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Config API from SpecterOps — 3 operation(s) for config.
   name: SpecterOps Config API
   slug: specterops-config-api
-- description: The Containers API from SpecterOps — 2 operation(s) for containers.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Containers API from SpecterOps — 2 operation(s) for containers.
   name: SpecterOps Containers API
   slug: specterops-containers-api
-- description: The Custom Node Management API from SpecterOps — 2 operation(s) for custom node management.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Custom Node Management API from SpecterOps — 2 operation(s) for custom node management.
   name: SpecterOps Custom Node Management API
   slug: specterops-custom-node-management-api
-- description: The Cypher API from SpecterOps — 7 operation(s) for cypher.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Cypher API from SpecterOps — 7 operation(s) for cypher.
   name: SpecterOps Cypher API
   slug: specterops-cypher-api
-- description: The Data Quality API from SpecterOps — 6 operation(s) for data quality.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Data Quality API from SpecterOps — 6 operation(s) for data quality.
   name: SpecterOps Data Quality API
   slug: specterops-data-quality-api
-- description: The Database API from SpecterOps — 1 operation(s) for database.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Database API from SpecterOps — 1 operation(s) for database.
   name: SpecterOps Database API
   slug: specterops-database-api
-- description: The Datapipe API from SpecterOps — 2 operation(s) for datapipe.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Datapipe API from SpecterOps — 2 operation(s) for datapipe.
   name: SpecterOps Datapipe API
   slug: specterops-datapipe-api
-- description: The Domains API from SpecterOps — 16 operation(s) for domains.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Domains API from SpecterOps — 16 operation(s) for domains.
   name: SpecterOps Domains API
   slug: specterops-domains-api
-- description: The Enterprise CAs API from SpecterOps — 4 operation(s) for enterprise cas.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Enterprise CAs API from SpecterOps — 4 operation(s) for enterprise cas.
   name: SpecterOps Enterprise CAs API
   slug: specterops-enterprise-cas-api
-- description: The EULA API from SpecterOps — 1 operation(s) for eula.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The EULA API from SpecterOps — 1 operation(s) for eula.
   name: SpecterOps EULA API
   slug: specterops-eula-api
-- description: The Events (Schedules) API from SpecterOps — 2 operation(s) for events (schedules).
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Events (Schedules) API from SpecterOps — 2 operation(s) for events (schedules).
   name: SpecterOps Events (Schedules) API
   slug: specterops-events-schedules-api
-- description: The GPOs API from SpecterOps — 6 operation(s) for gpos.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The GPOs API from SpecterOps — 6 operation(s) for gpos.
   name: SpecterOps GPOs API
   slug: specterops-gpos-api
-- description: The Graph API from SpecterOps — 7 operation(s) for graph.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Graph API from SpecterOps — 7 operation(s) for graph.
   name: SpecterOps Graph API
   slug: specterops-graph-api
-- description: The Groups API from SpecterOps — 10 operation(s) for groups.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Groups API from SpecterOps — 10 operation(s) for groups.
   name: SpecterOps Groups API
   slug: specterops-groups-api
-- description: The Jobs API from SpecterOps — 9 operation(s) for jobs.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Jobs API from SpecterOps — 9 operation(s) for jobs.
   name: SpecterOps Jobs API
   slug: specterops-jobs-api
-- description: The Meta Entities API from SpecterOps — 1 operation(s) for meta entities.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Meta Entities API from SpecterOps — 1 operation(s) for meta entities.
   name: SpecterOps Meta Entities API
   slug: specterops-meta-entities-api
-- description: The NT Auth Stores API from SpecterOps — 3 operation(s) for nt auth stores.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The NT Auth Stores API from SpecterOps — 3 operation(s) for nt auth stores.
   name: SpecterOps NT Auth Stores API
   slug: specterops-nt-auth-stores-api
-- description: The OpenGraph (Experimental) API from SpecterOps — 5 operation(s) for opengraph (experimental).
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The OpenGraph (Experimental) API from SpecterOps — 5 operation(s) for opengraph (experimental).
   name: SpecterOps OpenGraph (Experimental) API
   slug: specterops-opengraph-experimental-api
-- description: The OUs API from SpecterOps — 5 operation(s) for ous.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The OUs API from SpecterOps — 5 operation(s) for ous.
   name: SpecterOps OUs API
   slug: specterops-ous-api
-- description: The Permissions API from SpecterOps — 2 operation(s) for permissions.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Permissions API from SpecterOps — 2 operation(s) for permissions.
   name: SpecterOps Permissions API
   slug: specterops-permissions-api
-- description: The Risk Posture API from SpecterOps — 2 operation(s) for risk posture.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Risk Posture API from SpecterOps — 2 operation(s) for risk posture.
   name: SpecterOps Risk Posture API
   slug: specterops-risk-posture-api
-- description: The Roles API from SpecterOps — 2 operation(s) for roles.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Roles API from SpecterOps — 2 operation(s) for roles.
   name: SpecterOps Roles API
   slug: specterops-roles-api
-- description: The Root CAs API from SpecterOps — 3 operation(s) for root cas.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Root CAs API from SpecterOps — 3 operation(s) for root cas.
   name: SpecterOps Root CAs API
   slug: specterops-root-cas-api
-- description: The Search API from SpecterOps — 2 operation(s) for search.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Search API from SpecterOps — 2 operation(s) for search.
   name: SpecterOps Search API
   slug: specterops-search-api
-- description: The Tasks API from SpecterOps — 9 operation(s) for tasks.
+- baseURL: https://bloodhoundenterprise.io/api/v2
+  baseurl_source: declared
+  description: The Tasks API from SpecterOps — 9 operation(s) for tasks.
   name: SpecterOps Tasks API
   slug: specterops-tasks-api
 artifact_total: 94
@@ -476,7 +562,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/screenshots/specterops-2026-08-17T082020.png
 security:

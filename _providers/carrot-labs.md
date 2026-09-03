@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The SuperPenguin platform tracks and attributes AI spend per request, per customer, per feature, and per prompt version across 14+ LLM, speech, and gateway providers. Access is via first-party Python '
@@ -158,7 +158,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 27.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carrot-labs/refs/heads/main/screenshots/carrot-labs-2026-07-25T204642.png
 security:

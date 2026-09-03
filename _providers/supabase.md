@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -47,64 +47,104 @@ apis:
 - description: 'The Supabase Realtime API provides WebSocket-based subscriptions for real-time data changes from PostgreSQL databases. It supports three channel types: database change events (INSERT/UPDATE/DELETE on '
   name: Supabase Realtime API
   slug: realtime-api
-- description: Administrative endpoints for managing users. Requires service_role key.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: Administrative endpoints for managing users. Requires service_role key.
   name: Supabase Admin API
   slug: supabase-admin-api
-- description: User signup, signin, and token management endpoints.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: User signup, signin, and token management endpoints.
   name: Supabase Authentication API
   slug: supabase-authentication-api
-- description: Manage storage buckets that organize files and folders. Buckets can be public or private and have configurable file size limits and allowed MIME types.
+- baseURL_template: https://{project_ref}.supabase.co/storage/v1
+  baseurl_source: spec_template
+  description: Manage storage buckets that organize files and folders. Buckets can be public or private and have configurable file size limits and allowed MIME types.
   name: Supabase Buckets API
   slug: supabase-buckets-api
-- description: Server configuration and settings endpoints.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: Server configuration and settings endpoints.
   name: Supabase Configuration API
   slug: supabase-configuration-api
-- description: Manage database configurations, migrations, and extensions.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Manage database configurations, migrations, and extensions.
   name: Supabase Database API
   slug: supabase-database-api
-- description: Configure custom domains and vanity subdomains for projects.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Configure custom domains and vanity subdomains for projects.
   name: Supabase Domains API
   slug: supabase-domains-api
-- description: Deploy and manage Edge Functions for serverless compute at the edge.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Deploy and manage Edge Functions for serverless compute at the edge.
   name: Supabase Functions API
   slug: supabase-functions-api
-- description: Invoke deployed Edge Functions via HTTP requests. Each function is accessible at its own URL path based on its slug.
+- baseURL_template: https://{project_ref}.supabase.co/functions/v1
+  baseurl_source: spec_template
+  description: Invoke deployed Edge Functions via HTTP requests. Each function is accessible at its own URL path based on its slug.
   name: Supabase Invocation API
   slug: supabase-invocation-api
-- description: Multi-factor authentication enrollment and verification endpoints.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: Multi-factor authentication enrollment and verification endpoints.
   name: Supabase MFA API
   slug: supabase-mfa-api
-- description: Manage network restrictions, bans, and SSL enforcement.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Manage network restrictions, bans, and SSL enforcement.
   name: Supabase Network API
   slug: supabase-network-api
-- description: OAuth social login provider endpoints.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: OAuth social login provider endpoints.
   name: Supabase OAuth API
   slug: supabase-oauth-api
-- description: Upload, download, move, copy, and delete files within storage buckets.
+- baseURL_template: https://{project_ref}.supabase.co/storage/v1
+  baseurl_source: spec_template
+  description: Upload, download, move, copy, and delete files within storage buckets.
   name: Supabase Objects API
   slug: supabase-objects-api
-- description: Manage organizations including membership, billing, and settings.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Manage organizations including membership, billing, and settings.
   name: Supabase Organizations API
   slug: supabase-organizations-api
-- description: Manage Supabase projects including creation, configuration, pausing, restoring, and deletion.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Manage Supabase projects including creation, configuration, pausing, restoring, and deletion.
   name: Supabase Projects API
   slug: supabase-projects-api
-- description: Serve and transform stored files including image resizing and format conversion.
+- baseURL_template: https://{project_ref}.supabase.co/storage/v1
+  baseurl_source: spec_template
+  description: Serve and transform stored files including image resizing and format conversion.
   name: Supabase Rendering API
   slug: supabase-rendering-api
-- description: Invoke PostgreSQL functions via remote procedure calls.
+- baseURL_template: https://{project_ref}.supabase.co/rest/v1
+  baseurl_source: spec_template
+  description: Invoke PostgreSQL functions via remote procedure calls.
   name: Supabase RPC API
   slug: supabase-rpc-api
-- description: Manage project secrets used by Edge Functions and other services.
+- baseURL: https://api.supabase.com/v1
+  baseurl_source: spec
+  description: Manage project secrets used by Edge Functions and other services.
   name: Supabase Secrets API
   slug: supabase-secrets-api
-- description: SAML-based single sign-on endpoints.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: SAML-based single sign-on endpoints.
   name: Supabase SSO API
   slug: supabase-sso-api
-- description: CRUD operations on database tables. Paths are auto-generated based on your database schema.
+- baseURL_template: https://{project_ref}.supabase.co/rest/v1
+  baseurl_source: spec_template
+  description: CRUD operations on database tables. Paths are auto-generated based on your database schema.
   name: Supabase Tables API
   slug: supabase-tables-api
-- description: Endpoints for managing the currently authenticated user profile.
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: Endpoints for managing the currently authenticated user profile.
   name: Supabase User Management API
   slug: supabase-user-management-api
 artifact_total: 85
@@ -373,7 +413,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -383,7 +423,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -392,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:

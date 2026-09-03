@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -45,130 +45,214 @@ agentic_access:
   summary_line: 133 operations · 73 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The accessToken API from Netlify — 1 operation(s) for accesstoken.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The accessToken API from Netlify — 1 operation(s) for accesstoken.
   name: Netlify accessToken API
   slug: netlify-accesstoken-api
-- description: The accountMembership API from Netlify — 2 operation(s) for accountmembership.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The accountMembership API from Netlify — 2 operation(s) for accountmembership.
   name: Netlify accountMembership API
   slug: netlify-accountmembership-api
-- description: The accountType API from Netlify — 1 operation(s) for accounttype.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The accountType API from Netlify — 1 operation(s) for accounttype.
   name: Netlify accountType API
   slug: netlify-accounttype-api
-- description: The Asset API from Netlify — 2 operation(s) for asset.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Asset API from Netlify — 2 operation(s) for asset.
   name: Netlify Asset API
   slug: netlify-asset-api
-- description: The assetPublicSignature API from Netlify — 1 operation(s) for assetpublicsignature.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The assetPublicSignature API from Netlify — 1 operation(s) for assetpublicsignature.
   name: Netlify assetPublicSignature API
   slug: netlify-assetpublicsignature-api
-- description: The auditLog API from Netlify — 1 operation(s) for auditlog.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The auditLog API from Netlify — 1 operation(s) for auditlog.
   name: Netlify auditLog API
   slug: netlify-auditlog-api
-- description: The Build API from Netlify — 4 operation(s) for build.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Build API from Netlify — 4 operation(s) for build.
   name: Netlify Build API
   slug: netlify-build-api
-- description: The buildHook API from Netlify — 2 operation(s) for buildhook.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The buildHook API from Netlify — 2 operation(s) for buildhook.
   name: Netlify buildHook API
   slug: netlify-buildhook-api
-- description: The buildLogMsg API from Netlify — 1 operation(s) for buildlogmsg.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The buildLogMsg API from Netlify — 1 operation(s) for buildlogmsg.
   name: Netlify buildLogMsg API
   slug: netlify-buildlogmsg-api
-- description: The Deploy API from Netlify — 8 operation(s) for deploy.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Deploy API from Netlify — 8 operation(s) for deploy.
   name: Netlify Deploy API
   slug: netlify-deploy-api
-- description: The deployedBranch API from Netlify — 1 operation(s) for deployedbranch.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The deployedBranch API from Netlify — 1 operation(s) for deployedbranch.
   name: Netlify deployedBranch API
   slug: netlify-deployedbranch-api
-- description: The deployKey API from Netlify — 2 operation(s) for deploykey.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The deployKey API from Netlify — 2 operation(s) for deploykey.
   name: Netlify deployKey API
   slug: netlify-deploykey-api
-- description: The devServer API from Netlify — 3 operation(s) for devserver.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The devServer API from Netlify — 3 operation(s) for devserver.
   name: Netlify devServer API
   slug: netlify-devserver-api
-- description: The devServerHook API from Netlify — 2 operation(s) for devserverhook.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The devServerHook API from Netlify — 2 operation(s) for devserverhook.
   name: Netlify devServerHook API
   slug: netlify-devserverhook-api
-- description: The dnsZone API from Netlify — 6 operation(s) for dnszone.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The dnsZone API from Netlify — 6 operation(s) for dnszone.
   name: Netlify dnsZone API
   slug: netlify-dnszone-api
-- description: The environmentVariables API from Netlify — 4 operation(s) for environmentvariables.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The environmentVariables API from Netlify — 4 operation(s) for environmentvariables.
   name: Netlify environmentVariables API
   slug: netlify-environmentvariables-api
-- description: The File API from Netlify — 3 operation(s) for file.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The File API from Netlify — 3 operation(s) for file.
   name: Netlify File API
   slug: netlify-file-api
-- description: The Form API from Netlify — 2 operation(s) for form.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Form API from Netlify — 2 operation(s) for form.
   name: Netlify Form API
   slug: netlify-form-api
-- description: The Function API from Netlify — 2 operation(s) for function.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Function API from Netlify — 2 operation(s) for function.
   name: Netlify Function API
   slug: netlify-function-api
-- description: The Hook API from Netlify — 3 operation(s) for hook.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Hook API from Netlify — 3 operation(s) for hook.
   name: Netlify Hook API
   slug: netlify-hook-api
-- description: The hookType API from Netlify — 1 operation(s) for hooktype.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The hookType API from Netlify — 1 operation(s) for hooktype.
   name: Netlify hookType API
   slug: netlify-hooktype-api
-- description: The Member API from Netlify — 2 operation(s) for member.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Member API from Netlify — 2 operation(s) for member.
   name: Netlify Member API
   slug: netlify-member-api
-- description: The Metadata API from Netlify — 1 operation(s) for metadata.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Metadata API from Netlify — 1 operation(s) for metadata.
   name: Netlify Metadata API
   slug: netlify-metadata-api
-- description: The paymentMethod API from Netlify — 1 operation(s) for paymentmethod.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The paymentMethod API from Netlify — 1 operation(s) for paymentmethod.
   name: Netlify paymentMethod API
   slug: netlify-paymentmethod-api
-- description: The Purge API from Netlify — 1 operation(s) for purge.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Purge API from Netlify — 1 operation(s) for purge.
   name: Netlify Purge API
   slug: netlify-purge-api
-- description: The serviceInstance API from Netlify — 3 operation(s) for serviceinstance.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The serviceInstance API from Netlify — 3 operation(s) for serviceinstance.
   name: Netlify serviceInstance API
   slug: netlify-serviceinstance-api
-- description: The Services API from Netlify — 3 operation(s) for services.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Services API from Netlify — 3 operation(s) for services.
   name: Netlify Services API
   slug: netlify-services-api
-- description: The Site API from Netlify — 4 operation(s) for site.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Site API from Netlify — 4 operation(s) for site.
   name: Netlify Site API
   slug: netlify-site-api
-- description: The sniCertificate API from Netlify — 1 operation(s) for snicertificate.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The sniCertificate API from Netlify — 1 operation(s) for snicertificate.
   name: Netlify sniCertificate API
   slug: netlify-snicertificate-api
-- description: The Snippet API from Netlify — 2 operation(s) for snippet.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Snippet API from Netlify — 2 operation(s) for snippet.
   name: Netlify Snippet API
   slug: netlify-snippet-api
-- description: The splitTest API from Netlify — 4 operation(s) for splittest.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The splitTest API from Netlify — 4 operation(s) for splittest.
   name: Netlify splitTest API
   slug: netlify-splittest-api
-- description: The Submission API from Netlify — 3 operation(s) for submission.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Submission API from Netlify — 3 operation(s) for submission.
   name: Netlify Submission API
   slug: netlify-submission-api
-- description: The Ticket API from Netlify — 2 operation(s) for ticket.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Ticket API from Netlify — 2 operation(s) for ticket.
   name: Netlify Ticket API
   slug: netlify-ticket-api
-- description: The User API from Netlify — 1 operation(s) for user.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The User API from Netlify — 1 operation(s) for user.
   name: Netlify User API
   slug: netlify-user-api
-- description: The X-Internal API from Netlify — 3 operation(s) for x-internal.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The X-Internal API from Netlify — 3 operation(s) for x-internal.
   name: Netlify X-Internal API
   slug: netlify-x-internal-api
-- description: The agentRunner API from Netlify — 6 operation(s) for agentrunner.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The agentRunner API from Netlify — 6 operation(s) for agentrunner.
   name: Netlify Agent Runner API
   slug: netlify-agentrunner-api
-- description: The agentRunnerHook API from Netlify — 2 operation(s) for agentrunnerhook.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The agentRunnerHook API from Netlify — 2 operation(s) for agentrunnerhook.
   name: Netlify Agent Runner Hook API
   slug: netlify-agentrunnerhook-api
-- description: The agentRunnerSession API from Netlify — 2 operation(s) for agentrunnersession.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The agentRunnerSession API from Netlify — 2 operation(s) for agentrunnersession.
   name: Netlify Agent Runner Session API
   slug: netlify-agentrunnersession-api
-- description: The aiGateway API from Netlify — 3 operation(s) for aigateway.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The aiGateway API from Netlify — 3 operation(s) for aigateway.
   name: Netlify AI Gateway API
   slug: netlify-aigateway-api
-- description: The database API from Netlify — 14 operation(s) for database.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The database API from Netlify — 14 operation(s) for database.
   name: Netlify Database API
   slug: netlify-database-api
-- description: The edgeFunction API from Netlify — 1 operation(s) for edgefunction.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The edgeFunction API from Netlify — 1 operation(s) for edgefunction.
   name: Netlify Edge Function API
   slug: netlify-edgefunction-api
-- description: The service API from Netlify — 3 operation(s) for service.
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The service API from Netlify — 3 operation(s) for service.
   name: Netlify Service API
   slug: netlify-service-api
 artifact_total: 215
@@ -965,7 +1049,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.3
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -978,7 +1062,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 61.6
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -990,8 +1074,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:
 - kind: authentication

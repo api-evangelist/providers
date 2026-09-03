@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: GraphQL API for the Monte Carlo data observability platform. Provides programmatic access to monitors, incidents, assets, lineage, custom rules, warehouses, lakes, metastores, and alerts. Authenticati
   name: Monte Carlo GraphQL API
   slug: graphql-api
-- description: The Graphql API from Monte Carlo — 1 operation(s) for graphql.
+- baseURL: https://api.getmontecarlo.com/graphql
+  baseurl_source: declared
+  description: The Graphql API from Monte Carlo — 1 operation(s) for graphql.
   name: Monte Carlo Graphql API
   slug: monte-carlo-graphql-api
 artifact_total: 10
@@ -153,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/screenshots/monte-carlo-2026-06-20T185743.png
 security:

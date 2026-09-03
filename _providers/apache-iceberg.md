@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: PyIceberg is the official Python implementation of the Apache Iceberg table specification. It provides programmatic access to Iceberg table metadata and data, with integrations for PyArrow, Pandas, Du
   name: PyIceberg Python API
   slug: python-api
-- description: The Catalog API API from Apache Iceberg — 18 operation(s) for catalog api.
+- baseURL_template: '{scheme}://{host}/{basePath}'
+  baseurl_source: spec_template
+  description: The Catalog API API from Apache Iceberg — 18 operation(s) for catalog api.
   name: Apache Iceberg Catalog API API
   slug: apache-iceberg-catalog-api-api
-- description: The Configuration API API from Apache Iceberg — 1 operation(s) for configuration api.
+- baseURL_template: '{scheme}://{host}/{basePath}'
+  baseurl_source: spec_template
+  description: The Configuration API API from Apache Iceberg — 1 operation(s) for configuration api.
   name: Apache Iceberg Configuration API API
   slug: apache-iceberg-configuration-api-api
-- description: The OAuth2 API API from Apache Iceberg — 1 operation(s) for oauth2 api.
+- baseURL_template: '{scheme}://{host}/{basePath}'
+  baseurl_source: spec_template
+  description: The OAuth2 API API from Apache Iceberg — 1 operation(s) for oauth2 api.
   name: Apache Iceberg OAuth2 API API
   slug: apache-iceberg-oauth2-api-api
 artifact_total: 513
@@ -1704,7 +1710,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/screenshots/apache-iceberg-2026-06-20T172110.png
 security:

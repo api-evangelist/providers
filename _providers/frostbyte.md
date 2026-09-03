@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 183 operations · 102 acting
 api_count: 7
 apis:
-- description: 12 services
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: 12 services
   name: Frostbyte Agent Infrastructure API
   slug: frostbyte-agent-infrastructure-api
-- description: 1 services
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: 1 services
   name: Frostbyte Communication API
   slug: frostbyte-communication-api
-- description: Real-time cryptocurrency price endpoints
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: Real-time cryptocurrency price endpoints
   name: Frostbyte Crypto Prices API
   slug: frostbyte-crypto-prices-api
-- description: 7 services
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: 7 services
   name: Frostbyte Data & Analytics API
   slug: frostbyte-data-analytics-api
-- description: 4 services
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: 4 services
   name: Frostbyte DeFi & Crypto API
   slug: frostbyte-defi-crypto-api
-- description: 1 services
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: 1 services
   name: Frostbyte Gaming API
   slug: frostbyte-gaming-api
-- description: Gateway-level endpoints (auth, payments, analytics)
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: Gateway-level endpoints (auth, payments, analytics)
   name: Frostbyte Gateway API
   slug: frostbyte-gateway-api
-- description: IP address geolocation lookup endpoints
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: IP address geolocation lookup endpoints
   name: Frostbyte IP Geolocation API
   slug: frostbyte-ip-geolocation-api
-- description: The Other API from Frostbyte — 54 operation(s) for other.
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: The Other API from Frostbyte — 54 operation(s) for other.
   name: Frostbyte Other API
   slug: frostbyte-other-api
-- description: 1 services
+- baseURL: https://agent-gateway-kappa.vercel.app
+  baseurl_source: declared
+  description: 1 services
   name: Frostbyte Security API
   slug: frostbyte-security-api
 artifact_total: 68
@@ -351,7 +371,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/screenshots/frostbyte-2026-06-20T181557.png
 security:

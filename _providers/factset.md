@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -72,7 +72,9 @@ apis:
 - description: Access key transactions and pricing metrics on publicly announced mergers, acquisitions, divestitures, and spinoffs involving public and private companies.
   name: FactSet Mergers and Acquisitions API
   slug: factset-mergers-and-acquisitions-api
-- description: Retrieve real-time financial news, press releases, market summaries, and business insights by category, identifier, and keyword.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Retrieve real-time financial news, press releases, market summaries, and business insights by category, identifier, and keyword.
   name: FactSet News API
   slug: factset-news-api
 - description: Ultra-low latency access to news from over 80 distributors, covering more than 200 publishers, designed for direct use by client web applications.
@@ -87,808 +89,1344 @@ apis:
 - description: Access comprehensive partner fund data including profiles, allocations, performance, and rankings for mutual funds.
   name: FactSet Partner Funds API
   slug: factset-partner-funds-api
-- description: The About API from Factset — 1 operation(s) for about.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The About API from Factset — 1 operation(s) for about.
   name: Factset About API
   slug: factset-about-api
-- description: The Account API from Factset — 9 operation(s) for account.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Account API from Factset — 9 operation(s) for account.
   name: Factset Account API
   slug: factset-account-api
-- description: CRUD operations on Account Composite
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: CRUD operations on Account Composite
   name: Factset Account Composite API
   slug: factset-account-composite-api
-- description: The Accounts API from Factset — 7 operation(s) for accounts.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Accounts API from Factset — 7 operation(s) for accounts.
   name: Factset Accounts API
   slug: factset-accounts-api
-- description: The Actions API from Factset — 1 operation(s) for actions.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Actions API from Factset — 1 operation(s) for actions.
   name: Factset Actions API
   slug: factset-actions-api
-- description: The Adaptive API from Factset — 3 operation(s) for adaptive.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Adaptive API from Factset — 3 operation(s) for adaptive.
   name: Factset Adaptive API
   slug: factset-adaptive-api
-- description: Agency Details
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Agency Details
   name: Factset Agents API
   slug: factset-agents-api
-- description: The Aggregated API from Factset — 1 operation(s) for aggregated.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Aggregated API from Factset — 1 operation(s) for aggregated.
   name: Factset Aggregated API
   slug: factset-aggregated-api
-- description: The Alert API from Factset — 2 operation(s) for alert.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Alert API from Factset — 2 operation(s) for alert.
   name: Factset Alert API
   slug: factset-alert-api
-- description: The Alerting API from Factset — 4 operation(s) for alerting.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Alerting API from Factset — 4 operation(s) for alerting.
   name: Factset Alerting API
   slug: factset-alerting-api
-- description: The Alternatives API from Factset — 1 operation(s) for alternatives.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Alternatives API from Factset — 1 operation(s) for alternatives.
   name: Factset Alternatives API
   slug: factset-alternatives-api
-- description: The Analytics API from Factset — 107 operation(s) for analytics.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Analytics API from Factset — 107 operation(s) for analytics.
   name: Factset Analytics API
   slug: factset-analytics-api
-- description: The Annualized API from Factset — 1 operation(s) for annualized.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Annualized API from Factset — 1 operation(s) for annualized.
   name: Factset Annualized API
   slug: factset-annualized-api
-- description: The Answers API from Factset — 2 operation(s) for answers.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Answers API from Factset — 2 operation(s) for answers.
   name: Factset Answers API
   slug: factset-answers-api
-- description: The Archive API from Factset — 1 operation(s) for archive.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Archive API from Factset — 1 operation(s) for archive.
   name: Factset Archive API
   slug: factset-archive-api
-- description: The Article API from Factset — 9 operation(s) for article.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Article API from Factset — 9 operation(s) for article.
   name: Factset Article API
   slug: factset-article-api
-- description: Get Articles data for the most important positive and negative ESG events
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Get Articles data for the most important positive and negative ESG events
   name: Factset Articles API
   slug: factset-articles-api
-- description: The Ask API from Factset — 2 operation(s) for ask.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Ask API from Factset — 2 operation(s) for ask.
   name: Factset Ask API
   slug: factset-ask-api
-- description: The Assets API from Factset — 1 operation(s) for assets.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Assets API from Factset — 1 operation(s) for assets.
   name: Factset Assets API
   slug: factset-assets-api
-- description: The Asynch API from Factset — 6 operation(s) for asynch.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Asynch API from Factset — 6 operation(s) for asynch.
   name: Factset Asynch API
   slug: factset-asynch-api
-- description: The Attachment API from Factset — 6 operation(s) for attachment.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Attachment API from Factset — 6 operation(s) for attachment.
   name: Factset Attachment API
   slug: factset-attachment-api
-- description: The Attachments API from Factset — 10 operation(s) for attachments.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Attachments API from Factset — 10 operation(s) for attachments.
   name: Factset Attachments API
   slug: factset-attachments-api
-- description: The Attributes API from Factset — 7 operation(s) for attributes.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Attributes API from Factset — 7 operation(s) for attributes.
   name: Factset Attributes API
   slug: factset-attributes-api
-- description: The Audio API from Factset — 2 operation(s) for audio.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Audio API from Factset — 2 operation(s) for audio.
   name: Factset Audio API
   slug: factset-audio-api
-- description: The Audit API from Factset — 1 operation(s) for audit.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Audit API from Factset — 1 operation(s) for audit.
   name: Factset Audit API
   slug: factset-audit-api
-- description: The Aum API from Factset — 1 operation(s) for aum.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Aum API from Factset — 1 operation(s) for aum.
   name: Factset Aum API
   slug: factset-aum-api
-- description: The Authors API from Factset — 1 operation(s) for authors.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Authors API from Factset — 1 operation(s) for authors.
   name: Factset Authors API
   slug: factset-authors-api
-- description: The Average API from Factset — 1 operation(s) for average.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Average API from Factset — 1 operation(s) for average.
   name: Factset Average API
   slug: factset-average-api
-- description: The Background API from Factset — 4 operation(s) for background.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Background API from Factset — 4 operation(s) for background.
   name: Factset Background API
   slug: factset-background-api
-- description: The Balance Sheet API from Factset — 1 operation(s) for balance sheet.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Balance Sheet API from Factset — 1 operation(s) for balance sheet.
   name: Factset Balance Sheet API
   slug: factset-balance-sheet-api
-- description: The Barriers API from Factset — 1 operation(s) for barriers.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Barriers API from Factset — 1 operation(s) for barriers.
   name: Factset Barriers API
   slug: factset-barriers-api
-- description: The Bars API from Factset — 3 operation(s) for bars.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Bars API from Factset — 3 operation(s) for bars.
   name: Factset Bars API
   slug: factset-bars-api
-- description: The Basic API from Factset — 38 operation(s) for basic.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Basic API from Factset — 38 operation(s) for basic.
   name: Factset Basic API
   slug: factset-basic-api
-- description: The Basic_search API from Factset — 1 operation(s) for basic_search.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Basic_search API from Factset — 1 operation(s) for basic_search.
   name: Factset Basic_search API
   slug: factset-basic-search-api
-- description: The Batch API from Factset — 6 operation(s) for batch.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Batch API from Factset — 6 operation(s) for batch.
   name: Factset Batch API
   slug: factset-batch-api
-- description: The Batch Result API from Factset — 2 operation(s) for batch result.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Batch Result API from Factset — 2 operation(s) for batch result.
   name: Factset Batch Result API
   slug: factset-batch-result-api
-- description: The Batch Status API from Factset — 2 operation(s) for batch status.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Batch Status API from Factset — 2 operation(s) for batch status.
   name: Factset Batch Status API
   slug: factset-batch-status-api
-- description: The Benchmark API from Factset — 10 operation(s) for benchmark.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Benchmark API from Factset — 10 operation(s) for benchmark.
   name: Factset Benchmark API
   slug: factset-benchmark-api
-- description: The Book API from Factset — 1 operation(s) for book.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Book API from Factset — 1 operation(s) for book.
   name: Factset Book API
   slug: factset-book-api
-- description: The Book List API from Factset — 1 operation(s) for book list.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Book List API from Factset — 1 operation(s) for book list.
   name: Factset Book List API
   slug: factset-book-list-api
-- description: The Books API from Factset — 3 operation(s) for books.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Books API from Factset — 3 operation(s) for books.
   name: Factset Books API
   slug: factset-books-api
-- description: The Bulk API from Factset — 4 operation(s) for bulk.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Bulk API from Factset — 4 operation(s) for bulk.
   name: Factset Bulk API
   slug: factset-bulk-api
-- description: The Bulk Documents API from Factset — 4 operation(s) for bulk documents.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Bulk Documents API from Factset — 4 operation(s) for bulk documents.
   name: Factset Bulk Documents API
   slug: factset-bulk-documents-api
-- description: The By API from Factset — 5 operation(s) for by.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The By API from Factset — 5 operation(s) for by.
   name: Factset By API
   slug: factset-by-api
-- description: The Calculate API from Factset — 1 operation(s) for calculate.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Calculate API from Factset — 1 operation(s) for calculate.
   name: Factset Calculate API
   slug: factset-calculate-api
-- description: The Calculations API from Factset — 27 operation(s) for calculations.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Calculations API from Factset — 27 operation(s) for calculations.
   name: Factset Calculations API
   slug: factset-calculations-api
-- description: The Cash Flow API from Factset — 1 operation(s) for cash flow.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Cash Flow API from Factset — 1 operation(s) for cash flow.
   name: Factset Cash Flow API
   slug: factset-cash-flow-api
-- description: The Catalog API from Factset — 2 operation(s) for catalog.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Catalog API from Factset — 2 operation(s) for catalog.
   name: Factset Catalog API
   slug: factset-catalog-api
-- description: The Categories API from Factset — 1 operation(s) for categories.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Categories API from Factset — 1 operation(s) for categories.
   name: Factset Categories API
   slug: factset-categories-api
-- description: The Category API from Factset — 11 operation(s) for category.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Category API from Factset — 11 operation(s) for category.
   name: Factset Category API
   slug: factset-category-api
-- description: The Chart API from Factset — 5 operation(s) for chart.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Chart API from Factset — 5 operation(s) for chart.
   name: Factset Chart API
   slug: factset-chart-api
-- description: The Checks API from Factset — 1 operation(s) for checks.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Checks API from Factset — 1 operation(s) for checks.
   name: Factset Checks API
   slug: factset-checks-api
-- description: The Child Orders API from Factset — 3 operation(s) for child orders.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Child Orders API from Factset — 3 operation(s) for child orders.
   name: Factset Child Orders API
   slug: factset-child-orders-api
-- description: The Classifications API from Factset — 2 operation(s) for classifications.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Classifications API from Factset — 2 operation(s) for classifications.
   name: Factset Classifications API
   slug: factset-classifications-api
-- description: The Client API from Factset — 1 operation(s) for client.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Client API from Factset — 1 operation(s) for client.
   name: Factset Client API
   slug: factset-client-api
-- description: The Code API from Factset — 7 operation(s) for code.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Code API from Factset — 7 operation(s) for code.
   name: Factset Code API
   slug: factset-code-api
-- description: The Comments API from Factset — 8 operation(s) for comments.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Comments API from Factset — 8 operation(s) for comments.
   name: Factset Comments API
   slug: factset-comments-api
-- description: The Company API from Factset — 14 operation(s) for company.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Company API from Factset — 14 operation(s) for company.
   name: Factset Company API
   slug: factset-company-api
-- description: The Compliance API from Factset — 3 operation(s) for compliance.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Compliance API from Factset — 3 operation(s) for compliance.
   name: Factset Compliance API
   slug: factset-compliance-api
-- description: The Composite API from Factset — 6 operation(s) for composite.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Composite API from Factset — 6 operation(s) for composite.
   name: Factset Composite API
   slug: factset-composite-api
-- description: The Conditions API from Factset — 13 operation(s) for conditions.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Conditions API from Factset — 13 operation(s) for conditions.
   name: Factset Conditions API
   slug: factset-conditions-api
-- description: The Configurations API from Factset — 3 operation(s) for configurations.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Configurations API from Factset — 3 operation(s) for configurations.
   name: Factset Configurations API
   slug: factset-configurations-api
-- description: The Contact API from Factset — 8 operation(s) for contact.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Contact API from Factset — 8 operation(s) for contact.
   name: Factset Contact API
   slug: factset-contact-api
-- description: The Contact Custom Fields API from Factset — 2 operation(s) for contact custom fields.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Contact Custom Fields API from Factset — 2 operation(s) for contact custom fields.
   name: Factset Contact Custom Fields API
   slug: factset-contact-custom-fields-api
-- description: The Contact Relationships API from Factset — 2 operation(s) for contact relationships.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Contact Relationships API from Factset — 2 operation(s) for contact relationships.
   name: Factset Contact Relationships API
   slug: factset-contact-relationships-api
-- description: The Contact Roles API from Factset — 2 operation(s) for contact roles.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Contact Roles API from Factset — 2 operation(s) for contact roles.
   name: Factset Contact Roles API
   slug: factset-contact-roles-api
-- description: The Contact Types API from Factset — 2 operation(s) for contact types.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Contact Types API from Factset — 2 operation(s) for contact types.
   name: Factset Contact Types API
   slug: factset-contact-types-api
-- description: The Contacts API from Factset — 8 operation(s) for contacts.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Contacts API from Factset — 8 operation(s) for contacts.
   name: Factset Contacts API
   slug: factset-contacts-api
-- description: The Conversations API from Factset — 1 operation(s) for conversations.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Conversations API from Factset — 1 operation(s) for conversations.
   name: Factset Conversations API
   slug: factset-conversations-api
-- description: The Costs API from Factset — 1 operation(s) for costs.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Costs API from Factset — 1 operation(s) for costs.
   name: Factset Costs API
   slug: factset-costs-api
-- description: The Count API from Factset — 2 operation(s) for count.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Count API from Factset — 2 operation(s) for count.
   name: Factset Count API
   slug: factset-count-api
-- description: The Coupons API from Factset — 4 operation(s) for coupons.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Coupons API from Factset — 4 operation(s) for coupons.
   name: Factset Coupons API
   slug: factset-coupons-api
-- description: The Coverage API from Factset — 1 operation(s) for coverage.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Coverage API from Factset — 1 operation(s) for coverage.
   name: Factset Coverage API
   slug: factset-coverage-api
-- description: The Create API from Factset — 4 operation(s) for create.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Create API from Factset — 4 operation(s) for create.
   name: Factset Create API
   slug: factset-create-api
-- description: The Create Book API from Factset — 1 operation(s) for create book.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Create Book API from Factset — 1 operation(s) for create book.
   name: Factset Create Book API
   slug: factset-create-book-api
-- description: The Create Book From Template API from Factset — 1 operation(s) for create book from template.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Create Book From Template API from Factset — 1 operation(s) for create book from template.
   name: Factset Create Book From Template API
   slug: factset-create-book-from-template-api
-- description: The Create Template API from Factset — 1 operation(s) for create template.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Create Template API from Factset — 1 operation(s) for create template.
   name: Factset Create Template API
   slug: factset-create-template-api
-- description: The Cross API from Factset — 1 operation(s) for cross.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Cross API from Factset — 1 operation(s) for cross.
   name: Factset Cross API
   slug: factset-cross-api
-- description: The Cross Sectional API from Factset — 1 operation(s) for cross sectional.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Cross Sectional API from Factset — 1 operation(s) for cross sectional.
   name: Factset Cross Sectional API
   slug: factset-cross-sectional-api
-- description: The Current Cap API from Factset — 1 operation(s) for current cap.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Current Cap API from Factset — 1 operation(s) for current cap.
   name: Factset Current Cap API
   slug: factset-current-cap-api
-- description: The Custom API from Factset — 18 operation(s) for custom.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Custom API from Factset — 18 operation(s) for custom.
   name: Factset Custom API
   slug: factset-custom-api
-- description: The Custom Fields API from Factset — 1 operation(s) for custom fields.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Custom Fields API from Factset — 1 operation(s) for custom fields.
   name: Factset Custom Fields API
   slug: factset-custom-fields-api
-- description: The Custom Symbol Custom Fields API from Factset — 2 operation(s) for custom symbol custom fields.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Custom Symbol Custom Fields API from Factset — 2 operation(s) for custom symbol custom fields.
   name: Factset Custom Symbol Custom Fields API
   slug: factset-custom-symbol-custom-fields-api
-- description: The Custom Symbol Types API from Factset — 4 operation(s) for custom symbol types.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Custom Symbol Types API from Factset — 4 operation(s) for custom symbol types.
   name: Factset Custom Symbol Types API
   slug: factset-custom-symbol-types-api
-- description: The Custom Symbols API from Factset — 7 operation(s) for custom symbols.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Custom Symbols API from Factset — 7 operation(s) for custom symbols.
   name: Factset Custom Symbols API
   slug: factset-custom-symbols-api
-- description: The Custom Upload List API from Factset — 1 operation(s) for custom upload list.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Custom Upload List API from Factset — 1 operation(s) for custom upload list.
   name: Factset Custom Upload List API
   slug: factset-custom-upload-list-api
-- description: The Data API from Factset — 9 operation(s) for data.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Data API from Factset — 9 operation(s) for data.
   name: Factset Data API
   slug: factset-data-api
-- description: The Data Dictionary API from Factset — 2 operation(s) for data dictionary.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Data Dictionary API from Factset — 2 operation(s) for data dictionary.
   name: Factset Data Dictionary API
   slug: factset-data-dictionary-api
-- description: The Data_items API from Factset — 1 operation(s) for data_items.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Data_items API from Factset — 1 operation(s) for data_items.
   name: Factset Data_items API
   slug: factset-data-items-api
-- description: The Data Sources API from Factset — 3 operation(s) for data sources.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Data Sources API from Factset — 3 operation(s) for data sources.
   name: Factset Data Sources API
   slug: factset-data-sources-api
-- description: The Database API from Factset — 24 operation(s) for database.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Database API from Factset — 24 operation(s) for database.
   name: Factset Database API
   slug: factset-database-api
-- description: The Dataset API from Factset — 1 operation(s) for dataset.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Dataset API from Factset — 1 operation(s) for dataset.
   name: Factset Dataset API
   slug: factset-dataset-api
-- description: The Date API from Factset — 7 operation(s) for date.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Date API from Factset — 7 operation(s) for date.
   name: Factset Date API
   slug: factset-date-api
-- description: The Dcs Detail API from Factset — 1 operation(s) for dcs detail.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Dcs Detail API from Factset — 1 operation(s) for dcs detail.
   name: Factset Dcs Detail API
   slug: factset-dcs-detail-api
-- description: The Dcs Summary API from Factset — 1 operation(s) for dcs summary.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Dcs Summary API from Factset — 1 operation(s) for dcs summary.
   name: Factset Dcs Summary API
   slug: factset-dcs-summary-api
-- description: The Debt API from Factset — 5 operation(s) for debt.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Debt API from Factset — 5 operation(s) for debt.
   name: Factset Debt API
   slug: factset-debt-api
-- description: The Defined API from Factset — 4 operation(s) for defined.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Defined API from Factset — 4 operation(s) for defined.
   name: Factset Defined API
   slug: factset-defined-api
-- description: The Derivative API from Factset — 8 operation(s) for derivative.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Derivative API from Factset — 8 operation(s) for derivative.
   name: Factset Derivative API
   slug: factset-derivative-api
-- description: The DFSnapshot API from Factset — 1 operation(s) for dfsnapshot.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The DFSnapshot API from Factset — 1 operation(s) for dfsnapshot.
   name: Factset DFSnapshot API
   slug: factset-dfsnapshot-api
-- description: The Distributor API from Factset — 5 operation(s) for distributor.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Distributor API from Factset — 5 operation(s) for distributor.
   name: Factset Distributor API
   slug: factset-distributor-api
-- description: The Docs Distributor API from Factset — 2 operation(s) for docs distributor.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Docs Distributor API from Factset — 2 operation(s) for docs distributor.
   name: Factset Docs Distributor API
   slug: factset-docs-distributor-api
-- description: The Download Api Book Aws API from Factset — 1 operation(s) for download api book aws.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Download Api Book Aws API from Factset — 1 operation(s) for download api book aws.
   name: Factset Download Api Book Aws API
   slug: factset-download-api-book-aws-api
-- description: The Downloads API from Factset — 1 operation(s) for downloads.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Downloads API from Factset — 1 operation(s) for downloads.
   name: Factset Downloads API
   slug: factset-downloads-api
-- description: The Elements API from Factset — 1 operation(s) for elements.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Elements API from Factset — 1 operation(s) for elements.
   name: Factset Elements API
   slug: factset-elements-api
-- description: The Entities API from Factset — 4 operation(s) for entities.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Entities API from Factset — 4 operation(s) for entities.
   name: Factset Entities API
   slug: factset-entities-api
-- description: The Entity API from Factset — 1 operation(s) for entity.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Entity API from Factset — 1 operation(s) for entity.
   name: Factset Entity API
   slug: factset-entity-api
-- description: The Event API from Factset — 1 operation(s) for event.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Event API from Factset — 1 operation(s) for event.
   name: Factset Event API
   slug: factset-event-api
-- description: The Events API from Factset — 7 operation(s) for events.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Events API from Factset — 7 operation(s) for events.
   name: Factset Events API
   slug: factset-events-api
-- description: The Exchange API from Factset — 2 operation(s) for exchange.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Exchange API from Factset — 2 operation(s) for exchange.
   name: Factset Exchange API
   slug: factset-exchange-api
-- description: The F API from Factset — 1 operation(s) for f.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The F API from Factset — 1 operation(s) for f.
   name: Factset F API
   slug: factset-f-api
-- description: The Fact API from Factset — 4 operation(s) for fact.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Fact API from Factset — 4 operation(s) for fact.
   name: Factset Fact API
   slug: factset-fact-api
-- description: factset endpoints
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: factset endpoints
   name: Factset Factset API
   slug: factset-factset-api
-- description: The Factset Benchmarks API from Factset — 6 operation(s) for factset benchmarks.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Benchmarks API from Factset — 6 operation(s) for factset benchmarks.
   name: Factset Factset Benchmarks API
   slug: factset-factset-benchmarks-api
-- description: The Factset Concordance API from Factset — 21 operation(s) for factset concordance.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Concordance API from Factset — 21 operation(s) for factset concordance.
   name: Factset Factset Concordance API
   slug: factset-factset-concordance-api
-- description: The Factset Entity API from Factset — 6 operation(s) for factset entity.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Entity API from Factset — 6 operation(s) for factset entity.
   name: Factset Factset Entity API
   slug: factset-factset-entity-api
-- description: The Factset Esg API from Factset — 9 operation(s) for factset esg.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Esg API from Factset — 9 operation(s) for factset esg.
   name: Factset Factset Esg API
   slug: factset-factset-esg-api
-- description: The Factset Estimates API from Factset — 9 operation(s) for factset estimates.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Estimates API from Factset — 9 operation(s) for factset estimates.
   name: Factset Factset Estimates API
   slug: factset-factset-estimates-api
-- description: The Factset Etf API from Factset — 2 operation(s) for factset etf.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Etf API from Factset — 2 operation(s) for factset etf.
   name: Factset Factset Etf API
   slug: factset-factset-etf-api
-- description: The Factset Funds API from Factset — 13 operation(s) for factset funds.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Funds API from Factset — 13 operation(s) for factset funds.
   name: Factset Factset Funds API
   slug: factset-factset-funds-api
-- description: The Factset Georev API from Factset — 2 operation(s) for factset georev.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Georev API from Factset — 2 operation(s) for factset georev.
   name: Factset Factset Georev API
   slug: factset-factset-georev-api
-- description: The Factset Global Prices API from Factset — 7 operation(s) for factset global prices.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Global Prices API from Factset — 7 operation(s) for factset global prices.
   name: Factset Factset Global Prices API
   slug: factset-factset-global-prices-api
-- description: The Factset Options API from Factset — 11 operation(s) for factset options.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Options API from Factset — 11 operation(s) for factset options.
   name: Factset Factset Options API
   slug: factset-factset-options-api
-- description: The Factset Ownership API from Factset — 2 operation(s) for factset ownership.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Ownership API from Factset — 2 operation(s) for factset ownership.
   name: Factset Factset Ownership API
   slug: factset-factset-ownership-api
-- description: The Factset People API from Factset — 6 operation(s) for factset people.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset People API from Factset — 6 operation(s) for factset people.
   name: Factset Factset People API
   slug: factset-factset-people-api
-- description: The Factset Prices API from Factset — 11 operation(s) for factset prices.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Prices API from Factset — 11 operation(s) for factset prices.
   name: Factset Factset Prices API
   slug: factset-factset-prices-api
-- description: The Factset Private Markets API from Factset — 4 operation(s) for factset private markets.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Private Markets API from Factset — 4 operation(s) for factset private markets.
   name: Factset Factset Private Markets API
   slug: factset-factset-private-markets-api
-- description: The Factset Quant Factor Library API from Factset — 2 operation(s) for factset quant factor library.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Quant Factor Library API from Factset — 2 operation(s) for factset quant factor library.
   name: Factset Factset Quant Factor Library API
   slug: factset-factset-quant-factor-library-api
-- description: The Factset Rbics API from Factset — 2 operation(s) for factset rbics.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Rbics API from Factset — 2 operation(s) for factset rbics.
   name: Factset Factset Rbics API
   slug: factset-factset-rbics-api
-- description: The Factset Terms and Conditions API from Factset — 13 operation(s) for factset terms and conditions.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Factset Terms and Conditions API from Factset — 13 operation(s) for factset terms and conditions.
   name: Factset Factset Terms and Conditions API
   slug: factset-factset-terms-and-conditions-api
-- description: The Fields API from Factset — 6 operation(s) for fields.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Fields API from Factset — 6 operation(s) for fields.
   name: Factset Fields API
   slug: factset-fields-api
-- description: The Figures API from Factset — 30 operation(s) for figures.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Figures API from Factset — 30 operation(s) for figures.
   name: Factset Figures API
   slug: factset-figures-api
-- description: The File API from Factset — 4 operation(s) for file.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The File API from Factset — 4 operation(s) for file.
   name: Factset File API
   slug: factset-file-api
-- description: The FileManagerAudit API from Factset — 1 operation(s) for filemanageraudit.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The FileManagerAudit API from Factset — 1 operation(s) for filemanageraudit.
   name: Factset FileManagerAudit API
   slug: factset-filemanageraudit-api
-- description: The Files API from Factset — 15 operation(s) for files.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Files API from Factset — 15 operation(s) for files.
   name: Factset Files API
   slug: factset-files-api
-- description: The Financial Highlights API from Factset — 1 operation(s) for financial highlights.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Financial Highlights API from Factset — 1 operation(s) for financial highlights.
   name: Factset Financial Highlights API
   slug: factset-financial-highlights-api
-- description: Retrieve Private Company Financials
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Retrieve Private Company Financials
   name: Factset Financials API
   slug: factset-financials-api
-- description: The Firsttrade API from Factset — 1 operation(s) for firsttrade.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Firsttrade API from Factset — 1 operation(s) for firsttrade.
   name: Factset Firsttrade API
   slug: factset-firsttrade-api
-- description: The Flows API from Factset — 1 operation(s) for flows.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Flows API from Factset — 1 operation(s) for flows.
   name: Factset Flows API
   slug: factset-flows-api
-- description: The Foreign Exchange API from Factset — 2 operation(s) for foreign exchange.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Foreign Exchange API from Factset — 2 operation(s) for foreign exchange.
   name: Factset Foreign Exchange API
   slug: factset-foreign-exchange-api
-- description: fund endpoints
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: fund endpoints
   name: Factset fund API
   slug: factset-fund-api
-- description: The Fundamentals API from Factset — 1 operation(s) for fundamentals.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Fundamentals API from Factset — 1 operation(s) for fundamentals.
   name: Factset Fundamentals API
   slug: factset-fundamentals-api
-- description: The Generate API from Factset — 1 operation(s) for generate.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Generate API from Factset — 1 operation(s) for generate.
   name: Factset Generate API
   slug: factset-generate-api
-- description: The Geographic Segments API from Factset — 1 operation(s) for geographic segments.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Geographic Segments API from Factset — 1 operation(s) for geographic segments.
   name: Factset Geographic Segments API
   slug: factset-geographic-segments-api
-- description: The Global API from Factset — 7 operation(s) for global.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Global API from Factset — 7 operation(s) for global.
   name: Factset Global API
   slug: factset-global-api
-- description: The Global Filings API from Factset — 1 operation(s) for global filings.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Global Filings API from Factset — 1 operation(s) for global filings.
   name: Factset Global Filings API
   slug: factset-global-filings-api
-- description: The Grades API from Factset — 1 operation(s) for grades.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Grades API from Factset — 1 operation(s) for grades.
   name: Factset Grades API
   slug: factset-grades-api
-- description: The Group API from Factset — 3 operation(s) for group.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Group API from Factset — 3 operation(s) for group.
   name: Factset Group API
   slug: factset-group-api
-- description: The Groups API from Factset — 13 operation(s) for groups.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Groups API from Factset — 13 operation(s) for groups.
   name: Factset Groups API
   slug: factset-groups-api
-- description: The Headlines API from Factset — 3 operation(s) for headlines.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Headlines API from Factset — 3 operation(s) for headlines.
   name: Factset Headlines API
   slug: factset-headlines-api
-- description: The Helper API from Factset — 1 operation(s) for helper.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Helper API from Factset — 1 operation(s) for helper.
   name: Factset Helper API
   slug: factset-helper-api
-- description: The History API from Factset — 12 operation(s) for history.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The History API from Factset — 12 operation(s) for history.
   name: Factset History API
   slug: factset-history-api
-- description: The Holders API from Factset — 2 operation(s) for holders.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Holders API from Factset — 2 operation(s) for holders.
   name: Factset Holders API
   slug: factset-holders-api
-- description: The Holdings API from Factset — 3 operation(s) for holdings.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Holdings API from Factset — 3 operation(s) for holdings.
   name: Factset Holdings API
   slug: factset-holdings-api
-- description: CRUD operations on Holdings Composite
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: CRUD operations on Holdings Composite
   name: Factset Holdings Composite API
   slug: factset-holdings-composite-api
-- description: The I API from Factset — 5 operation(s) for i.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The I API from Factset — 5 operation(s) for i.
   name: Factset I API
   slug: factset-i-api
-- description: The Identifiers API from Factset — 2 operation(s) for identifiers.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Identifiers API from Factset — 2 operation(s) for identifiers.
   name: Factset Identifiers API
   slug: factset-identifiers-api
-- description: The Idsearch API from Factset — 1 operation(s) for idsearch.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Idsearch API from Factset — 1 operation(s) for idsearch.
   name: Factset Idsearch API
   slug: factset-idsearch-api
-- description: The Image API from Factset — 1 operation(s) for image.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Image API from Factset — 1 operation(s) for image.
   name: Factset Image API
   slug: factset-image-api
-- description: The Income Statement API from Factset — 1 operation(s) for income statement.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Income Statement API from Factset — 1 operation(s) for income statement.
   name: Factset Income Statement API
   slug: factset-income-statement-api
-- description: The Industry Metrics API from Factset — 1 operation(s) for industry metrics.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Industry Metrics API from Factset — 1 operation(s) for industry metrics.
   name: Factset Industry Metrics API
   slug: factset-industry-metrics-api
-- description: The Instance API from Factset — 3 operation(s) for instance.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Instance API from Factset — 3 operation(s) for instance.
   name: Factset Instance API
   slug: factset-instance-api
-- description: The Instances API from Factset — 5 operation(s) for instances.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Instances API from Factset — 5 operation(s) for instances.
   name: Factset Instances API
   slug: factset-instances-api
-- description: The Instrument API from Factset — 39 operation(s) for instrument.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Instrument API from Factset — 39 operation(s) for instrument.
   name: Factset Instrument API
   slug: factset-instrument-api
-- description: The Intraday API from Factset — 7 operation(s) for intraday.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Intraday API from Factset — 7 operation(s) for intraday.
   name: Factset Intraday API
   slug: factset-intraday-api
-- description: Updating and retrieving issue data within the Issue Tracker
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Updating and retrieving issue data within the Issue Tracker
   name: Factset Issues API
   slug: factset-issues-api
-- description: The Job API from Factset — 4 operation(s) for job.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Job API from Factset — 4 operation(s) for job.
   name: Factset Job API
   slug: factset-job-api
-- description: The Jobs API from Factset — 3 operation(s) for jobs.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Jobs API from Factset — 3 operation(s) for jobs.
   name: Factset Jobs API
   slug: factset-jobs-api
-- description: The Key Stats API from Factset — 1 operation(s) for key stats.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Key Stats API from Factset — 1 operation(s) for key stats.
   name: Factset Key Stats API
   slug: factset-key-stats-api
-- description: The Level API from Factset — 2 operation(s) for level.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Level API from Factset — 2 operation(s) for level.
   name: Factset Level API
   slug: factset-level-api
-- description: The Level1 API from Factset — 7 operation(s) for level1.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Level1 API from Factset — 7 operation(s) for level1.
   name: Factset Level1 API
   slug: factset-level1-api
-- description: The Level2 API from Factset — 3 operation(s) for level2.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Level2 API from Factset — 3 operation(s) for level2.
   name: Factset Level2 API
   slug: factset-level2-api
-- description: The Linear API from Factset — 7 operation(s) for linear.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Linear API from Factset — 7 operation(s) for linear.
   name: Factset Linear API
   slug: factset-linear-api
-- description: <a href=https://go.factset.com/marketplace/catalog/product/linkup-raw>LinkUp</a> API provides access to job listings data.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: <a href=https://go.factset.com/marketplace/catalog/product/linkup-raw>LinkUp</a> API provides access to job listings data.
   name: Factset Linkup API
   slug: factset-linkup-api
-- description: The List API from Factset — 7 operation(s) for list.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The List API from Factset — 7 operation(s) for list.
   name: Factset List API
   slug: factset-list-api
-- description: The List Files API from Factset — 2 operation(s) for list files.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The List Files API from Factset — 2 operation(s) for list files.
   name: Factset List Files API
   slug: factset-list-files-api
-- description: The List Schemas API from Factset — 1 operation(s) for list schemas.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The List Schemas API from Factset — 1 operation(s) for list schemas.
   name: Factset List Schemas API
   slug: factset-list-schemas-api
-- description: The Locations API from Factset — 2 operation(s) for locations.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Locations API from Factset — 2 operation(s) for locations.
   name: Factset Locations API
   slug: factset-locations-api
-- description: <a href=https://go.factset.com/marketplace/catalog/product/lgx-datahub>Luxembourg</a> API provides access to Green Bonds data.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: <a href=https://go.factset.com/marketplace/catalog/product/lgx-datahub>Luxembourg</a> API provides access to Green Bonds data.
   name: Factset Luxembourg API
   slug: factset-luxembourg-api
-- description: The Managers API from Factset — 2 operation(s) for managers.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Managers API from Factset — 2 operation(s) for managers.
   name: Factset Managers API
   slug: factset-managers-api
-- description: The Market API from Factset — 7 operation(s) for market.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Market API from Factset — 7 operation(s) for market.
   name: Factset Market API
   slug: factset-market-api
-- description: The Markit Bond Prices and Analytics API from Factset — 8 operation(s) for markit bond prices and analytics.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Markit Bond Prices and Analytics API from Factset — 8 operation(s) for markit bond prices and analytics.
   name: Factset Markit Bond Prices and Analytics API
   slug: factset-markit-bond-prices-and-analytics-api
-- description: The Meetings API from Factset — 11 operation(s) for meetings.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Meetings API from Factset — 11 operation(s) for meetings.
   name: Factset Meetings API
   slug: factset-meetings-api
-- description: The Members API from Factset — 2 operation(s) for members.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Members API from Factset — 2 operation(s) for members.
   name: Factset Members API
   slug: factset-members-api
-- description: Discover available FactSet Fundamental metrics and ratios that can be used across the API endpoints.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Discover available FactSet Fundamental metrics and ratios that can be used across the API endpoints.
   name: Factset Metrics API
   slug: factset-metrics-api
-- description: The Modify API from Factset — 5 operation(s) for modify.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Modify API from Factset — 5 operation(s) for modify.
   name: Factset Modify API
   slug: factset-modify-api
-- description: The Mpo API from Factset — 1 operation(s) for mpo.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Mpo API from Factset — 1 operation(s) for mpo.
   name: Factset Mpo API
   slug: factset-mpo-api
-- description: The Name API from Factset — 16 operation(s) for name.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Name API from Factset — 16 operation(s) for name.
   name: Factset Name API
   slug: factset-name-api
-- description: The Navigator API from Factset — 6 operation(s) for navigator.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Navigator API from Factset — 6 operation(s) for navigator.
   name: Factset Navigator API
   slug: factset-navigator-api
-- description: The Ner API from Factset — 1 operation(s) for ner.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Ner API from Factset — 1 operation(s) for ner.
   name: Factset Ner API
   slug: factset-ner-api
-- description: news endpoints
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: news endpoints
   name: Factset News API
   slug: factset-news-api
-- description: The Non API from Factset — 1 operation(s) for non.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Non API from Factset — 1 operation(s) for non.
   name: Factset Non API
   slug: factset-non-api
-- description: The Notation API from Factset — 58 operation(s) for notation.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Notation API from Factset — 58 operation(s) for notation.
   name: Factset Notation API
   slug: factset-notation-api
-- description: The Notes API from Factset — 11 operation(s) for notes.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Notes API from Factset — 11 operation(s) for notes.
   name: Factset Notes API
   slug: factset-notes-api
-- description: The Numbers API from Factset — 2 operation(s) for numbers.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Numbers API from Factset — 2 operation(s) for numbers.
   name: Factset Numbers API
   slug: factset-numbers-api
-- description: The Ofs API from Factset — 21 operation(s) for ofs.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Ofs API from Factset — 21 operation(s) for ofs.
   name: Factset Ofs API
   slug: factset-ofs-api
-- description: '<a href=https://go.factset.com/marketplace/catalog/product/china-a-shares-transcripts>Orbit</a> API covers full universe of almost 4,800 companies since the early 2000''s. Content covers 3 types, both '
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: '<a href=https://go.factset.com/marketplace/catalog/product/china-a-shares-transcripts>Orbit</a> API covers full universe of almost 4,800 companies since the early 2000''s. Content covers 3 types, both '
   name: Factset Orbit API
   slug: factset-orbit-api
-- description: These endpoints relate to Order Entry.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: These endpoints relate to Order Entry.
   name: Factset Orders API
   slug: factset-orders-api
-- description: The Ozmosi API from Factset — 10 operation(s) for ozmosi.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Ozmosi API from Factset — 10 operation(s) for ozmosi.
   name: Factset Ozmosi API
   slug: factset-ozmosi-api
-- description: The Partners API from Factset — 3 operation(s) for partners.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Partners API from Factset — 3 operation(s) for partners.
   name: Factset Partners API
   slug: factset-partners-api
-- description: The Path API from Factset — 10 operation(s) for path.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Path API from Factset — 10 operation(s) for path.
   name: Factset Path API
   slug: factset-path-api
-- description: The Peer List API from Factset — 1 operation(s) for peer list.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Peer List API from Factset — 1 operation(s) for peer list.
   name: Factset Peer List API
   slug: factset-peer-list-api
-- description: The Per Share API from Factset — 1 operation(s) for per share.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Per Share API from Factset — 1 operation(s) for per share.
   name: Factset Per Share API
   slug: factset-per-share-api
-- description: The Phone Number Types API from Factset — 2 operation(s) for phone number types.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Phone Number Types API from Factset — 2 operation(s) for phone number types.
   name: Factset Phone Number Types API
   slug: factset-phone-number-types-api
-- description: The Portfolio API from Factset — 19 operation(s) for portfolio.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Portfolio API from Factset — 19 operation(s) for portfolio.
   name: Factset Portfolio API
   slug: factset-portfolio-api
-- description: The Positions API from Factset — 8 operation(s) for positions.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Positions API from Factset — 8 operation(s) for positions.
   name: Factset Positions API
   slug: factset-positions-api
-- description: The Prices API from Factset — 32 operation(s) for prices.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Prices API from Factset — 32 operation(s) for prices.
   name: Factset Prices API
   slug: factset-prices-api
-- description: The Private API from Factset — 4 operation(s) for private.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Private API from Factset — 4 operation(s) for private.
   name: Factset Private API
   slug: factset-private-api
-- description: The Product Segments API from Factset — 1 operation(s) for product segments.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Product Segments API from Factset — 1 operation(s) for product segments.
   name: Factset Product Segments API
   slug: factset-product-segments-api
-- description: The Products API from Factset — 8 operation(s) for products.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Products API from Factset — 8 operation(s) for products.
   name: Factset Products API
   slug: factset-products-api
-- description: The Profile API from Factset — 1 operation(s) for profile.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Profile API from Factset — 1 operation(s) for profile.
   name: Factset Profile API
   slug: factset-profile-api
-- description: The Providers API from Factset — 1 operation(s) for providers.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Providers API from Factset — 1 operation(s) for providers.
   name: Factset Providers API
   slug: factset-providers-api
-- description: The Qna API from Factset — 3 operation(s) for qna.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Qna API from Factset — 3 operation(s) for qna.
   name: Factset Qna API
   slug: factset-qna-api
-- description: The Range API from Factset — 1 operation(s) for range.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Range API from Factset — 1 operation(s) for range.
   name: Factset Range API
   slug: factset-range-api
-- description: The Recommendation List API from Factset — 2 operation(s) for recommendation list.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Recommendation List API from Factset — 2 operation(s) for recommendation list.
   name: Factset Recommendation List API
   slug: factset-recommendation-list-api
-- description: The Recommendations API from Factset — 9 operation(s) for recommendations.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Recommendations API from Factset — 9 operation(s) for recommendations.
   name: Factset Recommendations API
   slug: factset-recommendations-api
-- description: The Refresh API from Factset — 3 operation(s) for refresh.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Refresh API from Factset — 3 operation(s) for refresh.
   name: Factset Refresh API
   slug: factset-refresh-api
-- description: The Related API from Factset — 1 operation(s) for related.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Related API from Factset — 1 operation(s) for related.
   name: Factset Related API
   slug: factset-related-api
-- description: The Relationship API from Factset — 3 operation(s) for relationship.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Relationship API from Factset — 3 operation(s) for relationship.
   name: Factset Relationship API
   slug: factset-relationship-api
-- description: The Relationship Categories API from Factset — 3 operation(s) for relationship categories.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Relationship Categories API from Factset — 3 operation(s) for relationship categories.
   name: Factset Relationship Categories API
   slug: factset-relationship-categories-api
-- description: The Relationships API from Factset — 12 operation(s) for relationships.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Relationships API from Factset — 12 operation(s) for relationships.
   name: Factset Relationships API
   slug: factset-relationships-api
-- description: The Report Instances API from Factset — 5 operation(s) for report instances.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Report Instances API from Factset — 5 operation(s) for report instances.
   name: Factset Report Instances API
   slug: factset-report-instances-api
-- description: The Reports API from Factset — 6 operation(s) for reports.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Reports API from Factset — 6 operation(s) for reports.
   name: Factset Reports API
   slug: factset-reports-api
-- description: The Resources API from Factset — 6 operation(s) for resources.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Resources API from Factset — 6 operation(s) for resources.
   name: Factset Resources API
   slug: factset-resources-api
-- description: The Result API from Factset — 10 operation(s) for result.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Result API from Factset — 10 operation(s) for result.
   name: Factset Result API
   slug: factset-result-api
-- description: The Returns API from Factset — 9 operation(s) for returns.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Returns API from Factset — 9 operation(s) for returns.
   name: Factset Returns API
   slug: factset-returns-api
-- description: CRUD operations on Returns Composite
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: CRUD operations on Returns Composite
   name: Factset Returns Composite API
   slug: factset-returns-composite-api
-- description: These endpoints refer to specific runs for a PRB job
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: These endpoints refer to specific runs for a PRB job
   name: Factset Runs API
   slug: factset-runs-api
-- description: The Schemas API from Factset — 2 operation(s) for schemas.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Schemas API from Factset — 2 operation(s) for schemas.
   name: Factset Schemas API
   slug: factset-schemas-api
-- description: The Scim API from Factset — 4 operation(s) for scim.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Scim API from Factset — 4 operation(s) for scim.
   name: Factset Scim API
   slug: factset-scim-api
-- description: Scripts Asia API provides access to Asia Pacific regional collected transcripts.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Scripts Asia API provides access to Asia Pacific regional collected transcripts.
   name: Factset Scripts Asia API
   slug: factset-scripts-asia-api
-- description: The Search API from Factset — 26 operation(s) for search.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Search API from Factset — 26 operation(s) for search.
   name: Factset Search API
   slug: factset-search-api
-- description: Access business and geographic segment data including revenue, operating income, assets, depreciation, and capital expenditures by segment.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: Access business and geographic segment data including revenue, operating income, assets, depreciation, and capital expenditures by segment.
   name: Factset Segments API
   slug: factset-segments-api
-- description: The Sentiments API from Factset — 1 operation(s) for sentiments.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Sentiments API from Factset — 1 operation(s) for sentiments.
   name: Factset Sentiments API
   slug: factset-sentiments-api
-- description: The Series API from Factset — 12 operation(s) for series.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Series API from Factset — 12 operation(s) for series.
   name: Factset Series API
   slug: factset-series-api
-- description: The ServiceProviderConfig API from Factset — 1 operation(s) for serviceproviderconfig.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The ServiceProviderConfig API from Factset — 1 operation(s) for serviceproviderconfig.
   name: Factset ServiceProviderConfig API
   slug: factset-serviceproviderconfig-api
-- description: The Snapshots API from Factset — 4 operation(s) for snapshots.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Snapshots API from Factset — 4 operation(s) for snapshots.
   name: Factset Snapshots API
   slug: factset-snapshots-api
-- description: The Source of Capital API from Factset — 1 operation(s) for source of capital.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Source of Capital API from Factset — 1 operation(s) for source of capital.
   name: Factset Source of Capital API
   slug: factset-source-of-capital-api
-- description: The Sources API from Factset — 6 operation(s) for sources.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Sources API from Factset — 6 operation(s) for sources.
   name: Factset Sources API
   slug: factset-sources-api
-- description: The Status API from Factset — 20 operation(s) for status.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Status API from Factset — 20 operation(s) for status.
   name: Factset Status API
   slug: factset-status-api
-- description: The Stock API from Factset — 16 operation(s) for stock.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Stock API from Factset — 16 operation(s) for stock.
   name: Factset Stock API
   slug: factset-stock-api
-- description: The Street Account API from Factset — 8 operation(s) for street account.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Street Account API from Factset — 8 operation(s) for street account.
   name: Factset Street Account API
   slug: factset-street-account-api
-- description: The Streetaccount API from Factset — 8 operation(s) for streetaccount.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Streetaccount API from Factset — 8 operation(s) for streetaccount.
   name: Factset Streetaccount API
   slug: factset-streetaccount-api
-- description: The Structure API from Factset — 2 operation(s) for structure.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Structure API from Factset — 2 operation(s) for structure.
   name: Factset Structure API
   slug: factset-structure-api
-- description: The Subjects API from Factset — 2 operation(s) for subjects.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Subjects API from Factset — 2 operation(s) for subjects.
   name: Factset Subjects API
   slug: factset-subjects-api
-- description: The Summarization API from Factset — 4 operation(s) for summarization.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Summarization API from Factset — 4 operation(s) for summarization.
   name: Factset Summarization API
   slug: factset-summarization-api
-- description: The Summary API from Factset — 1 operation(s) for summary.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Summary API from Factset — 1 operation(s) for summary.
   name: Factset Summary API
   slug: factset-summary-api
-- description: The Symbol Relationships API from Factset — 4 operation(s) for symbol relationships.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Symbol Relationships API from Factset — 4 operation(s) for symbol relationships.
   name: Factset Symbol Relationships API
   slug: factset-symbol-relationships-api
-- description: The Symbology API from Factset — 2 operation(s) for symbology.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Symbology API from Factset — 2 operation(s) for symbology.
   name: Factset Symbology API
   slug: factset-symbology-api
-- description: The Symbols Relationships API from Factset — 2 operation(s) for symbols relationships.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Symbols Relationships API from Factset — 2 operation(s) for symbols relationships.
   name: Factset Symbols Relationships API
   slug: factset-symbols-relationships-api
-- description: The System API from Factset — 4 operation(s) for system.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The System API from Factset — 4 operation(s) for system.
   name: Factset System API
   slug: factset-system-api
-- description: The Table API from Factset — 1 operation(s) for table.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Table API from Factset — 1 operation(s) for table.
   name: Factset Table API
   slug: factset-table-api
-- description: The Table_fields API from Factset — 1 operation(s) for table_fields.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Table_fields API from Factset — 1 operation(s) for table_fields.
   name: Factset Table_fields API
   slug: factset-table-fields-api
-- description: The Teams API from Factset — 2 operation(s) for teams.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Teams API from Factset — 2 operation(s) for teams.
   name: Factset Teams API
   slug: factset-teams-api
-- description: The Template API from Factset — 5 operation(s) for template.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Template API from Factset — 5 operation(s) for template.
   name: Factset Template API
   slug: factset-template-api
-- description: The Template List API from Factset — 1 operation(s) for template list.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Template List API from Factset — 1 operation(s) for template list.
   name: Factset Template List API
   slug: factset-template-list-api
-- description: The Themes API from Factset — 3 operation(s) for themes.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Themes API from Factset — 3 operation(s) for themes.
   name: Factset Themes API
   slug: factset-themes-api
-- description: The TickHistory API from Factset — 5 operation(s) for tickhistory.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The TickHistory API from Factset — 5 operation(s) for tickhistory.
   name: Factset TickHistory API
   slug: factset-tickhistory-api
-- description: The Time Series API from Factset — 1 operation(s) for time series.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Time Series API from Factset — 1 operation(s) for time series.
   name: Factset Time Series API
   slug: factset-time-series-api
-- description: CRUD operations on Trade Data
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: CRUD operations on Trade Data
   name: Factset Trade Data API
   slug: factset-trade-data-api
-- description: The Transactions API from Factset — 1 operation(s) for transactions.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Transactions API from Factset — 1 operation(s) for transactions.
   name: Factset Transactions API
   slug: factset-transactions-api
-- description: The Upload Custom Document API from Factset — 1 operation(s) for upload custom document.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Upload Custom Document API from Factset — 1 operation(s) for upload custom document.
   name: Factset Upload Custom Document API
   slug: factset-upload-custom-document-api
-- description: The User API from Factset — 5 operation(s) for user.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The User API from Factset — 5 operation(s) for user.
   name: Factset User API
   slug: factset-user-api
-- description: CRUD operations on User Defined Field
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: CRUD operations on User Defined Field
   name: Factset User Defined Field API
   slug: factset-user-defined-field-api
-- description: CRUD operations on User Defined Field Group
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: CRUD operations on User Defined Field Group
   name: Factset User Defined Field Group API
   slug: factset-user-defined-field-group-api
-- description: The Users API from Factset — 5 operation(s) for users.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Users API from Factset — 5 operation(s) for users.
   name: Factset Users API
   slug: factset-users-api
-- description: The Valuation API from Factset — 1 operation(s) for valuation.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Valuation API from Factset — 1 operation(s) for valuation.
   name: Factset Valuation API
   slug: factset-valuation-api
-- description: The Vendor API from Factset — 5 operation(s) for vendor.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Vendor API from Factset — 5 operation(s) for vendor.
   name: Factset Vendor API
   slug: factset-vendor-api
-- description: The Watchlist API from Factset — 10 operation(s) for watchlist.
+- baseURL: https://api.factset.com
+  baseurl_source: declared
+  description: The Watchlist API from Factset — 10 operation(s) for watchlist.
   name: Factset Watchlist API
   slug: factset-watchlist-api
 artifact_total: 5734
@@ -17543,7 +18081,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:

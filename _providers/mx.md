@@ -34,91 +34,145 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Data Access is MX's open-finance API platform for sharing an institution's financial data and accessing other institutions' data using FDX and OAuth standards, with tokenized, consumer-permissioned ac
   name: MX Data Access
   slug: mx-data-access
-- description: The Accounts endpoints represent a user's checking, savings, mortgage, 401(k), or other types of accounts held by a financial institution. An account belongs to a `member`, which represents the user's
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Accounts endpoints represent a user's checking, savings, mortgage, 401(k), or other types of accounts held by a financial institution. An account belongs to a `member`, which represents the user's
   name: MX Accounts API
   slug: mx-accounts-api
-- description: 'The features documented here are in a beta state, and this documentation is considered draft material subject to frequent change. Using our Platform API, you can securely submit ACH Returns to reduce '
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: 'The features documented here are in a beta state, and this documentation is considered draft material subject to frequent change. Using our Platform API, you can securely submit ACH Returns to reduce '
   name: MX ach return API
   slug: mx-ach-return-api
-- description: Use these endpoints to create and manage budgets for your end users. You can create a budget for a specific category or autogenerate a budget for several categories based on existing transactions. Eac
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Use these endpoints to create and manage budgets for your end users. You can create a budget for a specific category or autogenerate a budget for several categories based on existing transactions. Eac
   name: MX Budgets API
   slug: mx-budgets-api
-- description: A `transaction` can have its `category` set to one of MX’s default categories or a custom category for a specific `user`. See [Default Categories and Subcategories](docs.mx.com/api-reference/platform-
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: A `transaction` can have its `category` set to one of MX’s default categories or a custom category for a specific `user`. See [Default Categories and Subcategories](docs.mx.com/api-reference/platform-
   name: MX Categories API
   slug: mx-categories-api
-- description: Consent Management
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Consent Management
   name: MX Consent Management API
   slug: mx-consent-management-api
-- description: Use these endpoints to create and manage goals for a `user`. You can also reposition goals to adjust their priority levels. Every goal has a track type and a meta type. The [track type](docs.mx.com/ap
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Use these endpoints to create and manage goals for a `user`. You can also reposition goals to adjust their priority levels. Every goal has a track type and a meta type. The [track type](docs.mx.com/ap
   name: MX Goals API
   slug: mx-goals-api
-- description: Use these endpoints to build customizable user experiences in UIs powered by our Financial Insights data. With Financial Insights, your users will receive personalized insights based on their transact
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Use these endpoints to build customizable user experiences in UIs powered by our Financial Insights data. With Financial Insights, your users will receive personalized insights based on their transact
   name: MX Insights API
   slug: mx-insights-api
-- description: Institutions represent a financial institution. A single real-world financial institution may have several `institution` objects on the MX platform. For example, the mortgage division of a financial i
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Institutions represent a financial institution. A single real-world financial institution may have several `institution` objects on the MX platform. For example, the mortgage division of a financial i
   name: MX Institutions API
   slug: mx-institutions-api
-- description: Investment Data Enhancement lets you connect to an end user's financial institution and retrieve cleansed and enhanced investment data. By combining investment data with retail banking information, yo
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Investment Data Enhancement lets you connect to an end user's financial institution and retrieve cleansed and enhanced investment data. By combining investment data with retail banking information, yo
   name: MX investment holdings API
   slug: mx-investment-holdings-api
-- description: The jobs API from MX — 1 operation(s) for jobs.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The jobs API from MX — 1 operation(s) for jobs.
   name: MX Jobs API
   slug: mx-jobs-api
-- description: The managed data [deprecated] API from MX — 7 operation(s) for managed data [deprecated].
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The managed data [deprecated] API from MX — 7 operation(s) for managed data [deprecated].
   name: MX managed data [deprecated] API
   slug: mx-managed-data-deprecated-api
-- description: Members represent the connection between an end user and a financial institution. This institution may represent your institution or another one from which MX is aggregating data. For more info, see [
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Members represent the connection between an end user and a financial institution. This institution may represent your institution or another one from which MX is aggregating data. For more info, see [
   name: MX Members API
   slug: mx-members-api
-- description: Merchants are representations of a transaction’s origin. For example, if you buy a coffee at Starbucks, the transaction merchant will be `Starbucks`. Use the `merchant_guid` and a `merchant_location_g
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Merchants are representations of a transaction’s origin. For example, if you buy a coffee at Starbucks, the transaction merchant will be `Starbucks`. Use the `merchant_guid` and a `merchant_location_g
   name: MX Merchants API
   slug: mx-merchants-api
-- description: Microdeposits is an additional verification method that allows you to verify account details and navigate the process of using microdeposits and the automated clearing house (ACH) system. Make two, sm
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Microdeposits is an additional verification method that allows you to verify account details and navigate the process of using microdeposits and the automated clearing house (ACH) system. Make two, sm
   name: MX Microdeposits API
   slug: mx-microdeposits-api
-- description: The monthly cash flow profile API from MX — 1 operation(s) for monthly cash flow profile.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The monthly cash flow profile API from MX — 1 operation(s) for monthly cash flow profile.
   name: MX monthly cash flow profile API
   slug: mx-monthly-cash-flow-profile-api
-- description: 'You can only use notifications endpoints if you’re using the MX mobile application. All notifications created through the API will be of notification type `API_NOTIFICATION`, channel `PUSH`, and will '
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: 'You can only use notifications endpoints if you’re using the MX mobile application. All notifications created through the API will be of notification type `API_NOTIFICATION`, channel `PUSH`, and will '
   name: MX Notifications API
   slug: mx-notifications-api
-- description: The processor token API from MX — 6 operation(s) for processor token.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The processor token API from MX — 6 operation(s) for processor token.
   name: MX processor token API
   slug: mx-processor-token-api
-- description: The rewards API from MX — 4 operation(s) for rewards.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The rewards API from MX — 4 operation(s) for rewards.
   name: MX Rewards API
   slug: mx-rewards-api
-- description: Use the Spending Plan endpoints to create your own version of our [Spending Plan Widget](docs.mx.com/products/experience/pfm/legacy-widget-overviews/spending-plan), which helps end users track their s
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Use the Spending Plan endpoints to create your own version of our [Spending Plan Widget](docs.mx.com/products/experience/pfm/legacy-widget-overviews/spending-plan), which helps end users track their s
   name: MX spending plan API
   slug: mx-spending-plan-api
-- description: With Statements, you can retrieve a user's monthly account statements in PDF format. This data can be used for solutions like personal financial management or risk analysis.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: With Statements, you can retrieve a user's monthly account statements in PDF format. This data can be used for solutions like personal financial management or risk analysis.
   name: MX Statements API
   slug: mx-statements-api
-- description: Tags and taggings are two resources in the MX Platform API that, when used together, give end users more control over organizing their transactions. A tag is a custom label that can be applied to a tr
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Tags and taggings are two resources in the MX Platform API that, when used together, give end users more control over organizing their transactions. A tag is a custom label that can be applied to a tr
   name: MX Taggings API
   slug: mx-taggings-api
-- description: Tags and taggings are two resources in the MX Platform API that, when used together, give end users more control over organizing their transactions. A tag is a custom label that can be applied to a tr
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Tags and taggings are two resources in the MX Platform API that, when used together, give end users more control over organizing their transactions. A tag is a custom label that can be applied to a tr
   name: MX Tags API
   slug: mx-tags-api
-- description: Transaction Rules allow users to automatically recategorize or rename all similar transactions according to their preferences. This only applies to future transactions. When recategorizing or renaming
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Transaction Rules allow users to automatically recategorize or rename all similar transactions according to their preferences. This only applies to future transactions. When recategorizing or renaming
   name: MX transaction rules API
   slug: mx-transaction-rules-api
-- description: Transactions represent any instance in which money moves into or out of an account. This could be a purchase at a business, a payroll deposit, a transfer from one account to another, an ATM withdrawal
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Transactions represent any instance in which money moves into or out of an account. This could be a purchase at a business, a payroll deposit, a transfer from one account to another, an ATM withdrawal
   name: MX Transactions API
   slug: mx-transactions-api
-- description: Users represent an end user using the Platform API through your web or mobile app. Users are created by MX clients and belong to a specific [client](docs.mx.com/products/connectivity/overview/data-arc
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Users represent an end user using the Platform API through your web or mobile app. Users are created by MX clients and belong to a specific [client](docs.mx.com/products/connectivity/overview/data-arc
   name: MX Users API
   slug: mx-users-api
-- description: MX provides Verifiable Credential endpoints that comply with web5 standards. For more info, see [Verifiable Credentials Overview](docs.mx.com/api-reference/reference/verifiable-credentials).
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: MX provides Verifiable Credential endpoints that comply with web5 standards. For more info, see [Verifiable Credentials Overview](docs.mx.com/api-reference/reference/verifiable-credentials).
   name: MX verifiable credentials API
   slug: mx-verifiable-credentials-api
-- description: Use the [Request Widget URL](docs.mx.com/api-reference/platform-api/reference/request-widget-url) endpoint to generate a URL that loads one of our widgets. Many request body parameters only work for s
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: Use the [Request Widget URL](docs.mx.com/api-reference/platform-api/reference/request-widget-url) endpoint to generate a URL that loads one of our widgets. Many request body parameters only work for s
   name: MX Widgets API
   slug: mx-widgets-api
 artifact_total: 39
@@ -325,7 +379,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -335,7 +389,7 @@ score:
     discoverability: 61.1
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 62.4
+  previous_composite: 62.6
   provenance:
     conformance: first-party
     contracts:
@@ -352,7 +406,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx/refs/heads/main/screenshots/mx-2026-08-07T184503.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: The University's institutional research data repository, presented at figshare.manchester.ac.uk, which CNAMEs to figshare.com. Manchester's researchers deposit here and the deposits carry Manchester's
   name: Figshare research data repository tenancy
   slug: figshare-tenancy
-- description: IIIF Image API 2.0 level 1 endpoints.
+- baseURL: https://www.digitalcollections.manchester.ac.uk/iiif
+  baseurl_source: declared
+  description: IIIF Image API 2.0 level 1 endpoints.
   name: University of Manchester Image API
   slug: university-of-manchester-image-api
-- description: IIIF Presentation API 2.1 manifests and collections.
+- baseURL: https://www.digitalcollections.manchester.ac.uk/iiif
+  baseurl_source: declared
+  description: IIIF Presentation API 2.1 manifests and collections.
   name: University of Manchester Presentation API
   slug: university-of-manchester-presentation-api
 artifact_total: 18
@@ -255,7 +259,7 @@ score:
     catalog_gap: 26.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -265,7 +269,7 @@ score:
     discoverability: 68.5
     governance: 34.1
     operational_transparency: 23.7
-  previous_composite: 50.5
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,7 +285,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
 security:

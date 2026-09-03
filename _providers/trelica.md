@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 13 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage users associated with specific applications
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Manage users associated with specific applications
   name: Trelica Application Users API
   slug: trelica-application-users-api
-- description: Manage and query SaaS applications in the Trelica catalog
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Manage and query SaaS applications in the Trelica catalog
   name: Trelica Applications API
   slug: trelica-applications-api
-- description: Manage software and hardware assets
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Manage software and hardware assets
   name: Trelica Assets API
   slug: trelica-assets-api
-- description: Access audit trail of changes and events
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Access audit trail of changes and events
   name: Trelica Audit Log API
   slug: trelica-audit-log-api
-- description: Manage software contracts and renewals
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Manage software contracts and renewals
   name: Trelica Contracts API
   slug: trelica-contracts-api
-- description: Manage people/employees within the organization
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Manage people/employees within the organization
   name: Trelica People API
   slug: trelica-people-api
-- description: User provisioning via SCIM 2.0 protocol
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: User provisioning via SCIM 2.0 protocol
   name: Trelica Users (SCIM) API
   slug: trelica-users-scim-api
-- description: Manage automation workflows
+- baseURL: https://app.trelica.com/api
+  baseurl_source: declared
+  description: Manage automation workflows
   name: Trelica Workflows API
   slug: trelica-workflows-api
 artifact_total: 34
@@ -300,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/screenshots/trelica-2026-06-20T195649.png
 security:

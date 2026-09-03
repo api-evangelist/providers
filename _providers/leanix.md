@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 11 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The configurations API from LeanIX — 1 operation(s) for configurations.
+- baseURL: https://app.leanix.net/services/integration-api/v1
+  baseurl_source: declared
+  description: The configurations API from LeanIX — 1 operation(s) for configurations.
   name: LeanIX configurations API
   slug: leanix-configurations-api
-- description: The examples API from LeanIX — 2 operation(s) for examples.
+- baseURL: https://app.leanix.net/services/integration-api/v1
+  baseurl_source: declared
+  description: The examples API from LeanIX — 2 operation(s) for examples.
   name: LeanIX examples API
   slug: leanix-examples-api
-- description: The fastSynchronizationRuns API from LeanIX — 2 operation(s) for fastsynchronizationruns.
+- baseURL: https://app.leanix.net/services/integration-api/v1
+  baseurl_source: declared
+  description: The fastSynchronizationRuns API from LeanIX — 2 operation(s) for fastsynchronizationruns.
   name: LeanIX fastSynchronizationRuns API
   slug: leanix-fastsynchronizationruns-api
-- description: The storages API from LeanIX — 1 operation(s) for storages.
+- baseURL: https://app.leanix.net/services/integration-api/v1
+  baseurl_source: declared
+  description: The storages API from LeanIX — 1 operation(s) for storages.
   name: LeanIX storages API
   slug: leanix-storages-api
-- description: The synchronizationRuns API from LeanIX — 13 operation(s) for synchronizationruns.
+- baseURL: https://app.leanix.net/services/integration-api/v1
+  baseurl_source: declared
+  description: The synchronizationRuns API from LeanIX — 13 operation(s) for synchronizationruns.
   name: LeanIX synchronizationRuns API
   slug: leanix-synchronizationruns-api
 artifact_total: 20
@@ -180,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/screenshots/leanix-2026-06-20T184359.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Accounting categories
+- baseURL: https://api.marginedge.com/public
+  baseurl_source: declared
+  description: Accounting categories
   name: MarginEdge Categories API
   slug: marginedge-categories-api
-- description: Invoices/orders processed in MarginEdge
+- baseURL: https://api.marginedge.com/public
+  baseurl_source: declared
+  description: Invoices/orders processed in MarginEdge
   name: MarginEdge Orders API
   slug: marginedge-orders-api
-- description: Products tracked in a restaurant
+- baseURL: https://api.marginedge.com/public
+  baseurl_source: declared
+  description: Products tracked in a restaurant
   name: MarginEdge Products API
   slug: marginedge-products-api
-- description: Restaurants, groups, and group categories you can access
+- baseURL: https://api.marginedge.com/public
+  baseurl_source: declared
+  description: Restaurants, groups, and group categories you can access
   name: MarginEdge Restaurant Units API
   slug: marginedge-restaurant-units-api
-- description: Vendors and their items and packaging
+- baseURL: https://api.marginedge.com/public
+  baseurl_source: declared
+  description: Vendors and their items and packaging
   name: MarginEdge Vendors API
   slug: marginedge-vendors-api
 artifact_total: 52
@@ -318,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/screenshots/marginedge-2026-06-20T184941.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 42 operations · 24 acting · 21 human-in-the-loop
 api_count: 1
 apis:
-- description: Workspace API key management (Console)
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: Workspace API key management (Console)
   name: Hopae, Inc. Console - API Keys API
   slug: hopae-inc-console-api-keys-api
-- description: eID provider discovery
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: eID provider discovery
   name: Hopae, Inc. Providers API
   slug: hopae-inc-providers-api
-- description: OAuth 2.0 token exchange
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: OAuth 2.0 token exchange
   name: Hopae, Inc. Token API
   slug: hopae-inc-token-api
-- description: Identity verification sessions
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: Identity verification sessions
   name: Hopae, Inc. Verifications API
   slug: hopae-inc-verifications-api
-- description: Provider activation per app
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: Provider activation per app
   name: Hopae, Inc. Workspace API - Activation API
   slug: hopae-inc-workspace-api-activation-api
-- description: App management
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: App management
   name: Hopae, Inc. Workspace API - Apps API
   slug: hopae-inc-workspace-api-apps-api
-- description: Production test challenges
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: Production test challenges
   name: Hopae, Inc. Workspace API - Production Tests API
   slug: hopae-inc-workspace-api-production-tests-api
-- description: Workflow configuration per app
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: Workflow configuration per app
   name: Hopae, Inc. Workspace API - Workflows API
   slug: hopae-inc-workspace-api-workflows-api
-- description: Workspace information
+- baseURL: https://sandbox.api.hopae.com/connect
+  baseurl_source: declared
+  description: Workspace information
   name: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
 artifact_total: 26
@@ -276,7 +294,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -286,7 +304,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 180 operations · 129 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The authentication API from Coinflow — 3 operation(s) for authentication.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The authentication API from Coinflow — 3 operation(s) for authentication.
   name: Coinflow authentication API
   slug: coinflow-authentication-api
-- description: The cardTokenization API from Coinflow — 3 operation(s) for cardtokenization.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The cardTokenization API from Coinflow — 3 operation(s) for cardtokenization.
   name: Coinflow cardTokenization API
   slug: coinflow-cardtokenization-api
-- description: The checkout API from Coinflow — 33 operation(s) for checkout.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The checkout API from Coinflow — 33 operation(s) for checkout.
   name: Coinflow checkout API
   slug: coinflow-checkout-api
-- description: The customers API from Coinflow — 15 operation(s) for customers.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The customers API from Coinflow — 15 operation(s) for customers.
   name: Coinflow customers API
   slug: coinflow-customers-api
-- description: The events API from Coinflow — 1 operation(s) for events.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The events API from Coinflow — 1 operation(s) for events.
   name: Coinflow events API
   slug: coinflow-events-api
-- description: The marketplace API from Coinflow — 11 operation(s) for marketplace.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The marketplace API from Coinflow — 11 operation(s) for marketplace.
   name: Coinflow marketplace API
   slug: coinflow-marketplace-api
-- description: The merchant API from Coinflow — 49 operation(s) for merchant.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The merchant API from Coinflow — 49 operation(s) for merchant.
   name: Coinflow merchant API
   slug: coinflow-merchant-api
-- description: The merchantSubscription API from Coinflow — 4 operation(s) for merchantsubscription.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The merchantSubscription API from Coinflow — 4 operation(s) for merchantsubscription.
   name: Coinflow merchantSubscription API
   slug: coinflow-merchantsubscription-api
-- description: The redeem API from Coinflow — 4 operation(s) for redeem.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The redeem API from Coinflow — 4 operation(s) for redeem.
   name: Coinflow redeem API
   slug: coinflow-redeem-api
-- description: The refund API from Coinflow — 4 operation(s) for refund.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The refund API from Coinflow — 4 operation(s) for refund.
   name: Coinflow refund API
   slug: coinflow-refund-api
-- description: The subMerchant API from Coinflow — 3 operation(s) for submerchant.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The subMerchant API from Coinflow — 3 operation(s) for submerchant.
   name: Coinflow subMerchant API
   slug: coinflow-submerchant-api
-- description: The subscription API from Coinflow — 7 operation(s) for subscription.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The subscription API from Coinflow — 7 operation(s) for subscription.
   name: Coinflow subscription API
   slug: coinflow-subscription-api
-- description: The utilities API from Coinflow — 3 operation(s) for utilities.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The utilities API from Coinflow — 3 operation(s) for utilities.
   name: Coinflow utilities API
   slug: coinflow-utilities-api
-- description: The withdraw API from Coinflow — 30 operation(s) for withdraw.
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The withdraw API from Coinflow — 30 operation(s) for withdraw.
   name: Coinflow withdraw API
   slug: coinflow-withdraw-api
 artifact_total: 35
@@ -309,7 +337,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -319,7 +347,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 55.7
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,7 +365,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:

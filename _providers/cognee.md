@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 10 acting
 api_count: 1
 apis:
-- description: AI agent identity management
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: AI agent identity management
   name: Cognee agents API
   slug: cognee-agents-api
-- description: Knowledge graph construction pipeline
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: Knowledge graph construction pipeline
   name: Cognee cognify API
   slug: cognee-cognify-api
-- description: Data ingestion and deletion operations
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: Data ingestion and deletion operations
   name: Cognee data API
   slug: cognee-data-api
-- description: Dataset management and introspection
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: Dataset management and introspection
   name: Cognee datasets API
   slug: cognee-datasets-api
-- description: Service health probes
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: Service health probes
   name: Cognee health API
   slug: cognee-health-api
-- description: Semantic and graph search queries
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: Semantic and graph search queries
   name: Cognee search API
   slug: cognee-search-api
-- description: System configuration (LLM and vector DB)
+- baseURL: https://api.cognee.ai
+  baseurl_source: declared
+  description: System configuration (LLM and vector DB)
   name: Cognee settings API
   slug: cognee-settings-api
 artifact_total: 26
@@ -273,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/screenshots/cognee-2026-06-20T174711.png
 security:

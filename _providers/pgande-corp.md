@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: PG&E Corporation is the parent company of Pacific Gas and Electric 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pgande-corp.png
 layout: provider
 modified: '2026-04-28'
-name: pgande-corp
+name: Pgande Corp
 nav: Providers
 network: true
-overview: pgande-corp is profiled on the [APIs.io](https://apis.io/) network.
+overview: Pgande Corp is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: '2026-05-25'
   title: PG&E Unveils $73 Bln Plan To Power AI-Driven Data ...
@@ -98,10 +98,10 @@ score:
   previous_composite: 3.9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pgande-corp/refs/heads/main/screenshots/pgande-corp-2026-06-20T191631.png
 security:

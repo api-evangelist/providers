@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Auto-discovery of available feeds and cities
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: declared
+  description: Auto-discovery of available feeds and cities
   name: Dott Discovery API
   slug: dott-discovery-api
-- description: Docked station information and status (where applicable)
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: declared
+  description: Docked station information and status (where applicable)
   name: Dott Stations API
   slug: dott-stations-api
-- description: System-level metadata and pricing
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: declared
+  description: System-level metadata and pricing
   name: Dott System API
   slug: dott-system-api
-- description: Free-floating vehicle status and types
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: declared
+  description: Free-floating vehicle status and types
   name: Dott Vehicles API
   slug: dott-vehicles-api
-- description: Geofencing / operating zones
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: declared
+  description: Geofencing / operating zones
   name: Dott Zones API
   slug: dott-zones-api
 artifact_total: 19
@@ -226,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:

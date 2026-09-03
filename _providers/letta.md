@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -47,148 +47,244 @@ apis:
 - description: Letta's memory-first coding agent — a CLI plus a desktop app (and an action for GitHub repos). "The memory-first coding agent that remembers and learns." Builds on the Letta Code SDK and the broader L
   name: Letta Code
   slug: letta-code
-- description: Administrative operations (org / billing / policy).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Administrative operations (org / billing / policy).
   name: Letta Admin API
   slug: letta-admin-api
-- description: Create, list, modify, export, and delete stateful agents with memory and tools.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Create, list, modify, export, and delete stateful agents with memory and tools.
   name: Letta Agents API
   slug: letta-agents-api
-- description: Manage archival memory archives and passages (RAG-style long-term store).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Manage archival memory archives and passages (RAG-style long-term store).
   name: Letta Archives API
   slug: letta-archives-api
-- description: Manage in-context memory blocks (core memory) shared across agents.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Manage in-context memory blocks (core memory) shared across agents.
   name: Letta Blocks API
   slug: letta-blocks-api
-- description: Chat operations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Chat operations.
   name: Letta Chat API
   slug: letta-chat-api
-- description: Mint short-lived client-side access tokens for browser/mobile use.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Mint short-lived client-side access tokens for browser/mobile use.
   name: Letta Client-Side Access Tokens API
   slug: letta-client-side-access-tokens-api
-- description: Conversational session threads anchored to an agent.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Conversational session threads anchored to an agent.
   name: Letta Conversations API
   slug: letta-conversations-api
-- description: Per-device storage for the Letta Code SDK and ADE.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Per-device storage for the Letta Code SDK and ADE.
   name: Letta Device Storage API
   slug: letta-device-storage-api
-- description: List configured embedding models.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: List configured embedding models.
   name: Letta Embeddings API
   slug: letta-embeddings-api
-- description: Environment variables and configuration scoped to agents/tools.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Environment variables and configuration scoped to agents/tools.
   name: Letta Environments API
   slug: letta-environments-api
-- description: Subscribed feeds that drive agents.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Subscribed feeds that drive agents.
   name: Letta Feeds API
   slug: letta-feeds-api
-- description: Organize agents and resources into folders.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Organize agents and resources into folders.
   name: Letta Folders API
   slug: letta-folders-api
-- description: Coordinate multi-agent groups (supervisor/worker, round-robin, sleep-time).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Coordinate multi-agent groups (supervisor/worker, round-robin, sleep-time).
   name: Letta Groups API
   slug: letta-groups-api
-- description: Service health/readiness endpoint.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Service health/readiness endpoint.
   name: Letta Health API
   slug: letta-health-api
-- description: Map external user identities to agents and memory contexts.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Map external user identities to agents and memory contexts.
   name: Letta Identities API
   slug: letta-identities-api
-- description: Internal Agents operations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Internal Agents operations.
   name: Letta Internal Agents API
   slug: letta-internal-agents-api
-- description: Internal Blocks operations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Internal Blocks operations.
   name: Letta Internal Blocks API
   slug: letta-internal-blocks-api
-- description: Internal Runs operations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Internal Runs operations.
   name: Letta Internal Runs API
   slug: letta-internal-runs-api
-- description: Internal Templates operations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Internal Templates operations.
   name: Letta Internal Templates API
   slug: letta-internal-templates-api
-- description: Manage long-running background jobs (e.g., file ingestion).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Manage long-running background jobs (e.g., file ingestion).
   name: Letta Jobs API
   slug: letta-jobs-api
-- description: List available LLM models and configurations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: List available LLM models and configurations.
   name: Letta LLMs API
   slug: letta-llms-api
-- description: Register external Model Context Protocol servers and expose their tools to agents.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Register external Model Context Protocol servers and expose their tools to agents.
   name: Letta MCP Servers API
   slug: letta-mcp-servers-api
-- description: Memory-mapped file resources attached to agents.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Memory-mapped file resources attached to agents.
   name: Letta Memory Files API
   slug: letta-memory-files-api
-- description: Send messages, list message history, search, and batch operations.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Send messages, list message history, search, and batch operations.
   name: Letta Messages API
   slug: letta-messages-api
-- description: Service/runtime metadata.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Service/runtime metadata.
   name: Letta Metadata API
   slug: letta-metadata-api
-- description: List available chat and embedding models exposed by configured providers.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: List available chat and embedding models exposed by configured providers.
   name: Letta Models API
   slug: letta-models-api
-- description: Individual archival memory passages (chunked context).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Individual archival memory passages (chunked context).
   name: Letta Passages API
   slug: letta-passages-api
-- description: Composable agent pipelines.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Composable agent pipelines.
   name: Letta Pipelines API
   slug: letta-pipelines-api
-- description: Project-level scoping for agents and resources.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Project-level scoping for agents and resources.
   name: Letta Projects API
   slug: letta-projects-api
-- description: Configure LLM provider credentials (OpenAI, Anthropic, Azure, Ollama, etc.).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Configure LLM provider credentials (OpenAI, Anthropic, Azure, Ollama, etc.).
   name: Letta Providers API
   slug: letta-providers-api
-- description: Inspect and manage agent runs (executions of an agent in response to a message).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Inspect and manage agent runs (executions of an agent in response to a message).
   name: Letta Runs API
   slug: letta-runs-api
-- description: Manage code-execution sandboxes used by sandbox tools.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Manage code-execution sandboxes used by sandbox tools.
   name: Letta Sandboxes API
   slug: letta-sandboxes-api
-- description: Schedule one-time or recurring messages to drive agents over time.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Schedule one-time or recurring messages to drive agents over time.
   name: Letta Scheduled Messages API
   slug: letta-scheduled-messages-api
-- description: Manage data sources (files, URLs) used to populate agent archival memory.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Manage data sources (files, URLs) used to populate agent archival memory.
   name: Letta Sources API
   slug: letta-sources-api
-- description: Per-step traces of an agent run.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Per-step traces of an agent run.
   name: Letta Steps API
   slug: letta-steps-api
-- description: Tag-based filtering metadata.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Tag-based filtering metadata.
   name: Letta Tag API
   slug: letta-tag-api
-- description: Run-step traces and observability data.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Run-step traces and observability data.
   name: Letta Telemetry API
   slug: letta-telemetry-api
-- description: Reusable agent templates for instantiation.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Reusable agent templates for instantiation.
   name: Letta Templates API
   slug: letta-templates-api
-- description: Register and execute custom tools (sandboxed Python, client-side, MCP).
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Register and execute custom tools (sandboxed Python, client-side, MCP).
   name: Letta Tools API
   slug: letta-tools-api
-- description: Voice (low-latency) chat completions endpoint for agents.
+- baseURL: https://api.letta.com
+  baseurl_source: declared
+  description: Voice (low-latency) chat completions endpoint for agents.
   name: Letta Voice API
   slug: letta-voice-api
-- description: Cloud-only versioned agent configuration templates.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Cloud-only versioned agent configuration templates.
   name: Letta Agent Templates API
   slug: letta-agent-templates-api
-- description: Out-of-context long-term memory archives and passages.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Out-of-context long-term memory archives and passages.
   name: Letta Archival Memory API
   slug: letta-archival-memory-api
-- description: OpenAI-compatible chat completions backed by a Letta agent.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions backed by a Letta agent.
   name: Letta Chat Completions API
   slug: letta-chat-completions-api
-- description: Core-memory blocks shared across agents, groups, and identities.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Core-memory blocks shared across agents, groups, and identities.
   name: Letta Memory Blocks API
   slug: letta-memory-blocks-api
-- description: Available models and configured BYOK model providers.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Available models and configured BYOK model providers.
   name: Letta Models and Providers API
   slug: letta-models-and-providers-api
-- description: Groups of agents coordinating around shared memory.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Groups of agents coordinating around shared memory.
   name: Letta Multi-Agent Groups API
   slug: letta-multi-agent-groups-api
-- description: Asynchronous execution history behind agent messages.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Asynchronous execution history behind agent messages.
   name: Letta Runs, Jobs and Steps API
   slug: letta-runs-jobs-and-steps-api
-- description: Uploaded files and folders used for agent grounding and retrieval.
+- baseURL: https://chat.letta.com
+  baseurl_source: declared
+  description: Uploaded files and folders used for agent grounding and retrieval.
   name: Letta Sources and Files API
   slug: letta-sources-and-files-api
 artifact_total: 503
@@ -1692,7 +1788,7 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -1702,7 +1798,7 @@ score:
     discoverability: 70.4
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 47.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1711,7 +1807,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letta/refs/heads/main/screenshots/letta-2026-07-25T224937.png
 security:

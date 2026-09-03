@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 308 operations · 128 acting
 api_count: 1
 apis:
-- description: accounts
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: accounts
   name: Klaviyo Accounts API
   slug: klaviyo-accounts-api
-- description: campaigns
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: campaigns
   name: Klaviyo Campaigns API
   slug: klaviyo-campaigns-api
-- description: catalogs
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: catalogs
   name: Klaviyo Catalogs API
   slug: klaviyo-catalogs-api
-- description: client
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: client
   name: Klaviyo Client API
   slug: klaviyo-client-api
-- description: conversations
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: conversations
   name: Klaviyo Conversations API
   slug: klaviyo-conversations-api
-- description: coupons
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: coupons
   name: Klaviyo Coupons API
   slug: klaviyo-coupons-api
-- description: custom objects
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: custom objects
   name: Klaviyo Custom Objects API
   slug: klaviyo-custom-objects-api
-- description: data privacy
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: data privacy
   name: Klaviyo Data Privacy API
   slug: klaviyo-data-privacy-api
-- description: events
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: events
   name: Klaviyo Events API
   slug: klaviyo-events-api
-- description: flows
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: flows
   name: Klaviyo Flows API
   slug: klaviyo-flows-api
-- description: forms
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: forms
   name: Klaviyo Forms API
   slug: klaviyo-forms-api
-- description: images
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: images
   name: Klaviyo Images API
   slug: klaviyo-images-api
-- description: lists
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: lists
   name: Klaviyo Lists API
   slug: klaviyo-lists-api
-- description: metrics
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: metrics
   name: Klaviyo Metrics API
   slug: klaviyo-metrics-api
-- description: profiles
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: profiles
   name: Klaviyo Profiles API
   slug: klaviyo-profiles-api
-- description: reporting
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: reporting
   name: Klaviyo Reporting API
   slug: klaviyo-reporting-api
-- description: reviews
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: reviews
   name: Klaviyo Reviews API
   slug: klaviyo-reviews-api
-- description: segments
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: segments
   name: Klaviyo Segments API
   slug: klaviyo-segments-api
-- description: tags
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: tags
   name: Klaviyo Tags API
   slug: klaviyo-tags-api
-- description: templates
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: templates
   name: Klaviyo Templates API
   slug: klaviyo-templates-api
-- description: tracking settings
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: tracking settings
   name: Klaviyo Tracking Settings API
   slug: klaviyo-tracking-settings-api
-- description: web feeds
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: web feeds
   name: Klaviyo Web Feeds API
   slug: klaviyo-web-feeds-api
-- description: webhooks
+- baseURL: https://a.klaviyo.com
+  baseurl_source: declared
+  description: webhooks
   name: Klaviyo Webhooks API
   slug: klaviyo-webhooks-api
 artifact_total: 1295
@@ -4144,7 +4190,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -4154,7 +4200,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 76.3
-  previous_composite: 73.8
+  previous_composite: 73.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -4178,7 +4224,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:

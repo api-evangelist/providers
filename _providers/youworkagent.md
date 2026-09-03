@@ -23,13 +23,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Overdue Invoice Follow Up API from YouWork Agent — 1 operation(s) for overdue invoice follow up.
+- baseURL: https://scopewise.youworkagent.online/api/v1
+  baseurl_source: declared
+  description: The Overdue Invoice Follow Up API from YouWork Agent — 1 operation(s) for overdue invoice follow up.
   name: YouWork Agent Overdue Invoice Follow Up API
   slug: youworkagent-overdue-invoice-follow-up-api
-- description: The Project Quote API from YouWork Agent — 1 operation(s) for project quote.
+- baseURL: https://scopewise.youworkagent.online/api/v1
+  baseurl_source: declared
+  description: The Project Quote API from YouWork Agent — 1 operation(s) for project quote.
   name: YouWork Agent Project Quote API
   slug: youworkagent-project-quote-api
 artifact_total: 2
@@ -106,7 +110,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: youworkagent
 tags:

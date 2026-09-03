@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
@@ -42,10 +42,14 @@ apis:
 - description: Finance solar, storage and other clean-energy projects; includes contracts, documents, organizations, users and a webhook event surface.
   name: Palmetto Finance (LightReach) API
   slug: palmetto-finance-lightreach-api
-- description: The Bem API from Palmetto — 1 operation(s) for bem.
+- baseURL: https://ei.palmetto.com
+  baseurl_source: declared
+  description: The Bem API from Palmetto — 1 operation(s) for bem.
   name: Palmetto Bem API
   slug: palmetto-bem-api
-- description: The Health API from Palmetto — 1 operation(s) for health.
+- baseURL: https://ei.palmetto.com
+  baseurl_source: declared
+  description: The Health API from Palmetto — 1 operation(s) for health.
   name: Palmetto Health API
   slug: palmetto-health-api
 artifact_total: 11
@@ -204,7 +208,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -214,7 +218,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 51.3
   provenance:
     conformance: derived
     contracts:
@@ -231,7 +235,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/screenshots/palmetto-2026-08-07T191322.png
 security:

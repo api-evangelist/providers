@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Customer billing accounts and billing summaries
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Customer billing accounts and billing summaries
   name: UtilityAPI Accounting API
   slug: utilityapi-accounting-api
-- description: Submitted authorizations from utility customers
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Submitted authorizations from utility customers
   name: UtilityAPI Authorizations API
   slug: utilityapi-authorizations-api
-- description: Utility billing information
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Utility billing information
   name: UtilityAPI Bills API
   slug: utilityapi-bills-api
-- description: Webhook events and notifications
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Webhook events and notifications
   name: UtilityAPI Events API
   slug: utilityapi-events-api
-- description: Raw or formatted data files linked to other objects
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Raw or formatted data files linked to other objects
   name: UtilityAPI Files API
   slug: utilityapi-files-api
-- description: Customer-facing authorization forms management
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Customer-facing authorization forms management
   name: UtilityAPI Forms API
   slug: utilityapi-forms-api
-- description: Meter usage intervals
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Meter usage intervals
   name: UtilityAPI Intervals API
   slug: utilityapi-intervals-api
-- description: Utility services and meter data for authorized customers
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Utility services and meter data for authorized customers
   name: UtilityAPI Meters API
   slug: utilityapi-meters-api
-- description: Authorization form templates for formatting customer authorization forms
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: declared
+  description: Authorization form templates for formatting customer authorization forms
   name: UtilityAPI Templates API
   slug: utilityapi-templates-api
 artifact_total: 36
@@ -267,7 +285,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/screenshots/utilityapi-2026-06-20T200729.png
 security:

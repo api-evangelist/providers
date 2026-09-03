@@ -33,34 +33,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Reachdesk operates a first-party remote Model Context Protocol server at https://app.reachdesk.com/mcp, on the same host as its REST API. It is a hosted HTTP endpoint an MCP client POSTs to directly —
   name: Reachdesk MCP Server
   slug: reachdesk-mcp
-- description: The Bulk Sends API from Reachdesk — 1 operation(s) for bulk sends.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Bulk Sends API from Reachdesk — 1 operation(s) for bulk sends.
   name: Reachdesk Bulk Sends API
   slug: reachdesk-bulk-sends-api
-- description: The Campaigns API from Reachdesk — 1 operation(s) for campaigns.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Campaigns API from Reachdesk — 1 operation(s) for campaigns.
   name: Reachdesk Campaigns API
   slug: reachdesk-campaigns-api
-- description: The Contacts API from Reachdesk — 1 operation(s) for contacts.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Contacts API from Reachdesk — 1 operation(s) for contacts.
   name: Reachdesk Contacts API
   slug: reachdesk-contacts-api
-- description: The Gdpr API from Reachdesk — 2 operation(s) for gdpr.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Gdpr API from Reachdesk — 2 operation(s) for gdpr.
   name: Reachdesk Gdpr API
   slug: reachdesk-gdpr-api
-- description: The Organization API from Reachdesk — 1 operation(s) for organization.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Organization API from Reachdesk — 1 operation(s) for organization.
   name: Reachdesk Organization API
   slug: reachdesk-organization-api
-- description: The Sends API from Reachdesk — 1 operation(s) for sends.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Sends API from Reachdesk — 1 operation(s) for sends.
   name: Reachdesk Sends API
   slug: reachdesk-sends-api
-- description: The Sends?start Date={start Date}&end Date={end Date} API from Reachdesk — 1 operation(s) for sends?start date={start date}&end date={end date}.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Sends?start Date={start Date}&end Date={end Date} API from Reachdesk — 1 operation(s) for sends?start date={start date}&end date={end date}.
   name: Reachdesk Sends?start Date={start Date}&end Date={end Date} API
   slug: reachdesk-sends-start-date-start-date-end-date-end-date-api
-- description: The Transactions API from Reachdesk — 1 operation(s) for transactions.
+- baseURL: https://app.reachdesk.com/api/v2
+  baseurl_source: declared
+  description: The Transactions API from Reachdesk — 1 operation(s) for transactions.
   name: Reachdesk Transactions API
   slug: reachdesk-transactions-api
 artifact_total: 20
@@ -263,7 +279,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -273,7 +289,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 57.1
+  previous_composite: 56.9
   provenance:
     conformance: derived
     contracts:
@@ -284,7 +300,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/screenshots/reachdesk-2026-06-20T192631.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -49,34 +49,54 @@ apis:
 - description: REST surface behind the dashboard and CLI, served from the gateway host under /admin/v1 and /customer/v1, org-scoped and authenticated with sk_* bearer keys. Covers API key mint/list/revoke, project C
   name: Understudy Control Plane API
   slug: understudy-control-plane-api
-- description: The Capabilities API from Understudy Labs — 1 operation(s) for capabilities.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Capabilities API from Understudy Labs — 1 operation(s) for capabilities.
   name: Understudy Labs Capabilities API
   slug: understudy-labs-capabilities-api
-- description: The Conversations API from Understudy Labs — 1 operation(s) for conversations.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Conversations API from Understudy Labs — 1 operation(s) for conversations.
   name: Understudy Labs Conversations API
   slug: understudy-labs-conversations-api
-- description: The Downloads API from Understudy Labs — 3 operation(s) for downloads.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Downloads API from Understudy Labs — 3 operation(s) for downloads.
   name: Understudy Labs Downloads API
   slug: understudy-labs-downloads-api
-- description: The Feedback API from Understudy Labs — 1 operation(s) for feedback.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Feedback API from Understudy Labs — 1 operation(s) for feedback.
   name: Understudy Labs Feedback API
   slug: understudy-labs-feedback-api
-- description: The Metrics API from Understudy Labs — 1 operation(s) for metrics.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Metrics API from Understudy Labs — 1 operation(s) for metrics.
   name: Understudy Labs Metrics API
   slug: understudy-labs-metrics-api
-- description: The Models API from Understudy Labs — 2 operation(s) for models.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Models API from Understudy Labs — 2 operation(s) for models.
   name: Understudy Labs Models API
   slug: understudy-labs-models-api
-- description: The Residency API from Understudy Labs — 6 operation(s) for residency.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Residency API from Understudy Labs — 6 operation(s) for residency.
   name: Understudy Labs Residency API
   slug: understudy-labs-residency-api
-- description: The Runs API from Understudy Labs — 2 operation(s) for runs.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Runs API from Understudy Labs — 2 operation(s) for runs.
   name: Understudy Labs Runs API
   slug: understudy-labs-runs-api
-- description: The Status API from Understudy Labs — 1 operation(s) for status.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Status API from Understudy Labs — 1 operation(s) for status.
   name: Understudy Labs Status API
   slug: understudy-labs-status-api
-- description: The Supervision API from Understudy Labs — 1 operation(s) for supervision.
+- baseURL: https://api.understudylabs.com
+  baseurl_source: declared
+  description: The Supervision API from Understudy Labs — 1 operation(s) for supervision.
   name: Understudy Labs Supervision API
   slug: understudy-labs-supervision-api
 arazzos:
@@ -278,7 +298,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/understudy-labs/refs/heads/main/screenshots/understudy-labs-2026-08-17T082556.png
 security:

@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,256 +38,420 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
-- description: Actor operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Actor operations
   name: Cisco XDR Actor API
   slug: cisco-xdr-actor-api
-- description: Asset operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Asset operations
   name: Cisco XDR Asset API
   slug: cisco-xdr-asset-api
-- description: Asset Mapping operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Asset Mapping operations
   name: Cisco XDR Asset Mapping API
   slug: cisco-xdr-asset-mapping-api
-- description: Asset Properties operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Asset Properties operations
   name: Cisco XDR Asset Properties API
   slug: cisco-xdr-asset-properties-api
-- description: Attack Pattern operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Attack Pattern operations
   name: Cisco XDR Attack Pattern API
   slug: cisco-xdr-attack-pattern-api
-- description: The Bulk API from Cisco XDR — 1 operation(s) for bulk.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Bulk API from Cisco XDR — 1 operation(s) for bulk.
   name: Cisco XDR Bulk API
   slug: cisco-xdr-bulk-api
-- description: The Bundle API from Cisco XDR — 2 operation(s) for bundle.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Bundle API from Cisco XDR — 2 operation(s) for bundle.
   name: Cisco XDR Bundle API
   slug: cisco-xdr-bundle-api
-- description: Campaign operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Campaign operations
   name: Cisco XDR Campaign API
   slug: cisco-xdr-campaign-api
-- description: Casebook operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Casebook operations
   name: Cisco XDR Casebook API
   slug: cisco-xdr-casebook-api
-- description: COA operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: COA operations
   name: Cisco XDR COA API
   slug: cisco-xdr-coa-api
-- description: This set of routes allow to quickly get answers from your integrations You might use them at the start of any investigation to quickly get answers from your modules if something is bad.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: This set of routes allow to quickly get answers from your integrations You might use them at the start of any investigation to quickly get answers from your modules if something is bad.
   name: Cisco XDR Deliberate API
   slug: cisco-xdr-deliberate-api
-- description: Events operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Events operations
   name: Cisco XDR Event API
   slug: cisco-xdr-event-api
-- description: Feed operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Feed operations
   name: Cisco XDR Feed API
   slug: cisco-xdr-feed-api
-- description: Feedback Routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: Feedback Routes
   name: Cisco XDR Feedback API
   slug: cisco-xdr-feedback-api
-- description: The GraphQL API from Cisco XDR — 1 operation(s) for graphql.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The GraphQL API from Cisco XDR — 1 operation(s) for graphql.
   name: Cisco XDR Graph QL API
   slug: cisco-xdr-graphql-api
-- description: This set of routes allow to check the health of your integrations setup Verify if your modules are setup correctly and if your credentials are correct.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: This set of routes allow to check the health of your integrations setup Verify if your modules are setup correctly and if your credentials are correct.
   name: Cisco XDR Health API
   slug: cisco-xdr-health-api
-- description: Incident operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Incident operations
   name: Cisco XDR Incident API
   slug: cisco-xdr-incident-api
-- description: Indicator operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Indicator operations
   name: Cisco XDR Indicator API
   slug: cisco-xdr-indicator-api
-- description: Inspect related routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: Inspect related routes
   name: Cisco XDR Inspect API
   slug: cisco-xdr-inspect-api
-- description: The Investigation API from Cisco XDR — 8 operation(s) for investigation.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Investigation API from Cisco XDR — 8 operation(s) for investigation.
   name: Cisco XDR Investigation API
   slug: cisco-xdr-investigation-api
-- description: The INVITE API from Cisco XDR — 2 operation(s) for invite.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: The INVITE API from Cisco XDR — 2 operation(s) for invite.
   name: Cisco XDR INVITE API
   slug: cisco-xdr-invite-api
-- description: The Iroh API from Cisco XDR — 3 operation(s) for iroh.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: The Iroh API from Cisco XDR — 3 operation(s) for iroh.
   name: Cisco XDR Iroh API
   slug: cisco-xdr-iroh-api
-- description: Judgement operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Judgement operations
   name: Cisco XDR Judgement API
   slug: cisco-xdr-judgement-api
-- description: The LOGIN API from Cisco XDR — 4 operation(s) for login.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: The LOGIN API from Cisco XDR — 4 operation(s) for login.
   name: Cisco XDR LOGIN API
   slug: cisco-xdr-login-api
-- description: Malware operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Malware operations
   name: Cisco XDR Malware API
   slug: cisco-xdr-malware-api
-- description: The Metrics API from Cisco XDR — 1 operation(s) for metrics.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Metrics API from Cisco XDR — 1 operation(s) for metrics.
   name: Cisco XDR Metrics API
   slug: cisco-xdr-metrics-api
-- description: ModuleInstance Routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: ModuleInstance Routes
   name: Cisco XDR Module Instance API
   slug: cisco-xdr-moduleinstance-api
-- description: ModuleType Routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: ModuleType Routes
   name: Cisco XDR Module Type API
   slug: cisco-xdr-moduletype-api
-- description: ModuleTypePatch Routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: ModuleTypePatch Routes
   name: Cisco XDR Module Type Patch API
   slug: cisco-xdr-moduletypepatch-api
-- description: The Note API from Cisco XDR — 8 operation(s) for note.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Note API from Cisco XDR — 8 operation(s) for note.
   name: Cisco XDR Note API
   slug: cisco-xdr-note-api
-- description: This set of routes allow to get in depth investigation data about a threat You might use them at the start of any investigation to get the full picture and get to know if something has been seen in yo
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: This set of routes allow to get in depth investigation data about a threat You might use them at the start of any investigation to get the full picture and get to know if something has been seen in yo
   name: Cisco XDR Observe API
   slug: cisco-xdr-observe-api
-- description: One-click Routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: One-click Routes
   name: Cisco XDR One Click API
   slug: cisco-xdr-one-click-api
-- description: Access private-intel
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: Access private-intel
   name: Cisco XDR Private Intel API
   slug: cisco-xdr-private-intel-api
-- description: The Properties API from Cisco XDR — 1 operation(s) for properties.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Properties API from Cisco XDR — 1 operation(s) for properties.
   name: Cisco XDR Properties API
   slug: cisco-xdr-properties-api
-- description: This set of routes allow to query for records related to observable events.Results are returned in OCSF format.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: This set of routes allow to query for records related to observable events.Results are returned in OCSF format.
   name: Cisco XDR Query API
   slug: cisco-xdr-query-api
-- description: This set of routes allow to get relevant Reference links and quickly pivot pursuing your investigation on a specific product interface.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: This set of routes allow to get relevant Reference links and quickly pivot pursuing your investigation on a specific product interface.
   name: Cisco XDR Refer API
   slug: cisco-xdr-refer-api
-- description: Relationship operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Relationship operations
   name: Cisco XDR Relationship API
   slug: cisco-xdr-relationship-api
-- description: The Reputation API from Cisco XDR — 1 operation(s) for reputation.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: The Reputation API from Cisco XDR — 1 operation(s) for reputation.
   name: Cisco XDR Reputation API
   slug: cisco-xdr-reputation-api
-- description: IROH Response
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: IROH Response
   name: Cisco XDR Response API
   slug: cisco-xdr-response-api
-- description: Cookie-based session validation
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: Cookie-based session validation
   name: Cisco XDR Session Cookie API
   slug: cisco-xdr-session-cookie-api
-- description: Sighting operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Sighting operations
   name: Cisco XDR Sighting API
   slug: cisco-xdr-sighting-api
-- description: The Status API from Cisco XDR — 1 operation(s) for status.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Status API from Cisco XDR — 1 operation(s) for status.
   name: Cisco XDR Status API
   slug: cisco-xdr-status-api
-- description: Target Record operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Target Record operations
   name: Cisco XDR Target Record API
   slug: cisco-xdr-target-record-api
-- description: Tool operations
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: Tool operations
   name: Cisco XDR Tool API
   slug: cisco-xdr-tool-api
-- description: The Verdict API from Cisco XDR — 1 operation(s) for verdict.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Verdict API from Cisco XDR — 1 operation(s) for verdict.
   name: Cisco XDR Verdict API
   slug: cisco-xdr-verdict-api
-- description: The Version API from Cisco XDR — 1 operation(s) for version.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Version API from Cisco XDR — 1 operation(s) for version.
   name: Cisco XDR Version API
   slug: cisco-xdr-version-api
-- description: The Vulnerability API from Cisco XDR — 9 operation(s) for vulnerability.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Vulnerability API from Cisco XDR — 9 operation(s) for vulnerability.
   name: Cisco XDR Vulnerability API
   slug: cisco-xdr-vulnerability-api
-- description: Webhook Routes
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: Webhook Routes
   name: Cisco XDR Webhook API
   slug: cisco-xdr-webhook-api
-- description: The WebhookResult API from Cisco XDR — 2 operation(s) for webhookresult.
+- baseURL: https://visibility.amp.cisco.com
+  baseurl_source: declared
+  description: The WebhookResult API from Cisco XDR — 2 operation(s) for webhookresult.
   name: Cisco XDR Webhook Result API
   slug: cisco-xdr-webhookresult-api
 - description: Model Context Protocol server published by CiscoDevNet exposing 27 Cisco XDR tools across Inspect, Investigate, Incidents, Response Actions, Casebooks, Threat Intel, Workflows and Admin, plus 5 resour
   name: Cisco XDR MCP Server
   slug: cisco-xdr-mcp-server
-- description: The Calendars API from Cisco XDR — 3 operation(s) for calendars.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Calendars API from Cisco XDR — 3 operation(s) for calendars.
   name: Cisco XDR Calendars API
   slug: cisco-xdr-calendars-api
-- description: The Categories API from Cisco XDR — 2 operation(s) for categories.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Categories API from Cisco XDR — 2 operation(s) for categories.
   name: Cisco XDR Categories API
   slug: cisco-xdr-categories-api
-- description: The ChangeOwner API from Cisco XDR — 1 operation(s) for changeowner.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The ChangeOwner API from Cisco XDR — 1 operation(s) for changeowner.
   name: Cisco XDR Change Owner API
   slug: cisco-xdr-changeowner-api
-- description: The Comments API from Cisco XDR — 2 operation(s) for comments.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Comments API from Cisco XDR — 2 operation(s) for comments.
   name: Cisco XDR Comments API
   slug: cisco-xdr-comments-api
-- description: The Events API from Cisco XDR — 2 operation(s) for events.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Events API from Cisco XDR — 2 operation(s) for events.
   name: Cisco XDR Events API
   slug: cisco-xdr-events-api
-- description: The EventsRateLimit API from Cisco XDR — 1 operation(s) for eventsratelimit.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The EventsRateLimit API from Cisco XDR — 1 operation(s) for eventsratelimit.
   name: Cisco XDR Events Rate Limit API
   slug: cisco-xdr-eventsratelimit-api
-- description: The Metadata API from Cisco XDR — 1 operation(s) for metadata.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Metadata API from Cisco XDR — 1 operation(s) for metadata.
   name: Cisco XDR Metadata API
   slug: cisco-xdr-metadata-api
-- description: The Ratings API from Cisco XDR — 3 operation(s) for ratings.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Ratings API from Cisco XDR — 3 operation(s) for ratings.
   name: Cisco XDR Ratings API
   slug: cisco-xdr-ratings-api
-- description: The References API from Cisco XDR — 1 operation(s) for references.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The References API from Cisco XDR — 1 operation(s) for references.
   name: Cisco XDR References API
   slug: cisco-xdr-references-api
-- description: The RemoteMeta API from Cisco XDR — 3 operation(s) for remotemeta.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The RemoteMeta API from Cisco XDR — 3 operation(s) for remotemeta.
   name: Cisco XDR Remote Meta API
   slug: cisco-xdr-remotemeta-api
-- description: The Rules API from Cisco XDR — 4 operation(s) for rules.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Rules API from Cisco XDR — 4 operation(s) for rules.
   name: Cisco XDR Rules API
   slug: cisco-xdr-rules-api
-- description: The RuntimeUsers API from Cisco XDR — 2 operation(s) for runtimeusers.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The RuntimeUsers API from Cisco XDR — 2 operation(s) for runtimeusers.
   name: Cisco XDR Runtime Users API
   slug: cisco-xdr-runtimeusers-api
-- description: The Schedules API from Cisco XDR — 2 operation(s) for schedules.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Schedules API from Cisco XDR — 2 operation(s) for schedules.
   name: Cisco XDR Schedules API
   slug: cisco-xdr-schedules-api
-- description: The Schemas API from Cisco XDR — 2 operation(s) for schemas.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Schemas API from Cisco XDR — 2 operation(s) for schemas.
   name: Cisco XDR Schemas API
   slug: cisco-xdr-schemas-api
-- description: The ShareObjectPermissions API from Cisco XDR — 1 operation(s) for shareobjectpermissions.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The ShareObjectPermissions API from Cisco XDR — 1 operation(s) for shareobjectpermissions.
   name: Cisco XDR Share Object Permissions API
   slug: cisco-xdr-shareobjectpermissions-api
-- description: The SXIROHIncident API from Cisco XDR — 1 operation(s) for sxirohincident.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The SXIROHIncident API from Cisco XDR — 1 operation(s) for sxirohincident.
   name: Cisco XDR SXIROH Incident API
   slug: cisco-xdr-sxirohincident-api
-- description: The Tables API from Cisco XDR — 2 operation(s) for tables.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Tables API from Cisco XDR — 2 operation(s) for tables.
   name: Cisco XDR Tables API
   slug: cisco-xdr-tables-api
-- description: The TableTypes API from Cisco XDR — 2 operation(s) for tabletypes.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The TableTypes API from Cisco XDR — 2 operation(s) for tabletypes.
   name: Cisco XDR Table Types API
   slug: cisco-xdr-tabletypes-api
-- description: The TargetGroups API from Cisco XDR — 2 operation(s) for targetgroups.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The TargetGroups API from Cisco XDR — 2 operation(s) for targetgroups.
   name: Cisco XDR Target Groups API
   slug: cisco-xdr-targetgroups-api
-- description: The Targets API from Cisco XDR — 3 operation(s) for targets.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Targets API from Cisco XDR — 3 operation(s) for targets.
   name: Cisco XDR Targets API
   slug: cisco-xdr-targets-api
-- description: The Tasks API from Cisco XDR — 5 operation(s) for tasks.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Tasks API from Cisco XDR — 5 operation(s) for tasks.
   name: Cisco XDR Tasks API
   slug: cisco-xdr-tasks-api
-- description: The Tenants API from Cisco XDR — 3 operation(s) for tenants.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Tenants API from Cisco XDR — 3 operation(s) for tenants.
   name: Cisco XDR Tenants API
   slug: cisco-xdr-tenants-api
-- description: The Triggers API from Cisco XDR — 2 operation(s) for triggers.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Triggers API from Cisco XDR — 2 operation(s) for triggers.
   name: Cisco XDR Triggers API
   slug: cisco-xdr-triggers-api
-- description: The v1 API from Cisco XDR — 4 operation(s) for v1.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The v1 API from Cisco XDR — 4 operation(s) for v1.
   name: Cisco XDR V1 API
   slug: cisco-xdr-v1-api
-- description: The v2 API from Cisco XDR — 75 operation(s) for v2.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The v2 API from Cisco XDR — 75 operation(s) for v2.
   name: Cisco XDR V2 API
   slug: cisco-xdr-v2-api
-- description: The v3 API from Cisco XDR — 10 operation(s) for v3.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The v3 API from Cisco XDR — 10 operation(s) for v3.
   name: Cisco XDR V3 API
   slug: cisco-xdr-v3-api
-- description: The Variables API from Cisco XDR — 3 operation(s) for variables.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Variables API from Cisco XDR — 3 operation(s) for variables.
   name: Cisco XDR Variables API
   slug: cisco-xdr-variables-api
-- description: The VariableTypes API from Cisco XDR — 3 operation(s) for variabletypes.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The VariableTypes API from Cisco XDR — 3 operation(s) for variabletypes.
   name: Cisco XDR Variable Types API
   slug: cisco-xdr-variabletypes-api
-- description: The Webhooks API from Cisco XDR — 3 operation(s) for webhooks.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Webhooks API from Cisco XDR — 3 operation(s) for webhooks.
   name: Cisco XDR Webhooks API
   slug: cisco-xdr-webhooks-api
-- description: The WorkflowInstances API from Cisco XDR — 7 operation(s) for workflowinstances.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The WorkflowInstances API from Cisco XDR — 7 operation(s) for workflowinstances.
   name: Cisco XDR Workflow Instances API
   slug: cisco-xdr-workflowinstances-api
-- description: The Workflows API from Cisco XDR — 20 operation(s) for workflows.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Workflows API from Cisco XDR — 20 operation(s) for workflows.
   name: Cisco XDR Workflows API
   slug: cisco-xdr-workflows-api
-- description: The WorkflowVariableReferences API from Cisco XDR — 1 operation(s) for workflowvariablereferences.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The WorkflowVariableReferences API from Cisco XDR — 1 operation(s) for workflowvariablereferences.
   name: Cisco XDR Workflow Variable References API
   slug: cisco-xdr-workflowvariablereferences-api
-- description: The Xchange API from Cisco XDR — 4 operation(s) for xchange.
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Xchange API from Cisco XDR — 4 operation(s) for xchange.
   name: Cisco XDR Xchange API
   slug: cisco-xdr-xchange-api
 artifact_total: 93
@@ -516,23 +695,23 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.1
+  composite: 59.8
   coverage:
-    artifact_dirs: 22
-    catalog_gap: 64.0
+    artifact_dirs: 23
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 2.7
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 4.5
-    contract_quality: 57.9
+    contract_quality: 61.3
     developer_ergonomics: 66.1
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 57.2
+  previous_composite: 57.1
   provenance:
     conformance: derived
     contracts:
@@ -543,8 +722,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/screenshots/cisco-xdr-2026-09-02T145050.png
 security:
 - kind: authentication
   name: Cisco Xdr Authentication

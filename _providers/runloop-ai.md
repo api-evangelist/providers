@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 302 operations · 154 acting · 8 human-in-the-loop
 api_count: 14
 apis:
-- description: The agents API from Runloop — 5 operation(s) for agents.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The agents API from Runloop — 5 operation(s) for agents.
   name: Runloop agents API
   slug: runloop-ai-agents-api
-- description: The apikeys API from Runloop — 1 operation(s) for apikeys.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The apikeys API from Runloop — 1 operation(s) for apikeys.
   name: Runloop apikeys API
   slug: runloop-ai-apikeys-api
-- description: The axons API from Runloop — 7 operation(s) for axons.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The axons API from Runloop — 7 operation(s) for axons.
   name: Runloop axons API
   slug: runloop-ai-axons-api
-- description: The Benchmark API from Runloop — 25 operation(s) for benchmark.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Benchmark API from Runloop — 25 operation(s) for benchmark.
   name: Runloop Benchmark API
   slug: runloop-ai-benchmark-api
-- description: The Blueprint API from Runloop — 11 operation(s) for blueprint.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Blueprint API from Runloop — 11 operation(s) for blueprint.
   name: Runloop Blueprint API
   slug: runloop-ai-blueprint-api
-- description: The Blueprint-Lifecycle API from Runloop — 3 operation(s) for blueprint-lifecycle.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Blueprint-Lifecycle API from Runloop — 3 operation(s) for blueprint-lifecycle.
   name: Runloop Blueprint-Lifecycle API
   slug: runloop-ai-blueprint-lifecycle-api
-- description: The Blueprint-ObservabilityTools API from Runloop — 2 operation(s) for blueprint-observabilitytools.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Blueprint-ObservabilityTools API from Runloop — 2 operation(s) for blueprint-observabilitytools.
   name: Runloop Blueprint-ObservabilityTools API
   slug: runloop-ai-blueprint-observabilitytools-api
-- description: The Devbox API from Runloop — 40 operation(s) for devbox.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox API from Runloop — 40 operation(s) for devbox.
   name: Runloop Devbox API
   slug: runloop-ai-devbox-api
-- description: The Devbox-FileTools API from Runloop — 4 operation(s) for devbox-filetools.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox-FileTools API from Runloop — 4 operation(s) for devbox-filetools.
   name: Runloop Devbox-FileTools API
   slug: runloop-ai-devbox-filetools-api
-- description: The Devbox-Lifecycle API from Runloop — 7 operation(s) for devbox-lifecycle.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox-Lifecycle API from Runloop — 7 operation(s) for devbox-lifecycle.
   name: Runloop Devbox-Lifecycle API
   slug: runloop-ai-devbox-lifecycle-api
-- description: The Devbox-NetworkTools API from Runloop — 4 operation(s) for devbox-networktools.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox-NetworkTools API from Runloop — 4 operation(s) for devbox-networktools.
   name: Runloop Devbox-NetworkTools API
   slug: runloop-ai-devbox-networktools-api
-- description: The Devbox-ObservabilityTools API from Runloop — 3 operation(s) for devbox-observabilitytools.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox-ObservabilityTools API from Runloop — 3 operation(s) for devbox-observabilitytools.
   name: Runloop Devbox-ObservabilityTools API
   slug: runloop-ai-devbox-observabilitytools-api
-- description: The Devbox-PersistenceTools API from Runloop — 11 operation(s) for devbox-persistencetools.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox-PersistenceTools API from Runloop — 11 operation(s) for devbox-persistencetools.
   name: Runloop Devbox-PersistenceTools API
   slug: runloop-ai-devbox-persistencetools-api
-- description: The Devbox-ShellTools API from Runloop — 9 operation(s) for devbox-shelltools.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Devbox-ShellTools API from Runloop — 9 operation(s) for devbox-shelltools.
   name: Runloop Devbox-ShellTools API
   slug: runloop-ai-devbox-shelltools-api
-- description: The executions API from Runloop — 2 operation(s) for executions.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The executions API from Runloop — 2 operation(s) for executions.
   name: Runloop executions API
   slug: runloop-ai-executions-api
-- description: The gateway-configs API from Runloop — 3 operation(s) for gateway-configs.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The gateway-configs API from Runloop — 3 operation(s) for gateway-configs.
   name: Runloop gateway-configs API
   slug: runloop-ai-gateway-configs-api
-- description: The mcp-configs API from Runloop — 3 operation(s) for mcp-configs.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The mcp-configs API from Runloop — 3 operation(s) for mcp-configs.
   name: Runloop mcp-configs API
   slug: runloop-ai-mcp-configs-api
-- description: The network-policies API from Runloop — 3 operation(s) for network-policies.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The network-policies API from Runloop — 3 operation(s) for network-policies.
   name: Runloop network-policies API
   slug: runloop-ai-network-policies-api
-- description: The objects API from Runloop — 8 operation(s) for objects.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The objects API from Runloop — 8 operation(s) for objects.
   name: Runloop objects API
   slug: runloop-ai-objects-api
-- description: The restricted_keys API from Runloop — 1 operation(s) for restricted_keys.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The restricted_keys API from Runloop — 1 operation(s) for restricted_keys.
   name: Runloop restricted_keys API
   slug: runloop-ai-restricted-keys-api
-- description: The Scenario API from Runloop — 17 operation(s) for scenario.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The Scenario API from Runloop — 17 operation(s) for scenario.
   name: Runloop Scenario API
   slug: runloop-ai-scenario-api
-- description: The ScenarioScorer API from Runloop — 2 operation(s) for scenarioscorer.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The ScenarioScorer API from Runloop — 2 operation(s) for scenarioscorer.
   name: Runloop ScenarioScorer API
   slug: runloop-ai-scenarioscorer-api
-- description: The secrets API from Runloop — 3 operation(s) for secrets.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The secrets API from Runloop — 3 operation(s) for secrets.
   name: Runloop secrets API
   slug: runloop-ai-secrets-api
-- description: The streaming API from Runloop — 2 operation(s) for streaming.
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The streaming API from Runloop — 2 operation(s) for streaming.
   name: Runloop streaming API
   slug: runloop-ai-streaming-api
 arazzos:
@@ -723,7 +771,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:

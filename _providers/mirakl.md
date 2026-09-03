@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -44,106 +44,174 @@ agentic_access:
   summary_line: 352 operations · 126 acting
 api_count: 14
 apis:
-- description: The Carriers API from Mirakl — 1 operation(s) for carriers.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Carriers API from Mirakl — 1 operation(s) for carriers.
   name: Mirakl Carriers API
   slug: mirakl-carriers-api
-- description: The Catalog Configuration API from Mirakl — 1 operation(s) for catalog configuration.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Catalog Configuration API from Mirakl — 1 operation(s) for catalog configuration.
   name: Mirakl Catalog Configuration API
   slug: mirakl-catalog-configuration-api
-- description: The Incidents API from Mirakl — 1 operation(s) for incidents.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Incidents API from Mirakl — 1 operation(s) for incidents.
   name: Mirakl Incidents API
   slug: mirakl-incidents-api
-- description: The Invoicing and Accounting API from Mirakl — 11 operation(s) for invoicing and accounting.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Invoicing and Accounting API from Mirakl — 11 operation(s) for invoicing and accounting.
   name: Mirakl Invoicing and Accounting API
   slug: mirakl-invoicing-and-accounting-api
-- description: The Messages API from Mirakl — 9 operation(s) for messages.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Messages API from Mirakl — 9 operation(s) for messages.
   name: Mirakl Messages API
   slug: mirakl-messages-api
-- description: The Multiple shipments API from Mirakl — 7 operation(s) for multiple shipments.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Multiple shipments API from Mirakl — 7 operation(s) for multiple shipments.
   name: Mirakl Multiple shipments API
   slug: mirakl-multiple-shipments-api
-- description: The Offers API from Mirakl — 16 operation(s) for offers.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Offers API from Mirakl — 16 operation(s) for offers.
   name: Mirakl Offers API
   slug: mirakl-offers-api
-- description: The Orders API from Mirakl — 34 operation(s) for orders.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Orders API from Mirakl — 34 operation(s) for orders.
   name: Mirakl Orders API
   slug: mirakl-orders-api
-- description: The Picklists API from Mirakl — 1 operation(s) for picklists.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Picklists API from Mirakl — 1 operation(s) for picklists.
   name: Mirakl Picklists API
   slug: mirakl-picklists-api
-- description: The Platform Settings API from Mirakl — 19 operation(s) for platform settings.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Platform Settings API from Mirakl — 19 operation(s) for platform settings.
   name: Mirakl Platform Settings API
   slug: mirakl-platform-settings-api
-- description: The Product Feedback API from Mirakl — 1 operation(s) for product feedback.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Product Feedback API from Mirakl — 1 operation(s) for product feedback.
   name: Mirakl Product Feedback API
   slug: mirakl-product-feedback-api
-- description: The Products API from Mirakl — 11 operation(s) for products.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Products API from Mirakl — 11 operation(s) for products.
   name: Mirakl Products API
   slug: mirakl-products-api
-- description: The Promotions API from Mirakl — 2 operation(s) for promotions.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Promotions API from Mirakl — 2 operation(s) for promotions.
   name: Mirakl Promotions API
   slug: mirakl-promotions-api
-- description: The Returns API from Mirakl — 8 operation(s) for returns.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Returns API from Mirakl — 8 operation(s) for returns.
   name: Mirakl Returns API
   slug: mirakl-returns-api
-- description: The Services API from Mirakl — 5 operation(s) for services.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Services API from Mirakl — 5 operation(s) for services.
   name: Mirakl Services API
   slug: mirakl-services-api
-- description: The Store API from Mirakl — 1 operation(s) for store.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Store API from Mirakl — 1 operation(s) for store.
   name: Mirakl Store API
   slug: mirakl-store-api
-- description: The Stores API from Mirakl — 5 operation(s) for stores.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Stores API from Mirakl — 5 operation(s) for stores.
   name: Mirakl Stores API
   slug: mirakl-stores-api
-- description: The Taxonomy API from Mirakl — 2 operation(s) for taxonomy.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Taxonomy API from Mirakl — 2 operation(s) for taxonomy.
   name: Mirakl Taxonomy API
   slug: mirakl-taxonomy-api
-- description: The Users API from Mirakl — 1 operation(s) for users.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Users API from Mirakl — 1 operation(s) for users.
   name: Mirakl Users API
   slug: mirakl-users-api
-- description: The Catalog API from Mirakl — 1 operation(s) for catalog.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Catalog API from Mirakl — 1 operation(s) for catalog.
   name: Mirakl Catalog API
   slug: mirakl-catalog-api
-- description: The Channel API from Mirakl — 1 operation(s) for channel.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Channel API from Mirakl — 1 operation(s) for channel.
   name: Mirakl Channel API
   slug: mirakl-channel-api
-- description: The Checkout API from Mirakl — 1 operation(s) for checkout.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Checkout API from Mirakl — 1 operation(s) for checkout.
   name: Mirakl Checkout API
   slug: mirakl-checkout-api
-- description: The Connection API from Mirakl — 2 operation(s) for connection.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Connection API from Mirakl — 2 operation(s) for connection.
   name: Mirakl Connection API
   slug: mirakl-connection-api
-- description: The Conversations API from Mirakl — 5 operation(s) for conversations.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Conversations API from Mirakl — 5 operation(s) for conversations.
   name: Mirakl Conversations API
   slug: mirakl-conversations-api
-- description: The Mapping API from Mirakl — 2 operation(s) for mapping.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Mapping API from Mirakl — 2 operation(s) for mapping.
   name: Mirakl Mapping API
   slug: mirakl-mapping-api
-- description: The Mirakl Connect Channel Platform Webhooks API from Mirakl — 0 operation(s) for mirakl connect channel platform webhooks.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Mirakl Connect Channel Platform Webhooks API from Mirakl — 0 operation(s) for mirakl connect channel platform webhooks.
   name: Mirakl Mirakl Connect Channel Platform Webhooks API
   slug: mirakl-mirakl-connect-channel-platform-webhooks-api
-- description: The Product Bindings API from Mirakl — 2 operation(s) for product bindings.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Product Bindings API from Mirakl — 2 operation(s) for product bindings.
   name: Mirakl Product Bindings API
   slug: mirakl-product-bindings-api
-- description: The Public API from Mirakl — 2 operation(s) for public.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Public API from Mirakl — 2 operation(s) for public.
   name: Mirakl Public API
   slug: mirakl-public-api
-- description: The Settings API from Mirakl — 1 operation(s) for settings.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Settings API from Mirakl — 1 operation(s) for settings.
   name: Mirakl Settings API
   slug: mirakl-settings-api
-- description: The Setup API from Mirakl — 3 operation(s) for setup.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Setup API from Mirakl — 3 operation(s) for setup.
   name: Mirakl Setup API
   slug: mirakl-setup-api
-- description: The Shipments API from Mirakl — 2 operation(s) for shipments.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Shipments API from Mirakl — 2 operation(s) for shipments.
   name: Mirakl Shipments API
   slug: mirakl-shipments-api
-- description: The Storefront API from Mirakl — 13 operation(s) for storefront.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Storefront API from Mirakl — 13 operation(s) for storefront.
   name: Mirakl Storefront API
   slug: mirakl-storefront-api
-- description: The Synchronization API from Mirakl — 11 operation(s) for synchronization.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Synchronization API from Mirakl — 11 operation(s) for synchronization.
   name: Mirakl Synchronization API
   slug: mirakl-synchronization-api
-- description: The Synchronization Errors API from Mirakl — 14 operation(s) for synchronization errors.
+- baseURL: https://your-instance.mirakl.net
+  baseurl_source: declared
+  description: The Synchronization Errors API from Mirakl — 14 operation(s) for synchronization errors.
   name: Mirakl Synchronization Errors API
   slug: mirakl-synchronization-errors-api
 artifact_total: 63
@@ -438,17 +506,17 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 61.8
+    contract_quality: 61.5
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 65.5
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -460,7 +528,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:

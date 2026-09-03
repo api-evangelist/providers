@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The AI Discovery API from Payem — 1 operation(s) for ai discovery.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The AI Discovery API from Payem — 1 operation(s) for ai discovery.
   name: Payem AI Discovery API
   slug: payem-ai-discovery-api
-- description: The Business API from Payem — 1 operation(s) for business.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The Business API from Payem — 1 operation(s) for business.
   name: Payem Business API
   slug: payem-business-api
-- description: The Categories API from Payem — 1 operation(s) for categories.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The Categories API from Payem — 1 operation(s) for categories.
   name: Payem Categories API
   slug: payem-categories-api
-- description: The Faq API from Payem — 1 operation(s) for faq.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The Faq API from Payem — 1 operation(s) for faq.
   name: Payem Faq API
   slug: payem-faq-api
-- description: The Qa API from Payem — 5 operation(s) for qa.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The Qa API from Payem — 5 operation(s) for qa.
   name: Payem Qa API
   slug: payem-qa-api
-- description: The Search API from Payem — 1 operation(s) for search.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The Search API from Payem — 1 operation(s) for search.
   name: Payem Search API
   slug: payem-search-api
-- description: The Testimonials API from Payem — 1 operation(s) for testimonials.
+- baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
+  baseurl_source: declared
+  description: The Testimonials API from Payem — 1 operation(s) for testimonials.
   name: Payem Testimonials API
   slug: payem-testimonials-api
 artifact_total: 14
@@ -163,7 +189,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +219,9 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/screenshots/payem-2026-09-02T150919.png
 security:
 - kind: authentication
   name: Payem Authentication

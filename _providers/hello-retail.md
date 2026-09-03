@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: Retrieve weighted customer preference data for personalization.
+- baseURL: https://core.helloretail.com
+  baseurl_source: declared
+  description: Retrieve weighted customer preference data for personalization.
   name: Hello Retail Customer Bias API
   slug: hello-retail-customer-bias-api
-- description: Page-driven product listings with filtering and sorting.
+- baseURL: https://core.helloretail.com
+  baseurl_source: declared
+  description: Page-driven product listings with filtering and sorting.
   name: Hello Retail Pages API
   slug: hello-retail-pages-api
-- description: Managed and unmanaged product recommendation requests.
+- baseURL: https://core.helloretail.com
+  baseurl_source: declared
+  description: Managed and unmanaged product recommendation requests.
   name: Hello Retail Recommendations API
   slug: hello-retail-recommendations-api
-- description: On-site search across products, categories, brands, and content.
+- baseURL: https://core.helloretail.com
+  baseurl_source: declared
+  description: On-site search across products, categories, brands, and content.
   name: Hello Retail Search API
   slug: hello-retail-search-api
 artifact_total: 16
@@ -161,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/screenshots/hello-retail-2026-06-20T182627.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for cryptocurrency market data. JSON responses with Laravel-style pagination, HTTP Bearer auth, quota-based Free/Starter/Pro plans, and signed webhook deliveries. OpenAPI 3.0.3 contract.
@@ -81,7 +81,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitculator/refs/heads/main/screenshots/bitculator-2026-07-25T203141.png
 slug: bitculator

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 29 acting · 25 human-in-the-loop
 api_count: 1
 apis:
-- description: '### Altruistiq’s datasource API enables you to: - Create new datasources - Manage existing datasources (read, update) - Upload data to a datasource A datasource is the place where you will share a sin'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: '### Altruistiq’s datasource API enables you to: - Create new datasources - Manage existing datasources (read, update) - Upload data to a datasource A datasource is the place where you will share a sin'
   name: Altruistiq Datasource API
   slug: altruistiq-datasource-api
-- description: '### Altruistiq’s Export API enables you to: - Export corporate data Exporting data is a key part of the Altruistiq platform. It allows you to take your data and use it in other systems, or to share it'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: '### Altruistiq’s Export API enables you to: - Export corporate data Exporting data is a key part of the Altruistiq platform. It allows you to take your data and use it in other systems, or to share it'
   name: Altruistiq Export API
   slug: altruistiq-export-api
-- description: 'Altruistiq''s Facility API enables you to: - Create new facilities in bulk - Update existing facility persistent properties - Update facility version - Create new facility version - Delete facility ver'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: 'Altruistiq''s Facility API enables you to: - Create new facilities in bulk - Update existing facility persistent properties - Update facility version - Create new facility version - Delete facility ver'
   name: Altruistiq Facility API
   slug: altruistiq-facility-api
-- description: 'Altruistiq''s Location API enables you to: - Get a list of countries with their alpha_2 codes and names - Get country subdivisions for a specific country by its alpha-2 code'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: 'Altruistiq''s Location API enables you to: - Get a list of countries with their alpha_2 codes and names - Get country subdivisions for a specific country by its alpha-2 code'
   name: Altruistiq Location API
   slug: altruistiq-location-api
-- description: 'Altruistiq''s Organization API enables you to: - Get organization details and business units The organization API provides access to organizational structure data including the root organization and it'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: 'Altruistiq''s Organization API enables you to: - Get organization details and business units The organization API provides access to organizational structure data including the root organization and it'
   name: Altruistiq Organization API
   slug: altruistiq-organization-api
-- description: '### Altruistiq’s Product API enables you to: - Create new products - Update existing products - Delete products - Get a list of products - All the above in bulk'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: '### Altruistiq’s Product API enables you to: - Create new products - Update existing products - Delete products - Get a list of products - All the above in bulk'
   name: Altruistiq Product API
   slug: altruistiq-product-api
-- description: '### Altruistiq’s Product Structure API enables you to: - Create new product structures - Update existing product structures - Delete product structures - Get a list of all product structures - All the'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: '### Altruistiq’s Product Structure API enables you to: - Create new product structures - Update existing product structures - Delete product structures - Get a list of all product structures - All the'
   name: Altruistiq Product structure API
   slug: altruistiq-product-structure-api
-- description: '### Altruistiq’s Product Structure API enables you to: - Create new product structure inputs - Update existing product structure inputs - Delete product structure inputs - Get a list of all product st'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: '### Altruistiq’s Product Structure API enables you to: - Create new product structure inputs - Update existing product structure inputs - Delete product structure inputs - Get a list of all product st'
   name: Altruistiq Product structure inputs API
   slug: altruistiq-product-structure-inputs-api
-- description: 'The Altruistiq API uses TLS and follows the OAuth 2.0 Client credentials flow as per [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4) ### Generating `client_id` and `client_secret'
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: 'The Altruistiq API uses TLS and follows the OAuth 2.0 Client credentials flow as per [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4) ### Generating `client_id` and `client_secret'
   name: Altruistiq Security API
   slug: altruistiq-security-api
 artifact_total: 57
@@ -366,7 +384,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png
 security:

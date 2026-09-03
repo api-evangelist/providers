@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: REST API for listing available plugins, uploading new plugin builds, and downloading plugin updates from the JetBrains Marketplace. Permanent tokens are issued from the My Tokens tab in the marketplac
   name: JetBrains Marketplace API
   slug: marketplace-api
-- description: The Plugins API from JetBrains Marketplace — 2 operation(s) for plugins.
+- baseURL: https://plugins.jetbrains.com
+  baseurl_source: declared
+  description: The Plugins API from JetBrains Marketplace — 2 operation(s) for plugins.
   name: JetBrains Marketplace Plugins API
   slug: jetbrains-plugin-plugins-api
-- description: The Updates API from JetBrains Marketplace — 1 operation(s) for updates.
+- baseURL: https://plugins.jetbrains.com
+  baseurl_source: declared
+  description: The Updates API from JetBrains Marketplace — 1 operation(s) for updates.
   name: JetBrains Marketplace Updates API
   slug: jetbrains-plugin-updates-api
 artifact_total: 11
@@ -151,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/screenshots/jetbrains-plugin-2026-06-20T183726.png
 security:

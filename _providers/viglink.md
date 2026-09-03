@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 16 operations · 2 acting
 api_count: 8
 apis:
-- description: The Account API from VigLink (Sovrn Commerce) — 1 operation(s) for account.
+- baseURL: https://rest.viglink.com/api
+  baseurl_source: declared
+  description: The Account API from VigLink (Sovrn Commerce) — 1 operation(s) for account.
   name: VigLink (Sovrn Commerce) Account API
   slug: viglink-account-api
-- description: The Ai Orchestration API from VigLink (Sovrn Commerce) — 1 operation(s) for ai orchestration.
+- baseURL: https://shopping-gallery.prd-commerce.sovrnservices.com
+  baseurl_source: declared
+  description: The Ai Orchestration API from VigLink (Sovrn Commerce) — 1 operation(s) for ai orchestration.
   name: VigLink (Sovrn Commerce) Ai Orchestration API
   slug: viglink-ai-orchestration-api
-- description: The Bid API from VigLink (Sovrn Commerce) — 1 operation(s) for bid.
+- baseURL: https://api.viglink.com
+  baseurl_source: declared
+  description: The Bid API from VigLink (Sovrn Commerce) — 1 operation(s) for bid.
   name: VigLink (Sovrn Commerce) Bid API
   slug: viglink-bid-api
-- description: The Link API from VigLink (Sovrn Commerce) — 1 operation(s) for link.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Link API from VigLink (Sovrn Commerce) — 1 operation(s) for link.
   name: VigLink (Sovrn Commerce) Link API
   slug: viglink-link-api
-- description: The Merchant Group Summaries API from VigLink (Sovrn Commerce) — 2 operation(s) for merchant group summaries.
+- baseURL: https://viglink.io/merchants/rates
+  baseurl_source: declared
+  description: The Merchant Group Summaries API from VigLink (Sovrn Commerce) — 2 operation(s) for merchant group summaries.
   name: VigLink (Sovrn Commerce) Merchant Group Summaries API
   slug: viglink-merchant-group-summaries-api
-- description: The Product Coupons API from VigLink (Sovrn Commerce) — 1 operation(s) for product coupons.
+- baseURL: https://viglink.io/coupons
+  baseurl_source: declared
+  description: The Product Coupons API from VigLink (Sovrn Commerce) — 1 operation(s) for product coupons.
   name: VigLink (Sovrn Commerce) Product Coupons API
   slug: viglink-product-coupons-api
-- description: The reports API from VigLink (Sovrn Commerce) — 8 operation(s) for reports.
+- baseURL: https://viglink.io/v1
+  baseurl_source: declared
+  description: The reports API from VigLink (Sovrn Commerce) — 8 operation(s) for reports.
   name: VigLink (Sovrn Commerce) reports API
   slug: viglink-reports-api
-- description: The Sites API from VigLink (Sovrn Commerce) — 1 operation(s) for sites.
+- baseURL: https://comparisons.sovrn.com/api/affiliate/v3.5
+  baseurl_source: declared
+  description: The Sites API from VigLink (Sovrn Commerce) — 1 operation(s) for sites.
   name: VigLink (Sovrn Commerce) Sites API
   slug: viglink-sites-api
 artifact_total: 25
@@ -316,7 +332,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/screenshots/viglink-2026-08-17T082748.png
 security:

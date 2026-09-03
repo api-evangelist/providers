@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,25 +42,39 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Provides JSON snapshots of Liquity V2 (BOLD) protocol state including total BOLD supply, collateral values, stability pool deposits, TVL, per-branch (WETH/wstETH/rETH) metrics, token prices, and yield
+- baseURL: https://api.liquity.org/v2
+  baseurl_source: declared
+  description: Provides JSON snapshots of Liquity V2 (BOLD) protocol state including total BOLD supply, collateral values, stability pool deposits, TVL, per-branch (WETH/wstETH/rETH) metrics, token prices, and yield
   name: Liquity V2 Protocol Stats API
   slug: liquity-v2-protocol-stats-api
-- description: Provides JSON data feeds used by the Liquity website including yield venue listings for BOLD, protocol fork venues, points leaderboard rankings, and collateral borrow rate comparisons versus DeFi aver
+- baseURL: https://api.liquity.org/v2/website
+  baseurl_source: declared
+  description: Provides JSON data feeds used by the Liquity website including yield venue listings for BOLD, protocol fork venues, points leaderboard rankings, and collateral borrow rate comparisons versus DeFi aver
   name: Liquity V2 Website Data API
   slug: liquity-v2-website-data-api
-- description: 'Provides JSON snapshots of Liquity V2 governance state including active initiatives, epoch allocation data, and the latest completed governance epoch number. Updated via The Graph subgraph queries on '
+- baseURL: https://api.liquity.org/v2/governance
+  baseurl_source: declared
+  description: 'Provides JSON snapshots of Liquity V2 governance state including active initiatives, epoch allocation data, and the latest completed governance epoch number. Updated via The Graph subgraph queries on '
   name: Liquity V2 Governance API
   slug: liquity-v2-governance-api
-- description: Liquity V1 circulating supply and BAMM stats endpoints.
+- baseURL: https://api.liquity.org/v1
+  baseurl_source: declared
+  description: Liquity V1 circulating supply and BAMM stats endpoints.
   name: Liquity V1 Supply API
   slug: liquity-v1-supply-api
-- description: Liquity V2 governance state including initiatives and epoch data.
+- baseURL: https://api.liquity.org/v1
+  baseurl_source: declared
+  description: Liquity V2 governance state including initiatives and epoch data.
   name: Liquity V2 Governance API
   slug: liquity-v2-governance-api
-- description: Liquity V2 (BOLD) protocol state snapshots for mainnet and testnet.
+- baseURL: https://api.liquity.org/v1
+  baseurl_source: declared
+  description: Liquity V2 (BOLD) protocol state snapshots for mainnet and testnet.
   name: Liquity V2 Protocol Stats API
   slug: liquity-v2-protocol-stats-api
-- description: Data feeds for the Liquity website including yield venues, leaderboard, and borrow rates.
+- baseURL: https://api.liquity.org/v1
+  baseurl_source: declared
+  description: Data feeds for the Liquity website including yield venues, leaderboard, and borrow rates.
   name: Liquity V2 Website Data API
   slug: liquity-v2-website-data-api
 artifact_total: 22
@@ -240,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/screenshots/liquity-2026-06-20T184559.png
 security:

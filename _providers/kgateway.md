@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 35 operations · 21 acting
 api_count: 1
 apis:
-- description: Configure AI backend providers with support for LLM providers such as OpenAI, Azure OpenAI, and Gemini. Specify provider configuration and priority groups for AI routing.
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Configure AI backend providers with support for LLM providers such as OpenAI, Azure OpenAI, and Gemini. Specify provider configuration and priority groups for AI routing.
   name: Kgateway AIBackend API
   slug: kgateway-aibackend-api
-- description: Define routable backends such as AI providers (OpenAI, Azure, Gemini), AWS Lambda functions, or static servers for use by Gateways. Reference Backend resources in HTTPRoute to route traffic to externa
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Define routable backends such as AI providers (OpenAI, Azure, Gemini), AWS Lambda functions, or static servers for use by Gateways. Reference Backend resources in HTTPRoute to route traffic to externa
   name: Kgateway Backend API
   slug: kgateway-backend-api
-- description: Configure Gateways to directly respond to incoming requests with a custom HTTP response code and body without forwarding to a backend service.
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Configure Gateways to directly respond to incoming requests with a custom HTTP response code and body without forwarding to a backend service.
   name: Kgateway DirectResponse API
   slug: kgateway-directresponse-api
-- description: Integrate external services with a Gateway such as external auth, rate limiting, and external processing. Serves as a configuration bridge between kgateway and external services that extend Gateway fu
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Integrate external services with a Gateway such as external auth, rate limiting, and external processing. Serves as a configuration bridge between kgateway and external services that extend Gateway fu
   name: Kgateway GatewayExtension API
   slug: kgateway-gatewayextension-api
-- description: Customize gateway infrastructure deployment settings including replicas, container configuration, pod templates, and proxy provisioning parameters.
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Customize gateway infrastructure deployment settings including replicas, container configuration, pod templates, and proxy provisioning parameters.
   name: Kgateway GatewayParameters API
   slug: kgateway-gatewayparameters-api
-- description: Apply policies to all HTTP and HTTPS listeners defined on a Gateway. Configure listener-level settings that affect all traffic passing through the specified listeners.
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Apply policies to all HTTP and HTTPS listeners defined on a Gateway. Configure listener-level settings that affect all traffic passing through the specified listeners.
   name: Kgateway HTTPListenerPolicy API
   slug: kgateway-httplistenerpolicy-api
-- description: Attach traffic management policies to routes in an HTTPRoute resource or all routes served by a Gateway. Supports CORS, external auth, external processing, rate limiting, timeouts, retries, transforma
+- baseURL: https://kubernetes.default.svc/apis/gateway.kgateway.dev/v1alpha1
+  baseurl_source: declared
+  description: Attach traffic management policies to routes in an HTTPRoute resource or all routes served by a Gateway. Supports CORS, external auth, external processing, rate limiting, timeouts, retries, transforma
   name: Kgateway TrafficPolicy API
   slug: kgateway-trafficpolicy-api
 artifact_total: 31
@@ -224,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kgateway/refs/heads/main/screenshots/kgateway-2026-06-20T184018.png
 security:

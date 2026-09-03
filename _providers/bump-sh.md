@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 15 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage branches of a given documentation
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: Manage branches of a given documentation
   name: Bump.sh Branches API
   slug: bump-sh-branches-api
-- description: The Diffs API from Bump.sh — 2 operation(s) for diffs.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Diffs API from Bump.sh — 2 operation(s) for diffs.
   name: Bump.sh Diffs API
   slug: bump-sh-diffs-api
-- description: The Hubs API from Bump.sh — 2 operation(s) for hubs.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Hubs API from Bump.sh — 2 operation(s) for hubs.
   name: Bump.sh Hubs API
   slug: bump-sh-hubs-api
-- description: The MCP servers API from Bump.sh — 1 operation(s) for mcp servers.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The MCP servers API from Bump.sh — 1 operation(s) for mcp servers.
   name: Bump.sh MCP servers API
   slug: bump-sh-mcp-servers-api
-- description: The Ping API from Bump.sh — 1 operation(s) for ping.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Ping API from Bump.sh — 1 operation(s) for ping.
   name: Bump.sh Ping API
   slug: bump-sh-ping-api
-- description: The Previews API from Bump.sh — 2 operation(s) for previews.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Previews API from Bump.sh — 2 operation(s) for previews.
   name: Bump.sh Previews API
   slug: bump-sh-previews-api
-- description: The Validations API from Bump.sh — 1 operation(s) for validations.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Validations API from Bump.sh — 1 operation(s) for validations.
   name: Bump.sh Validations API
   slug: bump-sh-validations-api
-- description: The Versions API from Bump.sh — 2 operation(s) for versions.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Versions API from Bump.sh — 2 operation(s) for versions.
   name: Bump.sh Versions API
   slug: bump-sh-versions-api
-- description: The Documentation change API from Bump.sh — 0 operation(s) for documentation change.
+- baseURL: https://bump.sh/api/v1
+  baseurl_source: declared
+  description: The Documentation change API from Bump.sh — 0 operation(s) for documentation change.
   name: Bump.sh Documentation change API
   slug: bump-sh-documentation-change-api
 artifact_total: 63
@@ -380,7 +398,7 @@ score:
     catalog_gap: 32.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -393,7 +411,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 51.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -402,7 +420,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:

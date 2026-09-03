@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 58 operations · 18 acting
 api_count: 1
 apis:
-- description: API endpoints for managing absences for drivers - i.e. periods where they are unavailable for work.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing absences for drivers - i.e. periods where they are unavailable for work.
   name: Optibus Driver Absences API
   slug: optibus-driver-absences-api
-- description: The Driver App Notifications API from Optibus — 1 operation(s) for driver app notifications.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Driver App Notifications API from Optibus — 1 operation(s) for driver app notifications.
   name: Optibus Driver App Notifications API
   slug: optibus-driver-app-notifications-api
-- description: API endpoints for managing custom attributes for drivers - i.e. additional properties that can be set for drivers - including querying and updating their historical values.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing custom attributes for drivers - i.e. additional properties that can be set for drivers - including querying and updating their historical values.
   name: Optibus Driver Custom Attributes API
   slug: optibus-driver-custom-attributes-api
-- description: API endpoints for managing employment periods for drivers - i.e. periods where they are employed, hired, terminated, etc.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing employment periods for drivers - i.e. periods where they are employed, hired, terminated, etc.
   name: Optibus Driver Employment Periods API
   slug: optibus-driver-employment-periods-api
-- description: API endpoints for managing driver groups.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing driver groups.
   name: Optibus Driver Groups API
   slug: optibus-driver-groups-api
-- description: API endpoints for fetching volunteering periods for drivers - i.e. periods where a driver is willing to volunteer for extra work, such as on a rest day or for overtime.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for fetching volunteering periods for drivers - i.e. periods where a driver is willing to volunteer for extra work, such as on a rest day or for overtime.
   name: Optibus Driver Volunteering Periods API
   slug: optibus-driver-volunteering-periods-api
-- description: API endpoints for managing drivers.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing drivers.
   name: Optibus Drivers API
   slug: optibus-drivers-api
-- description: These API endpoints are deprecated and could be removed in a future version. Please use the corresponding new API endpoints instead, which should offer improved usability and extra functionality.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: These API endpoints are deprecated and could be removed in a future version. Please use the corresponding new API endpoints instead, which should offer improved usability and extra functionality.
   name: Optibus Drivers (Deprecated) API
   slug: optibus-drivers-deprecated-api
-- description: The Event Webhooks API from Optibus — 1 operation(s) for event webhooks.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Event Webhooks API from Optibus — 1 operation(s) for event webhooks.
   name: Optibus Event Webhooks API
   slug: optibus-event-webhooks-api
-- description: The Operational Plan API from Optibus — 3 operation(s) for operational plan.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Operational Plan API from Optibus — 3 operation(s) for operational plan.
   name: Optibus Operational Plan API
   slug: optibus-operational-plan-api
-- description: These API endpoints are deprecated and could be removed in a future version. Please use GET /v2/operational-plan instead.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: These API endpoints are deprecated and could be removed in a future version. Please use GET /v2/operational-plan instead.
   name: Optibus Operational Plan (Deprecated) API
   slug: optibus-operational-plan-deprecated-api
-- description: The Payroll API from Optibus — 1 operation(s) for payroll.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Payroll API from Optibus — 1 operation(s) for payroll.
   name: Optibus Payroll API
   slug: optibus-payroll-api
-- description: The Preferences API from Optibus — 2 operation(s) for preferences.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Preferences API from Optibus — 2 operation(s) for preferences.
   name: Optibus Preferences API
   slug: optibus-preferences-api
-- description: The Private Hires API from Optibus — 4 operation(s) for private hires.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Private Hires API from Optibus — 4 operation(s) for private hires.
   name: Optibus Private Hires API
   slug: optibus-private-hires-api
-- description: The Regions API from Optibus — 1 operation(s) for regions.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Regions API from Optibus — 1 operation(s) for regions.
   name: Optibus Regions API
   slug: optibus-regions-api
-- description: A roster describes the daily operator runs grouped into packages of (repeating) weekly work assignments.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: A roster describes the daily operator runs grouped into packages of (repeating) weekly work assignments.
   name: Optibus Roster API
   slug: optibus-roster-api
-- description: API endpoints for fetching sign-on/off times & deviations for drivers - i.e. the actual and expected sign-on and sign-off times for a driver and how much they deviate from each other.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for fetching sign-on/off times & deviations for drivers - i.e. the actual and expected sign-on and sign-off times for a driver and how much they deviate from each other.
   name: Optibus Signing Times API
   slug: optibus-signing-times-api
-- description: API endpoints for fetching computed statistics over a date range - per-task duty statistics (mirroring the duty side panel in the Ops UI) and the calculation limits that bound a single request.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for fetching computed statistics over a date range - per-task duty statistics (mirroring the duty side panel in the Ops UI) and the calculation limits that bound a single request.
   name: Optibus Statistics API
   slug: optibus-statistics-api
-- description: The Stops API from Optibus — 1 operation(s) for stops.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Stops API from Optibus — 1 operation(s) for stops.
   name: Optibus Stops API
   slug: optibus-stops-api
-- description: API endpoint for ingesting normalized Tachograph activity data from the Data Team.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoint for ingesting normalized Tachograph activity data from the Data Team.
   name: Optibus Tacho Ingestion API
   slug: optibus-tacho-ingestion-api
-- description: The Tasks API from Optibus — 1 operation(s) for tasks.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Tasks API from Optibus — 1 operation(s) for tasks.
   name: Optibus Tasks API
   slug: optibus-tasks-api
-- description: API endpoints for managing custom attributes for vehicles - i.e. additional properties that can be set for vehicles - including querying and updating their historical values.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing custom attributes for vehicles - i.e. additional properties that can be set for vehicles - including querying and updating their historical values.
   name: Optibus Vehicle Custom Attributes API
   slug: optibus-vehicle-custom-attributes-api
-- description: API endpoints for managing downtimes for vehicles - i.e. periods where they are unavailable for service.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing downtimes for vehicles - i.e. periods where they are unavailable for service.
   name: Optibus Vehicle Downtimes API
   slug: optibus-vehicle-downtimes-api
-- description: API endpoints for managing vehicles.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: API endpoints for managing vehicles.
   name: Optibus Vehicles API
   slug: optibus-vehicles-api
-- description: These API endpoints are deprecated and could be removed in a future version. Please use the corresponding new API endpoints instead, which should offer improved usability and extra functionality.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: These API endpoints are deprecated and could be removed in a future version. Please use the corresponding new API endpoints instead, which should offer improved usability and extra functionality.
   name: Optibus Vehicles (Deprecated) API
   slug: optibus-vehicles-deprecated-api
-- description: The Work Entities API from Optibus — 2 operation(s) for work entities.
+- baseURL: https://your-optibus-account.api.ops.optibus.co
+  baseurl_source: declared
+  description: The Work Entities API from Optibus — 2 operation(s) for work entities.
   name: Optibus Work Entities API
   slug: optibus-work-entities-api
 artifact_total: 59
@@ -341,7 +393,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -351,7 +403,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 44.8
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,7 +415,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optibus/refs/heads/main/screenshots/optibus-2026-08-07T190805.png
 security:

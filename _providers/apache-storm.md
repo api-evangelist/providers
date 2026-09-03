@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 25 operations · 11 acting · 2 human-in-the-loop
 api_count: 9
 apis:
-- description: The Storm Topology API provides Java and other language bindings for building real-time processing topologies composed of spouts (data sources) and bolts (processing units). It supports various stream
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Storm Topology API provides Java and other language bindings for building real-time processing topologies composed of spouts (data sources) and bolts (processing units). It supports various stream
   name: Apache Storm Topology API
   slug: apache-storm-topology-api
-- description: The Cluster API from Apache Storm — 2 operation(s) for cluster.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Cluster API from Apache Storm — 2 operation(s) for cluster.
   name: Apache Storm Cluster API
   slug: apache-storm-cluster-api
-- description: The Drpc API from Apache Storm — 2 operation(s) for drpc.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Drpc API from Apache Storm — 2 operation(s) for drpc.
   name: Apache Storm Drpc API
   slug: apache-storm-drpc-api
-- description: The History API from Apache Storm — 1 operation(s) for history.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The History API from Apache Storm — 1 operation(s) for history.
   name: Apache Storm History API
   slug: apache-storm-history-api
-- description: The Nimbus API from Apache Storm — 1 operation(s) for nimbus.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Nimbus API from Apache Storm — 1 operation(s) for nimbus.
   name: Apache Storm Nimbus API
   slug: apache-storm-nimbus-api
-- description: The Owner Resources API from Apache Storm — 1 operation(s) for owner resources.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Owner Resources API from Apache Storm — 1 operation(s) for owner resources.
   name: Apache Storm Owner Resources API
   slug: apache-storm-owner-resources-api
-- description: The Supervisor API from Apache Storm — 2 operation(s) for supervisor.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Supervisor API from Apache Storm — 2 operation(s) for supervisor.
   name: Apache Storm Supervisor API
   slug: apache-storm-supervisor-api
-- description: The Topology API from Apache Storm — 14 operation(s) for topology.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Topology API from Apache Storm — 14 operation(s) for topology.
   name: Apache Storm Topology API
   slug: apache-storm-topology-api
-- description: The Topology Workers API from Apache Storm — 1 operation(s) for topology workers.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Topology Workers API from Apache Storm — 1 operation(s) for topology workers.
   name: Apache Storm Topology Workers API
   slug: apache-storm-topology-workers-api
 artifact_total: 40
@@ -242,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-storm/refs/heads/main/screenshots/apache-storm-2026-06-20T172147.png
 security:

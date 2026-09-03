@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 27 operations · 15 acting
 api_count: 1
 apis:
-- description: List, download, share, remind on, and manage documents.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: List, download, share, remind on, and manage documents.
   name: Signaturely Documents API
   slug: signaturely-documents-api
-- description: Organize documents and folders.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: Organize documents and folders.
   name: Signaturely Folders API
   slug: signaturely-folders-api
-- description: Create signature requests from templates and bulk-send from CSV data.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: Create signature requests from templates and bulk-send from CSV data.
   name: Signaturely Signature Requests API
   slug: signaturely-signature-requests-api
-- description: Manage team members and roles.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: Manage team members and roles.
   name: Signaturely Team API
   slug: signaturely-team-api
-- description: Work with reusable templates.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: Work with reusable templates.
   name: Signaturely Templates API
   slug: signaturely-templates-api
-- description: Account information for the authenticated API key.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: Account information for the authenticated API key.
   name: Signaturely User API
   slug: signaturely-user-api
-- description: Subscribe to document lifecycle events.
+- baseURL: https://api.signaturely.com/api/v1
+  baseurl_source: declared
+  description: Subscribe to document lifecycle events.
   name: Signaturely Webhooks API
   slug: signaturely-webhooks-api
 artifact_total: 21
@@ -169,7 +183,7 @@ score:
   band: thin
   composite: 34.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -192,8 +206,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signaturely/refs/heads/main/screenshots/signaturely-2026-09-02T155435.png
 security:
 - kind: authentication
   name: Signaturely Authentication

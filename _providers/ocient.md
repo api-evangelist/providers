@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,13 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Ocient HTTP Query API API from Ocient — 10 operation(s) for ocient http query api.
+- baseURL: https://docs.ocient.com/api-playgrounds/ocient-http-query-api
+  baseurl_source: declared
+  description: The Ocient HTTP Query API API from Ocient — 10 operation(s) for ocient http query api.
   name: Ocient Ocient HTTP Query API API
   slug: ocient-ocient-http-query-api-api
-- description: The System Information REST Endpoints API from Ocient — 6 operation(s) for system information rest endpoints.
+- baseURL: https://docs.ocient.com/api-playgrounds/ocient-http-query-api
+  baseurl_source: declared
+  description: The System Information REST Endpoints API from Ocient — 6 operation(s) for system information rest endpoints.
   name: Ocient System Information REST Endpoints API
   slug: ocient-system-information-rest-endpoints-api
 artifact_total: 9
@@ -235,7 +250,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/screenshots/ocient-2026-08-07T185927.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'HTTP API behind the Upsolver SQLake platform, used by the first-party Python SDK (DB API 2.0), CLI, and dbt adapter to execute SQLake SQL statements (DDL, DML, continuous data loading). Authenticated '
@@ -106,7 +106,7 @@ score:
   band: emerging
   composite: 17.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -122,8 +122,9 @@ score:
     operational_transparency: 18.4
   previous_composite: 17.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/screenshots/upsolver-2026-09-02T165119.png
 security:
 - kind: authentication
   name: Upsolver Authentication

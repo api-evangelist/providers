@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 86 operations · 48 acting
 api_count: 1
 apis:
-- description: 'Bidirectional, multiplexed WebSocket at wss://api.cartesia.ai/tts/websocket for realtime speech generation. Clients send JSON generation requests keyed by a context_id (continuing a context preserves '
+- baseURL: wss://api.cartesia.ai
+  baseurl_source: declared
+  description: 'Bidirectional, multiplexed WebSocket at wss://api.cartesia.ai/tts/websocket for realtime speech generation. Clients send JSON generation requests keyed by a context_id (continuing a context preserves '
   name: Cartesia TTS WebSocket API
   slug: cartesia-ai-tts-websocket-api
-- description: Realtime transcription over WebSocket at wss://api.cartesia.ai/stt/websocket. Clients stream raw binary audio in 100ms chunks and issue finalize/close text commands; the server returns incremental and
+- baseURL: wss://api.cartesia.ai
+  baseurl_source: declared
+  description: Realtime transcription over WebSocket at wss://api.cartesia.ai/stt/websocket. Clients stream raw binary audio in 100ms chunks and issue finalize/close text commands; the server returns incremental and
   name: Cartesia STT WebSocket API
   slug: cartesia-ai-stt-websocket-api
-- description: Voice agent configuration and public templates.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Voice agent configuration and public templates.
   name: Cartesia Agents API
   slug: cartesia-ai-agents-api
-- description: Standard API key metadata.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Standard API key metadata.
   name: Cartesia API Keys API
   slug: cartesia-ai-api-keys-api
-- description: Short-lived, scoped access token generation.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Short-lived, scoped access token generation.
   name: Cartesia Auth API
   slug: cartesia-ai-auth-api
-- description: Outbound call placement, batching, and history.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Outbound call placement, batching, and history.
   name: Cartesia Calls API
   slug: cartesia-ai-calls-api
-- description: Audio/text collections used to build custom fine-tunes and voices.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Audio/text collections used to build custom fine-tunes and voices.
   name: Cartesia Datasets API
   slug: cartesia-ai-datasets-api
-- description: Agent deployment inspection.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Agent deployment inspection.
   name: Cartesia Deployments API
   slug: cartesia-ai-deployments-api
-- description: Generate audio that smoothly connects two existing audio segments.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Generate audio that smoothly connects two existing audio segments.
   name: Cartesia Infill API
   slug: cartesia-ai-infill-api
-- description: Documents and folders used by agents.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Documents and folders used by agents.
   name: Cartesia Knowledge Base API
   slug: cartesia-ai-knowledge-base-api
-- description: LLM-as-a-judge quality metrics for agents.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: LLM-as-a-judge quality metrics for agents.
   name: Cartesia Metrics API
   slug: cartesia-ai-metrics-api
-- description: Telephony number provisioning and import.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Telephony number provisioning and import.
   name: Cartesia Phone Numbers API
   slug: cartesia-ai-phone-numbers-api
-- description: Custom pronunciation overrides referenced by TTS requests.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Custom pronunciation overrides referenced by TTS requests.
   name: Cartesia Pronunciation Dictionaries API
   slug: cartesia-ai-pronunciation-dictionaries-api
-- description: Linked telephony provider accounts.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Linked telephony provider accounts.
   name: Cartesia Providers API
   slug: cartesia-ai-providers-api
-- description: Batch transcription of an audio file of any length.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Batch transcription of an audio file of any length.
   name: Cartesia Speech-to-Text API
   slug: cartesia-ai-speech-to-text-api
-- description: API health and version.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: API health and version.
   name: Cartesia Status API
   slug: cartesia-ai-status-api
-- description: Single-shot and streamed speech generation over plain HTTP.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Single-shot and streamed speech generation over plain HTTP.
   name: Cartesia Text-to-Speech API
   slug: cartesia-ai-text-to-speech-api
-- description: Credit and agent usage reporting.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Credit and agent usage reporting.
   name: Cartesia Usage API
   slug: cartesia-ai-usage-api
-- description: Transform speech into a different target voice.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Transform speech into a different target voice.
   name: Cartesia Voice Changer API
   slug: cartesia-ai-voice-changer-api
-- description: Voice catalog management and voice cloning.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Voice catalog management and voice cloning.
   name: Cartesia Voices API
   slug: cartesia-ai-voices-api
-- description: Webhook endpoint registration.
+- baseURL: https://api.cartesia.ai
+  baseurl_source: declared
+  description: Webhook endpoint registration.
   name: Cartesia Webhooks API
   slug: cartesia-ai-webhooks-api
-- description: The STT API from Cartesia — 1 operation(s) for stt.
+- baseURL: wss://api.cartesia.ai
+  baseurl_source: declared
+  description: The STT API from Cartesia — 1 operation(s) for stt.
   name: Cartesia STT API
   slug: cartesia-ai-stt-api
-- description: The TTS API from Cartesia — 2 operation(s) for tts.
+- baseURL: wss://api.cartesia.ai
+  baseurl_source: declared
+  description: The TTS API from Cartesia — 2 operation(s) for tts.
   name: Cartesia TTS API
   slug: cartesia-ai-tts-api
 artifact_total: 56
@@ -312,7 +358,7 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -322,7 +368,7 @@ score:
     discoverability: 70.4
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 45.6
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -331,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:

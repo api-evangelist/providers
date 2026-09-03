@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 37 operations · 8 acting
 api_count: 2
 apis:
-- description: Operations for managing answers to questions in a Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing answers to questions in a Teams workspace.
   name: Stack Overflow Answers API
   slug: stack-overflow-answers-api
-- description: Operations for managing knowledge articles in a Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing knowledge articles in a Teams workspace.
   name: Stack Overflow Articles API
   slug: stack-overflow-articles-api
-- description: Operations for retrieving badge information on Stack Overflow.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving badge information on Stack Overflow.
   name: Stack Overflow Badges API
   slug: stack-overflow-badges-api
-- description: Operations for retrieving and writing comments on Stack Overflow posts.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving and writing comments on Stack Overflow posts.
   name: Stack Overflow Comments API
   slug: stack-overflow-comments-api
-- description: Operations for managing questions in a Stack Overflow for Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing questions in a Stack Overflow for Teams workspace.
   name: Stack Overflow Questions API
   slug: stack-overflow-questions-api
-- description: Operations for searching Stack Overflow questions and content.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for searching Stack Overflow questions and content.
   name: Stack Overflow Search API
   slug: stack-overflow-search-api
-- description: Operations for managing Subject Matter Experts (SMEs) for tags in a Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing Subject Matter Experts (SMEs) for tags in a Teams workspace.
   name: Stack Overflow SMEs API
   slug: stack-overflow-smes-api
-- description: Operations for managing tags in a Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing tags in a Teams workspace.
   name: Stack Overflow Tags API
   slug: stack-overflow-tags-api
-- description: Operations for managing user groups in a Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing user groups in a Teams workspace.
   name: Stack Overflow User Groups API
   slug: stack-overflow-user-groups-api
-- description: Operations for managing users in a Teams workspace.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for managing users in a Teams workspace.
   name: Stack Overflow Users API
   slug: stack-overflow-users-api
 artifact_total: 36
@@ -275,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/screenshots/stack-overflow-2026-06-20T194441.png
 security:

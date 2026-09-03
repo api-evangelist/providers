@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Rook manages CephFilesystem resources to provision shared POSIX-compliant file storage backed by CephFS. Multiple pods can simultaneously read and write to shared filesystem volumes, making it suitabl
   name: Rook Ceph Shared Filesystem API
   slug: rook-ceph-filesystem-api
-- description: S3-compatible bucket creation, listing, deletion, and configuration operations on Ceph Object Storage provisioned by Rook
+- baseURL_template: http://{rgw-host}:{port}
+  baseurl_source: spec_template
+  description: S3-compatible bucket creation, listing, deletion, and configuration operations on Ceph Object Storage provisioned by Rook
   name: Rook Buckets API
   slug: rook-buckets-api
-- description: S3-compatible multipart upload operations for large objects, including initiation, part upload, completion, and abort
+- baseURL_template: http://{rgw-host}:{port}
+  baseurl_source: spec_template
+  description: S3-compatible multipart upload operations for large objects, including initiation, part upload, completion, and abort
   name: Rook Multipart Uploads API
   slug: rook-multipart-uploads-api
-- description: S3-compatible object upload, download, listing, deletion, and metadata operations within Ceph Object Storage buckets
+- baseURL_template: http://{rgw-host}:{port}
+  baseurl_source: spec_template
+  description: S3-compatible object upload, download, listing, deletion, and metadata operations within Ceph Object Storage buckets
   name: Rook Objects API
   slug: rook-objects-api
 artifact_total: 31
@@ -317,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/screenshots/rook-2026-06-20T193212.png
 security:

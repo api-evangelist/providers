@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,40 +35,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Asset Configurations
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: Asset Configurations
   name: OPAQUE Asset Configs API
   slug: opaque-asset-configs-api
-- description: Authentication
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: Authentication
   name: OPAQUE Auth API
   slug: opaque-auth-api
-- description: Data & Datum
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: Data & Datum
   name: OPAQUE Datasets API
   slug: opaque-datasets-api
-- description: Jobs
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: Jobs
   name: OPAQUE Jobs API
   slug: opaque-jobs-api
-- description: The organizations API from OPAQUE — 4 operation(s) for organizations.
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: The organizations API from OPAQUE — 4 operation(s) for organizations.
   name: OPAQUE Organizations API
   slug: opaque-organizations-api
-- description: The pinned-queries API from OPAQUE — 3 operation(s) for pinned-queries.
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: The pinned-queries API from OPAQUE — 3 operation(s) for pinned-queries.
   name: OPAQUE Pinned Queries API
   slug: opaque-pinned-queries-api
-- description: The predefined-query-templates API from OPAQUE — 3 operation(s) for predefined-query-templates.
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: The predefined-query-templates API from OPAQUE — 3 operation(s) for predefined-query-templates.
   name: OPAQUE Predefined Query Templates API
   slug: opaque-predefined-query-templates-api
-- description: Users
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: Users
   name: OPAQUE Users API
   slug: opaque-users-api
-- description: The versioning API from OPAQUE — 1 operation(s) for versioning.
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: The versioning API from OPAQUE — 1 operation(s) for versioning.
   name: OPAQUE Versioning API
   slug: opaque-versioning-api
-- description: The workflows API from OPAQUE — 9 operation(s) for workflows.
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: The workflows API from OPAQUE — 9 operation(s) for workflows.
   name: OPAQUE Workflows API
   slug: opaque-workflows-api
-- description: Workspaces
+- baseURL: https://api.<your-subdomain>/v2.5
+  baseurl_source: declared
+  description: Workspaces
   name: OPAQUE Workspaces API
   slug: opaque-workspaces-api
 artifact_total: 26
@@ -249,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opaque/refs/heads/main/screenshots/opaque-2026-08-07T190445.png
 security:

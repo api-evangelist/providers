@@ -34,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: File upload endpoints
+- baseURL: https://api.spaitial.ai
+  baseurl_source: declared
+  description: File upload endpoints
   name: SpAItial files API
   slug: spaitial-ai-files-api
-- description: Model discovery endpoints
+- baseURL: https://api.spaitial.ai
+  baseurl_source: declared
+  description: Model discovery endpoints
   name: SpAItial models API
   slug: spaitial-ai-models-api
-- description: The panoramas API from SpAItial — 4 operation(s) for panoramas.
+- baseURL: https://api.spaitial.ai
+  baseurl_source: declared
+  description: The panoramas API from SpAItial — 4 operation(s) for panoramas.
   name: SpAItial panoramas API
   slug: spaitial-ai-panoramas-api
-- description: World generation endpoints
+- baseURL: https://api.spaitial.ai
+  baseurl_source: declared
+  description: World generation endpoints
   name: SpAItial worlds API
   slug: spaitial-ai-worlds-api
 artifact_total: 15
@@ -243,7 +251,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -253,7 +261,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 54.0
+  previous_composite: 53.8
   provenance:
     conformance: derived
     contracts:
@@ -264,7 +272,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaitial-ai/refs/heads/main/screenshots/spaitial-ai-2026-08-17T125411.png
 security:

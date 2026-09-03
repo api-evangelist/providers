@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API for authorised AISPs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Develope
@@ -35,22 +48,34 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for authorised CBPIIs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Developer Portal. B
   name: Halifax Confirmation of Funds API (CBPII)
   slug: halifax-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api.halifax.co.uk/open-banking/v2.2/atms
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Halifax ATM API
   slug: halifax-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api.halifax.co.uk/open-banking/v2.2/atms
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Halifax BCA API
   slug: halifax-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api.halifax.co.uk/open-banking/v2.2/atms
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Halifax Branch API
   slug: halifax-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api.halifax.co.uk/open-banking/v2.2/atms
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Halifax CCC API
   slug: halifax-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api.halifax.co.uk/open-banking/v2.2/atms
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Halifax PCA API
   slug: halifax-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api.halifax.co.uk/open-banking/v2.2/atms
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Halifax SME API
   slug: halifax-sme-api
 artifact_total: 14
@@ -219,7 +244,7 @@ score:
     regime_id: banking_open_finance
     score: 57.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:

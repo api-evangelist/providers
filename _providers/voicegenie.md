@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
-- description: Place and track voice calls.
+- baseURL: https://core-saas.voicegenie.ai
+  baseurl_source: declared
+  description: Place and track voice calls.
   name: VoiceGenie Calls API
   slug: voicegenie-calls-api
-- description: Manage outbound/inbound campaigns and their contacts.
+- baseURL: https://core-saas.voicegenie.ai
+  baseurl_source: declared
+  description: Manage outbound/inbound campaigns and their contacts.
   name: VoiceGenie Campaigns API
   slug: voicegenie-campaigns-api
 artifact_total: 12
@@ -241,7 +245,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -251,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 53.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voicegenie/refs/heads/main/screenshots/voicegenie-2026-08-17T082816.png
 security:

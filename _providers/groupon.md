@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: Save up to 70% on 1,000s of local restaurants, shopping, events & m
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/groupon.png
 layout: provider
 modified: '2026-03-24'
-name: groupon
+name: Groupon
 nav: Providers
 network: true
-overview: groupon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Groupon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: Groupon adds Amit Shah, forms board AI committee
@@ -97,7 +97,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupon/refs/heads/main/screenshots/groupon-2026-06-20T182418.png
 security:

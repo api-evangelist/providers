@@ -33,91 +33,147 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
   name: MVMNT Bill Payments API
   slug: mvmnt-bill-payments-api
-- description: AP bill management operations. Bills represent carrier and vendor invoices to be paid.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: AP bill management operations. Bills represent carrier and vendor invoices to be paid.
   name: MVMNT Bills API
   slug: mvmnt-bills-api
-- description: Carrier contact management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Carrier contact management operations
   name: MVMNT Carrier Contacts API
   slug: mvmnt-carrier-contacts-api
-- description: Carrier factor (factoring company) management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Carrier factor (factoring company) management operations
   name: MVMNT Carrier Factors API
   slug: mvmnt-carrier-factors-api
-- description: Carrier payment method management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Carrier payment method management operations
   name: MVMNT Carrier Payment Methods API
   slug: mvmnt-carrier-payment-methods-api
-- description: Carrier management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Carrier management operations
   name: MVMNT Carriers API
   slug: mvmnt-carriers-api
-- description: Company management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Company management operations
   name: MVMNT Companies API
   slug: mvmnt-companies-api
-- description: AR credit memo management operations. Credit memos represent customer credits that can be applied to invoices.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: AR credit memo management operations. Credit memos represent customer credits that can be applied to invoices.
   name: MVMNT Credit Memos API
   slug: mvmnt-credit-memos-api
-- description: Customer contact management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Customer contact management operations
   name: MVMNT Customer Contacts API
   slug: mvmnt-customer-contacts-api
-- description: Customer management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Customer management operations
   name: MVMNT Customers API
   slug: mvmnt-customers-api
-- description: Document management operations. Documents are files (PDFs, images) that can be attached to orders, loads, or services.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Document management operations. Documents are files (PDFs, images) that can be attached to orders, loads, or services.
   name: MVMNT Documents API
   slug: mvmnt-documents-api
-- description: AR invoice management operations. Invoices represent customer billing for shipment services.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: AR invoice management operations. Invoices represent customer billing for shipment services.
   name: MVMNT Invoices API
   slug: mvmnt-invoices-api
-- description: Load management operations. Loads represent carrier execution - which carrier is moving the freight.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Load management operations. Loads represent carrier execution - which carrier is moving the freight.
   name: MVMNT Loads API
   slug: mvmnt-loads-api
-- description: Location contact management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Location contact management operations
   name: MVMNT Location Contacts API
   slug: mvmnt-location-contacts-api
-- description: Location management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Location management operations
   name: MVMNT Locations API
   slug: mvmnt-locations-api
-- description: Payment term management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Payment term management operations
   name: MVMNT Payment Terms API
   slug: mvmnt-payment-terms-api
-- description: AR payment management operations. Payments represent received customer payments applied to invoices.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: AR payment management operations. Payments represent received customer payments applied to invoices.
   name: MVMNT Payments API
   slug: mvmnt-payments-api
-- description: Quote management operations. Quotes are pricing requests/responses that can be converted to shipments.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Quote management operations. Quotes are pricing requests/responses that can be converted to shipments.
   name: MVMNT Quotes API
   slug: mvmnt-quotes-api
-- description: Saved search management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Saved search management operations
   name: MVMNT Saved Searches API
   slug: mvmnt-saved-searches-api
-- description: Global search operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Global search operations
   name: MVMNT Search API
   slug: mvmnt-search-api
-- description: Service (vended service) management operations. Services represent non-carrier vendor work (drayage, customs, warehousing).
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Service (vended service) management operations. Services represent non-carrier vendor work (drayage, customs, warehousing).
   name: MVMNT Services API
   slug: mvmnt-services-api
-- description: Shipment tracking and management operations. Shipments contain orders, loads, and services.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Shipment tracking and management operations. Shipments contain orders, loads, and services.
   name: MVMNT Shipments API
   slug: mvmnt-shipments-api
-- description: Team management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Team management operations
   name: MVMNT Teams API
   slug: mvmnt-teams-api
-- description: User management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: User management operations
   name: MVMNT Users API
   slug: mvmnt-users-api
-- description: Vendor contact management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Vendor contact management operations
   name: MVMNT Vendor Contacts API
   slug: mvmnt-vendor-contacts-api
-- description: Vendor payment method management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Vendor payment method management operations
   name: MVMNT Vendor Payment Methods API
   slug: mvmnt-vendor-payment-methods-api
-- description: Vendor management operations
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: Vendor management operations
   name: MVMNT Vendors API
   slug: mvmnt-vendors-api
-- description: The Event Notifications API from MVMNT — 0 operation(s) for event notifications.
+- baseURL: https://api.mvmnt.io/v1
+  baseurl_source: declared
+  description: The Event Notifications API from MVMNT — 0 operation(s) for event notifications.
   name: MVMNT Event Notifications API
   slug: mvmnt-event-notifications-api
 artifact_total: 62
@@ -363,7 +419,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -373,7 +429,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 55.1
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -390,7 +446,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mvmnt/refs/heads/main/screenshots/mvmnt-2026-08-07T184459.png
 security:

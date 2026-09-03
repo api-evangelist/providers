@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,10 +52,14 @@ apis:
 - description: Managed routing service powered by OSRM and GraphHopper for route calculation, turn-by-turn instructions, distance matrix computation, isochrones, and map matching. OSRM supports car routing and matri
   name: Geofabrik Routing API
   slug: routing-api
-- description: Direct download of OSM data extract files
+- baseURL: https://download.geofabrik.de
+  baseurl_source: declared
+  description: Direct download of OSM data extract files
   name: Geofabrik Downloads API
   slug: geofabrik-downloads-api
-- description: Machine-readable index of all available extracts
+- baseURL: https://download.geofabrik.de
+  baseurl_source: declared
+  description: Machine-readable index of all available extracts
   name: Geofabrik Index API
   slug: geofabrik-index-api
 artifact_total: 17
@@ -197,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/screenshots/geofabrik-2026-06-20T181750.png
 security:

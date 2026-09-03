@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: News archive — press releases, clinical data announcements and scientific presentations. Sixteen posts published at harvest time, all in the `news` category.
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: News archive — press releases, clinical data announcements and scientific presentations. Sixteen posts published at harvest time, all in the `news` category.
   name: NiKang Therapeutics Posts API
   slug: nikang-therapeutics-posts-api
-- description: Corporate pages — about us, science and pipeline, news, careers, jobs, privacy policy and terms of use. Nine pages published at harvest time.
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — about us, science and pipeline, news, careers, jobs, privacy policy and terms of use. Nine pages published at harvest time.
   name: NiKang Therapeutics Pages API
   slug: nikang-therapeutics-pages-api
-- description: The7 theme `dt_team` custom post type carrying NiKang's named people — ten published at harvest time, split by the dt_team_category taxonomy into Board (7) and Officers (2). The only route family on t
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: The7 theme `dt_team` custom post type carrying NiKang's named people — ten published at harvest time, split by the dt_team_category taxonomy into Board (7) and Officers (2). The only route family on t
   name: NiKang Therapeutics Team API
   slug: nikang-therapeutics-team-api
-- description: Media library — logos, leadership headshots, pipeline graphics and press assets. Sixty-seven attachments present at harvest time.
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: Media library — logos, leadership headshots, pipeline graphics and press assets. Sixty-seven attachments present at harvest time.
   name: NiKang Therapeutics Media API
   slug: nikang-therapeutics-media-api
-- description: Categories, tags and team categories, plus the taxonomy registry. Three post categories are registered (`news` with 16 posts, `timeline` and `uncategorized` both empty); the post_tag taxonomy is regis
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags and team categories, plus the taxonomy registry. Three post categories are registered (`news` with 16 posts, `timeline` and `uncategorized` both empty); the post_tag taxonomy is regis
   name: NiKang Therapeutics Taxonomy API
   slug: nikang-therapeutics-taxonomy-api
-- description: Cross-content search across every published object — posts, pages, dt_team members and terms — in one call. Returned six matches for `cdk2` at harvest time.
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across every published object — posts, pages, dt_team members and terms — in one call. Returned six matches for `cdk2` at harvest time.
   name: NiKang Therapeutics Search API
   slug: nikang-therapeutics-search-api
-- description: Route, post-type, taxonomy and status discovery documents. The /wp-json index publishes the full 210-route table across 17 namespaces and is the machine-readable contract this whole profile was derive
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: Route, post-type, taxonomy and status discovery documents. The /wp-json index publishes the full 210-route table across 17 namespaces and is the machine-readable contract this whole profile was derive
   name: NiKang Therapeutics Discovery API
   slug: nikang-therapeutics-discovery-api
-- description: Comment collection. Registered and anonymously reachable, but empty — no object on this deployment carries comments.
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and anonymously reachable, but empty — no object on this deployment carries comments.
   name: NiKang Therapeutics Comments API
   slug: nikang-therapeutics-comments-api
-- description: oEmbed 1.0 provider endpoint for www.nikangtx.com URLs. Verified live and anonymous — returns provider_name "Nikang Therapeutics" for the site root.
+- baseURL: https://www.nikangtx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.nikangtx.com URLs. Verified live and anonymous — returns provider_name "Nikang Therapeutics" for the site root.
   name: NiKang Therapeutics oEmbed API
   slug: nikang-therapeutics-oembed-api
 artifact_total: 14
@@ -185,7 +215,7 @@ score:
   band: thin
   composite: 31.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +246,9 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nikang-therapeutics/refs/heads/main/screenshots/nikang-therapeutics-2026-09-02T150754.png
 security:
 - kind: authentication
   name: Nikang Therapeutics Authentication

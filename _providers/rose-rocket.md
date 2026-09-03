@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Requires approval
+  onboarding: approval
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,19 +37,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Boards API from Rose Rocket — 1 operation(s) for boards.
+- baseURL: https://network.roserocket.com/api/v2/platformModel
+  baseurl_source: declared
+  description: The Boards API from Rose Rocket — 1 operation(s) for boards.
   name: Rose Rocket Boards API
   slug: rose-rocket-boards-api
-- description: The Events API from Rose Rocket — 1 operation(s) for events.
+- baseURL: https://network.roserocket.com/api/v2/platformModel
+  baseurl_source: declared
+  description: The Events API from Rose Rocket — 1 operation(s) for events.
   name: Rose Rocket Events API
   slug: rose-rocket-events-api
-- description: The Object Records API from Rose Rocket — 6 operation(s) for object records.
+- baseURL: https://network.roserocket.com/api/v2/platformModel
+  baseurl_source: declared
+  description: The Object Records API from Rose Rocket — 6 operation(s) for object records.
   name: Rose Rocket Object Records API
   slug: rose-rocket-object-records-api
-- description: The User Groups API from Rose Rocket — 3 operation(s) for user groups.
+- baseURL: https://network.roserocket.com/api/v2/platformModel
+  baseurl_source: declared
+  description: The User Groups API from Rose Rocket — 3 operation(s) for user groups.
   name: Rose Rocket User Groups API
   slug: rose-rocket-user-groups-api
 artifact_total: 11
@@ -228,23 +250,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.0
+  composite: 52.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.4
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 18.2
-    contract_quality: 48.6
+    contract_quality: 50.3
     developer_ergonomics: 54.2
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     contracts:
@@ -255,8 +277,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/screenshots/rose-rocket-2026-09-02T154132.png
 security:
 - kind: authentication
   name: Rose Rocket Authentication

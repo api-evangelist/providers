@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 41 operations · 8 acting
 api_count: 2
 apis:
-- description: Access bulk raw public data from the Chief Economist office
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Access bulk raw public data from the Chief Economist office
   name: US Patent and Trademark Office Bulk Datasets API
   slug: us-patent-and-trademark-office-bulk-datasets-api
-- description: Retrieve trademark case documents and images
+- baseURL: https://tsdrapi.uspto.gov
+  baseurl_source: spec
+  description: Retrieve trademark case documents and images
   name: US Patent and Trademark Office Case Documents API
   slug: us-patent-and-trademark-office-case-documents-api
-- description: Retrieve trademark case status and metadata
+- baseURL: https://tsdrapi.uspto.gov
+  baseurl_source: spec
+  description: Retrieve trademark case status and metadata
   name: US Patent and Trademark Office Case Status API
   slug: us-patent-and-trademark-office-case-status-api
-- description: Search and retrieve patent application data
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Search and retrieve patent application data
   name: US Patent and Trademark Office Patent Search API
   slug: us-patent-and-trademark-office-patent-search-api
-- description: Search and retrieve petition decision records
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Search and retrieve petition decision records
   name: US Patent and Trademark Office Petition Decisions API
   slug: us-patent-and-trademark-office-petition-decisions-api
-- description: All public decisions filed in PTAB Appeals
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: All public decisions filed in PTAB Appeals
   name: US Patent and Trademark Office PTAB Appeals API
   slug: us-patent-and-trademark-office-ptab-appeals-api
-- description: All public decisions filed in PTAB Interferences
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: All public decisions filed in PTAB Interferences
   name: US Patent and Trademark Office PTAB Interferences API
   slug: us-patent-and-trademark-office-ptab-interferences-api
-- description: All public decisions filed in PTAB Trials
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: All public decisions filed in PTAB Trials
   name: US Patent and Trademark Office PTAB Trials Decisions API
   slug: us-patent-and-trademark-office-ptab-trials-decisions-api
-- description: All public documents filed in PTAB Trials
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: All public documents filed in PTAB Trials
   name: US Patent and Trademark Office PTAB Trials Documents API
   slug: us-patent-and-trademark-office-ptab-trials-documents-api
-- description: All public PTAB Trial proceedings
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: All public PTAB Trial proceedings
   name: US Patent and Trademark Office PTAB Trials Proceedings API
   slug: us-patent-and-trademark-office-ptab-trials-proceedings-api
 artifact_total: 38
@@ -249,7 +269,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/screenshots/us-patent-and-trademark-office-2026-06-20T200649.png
 security:

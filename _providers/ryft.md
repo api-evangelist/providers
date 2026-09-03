@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Push query-execution telemetry to Ryft.
+- baseURL: https://ingest.ryft.io
+  baseurl_source: declared
+  description: Push query-execution telemetry to Ryft.
   name: Ryft Ingest API
   slug: ryft-ingest-api
 artifact_total: 6
@@ -179,7 +181,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ryft/refs/heads/main/screenshots/ryft-2026-08-17T081702.png
 security:

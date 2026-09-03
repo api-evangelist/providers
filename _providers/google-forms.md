@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 3
 apis:
-- description: Operations for creating, reading, and updating forms
+- baseURL: https://forms.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for creating, reading, and updating forms
   name: Google Forms Forms API
   slug: google-forms-forms-api
-- description: Operations for reading form responses
+- baseURL: https://forms.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for reading form responses
   name: Google Forms Responses API
   slug: google-forms-responses-api
-- description: Operations for managing form change notifications
+- baseURL: https://forms.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for managing form change notifications
   name: Google Forms Watches API
   slug: google-forms-watches-api
 arazzos:
@@ -408,7 +414,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/screenshots/google-forms-2026-06-20T182203.png
 security:

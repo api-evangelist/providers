@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
+  score: 6.0
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Anixter (now part of Wesco International) provides B2B eCommerce integration services including EDI (Electronic Data Interchange) for purchase orders, invoices, and shipping notices, punchout catalog '
@@ -81,6 +81,50 @@ common:
   title: ''
   type: Contact
   url: https://www.anixter.com/en_us/about-us/contact.html
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/anixter-international-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/anixter-international-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/anixter-international-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/anixter-international-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/anixter-international-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/anixter-international-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/anixter-international-packages.yml
+coverage:
+  checked: '2026-09-02'
+  detail: Anixter runs a real MuleSoft Anypoint API platform — api.wesco.com resolves to api-wesco.lb.anypointdns.net and the Anypoint Exchange organization domain "anixter" has its public portal switched on — but that portal publishes zero public assets, so every API asset sits behind an Anypoint login, and the eCommerce integrations page that describes the EDI and punchout surface answers 403 behind a Cloudflare managed challenge on top of it.
+  evidence:
+  - status: 200
+    url: https://anypoint.mulesoft.com/exchange/api/v2/portals/anixter
+  - status: 200
+    url: https://anypoint.mulesoft.com/exchange/api/v2/assets?domain=anixter&limit=50
+  - status: 404
+    url: https://anypoint.mulesoft.com/exchange/api/v2/portals/zzznotarealportal12345
+  - status: 403
+    url: https://www.anixter.com/en_us/services-and-solutions/supply-chain-services/ecommerce/integrations.html
+  - status: 404
+    url: https://api.wesco.com/.well-known/api-catalog
+  reason: partner-login
+  state: gated
 created: '2026-03-23'
 description: Anixter International was a leading global distributor of network and security solutions, electrical and electronic solutions, and utility power solutions. In June 2020, Anixter was acquired by Wesco International for approximately $4.5 billion, creating a combined company with over $17 billion in annual revenue. Anixter now operates as Wesco Anixter, providing B2B distribution, supply chain services, and digital integration capabilities including EDI, punchout catalogs, and procurement system integrations.
 finops:
@@ -89,17 +133,17 @@ finops:
   slug: anixter-international-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anixter-international.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Anixter International
 nav: Providers
 network: true
 overview: 'Anixter International publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Commerce, Cables, Data Communications, Distribution, and Electrical.
 
 
-  Anixter International''s developer surface includes documentation, developer portal, and 8 more developer resources.'
+  Anixter International''s developer surface includes documentation, developer portal, and 15 more developer resources.'
 plans:
 - name: Anixter International Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: anixter-international-plans-pricing
 press:
 - date: '2026-05-25'
@@ -119,37 +163,40 @@ press:
   url: https://securitytoday.com/articles/2014/08/11/anixter-international-inc-announces-the-acquisition-of-tri-ed.aspx?admgarea=ht.accesscontrol
 random_paper: 3
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Anixter International Rate Limits
   slug: anixter-international-rate-limits
 score:
   band: emerging
-  composite: 14.3
+  composite: 14.4
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 72.0
+    artifact_dirs: 15
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.1
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 63.0
-    governance: 0.0
-    operational_transparency: 7.9
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 14.3
+  provenance:
+    conformance: first-party
+    mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anixter-international/refs/heads/main/screenshots/anixter-international-2026-06-20T172016.png
 security:
 - kind: domain-security
   name: Anixter International Domain Security
   slug: anixter-international-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.2 · DMARC
 slug: anixter-international
 tags:
 - B2B Commerce

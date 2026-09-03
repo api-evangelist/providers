@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 15 acting
 api_count: 3
 apis:
-- description: The API Keys API from Triple Whale — 1 operation(s) for api keys.
+- baseURL: https://api.triplewhale.com
+  baseurl_source: declared
+  description: The API Keys API from Triple Whale — 1 operation(s) for api keys.
   name: Triple Whale API Keys API
   slug: triple-whale-api-keys-api
-- description: The Compliance API from Triple Whale — 1 operation(s) for compliance.
+- baseURL: https://api.triplewhale.com
+  baseurl_source: declared
+  description: The Compliance API from Triple Whale — 1 operation(s) for compliance.
   name: Triple Whale Compliance API
   slug: triple-whale-compliance-api
-- description: The Data In API from Triple Whale — 10 operation(s) for data in.
+- baseURL: https://api.triplewhale.com
+  baseurl_source: declared
+  description: The Data In API from Triple Whale — 10 operation(s) for data in.
   name: Triple Whale Data In API
   slug: triple-whale-data-in-api
-- description: The Data Out API from Triple Whale — 4 operation(s) for data out.
+- baseURL: https://api.triplewhale.com
+  baseurl_source: declared
+  description: The Data Out API from Triple Whale — 4 operation(s) for data out.
   name: Triple Whale Data Out API
   slug: triple-whale-data-out-api
-- description: The bi API from Triple Whale — 1 operation(s) for bi.
+- baseURL: https://api.triplewhale.com
+  baseurl_source: declared
+  description: The bi API from Triple Whale — 1 operation(s) for bi.
   name: Triple Whale Bi API
   slug: triple-whale-bi-api
 artifact_total: 27
@@ -378,7 +388,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:

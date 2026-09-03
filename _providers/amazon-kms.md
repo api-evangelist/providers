@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 11 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Encryption, decryption, and signing operations
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: Encryption, decryption, and signing operations
   name: Amazon KMS Cryptographic Operations API
   slug: amazon-kms-cryptographic-operations-api
-- description: KMS cryptographic key management
+- baseURL: https://kms.amazonaws.com
+  baseurl_source: declared
+  description: KMS cryptographic key management
   name: Amazon KMS Keys API
   slug: amazon-kms-keys-api
 arazzos:
@@ -328,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/screenshots/amazon-kms-2026-06-20T171719.png
 security:

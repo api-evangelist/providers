@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,28 +55,44 @@ apis:
 - description: API for discovering all publicly available Eurostat datasets, browsing the navigation tree, and retrieving dataset metadata before querying.
   name: Eurostat Catalogue API
   slug: eurostat-catalogue-api
-- description: asynchronous processing
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: asynchronous processing
   name: Eurostat Async API
   slug: eurostat-async-api
-- description: The Catalogue queries API from Eurostat — 7 operation(s) for catalogue queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The Catalogue queries API from Eurostat — 7 operation(s) for catalogue queries.
   name: Eurostat Catalogue queries API
   slug: eurostat-catalogue-queries-api
-- description: The SDMX 2.1 Data queries API from Eurostat — 1 operation(s) for sdmx 2.1 data queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The SDMX 2.1 Data queries API from Eurostat — 1 operation(s) for sdmx 2.1 data queries.
   name: Eurostat SDMX 2.1 Data queries API
   slug: eurostat-sdmx-2-1-data-queries-api
-- description: The SDMX 2.1 Navigation Structure queries API from Eurostat — 2 operation(s) for sdmx 2.1 navigation structure queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The SDMX 2.1 Navigation Structure queries API from Eurostat — 2 operation(s) for sdmx 2.1 navigation structure queries.
   name: Eurostat SDMX 2.1 Navigation Structure queries API
   slug: eurostat-sdmx-2-1-navigation-structure-queries-api
-- description: The SDMX 2.1 Structure queries API from Eurostat — 5 operation(s) for sdmx 2.1 structure queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The SDMX 2.1 Structure queries API from Eurostat — 5 operation(s) for sdmx 2.1 structure queries.
   name: Eurostat SDMX 2.1 Structure queries API
   slug: eurostat-sdmx-2-1-structure-queries-api
-- description: The SDMX 3.0 Data queries API from Eurostat — 2 operation(s) for sdmx 3.0 data queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The SDMX 3.0 Data queries API from Eurostat — 2 operation(s) for sdmx 3.0 data queries.
   name: Eurostat SDMX 3.0 Data queries API
   slug: eurostat-sdmx-3-0-data-queries-api
-- description: The SDMX 3.0 Structure queries API from Eurostat — 10 operation(s) for sdmx 3.0 structure queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The SDMX 3.0 Structure queries API from Eurostat — 10 operation(s) for sdmx 3.0 structure queries.
   name: Eurostat SDMX 3.0 Structure queries API
   slug: eurostat-sdmx-3-0-structure-queries-api
-- description: The Statistics data queries API from Eurostat — 1 operation(s) for statistics data queries.
+- baseURL: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/
+  baseurl_source: declared
+  description: The Statistics data queries API from Eurostat — 1 operation(s) for statistics data queries.
   name: Eurostat Statistics data queries API
   slug: eurostat-statistics-data-queries-api
 artifact_total: 29
@@ -245,7 +261,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 42 operations · 33 acting
 api_count: 1
 apis:
-- description: The Legacy GraphQL Proxy API from myTomorrows — 1 operation(s) for legacy graphql proxy.
+- baseURL: https://enterprise-search.mytomorrows.com
+  baseurl_source: declared
+  description: The Legacy GraphQL Proxy API from myTomorrows — 1 operation(s) for legacy graphql proxy.
   name: myTomorrows Legacy GraphQL Proxy API
   slug: mytomorrows-legacy-graphql-proxy-api
-- description: The Public API from myTomorrows — 1 operation(s) for public.
+- baseURL: https://enterprise-search.mytomorrows.com
+  baseurl_source: declared
+  description: The Public API from myTomorrows — 1 operation(s) for public.
   name: myTomorrows Public API
   slug: mytomorrows-public-api
-- description: The System API from myTomorrows — 2 operation(s) for system.
+- baseURL: https://enterprise-search.mytomorrows.com
+  baseurl_source: declared
+  description: The System API from myTomorrows — 2 operation(s) for system.
   name: myTomorrows System API
   slug: mytomorrows-system-api
-- description: The V1 API from myTomorrows — 38 operation(s) for v1.
+- baseURL: https://enterprise-search.mytomorrows.com
+  baseurl_source: declared
+  description: The V1 API from myTomorrows — 38 operation(s) for v1.
   name: myTomorrows V1 API
   slug: mytomorrows-v1-api
 artifact_total: 13
@@ -219,7 +227,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mytomorrows/refs/heads/main/screenshots/mytomorrows-2026-08-07T184546.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 1
 apis:
-- description: The Adapters API from Predibase — 2 operation(s) for adapters.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Adapters API from Predibase — 2 operation(s) for adapters.
   name: Predibase Adapters API
   slug: predibase-adapters-api
-- description: The Batch Inference API from Predibase — 2 operation(s) for batch inference.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Batch Inference API from Predibase — 2 operation(s) for batch inference.
   name: Predibase Batch Inference API
   slug: predibase-batch-inference-api
-- description: The Datasets API from Predibase — 2 operation(s) for datasets.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Datasets API from Predibase — 2 operation(s) for datasets.
   name: Predibase Datasets API
   slug: predibase-datasets-api
-- description: The Deployments API from Predibase — 2 operation(s) for deployments.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Deployments API from Predibase — 2 operation(s) for deployments.
   name: Predibase Deployments API
   slug: predibase-deployments-api
-- description: The Fine-Tuning API from Predibase — 3 operation(s) for fine-tuning.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Fine-Tuning API from Predibase — 3 operation(s) for fine-tuning.
   name: Predibase Fine-Tuning API
   slug: predibase-fine-tuning-api
-- description: The Inference API from Predibase — 4 operation(s) for inference.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Inference API from Predibase — 4 operation(s) for inference.
   name: Predibase Inference API
   slug: predibase-inference-api
-- description: The Models API from Predibase — 1 operation(s) for models.
+- baseURL: https://serving.app.predibase.com/{tenant}/deployments/v2/llms/{model}/v1
+  baseurl_source: declared
+  description: The Models API from Predibase — 1 operation(s) for models.
   name: Predibase Models API
   slug: predibase-models-api
 artifact_total: 24
@@ -187,7 +201,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -197,7 +211,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 40.9
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -206,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/screenshots/predibase-2026-06-20T192044.png
 security:

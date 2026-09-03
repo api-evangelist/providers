@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 74 operations · 20 acting
 api_count: 3
 apis:
-- description: The Account Access Consents API from Kroo — 2 operation(s) for account access consents.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Account Access Consents API from Kroo — 2 operation(s) for account access consents.
   name: Kroo Account Access Consents API
   slug: kroo-account-access-consents-api
-- description: The Accounts API from Kroo — 2 operation(s) for accounts.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Accounts API from Kroo — 2 operation(s) for accounts.
   name: Kroo Accounts API
   slug: kroo-accounts-api
-- description: The Balances API from Kroo — 2 operation(s) for balances.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Balances API from Kroo — 2 operation(s) for balances.
   name: Kroo Balances API
   slug: kroo-balances-api
-- description: The Beneficiaries API from Kroo — 2 operation(s) for beneficiaries.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Beneficiaries API from Kroo — 2 operation(s) for beneficiaries.
   name: Kroo Beneficiaries API
   slug: kroo-beneficiaries-api
-- description: The Direct Debits API from Kroo — 2 operation(s) for direct debits.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Direct Debits API from Kroo — 2 operation(s) for direct debits.
   name: Kroo Direct Debits API
   slug: kroo-direct-debits-api
-- description: The Domestic Payment Consents API from Kroo — 3 operation(s) for domestic payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payment Consents API from Kroo — 3 operation(s) for domestic payment consents.
   name: Kroo Domestic Payment Consents API
   slug: kroo-domestic-payment-consents-api
-- description: The Domestic Payments API from Kroo — 3 operation(s) for domestic payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payments API from Kroo — 3 operation(s) for domestic payments.
   name: Kroo Domestic Payments API
   slug: kroo-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Kroo — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payment Consents API from Kroo — 2 operation(s) for domestic scheduled payment consents.
   name: Kroo Domestic Scheduled Payment Consents API
   slug: kroo-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Kroo — 3 operation(s) for domestic scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payments API from Kroo — 3 operation(s) for domestic scheduled payments.
   name: Kroo Domestic Scheduled Payments API
   slug: kroo-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Kroo — 2 operation(s) for domestic standing order consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Order Consents API from Kroo — 2 operation(s) for domestic standing order consents.
   name: Kroo Domestic Standing Order Consents API
   slug: kroo-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Kroo — 3 operation(s) for domestic standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Orders API from Kroo — 3 operation(s) for domestic standing orders.
   name: Kroo Domestic Standing Orders API
   slug: kroo-domestic-standing-orders-api
-- description: The File Payment Consents API from Kroo — 3 operation(s) for file payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payment Consents API from Kroo — 3 operation(s) for file payment consents.
   name: Kroo File Payment Consents API
   slug: kroo-file-payment-consents-api
-- description: The File Payments API from Kroo — 4 operation(s) for file payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payments API from Kroo — 4 operation(s) for file payments.
   name: Kroo File Payments API
   slug: kroo-file-payments-api
-- description: The Funds Confirmation Consents API from Kroo — 2 operation(s) for funds confirmation consents.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmation Consents API from Kroo — 2 operation(s) for funds confirmation consents.
   name: Kroo Funds Confirmation Consents API
   slug: kroo-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Kroo — 1 operation(s) for funds confirmations.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmations API from Kroo — 1 operation(s) for funds confirmations.
   name: Kroo Funds Confirmations API
   slug: kroo-funds-confirmations-api
-- description: The International Payment Consents API from Kroo — 3 operation(s) for international payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payment Consents API from Kroo — 3 operation(s) for international payment consents.
   name: Kroo International Payment Consents API
   slug: kroo-international-payment-consents-api
-- description: The International Payments API from Kroo — 3 operation(s) for international payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payments API from Kroo — 3 operation(s) for international payments.
   name: Kroo International Payments API
   slug: kroo-international-payments-api
-- description: The International Scheduled Payments API from Kroo — 3 operation(s) for international scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments API from Kroo — 3 operation(s) for international scheduled payments.
   name: Kroo International Scheduled Payments API
   slug: kroo-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Kroo — 3 operation(s) for international scheduled payments consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments Consents API from Kroo — 3 operation(s) for international scheduled payments consents.
   name: Kroo International Scheduled Payments Consents API
   slug: kroo-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Kroo — 3 operation(s) for international standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders API from Kroo — 3 operation(s) for international standing orders.
   name: Kroo International Standing Orders API
   slug: kroo-international-standing-orders-api
-- description: The International Standing Orders Consents API from Kroo — 2 operation(s) for international standing orders consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders Consents API from Kroo — 2 operation(s) for international standing orders consents.
   name: Kroo International Standing Orders Consents API
   slug: kroo-international-standing-orders-consents-api
-- description: The Offers API from Kroo — 2 operation(s) for offers.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Offers API from Kroo — 2 operation(s) for offers.
   name: Kroo Offers API
   slug: kroo-offers-api
-- description: The Parties API from Kroo — 3 operation(s) for parties.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Parties API from Kroo — 3 operation(s) for parties.
   name: Kroo Parties API
   slug: kroo-parties-api
-- description: The Products API from Kroo — 2 operation(s) for products.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Products API from Kroo — 2 operation(s) for products.
   name: Kroo Products API
   slug: kroo-products-api
-- description: The Scheduled Payments API from Kroo — 2 operation(s) for scheduled payments.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Scheduled Payments API from Kroo — 2 operation(s) for scheduled payments.
   name: Kroo Scheduled Payments API
   slug: kroo-scheduled-payments-api
-- description: The Standing Orders API from Kroo — 2 operation(s) for standing orders.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Standing Orders API from Kroo — 2 operation(s) for standing orders.
   name: Kroo Standing Orders API
   slug: kroo-standing-orders-api
-- description: The Statements API from Kroo — 5 operation(s) for statements.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Statements API from Kroo — 5 operation(s) for statements.
   name: Kroo Statements API
   slug: kroo-statements-api
-- description: The Transactions API from Kroo — 2 operation(s) for transactions.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Transactions API from Kroo — 2 operation(s) for transactions.
   name: Kroo Transactions API
   slug: kroo-transactions-api
 artifact_total: 34
@@ -312,7 +368,7 @@ score:
     regime_id: banking_open_finance
     score: 68.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:

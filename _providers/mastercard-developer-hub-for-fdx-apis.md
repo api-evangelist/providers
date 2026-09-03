@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 27 operations · 11 acting
 api_count: 2
 apis:
-- description: health check and check the status application
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: health check and check the status application
   name: Mastercard Developer Hub for FDX APIs Application Check Controller API
   slug: mastercard-developer-hub-for-fdx-apis-application-check-controller-api
-- description: Return consent and save consent for user.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: Return consent and save consent for user.
   name: Mastercard Developer Hub for FDX APIs Consent API
   slug: mastercard-developer-hub-for-fdx-apis-consent-api
-- description: Return list of account, account details,transactions,contact details, payments info and statements details of user.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: Return list of account, account details,transactions,contact details, payments info and statements details of user.
   name: Mastercard Developer Hub for FDX APIs Data Resource APIs API
   slug: mastercard-developer-hub-for-fdx-apis-data-resource-apis-api
-- description: As per [RFC 7591 - OAuth 2.0 Dynamic Client Registration Protocol (ietf.org)](https://datatracker.ietf.org/doc/html/rfc7591)
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: As per [RFC 7591 - OAuth 2.0 Dynamic Client Registration Protocol (ietf.org)](https://datatracker.ietf.org/doc/html/rfc7591)
   name: Mastercard Developer Hub for FDX APIs Dynamic Client Registration API
   slug: mastercard-developer-hub-for-fdx-apis-dynamic-client-registration-api
-- description: '[https://datatracker.ietf.org/doc/html/rfc6749](https://datatracker.ietf.org/doc/html/rfc6749)'
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: '[https://datatracker.ietf.org/doc/html/rfc6749](https://datatracker.ietf.org/doc/html/rfc6749)'
   name: Mastercard Developer Hub for FDX APIs Non PAR Authorize API
   slug: mastercard-developer-hub-for-fdx-apis-non-par-authorize-api
-- description: Please refer RFC - [RFC 9126 - OAuth 2.0 Pushed Authorization Requests (ietf.org)](https://datatracker.ietf.org/doc/html/rfc9126) and [RFC 9396 - OAuth 2.0 Rich Authorization Requests (ietf.org)](http
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: Please refer RFC - [RFC 9126 - OAuth 2.0 Pushed Authorization Requests (ietf.org)](https://datatracker.ietf.org/doc/html/rfc9126) and [RFC 9396 - OAuth 2.0 Rich Authorization Requests (ietf.org)](http
   name: Mastercard Developer Hub for FDX APIs PAR+RAR Authorize API
   slug: mastercard-developer-hub-for-fdx-apis-par-rar-authorize-api
-- description: API to generate OAuth 2.0 token.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: API to generate OAuth 2.0 token.
   name: Mastercard Developer Hub for FDX APIs Resource Token API
   slug: mastercard-developer-hub-for-fdx-apis-resource-token-api
-- description: API to check whether the OAuth Token is currently active.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: API to check whether the OAuth Token is currently active.
   name: Mastercard Developer Hub for FDX APIs Token Introspection API
   slug: mastercard-developer-hub-for-fdx-apis-token-introspection-api
-- description: Upload accounts and transaction for user.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: Upload accounts and transaction for user.
   name: Mastercard Developer Hub for FDX APIs Upload Data API
   slug: mastercard-developer-hub-for-fdx-apis-upload-data-api
-- description: Return user response.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: Return user response.
   name: Mastercard Developer Hub for FDX APIs User APIs API
   slug: mastercard-developer-hub-for-fdx-apis-user-apis-api
 artifact_total: 27
@@ -337,7 +357,7 @@ score:
     regime_id: banking_open_finance
     score: 32.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/screenshots/mastercard-developer-hub-for-fdx-apis-2026-06-20T185022.png
 security:

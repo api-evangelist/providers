@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -59,10 +59,14 @@ apis:
 - description: Kubernetes API accessible via kubectl for cluster operations.
   name: Azure Kubernetes Service kubectl API
   slug: azure-kubernetes-service-kubectl-api
-- description: Operations for managing agent pools (node pools) within AKS clusters
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing agent pools (node pools) within AKS clusters
   name: Azure Kubernetes Service Agent Pools API
   slug: microsoft-azure-kubernetes-service-agent-pools-api
-- description: Operations for managing AKS managed clusters
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing AKS managed clusters
   name: Azure Kubernetes Service Managed Clusters API
   slug: microsoft-azure-kubernetes-service-managed-clusters-api
 arazzos:
@@ -1048,7 +1052,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/screenshots/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:

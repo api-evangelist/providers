@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: Manage CDN-enabled backend services
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage CDN-enabled backend services
   name: Google Cloud CDN BackendServices API
   slug: google-cloud-cdn-backendservices-api
-- description: Invalidate cached content
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Invalidate cached content
   name: Google Cloud CDN CacheInvalidation API
   slug: google-cloud-cdn-cacheinvalidation-api
-- description: Manage URL maps for routing
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage URL maps for routing
   name: Google Cloud CDN UrlMaps API
   slug: google-cloud-cdn-urlmaps-api
 artifact_total: 22
@@ -232,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/screenshots/google-cloud-cdn-2026-06-20T182051.png
 security:

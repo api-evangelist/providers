@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,10 +68,14 @@ apis:
 - description: REST API for managing custom lists and list items used in expense forms, travel policies, and invoice configurations for dropdown and lookup fields.
   name: SAP Concur Lists API
   slug: lists-api
-- description: Manage expense reports
+- baseURL: https://us.api.concursolutions.com/expensereports/v4/
+  baseurl_source: declared
+  description: Manage expense reports
   name: SAP Concur Expense Reports API
   slug: concur-expense-reports-api
-- description: Manage individual expense entries
+- baseURL: https://us.api.concursolutions.com/expensereports/v4/
+  baseurl_source: declared
+  description: Manage individual expense entries
   name: SAP Concur Expenses API
   slug: concur-expenses-api
 artifact_total: 56
@@ -318,7 +322,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/concur/refs/heads/main/screenshots/concur-2026-06-20T174842.png
 security:

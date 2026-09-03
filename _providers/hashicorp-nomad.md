@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 38 operations · 13 acting
 api_count: 1
 apis:
-- description: Manage access control tokens and policies.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Manage access control tokens and policies.
   name: HashiCorp Nomad ACL API
   slug: hashicorp-nomad-acl-api
-- description: Inspect task-to-node allocations.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Inspect task-to-node allocations.
   name: HashiCorp Nomad Allocations API
   slug: hashicorp-nomad-allocations-api
-- description: Track rolling updates and deployment history.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Track rolling updates and deployment history.
   name: HashiCorp Nomad Deployments API
   slug: hashicorp-nomad-deployments-api
-- description: Inspect scheduling processes.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Inspect scheduling processes.
   name: HashiCorp Nomad Evaluations API
   slug: hashicorp-nomad-evaluations-api
-- description: Manage Nomad jobs and their lifecycle.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Manage Nomad jobs and their lifecycle.
   name: HashiCorp Nomad Jobs API
   slug: hashicorp-nomad-jobs-api
-- description: Manage namespace segmentation for jobs and resources.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Manage namespace segmentation for jobs and resources.
   name: HashiCorp Nomad Namespaces API
   slug: hashicorp-nomad-namespaces-api
-- description: Manage and query client nodes in the cluster.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: Manage and query client nodes in the cluster.
   name: HashiCorp Nomad Nodes API
   slug: hashicorp-nomad-nodes-api
-- description: System-level cluster operations.
+- baseURL: http://127.0.0.1:4646/v1
+  baseurl_source: spec
+  description: System-level cluster operations.
   name: HashiCorp Nomad System API
   slug: hashicorp-nomad-system-api
 artifact_total: 24
@@ -216,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-nomad/refs/heads/main/screenshots/hashicorp-nomad-2026-06-20T182531.png
 security:

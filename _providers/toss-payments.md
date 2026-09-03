@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: 'Brandpay is Toss Payments'' embeddable in-merchant easy-pay wallet, letting customers register payment methods once and reuse them. Method and customer status changes are pushed via the METHOD_UPDATED '
   name: Toss Payments Brandpay API
   slug: toss-payments-brandpay-api
-- description: Recurring (automatic) payments via billing keys.
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Recurring (automatic) payments via billing keys.
   name: Toss Payments Billing API
   slug: toss-payments-billing-api
-- description: Korean cash receipt (현금영수증) issuance and cancellation.
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Korean cash receipt (현금영수증) issuance and cancellation.
   name: Toss Payments Cash Receipts API
   slug: toss-payments-cash-receipts-api
-- description: Confirm, retrieve, and cancel payments.
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Confirm, retrieve, and cancel payments.
   name: Toss Payments Payments API
   slug: toss-payments-payments-api
-- description: Marketplace balance and seller payouts (v2).
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Marketplace balance and seller payouts (v2).
   name: Toss Payments Payouts API
   slug: toss-payments-payouts-api
-- description: Settlement queries and manual settlement requests.
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Settlement queries and manual settlement requests.
   name: Toss Payments Settlements API
   slug: toss-payments-settlements-api
-- description: Transaction ledger queries.
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Transaction ledger queries.
   name: Toss Payments Transactions API
   slug: toss-payments-transactions-api
-- description: Per-order virtual bank account issuance.
+- baseURL: https://api.tosspayments.com
+  baseurl_source: declared
+  description: Per-order virtual bank account issuance.
   name: Toss Payments Virtual Accounts API
   slug: toss-payments-virtual-accounts-api
 artifact_total: 23
@@ -167,7 +181,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +210,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/screenshots/toss-payments-2026-09-02T163941.png
 security:
 - kind: authentication
   name: Toss Payments Authentication

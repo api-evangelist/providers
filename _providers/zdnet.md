@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Artificial intelligence feeds
+- baseURL: https://www.zdnet.com
+  baseurl_source: declared
+  description: Artificial intelligence feeds
   name: ZDNet AI API
   slug: zdnet-ai-api
-- description: Cloud computing feeds
+- baseURL: https://www.zdnet.com
+  baseurl_source: declared
+  description: Cloud computing feeds
   name: ZDNet Cloud API
   slug: zdnet-cloud-api
-- description: General news feeds
+- baseURL: https://www.zdnet.com
+  baseurl_source: declared
+  description: General news feeds
   name: ZDNet News API
   slug: zdnet-news-api
-- description: Security feeds
+- baseURL: https://www.zdnet.com
+  baseurl_source: declared
+  description: Security feeds
   name: ZDNet Security API
   slug: zdnet-security-api
 artifact_total: 29
@@ -266,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png
 security:

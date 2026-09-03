@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API suite for the PageUp talent management platform, secured with OAuth 2.0 client-credentials. Covers Core HR, Recruitment, Partner, Performance, and Platform (Exports) endpoint groups. Per-tena
@@ -161,7 +161,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pageup-people/refs/heads/main/screenshots/pageup-people-2026-08-07T191300.png
 security:

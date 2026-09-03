@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 6 acting
 api_count: 1
 apis:
-- description: Download, engagement, and advertising reports.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Download, engagement, and advertising reports.
   name: Podbean Analytics API
   slug: podbean-analytics-api
-- description: OAuth 2.0 login dialog, token exchange, inspection, and multi-podcast tokens.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: OAuth 2.0 login dialog, token exchange, inspection, and multi-podcast tokens.
   name: Podbean Authentication API
   slug: podbean-authentication-api
-- description: List, read, publish, update, and delete podcast episodes.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: List, read, publish, update, and delete podcast episodes.
   name: Podbean Episode API
   slug: podbean-episode-api
-- description: Authorize a media/image upload and list uploaded media files.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Authorize a media/image upload and list uploaded media files.
   name: Podbean File Upload API
   slug: podbean-file-upload-api
-- description: Embeddable player markup and metadata for a podcast or episode URL.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Embeddable player markup and metadata for a podcast or episode URL.
   name: Podbean oEmbed API
   slug: podbean-oembed-api
-- description: Read the authorized podcast profile and settings.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Read the authorized podcast profile and settings.
   name: Podbean Podcast API
   slug: podbean-podcast-api
 artifact_total: 21
@@ -202,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/screenshots/podbean-2026-08-17T081313.png
 security:

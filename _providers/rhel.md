@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 2
 apis:
-- description: Red Hat Security Advisories (CSAF/CVRF)
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Red Hat Security Advisories (CSAF/CVRF)
   name: Red Hat Enterprise Linux Advisories API
   slug: rhel-advisories-api
-- description: Common Vulnerabilities and Exposures data
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Common Vulnerabilities and Exposures data
   name: Red Hat Enterprise Linux CVEs API
   slug: rhel-cves-api
-- description: Open Vulnerability and Assessment Language data
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Open Vulnerability and Assessment Language data
   name: Red Hat Enterprise Linux OVAL API
   slug: rhel-oval-api
-- description: Subscription and entitlement management
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Subscription and entitlement management
   name: Red Hat Enterprise Linux Subscriptions API
   slug: rhel-subscriptions-api
-- description: Registered system management
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Registered system management
   name: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
 artifact_total: 37
@@ -322,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/screenshots/rhel-2026-06-20T193105.png
 security:

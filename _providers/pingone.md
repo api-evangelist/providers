@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -49,19 +49,29 @@ apis:
 - description: 'REST API for the PingOne Advanced Identity Cloud tenant providing identity management, access management, and tenant operations. Supports two authentication methods - API key and secret for read-only '
   name: PingOne Advanced Identity Cloud API
   slug: advanced-identity-cloud-api
-- description: Manage OIDC/SAML applications.
+- baseURL: https://api.pingone.com
+  baseurl_source: declared
+  description: Manage OIDC/SAML applications.
   name: PingOne Applications API
   slug: pingone-applications-api
-- description: OAuth 2.0 token endpoints.
+- baseURL: https://api.pingone.com
+  baseurl_source: declared
+  description: OAuth 2.0 token endpoints.
   name: PingOne Authentication API
   slug: pingone-authentication-api
-- description: Manage PingOne environments.
+- baseURL: https://api.pingone.com
+  baseurl_source: declared
+  description: Manage PingOne environments.
   name: PingOne Environments API
   slug: pingone-environments-api
-- description: Manage user populations inside an environment.
+- baseURL: https://api.pingone.com
+  baseurl_source: declared
+  description: Manage user populations inside an environment.
   name: PingOne Populations API
   slug: pingone-populations-api
-- description: Manage end-user identities.
+- baseURL: https://api.pingone.com
+  baseurl_source: declared
+  description: Manage end-user identities.
   name: PingOne Users API
   slug: pingone-users-api
 artifact_total: 19
@@ -180,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/screenshots/pingone-2026-06-20T191715.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 2
 apis:
-- description: Supported cities list
+- baseURL: https://api.walkscore.com
+  baseurl_source: declared
+  description: Supported cities list
   name: Walk Score Cities API
   slug: walk-score-cities-api
-- description: Transit route details
+- baseURL: https://api.walkscore.com
+  baseurl_source: declared
+  description: Transit route details
   name: Walk Score Routes API
   slug: walk-score-routes-api
-- description: Walk Score, Transit Score, and Bike Score for locations
+- baseURL: https://api.walkscore.com
+  baseurl_source: declared
+  description: Walk Score, Transit Score, and Bike Score for locations
   name: Walk Score Scores API
   slug: walk-score-scores-api
-- description: Transit stop search and details
+- baseURL: https://api.walkscore.com
+  baseurl_source: declared
+  description: Transit stop search and details
   name: Walk Score Stops API
   slug: walk-score-stops-api
 artifact_total: 26
@@ -215,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/screenshots/walk-score-2026-06-20T201208.png
 security:

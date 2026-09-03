@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 51 operations · 28 acting
 api_count: 1
 apis:
-- description: The Accounts API from FastSpring — 3 operation(s) for accounts.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Accounts API from FastSpring — 3 operation(s) for accounts.
   name: FastSpring Accounts API
   slug: fastspring-accounts-api
-- description: The Coupons API from FastSpring — 3 operation(s) for coupons.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Coupons API from FastSpring — 3 operation(s) for coupons.
   name: FastSpring Coupons API
   slug: fastspring-coupons-api
-- description: The Data API from FastSpring — 4 operation(s) for data.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Data API from FastSpring — 4 operation(s) for data.
   name: FastSpring Data API
   slug: fastspring-data-api
-- description: The Events API from FastSpring — 2 operation(s) for events.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Events API from FastSpring — 2 operation(s) for events.
   name: FastSpring Events API
   slug: fastspring-events-api
-- description: The Invoices API from FastSpring — 2 operation(s) for invoices.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Invoices API from FastSpring — 2 operation(s) for invoices.
   name: FastSpring Invoices API
   slug: fastspring-invoices-api
-- description: The Orders API from FastSpring — 2 operation(s) for orders.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Orders API from FastSpring — 2 operation(s) for orders.
   name: FastSpring Orders API
   slug: fastspring-orders-api
-- description: The Products API from FastSpring — 3 operation(s) for products.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Products API from FastSpring — 3 operation(s) for products.
   name: FastSpring Products API
   slug: fastspring-products-api
-- description: The Quotes API from FastSpring — 3 operation(s) for quotes.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Quotes API from FastSpring — 3 operation(s) for quotes.
   name: FastSpring Quotes API
   slug: fastspring-quotes-api
-- description: The Returns API from FastSpring — 2 operation(s) for returns.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Returns API from FastSpring — 2 operation(s) for returns.
   name: FastSpring Returns API
   slug: fastspring-returns-api
-- description: The Sessions API from FastSpring — 5 operation(s) for sessions.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Sessions API from FastSpring — 5 operation(s) for sessions.
   name: FastSpring Sessions API
   slug: fastspring-sessions-api
-- description: The Subscriptions API from FastSpring — 7 operation(s) for subscriptions.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Subscriptions API from FastSpring — 7 operation(s) for subscriptions.
   name: FastSpring Subscriptions API
   slug: fastspring-subscriptions-api
-- description: The Webhooks API from FastSpring — 1 operation(s) for webhooks.
+- baseURL: https://api.fastspring.com
+  baseurl_source: declared
+  description: The Webhooks API from FastSpring — 1 operation(s) for webhooks.
   name: FastSpring Webhooks API
   slug: fastspring-webhooks-api
 artifact_total: 32
@@ -220,7 +244,7 @@ score:
     catalog_gap: 73.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -230,7 +254,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 6.6
-  previous_composite: 33.3
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -245,7 +269,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
 security:

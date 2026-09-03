@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -42,16 +42,24 @@ apis:
 - description: TU Delft runs an Elsevier Pure current research information system, exposed to the public as the research portal at research.tudelft.nl / pure.tudelft.nl and to integrators as the Pure Web Service und
   name: Elsevier Pure research portal (TU Delft tenancy)
   slug: pure
-- description: Token-authenticated endpoints scoped to a depositor account.
+- baseURL: https://data.4tu.nl
+  baseurl_source: declared
+  description: Token-authenticated endpoints scoped to a depositor account.
   name: Delft University of Technology Account API
   slug: tu-delft-account-api
-- description: Curated groupings of published datasets.
+- baseURL: https://data.4tu.nl
+  baseurl_source: declared
+  description: Curated groupings of published datasets.
   name: Delft University of Technology Collections API
   slug: tu-delft-collections-api
-- description: Published datasets (called "articles" on the Figshare-compatible v2 surface).
+- baseURL: https://data.4tu.nl
+  baseurl_source: declared
+  description: Published datasets (called "articles" on the Figshare-compatible v2 surface).
   name: Delft University of Technology Datasets API
   slug: tu-delft-datasets-api
-- description: Controlled vocabularies — licenses, categories and depositing groups.
+- baseURL: https://data.4tu.nl
+  baseurl_source: declared
+  description: Controlled vocabularies — licenses, categories and depositing groups.
   name: Delft University of Technology Reference API
   slug: tu-delft-reference-api
 artifact_total: 17
@@ -283,7 +291,7 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -296,7 +304,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 69.7
+  previous_composite: 69.6
   provenance:
     conformance: first-party
     contracts:
@@ -311,7 +319,7 @@ score:
     regime_id: education
     score: 90.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

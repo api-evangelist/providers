@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: The contactGroups API from Google People — 2 operation(s) for contactgroups.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The contactGroups API from Google People — 2 operation(s) for contactgroups.
   name: Google People contactGroups API
   slug: google-people-contactgroups-api
-- description: The People API from Google People — 4 operation(s) for people.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The People API from Google People — 4 operation(s) for people.
   name: Google People People API
   slug: google-people-people-api
-- description: The people:batchGet API from Google People — 1 operation(s) for people:batchget.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The people:batchGet API from Google People — 1 operation(s) for people:batchget.
   name: Google People people:batchGet API
   slug: google-people-people-batchget-api
-- description: The people:createContact API from Google People — 1 operation(s) for people:createcontact.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The people:createContact API from Google People — 1 operation(s) for people:createcontact.
   name: Google People people:createContact API
   slug: google-people-people-createcontact-api
-- description: The people:searchContacts API from Google People — 1 operation(s) for people:searchcontacts.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The people:searchContacts API from Google People — 1 operation(s) for people:searchcontacts.
   name: Google People people:searchContacts API
   slug: google-people-people-searchcontacts-api
 artifact_total: 28
@@ -242,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/screenshots/google-people-2026-06-20T182221.png
 security:

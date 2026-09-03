@@ -29,7 +29,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -92,7 +92,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -137,7 +137,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -189,7 +189,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -241,7 +241,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -286,7 +286,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -331,7 +331,7 @@
       "commercial_clarity": 48.7,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -376,7 +376,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -421,7 +421,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -473,7 +473,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -525,7 +525,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -570,7 +570,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
@@ -615,7 +615,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -667,7 +667,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -712,7 +712,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -764,7 +764,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -816,7 +816,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -868,7 +868,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -920,7 +920,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -972,7 +972,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -1028,7 +1028,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1080,7 +1080,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -1125,7 +1125,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1177,7 +1177,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -1222,7 +1222,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -1267,7 +1267,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -1312,7 +1312,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -1357,7 +1357,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1409,7 +1409,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1447,6 +1447,7 @@
      "name": "Yanyin Technology",
      "slug": "yanyin",
      "description": "Yanyin Technology (衍因科技) is a Shanghai-based biomedical AI company building 衍因智研云 (Yanyin Zhiyun), a digital research-collaboration platform for life-sciences R&D. Its product suite spans an electronic lab notebook (Yan Note), molecular biology tools (Yan Molecule), a LIMS (Yan LIMS), AI literature and experiment assistants (Yan Research, Yan Reviewer, Yan Advisor), and the enterprise AI MEGASphere platform, whose Mega Open Platform exposes an API gateway (API Key and OAuth2 client-credentials authentication, rate limiting, request signing, idempotency and retries, versioning), a developer center with online docs, SDKs and a sandbox, and webhook callback management with HMAC signing and event replay. Yanyin serves 80+ pharma companies, 280+ research institutions and hospitals, and 430+ universities, and holds ISO 9001, ISO 27001 and ISO 20000 certifications plus China MLPS Level 3. Backed by Qiming Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yanyin/refs/heads/main/screenshots/yanyin-2026-09-02T171222.png",
      "score": 34.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1460,7 +1461,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1512,7 +1513,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1564,7 +1565,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1616,7 +1617,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -1661,7 +1662,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1699,6 +1700,7 @@
      "name": "XSKY",
      "slug": "xsky",
      "description": "XSKY (XSKY Data Technology, 星辰天合) is a Beijing-based software-defined storage vendor serving nearly 2,000 large government and enterprise institutions, ranked first in China's object-storage software market. Its distributed storage products — XEUS unified storage, XEBS block storage, XEOS object storage, XGFS file storage, and the XEDP unified data platform — are all managed through XMS, the platform's REST controller API, which XSKY publishes as a Swagger 2.0 contract with official Go and Python clients plus a CloudFormation-style provisioning tool (sds-formation) and a Kubernetes CSI driver.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xsky/refs/heads/main/screenshots/xsky-2026-09-02T171207.png",
      "score": 31.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1712,7 +1714,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -1757,7 +1759,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1802,7 +1804,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
@@ -1847,7 +1849,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1892,7 +1894,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1937,7 +1939,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -1982,7 +1984,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2034,7 +2036,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
@@ -2075,6 +2077,7 @@
      "name": "VIPShop",
      "slug": "vipshop",
      "description": "VIPShop (唯品会, vip.com) is a Chinese e-commerce company specializing in branded flash sales and discount retail, connecting brands with consumers through time-limited special-offer events. For partners it runs VOP (VIPShop Open Platform, vop.vip.com), a developer/open platform that lets vendors, individual developers, and ISVs integrate with VIPShop's e-commerce systems — covering orders, products/commodities, inventory, warehouse and logistics, marketplace, multi-channel and new-retail services. VOP exposes a signed, service-based JSON API through the gw.vipapis.com gateway (with a sandbox.vipapis.com test environment), ships official Java, PHP, and C# SDKs, and authenticates callers with an app-key + secret credential and per-request signature.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vipshop/refs/heads/main/screenshots/vipshop-2026-09-02T165948.png",
      "score": 25.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2088,7 +2091,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.3,
      "agent_band": "agent-aware",
@@ -2133,7 +2136,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2185,7 +2188,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2237,7 +2240,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2275,6 +2278,7 @@
      "name": "Toutiao",
      "slug": "toutiao",
      "description": "Toutiao (今日头条) is ByteDance's AI-driven content recommendation platform, launched in 2012, aggregating news, articles, short video and micro-posts into a personalized feed for hundreds of millions of readers in China. Creators publish through 头条号 (Toutiao Hao) accounts on mp.toutiao.com, and third-party developers integrate through the ByteDance open-platform stack: Toutiao account OAuth 2.0 and user-profile APIs served from open.snssdk.com and documented on the Douyin Open Platform under the toutiao-or-xigua section, a content-sync and video publishing surface available to approved applications, mini-programs via the ByteDance mini-app developer platform, and advertising APIs that have since migrated from ad.toutiao.com to OceanEngine (巨量引擎). Toutiao publishes no OpenAPI, AsyncAPI, llms.txt or A2A agent card; its developer program is registration- and approval-gated and its documentation is client-side rendered in Chinese.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toutiao/refs/heads/main/screenshots/toutiao-2026-09-02T164109.png",
      "score": 21.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2288,7 +2292,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -2333,7 +2337,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -2378,7 +2382,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2416,6 +2420,7 @@
      "name": "Transwarp",
      "slug": "transwarp",
      "description": "Transwarp Technology (星环科技) is a Shanghai-based enterprise big data and AI infrastructure software company backed by Qiming Venture Partners. Its self-hosted platform spans Transwarp Data Hub (TDH, including a free Community Edition) with the Inceptor SQL analytics engine, Slipstream real-time stream computing, Hyperbase wide-table store, StellarDB distributed graph database, TimeLyre time-series and Scope search engines, the ArgoDB analytical database, the Sophon AI platform (Base, MLDev, MLOps, LLMOps), the TDC data cloud, and the Hippo distributed vector database. Hippo exposes a documented RESTful API and Python API, with an official hippo-api client library published on PyPI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/screenshots/transwarp-2026-09-02T164138.png",
      "score": 21.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2429,7 +2434,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2474,7 +2479,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2526,7 +2531,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -2557,6 +2562,7 @@
      "name": "Xiao-Y Technology (小y科技)",
      "slug": "xy51",
      "description": "Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interactive Technology Co., Ltd. (北京视游互动科技有限公司), is a Chinese smart-TV and big-screen gaming platform behind the 小y游戏厅 TV game store and YFans app, publishing licensed TV editions of titles like 葫芦娃, 胡莱三国2, 我叫MT2, and 中超荣耀. Its 小y手游开放平台 developer platform onboards game studios through first-party YTS SDKs (Android Fusion and iOS) rather than a public REST API, covering registration, qualification review, game submission, and revenue sharing. A Qiming Venture Partners portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/screenshots/xy51-2026-09-02T171215.png",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2570,7 +2576,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2615,7 +2621,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -2660,7 +2666,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2705,7 +2711,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -2750,7 +2756,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2795,7 +2801,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2840,7 +2846,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2878,6 +2884,7 @@
      "name": "Tungee",
      "slug": "tungee",
      "description": "Tungee (Guangzhou Tungee Technology Co., Ltd., 探迹科技) is a Chinese AI sales-intelligence company backed by Qiming Venture Partners. Its Tungee AI Sales Cloud covers the full B2B sales cycle -- AI prospecting over a 300M+ company knowledge graph, inbound capture, outreach via call center, SMS, and email, and an AI CRM -- plus a Sales GPT agent line, a mobile app, and a DingTalk edition. The group also operates Futern, an international B2B leads product, and reports 50,000+ customers. Tungee publishes no public developer portal or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tungee/refs/heads/main/screenshots/tungee-2026-09-02T164527.png",
      "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2891,7 +2898,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2922,6 +2929,7 @@
      "name": "Tuniu",
      "slug": "tuniu",
      "description": "Tuniu (途牛旅游网) is a leading online leisure travel company in China, headquartered in Nanjing and listed on NASDAQ under ticker TOUR. It offers packaged tours, self-guided tours, and a broad range of travel-related services and products including hotels, flights, train tickets, cruises, visas, and local activities. For partners, Tuniu runs an Open Platform (途牛开放平台) at developer.tuniu.com that exposes supplier and retail-partner integration APIs behind developer registration, letting suppliers publish inventory and retail partners distribute Tuniu travel products. This profile was surfaced as a portfolio company of DCM Ventures and enriched by the API Evangelist pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tuniu/refs/heads/main/screenshots/tuniu-2026-09-02T164526.png",
      "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2935,7 +2943,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2980,7 +2988,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -3025,7 +3033,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3070,7 +3078,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3101,6 +3109,7 @@
      "name": "Sunyur",
      "slug": "sunyur",
      "description": "Sunyur (商越科技 / Beijing Sunyur Network Technology Co., Ltd, 北京商越网络科技有限公司) is a Chinese enterprise procurement digitalization company providing AI-driven procurement solutions for large and medium enterprises. Its products include an intelligent procurement middle-platform (采购中台), an SRM supplier relationship management system, an e-procurement SaaS platform, and a procurement mall (采购商城), helping each customer build a dedicated online, digital, and intelligent enterprise procurement platform to raise efficiency and lower cost. Sunyur operates an open integration platform (\"聚贤阁\", open.sunyur.com) that connects enterprises to 30+ mainstream e-commerce platforms and 10+ third-party applications through a single accessToken-authenticated API surface. Sunyur is backed by Qiming Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sunyur/refs/heads/main/screenshots/sunyur-2026-09-02T161156.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3114,7 +3123,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3159,7 +3168,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3204,7 +3213,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3242,6 +3251,7 @@
      "name": "wacai",
      "slug": "wacai",
      "description": "Wacai (挖财, Hangzhou Wacai Network Technology Co., Ltd.) is a Chinese fintech and personal-finance company founded in 2009, best known for its \"挖财记账\" personal accounting and bookkeeping app and its internet wealth-management platform. Beyond its consumer apps, Wacai operates a partner-facing open API gateway (挖财开放平台) at open.wacai.com that exposes services through a single JSON-over-HTTPS entry point using appKey/appSecret signed requests, with official client SDKs published for Java (Maven Central), Node.js, PHP, Go, and C#. It was surfaced as a portfolio company of Qiming Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wacai/refs/heads/main/screenshots/wacai-2026-09-02T170353.png",
      "score": 12.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3255,7 +3265,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3300,7 +3310,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3338,6 +3348,7 @@
      "name": "WeiMai",
      "slug": "weimai",
      "description": "WeiMai (微脉) is a Chinese healthcare technology company operated by Choice Technology Inc. and headquartered in Hangzhou. It runs an internet-based medical services marketplace and licensed internet hospitals (including Hainan WeiMai Internet Hospital) that connect patients with doctors for online consultation, pharmaceutical products, medical devices, and health-management service packages, delivered primarily through the WeiMai consumer mobile app. WeiMai also operates a partner-facing Open Platform (微脉开发平台) at openapi.myweimai.com that exposes a Swagger 2.0 API surface for approved integrators; the public specification is a minimal stub with no operations exposed without partner credentials. The company is backed by IDG Capital and was added to the API Evangelist network as a healthcare portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/weimai/refs/heads/main/screenshots/weimai-2026-09-02T170606.png",
      "score": 11.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3351,7 +3362,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3389,6 +3400,7 @@
      "name": "Xpeng",
      "slug": "xpeng",
      "description": "XPENG (Xiaopeng Motors) is a Chinese smart electric-vehicle company headquartered in Guangzhou that designs and manufactures smart EVs (G6, G7, G9, P7/P7+, X9, MONA M03) with in-house advanced driver-assistance and in-car software, listed on the NYSE (XPEV) and HKEX (9868). Surfaced as a portfolio company of hongshan and idg-capital. XPENG publishes no public developer API: its open platform (open.xiaopeng.com) is geo-restricted and account-gated, and no public API docs, specs, or SDKs were found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xpeng/refs/heads/main/screenshots/xpeng-2026-09-02T171144.png",
      "score": 11.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3402,7 +3414,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3433,6 +3445,7 @@
      "name": "Synyi",
      "slug": "synyi",
      "description": "Synyi (森亿智能 / Shanghai Synyi Medical Technology Co., Ltd.) is a Shanghai-based medical artificial-intelligence company founded in April 2016 that builds AI and big-data systems for hospitals. Its platform uses medical natural-language processing, large-scale medical knowledge graphs and multi-agent LLM applications to normalize and mine the unstructured clinical records held in Chinese hospital information systems, and sells that capability as deployed hospital software spanning clinical decision support, medical-record quality control, hospital operations management, an AI-driven clinic model and clinical research tooling. IDC's \"China Healthcare Big Data Solution Market Share, 2023\" ranked Synyi first in its market. Synyi publishes no public API, no developer portal and no machine-readable contract; its products are enterprise systems deployed inside customer hospitals and reached through a direct sales motion.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/synyi/refs/heads/main/screenshots/synyi-2026-09-02T161645.png",
      "score": 11.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3446,7 +3459,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3498,7 +3511,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3543,7 +3556,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3605,7 +3618,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3650,7 +3663,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3695,7 +3708,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3726,6 +3739,7 @@
      "name": "Vongi Health (芝兰健康)",
      "slug": "vongihealth",
      "description": "Vongi Health (芝兰健康, Hangzhou Zhilan Health Co., Ltd., also branded Slan Health) is a Qiming Venture Partners-backed Chinese digital therapeutics company founded in Hangzhou in 2015. Its hepatitis B mother-to-child transmission prevention digital therapeutic (小贝壳) was the first digital therapeutic certified by China's NMPA, and it also operates a sleep specialty (CBT-I) digital therapeutics platform and a DTx CDMO business covering product R&D, clinical research, regulatory registration, and commercial operations. The company publishes no public API or developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/screenshots/vongihealth-2026-09-02T170235.png",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3739,7 +3753,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3791,7 +3805,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3829,6 +3843,7 @@
      "name": "Zai Lab",
      "slug": "zai-lab",
      "description": "Zai Lab is an innovative, research-based, commercial-stage biopharmaceutical company based in China and the United States, founded in 2014 with headquarters in Cambridge, Massachusetts and Shanghai. The company discovers, develops, and commercializes transformative medicines for conditions with significant unmet patient needs across oncology, immunology, neuroscience, and infectious disease. As a fully integrated biopharma, Zai Lab spans early-stage discovery through development, regulatory approval, manufacturing, and commercialization. It was surfaced in the API Evangelist network as a portfolio company of HongShan and Qiming Venture Partners. Zai Lab publishes a corporate and investor web presence but exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zai-lab/refs/heads/main/screenshots/zai-lab-2026-09-02T171435.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3842,7 +3857,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3894,7 +3909,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3946,7 +3961,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3991,7 +4006,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4036,7 +4051,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4081,7 +4096,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4126,7 +4141,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4164,6 +4179,7 @@
      "name": "Zhangmen",
      "slug": "zhangmen",
      "description": "Zhangmen (掌门1对1 / 掌门教育) is a Shanghai-based online education company offering premium one-on-one and small-group tutoring to K-12 students across China. Its platform pairs students with elite instructors and layers on data-driven, intelligent learning analysis: diagnostic assessment, personalized study plans, real-time classroom monitoring, automated learning reports, and parent progress tracking. Beyond core academic tutoring the company runs quality-education modules spanning public speaking, creative art, programming, and comprehensive/mathematical thinking, along with a piano accompaniment-practice product (zmpeilian.com). The business is a direct-to-consumer web and mobile app play delivered in Simplified Chinese; it exposes no public developer API, SDK, or documentation surface. This profile was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zhangmen/refs/heads/main/screenshots/zhangmen-2026-09-02T171716.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4177,7 +4193,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4215,6 +4231,7 @@
      "name": "Zhihu",
      "slug": "zhihu",
      "description": "Zhihu (知乎) is a Chinese online question-and-answer and knowledge-sharing community, often described as China's answer to Quora, where users post questions and answers, follow topics and creators, and consume long-form content, columns, live sessions, e-books and short video. Founded in 2011 and headquartered in Beijing, Zhihu operates one of China's largest online content communities and is dual-listed (NYSE: ZH; HKEX: 2390). It was surfaced in the API Evangelist network as a portfolio company of Qiming Venture Partners. As of this enrichment pass Zhihu publishes no public developer platform, open API, SDKs, or machine-readable API artifacts on its primary domain; this profile therefore captures company identity plus a probed domain-security posture rather than an API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zhihu/refs/heads/main/screenshots/zhihu-2026-09-02T171718.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4228,7 +4245,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4273,7 +4290,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4318,7 +4335,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4363,7 +4380,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4408,7 +4425,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4453,7 +4470,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4497,7 +4514,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4528,6 +4545,7 @@
      "name": "xiaoyi",
      "slug": "xiaoyi",
      "description": "Xiaoyi Technology (小蚁科技), operated by Shanghai Yunyi Zhilian Technology (上海云蚁智联) and best known for its YI-brand cameras, is a Shanghai-based smart-imaging company that emerged from the Xiaomi ecosystem. It builds action cameras, the M1 mirrorless camera, smart home/security cameras, dash cams and in-car rearview systems, VR cameras, and handheld gimbals, and now positions itself around computer vision, edge intelligence, and edge computing solutions for smart mobility, smart home, smart retail, smart parks, and smart communities, selling through JD and Tmall storefronts. Surfaced as a Qiming Venture Partners portfolio company. No public developer API surface was found during enrichment - the developer subdomain (dev.xiaoyi.com) returns 502, api.xiaoyi.com serves only a placeholder page, and no API documentation, OpenAPI specs, official GitHub organization, or first-party registry packages were located.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xiaoyi/refs/heads/main/screenshots/xiaoyi-2026-09-02T171131.png",
      "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4541,7 +4559,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4585,7 +4603,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4637,7 +4655,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4681,7 +4699,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4726,7 +4744,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4770,7 +4788,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4815,7 +4833,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4846,6 +4864,7 @@
      "name": "Xiudan (Showball)",
      "slug": "xiudan",
      "description": "Shenzhen Xiudan Technology Co., Ltd. (深圳秀蛋科技有限公司) is the Chinese company behind Showball (秀蛋), a virtual social \"meta\" mobile app where users create avatars and socialize in virtual spaces, distributed through the iOS App Store and an Android download on xiudan.net. A Qiming Venture Partners portfolio company, Xiudan publishes no public developer program, API documentation, or machine-readable API artifacts as of July 2026 - this profile records the company identity and probe results for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xiudan/refs/heads/main/screenshots/xiudan-2026-09-02T171135.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4859,7 +4878,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4904,7 +4923,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4935,6 +4954,7 @@
      "name": "Tongdun",
      "slug": "tongdun",
      "description": "Tongdun (同盾科技 / Tongdun Technology) is a Hangzhou-based intelligent risk-control and anti-fraud analytics company whose public product presence now operates under the 小盾未来 (Xiaodun Future) brand at xiaodun.com. It uses AI and intelligent-analysis techniques to predict and score fraud and credit risk across consumer lending, banking, insurance, and e-commerce, delivering decisioning, anti-fraud, and risk-management capabilities to financial institutions, small-loan and consumer-finance lenders, auto finance, and internet businesses. Its risk-control services are consumed as enterprise interfaces (风控接口) provisioned behind account registration and sales onboarding; there is no public self-serve developer portal, OpenAPI, or SDK registry surface exposed at this time. This record was surfaced as a portfolio company of Qiming Venture Partners and enriched from the company's live public web presence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tongdun/refs/heads/main/screenshots/tongdun-2026-09-02T163907.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4948,7 +4968,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4979,6 +4999,7 @@
      "name": "Xinhe Technology",
      "slug": "xinhe-technology",
      "description": "Xinhe Technology (Shanghai Xinhe Box Technology Co., Ltd. / 上海心盒科技有限公司) operates 心愿盒 Match Box, a consumer experience co-creation platform. Brands distribute product samples to precisely targeted consumer segments matched on age, gender, occupation, and consumption-preference tags, collect structured questionnaire feedback and reviews for agile marketing iteration, and convert triallists into private-domain traffic on WeChat official accounts and mini programs. A DCM Ventures portfolio company; it publishes no public developer portal or API surface as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xinhe-technology/refs/heads/main/screenshots/xinhe-technology-2026-09-02T171138.png",
      "score": 7.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4992,7 +5013,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5037,7 +5058,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5082,7 +5103,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5127,7 +5148,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5172,7 +5193,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5224,7 +5245,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5269,7 +5290,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5321,7 +5342,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5366,7 +5387,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5411,7 +5432,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5442,6 +5463,7 @@
      "name": "Xiaopangxiong",
      "slug": "xiaopangxiong",
      "description": "Xiaopangxiong (小胖熊, \"small fat bear\") is a Chinese B2B e-commerce platform for home and office renovation materials, operated by Shanghai Miju Network Technology Co., Ltd. (上海米居网络科技有限公司). The platform connects building-material suppliers with renovation contractors, crew foremen, and decoration companies, selling the full range of auxiliary materials (辅材) — sand, cement, paint and coatings, electrical wiring, pipes, tiles, and leveling supplies — through a self-operated model that spans factory-direct procurement, warehousing, logistics, delivery, installation, and after-sales service. Headquartered in Shanghai with service stations and warehouses in Suzhou, Hangzhou, Hefei, Ningbo, Wuxi, and Jiaxing, Xiaopangxiong is backed by SoftBank Vision Fund 2 and distributes primarily through its 小胖熊 mobile app; the company publishes no public developer portal or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xiaopangxiong/refs/heads/main/screenshots/xiaopangxiong-2026-09-02T171126.png",
      "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5455,7 +5477,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5500,7 +5522,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5552,7 +5574,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5590,6 +5612,7 @@
      "name": "Uxin",
      "slug": "uxin",
      "description": "Uxin (优信) is a Chinese used-car e-commerce company backed by DCM Ventures. It operates the xin.com consumer used-car retail marketplace and the Youxinpai (优信拍) B2B online used-car auction and trading platform that connects dealers with buyers, including vehicle listings, auctions, logistics, and post-sale services. Uxin publishes no public developer portal or API documentation as of this enrichment pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uxin/refs/heads/main/screenshots/uxin-2026-09-02T165249.png",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5603,7 +5626,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5647,7 +5670,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5692,7 +5715,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5737,7 +5760,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5782,7 +5805,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5813,6 +5836,7 @@
      "name": "Z-Trip",
      "slug": "z-trip",
      "description": "Z-Trip (在途商旅) is a Shanghai-based enterprise travel and expense management SaaS platform (a corporate travel management company, or TMC) serving medium and large Chinese enterprises. It unifies booking of flights, hotels, trains, car rentals, visas, insurance, and MICE events with automated expense reporting, budget and policy controls, monthly invoicing, and up to 45 days of advance funding. The platform integrates with corporate OA, ERP, cost-control, and HR systems and offers single sign-on, aggregating supplier inventory from 200+ airlines and millions of hotels for 1,700+ enterprise clients. Surfaced from the dcm-ventures portfolio; no public first-party API/developer platform is published, though third-party integration connectors and SSO exist.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/z-trip/refs/heads/main/screenshots/z-trip-2026-09-02T171417.png",
      "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5826,7 +5850,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5871,7 +5895,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -5916,7 +5940,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5960,7 +5984,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6004,7 +6028,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6049,7 +6073,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6100,7 +6124,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6145,7 +6169,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6190,7 +6214,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6221,6 +6245,7 @@
      "name": "Xiaomishu (订餐小秘书)",
      "slug": "xiaomishu",
      "description": "Xiaomishu (订餐小秘书, \"Dining Little Secretary\") is a Shanghai-based restaurant reservation and dining-marketing technology company operating since 2005 via xiaomishu.com and the 021-57575777 booking hotline. Its platforms — 订餐小秘书, 宴位 (Yanwei, an AI-driven dynamic-pricing product for restaurant private rooms), and 高能店长 — let diners book tables and discounted private-room packages at Shanghai restaurants through web, WAP (m.xiaomishu.com / m.57.cn), phone, and WeChat mini-program channels. The company cites strategic investment from Ctrip and SIG and was surfaced in the API Evangelist network as a Qiming Venture Partners portfolio lead. It publishes no public developer API, portal, or machine-readable surface; api.xiaomishu.com serves a closed (HTTP 403) backend, and the main site is HTTP-only with a mismatched HTTPS certificate.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xiaomishu/refs/heads/main/screenshots/xiaomishu-2026-09-02T171125.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6234,7 +6259,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6279,7 +6304,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6324,7 +6349,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6369,7 +6394,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6421,7 +6446,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6466,7 +6491,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6511,7 +6536,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6556,7 +6581,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6607,7 +6632,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6652,7 +6677,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6696,7 +6721,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6741,7 +6766,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6786,7 +6811,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6830,7 +6855,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6875,7 +6900,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6919,7 +6944,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6964,7 +6989,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7015,7 +7040,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7060,7 +7085,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7105,7 +7130,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7150,7 +7175,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7195,7 +7220,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7239,7 +7264,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7284,7 +7309,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7329,7 +7354,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7374,7 +7399,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7418,7 +7443,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7463,7 +7488,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7508,7 +7533,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7552,7 +7577,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7596,7 +7621,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7640,7 +7665,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7684,7 +7709,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7729,7 +7754,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7773,7 +7798,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7818,7 +7843,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7863,7 +7888,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7907,7 +7932,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7952,7 +7977,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7997,7 +8022,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8042,7 +8067,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8087,7 +8112,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8132,7 +8157,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8177,7 +8202,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8222,7 +8247,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8267,7 +8292,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8312,7 +8337,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8357,7 +8382,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8402,7 +8427,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8446,7 +8471,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8491,7 +8516,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8536,7 +8561,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8581,7 +8606,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8626,7 +8651,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8670,7 +8695,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8714,7 +8739,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8759,7 +8784,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8804,7 +8829,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8849,7 +8874,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8893,7 +8918,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8937,7 +8962,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8981,7 +9006,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9025,7 +9050,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9069,7 +9094,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9113,7 +9138,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9158,7 +9183,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9203,7 +9228,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9247,7 +9272,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9292,7 +9317,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9337,7 +9362,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9381,7 +9406,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9426,7 +9451,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9471,7 +9496,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9515,7 +9540,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9560,7 +9585,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9604,7 +9629,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9649,7 +9674,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9694,7 +9719,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9739,7 +9764,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9784,7 +9809,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9829,7 +9854,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9874,7 +9899,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9919,7 +9944,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9964,7 +9989,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10009,7 +10034,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10054,7 +10079,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10085,6 +10110,7 @@
      "name": "SPES (speschina)",
      "slug": "speschina",
      "description": "SPES (诗裴丝) is a China-based consumer personal-care and beauty brand operating a direct-to-consumer business across Chinese e-commerce and social-commerce channels, including its Tmall flagship store, a JD.com storefront, and Douyin, Xiaohongshu (RED), and Weibo social accounts, with a WeChat official account. The brand runs a marketing website (a Vue.js / Element UI single-page app served from Alibaba Cloud) and was surfaced as a portfolio company of Qiming Venture Partners. It does not currently publish any public developer API, OpenAPI specification, SDK, developer portal, or API documentation; the only HTTP API referenced by its site is a private content backend for the marketing pages. This profile records the enrichment pass that confirmed there is no public API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/speschina/refs/heads/main/screenshots/speschina-2026-09-02T160420.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10098,7 +10124,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10129,6 +10155,7 @@
      "name": "Super Sports Media",
      "slug": "super-sports-media",
      "description": "Super Sports Media Group is an IDG Capital-backed Chinese sports-media company best known for holding the English Premier League broadcast rights in mainland China and operating consumer sports streaming and content services under the ssports.com brand. Its platform was subsequently absorbed into iQiyi Sports (爱奇艺体育), and ssports.com now redirects there. This is a business-to-consumer sports streaming and media-rights operation with no public developer program: no API documentation, developer portal, SDKs, OpenAPI, or open platform surface could be found during enrichment. Profile retained as a network company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/super-sports-media/refs/heads/main/screenshots/super-sports-media-2026-09-02T161231.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10142,7 +10169,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10173,6 +10200,7 @@
      "name": "t4game",
      "slug": "t4game",
      "description": "t4game (呈天游 / Bstonegames) is the brand of Beijing Chengtian Network Technology Co., Ltd., a Chinese online-game developer and operator founded in 2008 and headquartered in Beijing. The company designs, publishes, and operates mobile, PC, and web-based games — including titles such as 醉江湖online (Drunk Rivers and Lakes Online) and 诛神传奇/诛神online (Zhushen Online) — spanning role-playing, real-time strategy, and shooting genres. Its public presence at t4game.com is a consumer-facing game portal (player login, registration, and recharge), company and culture pages, a product catalog, game/media news, and recruitment listings. It was added to the API Evangelist network as a portfolio company of the venture firm Qiming. As of this enrichment pass the company publishes no public developer program: no developer portal, API reference, OpenAPI/AsyncAPI specification, SDKs, CLI, MCP server, or other machine-readable API surface could be found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/t4game/refs/heads/main/screenshots/t4game-2026-09-02T161654.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10186,7 +10214,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10230,7 +10258,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10274,7 +10302,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10305,6 +10333,7 @@
      "name": "Tiebaobei",
      "slug": "tiebaobei",
      "description": "Tiebaobei (铁甲二手机) is a used construction-machinery C2C trading platform operated by Beijing Tiejialong Technology Co., Ltd. (北京铁甲龙科技有限公司). Founded in 2009 out of the Tiebaobei (Cehome) construction-equipment forum, it lets individuals buy and sell used excavators, loaders, bulldozers, cranes, rotary drills and other heavy equipment, backed by a network of ~400 regional \"city manager\" brokers across 30 Chinese provinces who verify and co-inspect machines. The platform layers industry news, equipment inspection/detection, price rankings and financing services on top of the marketplace. It raised A financing from Qiming Venture Partners, a DCM-led Series B (¥100M, 2015) and a Yuansheng-led Series C (¥200M, 2016). This profile was enriched by the API Evangelist pipeline; no public developer API or open platform was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiebaobei/refs/heads/main/screenshots/tiebaobei-2026-09-02T163722.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10318,7 +10347,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10349,6 +10378,7 @@
      "name": "To Summer",
      "slug": "to-summer",
      "description": "To Summer (观夏 / Guanxia) is a Chinese premium home-fragrance and lifestyle brand founded in Beijing, known for its Eastern-inspired scented candles, incense, diffusers, perfumes, and bath and body products. Positioned as a direct-to-consumer scent brand, it sells primarily through its own website, WeChat mini-program, Tmall flagship store, and a growing footprint of physical concept stores across China. To Summer is backed by IDG Capital and was surfaced through the API Evangelist venture-portfolio pipeline. As a consumer retail brand it exposes a customer-facing e-commerce experience rather than a public developer API; this profile captures its identity and the outcome of an enrichment probe that found no public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/to-summer/refs/heads/main/screenshots/to-summer-2026-09-02T163842.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10362,7 +10392,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10393,6 +10423,7 @@
      "name": "tuhu",
      "slug": "tuhu",
      "description": "Tuhu (途虎养车) is a Chinese online-to-offline automotive services platform founded in 2011 and headquartered in Shanghai. Through its app, website, and network of franchised and self-operated workshops it sells tires and provides car maintenance, repair, and related aftermarket services to consumers across China. Tuhu is publicly listed on the Hong Kong Stock Exchange (9690) and counts Qiming Venture Partners among its investors. This API Evangelist profile tracks the company; enrichment probes found no public developer API, open platform, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tuhu/refs/heads/main/screenshots/tuhu-2026-09-02T164459.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10406,7 +10437,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10450,7 +10481,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10494,7 +10525,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10525,6 +10556,7 @@
      "name": "XellSmart Biomedical",
      "slug": "xellsmart",
      "description": "XellSmart Biomedical (士泽生物医药) is a clinical-stage biotechnology company based in Suzhou and Shanghai, China, founded in 2021 by Dr. Xiang Li. The company develops clinical-grade, allogeneic, off-the-shelf iPSC-derived cell therapies for central nervous system diseases, with NMPA- and U.S. FDA-cleared registrational clinical trials in Parkinson's disease, spinal cord injury, and ALS. XellSmart is a Qiming Venture Partners portfolio company and publishes no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xellsmart/refs/heads/main/screenshots/xellsmart-2026-09-02T171223.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10538,7 +10570,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10589,7 +10621,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10620,6 +10652,7 @@
      "name": "Ziroom",
      "slug": "ziroom",
      "description": "Ziroom (自如) is a Beijing-based proptech company operating China's largest centralized long-term apartment rental platform. Spun out of the Lianjia (Homelink) real-estate group in 2011, it leases, renovates, furnishes and manages residential units and re-rents them to urban tenants through its app and website, layering on cleaning, maintenance and smart-home services. It is backed by the SoftBank Vision Fund, Tencent and Sequoia Capital. This profile was added to the API Evangelist network as a VC-portfolio lead; enrichment found no publicly discoverable developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ziroom/refs/heads/main/screenshots/ziroom-2026-09-02T171815.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10633,7 +10666,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10678,7 +10711,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10730,7 +10763,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10782,7 +10815,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10834,7 +10867,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10886,7 +10919,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10938,7 +10971,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10990,7 +11023,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11041,7 +11074,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11086,7 +11119,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11138,7 +11171,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11190,7 +11223,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11242,7 +11275,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11280,6 +11313,7 @@
      "name": "ZhongAn Insurance",
      "slug": "zhongan-insurance",
      "description": "ZhongAn Online P&C Insurance Co., Ltd. is China's first online-only insurance company, founded in 2013 by Ant Financial, Tencent, and Ping An and listed on the Hong Kong Stock Exchange (6060) in 2017. Headquartered in Shanghai, ZhongAn sells digital insurance across health, consumer finance, auto, and lifestyle lines entirely through internet channels, and operates a partner \"open platform\" (open.zhongan.com) plus a technology arm, ZhongAn Technology (zhongan.io), that offers insurtech and cloud services. ZhongAn does not publish a self-serve public developer API program or OpenAPI documentation; integration is partner/ecosystem-driven. This profile was surfaced as a portfolio company of softbank-vision-fund and enriched by the API Evangelist pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zhongan-insurance/refs/heads/main/screenshots/zhongan-insurance-2026-09-02T171738.png",
      "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11293,7 +11327,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11345,7 +11379,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11397,7 +11431,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11435,6 +11469,7 @@
      "name": "Vistel",
      "slug": "vistel",
      "description": "Vistel (Beijing Zhiyuan Huitu Technology, 致远慧图) is a Beijing-based medical AI company founded in 2016 that applies computer vision and deep learning to ophthalmology. Its NMPA Class III and EU CE certified software analyzes fundus images to screen for diabetic retinopathy, glaucoma, and age-related macular degeneration, paired with its RC350 and RX350 fundus cameras and VS550 vision screener, plus telemedicine and image management systems. Backed by Qiming Venture Partners, Cyberport Hong Kong, and Redhill Capital. Vistel publishes no public developer portal or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistel/refs/heads/main/screenshots/vistel-2026-09-02T170055.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11448,7 +11483,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11486,6 +11521,7 @@
      "name": "Wuxi Vision Pro",
      "slug": "wx-visionpro",
      "description": "Wuxi Vision Pro Co., Ltd. (无锡蕾明视康科技有限公司, \"蕾明视康\"), founded in 2010, is a Chinese ophthalmic medical device company that develops, manufactures, and sells intraocular lenses (IOLs) and other high-end ophthalmic consumables, focused on foldable IOL R&D and domestic substitution of imported lenses. Headquartered in Wuxi with a Shanghai branch, and backed by Qiming Venture Partners. No public API or developer surface was found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wx-visionpro/refs/heads/main/screenshots/wx-visionpro-2026-09-02T171031.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11499,7 +11535,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11551,7 +11587,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11603,7 +11639,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11655,7 +11691,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11707,7 +11743,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11759,7 +11795,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11797,6 +11833,7 @@
      "name": "Singular Medical",
      "slug": "singularmedical",
      "description": "Singular Medical (Suzhou Singular Medical Equipment Co., Ltd. / 苏州无双医疗设备有限公司) is a Chinese medical-device company pioneering the domestic research, development, and manufacturing of cardiac rhythm management (CRM) products. It builds China's own implantable cardioverter defibrillators (ICD) and implantable cardiac monitors (ICM) — devices that automatically identify malignant arrhythmias, deliver anti-tachycardia pacing and defibrillation to prevent sudden cardiac death, and provide long-term subcutaneous ECG monitoring for the diagnosis of unexplained syncope, atrial fibrillation, and cryptogenic stroke, with cloud-based event transmission for remote clinical review. Backed by Qiming Venture Partners. This is a medical-device hardware manufacturer with a corporate marketing web presence and no public developer, API, or documentation program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/singularmedical/refs/heads/main/screenshots/singularmedical-2026-09-02T155717.png",
      "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11810,7 +11847,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11862,7 +11899,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11914,7 +11951,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11966,7 +12003,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12017,7 +12054,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12069,7 +12106,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12121,7 +12158,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12172,7 +12209,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12224,7 +12261,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12276,7 +12313,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12328,7 +12365,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12379,7 +12416,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12431,7 +12468,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12483,7 +12520,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12535,7 +12572,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12587,7 +12624,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12638,7 +12675,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12690,7 +12727,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12742,7 +12779,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12794,7 +12831,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12846,7 +12883,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12898,7 +12935,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12950,7 +12987,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13002,7 +13039,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13053,7 +13090,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13105,7 +13142,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13157,7 +13194,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13209,7 +13246,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13260,7 +13297,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13312,7 +13349,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13364,7 +13401,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13415,7 +13452,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13467,7 +13504,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13518,7 +13555,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13570,7 +13607,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13621,7 +13658,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13673,7 +13710,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13711,6 +13748,7 @@
      "name": "SinoUnited Health",
      "slug": "suh",
      "description": "SinoUnited Health (曜影医疗) is a premium private healthcare provider headquartered in Shanghai, China, operating a group of international-standard medical and dental clinics offering family medicine, specialty care, and dental services. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. As a private, in-person healthcare services provider, it publishes no public developer API, SDK, or developer portal surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suh/refs/heads/main/screenshots/suh-2026-09-02T161115.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13724,7 +13762,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13775,7 +13813,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13813,6 +13851,7 @@
      "name": "tisenc",
      "slug": "tisenc",
      "description": "tisenc (天深医疗 / Tianshen Medical) is a Chinese in-vitro diagnostics (IVD) medical-device manufacturer based in Guangdong, backed by Qiming Venture Partners. The company develops chemiluminescence immunoassay analyzers and point-of-care testing (POCT) systems — its ACCRE 8, ACCRE 90, and ACCRE 120 single-sample chemiluminescence platforms and an accompanying reagent menu — together with a digital POCT management platform. It is a nationally recognized high-tech enterprise. tisenc operates a corporate marketing website only (WordPress/Qifeiye, hosted in China); as of this enrichment pass it publishes no public API, developer portal, SDK, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tisenc/refs/heads/main/screenshots/tisenc-2026-09-02T163822.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13826,7 +13865,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13864,6 +13903,7 @@
      "name": "venusmedtech",
      "slug": "venusmedtech",
      "description": "Venus Medtech (Hangzhou) Inc. is a China-based innovator in transcatheter structural heart valve therapies, founded in 2009 and headquartered in Hangzhou. Listed on the Hong Kong Stock Exchange (2500.HK), it pioneered first-in-China TAVR and TPVR solutions and covers TAVR, TPVR, TMVR and TTVR heart valve intervention devices, including the commercialized VenusA-Valve, VenusA-Plus, VenusA-Pro, VenusA-Deluxe and the VenusP-Valve TPVR system. It is a physical medical-device manufacturer that publishes a corporate/product marketing site and an eIFU (electronic Instructions for Use) portal, and has no public developer API surface. Surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/venusmedtech/refs/heads/main/screenshots/venusmedtech-2026-09-02T165720.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13877,7 +13917,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13915,6 +13955,7 @@
      "name": "VINNO",
      "slug": "vinno",
      "description": "VINNO Corporation (飞依诺科技股份有限公司) is a Chinese medical device manufacturer, headquartered in Suzhou, that develops and produces digital color ultrasound (Doppler) imaging systems — cart-based, portable, and handheld/pocket devices — for clinical diagnostics and research. Product lines include the ULTIMUS and VINNO R-series ultrasound platforms plus Stream-series CPAP respiratory devices, built on proprietary soft beamforming and ultra-high-resolution micro-vascular imaging technology, with remote-diagnostic center and support services across 50+ countries. Surfaced as a portfolio company of Qiming Venture Partners. As of enrichment the company publishes no public API, SDK, or developer surface (medical-device hardware manufacturer).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vinno/refs/heads/main/screenshots/vinno-2026-09-02T165932.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13928,7 +13969,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13966,6 +14007,7 @@
      "name": "xiaoniaokuaiyan",
      "slug": "xiaoniaokuaiyan",
      "description": "Xiaoniaokuaiyan (小鸟快验) is an in-home health-checkup and blood-testing service brand operated by Beijing Cloud Artery Health Management Co., Ltd (北京云动脉健康管理有限公司), a Qiming-backed internet-healthcare startup based in Chaoyang, Beijing. It offers on-demand at-home sample collection by licensed nurses with results processed by nationally accredited laboratories, spanning routine checkups, tumor screening, infection testing, chronic-disease monitoring, and custom corporate and family panels. The company operates via its consumer website, WeChat official account, and mobile apps; it publishes no public developer portal, documentation, or API surface. This profile was added to the API Evangelist network as a Qiming portfolio lead and enriched by the pipeline; the honest result is that no public API artifacts exist to harvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xiaoniaokuaiyan/refs/heads/main/screenshots/xiaoniaokuaiyan-2026-09-02T171125.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13979,7 +14021,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14017,6 +14059,7 @@
      "name": "zeenhealth",
      "slug": "zeenhealth",
      "description": "zeenhealth is a health company surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network as a stub for enrichment. Its public web and API surface (zeenhealth.com, zeenhealth.cn, api.zeenhealth.com) is hosted on Chinese cloud infrastructure (Tencent Cloud, with Feishu/Lark email) and was not reachable from the enrichment environment, so no developer portal, OpenAPI, SDKs, or documentation could be harvested this pass. This profile remains a lead awaiting a reachable developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zeenhealth/refs/heads/main/screenshots/zeenhealth-2026-09-02T171522.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14030,7 +14073,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14081,7 +14124,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14133,7 +14176,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14185,7 +14228,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14236,7 +14279,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14274,6 +14317,7 @@
      "name": "VIPThink",
      "slug": "vipthink",
      "description": "VIPThink (豌豆思维) is a Chinese online education company operated by Guangdong Happy Seeds Technology Co., Ltd. (广东快乐种子科技有限公司), delivering small-class live-streaming courses in mathematical thinking and logic for young children (roughly ages 3-8). It is part of a family of consumer education brands that also includes Hualala drawing classes (画啦啦), Wandou speech training (豌豆口才), Gubi early-learning (咕比启蒙), and Little Lighthouse (小灯塔). The company was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network. As of this enrichment pass, VIPThink operates only consumer-facing web and mobile learning products and publishes no public developer portal, API documentation, SDKs, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vipthink/refs/heads/main/screenshots/vipthink-2026-09-02T165952.png",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14287,7 +14331,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14325,6 +14369,7 @@
      "name": "Zuoyebang",
      "slug": "zuoyebang",
      "description": "Zuoyebang (作业帮) is a Chinese educational technology company founded in 2015 and headquartered in Beijing, backed by SoftBank Vision Fund. It operates a \"technology + education\" online learning platform whose flagship homework-help app lets K-12 students photograph a problem to get step-by-step answers, on-demand tutoring, and self-study tools across all subjects, alongside math tutoring products aimed at elementary-school parents and teachers. It is a consumer mobile/web product with no public developer program, open platform, or documented API surface at the time of this enrichment pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuoyebang/refs/heads/main/screenshots/zuoyebang-2026-09-02T172007.png",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14338,7 +14383,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14390,7 +14435,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14441,7 +14486,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14492,7 +14537,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14543,7 +14588,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14595,7 +14640,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14647,7 +14692,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14699,7 +14744,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14750,7 +14795,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14801,7 +14846,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14853,7 +14898,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14905,7 +14950,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14957,7 +15002,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15009,7 +15054,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15060,7 +15105,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15112,7 +15157,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15164,7 +15209,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15215,7 +15260,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15267,7 +15312,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15318,7 +15363,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15356,6 +15401,7 @@
      "name": "Sunshine Lake Pharma",
      "slug": "sunshine-lake-pharma",
      "description": "Sunshine Lake Pharma (Guangdong East Sunshine Pharmaceutical Co., Ltd., also known as HEC Pharm) is a Chinese pharmaceutical company established in 2003 and part of the Dongyangguang (HEC) Group. It engages in drug research, development, production, and commercialization across innovative drugs, improved formulations, generics, and biosimilars, focused on infections, chronic diseases, and oncology. Notable products include oseltamivir phosphate (influenza), sofosbuvir-based hepatitis C therapy, and insulin glargine (diabetes). It is a manufacturer with no public developer or API surface. Surfaced as a portfolio company of idg-capital and added to the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sunshine-lake-pharma/refs/heads/main/screenshots/sunshine-lake-pharma-2026-09-02T161256.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15369,7 +15415,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15420,7 +15466,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15471,7 +15517,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15509,6 +15555,7 @@
      "name": "Wecare Probiotics",
      "slug": "wecare-bio",
      "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic strain research, intelligent manufacturing, and application solutions for the food, nutrition, and agriculture industries. It operates three research institutes and five intelligent manufacturing facilities across Suzhou, Luohe, and Wuhan, producing product lines including WecLac probiotics, WecPro formula, and WecCul. Its BLa80 strain became the first probiotic strain approved for infant food in mainland China. The company presents a corporate information website only; no public developer portal, API, or technical documentation is published, so this profile carries company identity rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecare-bio/refs/heads/main/screenshots/wecare-bio-2026-09-02T170548.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15522,7 +15569,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15574,7 +15621,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15625,7 +15672,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15677,7 +15724,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15728,7 +15775,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15780,7 +15827,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15832,7 +15879,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15884,7 +15931,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15936,7 +15983,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -15987,7 +16034,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -16038,7 +16085,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -16090,7 +16137,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

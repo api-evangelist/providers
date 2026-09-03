@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 10
@@ -44,178 +44,294 @@ agentic_access:
   summary_line: 385 operations · 238 acting · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin API from Baserow — 14 operation(s) for admin.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Admin API from Baserow — 14 operation(s) for admin.
   name: Baserow Admin API
   slug: baserow-admin-api
-- description: The Admin data scanner API from Baserow — 7 operation(s) for admin data scanner.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Admin data scanner API from Baserow — 7 operation(s) for admin data scanner.
   name: Baserow Admin data scanner API
   slug: baserow-admin-data-scanner-api
-- description: The AI Assistant API from Baserow — 4 operation(s) for ai assistant.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The AI Assistant API from Baserow — 4 operation(s) for ai assistant.
   name: Baserow AI Assistant API
   slug: baserow-ai-assistant-api
-- description: The Applications API from Baserow — 5 operation(s) for applications.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Applications API from Baserow — 5 operation(s) for applications.
   name: Baserow Applications API
   slug: baserow-applications-api
-- description: The Audit log API from Baserow — 8 operation(s) for audit log.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Audit log API from Baserow — 8 operation(s) for audit log.
   name: Baserow Audit log API
   slug: baserow-audit-log-api
-- description: The Auth API from Baserow — 11 operation(s) for auth.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Auth API from Baserow — 11 operation(s) for auth.
   name: Baserow Auth API
   slug: baserow-auth-api
-- description: The Automation history API from Baserow — 2 operation(s) for automation history.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Automation history API from Baserow — 2 operation(s) for automation history.
   name: Baserow Automation history API
   slug: baserow-automation-history-api
-- description: The Automation nodes API from Baserow — 6 operation(s) for automation nodes.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Automation nodes API from Baserow — 6 operation(s) for automation nodes.
   name: Baserow Automation nodes API
   slug: baserow-automation-nodes-api
-- description: The Automation workflows API from Baserow — 7 operation(s) for automation workflows.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Automation workflows API from Baserow — 7 operation(s) for automation workflows.
   name: Baserow Automation workflows API
   slug: baserow-automation-workflows-api
-- description: The Builder data sources API from Baserow — 9 operation(s) for builder data sources.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder data sources API from Baserow — 9 operation(s) for builder data sources.
   name: Baserow Builder data sources API
   slug: baserow-builder-data-sources-api
-- description: The Builder domains API from Baserow — 5 operation(s) for builder domains.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder domains API from Baserow — 5 operation(s) for builder domains.
   name: Baserow Builder domains API
   slug: baserow-builder-domains-api
-- description: The Builder elements API from Baserow — 5 operation(s) for builder elements.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder elements API from Baserow — 5 operation(s) for builder elements.
   name: Baserow Builder elements API
   slug: baserow-builder-elements-api
-- description: The Builder pages API from Baserow — 4 operation(s) for builder pages.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder pages API from Baserow — 4 operation(s) for builder pages.
   name: Baserow Builder pages API
   slug: baserow-builder-pages-api
-- description: The Builder public API from Baserow — 6 operation(s) for builder public.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder public API from Baserow — 6 operation(s) for builder public.
   name: Baserow Builder public API
   slug: baserow-builder-public-api
-- description: The Builder theme API from Baserow — 1 operation(s) for builder theme.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder theme API from Baserow — 1 operation(s) for builder theme.
   name: Baserow Builder theme API
   slug: baserow-builder-theme-api
-- description: The Builder workflow actions API from Baserow — 5 operation(s) for builder workflow actions.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Builder workflow actions API from Baserow — 5 operation(s) for builder workflow actions.
   name: Baserow Builder workflow actions API
   slug: baserow-builder-workflow-actions-api
-- description: The Core webhooks API from Baserow — 1 operation(s) for core webhooks.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Core webhooks API from Baserow — 1 operation(s) for core webhooks.
   name: Baserow Core webhooks API
   slug: baserow-core-webhooks-api
-- description: The Dashboard data sources API from Baserow — 3 operation(s) for dashboard data sources.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Dashboard data sources API from Baserow — 3 operation(s) for dashboard data sources.
   name: Baserow Dashboard data sources API
   slug: baserow-dashboard-data-sources-api
-- description: The Dashboard widgets API from Baserow — 2 operation(s) for dashboard widgets.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Dashboard widgets API from Baserow — 2 operation(s) for dashboard widgets.
   name: Baserow Dashboard widgets API
   slug: baserow-dashboard-widgets-api
-- description: The Database table calendar view API from Baserow — 2 operation(s) for database table calendar view.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table calendar view API from Baserow — 2 operation(s) for database table calendar view.
   name: Baserow Database table calendar view API
   slug: baserow-database-table-calendar-view-api
-- description: The Database table export API from Baserow — 2 operation(s) for database table export.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table export API from Baserow — 2 operation(s) for database table export.
   name: Baserow Database table export API
   slug: baserow-database-table-export-api
-- description: The Database table fields API from Baserow — 9 operation(s) for database table fields.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table fields API from Baserow — 9 operation(s) for database table fields.
   name: Baserow Database table fields API
   slug: baserow-database-table-fields-api
-- description: The Database table form view API from Baserow — 3 operation(s) for database table form view.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table form view API from Baserow — 3 operation(s) for database table form view.
   name: Baserow Database table form view API
   slug: baserow-database-table-form-view-api
-- description: The Database table gallery view API from Baserow — 2 operation(s) for database table gallery view.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table gallery view API from Baserow — 2 operation(s) for database table gallery view.
   name: Baserow Database table gallery view API
   slug: baserow-database-table-gallery-view-api
-- description: The Database table grid view API from Baserow — 5 operation(s) for database table grid view.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table grid view API from Baserow — 5 operation(s) for database table grid view.
   name: Baserow Database table grid view API
   slug: baserow-database-table-grid-view-api
-- description: The Database table kanban view API from Baserow — 2 operation(s) for database table kanban view.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table kanban view API from Baserow — 2 operation(s) for database table kanban view.
   name: Baserow Database table kanban view API
   slug: baserow-database-table-kanban-view-api
-- description: The Database table rows API from Baserow — 11 operation(s) for database table rows.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table rows API from Baserow — 11 operation(s) for database table rows.
   name: Baserow Database table rows API
   slug: baserow-database-table-rows-api
-- description: The Database table timeline view API from Baserow — 2 operation(s) for database table timeline view.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table timeline view API from Baserow — 2 operation(s) for database table timeline view.
   name: Baserow Database table timeline view API
   slug: baserow-database-table-timeline-view-api
-- description: The Database table view decorations API from Baserow — 2 operation(s) for database table view decorations.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table view decorations API from Baserow — 2 operation(s) for database table view decorations.
   name: Baserow Database table view decorations API
   slug: baserow-database-table-view-decorations-api
-- description: The Database table view export API from Baserow — 2 operation(s) for database table view export.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table view export API from Baserow — 2 operation(s) for database table view export.
   name: Baserow Database table view export API
   slug: baserow-database-table-view-export-api
-- description: The Database table view filters API from Baserow — 4 operation(s) for database table view filters.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table view filters API from Baserow — 4 operation(s) for database table view filters.
   name: Baserow Database table view filters API
   slug: baserow-database-table-view-filters-api
-- description: The Database table view groupings API from Baserow — 3 operation(s) for database table view groupings.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table view groupings API from Baserow — 3 operation(s) for database table view groupings.
   name: Baserow Database table view groupings API
   slug: baserow-database-table-view-groupings-api
-- description: The Database table view sortings API from Baserow — 3 operation(s) for database table view sortings.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table view sortings API from Baserow — 3 operation(s) for database table view sortings.
   name: Baserow Database table view sortings API
   slug: baserow-database-table-view-sortings-api
-- description: The Database table views API from Baserow — 14 operation(s) for database table views.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table views API from Baserow — 14 operation(s) for database table views.
   name: Baserow Database table views API
   slug: baserow-database-table-views-api
-- description: The Database table webhooks API from Baserow — 3 operation(s) for database table webhooks.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database table webhooks API from Baserow — 3 operation(s) for database table webhooks.
   name: Baserow Database table webhooks API
   slug: baserow-database-table-webhooks-api
-- description: The Database tables API from Baserow — 13 operation(s) for database tables.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database tables API from Baserow — 13 operation(s) for database tables.
   name: Baserow Database tables API
   slug: baserow-database-tables-api
-- description: The Database tokens API from Baserow — 3 operation(s) for database tokens.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Database tokens API from Baserow — 3 operation(s) for database tokens.
   name: Baserow Database tokens API
   slug: baserow-database-tokens-api
-- description: The Field permissions API from Baserow — 1 operation(s) for field permissions.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Field permissions API from Baserow — 1 operation(s) for field permissions.
   name: Baserow Field permissions API
   slug: baserow-field-permissions-api
-- description: The Field rules API from Baserow — 3 operation(s) for field rules.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Field rules API from Baserow — 3 operation(s) for field rules.
   name: Baserow Field rules API
   slug: baserow-field-rules-api
-- description: The Health API from Baserow — 3 operation(s) for health.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Health API from Baserow — 3 operation(s) for health.
   name: Baserow Health API
   slug: baserow-health-api
-- description: The Integrations API from Baserow — 3 operation(s) for integrations.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Integrations API from Baserow — 3 operation(s) for integrations.
   name: Baserow Integrations API
   slug: baserow-integrations-api
-- description: The Jobs API from Baserow — 3 operation(s) for jobs.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Jobs API from Baserow — 3 operation(s) for jobs.
   name: Baserow Jobs API
   slug: baserow-jobs-api
-- description: The MCP endpoints API from Baserow — 2 operation(s) for mcp endpoints.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The MCP endpoints API from Baserow — 2 operation(s) for mcp endpoints.
   name: Baserow MCP endpoints API
   slug: baserow-mcp-endpoints-api
-- description: The Notifications API from Baserow — 3 operation(s) for notifications.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Notifications API from Baserow — 3 operation(s) for notifications.
   name: Baserow Notifications API
   slug: baserow-notifications-api
-- description: The Role assignments API from Baserow — 2 operation(s) for role assignments.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Role assignments API from Baserow — 2 operation(s) for role assignments.
   name: Baserow Role assignments API
   slug: baserow-role-assignments-api
-- description: The Search API from Baserow — 1 operation(s) for search.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Search API from Baserow — 1 operation(s) for search.
   name: Baserow Search API
   slug: baserow-search-api
-- description: The Secure file serve API from Baserow — 1 operation(s) for secure file serve.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Secure file serve API from Baserow — 1 operation(s) for secure file serve.
   name: Baserow Secure file serve API
   slug: baserow-secure-file-serve-api
-- description: The Settings API from Baserow — 3 operation(s) for settings.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Settings API from Baserow — 3 operation(s) for settings.
   name: Baserow Settings API
   slug: baserow-settings-api
-- description: The Snapshots API from Baserow — 3 operation(s) for snapshots.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Snapshots API from Baserow — 3 operation(s) for snapshots.
   name: Baserow Snapshots API
   slug: baserow-snapshots-api
-- description: The Teams API from Baserow — 4 operation(s) for teams.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Teams API from Baserow — 4 operation(s) for teams.
   name: Baserow Teams API
   slug: baserow-teams-api
-- description: The Templates API from Baserow — 3 operation(s) for templates.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Templates API from Baserow — 3 operation(s) for templates.
   name: Baserow Templates API
   slug: baserow-templates-api
-- description: The Trash API from Baserow — 3 operation(s) for trash.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Trash API from Baserow — 3 operation(s) for trash.
   name: Baserow Trash API
   slug: baserow-trash-api
-- description: The User API from Baserow — 17 operation(s) for user.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The User API from Baserow — 17 operation(s) for user.
   name: Baserow User API
   slug: baserow-user-api
-- description: The User files API from Baserow — 2 operation(s) for user files.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The User files API from Baserow — 2 operation(s) for user files.
   name: Baserow User files API
   slug: baserow-user-files-api
-- description: The User source roles API from Baserow — 1 operation(s) for user source roles.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The User source roles API from Baserow — 1 operation(s) for user source roles.
   name: Baserow User source roles API
   slug: baserow-user-source-roles-api
-- description: The User sources API from Baserow — 12 operation(s) for user sources.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The User sources API from Baserow — 12 operation(s) for user sources.
   name: Baserow User sources API
   slug: baserow-user-sources-api
-- description: The Workspace invitations API from Baserow — 5 operation(s) for workspace invitations.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Workspace invitations API from Baserow — 5 operation(s) for workspace invitations.
   name: Baserow Workspace invitations API
   slug: baserow-workspace-invitations-api
-- description: The Workspaces API from Baserow — 14 operation(s) for workspaces.
+- baseURL: https://api.baserow.io
+  baseurl_source: declared
+  description: The Workspaces API from Baserow — 14 operation(s) for workspaces.
   name: Baserow Workspaces API
   slug: baserow-workspaces-api
 artifact_total: 127
@@ -580,7 +696,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/screenshots/baserow-2026-06-20T173022.png
 security:

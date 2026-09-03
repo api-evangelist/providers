@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
-- description: The Accounts API from Basiq — 2 operation(s) for accounts.
+- baseURL: https://au-api.basiq.io
+  baseurl_source: declared
+  description: The Accounts API from Basiq — 2 operation(s) for accounts.
   name: Basiq Accounts API
   slug: basiq-accounts-api
-- description: The Affordability API from Basiq — 2 operation(s) for affordability.
+- baseURL: https://au-api.basiq.io
+  baseurl_source: declared
+  description: The Affordability API from Basiq — 2 operation(s) for affordability.
   name: Basiq Affordability API
   slug: basiq-affordability-api
-- description: The Authentication API from Basiq — 1 operation(s) for authentication.
+- baseURL: https://au-api.basiq.io
+  baseurl_source: declared
+  description: The Authentication API from Basiq — 1 operation(s) for authentication.
   name: Basiq Authentication API
   slug: basiq-authentication-api
-- description: The Connections API from Basiq — 2 operation(s) for connections.
+- baseURL: https://au-api.basiq.io
+  baseurl_source: declared
+  description: The Connections API from Basiq — 2 operation(s) for connections.
   name: Basiq Connections API
   slug: basiq-connections-api
-- description: The Transactions API from Basiq — 2 operation(s) for transactions.
+- baseURL: https://au-api.basiq.io
+  baseurl_source: declared
+  description: The Transactions API from Basiq — 2 operation(s) for transactions.
   name: Basiq Transactions API
   slug: basiq-transactions-api
-- description: The Users API from Basiq — 2 operation(s) for users.
+- baseURL: https://au-api.basiq.io
+  baseurl_source: declared
+  description: The Users API from Basiq — 2 operation(s) for users.
   name: Basiq Users API
   slug: basiq-users-api
 artifact_total: 83
@@ -389,7 +401,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png
 security:

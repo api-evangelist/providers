@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: A simple HTTPS api that can randomly select and return a fact from the FFA database
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fun-fact/refs/heads/main/screenshots/fun-fact-2026-06-20T181612.png
 security:

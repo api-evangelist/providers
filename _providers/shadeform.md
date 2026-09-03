@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 1
 apis:
-- description: Query standardized instance types, availability, and pricing.
+- baseURL: https://api.shadeform.ai/v1
+  baseurl_source: declared
+  description: Query standardized instance types, availability, and pricing.
   name: Shadeform Instance Types API
   slug: shadeform-instance-types-api
-- description: Launch and manage GPU instances across clouds.
+- baseURL: https://api.shadeform.ai/v1
+  baseurl_source: declared
+  description: Launch and manage GPU instances across clouds.
   name: Shadeform Instances API
   slug: shadeform-instances-api
-- description: Manage SSH public keys for instance access.
+- baseURL: https://api.shadeform.ai/v1
+  baseurl_source: declared
+  description: Manage SSH public keys for instance access.
   name: Shadeform SSH Keys API
   slug: shadeform-ssh-keys-api
-- description: Save and reuse launch templates.
+- baseURL: https://api.shadeform.ai/v1
+  baseurl_source: declared
+  description: Save and reuse launch templates.
   name: Shadeform Templates API
   slug: shadeform-templates-api
-- description: Manage persistent storage volumes.
+- baseURL: https://api.shadeform.ai/v1
+  baseurl_source: declared
+  description: Manage persistent storage volumes.
   name: Shadeform Volumes API
   slug: shadeform-volumes-api
 artifact_total: 18
@@ -160,7 +170,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -183,8 +193,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shadeform/refs/heads/main/screenshots/shadeform-2026-09-02T155055.png
 security:
 - kind: authentication
   name: Shadeform Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 79 operations · 34 acting
 api_count: 10
 apis:
-- description: The DKIM Keys API from SparkPost — 3 operation(s) for dkim keys.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The DKIM Keys API from SparkPost — 3 operation(s) for dkim keys.
   name: SparkPost DKIM Keys API
   slug: sparkpost-dkim-keys-api
-- description: The Events API from SparkPost — 4 operation(s) for events.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Events API from SparkPost — 4 operation(s) for events.
   name: SparkPost Events API
   slug: sparkpost-events-api
-- description: The Inbound Domains API from SparkPost — 2 operation(s) for inbound domains.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Inbound Domains API from SparkPost — 2 operation(s) for inbound domains.
   name: SparkPost Inbound Domains API
   slug: sparkpost-inbound-domains-api
-- description: The Metrics API from SparkPost — 17 operation(s) for metrics.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Metrics API from SparkPost — 17 operation(s) for metrics.
   name: SparkPost Metrics API
   slug: sparkpost-metrics-api
-- description: The Recipient Lists API from SparkPost — 2 operation(s) for recipient lists.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Recipient Lists API from SparkPost — 2 operation(s) for recipient lists.
   name: SparkPost Recipient Lists API
   slug: sparkpost-recipient-lists-api
-- description: The Relay Webhooks API from SparkPost — 3 operation(s) for relay webhooks.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Relay Webhooks API from SparkPost — 3 operation(s) for relay webhooks.
   name: SparkPost Relay Webhooks API
   slug: sparkpost-relay-webhooks-api
-- description: The Sending Domains API from SparkPost — 3 operation(s) for sending domains.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Sending Domains API from SparkPost — 3 operation(s) for sending domains.
   name: SparkPost Sending Domains API
   slug: sparkpost-sending-domains-api
-- description: The Subaccounts API from SparkPost — 3 operation(s) for subaccounts.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Subaccounts API from SparkPost — 3 operation(s) for subaccounts.
   name: SparkPost Subaccounts API
   slug: sparkpost-subaccounts-api
-- description: The Suppression List API from SparkPost — 3 operation(s) for suppression list.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Suppression List API from SparkPost — 3 operation(s) for suppression list.
   name: SparkPost Suppression List API
   slug: sparkpost-suppression-list-api
-- description: The Templates API from SparkPost — 4 operation(s) for templates.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Templates API from SparkPost — 4 operation(s) for templates.
   name: SparkPost Templates API
   slug: sparkpost-templates-api
-- description: The Transmissions API from SparkPost — 2 operation(s) for transmissions.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Transmissions API from SparkPost — 2 operation(s) for transmissions.
   name: SparkPost Transmissions API
   slug: sparkpost-transmissions-api
-- description: The Webhooks API from SparkPost — 6 operation(s) for webhooks.
+- baseURL: https://api.sparkpost.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from SparkPost — 6 operation(s) for webhooks.
   name: SparkPost Webhooks API
   slug: sparkpost-webhooks-api
 artifact_total: 40
@@ -309,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/screenshots/sparkpost-2026-06-20T194256.png
 security:

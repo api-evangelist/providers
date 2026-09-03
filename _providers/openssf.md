@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,19 +49,29 @@ apis:
 - description: GUAC aggregates software supply-chain security metadata (SBOMs, attestations, vulnerabilities, signatures) into a queryable graph. GUAC exposes a GraphQL API for supply-chain queries when self-hosted.
   name: GUAC (Graph for Understanding Artifact Composition)
   slug: guac-api
-- description: The Projects API from OpenSSF — 1 operation(s) for projects.
+- baseURL: https://api.osv.dev
+  baseurl_source: declared
+  description: The Projects API from OpenSSF — 1 operation(s) for projects.
   name: OpenSSF Projects API
   slug: openssf-projects-api
-- description: The Query API from OpenSSF — 1 operation(s) for query.
+- baseURL: https://api.osv.dev
+  baseurl_source: declared
+  description: The Query API from OpenSSF — 1 operation(s) for query.
   name: OpenSSF Query API
   slug: openssf-query-api
-- description: The Querybatch API from OpenSSF — 1 operation(s) for querybatch.
+- baseURL: https://api.osv.dev
+  baseurl_source: declared
+  description: The Querybatch API from OpenSSF — 1 operation(s) for querybatch.
   name: OpenSSF Querybatch API
   slug: openssf-querybatch-api
-- description: The V1experimental API from OpenSSF — 2 operation(s) for v1experimental.
+- baseURL: https://api.osv.dev
+  baseurl_source: declared
+  description: The V1experimental API from OpenSSF — 2 operation(s) for v1experimental.
   name: OpenSSF V1experimental API
   slug: openssf-v1experimental-api
-- description: The Vulns API from OpenSSF — 1 operation(s) for vulns.
+- baseURL: https://api.osv.dev
+  baseurl_source: declared
+  description: The Vulns API from OpenSSF — 1 operation(s) for vulns.
   name: OpenSSF Vulns API
   slug: openssf-vulns-api
 artifact_total: 24
@@ -249,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/screenshots/openssf-2026-06-20T191036.png
 security:

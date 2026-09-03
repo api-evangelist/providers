@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 26 operations
 api_count: 9
 apis:
-- description: 'Public, unauthenticated read access to Hydrostor''s Advanced Compressed Air Energy Storage project portfolio — the site-specific `project` custom post type behind hydrostor.ca/projects/. Verified live '
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to Hydrostor''s Advanced Compressed Air Energy Storage project portfolio — the site-specific `project` custom post type behind hydrostor.ca/projects/. Verified live '
   name: Hydrostor Projects API
   slug: hydrostor-projects-api
-- description: Public, unauthenticated read access to the Hydrostor newsroom archive — press releases, company insights and featured media coverage — via the WordPress core REST API behind hydrostor.ca. Verified liv
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Hydrostor newsroom archive — press releases, company insights and featured media coverage — via the WordPress core REST API behind hydrostor.ca. Verified liv
   name: Hydrostor Posts API
   slug: hydrostor-posts-api
-- description: Public, unauthenticated read access to the static marketing and policy pages of hydrostor.ca — the company, technology and geology explainers, the project index, use cases, careers, contact, media kit
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static marketing and policy pages of hydrostor.ca — the company, technology and geology explainers, the project index, use cases, careers, contact, media kit
   name: Hydrostor Pages API
   slug: hydrostor-pages-api
-- description: Public, unauthenticated read access to the media library behind hydrostor.ca — project renders, facility and geology photography, technology diagrams and press assets, each with its generated size var
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind hydrostor.ca — project renders, facility and geology photography, technology diagrams and press assets, each with its generated size var
   name: Hydrostor Media API
   slug: hydrostor-media-api
-- description: 'Public, unauthenticated read access to the classification vocabularies behind hydrostor.ca: newsroom categories and tags, plus the site-specific `project_category` and `project_tag` taxonomies registe'
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the classification vocabularies behind hydrostor.ca: newsroom categories and tags, plus the site-specific `project_category` and `project_tag` taxonomies registe'
   name: Hydrostor Taxonomy API
   slug: hydrostor-taxonomy-api
-- description: Public, unauthenticated cross-content search over hydrostor.ca — newsroom posts, static pages and the A-CAES project portfolio in one result set, each result carrying its id, title, canonical URL, typ
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over hydrostor.ca — newsroom posts, static pages and the A-CAES project portfolio in one result set, each result carrying its id, title, canonical URL, typ
   name: Hydrostor Search API
   slug: hydrostor-search-api
-- description: Public, unauthenticated discovery metadata for hydrostor.ca — the self-describing route index (340 routes across 18 namespaces at capture), the registered content types and taxonomies, the publication
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated discovery metadata for hydrostor.ca — the self-describing route index (340 routes across 18 namespaces at capture), the registered content types and taxonomies, the publication
   name: Hydrostor Discovery API
   slug: hydrostor-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for hydrostor.ca URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any newsroom post, static page or A-CAES project page. Re
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for hydrostor.ca URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any newsroom post, static page or A-CAES project page. Re
   name: Hydrostor oEmbed API
   slug: hydrostor-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed schema.org JSON-LD graph for any hydrostor.ca URL — a structured-data view of every newsroom post, page and A-CAES pr
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed schema.org JSON-LD graph for any hydrostor.ca URL — a structured-data view of every newsroom post, page and A-CAES pr
   name: Hydrostor SEO Metadata API
   slug: hydrostor-seo-api
 artifact_total: 14
@@ -216,11 +246,11 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -230,7 +260,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 33.9
+  previous_composite: 23.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +278,9 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png
 security:
 - kind: authentication
   name: Hydrostor Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The Depositphotos Suite API bundles a graphic design editor, access to the 331M+ stock library, and generative AI tools (AI Assistant, AI Image Generator) into a single integration point for embedding
   name: Depositphotos Suite API
   slug: depositphotos-suite-api
-- description: The Authentication API from Depositphotos — 1 operation(s) for authentication.
+- baseURL: https://api.depositphotos.com
+  baseurl_source: declared
+  description: The Authentication API from Depositphotos — 1 operation(s) for authentication.
   name: Depositphotos Authentication API
   slug: depositphotos-authentication-api
 artifact_total: 19
@@ -209,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depositphotos/refs/heads/main/screenshots/depositphotos-2026-06-20T175928.png
 security:

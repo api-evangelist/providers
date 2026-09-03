@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Cloud-based REST API for controlling Sonos players and groups: playback, volume, grouping, favorites, playlists, home theater, audio clips, and cloud-queue playback sessions, with OAuth 2.0 auth and e'
@@ -158,11 +158,11 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -172,14 +172,15 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 30.3
+  previous_composite: 30.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sonos/refs/heads/main/screenshots/sonos-2026-09-02T160228.png
 security:
 - kind: authentication
   name: Sonos Authentication

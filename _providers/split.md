@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 53 operations · 28 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: 'The Split Admin API is a REST API that enables programmatic management of workspaces (projects), environments, traffic types, attributes, users, groups, API keys, and change requests within the Split '
+- baseURL: http://localhost:7548
+  baseurl_source: spec
+  description: 'The Split Admin API is a REST API that enables programmatic management of workspaces (projects), environments, traffic types, attributes, users, groups, API keys, and change requests within the Split '
   name: Split Admin API
   slug: split-admin-api
 - description: The Split JavaScript SDK provides client-side integration for feature flag evaluation in browser-based applications. It handles real-time feature flag synchronization, treatment evaluation, event trac
@@ -62,16 +64,24 @@ apis:
 - description: The Split React SDK provides React-specific components and hooks for integrating feature flags including a SplitProvider context, useTreatments hooks, and conditional rendering components.
   name: Split React SDK
   slug: split-react-sdk
-- description: Endpoints for evaluating feature flags and retrieving treatment values for given keys and feature flag names.
+- baseURL: http://localhost:7548
+  baseurl_source: spec
+  description: Endpoints for evaluating feature flags and retrieving treatment values for given keys and feature flag names.
   name: Split Evaluation API
   slug: split-evaluation-api
-- description: Endpoints for tracking custom events used in experimentation and metrics measurement.
+- baseURL: http://localhost:7548
+  baseurl_source: spec
+  description: Endpoints for tracking custom events used in experimentation and metrics measurement.
   name: Split Events API
   slug: split-events-api
-- description: Manage feature flag definitions in specific environments, including targeting rules, treatments, percentage rollouts, and default treatments.
+- baseURL: https://api.split.io/internal/api/v2
+  baseurl_source: spec
+  description: Manage feature flag definitions in specific environments, including targeting rules, treatments, percentage rollouts, and default treatments.
   name: Split Feature Flag Definitions API
   slug: split-feature-flag-definitions-api
-- description: Create, retrieve, update, and delete feature flags (splits) within workspaces. Feature flags represent the toggles used to control feature rollouts.
+- baseURL: https://api.split.io/internal/api/v2
+  baseurl_source: spec
+  description: Create, retrieve, update, and delete feature flags (splits) within workspaces. Feature flags represent the toggles used to control feature rollouts.
   name: Split Feature Flags API
   slug: split-feature-flags-api
 artifact_total: 122
@@ -509,7 +519,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -519,7 +529,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 40.4
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -528,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:

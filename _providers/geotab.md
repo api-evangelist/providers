@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -50,13 +50,19 @@ apis:
 - description: The MyAdmin API provides reseller and partner access to Geotab's administrative platform for managing databases, device provisioning, orders, billing, and account management. Access requires a MyAdmin
   name: MyAdmin API
   slug: myadmin-api
-- description: The Authentication API from Geotab — 3 operation(s) for authentication.
+- baseURL: https://my.geotab.com/apiv1
+  baseurl_source: declared
+  description: The Authentication API from Geotab — 3 operation(s) for authentication.
   name: Geotab Authentication API
   slug: geotab-authentication-api
-- description: The Invalid Records API from Geotab — 1 operation(s) for invalid records.
+- baseURL: https://my.geotab.com/apiv1
+  baseurl_source: declared
+  description: The Invalid Records API from Geotab — 1 operation(s) for invalid records.
   name: Geotab Invalid Records API
   slug: geotab-invalid-records-api
-- description: The Records API from Geotab — 1 operation(s) for records.
+- baseURL: https://my.geotab.com/apiv1
+  baseurl_source: declared
+  description: The Records API from Geotab — 1 operation(s) for records.
   name: Geotab Records API
   slug: geotab-records-api
 artifact_total: 23
@@ -231,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/screenshots/geotab-2026-06-20T181804.png
 security:

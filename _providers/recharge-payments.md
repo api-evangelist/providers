@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 57 operations · 36 acting
 api_count: 1
 apis:
-- description: Customer shipping addresses that group subscriptions and charges.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Customer shipping addresses that group subscriptions and charges.
   name: Recharge Addresses API
   slug: recharge-payments-addresses-api
-- description: Scheduled and processed charges against a customer's payment method.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Scheduled and processed charges against a customer's payment method.
   name: Recharge Charges API
   slug: recharge-payments-charges-api
-- description: Customer records that own addresses, subscriptions, and payment methods.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Customer records that own addresses, subscriptions, and payment methods.
   name: Recharge Customers API
   slug: recharge-payments-customers-api
-- description: Discount codes applied to checkouts, addresses, and charges.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Discount codes applied to checkouts, addresses, and charges.
   name: Recharge Discounts API
   slug: recharge-payments-discounts-api
-- description: One-time (non-recurring) products added to an upcoming charge.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: One-time (non-recurring) products added to an upcoming charge.
   name: Recharge Onetimes API
   slug: recharge-payments-onetimes-api
-- description: Orders generated from charges, plus one-time and recurring order management.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Orders generated from charges, plus one-time and recurring order management.
   name: Recharge Orders API
   slug: recharge-payments-orders-api
-- description: Tokenized payment methods used to process charges.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Tokenized payment methods used to process charges.
   name: Recharge Payment Methods API
   slug: recharge-payments-payment-methods-api
-- description: Products and subscription rules exposed to the storefront.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Products and subscription rules exposed to the storefront.
   name: Recharge Products API
   slug: recharge-payments-products-api
-- description: Recurring subscription lines that drive future charges and orders.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Recurring subscription lines that drive future charges and orders.
   name: Recharge Subscriptions API
   slug: recharge-payments-subscriptions-api
-- description: Webhook endpoints that receive event notifications from Recharge.
+- baseURL: https://api.rechargeapps.com
+  baseurl_source: declared
+  description: Webhook endpoints that receive event notifications from Recharge.
   name: Recharge Webhooks API
   slug: recharge-payments-webhooks-api
 artifact_total: 29
@@ -190,7 +210,7 @@ score:
   band: thin
   composite: 36.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -219,8 +239,9 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/screenshots/recharge-payments-2026-09-02T153123.png
 security:
 - kind: authentication
   name: Recharge Payments Authentication

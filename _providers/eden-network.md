@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: gRPC service that streams raw Ethereum mempool transactions. StreamService.StreamRawTransactions accepts filters, includes, and an auth header, returning a server stream of RLP-encoded raw transaction
@@ -90,7 +90,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eden-network/refs/heads/main/screenshots/eden-network-2026-07-25T212818.png
 slug: eden-network

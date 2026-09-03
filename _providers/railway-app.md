@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -72,7 +72,9 @@ apis:
 - description: GraphQL operations for project webhooks that notify external URLs of deployment status changes. Queries include projectWebhooks; mutations include webhookCreate, webhookUpdate, and webhookDelete.
   name: Railway Webhooks API
   slug: railway-app-webhooks-api
-- description: GraphQL log surface for builds, deployments, environments, and HTTP traffic. Available both as point-in-time queries (buildLogs, deploymentLogs, environmentLogs, httpLogs) and as real-time GraphQL sub
+- baseURL: https://backboard.railway.com/graphql/v2
+  baseurl_source: declared
+  description: GraphQL log surface for builds, deployments, environments, and HTTP traffic. Available both as point-in-time queries (buildLogs, deploymentLogs, environmentLogs, httpLogs) and as real-time GraphQL sub
   name: Railway Logs API
   slug: railway-app-logs-api
 artifact_total: 22
@@ -177,7 +179,7 @@ score:
     catalog_gap: 44.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -187,9 +189,9 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 39.6
+  previous_composite: 39.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/railway-app/refs/heads/main/screenshots/railway-app-2026-08-17T081443.png
 security:

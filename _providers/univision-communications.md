@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: ViX is the world's largest Spanish-language streaming service offering over 65,000 hours of content across free (ad-supported) and premium subscription tiers. ViX provides programmatic advertising acc
@@ -148,7 +148,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/univision-communications/refs/heads/main/screenshots/univision-communications-2026-06-20T200411.png
 security:

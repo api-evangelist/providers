@@ -33,28 +33,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: WebSocket API for building and running programmable bots inside Highrise rooms. Bots receive a stream of room events (chat, emotes, reactions, joins/leaves, movement, tips, voice, DMs, moderation) and
+- baseURL: wss://highrise.game/web/botapi
+  baseurl_source: declared
+  description: WebSocket API for building and running programmable bots inside Highrise rooms. Bots receive a stream of room events (chat, emotes, reactions, joins/leaves, movement, tips, voice, DMs, moderation) and
   name: Highrise Bot API
   slug: highrise-bot-api
 - description: Highrise Studio is the world-building toolset. Its Engine API and Cloud API let creators script custom worlds, games and experiences in Lua with deep customization of the Highrise runtime.
   name: Highrise Studio (Engine + Cloud API)
   slug: highrise-studio-engine-cloud-api
-- description: The grabs API from Highrise — 2 operation(s) for grabs.
+- baseURL: wss://highrise.game/web/botapi
+  baseurl_source: declared
+  description: The grabs API from Highrise — 2 operation(s) for grabs.
   name: Highrise grabs API
   slug: highrise-grabs-api
-- description: The items API from Highrise — 2 operation(s) for items.
+- baseURL: wss://highrise.game/web/botapi
+  baseurl_source: declared
+  description: The items API from Highrise — 2 operation(s) for items.
   name: Highrise items API
   slug: highrise-items-api
-- description: The posts API from Highrise — 2 operation(s) for posts.
+- baseURL: wss://highrise.game/web/botapi
+  baseurl_source: declared
+  description: The posts API from Highrise — 2 operation(s) for posts.
   name: Highrise posts API
   slug: highrise-posts-api
-- description: The rooms API from Highrise — 2 operation(s) for rooms.
+- baseURL: wss://highrise.game/web/botapi
+  baseurl_source: declared
+  description: The rooms API from Highrise — 2 operation(s) for rooms.
   name: Highrise rooms API
   slug: highrise-rooms-api
-- description: The users API from Highrise — 2 operation(s) for users.
+- baseURL: wss://highrise.game/web/botapi
+  baseurl_source: declared
+  description: The users API from Highrise — 2 operation(s) for users.
   name: Highrise users API
   slug: highrise-users-api
 artifact_total: 17
@@ -243,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highrise/refs/heads/main/screenshots/highrise-2026-07-25T221206.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 15 operations · 14 acting
 api_count: 1
 apis:
-- description: The HL7 API from Intelerad — 1 operation(s) for hl7.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The HL7 API from Intelerad — 1 operation(s) for hl7.
   name: Intelerad HL7 API
   slug: intelerad-hl7-api
-- description: The Namespace API from Intelerad — 1 operation(s) for namespace.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Namespace API from Intelerad — 1 operation(s) for namespace.
   name: Intelerad Namespace API
   slug: intelerad-namespace-api
-- description: The Order API from Intelerad — 2 operation(s) for order.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Order API from Intelerad — 2 operation(s) for order.
   name: Intelerad Order API
   slug: intelerad-order-api
-- description: The Patient API from Intelerad — 2 operation(s) for patient.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Patient API from Intelerad — 2 operation(s) for patient.
   name: Intelerad Patient API
   slug: intelerad-patient-api
-- description: The Report API from Intelerad — 1 operation(s) for report.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Report API from Intelerad — 1 operation(s) for report.
   name: Intelerad Report API
   slug: intelerad-report-api
-- description: The Session API from Intelerad — 2 operation(s) for session.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Session API from Intelerad — 2 operation(s) for session.
   name: Intelerad Session API
   slug: intelerad-session-api
-- description: The Storage API from Intelerad — 1 operation(s) for storage.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Storage API from Intelerad — 1 operation(s) for storage.
   name: Intelerad Storage API
   slug: intelerad-storage-api
-- description: The Study API from Intelerad — 4 operation(s) for study.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Study API from Intelerad — 4 operation(s) for study.
   name: Intelerad Study API
   slug: intelerad-study-api
-- description: The Webhook API from Intelerad — 1 operation(s) for webhook.
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: The Webhook API from Intelerad — 1 operation(s) for webhook.
   name: Intelerad Webhook API
   slug: intelerad-webhook-api
 artifact_total: 26
@@ -206,7 +224,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/screenshots/intelerad-2026-07-25T222644.png
 security:

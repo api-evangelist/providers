@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: The Census Geocoding Services convert addresses to geographic coordinates and census geography identifiers. Supports both single-address lookups and batch geocoding for large address lists.
   name: Census Geocoding Services
   slug: geocoding-api
-- description: ACS demographic, economic, social, and housing characteristics
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: ACS demographic, economic, social, and housing characteristics
   name: United States Census Bureau American Community Survey API
   slug: united-states-census-bureau-american-community-survey-api
-- description: Business establishment and employment data
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Business establishment and employment data
   name: United States Census Bureau County Business Patterns API
   slug: united-states-census-bureau-county-business-patterns-api
-- description: Decennial Census population and housing counts
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Decennial Census population and housing counts
   name: United States Census Bureau Decennial Census API
   slug: united-states-census-bureau-decennial-census-api
-- description: Economic activity by industry and geography
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Economic activity by industry and geography
   name: United States Census Bureau Economic Census API
   slug: united-states-census-bureau-economic-census-api
-- description: Geocoding and geographic boundary services
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Geocoding and geographic boundary services
   name: United States Census Bureau Geographic Services API
   slug: united-states-census-bureau-geographic-services-api
-- description: International demographic and trade data
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: International demographic and trade data
   name: United States Census Bureau International API
   slug: united-states-census-bureau-international-api
-- description: Annual population estimates and projections
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Annual population estimates and projections
   name: United States Census Bureau Population Estimates API
   slug: united-states-census-bureau-population-estimates-api
 artifact_total: 32
@@ -253,7 +267,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/screenshots/united-states-census-bureau-2026-06-20T200100.png
 security:

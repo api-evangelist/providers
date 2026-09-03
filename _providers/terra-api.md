@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: Terra's primary data-delivery mechanism. Rather than a polling or WebSocket transport, Terra streams normalized health data and lifecycle events - auth, deauth, connection errors, and activity/body/da
   name: Terra Webhooks
   slug: terra-api-webhooks
-- description: Workout and exercise sessions.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Workout and exercise sessions.
   name: Terra Activity API
   slug: terra-api-activity-api
-- description: Connected-user athlete profile and demographics.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Connected-user athlete profile and demographics.
   name: Terra Athlete API
   slug: terra-api-athlete-api
-- description: Connect and disconnect end-user wearable and health accounts.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Connect and disconnect end-user wearable and health accounts.
   name: Terra Authentication API
   slug: terra-api-authentication-api
-- description: Body and biometric measurements.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Body and biometric measurements.
   name: Terra Body API
   slug: terra-api-body-api
-- description: Day-level aggregated summaries.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Day-level aggregated summaries.
   name: Terra Daily API
   slug: terra-api-daily-api
-- description: Catalog of supported wearables, trackers, and health apps.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Catalog of supported wearables, trackers, and health apps.
   name: Terra Integrations API
   slug: terra-api-integrations-api
-- description: Menstrual cycle and reproductive health data.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Menstrual cycle and reproductive health data.
   name: Terra Menstruation API
   slug: terra-api-menstruation-api
-- description: Logged nutrition and dietary intake.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Logged nutrition and dietary intake.
   name: Terra Nutrition API
   slug: terra-api-nutrition-api
-- description: Sleep sessions and stages.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Sleep sessions and stages.
   name: Terra Sleep API
   slug: terra-api-sleep-api
-- description: Look up and manage connected users and subscriptions.
+- baseURL: https://api.tryterra.co/v2
+  baseurl_source: declared
+  description: Look up and manage connected users and subscriptions.
   name: Terra Users API
   slug: terra-api-users-api
 artifact_total: 29
@@ -189,7 +209,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -218,8 +238,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/screenshots/terra-api-2026-09-02T163144.png
 security:
 - kind: authentication
   name: Terra Api Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 20 operations · 14 acting
 api_count: 2
 apis:
-- description: The Domain API from Rasa — 1 operation(s) for domain.
+- baseURL: http://localhost:5005
+  baseurl_source: declared
+  description: The Domain API from Rasa — 1 operation(s) for domain.
   name: Rasa Domain API
   slug: rasa-domain-api
-- description: The Model API from Rasa — 6 operation(s) for model.
+- baseURL: http://localhost:5005
+  baseurl_source: declared
+  description: The Model API from Rasa — 6 operation(s) for model.
   name: Rasa Model API
   slug: rasa-model-api
-- description: The Rasa SDK Action Server Endpoint API from Rasa — 1 operation(s) for rasa sdk action server endpoint.
+- baseURL: http://localhost:5005
+  baseurl_source: declared
+  description: The Rasa SDK Action Server Endpoint API from Rasa — 1 operation(s) for rasa sdk action server endpoint.
   name: Rasa Rasa SDK Action Server Endpoint API
   slug: rasa-rasa-sdk-action-server-endpoint-api
-- description: The Server Information API from Rasa — 3 operation(s) for server information.
+- baseURL: http://localhost:5005
+  baseurl_source: declared
+  description: The Server Information API from Rasa — 3 operation(s) for server information.
   name: Rasa Server Information API
   slug: rasa-server-information-api
-- description: The Tracker API from Rasa — 7 operation(s) for tracker.
+- baseURL: http://localhost:5005
+  baseurl_source: declared
+  description: The Tracker API from Rasa — 7 operation(s) for tracker.
   name: Rasa Tracker API
   slug: rasa-tracker-api
 artifact_total: 15
@@ -234,7 +244,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/screenshots/rasa-2026-08-17T081447.png
 security:

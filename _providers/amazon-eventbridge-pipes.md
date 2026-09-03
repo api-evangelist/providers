@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 10 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Pipes API from Amazon EventBridge Pipes — 4 operation(s) for pipes.
+- baseURL: https://pipes.amazonaws.com
+  baseurl_source: declared
+  description: The Pipes API from Amazon EventBridge Pipes — 4 operation(s) for pipes.
   name: Amazon EventBridge Pipes Pipes API
   slug: amazon-eventbridge-pipes-pipes-api
-- description: The Tags API from Amazon EventBridge Pipes — 2 operation(s) for tags.
+- baseURL: https://pipes.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon EventBridge Pipes — 2 operation(s) for tags.
   name: Amazon EventBridge Pipes Tags API
   slug: amazon-eventbridge-pipes-tags-api
 arazzos:
@@ -1755,7 +1759,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 70 operations · 35 acting
 api_count: 6
 apis:
-- description: Access AI-generated insights on records
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Access AI-generated insights on records
   name: Salesforce Einstein AI Record Insights API
   slug: salesforce-einstein-ai-record-insights-api
-- description: Monitor API usage and limits
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Monitor API usage and limits
   name: Salesforce Einstein API Usage API
   slug: salesforce-einstein-api-usage-api
-- description: Manage Einstein Bot definitions
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage Einstein Bot definitions
   name: Salesforce Einstein Bot Definitions API
   slug: salesforce-einstein-bot-definitions-api
-- description: Manage bot versions
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage bot versions
   name: Salesforce Einstein Bot Versions API
   slug: salesforce-einstein-bot-versions-api
-- description: Manage analytics dashboards
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage analytics dashboards
   name: Salesforce Einstein Dashboards API
   slug: salesforce-einstein-dashboards-api
-- description: Manage text datasets for training models
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage text datasets for training models
   name: Salesforce Einstein Datasets API
   slug: salesforce-einstein-datasets-api
-- description: Manage training examples within datasets
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage training examples within datasets
   name: Salesforce Einstein Examples API
   slug: salesforce-einstein-examples-api
-- description: Provide feedback on generated content
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Provide feedback on generated content
   name: Salesforce Einstein Feedback API
   slug: salesforce-einstein-feedback-api
-- description: Generate AI-powered content
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Generate AI-powered content
   name: Salesforce Einstein Generations API
   slug: salesforce-einstein-generations-api
-- description: Manage analytics lenses (datasets)
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage analytics lenses (datasets)
   name: Salesforce Einstein Lenses API
   slug: salesforce-einstein-lenses-api
-- description: Send and receive bot messages
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Send and receive bot messages
   name: Salesforce Einstein Messages API
   slug: salesforce-einstein-messages-api
-- description: Manage Einstein Discovery prediction models
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage Einstein Discovery prediction models
   name: Salesforce Einstein Models API
   slug: salesforce-einstein-models-api
-- description: Manage Einstein prediction definitions
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage Einstein prediction definitions
   name: Salesforce Einstein Prediction Definitions API
   slug: salesforce-einstein-prediction-definitions-api
-- description: Make predictions using Discovery models
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Make predictions using Discovery models
   name: Salesforce Einstein Predictions API
   slug: salesforce-einstein-predictions-api
-- description: Manage prompt templates for content generation
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage prompt templates for content generation
   name: Salesforce Einstein Prompt Templates API
   slug: salesforce-einstein-prompt-templates-api
-- description: Manage bot conversation sessions
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage bot conversation sessions
   name: Salesforce Einstein Sessions API
   slug: salesforce-einstein-sessions-api
-- description: Manage Einstein Discovery stories
+- baseURL: https://api.einstein.ai/v2/vision
+  baseurl_source: declared
+  description: Manage Einstein Discovery stories
   name: Salesforce Einstein Stories API
   slug: salesforce-einstein-stories-api
 artifact_total: 114
@@ -545,7 +579,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/screenshots/salesforce-einstein-2026-06-20T193344.png
 security:

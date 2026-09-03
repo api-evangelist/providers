@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
-- description: The IP Sets API from Amazon WAF — 1 operation(s) for ip sets.
+- baseURL: https://wafv2.amazonaws.com
+  baseurl_source: declared
+  description: The IP Sets API from Amazon WAF — 1 operation(s) for ip sets.
   name: Amazon WAF IP Sets API
   slug: amazon-waf-ip-sets-api
-- description: The Rule Groups API from Amazon WAF — 1 operation(s) for rule groups.
+- baseURL: https://wafv2.amazonaws.com
+  baseurl_source: declared
+  description: The Rule Groups API from Amazon WAF — 1 operation(s) for rule groups.
   name: Amazon WAF Rule Groups API
   slug: amazon-waf-rule-groups-api
-- description: The Web ACLs API from Amazon WAF — 3 operation(s) for web acls.
+- baseURL: https://wafv2.amazonaws.com
+  baseurl_source: declared
+  description: The Web ACLs API from Amazon WAF — 3 operation(s) for web acls.
   name: Amazon WAF Web ACLs API
   slug: amazon-waf-web-acls-api
 artifact_total: 36
@@ -299,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/screenshots/amazon-waf-2026-06-20T171845.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 53 operations · 29 acting
 api_count: 1
 apis:
-- description: The Authentication API from Sheeva — 1 operation(s) for authentication.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Authentication API from Sheeva — 1 operation(s) for authentication.
   name: Sheeva Authentication API
   slug: sheeva-authentication-api
-- description: The Credit Cards API from Sheeva — 5 operation(s) for credit cards.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Credit Cards API from Sheeva — 5 operation(s) for credit cards.
   name: Sheeva Credit Cards API
   slug: sheeva-credit-cards-api
-- description: The Driver Alerts API from Sheeva — 2 operation(s) for driver alerts.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Driver Alerts API from Sheeva — 2 operation(s) for driver alerts.
   name: Sheeva Driver Alerts API
   slug: sheeva-driver-alerts-api
-- description: The Driver API from Sheeva — 5 operation(s) for driver.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Driver API from Sheeva — 5 operation(s) for driver.
   name: Sheeva Driver API
   slug: sheeva-driver-api
-- description: The Feedback API from Sheeva — 3 operation(s) for feedback.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Feedback API from Sheeva — 3 operation(s) for feedback.
   name: Sheeva Feedback API
   slug: sheeva-feedback-api
-- description: The Loyalty API from Sheeva — 2 operation(s) for loyalty.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Loyalty API from Sheeva — 2 operation(s) for loyalty.
   name: Sheeva Loyalty API
   slug: sheeva-loyalty-api
-- description: The Parking API from Sheeva — 2 operation(s) for parking.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Parking API from Sheeva — 2 operation(s) for parking.
   name: Sheeva Parking API
   slug: sheeva-parking-api
-- description: The Payments API from Sheeva — 3 operation(s) for payments.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Payments API from Sheeva — 3 operation(s) for payments.
   name: Sheeva Payments API
   slug: sheeva-payments-api
-- description: The Service Hubs (Points Of Interest) API from Sheeva — 2 operation(s) for service hubs (points of interest).
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Service Hubs (Points Of Interest) API from Sheeva — 2 operation(s) for service hubs (points of interest).
   name: Sheeva Service Hubs (Points Of Interest) API
   slug: sheeva-service-hubs-points-of-interest-api
-- description: The Session API from Sheeva — 7 operation(s) for session.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Session API from Sheeva — 7 operation(s) for session.
   name: Sheeva Session API
   slug: sheeva-session-api
-- description: The Transactions API from Sheeva — 3 operation(s) for transactions.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Transactions API from Sheeva — 3 operation(s) for transactions.
   name: Sheeva Transactions API
   slug: sheeva-transactions-api
-- description: The UPI API from Sheeva — 2 operation(s) for upi.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The UPI API from Sheeva — 2 operation(s) for upi.
   name: Sheeva UPI API
   slug: sheeva-upi-api
-- description: The Vehicle API from Sheeva — 3 operation(s) for vehicle.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Vehicle API from Sheeva — 3 operation(s) for vehicle.
   name: Sheeva Vehicle API
   slug: sheeva-vehicle-api
-- description: The Vehicle Events API from Sheeva — 1 operation(s) for vehicle events.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Vehicle Events API from Sheeva — 1 operation(s) for vehicle events.
   name: Sheeva Vehicle Events API
   slug: sheeva-vehicle-events-api
-- description: The Webhooks API from Sheeva — 3 operation(s) for webhooks.
+- baseURL: https://us-apis.sheeva.ai
+  baseurl_source: declared
+  description: The Webhooks API from Sheeva — 3 operation(s) for webhooks.
   name: Sheeva Webhooks API
   slug: sheeva-webhooks-api
 artifact_total: 37
@@ -290,7 +320,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -300,7 +330,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 45.5
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,7 +348,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/screenshots/sheeva-2026-08-17T125223.png
 security:

@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The other direction of the CI HUB platform. A DAM, MAM, PIM, CMS, stock or cloud-storage vendor writes an integration that translates its own proprietary API into CI HUB's handler format using defineI
@@ -33,13 +48,19 @@ apis:
 - description: A hosted, remote Model Context Protocol server that gives an AI client governed access to the DAM systems a user has connected through CI HUB. It exposes core system, asset and folder tools — provider
   name: CI HUB MCP Server (Bright AI Connector)
   slug: mcp
-- description: The Assets API from CI HUB — 4 operation(s) for assets.
+- baseURL: https://live.ci-hub.com/api/v1
+  baseurl_source: declared
+  description: The Assets API from CI HUB — 4 operation(s) for assets.
   name: CI HUB Assets API
   slug: ci-hub-assets-api
-- description: The Auth API from CI HUB — 6 operation(s) for auth.
+- baseURL: https://live.ci-hub.com/api/v1
+  baseurl_source: declared
+  description: The Auth API from CI HUB — 6 operation(s) for auth.
   name: CI HUB Auth API
   slug: ci-hub-auth-api
-- description: The System API from CI HUB — 1 operation(s) for system.
+- baseURL: https://live.ci-hub.com/api/v1
+  baseurl_source: declared
+  description: The System API from CI HUB — 1 operation(s) for system.
   name: CI HUB System API
   slug: ci-hub-system-api
 artifact_total: 12
@@ -208,7 +229,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/screenshots/ci-hub-2026-08-17T080817.png
 security:

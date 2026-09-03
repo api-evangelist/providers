@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: Submit, retrieve, search, and update manufacturing orders.
+- baseURL: https://api.print.io/api/v/5/source/api
+  baseurl_source: declared
+  description: Submit, retrieve, search, and update manufacturing orders.
   name: Gooten Orders API
   slug: gooten-orders-api
-- description: Product templates and print-ready product (PRP) management.
+- baseURL: https://api.print.io/api/v/5/source/api
+  baseurl_source: declared
+  description: Product templates and print-ready product (PRP) management.
   name: Gooten Print Assets API
   slug: gooten-print-assets-api
-- description: Catalog products, per-region SKUs, supported countries and currencies.
+- baseURL: https://api.print.io/api/v/5/source/api
+  baseurl_source: declared
+  description: Catalog products, per-region SKUs, supported countries and currencies.
   name: Gooten Products API
   slug: gooten-products-api
-- description: Shipping option lookup and order price estimates for a cart.
+- baseURL: https://api.print.io/api/v/5/source/api
+  baseurl_source: declared
+  description: Shipping option lookup and order price estimates for a cart.
   name: Gooten Shipping API
   slug: gooten-shipping-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/screenshots/gooten-2026-07-25T220114.png
 security:

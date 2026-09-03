@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'REST API for the Ushur customer experience automation platform. Documented operations (per the official UshurNodeSDK) include logging in to a tenant instance, initiating campaign engagements with end '
@@ -118,7 +118,7 @@ score:
   band: emerging
   composite: 22.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -152,8 +152,9 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ushur/refs/heads/main/screenshots/ushur-2026-09-02T165242.png
 security:
 - kind: authentication
   name: Ushur Authentication

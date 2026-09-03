@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: The Api Violations API from Zally — 2 operation(s) for api violations.
+- baseURL: https://zally.on.inter.net
+  baseurl_source: declared
+  description: The Api Violations API from Zally — 2 operation(s) for api violations.
   name: Zally Api Violations API
   slug: zally-api-violations-api
-- description: The Review Statistics API from Zally — 1 operation(s) for review statistics.
+- baseURL: https://zally.on.inter.net
+  baseurl_source: declared
+  description: The Review Statistics API from Zally — 1 operation(s) for review statistics.
   name: Zally Review Statistics API
   slug: zally-review-statistics-api
-- description: The Supported Rules API from Zally — 1 operation(s) for supported rules.
+- baseURL: https://zally.on.inter.net
+  baseurl_source: declared
+  description: The Supported Rules API from Zally — 1 operation(s) for supported rules.
   name: Zally Supported Rules API
   slug: zally-supported-rules-api
 artifact_total: 55
@@ -329,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/screenshots/zally-2026-06-20T201756.png
 security:

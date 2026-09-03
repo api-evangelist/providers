@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Resolve external product handles or ids to internal Judge.me product ids.
+- baseURL: https://judge.me/api/v1
+  baseurl_source: declared
+  description: Resolve external product handles or ids to internal Judge.me product ids.
   name: Judge.me Products API
   slug: judge-me-products-api
-- description: Trigger review request emails to customers.
+- baseURL: https://judge.me/api/v1
+  baseurl_source: declared
+  description: Trigger review request emails to customers.
   name: Judge.me Review Requests API
   slug: judge-me-review-requests-api
-- description: List and create product and store reviews.
+- baseURL: https://judge.me/api/v1
+  baseurl_source: declared
+  description: List and create product and store reviews.
   name: Judge.me Reviews API
   slug: judge-me-reviews-api
-- description: Ready-to-render review widget HTML.
+- baseURL: https://judge.me/api/v1
+  baseurl_source: declared
+  description: Ready-to-render review widget HTML.
   name: Judge.me Widgets API
   slug: judge-me-widgets-api
 artifact_total: 14
@@ -159,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

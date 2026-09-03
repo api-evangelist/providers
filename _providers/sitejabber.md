@@ -34,49 +34,77 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authentication API from SiteJabber — 1 operation(s) for authentication.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Authentication API from SiteJabber — 1 operation(s) for authentication.
   name: SiteJabber Authentication API
   slug: sitejabber-authentication-api
-- description: The Business Info API from SiteJabber — 2 operation(s) for business info.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Business Info API from SiteJabber — 2 operation(s) for business info.
   name: SiteJabber Business Info API
   slug: sitejabber-business-info-api
-- description: The Business Questions API from SiteJabber — 1 operation(s) for business questions.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Business Questions API from SiteJabber — 1 operation(s) for business questions.
   name: SiteJabber Business Questions API
   slug: sitejabber-business-questions-api
-- description: The Messages API from SiteJabber — 2 operation(s) for messages.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Messages API from SiteJabber — 2 operation(s) for messages.
   name: SiteJabber Messages API
   slug: sitejabber-messages-api
-- description: The Partners API from SiteJabber — 2 operation(s) for partners.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Partners API from SiteJabber — 2 operation(s) for partners.
   name: SiteJabber Partners API
   slug: sitejabber-partners-api
-- description: The Privacy API from SiteJabber — 2 operation(s) for privacy.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Privacy API from SiteJabber — 2 operation(s) for privacy.
   name: SiteJabber Privacy API
   slug: sitejabber-privacy-api
-- description: The Product Questions API from SiteJabber — 1 operation(s) for product questions.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Product Questions API from SiteJabber — 1 operation(s) for product questions.
   name: SiteJabber Product Questions API
   slug: sitejabber-product-questions-api
-- description: The Product Review Requests API from SiteJabber — 2 operation(s) for product review requests.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Product Review Requests API from SiteJabber — 2 operation(s) for product review requests.
   name: SiteJabber Product Review Requests API
   slug: sitejabber-product-review-requests-api
-- description: The Product Reviews API from SiteJabber — 5 operation(s) for product reviews.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Product Reviews API from SiteJabber — 5 operation(s) for product reviews.
   name: SiteJabber Product Reviews API
   slug: sitejabber-product-reviews-api
-- description: The Products API from SiteJabber — 4 operation(s) for products.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Products API from SiteJabber — 4 operation(s) for products.
   name: SiteJabber Products API
   slug: sitejabber-products-api
-- description: The Resolution Attempts API from SiteJabber — 1 operation(s) for resolution attempts.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Resolution Attempts API from SiteJabber — 1 operation(s) for resolution attempts.
   name: SiteJabber Resolution Attempts API
   slug: sitejabber-resolution-attempts-api
-- description: The Review Comments API from SiteJabber — 2 operation(s) for review comments.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Review Comments API from SiteJabber — 2 operation(s) for review comments.
   name: SiteJabber Review Comments API
   slug: sitejabber-review-comments-api
-- description: The Review Requests API from SiteJabber — 2 operation(s) for review requests.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Review Requests API from SiteJabber — 2 operation(s) for review requests.
   name: SiteJabber Review Requests API
   slug: sitejabber-review-requests-api
-- description: The Reviews API from SiteJabber — 4 operation(s) for reviews.
+- baseURL: https://api.smartcustomer.com/v1
+  baseurl_source: declared
+  description: The Reviews API from SiteJabber — 4 operation(s) for reviews.
   name: SiteJabber Reviews API
   slug: sitejabber-reviews-api
 artifact_total: 20
@@ -228,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/screenshots/sitejabber-2026-08-17T081908.png
 security:

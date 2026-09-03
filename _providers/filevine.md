@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 25 operations · 14 acting
 api_count: 1
 apis:
-- description: Exchange a Filevine Personal Access Token (PAT) for a short-lived bearer access token used to call the Filevine API Gateway. Tokens are issued at https://identity.filevine.io/connect/token with grant_
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Exchange a Filevine Personal Access Token (PAT) for a short-lived bearer access token used to call the Filevine API Gateway. Tokens are issued at https://identity.filevine.io/connect/token with grant_
   name: Filevine Identity API
   slug: filevine-identity-api
-- description: 'List, create, read, and update Filevine projects (matters/cases). Each project belongs to a project type, carries a primary client contact, has a phase, and a customizable set of sections and fields. '
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: 'List, create, read, and update Filevine projects (matters/cases). Each project belongs to a project type, carries a primary client contact, has a phase, and a customizable set of sections and fields. '
   name: Filevine Projects API
   slug: filevine-projects-api
-- description: Manage the global Filevine contact list and project-scoped contact attachments. Contacts represent clients, opposing parties, witnesses, experts, and adjusters with structured emails, phones, and orga
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Manage the global Filevine contact list and project-scoped contact attachments. Contacts represent clients, opposing parties, witnesses, experts, and adjusters with structured emails, phones, and orga
   name: Filevine Contacts API
   slug: filevine-contacts-api
-- description: Upload, list, and read documents attached to Filevine projects. Documents support folders, tags, versioning, locking, and optional sharing to the secure client portal.
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Upload, list, and read documents attached to Filevine projects. Documents support folders, tags, versioning, locking, and optional sharing to the secure client portal.
   name: Filevine Documents API
   slug: filevine-documents-api
-- description: Append, edit, and read project notes and activity items. Notes carry a typed kind (note, task, portal message, phone call, text) and support @mentions, pinning, and attached documents.
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Append, edit, and read project notes and activity items. Notes carry a typed kind (note, task, portal message, phone call, text) and support @mentions, pinning, and attached documents.
   name: Filevine Notes API
   slug: filevine-notes-api
-- description: Manage the date-driven legal milestones on a project — statutes of limitations, court dates, response deadlines — with assignees and reminder notifications. Deadlines can chain off a parent deadline.
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Manage the date-driven legal milestones on a project — statutes of limitations, court dates, response deadlines — with assignees and reminder notifications. Deadlines can chain off a parent deadline.
   name: Filevine Deadlines API
   slug: filevine-deadlines-api
-- description: List, create, and update assignable to-do items on a project with status, priority, due dates, and completion tracking. Tasks are produced by workflow automation and by direct user assignment.
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: List, create, and update assignable to-do items on a project with status, priority, due dates, and completion tracking. Tasks are produced by workflow automation and by direct user assignment.
   name: Filevine Tasks API
   slug: filevine-tasks-api
-- description: Manage organization webhook subscriptions and receive event callbacks (project.created, project.updated, document.uploaded, note.created, deadline.created, task.completed, payment.created, payment.upd
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Manage organization webhook subscriptions and receive event callbacks (project.created, project.updated, document.uploaded, note.created, deadline.created, task.completed, payment.created, payment.upd
   name: Filevine Webhooks API
   slug: filevine-webhooks-api
-- description: Billable time tracking.
+- baseURL: https://api.filevine.io
+  baseurl_source: spec
+  description: Billable time tracking.
   name: Filevine TimeEntries API
   slug: filevine-timeentries-api
 artifact_total: 84
@@ -459,7 +477,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -469,7 +487,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 59.2
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     contracts:
@@ -478,7 +496,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/screenshots/filevine-2026-06-20T181208.png
 security:

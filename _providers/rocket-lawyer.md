@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 51 operations · 34 acting
 api_count: 4
 apis:
-- description: The Accesstoken API from Rocket Lawyer — 1 operation(s) for accesstoken.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Accesstoken API from Rocket Lawyer — 1 operation(s) for accesstoken.
   name: Rocket Lawyer Accesstoken API
   slug: rocket-lawyer-accesstoken-api
-- description: The Binders API from Rocket Lawyer — 19 operation(s) for binders.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Binders API from Rocket Lawyer — 19 operation(s) for binders.
   name: Rocket Lawyer Binders API
   slug: rocket-lawyer-binders-api
-- description: The Documents API from Rocket Lawyer — 1 operation(s) for documents.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Documents API from Rocket Lawyer — 1 operation(s) for documents.
   name: Rocket Lawyer Documents API
   slug: rocket-lawyer-documents-api
-- description: The Event Consumption API from Rocket Lawyer — 2 operation(s) for event consumption.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Event Consumption API from Rocket Lawyer — 2 operation(s) for event consumption.
   name: Rocket Lawyer Event Consumption API
   slug: rocket-lawyer-event-consumption-api
-- description: The Interviews API from Rocket Lawyer — 5 operation(s) for interviews.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Interviews API from Rocket Lawyer — 5 operation(s) for interviews.
   name: Rocket Lawyer Interviews API
   slug: rocket-lawyer-interviews-api
-- description: The Servicetoken API from Rocket Lawyer — 1 operation(s) for servicetoken.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Servicetoken API from Rocket Lawyer — 1 operation(s) for servicetoken.
   name: Rocket Lawyer Servicetoken API
   slug: rocket-lawyer-servicetoken-api
-- description: The Subscription Management API from Rocket Lawyer — 3 operation(s) for subscription management.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Subscription Management API from Rocket Lawyer — 3 operation(s) for subscription management.
   name: Rocket Lawyer Subscription Management API
   slug: rocket-lawyer-subscription-management-api
-- description: The Templates API from Rocket Lawyer — 5 operation(s) for templates.
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Templates API from Rocket Lawyer — 5 operation(s) for templates.
   name: Rocket Lawyer Templates API
   slug: rocket-lawyer-templates-api
 artifact_total: 25
@@ -294,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:

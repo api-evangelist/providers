@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Fetch applicant data, hiring status and leads for a job.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Fetch applicant data, hiring status and leads for a job.
   name: Phenom Applicants API
   slug: phenom-applicants-api
-- description: Combined candidate + job data for jobs a candidate has applied to.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Combined candidate + job data for jobs a candidate has applied to.
   name: Phenom Applications API
   slug: phenom-applications-api
-- description: Add, update, delete and retrieve candidate records.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Add, update, delete and retrieve candidate records.
   name: Phenom Candidates API
   slug: phenom-candidates-api
-- description: Job Sync — view, create, update and delete jobs in the Phenom database.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Job Sync — view, create, update and delete jobs in the Phenom database.
   name: Phenom Jobs API
   slug: phenom-jobs-api
-- description: Search candidates and retrieve onboarding information and attachments.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Search candidates and retrieve onboarding information and attachments.
   name: Phenom Onboarding API
   slug: phenom-onboarding-api
-- description: Resume and job-description parsing/extraction.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Resume and job-description parsing/extraction.
   name: Phenom Parsers API
   slug: phenom-parsers-api
-- description: Predict skills from job titles and provided skill sets.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Predict skills from job titles and provided skill sets.
   name: Phenom Prediction API
   slug: phenom-prediction-api
-- description: Create, update and delete candidate tags.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: Create, update and delete candidate tags.
   name: Phenom Tags API
   slug: phenom-tags-api
-- description: SCIM 2.0 user and group management.
+- baseURL: https://api-qa.phenompro.com
+  baseurl_source: declared
+  description: SCIM 2.0 user and group management.
   name: Phenom User Management API
   slug: phenom-user-management-api
 artifact_total: 23
@@ -254,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phenom/refs/heads/main/screenshots/phenom-2026-08-17T081205.png
 security:

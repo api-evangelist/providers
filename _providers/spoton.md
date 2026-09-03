@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 26 operations · 2 acting
 api_count: 15
 apis:
-- description: Available reservation times and wait-time lookups.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Available reservation times and wait-time lookups.
   name: SpotOn Availability API
   slug: spoton-availability-api
-- description: Cash deposit records recorded at a location.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Cash deposit records recorded at a location.
   name: SpotOn Cash Deposits API
   slug: spoton-cash-deposits-api
-- description: Employee records and their job positions for a location.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Employee records and their job positions for a location.
   name: SpotOn Employees API
   slug: spoton-employees-api
-- description: Job position definitions for a location.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Job position definitions for a location.
   name: SpotOn Job Positions API
   slug: spoton-job-positions-api
-- description: Location details for the SpotOn POS organization.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Location details for the SpotOn POS organization.
   name: SpotOn Locations API
   slug: spoton-locations-api
-- description: Menu item catalog for a location.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Menu item catalog for a location.
   name: SpotOn Menu Items API
   slug: spoton-menu-items-api
-- description: Order type definitions for a location, such as Dine In or Takeout.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Order type definitions for a location, such as Dine In or Takeout.
   name: SpotOn Order Types API
   slug: spoton-order-types-api
-- description: Order and check data export, including items, modifiers, payments, and taxes.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Order and check data export, including items, modifiers, payments, and taxes.
   name: SpotOn Orders API
   slug: spoton-orders-api
-- description: Cash paid in and paid out records for a location.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Cash paid in and paid out records for a location.
   name: SpotOn Paid In Outs API
   slug: spoton-paid-in-outs-api
-- description: Payment methods configured at a location.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Payment methods configured at a location.
   name: SpotOn Payment Options API
   slug: spoton-payment-options-api
-- description: Hierarchical report categories used to group menu items.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Hierarchical report categories used to group menu items.
   name: SpotOn Report Categories API
   slug: spoton-report-categories-api
-- description: Create and manage guest reservations.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Create and manage guest reservations.
   name: SpotOn Reservations API
   slug: spoton-reservations-api
-- description: Restaurants accessible with the API key.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Restaurants accessible with the API key.
   name: SpotOn Restaurants API
   slug: spoton-restaurants-api
-- description: Employee shift clock-in and clock-out records.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Employee shift clock-in and clock-out records.
   name: SpotOn Time Clock Entries API
   slug: spoton-time-clock-entries-api
-- description: Add guests to a restaurant waitlist.
+- baseURL: https://restaurantapi.spoton.com/posexport/v1
+  baseurl_source: declared
+  description: Add guests to a restaurant waitlist.
   name: SpotOn Waitlist API
   slug: spoton-waitlist-api
 artifact_total: 166
@@ -663,7 +693,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoton/refs/heads/main/screenshots/spoton-2026-06-20T194358.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: Search the ShopMy catalog and resolve/rate product URLs (OAuth).
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: Search the ShopMy catalog and resolve/rate product URLs (OAuth).
   name: ShopMy Catalog API
   slug: shopmy-catalog-api
-- description: Create, edit and fetch a user's ShopMy shelf collections (OAuth).
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: Create, edit and fetch a user's ShopMy shelf collections (OAuth).
   name: ShopMy Collections API
   slug: shopmy-collections-api
-- description: Create and fetch a user's ShopMy product links (OAuth).
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: Create and fetch a user's ShopMy product links (OAuth).
   name: ShopMy Links API
   slug: shopmy-links-api
-- description: OAuth token exchange for developer applications.
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: OAuth token exchange for developer applications.
   name: ShopMy OAuth API
   slug: shopmy-oauth-api
-- description: Brand Partner affiliate order reports (developer-key auth).
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: Brand Partner affiliate order reports (developer-key auth).
   name: ShopMy Order Reporting API
   slug: shopmy-order-reporting-api
-- description: Read the authenticated user's public ShopMy profile (OAuth).
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: Read the authenticated user's public ShopMy profile (OAuth).
   name: ShopMy Profile API
   slug: shopmy-profile-api
 - description: Server-to-server affiliate tracking routes a brand calls to report completed orders to ShopMy for creator commission attribution, and to keep those commissions accurate through returns, edits and canc
@@ -257,7 +269,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -267,7 +279,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 41.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/screenshots/shopmy-2026-08-17T081840.png
 security:

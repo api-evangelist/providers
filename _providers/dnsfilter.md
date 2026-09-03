@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -43,139 +43,229 @@ agentic_access:
   summary_line: 280 operations · 111 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agent Local User Bulk Deletes API from DNSFilter — 3 operation(s) for agent local user bulk deletes.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Agent Local User Bulk Deletes API from DNSFilter — 3 operation(s) for agent local user bulk deletes.
   name: DNSFilter Agent Local User Bulk Deletes API
   slug: dnsfilter-agent-local-user-bulk-deletes-api
-- description: The Agent Local Users API from DNSFilter — 4 operation(s) for agent local users.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Agent Local Users API from DNSFilter — 4 operation(s) for agent local users.
   name: DNSFilter Agent Local Users API
   slug: dnsfilter-agent-local-users-api
-- description: The Agent Local Users CSV Export API from DNSFilter — 2 operation(s) for agent local users csv export.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Agent Local Users CSV Export API from DNSFilter — 2 operation(s) for agent local users csv export.
   name: DNSFilter Agent Local Users CSV Export API
   slug: dnsfilter-agent-local-users-csv-export-api
-- description: The Api Keys API from DNSFilter — 3 operation(s) for api keys.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Api Keys API from DNSFilter — 3 operation(s) for api keys.
   name: DNSFilter Api Keys API
   slug: dnsfilter-api-keys-api
-- description: The Application Categories API from DNSFilter — 2 operation(s) for application categories.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Application Categories API from DNSFilter — 2 operation(s) for application categories.
   name: DNSFilter Application Categories API
   slug: dnsfilter-application-categories-api
-- description: Get information about available applications for the allow and block lists.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: Get information about available applications for the allow and block lists.
   name: DNSFilter Applications API
   slug: dnsfilter-applications-api
-- description: The Billings API from DNSFilter — 2 operation(s) for billings.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Billings API from DNSFilter — 2 operation(s) for billings.
   name: DNSFilter Billings API
   slug: dnsfilter-billings-api
-- description: The Block Pages API from DNSFilter — 3 operation(s) for block pages.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Block Pages API from DNSFilter — 3 operation(s) for block pages.
   name: DNSFilter Block Pages API
   slug: dnsfilter-block-pages-api
-- description: The Categories API from DNSFilter — 3 operation(s) for categories.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Categories API from DNSFilter — 3 operation(s) for categories.
   name: DNSFilter Categories API
   slug: dnsfilter-categories-api
-- description: The Collection Users API from DNSFilter — 2 operation(s) for collection users.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Collection Users API from DNSFilter — 2 operation(s) for collection users.
   name: DNSFilter Collection Users API
   slug: dnsfilter-collection-users-api
-- description: The Cybersight CSV Exports API from DNSFilter — 2 operation(s) for cybersight csv exports.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Cybersight CSV Exports API from DNSFilter — 2 operation(s) for cybersight csv exports.
   name: DNSFilter Cybersight CSV Exports API
   slug: dnsfilter-cybersight-csv-exports-api
-- description: The Dictionary Lookups API from DNSFilter — 4 operation(s) for dictionary lookups.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Dictionary Lookups API from DNSFilter — 4 operation(s) for dictionary lookups.
   name: DNSFilter Dictionary Lookups API
   slug: dnsfilter-dictionary-lookups-api
-- description: The Distributors API from DNSFilter — 23 operation(s) for distributors.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Distributors API from DNSFilter — 23 operation(s) for distributors.
   name: DNSFilter Distributors API
   slug: dnsfilter-distributors-api
-- description: The Domain Notes API from DNSFilter — 4 operation(s) for domain notes.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Domain Notes API from DNSFilter — 4 operation(s) for domain notes.
   name: DNSFilter Domain Notes API
   slug: dnsfilter-domain-notes-api
-- description: The Domains API from DNSFilter — 3 operation(s) for domains.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Domains API from DNSFilter — 3 operation(s) for domains.
   name: DNSFilter Domains API
   slug: dnsfilter-domains-api
-- description: The Enterprise Connections API from DNSFilter — 2 operation(s) for enterprise connections.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Enterprise Connections API from DNSFilter — 2 operation(s) for enterprise connections.
   name: DNSFilter Enterprise Connections API
   slug: dnsfilter-enterprise-connections-api
-- description: The Invoices API from DNSFilter — 3 operation(s) for invoices.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Invoices API from DNSFilter — 3 operation(s) for invoices.
   name: DNSFilter Invoices API
   slug: dnsfilter-invoices-api
-- description: The IP Addresses API from DNSFilter — 5 operation(s) for ip addresses.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The IP Addresses API from DNSFilter — 5 operation(s) for ip addresses.
   name: DNSFilter IP Addresses API
   slug: dnsfilter-ip-addresses-api
-- description: The MAC Addresses API from DNSFilter — 3 operation(s) for mac addresses.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The MAC Addresses API from DNSFilter — 3 operation(s) for mac addresses.
   name: DNSFilter MAC Addresses API
   slug: dnsfilter-mac-addresses-api
-- description: The Metrics API from DNSFilter — 2 operation(s) for metrics.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Metrics API from DNSFilter — 2 operation(s) for metrics.
   name: DNSFilter Metrics API
   slug: dnsfilter-metrics-api
-- description: The Network LAN IPs API from DNSFilter — 2 operation(s) for network lan ips.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Network LAN IPs API from DNSFilter — 2 operation(s) for network lan ips.
   name: DNSFilter Network LAN IPs API
   slug: dnsfilter-network-lan-ips-api
-- description: The Network Subnets API from DNSFilter — 3 operation(s) for network subnets.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Network Subnets API from DNSFilter — 3 operation(s) for network subnets.
   name: DNSFilter Network Subnets API
   slug: dnsfilter-network-subnets-api
-- description: The Networks API from DNSFilter — 15 operation(s) for networks.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Networks API from DNSFilter — 15 operation(s) for networks.
   name: DNSFilter Networks API
   slug: dnsfilter-networks-api
-- description: The Networks CSV Exports API from DNSFilter — 2 operation(s) for networks csv exports.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Networks CSV Exports API from DNSFilter — 2 operation(s) for networks csv exports.
   name: DNSFilter Networks CSV Exports API
   slug: dnsfilter-networks-csv-exports-api
-- description: The Organization Users API from DNSFilter — 3 operation(s) for organization users.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Organization Users API from DNSFilter — 3 operation(s) for organization users.
   name: DNSFilter Organization Users API
   slug: dnsfilter-organization-users-api
-- description: The Organizations API from DNSFilter — 7 operation(s) for organizations.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Organizations API from DNSFilter — 7 operation(s) for organizations.
   name: DNSFilter Organizations API
   slug: dnsfilter-organizations-api
-- description: The Policies API from DNSFilter — 16 operation(s) for policies.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Policies API from DNSFilter — 16 operation(s) for policies.
   name: DNSFilter Policies API
   slug: dnsfilter-policies-api
-- description: The Policies Bulk Actions API from DNSFilter — 4 operation(s) for policies bulk actions.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Policies Bulk Actions API from DNSFilter — 4 operation(s) for policies bulk actions.
   name: DNSFilter Policies Bulk Actions API
   slug: dnsfilter-policies-bulk-actions-api
-- description: The Policy IPs API from DNSFilter — 2 operation(s) for policy ips.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Policy IPs API from DNSFilter — 2 operation(s) for policy ips.
   name: DNSFilter Policy IPs API
   slug: dnsfilter-policy-ips-api
-- description: The PSA Integrations API from DNSFilter — 1 operation(s) for psa integrations.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The PSA Integrations API from DNSFilter — 1 operation(s) for psa integrations.
   name: DNSFilter PSA Integrations API
   slug: dnsfilter-psa-integrations-api
-- description: The Scheduled Policies API from DNSFilter — 3 operation(s) for scheduled policies.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Scheduled Policies API from DNSFilter — 3 operation(s) for scheduled policies.
   name: DNSFilter Scheduled Policies API
   slug: dnsfilter-scheduled-policies-api
-- description: The Scheduled Report Previews API from DNSFilter — 2 operation(s) for scheduled report previews.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Scheduled Report Previews API from DNSFilter — 2 operation(s) for scheduled report previews.
   name: DNSFilter Scheduled Report Previews API
   slug: dnsfilter-scheduled-report-previews-api
-- description: The Scheduled Reports API from DNSFilter — 2 operation(s) for scheduled reports.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Scheduled Reports API from DNSFilter — 2 operation(s) for scheduled reports.
   name: DNSFilter Scheduled Reports API
   slug: dnsfilter-scheduled-reports-api
-- description: The Traffic Reports API from DNSFilter — 53 operation(s) for traffic reports.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Traffic Reports API from DNSFilter — 53 operation(s) for traffic reports.
   name: DNSFilter Traffic Reports API
   slug: dnsfilter-traffic-reports-api
-- description: The Trials API from DNSFilter — 1 operation(s) for trials.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Trials API from DNSFilter — 1 operation(s) for trials.
   name: DNSFilter Trials API
   slug: dnsfilter-trials-api
-- description: The User Agent Bulk Deletes API from DNSFilter — 3 operation(s) for user agent bulk deletes.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User Agent Bulk Deletes API from DNSFilter — 3 operation(s) for user agent bulk deletes.
   name: DNSFilter User Agent Bulk Deletes API
   slug: dnsfilter-user-agent-bulk-deletes-api
-- description: The User Agent Bulk Updates API from DNSFilter — 4 operation(s) for user agent bulk updates.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User Agent Bulk Updates API from DNSFilter — 4 operation(s) for user agent bulk updates.
   name: DNSFilter User Agent Bulk Updates API
   slug: dnsfilter-user-agent-bulk-updates-api
-- description: The User Agent Cleanups API from DNSFilter — 2 operation(s) for user agent cleanups.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User Agent Cleanups API from DNSFilter — 2 operation(s) for user agent cleanups.
   name: DNSFilter User Agent Cleanups API
   slug: dnsfilter-user-agent-cleanups-api
-- description: The User Agent CSV Exports API from DNSFilter — 2 operation(s) for user agent csv exports.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User Agent CSV Exports API from DNSFilter — 2 operation(s) for user agent csv exports.
   name: DNSFilter User Agent CSV Exports API
   slug: dnsfilter-user-agent-csv-exports-api
-- description: The User Agent Releases API from DNSFilter — 2 operation(s) for user agent releases.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User Agent Releases API from DNSFilter — 2 operation(s) for user agent releases.
   name: DNSFilter User Agent Releases API
   slug: dnsfilter-user-agent-releases-api
-- description: The User Agents API from DNSFilter — 9 operation(s) for user agents.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User Agents API from DNSFilter — 9 operation(s) for user agents.
   name: DNSFilter User Agents API
   slug: dnsfilter-user-agents-api
-- description: The User (Current) API from DNSFilter — 1 operation(s) for user (current).
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The User (Current) API from DNSFilter — 1 operation(s) for user (current).
   name: DNSFilter User (Current) API
   slug: dnsfilter-user-current-api
-- description: Manage UI settings for the current user related to Organizations
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: Manage UI settings for the current user related to Organizations
   name: DNSFilter User Organization UI Settings API
   slug: dnsfilter-user-organization-ui-settings-api
-- description: Manage UI settings for the current user.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: Manage UI settings for the current user.
   name: DNSFilter User UI Settings API
   slug: dnsfilter-user-ui-settings-api
-- description: The Users API from DNSFilter — 4 operation(s) for users.
+- baseURL: https://api.dnsfilter.com
+  baseurl_source: declared
+  description: The Users API from DNSFilter — 4 operation(s) for users.
   name: DNSFilter Users API
   slug: dnsfilter-users-api
 artifact_total: 94
@@ -479,7 +569,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/screenshots/dnsfilter-2026-07-25T212151.png
 security:

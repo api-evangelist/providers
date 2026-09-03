@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 6 acting
 api_count: 1
 apis:
-- description: The Articles API from Document360 — 2 operation(s) for articles.
+- baseURL: https://apihub.document360.io/v2
+  baseurl_source: declared
+  description: The Articles API from Document360 — 2 operation(s) for articles.
   name: Document360 Articles API
   slug: document360-articles-api
-- description: The Categories API from Document360 — 2 operation(s) for categories.
+- baseURL: https://apihub.document360.io/v2
+  baseurl_source: declared
+  description: The Categories API from Document360 — 2 operation(s) for categories.
   name: Document360 Categories API
   slug: document360-categories-api
-- description: The Drive API from Document360 — 2 operation(s) for drive.
+- baseURL: https://apihub.document360.io/v2
+  baseurl_source: declared
+  description: The Drive API from Document360 — 2 operation(s) for drive.
   name: Document360 Drive API
   slug: document360-drive-api
-- description: The Project Versions API from Document360 — 1 operation(s) for project versions.
+- baseURL: https://apihub.document360.io/v2
+  baseurl_source: declared
+  description: The Project Versions API from Document360 — 1 operation(s) for project versions.
   name: Document360 Project Versions API
   slug: document360-project-versions-api
-- description: The Teams API from Document360 — 1 operation(s) for teams.
+- baseURL: https://apihub.document360.io/v2
+  baseurl_source: declared
+  description: The Teams API from Document360 — 1 operation(s) for teams.
   name: Document360 Teams API
   slug: document360-teams-api
-- description: The Users API from Document360 — 1 operation(s) for users.
+- baseURL: https://apihub.document360.io/v2
+  baseurl_source: declared
+  description: The Users API from Document360 — 1 operation(s) for users.
   name: Document360 Users API
   slug: document360-users-api
 artifact_total: 31
@@ -241,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/screenshots/document360-2026-06-20T180118.png
 security:

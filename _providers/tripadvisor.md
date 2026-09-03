@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 2
 apis:
-- description: Availability endpoint called in real-time when users view hotel pages on Tripadvisor to retrieve pricing and room availability.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Availability endpoint called in real-time when users view hotel pages on Tripadvisor to retrieve pricing and room availability.
   name: Tripadvisor Availability API
   slug: tripadvisor-availability-api
-- description: Configuration endpoint that Tripadvisor queries to discover the partner's supported features and API version.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Configuration endpoint that Tripadvisor queries to discover the partner's supported features and API version.
   name: Tripadvisor Configuration API
   slug: tripadvisor-configuration-api
-- description: Hotel inventory endpoint queried daily by Tripadvisor to import the partner's full list of connected hotels.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Hotel inventory endpoint queried daily by Tripadvisor to import the partner's full list of connected hotels.
   name: Tripadvisor Hotel Inventory API
   slug: tripadvisor-hotel-inventory-api
-- description: Retrieve comprehensive information about a specific location including name, address, rating, and Tripadvisor listing URLs.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Retrieve comprehensive information about a specific location including name, address, rating, and Tripadvisor listing URLs.
   name: Tripadvisor Location Details API
   slug: tripadvisor-location-details-api
-- description: Access high-quality recent photos for a specific location in multiple size formats.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Access high-quality recent photos for a specific location in multiple size formats.
   name: Tripadvisor Location Photos API
   slug: tripadvisor-location-photos-api
-- description: Retrieve the most recent reviews for a specific location, up to 5 reviews per request.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Retrieve the most recent reviews for a specific location, up to 5 reviews per request.
   name: Tripadvisor Location Reviews API
   slug: tripadvisor-location-reviews-api
-- description: Search for locations by keyword query or geographic proximity. Returns up to 10 matching locations per request.
+- baseURL: https://api.content.tripadvisor.com/api/v1
+  baseurl_source: declared
+  description: Search for locations by keyword query or geographic proximity. Returns up to 10 matching locations per request.
   name: Tripadvisor Location Search API
   slug: tripadvisor-location-search-api
 artifact_total: 57
@@ -287,7 +301,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -297,7 +311,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 42.0
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -306,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripadvisor/refs/heads/main/screenshots/tripadvisor-2026-06-20T195729.png
 security:

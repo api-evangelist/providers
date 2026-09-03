@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: Flexport REST API exposes shipment status, purchase orders, bookings, customs entries, invoices, products, network entities, ports, documents, and webhooks. Uses JSON request/response with v2 endpoint
   name: Flexport REST API
   slug: flexport-rest-api
-- description: The Bookings API from Flexport — 4 operation(s) for bookings.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Bookings API from Flexport — 4 operation(s) for bookings.
   name: Flexport Bookings API
   slug: flexport-bookings-api
-- description: The Customs API from Flexport — 2 operation(s) for customs.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Customs API from Flexport — 2 operation(s) for customs.
   name: Flexport Customs API
   slug: flexport-customs-api
-- description: The Documents API from Flexport — 1 operation(s) for documents.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Documents API from Flexport — 1 operation(s) for documents.
   name: Flexport Documents API
   slug: flexport-documents-api
-- description: The Invoices API from Flexport — 1 operation(s) for invoices.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Invoices API from Flexport — 1 operation(s) for invoices.
   name: Flexport Invoices API
   slug: flexport-invoices-api
-- description: The Network API from Flexport — 3 operation(s) for network.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Network API from Flexport — 3 operation(s) for network.
   name: Flexport Network API
   slug: flexport-network-api
-- description: The Products API from Flexport — 1 operation(s) for products.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Products API from Flexport — 1 operation(s) for products.
   name: Flexport Products API
   slug: flexport-products-api
-- description: The PurchaseOrders API from Flexport — 2 operation(s) for purchaseorders.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The PurchaseOrders API from Flexport — 2 operation(s) for purchaseorders.
   name: Flexport PurchaseOrders API
   slug: flexport-purchaseorders-api
-- description: The Shipments API from Flexport — 6 operation(s) for shipments.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Shipments API from Flexport — 6 operation(s) for shipments.
   name: Flexport Shipments API
   slug: flexport-shipments-api
-- description: The Webhooks API from Flexport — 1 operation(s) for webhooks.
+- baseURL: https://api.flexport.com
+  baseurl_source: declared
+  description: The Webhooks API from Flexport — 1 operation(s) for webhooks.
   name: Flexport Webhooks API
   slug: flexport-webhooks-api
 artifact_total: 29
@@ -219,7 +237,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/screenshots/flexport-2026-06-20T181310.png
 security:

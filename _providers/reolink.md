@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 65 operations · 65 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: AI-powered object detection, auto-tracking, and autofocus
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: AI-powered object detection, auto-tracking, and autofocus
   name: Reolink AI API
   slug: reolink-ai-api
-- description: Motion detection, audio alarms, and detection zone configuration
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Motion detection, audio alarms, and detection zone configuration
   name: Reolink Alarm API
   slug: reolink-alarm-api
-- description: Login, logout, and session token management
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Login, logout, and session token management
   name: Reolink Authentication API
   slug: reolink-authentication-api
-- description: Video stream encoding parameters and compression settings
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Video stream encoding parameters and compression settings
   name: Reolink Encoding API
   slug: reolink-encoding-api
-- description: Infrared, white light, and power indicator LED control
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Infrared, white light, and power indicator LED control
   name: Reolink LED API
   slug: reolink-led-api
-- description: Network configuration, WiFi, DDNS, NTP, email, FTP, and push notifications
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Network configuration, WiFi, DDNS, NTP, email, FTP, and push notifications
   name: Reolink Network API
   slug: reolink-network-api
-- description: Pan-tilt-zoom control, presets, patrols, and calibration
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Pan-tilt-zoom control, presets, patrols, and calibration
   name: Reolink PTZ API
   slug: reolink-ptz-api
-- description: Recording schedules, search, and playback
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Recording schedules, search, and playback
   name: Reolink Recording API
   slug: reolink-recording-api
-- description: User management and access control
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: User management and access control
   name: Reolink Security API
   slug: reolink-security-api
-- description: Device information, maintenance, time settings, firmware, and storage
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Device information, maintenance, time settings, firmware, and storage
   name: Reolink System API
   slug: reolink-system-api
-- description: Image quality, OSD, ISP settings, privacy masks, and snapshot capture
+- baseURL_template: https://{camera_ip}
+  baseurl_source: spec_template
+  description: Image quality, OSD, ISP settings, privacy masks, and snapshot capture
   name: Reolink Video API
   slug: reolink-video-api
 artifact_total: 44
@@ -273,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/screenshots/reolink-2026-06-20T192902.png
 security:

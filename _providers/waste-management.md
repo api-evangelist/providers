@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 17 operations · 2 acting
 api_count: 1
 apis:
-- description: Retrieve and manage customer service cases.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Retrieve and manage customer service cases.
   name: Waste Management Cases API
   slug: waste-management-cases-api
-- description: Manage billing and service contacts.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Manage billing and service contacts.
   name: Waste Management Contacts API
   slug: waste-management-contacts-api
-- description: Retrieve and manage customer account information.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Retrieve and manage customer account information.
   name: Waste Management Customers API
   slug: waste-management-customers-api
-- description: Retrieve invoice summaries and details.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Retrieve invoice summaries and details.
   name: Waste Management Invoices API
   slug: waste-management-invoices-api
-- description: Retrieve and update customer preference settings.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Retrieve and update customer preference settings.
   name: Waste Management Preferences API
   slug: waste-management-preferences-api
-- description: Retrieve service details, schedules, materials, and ETAs.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Retrieve service details, schedules, materials, and ETAs.
   name: Waste Management Services API
   slug: waste-management-services-api
-- description: Retrieve disposal tickets and summaries.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: spec
+  description: Retrieve disposal tickets and summaries.
   name: Waste Management Tickets API
   slug: waste-management-tickets-api
 artifact_total: 32
@@ -270,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png
 security:

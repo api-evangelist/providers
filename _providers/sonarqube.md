@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Code issue search and management
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: Code issue search and management
   name: SonarQube Issues API
   slug: sonarqube-issues-api
-- description: Component metrics and measurement data
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: Component metrics and measurement data
   name: SonarQube Measures API
   slug: sonarqube-measures-api
-- description: Project creation, search, and management
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: Project creation, search, and management
   name: SonarQube Projects API
   slug: sonarqube-projects-api
-- description: Quality gate configuration and status
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: Quality gate configuration and status
   name: SonarQube Quality Gates API
   slug: sonarqube-quality-gates-api
-- description: Analysis rule search and configuration
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: Analysis rule search and configuration
   name: SonarQube Rules API
   slug: sonarqube-rules-api
-- description: SonarQube server status and health monitoring
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: SonarQube server status and health monitoring
   name: SonarQube System API
   slug: sonarqube-system-api
-- description: User account management
+- baseURL_template: https://{sonarqubeHost}/api
+  baseurl_source: spec_template
+  description: User account management
   name: SonarQube Users API
   slug: sonarqube-users-api
 artifact_total: 30
@@ -256,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/screenshots/sonarqube-2026-06-20T194159.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 33 operations · 17 acting
 api_count: 1
 apis:
-- description: Send campaigns and inspect campaign analytics.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: Send campaigns and inspect campaign analytics.
   name: Whippy Campaigns API
   slug: whippy-campaigns-api
-- description: List and inspect channels and channel membership.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: List and inspect channels and channel membership.
   name: Whippy Channels API
   slug: whippy-channels-api
-- description: Manage contacts and communication preferences.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: Manage contacts and communication preferences.
   name: Whippy Contacts API
   slug: whippy-contacts-api
-- description: List, search, and update conversations and their messages.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: List, search, and update conversations and their messages.
   name: Whippy Conversations API
   slug: whippy-conversations-api
-- description: Send SMS / MMS, email, and fax messages.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: Send SMS / MMS, email, and fax messages.
   name: Whippy Messaging API
   slug: whippy-messaging-api
-- description: Manage automated multi-step sequences and their contacts.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: Manage automated multi-step sequences and their contacts.
   name: Whippy Sequences API
   slug: whippy-sequences-api
-- description: Push first-party custom events into Whippy.
+- baseURL: https://api.whippy.co/v1
+  baseurl_source: declared
+  description: Push first-party custom events into Whippy.
   name: Whippy Webhooks API
   slug: whippy-webhooks-api
 artifact_total: 22
@@ -197,7 +211,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/screenshots/whippy-2026-06-20T201440.png
 security:

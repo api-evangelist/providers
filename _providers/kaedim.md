@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Fetch generated assets and projects
+- baseURL: https://api.kaedim3d.com/api/v1
+  baseurl_source: declared
+  description: Fetch generated assets and projects
   name: Kaedim Assets API
   slug: kaedim-assets-api
-- description: Token refresh
+- baseURL: https://api.kaedim3d.com/api/v1
+  baseurl_source: declared
+  description: Token refresh
   name: Kaedim Auth API
   slug: kaedim-auth-api
-- description: Submit images for 3D asset generation
+- baseURL: https://api.kaedim3d.com/api/v1
+  baseurl_source: declared
+  description: Submit images for 3D asset generation
   name: Kaedim Generation API
   slug: kaedim-generation-api
-- description: Register a webhook endpoint and obtain a JWT
+- baseURL: https://api.kaedim3d.com/api/v1
+  baseurl_source: declared
+  description: Register a webhook endpoint and obtain a JWT
   name: Kaedim Webhooks API
   slug: kaedim-webhooks-api
 artifact_total: 13
@@ -206,7 +214,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -216,7 +224,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 40.4
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     contracts:
@@ -227,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaedim/refs/heads/main/screenshots/kaedim-2026-07-25T223407.png
 security:

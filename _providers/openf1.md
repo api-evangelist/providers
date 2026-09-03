@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: The Drivers API from OpenF1 — 1 operation(s) for drivers.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Drivers API from OpenF1 — 1 operation(s) for drivers.
   name: OpenF1 Drivers API
   slug: openf1-drivers-api
-- description: The Laps API from OpenF1 — 1 operation(s) for laps.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Laps API from OpenF1 — 1 operation(s) for laps.
   name: OpenF1 Laps API
   slug: openf1-laps-api
-- description: The Meetings API from OpenF1 — 1 operation(s) for meetings.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Meetings API from OpenF1 — 1 operation(s) for meetings.
   name: OpenF1 Meetings API
   slug: openf1-meetings-api
-- description: The Pit API from OpenF1 — 1 operation(s) for pit.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Pit API from OpenF1 — 1 operation(s) for pit.
   name: OpenF1 Pit API
   slug: openf1-pit-api
-- description: The Position API from OpenF1 — 2 operation(s) for position.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Position API from OpenF1 — 2 operation(s) for position.
   name: OpenF1 Position API
   slug: openf1-position-api
-- description: The RaceControl API from OpenF1 — 1 operation(s) for racecontrol.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The RaceControl API from OpenF1 — 1 operation(s) for racecontrol.
   name: OpenF1 RaceControl API
   slug: openf1-racecontrol-api
-- description: The Sessions API from OpenF1 — 1 operation(s) for sessions.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Sessions API from OpenF1 — 1 operation(s) for sessions.
   name: OpenF1 Sessions API
   slug: openf1-sessions-api
-- description: The Stints API from OpenF1 — 1 operation(s) for stints.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Stints API from OpenF1 — 1 operation(s) for stints.
   name: OpenF1 Stints API
   slug: openf1-stints-api
-- description: The TeamRadio API from OpenF1 — 1 operation(s) for teamradio.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The TeamRadio API from OpenF1 — 1 operation(s) for teamradio.
   name: OpenF1 TeamRadio API
   slug: openf1-teamradio-api
-- description: The Telemetry API from OpenF1 — 2 operation(s) for telemetry.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Telemetry API from OpenF1 — 2 operation(s) for telemetry.
   name: OpenF1 Telemetry API
   slug: openf1-telemetry-api
-- description: The Weather API from OpenF1 — 1 operation(s) for weather.
+- baseURL: https://api.openf1.org/v1
+  baseurl_source: declared
+  description: The Weather API from OpenF1 — 1 operation(s) for weather.
   name: OpenF1 Weather API
   slug: openf1-weather-api
 artifact_total: 35
@@ -233,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/screenshots/openf1-2026-06-20T190958.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Account quota and usage status.
+- baseURL: https://api.numlookupapi.com/v1
+  baseurl_source: declared
+  description: Account quota and usage status.
   name: NumLookupAPI Account API
   slug: numlookupapi-account-api
-- description: Phone number validation and lookup.
+- baseURL: https://api.numlookupapi.com/v1
+  baseurl_source: declared
+  description: Phone number validation and lookup.
   name: NumLookupAPI Validation API
   slug: numlookupapi-validation-api
 artifact_total: 12
@@ -163,7 +167,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/screenshots/numlookupapi-2026-08-07T185737.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 16 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations for managing ECS clusters that host Fargate tasks and services, including cluster creation, configuration, and capacity provider association.
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing ECS clusters that host Fargate tasks and services, including cluster creation, configuration, and capacity provider association.
   name: AWS Fargate Clusters API
   slug: fargate-clusters-api
-- description: Operations for registering and managing ECS task definitions with Fargate compatibility, including CPU, memory, network mode, and container configuration.
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for registering and managing ECS task definitions with Fargate compatibility, including CPU, memory, network mode, and container configuration.
   name: AWS Fargate Task Definitions API
   slug: fargate-task-definitions-api
-- description: Operations for running and managing individual Fargate tasks, including launching tasks, stopping tasks, and querying task status.
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for running and managing individual Fargate tasks, including launching tasks, stopping tasks, and querying task status.
   name: AWS Fargate Tasks API
   slug: fargate-tasks-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.createservice.'
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.createservice.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.deleteservice.'
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.deleteservice.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.describeservices.'
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.describeservices.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.listservices.'
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.listservices.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
+- baseURL: https://ecs.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from AWS Fargate — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
   name: 'AWS Fargate #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 artifact_total: 34
@@ -316,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/screenshots/fargate-2026-06-20T181042.png
 security:

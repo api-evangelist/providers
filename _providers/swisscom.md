@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,13 +80,19 @@ apis:
 - description: Legacy Voice API for listing and retrieving recent voicemail messages for a Swisscom MSISDN, secured by OAuth 2.0 client-credentials or authorization-code grants. Documented as RAML-rendered HTML in t
   name: Swisscom Voice Mail API
   slug: swisscom-voice-mail-api
-- description: Allows you to set up your process according to your needs, including adding documents, configuring invitees, setting signature options, and submitting the process for execution.
+- baseURL: https://sign.swisscom.ch/system
+  baseurl_source: declared
+  description: Allows you to set up your process according to your needs, including adding documents, configuring invitees, setting signature options, and submitting the process for execution.
   name: 'Swisscom Process: create API'
   slug: swisscom-process-create-api
-- description: Access process information and download signed or original documents once the signing is complete.
+- baseURL: https://sign.swisscom.ch/system
+  baseurl_source: declared
+  description: Access process information and download signed or original documents once the signing is complete.
   name: 'Swisscom Process: read API'
   slug: swisscom-process-read-api
-- description: The signatures API from Swisscom — 1 operation(s) for signatures.
+- baseURL: https://sign.swisscom.ch/system
+  baseurl_source: declared
+  description: The signatures API from Swisscom — 1 operation(s) for signatures.
   name: Swisscom Signatures API
   slug: swisscom-signatures-api
 artifact_total: 24
@@ -307,7 +326,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -317,7 +336,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 65.8
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -339,7 +358,7 @@ score:
     regime_id: telecommunications
     score: 83.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/screenshots/swisscom-2026-08-17T082213.png
 security:

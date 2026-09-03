@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 26 operations · 16 acting
 api_count: 1
 apis:
-- description: The Balances API from ProcessOut — 1 operation(s) for balances.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Balances API from ProcessOut — 1 operation(s) for balances.
   name: ProcessOut Balances API
   slug: processout-balances-api
-- description: The Cards API from ProcessOut — 2 operation(s) for cards.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Cards API from ProcessOut — 2 operation(s) for cards.
   name: ProcessOut Cards API
   slug: processout-cards-api
-- description: The Customers API from ProcessOut — 3 operation(s) for customers.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Customers API from ProcessOut — 3 operation(s) for customers.
   name: ProcessOut Customers API
   slug: processout-customers-api
-- description: The Events API from ProcessOut — 1 operation(s) for events.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Events API from ProcessOut — 1 operation(s) for events.
   name: ProcessOut Events API
   slug: processout-events-api
-- description: The Invoices API from ProcessOut — 6 operation(s) for invoices.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Invoices API from ProcessOut — 6 operation(s) for invoices.
   name: ProcessOut Invoices API
   slug: processout-invoices-api
-- description: The Network Tokens API from ProcessOut — 1 operation(s) for network tokens.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Network Tokens API from ProcessOut — 1 operation(s) for network tokens.
   name: ProcessOut Network Tokens API
   slug: processout-network-tokens-api
-- description: The Payouts API from ProcessOut — 3 operation(s) for payouts.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Payouts API from ProcessOut — 3 operation(s) for payouts.
   name: ProcessOut Payouts API
   slug: processout-payouts-api
-- description: The Projects API from ProcessOut — 1 operation(s) for projects.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Projects API from ProcessOut — 1 operation(s) for projects.
   name: ProcessOut Projects API
   slug: processout-projects-api
-- description: The Transactions API from ProcessOut — 1 operation(s) for transactions.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Transactions API from ProcessOut — 1 operation(s) for transactions.
   name: ProcessOut Transactions API
   slug: processout-transactions-api
-- description: The Uploads API from ProcessOut — 3 operation(s) for uploads.
+- baseURL: https://api.processout.com
+  baseurl_source: declared
+  description: The Uploads API from ProcessOut — 3 operation(s) for uploads.
   name: ProcessOut Uploads API
   slug: processout-uploads-api
 artifact_total: 28
@@ -305,7 +325,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -315,7 +335,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -337,7 +357,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/processout/refs/heads/main/screenshots/processout-2026-08-17T081342.png
 security:

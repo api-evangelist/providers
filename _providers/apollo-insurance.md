@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,16 +45,24 @@ agentic_access:
   summary_line: 8 operations · 6 acting
 api_count: 3
 apis:
-- description: The Affiliates API from APOLLO Insurance — 2 operation(s) for affiliates.
+- baseURL: https://fpl95knwc1.execute-api.ca-central-1.amazonaws.com/1_0_0
+  baseurl_source: declared
+  description: The Affiliates API from APOLLO Insurance — 2 operation(s) for affiliates.
   name: APOLLO Insurance Affiliates API
   slug: apollo-insurance-affiliates-api
-- description: APOLLO public API
+- baseURL: https://fpl95knwc1.execute-api.ca-central-1.amazonaws.com/1_0_0
+  baseurl_source: declared
+  description: APOLLO public API
   name: APOLLO Insurance API
   slug: apollo-insurance-api-api
-- description: The Compliance API from APOLLO Insurance — 3 operation(s) for compliance.
+- baseURL: https://fpl95knwc1.execute-api.ca-central-1.amazonaws.com/1_0_0
+  baseurl_source: declared
+  description: The Compliance API from APOLLO Insurance — 3 operation(s) for compliance.
   name: APOLLO Insurance Compliance API
   slug: apollo-insurance-compliance-api
-- description: The Quote API from APOLLO Insurance — 1 operation(s) for quote.
+- baseURL: https://fpl95knwc1.execute-api.ca-central-1.amazonaws.com/1_0_0
+  baseurl_source: declared
+  description: The Quote API from APOLLO Insurance — 1 operation(s) for quote.
   name: APOLLO Insurance Quote API
   slug: apollo-insurance-quote-api
 artifact_total: 13
@@ -282,7 +302,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -292,7 +312,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +330,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png
 security:

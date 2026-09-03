@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 17 acting
 api_count: 1
 apis:
-- description: A sales tax exemption certificate documents the exemption claimed by a purchaser to legally make a tax-free purchase. Certificates can be uploaded to Anrok via the Anrok UI as well as via the API. See
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: A sales tax exemption certificate documents the exemption claimed by a purchaser to legally make a tax-free purchase. Certificates can be uploaded to Anrok via the Anrok UI as well as via the API. See
   name: Anrok Customer certificates API
   slug: anrok-customer-certificates-api
-- description: '**The Filings endpoint is a premium feature. Please contact hello@anrok.com for more information to enable this on your seller account.** This endpoint can be used to fetch filings from Anrok.'
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: '**The Filings endpoint is a premium feature. Please contact hello@anrok.com for more information to enable this on your seller account.** This endpoint can be used to fetch filings from Anrok.'
   name: Anrok Filings API
   slug: anrok-filings-api
-- description: The Anrok Product Mappings API endpoint allows you to dynamically map product IDs for [Anrok-built billing system integrations](https://help-center.anrok.com/hc/en-us/articles/41966628275219-Anrok-int
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: The Anrok Product Mappings API endpoint allows you to dynamically map product IDs for [Anrok-built billing system integrations](https://help-center.anrok.com/hc/en-us/articles/41966628275219-Anrok-int
   name: Anrok Product mappings API
   slug: anrok-product-mappings-api
-- description: The Anrok Products API endpoints allow you to manage the products on your seller account. Each product is identified by an external ID and is assigned a product tax category (PTC) which determines the
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: The Anrok Products API endpoints allow you to manage the products on your seller account. Each product is identified by an external ID and is assigned a product tax category (PTC) which determines the
   name: Anrok Products API
   slug: anrok-products-api
-- description: '**The Anrok Tax ID Validation endpoint is a premium feature. Please contact hello@anrok.com for more information to enable this on your Anrok seller account.** 1. Pass a customer address and an empty '
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: '**The Anrok Tax ID Validation endpoint is a premium feature. Please contact hello@anrok.com for more information to enable this on your Anrok seller account.** 1. Pass a customer address and an empty '
   name: Anrok Tax ID validation API
   slug: anrok-tax-id-validation-api
-- description: 'This documentation describes how to use Anrok''s Transactions API to synchronize transactions between Anrok and your billing system, as well as calculate sales tax for new invoices. Use of this API is '
+- baseURL: https://api.anrok.com
+  baseurl_source: declared
+  description: 'This documentation describes how to use Anrok''s Transactions API to synchronize transactions between Anrok and your billing system, as well as calculate sales tax for new invoices. Use of this API is '
   name: Anrok Transactions API
   slug: anrok-transactions-api
 artifact_total: 63
@@ -339,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/screenshots/anrok-2026-06-20T172015.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 11 operations · 3 acting
 api_count: 1
 apis:
-- description: The conferenceRecords API from Google Meet — 7 operation(s) for conferencerecords.
+- baseURL: https://meet.googleapis.com
+  baseurl_source: declared
+  description: The conferenceRecords API from Google Meet — 7 operation(s) for conferencerecords.
   name: Google Meet conferenceRecords API
   slug: google-meet-conferencerecords-api
-- description: The Google Meet API API from Google Meet — 2 operation(s) for google meet api.
+- baseURL: https://meet.googleapis.com
+  baseurl_source: declared
+  description: The Google Meet API API from Google Meet — 2 operation(s) for google meet api.
   name: Google Meet Google Meet API API
   slug: google-meet-google-meet-api-api
-- description: The Spaces API from Google Meet — 1 operation(s) for spaces.
+- baseURL: https://meet.googleapis.com
+  baseurl_source: declared
+  description: The Spaces API from Google Meet — 1 operation(s) for spaces.
   name: Google Meet Spaces API
   slug: google-meet-spaces-api
 artifact_total: 18
@@ -184,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/screenshots/google-meet-2026-06-20T182215.png
 security:

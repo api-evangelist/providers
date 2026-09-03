@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Query builds produced by the Chromatic CLI - the `build(id)` and `project.lastBuild(...)` GraphQL fields expose build number, status (IN_PROGRESS, PASSED, PENDING, ACCEPTED, DENIED, BROKEN, FAILED), r
+- baseURL: https://index.chromatic.com/graphql
+  baseurl_source: declared
+  description: Query builds produced by the Chromatic CLI - the `build(id)` and `project.lastBuild(...)` GraphQL fields expose build number, status (IN_PROGRESS, PASSED, PENDING, ACCEPTED, DENIED, BROKEN, FAILED), r
   name: Chromatic Builds API
   slug: chromatic-builds-api
-- description: Inspect and act on individual visual tests. A Test carries its status, result, baseline, and per-browser snapshot comparisons (TestComparison with base/head captures and pixel diffs). The `reviewTest`
+- baseURL: https://index.chromatic.com/graphql
+  baseurl_source: declared
+  description: Inspect and act on individual visual tests. A Test carries its status, result, baseline, and per-browser snapshot comparisons (TestComparison with base/head captures and pixel diffs). The `reviewTest`
   name: Chromatic Tests and Review API
   slug: chromatic-tests-review-api
-- description: Resolve project and account context. The `project(id)` field returns the project name, enabled features (uiReview, uiTests), branch names, project token, and manage/web URLs; `account(id)` and `viewer
+- baseURL: https://index.chromatic.com/graphql
+  baseurl_source: declared
+  description: Resolve project and account context. The `project(id)` field returns the project name, enabled features (uiReview, uiTests), branch names, project token, and manage/web URLs; `account(id)` and `viewer
   name: Chromatic Projects and Accounts API
   slug: chromatic-projects-accounts-api
-- description: Read the published Storybook and its structure. The `storybook(url)` query and the Story and Component node types expose the components and stories captured in a build, their CSF story IDs, test param
+- baseURL: https://index.chromatic.com/graphql
+  baseurl_source: declared
+  description: Read the published Storybook and its structure. The `storybook(url)` query and the Story and Component node types expose the components and stories captured in a build, their CSF story IDs, test param
   name: Chromatic Storybook and Stories API
   slug: chromatic-storybook-stories-api
 artifact_total: 9
@@ -135,7 +143,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chromatic/refs/heads/main/screenshots/chromatic-2026-07-25T205300.png
 slug: chromatic

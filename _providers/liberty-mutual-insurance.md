@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 2
 apis:
-- description: Incident data operations
+- baseURL: https://api.libertymutual.com
+  baseurl_source: declared
+  description: Incident data operations
   name: Liberty Mutual Insurance Data API
   slug: liberty-mutual-insurance-data-api
-- description: Policy management operations
+- baseURL: https://api.libertymutual.com
+  baseurl_source: declared
+  description: Policy management operations
   name: Liberty Mutual Insurance Policies API
   slug: liberty-mutual-insurance-policies-api
-- description: Insurance quote operations
+- baseURL: https://api.libertymutual.com
+  baseurl_source: declared
+  description: Insurance quote operations
   name: Liberty Mutual Insurance Quotes API
   slug: liberty-mutual-insurance-quotes-api
-- description: Safety analysis operations
+- baseURL: https://api.libertymutual.com
+  baseurl_source: declared
+  description: Safety analysis operations
   name: Liberty Mutual Insurance Safety API
   slug: liberty-mutual-insurance-safety-api
 artifact_total: 16
@@ -189,7 +197,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/screenshots/liberty-mutual-insurance-2026-08-07T182909.png
 security:

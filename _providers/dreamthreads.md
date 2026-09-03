@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -33,10 +47,14 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 2
 apis:
-- description: Generate a tentative, context-aware dream reflection with a factor trace and provenance.
+- baseURL: https://mydreamthreads.xyz/api/v1/dreamgraph
+  baseurl_source: declared
+  description: Generate a tentative, context-aware dream reflection with a factor trace and provenance.
   name: DreamThreads Dream interpretation API
   slug: dreamthreads-dream-interpretation-api
-- description: Turn dream text into structured entities, emotions, actions, agency, threat, outcome, and recurrence.
+- baseURL: https://mydreamthreads.xyz/api/v1/dreamgraph
+  baseurl_source: declared
+  description: Turn dream text into structured entities, emotions, actions, agency, threat, outcome, and recurrence.
   name: DreamThreads Dream parsing API
   slug: dreamthreads-dream-parsing-api
 artifact_total: 14
@@ -256,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/screenshots/dreamthreads-2026-08-17T080903.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,22 +74,34 @@ apis:
 - description: Manage spend category taxonomies used to classify procurement spending within the Workday Strategic Sourcing platform. Version 1.0.
   name: Spend Categories API
   slug: spend-categories-api
-- description: The Bids API from Scout RFP — 5 operation(s) for bids.
+- baseURL: https://api.us.workdayspend.com/services/events/v1
+  baseurl_source: spec
+  description: The Bids API from Scout RFP — 5 operation(s) for bids.
   name: Scout RFP Bids API
   slug: scout-rfp-bids-api
-- description: The Event Suppliers API from Scout RFP — 2 operation(s) for event suppliers.
+- baseURL: https://api.us.workdayspend.com/services/events/v1
+  baseurl_source: spec
+  description: The Event Suppliers API from Scout RFP — 2 operation(s) for event suppliers.
   name: Scout RFP Event Suppliers API
   slug: scout-rfp-event-suppliers-api
-- description: The Event Templates API from Scout RFP — 2 operation(s) for event templates.
+- baseURL: https://api.us.workdayspend.com/services/events/v1
+  baseurl_source: spec
+  description: The Event Templates API from Scout RFP — 2 operation(s) for event templates.
   name: Scout RFP Event Templates API
   slug: scout-rfp-event-templates-api
-- description: The Events API from Scout RFP — 3 operation(s) for events.
+- baseURL: https://api.us.workdayspend.com/services/events/v1
+  baseurl_source: spec
+  description: The Events API from Scout RFP — 3 operation(s) for events.
   name: Scout RFP Events API
   slug: scout-rfp-events-api
-- description: The Line Items API from Scout RFP — 3 operation(s) for line items.
+- baseURL: https://api.us.workdayspend.com/services/events/v1
+  baseurl_source: spec
+  description: The Line Items API from Scout RFP — 3 operation(s) for line items.
   name: Scout RFP Line Items API
   slug: scout-rfp-line-items-api
-- description: The Worksheets API from Scout RFP — 2 operation(s) for worksheets.
+- baseURL: https://api.us.workdayspend.com/services/events/v1
+  baseurl_source: spec
+  description: The Worksheets API from Scout RFP — 2 operation(s) for worksheets.
   name: Scout RFP Worksheets API
   slug: scout-rfp-worksheets-api
 artifact_total: 53
@@ -292,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scout-rfp/refs/heads/main/screenshots/scout-rfp-2026-06-20T193553.png
 security:

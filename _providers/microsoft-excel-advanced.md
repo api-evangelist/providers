@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,31 +59,49 @@ apis:
 - description: Pre-built connector for automating Excel workflows in Power Automate.
   name: Power Automate Excel Connector
   slug: power-automate-excel-connector
-- description: Chart operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Chart operations
   name: Microsoft Excel (Advanced) Charts API
   slug: microsoft-excel-advanced-charts-api
-- description: Workbook function calls
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Workbook function calls
   name: Microsoft Excel (Advanced) Functions API
   slug: microsoft-excel-advanced-functions-api
-- description: Named item operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Named item operations
   name: Microsoft Excel (Advanced) NamedItems API
   slug: microsoft-excel-advanced-nameditems-api
-- description: Range cell operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Range cell operations
   name: Microsoft Excel (Advanced) Range API
   slug: microsoft-excel-advanced-range-api
-- description: Workbook session management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Workbook session management
   name: Microsoft Excel (Advanced) Sessions API
   slug: microsoft-excel-advanced-sessions-api
-- description: Operations on table columns
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on table columns
   name: Microsoft Excel (Advanced) TableColumns API
   slug: microsoft-excel-advanced-tablecolumns-api
-- description: Operations on table rows
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on table rows
   name: Microsoft Excel (Advanced) TableRows API
   slug: microsoft-excel-advanced-tablerows-api
-- description: Excel table operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Excel table operations
   name: Microsoft Excel (Advanced) Tables API
   slug: microsoft-excel-advanced-tables-api
-- description: Worksheet operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Worksheet operations
   name: Microsoft Excel (Advanced) Worksheets API
   slug: microsoft-excel-advanced-worksheets-api
 artifact_total: 33
@@ -223,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/screenshots/microsoft-excel-advanced-2026-06-20T185500.png
 security:

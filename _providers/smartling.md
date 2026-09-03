@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -46,58 +46,94 @@ apis:
 - description: Smartling's REST API for the translation management platform. Resource groups include Authentication, Accounts, Projects, Source Files, Strings, Translations, Jobs, Glossary, Issues, Quality Checks, M
   name: Smartling REST API
   slug: api-v2
-- description: Each client within Smartling is given their own account with a designated `accountUid`. Within each account is any number of projects. All files, content, and jobs are tied to a particular project. Th
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: Each client within Smartling is given their own account with a designated `accountUid`. Within each account is any number of projects. All files, content, and jobs are tied to a particular project. Th
   name: Smartling Account & Projects API
   slug: smartling-account-projects-api
-- description: 'The Attachments API allows for file attachment upload, download and checking linked attachments for an entity. Attachment entities can be from three domains: strings, jobs or issues. Each entity is re'
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: 'The Attachments API allows for file attachment upload, download and checking linked attachments for an entity. Attachment entities can be from three domains: strings, jobs or issues. Each entity is re'
   name: Smartling Attachments API
   slug: smartling-attachments-api
-- description: Smartling uses OAuth2 for [authentication](https://help.smartling.com/hc/en-us/articles/1260805176849). To access the Smartling APIs, you'll first need to authenticate with your user identifier and us
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: Smartling uses OAuth2 for [authentication](https://help.smartling.com/hc/en-us/articles/1260805176849). To access the Smartling APIs, you'll first need to authenticate with your user identifier and us
   name: Smartling Authentication API
   slug: smartling-authentication-api
-- description: The Content Search API allows you to search for strings within a Smartling project. You can filter by string text, hashcode, namespace, or any combination of available filters.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Content Search API allows you to search for strings within a Smartling project. You can filter by string text, hashcode, namespace, or any combination of available filters.
   name: Smartling Content Search API
   slug: smartling-content-search-api
-- description: '[Visual context](https://help.smartling.com/hc/en-us/articles/360057484273) helps Translators make linguistic, layout, and spacing decisions based on where strings appear in your mobile or desktop app'
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: '[Visual context](https://help.smartling.com/hc/en-us/articles/360057484273) helps Translators make linguistic, layout, and spacing decisions based on where strings appear in your mobile or desktop app'
   name: Smartling Context API
   slug: smartling-context-api
-- description: The Estimates API from Smartling — 6 operation(s) for estimates.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Estimates API from Smartling — 6 operation(s) for estimates.
   name: Smartling Estimates API
   slug: smartling-estimates-api
-- description: 'Files are typically how you can exchange your content with Smartling to get translations. Smartling supports a wide variety of [file types](https://help.smartling.com/hc/en-us/articles/360007998893). '
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: 'Files are typically how you can exchange your content with Smartling to get translations. Smartling supports a wide variety of [file types](https://help.smartling.com/hc/en-us/articles/360007998893). '
   name: Smartling Files API
   slug: smartling-files-api
-- description: The GDN url management API from Smartling — 4 operation(s) for gdn url management.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The GDN url management API from Smartling — 4 operation(s) for gdn url management.
   name: Smartling GDN url management API
   slug: smartling-gdn-url-management-api
-- description: A Smartling project (such as a mobile, web, files, or connector project) may contain one or more [jobs](https://help.smartling.com/hc/en-us/articles/1260805481390). You may have multiple projects, eac
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: A Smartling project (such as a mobile, web, files, or connector project) may contain one or more [jobs](https://help.smartling.com/hc/en-us/articles/1260805481390). You may have multiple projects, eac
   name: Smartling Jobs API
   slug: smartling-jobs-api
-- description: The Language Detection API from Smartling — 1 operation(s) for language detection.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Language Detection API from Smartling — 1 operation(s) for language detection.
   name: Smartling Language Detection API
   slug: smartling-language-detection-api
-- description: Locales are the language and country pairs that are used to identify the source content and the desired target locale for your translated content.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: Locales are the language and country pairs that are used to identify the source content and the desired target locale for your translated content.
   name: Smartling Locales API
   slug: smartling-locales-api
-- description: The Smartling platform offers state-of-the-art [Machine Translation capabilities](https://www.smartling.com/software/neural-machine-translation-hub/) through its synchronous account-level Machine Tran
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Smartling platform offers state-of-the-art [Machine Translation capabilities](https://www.smartling.com/software/neural-machine-translation-hub/) through its synchronous account-level Machine Tran
   name: Smartling Machine Translation (MT) API
   slug: smartling-machine-translation-mt-api
-- description: Smartling users, who process and translate content with the Smartling platform.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: Smartling users, who process and translate content with the Smartling platform.
   name: Smartling People API
   slug: smartling-people-api
-- description: The Reports API allows to request various reports available on Smartling platform and specify additional filtering criteria to narrow down data returned by the reports.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Reports API allows to request various reports available on Smartling platform and specify additional filtering criteria to narrow down data returned by the reports.
   name: Smartling Reports API
   slug: smartling-reports-api
-- description: A string is a piece of translation. Based on the source content, strings can be parsed differently. A string is then broken down further, into one or more segments. The Strings API allows you to direc
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: A string is a piece of translation. Based on the source content, strings can be parsed differently. A string is then broken down further, into one or more segments. The Strings API allows you to direc
   name: Smartling Strings API
   slug: smartling-strings-api
-- description: Tags can help you manage your strings. The Tags API allows you to add/remove string tags, and search for tags in a project.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: Tags can help you manage your strings. The Tags API allows you to add/remove string tags, and search for tags in a project.
   name: Smartling Tags API
   slug: smartling-tags-api
-- description: The Vendors API is for Language Service Providers to view work that's available in Smartling.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Vendors API is for Language Service Providers to view work that's available in Smartling.
   name: Smartling Vendors API
   slug: smartling-vendors-api
-- description: The Workflow Assignment API handles workflow step assignments for non agency users.
+- baseURL: https://api.smartling.com
+  baseurl_source: declared
+  description: The Workflow Assignment API handles workflow step assignments for non agency users.
   name: Smartling Workflow Assignment API
   slug: smartling-workflow-assignment-api
 artifact_total: 46
@@ -267,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/screenshots/smartling-2026-06-20T194043.png
 security:

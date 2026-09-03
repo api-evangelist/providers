@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 43 operations · 18 acting
 api_count: 1
 apis:
-- description: The authenticated dotloop account.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: The authenticated dotloop account.
   name: dotloop Account API
   slug: dotloop-account-api
-- description: Read-only loop activity feed.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Read-only loop activity feed.
   name: dotloop Activities API
   slug: dotloop-activities-api
-- description: The authenticated user's contacts (address book).
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: The authenticated user's contacts (address book).
   name: dotloop Contacts API
   slug: dotloop-contacts-api
-- description: Documents within a loop folder.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Documents within a loop folder.
   name: dotloop Documents API
   slug: dotloop-documents-api
-- description: Folders that organize documents within a loop.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Folders that organize documents within a loop.
   name: dotloop Folders API
   slug: dotloop-folders-api
-- description: Structured detail fields of a loop.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Structured detail fields of a loop.
   name: dotloop Loop Details API
   slug: dotloop-loop-details-api
-- description: Single-call loop creation facade.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Single-call loop creation facade.
   name: dotloop Loop It API
   slug: dotloop-loop-it-api
-- description: Reusable transaction blueprints under a profile.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Reusable transaction blueprints under a profile.
   name: dotloop Loop Templates API
   slug: dotloop-loop-templates-api
-- description: Loops (real estate transactions).
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Loops (real estate transactions).
   name: dotloop Loops API
   slug: dotloop-loops-api
-- description: Parties to a loop.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Parties to a loop.
   name: dotloop Participants API
   slug: dotloop-participants-api
-- description: Individual, team, and brokerage profiles that scope loops.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Individual, team, and brokerage profiles that scope loops.
   name: dotloop Profiles API
   slug: dotloop-profiles-api
-- description: Task lists and task items on a loop.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Task lists and task items on a loop.
   name: dotloop Tasks API
   slug: dotloop-tasks-api
-- description: Webhook subscriptions and delivered events.
+- baseURL: https://api-gateway.dotloop.com/public/v2
+  baseurl_source: declared
+  description: Webhook subscriptions and delivered events.
   name: dotloop Webhooks API
   slug: dotloop-webhooks-api
 artifact_total: 35
@@ -236,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotloop/refs/heads/main/screenshots/dotloop-2026-07-25T212314.png
 security:

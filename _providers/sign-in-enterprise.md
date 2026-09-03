@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 43 operations · 18 acting
 api_count: 1
 apis:
-- description: All endpoints related to the AuditLog model.
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to the AuditLog model.
   name: Sign In Enterprise AuditLogs API
   slug: sign-in-enterprise-auditlogs-api
-- description: All endpoints related to Batch-type actions.
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to Batch-type actions.
   name: Sign In Enterprise Batches API
   slug: sign-in-enterprise-batches-api
-- description: All endpoints related to Capacity management.
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to Capacity management.
   name: Sign In Enterprise Capacities API
   slug: sign-in-enterprise-capacities-api
-- description: All endpoints relating to operations for the EmailTemplate model
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints relating to operations for the EmailTemplate model
   name: Sign In Enterprise EmailTemplates API
   slug: sign-in-enterprise-emailtemplates-api
-- description: All endpoints related to Group Visits (Appointments).
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to Group Visits (Appointments).
   name: Sign In Enterprise GroupVisits API
   slug: sign-in-enterprise-groupvisits-api
-- description: All endpoints relating to the Host model
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints relating to the Host model
   name: Sign In Enterprise Hosts API
   slug: sign-in-enterprise-hosts-api
-- description: All endpoints relating to the Invite model
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints relating to the Invite model
   name: Sign In Enterprise Invites API
   slug: sign-in-enterprise-invites-api
-- description: All endpoints relating to the Location model, aka. DeviceConfigurations
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints relating to the Location model, aka. DeviceConfigurations
   name: Sign In Enterprise Locations API
   slug: sign-in-enterprise-locations-api
-- description: All endpoints relating to the Packages model
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints relating to the Packages model
   name: Sign In Enterprise Packages API
   slug: sign-in-enterprise-packages-api
-- description: All endpoint related to the parking feature, including the ParkingLot and ParkingStallRange models
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoint related to the parking feature, including the ParkingLot and ParkingStallRange models
   name: Sign In Enterprise Parking API
   slug: sign-in-enterprise-parking-api
-- description: All endpoints related to Registrations.
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to Registrations.
   name: Sign In Enterprise Registrations API
   slug: sign-in-enterprise-registrations-api
-- description: All endpoints related to models that track signing in and out of a location. E.g., Signin, Signout, SigninAcknowledgment models
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to models that track signing in and out of a location. E.g., Signin, Signout, SigninAcknowledgment models
   name: Sign In Enterprise Signins API
   slug: sign-in-enterprise-signins-api
-- description: All endpoints related to the User model
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to the User model
   name: Sign In Enterprise Users API
   slug: sign-in-enterprise-users-api
-- description: All endpoint related to the Watchlist model
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoint related to the Watchlist model
   name: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
 artifact_total: 36
@@ -294,7 +322,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -304,7 +332,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.3
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,7 +344,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/screenshots/sign-in-enterprise-2026-08-17T081851.png
 security:

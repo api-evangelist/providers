@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Model Context Protocol server giving Claude, Cursor, and other MCP clients access to Recraft's image and vector generation, editing, custom styles, vectorization, background tooling, and raster upscal
   name: Recraft MCP Server
   slug: recraft-mcp-server
-- description: The Images API from Recraft — 16 operation(s) for images.
+- baseURL: https://external.api.recraft.ai/v1
+  baseurl_source: declared
+  description: The Images API from Recraft — 16 operation(s) for images.
   name: Recraft Images API
   slug: recraft-ai-images-api
-- description: The Prompts API from Recraft — 1 operation(s) for prompts.
+- baseURL: https://external.api.recraft.ai/v1
+  baseurl_source: declared
+  description: The Prompts API from Recraft — 1 operation(s) for prompts.
   name: Recraft Prompts API
   slug: recraft-ai-prompts-api
-- description: The Styles API from Recraft — 1 operation(s) for styles.
+- baseURL: https://external.api.recraft.ai/v1
+  baseurl_source: declared
+  description: The Styles API from Recraft — 1 operation(s) for styles.
   name: Recraft Styles API
   slug: recraft-ai-styles-api
-- description: The Users API from Recraft — 1 operation(s) for users.
+- baseURL: https://external.api.recraft.ai/v1
+  baseurl_source: declared
+  description: The Users API from Recraft — 1 operation(s) for users.
   name: Recraft Users API
   slug: recraft-ai-users-api
 artifact_total: 54
@@ -431,7 +439,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recraft-ai/refs/heads/main/screenshots/recraft-ai-2026-06-20T192704.png
 security:

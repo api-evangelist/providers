@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 19 acting
 api_count: 1
 apis:
-- description: Generate music and sound effects.
+- baseURL: https://api.magnific.com
+  baseurl_source: declared
+  description: Generate music and sound effects.
   name: Freepik Audio API
   slug: freepik-audio-api
-- description: Upscale, relight, restyle, or edit images.
+- baseURL: https://api.magnific.com
+  baseurl_source: declared
+  description: Upscale, relight, restyle, or edit images.
   name: Freepik Image Editing API
   slug: freepik-image-editing-api
-- description: Generate images from text or reference inputs.
+- baseURL: https://api.magnific.com
+  baseurl_source: declared
+  description: Generate images from text or reference inputs.
   name: Freepik Image Generation API
   slug: freepik-image-generation-api
-- description: Search Freepik's stock library.
+- baseURL: https://api.magnific.com
+  baseurl_source: declared
+  description: Search Freepik's stock library.
   name: Freepik Resources API
   slug: freepik-resources-api
-- description: Poll asynchronous task status.
+- baseURL: https://api.magnific.com
+  baseurl_source: declared
+  description: Poll asynchronous task status.
   name: Freepik Tasks API
   slug: freepik-tasks-api
-- description: Generate video from images or text.
+- baseURL: https://api.magnific.com
+  baseurl_source: declared
+  description: Generate video from images or text.
   name: Freepik Video Generation API
   slug: freepik-video-generation-api
 artifact_total: 20
@@ -173,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/screenshots/freepik-2026-06-20T181529.png
 security:

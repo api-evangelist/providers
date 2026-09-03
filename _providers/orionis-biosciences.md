@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -33,37 +44,59 @@ agentic_access:
   summary_line: 85 operations · 50 acting
 api_count: 1
 apis:
-- description: The Abilities API from Orionis Biosciences — 6 operation(s) for abilities.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Abilities API from Orionis Biosciences — 6 operation(s) for abilities.
   name: Orionis Biosciences Abilities API
   slug: orionis-biosciences-abilities-api
-- description: The Comments API from Orionis Biosciences — 2 operation(s) for comments.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Orionis Biosciences — 2 operation(s) for comments.
   name: Orionis Biosciences Comments API
   slug: orionis-biosciences-comments-api
-- description: The Discovery API from Orionis Biosciences — 8 operation(s) for discovery.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Orionis Biosciences — 8 operation(s) for discovery.
   name: Orionis Biosciences Discovery API
   slug: orionis-biosciences-discovery-api
-- description: The Media API from Orionis Biosciences — 4 operation(s) for media.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Orionis Biosciences — 4 operation(s) for media.
   name: Orionis Biosciences Media API
   slug: orionis-biosciences-media-api
-- description: The News API from Orionis Biosciences — 2 operation(s) for news.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The News API from Orionis Biosciences — 2 operation(s) for news.
   name: Orionis Biosciences News API
   slug: orionis-biosciences-news-api
-- description: The oEmbed API from Orionis Biosciences — 3 operation(s) for oembed.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The oEmbed API from Orionis Biosciences — 3 operation(s) for oembed.
   name: Orionis Biosciences O Embed API
   slug: orionis-biosciences-oembed-api
-- description: The Pages API from Orionis Biosciences — 2 operation(s) for pages.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Orionis Biosciences — 2 operation(s) for pages.
   name: Orionis Biosciences Pages API
   slug: orionis-biosciences-pages-api
-- description: The Search API from Orionis Biosciences — 1 operation(s) for search.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Orionis Biosciences — 1 operation(s) for search.
   name: Orionis Biosciences Search API
   slug: orionis-biosciences-search-api
-- description: The Taxonomy API from Orionis Biosciences — 4 operation(s) for taxonomy.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Orionis Biosciences — 4 operation(s) for taxonomy.
   name: Orionis Biosciences Taxonomy API
   slug: orionis-biosciences-taxonomy-api
-- description: The Team API from Orionis Biosciences — 2 operation(s) for team.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Team API from Orionis Biosciences — 2 operation(s) for team.
   name: Orionis Biosciences Team API
   slug: orionis-biosciences-team-api
-- description: The Users API from Orionis Biosciences — 3 operation(s) for users.
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Orionis Biosciences — 3 operation(s) for users.
   name: Orionis Biosciences Users API
   slug: orionis-biosciences-users-api
 artifact_total: 27
@@ -267,7 +300,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orionis-biosciences/refs/heads/main/screenshots/orionis-biosciences-2026-08-07T190940.png
 security:

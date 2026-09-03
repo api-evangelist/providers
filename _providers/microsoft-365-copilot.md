@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: Azure OpenAI Service provides REST API access to OpenAI's language models, which power Microsoft 365 Copilot's AI capabilities with enterprise-grade security and compliance.
   name: Azure OpenAI Service API
   slug: azure-openai-service-api
-- description: The Connectors API from Microsoft 365 Copilot — 3 operation(s) for connectors.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Connectors API from Microsoft 365 Copilot — 3 operation(s) for connectors.
   name: Microsoft 365 Copilot Connectors API
   slug: microsoft-365-copilot-connectors-api
-- description: The External Items API from Microsoft 365 Copilot — 1 operation(s) for external items.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The External Items API from Microsoft 365 Copilot — 1 operation(s) for external items.
   name: Microsoft 365 Copilot External Items API
   slug: microsoft-365-copilot-external-items-api
-- description: The Search API from Microsoft 365 Copilot — 1 operation(s) for search.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Search API from Microsoft 365 Copilot — 1 operation(s) for search.
   name: Microsoft 365 Copilot Search API
   slug: microsoft-365-copilot-search-api
-- description: The User Content API from Microsoft 365 Copilot — 4 operation(s) for user content.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The User Content API from Microsoft 365 Copilot — 4 operation(s) for user content.
   name: Microsoft 365 Copilot User Content API
   slug: microsoft-365-copilot-user-content-api
 artifact_total: 44
@@ -199,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/screenshots/microsoft-365-copilot-2026-06-20T185342.png
 security:

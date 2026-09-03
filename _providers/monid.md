@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -34,34 +46,54 @@ agentic_access:
   summary_line: 33 operations · 9 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The API Keys API from Monid — 2 operation(s) for api keys.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The API Keys API from Monid — 2 operation(s) for api keys.
   name: Monid API Keys API
   slug: monid-api-keys-api
-- description: The Auth API from Monid — 2 operation(s) for auth.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Auth API from Monid — 2 operation(s) for auth.
   name: Monid Auth API
   slug: monid-auth-api
-- description: The Controls API from Monid — 6 operation(s) for controls.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Controls API from Monid — 6 operation(s) for controls.
   name: Monid Controls API
   slug: monid-controls-api
-- description: The Discover API from Monid — 1 operation(s) for discover.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Discover API from Monid — 1 operation(s) for discover.
   name: Monid Discover API
   slug: monid-discover-api
-- description: The Endpoints API from Monid — 1 operation(s) for endpoints.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Endpoints API from Monid — 1 operation(s) for endpoints.
   name: Monid Endpoints API
   slug: monid-endpoints-api
-- description: The Inspect API from Monid — 1 operation(s) for inspect.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Inspect API from Monid — 1 operation(s) for inspect.
   name: Monid Inspect API
   slug: monid-inspect-api
-- description: The Public Registry API from Monid — 5 operation(s) for public registry.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Public Registry API from Monid — 5 operation(s) for public registry.
   name: Monid Public Registry API
   slug: monid-public-registry-api
-- description: The Resources API from Monid — 5 operation(s) for resources.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Resources API from Monid — 5 operation(s) for resources.
   name: Monid Resources API
   slug: monid-resources-api
-- description: The Runs API from Monid — 5 operation(s) for runs.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Runs API from Monid — 5 operation(s) for runs.
   name: Monid Runs API
   slug: monid-runs-api
-- description: The Wallet API from Monid — 2 operation(s) for wallet.
+- baseURL: https://api.monid.ai
+  baseurl_source: declared
+  description: The Wallet API from Monid — 2 operation(s) for wallet.
   name: Monid Wallet API
   slug: monid-wallet-api
 artifact_total: 16
@@ -221,7 +253,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
 security:

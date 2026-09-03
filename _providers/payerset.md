@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: Billing code classification, categorization, and code type reference data.
+- baseURL: https://api.payerset.com
+  baseurl_source: declared
+  description: Billing code classification, categorization, and code type reference data.
   name: Payerset Billing Codes API
   slug: payerset-billing-codes-api
-- description: Hospital price transparency machine-readable file discovery (hospitals, systems, payers).
+- baseURL: https://api.payerset.com
+  baseurl_source: declared
+  description: Hospital price transparency machine-readable file discovery (hospitals, systems, payers).
   name: Payerset Hospital MRF API
   slug: payerset-hospital-mrf-api
-- description: Payer reference metadata and payer listings.
+- baseURL: https://api.payerset.com
+  baseurl_source: declared
+  description: Payer reference metadata and payer listings.
   name: Payerset Payers API
   slug: payerset-payers-api
-- description: Provider (NPI), organization, and tax identification (TIN) reference metadata and mappings.
+- baseURL: https://api.payerset.com
+  baseurl_source: declared
+  description: Provider (NPI), organization, and tax identification (TIN) reference metadata and mappings.
   name: Payerset Providers API
   slug: payerset-providers-api
-- description: Payer-provider negotiated rate lookups from Transparency in Coverage MRFs.
+- baseURL: https://api.payerset.com
+  baseurl_source: declared
+  description: Payer-provider negotiated rate lookups from Transparency in Coverage MRFs.
   name: Payerset Rates API
   slug: payerset-rates-api
 artifact_total: 18
@@ -189,7 +199,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/screenshots/payerset-2026-08-07T191632.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: The Method API from ERPNext — 1 operation(s) for method.
+- baseURL: https://{your-erpnext-instance}/api
+  baseurl_source: declared
+  description: The Method API from ERPNext — 1 operation(s) for method.
   name: ERPNext Method API
   slug: erpnext-method-api
-- description: If you are developing something serious, you may want to use oAuth2.
+- baseURL: https://{your-erpnext-instance}/api
+  baseurl_source: declared
+  description: If you are developing something serious, you may want to use oAuth2.
   name: ERPNext Naive Authentication API
   slug: erpnext-naive-authentication-api
-- description: The Resource API from ERPNext — 2 operation(s) for resource.
+- baseURL: https://{your-erpnext-instance}/api
+  baseurl_source: declared
+  description: The Resource API from ERPNext — 2 operation(s) for resource.
   name: ERPNext Resource API
   slug: erpnext-resource-api
 artifact_total: 23
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/screenshots/erpnext-2026-06-20T180820.png
 security:

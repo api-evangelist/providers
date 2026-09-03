@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Configure Grapes agents
+- baseURL: https://api.data-grapes.com
+  baseurl_source: spec
+  description: Configure Grapes agents
   name: Grapes Knowledge Base Agents API
   slug: grapes-knowledge-base-agents-api
-- description: Import and export datasets
+- baseURL: https://api.data-grapes.com
+  baseurl_source: spec
+  description: Import and export datasets
   name: Grapes Knowledge Base Datasets API
   slug: grapes-knowledge-base-datasets-api
-- description: Create and customize Grapes projects
+- baseURL: https://api.data-grapes.com
+  baseurl_source: spec
+  description: Create and customize Grapes projects
   name: Grapes Knowledge Base Projects API
   slug: grapes-knowledge-base-projects-api
 artifact_total: 17
@@ -190,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/screenshots/grapes-knowledge-base-2026-06-20T182323.png
 security:

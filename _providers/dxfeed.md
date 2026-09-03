@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -46,7 +46,9 @@ apis:
 - description: REST service over the core dxFeed API with /events (snapshot), /eventSource (Server-Sent Events stream), /addSubscription, and /removeSubscription resources across 20+ market event types (Quote, Trade
   name: dxFeed REST Web Service API
   slug: dxfeed-rest-api
-- description: dxLink is dxFeed's WebSocket protocol for real-time market data streaming with multiplexed virtual channels, authorization, and FEED/DOM (order book) service channels. The protocol is publicly specifi
+- baseURL: wss://demo.dxfeed.com/dxlink-ws
+  baseurl_source: declared
+  description: dxLink is dxFeed's WebSocket protocol for real-time market data streaming with multiplexed virtual channels, authorization, and FEED/DOM (order book) service channels. The protocol is publicly specifi
   name: dxFeed dxLink WebSocket API
   slug: dxfeed-dxlink-websocket-api
 - description: Reference-data web service for requesting instrument profiles in dxFeed's Instrument Profile Format (IPF), including live incremental updates, covering the 3.5M instruments in the dxFeed symbology uni
@@ -58,97 +60,159 @@ apis:
 - description: Historical data access covering candle/aggregated data and raw tick data extraction (dxFeed stores up to 10TB of raw data per day). The knowledge base documents how to request tick data and read extra
   name: dxFeed Historical Data Services
   slug: dxfeed-historical-data-services
-- description: The alpha-beta-controller API from dxFeed — 6 operation(s) for alpha-beta-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The alpha-beta-controller API from dxFeed — 6 operation(s) for alpha-beta-controller.
   name: dxFeed Alpha Beta Controller API
   slug: dxfeed-alpha-beta-controller-api
-- description: The asset-classification-controller API from dxFeed — 5 operation(s) for asset-classification-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The asset-classification-controller API from dxFeed — 5 operation(s) for asset-classification-controller.
   name: dxFeed Asset Classification Controller API
   slug: dxfeed-asset-classification-controller-api
-- description: The balance-statement-controller API from dxFeed — 6 operation(s) for balance-statement-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The balance-statement-controller API from dxFeed — 6 operation(s) for balance-statement-controller.
   name: dxFeed Balance Statement Controller API
   slug: dxfeed-balance-statement-controller-api
-- description: The cash-flow-statement-controller API from dxFeed — 6 operation(s) for cash-flow-statement-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The cash-flow-statement-controller API from dxFeed — 6 operation(s) for cash-flow-statement-controller.
   name: dxFeed Cash Flow Statement Controller API
   slug: dxfeed-cash-flow-statement-controller-api
-- description: The company-profile-controller API from dxFeed — 5 operation(s) for company-profile-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The company-profile-controller API from dxFeed — 5 operation(s) for company-profile-controller.
   name: dxFeed Company Profile Controller API
   slug: dxfeed-company-profile-controller-api
-- description: The consensus-estimate-controller API from dxFeed — 6 operation(s) for consensus-estimate-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The consensus-estimate-controller API from dxFeed — 6 operation(s) for consensus-estimate-controller.
   name: dxFeed Consensus Estimate Controller API
   slug: dxfeed-consensus-estimate-controller-api
-- description: The corporate-action-controller API from dxFeed — 8 operation(s) for corporate-action-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The corporate-action-controller API from dxFeed — 8 operation(s) for corporate-action-controller.
   name: dxFeed Corporate Action Controller API
   slug: dxfeed-corporate-action-controller-api
-- description: The corporate-calendar-controller API from dxFeed — 7 operation(s) for corporate-calendar-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The corporate-calendar-controller API from dxFeed — 7 operation(s) for corporate-calendar-controller.
   name: dxFeed Corporate Calendar Controller API
   slug: dxfeed-corporate-calendar-controller-api
-- description: The crypto-reference-controller API from dxFeed — 5 operation(s) for crypto-reference-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The crypto-reference-controller API from dxFeed — 5 operation(s) for crypto-reference-controller.
   name: dxFeed Crypto Reference Controller API
   slug: dxfeed-crypto-reference-controller-api
-- description: The crypto-summary-controller API from dxFeed — 6 operation(s) for crypto-summary-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The crypto-summary-controller API from dxFeed — 6 operation(s) for crypto-summary-controller.
   name: dxFeed Crypto Summary Controller API
   slug: dxfeed-crypto-summary-controller-api
-- description: The earning-controller API from dxFeed — 6 operation(s) for earning-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The earning-controller API from dxFeed — 6 operation(s) for earning-controller.
   name: dxFeed Earning Controller API
   slug: dxfeed-earning-controller-api
-- description: The earning-ratio-controller API from dxFeed — 6 operation(s) for earning-ratio-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The earning-ratio-controller API from dxFeed — 6 operation(s) for earning-ratio-controller.
   name: dxFeed Earning Ratio Controller API
   slug: dxfeed-earning-ratio-controller-api
-- description: The earning-report-controller API from dxFeed — 6 operation(s) for earning-report-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The earning-report-controller API from dxFeed — 6 operation(s) for earning-report-controller.
   name: dxFeed Earning Report Controller API
   slug: dxfeed-earning-report-controller-api
-- description: The economic-calendar-controller API from dxFeed — 7 operation(s) for economic-calendar-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The economic-calendar-controller API from dxFeed — 7 operation(s) for economic-calendar-controller.
   name: dxFeed Economic Calendar Controller API
   slug: dxfeed-economic-calendar-controller-api
-- description: The historical-return-controller API from dxFeed — 6 operation(s) for historical-return-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The historical-return-controller API from dxFeed — 6 operation(s) for historical-return-controller.
   name: dxFeed Historical Return Controller API
   slug: dxfeed-historical-return-controller-api
-- description: The history-controller API from dxFeed — 2 operation(s) for history-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The history-controller API from dxFeed — 2 operation(s) for history-controller.
   name: dxFeed History Controller API
   slug: dxfeed-history-controller-api
-- description: The income-statement-controller API from dxFeed — 6 operation(s) for income-statement-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The income-statement-controller API from dxFeed — 6 operation(s) for income-statement-controller.
   name: dxFeed Income Statement Controller API
   slug: dxfeed-income-statement-controller-api
-- description: The insider-ownership-summary-controller API from dxFeed — 6 operation(s) for insider-ownership-summary-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The insider-ownership-summary-controller API from dxFeed — 6 operation(s) for insider-ownership-summary-controller.
   name: dxFeed Insider Ownership Summary Controller API
   slug: dxfeed-insider-ownership-summary-controller-api
-- description: The institutional-ownership-summary-controller API from dxFeed — 6 operation(s) for institutional-ownership-summary-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The institutional-ownership-summary-controller API from dxFeed — 6 operation(s) for institutional-ownership-summary-controller.
   name: dxFeed Institutional Ownership Summary Controller API
   slug: dxfeed-institutional-ownership-summary-controller-api
-- description: The instrument-daily-summary-controller API from dxFeed — 6 operation(s) for instrument-daily-summary-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The instrument-daily-summary-controller API from dxFeed — 6 operation(s) for instrument-daily-summary-controller.
   name: dxFeed Instrument Daily Summary Controller API
   slug: dxfeed-instrument-daily-summary-controller-api
-- description: The instrument-reference-controller API from dxFeed — 5 operation(s) for instrument-reference-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The instrument-reference-controller API from dxFeed — 5 operation(s) for instrument-reference-controller.
   name: dxFeed Instrument Reference Controller API
   slug: dxfeed-instrument-reference-controller-api
-- description: The ipo-calendar-controller API from dxFeed — 6 operation(s) for ipo-calendar-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The ipo-calendar-controller API from dxFeed — 6 operation(s) for ipo-calendar-controller.
   name: dxFeed Ipo Calendar Controller API
   slug: dxfeed-ipo-calendar-controller-api
-- description: The merger-and-acquisition-controller API from dxFeed — 7 operation(s) for merger-and-acquisition-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The merger-and-acquisition-controller API from dxFeed — 7 operation(s) for merger-and-acquisition-controller.
   name: dxFeed Merger And Acquisition Controller API
   slug: dxfeed-merger-and-acquisition-controller-api
-- description: The mutual-fund-ownership-summary-controller API from dxFeed — 6 operation(s) for mutual-fund-ownership-summary-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The mutual-fund-ownership-summary-controller API from dxFeed — 6 operation(s) for mutual-fund-ownership-summary-controller.
   name: dxFeed Mutual Fund Ownership Summary Controller API
   slug: dxfeed-mutual-fund-ownership-summary-controller-api
-- description: The operation-ratio-controller API from dxFeed — 6 operation(s) for operation-ratio-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The operation-ratio-controller API from dxFeed — 6 operation(s) for operation-ratio-controller.
   name: dxFeed Operation Ratio Controller API
   slug: dxfeed-operation-ratio-controller-api
-- description: The price-controller API from dxFeed — 6 operation(s) for price-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The price-controller API from dxFeed — 6 operation(s) for price-controller.
   name: dxFeed Price Controller API
   slug: dxfeed-price-controller-api
-- description: The reference-change-controller API from dxFeed — 7 operation(s) for reference-change-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The reference-change-controller API from dxFeed — 7 operation(s) for reference-change-controller.
   name: dxFeed Reference Change Controller API
   slug: dxfeed-reference-change-controller-api
-- description: The shares-ownership-summary-controller API from dxFeed — 6 operation(s) for shares-ownership-summary-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The shares-ownership-summary-controller API from dxFeed — 6 operation(s) for shares-ownership-summary-controller.
   name: dxFeed Shares Ownership Summary Controller API
   slug: dxfeed-shares-ownership-summary-controller-api
-- description: The snapshot-controller API from dxFeed — 2 operation(s) for snapshot-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The snapshot-controller API from dxFeed — 2 operation(s) for snapshot-controller.
   name: dxFeed Snapshot Controller API
   slug: dxfeed-snapshot-controller-api
-- description: The symbol-state-change-controller API from dxFeed — 2 operation(s) for symbol-state-change-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The symbol-state-change-controller API from dxFeed — 2 operation(s) for symbol-state-change-controller.
   name: dxFeed Symbol State Change Controller API
   slug: dxfeed-symbol-state-change-controller-api
-- description: The valuation-ratio-controller API from dxFeed — 6 operation(s) for valuation-ratio-controller.
+- baseURL: https://demo.dxfeed.com/webservice/rest
+  baseurl_source: declared
+  description: The valuation-ratio-controller API from dxFeed — 6 operation(s) for valuation-ratio-controller.
   name: dxFeed Valuation Ratio Controller API
   slug: dxfeed-valuation-ratio-controller-api
 artifact_total: 43
@@ -301,7 +365,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -311,7 +375,7 @@ score:
     discoverability: 59.3
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 44.6
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,7 +393,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
 security:

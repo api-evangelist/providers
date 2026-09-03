@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 38 operations · 20 acting
 api_count: 1
 apis:
-- description: The Categories API from Tiendanube — 2 operation(s) for categories.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Categories API from Tiendanube — 2 operation(s) for categories.
   name: Tiendanube Categories API
   slug: tiendanube-categories-api
-- description: The Coupons API from Tiendanube — 2 operation(s) for coupons.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Coupons API from Tiendanube — 2 operation(s) for coupons.
   name: Tiendanube Coupons API
   slug: tiendanube-coupons-api
-- description: The Customers API from Tiendanube — 2 operation(s) for customers.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Customers API from Tiendanube — 2 operation(s) for customers.
   name: Tiendanube Customers API
   slug: tiendanube-customers-api
-- description: The Fulfillment Orders API from Tiendanube — 2 operation(s) for fulfillment orders.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Fulfillment Orders API from Tiendanube — 2 operation(s) for fulfillment orders.
   name: Tiendanube Fulfillment Orders API
   slug: tiendanube-fulfillment-orders-api
-- description: The Orders API from Tiendanube — 4 operation(s) for orders.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Orders API from Tiendanube — 4 operation(s) for orders.
   name: Tiendanube Orders API
   slug: tiendanube-orders-api
-- description: The Payment Providers API from Tiendanube — 1 operation(s) for payment providers.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Payment Providers API from Tiendanube — 1 operation(s) for payment providers.
   name: Tiendanube Payment Providers API
   slug: tiendanube-payment-providers-api
-- description: The Product Images API from Tiendanube — 1 operation(s) for product images.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Product Images API from Tiendanube — 1 operation(s) for product images.
   name: Tiendanube Product Images API
   slug: tiendanube-product-images-api
-- description: The Product Variants API from Tiendanube — 2 operation(s) for product variants.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Product Variants API from Tiendanube — 2 operation(s) for product variants.
   name: Tiendanube Product Variants API
   slug: tiendanube-product-variants-api
-- description: The Products API from Tiendanube — 2 operation(s) for products.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Products API from Tiendanube — 2 operation(s) for products.
   name: Tiendanube Products API
   slug: tiendanube-products-api
-- description: The Scripts API from Tiendanube — 1 operation(s) for scripts.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Scripts API from Tiendanube — 1 operation(s) for scripts.
   name: Tiendanube Scripts API
   slug: tiendanube-scripts-api
-- description: The Shipping Carriers API from Tiendanube — 1 operation(s) for shipping carriers.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Shipping Carriers API from Tiendanube — 1 operation(s) for shipping carriers.
   name: Tiendanube Shipping Carriers API
   slug: tiendanube-shipping-carriers-api
-- description: The Webhooks API from Tiendanube — 2 operation(s) for webhooks.
+- baseURL: https://api.tiendanube.com/v1/{store_id}
+  baseurl_source: declared
+  description: The Webhooks API from Tiendanube — 2 operation(s) for webhooks.
   name: Tiendanube Webhooks API
   slug: tiendanube-webhooks-api
 artifact_total: 33
@@ -206,7 +230,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -229,8 +253,9 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/screenshots/tiendanube-2026-09-02T163724.png
 security:
 - kind: authentication
   name: Tiendanube Authentication

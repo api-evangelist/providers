@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -34,7 +49,9 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 2
 apis:
-- description: Generated CRUD over a table or view exposed as an endpoint on a registered AmunCore application.
+- baseURL: https://amuncore.com
+  baseurl_source: declared
+  description: Generated CRUD over a table or view exposed as an endpoint on a registered AmunCore application.
   name: AmunCore Dynamic API
   slug: amuncore-dynamic-api-api
 artifact_total: 11
@@ -228,7 +245,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -238,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
 security:

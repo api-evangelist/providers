@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 28 operations · 17 acting
 api_count: 1
 apis:
-- description: The Access Preview#analyzerArn API from Amazon IAM Access Analyzer — 1 operation(s) for access preview#analyzerarn.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Access Preview#analyzerArn API from Amazon IAM Access Analyzer — 1 operation(s) for access preview#analyzerarn.
   name: Amazon IAM Access Analyzer Access Preview#analyzerArn API
   slug: amazon-iam-access-analyzer-access-preview-analyzerarn-api
-- description: The Access Preview API from Amazon IAM Access Analyzer — 3 operation(s) for access preview.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Access Preview API from Amazon IAM Access Analyzer — 3 operation(s) for access preview.
   name: Amazon IAM Access Analyzer Access Preview API
   slug: amazon-iam-access-analyzer-access-preview-api
-- description: The Analyzed Resource#analyzerArn&resourceArn API from Amazon IAM Access Analyzer — 1 operation(s) for analyzed resource#analyzerarn&resourcearn.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Analyzed Resource#analyzerArn&resourceArn API from Amazon IAM Access Analyzer — 1 operation(s) for analyzed resource#analyzerarn&resourcearn.
   name: Amazon IAM Access Analyzer Analyzed Resource#analyzerArn&resourceArn API
   slug: amazon-iam-access-analyzer-analyzed-resource-analyzerarn-resourcearn-api
-- description: The Analyzed Resource API from Amazon IAM Access Analyzer — 1 operation(s) for analyzed resource.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Analyzed Resource API from Amazon IAM Access Analyzer — 1 operation(s) for analyzed resource.
   name: Amazon IAM Access Analyzer Analyzed Resource API
   slug: amazon-iam-access-analyzer-analyzed-resource-api
-- description: The Analyzer API from Amazon IAM Access Analyzer — 4 operation(s) for analyzer.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Analyzer API from Amazon IAM Access Analyzer — 4 operation(s) for analyzer.
   name: Amazon IAM Access Analyzer Analyzer API
   slug: amazon-iam-access-analyzer-analyzer-api
-- description: The Archive Rule API from Amazon IAM Access Analyzer — 1 operation(s) for archive rule.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Archive Rule API from Amazon IAM Access Analyzer — 1 operation(s) for archive rule.
   name: Amazon IAM Access Analyzer Archive Rule API
   slug: amazon-iam-access-analyzer-archive-rule-api
-- description: The Finding API from Amazon IAM Access Analyzer — 2 operation(s) for finding.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Finding API from Amazon IAM Access Analyzer — 2 operation(s) for finding.
   name: Amazon IAM Access Analyzer Finding API
   slug: amazon-iam-access-analyzer-finding-api
-- description: The Policy API from Amazon IAM Access Analyzer — 3 operation(s) for policy.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Policy API from Amazon IAM Access Analyzer — 3 operation(s) for policy.
   name: Amazon IAM Access Analyzer Policy API
   slug: amazon-iam-access-analyzer-policy-api
-- description: The Resource API from Amazon IAM Access Analyzer — 1 operation(s) for resource.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Resource API from Amazon IAM Access Analyzer — 1 operation(s) for resource.
   name: Amazon IAM Access Analyzer Resource API
   slug: amazon-iam-access-analyzer-resource-api
-- description: The Tags API from Amazon IAM Access Analyzer — 2 operation(s) for tags.
+- baseURL: https://access-analyzer.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon IAM Access Analyzer — 2 operation(s) for tags.
   name: Amazon IAM Access Analyzer Tags API
   slug: amazon-iam-access-analyzer-tags-api
 artifact_total: 491
@@ -1645,7 +1665,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png
 security:

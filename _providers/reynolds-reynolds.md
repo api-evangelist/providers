@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: 'Access to dealership customer and prospect records held in the Reynolds ERA-IGNITE / POWER DMS - contact details, ownership history, and marketing consent - read and (per certification scope) written '
@@ -101,7 +101,7 @@ score:
   band: emerging
   composite: 15.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -117,8 +117,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reynolds-reynolds/refs/heads/main/screenshots/reynolds-reynolds-2026-09-02T153742.png
 security:
 - kind: domain-security
   name: Reynolds Reynolds Domain Security

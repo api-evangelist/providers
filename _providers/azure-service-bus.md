@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: Service Bus namespace operations
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Service Bus namespace operations
   name: Azure Service Bus Namespaces API
   slug: azure-service-bus-namespaces-api
-- description: Service Bus queue operations
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Service Bus queue operations
   name: Azure Service Bus Queues API
   slug: azure-service-bus-queues-api
-- description: Service Bus topic subscription operations
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Service Bus topic subscription operations
   name: Azure Service Bus Subscriptions API
   slug: azure-service-bus-subscriptions-api
-- description: Service Bus topic operations
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Service Bus topic operations
   name: Azure Service Bus Topics API
   slug: azure-service-bus-topics-api
 artifact_total: 64
@@ -347,7 +355,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -360,7 +368,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -369,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/screenshots/azure-service-bus-2026-06-20T172908.png
 security:

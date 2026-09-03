@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 12
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 20 operations · 20 acting · 12 human-in-the-loop
 api_count: 2
 apis:
-- description: Manage state or process (both MockServer & MockServer Proxy)
+- baseURL: http://localhost:1080/
+  baseurl_source: declared
+  description: Manage state or process (both MockServer & MockServer Proxy)
   name: MockServer control API
   slug: mockserver-control-api
-- description: Create or update expectations - updates if the id matches an existing expectations (only supported by MockServer)
+- baseURL: http://localhost:1080/
+  baseurl_source: declared
+  description: Create or update expectations - updates if the id matches an existing expectations (only supported by MockServer)
   name: MockServer expectation API
   slug: mockserver-expectation-api
-- description: Verify requests (both MockServer & MockServer Proxy)
+- baseURL: http://localhost:1080/
+  baseurl_source: declared
+  description: Verify requests (both MockServer & MockServer Proxy)
   name: MockServer verify API
   slug: mockserver-verify-api
 artifact_total: 14
@@ -185,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png
 security:

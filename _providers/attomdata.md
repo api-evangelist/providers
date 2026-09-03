@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 47 operations
 api_count: 5
 apis:
-- description: Combined assessment, AVM, and sales-transaction events.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Combined assessment, AVM, and sales-transaction events.
   name: ATTOM All Events API
   slug: attomdata-all-events-api
-- description: Assessed value, tax liability, and assessment history.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Assessed value, tax liability, and assessment history.
   name: ATTOM Assessment API
   slug: attomdata-assessment-api
-- description: Automated Valuation Model — current AVM, AVM history, and rental AVM.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Automated Valuation Model — current AVM, AVM history, and rental AVM.
   name: ATTOM AVM API
   slug: attomdata-avm-api
-- description: GeoJSON boundary polygons by geography identifier.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: GeoJSON boundary polygons by geography identifier.
   name: ATTOM Boundary API
   slug: attomdata-boundary-api
-- description: Building permit records associated with a property.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Building permit records associated with a property.
   name: ATTOM Building Permits API
   slug: attomdata-building-permits-api
-- description: Neighborhood community profile (demographics, crime, weather, commute).
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Neighborhood community profile (demographics, crime, weather, commute).
   name: ATTOM Community API
   slug: attomdata-community-api
-- description: Geographic hierarchy lookup from coordinates.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Geographic hierarchy lookup from coordinates.
   name: ATTOM Hierarchy API
   slug: attomdata-hierarchy-api
-- description: Estimated home equity calculations.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Estimated home equity calculations.
   name: ATTOM Home Equity API
   slug: attomdata-home-equity-api
-- description: Resolve a location by geoIdV4.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Resolve a location by geoIdV4.
   name: ATTOM Location API
   slug: attomdata-location-api
-- description: Lookup of state, county, CBSA, and geoID metadata.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Lookup of state, county, CBSA, and geoID metadata.
   name: ATTOM Lookup API
   slug: attomdata-lookup-api
-- description: Vector parcel boundary tiles.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Vector parcel boundary tiles.
   name: ATTOM Parcel Tiles API
   slug: attomdata-parcel-tiles-api
-- description: Lookup of POI categories, lines of business, and industries.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Lookup of POI categories, lines of business, and industries.
   name: ATTOM POI Categories API
   slug: attomdata-poi-categories-api
-- description: Search points of interest by point or address.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Search points of interest by point or address.
   name: ATTOM POI Search API
   slug: attomdata-poi-search-api
-- description: Pre-foreclosure status and notice records.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Pre-foreclosure status and notice records.
   name: ATTOM Pre-Foreclosure API
   slug: attomdata-pre-foreclosure-api
-- description: Property characteristics, ownership, mortgage, and address resolution.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Property characteristics, ownership, mortgage, and address resolution.
   name: ATTOM Property API
   slug: attomdata-property-api
-- description: Sales transactions, sales history, and comparable sales.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Sales transactions, sales history, and comparable sales.
   name: ATTOM Sale API
   slug: attomdata-sale-api
-- description: Aggregated sales trends for a geography.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Aggregated sales trends for a geography.
   name: ATTOM Sales Trends API
   slug: attomdata-sales-trends-api
-- description: School assignments and attendance-zone associations.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: School assignments and attendance-zone associations.
   name: ATTOM School API
   slug: attomdata-school-api
 artifact_total: 62
@@ -432,7 +468,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/screenshots/attomdata-2026-06-20T172541.png
 security:

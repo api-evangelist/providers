@@ -33,73 +33,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Admin API from Transload — 36 operation(s) for admin.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Admin API from Transload — 36 operation(s) for admin.
   name: Transload Admin API
   slug: transload-admin-api
-- description: The Ai Results API from Transload — 3 operation(s) for ai results.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Ai Results API from Transload — 3 operation(s) for ai results.
   name: Transload Ai Results API
   slug: transload-ai-results-api
-- description: The Artifacts API from Transload — 1 operation(s) for artifacts.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Artifacts API from Transload — 1 operation(s) for artifacts.
   name: Transload Artifacts API
   slug: transload-artifacts-api
-- description: The Cameras API from Transload — 2 operation(s) for cameras.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Cameras API from Transload — 2 operation(s) for cameras.
   name: Transload Cameras API
   slug: transload-cameras-api
-- description: The Customer API from Transload — 9 operation(s) for customer.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Customer API from Transload — 9 operation(s) for customer.
   name: Transload Customer API
   slug: transload-customer-api
-- description: The Customers API from Transload — 2 operation(s) for customers.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Customers API from Transload — 2 operation(s) for customers.
   name: Transload Customers API
   slug: transload-customers-api
-- description: The Exports API from Transload — 1 operation(s) for exports.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Exports API from Transload — 1 operation(s) for exports.
   name: Transload Exports API
   slug: transload-exports-api
-- description: The Handling Units API from Transload — 1 operation(s) for handling units.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Handling Units API from Transload — 1 operation(s) for handling units.
   name: Transload Handling Units API
   slug: transload-handling-units-api
-- description: The Healthz API from Transload — 1 operation(s) for healthz.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Healthz API from Transload — 1 operation(s) for healthz.
   name: Transload Healthz API
   slug: transload-healthz-api
-- description: The Ingestor API from Transload — 4 operation(s) for ingestor.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Ingestor API from Transload — 4 operation(s) for ingestor.
   name: Transload Ingestor API
   slug: transload-ingestor-api
-- description: The Internal API from Transload — 16 operation(s) for internal.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Internal API from Transload — 16 operation(s) for internal.
   name: Transload Internal API
   slug: transload-internal-api
-- description: The Measurement API from Transload — 1 operation(s) for measurement.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Measurement API from Transload — 1 operation(s) for measurement.
   name: Transload Measurement API
   slug: transload-measurement-api
-- description: The Media Assets API from Transload — 2 operation(s) for media assets.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Media Assets API from Transload — 2 operation(s) for media assets.
   name: Transload Media Assets API
   slug: transload-media-assets-api
-- description: The Processing Jobs API from Transload — 2 operation(s) for processing jobs.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Processing Jobs API from Transload — 2 operation(s) for processing jobs.
   name: Transload Processing Jobs API
   slug: transload-processing-jobs-api
-- description: The Qa API from Transload — 18 operation(s) for qa.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Qa API from Transload — 18 operation(s) for qa.
   name: Transload Qa API
   slug: transload-qa-api
-- description: The Qa Classification API from Transload — 6 operation(s) for qa classification.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Qa Classification API from Transload — 6 operation(s) for qa classification.
   name: Transload Qa Classification API
   slug: transload-qa-classification-api
-- description: The Qa Measurement API from Transload — 9 operation(s) for qa measurement.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Qa Measurement API from Transload — 9 operation(s) for qa measurement.
   name: Transload Qa Measurement API
   slug: transload-qa-measurement-api
-- description: The Readyz API from Transload — 1 operation(s) for readyz.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Readyz API from Transload — 1 operation(s) for readyz.
   name: Transload Readyz API
   slug: transload-readyz-api
-- description: The Reference Measurements API from Transload — 2 operation(s) for reference measurements.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Reference Measurements API from Transload — 2 operation(s) for reference measurements.
   name: Transload Reference Measurements API
   slug: transload-reference-measurements-api
-- description: The Refresh Token API from Transload — 1 operation(s) for refresh token.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Refresh Token API from Transload — 1 operation(s) for refresh token.
   name: Transload Refresh Token API
   slug: transload-refresh-token-api
-- description: The Scans API from Transload — 5 operation(s) for scans.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Scans API from Transload — 5 operation(s) for scans.
   name: Transload Scans API
   slug: transload-scans-api
-- description: The Sites API from Transload — 2 operation(s) for sites.
+- baseURL: https://api.transload.io
+  baseurl_source: declared
+  description: The Sites API from Transload — 2 operation(s) for sites.
   name: Transload Sites API
   slug: transload-sites-api
 artifact_total: 48
@@ -259,7 +303,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -284,8 +328,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/transload/refs/heads/main/screenshots/transload-2026-09-02T164130.png
 security:
 - kind: authentication
   name: Transload Authentication

@@ -33,34 +33,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Official remote Model Context Protocol server exposing 54 tools over the Gameball merchant/dashboard surface — customer lookup and points adjustment, tag management, earning configuration and custom e
   name: Gameball MCP Server
   slug: gameball-mcp-server
-- description: The Batches API from Gameball — 1 operation(s) for batches.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Batches API from Gameball — 1 operation(s) for batches.
   name: Gameball Batches API
   slug: gameball-batches-api
-- description: The Customers API from Gameball — 1 operation(s) for customers.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Customers API from Gameball — 1 operation(s) for customers.
   name: Gameball Customers API
   slug: gameball-customers-api
-- description: The Events API from Gameball — 1 operation(s) for events.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Events API from Gameball — 1 operation(s) for events.
   name: Gameball Events API
   slug: gameball-events-api
-- description: The Gameball API API from Gameball — 0 operation(s) for gameball api.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Gameball API API from Gameball — 0 operation(s) for gameball api.
   name: Gameball Gameball API
   slug: gameball-gameball-api-api
-- description: The Integrations API from Gameball — 62 operation(s) for integrations.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Integrations API from Gameball — 62 operation(s) for integrations.
   name: Gameball Integrations API
   slug: gameball-integrations-api
-- description: The Orders API from Gameball — 4 operation(s) for orders.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Orders API from Gameball — 4 operation(s) for orders.
   name: Gameball Orders API
   slug: gameball-orders-api
-- description: The Payments API from Gameball — 1 operation(s) for payments.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Payments API from Gameball — 1 operation(s) for payments.
   name: Gameball Payments API
   slug: gameball-payments-api
-- description: The Plants API from Gameball — 2 operation(s) for plants.
+- baseURL: https://api.gameball.co/api/v4.0
+  baseurl_source: declared
+  description: The Plants API from Gameball — 2 operation(s) for plants.
   name: Gameball Plants API
   slug: gameball-plants-api
 artifact_total: 18
@@ -290,7 +306,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -300,7 +316,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 58.6
+  previous_composite: 58.4
   provenance:
     conformance: derived
     contracts:
@@ -311,7 +327,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png
 security:

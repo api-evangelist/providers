@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -56,115 +56,189 @@ apis:
 - description: OpenAI-compatible AI inference API providing access to open-source LLMs hosted on decentralized compute across 80+ global datacenters. Supports chat completions with models including Llama 3.3-70B, De
   name: AkashML Inference API
   slug: akashml-inference-api
-- description: The Addresses API from Akash Network — 3 operation(s) for addresses.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Addresses API from Akash Network — 3 operation(s) for addresses.
   name: Akash Network Addresses API
   slug: akash-addresses-api
-- description: The Alert API from Akash Network — 2 operation(s) for alert.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Alert API from Akash Network — 2 operation(s) for alert.
   name: Akash Network Alert API
   slug: akash-alert-api
-- description: The Analytics API from Akash Network — 9 operation(s) for analytics.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Analytics API from Akash Network — 9 operation(s) for analytics.
   name: Akash Network Analytics API
   slug: akash-analytics-api
-- description: The API Keys API from Akash Network — 2 operation(s) for api keys.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The API Keys API from Akash Network — 2 operation(s) for api keys.
   name: Akash Network API Keys API
   slug: akash-api-keys-api
-- description: The Auth API from Akash Network — 2 operation(s) for auth.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Auth API from Akash Network — 2 operation(s) for auth.
   name: Akash Network Auth API
   slug: akash-auth-api
-- description: The Bank API from Akash Network — 4 operation(s) for bank.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Bank API from Akash Network — 4 operation(s) for bank.
   name: Akash Network Bank API
   slug: akash-bank-api
-- description: The Bid Screening API from Akash Network — 1 operation(s) for bid screening.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Bid Screening API from Akash Network — 1 operation(s) for bid screening.
   name: Akash Network Bid Screening API
   slug: akash-bid-screening-api
-- description: The Bids API from Akash Network — 2 operation(s) for bids.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Bids API from Akash Network — 2 operation(s) for bids.
   name: Akash Network Bids API
   slug: akash-bids-api
-- description: The Billing API from Akash Network — 2 operation(s) for billing.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Billing API from Akash Network — 2 operation(s) for billing.
   name: Akash Network Billing API
   slug: akash-billing-api
-- description: The Blocks API from Akash Network — 4 operation(s) for blocks.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Blocks API from Akash Network — 4 operation(s) for blocks.
   name: Akash Network Blocks API
   slug: akash-blocks-api
-- description: The Certificate API from Akash Network — 1 operation(s) for certificate.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Certificate API from Akash Network — 1 operation(s) for certificate.
   name: Akash Network Certificate API
   slug: akash-certificate-api
-- description: The Chain API from Akash Network — 1 operation(s) for chain.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Chain API from Akash Network — 1 operation(s) for chain.
   name: Akash Network Chain API
   slug: akash-chain-api
-- description: The Deployment Settings API from Akash Network — 4 operation(s) for deployment settings.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Deployment Settings API from Akash Network — 4 operation(s) for deployment settings.
   name: Akash Network Deployment Settings API
   slug: akash-deployment-settings-api
-- description: The DeploymentAlert API from Akash Network — 1 operation(s) for deploymentalert.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The DeploymentAlert API from Akash Network — 1 operation(s) for deploymentalert.
   name: Akash Network DeploymentAlert API
   slug: akash-deploymentalert-api
-- description: The Deployments API from Akash Network — 9 operation(s) for deployments.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Deployments API from Akash Network — 9 operation(s) for deployments.
   name: Akash Network Deployments API
   slug: akash-deployments-api
-- description: The Distribution API from Akash Network — 8 operation(s) for distribution.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Distribution API from Akash Network — 8 operation(s) for distribution.
   name: Akash Network Distribution API
   slug: akash-distribution-api
-- description: The Gaia REST API from Akash Network — 1 operation(s) for gaia rest.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Gaia REST API from Akash Network — 1 operation(s) for gaia rest.
   name: Akash Network Gaia REST API
   slug: akash-gaia-rest-api
-- description: The Governance API from Akash Network — 12 operation(s) for governance.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Governance API from Akash Network — 12 operation(s) for governance.
   name: Akash Network Governance API
   slug: akash-governance-api
-- description: The Gpu API from Akash Network — 4 operation(s) for gpu.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Gpu API from Akash Network — 4 operation(s) for gpu.
   name: Akash Network Gpu API
   slug: akash-gpu-api
-- description: The JWT Token API from Akash Network — 1 operation(s) for jwt token.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The JWT Token API from Akash Network — 1 operation(s) for jwt token.
   name: Akash Network JWT Token API
   slug: akash-jwt-token-api
-- description: The Leases API from Akash Network — 2 operation(s) for leases.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Leases API from Akash Network — 2 operation(s) for leases.
   name: Akash Network Leases API
   slug: akash-leases-api
-- description: The Mint API from Akash Network — 3 operation(s) for mint.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Mint API from Akash Network — 3 operation(s) for mint.
   name: Akash Network Mint API
   slug: akash-mint-api
-- description: The NotificationChannel API from Akash Network — 3 operation(s) for notificationchannel.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The NotificationChannel API from Akash Network — 3 operation(s) for notificationchannel.
   name: Akash Network NotificationChannel API
   slug: akash-notificationchannel-api
-- description: The Other API from Akash Network — 3 operation(s) for other.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Other API from Akash Network — 3 operation(s) for other.
   name: Akash Network Other API
   slug: akash-other-api
-- description: The Payment API from Akash Network — 11 operation(s) for payment.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Payment API from Akash Network — 11 operation(s) for payment.
   name: Akash Network Payment API
   slug: akash-payment-api
-- description: The Proposals API from Akash Network — 2 operation(s) for proposals.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Proposals API from Akash Network — 2 operation(s) for proposals.
   name: Akash Network Proposals API
   slug: akash-proposals-api
-- description: The Providers API from Akash Network — 10 operation(s) for providers.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Providers API from Akash Network — 10 operation(s) for providers.
   name: Akash Network Providers API
   slug: akash-providers-api
-- description: The Query API from Akash Network — 74 operation(s) for query.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Query API from Akash Network — 74 operation(s) for query.
   name: Akash Network Query API
   slug: akash-query-api
-- description: The Service API from Akash Network — 9 operation(s) for service.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Service API from Akash Network — 9 operation(s) for service.
   name: Akash Network Service API
   slug: akash-service-api
-- description: The Slashing API from Akash Network — 3 operation(s) for slashing.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Slashing API from Akash Network — 3 operation(s) for slashing.
   name: Akash Network Slashing API
   slug: akash-slashing-api
-- description: The Staking API from Akash Network — 14 operation(s) for staking.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Staking API from Akash Network — 14 operation(s) for staking.
   name: Akash Network Staking API
   slug: akash-staking-api
-- description: The Tendermint RPC API from Akash Network — 5 operation(s) for tendermint rpc.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Tendermint RPC API from Akash Network — 5 operation(s) for tendermint rpc.
   name: Akash Network Tendermint RPC API
   slug: akash-tendermint-rpc-api
-- description: The Transactions API from Akash Network — 7 operation(s) for transactions.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Transactions API from Akash Network — 7 operation(s) for transactions.
   name: Akash Network Transactions API
   slug: akash-transactions-api
-- description: The Users API from Akash Network — 18 operation(s) for users.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Users API from Akash Network — 18 operation(s) for users.
   name: Akash Network Users API
   slug: akash-users-api
-- description: The Validators API from Akash Network — 2 operation(s) for validators.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Validators API from Akash Network — 2 operation(s) for validators.
   name: Akash Network Validators API
   slug: akash-validators-api
-- description: The Wallet API from Akash Network — 4 operation(s) for wallet.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The Wallet API from Akash Network — 4 operation(s) for wallet.
   name: Akash Network Wallet API
   slug: akash-wallet-api
-- description: The WalletSetting API from Akash Network — 1 operation(s) for walletsetting.
+- baseURL: https://console-api.akash.network
+  baseurl_source: declared
+  description: The WalletSetting API from Akash Network — 1 operation(s) for walletsetting.
   name: Akash Network WalletSetting API
   slug: akash-walletsetting-api
 artifact_total: 86
@@ -412,7 +486,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/screenshots/akash-2026-06-20T171446.png
 security:

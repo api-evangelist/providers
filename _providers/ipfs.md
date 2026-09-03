@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 1
@@ -50,118 +50,194 @@ apis:
 - description: The Delegated Routing V1 HTTP API allows IPFS clients to offload content routing, peer routing, and IPNS resolution to a remote server without running a full DHT node. Endpoints include provider looku
   name: IPFS Delegated Routing V1 HTTP API
   slug: ipfs-delegated-routing-v1-http-api
-- description: The Add API from IPFS — 1 operation(s) for add.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Add API from IPFS — 1 operation(s) for add.
   name: IPFS Add API
   slug: ipfs-add-api
-- description: The Bitswap API from IPFS — 4 operation(s) for bitswap.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Bitswap API from IPFS — 4 operation(s) for bitswap.
   name: IPFS Bitswap API
   slug: ipfs-bitswap-api
-- description: The Block API from IPFS — 4 operation(s) for block.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Block API from IPFS — 4 operation(s) for block.
   name: IPFS Block API
   slug: ipfs-block-api
-- description: The Bootstrap API from IPFS — 6 operation(s) for bootstrap.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Bootstrap API from IPFS — 6 operation(s) for bootstrap.
   name: IPFS Bootstrap API
   slug: ipfs-bootstrap-api
-- description: The Cat API from IPFS — 1 operation(s) for cat.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Cat API from IPFS — 1 operation(s) for cat.
   name: IPFS Cat API
   slug: ipfs-cat-api
-- description: The Cid API from IPFS — 5 operation(s) for cid.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Cid API from IPFS — 5 operation(s) for cid.
   name: IPFS Cid API
   slug: ipfs-cid-api
-- description: The Commands API from IPFS — 1 operation(s) for commands.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Commands API from IPFS — 1 operation(s) for commands.
   name: IPFS Commands API
   slug: ipfs-commands-api
-- description: The Config API from IPFS — 4 operation(s) for config.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Config API from IPFS — 4 operation(s) for config.
   name: IPFS Config API
   slug: ipfs-config-api
-- description: The Dag API from IPFS — 6 operation(s) for dag.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Dag API from IPFS — 6 operation(s) for dag.
   name: IPFS Dag API
   slug: ipfs-dag-api
-- description: The Dht API from IPFS — 6 operation(s) for dht.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Dht API from IPFS — 6 operation(s) for dht.
   name: IPFS Dht API
   slug: ipfs-dht-api
-- description: The Diag API from IPFS — 5 operation(s) for diag.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Diag API from IPFS — 5 operation(s) for diag.
   name: IPFS Diag API
   slug: ipfs-diag-api
-- description: The Dns API from IPFS — 1 operation(s) for dns.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Dns API from IPFS — 1 operation(s) for dns.
   name: IPFS Dns API
   slug: ipfs-dns-api
-- description: The File API from IPFS — 1 operation(s) for file.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The File API from IPFS — 1 operation(s) for file.
   name: IPFS File API
   slug: ipfs-file-api
-- description: The Files API from IPFS — 10 operation(s) for files.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Files API from IPFS — 10 operation(s) for files.
   name: IPFS Files API
   slug: ipfs-files-api
-- description: The Filestore API from IPFS — 3 operation(s) for filestore.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Filestore API from IPFS — 3 operation(s) for filestore.
   name: IPFS Filestore API
   slug: ipfs-filestore-api
-- description: The Get API from IPFS — 1 operation(s) for get.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Get API from IPFS — 1 operation(s) for get.
   name: IPFS Get API
   slug: ipfs-get-api
-- description: The Id API from IPFS — 1 operation(s) for id.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Id API from IPFS — 1 operation(s) for id.
   name: IPFS Id API
   slug: ipfs-id-api
-- description: The Key API from IPFS — 5 operation(s) for key.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Key API from IPFS — 5 operation(s) for key.
   name: IPFS Key API
   slug: ipfs-key-api
-- description: The Log API from IPFS — 3 operation(s) for log.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Log API from IPFS — 3 operation(s) for log.
   name: IPFS Log API
   slug: ipfs-log-api
-- description: The Ls API from IPFS — 1 operation(s) for ls.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Ls API from IPFS — 1 operation(s) for ls.
   name: IPFS Ls API
   slug: ipfs-ls-api
-- description: The Mount API from IPFS — 1 operation(s) for mount.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Mount API from IPFS — 1 operation(s) for mount.
   name: IPFS Mount API
   slug: ipfs-mount-api
-- description: The Multibase API from IPFS — 4 operation(s) for multibase.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Multibase API from IPFS — 4 operation(s) for multibase.
   name: IPFS Multibase API
   slug: ipfs-multibase-api
-- description: The Name API from IPFS — 6 operation(s) for name.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Name API from IPFS — 6 operation(s) for name.
   name: IPFS Name API
   slug: ipfs-name-api
-- description: The Object API from IPFS — 11 operation(s) for object.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Object API from IPFS — 11 operation(s) for object.
   name: IPFS Object API
   slug: ipfs-object-api
-- description: The P2p API from IPFS — 6 operation(s) for p2p.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The P2p API from IPFS — 6 operation(s) for p2p.
   name: IPFS P2p API
   slug: ipfs-p2p-api
-- description: The Pin API from IPFS — 11 operation(s) for pin.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Pin API from IPFS — 11 operation(s) for pin.
   name: IPFS Pin API
   slug: ipfs-pin-api
-- description: The Ping API from IPFS — 1 operation(s) for ping.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Ping API from IPFS — 1 operation(s) for ping.
   name: IPFS Ping API
   slug: ipfs-ping-api
-- description: The pins API from IPFS — 2 operation(s) for pins.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The pins API from IPFS — 2 operation(s) for pins.
   name: IPFS pins API
   slug: ipfs-pins-api
-- description: The Pubsub API from IPFS — 4 operation(s) for pubsub.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Pubsub API from IPFS — 4 operation(s) for pubsub.
   name: IPFS Pubsub API
   slug: ipfs-pubsub-api
-- description: The Refs API from IPFS — 2 operation(s) for refs.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Refs API from IPFS — 2 operation(s) for refs.
   name: IPFS Refs API
   slug: ipfs-refs-api
-- description: The Repo API from IPFS — 5 operation(s) for repo.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Repo API from IPFS — 5 operation(s) for repo.
   name: IPFS Repo API
   slug: ipfs-repo-api
-- description: The Resolve API from IPFS — 1 operation(s) for resolve.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Resolve API from IPFS — 1 operation(s) for resolve.
   name: IPFS Resolve API
   slug: ipfs-resolve-api
-- description: The Routing API from IPFS — 5 operation(s) for routing.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Routing API from IPFS — 5 operation(s) for routing.
   name: IPFS Routing API
   slug: ipfs-routing-api
-- description: The Shutdown API from IPFS — 1 operation(s) for shutdown.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Shutdown API from IPFS — 1 operation(s) for shutdown.
   name: IPFS Shutdown API
   slug: ipfs-shutdown-api
-- description: The Stats API from IPFS — 5 operation(s) for stats.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Stats API from IPFS — 5 operation(s) for stats.
   name: IPFS Stats API
   slug: ipfs-stats-api
-- description: The Swarm API from IPFS — 13 operation(s) for swarm.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Swarm API from IPFS — 13 operation(s) for swarm.
   name: IPFS Swarm API
   slug: ipfs-swarm-api
-- description: The Tar API from IPFS — 2 operation(s) for tar.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Tar API from IPFS — 2 operation(s) for tar.
   name: IPFS Tar API
   slug: ipfs-tar-api
-- description: The Version API from IPFS — 2 operation(s) for version.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Version API from IPFS — 2 operation(s) for version.
   name: IPFS Version API
   slug: ipfs-version-api
 artifact_total: 101
@@ -431,7 +507,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/screenshots/ipfs-2026-06-20T183549.png
 security:

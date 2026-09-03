@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Convert a value between currencies.
+- baseURL: https://api.currencyapi.com/v3
+  baseurl_source: declared
+  description: Convert a value between currencies.
   name: CurrencyAPI Convert API
   slug: currencyapi-convert-api
-- description: Supported currency metadata.
+- baseURL: https://api.currencyapi.com/v3
+  baseurl_source: declared
+  description: Supported currency metadata.
   name: CurrencyAPI Currencies API
   slug: currencyapi-currencies-api
-- description: End-of-day historical exchange rates back to 1999.
+- baseURL: https://api.currencyapi.com/v3
+  baseurl_source: declared
+  description: End-of-day historical exchange rates back to 1999.
   name: CurrencyAPI Historical API
   slug: currencyapi-historical-api
-- description: Latest foreign exchange rates.
+- baseURL: https://api.currencyapi.com/v3
+  baseurl_source: declared
+  description: Latest foreign exchange rates.
   name: CurrencyAPI Latest API
   slug: currencyapi-latest-api
-- description: Time-series exchange rates for a datetime range.
+- baseURL: https://api.currencyapi.com/v3
+  baseurl_source: declared
+  description: Time-series exchange rates for a datetime range.
   name: CurrencyAPI Range API
   slug: currencyapi-range-api
-- description: API health and account quota status.
+- baseURL: https://api.currencyapi.com/v3
+  baseurl_source: declared
+  description: API health and account quota status.
   name: CurrencyAPI Status API
   slug: currencyapi-status-api
 artifact_total: 20
@@ -193,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/screenshots/currencyapi-2026-07-25T210945.png
 security:

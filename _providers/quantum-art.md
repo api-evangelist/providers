@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 55 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The admin API from Quantum Art — 12 operation(s) for admin.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The admin API from Quantum Art — 12 operation(s) for admin.
   name: Quantum Art admin API
   slug: quantum-art-admin-api
-- description: The Apple Touch Icon.png API from Quantum Art — 1 operation(s) for apple touch icon.png.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Apple Touch Icon.png API from Quantum Art — 1 operation(s) for apple touch icon.png.
   name: Quantum Art Apple Touch Icon.png API
   slug: quantum-art-apple-touch-icon-png-api
-- description: The Artifacts API from Quantum Art — 2 operation(s) for artifacts.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Artifacts API from Quantum Art — 2 operation(s) for artifacts.
   name: Quantum Art Artifacts API
   slug: quantum-art-artifacts-api
-- description: The Auth API from Quantum Art — 5 operation(s) for auth.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Auth API from Quantum Art — 5 operation(s) for auth.
   name: Quantum Art Auth API
   slug: quantum-art-auth-api
-- description: The Dashboard API from Quantum Art — 1 operation(s) for dashboard.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Dashboard API from Quantum Art — 1 operation(s) for dashboard.
   name: Quantum Art Dashboard API
   slug: quantum-art-dashboard-api
-- description: The Docs API from Quantum Art — 1 operation(s) for docs.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Docs API from Quantum Art — 1 operation(s) for docs.
   name: Quantum Art Docs API
   slug: quantum-art-docs-api
-- description: The Documentation API from Quantum Art — 1 operation(s) for documentation.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Documentation API from Quantum Art — 1 operation(s) for documentation.
   name: Quantum Art Documentation API
   slug: quantum-art-documentation-api
-- description: The Favicon.png API from Quantum Art — 1 operation(s) for favicon.png.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Favicon.png API from Quantum Art — 1 operation(s) for favicon.png.
   name: Quantum Art Favicon.png API
   slug: quantum-art-favicon-png-api
-- description: The Health API from Quantum Art — 1 operation(s) for health.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Health API from Quantum Art — 1 operation(s) for health.
   name: Quantum Art Health API
   slug: quantum-art-health-api
-- description: The Legal API from Quantum Art — 1 operation(s) for legal.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Legal API from Quantum Art — 1 operation(s) for legal.
   name: Quantum Art Legal API
   slug: quantum-art-legal-api
-- description: The Login API from Quantum Art — 1 operation(s) for login.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Login API from Quantum Art — 1 operation(s) for login.
   name: Quantum Art Login API
   slug: quantum-art-login-api
-- description: The Logo Square Light.png API from Quantum Art — 1 operation(s) for logo square light.png.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Logo Square Light.png API from Quantum Art — 1 operation(s) for logo square light.png.
   name: Quantum Art Logo Square Light.png API
   slug: quantum-art-logo-square-light-png-api
-- description: The Logo Square.png API from Quantum Art — 1 operation(s) for logo square.png.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Logo Square.png API from Quantum Art — 1 operation(s) for logo square.png.
   name: Quantum Art Logo Square.png API
   slug: quantum-art-logo-square-png-api
-- description: The Logo Wide Dark.png API from Quantum Art — 1 operation(s) for logo wide dark.png.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Logo Wide Dark.png API from Quantum Art — 1 operation(s) for logo wide dark.png.
   name: Quantum Art Logo Wide Dark.png API
   slug: quantum-art-logo-wide-dark-png-api
-- description: The Logo Wide.png API from Quantum Art — 1 operation(s) for logo wide.png.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Logo Wide.png API from Quantum Art — 1 operation(s) for logo wide.png.
   name: Quantum Art Logo Wide.png API
   slug: quantum-art-logo-wide-png-api
-- description: The Orb.mp4 API from Quantum Art — 1 operation(s) for orb.mp4.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Orb.mp4 API from Quantum Art — 1 operation(s) for orb.mp4.
   name: Quantum Art Orb.mp4 API
   slug: quantum-art-orb-mp4-api
-- description: The Orb Poster.jpg API from Quantum Art — 1 operation(s) for orb poster.jpg.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Orb Poster.jpg API from Quantum Art — 1 operation(s) for orb poster.jpg.
   name: Quantum Art Orb Poster.jpg API
   slug: quantum-art-orb-poster-jpg-api
-- description: The Profile API from Quantum Art — 4 operation(s) for profile.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Profile API from Quantum Art — 4 operation(s) for profile.
   name: Quantum Art Profile API
   slug: quantum-art-profile-api
-- description: The QaaS Backend API API from Quantum Art — 1 operation(s) for qaas backend api.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The QaaS Backend API API from Quantum Art — 1 operation(s) for qaas backend api.
   name: Quantum Art QaaS Backend API API
   slug: quantum-art-qaas-backend-api-api
-- description: The qiskit-provider API from Quantum Art — 5 operation(s) for qiskit-provider.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The qiskit-provider API from Quantum Art — 5 operation(s) for qiskit-provider.
   name: Quantum Art qiskit-provider API
   slug: quantum-art-qiskit-provider-api
-- description: The Register API from Quantum Art — 1 operation(s) for register.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Register API from Quantum Art — 1 operation(s) for register.
   name: Quantum Art Register API
   slug: quantum-art-register-api
-- description: The registration API from Quantum Art — 2 operation(s) for registration.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The registration API from Quantum Art — 2 operation(s) for registration.
   name: Quantum Art registration API
   slug: quantum-art-registration-api
-- description: The Tasks API from Quantum Art — 6 operation(s) for tasks.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The Tasks API from Quantum Art — 6 operation(s) for tasks.
   name: Quantum Art Tasks API
   slug: quantum-art-tasks-api
-- description: The User API from Quantum Art — 1 operation(s) for user.
+- baseURL: https://qaas.quantum-art.tech
+  baseurl_source: declared
+  description: The User API from Quantum Art — 1 operation(s) for user.
   name: Quantum Art User API
   slug: quantum-art-user-api
 artifact_total: 53
@@ -302,7 +350,7 @@ score:
   band: thin
   composite: 33.7
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -328,8 +376,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quantum-art/refs/heads/main/screenshots/quantum-art-2026-09-02T152619.png
 security:
 - kind: authentication
   name: Quantum Art Authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Food & Drink Reviews
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-report-of-the-week/refs/heads/main/screenshots/the-report-of-the-week-2026-06-20T195239.png
 slug: the-report-of-the-week

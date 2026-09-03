@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -51,76 +51,124 @@ apis:
 - description: 'A GraphQL endpoint served at https://app.nutshell.com/graphql. Nutshell''s API authentication guide names GraphQL alongside REST and JSON-RPC as an authenticated surface. Introspection is gated: an ano'
   name: Nutshell GraphQL API
   slug: graphql
-- description: Meetings, calls and logged interactions attached to Nutshell records, plus the activity type reference. 5 operation(s) across 3 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Meetings, calls and logged interactions attached to Nutshell records, plus the activity type reference. 5 operation(s) across 3 path(s).
   name: Nutshell Activities API
   slug: nutshell-activities-api
-- description: Email-marketing audiences — static lists of contacts used to organize people for marketing sends. 2 operation(s) across 1 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Email-marketing audiences — static lists of contacts used to organize people for marketing sends. 2 operation(s) across 1 path(s).
   name: Nutshell Audiences API
   slug: nutshell-audiences-api
-- description: Competitor records and the lead-to-competitor relationships (competitor maps) attached to a lead. 6 operation(s) across 4 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Competitor records and the lead-to-competitor relationships (competitor maps) attached to a lead. 6 operation(s) across 4 path(s).
   name: Nutshell Competitors API
   slug: nutshell-competitors-api
-- description: Marketing email editions — individual email sends and their metadata. 2 operation(s) across 2 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Marketing email editions — individual email sends and their metadata. 2 operation(s) across 2 path(s).
   name: Nutshell Editions API
   slug: nutshell-editions-api
-- description: Individual email messages recorded against Nutshell records. 1 operation(s) across 1 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Individual email messages recorded against Nutshell records. 1 operation(s) across 1 path(s).
   name: Nutshell Emails API
   slug: nutshell-emails-api
-- description: Nutshell Forms and their fields, including the field IDs used in each published form. 3 operation(s) across 3 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Nutshell Forms and their fields, including the field IDs used in each published form. 3 operation(s) across 3 path(s).
   name: Nutshell Forms API
   slug: nutshell-forms-api
-- description: The industry reference list used to classify accounts. 1 operation(s) across 1 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The industry reference list used to classify accounts. 1 operation(s) across 1 path(s).
   name: Nutshell Industries API
   slug: nutshell-industries-api
-- description: Invoice documents, their status transitions and payment/completion metadata. 3 operation(s) across 3 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Invoice documents, their status transitions and payment/completion metadata. 3 operation(s) across 3 path(s).
   name: Nutshell Invoices API
   slug: nutshell-invoices-api
-- description: 'Sales opportunities: create, read, update, close, reopen, watch, stage and stageset assignment, installments, reports and lead custom fields. 25 operation(s) across 19 path(s).'
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: 'Sales opportunities: create, read, update, close, reopen, watch, stage and stageset assignment, installments, reports and lead custom fields. 25 operation(s) across 19 path(s).'
   name: Nutshell Leads API
   slug: nutshell-leads-api
-- description: Market records used to segment Nutshell data. 2 operation(s) across 2 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Market records used to segment Nutshell data. 2 operation(s) across 2 path(s).
   name: Nutshell Markets API
   slug: nutshell-markets-api
-- description: Free-text notes attached to accounts, contacts and leads, with delete and undelete. 5 operation(s) across 3 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Free-text notes attached to accounts, contacts and leads, with delete and undelete. 5 operation(s) across 3 path(s).
   name: Nutshell Notes API
   slug: nutshell-notes-api
-- description: The product catalog and product maps — instances of a product attached to a lead with quantity and custom pricing. 8 operation(s) across 6 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The product catalog and product maps — instances of a product attached to a lead with quantity and custom pricing. 8 operation(s) across 6 path(s).
   name: Nutshell Products API
   slug: nutshell-products-api
-- description: Quote documents, their status transitions, and creating an invoice from a quote. 4 operation(s) across 4 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Quote documents, their status transitions, and creating an invoice from a quote. 4 operation(s) across 4 path(s).
   name: Nutshell Quotes API
   slug: nutshell-quotes-api
-- description: Lead sources — how leads arrive at your website and learn about your business. 4 operation(s) across 3 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Lead sources — how leads arrive at your website and learn about your business. 4 operation(s) across 3 path(s).
   name: Nutshell Sources API
   slug: nutshell-sources-api
-- description: Tags used to group leads, contacts and accounts, with delete and undelete. 4 operation(s) across 3 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Tags used to group leads, contacts and accounts, with delete and undelete. 4 operation(s) across 3 path(s).
   name: Nutshell Tags API
   slug: nutshell-tags-api
-- description: Tasks assigned to Nutshell users, including assignee updates. 5 operation(s) across 2 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Tasks assigned to Nutshell users, including assignee updates. 5 operation(s) across 2 path(s).
   name: Nutshell Tasks API
   slug: nutshell-tasks-api
-- description: Sales territories used to scope ownership of Nutshell records. 1 operation(s) across 1 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Sales territories used to scope ownership of Nutshell records. 1 operation(s) across 1 path(s).
   name: Nutshell Territories API
   slug: nutshell-territories-api
-- description: Nutshell users in the instance. 2 operation(s) across 2 path(s).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: Nutshell users in the instance. 2 operation(s) across 2 path(s).
   name: Nutshell Users API
   slug: nutshell-users-api
-- description: The Accounts (Companies) API from Nutshell — 10 operation(s) for accounts (companies).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The Accounts (Companies) API from Nutshell — 10 operation(s) for accounts (companies).
   name: Nutshell Accounts (Companies) API
   slug: nutshell-accounts-companies-api
-- description: The Contacts (People) API from Nutshell — 8 operation(s) for contacts (people).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The Contacts (People) API from Nutshell — 8 operation(s) for contacts (people).
   name: Nutshell Contacts (People) API
   slug: nutshell-contacts-people-api
-- description: The Events (Timeline) API from Nutshell — 2 operation(s) for events (timeline).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The Events (Timeline) API from Nutshell — 2 operation(s) for events (timeline).
   name: Nutshell Events (Timeline) API
   slug: nutshell-events-timeline-api
-- description: The Filter API from Nutshell — 1 operation(s) for filter.
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The Filter API from Nutshell — 1 operation(s) for filter.
   name: Nutshell Filter API
   slug: nutshell-filter-api
-- description: The ProductCategories API from Nutshell — 2 operation(s) for productcategories.
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The ProductCategories API from Nutshell — 2 operation(s) for productcategories.
   name: Nutshell Product Categories API
   slug: nutshell-productcategories-api
-- description: The Stagesets (Pipelines) API from Nutshell — 3 operation(s) for stagesets (pipelines).
+- baseURL: https://app.nutshell.com/rest
+  baseurl_source: declared
+  description: The Stagesets (Pipelines) API from Nutshell — 3 operation(s) for stagesets (pipelines).
   name: Nutshell Stagesets (Pipelines) API
   slug: nutshell-stagesets-pipelines-api
 artifact_total: 59
@@ -439,7 +487,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -449,7 +497,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 38.2
-  previous_composite: 59.4
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -461,7 +509,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/screenshots/nutshell-2026-06-20T190536.png
 security:

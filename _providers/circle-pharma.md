@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: Post categories
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Post categories
   name: Circle Pharma Categories API
   slug: circle-pharma-categories-api
-- description: Comments on posts
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Comments on posts
   name: Circle Pharma Comments API
   slug: circle-pharma-comments-api
-- description: Route index, content types, taxonomies and statuses
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Route index, content types, taxonomies and statuses
   name: Circle Pharma Discovery API
   slug: circle-pharma-discovery-api
-- description: Upcoming and past events
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Upcoming and past events
   name: Circle Pharma Events API
   slug: circle-pharma-events-api
-- description: Media library items
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Media library items
   name: Circle Pharma Media API
   slug: circle-pharma-media-api
-- description: Static site pages (pipeline, science, clinical trials)
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Static site pages (pipeline, science, clinical trials)
   name: Circle Pharma Pages API
   slug: circle-pharma-pages-api
-- description: Press releases, publications and in-the-news items
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Press releases, publications and in-the-news items
   name: Circle Pharma Posts API
   slug: circle-pharma-posts-api
-- description: Cross-content search
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search
   name: Circle Pharma Search API
   slug: circle-pharma-search-api
-- description: Post tags
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Post tags
   name: Circle Pharma Tags API
   slug: circle-pharma-tags-api
-- description: Leadership, board and team member records
+- baseURL: https://circlepharma.com/wp-json
+  baseurl_source: declared
+  description: Leadership, board and team member records
   name: Circle Pharma Team API
   slug: circle-pharma-team-api
 artifact_total: 13
@@ -188,7 +219,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +229,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 32.2
+  previous_composite: 22.3
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +245,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/screenshots/circle-pharma-2026-08-07T163423.png
 security:
 - kind: authentication

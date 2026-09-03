@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage components displayed on status pages
+- baseURL: https://api.sorryapp.com/v1
+  baseurl_source: declared
+  description: Manage components displayed on status pages
   name: Sorry Components API
   slug: sorry-components-api
-- description: Publish updates to active notices
+- baseURL: https://api.sorryapp.com/v1
+  baseurl_source: declared
+  description: Publish updates to active notices
   name: Sorry Notice Updates API
   slug: sorry-notice-updates-api
-- description: Manage incident and maintenance notices
+- baseURL: https://api.sorryapp.com/v1
+  baseurl_source: declared
+  description: Manage incident and maintenance notices
   name: Sorry Notices API
   slug: sorry-notices-api
-- description: Manage status pages in your account
+- baseURL: https://api.sorryapp.com/v1
+  baseurl_source: declared
+  description: Manage status pages in your account
   name: Sorry Status Pages API
   slug: sorry-status-pages-api
-- description: Manage subscriber lists for status page notifications
+- baseURL: https://api.sorryapp.com/v1
+  baseurl_source: declared
+  description: Manage subscriber lists for status page notifications
   name: Sorry Subscribers API
   slug: sorry-subscribers-api
 artifact_total: 23
@@ -224,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/screenshots/sorry-2026-06-20T194215.png
 security:

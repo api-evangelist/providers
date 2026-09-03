@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: Quote-side policy lifecycle — create and patch proposals, add and remove policy lines, coverages, schedules and linked schedules, list insurance programs, carriers, policy lines and states, run or que
@@ -44,19 +57,29 @@ apis:
 - description: Reporting surface for requesting a report run, retrieving report details and options, validating a report filter, and converting between the platform's view-filter string form and its JSON tree form.
   name: Origami Risk Reports API
   slug: origami-risk-reports-api
-- description: The Authentication API from Origami Risk — 4 operation(s) for authentication.
+- baseURL: https://{environment}.origamirisk.com/OrigamiApi-v2
+  baseurl_source: declared
+  description: The Authentication API from Origami Risk — 4 operation(s) for authentication.
   name: Origami Risk Authentication API
   slug: origami-risk-authentication-api
-- description: The HasTokenExpired API from Origami Risk — 1 operation(s) for hastokenexpired.
+- baseURL: https://{environment}.origamirisk.com/OrigamiApi-v2
+  baseurl_source: declared
+  description: The HasTokenExpired API from Origami Risk — 1 operation(s) for hastokenexpired.
   name: Origami Risk Has Token Expired API
   slug: origami-risk-hastokenexpired-api
-- description: The New Endpoint 1 API from Origami Risk — 1 operation(s) for new endpoint 1.
+- baseURL: https://{environment}.origamirisk.com/OrigamiApi-v2
+  baseurl_source: declared
+  description: The New Endpoint 1 API from Origami Risk — 1 operation(s) for new endpoint 1.
   name: Origami Risk New Endpoint 1 API
   slug: origami-risk-new-endpoint-1-api
-- description: The New Endpoint API from Origami Risk — 1 operation(s) for new endpoint.
+- baseURL: https://{environment}.origamirisk.com/OrigamiApi-v2
+  baseurl_source: declared
+  description: The New Endpoint API from Origami Risk — 1 operation(s) for new endpoint.
   name: Origami Risk New Endpoint API
   slug: origami-risk-new-endpoint-api
-- description: The Requests API from Origami Risk — 3 operation(s) for requests.
+- baseURL: https://{environment}.origamirisk.com/OrigamiApi-v2
+  baseurl_source: declared
+  description: The Requests API from Origami Risk — 3 operation(s) for requests.
   name: Origami Risk Requests API
   slug: origami-risk-requests-api
 artifact_total: 21
@@ -279,7 +302,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -289,7 +312,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 53.0
+  previous_composite: 53.5
   provenance:
     conformance: derived
     contracts:
@@ -306,7 +329,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/screenshots/origami-risk-2026-08-07T190927.png
 security:

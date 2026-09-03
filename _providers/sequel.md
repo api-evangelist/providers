@@ -34,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Analytics API from Sequel — 2 operation(s) for analytics.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The Analytics API from Sequel — 2 operation(s) for analytics.
   name: Sequel Analytics API
   slug: sequel-analytics-api
-- description: The Client API from Sequel — 2 operation(s) for client.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The Client API from Sequel — 2 operation(s) for client.
   name: Sequel Client API
   slug: sequel-client-api
-- description: Calls to managing companies
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: Calls to managing companies
   name: Sequel company API
   slug: sequel-company-api
-- description: The company theme API from Sequel — 1 operation(s) for company theme.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The company theme API from Sequel — 1 operation(s) for company theme.
   name: Sequel company theme API
   slug: sequel-company-theme-api
-- description: The company theme fonts API from Sequel — 2 operation(s) for company theme fonts.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The company theme fonts API from Sequel — 2 operation(s) for company theme fonts.
   name: Sequel company theme fonts API
   slug: sequel-company-theme-fonts-api
-- description: The company theme overrides API from Sequel — 1 operation(s) for company theme overrides.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The company theme overrides API from Sequel — 1 operation(s) for company theme overrides.
   name: Sequel company theme overrides API
   slug: sequel-company-theme-overrides-api
-- description: Calls to managing events
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: Calls to managing events
   name: Sequel event API
   slug: sequel-event-api
-- description: The event theme API from Sequel — 1 operation(s) for event theme.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The event theme API from Sequel — 1 operation(s) for event theme.
   name: Sequel event theme API
   slug: sequel-event-theme-api
-- description: The event theme overrides API from Sequel — 1 operation(s) for event theme overrides.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The event theme overrides API from Sequel — 1 operation(s) for event theme overrides.
   name: Sequel event theme overrides API
   slug: sequel-event-theme-overrides-api
-- description: The Media API from Sequel — 2 operation(s) for media.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The Media API from Sequel — 2 operation(s) for media.
   name: Sequel Media API
   slug: sequel-media-api
-- description: Calls to managing networking hubs
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: Calls to managing networking hubs
   name: Sequel networking API
   slug: sequel-networking-api
-- description: The platform API from Sequel — 2 operation(s) for platform.
+- baseURL: https://api.introvoke.com/api/v1
+  baseurl_source: declared
+  description: The platform API from Sequel — 2 operation(s) for platform.
   name: Sequel platform API
   slug: sequel-platform-api
 artifact_total: 33
@@ -312,7 +336,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -322,7 +346,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 57.3
+  previous_composite: 57.1
   provenance:
     conformance: derived
     contracts:
@@ -333,7 +357,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/screenshots/sequel-2026-08-17T081812.png
 security:

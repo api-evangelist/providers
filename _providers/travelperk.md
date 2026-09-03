@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 9 acting
 api_count: 1
 apis:
-- description: Cost center management and user assignment.
+- baseURL: https://api.travelperk.com
+  baseurl_source: declared
+  description: Cost center management and user assignment.
   name: TravelPerk Cost Centers API
   slug: travelperk-cost-centers-api
-- description: Invoices, invoice lines, invoice profiles, and PDFs.
+- baseURL: https://api.travelperk.com
+  baseurl_source: declared
+  description: Invoices, invoice lines, invoice profiles, and PDFs.
   name: TravelPerk Invoices API
   slug: travelperk-invoices-api
-- description: Traveler and member provisioning via SCIM 2.0.
+- baseURL: https://api.travelperk.com
+  baseurl_source: declared
+  description: Traveler and member provisioning via SCIM 2.0.
   name: TravelPerk Members API
   slug: travelperk-members-api
-- description: Trips, bookings, and trip custom fields.
+- baseURL: https://api.travelperk.com
+  baseurl_source: declared
+  description: Trips, bookings, and trip custom fields.
   name: TravelPerk Trips API
   slug: travelperk-trips-api
-- description: Event subscriptions.
+- baseURL: https://api.travelperk.com
+  baseurl_source: declared
+  description: Event subscriptions.
   name: TravelPerk Webhooks API
   slug: travelperk-webhooks-api
 artifact_total: 19
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/screenshots/travelperk-2026-09-02T164145.png
 security:
 - kind: authentication
   name: Travelperk Authentication

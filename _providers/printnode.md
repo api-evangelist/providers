@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 31 operations · 11 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from PrintNode — 4 operation(s) for account.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Account API from PrintNode — 4 operation(s) for account.
   name: PrintNode Account API
   slug: printnode-account-api
-- description: The API Keys API from PrintNode — 1 operation(s) for api keys.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The API Keys API from PrintNode — 1 operation(s) for api keys.
   name: PrintNode API Keys API
   slug: printnode-api-keys-api
-- description: The Clients API from PrintNode — 1 operation(s) for clients.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Clients API from PrintNode — 1 operation(s) for clients.
   name: PrintNode Clients API
   slug: printnode-clients-api
-- description: The Computers API from PrintNode — 2 operation(s) for computers.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Computers API from PrintNode — 2 operation(s) for computers.
   name: PrintNode Computers API
   slug: printnode-computers-api
-- description: The Printers API from PrintNode — 3 operation(s) for printers.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Printers API from PrintNode — 3 operation(s) for printers.
   name: PrintNode Printers API
   slug: printnode-printers-api
-- description: The PrintJobs API from PrintNode — 4 operation(s) for printjobs.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The PrintJobs API from PrintNode — 4 operation(s) for printjobs.
   name: PrintNode PrintJobs API
   slug: printnode-printjobs-api
-- description: The Scales API from PrintNode — 3 operation(s) for scales.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Scales API from PrintNode — 3 operation(s) for scales.
   name: PrintNode Scales API
   slug: printnode-scales-api
-- description: The Utility API from PrintNode — 2 operation(s) for utility.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Utility API from PrintNode — 2 operation(s) for utility.
   name: PrintNode Utility API
   slug: printnode-utility-api
-- description: The Webhooks API from PrintNode — 1 operation(s) for webhooks.
+- baseURL: https://api.printnode.com
+  baseurl_source: declared
+  description: The Webhooks API from PrintNode — 1 operation(s) for webhooks.
   name: PrintNode Webhooks API
   slug: printnode-webhooks-api
 artifact_total: 26
@@ -176,7 +194,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +217,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/printnode/refs/heads/main/screenshots/printnode-2026-09-02T152034.png
 security:
 - kind: authentication
   name: Printnode Authentication

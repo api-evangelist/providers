@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Server-push HTTP webhooks configured in the dashboard (Integrations - New webhook). Buy Me a Coffee POSTs a JSON event envelope to a subscriber URL for donation, membership / recurring-donation, extra
   name: Buy Me a Coffee Webhooks
   slug: buymeacoffee-webhooks-api
-- description: Extras purchases (shop items and rewards). BETA.
+- baseURL: https://developers.buymeacoffee.com/api/v1
+  baseurl_source: declared
+  description: Extras purchases (shop items and rewards). BETA.
   name: Buy Me a Coffee Extras API
   slug: buymeacoffee-extras-api
-- description: Recurring memberships / subscriptions (members).
+- baseURL: https://developers.buymeacoffee.com/api/v1
+  baseurl_source: declared
+  description: Recurring memberships / subscriptions (members).
   name: Buy Me a Coffee Subscriptions API
   slug: buymeacoffee-subscriptions-api
-- description: One-time supporters (tips / coffees) and their messages.
+- baseURL: https://developers.buymeacoffee.com/api/v1
+  baseurl_source: declared
+  description: One-time supporters (tips / coffees) and their messages.
   name: Buy Me a Coffee Supporters API
   slug: buymeacoffee-supporters-api
 artifact_total: 15
@@ -168,7 +174,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buymeacoffee/refs/heads/main/screenshots/buymeacoffee-2026-07-25T204126.png
 security:

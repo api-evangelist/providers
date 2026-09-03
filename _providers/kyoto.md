@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 21 operations
 api_count: 2
 apis:
-- description: OAI-PMH 2.0 metadata harvesting interface for KURENAI, the Kyoto University Research Information Repository. Anonymous, verb-driven, and serving 15 metadata formats including jpcoar_2.0 and jpcoar_1.0
+- baseURL: https://repository.kulib.kyoto-u.ac.jp/server/oai/request
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting interface for KURENAI, the Kyoto University Research Information Repository. Anonymous, verb-driven, and serving 15 metadata formats including jpcoar_2.0 and jpcoar_1.0
   name: KURENAI OAI-PMH API
   slug: kyoto-oai-pmh-api
-- description: The DSpace 7.6 HAL+JSON REST API of the Kyoto University Research Information Repository. The root document at /server/api advertises every endpoint as HAL links and reports dspaceVersion "DSpace 7.6"
+- baseURL: https://repository.kulib.kyoto-u.ac.jp/server/api
+  baseurl_source: declared
+  description: The DSpace 7.6 HAL+JSON REST API of the Kyoto University Research Information Repository. The root document at /server/api advertises every endpoint as HAL links and reports dspaceVersion "DSpace 7.6"
   name: KURENAI DSpace REST API
   slug: kyoto-rest-api
-- description: PandA is the Kyoto University Learning Support System, a Sakai deployment operated by the Institute for Information Management and Communication and published by the IIMC as the university's own educa
+- baseURL: https://panda.ecs.kyoto-u.ac.jp
+  baseurl_source: declared
+  description: PandA is the Kyoto University Learning Support System, a Sakai deployment operated by the Institute for Information Management and Communication and published by the IIMC as the university's own educa
   name: PandA Learning Support System API (Sakai Entity Broker + IMS LTI)
   slug: kyoto-lms-api
 - description: Kyoto University operates its own Shibboleth SAML 2.0 identity provider, run by the Institute for Information Management and Communication, with public machine-readable metadata at the canonical /idp/
@@ -308,7 +314,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -318,7 +324,7 @@ score:
     discoverability: 68.5
     governance: 17.4
     operational_transparency: 10.5
-  previous_composite: 43.4
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,7 +340,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png
 security:

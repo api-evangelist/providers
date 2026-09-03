@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Access data on all Internet assets and build powerful attack surface management applications
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyse/refs/heads/main/screenshots/spyse-2026-06-20T194426.png
 security:

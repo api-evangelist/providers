@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 26 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Upload and download files for Devin to work with.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Upload and download files for Devin to work with.
   name: Cognition Labs Attachments API
   slug: cognition-labs-attachments-api
-- description: Agent Compute Unit (ACU) usage and billing metrics.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Agent Compute Unit (ACU) usage and billing metrics.
   name: Cognition Labs Consumption API
   slug: cognition-labs-consumption-api
-- description: Cross-organization administration.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Cross-organization administration.
   name: Cognition Labs Enterprise (v3) API
   slug: cognition-labs-enterprise-v3-api
-- description: Organization knowledge entries and folders.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Organization knowledge entries and folders.
   name: Cognition Labs Knowledge API
   slug: cognition-labs-knowledge-api
-- description: Send and read messages within a running session.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Send and read messages within a running session.
   name: Cognition Labs Messages API
   slug: cognition-labs-messages-api
-- description: Current org-scoped session and user management.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Current org-scoped session and user management.
   name: Cognition Labs Organizations (v3) API
   slug: cognition-labs-organizations-v3-api
-- description: Reusable team playbooks that seed new sessions.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Reusable team playbooks that seed new sessions.
   name: Cognition Labs Playbooks API
   slug: cognition-labs-playbooks-api
-- description: Encrypted credentials Devin can use inside sessions.
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Encrypted credentials Devin can use inside sessions.
   name: Cognition Labs Secrets API
   slug: cognition-labs-secrets-api
-- description: Create and manage Devin sessions (v1 legacy surface).
+- baseURL: https://api.devin.ai/v1
+  baseurl_source: declared
+  description: Create and manage Devin sessions (v1 legacy surface).
   name: Cognition Labs Sessions API
   slug: cognition-labs-sessions-api
 artifact_total: 28
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/screenshots/cognition-labs-2026-07-25T210009.png
 security:

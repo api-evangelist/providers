@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: The Stainless Platform API is a REST API for programmatically managing Stainless projects, branches, and SDK builds. It exposes the same primitives that power the Stainless Studio web UI and CLI, allo
   name: Stainless Platform API
   slug: stainless-platform-api
-- description: The Build Target Outputs API from Stainless — 1 operation(s) for build target outputs.
+- baseURL: https://api.stainless.com/v0
+  baseurl_source: declared
+  description: The Build Target Outputs API from Stainless — 1 operation(s) for build target outputs.
   name: Stainless Build Target Outputs API
   slug: stainless-api-build-target-outputs-api
-- description: The Builds API from Stainless — 4 operation(s) for builds.
+- baseURL: https://api.stainless.com/v0
+  baseurl_source: declared
+  description: The Builds API from Stainless — 4 operation(s) for builds.
   name: Stainless Builds API
   slug: stainless-api-builds-api
-- description: The Orgs API from Stainless — 2 operation(s) for orgs.
+- baseURL: https://api.stainless.com/v0
+  baseurl_source: declared
+  description: The Orgs API from Stainless — 2 operation(s) for orgs.
   name: Stainless Orgs API
   slug: stainless-api-orgs-api
-- description: The Projects API from Stainless — 9 operation(s) for projects.
+- baseURL: https://api.stainless.com/v0
+  baseurl_source: declared
+  description: The Projects API from Stainless — 9 operation(s) for projects.
   name: Stainless Projects API
   slug: stainless-api-projects-api
-- description: The User API from Stainless — 1 operation(s) for user.
+- baseURL: https://api.stainless.com/v0
+  baseurl_source: declared
+  description: The User API from Stainless — 1 operation(s) for user.
   name: Stainless User API
   slug: stainless-api-user-api
 artifact_total: 20
@@ -231,7 +241,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stainless-api/refs/heads/main/screenshots/stainless-api-2026-06-20T194454.png
 security:

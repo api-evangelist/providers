@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,31 +36,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: Create and manage data schemas and send customer, product and catalog data into Monetate in real time for use by the decision engine. Covers schema CRUD, schema types, upload history, row-level data P
+- baseURL: https://api.monetate.net/api/data/v1/{retailerShortname}/production
+  baseurl_source: declared
+  description: Create and manage data schemas and send customer, product and catalog data into Monetate in real time for use by the decision engine. Covers schema CRUD, schema types, upload history, row-level data P
   name: Monetate Data API
   slug: monetate-data-api
-- description: Read-only API returning metadata about a Monetate account so that experience, page-event and custom-target identifiers seen in engine responses and analytics exports can be resolved to human-interpret
+- baseURL: https://api.monetate.net/api/metadata/v1/{retailerShortname}/production
+  baseurl_source: declared
+  description: Read-only API returning metadata about a Monetate account so that experience, page-event and custom-target identifiers seen in engine responses and analytics exports can be resolved to human-interpret
   name: Monetate Metadata API
   slug: monetate-metadata-api
 - description: Hosted Model Context Protocol server published on the monetate.com marketing site, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata. Provided by
   name: Monetate Website MCP Server
   slug: monetate-website-mcp-server
-- description: The Decision API from Monetate — 1 operation(s) for decision.
+- baseURL: https://engine.monetate.net/api/engine/v1
+  baseurl_source: declared
+  description: The Decision API from Monetate — 1 operation(s) for decision.
   name: Monetate Decision API
   slug: monetate-decision-api
-- description: Product Catalog related endpoints.
+- baseURL: https://engine.monetate.net/api/engine/v1
+  baseurl_source: declared
+  description: Product Catalog related endpoints.
   name: Monetate Product Catalog API
   slug: monetate-product-catalog-api
-- description: Schema related endpoints.
+- baseURL: https://engine.monetate.net/api/engine/v1
+  baseurl_source: declared
+  description: Schema related endpoints.
   name: Monetate Schema API
   slug: monetate-schema-api
-- description: API methods for manipulating tokens.
+- baseURL: https://engine.monetate.net/api/engine/v1
+  baseurl_source: declared
+  description: API methods for manipulating tokens.
   name: Monetate Token API
   slug: monetate-token-api
-- description: File upload related endpoints.
+- baseURL: https://engine.monetate.net/api/engine/v1
+  baseurl_source: declared
+  description: File upload related endpoints.
   name: Monetate Upload API
   slug: monetate-upload-api
 artifact_total: 20
@@ -263,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/screenshots/monetate-2026-08-17T081059.png
 security:

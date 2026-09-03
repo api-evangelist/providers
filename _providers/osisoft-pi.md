@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,28 +50,44 @@ apis:
 - description: OSIsoft PI Asset Framework SDK (AF SDK) is a .NET client library for programmatic access to the PI System asset hierarchy, time-series data, and event frames from on-premises PI servers.
   name: OSIsoft PI AF SDK
   slug: pi-af-sdk
-- description: Asset Framework server navigation
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: Asset Framework server navigation
   name: osisoft-pi AssetServers API
   slug: osisoft-pi-assetservers-api
-- description: AF attribute management
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: AF attribute management
   name: osisoft-pi Attributes API
   slug: osisoft-pi-attributes-api
-- description: Batch and parallel request execution
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: Batch and parallel request execution
   name: osisoft-pi BatchRequests API
   slug: osisoft-pi-batchrequests-api
-- description: PI Data Archive server management
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: PI Data Archive server management
   name: osisoft-pi DataServers API
   slug: osisoft-pi-dataservers-api
-- description: AF element management
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: AF element management
   name: osisoft-pi Elements API
   slug: osisoft-pi-elements-api
-- description: Event frame query and management
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: Event frame query and management
   name: osisoft-pi EventFrames API
   slug: osisoft-pi-eventframes-api
-- description: PI point (tag) management and data
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: PI point (tag) management and data
   name: osisoft-pi PIPoints API
   slug: osisoft-pi-pipoints-api
-- description: Time-series data streams
+- baseURL: https://piwebapi.example.com/piwebapi
+  baseurl_source: declared
+  description: Time-series data streams
   name: osisoft-pi Streams API
   slug: osisoft-pi-streams-api
 artifact_total: 32
@@ -261,10 +277,10 @@ score:
       total: 8
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:

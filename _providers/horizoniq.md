@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 54 operations · 21 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Endpoints related to Action Items
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to Action Items
   name: HorizonIQ Action Items API
   slug: horizoniq-action-items-api
-- description: Endpoints related to Billing
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to Billing
   name: HorizonIQ Billing API
   slug: horizoniq-billing-api
-- description: Endpoints related to devices
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to devices
   name: HorizonIQ Devices API
   slug: horizoniq-devices-api
-- description: Endpoints related to images
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to images
   name: HorizonIQ Images API
   slug: horizoniq-images-api
-- description: Endpoints related to managed firewalls
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to managed firewalls
   name: HorizonIQ Managed Firewalls API
   slug: horizoniq-managed-firewalls-api
-- description: Endpoints related to Servers
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to Servers
   name: HorizonIQ Servers API
   slug: horizoniq-servers-api
-- description: The SSL Certificates API from HorizonIQ — 5 operation(s) for ssl certificates.
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: The SSL Certificates API from HorizonIQ — 5 operation(s) for ssl certificates.
   name: HorizonIQ SSL Certificates API
   slug: horizoniq-ssl-certificates-api
-- description: Endpoints related to support cases
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Endpoints related to support cases
   name: HorizonIQ Support API
   slug: horizoniq-support-api
-- description: Enpionts related to user accounts
+- baseURL: https://api.compass.horizoniq.com/v1
+  baseurl_source: declared
+  description: Enpionts related to user accounts
   name: HorizonIQ User Accounts API
   slug: horizoniq-user-accounts-api
 artifact_total: 24
@@ -262,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizoniq/refs/heads/main/screenshots/horizoniq-2026-07-25T221431.png
 security:

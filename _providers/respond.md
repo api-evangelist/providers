@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 15 acting
 api_count: 1
 apis:
-- description: Internal collaboration comments on a contact.
+- baseURL: https://api.respond.io/v2
+  baseurl_source: declared
+  description: Internal collaboration comments on a contact.
   name: Respond.io Comments API
   slug: respond-comments-api
-- description: Create, read, update, merge, list, and delete contacts.
+- baseURL: https://api.respond.io/v2
+  baseurl_source: declared
+  description: Create, read, update, merge, list, and delete contacts.
   name: Respond.io Contacts API
   slug: respond-contacts-api
-- description: Open, close, status, and assign conversations.
+- baseURL: https://api.respond.io/v2
+  baseurl_source: declared
+  description: Open, close, status, and assign conversations.
   name: Respond.io Conversations API
   slug: respond-conversations-api
-- description: Structured contact metadata definitions.
+- baseURL: https://api.respond.io/v2
+  baseurl_source: declared
+  description: Structured contact metadata definitions.
   name: Respond.io Custom Fields API
   slug: respond-custom-fields-api
-- description: Send messages to contacts and read message history.
+- baseURL: https://api.respond.io/v2
+  baseurl_source: declared
+  description: Send messages to contacts and read message history.
   name: Respond.io Messages API
   slug: respond-messages-api
-- description: Workspace tags and contact tag assignment.
+- baseURL: https://api.respond.io/v2
+  baseurl_source: declared
+  description: Workspace tags and contact tag assignment.
   name: Respond.io Tags API
   slug: respond-tags-api
 artifact_total: 21
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
 security:

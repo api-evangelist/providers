@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 76 operations · 34 acting · 34 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accumulator (Experimental) API from Yuzu Health — 2 operation(s) for accumulator (experimental).
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Accumulator (Experimental) API from Yuzu Health — 2 operation(s) for accumulator (experimental).
   name: Yuzu Health Accumulator (Experimental) API
   slug: yuzu-health-accumulator-experimental-api
-- description: The Benefits API from Yuzu Health — 2 operation(s) for benefits.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Benefits API from Yuzu Health — 2 operation(s) for benefits.
   name: Yuzu Health Benefits API
   slug: yuzu-health-benefits-api
-- description: The Coverage API from Yuzu Health — 3 operation(s) for coverage.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Coverage API from Yuzu Health — 3 operation(s) for coverage.
   name: Yuzu Health Coverage API
   slug: yuzu-health-coverage-api
-- description: The Enrollment API from Yuzu Health — 3 operation(s) for enrollment.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Enrollment API from Yuzu Health — 3 operation(s) for enrollment.
   name: Yuzu Health Enrollment API
   slug: yuzu-health-enrollment-api
-- description: The EOB (Experimental) API from Yuzu Health — 1 operation(s) for eob (experimental).
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The EOB (Experimental) API from Yuzu Health — 1 operation(s) for eob (experimental).
   name: Yuzu Health EOB (Experimental) API
   slug: yuzu-health-eob-experimental-api
-- description: The Group Policy API from Yuzu Health — 2 operation(s) for group policy.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Group Policy API from Yuzu Health — 2 operation(s) for group policy.
   name: Yuzu Health Group Policy API
   slug: yuzu-health-group-policy-api
-- description: The Member API from Yuzu Health — 3 operation(s) for member.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Member API from Yuzu Health — 3 operation(s) for member.
   name: Yuzu Health Member API
   slug: yuzu-health-member-api
-- description: The PublicApiV1 API from Yuzu Health — 34 operation(s) for publicapiv1.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The PublicApiV1 API from Yuzu Health — 34 operation(s) for publicapiv1.
   name: Yuzu Health PublicApiV1 API
   slug: yuzu-health-publicapiv1-api
-- description: The PublicApiV2 API from Yuzu Health — 14 operation(s) for publicapiv2.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The PublicApiV2 API from Yuzu Health — 14 operation(s) for publicapiv2.
   name: Yuzu Health PublicApiV2 API
   slug: yuzu-health-publicapiv2-api
-- description: The Sponsor API from Yuzu Health — 1 operation(s) for sponsor.
+- baseURL: https://api.yuzu.health
+  baseurl_source: declared
+  description: The Sponsor API from Yuzu Health — 1 operation(s) for sponsor.
   name: Yuzu Health Sponsor API
   slug: yuzu-health-sponsor-api
 artifact_total: 26
@@ -278,7 +298,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/screenshots/yuzu-health-2026-08-17T083029.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: API for asynchronously processing large volumes of message requests at reduced cost with 50 percent discount.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: API for asynchronously processing large volumes of message requests at reduced cost with 50 percent discount.
   name: Claude Message Batches API
   slug: claude-message-batches-api
-- description: API for listing and retrieving metadata about available Claude models including capabilities and context windows.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: API for listing and retrieving metadata about available Claude models including capabilities and context windows.
   name: Claude Models API
   slug: claude-models-api
 - description: API for uploading and managing files to reference in Claude API requests without re-uploading content each time.
@@ -62,13 +66,19 @@ apis:
 - description: Legacy API for generating text completions - deprecated in favor of the Messages API.
   name: Claude Text Completions API
   slug: claude-text-completions-api
-- description: Create and manage asynchronous message batches
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Create and manage asynchronous message batches
   name: Claude Message Batches API
   slug: claude-message-batches-api
-- description: Create messages and count tokens
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Create messages and count tokens
   name: Claude Messages API
   slug: claude-messages-api
-- description: List and retrieve available Claude models
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: List and retrieve available Claude models
   name: Claude Models API
   slug: claude-models-api
 arazzos:
@@ -741,7 +751,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/screenshots/claude-2026-06-20T174448.png
 security:

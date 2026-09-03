@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: OAI-PMH 2.0 metadata-harvesting interface for Massey Research Online (Pātaka Rangahau), the university's DSpace institutional repository of theses, dissertations and research outputs. Fully anonymous,
+- baseURL: https://mro.massey.ac.nz/server/oai/request
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata-harvesting interface for Massey Research Online (Pātaka Rangahau), the university's DSpace institutional repository of theses, dissertations and research outputs. Fully anonymous,
   name: Massey Research Online OAI-PMH
   slug: mro-oai-pmh
-- description: HAL/JSON REST API for Massey Research Online, running DSpace 8.3. Anonymous read is permitted on the repository root, communities (19 of them) and collections; item and bitstream listings return 401 "
+- baseURL: https://mro.massey.ac.nz/server/api
+  baseurl_source: declared
+  description: HAL/JSON REST API for Massey Research Online, running DSpace 8.3. Anonymous read is permitted on the repository root, communities (19 of them) and collections; item and bitstream listings return 401 "
   name: Massey Research Online DSpace REST API
   slug: mro-rest
-- description: Massey University's own news, events and staff-directory web service. A single endpoint, /api/v1/massey.cfc, selects a resource with a `path` parameter - news/articles, news/types, news/categories, ev
+- baseURL: https://www.massey.ac.nz/api/v1/massey.cfc
+  baseurl_source: declared
+  description: Massey University's own news, events and staff-directory web service. A single endpoint, /api/v1/massey.cfc, selects a resource with a `path` parameter - news/articles, news/types, news/categories, ev
   name: Massey M-API WebService API v1
   slug: mapi-v1
 - description: Massey University's own SAML 2.0 / Shibboleth Identity Provider. The metadata document is public, machine-readable and continuously published to federation partners. It advertises SAML 2.0, SAML 1.1 a
@@ -271,7 +277,7 @@ score:
     catalog_gap: 38.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 21.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -281,7 +287,7 @@ score:
     discoverability: 59.3
     governance: 34.1
     operational_transparency: 26.3
-  previous_composite: 18.9
+  previous_composite: 39.9
   provenance:
     conformance: derived
     contracts:
@@ -296,8 +302,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/screenshots/massey-2026-06-20T185021.png
 security:
 - kind: authentication

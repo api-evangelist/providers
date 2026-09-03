@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 18 operations · 11 acting
 api_count: 9
 apis:
-- description: 'The Cohere Chat API enables developers to integrate large language model text generation capabilities into their applications through a conversational interface. It supports multi-turn conversations, '
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: 'The Cohere Chat API enables developers to integrate large language model text generation capabilities into their applications through a conversational interface. It supports multi-turn conversations, '
   name: Cohere Chat API
   slug: chat-api
-- description: The Cohere Embed API generates vector embeddings from text and images, enabling semantic search, clustering, and classification use cases. It supports multilingual content and can process both text an
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Embed API generates vector embeddings from text and images, enabling semantic search, clustering, and classification use cases. It supports multilingual content and can process both text an
   name: Cohere Embed API
   slug: embed-api
-- description: The Cohere Rerank API takes a query and a list of text documents and returns them ordered by relevance with assigned relevance scores. It is commonly used as a second-stage ranker in retrieval-augment
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Rerank API takes a query and a list of text documents and returns them ordered by relevance with assigned relevance scores. It is commonly used as a second-stage ranker in retrieval-augment
   name: Cohere Rerank API
   slug: rerank-api
-- description: 'The Cohere Classify API performs text classification by assigning labels to input text based on provided examples. It can be used for sentiment analysis, content moderation, topic categorization, and '
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: 'The Cohere Classify API performs text classification by assigning labels to input text based on provided examples. It can be used for sentiment analysis, content moderation, topic categorization, and '
   name: Cohere Classify API
   slug: classify-api
-- description: The Cohere Embed Jobs API allows developers to create and manage batch embedding jobs for processing large volumes of text data asynchronously. Rather than embedding texts one at a time, developers ca
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Embed Jobs API allows developers to create and manage batch embedding jobs for processing large volumes of text data asynchronously. Rather than embedding texts one at a time, developers ca
   name: Cohere Embed Jobs API
   slug: embed-jobs-api
-- description: The Cohere Datasets API provides endpoints for uploading, managing, and retrieving datasets used with other Cohere services such as fine-tuning and embed jobs. Developers can create datasets from file
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Datasets API provides endpoints for uploading, managing, and retrieving datasets used with other Cohere services such as fine-tuning and embed jobs. Developers can create datasets from file
   name: Cohere Datasets API
   slug: datasets-api
-- description: The Cohere Models API allows developers to list and retrieve information about available Cohere models, including the Command, Embed, and Rerank model families. It provides details such as model names
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Models API allows developers to list and retrieve information about available Cohere models, including the Command, Embed, and Rerank model families. It provides details such as model names
   name: Cohere Models API
   slug: models-api
-- description: The Cohere Tokenize API splits input text into tokens using the tokenizer associated with a specified model. It returns both the token strings and their corresponding token IDs. This is useful for und
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Tokenize API splits input text into tokens using the tokenizer associated with a specified model. It returns both the token strings and their corresponding token IDs. This is useful for und
   name: Cohere Tokenize API
   slug: tokenize-api
-- description: The Cohere Detokenize API converts a sequence of token IDs back into their corresponding text string using the tokenizer for a specified model. It is the inverse operation of the Tokenize API and is u
+- baseURL: https://api.cohere.com
+  baseurl_source: declared
+  description: The Cohere Detokenize API converts a sequence of token IDs back into their corresponding text string using the tokenizer for a specified model. It is the inverse operation of the Tokenize API and is u
   name: Cohere Detokenize API
   slug: detokenize-api
 artifact_total: 81
@@ -297,16 +315,16 @@ jsonld:
   slug: cohere-context
 layout: provider
 modified: '2026-05-29'
-name: cohere
+name: Cohere
 nav: Providers
 network: true
-overview: 'cohere publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Embed API, Rerank API, and 6 more.
+overview: 'Cohere publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Embed API, Rerank API, and 6 more.
 
 
-  The cohere catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Cohere catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  cohere''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Cohere''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Cohere Plans Pricing
   plan_count: 6
@@ -320,7 +338,7 @@ rules:
 - effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: cohere API Rules
+  name: Cohere API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -330,7 +348,7 @@ rules:
   slug: cohere-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: cohere API Rules
+  name: Cohere API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -346,7 +364,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -356,7 +374,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 35.4
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -366,10 +384,10 @@ score:
       total: 9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/screenshots/cohere-2026-06-20T174719.png
 security:

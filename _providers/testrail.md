@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 56 operations · 32 acting
 api_count: 1
 apis:
-- description: Reusable test cases in the repository.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Reusable test cases in the repository.
   name: TestRail Cases API
   slug: testrail-cases-api
-- description: Configuration groups (e.g. browsers, OSes) plan entries expand across.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Configuration groups (e.g. browsers, OSes) plan entries expand across.
   name: TestRail Configurations API
   slug: testrail-configurations-api
-- description: Releases and deadlines that runs and plans report toward.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Releases and deadlines that runs and plans report toward.
   name: TestRail Milestones API
   slug: testrail-milestones-api
-- description: Groups of runs, optionally across configurations.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Groups of runs, optionally across configurations.
   name: TestRail Plans API
   slug: testrail-plans-api
-- description: Top-level containers owning suites, cases, runs, plans, and milestones.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Top-level containers owning suites, cases, runs, plans, and milestones.
   name: TestRail Projects API
   slug: testrail-projects-api
-- description: Recorded outcomes for tests and cases.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Recorded outcomes for tests and cases.
   name: TestRail Results API
   slug: testrail-results-api
-- description: Executions of a set of test cases (test runs).
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Executions of a set of test cases (test runs).
   name: TestRail Runs API
   slug: testrail-runs-api
-- description: Folder-like grouping of test cases inside a suite.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Folder-like grouping of test cases inside a suite.
   name: TestRail Sections API
   slug: testrail-sections-api
-- description: Collections of test cases within a project.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Collections of test cases within a project.
   name: TestRail Suites API
   slug: testrail-suites-api
-- description: Instances of a case within a specific run.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: Instances of a case within a specific run.
   name: TestRail Tests API
   slug: testrail-tests-api
-- description: TestRail user lookup.
+- baseURL: https://{instance}.testrail.io/index.php?/api/v2
+  baseurl_source: declared
+  description: TestRail user lookup.
   name: TestRail Users API
   slug: testrail-users-api
 artifact_total: 29
@@ -184,7 +206,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -207,8 +229,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/screenshots/testrail-2026-09-02T163239.png
 security:
 - kind: authentication
   name: Testrail Authentication

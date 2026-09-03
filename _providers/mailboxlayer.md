@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,22 @@ agentic_access:
   summary_line: 1 operation
 api_count: 2
 apis:
-- description: Email address validation and verification operations.
+- baseURL: https://apilayer.net/api
+  baseurl_source: declared
+  description: Email address validation and verification operations.
   name: mailboxlayer Verification API
   slug: mailboxlayer-verification-api
 - description: 'REST/JSON API for real-time email validation: syntax check, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free detection, and quality score. Available via legacy api'
   name: Mailboxlayer Email Validation API
   slug: mailboxlayer-email-validation-api
-- description: The Bulk Check API from Mailboxlayer — 1 operation(s) for bulk check.
+- baseURL: https://apilayer.net/api
+  baseurl_source: declared
+  description: The Bulk Check API from Mailboxlayer — 1 operation(s) for bulk check.
   name: Mailboxlayer Bulk Check API
   slug: mailboxlayer-bulk-check-api
-- description: The Check API from Mailboxlayer — 1 operation(s) for check.
+- baseURL: https://apilayer.net/api
+  baseurl_source: declared
+  description: The Check API from Mailboxlayer — 1 operation(s) for check.
   name: Mailboxlayer Check API
   slug: mailboxlayer-check-api
 artifact_total: 55
@@ -396,7 +402,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-08-17T124041.png
 security:

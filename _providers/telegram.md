@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -47,31 +47,49 @@ apis:
 - description: TDLib is a cross-platform, fully functional Telegram client library for third-party developers. TDLib takes care of all network implementation details, encryption and local data storage, allowing deve
   name: Telegram TDLib (Telegram Database Library)
   slug: telegram-tdlib
-- description: Methods for getting and setting bot information
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for getting and setting bot information
   name: Telegram Bot Info API
   slug: telegram-bot-info-api
-- description: Methods for managing chats and chat settings
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for managing chats and chat settings
   name: Telegram Chat Management API
   slug: telegram-chat-management-api
-- description: Methods for receiving incoming updates from Telegram
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for receiving incoming updates from Telegram
   name: Telegram Getting Updates API
   slug: telegram-getting-updates-api
-- description: Methods for managing chat invite links
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for managing chat invite links
   name: Telegram Invites API
   slug: telegram-invites-api
-- description: Methods for managing chat members and administrators
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for managing chat members and administrators
   name: Telegram Member Management API
   slug: telegram-member-management-api
-- description: Methods for editing and deleting messages
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for editing and deleting messages
   name: Telegram Message Editing API
   slug: telegram-message-editing-api
-- description: Methods for sending messages and media
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for sending messages and media
   name: Telegram Messaging API
   slug: telegram-messaging-api
-- description: Methods for handling Telegram Payments
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for handling Telegram Payments
   name: Telegram Payments API
   slug: telegram-payments-api
-- description: Methods for working with sticker sets
+- baseURL: https://api.telegram.org/bot{token}
+  baseurl_source: declared
+  description: Methods for working with sticker sets
   name: Telegram Stickers API
   slug: telegram-stickers-api
 artifact_total: 37
@@ -278,7 +296,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/screenshots/telegram-2026-06-20T195033.png
 security:

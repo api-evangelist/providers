@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 45 operations · 28 acting
 api_count: 2
 apis:
-- description: The Authentication API from GoNitro — 1 operation(s) for authentication.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Authentication API from GoNitro — 1 operation(s) for authentication.
   name: GoNitro Authentication API
   slug: gonitro-authentication-api
-- description: The Conversions API from GoNitro — 1 operation(s) for conversions.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Conversions API from GoNitro — 1 operation(s) for conversions.
   name: GoNitro Conversions API
   slug: gonitro-conversions-api
-- description: The Extractions API from GoNitro — 1 operation(s) for extractions.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Extractions API from GoNitro — 1 operation(s) for extractions.
   name: GoNitro Extractions API
   slug: gonitro-extractions-api
-- description: The Generations API from GoNitro — 1 operation(s) for generations.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Generations API from GoNitro — 1 operation(s) for generations.
   name: GoNitro Generations API
   slug: gonitro-generations-api
-- description: The Jobs API from GoNitro — 2 operation(s) for jobs.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Jobs API from GoNitro — 2 operation(s) for jobs.
   name: GoNitro Jobs API
   slug: gonitro-jobs-api
-- description: The Platform API from GoNitro — 6 operation(s) for platform.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Platform API from GoNitro — 6 operation(s) for platform.
   name: GoNitro Platform API
   slug: gonitro-platform-api
-- description: The Sign API from GoNitro — 22 operation(s) for sign.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Sign API from GoNitro — 22 operation(s) for sign.
   name: GoNitro Sign API
   slug: gonitro-sign-api
-- description: The Transformations API from GoNitro — 1 operation(s) for transformations.
+- baseURL: https://api.gonitro.dev
+  baseurl_source: declared
+  description: The Transformations API from GoNitro — 1 operation(s) for transformations.
   name: GoNitro Transformations API
   slug: gonitro-transformations-api
 arazzos:
@@ -305,7 +321,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -315,7 +331,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 57.8
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -327,7 +343,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/screenshots/gonitro-2026-07-25T220034.png
 security:

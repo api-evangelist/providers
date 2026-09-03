@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,28 +44,42 @@ agentic_access:
   summary_line: 13 operations · 8 acting
 api_count: 1
 apis:
-- description: REST API for video (Ray series) and image (Photon) generation. Submit a generation request, then poll for status. Documentation at https://docs.lumalabs.ai/. Auth via API key from https://lumalabs.ai/
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: REST API for video (Ray series) and image (Photon) generation. Submit a generation request, then poll for status. Documentation at https://docs.lumalabs.ai/. Auth via API key from https://lumalabs.ai/
   name: Luma Dream Machine API
   slug: dream-machine
 - description: Agent-style image generation/editing with a reasoning endpoint and a generation endpoint. Uses /v1/generations submit and /v1/generations/{generation_id} polling pattern at https://agents.lumalabs.ai/
   name: Luma Agents API (uni-1)
   slug: agents-uni
-- description: The Concepts API from Luma AI — 1 operation(s) for concepts.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Concepts API from Luma AI — 1 operation(s) for concepts.
   name: Luma AI Concepts API
   slug: luma-ai-concepts-api
-- description: The Credits API from Luma AI — 1 operation(s) for credits.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Credits API from Luma AI — 1 operation(s) for credits.
   name: Luma AI Credits API
   slug: luma-ai-credits-api
-- description: The Generations API from Luma AI — 4 operation(s) for generations.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Generations API from Luma AI — 4 operation(s) for generations.
   name: Luma AI Generations API
   slug: luma-ai-generations-api
-- description: The Image API from Luma AI — 2 operation(s) for image.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Image API from Luma AI — 2 operation(s) for image.
   name: Luma AI Image API
   slug: luma-ai-image-api
-- description: The System API from Luma AI — 1 operation(s) for system.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The System API from Luma AI — 1 operation(s) for system.
   name: Luma AI System API
   slug: luma-ai-system-api
-- description: The Video API from Luma AI — 3 operation(s) for video.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Video API from Luma AI — 3 operation(s) for video.
   name: Luma AI Video API
   slug: luma-ai-video-api
 artifact_total: 24
@@ -191,7 +205,7 @@ score:
     catalog_gap: 66.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -201,7 +215,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 36.5
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -210,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/screenshots/luma-ai-2026-06-20T184752.png
 security:

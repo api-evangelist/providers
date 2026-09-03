@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -34,31 +47,49 @@ agentic_access:
   summary_line: 80 operations · 44 acting · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: Affordable Care Act data.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Affordable Care Act data.
   name: PlanSource ACA API
   slug: plansource-aca-api
-- description: Administrator Management
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Administrator Management
   name: PlanSource Administrators API
   slug: plansource-administrators-api
-- description: Collections of objects.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Collections of objects.
   name: PlanSource Collections API
   slug: plansource-collections-api
-- description: Coverages, coverage lines, and dependent coverages.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Coverages, coverage lines, and dependent coverages.
   name: PlanSource Coverage API
   slug: plansource-coverage-api
-- description: Subscribers, their dependents and beneficiaries.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Subscribers, their dependents and beneficiaries.
   name: PlanSource Demographic API
   slug: plansource-demographic-api
-- description: Evidence of Insurability Processing.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Evidence of Insurability Processing.
   name: PlanSource EOI API
   slug: plansource-eoi-api
-- description: Organization page content data.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Organization page content data.
   name: PlanSource Page Content API
   slug: plansource-page-content-api
-- description: Payroll coverages data.
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Payroll coverages data.
   name: PlanSource Payroll API
   slug: plansource-payroll-api
-- description: Security Functions
+- baseURL: https://api.plansource.com/admin/v2
+  baseurl_source: declared
+  description: Security Functions
   name: PlanSource Security API
   slug: plansource-security-api
 artifact_total: 29
@@ -291,7 +322,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Western Union's PSD2-compliant Open Banking API enables Payment Service Providers to access account information (AIS) and initiate payments (PIS) in compliance with European Payment Services Directive
   name: Western Union Open Banking API
   slug: open-banking
-- description: Holding balance inquiry.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: Holding balance inquiry.
   name: western-union Balances API
   slug: western-union-balances-api
-- description: Payment batch lifecycle management.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: Payment batch lifecycle management.
   name: western-union Batches API
   slug: western-union-batches-api
-- description: Customer account management.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: Customer account management.
   name: western-union Customers API
   slug: western-union-customers-api
-- description: API health check.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: API health check.
   name: western-union Health API
   slug: western-union-health-api
-- description: Payment order management.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: Payment order management.
   name: western-union Orders API
   slug: western-union-orders-api
-- description: Individual payment management within a batch.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: Individual payment management within a batch.
   name: western-union Payments API
   slug: western-union-payments-api
-- description: FX rate and payment quote generation.
+- baseURL: https://api.westernunion.com
+  baseurl_source: declared
+  description: FX rate and payment quote generation.
   name: western-union Quotes API
   slug: western-union-quotes-api
 artifact_total: 32
@@ -268,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Defined terms for a rule version.
+- baseURL: https://energy-rules.aemc.gov.au/api/v1
+  baseurl_source: declared
+  description: Defined terms for a rule version.
   name: Australian Energy Market Commission Glossary API
   slug: aemc-glossary-api
-- description: The structural tree of a rule version — chapters, parts, divisions, rules and clauses.
+- baseURL: https://energy-rules.aemc.gov.au/api/v1
+  baseurl_source: declared
+  description: The structural tree of a rule version — chapters, parts, divisions, rules and clauses.
   name: Australian Energy Market Commission Rule Content API
   slug: aemc-rule-content-api
-- description: Versions of the National Electricity, Gas and Energy Retail Rules, with their published PDF and DOCX artefacts.
+- baseURL: https://energy-rules.aemc.gov.au/api/v1
+  baseurl_source: declared
+  description: Versions of the National Electricity, Gas and Energy Retail Rules, with their published PDF and DOCX artefacts.
   name: Australian Energy Market Commission Rule Versions API
   slug: aemc-rule-versions-api
-- description: Full-text search within a single rule version.
+- baseURL: https://energy-rules.aemc.gov.au/api/v1
+  baseurl_source: declared
+  description: Full-text search within a single rule version.
   name: Australian Energy Market Commission Search API
   slug: aemc-search-api
-- description: Application settings exposed to the client.
+- baseURL: https://energy-rules.aemc.gov.au/api/v1
+  baseurl_source: declared
+  description: Application settings exposed to the client.
   name: Australian Energy Market Commission Settings API
   slug: aemc-settings-api
 artifact_total: 18
@@ -247,7 +269,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

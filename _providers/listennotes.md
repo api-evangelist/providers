@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 5 acting
 api_count: 1
 apis:
-- description: Endpoints to fetch podcasts, episodes, charts, and reference data.
+- baseURL: https://listen-api.listennotes.com/api/v2
+  baseurl_source: declared
+  description: Endpoints to fetch podcasts, episodes, charts, and reference data.
   name: Listen Notes Directory API API
   slug: listennotes-directory-api-api
-- description: Endpoints to get insights of podcasts, e.g., audience demographics.
+- baseURL: https://listen-api.listennotes.com/api/v2
+  baseurl_source: declared
+  description: Endpoints to get insights of podcasts, e.g., audience demographics.
   name: Listen Notes Insights API API
   slug: listennotes-insights-api-api
-- description: Endpoints to fetch Listen Later playlists data.
+- baseURL: https://listen-api.listennotes.com/api/v2
+  baseurl_source: declared
+  description: Endpoints to fetch Listen Later playlists data.
   name: Listen Notes Playlist API API
   slug: listennotes-playlist-api-api
-- description: Endpoints to improve the podcast database.
+- baseURL: https://listen-api.listennotes.com/api/v2
+  baseurl_source: declared
+  description: Endpoints to improve the podcast database.
   name: Listen Notes Podcaster API API
   slug: listennotes-podcaster-api-api
-- description: Endpoints to search podcasts and episodes.
+- baseURL: https://listen-api.listennotes.com/api/v2
+  baseurl_source: declared
+  description: Endpoints to search podcasts and episodes.
   name: Listen Notes Search API API
   slug: listennotes-search-api-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listennotes/refs/heads/main/screenshots/listennotes-2026-07-25T225323.png
 security:

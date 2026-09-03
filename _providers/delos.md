@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -33,37 +45,59 @@ agentic_access:
   summary_line: 39 operations · 23 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The actions API from Delos — 1 operation(s) for actions.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The actions API from Delos — 1 operation(s) for actions.
   name: Delos Actions API
   slug: delos-actions-api
-- description: The admin/installations API from Delos — 3 operation(s) for admin/installations.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The admin/installations API from Delos — 3 operation(s) for admin/installations.
   name: Delos Admin/installations API
   slug: delos-admin-installations-api
-- description: The admin/products API from Delos — 3 operation(s) for admin/products.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The admin/products API from Delos — 3 operation(s) for admin/products.
   name: Delos Admin/products API
   slug: delos-admin-products-api
-- description: The admin/products-bundles API from Delos — 1 operation(s) for admin/products-bundles.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The admin/products-bundles API from Delos — 1 operation(s) for admin/products-bundles.
   name: Delos Admin/products Bundles API
   slug: delos-admin-products-bundles-api
-- description: The admin/users API from Delos — 4 operation(s) for admin/users.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The admin/users API from Delos — 4 operation(s) for admin/users.
   name: Delos Admin/users API
   slug: delos-admin-users-api
-- description: The global API from Delos — 3 operation(s) for global.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The global API from Delos — 3 operation(s) for global.
   name: Delos Global API
   slug: delos-global-api
-- description: The installations API from Delos — 1 operation(s) for installations.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The installations API from Delos — 1 operation(s) for installations.
   name: Delos Installations API
   slug: delos-installations-api
-- description: The local-accounts API from Delos — 6 operation(s) for local-accounts.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The local-accounts API from Delos — 6 operation(s) for local-accounts.
   name: Delos Local Accounts API
   slug: delos-local-accounts-api
-- description: The products API from Delos — 1 operation(s) for products.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The products API from Delos — 1 operation(s) for products.
   name: Delos Products API
   slug: delos-products-api
-- description: The sessions API from Delos — 4 operation(s) for sessions.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The sessions API from Delos — 4 operation(s) for sessions.
   name: Delos Sessions API
   slug: delos-sessions-api
-- description: The users API from Delos — 6 operation(s) for users.
+- baseURL: https://cloud.wellcube.io/api/v1
+  baseurl_source: declared
+  description: The users API from Delos — 6 operation(s) for users.
   name: Delos Users API
   slug: delos-users-api
 artifact_total: 19
@@ -220,7 +254,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -230,7 +264,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 34.4
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
 security:

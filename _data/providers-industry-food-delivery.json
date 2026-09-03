@@ -29,7 +29,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -85,7 +85,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -130,12 +130,12 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 36.0,
      "agent_band": "agent-ready",
@@ -180,7 +180,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
@@ -225,7 +225,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -270,7 +270,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -315,7 +315,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -360,7 +360,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -412,7 +412,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -451,104 +451,15 @@
    "shown": 15,
    "providers": [
     {
-     "name": "UrbanPiper",
-     "slug": "urbanpiper",
-     "description": "UrbanPiper is a restaurant commerce platform whose POS-integration API connects a restaurant's POS/ERP to online ordering aggregators (Swiggy, Zomato, UberEats, DoorDash, Deliveroo, Talabat, Amazon, Careem and more). The REST API covers catalogue/menu management, store and item/option availability, order relay and order status updates, and outbound webhooks, powering the Prime, Hub and Atlas products.",
-     "score": 38.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.4,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Barogo",
-     "slug": "barogo",
-     "description": "Barogo (바로고) is a South Korean last-mile delivery platform founded in 2014 and headquartered in Gangnam-gu, Seoul. It operates a nationwide two-wheeler dispatch network for food and goods, with rider, merchant and hub-manager apps and a store POS program, and counts McDonald's, Burger King, KFC, Krispy Kreme, Baskin Robbins and Dunkin among its clients. Its developer-facing product is Gorela (고릴라), a delivery-brokerage platform that sits between an \"order agency\" — a POS, marketplace or commerce platform that takes the customer's order — and the delivery agencies that assign riders. The Gorela API covers fare quoting and serviceability, order intake in fixed-fare and flexible-fare modes, order read/amend/cancel, store mapping, prepaid store balances, delivery-agency status and delivery zones, plus twenty callbacks pushed back to the partner as an order fans out into its child deliveries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png",
-     "score": 38.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 71.1,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
      "name": "CloudKitchens",
      "slug": "cloudkitchens",
      "description": "CloudKitchens, operated by City Storage Systems, builds and runs delivery-only \"ghost kitchen\" facilities and the restaurant technology stack that runs them, with sites across roughly 30 countries. For integration partners it publishes the CloudKitchens Public API — an OpenAPI 3.0.1 contract of 80 operations and 27 webhook events, secured with OAuth 2.0 across 29 scopes and two flows (client credentials and authorization code), backed by an OpenID Connect identity provider at iam.cloudkitchens.com. The API spans order injection and fulfillment, menu upsert and publishing, storefront pause/resume, delivery dispatch callbacks, finance and payout reporting, inventory, reviews, loyalty, and organization/brand/store pairing. Access is partner-gated rather than self-serve: applications, webhook endpoints, and stores are onboarded manually by a CloudKitchens Account Representative, who issues the Application ID and Client Secret for the production and staging environments and provisions the partner-specific API base URL.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/screenshots/cloudkitchens-2026-08-07T163508.png",
-     "score": 37.8,
+     "score": 38.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 75.9,
       "contract_quality": 53.2,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -557,7 +468,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -582,6 +493,96 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 10
+    },
+    {
+     "name": "UrbanPiper",
+     "slug": "urbanpiper",
+     "description": "UrbanPiper is a restaurant commerce platform whose POS-integration API connects a restaurant's POS/ERP to online ordering aggregators (Swiggy, Zomato, UberEats, DoorDash, Deliveroo, Talabat, Amazon, Careem and more). The REST API covers catalogue/menu management, store and item/option availability, order relay and order status updates, and outbound webhooks, powering the Prime, Hub and Atlas products.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/screenshots/urbanpiper-2026-09-02T165211.png",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.4,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Barogo",
+     "slug": "barogo",
+     "description": "Barogo (바로고) is a South Korean last-mile delivery platform founded in 2014 and headquartered in Gangnam-gu, Seoul. It operates a nationwide two-wheeler dispatch network for food and goods, with rider, merchant and hub-manager apps and a store POS program, and counts McDonald's, Burger King, KFC, Krispy Kreme, Baskin Robbins and Dunkin among its clients. Its developer-facing product is Gorela (고릴라), a delivery-brokerage platform that sits between an \"order agency\" — a POS, marketplace or commerce platform that takes the customer's order — and the delivery agencies that assign riders. The Gorela API covers fare quoting and serviceability, order intake in fixed-fare and flexible-fare modes, order read/amend/cancel, store mapping, prepaid store balances, delivery-agency status and delivery zones, plus twenty callbacks pushed back to the partner as an order fans out into its child deliveries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png",
+     "score": 38.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 71.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 37.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 12
     },
     {
@@ -602,7 +603,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -633,6 +634,7 @@
      "name": "Wolt",
      "slug": "wolt",
      "description": "Wolt is a marketplace and last-mile delivery platform (part of DoorDash) operating across Europe and beyond. Its developer surface exposes two production APIs: the Order / Marketplace API, which delivers consumer orders into a merchant POS or in-store system and drives them through accept, ready, and delivered states with refunds and group-order support; and the Wolt Drive API, which provides on-demand last-mile delivery via shipment promises, delivery creation, courier tracking, and webhooks. Authentication is OAuth 2.0 issuing one-hour bearer JWTs (Wolt Drive uses a Merchant Key bearer token), with HMAC-SHA256 / HS256-JWT signed webhooks for order and delivery lifecycle events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/screenshots/wolt-2026-09-02T170901.png",
      "score": 36.3,
      "band": "thin",
      "band_label": "Thin",
@@ -646,7 +648,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -691,12 +693,12 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -741,7 +743,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -772,6 +774,7 @@
      "name": "Taker",
      "slug": "taker",
      "description": "Taker is a Riyadh, Saudi Arabia-based restaurant technology company (founded 2018, backed by 500 Global) providing an all-in-one online ordering and restaurant-growth platform used by 1,000+ restaurants. Its product suite spans Taker Channels (branded web/mobile ordering), Taker GO (delivery operations), Taker Flow (operations optimization), Taker Grow (marketing automation), and Taker 360 (a unified dashboard across delivery aggregators). The Taker GO delivery-integration API connects restaurants and delivery service providers (DSPs) with bearer-token auth for order creation, tracking, cancellation, and asynchronous status delivery via webhooks, across published sandbox and production environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/taker/refs/heads/main/screenshots/taker-2026-09-02T162435.png",
      "score": 33.7,
      "band": "thin",
      "band_label": "Thin",
@@ -785,7 +788,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -829,7 +832,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -874,7 +877,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -926,7 +929,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.3,
      "agent_band": "agent-aware",
@@ -971,7 +974,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.3,
      "agent_band": "agent-aware",
@@ -1016,7 +1019,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1068,7 +1071,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1113,7 +1116,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1186,7 +1189,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1230,7 +1233,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1261,6 +1264,7 @@
      "name": "Zerocater",
      "slug": "zerocater",
      "description": "Zerocater is a San Francisco-founded corporate catering and workplace food company that builds and manages office food programs for businesses. It acts as an intermediary between employers and a curated network of local restaurants, caterers and chefs, covering daily corporate catering (buffet and individually boxed), chef-led on-site corporate cafeterias with snack and barista programs, and full-service event catering with on-site staffing. Its CaterAi product uses AI to recommend and assemble menus from a team's stated preferences, dietary restrictions and order history, and to book on-site staff and event decor. Zerocater states it serves 500+ companies across 12+ major U.S. metros including the SF Bay Area, New York, Austin, Boston, Los Angeles, Chicago, Washington DC, Seattle, Denver, Dallas, Atlanta, Philadelphia and Phoenix. It runs a customer-facing ordering web application at app.zerocater.com backed by an undocumented Django REST Framework token-authenticated JSON API (v3), whose hypermedia root index is served anonymously, and it publishes a first-party Python client library on PyPI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/screenshots/zerocater-2026-09-02T171641.png",
      "score": 24.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1274,7 +1278,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -1319,7 +1323,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1371,7 +1375,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1416,7 +1420,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -1461,7 +1465,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1499,6 +1503,7 @@
      "name": "Zeew",
      "slug": "zeew",
      "description": "Zeew is a European (Estonia-based) white-label, no-code delivery-platform provider that lets businesses launch on-demand delivery marketplaces and apps in days. Its platform powers food, grocery, pharmacy, retail, and home-services delivery with connected customer, vendor, and driver apps plus an admin dashboard, sold as SaaS subscriptions or purchasable source code under a reseller / white-labeling program. Zeew runs a backend API host (api.zeew.eu) that serves its white-label apps, but as of mid-2026 publishes no public, self-serve API reference, OpenAPI specification, developer portal, or webhook catalog; integration is delivered through the managed platform. Surfaced as a 500 Global portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zeew/refs/heads/main/screenshots/zeew-2026-09-02T171528.png",
      "score": 18.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1512,7 +1517,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1557,7 +1562,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1602,7 +1607,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1654,7 +1659,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1699,7 +1704,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1744,7 +1749,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1789,7 +1794,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1834,7 +1839,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1878,7 +1883,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1923,7 +1928,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1968,7 +1973,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2012,7 +2017,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2056,7 +2061,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2101,7 +2106,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2146,7 +2151,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2191,7 +2196,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -2236,7 +2241,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2281,7 +2286,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2312,6 +2317,7 @@
      "name": "Starship Technologies",
      "slug": "starship",
      "description": "Starship Technologies is an autonomous last-mile delivery company that operates a global fleet of self-driving, sidewalk-going delivery robots. Founded in 2014 by Skype co-founders Ahti Heinla and Janus Friis, the company runs commercial robot delivery on university campuses, in residential neighborhoods, on industrial sites and for grocery and restaurant partners across the United States, the United Kingdom, Estonia, Finland, Germany and Denmark, and has completed more than 10 million autonomous deliveries. Its commercial product, Delivery by Starship, is a delivery-as-a-service offering that partners integrate into their own ordering apps: Starship states that its APIs let a partner create delivery jobs, load robots, obtain status updates and handle delivery cancellations, backed by a developer toolkit, documentation, ready-made components and support. That developer surface is not published to the open web — Starship provides it to partners after a commercial conversation via business@starship.co, so no public specification, reference or portal exists to profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starship/refs/heads/main/screenshots/starship-2026-09-02T160810.png",
      "score": 11.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2325,7 +2331,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2380,7 +2386,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2425,7 +2431,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2470,7 +2476,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2515,7 +2521,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2560,7 +2566,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2591,6 +2597,7 @@
      "name": "Slice",
      "slug": "slice-ordering",
      "description": "Slice is a done-for-you online ordering, marketing, payments, and point-of-sale platform for independent pizzerias, serving more than 19,000 shops across all 50 states and 3,000+ cities. Consumers order through slicelife.com and the Slice apps; shop owners run their business through slice.com, the Owner's Portal (owners.slicelife.com), and the Slice Register POS. Slice does publish a developer portal titled \"Slice Public API\" at developer.slicelife.com (built on Stoplight) and a separate merchant/banking API portal at developer.slicebank.com, but neither is an open, self-serve API - there is no public API-key signup and the endpoint reference is not openly rendered or documented for third parties. API access is partner-gated and arranged through Slice's partnerships team (partner@slicelife.com). The APIs listed below are logical groupings modeled from the platform's known merchant surfaces (shops, menus, orders, customers); no public OpenAPI definition is available, so no specification is included.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/slice-ordering/refs/heads/main/screenshots/slice-ordering-2026-09-02T155840.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2604,7 +2611,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2663,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2687,6 +2694,7 @@
      "name": "Swish",
      "slug": "swish",
      "description": "Swish (operated by Munchmart Technologies Private Limited) is a Bengaluru-based quick-commerce food delivery startup founded in 2024 that promises meals at your door in ten minutes. It runs a full-stack, vertically integrated model — owning its neighbourhood cloud kitchens (\"delight centres\"), sourcing and supply chain, proprietary ordering/routing technology, and its own last-mile delivery fleet — operating dense hyperlocal clusters of roughly 1.5–2 km. The company focuses on frequent, lower-ticket occasions such as breakfast, snacks, and late-night meals, and reports around 20,000 orders a day across Bengaluru micro-markets. Swish raised a $38M Series B led by Hara Global and Bain Capital Ventures with participation from Accel, valuing it at $139M post-money and bringing total funding to about $54M. Swish is a consumer mobile-app business and does not publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swish/refs/heads/main/screenshots/swish-2026-09-02T161412.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2700,7 +2708,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2745,7 +2753,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2789,7 +2797,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2834,7 +2842,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2879,7 +2887,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2924,7 +2932,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2968,7 +2976,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -3013,7 +3021,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3058,7 +3066,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3103,7 +3111,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3148,7 +3156,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3193,7 +3201,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3238,7 +3246,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3283,7 +3291,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3328,7 +3336,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3359,6 +3367,7 @@
      "name": "Sun Basket",
      "slug": "sun-basket",
      "description": "Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/screenshots/sun-basket-2026-09-02T161127.png",
      "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3372,7 +3381,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3417,7 +3426,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3462,7 +3471,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3507,7 +3516,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3552,7 +3561,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3597,7 +3606,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3642,7 +3651,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3687,7 +3696,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3738,7 +3747,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3783,7 +3792,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3828,7 +3837,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3873,7 +3882,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3918,7 +3927,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3962,7 +3971,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4007,7 +4016,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4052,7 +4061,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4097,7 +4106,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4141,7 +4150,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4186,7 +4195,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4230,7 +4239,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4274,7 +4283,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4319,7 +4328,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4364,7 +4373,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4409,7 +4418,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4454,7 +4463,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4499,7 +4508,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4543,7 +4552,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4587,7 +4596,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4631,7 +4640,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4662,6 +4671,7 @@
      "name": "Sweetgreen",
      "slug": "sweetgreen",
      "description": "Sweetgreen is a fast-casual restaurant company (NYSE: SG) building healthy, plant-forward food through a network of company-owned locations and its digital ordering platform. It reaches customers primarily via its consumer website and mobile app for pickup, delivery, and its Sweetgreen Rewards loyalty program, and operates automated \"Infinite Kitchen\" locations. As of this enrichment pass, Sweetgreen publishes no public developer API, developer portal, or machine-readable API specifications; this profile captures its public web presence and probed domain-security posture only. Backed by D1 Capital and True Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sweetgreen/refs/heads/main/screenshots/sweetgreen-2026-09-02T161343.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4675,7 +4685,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4706,6 +4716,7 @@
      "name": "TastyUrban",
      "slug": "tastyurban",
      "description": "TastyUrban is a Berlin-based virtual restaurant franchise and digital-first food-brand licensing company founded in 2022 by Felix Chrobog, Marc Hansell, and Gerry Pidgeon (alumni of Gorillas, Tier, and Deliveroo). It pursues an asset-light model in which existing restaurants and retail partners license and operate TastyUrban's digital food brands, using otherwise idle kitchen capacity to add revenue without major investment or operational complexity. The company is backed by Earlybird and raised a EUR 1.5M seed round in 2023 and a EUR 6.5M Series A in 2025 (led by IBB Ventures). TastyUrban operates a consumer/partner web presence at tastyurban.com but publishes no public API, developer portal, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastyurban/refs/heads/main/screenshots/tastyurban-2026-09-02T162607.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4719,7 +4730,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4764,7 +4775,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4816,7 +4827,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4854,6 +4865,7 @@
      "name": "Swoop",
      "slug": "swoop",
      "description": "Swoop (formerly Thumo) is an African super-app building toward a single consumer platform for everyday commerce, starting with same-day food delivery and online shopping in Lagos, Nigeria (Yaba, Surulere, Gbagada and surrounding areas) and Eswatini, where it launched in 2025 and became the country's largest ecommerce platform. The app offers real-time order tracking, transparent upfront pricing, in-app support, and payments via card, bank transfer and OPay, with plans to add a payments app and further services on the road to a pan-African super-app. Founded by Thiel Fellow Aubrey Niederhoffer and Edwin Ruiz, Swoop raised a $7.3M seed round in 2026 with participation from Version One Ventures, Long Journey, Variant, Soma Capital and Dune. Swoop is a consumer-facing mobile and web platform; it does not currently publish a public developer API, OpenAPI specification, SDKs, or developer documentation. This profile was surfaced as a Version One Ventures portfolio company and enriched as an identity-only lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swoop/refs/heads/main/screenshots/swoop-2026-09-02T161422.png",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4867,7 +4879,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

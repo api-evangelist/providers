@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -59,70 +59,114 @@ apis:
 - description: 'Climate Risk Analytics (CRA) delivers parcel- and structure-level chronic climate risk indices and acute peril scores across the continental United States and the District of Columbia. Chronic Perils '
   name: Climate Risk Analytics
   slug: climate-risk-analytics
-- description: CRM contact records (name, address, phone, email).
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: CRM contact records (name, address, phone, email).
   name: CoreLogic (Cotality) Contacts API
   slug: corelogic-contacts-api
-- description: MLS-specific extensions to the RESO Property resource.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: MLS-specific extensions to the RESO Property resource.
   name: CoreLogic (Cotality) CustomProperty API
   slug: corelogic-customproperty-api
-- description: Aggregated dashboard data for the agent home screen.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Aggregated dashboard data for the agent home screen.
   name: CoreLogic (Cotality) DashboardAPI API
   slug: corelogic-dashboardapi-api
-- description: Service-level metadata and available resources.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Service-level metadata and available resources.
   name: CoreLogic (Cotality) DataSystem API
   slug: corelogic-datasystem-api
-- description: Outbound messages sent to contacts.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Outbound messages sent to contacts.
   name: CoreLogic (Cotality) EmailHistory API
   slug: corelogic-emailhistory-api
-- description: Metadata describing fields available on each resource.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Metadata describing fields available on each resource.
   name: CoreLogic (Cotality) Field API
   slug: corelogic-field-api
-- description: Transactional change history for tracked resources.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Transactional change history for tracked resources.
   name: CoreLogic (Cotality) HistoryTransactional API
   slug: corelogic-historytransactional-api
-- description: Property lists / carts attached to contacts.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Property lists / carts attached to contacts.
   name: CoreLogic (Cotality) Lists API
   slug: corelogic-lists-api
-- description: Enumerated lookup values used across resources.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Enumerated lookup values used across resources.
   name: CoreLogic (Cotality) Lookup API
   slug: corelogic-lookup-api
-- description: Listing media (photos, videos, documents).
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Listing media (photos, videos, documents).
   name: CoreLogic (Cotality) Media API
   slug: corelogic-media-api
-- description: MLS member (agent) records.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: MLS member (agent) records.
   name: CoreLogic (Cotality) Member API
   slug: corelogic-member-api
-- description: Resource model definitions.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Resource model definitions.
   name: CoreLogic (Cotality) Model API
   slug: corelogic-model-api
-- description: MLS office (brokerage) records.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: MLS office (brokerage) records.
   name: CoreLogic (Cotality) Office API
   slug: corelogic-office-api
-- description: Scheduled open-house events.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Scheduled open-house events.
   name: CoreLogic (Cotality) OpenHouse API
   slug: corelogic-openhouse-api
-- description: Contact-scoped listing notes, views, and preferences.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Contact-scoped listing notes, views, and preferences.
   name: CoreLogic (Cotality) PortalContents API
   slug: corelogic-portalcontents-api
-- description: MLS property listings and detail records.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: MLS property listings and detail records.
   name: CoreLogic (Cotality) Property API
   slug: corelogic-property-api
-- description: Per-room detail for listed properties.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Per-room detail for listed properties.
   name: CoreLogic (Cotality) PropertyRooms API
   slug: corelogic-propertyrooms-api
-- description: Per-unit detail for multi-unit properties.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Per-unit detail for multi-unit properties.
   name: CoreLogic (Cotality) PropertyUnitTypes API
   slug: corelogic-propertyunittypes-api
-- description: Saved listing search criteria with auto-email schedules.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Saved listing search criteria with auto-email schedules.
   name: CoreLogic (Cotality) SavedSearches API
   slug: corelogic-savedsearches-api
-- description: Membership relationships between teams and members.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Membership relationships between teams and members.
   name: CoreLogic (Cotality) TeamMembers API
   slug: corelogic-teammembers-api
-- description: MLS team records.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: MLS team records.
   name: CoreLogic (Cotality) Teams API
   slug: corelogic-teams-api
-- description: Per-user preference key/value store.
+- baseURL: https://api.cotality.com/trestle/odata
+  baseurl_source: declared
+  description: Per-user preference key/value store.
   name: CoreLogic (Cotality) UserRegistry API
   slug: corelogic-userregistry-api
 artifact_total: 75
@@ -475,7 +519,7 @@ score:
     regime_id: insurance
     score: 57.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/screenshots/corelogic-2026-06-20T175025.png
 security:

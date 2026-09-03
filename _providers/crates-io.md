@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations · 5 acting
 api_count: 2
 apis:
-- description: Registry configuration document
+- baseURL: https://index.crates.io
+  baseurl_source: spec
+  description: Registry configuration document
   name: crates.io Config API
   slug: crates-io-config-api
-- description: Search and manage Rust crates
+- baseURL: https://crates.io
+  baseurl_source: spec
+  description: Search and manage Rust crates
   name: crates.io Crates API
   slug: crates-io-crates-api
-- description: Per-crate index metadata files served over HTTP
+- baseURL: https://index.crates.io
+  baseurl_source: spec
+  description: Per-crate index metadata files served over HTTP
   name: crates.io Index API
   slug: crates-io-index-api
-- description: List, add, and remove crate owners
+- baseURL: https://crates.io
+  baseurl_source: spec
+  description: List, add, and remove crate owners
   name: crates.io Owners API
   slug: crates-io-owners-api
-- description: Yank and unyank crate versions
+- baseURL: https://crates.io
+  baseurl_source: spec
+  description: Yank and unyank crate versions
   name: crates.io Versions API
   slug: crates-io-versions-api
 artifact_total: 41
@@ -342,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/screenshots/crates-io-2026-06-20T175213.png
 security:

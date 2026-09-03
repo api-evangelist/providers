@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 32 operations · 9 acting
 api_count: 1
 apis:
-- description: The Coupons API from TicketSpice — 4 operation(s) for coupons.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Coupons API from TicketSpice — 4 operation(s) for coupons.
   name: TicketSpice Coupons API
   slug: ticketspice-coupons-api
-- description: The Customers API from TicketSpice — 2 operation(s) for customers.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Customers API from TicketSpice — 2 operation(s) for customers.
   name: TicketSpice Customers API
   slug: ticketspice-customers-api
-- description: The Forms API from TicketSpice — 3 operation(s) for forms.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Forms API from TicketSpice — 3 operation(s) for forms.
   name: TicketSpice Forms API
   slug: ticketspice-forms-api
-- description: The Health API from TicketSpice — 1 operation(s) for health.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Health API from TicketSpice — 1 operation(s) for health.
   name: TicketSpice Health API
   slug: ticketspice-health-api
-- description: The Orders API from TicketSpice — 2 operation(s) for orders.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Orders API from TicketSpice — 2 operation(s) for orders.
   name: TicketSpice Orders API
   slug: ticketspice-orders-api
-- description: The Registrants API from TicketSpice — 4 operation(s) for registrants.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Registrants API from TicketSpice — 4 operation(s) for registrants.
   name: TicketSpice Registrants API
   slug: ticketspice-registrants-api
-- description: The Subscriptions API from TicketSpice — 2 operation(s) for subscriptions.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Subscriptions API from TicketSpice — 2 operation(s) for subscriptions.
   name: TicketSpice Subscriptions API
   slug: ticketspice-subscriptions-api
-- description: The Tickets API from TicketSpice — 2 operation(s) for tickets.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Tickets API from TicketSpice — 2 operation(s) for tickets.
   name: TicketSpice Tickets API
   slug: ticketspice-tickets-api
-- description: The Transactions API from TicketSpice — 2 operation(s) for transactions.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Transactions API from TicketSpice — 2 operation(s) for transactions.
   name: TicketSpice Transactions API
   slug: ticketspice-transactions-api
-- description: The Webhooks API from TicketSpice — 5 operation(s) for webhooks.
+- baseURL: https://api.webconnex.com/v2/public
+  baseurl_source: declared
+  description: The Webhooks API from TicketSpice — 5 operation(s) for webhooks.
   name: TicketSpice Webhooks API
   slug: ticketspice-webhooks-api
 artifact_total: 28
@@ -182,7 +202,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -211,8 +231,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ticketspice/refs/heads/main/screenshots/ticketspice-2026-09-02T163714.png
 security:
 - kind: authentication
   name: Ticketspice Authentication

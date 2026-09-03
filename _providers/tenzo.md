@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Public REST API for accessing restaurant analytics data — locations, areas, sales, and forecast data — secured with OAuth 2.0 Bearer tokens. Partners integrate via the Authorization Code flow to pull '
@@ -143,7 +143,7 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -162,8 +162,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/screenshots/tenzo-2026-09-02T163116.png
 security:
 - kind: authentication
   name: Tenzo Authentication

@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
+- baseURL: https://gateway.tollbit.com
+  baseurl_source: declared
+  description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
   name: Tollbit Auth Tokens API
   slug: tollbit-auth-tokens-api
-- description: The Dev API from Tollbit — 1 operation(s) for dev.
+- baseURL: https://gateway.tollbit.com
+  baseurl_source: declared
+  description: The Dev API from Tollbit — 1 operation(s) for dev.
   name: Tollbit Dev API
   slug: tollbit-dev-api
-- description: The Reporting API from Tollbit — 1 operation(s) for reporting.
+- baseURL: https://gateway.tollbit.com
+  baseurl_source: declared
+  description: The Reporting API from Tollbit — 1 operation(s) for reporting.
   name: Tollbit Reporting API
   slug: tollbit-reporting-api
-- description: The Search API from Tollbit — 1 operation(s) for search.
+- baseURL: https://gateway.tollbit.com
+  baseurl_source: declared
+  description: The Search API from Tollbit — 1 operation(s) for search.
   name: Tollbit Search API
   slug: tollbit-search-api
-- description: The Tollbit Content API from Tollbit — 4 operation(s) for tollbit content.
+- baseURL: https://gateway.tollbit.com
+  baseurl_source: declared
+  description: The Tollbit Content API from Tollbit — 4 operation(s) for tollbit content.
   name: Tollbit Tollbit Content API
   slug: tollbit-tollbit-content-api
-- description: The Tollbit Subdomain API from Tollbit — 1 operation(s) for tollbit subdomain.
+- baseURL: https://gateway.tollbit.com
+  baseurl_source: declared
+  description: The Tollbit Subdomain API from Tollbit — 1 operation(s) for tollbit subdomain.
   name: Tollbit Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
 artifact_total: 22
@@ -230,7 +242,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -240,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 42.6
+  previous_composite: 42.4
   provenance:
     conformance: derived
     contracts:
@@ -251,7 +263,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/screenshots/tollbit-2026-08-17T082402.png
 security:

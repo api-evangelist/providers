@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -36,19 +47,29 @@ apis:
 - description: GumGum's real-time bidding endpoint for header bidding, integrated through the open-source Prebid.js gumgumBidAdapter (bidder code gumgum, alias gg, IAB GVL ID 61). Supports banner, native and video m
   name: GumGum Prebid Header Bidding Endpoint
   slug: gumgum-prebid-header-bidding-endpoint
-- description: Contextual classification, keyword and threat analysis of a single image.
+- baseURL: https://verity-api.gumgum.com
+  baseurl_source: declared
+  description: Contextual classification, keyword and threat analysis of a single image.
   name: GumGum Image API
   slug: gumgum-image-api
-- description: Frame-level (intravideo) classification of a video asset. Version 2 of the video classification surface.
+- baseURL: https://verity-api.gumgum.com
+  baseurl_source: declared
+  description: Frame-level (intravideo) classification of a video asset. Version 2 of the video classification surface.
   name: GumGum Intravideo API
   slug: gumgum-intravideo-api
-- description: Contextual classification and brand-safety analysis of a web page URL.
+- baseURL: https://verity-api.gumgum.com
+  baseurl_source: declared
+  description: Contextual classification and brand-safety analysis of a web page URL.
   name: GumGum Page API
   slug: gumgum-page-api
-- description: Contextual classification, keyword and brand-safety analysis of a raw block of text.
+- baseURL: https://verity-api.gumgum.com
+  baseurl_source: declared
+  description: Contextual classification, keyword and brand-safety analysis of a raw block of text.
   name: GumGum Text API
   slug: gumgum-text-api
-- description: Contextual classification and brand-safety analysis of a video asset, including its audio track.
+- baseURL: https://verity-api.gumgum.com
+  baseurl_source: declared
+  description: Contextual classification and brand-safety analysis of a video asset, including its audio track.
   name: GumGum Video API
   slug: gumgum-video-api
 arazzos:
@@ -230,7 +251,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -243,7 +264,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 51.3
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +276,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumgum/refs/heads/main/screenshots/gumgum-2026-08-07T165907.png
 security:
 - kind: authentication

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -39,61 +50,99 @@ apis:
 - description: A fully managed, per-tenant Model Context Protocol server that exposes SandboxAQ's proprietary scientific AI models as callable tools inside Claude and other MCP clients. It carries the aqcat tool (de
   name: SandboxAQ MCP Server
   slug: mcp-server
-- description: The aispm-agents API from SandboxAQ — 3 operation(s) for aispm-agents.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-agents API from SandboxAQ — 3 operation(s) for aispm-agents.
   name: SandboxAQ Aispm Agents API
   slug: sandboxaq-aispm-agents-api
-- description: The aispm-dashboard API from SandboxAQ — 1 operation(s) for aispm-dashboard.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-dashboard API from SandboxAQ — 1 operation(s) for aispm-dashboard.
   name: SandboxAQ Aispm Dashboard API
   slug: sandboxaq-aispm-dashboard-api
-- description: The aispm-guardrails API from SandboxAQ — 3 operation(s) for aispm-guardrails.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-guardrails API from SandboxAQ — 3 operation(s) for aispm-guardrails.
   name: SandboxAQ Aispm Guardrails API
   slug: sandboxaq-aispm-guardrails-api
-- description: The aispm-llm-interactions API from SandboxAQ — 2 operation(s) for aispm-llm-interactions.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-llm-interactions API from SandboxAQ — 2 operation(s) for aispm-llm-interactions.
   name: SandboxAQ Aispm Llm Interactions API
   slug: sandboxaq-aispm-llm-interactions-api
-- description: The aispm-llm-sessions API from SandboxAQ — 1 operation(s) for aispm-llm-sessions.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-llm-sessions API from SandboxAQ — 1 operation(s) for aispm-llm-sessions.
   name: SandboxAQ Aispm Llm Sessions API
   slug: sandboxaq-aispm-llm-sessions-api
-- description: The aispm-mcp-servers API from SandboxAQ — 3 operation(s) for aispm-mcp-servers.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-mcp-servers API from SandboxAQ — 3 operation(s) for aispm-mcp-servers.
   name: SandboxAQ Aispm MCP Servers API
   slug: sandboxaq-aispm-mcp-servers-api
-- description: The aispm-models API from SandboxAQ — 3 operation(s) for aispm-models.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-models API from SandboxAQ — 3 operation(s) for aispm-models.
   name: SandboxAQ Aispm Models API
   slug: sandboxaq-aispm-models-api
-- description: The aispm-tools API from SandboxAQ — 3 operation(s) for aispm-tools.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The aispm-tools API from SandboxAQ — 3 operation(s) for aispm-tools.
   name: SandboxAQ Aispm Tools API
   slug: sandboxaq-aispm-tools-api
-- description: The assets API from SandboxAQ — 3 operation(s) for assets.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The assets API from SandboxAQ — 3 operation(s) for assets.
   name: SandboxAQ Assets API
   slug: sandboxaq-assets-api
-- description: The client-storage API from SandboxAQ — 4 operation(s) for client-storage.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The client-storage API from SandboxAQ — 4 operation(s) for client-storage.
   name: SandboxAQ Client Storage API
   slug: sandboxaq-client-storage-api
-- description: The fine-issues API from SandboxAQ — 1 operation(s) for fine-issues.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The fine-issues API from SandboxAQ — 1 operation(s) for fine-issues.
   name: SandboxAQ Fine Issues API
   slug: sandboxaq-fine-issues-api
-- description: The inventory API from SandboxAQ — 1 operation(s) for inventory.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The inventory API from SandboxAQ — 1 operation(s) for inventory.
   name: SandboxAQ Inventory API
   slug: sandboxaq-inventory-api
-- description: The issues aispm histograms API from SandboxAQ — 1 operation(s) for issues aispm histograms.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The issues aispm histograms API from SandboxAQ — 1 operation(s) for issues aispm histograms.
   name: SandboxAQ issues aispm histograms API
   slug: sandboxaq-issues-aispm-histograms-api
-- description: The issues API from SandboxAQ — 8 operation(s) for issues.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The issues API from SandboxAQ — 8 operation(s) for issues.
   name: SandboxAQ Issues API
   slug: sandboxaq-issues-api
-- description: The locations API from SandboxAQ — 2 operation(s) for locations.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The locations API from SandboxAQ — 2 operation(s) for locations.
   name: SandboxAQ Locations API
   slug: sandboxaq-locations-api
-- description: The rules API from SandboxAQ — 5 operation(s) for rules.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The rules API from SandboxAQ — 5 operation(s) for rules.
   name: SandboxAQ Rules API
   slug: sandboxaq-rules-api
-- description: The scans API from SandboxAQ — 1 operation(s) for scans.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The scans API from SandboxAQ — 1 operation(s) for scans.
   name: SandboxAQ Scans API
   slug: sandboxaq-scans-api
-- description: The scans assets API from SandboxAQ — 1 operation(s) for scans assets.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The scans assets API from SandboxAQ — 1 operation(s) for scans assets.
   name: SandboxAQ scans assets API
   slug: sandboxaq-scans-assets-api
-- description: The viewExports API from SandboxAQ — 1 operation(s) for viewexports.
+- baseURL: https://your-instance.flintai.dev/api/v1
+  baseurl_source: declared
+  description: The viewExports API from SandboxAQ — 1 operation(s) for viewexports.
   name: SandboxAQ View Exports API
   slug: sandboxaq-viewexports-api
 artifact_total: 45
@@ -350,7 +399,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandboxaq/refs/heads/main/screenshots/sandboxaq-2026-08-17T081721.png
 security:

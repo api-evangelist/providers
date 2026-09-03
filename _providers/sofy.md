@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Upload and manage application builds under test.
+- baseURL: https://public.sofy.ai
+  baseurl_source: declared
+  description: Upload and manage application builds under test.
   name: SOFY Applications API
   slug: sofy-applications-api
-- description: Trigger, monitor, and abort scheduled test runs.
+- baseURL: https://public.sofy.ai
+  baseurl_source: declared
+  description: Trigger, monitor, and abort scheduled test runs.
   name: SOFY Scheduled Runs API
   slug: sofy-scheduled-runs-api
 artifact_total: 9
@@ -190,7 +194,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -200,7 +204,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 45.8
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -211,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofy/refs/heads/main/screenshots/sofy-2026-08-17T081948.png
 security:

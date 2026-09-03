@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 42 operations · 23 acting
 api_count: 1
 apis:
-- description: Wallet authentication flows.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Wallet authentication flows.
   name: thirdweb Authentication API
   slug: thirdweb-authentication-api
-- description: Smart contract read, write, and deployment.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Smart contract read, write, and deployment.
   name: thirdweb Contracts API
   slug: thirdweb-contracts-api
-- description: Backend transaction execution with server wallets.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Backend transaction execution with server wallets.
   name: thirdweb Engine API
   slug: thirdweb-engine-api
-- description: Indexed on-chain events, transactions, tokens, and NFTs.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Indexed on-chain events, transactions, tokens, and NFTs.
   name: thirdweb Insight API
   slug: thirdweb-insight-api
-- description: AI blockchain interface.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: AI blockchain interface.
   name: thirdweb Nebula API
   slug: thirdweb-nebula-api
-- description: Bridge, swap, convert, onramp, and x402 payments.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Bridge, swap, convert, onramp, and x402 payments.
   name: thirdweb Payments API
   slug: thirdweb-payments-api
-- description: Token creation, listing, and ownership.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Token creation, listing, and ownership.
   name: thirdweb Tokens API
   slug: thirdweb-tokens-api
-- description: Transaction submission and status.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: Transaction submission and status.
   name: thirdweb Transactions API
   slug: thirdweb-transactions-api
-- description: User and server wallet management, signing, and transfers.
+- baseURL: https://api.thirdweb.com
+  baseurl_source: declared
+  description: User and server wallet management, signing, and transfers.
   name: thirdweb Wallets API
   slug: thirdweb-wallets-api
 artifact_total: 26
@@ -209,7 +227,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/screenshots/thirdweb-2026-06-20T195307.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Auth endpoints
+- baseURL: https://api.minubo.com
+  baseurl_source: declared
+  description: Auth endpoints
   name: Minubo Auth API
   slug: minubo-auth-api
-- description: Data endpoints
+- baseURL: https://api.minubo.com
+  baseurl_source: declared
+  description: Data endpoints
   name: Minubo Data API
   slug: minubo-data-api
-- description: ETL endpoints
+- baseURL: https://api.minubo.com
+  baseurl_source: declared
+  description: ETL endpoints
   name: Minubo ETL API
   slug: minubo-etl-api
 arazzos:
@@ -237,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

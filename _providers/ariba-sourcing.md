@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 3
 apis:
-- description: External approval task retrieval and action operations
+- baseURL: https://openapi.ariba.com/api/sourcing-approval/v2/prod
+  baseurl_source: declared
+  description: External approval task retrieval and action operations
   name: Ariba Sourcing Approval Tasks API
   slug: ariba-sourcing-approval-tasks-api
-- description: Sourcing document and workspace retrieval
+- baseURL: https://openapi.ariba.com/api/sourcing-approval/v2/prod
+  baseurl_source: declared
+  description: Sourcing document and workspace retrieval
   name: Ariba Sourcing Documents API
   slug: ariba-sourcing-documents-api
-- description: Approval group membership retrieval
+- baseURL: https://openapi.ariba.com/api/sourcing-approval/v2/prod
+  baseurl_source: declared
+  description: Approval group membership retrieval
   name: Ariba Sourcing Groups API
   slug: ariba-sourcing-groups-api
 artifact_total: 71
@@ -365,7 +371,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/screenshots/ariba-sourcing-2026-06-20T172427.png
 security:

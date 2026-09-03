@@ -35,28 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Ack Dispute API can be used to pull all evaluation related data which are sent for acknowledgment or dispute. Please note - <ol> <li>Allow 24 hrs to pass before pulling Ack Dispute Data. ie., For Eval
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: Ack Dispute API can be used to pull all evaluation related data which are sent for acknowledgment or dispute. Please note - <ol> <li>Allow 24 hrs to pass before pulling Ack Dispute Data. ie., For Eval
   name: Observe.AI Ack Dispute Flow API
   slug: observeai-ack-dispute-flow-api
-- description: 'OAuth 2.0, which stands for “Open Authorization”, is a standard design to allow a website or application to access resources hosted by other web apps on behalf of a user <b>Note</b>: If you have been '
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: 'OAuth 2.0, which stands for “Open Authorization”, is a standard design to allow a website or application to access resources hosted by other web apps on behalf of a user <b>Note</b>: If you have been '
   name: Observe.AI Authentication API
   slug: observeai-authentication-api
-- description: Coachings API can be used to pull all the Coaching sessions done on Observe AI platform. Please note - <ol> <li>Allow 24 hrs to pass before pulling Coaching sessions. ie., For Coaching sessions comple
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: Coachings API can be used to pull all the Coaching sessions done on Observe AI platform. Please note - <ol> <li>Allow 24 hrs to pass before pulling Coaching sessions. ie., For Coaching sessions comple
   name: Observe.AI Coachings API
   slug: observeai-coachings-api
-- description: DSR (Data Subject Request) deletion APIs allow customers to submit metadata-based deletion requests and check the processing status of those requests. <h3>Authentication</h3> OAuth 2.0 Bearer Token is
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: DSR (Data Subject Request) deletion APIs allow customers to submit metadata-based deletion requests and check the processing status of those requests. <h3>Authentication</h3> OAuth 2.0 Bearer Token is
   name: Observe.AI DSR API
   slug: observeai-dsr-api
-- description: Evaluations API can be used to pull all the Evaluations(Manual and Auto QA) done on Observe AI platform. Please note - <ol> <li>Allow 24 hrs to pass before pulling Evaluations. ie., For Evaluations co
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: Evaluations API can be used to pull all the Evaluations(Manual and Auto QA) done on Observe AI platform. Please note - <ol> <li>Allow 24 hrs to pass before pulling Evaluations. ie., For Evaluations co
   name: Observe.AI Evaluations API
   slug: observeai-evaluations-api
-- description: Interactions API is an omnichannel API can be used to obtain all the data related to the interactions like Moments, Transcripts and metadata related to Interactions(including Voice calls and Web chat)
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: Interactions API is an omnichannel API can be used to obtain all the data related to the interactions like Moments, Transcripts and metadata related to Interactions(including Voice calls and Web chat)
   name: Observe.AI Interactions API
   slug: observeai-interactions-api
-- description: Summarization AI API can be used to pull the data related to summaries for a particular interaction including calls and chats. Please note - <ol> <li> Summaries can only be extracted if they are avail
+- baseURL: https://kong.observe.ai/
+  baseurl_source: declared
+  description: Summarization AI API can be used to pull the data related to summaries for a particular interaction including calls and chats. Please note - <ol> <li> Summaries can only be extracted if they are avail
   name: Observe.AI Summary API
   slug: observeai-summary-api
 artifact_total: 29
@@ -289,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
 security:

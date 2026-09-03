@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 29 operations · 7 acting
 api_count: 1
 apis:
-- description: Booking (trip) records for downstream reporting. MODELED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: Booking (trip) records for downstream reporting. MODELED.
   name: Navan Bookings API
   slug: navan-bookings-api
-- description: Company custom fields used for cost-center / GL coding. CONFIRMED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: Company custom fields used for cost-center / GL coding. CONFIRMED.
   name: Navan Custom Fields API
   slug: navan-custom-fields-api
-- description: Fees, credit/debit adjustments, daily rebates, and disputes. CONFIRMED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: Fees, credit/debit adjustments, daily rebates, and disputes. CONFIRMED.
   name: Navan Fees and Adjustments API
   slug: navan-fees-and-adjustments-api
-- description: Receipt URLs and downloads for expense transactions. CONFIRMED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: Receipt URLs and downloads for expense transactions. CONFIRMED.
   name: Navan Receipts API
   slug: navan-receipts-api
-- description: Expense transactions across Navan card, Connect, manual, and repayment types. CONFIRMED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: Expense transactions across Navan card, Connect, manual, and repayment types. CONFIRMED.
   name: Navan Transactions API
   slug: navan-transactions-api
-- description: User provisioning and lifecycle under travel/v1. CONFIRMED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: User provisioning and lifecycle under travel/v1. CONFIRMED.
   name: Navan Users API
   slug: navan-users-api
-- description: Webhook subscription management for change notifications. MODELED.
+- baseURL: https://api.navan.com/v1/expense
+  baseurl_source: declared
+  description: Webhook subscription management for change notifications. MODELED.
   name: Navan Webhooks API
   slug: navan-webhooks-api
 artifact_total: 24
@@ -210,7 +224,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/screenshots/navan-2026-08-07T184736.png
 security:

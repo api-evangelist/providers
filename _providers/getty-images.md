@@ -33,163 +33,267 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Affiliates API from Getty Images — 2 operation(s) for affiliates.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Affiliates API from Getty Images — 2 operation(s) for affiliates.
   name: Getty Images Affiliates API
   slug: getty-images-affiliates-api
-- description: The Ai API from Getty Images — 17 operation(s) for ai.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Ai API from Getty Images — 17 operation(s) for ai.
   name: Getty Images Ai API
   slug: getty-images-ai-api
-- description: The Ai Generator API from Getty Images — 2 operation(s) for ai generator.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Ai Generator API from Getty Images — 2 operation(s) for ai generator.
   name: Getty Images Ai Generator API
   slug: getty-images-ai-generator-api
-- description: The Artists API from Getty Images — 2 operation(s) for artists.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Artists API from Getty Images — 2 operation(s) for artists.
   name: Getty Images Artists API
   slug: getty-images-artists-api
-- description: The Assets API from Getty Images — 8 operation(s) for assets.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Assets API from Getty Images — 8 operation(s) for assets.
   name: Getty Images Assets API
   slug: getty-images-assets-api
-- description: The Background API from Getty Images — 2 operation(s) for background.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Background API from Getty Images — 2 operation(s) for background.
   name: Getty Images Background API
   slug: getty-images-background-api
-- description: The Batches API from Getty Images — 1 operation(s) for batches.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Batches API from Getty Images — 1 operation(s) for batches.
   name: Getty Images Batches API
   slug: getty-images-batches-api
-- description: The Boards API from Getty Images — 6 operation(s) for boards.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Boards API from Getty Images — 6 operation(s) for boards.
   name: Getty Images Boards API
   slug: getty-images-boards-api
-- description: The Change API from Getty Images — 2 operation(s) for change.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Change API from Getty Images — 2 operation(s) for change.
   name: Getty Images Change API
   slug: getty-images-change-api
-- description: The Changes API from Getty Images — 3 operation(s) for changes.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Changes API from Getty Images — 3 operation(s) for changes.
   name: Getty Images Changes API
   slug: getty-images-changes-api
-- description: The Channels API from Getty Images — 1 operation(s) for channels.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Channels API from Getty Images — 1 operation(s) for channels.
   name: Getty Images Channels API
   slug: getty-images-channels-api
-- description: The Collections API from Getty Images — 1 operation(s) for collections.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Collections API from Getty Images — 1 operation(s) for collections.
   name: Getty Images Collections API
   slug: getty-images-collections-api
-- description: The Color API from Getty Images — 1 operation(s) for color.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Color API from Getty Images — 1 operation(s) for color.
   name: Getty Images Color API
   slug: getty-images-color-api
-- description: The Comments API from Getty Images — 2 operation(s) for comments.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Comments API from Getty Images — 2 operation(s) for comments.
   name: Getty Images Comments API
   slug: getty-images-comments-api
-- description: The Compositions API from Getty Images — 1 operation(s) for compositions.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Compositions API from Getty Images — 1 operation(s) for compositions.
   name: Getty Images Compositions API
   slug: getty-images-compositions-api
-- description: The Countries API from Getty Images — 1 operation(s) for countries.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Countries API from Getty Images — 1 operation(s) for countries.
   name: Getty Images Countries API
   slug: getty-images-countries-api
-- description: The Creative API from Getty Images — 4 operation(s) for creative.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Creative API from Getty Images — 4 operation(s) for creative.
   name: Getty Images Creative API
   slug: getty-images-creative-api
-- description: The Current API from Getty Images — 1 operation(s) for current.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Current API from Getty Images — 1 operation(s) for current.
   name: Getty Images Current API
   slug: getty-images-current-api
-- description: The Customers API from Getty Images — 1 operation(s) for customers.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Customers API from Getty Images — 1 operation(s) for customers.
   name: Getty Images Customers API
   slug: getty-images-customers-api
-- description: The Downloads API from Getty Images — 5 operation(s) for downloads.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Downloads API from Getty Images — 5 operation(s) for downloads.
   name: Getty Images Downloads API
   slug: getty-images-downloads-api
-- description: The Editorial API from Getty Images — 2 operation(s) for editorial.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Editorial API from Getty Images — 2 operation(s) for editorial.
   name: Getty Images Editorial API
   slug: getty-images-editorial-api
-- description: The Events API from Getty Images — 4 operation(s) for events.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Events API from Getty Images — 4 operation(s) for events.
   name: Getty Images Events API
   slug: getty-images-events-api
-- description: The Extend API from Getty Images — 1 operation(s) for extend.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Extend API from Getty Images — 1 operation(s) for extend.
   name: Getty Images Extend API
   slug: getty-images-extend-api
-- description: The Files API from Getty Images — 3 operation(s) for files.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Files API from Getty Images — 3 operation(s) for files.
   name: Getty Images Files API
   slug: getty-images-files-api
-- description: The Generation API from Getty Images — 6 operation(s) for generation.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Generation API from Getty Images — 6 operation(s) for generation.
   name: Getty Images Generation API
   slug: getty-images-generation-api
-- description: The Generations API from Getty Images — 12 operation(s) for generations.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Generations API from Getty Images — 12 operation(s) for generations.
   name: Getty Images Generations API
   slug: getty-images-generations-api
-- description: The History API from Getty Images — 2 operation(s) for history.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The History API from Getty Images — 2 operation(s) for history.
   name: Getty Images History API
   slug: getty-images-history-api
-- description: The Image API from Getty Images — 15 operation(s) for image.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Image API from Getty Images — 15 operation(s) for image.
   name: Getty Images Image API
   slug: getty-images-image-api
-- description: The Images API from Getty Images — 15 operation(s) for images.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Images API from Getty Images — 15 operation(s) for images.
   name: Getty Images Images API
   slug: getty-images-images-api
-- description: The Index API from Getty Images — 3 operation(s) for index.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Index API from Getty Images — 3 operation(s) for index.
   name: Getty Images Index API
   slug: getty-images-index-api
-- description: The Influence API from Getty Images — 2 operation(s) for influence.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Influence API from Getty Images — 2 operation(s) for influence.
   name: Getty Images Influence API
   slug: getty-images-influence-api
-- description: The Licensing API from Getty Images — 1 operation(s) for licensing.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Licensing API from Getty Images — 1 operation(s) for licensing.
   name: Getty Images Licensing API
   slug: getty-images-licensing-api
-- description: The Management API from Getty Images — 1 operation(s) for management.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Management API from Getty Images — 1 operation(s) for management.
   name: Getty Images Management API
   slug: getty-images-management-api
-- description: The Name API from Getty Images — 1 operation(s) for name.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Name API from Getty Images — 1 operation(s) for name.
   name: Getty Images Name API
   slug: getty-images-name-api
-- description: The Objects API from Getty Images — 1 operation(s) for objects.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Objects API from Getty Images — 1 operation(s) for objects.
   name: Getty Images Objects API
   slug: getty-images-objects-api
-- description: The Orders API from Getty Images — 1 operation(s) for orders.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Orders API from Getty Images — 1 operation(s) for orders.
   name: Getty Images Orders API
   slug: getty-images-orders-api
-- description: The Products API from Getty Images — 1 operation(s) for products.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Products API from Getty Images — 1 operation(s) for products.
   name: Getty Images Products API
   slug: getty-images-products-api
-- description: The Purchased API from Getty Images — 1 operation(s) for purchased.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Purchased API from Getty Images — 1 operation(s) for purchased.
   name: Getty Images Purchased API
   slug: getty-images-purchased-api
-- description: The Refine API from Getty Images — 1 operation(s) for refine.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Refine API from Getty Images — 1 operation(s) for refine.
   name: Getty Images Refine API
   slug: getty-images-refine-api
-- description: The Registrations API from Getty Images — 2 operation(s) for registrations.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Registrations API from Getty Images — 2 operation(s) for registrations.
   name: Getty Images Registrations API
   slug: getty-images-registrations-api
-- description: The Removal API from Getty Images — 2 operation(s) for removal.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Removal API from Getty Images — 2 operation(s) for removal.
   name: Getty Images Removal API
   slug: getty-images-removal-api
-- description: The Request API from Getty Images — 5 operation(s) for request.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Request API from Getty Images — 5 operation(s) for request.
   name: Getty Images Request API
   slug: getty-images-request-api
-- description: The Search API from Getty Images — 11 operation(s) for search.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Search API from Getty Images — 11 operation(s) for search.
   name: Getty Images Search API
   slug: getty-images-search-api
-- description: The Send API from Getty Images — 1 operation(s) for send.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Send API from Getty Images — 1 operation(s) for send.
   name: Getty Images Send API
   slug: getty-images-send-api
-- description: The Series API from Getty Images — 2 operation(s) for series.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Series API from Getty Images — 2 operation(s) for series.
   name: Getty Images Series API
   slug: getty-images-series-api
-- description: The Set API from Getty Images — 1 operation(s) for set.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Set API from Getty Images — 1 operation(s) for set.
   name: Getty Images Set API
   slug: getty-images-set-api
-- description: The Sets API from Getty Images — 2 operation(s) for sets.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Sets API from Getty Images — 2 operation(s) for sets.
   name: Getty Images Sets API
   slug: getty-images-sets-api
-- description: The Similar API from Getty Images — 2 operation(s) for similar.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Similar API from Getty Images — 2 operation(s) for similar.
   name: Getty Images Similar API
   slug: getty-images-similar-api
-- description: The Uploads API from Getty Images — 1 operation(s) for uploads.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Uploads API from Getty Images — 1 operation(s) for uploads.
   name: Getty Images Uploads API
   slug: getty-images-uploads-api
-- description: The Usage API from Getty Images — 1 operation(s) for usage.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Usage API from Getty Images — 1 operation(s) for usage.
   name: Getty Images Usage API
   slug: getty-images-usage-api
-- description: The Variations API from Getty Images — 1 operation(s) for variations.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Variations API from Getty Images — 1 operation(s) for variations.
   name: Getty Images Variations API
   slug: getty-images-variations-api
-- description: The Videos API from Getty Images — 11 operation(s) for videos.
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Videos API from Getty Images — 11 operation(s) for videos.
   name: Getty Images Videos API
   slug: getty-images-videos-api
 artifact_total: 110
@@ -433,7 +537,7 @@ score:
       marker_coverage: 0.0
       total: 52
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:

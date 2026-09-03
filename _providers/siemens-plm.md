@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 157
   human_in_the_loop: 0
@@ -50,151 +50,249 @@ apis:
 - description: REST APIs for SiGREEN, Siemens' supply chain sustainability and carbon footprint management platform. Provides procurement, product, carbon footprint, and task management endpoints enabling organizati
   name: SiGREEN API
   slug: sigreen-api
-- description: The Account API from Siemens PLM — 3 operation(s) for account.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Account API from Siemens PLM — 3 operation(s) for account.
   name: Siemens PLM Account API
   slug: siemens-plm-account-api
-- description: The Administration API from Siemens PLM — 2 operation(s) for administration.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Administration API from Siemens PLM — 2 operation(s) for administration.
   name: Siemens PLM Administration API
   slug: siemens-plm-administration-api
-- description: The Basic API from Siemens PLM — 1 operation(s) for basic.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Basic API from Siemens PLM — 1 operation(s) for basic.
   name: Siemens PLM Basic API
   slug: siemens-plm-basic-api
-- description: The Collections API from Siemens PLM — 6 operation(s) for collections.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Collections API from Siemens PLM — 6 operation(s) for collections.
   name: Siemens PLM Collections API
   slug: siemens-plm-collections-api
-- description: The Custom Fields API from Siemens PLM — 4 operation(s) for custom fields.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Custom Fields API from Siemens PLM — 4 operation(s) for custom fields.
   name: Siemens PLM Custom Fields API
   slug: siemens-plm-custom-fields-api
-- description: 'The Customer Information: API Key API from Siemens PLM — 1 operation(s) for customer information: api key.'
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: 'The Customer Information: API Key API from Siemens PLM — 1 operation(s) for customer information: api key.'
   name: 'Siemens PLM Customer Information: API Key API'
   slug: siemens-plm-customer-information-api-key-api
-- description: The Document Attachments API from Siemens PLM — 3 operation(s) for document attachments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Document Attachments API from Siemens PLM — 3 operation(s) for document attachments.
   name: Siemens PLM Document Attachments API
   slug: siemens-plm-document-attachments-api
-- description: The Document Comments API from Siemens PLM — 2 operation(s) for document comments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Document Comments API from Siemens PLM — 2 operation(s) for document comments.
   name: Siemens PLM Document Comments API
   slug: siemens-plm-document-comments-api
-- description: The Document Parts API from Siemens PLM — 3 operation(s) for document parts.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Document Parts API from Siemens PLM — 3 operation(s) for document parts.
   name: Siemens PLM Document Parts API
   slug: siemens-plm-document-parts-api
-- description: The Documents API from Siemens PLM — 12 operation(s) for documents.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Documents API from Siemens PLM — 12 operation(s) for documents.
   name: Siemens PLM Documents API
   slug: siemens-plm-documents-api
-- description: The Enumerations API from Siemens PLM — 4 operation(s) for enumerations.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Enumerations API from Siemens PLM — 4 operation(s) for enumerations.
   name: Siemens PLM Enumerations API
   slug: siemens-plm-enumerations-api
-- description: The Externally Linked Work Items API from Siemens PLM — 2 operation(s) for externally linked work items.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Externally Linked Work Items API from Siemens PLM — 2 operation(s) for externally linked work items.
   name: Siemens PLM Externally Linked Work Items API
   slug: siemens-plm-externally-linked-work-items-api
-- description: The Feature Selections API from Siemens PLM — 2 operation(s) for feature selections.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Feature Selections API from Siemens PLM — 2 operation(s) for feature selections.
   name: Siemens PLM Feature Selections API
   slug: siemens-plm-feature-selections-api
-- description: The Icons API from Siemens PLM — 6 operation(s) for icons.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Icons API from Siemens PLM — 6 operation(s) for icons.
   name: Siemens PLM Icons API
   slug: siemens-plm-icons-api
-- description: 'The Import/Export: Calculations API from Siemens PLM — 3 operation(s) for import/export: calculations.'
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: 'The Import/Export: Calculations API from Siemens PLM — 3 operation(s) for import/export: calculations.'
   name: 'Siemens PLM Import/Export: Calculations API'
   slug: siemens-plm-import-export-calculations-api
-- description: 'The Import/Export: MasterData API from Siemens PLM — 2 operation(s) for import/export: masterdata.'
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: 'The Import/Export: MasterData API from Siemens PLM — 2 operation(s) for import/export: masterdata.'
   name: 'Siemens PLM Import/Export: MasterData API'
   slug: siemens-plm-import-export-masterdata-api
-- description: The Jobs API from Siemens PLM — 5 operation(s) for jobs.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Jobs API from Siemens PLM — 5 operation(s) for jobs.
   name: Siemens PLM Jobs API
   slug: siemens-plm-jobs-api
-- description: The License API from Siemens PLM — 5 operation(s) for license.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The License API from Siemens PLM — 5 operation(s) for license.
   name: Siemens PLM License API
   slug: siemens-plm-license-api
-- description: The Linked Oslc Resources API from Siemens PLM — 1 operation(s) for linked oslc resources.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Linked Oslc Resources API from Siemens PLM — 1 operation(s) for linked oslc resources.
   name: Siemens PLM Linked Oslc Resources API
   slug: siemens-plm-linked-oslc-resources-api
-- description: The Linked Work Items API from Siemens PLM — 3 operation(s) for linked work items.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Linked Work Items API from Siemens PLM — 3 operation(s) for linked work items.
   name: Siemens PLM Linked Work Items API
   slug: siemens-plm-linked-work-items-api
-- description: The Metadata API from Siemens PLM — 3 operation(s) for metadata.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Metadata API from Siemens PLM — 3 operation(s) for metadata.
   name: Siemens PLM Metadata API
   slug: siemens-plm-metadata-api
-- description: The Page Attachments API from Siemens PLM — 3 operation(s) for page attachments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Page Attachments API from Siemens PLM — 3 operation(s) for page attachments.
   name: Siemens PLM Page Attachments API
   slug: siemens-plm-page-attachments-api
-- description: The Page Comments API from Siemens PLM — 2 operation(s) for page comments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Page Comments API from Siemens PLM — 2 operation(s) for page comments.
   name: Siemens PLM Page Comments API
   slug: siemens-plm-page-comments-api
-- description: The Pages API from Siemens PLM — 7 operation(s) for pages.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Pages API from Siemens PLM — 7 operation(s) for pages.
   name: Siemens PLM Pages API
   slug: siemens-plm-pages-api
-- description: The Plans API from Siemens PLM — 3 operation(s) for plans.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Plans API from Siemens PLM — 3 operation(s) for plans.
   name: Siemens PLM Plans API
   slug: siemens-plm-plans-api
-- description: The Product costing API from Siemens PLM — 1 operation(s) for product costing.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Product costing API from Siemens PLM — 1 operation(s) for product costing.
   name: Siemens PLM Product costing API
   slug: siemens-plm-product-costing-api
-- description: 'The Product Information: Delivery API from Siemens PLM — 1 operation(s) for product information: delivery.'
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: 'The Product Information: Delivery API from Siemens PLM — 1 operation(s) for product information: delivery.'
   name: 'Siemens PLM Product Information: Delivery API'
   slug: siemens-plm-product-information-delivery-api
-- description: 'The Product Information: Obsolescence API from Siemens PLM — 1 operation(s) for product information: obsolescence.'
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: 'The Product Information: Obsolescence API from Siemens PLM — 1 operation(s) for product information: obsolescence.'
   name: 'Siemens PLM Product Information: Obsolescence API'
   slug: siemens-plm-product-information-obsolescence-api
-- description: The Profitability Calculation API from Siemens PLM — 2 operation(s) for profitability calculation.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Profitability Calculation API from Siemens PLM — 2 operation(s) for profitability calculation.
   name: Siemens PLM Profitability Calculation API
   slug: siemens-plm-profitability-calculation-api
-- description: The Project API from Siemens PLM — 2 operation(s) for project.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Project API from Siemens PLM — 2 operation(s) for project.
   name: Siemens PLM Project API
   slug: siemens-plm-project-api
-- description: The Project Templates API from Siemens PLM — 1 operation(s) for project templates.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Project Templates API from Siemens PLM — 1 operation(s) for project templates.
   name: Siemens PLM Project Templates API
   slug: siemens-plm-project-templates-api
-- description: The Projects API from Siemens PLM — 8 operation(s) for projects.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Projects API from Siemens PLM — 8 operation(s) for projects.
   name: Siemens PLM Projects API
   slug: siemens-plm-projects-api
-- description: The Revisions API from Siemens PLM — 2 operation(s) for revisions.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Revisions API from Siemens PLM — 2 operation(s) for revisions.
   name: Siemens PLM Revisions API
   slug: siemens-plm-revisions-api
-- description: The Roles API from Siemens PLM — 1 operation(s) for roles.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Roles API from Siemens PLM — 1 operation(s) for roles.
   name: Siemens PLM Roles API
   slug: siemens-plm-roles-api
-- description: The Test Record Attachments API from Siemens PLM — 3 operation(s) for test record attachments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Record Attachments API from Siemens PLM — 3 operation(s) for test record attachments.
   name: Siemens PLM Test Record Attachments API
   slug: siemens-plm-test-record-attachments-api
-- description: The Test Records API from Siemens PLM — 4 operation(s) for test records.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Records API from Siemens PLM — 4 operation(s) for test records.
   name: Siemens PLM Test Records API
   slug: siemens-plm-test-records-api
-- description: The Test Run Attachments API from Siemens PLM — 3 operation(s) for test run attachments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Run Attachments API from Siemens PLM — 3 operation(s) for test run attachments.
   name: Siemens PLM Test Run Attachments API
   slug: siemens-plm-test-run-attachments-api
-- description: The Test Run Comments API from Siemens PLM — 2 operation(s) for test run comments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Run Comments API from Siemens PLM — 2 operation(s) for test run comments.
   name: Siemens PLM Test Run Comments API
   slug: siemens-plm-test-run-comments-api
-- description: The Test Runs API from Siemens PLM — 10 operation(s) for test runs.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Runs API from Siemens PLM — 10 operation(s) for test runs.
   name: Siemens PLM Test Runs API
   slug: siemens-plm-test-runs-api
-- description: The Test Step Result Attachments API from Siemens PLM — 3 operation(s) for test step result attachments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Step Result Attachments API from Siemens PLM — 3 operation(s) for test step result attachments.
   name: Siemens PLM Test Step Result Attachments API
   slug: siemens-plm-test-step-result-attachments-api
-- description: The Test Step Results API from Siemens PLM — 2 operation(s) for test step results.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Step Results API from Siemens PLM — 2 operation(s) for test step results.
   name: Siemens PLM Test Step Results API
   slug: siemens-plm-test-step-results-api
-- description: The Test Steps API from Siemens PLM — 2 operation(s) for test steps.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Test Steps API from Siemens PLM — 2 operation(s) for test steps.
   name: Siemens PLM Test Steps API
   slug: siemens-plm-test-steps-api
-- description: The User Groups API from Siemens PLM — 1 operation(s) for user groups.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The User Groups API from Siemens PLM — 1 operation(s) for user groups.
   name: Siemens PLM User Groups API
   slug: siemens-plm-user-groups-api
-- description: The Users API from Siemens PLM — 6 operation(s) for users.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Users API from Siemens PLM — 6 operation(s) for users.
   name: Siemens PLM Users API
   slug: siemens-plm-users-api
-- description: The Work Item Approvals API from Siemens PLM — 2 operation(s) for work item approvals.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Work Item Approvals API from Siemens PLM — 2 operation(s) for work item approvals.
   name: Siemens PLM Work Item Approvals API
   slug: siemens-plm-work-item-approvals-api
-- description: The Work Item Attachments API from Siemens PLM — 3 operation(s) for work item attachments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Work Item Attachments API from Siemens PLM — 3 operation(s) for work item attachments.
   name: Siemens PLM Work Item Attachments API
   slug: siemens-plm-work-item-attachments-api
-- description: The Work Item Comments API from Siemens PLM — 2 operation(s) for work item comments.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Work Item Comments API from Siemens PLM — 2 operation(s) for work item comments.
   name: Siemens PLM Work Item Comments API
   slug: siemens-plm-work-item-comments-api
-- description: The Work Item Work Records API from Siemens PLM — 2 operation(s) for work item work records.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Work Item Work Records API from Siemens PLM — 2 operation(s) for work item work records.
   name: Siemens PLM Work Item Work Records API
   slug: siemens-plm-work-item-work-records-api
-- description: The Work Items API from Siemens PLM — 12 operation(s) for work items.
+- baseURL: https://developer.siemens.com
+  baseurl_source: declared
+  description: The Work Items API from Siemens PLM — 12 operation(s) for work items.
   name: Siemens PLM Work Items API
   slug: siemens-plm-work-items-api
 artifact_total: 115
@@ -491,7 +589,7 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -501,7 +599,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 48.4
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -510,7 +608,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siemens-plm/refs/heads/main/screenshots/siemens-plm-2026-08-17T125316.png
 security:

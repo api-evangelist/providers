@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations
 api_count: 7
 apis:
-- description: The Archive API from The New York Times — 1 operation(s) for archive.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Archive API from The New York Times — 1 operation(s) for archive.
   name: The New York Times Archive API
   slug: the-new-york-times-archive-api
-- description: The Content API from The New York Times — 3 operation(s) for content.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Content API from The New York Times — 3 operation(s) for content.
   name: The New York Times Content API
   slug: the-new-york-times-content-api
-- description: The Movies API from The New York Times — 3 operation(s) for movies.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Movies API from The New York Times — 3 operation(s) for movies.
   name: The New York Times Movies API
   slug: the-new-york-times-movies-api
-- description: The Name API from The New York Times — 1 operation(s) for name.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Name API from The New York Times — 1 operation(s) for name.
   name: The New York Times Name API
   slug: the-new-york-times-name-api
-- description: The Search API from The New York Times — 1 operation(s) for search.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Search API from The New York Times — 1 operation(s) for search.
   name: The New York Times Search API
   slug: the-new-york-times-search-api
-- description: The Stories API from The New York Times — 2 operation(s) for stories.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Stories API from The New York Times — 2 operation(s) for stories.
   name: The New York Times Stories API
   slug: the-new-york-times-stories-api
-- description: The Timestags API from The New York Times — 1 operation(s) for timestags.
+- baseURL: https://api.nytimes.com/svc/archive/v1
+  baseurl_source: declared
+  description: The Timestags API from The New York Times — 1 operation(s) for timestags.
   name: The New York Times Timestags API
   slug: the-new-york-times-timestags-api
 artifact_total: 30
@@ -284,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-new-york-times/refs/heads/main/screenshots/the-new-york-times-2026-06-20T195228.png
 security:

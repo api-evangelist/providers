@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 23 operations · 23 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=ACMPrivateCA.CreateCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.createcertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.CreateCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.createcertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.CreateCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-createcertificateauthority-api
-- description: 'The #X Amz Target=ACMPrivateCA.CreateCertificateAuthorityAuditReport API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.createcertificateauthorityauditreport.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.CreateCertificateAuthorityAuditReport API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.createcertificateauthorityauditreport.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.CreateCertificateAuthorityAuditReport API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-createcertificateauthorityauditreport-api
-- description: 'The #X Amz Target=ACMPrivateCA.CreatePermission API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.createpermission.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.CreatePermission API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.createpermission.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.CreatePermission API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-createpermission-api
-- description: 'The #X Amz Target=ACMPrivateCA.DeleteCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.deletecertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.DeleteCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.deletecertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.DeleteCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-deletecertificateauthority-api
-- description: 'The #X Amz Target=ACMPrivateCA.DeletePermission API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.deletepermission.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.DeletePermission API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.deletepermission.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.DeletePermission API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-deletepermission-api
-- description: 'The #X Amz Target=ACMPrivateCA.DeletePolicy API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.deletepolicy.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.DeletePolicy API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.deletepolicy.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.DeletePolicy API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-deletepolicy-api
-- description: 'The #X Amz Target=ACMPrivateCA.DescribeCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.describecertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.DescribeCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.describecertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.DescribeCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-describecertificateauthority-api
-- description: 'The #X Amz Target=ACMPrivateCA.DescribeCertificateAuthorityAuditReport API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.describecertificateauthorityauditreport.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.DescribeCertificateAuthorityAuditReport API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.describecertificateauthorityauditreport.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.DescribeCertificateAuthorityAuditReport API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-describecertificateauthorityauditreport-api
-- description: 'The #X Amz Target=ACMPrivateCA.GetCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getcertificate.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.GetCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getcertificate.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.GetCertificate API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-getcertificate-api
-- description: 'The #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getcertificateauthoritycertificate.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getcertificateauthoritycertificate.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCertificate API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-getcertificateauthoritycertificate-api
-- description: 'The #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCsr API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getcertificateauthoritycsr.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCsr API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getcertificateauthoritycsr.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.GetCertificateAuthorityCsr API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-getcertificateauthoritycsr-api
-- description: 'The #X Amz Target=ACMPrivateCA.GetPolicy API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getpolicy.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.GetPolicy API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.getpolicy.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.GetPolicy API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-getpolicy-api
-- description: 'The #X Amz Target=ACMPrivateCA.ImportCertificateAuthorityCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.importcertificateauthoritycertificate.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.ImportCertificateAuthorityCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.importcertificateauthoritycertificate.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.ImportCertificateAuthorityCertificate API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-importcertificateauthoritycertificate-api
-- description: 'The #X Amz Target=ACMPrivateCA.IssueCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.issuecertificate.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.IssueCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.issuecertificate.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.IssueCertificate API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-issuecertificate-api
-- description: 'The #X Amz Target=ACMPrivateCA.ListCertificateAuthorities API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.listcertificateauthorities.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.ListCertificateAuthorities API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.listcertificateauthorities.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.ListCertificateAuthorities API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-listcertificateauthorities-api
-- description: 'The #X Amz Target=ACMPrivateCA.ListPermissions API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.listpermissions.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.ListPermissions API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.listpermissions.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.ListPermissions API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-listpermissions-api
-- description: 'The #X Amz Target=ACMPrivateCA.ListTags API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.listtags.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.ListTags API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.listtags.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.ListTags API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-listtags-api
-- description: 'The #X Amz Target=ACMPrivateCA.PutPolicy API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.putpolicy.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.PutPolicy API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.putpolicy.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.PutPolicy API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-putpolicy-api
-- description: 'The #X Amz Target=ACMPrivateCA.RestoreCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.restorecertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.RestoreCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.restorecertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.RestoreCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-restorecertificateauthority-api
-- description: 'The #X Amz Target=ACMPrivateCA.RevokeCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.revokecertificate.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.RevokeCertificate API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.revokecertificate.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.RevokeCertificate API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-revokecertificate-api
-- description: 'The #X Amz Target=ACMPrivateCA.TagCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.tagcertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.TagCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.tagcertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.TagCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-tagcertificateauthority-api
-- description: 'The #X Amz Target=ACMPrivateCA.UntagCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.untagcertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.UntagCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.untagcertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.UntagCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-untagcertificateauthority-api
-- description: 'The #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.updatecertificateauthority.'
+- baseURL: https://acm-pca.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API from Amazon Private CA — 1 operation(s) for #x amz target=acmprivateca.updatecertificateauthority.'
   name: 'Amazon Private CA #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
   slug: amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
 artifact_total: 305
@@ -1912,7 +1958,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/screenshots/amazon-private-ca-2026-06-20T171803.png
 security:

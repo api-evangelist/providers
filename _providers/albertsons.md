@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 4
 apis:
-- description: Manage audience targeting segments for retail media campaigns.
+- baseURL: https://api.albertsons.com
+  baseurl_source: declared
+  description: Manage audience targeting segments for retail media campaigns.
   name: albertsons Audiences API
   slug: albertsons-audiences-api
-- description: Manage advertising campaigns on the Albertsons Media Collective.
+- baseURL: https://api.albertsons.com
+  baseurl_source: declared
+  description: Manage advertising campaigns on the Albertsons Media Collective.
   name: albertsons Campaigns API
   slug: albertsons-campaigns-api
-- description: Access campaign performance metrics and analytics.
+- baseURL: https://api.albertsons.com
+  baseurl_source: declared
+  description: Access campaign performance metrics and analytics.
   name: albertsons Performance API
   slug: albertsons-performance-api
-- description: Generate and retrieve performance reports.
+- baseURL: https://api.albertsons.com
+  baseurl_source: declared
+  description: Generate and retrieve performance reports.
   name: albertsons Reporting API
   slug: albertsons-reporting-api
 artifact_total: 63
@@ -279,16 +287,16 @@ jsonld:
   slug: albertsons-retail-media-api-context
 layout: provider
 modified: '2026-08-13'
-name: albertsons
+name: Albertsons
 nav: Providers
 network: true
-overview: 'albertsons publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Performance API, and 1 more. Tagged areas include Grocery, Retail, Retail Media, Advertising, and Campaigns.
+overview: 'Albertsons publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Performance API, and 1 more. Tagged areas include Grocery, Retail, Retail Media, Advertising, and Campaigns.
 
 
-  The albertsons catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Albertsons catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  albertsons'' developer surface includes authentication, developer portal, support, and 12 more developer resources.'
+  Albertsons'' developer surface includes authentication, developer portal, support, and 12 more developer resources.'
 plans:
 - name: Albertsons Plans Pricing
   plan_count: 0
@@ -301,7 +309,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: albertsons API Rules
+  name: Albertsons API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -312,7 +320,7 @@ rules:
 - effective_rule_count: 83
   extends:
   - spectral:oas
-  name: albertsons API Rules
+  name: Albertsons API Rules
   rule_count: 42
   severity_counts:
     error: 16
@@ -348,7 +356,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 245
   human_in_the_loop: 5
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 506 operations · 245 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The activitypub API from Forgejo — 11 operation(s) for activitypub.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The activitypub API from Forgejo — 11 operation(s) for activitypub.
   name: Forgejo activitypub API
   slug: forgejo-activitypub-api
-- description: The admin API from Forgejo — 34 operation(s) for admin.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The admin API from Forgejo — 34 operation(s) for admin.
   name: Forgejo admin API
   slug: forgejo-admin-api
-- description: The issue API from Forgejo — 33 operation(s) for issue.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The issue API from Forgejo — 33 operation(s) for issue.
   name: Forgejo issue API
   slug: forgejo-issue-api
-- description: The miscellaneous API from Forgejo — 14 operation(s) for miscellaneous.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The miscellaneous API from Forgejo — 14 operation(s) for miscellaneous.
   name: Forgejo miscellaneous API
   slug: forgejo-miscellaneous-api
-- description: The notification API from Forgejo — 4 operation(s) for notification.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The notification API from Forgejo — 4 operation(s) for notification.
   name: Forgejo notification API
   slug: forgejo-notification-api
-- description: The organization API from Forgejo — 42 operation(s) for organization.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The organization API from Forgejo — 42 operation(s) for organization.
   name: Forgejo organization API
   slug: forgejo-organization-api
-- description: The package API from Forgejo — 5 operation(s) for package.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The package API from Forgejo — 5 operation(s) for package.
   name: Forgejo package API
   slug: forgejo-package-api
-- description: The repository API from Forgejo — 126 operation(s) for repository.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The repository API from Forgejo — 126 operation(s) for repository.
   name: Forgejo repository API
   slug: forgejo-repository-api
-- description: The settings API from Forgejo — 4 operation(s) for settings.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The settings API from Forgejo — 4 operation(s) for settings.
   name: Forgejo settings API
   slug: forgejo-settings-api
-- description: The user API from Forgejo — 54 operation(s) for user.
+- baseURL: https://code.forgejo.org/api/v1
+  baseurl_source: declared
+  description: The user API from Forgejo — 54 operation(s) for user.
   name: Forgejo user API
   slug: forgejo-user-api
 artifact_total: 290
@@ -1029,7 +1049,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgejo/refs/heads/main/screenshots/forgejo-2026-06-20T181426.png
 security:

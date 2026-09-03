@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: Client-Level Data (CLD) from state mental health agencies on clients receiving state-funded mental health services. Provides data on demographics, diagnoses, services received, and outcomes.
   name: SAMHSA Mental Health Client Level Data
   slug: samhsa-mental-health-atlas
-- description: Search and retrieve behavioral health treatment facility listings
+- baseURL: https://findtreatment.gov/locator/listing
+  baseurl_source: spec
+  description: Search and retrieve behavioral health treatment facility listings
   name: Substance Abuse and Mental Health Services Administration Treatment Facilities API
   slug: substance-abuse-and-mental-health-services-administration-treatment-facilities-api
 artifact_total: 17
@@ -240,7 +242,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/substance-abuse-and-mental-health-services-administration/refs/heads/main/screenshots/substance-abuse-and-mental-health-services-administration-2026-06-20T194633.png
 security:

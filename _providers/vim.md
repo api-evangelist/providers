@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,31 +48,49 @@ apis:
 - description: The Vim Canvas developer platform and VimOS.js JavaScript SDK for embedding applications at the point of care. Reads EHR state (Patient, Encounter, Orders, Referral, Claim, plus problem/medication/all
   name: Vim Canvas SDK (VimOS.js)
   slug: vim-canvas-sdk
-- description: Obtaining a Bearer service token to make API requests
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: Obtaining a Bearer service token to make API requests
   name: Vim Access Token Retrieval API
   slug: vim-access-token-retrieval-api
-- description: The Applications API from Vim — 2 operation(s) for applications.
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: The Applications API from Vim — 2 operation(s) for applications.
   name: Vim Applications API
   slug: vim-applications-api
-- description: The Appointments API from Vim — 1 operation(s) for appointments.
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: The Appointments API from Vim — 1 operation(s) for appointments.
   name: Vim Appointments API
   slug: vim-appointments-api
-- description: The Authentication API from Vim — 1 operation(s) for authentication.
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: The Authentication API from Vim — 1 operation(s) for authentication.
   name: Vim Authentication API
   slug: vim-authentication-api
-- description: The Chart Retrieval API from Vim — 1 operation(s) for chart retrieval.
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: The Chart Retrieval API from Vim — 1 operation(s) for chart retrieval.
   name: Vim Chart Retrieval API
   slug: vim-chart-retrieval-api
-- description: Retrieving patient care insights such as diagnosis gaps and care insights
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: Retrieving patient care insights such as diagnosis gaps and care insights
   name: Vim Get Patient Care Insights API
   slug: vim-get-patient-care-insights-api
-- description: The Invitations API from Vim — 1 operation(s) for invitations.
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: The Invitations API from Vim — 1 operation(s) for invitations.
   name: Vim Invitations API
   slug: vim-invitations-api
-- description: Sending feedback about the care insights
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: Sending feedback about the care insights
   name: Vim Patient Care Insights Feedback API
   slug: vim-patient-care-insights-feedback-api
-- description: Identify the patient based on personal information
+- baseURL: https://api.getvim.com/v1
+  baseurl_source: declared
+  description: Identify the patient based on personal information
   name: Vim Patient Identification API
   slug: vim-patient-identification-api
 artifact_total: 20
@@ -315,7 +333,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -325,7 +343,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 65.1
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,7 +365,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/screenshots/vim-2026-08-17T082750.png
 security:

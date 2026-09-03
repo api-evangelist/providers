@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Headlines API from GNews — 1 operation(s) for headlines.
+- baseURL: https://gnews.io/api/v4
+  baseurl_source: declared
+  description: The Headlines API from GNews — 1 operation(s) for headlines.
   name: GNews Headlines API
   slug: gnews-headlines-api
-- description: The Search API from GNews — 1 operation(s) for search.
+- baseURL: https://gnews.io/api/v4
+  baseurl_source: declared
+  description: The Search API from GNews — 1 operation(s) for search.
   name: GNews Search API
   slug: gnews-search-api
 artifact_total: 12
@@ -153,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/screenshots/gnews-2026-06-20T181935.png
 security:

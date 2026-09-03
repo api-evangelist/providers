@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -59,64 +59,104 @@ apis:
 - description: PowerShell module providing native cmdlet support for invoking the Microsoft Intune Graph API. Enables IT administrators to automate device management, app deployment, and compliance policy operations
   name: Intune PowerShell SDK
   slug: intune-powershell-sdk
-- description: Manage Configuration Manager applications.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage Configuration Manager applications.
   name: Microsoft Endpoint Configuration Management Applications API
   slug: microsoft-endpoint-configuration-management-applications-api
-- description: Manage device and user collections.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage device and user collections.
   name: Microsoft Endpoint Configuration Management Collections API
   slug: microsoft-endpoint-configuration-management-collections-api
-- description: Manage compliance baselines and settings.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage compliance baselines and settings.
   name: Microsoft Endpoint Configuration Management Compliance API
   slug: microsoft-endpoint-configuration-management-compliance-api
-- description: Manage device compliance policies.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage device compliance policies.
   name: Microsoft Endpoint Configuration Management Compliance Policies API
   slug: microsoft-endpoint-configuration-management-compliance-policies-api
-- description: Manage device configuration profiles.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage device configuration profiles.
   name: Microsoft Endpoint Configuration Management Configuration Profiles API
   slug: microsoft-endpoint-configuration-management-configuration-profiles-api
-- description: Date dimension for time-based reporting.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Date dimension for time-based reporting.
   name: Microsoft Endpoint Configuration Management Dates API
   slug: microsoft-endpoint-configuration-management-dates-api
-- description: View and manage application deployments.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: View and manage application deployments.
   name: Microsoft Endpoint Configuration Management Deployments API
   slug: microsoft-endpoint-configuration-management-deployments-api
-- description: Remote device actions such as wipe, retire, sync, and lock.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Remote device actions such as wipe, retire, sync, and lock.
   name: Microsoft Endpoint Configuration Management Device Actions API
   slug: microsoft-endpoint-configuration-management-device-actions-api
-- description: Query and manage device resources.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Query and manage device resources.
   name: Microsoft Endpoint Configuration Management Devices API
   slug: microsoft-endpoint-configuration-management-devices-api
-- description: Manage asynchronous report export jobs. Create export jobs, poll for completion, and download exported report files.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage asynchronous report export jobs. Create export jobs, poll for completion, and download exported report files.
   name: Microsoft Endpoint Configuration Management Export Jobs API
   slug: microsoft-endpoint-configuration-management-export-jobs-api
-- description: Intune management extension activities.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Intune management extension activities.
   name: Microsoft Endpoint Configuration Management Management Extensions API
   slug: microsoft-endpoint-configuration-management-management-extensions-api
-- description: Manage legacy software packages.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage legacy software packages.
   name: Microsoft Endpoint Configuration Management Packages API
   slug: microsoft-endpoint-configuration-management-packages-api
-- description: Policy records and compliance activities.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Policy records and compliance activities.
   name: Microsoft Endpoint Configuration Management Policies API
   slug: microsoft-endpoint-configuration-management-policies-api
-- description: Retrieve inline Intune reports for device compliance, configuration policy status, and historical data.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Retrieve inline Intune reports for device compliance, configuration policy status, and historical data.
   name: Microsoft Endpoint Configuration Management Reports API
   slug: microsoft-endpoint-configuration-management-reports-api
-- description: Manage and execute PowerShell scripts.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage and execute PowerShell scripts.
   name: Microsoft Endpoint Configuration Management Scripts API
   slug: microsoft-endpoint-configuration-management-scripts-api
-- description: Site configuration and administration.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Site configuration and administration.
   name: Microsoft Endpoint Configuration Management Site Administration API
   slug: microsoft-endpoint-configuration-management-site-administration-api
-- description: Query software update information.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Query software update information.
   name: Microsoft Endpoint Configuration Management Software Updates API
   slug: microsoft-endpoint-configuration-management-software-updates-api
-- description: Manage OS deployment task sequences.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: Manage OS deployment task sequences.
   name: Microsoft Endpoint Configuration Management Task Sequences API
   slug: microsoft-endpoint-configuration-management-task-sequences-api
-- description: User-to-device mapping records.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: User-to-device mapping records.
   name: Microsoft Endpoint Configuration Management User Device Associations API
   slug: microsoft-endpoint-configuration-management-user-device-associations-api
-- description: User dimension records.
+- baseURL: https://{siteserver}/AdminService
+  baseurl_source: declared
+  description: User dimension records.
   name: Microsoft Endpoint Configuration Management Users API
   slug: microsoft-endpoint-configuration-management-users-api
 arazzos:
@@ -596,7 +636,7 @@ score:
     catalog_gap: 55.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -606,7 +646,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 56.7
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -615,7 +655,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/screenshots/microsoft-endpoint-configuration-management-2026-06-20T185457.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 86 operations · 48 acting · 48 human-in-the-loop
 api_count: 15
 apis:
-- description: Analytics endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Analytics endpoints.
   name: Vapi Analytics API
   slug: vapi-ai-analytics-api
-- description: Assistants endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Assistants endpoints.
   name: Vapi Assistants API
   slug: vapi-ai-assistants-api
-- description: Calls endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Calls endpoints.
   name: Vapi Calls API
   slug: vapi-ai-calls-api
-- description: Campaigns endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Campaigns endpoints.
   name: Vapi Campaigns API
   slug: vapi-ai-campaigns-api
-- description: Chats endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Chats endpoints.
   name: Vapi Chats API
   slug: vapi-ai-chats-api
-- description: Eval endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Eval endpoints.
   name: Vapi Eval API
   slug: vapi-ai-eval-api
-- description: Files endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Files endpoints.
   name: Vapi Files API
   slug: vapi-ai-files-api
-- description: Insight endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Insight endpoints.
   name: Vapi Insight API
   slug: vapi-ai-insight-api
-- description: Observability/Scorecard endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Observability/Scorecard endpoints.
   name: Vapi Observability/Scorecard API
   slug: vapi-ai-observability-scorecard-api
-- description: Phone Numbers endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Phone Numbers endpoints.
   name: Vapi Phone Numbers API
   slug: vapi-ai-phone-numbers-api
-- description: Provider Resources endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Provider Resources endpoints.
   name: Vapi Provider Resources API
   slug: vapi-ai-provider-resources-api
-- description: Sessions endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Sessions endpoints.
   name: Vapi Sessions API
   slug: vapi-ai-sessions-api
-- description: Squads endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Squads endpoints.
   name: Vapi Squads API
   slug: vapi-ai-squads-api
-- description: Structured Outputs endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Structured Outputs endpoints.
   name: Vapi Structured Outputs API
   slug: vapi-ai-structured-outputs-api
-- description: Tools endpoints.
+- baseURL: https://api.vapi.ai
+  baseurl_source: spec
+  description: Tools endpoints.
   name: Vapi Tools API
   slug: vapi-ai-tools-api
 arazzos:
@@ -733,7 +763,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -743,7 +773,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 72.5
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -754,7 +784,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

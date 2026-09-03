@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Retrieve editorial content including news articles, previews, and recaps associated with events, teams, and players.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Retrieve editorial content including news articles, previews, and recaps associated with events, teams, and players.
   name: Stats Perform Editorial API
   slug: stats-perform-editorial-api
-- description: Access event (game/match) data including live scores, box scores, play-by-play, and results across all supported sports.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Access event (game/match) data including live scores, box scores, play-by-play, and results across all supported sports.
   name: Stats Perform Events API
   slug: stats-perform-events-api
-- description: Access player profiles, career statistics, and game-level performance data.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Access player profiles, career statistics, and game-level performance data.
   name: Stats Perform Players API
   slug: stats-perform-players-api
-- description: Access reference data including league definitions, network types, and decode tables for API response values.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Access reference data including league definitions, network types, and decode tables for API response values.
   name: Stats Perform Reference Data API
   slug: stats-perform-reference-data-api
-- description: Retrieve league and conference standings with win/loss records and tiebreaker data.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Retrieve league and conference standings with win/loss records and tiebreaker data.
   name: Stats Perform Standings API
   slug: stats-perform-standings-api
-- description: Access cumulative season statistics for teams and players across all supported sports.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Access cumulative season statistics for teams and players across all supported sports.
   name: Stats Perform Statistics API
   slug: stats-perform-statistics-api
-- description: Retrieve team rosters, statistics, and metadata for all supported sports and leagues.
+- baseURL: https://api.stats.com/v1
+  baseurl_source: declared
+  description: Retrieve team rosters, statistics, and metadata for all supported sports and leagues.
   name: Stats Perform Teams API
   slug: stats-perform-teams-api
 artifact_total: 30
@@ -259,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/screenshots/stats-perform-2026-06-20T194526.png
 security:

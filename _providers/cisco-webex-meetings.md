@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,16 +74,24 @@ apis:
 - description: The Webex XML API is the legacy SOAP-style interface for deep integration with Webex Meetings. It supports site administration, user provisioning, and meeting management for scenarios that pre-date th
   name: Webex XML API
   slug: webex-xml-api
-- description: The Invitees API from Cisco Webex Meetings — 2 operation(s) for invitees.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Invitees API from Cisco Webex Meetings — 2 operation(s) for invitees.
   name: Cisco Webex Meetings Invitees API
   slug: cisco-webex-meetings-invitees-api
-- description: The Meetings API from Cisco Webex Meetings — 2 operation(s) for meetings.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Meetings API from Cisco Webex Meetings — 2 operation(s) for meetings.
   name: Cisco Webex Meetings Meetings API
   slug: cisco-webex-meetings-meetings-api
-- description: The Recordings API from Cisco Webex Meetings — 2 operation(s) for recordings.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Recordings API from Cisco Webex Meetings — 2 operation(s) for recordings.
   name: Cisco Webex Meetings Recordings API
   slug: cisco-webex-meetings-recordings-api
-- description: The Transcripts API from Cisco Webex Meetings — 1 operation(s) for transcripts.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Transcripts API from Cisco Webex Meetings — 1 operation(s) for transcripts.
   name: Cisco Webex Meetings Transcripts API
   slug: cisco-webex-meetings-transcripts-api
 artifact_total: 28
@@ -263,7 +271,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png
 security:

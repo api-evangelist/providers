@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: Insperity is a leading provider of human resources and business per
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/insperity.png
 layout: provider
 modified: '2026-04-28'
-name: insperity
+name: Insperity
 nav: Providers
 network: true
-overview: insperity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Insperity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: 'Artificial Intelligence (AI) At Work: What You Need To Know'
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insperity/refs/heads/main/screenshots/insperity-2026-06-20T183405.png
 security:

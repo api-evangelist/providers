@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -56,31 +56,49 @@ apis:
 - description: Sage 50 Accounts API enables desktop accounting integration for UK small businesses. Provides access to accounts, transactions, customers, suppliers, products, and financial data within Sage 50 Accoun
   name: Sage 50 Accounts API
   slug: sage-50
-- description: Bank account and transaction management
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Bank account and transaction management
   name: Sage Bank Accounts API
   slug: sage-bank-accounts-api
-- description: Business settings and configuration
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Business settings and configuration
   name: Sage Business API
   slug: sage-business-api
-- description: Customer and supplier contact management
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Customer and supplier contact management
   name: Sage Contacts API
   slug: sage-contacts-api
-- description: Chart of accounts and ledger management
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Chart of accounts and ledger management
   name: Sage Ledger Accounts API
   slug: sage-ledger-accounts-api
-- description: Customer and supplier payment recording
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Customer and supplier payment recording
   name: Sage Payments API
   slug: sage-payments-api
-- description: Product and service catalog management
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Product and service catalog management
   name: Sage Products API
   slug: sage-products-api
-- description: Purchase invoice and supplier bill management
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Purchase invoice and supplier bill management
   name: Sage Purchase Invoices API
   slug: sage-purchase-invoices-api
-- description: Sales invoice creation and management
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Sales invoice creation and management
   name: Sage Sales Invoices API
   slug: sage-sales-invoices-api
-- description: Tax rate configuration
+- baseURL: https://api.accounting.sage.com/v3.1
+  baseurl_source: spec
+  description: Tax rate configuration
   name: Sage Tax Rates API
   slug: sage-tax-rates-api
 artifact_total: 85
@@ -442,7 +460,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -452,7 +470,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 42.7
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -461,7 +479,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/screenshots/sage-2026-06-20T193330.png
 security:

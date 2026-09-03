@@ -33,88 +33,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: You can query the Checkout resource to return abandoned checkouts. A checkout is considered abandoned when a customer leaves the checkout after the first page without completing their purchase
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: You can query the Checkout resource to return abandoned checkouts. A checkout is considered abandoned when a customer leaves the checkout after the first page without completing their purchase
   name: Beeketing Abandoned Checkout API
   slug: beeketing-abandoned-checkout-api
-- description: The Balance API from Beeketing — 2 operation(s) for balance.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Balance API from Beeketing — 2 operation(s) for balance.
   name: Beeketing Balance API
   slug: beeketing-balance-api
-- description: The Collect resource connects a product to a custom collection. </br></br>Collects are meant for managing the relationship between products and custom collections. For every product in a custom collec
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Collect resource connects a product to a custom collection. </br></br>Collects are meant for managing the relationship between products and custom collections. For every product in a custom collec
   name: Beeketing Collect API
   slug: beeketing-collect-api
-- description: The Custom Collection API from Beeketing — 3 operation(s) for custom collection.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Custom Collection API from Beeketing — 3 operation(s) for custom collection.
   name: Beeketing Custom Collection API
   slug: beeketing-custom-collection-api
-- description: The Customer Address API from Beeketing — 4 operation(s) for customer address.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Customer Address API from Beeketing — 4 operation(s) for customer address.
   name: Beeketing Customer Address API
   slug: beeketing-customer-address-api
-- description: The Customer API from Beeketing — 4 operation(s) for customer.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Customer API from Beeketing — 4 operation(s) for customer.
   name: Beeketing Customer API
   slug: beeketing-customer-api
-- description: The DiscountCode API from Beeketing — 3 operation(s) for discountcode.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The DiscountCode API from Beeketing — 3 operation(s) for discountcode.
   name: Beeketing Discount Code API
   slug: beeketing-discountcode-api
-- description: You can use the domain resource to view
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: You can use the domain resource to view
   name: Beeketing Domain API
   slug: beeketing-domain-api
-- description: The DraftOrder API from Beeketing — 2 operation(s) for draftorder.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The DraftOrder API from Beeketing — 2 operation(s) for draftorder.
   name: Beeketing Draft Order API
   slug: beeketing-draftorder-api
-- description: You can use the Fulfillment resource to view, create, modify, or delete an order's fulfillment. </br></br>A fulfillment represents a group of one or more items in an order
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: You can use the Fulfillment resource to view, create, modify, or delete an order's fulfillment. </br></br>A fulfillment represents a group of one or more items in an order
   name: Beeketing Fulfillment API
   slug: beeketing-fulfillment-api
-- description: The FulfillmentService API from Beeketing — 2 operation(s) for fulfillmentservice.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The FulfillmentService API from Beeketing — 2 operation(s) for fulfillmentservice.
   name: Beeketing Fulfillment Service API
   slug: beeketing-fulfillmentservice-api
-- description: The Metafield API from Beeketing — 3 operation(s) for metafield.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Metafield API from Beeketing — 3 operation(s) for metafield.
   name: Beeketing Metafield API
   slug: beeketing-metafield-api
-- description: An order is a customer's completed request to purchase one or more products from a shop. An order is created when a customer completes the checkout process, during which time they provide an email add
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: An order is a customer's completed request to purchase one or more products from a shop. An order is created when a customer completes the checkout process, during which time they provide an email add
   name: Beeketing Order API
   slug: beeketing-order-api
-- description: The Page API from Beeketing — 3 operation(s) for page.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Page API from Beeketing — 3 operation(s) for page.
   name: Beeketing Page API
   slug: beeketing-page-api
-- description: The Payment Simulator API from Beeketing — 4 operation(s) for payment simulator.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Payment Simulator API from Beeketing — 4 operation(s) for payment simulator.
   name: Beeketing Payment Simulator API
   slug: beeketing-payment-simulator-api
-- description: PhubOrderApi
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: PhubOrderApi
   name: Beeketing Phub Order API
   slug: beeketing-phuborderapi-api
-- description: The PriceRule API from Beeketing — 3 operation(s) for pricerule.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The PriceRule API from Beeketing — 3 operation(s) for pricerule.
   name: Beeketing Price Rule API
   slug: beeketing-pricerule-api
-- description: The Product resource lets you update and create products in a merchant's store. You can use product variants with the Product resource to create or update different versions of the same product. You c
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Product resource lets you update and create products in a merchant's store. You can use product variants with the Product resource to create or update different versions of the same product. You c
   name: Beeketing Product API
   slug: beeketing-product-api
-- description: The Product Image API from Beeketing — 3 operation(s) for product image.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Product Image API from Beeketing — 3 operation(s) for product image.
   name: Beeketing Product Image API
   slug: beeketing-product-image-api
-- description: A variant can be added to a Product resource to represent one version of a product with several options. The Product resource will have a variant for every possible combination of its options. Each pr
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: A variant can be added to a Product resource to represent one version of a product with several options. The Product resource will have a variant for every possible combination of its options. Each pr
   name: Beeketing Product Variant API
   slug: beeketing-product-variant-api
-- description: The Redirect API from Beeketing — 2 operation(s) for redirect.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Redirect API from Beeketing — 2 operation(s) for redirect.
   name: Beeketing Redirect API
   slug: beeketing-redirect-api
-- description: There are two major parts to a refund:</br>- A record of money returned to the customer</br>- The line items included in the refund, along with restocking instructions</br></br>Before you create a ref
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: There are two major parts to a refund:</br>- A record of money returned to the customer</br>- The line items included in the refund, along with restocking instructions</br></br>Before you create a ref
   name: Beeketing Refund API
   slug: beeketing-refund-api
-- description: The ScriptTag API from Beeketing — 2 operation(s) for scripttag.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The ScriptTag API from Beeketing — 2 operation(s) for scripttag.
   name: Beeketing Script Tag API
   slug: beeketing-scripttag-api
-- description: The Shop API from Beeketing — 1 operation(s) for shop.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Shop API from Beeketing — 1 operation(s) for shop.
   name: Beeketing Shop API
   slug: beeketing-shop-api
-- description: The SmartCollection API from Beeketing — 3 operation(s) for smartcollection.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The SmartCollection API from Beeketing — 3 operation(s) for smartcollection.
   name: Beeketing Smart Collection API
   slug: beeketing-smartcollection-api
-- description: There are two major parts to a refund:</br>- A record of money returned to the customer</br>- The line items included in the refund, along with restocking instructions</br></br>Before you create a ref
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: There are two major parts to a refund:</br>- A record of money returned to the customer</br>- The line items included in the refund, along with restocking instructions</br></br>Before you create a ref
   name: Beeketing Transaction API
   slug: beeketing-transaction-api
-- description: The Webhook API from Beeketing — 2 operation(s) for webhook.
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Webhook API from Beeketing — 2 operation(s) for webhook.
   name: Beeketing Webhook API
   slug: beeketing-webhook-api
 artifact_total: 33
@@ -304,7 +358,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -314,7 +368,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 61.2
+  previous_composite: 61.0
   provenance:
     conformance: first-party
     contracts:
@@ -331,7 +385,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:

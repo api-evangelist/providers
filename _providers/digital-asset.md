@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,19 +35,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The common API from Digital Asset — 3 operation(s) for common.
+- baseURL: https://api.utilities.digitalasset.com
+  baseurl_source: declared
+  description: The common API from Digital Asset — 3 operation(s) for common.
   name: Digital Asset Common API
   slug: digital-asset-common-api
-- description: The operator API from Digital Asset — 5 operation(s) for operator.
+- baseURL: https://api.utilities.digitalasset.com
+  baseurl_source: declared
+  description: The operator API from Digital Asset — 5 operation(s) for operator.
   name: Digital Asset Operator API
   slug: digital-asset-operator-api
-- description: The public API from Digital Asset — 11 operation(s) for public.
+- baseURL: https://api.utilities.digitalasset.com
+  baseurl_source: declared
+  description: The public API from Digital Asset — 11 operation(s) for public.
   name: Digital Asset Public API
   slug: digital-asset-public-api
-- description: The registry API from Digital Asset — 18 operation(s) for registry.
+- baseURL: https://api.utilities.digitalasset.com
+  baseurl_source: declared
+  description: The registry API from Digital Asset — 18 operation(s) for registry.
   name: Digital Asset Registry API
   slug: digital-asset-registry-api
 artifact_total: 14
@@ -234,7 +254,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-asset/refs/heads/main/screenshots/digital-asset-2026-08-07T164342.png
 security:

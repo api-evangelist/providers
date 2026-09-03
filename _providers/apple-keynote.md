@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: Shortcuts app actions for Keynote on iOS, iPadOS, and macOS, enabling users to open, create, and export presentations as part of automated workflows including format conversion and template generation
   name: Keynote Shortcuts Actions
   slug: keynote-shortcuts-actions
-- description: Exporting presentations to various formats
+- baseURL: https://p00-keynote.icloud.com
+  baseurl_source: declared
+  description: Exporting presentations to various formats
   name: Apple Keynote Export API
   slug: apple-keynote-export-api
-- description: Keynote presentation document management
+- baseURL: https://p00-keynote.icloud.com
+  baseurl_source: declared
+  description: Keynote presentation document management
   name: Apple Keynote Presentations API
   slug: apple-keynote-presentations-api
-- description: Slide operations within a presentation
+- baseURL: https://p00-keynote.icloud.com
+  baseurl_source: declared
+  description: Slide operations within a presentation
   name: Apple Keynote Slides API
   slug: apple-keynote-slides-api
-- description: Presentation themes and templates
+- baseURL: https://p00-keynote.icloud.com
+  baseurl_source: declared
+  description: Presentation themes and templates
   name: Apple Keynote Themes API
   slug: apple-keynote-themes-api
 artifact_total: 48
@@ -274,7 +282,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/screenshots/apple-keynote-2026-06-20T172318.png
 security:

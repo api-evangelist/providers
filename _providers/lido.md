@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: Read-only HTTP API returning the latest stETH staking APR and a 7-day simple moving average APR. Used by integrators, dashboards, and DeFi protocols to display Lido's current annualized yield. The Lid
@@ -348,7 +348,7 @@ score:
     score: 25.0
   previous_composite: 27.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido/refs/heads/main/screenshots/lido-2026-06-20T184507.png
 security:

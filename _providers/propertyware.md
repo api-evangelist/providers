@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 162 operations · 86 acting
 api_count: 1
 apis:
-- description: Resources providing access to accounting data such as general ledger accounts and financial transactions.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to accounting data such as general ledger accounts and financial transactions.
   name: Propertyware Accounting API
   slug: propertyware-accounting-api
-- description: Resources providing access to bills and bill payments.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to bills and bill payments.
   name: Propertyware Bills API
   slug: propertyware-bills-api
-- description: Resources providing access to buildings.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to buildings.
   name: Propertyware Buildings API
   slug: propertyware-buildings-api
-- description: Resources providing access to contacts.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to contacts.
   name: Propertyware Contacts API
   slug: propertyware-contacts-api
-- description: Resources providing access to custom fields definitions.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to custom fields definitions.
   name: Propertyware Custom field definitions API
   slug: propertyware-custom-field-definitions-api
-- description: Resources providing access to documents.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to documents.
   name: Propertyware Documents API
   slug: propertyware-documents-api
-- description: API health check resources.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: API health check resources.
   name: Propertyware Health check API
   slug: propertyware-health-check-api
-- description: Resources providing access to inspections.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to inspections.
   name: Propertyware Inspections API
   slug: propertyware-inspections-api
-- description: Resources providing access to rental property leases.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to rental property leases.
   name: Propertyware Leases API
   slug: propertyware-leases-api
-- description: Resources providing access to portfolios.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to portfolios.
   name: Propertyware Portfolios API
   slug: propertyware-portfolios-api
-- description: Resources providing access to prospects.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to prospects.
   name: Propertyware Prospects API
   slug: propertyware-prospects-api
-- description: Resources providing access to units.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to units.
   name: Propertyware Units API
   slug: propertyware-units-api
-- description: Resources providing access to vendors.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to vendors.
   name: Propertyware Vendors API
   slug: propertyware-vendors-api
-- description: Resources providing access to work orders.
+- baseURL: https://app.propertyware.com/pw/api/
+  baseurl_source: declared
+  description: Resources providing access to work orders.
   name: Propertyware Work orders API
   slug: propertyware-work-orders-api
 artifact_total: 284
@@ -1005,7 +1033,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/screenshots/propertyware-2026-06-20T192210.png
 security:

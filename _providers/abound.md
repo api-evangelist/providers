@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 55 operations · 33 acting
 api_count: 1
 apis:
-- description: The 1099-INT API from Abound — 6 operation(s) for 1099-int.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The 1099-INT API from Abound — 6 operation(s) for 1099-int.
   name: Abound 1099-INT API
   slug: abound-1099-int-api
-- description: The 1099-K API from Abound — 6 operation(s) for 1099-k.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The 1099-K API from Abound — 6 operation(s) for 1099-k.
   name: Abound 1099-K API
   slug: abound-1099-k-api
-- description: The 1099-MISC API from Abound — 6 operation(s) for 1099-misc.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The 1099-MISC API from Abound — 6 operation(s) for 1099-misc.
   name: Abound 1099-MISC API
   slug: abound-1099-misc-api
-- description: The 1099-NEC API from Abound — 6 operation(s) for 1099-nec.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The 1099-NEC API from Abound — 6 operation(s) for 1099-nec.
   name: Abound 1099-NEC API
   slug: abound-1099-nec-api
-- description: The Access Tokens API from Abound — 1 operation(s) for access tokens.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The Access Tokens API from Abound — 1 operation(s) for access tokens.
   name: Abound Access Tokens API
   slug: abound-access-tokens-api
-- description: The Electronic Delivery Consents API from Abound — 1 operation(s) for electronic delivery consents.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The Electronic Delivery Consents API from Abound — 1 operation(s) for electronic delivery consents.
   name: Abound Electronic Delivery Consents API
   slug: abound-electronic-delivery-consents-api
-- description: The Mailings API from Abound — 2 operation(s) for mailings.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The Mailings API from Abound — 2 operation(s) for mailings.
   name: Abound Mailings API
   slug: abound-mailings-api
-- description: The Tax Treaties API from Abound — 1 operation(s) for tax treaties.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The Tax Treaties API from Abound — 1 operation(s) for tax treaties.
   name: Abound Tax Treaties API
   slug: abound-tax-treaties-api
-- description: The TIN Verifications API from Abound — 2 operation(s) for tin verifications.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The TIN Verifications API from Abound — 2 operation(s) for tin verifications.
   name: Abound TIN Verifications API
   slug: abound-tin-verifications-api
-- description: The Users API from Abound — 2 operation(s) for users.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The Users API from Abound — 2 operation(s) for users.
   name: Abound Users API
   slug: abound-users-api
-- description: The W-8BEN API from Abound — 2 operation(s) for w-8ben.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The W-8BEN API from Abound — 2 operation(s) for w-8ben.
   name: Abound W-8BEN API
   slug: abound-w-8ben-api
-- description: The W-8BEN-E API from Abound — 2 operation(s) for w-8ben-e.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The W-8BEN-E API from Abound — 2 operation(s) for w-8ben-e.
   name: Abound W-8BEN-E API
   slug: abound-w-8ben-e-api
-- description: The W-9 API from Abound — 2 operation(s) for w-9.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The W-9 API from Abound — 2 operation(s) for w-9.
   name: Abound W-9 API
   slug: abound-w-9-api
-- description: The Abound API V4 API from Abound — 0 operation(s) for abound api v4.
+- baseURL: https://production-api.withabound.com
+  baseurl_source: declared
+  description: The Abound API V4 API from Abound — 0 operation(s) for abound api v4.
   name: Abound Abound API V4 API
   slug: abound-abound-api-v4-api
 arazzos:
@@ -264,7 +292,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -274,7 +302,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,7 +320,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

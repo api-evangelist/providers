@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Metadata about the receiving stations that make up the network.
+- baseURL: https://data.aishub.net
+  baseurl_source: declared
+  description: Metadata about the receiving stations that make up the network.
   name: AISHub Stations API
   slug: aishub-stations-api
-- description: Latest known positions and voyage data for vessels tracked by the network.
+- baseURL: https://data.aishub.net
+  baseurl_source: declared
+  description: Latest known positions and voyage data for vessels tracked by the network.
   name: AISHub Vessel Positions API
   slug: aishub-vessel-positions-api
 artifact_total: 10
@@ -149,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aishub/refs/heads/main/screenshots/aishub-2026-07-25T195448.png
 security:

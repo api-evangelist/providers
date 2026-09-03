@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -36,52 +48,84 @@ apis:
 - description: Real-time WebSocket event streaming for NFT marketplace activity per collection, including item listed, item sold, item transferred, item metadata updates, item cancelled, item received offer, and ite
   name: OpenSea Stream API
   slug: stream-api
-- description: Account endpoints to retrieve OpenSea account profiles and resolve identifiers
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Account endpoints to retrieve OpenSea account profiles and resolve identifiers
   name: OpenSea Account Endpoints API
   slug: opensea-account-endpoints-api
-- description: Analytics endpoints to retrieve events, stats, and trading data
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Analytics endpoints to retrieve events, stats, and trading data
   name: OpenSea Analytics Endpoints API
   slug: opensea-analytics-endpoints-api
-- description: The Auth Endpoints API from OpenSea — 1 operation(s) for auth endpoints.
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: The Auth Endpoints API from OpenSea — 1 operation(s) for auth endpoints.
   name: OpenSea Auth Endpoints API
   slug: opensea-auth-endpoints-api
-- description: Chain endpoints to discover supported blockchains and their capabilities
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Chain endpoints to discover supported blockchains and their capabilities
   name: OpenSea Chain Endpoints API
   slug: opensea-chain-endpoints-api
-- description: Collection endpoints to retrieve collection details, traits, and trending data
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Collection endpoints to retrieve collection details, traits, and trending data
   name: OpenSea Collection Endpoints API
   slug: opensea-collection-endpoints-api
-- description: Contract endpoints to retrieve contract metadata and payment token details
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Contract endpoints to retrieve contract metadata and payment token details
   name: OpenSea Contract Endpoints API
   slug: opensea-contract-endpoints-api
-- description: Endpoints for discovering drops, checking mint eligibility, and building mint transactions
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Endpoints for discovering drops, checking mint eligibility, and building mint transactions
   name: OpenSea Drops Endpoints API
   slug: opensea-drops-endpoints-api
-- description: Listing endpoints for creating, fulfilling, and querying listings
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Listing endpoints for creating, fulfilling, and querying listings
   name: OpenSea Listing Endpoints API
   slug: opensea-listing-endpoints-api
-- description: NFT endpoints to retrieve individual NFTs, metadata, ownership, and rarity
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: NFT endpoints to retrieve individual NFTs, metadata, ownership, and rarity
   name: OpenSea NFT Endpoints API
   slug: opensea-nft-endpoints-api
-- description: Offer endpoints for building, creating, fulfilling, and querying offers
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Offer endpoints for building, creating, fulfilling, and querying offers
   name: OpenSea Offer Endpoints API
   slug: opensea-offer-endpoints-api
-- description: Order endpoints for looking up and canceling individual orders
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Order endpoints for looking up and canceling individual orders
   name: OpenSea Order Endpoints API
   slug: opensea-order-endpoints-api
-- description: Search endpoints for discovering collections, tokens, NFTs, and accounts
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Search endpoints for discovering collections, tokens, NFTs, and accounts
   name: OpenSea Search Endpoints API
   slug: opensea-search-endpoints-api
-- description: Swap endpoints for getting token swap quotes with executable transaction data
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Swap endpoints for getting token swap quotes with executable transaction data
   name: OpenSea Swap Endpoints API
   slug: opensea-swap-endpoints-api
-- description: Token endpoints for getting token details, balances, and trending data
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Token endpoints for getting token details, balances, and trending data
   name: OpenSea Token Endpoints API
   slug: opensea-token-endpoints-api
-- description: '[Beta] Tool endpoints for discovering and inspecting registered onchain tools. This API is under active development and may change without notice.'
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: '[Beta] Tool endpoints for discovering and inspecting registered onchain tools. This API is under active development and may change without notice.'
   name: OpenSea Tool Endpoints [Beta] API
   slug: opensea-tool-endpoints-beta-api
-- description: Transaction endpoints for checking transaction receipts and status
+- baseURL: https://api.opensea.io/api/v2
+  baseurl_source: declared
+  description: Transaction endpoints for checking transaction receipts and status
   name: OpenSea Transaction Endpoints API
   slug: opensea-transaction-endpoints-api
 artifact_total: 346
@@ -1194,7 +1238,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensea/refs/heads/main/screenshots/opensea-2026-06-20T191039.png
 security:

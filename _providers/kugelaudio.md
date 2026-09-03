@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The 11labs API from KugelAudio — 6 operation(s) for 11labs.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The 11labs API from KugelAudio — 6 operation(s) for 11labs.
   name: KugelAudio 11labs API
   slug: kugelaudio-11labs-api
-- description: The Audio API from KugelAudio — 1 operation(s) for audio.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Audio API from KugelAudio — 1 operation(s) for audio.
   name: KugelAudio Audio API
   slug: kugelaudio-audio-api
-- description: The billing API from KugelAudio — 2 operation(s) for billing.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The billing API from KugelAudio — 2 operation(s) for billing.
   name: KugelAudio billing API
   slug: kugelaudio-billing-api
-- description: The Dictionaries API from KugelAudio — 5 operation(s) for dictionaries.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Dictionaries API from KugelAudio — 5 operation(s) for dictionaries.
   name: KugelAudio Dictionaries API
   slug: kugelaudio-dictionaries-api
-- description: The Health API from KugelAudio — 1 operation(s) for health.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Health API from KugelAudio — 1 operation(s) for health.
   name: KugelAudio Health API
   slug: kugelaudio-health-api
-- description: The license API from KugelAudio — 12 operation(s) for license.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The license API from KugelAudio — 12 operation(s) for license.
   name: KugelAudio license API
   slug: kugelaudio-license-api
-- description: The Models API from KugelAudio — 1 operation(s) for models.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Models API from KugelAudio — 1 operation(s) for models.
   name: KugelAudio Models API
   slug: kugelaudio-models-api
-- description: The Normalize API from KugelAudio — 1 operation(s) for normalize.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Normalize API from KugelAudio — 1 operation(s) for normalize.
   name: KugelAudio Normalize API
   slug: kugelaudio-normalize-api
-- description: The Post Overrides API from KugelAudio — 1 operation(s) for post overrides.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Post Overrides API from KugelAudio — 1 operation(s) for post overrides.
   name: KugelAudio Post Overrides API
   slug: kugelaudio-post-overrides-api
-- description: The Predict API from KugelAudio — 1 operation(s) for predict.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Predict API from KugelAudio — 1 operation(s) for predict.
   name: KugelAudio Predict API
   slug: kugelaudio-predict-api
-- description: The Ready API from KugelAudio — 1 operation(s) for ready.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Ready API from KugelAudio — 1 operation(s) for ready.
   name: KugelAudio Ready API
   slug: kugelaudio-ready-api
-- description: The Tts API from KugelAudio — 1 operation(s) for tts.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Tts API from KugelAudio — 1 operation(s) for tts.
   name: KugelAudio Tts API
   slug: kugelaudio-tts-api
-- description: The Vapi API from KugelAudio — 1 operation(s) for vapi.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Vapi API from KugelAudio — 1 operation(s) for vapi.
   name: KugelAudio Vapi API
   slug: kugelaudio-vapi-api
-- description: The Voices API from KugelAudio — 6 operation(s) for voices.
+- baseURL: https://api.kugelaudio.com
+  baseurl_source: declared
+  description: The Voices API from KugelAudio — 6 operation(s) for voices.
   name: KugelAudio Voices API
   slug: kugelaudio-voices-api
 artifact_total: 33
@@ -275,7 +303,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -285,7 +313,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.9
+  previous_composite: 47.7
   provenance:
     conformance: derived
     contracts:
@@ -296,7 +324,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/screenshots/kugelaudio-2026-07-25T224326.png
 security:

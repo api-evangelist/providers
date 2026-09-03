@@ -32,13 +32,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Cryptocurrency Trading Platform
   name: CoinDCX
   slug: coindcx
-- description: Real-time Socket.IO streaming at stream.coindcx.com for public spot and futures market data (orderbook depth, public trades, current prices, price statistics, last-traded price, candlesticks) and auth
+- baseURL: https://stream.coindcx.com
+  baseurl_source: declared
+  description: Real-time Socket.IO streaming at stream.coindcx.com for public spot and futures market data (orderbook depth, public trades, current prices, price statistics, last-traded price, candlesticks) and auth
   name: CoinDCX Streaming Socket.IO API
   slug: streaming-api
 artifact_total: 5
@@ -92,7 +94,7 @@ score:
     catalog_gap: 83.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -102,9 +104,9 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 21.0
+  previous_composite: 20.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coindcx/refs/heads/main/screenshots/coindcx-2026-06-20T174731.png
 security:

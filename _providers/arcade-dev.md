@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 56 operations · 30 acting
 api_count: 9
 apis:
-- description: The Admin API from arcade-dev — 14 operation(s) for admin.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Admin API from arcade-dev — 14 operation(s) for admin.
   name: arcade-dev Admin API
   slug: arcade-dev-admin-api
-- description: The Authorization API from arcade-dev — 4 operation(s) for authorization.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Authorization API from arcade-dev — 4 operation(s) for authorization.
   name: arcade-dev Authorization API
   slug: arcade-dev-authorization-api
-- description: The Gateways API from arcade-dev — 3 operation(s) for gateways.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Gateways API from arcade-dev — 3 operation(s) for gateways.
   name: arcade-dev Gateways API
   slug: arcade-dev-gateways-api
-- description: The Hooks API from arcade-dev — 3 operation(s) for hooks.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Hooks API from arcade-dev — 3 operation(s) for hooks.
   name: arcade-dev Hooks API
   slug: arcade-dev-hooks-api
-- description: The LLM API from arcade-dev — 1 operation(s) for llm.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The LLM API from arcade-dev — 1 operation(s) for llm.
   name: arcade-dev LLM API
   slug: arcade-dev-llm-api
-- description: The Operations API from arcade-dev — 3 operation(s) for operations.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Operations API from arcade-dev — 3 operation(s) for operations.
   name: arcade-dev Operations API
   slug: arcade-dev-operations-api
-- description: The Plugins API from arcade-dev — 2 operation(s) for plugins.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Plugins API from arcade-dev — 2 operation(s) for plugins.
   name: arcade-dev Plugins API
   slug: arcade-dev-plugins-api
-- description: The Tools API from arcade-dev — 9 operation(s) for tools.
+- baseURL: https://api.arcade.dev
+  baseurl_source: spec
+  description: The Tools API from arcade-dev — 9 operation(s) for tools.
   name: arcade-dev Tools API
   slug: arcade-dev-tools-api
 artifact_total: 80
@@ -483,10 +499,10 @@ score:
       total: 8
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/screenshots/arcade-dev-2026-06-20T172356.png
 security:

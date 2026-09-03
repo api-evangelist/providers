@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 74 operations · 20 acting
 api_count: 3
 apis:
-- description: The Account Access API from NatWest Group — 2 operation(s) for account access.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Account Access API from NatWest Group — 2 operation(s) for account access.
   name: NatWest Group Account Access API
   slug: natwest-account-access-api
-- description: The Accounts API from NatWest Group — 2 operation(s) for accounts.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Accounts API from NatWest Group — 2 operation(s) for accounts.
   name: NatWest Group Accounts API
   slug: natwest-accounts-api
-- description: The Balances API from NatWest Group — 2 operation(s) for balances.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Balances API from NatWest Group — 2 operation(s) for balances.
   name: NatWest Group Balances API
   slug: natwest-balances-api
-- description: The Beneficiaries API from NatWest Group — 2 operation(s) for beneficiaries.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from NatWest Group — 2 operation(s) for beneficiaries.
   name: NatWest Group Beneficiaries API
   slug: natwest-beneficiaries-api
-- description: The Direct Debits API from NatWest Group — 2 operation(s) for direct debits.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Direct Debits API from NatWest Group — 2 operation(s) for direct debits.
   name: NatWest Group Direct Debits API
   slug: natwest-direct-debits-api
-- description: The Domestic Payments API from NatWest Group — 5 operation(s) for domestic payments.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Payments API from NatWest Group — 5 operation(s) for domestic payments.
   name: NatWest Group Domestic Payments API
   slug: natwest-domestic-payments-api
-- description: The Domestic Scheduled Payments API from NatWest Group — 4 operation(s) for domestic scheduled payments.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from NatWest Group — 4 operation(s) for domestic scheduled payments.
   name: NatWest Group Domestic Scheduled Payments API
   slug: natwest-domestic-scheduled-payments-api
-- description: The Domestic Standing Orders API from NatWest Group — 4 operation(s) for domestic standing orders.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from NatWest Group — 4 operation(s) for domestic standing orders.
   name: NatWest Group Domestic Standing Orders API
   slug: natwest-domestic-standing-orders-api
-- description: The File Payments API from NatWest Group — 6 operation(s) for file payments.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The File Payments API from NatWest Group — 6 operation(s) for file payments.
   name: NatWest Group File Payments API
   slug: natwest-file-payments-api
-- description: The Funds Confirmations API from NatWest Group — 3 operation(s) for funds confirmations.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Funds Confirmations API from NatWest Group — 3 operation(s) for funds confirmations.
   name: NatWest Group Funds Confirmations API
   slug: natwest-funds-confirmations-api
-- description: The International Payments API from NatWest Group — 5 operation(s) for international payments.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Payments API from NatWest Group — 5 operation(s) for international payments.
   name: NatWest Group International Payments API
   slug: natwest-international-payments-api
-- description: The International Scheduled Payments API from NatWest Group — 5 operation(s) for international scheduled payments.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Scheduled Payments API from NatWest Group — 5 operation(s) for international scheduled payments.
   name: NatWest Group International Scheduled Payments API
   slug: natwest-international-scheduled-payments-api
-- description: The International Standing Orders API from NatWest Group — 4 operation(s) for international standing orders.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Standing Orders API from NatWest Group — 4 operation(s) for international standing orders.
   name: NatWest Group International Standing Orders API
   slug: natwest-international-standing-orders-api
-- description: The Offers API from NatWest Group — 2 operation(s) for offers.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Offers API from NatWest Group — 2 operation(s) for offers.
   name: NatWest Group Offers API
   slug: natwest-offers-api
-- description: The Parties API from NatWest Group — 3 operation(s) for parties.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Parties API from NatWest Group — 3 operation(s) for parties.
   name: NatWest Group Parties API
   slug: natwest-parties-api
-- description: The Payment Details API from NatWest Group — 7 operation(s) for payment details.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Payment Details API from NatWest Group — 7 operation(s) for payment details.
   name: NatWest Group Payment Details API
   slug: natwest-payment-details-api
-- description: The Products API from NatWest Group — 2 operation(s) for products.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Products API from NatWest Group — 2 operation(s) for products.
   name: NatWest Group Products API
   slug: natwest-products-api
-- description: The Scheduled Payments API from NatWest Group — 2 operation(s) for scheduled payments.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Scheduled Payments API from NatWest Group — 2 operation(s) for scheduled payments.
   name: NatWest Group Scheduled Payments API
   slug: natwest-scheduled-payments-api
-- description: The Standing Orders API from NatWest Group — 2 operation(s) for standing orders.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Standing Orders API from NatWest Group — 2 operation(s) for standing orders.
   name: NatWest Group Standing Orders API
   slug: natwest-standing-orders-api
-- description: The Statements API from NatWest Group — 4 operation(s) for statements.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Statements API from NatWest Group — 4 operation(s) for statements.
   name: NatWest Group Statements API
   slug: natwest-statements-api
-- description: The Transactions API from NatWest Group — 3 operation(s) for transactions.
+- baseURL: https://api.sandbox.natwest.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Transactions API from NatWest Group — 3 operation(s) for transactions.
   name: NatWest Group Transactions API
   slug: natwest-transactions-api
 artifact_total: 49
@@ -385,7 +427,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
 security:

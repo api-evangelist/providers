@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 27 operations · 8 acting
 api_count: 5
 apis:
-- description: The Config API from Loki — 1 operation(s) for config.
+- baseURL: http://localhost:3100
+  baseurl_source: spec
+  description: The Config API from Loki — 1 operation(s) for config.
   name: Loki Config API
   slug: loki-config-api
-- description: The Loki API from Loki — 17 operation(s) for loki.
+- baseURL: http://localhost:3100
+  baseurl_source: spec
+  description: The Loki API from Loki — 17 operation(s) for loki.
   name: Loki Loki API
   slug: loki-loki-api
-- description: The Metrics API from Loki — 1 operation(s) for metrics.
+- baseURL: http://localhost:3100
+  baseurl_source: spec
+  description: The Metrics API from Loki — 1 operation(s) for metrics.
   name: Loki Metrics API
   slug: loki-metrics-api
-- description: The Otlp API from Loki — 1 operation(s) for otlp.
+- baseURL: http://localhost:3100
+  baseurl_source: spec
+  description: The Otlp API from Loki — 1 operation(s) for otlp.
   name: Loki Otlp API
   slug: loki-otlp-api
-- description: The Ready API from Loki — 1 operation(s) for ready.
+- baseURL: http://localhost:3100
+  baseurl_source: spec
+  description: The Ready API from Loki — 1 operation(s) for ready.
   name: Loki Ready API
   slug: loki-ready-api
 artifact_total: 18
@@ -185,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/screenshots/loki-2026-06-20T184708.png
 security:

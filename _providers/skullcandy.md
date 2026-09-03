@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Universal Commerce Protocol (UCP) merchant surface for the Skullcandy Shopify storefront. Agents discover capabilities at /.well-known/ucp and transact against a hosted MCP endpoint (catalog search, c
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -143,8 +143,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/screenshots/skullcandy-2026-09-02T155747.png
 security:
 - kind: authentication
   name: Skullcandy Authentication

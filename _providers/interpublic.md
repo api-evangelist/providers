@@ -32,19 +32,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: WordPress core content API for the Interpublic Group corporate site - posts, pages, media, taxonomies, users, settings, blocks and templates. Read collections (posts, pages, media, categories, tags, s
+- baseURL: https://interpublic.com
+  baseurl_source: declared
+  description: WordPress core content API for the Interpublic Group corporate site - posts, pages, media, taxonomies, users, settings, blocks and templates. Read collections (posts, pages, media, categories, tags, s
   name: Interpublic Group WordPress Wp/v2 API
   slug: wp-v2-api
-- description: WordPress Abilities API - the registry of named abilities an agent may discover and run on this install. Present in the route-discovery document with six routes; every route observed HTTP 401 (`rest_f
+- baseURL: https://interpublic.com
+  baseurl_source: declared
+  description: WordPress Abilities API - the registry of named abilities an agent may discover and run on this install. Present in the route-discovery document with six routes; every route observed HTTP 401 (`rest_f
   name: Interpublic Group WordPress Abilities API
   slug: wp-abilities-v1-api
-- description: oEmbed discovery and proxy endpoints exposed by the Interpublic Group WordPress install, returning embeddable representations of newsroom URLs. Observed HTTP 200 anonymously.
+- baseURL: https://interpublic.com
+  baseurl_source: declared
+  description: oEmbed discovery and proxy endpoints exposed by the Interpublic Group WordPress install, returning embeddable representations of newsroom URLs. Observed HTTP 200 anonymously.
   name: Interpublic Group oEmbed API
   slug: oembed-1-0-api
-- description: 'The REST API index / namespace-discovery route. GET https://interpublic.com/wp-json/ returns the self-describing document that enumerates all 254 routes across 17 namespaces, along with site identity '
+- baseURL: https://interpublic.com
+  baseurl_source: declared
+  description: 'The REST API index / namespace-discovery route. GET https://interpublic.com/wp-json/ returns the self-describing document that enumerates all 254 routes across 17 namespaces, along with site identity '
   name: Interpublic Group WordPress REST Index API
   slug: root-api
 artifact_total: 14
@@ -200,7 +208,7 @@ score:
       total: 4
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/screenshots/interpublic-2026-06-20T183507.png
 security:

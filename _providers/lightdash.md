@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 5
@@ -44,154 +44,254 @@ agentic_access:
   summary_line: 493 operations · 275 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The AiAgents API from Lightdash — 13 operation(s) for aiagents.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The AiAgents API from Lightdash — 13 operation(s) for aiagents.
   name: Lightdash AiAgents API
   slug: lightdash-aiagents-api
-- description: The Bulk action API from Lightdash — 1 operation(s) for bulk action.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Bulk action API from Lightdash — 1 operation(s) for bulk action.
   name: Lightdash Bulk action API
   slug: lightdash-bulk-action-api
-- description: The Catalog API from Lightdash — 23 operation(s) for catalog.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Catalog API from Lightdash — 23 operation(s) for catalog.
   name: Lightdash Catalog API
   slug: lightdash-catalog-api
-- description: The Changesets API from Lightdash — 4 operation(s) for changesets.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Changesets API from Lightdash — 4 operation(s) for changesets.
   name: Lightdash Changesets API
   slug: lightdash-changesets-api
-- description: The Charts API from Lightdash — 15 operation(s) for charts.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Charts API from Lightdash — 15 operation(s) for charts.
   name: Lightdash Charts API
   slug: lightdash-charts-api
-- description: The Comments API from Lightdash — 3 operation(s) for comments.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Comments API from Lightdash — 3 operation(s) for comments.
   name: Lightdash Comments API
   slug: lightdash-comments-api
-- description: The Content API from Lightdash — 9 operation(s) for content.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Content API from Lightdash — 9 operation(s) for content.
   name: Lightdash Content API
   slug: lightdash-content-api
-- description: The Custom Roles API from Lightdash — 5 operation(s) for custom roles.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Custom Roles API from Lightdash — 5 operation(s) for custom roles.
   name: Lightdash Custom Roles API
   slug: lightdash-custom-roles-api
-- description: The Dashboards API from Lightdash — 11 operation(s) for dashboards.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Dashboards API from Lightdash — 11 operation(s) for dashboards.
   name: Lightdash Dashboards API
   slug: lightdash-dashboards-api
-- description: The Explorer API from Lightdash — 2 operation(s) for explorer.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Explorer API from Lightdash — 2 operation(s) for explorer.
   name: Lightdash Explorer API
   slug: lightdash-explorer-api
-- description: The Exploring API from Lightdash — 3 operation(s) for exploring.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Exploring API from Lightdash — 3 operation(s) for exploring.
   name: Lightdash Exploring API
   slug: lightdash-exploring-api
-- description: The Exports API from Lightdash — 1 operation(s) for exports.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Exports API from Lightdash — 1 operation(s) for exports.
   name: Lightdash Exports API
   slug: lightdash-exports-api
-- description: The Feature Flag API from Lightdash — 1 operation(s) for feature flag.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Feature Flag API from Lightdash — 1 operation(s) for feature flag.
   name: Lightdash Feature Flag API
   slug: lightdash-feature-flag-api
-- description: The Files API from Lightdash — 1 operation(s) for files.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Files API from Lightdash — 1 operation(s) for files.
   name: Lightdash Files API
   slug: lightdash-files-api
-- description: The Funnel API from Lightdash — 2 operation(s) for funnel.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Funnel API from Lightdash — 2 operation(s) for funnel.
   name: Lightdash Funnel API
   slug: lightdash-funnel-api
-- description: The Git Files API from Lightdash — 3 operation(s) for git files.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Git Files API from Lightdash — 3 operation(s) for git files.
   name: Lightdash Git Files API
   slug: lightdash-git-files-api
-- description: The Git Integration API from Lightdash — 5 operation(s) for git integration.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Git Integration API from Lightdash — 5 operation(s) for git integration.
   name: Lightdash Git Integration API
   slug: lightdash-git-integration-api
-- description: The Github API from Lightdash — 8 operation(s) for github.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Github API from Lightdash — 8 operation(s) for github.
   name: Lightdash Github API
   slug: lightdash-github-api
-- description: The Gitlab API from Lightdash — 4 operation(s) for gitlab.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Gitlab API from Lightdash — 4 operation(s) for gitlab.
   name: Lightdash Gitlab API
   slug: lightdash-gitlab-api
-- description: The Impersonation API from Lightdash — 2 operation(s) for impersonation.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Impersonation API from Lightdash — 2 operation(s) for impersonation.
   name: Lightdash Impersonation API
   slug: lightdash-impersonation-api
-- description: The Integrations API from Lightdash — 10 operation(s) for integrations.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Integrations API from Lightdash — 10 operation(s) for integrations.
   name: Lightdash Integrations API
   slug: lightdash-integrations-api
-- description: The Map API from Lightdash — 1 operation(s) for map.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Map API from Lightdash — 1 operation(s) for map.
   name: Lightdash Map API
   slug: lightdash-map-api
-- description: The Metrics API from Lightdash — 2 operation(s) for metrics.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Metrics API from Lightdash — 2 operation(s) for metrics.
   name: Lightdash Metrics API
   slug: lightdash-metrics-api
-- description: The Metrics Explorer API from Lightdash — 2 operation(s) for metrics explorer.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Metrics Explorer API from Lightdash — 2 operation(s) for metrics explorer.
   name: Lightdash Metrics Explorer API
   slug: lightdash-metrics-explorer-api
-- description: The Move content API from Lightdash — 2 operation(s) for move content.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Move content API from Lightdash — 2 operation(s) for move content.
   name: Lightdash Move content API
   slug: lightdash-move-content-api
-- description: These routes allow users to manage their own user account.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: These routes allow users to manage their own user account.
   name: Lightdash My Account API
   slug: lightdash-my-account-api
-- description: The Notifications API from Lightdash — 2 operation(s) for notifications.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Notifications API from Lightdash — 2 operation(s) for notifications.
   name: Lightdash Notifications API
   slug: lightdash-notifications-api
-- description: The Org API from Lightdash — 5 operation(s) for org.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Org API from Lightdash — 5 operation(s) for org.
   name: Lightdash Org API
   slug: lightdash-org-api
-- description: The Organization Roles API from Lightdash — 5 operation(s) for organization roles.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Organization Roles API from Lightdash — 5 operation(s) for organization roles.
   name: Lightdash Organization Roles API
   slug: lightdash-organization-roles-api
-- description: The Organization Warehouse Credentials API from Lightdash — 2 operation(s) for organization warehouse credentials.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Organization Warehouse Credentials API from Lightdash — 2 operation(s) for organization warehouse credentials.
   name: Lightdash Organization Warehouse Credentials API
   slug: lightdash-organization-warehouse-credentials-api
-- description: Each user is a member of a single organization. These routes allow users to manage their organization. Most actions are only available to admin users.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: Each user is a member of a single organization. These routes allow users to manage their organization. Most actions are only available to admin users.
   name: Lightdash Organizations API
   slug: lightdash-organizations-api
-- description: The Parameters API from Lightdash — 2 operation(s) for parameters.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Parameters API from Lightdash — 2 operation(s) for parameters.
   name: Lightdash Parameters API
   slug: lightdash-parameters-api
-- description: The Pre-Aggregates API from Lightdash — 3 operation(s) for pre-aggregates.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Pre-Aggregates API from Lightdash — 3 operation(s) for pre-aggregates.
   name: Lightdash Pre-Aggregates API
   slug: lightdash-pre-aggregates-api
-- description: The Project API from Lightdash — 3 operation(s) for project.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Project API from Lightdash — 3 operation(s) for project.
   name: Lightdash Project API
   slug: lightdash-project-api
-- description: The Project Roles API from Lightdash — 3 operation(s) for project roles.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Project Roles API from Lightdash — 3 operation(s) for project roles.
   name: Lightdash Project Roles API
   slug: lightdash-project-roles-api
-- description: Projects belong to a single organization. These routes allow users to manage their projects, browse content, and execute queries. Users inside an organization might have access to a project from an or
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: Projects belong to a single organization. These routes allow users to manage their projects, browse content, and execute queries. Users inside an organization might have access to a project from an or
   name: Lightdash Projects API
   slug: lightdash-projects-api
-- description: The Pull Requests API from Lightdash — 1 operation(s) for pull requests.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Pull Requests API from Lightdash — 1 operation(s) for pull requests.
   name: Lightdash Pull Requests API
   slug: lightdash-pull-requests-api
-- description: These routes allow users to execute and manage queries against their data warehouse. This includes metric queries, SQL queries, and retrieving query results.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: These routes allow users to execute and manage queries against their data warehouse. This includes metric queries, SQL queries, and retrieving query results.
   name: Lightdash Query API
   slug: lightdash-query-api
-- description: These routes allow users to manage roles and permissions for their organization.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: These routes allow users to manage roles and permissions for their organization.
   name: Lightdash Roles & Permissions API
   slug: lightdash-roles-permissions-api
-- description: The Schedulers API from Lightdash — 12 operation(s) for schedulers.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Schedulers API from Lightdash — 12 operation(s) for schedulers.
   name: Lightdash Schedulers API
   slug: lightdash-schedulers-api
-- description: The SCIM API from Lightdash — 12 operation(s) for scim.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The SCIM API from Lightdash — 12 operation(s) for scim.
   name: Lightdash SCIM API
   slug: lightdash-scim-api
-- description: The Share links API from Lightdash — 2 operation(s) for share links.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Share links API from Lightdash — 2 operation(s) for share links.
   name: Lightdash Share links API
   slug: lightdash-share-links-api
-- description: Spaces allow you to organize charts and dashboards within a project. They also allow granular access to content by allowing you to create private spaces, which are only accessible to the creator and a
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: Spaces allow you to organize charts and dashboards within a project. They also allow granular access to content by allowing you to create private spaces, which are only accessible to the creator and a
   name: Lightdash Spaces API
   slug: lightdash-spaces-api
-- description: The Spotlight API from Lightdash — 1 operation(s) for spotlight.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Spotlight API from Lightdash — 1 operation(s) for spotlight.
   name: Lightdash Spotlight API
   slug: lightdash-spotlight-api
-- description: The SQL runner API from Lightdash — 18 operation(s) for sql runner.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The SQL runner API from Lightdash — 18 operation(s) for sql runner.
   name: Lightdash SQL runner API
   slug: lightdash-sql-runner-api
-- description: The SSH Keypairs API from Lightdash — 1 operation(s) for ssh keypairs.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The SSH Keypairs API from Lightdash — 1 operation(s) for ssh keypairs.
   name: Lightdash SSH Keypairs API
   slug: lightdash-ssh-keypairs-api
-- description: The User attributes API from Lightdash — 2 operation(s) for user attributes.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The User attributes API from Lightdash — 2 operation(s) for user attributes.
   name: Lightdash User attributes API
   slug: lightdash-user-attributes-api
-- description: The User Groups API from Lightdash — 4 operation(s) for user groups.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The User Groups API from Lightdash — 4 operation(s) for user groups.
   name: Lightdash User Groups API
   slug: lightdash-user-groups-api
-- description: The v2 API from Lightdash — 47 operation(s) for v2.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The v2 API from Lightdash — 47 operation(s) for v2.
   name: Lightdash v2 API
   slug: lightdash-v2-api
-- description: The Validation API from Lightdash — 2 operation(s) for validation.
+- baseURL: https://app.lightdash.cloud
+  baseurl_source: declared
+  description: The Validation API from Lightdash — 2 operation(s) for validation.
   name: Lightdash Validation API
   slug: lightdash-validation-api
 artifact_total: 124
@@ -528,7 +628,7 @@ score:
       marker_coverage: 0.0
       total: 50
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightdash/refs/heads/main/screenshots/lightdash-2026-06-20T184520.png
 security:

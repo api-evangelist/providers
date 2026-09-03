@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 34 operations · 14 acting
 api_count: 1
 apis:
-- description: Items (GL-mapped products/services) and revenue categories.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: Items (GL-mapped products/services) and revenue categories.
   name: Tabs Catalog API
   slug: tabs-platform-catalog-api
-- description: Customer agreements defining dates, terms, obligations, and billing terms.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: Customer agreements defining dates, terms, obligations, and billing terms.
   name: Tabs Contracts API
   slug: tabs-platform-contracts-api
-- description: The businesses you bill, with contacts, addresses, and external IDs.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: The businesses you bill, with contacts, addresses, and external IDs.
   name: Tabs Customers API
   slug: tabs-platform-customers-api
-- description: Itemized requests for payment derived from obligations, with actions and PDF export.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: Itemized requests for payment derived from obligations, with actions and PDF export.
   name: Tabs Invoices API
   slug: tabs-platform-invoices-api
-- description: Commitments linked to GL items that generate invoice line items.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: Commitments linked to GL items that generate invoice line items.
   name: Tabs Obligations API
   slug: tabs-platform-obligations-api
-- description: Receipts (often bank-imported) that settle invoices.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: Receipts (often bank-imported) that settle invoices.
   name: Tabs Payments API
   slug: tabs-platform-payments-api
-- description: ASC 606 performance obligations, recognized revenue, ARR and cash-forecast reporting.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: ASC 606 performance obligations, recognized revenue, ARR and cash-forecast reporting.
   name: Tabs Revenue Recognition API
   slug: tabs-platform-revenue-recognition-api
-- description: Consumption records that feed usage-based and metered billing.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: declared
+  description: Consumption records that feed usage-based and metered billing.
   name: Tabs Usage Events API
   slug: tabs-platform-usage-events-api
 artifact_total: 22
@@ -192,7 +208,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

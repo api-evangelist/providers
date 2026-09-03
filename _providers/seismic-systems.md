@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The tokens API from Seismic Systems — 2 operation(s) for tokens.
+- baseURL: https://testnet-1.seismictest.net/rpc
+  baseurl_source: declared
+  description: The tokens API from Seismic Systems — 2 operation(s) for tokens.
   name: Seismic Systems tokens API
   slug: seismic-systems-tokens-api
 artifact_total: 7
@@ -160,7 +162,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +188,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/seismic-systems/refs/heads/main/screenshots/seismic-systems-2026-09-02T154810.png
 security:
 - kind: authentication
   name: Seismic Systems Authentication

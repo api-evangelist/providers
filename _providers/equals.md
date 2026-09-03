@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,9 @@ apis:
 - description: Hosted, remote Model Context Protocol server that gives AI assistants direct access to an Equals workspace — search and list workbooks including team-trusted analyses, list connected datasources and e
   name: Equals MCP Server
   slug: equals-mcp-server
-- description: Facts the Equals AI analyst remembers about a workspace.
+- baseURL: https://go.equals.com/api/v1
+  baseurl_source: declared
+  description: Facts the Equals AI analyst remembers about a workspace.
   name: Equals Memories API
   slug: equals-memories-api
 artifact_total: 8
@@ -248,7 +250,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/screenshots/equals-2026-07-25T213540.png
 security:

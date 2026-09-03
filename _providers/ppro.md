@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,61 +36,97 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 21
 apis:
-- description: The Authorization Endpoints API from PPRO — 5 operation(s) for authorization endpoints.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Authorization Endpoints API from PPRO — 5 operation(s) for authorization endpoints.
   name: PPRO Authorization Endpoints API
   slug: ppro-authorization-endpoints-api
-- description: The Capture Endpoints API from PPRO — 2 operation(s) for capture endpoints.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Capture Endpoints API from PPRO — 2 operation(s) for capture endpoints.
   name: PPRO Capture Endpoints API
   slug: ppro-capture-endpoints-api
-- description: Endpoints for generating and retrieving dispute reports
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: Endpoints for generating and retrieving dispute reports
   name: PPRO Dispute Reports API
   slug: ppro-dispute-reports-api
-- description: The Disputes API from PPRO — 6 operation(s) for disputes.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Disputes API from PPRO — 6 operation(s) for disputes.
   name: PPRO Disputes API
   slug: ppro-disputes-api
-- description: The Enrollment Endpoints API from PPRO — 2 operation(s) for enrollment endpoints.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Enrollment Endpoints API from PPRO — 2 operation(s) for enrollment endpoints.
   name: PPRO Enrollment Endpoints API
   slug: ppro-enrollment-endpoints-api
-- description: The Internal API from PPRO — 4 operation(s) for internal.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Internal API from PPRO — 4 operation(s) for internal.
   name: PPRO Internal API
   slug: ppro-internal-api
-- description: Merchant management
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: Merchant management
   name: PPRO Merchants API
   slug: ppro-merchants-api
-- description: The Payment Agreement Revocations API from PPRO — 1 operation(s) for payment agreement revocations.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Payment Agreement Revocations API from PPRO — 1 operation(s) for payment agreement revocations.
   name: PPRO Payment Agreement Revocations API
   slug: ppro-payment-agreement-revocations-api
-- description: The Payment Agreements API from PPRO — 2 operation(s) for payment agreements.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Payment Agreements API from PPRO — 2 operation(s) for payment agreements.
   name: PPRO Payment Agreements API
   slug: ppro-payment-agreements-api
-- description: The payment-charge-controller API from PPRO — 1 operation(s) for payment-charge-controller.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The payment-charge-controller API from PPRO — 1 operation(s) for payment-charge-controller.
   name: PPRO Payment Charge Controller API
   slug: ppro-payment-charge-controller-api
-- description: The Payment Charges API from PPRO — 1 operation(s) for payment charges.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Payment Charges API from PPRO — 1 operation(s) for payment charges.
   name: PPRO Payment Charges API
   slug: ppro-payment-charges-api
-- description: The Payment Instruments API from PPRO — 2 operation(s) for payment instruments.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Payment Instruments API from PPRO — 2 operation(s) for payment instruments.
   name: PPRO Payment Instruments API
   slug: ppro-payment-instruments-api
-- description: The Payment Sessions API from PPRO — 3 operation(s) for payment sessions.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Payment Sessions API from PPRO — 3 operation(s) for payment sessions.
   name: PPRO Payment Sessions API
   slug: ppro-payment-sessions-api
-- description: Person management
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: Person management
   name: PPRO People API
   slug: ppro-people-api
-- description: Platform management
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: Platform management
   name: PPRO Platforms API
   slug: ppro-platforms-api
-- description: PSP management
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: PSP management
   name: PPRO PS Ps API
   slug: ppro-psps-api
-- description: The Refund Endpoints API from PPRO — 2 operation(s) for refund endpoints.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Refund Endpoints API from PPRO — 2 operation(s) for refund endpoints.
   name: PPRO Refund Endpoints API
   slug: ppro-refund-endpoints-api
-- description: The Void Endpoints API from PPRO — 2 operation(s) for void endpoints.
+- baseURL: https://api.eu.ppro.com
+  baseurl_source: declared
+  description: The Void Endpoints API from PPRO — 2 operation(s) for void endpoints.
   name: PPRO Void Endpoints API
   slug: ppro-void-endpoints-api
 artifact_total: 26
@@ -255,24 +304,24 @@ rate_limits:
   name: Ppro Rate Limits
   slug: ppro-rate-limits
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.8
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 61.1
+    contract_quality: 64.5
     developer_ergonomics: 54.2
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 53.8
+  previous_composite: 54.0
   provenance:
     conformance: first-party
     contracts:
@@ -289,8 +338,9 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ppro/refs/heads/main/screenshots/ppro-2026-09-02T151851.png
 security:
 - kind: authentication
   name: Ppro Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 2
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 143 operations · 73 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Categories API from Shortcut Software — 4 operation(s) for categories.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Categories API from Shortcut Software — 4 operation(s) for categories.
   name: Shortcut Software Categories API
   slug: shortcut-software-categories-api
-- description: The Custom Fields API from Shortcut Software — 2 operation(s) for custom fields.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Custom Fields API from Shortcut Software — 2 operation(s) for custom fields.
   name: Shortcut Software Custom Fields API
   slug: shortcut-software-custom-fields-api
-- description: The Documents API from Shortcut Software — 4 operation(s) for documents.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Documents API from Shortcut Software — 4 operation(s) for documents.
   name: Shortcut Software Documents API
   slug: shortcut-software-documents-api
-- description: The Entity Templates API from Shortcut Software — 4 operation(s) for entity templates.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Entity Templates API from Shortcut Software — 4 operation(s) for entity templates.
   name: Shortcut Software Entity Templates API
   slug: shortcut-software-entity-templates-api
-- description: The Epic Workflow API from Shortcut Software — 1 operation(s) for epic workflow.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Epic Workflow API from Shortcut Software — 1 operation(s) for epic workflow.
   name: Shortcut Software Epic Workflow API
   slug: shortcut-software-epic-workflow-api
-- description: The Epics API from Shortcut Software — 9 operation(s) for epics.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Epics API from Shortcut Software — 9 operation(s) for epics.
   name: Shortcut Software Epics API
   slug: shortcut-software-epics-api
-- description: The External Link API from Shortcut Software — 1 operation(s) for external link.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The External Link API from Shortcut Software — 1 operation(s) for external link.
   name: Shortcut Software External Link API
   slug: shortcut-software-external-link-api
-- description: The Files API from Shortcut Software — 2 operation(s) for files.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Files API from Shortcut Software — 2 operation(s) for files.
   name: Shortcut Software Files API
   slug: shortcut-software-files-api
-- description: The Groups API from Shortcut Software — 3 operation(s) for groups.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Groups API from Shortcut Software — 3 operation(s) for groups.
   name: Shortcut Software Groups API
   slug: shortcut-software-groups-api
-- description: The Health API from Shortcut Software — 1 operation(s) for health.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Health API from Shortcut Software — 1 operation(s) for health.
   name: Shortcut Software Health API
   slug: shortcut-software-health-api
-- description: The Integrations API from Shortcut Software — 2 operation(s) for integrations.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Integrations API from Shortcut Software — 2 operation(s) for integrations.
   name: Shortcut Software Integrations API
   slug: shortcut-software-integrations-api
-- description: The Iterations API from Shortcut Software — 5 operation(s) for iterations.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Iterations API from Shortcut Software — 5 operation(s) for iterations.
   name: Shortcut Software Iterations API
   slug: shortcut-software-iterations-api
-- description: The Key Results API from Shortcut Software — 1 operation(s) for key results.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Key Results API from Shortcut Software — 1 operation(s) for key results.
   name: Shortcut Software Key Results API
   slug: shortcut-software-key-results-api
-- description: The Labels API from Shortcut Software — 4 operation(s) for labels.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Labels API from Shortcut Software — 4 operation(s) for labels.
   name: Shortcut Software Labels API
   slug: shortcut-software-labels-api
-- description: The Linked Files API from Shortcut Software — 2 operation(s) for linked files.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Linked Files API from Shortcut Software — 2 operation(s) for linked files.
   name: Shortcut Software Linked Files API
   slug: shortcut-software-linked-files-api
-- description: The Member API from Shortcut Software — 1 operation(s) for member.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Member API from Shortcut Software — 1 operation(s) for member.
   name: Shortcut Software Member API
   slug: shortcut-software-member-api
-- description: The Members API from Shortcut Software — 2 operation(s) for members.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Members API from Shortcut Software — 2 operation(s) for members.
   name: Shortcut Software Members API
   slug: shortcut-software-members-api
-- description: The Milestones API from Shortcut Software — 3 operation(s) for milestones.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Milestones API from Shortcut Software — 3 operation(s) for milestones.
   name: Shortcut Software Milestones API
   slug: shortcut-software-milestones-api
-- description: The Objectives API from Shortcut Software — 5 operation(s) for objectives.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Objectives API from Shortcut Software — 5 operation(s) for objectives.
   name: Shortcut Software Objectives API
   slug: shortcut-software-objectives-api
-- description: The Projects API from Shortcut Software — 3 operation(s) for projects.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Projects API from Shortcut Software — 3 operation(s) for projects.
   name: Shortcut Software Projects API
   slug: shortcut-software-projects-api
-- description: The Repositories API from Shortcut Software — 2 operation(s) for repositories.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Repositories API from Shortcut Software — 2 operation(s) for repositories.
   name: Shortcut Software Repositories API
   slug: shortcut-software-repositories-api
-- description: The Search API from Shortcut Software — 7 operation(s) for search.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Search API from Shortcut Software — 7 operation(s) for search.
   name: Shortcut Software Search API
   slug: shortcut-software-search-api
-- description: The Stories API from Shortcut Software — 13 operation(s) for stories.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Stories API from Shortcut Software — 13 operation(s) for stories.
   name: Shortcut Software Stories API
   slug: shortcut-software-stories-api
-- description: The Story Links API from Shortcut Software — 2 operation(s) for story links.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Story Links API from Shortcut Software — 2 operation(s) for story links.
   name: Shortcut Software Story Links API
   slug: shortcut-software-story-links-api
-- description: The Workflows API from Shortcut Software — 2 operation(s) for workflows.
+- baseURL: https://api.app.shortcut.com
+  baseurl_source: declared
+  description: The Workflows API from Shortcut Software — 2 operation(s) for workflows.
   name: Shortcut Software Workflows API
   slug: shortcut-software-workflows-api
 artifact_total: 85
@@ -464,7 +514,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -474,7 +524,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 57.0
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -486,7 +536,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/screenshots/shortcut-software-2026-08-17T080443.png
 security:

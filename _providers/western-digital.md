@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 6 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 authorization and token operations.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token operations.
   name: western-digital Authentication API
   slug: western-digital-authentication-api
-- description: Retrieve dynamic service endpoint configuration.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: Retrieve dynamic service endpoint configuration.
   name: western-digital Configuration API
   slug: western-digital-configuration-api
-- description: Device registration and discovery.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: Device registration and discovery.
   name: western-digital Device API
   slug: western-digital-device-api
-- description: File and folder CRUD operations.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: File and folder CRUD operations.
   name: western-digital Files API
   slug: western-digital-files-api
-- description: Search files by parent directory.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: Search files by parent directory.
   name: western-digital Search API
   slug: western-digital-search-api
-- description: Create and manage file shares.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: Create and manage file shares.
   name: western-digital Sharing API
   slug: western-digital-sharing-api
-- description: User account information.
+- baseURL: https://device.mycloud.com
+  baseurl_source: declared
+  description: User account information.
   name: western-digital User API
   slug: western-digital-user-api
 artifact_total: 30
@@ -258,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/screenshots/western-digital-2026-06-20T201446.png
 security:

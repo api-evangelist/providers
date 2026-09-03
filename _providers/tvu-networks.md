@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,70 +35,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 21
 apis:
-- description: 'Session and token issuance for the TVU public HTTP API — obtain a SID (session ID) used as an HTTP request header, alongside the Authorization: Bearer AppSecret and AccessKey signature schemes documen'
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: 'Session and token issuance for the TVU public HTTP API — obtain a SID (session ID) used as an HTTP request header, alongside the Authorization: Bearer AppSecret and AccessKey signature schemes documen'
   name: TVU Networks Authentication
   slug: authentication
-- description: TVU Channel FAST playout — channel definition, scheduling and playout control for 24/7 linear and FAST channel distribution. Contract assembled from the 14 per-endpoint OpenAPI 3.0.1 exports TVU publi
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU Channel FAST playout — channel definition, scheduling and playout control for 24/7 linear and FAST channel distribution. Contract assembled from the 14 per-endpoint OpenAPI 3.0.1 exports TVU publi
   name: TVU Networks Channel API
   slug: channel-api
-- description: 'TVU Remote Commentator — event, session and audio-mix control for remote commentary contribution into a live production. Contract assembled from the 8 per-endpoint OpenAPI 3.0.1 exports TVU publishes '
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: 'TVU Remote Commentator — event, session and audio-mix control for remote commentary contribution into a live production. Contract assembled from the 8 per-endpoint OpenAPI 3.0.1 exports TVU publishes '
   name: TVU Networks Commentator API
   slug: commentator-api
-- description: Media export and thumbnail job submission — submit an export or thumbnail job with an optional idempotency uuid and callbackUrl webhook, then poll or receive the completed asset. Contract assembled fr
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: Media export and thumbnail job submission — submit an export or thumbnail job with an optional idempotency uuid and callbackUrl webhook, then poll or receive the completed asset. Contract assembled fr
   name: TVU Networks Export
   slug: export
-- description: TVU Grid device and transmission control — device listing and status, pairing tokens, grid metadata, geolocation of paired transmitters, live start/stop and real-time live parameters. Contract assembl
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU Grid device and transmission control — device listing and status, pairing tokens, grid metadata, geolocation of paired transmitters, live start/stop and real-time live parameters. Contract assembl
   name: TVU Networks Grid API
   slug: grid-api
-- description: Input and output module management — encoder profiles, input modules, output modules and preview decoders for TVU transmission endpoints. Contract assembled from the 23 per-endpoint OpenAPI 3.0.1 expo
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: Input and output module management — encoder profiles, input modules, output modules and preview decoders for TVU transmission endpoints. Contract assembled from the 23 per-endpoint OpenAPI 3.0.1 expo
   name: TVU Networks Input & Output Module API
   slug: input-output-module-api
-- description: Media information lookup — metadata and technical detail for a media asset held in the TVU platform. Contract assembled from the 2 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API docum
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: Media information lookup — metadata and technical detail for a media asset held in the TVU platform. Contract assembled from the 2 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API docum
   name: TVU Networks Media Info
   slug: media-info
-- description: Media service endpoints backing TVU Producer — tvucc-media and tvucc-share output settings, share video start/stop, go-live and account information. Contract assembled from the 11 per-endpoint OpenAPI
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: Media service endpoints backing TVU Producer — tvucc-media and tvucc-share output settings, share video start/stop, go-live and account information. Contract assembled from the 11 per-endpoint OpenAPI
   name: TVU Networks Media Service For Producer
   slug: media-service-for-producer
-- description: TVU MediaHub cloud routing — create and manage source objects, outputs, encoding profiles, destinations, projects and routes, and connect or disconnect live signal paths between any input and any outp
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU MediaHub cloud routing — create and manage source objects, outputs, encoding profiles, destinations, projects and routes, and connect or disconnect live signal paths between any input and any outp
   name: TVU Networks MediaHub API
   slug: mediahub-api
-- description: TVU MediaMind story creation — create and manage stories that assemble media, transcripts and metadata for newsroom production. Contract assembled from the 1 per-endpoint OpenAPI 3.0.1 exports TVU pub
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU MediaMind story creation — create and manage stories that assemble media, transcripts and metadata for newsroom production. Contract assembled from the 1 per-endpoint OpenAPI 3.0.1 exports TVU pub
   name: TVU Networks MediaMind Story Creation
   slug: mediamind-story-creation
-- description: MOS (Media Object Server) gateway — newsroom computer system integration for TVU Channel and playout. Contract assembled from the 3 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API docu
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: MOS (Media Object Server) gateway — newsroom computer system integration for TVU Channel and playout. Contract assembled from the 3 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API docu
   name: TVU Networks MOS Gateway API
   slug: mos-gateway-api
-- description: TVU object and tangible model — the REST and GraphQL surface over TVU objects, tangibles, relationships and tags that gives every TVU resource (pack, receiver, grid, SDI port, shared memory) an addres
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU object and tangible model — the REST and GraphQL surface over TVU objects, tangibles, relationships and tags that gives every TVU resource (pack, receiver, grid, SDI port, shared memory) an addres
   name: TVU Networks Object API
   slug: object-api
-- description: TVU Partyline remote collaboration and cloud conferencing — party creation and membership, participant state, audio mixing and picture-in-picture control for live guest workflows. Contract assembled f
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU Partyline remote collaboration and cloud conferencing — party creation and membership, participant state, audio mixing and picture-in-picture control for live guest workflows. Contract assembled f
   name: TVU Networks Partyline API
   slug: partyline-api
-- description: TVU Producer cloud production switcher — programs, input sources, overlays, clip player and playlists, collaborators, followers and Producer AI, exposed through the graphql2rest operation set. Contrac
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU Producer cloud production switcher — programs, input sources, overlays, clip player and playlists, collaborators, followers and Producer AI, exposed through the graphql2rest operation set. Contrac
   name: TVU Networks Producer API
   slug: producer-api
-- description: Publicly reachable TVU endpoints that require no session — health, version and no-login status lookups. Contract assembled from the 4 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API do
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: Publicly reachable TVU endpoints that require no session — health, version and no-login status lookups. Contract assembled from the 4 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API do
   name: TVU Networks Public Endpoints
   slug: public
-- description: SCTE-35 ad-marker insertion — enable SCTE on a channel and inject manual SCTE cues into a live playout stream. Contract assembled from the 2 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: SCTE-35 ad-marker insertion — enable SCTE on a channel and inject manual SCTE cues into a live playout stream. Contract assembled from the 2 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own
   name: TVU Networks ScteService API
   slug: scteservice-api
-- description: TVU Search / MediaMind media search and metadata — cross-type media content search, slug and recording management, speech transcription and face-recognition metadata, export and thumbnail jobs, and we
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU Search / MediaMind media search and metadata — cross-type media content search, slug and recording management, speech transcription and face-recognition metadata, export and thumbnail jobs, and we
   name: TVU Networks Search API
   slug: search-api
-- description: TVU shortcut operations — saved one-touch actions that trigger a composed TVU workflow. Contract assembled from the 5 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentation site
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU shortcut operations — saved one-touch actions that trigger a composed TVU workflow. Contract assembled from the 5 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentation site
   name: TVU Networks Shortcut API
   slug: shortcut-api
-- description: Ungrouped TVU public API endpoints — object service CRUD, resource estimation and metadata, dashboards proxy, and slug recording operations that TVU publishes outside a named folder in its API documen
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: Ungrouped TVU public API endpoints — object service CRUD, resource estimation and metadata, dashboards proxy, and slug recording operations that TVU publishes outside a named folder in its API documen
   name: TVU Networks Ungrouped Endpoints
   slug: uncategorized
-- description: TVU usage reporting — device usage information for billing and utilisation reporting. Contract assembled from the 1 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentation site.
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU usage reporting — device usage information for billing and utilisation reporting. Contract assembled from the 1 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentation site.
   name: TVU Networks UsageService API
   slug: usageservice-api
-- description: TVU workflow orchestration — define and run automated media workflows across the TVU ecosystem. Contract assembled from the 5 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentat
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: TVU workflow orchestration — define and run automated media workflows across the TVU ecosystem. Contract assembled from the 5 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentat
   name: TVU Networks Workflow API
   slug: workflow-api
 artifact_total: 26
@@ -221,21 +275,23 @@ rate_limits:
   slug: tvu-networks-rate-limits
 score:
   band: developing
-  composite: 45.4
+  composite: 45.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.1
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.1
+    contract_quality: 60.5
     developer_ergonomics: 58.9
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 28.9
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -246,7 +302,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/screenshots/tvu-networks-2026-09-02T164606.png
 security:
 - kind: authentication
   name: Tvu Networks Authentication

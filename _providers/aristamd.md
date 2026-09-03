@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -33,40 +44,64 @@ agentic_access:
   summary_line: 42 operations · 21 acting
 api_count: 1
 apis:
-- description: The Comments API from AristaMD — 1 operation(s) for comments.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Comments API from AristaMD — 1 operation(s) for comments.
   name: AristaMD Comments API
   slug: aristamd-comments-api
-- description: The Diagnostic API from AristaMD — 1 operation(s) for diagnostic.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Diagnostic API from AristaMD — 1 operation(s) for diagnostic.
   name: AristaMD Diagnostic API
   slug: aristamd-diagnostic-api
-- description: The EConsults API from AristaMD — 7 operation(s) for econsults.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The EConsults API from AristaMD — 7 operation(s) for econsults.
   name: AristaMD E Consults API
   slug: aristamd-econsults-api
-- description: The Intergy/Patients API from AristaMD — 1 operation(s) for intergy/patients.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Intergy/Patients API from AristaMD — 1 operation(s) for intergy/patients.
   name: AristaMD Intergy/Patients API
   slug: aristamd-intergy-patients-api
-- description: The Panelists API from AristaMD — 2 operation(s) for panelists.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Panelists API from AristaMD — 2 operation(s) for panelists.
   name: AristaMD Panelists API
   slug: aristamd-panelists-api
-- description: The Patients API from AristaMD — 7 operation(s) for patients.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Patients API from AristaMD — 7 operation(s) for patients.
   name: AristaMD Patients API
   slug: aristamd-patients-api
-- description: The Requests API from AristaMD — 1 operation(s) for requests.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Requests API from AristaMD — 1 operation(s) for requests.
   name: AristaMD Requests API
   slug: aristamd-requests-api
-- description: The Reviews API from AristaMD — 2 operation(s) for reviews.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Reviews API from AristaMD — 2 operation(s) for reviews.
   name: AristaMD Reviews API
   slug: aristamd-reviews-api
-- description: The Specialties API from AristaMD — 3 operation(s) for specialties.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Specialties API from AristaMD — 3 operation(s) for specialties.
   name: AristaMD Specialties API
   slug: aristamd-specialties-api
-- description: The Specialty API from AristaMD — 1 operation(s) for specialty.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Specialty API from AristaMD — 1 operation(s) for specialty.
   name: AristaMD Specialty API
   slug: aristamd-specialty-api
-- description: The Users API from AristaMD — 4 operation(s) for users.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Users API from AristaMD — 4 operation(s) for users.
   name: AristaMD Users API
   slug: aristamd-users-api
-- description: The Workup Checklists API from AristaMD — 3 operation(s) for workup checklists.
+- baseURL: https://api.aristamd.com
+  baseurl_source: declared
+  description: The Workup Checklists API from AristaMD — 3 operation(s) for workup checklists.
   name: AristaMD Workup Checklists API
   slug: aristamd-workup-checklists-api
 artifact_total: 31
@@ -240,7 +275,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -250,7 +285,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 39.6
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,7 +303,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aristamd/refs/heads/main/screenshots/aristamd-2026-08-07T161715.png
 security:

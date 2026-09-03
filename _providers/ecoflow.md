@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: Device discovery and binding
+- baseURL: https://api.ecoflow.com
+  baseurl_source: declared
+  description: Device discovery and binding
   name: EcoFlow Devices API
   slug: ecoflow-devices-api
-- description: Obtain MQTT streaming/command certificate
+- baseURL: https://api.ecoflow.com
+  baseurl_source: declared
+  description: Obtain MQTT streaming/command certificate
   name: EcoFlow MQTT API
   slug: ecoflow-mqtt-api
-- description: Read device property (quota) values and send device function commands
+- baseURL: https://api.ecoflow.com
+  baseurl_source: declared
+  description: Read device property (quota) values and send device function commands
   name: EcoFlow Quota API
   slug: ecoflow-quota-api
 artifact_total: 12
@@ -175,7 +181,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -185,7 +191,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 28.6
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/screenshots/ecoflow-2026-07-25T212755.png
 security:

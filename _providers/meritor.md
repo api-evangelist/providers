@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: Meritor was a leading global supplier of drivetrain, mobility, brak
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meritor.png
 layout: provider
 modified: '2026-04-28'
-name: meritor
+name: Meritor
 nav: Providers
 network: true
-overview: meritor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Meritor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: Cummins completes acquisition of Meritor COLUMBUS, Ind.
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meritor/refs/heads/main/screenshots/meritor-2026-06-20T185228.png
 security:

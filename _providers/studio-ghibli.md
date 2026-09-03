@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 10 operations
 api_count: 5
 apis:
-- description: Studio Ghibli theatrical films.
+- baseURL: https://ghibliapi.vercel.app
+  baseurl_source: declared
+  description: Studio Ghibli theatrical films.
   name: Studio Ghibli Films API
   slug: studio-ghibli-films-api
-- description: Settings and places that appear in Studio Ghibli films.
+- baseURL: https://ghibliapi.vercel.app
+  baseurl_source: declared
+  description: Settings and places that appear in Studio Ghibli films.
   name: Studio Ghibli Locations API
   slug: studio-ghibli-locations-api
-- description: Characters that appear in Studio Ghibli films.
+- baseURL: https://ghibliapi.vercel.app
+  baseurl_source: declared
+  description: Characters that appear in Studio Ghibli films.
   name: Studio Ghibli People API
   slug: studio-ghibli-people-api
-- description: Species classifications of characters appearing in Studio Ghibli films.
+- baseURL: https://ghibliapi.vercel.app
+  baseurl_source: declared
+  description: Species classifications of characters appearing in Studio Ghibli films.
   name: Studio Ghibli Species API
   slug: studio-ghibli-species-api
-- description: Vehicles featured in Studio Ghibli films.
+- baseURL: https://ghibliapi.vercel.app
+  baseurl_source: declared
+  description: Vehicles featured in Studio Ghibli films.
   name: Studio Ghibli Vehicles API
   slug: studio-ghibli-vehicles-api
 artifact_total: 54
@@ -334,7 +344,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/studio-ghibli/refs/heads/main/screenshots/studio-ghibli-2026-06-20T194625.png
 security:

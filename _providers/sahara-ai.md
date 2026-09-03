@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Discover models and compute providers available on the network.
+- baseURL: https://app.saharaai.com/developer/api
+  baseurl_source: declared
+  description: Discover models and compute providers available on the network.
   name: Sahara AI Discovery API
   slug: sahara-ai-discovery-api
-- description: OpenAI-compatible chat completion inference.
+- baseURL: https://app.saharaai.com/developer/api
+  baseurl_source: declared
+  description: OpenAI-compatible chat completion inference.
   name: Sahara AI Inference API
   slug: sahara-ai-inference-api
 artifact_total: 9
@@ -196,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sahara-ai/refs/heads/main/screenshots/sahara-ai-2026-08-17T081711.png
 security:

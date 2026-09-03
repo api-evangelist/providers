@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Auswide Bank Banking Account Balances API
   slug: auswide-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Auswide Bank Banking Account Direct Debits API
   slug: auswide-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Auswide Bank Banking Account Scheduled Payments API
   slug: auswide-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Auswide Bank Banking Account Transactions API
   slug: auswide-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Auswide Bank Banking Accounts API
   slug: auswide-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Auswide Bank Banking Payees API
   slug: auswide-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.auswidebank.com.au/openbanking/cds-au/v1
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Auswide Bank Banking Products API
   slug: auswide-bank-banking-products-api
 artifact_total: 19
@@ -225,7 +239,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
 security:

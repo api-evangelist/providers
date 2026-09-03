@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -34,22 +45,34 @@ agentic_access:
   summary_line: 18 operations · 10 acting
 api_count: 2
 apis:
-- description: The Interview API from micro1 — 5 operation(s) for interview.
+- baseURL: https://public.api.micro1.ai
+  baseurl_source: declared
+  description: The Interview API from micro1 — 5 operation(s) for interview.
   name: micro1 Interview API
   slug: micro1-interview-api
-- description: The Interview Reports API from micro1 — 2 operation(s) for interview reports.
+- baseURL: https://public.api.micro1.ai
+  baseurl_source: declared
+  description: The Interview Reports API from micro1 — 2 operation(s) for interview reports.
   name: micro1 Interview Reports API
   slug: micro1-interview-reports-api
-- description: The Invite Candidate API from micro1 — 2 operation(s) for invite candidate.
+- baseURL: https://public.api.micro1.ai
+  baseurl_source: declared
+  description: The Invite Candidate API from micro1 — 2 operation(s) for invite candidate.
   name: micro1 Invite Candidate API
   slug: micro1-invite-candidate-api
-- description: The Job API from micro1 — 1 operation(s) for job.
+- baseURL: https://public.api.micro1.ai
+  baseurl_source: declared
+  description: The Job API from micro1 — 1 operation(s) for job.
   name: micro1 Job API
   slug: micro1-job-api
-- description: The Job Applicant API from micro1 — 3 operation(s) for job applicant.
+- baseURL: https://public.api.micro1.ai
+  baseurl_source: declared
+  description: The Job Applicant API from micro1 — 3 operation(s) for job applicant.
   name: micro1 Job Applicant API
   slug: micro1-job-applicant-api
-- description: The Webhook API from micro1 — 3 operation(s) for webhook.
+- baseURL: https://public.api.micro1.ai
+  baseurl_source: declared
+  description: The Webhook API from micro1 — 3 operation(s) for webhook.
   name: micro1 Webhook API
   slug: micro1-webhook-api
 artifact_total: 12
@@ -198,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -208,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 43.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,7 +243,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro1/refs/heads/main/screenshots/micro1-2026-08-07T172821.png
 security:

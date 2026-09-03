@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 111 operations · 65 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The authz API from Weaviate — 16 operation(s) for authz.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The authz API from Weaviate — 16 operation(s) for authz.
   name: Weaviate authz API
   slug: weaviate-authz-api
-- description: The backups API from Weaviate — 3 operation(s) for backups.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The backups API from Weaviate — 3 operation(s) for backups.
   name: Weaviate backups API
   slug: weaviate-backups-api
-- description: The batch API from Weaviate — 2 operation(s) for batch.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The batch API from Weaviate — 2 operation(s) for batch.
   name: Weaviate batch API
   slug: weaviate-batch-api
-- description: The classifications API from Weaviate — 2 operation(s) for classifications.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The classifications API from Weaviate — 2 operation(s) for classifications.
   name: Weaviate classifications API
   slug: weaviate-classifications-api
-- description: The cluster API from Weaviate — 1 operation(s) for cluster.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The cluster API from Weaviate — 1 operation(s) for cluster.
   name: Weaviate cluster API
   slug: weaviate-cluster-api
-- description: The discovery API from Weaviate — 1 operation(s) for discovery.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The discovery API from Weaviate — 1 operation(s) for discovery.
   name: Weaviate discovery API
   slug: weaviate-discovery-api
-- description: The distributedTasks API from Weaviate — 1 operation(s) for distributedtasks.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The distributedTasks API from Weaviate — 1 operation(s) for distributedtasks.
   name: Weaviate distributedTasks API
   slug: weaviate-distributedtasks-api
-- description: The export API from Weaviate — 2 operation(s) for export.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The export API from Weaviate — 2 operation(s) for export.
   name: Weaviate export API
   slug: weaviate-export-api
-- description: The graphql API from Weaviate — 2 operation(s) for graphql.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The graphql API from Weaviate — 2 operation(s) for graphql.
   name: Weaviate graphql API
   slug: weaviate-graphql-api
-- description: The mcp API from Weaviate — 1 operation(s) for mcp.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The mcp API from Weaviate — 1 operation(s) for mcp.
   name: Weaviate mcp API
   slug: weaviate-mcp-api
-- description: The meta API from Weaviate — 1 operation(s) for meta.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The meta API from Weaviate — 1 operation(s) for meta.
   name: Weaviate meta API
   slug: weaviate-meta-api
-- description: The namespaces API from Weaviate — 2 operation(s) for namespaces.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The namespaces API from Weaviate — 2 operation(s) for namespaces.
   name: Weaviate namespaces API
   slug: weaviate-namespaces-api
-- description: The nodes API from Weaviate — 2 operation(s) for nodes.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The nodes API from Weaviate — 2 operation(s) for nodes.
   name: Weaviate nodes API
   slug: weaviate-nodes-api
-- description: The objects API from Weaviate — 7 operation(s) for objects.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The objects API from Weaviate — 7 operation(s) for objects.
   name: Weaviate objects API
   slug: weaviate-objects-api
-- description: The oidc API from Weaviate — 1 operation(s) for oidc.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The oidc API from Weaviate — 1 operation(s) for oidc.
   name: Weaviate oidc API
   slug: weaviate-oidc-api
-- description: The references API from Weaviate — 1 operation(s) for references.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The references API from Weaviate — 1 operation(s) for references.
   name: Weaviate references API
   slug: weaviate-references-api
-- description: The replication API from Weaviate — 7 operation(s) for replication.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The replication API from Weaviate — 7 operation(s) for replication.
   name: Weaviate replication API
   slug: weaviate-replication-api
-- description: The schema API from Weaviate — 12 operation(s) for schema.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The schema API from Weaviate — 12 operation(s) for schema.
   name: Weaviate schema API
   slug: weaviate-schema-api
-- description: The tokenize API from Weaviate — 1 operation(s) for tokenize.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The tokenize API from Weaviate — 1 operation(s) for tokenize.
   name: Weaviate tokenize API
   slug: weaviate-tokenize-api
-- description: The users API from Weaviate — 6 operation(s) for users.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The users API from Weaviate — 6 operation(s) for users.
   name: Weaviate users API
   slug: weaviate-users-api
-- description: The Weaviate REST API API from Weaviate — 1 operation(s) for weaviate rest api.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Weaviate REST API API from Weaviate — 1 operation(s) for weaviate rest api.
   name: Weaviate Weaviate REST API API
   slug: weaviate-weaviate-rest-api-api
-- description: The .well Known API from Weaviate — 3 operation(s) for .well known.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The .well Known API from Weaviate — 3 operation(s) for .well known.
   name: Weaviate .well Known API
   slug: weaviate-well-known-api
 artifact_total: 505
@@ -1682,7 +1726,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:

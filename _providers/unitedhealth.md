@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: FHIR R4 clinical data including conditions, observations, and medications
+- baseURL: https://api.uhc.com/fhir/R4
+  baseurl_source: declared
+  description: FHIR R4 clinical data including conditions, observations, and medications
   name: UnitedHealth Group Clinical Data API
   slug: unitedhealth-clinical-data-api
-- description: FHIR R4 Drug Formulary API for prescription drug coverage information
+- baseURL: https://api.uhc.com/fhir/R4
+  baseurl_source: declared
+  description: FHIR R4 Drug Formulary API for prescription drug coverage information
   name: UnitedHealth Group Drug Formulary API
   slug: unitedhealth-drug-formulary-api
-- description: FHIR R4 Patient Access API for member health data (CMS-9115-F)
+- baseURL: https://api.uhc.com/fhir/R4
+  baseurl_source: declared
+  description: FHIR R4 Patient Access API for member health data (CMS-9115-F)
   name: UnitedHealth Group Patient Access API
   slug: unitedhealth-patient-access-api
-- description: FHIR R4 Provider Directory API implementing Da Vinci PDex Plan Net IG
+- baseURL: https://api.uhc.com/fhir/R4
+  baseurl_source: declared
+  description: FHIR R4 Provider Directory API implementing Da Vinci PDex Plan Net IG
   name: UnitedHealth Group Provider Directory API
   slug: unitedhealth-provider-directory-api
 artifact_total: 38
@@ -247,7 +255,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/screenshots/unitedhealth-2026-06-20T200101.png
 security:

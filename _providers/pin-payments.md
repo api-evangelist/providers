@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 24 operations · 11 acting
 api_count: 1
 apis:
-- description: Tokenize and retrieve stored card details.
+- baseURL: https://api.pinpayments.com/1
+  baseurl_source: declared
+  description: Tokenize and retrieve stored card details.
   name: Pin Payments Cards API
   slug: pin-payments-cards-api
-- description: Create and manage charges against cards or customers.
+- baseURL: https://api.pinpayments.com/1
+  baseurl_source: declared
+  description: Create and manage charges against cards or customers.
   name: Pin Payments Charges API
   slug: pin-payments-charges-api
-- description: Store customer profiles with payment sources for repeat billing.
+- baseURL: https://api.pinpayments.com/1
+  baseurl_source: declared
+  description: Store customer profiles with payment sources for repeat billing.
   name: Pin Payments Customers API
   slug: pin-payments-customers-api
-- description: Issue and inspect refunds against charges.
+- baseURL: https://api.pinpayments.com/1
+  baseurl_source: declared
+  description: Issue and inspect refunds against charges.
   name: Pin Payments Refunds API
   slug: pin-payments-refunds-api
 artifact_total: 15
@@ -184,7 +192,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/screenshots/pin-payments-2026-06-20T191711.png
 security:

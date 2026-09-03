@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,43 +48,69 @@ apis:
 - description: The SimilarWeb Batch API is optimized for large-scale bulk data extraction, supporting jobs of up to one million domains per request. It delivers data asynchronously to cloud storage destinations incl
   name: SimilarWeb Batch API
   slug: similarweb-batch-api
-- description: Account credits, capabilities, and usage information
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Account credits, capabilities, and usage information
   name: SimilarWeb Account API
   slug: similarweb-account-api
-- description: Mobile app downloads, active users, sessions, and demographics
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Mobile app downloads, active users, sessions, and demographics
   name: SimilarWeb App Intelligence API
   slug: similarweb-app-intelligence-api
-- description: Batch API credit management
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Batch API credit management
   name: SimilarWeb Credits API
   slug: similarweb-credits-api
-- description: Geographic distribution of website traffic
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Geographic distribution of website traffic
   name: SimilarWeb Geography API
   slug: similarweb-geography-api
-- description: Manage cloud storage integrations (S3, GCS, Snowflake)
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Manage cloud storage integrations (S3, GCS, Snowflake)
   name: SimilarWeb Integrations API
   slug: similarweb-integrations-api
-- description: Keyword analytics including organic and paid keyword data
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Keyword analytics including organic and paid keyword data
   name: SimilarWeb Keywords API
   slug: similarweb-keywords-api
-- description: Lead enrichment combining firmographics and web analytics
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Lead enrichment combining firmographics and web analytics
   name: SimilarWeb Lead Enrichment API
   slug: similarweb-lead-enrichment-api
-- description: Global, country, and industry rank data
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Global, country, and industry rank data
   name: SimilarWeb Rankings API
   slug: similarweb-rankings-api
-- description: Submit, track, and retrieve bulk data report requests
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Submit, track, and retrieve bulk data report requests
   name: SimilarWeb Reports API
   slug: similarweb-reports-api
-- description: Similar website discovery
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Similar website discovery
   name: SimilarWeb Similar Sites API
   slug: similarweb-similar-sites-api
-- description: Website traffic visits, bounce rate, pages per visit, visit duration
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Website traffic visits, bounce rate, pages per visit, visit duration
   name: SimilarWeb Traffic and Engagement API
   slug: similarweb-traffic-and-engagement-api
-- description: Marketing channel traffic breakdown including organic, paid, referral, social, and display
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Marketing channel traffic breakdown including organic, paid, referral, social, and display
   name: SimilarWeb Traffic Sources API
   slug: similarweb-traffic-sources-api
-- description: Webhook subscription management for data-ready notifications
+- baseURL: https://api.similarweb.com
+  baseurl_source: declared
+  description: Webhook subscription management for data-ready notifications
   name: SimilarWeb Webhooks API
   slug: similarweb-webhooks-api
 artifact_total: 45
@@ -386,7 +412,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -396,7 +422,7 @@ score:
     discoverability: 75.9
     governance: 28.0
     operational_transparency: 65.8
-  previous_composite: 67.9
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,7 +434,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/similarweb/refs/heads/main/screenshots/similarweb-2026-06-20T193927.png
 security:

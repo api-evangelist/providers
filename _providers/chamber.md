@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Check budget allocations and remaining GPU hours
+- baseURL: https://api.usechamber.io/v1
+  baseurl_source: declared
+  description: Check budget allocations and remaining GPU hours
   name: Chamber Capacity API
   slug: chamber-capacity-api
-- description: Service health check
+- baseURL: https://api.usechamber.io/v1
+  baseurl_source: declared
+  description: Service health check
   name: Chamber Health API
   slug: chamber-health-api
-- description: Query GPU utilization, memory, temperature, and power metrics
+- baseURL: https://api.usechamber.io/v1
+  baseurl_source: declared
+  description: Query GPU utilization, memory, temperature, and power metrics
   name: Chamber Metrics API
   slug: chamber-metrics-api
-- description: List, retrieve, and get statistics for GPU workloads
+- baseURL: https://api.usechamber.io/v1
+  baseurl_source: declared
+  description: List, retrieve, and get statistics for GPU workloads
   name: Chamber Workloads API
   slug: chamber-workloads-api
 artifact_total: 12
@@ -224,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:

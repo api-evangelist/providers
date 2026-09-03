@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -50,88 +50,144 @@ apis:
 - description: A Python SDK that enables developers to build plugins that execute natively within the Canvas EMR infrastructure. Supports an event-driven architecture with over 650 clinical and operational events, D
   name: Canvas Medical SDK
   slug: canvas-medical-sdk
-- description: Allergy and intolerance records
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Allergy and intolerance records
   name: Canvas Medical AllergyIntolerance API
   slug: canvas-medical-allergyintolerance-api
-- description: Appointment scheduling and management
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Appointment scheduling and management
   name: Canvas Medical Appointment API
   slug: canvas-medical-appointment-api
-- description: Care plan management
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Care plan management
   name: Canvas Medical CarePlan API
   slug: canvas-medical-careplan-api
-- description: Care team coordination
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Care team coordination
   name: Canvas Medical CareTeam API
   slug: canvas-medical-careteam-api
-- description: Insurance claims and billing
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Insurance claims and billing
   name: Canvas Medical Claim API
   slug: canvas-medical-claim-api
-- description: Communications with or about a patient
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Communications with or about a patient
   name: Canvas Medical Communication API
   slug: canvas-medical-communication-api
-- description: Patient conditions, problems, and diagnoses
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Patient conditions, problems, and diagnoses
   name: Canvas Medical Condition API
   slug: canvas-medical-condition-api
-- description: Patient consent records
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Patient consent records
   name: Canvas Medical Consent API
   slug: canvas-medical-consent-api
-- description: Insurance coverage records
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Insurance coverage records
   name: Canvas Medical Coverage API
   slug: canvas-medical-coverage-api
-- description: Diagnostic test reports
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Diagnostic test reports
   name: Canvas Medical DiagnosticReport API
   slug: canvas-medical-diagnosticreport-api
-- description: Clinical documents and attachments
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Clinical documents and attachments
   name: Canvas Medical DocumentReference API
   slug: canvas-medical-documentreference-api
-- description: Clinical encounters and visits
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Clinical encounters and visits
   name: Canvas Medical Encounter API
   slug: canvas-medical-encounter-api
-- description: Patient care goals
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Patient care goals
   name: Canvas Medical Goal API
   slug: canvas-medical-goal-api
-- description: Immunization records
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Immunization records
   name: Canvas Medical Immunization API
   slug: canvas-medical-immunization-api
-- description: Physical practice locations
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Physical practice locations
   name: Canvas Medical Location API
   slug: canvas-medical-location-api
-- description: Medication prescriptions and orders
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Medication prescriptions and orders
   name: Canvas Medical MedicationRequest API
   slug: canvas-medical-medicationrequest-api
-- description: FHIR server capabilities
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: FHIR server capabilities
   name: Canvas Medical Metadata API
   slug: canvas-medical-metadata-api
-- description: Clinical observations, vitals, and lab results
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Clinical observations, vitals, and lab results
   name: Canvas Medical Observation API
   slug: canvas-medical-observation-api
-- description: Healthcare organization information
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Healthcare organization information
   name: Canvas Medical Organization API
   slug: canvas-medical-organization-api
-- description: Patient demographic and administrative data
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Patient demographic and administrative data
   name: Canvas Medical Patient API
   slug: canvas-medical-patient-api
-- description: Healthcare provider information
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Healthcare provider information
   name: Canvas Medical Practitioner API
   slug: canvas-medical-practitioner-api
-- description: Clinical procedures performed
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Clinical procedures performed
   name: Canvas Medical Procedure API
   slug: canvas-medical-procedure-api
-- description: Structured data collection forms
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Structured data collection forms
   name: Canvas Medical Questionnaire API
   slug: canvas-medical-questionnaire-api
-- description: Patient responses to questionnaires
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Patient responses to questionnaires
   name: Canvas Medical QuestionnaireResponse API
   slug: canvas-medical-questionnaireresponse-api
-- description: Practitioner availability schedules
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Practitioner availability schedules
   name: Canvas Medical Schedule API
   slug: canvas-medical-schedule-api
-- description: Orders for laboratory, imaging, and referrals
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Orders for laboratory, imaging, and referrals
   name: Canvas Medical ServiceRequest API
   slug: canvas-medical-servicerequest-api
-- description: Available appointment time slots
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Available appointment time slots
   name: Canvas Medical Slot API
   slug: canvas-medical-slot-api
-- description: Clinical and administrative tasks
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Clinical and administrative tasks
   name: Canvas Medical Task API
   slug: canvas-medical-task-api
 arazzos:
@@ -513,7 +569,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -523,7 +579,7 @@ score:
     discoverability: 75.9
     governance: 28.0
     operational_transparency: 42.1
-  previous_composite: 67.6
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -547,7 +603,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/screenshots/canvas-medical-2026-06-20T173934.png
 security:

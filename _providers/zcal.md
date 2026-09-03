@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Unlimited shareable scheduling links, meeting polls, and customizable booking pages let invitees self-serve a time. This is a product surface managed through the Zcal web application; there is no docu
+- baseURL: https://zcal.co
+  baseurl_source: spec
+  description: Unlimited shareable scheduling links, meeting polls, and customizable booking pages let invitees self-serve a time. This is a product surface managed through the Zcal web application; there is no docu
   name: Zcal Scheduling Links
   slug: scheduling-links
-- description: 'Bookings (events) capture timing, hosts, attendees, location, and custom question responses. Booking data is surfaced to external systems through outbound webhooks rather than a queryable public REST '
+- baseURL: https://zcal.co
+  baseurl_source: spec
+  description: 'Bookings (events) capture timing, hosts, attendees, location, and custom question responses. Booking data is surfaced to external systems through outbound webhooks rather than a queryable public REST '
   name: Zcal Bookings
   slug: bookings
-- description: Outbound webhooks POST a JSON payload to a subscriber URL when a booking is created, rescheduled, or cancelled. Payloads can be verified with an optional HMAC SHA-256 signature via the x-zcal-webhook-
+- baseURL: https://zcal.co
+  baseurl_source: spec
+  description: Outbound webhooks POST a JSON payload to a subscriber URL when a booking is created, rescheduled, or cancelled. Payloads can be verified with an optional HMAC SHA-256 signature via the x-zcal-webhook-
   name: Zcal Integrations and Webhooks
   slug: integrations-webhooks
 artifact_total: 10
@@ -119,7 +125,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -135,8 +141,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/screenshots/zcal-2026-09-02T171458.png
 security:
 - kind: domain-security
   name: Zcal Domain Security

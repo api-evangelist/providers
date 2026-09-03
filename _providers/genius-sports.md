@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -59,82 +59,134 @@ apis:
 - description: Retrieves matches and options from the Genius Sports licensing server.
   name: Genius Sports Licensing API
   slug: licensing-api
-- description: The Competitions API from Genius Sports — 2 operation(s) for competitions.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Competitions API from Genius Sports — 2 operation(s) for competitions.
   name: Genius Sports Competitions API
   slug: genius-sports-competitions-api
-- description: The Competitors API from Genius Sports — 21 operation(s) for competitors.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Competitors API from Genius Sports — 21 operation(s) for competitors.
   name: Genius Sports Competitors API
   slug: genius-sports-competitors-api
-- description: Groups the operations related to competitors of type Double partnership. When creating a double partnership the competitors must be of the same sport, and the sport should allow creation of double par
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Groups the operations related to competitors of type Double partnership. When creating a double partnership the competitors must be of the same sport, and the sport should allow creation of double par
   name: Genius Sports competitors/doubles API
   slug: genius-sports-competitors-doubles-api
-- description: Groups the operations related to competitors of type Horse
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Groups the operations related to competitors of type Horse
   name: Genius Sports competitors/horses API
   slug: genius-sports-competitors-horses-api
-- description: Groups the operations related to competitors of type Player
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Groups the operations related to competitors of type Player
   name: Genius Sports competitors/players API
   slug: genius-sports-competitors-players-api
-- description: Groups the operations related to to-be-determined competitors.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Groups the operations related to to-be-determined competitors.
   name: Genius Sports competitors/tbds API
   slug: genius-sports-competitors-tbds-api
-- description: Groups the operations related to competitors of type Team
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Groups the operations related to competitors of type Team
   name: Genius Sports competitors/teams API
   slug: genius-sports-competitors-teams-api
-- description: The Contracts API from Genius Sports — 10 operation(s) for contracts.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Contracts API from Genius Sports — 10 operation(s) for contracts.
   name: Genius Sports Contracts API
   slug: genius-sports-contracts-api
-- description: The Fixtures API from Genius Sports — 7 operation(s) for fixtures.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Fixtures API from Genius Sports — 7 operation(s) for fixtures.
   name: Genius Sports Fixtures API
   slug: genius-sports-fixtures-api
-- description: The Groups API from Genius Sports — 2 operation(s) for groups.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Groups API from Genius Sports — 2 operation(s) for groups.
   name: Genius Sports Groups API
   slug: genius-sports-groups-api
-- description: The Ingestion API from Genius Sports — 12 operation(s) for ingestion.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Ingestion API from Genius Sports — 12 operation(s) for ingestion.
   name: Genius Sports Ingestion API
   slug: genius-sports-ingestion-api
-- description: The Localities API from Genius Sports — 2 operation(s) for localities.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Localities API from Genius Sports — 2 operation(s) for localities.
   name: Genius Sports Localities API
   slug: genius-sports-localities-api
-- description: Match data and broadcasts
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Match data and broadcasts
   name: Genius Sports Matches API
   slug: genius-sports-matches-api
-- description: Leagues, competitions, clubs, teams
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Leagues, competitions, clubs, teams
   name: Genius Sports Organization API
   slug: genius-sports-organization-api
-- description: The Organizations API from Genius Sports — 2 operation(s) for organizations.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Organizations API from Genius Sports — 2 operation(s) for organizations.
   name: Genius Sports Organizations API
   slug: genius-sports-organizations-api
-- description: The Pending requests API from Genius Sports — 1 operation(s) for pending requests.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Pending requests API from Genius Sports — 1 operation(s) for pending requests.
   name: Genius Sports Pending requests API
   slug: genius-sports-pending-requests-api
-- description: Players, officials, staff
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Players, officials, staff
   name: Genius Sports People API
   slug: genius-sports-people-api
-- description: The Persons API from Genius Sports — 5 operation(s) for persons.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Persons API from Genius Sports — 5 operation(s) for persons.
   name: Genius Sports Persons API
   slug: genius-sports-persons-api
-- description: The results from the this kind of matching are always probabilistic. However we consider matches that have above 90% match score as viable results.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The results from the this kind of matching are always probabilistic. However we consider matches that have above 90% match score as viable results.
   name: Genius Sports Probabilistic matching API
   slug: genius-sports-probabilistic-matching-api
-- description: The Rounds API from Genius Sports — 5 operation(s) for rounds.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Rounds API from Genius Sports — 5 operation(s) for rounds.
   name: Genius Sports Rounds API
   slug: genius-sports-rounds-api
-- description: The Seasons API from Genius Sports — 4 operation(s) for seasons.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Seasons API from Genius Sports — 4 operation(s) for seasons.
   name: Genius Sports Seasons API
   slug: genius-sports-seasons-api
-- description: The Sourcerequests API from Genius Sports — 1 operation(s) for sourcerequests.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Sourcerequests API from Genius Sports — 1 operation(s) for sourcerequests.
   name: Genius Sports Sourcerequests API
   slug: genius-sports-sourcerequests-api
-- description: The Sports API from Genius Sports — 2 operation(s) for sports.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Sports API from Genius Sports — 2 operation(s) for sports.
   name: Genius Sports Sports API
   slug: genius-sports-sports-api
-- description: Competition standings
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Competition standings
   name: Genius Sports Standings API
   slug: genius-sports-standings-api
-- description: Team and player statistics
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: Team and player statistics
   name: Genius Sports Statistics API
   slug: genius-sports-statistics-api
-- description: The Venues API from Genius Sports — 3 operation(s) for venues.
+- baseURL: https://fixtures.api.geniussports.com/v2
+  baseurl_source: declared
+  description: The Venues API from Genius Sports — 3 operation(s) for venues.
   name: Genius Sports Venues API
   slug: genius-sports-venues-api
 artifact_total: 67
@@ -310,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/screenshots/genius-sports-2026-06-20T181734.png
 security:

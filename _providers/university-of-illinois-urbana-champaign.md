@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 3
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 196 operations · 116 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: The identity, account and authorization service at the centre of UIUC's Rokwire platform — accounts, profiles, applications, organizations, service registrations, permissions, roles and scopes. Writte
+- baseURL: https://api.rokwire.illinois.edu/core
+  baseurl_source: declared
+  description: The identity, account and authorization service at the centre of UIUC's Rokwire platform — accounts, profiles, applications, organizations, service registrations, permissions, roles and scopes. Writte
   name: Rokwire Core Building Block API
   slug: rokwire-core-building-block
-- description: The Rokwire service that fronts external and campus systems for the Illinois app — wayfinding and building/floorplan data, campus data streams, and third-party service integration. University-written,
+- baseURL: https://api.rokwire.illinois.edu/gateway
+  baseurl_source: declared
+  description: The Rokwire service that fronts external and campus systems for the Illinois app — wayfinding and building/floorplan data, campus data streams, and third-party service integration. University-written,
   name: Rokwire Gateway Building Block API
   slug: rokwire-gateway-building-block
 - description: The Course Information Suite API — RESTful resources over Class Schedule and Course Catalog data, organised as Schedule, Catalog, GenEd, Term and Subjects modules and served as XML in a campus-local n
@@ -388,7 +392,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: The Bifrost Model Context Protocol (MCP) Gateway enables AI agents to discover and execute external tools through a standardized protocol, with OAuth 2.0 authentication and tool approval controls.
   name: Bifrost MCP Gateway
   slug: bifrost-mcp-gateway
-- description: Chat completions compatible with OpenAI chat API
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Chat completions compatible with OpenAI chat API
   name: Bifrost Chat API
   slug: bifrost-chat-api
-- description: Gateway health and status endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Gateway health and status endpoints
   name: Bifrost Health API
   slug: bifrost-health-api
 artifact_total: 57
@@ -335,7 +339,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -348,7 +352,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 50.0
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -357,7 +361,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png
 security:

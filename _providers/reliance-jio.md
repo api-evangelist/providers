@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -36,10 +48,14 @@ apis:
 - description: In-app purchase and digital content payment API for applications published on the Jio set-top box, distributed by Jio Platforms as a downloadable PDF API specification (v1.1) from the JioDevelopers se
   name: JioPayments Set-Top-Box API
   slug: jiopayments-stb-api
-- description: The JioEventsCpaasPlatform API from Reliance Jio — 6 operation(s) for jioeventscpaasplatform.
+- baseURL: https://jiomeetpro.jio.com
+  baseurl_source: declared
+  description: The JioEventsCpaasPlatform API from Reliance Jio — 6 operation(s) for jioeventscpaasplatform.
   name: Reliance Jio Jio Events Cpaas Platform API
   slug: reliance-jio-jioeventscpaasplatform-api
-- description: The JioMeetCpaasPlatform API from Reliance Jio — 14 operation(s) for jiomeetcpaasplatform.
+- baseURL: https://jiomeetpro.jio.com
+  baseurl_source: declared
+  description: The JioMeetCpaasPlatform API from Reliance Jio — 14 operation(s) for jiomeetcpaasplatform.
   name: Reliance Jio Jio Meet Cpaas Platform API
   slug: reliance-jio-jiomeetcpaasplatform-api
 artifact_total: 12
@@ -298,7 +314,7 @@ score:
     regime_id: telecommunications
     score: 100.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/screenshots/reliance-jio-2026-08-17T081508.png
 security:

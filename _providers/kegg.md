@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: 'The KEGG REST API provides unified programmatic access to all KEGG databases through seven operations: INFO (database statistics and release notes), LIST (entry identifiers and names), FIND (keyword a'
   name: KEGG REST API
   slug: kegg-rest-api
-- description: Convert identifiers between KEGG and external databases
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Convert identifiers between KEGG and external databases
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) conv API
   slug: kegg-conv-api
-- description: Find adverse drug-drug interactions
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Find adverse drug-drug interactions
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) ddi API
   slug: kegg-ddi-api
-- description: Search entries by keyword or molecular property
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Search entries by keyword or molecular property
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) find API
   slug: kegg-find-api
-- description: Retrieve specific database entries
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Retrieve specific database entries
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) get API
   slug: kegg-get-api
-- description: Display database release information and statistics
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Display database release information and statistics
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) info API
   slug: kegg-info-api
-- description: Find related entries using database cross-references
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Find related entries using database cross-references
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) link API
   slug: kegg-link-api
-- description: Obtain a list of entry identifiers and associated names
+- baseURL: https://rest.kegg.jp
+  baseurl_source: declared
+  description: Obtain a list of entry identifiers and associated names
   name: Kyoto Encyclopedia of Genes and Genomes (KEGG) list API
   slug: kegg-list-api
 artifact_total: 21
@@ -157,7 +171,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png
 security:

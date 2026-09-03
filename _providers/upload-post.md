@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Retrieve impressions and per-post performance metrics.
+- baseURL: https://api.upload-post.com/api
+  baseurl_source: declared
+  description: Retrieve impressions and per-post performance metrics.
   name: Upload-Post Analytics API
   slug: upload-post-analytics-api
-- description: Publish video, photo, and text content to social platforms.
+- baseURL: https://api.upload-post.com/api
+  baseurl_source: declared
+  description: Publish video, photo, and text content to social platforms.
   name: Upload-Post Upload API
   slug: upload-post-upload-api
-- description: Check upload status and retrieve upload history.
+- baseURL: https://api.upload-post.com/api
+  baseurl_source: declared
+  description: Check upload status and retrieve upload history.
   name: Upload-Post Upload Management API
   slug: upload-post-upload-management-api
-- description: Manage user profiles and social account linking.
+- baseURL: https://api.upload-post.com/api
+  baseurl_source: declared
+  description: Manage user profiles and social account linking.
   name: Upload-Post Users API
   slug: upload-post-users-api
 artifact_total: 16
@@ -150,7 +158,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -173,8 +181,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/upload-post/refs/heads/main/screenshots/upload-post-2026-09-02T165043.png
 security:
 - kind: authentication
   name: Upload Post Authentication

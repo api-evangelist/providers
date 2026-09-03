@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 26 operations · 17 acting
 api_count: 1
 apis:
-- description: Everything about authorizing calls to Flightdeck
+- baseURL: https://api.flightdeck.dope.security/v1
+  baseurl_source: declared
+  description: Everything about authorizing calls to Flightdeck
   name: dope.security Authorization API
   slug: dopesecurity-authorization-api
-- description: Everything about your Custom Categories
+- baseURL: https://api.flightdeck.dope.security/v1
+  baseurl_source: declared
+  description: Everything about your Custom Categories
   name: dope.security Custom Categories API
   slug: dopesecurity-custom-categories-api
-- description: Everything about your endpoints
+- baseURL: https://api.flightdeck.dope.security/v1
+  baseurl_source: declared
+  description: Everything about your endpoints
   name: dope.security Endpoints API
   slug: dopesecurity-endpoints-api
-- description: Everything about your Policies
+- baseURL: https://api.flightdeck.dope.security/v1
+  baseurl_source: declared
+  description: Everything about your Policies
   name: dope.security Policies API
   slug: dopesecurity-policies-api
 artifact_total: 15
@@ -256,7 +264,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
 security:

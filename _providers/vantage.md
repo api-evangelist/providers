@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 81 operations · 38 acting
 api_count: 2
 apis:
-- description: Manage resource access grants for teams.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage resource access grants for teams.
   name: Vantage Access Grants API
   slug: vantage-access-grants-api
-- description: Create and manage cost anomaly alerts.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage cost anomaly alerts.
   name: Vantage Anomaly Alerts API
   slug: vantage-anomaly-alerts-api
-- description: Create and manage budget alerts.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage budget alerts.
   name: Vantage Budget Alerts API
   slug: vantage-budget-alerts-api
-- description: Create, update, and delete business metrics.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create, update, and delete business metrics.
   name: Vantage Business Metrics API
   slug: vantage-business-metrics-api
-- description: Retrieve available cost providers.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Retrieve available cost providers.
   name: Vantage Cost Providers API
   slug: vantage-cost-providers-api
-- description: Create, read, update, and delete Cost Reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create, read, update, and delete Cost Reports.
   name: Vantage Cost Reports API
   slug: vantage-cost-reports-api
-- description: Retrieve cost data for Cost Reports or VQL filters.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Retrieve cost data for Cost Reports or VQL filters.
   name: Vantage Costs API
   slug: vantage-costs-api
-- description: Create and manage cost dashboards.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage cost dashboards.
   name: Vantage Dashboards API
   slug: vantage-dashboards-api
-- description: Create and manage financial commitment reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage financial commitment reports.
   name: Vantage Financial Commitment Reports API
   slug: vantage-financial-commitment-reports-api
-- description: Manage folders for organizing Cost Reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage folders for organizing Cost Reports.
   name: Vantage Folders API
   slug: vantage-folders-api
-- description: Manage cloud provider integrations.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage cloud provider integrations.
   name: Vantage Integrations API
   slug: vantage-integrations-api
-- description: Manage Kubernetes cost data and efficiency reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage Kubernetes cost data and efficiency reports.
   name: Vantage Kubernetes API
   slug: vantage-kubernetes-api
-- description: Manage linked cloud provider accounts.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage linked cloud provider accounts.
   name: Vantage Managed Accounts API
   slug: vantage-managed-accounts-api
-- description: Create and manage network flow reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage network flow reports.
   name: Vantage Network Flow Reports API
   slug: vantage-network-flow-reports-api
-- description: Retrieve pricing details for specific products.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Retrieve pricing details for specific products.
   name: Vantage Prices API
   slug: vantage-prices-api
-- description: Query cloud infrastructure products and their pricing across providers and services.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Query cloud infrastructure products and their pricing across providers and services.
   name: Vantage Products API
   slug: vantage-products-api
-- description: Retrieve available cloud providers.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Retrieve available cloud providers.
   name: Vantage Providers API
   slug: vantage-providers-api
-- description: Retrieve cost optimization recommendations.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Retrieve cost optimization recommendations.
   name: Vantage Recommendations API
   slug: vantage-recommendations-api
-- description: Create and manage resource reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage resource reports.
   name: Vantage Resource Reports API
   slug: vantage-resource-reports-api
-- description: Retrieve resource data from reports.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Retrieve resource data from reports.
   name: Vantage Resources API
   slug: vantage-resources-api
-- description: Manage saved filters for cost data.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage saved filters for cost data.
   name: Vantage Saved Filters API
   slug: vantage-saved-filters-api
-- description: Create, update, and delete cost allocation segments.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create, update, and delete cost allocation segments.
   name: Vantage Segments API
   slug: vantage-segments-api
-- description: The Services API from Vantage — 2 operation(s) for services.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: The Services API from Vantage — 2 operation(s) for services.
   name: Vantage Services API
   slug: vantage-services-api
-- description: Create and manage teams.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Create and manage teams.
   name: Vantage Teams API
   slug: vantage-teams-api
-- description: Manage workspaces and workspace access.
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Manage workspaces and workspace access.
   name: Vantage Workspaces API
   slug: vantage-workspaces-api
 arazzos:
@@ -948,7 +998,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 8
 apis:
-- description: Manage bonus and incentive plans
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage bonus and incentive plans
   name: Workday Advanced Compensation Bonus Plans API
   slug: workday-advanced-compensation-bonus-plans-api
-- description: Manage compensation budgets and allocations
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage compensation budgets and allocations
   name: Workday Advanced Compensation Compensation Budgets API
   slug: workday-advanced-compensation-compensation-budgets-api
-- description: Manage compensation grade profiles and pay ranges
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage compensation grade profiles and pay ranges
   name: Workday Advanced Compensation Compensation Grades API
   slug: workday-advanced-compensation-compensation-grades-api
-- description: Manage compensation plans and eligibility rules
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage compensation plans and eligibility rules
   name: Workday Advanced Compensation Compensation Plans API
   slug: workday-advanced-compensation-compensation-plans-api
-- description: Manage compensation review processes and cycles
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage compensation review processes and cycles
   name: Workday Advanced Compensation Compensation Reviews API
   slug: workday-advanced-compensation-compensation-reviews-api
-- description: Manage individual employee compensation packages
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage individual employee compensation packages
   name: Workday Advanced Compensation Employee Compensation API
   slug: workday-advanced-compensation-employee-compensation-api
-- description: Manage merit increase plans and cycles
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage merit increase plans and cycles
   name: Workday Advanced Compensation Merit Plans API
   slug: workday-advanced-compensation-merit-plans-api
-- description: Manage equity and stock compensation plans
+- baseURL_template: https://{tenant}.workday.com/api/compensation/v1
+  baseurl_source: spec_template
+  description: Manage equity and stock compensation plans
   name: Workday Advanced Compensation Stock Plans API
   slug: workday-advanced-compensation-stock-plans-api
 artifact_total: 53
@@ -326,10 +342,10 @@ score:
       total: 9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:

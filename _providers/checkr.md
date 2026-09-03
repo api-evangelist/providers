@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 60 operations · 25 acting
 api_count: 1
 apis:
-- description: Account and user metadata.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Account and user metadata.
   name: Checkr Account API
   slug: checkr-account-api
-- description: FCRA adverse action workflows against a report.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: FCRA adverse action workflows against a report.
   name: Checkr Adverse Actions API
   slug: checkr-adverse-actions-api
-- description: Candidate records that background checks are run against.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Candidate records that background checks are run against.
   name: Checkr Candidates API
   slug: checkr-candidates-api
-- description: Ongoing monitoring for new records.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Ongoing monitoring for new records.
   name: Checkr Continuous Checks API
   slug: checkr-continuous-checks-api
-- description: Files attached to a candidate.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Files attached to a candidate.
   name: Checkr Documents API
   slug: checkr-documents-api
-- description: State/locale definitions scoping pricing and compliance.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: State/locale definitions scoping pricing and compliance.
   name: Checkr Geos API
   slug: checkr-geos-api
-- description: Hosted invitations for candidates to submit their own information.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Hosted invitations for candidates to submit their own information.
   name: Checkr Invitations API
   slug: checkr-invitations-api
-- description: Tree of nodes modeling account/organization structure.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Tree of nodes modeling account/organization structure.
   name: Checkr Nodes and Hierarchy API
   slug: checkr-nodes-and-hierarchy-api
-- description: Bundles of screenings and the programs that group them.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Bundles of screenings and the programs that group them.
   name: Checkr Packages API
   slug: checkr-packages-api
-- description: The container aggregating a candidate's screenings and result.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: The container aggregating a candidate's screenings and result.
   name: Checkr Reports API
   slug: checkr-reports-api
-- description: Individual screening components nested under a report.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Individual screening components nested under a report.
   name: Checkr Screenings API
   slug: checkr-screenings-api
-- description: Recurring re-runs of a package for a candidate.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Recurring re-runs of a package for a candidate.
   name: Checkr Subscriptions API
   slug: checkr-subscriptions-api
-- description: Education and employment verification screenings.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Education and employment verification screenings.
   name: Checkr Verifications API
   slug: checkr-verifications-api
-- description: Event notification subscriptions.
+- baseURL: https://api.checkr.com/v1
+  baseurl_source: declared
+  description: Event notification subscriptions.
   name: Checkr Webhooks API
   slug: checkr-webhooks-api
 artifact_total: 37
@@ -233,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkr/refs/heads/main/screenshots/checkr-2026-07-25T205136.png
 security:

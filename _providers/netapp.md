@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -80,22 +80,34 @@ apis:
 - description: REST API for managing ONTAP tools for VMware vSphere, enabling storage provisioning, virtual machine lifecycle management, and vSphere integration.
   name: NetApp ONTAP Tools for VMware vSphere API
   slug: netapp-ontap-tools-for-vmware-vsphere-api
-- description: Operations for managing storage aggregates (local tiers)
+- baseURL: https://cloudmanager.cloud.netapp.com
+  baseurl_source: declared
+  description: Operations for managing storage aggregates (local tiers)
   name: NetApp Aggregates API
   slug: netapp-aggregates-api
-- description: Operations for managing ONTAP cluster configuration, nodes, licensing, and health
+- baseURL: https://cloudmanager.cloud.netapp.com
+  baseurl_source: declared
+  description: Operations for managing ONTAP cluster configuration, nodes, licensing, and health
   name: NetApp Cluster API
   slug: netapp-cluster-api
-- description: Operations for managing network interfaces, ports, and IP configuration
+- baseURL: https://cloudmanager.cloud.netapp.com
+  baseurl_source: declared
+  description: Operations for managing network interfaces, ports, and IP configuration
   name: NetApp Network API
   slug: netapp-network-api
-- description: Operations for managing volume snapshots
+- baseURL: https://cloudmanager.cloud.netapp.com
+  baseurl_source: declared
+  description: Operations for managing volume snapshots
   name: NetApp Snapshots API
   slug: netapp-snapshots-api
-- description: Operations for managing storage virtual machines (SVMs / vservers)
+- baseURL: https://cloudmanager.cloud.netapp.com
+  baseurl_source: declared
+  description: Operations for managing storage virtual machines (SVMs / vservers)
   name: NetApp SVMs API
   slug: netapp-svms-api
-- description: Operations for creating, modifying, and managing storage volumes
+- baseURL: https://cloudmanager.cloud.netapp.com
+  baseurl_source: declared
+  description: Operations for creating, modifying, and managing storage volumes
   name: NetApp Volumes API
   slug: netapp-volumes-api
 artifact_total: 103
@@ -492,7 +504,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
 security:

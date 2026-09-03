@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: Franchise dashboards and dashboard types
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Franchise dashboards and dashboard types
   name: Modern Dashboards API
   slug: modern-dashboards-api
-- description: Work-order event types and event creation
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Work-order event types and event creation
   name: Modern Events API
   slug: modern-events-api
-- description: Token exchange / authentication
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Token exchange / authentication
   name: Modern Federation API
   slug: modern-federation-api
-- description: Technician / work-order notes
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Technician / work-order notes
   name: Modern Notes API
   slug: modern-notes-api
-- description: Customer notifications
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Customer notifications
   name: Modern Notifications API
   slug: modern-notifications-api
-- description: Technician records
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Technician records
   name: Modern Technicians API
   slug: modern-technicians-api
-- description: Dashboard users
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Dashboard users
   name: Modern Users API
   slug: modern-users-api
-- description: Service work order lifecycle
+- baseURL: https://connect.modernis.com
+  baseurl_source: declared
+  description: Service work order lifecycle
   name: Modern Work Orders API
   slug: modern-work-orders-api
 artifact_total: 21
@@ -162,7 +178,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -172,7 +188,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 31.7
+  previous_composite: 22.4
   provenance:
     conformance: derived
     contracts:
@@ -183,8 +199,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern/refs/heads/main/screenshots/modern-2026-08-07T183934.png
 security:
 - kind: authentication

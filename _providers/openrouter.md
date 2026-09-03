@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 1
 apis:
-- description: Chat completion endpoints (OpenAI-compatible).
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: Chat completion endpoints (OpenAI-compatible).
   name: OpenRouter Chat API
   slug: openrouter-chat-api
-- description: Legacy completions endpoint.
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: Legacy completions endpoint.
   name: OpenRouter Completions API
   slug: openrouter-completions-api
-- description: Account credit balance and usage.
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: Account credit balance and usage.
   name: OpenRouter Credits API
   slug: openrouter-credits-api
-- description: Query stats and usage for completed generations.
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: Query stats and usage for completed generations.
   name: OpenRouter Generation API
   slug: openrouter-generation-api
-- description: Provisioning and management of API keys.
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: Provisioning and management of API keys.
   name: OpenRouter Keys API
   slug: openrouter-keys-api
-- description: Discover available models and their endpoints.
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: Discover available models and their endpoints.
   name: OpenRouter Models API
   slug: openrouter-models-api
-- description: List supported providers.
+- baseURL: https://openrouter.ai/api/v1
+  baseurl_source: declared
+  description: List supported providers.
   name: OpenRouter Providers API
   slug: openrouter-providers-api
 artifact_total: 55
@@ -403,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/screenshots/openrouter-2026-06-20T191028.png
 security:

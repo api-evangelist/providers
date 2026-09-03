@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: The Albums.{format} API from Neighbortunes — 1 operation(s) for albums.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Albums.{format} API from Neighbortunes — 1 operation(s) for albums.{format}.
   name: Neighbortunes Albums.{format} API
   slug: neighbortunes-albums-format-api
-- description: The Appearances.{format} API from Neighbortunes — 1 operation(s) for appearances.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Appearances.{format} API from Neighbortunes — 1 operation(s) for appearances.{format}.
   name: Neighbortunes Appearances.{format} API
   slug: neighbortunes-appearances-format-api
-- description: The Jamcharts.{format} API from Neighbortunes — 1 operation(s) for jamcharts.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Jamcharts.{format} API from Neighbortunes — 1 operation(s) for jamcharts.{format}.
   name: Neighbortunes Jamcharts.{format} API
   slug: neighbortunes-jamcharts-format-api
-- description: The Latest.{format} API from Neighbortunes — 1 operation(s) for latest.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Latest.{format} API from Neighbortunes — 1 operation(s) for latest.{format}.
   name: Neighbortunes Latest.{format} API
   slug: neighbortunes-latest-format-api
-- description: The Links.{format} API from Neighbortunes — 1 operation(s) for links.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Links.{format} API from Neighbortunes — 1 operation(s) for links.{format}.
   name: Neighbortunes Links.{format} API
   slug: neighbortunes-links-format-api
-- description: The List API from Neighbortunes — 1 operation(s) for list.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The List API from Neighbortunes — 1 operation(s) for list.
   name: Neighbortunes List API
   slug: neighbortunes-list-api
-- description: The Metadata.{format} API from Neighbortunes — 1 operation(s) for metadata.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Metadata.{format} API from Neighbortunes — 1 operation(s) for metadata.{format}.
   name: Neighbortunes Metadata.{format} API
   slug: neighbortunes-metadata-format-api
-- description: The Setlists API from Neighbortunes — 2 operation(s) for setlists.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Setlists API from Neighbortunes — 2 operation(s) for setlists.
   name: Neighbortunes Setlists API
   slug: neighbortunes-setlists-api
-- description: The Setlists.{format} API from Neighbortunes — 1 operation(s) for setlists.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Setlists.{format} API from Neighbortunes — 1 operation(s) for setlists.{format}.
   name: Neighbortunes Setlists.{format} API
   slug: neighbortunes-setlists-format-api
-- description: The Shows API from Neighbortunes — 1 operation(s) for shows.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Shows API from Neighbortunes — 1 operation(s) for shows.
   name: Neighbortunes Shows API
   slug: neighbortunes-shows-api
-- description: The Shows.{format} API from Neighbortunes — 1 operation(s) for shows.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Shows.{format} API from Neighbortunes — 1 operation(s) for shows.{format}.
   name: Neighbortunes Shows.{format} API
   slug: neighbortunes-shows-format-api
-- description: The Songs API from Neighbortunes — 1 operation(s) for songs.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Songs API from Neighbortunes — 1 operation(s) for songs.
   name: Neighbortunes Songs API
   slug: neighbortunes-songs-api
-- description: The Songs.{format} API from Neighbortunes — 1 operation(s) for songs.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Songs.{format} API from Neighbortunes — 1 operation(s) for songs.{format}.
   name: Neighbortunes Songs.{format} API
   slug: neighbortunes-songs-format-api
-- description: The Uploads.{format} API from Neighbortunes — 1 operation(s) for uploads.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Uploads.{format} API from Neighbortunes — 1 operation(s) for uploads.{format}.
   name: Neighbortunes Uploads.{format} API
   slug: neighbortunes-uploads-format-api
-- description: The Venues API from Neighbortunes — 1 operation(s) for venues.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Venues API from Neighbortunes — 1 operation(s) for venues.
   name: Neighbortunes Venues API
   slug: neighbortunes-venues-api
-- description: The Venues.{format} API from Neighbortunes — 1 operation(s) for venues.{format}.
+- baseURL: https://neighbortunes.net/api/v2
+  baseurl_source: declared
+  description: The Venues.{format} API from Neighbortunes — 1 operation(s) for venues.{format}.
   name: Neighbortunes Venues.{format} API
   slug: neighbortunes-venues-format-api
 artifact_total: 39
@@ -205,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/screenshots/neighbortunes-2026-06-20T190127.png
 security:

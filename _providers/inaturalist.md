@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -47,64 +47,104 @@ apis:
 - description: The next-generation iNaturalist API (v2) currently in development, designed to eventually replace v0 and v1 endpoints. Provides access to observation data with improved performance and response format
   name: iNaturalist API v2
   slug: inaturalist-api-v2
-- description: Create, delete, and vote
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, delete, and vote
   name: iNaturalist Annotations API
   slug: inaturalist-annotations-api
-- description: Create, update, and delete
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, update, and delete
   name: iNaturalist Comments API
   slug: inaturalist-comments-api
-- description: Search and fetch
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Search and fetch
   name: iNaturalist Controlled Terms API
   slug: inaturalist-controlled-terms-api
-- description: Create, update, and delete flags
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, update, and delete flags
   name: iNaturalist Flags API
   slug: inaturalist-flags-api
-- description: Create, update, and delete
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, update, and delete
   name: iNaturalist Identifications API
   slug: inaturalist-identifications-api
-- description: Create, fetch, delete
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, fetch, delete
   name: iNaturalist Messages API
   slug: inaturalist-messages-api
-- description: Create, update, and delete
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, update, and delete
   name: iNaturalist Observation Field Values API
   slug: inaturalist-observation-field-values-api
-- description: Create and delete
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create and delete
   name: iNaturalist Observation Photos API
   slug: inaturalist-observation-photos-api
-- description: Map observation search results
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Map observation search results
   name: iNaturalist Observation Tiles API
   slug: inaturalist-observation-tiles-api
-- description: CRUD, search, faving, quality metrics, stats, and more
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: CRUD, search, faving, quality metrics, stats, and more
   name: iNaturalist Observations API
   slug: inaturalist-observations-api
-- description: The Photos API from iNaturalist — 1 operation(s) for photos.
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: The Photos API from iNaturalist — 1 operation(s) for photos.
   name: iNaturalist Photos API
   slug: inaturalist-photos-api
-- description: Search and fetch
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Search and fetch
   name: iNaturalist Places API
   slug: inaturalist-places-api
-- description: Place geometry and taxon range tiles
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Place geometry and taxon range tiles
   name: iNaturalist Polygon Tiles API
   slug: inaturalist-polygon-tiles-api
-- description: Fetch site and project posts
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Fetch site and project posts
   name: iNaturalist Posts API
   slug: inaturalist-posts-api
-- description: Create, update, and delete
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Create, update, and delete
   name: iNaturalist Project Observations API
   slug: inaturalist-project-observations-api
-- description: Search and fetch projects and members
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Search and fetch projects and members
   name: iNaturalist Projects API
   slug: inaturalist-projects-api
-- description: Site search
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Site search
   name: iNaturalist Search API
   slug: inaturalist-search-api
-- description: Search and fetch
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Search and fetch
   name: iNaturalist Taxa API
   slug: inaturalist-taxa-api
-- description: Fetch and update
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: Fetch and update
   name: iNaturalist Users API
   slug: inaturalist-users-api
-- description: JSON for observation tiles
+- baseURL: https://api.inaturalist.org/v1
+  baseurl_source: declared
+  description: JSON for observation tiles
   name: iNaturalist UTFGrid API
   slug: inaturalist-utfgrid-api
 artifact_total: 225
@@ -835,7 +875,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inaturalist/refs/heads/main/screenshots/inaturalist-2026-06-20T183309.png
 security:

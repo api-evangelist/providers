@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -45,46 +45,74 @@ agentic_access:
   summary_line: 36 operations · 19 acting · 1 human-in-the-loop
 api_count: 30
 apis:
-- description: Public course catalog operations
+- baseURL: https://paas-rest-api.pluralsight.com
+  baseurl_source: declared
+  description: Public course catalog operations
   name: Pluralsight Catalog API
   slug: pluralsight-catalog-api
-- description: Code-level engineering metrics operations
+- baseURL: https://flow-api.pluralsight.com
+  baseurl_source: declared
+  description: Code-level engineering metrics operations
   name: Pluralsight Coding Metrics API
   slug: pluralsight-coding-metrics-api
-- description: Pull request and collaboration metrics operations
+- baseURL: https://api.appfireflow.com
+  baseurl_source: declared
+  description: Pull request and collaboration metrics operations
   name: Pluralsight Collaboration Metrics API
   slug: pluralsight-collaboration-metrics-api
-- description: Commit data operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Commit data operations
   name: Pluralsight Commits API
   slug: pluralsight-commits-api
-- description: DORA engineering metrics operations
+- baseURL: https://flow-api.pluralsight.com
+  baseurl_source: declared
+  description: DORA engineering metrics operations
   name: Pluralsight DORA Metrics API
   slug: pluralsight-dora-metrics-api
-- description: GraphQL query and mutation operations
+- baseURL: https://paas-api.pluralsight.com/graphql
+  baseurl_source: declared
+  description: GraphQL query and mutation operations
   name: Pluralsight GraphQL API
   slug: pluralsight-graphql-api
-- description: Flow integration management operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Flow integration management operations
   name: Pluralsight Integrations API
   slug: pluralsight-integrations-api
-- description: License management operations (deprecated)
+- baseURL: https://app.pluralsight.com/plans/api/license/v1
+  baseurl_source: declared
+  description: License management operations (deprecated)
   name: Pluralsight Licensing API
   slug: pluralsight-licensing-api
-- description: Pull request data operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Pull request data operations
   name: Pluralsight Pull Requests API
   slug: pluralsight-pull-requests-api
-- description: Report download operations (deprecated)
+- baseURL: https://app.pluralsight.com/plans/api/reports/v1
+  baseurl_source: declared
+  description: Report download operations (deprecated)
   name: Pluralsight Reports API
   slug: pluralsight-reports-api
-- description: Repository data operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Repository data operations
   name: Pluralsight Repos API
   slug: pluralsight-repos-api
-- description: Flow team management operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Flow team management operations
   name: Pluralsight Teams API
   slug: pluralsight-teams-api
-- description: Ticket data operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Ticket data operations
   name: Pluralsight Tickets API
   slug: pluralsight-tickets-api
-- description: Flow user management operations
+- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
+  baseurl_source: declared
+  description: Flow user management operations
   name: Pluralsight Users API
   slug: pluralsight-users-api
 artifact_total: 266
@@ -1082,7 +1110,7 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -1092,7 +1120,7 @@ score:
     discoverability: 81.5
     governance: 47.0
     operational_transparency: 63.2
-  previous_composite: 72.4
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1110,7 +1138,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/screenshots/pluralsight-2026-08-17T124736.png
 security:

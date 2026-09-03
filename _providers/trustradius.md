@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Product identity and scoring. GET /product-ids exchanges a TrustRadius product slug for the opaque product `_id` and owning `vendor._id` that every other TrustRadius operation requires, and called wit
+- baseURL: https://api.trustradius.com/v1
+  baseurl_source: declared
+  description: Product identity and scoring. GET /product-ids exchanges a TrustRadius product slug for the opaque product `_id` and owning `vendor._id` that every other TrustRadius operation requires, and called wit
   name: TrustRadius Product Data API
   slug: trustradius-product-data-api
-- description: Downstream intent activity — which accounts are researching a vendor's products, competitor products, and software categories on TrustRadius. GET /intent returns account records with an activity strea
+- baseURL: https://api.trustradius.com/v1
+  baseurl_source: declared
+  description: Downstream intent activity — which accounts are researching a vendor's products, competitor products, and software categories on TrustRadius. GET /intent returns account records with an activity strea
   name: TrustRadius Downstream Intent Data API
   slug: trustradius-intent-data-api
-- description: 'Licensed review-quote syndication. GET /trustquotes returns review excerpts with the quote text, a link and rating for the source review, reviewer identity and firmographics, an isAnonymous flag, and '
+- baseURL: https://api.trustradius.com/v1
+  baseurl_source: declared
+  description: 'Licensed review-quote syndication. GET /trustquotes returns review excerpts with the quote text, a link and rating for the source review, reviewer identity and firmographics, an isAnonymous flag, and '
   name: TrustRadius TrustQuotes Content Syndication API
   slug: trustradius-trustquotes-api
-- description: Profile traffic reporting. GET /reports/traffic/products returns page views, visits and visitors per product per day alongside the matching category-level totals, so share-of-category is computable cl
+- baseURL: https://api.trustradius.com/v1
+  baseurl_source: declared
+  description: Profile traffic reporting. GET /reports/traffic/products returns page views, visits and visitors per product per day alongside the matching category-level totals, so share-of-category is computable cl
   name: TrustRadius Traffic Data API
   slug: trustradius-traffic-data-api
-- description: Identified-company reporting, tagged `Legacy` by TrustRadius in its own specification. GET /reports/visitor-insights/companies returns firmographics (name, SIC code, size, location, web and social han
+- baseURL: https://api.trustradius.com/v1
+  baseurl_source: declared
+  description: Identified-company reporting, tagged `Legacy` by TrustRadius in its own specification. GET /reports/visitor-insights/companies returns firmographics (name, SIC code, size, location, web and social han
   name: TrustRadius Legacy Visitor Insights API
   slug: trustradius-legacy-visitor-insights-api
 artifact_total: 44
@@ -421,7 +431,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/screenshots/trustradius-2026-06-20T195813.png
 security:

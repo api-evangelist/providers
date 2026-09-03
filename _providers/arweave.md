@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: GraphQL API for querying Arweave transaction and block metadata by tags, owner addresses, recipients, block height ranges, and transaction IDs. Supports cursor-based pagination and sorting. Primary en
@@ -42,19 +42,29 @@ apis:
 - description: Managed bundling upload service (ar.io Turbo) that implements ANS-104 bundling for high-throughput data uploads to Arweave. Handles millions of uploads daily with automatic retry, sub-100 KiB free tie
   name: Arweave Turbo Upload API
   slug: arweave-turbo-upload-api
-- description: Endpoints for retrieving block data
+- baseURL: https://arweave.net
+  baseurl_source: declared
+  description: Endpoints for retrieving block data
   name: Arweave Blocks API
   slug: arweave-blocks-api
-- description: Endpoints for uploading and downloading data chunks
+- baseURL: https://arweave.net
+  baseurl_source: declared
+  description: Endpoints for uploading and downloading data chunks
   name: Arweave Chunks API
   slug: arweave-chunks-api
-- description: Endpoints for querying network state and peer information
+- baseURL: https://arweave.net
+  baseurl_source: declared
+  description: Endpoints for querying network state and peer information
   name: Arweave Network API
   slug: arweave-network-api
-- description: Endpoints for submitting and retrieving transactions
+- baseURL: https://arweave.net
+  baseurl_source: declared
+  description: Endpoints for submitting and retrieving transactions
   name: Arweave Transactions API
   slug: arweave-transactions-api
-- description: Endpoints for querying wallet balances and transaction history
+- baseURL: https://arweave.net
+  baseurl_source: declared
+  description: Endpoints for querying wallet balances and transaction history
   name: Arweave Wallets API
   slug: arweave-wallets-api
 artifact_total: 32
@@ -265,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/screenshots/arweave-2026-06-20T172449.png
 security:

@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Submitting, tracking, and downloading analysis jobs
+- baseURL: https://app.biodock.ai/api/external
+  baseurl_source: declared
+  description: Submitting, tracking, and downloading analysis jobs
   name: Biodock Analysis Jobs API
   slug: biodock-analysis-jobs-api
-- description: API key verification
+- baseURL: https://app.biodock.ai/api/external
+  baseurl_source: declared
+  description: API key verification
   name: Biodock Auth API
   slug: biodock-auth-api
-- description: Uploading and listing Biodock Filesystem items
+- baseURL: https://app.biodock.ai/api/external
+  baseurl_source: declared
+  description: Uploading and listing Biodock Filesystem items
   name: Biodock Files API
   slug: biodock-files-api
-- description: Listing published analysis pipelines
+- baseURL: https://app.biodock.ai/api/external
+  baseurl_source: declared
+  description: Listing published analysis pipelines
   name: Biodock Pipelines API
   slug: biodock-pipelines-api
 artifact_total: 14
@@ -198,7 +206,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biodock/refs/heads/main/screenshots/biodock-2026-07-25T203036.png
 security:

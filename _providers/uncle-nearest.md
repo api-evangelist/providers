@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -36,28 +47,44 @@ apis:
 - description: The standard WordPress core REST API exposed at unclenearest.com/wp-json/, publishing the brand's posts, pages, media, categories, tags, taxonomies and custom event post types as JSON. The route index
   name: Uncle Nearest WordPress REST API
   slug: uncle-nearest-wordpress-rest-api
-- description: The Categories API from Uncle Nearest — 2 operation(s) for categories.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Categories API from Uncle Nearest — 2 operation(s) for categories.
   name: Uncle Nearest Categories API
   slug: uncle-nearest-categories-api
-- description: These operations are introduced by the Common library.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: These operations are introduced by the Common library.
   name: Uncle Nearest Common API
   slug: uncle-nearest-common-api
-- description: The Doc API from Uncle Nearest — 1 operation(s) for doc.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Doc API from Uncle Nearest — 1 operation(s) for doc.
   name: Uncle Nearest Doc API
   slug: uncle-nearest-doc-api
-- description: The Events API from Uncle Nearest — 7 operation(s) for events.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Events API from Uncle Nearest — 7 operation(s) for events.
   name: Uncle Nearest Events API
   slug: uncle-nearest-events-api
-- description: These operations are introduced by Events Pro.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: These operations are introduced by Events Pro.
   name: Uncle Nearest Events Pro API
   slug: uncle-nearest-events-pro-api
-- description: The Organizers API from Uncle Nearest — 3 operation(s) for organizers.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Organizers API from Uncle Nearest — 3 operation(s) for organizers.
   name: Uncle Nearest Organizers API
   slug: uncle-nearest-organizers-api
-- description: The Tags API from Uncle Nearest — 2 operation(s) for tags.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Tags API from Uncle Nearest — 2 operation(s) for tags.
   name: Uncle Nearest Tags API
   slug: uncle-nearest-tags-api
-- description: The Venues API from Uncle Nearest — 3 operation(s) for venues.
+- baseURL: https://unclenearest.com/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Venues API from Uncle Nearest — 3 operation(s) for venues.
   name: Uncle Nearest Venues API
   slug: uncle-nearest-venues-api
 artifact_total: 22
@@ -219,7 +246,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -245,8 +272,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/screenshots/uncle-nearest-2026-09-02T164843.png
 security:
 - kind: authentication
   name: Uncle Nearest Authentication

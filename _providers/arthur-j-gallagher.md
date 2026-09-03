@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: API for integrating with Gallagher Bassett claims management services. Gallagher Bassett is a global third-party claims administrator and subsidiary of Arthur J. Gallagher, providing workers compensat
   name: Gallagher Bassett Claims Management API
   slug: gallagher-bassett-api
-- description: Manage access control groups.
+- baseURL: https://localhost:8904/api
+  baseurl_source: declared
+  description: Manage access control groups.
   name: Arthur J. Gallagher Access Groups API
   slug: arthur-j-gallagher-access-groups-api
-- description: Monitor and manage security alarms.
+- baseURL: https://localhost:8904/api
+  baseurl_source: declared
+  description: Monitor and manage security alarms.
   name: Arthur J. Gallagher Alarms API
   slug: arthur-j-gallagher-alarms-api
-- description: Manage cardholders in the security system.
+- baseURL: https://localhost:8904/api
+  baseurl_source: declared
+  description: Manage cardholders in the security system.
   name: Arthur J. Gallagher Cardholders API
   slug: arthur-j-gallagher-cardholders-api
-- description: Retrieve security events and audit logs.
+- baseURL: https://localhost:8904/api
+  baseurl_source: declared
+  description: Retrieve security events and audit logs.
   name: Arthur J. Gallagher Events API
   slug: arthur-j-gallagher-events-api
 artifact_total: 26
@@ -195,7 +203,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png
 security:

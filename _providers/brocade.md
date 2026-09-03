@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: 'The Brocade VCS Fabric API provided REST interfaces for Virtual Cluster Switching fabric configuration on Brocade VDX switches. The VCS Fabric product line was transferred to Extreme Networks as part '
   name: Brocade VCS Fabric API
   slug: brocade-vcs-fabric-api
-- description: The Chassis API from Brocade — 1 operation(s) for chassis.
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Chassis API from Brocade — 1 operation(s) for chassis.
   name: Brocade Chassis API
   slug: brocade-chassis-api
-- description: The Interfaces API from Brocade — 2 operation(s) for interfaces.
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Interfaces API from Brocade — 2 operation(s) for interfaces.
   name: Brocade Interfaces API
   slug: brocade-interfaces-api
-- description: The Operations API from Brocade — 4 operation(s) for operations.
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Operations API from Brocade — 4 operation(s) for operations.
   name: Brocade Operations API
   slug: brocade-operations-api
-- description: The Session API from Brocade — 2 operation(s) for session.
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Session API from Brocade — 2 operation(s) for session.
   name: Brocade Session API
   slug: brocade-session-api
-- description: The Switch API from Brocade — 1 operation(s) for switch.
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Switch API from Brocade — 1 operation(s) for switch.
   name: Brocade Switch API
   slug: brocade-switch-api
-- description: The Zoning API from Brocade — 2 operation(s) for zoning.
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Zoning API from Brocade — 2 operation(s) for zoning.
   name: Brocade Zoning API
   slug: brocade-zoning-api
 artifact_total: 26
@@ -239,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/screenshots/brocade-2026-06-20T173715.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,31 +46,49 @@ apis:
 - description: Programmatic management API for YugabyteDB Aeon, the fully managed cloud DBaaS. Deploy and manage clusters and read replicas, schedule and run on-demand backups and restores, manage IP allow lists, co
   name: YugabyteDB Aeon REST API
   slug: yugabytedb-aeon-rest-api
-- description: APIs for getting backup Details
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for getting backup Details
   name: Yugabyte backup-info API
   slug: yugabyte-backup-info-api
-- description: APIs for cluster CRUD
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for cluster CRUD
   name: Yugabyte cluster API
   slug: yugabyte-cluster-api
-- description: APIs for getting information about an existing cluster
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for getting information about an existing cluster
   name: Yugabyte cluster-info API
   slug: yugabyte-cluster-info-api
-- description: APIs for getting Point-in-Time Recovery (PITR) schedules
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for getting Point-in-Time Recovery (PITR) schedules
   name: Yugabyte pitr-info API
   slug: yugabyte-pitr-info-api
-- description: APIs for getting restore Details
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for getting restore Details
   name: Yugabyte restore-info API
   slug: yugabyte-restore-info-api
-- description: APIs for getting information about Voyager migrations
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for getting information about Voyager migrations
   name: Yugabyte voyager-info API
   slug: yugabyte-voyager-info-api
-- description: APIs for getting Voyager data migrations metrics
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: APIs for getting Voyager data migrations metrics
   name: Yugabyte voyager-metrics API
   slug: yugabyte-voyager-metrics-api
-- description: The Xcluster Metrics API from Yugabyte — 1 operation(s) for xcluster metrics.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Xcluster Metrics API from Yugabyte — 1 operation(s) for xcluster metrics.
   name: Yugabyte Xcluster Metrics API
   slug: yugabyte-xcluster-metrics-api
-- description: The Xcluster Namespace Details API from Yugabyte — 1 operation(s) for xcluster namespace details.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Xcluster Namespace Details API from Yugabyte — 1 operation(s) for xcluster namespace details.
   name: Yugabyte Xcluster Namespace Details API
   slug: yugabyte-xcluster-namespace-details-api
 artifact_total: 25
@@ -289,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/screenshots/yugabyte-2026-08-17T083024.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: The Jena Java API provides programmatic access to RDF model creation, SPARQL query execution, OWL reasoning, and TDB2 triplestore management for building Semantic Web applications.
   name: Apache Jena Java API
   slug: java-api
-- description: Dataset administration
+- baseURL: http://localhost:3030
+  baseurl_source: spec
+  description: Dataset administration
   name: Apache Jena Dataset Management API
   slug: apache-jena-dataset-management-api
-- description: SPARQL Graph Store HTTP Protocol operations
+- baseURL: http://localhost:3030
+  baseurl_source: spec
+  description: SPARQL Graph Store HTTP Protocol operations
   name: Apache Jena Graph Store Protocol API
   slug: apache-jena-graph-store-protocol-api
-- description: SPARQL 1.1 Query operations
+- baseURL: http://localhost:3030
+  baseurl_source: spec
+  description: SPARQL 1.1 Query operations
   name: Apache Jena SPARQL Query API
   slug: apache-jena-sparql-query-api
-- description: SPARQL 1.1 Update operations
+- baseURL: http://localhost:3030
+  baseurl_source: spec
+  description: SPARQL 1.1 Update operations
   name: Apache Jena SPARQL Update API
   slug: apache-jena-sparql-update-api
 artifact_total: 51
@@ -304,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/screenshots/apache-jena-2026-06-20T172111.png
 security:

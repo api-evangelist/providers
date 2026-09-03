@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,7 +59,9 @@ apis:
 - description: First-party SDKs that wrap the Universal Scraper API and Residential Proxies with automatic retries, exponential backoff, concurrency helpers, and ergonomic clients. Official SDKs ship for Python (pip
   name: ZenRows SDKs
   slug: sdks
-- description: Scrape any URL with anti-bot bypass and optional rendering.
+- baseURL: https://api.zenrows.com/v1
+  baseurl_source: spec
+  description: Scrape any URL with anti-bot bypass and optional rendering.
   name: ZenRows Universal Scraper API
   slug: zenrows-universal-scraper-api
 artifact_total: 22
@@ -283,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png
 security:

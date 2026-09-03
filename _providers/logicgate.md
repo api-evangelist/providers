@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 43 operations · 24 acting
 api_count: 1
 apis:
-- description: An Access Audit captures information about access related events such as logins and logouts associated with a user.
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: An Access Audit captures information about access related events such as logins and logouts associated with a user.
   name: LogicGate Access Audit API
   slug: logicgate-access-audit-api
-- description: An [Application](https://help.logicgate.com/hc/en-us/articles/4402674055572-Create-a-new-Application) is a collection of Workflows, Steps, and logic that collectively solve a business use case
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: An [Application](https://help.logicgate.com/hc/en-us/articles/4402674055572-Create-a-new-Application) is a collection of Workflows, Steps, and logic that collectively solve a business use case
   name: LogicGate Application API
   slug: logicgate-application-api
-- description: 'Getting Started: How to create an [API Access Token](https://www.logicgate.com/developer/risk-cloud-api-authentication/) to begin integrating with the Risk Cloud API'
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: 'Getting Started: How to create an [API Access Token](https://www.logicgate.com/developer/risk-cloud-api-authentication/) to begin integrating with the Risk Cloud API'
   name: LogicGate Authentication API
   slug: logicgate-authentication-api
-- description: A [Conditional Edge Path](https://help.logicgate.com/hc/en-us/articles/4402683114004-Work-with-Paths#conditional-edge-paths) defines an alternative route that a Record might need to follow if specific
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: A [Conditional Edge Path](https://help.logicgate.com/hc/en-us/articles/4402683114004-Work-with-Paths#conditional-edge-paths) defines an alternative route that a Record might need to follow if specific
   name: LogicGate Edge Path API
   slug: logicgate-edge-path-api
-- description: A [Field](https://help.logicgate.com/hc/en-us/articles/4402674064020-Create-Fields) is used to capture information from and display information to users in a Workflow
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: A [Field](https://help.logicgate.com/hc/en-us/articles/4402674064020-Create-Fields) is used to capture information from and display information to users in a Workflow
   name: LogicGate Field API
   slug: logicgate-field-api
-- description: API endpoints for determining the next path(s) in a workflow, including routing and step information.
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: API endpoints for determining the next path(s) in a workflow, including routing and step information.
   name: LogicGate Next Path API
   slug: logicgate-next-path-api
-- description: A [Record](https://help.logicgate.com/hc/en-us/articles/4402683104020-Complete-a-Record) is a form that can capture information, store cataloged data, and link to other Records as it moves through eac
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: A [Record](https://help.logicgate.com/hc/en-us/articles/4402683104020-Complete-a-Record) is a form that can capture information, store cataloged data, and link to other Records as it moves through eac
   name: LogicGate Record API
   slug: logicgate-record-api
-- description: 'A [Redirect Path](https://help.logicgate.com/hc/en-us/articles/4402683115156-Selected-Redirects) gives end users access to Redirect a Record to any Step in the Workflow other than the Default Path or '
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: 'A [Redirect Path](https://help.logicgate.com/hc/en-us/articles/4402683115156-Selected-Redirects) gives end users access to Redirect a Record to any Step in the Workflow other than the Default Path or '
   name: LogicGate Redirect Path API
   slug: logicgate-redirect-path-api
-- description: A [Step](https://help.logicgate.com/hc/en-us/articles/4402674059668-Create-a-Step) lives in a Workflow and is configured with a set of Sections, Subsections and Fields to create a form
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: A [Step](https://help.logicgate.com/hc/en-us/articles/4402674059668-Create-a-Step) lives in a Workflow and is configured with a set of Sections, Subsections and Fields to create a form
   name: LogicGate Step API
   slug: logicgate-step-api
-- description: A [Workflow](https://help.logicgate.com/hc/en-us/articles/4402683108756-Create-a-new-Workflow) is a combination of Steps, Paths, Fields, and routing logic that combine to form a system in an Applicati
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: A [Workflow](https://help.logicgate.com/hc/en-us/articles/4402683108756-Create-a-new-Workflow) is a combination of Steps, Paths, Fields, and routing logic that combine to form a system in an Applicati
   name: LogicGate Workflow API
   slug: logicgate-workflow-api
-- description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
+- baseURL: https://logicgate.com
+  baseurl_source: declared
+  description: A [Workflow Map](https://help.logicgate.com/hc/en-us/articles/4402683117588) represents a relationship between two Workflows
   name: LogicGate Workflow Map API
   slug: logicgate-workflow-map-api
 artifact_total: 29
@@ -282,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/screenshots/logicgate-2026-07-25T225458.png
 security:

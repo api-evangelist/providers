@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 15 operations · 5 acting
 api_count: 1
 apis:
-- description: Batch Spark job submission
+- baseURL: http://localhost:8998
+  baseurl_source: spec
+  description: Batch Spark job submission
   name: Apache Livy Batches API
   slug: apache-livy-batches-api
-- description: Interactive Spark session management
+- baseURL: http://localhost:8998
+  baseurl_source: spec
+  description: Interactive Spark session management
   name: Apache Livy Sessions API
   slug: apache-livy-sessions-api
-- description: Code statement execution within sessions
+- baseURL: http://localhost:8998
+  baseurl_source: spec
+  description: Code statement execution within sessions
   name: Apache Livy Statements API
   slug: apache-livy-statements-api
 artifact_total: 68
@@ -345,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/screenshots/apache-livy-2026-06-20T172116.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +35,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: Route, content-type, taxonomy and status discovery documents for the iECURE WordPress REST deployment. Ten namespaces and 351 routes are registered; only these discovery documents and the content coll
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: Route, content-type, taxonomy and status discovery documents for the iECURE WordPress REST deployment. Ten namespaces and 351 routes are registered; only these discovery documents and the content coll
   name: iECURE Discovery API
   slug: iecure-discovery-api
-- description: The iECURE news archive - press releases, media coverage, awards and scientific publications/presentations. 60 published posts at harvest time across six categories.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: The iECURE news archive - press releases, media coverage, awards and scientific publications/presentations. 60 published posts at harvest time across six categories.
   name: iECURE Posts API
   slug: iecure-posts-api
-- description: Corporate pages - About, Approach, Programs, Careers, Contact, News, Terms of Service, Privacy Notice, Cookie Notice, Expanded Access Policy, Social Media Community Guidelines and Pharmacy Training. 1
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages - About, Approach, Programs, Careers, Contact, News, Terms of Service, Privacy Notice, Cookie Notice, Expanded Access Policy, Social Media Community Guidelines and Pharmacy Training. 1
   name: iECURE Pages API
   slug: iecure-pages-api
-- description: The media library backing the site - 226 attachments at harvest time, including the corporate logo, pipeline artwork and leadership headshots.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: The media library backing the site - 226 attachments at harvest time, including the corporate logo, pipeline artwork and leadership headshots.
   name: iECURE Media API
   slug: iecure-media-api
-- description: Categories and tags. Six news categories are registered (news, press release, in the news, awards, pubs & pres, Uncategorized); the post_tag taxonomy is registered but empty.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Six news categories are registered (news, press release, in the news, awards, pubs & pres, Uncategorized); the post_tag taxonomy is registered but empty.
   name: iECURE Taxonomy API
   slug: iecure-taxonomy-api
-- description: 'The `portfolio` custom post type as deployed by iECURE, which carries team members rather than portfolio work - 35 items at harvest time, classified by the portfolio_entries taxonomy into Leadership, '
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: 'The `portfolio` custom post type as deployed by iECURE, which carries team members rather than portfolio work - 35 items at harvest time, classified by the portfolio_entries taxonomy into Leadership, '
   name: iECURE Team API
   slug: iecure-team-api
-- description: Cross-content search across every published object on iecure.com. 64 objects were addressable at harvest time.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across every published object on iecure.com. 64 objects were addressable at harvest time.
   name: iECURE Search API
   slug: iecure-search-api
-- description: Author directory. Anonymously readable on this deployment - unusually, since most WordPress sites gate it - returning the two accounts that have published content.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: Author directory. Anonymously readable on this deployment - unusually, since most WordPress sites gate it - returning the two accounts that have published content.
   name: iECURE Authors API
   slug: iecure-users-api
-- description: Comment collection. Registered and anonymously reachable, but empty - no post on this deployment carries comments.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and anonymously reachable, but empty - no post on this deployment carries comments.
   name: iECURE Comments API
   slug: iecure-comments-api
-- description: oEmbed 1.0 provider endpoint for iecure.com URLs, returning JSON or XML rich/link responses.
+- baseURL: https://iecure.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for iecure.com URLs, returning JSON or XML rich/link responses.
   name: iECURE oEmbed API
   slug: iecure-oembed-api
 artifact_total: 14
@@ -196,7 +228,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -227,8 +259,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/iecure/refs/heads/main/screenshots/iecure-2026-09-02T145828.png
 security:
 - kind: authentication
   name: Iecure Authentication

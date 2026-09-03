@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -36,79 +48,129 @@ apis:
 - description: Dandelion by Euronet — a real-time, ISO 20022-compliant cross-border payments network exposed through a single customizable API reaching 190+ countries, ~6 billion bank accounts and mobile wallets, an
   name: Dandelion Cross-Border Payments API
   slug: dandelion-cross-border-payments-api
-- description: The Account API from Euronet Worldwide — 1 operation(s) for account.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Account API from Euronet Worldwide — 1 operation(s) for account.
   name: Euronet Worldwide Account API
   slug: euronet-account-api
-- description: The Account Information API from Euronet Worldwide — 1 operation(s) for account information.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Account Information API from Euronet Worldwide — 1 operation(s) for account information.
   name: Euronet Worldwide Account Information API
   slug: euronet-account-information-api
-- description: The Budget Category API from Euronet Worldwide — 2 operation(s) for budget category.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Budget Category API from Euronet Worldwide — 2 operation(s) for budget category.
   name: Euronet Worldwide Budget Category API
   slug: euronet-budget-category-api
-- description: The Conversions API from Euronet Worldwide — 2 operation(s) for conversions.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Conversions API from Euronet Worldwide — 2 operation(s) for conversions.
   name: Euronet Worldwide Conversions API
   slug: euronet-conversions-api
-- description: The Currency Information API from Euronet Worldwide — 1 operation(s) for currency information.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Currency Information API from Euronet Worldwide — 1 operation(s) for currency information.
   name: Euronet Worldwide Currency Information API
   slug: euronet-currency-information-api
-- description: The Expense API from Euronet Worldwide — 2 operation(s) for expense.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Expense API from Euronet Worldwide — 2 operation(s) for expense.
   name: Euronet Worldwide Expense API
   slug: euronet-expense-api
-- description: The Friend API from Euronet Worldwide — 2 operation(s) for friend.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Friend API from Euronet Worldwide — 2 operation(s) for friend.
   name: Euronet Worldwide Friend API
   slug: euronet-friend-api
-- description: The Historic Rates API from Euronet Worldwide — 2 operation(s) for historic rates.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Historic Rates API from Euronet Worldwide — 2 operation(s) for historic rates.
   name: Euronet Worldwide Historic Rates API
   slug: euronet-historic-rates-api
-- description: The Invitation API from Euronet Worldwide — 2 operation(s) for invitation.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Invitation API from Euronet Worldwide — 2 operation(s) for invitation.
   name: Euronet Worldwide Invitation API
   slug: euronet-invitation-api
-- description: The Invoice API from Euronet Worldwide — 1 operation(s) for invoice.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Invoice API from Euronet Worldwide — 1 operation(s) for invoice.
   name: Euronet Worldwide Invoice API
   slug: euronet-invoice-api
-- description: The Monthly Averages API from Euronet Worldwide — 1 operation(s) for monthly averages.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Monthly Averages API from Euronet Worldwide — 1 operation(s) for monthly averages.
   name: Euronet Worldwide Monthly Averages API
   slug: euronet-monthly-averages-api
-- description: The Payments API from Euronet Worldwide — 3 operation(s) for payments.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Payments API from Euronet Worldwide — 3 operation(s) for payments.
   name: Euronet Worldwide Payments API
   slug: euronet-payments-api
-- description: The Permission API from Euronet Worldwide — 1 operation(s) for permission.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Permission API from Euronet Worldwide — 1 operation(s) for permission.
   name: Euronet Worldwide Permission API
   slug: euronet-permission-api
-- description: The Permissions API from Euronet Worldwide — 1 operation(s) for permissions.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Permissions API from Euronet Worldwide — 1 operation(s) for permissions.
   name: Euronet Worldwide Permissions API
   slug: euronet-permissions-api
-- description: The PurposesOfPayment API from Euronet Worldwide — 1 operation(s) for purposesofpayment.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The PurposesOfPayment API from Euronet Worldwide — 1 operation(s) for purposesofpayment.
   name: Euronet Worldwide Purposes Of Payment API
   slug: euronet-purposesofpayment-api
-- description: The Quote API from Euronet Worldwide — 3 operation(s) for quote.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Quote API from Euronet Worldwide — 3 operation(s) for quote.
   name: Euronet Worldwide Quote API
   slug: euronet-quote-api
-- description: The Recipient API from Euronet Worldwide — 3 operation(s) for recipient.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Recipient API from Euronet Worldwide — 3 operation(s) for recipient.
   name: Euronet Worldwide Recipient API
   slug: euronet-recipient-api
-- description: The Stats API from Euronet Worldwide — 1 operation(s) for stats.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Stats API from Euronet Worldwide — 1 operation(s) for stats.
   name: Euronet Worldwide Stats API
   slug: euronet-stats-api
-- description: The Terms API from Euronet Worldwide — 1 operation(s) for terms.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Terms API from Euronet Worldwide — 1 operation(s) for terms.
   name: Euronet Worldwide Terms API
   slug: euronet-terms-api
-- description: Tradable rates API
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: Tradable rates API
   name: Euronet Worldwide Tradable Rates API
   slug: euronet-tradable-rates-api
-- description: The TradeableCurrency API from Euronet Worldwide — 1 operation(s) for tradeablecurrency.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The TradeableCurrency API from Euronet Worldwide — 1 operation(s) for tradeablecurrency.
   name: Euronet Worldwide Tradeable Currency API
   slug: euronet-tradeablecurrency-api
-- description: The Transaction API from Euronet Worldwide — 2 operation(s) for transaction.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Transaction API from Euronet Worldwide — 2 operation(s) for transaction.
   name: Euronet Worldwide Transaction API
   slug: euronet-transaction-api
-- description: The Trip API from Euronet Worldwide — 3 operation(s) for trip.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The Trip API from Euronet Worldwide — 3 operation(s) for trip.
   name: Euronet Worldwide Trip API
   slug: euronet-trip-api
-- description: The User API from Euronet Worldwide — 4 operation(s) for user.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The User API from Euronet Worldwide — 4 operation(s) for user.
   name: Euronet Worldwide User API
   slug: euronet-user-api
-- description: The XETA API from Euronet Worldwide — 1 operation(s) for xeta.
+- baseURL: https://xecdapi.xe.com/v1
+  baseurl_source: declared
+  description: The XETA API from Euronet Worldwide — 1 operation(s) for xeta.
   name: Euronet Worldwide XETA API
   slug: euronet-xeta-api
 artifact_total: 36
@@ -275,7 +337,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -285,7 +347,7 @@ score:
     discoverability: 64.8
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 39.5
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,7 +365,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:

@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Novo business checking account data - account identity, balances, and auth. Novo does not expose a public first-party Accounts API; account connectivity is provided through the Plaid aggregator (Asset
+- baseURL: https://www.novo.co
+  baseurl_source: spec
+  description: Novo business checking account data - account identity, balances, and auth. Novo does not expose a public first-party Accounts API; account connectivity is provided through the Plaid aggregator (Asset
   name: Novo Accounts
   slug: novo-accounts
-- description: Novo transaction history and categorization used for bookkeeping and reconciliation. There is no documented public Novo Transactions API; transaction data is accessed via aggregators such as Plaid, or
+- baseURL: https://www.novo.co
+  baseurl_source: spec
+  description: Novo transaction history and categorization used for bookkeeping and reconciliation. There is no documented public Novo Transactions API; transaction data is accessed via aggregators such as Plaid, or
   name: Novo Transactions
   slug: novo-transactions
-- description: Novo money movement - invoicing, ACH transfers, and faster payouts (Express ACH). These capabilities are delivered through the Novo app and partner rails; no public payments API is documented for thir
+- baseURL: https://www.novo.co
+  baseurl_source: spec
+  description: Novo money movement - invoicing, ACH transfers, and faster payouts (Express ACH). These capabilities are delivered through the Novo app and partner rails; no public payments API is documented for thir
   name: Novo Payments
   slug: novo-payments
 artifact_total: 10
@@ -137,7 +143,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/screenshots/novo-bank-2026-06-20T190435.png
 security:

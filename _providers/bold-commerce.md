@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 29 operations · 18 acting
 api_count: 1
 apis:
-- description: Headless storefront checkout order operations.
+- baseURL: https://api.boldcommerce.com/subscriptions/v1
+  baseurl_source: declared
+  description: Headless storefront checkout order operations.
   name: Bold Commerce Checkout API
   slug: bold-commerce-checkout-api
-- description: Customer records tied to a shop.
+- baseURL: https://api.boldcommerce.com/subscriptions/v1
+  baseurl_source: declared
+  description: Customer records tied to a shop.
   name: Bold Commerce Customers API
   slug: bold-commerce-customers-api
-- description: Discounts, promotions, and dynamic pricing.
+- baseURL: https://api.boldcommerce.com/subscriptions/v1
+  baseurl_source: declared
+  description: Discounts, promotions, and dynamic pricing.
   name: Bold Commerce Price Rules API
   slug: bold-commerce-price-rules-api
-- description: Product catalog for a shop.
+- baseURL: https://api.boldcommerce.com/subscriptions/v1
+  baseurl_source: declared
+  description: Product catalog for a shop.
   name: Bold Commerce Products API
   slug: bold-commerce-products-api
-- description: Shop configuration and shop_identifier lookup.
+- baseURL: https://api.boldcommerce.com/subscriptions/v1
+  baseurl_source: declared
+  description: Shop configuration and shop_identifier lookup.
   name: Bold Commerce Shops API
   slug: bold-commerce-shops-api
-- description: Recurring orders, intervals, and subscription management.
+- baseURL: https://api.boldcommerce.com/subscriptions/v1
+  baseurl_source: declared
+  description: Recurring orders, intervals, and subscription management.
   name: Bold Commerce Subscriptions API
   slug: bold-commerce-subscriptions-api
 artifact_total: 21
@@ -195,7 +207,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/screenshots/bold-commerce-2026-07-25T203530.png
 security:

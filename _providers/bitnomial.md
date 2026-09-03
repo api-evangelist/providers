@@ -33,13 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Public HTTPS REST API for the Bitnomial exchange — products and contract specs, orders, fills, block trades, indexes, funding rates, and market statistics. HMAC-SHA256 signed authentication; cursor pa
   name: Bitnomial Exchange REST API
   slug: bitnomial-exchange-rest-api
-- description: Real-time WebSocket market-data feed delivering trade, order book, block trade, and market status messages for subscribed products.
+- baseURL: https://bitnomial.com/exchange/api/v1/prod
+  baseurl_source: declared
+  description: Real-time WebSocket market-data feed delivering trade, order book, block trade, and market status messages for subscribed products.
   name: Bitnomial Market Data WebSocket API
   slug: bitnomial-market-data-websocket-api
 artifact_total: 7
@@ -176,7 +178,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -186,7 +188,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 40.4
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -197,7 +199,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitnomial/refs/heads/main/screenshots/bitnomial-2026-07-25T203158.png
 security:

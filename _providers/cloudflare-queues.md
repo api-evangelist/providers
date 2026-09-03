@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 20 operations · 14 acting
 api_count: 1
 apis:
-- description: Operations for managing queue consumers (Worker push or HTTP pull)
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Operations for managing queue consumers (Worker push or HTTP pull)
   name: Cloudflare Queues Consumer API
   slug: cloudflare-queues-consumer-api
-- description: Operations for sending, receiving, and acknowledging messages
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Operations for sending, receiving, and acknowledging messages
   name: Cloudflare Queues Messages API
   slug: cloudflare-queues-messages-api
-- description: Operations for retrieving queue metrics
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Operations for retrieving queue metrics
   name: Cloudflare Queues Metrics API
   slug: cloudflare-queues-metrics-api
-- description: Operations for managing Cloudflare Queues and their configuration
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Operations for managing Cloudflare Queues and their configuration
   name: Cloudflare Queues Queue API
   slug: cloudflare-queues-queue-api
 artifact_total: 29
@@ -291,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/screenshots/cloudflare-queues-2026-06-20T174559.png
 security:

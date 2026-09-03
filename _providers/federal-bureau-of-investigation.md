@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: The FBI Crime Data Explorer (CDE) provides public access to Uniform Crime Reporting (UCR) data through a JSON API. The API exposes summary statistics, agency-level participation, offense and arrest co
   name: FBI Crime Data Explorer
   slug: crime-data-explorer
-- description: The List API from Federal Bureau of Investigation — 1 operation(s) for list.
+- baseURL: https://api.fbi.gov
+  baseurl_source: declared
+  description: The List API from Federal Bureau of Investigation — 1 operation(s) for list.
   name: Federal Bureau of Investigation List API
   slug: federal-bureau-of-investigation-list-api
 artifact_total: 10
@@ -143,7 +145,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-bureau-of-investigation/refs/heads/main/screenshots/federal-bureau-of-investigation-2026-06-20T181110.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Pages, posts, reusable blocks and navigation.
+- baseURL: https://us.allotex.com/wp-json
+  baseurl_source: declared
+  description: Pages, posts, reusable blocks and navigation.
   name: Allotex Content API
   slug: allotex-content-api
-- description: Route index, cross-content search and the oEmbed provider endpoint.
+- baseURL: https://us.allotex.com/wp-json
+  baseurl_source: declared
+  description: Route index, cross-content search and the oEmbed provider endpoint.
   name: Allotex Discovery API
   slug: allotex-discovery-api
-- description: Public author records.
+- baseURL: https://us.allotex.com/wp-json
+  baseurl_source: declared
+  description: Public author records.
   name: Allotex Identity API
   slug: allotex-identity-api
-- description: The 218-item media library and its size variants.
+- baseURL: https://us.allotex.com/wp-json
+  baseurl_source: declared
+  description: The 218-item media library and its size variants.
   name: Allotex Media API
   slug: allotex-media-api
-- description: Registered post types, taxonomies and statuses.
+- baseURL: https://us.allotex.com/wp-json
+  baseurl_source: declared
+  description: Registered post types, taxonomies and statuses.
   name: Allotex Schema API
   slug: allotex-schema-api
-- description: Categories and tags.
+- baseURL: https://us.allotex.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags.
   name: Allotex Taxonomy API
   slug: allotex-taxonomy-api
 artifact_total: 17
@@ -261,7 +284,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allotex/refs/heads/main/screenshots/allotex-2026-08-07T161228.png
 security:

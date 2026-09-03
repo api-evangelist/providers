@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 23 operations · 17 acting
 api_count: 1
 apis:
-- description: The Chat API from OpenPipe — 1 operation(s) for chat.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Chat API from OpenPipe — 1 operation(s) for chat.
   name: OpenPipe Chat API
   slug: openpipe-chat-api
-- description: The Check Cache API from OpenPipe — 1 operation(s) for check cache.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Check Cache API from OpenPipe — 1 operation(s) for check cache.
   name: OpenPipe Check Cache API
   slug: openpipe-check-cache-api
-- description: The Criteria API from OpenPipe — 1 operation(s) for criteria.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Criteria API from OpenPipe — 1 operation(s) for criteria.
   name: OpenPipe Criteria API
   slug: openpipe-criteria-api
-- description: The Datasets API from OpenPipe — 3 operation(s) for datasets.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Datasets API from OpenPipe — 3 operation(s) for datasets.
   name: OpenPipe Datasets API
   slug: openpipe-datasets-api
-- description: The Local Testing Only Get Latest Logged Call API from OpenPipe — 1 operation(s) for local testing only get latest logged call.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Local Testing Only Get Latest Logged Call API from OpenPipe — 1 operation(s) for local testing only get latest logged call.
   name: OpenPipe Local Testing Only Get Latest Logged Call API
   slug: openpipe-local-testing-only-get-latest-logged-call-api
-- description: The Logs API from OpenPipe — 2 operation(s) for logs.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Logs API from OpenPipe — 2 operation(s) for logs.
   name: OpenPipe Logs API
   slug: openpipe-logs-api
-- description: The Models API from OpenPipe — 2 operation(s) for models.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Models API from OpenPipe — 2 operation(s) for models.
   name: OpenPipe Models API
   slug: openpipe-models-api
-- description: The Report Anthropic API from OpenPipe — 1 operation(s) for report anthropic.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Report Anthropic API from OpenPipe — 1 operation(s) for report anthropic.
   name: OpenPipe Report Anthropic API
   slug: openpipe-report-anthropic-api
-- description: The Report API from OpenPipe — 1 operation(s) for report.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Report API from OpenPipe — 1 operation(s) for report.
   name: OpenPipe Report API
   slug: openpipe-report-api
-- description: The Unstable API from OpenPipe — 7 operation(s) for unstable.
+- baseURL: https://api.openpipe.ai/api/v1
+  baseurl_source: declared
+  description: The Unstable API from OpenPipe — 7 operation(s) for unstable.
   name: OpenPipe Unstable API
   slug: openpipe-unstable-api
 artifact_total: 28
@@ -209,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/screenshots/openpipe-2026-06-20T191022.png
 security:

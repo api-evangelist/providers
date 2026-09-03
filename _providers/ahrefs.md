@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,136 +39,220 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 15
 apis:
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
   name: Ahrefs MCP Server
   slug: mcp
-- description: The AI visibility API from Ahrefs — 3 operation(s) for ai visibility.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The AI visibility API from Ahrefs — 3 operation(s) for ai visibility.
   name: Ahrefs AI visibility API
   slug: ahrefs-ai-visibility-api
-- description: GSC anonymous queries data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: GSC anonymous queries data
   name: Ahrefs Anonymous queries API
   slug: ahrefs-anonymous-queries-api
-- description: Backlinks data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Backlinks data
   name: Ahrefs Backlinks profile API
   slug: ahrefs-backlinks-profile-api
-- description: Batch Analysis table
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Batch Analysis table
   name: Ahrefs Batch Analysis API
   slug: ahrefs-batch-analysis-api
-- description: The Brand Radar prompts API from Ahrefs — 2 operation(s) for brand radar prompts.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Brand Radar prompts API from Ahrefs — 2 operation(s) for brand radar prompts.
   name: Ahrefs Brand Radar prompts API
   slug: ahrefs-brand-radar-prompts-api
-- description: The Brand radar reports API from Ahrefs — 1 operation(s) for brand radar reports.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Brand radar reports API from Ahrefs — 1 operation(s) for brand radar reports.
   name: Ahrefs Brand radar reports API
   slug: ahrefs-brand-radar-reports-api
-- description: The Channels API from Ahrefs — 2 operation(s) for channels.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Channels API from Ahrefs — 2 operation(s) for channels.
   name: Ahrefs Channels API
   slug: ahrefs-channels-api
-- description: The Competitors API from Ahrefs — 2 operation(s) for competitors.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Competitors API from Ahrefs — 2 operation(s) for competitors.
   name: Ahrefs Competitors API
   slug: ahrefs-competitors-api
-- description: Data from competitors
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Data from competitors
   name: Ahrefs Competitors Overview API
   slug: ahrefs-competitors-overview-api
-- description: The Crawler API from Ahrefs — 2 operation(s) for crawler.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Crawler API from Ahrefs — 2 operation(s) for crawler.
   name: Ahrefs Crawler API
   slug: ahrefs-crawler-api
-- description: The Domain Rating API from Ahrefs — 2 operation(s) for domain rating.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Domain Rating API from Ahrefs — 2 operation(s) for domain rating.
   name: Ahrefs Domain Rating API
   slug: ahrefs-domain-rating-api
-- description: The Geography API from Ahrefs — 8 operation(s) for geography.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Geography API from Ahrefs — 8 operation(s) for geography.
   name: Ahrefs Geography API
   slug: ahrefs-geography-api
-- description: Keyword ideas reports
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Keyword ideas reports
   name: Ahrefs Keyword ideas API
   slug: ahrefs-keyword-ideas-api
-- description: The Keyword lists API from Ahrefs — 2 operation(s) for keyword lists.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Keyword lists API from Ahrefs — 2 operation(s) for keyword lists.
   name: Ahrefs Keyword lists API
   slug: ahrefs-keyword-lists-api
-- description: GSC keywords data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: GSC keywords data
   name: Ahrefs Keywords API
   slug: ahrefs-keywords-api
-- description: The Limits and usage API from Ahrefs — 1 operation(s) for limits and usage.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Limits and usage API from Ahrefs — 1 operation(s) for limits and usage.
   name: Ahrefs Limits and usage API
   slug: ahrefs-limits-and-usage-api
-- description: The Locations and languages API from Ahrefs — 1 operation(s) for locations and languages.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Locations and languages API from Ahrefs — 1 operation(s) for locations and languages.
   name: Ahrefs Locations and languages API
   slug: ahrefs-locations-and-languages-api
-- description: The MCP API from Ahrefs — 7 operation(s) for mcp.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The MCP API from Ahrefs — 7 operation(s) for mcp.
   name: Ahrefs MCP API
   slug: ahrefs-mcp-api
-- description: Organic search data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Organic search data
   name: Ahrefs Organic search API
   slug: ahrefs-organic-search-api
-- description: Outgoing links data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Outgoing links data
   name: Ahrefs Outgoing links API
   slug: ahrefs-outgoing-links-api
-- description: The Overview API from Ahrefs — 29 operation(s) for overview.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Overview API from Ahrefs — 29 operation(s) for overview.
   name: Ahrefs Overview API
   slug: ahrefs-overview-api
-- description: The Overview history API from Ahrefs — 4 operation(s) for overview history.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Overview history API from Ahrefs — 4 operation(s) for overview history.
   name: Ahrefs Overview history API
   slug: ahrefs-overview-history-api
-- description: The Page content API from Ahrefs — 1 operation(s) for page content.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Page content API from Ahrefs — 1 operation(s) for page content.
   name: Ahrefs Page content API
   slug: ahrefs-page-content-api
-- description: The Page explorer API from Ahrefs — 1 operation(s) for page explorer.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Page explorer API from Ahrefs — 1 operation(s) for page explorer.
   name: Ahrefs Page explorer API
   slug: ahrefs-page-explorer-api
-- description: GSC pages data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: GSC pages data
   name: Ahrefs Pages API
   slug: ahrefs-pages-api
-- description: Paid search data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: Paid search data
   name: Ahrefs Paid search API
   slug: ahrefs-paid-search-api
-- description: The Posts API from Ahrefs — 5 operation(s) for posts.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Posts API from Ahrefs — 5 operation(s) for posts.
   name: Ahrefs Posts API
   slug: ahrefs-posts-api
-- description: The Projects API from Ahrefs — 3 operation(s) for projects.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Projects API from Ahrefs — 3 operation(s) for projects.
   name: Ahrefs Projects API
   slug: ahrefs-projects-api
-- description: SERP Overview data
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: SERP Overview data
   name: Ahrefs SERP Overview API
   slug: ahrefs-serp-overview-api
-- description: The Traffic Sources API from Ahrefs — 8 operation(s) for traffic sources.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The Traffic Sources API from Ahrefs — 8 operation(s) for traffic sources.
   name: Ahrefs Traffic Sources API
   slug: ahrefs-traffic-sources-api
-- description: The User Agents API from Ahrefs — 10 operation(s) for user agents.
+- baseURL: https://api.ahrefs.com/v3
+  baseurl_source: declared
+  description: The User Agents API from Ahrefs — 10 operation(s) for user agents.
   name: Ahrefs User Agents API
   slug: ahrefs-user-agents-api
-- description: Brand radar.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Brand radar.
   name: Ahrefs Brand Radar API
   slug: ahrefs-brand-radar-api
-- description: Fetch data from GSC Insights reports
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Fetch data from GSC Insights reports
   name: Ahrefs GSC Insights API
   slug: ahrefs-gsc-insights-api
-- description: Fetch data from Keywords Explorer reports
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Fetch data from Keywords Explorer reports
   name: Ahrefs Keywords Explorer API
   slug: ahrefs-keywords-explorer-api
-- description: Project management.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Project management.
   name: Ahrefs Management API
   slug: ahrefs-management-api
-- description: Free endpoints that don't require an Ahrefs subscription, or require a free/public APIv3 key
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Free endpoints that don't require an Ahrefs subscription, or require a free/public APIv3 key
   name: Ahrefs Public API
   slug: ahrefs-public-api
-- description: Rank tracker.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Rank tracker.
   name: Ahrefs Rank Tracker API
   slug: ahrefs-rank-tracker-api
-- description: Site audit.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Site audit.
   name: Ahrefs Site Audit API
   slug: ahrefs-site-audit-api
-- description: Fetch data from Site Explorer reports
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Fetch data from Site Explorer reports
   name: Ahrefs Site Explorer API
   slug: ahrefs-site-explorer-api
-- description: Social Media Management.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Social Media Management.
   name: Ahrefs Social Media API
   slug: ahrefs-social-media-api
-- description: Subscription information.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Subscription information.
   name: Ahrefs Subscription Information API
   slug: ahrefs-subscription-information-api
-- description: Web_analytics.
+- baseURL: https://api.ahrefs.com/mcp/mcp
+  baseurl_source: declared
+  description: Web_analytics.
   name: Ahrefs Web Analytics API
   slug: ahrefs-web-analytics-api
 artifact_total: 63
@@ -389,7 +488,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png
 security:

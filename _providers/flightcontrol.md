@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: 'Version-controlled flightcontrol.json (or flightcontrol.cue) declaring environments, services, regions, sources, and environment variables that drive AWS provisioning; a published JSON Schema enables '
   name: Flightcontrol Config-as-Code
   slug: flightcontrol-config-as-code
-- description: The CloudFront API from Flightcontrol — 2 operation(s) for cloudfront.
+- baseURL: https://api.flightcontrol.dev/v1
+  baseurl_source: declared
+  description: The CloudFront API from Flightcontrol — 2 operation(s) for cloudfront.
   name: Flightcontrol CloudFront API
   slug: flightcontrol-cloudfront-api
-- description: The Deploy Hooks API from Flightcontrol — 2 operation(s) for deploy hooks.
+- baseURL: https://api.flightcontrol.dev/v1
+  baseurl_source: declared
+  description: The Deploy Hooks API from Flightcontrol — 2 operation(s) for deploy hooks.
   name: Flightcontrol Deploy Hooks API
   slug: flightcontrol-deploy-hooks-api
-- description: The Deployments API from Flightcontrol — 1 operation(s) for deployments.
+- baseURL: https://api.flightcontrol.dev/v1
+  baseurl_source: declared
+  description: The Deployments API from Flightcontrol — 1 operation(s) for deployments.
   name: Flightcontrol Deployments API
   slug: flightcontrol-deployments-api
-- description: The Environment Variables API from Flightcontrol — 1 operation(s) for environment variables.
+- baseURL: https://api.flightcontrol.dev/v1
+  baseurl_source: declared
+  description: The Environment Variables API from Flightcontrol — 1 operation(s) for environment variables.
   name: Flightcontrol Environment Variables API
   slug: flightcontrol-environment-variables-api
-- description: The Environments API from Flightcontrol — 1 operation(s) for environments.
+- baseURL: https://api.flightcontrol.dev/v1
+  baseurl_source: declared
+  description: The Environments API from Flightcontrol — 1 operation(s) for environments.
   name: Flightcontrol Environments API
   slug: flightcontrol-environments-api
-- description: The Services API from Flightcontrol — 2 operation(s) for services.
+- baseURL: https://api.flightcontrol.dev/v1
+  baseurl_source: declared
+  description: The Services API from Flightcontrol — 2 operation(s) for services.
   name: Flightcontrol Services API
   slug: flightcontrol-services-api
 artifact_total: 21
@@ -184,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/screenshots/flightcontrol-2026-06-20T181311.png
 security:

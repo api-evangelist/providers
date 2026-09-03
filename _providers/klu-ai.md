@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 1
 apis:
-- description: Run Actions to generate completions.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Run Actions to generate completions.
   name: Klu Actions API
   slug: klu-ai-actions-api
-- description: Apps (projects) grouping Actions, context, and experiments.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Apps (projects) grouping Actions, context, and experiments.
   name: Klu Apps API
   slug: klu-ai-apps-api
-- description: Manage Context libraries and documents for retrieval-augmented generation.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Manage Context libraries and documents for retrieval-augmented generation.
   name: Klu Context API
   slug: klu-ai-context-api
-- description: Data points produced by Action generations.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Data points produced by Action generations.
   name: Klu Data API
   slug: klu-ai-data-api
-- description: Ratings, corrections, and issues attached to data points.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Ratings, corrections, and issues attached to data points.
   name: Klu Feedback API
   slug: klu-ai-feedback-api
-- description: LLM providers and models available in the workspace.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: LLM providers and models available in the workspace.
   name: Klu Models API
   slug: klu-ai-models-api
-- description: Session memory for multi-turn conversations.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Session memory for multi-turn conversations.
   name: Klu Sessions API
   slug: klu-ai-sessions-api
-- description: Workspace administration.
+- baseURL: https://api.klu.ai/v1
+  baseurl_source: declared
+  description: Workspace administration.
   name: Klu Workspaces API
   slug: klu-ai-workspaces-api
 artifact_total: 24
@@ -193,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klu-ai/refs/heads/main/screenshots/klu-ai-2026-06-20T184105.png
 security:

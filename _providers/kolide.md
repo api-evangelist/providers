@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Admin Users API from Kolide — 2 operation(s) for admin users.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Admin Users API from Kolide — 2 operation(s) for admin users.
   name: Kolide Admin Users API
   slug: kolide-admin-users-api
-- description: The Audit Logs API from Kolide — 2 operation(s) for audit logs.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Audit Logs API from Kolide — 2 operation(s) for audit logs.
   name: Kolide Audit Logs API
   slug: kolide-audit-logs-api
-- description: The Auth Logs API from Kolide — 2 operation(s) for auth logs.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Auth Logs API from Kolide — 2 operation(s) for auth logs.
   name: Kolide Auth Logs API
   slug: kolide-auth-logs-api
-- description: The Checks API from Kolide — 5 operation(s) for checks.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Checks API from Kolide — 5 operation(s) for checks.
   name: Kolide Checks API
   slug: kolide-checks-api
-- description: The Custom Check Drafts API from Kolide — 2 operation(s) for custom check drafts.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Custom Check Drafts API from Kolide — 2 operation(s) for custom check drafts.
   name: Kolide Custom Check Drafts API
   slug: kolide-custom-check-drafts-api
-- description: The Deprovisioned People API from Kolide — 1 operation(s) for deprovisioned people.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Deprovisioned People API from Kolide — 1 operation(s) for deprovisioned people.
   name: Kolide Deprovisioned People API
   slug: kolide-deprovisioned-people-api
-- description: The Device Groups API from Kolide — 5 operation(s) for device groups.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Device Groups API from Kolide — 5 operation(s) for device groups.
   name: Kolide Device Groups API
   slug: kolide-device-groups-api
-- description: The Devices API from Kolide — 7 operation(s) for devices.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Devices API from Kolide — 7 operation(s) for devices.
   name: Kolide Devices API
   slug: kolide-devices-api
-- description: The Exemption Requests API from Kolide — 2 operation(s) for exemption requests.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Exemption Requests API from Kolide — 2 operation(s) for exemption requests.
   name: Kolide Exemption Requests API
   slug: kolide-exemption-requests-api
-- description: The Issues API from Kolide — 2 operation(s) for issues.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Issues API from Kolide — 2 operation(s) for issues.
   name: Kolide Issues API
   slug: kolide-issues-api
-- description: The Live Query Campaigns API from Kolide — 3 operation(s) for live query campaigns.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Live Query Campaigns API from Kolide — 3 operation(s) for live query campaigns.
   name: Kolide Live Query Campaigns API
   slug: kolide-live-query-campaigns-api
-- description: The Packages API from Kolide — 2 operation(s) for packages.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Packages API from Kolide — 2 operation(s) for packages.
   name: Kolide Packages API
   slug: kolide-packages-api
-- description: The People API from Kolide — 5 operation(s) for people.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The People API from Kolide — 5 operation(s) for people.
   name: Kolide People API
   slug: kolide-people-api
-- description: The Person Groups API from Kolide — 3 operation(s) for person groups.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Person Groups API from Kolide — 3 operation(s) for person groups.
   name: Kolide Person Groups API
   slug: kolide-person-groups-api
-- description: The Registration Requests API from Kolide — 2 operation(s) for registration requests.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Registration Requests API from Kolide — 2 operation(s) for registration requests.
   name: Kolide Registration Requests API
   slug: kolide-registration-requests-api
-- description: The Reporting API from Kolide — 6 operation(s) for reporting.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Reporting API from Kolide — 6 operation(s) for reporting.
   name: Kolide Reporting API
   slug: kolide-reporting-api
-- description: The Whoami API from Kolide — 1 operation(s) for whoami.
+- baseURL: https://api.kolide.com
+  baseurl_source: declared
+  description: The Whoami API from Kolide — 1 operation(s) for whoami.
   name: Kolide Whoami API
   slug: kolide-whoami-api
 artifact_total: 41
@@ -305,7 +339,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -315,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 55.0
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     contracts:
@@ -326,7 +360,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolide/refs/heads/main/screenshots/kolide-2026-07-25T224129.png
 security:

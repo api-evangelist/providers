@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,13 +43,19 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: The Comparisons API from Savvly — 2 operation(s) for comparisons.
+- baseURL: https://api.savvly.com
+  baseurl_source: spec
+  description: The Comparisons API from Savvly — 2 operation(s) for comparisons.
   name: Savvly Comparisons API
   slug: savvly-comparisons-api
-- description: The Product API from Savvly — 6 operation(s) for product.
+- baseURL: https://api.savvly.com
+  baseurl_source: spec
+  description: The Product API from Savvly — 6 operation(s) for product.
   name: Savvly Product API
   slug: savvly-product-api
-- description: The Projections API from Savvly — 4 operation(s) for projections.
+- baseURL: https://api.savvly.com
+  baseurl_source: spec
+  description: The Projections API from Savvly — 4 operation(s) for projections.
   name: Savvly Projections API
   slug: savvly-projections-api
 artifact_total: 10
@@ -94,7 +110,7 @@ score:
   band: emerging
   composite: 16.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 85.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -120,8 +136,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/savvly/refs/heads/main/screenshots/savvly-2026-09-02T154449.png
 security:
 - kind: domain-security
   name: Savvly Domain Security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 11 acting
 api_count: 6
 apis:
-- description: Apply and retrieve decisions on Sift entities.
+- baseURL: https://api.sift.com/v205
+  baseurl_source: spec
+  description: Apply and retrieve decisions on Sift entities.
   name: Sift Decisions API
   slug: sift-com-decisions-api
-- description: Send fraud and abuse signals to Sift for scoring.
+- baseURL: https://api.sift.com/v205
+  baseurl_source: spec
+  description: Send fraud and abuse signals to Sift for scoring.
   name: Sift Events API
   slug: sift-com-events-api
-- description: Apply and remove fraud labels on Sift users.
+- baseURL: https://api.sift.com/v205
+  baseurl_source: spec
+  description: Apply and remove fraud labels on Sift users.
   name: Sift Labels API
   slug: sift-com-labels-api
-- description: Retrieve and recompute Sift risk scores.
+- baseURL: https://api.sift.com/v205
+  baseurl_source: spec
+  description: Retrieve and recompute Sift risk scores.
   name: Sift Scores API
   slug: sift-com-scores-api
-- description: Send, resend, and check verification challenges.
+- baseURL: https://api.sift.com/v205
+  baseurl_source: spec
+  description: Send, resend, and check verification challenges.
   name: Sift Verification API
   slug: sift-com-verification-api
-- description: Inspect Sift Workflow evaluations.
+- baseURL: https://api.sift.com/v205
+  baseurl_source: spec
+  description: Inspect Sift Workflow evaluations.
   name: Sift Workflows API
   slug: sift-com-workflows-api
 arazzos:
@@ -454,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-com/refs/heads/main/screenshots/sift-com-2026-06-20T193904.png
 security:

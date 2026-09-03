@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -59,34 +59,54 @@ apis:
 - description: The TSB Observability API exposes metrics, topology, and service observability data for workloads managed by Tetrate Service Bridge. It provides access to service-level metrics, traffic telemetry, and
   name: Tetrate Service Bridge Observability API
   slug: tsb-observability-api
-- description: Manage API objects within applications
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage API objects within applications
   name: Tetrate APIs API
   slug: tetrate-apis-api
-- description: Manage application objects
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage application objects
   name: Tetrate Applications API
   slug: tetrate-applications-api
-- description: Manage onboarded Kubernetes clusters
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage onboarded Kubernetes clusters
   name: Tetrate Clusters API
   slug: tetrate-clusters-api
-- description: Manage gateway groups and ingress/egress gateways
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage gateway groups and ingress/egress gateways
   name: Tetrate Gateway Groups API
   slug: tetrate-gateway-groups-api
-- description: Manage TSB organizations
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage TSB organizations
   name: Tetrate Organizations API
   slug: tetrate-organizations-api
-- description: Manage roles, bindings, and access policies
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage roles, bindings, and access policies
   name: Tetrate RBAC API
   slug: tetrate-rbac-api
-- description: Manage security settings and policies
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage security settings and policies
   name: Tetrate Security Groups API
   slug: tetrate-security-groups-api
-- description: Manage tenants within organizations
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage tenants within organizations
   name: Tetrate Tenants API
   slug: tetrate-tenants-api
-- description: Manage traffic settings and service routes
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage traffic settings and service routes
   name: Tetrate Traffic Groups API
   slug: tetrate-traffic-groups-api
-- description: Manage workspaces within tenants
+- baseURL: https://tsbhost:8443/v2
+  baseurl_source: declared
+  description: Manage workspaces within tenants
   name: Tetrate Workspaces API
   slug: tetrate-workspaces-api
 artifact_total: 67
@@ -382,7 +402,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/screenshots/tetrate-2026-06-20T195201.png
 security:

@@ -32,10 +32,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
+- baseURL: https://app.icontact.com/icp/
+  baseurl_source: declared
+  description: REST API v2.2 for managing contacts, lists, segments, campaigns, messages, sends, and reporting inside the iContact email marketing platform. Authentication uses custom HTTP headers including API-AppI
   name: iContact REST API
   slug: rest-api
 artifact_total: 8
@@ -179,7 +181,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -189,13 +191,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 53.7
+  previous_composite: 53.5
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icontact/refs/heads/main/screenshots/icontact-2026-06-20T183200.png
 security:

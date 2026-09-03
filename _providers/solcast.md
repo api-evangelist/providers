@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 25 operations · 4 acting
 api_count: 1
 apis:
-- description: Live and forecast aggregated generation data for grid collections and sub-aggregations.
+- baseURL: https://api.solcast.com.au
+  baseurl_source: declared
+  description: Live and forecast aggregated generation data for grid collections and sub-aggregations.
   name: Solcast Aggregations API
   slug: solcast-aggregations-api
-- description: Solar irradiance, PV power, and weather forecasts up to 14 days ahead.
+- baseURL: https://api.solcast.com.au
+  baseurl_source: declared
+  description: Solar irradiance, PV power, and weather forecasts up to 14 days ahead.
   name: Solcast Forecast Data API
   slug: solcast-forecast-data-api
-- description: Historical solar radiation and weather data from 2007-01-01 up to 7 days before present.
+- baseURL: https://api.solcast.com.au
+  baseurl_source: declared
+  description: Historical solar radiation and weather data from 2007-01-01 up to 7 days before present.
   name: Solcast Historic Data API
   slug: solcast-historic-data-api
-- description: Real-time solar irradiance, PV power, and weather estimated actuals (last 7 days, updated every 5 minutes).
+- baseURL: https://api.solcast.com.au
+  baseurl_source: declared
+  description: Real-time solar irradiance, PV power, and weather estimated actuals (last 7 days, updated every 5 minutes).
   name: Solcast Live Data API
   slug: solcast-live-data-api
-- description: CRUD management of registered PV power sites for use with the advanced PV power model.
+- baseURL: https://api.solcast.com.au
+  baseurl_source: declared
+  description: CRUD management of registered PV power sites for use with the advanced PV power model.
   name: Solcast PV Power Sites API
   slug: solcast-pv-power-sites-api
-- description: Typical Meteorological Year data computed from 2007 to 2023 satellite observations.
+- baseURL: https://api.solcast.com.au
+  baseurl_source: declared
+  description: Typical Meteorological Year data computed from 2007 to 2023 satellite observations.
   name: Solcast TMY Data API
   slug: solcast-tmy-data-api
 artifact_total: 41
@@ -330,7 +342,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/screenshots/solcast-2026-06-20T194150.png
 security:

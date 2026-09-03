@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,43 +44,69 @@ agentic_access:
   summary_line: 37 operations
 api_count: 2
 apis:
-- description: 'Self-describing metadata: registered content types, taxonomies and post statuses.'
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: 'Self-describing metadata: registered content types, taxonomies and post statuses.'
   name: Ease Discovery API
   slug: ease-discovery-api
-- description: Ease in-person and virtual events, and their categories.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Ease in-person and virtual events, and their categories.
   name: Ease Events API
   slug: ease-events-api
-- description: Unresolved and historical incidents, each composed of dated incident updates.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Unresolved and historical incidents, each composed of dated incident updates.
   name: Ease Incidents API
   slug: ease-incidents-api
-- description: Upcoming, active and historical scheduled maintenance windows.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Upcoming, active and historical scheduled maintenance windows.
   name: Ease Maintenance API
   slug: ease-maintenance-api
-- description: 'The Ease Marketplace partner directory: carriers, general agencies, third-party administrators, payroll providers and agency-management vendors, plus the partner_types and benefit_types taxonomies use'
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: 'The Ease Marketplace partner directory: carriers, general agencies, third-party administrators, payroll providers and agency-management vendors, plus the partner_types and benefit_types taxonomies use'
   name: Ease Marketplace API
   slug: ease-marketplace-api
-- description: Images and files in the Ease media library.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Images and files in the Ease media library.
   name: Ease Media API
   slug: ease-media-api
-- description: oEmbed representation of an ease.com URL.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representation of an ease.com URL.
   name: Ease O Embed API
   slug: ease-oembed-api
-- description: Marketing and product pages on www.ease.com.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Marketing and product pages on www.ease.com.
   name: Ease Pages API
   slug: ease-pages-api
-- description: The Ease blog.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: The Ease blog.
   name: Ease Posts API
   slug: ease-posts-api
-- description: Cross-content-type search over published site content.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type search over published site content.
   name: Ease Search API
   slug: ease-search-api
-- description: Rollup status indicator and per-component status for the Ease platform.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Rollup status indicator and per-component status for the Ease platform.
   name: Ease Status API
   slug: ease-status-api
-- description: Blog categories and tags.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Blog categories and tags.
   name: Ease Taxonomy API
   slug: ease-taxonomy-api
-- description: Published customer testimonials.
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: Published customer testimonials.
   name: Ease Testimonials API
   slug: ease-testimonials-api
 artifact_total: 27
@@ -274,7 +311,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -284,7 +321,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 41.8
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,7 +339,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:

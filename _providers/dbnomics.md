@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Dataset metadata within a provider, plus the last-updates feed.
+- baseURL: https://api.db.nomics.world/v22
+  baseurl_source: declared
+  description: Dataset metadata within a provider, plus the last-updates feed.
   name: DBnomics Datasets API
   slug: dbnomics-datasets-api
-- description: Statistical agencies, central banks, and institutions aggregated by DBnomics.
+- baseURL: https://api.db.nomics.world/v22
+  baseurl_source: declared
+  description: Statistical agencies, central banks, and institutions aggregated by DBnomics.
   name: DBnomics Providers API
   slug: dbnomics-providers-api
-- description: Full-text search across all datasets.
+- baseURL: https://api.db.nomics.world/v22
+  baseurl_source: declared
+  description: Full-text search across all datasets.
   name: DBnomics Search API
   slug: dbnomics-search-api
-- description: Economic time series and their observations.
+- baseURL: https://api.db.nomics.world/v22
+  baseurl_source: declared
+  description: Economic time series and their observations.
   name: DBnomics Series API
   slug: dbnomics-series-api
 artifact_total: 15
@@ -166,7 +174,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png
 security:

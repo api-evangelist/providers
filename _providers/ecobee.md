@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 PIN and authorization-code flows and token refresh.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: OAuth 2.0 PIN and authorization-code flows and token refresh.
   name: ecobee Authorization API
   slug: ecobee-authorization-api
-- description: Utility demand response events.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: Utility demand response events.
   name: ecobee Demand Response API
   slug: ecobee-demand-response-api
-- description: Group registered thermostats.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: Group registered thermostats.
   name: ecobee Group API
   slug: ecobee-group-api
-- description: EMS/Utility management-set hierarchy of thermostats, sets, and users.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: EMS/Utility management-set hierarchy of thermostats, sets, and users.
   name: ecobee Hierarchy API
   slug: ecobee-hierarchy-api
-- description: Historical runtime and meter reports.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: Historical runtime and meter reports.
   name: ecobee Reports API
   slug: ecobee-reports-api
-- description: Read thermostat state and poll for changes.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: Read thermostat state and poll for changes.
   name: ecobee Thermostat API
   slug: ecobee-thermostat-api
-- description: Update writable properties and run thermostat functions.
+- baseURL: https://api.ecobee.com/1
+  baseurl_source: declared
+  description: Update writable properties and run thermostat functions.
   name: ecobee Thermostat Update API
   slug: ecobee-thermostat-update-api
 artifact_total: 22
@@ -197,7 +211,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/screenshots/ecobee-2026-07-25T212750.png
 security:

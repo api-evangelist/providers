@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -49,28 +49,44 @@ apis:
 - description: Kafka channel adapters for Spring Integration. Provides message-driven inbound adapters, outbound channel adapters, and request/reply gateways for Apache Kafka integration.
   name: Spring Integration Kafka Adapter
   slug: spring-integration-kafka
-- description: The Adapters API from Spring Integration — 2 operation(s) for adapters.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Adapters API from Spring Integration — 2 operation(s) for adapters.
   name: Spring Integration Adapters API
   slug: spring-integration-adapters-api
-- description: The Channels API from Spring Integration — 2 operation(s) for channels.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Channels API from Spring Integration — 2 operation(s) for channels.
   name: Spring Integration Channels API
   slug: spring-integration-channels-api
-- description: The Control API from Spring Integration — 1 operation(s) for control.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Control API from Spring Integration — 1 operation(s) for control.
   name: Spring Integration Control API
   slug: spring-integration-control-api
-- description: The Gateway API from Spring Integration — 2 operation(s) for gateway.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Gateway API from Spring Integration — 2 operation(s) for gateway.
   name: Spring Integration Gateway API
   slug: spring-integration-gateway-api
-- description: The Graph API from Spring Integration — 1 operation(s) for graph.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Graph API from Spring Integration — 1 operation(s) for graph.
   name: Spring Integration Graph API
   slug: spring-integration-graph-api
-- description: The Handlers API from Spring Integration — 2 operation(s) for handlers.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Handlers API from Spring Integration — 2 operation(s) for handlers.
   name: Spring Integration Handlers API
   slug: spring-integration-handlers-api
-- description: The History API from Spring Integration — 1 operation(s) for history.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The History API from Spring Integration — 1 operation(s) for history.
   name: Spring Integration History API
   slug: spring-integration-history-api
-- description: The Inbound Adapter API from Spring Integration — 1 operation(s) for inbound adapter.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Inbound Adapter API from Spring Integration — 1 operation(s) for inbound adapter.
   name: Spring Integration Inbound Adapter API
   slug: spring-integration-inbound-adapter-api
 artifact_total: 33
@@ -270,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/screenshots/spring-integration-2026-06-20T194414.png
 security:

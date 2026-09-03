@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 24 operations
 api_count: 1
 apis:
-- description: Operations for retrieving and managing answers to questions on Stack Exchange sites.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving and managing answers to questions on Stack Exchange sites.
   name: Stack Exchange Answers API
   slug: stack-exchange-answers-api
-- description: Operations for retrieving badge definitions and badge awards on Stack Exchange sites.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving badge definitions and badge awards on Stack Exchange sites.
   name: Stack Exchange Badges API
   slug: stack-exchange-badges-api
-- description: Operations for retrieving and managing comments on questions and answers.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving and managing comments on questions and answers.
   name: Stack Exchange Comments API
   slug: stack-exchange-comments-api
-- description: Operations for retrieving, searching, and managing questions across the Stack Exchange network.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving, searching, and managing questions across the Stack Exchange network.
   name: Stack Exchange Questions API
   slug: stack-exchange-questions-api
-- description: Operations for searching questions and content across the Stack Exchange network.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for searching questions and content across the Stack Exchange network.
   name: Stack Exchange Search API
   slug: stack-exchange-search-api
-- description: Operations for retrieving information about Stack Exchange network sites.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving information about Stack Exchange network sites.
   name: Stack Exchange Sites API
   slug: stack-exchange-sites-api
-- description: Operations for retrieving and managing tags used to categorize questions.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving and managing tags used to categorize questions.
   name: Stack Exchange Tags API
   slug: stack-exchange-tags-api
-- description: Operations for retrieving user profiles, activity, and reputation on Stack Exchange sites.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Operations for retrieving user profiles, activity, and reputation on Stack Exchange sites.
   name: Stack Exchange Users API
   slug: stack-exchange-users-api
 artifact_total: 31
@@ -264,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-exchange/refs/heads/main/screenshots/stack-exchange-2026-06-20T194440.png
 security:

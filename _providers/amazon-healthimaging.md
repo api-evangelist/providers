@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 18 operations · 13 acting
 api_count: 1
 apis:
-- description: The Datastore API from Amazon HealthImaging — 10 operation(s) for datastore.
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Datastore API from Amazon HealthImaging — 10 operation(s) for datastore.
   name: Amazon HealthImaging Datastore API
   slug: amazon-healthimaging-datastore-api
-- description: The GetDICOMImportJob API from Amazon HealthImaging — 1 operation(s) for getdicomimportjob.
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetDICOMImportJob API from Amazon HealthImaging — 1 operation(s) for getdicomimportjob.
   name: Amazon HealthImaging GetDICOMImportJob API
   slug: amazon-healthimaging-getdicomimportjob-api
-- description: The ListDICOMImportJobs API from Amazon HealthImaging — 1 operation(s) for listdicomimportjobs.
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListDICOMImportJobs API from Amazon HealthImaging — 1 operation(s) for listdicomimportjobs.
   name: Amazon HealthImaging ListDICOMImportJobs API
   slug: amazon-healthimaging-listdicomimportjobs-api
-- description: The StartDICOMImportJob API from Amazon HealthImaging — 1 operation(s) for startdicomimportjob.
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The StartDICOMImportJob API from Amazon HealthImaging — 1 operation(s) for startdicomimportjob.
   name: Amazon HealthImaging StartDICOMImportJob API
   slug: amazon-healthimaging-startdicomimportjob-api
-- description: The Tags API from Amazon HealthImaging — 2 operation(s) for tags.
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon HealthImaging — 2 operation(s) for tags.
   name: Amazon HealthImaging Tags API
   slug: amazon-healthimaging-tags-api
 arazzos:
@@ -1206,7 +1216,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/screenshots/amazon-healthimaging-2026-07-25T200012.png
 security:

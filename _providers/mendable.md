@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: Ask grounded questions over ingested content.
+- baseURL: https://api.mendable.ai/v1
+  baseurl_source: declared
+  description: Ask grounded questions over ingested content.
   name: Mendable Chat API
   slug: mendable-chat-api
-- description: Create conversation sessions.
+- baseURL: https://api.mendable.ai/v1
+  baseurl_source: declared
+  description: Create conversation sessions.
   name: Mendable Conversations API
   slug: mendable-conversations-api
-- description: Ingest and track data sources.
+- baseURL: https://api.mendable.ai/v1
+  baseurl_source: declared
+  description: Ingest and track data sources.
   name: Mendable Ingestion API
   slug: mendable-ingestion-api
-- description: Rate answer messages.
+- baseURL: https://api.mendable.ai/v1
+  baseurl_source: declared
+  description: Rate answer messages.
   name: Mendable Ratings API
   slug: mendable-ratings-api
 artifact_total: 17
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/screenshots/mendable-2026-06-20T185156.png
 security:

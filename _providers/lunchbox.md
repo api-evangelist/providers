@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 102 operations · 55 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: Guest account registration, authentication, and profile management.
+- baseURL: https://{chain_name}.lunchbox.io/api/v2
+  baseurl_source: declared
+  description: Guest account registration, authentication, and profile management.
   name: Lunchbox Customer API
   slug: lunchbox-customer-api
-- description: Reference data such as contact, countries, and states.
+- baseURL: https://{chain_name}.lunchbox.io/api/v2
+  baseurl_source: declared
+  description: Reference data such as contact, countries, and states.
   name: Lunchbox Misc API
   slug: lunchbox-misc-api
-- description: Order creation, item management, discounts, payments, and group orders.
+- baseURL: https://{chain_name}.lunchbox.io/api/v2
+  baseurl_source: declared
+  description: Order creation, item management, discounts, payments, and group orders.
   name: Lunchbox Orders API
   slug: lunchbox-orders-api
-- description: Configure store service types.
+- baseURL: https://{chain_name}.lunchbox.io/api/v2
+  baseurl_source: declared
+  description: Configure store service types.
   name: Lunchbox Service Types API
   slug: lunchbox-service-types-api
-- description: Store configuration, hours, menus, and discounts.
+- baseURL: https://{chain_name}.lunchbox.io/api/v2
+  baseurl_source: declared
+  description: Store configuration, hours, menus, and discounts.
   name: Lunchbox Stores API
   slug: lunchbox-stores-api
-- description: Create, search, retrieve, update, validate, confirm, refund, and adjust loyalty user wallets.
+- baseURL: https://{chain_name}.lunchbox.io/api/v2
+  baseurl_source: declared
+  description: Create, search, retrieve, update, validate, confirm, refund, and adjust loyalty user wallets.
   name: Lunchbox User Wallet API
   slug: lunchbox-user-wallet-api
 artifact_total: 128
@@ -537,7 +549,7 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -547,7 +559,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 46.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -556,7 +568,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/screenshots/lunchbox-2026-06-20T184805.png
 security:

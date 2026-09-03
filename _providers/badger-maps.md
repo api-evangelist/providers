@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Accounts (customers) - the businesses and contacts a rep maps and visits.
+- baseURL: https://badgerapis.badgermapping.com/api/2
+  baseurl_source: declared
+  description: Accounts (customers) - the businesses and contacts a rep maps and visits.
   name: Badger Maps Accounts API
   slug: badger-maps-accounts-api
-- description: Timestamped activity logs recorded against an account (the /appointments/ resource).
+- baseURL: https://badgerapis.badgermapping.com/api/2
+  baseurl_source: declared
+  description: Timestamped activity logs recorded against an account (the /appointments/ resource).
   name: Badger Maps Check-Ins API
   slug: badger-maps-check-ins-api
-- description: Physical, geocoded locations attached to an account.
+- baseURL: https://badgerapis.badgermapping.com/api/2
+  baseurl_source: declared
+  description: Physical, geocoded locations attached to an account.
   name: Badger Maps Locations API
   slug: badger-maps-locations-api
-- description: Optimized driving routes and their ordered waypoints.
+- baseURL: https://badgerapis.badgermapping.com/api/2
+  baseurl_source: declared
+  description: Optimized driving routes and their ordered waypoints.
   name: Badger Maps Routes API
   slug: badger-maps-routes-api
-- description: Authentication, the authenticated user profile, and user search.
+- baseURL: https://badgerapis.badgermapping.com/api/2
+  baseurl_source: declared
+  description: Authentication, the authenticated user profile, and user search.
   name: Badger Maps Users API
   slug: badger-maps-users-api
 artifact_total: 20
@@ -259,7 +269,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -269,7 +279,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 59.1
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
 security:

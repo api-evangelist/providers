@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: List available screening packages (product bundles) and prices.
+- baseURL: https://api.goodhire.com
+  baseurl_source: declared
+  description: List available screening packages (product bundles) and prices.
   name: GoodHire Packages API
   slug: goodhire-packages-api
-- description: Partner API app-access flow for embedded HR platforms.
+- baseURL: https://api.goodhire.com
+  baseurl_source: declared
+  description: Partner API app-access flow for embedded HR platforms.
   name: GoodHire Partner API
   slug: goodhire-partner-api
-- description: Order and track background check reports.
+- baseURL: https://api.goodhire.com
+  baseurl_source: declared
+  description: Order and track background check reports.
   name: GoodHire Reports API
   slug: goodhire-reports-api
-- description: Manage the users who order and are associated with reports.
+- baseURL: https://api.goodhire.com
+  baseurl_source: declared
+  description: Manage the users who order and are associated with reports.
   name: GoodHire Requestors API
   slug: goodhire-requestors-api
-- description: The GoodHire API API from GoodHire — 0 operation(s) for goodhire api.
+- baseURL: https://api.goodhire.com
+  baseurl_source: declared
+  description: The GoodHire API API from GoodHire — 0 operation(s) for goodhire api.
   name: GoodHire GoodHire API
   slug: goodhire-goodhire-api-api
 artifact_total: 16
@@ -169,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/screenshots/goodhire-2026-07-25T220045.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Kriya Therapeutics Discovery API
   slug: kriya-therapeutics-discovery-api
-- description: The `gutena_forms` custom post type used for the site contact form.
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: The `gutena_forms` custom post type used for the site contact form.
   name: Kriya Therapeutics Forms API
   slug: kriya-therapeutics-forms-api
-- description: Media library (304 attachments at harvest time).
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Media library (304 attachments at harvest time).
   name: Kriya Therapeutics Media API
   slug: kriya-therapeutics-media-api
-- description: The `news` custom post type — the company press-release archive (28 items at harvest, back to May 2020).
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: The `news` custom post type — the company press-release archive (28 items at harvest, back to May 2020).
   name: Kriya Therapeutics News API
   slug: kriya-therapeutics-news-api
-- description: oEmbed 1.0 provider endpoint for kriyatherapeutics.com URLs.
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for kriyatherapeutics.com URLs.
   name: Kriya Therapeutics Oembed API
   slug: kriya-therapeutics-oembed-api
-- description: Corporate and pipeline pages (18 published at harvest time).
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Corporate and pipeline pages (18 published at harvest time).
   name: Kriya Therapeutics Pages API
   slug: kriya-therapeutics-pages-api
-- description: Core blog/post collection (33 items at harvest).
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Core blog/post collection (33 items at harvest).
   name: Kriya Therapeutics Posts API
   slug: kriya-therapeutics-posts-api
-- description: Cross-content search across published objects.
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects.
   name: Kriya Therapeutics Search API
   slug: kriya-therapeutics-search-api
-- description: Categories, tags, news categories and team keywords.
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags, news categories and team keywords.
   name: Kriya Therapeutics Taxonomy API
   slug: kriya-therapeutics-taxonomy-api
-- description: The `team` custom post type. Registered and reachable, but empty (X-WP-Total 0) — the Team page is authored as page markup.
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: The `team` custom post type. Registered and reachable, but empty (X-WP-Total 0) — the Team page is authored as page markup.
   name: Kriya Therapeutics Team API
   slug: kriya-therapeutics-team-api
 artifact_total: 23
@@ -260,7 +291,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kriya-therapeutics/refs/heads/main/screenshots/kriya-therapeutics-2026-08-07T171340.png
 security:

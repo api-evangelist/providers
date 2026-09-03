@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The MLflow AI Gateway provides a unified HTTP interface to LLM providers with routing, rate-limiting, and secret management features.
   name: MLflow AI Gateway API
   slug: mlflow-gateway-api
-- description: List and obtain presigned URLs for run artifacts.
+- baseURL: http://{tracking_server}/api/2.0/mlflow
+  baseurl_source: declared
+  description: List and obtain presigned URLs for run artifacts.
   name: MLflow Artifacts API
   slug: mlflow-artifacts-api
-- description: Manage MLflow experiments.
+- baseURL: http://{tracking_server}/api/2.0/mlflow
+  baseurl_source: declared
+  description: Manage MLflow experiments.
   name: MLflow Experiments API
   slug: mlflow-experiments-api
-- description: Log and retrieve metric history for runs.
+- baseURL: http://{tracking_server}/api/2.0/mlflow
+  baseurl_source: declared
+  description: Log and retrieve metric history for runs.
   name: MLflow Metrics API
   slug: mlflow-metrics-api
-- description: Manage versions of registered models.
+- baseURL: http://{tracking_server}/api/2.0/mlflow
+  baseurl_source: declared
+  description: Manage versions of registered models.
   name: MLflow Model Versions API
   slug: mlflow-model-versions-api
-- description: Manage registered models in the MLflow Model Registry.
+- baseURL: http://{tracking_server}/api/2.0/mlflow
+  baseurl_source: declared
+  description: Manage registered models in the MLflow Model Registry.
   name: MLflow Registered Models API
   slug: mlflow-registered-models-api
-- description: Create and manage runs within an experiment.
+- baseURL: http://{tracking_server}/api/2.0/mlflow
+  baseurl_source: declared
+  description: Create and manage runs within an experiment.
   name: MLflow Runs API
   slug: mlflow-runs-api
 artifact_total: 22
@@ -222,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/screenshots/mlflow-2026-06-20T185626.png
 security:

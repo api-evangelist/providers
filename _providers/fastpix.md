@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 42 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Video views, metrics, dimensions, errors, and timeseries analytics.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Video views, metrics, dimensions, errors, and timeseries analytics.
   name: FastPix Data API
   slug: fastpix-data-api
-- description: Retrieve DRM configurations for protected playback.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Retrieve DRM configurations for protected playback.
   name: FastPix DRM API
   slug: fastpix-drm-api
-- description: AI-driven media enrichment - summaries, chapters, moderation, named entities, subtitles.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: AI-driven media enrichment - summaries, chapters, moderation, named entities, subtitles.
   name: FastPix In-Video AI API
   slug: fastpix-in-video-ai-api
-- description: Create and manage live streams and their playback.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Create and manage live streams and their playback.
   name: FastPix Live Streaming API
   slug: fastpix-live-streaming-api
-- description: Upload, import, manage, and encode video-on-demand media.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Upload, import, manage, and encode video-on-demand media.
   name: FastPix On-Demand API
   slug: fastpix-on-demand-api
-- description: Manage playback IDs for media and live streams.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Manage playback IDs for media and live streams.
   name: FastPix Playback API
   slug: fastpix-playback-api
-- description: Manage keys used to sign JWTs for secure, tokenized playback.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Manage keys used to sign JWTs for secure, tokenized playback.
   name: FastPix Signing Keys API
   slug: fastpix-signing-keys-api
-- description: Restream a live stream to third-party RTMP destinations.
+- baseURL: https://api.fastpix.io/v1
+  baseurl_source: declared
+  description: Restream a live stream to third-party RTMP destinations.
   name: FastPix Simulcast API
   slug: fastpix-simulcast-api
 artifact_total: 26
@@ -209,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/screenshots/fastpix-2026-07-25T214247.png
 security:

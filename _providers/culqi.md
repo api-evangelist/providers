@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 46 operations · 25 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: 3-D Secure charge confirmation on the secure host.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: 3-D Secure charge confirmation on the secure host.
   name: Culqi 3DS API
   slug: culqi-3ds-api
-- description: Cards saved against a customer for recurring or one-click charges.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Cards saved against a customer for recurring or one-click charges.
   name: Culqi Cards API
   slug: culqi-cards-api
-- description: One-time charges (cargos) against a token or saved card.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: One-time charges (cargos) against a token or saved card.
   name: Culqi Charges API
   slug: culqi-charges-api
-- description: Stored customer (cliente) profiles.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Stored customer (cliente) profiles.
   name: Culqi Customers API
   slug: culqi-customers-api
-- description: Webhook event objects representing account activity.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Webhook event objects representing account activity.
   name: Culqi Events API
   slug: culqi-events-api
-- description: Card BIN / IIN metadata lookup.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Card BIN / IIN metadata lookup.
   name: Culqi Iins API
   slug: culqi-iins-api
-- description: Payment orders for PagoEfectivo (CIP) and bank-transfer / cash-agent flows.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Payment orders for PagoEfectivo (CIP) and bank-transfer / cash-agent flows.
   name: Culqi Orders API
   slug: culqi-orders-api
-- description: Recurring-billing plan definitions.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Recurring-billing plan definitions.
   name: Culqi Plans API
   slug: culqi-plans-api
-- description: Full or partial refunds (devoluciones) of a charge.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Full or partial refunds (devoluciones) of a charge.
   name: Culqi Refunds API
   slug: culqi-refunds-api
-- description: Subscriptions linking a saved card to a plan.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Subscriptions linking a saved card to a plan.
   name: Culqi Subscriptions API
   slug: culqi-subscriptions-api
-- description: Client-side tokenization of card and Yape credentials on the secure host.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Client-side tokenization of card and Yape credentials on the secure host.
   name: Culqi Tokens API
   slug: culqi-tokens-api
-- description: Settlement transfers (abonos) paid out to the merchant.
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: Settlement transfers (abonos) paid out to the merchant.
   name: Culqi Transfers API
   slug: culqi-transfers-api
 artifact_total: 47
@@ -370,7 +394,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -380,7 +404,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 56.2
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,7 +422,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:

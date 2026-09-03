@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Sex Offenders API Definition. The Sex Offenders API lets you request registered sex offenders across the US by name or zip code (Disclaimer).
   name: Sex Offenders API
   slug: sex-offenders-api
-- description: The CrimeoMeter Sex Offenders API — 2 published operations (record search and radius search) over US state sex offender registry data, transcribed from CrimeoMeter's public Postman collection.
+- baseURL: https://api.crimeometer.com/v5
+  baseurl_source: declared
+  description: The CrimeoMeter Sex Offenders API — 2 published operations (record search and radius search) over US state sex offender registry data, transcribed from CrimeoMeter's public Postman collection.
   name: Sex Offenders API Sex Offenders API
   slug: sex-offenders-api-sex-offenders-api
 artifact_total: 12
@@ -207,7 +209,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -217,7 +219,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 49.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,7 +237,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/screenshots/sex-offenders-api-2026-06-20T193740.png
 security:

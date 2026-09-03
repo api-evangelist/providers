@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 15 operations
 api_count: 2
 apis:
-- description: Member diagnosed conditions and clinical data.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Member diagnosed conditions and clinical data.
   name: wellcare-health-plans Condition API
   slug: wellcare-health-plans-condition-api
-- description: Member insurance coverage and enrollment information.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Member insurance coverage and enrollment information.
   name: wellcare-health-plans Coverage API
   slug: wellcare-health-plans-coverage-api
-- description: Member care encounters and visits.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Member care encounters and visits.
   name: wellcare-health-plans Encounter API
   slug: wellcare-health-plans-encounter-api
-- description: Claims and EOB data for medical, pharmacy, dental, and vision.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Claims and EOB data for medical, pharmacy, dental, and vision.
   name: wellcare-health-plans Explanation of Benefits API
   slug: wellcare-health-plans-explanation-of-benefits-api
-- description: Immunization records and history.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Immunization records and history.
   name: wellcare-health-plans Immunization API
   slug: wellcare-health-plans-immunization-api
-- description: Insurance plan details including networks and coverage areas.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Insurance plan details including networks and coverage areas.
   name: wellcare-health-plans Insurance Plan API
   slug: wellcare-health-plans-insurance-plan-api
-- description: Physical care delivery locations and addresses.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Physical care delivery locations and addresses.
   name: wellcare-health-plans Location API
   slug: wellcare-health-plans-location-api
-- description: Prescribed medications and medication orders.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Prescribed medications and medication orders.
   name: wellcare-health-plans Medication Request API
   slug: wellcare-health-plans-medication-request-api
-- description: Clinical observations, lab results, and vital signs.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Clinical observations, lab results, and vital signs.
   name: wellcare-health-plans Observation API
   slug: wellcare-health-plans-observation-api
-- description: Healthcare organizations, hospitals, and facilities.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Healthcare organizations, hospitals, and facilities.
   name: wellcare-health-plans Organization API
   slug: wellcare-health-plans-organization-api
-- description: Patient demographic and identity resources.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Patient demographic and identity resources.
   name: wellcare-health-plans Patient API
   slug: wellcare-health-plans-patient-api
-- description: Individual healthcare practitioners and clinicians.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: Individual healthcare practitioners and clinicians.
   name: wellcare-health-plans Practitioner API
   slug: wellcare-health-plans-practitioner-api
-- description: A practitioner's role within an organization and network.
+- baseURL: https://partners.centene.com
+  baseurl_source: declared
+  description: A practitioner's role within an organization and network.
   name: wellcare-health-plans Practitioner Role API
   slug: wellcare-health-plans-practitioner-role-api
 artifact_total: 45
@@ -305,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/screenshots/wellcare-health-plans-2026-08-17T082908.png
 security:

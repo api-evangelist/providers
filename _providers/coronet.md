@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Coro Public API enables service providers and developers to build applications that integrate with the Coro Cybersecurity platform. Organized around workspaces (regular, channel, child), it covers
+- baseURL: https://api.secure.coro.net
+  baseurl_source: declared
+  description: The Coro Public API enables service providers and developers to build applications that integrate with the Coro Cybersecurity platform. Organized around workspaces (regular, channel, child), it covers
   name: Coro Public API
   slug: coro-public-api
 artifact_total: 5
@@ -169,7 +171,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -179,12 +181,12 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 41.7
+  previous_composite: 41.4
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/screenshots/coronet-2026-07-25T210438.png
 security:

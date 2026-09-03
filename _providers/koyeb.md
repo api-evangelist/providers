@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -45,136 +45,224 @@ agentic_access:
   summary_line: 168 operations · 95 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The activity API from Koyeb — 3 operation(s) for activity.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The activity API from Koyeb — 3 operation(s) for activity.
   name: Koyeb activity API
   slug: koyeb-activity-api
-- description: The Apps API from Koyeb — 5 operation(s) for apps.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Apps API from Koyeb — 5 operation(s) for apps.
   name: Koyeb Apps API
   slug: koyeb-apps-api
-- description: The Archives API from Koyeb — 1 operation(s) for archives.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Archives API from Koyeb — 1 operation(s) for archives.
   name: Koyeb Archives API
   slug: koyeb-archives-api
-- description: The billing API from Koyeb — 3 operation(s) for billing.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The billing API from Koyeb — 3 operation(s) for billing.
   name: Koyeb billing API
   slug: koyeb-billing-api
-- description: The CatalogDatacenters API from Koyeb — 1 operation(s) for catalogdatacenters.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The CatalogDatacenters API from Koyeb — 1 operation(s) for catalogdatacenters.
   name: Koyeb CatalogDatacenters API
   slug: koyeb-catalogdatacenters-api
-- description: The CatalogInstances API from Koyeb — 2 operation(s) for cataloginstances.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The CatalogInstances API from Koyeb — 2 operation(s) for cataloginstances.
   name: Koyeb CatalogInstances API
   slug: koyeb-cataloginstances-api
-- description: The CatalogInstanceUsage API from Koyeb — 1 operation(s) for cataloginstanceusage.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The CatalogInstanceUsage API from Koyeb — 1 operation(s) for cataloginstanceusage.
   name: Koyeb CatalogInstanceUsage API
   slug: koyeb-cataloginstanceusage-api
-- description: The CatalogRegions API from Koyeb — 2 operation(s) for catalogregions.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The CatalogRegions API from Koyeb — 2 operation(s) for catalogregions.
   name: Koyeb CatalogRegions API
   slug: koyeb-catalogregions-api
-- description: The Compose API from Koyeb — 1 operation(s) for compose.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Compose API from Koyeb — 1 operation(s) for compose.
   name: Koyeb Compose API
   slug: koyeb-compose-api
-- description: The Coupons API from Koyeb — 1 operation(s) for coupons.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Coupons API from Koyeb — 1 operation(s) for coupons.
   name: Koyeb Coupons API
   slug: koyeb-coupons-api
-- description: The Credentials API from Koyeb — 2 operation(s) for credentials.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Credentials API from Koyeb — 2 operation(s) for credentials.
   name: Koyeb Credentials API
   slug: koyeb-credentials-api
-- description: The Deployments API from Koyeb — 5 operation(s) for deployments.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Deployments API from Koyeb — 5 operation(s) for deployments.
   name: Koyeb Deployments API
   slug: koyeb-deployments-api
-- description: The DockerHelper API from Koyeb — 1 operation(s) for dockerhelper.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The DockerHelper API from Koyeb — 1 operation(s) for dockerhelper.
   name: Koyeb DockerHelper API
   slug: koyeb-dockerhelper-api
-- description: The Domains API from Koyeb — 3 operation(s) for domains.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Domains API from Koyeb — 3 operation(s) for domains.
   name: Koyeb Domains API
   slug: koyeb-domains-api
-- description: The Instances API from Koyeb — 4 operation(s) for instances.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Instances API from Koyeb — 4 operation(s) for instances.
   name: Koyeb Instances API
   slug: koyeb-instances-api
-- description: The Intercom API from Koyeb — 1 operation(s) for intercom.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Intercom API from Koyeb — 1 operation(s) for intercom.
   name: Koyeb Intercom API
   slug: koyeb-intercom-api
-- description: The invite API from Koyeb — 1 operation(s) for invite.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The invite API from Koyeb — 1 operation(s) for invite.
   name: Koyeb invite API
   slug: koyeb-invite-api
-- description: The Logs API from Koyeb — 2 operation(s) for logs.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Logs API from Koyeb — 2 operation(s) for logs.
   name: Koyeb Logs API
   slug: koyeb-logs-api
-- description: The Metrics API from Koyeb — 1 operation(s) for metrics.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Metrics API from Koyeb — 1 operation(s) for metrics.
   name: Koyeb Metrics API
   slug: koyeb-metrics-api
-- description: The organization API from Koyeb — 12 operation(s) for organization.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The organization API from Koyeb — 12 operation(s) for organization.
   name: Koyeb organization API
   slug: koyeb-organization-api
-- description: The OrganizationConfirmations API from Koyeb — 1 operation(s) for organizationconfirmations.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The OrganizationConfirmations API from Koyeb — 1 operation(s) for organizationconfirmations.
   name: Koyeb OrganizationConfirmations API
   slug: koyeb-organizationconfirmations-api
-- description: The OrganizationInvitations API from Koyeb — 3 operation(s) for organizationinvitations.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The OrganizationInvitations API from Koyeb — 3 operation(s) for organizationinvitations.
   name: Koyeb OrganizationInvitations API
   slug: koyeb-organizationinvitations-api
-- description: The OrganizationMembers API from Koyeb — 2 operation(s) for organizationmembers.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The OrganizationMembers API from Koyeb — 2 operation(s) for organizationmembers.
   name: Koyeb OrganizationMembers API
   slug: koyeb-organizationmembers-api
-- description: The OrganizationQuotas API from Koyeb — 1 operation(s) for organizationquotas.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The OrganizationQuotas API from Koyeb — 1 operation(s) for organizationquotas.
   name: Koyeb OrganizationQuotas API
   slug: koyeb-organizationquotas-api
-- description: The PaymentMethods API from Koyeb — 3 operation(s) for paymentmethods.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The PaymentMethods API from Koyeb — 3 operation(s) for paymentmethods.
   name: Koyeb PaymentMethods API
   slug: koyeb-paymentmethods-api
-- description: The PersistentVolumes API from Koyeb — 3 operation(s) for persistentvolumes.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The PersistentVolumes API from Koyeb — 3 operation(s) for persistentvolumes.
   name: Koyeb PersistentVolumes API
   slug: koyeb-persistentvolumes-api
-- description: The Profile API from Koyeb — 17 operation(s) for profile.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Profile API from Koyeb — 17 operation(s) for profile.
   name: Koyeb Profile API
   slug: koyeb-profile-api
-- description: The Projects API from Koyeb — 2 operation(s) for projects.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Projects API from Koyeb — 2 operation(s) for projects.
   name: Koyeb Projects API
   slug: koyeb-projects-api
-- description: The Provisioning API from Koyeb — 2 operation(s) for provisioning.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Provisioning API from Koyeb — 2 operation(s) for provisioning.
   name: Koyeb Provisioning API
   slug: koyeb-provisioning-api
-- description: The Quotas API from Koyeb — 1 operation(s) for quotas.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Quotas API from Koyeb — 1 operation(s) for quotas.
   name: Koyeb Quotas API
   slug: koyeb-quotas-api
-- description: The RegionalDeployments API from Koyeb — 3 operation(s) for regionaldeployments.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The RegionalDeployments API from Koyeb — 3 operation(s) for regionaldeployments.
   name: Koyeb RegionalDeployments API
   slug: koyeb-regionaldeployments-api
-- description: The Repositories API from Koyeb — 3 operation(s) for repositories.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Repositories API from Koyeb — 3 operation(s) for repositories.
   name: Koyeb Repositories API
   slug: koyeb-repositories-api
-- description: The Search API from Koyeb — 1 operation(s) for search.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Search API from Koyeb — 1 operation(s) for search.
   name: Koyeb Search API
   slug: koyeb-search-api
-- description: The Secrets API from Koyeb — 3 operation(s) for secrets.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Secrets API from Koyeb — 3 operation(s) for secrets.
   name: Koyeb Secrets API
   slug: koyeb-secrets-api
-- description: The Services API from Koyeb — 8 operation(s) for services.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Services API from Koyeb — 8 operation(s) for services.
   name: Koyeb Services API
   slug: koyeb-services-api
-- description: The Sessions API from Koyeb — 4 operation(s) for sessions.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Sessions API from Koyeb — 4 operation(s) for sessions.
   name: Koyeb Sessions API
   slug: koyeb-sessions-api
-- description: The Snapshots API from Koyeb — 2 operation(s) for snapshots.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Snapshots API from Koyeb — 2 operation(s) for snapshots.
   name: Koyeb Snapshots API
   slug: koyeb-snapshots-api
-- description: The sso API from Koyeb — 2 operation(s) for sso.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The sso API from Koyeb — 2 operation(s) for sso.
   name: Koyeb sso API
   slug: koyeb-sso-api
-- description: The Subscriptions API from Koyeb — 1 operation(s) for subscriptions.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Subscriptions API from Koyeb — 1 operation(s) for subscriptions.
   name: Koyeb Subscriptions API
   slug: koyeb-subscriptions-api
-- description: The Summary API from Koyeb — 1 operation(s) for summary.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Summary API from Koyeb — 1 operation(s) for summary.
   name: Koyeb Summary API
   slug: koyeb-summary-api
-- description: The Usages API from Koyeb — 2 operation(s) for usages.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Usages API from Koyeb — 2 operation(s) for usages.
   name: Koyeb Usages API
   slug: koyeb-usages-api
-- description: The Users API from Koyeb — 2 operation(s) for users.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Users API from Koyeb — 2 operation(s) for users.
   name: Koyeb Users API
   slug: koyeb-users-api
-- description: The InstanceSnapshots API from Koyeb — 3 operation(s) for instancesnapshots.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The InstanceSnapshots API from Koyeb — 3 operation(s) for instancesnapshots.
   name: Koyeb Instance Snapshots API
   slug: koyeb-instancesnapshots-api
-- description: The Test API from Koyeb — 2 operation(s) for test.
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Test API from Koyeb — 2 operation(s) for test.
   name: Koyeb Test API
   slug: koyeb-test-api
 artifact_total: 96
@@ -542,7 +630,7 @@ score:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 18.2
-    contract_quality: 51.5
+    contract_quality: 51.3
     developer_ergonomics: 78.6
     discoverability: 68.5
     governance: 18.2
@@ -559,7 +647,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:

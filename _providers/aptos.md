@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -52,25 +52,39 @@ apis:
 - description: Testnet and devnet faucet that distributes APT test tokens for development and testing. Available programmatically on devnet; testnet faucet is accessible via the mint page. Not available on mainnet.
   name: Aptos Faucet API
   slug: faucet-api
-- description: Access to accounts, resources, and modules
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: Access to accounts, resources, and modules
   name: Aptos Accounts API
   slug: aptos-accounts-api
-- description: Access to blocks
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: Access to blocks
   name: Aptos Blocks API
   slug: aptos-blocks-api
-- description: Access to events
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: Access to events
   name: Aptos Events API
   slug: aptos-events-api
-- description: General information
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: General information
   name: Aptos General API
   slug: aptos-general-api
-- description: Access to tables
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: Access to tables
   name: Aptos Tables API
   slug: aptos-tables-api
-- description: Access to transactions
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: Access to transactions
   name: Aptos Transactions API
   slug: aptos-transactions-api
-- description: View functions,
+- baseURL: https://api.mainnet.aptoslabs.com/v1
+  baseurl_source: declared
+  description: View functions,
   name: Aptos View API
   slug: aptos-view-api
 artifact_total: 261
@@ -956,7 +970,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/screenshots/aptos-2026-06-20T172345.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 10
@@ -44,118 +44,194 @@ agentic_access:
   summary_line: 226 operations · 125 acting · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: Pre-configured AI assistants with specific system prompts, model settings, and tool permissions
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Pre-configured AI assistants with specific system prompts, model settings, and tool permissions
   name: QuantCDN AI Agents API
   slug: quantcdn-ai-agents-api
-- description: Custom tool definitions for AI function calling
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Custom tool definitions for AI function calling
   name: QuantCDN AI Custom Tools API
   slug: quantcdn-ai-custom-tools-api
-- description: S3-backed file storage for AI workloads
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: S3-backed file storage for AI workloads
   name: QuantCDN AI File Storage API
   slug: quantcdn-ai-file-storage-api
-- description: AI Filter Policies
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: AI Filter Policies
   name: QuantCDN AI Filter Policies API
   slug: quantcdn-ai-filter-policies-api
-- description: AI Governance
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: AI Governance
   name: QuantCDN AI Governance API
   slug: quantcdn-ai-governance-api
-- description: Chat inference, embeddings, and image generation services
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Chat inference, embeddings, and image generation services
   name: QuantCDN AI Inference API
   slug: quantcdn-ai-inference-api
-- description: Foundation model listing and configuration
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Foundation model listing and configuration
   name: QuantCDN AI Models API
   slug: quantcdn-ai-models-api
-- description: Usage statistics and monitoring for AI services
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Usage statistics and monitoring for AI services
   name: QuantCDN AI Monitoring API
   slug: quantcdn-ai-monitoring-api
-- description: Durable batch processing orchestrations with pause/resume support
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Durable batch processing orchestrations with pause/resume support
   name: QuantCDN AI Orchestrations API
   slug: quantcdn-ai-orchestrations-api
-- description: Conversation session management for multi-turn interactions
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Conversation session management for multi-turn interactions
   name: QuantCDN AI Sessions API
   slug: quantcdn-ai-sessions-api
-- description: Reusable prompts, workflows, and instructions for agents
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Reusable prompts, workflows, and instructions for agents
   name: QuantCDN AI Skills API
   slug: quantcdn-ai-skills-api
-- description: AI Slack Bots
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: AI Slack Bots
   name: QuantCDN AI Slack Bots API
   slug: quantcdn-ai-slack-bots-api
-- description: Multi-agent task coordination and dependency management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Multi-agent task coordination and dependency management
   name: QuantCDN AI Task Management API
   slug: quantcdn-ai-task-management-api
-- description: Built-in tool listing and async tool execution polling
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Built-in tool listing and async tool execution polling
   name: QuantCDN AI Tools API
   slug: quantcdn-ai-tools-api
-- description: AI Usage
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: AI Usage
   name: QuantCDN AI Usage API
   slug: quantcdn-ai-usage-api
-- description: Vector database collections for RAG and semantic search
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Vector database collections for RAG and semantic search
   name: QuantCDN AI Vector Database API
   slug: quantcdn-ai-vector-database-api
-- description: Cloud application lifecycle management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Cloud application lifecycle management
   name: QuantCDN Applications API
   slug: quantcdn-applications-api
-- description: Backup and restore operations for applications
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Backup and restore operations for applications
   name: QuantCDN Backup Management API
   slug: quantcdn-backup-management-api
-- description: CDN traffic metrics and analytics
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: CDN traffic metrics and analytics
   name: QuantCDN CDN Metrics API
   slug: quantcdn-cdn-metrics-api
-- description: Execute commands in application containers
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Execute commands in application containers
   name: QuantCDN Commands API
   slug: quantcdn-commands-api
-- description: Docker compose configuration management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Docker compose configuration management
   name: QuantCDN Compose API
   slug: quantcdn-compose-api
-- description: Container management and operations
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Container management and operations
   name: QuantCDN Containers API
   slug: quantcdn-containers-api
-- description: Website crawler configuration and management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Website crawler configuration and management
   name: QuantCDN Crawlers API
   slug: quantcdn-crawlers-api
-- description: Scheduled website crawl operations
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Scheduled website crawl operations
   name: QuantCDN CrawlerSchedules API
   slug: quantcdn-crawlerschedules-api
-- description: Scheduled task management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Scheduled task management
   name: QuantCDN Cron API
   slug: quantcdn-cron-api
-- description: Domain and DNS management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Domain and DNS management
   name: QuantCDN Domains API
   slug: quantcdn-domains-api
-- description: Application environment management and configuration
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Application environment management and configuration
   name: QuantCDN Environments API
   slug: quantcdn-environments-api
-- description: HTTP header rule management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: HTTP header rule management
   name: QuantCDN Headers API
   slug: quantcdn-headers-api
-- description: Key-value store operations
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Key-value store operations
   name: QuantCDN KV API
   slug: quantcdn-kv-api
-- description: Organization management and settings
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Organization management and settings
   name: QuantCDN Organizations API
   slug: quantcdn-organizations-api
-- description: Static site project management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Static site project management
   name: QuantCDN Projects API
   slug: quantcdn-projects-api
-- description: Cache purging and invalidation
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Cache purging and invalidation
   name: QuantCDN Purge API
   slug: quantcdn-purge-api
-- description: Edge rules (redirects, authentication, proxies, etc.)
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Edge rules (redirects, authentication, proxies, etc.)
   name: QuantCDN Rules API
   slug: quantcdn-rules-api
-- description: Auto-scaling policies and configuration
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Auto-scaling policies and configuration
   name: QuantCDN ScalingPolicy API
   slug: quantcdn-scalingpolicy-api
-- description: SSH key management for container access
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: SSH key management for container access
   name: QuantCDN SSH Access API
   slug: quantcdn-ssh-access-api
-- description: API token management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: API token management
   name: QuantCDN Tokens API
   slug: quantcdn-tokens-api
-- description: Environment variable management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Environment variable management
   name: QuantCDN Variables API
   slug: quantcdn-variables-api
-- description: Persistent storage volume management
+- baseURL: https://dashboard.quantcdn.io
+  baseurl_source: declared
+  description: Persistent storage volume management
   name: QuantCDN Volumes API
   slug: quantcdn-volumes-api
 artifact_total: 85
@@ -373,7 +449,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/screenshots/quantcdn-2026-06-20T192409.png
 security:

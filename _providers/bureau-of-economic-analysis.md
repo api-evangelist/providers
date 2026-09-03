@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Gross Domestic Product (GDP) data from the BEA, available quarterly and annually. Includes GDP growth rates, GDP by expenditure components, and real vs. nominal GDP measures.
   name: BEA GDP Data
   slug: bea-gdp-data
-- description: The Bureau Of Economic Analysis (BEA) API API from Bureau of Economic Analysis — 1 operation(s) for bureau of economic analysis (bea) api.
+- baseURL: https://apps.bea.gov/api/data
+  baseurl_source: declared
+  description: The Bureau Of Economic Analysis (BEA) API API from Bureau of Economic Analysis — 1 operation(s) for bureau of economic analysis (bea) api.
   name: Bureau of Economic Analysis Bureau Of Economic Analysis (BEA) API API
   slug: bureau-of-economic-analysis-bureau-of-economic-analysis-bea-api-api
 artifact_total: 10
@@ -167,7 +169,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-economic-analysis/refs/heads/main/screenshots/bureau-of-economic-analysis-2026-06-20T173804.png
 security:

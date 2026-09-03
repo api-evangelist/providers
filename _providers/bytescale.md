@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 7 acting
 api_count: 1
 apis:
-- description: The Files API from Bytescale — 3 operation(s) for files.
+- baseURL: https://api.bytescale.com/v2/accounts/{accountId}
+  baseurl_source: declared
+  description: The Files API from Bytescale — 3 operation(s) for files.
   name: Bytescale Files API
   slug: bytescale-files-api
-- description: The Folders API from Bytescale — 2 operation(s) for folders.
+- baseURL: https://api.bytescale.com/v2/accounts/{accountId}
+  baseurl_source: declared
+  description: The Folders API from Bytescale — 2 operation(s) for folders.
   name: Bytescale Folders API
   slug: bytescale-folders-api
-- description: The Upload API from Bytescale — 3 operation(s) for upload.
+- baseURL: https://api.bytescale.com/v2/accounts/{accountId}
+  baseurl_source: declared
+  description: The Upload API from Bytescale — 3 operation(s) for upload.
   name: Bytescale Upload API
   slug: bytescale-upload-api
 artifact_total: 14
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytescale/refs/heads/main/screenshots/bytescale-2026-06-20T173832.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,154 +56,254 @@ apis:
 - description: Oracle Health implements the SMART on FHIR App Launch framework (standalone and EHR-launch) with OpenID Connect identity tokens, enabling third-party clinician and patient-facing applications to embed
   name: Oracle Health SMART on FHIR App Launch
   slug: oracle-health-smart-on-fhir
-- description: FHIR server metadata and capability statements.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR server metadata and capability statements.
   name: Cerner (Oracle Health) Capability API
   slug: cerner-capability-api
-- description: Patient conditions and problem-list entries.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Patient conditions and problem-list entries.
   name: Cerner (Oracle Health) Condition API
   slug: cerner-condition-api
-- description: FHIR conformance definitions and operations.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR conformance definitions and operations.
   name: Cerner (Oracle Health) Definitions API
   slug: cerner-definitions-api
-- description: Patient encounter records.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Patient encounter records.
   name: Cerner (Oracle Health) Encounter API
   slug: cerner-encounter-api
-- description: Generic FHIR resource read/write operations.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Generic FHIR resource read/write operations.
   name: Cerner (Oracle Health) Generic API
   slug: cerner-generic-api
-- description: Patient demographics and identifiers.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Patient demographics and identifiers.
   name: Cerner (Oracle Health) Patient API
   slug: cerner-patient-api
-- description: Patient procedures.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Patient procedures.
   name: Cerner (Oracle Health) Procedure API
   slug: cerner-procedure-api
-- description: FHIR R4 Account resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Account resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Account API
   slug: cerner-account-api
-- description: FHIR R4 AllergyIntolerance resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 AllergyIntolerance resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Allergy Intolerance API
   slug: cerner-allergyintolerance-api
-- description: FHIR R4 Appointment resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Appointment resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Appointment API
   slug: cerner-appointment-api
-- description: FHIR R4 Basic resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Basic resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Basic API
   slug: cerner-basic-api
-- description: FHIR R4 Binary resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Binary resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Binary API
   slug: cerner-binary-api
-- description: FHIR R4 CapabilityStatement resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 CapabilityStatement resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Capability Statement API
   slug: cerner-capabilitystatement-api
-- description: FHIR R4 CarePlan resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 CarePlan resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Care Plan API
   slug: cerner-careplan-api
-- description: FHIR R4 CareTeam resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 CareTeam resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Care Team API
   slug: cerner-careteam-api
-- description: FHIR R4 ChargeItem resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 ChargeItem resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Charge Item API
   slug: cerner-chargeitem-api
-- description: FHIR R4 Communication resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Communication resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Communication API
   slug: cerner-communication-api
-- description: FHIR R4 Consent resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Consent resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Consent API
   slug: cerner-consent-api
-- description: FHIR R4 Coverage resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Coverage resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Coverage API
   slug: cerner-coverage-api
-- description: FHIR R4 Device resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Device resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Device API
   slug: cerner-device-api
-- description: FHIR R4 DiagnosticReport resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 DiagnosticReport resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Diagnostic Report API
   slug: cerner-diagnosticreport-api
-- description: FHIR R4 DocumentReference resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 DocumentReference resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Document Reference API
   slug: cerner-documentreference-api
-- description: Kick off a bulk export job.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Kick off a bulk export job.
   name: Oracle Health (Cerner) Export API
   slug: cerner-export-api
-- description: FHIR R4 FamilyMemberHistory resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 FamilyMemberHistory resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Family Member History API
   slug: cerner-familymemberhistory-api
-- description: Retrieve the download URLs for completed export files.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Retrieve the download URLs for completed export files.
   name: Oracle Health (Cerner) Files API
   slug: cerner-files-api
-- description: FHIR R4 Goal resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Goal resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Goal API
   slug: cerner-goal-api
-- description: FHIR R4 Immunization resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Immunization resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Immunization API
   slug: cerner-immunization-api
-- description: FHIR R4 InsurancePlan resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 InsurancePlan resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Insurance Plan API
   slug: cerner-insuranceplan-api
-- description: Poll and cancel bulk export jobs.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: Poll and cancel bulk export jobs.
   name: Oracle Health (Cerner) Jobs API
   slug: cerner-jobs-api
-- description: FHIR R4 Location resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Location resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Location API
   slug: cerner-location-api
-- description: FHIR R4 Media resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Media resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Media API
   slug: cerner-media-api
-- description: FHIR R4 MedicationAdministration resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 MedicationAdministration resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Medication Administration API
   slug: cerner-medicationadministration-api
-- description: FHIR R4 MedicationDispense resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 MedicationDispense resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Medication Dispense API
   slug: cerner-medicationdispense-api
-- description: FHIR R4 MedicationRequest resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 MedicationRequest resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Medication Request API
   slug: cerner-medicationrequest-api
-- description: FHIR R4 NutritionOrder resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 NutritionOrder resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Nutrition Order API
   slug: cerner-nutritionorder-api
-- description: FHIR R4 Observation resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Observation resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Observation API
   slug: cerner-observation-api
-- description: FHIR R4 OperationDefinition resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 OperationDefinition resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Operation Definition API
   slug: cerner-operationdefinition-api
-- description: FHIR R4 Organization resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Organization resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Organization API
   slug: cerner-organization-api
-- description: FHIR R4 Person resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Person resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Person API
   slug: cerner-person-api
-- description: FHIR R4 Practitioner resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Practitioner resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Practitioner API
   slug: cerner-practitioner-api
-- description: FHIR R4 Provenance resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Provenance resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Provenance API
   slug: cerner-provenance-api
-- description: FHIR R4 Questionnaire resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Questionnaire resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Questionnaire API
   slug: cerner-questionnaire-api
-- description: FHIR R4 QuestionnaireResponse resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 QuestionnaireResponse resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Questionnaire Response API
   slug: cerner-questionnaireresponse-api
-- description: FHIR R4 RelatedPerson resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 RelatedPerson resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Related Person API
   slug: cerner-relatedperson-api
-- description: FHIR R4 Schedule resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Schedule resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Schedule API
   slug: cerner-schedule-api
-- description: FHIR R4 ServiceRequest resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 ServiceRequest resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Service Request API
   slug: cerner-servicerequest-api
-- description: FHIR R4 Slot resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Slot resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Slot API
   slug: cerner-slot-api
-- description: FHIR R4 Specimen resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 Specimen resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Specimen API
   slug: cerner-specimen-api
-- description: FHIR R4 StructureDefinition resource as implemented by Oracle Health Millennium Platform.
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 StructureDefinition resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Structure Definition API
   slug: cerner-structuredefinition-api
-- description: 'System-level FHIR interactions: conformance metadata and batch.'
+- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
+  baseurl_source: declared
+  description: 'System-level FHIR interactions: conformance metadata and batch.'
   name: Oracle Health (Cerner) System API
   slug: cerner-system-api
 arazzos:
@@ -489,7 +589,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -499,7 +599,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 59.6
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -517,8 +617,8 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png
 security:
 - kind: authentication

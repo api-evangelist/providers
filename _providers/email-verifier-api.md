@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Real-time email-address verification operations.
+- baseURL: https://emailverifierapi.com/v2/
+  baseurl_source: declared
+  description: Real-time email-address verification operations.
   name: Email Verifier API Verification API
   slug: email-verifier-api-verification-api
 artifact_total: 42
@@ -320,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/screenshots/email-verifier-api-2026-06-20T180621.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 41 operations · 19 acting
 api_count: 1
 apis:
-- description: The Accounts API from Drift — 4 operation(s) for accounts.
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: The Accounts API from Drift — 4 operation(s) for accounts.
   name: Drift Accounts API
   slug: drift-com-accounts-api
-- description: '[https://devdocs.drift.com/docs/app-uninstall](https://devdocs.drift.com/docs/app-uninstall)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/app-uninstall](https://devdocs.drift.com/docs/app-uninstall)'
   name: Drift App Admin API
   slug: drift-com-app-admin-api
-- description: '[https://devdocs.drift.com/docs/contact-model](https://devdocs.drift.com/docs/contact-model)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/contact-model](https://devdocs.drift.com/docs/contact-model)'
   name: Drift Contacts API
   slug: drift-com-contacts-api
-- description: '[https://devdocs.drift.com/docs/conversation-model](https://devdocs.drift.com/docs/conversation-model)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/conversation-model](https://devdocs.drift.com/docs/conversation-model)'
   name: Drift Conversations and Messages API
   slug: drift-com-conversations-and-messages-api
-- description: '[https://devdocs.drift.com/docs/automating-gdpr-retrieval-and-deletion](https://devdocs.drift.com/docs/automating-gdpr-retrieval-and-deletion)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/automating-gdpr-retrieval-and-deletion](https://devdocs.drift.com/docs/automating-gdpr-retrieval-and-deletion)'
   name: Drift Data Privacy API
   slug: drift-com-data-privacy-api
-- description: '[https://devdocs.drift.com/docs/playbook-model-1](https://devdocs.drift.com/docs/playbook-model-1)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/playbook-model-1](https://devdocs.drift.com/docs/playbook-model-1)'
   name: Drift Playbooks API
   slug: drift-com-playbooks-api
-- description: The SCIM API API from Drift — 2 operation(s) for scim api.
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: The SCIM API API from Drift — 2 operation(s) for scim api.
   name: Drift SCIM API API
   slug: drift-com-scim-api-api
-- description: '[https://devdocs.drift.com/docs/team-model](https://devdocs.drift.com/docs/team-model)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/team-model](https://devdocs.drift.com/docs/team-model)'
   name: Drift Teams API
   slug: drift-com-teams-api
-- description: '[https://devdocs.drift.com/docs/user-model](https://devdocs.drift.com/docs/user-model)'
+- baseURL: https://driftapi.com
+  baseurl_source: declared
+  description: '[https://devdocs.drift.com/docs/user-model](https://devdocs.drift.com/docs/user-model)'
   name: Drift Users API
   slug: drift-com-users-api
 artifact_total: 48
@@ -262,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180240.png
 security:

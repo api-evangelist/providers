@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: 'JSON REST API exposing Common Sense Media''s reviews and ratings catalog. Each review includes recommended age, age-rating group (littleKids/kids/tweens/teens), star rating, content grid (educational, '
+- baseURL: https://api.commonsense.org/api/v3
+  baseurl_source: declared
+  description: 'JSON REST API exposing Common Sense Media''s reviews and ratings catalog. Each review includes recommended age, age-rating group (littleKids/kids/tweens/teens), star rating, content grid (educational, '
   name: Common Sense Media Reviews API
   slug: common-sense-media-reviews-api
-- description: System and health endpoints.
+- baseURL: https://api.commonsense.org/api/v3
+  baseurl_source: declared
+  description: System and health endpoints.
   name: Common Sense Media system API
   slug: common-sense-media-system-api
 artifact_total: 14
@@ -213,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/screenshots/common-sense-media-2026-06-20T174819.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,58 +36,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: Browser-side JavaScript API for the Osano Consent Management Platform, loaded from cmp.osano.com. Exposes functions (showDialog, showDrawer, getConsent, ready, addEventListener), properties (consentMo
   name: Osano CMP JavaScript API
   slug: osano-cmp-javascript-api
-- description: The cmp API from Osano — 6 operation(s) for cmp.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The cmp API from Osano — 6 operation(s) for cmp.
   name: Osano Cmp API
   slug: osano-cmp-api
-- description: The cmpRules API from Osano — 2 operation(s) for cmprules.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The cmpRules API from Osano — 2 operation(s) for cmprules.
   name: Osano Cmp Rules API
   slug: osano-cmprules-api
-- description: The Collections API from Osano — 2 operation(s) for collections.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Collections API from Osano — 2 operation(s) for collections.
   name: Osano Collections API
   slug: osano-collections-api
-- description: The Config API from Osano — 1 operation(s) for config.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Config API from Osano — 1 operation(s) for config.
   name: Osano Config API
   slug: osano-config-api
-- description: The connectors API from Osano — 1 operation(s) for connectors.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The connectors API from Osano — 1 operation(s) for connectors.
   name: Osano Connectors API
   slug: osano-connectors-api
-- description: The Consent Profiles API from Osano — 1 operation(s) for consent profiles.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Consent Profiles API from Osano — 1 operation(s) for consent profiles.
   name: Osano Consent Profiles API
   slug: osano-consent-profiles-api
-- description: The Consents API from Osano — 4 operation(s) for consents.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Consents API from Osano — 4 operation(s) for consents.
   name: Osano Consents API
   slug: osano-consents-api
-- description: The customerInsights API from Osano — 1 operation(s) for customerinsights.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The customerInsights API from Osano — 1 operation(s) for customerinsights.
   name: Osano Customer Insights API
   slug: osano-customerinsights-api
-- description: Discover and manage data stores and personal data fields
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: Discover and manage data stores and personal data fields
   name: Osano Data Discovery API
   slug: osano-datadiscovery-api
-- description: Manage subject rights requests and data subject access requests
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: Manage subject rights requests and data subject access requests
   name: Osano Dsar API
   slug: osano-dsar-api
-- description: Manage action items for subject rights requests
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: Manage action items for subject rights requests
   name: Osano Dsar Action Items API
   slug: osano-dsaractionitems-api
-- description: The Sessions API from Osano — 1 operation(s) for sessions.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Sessions API from Osano — 1 operation(s) for sessions.
   name: Osano Sessions API
   slug: osano-sessions-api
-- description: The subjectRightsPortal API from Osano — 2 operation(s) for subjectrightsportal.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The subjectRightsPortal API from Osano — 2 operation(s) for subjectrightsportal.
   name: Osano Subject Rights Portal API
   slug: osano-subjectrightsportal-api
-- description: The Subjects API from Osano — 9 operation(s) for subjects.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Subjects API from Osano — 9 operation(s) for subjects.
   name: Osano Subjects API
   slug: osano-subjects-api
-- description: The Token API from Osano — 1 operation(s) for token.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Token API from Osano — 1 operation(s) for token.
   name: Osano Token API
   slug: osano-token-api
-- description: The Unified Consent Core API API from Osano — 1 operation(s) for unified consent core api.
+- baseURL: https://api.osano.com
+  baseurl_source: declared
+  description: The Unified Consent Core API API from Osano — 1 operation(s) for unified consent core api.
   name: Osano Unified Consent Core API
   slug: osano-unified-consent-core-api-api
 artifact_total: 24
@@ -261,24 +306,24 @@ rate_limits:
   name: Osano Rate Limits
   slug: osano-rate-limits
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 54.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.2
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 4.5
-    contract_quality: 56.9
+    contract_quality: 57.6
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 54.4
+  previous_composite: 54.2
   provenance:
     conformance: derived
     contracts:
@@ -289,8 +334,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/screenshots/osano-2026-09-02T150857.png
 security:
 - kind: authentication
   name: Osano Authentication

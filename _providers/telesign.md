@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Send voice messages including OTPs, alerts, and notifications to phone numbers worldwide. Supports text-to-speech message delivery and call status tracking.
   name: Telesign Voice API
   slug: voice-api
-- description: Phone number reputation and fraud risk scoring
+- baseURL: https://rest-ww.telesign.com/v1
+  baseurl_source: declared
+  description: Phone number reputation and fraud risk scoring
   name: Telesign Fraud Scoring API
   slug: telesign-fraud-scoring-api
-- description: Send and track SMS messages
+- baseURL: https://rest-ww.telesign.com/v1
+  baseurl_source: declared
+  description: Send and track SMS messages
   name: Telesign Messaging API
   slug: telesign-messaging-api
-- description: Phone number lookup and intelligence operations
+- baseURL: https://rest-ww.telesign.com/v1
+  baseurl_source: declared
+  description: Phone number lookup and intelligence operations
   name: Telesign Phone Intelligence API
   slug: telesign-phone-intelligence-api
-- description: Create, retrieve, and update verification processes
+- baseURL: https://rest-ww.telesign.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, and update verification processes
   name: Telesign Verification API
   slug: telesign-verification-api
 artifact_total: 41
@@ -281,7 +289,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telesign/refs/heads/main/screenshots/telesign-2026-06-20T195043.png
 security:

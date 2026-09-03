@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -56,37 +56,59 @@ apis:
 - description: The Filebase IPFS RPC API exposes core IPFS daemon functionality through an HTTP interface. Bucket-specific Bearer tokens authenticate all POST requests to the rpc.filebase.io endpoint. Capabilities s
   name: Filebase IPFS RPC API
   slug: filebase-ipfs-rpc-api
-- description: Per-bucket storage consumption
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Per-bucket storage consumption
   name: Filebase Buckets API
   slug: filebase-buckets-api
-- description: Add, retrieve, and import IPFS data
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Add, retrieve, and import IPFS data
   name: Filebase Data Management API
   slug: filebase-data-management-api
-- description: IPNS name publishing and resolution
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: IPNS name publishing and resolution
   name: Filebase IPNS API
   slug: filebase-ipns-api
-- description: IPNS keypair management
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: IPNS keypair management
   name: Filebase Keypairs API
   slug: filebase-keypairs-api
-- description: Mutable File System operations
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Mutable File System operations
   name: Filebase MFS API
   slug: filebase-mfs-api
-- description: Large file multipart upload operations
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Large file multipart upload operations
   name: Filebase Multipart Upload API
   slug: filebase-multipart-upload-api
-- description: IPFS node information
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: IPFS node information
   name: Filebase Node API
   slug: filebase-node-api
-- description: Object upload, download, copy, delete, and metadata
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Object upload, download, copy, delete, and metadata
   name: Filebase Objects API
   slug: filebase-objects-api
-- description: Pin and unpin IPFS objects
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Pin and unpin IPFS objects
   name: Filebase Pinning API
   slug: filebase-pinning-api
-- description: IPFS pin management operations
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: IPFS pin management operations
   name: Filebase Pins API
   slug: filebase-pins-api
-- description: Account-level usage and bandwidth metrics
+- baseURL: https://s3.filebase.io
+  baseurl_source: declared
+  description: Account-level usage and bandwidth metrics
   name: Filebase Usage API
   slug: filebase-usage-api
 artifact_total: 42
@@ -278,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/screenshots/filebase-2026-06-20T181207.png
 security:

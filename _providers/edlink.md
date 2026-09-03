@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 22 operations · 1 acting
 api_count: 1
 apis:
-- description: Institution-level roster and school data.
+- baseURL: https://ed.link/api/v2
+  baseurl_source: declared
+  description: Institution-level roster and school data.
   name: Edlink Graph API
   slug: edlink-graph-api
-- description: Source and integration metadata.
+- baseURL: https://ed.link/api/v2
+  baseurl_source: declared
+  description: Source and integration metadata.
   name: Edlink Integrations API
   slug: edlink-integrations-api
-- description: OAuth 2.0 and OpenID Connect single sign-on.
+- baseURL: https://ed.link/api/v2
+  baseurl_source: declared
+  description: OAuth 2.0 and OpenID Connect single sign-on.
   name: Edlink SSO API
   slug: edlink-sso-api
 artifact_total: 23
@@ -204,7 +210,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/screenshots/edlink-2026-07-25T212853.png
 security:

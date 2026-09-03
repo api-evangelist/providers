@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 13 acting
 api_count: 1
 apis:
-- description: Upload and manage audio files and fingerprints within a bucket.
+- baseURL: https://identify-eu-west-1.acrcloud.com/v1
+  baseurl_source: declared
+  description: Upload and manage audio files and fingerprints within a bucket.
   name: ACRCloud Audio Files API
   slug: acrcloud-audio-files-api
-- description: Manage broadcast-database monitoring projects and result callbacks.
+- baseURL: https://identify-eu-west-1.acrcloud.com/v1
+  baseurl_source: declared
+  description: Manage broadcast-database monitoring projects and result callbacks.
   name: ACRCloud Broadcast Monitoring API
   slug: acrcloud-broadcast-monitoring-api
-- description: Manage custom recognition buckets.
+- baseURL: https://identify-eu-west-1.acrcloud.com/v1
+  baseurl_source: declared
+  description: Manage custom recognition buckets.
   name: ACRCloud Buckets API
   slug: acrcloud-buckets-api
-- description: Manage file-scanning containers that detect content from buckets.
+- baseURL: https://identify-eu-west-1.acrcloud.com/v1
+  baseurl_source: declared
+  description: Manage file-scanning containers that detect content from buckets.
   name: ACRCloud File Scanning API
   slug: acrcloud-file-scanning-api
-- description: Recognize music, custom audio, and humming from a sample or fingerprint.
+- baseURL: https://identify-eu-west-1.acrcloud.com/v1
+  baseurl_source: declared
+  description: Recognize music, custom audio, and humming from a sample or fingerprint.
   name: ACRCloud Identification API
   slug: acrcloud-identification-api
-- description: Look up enriched third-party music metadata.
+- baseURL: https://identify-eu-west-1.acrcloud.com/v1
+  baseurl_source: declared
+  description: Look up enriched third-party music metadata.
   name: ACRCloud Metadata API
   slug: acrcloud-metadata-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/screenshots/acrcloud-2026-07-25T181514.png
 security:

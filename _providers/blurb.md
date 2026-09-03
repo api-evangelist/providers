@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'RESTful print-on-demand API that lets businesses integrate Blurb''s book, magazine, and notebook printing and fulfillment into their own platforms. Orders and real-time fulfillment updates are handled '
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blurb/refs/heads/main/screenshots/blurb-2026-07-25T203511.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 106 operations · 55 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The IntegrationAccountAgreements API from Azure Logic Apps — 3 operation(s) for integrationaccountagreements.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountAgreements API from Azure Logic Apps — 3 operation(s) for integrationaccountagreements.
   name: Azure Logic Apps IntegrationAccountAgreements API
   slug: azure-logic-apps-integrationaccountagreements-api
-- description: The IntegrationAccountAssemblies API from Azure Logic Apps — 3 operation(s) for integrationaccountassemblies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountAssemblies API from Azure Logic Apps — 3 operation(s) for integrationaccountassemblies.
   name: Azure Logic Apps IntegrationAccountAssemblies API
   slug: azure-logic-apps-integrationaccountassemblies-api
-- description: The IntegrationAccountBatchConfigurations API from Azure Logic Apps — 2 operation(s) for integrationaccountbatchconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountBatchConfigurations API from Azure Logic Apps — 2 operation(s) for integrationaccountbatchconfigurations.
   name: Azure Logic Apps IntegrationAccountBatchConfigurations API
   slug: azure-logic-apps-integrationaccountbatchconfigurations-api
-- description: The IntegrationAccountCertificates API from Azure Logic Apps — 2 operation(s) for integrationaccountcertificates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountCertificates API from Azure Logic Apps — 2 operation(s) for integrationaccountcertificates.
   name: Azure Logic Apps IntegrationAccountCertificates API
   slug: azure-logic-apps-integrationaccountcertificates-api
-- description: The IntegrationAccountMaps API from Azure Logic Apps — 3 operation(s) for integrationaccountmaps.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountMaps API from Azure Logic Apps — 3 operation(s) for integrationaccountmaps.
   name: Azure Logic Apps IntegrationAccountMaps API
   slug: azure-logic-apps-integrationaccountmaps-api
-- description: The IntegrationAccountPartners API from Azure Logic Apps — 3 operation(s) for integrationaccountpartners.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountPartners API from Azure Logic Apps — 3 operation(s) for integrationaccountpartners.
   name: Azure Logic Apps IntegrationAccountPartners API
   slug: azure-logic-apps-integrationaccountpartners-api
-- description: The IntegrationAccounts API from Azure Logic Apps — 7 operation(s) for integrationaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccounts API from Azure Logic Apps — 7 operation(s) for integrationaccounts.
   name: Azure Logic Apps IntegrationAccounts API
   slug: azure-logic-apps-integrationaccounts-api
-- description: The IntegrationAccountSchemas API from Azure Logic Apps — 3 operation(s) for integrationaccountschemas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountSchemas API from Azure Logic Apps — 3 operation(s) for integrationaccountschemas.
   name: Azure Logic Apps IntegrationAccountSchemas API
   slug: azure-logic-apps-integrationaccountschemas-api
-- description: The IntegrationAccountSessions API from Azure Logic Apps — 2 operation(s) for integrationaccountsessions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountSessions API from Azure Logic Apps — 2 operation(s) for integrationaccountsessions.
   name: Azure Logic Apps IntegrationAccountSessions API
   slug: azure-logic-apps-integrationaccountsessions-api
-- description: The integrationServiceEnvironmentManagedApi API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentmanagedapi.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The integrationServiceEnvironmentManagedApi API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentmanagedapi.
   name: Azure Logic Apps integrationServiceEnvironmentManagedApi API
   slug: azure-logic-apps-integrationserviceenvironmentmanagedapi-api
-- description: The integrationServiceEnvironmentManagedApis API from Azure Logic Apps — 2 operation(s) for integrationserviceenvironmentmanagedapis.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The integrationServiceEnvironmentManagedApis API from Azure Logic Apps — 2 operation(s) for integrationserviceenvironmentmanagedapis.
   name: Azure Logic Apps integrationServiceEnvironmentManagedApis API
   slug: azure-logic-apps-integrationserviceenvironmentmanagedapis-api
-- description: The integrationServiceEnvironmentNetworkHealth API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentnetworkhealth.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The integrationServiceEnvironmentNetworkHealth API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentnetworkhealth.
   name: Azure Logic Apps integrationServiceEnvironmentNetworkHealth API
   slug: azure-logic-apps-integrationserviceenvironmentnetworkhealth-api
-- description: The integrationServiceEnvironmentRestart API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentrestart.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The integrationServiceEnvironmentRestart API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentrestart.
   name: Azure Logic Apps integrationServiceEnvironmentRestart API
   slug: azure-logic-apps-integrationserviceenvironmentrestart-api
-- description: The IntegrationServiceEnvironments API from Azure Logic Apps — 3 operation(s) for integrationserviceenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationServiceEnvironments API from Azure Logic Apps — 3 operation(s) for integrationserviceenvironments.
   name: Azure Logic Apps IntegrationServiceEnvironments API
   slug: azure-logic-apps-integrationserviceenvironments-api
-- description: The integrationServiceEnvironmentSkus API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentskus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The integrationServiceEnvironmentSkus API from Azure Logic Apps — 1 operation(s) for integrationserviceenvironmentskus.
   name: Azure Logic Apps integrationServiceEnvironmentSkus API
   slug: azure-logic-apps-integrationserviceenvironmentskus-api
-- description: The Operations API from Azure Logic Apps — 1 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operations API from Azure Logic Apps — 1 operation(s) for operations.
   name: Azure Logic Apps Operations API
   slug: azure-logic-apps-operations-api
-- description: The WorkflowRunActions API from Azure Logic Apps — 12 operation(s) for workflowrunactions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowRunActions API from Azure Logic Apps — 12 operation(s) for workflowrunactions.
   name: Azure Logic Apps WorkflowRunActions API
   slug: azure-logic-apps-workflowrunactions-api
-- description: The WorkflowRunOperations API from Azure Logic Apps — 1 operation(s) for workflowrunoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowRunOperations API from Azure Logic Apps — 1 operation(s) for workflowrunoperations.
   name: Azure Logic Apps WorkflowRunOperations API
   slug: azure-logic-apps-workflowrunoperations-api
-- description: The WorkflowRuns API from Azure Logic Apps — 3 operation(s) for workflowruns.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowRuns API from Azure Logic Apps — 3 operation(s) for workflowruns.
   name: Azure Logic Apps WorkflowRuns API
   slug: azure-logic-apps-workflowruns-api
-- description: The Workflows API from Azure Logic Apps — 12 operation(s) for workflows.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflows API from Azure Logic Apps — 12 operation(s) for workflows.
   name: Azure Logic Apps Workflows API
   slug: azure-logic-apps-workflows-api
-- description: The WorkflowTriggerHistories API from Azure Logic Apps — 3 operation(s) for workflowtriggerhistories.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowTriggerHistories API from Azure Logic Apps — 3 operation(s) for workflowtriggerhistories.
   name: Azure Logic Apps WorkflowTriggerHistories API
   slug: azure-logic-apps-workflowtriggerhistories-api
-- description: The WorkflowTriggers API from Azure Logic Apps — 8 operation(s) for workflowtriggers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowTriggers API from Azure Logic Apps — 8 operation(s) for workflowtriggers.
   name: Azure Logic Apps WorkflowTriggers API
   slug: azure-logic-apps-workflowtriggers-api
-- description: The WorkflowVersions API from Azure Logic Apps — 2 operation(s) for workflowversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowVersions API from Azure Logic Apps — 2 operation(s) for workflowversions.
   name: Azure Logic Apps WorkflowVersions API
   slug: azure-logic-apps-workflowversions-api
 artifact_total: 144
@@ -580,7 +626,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/screenshots/azure-logic-apps-2026-06-20T172902.png
 security:

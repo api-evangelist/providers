@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -50,19 +50,29 @@ apis:
 - description: The Vagrant Plugin SDK enables developers to build plugins that extend Vagrant with custom commands, providers, provisioners, guests, and host capabilities using Go or Ruby.
   name: Vagrant Plugin SDK
   slug: vagrant-plugin-sdk
-- description: Endpoints for creating, reading, updating, and deleting Vagrant boxes in the Vagrant Cloud registry.
+- baseURL: https://app.vagrantup.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for creating, reading, updating, and deleting Vagrant boxes in the Vagrant Cloud registry.
   name: Vagrant Boxes API
   slug: vagrant-boxes-api
-- description: Endpoints for managing providers within a box version, including creating providers and uploading box files.
+- baseURL: https://app.vagrantup.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing providers within a box version, including creating providers and uploading box files.
   name: Vagrant Providers API
   slug: vagrant-providers-api
-- description: Endpoints for managing Vagrant box registries. A registry is a namespace that holds boxes and forms the first segment of a box tag such as hashicorp in hashicorp/vagrant.
+- baseURL: https://app.vagrantup.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing Vagrant box registries. A registry is a namespace that holds boxes and forms the first segment of a box tag such as hashicorp in hashicorp/vagrant.
   name: Vagrant Registries API
   slug: vagrant-registries-api
-- description: Endpoints for searching the public Vagrant box catalog by query, provider, and other filters.
+- baseURL: https://app.vagrantup.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for searching the public Vagrant box catalog by query, provider, and other filters.
   name: Vagrant Search API
   slug: vagrant-search-api
-- description: Endpoints for managing versions of a Vagrant box, including creating new versions and releasing them for consumption.
+- baseURL: https://app.vagrantup.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing versions of a Vagrant box, including creating new versions and releasing them for consumption.
   name: Vagrant Versions API
   slug: vagrant-versions-api
 artifact_total: 33
@@ -272,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/screenshots/vagrant-2026-06-20T200805.png
 security:

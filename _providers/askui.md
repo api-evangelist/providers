@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 46 operations · 31 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The access-tokens API from AskUI — 6 operation(s) for access-tokens.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The access-tokens API from AskUI — 6 operation(s) for access-tokens.
   name: AskUI access-tokens API
   slug: askui-access-tokens-api
-- description: The agent-executions API from AskUI — 2 operation(s) for agent-executions.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The agent-executions API from AskUI — 2 operation(s) for agent-executions.
   name: AskUI agent-executions API
   slug: askui-agent-executions-api
-- description: The agents API from AskUI — 3 operation(s) for agents.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The agents API from AskUI — 3 operation(s) for agents.
   name: AskUI agents API
   slug: askui-agents-api
-- description: The analytics API from AskUI — 1 operation(s) for analytics.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The analytics API from AskUI — 1 operation(s) for analytics.
   name: AskUI analytics API
   slug: askui-analytics-api
-- description: The auth API from AskUI — 2 operation(s) for auth.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The auth API from AskUI — 2 operation(s) for auth.
   name: AskUI auth API
   slug: askui-auth-api
-- description: The billing API from AskUI — 4 operation(s) for billing.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The billing API from AskUI — 4 operation(s) for billing.
   name: AskUI billing API
   slug: askui-billing-api
-- description: The dashboard API from AskUI — 1 operation(s) for dashboard.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The dashboard API from AskUI — 1 operation(s) for dashboard.
   name: AskUI dashboard API
   slug: askui-dashboard-api
-- description: The files API from AskUI — 3 operation(s) for files.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The files API from AskUI — 3 operation(s) for files.
   name: AskUI files API
   slug: askui-files-api
-- description: The invites API from AskUI — 3 operation(s) for invites.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The invites API from AskUI — 3 operation(s) for invites.
   name: AskUI invites API
   slug: askui-invites-api
-- description: The runner-jobs API from AskUI — 3 operation(s) for runner-jobs.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The runner-jobs API from AskUI — 3 operation(s) for runner-jobs.
   name: AskUI runner-jobs API
   slug: askui-runner-jobs-api
-- description: The runs API from AskUI — 1 operation(s) for runs.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The runs API from AskUI — 1 operation(s) for runs.
   name: AskUI runs API
   slug: askui-runs-api
-- description: The schedules API from AskUI — 2 operation(s) for schedules.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The schedules API from AskUI — 2 operation(s) for schedules.
   name: AskUI schedules API
   slug: askui-schedules-api
-- description: The tools API from AskUI — 1 operation(s) for tools.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The tools API from AskUI — 1 operation(s) for tools.
   name: AskUI tools API
   slug: askui-tools-api
-- description: The workspace-memberships API from AskUI — 3 operation(s) for workspace-memberships.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The workspace-memberships API from AskUI — 3 operation(s) for workspace-memberships.
   name: AskUI workspace-memberships API
   slug: askui-workspace-memberships-api
-- description: The workspaces API from AskUI — 2 operation(s) for workspaces.
+- baseURL: https://workspaces.askui.com
+  baseurl_source: declared
+  description: The workspaces API from AskUI — 2 operation(s) for workspaces.
   name: AskUI workspaces API
   slug: askui-workspaces-api
 artifact_total: 36
@@ -314,7 +344,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/askui/refs/heads/main/screenshots/askui-2026-07-25T201426.png
 security:

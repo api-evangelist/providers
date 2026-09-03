@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 82.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -39,64 +54,104 @@ apis:
 - description: Read-only hosted MCP server for searching Xquik documentation.
   name: Xquik Docs MCP Server
   slug: xquik-docs-mcp-server
-- description: Account info and settings
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Account info and settings
   name: Xquik Account API
   slug: xquik-api-account-api
-- description: API key management (session auth only)
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: API key management (session auth only)
   name: Xquik API Keys API
   slug: xquik-api-api-keys-api
-- description: Long-form X Article extraction
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Long-form X Article extraction
   name: Xquik Articles API
   slug: xquik-api-articles-api
-- description: X Community info, members, and tweets
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: X Community info, members, and tweets
   name: Xquik Communities API
   slug: xquik-api-communities-api
-- description: AI tweet composition, drafts, writing styles, and radar
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: AI tweet composition, drafts, writing styles, and radar
   name: Xquik Composition API
   slug: xquik-api-composition-api
-- description: Giveaway draws from tweet replies
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Giveaway draws from tweet replies
   name: Xquik Draws API
   slug: xquik-api-draws-api
-- description: Activity events from monitored accounts
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Activity events from monitored accounts
   name: Xquik Events API
   slug: xquik-api-events-api
-- description: Bulk data extraction (23 tool types)
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Bulk data extraction (23 tool types)
   name: Xquik Extractions API
   slug: xquik-api-extractions-api
-- description: Accountless prepaid access for paid read endpoints
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Accountless prepaid access for paid read endpoints
   name: Xquik Guest Wallets API
   slug: xquik-api-guest-wallets-api
-- description: X List followers, members, and tweets
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: X List followers, members, and tweets
   name: Xquik Lists API
   slug: xquik-api-lists-api
-- description: Media upload and download
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Media upload and download
   name: Xquik Media API
   slug: xquik-api-media-api
-- description: X account monitoring with 1-second checks
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: X account monitoring with 1-second checks
   name: Xquik Monitors API
   slug: xquik-api-monitors-api
-- description: Subscription, billing, and credits
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Subscription, billing, and credits
   name: Xquik Subscribe API
   slug: xquik-api-subscribe-api
-- description: Support ticket management
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Support ticket management
   name: Xquik Support API
   slug: xquik-api-support-api
-- description: Trending topics and hashtags by region
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Trending topics and hashtags by region
   name: Xquik Trends API
   slug: xquik-api-trends-api
-- description: Look up, search, and analyze individual tweets
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Look up, search, and analyze individual tweets
   name: Xquik Tweets API
   slug: xquik-api-tweets-api
-- description: Look up, search, and explore user profiles and relationships
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Look up, search, and explore user profiles and relationships
   name: Xquik Users API
   slug: xquik-api-users-api
-- description: Webhook endpoint management and delivery
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Webhook endpoint management and delivery
   name: Xquik Webhooks API
   slug: xquik-api-webhooks-api
-- description: Connected X account management
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: Connected X account management
   name: Xquik X Accounts API
   slug: xquik-api-x-accounts-api
-- description: X write actions (tweets, likes, follows, DMs)
+- baseURL: https://xquik.com/api/v1
+  baseurl_source: declared
+  description: X write actions (tweets, likes, follows, DMs)
   name: Xquik X Write API
   slug: xquik-api-x-write-api
 artifact_total: 40
@@ -458,7 +513,7 @@ score:
     catalog_gap: 20.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -468,7 +523,7 @@ score:
     discoverability: 94.4
     governance: 87.9
     operational_transparency: 81.6
-  previous_composite: 89.3
+  previous_composite: 89.1
   provenance:
     agentic_access: unknown
     conformance: first-party
@@ -480,7 +535,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
 security:

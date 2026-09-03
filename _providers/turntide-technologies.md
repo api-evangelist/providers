@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -34,49 +46,79 @@ agentic_access:
   summary_line: 485 operations · 281 acting
 api_count: 15
 apis:
-- description: The coauthors/v1 API from Turntide Technologies — 6 operation(s) for coauthors/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The coauthors/v1 API from Turntide Technologies — 6 operation(s) for coauthors/v1.
   name: Turntide Technologies Coauthors/v1 API
   slug: turntide-technologies-coauthors-v1-api
-- description: The complianz/v1 API from Turntide Technologies — 12 operation(s) for complianz/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The complianz/v1 API from Turntide Technologies — 12 operation(s) for complianz/v1.
   name: Turntide Technologies Complianz/v1 API
   slug: turntide-technologies-complianz-v1-api
-- description: The core API from Turntide Technologies — 1 operation(s) for core.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The core API from Turntide Technologies — 1 operation(s) for core.
   name: Turntide Technologies Core API
   slug: turntide-technologies-core-api
-- description: The mcp API from Turntide Technologies — 3 operation(s) for mcp.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The mcp API from Turntide Technologies — 3 operation(s) for mcp.
   name: Turntide Technologies MCP API
   slug: turntide-technologies-mcp-api
-- description: The oembed/1.0 API from Turntide Technologies — 3 operation(s) for oembed/1.0.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The oembed/1.0 API from Turntide Technologies — 3 operation(s) for oembed/1.0.
   name: Turntide Technologies Oembed/1.0 API
   slug: turntide-technologies-oembed-1-0-api
-- description: The redirection/v1 API from Turntide Technologies — 32 operation(s) for redirection/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The redirection/v1 API from Turntide Technologies — 32 operation(s) for redirection/v1.
   name: Turntide Technologies Redirection/v1 API
   slug: turntide-technologies-redirection-v1-api
-- description: The themeco API from Turntide Technologies — 3 operation(s) for themeco.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The themeco API from Turntide Technologies — 3 operation(s) for themeco.
   name: Turntide Technologies Themeco API
   slug: turntide-technologies-themeco-api
-- description: The wp-abilities/v1 API from Turntide Technologies — 6 operation(s) for wp-abilities/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wp-abilities/v1 API from Turntide Technologies — 6 operation(s) for wp-abilities/v1.
   name: Turntide Technologies Wp Abilities/v1 API
   slug: turntide-technologies-wp-abilities-v1-api
-- description: The wp-block-editor/v1 API from Turntide Technologies — 4 operation(s) for wp-block-editor/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wp-block-editor/v1 API from Turntide Technologies — 4 operation(s) for wp-block-editor/v1.
   name: Turntide Technologies Wp Block Editor/v1 API
   slug: turntide-technologies-wp-block-editor-v1-api
-- description: The wp-site-health/v1 API from Turntide Technologies — 8 operation(s) for wp-site-health/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wp-site-health/v1 API from Turntide Technologies — 8 operation(s) for wp-site-health/v1.
   name: Turntide Technologies Wp Site Health/v1 API
   slug: turntide-technologies-wp-site-health-v1-api
-- description: The wp/v2 API from Turntide Technologies — 122 operation(s) for wp/v2.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wp/v2 API from Turntide Technologies — 122 operation(s) for wp/v2.
   name: Turntide Technologies Wp/v2 API
   slug: turntide-technologies-wp-v2-api
-- description: The wpe/cache-plugin/v1 API from Turntide Technologies — 3 operation(s) for wpe/cache-plugin/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wpe/cache-plugin/v1 API from Turntide Technologies — 3 operation(s) for wpe/cache-plugin/v1.
   name: Turntide Technologies Wpe/cache Plugin/v1 API
   slug: turntide-technologies-wpe-cache-plugin-v1-api
-- description: The wpe_sign_on_plugin/v1 API from Turntide Technologies — 4 operation(s) for wpe_sign_on_plugin/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wpe_sign_on_plugin/v1 API from Turntide Technologies — 4 operation(s) for wpe_sign_on_plugin/v1.
   name: Turntide Technologies Wpe Sign On Plugin/v1 API
   slug: turntide-technologies-wpe-sign-on-plugin-v1-api
-- description: The wpforms/v1 API from Turntide Technologies — 8 operation(s) for wpforms/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The wpforms/v1 API from Turntide Technologies — 8 operation(s) for wpforms/v1.
   name: Turntide Technologies Wpforms/v1 API
   slug: turntide-technologies-wpforms-v1-api
-- description: The yoast/v1 API from Turntide Technologies — 59 operation(s) for yoast/v1.
+- baseURL: https://turntide.com/wp-json
+  baseurl_source: declared
+  description: The yoast/v1 API from Turntide Technologies — 59 operation(s) for yoast/v1.
   name: Turntide Technologies Yoast/v1 API
   slug: turntide-technologies-yoast-v1-api
 artifact_total: 36
@@ -284,7 +326,7 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -316,8 +358,9 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png
 security:
 - kind: authentication
   name: Turntide Technologies Authentication

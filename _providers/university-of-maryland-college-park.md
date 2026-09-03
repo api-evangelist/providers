@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: API middleware operated by the University of Maryland Libraries that exposes today's open/closed status, current bookable-space availability, and raw LibCal space records for five UMD library location
+- baseURL: https://api.www.lib.umd.edu/api/libtools
+  baseurl_source: declared
+  description: API middleware operated by the University of Maryland Libraries that exposes today's open/closed status, current bookable-space availability, and raw LibCal space records for five UMD library location
   name: UMD Libraries Website Tools API
   slug: libraries-website-tools
 - description: OAI-PMH 2.0 harvesting endpoint over UMD Libraries' Fedora-backed digital collections. Identify reports repositoryName "UMD Libraries" and adminEmail lib-ssdr@umd.edu, with records back to 2014. ListS
@@ -291,7 +293,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -301,7 +303,7 @@ score:
     discoverability: 59.3
     governance: 30.3
     operational_transparency: 23.7
-  previous_composite: 45.1
+  previous_composite: 47.9
   provenance:
     conformance: first-party
     contracts:
@@ -316,7 +318,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/screenshots/university-of-maryland-college-park-2026-06-20T200223.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: API for accessing and managing sustainability data including energy consumption, waste management, water usage, and renewable energy tracking.
   name: Sustainability Data API
   slug: sustainability-data-api
-- description: Carbon emission record management
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Carbon emission record management
   name: Salesforce Net Zero Cloud Carbon Emissions API
   slug: salesforce-net-zero-cloud-carbon-emissions-api
-- description: Emission factor data and calculations
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Emission factor data and calculations
   name: Salesforce Net Zero Cloud Emission Factors API
   slug: salesforce-net-zero-cloud-emission-factors-api
-- description: Energy usage tracking and management
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Energy usage tracking and management
   name: Salesforce Net Zero Cloud Energy Consumption API
   slug: salesforce-net-zero-cloud-energy-consumption-api
-- description: Environmental, Social, and Governance reporting
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Environmental, Social, and Governance reporting
   name: Salesforce Net Zero Cloud ESG Reporting API
   slug: salesforce-net-zero-cloud-esg-reporting-api
-- description: Net zero and sustainability target management
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Net zero and sustainability target management
   name: Salesforce Net Zero Cloud Sustainability Goals API
   slug: salesforce-net-zero-cloud-sustainability-goals-api
-- description: Waste and recycling data management
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Waste and recycling data management
   name: Salesforce Net Zero Cloud Waste Management API
   slug: salesforce-net-zero-cloud-waste-management-api
-- description: Water consumption tracking
+- baseURL: https://yourinstance.my.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Water consumption tracking
   name: Salesforce Net Zero Cloud Water Usage API
   slug: salesforce-net-zero-cloud-water-usage-api
 artifact_total: 40
@@ -310,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:

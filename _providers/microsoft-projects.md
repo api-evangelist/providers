@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: REST API for managing projects, tasks, resources, and assignments in Microsoft Project for the web.
@@ -126,7 +126,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 9.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-projects/refs/heads/main/screenshots/microsoft-projects-2026-06-20T185528.png
 slug: microsoft-projects

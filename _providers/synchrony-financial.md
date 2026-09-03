@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The Synchrony Account Management API provides access to cardholder account information, enabling partners to retrieve account details, balance information, transaction history, and manage account serv
   name: Synchrony Account Management API
   slug: account-management
-- description: Full credit card application submissions.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Full credit card application submissions.
   name: Synchrony Financial Applications API
   slug: synchrony-financial-applications-api
-- description: Retrieve application decisions.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Retrieve application decisions.
   name: Synchrony Financial Decisions API
   slug: synchrony-financial-decisions-api
-- description: Process customer account payments.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Process customer account payments.
   name: Synchrony Financial Payments API
   slug: synchrony-financial-payments-api
-- description: Soft-pull preapproval operations.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Soft-pull preapproval operations.
   name: Synchrony Financial Preapprovals API
   slug: synchrony-financial-preapprovals-api
-- description: Place holds on credit for future purchase completions.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Place holds on credit for future purchase completions.
   name: Synchrony Financial Preauthorizations API
   slug: synchrony-financial-preauthorizations-api
-- description: Authorize and capture purchase transactions.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Authorize and capture purchase transactions.
   name: Synchrony Financial Purchases API
   slug: synchrony-financial-purchases-api
-- description: Process refunds and credit adjustments.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Process refunds and credit adjustments.
   name: Synchrony Financial Refunds API
   slug: synchrony-financial-refunds-api
-- description: Reverse and void transactions.
+- baseURL: https://api.syf.com
+  baseurl_source: declared
+  description: Reverse and void transactions.
   name: Synchrony Financial Reversals API
   slug: synchrony-financial-reversals-api
 artifact_total: 35
@@ -281,7 +297,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:

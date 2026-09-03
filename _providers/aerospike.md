@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: HTTP/JSON gateway that exposes Aerospike database operations including key-value reads/writes, batch, operate, scan, query, info, secondary indexes, and user-defined functions. Authentication is via H
   name: Aerospike REST Gateway
   slug: rest-gateway
-- description: Cluster topology and information operations
+- baseURL: http://localhost:8080/v1
+  baseurl_source: declared
+  description: Cluster topology and information operations
   name: Aerospike Cluster API
   slug: aerospike-cluster-api
-- description: Built-in interactive documentation and OpenAPI specification
+- baseURL: http://localhost:8080/v1
+  baseurl_source: declared
+  description: Built-in interactive documentation and OpenAPI specification
   name: Aerospike Documentation API
   slug: aerospike-documentation-api
 artifact_total: 10
@@ -159,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/screenshots/aerospike-2026-06-20T165533.png
 security:

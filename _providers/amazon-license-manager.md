@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: License configuration management
+- baseURL: https://license-manager.amazonaws.com
+  baseurl_source: declared
+  description: License configuration management
   name: Amazon License Manager License Configurations API
   slug: amazon-license-manager-license-configurations-api
 artifact_total: 27
@@ -251,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/screenshots/amazon-license-manager-2026-06-20T171724.png
 security:

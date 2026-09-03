@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: API for managing packages in Azure Artifacts including NuGet, npm, Maven, and Python packages.
   name: Azure Artifacts Package API
   slug: azure-artifacts-api
-- description: The PackageContent API from Microsoft Package — 2 operation(s) for packagecontent.
+- baseURL: https://api.nuget.org/v3/index.json
+  baseurl_source: declared
+  description: The PackageContent API from Microsoft Package — 2 operation(s) for packagecontent.
   name: Microsoft Package PackageContent API
   slug: microsoft-package-packagecontent-api
-- description: The Registration API from Microsoft Package — 1 operation(s) for registration.
+- baseURL: https://api.nuget.org/v3/index.json
+  baseurl_source: declared
+  description: The Registration API from Microsoft Package — 1 operation(s) for registration.
   name: Microsoft Package Registration API
   slug: microsoft-package-registration-api
-- description: The Search API from Microsoft Package — 1 operation(s) for search.
+- baseURL: https://api.nuget.org/v3/index.json
+  baseurl_source: declared
+  description: The Search API from Microsoft Package — 1 operation(s) for search.
   name: Microsoft Package Search API
   slug: microsoft-package-search-api
-- description: The ServiceIndex API from Microsoft Package — 1 operation(s) for serviceindex.
+- baseURL: https://api.nuget.org/v3/index.json
+  baseurl_source: declared
+  description: The ServiceIndex API from Microsoft Package — 1 operation(s) for serviceindex.
   name: Microsoft Package ServiceIndex API
   slug: microsoft-package-serviceindex-api
 artifact_total: 21
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/screenshots/microsoft-package-2026-06-20T185523.png
 security:

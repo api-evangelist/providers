@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: Per-repository behavior is configured with a .coderabbit.yaml file (validated against a published JSON schema) controlling review tone, path filters, enabled tools/linters, auto-review, and chat behav
   name: CodeRabbit Configuration
   slug: coderabbit-configuration
-- description: The Reports API from CodeRabbit — 1 operation(s) for reports.
+- baseURL: https://api.coderabbit.ai/api/v1
+  baseurl_source: declared
+  description: The Reports API from CodeRabbit — 1 operation(s) for reports.
   name: CodeRabbit Reports API
   slug: coderabbit-reports-api
 artifact_total: 13
@@ -165,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coderabbit/refs/heads/main/screenshots/coderabbit-2026-07-25T205926.png
 security:

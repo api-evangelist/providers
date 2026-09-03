@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 97 operations · 42 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The `api-key-secret` field is only shown once when you create an API key. We cannot recover the value, so you should store it securely. Pass an `Authorization` header with `GriffinAPIKey api-key-secre
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The `api-key-secret` field is only shown once when you create an API key. We cannot recover the value, so you should store it securely. Pass an `Authorization` header with `GriffinAPIKey api-key-secre
   name: Griffin API keys API
   slug: griffin-api-keys-api
-- description: The Bank account holds API from Griffin — 2 operation(s) for bank account holds.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Bank account holds API from Griffin — 2 operation(s) for bank account holds.
   name: Griffin Bank account holds API
   slug: griffin-bank-account-holds-api
-- description: Restrictions prevent payments on a bank account. A `freeze` blocks outbound payments while still allowing inbound payments. A `block` prevents both inbound and outbound payments. Restrictions can be a
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Restrictions prevent payments on a bank account. A `freeze` blocks outbound payments while still allowing inbound payments. A `block` prevents both inbound and outbound payments. Restrictions can be a
   name: Griffin Bank account restrictions API
   slug: griffin-bank-account-restrictions-api
-- description: Bank accounts are used for managing funds. Every bank account is opened against a [bank product](/docs/guides/bank-products), which determines the account's behaviour (type, pooled vs dedicated, inter
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Bank accounts are used for managing funds. Every bank account is opened against a [bank product](/docs/guides/bank-products), which determines the account's behaviour (type, pooled vs dedicated, inter
   name: Griffin Bank accounts API
   slug: griffin-bank-accounts-api
-- description: 'A [claim](/docs/terms/claim) is an unverified data point or series of data points attached to a [legal person](#tag/Legal-persons). Claims are verified by running a [verification](#tag/Verifications) '
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: 'A [claim](/docs/terms/claim) is an unverified data point or series of data points attached to a [legal person](#tag/Legal-persons). Claims are verified by running a [verification](#tag/Verifications) '
   name: Griffin Claims API
   slug: griffin-claims-api
-- description: The Companies House API from Griffin — 1 operation(s) for companies house.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Companies House API from Griffin — 1 operation(s) for companies house.
   name: Griffin Companies House API
   slug: griffin-companies-house-api
-- description: The Confirmation of payee API from Griffin — 2 operation(s) for confirmation of payee.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Confirmation of payee API from Griffin — 2 operation(s) for confirmation of payee.
   name: Griffin Confirmation of payee API
   slug: griffin-confirmation-of-payee-api
-- description: The Connectivity API from Griffin — 1 operation(s) for connectivity.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Connectivity API from Griffin — 1 operation(s) for connectivity.
   name: Griffin Connectivity API
   slug: griffin-connectivity-api
-- description: The Decisions API from Griffin — 1 operation(s) for decisions.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Decisions API from Griffin — 1 operation(s) for decisions.
   name: Griffin Decisions API
   slug: griffin-decisions-api
-- description: The Events API from Griffin — 2 operation(s) for events.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Events API from Griffin — 2 operation(s) for events.
   name: Griffin Events API
   slug: griffin-events-api
-- description: Invitations enable [users](#tag/Users) to create new [memberships](#tag/Memberships) for their [organization](#tag/Organizations). The new membership is only created once when the invitation is accept
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Invitations enable [users](#tag/Users) to create new [memberships](#tag/Memberships) for their [organization](#tag/Organizations). The new membership is only created once when the invitation is accept
   name: Griffin Invitations API
   slug: griffin-invitations-api
-- description: The Legal person history API from Griffin — 1 operation(s) for legal person history.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Legal person history API from Griffin — 1 operation(s) for legal person history.
   name: Griffin Legal person history API
   slug: griffin-legal-person-history-api
-- description: In the Griffin API, your organization and your customers are all represented by [legal persons](/docs/terms/legal-person). When you sign up with Griffin, your organization will be automatically assign
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: In the Griffin API, your organization and your customers are all represented by [legal persons](/docs/terms/legal-person). When you sign up with Griffin, your organization will be automatically assign
   name: Griffin Legal persons API
   slug: griffin-legal-persons-api
-- description: Memberships represents the relationship between a [user](#tag/Users) and an [organization](#tag/Organizations). A membership must have at least one [role](#tag/Roles) assigned to it.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Memberships represents the relationship between a [user](#tag/Users) and an [organization](#tag/Organizations). A membership must have at least one [role](#tag/Roles) assigned to it.
   name: Griffin Memberships API
   slug: griffin-memberships-api
-- description: 'Message Signatures confirm the identity of the sender and integrity of request messages. Key points: - Uses Ed25519 algorithm - Requires registering a public key with Griffin - Signatures cover specif'
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: 'Message Signatures confirm the identity of the sender and integrity of request messages. Key points: - Uses Ed25519 algorithm - Requires registering a public key with Griffin - Signatures cover specif'
   name: Griffin Message Signatures API
   slug: griffin-message-signatures-api
-- description: The Navigation API from Griffin — 1 operation(s) for navigation.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Navigation API from Griffin — 1 operation(s) for navigation.
   name: Griffin Navigation API
   slug: griffin-navigation-api
-- description: Open banking allows regulated third-party providers (TPPs) to access your customers' account data or initiate payments on their behalf. Griffin partners with [tell.money](https://tell.money/) to provi
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Open banking allows regulated third-party providers (TPPs) to access your customers' account data or initiate payments on their behalf. Griffin partners with [tell.money](https://tell.money/) to provi
   name: Griffin Open banking API
   slug: griffin-open-banking-api
-- description: The organization resource represents your company and acts as a container for the majority of other resources, including [legal persons](#tag/Legal-Persons) and [bank accounts](#tag/Bank-accounts). Wh
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The organization resource represents your company and acts as a container for the majority of other resources, including [legal persons](#tag/Legal-Persons) and [bank accounts](#tag/Bank-accounts). Wh
   name: Griffin Organizations API
   slug: griffin-organizations-api
-- description: A payee is the person or business to whom you are paying money. When you create a payee, you need to provide their name (`"account-holder"`), and their bank account number (`"account-number"`) and sor
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: A payee is the person or business to whom you are paying money. When you create a payee, you need to provide their name (`"account-holder"`), and their bank account number (`"account-number"`) and sor
   name: Griffin Payees API
   slug: griffin-payees-api
-- description: A payment captures the intent to move funds from a bank account to another bank account. Outbound payments can be made from your [bank account](#tag/Bank-accounts) to a [payee](#tag/Payees). Griffin a
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: A payment captures the intent to move funds from a bank account to another bank account. Outbound payments can be made from your [bank account](#tag/Bank-accounts) to a [payee](#tag/Payees). Griffin a
   name: Griffin Payments API
   slug: griffin-payments-api
-- description: The Pooled account membership API from Griffin — 2 operation(s) for pooled account membership.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Pooled account membership API from Griffin — 2 operation(s) for pooled account membership.
   name: Griffin Pooled account membership API
   slug: griffin-pooled-account-membership-api
-- description: Reliance onboarding allows you to create and submit an application on behalf of your customer, using information about them you have already collected. For more information, checkout our [onboarding g
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Reliance onboarding allows you to create and submit an application on behalf of your customer, using information about them you have already collected. For more information, checkout our [onboarding g
   name: Griffin Reliance onboarding API
   slug: griffin-reliance-onboarding-api
-- description: A role represents a pre-defined set of capabilities that can be assigned to a [user](#tag/Users) via their [membership](#tag/Memberships) in an [organization](#tag/Organization). By default, the first
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: A role represents a pre-defined set of capabilities that can be assigned to a [user](#tag/Users) via their [membership](#tag/Memberships) in an [organization](#tag/Organization). By default, the first
   name: Griffin Roles API
   slug: griffin-roles-api
-- description: A transaction represents funds deposited or withdrawn from a bank account. Read more about transactions [in our guides](/docs/guides/transactions).
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: A transaction represents funds deposited or withdrawn from a bank account. Read more about transactions [in our guides](/docs/guides/transactions).
   name: Griffin Transactions API
   slug: griffin-transactions-api
-- description: Users represent individuals who use the Griffin platform. A user must have a [membership](#tag/Memberships) in at least one [organization](#tag/Organizations), and may have memberships in multiple org
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: Users represent individuals who use the Griffin platform. A user must have a [membership](#tag/Memberships) in at least one [organization](#tag/Organizations), and may have memberships in multiple org
   name: Griffin Users API
   slug: griffin-users-api
-- description: The Verifications API from Griffin — 4 operation(s) for verifications.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Verifications API from Griffin — 4 operation(s) for verifications.
   name: Griffin Verifications API
   slug: griffin-verifications-api
-- description: The Webhooks API from Griffin — 5 operation(s) for webhooks.
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: The Webhooks API from Griffin — 5 operation(s) for webhooks.
   name: Griffin Webhooks API
   slug: griffin-webhooks-api
-- description: A [workflow](/docs/terms/workflow) determines which checks will be run against a [legal person](#tag/Legal-persons) as part of a [verification](#tag/Verifications)
+- baseURL: https://api.griffin.com/v0
+  baseurl_source: declared
+  description: A [workflow](/docs/terms/workflow) determines which checks will be run against a [legal person](#tag/Legal-persons) as part of a [verification](#tag/Verifications)
   name: Griffin Workflows API
   slug: griffin-workflows-api
 artifact_total: 62
@@ -389,7 +445,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -399,7 +455,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -417,7 +473,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/screenshots/griffin-2026-07-25T220332.png
 security:

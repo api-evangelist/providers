@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: Cassandra keyspace management
+- baseURL: https://cassandra.amazonaws.com
+  baseurl_source: declared
+  description: Cassandra keyspace management
   name: Amazon Keyspaces Keyspaces API
   slug: amazon-keyspaces-keyspaces-api
-- description: Cassandra table management
+- baseURL: https://cassandra.amazonaws.com
+  baseurl_source: declared
+  description: Cassandra table management
   name: Amazon Keyspaces Tables API
   slug: amazon-keyspaces-tables-api
 arazzos:
@@ -323,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/screenshots/amazon-keyspaces-2026-06-20T171716.png
 security:

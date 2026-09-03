@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: WebDAV interface for files, folders, chunked uploads, trashbin, versions, comments, and search on a Nextcloud server. Provides the primary file-sync protocol used by Nextcloud desktop and mobile clien
   name: Nextcloud WebDAV API
   slug: webdav-api
-- description: The Autocomplete API from Nextcloud — 1 operation(s) for autocomplete.
+- baseURL: https://your-nextcloud.example/ocs/v2.php
+  baseurl_source: declared
+  description: The Autocomplete API from Nextcloud — 1 operation(s) for autocomplete.
   name: Nextcloud Autocomplete API
   slug: nextcloud-autocomplete-api
-- description: The Capabilities API from Nextcloud — 1 operation(s) for capabilities.
+- baseURL: https://your-nextcloud.example/ocs/v2.php
+  baseurl_source: declared
+  description: The Capabilities API from Nextcloud — 1 operation(s) for capabilities.
   name: Nextcloud Capabilities API
   slug: nextcloud-capabilities-api
-- description: The DAV API from Nextcloud — 1 operation(s) for dav.
+- baseURL: https://your-nextcloud.example/ocs/v2.php
+  baseurl_source: declared
+  description: The DAV API from Nextcloud — 1 operation(s) for dav.
   name: Nextcloud DAV API
   slug: nextcloud-dav-api
-- description: The Users API from Nextcloud — 2 operation(s) for users.
+- baseURL: https://your-nextcloud.example/ocs/v2.php
+  baseurl_source: declared
+  description: The Users API from Nextcloud — 2 operation(s) for users.
   name: Nextcloud Users API
   slug: nextcloud-users-api
 artifact_total: 17
@@ -186,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/screenshots/nextcloud-2026-06-20T190256.png
 security:

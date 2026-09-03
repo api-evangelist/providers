@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -34,22 +47,34 @@ agentic_access:
   summary_line: 1886 operations · 1172 acting · 30 human-in-the-loop
 api_count: 47
 apis:
-- description: AI-powered tools and services to help you create smarter and more personalized customer experiences.
+- baseURL: https://api.infobip.com
+  baseurl_source: declared
+  description: AI-powered tools and services to help you create smarter and more personalized customer experiences.
   name: Infobip AI Hub API
   slug: infobip-ai-hub-api
-- description: Create a perfect customer experience by using the channels your customer already use and love.
+- baseURL: https://api.infobip.com
+  baseurl_source: declared
+  description: Create a perfect customer experience by using the channels your customer already use and love.
   name: Infobip Channels API
   slug: infobip-channels-api
-- description: Powerful infrastructure and tools that connect you to the world.
+- baseURL: https://api.infobip.com
+  baseurl_source: declared
+  description: Powerful infrastructure and tools that connect you to the world.
   name: Infobip Connectivity API
   slug: infobip-connectivity-api
-- description: Complete solutions that will help you drive better outcomes for your customers and business across the entire customer journey.
+- baseURL: https://api.infobip.com
+  baseurl_source: declared
+  description: Complete solutions that will help you drive better outcomes for your customers and business across the entire customer journey.
   name: Infobip Customer Engagement API
   slug: infobip-customer-engagement-api
-- description: Modular tools to scale and automate your business.
+- baseURL: https://api.infobip.com
+  baseurl_source: declared
+  description: Modular tools to scale and automate your business.
   name: Infobip Platform API
   slug: infobip-platform-api
-- description: Developer utilities to help you integrate and work with Infobip APIs more efficiently.
+- baseURL: https://api.infobip.com
+  baseurl_source: declared
+  description: Developer utilities to help you integrate and work with Infobip APIs more efficiently.
   name: Infobip Tools API
   slug: infobip-tools-api
 artifact_total: 109
@@ -823,7 +848,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -833,7 +858,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 69.5
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -855,7 +880,7 @@ score:
     regime_id: telecommunications
     score: 93.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:

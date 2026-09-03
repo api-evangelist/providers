@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 21 operations · 7 acting
 api_count: 3
 apis:
-- description: Account-level information.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Account-level information.
   name: Elastic Account API
   slug: elastic-account-api
-- description: Cluster health, state, and statistics.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Cluster health, state, and statistics.
   name: Elastic Cluster API
   slug: elastic-cluster-api
-- description: Manage data views (formerly index patterns).
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage data views (formerly index patterns).
   name: Elastic DataViews API
   slug: elastic-dataviews-api
-- description: Manage Elasticsearch and Kibana deployments.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage Elasticsearch and Kibana deployments.
   name: Elastic Deployments API
   slug: elastic-deployments-api
-- description: Index, update, retrieve, and delete documents.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Index, update, retrieve, and delete documents.
   name: Elastic Documents API
   slug: elastic-documents-api
-- description: Manage indices, mappings, and settings.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage indices, mappings, and settings.
   name: Elastic Indices API
   slug: elastic-indices-api
-- description: Manage Kibana saved objects (dashboards, visualizations, searches).
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage Kibana saved objects (dashboards, visualizations, searches).
   name: Elastic SavedObjects API
   slug: elastic-savedobjects-api
-- description: Search and query operations across indices.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Search and query operations across indices.
   name: Elastic Search API
   slug: elastic-search-api
-- description: Roles, users, API keys, and access control.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Roles, users, API keys, and access control.
   name: Elastic Security API
   slug: elastic-security-api
-- description: Manage Kibana Spaces.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage Kibana Spaces.
   name: Elastic Spaces API
   slug: elastic-spaces-api
-- description: Kibana server status.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Kibana server status.
   name: Elastic Status API
   slug: elastic-status-api
-- description: IP and VPC traffic filter rulesets for deployments.
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: IP and VPC traffic filter rulesets for deployments.
   name: Elastic TrafficFilters API
   slug: elastic-trafficfilters-api
 artifact_total: 59
@@ -271,7 +295,7 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -281,7 +305,7 @@ score:
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 38.0
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -290,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic/refs/heads/main/screenshots/elastic-2026-06-20T180547.png
 security:

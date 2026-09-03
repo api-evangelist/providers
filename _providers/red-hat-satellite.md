@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: The redhat.satellite Ansible collection provides modules, roles, and plugins for automating Red Hat Satellite configuration and management through the Satellite API. Based on the theforeman.foreman co
   name: Red Hat Satellite Ansible Collection
   slug: red-hat-satellite-ansible-collection
-- description: Manage content views which define curated sets of repositories and packages available to hosts.
+- baseURL: https://satellite.example.com/api/v2
+  baseurl_source: declared
+  description: Manage content views which define curated sets of repositories and packages available to hosts.
   name: Red Hat Satellite Content Views API
   slug: red-hat-satellite-content-views-api
-- description: Manage hosts registered with Red Hat Satellite including physical, virtual, and cloud instances.
+- baseURL: https://satellite.example.com/api/v2
+  baseurl_source: declared
+  description: Manage hosts registered with Red Hat Satellite including physical, virtual, and cloud instances.
   name: Red Hat Satellite Hosts API
   slug: red-hat-satellite-hosts-api
-- description: Manage lifecycle environments that define promotion paths for content views from development through production.
+- baseURL: https://satellite.example.com/api/v2
+  baseurl_source: declared
+  description: Manage lifecycle environments that define promotion paths for content views from development through production.
   name: Red Hat Satellite Lifecycle Environments API
   slug: red-hat-satellite-lifecycle-environments-api
-- description: Manage organizations which provide multi-tenancy isolation for hosts, content, and subscriptions.
+- baseURL: https://satellite.example.com/api/v2
+  baseurl_source: declared
+  description: Manage organizations which provide multi-tenancy isolation for hosts, content, and subscriptions.
   name: Red Hat Satellite Organizations API
   slug: red-hat-satellite-organizations-api
-- description: Manage Red Hat subscriptions and entitlements for organizations and hosts.
+- baseURL: https://satellite.example.com/api/v2
+  baseurl_source: declared
+  description: Manage Red Hat subscriptions and entitlements for organizations and hosts.
   name: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
 artifact_total: 119
@@ -553,7 +563,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 16 operations · 5 acting
 api_count: 2
 apis:
-- description: The Exports API from GoatCounter — 3 operation(s) for exports.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The Exports API from GoatCounter — 3 operation(s) for exports.
   name: GoatCounter Exports API
   slug: goatcounter-exports-api
-- description: The Pageviews API from GoatCounter — 1 operation(s) for pageviews.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The Pageviews API from GoatCounter — 1 operation(s) for pageviews.
   name: GoatCounter Pageviews API
   slug: goatcounter-pageviews-api
-- description: The Paths API from GoatCounter — 1 operation(s) for paths.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The Paths API from GoatCounter — 1 operation(s) for paths.
   name: GoatCounter Paths API
   slug: goatcounter-paths-api
-- description: The Sites API from GoatCounter — 2 operation(s) for sites.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The Sites API from GoatCounter — 2 operation(s) for sites.
   name: GoatCounter Sites API
   slug: goatcounter-sites-api
-- description: The Statistics API from GoatCounter — 5 operation(s) for statistics.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The Statistics API from GoatCounter — 5 operation(s) for statistics.
   name: GoatCounter Statistics API
   slug: goatcounter-statistics-api
-- description: The Users API from GoatCounter — 1 operation(s) for users.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The Users API from GoatCounter — 1 operation(s) for users.
   name: GoatCounter Users API
   slug: goatcounter-users-api
-- description: The count API from GoatCounter — 1 operation(s) for count.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The count API from GoatCounter — 1 operation(s) for count.
   name: GoatCounter Count API
   slug: goatcounter-count-api
-- description: The export API from GoatCounter — 3 operation(s) for export.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The export API from GoatCounter — 3 operation(s) for export.
   name: GoatCounter Export API
   slug: goatcounter-export-api
-- description: The stats API from GoatCounter — 5 operation(s) for stats.
+- baseURL: https://{code}.goatcounter.com/api/v0
+  baseurl_source: declared
+  description: The stats API from GoatCounter — 5 operation(s) for stats.
   name: GoatCounter Stats API
   slug: goatcounter-stats-api
 artifact_total: 24
@@ -267,7 +285,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -277,7 +295,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 52.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/screenshots/goatcounter-2026-06-20T181940.png
 security:

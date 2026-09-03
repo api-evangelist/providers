@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,19 +47,29 @@ apis:
 - description: Western Power's network asset and capacity spatial data — distribution and transmission overhead powerlines, underground cables, poles, pillars, pits, transformers, enclosures, substations, streetligh
   name: Western Power Public Secure Services (SLIP)
   slug: western-power-public-secure-services-slip
-- description: The Content API from Western Power — 2 operation(s) for content.
+- baseURL: https://www.westernpower.com.au/api/corp/outage
+  baseurl_source: declared
+  description: The Content API from Western Power — 2 operation(s) for content.
   name: Western Power Content API
   slug: western-power-content-api
-- description: The Metadata API from Western Power — 2 operation(s) for metadata.
+- baseURL: https://www.westernpower.com.au/api/corp/outage
+  baseurl_source: declared
+  description: The Metadata API from Western Power — 2 operation(s) for metadata.
   name: Western Power Metadata API
   slug: western-power-metadata-api
-- description: Live planned and unplanned outage data for the South West Interconnected System.
+- baseURL: https://www.westernpower.com.au/api/corp/outage
+  baseurl_source: declared
+  description: Live planned and unplanned outage data for the South West Interconnected System.
   name: Western Power Outages API
   slug: western-power-outages-api
-- description: The Query API from Western Power — 1 operation(s) for query.
+- baseURL: https://www.westernpower.com.au/api/corp/outage
+  baseurl_source: declared
+  description: The Query API from Western Power — 1 operation(s) for query.
   name: Western Power Query API
   slug: western-power-query-api
-- description: The Search API from Western Power — 1 operation(s) for search.
+- baseURL: https://www.westernpower.com.au/api/corp/outage
+  baseurl_source: declared
+  description: The Search API from Western Power — 1 operation(s) for search.
   name: Western Power Search API
   slug: western-power-search-api
 artifact_total: 17
@@ -227,7 +248,7 @@ score:
   band: thin
   composite: 33.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -259,8 +280,9 @@ score:
     regime_id: energy_utilities
     score: 54.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/screenshots/western-power-2026-09-02T170733.png
 security:
 - kind: authentication
   name: Western Power Authentication

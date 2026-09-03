@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 19 acting
 api_count: 1
 apis:
-- description: Create and manage LLM applications and their variants.
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Create and manage LLM applications and their variants.
   name: Agenta Applications API
   slug: agenta-applications-api
-- description: Fetch and deploy versioned prompt configurations.
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Fetch and deploy versioned prompt configurations.
   name: Agenta Configs API
   slug: agenta-configs-api
-- description: Run evaluations of variants against testsets.
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Run evaluations of variants against testsets.
   name: Agenta Evaluations API
   slug: agenta-evaluations-api
-- description: Configure evaluators used to score variants.
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Configure evaluators used to score variants.
   name: Agenta Evaluators API
   slug: agenta-evaluators-api
-- description: Ingest LLM telemetry over OTLP/HTTP.
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Ingest LLM telemetry over OTLP/HTTP.
   name: Agenta OpenTelemetry API
   slug: agenta-opentelemetry-api
-- description: Manage evaluation datasets (testsets).
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Manage evaluation datasets (testsets).
   name: Agenta Testsets API
   slug: agenta-testsets-api
-- description: Query observability traces and spans.
+- baseURL: https://cloud.agenta.ai/api
+  baseurl_source: declared
+  description: Query observability traces and spans.
   name: Agenta Traces API
   slug: agenta-traces-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agenta/refs/heads/main/screenshots/agenta-2026-06-20T170004.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 97 operations · 55 acting
 api_count: 15
 apis:
-- description: Manage account records and attributes
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage account records and attributes
   name: Gainsight Accounts API
   slug: gainsight-accounts-api
-- description: Manage timeline activities
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage timeline activities
   name: Gainsight Activities API
   slug: gainsight-activities-api
-- description: Retrieve activity type configurations
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Retrieve activity type configurations
   name: Gainsight Activity Types API
   slug: gainsight-activity-types-api
-- description: CRUD operations on company records
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: CRUD operations on company records
   name: Gainsight Companies API
   slug: gainsight-companies-api
-- description: Manage company team records
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage company team records
   name: Gainsight Company Team API
   slug: gainsight-company-team-api
-- description: Success plan configuration
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Success plan configuration
   name: Gainsight Configuration API
   slug: gainsight-configuration-api
-- description: Retrieve CTA type and reason configurations
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Retrieve CTA type and reason configurations
   name: Gainsight CTA Configuration API
   slug: gainsight-cta-configuration-api
-- description: Create and manage Calls to Action
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Create and manage Calls to Action
   name: Gainsight CTAs API
   slug: gainsight-ctas-api
-- description: Send custom events for tracking
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Send custom events for tracking
   name: Gainsight Custom Events API
   slug: gainsight-custom-events-api
-- description: CRUD operations on custom object records
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: CRUD operations on custom object records
   name: Gainsight Custom Objects API
   slug: gainsight-custom-objects-api
-- description: Manage in-app engagements
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage in-app engagements
   name: Gainsight Engagements API
   slug: gainsight-engagements-api
-- description: Publish and manage events
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Publish and manage events
   name: Gainsight Events API
   slug: gainsight-events-api
-- description: Track feature usage and adoption
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Track feature usage and adoption
   name: Gainsight Feature Match API
   slug: gainsight-feature-match-api
-- description: Retrieve field metadata
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Retrieve field metadata
   name: Gainsight Fields API
   slug: gainsight-fields-api
-- description: Manage customer goals
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage customer goals
   name: Gainsight Goals API
   slug: gainsight-goals-api
-- description: Manage bulk import jobs
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage bulk import jobs
   name: Gainsight Jobs API
   slug: gainsight-jobs-api
-- description: Manage goal metrics
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage goal metrics
   name: Gainsight Metrics API
   slug: gainsight-metrics-api
-- description: Manage success plan objectives
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage success plan objectives
   name: Gainsight Objectives API
   slug: gainsight-objectives-api
-- description: Retrieve object metadata
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Retrieve object metadata
   name: Gainsight Objects API
   slug: gainsight-objects-api
-- description: Manage opportunity records
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage opportunity records
   name: Gainsight Opportunities API
   slug: gainsight-opportunities-api
-- description: Manage person records
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage person records
   name: Gainsight People API
   slug: gainsight-people-api
-- description: Retrieve playbook configurations
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Retrieve playbook configurations
   name: Gainsight Playbooks API
   slug: gainsight-playbooks-api
-- description: Run reports and retrieve analytics data
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Run reports and retrieve analytics data
   name: Gainsight Reports API
   slug: gainsight-reports-api
-- description: SCIM provisioning endpoints
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: SCIM provisioning endpoints
   name: Gainsight SCIM API
   slug: gainsight-scim-api
-- description: Manage event subscriptions
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage event subscriptions
   name: Gainsight Subscription API
   slug: gainsight-subscription-api
-- description: Manage success plans
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage success plans
   name: Gainsight Success Plans API
   slug: gainsight-success-plans-api
-- description: Manage tasks
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage tasks
   name: Gainsight Tasks API
   slug: gainsight-tasks-api
-- description: Manage goal templates
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage goal templates
   name: Gainsight Templates API
   slug: gainsight-templates-api
-- description: Manage Gainsight users
+- baseURL: https://api.gainsight.com
+  baseurl_source: declared
+  description: Manage Gainsight users
   name: Gainsight Users API
   slug: gainsight-users-api
 artifact_total: 155
@@ -626,10 +684,10 @@ score:
       total: 29
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/screenshots/gainsight-2026-07-25T215357.png
 security:

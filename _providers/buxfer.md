@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: List accounts and balances.
+- baseURL: https://www.buxfer.com/api
+  baseurl_source: declared
+  description: List accounts and balances.
   name: Buxfer Accounts API
   slug: buxfer-accounts-api
-- description: Obtain an ephemeral API token.
+- baseURL: https://www.buxfer.com/api
+  baseurl_source: declared
+  description: Obtain an ephemeral API token.
   name: Buxfer Authentication API
   slug: buxfer-authentication-api
-- description: Tags, budgets, reminders.
+- baseURL: https://www.buxfer.com/api
+  baseurl_source: declared
+  description: Tags, budgets, reminders.
   name: Buxfer Organization API
   slug: buxfer-organization-api
-- description: Groups, contacts and loans for shared expenses.
+- baseURL: https://www.buxfer.com/api
+  baseurl_source: declared
+  description: Groups, contacts and loans for shared expenses.
   name: Buxfer Social API
   slug: buxfer-social-api
-- description: Create, edit, delete, list and import transactions.
+- baseURL: https://www.buxfer.com/api
+  baseurl_source: declared
+  description: Create, edit, delete, list and import transactions.
   name: Buxfer Transactions API
   slug: buxfer-transactions-api
 artifact_total: 15
@@ -220,7 +230,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 28 operations · 16 acting
 api_count: 1
 apis:
-- description: Manage Cyclr accounts
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Manage Cyclr accounts
   name: Cyclr Accounts API
   slug: cyclr-accounts-api
-- description: Obtain access tokens for API authentication
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Obtain access tokens for API authentication
   name: Cyclr Authentication API
   slug: cyclr-authentication-api
-- description: Manage and install connectors
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Manage and install connectors
   name: Cyclr Connectors API
   slug: cyclr-connectors-api
-- description: Manage integration cycles
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Manage integration cycles
   name: Cyclr Cycles API
   slug: cyclr-cycles-api
-- description: API-driven data requests (proxy)
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: API-driven data requests (proxy)
   name: Cyclr Data on Demand API
   slug: cyclr-data-on-demand-api
-- description: Deploy LAUNCH integration UI for end users
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Deploy LAUNCH integration UI for end users
   name: Cyclr LAUNCH API
   slug: cyclr-launch-api
-- description: Deploy Marketplace integration UI for end users
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Deploy Marketplace integration UI for end users
   name: Cyclr Marketplace API
   slug: cyclr-marketplace-api
-- description: Manage cycle steps, parameters, and field mappings
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Manage cycle steps, parameters, and field mappings
   name: Cyclr Steps API
   slug: cyclr-steps-api
-- description: Manage and install integration templates
+- baseURL: https://api.cyclr.com/v1.0
+  baseurl_source: declared
+  description: Manage and install integration templates
   name: Cyclr Templates API
   slug: cyclr-templates-api
 artifact_total: 37
@@ -288,7 +306,7 @@ score:
     catalog_gap: 31.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -298,7 +316,7 @@ score:
     discoverability: 75.9
     governance: 69.7
     operational_transparency: 36.8
-  previous_composite: 52.9
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -307,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/screenshots/cyclr-2026-06-20T175412.png
 security:

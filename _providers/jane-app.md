@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -55,46 +68,74 @@ apis:
 - description: Create, read, update, delete, and list Jane Extensions, and browse the catalog of approved extensions available to clinics. This is the management surface for the partner integrations built on the Jan
   name: Jane Extensions API
   slug: jane-extensions-api
-- description: The Appointments API from Jane — 2 operation(s) for appointments.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Appointments API from Jane — 2 operation(s) for appointments.
   name: Jane Appointments API
   slug: jane-app-appointments-api
-- description: The CarePlans API from Jane — 4 operation(s) for careplans.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The CarePlans API from Jane — 4 operation(s) for careplans.
   name: Jane Care Plans API
   slug: jane-app-careplans-api
-- description: The Catalog API from Jane — 2 operation(s) for catalog.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Catalog API from Jane — 2 operation(s) for catalog.
   name: Jane Catalog API
   slug: jane-app-catalog-api
-- description: The Company API from Jane — 1 operation(s) for company.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Company API from Jane — 1 operation(s) for company.
   name: Jane Company API
   slug: jane-app-company-api
-- description: The Disciplines API from Jane — 2 operation(s) for disciplines.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Disciplines API from Jane — 2 operation(s) for disciplines.
   name: Jane Disciplines API
   slug: jane-app-disciplines-api
-- description: The DocumentUploads API from Jane — 2 operation(s) for documentuploads.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The DocumentUploads API from Jane — 2 operation(s) for documentuploads.
   name: Jane Document Uploads API
   slug: jane-app-documentuploads-api
-- description: The Extensions API from Jane — 2 operation(s) for extensions.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Extensions API from Jane — 2 operation(s) for extensions.
   name: Jane Extensions API
   slug: jane-app-extensions-api
-- description: The Locations API from Jane — 2 operation(s) for locations.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Locations API from Jane — 2 operation(s) for locations.
   name: Jane Locations API
   slug: jane-app-locations-api
-- description: The Medications API from Jane — 3 operation(s) for medications.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Medications API from Jane — 3 operation(s) for medications.
   name: Jane Medications API
   slug: jane-app-medications-api
-- description: The Observations API from Jane — 2 operation(s) for observations.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Observations API from Jane — 2 operation(s) for observations.
   name: Jane Observations API
   slug: jane-app-observations-api
-- description: The Patients API from Jane — 3 operation(s) for patients.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Patients API from Jane — 3 operation(s) for patients.
   name: Jane Patients API
   slug: jane-app-patients-api
-- description: The StaffMembers API from Jane — 2 operation(s) for staffmembers.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The StaffMembers API from Jane — 2 operation(s) for staffmembers.
   name: Jane Staff Members API
   slug: jane-app-staffmembers-api
-- description: The Treatments API from Jane — 2 operation(s) for treatments.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Treatments API from Jane — 2 operation(s) for treatments.
   name: Jane Treatments API
   slug: jane-app-treatments-api
-- description: The Webhooks API from Jane — 2 operation(s) for webhooks.
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Webhooks API from Jane — 2 operation(s) for webhooks.
   name: Jane Webhooks API
   slug: jane-app-webhooks-api
 artifact_total: 29
@@ -277,7 +318,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -287,7 +328,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 58.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,7 +346,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:

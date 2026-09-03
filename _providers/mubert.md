@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 37 operations · 18 acting
 api_count: 1
 apis:
-- description: Price
+- baseURL: https://music-api.mubert.com
+  baseurl_source: declared
+  description: Price
   name: Mubert Price API
   slug: mubert-price-api
-- description: Public
+- baseURL: https://music-api.mubert.com
+  baseurl_source: declared
+  description: Public
   name: Mubert Public API
   slug: mubert-public-api
-- description: Public Service
+- baseURL: https://music-api.mubert.com
+  baseurl_source: declared
+  description: Public Service
   name: Mubert Public Service API
   slug: mubert-public-service-api
-- description: Service
+- baseURL: https://music-api.mubert.com
+  baseurl_source: declared
+  description: Service
   name: Mubert Service API
   slug: mubert-service-api
-- description: Stripe
+- baseURL: https://music-api.mubert.com
+  baseurl_source: declared
+  description: Stripe
   name: Mubert Stripe API
   slug: mubert-stripe-api
-- description: Subscription
+- baseURL: https://music-api.mubert.com
+  baseurl_source: declared
+  description: Subscription
   name: Mubert Subscription API
   slug: mubert-subscription-api
 artifact_total: 62
@@ -322,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/screenshots/mubert-2026-06-20T185853.png
 security:

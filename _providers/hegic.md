@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Hegic's core options protocol is implemented as smart contracts on Arbitrum One. Developers can interact directly with the contracts using standard JSON-RPC calls, including querying option positions,
   name: Hegic Smart Contracts (Arbitrum)
   slug: hegic-smart-contracts-arbitrum
-- description: Account and holder information
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: Account and holder information
   name: Hegic Accounts API
   slug: hegic-accounts-api
-- description: Smart contract interactions and ABI
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: Smart contract interactions and ABI
   name: Hegic Contracts API
   slug: hegic-contracts-api
-- description: Protocol fees and revenue
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: Protocol fees and revenue
   name: Hegic Fees API
   slug: hegic-fees-api
-- description: Options DEX volume and analytics
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: Options DEX volume and analytics
   name: Hegic Options API
   slug: hegic-options-api
-- description: Token price data
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: Token price data
   name: Hegic Prices API
   slug: hegic-prices-api
-- description: ERC-20 token data for HEGIC token on Arbitrum
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: ERC-20 token data for HEGIC token on Arbitrum
   name: Hegic Tokens API
   slug: hegic-tokens-api
-- description: Total Value Locked data for Hegic and other protocols
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: Total Value Locked data for Hegic and other protocols
   name: Hegic TVL API
   slug: hegic-tvl-api
 artifact_total: 25
@@ -211,7 +225,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/screenshots/hegic-2026-06-20T182611.png
 security:

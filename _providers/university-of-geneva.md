@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the Archive ouverte UNIGE institutional repository, exposing the University's scientific publications in Dublin Core and two UNIGE-specific schemas. Anony
   name: Archive ouverte UNIGE OAI-PMH
   slug: archive-ouverte-oai
-- description: 'The access/accession module of Yareta, the University of Geneva e-Research long-term research-data preservation platform: discover, order and download archives (AIP/DIP). Runs on UNIGE''s own host acce'
+- baseURL: https://access.yareta.unige.ch
+  baseurl_source: declared
+  description: 'The access/accession module of Yareta, the University of Geneva e-Research long-term research-data preservation platform: discover, order and download archives (AIP/DIP). Runs on UNIGE''s own host acce'
   name: Yareta Access API
   slug: university-of-geneva-access-api
-- description: 'The pre-ingest/ingest module of Yareta: deposit, validate and submit research data, reserve a DOI, and submit a SIP for archiving. Runs on UNIGE''s own host ingest.yareta.unige.ch. Fully bearer-gated —'
+- baseURL: https://ingest.yareta.unige.ch
+  baseurl_source: declared
+  description: 'The pre-ingest/ingest module of Yareta: deposit, validate and submit research data, reserve a DOI, and submit a SIP for archiving. Runs on UNIGE''s own host ingest.yareta.unige.ch. Fully bearer-gated —'
   name: Yareta Ingest API
   slug: university-of-geneva-ingest-api
-- description: The OAI-PMH provider-information surface of the Yareta access module — sets, metadata formats and provider configuration for harvesting UNIGE research-data descriptions. Distinct from the Archive ouve
+- baseURL: https://access.yareta.unige.ch
+  baseurl_source: declared
+  description: The OAI-PMH provider-information surface of the Yareta access module — sets, metadata formats and provider configuration for harvesting UNIGE research-data descriptions. Distinct from the Archive ouve
   name: Yareta OAI-PMH Provider API
   slug: university-of-geneva-oai-pmh-api
 - description: A self-hosted GitLab instance operated by the University on its own domain, serving an anonymous GitLab REST API v4 over its public projects. GET /api/v4/projects returned 200 with X-Total 1146 on 202
@@ -291,7 +297,7 @@ score:
     catalog_gap: 37.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -301,7 +307,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 37.2
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,7 +323,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: oEmbed and SEO head metadata.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: oEmbed and SEO head metadata.
   name: Arbor Biotechnologies Embed API
   slug: arbor-biotechnologies-embed-api
-- description: Contact Form 7 form definitions.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: Contact Form 7 form definitions.
   name: Arbor Biotechnologies Forms API
   slug: arbor-biotechnologies-forms-api
-- description: The media library.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: The media library.
   name: Arbor Biotechnologies Media API
   slug: arbor-biotechnologies-media-api
-- description: Registered post types, taxonomies and statuses.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: Registered post types, taxonomies and statuses.
   name: Arbor Biotechnologies Metadata API
   slug: arbor-biotechnologies-metadata-api
-- description: Static site pages — pipeline, what we do, who we are, clinical trial, policies.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: Static site pages — pipeline, what we do, who we are, clinical trial, policies.
   name: Arbor Biotechnologies Pages API
   slug: arbor-biotechnologies-pages-api
-- description: Press releases and company announcements.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: Press releases and company announcements.
   name: Arbor Biotechnologies Posts API
   slug: arbor-biotechnologies-posts-api
-- description: Cross-content search.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: Cross-content search.
   name: Arbor Biotechnologies Search API
   slug: arbor-biotechnologies-search-api
-- description: Categories and tags applied to posts, plus taxonomy metadata.
+- baseURL: https://arbor.bio/wp-json
+  baseurl_source: declared
+  description: Categories and tags applied to posts, plus taxonomy metadata.
   name: Arbor Biotechnologies Taxonomies API
   slug: arbor-biotechnologies-taxonomies-api
 artifact_total: 11
@@ -204,7 +231,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/screenshots/arbor-biotechnologies-2026-08-07T161620.png
 security:

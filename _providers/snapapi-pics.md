@@ -32,46 +32,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: AI-powered web analysis with your own LLM key (BYOK)
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: AI-powered web analysis with your own LLM key (BYOK)
   name: SnapAPI Analyze API
   slug: snapapi-pics-analyze-api
-- description: Authentication — register, login, OAuth, password reset, email verification
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Authentication — register, login, OAuth, password reset, email verification
   name: SnapAPI Auth API
   slug: snapapi-pics-auth-api
-- description: User dashboard — quota overview, API key management, billing, usage history
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: User dashboard — quota overview, API key management, billing, usage history
   name: SnapAPI Dashboard API
   slug: snapapi-pics-dashboard-api
-- description: Web content extraction (HTML, text, markdown, article, structured)
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Web content extraction (HTML, text, markdown, article, structured)
   name: SnapAPI Extract API
   slug: snapapi-pics-extract-api
-- description: Health check and monitoring
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Health check and monitoring
   name: SnapAPI Health API
   slug: snapapi-pics-health-api
-- description: PDF generation from URLs and HTML
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: PDF generation from URLs and HTML
   name: SnapAPI PDF API
   slug: snapapi-pics-pdf-api
-- description: Web scraping — extract text, HTML, links, markdown, or metadata from any URL
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Web scraping — extract text, HTML, links, markdown, or metadata from any URL
   name: SnapAPI Scrape API
   slug: snapapi-pics-scrape-api
-- description: Screenshot, PDF, and batch capture
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Screenshot, PDF, and batch capture
   name: SnapAPI Screenshot API
   slug: snapapi-pics-screenshot-api
-- description: File storage — list, retrieve, delete stored files; configure custom S3
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: File storage — list, retrieve, delete stored files; configure custom S3
   name: SnapAPI Storage API
   slug: snapapi-pics-storage-api
-- description: API usage and quota management
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: API usage and quota management
   name: SnapAPI Usage API
   slug: snapapi-pics-usage-api
-- description: Device presets and API capabilities
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Device presets and API capabilities
   name: SnapAPI Utilities API
   slug: snapapi-pics-utilities-api
-- description: Video recording of webpages
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Video recording of webpages
   name: SnapAPI Video API
   slug: snapapi-pics-video-api
-- description: Paddle billing webhooks (server-to-server)
+- baseURL: https://api.snapapi.pics
+  baseurl_source: declared
+  description: Paddle billing webhooks (server-to-server)
   name: SnapAPI Webhooks API
   slug: snapapi-pics-webhooks-api
 artifact_total: 27
@@ -172,7 +198,7 @@ score:
   band: thin
   composite: 33.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -194,8 +220,9 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/snapapi-pics/refs/heads/main/screenshots/snapapi-pics-2026-09-02T155954.png
 slug: snapapi-pics
 tags:
 - Screenshots

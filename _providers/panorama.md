@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Panorama XML/REST API for centralized network security management across Palo Alto Networks firewalls.
   name: Panorama API
   slug: panorama
-- description: The Panorama API API from Panorama — 1 operation(s) for panorama api.
+- baseURL_template: https://{panorama_host}
+  baseurl_source: spec_template
+  description: The Panorama API API from Panorama — 1 operation(s) for panorama api.
   name: Panorama Panorama API API
   slug: panorama-panorama-api-api
-- description: The Restapi API from Panorama — 3 operation(s) for restapi.
+- baseURL_template: https://{panorama_host}
+  baseurl_source: spec_template
+  description: The Restapi API from Panorama — 3 operation(s) for restapi.
   name: Panorama Restapi API
   slug: panorama-restapi-api
 artifact_total: 13
@@ -148,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panorama/refs/heads/main/screenshots/panorama-2026-06-20T191341.png
 security:

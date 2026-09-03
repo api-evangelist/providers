@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Kameleoon Product Recommendation API (REST) for managing product catalogs and serving AI-driven recommendations.
   name: Kameleoon Product Recommendation API
   slug: kameleoon-recommendation-api
-- description: Manage Kameleoon experiments.
+- baseURL: https://api.kameleoon.com/automation/v1
+  baseurl_source: declared
+  description: Manage Kameleoon experiments.
   name: Kameleoon Experiments API
   slug: kameleoon-experiments-api
-- description: OAuth 2.0 authorization and token endpoints.
+- baseURL: https://api.kameleoon.com/automation/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints.
   name: Kameleoon OAuth API
   slug: kameleoon-oauth-api
-- description: Manage Kameleoon personalizations.
+- baseURL: https://api.kameleoon.com/automation/v1
+  baseurl_source: declared
+  description: Manage Kameleoon personalizations.
   name: Kameleoon Personalizations API
   slug: kameleoon-personalizations-api
 artifact_total: 19
@@ -193,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/screenshots/kameleoon-2026-06-20T183912.png
 security:

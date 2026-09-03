@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 5
@@ -33,40 +45,64 @@ agentic_access:
   summary_line: 131 operations · 89 acting · 5 human-in-the-loop
 api_count: 12
 apis:
-- description: The Comments API from Ethyreal Bio — 7 operation(s) for comments on the ethyrealbio.com WordPress REST surface. The collection is anonymously readable and currently returns zero items; write operation
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Ethyreal Bio — 7 operation(s) for comments on the ethyrealbio.com WordPress REST surface. The collection is anonymously readable and currently returns zero items; write operation
   name: Ethyreal Bio Comments API
   slug: ethyreal-bio-comments-api
-- description: The Discovery API from Ethyreal Bio — 6 operation(s) exposing the WordPress content-type, taxonomy and post-status registries that describe the rest of the ethyrealbio.com content surface.
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Ethyreal Bio — 6 operation(s) exposing the WordPress content-type, taxonomy and post-status registries that describe the rest of the ethyrealbio.com content surface.
   name: Ethyreal Bio Discovery API
   slug: ethyreal-bio-discovery-api
-- description: The FAQ API from Ethyreal Bio — 14 operation(s) over the Avada theme avada_faq custom post type and its faq_category taxonomy. The routes are registered and anonymously readable but currently hold zer
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The FAQ API from Ethyreal Bio — 14 operation(s) over the Avada theme avada_faq custom post type and its faq_category taxonomy. The routes are registered and anonymously readable but currently hold zer
   name: Ethyreal Bio FAQ API
   slug: ethyreal-bio-faq-api
-- description: The Media API from Ethyreal Bio — 8 operation(s) over the ethyrealbio.com media library, which holds 57 items including the leadership and board headshots and the ETHY-001 program artwork.
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Ethyreal Bio — 8 operation(s) over the ethyrealbio.com media library, which holds 57 items including the leadership and board headshots and the ETHY-001 program artwork.
   name: Ethyreal Bio Media API
   slug: ethyreal-bio-media-api
-- description: The News API from Ethyreal Bio — 7 operation(s) over the WordPress posts collection, which carries the company's press releases including the June 2026 emergence-from-stealth announcement and the ENDO
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The News API from Ethyreal Bio — 7 operation(s) over the WordPress posts collection, which carries the company's press releases including the June 2026 emergence-from-stealth announcement and the ENDO
   name: Ethyreal Bio News API
   slug: ethyreal-bio-news-api
-- description: The Pages API from Ethyreal Bio — 7 operation(s) over the corporate pages, including About Us, Our Program, Disease Areas, Patients, Contact, the Expanded Access Policy, the Terms of Use and the Priva
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Ethyreal Bio — 7 operation(s) over the corporate pages, including About Us, Our Program, Disease Areas, Patients, Contact, the Expanded Access Policy, the Terms of Use and the Priva
   name: Ethyreal Bio Pages API
   slug: ethyreal-bio-pages-api
-- description: The People API from Ethyreal Bio — 14 operation(s) over the team_member custom post type and its team_group taxonomy, which publish the company's ten leadership and board-of-directors profiles grouped
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The People API from Ethyreal Bio — 14 operation(s) over the team_member custom post type and its team_group taxonomy, which publish the company's ten leadership and board-of-directors profiles grouped
   name: Ethyreal Bio People API
   slug: ethyreal-bio-people-api
-- description: The Portfolio API from Ethyreal Bio — 28 operation(s) over the Avada theme avada_portfolio custom post type and its portfolio_category, portfolio_skills and portfolio_tags taxonomies. The routes are r
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Portfolio API from Ethyreal Bio — 28 operation(s) over the Avada theme avada_portfolio custom post type and its portfolio_category, portfolio_skills and portfolio_tags taxonomies. The routes are r
   name: Ethyreal Bio Portfolio API
   slug: ethyreal-bio-portfolio-api
-- description: The Search API from Ethyreal Bio — 1 operation providing site-wide search across the ethyrealbio.com posts, pages, team members and taxonomy terms.
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Ethyreal Bio — 1 operation providing site-wide search across the ethyrealbio.com posts, pages, team members and taxonomy terms.
   name: Ethyreal Bio Search API
   slug: ethyreal-bio-search-api
-- description: The Settings API from Ethyreal Bio — 4 operation(s) over the site settings document. The route is authentication-gated; an anonymous GET returns HTTP 401 rest_forbidden.
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Ethyreal Bio — 4 operation(s) over the site settings document. The route is authentication-gated; an anonymous GET returns HTTP 401 rest_forbidden.
   name: Ethyreal Bio Settings API
   slug: ethyreal-bio-settings-api
-- description: The Taxonomy API from Ethyreal Bio — 14 operation(s) over the categories and tags that classify ethyrealbio.com content. Three categories are published, of which News carries the press releases.
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Ethyreal Bio — 14 operation(s) over the categories and tags that classify ethyrealbio.com content. Three categories are published, of which News carries the press releases.
   name: Ethyreal Bio Taxonomy API
   slug: ethyreal-bio-taxonomy-api
-- description: The Users API from Ethyreal Bio — 21 operation(s) over WordPress author accounts and their application passwords. The route is authentication-gated; an anonymous GET returns HTTP 403 rest_user_cannot_
+- baseURL: https://www.ethyrealbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Ethyreal Bio — 21 operation(s) over WordPress author accounts and their application passwords. The route is authentication-gated; an anonymous GET returns HTTP 403 rest_user_cannot_
   name: Ethyreal Bio Users API
   slug: ethyreal-bio-users-api
 artifact_total: 30
@@ -229,7 +265,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -261,8 +297,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ethyreal-bio/refs/heads/main/screenshots/ethyreal-bio-2026-09-02T145421.png
 security:
 - kind: authentication
   name: Ethyreal Bio Authentication

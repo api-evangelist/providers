@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Private application API powering the Ediphi preconstruction platform and its "Last Mile" automation (Excel integration, reporting). No public OpenAPI/Swagger specification or developer documentation i
@@ -121,7 +121,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 15.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ediphi/refs/heads/main/screenshots/ediphi-2026-07-25T212841.png
 security:

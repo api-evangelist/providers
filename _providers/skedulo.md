@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -43,205 +43,339 @@ agentic_access:
   summary_line: 235 operations · 139 acting · 10 human-in-the-loop
 api_count: 21
 apis:
-- description: The Admin API from Skedulo — 6 operation(s) for admin.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Admin API from Skedulo — 6 operation(s) for admin.
   name: Skedulo Admin API
   slug: skedulo-admin-api
-- description: The api-controller API from Skedulo — 5 operation(s) for api-controller.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The api-controller API from Skedulo — 5 operation(s) for api-controller.
   name: Skedulo api-controller API
   slug: skedulo-api-controller-api
-- description: The Api User API from Skedulo — 4 operation(s) for api user.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Api User API from Skedulo — 4 operation(s) for api user.
   name: Skedulo Api User API
   slug: skedulo-api-user-api
-- description: The Async Job Management API from Skedulo — 2 operation(s) for async job management.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Async Job Management API from Skedulo — 2 operation(s) for async job management.
   name: Skedulo Async Job Management API
   slug: skedulo-async-job-management-api
-- description: The Attachment API from Skedulo — 2 operation(s) for attachment.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Attachment API from Skedulo — 2 operation(s) for attachment.
   name: Skedulo Attachment API
   slug: skedulo-attachment-api
-- description: The Attachments API from Skedulo — 2 operation(s) for attachments.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Attachments API from Skedulo — 2 operation(s) for attachments.
   name: Skedulo Attachments API
   slug: skedulo-attachments-api
-- description: The Autocomplete API from Skedulo — 1 operation(s) for autocomplete.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Autocomplete API from Skedulo — 1 operation(s) for autocomplete.
   name: Skedulo Autocomplete API
   slug: skedulo-autocomplete-api
-- description: The Availability API from Skedulo — 6 operation(s) for availability.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Availability API from Skedulo — 6 operation(s) for availability.
   name: Skedulo Availability API
   slug: skedulo-availability-api
-- description: The Avatar API from Skedulo — 1 operation(s) for avatar.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Avatar API from Skedulo — 1 operation(s) for avatar.
   name: Skedulo Avatar API
   slug: skedulo-avatar-api
-- description: The Batch API from Skedulo — 2 operation(s) for batch.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Batch API from Skedulo — 2 operation(s) for batch.
   name: Skedulo Batch API
   slug: skedulo-batch-api
-- description: The Config API from Skedulo — 5 operation(s) for config.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Config API from Skedulo — 5 operation(s) for config.
   name: Skedulo Config API
   slug: skedulo-config-api
-- description: The Device Notification Information and Registration API from Skedulo — 1 operation(s) for device notification information and registration.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Device Notification Information and Registration API from Skedulo — 1 operation(s) for device notification information and registration.
   name: Skedulo Device Notification Information and Registration API
   slug: skedulo-device-notification-information-and-registration-api
-- description: The Directions API from Skedulo — 1 operation(s) for directions.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Directions API from Skedulo — 1 operation(s) for directions.
   name: Skedulo Directions API
   slug: skedulo-directions-api
-- description: The DistanceMatrix API from Skedulo — 1 operation(s) for distancematrix.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The DistanceMatrix API from Skedulo — 1 operation(s) for distancematrix.
   name: Skedulo DistanceMatrix API
   slug: skedulo-distancematrix-api
-- description: The Features API from Skedulo — 5 operation(s) for features.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Features API from Skedulo — 5 operation(s) for features.
   name: Skedulo Features API
   slug: skedulo-features-api
-- description: The Geocode API from Skedulo — 1 operation(s) for geocode.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Geocode API from Skedulo — 1 operation(s) for geocode.
   name: Skedulo Geocode API
   slug: skedulo-geocode-api
-- description: The Geoservices API from Skedulo — 1 operation(s) for geoservices.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Geoservices API from Skedulo — 1 operation(s) for geoservices.
   name: Skedulo Geoservices API
   slug: skedulo-geoservices-api
-- description: The Graphql API from Skedulo — 2 operation(s) for graphql.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Graphql API from Skedulo — 2 operation(s) for graphql.
   name: Skedulo Graphql API
   slug: skedulo-graphql-api
-- description: The Grid API from Skedulo — 1 operation(s) for grid.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Grid API from Skedulo — 1 operation(s) for grid.
   name: Skedulo Grid API
   slug: skedulo-grid-api
-- description: The ICal API from Skedulo — 1 operation(s) for ical.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The ICal API from Skedulo — 1 operation(s) for ical.
   name: Skedulo ICal API
   slug: skedulo-ical-api
-- description: The Internal API from Skedulo — 1 operation(s) for internal.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Internal API from Skedulo — 1 operation(s) for internal.
   name: Skedulo Internal API
   slug: skedulo-internal-api
-- description: The Job Notifications and Responses API from Skedulo — 4 operation(s) for job notifications and responses.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Job Notifications and Responses API from Skedulo — 4 operation(s) for job notifications and responses.
   name: Skedulo Job Notifications and Responses API
   slug: skedulo-job-notifications-and-responses-api
-- description: The Job scheduling API from Skedulo — 3 operation(s) for job scheduling.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Job scheduling API from Skedulo — 3 operation(s) for job scheduling.
   name: Skedulo Job scheduling API
   slug: skedulo-job-scheduling-api
-- description: The Limits API from Skedulo — 1 operation(s) for limits.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Limits API from Skedulo — 1 operation(s) for limits.
   name: Skedulo Limits API
   slug: skedulo-limits-api
-- description: The Link Resource API from Skedulo — 1 operation(s) for link resource.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Link Resource API from Skedulo — 1 operation(s) for link resource.
   name: Skedulo Link Resource API
   slug: skedulo-link-resource-api
-- description: The Link Temp Id API from Skedulo — 1 operation(s) for link temp id.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Link Temp Id API from Skedulo — 1 operation(s) for link temp id.
   name: Skedulo Link Temp Id API
   slug: skedulo-link-temp-id-api
-- description: The Location API from Skedulo — 4 operation(s) for location.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Location API from Skedulo — 4 operation(s) for location.
   name: Skedulo Location API
   slug: skedulo-location-api
-- description: The Meetings API from Skedulo — 2 operation(s) for meetings.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Meetings API from Skedulo — 2 operation(s) for meetings.
   name: Skedulo Meetings API
   slug: skedulo-meetings-api
-- description: The Metadata API from Skedulo — 1 operation(s) for metadata.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Metadata API from Skedulo — 1 operation(s) for metadata.
   name: Skedulo Metadata API
   slug: skedulo-metadata-api
-- description: The Notification Templates API from Skedulo — 3 operation(s) for notification templates.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Notification Templates API from Skedulo — 3 operation(s) for notification templates.
   name: Skedulo Notification Templates API
   slug: skedulo-notification-templates-api
-- description: The Offers API from Skedulo — 7 operation(s) for offers.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Offers API from Skedulo — 7 operation(s) for offers.
   name: Skedulo Offers API
   slug: skedulo-offers-api
-- description: The Optimize API from Skedulo — 2 operation(s) for optimize.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Optimize API from Skedulo — 2 operation(s) for optimize.
   name: Skedulo Optimize API
   slug: skedulo-optimize-api
-- description: The Org Preference API from Skedulo — 1 operation(s) for org preference.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Org Preference API from Skedulo — 1 operation(s) for org preference.
   name: Skedulo Org Preference API
   slug: skedulo-org-preference-api
-- description: The Place API from Skedulo — 1 operation(s) for place.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Place API from Skedulo — 1 operation(s) for place.
   name: Skedulo Place API
   slug: skedulo-place-api
-- description: The Policy Management API from Skedulo — 2 operation(s) for policy management.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Policy Management API from Skedulo — 2 operation(s) for policy management.
   name: Skedulo Policy Management API
   slug: skedulo-policy-management-api
-- description: The Policy Template Management API from Skedulo — 2 operation(s) for policy template management.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Policy Template Management API from Skedulo — 2 operation(s) for policy template management.
   name: Skedulo Policy Template Management API
   slug: skedulo-policy-template-management-api
-- description: The Provision API from Skedulo — 6 operation(s) for provision.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Provision API from Skedulo — 6 operation(s) for provision.
   name: Skedulo Provision API
   slug: skedulo-provision-api
-- description: The Recipe API from Skedulo — 4 operation(s) for recipe.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Recipe API from Skedulo — 4 operation(s) for recipe.
   name: Skedulo Recipe API
   slug: skedulo-recipe-api
-- description: The Resource allocations API from Skedulo — 2 operation(s) for resource allocations.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Resource allocations API from Skedulo — 2 operation(s) for resource allocations.
   name: Skedulo Resource allocations API
   slug: skedulo-resource-allocations-api
-- description: The Rule Management API from Skedulo — 3 operation(s) for rule management.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Rule Management API from Skedulo — 3 operation(s) for rule management.
   name: Skedulo Rule Management API
   slug: skedulo-rule-management-api
-- description: The Rule Violation Management API from Skedulo — 12 operation(s) for rule violation management.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Rule Violation Management API from Skedulo — 12 operation(s) for rule violation management.
   name: Skedulo Rule Violation Management API
   slug: skedulo-rule-violation-management-api
-- description: The Rules API from Skedulo — 2 operation(s) for rules.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Rules API from Skedulo — 2 operation(s) for rules.
   name: Skedulo Rules API
   slug: skedulo-rules-api
-- description: The Run API from Skedulo — 7 operation(s) for run.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Run API from Skedulo — 7 operation(s) for run.
   name: Skedulo Run API
   slug: skedulo-run-api
-- description: The Salesforce API from Skedulo — 1 operation(s) for salesforce.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Salesforce API from Skedulo — 1 operation(s) for salesforce.
   name: Skedulo Salesforce API
   slug: skedulo-salesforce-api
-- description: The Schedule API from Skedulo — 14 operation(s) for schedule.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Schedule API from Skedulo — 14 operation(s) for schedule.
   name: Skedulo Schedule API
   slug: skedulo-schedule-api
-- description: The Schedule summaries API from Skedulo — 2 operation(s) for schedule summaries.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Schedule summaries API from Skedulo — 2 operation(s) for schedule summaries.
   name: Skedulo Schedule summaries API
   slug: skedulo-schedule-summaries-api
-- description: The scheduling API from Skedulo — 7 operation(s) for scheduling.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The scheduling API from Skedulo — 7 operation(s) for scheduling.
   name: Skedulo scheduling API
   slug: skedulo-scheduling-api
-- description: The Schema API from Skedulo — 1 operation(s) for schema.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Schema API from Skedulo — 1 operation(s) for schema.
   name: Skedulo Schema API
   slug: skedulo-schema-api
-- description: The SMS Messaging API from Skedulo — 2 operation(s) for sms messaging.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The SMS Messaging API from Skedulo — 2 operation(s) for sms messaging.
   name: Skedulo SMS Messaging API
   slug: skedulo-sms-messaging-api
-- description: The Solve API from Skedulo — 3 operation(s) for solve.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Solve API from Skedulo — 3 operation(s) for solve.
   name: Skedulo Solve API
   slug: skedulo-solve-api
-- description: The Standalone API from Skedulo — 5 operation(s) for standalone.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Standalone API from Skedulo — 5 operation(s) for standalone.
   name: Skedulo Standalone API
   slug: skedulo-standalone-api
-- description: The Standard Fields API from Skedulo — 1 operation(s) for standard fields.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Standard Fields API from Skedulo — 1 operation(s) for standard fields.
   name: Skedulo Standard Fields API
   slug: skedulo-standard-fields-api
-- description: The Static API from Skedulo — 2 operation(s) for static.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Static API from Skedulo — 2 operation(s) for static.
   name: Skedulo Static API
   slug: skedulo-static-api
-- description: The Subscriptions API from Skedulo — 1 operation(s) for subscriptions.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Subscriptions API from Skedulo — 1 operation(s) for subscriptions.
   name: Skedulo Subscriptions API
   slug: skedulo-subscriptions-api
-- description: The Suggest API from Skedulo — 3 operation(s) for suggest.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Suggest API from Skedulo — 3 operation(s) for suggest.
   name: Skedulo Suggest API
   slug: skedulo-suggest-api
-- description: The Template API from Skedulo — 3 operation(s) for template.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Template API from Skedulo — 3 operation(s) for template.
   name: Skedulo Template API
   slug: skedulo-template-api
-- description: The Templates API from Skedulo — 1 operation(s) for templates.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Templates API from Skedulo — 1 operation(s) for templates.
   name: Skedulo Templates API
   slug: skedulo-templates-api
-- description: The tenant-controller API from Skedulo — 1 operation(s) for tenant-controller.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The tenant-controller API from Skedulo — 1 operation(s) for tenant-controller.
   name: Skedulo tenant-controller API
   slug: skedulo-tenant-controller-api
-- description: The Timezone API from Skedulo — 1 operation(s) for timezone.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Timezone API from Skedulo — 1 operation(s) for timezone.
   name: Skedulo Timezone API
   slug: skedulo-timezone-api
-- description: The Token API from Skedulo — 4 operation(s) for token.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Token API from Skedulo — 4 operation(s) for token.
   name: Skedulo Token API
   slug: skedulo-token-api
-- description: The Tokens API from Skedulo — 1 operation(s) for tokens.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Tokens API from Skedulo — 1 operation(s) for tokens.
   name: Skedulo Tokens API
   slug: skedulo-tokens-api
-- description: The Travel API from Skedulo — 1 operation(s) for travel.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Travel API from Skedulo — 1 operation(s) for travel.
   name: Skedulo Travel API
   slug: skedulo-travel-api
-- description: The Triggered Actions API from Skedulo — 3 operation(s) for triggered actions.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Triggered Actions API from Skedulo — 3 operation(s) for triggered actions.
   name: Skedulo Triggered Actions API
   slug: skedulo-triggered-actions-api
-- description: The Vocabularies API from Skedulo — 1 operation(s) for vocabularies.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Vocabularies API from Skedulo — 1 operation(s) for vocabularies.
   name: Skedulo Vocabularies API
   slug: skedulo-vocabularies-api
-- description: The Vocabulary API from Skedulo — 6 operation(s) for vocabulary.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Vocabulary API from Skedulo — 6 operation(s) for vocabulary.
   name: Skedulo Vocabulary API
   slug: skedulo-vocabulary-api
-- description: The Webhooks API from Skedulo — 6 operation(s) for webhooks.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Webhooks API from Skedulo — 6 operation(s) for webhooks.
   name: Skedulo Webhooks API
   slug: skedulo-webhooks-api
-- description: The Whoami API from Skedulo — 1 operation(s) for whoami.
+- baseURL: https://api.skedulo.com
+  baseurl_source: declared
+  description: The Whoami API from Skedulo — 1 operation(s) for whoami.
   name: Skedulo Whoami API
   slug: skedulo-whoami-api
 artifact_total: 140
@@ -611,7 +745,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -621,7 +755,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.5
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -633,7 +767,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/screenshots/skedulo-2026-08-17T081911.png
 security:

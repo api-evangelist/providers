@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,40 +37,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: LeanLaw operates a remote Model Context Protocol server at https://api.leanlaw.io/mcp that lets an AI assistant work with a firm's clients, matters, time entries, expenses, fixed fees and invoices. It
   name: LeanLaw MCP Server
   slug: leanlaw-mcp
-- description: The Client API from LeanLaw — 3 operation(s) for client.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The Client API from LeanLaw — 3 operation(s) for client.
   name: LeanLaw Client API
   slug: leanlaw-client-api
-- description: The Codes API from LeanLaw — 1 operation(s) for codes.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The Codes API from LeanLaw — 1 operation(s) for codes.
   name: LeanLaw Codes API
   slug: leanlaw-codes-api
-- description: The CustomField API from LeanLaw — 1 operation(s) for customfield.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The CustomField API from LeanLaw — 1 operation(s) for customfield.
   name: LeanLaw Custom Field API
   slug: leanlaw-customfield-api
-- description: The Expense API from LeanLaw — 2 operation(s) for expense.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The Expense API from LeanLaw — 2 operation(s) for expense.
   name: LeanLaw Expense API
   slug: leanlaw-expense-api
-- description: The FixedFee API from LeanLaw — 2 operation(s) for fixedfee.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The FixedFee API from LeanLaw — 2 operation(s) for fixedfee.
   name: LeanLaw Fixed Fee API
   slug: leanlaw-fixedfee-api
-- description: The Invoice API from LeanLaw — 1 operation(s) for invoice.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The Invoice API from LeanLaw — 1 operation(s) for invoice.
   name: LeanLaw Invoice API
   slug: leanlaw-invoice-api
-- description: The Matter API from LeanLaw — 2 operation(s) for matter.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The Matter API from LeanLaw — 2 operation(s) for matter.
   name: LeanLaw Matter API
   slug: leanlaw-matter-api
-- description: The PracticeArea API from LeanLaw — 2 operation(s) for practicearea.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The PracticeArea API from LeanLaw — 2 operation(s) for practicearea.
   name: LeanLaw Practice Area API
   slug: leanlaw-practicearea-api
-- description: The TimeEntry API from LeanLaw — 2 operation(s) for timeentry.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The TimeEntry API from LeanLaw — 2 operation(s) for timeentry.
   name: LeanLaw Time Entry API
   slug: leanlaw-timeentry-api
-- description: The User API from LeanLaw — 2 operation(s) for user.
+- baseURL: https://api.leanlaw.io
+  baseurl_source: declared
+  description: The User API from LeanLaw — 2 operation(s) for user.
   name: LeanLaw User API
   slug: leanlaw-user-api
 artifact_total: 17
@@ -205,18 +239,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.8
+  composite: 57.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 48.9
+    contract_quality: 52.3
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 18.2
@@ -238,8 +272,9 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/screenshots/leanlaw-2026-09-02T150231.png
 security:
 - kind: authentication
   name: Leanlaw Authentication

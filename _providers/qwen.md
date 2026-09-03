@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Native Alibaba Cloud Model Studio API serving the Qwen model family. Provides chat completions, multimodal vision, embeddings, audio (TTS/ASR), image generation, video generation, function calling, an
   name: DashScope (Alibaba Cloud Model Studio) API
   slug: dashscope
-- description: The Chat API from Qwen — 1 operation(s) for chat.
+- baseURL: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+  baseurl_source: declared
+  description: The Chat API from Qwen — 1 operation(s) for chat.
   name: Qwen Chat API
   slug: qwen-chat-api
-- description: The Embeddings API from Qwen — 1 operation(s) for embeddings.
+- baseURL: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+  baseurl_source: declared
+  description: The Embeddings API from Qwen — 1 operation(s) for embeddings.
   name: Qwen Embeddings API
   slug: qwen-embeddings-api
-- description: The Models API from Qwen — 1 operation(s) for models.
+- baseURL: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+  baseurl_source: declared
+  description: The Models API from Qwen — 1 operation(s) for models.
   name: Qwen Models API
   slug: qwen-models-api
 artifact_total: 15
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/screenshots/qwen-2026-06-20T192458.png
 security:

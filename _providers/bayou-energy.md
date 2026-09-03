@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 1
 apis:
-- description: The Bills API from Bayou Energy — 4 operation(s) for bills.
+- baseURL: https://bayou.energy/api/v2
+  baseurl_source: declared
+  description: The Bills API from Bayou Energy — 4 operation(s) for bills.
   name: Bayou Energy Bills API
   slug: bayou-energy-bills-api
-- description: The Customers API from Bayou Energy — 2 operation(s) for customers.
+- baseURL: https://bayou.energy/api/v2
+  baseurl_source: declared
+  description: The Customers API from Bayou Energy — 2 operation(s) for customers.
   name: Bayou Energy Customers API
   slug: bayou-energy-customers-api
-- description: The Intervals API from Bayou Energy — 1 operation(s) for intervals.
+- baseURL: https://bayou.energy/api/v2
+  baseurl_source: declared
+  description: The Intervals API from Bayou Energy — 1 operation(s) for intervals.
   name: Bayou Energy Intervals API
   slug: bayou-energy-intervals-api
-- description: The Utilities API from Bayou Energy — 2 operation(s) for utilities.
+- baseURL: https://bayou.energy/api/v2
+  baseurl_source: declared
+  description: The Utilities API from Bayou Energy — 2 operation(s) for utilities.
   name: Bayou Energy Utilities API
   slug: bayou-energy-utilities-api
 artifact_total: 16
@@ -175,7 +183,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/screenshots/bayou-energy-2026-07-25T202450.png
 security:

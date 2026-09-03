@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,34 +44,52 @@ agentic_access:
   summary_line: 37 operations · 22 acting
 api_count: 2
 apis:
-- description: Event-driven messaging API for publishing and consuming events via AMQP 1.0, Kafka, and HTTPS protocols. Supports partitioned event streams, consumer groups, and publisher policies.
+- baseURL: https://{namespace}.servicebus.windows.net
+  baseurl_source: declared
+  description: Event-driven messaging API for publishing and consuming events via AMQP 1.0, Kafka, and HTTPS protocols. Supports partitioned event streams, consumer groups, and publisher policies.
   name: Azure Event Hubs Messaging API
   slug: azure-event-hubs-messaging-api
 - description: Client libraries for various programming languages to interact with Event Hubs.
   name: Azure Event Hubs SDK
   slug: azure-event-hubs-sdk
-- description: Operations for managing authorization rules and access keys.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing authorization rules and access keys.
   name: Azure Event Hubs Authorization Rules API
   slug: microsoft-azure-event-hubs-authorization-rules-api
-- description: Operations for managing consumer groups within an event hub.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing consumer groups within an event hub.
   name: Azure Event Hubs Consumer Groups API
   slug: microsoft-azure-event-hubs-consumer-groups-api
-- description: Operations for managing disaster recovery (Geo-DR) configurations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing disaster recovery (Geo-DR) configurations.
   name: Azure Event Hubs Disaster Recovery Configs API
   slug: microsoft-azure-event-hubs-disaster-recovery-configs-api
-- description: Operations for managing event hubs within a namespace.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing event hubs within a namespace.
   name: Azure Event Hubs Event Hubs API
   slug: microsoft-azure-event-hubs-event-hubs-api
-- description: Operations for sending events to Azure Event Hubs, including single events, batch events, partition-specific events, and events with publisher identity.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for sending events to Azure Event Hubs, including single events, batch events, partition-specific events, and events with publisher identity.
   name: Azure Event Hubs Events API
   slug: microsoft-azure-event-hubs-events-api
-- description: Operations for managing Event Hubs namespaces.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing Event Hubs namespaces.
   name: Azure Event Hubs Namespaces API
   slug: microsoft-azure-event-hubs-namespaces-api
-- description: Operations for listing available Event Hub REST API operations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for listing available Event Hub REST API operations.
   name: Azure Event Hubs Operations API
   slug: microsoft-azure-event-hubs-operations-api
-- description: Operations for managing schema groups in the Schema Registry.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for managing schema groups in the Schema Registry.
   name: Azure Event Hubs Schema Registry API
   slug: microsoft-azure-event-hubs-schema-registry-api
 arazzos:
@@ -389,7 +407,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -399,7 +417,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 58.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -408,7 +426,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:

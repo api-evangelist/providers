@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for managing cloud functions
+- baseURL: https://cloudfunctions.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing cloud functions
   name: Google Cloud Functions Functions API
   slug: google-cloud-functions-functions-api
-- description: Available locations for Cloud Functions
+- baseURL: https://cloudfunctions.googleapis.com
+  baseurl_source: declared
+  description: Available locations for Cloud Functions
   name: Google Cloud Functions Locations API
   slug: google-cloud-functions-locations-api
-- description: Long-running operation management
+- baseURL: https://cloudfunctions.googleapis.com
+  baseurl_source: declared
+  description: Long-running operation management
   name: Google Cloud Functions Operations API
   slug: google-cloud-functions-operations-api
-- description: Operations for listing available runtimes
+- baseURL: https://cloudfunctions.googleapis.com
+  baseurl_source: declared
+  description: Operations for listing available runtimes
   name: Google Cloud Functions Runtimes API
   slug: google-cloud-functions-runtimes-api
 artifact_total: 25
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/screenshots/google-cloud-functions-2026-06-20T182113.png
 security:

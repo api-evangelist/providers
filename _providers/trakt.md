@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 89 operations · 31 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Upcoming and recently aired schedules for shows, episodes, and movies.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Upcoming and recently aired schedules for shows, episodes, and movies.
   name: Trakt Calendars API
   slug: trakt-calendars-api
-- description: Movie and show certification reference data.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Movie and show certification reference data.
   name: Trakt Certifications API
   slug: trakt-certifications-api
-- description: Lightweight social "now watching" check-ins.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Lightweight social "now watching" check-ins.
   name: Trakt Checkin API
   slug: trakt-checkin-api
-- description: Comment threads, replies, likes, reactions.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Comment threads, replies, likes, reactions.
   name: Trakt Comments API
   slug: trakt-comments-api
-- description: Country reference data.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Country reference data.
   name: Trakt Countries API
   slug: trakt-countries-api
-- description: Episode metadata, ratings, comments, watching.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Episode metadata, ratings, comments, watching.
   name: Trakt Episodes API
   slug: trakt-episodes-api
-- description: Genre reference data.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Genre reference data.
   name: Trakt Genres API
   slug: trakt-genres-api
-- description: Language reference data.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Language reference data.
   name: Trakt Languages API
   slug: trakt-languages-api
-- description: Trending, popular, and personal lists.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Trending, popular, and personal lists.
   name: Trakt Lists API
   slug: trakt-lists-api
-- description: Movie metadata, trending, watched, anticipated, popular, ratings, related, people.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Movie metadata, trending, watched, anticipated, popular, ratings, related, people.
   name: Trakt Movies API
   slug: trakt-movies-api
-- description: Television network reference data.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Television network reference data.
   name: Trakt Networks API
   slug: trakt-networks-api
-- description: Personal notes attached to media items.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Personal notes attached to media items.
   name: Trakt Notes API
   slug: trakt-notes-api
-- description: Authorization Code and Device OAuth flows.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Authorization Code and Device OAuth flows.
   name: Trakt OAuth API
   slug: trakt-oauth-api
-- description: Person metadata, filmography, lists.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Person metadata, filmography, lists.
   name: Trakt People API
   slug: trakt-people-api
-- description: Personalized recommendations for movies and shows.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Personalized recommendations for movies and shows.
   name: Trakt Recommendations API
   slug: trakt-recommendations-api
-- description: Start, pause, and stop scrobbles for movies and episodes.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Start, pause, and stop scrobbles for movies and episodes.
   name: Trakt Scrobble API
   slug: trakt-scrobble-api
-- description: Text and ID lookup across movies, shows, episodes, people, lists.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Text and ID lookup across movies, shows, episodes, people, lists.
   name: Trakt Search API
   slug: trakt-search-api
-- description: Season-level metadata and episodes.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Season-level metadata and episodes.
   name: Trakt Seasons API
   slug: trakt-seasons-api
-- description: Show metadata, trending, watched, anticipated, popular, progress, seasons, episodes.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Show metadata, trending, watched, anticipated, popular, progress, seasons, episodes.
   name: Trakt Shows API
   slug: trakt-shows-api
-- description: Studio reference data.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Studio reference data.
   name: Trakt Studios API
   slug: trakt-studios-api
-- description: History, watchlist, ratings, favorites, collection, playback progress.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: History, watchlist, ratings, favorites, collection, playback progress.
   name: Trakt Sync API
   slug: trakt-sync-api
-- description: Profiles, settings, follows, friends, social activity, comments, watching.
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Profiles, settings, follows, friends, social activity, comments, watching.
   name: Trakt Users API
   slug: trakt-users-api
 artifact_total: 122
@@ -609,7 +653,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:

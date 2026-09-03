@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 9 acting
 api_count: 4
 apis:
-- description: Create, update, and query customer records.
+- baseURL: https://admin.telemetron.ai/api/ext-v1
+  baseurl_source: declared
+  description: Create, update, and query customer records.
   name: Telemetron Customer API
   slug: telemetron-ai-customer-api
-- description: Register and update devices; bulk-update device metadata.
+- baseURL: https://admin.telemetron.ai/api/ext-v1
+  baseurl_source: declared
+  description: Register and update devices; bulk-update device metadata.
   name: Telemetron Device API
   slug: telemetron-ai-device-api
-- description: Map devices to customers for telemetry routing.
+- baseURL: https://admin.telemetron.ai/api/ext-v1
+  baseurl_source: declared
+  description: Map devices to customers for telemetry routing.
   name: Telemetron Device Assignment API
   slug: telemetron-ai-device-assignment-api
-- description: Create support tickets.
+- baseURL: https://admin.telemetron.ai/api/ext-v1
+  baseurl_source: declared
+  description: Create support tickets.
   name: Telemetron Ticket API
   slug: telemetron-ai-ticket-api
 artifact_total: 13
@@ -216,7 +224,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telemetron-ai/refs/heads/main/screenshots/telemetron-ai-2026-08-17T082304.png
 security:

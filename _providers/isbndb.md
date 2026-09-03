@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 16 operations · 1 acting
 api_count: 2
 apis:
-- description: Author endpoints
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Author endpoints
   name: ISBNdb Author API
   slug: isbndb-author-api
-- description: Book endpoints
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Book endpoints
   name: ISBNdb Books API
   slug: isbndb-books-api
-- description: Feed endpoints for incremental sync
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Feed endpoints for incremental sync
   name: ISBNdb Feed API
   slug: isbndb-feed-api
-- description: API key management
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: API key management
   name: ISBNdb Key API
   slug: isbndb-key-api
-- description: Publisher endpoints
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Publisher endpoints
   name: ISBNdb Publisher API
   slug: isbndb-publisher-api
-- description: Legacy search endpoints (deprecated)
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Legacy search endpoints (deprecated)
   name: ISBNdb Search API
   slug: isbndb-search-api
-- description: Database statistics
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Database statistics
   name: ISBNdb Stats API
   slug: isbndb-stats-api
-- description: Subject endpoints
+- baseURL: https://api2.isbndb.com
+  baseurl_source: declared
+  description: Subject endpoints
   name: ISBNdb Subject API
   slug: isbndb-subject-api
 artifact_total: 29
@@ -245,7 +261,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/screenshots/isbndb-2026-06-20T183614.png
 security:

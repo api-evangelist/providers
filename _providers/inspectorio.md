@@ -33,82 +33,132 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The ANALYTICS API from Inspectorio — 2 operation(s) for analytics.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The ANALYTICS API from Inspectorio — 2 operation(s) for analytics.
   name: Inspectorio ANALYTICS API
   slug: inspectorio-analytics-api
-- description: The ASSESSMENT-V1 API from Inspectorio — 2 operation(s) for assessment-v1.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The ASSESSMENT-V1 API from Inspectorio — 2 operation(s) for assessment-v1.
   name: Inspectorio ASSESSMENT-V1 API
   slug: inspectorio-assessment-v1-api
-- description: The ASSIGNMENT API from Inspectorio — 2 operation(s) for assignment.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The ASSIGNMENT API from Inspectorio — 2 operation(s) for assignment.
   name: Inspectorio ASSIGNMENT API
   slug: inspectorio-assignment-api
-- description: The AUTH API from Inspectorio — 1 operation(s) for auth.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The AUTH API from Inspectorio — 1 operation(s) for auth.
   name: Inspectorio AUTH API
   slug: inspectorio-auth-api
-- description: The BARCODE API from Inspectorio — 3 operation(s) for barcode.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The BARCODE API from Inspectorio — 3 operation(s) for barcode.
   name: Inspectorio BARCODE API
   slug: inspectorio-barcode-api
-- description: The BOOKING API from Inspectorio — 2 operation(s) for booking.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The BOOKING API from Inspectorio — 2 operation(s) for booking.
   name: Inspectorio BOOKING API
   slug: inspectorio-booking-api
-- description: The BRAND API from Inspectorio — 2 operation(s) for brand.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The BRAND API from Inspectorio — 2 operation(s) for brand.
   name: Inspectorio BRAND API
   slug: inspectorio-brand-api
-- description: The CAPA API from Inspectorio — 1 operation(s) for capa.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The CAPA API from Inspectorio — 1 operation(s) for capa.
   name: Inspectorio CAPA API
   slug: inspectorio-capa-api
-- description: The CUSTOMER DATA API from Inspectorio — 7 operation(s) for customer data.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The CUSTOMER DATA API from Inspectorio — 7 operation(s) for customer data.
   name: Inspectorio CUSTOMER DATA API
   slug: inspectorio-customer-data-api
-- description: The Inspections API from Inspectorio — 2 operation(s) for inspections.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The Inspections API from Inspectorio — 2 operation(s) for inspections.
   name: Inspectorio Inspections API
   slug: inspectorio-inspections-api
-- description: The LAB TEST API from Inspectorio — 8 operation(s) for lab test.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The LAB TEST API from Inspectorio — 8 operation(s) for lab test.
   name: Inspectorio LAB TEST API
   slug: inspectorio-lab-test-api
-- description: The MASTER DATA API from Inspectorio — 2 operation(s) for master data.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The MASTER DATA API from Inspectorio — 2 operation(s) for master data.
   name: Inspectorio MASTER DATA API
   slug: inspectorio-master-data-api
-- description: The MEASUREMENT CHART API from Inspectorio — 1 operation(s) for measurement chart.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The MEASUREMENT CHART API from Inspectorio — 1 operation(s) for measurement chart.
   name: Inspectorio MEASUREMENT CHART API
   slug: inspectorio-measurement-chart-api
-- description: The METADATA API from Inspectorio — 2 operation(s) for metadata.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The METADATA API from Inspectorio — 2 operation(s) for metadata.
   name: Inspectorio METADATA API
   slug: inspectorio-metadata-api
-- description: The ORGANIZATION API from Inspectorio — 2 operation(s) for organization.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The ORGANIZATION API from Inspectorio — 2 operation(s) for organization.
   name: Inspectorio ORGANIZATION API
   slug: inspectorio-organization-api
-- description: The PRODUCT API from Inspectorio — 1 operation(s) for product.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The PRODUCT API from Inspectorio — 1 operation(s) for product.
   name: Inspectorio PRODUCT API
   slug: inspectorio-product-api
-- description: The PURCHASE ORDER API from Inspectorio — 3 operation(s) for purchase order.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The PURCHASE ORDER API from Inspectorio — 3 operation(s) for purchase order.
   name: Inspectorio PURCHASE ORDER API
   slug: inspectorio-purchase-order-api
-- description: The PURCHASE ORDER ASSOCIATION API from Inspectorio — 3 operation(s) for purchase order association.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The PURCHASE ORDER ASSOCIATION API from Inspectorio — 3 operation(s) for purchase order association.
   name: Inspectorio PURCHASE ORDER ASSOCIATION API
   slug: inspectorio-purchase-order-association-api
-- description: The PURCHASE ORDER V3 API from Inspectorio — 4 operation(s) for purchase order v3.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The PURCHASE ORDER V3 API from Inspectorio — 4 operation(s) for purchase order v3.
   name: Inspectorio PURCHASE ORDER V3 API
   slug: inspectorio-purchase-order-v3-api
-- description: The REPORT API from Inspectorio — 3 operation(s) for report.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The REPORT API from Inspectorio — 3 operation(s) for report.
   name: Inspectorio REPORT API
   slug: inspectorio-report-api
-- description: The REPORT-V2 API from Inspectorio — 3 operation(s) for report-v2.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The REPORT-V2 API from Inspectorio — 3 operation(s) for report-v2.
   name: Inspectorio REPORT-V2 API
   slug: inspectorio-report-v2-api
-- description: The STORAGE API from Inspectorio — 1 operation(s) for storage.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The STORAGE API from Inspectorio — 1 operation(s) for storage.
   name: Inspectorio STORAGE API
   slug: inspectorio-storage-api
-- description: The TAXONOMY CATEGORY API from Inspectorio — 2 operation(s) for taxonomy category.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The TAXONOMY CATEGORY API from Inspectorio — 2 operation(s) for taxonomy category.
   name: Inspectorio TAXONOMY CATEGORY API
   slug: inspectorio-taxonomy-category-api
-- description: The TIME AND ACTIONS API from Inspectorio — 4 operation(s) for time and actions.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The TIME AND ACTIONS API from Inspectorio — 4 operation(s) for time and actions.
   name: Inspectorio TIME AND ACTIONS API
   slug: inspectorio-time-and-actions-api
-- description: The Upload File API from Inspectorio — 1 operation(s) for upload file.
+- baseURL: https://sight.inspectorio.com
+  baseurl_source: declared
+  description: The Upload File API from Inspectorio — 1 operation(s) for upload file.
   name: Inspectorio Upload File API
   slug: inspectorio-upload-file-api
 artifact_total: 57
@@ -356,7 +406,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -366,7 +416,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     conformance: derived
     contracts:
@@ -377,7 +427,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/screenshots/inspectorio-2026-07-25T222543.png
 security:

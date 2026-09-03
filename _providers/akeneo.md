@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 54 operations · 26 acting
 api_count: 1
 apis:
-- description: The Asset Manager API from Akeneo — 2 operation(s) for asset manager.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Asset Manager API from Akeneo — 2 operation(s) for asset manager.
   name: Akeneo Asset Manager API
   slug: akeneo-asset-manager-api
-- description: The Attributes API from Akeneo — 2 operation(s) for attributes.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Attributes API from Akeneo — 2 operation(s) for attributes.
   name: Akeneo Attributes API
   slug: akeneo-attributes-api
-- description: The Authentication API from Akeneo — 1 operation(s) for authentication.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Authentication API from Akeneo — 1 operation(s) for authentication.
   name: Akeneo Authentication API
   slug: akeneo-authentication-api
-- description: The Catalogs API from Akeneo — 2 operation(s) for catalogs.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Catalogs API from Akeneo — 2 operation(s) for catalogs.
   name: Akeneo Catalogs API
   slug: akeneo-catalogs-api
-- description: The Categories API from Akeneo — 2 operation(s) for categories.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Categories API from Akeneo — 2 operation(s) for categories.
   name: Akeneo Categories API
   slug: akeneo-categories-api
-- description: The Channels API from Akeneo — 1 operation(s) for channels.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Channels API from Akeneo — 1 operation(s) for channels.
   name: Akeneo Channels API
   slug: akeneo-channels-api
-- description: The Currencies API from Akeneo — 1 operation(s) for currencies.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Currencies API from Akeneo — 1 operation(s) for currencies.
   name: Akeneo Currencies API
   slug: akeneo-currencies-api
-- description: The Families API from Akeneo — 2 operation(s) for families.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Families API from Akeneo — 2 operation(s) for families.
   name: Akeneo Families API
   slug: akeneo-families-api
-- description: The Locales API from Akeneo — 1 operation(s) for locales.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Locales API from Akeneo — 1 operation(s) for locales.
   name: Akeneo Locales API
   slug: akeneo-locales-api
-- description: The Media Files API from Akeneo — 3 operation(s) for media files.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Media Files API from Akeneo — 3 operation(s) for media files.
   name: Akeneo Media Files API
   slug: akeneo-media-files-api
-- description: The Product Models API from Akeneo — 2 operation(s) for product models.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Product Models API from Akeneo — 2 operation(s) for product models.
   name: Akeneo Product Models API
   slug: akeneo-product-models-api
-- description: The Products API from Akeneo — 4 operation(s) for products.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Products API from Akeneo — 4 operation(s) for products.
   name: Akeneo Products API
   slug: akeneo-products-api
-- description: The Reference Entities API from Akeneo — 2 operation(s) for reference entities.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Reference Entities API from Akeneo — 2 operation(s) for reference entities.
   name: Akeneo Reference Entities API
   slug: akeneo-reference-entities-api
-- description: The System API from Akeneo — 2 operation(s) for system.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The System API from Akeneo — 2 operation(s) for system.
   name: Akeneo System API
   slug: akeneo-system-api
-- description: The Workflows API from Akeneo — 2 operation(s) for workflows.
+- baseURL: https://api.akeneo.com
+  baseurl_source: declared
+  description: The Workflows API from Akeneo — 2 operation(s) for workflows.
   name: Akeneo Workflows API
   slug: akeneo-workflows-api
 artifact_total: 39
@@ -251,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeneo/refs/heads/main/screenshots/akeneo-2026-06-20T171448.png
 security:

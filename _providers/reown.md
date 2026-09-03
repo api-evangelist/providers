@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: Multi-chain JSON-RPC over HTTPS used by AppKit and partners; provides on-chain reads, gas, swaps, and onramp helpers.
   name: Reown Blockchain API
   slug: blockchain-api
-- description: WalletConnect v2 relay network for end-to-end encrypted JSON-RPC pairing between dApps and wallets. Accessed through SDK clients only; not a direct REST surface.
+- baseURL: wss://relay.walletconnect.com
+  baseurl_source: declared
+  description: WalletConnect v2 relay network for end-to-end encrypted JSON-RPC pairing between dApps and wallets. Accessed through SDK clients only; not a direct REST surface.
   name: WalletConnect Relay (SDK-mediated)
   slug: walletconnect-protocol
-- description: Blockchain chains registered under CASA namespaces.
+- baseURL: https://api.web3modal.org/v3
+  baseurl_source: declared
+  description: Blockchain chains registered under CASA namespaces.
   name: Reown Chains API
   slug: reown-chains-api
-- description: Wallet, dApp, and hybrid directory listings.
+- baseURL: https://api.web3modal.org/v3
+  baseurl_source: declared
+  description: Wallet, dApp, and hybrid directory listings.
   name: Reown Listings API
   slug: reown-listings-api
-- description: Logo image assets for listings.
+- baseURL: https://api.web3modal.org/v3
+  baseurl_source: declared
+  description: Logo image assets for listings.
   name: Reown Logos API
   slug: reown-logos-api
 artifact_total: 21
@@ -183,7 +191,7 @@ score:
     catalog_gap: 66.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -193,7 +201,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 32.4
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -208,7 +216,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/screenshots/reown-2026-06-20T192900.png
 security:

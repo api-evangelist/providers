@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 48 operations · 29 acting
 api_count: 1
 apis:
-- description: The Credit Notes API from Invoiced — 2 operation(s) for credit notes.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Credit Notes API from Invoiced — 2 operation(s) for credit notes.
   name: Invoiced Credit Notes API
   slug: invoiced-credit-notes-api
-- description: The Customers API from Invoiced — 3 operation(s) for customers.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Customers API from Invoiced — 3 operation(s) for customers.
   name: Invoiced Customers API
   slug: invoiced-customers-api
-- description: The Estimates API from Invoiced — 3 operation(s) for estimates.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Estimates API from Invoiced — 3 operation(s) for estimates.
   name: Invoiced Estimates API
   slug: invoiced-estimates-api
-- description: The Events API from Invoiced — 2 operation(s) for events.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Events API from Invoiced — 2 operation(s) for events.
   name: Invoiced Events API
   slug: invoiced-events-api
-- description: The Invoices API from Invoiced — 5 operation(s) for invoices.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Invoices API from Invoiced — 5 operation(s) for invoices.
   name: Invoiced Invoices API
   slug: invoiced-invoices-api
-- description: The Items API from Invoiced — 2 operation(s) for items.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Items API from Invoiced — 2 operation(s) for items.
   name: Invoiced Items API
   slug: invoiced-items-api
-- description: The Payments API from Invoiced — 2 operation(s) for payments.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Payments API from Invoiced — 2 operation(s) for payments.
   name: Invoiced Payments API
   slug: invoiced-payments-api
-- description: The Plans API from Invoiced — 2 operation(s) for plans.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Plans API from Invoiced — 2 operation(s) for plans.
   name: Invoiced Plans API
   slug: invoiced-plans-api
-- description: The Subscriptions API from Invoiced — 3 operation(s) for subscriptions.
+- baseURL: https://api.invoiced.com
+  baseurl_source: declared
+  description: The Subscriptions API from Invoiced — 3 operation(s) for subscriptions.
   name: Invoiced Subscriptions API
   slug: invoiced-subscriptions-api
 artifact_total: 26
@@ -213,7 +231,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/screenshots/invoiced-2026-07-25T222800.png
 security:

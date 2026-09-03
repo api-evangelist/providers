@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: Chat completion
+- baseURL: https://apis.gradient.network/api/v1
+  baseurl_source: declared
+  description: Chat completion
   name: Gradient Chat API
   slug: gradient-chat-api
-- description: Text completion
+- baseURL: https://apis.gradient.network/api/v1
+  baseurl_source: declared
+  description: Text completion
   name: Gradient Completions API
   slug: gradient-completions-api
-- description: Model listing and management
+- baseURL: https://apis.gradient.network/api/v1
+  baseurl_source: declared
+  description: Model listing and management
   name: Gradient Models API
   slug: gradient-models-api
 artifact_total: 11
@@ -202,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/screenshots/gradient-2026-07-25T220159.png
 security:

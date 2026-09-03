@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 79 operations · 40 acting · 5 human-in-the-loop
 api_count: 18
 apis:
-- description: Criação e atualização de status de agendamentos
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Criação e atualização de status de agendamentos
   name: MV sistemas Agendamento API
   slug: mv-sistemas-agendamento-api
-- description: Listagem e filtros de Agendamento de performance
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Listagem e filtros de Agendamento de performance
   name: MV sistemas Agendamento de performance API
   slug: mv-sistemas-agendamento-de-performance-api
-- description: Cadastro de atendimentos
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Cadastro de atendimentos
   name: MV sistemas Atendimento API
   slug: mv-sistemas-atendimento-api
-- description: The Attendance API from MV sistemas — 1 operation(s) for attendance.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Attendance API from MV sistemas — 1 operation(s) for attendance.
   name: MV sistemas Attendance API
   slug: mv-sistemas-attendance-api
-- description: The Auditoria API from MV sistemas — 2 operation(s) for auditoria.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Auditoria API from MV sistemas — 2 operation(s) for auditoria.
   name: MV sistemas Auditoria API
   slug: mv-sistemas-auditoria-api
-- description: Geração de token temporário para fluxos que exigem validação adicional.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Geração de token temporário para fluxos que exigem validação adicional.
   name: MV sistemas Autenticação API
   slug: mv-sistemas-autentica-o-api
-- description: Consulta de dados cadastrais, carteirinhas por CPF e dependentes do titular.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Consulta de dados cadastrais, carteirinhas por CPF e dependentes do titular.
   name: MV sistemas Beneficiário e carteira API
   slug: mv-sistemas-benefici-rio-e-carteira-api
-- description: Listas de estados, cidades, bairros, tipos de recurso e especialidades para filtros e formulários.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Listas de estados, cidades, bairros, tipos de recurso e especialidades para filtros e formulários.
   name: MV sistemas Cadastros auxiliares API
   slug: mv-sistemas-cadastros-auxiliares-api
-- description: The Clínicas API from MV sistemas — 1 operation(s) for clínicas.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Clínicas API from MV sistemas — 1 operation(s) for clínicas.
   name: MV sistemas Clínicas API
   slug: mv-sistemas-cl-nicas-api
-- description: The Compartilhamento de Dados API from MV sistemas — 5 operation(s) for compartilhamento de dados.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Compartilhamento de Dados API from MV sistemas — 5 operation(s) for compartilhamento de dados.
   name: MV sistemas Compartilhamento de Dados API
   slug: mv-sistemas-compartilhamento-de-dados-api
-- description: The Conta API from MV sistemas — 1 operation(s) for conta.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Conta API from MV sistemas — 1 operation(s) for conta.
   name: MV sistemas Conta API
   slug: mv-sistemas-conta-api
-- description: The Convênios API from MV sistemas — 2 operation(s) for convênios.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Convênios API from MV sistemas — 2 operation(s) for convênios.
   name: MV sistemas Convênios API
   slug: mv-sistemas-conv-nios-api
-- description: Endpoints relacionados à busca de exames (TUSS)
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Endpoints relacionados à busca de exames (TUSS)
   name: MV sistemas Exames API
   slug: mv-sistemas-exames-api
-- description: Histórico de interações com o relacionamento (call center).
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Histórico de interações com o relacionamento (call center).
   name: MV sistemas Financeiro e atendimento API
   slug: mv-sistemas-financeiro-e-atendimento-api
-- description: Operações relacionadas ao cadastro de beneficiários.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Operações relacionadas ao cadastro de beneficiários.
   name: MV sistemas Gestão de Beneficiários API
   slug: mv-sistemas-gest-o-de-benefici-rios-api
-- description: The Gestão de Eventos API from MV sistemas — 5 operation(s) for gestão de eventos.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Gestão de Eventos API from MV sistemas — 5 operation(s) for gestão de eventos.
   name: MV sistemas Gestão de Eventos API
   slug: mv-sistemas-gest-o-de-eventos-api
-- description: Operações relacionadas à gestão de pendências e exames.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Operações relacionadas à gestão de pendências e exames.
   name: MV sistemas Gestão de Pendências API
   slug: mv-sistemas-gest-o-de-pend-ncias-api
-- description: Rede credenciada, guias e autorizações e acompanhamento de utilização do plano.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Rede credenciada, guias e autorizações e acompanhamento de utilização do plano.
   name: MV sistemas Guias e utilização API
   slug: mv-sistemas-guias-e-utiliza-o-api
-- description: The Horários Disponíveis API from MV sistemas — 1 operation(s) for horários disponíveis.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Horários Disponíveis API from MV sistemas — 1 operation(s) for horários disponíveis.
   name: MV sistemas Horários Disponíveis API
   slug: mv-sistemas-hor-rios-dispon-veis-api
-- description: The Importação de Dados API from MV sistemas — 1 operation(s) for importação de dados.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Importação de Dados API from MV sistemas — 1 operation(s) for importação de dados.
   name: MV sistemas Importação de Dados API
   slug: mv-sistemas-importa-o-de-dados-api
-- description: The Importação de dados biométricos API from MV sistemas — 3 operation(s) for importação de dados biométricos.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Importação de dados biométricos API from MV sistemas — 3 operation(s) for importação de dados biométricos.
   name: MV sistemas Importação de dados biométricos API
   slug: mv-sistemas-importa-o-de-dados-biom-tricos-api
-- description: The Movimentações de Visitantes API from MV sistemas — 2 operation(s) for movimentações de visitantes.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Movimentações de Visitantes API from MV sistemas — 2 operation(s) for movimentações de visitantes.
   name: MV sistemas Movimentações de Visitantes API
   slug: mv-sistemas-movimenta-es-de-visitantes-api
-- description: The News API from MV sistemas — 1 operation(s) for news.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The News API from MV sistemas — 1 operation(s) for news.
   name: MV sistemas News API
   slug: mv-sistemas-news-api
-- description: The Notification API from MV sistemas — 2 operation(s) for notification.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Notification API from MV sistemas — 2 operation(s) for notification.
   name: MV sistemas Notification API
   slug: mv-sistemas-notification-api
-- description: The Parametrização API from MV sistemas — 1 operation(s) for parametrização.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Parametrização API from MV sistemas — 1 operation(s) for parametrização.
   name: MV sistemas Parametrização API
   slug: mv-sistemas-parametriza-o-api
-- description: The Person API from MV sistemas — 1 operation(s) for person.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Person API from MV sistemas — 1 operation(s) for person.
   name: MV sistemas Person API
   slug: mv-sistemas-person-api
-- description: The Planos Obstétricos API from MV sistemas — 1 operation(s) for planos obstétricos.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Planos Obstétricos API from MV sistemas — 1 operation(s) for planos obstétricos.
   name: MV sistemas Planos Obstétricos API
   slug: mv-sistemas-planos-obst-tricos-api
-- description: The Presigned API from MV sistemas — 1 operation(s) for presigned.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Presigned API from MV sistemas — 1 operation(s) for presigned.
   name: MV sistemas Presigned API
   slug: mv-sistemas-presigned-api
-- description: The Prestadores/Usuários API from MV sistemas — 1 operation(s) for prestadores/usuários.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Prestadores/Usuários API from MV sistemas — 1 operation(s) for prestadores/usuários.
   name: MV sistemas Prestadores/Usuários API
   slug: mv-sistemas-prestadores-usu-rios-api
-- description: The Protocolo de Entrada API from MV sistemas — 2 operation(s) for protocolo de entrada.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Protocolo de Entrada API from MV sistemas — 2 operation(s) for protocolo de entrada.
   name: MV sistemas Protocolo de Entrada API
   slug: mv-sistemas-protocolo-de-entrada-api
-- description: The Protocolo de reconhecimento API from MV sistemas — 1 operation(s) for protocolo de reconhecimento.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Protocolo de reconhecimento API from MV sistemas — 1 operation(s) for protocolo de reconhecimento.
   name: MV sistemas Protocolo de reconhecimento API
   slug: mv-sistemas-protocolo-de-reconhecimento-api
-- description: The Reconhecimento Facial API from MV sistemas — 2 operation(s) for reconhecimento facial.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Reconhecimento Facial API from MV sistemas — 2 operation(s) for reconhecimento facial.
   name: MV sistemas Reconhecimento Facial API
   slug: mv-sistemas-reconhecimento-facial-api
-- description: Endpoints relacionados à regulação clínica
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: Endpoints relacionados à regulação clínica
   name: MV sistemas Regulação API
   slug: mv-sistemas-regula-o-api
-- description: The Serviços API from MV sistemas — 1 operation(s) for serviços.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The Serviços API from MV sistemas — 1 operation(s) for serviços.
   name: MV sistemas Serviços API
   slug: mv-sistemas-servi-os-api
-- description: The User API from MV sistemas — 1 operation(s) for user.
+- baseURL: https://api.globalhealth.mv/available-appointments/api
+  baseurl_source: declared
+  description: The User API from MV sistemas — 1 operation(s) for user.
   name: MV sistemas User API
   slug: mv-sistemas-user-api
 artifact_total: 76
@@ -379,7 +449,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -389,7 +459,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.0
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -407,7 +477,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/screenshots/mv-sistemas-2026-08-07T184458.png
 security:

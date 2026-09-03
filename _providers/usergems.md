@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,13 +45,19 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
-- description: Add and remove accounts UserGems should source prospects against.
+- baseURL: https://api.usergems.com/v1
+  baseurl_source: declared
+  description: Add and remove accounts UserGems should source prospects against.
   name: UserGems Accounts API
   slug: usergems-accounts-api
-- description: Add and remove contacts UserGems should track for job changes.
+- baseURL: https://api.usergems.com/v1
+  baseurl_source: declared
+  description: Add and remove contacts UserGems should track for job changes.
   name: UserGems Contacts API
   slug: usergems-contacts-api
-- description: Honor data-subject deletion requests for tracked contacts.
+- baseURL: https://api.usergems.com/v1
+  baseurl_source: declared
+  description: Honor data-subject deletion requests for tracked contacts.
   name: UserGems Privacy API
   slug: usergems-privacy-api
 - description: Hosted remote MCP server that lets an agent in Claude, ChatGPT or any MCP-compatible client work against the customer's own UserGems workspace — searching accounts and prospects, pulling signal and sc
@@ -431,7 +437,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -441,7 +447,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 52.6
-  previous_composite: 69.1
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -453,7 +459,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png
 security:

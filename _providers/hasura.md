@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Hasura GraphQL Engine v2 provides instant realtime GraphQL APIs on your data with fine-grained access control. Supports GraphQL queries, mutations, and subscriptions at the /v1/graphql endpoint, a
   name: Hasura GraphQL API
   slug: hasura-graphql-api
-- description: The Hasura Metadata API allows programmatic management of Hasura GraphQL Engine configuration. All requests are POST requests to the /v1/metadata endpoint, supporting operations for managing data sour
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The Hasura Metadata API allows programmatic management of Hasura GraphQL Engine configuration. All requests are POST requests to the /v1/metadata endpoint, supporting operations for managing data sour
   name: Hasura Metadata API
   slug: hasura-metadata-api
 - description: The Hasura Data Delivery Network (DDN) is a metadata-driven API platform that generates instant GraphQL APIs on any data source. It provides queries, mutations, and subscriptions as root-level fields,
@@ -59,28 +61,44 @@ apis:
 - description: The PromptQL Natural Language API allows interaction with Hasura PromptQL to send natural language messages and receive AI-powered responses with streaming support. It enables accurate AI by continuou
   name: PromptQL Natural Language API
   slug: promptql-natural-language-api
-- description: The Graphql API from Hasura — 2 operation(s) for graphql.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The Graphql API from Hasura — 2 operation(s) for graphql.
   name: Hasura Graphql API
   slug: hasura-graphql-api
-- description: The Healthz API from Hasura — 1 operation(s) for healthz.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The Healthz API from Hasura — 1 operation(s) for healthz.
   name: Hasura Healthz API
   slug: hasura-healthz-api
-- description: Hasura metadata management.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: Hasura metadata management.
   name: Hasura Metadata API
   slug: hasura-metadata-api
-- description: The Query API from Hasura — 1 operation(s) for query.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The Query API from Hasura — 1 operation(s) for query.
   name: Hasura Query API
   slug: hasura-query-api
-- description: The Source Health API from Hasura — 1 operation(s) for source health.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The Source Health API from Hasura — 1 operation(s) for source health.
   name: Hasura Source Health API
   slug: hasura-source-health-api
-- description: The V1alpha1 API from Hasura — 2 operation(s) for v1alpha1.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The V1alpha1 API from Hasura — 2 operation(s) for v1alpha1.
   name: Hasura V1alpha1 API
   slug: hasura-v1alpha1-api
-- description: The V1beta1 API from Hasura — 1 operation(s) for v1beta1.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The V1beta1 API from Hasura — 1 operation(s) for v1beta1.
   name: Hasura V1beta1 API
   slug: hasura-v1beta1-api
-- description: The Version API from Hasura — 1 operation(s) for version.
+- baseURL: https://my-graphql-engine.example.com
+  baseurl_source: spec
+  description: The Version API from Hasura — 1 operation(s) for version.
   name: Hasura Version API
   slug: hasura-version-api
 artifact_total: 47
@@ -429,7 +447,7 @@ score:
     catalog_gap: 80.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -439,7 +457,7 @@ score:
     discoverability: 48.1
     governance: 11.4
     operational_transparency: 55.3
-  previous_composite: 53.3
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -448,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:

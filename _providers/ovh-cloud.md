@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 334
   human_in_the_loop: 18
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 716 operations · 334 acting · 18 human-in-the-loop
 api_count: 1
 apis:
-- description: The Cloud API from OVH Cloud — 469 operation(s) for cloud.
+- baseURL: https://api.us.ovhcloud.com/v1
+  baseurl_source: declared
+  description: The Cloud API from OVH Cloud — 469 operation(s) for cloud.
   name: OVH Cloud Cloud API
   slug: ovh-cloud-cloud-api
 artifact_total: 11
@@ -205,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/screenshots/ovh-cloud-2026-06-20T191242.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 54 operations · 11 acting
 api_count: 3
 apis:
-- description: SCIM REST API for accessing community-scoped resources and managing user provisioning and deprovisioning.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: SCIM REST API for accessing community-scoped resources and managing user provisioning and deprovisioning.
   name: Common Room SCIM API
   slug: common-room-scim-api
-- description: The Activities API from Common Room — 7 operation(s) for activities.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The Activities API from Common Room — 7 operation(s) for activities.
   name: Common Room Activities API
   slug: common-room-activities-api
-- description: The Contacts API from Common Room — 6 operation(s) for contacts.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The Contacts API from Common Room — 6 operation(s) for contacts.
   name: Common Room Contacts API
   slug: common-room-contacts-api
-- description: Operations related to custom field definitions
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to custom field definitions
   name: Common Room Custom Fields API
   slug: common-room-custom-fields-api
-- description: Notify Common Room that data is available for import
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Notify Common Room that data is available for import
   name: Common Room Data Available API
   slug: common-room-data-available-api
-- description: Operations related to NAICS industry codes
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to NAICS industry codes
   name: Common Room Industries API
   slug: common-room-industries-api
-- description: Operations related to lead score definitions
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to lead score definitions
   name: Common Room Lead Scores API
   slug: common-room-lead-scores-api
-- description: Operations related to location data
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to location data
   name: Common Room Locations API
   slug: common-room-locations-api
-- description: Information about the authenticated user
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Information about the authenticated user
   name: Common Room Me API
   slug: common-room-me-api
-- description: Operations related to custom object type definitions
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to custom object type definitions
   name: Common Room Object Types API
   slug: common-room-object-types-api
-- description: Operations related to custom objects
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to custom objects
   name: Common Room Objects API
   slug: common-room-objects-api
-- description: Operations related to organization management
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to organization management
   name: Common Room Organizations API
   slug: common-room-organizations-api
-- description: Operations related to prospector company discovery
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to prospector company discovery
   name: Common Room Prospector Companies API
   slug: common-room-prospector-companies-api
-- description: Operations related to prospector contact discovery
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to prospector contact discovery
   name: Common Room Prospector Contacts API
   slug: common-room-prospector-contacts-api
-- description: Operations related to signal sources (integrations)
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to signal sources (integrations)
   name: Common Room Providers API
   slug: common-room-providers-api
-- description: The Right to be Forgotten API from Common Room — 1 operation(s) for right to be forgotten.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The Right to be Forgotten API from Common Room — 1 operation(s) for right to be forgotten.
   name: Common Room Right to be Forgotten API
   slug: common-room-right-to-be-forgotten-api
-- description: The SCIM API from Common Room — 2 operation(s) for scim.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The SCIM API from Common Room — 2 operation(s) for scim.
   name: Common Room SCIM API
   slug: common-room-scim-api
-- description: The Segments API from Common Room — 3 operation(s) for segments.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The Segments API from Common Room — 3 operation(s) for segments.
   name: Common Room Segments API
   slug: common-room-segments-api
-- description: The Tags API from Common Room — 2 operation(s) for tags.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The Tags API from Common Room — 2 operation(s) for tags.
   name: Common Room Tags API
   slug: common-room-tags-api
-- description: Operations related to technographics and tech stack products
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to technographics and tech stack products
   name: Common Room Tech Stack Products API
   slug: common-room-tech-stack-products-api
-- description: The Token Status API from Common Room — 1 operation(s) for token status.
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: The Token Status API from Common Room — 1 operation(s) for token status.
   name: Common Room Token Status API
   slug: common-room-token-status-api
-- description: Operations related to topics
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to topics
   name: Common Room Topics API
   slug: common-room-topics-api
-- description: Operations related to website visit tracking
+- baseURL: https://api.commonroom.io
+  baseurl_source: declared
+  description: Operations related to website visit tracking
   name: Common Room Website Visits API
   slug: common-room-website-visits-api
 artifact_total: 138
@@ -662,7 +708,7 @@ score:
     catalog_gap: 45.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -672,7 +718,7 @@ score:
     discoverability: 81.5
     governance: 28.0
     operational_transparency: 23.7
-  previous_composite: 65.1
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -684,7 +730,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:

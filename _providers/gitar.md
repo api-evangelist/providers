@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The GitLab MR Status API from Gitar — 1 operation(s) for gitlab mr status.
+- baseURL: https://api.gitar.ai/v1
+  baseurl_source: declared
+  description: The GitLab MR Status API from Gitar — 1 operation(s) for gitlab mr status.
   name: Gitar GitLab MR Status API
   slug: gitar-gitlab-mr-status-api
-- description: The GitLab Projects API from Gitar — 1 operation(s) for gitlab projects.
+- baseURL: https://api.gitar.ai/v1
+  baseurl_source: declared
+  description: The GitLab Projects API from Gitar — 1 operation(s) for gitlab projects.
   name: Gitar GitLab Projects API
   slug: gitar-gitlab-projects-api
-- description: The Installation Health API from Gitar — 1 operation(s) for installation health.
+- baseURL: https://api.gitar.ai/v1
+  baseurl_source: declared
+  description: The Installation Health API from Gitar — 1 operation(s) for installation health.
   name: Gitar Installation Health API
   slug: gitar-installation-health-api
 artifact_total: 12
@@ -230,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/screenshots/gitar-2026-07-25T215835.png
 security:

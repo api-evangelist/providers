@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 41 operations · 10 acting
 api_count: 12
 apis:
-- description: The AnnouncedReturns API from Zalando — 1 operation(s) for announcedreturns.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The AnnouncedReturns API from Zalando — 1 operation(s) for announcedreturns.
   name: Zalando AnnouncedReturns API
   slug: zalando-announcedreturns-api
-- description: The attribute-types API from Zalando — 2 operation(s) for attribute-types.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The attribute-types API from Zalando — 2 operation(s) for attribute-types.
   name: Zalando attribute-types API
   slug: zalando-attribute-types-api
-- description: The attribute-values API from Zalando — 2 operation(s) for attribute-values.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The attribute-values API from Zalando — 2 operation(s) for attribute-values.
   name: Zalando attribute-values API
   slug: zalando-attribute-values-api
-- description: The Attributes API from Zalando — 2 operation(s) for attributes.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Attributes API from Zalando — 2 operation(s) for attributes.
   name: Zalando Attributes API
   slug: zalando-attributes-api
-- description: The Cross Border Movements API from Zalando — 1 operation(s) for cross border movements.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Cross Border Movements API from Zalando — 1 operation(s) for cross border movements.
   name: Zalando Cross Border Movements API
   slug: zalando-cross-border-movements-api
-- description: The Discovery API API from Zalando — 1 operation(s) for discovery api.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Discovery API API from Zalando — 1 operation(s) for discovery api.
   name: Zalando Discovery API API
   slug: zalando-discovery-api-api
-- description: The History of Price Update Attempts API from Zalando — 1 operation(s) for history of price update attempts.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The History of Price Update Attempts API from Zalando — 1 operation(s) for history of price update attempts.
   name: Zalando History of Price Update Attempts API
   slug: zalando-history-of-price-update-attempts-api
-- description: The Liquidated Items API from Zalando — 1 operation(s) for liquidated items.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Liquidated Items API from Zalando — 1 operation(s) for liquidated items.
   name: Zalando Liquidated Items API
   slug: zalando-liquidated-items-api
-- description: The Logistic Centers API from Zalando — 2 operation(s) for logistic centers.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Logistic Centers API from Zalando — 2 operation(s) for logistic centers.
   name: Zalando Logistic Centers API
   slug: zalando-logistic-centers-api
-- description: The offer-blockers API from Zalando — 2 operation(s) for offer-blockers.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The offer-blockers API from Zalando — 2 operation(s) for offer-blockers.
   name: Zalando offer-blockers API
   slug: zalando-offer-blockers-api
-- description: The Orders API from Zalando — 11 operation(s) for orders.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Orders API from Zalando — 11 operation(s) for orders.
   name: Zalando Orders API
   slug: zalando-orders-api
-- description: The Outlines API from Zalando — 2 operation(s) for outlines.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Outlines API from Zalando — 2 operation(s) for outlines.
   name: Zalando Outlines API
   slug: zalando-outlines-api
-- description: The prices API from Zalando — 1 operation(s) for prices.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The prices API from Zalando — 1 operation(s) for prices.
   name: Zalando prices API
   slug: zalando-prices-api
-- description: The Product Association API from Zalando — 1 operation(s) for product association.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Product Association API from Zalando — 1 operation(s) for product association.
   name: Zalando Product Association API
   slug: zalando-product-association-api
-- description: The Reports API from Zalando — 1 operation(s) for reports.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Reports API from Zalando — 1 operation(s) for reports.
   name: Zalando Reports API
   slug: zalando-reports-api
-- description: The Returned Items API from Zalando — 1 operation(s) for returned items.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Returned Items API from Zalando — 1 operation(s) for returned items.
   name: Zalando Returned Items API
   slug: zalando-returned-items-api
-- description: The SalesChannels API from Zalando — 1 operation(s) for saleschannels.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The SalesChannels API from Zalando — 1 operation(s) for saleschannels.
   name: Zalando SalesChannels API
   slug: zalando-saleschannels-api
-- description: The Shipments API from Zalando — 2 operation(s) for shipments.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Shipments API from Zalando — 2 operation(s) for shipments.
   name: Zalando Shipments API
   slug: zalando-shipments-api
-- description: The stocks API from Zalando — 1 operation(s) for stocks.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The stocks API from Zalando — 1 operation(s) for stocks.
   name: Zalando stocks API
   slug: zalando-stocks-api
-- description: The Types API from Zalando — 1 operation(s) for types.
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Types API from Zalando — 1 operation(s) for types.
   name: Zalando Types API
   slug: zalando-types-api
 artifact_total: 46
@@ -315,11 +355,11 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -329,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 40.2
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +387,9 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zalando/refs/heads/main/screenshots/zalando-2026-09-02T171440.png
 security:
 - kind: authentication
   name: Zalando Authentication

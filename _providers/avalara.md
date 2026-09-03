@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -60,208 +60,344 @@ apis:
 - description: The Avalara License Guidance Order API enables placing Avalara License Guidance orders and populating questionnaire responses with known business information, returning order confirmation details incl
   name: License Guidance Order API
   slug: license-guidance-order-api
-- description: Create and manage 1099 information returns
+- baseURL: https://api.avalara.com/1099/v1
+  baseurl_source: spec
+  description: Create and manage 1099 information returns
   name: Avalara 1099 Forms API
   slug: avalara-1099-forms-api
-- description: Manage AvaTax accounts and license keys
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage AvaTax accounts and license keys
   name: Avalara Accounts API
   slug: avalara-accounts-api
-- description: Validate and resolve addresses for tax jurisdiction determination
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Validate and resolve addresses for tax jurisdiction determination
   name: Avalara Addresses API
   slug: avalara-addresses-api
-- description: The AdvancedRules API from Avalara — 2 operation(s) for advancedrules.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The AdvancedRules API from Avalara — 2 operation(s) for advancedrules.
   name: Avalara AdvancedRules API
   slug: avalara-advancedrules-api
-- description: Manage certificate attributes and custom fields
+- baseURL: https://api.certcapture.com/v2
+  baseurl_source: spec
+  description: Manage certificate attributes and custom fields
   name: Avalara Attributes API
   slug: avalara-attributes-api
-- description: Token management and authentication
+- baseURL: https://api.certcapture.com/v2
+  baseurl_source: spec
+  description: Token management and authentication
   name: Avalara Authentication API
   slug: avalara-authentication-api
-- description: The AvaFileForms API from Avalara — 2 operation(s) for avafileforms.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The AvaFileForms API from Avalara — 2 operation(s) for avafileforms.
   name: Avalara AvaFileForms API
   slug: avalara-avafileforms-api
-- description: Submit and manage batch transaction processing
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Submit and manage batch transaction processing
   name: Avalara Batches API
   slug: avalara-batches-api
-- description: Manage business entity records
+- baseURL: https://exciseapi.avalara.com/api/v1
+  baseurl_source: spec
+  description: Manage business entity records
   name: Avalara Business Entities API
   slug: avalara-business-entities-api
-- description: The CertExpressInvites API from Avalara — 3 operation(s) for certexpressinvites.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The CertExpressInvites API from Avalara — 3 operation(s) for certexpressinvites.
   name: Avalara CertExpressInvites API
   slug: avalara-certexpressinvites-api
-- description: Manage exemption certificates and CertExpress invitations
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage exemption certificates and CertExpress invitations
   name: Avalara Certificates API
   slug: avalara-certificates-api
-- description: Classify products into HS Codes and tax codes
+- baseURL: https://api.avalara.com/classification/v1
+  baseurl_source: spec
+  description: Classify products into HS Codes and tax codes
   name: Avalara Classification API
   slug: avalara-classification-api
-- description: Submit and manage product classification requests
+- baseURL: https://api.avalara.com/classification/v2
+  baseurl_source: spec
+  description: Submit and manage product classification requests
   name: Avalara Classification Requests API
   slug: avalara-classification-requests-api
-- description: Manage payer company records
+- baseURL: https://api.avalara.com/1099/v1
+  baseurl_source: spec
+  description: Manage payer company records
   name: Avalara Companies API
   slug: avalara-companies-api
-- description: Manage company contacts
+- baseURL: https://api.avalara.com/shared/v1
+  baseurl_source: spec
+  description: Manage company contacts
   name: Avalara Contacts API
   slug: avalara-contacts-api
-- description: Manage customer records and their certificate associations
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage customer records and their certificate associations
   name: Avalara Customers API
   slug: avalara-customers-api
-- description: Manage tax profiles, exemptions, and overrides
+- baseURL: https://communicationsua.avalara.net
+  baseurl_source: spec
+  description: Manage tax profiles, exemptions, and overrides
   name: Avalara Customization API
   slug: avalara-customization-api
-- description: The DataSources API from Avalara — 3 operation(s) for datasources.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The DataSources API from Avalara — 3 operation(s) for datasources.
   name: Avalara DataSources API
   slug: avalara-datasources-api
-- description: Query tax content definitions, rates, and jurisdictions
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Query tax content definitions, rates, and jurisdictions
   name: Avalara Definitions API
   slug: avalara-definitions-api
-- description: The DistanceThresholds API from Avalara — 3 operation(s) for distancethresholds.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The DistanceThresholds API from Avalara — 3 operation(s) for distancethresholds.
   name: Avalara DistanceThresholds API
   slug: avalara-distancethresholds-api
-- description: Submit and manage e-invoice documents
+- baseURL: https://api.avalara.com/einvoicing/v1
+  baseurl_source: spec
+  description: Submit and manage e-invoice documents
   name: Avalara Documents API
   slug: avalara-documents-api
-- description: eCommerce token generation for certificate collection
+- baseURL: https://api.certcapture.com/v2
+  baseurl_source: spec
+  description: eCommerce token generation for certificate collection
   name: Avalara eCommerce API
   slug: avalara-ecommerce-api
-- description: The ECommerceToken API from Avalara — 1 operation(s) for ecommercetoken.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The ECommerceToken API from Avalara — 1 operation(s) for ecommercetoken.
   name: Avalara ECommerceToken API
   slug: avalara-ecommercetoken-api
-- description: Issue and manage electronic fiscal documents
+- baseURL: https://avataxbr-sandbox.avalarabrasil.com.br/v3
+  baseurl_source: spec
+  description: Issue and manage electronic fiscal documents
   name: Avalara Electronic Invoices API
   slug: avalara-electronic-invoices-api
-- description: E-file forms with the IRS
+- baseURL: https://api.avalara.com/1099/v1
+  baseurl_source: spec
+  description: E-file forms with the IRS
   name: Avalara Filing API
   slug: avalara-filing-api
-- description: Manage VAT filing obligations and calendars
+- baseURL: https://api.avalara.com/vat-reporting/v1
+  baseurl_source: spec
+  description: Manage VAT filing obligations and calendars
   name: Avalara Filing Calendar API
   slug: avalara-filing-calendar-api
-- description: The FirmClientLinkages API from Avalara — 7 operation(s) for firmclientlinkages.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The FirmClientLinkages API from Avalara — 7 operation(s) for firmclientlinkages.
   name: Avalara FirmClientLinkages API
   slug: avalara-firmclientlinkages-api
-- description: Free tax rate lookup endpoints
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Free tax rate lookup endpoints
   name: Avalara Free API
   slug: avalara-free-api
-- description: The FundingRequests API from Avalara — 2 operation(s) for fundingrequests.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The FundingRequests API from Avalara — 2 operation(s) for fundingrequests.
   name: Avalara FundingRequests API
   slug: avalara-fundingrequests-api
-- description: Determine tax jurisdictions from addresses
+- baseURL: https://communicationsua.avalara.net
+  baseurl_source: spec
+  description: Determine tax jurisdictions from addresses
   name: Avalara Geocoding API
   slug: avalara-geocoding-api
-- description: Retrieve HS Code classification results
+- baseURL: https://api.avalara.com/classification/v2
+  baseurl_source: spec
+  description: Retrieve HS Code classification results
   name: Avalara HS Codes API
   slug: avalara-hs-codes-api
-- description: Interoperability and network exchange
+- baseURL: https://api.avalara.com/einvoicing/v1
+  baseurl_source: spec
+  description: Interoperability and network exchange
   name: Avalara Interop API
   slug: avalara-interop-api
-- description: Manage product items and their tax classification
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage product items and their tax classification
   name: Avalara Items API
   slug: avalara-items-api
-- description: The JurisdictionOverrides API from Avalara — 3 operation(s) for jurisdictionoverrides.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The JurisdictionOverrides API from Avalara — 3 operation(s) for jurisdictionoverrides.
   name: Avalara JurisdictionOverrides API
   slug: avalara-jurisdictionoverrides-api
-- description: Manage excise licenses
+- baseURL: https://exciseapi.avalara.com/api/v1
+  baseurl_source: spec
+  description: Manage excise licenses
   name: Avalara Licenses API
   slug: avalara-licenses-api
-- description: Manage company locations and jurisdictions
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage company locations and jurisdictions
   name: Avalara Locations API
   slug: avalara-locations-api
-- description: Look up service and transaction type information
+- baseURL: https://communicationsua.avalara.net
+  baseurl_source: spec
+  description: Look up service and transaction type information
   name: Avalara Lookup API
   slug: avalara-lookup-api
-- description: Query e-invoicing mandate definitions
+- baseURL: https://api.avalara.com/einvoicing/v1
+  baseurl_source: spec
+  description: Query e-invoicing mandate definitions
   name: Avalara Mandates API
   slug: avalara-mandates-api
-- description: Multi-document transaction management
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Multi-document transaction management
   name: Avalara MultiDocument API
   slug: avalara-multidocument-api
-- description: Manage tax nexus declarations for companies
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage tax nexus declarations for companies
   name: Avalara Nexus API
   slug: avalara-nexus-api
-- description: The Notices API from Avalara — 4 operation(s) for notices.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Notices API from Avalara — 4 operation(s) for notices.
   name: Avalara Notices API
   slug: avalara-notices-api
-- description: The Notifications API from Avalara — 3 operation(s) for notifications.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Notifications API from Avalara — 3 operation(s) for notifications.
   name: Avalara Notifications API
   slug: avalara-notifications-api
-- description: View filing obligations and tax responsibilities
+- baseURL: https://api.avalara.com/mylodgetax/v1
+  baseurl_source: spec
+  description: View filing obligations and tax responsibilities
   name: Avalara Obligations API
   slug: avalara-obligations-api
-- description: Onboard companies for VAT reporting
+- baseURL: https://api.avalara.com/vat-reporting/v1
+  baseurl_source: spec
+  description: Onboard companies for VAT reporting
   name: Avalara Onboarding API
   slug: avalara-onboarding-api
-- description: Create and manage sales orders for Avalara services
+- baseURL: https://api.avalara.com/business/v1
+  baseurl_source: spec
+  description: Create and manage sales orders for Avalara services
   name: Avalara Orders API
   slug: avalara-orders-api
-- description: Manage product registrations
+- baseURL: https://exciseapi.avalara.com/api/v1
+  baseurl_source: spec
+  description: Manage product registrations
   name: Avalara Products API
   slug: avalara-products-api
-- description: Manage rental property registrations
+- baseURL: https://api.avalara.com/mylodgetax/v1
+  baseurl_source: spec
+  description: Manage rental property registrations
   name: Avalara Properties API
   slug: avalara-properties-api
-- description: The Provisioning API from Avalara — 2 operation(s) for provisioning.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Provisioning API from Avalara — 2 operation(s) for provisioning.
   name: Avalara Provisioning API
   slug: avalara-provisioning-api
-- description: The Registrar API from Avalara — 8 operation(s) for registrar.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Registrar API from Avalara — 8 operation(s) for registrar.
   name: Avalara Registrar API
   slug: avalara-registrar-api
-- description: Manage partner registrations
+- baseURL: https://api.avalara.com/activation/v1
+  baseurl_source: spec
+  description: Manage partner registrations
   name: Avalara Registrations API
   slug: avalara-registrations-api
-- description: Generate and retrieve tax reports
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Generate and retrieve tax reports
   name: Avalara Reports API
   slug: avalara-reports-api
-- description: Manage and file VAT returns
+- baseURL: https://api.avalara.com/vat-reporting/v1
+  baseurl_source: spec
+  description: Manage and file VAT returns
   name: Avalara Returns API
   slug: avalara-returns-api
-- description: Manage company settings
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage company settings
   name: Avalara Settings API
   slug: avalara-settings-api
-- description: Query account subscriptions
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Query account subscriptions
   name: Avalara Subscriptions API
   slug: avalara-subscriptions-api
-- description: Calculate Brazilian taxes on transactions
+- baseURL: https://avataxbr-sandbox.avalarabrasil.com.br/v3
+  baseurl_source: spec
+  description: Calculate Brazilian taxes on transactions
   name: Avalara Tax Calculation API
   slug: avalara-tax-calculation-api
-- description: Calculate excise taxes on transactions
+- baseURL: https://exciseapi.avalara.com/api/v1
+  baseurl_source: spec
+  description: Calculate excise taxes on transactions
   name: Avalara Tax Determination API
   slug: avalara-tax-determination-api
-- description: Look up lodging tax rates by location
+- baseURL: https://api.avalara.com/mylodgetax/v1
+  baseurl_source: spec
+  description: Look up lodging tax rates by location
   name: Avalara Tax Rates API
   slug: avalara-tax-rates-api
-- description: The TaxCodes API from Avalara — 3 operation(s) for taxcodes.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The TaxCodes API from Avalara — 3 operation(s) for taxcodes.
   name: Avalara TaxCodes API
   slug: avalara-taxcodes-api
-- description: The TaxContent API from Avalara — 5 operation(s) for taxcontent.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The TaxContent API from Avalara — 5 operation(s) for taxcontent.
   name: Avalara TaxContent API
   slug: avalara-taxcontent-api
-- description: Manage tax rules and overrides for companies
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage tax rules and overrides for companies
   name: Avalara TaxRules API
   slug: avalara-taxrules-api
-- description: Manage tax transactions
+- baseURL: https://avataxbr-sandbox.avalarabrasil.com.br/v3
+  baseurl_source: spec
+  description: Manage tax transactions
   name: Avalara Transactions API
   slug: avalara-transactions-api
-- description: The Upcs API from Avalara — 3 operation(s) for upcs.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Upcs API from Avalara — 3 operation(s) for upcs.
   name: Avalara Upcs API
   slug: avalara-upcs-api
-- description: The UserDefinedFields API from Avalara — 2 operation(s) for userdefinedfields.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The UserDefinedFields API from Avalara — 2 operation(s) for userdefinedfields.
   name: Avalara UserDefinedFields API
   slug: avalara-userdefinedfields-api
-- description: The Users API from Avalara — 5 operation(s) for users.
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Users API from Avalara — 5 operation(s) for users.
   name: Avalara Users API
   slug: avalara-users-api
-- description: Utility endpoints including ping and health checks
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Utility endpoints including ping and health checks
   name: Avalara Utilities API
   slug: avalara-utilities-api
-- description: Collect and manage W-9 forms
+- baseURL: https://api.avalara.com/1099/v1
+  baseurl_source: spec
+  description: Collect and manage W-9 forms
   name: Avalara W-9 Forms API
   slug: avalara-w-9-forms-api
-- description: The Age Verification API from Avalara — 1 operation(s) for age verification.
+- baseURL: /
+  baseurl_source: spec
+  description: The Age Verification API from Avalara — 1 operation(s) for age verification.
   name: Avalara Age Verification API
   slug: avalara-age-verification-api
-- description: The Shipping Verification API from Avalara — 3 operation(s) for shipping verification.
+- baseURL: /
+  baseurl_source: spec
+  description: The Shipping Verification API from Avalara — 3 operation(s) for shipping verification.
   name: Avalara Shipping Verification API
   slug: avalara-shipping-verification-api
 arazzos:
@@ -2741,7 +2877,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -2751,7 +2887,7 @@ score:
     discoverability: 57.4
     governance: 47.0
     operational_transparency: 42.1
-  previous_composite: 61.0
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2762,7 +2898,7 @@ score:
       total: 68
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

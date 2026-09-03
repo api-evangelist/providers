@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The Cities API from Basetrip — 2 operation(s) for cities.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Cities API from Basetrip — 2 operation(s) for cities.
   name: Basetrip Cities API
   slug: basetrip-cities-api
-- description: The Cost API from Basetrip — 1 operation(s) for cost.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Cost API from Basetrip — 1 operation(s) for cost.
   name: Basetrip Cost API
   slug: basetrip-cost-api
-- description: The Countries API from Basetrip — 2 operation(s) for countries.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Countries API from Basetrip — 2 operation(s) for countries.
   name: Basetrip Countries API
   slug: basetrip-countries-api
-- description: The Health API from Basetrip — 1 operation(s) for health.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Health API from Basetrip — 1 operation(s) for health.
   name: Basetrip Health API
   slug: basetrip-health-api
-- description: The Phrases API from Basetrip — 1 operation(s) for phrases.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Phrases API from Basetrip — 1 operation(s) for phrases.
   name: Basetrip Phrases API
   slug: basetrip-phrases-api
-- description: The Safety API from Basetrip — 1 operation(s) for safety.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Safety API from Basetrip — 1 operation(s) for safety.
   name: Basetrip Safety API
   slug: basetrip-safety-api
-- description: The Visa API from Basetrip — 1 operation(s) for visa.
+- baseURL: https://api.thebasetrip.com/v3
+  baseurl_source: declared
+  description: The Visa API from Basetrip — 1 operation(s) for visa.
   name: Basetrip Visa API
   slug: basetrip-visa-api
 artifact_total: 76
@@ -366,7 +380,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/screenshots/basetrip-2026-06-20T173027.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,16 +55,24 @@ apis:
 - description: CHOP's Department of Biomedical and Health Informatics (DBHi) maintains 168 public repositories covering health data infrastructure, EHR integration, and SMART on FHIR tools. Notable open-source proje
   name: DBHi Biomedical and Health Informatics
   slug: dbhi-biomedical-and-health-informatics
-- description: HL7 FHIR Bulk Data Access (Flat FHIR) Group-level export.
+- baseURL: https://epicnsproxy.chop.edu/fhir/api/FHIR/R4
+  baseurl_source: declared
+  description: HL7 FHIR Bulk Data Access (Flat FHIR) Group-level export.
   name: Children's Hospital of Philadelphia Bulk Data API
   slug: childrens-hospital-of-philadelphia-bulk-data-api
-- description: Patient-mediated clinical and claims data resources required under CMS-9115-F.
+- baseURL: https://epicnsproxy.chop.edu/fhir/api/FHIR/R4
+  baseurl_source: declared
+  description: Patient-mediated clinical and claims data resources required under CMS-9115-F.
   name: Children's Hospital of Philadelphia Patient Access API
   slug: childrens-hospital-of-philadelphia-patient-access-api
-- description: Public provider, organization, location, and endpoint resources required under CMS-9115-F.
+- baseURL: https://epicnsproxy.chop.edu/fhir/api/FHIR/R4
+  baseurl_source: declared
+  description: Public provider, organization, location, and endpoint resources required under CMS-9115-F.
   name: Children's Hospital of Philadelphia Provider Directory API
   slug: childrens-hospital-of-philadelphia-provider-directory-api
-- description: SMART on FHIR launch and discovery endpoints.
+- baseURL: https://epicnsproxy.chop.edu/fhir/api/FHIR/R4
+  baseurl_source: declared
+  description: SMART on FHIR launch and discovery endpoints.
   name: Children's Hospital of Philadelphia SMART API
   slug: childrens-hospital-of-philadelphia-smart-api
 artifact_total: 52
@@ -295,7 +303,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:

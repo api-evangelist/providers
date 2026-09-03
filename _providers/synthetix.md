@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,25 +55,39 @@ apis:
 - description: 'Authenticated WebSocket API for real-time trading operations and account event streaming on Synthetix. Supports live order management, position updates, account activity subscriptions, and delegation '
   name: Synthetix WebSocket Trade API
   slug: synthetix-websocket-trade-api
-- description: The escrowed-balance API from Synthetix — 4 operation(s) for escrowed-balance.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The escrowed-balance API from Synthetix — 4 operation(s) for escrowed-balance.
   name: Synthetix escrowed-balance API
   slug: synthetix-escrowed-balance-api
-- description: The health-check API from Synthetix — 2 operation(s) for health-check.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The health-check API from Synthetix — 2 operation(s) for health-check.
   name: Synthetix health-check API
   slug: synthetix-health-check-api
-- description: The staking API from Synthetix — 2 operation(s) for staking.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The staking API from Synthetix — 2 operation(s) for staking.
   name: Synthetix staking API
   slug: synthetix-staking-api
-- description: The stats API from Synthetix — 1 operation(s) for stats.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The stats API from Synthetix — 1 operation(s) for stats.
   name: Synthetix stats API
   slug: synthetix-stats-api
-- description: The supply API from Synthetix — 2 operation(s) for supply.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The supply API from Synthetix — 2 operation(s) for supply.
   name: Synthetix supply API
   slug: synthetix-supply-api
-- description: The v3 API from Synthetix — 19 operation(s) for v3.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The v3 API from Synthetix — 19 operation(s) for v3.
   name: Synthetix v3 API
   slug: synthetix-v3-api
-- description: The vested-balance API from Synthetix — 1 operation(s) for vested-balance.
+- baseURL: https://papi.synthetix.io/v1/info
+  baseurl_source: declared
+  description: The vested-balance API from Synthetix — 1 operation(s) for vested-balance.
   name: Synthetix vested-balance API
   slug: synthetix-vested-balance-api
 artifact_total: 28
@@ -246,7 +260,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthetix/refs/heads/main/screenshots/synthetix-2026-06-20T194832.png
 security:

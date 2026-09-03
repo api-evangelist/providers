@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 23 operations · 7 acting
 api_count: 1
 apis:
-- description: The Brands API from Goody — 1 operation(s) for brands.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Brands API from Goody — 1 operation(s) for brands.
   name: Goody Brands API
   slug: goody-brands-api
-- description: The Cards API from Goody — 1 operation(s) for cards.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Cards API from Goody — 1 operation(s) for cards.
   name: Goody Cards API
   slug: goody-cards-api
-- description: The Collections API from Goody — 2 operation(s) for collections.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Collections API from Goody — 2 operation(s) for collections.
   name: Goody Collections API
   slug: goody-collections-api
-- description: The Commerce User Payment Methods API from Goody — 1 operation(s) for commerce user payment methods.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Commerce User Payment Methods API from Goody — 1 operation(s) for commerce user payment methods.
   name: Goody Commerce User Payment Methods API
   slug: goody-commerce-user-payment-methods-api
-- description: The Me API from Goody — 1 operation(s) for me.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Me API from Goody — 1 operation(s) for me.
   name: Goody Me API
   slug: goody-me-api
-- description: The Order Activities API from Goody — 1 operation(s) for order activities.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Order Activities API from Goody — 1 operation(s) for order activities.
   name: Goody Order Activities API
   slug: goody-order-activities-api
-- description: The Order Batches API from Goody — 5 operation(s) for order batches.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Order Batches API from Goody — 5 operation(s) for order batches.
   name: Goody Order Batches API
   slug: goody-order-batches-api
-- description: The Orders API from Goody — 4 operation(s) for orders.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Orders API from Goody — 4 operation(s) for orders.
   name: Goody Orders API
   slug: goody-orders-api
-- description: The Payment Methods API from Goody — 1 operation(s) for payment methods.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Payment Methods API from Goody — 1 operation(s) for payment methods.
   name: Goody Payment Methods API
   slug: goody-payment-methods-api
-- description: The Products API from Goody — 2 operation(s) for products.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Products API from Goody — 2 operation(s) for products.
   name: Goody Products API
   slug: goody-products-api
-- description: The Webhooks API from Goody — 2 operation(s) for webhooks.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Webhooks API from Goody — 2 operation(s) for webhooks.
   name: Goody Webhooks API
   slug: goody-webhooks-api
-- description: The Workspaces API from Goody — 1 operation(s) for workspaces.
+- baseURL: https://api.ongoody.com
+  baseurl_source: declared
+  description: The Workspaces API from Goody — 1 operation(s) for workspaces.
   name: Goody Workspaces API
   slug: goody-workspaces-api
 artifact_total: 44
@@ -334,7 +358,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -344,7 +368,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 58.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -362,7 +386,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
 security:

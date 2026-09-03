@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 4
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 49 operations · 22 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Billing API from CUDO Compute — 4 operation(s) for billing.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Billing API from CUDO Compute — 4 operation(s) for billing.
   name: CUDO Compute Billing API
   slug: cudo-compute-billing-api
-- description: The Data Centers API from CUDO Compute — 3 operation(s) for data centers.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Data Centers API from CUDO Compute — 3 operation(s) for data centers.
   name: CUDO Compute Data Centers API
   slug: cudo-compute-data-centers-api
-- description: The Disks API from CUDO Compute — 5 operation(s) for disks.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Disks API from CUDO Compute — 5 operation(s) for disks.
   name: CUDO Compute Disks API
   slug: cudo-compute-disks-api
-- description: The Images API from CUDO Compute — 3 operation(s) for images.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Images API from CUDO Compute — 3 operation(s) for images.
   name: CUDO Compute Images API
   slug: cudo-compute-images-api
-- description: The Machine Types API from CUDO Compute — 4 operation(s) for machine types.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Machine Types API from CUDO Compute — 4 operation(s) for machine types.
   name: CUDO Compute Machine Types API
   slug: cudo-compute-machine-types-api
-- description: The Networks API from CUDO Compute — 5 operation(s) for networks.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Networks API from CUDO Compute — 5 operation(s) for networks.
   name: CUDO Compute Networks API
   slug: cudo-compute-networks-api
-- description: The SSH Keys API from CUDO Compute — 3 operation(s) for ssh keys.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The SSH Keys API from CUDO Compute — 3 operation(s) for ssh keys.
   name: CUDO Compute SSH Keys API
   slug: cudo-compute-ssh-keys-api
-- description: The Virtual Machines API from CUDO Compute — 10 operation(s) for virtual machines.
+- baseURL: https://rest.compute.cudo.org
+  baseurl_source: declared
+  description: The Virtual Machines API from CUDO Compute — 10 operation(s) for virtual machines.
   name: CUDO Compute Virtual Machines API
   slug: cudo-compute-virtual-machines-api
 artifact_total: 24
@@ -201,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/screenshots/cudo-compute-2026-07-25T210908.png
 security:

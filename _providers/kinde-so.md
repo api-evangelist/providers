@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 12
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 175 operations · 111 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: The API Keys API from Kinde — 3 operation(s) for api keys.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The API Keys API from Kinde — 3 operation(s) for api keys.
   name: Kinde API Keys API
   slug: kinde-so-api-keys-api
-- description: The APIs API from Kinde — 6 operation(s) for apis.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The APIs API from Kinde — 6 operation(s) for apis.
   name: Kinde APIs API
   slug: kinde-so-apis-api
-- description: The Applications API from Kinde — 7 operation(s) for applications.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Applications API from Kinde — 7 operation(s) for applications.
   name: Kinde Applications API
   slug: kinde-so-applications-api
-- description: The Billing Agreements API from Kinde — 1 operation(s) for billing agreements.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing Agreements API from Kinde — 1 operation(s) for billing agreements.
   name: Kinde Billing Agreements API
   slug: kinde-so-billing-agreements-api
-- description: The Billing Entitlements API from Kinde — 1 operation(s) for billing entitlements.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing Entitlements API from Kinde — 1 operation(s) for billing entitlements.
   name: Kinde Billing Entitlements API
   slug: kinde-so-billing-entitlements-api
-- description: The Billing Meter Usage API from Kinde — 1 operation(s) for billing meter usage.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing Meter Usage API from Kinde — 1 operation(s) for billing meter usage.
   name: Kinde Billing Meter Usage API
   slug: kinde-so-billing-meter-usage-api
-- description: The Business API from Kinde — 1 operation(s) for business.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Business API from Kinde — 1 operation(s) for business.
   name: Kinde Business API
   slug: kinde-so-business-api
-- description: The Callbacks API from Kinde — 2 operation(s) for callbacks.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Callbacks API from Kinde — 2 operation(s) for callbacks.
   name: Kinde Callbacks API
   slug: kinde-so-callbacks-api
-- description: The Connected Apps API from Kinde — 3 operation(s) for connected apps.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Connected Apps API from Kinde — 3 operation(s) for connected apps.
   name: Kinde Connected Apps API
   slug: kinde-so-connected-apps-api
-- description: The Connections API from Kinde — 2 operation(s) for connections.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Connections API from Kinde — 2 operation(s) for connections.
   name: Kinde Connections API
   slug: kinde-so-connections-api
-- description: The Directories API from Kinde — 2 operation(s) for directories.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Directories API from Kinde — 2 operation(s) for directories.
   name: Kinde Directories API
   slug: kinde-so-directories-api
-- description: The Environment variables API from Kinde — 2 operation(s) for environment variables.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Environment variables API from Kinde — 2 operation(s) for environment variables.
   name: Kinde Environment variables API
   slug: kinde-so-environment-variables-api
-- description: The Environments API from Kinde — 6 operation(s) for environments.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Environments API from Kinde — 6 operation(s) for environments.
   name: Kinde Environments API
   slug: kinde-so-environments-api
-- description: The Feature Flags API from Kinde — 2 operation(s) for feature flags.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Feature Flags API from Kinde — 2 operation(s) for feature flags.
   name: Kinde Feature Flags API
   slug: kinde-so-feature-flags-api
-- description: The Identities API from Kinde — 1 operation(s) for identities.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Identities API from Kinde — 1 operation(s) for identities.
   name: Kinde Identities API
   slug: kinde-so-identities-api
-- description: The Industries API from Kinde — 1 operation(s) for industries.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Industries API from Kinde — 1 operation(s) for industries.
   name: Kinde Industries API
   slug: kinde-so-industries-api
-- description: The MFA API from Kinde — 1 operation(s) for mfa.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The MFA API from Kinde — 1 operation(s) for mfa.
   name: Kinde MFA API
   slug: kinde-so-mfa-api
-- description: The Organizations API from Kinde — 27 operation(s) for organizations.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Kinde — 27 operation(s) for organizations.
   name: Kinde Organizations API
   slug: kinde-so-organizations-api
-- description: The Permissions API from Kinde — 2 operation(s) for permissions.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Permissions API from Kinde — 2 operation(s) for permissions.
   name: Kinde Permissions API
   slug: kinde-so-permissions-api
-- description: The Properties API from Kinde — 2 operation(s) for properties.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Properties API from Kinde — 2 operation(s) for properties.
   name: Kinde Properties API
   slug: kinde-so-properties-api
-- description: The Property Categories API from Kinde — 2 operation(s) for property categories.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Property Categories API from Kinde — 2 operation(s) for property categories.
   name: Kinde Property Categories API
   slug: kinde-so-property-categories-api
-- description: The Roles API from Kinde — 7 operation(s) for roles.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Roles API from Kinde — 7 operation(s) for roles.
   name: Kinde Roles API
   slug: kinde-so-roles-api
-- description: The Search API from Kinde — 1 operation(s) for search.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Search API from Kinde — 1 operation(s) for search.
   name: Kinde Search API
   slug: kinde-so-search-api
-- description: The Subscribers API from Kinde — 2 operation(s) for subscribers.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Subscribers API from Kinde — 2 operation(s) for subscribers.
   name: Kinde Subscribers API
   slug: kinde-so-subscribers-api
-- description: The Timezones API from Kinde — 1 operation(s) for timezones.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Timezones API from Kinde — 1 operation(s) for timezones.
   name: Kinde Timezones API
   slug: kinde-so-timezones-api
-- description: The Users API from Kinde — 11 operation(s) for users.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Kinde — 11 operation(s) for users.
   name: Kinde Users API
   slug: kinde-so-users-api
-- description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
+- baseURL: https://{yourbusiness}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
   name: Kinde Webhooks API
   slug: kinde-so-webhooks-api
 artifact_total: 64
@@ -319,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde-so/refs/heads/main/screenshots/kinde-so-2026-07-25T223804.png
 security:

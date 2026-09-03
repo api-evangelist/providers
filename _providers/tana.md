@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: The AddToNodeV2 API from Tana — 1 operation(s) for addtonodev2.
+- baseURL: https://europe-west1-tagr-prod.cloudfunctions.net
+  baseurl_source: declared
+  description: The AddToNodeV2 API from Tana — 1 operation(s) for addtonodev2.
   name: Tana AddToNodeV2 API
   slug: tana-addtonodev2-api
 artifact_total: 10
@@ -229,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/screenshots/tana-2026-08-17T082245.png
 security:

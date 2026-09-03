@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 50 operations · 19 acting
 api_count: 1
 apis:
-- description: This API includes endpoints that allow you to interact with `Assets` metadata.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to interact with `Assets` metadata.
   name: Nortech Asset API
   slug: nortech-asset-api
-- description: This API includes endpoints that allow you to create and manage `Derivers`.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to create and manage `Derivers`.
   name: Nortech Deriver API
   slug: nortech-deriver-api
-- description: This API includes endpoints that allow you to interact with `Divisions` metadata.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to interact with `Divisions` metadata.
   name: Nortech Division API
   slug: nortech-division-api
-- description: The Health API from Nortech — 1 operation(s) for health.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: The Health API from Nortech — 1 operation(s) for health.
   name: Nortech Health API
   slug: nortech-health-api
-- description: This API includes endpoints that allow you to retrieve raw `Signal` Data for a specified period. The data requested is compiled into a file that you can download posteriorly.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to retrieve raw `Signal` Data for a specified period. The data requested is compiled into a file that you can download posteriorly.
   name: Nortech Historical Data API
   slug: nortech-historical-data-api
-- description: This API includes endpoints that allow you to import signal data.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to import signal data.
   name: Nortech Import Data API
   slug: nortech-import-data-api
-- description: This API includes endpoints that allow you to retrieve live data.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to retrieve live data.
   name: Nortech Live Data API
   slug: nortech-live-data-api
-- description: The Me API from Nortech — 1 operation(s) for me.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: The Me API from Nortech — 1 operation(s) for me.
   name: Nortech Me API
   slug: nortech-me-api
-- description: This API provides endpoints to configure the Nortech AI Live API by selecting signals to be exported as MQTT messages. Data can then be consumed from `mqtts://live.data.apps.nor.tech` at topics with s
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API provides endpoints to configure the Nortech AI Live API by selecting signals to be exported as MQTT messages. Data can then be consumed from `mqtts://live.data.apps.nor.tech` at topics with s
   name: Nortech MQTT Live Data API
   slug: nortech-mqtt-live-data-api
-- description: This API includes endpoints that allow you to interact with `Signals` metadata.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to interact with `Signals` metadata.
   name: Nortech Signal API
   slug: nortech-signal-api
-- description: This API includes endpoints that allow you to interact with `Units` metadata.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to interact with `Units` metadata.
   name: Nortech Unit API
   slug: nortech-unit-api
-- description: This API includes endpoints that allow you to interact with `Workspaces` metadata.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: This API includes endpoints that allow you to interact with `Workspaces` metadata.
   name: Nortech Workspace API
   slug: nortech-workspace-api
-- description: The historicalData API from Nortech — 0 operation(s) for historicaldata.
+- baseURL: https://api.apps.nor.tech
+  baseurl_source: declared
+  description: The historicalData API from Nortech — 0 operation(s) for historicaldata.
   name: Nortech Historical Data API
   slug: nortech-historicaldata-api
 artifact_total: 31
@@ -268,7 +294,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -278,7 +304,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png
 security:

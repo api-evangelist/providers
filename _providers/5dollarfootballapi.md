@@ -23,28 +23,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The bookmakers quoted by the odds endpoints.
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: The bookmakers quoted by the odds endpoints.
   name: 5DollarFootballAPI Bookmakers API
   slug: 5dollarfootballapi-bookmakers-api
-- description: The country master referenced by league and team records.
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: The country master referenced by league and team records.
   name: 5DollarFootballAPI Countries API
   slug: 5dollarfootballapi-countries-api
-- description: 'Matches: the daily window and per-fixture detail — events, statistics, odds and odds history.'
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: 'Matches: the daily window and per-fixture detail — events, statistics, odds and odds history.'
   name: 5DollarFootballAPI Fixtures API
   slug: 5dollarfootballapi-fixtures-api
-- description: Competitions and their seasons, plus a whole season of fixtures.
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: Competitions and their seasons, plus a whole season of fixtures.
   name: 5DollarFootballAPI Leagues API
   slug: 5dollarfootballapi-leagues-api
-- description: League tables — points, and the corner and card tables.
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: League tables — points, and the corner and card tables.
   name: 5DollarFootballAPI Standings API
   slug: 5dollarfootballapi-standings-api
-- description: Your plan, limits and usage.
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: Your plan, limits and usage.
   name: 5DollarFootballAPI Status API
   slug: 5dollarfootballapi-status-api
-- description: Clubs and national teams, plus their fixture history.
+- baseURL: https://api.5dollarfootballapi.com/v1
+  baseurl_source: declared
+  description: Clubs and national teams, plus their fixture history.
   name: 5DollarFootballAPI Teams API
   slug: 5dollarfootballapi-teams-api
 artifact_total: 7
@@ -113,7 +127,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -135,8 +149,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/5dollarfootballapi/refs/heads/main/screenshots/5dollarfootballapi-2026-09-02T144104.png
 slug: 5dollarfootballapi
 tags:
 - Football

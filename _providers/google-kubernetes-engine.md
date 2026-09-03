@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 23 operations · 18 acting
 api_count: 5
 apis:
-- description: The Clusters API from Google Kubernetes Engine — 1 operation(s) for clusters.
+- baseURL: https://container.googleapis.com
+  baseurl_source: spec
+  description: The Clusters API from Google Kubernetes Engine — 1 operation(s) for clusters.
   name: Google Kubernetes Engine Clusters API
   slug: google-kubernetes-engine-clusters-api
-- description: The Google Kubernetes Engine API API from Google Kubernetes Engine — 15 operation(s) for google kubernetes engine api.
+- baseURL: https://container.googleapis.com
+  baseurl_source: spec
+  description: The Google Kubernetes Engine API API from Google Kubernetes Engine — 15 operation(s) for google kubernetes engine api.
   name: Google Kubernetes Engine Google Kubernetes Engine API API
   slug: google-kubernetes-engine-google-kubernetes-engine-api-api
-- description: The NodePools API from Google Kubernetes Engine — 1 operation(s) for nodepools.
+- baseURL: https://container.googleapis.com
+  baseurl_source: spec
+  description: The NodePools API from Google Kubernetes Engine — 1 operation(s) for nodepools.
   name: Google Kubernetes Engine NodePools API
   slug: google-kubernetes-engine-nodepools-api
-- description: The Operations API from Google Kubernetes Engine — 1 operation(s) for operations.
+- baseURL: https://container.googleapis.com
+  baseurl_source: spec
+  description: The Operations API from Google Kubernetes Engine — 1 operation(s) for operations.
   name: Google Kubernetes Engine Operations API
   slug: google-kubernetes-engine-operations-api
-- description: The ServerConfig API from Google Kubernetes Engine — 1 operation(s) for serverconfig.
+- baseURL: https://container.googleapis.com
+  baseurl_source: spec
+  description: The ServerConfig API from Google Kubernetes Engine — 1 operation(s) for serverconfig.
   name: Google Kubernetes Engine ServerConfig API
   slug: google-kubernetes-engine-serverconfig-api
 artifact_total: 20
@@ -192,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/screenshots/google-kubernetes-engine-2026-06-20T182210.png
 security:

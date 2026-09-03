@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
-- description: Macroeconomic and business environment profile data.
+- baseURL: https://api.ibisworld.com/v3
+  baseurl_source: declared
+  description: Macroeconomic and business environment profile data.
   name: IBISWorld Business Environment API
   slug: ibisworld-business-environment-api
-- description: Industry classification systems and taxonomies.
+- baseURL: https://api.ibisworld.com/v3
+  baseurl_source: declared
+  description: Industry classification systems and taxonomies.
   name: IBISWorld Classification API
   slug: ibisworld-classification-api
-- description: Company-specific information and lookups.
+- baseURL: https://api.ibisworld.com/v3
+  baseurl_source: declared
+  description: Company-specific information and lookups.
   name: IBISWorld Company API
   slug: ibisworld-company-api
-- description: Bulk data export and download operations.
+- baseURL: https://api.ibisworld.com/v3
+  baseurl_source: declared
+  description: Bulk data export and download operations.
   name: IBISWorld Downloads API
   slug: ibisworld-downloads-api
-- description: Industry research reports and market intelligence data.
+- baseURL: https://api.ibisworld.com/v3
+  baseurl_source: declared
+  description: Industry research reports and market intelligence data.
   name: IBISWorld Industry API
   slug: ibisworld-industry-api
 artifact_total: 20
@@ -198,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: The Chat API from glhf — 1 operation(s) for chat.
+- baseURL: https://glhf.chat/api/openai/v1
+  baseurl_source: declared
+  description: The Chat API from glhf — 1 operation(s) for chat.
   name: glhf Chat API
   slug: glhf-chat-chat-api
-- description: The Models API from glhf — 1 operation(s) for models.
+- baseURL: https://glhf.chat/api/openai/v1
+  baseurl_source: declared
+  description: The Models API from glhf — 1 operation(s) for models.
   name: glhf Models API
   slug: glhf-chat-models-api
 artifact_total: 14
@@ -153,7 +157,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -163,7 +167,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 39.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -172,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

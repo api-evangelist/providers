@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 5
 apis:
-- description: Manage product catalog
+- baseURL: https://connect.squareup.com/v2
+  baseurl_source: spec
+  description: Manage product catalog
   name: Block Catalog API
   slug: block-catalog-api
-- description: Customer management and engagement
+- baseURL: https://connect.squareup.com/v2
+  baseurl_source: spec
+  description: Customer management and engagement
   name: Block Customers API
   slug: block-customers-api
-- description: Merchant and location data
+- baseURL: https://connect.squareup.com/v2
+  baseurl_source: spec
+  description: Merchant and location data
   name: Block Merchants API
   slug: block-merchants-api
-- description: Create and manage orders
+- baseURL: https://connect.squareup.com/v2
+  baseurl_source: spec
+  description: Create and manage orders
   name: Block Orders API
   slug: block-orders-api
-- description: Process and manage payments
+- baseURL: https://connect.squareup.com/v2
+  baseurl_source: spec
+  description: Process and manage payments
   name: Block Payments API
   slug: block-payments-api
 arazzos:
@@ -411,7 +421,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -421,7 +431,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 43.0
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -436,7 +446,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png
 security:

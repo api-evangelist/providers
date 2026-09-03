@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 21 operations · 12 acting
 api_count: 1
 apis:
-- description: The Companies API from Cobee by Pluxee — 16 operation(s) for companies.
+- baseURL: https://public-api.cobee.io/api/v3
+  baseurl_source: declared
+  description: The Companies API from Cobee by Pluxee — 16 operation(s) for companies.
   name: Cobee by Pluxee Companies API
   slug: cobee-companies-api
-- description: The Oauth API from Cobee by Pluxee — 1 operation(s) for oauth.
+- baseURL: https://public-api.cobee.io/api/v3
+  baseurl_source: declared
+  description: The Oauth API from Cobee by Pluxee — 1 operation(s) for oauth.
   name: Cobee by Pluxee Oauth API
   slug: cobee-oauth-api
 artifact_total: 10
@@ -208,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Read Jira field metadata.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Read Jira field metadata.
   name: Atlassian Jira Fields API
   slug: atlassian-jira-fields-api
-- description: Manage comments on issues.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage comments on issues.
   name: Atlassian Jira Issue Comments API
   slug: atlassian-jira-issue-comments-api
-- description: Search issues using JQL.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Search issues using JQL.
   name: Atlassian Jira Issue Search API
   slug: atlassian-jira-issue-search-api
-- description: List and perform workflow transitions.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: List and perform workflow transitions.
   name: Atlassian Jira Issue Transitions API
   slug: atlassian-jira-issue-transitions-api
-- description: Manage worklogs on issues.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage worklogs on issues.
   name: Atlassian Jira Issue Worklogs API
   slug: atlassian-jira-issue-worklogs-api
-- description: Create, read, update and delete Jira issues.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Create, read, update and delete Jira issues.
   name: Atlassian Jira Issues API
   slug: atlassian-jira-issues-api
-- description: Manage Jira projects.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage Jira projects.
   name: Atlassian Jira Projects API
   slug: atlassian-jira-projects-api
-- description: Read user information.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Read user information.
   name: Atlassian Jira Users API
   slug: atlassian-jira-users-api
 artifact_total: 47
@@ -264,7 +280,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png
 security:

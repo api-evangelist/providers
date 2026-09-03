@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -47,46 +47,74 @@ apis:
 - description: The Mem0 Platform API provides hosted memory services for AI agents, exposing endpoints for adding, searching, retrieving, updating, and deleting memories, plus entities, events, organizations, projec
   name: Mem0 Platform API
   slug: platform-api
-- description: The agents API from Mem0 — 1 operation(s) for agents.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The agents API from Mem0 — 1 operation(s) for agents.
   name: Mem0 agents API
   slug: mem0-agents-api
-- description: The apps API from Mem0 — 1 operation(s) for apps.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The apps API from Mem0 — 1 operation(s) for apps.
   name: Mem0 apps API
   slug: mem0-apps-api
-- description: The entities API from Mem0 — 3 operation(s) for entities.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The entities API from Mem0 — 3 operation(s) for entities.
   name: Mem0 entities API
   slug: mem0-entities-api
-- description: The events API from Mem0 — 2 operation(s) for events.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The events API from Mem0 — 2 operation(s) for events.
   name: Mem0 events API
   slug: mem0-events-api
-- description: The exports API from Mem0 — 2 operation(s) for exports.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The exports API from Mem0 — 2 operation(s) for exports.
   name: Mem0 exports API
   slug: mem0-exports-api
-- description: The feedback API from Mem0 — 1 operation(s) for feedback.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The feedback API from Mem0 — 1 operation(s) for feedback.
   name: Mem0 feedback API
   slug: mem0-feedback-api
-- description: The memories API from Mem0 — 12 operation(s) for memories.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The memories API from Mem0 — 12 operation(s) for memories.
   name: Mem0 memories API
   slug: mem0-memories-api
-- description: The organizations API from Mem0 — 3 operation(s) for organizations.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The organizations API from Mem0 — 3 operation(s) for organizations.
   name: Mem0 organizations API
   slug: mem0-organizations-api
-- description: The Project API from Mem0 — 1 operation(s) for project.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The Project API from Mem0 — 1 operation(s) for project.
   name: Mem0 Project API
   slug: mem0-project-api
-- description: The projects API from Mem0 — 3 operation(s) for projects.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The projects API from Mem0 — 3 operation(s) for projects.
   name: Mem0 projects API
   slug: mem0-projects-api
-- description: The runs API from Mem0 — 1 operation(s) for runs.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The runs API from Mem0 — 1 operation(s) for runs.
   name: Mem0 runs API
   slug: mem0-runs-api
-- description: The stats API from Mem0 — 1 operation(s) for stats.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The stats API from Mem0 — 1 operation(s) for stats.
   name: Mem0 stats API
   slug: mem0-stats-api
-- description: The users API from Mem0 — 1 operation(s) for users.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The users API from Mem0 — 1 operation(s) for users.
   name: Mem0 users API
   slug: mem0-users-api
-- description: The webhooks API from Mem0 — 2 operation(s) for webhooks.
+- baseURL: https://api.mem0.ai
+  baseurl_source: declared
+  description: The webhooks API from Mem0 — 2 operation(s) for webhooks.
   name: Mem0 webhooks API
   slug: mem0-webhooks-api
 artifact_total: 37
@@ -271,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem0/refs/heads/main/screenshots/mem0-2026-06-20T185233.png
 security:

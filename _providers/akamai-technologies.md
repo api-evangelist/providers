@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 772
   human_in_the_loop: 19
@@ -45,178 +45,294 @@ agentic_access:
   summary_line: 1661 operations · 772 acting · 19 human-in-the-loop
 api_count: 58
 apis:
-- description: View which rules Adaptive Acceleration applies to a property, and generate new rules.
+- baseURL: https://{hostname}/adaptive-acceleration/v1
+  baseurl_source: declared
+  description: View which rules Adaptive Acceleration applies to a property, and generate new rules.
   name: Akamai Adaptive Acceleration API
   slug: adaptive-acceleration-v1
-- description: Get notified automatically of changes in your origin infrastructure and content-delivery patterns.
+- baseURL: https://{hostname}/alerts/v2
+  baseurl_source: declared
+  description: Get notified automatically of changes in your origin infrastructure and content-delivery patterns.
   name: Akamai Alerts API
   slug: alerts-v2
-- description: Provide secondary authentication to cloud, on-premises, web-based, SaaS, and IaaS applications.
+- baseURL: https://{hostname}/amfa/v1
+  baseurl_source: declared
+  description: Provide secondary authentication to cloud, on-premises, web-based, SaaS, and IaaS applications.
   name: Akamai MFA API
   slug: amfa-v1
-- description: Register and manage your APIs to enable security, delivery, and governance.
+- baseURL: https://{hostname}/api-definitions/v2
+  baseurl_source: declared
+  description: Register and manage your APIs to enable security, delivery, and governance.
   name: Akamai API Endpoint Definition API
   slug: api-definitions-v2
-- description: Create and manage API keys. Control your API traffic with quotas and throttling.
+- baseURL: https://{hostname}/apikey-manager-api/v1
+  baseurl_source: declared
+  description: Create and manage API keys. Control your API traffic with quotas and throttling.
   name: Akamai API Keys and Traffic Management API
   slug: apikey-manager-api-v1
-- description: Manage your configurations for Kona Site Defender, Web Application Protector, and Client Reputation.
+- baseURL: https://{hostname}/appsec/v1
+  baseurl_source: declared
+  description: Manage your configurations for Kona Site Defender, Web Application Protector, and Client Reputation.
   name: Akamai Application Security API
   slug: appsec-v1
-- description: Securely store and manage access keys for cloud origins independent of your properties.
+- baseURL: https://{hostname}/cam/v1
+  baseurl_source: declared
+  description: Securely store and manage access keys for cloud origins independent of your properties.
   name: Akamai Cloud Access Manager API
   slug: cam-v1
-- description: Manage support requests to resolve issues with your Akamai applications and services.
+- baseURL: https://{hostname}/case-management/v3
+  baseurl_source: declared
+  description: Manage support requests to resolve issues with your Akamai applications and services.
   name: Akamai Case Management API
   slug: case-management-v3
-- description: Refresh or remove specific cached objects, by URLs, content provider (CP) codes, or cache tags.
+- baseURL: https://{hostname}/ccu/v3
+  baseurl_source: declared
+  description: Refresh or remove specific cached objects, by URLs, content provider (CP) codes, or cache tags.
   name: Akamai Fast Purge API
   slug: ccu-v3
-- description: Manage the lifecycle and monitor the status of your property hostnames on Akamai's China CDN.
+- baseURL: https://{hostname}/chinacdn/v1
+  baseurl_source: declared
+  description: Manage the lifecycle and monitor the status of your property hostnames on Akamai's China CDN.
   name: Akamai China CDN Manager API
   slug: chinacdn-v1
-- description: Restrict access between your origin infrastructure and Akamai edge servers based on CIDR blocks.
+- baseURL: https://{hostname}/client-access-control/v1
+  baseurl_source: declared
+  description: Restrict access between your origin infrastructure and Akamai edge servers based on CIDR blocks.
   name: Akamai Client Access Control API
   slug: client-access-control-v1
-- description: Seamlessly connect your publicly stored media delivery content to the Akamai edge.
+- baseURL: https://{hostname}/cloud-wrapper/v1
+  baseurl_source: declared
+  description: Seamlessly connect your publicly stored media delivery content to the Akamai edge.
   name: Akamai Cloud Wrapper Configuration API
   slug: cloud-wrapper-v1
-- description: Solve specific business challenges using value-added apps that complement Akamai's core solutions.
+- baseURL: https://{hostname}/cloudlets/api/v2
+  baseurl_source: declared
+  description: Solve specific business challenges using value-added apps that complement Akamai's core solutions.
   name: Akamai Cloudlets API
   slug: cloudlets-v2
-- description: Solve specific business challenges using value-added apps that complement Akamai's core solutions.
+- baseURL: https://{hostname}/cloudlets/v3
+  baseurl_source: declared
+  description: Solve specific business challenges using value-added apps that complement Akamai's core solutions.
   name: Akamai Cloudlets API
   slug: cloudlets-v3
-- description: Replace or augment your DNS infrastructure with a cloud-based authoritative DNS solution.
+- baseURL: https://{hostname}/config-dns/v2
+  baseurl_source: declared
+  description: Replace or augment your DNS infrastructure with a cloud-based authoritative DNS solution.
   name: Akamai Edge DNS API
   slug: config-dns-v2
-- description: Use load balancing to manage website and mobile performance demands.
+- baseURL: https://{hostname}/config-gtm/v1
+  baseurl_source: declared
+  description: Use load balancing to manage website and mobile performance demands.
   name: Akamai Global Traffic Management API
   slug: config-gtm-v1
-- description: Broadcast live streaming events reliably at scale.
+- baseURL: https://{hostname}/config-media-live/v2
+  baseurl_source: declared
+  description: Broadcast live streaming events reliably at scale.
   name: Akamai Media Services Live Stream Provisioning API
   slug: config-media-live-v2
-- description: Access detailed information about CP codes, edit their parameters, and group them for billing.
+- baseURL: https://{hostname}/cprg/v1
+  baseurl_source: declared
+  description: Access detailed information about CP codes, edit their parameters, and group them for billing.
   name: Akamai CP Codes and Reporting Groups API
   slug: cprg-v1
-- description: Get full life cycle management of SSL certificates for your Akamai CDN applications.
+- baseURL: https://{hostname}/cps/v2
+  baseurl_source: declared
+  description: Get full life cycle management of SSL certificates for your Akamai CDN applications.
   name: Akamai Certificate Provisioning System API
   slug: cps-v2
-- description: Manage and control remote access to your applications.
+- baseURL: https://{hostname}/crux/v1
+  baseurl_source: declared
+  description: Manage and control remote access to your applications.
   name: Akamai Enterprise Application Access API
   slug: crux-v1
-- description: Monitors activity on the Akamai platform and sends live log data to a destination of your choice.
+- baseURL: https://{hostname}/datastream-config-api/v2
+  baseurl_source: declared
+  description: Monitors activity on the Akamai platform and sends live log data to a destination of your choice.
   name: Akamai DataStream 2 API
   slug: datastream-config-api-v2
-- description: Refresh content cached on the edge network based on directory, file extension, or other logic.
+- baseURL: https://{hostname}/eccu-api/v1
+  baseurl_source: declared
+  description: Refresh content cached on the edge network based on directory, file extension, or other logic.
   name: Akamai Enhanced Content Control Utility API
   slug: eccu-api-v1
-- description: Diagnose your server, DNS, and network problems from Akamai servers around the world.
+- baseURL: https://{hostname}/edge-diagnostics/v1
+  baseurl_source: declared
+  description: Diagnose your server, DNS, and network problems from Akamai servers around the world.
   name: Akamai Edge Diagnostics API
   slug: edge-diagnostics-v1
-- description: Add a key-value store database to your serverless compute logic and build data-driven applications.
+- baseURL: https://{hostname}/edgekv/v1
+  baseurl_source: declared
+  description: Add a key-value store database to your serverless compute logic and build data-driven applications.
   name: Akamai EdgeKV API
   slug: edgekv-v1
-- description: Execute JavaScript functions at the edge to optimize site performance and customize web experiences.
+- baseURL: https://{hostname}/edgeworkers/v1
+  baseurl_source: declared
+  description: Execute JavaScript functions at the edge to optimize site performance and customize web experiences.
   name: Akamai EdgeWorkers API
   slug: edgeworkers-v1
-- description: A programmatic interface to manage policy settings to protect against enterprise security and acceptable user policy related events.
+- baseURL: https://{hostname}/etp-config/v3
+  baseurl_source: declared
+  description: A programmatic interface to manage policy settings to protect against enterprise security and acceptable user policy related events.
   name: Akamai Secure Internet Access Enterprise Configuration API
   slug: etp-config-v3
-- description: Access and analyze reports for acceptable user policy (AUP) events, DNS activity, network traffic connections, security connector events, and threat events.
+- baseURL: https://{hostname}/etp-report/v3
+  baseurl_source: declared
+  description: Access and analyze reports for acceptable user policy (AUP) events, DNS activity, network traffic connections, security connector events, and threat events.
   name: Akamai Secure Internet Access Enterprise Reporting API
   slug: etp-report-v3
-- description: Monitor and analyze Control Center events.
+- baseURL: https://{hostname}/event-viewer-api/v1
+  baseurl_source: declared
+  description: Monitor and analyze Control Center events.
   name: Akamai Event Viewer API
   slug: event-viewer-v1
-- description: Configure events, reporting, and alerts in Event Center.
+- baseURL: https://{hostname}/events/v3
+  baseurl_source: declared
+  description: Configure events, reporting, and alerts in Event Center.
   name: Akamai Event Center API
   slug: events-v3
-- description: Get notifications of CIDR block changes on the edge network so you can update your firewall rules.
+- baseURL: https://{hostname}/firewall-rules-manager/v1
+  baseurl_source: declared
+  description: Get notifications of CIDR block changes on the edge network so you can update your firewall rules.
   name: Akamai Firewall Rules Notification API
   slug: firewall-rules-manager-v1
-- description: Get read-only reports on Global Traffic Management's real-time statistics.
+- baseURL: https://{hostname}/gtm-api/v1/reports
+  baseurl_source: declared
+  description: Get read-only reports on Global Traffic Management's real-time statistics.
   name: Akamai Global Traffic Management Reporting API
   slug: gtm-api-v1
-- description: Submit load data for a Global Traffic Management domain in either JSON or XML.
+- baseURL: http://{hostname}/gtm-load-data/v1
+  baseurl_source: declared
+  description: Submit load data for a Global Traffic Management domain in either JSON or XML.
   name: Akamai Global Traffic Management Load Feedback API
   slug: gtm-load-data-v1
-- description: Create users and groups, and define policies that manage access to Control Center applications.
+- baseURL: https://{hostname}/identity-management/v1
+  baseurl_source: declared
+  description: Create users and groups, and define policies that manage access to Control Center applications.
   name: Akamai Identity and Access Management API
   slug: identity-management-v1
-- description: Create users and groups, and define policies that manage access to Control Center applications.
+- baseURL: https://{hostname}/identity-management/v2
+  baseurl_source: declared
+  description: Create users and groups, and define policies that manage access to Control Center applications.
   name: Akamai Identity and Access Management API
   slug: identity-management-v2
-- description: Create users and groups, and define policies that manage access to Control Center applications.
+- baseURL: https://{hostname}/identity-management/v3
+  baseurl_source: declared
+  description: Create users and groups, and define policies that manage access to Control Center applications.
   name: Akamai Identity and Access Management API
   slug: identity-management-v3
-- description: Automate image and video delivery optimizations for your website visitors.
+- baseURL: https://{hostname}/imaging/v2
+  baseurl_source: declared
+  description: Automate image and video delivery optimizations for your website visitors.
   name: Akamai Image & Video Manager API
   slug: imaging-v2
-- description: Shield your site from DDoS attacks by diverting traffic and scrubbing network packets.
+- baseURL: https://{hostname}/ip-protect/v1
+  baseurl_source: declared
+  description: Shield your site from DDoS attacks by diverting traffic and scrubbing network packets.
   name: Akamai Prolexic IP Protect Configuration API
   slug: ip-protect-v1
-- description: Manage the public keys that authenticate JSON web token requests for IoT devices.
+- baseURL: https://{hostname}/jwt-api/v1
+  baseurl_source: declared
+  description: Manage the public keys that authenticate JSON web token requests for IoT devices.
   name: Akamai IoT Token Access Control API
   slug: jwt-api-v1
-- description: Archive live streams in HLS and DASH formats for use as video on demand (VOD) content.
+- baseURL: https://{hostname}/live-archive/v1
+  baseurl_source: declared
+  description: Archive live streams in HLS and DASH formats for use as video on demand (VOD) content.
   name: Akamai Live Archive Management API
   slug: live-archive-v1
-- description: Monitor traffic for Media Services Live solutions.
+- baseURL: https://{hostname}/media-reports/v1
+  baseurl_source: declared
+  description: Monitor traffic for Media Services Live solutions.
   name: Akamai Media Services Live Reports API
   slug: media-reports-v1
-- description: Akamai NetStorage Usage API — 7 operations published by Akamai Technologies in the akamai/akamai-apis OpenAPI repository.
+- baseURL: http://{apiKey}-nsu.akamaihd.net
+  baseurl_source: declared
+  description: Akamai NetStorage Usage API — 7 operations published by Akamai Technologies in the akamai/akamai-apis OpenAPI repository.
   name: Akamai NetStorage Usage API
   slug: netstorage-usage-api
-- description: Define and manage inbound access control lists (ACLs) enforced at the edge of the Prolexic cloud-based DDoS protection platform.
+- baseURL: https://{hostname}/network-cloud-firewall/v1
+  baseurl_source: declared
+  description: Define and manage inbound access control lists (ACLs) enforced at the edge of the Prolexic cloud-based DDoS protection platform.
   name: Akamai Prolexic Network Cloud Firewall API
   slug: network-cloud-firewall-v1
-- description: Automate the creation, deployment, and management of lists used in Akamai security products
+- baseURL: https://{hostname}/network-list/v2
+  baseurl_source: declared
+  description: Automate the creation, deployment, and management of lists used in Akamai security products
   name: Akamai Network Lists API
   slug: network-lists-v2
-- description: Securely update vehicle-specific software over cellular networks.
+- baseURL: https://{hostname}/ota/v1
+  baseurl_source: declared
+  description: Securely update vehicle-specific software over cellular networks.
   name: Akamai IoT OTA Updates API
   slug: ota-v1
-- description: Define rules and behaviors that govern your website delivery based on match criteria.
+- baseURL: https://{hostname}/papi/v1
+  baseurl_source: declared
+  description: Define rules and behaviors that govern your website delivery based on match criteria.
   name: Akamai Property Manager API
   slug: papi-v1
-- description: Stop DDoS attacks in the cloud before they reach the data center.
+- baseURL: https://{hostname}/prolexic-analytics/v2
+  baseurl_source: declared
+  description: Stop DDoS attacks in the cloud before they reach the data center.
   name: Akamai Prolexic Analytics API
   slug: prolexic-analytics-v2
-- description: Provides network traffic visibility through Akamai's network to diagnose network issues without relying solely on third-party tools.
+- baseURL: https://{hostname}/prolexic-network-health/v1
+  baseurl_source: declared
+  description: Provides network traffic visibility through Akamai's network to diagnose network issues without relying solely on third-party tools.
   name: Akamai Prolexic Network Health API
   slug: prolexic-network-health-v1
-- description: Generate custom reports to monitor and optimize your Akamai services.
+- baseURL: https://{hostname}/reporting-api/v1
+  baseurl_source: declared
+  description: Generate custom reports to monitor and optimize your Akamai services.
   name: Akamai Reporting API
   slug: reporting-api-v1
-- description: Generate custom reports to monitor and optimize your Akamai services.
+- baseURL: https://{hostname}/reporting-api/v2
+  baseurl_source: declared
+  description: Generate custom reports to monitor and optimize your Akamai services.
   name: Akamai Reporting API
   slug: reporting-api-v2
-- description: Create an isolated development environment to test code changes locally before deploying to the CDN.
+- baseURL: https://{hostname}/sandbox-api/v1
+  baseurl_source: declared
+  description: Create an isolated development environment to test code changes locally before deploying to the CDN.
   name: Akamai Sandbox API
   slug: sandbox-api-v1
-- description: Minimize JavaScript performance impact by retrieving or creating Script Management policies.
+- baseURL: https://{hostname}/script-management/v1
+  baseurl_source: declared
+  description: Minimize JavaScript performance impact by retrieving or creating Script Management policies.
   name: Akamai Script Management API
   slug: script-management
-- description: Integrate third-party SIEM applications with Akamai security solutions.
+- baseURL: https://{hostname}/siem/v1
+  baseurl_source: declared
+  description: Integrate third-party SIEM applications with Akamai security solutions.
   name: Akamai SIEM Integration API
   slug: siem-v1
-- description: Hide websites and applications from the Internet and restrict clients from accessing the origin.
+- baseURL: https://{hostname}/siteshield/v1
+  baseurl_source: declared
+  description: Hide websites and applications from the Internet and restrict clients from accessing the origin.
   name: Akamai Site Shield API
   slug: siteshield-v1
-- description: Access the SLA test configurations and the resulting reports.
+- baseURL: https://{hostname}/sla-api/v1
+  baseurl_source: declared
+  description: Access the SLA test configurations and the resulting reports.
   name: Akamai Service-Level Agreement API
   slug: sla-api-v1
-- description: Store content for digital optimization and flexible data transfer.
+- baseURL: https://{hostname}/storage/v1
+  baseurl_source: declared
+  description: Store content for digital optimization and flexible data transfer.
   name: Akamai NetStorage Configuration API
   slug: storage-v1
-- description: Recognize and flag authentication tokens that have been hijacked, and block requests that include them.
+- baseURL: https://{hostname}/taas/v2
+  baseurl_source: declared
+  description: Recognize and flag authentication tokens that have been hijacked, and block requests that include them.
   name: Akamai Access Revocation API
   slug: taas-v2
-- description: Run functional tests to check how configuration changes affect your configuration.
+- baseURL: https://{hostname}/test-management/v3
+  baseurl_source: declared
+  description: Run functional tests to check how configuration changes affect your configuration.
   name: Akamai Test Center API
   slug: test-management-v3
-- description: Akamai Cloud Computing (Linode) API — provision and manage compute instances, Kubernetes (LKE), block and object storage, networking, databases, DNS and account resources.
+- baseURL: https://api.linode.com
+  baseurl_source: declared
+  description: Akamai Cloud Computing (Linode) API — provision and manage compute instances, Kubernetes (LKE), block and object storage, networking, databases, DNS and account resources.
   name: Akamai Linode API
   slug: linode-api
 artifact_total: 73
@@ -453,23 +569,23 @@ scopes:
   summary_line: 37 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.1
+  composite: 50.8
   coverage:
     artifact_dirs: 26
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.8
+  delta: 0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 53.8
+    contract_quality: 56.7
     developer_ergonomics: 36.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 92.1
-  previous_composite: 44.3
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -481,8 +597,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png
 security:
 - kind: authentication

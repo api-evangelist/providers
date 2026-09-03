@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Kylin JDBC driver provides SQL-over-Kylin access for BI tools and SQL clients, enabling standard JDBC connectivity to Kylin OLAP cubes.
   name: Apache Kylin JDBC Driver
   slug: jdbc-driver
-- description: User authentication
+- baseURL: http://localhost:7070/kylin/api
+  baseurl_source: spec
+  description: User authentication
   name: Apache Kylin Authentication API
   slug: apache-kylin-authentication-api
-- description: Build job management
+- baseURL: http://localhost:7070/kylin/api
+  baseurl_source: spec
+  description: Build job management
   name: Apache Kylin Jobs API
   slug: apache-kylin-jobs-api
-- description: Data model management
+- baseURL: http://localhost:7070/kylin/api
+  baseurl_source: spec
+  description: Data model management
   name: Apache Kylin Models API
   slug: apache-kylin-models-api
-- description: Project management
+- baseURL: http://localhost:7070/kylin/api
+  baseurl_source: spec
+  description: Project management
   name: Apache Kylin Projects API
   slug: apache-kylin-projects-api
-- description: SQL query execution
+- baseURL: http://localhost:7070/kylin/api
+  baseurl_source: spec
+  description: SQL query execution
   name: Apache Kylin Query API
   slug: apache-kylin-query-api
-- description: Table and datasource management
+- baseURL: http://localhost:7070/kylin/api
+  baseurl_source: spec
+  description: Table and datasource management
   name: Apache Kylin Tables API
   slug: apache-kylin-tables-api
 artifact_total: 66
@@ -339,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/screenshots/apache-kylin-2026-06-20T172119.png
 security:

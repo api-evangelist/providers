@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Forward API from Geocode Earth — 3 operation(s) for forward.
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: The Forward API from Geocode Earth — 3 operation(s) for forward.
   name: Geocode Earth Forward API
   slug: geocode-earth-forward-api
-- description: The Place API from Geocode Earth — 1 operation(s) for place.
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: The Place API from Geocode Earth — 1 operation(s) for place.
   name: Geocode Earth Place API
   slug: geocode-earth-place-api
-- description: The Reverse API from Geocode Earth — 1 operation(s) for reverse.
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: The Reverse API from Geocode Earth — 1 operation(s) for reverse.
   name: Geocode Earth Reverse API
   slug: geocode-earth-reverse-api
 artifact_total: 14
@@ -173,7 +179,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/screenshots/geocode-earth-2026-07-25T215637.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -53,19 +53,29 @@ apis:
 - description: Low-latency, high-throughput REST API for real-time ingestion of event data from external systems into Amperity. POST JSON or XML payloads (up to 1 MB) to a tenant-specific stream. JWT bearer auth wit
   name: Amperity Streaming API
   slug: amperity-streaming-api
-- description: Return records for user activity that occurred in your tenant.
+- baseURL: https://app.amperity.com/api
+  baseurl_source: declared
+  description: Return records for user activity that occurred in your tenant.
   name: Amperity Audit Events API
   slug: amperity-audit-events-api
-- description: Return information about campaigns and campaign drafts.
+- baseURL: https://app.amperity.com/api
+  baseurl_source: declared
+  description: Return information about campaigns and campaign drafts.
   name: Amperity Campaigns API
   slug: amperity-campaigns-api
-- description: Return details about ingest jobs.
+- baseURL: https://app.amperity.com/api
+  baseurl_source: declared
+  description: Return details about ingest jobs.
   name: Amperity Ingest API
   slug: amperity-ingest-api
-- description: Return a list of segments available in your tenant.
+- baseURL: https://app.amperity.com/api
+  baseurl_source: declared
+  description: Return a list of segments available in your tenant.
   name: Amperity Segments API
   slug: amperity-segments-api
-- description: List, run, and stop workflows.
+- baseURL: https://app.amperity.com/api
+  baseurl_source: declared
+  description: List, run, and stop workflows.
   name: Amperity Workflow API
   slug: amperity-workflow-api
 artifact_total: 18
@@ -250,7 +260,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -260,7 +270,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 51.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -272,7 +282,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/screenshots/amperity-2026-07-25T200122.png
 security:

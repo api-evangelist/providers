@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: The Perses REST API provides programmatic access to dashboards, datasources, ephemeral dashboards, projects, roles, role bindings, secrets, users, variables, plugins, validation, and migration resourc
   name: Perses API
   slug: perses
-- description: Manage dashboards inside a project.
+- baseURL_template: http://{persesHost}
+  baseurl_source: spec_template
+  description: Manage dashboards inside a project.
   name: Perses Dashboards API
   slug: perses-dashboards-api
-- description: Manage project-scoped datasources.
+- baseURL_template: http://{persesHost}
+  baseurl_source: spec_template
+  description: Manage project-scoped datasources.
   name: Perses Datasources API
   slug: perses-datasources-api
-- description: Manage shared datasources across projects.
+- baseURL_template: http://{persesHost}
+  baseurl_source: spec_template
+  description: Manage shared datasources across projects.
   name: Perses Global Datasources API
   slug: perses-global-datasources-api
-- description: Manage Perses projects (workspaces).
+- baseURL_template: http://{persesHost}
+  baseurl_source: spec_template
+  description: Manage Perses projects (workspaces).
   name: Perses Projects API
   slug: perses-projects-api
 artifact_total: 17
@@ -175,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/screenshots/perses-2026-06-20T191616.png
 security:

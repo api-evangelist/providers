@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Season and championship futures markets
+- baseURL: https://api.wagerapi.com
+  baseurl_source: declared
+  description: Season and championship futures markets
   name: Wager API Futures API
   slug: wager-api-futures-api
-- description: Game schedules, results, and team information
+- baseURL: https://api.wagerapi.com
+  baseurl_source: declared
+  description: Game schedules, results, and team information
   name: Wager API Games API
   slug: wager-api-games-api
-- description: Real-time game odds including spreads, moneylines, and totals
+- baseURL: https://api.wagerapi.com
+  baseurl_source: declared
+  description: Real-time game odds including spreads, moneylines, and totals
   name: Wager API Odds API
   slug: wager-api-odds-api
-- description: Player statistics, projections, and injury information
+- baseURL: https://api.wagerapi.com
+  baseurl_source: declared
+  description: Player statistics, projections, and injury information
   name: Wager API Players API
   slug: wager-api-players-api
-- description: Player proposition odds
+- baseURL: https://api.wagerapi.com
+  baseurl_source: declared
+  description: Player proposition odds
   name: Wager API Props API
   slug: wager-api-props-api
 artifact_total: 25
@@ -200,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wager-api/refs/heads/main/screenshots/wager-api-2026-06-20T201159.png
 security:

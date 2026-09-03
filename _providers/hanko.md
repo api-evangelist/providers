@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 84 operations · 53 acting
 api_count: 3
 apis:
-- description: The Audit Logs API from Hanko — 2 operation(s) for audit logs.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Audit Logs API from Hanko — 2 operation(s) for audit logs.
   name: Hanko Audit Logs API
   slug: hanko-audit-logs-api
-- description: The Credentials API from Hanko — 9 operation(s) for credentials.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Credentials API from Hanko — 9 operation(s) for credentials.
   name: Hanko Credentials API
   slug: hanko-credentials-api
-- description: The Email Management API from Hanko — 3 operation(s) for email management.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Email Management API from Hanko — 3 operation(s) for email management.
   name: Hanko Email Management API
   slug: hanko-email-management-api
-- description: The Login API from Hanko — 2 operation(s) for login.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Login API from Hanko — 2 operation(s) for login.
   name: Hanko Login API
   slug: hanko-login-api
-- description: The Metrics API from Hanko — 1 operation(s) for metrics.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Metrics API from Hanko — 1 operation(s) for metrics.
   name: Hanko Metrics API
   slug: hanko-metrics-api
-- description: Represents all objects which are related to MFA in common
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: Represents all objects which are related to MFA in common
   name: Hanko mfa API
   slug: hanko-mfa-api
-- description: The Passcode API from Hanko — 2 operation(s) for passcode.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Passcode API from Hanko — 2 operation(s) for passcode.
   name: Hanko Passcode API
   slug: hanko-passcode-api
-- description: The Password API from Hanko — 2 operation(s) for password.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Password API from Hanko — 2 operation(s) for password.
   name: Hanko Password API
   slug: hanko-password-api
-- description: The SAML API from Hanko — 3 operation(s) for saml.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The SAML API from Hanko — 3 operation(s) for saml.
   name: Hanko SAML API
   slug: hanko-saml-api
-- description: The Session Management API from Hanko — 1 operation(s) for session management.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Session Management API from Hanko — 1 operation(s) for session management.
   name: Hanko Session Management API
   slug: hanko-session-management-api
-- description: The Sessions API from Hanko — 1 operation(s) for sessions.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Sessions API from Hanko — 1 operation(s) for sessions.
   name: Hanko Sessions API
   slug: hanko-sessions-api
-- description: The Status API from Hanko — 1 operation(s) for status.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Status API from Hanko — 1 operation(s) for status.
   name: Hanko Status API
   slug: hanko-status-api
-- description: The Third Party API from Hanko — 2 operation(s) for third party.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Third Party API from Hanko — 2 operation(s) for third party.
   name: Hanko Third Party API
   slug: hanko-third-party-api
-- description: The Token API from Hanko — 1 operation(s) for token.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Token API from Hanko — 1 operation(s) for token.
   name: Hanko Token API
   slug: hanko-token-api
-- description: The Transaction API from Hanko — 2 operation(s) for transaction.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Transaction API from Hanko — 2 operation(s) for transaction.
   name: Hanko Transaction API
   slug: hanko-transaction-api
-- description: The User Management API from Hanko — 5 operation(s) for user management.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The User Management API from Hanko — 5 operation(s) for user management.
   name: Hanko User Management API
   slug: hanko-user-management-api
-- description: The User Metadata Management API from Hanko — 1 operation(s) for user metadata management.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The User Metadata Management API from Hanko — 1 operation(s) for user metadata management.
   name: Hanko User Metadata Management API
   slug: hanko-user-metadata-management-api
-- description: The Users API from Hanko — 9 operation(s) for users.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Users API from Hanko — 9 operation(s) for users.
   name: Hanko Users API
   slug: hanko-users-api
-- description: Represents all objects which are related to WebAuthn in common
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: Represents all objects which are related to WebAuthn in common
   name: Hanko webauthn API
   slug: hanko-webauthn-api
-- description: The Webhooks API from Hanko — 2 operation(s) for webhooks.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The Webhooks API from Hanko — 2 operation(s) for webhooks.
   name: Hanko Webhooks API
   slug: hanko-webhooks-api
-- description: The .well-known API from Hanko — 2 operation(s) for .well-known.
+- baseURL: https://{tenant_id}.hanko.io
+  baseurl_source: declared
+  description: The .well-known API from Hanko — 2 operation(s) for .well-known.
   name: Hanko .well-known API
   slug: hanko-well-known-api
 artifact_total: 58
@@ -320,7 +362,7 @@ score:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 64.8
+    contract_quality: 65.1
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 25.0
@@ -334,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/screenshots/hanko-2026-06-20T182504.png
 security:

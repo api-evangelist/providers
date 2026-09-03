@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 85 operations · 36 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Alert rule (automation) management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Alert rule (automation) management endpoints
   name: Spike.sh Alert Rules API
   slug: spike-sh-alert-rules-api
-- description: Status page component management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Status page component management endpoints
   name: Spike.sh Components API
   slug: spike-sh-components-api
-- description: Escalation policy management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Escalation policy management endpoints
   name: Spike.sh Escalations API
   slug: spike-sh-escalations-api
-- description: Actions that can be performed on incidents
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Actions that can be performed on incidents
   name: Spike.sh Incident Actions API
   slug: spike-sh-incident-actions-api
-- description: Incident management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Incident management endpoints
   name: Spike.sh Incidents API
   slug: spike-sh-incidents-api
-- description: Integration management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Integration management endpoints
   name: Spike.sh Integrations API
   slug: spike-sh-integrations-api
-- description: On-call override management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: On-call override management endpoints
   name: Spike.sh On-Call Overrides API
   slug: spike-sh-on-call-overrides-api
-- description: On-call schedule management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: On-call schedule management endpoints
   name: Spike.sh On-Call Schedules API
   slug: spike-sh-on-call-schedules-api
-- description: Organization management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Organization management endpoints
   name: Spike.sh Orgs API
   slug: spike-sh-orgs-api
-- description: Planned maintenance management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Planned maintenance management endpoints
   name: Spike.sh Planned Maintenances API
   slug: spike-sh-planned-maintenances-api
-- description: Service management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Service management endpoints
   name: Spike.sh Services API
   slug: spike-sh-services-api
-- description: Status page incident management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Status page incident management endpoints
   name: Spike.sh Status Page Incidents API
   slug: spike-sh-status-page-incidents-api
-- description: Status page management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Status page management endpoints
   name: Spike.sh Status Pages API
   slug: spike-sh-status-pages-api
-- description: Status page subscriber management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Status page subscriber management endpoints
   name: Spike.sh Subscribers API
   slug: spike-sh-subscribers-api
-- description: Suppressed incident management
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Suppressed incident management
   name: Spike.sh Suppressed Incidents API
   slug: spike-sh-suppressed-incidents-api
-- description: Team management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: Team management endpoints
   name: Spike.sh Teams API
   slug: spike-sh-teams-api
-- description: User management endpoints
+- baseURL: https://api.spike.sh
+  baseurl_source: declared
+  description: User management endpoints
   name: Spike.sh Users API
   slug: spike-sh-users-api
 artifact_total: 52
@@ -313,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/screenshots/spike-sh-2026-06-20T194313.png
 security:

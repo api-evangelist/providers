@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Operations related to calls
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to calls
   name: OpenPhone Calls API
   slug: openphone-calls-api
-- description: The Contact Custom Fields API from OpenPhone — 1 operation(s) for contact custom fields.
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: The Contact Custom Fields API from OpenPhone — 1 operation(s) for contact custom fields.
   name: OpenPhone Contact Custom Fields API
   slug: openphone-contact-custom-fields-api
-- description: Operations related to contacts
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to contacts
   name: OpenPhone Contacts API
   slug: openphone-contacts-api
-- description: Operations related to conversations
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to conversations
   name: OpenPhone Conversations API
   slug: openphone-conversations-api
-- description: Operations related to text messages
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to text messages
   name: OpenPhone Messages API
   slug: openphone-messages-api
-- description: Operations related to phone numbers
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to phone numbers
   name: OpenPhone Phone Numbers API
   slug: openphone-phone-numbers-api
-- description: The Tasks API from OpenPhone — 10 operation(s) for tasks.
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: The Tasks API from OpenPhone — 10 operation(s) for tasks.
   name: OpenPhone Tasks API
   slug: openphone-tasks-api
-- description: Operations related to users
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to users
   name: OpenPhone Users API
   slug: openphone-users-api
-- description: Operations related to webhooks
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to webhooks
   name: OpenPhone Webhooks API
   slug: openphone-webhooks-api
 artifact_total: 24
@@ -248,7 +266,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -258,7 +276,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 53.0
+  previous_composite: 52.8
   provenance:
     conformance: first-party
     contracts:
@@ -281,7 +299,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openphone/refs/heads/main/screenshots/openphone-2026-08-07T190627.png
 security:

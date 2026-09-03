@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: RESTful API for programmatic alert lifecycle management including creating events, acknowledging or closing alerts, annotating alerts, and retrieving team data. Authentication is via X-S4-Api-Key head
   name: SIGNL4 REST API
   slug: rest-api
-- description: The Events API from SIGNL4 — 1 operation(s) for events.
+- baseURL: https://connect.signl4.com/webhook
+  baseurl_source: declared
+  description: The Events API from SIGNL4 — 1 operation(s) for events.
   name: SIGNL4 Events API
   slug: signl4-events-api
-- description: The Webhook API from SIGNL4 — 1 operation(s) for webhook.
+- baseURL: https://connect.signl4.com/webhook
+  baseurl_source: declared
+  description: The Webhook API from SIGNL4 — 1 operation(s) for webhook.
   name: SIGNL4 Webhook API
   slug: signl4-webhook-api
 artifact_total: 12
@@ -158,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signl4/refs/heads/main/screenshots/signl4-2026-06-20T193912.png
 security:

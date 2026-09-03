@@ -33,52 +33,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Articles API from NewsWhip — 1 operation(s) for articles.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Articles API from NewsWhip — 1 operation(s) for articles.
   name: NewsWhip Articles API
   slug: newswhip-articles-api
-- description: The ArticlesByHrefs API from NewsWhip — 1 operation(s) for articlesbyhrefs.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The ArticlesByHrefs API from NewsWhip — 1 operation(s) for articlesbyhrefs.
   name: NewsWhip ArticlesByHrefs API
   slug: newswhip-articlesbyhrefs-api
-- description: The Content API from NewsWhip — 3 operation(s) for content.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Content API from NewsWhip — 3 operation(s) for content.
   name: NewsWhip Content API
   slug: newswhip-content-api
-- description: The FbInfluencers API from NewsWhip — 1 operation(s) for fbinfluencers.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The FbInfluencers API from NewsWhip — 1 operation(s) for fbinfluencers.
   name: NewsWhip FbInfluencers API
   slug: newswhip-fbinfluencers-api
-- description: The FbPosts API from NewsWhip — 1 operation(s) for fbposts.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The FbPosts API from NewsWhip — 1 operation(s) for fbposts.
   name: NewsWhip FbPosts API
   slug: newswhip-fbposts-api
-- description: The Influencers API from NewsWhip — 2 operation(s) for influencers.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Influencers API from NewsWhip — 2 operation(s) for influencers.
   name: NewsWhip Influencers API
   slug: newswhip-influencers-api
-- description: The Local API from NewsWhip — 1 operation(s) for local.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Local API from NewsWhip — 1 operation(s) for local.
   name: NewsWhip Local API
   slug: newswhip-local-api
-- description: The Publisher API from NewsWhip — 1 operation(s) for publisher.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Publisher API from NewsWhip — 1 operation(s) for publisher.
   name: NewsWhip Publisher API
   slug: newswhip-publisher-api
-- description: The Rankings API from NewsWhip — 3 operation(s) for rankings.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Rankings API from NewsWhip — 3 operation(s) for rankings.
   name: NewsWhip Rankings API
   slug: newswhip-rankings-api
-- description: The Region API from NewsWhip — 1 operation(s) for region.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Region API from NewsWhip — 1 operation(s) for region.
   name: NewsWhip Region API
   slug: newswhip-region-api
-- description: The Search API from NewsWhip — 1 operation(s) for search.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Search API from NewsWhip — 1 operation(s) for search.
   name: NewsWhip Search API
   slug: newswhip-search-api
-- description: The Social API from NewsWhip — 1 operation(s) for social.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Social API from NewsWhip — 1 operation(s) for social.
   name: NewsWhip Social API
   slug: newswhip-social-api
-- description: The Statistics API from NewsWhip — 1 operation(s) for statistics.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Statistics API from NewsWhip — 1 operation(s) for statistics.
   name: NewsWhip Statistics API
   slug: newswhip-statistics-api
-- description: The Stats API from NewsWhip — 1 operation(s) for stats.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The Stats API from NewsWhip — 1 operation(s) for stats.
   name: NewsWhip Stats API
   slug: newswhip-stats-api
-- description: The TwitterInfluencers API from NewsWhip — 1 operation(s) for twitterinfluencers.
+- baseURL: https://api.newswhip.com/v1
+  baseurl_source: declared
+  description: The TwitterInfluencers API from NewsWhip — 1 operation(s) for twitterinfluencers.
   name: NewsWhip TwitterInfluencers API
   slug: newswhip-twitterinfluencers-api
 artifact_total: 36
@@ -282,7 +312,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/screenshots/newswhip-2026-08-07T185140.png
 security:

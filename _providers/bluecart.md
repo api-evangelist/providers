@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 13 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Manage client-specific catalogs of products and pricing.
+- baseURL_template: https://{invokeUrl}
+  baseurl_source: spec_template
+  description: Manage client-specific catalogs of products and pricing.
   name: BlueCart Catalogs API
   slug: bluecart-catalogs-api
-- description: Manage buyer/client associations and their account details.
+- baseURL_template: https://{invokeUrl}
+  baseurl_source: spec_template
+  description: Manage buyer/client associations and their account details.
   name: BlueCart Clients API
   slug: bluecart-clients-api
-- description: Search, retrieve, place, and modify wholesale orders.
+- baseURL_template: https://{invokeUrl}
+  baseurl_source: spec_template
+  description: Search, retrieve, place, and modify wholesale orders.
   name: BlueCart Orders API
   slug: bluecart-orders-api
-- description: Manage the product catalog including pricing and inventory.
+- baseURL_template: https://{invokeUrl}
+  baseurl_source: spec_template
+  description: Manage the product catalog including pricing and inventory.
   name: BlueCart Products API
   slug: bluecart-products-api
-- description: Manage platform users and their roles and notifications.
+- baseURL_template: https://{invokeUrl}
+  baseurl_source: spec_template
+  description: Manage platform users and their roles and notifications.
   name: BlueCart Users API
   slug: bluecart-users-api
 artifact_total: 78
@@ -407,7 +417,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecart/refs/heads/main/screenshots/bluecart-2026-06-20T173530.png
 security:

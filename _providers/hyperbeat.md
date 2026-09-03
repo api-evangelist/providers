@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: The Hyperliquid API from Hyperbeat — 6 operation(s) for hyperliquid.
+- baseURL: https://api.p2p.org
+  baseurl_source: declared
+  description: The Hyperliquid API from Hyperbeat — 6 operation(s) for hyperliquid.
   name: Hyperbeat Hyperliquid API
   slug: hyperbeat-hyperliquid-api
 artifact_total: 7
@@ -202,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbeat/refs/heads/main/screenshots/hyperbeat-2026-07-25T221845.png
 security:

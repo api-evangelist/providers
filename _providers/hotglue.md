@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The Hotglue API v1 provides the original REST API for managing integration flows, linked sources, linked targets, source state, and job execution.
   name: Hotglue API V1
   slug: hotglue-api-v1
-- description: Retrieve available and supported connectors.
+- baseURL: https://api.hotglue.com
+  baseurl_source: declared
+  description: Retrieve available and supported connectors.
   name: Hotglue Connector Metadata API
   slug: hotglue-connector-metadata-api
-- description: Manage bookmark and sync state for linked connectors.
+- baseURL: https://api.hotglue.com
+  baseurl_source: declared
+  description: Manage bookmark and sync state for linked connectors.
   name: Hotglue Connector State API
   slug: hotglue-connector-state-api
-- description: Trigger and poll connector discovery.
+- baseURL: https://api.hotglue.com
+  baseurl_source: declared
+  description: Trigger and poll connector discovery.
   name: Hotglue Discover API
   slug: hotglue-discover-api
-- description: Run jobs for linked connectors.
+- baseURL: https://api.hotglue.com
+  baseurl_source: declared
+  description: Run jobs for linked connectors.
   name: Hotglue Jobs API
   slug: hotglue-jobs-api
-- description: Create, retrieve, update, and delete linked connectors for a tenant.
+- baseURL: https://api.hotglue.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete linked connectors for a tenant.
   name: Hotglue Linked Connectors API
   slug: hotglue-linked-connectors-api
 artifact_total: 21
@@ -194,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/screenshots/hotglue-2026-06-20T182845.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Deep-link URL scheme for launching the Transit mobile app from partner apps and websites. Supports directions and nearby-routes hand-offs without requiring an API key.
   name: Transit URL Scheme
   slug: url-scheme
-- description: Service alerts and disruptions
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Service alerts and disruptions
   name: Transit Alerts API
   slug: transit-alerts-api
-- description: Real-time and scheduled transit departure information
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Real-time and scheduled transit departure information
   name: Transit Departures API
   slug: transit-departures-api
-- description: Shared bikes, scooters, and carshares
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Shared bikes, scooters, and carshares
   name: Transit Mobility API
   slug: transit-mobility-api
-- description: Transit network and agency data
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Transit network and agency data
   name: Transit Networks API
   slug: transit-networks-api
-- description: Route information and schedules
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Route information and schedules
   name: Transit Routes API
   slug: transit-routes-api
-- description: Stop and station information
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Stop and station information
   name: Transit Stops API
   slug: transit-stops-api
-- description: Multimodal trip planning and results
+- baseURL: https://api-doc.transitapp.com
+  baseurl_source: declared
+  description: Multimodal trip planning and results
   name: Transit Trips API
   slug: transit-trips-api
 artifact_total: 31
@@ -262,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/screenshots/transit-2026-06-20T195544.png
 security:

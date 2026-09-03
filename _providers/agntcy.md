@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 9
@@ -36,64 +49,104 @@ apis:
 - description: Distributed announce and discovery of multi-agent systems. gRPC-first, with services for storage (content-addressed by CID), routing over a DHT, structured search, signing and verification, domain nam
   name: Agent Directory (DIR)
   slug: agent-directory-dir
-- description: Agents are AI workflows that can be configured and/or executed on this server. This means that a client of this server can start a Run on any of the Agents supported by this server. Each agent may sup
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: Agents are AI workflows that can be configured and/or executed on this server. This means that a client of this server can start a Run on any of the Agents supported by this server. Each agent may sup
   name: AGNTCY Agents API
   slug: agntcy-agents-api
-- description: AppService manages apps.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: AppService manages apps.
   name: AGNTCY App Service API
   slug: agntcy-appservice-api
-- description: AuthService manages auth.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: AuthService manages auth.
   name: AGNTCY Auth Service API
   slug: agntcy-authservice-api
-- description: BadgeService manages badges.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: BadgeService manages badges.
   name: AGNTCY Badge Service API
   slug: agntcy-badgeservice-api
-- description: The Classes and Objects API from AGNTCY — 4 operation(s) for classes and objects.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The Classes and Objects API from AGNTCY — 4 operation(s) for classes and objects.
   name: AGNTCY Classes and Objects API
   slug: agntcy-classes-and-objects-api
-- description: DeviceService manages device.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: DeviceService manages device.
   name: AGNTCY Device Service API
   slug: agntcy-deviceservice-api
-- description: IdService is the service that provides ID operations.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: IdService is the service that provides ID operations.
   name: AGNTCY ID Service API
   slug: agntcy-idservice-api
-- description: IssuerService is the service that provides ISSUER node operations.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: IssuerService is the service that provides ISSUER node operations.
   name: AGNTCY Issuer Service API
   slug: agntcy-issuerservice-api
-- description: The JSON Schema API from AGNTCY — 4 operation(s) for json schema.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The JSON Schema API from AGNTCY — 4 operation(s) for json schema.
   name: AGNTCY JSON Schema API
   slug: agntcy-json-schema-api
-- description: PolicyService manages policy.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: PolicyService manages policy.
   name: AGNTCY Policy Service API
   slug: agntcy-policyservice-api
-- description: The Sample Data API from AGNTCY — 4 operation(s) for sample data.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The Sample Data API from AGNTCY — 4 operation(s) for sample data.
   name: AGNTCY Sample Data API
   slug: agntcy-sample-data-api
-- description: The Schema API from AGNTCY — 8 operation(s) for schema.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The Schema API from AGNTCY — 8 operation(s) for schema.
   name: AGNTCY Schema API
   slug: agntcy-schema-api
-- description: SettingsService manages settings.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: SettingsService manages settings.
   name: AGNTCY Settings Service API
   slug: agntcy-settingsservice-api
-- description: A Run represents an execution of an agent. The output of a Run can be a final result or an interrupt. Result from a run can be retrieved by polling or by blocking and waiting for the result. See `Run`
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: A Run represents an execution of an agent. The output of a Run can be a final result or an interrupt. Result from a run can be retrieved by polling or by blocking and waiting for the result. See `Run`
   name: AGNTCY Stateless Runs API
   slug: agntcy-stateless-runs-api
-- description: The Taxonomy API from AGNTCY — 3 operation(s) for taxonomy.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The Taxonomy API from AGNTCY — 3 operation(s) for taxonomy.
   name: AGNTCY Taxonomy API
   slug: agntcy-taxonomy-api
-- description: Thread Runs are runs created on a thread. A Thread Run can be created on a thread **only** if there is no run in the `pending` status on the same thread, i.e. if the thread is in the state `idle` Note
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: Thread Runs are runs created on a thread. A Thread Run can be created on a thread **only** if there is no run in the `pending` status on the same thread, i.e. if the thread is in the state `idle` Note
   name: AGNTCY Thread Runs API
   slug: agntcy-thread-runs-api
-- description: If supported by the involved agents, Run can be grouped in Threads. When a run is executed on a thread is called Thread Run. At the end of a Thread Run, the server keeps a thread state associated to t
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: If supported by the involved agents, Run can be grouped in Threads. When a run is executed on a thread is called Thread Run. At the end of a Thread Run, the server keeps a thread state associated to t
   name: AGNTCY Threads API
   slug: agntcy-threads-api
-- description: The Translation API from AGNTCY — 4 operation(s) for translation.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The Translation API from AGNTCY — 4 operation(s) for translation.
   name: AGNTCY Translation API
   slug: agntcy-translation-api
-- description: The Validation API from AGNTCY — 4 operation(s) for validation.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: The Validation API from AGNTCY — 4 operation(s) for validation.
   name: AGNTCY Validation API
   slug: agntcy-validation-api
-- description: VC is the service that provides VC operations.
+- baseURL: https://schema.oasf.outshift.com/api
+  baseurl_source: declared
+  description: VC is the service that provides VC operations.
   name: AGNTCY Vc Service API
   slug: agntcy-vcservice-api
 artifact_total: 37
@@ -354,23 +407,23 @@ rate_limits:
   slug: agntcy-rate-limits
 score:
   band: developing
-  composite: 45.7
+  composite: 47.0
   coverage:
-    artifact_dirs: 24
-    catalog_gap: 78.0
+    artifact_dirs: 25
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.3
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 61.4
+    contract_quality: 63.0
     developer_ergonomics: 80.4
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,8 +435,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agntcy/refs/heads/main/screenshots/agntcy-2026-09-02T144115.png
 security:
 - kind: authentication
   name: Agntcy Authentication

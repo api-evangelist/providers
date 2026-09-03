@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
   name: BioAegis Therapeutics Blocks API
   slug: bioaegis-therapeutics-blocks-api
-- description: Comment collection. Registered and reachable, but empty (X-WP-Total 0).
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and reachable, but empty (X-WP-Total 0).
   name: BioAegis Therapeutics Comments API
   slug: bioaegis-therapeutics-comments-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: BioAegis Therapeutics Discovery API
   slug: bioaegis-therapeutics-discovery-api
-- description: Media library — 247 attachments at harvest time.
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Media library — 247 attachments at harvest time.
   name: BioAegis Therapeutics Media API
   slug: bioaegis-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for bioaegistherapeutics.com URLs.
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for bioaegistherapeutics.com URLs.
   name: BioAegis Therapeutics Oembed API
   slug: bioaegis-therapeutics-oembed-api
-- description: Corporate pages — 14 published at harvest time (Home, About Us, Our Science, Our Platform, BTI-203 Clinical Trial, FAQs, Publications, News, Careers, Contact Us, Expanded Access Policy, Code of Ethics
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — 14 published at harvest time (Home, About Us, Our Science, Our Platform, BTI-203 Clinical Trial, FAQs, Publications, News, Careers, Contact Us, Expanded Access Policy, Code of Ethics
   name: BioAegis Therapeutics Pages API
   slug: bioaegis-therapeutics-pages-api
-- description: Post collection — 153 published items at harvest time, spanning News press releases (94), Publications (34), Events (9), Clinical advisory board profiles (6), Leadership profiles (5), Board profiles (
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Post collection — 153 published items at harvest time, spanning News press releases (94), Publications (34), Events (9), Clinical advisory board profiles (6), Leadership profiles (5), Board profiles (
   name: BioAegis Therapeutics Posts API
   slug: bioaegis-therapeutics-posts-api
-- description: Cross-content search across published posts and pages.
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published posts and pages.
   name: BioAegis Therapeutics Search API
   slug: bioaegis-therapeutics-search-api
-- description: Yoast SEO head-tag rendering for a bioaegistherapeutics.com URL — the only anonymously readable operation in the yoast/v1 namespace, and the carrier of the site's schema.org JSON-LD graph.
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Yoast SEO head-tag rendering for a bioaegistherapeutics.com URL — the only anonymously readable operation in the yoast/v1 namespace, and the carrier of the site's schema.org JSON-LD graph.
   name: BioAegis Therapeutics Seo API
   slug: bioaegis-therapeutics-seo-api
-- description: Categories and tags. The hierarchical `category` taxonomy holds 10 terms and carries all classification; the flat `post_tag` taxonomy is registered but empty (0 terms).
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. The hierarchical `category` taxonomy holds 10 terms and carries all classification; the flat `post_tag` taxonomy is registered but empty (0 terms).
   name: BioAegis Therapeutics Taxonomy API
   slug: bioaegis-therapeutics-taxonomy-api
 artifact_total: 24
@@ -280,7 +311,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/screenshots/bioaegis-therapeutics-2026-08-07T162447.png
 security:

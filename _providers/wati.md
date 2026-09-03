@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: 'Tenant-scoped REST API for sending WhatsApp template and session messages, managing contacts, assigning operators, and orchestrating chatbot flows. Uses Bearer token authentication with per-workspace '
   name: WATI WhatsApp Business API
   slug: whatsapp-api
-- description: Manage WhatsApp contacts in the WATI workspace.
+- baseURL: https://live-mt-server.wati.io
+  baseurl_source: declared
+  description: Manage WhatsApp contacts in the WATI workspace.
   name: WATI Contacts API
   slug: wati-contacts-api
-- description: Retrieve and send WhatsApp messages.
+- baseURL: https://live-mt-server.wati.io
+  baseurl_source: declared
+  description: Retrieve and send WhatsApp messages.
   name: WATI Messages API
   slug: wati-messages-api
-- description: Send WhatsApp template messages.
+- baseURL: https://live-mt-server.wati.io
+  baseurl_source: declared
+  description: Send WhatsApp template messages.
   name: WATI Templates API
   slug: wati-templates-api
 artifact_total: 14
@@ -173,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/screenshots/wati-2026-06-20T201254.png
 security:

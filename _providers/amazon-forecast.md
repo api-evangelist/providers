@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Logical groupings of related datasets
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: Logical groupings of related datasets
   name: Amazon Forecast Dataset Groups API
   slug: amazon-forecast-dataset-groups-api
-- description: Dataset management for training data
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: Dataset management for training data
   name: Amazon Forecast Datasets API
   slug: amazon-forecast-datasets-api
-- description: Forecast data export to S3
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: Forecast data export to S3
   name: Amazon Forecast Export Jobs API
   slug: amazon-forecast-export-jobs-api
-- description: Generated forecast outputs
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: Generated forecast outputs
   name: Amazon Forecast Forecasts API
   slug: amazon-forecast-forecasts-api
-- description: ML models trained on dataset groups
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: ML models trained on dataset groups
   name: Amazon Forecast Predictors API
   slug: amazon-forecast-predictors-api
-- description: Resource metadata labels
+- baseURL: https://forecast.amazonaws.com
+  baseurl_source: declared
+  description: Resource metadata labels
   name: Amazon Forecast Tags API
   slug: amazon-forecast-tags-api
 arazzos:
@@ -389,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/screenshots/amazon-forecast-2026-06-20T171651.png
 security:

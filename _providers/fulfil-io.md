@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 31 operations · 17 acting
 api_count: 1
 apis:
-- description: Verify API credentials.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Verify API credentials.
   name: Fulfil Authentication API
   slug: fulfil-io-authentication-api
-- description: Customers, suppliers, and contacts via the party.party model.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Customers, suppliers, and contacts via the party.party model.
   name: Fulfil Customers API
   slug: fulfil-io-customers-api
-- description: Inventory via stock.move and stock.location models.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Inventory via stock.move and stock.location models.
   name: Fulfil Inventory & Stock API
   slug: fulfil-io-inventory-stock-api
-- description: Production orders via the production model.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Production orders via the production model.
   name: Fulfil Manufacturing API
   slug: fulfil-io-manufacturing-api
-- description: The generic model interface applicable to any Fulfil model.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: The generic model interface applicable to any Fulfil model.
   name: Fulfil Model Interface API
   slug: fulfil-io-model-interface-api
-- description: Catalog via product.template and product.product models.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Catalog via product.template and product.product models.
   name: Fulfil Products & Variants API
   slug: fulfil-io-products-variants-api
-- description: Purchase orders via the purchase.purchase model.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Purchase orders via the purchase.purchase model.
   name: Fulfil Purchases API
   slug: fulfil-io-purchases-api
-- description: Sales orders via the sale.sale model.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Sales orders via the sale.sale model.
   name: Fulfil Sales Orders API
   slug: fulfil-io-sales-orders-api
-- description: Fulfillment via stock.shipment.out and stock.shipment.in models.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Fulfillment via stock.shipment.out and stock.shipment.in models.
   name: Fulfil Shipments API
   slug: fulfil-io-shipments-api
-- description: Webhook subscriptions for real-time ERP events.
+- baseURL: https://{merchant_id}.fulfil.io/api/v2
+  baseurl_source: declared
+  description: Webhook subscriptions for real-time ERP events.
   name: Fulfil Webhooks API
   slug: fulfil-io-webhooks-api
 artifact_total: 31
@@ -226,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/screenshots/fulfil-io-2026-07-25T215253.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: Akka gRPC provides support for building streaming gRPC servers and clients on top of Akka Streams, with code generation from protobuf definitions for both Java and Scala.
   name: Akka gRPC
   slug: akka-grpc
-- description: Cluster bootstrap discovery endpoints.
+- baseURL: http://localhost:8558
+  baseurl_source: spec
+  description: Cluster bootstrap discovery endpoints.
   name: Akka Bootstrap API
   slug: akka-bootstrap-api
-- description: Cluster membership management endpoints.
+- baseURL: http://localhost:8558
+  baseurl_source: spec
+  description: Cluster membership management endpoints.
   name: Akka Cluster API
   slug: akka-cluster-api
-- description: Health check endpoints for liveness and readiness probes.
+- baseURL: http://localhost:8558
+  baseurl_source: spec
+  description: Health check endpoints for liveness and readiness probes.
   name: Akka Health API
   slug: akka-health-api
 artifact_total: 35
@@ -248,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/screenshots/akka-2026-06-20T171452.png
 security:

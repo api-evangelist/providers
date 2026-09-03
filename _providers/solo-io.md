@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,52 +35,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: API key management endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: API key management endpoints
   name: Solo.io API Keys API
   slug: solo-io-api-keys-api
-- description: API product catalog endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: API product catalog endpoints
   name: Solo.io API Products API
   slug: solo-io-api-products-api
-- description: The APIs API from Solo.io — 5 operation(s) for apis.
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: The APIs API from Solo.io — 5 operation(s) for apis.
   name: Solo.io AP Is API
   slug: solo-io-apis-api
-- description: The Applications API from Solo.io — 8 operation(s) for applications.
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: The Applications API from Solo.io — 8 operation(s) for applications.
   name: Solo.io Applications API
   slug: solo-io-applications-api
-- description: Application management endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: Application management endpoints
   name: Solo.io Apps API
   slug: solo-io-apps-api
-- description: Authentication redirect endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: Authentication redirect endpoints
   name: Solo.io Auth API
   slug: solo-io-auth-api
-- description: Health check endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: Health check endpoints
   name: Solo.io Health API
   slug: solo-io-health-api
-- description: The Me API from Solo.io — 1 operation(s) for me.
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: The Me API from Solo.io — 1 operation(s) for me.
   name: Solo.io Me API
   slug: solo-io-me-api
-- description: Internal credential metadata endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: Internal credential metadata endpoints
   name: Solo.io Metadata API
   slug: solo-io-metadata-api
-- description: OAuth credential management endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: OAuth credential management endpoints
   name: Solo.io OAUTH Credentials API
   slug: solo-io-oauth-credentials-api
-- description: Subscription management endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: Subscription management endpoints
   name: Solo.io Subscriptions API
   slug: solo-io-subscriptions-api
-- description: Team management endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: Team management endpoints
   name: Solo.io Teams API
   slug: solo-io-teams-api
-- description: The User API from Solo.io — 1 operation(s) for user.
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: The User API from Solo.io — 1 operation(s) for user.
   name: Solo.io User API
   slug: solo-io-user-api
-- description: User management endpoints
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: User management endpoints
   name: Solo.io Users API
   slug: solo-io-users-api
-- description: The Webhooks API from Solo.io — 2 operation(s) for webhooks.
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Solo.io — 2 operation(s) for webhooks.
   name: Solo.io Webhooks API
   slug: solo-io-webhooks-api
 artifact_total: 74
@@ -515,7 +557,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -528,7 +570,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 60.7
+  previous_composite: 60.8
   provenance:
     conformance: derived
     contracts:
@@ -539,7 +581,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:

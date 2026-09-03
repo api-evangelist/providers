@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API served by MAX. Exposes /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/responses (image and video generation), and /v1/models. Hosted at api.modular.com with
@@ -180,7 +180,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modular/refs/heads/main/screenshots/modular-2026-08-07T184028.png
 security:

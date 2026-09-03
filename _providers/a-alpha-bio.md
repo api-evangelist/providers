@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
+- baseURL: https://api.atlas.aalphabio.com
+  baseurl_source: declared
+  description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
   name: A-Alpha Bio Datasets API
   slug: a-alpha-bio-datasets-api
 artifact_total: 12
@@ -231,7 +244,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:

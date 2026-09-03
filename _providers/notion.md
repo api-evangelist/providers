@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 19 operations · 10 acting
 api_count: 1
 apis:
-- description: Blocks are the fundamental units of content in Notion. Every page is composed of blocks, which can be paragraphs, headings, images, tables, lists, and many other types. Blocks can have children, formi
+- baseURL: https://api.notion.com/v1
+  baseurl_source: spec
+  description: Blocks are the fundamental units of content in Notion. Every page is composed of blocks, which can be paragraphs, headings, images, tables, lists, and many other types. Blocks can have children, formi
   name: Notion Blocks API
   slug: notion-blocks-api
-- description: Comments allow integrations to read and create comments on pages and blocks within Notion. Comments support rich text content and are associated with discussion threads.
+- baseURL: https://api.notion.com/v1
+  baseurl_source: spec
+  description: Comments allow integrations to read and create comments on pages and blocks within Notion. Comments support rich text content and are associated with discussion threads.
   name: Notion Comments API
   slug: notion-comments-api
-- description: Databases are collections of Notion pages organized with a shared schema of properties. Each database defines columns (properties) that all its pages share. Databases support filtering, sorting, and q
+- baseURL: https://api.notion.com/v1
+  baseurl_source: spec
+  description: Databases are collections of Notion pages organized with a shared schema of properties. Each database defines columns (properties) that all its pages share. Databases support filtering, sorting, and q
   name: Notion Databases API
   slug: notion-databases-api
-- description: Pages represent documents in Notion workspaces. They can exist as standalone pages or as entries within a database. Pages contain properties (metadata) and content composed of blocks. Use these endpoi
+- baseURL: https://api.notion.com/v1
+  baseurl_source: spec
+  description: Pages represent documents in Notion workspaces. They can exist as standalone pages or as entries within a database. Pages contain properties (metadata) and content composed of blocks. Use these endpoi
   name: Notion Pages API
   slug: notion-pages-api
-- description: Search allows querying across all pages and databases that the integration has access to. Results can be filtered by object type and sorted by relevance or last edited time.
+- baseURL: https://api.notion.com/v1
+  baseurl_source: spec
+  description: Search allows querying across all pages and databases that the integration has access to. Results can be filtered by object type and sorted by relevance or last edited time.
   name: Notion Search API
   slug: notion-search-api
-- description: 'Users represent people or bots in a Notion workspace. Person users are human members of the workspace, while bot users represent API integrations. Use these endpoints to list users, retrieve specific '
+- baseURL: https://api.notion.com/v1
+  baseurl_source: spec
+  description: 'Users represent people or bots in a Notion workspace. Person users are human members of the workspace, while bot users represent API integrations. Use these endpoints to list users, retrieve specific '
   name: Notion Users API
   slug: notion-users-api
 arazzos:
@@ -714,7 +726,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -727,7 +739,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 62.4
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -738,7 +750,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:

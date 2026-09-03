@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -65,22 +65,34 @@ apis:
 - description: Create and manage automated workflows in Qlik Cloud.
   name: Qlik Automations
   slug: qlik-automations
-- description: The Api Keys API from Qlik Cloud — 1 operation(s) for api keys.
+- baseURL: https://your-tenant.region.qlikcloud.com
+  baseurl_source: spec
+  description: The Api Keys API from Qlik Cloud — 1 operation(s) for api keys.
   name: Qlik Cloud Api Keys API
   slug: qlik-cloud-api-keys-api
-- description: The Apps API from Qlik Cloud — 6 operation(s) for apps.
+- baseURL: https://your-tenant.region.qlikcloud.com
+  baseurl_source: spec
+  description: The Apps API from Qlik Cloud — 6 operation(s) for apps.
   name: Qlik Cloud Apps API
   slug: qlik-cloud-apps-api
-- description: The Csrf Token API from Qlik Cloud — 1 operation(s) for csrf token.
+- baseURL: https://your-tenant.region.qlikcloud.com
+  baseurl_source: spec
+  description: The Csrf Token API from Qlik Cloud — 1 operation(s) for csrf token.
   name: Qlik Cloud Csrf Token API
   slug: qlik-cloud-csrf-token-api
-- description: The Spaces API from Qlik Cloud — 4 operation(s) for spaces.
+- baseURL: https://your-tenant.region.qlikcloud.com
+  baseurl_source: spec
+  description: The Spaces API from Qlik Cloud — 4 operation(s) for spaces.
   name: Qlik Cloud Spaces API
   slug: qlik-cloud-spaces-api
-- description: The Users API from Qlik Cloud — 6 operation(s) for users.
+- baseURL: https://your-tenant.region.qlikcloud.com
+  baseurl_source: spec
+  description: The Users API from Qlik Cloud — 6 operation(s) for users.
   name: Qlik Cloud Users API
   slug: qlik-cloud-users-api
-- description: The Webhooks API from Qlik Cloud — 1 operation(s) for webhooks.
+- baseURL: https://your-tenant.region.qlikcloud.com
+  baseurl_source: spec
+  description: The Webhooks API from Qlik Cloud — 1 operation(s) for webhooks.
   name: Qlik Cloud Webhooks API
   slug: qlik-cloud-webhooks-api
 artifact_total: 28
@@ -203,7 +215,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -213,7 +225,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 33.7
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -222,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/screenshots/qlik-cloud-2026-06-20T192341.png
 security:

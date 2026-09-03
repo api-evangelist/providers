@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -49,19 +49,29 @@ apis:
 - description: First-party remote Model Context Protocol server over Streamable HTTP, exposing fourteen tools - five natural-language expert tools, four structured schema/lookup/search tools, four Crunchbase list to
   name: Crunchbase MCP Server
   slug: crunchbase-data-mcp
-- description: The Autocomplete API from Crunchbase — 1 operation(s) for autocomplete.
+- baseURL: https://api.crunchbase.com/v4/data
+  baseurl_source: declared
+  description: The Autocomplete API from Crunchbase — 1 operation(s) for autocomplete.
   name: Crunchbase Autocomplete API
   slug: crunchbase-data-autocomplete-api
-- description: The Deleted Entities API from Crunchbase — 2 operation(s) for deleted entities.
+- baseURL: https://api.crunchbase.com/v4/data
+  baseurl_source: declared
+  description: The Deleted Entities API from Crunchbase — 2 operation(s) for deleted entities.
   name: Crunchbase Deleted Entities API
   slug: crunchbase-data-deleted-entities-api
-- description: The Entity API from Crunchbase — 60 operation(s) for entity.
+- baseURL: https://api.crunchbase.com/v4/data
+  baseurl_source: declared
+  description: The Entity API from Crunchbase — 60 operation(s) for entity.
   name: Crunchbase Entity API
   slug: crunchbase-data-entity-api
-- description: The Metadata API from Crunchbase — 3 operation(s) for metadata.
+- baseURL: https://api.crunchbase.com/v4/data
+  baseurl_source: declared
+  description: The Metadata API from Crunchbase — 3 operation(s) for metadata.
   name: Crunchbase Metadata API
   slug: crunchbase-data-metadata-api
-- description: The Search API from Crunchbase — 43 operation(s) for search.
+- baseURL: https://api.crunchbase.com/v4/data
+  baseurl_source: declared
+  description: The Search API from Crunchbase — 43 operation(s) for search.
   name: Crunchbase Search API
   slug: crunchbase-data-search-api
 artifact_total: 21
@@ -300,7 +310,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -310,7 +320,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 44.8
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,8 +332,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,7 +67,9 @@ apis:
 - description: Blastscan instance for the Blast Sepolia testnet, supporting transaction lookup and contract verification for testnet deployments.
   name: Blastscan Sepolia Testnet Explorer
   slug: blastscan-sepolia-explorer
-- description: Ethereum-compatible JSON-RPC methods exposed by the Blast node.
+- baseURL: https://rpc.blast.io
+  baseurl_source: declared
+  description: Ethereum-compatible JSON-RPC methods exposed by the Blast node.
   name: Blast JSON-RPC API
   slug: blast-network-json-rpc-api
 artifact_total: 18
@@ -206,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/screenshots/blast-network-2026-06-20T173346.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Batched Intents API from Everclear — 2 operation(s) for batched intents.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Batched Intents API from Everclear — 2 operation(s) for batched intents.
   name: Everclear Batched Intents API
   slug: connext-batched-intents-api
-- description: The Configs API from Everclear — 1 operation(s) for configs.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Configs API from Everclear — 1 operation(s) for configs.
   name: Everclear Configs API
   slug: connext-configs-api
-- description: The History API from Everclear — 1 operation(s) for history.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The History API from Everclear — 1 operation(s) for history.
   name: Everclear History API
   slug: connext-history-api
-- description: The Intents API from Everclear — 4 operation(s) for intents.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Intents API from Everclear — 4 operation(s) for intents.
   name: Everclear Intents API
   slug: connext-intents-api
-- description: The Invoices API from Everclear — 3 operation(s) for invoices.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Invoices API from Everclear — 3 operation(s) for invoices.
   name: Everclear Invoices API
   slug: connext-invoices-api
-- description: The Routes API from Everclear — 2 operation(s) for routes.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Routes API from Everclear — 2 operation(s) for routes.
   name: Everclear Routes API
   slug: connext-routes-api
-- description: The Solana API from Everclear — 2 operation(s) for solana.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Solana API from Everclear — 2 operation(s) for solana.
   name: Everclear Solana API
   slug: connext-solana-api
-- description: The Tron API from Everclear — 1 operation(s) for tron.
+- baseURL: https://api.everclear.org
+  baseurl_source: declared
+  description: The Tron API from Everclear — 1 operation(s) for tron.
   name: Everclear Tron API
   slug: connext-tron-api
 artifact_total: 19
@@ -186,7 +213,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -209,8 +236,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/connext/refs/heads/main/screenshots/connext-2026-09-02T145135.png
 security:
 - kind: authentication
   name: Connext Authentication

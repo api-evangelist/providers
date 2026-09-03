@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: Analyze LLM input and output through the detector engine.
+- baseURL: https://api.promptarmor.com
+  baseurl_source: declared
+  description: Analyze LLM input and output through the detector engine.
   name: PromptArmor Analyze API
   slug: prompt-armor-analyze-api
-- description: Single-call content verdict against the detection engine.
+- baseURL: https://api.promptarmor.com
+  baseurl_source: declared
+  description: Single-call content verdict against the detection engine.
   name: PromptArmor Content Check API
   slug: prompt-armor-content-check-api
 artifact_total: 13
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/screenshots/prompt-armor-2026-06-20T192253.png
 security:

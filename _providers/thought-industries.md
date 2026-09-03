@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Thought Industries GraphQL API provides flexible querying of platform data including courses, users, content, and enrollments. Available at /incoming/api/graphql with schema introspection supporte
   name: Thought Industries GraphQL API
   slug: graphql-api
-- description: Learning content and categories
+- baseURL: https://{subdomain}.thoughtindustries.com/incoming/api/v1
+  baseurl_source: declared
+  description: Learning content and categories
   name: Thought Industries Content API
   slug: thought-industries-content-api
-- description: Course management and content
+- baseURL: https://{subdomain}.thoughtindustries.com/incoming/api/v1
+  baseurl_source: declared
+  description: Course management and content
   name: Thought Industries Courses API
   slug: thought-industries-courses-api
-- description: Course enrollment management
+- baseURL: https://{subdomain}.thoughtindustries.com/incoming/api/v1
+  baseurl_source: declared
+  description: Course enrollment management
   name: Thought Industries Enrollments API
   slug: thought-industries-enrollments-api
-- description: User group management
+- baseURL: https://{subdomain}.thoughtindustries.com/incoming/api/v1
+  baseurl_source: declared
+  description: User group management
   name: Thought Industries Groups API
   slug: thought-industries-groups-api
-- description: Analytics and reporting
+- baseURL: https://{subdomain}.thoughtindustries.com/incoming/api/v1
+  baseurl_source: declared
+  description: Analytics and reporting
   name: Thought Industries Reports API
   slug: thought-industries-reports-api
-- description: User lifecycle management
+- baseURL: https://{subdomain}.thoughtindustries.com/incoming/api/v1
+  baseurl_source: declared
+  description: User lifecycle management
   name: Thought Industries Users API
   slug: thought-industries-users-api
 artifact_total: 37
@@ -259,7 +271,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -269,7 +281,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 43.6
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -284,7 +296,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:

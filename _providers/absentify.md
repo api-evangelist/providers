@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 40 operations · 23 acting
 api_count: 1
 apis:
-- description: The Absences API from Absentify — 1 operation(s) for absences.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Absences API from Absentify — 1 operation(s) for absences.
   name: Absentify Absences API
   slug: absentify-absences-api
-- description: The Departments API from Absentify — 2 operation(s) for departments.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Departments API from Absentify — 2 operation(s) for departments.
   name: Absentify Departments API
   slug: absentify-departments-api
-- description: The Leave types API from Absentify — 3 operation(s) for leave types.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Leave types API from Absentify — 3 operation(s) for leave types.
   name: Absentify Leave types API
   slug: absentify-leave-types-api
-- description: The Members API from Absentify — 10 operation(s) for members.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Members API from Absentify — 10 operation(s) for members.
   name: Absentify Members API
   slug: absentify-members-api
-- description: The Public holidays API from Absentify — 2 operation(s) for public holidays.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Public holidays API from Absentify — 2 operation(s) for public holidays.
   name: Absentify Public holidays API
   slug: absentify-public-holidays-api
-- description: The Requests API from Absentify — 9 operation(s) for requests.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Requests API from Absentify — 9 operation(s) for requests.
   name: Absentify Requests API
   slug: absentify-requests-api
-- description: The Workspace API from Absentify — 1 operation(s) for workspace.
+- baseURL: https://api.absentify.com/api/v1
+  baseurl_source: declared
+  description: The Workspace API from Absentify — 1 operation(s) for workspace.
   name: Absentify Workspace API
   slug: absentify-workspace-api
 artifact_total: 76
@@ -366,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/screenshots/absentify-2026-06-20T163354.png
 security:

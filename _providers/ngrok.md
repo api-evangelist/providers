@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 1
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 134 operations · 79 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Abuse Reports allow you to submit reports of abusive endpoints.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Abuse Reports allow you to submit reports of abusive endpoints.
   name: ngrok Abuse Reports API
   slug: ngrok-abuse-reports-api
-- description: Agent Ingresses are the addresses ngrok agents connect to.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Agent Ingresses are the addresses ngrok agents connect to.
   name: ngrok Agent Ingresses API
   slug: ngrok-agent-ingresses-api
-- description: API Keys are used to authenticate to the ngrok API.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: API Keys are used to authenticate to the ngrok API.
   name: ngrok API Keys API
   slug: ngrok-api-keys-api
-- description: Backends define how traffic is handled, including tunnel group, weighted, failover, HTTP response, and static address backends.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Backends define how traffic is handled, including tunnel group, weighted, failover, HTTP response, and static address backends.
   name: ngrok Backends API
   slug: ngrok-backends-api
-- description: Certificate Authorities are x509 certificates used for mutual TLS authentication.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Certificate Authorities are x509 certificates used for mutual TLS authentication.
   name: ngrok Certificate Authorities API
   slug: ngrok-certificate-authorities-api
-- description: Tunnel Credentials are authtokens used to start ngrok tunnels.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Tunnel Credentials are authtokens used to start ngrok tunnels.
   name: ngrok Credentials API
   slug: ngrok-credentials-api
-- description: HTTPS Edges define HTTPS endpoints with routes and modules.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: HTTPS Edges define HTTPS endpoints with routes and modules.
   name: ngrok Edges HTTPS API
   slug: ngrok-edges-https-api
-- description: TCP Edges define TCP endpoints for non-HTTP protocols.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: TCP Edges define TCP endpoints for non-HTTP protocols.
   name: ngrok Edges TCP API
   slug: ngrok-edges-tcp-api
-- description: TLS Edges define TLS endpoints with TLS termination and mutual TLS.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: TLS Edges define TLS endpoints with TLS termination and mutual TLS.
   name: ngrok Edges TLS API
   slug: ngrok-edges-tls-api
-- description: Endpoints represent the public URLs of active tunnels and edges.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Endpoints represent the public URLs of active tunnels and edges.
   name: ngrok Endpoints API
   slug: ngrok-endpoints-api
-- description: Event Destinations define where event data is sent.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Event Destinations define where event data is sent.
   name: ngrok Event Destinations API
   slug: ngrok-event-destinations-api
-- description: Event Subscriptions define which events trigger notifications.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Event Subscriptions define which events trigger notifications.
   name: ngrok Event Subscriptions API
   slug: ngrok-event-subscriptions-api
-- description: IP Policies contain rules to allow or deny traffic from IP ranges.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: IP Policies contain rules to allow or deny traffic from IP ranges.
   name: ngrok IP Policies API
   slug: ngrok-ip-policies-api
-- description: IP Policy Rules are CIDR-based allow/deny rules within an IP Policy.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: IP Policy Rules are CIDR-based allow/deny rules within an IP Policy.
   name: ngrok IP Policy Rules API
   slug: ngrok-ip-policy-rules-api
-- description: IP Restrictions apply IP Policies to specific ngrok resources.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: IP Restrictions apply IP Policies to specific ngrok resources.
   name: ngrok IP Restrictions API
   slug: ngrok-ip-restrictions-api
-- description: Reserved Addresses are static TCP addresses for TCP tunnels.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Reserved Addresses are static TCP addresses for TCP tunnels.
   name: ngrok Reserved Addresses API
   slug: ngrok-reserved-addresses-api
-- description: Reserved Domains are custom hostnames for HTTP/HTTPS/TLS tunnels.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Reserved Domains are custom hostnames for HTTP/HTTPS/TLS tunnels.
   name: ngrok Reserved Domains API
   slug: ngrok-reserved-domains-api
-- description: SSH Certificate Authorities manage keys for signing SSH certificates.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: SSH Certificate Authorities manage keys for signing SSH certificates.
   name: ngrok SSH Certificate Authorities API
   slug: ngrok-ssh-certificate-authorities-api
-- description: SSH Credentials are public keys for authenticating SSH tunnel sessions.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: SSH Credentials are public keys for authenticating SSH tunnel sessions.
   name: ngrok SSH Credentials API
   slug: ngrok-ssh-credentials-api
-- description: SSH Host Certificates authenticate ngrok tunnel servers to clients.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: SSH Host Certificates authenticate ngrok tunnel servers to clients.
   name: ngrok SSH Host Certificates API
   slug: ngrok-ssh-host-certificates-api
-- description: SSH User Certificates authenticate users to ngrok SSH tunnel servers.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: SSH User Certificates authenticate users to ngrok SSH tunnel servers.
   name: ngrok SSH User Certificates API
   slug: ngrok-ssh-user-certificates-api
-- description: TLS Certificates are x509 certificate/key pairs used to terminate TLS traffic.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: TLS Certificates are x509 certificate/key pairs used to terminate TLS traffic.
   name: ngrok TLS Certificates API
   slug: ngrok-tls-certificates-api
-- description: Tunnel Sessions represent running ngrok agent connections.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Tunnel Sessions represent running ngrok agent connections.
   name: ngrok Tunnel Sessions API
   slug: ngrok-tunnel-sessions-api
-- description: Tunnels represent individual tunnels within a tunnel session.
+- baseURL: https://api.ngrok.com
+  baseurl_source: declared
+  description: Tunnels represent individual tunnels within a tunnel session.
   name: ngrok Tunnels API
   slug: ngrok-tunnels-api
 artifact_total: 97
@@ -496,7 +544,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngrok/refs/heads/main/screenshots/ngrok-2026-06-20T190307.png
 security:

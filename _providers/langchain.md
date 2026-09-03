@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 309
   human_in_the_loop: 8
@@ -44,202 +44,334 @@ agentic_access:
   summary_line: 506 operations · 309 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: The access_policies API from LangChain — 3 operation(s) for access_policies.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The access_policies API from LangChain — 3 operation(s) for access_policies.
   name: LangChain access_policies API
   slug: langchain-access-policies-api
-- description: The ace API from LangChain — 1 operation(s) for ace.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The ace API from LangChain — 1 operation(s) for ace.
   name: LangChain ace API
   slug: langchain-ace-api
-- description: The alert_rules API from LangChain — 3 operation(s) for alert_rules.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The alert_rules API from LangChain — 3 operation(s) for alert_rules.
   name: LangChain alert_rules API
   slug: langchain-alert-rules-api
-- description: The annotation-queues API from LangChain — 17 operation(s) for annotation-queues.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The annotation-queues API from LangChain — 17 operation(s) for annotation-queues.
   name: LangChain annotation-queues API
   slug: langchain-annotation-queues-api
-- description: The api-key API from LangChain — 4 operation(s) for api-key.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The api-key API from LangChain — 4 operation(s) for api-key.
   name: LangChain api-key API
   slug: langchain-api-key-api
-- description: The audit-logs API from LangChain — 1 operation(s) for audit-logs.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The audit-logs API from LangChain — 1 operation(s) for audit-logs.
   name: LangChain audit-logs API
   slug: langchain-audit-logs-api
-- description: The auth API from LangChain — 7 operation(s) for auth.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The auth API from LangChain — 7 operation(s) for auth.
   name: LangChain auth API
   slug: langchain-auth-api
-- description: The aws_marketplace API from LangChain — 1 operation(s) for aws_marketplace.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The aws_marketplace API from LangChain — 1 operation(s) for aws_marketplace.
   name: LangChain aws_marketplace API
   slug: langchain-aws-marketplace-api
-- description: The backfills API from LangChain — 1 operation(s) for backfills.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The backfills API from LangChain — 1 operation(s) for backfills.
   name: LangChain backfills API
   slug: langchain-backfills-api
-- description: The beacon API from LangChain — 1 operation(s) for beacon.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The beacon API from LangChain — 1 operation(s) for beacon.
   name: LangChain beacon API
   slug: langchain-beacon-api
-- description: The bulk-exports API from LangChain — 7 operation(s) for bulk-exports.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The bulk-exports API from LangChain — 7 operation(s) for bulk-exports.
   name: LangChain bulk-exports API
   slug: langchain-bulk-exports-api
-- description: The charts API from LangChain — 13 operation(s) for charts.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The charts API from LangChain — 13 operation(s) for charts.
   name: LangChain charts API
   slug: langchain-charts-api
-- description: The comments API from LangChain — 3 operation(s) for comments.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The comments API from LangChain — 3 operation(s) for comments.
   name: LangChain comments API
   slug: langchain-comments-api
-- description: The commits API from LangChain — 2 operation(s) for commits.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The commits API from LangChain — 2 operation(s) for commits.
   name: LangChain commits API
   slug: langchain-commits-api
-- description: The data_planes API from LangChain — 1 operation(s) for data_planes.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The data_planes API from LangChain — 1 operation(s) for data_planes.
   name: LangChain data_planes API
   slug: langchain-data-planes-api
-- description: The datasets API from LangChain — 28 operation(s) for datasets.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The datasets API from LangChain — 28 operation(s) for datasets.
   name: LangChain datasets API
   slug: langchain-datasets-api
-- description: The evaluators API from LangChain — 2 operation(s) for evaluators.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The evaluators API from LangChain — 2 operation(s) for evaluators.
   name: LangChain evaluators API
   slug: langchain-evaluators-api
-- description: The examples API from LangChain — 9 operation(s) for examples.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The examples API from LangChain — 9 operation(s) for examples.
   name: LangChain examples API
   slug: langchain-examples-api
-- description: The experiment-view-overrides API from LangChain — 2 operation(s) for experiment-view-overrides.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The experiment-view-overrides API from LangChain — 2 operation(s) for experiment-view-overrides.
   name: LangChain experiment-view-overrides API
   slug: langchain-experiment-view-overrides-api
-- description: The experiments API from LangChain — 1 operation(s) for experiments.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The experiments API from LangChain — 1 operation(s) for experiments.
   name: LangChain experiments API
   slug: langchain-experiments-api
-- description: The features API from LangChain — 4 operation(s) for features.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The features API from LangChain — 4 operation(s) for features.
   name: LangChain features API
   slug: langchain-features-api
-- description: The feedback API from LangChain — 7 operation(s) for feedback.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The feedback API from LangChain — 7 operation(s) for feedback.
   name: LangChain feedback API
   slug: langchain-feedback-api
-- description: The feedback-configs API from LangChain — 1 operation(s) for feedback-configs.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The feedback-configs API from LangChain — 1 operation(s) for feedback-configs.
   name: LangChain feedback-configs API
   slug: langchain-feedback-configs-api
-- description: The fleet github-app API from LangChain — 9 operation(s) for fleet github-app.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The fleet github-app API from LangChain — 9 operation(s) for fleet github-app.
   name: LangChain fleet github-app API
   slug: langchain-fleet-github-app-api
-- description: The fleet integrations API from LangChain — 3 operation(s) for fleet integrations.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The fleet integrations API from LangChain — 3 operation(s) for fleet integrations.
   name: LangChain fleet integrations API
   slug: langchain-fleet-integrations-api
-- description: The fleet mcp API from LangChain — 4 operation(s) for fleet mcp.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The fleet mcp API from LangChain — 4 operation(s) for fleet mcp.
   name: LangChain fleet mcp API
   slug: langchain-fleet-mcp-api
-- description: The fleet usage API from LangChain — 4 operation(s) for fleet usage.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The fleet usage API from LangChain — 4 operation(s) for fleet usage.
   name: LangChain fleet usage API
   slug: langchain-fleet-usage-api
-- description: The fleet_webhooks API from LangChain — 1 operation(s) for fleet_webhooks.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The fleet_webhooks API from LangChain — 1 operation(s) for fleet_webhooks.
   name: LangChain fleet_webhooks API
   slug: langchain-fleet-webhooks-api
-- description: The hub_environments API from LangChain — 2 operation(s) for hub_environments.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The hub_environments API from LangChain — 2 operation(s) for hub_environments.
   name: LangChain hub_environments API
   slug: langchain-hub-environments-api
-- description: The info API from LangChain — 2 operation(s) for info.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The info API from LangChain — 2 operation(s) for info.
   name: LangChain info API
   slug: langchain-info-api
-- description: The integrations API from LangChain — 1 operation(s) for integrations.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The integrations API from LangChain — 1 operation(s) for integrations.
   name: LangChain integrations API
   slug: langchain-integrations-api
-- description: The likes API from LangChain — 1 operation(s) for likes.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The likes API from LangChain — 1 operation(s) for likes.
   name: LangChain likes API
   slug: langchain-likes-api
-- description: The mcp API from LangChain — 2 operation(s) for mcp.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The mcp API from LangChain — 2 operation(s) for mcp.
   name: LangChain mcp API
   slug: langchain-mcp-api
-- description: The mcp_vendors API from LangChain — 6 operation(s) for mcp_vendors.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The mcp_vendors API from LangChain — 6 operation(s) for mcp_vendors.
   name: LangChain mcp_vendors API
   slug: langchain-mcp-vendors-api
-- description: The me API from LangChain — 4 operation(s) for me.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The me API from LangChain — 4 operation(s) for me.
   name: LangChain me API
   slug: langchain-me-api
-- description: The metrics API from LangChain — 1 operation(s) for metrics.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The metrics API from LangChain — 1 operation(s) for metrics.
   name: LangChain metrics API
   slug: langchain-metrics-api
-- description: The model-price-map API from LangChain — 2 operation(s) for model-price-map.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The model-price-map API from LangChain — 2 operation(s) for model-price-map.
   name: LangChain model-price-map API
   slug: langchain-model-price-map-api
-- description: The nps API from LangChain — 1 operation(s) for nps.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The nps API from LangChain — 1 operation(s) for nps.
   name: LangChain nps API
   slug: langchain-nps-api
-- description: The oauth API from LangChain — 7 operation(s) for oauth.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The oauth API from LangChain — 7 operation(s) for oauth.
   name: LangChain oauth API
   slug: langchain-oauth-api
-- description: The Ok API from LangChain — 1 operation(s) for ok.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The Ok API from LangChain — 1 operation(s) for ok.
   name: LangChain Ok API
   slug: langchain-ok-api
-- description: The optimization-jobs API from LangChain — 4 operation(s) for optimization-jobs.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The optimization-jobs API from LangChain — 4 operation(s) for optimization-jobs.
   name: LangChain optimization-jobs API
   slug: langchain-optimization-jobs-api
-- description: The Organizations API from LangChain — 1 operation(s) for organizations.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The Organizations API from LangChain — 1 operation(s) for organizations.
   name: LangChain Organizations API
   slug: langchain-organizations-api
-- description: The orgs API from LangChain — 39 operation(s) for orgs.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The orgs API from LangChain — 39 operation(s) for orgs.
   name: LangChain orgs API
   slug: langchain-orgs-api
-- description: The ownerships API from LangChain — 1 operation(s) for ownerships.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The ownerships API from LangChain — 1 operation(s) for ownerships.
   name: LangChain ownerships API
   slug: langchain-ownerships-api
-- description: The playground-settings API from LangChain — 2 operation(s) for playground-settings.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The playground-settings API from LangChain — 2 operation(s) for playground-settings.
   name: LangChain playground-settings API
   slug: langchain-playground-settings-api
-- description: The prompt-webhooks API from LangChain — 3 operation(s) for prompt-webhooks.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The prompt-webhooks API from LangChain — 3 operation(s) for prompt-webhooks.
   name: LangChain prompt-webhooks API
   slug: langchain-prompt-webhooks-api
-- description: The prompts API from LangChain — 2 operation(s) for prompts.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The prompts API from LangChain — 2 operation(s) for prompts.
   name: LangChain prompts API
   slug: langchain-prompts-api
-- description: The public API from LangChain — 20 operation(s) for public.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The public API from LangChain — 20 operation(s) for public.
   name: LangChain public API
   slug: langchain-public-api
-- description: The repos API from LangChain — 5 operation(s) for repos.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The repos API from LangChain — 5 operation(s) for repos.
   name: LangChain repos API
   slug: langchain-repos-api
-- description: The run API from LangChain — 19 operation(s) for run.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The run API from LangChain — 19 operation(s) for run.
   name: LangChain run API
   slug: langchain-run-api
-- description: The runs API from LangChain — 7 operation(s) for runs.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The runs API from LangChain — 7 operation(s) for runs.
   name: LangChain runs API
   slug: langchain-runs-api
-- description: The sandboxes API from LangChain — 11 operation(s) for sandboxes.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The sandboxes API from LangChain — 11 operation(s) for sandboxes.
   name: LangChain sandboxes API
   slug: langchain-sandboxes-api
-- description: The sandboxes-internal API from LangChain — 1 operation(s) for sandboxes-internal.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The sandboxes-internal API from LangChain — 1 operation(s) for sandboxes-internal.
   name: LangChain sandboxes-internal API
   slug: langchain-sandboxes-internal-api
-- description: The SCIM Tokens API from LangChain — 2 operation(s) for scim tokens.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The SCIM Tokens API from LangChain — 2 operation(s) for scim tokens.
   name: LangChain SCIM Tokens API
   slug: langchain-scim-tokens-api
-- description: The service-accounts API from LangChain — 2 operation(s) for service-accounts.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The service-accounts API from LangChain — 2 operation(s) for service-accounts.
   name: LangChain service-accounts API
   slug: langchain-service-accounts-api
-- description: The sessions API from LangChain — 1 operation(s) for sessions.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The sessions API from LangChain — 1 operation(s) for sessions.
   name: LangChain sessions API
   slug: langchain-sessions-api
-- description: The settings API from LangChain — 2 operation(s) for settings.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The settings API from LangChain — 2 operation(s) for settings.
   name: LangChain settings API
   slug: langchain-settings-api
-- description: The tag-transitions API from LangChain — 1 operation(s) for tag-transitions.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The tag-transitions API from LangChain — 1 operation(s) for tag-transitions.
   name: LangChain tag-transitions API
   slug: langchain-tag-transitions-api
-- description: The tags API from LangChain — 2 operation(s) for tags.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The tags API from LangChain — 2 operation(s) for tags.
   name: LangChain tags API
   slug: langchain-tags-api
-- description: The tenant API from LangChain — 1 operation(s) for tenant.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The tenant API from LangChain — 1 operation(s) for tenant.
   name: LangChain tenant API
   slug: langchain-tenant-api
-- description: The threads API from LangChain — 2 operation(s) for threads.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The threads API from LangChain — 2 operation(s) for threads.
   name: LangChain threads API
   slug: langchain-threads-api
-- description: The tools API from LangChain — 3 operation(s) for tools.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The tools API from LangChain — 3 operation(s) for tools.
   name: LangChain tools API
   slug: langchain-tools-api
-- description: The tracer-sessions API from LangChain — 14 operation(s) for tracer-sessions.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The tracer-sessions API from LangChain — 14 operation(s) for tracer-sessions.
   name: LangChain tracer-sessions API
   slug: langchain-tracer-sessions-api
-- description: The TTL Settings API from LangChain — 2 operation(s) for ttl settings.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The TTL Settings API from LangChain — 2 operation(s) for ttl settings.
   name: LangChain TTL Settings API
   slug: langchain-ttl-settings-api
-- description: The usage-limits API from LangChain — 3 operation(s) for usage-limits.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The usage-limits API from LangChain — 3 operation(s) for usage-limits.
   name: LangChain usage-limits API
   slug: langchain-usage-limits-api
-- description: The workspaces API from LangChain — 25 operation(s) for workspaces.
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The workspaces API from LangChain — 25 operation(s) for workspaces.
   name: LangChain workspaces API
   slug: langchain-workspaces-api
 artifact_total: 141
@@ -550,7 +682,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -560,7 +692,7 @@ score:
     discoverability: 51.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 37.8
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -569,7 +701,7 @@ score:
       marker_coverage: 0.0
       total: 66
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/screenshots/langchain-2026-06-20T184304.png
 security:

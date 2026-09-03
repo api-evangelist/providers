@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: The OpenZeppelin Contracts library provides a comprehensive collection of modular, reusable, and secure Solidity smart contracts for building decentralized applications. The API reference covers ERC t
   name: OpenZeppelin Contracts API Reference
   slug: openzeppelin-contracts-api-reference
-- description: Health is responsible for showing the health of the relayers.
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Health is responsible for showing the health of the relayers.
   name: OpenZeppelin Health API
   slug: openzeppelin-health-api
-- description: Metrics are responsible for showing the metrics related to the relayers.
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Metrics are responsible for showing the metrics related to the relayers.
   name: OpenZeppelin Metrics API
   slug: openzeppelin-metrics-api
-- description: Networks represent blockchain network configurations including RPC endpoints and network-specific settings.
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Networks represent blockchain network configurations including RPC endpoints and network-specific settings.
   name: OpenZeppelin Networks API
   slug: openzeppelin-networks-api
-- description: Notifications are responsible for showing the notifications related to the relayers.
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Notifications are responsible for showing the notifications related to the relayers.
   name: OpenZeppelin Notifications API
   slug: openzeppelin-notifications-api
-- description: Plugins are TypeScript functions that can be used to extend the OpenZeppelin Relayer API functionality.
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Plugins are TypeScript functions that can be used to extend the OpenZeppelin Relayer API functionality.
   name: OpenZeppelin Plugins API
   slug: openzeppelin-plugins-api
-- description: Relayers are the core components of the OpenZeppelin Relayer API. They are responsible for executing transactions on behalf of users and providing a secure and reliable way to interact with the blockc
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Relayers are the core components of the OpenZeppelin Relayer API. They are responsible for executing transactions on behalf of users and providing a secure and reliable way to interact with the blockc
   name: OpenZeppelin Relayers API
   slug: openzeppelin-relayers-api
-- description: Signers are responsible for signing the transactions related to the relayers.
+- baseURL: https://defender-api.openzeppelin.com/v2
+  baseurl_source: declared
+  description: Signers are responsible for signing the transactions related to the relayers.
   name: OpenZeppelin Signers API
   slug: openzeppelin-signers-api
 artifact_total: 32
@@ -292,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/screenshots/openzeppelin-2026-06-20T191058.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 25 operations · 11 acting
 api_count: 1
 apis:
-- description: Retrieve account information and usage statistics.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Retrieve account information and usage statistics.
   name: Hunter Account API
   slug: hunter-account-api
-- description: Manage email sequences and recipients.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Manage email sequences and recipients.
   name: Hunter Campaigns API
   slug: hunter-campaigns-api
-- description: Merge person and company enrichment for a single email address.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Merge person and company enrichment for a single email address.
   name: Hunter Combined Enrichment API
   slug: hunter-combined-enrichment-api
-- description: Enrich company information linked to a domain name.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Enrich company information linked to a domain name.
   name: Hunter Company Enrichment API
   slug: hunter-company-enrichment-api
-- description: Find companies matching criteria using natural language or filters.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Find companies matching criteria using natural language or filters.
   name: Hunter Discover API
   slug: hunter-discover-api
-- description: Search for email addresses associated with a domain.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Search for email addresses associated with a domain.
   name: Hunter Domain Search API
   slug: hunter-domain-search-api
-- description: Count email addresses found for a domain.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Count email addresses found for a domain.
   name: Hunter Email Count API
   slug: hunter-email-count-api
-- description: Enrich personal information linked to an email or LinkedIn profile.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Enrich personal information linked to an email or LinkedIn profile.
   name: Hunter Email Enrichment API
   slug: hunter-email-enrichment-api
-- description: Find the most likely email address for a person at a company.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Find the most likely email address for a person at a company.
   name: Hunter Email Finder API
   slug: hunter-email-finder-api
-- description: Verify the deliverability of an email address.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Verify the deliverability of an email address.
   name: Hunter Email Verifier API
   slug: hunter-email-verifier-api
-- description: Manage leads stored in Hunter.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Manage leads stored in Hunter.
   name: Hunter Leads API
   slug: hunter-leads-api
-- description: Manage leads list collections in Hunter.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: declared
+  description: Manage leads list collections in Hunter.
   name: Hunter Leads Lists API
   slug: hunter-leads-lists-api
 arazzos:
@@ -785,7 +809,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -795,7 +819,7 @@ score:
     discoverability: 68.5
     governance: 47.0
     operational_transparency: 68.4
-  previous_composite: 68.2
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -807,7 +831,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:

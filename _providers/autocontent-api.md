@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: Transform source content into visual infographics and interactive quiz formats. Consumes 10-30 credits per asset. Supports diverse input types and produces structured HTML and visual media output.
   name: Infographics and Quizzes API
   slug: infographics-quizzes
-- description: The Content API from AutoContent API — 24 operation(s) for content.
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The Content API from AutoContent API — 24 operation(s) for content.
   name: AutoContent API Content API
   slug: autocontent-api-content-api
-- description: The Dedicated Account API from AutoContent API — 4 operation(s) for dedicated account.
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The Dedicated Account API from AutoContent API — 4 operation(s) for dedicated account.
   name: AutoContent API Dedicated Account API
   slug: autocontent-api-dedicated-account-api
-- description: The Podcast API from AutoContent API — 3 operation(s) for podcast.
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The Podcast API from AutoContent API — 3 operation(s) for podcast.
   name: AutoContent API Podcast API
   slug: autocontent-api-podcast-api
-- description: The Share API from AutoContent API — 5 operation(s) for share.
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The Share API from AutoContent API — 5 operation(s) for share.
   name: AutoContent API Share API
   slug: autocontent-api-share-api
-- description: The Video API from AutoContent API — 12 operation(s) for video.
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The Video API from AutoContent API — 12 operation(s) for video.
   name: AutoContent API Video API
   slug: autocontent-api-video-api
 artifact_total: 38
@@ -211,7 +221,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/screenshots/autocontent-api-2026-06-20T172653.png
 security:

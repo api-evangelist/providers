@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Manage long-running operations
+- baseURL: https://speech.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage long-running operations
   name: Google Cloud Speech-To-Text Operations API
   slug: google-cloud-speech-to-text-operations-api
-- description: Perform speech recognition on audio
+- baseURL: https://speech.googleapis.com/v1
+  baseurl_source: declared
+  description: Perform speech recognition on audio
   name: Google Cloud Speech-To-Text Speech API
   slug: google-cloud-speech-to-text-speech-api
 artifact_total: 17
@@ -214,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/screenshots/google-cloud-speech-to-text-2026-06-20T182137.png
 security:

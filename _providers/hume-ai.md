@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 49 operations · 28 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: The Ai Default API from Hume AI — 6 operation(s) for ai default.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The Ai Default API from Hume AI — 6 operation(s) for ai default.
   name: Hume AI Ai Default API
   slug: hume-ai-default-api
-- description: The subpackage_batch API from Hume AI — 4 operation(s) for subpackage_batch.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_batch API from Hume AI — 4 operation(s) for subpackage_batch.
   name: Hume AI subpackage_batch API
   slug: hume-ai-subpackage-batch-api
-- description: The subpackage_chatGroups API from Hume AI — 4 operation(s) for subpackage_chatgroups.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_chatGroups API from Hume AI — 4 operation(s) for subpackage_chatgroups.
   name: Hume AI subpackage_chatGroups API
   slug: hume-ai-subpackage-chatgroups-api
-- description: The subpackage_chats API from Hume AI — 3 operation(s) for subpackage_chats.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_chats API from Hume AI — 3 operation(s) for subpackage_chats.
   name: Hume AI subpackage_chats API
   slug: hume-ai-subpackage-chats-api
-- description: The subpackage_configs API from Hume AI — 3 operation(s) for subpackage_configs.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_configs API from Hume AI — 3 operation(s) for subpackage_configs.
   name: Hume AI subpackage_configs API
   slug: hume-ai-subpackage-configs-api
-- description: The subpackage_controlPlane API from Hume AI — 1 operation(s) for subpackage_controlplane.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_controlPlane API from Hume AI — 1 operation(s) for subpackage_controlplane.
   name: Hume AI subpackage_controlPlane API
   slug: hume-ai-subpackage-controlplane-api
-- description: The subpackage_prompts API from Hume AI — 3 operation(s) for subpackage_prompts.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_prompts API from Hume AI — 3 operation(s) for subpackage_prompts.
   name: Hume AI subpackage_prompts API
   slug: hume-ai-subpackage-prompts-api
-- description: The subpackage_tools API from Hume AI — 3 operation(s) for subpackage_tools.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_tools API from Hume AI — 3 operation(s) for subpackage_tools.
   name: Hume AI subpackage_tools API
   slug: hume-ai-subpackage-tools-api
-- description: The subpackage_voices API from Hume AI — 1 operation(s) for subpackage_voices.
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The subpackage_voices API from Hume AI — 1 operation(s) for subpackage_voices.
   name: Hume AI subpackage_voices API
   slug: hume-ai-subpackage-voices-api
-- description: The Speech To Speech (EVI) API from Hume AI — 0 operation(s) for speech to speech (evi).
+- baseURL: https://api.hume.ai
+  baseurl_source: declared
+  description: The Speech To Speech (EVI) API from Hume AI — 0 operation(s) for speech to speech (evi).
   name: Hume AI Speech To Speech (EVI) API
   slug: hume-ai-speech-to-speech-evi-api
 artifact_total: 32
@@ -215,7 +235,7 @@ score:
     catalog_gap: 62.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -225,7 +245,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -234,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/screenshots/hume-ai-2026-06-20T183040.png
 security:

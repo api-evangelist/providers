@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 47 operations · 23 acting
 api_count: 2
 apis:
-- description: The Asset Facilities API from Reelables — 1 operation(s) for asset facilities.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Asset Facilities API from Reelables — 1 operation(s) for asset facilities.
   name: Reelables Asset Facilities API
   slug: got-its-asset-facilities-api
-- description: The Asset Labels API from Reelables — 2 operation(s) for asset labels.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Asset Labels API from Reelables — 2 operation(s) for asset labels.
   name: Reelables Asset Labels API
   slug: got-its-asset-labels-api
-- description: The Asset Locations API from Reelables — 1 operation(s) for asset locations.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Asset Locations API from Reelables — 1 operation(s) for asset locations.
   name: Reelables Asset Locations API
   slug: got-its-asset-locations-api
-- description: The Asset Spaces API from Reelables — 1 operation(s) for asset spaces.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Asset Spaces API from Reelables — 1 operation(s) for asset spaces.
   name: Reelables Asset Spaces API
   slug: got-its-asset-spaces-api
-- description: The Asset Temperatures API from Reelables — 1 operation(s) for asset temperatures.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Asset Temperatures API from Reelables — 1 operation(s) for asset temperatures.
   name: Reelables Asset Temperatures API
   slug: got-its-asset-temperatures-api
-- description: The Assets API from Reelables — 2 operation(s) for assets.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Assets API from Reelables — 2 operation(s) for assets.
   name: Reelables Assets API
   slug: got-its-assets-api
-- description: The Consignment Gateways API from Reelables — 2 operation(s) for consignment gateways.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Consignment Gateways API from Reelables — 2 operation(s) for consignment gateways.
   name: Reelables Consignment Gateways API
   slug: got-its-consignment-gateways-api
-- description: The Consignment Pieces API from Reelables — 2 operation(s) for consignment pieces.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Consignment Pieces API from Reelables — 2 operation(s) for consignment pieces.
   name: Reelables Consignment Pieces API
   slug: got-its-consignment-pieces-api
-- description: The Consignments API from Reelables — 1 operation(s) for consignments.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Consignments API from Reelables — 1 operation(s) for consignments.
   name: Reelables Consignments API
   slug: got-its-consignments-api
-- description: The External API from Reelables — 2 operation(s) for external.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The External API from Reelables — 2 operation(s) for external.
   name: Reelables External API
   slug: got-its-external-api
-- description: The Facilities API from Reelables — 1 operation(s) for facilities.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Facilities API from Reelables — 1 operation(s) for facilities.
   name: Reelables Facilities API
   slug: got-its-facilities-api
-- description: The Facility Asset Groups API from Reelables — 1 operation(s) for facility asset groups.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Facility Asset Groups API from Reelables — 1 operation(s) for facility asset groups.
   name: Reelables Facility Asset Groups API
   slug: got-its-facility-asset-groups-api
-- description: The Print Job Statuses API from Reelables — 1 operation(s) for print job statuses.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Print Job Statuses API from Reelables — 1 operation(s) for print job statuses.
   name: Reelables Print Job Statuses API
   slug: got-its-print-job-statuses-api
-- description: The Print Jobs API from Reelables — 2 operation(s) for print jobs.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Print Jobs API from Reelables — 2 operation(s) for print jobs.
   name: Reelables Print Jobs API
   slug: got-its-print-jobs-api
-- description: The Space Assets API from Reelables — 1 operation(s) for space assets.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Space Assets API from Reelables — 1 operation(s) for space assets.
   name: Reelables Space Assets API
   slug: got-its-space-assets-api
-- description: The Space Gateways API from Reelables — 2 operation(s) for space gateways.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Space Gateways API from Reelables — 2 operation(s) for space gateways.
   name: Reelables Space Gateways API
   slug: got-its-space-gateways-api
-- description: The Spaces API from Reelables — 1 operation(s) for spaces.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Spaces API from Reelables — 1 operation(s) for spaces.
   name: Reelables Spaces API
   slug: got-its-spaces-api
-- description: The Workspace Assets API from Reelables — 1 operation(s) for workspace assets.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspace Assets API from Reelables — 1 operation(s) for workspace assets.
   name: Reelables Workspace Assets API
   slug: got-its-workspace-assets-api
-- description: The Workspace Consignments API from Reelables — 1 operation(s) for workspace consignments.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspace Consignments API from Reelables — 1 operation(s) for workspace consignments.
   name: Reelables Workspace Consignments API
   slug: got-its-workspace-consignments-api
-- description: The Workspace Facilities API from Reelables — 1 operation(s) for workspace facilities.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspace Facilities API from Reelables — 1 operation(s) for workspace facilities.
   name: Reelables Workspace Facilities API
   slug: got-its-workspace-facilities-api
-- description: The Workspace Print Templates API from Reelables — 1 operation(s) for workspace print templates.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspace Print Templates API from Reelables — 1 operation(s) for workspace print templates.
   name: Reelables Workspace Print Templates API
   slug: got-its-workspace-print-templates-api
-- description: The Workspace Printers API from Reelables — 2 operation(s) for workspace printers.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspace Printers API from Reelables — 2 operation(s) for workspace printers.
   name: Reelables Workspace Printers API
   slug: got-its-workspace-printers-api
-- description: The Workspace Spaces API from Reelables — 1 operation(s) for workspace spaces.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspace Spaces API from Reelables — 1 operation(s) for workspace spaces.
   name: Reelables Workspace Spaces API
   slug: got-its-workspace-spaces-api
-- description: The Workspaces API from Reelables — 2 operation(s) for workspaces.
+- baseURL: https://api.reelables.com/v1
+  baseurl_source: declared
+  description: The Workspaces API from Reelables — 2 operation(s) for workspaces.
   name: Reelables Workspaces API
   slug: got-its-workspaces-api
 artifact_total: 54
@@ -341,7 +389,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 349 operations · 229 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The audit-log API from Cloudsmith — 2 operation(s) for audit-log.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The audit-log API from Cloudsmith — 2 operation(s) for audit-log.
   name: Cloudsmith audit-log API
   slug: cloudsmith-audit-log-api
-- description: The badges API from Cloudsmith — 1 operation(s) for badges.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The badges API from Cloudsmith — 1 operation(s) for badges.
   name: Cloudsmith badges API
   slug: cloudsmith-badges-api
-- description: The broadcasts API from Cloudsmith — 1 operation(s) for broadcasts.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The broadcasts API from Cloudsmith — 1 operation(s) for broadcasts.
   name: Cloudsmith broadcasts API
   slug: cloudsmith-broadcasts-api
-- description: The bulk-action API from Cloudsmith — 1 operation(s) for bulk-action.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The bulk-action API from Cloudsmith — 1 operation(s) for bulk-action.
   name: Cloudsmith bulk-action API
   slug: cloudsmith-bulk-action-api
-- description: The distros API from Cloudsmith — 2 operation(s) for distros.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The distros API from Cloudsmith — 2 operation(s) for distros.
   name: Cloudsmith distros API
   slug: cloudsmith-distros-api
-- description: The entitlements API from Cloudsmith — 8 operation(s) for entitlements.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The entitlements API from Cloudsmith — 8 operation(s) for entitlements.
   name: Cloudsmith entitlements API
   slug: cloudsmith-entitlements-api
-- description: The files API from Cloudsmith — 5 operation(s) for files.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The files API from Cloudsmith — 5 operation(s) for files.
   name: Cloudsmith files API
   slug: cloudsmith-files-api
-- description: The formats API from Cloudsmith — 2 operation(s) for formats.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The formats API from Cloudsmith — 2 operation(s) for formats.
   name: Cloudsmith formats API
   slug: cloudsmith-formats-api
-- description: The metrics API from Cloudsmith — 3 operation(s) for metrics.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The metrics API from Cloudsmith — 3 operation(s) for metrics.
   name: Cloudsmith metrics API
   slug: cloudsmith-metrics-api
-- description: The namespaces API from Cloudsmith — 2 operation(s) for namespaces.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The namespaces API from Cloudsmith — 2 operation(s) for namespaces.
   name: Cloudsmith namespaces API
   slug: cloudsmith-namespaces-api
-- description: The orgs API from Cloudsmith — 40 operation(s) for orgs.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The orgs API from Cloudsmith — 40 operation(s) for orgs.
   name: Cloudsmith orgs API
   slug: cloudsmith-orgs-api
-- description: The packages API from Cloudsmith — 70 operation(s) for packages.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The packages API from Cloudsmith — 70 operation(s) for packages.
   name: Cloudsmith packages API
   slug: cloudsmith-packages-api
-- description: The quota API from Cloudsmith — 4 operation(s) for quota.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The quota API from Cloudsmith — 4 operation(s) for quota.
   name: Cloudsmith quota API
   slug: cloudsmith-quota-api
-- description: The rates API from Cloudsmith — 1 operation(s) for rates.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The rates API from Cloudsmith — 1 operation(s) for rates.
   name: Cloudsmith rates API
   slug: cloudsmith-rates-api
-- description: The recycle-bin API from Cloudsmith — 2 operation(s) for recycle-bin.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The recycle-bin API from Cloudsmith — 2 operation(s) for recycle-bin.
   name: Cloudsmith recycle-bin API
   slug: cloudsmith-recycle-bin-api
-- description: The repos API from Cloudsmith — 59 operation(s) for repos.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The repos API from Cloudsmith — 59 operation(s) for repos.
   name: Cloudsmith repos API
   slug: cloudsmith-repos-api
-- description: The status API from Cloudsmith — 1 operation(s) for status.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The status API from Cloudsmith — 1 operation(s) for status.
   name: Cloudsmith status API
   slug: cloudsmith-status-api
-- description: The storage-regions API from Cloudsmith — 2 operation(s) for storage-regions.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The storage-regions API from Cloudsmith — 2 operation(s) for storage-regions.
   name: Cloudsmith storage-regions API
   slug: cloudsmith-storage-regions-api
-- description: The user API from Cloudsmith — 4 operation(s) for user.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The user API from Cloudsmith — 4 operation(s) for user.
   name: Cloudsmith user API
   slug: cloudsmith-user-api
-- description: The users API from Cloudsmith — 1 operation(s) for users.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The users API from Cloudsmith — 1 operation(s) for users.
   name: Cloudsmith users API
   slug: cloudsmith-users-api
-- description: The vulnerabilities API from Cloudsmith — 4 operation(s) for vulnerabilities.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The vulnerabilities API from Cloudsmith — 4 operation(s) for vulnerabilities.
   name: Cloudsmith vulnerabilities API
   slug: cloudsmith-vulnerabilities-api
-- description: The webhooks API from Cloudsmith — 2 operation(s) for webhooks.
+- baseURL: https://api.cloudsmith.io
+  baseurl_source: declared
+  description: The webhooks API from Cloudsmith — 2 operation(s) for webhooks.
   name: Cloudsmith webhooks API
   slug: cloudsmith-webhooks-api
 artifact_total: 54
@@ -313,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsmith/refs/heads/main/screenshots/cloudsmith-2026-06-20T174624.png
 security:

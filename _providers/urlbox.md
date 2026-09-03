@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: Create screenshot, PDF, and video renders.
+- baseURL: https://api.urlbox.com/v1
+  baseurl_source: declared
+  description: Create screenshot, PDF, and video renders.
   name: Urlbox Render API
   slug: urlbox-render-api
-- description: Stateless, cacheable HMAC-signed GET render URLs.
+- baseURL: https://api.urlbox.com/v1
+  baseurl_source: declared
+  description: Stateless, cacheable HMAC-signed GET render URLs.
   name: Urlbox Render Links API
   slug: urlbox-render-links-api
-- description: Poll the status of asynchronous renders.
+- baseURL: https://api.urlbox.com/v1
+  baseurl_source: declared
+  description: Poll the status of asynchronous renders.
   name: Urlbox Status API
   slug: urlbox-status-api
-- description: Account render usage for the current billing period.
+- baseURL: https://api.urlbox.com/v1
+  baseurl_source: declared
+  description: Account render usage for the current billing period.
   name: Urlbox Usage API
   slug: urlbox-usage-api
 artifact_total: 18
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urlbox/refs/heads/main/screenshots/urlbox-2026-06-20T200526.png
 security:

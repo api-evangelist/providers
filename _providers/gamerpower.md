@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 3
 apis:
-- description: Multi-value platform and type filtering using dot-separated values.
+- baseURL: https://www.gamerpower.com/api
+  baseurl_source: declared
+  description: Multi-value platform and type filtering using dot-separated values.
   name: GamerPower Filter API
   slug: gamerpower-filter-api
-- description: List and look up live game giveaways, beta keys, DLC drops, and loot offers.
+- baseURL: https://www.gamerpower.com/api
+  baseurl_source: declared
+  description: List and look up live game giveaways, beta keys, DLC drops, and loot offers.
   name: GamerPower Giveaways API
   slug: gamerpower-giveaways-api
-- description: Aggregate live giveaway counts and USD value estimation.
+- baseURL: https://www.gamerpower.com/api
+  baseurl_source: declared
+  description: Aggregate live giveaway counts and USD value estimation.
   name: GamerPower Worth API
   slug: gamerpower-worth-api
 artifact_total: 28
@@ -228,7 +234,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamerpower/refs/heads/main/screenshots/gamerpower-2026-06-20T181638.png
 security:

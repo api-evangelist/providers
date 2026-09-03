@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- description: The Album API from Musixmatch — 2 operation(s) for album.
+- baseURL: https://api.musixmatch.com/ws/1.1/
+  baseurl_source: declared
+  description: The Album API from Musixmatch — 2 operation(s) for album.
   name: Musixmatch Album API
   slug: musixmatch-album-api
-- description: The Artist API from Musixmatch — 4 operation(s) for artist.
+- baseURL: https://api.musixmatch.com/ws/1.1/
+  baseurl_source: declared
+  description: The Artist API from Musixmatch — 4 operation(s) for artist.
   name: Musixmatch Artist API
   slug: musixmatch-artist-api
-- description: The Lyrics API from Musixmatch — 2 operation(s) for lyrics.
+- baseURL: https://api.musixmatch.com/ws/1.1/
+  baseurl_source: declared
+  description: The Lyrics API from Musixmatch — 2 operation(s) for lyrics.
   name: Musixmatch Lyrics API
   slug: musixmatch-lyrics-api
-- description: The Snippets API from Musixmatch — 1 operation(s) for snippets.
+- baseURL: https://api.musixmatch.com/ws/1.1/
+  baseurl_source: declared
+  description: The Snippets API from Musixmatch — 1 operation(s) for snippets.
   name: Musixmatch Snippets API
   slug: musixmatch-snippets-api
-- description: The Subtitle API from Musixmatch — 2 operation(s) for subtitle.
+- baseURL: https://api.musixmatch.com/ws/1.1/
+  baseurl_source: declared
+  description: The Subtitle API from Musixmatch — 2 operation(s) for subtitle.
   name: Musixmatch Subtitle API
   slug: musixmatch-subtitle-api
-- description: The Track API from Musixmatch — 5 operation(s) for track.
+- baseURL: https://api.musixmatch.com/ws/1.1/
+  baseurl_source: declared
+  description: The Track API from Musixmatch — 5 operation(s) for track.
   name: Musixmatch Track API
   slug: musixmatch-track-api
 artifact_total: 20
@@ -178,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/screenshots/musixmatch-2026-06-20T185906.png
 security:

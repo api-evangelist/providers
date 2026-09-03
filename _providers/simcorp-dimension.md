@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Web API providing HTTP-based interfaces for accessing and manipulating SimCorp Dimension data in real time, supporting stateless RESTful operations across the investment management lifecycle. Named by
@@ -280,7 +280,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/screenshots/simcorp-dimension-2026-06-20T193926.png
 security:

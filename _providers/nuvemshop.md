@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 56 operations · 33 acting
 api_count: 1
 apis:
-- description: Hierarchical catalog categories.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Hierarchical catalog categories.
   name: Nuvemshop / Tiendanube Categories API
   slug: nuvemshop-categories-api
-- description: Discount coupons.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Discount coupons.
   name: Nuvemshop / Tiendanube Coupons API
   slug: nuvemshop-coupons-api
-- description: Registered customer accounts.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Registered customer accounts.
   name: Nuvemshop / Tiendanube Customers API
   slug: nuvemshop-customers-api
-- description: Customer purchases and their lifecycle.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Customer purchases and their lifecycle.
   name: Nuvemshop / Tiendanube Orders API
   slug: nuvemshop-orders-api
-- description: Images attached to a product.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Images attached to a product.
   name: Nuvemshop / Tiendanube Product Images API
   slug: nuvemshop-product-images-api
-- description: Option combinations (size, color, etc.) owned by a product.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Option combinations (size, color, etc.) owned by a product.
   name: Nuvemshop / Tiendanube Product Variants API
   slug: nuvemshop-product-variants-api
-- description: Items for sale in the store.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Items for sale in the store.
   name: Nuvemshop / Tiendanube Products API
   slug: nuvemshop-products-api
-- description: Custom JavaScript injected into the storefront.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Custom JavaScript injected into the storefront.
   name: Nuvemshop / Tiendanube Scripts API
   slug: nuvemshop-scripts-api
-- description: Store settings and metadata.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Store settings and metadata.
   name: Nuvemshop / Tiendanube Store API
   slug: nuvemshop-store-api
-- description: Event notification subscriptions.
+- baseURL: https://api.tiendanube.com/2025-03/{store_id}
+  baseurl_source: declared
+  description: Event notification subscriptions.
   name: Nuvemshop / Tiendanube Webhooks API
   slug: nuvemshop-webhooks-api
 artifact_total: 28
@@ -211,7 +231,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvemshop/refs/heads/main/screenshots/nuvemshop-2026-08-07T185802.png
 security:

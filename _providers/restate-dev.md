@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'The Restate Admin API is the HTTP control plane for a running Restate Server, exposed by default on port 9070. It manages service deployment registration, lists and introspects services and handlers, '
@@ -259,7 +259,7 @@ score:
     score: 25.0
   previous_composite: 26.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate-dev/refs/heads/main/screenshots/restate-dev-2026-06-20T193029.png
 security:

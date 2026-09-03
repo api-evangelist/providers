@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: Memgraph Lab is a lightweight visual interface for writing Cypher queries, visualizing graph results, importing data, and inspecting query modules. The Lab application itself connects to Memgraph over
   name: Memgraph Lab
   slug: memgraph-lab
-- description: The Monitoring API from Memgraph — 1 operation(s) for monitoring.
+- baseURL: bolt://localhost:7687
+  baseurl_source: declared
+  description: The Monitoring API from Memgraph — 1 operation(s) for monitoring.
   name: Memgraph Monitoring API
   slug: memgraph-monitoring-api
 artifact_total: 11
@@ -156,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memgraph/refs/heads/main/screenshots/memgraph-2026-06-20T185201.png
 security:

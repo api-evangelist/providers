@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: '@hey-api/openapi-ts is an OpenAPI to TypeScript code generator that emits production-grade SDKs, types, validators, query hooks, mocks and web framework handlers from any OpenAPI 2.0, 3.0 or 3.1 docum'
   name: Hey API Openapi-Ts
   slug: hey-api
-- description: The Get API from Hey API — 1 operation(s) for get.
+- baseURL: https://api.heyapi.dev
+  baseurl_source: declared
+  description: The Get API from Hey API — 1 operation(s) for get.
   name: Hey API Get API
   slug: hey-api-get-api
-- description: The Hey API API from Hey API — 1 operation(s) for hey api.
+- baseURL: https://api.heyapi.dev
+  baseurl_source: declared
+  description: The Hey API API from Hey API — 1 operation(s) for hey api.
   name: Hey API Hey API API
   slug: hey-api-hey-api-api
-- description: The Internal API from Hey API — 3 operation(s) for internal.
+- baseURL: https://api.heyapi.dev
+  baseurl_source: declared
+  description: The Internal API from Hey API — 3 operation(s) for internal.
   name: Hey API Internal API
   slug: hey-api-internal-api
-- description: The Organizations API from Hey API — 13 operation(s) for organizations.
+- baseURL: https://api.heyapi.dev
+  baseurl_source: declared
+  description: The Organizations API from Hey API — 13 operation(s) for organizations.
   name: Hey API Organizations API
   slug: hey-api-organizations-api
-- description: The Specifications API from Hey API — 1 operation(s) for specifications.
+- baseURL: https://api.heyapi.dev
+  baseurl_source: declared
+  description: The Specifications API from Hey API — 1 operation(s) for specifications.
   name: Hey API Specifications API
   slug: hey-api-specifications-api
-- description: The Users API from Hey API — 6 operation(s) for users.
+- baseURL: https://api.heyapi.dev
+  baseurl_source: declared
+  description: The Users API from Hey API — 6 operation(s) for users.
   name: Hey API Users API
   slug: hey-api-users-api
 artifact_total: 21
@@ -256,7 +268,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -269,7 +281,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 44.5
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,7 +292,7 @@ score:
       total: 6
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:

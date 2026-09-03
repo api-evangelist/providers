@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,34 +53,54 @@ apis:
 - description: The Power BI Push Datasets API enables real-time data streaming into Power BI datasets. Developers can push rows of data directly to streaming datasets for real-time dashboard visualizations, supporti
   name: Power BI Push Datasets API
   slug: push-datasets-api
-- description: The Apps API from Microsoft Power BI — 1 operation(s) for apps.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Apps API from Microsoft Power BI — 1 operation(s) for apps.
   name: Microsoft Power BI Apps API
   slug: microsoft-power-bi-apps-api
-- description: The Capacities API from Microsoft Power BI — 1 operation(s) for capacities.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Capacities API from Microsoft Power BI — 1 operation(s) for capacities.
   name: Microsoft Power BI Capacities API
   slug: microsoft-power-bi-capacities-api
-- description: The Dashboards API from Microsoft Power BI — 2 operation(s) for dashboards.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Dashboards API from Microsoft Power BI — 2 operation(s) for dashboards.
   name: Microsoft Power BI Dashboards API
   slug: microsoft-power-bi-dashboards-api
-- description: The Dataflows API from Microsoft Power BI — 1 operation(s) for dataflows.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Dataflows API from Microsoft Power BI — 1 operation(s) for dataflows.
   name: Microsoft Power BI Dataflows API
   slug: microsoft-power-bi-dataflows-api
-- description: The Datasets API from Microsoft Power BI — 5 operation(s) for datasets.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Datasets API from Microsoft Power BI — 5 operation(s) for datasets.
   name: Microsoft Power BI Datasets API
   slug: microsoft-power-bi-datasets-api
-- description: The EmbedToken API from Microsoft Power BI — 1 operation(s) for embedtoken.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The EmbedToken API from Microsoft Power BI — 1 operation(s) for embedtoken.
   name: Microsoft Power BI EmbedToken API
   slug: microsoft-power-bi-embedtoken-api
-- description: The Gateways API from Microsoft Power BI — 1 operation(s) for gateways.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Gateways API from Microsoft Power BI — 1 operation(s) for gateways.
   name: Microsoft Power BI Gateways API
   slug: microsoft-power-bi-gateways-api
-- description: The Groups API from Microsoft Power BI — 2 operation(s) for groups.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Groups API from Microsoft Power BI — 2 operation(s) for groups.
   name: Microsoft Power BI Groups API
   slug: microsoft-power-bi-groups-api
-- description: The Imports API from Microsoft Power BI — 1 operation(s) for imports.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Imports API from Microsoft Power BI — 1 operation(s) for imports.
   name: Microsoft Power BI Imports API
   slug: microsoft-power-bi-imports-api
-- description: The Reports API from Microsoft Power BI — 5 operation(s) for reports.
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Reports API from Microsoft Power BI — 5 operation(s) for reports.
   name: Microsoft Power BI Reports API
   slug: microsoft-power-bi-reports-api
 artifact_total: 31
@@ -246,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-bi/refs/heads/main/screenshots/microsoft-power-bi-2026-06-20T185523.png
 security:

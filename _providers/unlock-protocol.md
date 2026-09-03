@@ -33,109 +33,175 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
   name: Unlock Subgraphs (GraphQL)
   slug: unlock-subgraphs-graphql
-- description: The Applications API from Unlock Protocol — 3 operation(s) for applications.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Applications API from Unlock Protocol — 3 operation(s) for applications.
   name: Unlock Protocol Applications API
   slug: unlock-protocol-applications-api
-- description: The Auth API from Unlock Protocol — 6 operation(s) for auth.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Auth API from Unlock Protocol — 6 operation(s) for auth.
   name: Unlock Protocol Auth API
   slug: unlock-protocol-auth-api
-- description: The Captcha API from Unlock Protocol — 1 operation(s) for captcha.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Captcha API from Unlock Protocol — 1 operation(s) for captcha.
   name: Unlock Protocol Captcha API
   slug: unlock-protocol-captcha-api
-- description: The Certificate API from Unlock Protocol — 1 operation(s) for certificate.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Certificate API from Unlock Protocol — 1 operation(s) for certificate.
   name: Unlock Protocol Certificate API
   slug: unlock-protocol-certificate-api
-- description: The Charges API from Unlock Protocol — 1 operation(s) for charges.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Charges API from Unlock Protocol — 1 operation(s) for charges.
   name: Unlock Protocol Charges API
   slug: unlock-protocol-charges-api
-- description: The Checkout API from Unlock Protocol — 2 operation(s) for checkout.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Checkout API from Unlock Protocol — 2 operation(s) for checkout.
   name: Unlock Protocol Checkout API
   slug: unlock-protocol-checkout-api
-- description: The Claim API from Unlock Protocol — 2 operation(s) for claim.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Claim API from Unlock Protocol — 2 operation(s) for claim.
   name: Unlock Protocol Claim API
   slug: unlock-protocol-claim-api
-- description: The Contracts API from Unlock Protocol — 1 operation(s) for contracts.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Contracts API from Unlock Protocol — 1 operation(s) for contracts.
   name: Unlock Protocol Contracts API
   slug: unlock-protocol-contracts-api
-- description: The Credit Card Details API from Unlock Protocol — 1 operation(s) for credit card details.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Credit Card Details API from Unlock Protocol — 1 operation(s) for credit card details.
   name: Unlock Protocol Credit Card Details API
   slug: unlock-protocol-credit-card-details-api
-- description: The Email API from Unlock Protocol — 3 operation(s) for email.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Email API from Unlock Protocol — 3 operation(s) for email.
   name: Unlock Protocol Email API
   slug: unlock-protocol-email-api
-- description: The Email Subscriptions API from Unlock Protocol — 2 operation(s) for email subscriptions.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Email Subscriptions API from Unlock Protocol — 2 operation(s) for email subscriptions.
   name: Unlock Protocol Email Subscriptions API
   slug: unlock-protocol-email-subscriptions-api
-- description: The Event Collection API from Unlock Protocol — 9 operation(s) for event collection.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Event Collection API from Unlock Protocol — 9 operation(s) for event collection.
   name: Unlock Protocol Event Collection API
   slug: unlock-protocol-event-collection-api
-- description: The Events API from Unlock Protocol — 9 operation(s) for events.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Events API from Unlock Protocol — 9 operation(s) for events.
   name: Unlock Protocol Events API
   slug: unlock-protocol-events-api
-- description: The Hooks API from Unlock Protocol — 2 operation(s) for hooks.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Hooks API from Unlock Protocol — 2 operation(s) for hooks.
   name: Unlock Protocol Hooks API
   slug: unlock-protocol-hooks-api
-- description: The Images API from Unlock Protocol — 1 operation(s) for images.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Images API from Unlock Protocol — 1 operation(s) for images.
   name: Unlock Protocol Images API
   slug: unlock-protocol-images-api
-- description: The Lock API from Unlock Protocol — 2 operation(s) for lock.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Lock API from Unlock Protocol — 2 operation(s) for lock.
   name: Unlock Protocol Lock API
   slug: unlock-protocol-lock-api
-- description: The Lock Settings API from Unlock Protocol — 2 operation(s) for lock settings.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Lock Settings API from Unlock Protocol — 2 operation(s) for lock settings.
   name: Unlock Protocol Lock Settings API
   slug: unlock-protocol-lock-settings-api
-- description: The Locks API from Unlock Protocol — 4 operation(s) for locks.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Locks API from Unlock Protocol — 4 operation(s) for locks.
   name: Unlock Protocol Locks API
   slug: unlock-protocol-locks-api
-- description: The Merkle Tree API from Unlock Protocol — 1 operation(s) for merkle tree.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Merkle Tree API from Unlock Protocol — 1 operation(s) for merkle tree.
   name: Unlock Protocol Merkle Tree API
   slug: unlock-protocol-merkle-tree-api
-- description: The Metadata API from Unlock Protocol — 4 operation(s) for metadata.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Metadata API from Unlock Protocol — 4 operation(s) for metadata.
   name: Unlock Protocol Metadata API
   slug: unlock-protocol-metadata-api
-- description: The Pass API from Unlock Protocol — 2 operation(s) for pass.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Pass API from Unlock Protocol — 2 operation(s) for pass.
   name: Unlock Protocol Pass API
   slug: unlock-protocol-pass-api
-- description: The Price API from Unlock Protocol — 1 operation(s) for price.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Price API from Unlock Protocol — 1 operation(s) for price.
   name: Unlock Protocol Price API
   slug: unlock-protocol-price-api
-- description: The Privy API from Unlock Protocol — 1 operation(s) for privy.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Privy API from Unlock Protocol — 1 operation(s) for privy.
   name: Unlock Protocol Privy API
   slug: unlock-protocol-privy-api
-- description: The Purchase API from Unlock Protocol — 6 operation(s) for purchase.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Purchase API from Unlock Protocol — 6 operation(s) for purchase.
   name: Unlock Protocol Purchase API
   slug: unlock-protocol-purchase-api
-- description: The Receipts API from Unlock Protocol — 4 operation(s) for receipts.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Receipts API from Unlock Protocol — 4 operation(s) for receipts.
   name: Unlock Protocol Receipts API
   slug: unlock-protocol-receipts-api
-- description: The Receipts Base API from Unlock Protocol — 1 operation(s) for receipts base.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Receipts Base API from Unlock Protocol — 1 operation(s) for receipts base.
   name: Unlock Protocol Receipts Base API
   slug: unlock-protocol-receipts-base-api
-- description: The Rsvp API from Unlock Protocol — 5 operation(s) for rsvp.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Rsvp API from Unlock Protocol — 5 operation(s) for rsvp.
   name: Unlock Protocol Rsvp API
   slug: unlock-protocol-rsvp-api
-- description: The Stripe API from Unlock Protocol — 2 operation(s) for stripe.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Stripe API from Unlock Protocol — 2 operation(s) for stripe.
   name: Unlock Protocol Stripe API
   slug: unlock-protocol-stripe-api
-- description: The Subscriptions API from Unlock Protocol — 1 operation(s) for subscriptions.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Subscriptions API from Unlock Protocol — 1 operation(s) for subscriptions.
   name: Unlock Protocol Subscriptions API
   slug: unlock-protocol-subscriptions-api
-- description: The Ticket API from Unlock Protocol — 9 operation(s) for ticket.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Ticket API from Unlock Protocol — 9 operation(s) for ticket.
   name: Unlock Protocol Ticket API
   slug: unlock-protocol-ticket-api
-- description: The Transfer API from Unlock Protocol — 2 operation(s) for transfer.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Transfer API from Unlock Protocol — 2 operation(s) for transfer.
   name: Unlock Protocol Transfer API
   slug: unlock-protocol-transfer-api
-- description: The Users API from Unlock Protocol — 8 operation(s) for users.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Users API from Unlock Protocol — 8 operation(s) for users.
   name: Unlock Protocol Users API
   slug: unlock-protocol-users-api
-- description: The Verifier API from Unlock Protocol — 3 operation(s) for verifier.
+- baseURL: https://locksmith.unlock-protocol.com
+  baseurl_source: declared
+  description: The Verifier API from Unlock Protocol — 3 operation(s) for verifier.
   name: Unlock Protocol Verifier API
   slug: unlock-protocol-verifier-api
 artifact_total: 72
@@ -399,7 +465,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -409,7 +475,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -426,7 +492,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unlock-protocol/refs/heads/main/screenshots/unlock-protocol-2026-08-17T082632.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Events, Event Sessions (Dates) and registration.
+- baseURL: https://my.demio.com/api/v1
+  baseurl_source: declared
+  description: Events, Event Sessions (Dates) and registration.
   name: Banzai Events API
   slug: banzai-events-api
-- description: Authorization checks.
+- baseURL: https://my.demio.com/api/v1
+  baseurl_source: declared
+  description: Authorization checks.
   name: Banzai Intro API
   slug: banzai-intro-api
-- description: Participation and attendance reporting.
+- baseURL: https://my.demio.com/api/v1
+  baseurl_source: declared
+  description: Participation and attendance reporting.
   name: Banzai Reports API
   slug: banzai-reports-api
 artifact_total: 12
@@ -252,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banzai/refs/heads/main/screenshots/banzai-2026-08-07T162131.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Explorer API from Allium — 6 operation(s) for explorer.
+- baseURL: https://api.allium.so
+  baseurl_source: declared
+  description: The Explorer API from Allium — 6 operation(s) for explorer.
   name: Allium Explorer API
   slug: allium-explorer-api
-- description: The ping API from Allium — 1 operation(s) for ping.
+- baseURL: https://api.allium.so
+  baseurl_source: declared
+  description: The ping API from Allium — 1 operation(s) for ping.
   name: Allium ping API
   slug: allium-ping-api
-- description: The Polygon API from Allium — 1 operation(s) for polygon.
+- baseURL: https://api.allium.so
+  baseurl_source: declared
+  description: The Polygon API from Allium — 1 operation(s) for polygon.
   name: Allium Polygon API
   slug: allium-polygon-api
 artifact_total: 13
@@ -224,7 +230,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -234,7 +240,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 56.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,7 +258,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/screenshots/allium-2026-07-25T195712.png
 security:

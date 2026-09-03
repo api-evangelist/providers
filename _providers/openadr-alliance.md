@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 152 operations · 75 acting
 api_count: 4
 apis:
-- description: The Auth API from OpenADR Alliance — 2 operation(s) for auth.
+- baseURL: http://localhost:8081/openadr3
+  baseurl_source: spec
+  description: The Auth API from OpenADR Alliance — 2 operation(s) for auth.
   name: OpenADR Alliance Auth API
   slug: openadr-alliance-auth-api
-- description: The events API from OpenADR Alliance — 2 operation(s) for events.
+- baseURL: http://localhost:8081/openadr3
+  baseurl_source: spec
+  description: The events API from OpenADR Alliance — 2 operation(s) for events.
   name: OpenADR Alliance Events API
   slug: openadr-alliance-events-api
-- description: The MQTT_notifier API from OpenADR Alliance — 12 operation(s) for mqtt_notifier.
+- baseURL: https://virtserver.swaggerhub.com/OPENADR3_1/openADR3.1.0/1.0.0
+  baseurl_source: spec
+  description: The MQTT_notifier API from OpenADR Alliance — 12 operation(s) for mqtt_notifier.
   name: OpenADR Alliance MQTT Notifier API
   slug: openadr-alliance-mqtt-notifier-api
-- description: The notifiers API from OpenADR Alliance — 1 operation(s) for notifiers.
+- baseURL: https://virtserver.swaggerhub.com/OPENADR3_1/openADR3.1.0/1.0.0
+  baseurl_source: spec
+  description: The notifiers API from OpenADR Alliance — 1 operation(s) for notifiers.
   name: OpenADR Alliance Notifiers API
   slug: openadr-alliance-notifiers-api
-- description: The programs API from OpenADR Alliance — 2 operation(s) for programs.
+- baseURL: http://localhost:8081/openadr3
+  baseurl_source: spec
+  description: The programs API from OpenADR Alliance — 2 operation(s) for programs.
   name: OpenADR Alliance Programs API
   slug: openadr-alliance-programs-api
-- description: The reports API from OpenADR Alliance — 2 operation(s) for reports.
+- baseURL: http://localhost:8081/openadr3
+  baseurl_source: spec
+  description: The reports API from OpenADR Alliance — 2 operation(s) for reports.
   name: OpenADR Alliance Reports API
   slug: openadr-alliance-reports-api
-- description: The resources API from OpenADR Alliance — 2 operation(s) for resources.
+- baseURL: https://virtserver.swaggerhub.com/OPENADR3_1/openADR3.1.0/1.0.0
+  baseurl_source: spec
+  description: The resources API from OpenADR Alliance — 2 operation(s) for resources.
   name: OpenADR Alliance Resources API
   slug: openadr-alliance-resources-api
-- description: The subscriptions API from OpenADR Alliance — 2 operation(s) for subscriptions.
+- baseURL: http://localhost:8081/openadr3
+  baseurl_source: spec
+  description: The subscriptions API from OpenADR Alliance — 2 operation(s) for subscriptions.
   name: OpenADR Alliance Subscriptions API
   slug: openadr-alliance-subscriptions-api
-- description: The vens API from OpenADR Alliance — 4 operation(s) for vens.
+- baseURL: http://localhost:8081/openadr3
+  baseurl_source: spec
+  description: The vens API from OpenADR Alliance — 4 operation(s) for vens.
   name: OpenADR Alliance Vens API
   slug: openadr-alliance-vens-api
 arazzos:
@@ -314,7 +345,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -327,7 +358,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 59.0
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,7 +376,7 @@ score:
     regime_id: energy_utilities
     score: 60.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
 security:

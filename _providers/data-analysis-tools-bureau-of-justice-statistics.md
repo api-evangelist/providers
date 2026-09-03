@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: National Crime Victimization Survey datasets.
+- baseURL: https://api.ojp.gov/bjsdataset/v1
+  baseurl_source: declared
+  description: National Crime Victimization Survey datasets.
   name: Bureau of Justice Statistics Data Analysis Tools NCVS API
   slug: data-analysis-tools-bureau-of-justice-statistics-ncvs-api
-- description: NIBRS national-estimates datasets.
+- baseURL: https://api.ojp.gov/bjsdataset/v1
+  baseurl_source: declared
+  description: NIBRS national-estimates datasets.
   name: Bureau of Justice Statistics Data Analysis Tools NIBRS API
   slug: data-analysis-tools-bureau-of-justice-statistics-nibrs-api
 artifact_total: 17
@@ -204,7 +208,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/screenshots/data-analysis-tools-bureau-of-justice-statistics-2026-06-20T175505.png
 security:

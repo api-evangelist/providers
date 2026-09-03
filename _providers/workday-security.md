@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: 'REST API for retrieving user activity logs and signon data from a Workday tenant. Returns detailed JSON records of user actions including task information, timestamps, IP addresses, activity actions, '
   name: Workday User Activity Logging API
   slug: workday-user-activity-logging-api
-- description: Retrieve and monitor Workday account signon events where the username corresponds to a valid Workday account. Provides detailed signon history including timestamps, IP addresses, and authentication me
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Retrieve and monitor Workday account signon events where the username corresponds to a valid Workday account. Provides detailed signon history including timestamps, IP addresses, and authentication me
   name: Workday Security Account Signons API
   slug: workday-security-account-signons-api
-- description: Retrieve audit log entries that record system events, configuration changes, and administrative actions for compliance monitoring.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Retrieve audit log entries that record system events, configuration changes, and administrative actions for compliance monitoring.
   name: Workday Security Audit Logs API
   slug: workday-security-audit-logs-api
-- description: Manage authentication policies and configurations including SSO, SAML, and multi-factor authentication settings.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Manage authentication policies and configurations including SSO, SAML, and multi-factor authentication settings.
   name: Workday Security Authentication Configuration API
   slug: workday-security-authentication-configuration-api
-- description: Generate and retrieve compliance reports summarizing audit activity, policy adherence, and regulatory compliance status.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Generate and retrieve compliance reports summarizing audit activity, policy adherence, and regulatory compliance status.
   name: Workday Security Compliance Reports API
   slug: workday-security-compliance-reports-api
-- description: Manage domain security policies that define which security groups have access to specific Workday functional domains and the permission levels granted.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Manage domain security policies that define which security groups have access to specific Workday functional domains and the permission levels granted.
   name: Workday Security Domain Security Policies API
   slug: workday-security-domain-security-policies-api
-- description: Obtain and manage OAuth 2.0 access tokens for authenticating REST API requests to Workday services.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Obtain and manage OAuth 2.0 access tokens for authenticating REST API requests to Workday services.
   name: Workday Security OAuth Tokens API
   slug: workday-security-oauth-tokens-api
-- description: Access security-specific audit records including permission changes, security group modifications, and access control events.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Access security-specific audit records including permission changes, security group modifications, and access control events.
   name: Workday Security Security Audit API
   slug: workday-security-security-audit-api
-- description: Manage the membership of users and integration system users within security groups.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Manage the membership of users and integration system users within security groups.
   name: Workday Security Security Group Members API
   slug: workday-security-security-group-members-api
-- description: Create, retrieve, and manage security groups that control access to Workday domains, business processes, and securable items.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Create, retrieve, and manage security groups that control access to Workday domains, business processes, and securable items.
   name: Workday Security Security Groups API
   slug: workday-security-security-groups-api
-- description: Retrieve and manage active authentication sessions including signon history and session metadata.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Retrieve and manage active authentication sessions including signon history and session metadata.
   name: Workday Security Sessions API
   slug: workday-security-sessions-api
-- description: Retrieve and monitor unidentified signon attempts where the provided username does not correspond to a valid Workday account. Used for detecting potential unauthorized access attempts.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Retrieve and monitor unidentified signon attempts where the provided username does not correspond to a valid Workday account. Used for detecting potential unauthorized access attempts.
   name: Workday Security Unidentified Signons API
   slug: workday-security-unidentified-signons-api
-- description: Manage Workday user accounts including account status, credentials, and associated security configurations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/
+  baseurl_source: declared
+  description: Manage Workday user accounts including account status, credentials, and associated security configurations.
   name: Workday Security User Accounts API
   slug: workday-security-user-accounts-api
 artifact_total: 73
@@ -412,7 +436,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-security/refs/heads/main/screenshots/workday-security-2026-06-20T201611.png
 security:

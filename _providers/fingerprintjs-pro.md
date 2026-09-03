@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Fraud detection API offering highly accurate browser fingerprinting
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingerprintjs-pro/refs/heads/main/screenshots/fingerprintjs-pro-2026-06-20T181223.png
 security:

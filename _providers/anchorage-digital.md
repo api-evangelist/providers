@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 134 operations · 55 acting
 api_count: 1
 apis:
-- description: 'These endpoints allow the user to create and retrieve deposit addresses for specific assets. # Verifying Deposit Addresses The addresses REST API endpoints return signatures of the address strings and'
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: 'These endpoints allow the user to create and retrieve deposit addresses for specific assets. # Verifying Deposit Addresses The addresses REST API endpoints return signatures of the address strings and'
   name: Anchorage Digital Addresses API
   slug: anchorage-digital-addresses-api
-- description: These endpoints allow querying information about the current API key in use.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: These endpoints allow querying information about the current API key in use.
   name: Anchorage Digital API Key API
   slug: anchorage-digital-api-key-api
-- description: Descriptions of supported asset types
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: Descriptions of supported asset types
   name: Anchorage Digital Asset Types API
   slug: anchorage-digital-asset-types-api
-- description: The Atlas Settlement Network API from Anchorage Digital — 9 operation(s) for atlas settlement network.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: The Atlas Settlement Network API from Anchorage Digital — 9 operation(s) for atlas settlement network.
   name: Anchorage Digital Atlas Settlement Network API
   slug: anchorage-digital-atlas-settlement-network-api
-- description: The Collateral Management API from Anchorage Digital — 6 operation(s) for collateral management.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: The Collateral Management API from Anchorage Digital — 6 operation(s) for collateral management.
   name: Anchorage Digital Collateral Management API
   slug: anchorage-digital-collateral-management-api
-- description: Deposit Attribution is the process of gathering information about the originator of a given deposit. Once a deposit is initiated this process is automatically started being represented by a Deposit At
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: Deposit Attribution is the process of gathering information about the originator of a given deposit. Once a deposit is initiated this process is automatically started being represented by a Deposit At
   name: Anchorage Digital Deposit Attribution API
   slug: anchorage-digital-deposit-attribution-api
-- description: These endpoints allow clients/partner institutions to start the customer onboarding process for a B2B2B/B2B2C end customer who would not be using the Anchorage Digital applications directly. They coll
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: These endpoints allow clients/partner institutions to start the customer onboarding process for a B2B2B/B2B2C end customer who would not be using the Anchorage Digital applications directly. They coll
   name: Anchorage Digital Onboarding API
   slug: anchorage-digital-onboarding-api
-- description: Endpoints for stablecoin conversion operations including issuance and redemption
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: Endpoints for stablecoin conversion operations including issuance and redemption
   name: Anchorage Digital Stablecoins API
   slug: anchorage-digital-stablecoins-api
-- description: The Statements API from Anchorage Digital — 4 operation(s) for statements.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: The Statements API from Anchorage Digital — 4 operation(s) for statements.
   name: Anchorage Digital Statements API
   slug: anchorage-digital-statements-api
-- description: These endpoints allow the organization to manage subaccounts.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: These endpoints allow the organization to manage subaccounts.
   name: Anchorage Digital Subaccounts API
   slug: anchorage-digital-subaccounts-api
-- description: These endpoints allow the organization to manage tax. ** UNDER DEVELOPMENT **
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: These endpoints allow the organization to manage tax. ** UNDER DEVELOPMENT **
   name: Anchorage Digital Tax API
   slug: anchorage-digital-tax-api
-- description: Operations for managing tax accounts and cost basis reporting
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: Operations for managing tax accounts and cost basis reporting
   name: Anchorage Digital Tax Reporting API
   slug: anchorage-digital-tax-reporting-api
-- description: API endpoints for managing RFQ, Market or Limit orders [Anchorage Digital websocket API documentation.](https://anchorage-wsapi.netlify.app/)
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: API endpoints for managing RFQ, Market or Limit orders [Anchorage Digital websocket API documentation.](https://anchorage-wsapi.netlify.app/)
   name: Anchorage Digital Trading API
   slug: anchorage-digital-trading-api
-- description: Transactions include all of the blockchain actions that affect your vault balances, such as withdrawals, deposits, transfers, and participation actions. Each transaction may have a corresponding block
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: Transactions include all of the blockchain actions that affect your vault balances, such as withdrawals, deposits, transfers, and participation actions. Each transaction may have a corresponding block
   name: Anchorage Digital Transactions API
   slug: anchorage-digital-transactions-api
-- description: These endpoints allow you to transfer assets from one of your API-enabled vaults to *another resource custodied by Anchorage Digital*.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: These endpoints allow you to transfer assets from one of your API-enabled vaults to *another resource custodied by Anchorage Digital*.
   name: Anchorage Digital Transfers API
   slug: anchorage-digital-transfers-api
-- description: The Trusted Destinations API from Anchorage Digital — 4 operation(s) for trusted destinations.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: The Trusted Destinations API from Anchorage Digital — 4 operation(s) for trusted destinations.
   name: Anchorage Digital Trusted Destinations API
   slug: anchorage-digital-trusted-destinations-api
-- description: An Anchorage Digital organization has one or more vaults. Each vault may contain one or more assets which are held in wallets. Each wallet may be comprised of one or more addresses depending on the ty
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: An Anchorage Digital organization has one or more vaults. Each vault may contain one or more assets which are held in wallets. Each wallet may be comprised of one or more addresses depending on the ty
   name: Anchorage Digital Vaults API
   slug: anchorage-digital-vaults-api
-- description: These endpoints allow access to vesting balance information for allocations.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: These endpoints allow access to vesting balance information for allocations.
   name: Anchorage Digital Vesting API
   slug: anchorage-digital-vesting-api
-- description: A vault has one or more wallets. Each wallet is a collection of one or more addresses depending on the asset type. A wallet is created for a particular blockchain network, e.g. Bitcoin, Ethereum, etc.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: A vault has one or more wallets. Each wallet is a collection of one or more addresses depending on the asset type. A wallet is created for a particular blockchain network, e.g. Bitcoin, Ethereum, etc.
   name: Anchorage Digital Wallets API
   slug: anchorage-digital-wallets-api
-- description: The Webhook Notifications API from Anchorage Digital — 6 operation(s) for webhook notifications.
+- baseURL: https://api.anchorage.com/v2
+  baseurl_source: declared
+  description: The Webhook Notifications API from Anchorage Digital — 6 operation(s) for webhook notifications.
   name: Anchorage Digital Webhook Notifications API
   slug: anchorage-digital-webhook-notifications-api
 artifact_total: 48
@@ -337,7 +377,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -347,7 +387,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 40.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,7 +405,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png
 security:

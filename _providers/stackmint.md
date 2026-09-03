@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: 'REST API for managing Stackmint workflows. Provides endpoints for listing and retrieving clients (orgs), enumerating and running Branches (composable workflows) and Buds (atomic execution units), and '
   name: Stackmint Platform API
   slug: platform-api
-- description: The Admin API from Stackmint — 2 operation(s) for admin.
+- baseURL: https://api.stackmint.ai/v1
+  baseurl_source: declared
+  description: The Admin API from Stackmint — 2 operation(s) for admin.
   name: Stackmint Admin API
   slug: stackmint-admin-api
-- description: The Clients API from Stackmint — 9 operation(s) for clients.
+- baseURL: https://api.stackmint.ai/v1
+  baseurl_source: declared
+  description: The Clients API from Stackmint — 9 operation(s) for clients.
   name: Stackmint Clients API
   slug: stackmint-clients-api
 artifact_total: 12
@@ -163,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/screenshots/stackmint-2026-06-20T194447.png
 security:

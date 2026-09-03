@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ apis:
 - description: Every Firely Server (formerly Vonk) instance exposes the standard HL7 FHIR REST API contract — type-level and instance-level CRUD, search, history, batch/transaction, capability statement (/metadata),
   name: Firely Server FHIR REST API
   slug: firely-server-fhir-rest-api
-- description: The Catalog API from Firely — 1 operation(s) for catalog.
+- baseURL: https://packages.simplifier.net/
+  baseurl_source: declared
+  description: The Catalog API from Firely — 1 operation(s) for catalog.
   name: Firely Catalog API
   slug: firely-server-catalog-api
-- description: The Simplifier.net FHIR Package API API from Firely — 2 operation(s) for simplifier.net fhir package api.
+- baseURL: https://packages.simplifier.net/
+  baseurl_source: declared
+  description: The Simplifier.net FHIR Package API API from Firely — 2 operation(s) for simplifier.net fhir package api.
   name: Firely Simplifier.net FHIR Package API API
   slug: firely-server-simplifier-net-fhir-package-api-api
 artifact_total: 34
@@ -359,7 +363,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firely-server/refs/heads/main/screenshots/firely-server-2026-06-20T181232.png
 security:

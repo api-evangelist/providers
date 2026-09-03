@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -33,97 +45,159 @@ agentic_access:
   summary_line: 150 operations · 88 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: '<h3> Overview </h3> <p> Having customers paying you by bank transfer might be easy for your customers but contains a reconciliation risk for you. If your customer mistypes or forgets the reference to '
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: '<h3> Overview </h3> <p> Having customers paying you by bank transfer might be easy for your customers but contains a reconciliation risk for you. If your customer mistypes or forgets the reference to '
   name: Monoova Automatcher (Bank Account Receivables) API
   slug: monoova-automatcher-bank-account-receivables-api
-- description: <h3> Overview </h3> The BPAY APIs do not perform any financial transactions and are used to validate BPAY information that is used in the <a href="/payments#operation/TransactionExecute"> /financial/v
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> The BPAY APIs do not perform any financial transactions and are used to validate BPAY information that is used in the <a href="/payments#operation/TransactionExecute"> /financial/v
   name: Monoova BPAY API
   slug: monoova-bpay-api
-- description: The Create Payment Using Token API from Monoova — 1 operation(s) for create payment using token.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Create Payment Using Token API from Monoova — 1 operation(s) for create payment using token.
   name: Monoova Create Payment Using Token API
   slug: monoova-create-payment-using-token-api
-- description: <h3> Overview </h3> <p> The Financial APIs enable you to process credits and debits, including transferring funds within Monoova to a Ledger Account, an mWallet (for BPAY transactions), or an mAccount
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> <p> The Financial APIs enable you to process credits and debits, including transferring funds within Monoova to a Ledger Account, an mWallet (for BPAY transactions), or an mAccount
   name: Monoova Financial API
   slug: monoova-financial-api
-- description: The Generate a Bearer Token API from Monoova — 1 operation(s) for generate a bearer token.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Generate a Bearer Token API from Monoova — 1 operation(s) for generate a bearer token.
   name: Monoova Generate a Bearer Token API
   slug: monoova-generate-a-bearer-token-api
-- description: The Generate a Client Session API from Monoova — 1 operation(s) for generate a client session.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Generate a Client Session API from Monoova — 1 operation(s) for generate a client session.
   name: Monoova Generate a Client Session API
   slug: monoova-generate-a-client-session-api
-- description: The Get Async Request Status API from Monoova — 1 operation(s) for get async request status.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Get Async Request Status API from Monoova — 1 operation(s) for get async request status.
   name: Monoova Get Async Request Status API
   slug: monoova-get-async-request-status-api
-- description: The Get Payment Method Token Details API from Monoova — 1 operation(s) for get payment method token details.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Get Payment Method Token Details API from Monoova — 1 operation(s) for get payment method token details.
   name: Monoova Get Payment Method Token Details API
   slug: monoova-get-payment-method-token-details-api
-- description: The Get Transaction By Date Range API from Monoova — 1 operation(s) for get transaction by date range.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Get Transaction By Date Range API from Monoova — 1 operation(s) for get transaction by date range.
   name: Monoova Get Transaction By Date Range API
   slug: monoova-get-transaction-by-date-range-api
-- description: The Get Transaction By Id API from Monoova — 1 operation(s) for get transaction by id.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Get Transaction By Id API from Monoova — 1 operation(s) for get transaction by id.
   name: Monoova Get Transaction By Id API
   slug: monoova-get-transaction-by-id-api
-- description: Once a payment agreement is created you can trigger payments against it
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: Once a payment agreement is created you can trigger payments against it
   name: Monoova Initiate a Payment API
   slug: monoova-initiate-a-payment-api
-- description: Monoova allows virtual ledgers to be created and linked to an Automatcher account number and optional PayID that can be used to track funds received and paid. Moving funds in and out of ledgers is acc
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: Monoova allows virtual ledgers to be created and linked to an Automatcher account number and optional PayID that can be used to track funds received and paid. Moving funds in and out of ledgers is acc
   name: Monoova Ledger Account API
   slug: monoova-ledger-account-api
-- description: <h3> Overview </h3> The mAccount is the name we have given our virtual account. It is at the centre of anything you do with our Payments Engine. In many ways, your mAccount(s) is you in the Engine, th
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> The mAccount is the name we have given our virtual account. It is at the centre of anything you do with our Payments Engine. In many ways, your mAccount(s) is you in the Engine, th
   name: Monoova M Account API
   slug: monoova-maccount-api
-- description: Methods to handle the payment agreement lifecycle. There are 2 ways in which a payment agreement can be amended – unilaterally (no payer approval needed), and Bilaterally (payer approval required)
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: Methods to handle the payment agreement lifecycle. There are 2 ways in which a payment agreement can be amended – unilaterally (no payer approval needed), and Bilaterally (payer approval required)
   name: Monoova Manage Payment Agreements API
   slug: monoova-manage-payment-agreements-api
-- description: <h3> Overview </h3> mWallet is the name we have given to the digital wallet required for our BPAY payments. For any other digital-wallet uses, we recommend our mAccount. The APIs in this section do no
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> mWallet is the name we have given to the digital wallet required for our BPAY payments. For any other digital-wallet uses, we recommend our mAccount. The APIs in this section do no
   name: Monoova M Wallet API
   slug: monoova-mwallet-api
-- description: The Notification Management API from Monoova — 4 operation(s) for notification management.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Notification Management API from Monoova — 4 operation(s) for notification management.
   name: Monoova Notification Management API
   slug: monoova-notification-management-api
-- description: <h3> Overview </h3> <p> A PayID is an alias for a bank account number that makes paying into account easier. A PayID can be an email address, phone number or ABN. PayIDs are issued and associated with
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> <p> A PayID is an alias for a bank account number that makes paying into account easier. A PayID can be an email address, phone number or ABN. PayIDs are issued and associated with
   name: Monoova Pay ID API
   slug: monoova-payid-api
-- description: The `AsyncResponse` is used in operations where the request is accepted, but the processing is not immediate. This response format provides information for tracking and checking the request status. Th
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The `AsyncResponse` is used in operations where the request is accepted, but the processing is not immediate. This response format provides information for tracking and checking the request status. Th
   name: Monoova PayTo Async API
   slug: monoova-payto-async-api-api
-- description: The Public Endpoints API from Monoova — 3 operation(s) for public endpoints.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Public Endpoints API from Monoova — 3 operation(s) for public endpoints.
   name: Monoova Public Endpoints API
   slug: monoova-public-endpoints-api
-- description: <h3> Overview </h3> <p> This feature enables customers to specify the criteria for accepting incoming NPP and DE payments in real time. The customer will be able to advise Monoova about the exact amou
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> <p> This feature enables customers to specify the criteria for accepting incoming NPP and DE payments in real time. The customer will be able to advise Monoova about the exact amou
   name: Monoova Reconciliation Rules API
   slug: monoova-reconciliation-rules-api
-- description: </br><h2>PayTo Reporting</h2> <p> A new report has been added specifically for NPP payments related to PayTo. Monoova’s PayTo NPP receivables – available <a href='https://api-docs.monoova.com/payments
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: </br><h2>PayTo Reporting</h2> <p> A new report has been added specifically for NPP payments related to PayTo. Monoova’s PayTo NPP receivables – available <a href='https://api-docs.monoova.com/payments
   name: Monoova Reporting API
   slug: monoova-reporting-api
-- description: <h3> Overview </h3> The APIs in the reports/v1 section help you keep track of balances and transactions. Payments automation is only helping you relax if you know where exactly your money is at any on
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> The APIs in the reports/v1 section help you keep track of balances and transactions. Payments automation is only helping you relax if you know where exactly your money is at any on
   name: Monoova Reports API
   slug: monoova-reports-api
-- description: The Request Refund Transaction API from Monoova — 1 operation(s) for request refund transaction.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Request Refund Transaction API from Monoova — 1 operation(s) for request refund transaction.
   name: Monoova Request Refund Transaction API
   slug: monoova-request-refund-transaction-api
-- description: <h3> Overview </h3> <p> The security/v1 APIs allows you to manage security tokens. This gives you an alternative to using signIn API KEY for BASIC authentication for each API call. Security tokens com
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> <p> The security/v1 APIs allows you to manage security tokens. This gives you an alternative to using signIn API KEY for BASIC authentication for each API call. Security tokens com
   name: Monoova Security API
   slug: monoova-security-api
-- description: The endpoints in this section allow subscription and management of webhooks for the purpose of receiving transaction notifications.</br>
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The endpoints in this section allow subscription and management of webhooks for the purpose of receiving transaction notifications.</br>
   name: Monoova Subscriptions API
   slug: monoova-subscriptions-api
-- description: <h3> Overview </h3> <p> Using tokens is a way of increasing the security around sensitive information. A token can be used to obfuscate debit and credit details. The details of a token (its payload) a
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> <p> Using tokens is a way of increasing the security around sensitive information. A token can be used to obfuscate debit and credit details. The details of a token (its payload) a
   name: Monoova Token API
   slug: monoova-token-api
-- description: <h3> Overview </h3> The APIs in the tools/v1/ section represent utilities that you may find useful while consuming the other APIs offered as part of the Engine other APIs.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> The APIs in the tools/v1/ section represent utilities that you may find useful while consuming the other APIs offered as part of the Engine other APIs.
   name: Monoova Tools API
   slug: monoova-tools-api
-- description: The Update Payment Method Token Status API from Monoova — 1 operation(s) for update payment method token status.
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: The Update Payment Method Token Status API from Monoova — 1 operation(s) for update payment method token status.
   name: Monoova Update Payment Method Token Status API
   slug: monoova-update-payment-method-token-status-api
-- description: <h3>Overview</h3> <h3>Bank Account Ownership Verification</h3> <p>The purpose of this API is to verify access to a bank account or PayID details, which has several compliance and risk-mitigation appli
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3>Overview</h3> <h3>Bank Account Ownership Verification</h3> <p>The purpose of this API is to verify access to a bank account or PayID details, which has several compliance and risk-mitigation appli
   name: Monoova Verify API
   slug: monoova-verify-api
-- description: <p> In addition to callable reporting endpoints, webhooks will also be available for state changes for payment agreements and funds received. </p> </br></br>
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <p> In addition to callable reporting endpoints, webhooks will also be available for state changes for payment agreements and funds received. </p> </br></br>
   name: Monoova Webhooks API
   slug: monoova-webhooks-api
-- description: <h3> Overview </h3> <p> This feature enables whitelisting of bank accounts when receiving funds in automatcher accounts. Funds received from a non-whitelisted account will be automatically returned. U
+- baseURL: https://api.mpay.com.au
+  baseurl_source: declared
+  description: <h3> Overview </h3> <p> This feature enables whitelisting of bank accounts when receiving funds in automatcher accounts. Funds received from a non-whitelisted account will be automatically returned. U
   name: Monoova Whitelisting for Automatcher (Bank Account Receivables) API
   slug: monoova-whitelisting-for-automatcher-bank-account-receivables-api
 artifact_total: 40
@@ -322,7 +396,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -332,7 +406,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,7 +424,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monoova/refs/heads/main/screenshots/monoova-2026-08-07T184216.png
 security:

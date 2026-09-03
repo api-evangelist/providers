@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: REST API providing person enrichment, company enrichment, identity resolution, mapping, and Acumen lead-details endpoints. Authentication uses a Bearer API key passed in the Authorization header (e.g.
   name: FullContact V3 API
   slug: v3-api
-- description: The Address API from FullContact — 1 operation(s) for address.
+- baseURL: https://api.fullcontact.com/v3
+  baseurl_source: declared
+  description: The Address API from FullContact — 1 operation(s) for address.
   name: FullContact Address API
   slug: fullcontact-address-api
-- description: The Audience API from FullContact — 2 operation(s) for audience.
+- baseURL: https://api.fullcontact.com/v3
+  baseurl_source: declared
+  description: The Audience API from FullContact — 2 operation(s) for audience.
   name: FullContact Audience API
   slug: fullcontact-audience-api
-- description: The Enrich API from FullContact — 3 operation(s) for enrich.
+- baseURL: https://api.fullcontact.com/v3
+  baseurl_source: declared
+  description: The Enrich API from FullContact — 3 operation(s) for enrich.
   name: FullContact Enrich API
   slug: fullcontact-enrich-api
-- description: The Identity API from FullContact — 3 operation(s) for identity.
+- baseURL: https://api.fullcontact.com/v3
+  baseurl_source: declared
+  description: The Identity API from FullContact — 3 operation(s) for identity.
   name: FullContact Identity API
   slug: fullcontact-identity-api
-- description: The Permission API from FullContact — 5 operation(s) for permission.
+- baseURL: https://api.fullcontact.com/v3
+  baseurl_source: declared
+  description: The Permission API from FullContact — 5 operation(s) for permission.
   name: FullContact Permission API
   slug: fullcontact-permission-api
-- description: The Tags API from FullContact — 3 operation(s) for tags.
+- baseURL: https://api.fullcontact.com/v3
+  baseurl_source: declared
+  description: The Tags API from FullContact — 3 operation(s) for tags.
   name: FullContact Tags API
   slug: fullcontact-tags-api
 artifact_total: 24
@@ -279,7 +291,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -289,7 +301,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,7 +313,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcontact/refs/heads/main/screenshots/fullcontact-2026-06-20T181608.png
 security:

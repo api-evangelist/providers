@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: After an exam attempt is submitted, Proctorio POSTs an HMAC-signed JSON webhook to the integrating platform's endpoint carrying the attempt id, user id, an overall suspicion score, submission metadata
   name: Proctorio Result Webhooks (v2/v3)
   slug: proctorio-webhooks
-- description: Generate signed launch URLs for proctored exam sessions.
+- baseURL: https://{region}{endpoint}.com
+  baseurl_source: declared
+  description: Generate signed launch URLs for proctored exam sessions.
   name: Proctorio Launch API
   slug: proctorio-launch-api
 artifact_total: 13
@@ -188,7 +190,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

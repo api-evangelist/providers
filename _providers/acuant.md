@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,28 +59,44 @@ apis:
 - description: Digital identity trust API derived from Acuant's acquisition of Ozone from Mount Airy Group. Provides additional identity intelligence and trust scoring layered on top of document and biometric verifi
   name: Acuant Ozone API
   slug: ozone
-- description: Token issuance and validation
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Token issuance and validation
   name: Acuant Authentication API
   slug: acuant-authentication-api
-- description: Submit and retrieve contactless chip data
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Submit and retrieve contactless chip data
   name: Acuant Chip Data API
   slug: acuant-chip-data-api
-- description: Upload and retrieve extracted document data
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Upload and retrieve extracted document data
   name: Acuant Document Data API
   slug: acuant-document-data-api
-- description: Create and manage document processing sessions
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Create and manage document processing sessions
   name: Acuant Document Instances API
   slug: acuant-document-instances-api
-- description: Facial comparison and matching operations
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Facial comparison and matching operations
   name: Acuant Face Match API
   slug: acuant-face-match-api
-- description: Submit and retrieve document images
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Submit and retrieve document images
   name: Acuant Images API
   slug: acuant-images-api
-- description: Passive liveness detection operations
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Passive liveness detection operations
   name: Acuant Liveness API
   slug: acuant-liveness-api
-- description: Supported document types, subscriptions, logs
+- baseURL: https://services.assureid.net
+  baseurl_source: declared
+  description: Supported document types, subscriptions, logs
   name: Acuant Metadata API
   slug: acuant-metadata-api
 artifact_total: 36
@@ -264,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/screenshots/acuant-2026-06-20T164341.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Documents, archives, and written records in the collection
+- baseURL: https://collection.sciencemuseumgroup.org.uk
+  baseurl_source: declared
+  description: Documents, archives, and written records in the collection
   name: Science Museum Group Documents API
   slug: science-museum-group-documents-api
-- description: Scientific instruments, industrial artifacts, and cultural items in the collection
+- baseURL: https://collection.sciencemuseumgroup.org.uk
+  baseurl_source: declared
+  description: Scientific instruments, industrial artifacts, and cultural items in the collection
   name: Science Museum Group Objects API
   slug: science-museum-group-objects-api
-- description: People associated with the museum collections including makers, scientists, and historical figures
+- baseURL: https://collection.sciencemuseumgroup.org.uk
+  baseurl_source: declared
+  description: People associated with the museum collections including makers, scientists, and historical figures
   name: Science Museum Group People API
   slug: science-museum-group-people-api
-- description: Full-text and filtered search across all collection types
+- baseURL: https://collection.sciencemuseumgroup.org.uk
+  baseurl_source: declared
+  description: Full-text and filtered search across all collection types
   name: Science Museum Group Search API
   slug: science-museum-group-search-api
 artifact_total: 22
@@ -211,7 +219,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png
 security:

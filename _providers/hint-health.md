@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -44,205 +44,339 @@ agentic_access:
   summary_line: 153 operations · 87 acting
 api_count: 2
 apis:
-- description: The AccountAccessToken API from Hint Health — 1 operation(s) for accountaccesstoken.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The AccountAccessToken API from Hint Health — 1 operation(s) for accountaccesstoken.
   name: Hint Health AccountAccessToken API
   slug: hint-health-accountaccesstoken-api
-- description: The Affiliate API from Hint Health — 2 operation(s) for affiliate.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Affiliate API from Hint Health — 2 operation(s) for affiliate.
   name: Hint Health Affiliate API
   slug: hint-health-affiliate-api
-- description: The AffiliateBill API from Hint Health — 1 operation(s) for affiliatebill.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The AffiliateBill API from Hint Health — 1 operation(s) for affiliatebill.
   name: Hint Health AffiliateBill API
   slug: hint-health-affiliatebill-api
-- description: The AffiliatePatient API from Hint Health — 2 operation(s) for affiliatepatient.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The AffiliatePatient API from Hint Health — 2 operation(s) for affiliatepatient.
   name: Hint Health AffiliatePatient API
   slug: hint-health-affiliatepatient-api
-- description: The CancellationReason API from Hint Health — 1 operation(s) for cancellationreason.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CancellationReason API from Hint Health — 1 operation(s) for cancellationreason.
   name: Hint Health CancellationReason API
   slug: hint-health-cancellationreason-api
-- description: The Charge API from Hint Health — 1 operation(s) for charge.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Charge API from Hint Health — 1 operation(s) for charge.
   name: Hint Health Charge API
   slug: hint-health-charge-api
-- description: The ChargeItem API from Hint Health — 2 operation(s) for chargeitem.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The ChargeItem API from Hint Health — 2 operation(s) for chargeitem.
   name: Hint Health ChargeItem API
   slug: hint-health-chargeitem-api
-- description: The ClinicalNoteInteraction API from Hint Health — 2 operation(s) for clinicalnoteinteraction.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The ClinicalNoteInteraction API from Hint Health — 2 operation(s) for clinicalnoteinteraction.
   name: Hint Health ClinicalNoteInteraction API
   slug: hint-health-clinicalnoteinteraction-api
-- description: The Company API from Hint Health — 3 operation(s) for company.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Company API from Hint Health — 3 operation(s) for company.
   name: Hint Health Company API
   slug: hint-health-company-api
-- description: The CompanyPlan API from Hint Health — 2 operation(s) for companyplan.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CompanyPlan API from Hint Health — 2 operation(s) for companyplan.
   name: Hint Health CompanyPlan API
   slug: hint-health-companyplan-api
-- description: The Coupon API from Hint Health — 2 operation(s) for coupon.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Coupon API from Hint Health — 2 operation(s) for coupon.
   name: Hint Health Coupon API
   slug: hint-health-coupon-api
-- description: The Credit API from Hint Health — 2 operation(s) for credit.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Credit API from Hint Health — 2 operation(s) for credit.
   name: Hint Health Credit API
   slug: hint-health-credit-api
-- description: The CreditCategory API from Hint Health — 2 operation(s) for creditcategory.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CreditCategory API from Hint Health — 2 operation(s) for creditcategory.
   name: Hint Health CreditCategory API
   slug: hint-health-creditcategory-api
-- description: The CreditLine API from Hint Health — 1 operation(s) for creditline.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CreditLine API from Hint Health — 1 operation(s) for creditline.
   name: Hint Health CreditLine API
   slug: hint-health-creditline-api
-- description: The CustomerInvoice API from Hint Health — 6 operation(s) for customerinvoice.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CustomerInvoice API from Hint Health — 6 operation(s) for customerinvoice.
   name: Hint Health CustomerInvoice API
   slug: hint-health-customerinvoice-api
-- description: The CustomerInvoiceCharge API from Hint Health — 2 operation(s) for customerinvoicecharge.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CustomerInvoiceCharge API from Hint Health — 2 operation(s) for customerinvoicecharge.
   name: Hint Health CustomerInvoiceCharge API
   slug: hint-health-customerinvoicecharge-api
-- description: The CustomerInvoicePayment API from Hint Health — 2 operation(s) for customerinvoicepayment.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The CustomerInvoicePayment API from Hint Health — 2 operation(s) for customerinvoicepayment.
   name: Hint Health CustomerInvoicePayment API
   slug: hint-health-customerinvoicepayment-api
-- description: The DocumentInteraction API from Hint Health — 2 operation(s) for documentinteraction.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The DocumentInteraction API from Hint Health — 2 operation(s) for documentinteraction.
   name: Hint Health DocumentInteraction API
   slug: hint-health-documentinteraction-api
-- description: The EmployeeDivision API from Hint Health — 1 operation(s) for employeedivision.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The EmployeeDivision API from Hint Health — 1 operation(s) for employeedivision.
   name: Hint Health EmployeeDivision API
   slug: hint-health-employeedivision-api
-- description: The FormResponse API from Hint Health — 2 operation(s) for formresponse.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The FormResponse API from Hint Health — 2 operation(s) for formresponse.
   name: Hint Health FormResponse API
   slug: hint-health-formresponse-api
-- description: The GlobalWebhookEndpoint API from Hint Health — 2 operation(s) for globalwebhookendpoint.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The GlobalWebhookEndpoint API from Hint Health — 2 operation(s) for globalwebhookendpoint.
   name: Hint Health GlobalWebhookEndpoint API
   slug: hint-health-globalwebhookendpoint-api
-- description: The Integration API from Hint Health — 4 operation(s) for integration.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Integration API from Hint Health — 4 operation(s) for integration.
   name: Hint Health Integration API
   slug: hint-health-integration-api
-- description: The IntegrationRecord API from Hint Health — 1 operation(s) for integrationrecord.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The IntegrationRecord API from Hint Health — 1 operation(s) for integrationrecord.
   name: Hint Health IntegrationRecord API
   slug: hint-health-integrationrecord-api
-- description: The Interaction API from Hint Health — 1 operation(s) for interaction.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Interaction API from Hint Health — 1 operation(s) for interaction.
   name: Hint Health Interaction API
   slug: hint-health-interaction-api
-- description: The InteractionNotifications API from Hint Health — 1 operation(s) for interactionnotifications.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The InteractionNotifications API from Hint Health — 1 operation(s) for interactionnotifications.
   name: Hint Health InteractionNotifications API
   slug: hint-health-interactionnotifications-api
-- description: The Invoice API from Hint Health — 2 operation(s) for invoice.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Invoice API from Hint Health — 2 operation(s) for invoice.
   name: Hint Health Invoice API
   slug: hint-health-invoice-api
-- description: The InvoicePayment API from Hint Health — 2 operation(s) for invoicepayment.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The InvoicePayment API from Hint Health — 2 operation(s) for invoicepayment.
   name: Hint Health InvoicePayment API
   slug: hint-health-invoicepayment-api
-- description: The LabInteraction API from Hint Health — 2 operation(s) for labinteraction.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The LabInteraction API from Hint Health — 2 operation(s) for labinteraction.
   name: Hint Health LabInteraction API
   slug: hint-health-labinteraction-api
-- description: The LeadSource API from Hint Health — 2 operation(s) for leadsource.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The LeadSource API from Hint Health — 2 operation(s) for leadsource.
   name: Hint Health LeadSource API
   slug: hint-health-leadsource-api
-- description: The Location API from Hint Health — 2 operation(s) for location.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Location API from Hint Health — 2 operation(s) for location.
   name: Hint Health Location API
   slug: hint-health-location-api
-- description: The Membership API from Hint Health — 6 operation(s) for membership.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Membership API from Hint Health — 6 operation(s) for membership.
   name: Hint Health Membership API
   slug: hint-health-membership-api
-- description: The MembershipContract API from Hint Health — 3 operation(s) for membershipcontract.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The MembershipContract API from Hint Health — 3 operation(s) for membershipcontract.
   name: Hint Health MembershipContract API
   slug: hint-health-membershipcontract-api
-- description: The MembershipMember API from Hint Health — 3 operation(s) for membershipmember.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The MembershipMember API from Hint Health — 3 operation(s) for membershipmember.
   name: Hint Health MembershipMember API
   slug: hint-health-membershipmember-api
-- description: The OAuth API from Hint Health — 1 operation(s) for oauth.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The OAuth API from Hint Health — 1 operation(s) for oauth.
   name: Hint Health OAuth API
   slug: hint-health-oauth-api
-- description: The Partner API from Hint Health — 1 operation(s) for partner.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Partner API from Hint Health — 1 operation(s) for partner.
   name: Hint Health Partner API
   slug: hint-health-partner-api
-- description: The PartnerCharge API from Hint Health — 2 operation(s) for partnercharge.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PartnerCharge API from Hint Health — 2 operation(s) for partnercharge.
   name: Hint Health PartnerCharge API
   slug: hint-health-partnercharge-api
-- description: The PartnerInteraction API from Hint Health — 2 operation(s) for partnerinteraction.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PartnerInteraction API from Hint Health — 2 operation(s) for partnerinteraction.
   name: Hint Health PartnerInteraction API
   slug: hint-health-partnerinteraction-api
-- description: The Patient API from Hint Health — 3 operation(s) for patient.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Patient API from Hint Health — 3 operation(s) for patient.
   name: Hint Health Patient API
   slug: hint-health-patient-api
-- description: The PaymentMethod API from Hint Health — 3 operation(s) for paymentmethod.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PaymentMethod API from Hint Health — 3 operation(s) for paymentmethod.
   name: Hint Health PaymentMethod API
   slug: hint-health-paymentmethod-api
-- description: The Plan API from Hint Health — 1 operation(s) for plan.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Plan API from Hint Health — 1 operation(s) for plan.
   name: Hint Health Plan API
   slug: hint-health-plan-api
-- description: The Practice API from Hint Health — 1 operation(s) for practice.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Practice API from Hint Health — 1 operation(s) for practice.
   name: Hint Health Practice API
   slug: hint-health-practice-api
-- description: The Practitioner API from Hint Health — 2 operation(s) for practitioner.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Practitioner API from Hint Health — 2 operation(s) for practitioner.
   name: Hint Health Practitioner API
   slug: hint-health-practitioner-api
-- description: The Quote API from Hint Health — 1 operation(s) for quote.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Quote API from Hint Health — 1 operation(s) for quote.
   name: Hint Health Quote API
   slug: hint-health-quote-api
-- description: The SignupAttempt API from Hint Health — 2 operation(s) for signupattempt.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The SignupAttempt API from Hint Health — 2 operation(s) for signupattempt.
   name: Hint Health SignupAttempt API
   slug: hint-health-signupattempt-api
-- description: The SocialSecurityNumber API from Hint Health — 1 operation(s) for socialsecuritynumber.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The SocialSecurityNumber API from Hint Health — 1 operation(s) for socialsecuritynumber.
   name: Hint Health SocialSecurityNumber API
   slug: hint-health-socialsecuritynumber-api
-- description: The Sponsorship API from Hint Health — 2 operation(s) for sponsorship.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Sponsorship API from Hint Health — 2 operation(s) for sponsorship.
   name: Hint Health Sponsorship API
   slug: hint-health-sponsorship-api
-- description: The Supplements API from Hint Health — 2 operation(s) for supplements.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Supplements API from Hint Health — 2 operation(s) for supplements.
   name: Hint Health Supplements API
   slug: hint-health-supplements-api
-- description: The User API from Hint Health — 1 operation(s) for user.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The User API from Hint Health — 1 operation(s) for user.
   name: Hint Health User API
   slug: hint-health-user-api
-- description: The WebhookEndpoint API from Hint Health — 2 operation(s) for webhookendpoint.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The WebhookEndpoint API from Hint Health — 2 operation(s) for webhookendpoint.
   name: Hint Health WebhookEndpoint API
   slug: hint-health-webhookendpoint-api
-- description: The AffiliateAncillaryCharge API from Hint Health — 1 operation(s) for affiliateancillarycharge.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The AffiliateAncillaryCharge API from Hint Health — 1 operation(s) for affiliateancillarycharge.
   name: Hint Health Affiliate Ancillary Charge API
   slug: hint-health-affiliateancillarycharge-api
-- description: The ApiKey API from Hint Health — 1 operation(s) for apikey.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The ApiKey API from Hint Health — 1 operation(s) for apikey.
   name: Hint Health API Key API
   slug: hint-health-apikey-api
-- description: The App API from Hint Health — 1 operation(s) for app.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The App API from Hint Health — 1 operation(s) for app.
   name: Hint Health App API
   slug: hint-health-app-api
-- description: The Appointment API from Hint Health — 2 operation(s) for appointment.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Appointment API from Hint Health — 2 operation(s) for appointment.
   name: Hint Health Appointment API
   slug: hint-health-appointment-api
-- description: The AppSurface API from Hint Health — 2 operation(s) for appsurface.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The AppSurface API from Hint Health — 2 operation(s) for appsurface.
   name: Hint Health App Surface API
   slug: hint-health-appsurface-api
-- description: The Backend API from Hint Health — 2 operation(s) for backend.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Backend API from Hint Health — 2 operation(s) for backend.
   name: Hint Health Backend API
   slug: hint-health-backend-api
-- description: The Installation API from Hint Health — 5 operation(s) for installation.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Installation API from Hint Health — 5 operation(s) for installation.
   name: Hint Health Installation API
   slug: hint-health-installation-api
-- description: The InstallationApiKeys API from Hint Health — 2 operation(s) for installationapikeys.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The InstallationApiKeys API from Hint Health — 2 operation(s) for installationapikeys.
   name: Hint Health Installation API Keys API
   slug: hint-health-installationapikeys-api
-- description: The InstallationWebhookEndpoints API from Hint Health — 2 operation(s) for installationwebhookendpoints.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The InstallationWebhookEndpoints API from Hint Health — 2 operation(s) for installationwebhookendpoints.
   name: Hint Health Installation Webhook Endpoints API
   slug: hint-health-installationwebhookendpoints-api
-- description: The PartnerProductHighlight API from Hint Health — 2 operation(s) for partnerproducthighlight.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PartnerProductHighlight API from Hint Health — 2 operation(s) for partnerproducthighlight.
   name: Hint Health Partner Product Highlight API
   slug: hint-health-partnerproducthighlight-api
-- description: The PartnerProductLink API from Hint Health — 2 operation(s) for partnerproductlink.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PartnerProductLink API from Hint Health — 2 operation(s) for partnerproductlink.
   name: Hint Health Partner Product Link API
   slug: hint-health-partnerproductlink-api
-- description: The PartnerProductOverview API from Hint Health — 1 operation(s) for partnerproductoverview.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PartnerProductOverview API from Hint Health — 1 operation(s) for partnerproductoverview.
   name: Hint Health Partner Product Overview API
   slug: hint-health-partnerproductoverview-api
-- description: The PartnerProductPrecondition API from Hint Health — 2 operation(s) for partnerproductprecondition.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The PartnerProductPrecondition API from Hint Health — 2 operation(s) for partnerproductprecondition.
   name: Hint Health Partner Product Precondition API
   slug: hint-health-partnerproductprecondition-api
-- description: The Product API from Hint Health — 3 operation(s) for product.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Product API from Hint Health — 3 operation(s) for product.
   name: Hint Health Product API
   slug: hint-health-product-api
-- description: The ProductCategory API from Hint Health — 3 operation(s) for productcategory.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The ProductCategory API from Hint Health — 3 operation(s) for productcategory.
   name: Hint Health Product Category API
   slug: hint-health-productcategory-api
-- description: The Testimonial API from Hint Health — 2 operation(s) for testimonial.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The Testimonial API from Hint Health — 2 operation(s) for testimonial.
   name: Hint Health Testimonial API
   slug: hint-health-testimonial-api
-- description: The WebhookEvent API from Hint Health — 1 operation(s) for webhookevent.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The WebhookEvent API from Hint Health — 1 operation(s) for webhookevent.
   name: Hint Health Webhook Event API
   slug: hint-health-webhookevent-api
-- description: The WebhookRequest API from Hint Health — 1 operation(s) for webhookrequest.
+- baseURL: https://api.hint.com
+  baseurl_source: declared
+  description: The WebhookRequest API from Hint Health — 1 operation(s) for webhookrequest.
   name: Hint Health Webhook Request API
   slug: hint-health-webhookrequest-api
 artifact_total: 461
@@ -1619,7 +1753,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1629,7 +1763,7 @@ score:
     discoverability: 51.9
     governance: 28.0
     operational_transparency: 47.4
-  previous_composite: 67.9
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1647,7 +1781,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Exa Search API provides neural web search, contents retrieval, find similar, and grounded answers for AI agents. Multiple speed modes range from fast 250ms searches to deep research lasting tens o
   name: Exa Search API
   slug: search-api
-- description: The Answer API from Exa — 1 operation(s) for answer.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Answer API from Exa — 1 operation(s) for answer.
   name: Exa Answer API
   slug: exa-answer-api
-- description: The Contents API from Exa — 1 operation(s) for contents.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Contents API from Exa — 1 operation(s) for contents.
   name: Exa Contents API
   slug: exa-contents-api
-- description: The Search API from Exa — 2 operation(s) for search.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Search API from Exa — 2 operation(s) for search.
   name: Exa Search API
   slug: exa-search-api
 artifact_total: 16
@@ -182,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa/refs/heads/main/screenshots/exa-2026-06-20T180946.png
 security:

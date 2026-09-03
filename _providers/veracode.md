@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 33 operations · 14 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: API credential lifecycle management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: API credential lifecycle management
   name: Veracode API Credentials API
   slug: veracode-api-credentials-api
-- description: Application profile management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Application profile management
   name: Veracode Applications API
   slug: veracode-applications-api
-- description: Business unit management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Business unit management
   name: Veracode Business Units API
   slug: veracode-business-units-api
-- description: Application security findings
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Application security findings
   name: Veracode Findings API
   slug: veracode-findings-api
-- description: Manual penetration test findings
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Manual penetration test findings
   name: Veracode Manual Penetration Testing API
   slug: veracode-manual-penetration-testing-api
-- description: Application policy compliance evaluations
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Application policy compliance evaluations
   name: Veracode Policy Evaluations API
   slug: veracode-policy-evaluations-api
-- description: Asynchronous report generation and retrieval
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Asynchronous report generation and retrieval
   name: Veracode Reports API
   slug: veracode-reports-api
-- description: Role and permission management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Role and permission management
   name: Veracode Roles API
   slug: veracode-roles-api
-- description: Development sandbox management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Development sandbox management
   name: Veracode Sandboxes API
   slug: veracode-sandboxes-api
-- description: Team management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: Team management
   name: Veracode Teams API
   slug: veracode-teams-api
-- description: User and API service account management
+- baseURL: https://api.veracode.com
+  baseurl_source: declared
+  description: User and API service account management
   name: Veracode Users API
   slug: veracode-users-api
 artifact_total: 44
@@ -288,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/screenshots/veracode-2026-06-20T200920.png
 security:

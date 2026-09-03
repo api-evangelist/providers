@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,76 +73,124 @@ apis:
 - description: 'The TzKT WebSocket API uses SignalR to deliver real-time push notifications to subscribed clients. Channels cover new blocks, new and confirmed operations (filtered by sender, target, or entrypoint), '
   name: TzKT WebSocket API
   slug: tzkt-websocket
-- description: The Accounts API from Tezos — 12 operation(s) for accounts.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Accounts API from Tezos — 12 operation(s) for accounts.
   name: Tezos Accounts API
   slug: tezos-accounts-api
-- description: The BigMaps API from Tezos — 12 operation(s) for bigmaps.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The BigMaps API from Tezos — 12 operation(s) for bigmaps.
   name: Tezos BigMaps API
   slug: tezos-bigmaps-api
-- description: The Blocks API from Tezos — 7 operation(s) for blocks.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Blocks API from Tezos — 7 operation(s) for blocks.
   name: Tezos Blocks API
   slug: tezos-blocks-api
-- description: The Commitments API from Tezos — 3 operation(s) for commitments.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Commitments API from Tezos — 3 operation(s) for commitments.
   name: Tezos Commitments API
   slug: tezos-commitments-api
-- description: The Constants API from Tezos — 3 operation(s) for constants.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Constants API from Tezos — 3 operation(s) for constants.
   name: Tezos Constants API
   slug: tezos-constants-api
-- description: The Contracts API from Tezos — 25 operation(s) for contracts.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Contracts API from Tezos — 25 operation(s) for contracts.
   name: Tezos Contracts API
   slug: tezos-contracts-api
-- description: The Cycles API from Tezos — 3 operation(s) for cycles.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Cycles API from Tezos — 3 operation(s) for cycles.
   name: Tezos Cycles API
   slug: tezos-cycles-api
-- description: The Delegates API from Tezos — 3 operation(s) for delegates.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Delegates API from Tezos — 3 operation(s) for delegates.
   name: Tezos Delegates API
   slug: tezos-delegates-api
-- description: The Domains API from Tezos — 3 operation(s) for domains.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Domains API from Tezos — 3 operation(s) for domains.
   name: Tezos Domains API
   slug: tezos-domains-api
-- description: The Events API from Tezos — 2 operation(s) for events.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Events API from Tezos — 2 operation(s) for events.
   name: Tezos Events API
   slug: tezos-events-api
-- description: The Head API from Tezos — 1 operation(s) for head.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Head API from Tezos — 1 operation(s) for head.
   name: Tezos Head API
   slug: tezos-head-api
-- description: The Helpers API from Tezos — 2 operation(s) for helpers.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Helpers API from Tezos — 2 operation(s) for helpers.
   name: Tezos Helpers API
   slug: tezos-helpers-api
-- description: The Operations API from Tezos — 142 operation(s) for operations.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Operations API from Tezos — 142 operation(s) for operations.
   name: Tezos Operations API
   slug: tezos-operations-api
-- description: The Protocols API from Tezos — 6 operation(s) for protocols.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Protocols API from Tezos — 6 operation(s) for protocols.
   name: Tezos Protocols API
   slug: tezos-protocols-api
-- description: The Quotes API from Tezos — 3 operation(s) for quotes.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Quotes API from Tezos — 3 operation(s) for quotes.
   name: Tezos Quotes API
   slug: tezos-quotes-api
-- description: The Rewards API from Tezos — 8 operation(s) for rewards.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Rewards API from Tezos — 8 operation(s) for rewards.
   name: Tezos Rewards API
   slug: tezos-rewards-api
-- description: The Rights API from Tezos — 2 operation(s) for rights.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Rights API from Tezos — 2 operation(s) for rights.
   name: Tezos Rights API
   slug: tezos-rights-api
-- description: The SmartRollups API from Tezos — 12 operation(s) for smartrollups.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The SmartRollups API from Tezos — 12 operation(s) for smartrollups.
   name: Tezos SmartRollups API
   slug: tezos-smartrollups-api
-- description: The Software API from Tezos — 2 operation(s) for software.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Software API from Tezos — 2 operation(s) for software.
   name: Tezos Software API
   slug: tezos-software-api
-- description: The Staking API from Tezos — 4 operation(s) for staking.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Staking API from Tezos — 4 operation(s) for staking.
   name: Tezos Staking API
   slug: tezos-staking-api
-- description: The Statistics API from Tezos — 4 operation(s) for statistics.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Statistics API from Tezos — 4 operation(s) for statistics.
   name: Tezos Statistics API
   slug: tezos-statistics-api
-- description: The Tickets API from Tezos — 7 operation(s) for tickets.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Tickets API from Tezos — 7 operation(s) for tickets.
   name: Tezos Tickets API
   slug: tezos-tickets-api
-- description: The Tokens API from Tezos — 7 operation(s) for tokens.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Tokens API from Tezos — 7 operation(s) for tokens.
   name: Tezos Tokens API
   slug: tezos-tokens-api
-- description: The Voting API from Tezos — 14 operation(s) for voting.
+- baseURL: https://api.tzkt.io/v1
+  baseurl_source: declared
+  description: The Voting API from Tezos — 14 operation(s) for voting.
   name: Tezos Voting API
   slug: tezos-voting-api
 artifact_total: 285
@@ -1030,7 +1078,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/screenshots/tezos-2026-06-20T195210.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Endpoints that require no authentication
+- baseURL: https://quizapi.io
+  baseurl_source: declared
+  description: Endpoints that require no authentication
   name: QuizAPI Discovery API
   slug: quiz-api-discovery-api
-- description: Retrieve questions for quizzes or browse across all quizzes
+- baseURL: https://quizapi.io
+  baseurl_source: declared
+  description: Retrieve questions for quizzes or browse across all quizzes
   name: QuizAPI Questions API
   slug: quiz-api-questions-api
-- description: Browse and search published quizzes
+- baseURL: https://quizapi.io
+  baseurl_source: declared
+  description: Browse and search published quizzes
   name: QuizAPI Quizzes API
   slug: quiz-api-quizzes-api
 artifact_total: 14
@@ -140,7 +146,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -150,7 +156,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 35.7
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -165,7 +171,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/screenshots/quiz-api-2026-06-20T192440.png
 security:

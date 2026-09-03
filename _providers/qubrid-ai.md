@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 33 operations · 18 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: Generate chat-based completions using open-source large language models hosted on NVIDIA GPU infrastructure. Compatible with the OpenAI chat completions request and response format.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Generate chat-based completions using open-source large language models hosted on NVIDIA GPU infrastructure. Compatible with the OpenAI chat completions request and response format.
   name: Qubrid AI Chat Completions API
   slug: qubrid-ai-chat-completions-api
-- description: Upload and manage CSV training datasets used for fine-tuning models. Datasets must be in CSV format with columns appropriate for the selected task type (QA or non-QA).
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Upload and manage CSV training datasets used for fine-tuning models. Datasets must be in CSV format with columns appropriate for the selected task type (QA or non-QA).
   name: Qubrid AI Datasets API
   slug: qubrid-ai-datasets-api
-- description: Upload, list, and manage documents within a knowledge base. Supported formats include PDF, text, CSV, and other common document types. Documents are automatically processed, chunked, and embedded upon
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Upload, list, and manage documents within a knowledge base. Supported formats include PDF, text, CSV, and other common document types. Documents are automatically processed, chunked, and embedded upon
   name: Qubrid AI Documents API
   slug: qubrid-ai-documents-api
-- description: Generate vector embeddings from text input using embedding models hosted on the Qubrid AI platform, suitable for semantic search, clustering, and retrieval-augmented generation workflows.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Generate vector embeddings from text input using embedding models hosted on the Qubrid AI platform, suitable for semantic search, clustering, and retrieval-augmented generation workflows.
   name: Qubrid AI Embeddings API
   slug: qubrid-ai-embeddings-api
-- description: List and manage fine-tuned model artifacts produced by completed fine-tuning jobs. Fine-tuned models can be deployed for inference on the Qubrid AI platform.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: List and manage fine-tuned model artifacts produced by completed fine-tuning jobs. Fine-tuned models can be deployed for inference on the Qubrid AI platform.
   name: Qubrid AI Fine-Tuned Models API
   slug: qubrid-ai-fine-tuned-models-api
-- description: Create, monitor, and manage fine-tuning jobs that customize pre-deployed text generation and code generation models using uploaded training datasets on GPU infrastructure.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Create, monitor, and manage fine-tuning jobs that customize pre-deployed text generation and code generation models using uploaded training datasets on GPU infrastructure.
   name: Qubrid AI Fine-Tuning Jobs API
   slug: qubrid-ai-fine-tuning-jobs-api
-- description: Browse available GPU types, configurations, and pricing tiers including on-demand, weekly, monthly, and reserved options for NVIDIA, AMD, and Intel accelerators.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Browse available GPU types, configurations, and pricing tiers including on-demand, weekly, monthly, and reserved options for NVIDIA, AMD, and Intel accelerators.
   name: Qubrid AI GPU Catalog API
   slug: qubrid-ai-gpu-catalog-api
-- description: Provision, manage, start, stop, and terminate GPU compute instances on the Qubrid AI platform. Instances include NVIDIA H100, H200, and B200 accelerators with configurable memory, storage, and network
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Provision, manage, start, stop, and terminate GPU compute instances on the Qubrid AI platform. Instances include NVIDIA H100, H200, and B200 accelerators with configurable memory, storage, and network
   name: Qubrid AI Instances API
   slug: qubrid-ai-instances-api
-- description: Create and manage knowledge bases that store enterprise and departmental data for retrieval-augmented generation. Each knowledge base contains ingested documents that are chunked, embedded, and stored
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Create and manage knowledge bases that store enterprise and departmental data for retrieval-augmented generation. Each knowledge base contains ingested documents that are chunked, embedded, and stored
   name: Qubrid AI Knowledge Bases API
   slug: qubrid-ai-knowledge-bases-api
-- description: List and retrieve details about the open-source AI models available for inference on the Qubrid AI platform, including text generation, code generation, vision-language, and image generation models.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: List and retrieve details about the open-source AI models available for inference on the Qubrid AI platform, including text generation, code generation, vision-language, and image generation models.
   name: Qubrid AI Models API
   slug: qubrid-ai-models-api
-- description: 'Query a knowledge base using natural language with retrieval-augmented generation. The API retrieves relevant document chunks from the knowledge base and uses them as context for generating accurate, '
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: 'Query a knowledge base using natural language with retrieval-augmented generation. The API retrieves relevant document chunks from the knowledge base and uses them as context for generating accurate, '
   name: Qubrid AI RAG Queries API
   slug: qubrid-ai-rag-queries-api
-- description: Manage SSH keys for secure access to GPU compute instances. Users get full root access to their instances for installing custom libraries, running scripts, and managing workloads.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: Manage SSH keys for secure access to GPU compute instances. Users get full root access to their instances for installing custom libraries, running scripts, and managing workloads.
   name: Qubrid AI SSH Keys API
   slug: qubrid-ai-ssh-keys-api
-- description: List and deploy pre-configured AI and ML environment templates including PyTorch, TensorFlow, ComfyUI, n8n, and Langflow, all optimized to run on Qubrid GPU instances.
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: List and deploy pre-configured AI and ML environment templates including PyTorch, TensorFlow, ComfyUI, n8n, and Langflow, all optimized to run on Qubrid GPU instances.
   name: Qubrid AI Templates API
   slug: qubrid-ai-templates-api
 artifact_total: 43
@@ -272,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/screenshots/qubrid-ai-2026-06-20T192419.png
 security:

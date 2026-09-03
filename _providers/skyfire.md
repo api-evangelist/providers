@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for AI-agent identity and payments. Buyer agents create kya, pay, and kya-pay tokens; seller agents introspect and charge tokens and manage seller services; enterprises manage users. Authenti
@@ -170,7 +170,7 @@ score:
   band: thin
   composite: 27.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +196,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skyfire/refs/heads/main/screenshots/skyfire-2026-09-02T155756.png
 security:
 - kind: authentication
   name: Skyfire Authentication

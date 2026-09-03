@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 18 operations · 18 acting
 api_count: 1
 apis:
-- description: Detect and redact malicious content in LLM inputs and outputs.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Detect and redact malicious content in LLM inputs and outputs.
   name: Pangea AI Guard API
   slug: pangea-ai-guard-api
-- description: Hosted authentication, user lifecycle, and session management.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Hosted authentication, user lifecycle, and session management.
   name: Pangea AuthN API
   slug: pangea-authn-api
-- description: Domain and URL reputation lookups.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Domain and URL reputation lookups.
   name: Pangea Domain Intel API
   slug: pangea-domain-intel-api
-- description: Scan files for malicious content.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Scan files for malicious content.
   name: Pangea File Scan API
   slug: pangea-file-scan-api
-- description: IP reputation, geolocation, and VPN/proxy enrichment.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: IP reputation, geolocation, and VPN/proxy enrichment.
   name: Pangea IP Intel API
   slug: pangea-ip-intel-api
-- description: Detect and remove sensitive information from text and structured data.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Detect and remove sensitive information from text and structured data.
   name: Pangea Redact API
   slug: pangea-redact-api
-- description: Tamper-proof, cryptographically verifiable audit logging.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Tamper-proof, cryptographically verifiable audit logging.
   name: Pangea Secure Audit Log API
   slug: pangea-secure-audit-log-api
-- description: Secrets and cryptographic key management.
+- baseURL: https://authn.aws.us.pangea.cloud
+  baseurl_source: declared
+  description: Secrets and cryptographic key management.
   name: Pangea Vault API
   slug: pangea-vault-api
 artifact_total: 25
@@ -201,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pangea/refs/heads/main/screenshots/pangea-2026-06-20T191339.png
 security:

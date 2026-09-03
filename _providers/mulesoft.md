@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: The Anypoint Design Center API provides access to the MuleSoft web-based API design environment for creating and editing API specifications in RAML and OAS formats. It supports project management, fil
   name: MuleSoft Anypoint Design Center API
   slug: mulesoft-anypoint-design-center-api
-- description: Manage Mule applications deployed to CloudHub, Runtime Fabric, or hybrid targets. Includes operations for deploying, starting, stopping, and monitoring application instances.
+- baseURL: https://anypoint.mulesoft.com
+  baseurl_source: declared
+  description: Manage Mule applications deployed to CloudHub, Runtime Fabric, or hybrid targets. Includes operations for deploying, starting, stopping, and monitoring application instances.
   name: MuleSoft Applications API
   slug: mulesoft-applications-api
-- description: Manage deployment environments within an organization. Environments provide isolated contexts for deploying and running Mule applications, such as Design, Sandbox, and Production.
+- baseURL: https://anypoint.mulesoft.com
+  baseurl_source: declared
+  description: Manage deployment environments within an organization. Environments provide isolated contexts for deploying and running Mule applications, such as Design, Sandbox, and Production.
   name: MuleSoft Environments API
   slug: mulesoft-environments-api
-- description: Manage organizations and business groups within the Anypoint Platform. Organizations are the top-level containers for all platform resources including environments, users, and applications.
+- baseURL: https://anypoint.mulesoft.com
+  baseurl_source: declared
+  description: Manage organizations and business groups within the Anypoint Platform. Organizations are the top-level containers for all platform resources including environments, users, and applications.
   name: MuleSoft Organizations API
   slug: mulesoft-organizations-api
 arazzos:
@@ -622,7 +628,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png
 security:

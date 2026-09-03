@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -44,97 +44,159 @@ agentic_access:
   summary_line: 130 operations · 40 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: The Applications API from Snow Software — 10 operation(s) for applications.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Applications API from Snow Software — 10 operation(s) for applications.
   name: Snow Software Applications API
   slug: snow-software-applications-api
-- description: The Assignments API from Snow Software — 12 operation(s) for assignments.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Assignments API from Snow Software — 12 operation(s) for assignments.
   name: Snow Software Assignments API
   slug: snow-software-assignments-api
-- description: The Compliance API from Snow Software — 3 operation(s) for compliance.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Compliance API from Snow Software — 3 operation(s) for compliance.
   name: Snow Software Compliance API
   slug: snow-software-compliance-api
-- description: The Computer application metering API from Snow Software — 2 operation(s) for computer application metering.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer application metering API from Snow Software — 2 operation(s) for computer application metering.
   name: Snow Software Computer application metering API
   slug: snow-software-computer-application-metering-api
-- description: The Computer applications API from Snow Software — 6 operation(s) for computer applications.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer applications API from Snow Software — 6 operation(s) for computer applications.
   name: Snow Software Computer applications API
   slug: snow-software-computer-applications-api
-- description: The Computer contracts API from Snow Software — 1 operation(s) for computer contracts.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer contracts API from Snow Software — 1 operation(s) for computer contracts.
   name: Snow Software Computer contracts API
   slug: snow-software-computer-contracts-api
-- description: The Computer costs API from Snow Software — 1 operation(s) for computer costs.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer costs API from Snow Software — 1 operation(s) for computer costs.
   name: Snow Software Computer costs API
   slug: snow-software-computer-costs-api
-- description: The Computer display adapter API from Snow Software — 1 operation(s) for computer display adapter.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer display adapter API from Snow Software — 1 operation(s) for computer display adapter.
   name: Snow Software Computer display adapter API
   slug: snow-software-computer-display-adapter-api
-- description: The Computer drives API from Snow Software — 2 operation(s) for computer drives.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer drives API from Snow Software — 2 operation(s) for computer drives.
   name: Snow Software Computer drives API
   slug: snow-software-computer-drives-api
-- description: The Computer environment variables API from Snow Software — 2 operation(s) for computer environment variables.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer environment variables API from Snow Software — 2 operation(s) for computer environment variables.
   name: Snow Software Computer environment variables API
   slug: snow-software-computer-environment-variables-api
-- description: The Computer hardware API from Snow Software — 1 operation(s) for computer hardware.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer hardware API from Snow Software — 1 operation(s) for computer hardware.
   name: Snow Software Computer hardware API
   slug: snow-software-computer-hardware-api
-- description: The Computer logical disks API from Snow Software — 1 operation(s) for computer logical disks.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer logical disks API from Snow Software — 1 operation(s) for computer logical disks.
   name: Snow Software Computer logical disks API
   slug: snow-software-computer-logical-disks-api
-- description: The Computer logon history API from Snow Software — 3 operation(s) for computer logon history.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer logon history API from Snow Software — 3 operation(s) for computer logon history.
   name: Snow Software Computer logon history API
   slug: snow-software-computer-logon-history-api
-- description: The Computer monitors API from Snow Software — 1 operation(s) for computer monitors.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer monitors API from Snow Software — 1 operation(s) for computer monitors.
   name: Snow Software Computer monitors API
   slug: snow-software-computer-monitors-api
-- description: The Computer network adapters API from Snow Software — 2 operation(s) for computer network adapters.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer network adapters API from Snow Software — 2 operation(s) for computer network adapters.
   name: Snow Software Computer network adapters API
   slug: snow-software-computer-network-adapters-api
-- description: The Computer processors API from Snow Software — 2 operation(s) for computer processors.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer processors API from Snow Software — 2 operation(s) for computer processors.
   name: Snow Software Computer processors API
   slug: snow-software-computer-processors-api
-- description: The Computer registries API from Snow Software — 1 operation(s) for computer registries.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer registries API from Snow Software — 1 operation(s) for computer registries.
   name: Snow Software Computer registries API
   slug: snow-software-computer-registries-api
-- description: The Computer remote clients API from Snow Software — 1 operation(s) for computer remote clients.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer remote clients API from Snow Software — 1 operation(s) for computer remote clients.
   name: Snow Software Computer remote clients API
   slug: snow-software-computer-remote-clients-api
-- description: The Computer virtual machines API from Snow Software — 1 operation(s) for computer virtual machines.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computer virtual machines API from Snow Software — 1 operation(s) for computer virtual machines.
   name: Snow Software Computer virtual machines API
   slug: snow-software-computer-virtual-machines-api
-- description: The Computers API from Snow Software — 6 operation(s) for computers.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Computers API from Snow Software — 6 operation(s) for computers.
   name: Snow Software Computers API
   slug: snow-software-computers-api
-- description: The Costs API from Snow Software — 3 operation(s) for costs.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Costs API from Snow Software — 3 operation(s) for costs.
   name: Snow Software Costs API
   slug: snow-software-costs-api
-- description: The Coverage API from Snow Software — 3 operation(s) for coverage.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Coverage API from Snow Software — 3 operation(s) for coverage.
   name: Snow Software Coverage API
   slug: snow-software-coverage-api
-- description: The Entitlements API from Snow Software — 4 operation(s) for entitlements.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Entitlements API from Snow Software — 4 operation(s) for entitlements.
   name: Snow Software Entitlements API
   slug: snow-software-entitlements-api
-- description: The Licenses API from Snow Software — 3 operation(s) for licenses.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Licenses API from Snow Software — 3 operation(s) for licenses.
   name: Snow Software Licenses API
   slug: snow-software-licenses-api
-- description: The Periods API from Snow Software — 3 operation(s) for periods.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Periods API from Snow Software — 3 operation(s) for periods.
   name: Snow Software Periods API
   slug: snow-software-periods-api
-- description: The Policies API from Snow Software — 4 operation(s) for policies.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Policies API from Snow Software — 4 operation(s) for policies.
   name: Snow Software Policies API
   slug: snow-software-policies-api
-- description: The Subscriptions API from Snow Software — 4 operation(s) for subscriptions.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Subscriptions API from Snow Software — 4 operation(s) for subscriptions.
   name: Snow Software Subscriptions API
   slug: snow-software-subscriptions-api
-- description: The Tasks API from Snow Software — 1 operation(s) for tasks.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Tasks API from Snow Software — 1 operation(s) for tasks.
   name: Snow Software Tasks API
   slug: snow-software-tasks-api
-- description: The Tracking API from Snow Software — 6 operation(s) for tracking.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Tracking API from Snow Software — 6 operation(s) for tracking.
   name: Snow Software Tracking API
   slug: snow-software-tracking-api
-- description: The Transfers API from Snow Software — 7 operation(s) for transfers.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Transfers API from Snow Software — 7 operation(s) for transfers.
   name: Snow Software Transfers API
   slug: snow-software-transfers-api
-- description: The Upgrades API from Snow Software — 2 operation(s) for upgrades.
+- baseURL_template: https://{region}.snowsoftware.io
+  baseurl_source: spec_template
+  description: The Upgrades API from Snow Software — 2 operation(s) for upgrades.
   name: Snow Software Upgrades API
   slug: snow-software-upgrades-api
 artifact_total: 79
@@ -390,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/screenshots/snow-software-2026-06-20T194211.png
 security:

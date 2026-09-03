@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: NetScaler Next-Gen API is a modern declarative RESTful API built on the OpenAPI 3.0 specification that allows developers to programmatically configure NetScaler with an intuitive application-centric i
   name: NetScaler Next-Gen API
   slug: netscaler-next-gen-api
-- description: Session-based authentication for the NITRO API. Obtain an authentication token via login, then include it as a cookie in subsequent requests.
+- baseURL: https://<netscaler-ip>/nitro/v1
+  baseurl_source: declared
+  description: Session-based authentication for the NITRO API. Obtain an authentication token via login, then include it as a cookie in subsequent requests.
   name: Citrix NetScaler Authentication API
   slug: citrix-netscaler-authentication-api
-- description: Content switching virtual servers direct client requests to different load balancing virtual servers based on content switching policies that evaluate HTTP request attributes.
+- baseURL: https://<netscaler-ip>/nitro/v1
+  baseurl_source: declared
+  description: Content switching virtual servers direct client requests to different load balancing virtual servers based on content switching policies that evaluate HTTP request attributes.
   name: Citrix NetScaler CS Virtual Server API
   slug: citrix-netscaler-cs-virtual-server-api
-- description: Load balancing virtual servers accept incoming traffic and distribute it across backend services using configurable load balancing methods such as round robin, least connections, and more.
+- baseURL: https://<netscaler-ip>/nitro/v1
+  baseurl_source: declared
+  description: Load balancing virtual servers accept incoming traffic and distribute it across backend services using configurable load balancing methods such as round robin, least connections, and more.
   name: Citrix NetScaler LB Virtual Server API
   slug: citrix-netscaler-lb-virtual-server-api
-- description: NetScaler appliance configuration including IP address, network settings, HTTP ports, and system-level parameters. Supports save, clear, and diff operations.
+- baseURL: https://<netscaler-ip>/nitro/v1
+  baseurl_source: declared
+  description: NetScaler appliance configuration including IP address, network settings, HTTP ports, and system-level parameters. Supports save, clear, and diff operations.
   name: Citrix NetScaler NS Config API
   slug: citrix-netscaler-ns-config-api
-- description: Real-time performance and health statistics for configured resources including virtual servers, services, and system metrics.
+- baseURL: https://<netscaler-ip>/nitro/v1
+  baseurl_source: declared
+  description: Real-time performance and health statistics for configured resources including virtual servers, services, and system metrics.
   name: Citrix NetScaler Statistics API
   slug: citrix-netscaler-statistics-api
-- description: System-level resources for managing the NetScaler appliance including system information, files, users, groups, and global settings.
+- baseURL: https://<netscaler-ip>/nitro/v1
+  baseurl_source: declared
+  description: System-level resources for managing the NetScaler appliance including system information, files, users, groups, and global settings.
   name: Citrix NetScaler System API
   slug: citrix-netscaler-system-api
 artifact_total: 77
@@ -391,7 +403,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/screenshots/citrix-netscaler-2026-06-20T174413.png
 security:

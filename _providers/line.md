@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -47,37 +47,59 @@ apis:
 - description: End-user authentication and authorization over OAuth 2.0 authorization code grant and OpenID Connect. Authorization runs at access.line.me; token, userinfo, revocation and JWKS endpoints are on api.li
   name: LINE Login v2.1
   slug: line-login-api
-- description: The channel-access-token API from LINE — 8 operation(s) for channel-access-token.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The channel-access-token API from LINE — 8 operation(s) for channel-access-token.
   name: LINE Channel Access Token API
   slug: line-channel-access-token-api
-- description: The dummy API from LINE — 1 operation(s) for dummy.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The dummy API from LINE — 1 operation(s) for dummy.
   name: LINE Dummy API
   slug: line-dummy-api
-- description: The insight API from LINE — 7 operation(s) for insight.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The insight API from LINE — 7 operation(s) for insight.
   name: LINE Insight API
   slug: line-insight-api
-- description: The liff API from LINE — 2 operation(s) for liff.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The liff API from LINE — 2 operation(s) for liff.
   name: LINE Liff API
   slug: line-liff-api
-- description: The line-module API from LINE — 4 operation(s) for line-module.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The line-module API from LINE — 4 operation(s) for line-module.
   name: LINE Line Module API
   slug: line-line-module-api
-- description: The line-module-attach API from LINE — 1 operation(s) for line-module-attach.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The line-module-attach API from LINE — 1 operation(s) for line-module-attach.
   name: LINE Line Module Attach API
   slug: line-line-module-attach-api
-- description: The manage-audience API from LINE — 8 operation(s) for manage-audience.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The manage-audience API from LINE — 8 operation(s) for manage-audience.
   name: LINE Manage Audience API
   slug: line-manage-audience-api
-- description: The manage-audience-blob API from LINE — 1 operation(s) for manage-audience-blob.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The manage-audience-blob API from LINE — 1 operation(s) for manage-audience-blob.
   name: LINE Manage Audience Blob API
   slug: line-manage-audience-blob-api
-- description: The messaging-api API from LINE — 61 operation(s) for messaging-api.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The messaging-api API from LINE — 61 operation(s) for messaging-api.
   name: LINE Messaging API
   slug: line-messaging-api-api
-- description: The messaging-api-blob API from LINE — 4 operation(s) for messaging-api-blob.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The messaging-api-blob API from LINE — 4 operation(s) for messaging-api-blob.
   name: LINE Messaging API Blob API
   slug: line-messaging-api-blob-api
-- description: The shop API from LINE — 1 operation(s) for shop.
+- baseURL: https://api.line.me
+  baseurl_source: declared
+  description: The shop API from LINE — 1 operation(s) for shop.
   name: LINE Shop API
   slug: line-shop-api
 artifact_total: 29
@@ -377,7 +399,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -387,7 +409,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 92.1
-  previous_composite: 69.5
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,7 +421,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:

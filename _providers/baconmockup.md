@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Resizable bacon placeholder images
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baconmockup/refs/heads/main/screenshots/baconmockup-2026-06-20T172920.png
 security:

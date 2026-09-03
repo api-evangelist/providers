@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Collections are groups of registered `Persons`. You can use collections to organize your registered persons and to search for persons within a specific collection. You can also use collections to mana
+- baseURL: https://us.opencv.fr
+  baseurl_source: declared
+  description: Collections are groups of registered `Persons`. You can use collections to organize your registered persons and to search for persons within a specific collection. You can also use collections to mana
   name: Seventh Sense Collections API
   slug: seventh-sense-collections-api
-- description: The `/liveness` endpoint allows you to determine if a face image is of a real person or a spoofed image (eg. a printed image of a face, or an image captured from a tablet's screen). The endpoint retur
+- baseURL: https://us.opencv.fr
+  baseurl_source: declared
+  description: The `/liveness` endpoint allows you to determine if a face image is of a real person or a spoofed image (eg. a printed image of a face, or an image captured from a tablet's screen). The endpoint retur
   name: Seventh Sense Face Anti-Spoofing / Liveness API
   slug: seventh-sense-face-anti-spoofing-liveness-api
-- description: The `/compare` endpoint allows you to compare two sets of face images to determine if they correspond to the same person. A score higher than 0.81 is a good indicator that the two sets of images belon
+- baseURL: https://us.opencv.fr
+  baseurl_source: declared
+  description: The `/compare` endpoint allows you to compare two sets of face images to determine if they correspond to the same person. A score higher than 0.81 is a good indicator that the two sets of images belon
   name: Seventh Sense Face Verification API
   slug: seventh-sense-face-verification-api
-- description: Persons are registered persons that you can later search for using face images. Registering a person allows you to search for them later using the `/search` endpoint. You can also use the `/person` en
+- baseURL: https://us.opencv.fr
+  baseurl_source: declared
+  description: Persons are registered persons that you can later search for using face images. Registering a person allows you to search for them later using the `/search` endpoint. You can also use the `/person` en
   name: Seventh Sense Persons API
   slug: seventh-sense-persons-api
-- description: The endpoints below allow you to search for previously registered persons using a face image obtained at a later time. The search is performed using a deep learning model trained on millions of face i
+- baseURL: https://us.opencv.fr
+  baseurl_source: declared
+  description: The endpoints below allow you to search for previously registered persons using a face image obtained at a later time. The search is performed using a deep learning model trained on millions of face i
   name: Seventh Sense Search API
   slug: seventh-sense-search-api
 artifact_total: 14
@@ -165,7 +175,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -190,8 +200,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/seventh-sense/refs/heads/main/screenshots/seventh-sense-2026-09-02T155055.png
 security:
 - kind: authentication
   name: Seventh Sense Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: The Bookings API from handy — 1 operation(s) for bookings.
+- baseURL: https://partners.services.handy.com/api/v1
+  baseurl_source: declared
+  description: The Bookings API from handy — 1 operation(s) for bookings.
   name: handy Bookings API
   slug: handy-bookings-api
-- description: The Order Products API from handy — 2 operation(s) for order products.
+- baseURL: https://partners.services.handy.com/api/v1
+  baseurl_source: declared
+  description: The Order Products API from handy — 2 operation(s) for order products.
   name: handy Order Products API
   slug: handy-order-products-api
-- description: The Orders API from handy — 2 operation(s) for orders.
+- baseURL: https://partners.services.handy.com/api/v1
+  baseurl_source: declared
+  description: The Orders API from handy — 2 operation(s) for orders.
   name: handy Orders API
   slug: handy-orders-api
-- description: The Testing API from handy — 1 operation(s) for testing.
+- baseURL: https://partners.services.handy.com/api/v1
+  baseurl_source: declared
+  description: The Testing API from handy — 1 operation(s) for testing.
   name: handy Testing API
   slug: handy-testing-api
 artifact_total: 15
@@ -213,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -223,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 39.2
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handy/refs/heads/main/screenshots/handy-2026-07-25T220617.png
 security:

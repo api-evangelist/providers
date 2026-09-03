@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 14 operations · 2 acting
 api_count: 1
 apis:
-- description: Check available shoot start times.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Check available shoot start times.
   name: Snappr Availability API
   slug: snappr-availability-api
-- description: Create and retrieve photoshoot bookings.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Create and retrieve photoshoot bookings.
   name: Snappr Bookings API
   slug: snappr-bookings-api
-- description: Check Snappr coverage for a location and shoot type.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Check Snappr coverage for a location and shoot type.
   name: Snappr Coverage API
   slug: snappr-coverage-api
-- description: Available Snappr editing job types.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Available Snappr editing job types.
   name: Snappr Editing Job Types API
   slug: snappr-editing-job-types-api
-- description: Create and retrieve photo editing jobs (beta).
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Create and retrieve photo editing jobs (beta).
   name: Snappr Editing Jobs API
   slug: snappr-editing-jobs-api
-- description: Retrieve images for bookings and editing jobs.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Retrieve images for bookings and editing jobs.
   name: Snappr Images API
   slug: snappr-images-api
-- description: Editing presets defined in the Photography Portal.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Editing presets defined in the Photography Portal.
   name: Snappr Presets API
   slug: snappr-presets-api
-- description: Available Snappr shoot types.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Available Snappr shoot types.
   name: Snappr Shoot Types API
   slug: snappr-shoot-types-api
-- description: Retrieve videos for bookings.
+- baseURL: https://api.snappr.com
+  baseurl_source: declared
+  description: Retrieve videos for bookings.
   name: Snappr Videos API
   slug: snappr-videos-api
 artifact_total: 24
@@ -253,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snappr/refs/heads/main/screenshots/snappr-2026-08-17T081939.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -65,22 +65,34 @@ apis:
 - description: Reference Python demo application showing how to plug Barndoor-governed MCP tools into a Crew AI multi-agent workflow.
   name: Barndoor + Crew AI Example
   slug: crew-ai-example
-- description: Manage AI agent registrations
+- baseURL: https://{organization_id}.platform.barndoor.ai
+  baseurl_source: declared
+  description: Manage AI agent registrations
   name: Barndoor Agents API
   slug: barndoor-agents-api
-- description: Manage OAuth connections to MCP servers
+- baseURL: https://{organization_id}.platform.barndoor.ai
+  baseurl_source: declared
+  description: Manage OAuth connections to MCP servers
   name: Barndoor Connections API
   slug: barndoor-connections-api
-- description: Proxy requests to MCP servers
+- baseURL: https://{organization_id}.platform.barndoor.ai
+  baseurl_source: declared
+  description: Proxy requests to MCP servers
   name: Barndoor MCP Proxy API
   slug: barndoor-mcp-proxy-api
-- description: Manage access control policies for agents and servers
+- baseURL: https://{organization_id}.platform.barndoor.ai
+  baseurl_source: declared
+  description: Manage access control policies for agents and servers
   name: Barndoor Policies API
   slug: barndoor-policies-api
-- description: The Policy API from Barndoor — 1 operation(s) for policy.
+- baseURL: https://{organization_id}.platform.barndoor.ai
+  baseurl_source: declared
+  description: The Policy API from Barndoor — 1 operation(s) for policy.
   name: Barndoor Policy API
   slug: barndoor-policy-api
-- description: Manage MCP server instances
+- baseURL: https://{organization_id}.platform.barndoor.ai
+  baseurl_source: declared
+  description: Manage MCP server instances
   name: Barndoor Servers API
   slug: barndoor-servers-api
 artifact_total: 156
@@ -683,7 +695,7 @@ score:
     regime_id: insurance
     score: 42.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-08-17T083336.png
 security:

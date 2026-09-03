@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 3
 apis:
-- description: Team member and access management
+- baseURL: https://api.archbee.com
+  baseurl_source: declared
+  description: Team member and access management
   name: Archbee Members API
   slug: archbee-members-api
-- description: Page content management
+- baseURL: https://api.archbee.com
+  baseurl_source: declared
+  description: Page content management
   name: Archbee Pages API
   slug: archbee-pages-api
-- description: Documentation space management
+- baseURL: https://api.archbee.com
+  baseurl_source: declared
+  description: Documentation space management
   name: Archbee Spaces API
   slug: archbee-spaces-api
 artifact_total: 61
@@ -348,7 +354,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/screenshots/archbee-2026-06-20T172408.png
 security:

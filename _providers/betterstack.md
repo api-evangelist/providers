@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 28 operations · 15 acting
 api_count: 1
 apis:
-- description: The Heartbeats API from Better Stack — 3 operation(s) for heartbeats.
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: The Heartbeats API from Better Stack — 3 operation(s) for heartbeats.
   name: Better Stack Heartbeats API
   slug: betterstack-heartbeats-api
-- description: The Incidents API from Better Stack — 7 operation(s) for incidents.
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: The Incidents API from Better Stack — 7 operation(s) for incidents.
   name: Better Stack Incidents API
   slug: betterstack-incidents-api
-- description: The Monitors API from Better Stack — 4 operation(s) for monitors.
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: The Monitors API from Better Stack — 4 operation(s) for monitors.
   name: Better Stack Monitors API
   slug: betterstack-monitors-api
-- description: The Status Pages API from Better Stack — 3 operation(s) for status pages.
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: The Status Pages API from Better Stack — 3 operation(s) for status pages.
   name: Better Stack Status Pages API
   slug: betterstack-status-pages-api
 artifact_total: 28
@@ -203,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betterstack/refs/heads/main/screenshots/betterstack-2026-06-20T173220.png
 security:

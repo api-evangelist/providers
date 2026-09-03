@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 70 operations · 19 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Courses API from Vector Solutions — 4 operation(s) for courses.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Courses API from Vector Solutions — 4 operation(s) for courses.
   name: Vector Solutions Courses API
   slug: vectorsolutions-courses-api
-- description: The Credential Assignment API from Vector Solutions — 3 operation(s) for credential assignment.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Credential Assignment API from Vector Solutions — 3 operation(s) for credential assignment.
   name: Vector Solutions Credential Assignment API
   slug: vectorsolutions-credential-assignment-api
-- description: The Credential Categories API from Vector Solutions — 4 operation(s) for credential categories.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Credential Categories API from Vector Solutions — 4 operation(s) for credential categories.
   name: Vector Solutions Credential Categories API
   slug: vectorsolutions-credential-categories-api
-- description: The Credentials API from Vector Solutions — 4 operation(s) for credentials.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Credentials API from Vector Solutions — 4 operation(s) for credentials.
   name: Vector Solutions Credentials API
   slug: vectorsolutions-credentials-api
-- description: The Feature Access API from Vector Solutions — 5 operation(s) for feature access.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Feature Access API from Vector Solutions — 5 operation(s) for feature access.
   name: Vector Solutions Feature Access API
   slug: vectorsolutions-feature-access-api
-- description: The Profile Categories API from Vector Solutions — 4 operation(s) for profile categories.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Profile Categories API from Vector Solutions — 4 operation(s) for profile categories.
   name: Vector Solutions Profile Categories API
   slug: vectorsolutions-profile-categories-api
-- description: The Profile Group Assignment API from Vector Solutions — 4 operation(s) for profile group assignment.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Profile Group Assignment API from Vector Solutions — 4 operation(s) for profile group assignment.
   name: Vector Solutions Profile Group Assignment API
   slug: vectorsolutions-profile-group-assignment-api
-- description: The Profile Groups API from Vector Solutions — 4 operation(s) for profile groups.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Profile Groups API from Vector Solutions — 4 operation(s) for profile groups.
   name: Vector Solutions Profile Groups API
   slug: vectorsolutions-profile-groups-api
-- description: The Sites API from Vector Solutions — 2 operation(s) for sites.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Sites API from Vector Solutions — 2 operation(s) for sites.
   name: Vector Solutions Sites API
   slug: vectorsolutions-sites-api
-- description: The Supervisor Access API from Vector Solutions — 5 operation(s) for supervisor access.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Supervisor Access API from Vector Solutions — 5 operation(s) for supervisor access.
   name: Vector Solutions Supervisor Access API
   slug: vectorsolutions-supervisor-access-api
-- description: The Training Assignments API from Vector Solutions — 5 operation(s) for training assignments.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Training Assignments API from Vector Solutions — 5 operation(s) for training assignments.
   name: Vector Solutions Training Assignments API
   slug: vectorsolutions-training-assignments-api
-- description: The User Emails API from Vector Solutions — 2 operation(s) for user emails.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The User Emails API from Vector Solutions — 2 operation(s) for user emails.
   name: Vector Solutions User Emails API
   slug: vectorsolutions-user-emails-api
-- description: The User History API from Vector Solutions — 3 operation(s) for user history.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The User History API from Vector Solutions — 3 operation(s) for user history.
   name: Vector Solutions User History API
   slug: vectorsolutions-user-history-api
-- description: The Users API from Vector Solutions — 4 operation(s) for users.
+- baseURL: https://api.targetsolutions.com/v1
+  baseurl_source: declared
+  description: The Users API from Vector Solutions — 4 operation(s) for users.
   name: Vector Solutions Users API
   slug: vectorsolutions-users-api
 artifact_total: 33
@@ -254,7 +282,7 @@ score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -286,8 +314,9 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vectorsolutions/refs/heads/main/screenshots/vectorsolutions-2026-09-02T165542.png
 security:
 - kind: authentication
   name: Vectorsolutions Authentication

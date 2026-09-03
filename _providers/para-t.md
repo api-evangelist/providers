@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 121 operations · 80 acting
 api_count: 1
 apis:
-- description: The Accounts API from Paraşüt — 5 operation(s) for accounts.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Accounts API from Paraşüt — 5 operation(s) for accounts.
   name: Paraşüt Accounts API
   slug: para-t-accounts-api
-- description: The ApiHome API from Paraşüt — 1 operation(s) for apihome.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The ApiHome API from Paraşüt — 1 operation(s) for apihome.
   name: Paraşüt ApiHome API
   slug: para-t-apihome-api
-- description: The BankFees API from Paraşüt — 5 operation(s) for bankfees.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The BankFees API from Paraşüt — 5 operation(s) for bankfees.
   name: Paraşüt BankFees API
   slug: para-t-bankfees-api
-- description: The Contacts API from Paraşüt — 4 operation(s) for contacts.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Contacts API from Paraşüt — 4 operation(s) for contacts.
   name: Paraşüt Contacts API
   slug: para-t-contacts-api
-- description: The EArchives API from Paraşüt — 3 operation(s) for earchives.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The EArchives API from Paraşüt — 3 operation(s) for earchives.
   name: Paraşüt EArchives API
   slug: para-t-earchives-api
-- description: The EInvoiceInboxes API from Paraşüt — 1 operation(s) for einvoiceinboxes.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The EInvoiceInboxes API from Paraşüt — 1 operation(s) for einvoiceinboxes.
   name: Paraşüt EInvoiceInboxes API
   slug: para-t-einvoiceinboxes-api
-- description: The EInvoices API from Paraşüt — 3 operation(s) for einvoices.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The EInvoices API from Paraşüt — 3 operation(s) for einvoices.
   name: Paraşüt EInvoices API
   slug: para-t-einvoices-api
-- description: The Employees API from Paraşüt — 4 operation(s) for employees.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Employees API from Paraşüt — 4 operation(s) for employees.
   name: Paraşüt Employees API
   slug: para-t-employees-api
-- description: The ESmms API from Paraşüt — 3 operation(s) for esmms.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The ESmms API from Paraşüt — 3 operation(s) for esmms.
   name: Paraşüt ESmms API
   slug: para-t-esmms-api
-- description: The InventoryLevels API from Paraşüt — 1 operation(s) for inventorylevels.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The InventoryLevels API from Paraşüt — 1 operation(s) for inventorylevels.
   name: Paraşüt InventoryLevels API
   slug: para-t-inventorylevels-api
-- description: The ItemCategories API from Paraşüt — 2 operation(s) for itemcategories.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The ItemCategories API from Paraşüt — 2 operation(s) for itemcategories.
   name: Paraşüt ItemCategories API
   slug: para-t-itemcategories-api
-- description: The Products API from Paraşüt — 2 operation(s) for products.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Products API from Paraşüt — 2 operation(s) for products.
   name: Paraşüt Products API
   slug: para-t-products-api
-- description: The PurchaseBills API from Paraşüt — 11 operation(s) for purchasebills.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The PurchaseBills API from Paraşüt — 11 operation(s) for purchasebills.
   name: Paraşüt PurchaseBills API
   slug: para-t-purchasebills-api
-- description: The Salaries API from Paraşüt — 5 operation(s) for salaries.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Salaries API from Paraşüt — 5 operation(s) for salaries.
   name: Paraşüt Salaries API
   slug: para-t-salaries-api
-- description: The SalesInvoices API from Paraşüt — 8 operation(s) for salesinvoices.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The SalesInvoices API from Paraşüt — 8 operation(s) for salesinvoices.
   name: Paraşüt SalesInvoices API
   slug: para-t-salesinvoices-api
-- description: The SalesOffers API from Paraşüt — 8 operation(s) for salesoffers.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The SalesOffers API from Paraşüt — 8 operation(s) for salesoffers.
   name: Paraşüt SalesOffers API
   slug: para-t-salesoffers-api
-- description: The ShipmentDocuments API from Paraşüt — 2 operation(s) for shipmentdocuments.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The ShipmentDocuments API from Paraşüt — 2 operation(s) for shipmentdocuments.
   name: Paraşüt ShipmentDocuments API
   slug: para-t-shipmentdocuments-api
-- description: The StockMovements API from Paraşüt — 1 operation(s) for stockmovements.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The StockMovements API from Paraşüt — 1 operation(s) for stockmovements.
   name: Paraşüt StockMovements API
   slug: para-t-stockmovements-api
-- description: The StockUpdates API from Paraşüt — 1 operation(s) for stockupdates.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The StockUpdates API from Paraşüt — 1 operation(s) for stockupdates.
   name: Paraşüt StockUpdates API
   slug: para-t-stockupdates-api
-- description: The Tags API from Paraşüt — 2 operation(s) for tags.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Tags API from Paraşüt — 2 operation(s) for tags.
   name: Paraşüt Tags API
   slug: para-t-tags-api
-- description: The Taxes API from Paraşüt — 5 operation(s) for taxes.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Taxes API from Paraşüt — 5 operation(s) for taxes.
   name: Paraşüt Taxes API
   slug: para-t-taxes-api
-- description: The TrackableJobs API from Paraşüt — 1 operation(s) for trackablejobs.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The TrackableJobs API from Paraşüt — 1 operation(s) for trackablejobs.
   name: Paraşüt TrackableJobs API
   slug: para-t-trackablejobs-api
-- description: The Transactions API from Paraşüt — 1 operation(s) for transactions.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Transactions API from Paraşüt — 1 operation(s) for transactions.
   name: Paraşüt Transactions API
   slug: para-t-transactions-api
-- description: The Warehouses API from Paraşüt — 2 operation(s) for warehouses.
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Warehouses API from Paraşüt — 2 operation(s) for warehouses.
   name: Paraşüt Warehouses API
   slug: para-t-warehouses-api
 arazzos:
@@ -361,7 +409,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png
 security:

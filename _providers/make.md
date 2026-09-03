@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -56,16 +56,24 @@ apis:
 - description: Make White Label provides OEM customers with the ability to manage and administrate their own white-labeled instance of Make, including rebranding appearance, managing user access roles, creating orga
   name: Make White Label
   slug: white-label
-- description: The AI Agents API from Make — 1 operation(s) for ai agents.
+- baseURL: https://us1.make.com/api/v2
+  baseurl_source: declared
+  description: The AI Agents API from Make — 1 operation(s) for ai agents.
   name: Make AI Agents API
   slug: make-ai-agents-api
-- description: The Scenario Execution API from Make — 5 operation(s) for scenario execution.
+- baseURL: https://us1.make.com/api/v2
+  baseurl_source: declared
+  description: The Scenario Execution API from Make — 5 operation(s) for scenario execution.
   name: Make Scenario Execution API
   slug: make-scenario-execution-api
-- description: The Scenario Variables API from Make — 1 operation(s) for scenario variables.
+- baseURL: https://us1.make.com/api/v2
+  baseurl_source: declared
+  description: The Scenario Variables API from Make — 1 operation(s) for scenario variables.
   name: Make Scenario Variables API
   slug: make-scenario-variables-api
-- description: The Scenarios API from Make — 6 operation(s) for scenarios.
+- baseURL: https://us1.make.com/api/v2
+  baseurl_source: declared
+  description: The Scenarios API from Make — 6 operation(s) for scenarios.
   name: Make Scenarios API
   slug: make-scenarios-api
 artifact_total: 36
@@ -246,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/screenshots/make-2026-06-20T184908.png
 security:

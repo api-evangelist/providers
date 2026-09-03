@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 24 operations · 13 acting
 api_count: 1
 apis:
-- description: Customers, shippers, and business partners.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: Customers, shippers, and business partners.
   name: Turvo Accounts API
   slug: turvo-accounts-api
-- description: OAuth 2.0 token exchange for the Public API.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token exchange for the Public API.
   name: Turvo Authentication API
   slug: turvo-authentication-api
-- description: Transportation providers hauling freight.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: Transportation providers hauling freight.
   name: Turvo Carriers API
   slug: turvo-carriers-api
-- description: Facility and address master used as shipment stops.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: Facility and address master used as shipment stops.
   name: Turvo Locations API
   slug: turvo-locations-api
-- description: Customer demand records planned into shipments.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: Customer demand records planned into shipments.
   name: Turvo Orders API
   slug: turvo-orders-api
-- description: Freight loads - the core shipment object in Turvo.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: Freight loads - the core shipment object in Turvo.
   name: Turvo Shipments API
   slug: turvo-shipments-api
-- description: Real-time location updates and status milestones on a shipment.
+- baseURL: https://publicapi.turvo.com/v1
+  baseurl_source: declared
+  description: Real-time location updates and status milestones on a shipment.
   name: Turvo Tracking API
   slug: turvo-tracking-api
 artifact_total: 22
@@ -164,7 +178,7 @@ score:
   band: thin
   composite: 35.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +207,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/screenshots/turvo-2026-09-02T164550.png
 security:
 - kind: authentication
   name: Turvo Authentication

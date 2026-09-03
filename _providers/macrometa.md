@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 9
@@ -43,193 +43,319 @@ agentic_access:
   summary_line: 469 operations · 257 acting · 9 human-in-the-loop
 api_count: 8
 apis:
-- description: All the PhotonIQ EST activity metrics endpoints.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: All the PhotonIQ EST activity metrics endpoints.
   name: Macrometa Activity Metrics API
   slug: macrometa-activity-metrics-api
-- description: The Administration API from Macrometa — 36 operation(s) for administration.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Administration API from Macrometa — 36 operation(s) for administration.
   name: Macrometa Administration API
   slug: macrometa-administration-api
-- description: The API key API from Macrometa — 2 operation(s) for api key.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The API key API from Macrometa — 2 operation(s) for api key.
   name: Macrometa API key API
   slug: macrometa-api-key-api
-- description: The API Keys API from Macrometa — 17 operation(s) for api keys.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The API Keys API from Macrometa — 17 operation(s) for api keys.
   name: Macrometa API Keys API
   slug: macrometa-api-keys-api
-- description: The Authentication API from Macrometa — 1 operation(s) for authentication.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Authentication API from Macrometa — 1 operation(s) for authentication.
   name: Macrometa Authentication API
   slug: macrometa-authentication-api
-- description: The Billing API from Macrometa — 8 operation(s) for billing.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Billing API from Macrometa — 8 operation(s) for billing.
   name: Macrometa Billing API
   slug: macrometa-billing-api
-- description: The Cache API from Macrometa — 3 operation(s) for cache.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Cache API from Macrometa — 3 operation(s) for cache.
   name: Macrometa Cache API
   slug: macrometa-cache-api
-- description: All the PhotonIQ EST Change History endpoints.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: All the PhotonIQ EST Change History endpoints.
   name: Macrometa Change History API
   slug: macrometa-change-history-api
-- description: The Collections API from Macrometa — 10 operation(s) for collections.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Collections API from Macrometa — 10 operation(s) for collections.
   name: Macrometa Collections API
   slug: macrometa-collections-api
-- description: 'This endpoint retrieves the current configuration settings of a specified component used for integrating third-party tags. It provides details about each third-party tag that has been configured with '
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: 'This endpoint retrieves the current configuration settings of a specified component used for integrating third-party tags. It provides details about each third-party tag that has been configured with '
   name: Macrometa Components API
   slug: macrometa-components-api
-- description: The Connections API from Macrometa — 14 operation(s) for connections.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Connections API from Macrometa — 14 operation(s) for connections.
   name: Macrometa Connections API
   slug: macrometa-connections-api
-- description: The Connectors API from Macrometa — 2 operation(s) for connectors.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Connectors API from Macrometa — 2 operation(s) for connectors.
   name: Macrometa Connectors API
   slug: macrometa-connectors-api
-- description: The Data Centers API from Macrometa — 7 operation(s) for data centers.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Data Centers API from Macrometa — 7 operation(s) for data centers.
   name: Macrometa Data Centers API
   slug: macrometa-data-centers-api
-- description: The Documents API from Macrometa — 2 operation(s) for documents.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Documents API from Macrometa — 2 operation(s) for documents.
   name: Macrometa Documents API
   slug: macrometa-documents-api
-- description: The Dynamo API from Macrometa — 1 operation(s) for dynamo.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Dynamo API from Macrometa — 1 operation(s) for dynamo.
   name: Macrometa Dynamo API
   slug: macrometa-dynamo-api
-- description: The Embeddings API from Macrometa — 3 operation(s) for embeddings.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Embeddings API from Macrometa — 3 operation(s) for embeddings.
   name: Macrometa Embeddings API
   slug: macrometa-embeddings-api
-- description: The Environments API from Macrometa — 4 operation(s) for environments.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Environments API from Macrometa — 4 operation(s) for environments.
   name: Macrometa Environments API
   slug: macrometa-environments-api
-- description: All the PhotonIQ EST error metrics endpoints.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: All the PhotonIQ EST error metrics endpoints.
   name: Macrometa Error Metrics API
   slug: macrometa-error-metrics-api
-- description: EST setting API to configure `origin`, `cookies`, and `basicAuth`. To access EST telemetrics `basicAuth` configuration is required.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: EST setting API to configure `origin`, `cookies`, and `basicAuth`. To access EST telemetrics `basicAuth` configuration is required.
   name: Macrometa EST Settings API
   slug: macrometa-est-settings-api
-- description: The Function API from Macrometa — 18 operation(s) for function.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Function API from Macrometa — 18 operation(s) for function.
   name: Macrometa Function API
   slug: macrometa-function-api
-- description: The GeoFabrics API from Macrometa — 4 operation(s) for geofabrics.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The GeoFabrics API from Macrometa — 4 operation(s) for geofabrics.
   name: Macrometa GeoFabrics API
   slug: macrometa-geofabrics-api
-- description: The Graphs API from Macrometa — 9 operation(s) for graphs.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Graphs API from Macrometa — 9 operation(s) for graphs.
   name: Macrometa Graphs API
   slug: macrometa-graphs-api
-- description: Health check related routes.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: Health check related routes.
   name: Macrometa Health API
   slug: macrometa-health-api
-- description: Perform EDS health check
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: Perform EDS health check
   name: Macrometa Health Check API
   slug: macrometa-health-check-api
-- description: The Import Export API from Macrometa — 3 operation(s) for import export.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Import Export API from Macrometa — 3 operation(s) for import export.
   name: Macrometa Import Export API
   slug: macrometa-import-export-api
-- description: The Index API from Macrometa — 6 operation(s) for index.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Index API from Macrometa — 6 operation(s) for index.
   name: Macrometa Index API
   slug: macrometa-index-api
-- description: The Indexes API from Macrometa — 9 operation(s) for indexes.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Indexes API from Macrometa — 9 operation(s) for indexes.
   name: Macrometa Indexes API
   slug: macrometa-indexes-api
-- description: The Key Value API from Macrometa — 8 operation(s) for key value.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Key Value API from Macrometa — 8 operation(s) for key value.
   name: Macrometa Key Value API
   slug: macrometa-key-value-api
-- description: The Logs API from Macrometa — 2 operation(s) for logs.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Logs API from Macrometa — 2 operation(s) for logs.
   name: Macrometa Logs API
   slug: macrometa-logs-api
-- description: Event subscriptions and streaming
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: Event subscriptions and streaming
   name: Macrometa Manage Subscriptions API
   slug: macrometa-manage-subscriptions-api
-- description: The Managed Keys API from Macrometa — 3 operation(s) for managed keys.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Managed Keys API from Macrometa — 3 operation(s) for managed keys.
   name: Macrometa Managed Keys API
   slug: macrometa-managed-keys-api
-- description: Retrieve EDS metrics data
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: Retrieve EDS metrics data
   name: Macrometa Metrics API
   slug: macrometa-metrics-api
-- description: The Models API from Macrometa — 1 operation(s) for models.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Models API from Macrometa — 1 operation(s) for models.
   name: Macrometa Models API
   slug: macrometa-models-api
-- description: The Origins API from Macrometa — 2 operation(s) for origins.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Origins API from Macrometa — 2 operation(s) for origins.
   name: Macrometa Origins API
   slug: macrometa-origins-api
-- description: The Position API from Macrometa — 2 operation(s) for position.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Position API from Macrometa — 2 operation(s) for position.
   name: Macrometa Position API
   slug: macrometa-position-api
-- description: The Prefetch API from Macrometa — 3 operation(s) for prefetch.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Prefetch API from Macrometa — 3 operation(s) for prefetch.
   name: Macrometa Prefetch API
   slug: macrometa-prefetch-api
-- description: The Prerender API from Macrometa — 2 operation(s) for prerender.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Prerender API from Macrometa — 2 operation(s) for prerender.
   name: Macrometa Prerender API
   slug: macrometa-prerender-api
-- description: The Prerender History API from Macrometa — 2 operation(s) for prerender history.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Prerender History API from Macrometa — 2 operation(s) for prerender history.
   name: Macrometa Prerender History API
   slug: macrometa-prerender-history-api
-- description: The Prerender Settings API from Macrometa — 1 operation(s) for prerender settings.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Prerender Settings API from Macrometa — 1 operation(s) for prerender settings.
   name: Macrometa Prerender Settings API
   slug: macrometa-prerender-settings-api
-- description: The Query API from Macrometa — 5 operation(s) for query.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Query API from Macrometa — 5 operation(s) for query.
   name: Macrometa Query API
   slug: macrometa-query-api
-- description: The Query Workers API from Macrometa — 6 operation(s) for query workers.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Query Workers API from Macrometa — 6 operation(s) for query workers.
   name: Macrometa Query Workers API
   slug: macrometa-query-workers-api
-- description: The Redis API from Macrometa — 2 operation(s) for redis.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Redis API from Macrometa — 2 operation(s) for redis.
   name: Macrometa Redis API
   slug: macrometa-redis-api
-- description: The Search API from Macrometa — 10 operation(s) for search.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Search API from Macrometa — 10 operation(s) for search.
   name: Macrometa Search API
   slug: macrometa-search-api
-- description: The Secrets API from Macrometa — 2 operation(s) for secrets.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Secrets API from Macrometa — 2 operation(s) for secrets.
   name: Macrometa Secrets API
   slug: macrometa-secrets-api
-- description: The Service information API from Macrometa — 1 operation(s) for service information.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Service information API from Macrometa — 1 operation(s) for service information.
   name: Macrometa Service information API
   slug: macrometa-service-information-api
-- description: Settings endpoints allows users to configure a component to integrate various third-party tags into their system. It accepts configuration settings for different types of tags, such as analytics, adve
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: Settings endpoints allows users to configure a component to integrate various third-party tags into their system. It accepts configuration settings for different types of tags, such as analytics, adve
   name: Macrometa Settings API
   slug: macrometa-settings-api
-- description: The Stream Workers API from Macrometa — 7 operation(s) for stream workers.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Stream Workers API from Macrometa — 7 operation(s) for stream workers.
   name: Macrometa Stream Workers API
   slug: macrometa-stream-workers-api
-- description: The Streams API from Macrometa — 13 operation(s) for streams.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Streams API from Macrometa — 13 operation(s) for streams.
   name: Macrometa Streams API
   slug: macrometa-streams-api
-- description: The Support API from Macrometa — 1 operation(s) for support.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Support API from Macrometa — 1 operation(s) for support.
   name: Macrometa Support API
   slug: macrometa-support-api
-- description: The Synthetic Interactions API from Macrometa — 2 operation(s) for synthetic interactions.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Synthetic Interactions API from Macrometa — 2 operation(s) for synthetic interactions.
   name: Macrometa Synthetic Interactions API
   slug: macrometa-synthetic-interactions-api
-- description: The System API from Macrometa — 3 operation(s) for system.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The System API from Macrometa — 3 operation(s) for system.
   name: Macrometa System API
   slug: macrometa-system-api
-- description: The Telemetry API from Macrometa — 4 operation(s) for telemetry.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Telemetry API from Macrometa — 4 operation(s) for telemetry.
   name: Macrometa Telemetry API
   slug: macrometa-telemetry-api
-- description: All the tracking endpoints.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: All the tracking endpoints.
   name: Macrometa Track API
   slug: macrometa-track-api
-- description: 'This endpoint is designed for configuring triggers for a specific component. Triggers are essential for initiating actions within a component, as they define the specific conditions under which these '
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: 'This endpoint is designed for configuring triggers for a specific component. Triggers are essential for initiating actions within a component, as they define the specific conditions under which these '
   name: Macrometa Triggers API
   slug: macrometa-triggers-api
-- description: The Usage API from Macrometa — 5 operation(s) for usage.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Usage API from Macrometa — 5 operation(s) for usage.
   name: Macrometa Usage API
   slug: macrometa-usage-api
-- description: All the PhotonIQ EST usage metrics endpoints.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: All the PhotonIQ EST usage metrics endpoints.
   name: Macrometa Usage Metrics API
   slug: macrometa-usage-metrics-api
-- description: The Users API from Macrometa — 18 operation(s) for users.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Users API from Macrometa — 18 operation(s) for users.
   name: Macrometa Users API
   slug: macrometa-users-api
-- description: All the PhotonIQ EST variables endpoints
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: All the PhotonIQ EST variables endpoints
   name: Macrometa Variables API
   slug: macrometa-variables-api
-- description: Get EDS version
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: Get EDS version
   name: Macrometa Version API
   slug: macrometa-version-api
-- description: The Visitors API from Macrometa — 1 operation(s) for visitors.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Visitors API from Macrometa — 1 operation(s) for visitors.
   name: Macrometa Visitors API
   slug: macrometa-visitors-api
-- description: The Visits API from Macrometa — 1 operation(s) for visits.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Visits API from Macrometa — 1 operation(s) for visits.
   name: Macrometa Visits API
   slug: macrometa-visits-api
-- description: The Waiting room status API from Macrometa — 1 operation(s) for waiting room status.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Waiting room status API from Macrometa — 1 operation(s) for waiting room status.
   name: Macrometa Waiting room status API
   slug: macrometa-waiting-room-status-api
-- description: The Waiting rooms API from Macrometa — 2 operation(s) for waiting rooms.
+- baseURL: https://api-play.paas.macrometa.io
+  baseurl_source: declared
+  description: The Waiting rooms API from Macrometa — 2 operation(s) for waiting rooms.
   name: Macrometa Waiting rooms API
   slug: macrometa-waiting-rooms-api
 artifact_total: 131
@@ -582,7 +708,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrometa/refs/heads/main/screenshots/macrometa-2026-07-25T225823.png
 security:

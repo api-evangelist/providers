@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,301 +38,497 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 53
 apis:
-- description: Account group CRUD operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Account group CRUD operations
   name: ThousandEyes Account Groups API
   slug: thousandeyes-account-groups-api
-- description: The Agent Proxies API from ThousandEyes — 1 operation(s) for agent proxies.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Agent Proxies API from ThousandEyes — 1 operation(s) for agent proxies.
   name: ThousandEyes Agent Proxies API
   slug: thousandeyes-agent-proxies-api
-- description: The Agent to Agent Instant Tests API from ThousandEyes — 1 operation(s) for agent to agent instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Agent to Agent Instant Tests API from ThousandEyes — 1 operation(s) for agent to agent instant tests.
   name: ThousandEyes Agent to Agent Instant Tests API
   slug: thousandeyes-agent-to-agent-instant-tests-api
-- description: Agent to Agent test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Agent to Agent test management operations
   name: ThousandEyes Agent to Agent Tests API
   slug: thousandeyes-agent-to-agent-tests-api
-- description: The Agent To Server Endpoint Dynamic Tests API from ThousandEyes — 2 operation(s) for agent to server endpoint dynamic tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Agent To Server Endpoint Dynamic Tests API from ThousandEyes — 2 operation(s) for agent to server endpoint dynamic tests.
   name: ThousandEyes Agent To Server Endpoint Dynamic Tests API
   slug: thousandeyes-agent-to-server-endpoint-dynamic-tests-api
-- description: The Agent to Server Endpoint Instant Scheduled Tests API from ThousandEyes — 1 operation(s) for agent to server endpoint instant scheduled tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Agent to Server Endpoint Instant Scheduled Tests API from ThousandEyes — 1 operation(s) for agent to server endpoint instant scheduled tests.
   name: ThousandEyes Agent to Server Endpoint Instant Scheduled Tests API
   slug: thousandeyes-agent-to-server-endpoint-instant-scheduled-tests-api
-- description: The Agent to Server Endpoint Scheduled Tests API from ThousandEyes — 2 operation(s) for agent to server endpoint scheduled tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Agent to Server Endpoint Scheduled Tests API from ThousandEyes — 2 operation(s) for agent to server endpoint scheduled tests.
   name: ThousandEyes Agent to Server Endpoint Scheduled Tests API
   slug: thousandeyes-agent-to-server-endpoint-scheduled-tests-api
-- description: The Agent to Server Instant Tests API from ThousandEyes — 1 operation(s) for agent to server instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Agent to Server Instant Tests API from ThousandEyes — 1 operation(s) for agent to server instant tests.
   name: ThousandEyes Agent to Server Instant Tests API
   slug: thousandeyes-agent-to-server-instant-tests-api
-- description: Agent to Server test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Agent to Server test management operations
   name: ThousandEyes Agent to Server Tests API
   slug: thousandeyes-agent-to-server-tests-api
-- description: The Alert Rules API from ThousandEyes — 2 operation(s) for alert rules.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Alert Rules API from ThousandEyes — 2 operation(s) for alert rules.
   name: ThousandEyes Alert Rules API
   slug: thousandeyes-alert-rules-api
-- description: The Alert Suppression Windows API from ThousandEyes — 2 operation(s) for alert suppression windows.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Alert Suppression Windows API from ThousandEyes — 2 operation(s) for alert suppression windows.
   name: ThousandEyes Alert Suppression Windows API
   slug: thousandeyes-alert-suppression-windows-api
-- description: The Alerts API from ThousandEyes — 2 operation(s) for alerts.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Alerts API from ThousandEyes — 2 operation(s) for alerts.
   name: ThousandEyes Alerts API
   slug: thousandeyes-alerts-api
-- description: The API Instant Tests API from ThousandEyes — 1 operation(s) for api instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The API Instant Tests API from ThousandEyes — 1 operation(s) for api instant tests.
   name: ThousandEyes API Instant Tests API
   slug: thousandeyes-api-instant-tests-api
-- description: The API Test Results API from ThousandEyes — 2 operation(s) for api test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The API Test Results API from ThousandEyes — 2 operation(s) for api test results.
   name: ThousandEyes API Test Results API
   slug: thousandeyes-api-test-results-api
-- description: API test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: API test management operations
   name: ThousandEyes API Tests API
   slug: thousandeyes-api-tests-api
-- description: The API Token API from ThousandEyes — 1 operation(s) for api token.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The API Token API from ThousandEyes — 1 operation(s) for api token.
   name: ThousandEyes API Token API
   slug: thousandeyes-api-token-api
-- description: The Autonomous System Prefixes API from ThousandEyes — 1 operation(s) for autonomous system prefixes.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Autonomous System Prefixes API from ThousandEyes — 1 operation(s) for autonomous system prefixes.
   name: ThousandEyes Autonomous System Prefixes API
   slug: thousandeyes-autonomous-system-prefixes-api
-- description: The BGP monitors API from ThousandEyes — 1 operation(s) for bgp monitors.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The BGP monitors API from ThousandEyes — 1 operation(s) for bgp monitors.
   name: ThousandEyes BGP monitors API
   slug: thousandeyes-bgp-monitors-api
-- description: BGP test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: BGP test management operations
   name: ThousandEyes BGP Tests API
   slug: thousandeyes-bgp-tests-api
-- description: The Cloud and Enterprise Agent Notification Rules API from ThousandEyes — 2 operation(s) for cloud and enterprise agent notification rules.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Cloud and Enterprise Agent Notification Rules API from ThousandEyes — 2 operation(s) for cloud and enterprise agent notification rules.
   name: ThousandEyes Cloud and Enterprise Agent Notification Rules API
   slug: thousandeyes-cloud-and-enterprise-agent-notification-rules-api
-- description: The Cloud and Enterprise Agents API from ThousandEyes — 2 operation(s) for cloud and enterprise agents.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Cloud and Enterprise Agents API from ThousandEyes — 2 operation(s) for cloud and enterprise agents.
   name: ThousandEyes Cloud and Enterprise Agents API
   slug: thousandeyes-cloud-and-enterprise-agents-api
-- description: Manage Cloud Insights integration policy settings for AWS and Azure.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Manage Cloud Insights integration policy settings for AWS and Azure.
   name: ThousandEyes Cloud Insights Integration Policy Settings API
   slug: thousandeyes-cloud-insights-integration-policy-settings-api
-- description: Manage Cloud Insights integrations for AWS and Azure.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Manage Cloud Insights integrations for AWS and Azure.
   name: ThousandEyes Cloud Insights Integrations API
   slug: thousandeyes-cloud-insights-integrations-api
-- description: Credential Vault operations allow you to configure vault secrets.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Credential Vault operations allow you to configure vault secrets.
   name: ThousandEyes Credential Vault Operations API
   slug: thousandeyes-credential-vault-operations-api
-- description: The Credentials API from ThousandEyes — 2 operation(s) for credentials.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Credentials API from ThousandEyes — 2 operation(s) for credentials.
   name: ThousandEyes Credentials API
   slug: thousandeyes-credentials-api
-- description: The CyberArk Conjur instance you want the ThousandEyes platform to integrate with.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The CyberArk Conjur instance you want the ThousandEyes platform to integrate with.
   name: ThousandEyes CyberArk Conjur Connectors API
   slug: thousandeyes-cyberark-conjur-connectors-api
-- description: Dashboard Snapshots CRUD operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Dashboard Snapshots CRUD operations
   name: ThousandEyes Dashboard Snapshots API
   slug: thousandeyes-dashboard-snapshots-api
-- description: Dashboards and Widgets operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Dashboards and Widgets operations
   name: ThousandEyes Dashboards API
   slug: thousandeyes-dashboards-api
-- description: The Dashboards Filters API from ThousandEyes — 2 operation(s) for dashboards filters.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Dashboards Filters API from ThousandEyes — 2 operation(s) for dashboards filters.
   name: ThousandEyes Dashboards Filters API
   slug: thousandeyes-dashboards-filters-api
-- description: The DNS Server Instant Tests API from ThousandEyes — 1 operation(s) for dns server instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The DNS Server Instant Tests API from ThousandEyes — 1 operation(s) for dns server instant tests.
   name: ThousandEyes DNS Server Instant Tests API
   slug: thousandeyes-dns-server-instant-tests-api
-- description: The DNS Server Test Results API from ThousandEyes — 2 operation(s) for dns server test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The DNS Server Test Results API from ThousandEyes — 2 operation(s) for dns server test results.
   name: ThousandEyes DNS Server Test Results API
   slug: thousandeyes-dns-server-test-results-api
-- description: DNS Server test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: DNS Server test management operations
   name: ThousandEyes DNS Server Tests API
   slug: thousandeyes-dns-server-tests-api
-- description: The DNS Trace Instant Tests API from ThousandEyes — 1 operation(s) for dns trace instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The DNS Trace Instant Tests API from ThousandEyes — 1 operation(s) for dns trace instant tests.
   name: ThousandEyes DNS Trace Instant Tests API
   slug: thousandeyes-dns-trace-instant-tests-api
-- description: The DNS Trace Test Results API from ThousandEyes — 1 operation(s) for dns trace test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The DNS Trace Test Results API from ThousandEyes — 1 operation(s) for dns trace test results.
   name: ThousandEyes DNS Trace Test Results API
   slug: thousandeyes-dns-trace-test-results-api
-- description: DNS Trace test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: DNS Trace test management operations
   name: ThousandEyes DNS Trace Tests API
   slug: thousandeyes-dns-trace-tests-api
-- description: The DNSSEC Instant Tests API from ThousandEyes — 1 operation(s) for dnssec instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The DNSSEC Instant Tests API from ThousandEyes — 1 operation(s) for dnssec instant tests.
   name: ThousandEyes DNSSEC Instant Tests API
   slug: thousandeyes-dnssec-instant-tests-api
-- description: The DNSSEC Test Results API from ThousandEyes — 1 operation(s) for dnssec test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The DNSSEC Test Results API from ThousandEyes — 1 operation(s) for dnssec test results.
   name: ThousandEyes DNSSEC Test Results API
   slug: thousandeyes-dnssec-test-results-api
-- description: DNSSEC test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: DNSSEC test management operations
   name: ThousandEyes DNSSEC Tests API
   slug: thousandeyes-dnssec-tests-api
-- description: The Emulation API from ThousandEyes — 2 operation(s) for emulation.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Emulation API from ThousandEyes — 2 operation(s) for emulation.
   name: ThousandEyes Emulation API
   slug: thousandeyes-emulation-api
-- description: The Endpoint Agent Labels API from ThousandEyes — 2 operation(s) for endpoint agent labels.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Agent Labels API from ThousandEyes — 2 operation(s) for endpoint agent labels.
   name: ThousandEyes Endpoint Agent Labels API
   slug: thousandeyes-endpoint-agent-labels-api
-- description: The Endpoint Agent Log Items API from ThousandEyes — 1 operation(s) for endpoint agent log items.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Agent Log Items API from ThousandEyes — 1 operation(s) for endpoint agent log items.
   name: ThousandEyes Endpoint Agent Log Items API
   slug: thousandeyes-endpoint-agent-log-items-api
-- description: The Endpoint Agents API from ThousandEyes — 6 operation(s) for endpoint agents.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Agents API from ThousandEyes — 6 operation(s) for endpoint agents.
   name: ThousandEyes Endpoint Agents API
   slug: thousandeyes-endpoint-agents-api
-- description: The Endpoint Agents Transfer API from ThousandEyes — 2 operation(s) for endpoint agents transfer.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Agents Transfer API from ThousandEyes — 2 operation(s) for endpoint agents transfer.
   name: ThousandEyes Endpoint Agents Transfer API
   slug: thousandeyes-endpoint-agents-transfer-api
-- description: The Endpoint Proxies API from ThousandEyes — 1 operation(s) for endpoint proxies.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Proxies API from ThousandEyes — 1 operation(s) for endpoint proxies.
   name: ThousandEyes Endpoint Proxies API
   slug: thousandeyes-endpoint-proxies-api
-- description: The Endpoint Real User Tests API from ThousandEyes — 1 operation(s) for endpoint real user tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Real User Tests API from ThousandEyes — 1 operation(s) for endpoint real user tests.
   name: ThousandEyes Endpoint Real User Tests API
   slug: thousandeyes-endpoint-real-user-tests-api
-- description: The Endpoint Scheduled Tests API from ThousandEyes — 1 operation(s) for endpoint scheduled tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Endpoint Scheduled Tests API from ThousandEyes — 1 operation(s) for endpoint scheduled tests.
   name: ThousandEyes Endpoint Scheduled Tests API
   slug: thousandeyes-endpoint-scheduled-tests-api
-- description: The Enterprise Agent Cluster API from ThousandEyes — 2 operation(s) for enterprise agent cluster.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Enterprise Agent Cluster API from ThousandEyes — 2 operation(s) for enterprise agent cluster.
   name: ThousandEyes Enterprise Agent Cluster API
   slug: thousandeyes-enterprise-agent-cluster-api
-- description: The Events API from ThousandEyes — 2 operation(s) for events.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Events API from ThousandEyes — 2 operation(s) for events.
   name: ThousandEyes Events API
   slug: thousandeyes-events-api
-- description: The FTP Server Instant Tests API from ThousandEyes — 1 operation(s) for ftp server instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The FTP Server Instant Tests API from ThousandEyes — 1 operation(s) for ftp server instant tests.
   name: ThousandEyes FTP Server Instant Tests API
   slug: thousandeyes-ftp-server-instant-tests-api
-- description: FTP Server test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: FTP Server test management operations
   name: ThousandEyes FTP Server Tests API
   slug: thousandeyes-ftp-server-tests-api
-- description: A generic connector represents an instance of a third-party service that you can integrate with the ThousandEyes platform.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: A generic connector represents an instance of a third-party service that you can integrate with the ThousandEyes platform.
   name: ThousandEyes Generic Connectors API
   slug: thousandeyes-generic-connectors-api
-- description: The HTTP Page Load Instant Tests API from ThousandEyes — 1 operation(s) for http page load instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The HTTP Page Load Instant Tests API from ThousandEyes — 1 operation(s) for http page load instant tests.
   name: ThousandEyes HTTP Page Load Instant Tests API
   slug: thousandeyes-http-page-load-instant-tests-api
-- description: The HTTP Server Endpoint Instant Scheduled Tests API from ThousandEyes — 1 operation(s) for http server endpoint instant scheduled tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The HTTP Server Endpoint Instant Scheduled Tests API from ThousandEyes — 1 operation(s) for http server endpoint instant scheduled tests.
   name: ThousandEyes HTTP Server Endpoint Instant Scheduled Tests API
   slug: thousandeyes-http-server-endpoint-instant-scheduled-tests-api
-- description: The HTTP Server Endpoint Scheduled Test Results API from ThousandEyes — 3 operation(s) for http server endpoint scheduled test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The HTTP Server Endpoint Scheduled Test Results API from ThousandEyes — 3 operation(s) for http server endpoint scheduled test results.
   name: ThousandEyes HTTP Server Endpoint Scheduled Test Results API
   slug: thousandeyes-http-server-endpoint-scheduled-test-results-api
-- description: The HTTP Server Endpoint Scheduled Tests API from ThousandEyes — 2 operation(s) for http server endpoint scheduled tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The HTTP Server Endpoint Scheduled Tests API from ThousandEyes — 2 operation(s) for http server endpoint scheduled tests.
   name: ThousandEyes HTTP Server Endpoint Scheduled Tests API
   slug: thousandeyes-http-server-endpoint-scheduled-tests-api
-- description: The HTTP Server Instant Tests API from ThousandEyes — 1 operation(s) for http server instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The HTTP Server Instant Tests API from ThousandEyes — 1 operation(s) for http server instant tests.
   name: ThousandEyes HTTP Server Instant Tests API
   slug: thousandeyes-http-server-instant-tests-api
-- description: HTTP Server test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: HTTP Server test management operations
   name: ThousandEyes HTTP Server Tests API
   slug: thousandeyes-http-server-tests-api
-- description: The Instant Tests API from ThousandEyes — 1 operation(s) for instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Instant Tests API from ThousandEyes — 1 operation(s) for instant tests.
   name: ThousandEyes Instant Tests API
   slug: thousandeyes-instant-tests-api
-- description: The Internet Insights Catalog Providers API from ThousandEyes — 2 operation(s) for internet insights catalog providers.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Internet Insights Catalog Providers API from ThousandEyes — 2 operation(s) for internet insights catalog providers.
   name: ThousandEyes Internet Insights Catalog Providers API
   slug: thousandeyes-internet-insights-catalog-providers-api
-- description: The Internet Insights Outages API from ThousandEyes — 3 operation(s) for internet insights outages.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Internet Insights Outages API from ThousandEyes — 3 operation(s) for internet insights outages.
   name: ThousandEyes Internet Insights Outages API
   slug: thousandeyes-internet-insights-outages-api
-- description: The Local Network Endpoint Test Results API from ThousandEyes — 3 operation(s) for local network endpoint test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Local Network Endpoint Test Results API from ThousandEyes — 3 operation(s) for local network endpoint test results.
   name: ThousandEyes Local Network Endpoint Test Results API
   slug: thousandeyes-local-network-endpoint-test-results-api
-- description: The Local Problems API from ThousandEyes — 1 operation(s) for local problems.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Local Problems API from ThousandEyes — 1 operation(s) for local problems.
   name: ThousandEyes Local Problems API
   slug: thousandeyes-local-problems-api
-- description: The Network BGP Test Results API from ThousandEyes — 2 operation(s) for network bgp test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Network BGP Test Results API from ThousandEyes — 2 operation(s) for network bgp test results.
   name: ThousandEyes Network BGP Test Results API
   slug: thousandeyes-network-bgp-test-results-api
-- description: The Network Dynamic Endpoint Test Results API from ThousandEyes — 3 operation(s) for network dynamic endpoint test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Network Dynamic Endpoint Test Results API from ThousandEyes — 3 operation(s) for network dynamic endpoint test results.
   name: ThousandEyes Network Dynamic Endpoint Test Results API
   slug: thousandeyes-network-dynamic-endpoint-test-results-api
-- description: The Network Endpoint Scheduled Test Results API from ThousandEyes — 4 operation(s) for network endpoint scheduled test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Network Endpoint Scheduled Test Results API from ThousandEyes — 4 operation(s) for network endpoint scheduled test results.
   name: ThousandEyes Network Endpoint Scheduled Test Results API
   slug: thousandeyes-network-endpoint-scheduled-test-results-api
-- description: The Network Test Results API from ThousandEyes — 3 operation(s) for network test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Network Test Results API from ThousandEyes — 3 operation(s) for network test results.
   name: ThousandEyes Network Test Results API
   slug: thousandeyes-network-test-results-api
-- description: Manage the connectors assigned to an operation.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Manage the connectors assigned to an operation.
   name: ThousandEyes Operation Connectors API
   slug: thousandeyes-operation-connectors-api
-- description: Page Load test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Page Load test management operations
   name: ThousandEyes Page Load Tests API
   slug: thousandeyes-page-load-tests-api
-- description: A Panorama connector represents an instance of Palo Alto Networks Panorama that you can integrate with the ThousandEyes platform.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: A Panorama connector represents an instance of Palo Alto Networks Panorama that you can integrate with the ThousandEyes platform.
   name: ThousandEyes Panorama Connectors API
   slug: thousandeyes-panorama-connectors-api
-- description: The Path Visualization Interface Groups API from ThousandEyes — 2 operation(s) for path visualization interface groups.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Path Visualization Interface Groups API from ThousandEyes — 2 operation(s) for path visualization interface groups.
   name: ThousandEyes Path Visualization Interface Groups API
   slug: thousandeyes-path-visualization-interface-groups-api
-- description: Permission GET operation
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Permission GET operation
   name: ThousandEyes Permissions API
   slug: thousandeyes-permissions-api
-- description: Quota CRUD Operation
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Quota CRUD Operation
   name: ThousandEyes Quotas API
   slug: thousandeyes-quotas-api
-- description: The Real User Endpoint Test Results API from ThousandEyes — 5 operation(s) for real user endpoint test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Real User Endpoint Test Results API from ThousandEyes — 5 operation(s) for real user endpoint test results.
   name: ThousandEyes Real User Endpoint Test Results API
   slug: thousandeyes-real-user-endpoint-test-results-api
-- description: Role CRUD operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Role CRUD operations
   name: ThousandEyes Roles API
   slug: thousandeyes-roles-api
-- description: The Run Endpoint Instant Scheduled Tests API from ThousandEyes — 1 operation(s) for run endpoint instant scheduled tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Run Endpoint Instant Scheduled Tests API from ThousandEyes — 1 operation(s) for run endpoint instant scheduled tests.
   name: ThousandEyes Run Endpoint Instant Scheduled Tests API
   slug: thousandeyes-run-endpoint-instant-scheduled-tests-api
-- description: The SIP Server Instant Tests API from ThousandEyes — 1 operation(s) for sip server instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The SIP Server Instant Tests API from ThousandEyes — 1 operation(s) for sip server instant tests.
   name: ThousandEyes SIP Server Instant Tests API
   slug: thousandeyes-sip-server-instant-tests-api
-- description: SIP Server test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: SIP Server test management operations
   name: ThousandEyes SIP Server Tests API
   slug: thousandeyes-sip-server-tests-api
-- description: Configure data streaming
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Configure data streaming
   name: ThousandEyes Streaming API
   slug: thousandeyes-streaming-api
-- description: Assign tags to other objects
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Assign tags to other objects
   name: ThousandEyes Tag Assignment API
   slug: thousandeyes-tag-assignment-api
-- description: Tag CRUD Operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Tag CRUD Operations
   name: ThousandEyes Tags API
   slug: thousandeyes-tags-api
-- description: The Templates API from ThousandEyes — 4 operation(s) for templates.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Templates API from ThousandEyes — 4 operation(s) for templates.
   name: ThousandEyes Templates API
   slug: thousandeyes-templates-api
-- description: The Test Snapshots API from ThousandEyes — 1 operation(s) for test snapshots.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Test Snapshots API from ThousandEyes — 1 operation(s) for test snapshots.
   name: ThousandEyes Test Snapshots API
   slug: thousandeyes-test-snapshots-api
-- description: Get all tests
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Get all tests
   name: ThousandEyes Tests API
   slug: thousandeyes-tests-api
-- description: The Tests Assignment on Agents API from ThousandEyes — 3 operation(s) for tests assignment on agents.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Tests Assignment on Agents API from ThousandEyes — 3 operation(s) for tests assignment on agents.
   name: ThousandEyes Tests Assignment on Agents API
   slug: thousandeyes-tests-assignment-on-agents-api
-- description: Usage GET Operation
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Usage GET Operation
   name: ThousandEyes Usage API
   slug: thousandeyes-usage-api
-- description: User events GET operation
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: User events GET operation
   name: ThousandEyes User Events API
   slug: thousandeyes-user-events-api
-- description: User CRUD operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: User CRUD operations
   name: ThousandEyes Users API
   slug: thousandeyes-users-api
-- description: The Voice Instant Tests API from ThousandEyes — 1 operation(s) for voice instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Voice Instant Tests API from ThousandEyes — 1 operation(s) for voice instant tests.
   name: ThousandEyes Voice Instant Tests API
   slug: thousandeyes-voice-instant-tests-api
-- description: The Voice RTP Server Test Results API from ThousandEyes — 1 operation(s) for voice rtp server test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Voice RTP Server Test Results API from ThousandEyes — 1 operation(s) for voice rtp server test results.
   name: ThousandEyes Voice RTP Server Test Results API
   slug: thousandeyes-voice-rtp-server-test-results-api
-- description: The Voice SIP Server Test Results API from ThousandEyes — 1 operation(s) for voice sip server test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Voice SIP Server Test Results API from ThousandEyes — 1 operation(s) for voice sip server test results.
   name: ThousandEyes Voice SIP Server Test Results API
   slug: thousandeyes-voice-sip-server-test-results-api
-- description: Voice test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Voice test management operations
   name: ThousandEyes Voice Tests API
   slug: thousandeyes-voice-tests-api
-- description: The Web FTP Server Test Results API from ThousandEyes — 1 operation(s) for web ftp server test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Web FTP Server Test Results API from ThousandEyes — 1 operation(s) for web ftp server test results.
   name: ThousandEyes Web FTP Server Test Results API
   slug: thousandeyes-web-ftp-server-test-results-api
-- description: The Web HTTP Server Test Results API from ThousandEyes — 1 operation(s) for web http server test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Web HTTP Server Test Results API from ThousandEyes — 1 operation(s) for web http server test results.
   name: ThousandEyes Web HTTP Server Test Results API
   slug: thousandeyes-web-http-server-test-results-api
-- description: The Web Page Load Test Results API from ThousandEyes — 2 operation(s) for web page load test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Web Page Load Test Results API from ThousandEyes — 2 operation(s) for web page load test results.
   name: ThousandEyes Web Page Load Test Results API
   slug: thousandeyes-web-page-load-test-results-api
-- description: The Web Transaction Instant Tests API from ThousandEyes — 1 operation(s) for web transaction instant tests.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Web Transaction Instant Tests API from ThousandEyes — 1 operation(s) for web transaction instant tests.
   name: ThousandEyes Web Transaction Instant Tests API
   slug: thousandeyes-web-transaction-instant-tests-api
-- description: Web Transactions test management operations
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Web Transactions test management operations
   name: ThousandEyes Web Transaction Tests API
   slug: thousandeyes-web-transaction-tests-api
-- description: The Web Transactions Test Results API from ThousandEyes — 4 operation(s) for web transactions test results.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: The Web Transactions Test Results API from ThousandEyes — 4 operation(s) for web transactions test results.
   name: ThousandEyes Web Transactions Test Results API
   slug: thousandeyes-web-transactions-test-results-api
-- description: Webhook operations allow you to customize the payload of generic connectors.
+- baseURL: https://api.thousandeyes.com/v7
+  baseurl_source: declared
+  description: Webhook operations allow you to customize the payload of generic connectors.
   name: ThousandEyes Webhook Operations API
   slug: thousandeyes-webhook-operations-api
 artifact_total: 107
@@ -665,21 +875,21 @@ score:
   band: exemplar
   composite: 67.4
   coverage:
-    artifact_dirs: 22
-    catalog_gap: 54.0
+    artifact_dirs: 23
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 4.5
-    contract_quality: 62.4
+    contract_quality: 65.8
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 67.7
+  previous_composite: 67.4
   provenance:
     conformance: derived
     contracts:
@@ -690,8 +900,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thousandeyes/refs/heads/main/screenshots/thousandeyes-2026-09-02T163600.png
 security:
 - kind: authentication
   name: Thousandeyes Authentication

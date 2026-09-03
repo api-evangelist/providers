@@ -10,41 +10,119 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
-api_count: 1
+  score: 23.2
+  scored_at: '2026-09-02'
+api_count: 3
 apis:
-- description: Amphenol designs, manufactures, and markets electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables. The company does not currently publish a public dev
+- description: 'Amphenol designs, manufactures, and markets electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables. The corporate host runs no developer programme: no '
   name: Amphenol Website
   slug: website
-artifact_total: 24
+- description: An undocumented but live and fully anonymous JSON endpoint that backs Amphenol Industrial's own Parts Search page. GET /search?searchTerm=<part> returns {total, rows[]} where each row is one authorise
+  name: Amphenol Industrial Parts Direct Search API
+  slug: parts-direct-search
+- description: A live Model Context Protocol resource served by Amphenol's automotive division, discovered through RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata at that host's well-
+  name: Amphenol Automotive MCP Server
+  slug: automotive-mcp
+artifact_total: 29
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amphenol.com/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/amphenol-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amphenol-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/amphenol-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amphenol-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amphenol-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/amphenol-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/amphenol-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/amphenol-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/amphenol-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/amphenol-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amphenol-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amphenol-lifecycle.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amphenol-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amphenol-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/amphenol-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/amphenol-vocabulary.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AmphenolAdvancedSensors
+- group: company
+  title: ''
+  type: Blog
+  url: https://amphenol-industrial.com/news/
 - group: start
   title: ''
   type: Portal
@@ -64,7 +142,7 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/amphenol-corporation
+  url: https://www.linkedin.com/company/amphenol
 created: '2024-01-01'
 description: Amphenol is one of the world's largest designers, manufacturers, and marketers of electrical, electronic, and fiber optic connectors, interconnect systems, antennas, sensors, and cables used across military-aerospace, industrial, automotive, information technology, mobile phones, wireless infrastructure, broadband, medical device, and professional audio markets worldwide.
 features:
@@ -104,17 +182,21 @@ jsonld:
   property_count: 18
   slug: amphenol-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: Amphenol Automotive (amphenol-automotive.com) runs a live, remotely reachable Model Context Protocol server. It was not found in any documentation — it was discovered by probing /.well-known/oauth-aut
+  name: Amphenol Automotive MCP Server
+  slug: amphenol-automotive-mcp-server
+modified: '2026-09-02'
 name: Amphenol
 nav: Providers
 network: true
-overview: 'Amphenol publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electronic Connectors, Interconnect Systems, Fiber Optics, Sensors, and Aerospace.
+overview: 'Amphenol publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Electronic Connectors, Interconnect Systems, Fiber Optics, Sensors, and Aerospace.
 
 
   The Amphenol catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Amphenol''s developer surface includes developer portal, support, and 4 more developer resources.'
+  Amphenol''s developer surface includes authentication, engineering blog, developer portal, support, and 20 more developer resources.'
 plans:
 - name: Amphenol Plans Pricing
   plan_count: 1
@@ -137,37 +219,49 @@ press:
   url: https://investors.amphenol.com/news-and-events/news-details/2025/Amphenol-Corporation-Completes-Acquisition-of-OWN-and-DAS-Businesses-From-CommScope/default.aspx
 random_paper: 12
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Amphenol Rate Limits
   slug: amphenol-rate-limits
+scopes:
+- name: Amphenol Scopes
+  scope_count: 0
+  slug: amphenol-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 20.9
+  band: thin
+  composite: 28.3
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 60.0
+    artifact_dirs: 21
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 0.0
+    contract_governance: 33.3
     contract_quality: 14.7
-    developer_ergonomics: 14.3
-    discoverability: 68.5
-    governance: 0.0
+    developer_ergonomics: 28.6
+    discoverability: 74.1
+    governance: 33.3
     operational_transparency: 5.3
   previous_composite: 20.9
+  provenance:
+    conformance: first-party
+    mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amphenol/refs/heads/main/screenshots/amphenol-2026-06-20T171939.png
 security:
+- kind: authentication
+  name: Amphenol Authentication
+  slug: amphenol-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Amphenol Domain Security
   slug: amphenol-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: amphenol
 tags:
 - Electronic Connectors
@@ -192,5 +286,5 @@ use_cases:
   name: Industrial Automation
 - description: Provide reliable electrical connections for medical imaging, patient monitoring, and surgical equipment requiring biocompatible materials.
   name: Medical Device Integration
-website: https://www.amphenol.com
+website: https://www.amphenol.com/
 ---

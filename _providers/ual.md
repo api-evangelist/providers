@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 2
 apis:
-- description: The Authentication API from Ualá — 1 operation(s) for authentication.
+- baseURL: https://checkout.developers.ar.ua.la/v2/api
+  baseurl_source: declared
+  description: The Authentication API from Ualá — 1 operation(s) for authentication.
   name: Ualá Authentication API
   slug: ual-authentication-api
-- description: Payment orders (checkout)
+- baseURL: https://checkout.developers.ar.ua.la/v2/api
+  baseurl_source: declared
+  description: Payment orders (checkout)
   name: Ualá Orders API
   slug: ual-orders-api
-- description: Refunds of approved orders
+- baseURL: https://checkout.developers.ar.ua.la/v2/api
+  baseurl_source: declared
+  description: Refunds of approved orders
   name: Ualá Refunds API
   slug: ual-refunds-api
-- description: The Ualá Bis API Cobros Online V2 API from Ualá — 0 operation(s) for ualá bis api cobros online v2.
+- baseURL: https://checkout.developers.ar.ua.la/v2/api
+  baseurl_source: declared
+  description: The Ualá Bis API Cobros Online V2 API from Ualá — 0 operation(s) for ualá bis api cobros online v2.
   name: Ualá Ualá Bis API Cobros Online V2 API
   slug: ual-ual-bis-api-cobros-online-v2-api
 artifact_total: 13
@@ -250,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png
 security:

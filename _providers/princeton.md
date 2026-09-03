@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'Open, REST-style API providing developer access to data about the Princeton University Art Museum and its collections. Four surfaces: objects (with a label-level /tombstone sub-resource and filtering '
+- baseURL: https://data.artmuseum.princeton.edu
+  baseurl_source: declared
+  description: 'Open, REST-style API providing developer access to data about the Princeton University Art Museum and its collections. Four surfaces: objects (with a label-level /tombstone sub-resource and filtering '
   name: Princeton University Art Museum API
   slug: art-museum-api
 - description: Princeton's Office of Information Technology enterprise API gateway, running WSO2 API Manager. Fronts institutional APIs — ActiveDirectory user and group lookups, PrincetonInfo departmental data, a Mo
@@ -75,55 +77,89 @@ apis:
 - description: Princeton's learning management system is Instructure Canvas at princeton.instructure.com. The host is live behind a Cloudflare interstitial (403 to non-browser clients). Any Canvas REST API, LTI conf
   name: Canvas LMS — Princeton tenancy
   slug: canvas-tenancy
-- description: The Article API from Princeton University — 1 operation(s) for article.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Article API from Princeton University — 1 operation(s) for article.
   name: Princeton University Article API
   slug: princeton-article-api
-- description: The Banner API from Princeton University — 1 operation(s) for banner.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Banner API from Princeton University — 1 operation(s) for banner.
   name: Princeton University Banner API
   slug: princeton-banner-api
-- description: The Best Bets API from Princeton University — 1 operation(s) for best bets.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Best Bets API from Princeton University — 1 operation(s) for best bets.
   name: Princeton University Best Bets API
   slug: princeton-best-bets-api
-- description: The Catalog API from Princeton University — 1 operation(s) for catalog.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Catalog API from Princeton University — 1 operation(s) for catalog.
   name: Princeton University Catalog API
   slug: princeton-catalog-api
-- description: The Dpul API from Princeton University — 1 operation(s) for dpul.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Dpul API from Princeton University — 1 operation(s) for dpul.
   name: Princeton University Dpul API
   slug: princeton-dpul-api
-- description: The Findingaids API from Princeton University — 1 operation(s) for findingaids.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Findingaids API from Princeton University — 1 operation(s) for findingaids.
   name: Princeton University Findingaids API
   slug: princeton-findingaids-api
-- description: The Journals API from Princeton University — 1 operation(s) for journals.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Journals API from Princeton University — 1 operation(s) for journals.
   name: Princeton University Journals API
   slug: princeton-journals-api
-- description: The Libanswers API from Princeton University — 1 operation(s) for libanswers.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Libanswers API from Princeton University — 1 operation(s) for libanswers.
   name: Princeton University Libanswers API
   slug: princeton-libanswers-api
-- description: The Libguides API from Princeton University — 1 operation(s) for libguides.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Libguides API from Princeton University — 1 operation(s) for libguides.
   name: Princeton University Libguides API
   slug: princeton-libguides-api
-- description: The Library Databases API from Princeton University — 1 operation(s) for library databases.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Library Databases API from Princeton University — 1 operation(s) for library databases.
   name: Princeton University Library Databases API
   slug: princeton-library-databases-api
-- description: The Library Staff API from Princeton University — 1 operation(s) for library staff.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Library Staff API from Princeton University — 1 operation(s) for library staff.
   name: Princeton University Library Staff API
   slug: princeton-library-staff-api
-- description: The Library Website API from Princeton University — 1 operation(s) for library website.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Library Website API from Princeton University — 1 operation(s) for library website.
   name: Princeton University Library Website API
   slug: princeton-library-website-api
-- description: Artists, cultural groups and other makers.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: Artists, cultural groups and other makers.
   name: Princeton University Makers API
   slug: princeton-makers-api
-- description: Art objects in the Museum's collection.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: Art objects in the Museum's collection.
   name: Princeton University Objects API
   slug: princeton-objects-api
-- description: Curated groupings of collection material.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: Curated groupings of collection material.
   name: Princeton University Packages API
   slug: princeton-packages-api
-- description: The Pulmap API from Princeton University — 1 operation(s) for pulmap.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: The Pulmap API from Princeton University — 1 operation(s) for pulmap.
   name: Princeton University Pulmap API
   slug: princeton-pulmap-api
-- description: Full-text search across all collection data types.
+- baseURL: https://allsearch-api.princeton.edu
+  baseurl_source: declared
+  description: Full-text search across all collection data types.
   name: Princeton University Search API
   slug: princeton-search-api
 artifact_total: 46
@@ -308,7 +344,7 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -318,7 +354,7 @@ score:
     discoverability: 44.4
     governance: 29.5
     operational_transparency: 23.7
-  previous_composite: 41.0
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     contracts:
@@ -333,7 +369,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/screenshots/princeton-2026-06-20T192107.png
 security:

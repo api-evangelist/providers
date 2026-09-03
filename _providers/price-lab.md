@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 35 operations · 20 acting
 api_count: 1
 apis:
-- description: The Authentication API from Price Lab — 2 operation(s) for authentication.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Authentication API from Price Lab — 2 operation(s) for authentication.
   name: Price Lab Authentication API
   slug: price-lab-authentication-api
-- description: The Categories API from Price Lab — 2 operation(s) for categories.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Categories API from Price Lab — 2 operation(s) for categories.
   name: Price Lab Categories API
   slug: price-lab-categories-api
-- description: The Competitor Pricing API from Price Lab — 4 operation(s) for competitor pricing.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Competitor Pricing API from Price Lab — 4 operation(s) for competitor pricing.
   name: Price Lab Competitor Pricing API
   slug: price-lab-competitor-pricing-api
-- description: The Data Import API from Price Lab — 1 operation(s) for data import.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Data Import API from Price Lab — 1 operation(s) for data import.
   name: Price Lab Data Import API
   slug: price-lab-data-import-api
-- description: The Electronic Price Tags API from Price Lab — 6 operation(s) for electronic price tags.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Electronic Price Tags API from Price Lab — 6 operation(s) for electronic price tags.
   name: Price Lab Electronic Price Tags API
   slug: price-lab-electronic-price-tags-api
-- description: The Price Management API from Price Lab — 5 operation(s) for price management.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Price Management API from Price Lab — 5 operation(s) for price management.
   name: Price Lab Price Management API
   slug: price-lab-price-management-api
-- description: The Products API from Price Lab — 6 operation(s) for products.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Products API from Price Lab — 6 operation(s) for products.
   name: Price Lab Products API
   slug: price-lab-products-api
-- description: The Recommendations API from Price Lab — 3 operation(s) for recommendations.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Recommendations API from Price Lab — 3 operation(s) for recommendations.
   name: Price Lab Recommendations API
   slug: price-lab-recommendations-api
-- description: The Users API from Price Lab — 1 operation(s) for users.
+- baseURL: https://backend.pricelab.com.pe/api
+  baseurl_source: declared
+  description: The Users API from Price Lab — 1 operation(s) for users.
   name: Price Lab Users API
   slug: price-lab-users-api
 artifact_total: 23
@@ -216,7 +234,7 @@ score:
   band: thin
   composite: 33.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -242,8 +260,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/screenshots/price-lab-2026-09-02T152006.png
 security:
 - kind: authentication
   name: Price Lab Authentication

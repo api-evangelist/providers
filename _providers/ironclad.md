@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: The Ironclad Clickwrap (formerly PactSafe) API delivers programmatic clickwrap and browsewrap acceptance tracking for online agreements — terms of service, privacy policies, EULAs, and checkout-flow a
   name: Ironclad Clickwrap API
   slug: ironclad-clickwrap-api
-- description: OAuth 2.0 authorization endpoints for token management and user authentication.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints for token management and user authentication.
   name: Ironclad Authorization API
   slug: ironclad-authorization-api
-- description: Documentation on Ironclad Entities.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Entities.
   name: Ironclad Entities API
   slug: ironclad-entities-api
-- description: Documentation on Ironclad Data Exports.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Data Exports.
   name: Ironclad Exports API
   slug: ironclad-exports-api
-- description: Documentation on SCIM Groups.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on SCIM Groups.
   name: Ironclad Groups API
   slug: ironclad-groups-api
-- description: Documentation on Ironclad Obligations.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Obligations.
   name: Ironclad Obligations API
   slug: ironclad-obligations-api
-- description: Documentation on Ironclad Records.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Records.
   name: Ironclad Records API
   slug: ironclad-records-api
-- description: Resource access endpoints for retrieving user information and token details.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Resource access endpoints for retrieving user information and token details.
   name: Ironclad Resources API
   slug: ironclad-resources-api
-- description: Documentation on SCIM Schemas.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on SCIM Schemas.
   name: Ironclad Schemas API
   slug: ironclad-schemas-api
-- description: Documentation on Ironclad Search.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Search.
   name: Ironclad Search API
   slug: ironclad-search-api
-- description: Documentation on SCIM Users.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on SCIM Users.
   name: Ironclad Users API
   slug: ironclad-users-api
-- description: Documentation on Ironclad Webhooks.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Webhooks.
   name: Ironclad Webhooks API
   slug: ironclad-webhooks-api
-- description: Documentation on Ironclad Workflows.
+- baseURL: https://na1.ironcladapp.com/public/api/v1
+  baseurl_source: declared
+  description: Documentation on Ironclad Workflows.
   name: Ironclad Workflows API
   slug: ironclad-workflows-api
 arazzos:
@@ -523,7 +547,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:

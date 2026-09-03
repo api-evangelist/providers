@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -50,67 +50,109 @@ apis:
 - description: The X Activity API provides real-time activity event subscriptions with sub-second delivery via streaming or webhooks. Subscribe to profile updates, follows, likes, reposts, and other user activity ev
   name: X Activity API
   slug: x-activity-api
-- description: Endpoints relating to retrieving, managing AAA subscriptions
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints relating to retrieving, managing AAA subscriptions
   name: X (Twitter) Account Activity API
   slug: twitter-account-activity-api
-- description: The Activity API from X (Twitter) — 3 operation(s) for activity.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Activity API from X (Twitter) — 3 operation(s) for activity.
   name: X (Twitter) Activity API
   slug: twitter-activity-api
-- description: Endpoints related to retrieving, managing bookmarks of a user
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing bookmarks of a user
   name: X (Twitter) Bookmarks API
   slug: twitter-bookmarks-api
-- description: The Chat API from X (Twitter) — 15 operation(s) for chat.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Chat API from X (Twitter) — 15 operation(s) for chat.
   name: X (Twitter) Chat API
   slug: twitter-chat-api
-- description: The Communities API from X (Twitter) — 2 operation(s) for communities.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Communities API from X (Twitter) — 2 operation(s) for communities.
   name: X (Twitter) Communities API
   slug: twitter-communities-api
-- description: The Community Notes API from X (Twitter) — 5 operation(s) for community notes.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Community Notes API from X (Twitter) — 5 operation(s) for community notes.
   name: X (Twitter) Community Notes API
   slug: twitter-community-notes-api
-- description: Endpoints related to keeping X data in your systems compliant
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to keeping X data in your systems compliant
   name: X (Twitter) Compliance API
   slug: twitter-compliance-api
-- description: Endpoints related to streaming connections
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to streaming connections
   name: X (Twitter) Connections API
   slug: twitter-connections-api
-- description: Endpoints related to retrieving, managing Direct Messages
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Direct Messages
   name: X (Twitter) Direct Messages API
   slug: twitter-direct-messages-api
-- description: Miscellaneous endpoints for general API functionality
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Miscellaneous endpoints for general API functionality
   name: X (Twitter) General API
   slug: twitter-general-api
-- description: The Likes API from X (Twitter) — 2 operation(s) for likes.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Likes API from X (Twitter) — 2 operation(s) for likes.
   name: X (Twitter) Likes API
   slug: twitter-likes-api
-- description: Endpoints related to retrieving, managing Lists
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Lists
   name: X (Twitter) Lists API
   slug: twitter-lists-api
-- description: Endpoints related to Media
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to Media
   name: X (Twitter) Media API
   slug: twitter-media-api
-- description: Endpoint for retrieving news stories
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoint for retrieving news stories
   name: X (Twitter) News API
   slug: twitter-news-api
-- description: Endpoints related to retrieving, managing Spaces
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Spaces
   name: X (Twitter) Spaces API
   slug: twitter-spaces-api
-- description: Endpoints related to streaming
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to streaming
   name: X (Twitter) Stream API
   slug: twitter-stream-api
-- description: The Trends API from X (Twitter) — 2 operation(s) for trends.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Trends API from X (Twitter) — 2 operation(s) for trends.
   name: X (Twitter) Trends API
   slug: twitter-trends-api
-- description: Endpoints related to retrieving, searching, and modifying Tweets
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to retrieving, searching, and modifying Tweets
   name: X (Twitter) Tweets API
   slug: twitter-tweets-api
-- description: The Usage API from X (Twitter) — 1 operation(s) for usage.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Usage API from X (Twitter) — 1 operation(s) for usage.
   name: X (Twitter) Usage API
   slug: twitter-usage-api
-- description: Endpoints related to retrieving, managing relationships of Users
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing relationships of Users
   name: X (Twitter) Users API
   slug: twitter-users-api
-- description: The Webhooks API from X (Twitter) — 5 operation(s) for webhooks.
+- baseURL: https://api.x.com/2
+  baseurl_source: declared
+  description: The Webhooks API from X (Twitter) — 5 operation(s) for webhooks.
   name: X (Twitter) Webhooks API
   slug: twitter-webhooks-api
 arazzos:
@@ -814,7 +856,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-08-17T130216.png
 security:

@@ -33,73 +33,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The apps API from Replicated — 17 operation(s) for apps.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The apps API from Replicated — 17 operation(s) for apps.
   name: Replicated apps API
   slug: replicated-apps-api
-- description: The channelReleases API from Replicated — 7 operation(s) for channelreleases.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The channelReleases API from Replicated — 7 operation(s) for channelreleases.
   name: Replicated channelReleases API
   slug: replicated-channelreleases-api
-- description: The channels API from Replicated — 7 operation(s) for channels.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The channels API from Replicated — 7 operation(s) for channels.
   name: Replicated channels API
   slug: replicated-channels-api
-- description: The clusterAddons API from Replicated — 3 operation(s) for clusteraddons.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The clusterAddons API from Replicated — 3 operation(s) for clusteraddons.
   name: Replicated clusterAddons API
   slug: replicated-clusteraddons-api
-- description: The clusters API from Replicated — 18 operation(s) for clusters.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The clusters API from Replicated — 18 operation(s) for clusters.
   name: Replicated clusters API
   slug: replicated-clusters-api
-- description: The cmx API from Replicated — 5 operation(s) for cmx.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The cmx API from Replicated — 5 operation(s) for cmx.
   name: Replicated cmx API
   slug: replicated-cmx-api
-- description: The customers API from Replicated — 11 operation(s) for customers.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The customers API from Replicated — 11 operation(s) for customers.
   name: Replicated customers API
   slug: replicated-customers-api
-- description: The customHostnames API from Replicated — 4 operation(s) for customhostnames.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The customHostnames API from Replicated — 4 operation(s) for customhostnames.
   name: Replicated customHostnames API
   slug: replicated-customhostnames-api
-- description: The enterprisePortal API from Replicated — 27 operation(s) for enterpriseportal.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The enterprisePortal API from Replicated — 27 operation(s) for enterpriseportal.
   name: Replicated enterprisePortal API
   slug: replicated-enterpriseportal-api
-- description: The externalRegistries API from Replicated — 6 operation(s) for externalregistries.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The externalRegistries API from Replicated — 6 operation(s) for externalregistries.
   name: Replicated externalRegistries API
   slug: replicated-externalregistries-api
-- description: The instances API from Replicated — 10 operation(s) for instances.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The instances API from Replicated — 10 operation(s) for instances.
   name: Replicated instances API
   slug: replicated-instances-api
-- description: The networks API from Replicated — 3 operation(s) for networks.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The networks API from Replicated — 3 operation(s) for networks.
   name: Replicated networks API
   slug: replicated-networks-api
-- description: The notifications API from Replicated — 10 operation(s) for notifications.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The notifications API from Replicated — 10 operation(s) for notifications.
   name: Replicated notifications API
   slug: replicated-notifications-api
-- description: The policy API from Replicated — 3 operation(s) for policy.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The policy API from Replicated — 3 operation(s) for policy.
   name: Replicated policy API
   slug: replicated-policy-api
-- description: The registry API from Replicated — 1 operation(s) for registry.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The registry API from Replicated — 1 operation(s) for registry.
   name: Replicated registry API
   slug: replicated-registry-api
-- description: The releases API from Replicated — 13 operation(s) for releases.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The releases API from Replicated — 13 operation(s) for releases.
   name: Replicated releases API
   slug: replicated-releases-api
-- description: The supportBundle API from Replicated — 14 operation(s) for supportbundle.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The supportBundle API from Replicated — 14 operation(s) for supportbundle.
   name: Replicated supportBundle API
   slug: replicated-supportbundle-api
-- description: The team API from Replicated — 11 operation(s) for team.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The team API from Replicated — 11 operation(s) for team.
   name: Replicated team API
   slug: replicated-team-api
-- description: The telemetry API from Replicated — 3 operation(s) for telemetry.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The telemetry API from Replicated — 3 operation(s) for telemetry.
   name: Replicated telemetry API
   slug: replicated-telemetry-api
-- description: The user API from Replicated — 2 operation(s) for user.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The user API from Replicated — 2 operation(s) for user.
   name: Replicated user API
   slug: replicated-user-api
-- description: The vmAddons API from Replicated — 1 operation(s) for vmaddons.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The vmAddons API from Replicated — 1 operation(s) for vmaddons.
   name: Replicated vmAddons API
   slug: replicated-vmaddons-api
-- description: The vms API from Replicated — 8 operation(s) for vms.
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The vms API from Replicated — 8 operation(s) for vms.
   name: Replicated vms API
   slug: replicated-vms-api
 artifact_total: 73
@@ -420,7 +464,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -430,7 +474,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 58.9
+  previous_composite: 58.7
   provenance:
     conformance: first-party
     contracts:
@@ -441,7 +485,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicated/refs/heads/main/screenshots/replicated-2026-08-17T081526.png
 security:

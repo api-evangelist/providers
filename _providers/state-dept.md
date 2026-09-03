@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Detailed country-specific travel information covering transportation, entry requirements, local laws, health, safety, and embassy contacts
+- baseURL: https://cadataapi.state.gov
+  baseurl_source: declared
+  description: Detailed country-specific travel information covering transportation, entry requirements, local laws, health, safety, and embassy contacts
   name: State Department Country Information API
   slug: state-dept-country-information-api
-- description: Passport acceptance facility locations across the United States, searchable by state, ZIP code, radius, or geographic coordinates
+- baseURL: https://cadataapi.state.gov
+  baseurl_source: declared
+  description: Passport acceptance facility locations across the United States, searchable by state, ZIP code, radius, or geographic coordinates
   name: State Department Passport Locations API
   slug: state-dept-passport-locations-api
-- description: Current US Department of State travel advisories for countries worldwide, with alert levels ranging from 1 (Exercise Normal Precautions) to 4 (Do Not Travel)
+- baseURL: https://cadataapi.state.gov
+  baseurl_source: declared
+  description: Current US Department of State travel advisories for countries worldwide, with alert levels ranging from 1 (Exercise Normal Precautions) to 4 (Do Not Travel)
   name: State Department Travel Advisories API
   slug: state-dept-travel-advisories-api
 artifact_total: 19
@@ -205,7 +211,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-dept/refs/heads/main/screenshots/state-dept-2026-06-20T194519.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -40,76 +53,124 @@ apis:
 - description: Roboflow's hosted, remote Model Context Protocol server. Exposes 67 tools across agent chat, projects, images, annotation, batches, dataset versions, model training, model evaluations, Workflows, edge
   name: Roboflow MCP Server
   slug: mcp
-- description: The Clip API from Roboflow — 3 operation(s) for clip.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Clip API from Roboflow — 3 operation(s) for clip.
   name: Roboflow Clip API
   slug: roboflow-clip-api
-- description: The Dashboard.html API from Roboflow — 1 operation(s) for dashboard.html.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Dashboard.html API from Roboflow — 1 operation(s) for dashboard.html.
   name: Roboflow Dashboard.html API
   slug: roboflow-dashboard-html-api
-- description: The Doctr API from Roboflow — 1 operation(s) for doctr.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Doctr API from Roboflow — 1 operation(s) for doctr.
   name: Roboflow Doctr API
   slug: roboflow-doctr-api
-- description: The Easy Ocr API from Roboflow — 1 operation(s) for easy ocr.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Easy Ocr API from Roboflow — 1 operation(s) for easy ocr.
   name: Roboflow Easy Ocr API
   slug: roboflow-easy-ocr-api
-- description: The Gaze API from Roboflow — 1 operation(s) for gaze.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Gaze API from Roboflow — 1 operation(s) for gaze.
   name: Roboflow Gaze API
   slug: roboflow-gaze-api
-- description: The Grounding Dino API from Roboflow — 1 operation(s) for grounding dino.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Grounding Dino API from Roboflow — 1 operation(s) for grounding dino.
   name: Roboflow Grounding Dino API
   slug: roboflow-grounding-dino-api
-- description: The Healthz API from Roboflow — 1 operation(s) for healthz.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Healthz API from Roboflow — 1 operation(s) for healthz.
   name: Roboflow Healthz API
   slug: roboflow-healthz-api
-- description: The Infer API from Roboflow — 4 operation(s) for infer.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Infer API from Roboflow — 4 operation(s) for infer.
   name: Roboflow Infer API
   slug: roboflow-infer-api
-- description: The Info API from Roboflow — 1 operation(s) for info.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Info API from Roboflow — 1 operation(s) for info.
   name: Roboflow Info API
   slug: roboflow-info-api
-- description: The Initialise Webrtc Worker API from Roboflow — 1 operation(s) for initialise webrtc worker.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Initialise Webrtc Worker API from Roboflow — 1 operation(s) for initialise webrtc worker.
   name: Roboflow Initialise Webrtc Worker API
   slug: roboflow-initialise-webrtc-worker-api
-- description: The Logs API from Roboflow — 1 operation(s) for logs.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Logs API from Roboflow — 1 operation(s) for logs.
   name: Roboflow Logs API
   slug: roboflow-logs-api
-- description: The Metrics API from Roboflow — 1 operation(s) for metrics.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Metrics API from Roboflow — 1 operation(s) for metrics.
   name: Roboflow Metrics API
   slug: roboflow-metrics-api
-- description: The Model API from Roboflow — 1 operation(s) for model.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Model API from Roboflow — 1 operation(s) for model.
   name: Roboflow Model API
   slug: roboflow-model-api
-- description: The Ocr API from Roboflow — 2 operation(s) for ocr.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Ocr API from Roboflow — 2 operation(s) for ocr.
   name: Roboflow Ocr API
   slug: roboflow-ocr-api
-- description: The Owlv2 API from Roboflow — 1 operation(s) for owlv2.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Owlv2 API from Roboflow — 1 operation(s) for owlv2.
   name: Roboflow Owlv2 API
   slug: roboflow-owlv2-api
-- description: The Perception Encoder API from Roboflow — 3 operation(s) for perception encoder.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Perception Encoder API from Roboflow — 3 operation(s) for perception encoder.
   name: Roboflow Perception Encoder API
   slug: roboflow-perception-encoder-api
-- description: The Readiness API from Roboflow — 1 operation(s) for readiness.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Readiness API from Roboflow — 1 operation(s) for readiness.
   name: Roboflow Readiness API
   slug: roboflow-readiness-api
-- description: The Roboflow Inference Server API from Roboflow — 1 operation(s) for roboflow inference server.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Roboflow Inference Server API from Roboflow — 1 operation(s) for roboflow inference server.
   name: Roboflow Roboflow Inference Server API
   slug: roboflow-roboflow-inference-server-api
-- description: The Sam API from Roboflow — 2 operation(s) for sam.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Sam API from Roboflow — 2 operation(s) for sam.
   name: Roboflow Sam API
   slug: roboflow-sam-api
-- description: The Sam2 API from Roboflow — 2 operation(s) for sam2.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Sam2 API from Roboflow — 2 operation(s) for sam2.
   name: Roboflow Sam2 API
   slug: roboflow-sam2-api
-- description: The Sam3 3d API from Roboflow — 1 operation(s) for sam3 3d.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Sam3 3d API from Roboflow — 1 operation(s) for sam3 3d.
   name: Roboflow Sam3 3d API
   slug: roboflow-sam3-3d-api
-- description: The Sam3 API from Roboflow — 3 operation(s) for sam3.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Sam3 API from Roboflow — 3 operation(s) for sam3.
   name: Roboflow Sam3 API
   slug: roboflow-sam3-api
-- description: The Webrtc API from Roboflow — 2 operation(s) for webrtc.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Webrtc API from Roboflow — 2 operation(s) for webrtc.
   name: Roboflow Webrtc API
   slug: roboflow-webrtc-api
-- description: The Yolo World API from Roboflow — 1 operation(s) for yolo world.
+- baseURL: https://serverless.roboflow.com
+  baseurl_source: declared
+  description: The Yolo World API from Roboflow — 1 operation(s) for yolo world.
   name: Roboflow Yolo World API
   slug: roboflow-yolo-world-api
 artifact_total: 59
@@ -389,7 +450,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/screenshots/roboflow-2026-08-17T081621.png
 security:

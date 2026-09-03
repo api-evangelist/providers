@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'PyPI provides RSS feeds that allow developers and tools to monitor package activity on the Python Package Index. Three feeds are available: the Newest Packages feed for recently registered projects, t'
   name: PyPI RSS Feeds
   slug: feeds
-- description: Retrieve aggregate download statistics and time series data for Python packages.
+- baseURL: https://pypistats.org/api
+  baseurl_source: spec
+  description: Retrieve aggregate download statistics and time series data for Python packages.
   name: PyPI Downloads API
   slug: pypi-downloads-api
-- description: Retrieve metadata about Python packages hosted on PyPI, including release information, download URLs, and vulnerability data.
+- baseURL: https://pypi.org
+  baseurl_source: spec
+  description: Retrieve metadata about Python packages hosted on PyPI, including release information, download URLs, and vulnerability data.
   name: PyPI Projects API
   slug: pypi-projects-api
-- description: Retrieve digital attestations and provenance information for Python package distribution files hosted on PyPI.
+- baseURL: https://pypi.org
+  baseurl_source: spec
+  description: Retrieve digital attestations and provenance information for Python package distribution files hosted on PyPI.
   name: PyPI Provenance API
   slug: pypi-provenance-api
 artifact_total: 24
@@ -216,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/screenshots/pypi-2026-06-20T192329.png
 security:

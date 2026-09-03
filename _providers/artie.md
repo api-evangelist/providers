@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 60 operations · 48 acting
 api_count: 1
 apis:
-- description: The Column Hashing Salts API from Artie — 3 operation(s) for column hashing salts.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Column Hashing Salts API from Artie — 3 operation(s) for column hashing salts.
   name: Artie Column Hashing Salts API
   slug: artie-column-hashing-salts-api
-- description: The Connectors API from Artie — 14 operation(s) for connectors.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Connectors API from Artie — 14 operation(s) for connectors.
   name: Artie Connectors API
   slug: artie-connectors-api
-- description: The Data Catalog API from Artie — 1 operation(s) for data catalog.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Data Catalog API from Artie — 1 operation(s) for data catalog.
   name: Artie Data Catalog API
   slug: artie-data-catalog-api
-- description: The Encryption Keys API from Artie — 2 operation(s) for encryption keys.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Encryption Keys API from Artie — 2 operation(s) for encryption keys.
   name: Artie Encryption Keys API
   slug: artie-encryption-keys-api
-- description: The Ingestion API Keys API from Artie — 2 operation(s) for ingestion api keys.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Ingestion API Keys API from Artie — 2 operation(s) for ingestion api keys.
   name: Artie Ingestion API Keys API
   slug: artie-ingestion-api-keys-api
-- description: The Pipelines API from Artie — 10 operation(s) for pipelines.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Pipelines API from Artie — 10 operation(s) for pipelines.
   name: Artie Pipelines API
   slug: artie-pipelines-api
-- description: The PrivateLink Connections API from Artie — 2 operation(s) for privatelink connections.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The PrivateLink Connections API from Artie — 2 operation(s) for privatelink connections.
   name: Artie PrivateLink Connections API
   slug: artie-privatelink-connections-api
-- description: The Source Readers API from Artie — 5 operation(s) for source readers.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Source Readers API from Artie — 5 operation(s) for source readers.
   name: Artie Source Readers API
   slug: artie-source-readers-api
-- description: The SSH Tunnels API from Artie — 2 operation(s) for ssh tunnels.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The SSH Tunnels API from Artie — 2 operation(s) for ssh tunnels.
   name: Artie SSH Tunnels API
   slug: artie-ssh-tunnels-api
-- description: The Artie API API from Artie — 0 operation(s) for artie api.
+- baseURL: https://api.artie.com
+  baseurl_source: declared
+  description: The Artie API API from Artie — 0 operation(s) for artie api.
   name: Artie Artie API
   slug: artie-artie-api-api
 artifact_total: 25
@@ -266,7 +286,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -276,7 +296,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
 security:

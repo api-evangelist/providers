@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -55,13 +55,19 @@ apis:
 - description: Browser- and Node-side JavaScript / TypeScript SDK for building custom modules, custom views, and embedded experiences against Formant's real-time and historical data planes. Powers the UI Toolkit, cu
   name: Formant Data SDK (JavaScript / TypeScript)
   slug: formant-data-sdk
-- description: The Authentication API from Formant — 1 operation(s) for authentication.
+- baseURL: https://api.formant.io/v1/admin
+  baseurl_source: declared
+  description: The Authentication API from Formant — 1 operation(s) for authentication.
   name: Formant Authentication API
   slug: formant-authentication-api
-- description: The Commands API from Formant — 2 operation(s) for commands.
+- baseURL: https://api.formant.io/v1/admin
+  baseurl_source: declared
+  description: The Commands API from Formant — 2 operation(s) for commands.
   name: Formant Commands API
   slug: formant-commands-api
-- description: The Data Access API from Formant — 1 operation(s) for data access.
+- baseURL: https://api.formant.io/v1/admin
+  baseurl_source: declared
+  description: The Data Access API from Formant — 1 operation(s) for data access.
   name: Formant Data Access API
   slug: formant-data-access-api
 artifact_total: 96
@@ -547,7 +553,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formant/refs/heads/main/screenshots/formant-2026-06-20T181431.png
 security:

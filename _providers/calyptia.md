@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 1
@@ -43,127 +43,209 @@ agentic_access:
   summary_line: 183 operations · 99 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The agent API from Calyptia — 3 operation(s) for agent.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The agent API from Calyptia — 3 operation(s) for agent.
   name: Calyptia agent API
   slug: calyptia-agent-api
-- description: The agent_config API from Calyptia — 1 operation(s) for agent_config.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The agent_config API from Calyptia — 1 operation(s) for agent_config.
   name: Calyptia agent_config API
   slug: calyptia-agent-config-api
-- description: The agent_error API from Calyptia — 3 operation(s) for agent_error.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The agent_error API from Calyptia — 3 operation(s) for agent_error.
   name: Calyptia agent_error API
   slug: calyptia-agent-error-api
-- description: The aggregator API from Calyptia — 4 operation(s) for aggregator.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The aggregator API from Calyptia — 4 operation(s) for aggregator.
   name: Calyptia aggregator API
   slug: calyptia-aggregator-api
-- description: The audit_log API from Calyptia — 1 operation(s) for audit_log.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The audit_log API from Calyptia — 1 operation(s) for audit_log.
   name: Calyptia audit_log API
   slug: calyptia-audit-log-api
-- description: The aws_marketplace API from Calyptia — 2 operation(s) for aws_marketplace.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The aws_marketplace API from Calyptia — 2 operation(s) for aws_marketplace.
   name: Calyptia aws_marketplace API
   slug: calyptia-aws-marketplace-api
-- description: The cluster_object API from Calyptia — 2 operation(s) for cluster_object.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The cluster_object API from Calyptia — 2 operation(s) for cluster_object.
   name: Calyptia cluster_object API
   slug: calyptia-cluster-object-api
-- description: The cluster_object_regex API from Calyptia — 2 operation(s) for cluster_object_regex.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The cluster_object_regex API from Calyptia — 2 operation(s) for cluster_object_regex.
   name: Calyptia cluster_object_regex API
   slug: calyptia-cluster-object-regex-api
-- description: The config_section API from Calyptia — 3 operation(s) for config_section.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The config_section API from Calyptia — 3 operation(s) for config_section.
   name: Calyptia config_section API
   slug: calyptia-config-section-api
-- description: The config_validator API from Calyptia — 2 operation(s) for config_validator.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The config_validator API from Calyptia — 2 operation(s) for config_validator.
   name: Calyptia config_validator API
   slug: calyptia-config-validator-api
-- description: The config_validator_v2 API from Calyptia — 1 operation(s) for config_validator_v2.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The config_validator_v2 API from Calyptia — 1 operation(s) for config_validator_v2.
   name: Calyptia config_validator_v2 API
   slug: calyptia-config-validator-v2-api
-- description: The core_instance API from Calyptia — 1 operation(s) for core_instance.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The core_instance API from Calyptia — 1 operation(s) for core_instance.
   name: Calyptia core_instance API
   slug: calyptia-core-instance-api
-- description: The core_instance_check API from Calyptia — 2 operation(s) for core_instance_check.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The core_instance_check API from Calyptia — 2 operation(s) for core_instance_check.
   name: Calyptia core_instance_check API
   slug: calyptia-core-instance-check-api
-- description: The core_instance_file API from Calyptia — 2 operation(s) for core_instance_file.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The core_instance_file API from Calyptia — 2 operation(s) for core_instance_file.
   name: Calyptia core_instance_file API
   slug: calyptia-core-instance-file-api
-- description: The core_instance_secret API from Calyptia — 2 operation(s) for core_instance_secret.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The core_instance_secret API from Calyptia — 2 operation(s) for core_instance_secret.
   name: Calyptia core_instance_secret API
   slug: calyptia-core-instance-secret-api
-- description: The environment API from Calyptia — 2 operation(s) for environment.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The environment API from Calyptia — 2 operation(s) for environment.
   name: Calyptia environment API
   slug: calyptia-environment-api
-- description: The fleet API from Calyptia — 7 operation(s) for fleet.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The fleet API from Calyptia — 7 operation(s) for fleet.
   name: Calyptia fleet API
   slug: calyptia-fleet-api
-- description: The invitation API from Calyptia — 2 operation(s) for invitation.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The invitation API from Calyptia — 2 operation(s) for invitation.
   name: Calyptia invitation API
   slug: calyptia-invitation-api
-- description: The membership API from Calyptia — 2 operation(s) for membership.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The membership API from Calyptia — 2 operation(s) for membership.
   name: Calyptia membership API
   slug: calyptia-membership-api
-- description: The metric API from Calyptia — 17 operation(s) for metric.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The metric API from Calyptia — 17 operation(s) for metric.
   name: Calyptia metric API
   slug: calyptia-metric-api
-- description: The pipeline API from Calyptia — 5 operation(s) for pipeline.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline API from Calyptia — 5 operation(s) for pipeline.
   name: Calyptia pipeline API
   slug: calyptia-pipeline-api
-- description: The pipeline_check API from Calyptia — 2 operation(s) for pipeline_check.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_check API from Calyptia — 2 operation(s) for pipeline_check.
   name: Calyptia pipeline_check API
   slug: calyptia-pipeline-check-api
-- description: The pipeline_cluster_objects API from Calyptia — 1 operation(s) for pipeline_cluster_objects.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_cluster_objects API from Calyptia — 1 operation(s) for pipeline_cluster_objects.
   name: Calyptia pipeline_cluster_objects API
   slug: calyptia-pipeline-cluster-objects-api
-- description: The pipeline_config API from Calyptia — 1 operation(s) for pipeline_config.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_config API from Calyptia — 1 operation(s) for pipeline_config.
   name: Calyptia pipeline_config API
   slug: calyptia-pipeline-config-api
-- description: The pipeline_file API from Calyptia — 2 operation(s) for pipeline_file.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_file API from Calyptia — 2 operation(s) for pipeline_file.
   name: Calyptia pipeline_file API
   slug: calyptia-pipeline-file-api
-- description: The pipeline_log API from Calyptia — 2 operation(s) for pipeline_log.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_log API from Calyptia — 2 operation(s) for pipeline_log.
   name: Calyptia pipeline_log API
   slug: calyptia-pipeline-log-api
-- description: The pipeline_metadata API from Calyptia — 1 operation(s) for pipeline_metadata.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_metadata API from Calyptia — 1 operation(s) for pipeline_metadata.
   name: Calyptia pipeline_metadata API
   slug: calyptia-pipeline-metadata-api
-- description: The pipeline_port API from Calyptia — 2 operation(s) for pipeline_port.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_port API from Calyptia — 2 operation(s) for pipeline_port.
   name: Calyptia pipeline_port API
   slug: calyptia-pipeline-port-api
-- description: The pipeline_secret API from Calyptia — 2 operation(s) for pipeline_secret.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_secret API from Calyptia — 2 operation(s) for pipeline_secret.
   name: Calyptia pipeline_secret API
   slug: calyptia-pipeline-secret-api
-- description: The pipeline_status API from Calyptia — 1 operation(s) for pipeline_status.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The pipeline_status API from Calyptia — 1 operation(s) for pipeline_status.
   name: Calyptia pipeline_status API
   slug: calyptia-pipeline-status-api
-- description: The processing_rule API from Calyptia — 3 operation(s) for processing_rule.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The processing_rule API from Calyptia — 3 operation(s) for processing_rule.
   name: Calyptia processing_rule API
   slug: calyptia-processing-rule-api
-- description: The processing_rule_template API from Calyptia — 4 operation(s) for processing_rule_template.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The processing_rule_template API from Calyptia — 4 operation(s) for processing_rule_template.
   name: Calyptia processing_rule_template API
   slug: calyptia-processing-rule-template-api
-- description: The project API from Calyptia — 2 operation(s) for project.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The project API from Calyptia — 2 operation(s) for project.
   name: Calyptia project API
   slug: calyptia-project-api
-- description: The resource_profile API from Calyptia — 2 operation(s) for resource_profile.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The resource_profile API from Calyptia — 2 operation(s) for resource_profile.
   name: Calyptia resource_profile API
   slug: calyptia-resource-profile-api
-- description: The saml_mapping API from Calyptia — 2 operation(s) for saml_mapping.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The saml_mapping API from Calyptia — 2 operation(s) for saml_mapping.
   name: Calyptia saml_mapping API
   slug: calyptia-saml-mapping-api
-- description: The search API from Calyptia — 2 operation(s) for search.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The search API from Calyptia — 2 operation(s) for search.
   name: Calyptia search API
   slug: calyptia-search-api
-- description: The sidecar API from Calyptia — 2 operation(s) for sidecar.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The sidecar API from Calyptia — 2 operation(s) for sidecar.
   name: Calyptia sidecar API
   slug: calyptia-sidecar-api
-- description: The token API from Calyptia — 2 operation(s) for token.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The token API from Calyptia — 2 operation(s) for token.
   name: Calyptia token API
   slug: calyptia-token-api
-- description: The trace_record API from Calyptia — 2 operation(s) for trace_record.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The trace_record API from Calyptia — 2 operation(s) for trace_record.
   name: Calyptia trace_record API
   slug: calyptia-trace-record-api
-- description: The trace_session API from Calyptia — 3 operation(s) for trace_session.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The trace_session API from Calyptia — 3 operation(s) for trace_session.
   name: Calyptia trace_session API
   slug: calyptia-trace-session-api
-- description: The user API from Calyptia — 1 operation(s) for user.
+- baseURL: https://cloud-api.calyptia.com
+  baseurl_source: declared
+  description: The user API from Calyptia — 1 operation(s) for user.
   name: Calyptia user API
   slug: calyptia-user-api
 artifact_total: 88
@@ -463,7 +545,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/screenshots/calyptia-2026-07-25T204254.png
 security:

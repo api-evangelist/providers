@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 35 operations · 16 acting
 api_count: 1
 apis:
-- description: The Accounts API from Chaldal — 4 operation(s) for accounts.
+- baseURL: https://eggtransport.chaldal.com/api
+  baseurl_source: declared
+  description: The Accounts API from Chaldal — 4 operation(s) for accounts.
   name: Chaldal Accounts API
   slug: chaldal-accounts-api
-- description: The Heartbeat API from Chaldal — 2 operation(s) for heartbeat.
+- baseURL: https://eggtransport.chaldal.com/api
+  baseurl_source: declared
+  description: The Heartbeat API from Chaldal — 2 operation(s) for heartbeat.
   name: Chaldal Heartbeat API
   slug: chaldal-heartbeat-api
-- description: The Identity API from Chaldal — 4 operation(s) for identity.
+- baseURL: https://eggtransport.chaldal.com/api
+  baseurl_source: declared
+  description: The Identity API from Chaldal — 4 operation(s) for identity.
   name: Chaldal Identity API
   slug: chaldal-identity-api
-- description: The Organization API from Chaldal — 5 operation(s) for organization.
+- baseURL: https://eggtransport.chaldal.com/api
+  baseurl_source: declared
+  description: The Organization API from Chaldal — 5 operation(s) for organization.
   name: Chaldal Organization API
   slug: chaldal-organization-api
-- description: The Task API from Chaldal — 20 operation(s) for task.
+- baseURL: https://eggtransport.chaldal.com/api
+  baseurl_source: declared
+  description: The Task API from Chaldal — 20 operation(s) for task.
   name: Chaldal Task API
   slug: chaldal-task-api
 artifact_total: 15
@@ -178,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/screenshots/chaldal-2026-07-25T205118.png
 security:

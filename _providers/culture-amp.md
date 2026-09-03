@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 19 operations
 api_count: 1
 apis:
-- description: The Employees API from Culture Amp — 3 operation(s) for employees.
+- baseURL: https://api.cultureamp.com
+  baseurl_source: declared
+  description: The Employees API from Culture Amp — 3 operation(s) for employees.
   name: Culture Amp Employees API
   slug: culture-amp-employees-api
-- description: The Performance API from Culture Amp — 6 operation(s) for performance.
+- baseURL: https://api.cultureamp.com
+  baseurl_source: declared
+  description: The Performance API from Culture Amp — 6 operation(s) for performance.
   name: Culture Amp Performance API
   slug: culture-amp-performance-api
-- description: The Surveys API from Culture Amp — 10 operation(s) for surveys.
+- baseURL: https://api.cultureamp.com
+  baseurl_source: declared
+  description: The Surveys API from Culture Amp — 10 operation(s) for surveys.
   name: Culture Amp Surveys API
   slug: culture-amp-surveys-api
 artifact_total: 28
@@ -256,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/screenshots/culture-amp-2026-06-20T175332.png
 security:

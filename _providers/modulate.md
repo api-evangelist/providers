@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
-- description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
   name: Modulate Velma 2 Accent Batch API
   slug: modulate-velma-2-accent-batch-api
-- description: The Velma 2 Ai Music Detection Batch API from Modulate — 1 operation(s) for velma 2 ai music detection batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Ai Music Detection Batch API from Modulate — 1 operation(s) for velma 2 ai music detection batch.
   name: Modulate Velma 2 Ai Music Detection Batch API
   slug: modulate-velma-2-ai-music-detection-batch-api
-- description: The Velma 2 Batch API from Modulate — 2 operation(s) for velma 2 batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Batch API from Modulate — 2 operation(s) for velma 2 batch.
   name: Modulate Velma 2 Batch API
   slug: modulate-velma-2-batch-api
-- description: The Velma 2 Emotion Batch API from Modulate — 1 operation(s) for velma 2 emotion batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Emotion Batch API from Modulate — 1 operation(s) for velma 2 emotion batch.
   name: Modulate Velma 2 Emotion Batch API
   slug: modulate-velma-2-emotion-batch-api
-- description: The Velma 2 Language Detection Batch API from Modulate — 1 operation(s) for velma 2 language detection batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Language Detection Batch API from Modulate — 1 operation(s) for velma 2 language detection batch.
   name: Modulate Velma 2 Language Detection Batch API
   slug: modulate-velma-2-language-detection-batch-api
-- description: The Velma 2 Music Detection Batch API from Modulate — 1 operation(s) for velma 2 music detection batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Music Detection Batch API from Modulate — 1 operation(s) for velma 2 music detection batch.
   name: Modulate Velma 2 Music Detection Batch API
   slug: modulate-velma-2-music-detection-batch-api
-- description: The Velma 2 Pii Phi Redaction Batch API from Modulate — 1 operation(s) for velma 2 pii phi redaction batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Pii Phi Redaction Batch API from Modulate — 1 operation(s) for velma 2 pii phi redaction batch.
   name: Modulate Velma 2 Pii Phi Redaction Batch API
   slug: modulate-velma-2-pii-phi-redaction-batch-api
-- description: The Velma 2 Stt Batch API from Modulate — 1 operation(s) for velma 2 stt batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Stt Batch API from Modulate — 1 operation(s) for velma 2 stt batch.
   name: Modulate Velma 2 Stt Batch API
   slug: modulate-velma-2-stt-batch-api
-- description: The Velma 2 Stt Batch English Vfast API from Modulate — 1 operation(s) for velma 2 stt batch english vfast.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Stt Batch English Vfast API from Modulate — 1 operation(s) for velma 2 stt batch english vfast.
   name: Modulate Velma 2 Stt Batch English Vfast API
   slug: modulate-velma-2-stt-batch-english-vfast-api
-- description: The Velma 2 Stt Batch Multilingual Vfast API from Modulate — 1 operation(s) for velma 2 stt batch multilingual vfast.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Stt Batch Multilingual Vfast API from Modulate — 1 operation(s) for velma 2 stt batch multilingual vfast.
   name: Modulate Velma 2 Stt Batch Multilingual Vfast API
   slug: modulate-velma-2-stt-batch-multilingual-vfast-api
-- description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
+- baseURL: https://platform.modulate.ai
+  baseurl_source: declared
+  description: The Velma 2 Synthetic Voice Detection Batch API from Modulate — 1 operation(s) for velma 2 synthetic voice detection batch.
   name: Modulate Velma 2 Synthetic Voice Detection Batch API
   slug: modulate-velma-2-synthetic-voice-detection-batch-api
 artifact_total: 35
@@ -278,7 +300,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -288,7 +310,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     contracts:
@@ -299,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulate/refs/heads/main/screenshots/modulate-2026-08-07T184031.png
 security:

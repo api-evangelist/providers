@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 1
 apis:
-- description: The Consumers API from Aptean — 2 operation(s) for consumers.
+- baseURL: https://stg.integration-graph.apteansharedservices.com
+  baseurl_source: declared
+  description: The Consumers API from Aptean — 2 operation(s) for consumers.
   name: Aptean Consumers API
   slug: aptean-consumers-api
-- description: The EventDefinitions API from Aptean — 2 operation(s) for eventdefinitions.
+- baseURL: https://stg.integration-graph.apteansharedservices.com
+  baseurl_source: declared
+  description: The EventDefinitions API from Aptean — 2 operation(s) for eventdefinitions.
   name: Aptean EventDefinitions API
   slug: aptean-eventdefinitions-api
-- description: The Events API from Aptean — 3 operation(s) for events.
+- baseURL: https://stg.integration-graph.apteansharedservices.com
+  baseurl_source: declared
+  description: The Events API from Aptean — 3 operation(s) for events.
   name: Aptean Events API
   slug: aptean-events-api
-- description: The Producers API from Aptean — 2 operation(s) for producers.
+- baseURL: https://stg.integration-graph.apteansharedservices.com
+  baseurl_source: declared
+  description: The Producers API from Aptean — 2 operation(s) for producers.
   name: Aptean Producers API
   slug: aptean-producers-api
-- description: The PublicKeys API from Aptean — 1 operation(s) for publickeys.
+- baseURL: https://stg.integration-graph.apteansharedservices.com
+  baseurl_source: declared
+  description: The PublicKeys API from Aptean — 1 operation(s) for publickeys.
   name: Aptean PublicKeys API
   slug: aptean-publickeys-api
 artifact_total: 17
@@ -199,7 +209,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -209,7 +219,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 41.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -221,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/screenshots/aptean-2026-07-25T200918.png
 security:

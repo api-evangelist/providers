@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- description: AuthService reports information about the API key making the request.
+- baseURL: https://cloud-api.usw2.elembio.io
+  baseurl_source: declared
+  description: AuthService reports information about the API key making the request.
   name: Element Biosciences Auth Service API
   slug: element-biosciences-authservice-api
-- description: ExecutionService provides access to workflow executions — runs of a bioinformatics workflow that process instrument data. Listing and reading execution metadata requires the "executions:read" scope; l
+- baseURL: https://cloud-api.usw2.elembio.io
+  baseurl_source: declared
+  description: ExecutionService provides access to workflow executions — runs of a bioinformatics workflow that process instrument data. Listing and reading execution metadata requires the "executions:read" scope; l
   name: Element Biosciences Execution Service API
   slug: element-biosciences-executionservice-api
-- description: InstrumentService provides access to instruments registered to the authenticated tenant. Requires the "instruments:read" scope.
+- baseURL: https://cloud-api.usw2.elembio.io
+  baseurl_source: declared
+  description: InstrumentService provides access to instruments registered to the authenticated tenant. Requires the "instruments:read" scope.
   name: Element Biosciences Instrument Service API
   slug: element-biosciences-instrumentservice-api
-- description: RunService provides access to instrument runs, both sequencing and multiomics. Listing and reading run metadata requires the "runs:read" scope; listing run files and obtaining download credentials req
+- baseURL: https://cloud-api.usw2.elembio.io
+  baseurl_source: declared
+  description: RunService provides access to instrument runs, both sequencing and multiomics. Listing and reading run metadata requires the "runs:read" scope; listing run files and obtaining download credentials req
   name: Element Biosciences Run Service API
   slug: element-biosciences-runservice-api
-- description: 'StorageConnectionService provides access to storage connections: their metadata (requires the "storage:read" scope) and the files within them (ListFiles / GetDownloadCredentials, which require the "st'
+- baseURL: https://cloud-api.usw2.elembio.io
+  baseurl_source: declared
+  description: 'StorageConnectionService provides access to storage connections: their metadata (requires the "storage:read" scope) and the files within them (ListFiles / GetDownloadCredentials, which require the "st'
   name: Element Biosciences Storage Connection Service API
   slug: element-biosciences-storageconnectionservice-api
 artifact_total: 16
@@ -260,7 +282,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/screenshots/element-biosciences-2026-08-07T164822.png
 security:

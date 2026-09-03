@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,43 +49,69 @@ apis:
 - description: AESO's long-running Energy Trading System report servlets — the fully anonymous half of its data posture, and the reason market_data_open is true for AESO regardless of the API key on the newer gatewa
   name: AESO Energy Trading System (ETS) Public Reports
   slug: aeso-ets-public-reports
-- description: The AIESGenCapacity API from AESO — 1 operation(s) for aiesgencapacity.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The AIESGenCapacity API from AESO — 1 operation(s) for aiesgencapacity.
   name: AESO AIES Gen Capacity API
   slug: aeso-aiesgencapacity-api
-- description: The Assetlist API from AESO — 1 operation(s) for assetlist.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Assetlist API from AESO — 1 operation(s) for assetlist.
   name: AESO Assetlist API
   slug: aeso-assetlist-api
-- description: The Csd API from AESO — 2 operation(s) for csd.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Csd API from AESO — 2 operation(s) for csd.
   name: AESO Csd API
   slug: aeso-csd-api
-- description: The Interchange API from AESO — 1 operation(s) for interchange.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Interchange API from AESO — 1 operation(s) for interchange.
   name: AESO Interchange API
   slug: aeso-interchange-api
-- description: The Load API from AESO — 1 operation(s) for load.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Load API from AESO — 1 operation(s) for load.
   name: AESO Load API
   slug: aeso-load-api
-- description: The LoadOutageReport API from AESO — 1 operation(s) for loadoutagereport.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The LoadOutageReport API from AESO — 1 operation(s) for loadoutagereport.
   name: AESO Load Outage Report API
   slug: aeso-loadoutagereport-api
-- description: The MeritOrder API from AESO — 1 operation(s) for meritorder.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The MeritOrder API from AESO — 1 operation(s) for meritorder.
   name: AESO Merit Order API
   slug: aeso-meritorder-api
-- description: The Meteredvolume API from AESO — 1 operation(s) for meteredvolume.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Meteredvolume API from AESO — 1 operation(s) for meteredvolume.
   name: AESO Meteredvolume API
   slug: aeso-meteredvolume-api
-- description: The OperatingReserveOfferControl API from AESO — 1 operation(s) for operatingreserveoffercontrol.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The OperatingReserveOfferControl API from AESO — 1 operation(s) for operatingreserveoffercontrol.
   name: AESO Operating Reserve Offer Control API
   slug: aeso-operatingreserveoffercontrol-api
-- description: The Outage API from AESO — 1 operation(s) for outage.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Outage API from AESO — 1 operation(s) for outage.
   name: AESO Outage API
   slug: aeso-outage-api
-- description: The Poolparticipantlist API from AESO — 1 operation(s) for poolparticipantlist.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Poolparticipantlist API from AESO — 1 operation(s) for poolparticipantlist.
   name: AESO Poolparticipantlist API
   slug: aeso-poolparticipantlist-api
-- description: The Price API from AESO — 3 operation(s) for price.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The Price API from AESO — 3 operation(s) for price.
   name: AESO Price API
   slug: aeso-price-api
-- description: The UnitCommitment API from AESO — 1 operation(s) for unitcommitment.
+- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
+  baseurl_source: declared
+  description: The UnitCommitment API from AESO — 1 operation(s) for unitcommitment.
   name: AESO Unit Commitment API
   slug: aeso-unitcommitment-api
 arazzos:
@@ -385,7 +424,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:

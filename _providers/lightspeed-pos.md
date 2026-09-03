@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -62,70 +62,114 @@ apis:
 - description: Partner API for ChronoGolf, Lightspeed's tee-time and course management platform.
   name: Lightspeed ChronoGolf Partner API
   slug: chronogolf-partner
-- description: The Lightspeed Retail account associated with the access token.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Lightspeed Retail account associated with the access token.
   name: Lightspeed Account API
   slug: lightspeed-pos-account-api
-- description: The Brands API from Lightspeed — 2 operation(s) for brands.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Brands API from Lightspeed — 2 operation(s) for brands.
   name: Lightspeed Brands API
   slug: lightspeed-pos-brands-api
-- description: Categories, manufacturers, and vendors that classify items.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: Categories, manufacturers, and vendors that classify items.
   name: Lightspeed Catalog API
   slug: lightspeed-pos-catalog-api
-- description: Customer records and contact details.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: Customer records and contact details.
   name: Lightspeed Customer API
   slug: lightspeed-pos-customer-api
-- description: The Customers API from Lightspeed — 2 operation(s) for customers.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Customers API from Lightspeed — 2 operation(s) for customers.
   name: Lightspeed Customers API
   slug: lightspeed-pos-customers-api
-- description: 'V1 endpoints (`/f/finance/...`) for retrieving sales and financial data. For the newer V2 versions of these endpoints see FinancialV2 ### V1 behaviour - **Sorting**: No guaranteed sorting order; inter'
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: 'V1 endpoints (`/f/finance/...`) for retrieving sales and financial data. For the newer V2 versions of these endpoints see FinancialV2 ### V1 behaviour - **Sorting**: No guaranteed sorting order; inter'
   name: Lightspeed Financial API
   slug: lightspeed-pos-financial-api
-- description: 'V2 endpoints (`/f/v2/...`) for retrieving sales and financial data. ### Endpoint Mapping | V1 Endpoint | V2 Endpoint | |-------------|-------------| | `getFinancials` (`/f/finance/{id}/financials/{fro'
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: 'V2 endpoints (`/f/v2/...`) for retrieving sales and financial data. ### Endpoint Mapping | V1 Endpoint | V2 Endpoint | |-------------|-------------| | `getFinancials` (`/f/finance/{id}/financials/{fro'
   name: Lightspeed FinancialV2 API
   slug: lightspeed-pos-financialv2-api
-- description: The Gift Cards API from Lightspeed — 1 operation(s) for gift cards.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Gift Cards API from Lightspeed — 1 operation(s) for gift cards.
   name: Lightspeed Gift Cards API
   slug: lightspeed-pos-gift-cards-api
-- description: The ID Cards API from Lightspeed — 2 operation(s) for id cards.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The ID Cards API from Lightspeed — 2 operation(s) for id cards.
   name: Lightspeed ID Cards API
   slug: lightspeed-pos-id-cards-api
-- description: Inventory items sold and tracked in Lightspeed Retail.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: Inventory items sold and tracked in Lightspeed Retail.
   name: Lightspeed Item API
   slug: lightspeed-pos-item-api
-- description: The Items API from Lightspeed — 2 operation(s) for items.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Items API from Lightspeed — 2 operation(s) for items.
   name: Lightspeed Items API
   slug: lightspeed-pos-items-api
-- description: The Order and Pay API from Lightspeed — 18 operation(s) for order and pay.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Order and Pay API from Lightspeed — 18 operation(s) for order and pay.
   name: Lightspeed Order and Pay API
   slug: lightspeed-pos-order-and-pay-api
-- description: 'The Order and Pay: Webhook API from Lightspeed — 4 operation(s) for order and pay: webhook.'
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: 'The Order and Pay: Webhook API from Lightspeed — 4 operation(s) for order and pay: webhook.'
   name: 'Lightspeed Order and Pay: Webhook API'
   slug: lightspeed-pos-order-and-pay-webhook-api
-- description: The PMS API from Lightspeed — 3 operation(s) for pms.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The PMS API from Lightspeed — 3 operation(s) for pms.
   name: Lightspeed PMS API
   slug: lightspeed-pos-pms-api
-- description: The Products API from Lightspeed — 2 operation(s) for products.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Products API from Lightspeed — 2 operation(s) for products.
   name: Lightspeed Products API
   slug: lightspeed-pos-products-api
-- description: The Reservations for Platforms API from Lightspeed — 11 operation(s) for reservations for platforms.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Reservations for Platforms API from Lightspeed — 11 operation(s) for reservations for platforms.
   name: Lightspeed Reservations for Platforms API
   slug: lightspeed-pos-reservations-for-platforms-api
-- description: The Rich Item API from Lightspeed — 6 operation(s) for rich item.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Rich Item API from Lightspeed — 6 operation(s) for rich item.
   name: Lightspeed Rich Item API
   slug: lightspeed-pos-rich-item-api
-- description: Point-of-sale transactions and their line items.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: Point-of-sale transactions and their line items.
   name: Lightspeed Sale API
   slug: lightspeed-pos-sale-api
-- description: The Sales API from Lightspeed — 2 operation(s) for sales.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Sales API from Lightspeed — 2 operation(s) for sales.
   name: Lightspeed Sales API
   slug: lightspeed-pos-sales-api
-- description: Staff API. Authorisation Code grant type is required for this API with permission ROLE_CONFIG_USERS.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: Staff API. Authorisation Code grant type is required for this API with permission ROLE_CONFIG_USERS.
   name: Lightspeed Staff API
   slug: lightspeed-pos-staff-api
-- description: The Tax Breakdown API from Lightspeed — 1 operation(s) for tax breakdown.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The Tax Breakdown API from Lightspeed — 1 operation(s) for tax breakdown.
   name: Lightspeed Tax Breakdown API
   slug: lightspeed-pos-tax-breakdown-api
-- description: The PMS Integration API from Lightspeed — 0 operation(s) for pms integration.
+- baseURL: https://x-series-api.lightspeedhq.com/api/2.0
+  baseurl_source: declared
+  description: The PMS Integration API from Lightspeed — 0 operation(s) for pms integration.
   name: Lightspeed PMS Integration API
   slug: lightspeed-pos-pms-integration-api
 artifact_total: 338
@@ -1143,7 +1187,7 @@ score:
       marker_coverage: 79.2
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:

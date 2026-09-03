@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Open-source build-time React localization. The Compiler detects translatable strings and generates localized variants at build time without i18n wrappers, translation keys, or t() function calls, usin
   name: Lingo.dev Compiler
   slug: compiler
-- description: The Account API from Lingo.dev — 1 operation(s) for account.
+- baseURL: https://api.lingo.dev
+  baseurl_source: declared
+  description: The Account API from Lingo.dev — 1 operation(s) for account.
   name: Lingo.dev Account API
   slug: lingo-dev-account-api
-- description: The Asynchronous API from Lingo.dev — 2 operation(s) for asynchronous.
+- baseURL: https://api.lingo.dev
+  baseurl_source: declared
+  description: The Asynchronous API from Lingo.dev — 2 operation(s) for asynchronous.
   name: Lingo.dev Asynchronous API
   slug: lingo-dev-asynchronous-api
-- description: The Synchronous API from Lingo.dev — 3 operation(s) for synchronous.
+- baseURL: https://api.lingo.dev
+  baseurl_source: declared
+  description: The Synchronous API from Lingo.dev — 3 operation(s) for synchronous.
   name: Lingo.dev Synchronous API
   slug: lingo-dev-synchronous-api
 artifact_total: 17
@@ -177,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/screenshots/lingo-dev-2026-07-25T225242.png
 security:

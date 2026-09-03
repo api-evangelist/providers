@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 28 operations · 23 acting
 api_count: 1
 apis:
-- description: The chat API from Sarvam — 1 operation(s) for chat.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The chat API from Sarvam — 1 operation(s) for chat.
   name: Sarvam chat API
   slug: sarvam-chat-api
-- description: The documentIntelligence API from Sarvam — 5 operation(s) for documentintelligence.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The documentIntelligence API from Sarvam — 5 operation(s) for documentintelligence.
   name: Sarvam documentIntelligence API
   slug: sarvam-documentintelligence-api
-- description: The pronunciationDictionary API from Sarvam — 2 operation(s) for pronunciationdictionary.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The pronunciationDictionary API from Sarvam — 2 operation(s) for pronunciationdictionary.
   name: Sarvam pronunciationDictionary API
   slug: sarvam-pronunciationdictionary-api
-- description: The speechToText API from Sarvam — 2 operation(s) for speechtotext.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The speechToText API from Sarvam — 2 operation(s) for speechtotext.
   name: Sarvam speechToText API
   slug: sarvam-speechtotext-api
-- description: The speechToTextJob API from Sarvam — 5 operation(s) for speechtotextjob.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The speechToTextJob API from Sarvam — 5 operation(s) for speechtotextjob.
   name: Sarvam speechToTextJob API
   slug: sarvam-speechtotextjob-api
-- description: The speechToTextTranslateJob API from Sarvam — 5 operation(s) for speechtotexttranslatejob.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The speechToTextTranslateJob API from Sarvam — 5 operation(s) for speechtotexttranslatejob.
   name: Sarvam speechToTextTranslateJob API
   slug: sarvam-speechtotexttranslatejob-api
-- description: The text API from Sarvam — 3 operation(s) for text.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The text API from Sarvam — 3 operation(s) for text.
   name: Sarvam text API
   slug: sarvam-text-api
-- description: The textToSpeech API from Sarvam — 2 operation(s) for texttospeech.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The textToSpeech API from Sarvam — 2 operation(s) for texttospeech.
   name: Sarvam textToSpeech API
   slug: sarvam-texttospeech-api
 artifact_total: 22
@@ -241,7 +257,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -251,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +279,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/screenshots/sarvam-2026-08-17T081726.png
 security:

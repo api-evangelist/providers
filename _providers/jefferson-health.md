@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,52 +53,84 @@ apis:
 - description: MyJeffersonHealth is the patient-facing Epic MyChart deployment used by Jefferson Health patients to view test results, message providers, request prescription renewals, schedule appointments, pay bil
   name: MyJeffersonHealth MyChart Patient Portal
   slug: myjeffersonhealth-mychart
-- description: Risk of harmful or undesirable physiological response to a substance.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: Risk of harmful or undesirable physiological response to a substance.
   name: Jefferson Health Allergy Intolerance API
   slug: jefferson-health-allergy-intolerance-api
-- description: HL7 FHIR Bulk Data Access Group-level export.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: HL7 FHIR Bulk Data Access Group-level export.
   name: Jefferson Health Bulk Data API
   slug: jefferson-health-bulk-data-api
-- description: Detailed information about conditions, problems, or diagnoses.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: Detailed information about conditions, problems, or diagnoses.
   name: Jefferson Health Condition API
   slug: jefferson-health-condition-api
-- description: A reference to a document, often a CCDA or clinical note.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: A reference to a document, often a CCDA or clinical note.
   name: Jefferson Health Document Reference API
   slug: jefferson-health-document-reference-api
-- description: An interaction between a patient and healthcare provider(s).
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: An interaction between a patient and healthcare provider(s).
   name: Jefferson Health Encounter API
   slug: jefferson-health-encounter-api
-- description: The technical details of an endpoint that can be used for electronic services.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: The technical details of an endpoint that can be used for electronic services.
   name: Jefferson Health Endpoint API
   slug: jefferson-health-endpoint-api
-- description: The details of a healthcare service available at a location.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: The details of a healthcare service available at a location.
   name: Jefferson Health Healthcare Service API
   slug: jefferson-health-healthcare-service-api
-- description: Details of a Health Insurance product/plan provided by an organization.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: Details of a Health Insurance product/plan provided by an organization.
   name: Jefferson Health Insurance Plan API
   slug: jefferson-health-insurance-plan-api
-- description: Details and position information for a physical place.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: Details and position information for a physical place.
   name: Jefferson Health Location API
   slug: jefferson-health-location-api
-- description: An order or request for both supply of the medication and the instructions for administration.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: An order or request for both supply of the medication and the instructions for administration.
   name: Jefferson Health Medication Request API
   slug: jefferson-health-medication-request-api
-- description: FHIR conformance discovery.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: FHIR conformance discovery.
   name: Jefferson Health Metadata API
   slug: jefferson-health-metadata-api
-- description: Measurements and simple assertions made about a patient.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: Measurements and simple assertions made about a patient.
   name: Jefferson Health Observation API
   slug: jefferson-health-observation-api
-- description: A formally or informally recognized grouping of people or organizations.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: A formally or informally recognized grouping of people or organizations.
   name: Jefferson Health Organization API
   slug: jefferson-health-organization-api
-- description: Demographics and other administrative information about an individual receiving care.
+- baseURL: https://fhir.jefferson.edu/FHIRProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: Demographics and other administrative information about an individual receiving care.
   name: Jefferson Health Patient API
   slug: jefferson-health-patient-api
-- description: A person who is directly or indirectly involved in the provisioning of healthcare.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: A person who is directly or indirectly involved in the provisioning of healthcare.
   name: Jefferson Health Practitioner API
   slug: jefferson-health-practitioner-api
-- description: A specific set of roles a practitioner may perform at an organization for a period of time.
+- baseURL: https://providerfhirapi.healthpartnersplans.com
+  baseurl_source: declared
+  description: A specific set of roles a practitioner may perform at an organization for a period of time.
   name: Jefferson Health Practitioner Role API
   slug: jefferson-health-practitioner-role-api
 artifact_total: 58
@@ -502,7 +534,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png
 security:

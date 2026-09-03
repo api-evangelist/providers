@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 2
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 116 operations · 57 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: The Audio API from Together AI — 5 operation(s) for audio.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Audio API from Together AI — 5 operation(s) for audio.
   name: Together AI Audio API
   slug: together-ai-audio-api
-- description: The Batches API from Together AI — 3 operation(s) for batches.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Batches API from Together AI — 3 operation(s) for batches.
   name: Together AI Batches API
   slug: together-ai-batches-api
-- description: The Chat API from Together AI — 1 operation(s) for chat.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Chat API from Together AI — 1 operation(s) for chat.
   name: Together AI Chat API
   slug: together-ai-chat-api
-- description: The Code Interpreter API from Together AI — 2 operation(s) for code interpreter.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Code Interpreter API from Together AI — 2 operation(s) for code interpreter.
   name: Together AI Code Interpreter API
   slug: together-ai-code-interpreter-api
-- description: The Completion API from Together AI — 1 operation(s) for completion.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Completion API from Together AI — 1 operation(s) for completion.
   name: Together AI Completion API
   slug: together-ai-completion-api
-- description: The Compute API from Together AI — 6 operation(s) for compute.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Compute API from Together AI — 6 operation(s) for compute.
   name: Together AI Compute API
   slug: together-ai-compute-api
-- description: The Deployments API from Together AI — 3 operation(s) for deployments.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Deployments API from Together AI — 3 operation(s) for deployments.
   name: Together AI Deployments API
   slug: together-ai-deployments-api
-- description: The DeploymentsStorage API from Together AI — 1 operation(s) for deploymentsstorage.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The DeploymentsStorage API from Together AI — 1 operation(s) for deploymentsstorage.
   name: Together AI DeploymentsStorage API
   slug: together-ai-deploymentsstorage-api
-- description: The DeploymentsVolumes API from Together AI — 1 operation(s) for deploymentsvolumes.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The DeploymentsVolumes API from Together AI — 1 operation(s) for deploymentsvolumes.
   name: Together AI DeploymentsVolumes API
   slug: together-ai-deploymentsvolumes-api
-- description: The Embeddings API from Together AI — 1 operation(s) for embeddings.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Embeddings API from Together AI — 1 operation(s) for embeddings.
   name: Together AI Embeddings API
   slug: together-ai-embeddings-api
-- description: The Endpoints API from Together AI — 3 operation(s) for endpoints.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Endpoints API from Together AI — 3 operation(s) for endpoints.
   name: Together AI Endpoints API
   slug: together-ai-endpoints-api
-- description: The evaluation API from Together AI — 4 operation(s) for evaluation.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The evaluation API from Together AI — 4 operation(s) for evaluation.
   name: Together AI evaluation API
   slug: together-ai-evaluation-api
-- description: The Files API from Together AI — 4 operation(s) for files.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Files API from Together AI — 4 operation(s) for files.
   name: Together AI Files API
   slug: together-ai-files-api
-- description: The Fine-tuning API from Together AI — 10 operation(s) for fine-tuning.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Fine-tuning API from Together AI — 10 operation(s) for fine-tuning.
   name: Together AI Fine-tuning API
   slug: together-ai-fine-tuning-api
-- description: The GPUClusterService API from Together AI — 5 operation(s) for gpuclusterservice.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The GPUClusterService API from Together AI — 5 operation(s) for gpuclusterservice.
   name: Together AI GPUClusterService API
   slug: together-ai-gpuclusterservice-api
-- description: The Hardware API from Together AI — 1 operation(s) for hardware.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Hardware API from Together AI — 1 operation(s) for hardware.
   name: Together AI Hardware API
   slug: together-ai-hardware-api
-- description: The Images API from Together AI — 1 operation(s) for images.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Images API from Together AI — 1 operation(s) for images.
   name: Together AI Images API
   slug: together-ai-images-api
-- description: The Jobs API from Together AI — 2 operation(s) for jobs.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Jobs API from Together AI — 2 operation(s) for jobs.
   name: Together AI Jobs API
   slug: together-ai-jobs-api
-- description: The Models API from Together AI — 1 operation(s) for models.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Models API from Together AI — 1 operation(s) for models.
   name: Together AI Models API
   slug: together-ai-models-api
-- description: The Queue API from Together AI — 4 operation(s) for queue.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Queue API from Together AI — 4 operation(s) for queue.
   name: Together AI Queue API
   slug: together-ai-queue-api
-- description: The RegionService API from Together AI — 2 operation(s) for regionservice.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The RegionService API from Together AI — 2 operation(s) for regionservice.
   name: Together AI RegionService API
   slug: together-ai-regionservice-api
-- description: The Rerank API from Together AI — 1 operation(s) for rerank.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Rerank API from Together AI — 1 operation(s) for rerank.
   name: Together AI Rerank API
   slug: together-ai-rerank-api
-- description: The RL API from Together AI — 14 operation(s) for rl.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The RL API from Together AI — 14 operation(s) for rl.
   name: Together AI RL API
   slug: together-ai-rl-api
-- description: The Secrets API from Together AI — 2 operation(s) for secrets.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Secrets API from Together AI — 2 operation(s) for secrets.
   name: Together AI Secrets API
   slug: together-ai-secrets-api
-- description: The SharedVolumeService API from Together AI — 5 operation(s) for sharedvolumeservice.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The SharedVolumeService API from Together AI — 5 operation(s) for sharedvolumeservice.
   name: Together AI SharedVolumeService API
   slug: together-ai-sharedvolumeservice-api
-- description: The Video API from Together AI — 2 operation(s) for video.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Video API from Together AI — 2 operation(s) for video.
   name: Together AI Video API
   slug: together-ai-video-api
-- description: The Voices API from Together AI — 1 operation(s) for voices.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Voices API from Together AI — 1 operation(s) for voices.
   name: Together AI Voices API
   slug: together-ai-voices-api
-- description: The Volumes API from Together AI — 1 operation(s) for volumes.
+- baseURL: https://api.together.ai/v1
+  baseurl_source: declared
+  description: The Volumes API from Together AI — 1 operation(s) for volumes.
   name: Together AI Volumes API
   slug: together-ai-volumes-api
 artifact_total: 70
@@ -339,7 +395,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -349,7 +405,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -358,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/together-ai/refs/heads/main/screenshots/together-ai-2026-06-20T195434.png
 security:

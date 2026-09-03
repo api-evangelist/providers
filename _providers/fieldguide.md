@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 56 operations · 19 acting
 api_count: 1
 apis:
-- description: Endpoints used to interact with the Fieldguide API platform
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with the Fieldguide API platform
   name: Fieldguide api API
   slug: fieldguide-api-api
-- description: Endpoints used to interact with Fieldguide Comments
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Comments
   name: Fieldguide comments API
   slug: fieldguide-comments-api
-- description: Endpoints used to interact with Fieldguide Companies
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Companies
   name: Fieldguide companies API
   slug: fieldguide-companies-api
-- description: Endpoints used to interact with Fieldguide Controls
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Controls
   name: Fieldguide controls API
   slug: fieldguide-controls-api
-- description: Endpoints used to interact with Fieldguide Engagements
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Engagements
   name: Fieldguide engagements API
   slug: fieldguide-engagements-api
-- description: Endpoints used to interact with Fieldguide Files
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Files
   name: Fieldguide files API
   slug: fieldguide-files-api
-- description: Endpoints used to interact with Fieldguide Insights
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Insights
   name: Fieldguide insights API
   slug: fieldguide-insights-api
-- description: Endpoints used to interact with long-running processes (Jobs) in the Fieldguide API
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with long-running processes (Jobs) in the Fieldguide API
   name: Fieldguide jobs API
   slug: fieldguide-jobs-api
-- description: Endpoints used to interact with Fieldguide Milestones
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Milestones
   name: Fieldguide milestones API
   slug: fieldguide-milestones-api
-- description: Endpoints used to interact with Fieldguide Requests
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Requests
   name: Fieldguide requests API
   slug: fieldguide-requests-api
-- description: Endpoints used to interact with Fieldguide Sheet Columns
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Sheet Columns
   name: Fieldguide sheet-columns API
   slug: fieldguide-sheet-columns-api
-- description: Endpoints used to interact with Fieldguide Sheet Rows
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Sheet Rows
   name: Fieldguide sheet-rows API
   slug: fieldguide-sheet-rows-api
-- description: Endpoints used to interact with Fieldguide Sheets
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Sheets
   name: Fieldguide sheets API
   slug: fieldguide-sheets-api
-- description: Endpoints used to interact with Fieldguide Users
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Users
   name: Fieldguide users API
   slug: fieldguide-users-api
-- description: Endpoints used to interact with Fieldguide Webhooks
+- baseURL: https://api.fieldguide.io
+  baseurl_source: declared
+  description: Endpoints used to interact with Fieldguide Webhooks
   name: Fieldguide webhooks API
   slug: fieldguide-webhooks-api
 artifact_total: 38
@@ -292,7 +322,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -302,7 +332,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 43.7
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,7 +344,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/screenshots/fieldguide-2026-07-25T214434.png
 security:

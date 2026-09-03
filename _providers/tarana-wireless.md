@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'The TCS northbound REST API is how operators wire the Tarana Cloud Suite into their own OSS/BSS: device inventory, network topology discovery and geo-mapping, subscriber provisioning, billing integrat'
+- baseURL: https://portal.tcs.taranawireless.com/northbound
+  baseurl_source: declared
+  description: 'The TCS northbound REST API is how operators wire the Tarana Cloud Suite into their own OSS/BSS: device inventory, network topology discovery and geo-mapping, subscriber provisioning, billing integrat'
   name: Tarana Cloud Suite (TCS) Northbound API
   slug: tarana-cloud-suite-tcs-northbound-api
 artifact_total: 9
@@ -195,11 +209,11 @@ score:
   band: developing
   composite: 43.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -209,7 +223,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 43.8
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -220,8 +234,9 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tarana-wireless/refs/heads/main/screenshots/tarana-wireless-2026-09-02T162538.png
 security:
 - kind: authentication
   name: Tarana Wireless Authentication

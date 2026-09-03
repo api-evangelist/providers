@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 14 acting
 api_count: 1
 apis:
-- description: The DocumentClassifiers API from Azure AI Document Intelligence — 5 operation(s) for documentclassifiers.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentClassifiers API from Azure AI Document Intelligence — 5 operation(s) for documentclassifiers.
   name: Azure AI Document Intelligence DocumentClassifiers API
   slug: azure-document-intelligence-documentclassifiers-api
-- description: The DocumentClassifiers:authorizeCopy API from Azure AI Document Intelligence — 1 operation(s) for documentclassifiers:authorizecopy.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentClassifiers:authorizeCopy API from Azure AI Document Intelligence — 1 operation(s) for documentclassifiers:authorizecopy.
   name: Azure AI Document Intelligence DocumentClassifiers:authorizeCopy API
   slug: azure-document-intelligence-documentclassifiers-authorizecopy-api
-- description: The DocumentClassifiers:build API from Azure AI Document Intelligence — 1 operation(s) for documentclassifiers:build.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentClassifiers:build API from Azure AI Document Intelligence — 1 operation(s) for documentclassifiers:build.
   name: Azure AI Document Intelligence DocumentClassifiers:build API
   slug: azure-document-intelligence-documentclassifiers-build-api
-- description: The DocumentModels API from Azure AI Document Intelligence — 10 operation(s) for documentmodels.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentModels API from Azure AI Document Intelligence — 10 operation(s) for documentmodels.
   name: Azure AI Document Intelligence DocumentModels API
   slug: azure-document-intelligence-documentmodels-api
-- description: The DocumentModels:authorizeCopy API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:authorizecopy.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentModels:authorizeCopy API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:authorizecopy.
   name: Azure AI Document Intelligence DocumentModels:authorizeCopy API
   slug: azure-document-intelligence-documentmodels-authorizecopy-api
-- description: The DocumentModels:build API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:build.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentModels:build API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:build.
   name: Azure AI Document Intelligence DocumentModels:build API
   slug: azure-document-intelligence-documentmodels-build-api
-- description: The DocumentModels:compose API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:compose.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The DocumentModels:compose API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:compose.
   name: Azure AI Document Intelligence DocumentModels:compose API
   slug: azure-document-intelligence-documentmodels-compose-api
-- description: The Info API from Azure AI Document Intelligence — 1 operation(s) for info.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Info API from Azure AI Document Intelligence — 1 operation(s) for info.
   name: Azure AI Document Intelligence Info API
   slug: azure-document-intelligence-info-api
-- description: The Operations API from Azure AI Document Intelligence — 2 operation(s) for operations.
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Operations API from Azure AI Document Intelligence — 2 operation(s) for operations.
   name: Azure AI Document Intelligence Operations API
   slug: azure-document-intelligence-operations-api
 artifact_total: 28
@@ -220,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/screenshots/azure-document-intelligence-2026-06-20T172854.png
 security:

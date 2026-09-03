@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 519 operations · 264 acting · 6 human-in-the-loop
 api_count: 2
 apis:
-- description: Endpoints to list and dismiss active alerts. Alerts are triggered when an important event occurs that warrants user involvement. An alert can be considered dismissed if it has a dismissal timestamp an
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints to list and dismiss active alerts. Alerts are triggered when an important event occurs that warrants user involvement. An alert can be considered dismissed if it has a dismissal timestamp an
   name: Verifiable Alerts API
   slug: verifiable-alerts-api
-- description: Each API call that results in data being created, updated or deleted will result in one or more entries in the audit log. Using the endpoints provided in this section it is possible to list entries in
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Each API call that results in data being created, updated or deleted will result in one or more entries in the audit log. Using the endpoints provided in this section it is possible to list entries in
   name: Verifiable Audit API
   slug: verifiable-audit-api
-- description: These endpoint allow you to create and manage access tokens to be used in API calls. Unlike most other endpoints, when creating an access token, these do not require an access token to be used. Instea
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoint allow you to create and manage access tokens to be used in API calls. Unlike most other endpoints, when creating an access token, these do not require an access token to be used. Instea
   name: Verifiable Authentication API
   slug: verifiable-authentication-api
-- description: These endpoints allow you to add board certifications to a provider and perform certification lookups. Please note that a lookup may take some time depending on the load and performance of the externa
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoints allow you to add board certifications to a provider and perform certification lookups. Please note that a lookup may take some time depending on the load and performance of the externa
   name: Verifiable BoardCertifications API
   slug: verifiable-boardcertifications-api
-- description: The CognitoFormsWebhook API from Verifiable — 1 operation(s) for cognitoformswebhook.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The CognitoFormsWebhook API from Verifiable — 1 operation(s) for cognitoformswebhook.
   name: Verifiable CognitoFormsWebhook API
   slug: verifiable-cognitoformswebhook-api
-- description: The CreateOAuthCredentialsClientSecret API from Verifiable — 1 operation(s) for createoauthcredentialsclientsecret.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The CreateOAuthCredentialsClientSecret API from Verifiable — 1 operation(s) for createoauthcredentialsclientsecret.
   name: Verifiable CreateOAuthCredentialsClientSecret API
   slug: verifiable-createoauthcredentialsclientsecret-api
-- description: These endpoints allow you to create and get credentialing requests. A credentialing request is a workflow that supports the creation of a credentialing packet. You can create a request for Verifiable'
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoints allow you to create and get credentialing requests. A credentialing request is a workflow that supports the creation of a credentialing packet. You can create a request for Verifiable'
   name: Verifiable CredentialingRequests API
   slug: verifiable-credentialingrequests-api
-- description: Endpoints related to scanning datasets and reading resulting matches. The supported datasets will grow over time and can be discovered via the [ListDatasets](/references/api/datasets/listdatasets) end
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to scanning datasets and reading resulting matches. The supported datasets will grow over time and can be discovered via the [ListDatasets](/references/api/datasets/listdatasets) end
   name: Verifiable Datasets API
   slug: verifiable-datasets-api
-- description: These endpoints allow you to add DEA registration numbers to a provider and perform DEA registration lookups. Unlike license verifications a DEA registration lookup is done immediately.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoints allow you to add DEA registration numbers to a provider and perform DEA registration lookups. Unlike license verifications a DEA registration lookup is done immediately.
   name: Verifiable DEA API
   slug: verifiable-dea-api
-- description: Definitions for static data
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Definitions for static data
   name: Verifiable Definitions API
   slug: verifiable-definitions-api
-- description: The DeleteOAuthCredentialsClientSecret API from Verifiable — 1 operation(s) for deleteoauthcredentialsclientsecret.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The DeleteOAuthCredentialsClientSecret API from Verifiable — 1 operation(s) for deleteoauthcredentialsclientsecret.
   name: Verifiable DeleteOAuthCredentialsClientSecret API
   slug: verifiable-deleteoauthcredentialsclientsecret-api
-- description: Endpoints related to managing and retrieving Facility data. These APIs allow you to create, update, and retrieve facilities and their associated metadata. Each facility record includes key identifiers
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and retrieving Facility data. These APIs allow you to create, update, and retrieve facilities and their associated metadata. Each facility record includes key identifiers
   name: Verifiable Facilities API
   slug: verifiable-facilities-api
-- description: Endpoints related to managing and retrieving detailed Facility Info. These APIs allow you to manage key information associated with a facility, including NPI numbers, DEA registrations, liability insu
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and retrieving detailed Facility Info. These APIs allow you to manage key information associated with a facility, including NPI numbers, DEA registrations, liability insu
   name: Verifiable FacilitiesInfo API
   slug: verifiable-facilitiesinfo-api
-- description: 'Endpoints related to managing and retrieving Facility Specialties. These APIs allow you to associate specialties with a specific facility, retrieve a list of assigned specialties, view details for an '
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: 'Endpoints related to managing and retrieving Facility Specialties. These APIs allow you to associate specialties with a specific facility, retrieve a list of assigned specialties, view details for an '
   name: Verifiable FacilitiesSpecialties API
   slug: verifiable-facilitiesspecialties-api
-- description: Endpoints for binary file access. When any of the other APIs return file paths, these file paths are referring to the `path` parameter in the following API's. File paths are unique per organization, b
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints for binary file access. When any of the other APIs return file paths, these file paths are referring to the `path` parameter in the following API's. File paths are unique per organization, b
   name: Verifiable Files API
   slug: verifiable-files-api
-- description: Endpoints related to managing and listing groups. Providers and payers can be associated with groups.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and listing groups. Providers and payers can be associated with groups.
   name: Verifiable Groups API
   slug: verifiable-groups-api
-- description: These endpoints are used for our integrations with 3rd party services. They are not intended to be consumed directly by most clients. Please contact us for more information on our integration possibil
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoints are used for our integrations with 3rd party services. They are not intended to be consumed directly by most clients. Please contact us for more information on our integration possibil
   name: Verifiable Integrations API
   slug: verifiable-integrations-api
-- description: These endpoints allow you to add licenses to a provider and perform license lookups. Please note that a license lookup may take some time depending on the load and performance of the external data sou
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoints allow you to add licenses to a provider and perform license lookups. Please note that a license lookup may take some time depending on the load and performance of the external data sou
   name: Verifiable Licenses API
   slug: verifiable-licenses-api
-- description: The ListOAuthCredentials API from Verifiable — 1 operation(s) for listoauthcredentials.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The ListOAuthCredentials API from Verifiable — 1 operation(s) for listoauthcredentials.
   name: Verifiable ListOAuthCredentials API
   slug: verifiable-listoauthcredentials-api
-- description: 'Endpoints to allow you to enable/disable monitoring or update monitoring settings for monitorable data. ## License Expiration Monitoring License Expiration Monitoring is a process that automatically p'
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: 'Endpoints to allow you to enable/disable monitoring or update monitoring settings for monitorable data. ## License Expiration Monitoring License Expiration Monitoring is a process that automatically p'
   name: Verifiable Monitoring API
   slug: verifiable-monitoring-api
-- description: These endpoints allow you to create and manage provider notes.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: These endpoints allow you to create and manage provider notes.
   name: Verifiable Notes API
   slug: verifiable-notes-api
-- description: Endpoints related to managing and listing payer plans.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and listing payer plans.
   name: Verifiable PayerPlans API
   slug: verifiable-payerplans-api
-- description: Endpoints related to managing and listing payers. Each payer can have zero or more payer plans.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and listing payers. Each payer can have zero or more payer plans.
   name: Verifiable Payers API
   slug: verifiable-payers-api
-- description: Endpoints related to managing and listing provider enrollments. Providers in a group can be associated to payer plans via provider enrollments.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and listing provider enrollments. Providers in a group can be associated to payer plans via provider enrollments.
   name: Verifiable ProviderEnrollments API
   slug: verifiable-providerenrollments-api
-- description: 'These endpoints let you import a provider’s profile data from different sources (such as a provider’s National Provider Identifier (NPI) record). This allows you to build a more complete picture of a '
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: 'These endpoints let you import a provider’s profile data from different sources (such as a provider’s National Provider Identifier (NPI) record). This allows you to build a more complete picture of a '
   name: Verifiable ProviderProfiles API
   slug: verifiable-providerprofiles-api
-- description: Endpoints related to managing and listing providers. A provider must be created and associated with license numbers, NPI numbers or other identifiers that can be used to perform lookups to fetch assoc
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and listing providers. A provider must be created and associated with license numbers, NPI numbers or other identifiers that can be used to perform lookups to fetch assoc
   name: Verifiable Providers API
   slug: verifiable-providers-api
-- description: 'Endpoints related to managing and listing providers'' info. Education, insurance, training and CAQH login info can be added to providers. Education, liability insurance, and training can have multiple '
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: 'Endpoints related to managing and listing providers'' info. Education, insurance, training and CAQH login info can be added to providers. Education, liability insurance, and training can have multiple '
   name: Verifiable ProvidersInfo API
   slug: verifiable-providersinfo-api
-- description: The Reports API from Verifiable — 4 operation(s) for reports.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The Reports API from Verifiable — 4 operation(s) for reports.
   name: Verifiable Reports API
   slug: verifiable-reports-api
-- description: The SsoAdminPortal API from Verifiable — 1 operation(s) for ssoadminportal.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The SsoAdminPortal API from Verifiable — 1 operation(s) for ssoadminportal.
   name: Verifiable SsoAdminPortal API
   slug: verifiable-ssoadminportal-api
-- description: The SsoAuth API from Verifiable — 1 operation(s) for ssoauth.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The SsoAuth API from Verifiable — 1 operation(s) for ssoauth.
   name: Verifiable SsoAuth API
   slug: verifiable-ssoauth-api
-- description: Endpoints related to managing and listing users.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints related to managing and listing users.
   name: Verifiable Users API
   slug: verifiable-users-api
-- description: Endpoints to allow you to create and manage webhooks that will be called when a special event occurs. On this special event Verifiable will attempt to make an HTTP POST to the URL specified in the web
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: Endpoints to allow you to create and manage webhooks that will be called when a special event occurs. On this special event Verifiable will attempt to make an HTTP POST to the URL specified in the web
   name: Verifiable Webhooks API
   slug: verifiable-webhooks-api
-- description: The WorkOsWebhook API from Verifiable — 1 operation(s) for workoswebhook.
+- baseURL: https://discovery.verifiable.com/api
+  baseurl_source: declared
+  description: The WorkOsWebhook API from Verifiable — 1 operation(s) for workoswebhook.
   name: Verifiable WorkOsWebhook API
   slug: verifiable-workoswebhook-api
 artifact_total: 73
@@ -403,7 +469,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -413,7 +479,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 54.3
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -431,7 +497,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:

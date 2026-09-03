@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: Post categories
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: Post categories
   name: Atsena Therapeutics Categories API
   slug: atsena-therapeutics-categories-api
-- description: Route index, content types, taxonomies and post statuses
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: Route index, content types, taxonomies and post statuses
   name: Atsena Therapeutics Discovery API
   slug: atsena-therapeutics-discovery-api
-- description: Media library items
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: Media library items
   name: Atsena Therapeutics Media API
   slug: atsena-therapeutics-media-api
-- description: oEmbed representation of site URLs
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representation of site URLs
   name: Atsena Therapeutics O Embed API
   slug: atsena-therapeutics-oembed-api
-- description: 'Static site pages: programs, technology, clinical trials, patients, about'
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: 'Static site pages: programs, technology, clinical trials, patients, about'
   name: Atsena Therapeutics Pages API
   slug: atsena-therapeutics-pages-api
-- description: Press releases and company news
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: Press releases and company news
   name: Atsena Therapeutics Posts API
   slug: atsena-therapeutics-posts-api
-- description: Cross-content search over posts and pages
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search over posts and pages
   name: Atsena Therapeutics Search API
   slug: atsena-therapeutics-search-api
-- description: Post tags
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: Post tags
   name: Atsena Therapeutics Tags API
   slug: atsena-therapeutics-tags-api
 artifact_total: 20
@@ -229,7 +256,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -239,7 +266,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.7
+  previous_composite: 19.5
   provenance:
     conformance: derived
     contracts:
@@ -255,8 +282,8 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atsena-therapeutics/refs/heads/main/screenshots/atsena-therapeutics-2026-08-07T161907.png
 security:
 - kind: authentication

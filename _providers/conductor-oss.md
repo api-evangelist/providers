@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -45,16 +45,24 @@ apis:
 - description: Conductor MCP is an official Model Context Protocol server for Orkes Conductor that exposes workflow execution, task management, and metadata operations as MCP tools so that LLMs and AI agents can orc
   name: Conductor MCP Server
   slug: conductor-mcp
-- description: The Events API from Conductor OSS — 1 operation(s) for events.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: The Events API from Conductor OSS — 1 operation(s) for events.
   name: Conductor OSS Events API
   slug: conductor-oss-events-api
-- description: The Metadata API from Conductor OSS — 4 operation(s) for metadata.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: The Metadata API from Conductor OSS — 4 operation(s) for metadata.
   name: Conductor OSS Metadata API
   slug: conductor-oss-metadata-api
-- description: The Tasks API from Conductor OSS — 5 operation(s) for tasks.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: The Tasks API from Conductor OSS — 5 operation(s) for tasks.
   name: Conductor OSS Tasks API
   slug: conductor-oss-tasks-api
-- description: The Workflow API from Conductor OSS — 9 operation(s) for workflow.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: The Workflow API from Conductor OSS — 9 operation(s) for workflow.
   name: Conductor OSS Workflow API
   slug: conductor-oss-workflow-api
 artifact_total: 38
@@ -263,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/screenshots/conductor-oss-2026-06-20T174846.png
 security:

@@ -1,6 +1,6 @@
 {
- "total": 41,
- "shown": 41,
+ "total": 47,
+ "shown": 47,
  "limit": 1000,
  "bands": [
   {
@@ -28,7 +28,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -70,8 +70,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Mollie",
@@ -91,7 +91,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -141,11 +141,11 @@
      "slug": "kpn",
      "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png",
-     "score": 62.2,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 66.7,
       "contract_quality": 63.8,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -154,7 +154,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -189,6 +189,57 @@
      "rank": 3
     },
     {
+     "name": "Nedap",
+     "slug": "nedap",
+     "description": "Nedap N.V. is a Dutch technology company founded in 1929 and listed on Euronext Amsterdam, headquartered in Groenlo, the Netherlands, with roughly 1,000 employees. It builds what it calls Digital Twin Technology across four markets — Healthcare (the Ons electronic health record suite and MediKIT for general practitioners), Livestock (cow monitoring), Retail (the iD Cloud RFID inventory platform and iSenseOS loss prevention) and Security (Nedap Access physical identity management and long-range vehicle/driver identification readers). Its most openly documented API surface is Ons API at ons-api.nl, a 926-operation OpenAPI 3.0.3 REST contract for the Ons care platform covering client dossiers, care planning, scheduling, rostering, payroll and finance, together with a 31-path openEHR composition and archetype surface, a webhook event service described in OpenAPI 3.1 webhooks, and a small scopes-and-clearances authorization API. A FHIR read/search surface built on the Dutch ZIB information models is documented but is not in the public specification — those endpoints sit behind the Ons API Dashboard. Access is gated on a client TLS certificate signed by Nedap's own CA and issued through the Ons API Dashboard, so the specifications are public while the runtime is not.",
+     "score": 60.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 54.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 100.0,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 38.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
      "name": "University of Twente",
      "slug": "university-of-twente",
      "description": "The University of Twente (Universiteit Twente, UT), founded in 1961 in Enschede, Netherlands, is a public technical research university. Its programmable footprint is small but, unusually for this cohort, not empty and not borrowed: the university operates one API of its own. The University of Twente Energy API at energyapi.utwente.nl publishes an OpenAPI 3.0.1 contract and a Swagger UI, requires no authentication, and serves historical electricity, gas, heat, water and solar metering for 103 named campus resources — with a CO2-equivalent mode computed against the Dutch national energy mix — from the university's own network. It backs the public Energy Data Platform at energydata.utwente.nl. Around that single owned contract, everything else is a relationship rather than an engineering artifact, and is recorded as such. The university runs its own SAML 2.0 identity provider on a Microsoft Entra ID tenant, registered in the SURFconext national federation with the Shibboleth scope utwente.nl — the strongest institution-operated surface it has after the Energy API. Its library is a Crossref member in its own name (prefix 10.3990). It publishes a live Erasmus Without Paper node declaring fifteen student-mobility APIs scoped to HEI ID utwente.nl. Its research information system, learning management system, student information system and research-data repository are all tenancies on Elsevier Pure, Instructure Canvas, CACI OSIRIS and 4TU.ResearchData respectively — real institutional facts, none of them the university's contract. There is no central developer portal, no API catalog and no published terms for the one API that exists. A previously catalogued OAI-PMH endpoint on the Pure host was re-probed on 2026-09-01 and does not respond; that claim has been corrected rather than carried forward.",
@@ -206,7 +257,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -238,7 +289,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
+    },
+    {
+     "name": "Cadasto",
+     "slug": "cadasto",
+     "description": "Cadasto B.V. is a Dutch health-IT company (Alkmaar, Netherlands) that builds a vendor-neutral Clinical Data Repository on the openEHR standard. The Cadasto CDR stores structured care data as openEHR compositions and exposes the openEHR ITS-REST 1.0.3 API surface — EHR, Query (AQL), Definition, Demographic, Admin and System — plus a Cadasto-specific Additional API for Datamap (a simplified JSON projection of openEHR paths), episodes of care and terminology helpers, a bidirectional FHIR R3 facade, and SMART-on-openEHR app launch. Access is OAuth 2.0 client-credentials per tenant. Cadasto also publishes an unusually strong agent surface for its size: a live anonymous MCP server for openEHR modelling knowledge, eight packaged Agent Skills, a Claude Code plugin marketplace, an llms.txt, and a public openEHR conformance statement naming every specification version it does and does not implement.",
+     "score": 56.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 48.1,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 78.6,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 68.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
     }
    ],
    "open": true
@@ -269,7 +371,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -294,19 +396,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 7
     },
     {
      "name": "Silverflow",
      "slug": "silverflow",
      "description": "Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface, and publishes a sandbox with amount-driven authorization test scenarios.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png",
-     "score": 51.3,
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 70.4,
-      "contract_quality": 63.0,
+      "contract_quality": 64.9,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 57.9,
@@ -314,7 +416,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -346,7 +448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 8
     },
     {
      "name": "Payt",
@@ -366,7 +468,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -398,59 +500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
-    },
-    {
-     "name": "Erasmus University Rotterdam",
-     "slug": "erasmus-university-rotterdam",
-     "description": "Erasmus University Rotterdam (EUR) is a Dutch public research university founded in 1913, ranked #158 in the QS World University Rankings 2025, with ROR https://ror.org/057w15z03 and the registrable domain eur.nl. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited EUR with eleven API entries and ten OpenAPI contracts. Every one of them was api.figshare.com/v2 — one Figshare document that the same pass attributed to twenty-five different universities, split by tag into ten apparent surfaces titled \"Figshare altmetric Articles API\", \"Figshare altmetric Authors API\" and so on, and it put EUR fifth in the whole 248-institution university cohort. Those contracts, and the twenty Postman and OpenCollection files, four JSON Schemas, three JSON Structures, four payload examples, the JSON-LD context, the vocabulary, the OAuth scopes, the authentication summary, the agentic-access classification, the two Spectral rulesets and the capability map derived from them, have all been removed — 51 files. The attribution was wrong twice over: EUR's Figshare tenancy ENDED on 30 October 2025, when the EUR Data Repository moved to DataverseNL hosted by DANS, and datarepository.eur.nl now has no DNS record at all. What is left is what EUR actually operates. The genuine institution-run surface is the RePub OAI-PMH 2.0 endpoint at repub.eur.nl/oai — keyless, live, correctly configured with an OpenAIRE and an NWO set and three metadata formats, on the university library's own infrastructure with @ubib.eur.nl administrative contacts and no vendor CNAME in the chain. Beside it sits api.eur.nl, a Kong API gateway EUR runs on its own address space that answers 401 with WWW-Authenticate: Basic realm=\"kong\" and publishes no route, no reference and no contract to the public internet. EUR holds its own DataCite membership (symbol DHCM, 3,722 DOIs minted) and publishes a live RFC 9116 security.txt. Everything else programmable is a tenancy that is a real institutional fact but somebody else's engineering: the EUR Research Repository on Elsevier Pure at pure.eur.nl, the EUR Data Repository on DataverseNL, the course catalogue on Caci's OSIRIS, the Canvas LMS with a live LTI 1.3 keyset, and the SURFconext/eduGAIN identity provider that is a Microsoft Entra tenant behind SURF's proxy. EUR publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
-     "score": 47.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 59.8,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Utrecht University",
@@ -470,7 +520,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -502,19 +552,71 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "Erasmus University Rotterdam",
+     "slug": "erasmus-university-rotterdam",
+     "description": "Erasmus University Rotterdam (EUR) is a Dutch public research university founded in 1913, ranked #158 in the QS World University Rankings 2025, with ROR https://ror.org/057w15z03 and the registrable domain eur.nl. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited EUR with eleven API entries and ten OpenAPI contracts. Every one of them was api.figshare.com/v2 — one Figshare document that the same pass attributed to twenty-five different universities, split by tag into ten apparent surfaces titled \"Figshare altmetric Articles API\", \"Figshare altmetric Authors API\" and so on, and it put EUR fifth in the whole 248-institution university cohort. Those contracts, and the twenty Postman and OpenCollection files, four JSON Schemas, three JSON Structures, four payload examples, the JSON-LD context, the vocabulary, the OAuth scopes, the authentication summary, the agentic-access classification, the two Spectral rulesets and the capability map derived from them, have all been removed — 51 files. The attribution was wrong twice over: EUR's Figshare tenancy ENDED on 30 October 2025, when the EUR Data Repository moved to DataverseNL hosted by DANS, and datarepository.eur.nl now has no DNS record at all. What is left is what EUR actually operates. The genuine institution-run surface is the RePub OAI-PMH 2.0 endpoint at repub.eur.nl/oai — keyless, live, correctly configured with an OpenAIRE and an NWO set and three metadata formats, on the university library's own infrastructure with @ubib.eur.nl administrative contacts and no vendor CNAME in the chain. Beside it sits api.eur.nl, a Kong API gateway EUR runs on its own address space that answers 401 with WWW-Authenticate: Basic realm=\"kong\" and publishes no route, no reference and no contract to the public internet. EUR holds its own DataCite membership (symbol DHCM, 3,722 DOIs minted) and publishes a live RFC 9116 security.txt. Everything else programmable is a tenancy that is a real institutional fact but somebody else's engineering: the EUR Research Repository on Elsevier Pure at pure.eur.nl, the EUR Data Repository on DataverseNL, the course catalogue on Caci's OSIRIS, the Canvas LMS with a live LTI 1.3 keyset, and the SURFconext/eduGAIN identity provider that is a Microsoft Entra tenant behind SURF's proxy. EUR publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
+     "score": 46.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 79.6,
+      "contract_quality": 57.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
     },
     {
      "name": "University of Groningen",
      "slug": "university-of-groningen",
      "description": "The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, the Netherlands, founded in 1614. Measured honestly, it runs no API programme: there is no developer portal, no api.rug.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate — api.rug.nl, data.rug.nl, developer.rug.nl and status.rug.nl do not resolve at all. What it does operate, on its own domain, is a small set of real programmable surfaces: the Ocasys course and degree-programme catalog, whose JSON backend at ocasys.rug.nl/api answers unauthenticated course search, full course records, programme search, faculties and controlled option lists, and emits RFC 9457 problem details on error; a keyless OAI-PMH 2.0 endpoint at pure.rug.nl/ws/oai serving 1,521,703 identifiers across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; and its own SAML 2.0 identity provider at signon.rug.nl, registered in eduGAIN through SURFconext. Everything else that looks like a University of Groningen API is a purchase. The CRIS is Elsevier Pure, research data lives in a collection inside the shared national DataverseNL installation that DANS and SURF operate, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as the University's engineering.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png",
-     "score": 46.9,
+     "score": 46.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 54.8,
+      "contract_quality": 54.1,
       "governance": 22.7,
       "contract_governance": 22.7,
       "operational_transparency": 26.3,
@@ -522,7 +624,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -554,7 +656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Wageningen University & Research",
@@ -574,7 +676,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -606,19 +708,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "University of Amsterdam",
      "slug": "university-of-amsterdam",
      "description": "The University of Amsterdam (Universiteit van Amsterdam, UvA) is a public research university in Amsterdam, Netherlands, a LERU member and one of the two large research universities in the city. It operates no central developer portal and issues no public API keys, and the honest shape of its programmable footprint is three institution-run surfaces surrounded by six vendor platforms it is a tenant of. What it genuinely runs itself: a shared AI gateway with the Amsterdam University of Applied Sciences at llmproxy.uva.nl that serves a full OpenAPI 3.1 description and issues keys to staff, students and developers on request; a SAML 2.0 identity provider whose signed federation metadata is published on its own host and registered in SURFconext and eduGAIN; and the DataNose course and registration API on its own network, whose Swagger UI answers but whose generated description currently returns 500. Everything else that looks like a UvA API is a contract someone else wrote: the library's Linked Open Data platform is a TriplyDB tenancy, the research repository is Figshare, UvA-DARE and its OAI-PMH feed are Elsevier Pure, the archives OAI provider is LYRASIS-hosted ArchivesSpace, the central catalogue OAI endpoint is Ex Libris Alma and now returns 403 to the public, and the timetable API is Eveoh MyTimetable behind SSO. The data in those systems is the university's; the interfaces are not.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-08-17T083414.png",
-     "score": 43.8,
+     "score": 44.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 61.0,
+      "contract_quality": 61.9,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
@@ -626,7 +728,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -658,7 +760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 14
     }
    ]
   },
@@ -688,7 +790,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -720,7 +822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Rabobank Australia",
@@ -740,7 +842,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -772,19 +874,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "Maastricht University",
      "slug": "maastricht",
      "description": "Maastricht University (UM) is a public research university in Maastricht, Netherlands, founded in 1976 and known internationally for its Problem-Based Learning model. Measured honestly, UM operates no API programme: there is no developer portal, no api.maastrichtuniversity.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate. What it does operate is a small set of standards-based surfaces on its own domain — a live, keyless OAI-PMH 2.0 harvesting endpoint at cris.maastrichtuniversity.nl serving 798,420 records across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; a self-hosted GitLab whose REST API answers unauthenticated project queries; and its own ADFS identity provider publishing both OpenID Connect discovery and signed SAML 2.0 federation metadata, with its entity carried in SURFconext and thereby eduGAIN. Everything else that looks like a Maastricht API is a purchase: research data lives in a collection inside the shared national DataverseNL installation, the CRIS is Elsevier Pure, the LMS is Instructure Canvas, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as Maastricht's engineering.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png",
-     "score": 38.3,
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 15.6,
+      "contract_quality": 14.3,
       "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
@@ -792,7 +894,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -824,12 +926,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Virtuagym",
      "slug": "virtuagym",
      "description": "Virtuagym is a Netherlands-based fitness and health club management platform that combines member management, membership and billing administration, class and appointment scheduling, access control / check-ins, and digital coaching (workouts, nutrition, and a branded member app) into one SaaS suite for gyms, studios, personal trainers, and corporate wellness programs. Its Public API (v1) is club-scoped and lets partners and businesses read and write members, employees, membership definitions and instances, member credits, invoices, visits (check-ins), events (classes) and participants, and coaching workout assignments. v1 endpoints authenticate with an api_key plus a club_secret passed as query parameters over HTTPS. Authoritative reference documentation is access-gated (request via api@virtuagym.com); the endpoints modeled here are grounded in Virtuagym's publicly mirrored API wiki and live host probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/screenshots/virtuagym-2026-09-02T170012.png",
      "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
@@ -843,7 +946,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -875,7 +978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Telefoon",
@@ -894,7 +997,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -926,7 +1029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "Leiden University",
@@ -946,7 +1049,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -978,7 +1081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Nmbrs",
@@ -998,7 +1101,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1023,7 +1126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Vrije Universiteit Amsterdam",
@@ -1043,7 +1146,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1075,7 +1178,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "EFFECT Photonics",
@@ -1094,7 +1197,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1126,7 +1229,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "GLS Group",
@@ -1146,7 +1249,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1171,7 +1274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 24
     }
    ]
   },
@@ -1180,8 +1283,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Eindhoven University of Technology",
@@ -1201,7 +1304,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1233,7 +1336,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 25
+    },
+    {
+     "name": "Code24",
+     "slug": "code24",
+     "description": "CODE24 B.V. is a Dutch healthcare software company in Alkmaar that builds mConsole, a modern, modular electronic health record (EPD) for care and mental-health (GGZ) organisations, together with a family of \"24\" modules — Lab24, Opname24 (admissions), CrisisMonitor24, CTB24, Connect24, Router24, Dynaform24, Financieel24 and DataWarehouse24. Its architectural position is that a modern EPD must be open: care data is stored in standardised form using openEHR archetypes and Dutch zibs (zorginformatiebouwstenen), and every record is readable and writable through a software interface (API) so other care systems can be integrated without duplicate data entry. Connect24 exposes a FHIR REST API for collecting and transforming patient data to the Dutch MedMij standard; Router24 is a MedMij-qualified DVA that performs the authentication and resource-server roles for routing data to personal health environments (PGOs). CODE24 is also a Value Added Reseller of the Cadasto openEHR open data platform. The API surface is real but commercial: no developer portal, no public API reference and no machine-readable contract are published on any CODE24 host.",
+     "score": 23.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 42.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
     },
     {
      "name": "data.overheid.nl",
@@ -1253,7 +1407,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1285,7 +1439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 27
     },
     {
      "name": "TOPdesk",
@@ -1305,7 +1459,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1330,7 +1484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 28
     },
     {
      "name": "ScreenPoint Medical",
@@ -1350,7 +1504,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1382,7 +1536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 29
     },
     {
      "name": "Insify",
@@ -1402,7 +1556,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1434,7 +1588,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 30
     }
    ]
   },
@@ -1443,8 +1597,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 14,
-   "shown": 14,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Otrium",
@@ -1464,7 +1618,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1489,12 +1643,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 31
     },
     {
      "name": "Superscript",
      "slug": "superscript",
      "description": "Superscript is a UK- and Netherlands-based business insurance provider offering flexible, subscription-based cover for small and growing businesses, sole traders, landlords, and larger enterprises. Its product range spans public and employers' liability, professional indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass it publishes no public API, developer portal, or programmatic integration surface; this profile captures its public web identity and probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superscript/refs/heads/main/screenshots/superscript-2026-09-02T161254.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1508,7 +1663,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1540,7 +1695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 32
     },
     {
      "name": "Plumery",
@@ -1560,7 +1715,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1592,7 +1747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 33
     },
     {
      "name": "Mosa Meat",
@@ -1612,7 +1767,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1637,7 +1792,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 34
     },
     {
      "name": "Leyden Labs",
@@ -1657,7 +1812,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1689,7 +1844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 35
     },
     {
      "name": "aardaia",
@@ -1709,7 +1864,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1734,12 +1889,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 36
     },
     {
      "name": "Smiler",
      "slug": "smiler",
      "description": "Smiler is an Amsterdam-based on-the-spot photography marketplace that connects travelers and consumers with a network of professional freelance photographers at popular tourist hotspots and leisure locations worldwide. Founded in 2020, Smiler lets people book fast, affordable photoshoots in advance across 100+ destinations, with photos delivered within 48 hours and free cancellation up to 24 hours before the shoot. The company also operates the Smiler Photographer Suite, an all-in-one tool for photographers to build portfolio websites, manage bookings, deliver mobile-friendly client galleries, and handle payments. Smiler is trusted by tens of thousands of photographers across 50+ countries and is backed by Speedinvest, Mosaic Ventures, Dutch Founders Fund, and PROfounders.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smiler/refs/heads/main/screenshots/smiler-2026-09-02T155946.png",
      "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1753,7 +1909,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1778,7 +1934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 37
     },
     {
      "name": "Rabobank",
@@ -1798,7 +1954,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1830,7 +1986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 38
     },
     {
      "name": "Baan",
@@ -1849,150 +2005,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 36
-    },
-    {
-     "name": "Peerby",
-     "slug": "peerby",
-     "description": "Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peerby/refs/heads/main/screenshots/peerby-2026-09-02T150939.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Qphox",
-     "slug": "qphox",
-     "description": "QphoX is a Delft, Netherlands-based quantum technology company founded in 2021 and spun out of Delft University of Technology (TU Delft). It develops quantum networking hardware to tackle the scaling challenges of quantum computing, centered on its Quantum Transducer, described as the first quantum interface between single optical and single microwave photons, enabling optical interconnects between superconducting quantum processors. Alongside the transducer, QphoX offers an Optical Control System for delivering RF signals into extreme cryogenic environments and a CryoSwitch Control Module for use with Radiall's cryogenic latching actuator. The company publishes open-source Python instrument-control libraries (QCoDeS drivers) on GitHub for operating its hardware. QphoX is backed by Speedinvest. QphoX exposes no public web API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qphox/refs/heads/main/screenshots/qphox-2026-09-02T152538.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 38
-    },
-    {
-     "name": "Greenchoice",
-     "slug": "greenchoice",
-     "description": "Greenchoice is a Dutch energy supplier focused on green electricity and gas, offering renewable energy contracts, solar panels, heat pumps, and EV charging services to consumers and businesses in the Netherlands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2019,9 +2033,202 @@
      "rank": 39
     },
     {
-     "name": "Tibo Energy",
-     "slug": "tibo-energy",
-     "description": "Tibo Energy is an Eindhoven-based energy software company building an AI-driven Energy Management System (EMS) for commercial and industrial customers. Its SaaS platform simulates, monitors, and autonomously controls on-site energy hubs and smart grids, coordinating distributed assets such as heat pumps, EV charging stations, and battery storage to cut energy costs and emissions and to unlock additional capacity from existing infrastructure without waiting for grid upgrades. Tibo connects hardware through standard protocols such as MODBUS and OCPP via the Tibo Gateway and exchanges data with BMS, SCADA, and ERP systems through open APIs. Since launching in late 2023 it has deployed its EMS across more than 30 industrial sites and is backed by KOMPAS VC, Hitachi Ventures, SET Ventures, WEPA Ventures, and Speedinvest.",
+     "name": "Peerby",
+     "slug": "peerby",
+     "description": "Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peerby/refs/heads/main/screenshots/peerby-2026-09-02T150939.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "Qphox",
+     "slug": "qphox",
+     "description": "QphoX is a Delft, Netherlands-based quantum technology company founded in 2021 and spun out of Delft University of Technology (TU Delft). It develops quantum networking hardware to tackle the scaling challenges of quantum computing, centered on its Quantum Transducer, described as the first quantum interface between single optical and single microwave photons, enabling optical interconnects between superconducting quantum processors. Alongside the transducer, QphoX offers an Optical Control System for delivering RF signals into extreme cryogenic environments and a CryoSwitch Control Module for use with Radiall's cryogenic latching actuator. The company publishes open-source Python instrument-control libraries (QCoDeS drivers) on GitHub for operating its hardware. QphoX is backed by Speedinvest. QphoX exposes no public web API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qphox/refs/heads/main/screenshots/qphox-2026-09-02T152538.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 41
+    },
+    {
+     "name": "Affy MedTech",
+     "slug": "affy-medtech",
+     "description": "Affy MedTech is a UK- and Netherlands-based health technology company behind Lynx, a modular, cloud-hosted platform for hospitals and healthcare delivery organisations that consolidates authoritative treatment information, patient booking, electronic medical records, clinical documentation, billing and claims validation, reporting, remote diagnostics and ambulatory ECG into a single system. Its Patient Interaction Module gives patients access to their own records, prescriptions, diagnostic images and treatment plans with self-service booking, digital consent and online payment, while the Super Switch Module acts as a real-time integration bridge between hospital systems such as radiology, laboratory and billing. The platform is marketed alongside Total Doctor / Total Health and is deployed by international hospital groups as well as smaller clinics and specialist centres. Affy MedTech is a Silver Industry Partner of openEHR International and operates alongside Vertice Software Solutions, which publishes Lynx in other markets. AFFY MEDTECH UKI LTD (company number 17000777) was incorporated in England on 30 January 2026 and is controlled by Affy Medtech B.V. of Amsterdam. As of September 2026 affymedtech.com serves only a \"Coming Soon\" placeholder and the company publishes no public developer program, API reference or machine-readable contract.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 42
+    },
+    {
+     "name": "Enigma Health",
+     "slug": "enigma-health",
+     "description": "Enigma Health (Enigma Global eHealth) is a Netherlands-based digital health startup building a secure, private eHealth portal intended to connect patients, doctors and healthcare institutions, and to give patients lifelong, worldwide access to their own electronic health record together with a digital vaccine passport kept in sync with that record. Founded by Dutch GP and global-health researcher Remko Schats and incubated at UtrechtInc, the company is a Startup level Industry Partner of the openEHR International Foundation, placing its intended data layer on the openEHR clinical data platform standard rather than a proprietary record format. As of September 2026 the company is pre-launch: enigma-health.org serves a single 'Coming Soon' page and Enigma Health publishes no API, SDK, developer portal or machine-readable contract.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 43
+    },
+    {
+     "name": "Greenchoice",
+     "slug": "greenchoice",
+     "description": "Greenchoice is a Dutch energy supplier focused on green electricity and gas, offering renewable energy contracts, solar panels, heat pumps, and EV charging services to consumers and businesses in the Netherlands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2035,7 +2242,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2067,7 +2274,110 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 44
+    },
+    {
+     "name": "Tibo Energy",
+     "slug": "tibo-energy",
+     "description": "Tibo Energy is an Eindhoven-based energy software company building an AI-driven Energy Management System (EMS) for commercial and industrial customers. Its SaaS platform simulates, monitors, and autonomously controls on-site energy hubs and smart grids, coordinating distributed assets such as heat pumps, EV charging stations, and battery storage to cut energy costs and emissions and to unlock additional capacity from existing infrastructure without waiting for grid upgrades. Tibo connects hardware through standard protocols such as MODBUS and OCPP via the Tibo Gateway and exchanges data with BMS, SCADA, and ERP systems through open APIs. Since launching in late 2023 it has deployed its EMS across more than 30 industrial sites and is backed by KOMPAS VC, Hitachi Ventures, SET Ventures, WEPA Ventures, and Speedinvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tibo-energy/refs/heads/main/screenshots/tibo-energy-2026-09-02T163703.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 45
+    },
+    {
+     "name": "YellowBrink",
+     "slug": "yellowbrink",
+     "description": "YellowBrink is a Netherlands-based, vendor-neutral community platform for open health data, founded by Jan de Lange and Bouwe Koopal to connect healthcare professionals, vendors, researchers and policymakers working with open standards such as openEHR, HL7 FHIR, OMOP and SNOMED CT. The name pairs the Yellow Pages — showing who builds what — with \"brink\", the Dutch word for the village square where a community gathers. It runs weekly webinars in cooperation with openEHR NL, country and topic special-interest groups, and discussion and co-creation rooms, hosts \"The Brink\" partner and meeting area at the EHRCON26 conference in Amsterdam, and is developing a postdoctoral European Master of Data Availability programme with European universities and hospital systems. The platform is a white-labelled Innoloft LoftOS tenant; YellowBrink itself publishes no public API, SDK or developer program.",
+     "score": 2.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
     },
     {
      "name": "Fraudio",
@@ -2087,7 +2397,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2119,7 +2429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 47
     }
    ]
   }

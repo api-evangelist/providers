@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,94 +44,154 @@ agentic_access:
   summary_line: 108 operations · 42 acting
 api_count: 3
 apis:
-- description: The Activate API from Postmark — 1 operation(s) for activate.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Activate API from Postmark — 1 operation(s) for activate.
   name: Postmark Activate API
   slug: postmark-activate-api
-- description: The Alias API from Postmark — 1 operation(s) for alias.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Alias API from Postmark — 1 operation(s) for alias.
   name: Postmark Alias API
   slug: postmark-alias-api
-- description: The Batch API from Postmark — 2 operation(s) for batch.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Batch API from Postmark — 2 operation(s) for batch.
   name: Postmark Batch API
   slug: postmark-batch-api
-- description: The Bounceid API from Postmark — 3 operation(s) for bounceid.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Bounceid API from Postmark — 3 operation(s) for bounceid.
   name: Postmark Bounceid API
   slug: postmark-bounceid-api
-- description: The Bounces API API from Postmark — 5 operation(s) for bounces api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Bounces API API from Postmark — 5 operation(s) for bounces api.
   name: Postmark Bounces API API
   slug: postmark-bounces-api-api
-- description: The Bounces API from Postmark — 2 operation(s) for bounces.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Bounces API from Postmark — 2 operation(s) for bounces.
   name: Postmark Bounces API
   slug: postmark-bounces-api
-- description: The Browser Families API from Postmark — 1 operation(s) for browser families.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Browser Families API from Postmark — 1 operation(s) for browser families.
   name: Postmark Browser Families API
   slug: postmark-browser-families-api
-- description: The Bypass API from Postmark — 1 operation(s) for bypass.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Bypass API from Postmark — 1 operation(s) for bypass.
   name: Postmark Bypass API
   slug: postmark-bypass-api
-- description: The Deliverystats API from Postmark — 1 operation(s) for deliverystats.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Deliverystats API from Postmark — 1 operation(s) for deliverystats.
   name: Postmark Deliverystats API
   slug: postmark-deliverystats-api
-- description: The Domains API API from Postmark — 6 operation(s) for domains api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Domains API API from Postmark — 6 operation(s) for domains api.
   name: Postmark Domains API API
   slug: postmark-domains-api-api
-- description: The Dump API from Postmark — 2 operation(s) for dump.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Dump API from Postmark — 2 operation(s) for dump.
   name: Postmark Dump API
   slug: postmark-dump-api
-- description: The Email API from Postmark — 4 operation(s) for email.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Email API from Postmark — 4 operation(s) for email.
   name: Postmark Email API
   slug: postmark-email-api
-- description: The Emailclients API from Postmark — 1 operation(s) for emailclients.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Emailclients API from Postmark — 1 operation(s) for emailclients.
   name: Postmark Emailclients API
   slug: postmark-emailclients-api
-- description: The Inbound API from Postmark — 4 operation(s) for inbound.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Inbound API from Postmark — 4 operation(s) for inbound.
   name: Postmark Inbound API
   slug: postmark-inbound-api
-- description: The Inbound Rules API API from Postmark — 2 operation(s) for inbound rules api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Inbound Rules API API from Postmark — 2 operation(s) for inbound rules api.
   name: Postmark Inbound Rules API API
   slug: postmark-inbound-rules-api-api
-- description: The Locations API from Postmark — 1 operation(s) for locations.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Locations API from Postmark — 1 operation(s) for locations.
   name: Postmark Locations API
   slug: postmark-locations-api
-- description: The Message Identifier API from Postmark — 2 operation(s) for message identifier.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Message Identifier API from Postmark — 2 operation(s) for message identifier.
   name: Postmark Message Identifier API
   slug: postmark-message-identifier-api
-- description: The Messages API API from Postmark — 11 operation(s) for messages api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Messages API API from Postmark — 11 operation(s) for messages api.
   name: Postmark Messages API API
   slug: postmark-messages-api-api
-- description: The Messages API from Postmark — 11 operation(s) for messages.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Messages API from Postmark — 11 operation(s) for messages.
   name: Postmark Messages API
   slug: postmark-messages-api
-- description: The Outbound API from Postmark — 20 operation(s) for outbound.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Outbound API from Postmark — 20 operation(s) for outbound.
   name: Postmark Outbound API
   slug: postmark-outbound-api
-- description: The Sender Signatures API API from Postmark — 5 operation(s) for sender signatures api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Sender Signatures API API from Postmark — 5 operation(s) for sender signatures api.
   name: Postmark Sender Signatures API API
   slug: postmark-sender-signatures-api-api
-- description: The Sending API API from Postmark — 4 operation(s) for sending api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Sending API API from Postmark — 4 operation(s) for sending api.
   name: Postmark Sending API API
   slug: postmark-sending-api-api
-- description: The Server Configuration API API from Postmark — 1 operation(s) for server configuration api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Server Configuration API API from Postmark — 1 operation(s) for server configuration api.
   name: Postmark Server Configuration API API
   slug: postmark-server-configuration-api-api
-- description: The Server Management API API from Postmark — 2 operation(s) for server management api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Server Management API API from Postmark — 2 operation(s) for server management api.
   name: Postmark Server Management API API
   slug: postmark-server-management-api-api
-- description: The Servers API from Postmark — 1 operation(s) for servers.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Servers API from Postmark — 1 operation(s) for servers.
   name: Postmark Servers API
   slug: postmark-servers-api
-- description: The Stats API API from Postmark — 12 operation(s) for stats api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Stats API API from Postmark — 12 operation(s) for stats api.
   name: Postmark Stats API API
   slug: postmark-stats-api-api
-- description: The Templates API API from Postmark — 6 operation(s) for templates api.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Templates API API from Postmark — 6 operation(s) for templates api.
   name: Postmark Templates API API
   slug: postmark-templates-api-api
-- description: The Templates API from Postmark — 4 operation(s) for templates.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Templates API from Postmark — 4 operation(s) for templates.
   name: Postmark Templates API
   slug: postmark-templates-api
-- description: The Triggerid API from Postmark — 1 operation(s) for triggerid.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Triggerid API from Postmark — 1 operation(s) for triggerid.
   name: Postmark Triggerid API
   slug: postmark-triggerid-api
-- description: The Triggers API from Postmark — 4 operation(s) for triggers.
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Triggers API from Postmark — 4 operation(s) for triggers.
   name: Postmark Triggers API
   slug: postmark-triggers-api
 artifact_total: 133
@@ -689,7 +749,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -699,7 +759,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 72.2
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -711,7 +771,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/screenshots/postmark-2026-06-20T192003.png
 security:

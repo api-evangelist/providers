@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -43,139 +43,229 @@ agentic_access:
   summary_line: 166 operations · 98 acting
 api_count: 6
 apis:
-- description: The Campaigns API from Marketo — 7 operation(s) for campaigns.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Campaigns API from Marketo — 7 operation(s) for campaigns.
   name: Marketo Campaigns API
   slug: marketo-campaigns-api
-- description: Channel Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Channel Controller
   name: Marketo Channels API
   slug: marketo-channels-api
-- description: The Email Templates API from Marketo — 10 operation(s) for email templates.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Email Templates API from Marketo — 10 operation(s) for email templates.
   name: Marketo Email  Templates API
   slug: marketo-email-templates-api
-- description: Email Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Email Controller
   name: Marketo Emails API
   slug: marketo-emails-api
-- description: The File Contents API from Marketo — 1 operation(s) for file contents.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The File Contents API from Marketo — 1 operation(s) for file contents.
   name: Marketo File  Contents API
   slug: marketo-file-contents-api
-- description: File Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: File Controller
   name: Marketo Files API
   slug: marketo-files-api
-- description: Folder Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Folder Controller
   name: Marketo Folders API
   slug: marketo-folders-api
-- description: The Form Fields API from Marketo — 9 operation(s) for form fields.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Form Fields API from Marketo — 9 operation(s) for form fields.
   name: Marketo Form  Fields API
   slug: marketo-form-fields-api
-- description: Form Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Form Controller
   name: Marketo Forms API
   slug: marketo-forms-api
-- description: The Landing Page Content API from Marketo — 4 operation(s) for landing page content.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Landing Page Content API from Marketo — 4 operation(s) for landing page content.
   name: Marketo Landing  Page  Content API
   slug: marketo-landing-page-content-api
-- description: The Landing Page Redirect Rules API from Marketo — 4 operation(s) for landing page redirect rules.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Landing Page Redirect Rules API from Marketo — 4 operation(s) for landing page redirect rules.
   name: Marketo Landing  Page  Redirect  Rules API
   slug: marketo-landing-page-redirect-rules-api
-- description: The Landing Page Templates API from Marketo — 9 operation(s) for landing page templates.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Landing Page Templates API from Marketo — 9 operation(s) for landing page templates.
   name: Marketo Landing  Page  Templates API
   slug: marketo-landing-page-templates-api
-- description: The Landing Pages API from Marketo — 11 operation(s) for landing pages.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Landing Pages API from Marketo — 11 operation(s) for landing pages.
   name: Marketo Landing  Pages API
   slug: marketo-landing-pages-api
-- description: Program Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Program Controller
   name: Marketo Programs API
   slug: marketo-programs-api
-- description: Segment Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Segment Controller
   name: Marketo Segments API
   slug: marketo-segments-api
-- description: The Smart Campaigns API from Marketo — 8 operation(s) for smart campaigns.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Smart Campaigns API from Marketo — 8 operation(s) for smart campaigns.
   name: Marketo Smart  Campaigns API
   slug: marketo-smart-campaigns-api
-- description: The Smart Lists API from Marketo — 4 operation(s) for smart lists.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Smart Lists API from Marketo — 4 operation(s) for smart lists.
   name: Marketo Smart  Lists API
   slug: marketo-smart-lists-api
-- description: Snippet Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Snippet Controller
   name: Marketo Snippets API
   slug: marketo-snippets-api
-- description: The Static Lists API from Marketo — 3 operation(s) for static lists.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: The Static Lists API from Marketo — 3 operation(s) for static lists.
   name: Marketo Static  Lists API
   slug: marketo-static-lists-api
-- description: Token Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Token Controller
   name: Marketo Tokens API
   slug: marketo-tokens-api
-- description: Activities Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Activities Controller
   name: Marketo Activities API
   slug: marketo-activities-api
-- description: Bulk Export Activities Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Export Activities Controller
   name: Marketo Bulk Export Activities API
   slug: marketo-bulk-export-activities-api
-- description: Bulk Export Custom Objects Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Export Custom Objects Controller
   name: Marketo Bulk Export Custom Objects API
   slug: marketo-bulk-export-custom-objects-api
-- description: Bulk Export Leads Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Export Leads Controller
   name: Marketo Bulk Export Leads API
   slug: marketo-bulk-export-leads-api
-- description: Bulk Export Program Members Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Export Program Members Controller
   name: Marketo Bulk Export Program Members API
   slug: marketo-bulk-export-program-members-api
-- description: Bulk Import Custom Objects Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Import Custom Objects Controller
   name: Marketo Bulk Import Custom Objects API
   slug: marketo-bulk-import-custom-objects-api
-- description: Bulk Import Leads Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Import Leads Controller
   name: Marketo Bulk Import Leads API
   slug: marketo-bulk-import-leads-api
-- description: Bulk Import Program Members Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Bulk Import Program Members Controller
   name: Marketo Bulk Import Program Members API
   slug: marketo-bulk-import-program-members-api
-- description: Sync company records (createOnly, updateOnly, or createOrUpdate)
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Sync company records (createOnly, updateOnly, or createOrUpdate)
   name: Marketo Companies API
   slug: marketo-companies-api
-- description: Upsert (insert or update) custom object records
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Upsert (insert or update) custom object records
   name: Marketo Custom Objects API
   slug: marketo-custom-objects-api
-- description: API endpoints for managing email templates created with the new Email Designer in Marketo Engage.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: API endpoints for managing email templates created with the new Email Designer in Marketo Engage.
   name: Marketo Email Templates (New) API
   slug: marketo-email-templates-new-api
-- description: API endpoints for managing emails created with the new Email Designer in Marketo Engage.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: API endpoints for managing emails created with the new Email Designer in Marketo Engage.
   name: Marketo Emails (New) API
   slug: marketo-emails-new-api
-- description: API endpoints for managing fragments created with the new Email Designer in Marketo Engage.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: API endpoints for managing fragments created with the new Email Designer in Marketo Engage.
   name: Marketo Fragments (New) API
   slug: marketo-fragments-new-api
-- description: Identity Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Identity Controller
   name: Marketo Identity API
   slug: marketo-identity-api
-- description: Leads Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Leads Controller
   name: Marketo Leads API
   slug: marketo-leads-api
-- description: Add leads to or remove leads from static lists
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Add leads to or remove leads from static lists
   name: Marketo Lists API
   slug: marketo-lists-api
-- description: Named Account Lists Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Named Account Lists Controller
   name: Marketo Named Account Lists API
   slug: marketo-named-account-lists-api
-- description: Named Accounts Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Named Accounts Controller
   name: Marketo Named Accounts API
   slug: marketo-named-accounts-api
-- description: Opportunities Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Opportunities Controller
   name: Marketo Opportunities API
   slug: marketo-opportunities-api
-- description: Upsert (insert or update) person/lead records
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Upsert (insert or update) person/lead records
   name: Marketo Persons API
   slug: marketo-persons-api
-- description: Sync program member status or delete (remove) members from programs
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Sync program member status or delete (remove) members from programs
   name: Marketo Program Members API
   slug: marketo-program-members-api
-- description: Sales Persons Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Sales Persons Controller
   name: Marketo Sales Persons API
   slug: marketo-sales-persons-api
-- description: Tag Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Tag Controller
   name: Marketo Tags API
   slug: marketo-tags-api
-- description: Stats Controller
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Stats Controller
   name: Marketo Usage API
   slug: marketo-usage-api
-- description: Marketo Engage provides a set of User Management endpoints allow you to perform CRUD operations on user records in Marketo.
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Marketo Engage provides a set of User Management endpoints allow you to perform CRUD operations on user records in Marketo.
   name: Marketo User Management API
   slug: marketo-user-management-api
 artifact_total: 123
@@ -632,7 +722,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -642,7 +732,7 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 51.3
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -654,7 +744,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:

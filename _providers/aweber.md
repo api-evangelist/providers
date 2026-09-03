@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -46,43 +46,69 @@ agentic_access:
   summary_line: 57 operations · 19 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: The Accounts API from AWeber — 2 operations for listing the accounts an access token can reach and reading a single account, the root of the AWeber resource hierarchy.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Accounts API from AWeber — 2 operations for listing the accounts an access token can reach and reading a single account, the root of the AWeber resource hierarchy.
   name: AWeber Accounts API
   slug: aweber-accounts-api
-- description: The Broadcasts API from AWeber — 10 operations for creating, updating, scheduling, cancelling and deleting broadcast emails on a list, plus reading opens and clicks.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Broadcasts API from AWeber — 10 operations for creating, updating, scheduling, cancelling and deleting broadcast emails on a list, plus reading opens and clicks.
   name: AWeber Broadcasts API
   slug: aweber-broadcasts-api
-- description: The Campaigns API from AWeber — 5 operations for reading follow-up and broadcast campaigns on a list and their aggregate statistics.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Campaigns API from AWeber — 5 operations for reading follow-up and broadcast campaigns on a list and their aggregate statistics.
   name: AWeber Campaigns API
   slug: aweber-campaigns-api
-- description: The Custom Fields API from AWeber — 5 operations for creating, reading, renaming and deleting the custom subscriber fields defined on a list.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Custom Fields API from AWeber — 5 operations for creating, reading, renaming and deleting the custom subscriber fields defined on a list.
   name: AWeber Custom Fields API
   slug: aweber-custom-fields-api
-- description: The Landing Pages API from AWeber — 2 operations for reading the landing pages attached to a list.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Landing Pages API from AWeber — 2 operations for reading the landing pages attached to a list.
   name: AWeber Landing Pages API
   slug: aweber-landing-pages-api
-- description: The Lists API from AWeber — 4 operations for listing and finding the email lists on an account and reading the tags applied on a list.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Lists API from AWeber — 4 operations for listing and finding the email lists on an account and reading the tags applied on a list.
   name: AWeber Lists API
   slug: aweber-lists-api
-- description: The Segments API from AWeber — 2 operations for reading the saved segments defined on a list.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Segments API from AWeber — 2 operations for reading the saved segments defined on a list.
   name: AWeber Segments API
   slug: aweber-segments-api
-- description: The Subscribers API from AWeber — 12 operations for adding, reading, updating, moving, searching and deleting subscribers on a list, reading subscriber activity, and recording tracked purchases.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The Subscribers API from AWeber — 12 operations for adding, reading, updating, moving, searching and deleting subscribers on a list, reading subscriber activity, and recording tracked purchases.
   name: AWeber Subscribers API
   slug: aweber-subscribers-api
-- description: 'The Integrations API from AWeber — 2 operations for reading the third-party integrations (PayPal, Shopify, WordPress, Facebook and the rest of the 750+ app catalog) connected to an AWeber account and '
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: 'The Integrations API from AWeber — 2 operations for reading the third-party integrations (PayPal, Shopify, WordPress, Facebook and the rest of the 750+ app catalog) connected to an AWeber account and '
   name: AWeber Integrations API
   slug: aweber-integrations-api
-- description: '### What is it? Beta endpoints are early-access versions of the upcoming v2 API that provide developers with a preview of new features and changes before the official v2 release. These endpoints are a'
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: '### What is it? Beta endpoints are early-access versions of the upcoming v2 API that provide developers with a preview of new features and changes before the official v2 release. These endpoints are a'
   name: AWeber Beta Endpoints API
   slug: aweber-beta-endpoints-api
-- description: The OAuth 1.0a Reference API from AWeber — 2 operation(s) for oauth 1.0a reference.
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: The OAuth 1.0a Reference API from AWeber — 2 operation(s) for oauth 1.0a reference.
   name: AWeber OAuth 1.0a Reference API
   slug: aweber-oauth-1-0a-reference-api
-- description: These endpoints are used to authenticate with the api. The AWeber API uses the OAuth 2.0 model to handle authentication. OAuth is a standardized way for services to grant permission on a user's behalf
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: These endpoints are used to authenticate with the api. The AWeber API uses the OAuth 2.0 model to handle authentication. OAuth is a standardized way for services to grant permission on a user's behalf
   name: AWeber OAuth 2.0 Reference API
   slug: aweber-oauth-2-0-reference-api
-- description: '### What is it? Represents the collection of sign-up forms associated with the AWeber Customer Account''s lists. Webforms are sets of customized HTML and javascript that are used to put up a sign-up fo'
+- baseURL: https://api.aweber.com/1.0
+  baseurl_source: declared
+  description: '### What is it? Represents the collection of sign-up forms associated with the AWeber Customer Account''s lists. Webforms are sets of customized HTML and javascript that are used to put up a sign-up fo'
   name: AWeber Webforms API
   slug: aweber-webforms-api
 artifact_total: 37
@@ -371,7 +397,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -381,7 +407,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 72.5
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,7 +425,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png
 security:

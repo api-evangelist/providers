@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 25 operations · 13 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The accounts API from AdMob — 4 operation(s) for accounts.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The accounts API from AdMob — 4 operation(s) for accounts.
   name: AdMob Accounts API
   slug: admob-accounts-api
-- description: The adapters API from AdMob — 1 operation(s) for adapters.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adapters API from AdMob — 1 operation(s) for adapters.
   name: AdMob Adapters API
   slug: admob-adapters-api
-- description: The adSources API from AdMob — 1 operation(s) for adsources.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adSources API from AdMob — 1 operation(s) for adsources.
   name: AdMob Ad Sources API
   slug: admob-adsources-api
-- description: The adUnitMappings API from AdMob — 2 operation(s) for adunitmappings.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adUnitMappings API from AdMob — 2 operation(s) for adunitmappings.
   name: AdMob Ad Unit Mappings API
   slug: admob-adunitmappings-api
-- description: The adUnits API from AdMob — 2 operation(s) for adunits.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adUnits API from AdMob — 2 operation(s) for adunits.
   name: AdMob Ad Units API
   slug: admob-adunits-api
-- description: The apps API from AdMob — 2 operation(s) for apps.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The apps API from AdMob — 2 operation(s) for apps.
   name: AdMob Apps API
   slug: admob-apps-api
-- description: The campaignReport API from AdMob — 1 operation(s) for campaignreport.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The campaignReport API from AdMob — 1 operation(s) for campaignreport.
   name: AdMob Campaign Report API
   slug: admob-campaignreport-api
-- description: The mediationAbExperiments API from AdMob — 2 operation(s) for mediationabexperiments.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The mediationAbExperiments API from AdMob — 2 operation(s) for mediationabexperiments.
   name: AdMob Mediation Ab Experiments API
   slug: admob-mediationabexperiments-api
-- description: The mediationGroups API from AdMob — 2 operation(s) for mediationgroups.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The mediationGroups API from AdMob — 2 operation(s) for mediationgroups.
   name: AdMob Mediation Groups API
   slug: admob-mediationgroups-api
-- description: The mediationReport API from AdMob — 2 operation(s) for mediationreport.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The mediationReport API from AdMob — 2 operation(s) for mediationreport.
   name: AdMob Mediation Report API
   slug: admob-mediationreport-api
-- description: The networkReport API from AdMob — 2 operation(s) for networkreport.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The networkReport API from AdMob — 2 operation(s) for networkreport.
   name: AdMob Network Report API
   slug: admob-networkreport-api
 artifact_total: 21
@@ -301,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png
 security:

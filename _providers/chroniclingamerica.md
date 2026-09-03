@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Endpoints for retrieving digitization batch information.
+- baseURL: https://chroniclingamerica.loc.gov
+  baseurl_source: declared
+  description: Endpoints for retrieving digitization batch information.
   name: Chronicling America Batches API
   slug: chroniclingamerica-batches-api
-- description: Endpoints for retrieving newspaper issue metadata.
+- baseURL: https://chroniclingamerica.loc.gov
+  baseurl_source: declared
+  description: Endpoints for retrieving newspaper issue metadata.
   name: Chronicling America Issues API
   slug: chroniclingamerica-issues-api
-- description: Endpoints for retrieving OCR text from digitized newspaper pages.
+- baseURL: https://chroniclingamerica.loc.gov
+  baseurl_source: declared
+  description: Endpoints for retrieving OCR text from digitized newspaper pages.
   name: Chronicling America OCR API
   slug: chroniclingamerica-ocr-api
-- description: Endpoints for retrieving individual newspaper page metadata and content.
+- baseURL: https://chroniclingamerica.loc.gov
+  baseurl_source: declared
+  description: Endpoints for retrieving individual newspaper page metadata and content.
   name: Chronicling America Pages API
   slug: chroniclingamerica-pages-api
-- description: Full-text search endpoints for newspaper pages and titles.
+- baseURL: https://chroniclingamerica.loc.gov
+  baseurl_source: declared
+  description: Full-text search endpoints for newspaper pages and titles.
   name: Chronicling America Search API
   slug: chroniclingamerica-search-api
-- description: Endpoints for retrieving newspaper title bibliographic metadata.
+- baseURL: https://chroniclingamerica.loc.gov
+  baseurl_source: declared
+  description: Endpoints for retrieving newspaper title bibliographic metadata.
   name: Chronicling America Titles API
   slug: chroniclingamerica-titles-api
 artifact_total: 20
@@ -211,7 +223,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/screenshots/chroniclingamerica-2026-07-25T205316.png
 security:

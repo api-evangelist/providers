@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: Model Context Protocol server exposing Cortex catalog, scorecards, dependencies, and on-call data to AI agents and copilots through MCP tools and resources.
   name: Cortex MCP Server
   slug: mcp
-- description: Catalog entity operations
+- baseURL: https://api.getcortexapp.com
+  baseurl_source: declared
+  description: Catalog entity operations
   name: Cortex Catalog API
   slug: cortex-app-catalog-api
-- description: Initiative operations
+- baseURL: https://api.getcortexapp.com
+  baseurl_source: declared
+  description: Initiative operations
   name: Cortex Initiatives API
   slug: cortex-app-initiatives-api
-- description: Scorecard operations
+- baseURL: https://api.getcortexapp.com
+  baseurl_source: declared
+  description: Scorecard operations
   name: Cortex Scorecards API
   slug: cortex-app-scorecards-api
 artifact_total: 20
@@ -189,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cortex-app/refs/heads/main/screenshots/cortex-app-2026-06-20T175111.png
 security:

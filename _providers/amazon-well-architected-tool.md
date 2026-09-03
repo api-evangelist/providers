@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 56 operations · 34 acting
 api_count: 1
 apis:
-- description: The ConsolidatedReport#Format API from Amazon Well-Architected Tool — 1 operation(s) for consolidatedreport#format.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The ConsolidatedReport#Format API from Amazon Well-Architected Tool — 1 operation(s) for consolidatedreport#format.
   name: Amazon Well-Architected Tool ConsolidatedReport#Format API
   slug: amazon-well-architected-tool-consolidatedreport-format-api
-- description: The Global Settings API from Amazon Well-Architected Tool — 1 operation(s) for global settings.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Global Settings API from Amazon Well-Architected Tool — 1 operation(s) for global settings.
   name: Amazon Well-Architected Tool Global Settings API
   slug: amazon-well-architected-tool-global-settings-api
-- description: The ImportLens API from Amazon Well-Architected Tool — 1 operation(s) for importlens.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The ImportLens API from Amazon Well-Architected Tool — 1 operation(s) for importlens.
   name: Amazon Well-Architected Tool ImportLens API
   slug: amazon-well-architected-tool-importlens-api
-- description: The Lenses API from Amazon Well-Architected Tool — 8 operation(s) for lenses.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Lenses API from Amazon Well-Architected Tool — 8 operation(s) for lenses.
   name: Amazon Well-Architected Tool Lenses API
   slug: amazon-well-architected-tool-lenses-api
-- description: The Notifications API from Amazon Well-Architected Tool — 1 operation(s) for notifications.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Notifications API from Amazon Well-Architected Tool — 1 operation(s) for notifications.
   name: Amazon Well-Architected Tool Notifications API
   slug: amazon-well-architected-tool-notifications-api
-- description: The ProfileNotifications API from Amazon Well-Architected Tool — 1 operation(s) for profilenotifications.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The ProfileNotifications API from Amazon Well-Architected Tool — 1 operation(s) for profilenotifications.
   name: Amazon Well-Architected Tool ProfileNotifications API
   slug: amazon-well-architected-tool-profilenotifications-api
-- description: The Profiles API from Amazon Well-Architected Tool — 5 operation(s) for profiles.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Profiles API from Amazon Well-Architected Tool — 5 operation(s) for profiles.
   name: Amazon Well-Architected Tool Profiles API
   slug: amazon-well-architected-tool-profiles-api
-- description: The ProfileSummaries API from Amazon Well-Architected Tool — 1 operation(s) for profilesummaries.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The ProfileSummaries API from Amazon Well-Architected Tool — 1 operation(s) for profilesummaries.
   name: Amazon Well-Architected Tool ProfileSummaries API
   slug: amazon-well-architected-tool-profilesummaries-api
-- description: The ProfileTemplate API from Amazon Well-Architected Tool — 1 operation(s) for profiletemplate.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The ProfileTemplate API from Amazon Well-Architected Tool — 1 operation(s) for profiletemplate.
   name: Amazon Well-Architected Tool ProfileTemplate API
   slug: amazon-well-architected-tool-profiletemplate-api
-- description: The ShareInvitations API from Amazon Well-Architected Tool — 2 operation(s) for shareinvitations.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The ShareInvitations API from Amazon Well-Architected Tool — 2 operation(s) for shareinvitations.
   name: Amazon Well-Architected Tool ShareInvitations API
   slug: amazon-well-architected-tool-shareinvitations-api
-- description: The Tags API from Amazon Well-Architected Tool — 2 operation(s) for tags.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Well-Architected Tool — 2 operation(s) for tags.
   name: Amazon Well-Architected Tool Tags API
   slug: amazon-well-architected-tool-tags-api
-- description: The Workloads API from Amazon Well-Architected Tool — 23 operation(s) for workloads.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Workloads API from Amazon Well-Architected Tool — 23 operation(s) for workloads.
   name: Amazon Well-Architected Tool Workloads API
   slug: amazon-well-architected-tool-workloads-api
-- description: The WorkloadsSummaries API from Amazon Well-Architected Tool — 1 operation(s) for workloadssummaries.
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The WorkloadsSummaries API from Amazon Well-Architected Tool — 1 operation(s) for workloadssummaries.
   name: Amazon Well-Architected Tool WorkloadsSummaries API
   slug: amazon-well-architected-tool-workloadssummaries-api
 arazzos:
@@ -2706,7 +2732,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:

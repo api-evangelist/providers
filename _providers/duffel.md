@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 39 operations · 21 acting
 api_count: 1
 apis:
-- description: The Ancillaries API from Duffel — 2 operation(s) for ancillaries.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: The Ancillaries API from Duffel — 2 operation(s) for ancillaries.
   name: Duffel Ancillaries API
   slug: duffel-ancillaries-api
-- description: Search for flights by creating offer requests.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Search for flights by creating offer requests.
   name: Duffel Offer Requests API
   slug: duffel-offer-requests-api
-- description: Flight offers returned for an offer request.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Flight offers returned for an offer request.
   name: Duffel Offers API
   slug: duffel-offers-api
-- description: Cancel an existing order and preview refunds.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Cancel an existing order and preview refunds.
   name: Duffel Order Cancellations API
   slug: duffel-order-cancellations-api
-- description: Modify an existing order.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Modify an existing order.
   name: Duffel Order Changes API
   slug: duffel-order-changes-api
-- description: Create and manage flight orders (bookings).
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Create and manage flight orders (bookings).
   name: Duffel Orders API
   slug: duffel-orders-api
-- description: Pay for held orders.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Pay for held orders.
   name: Duffel Payments API
   slug: duffel-payments-api
-- description: Seat maps for an offer.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Seat maps for an offer.
   name: Duffel Seat Maps API
   slug: duffel-seat-maps-api
-- description: Accommodation search and booking.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Accommodation search and booking.
   name: Duffel Stays API
   slug: duffel-stays-api
-- description: Register endpoints to receive event notifications.
+- baseURL: https://api.duffel.com
+  baseurl_source: declared
+  description: Register endpoints to receive event notifications.
   name: Duffel Webhooks API
   slug: duffel-webhooks-api
 artifact_total: 29
@@ -219,7 +239,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/screenshots/duffel-2026-07-25T212455.png
 security:

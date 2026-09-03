@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 21 operations · 13 acting
 api_count: 1
 apis:
-- description: Create, read, update and remove classes.
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Create, read, update and remove classes.
   name: Class (fka ClassEDU) Classes API
   slug: class-fka-classedu-classes-api
-- description: Enroll learners into classes and manage their enrollment records.
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Enroll learners into classes and manage their enrollment records.
   name: Class (fka ClassEDU) Enrollments API
   slug: class-fka-classedu-enrollments-api
-- description: Generate a one-time access link for a learner to join a class.
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Generate a one-time access link for a learner to join a class.
   name: Class (fka ClassEDU) Launch API
   slug: class-fka-classedu-launch-api
-- description: Attendance and engagement metrics reporting.
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Attendance and engagement metrics reporting.
   name: Class (fka ClassEDU) Reporting API
   slug: class-fka-classedu-reporting-api
-- description: Manage the scheduled dates (sessions) for a class.
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Manage the scheduled dates (sessions) for a class.
   name: Class (fka ClassEDU) Schedules API
   slug: class-fka-classedu-schedules-api
-- description: Manage reusable class templates.
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Manage reusable class templates.
   name: Class (fka ClassEDU) Templates API
   slug: class-fka-classedu-templates-api
-- description: Manage non-learner users (instructors, admins).
+- baseURL: https://your-organization.class.com/api/v1
+  baseurl_source: declared
+  description: Manage non-learner users (instructors, admins).
   name: Class (fka ClassEDU) Users API
   slug: class-fka-classedu-users-api
 artifact_total: 20
@@ -248,7 +262,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-fka-classedu/refs/heads/main/screenshots/class-fka-classedu-2026-07-25T205514.png
 security:

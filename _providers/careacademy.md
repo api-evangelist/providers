@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Compliance Report API from CareAcademy — 1 operation(s) for compliance report.
+- baseURL: https://go.careacademy.com/api/v1
+  baseurl_source: declared
+  description: The Compliance Report API from CareAcademy — 1 operation(s) for compliance report.
   name: CareAcademy Compliance Report API
   slug: careacademy-compliance-report-api
-- description: The Locations API from CareAcademy — 1 operation(s) for locations.
+- baseURL: https://go.careacademy.com/api/v1
+  baseurl_source: declared
+  description: The Locations API from CareAcademy — 1 operation(s) for locations.
   name: CareAcademy Locations API
   slug: careacademy-locations-api
-- description: The Organizations API from CareAcademy — 1 operation(s) for organizations.
+- baseURL: https://go.careacademy.com/api/v1
+  baseurl_source: declared
+  description: The Organizations API from CareAcademy — 1 operation(s) for organizations.
   name: CareAcademy Organizations API
   slug: careacademy-organizations-api
-- description: The Practitioners API from CareAcademy — 2 operation(s) for practitioners.
+- baseURL: https://go.careacademy.com/api/v1
+  baseurl_source: declared
+  description: The Practitioners API from CareAcademy — 2 operation(s) for practitioners.
   name: CareAcademy Practitioners API
   slug: careacademy-practitioners-api
-- description: The Sign In Url API from CareAcademy — 1 operation(s) for sign in url.
+- baseURL: https://go.careacademy.com/api/v1
+  baseurl_source: declared
+  description: The Sign In Url API from CareAcademy — 1 operation(s) for sign in url.
   name: CareAcademy Sign In Url API
   slug: careacademy-sign-in-url-api
 artifact_total: 14
@@ -228,7 +238,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/careacademy/refs/heads/main/screenshots/careacademy-2026-08-07T175428.png
 security:

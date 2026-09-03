@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Quorum Production Reporting API provides access to well production volumes, allocations, gas balancing, and regulatory reporting data for upstream oil and gas operations.
   name: Quorum Production Reporting API
   slug: quorum-production-reporting-api
-- description: Division order management
+- baseURL: https://api.quorumsoftware.com/v1
+  baseurl_source: declared
+  description: Division order management
   name: Quorum Software DivisionOrders API
   slug: quorum-divisionorders-api
-- description: Oil and gas lease management
+- baseURL: https://api.quorumsoftware.com/v1
+  baseurl_source: declared
+  description: Oil and gas lease management
   name: Quorum Software Leases API
   slug: quorum-leases-api
-- description: Mineral interest owner management
+- baseURL: https://api.quorumsoftware.com/v1
+  baseurl_source: declared
+  description: Mineral interest owner management
   name: Quorum Software Owners API
   slug: quorum-owners-api
-- description: Land tract records
+- baseURL: https://api.quorumsoftware.com/v1
+  baseurl_source: declared
+  description: Land tract records
   name: Quorum Software Tracts API
   slug: quorum-tracts-api
-- description: Well master data
+- baseURL: https://api.quorumsoftware.com/v1
+  baseurl_source: declared
+  description: Well master data
   name: Quorum Software Wells API
   slug: quorum-wells-api
 artifact_total: 25
@@ -227,7 +237,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/screenshots/quorum-2026-06-20T192444.png
 security:

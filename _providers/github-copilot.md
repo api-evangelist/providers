@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Configuration system for providing repository-level, path-specific, and organization-level custom instructions to guide Copilot behavior, code style, and response formatting.
   name: GitHub Copilot Custom Instructions
   slug: github-copilot-custom-instructions
-- description: Organization-level Copilot billing and subscription information
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Organization-level Copilot billing and subscription information
   name: GitHub Copilot Copilot Billing API
   slug: github-copilot-copilot-billing-api
-- description: Manage content exclusion path rules for organizations
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage content exclusion path rules for organizations
   name: GitHub Copilot Copilot Content Exclusion API
   slug: github-copilot-copilot-content-exclusion-api
-- description: Aggregated Copilot usage metrics by organization and team
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Aggregated Copilot usage metrics by organization and team
   name: GitHub Copilot Copilot Metrics API
   slug: github-copilot-copilot-metrics-api
-- description: Seat assignment management for organizations
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Seat assignment management for organizations
   name: GitHub Copilot Copilot Seats API
   slug: github-copilot-copilot-seats-api
-- description: Downloadable usage metrics reports for enterprises and organizations
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Downloadable usage metrics reports for enterprises and organizations
   name: GitHub Copilot Copilot Usage Reports API
   slug: github-copilot-copilot-usage-reports-api
-- description: Add and remove individual users and teams from Copilot subscriptions
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Add and remove individual users and teams from Copilot subscriptions
   name: GitHub Copilot Copilot User Management API
   slug: github-copilot-copilot-user-management-api
 arazzos:
@@ -867,7 +879,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:

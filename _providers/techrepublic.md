@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: TechRepublic provides RSS/Atom feeds covering its full range of technology news and analysis. Feeds are available for the main news stream and for over 150 individual topic categories including AI, se
   name: TechRepublic RSS Feed
   slug: rss-feed
-- description: The Authors API from TechRepublic — 2 operation(s) for authors.
+- baseURL: https://www.techrepublic.com
+  baseurl_source: declared
+  description: The Authors API from TechRepublic — 2 operation(s) for authors.
   name: TechRepublic Authors API
   slug: techrepublic-authors-api
-- description: The Categories API from TechRepublic — 2 operation(s) for categories.
+- baseURL: https://www.techrepublic.com
+  baseurl_source: declared
+  description: The Categories API from TechRepublic — 2 operation(s) for categories.
   name: TechRepublic Categories API
   slug: techrepublic-categories-api
-- description: The Media API from TechRepublic — 2 operation(s) for media.
+- baseURL: https://www.techrepublic.com
+  baseurl_source: declared
+  description: The Media API from TechRepublic — 2 operation(s) for media.
   name: TechRepublic Media API
   slug: techrepublic-media-api
-- description: The Pages API from TechRepublic — 2 operation(s) for pages.
+- baseURL: https://www.techrepublic.com
+  baseurl_source: declared
+  description: The Pages API from TechRepublic — 2 operation(s) for pages.
   name: TechRepublic Pages API
   slug: techrepublic-pages-api
-- description: The Posts API from TechRepublic — 2 operation(s) for posts.
+- baseURL: https://www.techrepublic.com
+  baseurl_source: declared
+  description: The Posts API from TechRepublic — 2 operation(s) for posts.
   name: TechRepublic Posts API
   slug: techrepublic-posts-api
-- description: The Tags API from TechRepublic — 2 operation(s) for tags.
+- baseURL: https://www.techrepublic.com
+  baseurl_source: declared
+  description: The Tags API from TechRepublic — 2 operation(s) for tags.
   name: TechRepublic Tags API
   slug: techrepublic-tags-api
 artifact_total: 29
@@ -250,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/screenshots/techrepublic-2026-06-20T195011.png
 security:

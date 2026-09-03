@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: The Image Generation API from HTML/CSS to Image — 5 operation(s) for image generation.
+- baseURL: https://hcti.io/v1
+  baseurl_source: declared
+  description: The Image Generation API from HTML/CSS to Image — 5 operation(s) for image generation.
   name: HTML/CSS to Image Image Generation API
   slug: htmlcsstoimage-image-generation-api
-- description: The Signed URLs API from HTML/CSS to Image — 1 operation(s) for signed urls.
+- baseURL: https://hcti.io/v1
+  baseurl_source: declared
+  description: The Signed URLs API from HTML/CSS to Image — 1 operation(s) for signed urls.
   name: HTML/CSS to Image Signed URLs API
   slug: htmlcsstoimage-signed-urls-api
-- description: The Templates API from HTML/CSS to Image — 4 operation(s) for templates.
+- baseURL: https://hcti.io/v1
+  baseurl_source: declared
+  description: The Templates API from HTML/CSS to Image — 4 operation(s) for templates.
   name: HTML/CSS to Image Templates API
   slug: htmlcsstoimage-templates-api
 artifact_total: 14
@@ -163,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/htmlcsstoimage/refs/heads/main/screenshots/htmlcsstoimage-2026-06-20T182903.png
 security:

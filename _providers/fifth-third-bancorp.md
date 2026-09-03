@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -46,43 +46,69 @@ agentic_access:
   summary_line: 53 operations · 19 acting
 api_count: 1
 apis:
-- description: The Authentication section explains how to securely interact with Newline's API using access tokens and static IP addresses. Learn how to generate and refresh tokens to access protected resources. **E
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: The Authentication section explains how to securely interact with Newline's API using access tokens and static IP addresses. Learn how to generate and refresh tokens to access protected resources. **E
   name: Fifth Third Bancorp Auth API
   slug: fifth-third-bancorp-auth-api
-- description: The Combined Transfers endpoint allows clients to create both a transfer and a counterparty in a single API call. This simplifies the process by eliminating the need to first create an external synthe
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: The Combined Transfers endpoint allows clients to create both a transfer and a counterparty in a single API call. This simplifies the process by eliminating the need to first create an external synthe
   name: Fifth Third Bancorp Combined Transfers API
   slug: fifth-third-bancorp-combined-transfers-api
-- description: 'Fifth Third Bank holds Custodial Accounts and represents funds managed for Customers. Through these endpoints, you can manage balances and track account statuses. **Endpoints:** - GET [List Custodial '
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'Fifth Third Bank holds Custodial Accounts and represents funds managed for Customers. Through these endpoints, you can manage balances and track account statuses. **Endpoints:** - GET [List Custodial '
   name: Fifth Third Bancorp Custodial Accounts API
   slug: fifth-third-bancorp-custodial-accounts-api
-- description: Customer Products link Customers to financial products. This section outlines how to onboard customers, manage their product relationships, and track statuses. **Endpoints:** - GET [List Customer Prod
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: Customer Products link Customers to financial products. This section outlines how to onboard customers, manage their product relationships, and track statuses. **Endpoints:** - GET [List Customer Prod
   name: Fifth Third Bancorp Customer Products API
   slug: fifth-third-bancorp-customer-products-api
-- description: The Customers section provides details on managing end-user accounts. Learn how to create, update, and archive customer records and onboard them to financial products while meeting KYC/AML requirement
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: The Customers section provides details on managing end-user accounts. Learn how to create, update, and archive customer records and onboard them to financial products while meeting KYC/AML requirement
   name: Fifth Third Bancorp Customers API
   slug: fifth-third-bancorp-customers-api
-- description: 'Pools group multiple Customers for asset sharing and distributed account ownership. Each Pool is unique to a Customer or program. **Endpoints:** - GET [List Pools: GET /pools](https://developers.newli'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'Pools group multiple Customers for asset sharing and distributed account ownership. Each Pool is unique to a Customer or program. **Endpoints:** - GET [List Pools: GET /pools](https://developers.newli'
   name: Fifth Third Bancorp Pools API
   slug: fifth-third-bancorp-pools-api
-- description: 'Products represent financial services available in your program. Discover onboarding requirements, prerequisites, and detailed product configurations. **Endpoints:** - GET [List Products: GET /product'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'Products represent financial services available in your program. Discover onboarding requirements, prerequisites, and detailed product configurations. **Endpoints:** - GET [List Products: GET /product'
   name: Fifth Third Bancorp Products API
   slug: fifth-third-bancorp-products-api
-- description: 'The Returns endpoints help initiate, track, and manage returns of received and originated payments. These endpoints are accessible within the Sandbox and Production environments. **Endpoints:** - GET '
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'The Returns endpoints help initiate, track, and manage returns of received and originated payments. These endpoints are accessible within the Sandbox and Production environments. **Endpoints:** - GET '
   name: Fifth Third Bancorp Returns API
   slug: fifth-third-bancorp-returns-api
-- description: 'The Sandbox section provides tools to test and simulate interactions with the Newline API in a controlled environment. **Endpoints:** - POST [Simulate a Transaction: POST /sandbox/mock_transactions](h'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'The Sandbox section provides tools to test and simulate interactions with the Newline API in a controlled environment. **Endpoints:** - POST [Simulate a Transaction: POST /sandbox/mock_transactions](h'
   name: Fifth Third Bancorp Sandbox API
   slug: fifth-third-bancorp-sandbox-api
-- description: 'Synthetic Accounts serve as the foundation for asset tracking in Newline. They allow for flexible configurations tailored to your program. **Endpoints:** - GET [List Synthetic Account Types: GET /synt'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'Synthetic Accounts serve as the foundation for asset tracking in Newline. They allow for flexible configurations tailored to your program. **Endpoints:** - GET [List Synthetic Account Types: GET /synt'
   name: Fifth Third Bancorp Synthetic Accounts API
   slug: fifth-third-bancorp-synthetic-accounts-api
-- description: 'Transactions represent asset movements, such as ACH payments, wire transfers, or card purchases. Track transaction statuses and events through these endpoints. **Endpoints:** - GET [List Transactions:'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'Transactions represent asset movements, such as ACH payments, wire transfers, or card purchases. Track transaction statuses and events through these endpoints. **Endpoints:** - GET [List Transactions:'
   name: Fifth Third Bancorp Transactions API
   slug: fifth-third-bancorp-transactions-api
-- description: 'Transfers facilitate the movement of assets between accounts, enabling transactions such as payments and withdrawals. **Endpoints:** - GET [List Transfers: GET /transfers](https://developers.newline53'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'Transfers facilitate the movement of assets between accounts, enabling transactions such as payments and withdrawals. **Endpoints:** - GET [List Transfers: GET /transfers](https://developers.newline53'
   name: Fifth Third Bancorp Transfers API
   slug: fifth-third-bancorp-transfers-api
-- description: 'VRNs act as aliases for accounts, enabling unique use cases like accounts receivable segmentation or reconciliation. **Endpoints:** - GET [List Virtual Reference Numbers: GET /virtual_reference_number'
+- baseURL: https://sandbox.newline53.com/api/v1
+  baseurl_source: declared
+  description: 'VRNs act as aliases for accounts, enabling unique use cases like accounts receivable segmentation or reconciliation. **Endpoints:** - GET [List Virtual Reference Numbers: GET /virtual_reference_number'
   name: Fifth Third Bancorp Virtual Reference Numbers API
   slug: fifth-third-bancorp-virtual-reference-numbers-api
 artifact_total: 19
@@ -279,7 +305,7 @@ score:
     catalog_gap: 86.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 5.3
     commercial_clarity: 5.3
@@ -289,7 +315,7 @@ score:
     discoverability: 61.1
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 39.8
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,7 +333,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:

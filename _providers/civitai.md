@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: OAuth 2.0 authorization-code with PKCE for third-party apps that act on behalf of a Civitai user. Supports scoped tokens, refresh flow, and per-app Buzz spend caps so a delegated app cannot drain a us
   name: Civitai OAuth API
   slug: civitai-oauth-api
-- description: Upload and reference blobs for inputs and outputs.
+- baseURL: https://orchestration.civitai.com
+  baseurl_source: spec
+  description: Upload and reference blobs for inputs and outputs.
   name: Civitai Blobs API
   slug: civitai-blobs-api
-- description: Users who publish models.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Users who publish models.
   name: Civitai Creators API
   slug: civitai-creators-api
-- description: Enumerations used throughout the API.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Enumerations used throughout the API.
   name: Civitai Enums API
   slug: civitai-enums-api
-- description: Community-shared generation outputs.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Community-shared generation outputs.
   name: Civitai Images API
   slug: civitai-images-api
-- description: Catalog of model checkpoints, LoRAs, embeddings, and VAEs.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Catalog of model checkpoints, LoRAs, embeddings, and VAEs.
   name: Civitai Models API
   slug: civitai-models-api
-- description: Specific versions of a model with files, hashes, and AIR identifiers.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Specific versions of a model with files, hashes, and AIR identifiers.
   name: Civitai ModelVersions API
   slug: civitai-modelversions-api
-- description: Permission checks for the current bearer.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Permission checks for the current bearer.
   name: Civitai Permissions API
   slug: civitai-permissions-api
-- description: Catalog tag taxonomy.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Catalog tag taxonomy.
   name: Civitai Tags API
   slug: civitai-tags-api
-- description: User accounts.
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: User accounts.
   name: Civitai Users API
   slug: civitai-users-api
-- description: A user's saved-model vault (membership tiers).
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: A user's saved-model vault (membership tiers).
   name: Civitai Vault API
   slug: civitai-vault-api
-- description: Submit and manage generation workflows.
+- baseURL: https://orchestration.civitai.com
+  baseurl_source: spec
+  description: Submit and manage generation workflows.
   name: Civitai Workflows API
   slug: civitai-workflows-api
 arazzos:
@@ -482,7 +504,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -492,7 +514,7 @@ score:
     discoverability: 53.7
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 57.4
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -501,7 +523,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civitai/refs/heads/main/screenshots/civitai-2026-06-20T174434.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: Validate and verify a phone number and return carrier, line type, and location.
+- baseURL: https://phonevalidation.abstractapi.com/v1
+  baseurl_source: declared
+  description: Validate and verify a phone number and return carrier, line type, and location.
   name: Abstract API Phone Validation Phone Validation API
   slug: abstractapi-phone-phone-validation-api
 artifact_total: 10
@@ -157,7 +159,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/screenshots/abstractapi-phone-2026-07-25T181408.png
 security:

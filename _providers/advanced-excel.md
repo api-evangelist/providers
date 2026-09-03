@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Chart creation and management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Chart creation and management
   name: Advanced Excel Charts API
   slug: advanced-excel-charts-api
-- description: Cell range read/write operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Cell range read/write operations
   name: Advanced Excel Ranges API
   slug: advanced-excel-ranges-api
-- description: Excel table management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Excel table management
   name: Advanced Excel Tables API
   slug: advanced-excel-tables-api
-- description: Excel workbook access and session management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Excel workbook access and session management
   name: Advanced Excel Workbooks API
   slug: advanced-excel-workbooks-api
-- description: Worksheet management within a workbook
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Worksheet management within a workbook
   name: Advanced Excel Worksheets API
   slug: advanced-excel-worksheets-api
 artifact_total: 81
@@ -363,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-excel/refs/heads/main/screenshots/advanced-excel-2026-06-20T165321.png
 security:

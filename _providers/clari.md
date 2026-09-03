@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -47,52 +47,84 @@ apis:
 - description: 'Clari''s first-party remote Model Context Protocol server. It exposes live Clari + Salesloft revenue context — accounts, deals, people, calls and conversation intelligence, cadences and activity, team '
   name: Clari MCP Server
   slug: clari-mcp-server
-- description: The Activity API API from Clari — 1 operation(s) for activity api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Activity API API from Clari — 1 operation(s) for activity api.
   name: Clari Activity API API
   slug: clari-activity-api-api
-- description: The Administrative API API from Clari — 1 operation(s) for administrative api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Administrative API API from Clari — 1 operation(s) for administrative api.
   name: Clari Administrative API API
   slug: clari-administrative-api-api
-- description: The Audit API API from Clari — 2 operation(s) for audit api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Audit API API from Clari — 2 operation(s) for audit api.
   name: Clari Audit API API
   slug: clari-audit-api-api
-- description: The Bulk Export Framework API from Clari — 3 operation(s) for bulk export framework.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Bulk Export Framework API from Clari — 3 operation(s) for bulk export framework.
   name: Clari Bulk Export Framework API
   slug: clari-bulk-export-framework-api
-- description: The Bulk Ingest Job Status API API from Clari — 1 operation(s) for bulk ingest job status api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Bulk Ingest Job Status API API from Clari — 1 operation(s) for bulk ingest job status api.
   name: Clari Bulk Ingest Job Status API API
   slug: clari-bulk-ingest-job-status-api-api
-- description: The Export API from Clari — 1 operation(s) for export.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Export API from Clari — 1 operation(s) for export.
   name: Clari Export API
   slug: clari-export-api
-- description: The Forecast API API from Clari — 1 operation(s) for forecast api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Forecast API API from Clari — 1 operation(s) for forecast api.
   name: Clari Forecast API API
   slug: clari-forecast-api-api
-- description: The Ingestion API API from Clari — 3 operation(s) for ingestion api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Ingestion API API from Clari — 3 operation(s) for ingestion api.
   name: Clari Ingestion API API
   slug: clari-ingestion-api-api
-- description: The Opportunity API API from Clari — 1 operation(s) for opportunity api.
+- baseURL: https://api.clari.com/v4
+  baseurl_source: declared
+  description: The Opportunity API API from Clari — 1 operation(s) for opportunity api.
   name: Clari Opportunity API API
   slug: clari-opportunity-api-api
-- description: Accounts in CRM
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Accounts in CRM
   name: Clari Account API
   slug: clari-account-api
-- description: Calls in Copilot
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Calls in Copilot
   name: Clari Call API
   slug: clari-call-api
-- description: Contacts in CRM
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Contacts in CRM
   name: Clari Contact API
   slug: clari-contact-api
-- description: Deals in CRM
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Deals in CRM
   name: Clari Deal API
   slug: clari-deal-api
-- description: Scorecards in Copilot
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Scorecards in Copilot
   name: Clari Scorecard API
   slug: clari-scorecard-api
-- description: Topics in Copilot
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Topics in Copilot
   name: Clari Topics API
   slug: clari-topics-api
-- description: Users in Copilot
+- baseURL: https://rest-api.copilot.clari.com
+  baseurl_source: declared
+  description: Users in Copilot
   name: Clari User API
   slug: clari-user-api
 artifact_total: 47
@@ -431,7 +463,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/screenshots/clari-2026-06-20T174439.png
 security:

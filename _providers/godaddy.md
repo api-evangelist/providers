@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 2
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 119 operations · 67 acting · 2 human-in-the-loop
 api_count: 9
 apis:
-- description: The Actions API from GoDaddy — 2 operation(s) for actions.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: The Actions API from GoDaddy — 2 operation(s) for actions.
   name: GoDaddy Actions API
   slug: godaddy-actions-api
-- description: The Contacts API from GoDaddy — 1 operation(s) for contacts.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: The Contacts API from GoDaddy — 1 operation(s) for contacts.
   name: GoDaddy Contacts API
   slug: godaddy-contacts-api
-- description: The Domains API from GoDaddy — 24 operation(s) for domains.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: The Domains API from GoDaddy — 24 operation(s) for domains.
   name: GoDaddy Domains API
   slug: godaddy-domains-api
-- description: API for auction-related actions exclusive to whitelisted partners.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: API for auction-related actions exclusive to whitelisted partners.
   name: 'GoDaddy Expiry Auctions: Registrar Partners API'
   slug: godaddy-expiry-auctions-registrar-partners-api
-- description: The Notifications API from GoDaddy — 4 operation(s) for notifications.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: The Notifications API from GoDaddy — 4 operation(s) for notifications.
   name: GoDaddy Notifications API
   slug: godaddy-notifications-api
-- description: The v1 API from GoDaddy — 49 operation(s) for v1.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: The v1 API from GoDaddy — 49 operation(s) for v1.
   name: GoDaddy v1 API
   slug: godaddy-v1-api
-- description: An incremental update that keeps the endpoints largely the same, but deprecates some commonly misused parameters and add some features to ensure reports can be worked quicker.
+- baseURL: https://api.godaddy.com
+  baseurl_source: declared
+  description: An incremental update that keeps the endpoints largely the same, but deprecates some commonly misused parameters and add some features to ensure reports can be worked quicker.
   name: GoDaddy v2 API
   slug: godaddy-v2-api
 artifact_total: 30
@@ -224,7 +238,7 @@ score:
     regime_id: education
     score: 18.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/screenshots/godaddy-2026-06-20T181947.png
 security:

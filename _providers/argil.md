@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
-- description: Upload and manage B-roll and media assets.
+- baseURL: https://api.argil.ai/v1
+  baseurl_source: declared
+  description: Upload and manage B-roll and media assets.
   name: Argil Assets API
   slug: argil-assets-api
-- description: Create and list avatars and digital twins.
+- baseURL: https://api.argil.ai/v1
+  baseurl_source: declared
+  description: Create and list avatars and digital twins.
   name: Argil Avatars API
   slug: argil-avatars-api
-- description: Create, render, and manage avatar videos.
+- baseURL: https://api.argil.ai/v1
+  baseurl_source: declared
+  description: Create, render, and manage avatar videos.
   name: Argil Videos API
   slug: argil-videos-api
-- description: Clone, list, and sync voices.
+- baseURL: https://api.argil.ai/v1
+  baseurl_source: declared
+  description: Clone, list, and sync voices.
   name: Argil Voices API
   slug: argil-voices-api
-- description: Register and manage render-event webhooks.
+- baseURL: https://api.argil.ai/v1
+  baseurl_source: declared
+  description: Register and manage render-event webhooks.
   name: Argil Webhooks API
   slug: argil-webhooks-api
 artifact_total: 18
@@ -175,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argil/refs/heads/main/screenshots/argil-2026-07-25T201139.png
 security:

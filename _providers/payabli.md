@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -43,106 +43,174 @@ agentic_access:
   summary_line: 255 operations · 112 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The Bill API from Payabli — 7 operation(s) for bill.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Bill API from Payabli — 7 operation(s) for bill.
   name: Payabli Bill API
   slug: payabli-bill-api
-- description: The Boarding API from Payabli — 12 operation(s) for boarding.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Boarding API from Payabli — 12 operation(s) for boarding.
   name: Payabli Boarding API
   slug: payabli-boarding-api
-- description: The chargeBacks API from Payabli — 3 operation(s) for chargebacks.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The chargeBacks API from Payabli — 3 operation(s) for chargebacks.
   name: Payabli chargeBacks API
   slug: payabli-chargebacks-api
-- description: The checkCapture API from Payabli — 1 operation(s) for checkcapture.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The checkCapture API from Payabli — 1 operation(s) for checkcapture.
   name: Payabli checkCapture API
   slug: payabli-checkcapture-api
-- description: The Cloud API from Payabli — 4 operation(s) for cloud.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Cloud API from Payabli — 4 operation(s) for cloud.
   name: Payabli Cloud API
   slug: payabli-cloud-api
-- description: The Customer API from Payabli — 4 operation(s) for customer.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Customer API from Payabli — 4 operation(s) for customer.
   name: Payabli Customer API
   slug: payabli-customer-api
-- description: The Export API from Payabli — 29 operation(s) for export.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Export API from Payabli — 29 operation(s) for export.
   name: Payabli Export API
   slug: payabli-export-api
-- description: The Funding API from Payabli — 1 operation(s) for funding.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Funding API from Payabli — 1 operation(s) for funding.
   name: Payabli Funding API
   slug: payabli-funding-api
-- description: The ghostCard API from Payabli — 2 operation(s) for ghostcard.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The ghostCard API from Payabli — 2 operation(s) for ghostcard.
   name: Payabli ghostCard API
   slug: payabli-ghostcard-api
-- description: The hostedPaymentPages API from Payabli — 3 operation(s) for hostedpaymentpages.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The hostedPaymentPages API from Payabli — 3 operation(s) for hostedpaymentpages.
   name: Payabli hostedPaymentPages API
   slug: payabli-hostedpaymentpages-api
-- description: The Import API from Payabli — 3 operation(s) for import.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Import API from Payabli — 3 operation(s) for import.
   name: Payabli Import API
   slug: payabli-import-api
-- description: The Invoice API from Payabli — 8 operation(s) for invoice.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Invoice API from Payabli — 8 operation(s) for invoice.
   name: Payabli Invoice API
   slug: payabli-invoice-api
-- description: The lineItem API from Payabli — 3 operation(s) for lineitem.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The lineItem API from Payabli — 3 operation(s) for lineitem.
   name: Payabli lineItem API
   slug: payabli-lineitem-api
-- description: The Management API from Payabli — 1 operation(s) for management.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Management API from Payabli — 1 operation(s) for management.
   name: Payabli Management API
   slug: payabli-management-api
-- description: The moneyIn API from Payabli — 19 operation(s) for moneyin.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The moneyIn API from Payabli — 19 operation(s) for moneyin.
   name: Payabli moneyIn API
   slug: payabli-moneyin-api
-- description: The moneyOut API from Payabli — 12 operation(s) for moneyout.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The moneyOut API from Payabli — 12 operation(s) for moneyout.
   name: Payabli moneyOut API
   slug: payabli-moneyout-api
-- description: The Notification API from Payabli — 3 operation(s) for notification.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Notification API from Payabli — 3 operation(s) for notification.
   name: Payabli Notification API
   slug: payabli-notification-api
-- description: The Notificationlogs API from Payabli — 4 operation(s) for notificationlogs.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Notificationlogs API from Payabli — 4 operation(s) for notificationlogs.
   name: Payabli Notificationlogs API
   slug: payabli-notificationlogs-api
-- description: The Ocr API from Payabli — 2 operation(s) for ocr.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Ocr API from Payabli — 2 operation(s) for ocr.
   name: Payabli Ocr API
   slug: payabli-ocr-api
-- description: The Organization API from Payabli — 6 operation(s) for organization.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Organization API from Payabli — 6 operation(s) for organization.
   name: Payabli Organization API
   slug: payabli-organization-api
-- description: The paymentLink API from Payabli — 11 operation(s) for paymentlink.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The paymentLink API from Payabli — 11 operation(s) for paymentlink.
   name: Payabli paymentLink API
   slug: payabli-paymentlink-api
-- description: The paymentMethodDomain API from Payabli — 5 operation(s) for paymentmethoddomain.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The paymentMethodDomain API from Payabli — 5 operation(s) for paymentmethoddomain.
   name: Payabli paymentMethodDomain API
   slug: payabli-paymentmethoddomain-api
-- description: The payoutSubscription API from Payabli — 2 operation(s) for payoutsubscription.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The payoutSubscription API from Payabli — 2 operation(s) for payoutsubscription.
   name: Payabli payoutSubscription API
   slug: payabli-payoutsubscription-api
-- description: The Paypoint API from Payabli — 7 operation(s) for paypoint.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Paypoint API from Payabli — 7 operation(s) for paypoint.
   name: Payabli Paypoint API
   slug: payabli-paypoint-api
-- description: The Query API from Payabli — 42 operation(s) for query.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Query API from Payabli — 42 operation(s) for query.
   name: Payabli Query API
   slug: payabli-query-api
-- description: The Statistic API from Payabli — 4 operation(s) for statistic.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Statistic API from Payabli — 4 operation(s) for statistic.
   name: Payabli Statistic API
   slug: payabli-statistic-api
-- description: The Subscription API from Payabli — 2 operation(s) for subscription.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Subscription API from Payabli — 2 operation(s) for subscription.
   name: Payabli Subscription API
   slug: payabli-subscription-api
-- description: The Templates API from Payabli — 4 operation(s) for templates.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Templates API from Payabli — 4 operation(s) for templates.
   name: Payabli Templates API
   slug: payabli-templates-api
-- description: The Token API from Payabli — 1 operation(s) for token.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Token API from Payabli — 1 operation(s) for token.
   name: Payabli Token API
   slug: payabli-token-api
-- description: The tokenStorage API from Payabli — 2 operation(s) for tokenstorage.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The tokenStorage API from Payabli — 2 operation(s) for tokenstorage.
   name: Payabli tokenStorage API
   slug: payabli-tokenstorage-api
-- description: The User API from Payabli — 10 operation(s) for user.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The User API from Payabli — 10 operation(s) for user.
   name: Payabli User API
   slug: payabli-user-api
-- description: The Vendor API from Payabli — 5 operation(s) for vendor.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Vendor API from Payabli — 5 operation(s) for vendor.
   name: Payabli Vendor API
   slug: payabli-vendor-api
-- description: The Wallet API from Payabli — 4 operation(s) for wallet.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Wallet API from Payabli — 4 operation(s) for wallet.
   name: Payabli Wallet API
   slug: payabli-wallet-api
-- description: The Webhooks API from Payabli — 0 operation(s) for webhooks.
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Webhooks API from Payabli — 0 operation(s) for webhooks.
   name: Payabli Webhooks API
   slug: payabli-webhooks-api
 artifact_total: 106
@@ -542,7 +610,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -552,7 +620,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 61.3
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -570,7 +638,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payabli/refs/heads/main/screenshots/payabli-2026-08-07T191624.png
 security:

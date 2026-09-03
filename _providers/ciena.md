@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Ciena Emulation Cloud is an open application development environment enabling developers to create, test, and fine-tune custom applications against full API definitions without requiring physical infr
   name: Ciena Emulation Cloud API
   slug: emulation-cloud-api
-- description: Network alarm and fault management
+- baseURL: https://api.blueplanet.com/bpocore/market/api/v1
+  baseurl_source: declared
+  description: Network alarm and fault management
   name: Ciena Alarms API
   slug: ciena-alarms-api
-- description: Performance monitoring and metrics
+- baseURL: https://api.blueplanet.com/bpocore/market/api/v1
+  baseurl_source: declared
+  description: Performance monitoring and metrics
   name: Ciena Performance API
   slug: ciena-performance-api
-- description: The Services API from Ciena — 2 operation(s) for services.
+- baseURL: https://api.blueplanet.com/bpocore/market/api/v1
+  baseurl_source: declared
+  description: The Services API from Ciena — 2 operation(s) for services.
   name: Ciena Services API
   slug: ciena-services-api
-- description: Network topology resources including nodes and links
+- baseURL: https://api.blueplanet.com/bpocore/market/api/v1
+  baseurl_source: declared
+  description: Network topology resources including nodes and links
   name: Ciena Topology API
   slug: ciena-topology-api
 artifact_total: 23
@@ -277,7 +285,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-08-17T123118.png
 security:

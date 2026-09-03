@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 27 operations · 6 acting
 api_count: 1
 apis:
-- description: The Bookable Day API from Kadence — 2 operation(s) for bookable day.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Bookable Day API from Kadence — 2 operation(s) for bookable day.
   name: Kadence Bookable Day API
   slug: kadence-bookable-day-api
-- description: The Bookable Onsite Pass API from Kadence — 1 operation(s) for bookable onsite pass.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Bookable Onsite Pass API from Kadence — 1 operation(s) for bookable onsite pass.
   name: Kadence Bookable Onsite Pass API
   slug: kadence-bookable-onsite-pass-api
-- description: The Bookable Space API from Kadence — 1 operation(s) for bookable space.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Bookable Space API from Kadence — 1 operation(s) for bookable space.
   name: Kadence Bookable Space API
   slug: kadence-bookable-space-api
-- description: The Booking API from Kadence — 6 operation(s) for booking.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Booking API from Kadence — 6 operation(s) for booking.
   name: Kadence Booking API
   slug: kadence-booking-api
-- description: The Building API from Kadence — 2 operation(s) for building.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Building API from Kadence — 2 operation(s) for building.
   name: Kadence Building API
   slug: kadence-building-api
-- description: The Floor API from Kadence — 2 operation(s) for floor.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Floor API from Kadence — 2 operation(s) for floor.
   name: Kadence Floor API
   slug: kadence-floor-api
-- description: The Neighborhood API from Kadence — 2 operation(s) for neighborhood.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Neighborhood API from Kadence — 2 operation(s) for neighborhood.
   name: Kadence Neighborhood API
   slug: kadence-neighborhood-api
-- description: The Space API from Kadence — 2 operation(s) for space.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Space API from Kadence — 2 operation(s) for space.
   name: Kadence Space API
   slug: kadence-space-api
-- description: The User API from Kadence — 3 operation(s) for user.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The User API from Kadence — 3 operation(s) for user.
   name: Kadence User API
   slug: kadence-user-api
-- description: The Visit API from Kadence — 2 operation(s) for visit.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Visit API from Kadence — 2 operation(s) for visit.
   name: Kadence Visit API
   slug: kadence-visit-api
-- description: The Visitor API from Kadence — 2 operation(s) for visitor.
+- baseURL: https://api.onkadence.co
+  baseurl_source: declared
+  description: The Visitor API from Kadence — 2 operation(s) for visitor.
   name: Kadence Visitor API
   slug: kadence-visitor-api
 artifact_total: 29
@@ -291,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/screenshots/kadence-2026-07-25T223408.png
 security:

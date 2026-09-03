@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: The Sitefinity CMS Taxonomies API provides REST endpoints for managing taxonomies, categories, and tags used to classify and organize content. Developers use it to create classification structures, as
   name: Sitefinity CMS Taxonomies API
   slug: taxonomies-api
-- description: CRUD operations for blog post content items
+- baseURL: https://your-site.sitefinity.com/api/default
+  baseurl_source: declared
+  description: CRUD operations for blog post content items
   name: Sitefinity CMS Blog Posts API
   slug: sitefinity-cms-blog-posts-api
-- description: CRUD operations for event content items
+- baseURL: https://your-site.sitefinity.com/api/default
+  baseurl_source: declared
+  description: CRUD operations for event content items
   name: Sitefinity CMS Events API
   slug: sitefinity-cms-events-api
-- description: CRUD operations for news content items
+- baseURL: https://your-site.sitefinity.com/api/default
+  baseurl_source: declared
+  description: CRUD operations for news content items
   name: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
 artifact_total: 31
@@ -252,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/screenshots/sitefinity-cms-2026-06-20T194001.png
 security:

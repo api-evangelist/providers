@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,46 +56,74 @@ apis:
 - description: Pipeline and Hazardous Materials Safety Administration incident, mileage, and operator data for U.S. pipelines.
   name: PHMSA Pipeline Safety Data
   slug: phmsa-pipeline-data
-- description: The Airport Status API from Department of Transportation — 1 operation(s) for airport status.
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: The Airport Status API from Department of Transportation — 1 operation(s) for airport status.
   name: Department of Transportation Airport Status API
   slug: department-of-transportation-airport-status-api
-- description: Operating authority records
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Operating authority records
   name: Department of Transportation Authority API
   slug: department-of-transportation-authority-api
-- description: Motor carrier lookups
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Motor carrier lookups
   name: Department of Transportation Carriers API
   slug: department-of-transportation-carriers-api
-- description: Consumer complaint data
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Consumer complaint data
   name: Department of Transportation Complaints API
   slug: department-of-transportation-complaints-api
-- description: Crash data
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Crash data
   name: Department of Transportation Crashes API
   slug: department-of-transportation-crashes-api
-- description: Roadside inspection data
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Roadside inspection data
   name: Department of Transportation Inspections API
   slug: department-of-transportation-inspections-api
-- description: Vehicle makes
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Vehicle makes
   name: Department of Transportation Makes API
   slug: department-of-transportation-makes-api
-- description: Vehicle manufacturers
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Vehicle manufacturers
   name: Department of Transportation Manufacturers API
   slug: department-of-transportation-manufacturers-api
-- description: Vehicle models
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Vehicle models
   name: Department of Transportation Models API
   slug: department-of-transportation-models-api
-- description: 5-Star Safety Ratings
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: 5-Star Safety Ratings
   name: Department of Transportation Ratings API
   slug: department-of-transportation-ratings-api
-- description: Vehicle, equipment, child seat, and tire recalls
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Vehicle, equipment, child seat, and tire recalls
   name: Department of Transportation Recalls API
   slug: department-of-transportation-recalls-api
-- description: Vehicle variable definitions
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Vehicle variable definitions
   name: Department of Transportation Vehicle Variables API
   slug: department-of-transportation-vehicle-variables-api
-- description: Decode VINs into structured vehicle data
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: Decode VINs into structured vehicle data
   name: Department of Transportation VIN Decode API
   slug: department-of-transportation-vin-decode-api
-- description: World Manufacturer Identifier (WMI) decoding
+- baseURL: https://vpic.nhtsa.dot.gov/api
+  baseurl_source: declared
+  description: World Manufacturer Identifier (WMI) decoding
   name: Department of Transportation WMI API
   slug: department-of-transportation-wmi-api
 artifact_total: 51
@@ -265,7 +293,7 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -275,7 +303,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 30.7
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -290,7 +318,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-transportation/refs/heads/main/screenshots/department-of-transportation-2026-06-20T175923.png
 security:

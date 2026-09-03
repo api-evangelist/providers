@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 21 operations · 18 acting
 api_count: 2
 apis:
-- description: The Audio API from SambaNova Systems — 2 operation(s) for audio.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Audio API from SambaNova Systems — 2 operation(s) for audio.
   name: SambaNova Systems Audio API
   slug: sambanova-systems-audio-api
-- description: The Chat completions API from SambaNova Systems — 1 operation(s) for chat completions.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Chat completions API from SambaNova Systems — 1 operation(s) for chat completions.
   name: SambaNova Systems Chat completions API
   slug: sambanova-systems-chat-completions-api
-- description: The Completions API from SambaNova Systems — 1 operation(s) for completions.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Completions API from SambaNova Systems — 1 operation(s) for completions.
   name: SambaNova Systems Completions API
   slug: sambanova-systems-completions-api
-- description: The Embeddings API from SambaNova Systems — 1 operation(s) for embeddings.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Embeddings API from SambaNova Systems — 1 operation(s) for embeddings.
   name: SambaNova Systems Embeddings API
   slug: sambanova-systems-embeddings-api
-- description: The File Management API from SambaNova Systems — 1 operation(s) for file management.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The File Management API from SambaNova Systems — 1 operation(s) for file management.
   name: SambaNova Systems File Management API
   slug: sambanova-systems-file-management-api
-- description: The Main Agent API from SambaNova Systems — 1 operation(s) for main agent.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Main Agent API from SambaNova Systems — 1 operation(s) for main agent.
   name: SambaNova Systems Main Agent API
   slug: sambanova-systems-main-agent-api
-- description: The Main Agent Interactive API from SambaNova Systems — 1 operation(s) for main agent interactive.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Main Agent Interactive API from SambaNova Systems — 1 operation(s) for main agent interactive.
   name: SambaNova Systems Main Agent Interactive API
   slug: sambanova-systems-main-agent-interactive-api
-- description: The Messages API from SambaNova Systems — 2 operation(s) for messages.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Messages API from SambaNova Systems — 2 operation(s) for messages.
   name: SambaNova Systems Messages API
   slug: sambanova-systems-messages-api
-- description: The Models API from SambaNova Systems — 2 operation(s) for models.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Models API from SambaNova Systems — 2 operation(s) for models.
   name: SambaNova Systems Models API
   slug: sambanova-systems-models-api
-- description: The Responses API from SambaNova Systems — 1 operation(s) for responses.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Responses API from SambaNova Systems — 1 operation(s) for responses.
   name: SambaNova Systems Responses API
   slug: sambanova-systems-responses-api
-- description: The Subagents API from SambaNova Systems — 4 operation(s) for subagents.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Subagents API from SambaNova Systems — 4 operation(s) for subagents.
   name: SambaNova Systems Subagents API
   slug: sambanova-systems-subagents-api
-- description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
   name: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
 artifact_total: 30
@@ -296,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -49,22 +49,34 @@ apis:
 - description: Higher-performance binary client API for Riak KV using Protocol Buffers messages encoded over a long-lived TCP connection. Default port is 8087. Each request message produces one or more response mess
   name: Riak Protocol Buffers Client API
   slug: protocol-buffers
-- description: The Mapred API from Riak KV — 1 operation(s) for mapred.
+- baseURL: http://<your-riak-host>:8098
+  baseurl_source: declared
+  description: The Mapred API from Riak KV — 1 operation(s) for mapred.
   name: Riak KV Mapred API
   slug: riak-mapred-api
-- description: The Ping API from Riak KV — 1 operation(s) for ping.
+- baseURL: http://<your-riak-host>:8098
+  baseurl_source: declared
+  description: The Ping API from Riak KV — 1 operation(s) for ping.
   name: Riak KV Ping API
   slug: riak-ping-api
-- description: The Riak KV HTTP API API from Riak KV — 1 operation(s) for riak kv http api.
+- baseURL: http://<your-riak-host>:8098
+  baseurl_source: declared
+  description: The Riak KV HTTP API API from Riak KV — 1 operation(s) for riak kv http api.
   name: Riak KV Riak KV HTTP API API
   slug: riak-riak-kv-http-api-api
-- description: The Search API from Riak KV — 4 operation(s) for search.
+- baseURL: http://<your-riak-host>:8098
+  baseurl_source: declared
+  description: The Search API from Riak KV — 4 operation(s) for search.
   name: Riak KV Search API
   slug: riak-search-api
-- description: The Stats API from Riak KV — 1 operation(s) for stats.
+- baseURL: http://<your-riak-host>:8098
+  baseurl_source: declared
+  description: The Stats API from Riak KV — 1 operation(s) for stats.
   name: Riak KV Stats API
   slug: riak-stats-api
-- description: The Types API from Riak KV — 7 operation(s) for types.
+- baseURL: http://<your-riak-host>:8098
+  baseurl_source: declared
+  description: The Types API from Riak KV — 7 operation(s) for types.
   name: Riak KV Types API
   slug: riak-types-api
 artifact_total: 19
@@ -186,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/screenshots/riak-2026-06-20T193107.png
 security:

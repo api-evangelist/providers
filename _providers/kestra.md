@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Kestra Enterprise API extends the open-source API with additional endpoints for enterprise features including authentication, RBAC, audit logging, multi-tenancy, SSO, and advanced governance capab
   name: Kestra Enterprise API
   slug: enterprise-api
-- description: Trigger and inspect workflow executions.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Trigger and inspect workflow executions.
   name: Kestra Executions API
   slug: kestra-executions-api
-- description: Manage namespace files.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Manage namespace files.
   name: Kestra Files API
   slug: kestra-files-api
-- description: Manage flow definitions.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Manage flow definitions.
   name: Kestra Flows API
   slug: kestra-flows-api
-- description: Manage namespace-scoped key-value pairs.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Manage namespace-scoped key-value pairs.
   name: Kestra KVStore API
   slug: kestra-kvstore-api
-- description: Manage namespaces.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Manage namespaces.
   name: Kestra Namespaces API
   slug: kestra-namespaces-api
-- description: Manage and test triggers.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Manage and test triggers.
   name: Kestra Triggers API
   slug: kestra-triggers-api
 artifact_total: 22
@@ -275,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kestra/refs/heads/main/screenshots/kestra-2026-06-20T184000.png
 security:

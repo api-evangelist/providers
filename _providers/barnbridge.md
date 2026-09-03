@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 48 operations
 api_count: 1
 apis:
-- description: BarnBridge DAO proposals, voting, and treasury
+- baseURL: https://api-v2.barnbridge.com
+  baseurl_source: declared
+  description: BarnBridge DAO proposals, voting, and treasury
   name: BarnBridge Governance API
   slug: barnbridge-governance-api
-- description: Price-volatility pools with upside exposure and downside protection
+- baseURL: https://api-v2.barnbridge.com
+  baseurl_source: declared
+  description: Price-volatility pools with upside exposure and downside protection
   name: BarnBridge SMART Alpha API
   slug: barnbridge-smart-alpha-api
-- description: Automated token-ratio rebalancing tranches
+- baseURL: https://api-v2.barnbridge.com
+  baseurl_source: declared
+  description: Automated token-ratio rebalancing tranches
   name: BarnBridge SMART Exposure API
   slug: barnbridge-smart-exposure-api
-- description: Structured-product yield pools with senior/junior tranches
+- baseURL: https://api-v2.barnbridge.com
+  baseurl_source: declared
+  description: Structured-product yield pools with senior/junior tranches
   name: BarnBridge SMART Yield API
   slug: barnbridge-smart-yield-api
-- description: Staking-actions analytics and charts
+- baseURL: https://api-v2.barnbridge.com
+  baseurl_source: declared
+  description: Staking-actions analytics and charts
   name: BarnBridge Yield Farming API
   slug: barnbridge-yield-farming-api
 artifact_total: 21
@@ -231,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/screenshots/barnbridge-2026-06-20T173007.png
 slug: barnbridge

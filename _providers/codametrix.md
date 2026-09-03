@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,19 +44,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The component tree for the CodaMetrix platform.
+- baseURL: https://status.codametrix.com/api/v2/
+  baseurl_source: declared
+  description: The component tree for the CodaMetrix platform.
   name: CodaMetrix Components API
   slug: codametrix-components-api
-- description: Unplanned incidents and their update timelines.
+- baseURL: https://status.codametrix.com/api/v2/
+  baseurl_source: declared
+  description: Unplanned incidents and their update timelines.
   name: CodaMetrix Incidents API
   slug: codametrix-incidents-api
-- description: Planned maintenance windows and their update timelines.
+- baseURL: https://status.codametrix.com/api/v2/
+  baseurl_source: declared
+  description: Planned maintenance windows and their update timelines.
   name: CodaMetrix Scheduled Maintenances API
   slug: codametrix-scheduled-maintenances-api
-- description: Overall page status rollup.
+- baseURL: https://status.codametrix.com/api/v2/
+  baseurl_source: declared
+  description: Overall page status rollup.
   name: CodaMetrix Status API
   slug: codametrix-status-api
-- description: Combined rollup of status, components, unresolved incidents and active/upcoming maintenances.
+- baseURL: https://status.codametrix.com/api/v2/
+  baseurl_source: declared
+  description: Combined rollup of status, components, unresolved incidents and active/upcoming maintenances.
   name: CodaMetrix Summary API
   slug: codametrix-summary-api
 artifact_total: 24
@@ -267,7 +288,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:

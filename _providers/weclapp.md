@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 42 operations · 21 acting
 api_count: 1
 apis:
-- description: Articles / products in the catalog.
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Articles / products in the catalog.
   name: weclapp Article API
   slug: weclapp-article-api
-- description: Customer master data (a party in the customer role).
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Customer master data (a party in the customer role).
   name: weclapp Customer API
   slug: weclapp-customer-api
-- description: Purchase orders to suppliers.
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Purchase orders to suppliers.
   name: weclapp Purchase Order API
   slug: weclapp-purchase-order-api
-- description: Sales quotations / quotes.
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Sales quotations / quotes.
   name: weclapp Quotation API
   slug: weclapp-quotation-api
-- description: Sales invoices.
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Sales invoices.
   name: weclapp Sales Invoice API
   slug: weclapp-sales-invoice-api
-- description: Sales orders.
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Sales orders.
   name: weclapp Sales Order API
   slug: weclapp-sales-order-api
-- description: Outbound shipments / deliveries.
+- baseURL: https://{tenant}.weclapp.com/webapp/api/v1
+  baseurl_source: declared
+  description: Outbound shipments / deliveries.
   name: weclapp Shipment API
   slug: weclapp-shipment-api
 artifact_total: 22
@@ -164,7 +178,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +201,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/weclapp/refs/heads/main/screenshots/weclapp-2026-09-02T170543.png
 security:
 - kind: authentication
   name: Weclapp Authentication

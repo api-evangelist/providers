@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 19 operations · 11 acting
 api_count: 1
 apis:
-- description: Viewer analytics and reporting.
+- baseURL: https://developer.dacast.com/v2
+  baseurl_source: declared
+  description: Viewer analytics and reporting.
   name: Dacast Analytics API
   slug: dacast-analytics-api
-- description: Live streaming channels and simulcast.
+- baseURL: https://developer.dacast.com/v2
+  baseurl_source: declared
+  description: Live streaming channels and simulcast.
   name: Dacast Live Channels API
   slug: dacast-live-channels-api
-- description: Ordered collections of VOD and live content.
+- baseURL: https://developer.dacast.com/v2
+  baseurl_source: declared
+  description: Ordered collections of VOD and live content.
   name: Dacast Playlists API
   slug: dacast-playlists-api
-- description: Video on demand upload and management.
+- baseURL: https://developer.dacast.com/v2
+  baseurl_source: declared
+  description: Video on demand upload and management.
   name: Dacast VOD API
   slug: dacast-vod-api
 artifact_total: 15
@@ -166,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dacast/refs/heads/main/screenshots/dacast-2026-07-25T211123.png
 security:

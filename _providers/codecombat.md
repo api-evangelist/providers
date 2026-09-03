@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Auth API from CodeCombat — 1 operation(s) for auth.
+- baseURL: https://codecombat.com/api
+  baseurl_source: declared
+  description: The Auth API from CodeCombat — 1 operation(s) for auth.
   name: CodeCombat Auth API
   slug: codecombat-auth-api
-- description: The Clans API from CodeCombat — 1 operation(s) for clans.
+- baseURL: https://codecombat.com/api
+  baseurl_source: declared
+  description: The Clans API from CodeCombat — 1 operation(s) for clans.
   name: CodeCombat Clans API
   slug: codecombat-clans-api
-- description: The Classrooms API from CodeCombat — 6 operation(s) for classrooms.
+- baseURL: https://codecombat.com/api
+  baseurl_source: declared
+  description: The Classrooms API from CodeCombat — 6 operation(s) for classrooms.
   name: CodeCombat Classrooms API
   slug: codecombat-classrooms-api
-- description: The Default API from CodeCombat — 1 operation(s) for default.
+- baseURL: https://codecombat.com/api
+  baseurl_source: declared
+  description: The Default API from CodeCombat — 1 operation(s) for default.
   name: CodeCombat Default API
   slug: codecombat-default-api
-- description: The Stats API from CodeCombat — 2 operation(s) for stats.
+- baseURL: https://codecombat.com/api
+  baseurl_source: declared
+  description: The Stats API from CodeCombat — 2 operation(s) for stats.
   name: CodeCombat Stats API
   slug: codecombat-stats-api
-- description: The Users API from CodeCombat — 10 operation(s) for users.
+- baseURL: https://codecombat.com/api
+  baseurl_source: declared
+  description: The Users API from CodeCombat — 10 operation(s) for users.
   name: CodeCombat Users API
   slug: codecombat-users-api
 artifact_total: 16
@@ -226,7 +238,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/screenshots/codecombat-2026-07-25T205918.png
 security:

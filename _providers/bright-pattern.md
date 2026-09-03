@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -33,46 +44,74 @@ agentic_access:
   summary_line: 178 operations · 127 acting · 2 human-in-the-loop
 api_count: 11
 apis:
-- description: The OAuth 2.0 Client Credentials Grant is used to authenticate clients of this API. The authenticated user is checked for having appropriate privileges to perform the requested operation. The complete
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: The OAuth 2.0 Client Credentials Grant is used to authenticate clients of this API. The authenticated user is checked for having appropriate privileges to perform the requested operation. The complete
   name: Bright Pattern Authentication API
   slug: bright-pattern-authentication-api
-- description: The Calling List API from Bright Pattern — 8 operation(s) for calling list.
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: The Calling List API from Bright Pattern — 8 operation(s) for calling list.
   name: Bright Pattern Calling List API
   slug: bright-pattern-calling-list-api
-- description: The Campaigns API from Bright Pattern — 27 operation(s) for campaigns.
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: The Campaigns API from Bright Pattern — 27 operation(s) for campaigns.
   name: Bright Pattern Campaigns API
   slug: bright-pattern-campaigns-api
-- description: Bright Pattern's List Management API makes it easy to manage the contents of Do Not Call (DNC) lists with bulk delete, add, and replace actions. The API methods described in this section fully support
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: Bright Pattern's List Management API makes it easy to manage the contents of Do Not Call (DNC) lists with bulk delete, add, and replace actions. The API methods described in this section fully support
   name: Bright Pattern DNC Lists API
   slug: bright-pattern-dnc-lists-api
-- description: The Do Not Call List API from Bright Pattern — 4 operation(s) for do not call list.
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: The Do Not Call List API from Bright Pattern — 4 operation(s) for do not call list.
   name: Bright Pattern Do Not Call List API
   slug: bright-pattern-do-not-call-list-api
-- description: 'Bright Pattern''s List Management API provides the ability to manage Link Groups so several campaigns can be linked together. When processing all records of one campaign is finished, the next campaign '
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: 'Bright Pattern''s List Management API provides the ability to manage Link Groups so several campaigns can be linked together. When processing all records of one campaign is finished, the next campaign '
   name: Bright Pattern Link Groups API
   slug: bright-pattern-link-groups-api
-- description: 'Bright Pattern''s List Management API streamlines the creation and deletion of lists and formats and provides a convenient way to manage list records. Note: Performing operations on lists requires the '
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: 'Bright Pattern''s List Management API streamlines the creation and deletion of lists and formats and provides a convenient way to manage list records. Note: Performing operations on lists requires the '
   name: Bright Pattern Lists API
   slug: bright-pattern-lists-api
-- description: The Methods API from Bright Pattern — 32 operation(s) for methods.
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: The Methods API from Bright Pattern — 32 operation(s) for methods.
   name: Bright Pattern Methods API
   slug: bright-pattern-methods-api
-- description: These methods are used to extract individual segments of multichannel call recordings (i.e., recordings where voice of each paricipating party is recorded into a separate audio file). The Get Multicha
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: These methods are used to extract individual segments of multichannel call recordings (i.e., recordings where voice of each paricipating party is recorded into a separate audio file). The Get Multicha
   name: Bright Pattern Multichannel Call Recordings API
   slug: bright-pattern-multichannel-call-recordings-api
-- description: 'With the https://:tenant/configapi/v2/phone endpoint you can: Get a list of all contact center users with their extensions and DID numbers Get a list of all access numbers with thier current assignmen'
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: 'With the https://:tenant/configapi/v2/phone endpoint you can: Get a list of all contact center users with their extensions and DID numbers Get a list of all access numbers with thier current assignmen'
   name: Bright Pattern Phones API
   slug: bright-pattern-phones-api
-- description: These methods enable retrieval of regular voice recordings (i.e., recordings where voices of all participating parties are recorded in the same audio file) and the related call metadata. Both audio fi
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: These methods enable retrieval of regular voice recordings (i.e., recordings where voices of all participating parties are recorded in the same audio file) and the related call metadata. Both audio fi
   name: Bright Pattern Regular Call Recordings API
   slug: bright-pattern-regular-call-recordings-api
-- description: These methods enable sending of SMS and MMS messages and checking the delivery status. The response parameters are explained below. Response parameters Parameter Description tenant_id Unique identifie
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: These methods enable sending of SMS and MMS messages and checking the delivery status. The response parameters are explained below. Response parameters Parameter Description tenant_id Unique identifie
   name: Bright Pattern SMS/MMS Messaging API
   slug: bright-pattern-sms-mms-messaging-api
-- description: The following methods allow tasks within Bright Pattern Contact Center to be queued, canceled, updated, and queried.
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: The following methods allow tasks within Bright Pattern Contact Center to be queued, canceled, updated, and queried.
   name: Bright Pattern Task Routing API
   slug: bright-pattern-task-routing-api
-- description: 'With the https://:tenant_url/configapi/v2/user endpoint you can: Create new users and define most of their attributes Update existing users Check and clear user lockout state Manage agents'' skills Del'
+- baseURL: https://{tenant}.brightpattern.com/configapi/v2
+  baseurl_source: declared
+  description: 'With the https://:tenant_url/configapi/v2/user endpoint you can: Create new users and define most of their attributes Update existing users Check and clear user lockout state Manage agents'' skills Del'
   name: Bright Pattern Users API
   slug: bright-pattern-users-api
 artifact_total: 34
@@ -326,7 +365,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/screenshots/bright-pattern-2026-08-17T080703.png
 security:

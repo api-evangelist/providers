@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 54 operations · 22 acting
 api_count: 1
 apis:
-- description: The Certificates API from Retraced — 2 operation(s) for certificates.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Certificates API from Retraced — 2 operation(s) for certificates.
   name: Retraced Certificates API
   slug: retraced-certificates-api
-- description: The Companies API from Retraced — 3 operation(s) for companies.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Companies API from Retraced — 3 operation(s) for companies.
   name: Retraced Companies API
   slug: retraced-companies-api
-- description: The Files API from Retraced — 1 operation(s) for files.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Files API from Retraced — 1 operation(s) for files.
   name: Retraced Files API
   slug: retraced-files-api
-- description: The Guides API from Retraced — 8 operation(s) for guides.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Guides API from Retraced — 8 operation(s) for guides.
   name: Retraced Guides API
   slug: retraced-guides-api
-- description: The Order Hub / Attachment Templates API from Retraced — 1 operation(s) for order hub / attachment templates.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Order Hub / Attachment Templates API from Retraced — 1 operation(s) for order hub / attachment templates.
   name: Retraced Order Hub / Attachment Templates API
   slug: retraced-order-hub-attachment-templates-api
-- description: The Order Hub / Order Lines API from Retraced — 2 operation(s) for order hub / order lines.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Order Hub / Order Lines API from Retraced — 2 operation(s) for order hub / order lines.
   name: Retraced Order Hub / Order Lines API
   slug: retraced-order-hub-order-lines-api
-- description: The Order Hub / Orders API from Retraced — 2 operation(s) for order hub / orders.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Order Hub / Orders API from Retraced — 2 operation(s) for order hub / orders.
   name: Retraced Order Hub / Orders API
   slug: retraced-order-hub-orders-api
-- description: The Product / BOM Headers API from Retraced — 3 operation(s) for product / bom headers.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / BOM Headers API from Retraced — 3 operation(s) for product / bom headers.
   name: Retraced Product / BOM Headers API
   slug: retraced-product-bom-headers-api
-- description: The Product / BOM Lines API from Retraced — 3 operation(s) for product / bom lines.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / BOM Lines API from Retraced — 3 operation(s) for product / bom lines.
   name: Retraced Product / BOM Lines API
   slug: retraced-product-bom-lines-api
-- description: The Product / BOM Placements API from Retraced — 2 operation(s) for product / bom placements.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / BOM Placements API from Retraced — 2 operation(s) for product / bom placements.
   name: Retraced Product / BOM Placements API
   slug: retraced-product-bom-placements-api
-- description: The Product / Material Headers API from Retraced — 3 operation(s) for product / material headers.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / Material Headers API from Retraced — 3 operation(s) for product / material headers.
   name: Retraced Product / Material Headers API
   slug: retraced-product-material-headers-api
-- description: The Product / Material Lines API from Retraced — 3 operation(s) for product / material lines.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / Material Lines API from Retraced — 3 operation(s) for product / material lines.
   name: Retraced Product / Material Lines API
   slug: retraced-product-material-lines-api
-- description: The Product / Style Properties API from Retraced — 1 operation(s) for product / style properties.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / Style Properties API from Retraced — 1 operation(s) for product / style properties.
   name: Retraced Product / Style Properties API
   slug: retraced-product-style-properties-api
-- description: The Product / Style Types API from Retraced — 1 operation(s) for product / style types.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / Style Types API from Retraced — 1 operation(s) for product / style types.
   name: Retraced Product / Style Types API
   slug: retraced-product-style-types-api
-- description: The Product / Styles API from Retraced — 4 operation(s) for product / styles.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / Styles API from Retraced — 4 operation(s) for product / styles.
   name: Retraced Product / Styles API
   slug: retraced-product-styles-api
-- description: The Product / Supply Chains API from Retraced — 1 operation(s) for product / supply chains.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Product / Supply Chains API from Retraced — 1 operation(s) for product / supply chains.
   name: Retraced Product / Supply Chains API
   slug: retraced-product-supply-chains-api
-- description: The Release Notes API from Retraced — 1 operation(s) for release notes.
+- baseURL: https://publicapi.retraced.com/api/v2
+  baseurl_source: declared
+  description: The Release Notes API from Retraced — 1 operation(s) for release notes.
   name: Retraced Release Notes API
   slug: retraced-release-notes-api
 artifact_total: 39
@@ -272,7 +306,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -298,8 +332,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/retraced/refs/heads/main/screenshots/retraced-2026-09-02T153631.png
 security:
 - kind: authentication
   name: Retraced Authentication

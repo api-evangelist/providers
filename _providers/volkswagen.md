@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Browse vehicle catalog — countries, brands, models, types, and options.
+- baseURL: https://productdata.volkswagenag.com/v3
+  baseurl_source: declared
+  description: Browse vehicle catalog — countries, brands, models, types, and options.
   name: Volkswagen Catalog API
   slug: volkswagen-catalog-api
-- description: Configure vehicles — check buildability, recover, and resolve configurations.
+- baseURL: https://productdata.volkswagenag.com/v3
+  baseurl_source: declared
+  description: Configure vehicles — check buildability, recover, and resolve configurations.
   name: Volkswagen Configuration API
   slug: volkswagen-configuration-api
-- description: Retrieve vehicle information — WLTP emissions, images, and order data.
+- baseURL: https://productdata.volkswagenag.com/v3
+  baseurl_source: declared
+  description: Retrieve vehicle information — WLTP emissions, images, and order data.
   name: Volkswagen Information API
   slug: volkswagen-information-api
 artifact_total: 25
@@ -254,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png
 security:

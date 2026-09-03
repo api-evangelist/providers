@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 5 acting
 api_count: 1
 apis:
-- description: Retrieve information about the authenticated user.
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: Retrieve information about the authenticated user.
   name: SavvyCal Current User API
   slug: savvycal-current-user-api
-- description: Manage scheduled events and bookings.
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: Manage scheduled events and bookings.
   name: SavvyCal Events API
   slug: savvycal-events-api
-- description: Create and manage scheduling links for booking.
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: Create and manage scheduling links for booking.
   name: SavvyCal Scheduling Links API
   slug: savvycal-scheduling-links-api
-- description: List and retrieve time zone information.
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: List and retrieve time zone information.
   name: SavvyCal Time Zones API
   slug: savvycal-time-zones-api
-- description: Configure webhooks for real-time event notifications.
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: Configure webhooks for real-time event notifications.
   name: SavvyCal Webhooks API
   slug: savvycal-webhooks-api
-- description: Manage automation workflows.
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: Manage automation workflows.
   name: SavvyCal Workflows API
   slug: savvycal-workflows-api
 artifact_total: 30
@@ -272,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/savvycal/refs/heads/main/screenshots/savvycal-2026-06-20T193443.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,37 +59,59 @@ apis:
 - description: Programmatically manage your Bird organization, workspaces, users, roles, and access keys. Configure SSO and manage multi-workspace enterprise deployments.
   name: Bird Accounts API
   slug: bird-accounts-api
-- description: FAQ dataset management and answer prediction operations.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: FAQ dataset management and answer prediction operations.
   name: Bird FAQ API
   slug: bird-faq-api
-- description: Intent recognition and dataset management operations.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Intent recognition and dataset management operations.
   name: Bird Intent API
   slug: bird-intent-api
-- description: Language detection operations.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Language detection operations.
   name: Bird LanguageDetection API
   slug: bird-languagedetection-api
-- description: Named entity recognition operations.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Named entity recognition operations.
   name: Bird NamedEntityRecognition API
   slug: bird-namedentityrecognition-api
-- description: MessageBird’s SMS API allows you to send and receive SMS messages to and from any country in the world through a REST API. Each message is identified by a unique random ID so that users can always che
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: MessageBird’s SMS API allows you to send and receive SMS messages to and from any country in the world through a REST API. Each message is identified by a unique random ID so that users can always che
   name: Bird SMS Messaging API
   slug: bird-sms-messaging-api
-- description: Manage workspace channels and channel media.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Manage workspace channels and channel media.
   name: Bird Channels API
   slug: bird-channels-api
-- description: Manage workspace contacts and lists.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Manage workspace contacts and lists.
   name: Bird Contacts API
   slug: bird-contacts-api
-- description: Manage threaded omnichannel conversations.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Manage threaded omnichannel conversations.
   name: Bird Conversations API
   slug: bird-conversations-api
-- description: Predecessor MessageBird REST API (rest.messagebird.com).
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Predecessor MessageBird REST API (rest.messagebird.com).
   name: Bird Legacy MessageBird API
   slug: bird-legacy-messagebird-api
-- description: Send and receive messages across channels.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Send and receive messages across channels.
   name: Bird Messaging API
   slug: bird-messaging-api
-- description: Discover, purchase, and manage phone numbers.
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Discover, purchase, and manage phone numbers.
   name: Bird Numbers API
   slug: bird-numbers-api
 artifact_total: 44
@@ -300,7 +322,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/screenshots/bird-2026-06-20T173301.png
 security:

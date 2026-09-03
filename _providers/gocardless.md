@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 48 operations · 21 acting
 api_count: 1
 apis:
-- description: The billing_request_flows API from GoCardless — 2 operation(s) for billing_request_flows.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The billing_request_flows API from GoCardless — 2 operation(s) for billing_request_flows.
   name: GoCardless billing_request_flows API
   slug: gocardless-billing-request-flows-api
-- description: The billing_requests API from GoCardless — 2 operation(s) for billing_requests.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The billing_requests API from GoCardless — 2 operation(s) for billing_requests.
   name: GoCardless billing_requests API
   slug: gocardless-billing-requests-api
-- description: The blocks API from GoCardless — 2 operation(s) for blocks.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The blocks API from GoCardless — 2 operation(s) for blocks.
   name: GoCardless blocks API
   slug: gocardless-blocks-api
-- description: The creditor_bank_accounts API from GoCardless — 1 operation(s) for creditor_bank_accounts.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The creditor_bank_accounts API from GoCardless — 1 operation(s) for creditor_bank_accounts.
   name: GoCardless creditor_bank_accounts API
   slug: gocardless-creditor-bank-accounts-api
-- description: The creditors API from GoCardless — 2 operation(s) for creditors.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The creditors API from GoCardless — 2 operation(s) for creditors.
   name: GoCardless creditors API
   slug: gocardless-creditors-api
-- description: The customer_bank_accounts API from GoCardless — 2 operation(s) for customer_bank_accounts.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The customer_bank_accounts API from GoCardless — 2 operation(s) for customer_bank_accounts.
   name: GoCardless customer_bank_accounts API
   slug: gocardless-customer-bank-accounts-api
-- description: The customers API from GoCardless — 2 operation(s) for customers.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The customers API from GoCardless — 2 operation(s) for customers.
   name: GoCardless customers API
   slug: gocardless-customers-api
-- description: The events API from GoCardless — 2 operation(s) for events.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The events API from GoCardless — 2 operation(s) for events.
   name: GoCardless events API
   slug: gocardless-events-api
-- description: The instalment_schedules API from GoCardless — 2 operation(s) for instalment_schedules.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The instalment_schedules API from GoCardless — 2 operation(s) for instalment_schedules.
   name: GoCardless instalment_schedules API
   slug: gocardless-instalment-schedules-api
-- description: The institutions API from GoCardless — 1 operation(s) for institutions.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The institutions API from GoCardless — 1 operation(s) for institutions.
   name: GoCardless institutions API
   slug: gocardless-institutions-api
-- description: The mandates API from GoCardless — 3 operation(s) for mandates.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The mandates API from GoCardless — 3 operation(s) for mandates.
   name: GoCardless mandates API
   slug: gocardless-mandates-api
-- description: The payer_authorisations API from GoCardless — 2 operation(s) for payer_authorisations.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The payer_authorisations API from GoCardless — 2 operation(s) for payer_authorisations.
   name: GoCardless payer_authorisations API
   slug: gocardless-payer-authorisations-api
-- description: The payments API from GoCardless — 3 operation(s) for payments.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The payments API from GoCardless — 3 operation(s) for payments.
   name: GoCardless payments API
   slug: gocardless-payments-api
-- description: The payouts API from GoCardless — 2 operation(s) for payouts.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The payouts API from GoCardless — 2 operation(s) for payouts.
   name: GoCardless payouts API
   slug: gocardless-payouts-api
-- description: The refunds API from GoCardless — 2 operation(s) for refunds.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The refunds API from GoCardless — 2 operation(s) for refunds.
   name: GoCardless refunds API
   slug: gocardless-refunds-api
-- description: The subscriptions API from GoCardless — 3 operation(s) for subscriptions.
+- baseURL: https://api.gocardless.com
+  baseurl_source: declared
+  description: The subscriptions API from GoCardless — 3 operation(s) for subscriptions.
   name: GoCardless subscriptions API
   slug: gocardless-subscriptions-api
 artifact_total: 42
@@ -285,7 +317,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -295,7 +327,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 46.3
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -310,7 +342,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png
 security:

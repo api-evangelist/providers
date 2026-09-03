@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,31 +62,49 @@ apis:
 - description: The Bank Holidays API provides information about U.S. Bank processing holidays and Federal Reserve banking holidays, useful for payment scheduling and clearing house availability calculations.
   name: US Bank Holidays API
   slug: us-bank-bank-holidays
-- description: The Accounts API from US Bancorp — 1 operation(s) for accounts.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Accounts API from US Bancorp — 1 operation(s) for accounts.
   name: US Bancorp Accounts API
   slug: us-bancorp-accounts-api
-- description: The Balances API from US Bancorp — 2 operation(s) for balances.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Balances API from US Bancorp — 2 operation(s) for balances.
   name: US Bancorp Balances API
   slug: us-bancorp-balances-api
-- description: The Credit Transfers API from US Bancorp — 2 operation(s) for credit transfers.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Credit Transfers API from US Bancorp — 2 operation(s) for credit transfers.
   name: US Bancorp Credit Transfers API
   slug: us-bancorp-credit-transfers-api
-- description: The Exception History API from US Bancorp — 1 operation(s) for exception history.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Exception History API from US Bancorp — 1 operation(s) for exception history.
   name: US Bancorp Exception History API
   slug: us-bancorp-exception-history-api
-- description: The Exceptions API from US Bancorp — 2 operation(s) for exceptions.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Exceptions API from US Bancorp — 2 operation(s) for exceptions.
   name: US Bancorp Exceptions API
   slug: us-bancorp-exceptions-api
-- description: The Push to Card Payments API from US Bancorp — 2 operation(s) for push to card payments.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Push to Card Payments API from US Bancorp — 2 operation(s) for push to card payments.
   name: US Bancorp Push to Card Payments API
   slug: us-bancorp-push-to-card-payments-api
-- description: The Request for Payment API from US Bancorp — 2 operation(s) for request for payment.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Request for Payment API from US Bancorp — 2 operation(s) for request for payment.
   name: US Bancorp Request for Payment API
   slug: us-bancorp-request-for-payment-api
-- description: The RTP Eligibility API from US Bancorp — 1 operation(s) for rtp eligibility.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The RTP Eligibility API from US Bancorp — 1 operation(s) for rtp eligibility.
   name: US Bancorp RTP Eligibility API
   slug: us-bancorp-rtp-eligibility-api
-- description: The Transactions API from US Bancorp — 2 operation(s) for transactions.
+- baseURL: https://api.usbank.com
+  baseurl_source: declared
+  description: The Transactions API from US Bancorp — 2 operation(s) for transactions.
   name: US Bancorp Transactions API
   slug: us-bancorp-transactions-api
 artifact_total: 47
@@ -293,7 +311,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png
 security:

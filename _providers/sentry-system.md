@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -45,136 +45,224 @@ agentic_access:
   summary_line: 200 operations · 90 acting
 api_count: 21
 apis:
-- description: Manage alerts (beta)
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage alerts (beta)
   name: Sentry Alerts API
   slug: sentry-system-alerts-api
-- description: View monitor check-in history
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: View monitor check-in history
   name: Sentry Check-Ins API
   slug: sentry-system-check-ins-api
-- description: Manage project client keys (DSNs)
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage project client keys (DSNs)
   name: Sentry Client Keys API
   slug: sentry-system-client-keys-api
-- description: Manage commits associated with releases
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage commits associated with releases
   name: Sentry Commits API
   slug: sentry-system-commits-api
-- description: Manage custom integrations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage custom integrations
   name: Sentry Custom Integrations API
   slug: sentry-system-custom-integrations-api
-- description: Manage custom dashboards and their widgets
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage custom dashboards and their widgets
   name: Sentry Dashboards API
   slug: sentry-system-dashboards-api
-- description: Manage data forwarding configurations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage data forwarding configurations
   name: Sentry Data Forwarders API
   slug: sentry-system-data-forwarders-api
-- description: Manage debug information files
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage debug information files
   name: Sentry Debug Files API
   slug: sentry-system-debug-files-api
-- description: Manage deployments of releases
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage deployments of releases
   name: Sentry Deploys API
   slug: sentry-system-deploys-api
-- description: Manage saved Discover queries
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage saved Discover queries
   name: Sentry Discover API
   slug: sentry-system-discover-api
-- description: Manage project and organization environments
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage project and organization environments
   name: Sentry Environments API
   slug: sentry-system-environments-api
-- description: Access and manage error and transaction events
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Access and manage error and transaction events
   name: Sentry Events API
   slug: sentry-system-events-api
-- description: Query and analyze event data
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Query and analyze event data
   name: Sentry Explore API
   slug: sentry-system-explore-api
-- description: Manage external issue links
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage external issue links
   name: Sentry External Issues API
   slug: sentry-system-external-issues-api
-- description: Manage external team mappings
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage external team mappings
   name: Sentry External Teams API
   slug: sentry-system-external-teams-api
-- description: Manage external user mappings
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage external user mappings
   name: Sentry External Users API
   slug: sentry-system-external-users-api
-- description: Manage inbound data filters
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage inbound data filters
   name: Sentry Filters API
   slug: sentry-system-filters-api
-- description: Manage integration installations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage integration installations
   name: Sentry Installations API
   slug: sentry-system-installations-api
-- description: Manage third-party integrations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage third-party integrations
   name: Sentry Integrations API
   slug: sentry-system-integrations-api
-- description: View user interactions within replays
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: View user interactions within replays
   name: Sentry Interactions API
   slug: sentry-system-interactions-api
-- description: Manage issue alert rules at the project level
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage issue alert rules at the project level
   name: Sentry Issue Alerts API
   slug: sentry-system-issue-alerts-api
-- description: Manage error issues
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage error issues
   name: Sentry Issues API
   slug: sentry-system-issues-api
-- description: Manage organization members and their roles
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage organization members and their roles
   name: Sentry Members API
   slug: sentry-system-members-api
-- description: Manage metric alert rules at the organization level
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage metric alert rules at the organization level
   name: Sentry Metric Alerts API
   slug: sentry-system-metric-alerts-api
-- description: Analyze mobile application build artifacts
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Analyze mobile application build artifacts
   name: Sentry Mobile Builds API
   slug: sentry-system-mobile-builds-api
-- description: Manage cron job monitors
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage cron job monitors
   name: Sentry Monitors API
   slug: sentry-system-monitors-api
-- description: Manage Sentry organizations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage Sentry organizations
   name: Sentry Organizations API
   slug: sentry-system-organizations-api
-- description: Manage projects within organizations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage projects within organizations
   name: Sentry Projects API
   slug: sentry-system-projects-api
-- description: Access replay recording segments
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Access replay recording segments
   name: Sentry Recording Segments API
   slug: sentry-system-recording-segments-api
-- description: Manage files associated with releases
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage files associated with releases
   name: Sentry Release Files API
   slug: sentry-system-release-files-api
-- description: Manage software releases
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage software releases
   name: Sentry Releases API
   slug: sentry-system-releases-api
-- description: Manage session replays
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage session replays
   name: Sentry Replays API
   slug: sentry-system-replays-api
-- description: Manage organization repositories
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage organization repositories
   name: Sentry Repositories API
   slug: sentry-system-repositories-api
-- description: Provision and manage organization members via SCIM
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Provision and manage organization members via SCIM
   name: Sentry SCIM Members API
   slug: sentry-system-scim-members-api
-- description: Provision and manage teams via SCIM
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Provision and manage teams via SCIM
   name: Sentry SCIM Teams API
   slug: sentry-system-scim-teams-api
-- description: AI-powered issue analysis and fix suggestions
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: AI-powered issue analysis and fix suggestions
   name: Sentry Seer API
   slug: sentry-system-seer-api
-- description: Manage project service hooks
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage project service hooks
   name: Sentry Service Hooks API
   slug: sentry-system-service-hooks-api
-- description: Retrieve release health session statistics
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Retrieve release health session statistics
   name: Sentry Sessions API
   slug: sentry-system-sessions-api
-- description: Manage spike protection notification actions
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage spike protection notification actions
   name: Sentry Spike Protection API
   slug: sentry-system-spike-protection-api
-- description: Manage teams within organizations
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage teams within organizations
   name: Sentry Teams API
   slug: sentry-system-teams-api
-- description: Retrieve test result metrics and test suites
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Retrieve test result metrics and test suites
   name: Sentry Test Results API
   slug: sentry-system-test-results-api
-- description: Manage repository upload tokens
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage repository upload tokens
   name: Sentry Tokens API
   slug: sentry-system-tokens-api
-- description: Manage user feedback submissions
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Manage user feedback submissions
   name: Sentry User Feedback API
   slug: sentry-system-user-feedback-api
-- description: Retrieve user-related information
+- baseURL: https://sentry.io/api/0
+  baseurl_source: declared
+  description: Retrieve user-related information
   name: Sentry Users API
   slug: sentry-system-users-api
 arazzos:
@@ -938,7 +1026,7 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -948,7 +1036,7 @@ score:
     discoverability: 55.6
     governance: 14.4
     operational_transparency: 57.9
-  previous_composite: 59.3
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -959,7 +1047,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

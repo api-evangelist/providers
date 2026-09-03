@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 31 operations · 9 acting
 api_count: 1
 apis:
-- description: The Affiliate API from Loopay — 4 operation(s) for affiliate.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Affiliate API from Loopay — 4 operation(s) for affiliate.
   name: Loopay Affiliate API
   slug: loopay-affiliate-api
-- description: The Bank API from Loopay — 1 operation(s) for bank.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Bank API from Loopay — 1 operation(s) for bank.
   name: Loopay Bank API
   slug: loopay-bank-api
-- description: The Company API from Loopay — 1 operation(s) for company.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Company API from Loopay — 1 operation(s) for company.
   name: Loopay Company API
   slug: loopay-company-api
-- description: The CompanyProduct API from Loopay — 1 operation(s) for companyproduct.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The CompanyProduct API from Loopay — 1 operation(s) for companyproduct.
   name: Loopay CompanyProduct API
   slug: loopay-companyproduct-api
-- description: The Country API from Loopay — 1 operation(s) for country.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Country API from Loopay — 1 operation(s) for country.
   name: Loopay Country API
   slug: loopay-country-api
-- description: The Currency API from Loopay — 1 operation(s) for currency.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Currency API from Loopay — 1 operation(s) for currency.
   name: Loopay Currency API
   slug: loopay-currency-api
-- description: The DocumentType API from Loopay — 1 operation(s) for documenttype.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The DocumentType API from Loopay — 1 operation(s) for documenttype.
   name: Loopay DocumentType API
   slug: loopay-documenttype-api
-- description: The Movements API from Loopay — 1 operation(s) for movements.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Movements API from Loopay — 1 operation(s) for movements.
   name: Loopay Movements API
   slug: loopay-movements-api
-- description: The PaidMethods API from Loopay — 1 operation(s) for paidmethods.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The PaidMethods API from Loopay — 1 operation(s) for paidmethods.
   name: Loopay PaidMethods API
   slug: loopay-paidmethods-api
-- description: The PayIn API from Loopay — 2 operation(s) for payin.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The PayIn API from Loopay — 2 operation(s) for payin.
   name: Loopay PayIn API
   slug: loopay-payin-api
-- description: The Payout API from Loopay — 6 operation(s) for payout.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The Payout API from Loopay — 6 operation(s) for payout.
   name: Loopay Payout API
   slug: loopay-payout-api
-- description: The PhysicalPoint API from Loopay — 1 operation(s) for physicalpoint.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The PhysicalPoint API from Loopay — 1 operation(s) for physicalpoint.
   name: Loopay PhysicalPoint API
   slug: loopay-physicalpoint-api
-- description: The SourcesOfPayment API from Loopay — 5 operation(s) for sourcesofpayment.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The SourcesOfPayment API from Loopay — 5 operation(s) for sourcesofpayment.
   name: Loopay SourcesOfPayment API
   slug: loopay-sourcesofpayment-api
-- description: The SourcesOfPaymentAdmin API from Loopay — 3 operation(s) for sourcesofpaymentadmin.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The SourcesOfPaymentAdmin API from Loopay — 3 operation(s) for sourcesofpaymentadmin.
   name: Loopay SourcesOfPaymentAdmin API
   slug: loopay-sourcesofpaymentadmin-api
-- description: The User API from Loopay — 2 operation(s) for user.
+- baseURL: https://api.loopay.com
+  baseurl_source: declared
+  description: The User API from Loopay — 2 operation(s) for user.
   name: Loopay User API
   slug: loopay-user-api
 artifact_total: 35
@@ -292,7 +322,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:

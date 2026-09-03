@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 52 operations · 32 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: User account management and settings
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: User account management and settings
   name: Lemmy Account API
   slug: lemmy-account-api
-- description: Administrative actions
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Administrative actions
   name: Lemmy Admin API
   slug: lemmy-admin-api
-- description: Account registration, login, and password management
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Account registration, login, and password management
   name: Lemmy Authentication API
   slug: lemmy-authentication-api
-- description: Creating and managing comments
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Creating and managing comments
   name: Lemmy Comment API
   slug: lemmy-comment-api
-- description: Community management and discovery
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Community management and discovery
   name: Lemmy Community API
   slug: lemmy-community-api
-- description: ActivityPub federation and cross-instance operations
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: ActivityPub federation and cross-instance operations
   name: Lemmy Federation API
   slug: lemmy-federation-api
-- description: Image upload and retrieval
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Image upload and retrieval
   name: Lemmy Images API
   slug: lemmy-images-api
-- description: User notifications and alerts
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: User notifications and alerts
   name: Lemmy Notifications API
   slug: lemmy-notifications-api
-- description: User profiles and discovery
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: User profiles and discovery
   name: Lemmy Person API
   slug: lemmy-person-api
-- description: Creating and managing posts
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Creating and managing posts
   name: Lemmy Post API
   slug: lemmy-post-api
-- description: Direct messaging between users
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Direct messaging between users
   name: Lemmy Private Messages API
   slug: lemmy-private-messages-api
-- description: Content reporting and moderation
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Content reporting and moderation
   name: Lemmy Reports API
   slug: lemmy-reports-api
-- description: Search across posts, comments, communities, and users
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Search across posts, comments, communities, and users
   name: Lemmy Search API
   slug: lemmy-search-api
-- description: Site-level information and configuration
+- baseURL: https://lemmy.world/api/v4
+  baseurl_source: declared
+  description: Site-level information and configuration
   name: Lemmy Site API
   slug: lemmy-site-api
 artifact_total: 43
@@ -296,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/screenshots/lemmy-2026-06-20T184415.png
 security:

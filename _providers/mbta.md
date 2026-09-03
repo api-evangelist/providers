@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 22 operations
 api_count: 1
 apis:
-- description: Service disruption communications
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Service disruption communications
   name: MBTA Alerts API
   slug: mbta-alerts-api
-- description: Stop amenities such as elevators and bike racks
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Stop amenities such as elevators and bike racks
   name: MBTA Facilities API
   slug: mbta-facilities-api
-- description: Transit lines grouped by mode
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Transit lines grouped by mode
   name: MBTA Lines API
   slug: mbta-lines-api
-- description: Real-time arrival and departure forecasts
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Real-time arrival and departure forecasts
   name: MBTA Predictions API
   slug: mbta-predictions-api
-- description: Possible travel patterns within a route
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Possible travel patterns within a route
   name: MBTA RoutePatterns API
   slug: mbta-routepatterns-api
-- description: Route information per line
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Route information per line
   name: MBTA Routes API
   slug: mbta-routes-api
-- description: Scheduled stop times
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Scheduled stop times
   name: MBTA Schedules API
   slug: mbta-schedules-api
-- description: Operational dates and frequencies
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Operational dates and frequencies
   name: MBTA Services API
   slug: mbta-services-api
-- description: Trip route polylines for mapping
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Trip route polylines for mapping
   name: MBTA Shapes API
   slug: mbta-shapes-api
-- description: Boarding and disembarking locations
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Boarding and disembarking locations
   name: MBTA Stops API
   slug: mbta-stops-api
-- description: Vehicle journey definitions
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Vehicle journey definitions
   name: MBTA Trips API
   slug: mbta-trips-api
-- description: Vehicle movement and position data
+- baseURL: https://api-v3.mbta.com
+  baseurl_source: declared
+  description: Vehicle movement and position data
   name: MBTA Vehicles API
   slug: mbta-vehicles-api
 artifact_total: 32
@@ -213,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/screenshots/mbta-2026-06-20T185053.png
 security:

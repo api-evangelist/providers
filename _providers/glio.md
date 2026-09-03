@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: Job creation and status management
+- baseURL: https://api.glio.io
+  baseurl_source: declared
+  description: Job creation and status management
   name: Glio Jobs API
   slug: glio-jobs-api
-- description: Synchronous text generation endpoints
+- baseURL: https://api.glio.io
+  baseurl_source: declared
+  description: Synchronous text generation endpoints
   name: Glio LLM API
   slug: glio-llm-api
 arazzos:
@@ -200,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glio/refs/heads/main/screenshots/glio-2026-07-25T215909.png
 security:

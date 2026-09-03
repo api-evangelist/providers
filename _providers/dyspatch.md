@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 131 operations · 73 acting
 api_count: 1
 apis:
-- description: The Blocks API from Dyspatch — 6 operation(s) for blocks.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: The Blocks API from Dyspatch — 6 operation(s) for blocks.
   name: Dyspatch Blocks API
   slug: dyspatch-blocks-api
-- description: Customer Profiles contain JSON data that can be used for template personalization. Each profile can be associated with one or more workspaces, or none, and contains structured data content.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Customer Profiles contain JSON data that can be used for template personalization. Each profile can be associated with one or more workspaces, or none, and contains structured data content.
   name: Dyspatch Customer Profiles API
   slug: dyspatch-customer-profiles-api
-- description: Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
   name: Dyspatch Drafts API
   slug: dyspatch-drafts-api
-- description: Live Activity Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Live Activity Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
   name: Dyspatch Live Activity Drafts API
   slug: dyspatch-live-activity-drafts-api
-- description: Live Activity Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Live Activity Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
   name: Dyspatch Live Activity Localizations API
   slug: dyspatch-live-activity-localizations-api
-- description: Live Activity Templates are the Live Activity templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list en
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Live Activity Templates are the Live Activity templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list en
   name: Dyspatch Live Activity Templates API
   slug: dyspatch-live-activity-templates-api
-- description: Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
   name: Dyspatch Localizations API
   slug: dyspatch-localizations-api
-- description: Push Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Push Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
   name: Dyspatch Push Drafts API
   slug: dyspatch-push-drafts-api
-- description: Push Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Push Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
   name: Dyspatch Push Localizations API
   slug: dyspatch-push-localizations-api
-- description: 'Push Templates are the Push templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterate '
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: 'Push Templates are the Push templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterate '
   name: Dyspatch Push Templates API
   slug: dyspatch-push-templates-api
-- description: SMS Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: SMS Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
   name: Dyspatch SMS Drafts API
   slug: dyspatch-sms-drafts-api
-- description: SMS Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: SMS Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
   name: Dyspatch SMS Localizations API
   slug: dyspatch-sms-localizations-api
-- description: SMS Templates are the SMS templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterate th
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: SMS Templates are the SMS templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterate th
   name: Dyspatch SMS Templates API
   slug: dyspatch-sms-templates-api
-- description: Tags are a way of categorizing your resources (template and drafts) with helpful identifying information. You can decide what tags are useful for you, managing a master list of available tags and assi
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Tags are a way of categorizing your resources (template and drafts) with helpful identifying information. You can decide what tags are useful for you, managing a master list of available tags and assi
   name: Dyspatch Tags API
   slug: dyspatch-tags-api
-- description: Templates are the email templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterate thro
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Templates are the email templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterate thro
   name: Dyspatch Templates API
   slug: dyspatch-templates-api
-- description: The Themes API from Dyspatch — 2 operation(s) for themes.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: The Themes API from Dyspatch — 2 operation(s) for themes.
   name: Dyspatch Themes API
   slug: dyspatch-themes-api
-- description: Voice Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Voice Drafts represent unpublished versions of templates that are still mutable. There could be many in progress drafts for a template.
   name: Dyspatch Voice Drafts API
   slug: dyspatch-voice-drafts-api
-- description: Voice Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Voice Localization objects are the same as Template objects except they contain localized content. If your account is using localizations then use this instead of the compiled Template object.
   name: Dyspatch Voice Localizations API
   slug: dyspatch-voice-localizations-api
-- description: Voice Templates are the Voice templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterat
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: Voice Templates are the Voice templates found in your Dyspatch account. Only the published Template Draft is returned. A typical integration will start with using the Templates list endpoint to iterat
   name: Dyspatch Voice Templates API
   slug: dyspatch-voice-templates-api
-- description: The Workspaces API from Dyspatch — 2 operation(s) for workspaces.
+- baseURL: https://api.dyspatch.io
+  baseurl_source: declared
+  description: The Workspaces API from Dyspatch — 2 operation(s) for workspaces.
   name: Dyspatch Workspaces API
   slug: dyspatch-workspaces-api
 artifact_total: 49
@@ -349,7 +389,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -359,7 +399,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,7 +417,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/screenshots/dyspatch-2026-07-25T212608.png
 security:

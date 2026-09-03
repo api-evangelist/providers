@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 3 acting
 api_count: 1
 apis:
-- description: Client and lead CRM records.
+- baseURL: https://studio.pixieset.com/api/v1
+  baseurl_source: declared
+  description: Client and lead CRM records.
   name: Pixieset Clients API
   slug: pixieset-clients-api
-- description: Gallery collections, access, and downloads.
+- baseURL: https://studio.pixieset.com/api/v1
+  baseurl_source: declared
+  description: Gallery collections, access, and downloads.
   name: Pixieset Collections API
   slug: pixieset-collections-api
-- description: Contracts and contract templates.
+- baseURL: https://studio.pixieset.com/api/v1
+  baseurl_source: declared
+  description: Contracts and contract templates.
   name: Pixieset Contracts API
   slug: pixieset-contracts-api
-- description: Invoices and payments.
+- baseURL: https://studio.pixieset.com/api/v1
+  baseurl_source: declared
+  description: Invoices and payments.
   name: Pixieset Invoices API
   slug: pixieset-invoices-api
-- description: Bookable session types, scheduling, and availability.
+- baseURL: https://studio.pixieset.com/api/v1
+  baseurl_source: declared
+  description: Bookable session types, scheduling, and availability.
   name: Pixieset Sessions API
   slug: pixieset-sessions-api
 artifact_total: 15
@@ -130,7 +140,7 @@ score:
   band: thin
   composite: 29.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -153,8 +163,9 @@ score:
       marker_coverage: 20.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/screenshots/pixieset-2026-09-02T151341.png
 security:
 - kind: authentication
   name: Pixieset Authentication

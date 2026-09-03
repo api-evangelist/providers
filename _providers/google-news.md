@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Retrieve top news headlines
+- baseURL: https://news.google.com/rss
+  baseurl_source: declared
+  description: Retrieve top news headlines
   name: Google News RSS Headlines API
   slug: google-news-headlines-api
-- description: Search for news articles
+- baseURL: https://news.google.com/rss
+  baseurl_source: declared
+  description: Search for news articles
   name: Google News RSS Search API
   slug: google-news-search-api
-- description: Retrieve news by topic
+- baseURL: https://news.google.com/rss
+  baseurl_source: declared
+  description: Retrieve news by topic
   name: Google News RSS Topics API
   slug: google-news-topics-api
 artifact_total: 18
@@ -200,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/screenshots/google-news-2026-06-20T182219.png
 security:

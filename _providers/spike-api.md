@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: Outbound webhook event delivery. After data updates, Spike POSTs a JSON array of events - record_change, provider_integration_created, and provider_integration_deleted - to a webhook URL configured in
   name: Spike Webhooks API
   slug: spike-api-webhooks-api
-- description: Authenticate end users and mint JWT access tokens.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Authenticate end users and mint JWT access tokens.
   name: Spike Auth API
   slug: spike-api-auth-api
-- description: Upload and query structured lab report biomarkers.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Upload and query structured lab report biomarkers.
   name: Spike Lab Reports API
   slug: spike-api-lab-reports-api
-- description: Analyze and manage nutrition records.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Analyze and manage nutrition records.
   name: Spike Nutrition AI API
   slug: spike-api-nutrition-ai-api
-- description: Connect and disconnect a user's health data providers.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Connect and disconnect a user's health data providers.
   name: Spike Provider Integrations API
   slug: spike-api-provider-integrations-api
-- description: Query normalized provider health data records.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Query normalized provider health data records.
   name: Spike Provider Records API
   slug: spike-api-provider-records-api
-- description: Ingest on-device health data pushed from the mobile SDKs.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Ingest on-device health data pushed from the mobile SDKs.
   name: Spike SDK Push API
   slug: spike-api-sdk-push-api
-- description: Query normalized sleep sessions and stages.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Query normalized sleep sessions and stages.
   name: Spike Sleep API
   slug: spike-api-sleep-api
-- description: Query aggregated statistics for metrics over time.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Query aggregated statistics for metrics over time.
   name: Spike Statistics API
   slug: spike-api-statistics-api
-- description: Query high-resolution metric time series.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Query high-resolution metric time series.
   name: Spike Time Series API
   slug: spike-api-time-series-api
-- description: Current user, user properties, and application info.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Current user, user properties, and application info.
   name: Spike Users API
   slug: spike-api-users-api
-- description: Query normalized workouts and physical activities.
+- baseURL: https://app-api.spikeapi.com/v3
+  baseurl_source: declared
+  description: Query normalized workouts and physical activities.
   name: Spike Workouts API
   slug: spike-api-workouts-api
 artifact_total: 31
@@ -195,7 +217,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +246,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/screenshots/spike-api-2026-09-02T160432.png
 security:
 - kind: authentication
   name: Spike Api Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -45,88 +45,144 @@ agentic_access:
   summary_line: 64 operations · 18 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The Audit Event API allows users to connect BlueConic to a SIEM system. We recommend using this API to periodically receive security-related activities based on a rolling window. The API has a 30-day '
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: 'The Audit Event API allows users to connect BlueConic to a SIEM system. We recommend using this API to periodically receive security-related activities based on a rolling window. The API has a 30-day '
   name: BlueConic Audit Events API
   slug: blueconic-audit-events-api
-- description: The Channel API allows you to retrieve information about [channels in BlueConic](https://support.blueconic.com/hc/en-us/articles/200472632-Overview-What-are-channels-in-BlueConic).
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The Channel API allows you to retrieve information about [channels in BlueConic](https://support.blueconic.com/hc/en-us/articles/200472632-Overview-What-are-channels-in-BlueConic).
   name: BlueConic Channels API
   slug: blueconic-channels-api
-- description: BlueConic Connections lets you connect with other systems to synchronize customer data. The following methods allow you to retrieve the connection configuration and run history. [Read more](https://su
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: BlueConic Connections lets you connect with other systems to synchronize customer data. The following methods allow you to retrieve the connection configuration and run history. [Read more](https://su
   name: BlueConic Connections API
   slug: blueconic-connections-api
-- description: A Dialogue is an online (personalized) conversation with a visitor to a channel. [Read more](https://support.blueconic.com/hc/en-us/articles/200456521-What-are-dialogues-)
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: A Dialogue is an online (personalized) conversation with a visitor to a channel. [Read more](https://support.blueconic.com/hc/en-us/articles/200456521-What-are-dialogues-)
   name: BlueConic Dialogues API
   slug: blueconic-dialogues-api
-- description: Retrieve all types of groups, such as “Househould” or “Account”. Each group type has its own properties that can be used for segmentation. <a href="https://support.blueconic.com/hc/en-us/articles/3600
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Retrieve all types of groups, such as “Househould” or “Account”. Each group type has its own properties that can be used for segmentation. <a href="https://support.blueconic.com/hc/en-us/articles/3600
   name: BlueConic Group Types API
   slug: blueconic-group-types-api
-- description: The following methods allow you to create, modify, retrieve, and delete BlueConic groups. To manage group properties, use the [Properties endpoints](https://rest.apidoc.blueconic.com/#tag--Properties)
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The following methods allow you to create, modify, retrieve, and delete BlueConic groups. To manage group properties, use the [Properties endpoints](https://rest.apidoc.blueconic.com/#tag--Properties)
   name: BlueConic Groups API
   slug: blueconic-groups-api
-- description: Used to track an interaction (view, click, or conversion) with a BlueConic Dialogue. See [Tracking metrics for views, clicks, and conversions](https://support.blueconic.com/hc/en-us/articles/360020105
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Used to track an interaction (view, click, or conversion) with a BlueConic Dialogue. See [Tracking metrics for views, clicks, and conversions](https://support.blueconic.com/hc/en-us/articles/360020105
   name: BlueConic Interaction events API
   slug: blueconic-interaction-events-api
-- description: Get the interactions (i.e. listeners and/or dialogues) that must be executed for a given profile that visits a certain web page (for web channels), a screen (on mobile or CTV channels) or a campaign I
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Get the interactions (i.e. listeners and/or dialogues) that must be executed for a given profile that visits a certain web page (for web channels), a screen (on mobile or CTV channels) or a campaign I
   name: BlueConic Interactions API
   slug: blueconic-interactions-api
-- description: The following methods allow you to retrieve information about lifecycles. See [Lifecycles](https://support.blueconic.com/en/articles/247909-lifecycles-overview).
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The following methods allow you to retrieve information about lifecycles. See [Lifecycles](https://support.blueconic.com/en/articles/247909-lifecycles-overview).
   name: BlueConic Lifecycles API
   slug: blueconic-lifecycles-api
-- description: Listeners add information about visitors to their profile, based on their online behavior or provided input. Use this endpoint to retrieve listener configuration. [Read more](https://support.blueconic
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Listeners add information about visitors to their profile, based on their online behavior or provided input. Use this endpoint to retrieve listener configuration. [Read more](https://support.blueconic
   name: BlueConic Listeners API
   slug: blueconic-listeners-api
-- description: The following methods allow you to create, modify, retrieve, and delete machine learning Models in ONNX format. See [Models](https://support.blueconic.com/en/articles/307965-real-time-models).
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The following methods allow you to create, modify, retrieve, and delete machine learning Models in ONNX format. See [Models](https://support.blueconic.com/en/articles/307965-real-time-models).
   name: BlueConic Models API
   slug: blueconic-models-api
-- description: The following methods allow you to retrieve AI Workbench notebooks and their run history. See [AI Workbench Overview](https://support.blueconic.com/en/articles/247838-ai-workbench-overview).
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The following methods allow you to retrieve AI Workbench notebooks and their run history. See [AI Workbench Overview](https://support.blueconic.com/en/articles/247838-ai-workbench-overview).
   name: BlueConic Notebooks API
   slug: blueconic-notebooks-api
-- description: The OAuth 2.0 API allows external applications to be authenticated and authorized to access the public BlueConic API. The OAuth 2.0 specification is implemented according to [RFC 6749](https://www.rfc
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The OAuth 2.0 API allows external applications to be authenticated and authorized to access the public BlueConic API. The OAuth 2.0 specification is implemented according to [RFC 6749](https://www.rfc
   name: BlueConic OAuth 2.0 API
   slug: blueconic-oauth-2-0-api
-- description: Objectives are used to group items needed for your marketing objectives. When consent is required, items in the objective only get access to profiles that have given consent to the objective. [Read mo
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Objectives are used to group items needed for your marketing objectives. When consent is required, items in the objective only get access to profiles that have given consent to the objective. [Read mo
   name: BlueConic Objectives API
   slug: blueconic-objectives-api
-- description: Pageview events are used to track page views by profiles. This is used by BlueConic Listeners. See [Listeners and Trackers](https://support.blueconic.com/hc/en-us/sections/200913331-Listeners-and-Trac
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Pageview events are used to track page views by profiles. This is used by BlueConic Listeners. See [Listeners and Trackers](https://support.blueconic.com/hc/en-us/sections/200913331-Listeners-and-Trac
   name: BlueConic Pageview events API
   slug: blueconic-pageview-events-api
-- description: Retrieve plugins from the gallery, or limit results to installed plugins only. See [Plugins](https://support.blueconic.com/en/articles/248049-plugins-overview).
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Retrieve plugins from the gallery, or limit results to installed plugins only. See [Plugins](https://support.blueconic.com/en/articles/248049-plugins-overview).
   name: BlueConic Plugins API
   slug: blueconic-plugins-api
-- description: Consent management events for a profile; consent changed or permission level changed. [Read more about using Objectives for privacy and consent](https://support.blueconic.com/hc/en-us/articles/3600021
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Consent management events for a profile; consent changed or permission level changed. [Read more about using Objectives for privacy and consent](https://support.blueconic.com/hc/en-us/articles/3600021
   name: BlueConic Profile events API
   slug: blueconic-profile-events-api
-- description: 'The following methods allow you to create, modify, retrieve properties from, and delete [BlueConic Profiles](https://support.blueconic.com/hc/en-us/articles/115001671965-Overview-BlueConic-Profiles), '
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: 'The following methods allow you to create, modify, retrieve properties from, and delete [BlueConic Profiles](https://support.blueconic.com/hc/en-us/articles/115001671965-Overview-BlueConic-Profiles), '
   name: BlueConic Profiles API
   slug: blueconic-profiles-api
-- description: The following methods allow you to retrieve and update [Profile Properties](https://support.blueconic.com/hc/en-us/articles/202608231-Capturing-customer-data-in-Profile-Properties) and [Group Properti
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The following methods allow you to retrieve and update [Profile Properties](https://support.blueconic.com/hc/en-us/articles/202608231-Capturing-customer-data-in-Profile-Properties) and [Group Properti
   name: BlueConic Properties API
   slug: blueconic-properties-api
-- description: Generate individualized content and product recommendations for a given profile. [Read more](https://support.blueconic.com/hc/en-us/articles/115005971169-Overview-Content-and-Product-Recommendations).
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Generate individualized content and product recommendations for a given profile. [Read more](https://support.blueconic.com/hc/en-us/articles/115005971169-Overview-Content-and-Product-Recommendations).
   name: BlueConic Recommendations API
   slug: blueconic-recommendations-api
-- description: All reporting related endpoints.
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: All reporting related endpoints.
   name: BlueConic Reporting API
   slug: blueconic-reporting-api
-- description: A role contains a collection of data privacy and feature access permissions that you can assign to a user. Every BlueConic user is assigned to at least one role. A user can only access the features th
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: A role contains a collection of data privacy and feature access permissions that you can assign to a user. Every BlueConic user is assigned to at least one role. A user can only access the features th
   name: BlueConic Roles API
   slug: blueconic-roles-api
-- description: A segment is a group of profiles characterized by a defined set of attributes & properties. The following methods allow you to retrieve information from segments and the profiles within a given segmen
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: A segment is a group of profiles characterized by a defined set of attributes & properties. The following methods allow you to retrieve information from segments and the profiles within a given segmen
   name: BlueConic Segments API
   slug: blueconic-segments-api
-- description: A store is a database for managing metadata about products or articles. You can populate it using a Product collector or Content collector, which scrapes data from your website. This metadata powers f
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: A store is a database for managing metadata about products or articles. You can populate it using a Product collector or Content collector, which scrapes data from your website. This metadata powers f
   name: BlueConic Stores API
   slug: blueconic-stores-api
-- description: Roll up BlueConic timeline event data and store the results in a profile property. You can use that profile property for segmentation, reporting, and activation. [Read more](https://support.blueconic.
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Roll up BlueConic timeline event data and store the results in a profile property. You can use that profile property for segmentation, reporting, and activation. [Read more](https://support.blueconic.
   name: BlueConic Timeline event rollups API
   slug: blueconic-timeline-event-rollups-api
-- description: Timeline events store time-based data on events that occur for a profile, such as product orders or page views. In BlueConic, a Timeline event type defines how events are stored in a profile. For exam
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Timeline events store time-based data on events that occur for a profile, such as product orders or page views. In BlueConic, a Timeline event type defines how events are stored in a profile. For exam
   name: BlueConic Timeline Event Types API
   slug: blueconic-timeline-event-types-api
-- description: The following methods allow you to create, modify, and retrieve URL mappings (tracking pixel or shortened URL). These can be created via the External tracker tab, but can also be created as a separate
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: The following methods allow you to create, modify, and retrieve URL mappings (tracking pixel or shortened URL). These can be created via the External tracker tab, but can also be created as a separate
   name: BlueConic URL mappings API
   slug: blueconic-url-mappings-api
-- description: Users are the people who have access to the BlueConic environment. [Read more](https://support.blueconic.com/hc/en-us/articles/360000013785-Users)
+- baseURL: https://{tenantname}.blueconic.net/rest/v2
+  baseurl_source: declared
+  description: Users are the people who have access to the BlueConic environment. [Read more](https://support.blueconic.com/hc/en-us/articles/360000013785-Users)
   name: BlueConic Users API
   slug: blueconic-users-api
 artifact_total: 163
@@ -781,7 +837,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -791,7 +847,7 @@ score:
     discoverability: 51.9
     governance: 31.8
     operational_transparency: 94.7
-  previous_composite: 65.6
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -803,7 +859,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/screenshots/blueconic-2026-06-20T173532.png
 security:

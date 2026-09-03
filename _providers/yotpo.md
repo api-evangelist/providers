@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: OAuth token exchange for app key + secret.
+- baseURL: https://api.yotpo.com
+  baseurl_source: declared
+  description: OAuth token exchange for app key + secret.
   name: Yotpo Authentication API
   slug: yotpo-authentication-api
-- description: Loyalty and referrals customers, orders, and redemptions.
+- baseURL: https://api.yotpo.com
+  baseurl_source: declared
+  description: Loyalty and referrals customers, orders, and redemptions.
   name: Yotpo Loyalty API
   slug: yotpo-loyalty-api
-- description: Reviews and user-generated content.
+- baseURL: https://api.yotpo.com
+  baseurl_source: declared
+  description: Reviews and user-generated content.
   name: Yotpo Reviews API
   slug: yotpo-reviews-api
-- description: Core API store sync and webhook subscriptions.
+- baseURL: https://api.yotpo.com
+  baseurl_source: declared
+  description: Core API store sync and webhook subscriptions.
   name: Yotpo Subscriptions API
   slug: yotpo-subscriptions-api
 artifact_total: 16
@@ -151,7 +159,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -174,8 +182,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yotpo/refs/heads/main/screenshots/yotpo-2026-09-02T171324.png
 security:
 - kind: authentication
   name: Yotpo Authentication

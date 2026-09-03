@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,22 +36,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: WordPress core content API (posts, pages, media, taxonomies, settings) plus the site's `location` custom post type, which carries the company's public infusion-center directory. Read access to publish
+- baseURL: https://mylocalinfusion.com/wp-json/
+  baseurl_source: declared
+  description: WordPress core content API (posts, pages, media, taxonomies, settings) plus the site's `location` custom post type, which carries the company's public infusion-center directory. Read access to publish
   name: Local Infusion WordPress Content API
   slug: local-infusion-wp-v2-api
-- description: Two Model Context Protocol servers exposed by the WordPress MCP adapter. Both require authentication — mcp-oauth-server returned HTTP 401 with a correct RFC 9728 Bearer challenge and mcp-adapter-defau
+- baseURL: https://mylocalinfusion.com/wp-json/
+  baseurl_source: declared
+  description: Two Model Context Protocol servers exposed by the WordPress MCP adapter. Both require authentication — mcp-oauth-server returned HTTP 401 with a correct RFC 9728 Bearer challenge and mcp-adapter-defau
   name: Local Infusion MCP API
   slug: local-infusion-mcp-api
-- description: WordPress Abilities API — the named-ability registry the MCP adapter projects tools from. Routes are advertised in the public discovery document but read access is capability-gated (/wp-json/wp-abilit
+- baseURL: https://mylocalinfusion.com/wp-json/
+  baseurl_source: declared
+  description: WordPress Abilities API — the named-ability registry the MCP adapter projects tools from. Routes are advertised in the public discovery document but read access is capability-gated (/wp-json/wp-abilit
   name: Local Infusion WordPress Abilities API
   slug: local-infusion-wp-abilities-v1-api
-- description: REST API index / namespace discovery, plus the /batch/v1 request batching endpoint.
+- baseURL: https://mylocalinfusion.com/wp-json/
+  baseurl_source: declared
+  description: REST API index / namespace discovery, plus the /batch/v1 request batching endpoint.
   name: Local Infusion WordPress Root API
   slug: local-infusion-root-api
-- description: oEmbed discovery and proxy endpoints served by the same WordPress install.
+- baseURL: https://mylocalinfusion.com/wp-json/
+  baseurl_source: declared
+  description: oEmbed discovery and proxy endpoints served by the same WordPress install.
   name: Local Infusion oEmbed API
   slug: local-infusion-oembed-1-0-api
 artifact_total: 11
@@ -193,18 +215,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: emerging
-  composite: 24.3
+  composite: 25.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 13.2
+    contract_quality: 16.6
     developer_ergonomics: 16.1
     discoverability: 81.5
     governance: 4.5
@@ -226,8 +248,9 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/screenshots/local-infusion-2026-09-02T150317.png
 security:
 - kind: authentication
   name: Local Infusion Authentication

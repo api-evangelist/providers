@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 9 acting
 api_count: 1
 apis:
-- description: Read, filter, page and update a shop's SMS subscribers. Filters use suffixed operators (__eq, __gt, __contains, __in) across created_at, updated_at, email, phone_number, shopify_customer_id and ps_id.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: Read, filter, page and update a shop's SMS subscribers. Filters use suffixed operators (__eq, __gt, __contains, __in) across created_at, updated_at, email, phone_number, shopify_customer_id and ps_id.
   name: Postscript Subscribers API
   slug: postscript-subscribers-api
-- description: Send custom events for use in Postscript Flows and triggers.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: Send custom events for use in Postscript Flows and triggers.
   name: Postscript Events API
   slug: postscript-events-api
-- description: Read the opt-in keywords a shop has configured for subscriber acquisition and attribution.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: Read the opt-in keywords a shop has configured for subscriber acquisition and attribution.
   name: Postscript Keywords API
   slug: postscript-keywords-api
-- description: Send promotional, transactional or conversational SMS and MMS to an existing subscriber, and read the resulting message request and sent message.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: Send promotional, transactional or conversational SMS and MMS to an existing subscriber, and read the resulting message request and sent message.
   name: Postscript Messages API
   slug: postscript-messages-api
-- description: Create, read, update and delete webhook subscriptions, fetch the Postscript-Signature signing token, retrieve example event payloads and trigger test deliveries.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: Create, read, update and delete webhook subscriptions, fetch the Postscript-Signature signing token, retrieve example event payloads and trigger test deliveries.
   name: Postscript Webhooks API
   slug: postscript-webhooks-api
-- description: TCPA opt-out and data redaction for a subscriber, addressable by subscriber id, phone, email or Shopify customer id.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: TCPA opt-out and data redaction for a subscriber, addressable by subscriber id, phone, email or Shopify customer id.
   name: Postscript Compliance API
   slug: postscript-compliance-api
-- description: Verify which partner or shop the calling API token resolves to.
+- baseURL: https://api.postscript.io
+  baseurl_source: declared
+  description: Verify which partner or shop the calling API token resolves to.
   name: Postscript Identity API
   slug: postscript-identity-api
 artifact_total: 17
@@ -283,7 +297,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 96.1
     commercial_clarity: 96.1
@@ -293,7 +307,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 63.6
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,7 +329,7 @@ score:
     regime_id: telecommunications
     score: 46.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/screenshots/postscript-2026-06-20T192017.png
 security:

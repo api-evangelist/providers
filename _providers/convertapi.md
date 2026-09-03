@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 320 operations · 316 acting
 api_count: 1
 apis:
-- description: File Conversion API call
+- baseURL: https://v2.convertapi.com
+  baseurl_source: declared
+  description: File Conversion API call
   name: ConvertAPI Conversion API
   slug: convertapi-conversion-api
-- description: ConvertAPI temporary file storage
+- baseURL: https://v2.convertapi.com
+  baseurl_source: declared
+  description: ConvertAPI temporary file storage
   name: ConvertAPI File Server API
   slug: convertapi-file-server-api
-- description: API User
+- baseURL: https://v2.convertapi.com
+  baseurl_source: declared
+  description: API User
   name: ConvertAPI User API
   slug: convertapi-user-api
 artifact_total: 22
@@ -227,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/screenshots/convertapi-2026-06-20T174957.png
 security:

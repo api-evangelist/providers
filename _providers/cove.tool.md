@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Attempting to make API requests without authentication will fail. API requests must be made over HTTPS. Authentication tokens are used to help identify the user attempting to make the HTTP requests. <
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: Attempting to make API requests without authentication will fail. API requests must be made over HTTPS. Authentication tokens are used to help identify the user attempting to make the HTTP requests. <
   name: Cove.Tool Authentication Token API
   slug: cove.tool-authentication-token-api
-- description: The Daylight Analysis API from Cove.Tool — 4 operation(s) for daylight analysis.
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: The Daylight Analysis API from Cove.Tool — 4 operation(s) for daylight analysis.
   name: Cove.Tool Daylight Analysis API
   slug: cove.tool-daylight-analysis-api
-- description: The Energy Codes API from Cove.Tool — 1 operation(s) for energy codes.
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: The Energy Codes API from Cove.Tool — 1 operation(s) for energy codes.
   name: Cove.Tool Energy Codes API
   slug: cove.tool-energy-codes-api
-- description: The Profiles API from Cove.Tool — 1 operation(s) for profiles.
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: The Profiles API from Cove.Tool — 1 operation(s) for profiles.
   name: Cove.Tool Profiles API
   slug: cove.tool-profiles-api
-- description: Update project geometry and obtain an Energy Use Intensity (EUI) breakdown of a given model.
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: Update project geometry and obtain an Energy Use Intensity (EUI) breakdown of a given model.
   name: Cove.Tool Project Geometry API
   slug: cove.tool-project-geometry-api
-- description: Lists all the projects of current user and returns a list of objects with project name, runs, and its url.
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: Lists all the projects of current user and returns a list of objects with project name, runs, and its url.
   name: Cove.Tool Projects API
   slug: cove.tool-projects-api
-- description: The User API from Cove.Tool — 1 operation(s) for user.
+- baseURL: https://app.covetool.com/api/v2
+  baseurl_source: declared
+  description: The User API from Cove.Tool — 1 operation(s) for user.
   name: Cove.Tool User API
   slug: cove.tool-user-api
 artifact_total: 13
@@ -173,7 +199,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -204,8 +230,9 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/screenshots/cove.tool-2026-09-02T145157.png
 security:
 - kind: authentication
   name: Cove.Tool Authentication

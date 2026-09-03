@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: 'REST API for managing LinkedIn advertising campaigns, creatives, reporting, lead sync, matched audiences, conversions tracking, media planning, and community management. Authentication uses OAuth 2.0 '
   name: LinkedIn Marketing API
   slug: marketing-api
-- description: The AdAccounts API from LinkedIn Marketing API — 5 operation(s) for adaccounts.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The AdAccounts API from LinkedIn Marketing API — 5 operation(s) for adaccounts.
   name: LinkedIn Marketing API AdAccounts API
   slug: linkedin-ads-adaccounts-api
-- description: The AdBudgetPricing API from LinkedIn Marketing API — 1 operation(s) for adbudgetpricing.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The AdBudgetPricing API from LinkedIn Marketing API — 1 operation(s) for adbudgetpricing.
   name: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
-- description: The AdTargetingEntities API from LinkedIn Marketing API — 1 operation(s) for adtargetingentities.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The AdTargetingEntities API from LinkedIn Marketing API — 1 operation(s) for adtargetingentities.
   name: LinkedIn Marketing API AdTargetingEntities API
   slug: linkedin-ads-adtargetingentities-api
-- description: The AdTargetingFacets API from LinkedIn Marketing API — 1 operation(s) for adtargetingfacets.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The AdTargetingFacets API from LinkedIn Marketing API — 1 operation(s) for adtargetingfacets.
   name: LinkedIn Marketing API AdTargetingFacets API
   slug: linkedin-ads-adtargetingfacets-api
-- description: The AudienceCounts API from LinkedIn Marketing API — 1 operation(s) for audiencecounts.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The AudienceCounts API from LinkedIn Marketing API — 1 operation(s) for audiencecounts.
   name: LinkedIn Marketing API AudienceCounts API
   slug: linkedin-ads-audiencecounts-api
 artifact_total: 21
@@ -274,7 +284,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -284,7 +294,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 59.2
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/screenshots/linkedin-ads-2026-06-20T184545.png
 security:

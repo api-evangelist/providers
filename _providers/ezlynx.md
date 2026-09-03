@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Create and update applicants, contacts, prospects, and opportunities in the EZLynx management system and CRM so external lead-capture, marketing, and onboarding tools stay in sync without rekeying dat
@@ -127,7 +127,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezlynx/refs/heads/main/screenshots/ezlynx-2026-07-25T214056.png
 security:

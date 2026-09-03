@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: MikMak Aura provides real-time intelligence, fueled by AI, to connect marketing spend across channels to actual sales performance at retailers.
@@ -46,37 +46,59 @@ apis:
 - description: The MikMak where-to-buy tag is the client-side distribution of MikMak Commerce for brand-owned websites. A single async script loaded from wtb-tag.mikmak.ai renders buy-now buttons, in-page containers
   name: MikMak Commerce for Brand.com (WTB Tag)
   slug: mikmak-brand-com-tag
-- description: The Authentication API from MikMak — 1 operation(s) for authentication.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Authentication API from MikMak — 1 operation(s) for authentication.
   name: MikMak Authentication API
   slug: mikmak-authentication-api
-- description: The Availabilities API from MikMak — 1 operation(s) for availabilities.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Availabilities API from MikMak — 1 operation(s) for availabilities.
   name: MikMak Availabilities API
   slug: mikmak-availabilities-api
-- description: The Cart API from MikMak — 1 operation(s) for cart.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Cart API from MikMak — 1 operation(s) for cart.
   name: MikMak Cart API
   slug: mikmak-cart-api
-- description: The Custom Reports API from MikMak — 6 operation(s) for custom reports.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Custom Reports API from MikMak — 6 operation(s) for custom reports.
   name: MikMak Custom Reports API
   slug: mikmak-custom-reports-api
-- description: The Experiences API from MikMak — 2 operation(s) for experiences.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Experiences API from MikMak — 2 operation(s) for experiences.
   name: MikMak Experiences API
   slug: mikmak-experiences-api
-- description: The Facet API from MikMak — 1 operation(s) for facet.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Facet API from MikMak — 1 operation(s) for facet.
   name: MikMak Facet API
   slug: mikmak-facet-api
-- description: The Historical Pricing Reports API from MikMak — 4 operation(s) for historical pricing reports.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Historical Pricing Reports API from MikMak — 4 operation(s) for historical pricing reports.
   name: MikMak Historical Pricing Reports API
   slug: mikmak-historical-pricing-reports-api
-- description: The Offers API from MikMak — 1 operation(s) for offers.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Offers API from MikMak — 1 operation(s) for offers.
   name: MikMak Offers API
   slug: mikmak-offers-api
-- description: The Product API from MikMak — 1 operation(s) for product.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Product API from MikMak — 1 operation(s) for product.
   name: MikMak Product API
   slug: mikmak-product-api
-- description: The Product Search API from MikMak — 1 operation(s) for product search.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Product Search API from MikMak — 1 operation(s) for product search.
   name: MikMak Product Search API
   slug: mikmak-product-search-api
-- description: The Shoppable Recipe Reports API from MikMak — 4 operation(s) for shoppable recipe reports.
+- baseURL: https://api.mikmak.ai
+  baseurl_source: declared
+  description: The Shoppable Recipe Reports API from MikMak — 4 operation(s) for shoppable recipe reports.
   name: MikMak Shoppable Recipe Reports API
   slug: mikmak-shoppable-recipe-reports-api
 artifact_total: 25
@@ -314,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:

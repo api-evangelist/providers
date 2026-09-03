@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 34 operations · 17 acting
 api_count: 1
 apis:
-- description: Autoscaling resources including HorizontalPodAutoscalers for automatically scaling workloads based on observed metrics.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Autoscaling resources including HorizontalPodAutoscalers for automatically scaling workloads based on observed metrics.
   name: Kubernetes Autoscaling API
   slug: kubernetes-autoscaling-api
-- description: Cluster-level resources including Namespaces, Nodes, ServiceAccounts, and RBAC resources for cluster administration.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Cluster-level resources including Namespaces, Nodes, ServiceAccounts, and RBAC resources for cluster administration.
   name: Kubernetes Cluster API
   slug: kubernetes-cluster-api
-- description: Configuration and storage resources including ConfigMaps, Secrets, PersistentVolumes, and PersistentVolumeClaims.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Configuration and storage resources including ConfigMaps, Secrets, PersistentVolumes, and PersistentVolumeClaims.
   name: Kubernetes Config API
   slug: kubernetes-config-api
-- description: Event resources capturing occurrences within the cluster such as pod scheduling, container restarts, and resource state changes.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Event resources capturing occurrences within the cluster such as pod scheduling, container restarts, and resource state changes.
   name: Kubernetes Events API
   slug: kubernetes-events-api
-- description: The Namespaces API from Kubernetes — 2 operation(s) for namespaces.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: The Namespaces API from Kubernetes — 2 operation(s) for namespaces.
   name: Kubernetes Namespaces API
   slug: kubernetes-namespaces-api
-- description: Role-based access control resources including Roles, RoleBindings, ClusterRoles, and ClusterRoleBindings for managing authorization.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Role-based access control resources including Roles, RoleBindings, ClusterRoles, and ClusterRoleBindings for managing authorization.
   name: Kubernetes RBAC API
   slug: kubernetes-rbac-api
-- description: Workload resources including Pods, Deployments, StatefulSets, DaemonSets, ReplicaSets, Jobs, and CronJobs for managing containerized applications.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Workload resources including Pods, Deployments, StatefulSets, DaemonSets, ReplicaSets, Jobs, and CronJobs for managing containerized applications.
   name: Kubernetes Workloads API
   slug: kubernetes-workloads-api
 arazzos:
@@ -500,7 +514,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -510,7 +524,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 52.1
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -521,7 +535,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

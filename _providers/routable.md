@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 37 operations · 21 acting
 api_count: 1
 apis:
-- description: Vendor and customer companies.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Vendor and customer companies.
   name: Routable Companies API
   slug: routable-companies-api
-- description: Contacts associated with companies.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Contacts associated with companies.
   name: Routable Contacts API
   slug: routable-contacts-api
-- description: Funding accounts and the Routable Balance.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Funding accounts and the Routable Balance.
   name: Routable Funding Sources API
   slug: routable-funding-sources-api
-- description: Bills owed to vendors.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Bills owed to vendors.
   name: Routable Payables API
   slug: routable-payables-api
-- description: Bank, international, and check payment methods.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Bank, international, and check payment methods.
   name: Routable Payment Methods API
   slug: routable-payment-methods-api
-- description: Amounts owed to you by customers.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Amounts owed to you by customers.
   name: Routable Receivables API
   slug: routable-receivables-api
-- description: Webhook events.
+- baseURL: https://api.routable.com/v1
+  baseurl_source: declared
+  description: Webhook events.
   name: Routable Webhooks API
   slug: routable-webhooks-api
 artifact_total: 22
@@ -164,7 +178,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +207,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/screenshots/routable-2026-09-02T154136.png
 security:
 - kind: authentication
   name: Routable Authentication

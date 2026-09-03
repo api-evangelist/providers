@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: GraphQL subgraph for querying Vesper Finance on-chain events, pool history, strategy performance, and token metrics via The Graph protocol.
   name: Vesper Subgraph API
   slug: vesper-subgraph-api
-- description: Vesper Grow Pool data and metadata
+- baseURL: https://api.vesper.finance
+  baseurl_source: declared
+  description: Vesper Grow Pool data and metadata
   name: Vesper Finance Pools API
   slug: vesper-pools-api
-- description: APY, APR, and lending rate data
+- baseURL: https://api.vesper.finance
+  baseurl_source: declared
+  description: APY, APR, and lending rate data
   name: Vesper Finance Rates API
   slug: vesper-rates-api
-- description: Total value locked metrics
+- baseURL: https://api.vesper.finance
+  baseurl_source: declared
+  description: Total value locked metrics
   name: Vesper Finance TVL API
   slug: vesper-tvl-api
-- description: VSP token statistics and staking data
+- baseURL: https://api.vesper.finance
+  baseurl_source: declared
+  description: VSP token statistics and staking data
   name: Vesper Finance VSP API
   slug: vesper-vsp-api
 artifact_total: 27
@@ -231,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/screenshots/vesper-2026-06-20T201000.png
 security:

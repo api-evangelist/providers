@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 19 operations
 api_count: 1
 apis:
-- description: Aircraft and aircraft type reference data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Aircraft and aircraft type reference data endpoints
   name: FlightLabs Aircraft API
   slug: flightlabs-aircraft-api
-- description: Airline reference data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Airline reference data endpoints
   name: FlightLabs Airlines API
   slug: flightlabs-airlines-api
-- description: Airport reference data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Airport reference data endpoints
   name: FlightLabs Airports API
   slug: flightlabs-airports-api
-- description: Real-time and historical flight data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Real-time and historical flight data endpoints
   name: FlightLabs Flights API
   slug: flightlabs-flights-api
-- description: Countries and cities reference data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Countries and cities reference data endpoints
   name: FlightLabs Geography API
   slug: flightlabs-geography-api
-- description: Flight pricing and fare data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Flight pricing and fare data endpoints
   name: FlightLabs Pricing API
   slug: flightlabs-pricing-api
-- description: Airline route data endpoints
+- baseURL: https://app.goflightlabs.com
+  baseurl_source: declared
+  description: Airline route data endpoints
   name: FlightLabs Routes API
   slug: flightlabs-routes-api
 artifact_total: 30
@@ -198,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightlabs/refs/heads/main/screenshots/flightlabs-2026-06-20T181312.png
 security:

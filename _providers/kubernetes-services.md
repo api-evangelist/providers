@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: Kubernetes provides DNS-based service discovery for Services and Pods within a cluster. DNS records are automatically created for Services, allowing workloads to locate services by name rather than by
   name: Kubernetes DNS for Services and Pods
   slug: kubernetes-dns
-- description: EndpointSlice resources tracking IP addresses, ports, and readiness of pods backing a Service, with topology-aware routing support.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: EndpointSlice resources tracking IP addresses, ports, and readiness of pods backing a Service, with topology-aware routing support.
   name: Kubernetes Services EndpointSlices API
   slug: kubernetes-services-endpointslices-api
-- description: Gateway resources instantiating traffic-handling infrastructure such as cloud load balancers or in-cluster proxies, with listeners for each protocol.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Gateway resources instantiating traffic-handling infrastructure such as cloud load balancers or in-cluster proxies, with listeners for each protocol.
   name: Kubernetes Services Gateway API
   slug: kubernetes-services-gateway-api
-- description: GatewayClass resources defining a class of gateway implementations. Cluster-scoped resources that link to a specific ingress or mesh controller.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: GatewayClass resources defining a class of gateway implementations. Cluster-scoped resources that link to a specific ingress or mesh controller.
   name: Kubernetes Services GatewayClass API
   slug: kubernetes-services-gatewayclass-api
-- description: GRPCRoute resources defining gRPC routing rules from Gateway listeners to backend services with service and method name matching.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: GRPCRoute resources defining gRPC routing rules from Gateway listeners to backend services with service and method name matching.
   name: Kubernetes Services GRPCRoute API
   slug: kubernetes-services-grpcroute-api
-- description: HTTPRoute resources defining HTTP and HTTPS routing rules from Gateway listeners to backend services with support for path, header, and query parameter matching.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: HTTPRoute resources defining HTTP and HTTPS routing rules from Gateway listeners to backend services with support for path, header, and query parameter matching.
   name: Kubernetes Services HTTPRoute API
   slug: kubernetes-services-httproute-api
-- description: Ingress resources defining HTTP and HTTPS routing rules from external traffic to cluster services, with TLS termination support.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Ingress resources defining HTTP and HTTPS routing rules from external traffic to cluster services, with TLS termination support.
   name: Kubernetes Services Ingress API
   slug: kubernetes-services-ingress-api
-- description: IngressClass resources identifying which ingress controller should fulfill an Ingress resource.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: IngressClass resources identifying which ingress controller should fulfill an Ingress resource.
   name: Kubernetes Services IngressClass API
   slug: kubernetes-services-ingressclass-api
-- description: Status subresource for Ingress objects, reporting load balancer IP or hostname assignments from the ingress controller.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Status subresource for Ingress objects, reporting load balancer IP or hostname assignments from the ingress controller.
   name: Kubernetes Services IngressStatus API
   slug: kubernetes-services-ingressstatus-api
-- description: The Namespaces API from Kubernetes Services — 2 operation(s) for namespaces.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Namespaces API from Kubernetes Services — 2 operation(s) for namespaces.
   name: Kubernetes Services Namespaces API
   slug: kubernetes-services-namespaces-api
-- description: NetworkPolicy resources controlling Pod-level traffic ingress and egress based on label selectors, namespace selectors, and IP CIDR blocks.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: NetworkPolicy resources controlling Pod-level traffic ingress and egress based on label selectors, namespace selectors, and IP CIDR blocks.
   name: Kubernetes Services NetworkPolicy API
   slug: kubernetes-services-networkpolicy-api
-- description: The Services API from Kubernetes Services — 1 operation(s) for services.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Services API from Kubernetes Services — 1 operation(s) for services.
   name: Kubernetes Services Services API
   slug: kubernetes-services-services-api
-- description: Status subresource operations for Services, used to update load balancer provisioning state and conditions.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Status subresource operations for Services, used to update load balancer provisioning state and conditions.
   name: Kubernetes Services ServiceStatus API
   slug: kubernetes-services-servicestatus-api
 artifact_total: 90
@@ -441,7 +465,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -454,7 +478,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 44.9
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -463,7 +487,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/screenshots/kubernetes-services-2026-06-20T184207.png
 security:

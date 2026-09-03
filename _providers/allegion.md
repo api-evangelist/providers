@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 2
 apis:
-- description: Create, schedule, update, and delete numeric access codes per device
+- baseURL: https://api.allegion.com/schlage-home
+  baseurl_source: declared
+  description: Create, schedule, update, and delete numeric access codes per device
   name: Allegion Access Codes API
   slug: allegion-access-codes-api
-- description: Track the asynchronous status of lock / unlock and configuration commands
+- baseURL: https://api.allegion.com/schlage-home
+  baseurl_source: declared
+  description: Track the asynchronous status of lock / unlock and configuration commands
   name: Allegion Commands API
   slug: allegion-commands-api
-- description: ENGAGE hardware discovery and commissioning (Allegion Device Communication SDK)
+- baseURL: https://api.allegion.com/schlage-home
+  baseurl_source: declared
+  description: ENGAGE hardware discovery and commissioning (Allegion Device Communication SDK)
   name: Allegion Devices API
   slug: allegion-devices-api
-- description: Upload, delete, and list BLE Mobile Credentials for end users
+- baseURL: https://api.allegion.com/schlage-home
+  baseurl_source: declared
+  description: Upload, delete, and list BLE Mobile Credentials for end users
   name: Allegion Mobile Credentials API
   slug: allegion-mobile-credentials-api
-- description: Subscribe partner endpoints to device, command, access code, and account events
+- baseURL: https://api.allegion.com/schlage-home
+  baseurl_source: declared
+  description: Subscribe partner endpoints to device, command, access code, and account events
   name: Allegion Webhook Subscriptions API
   slug: allegion-webhook-subscriptions-api
 artifact_total: 56
@@ -391,7 +401,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -401,7 +411,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 60.5
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
@@ -410,7 +420,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
 security:

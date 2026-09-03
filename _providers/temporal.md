@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Temporal Server Frontend API provides gRPC services for interacting with the Temporal Server, including WorkflowService for managing workflow executions, OperatorService for cluster operations, an
   name: Temporal Server Frontend API
   slug: server-frontend-api
-- description: The API Keys API from Temporal — 2 operation(s) for api keys.
+- baseURL: https://saas-api.tmprl.cloud
+  baseurl_source: spec
+  description: The API Keys API from Temporal — 2 operation(s) for api keys.
   name: Temporal API Keys API
   slug: temporal-api-keys-api
-- description: The Async Operations API from Temporal — 1 operation(s) for async operations.
+- baseURL: https://saas-api.tmprl.cloud
+  baseurl_source: spec
+  description: The Async Operations API from Temporal — 1 operation(s) for async operations.
   name: Temporal Async Operations API
   slug: temporal-async-operations-api
-- description: The Namespaces API from Temporal — 3 operation(s) for namespaces.
+- baseURL: https://saas-api.tmprl.cloud
+  baseurl_source: spec
+  description: The Namespaces API from Temporal — 3 operation(s) for namespaces.
   name: Temporal Namespaces API
   slug: temporal-namespaces-api
-- description: The Regions API from Temporal — 1 operation(s) for regions.
+- baseURL: https://saas-api.tmprl.cloud
+  baseurl_source: spec
+  description: The Regions API from Temporal — 1 operation(s) for regions.
   name: Temporal Regions API
   slug: temporal-regions-api
-- description: The Service Accounts API from Temporal — 2 operation(s) for service accounts.
+- baseURL: https://saas-api.tmprl.cloud
+  baseurl_source: spec
+  description: The Service Accounts API from Temporal — 2 operation(s) for service accounts.
   name: Temporal Service Accounts API
   slug: temporal-service-accounts-api
-- description: The Users API from Temporal — 2 operation(s) for users.
+- baseURL: https://saas-api.tmprl.cloud
+  baseurl_source: spec
+  description: The Users API from Temporal — 2 operation(s) for users.
   name: Temporal Users API
   slug: temporal-users-api
 arazzos:
@@ -567,7 +579,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:

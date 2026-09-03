@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 6 acting
 api_count: 4
 apis:
-- description: Isolate and un-isolate both endpoints and users simultaneously
+- baseURL: https://stealth-server:8448
+  baseurl_source: declared
+  description: Isolate and un-isolate both endpoints and users simultaneously
   name: Unisys Combined Isolation API
   slug: unisys-combined-isolation-api
-- description: Isolate and un-isolate endpoints from the Stealth network
+- baseURL: https://stealth-server:8448
+  baseurl_source: declared
+  description: Isolate and un-isolate endpoints from the Stealth network
   name: Unisys Endpoint Isolation API
   slug: unisys-endpoint-isolation-api
-- description: Retrieve Stealth network role configurations
+- baseURL: https://stealth-server:8448
+  baseurl_source: declared
+  description: Retrieve Stealth network role configurations
   name: Unisys Roles API
   slug: unisys-roles-api
-- description: Isolate and un-isolate users from the Stealth network
+- baseURL: https://stealth-server:8448
+  baseurl_source: declared
+  description: Isolate and un-isolate users from the Stealth network
   name: Unisys User Isolation API
   slug: unisys-user-isolation-api
 artifact_total: 30
@@ -235,7 +243,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

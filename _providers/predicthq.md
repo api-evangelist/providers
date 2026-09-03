@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 4
 apis:
-- description: The Events API from PredictHQ — 2 operation(s) for events.
+- baseURL: https://api.predicthq.com/v1
+  baseurl_source: spec
+  description: The Events API from PredictHQ — 2 operation(s) for events.
   name: PredictHQ Events API
   slug: predicthq-events-api
-- description: The Features API from PredictHQ — 1 operation(s) for features.
+- baseURL: https://api.predicthq.com/v1
+  baseurl_source: spec
+  description: The Features API from PredictHQ — 1 operation(s) for features.
   name: PredictHQ Features API
   slug: predicthq-features-api
-- description: The Places API from PredictHQ — 1 operation(s) for places.
+- baseURL: https://api.predicthq.com/v1
+  baseurl_source: spec
+  description: The Places API from PredictHQ — 1 operation(s) for places.
   name: PredictHQ Places API
   slug: predicthq-places-api
-- description: The Suggested Radius API from PredictHQ — 1 operation(s) for suggested radius.
+- baseURL: https://api.predicthq.com/v1
+  baseurl_source: spec
+  description: The Suggested Radius API from PredictHQ — 1 operation(s) for suggested radius.
   name: PredictHQ Suggested Radius API
   slug: predicthq-suggested-radius-api
 artifact_total: 16
@@ -197,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predicthq/refs/heads/main/screenshots/predicthq-2026-06-20T192049.png
 security:

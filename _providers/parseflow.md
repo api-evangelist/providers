@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 1
 apis:
-- description: The Admin API from Parseflow — 2 operation(s) for admin.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Admin API from Parseflow — 2 operation(s) for admin.
   name: Parseflow Admin API
   slug: parseflow-admin-api
-- description: The Analyze API from Parseflow — 1 operation(s) for analyze.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Analyze API from Parseflow — 1 operation(s) for analyze.
   name: Parseflow Analyze API
   slug: parseflow-analyze-api
-- description: The Batch API from Parseflow — 1 operation(s) for batch.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Batch API from Parseflow — 1 operation(s) for batch.
   name: Parseflow Batch API
   slug: parseflow-batch-api
-- description: The Billing API from Parseflow — 1 operation(s) for billing.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Billing API from Parseflow — 1 operation(s) for billing.
   name: Parseflow Billing API
   slug: parseflow-billing-api
-- description: The Health API from Parseflow — 2 operation(s) for health.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Health API from Parseflow — 2 operation(s) for health.
   name: Parseflow Health API
   slug: parseflow-health-api
-- description: The Index API from Parseflow — 1 operation(s) for index.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Index API from Parseflow — 1 operation(s) for index.
   name: Parseflow Index API
   slug: parseflow-index-api
-- description: The Jobs API from Parseflow — 3 operation(s) for jobs.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Jobs API from Parseflow — 3 operation(s) for jobs.
   name: Parseflow Jobs API
   slug: parseflow-jobs-api
-- description: The Me API from Parseflow — 1 operation(s) for me.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Me API from Parseflow — 1 operation(s) for me.
   name: Parseflow Me API
   slug: parseflow-me-api
-- description: The Pack API from Parseflow — 1 operation(s) for pack.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Pack API from Parseflow — 1 operation(s) for pack.
   name: Parseflow Pack API
   slug: parseflow-pack-api
-- description: The Process API from Parseflow — 2 operation(s) for process.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Process API from Parseflow — 2 operation(s) for process.
   name: Parseflow Process API
   slug: parseflow-process-api
-- description: The Search API from Parseflow — 3 operation(s) for search.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Search API from Parseflow — 3 operation(s) for search.
   name: Parseflow Search API
   slug: parseflow-search-api
-- description: The Stats API from Parseflow — 1 operation(s) for stats.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Stats API from Parseflow — 1 operation(s) for stats.
   name: Parseflow Stats API
   slug: parseflow-stats-api
-- description: The Usage API from Parseflow — 1 operation(s) for usage.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Usage API from Parseflow — 1 operation(s) for usage.
   name: Parseflow Usage API
   slug: parseflow-usage-api
-- description: The Webhooks API from Parseflow — 1 operation(s) for webhooks.
+- baseURL: https://parseflow-api.thankfulisland-fec0f8f2.westus2.azurecontainerapps.io
+  baseurl_source: declared
+  description: The Webhooks API from Parseflow — 1 operation(s) for webhooks.
   name: Parseflow Webhooks API
   slug: parseflow-webhooks-api
 artifact_total: 50
@@ -306,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/screenshots/parseflow-2026-06-20T191419.png
 security:

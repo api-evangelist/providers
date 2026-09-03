@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 8 operations · 7 acting
 api_count: 1
 apis:
-- description: Speech-to-text and text-to-speech
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Speech-to-text and text-to-speech
   name: FlexAI Audio API
   slug: flexai-audio-api
-- description: Chat completions
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Chat completions
   name: FlexAI Chat API
   slug: flexai-chat-api
-- description: Legacy text completions
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Legacy text completions
   name: FlexAI Completions API
   slug: flexai-completions-api
-- description: Vector embeddings
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Vector embeddings
   name: FlexAI Embeddings API
   slug: flexai-embeddings-api
-- description: Image generation
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Image generation
   name: FlexAI Images API
   slug: flexai-images-api
-- description: Model catalog
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Model catalog
   name: FlexAI Models API
   slug: flexai-models-api
-- description: Video generation
+- baseURL: https://tokens.flex.ai/v1
+  baseurl_source: declared
+  description: Video generation
   name: FlexAI Video API
   slug: flexai-video-api
 artifact_total: 28
@@ -284,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/screenshots/flexai-2026-07-25T214748.png
 security:

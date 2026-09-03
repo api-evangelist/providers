@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 15 acting
 api_count: 2
 apis:
-- description: Command specific endpoints
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: Command specific endpoints
   name: Virtual Peaker Commands API
   slug: virtual-peaker-commands-api
-- description: Device specific endpoints
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: Device specific endpoints
   name: Virtual Peaker Devices API
   slug: virtual-peaker-devices-api
-- description: The Energy Interval Endpoint API from Virtual Peaker — 1 operation(s) for energy interval endpoint.
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: The Energy Interval Endpoint API from Virtual Peaker — 1 operation(s) for energy interval endpoint.
   name: Virtual Peaker Energy Interval Endpoint API
   slug: virtual-peaker-energy-interval-endpoint-api
-- description: Virtual Peaker supports managing groups of devices, in addition to individual device control. Grouping enables utilities to target clusters of devices together in demand response events.While device t
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: Virtual Peaker supports managing groups of devices, in addition to individual device control. Grouping enables utilities to target clusters of devices together in demand response events.While device t
   name: Virtual Peaker Group Management API
   slug: virtual-peaker-group-management-api
-- description: 'The OAuth device discovery flow works as follows: 1. The device owner fills out an onboarding form on Virtual Peaker''s site. 2. At the end of the form, we redirect them to the Device Partner''s OAuth a'
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: 'The OAuth device discovery flow works as follows: 1. The device owner fills out an onboarding form on Virtual Peaker''s site. 2. At the end of the form, we redirect them to the Device Partner''s OAuth a'
   name: Virtual Peaker OAuth Device Discovery (Preferred) API
   slug: virtual-peaker-oauth-device-discovery-preferred-api
-- description: 'The [pairing code](./device-partner-api.html#section/Pairing-Codes) device discovery flow works as follows: 1. The device owner fills out an onboarding form on Virtual Peaker''s site. 2. At the end of '
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: 'The [pairing code](./device-partner-api.html#section/Pairing-Codes) device discovery flow works as follows: 1. The device owner fills out an onboarding form on Virtual Peaker''s site. 2. At the end of '
   name: Virtual Peaker Pairing Code Device Discovery - End User App API
   slug: virtual-peaker-pairing-code-device-discovery-end-user-app-api
-- description: 'The utility commissioned [pairing code](./device-partner-api.html#section/Pairing-Codes) flow could work as follows: 1. The device owner fills out an onboarding form on Virtual Peaker''s site. 2. The u'
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: 'The utility commissioned [pairing code](./device-partner-api.html#section/Pairing-Codes) flow could work as follows: 1. The device owner fills out an onboarding form on Virtual Peaker''s site. 2. The u'
   name: Virtual Peaker Pairing Code Device Discovery - Utility Commissioned Installation API
   slug: virtual-peaker-pairing-code-device-discovery-utility-commissioned-installation-api
-- description: 'All of the endpoints below allow the Device Partner to publish data to the Virtual Peaker platform, which avoids Virtual Peaker having to constantly poll the data when there haven''t been any changes. '
+- baseURL: https://partner.virtualpeaker.io/v1
+  baseurl_source: declared
+  description: 'All of the endpoints below allow the Device Partner to publish data to the Virtual Peaker platform, which avoids Virtual Peaker having to constantly poll the data when there haven''t been any changes. '
   name: Virtual Peaker Publishing API
   slug: virtual-peaker-publishing-api
 artifact_total: 17
@@ -266,7 +282,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -276,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 52.5
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,7 +310,7 @@ score:
     regime_id: energy_utilities
     score: 74.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-peaker/refs/heads/main/screenshots/virtual-peaker-2026-08-17T082758.png
 security:

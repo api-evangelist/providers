@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Connect API from Loot Rush Games — 1 operation(s) for connect.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The Connect API from Loot Rush Games — 1 operation(s) for connect.
   name: Loot Rush Games Connect API
   slug: loot-rush-games-connect-api
-- description: The History API from Loot Rush Games — 1 operation(s) for history.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The History API from Loot Rush Games — 1 operation(s) for history.
   name: Loot Rush Games History API
   slug: loot-rush-games-history-api
-- description: The MCP API from Loot Rush Games — 1 operation(s) for mcp.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The MCP API from Loot Rush Games — 1 operation(s) for mcp.
   name: Loot Rush Games MCP API
   slug: loot-rush-games-mcp-api
-- description: The Withdrawals API from Loot Rush Games — 2 operation(s) for withdrawals.
+- baseURL: https://third-party.lootrush.com
+  baseurl_source: declared
+  description: The Withdrawals API from Loot Rush Games — 2 operation(s) for withdrawals.
   name: Loot Rush Games Withdrawals API
   slug: loot-rush-games-withdrawals-api
 artifact_total: 12
@@ -166,7 +174,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -176,7 +184,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 33.9
+  previous_composite: 33.6
   provenance:
     conformance: derived
     contracts:
@@ -193,7 +201,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png
 security:

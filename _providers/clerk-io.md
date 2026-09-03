@@ -35,49 +35,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Clerk.js is the browser-side JavaScript library for embedding Clerk.io recommendation slots, search, and email opens on a storefront, with Liquid templating support and event tracking.
   name: Clerk.js Client Library
   slug: clerkjs
-- description: The Accessories API from Clerk.io — 1 operation(s) for accessories.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Accessories API from Clerk.io — 1 operation(s) for accessories.
   name: Clerk.io Accessories API
   slug: clerk-io-accessories-api
-- description: The Audiences API from Clerk.io — 3 operation(s) for audiences.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Audiences API from Clerk.io — 3 operation(s) for audiences.
   name: Clerk.io Audiences API
   slug: clerk-io-audiences-api
-- description: The Campaigns API from Clerk.io — 2 operation(s) for campaigns.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Campaigns API from Clerk.io — 2 operation(s) for campaigns.
   name: Clerk.io Campaigns API
   slug: clerk-io-campaigns-api
-- description: The Catalog API from Clerk.io — 5 operation(s) for catalog.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Catalog API from Clerk.io — 5 operation(s) for catalog.
   name: Clerk.io Catalog API
   slug: clerk-io-catalog-api
-- description: The Logging API from Clerk.io — 9 operation(s) for logging.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Logging API from Clerk.io — 9 operation(s) for logging.
   name: Clerk.io Logging API
   slug: clerk-io-logging-api
-- description: The Merchandising API from Clerk.io — 4 operation(s) for merchandising.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Merchandising API from Clerk.io — 4 operation(s) for merchandising.
   name: Clerk.io Merchandising API
   slug: clerk-io-merchandising-api
-- description: The Parcels API from Clerk.io — 1 operation(s) for parcels.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Parcels API from Clerk.io — 1 operation(s) for parcels.
   name: Clerk.io Parcels API
   slug: clerk-io-parcels-api
-- description: The Privacy API from Clerk.io — 2 operation(s) for privacy.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Privacy API from Clerk.io — 2 operation(s) for privacy.
   name: Clerk.io Privacy API
   slug: clerk-io-privacy-api
-- description: The Product Data API from Clerk.io — 4 operation(s) for product data.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Product Data API from Clerk.io — 4 operation(s) for product data.
   name: Clerk.io Product Data API
   slug: clerk-io-product-data-api
-- description: The Recommendations API from Clerk.io — 25 operation(s) for recommendations.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Recommendations API from Clerk.io — 25 operation(s) for recommendations.
   name: Clerk.io Recommendations API
   slug: clerk-io-recommendations-api
-- description: The Search API from Clerk.io — 6 operation(s) for search.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Search API from Clerk.io — 6 operation(s) for search.
   name: Clerk.io Search API
   slug: clerk-io-search-api
-- description: The Subscribers API from Clerk.io — 2 operation(s) for subscribers.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Subscribers API from Clerk.io — 2 operation(s) for subscribers.
   name: Clerk.io Subscribers API
   slug: clerk-io-subscribers-api
-- description: The Tokens API from Clerk.io — 1 operation(s) for tokens.
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Tokens API from Clerk.io — 1 operation(s) for tokens.
   name: Clerk.io Tokens API
   slug: clerk-io-tokens-api
 artifact_total: 24
@@ -328,7 +354,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:

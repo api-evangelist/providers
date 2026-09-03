@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 22 operations · 8 acting
 api_count: 1
 apis:
-- description: Account-level details for the authenticated user.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Account-level details for the authenticated user.
   name: Inngest Account API
   slug: inngest-account-api
-- description: Sync app endpoints exposing Inngest functions.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Sync app endpoints exposing Inngest functions.
   name: Inngest Apps API
   slug: inngest-apps-api
-- description: Manage production and branch environments for an account.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Manage production and branch environments for an account.
   name: Inngest Environments API
   slug: inngest-environments-api
-- description: Send and inspect events that trigger Inngest functions.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Send and inspect events that trigger Inngest functions.
   name: Inngest Events API
   slug: inngest-events-api
-- description: List and invoke deployed Inngest functions.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: List and invoke deployed Inngest functions.
   name: Inngest Functions API
   slug: inngest-functions-api
-- description: Manage event keys and signing keys per environment.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Manage event keys and signing keys per environment.
   name: Inngest Keys API
   slug: inngest-keys-api
-- description: Fetch the status, jobs, and trace trees of function runs.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Fetch the status, jobs, and trace trees of function runs.
   name: Inngest Runs API
   slug: inngest-runs-api
-- description: Manage inbound webhooks that translate third-party payloads into Inngest events.
+- baseURL: https://api.inngest.com
+  baseurl_source: declared
+  description: Manage inbound webhooks that translate third-party payloads into Inngest events.
   name: Inngest Webhooks API
   slug: inngest-webhooks-api
 artifact_total: 53
@@ -512,7 +528,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
 security:

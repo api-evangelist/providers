@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: REST API for processing card and bank payments, tokenizing payment methods, creating charges and refunds, and managing eChecks tied to a QuickBooks Online merchant account. Authentication uses OAuth 2
   name: QuickBooks Payments API
   slug: payments-api
-- description: The Company API from QuickBooks Online — 8 operation(s) for company.
+- baseURL: https://quickbooks.api.intuit.com/v3
+  baseurl_source: declared
+  description: The Company API from QuickBooks Online — 8 operation(s) for company.
   name: QuickBooks Online Company API
   slug: quickbooks-online-company-api
 artifact_total: 9
@@ -172,7 +174,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks-online/refs/heads/main/screenshots/quickbooks-online-2026-06-20T192431.png
 security:

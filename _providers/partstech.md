@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,106 +37,172 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'A valid JSON Web Token (JWT) is required to access API methods. A JWT access token must be included in the authorization header of each request in the following Bearer schema: ``` Authorization: Beare'
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: 'A valid JSON Web Token (JWT) is required to access API methods. A JWT access token must be included in the authorization header of each request in the following Bearer schema: ``` Authorization: Beare'
   name: PartsTech Auth API
   slug: partstech-auth-api
-- description: Easy Registration & Auto-Connect API
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Easy Registration & Auto-Connect API
   name: PartsTech Auto Connect API
   slug: partstech-auto-connect-api
-- description: Brands
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Brands
   name: PartsTech Brands API
   slug: partstech-brands-api
-- description: Callback
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Callback
   name: PartsTech Callback Cart API
   slug: partstech-callback-cart-api
-- description: Custom Cart
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Custom Cart
   name: PartsTech Custom Cart API
   slug: partstech-custom-cart-api
-- description: EX Permissions
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: EX Permissions
   name: PartsTech Ex Permissions API
   slug: partstech-ex-permissions-api
-- description: Jobs
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Jobs
   name: PartsTech Jobs API
   slug: partstech-jobs-api
-- description: Local inventory
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Local inventory
   name: PartsTech Local Inventory API
   slug: partstech-local-inventory-api
-- description: Vehicles
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Vehicles
   name: PartsTech Mitchell1 API
   slug: partstech-mitchell1-api
-- description: Labor
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Labor
   name: PartsTech Mitchell1 Labor API
   slug: partstech-mitchell1-labor-api
-- description: Fluids
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Fluids
   name: PartsTech Motor Fluids API
   slug: partstech-motor-fluids-api
-- description: Labor
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Labor
   name: PartsTech Motor Labor API
   slug: partstech-motor-labor-api
-- description: Maintenance Schedules
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Maintenance Schedules
   name: PartsTech Motor Maintenance Schedules API
   slug: partstech-motor-maintenance-schedules-api
-- description: Specifications
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Specifications
   name: PartsTech Motor Specifications API
   slug: partstech-motor-specifications-api
-- description: Orders
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Orders
   name: PartsTech Orders API
   slug: partstech-orders-api
-- description: Orders methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Orders methods
   name: PartsTech Partner Orders API
   slug: partstech-partner-orders-api
-- description: Parts
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Parts
   name: PartsTech Parts API
   slug: partstech-parts-api
-- description: Product Characteristics Database
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Product Characteristics Database
   name: PartsTech Pcdb API
   slug: partstech-pcdb-api
-- description: Cart with Punchout
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Cart with Punchout
   name: PartsTech Punchout Cart API
   slug: partstech-punchout-cart-api
-- description: Punchout Orders
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Punchout Orders
   name: PartsTech Punchout Orders API
   slug: partstech-punchout-orders-api
-- description: Quote Methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Quote Methods
   name: PartsTech Punchout Quote API
   slug: partstech-punchout-quote-api
-- description: Quoting
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Quoting
   name: PartsTech Quoting API
   slug: partstech-quoting-api
-- description: Search
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Search
   name: PartsTech Search API
   slug: partstech-search-api
-- description: Cart by Session
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Cart by Session
   name: PartsTech Session Cart API
   slug: partstech-session-cart-api
-- description: Shop
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Shop
   name: PartsTech Shop API
   slug: partstech-shop-api
-- description: Shop methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Shop methods
   name: PartsTech Shops API
   slug: partstech-shops-api
-- description: Supplier Preferences
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Supplier Preferences
   name: PartsTech Supplier Preferences API
   slug: partstech-supplier-preferences-api
-- description: Supplier methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Supplier methods
   name: PartsTech Suppliers API
   slug: partstech-suppliers-api
-- description: Tires
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Tires
   name: PartsTech Tires API
   slug: partstech-tires-api
-- description: User Methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: User Methods
   name: PartsTech User API
   slug: partstech-user-api
-- description: Users methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Users methods
   name: PartsTech Users API
   slug: partstech-users-api
-- description: Vehicle Configuration Database
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: Vehicle Configuration Database
   name: PartsTech Vcdb API
   slug: partstech-vcdb-api
-- description: VIN Methods
+- baseURL: https://api.partstech.com
+  baseurl_source: declared
+  description: VIN Methods
   name: PartsTech Vin API
   slug: partstech-vin-api
 artifact_total: 39
@@ -253,23 +333,23 @@ rate_limits:
   slug: partstech-rate-limits
 score:
   band: developing
-  composite: 53.4
+  composite: 51.6
   coverage:
-    artifact_dirs: 21
-    catalog_gap: 54.0
+    artifact_dirs: 22
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -1.8
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 4.5
-    contract_quality: 61.1
+    contract_quality: 61.3
     developer_ergonomics: 56.5
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 53.4
   provenance:
     conformance: derived
     contracts:
@@ -280,8 +360,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/partstech/refs/heads/main/screenshots/partstech-2026-09-02T150917.png
 security:
 - kind: authentication
   name: Partstech Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 12
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 141 operations · 106 acting · 12 human-in-the-loop
 api_count: 9
 apis:
-- description: Create Unified Archives from zones
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Create Unified Archives from zones
   name: Solaris Zones Archive Creation API
   slug: solaris-zones-archive-creation-api
-- description: Deploy zones from Unified Archives
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Deploy zones from Unified Archives
   name: Solaris Zones Archive Deployment API
   slug: solaris-zones-archive-deployment-api
-- description: Query archive contents and metadata
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Query archive contents and metadata
   name: Solaris Zones Archive Information API
   slug: solaris-zones-archive-information-api
-- description: Zone configuration editing and commit operations
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone configuration editing and commit operations
   name: Solaris Zones Configuration API
   slug: solaris-zones-configuration-api
-- description: CPU utilization and allocation statistics
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: CPU utilization and allocation statistics
   name: Solaris Zones CPU Statistics API
   slug: solaris-zones-cpu-statistics-api
-- description: Zone install and uninstall operations
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone install and uninstall operations
   name: Solaris Zones Installation API
   slug: solaris-zones-installation-api
-- description: Kernel statistics via kstat module
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Kernel statistics via kstat module
   name: Solaris Zones Kernel Statistics API
   slug: solaris-zones-kernel-statistics-api
-- description: Configure kernel zone resources and properties
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Configure kernel zone resources and properties
   name: Solaris Zones Kernel Zone Configuration API
   slug: solaris-zones-kernel-zone-configuration-api
-- description: Kernel zone boot, halt, suspend, and resume operations
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Kernel zone boot, halt, suspend, and resume operations
   name: Solaris Zones Kernel Zone Lifecycle API
   slug: solaris-zones-kernel-zone-lifecycle-api
-- description: Create and manage kernel zones
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Create and manage kernel zones
   name: Solaris Zones Kernel Zone Management API
   slug: solaris-zones-kernel-zone-management-api
-- description: Live migration of kernel zones between hosts
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Live migration of kernel zones between hosts
   name: Solaris Zones Kernel Zone Migration API
   slug: solaris-zones-kernel-zone-migration-api
-- description: Zone lifecycle state transitions
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone lifecycle state transitions
   name: Solaris Zones Lifecycle API
   slug: solaris-zones-lifecycle-api
-- description: Memory and swap utilization statistics
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Memory and swap utilization statistics
   name: Solaris Zones Memory Statistics API
   slug: solaris-zones-memory-statistics-api
-- description: Zone attach, detach, move, and migration operations
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone attach, detach, move, and migration operations
   name: Solaris Zones Migration API
   slug: solaris-zones-migration-api
-- description: Zone resource management (net, device, fs, rctl, etc.)
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone resource management (net, device, fs, rctl, etc.)
   name: Solaris Zones Resources API
   slug: solaris-zones-resources-api
-- description: Zone state and property queries
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone state and property queries
   name: Solaris Zones State Query API
   slug: solaris-zones-state-query-api
-- description: Discover available statistics and namespaces
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Discover available statistics and namespaces
   name: Solaris Zones Statistics Discovery API
   slug: solaris-zones-statistics-discovery-api
-- description: Retrieve current and historical statistics data
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Retrieve current and historical statistics data
   name: Solaris Zones Statistics Retrieval API
   slug: solaris-zones-statistics-retrieval-api
-- description: System-wide performance statistics
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: System-wide performance statistics
   name: Solaris Zones System Statistics API
   slug: solaris-zones-system-statistics-api
-- description: Read-only zone information and status queries
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Read-only zone information and status queries
   name: Solaris Zones Zone Info API
   slug: solaris-zones-zone-info-api
-- description: System-wide zone management operations including creation, deletion, and evacuation
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: System-wide zone management operations including creation, deletion, and evacuation
   name: Solaris Zones Zone Manager API
   slug: solaris-zones-zone-manager-api
-- description: Live and cold zone migration operations between Solaris hosts
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Live and cold zone migration operations between Solaris hosts
   name: Solaris Zones Zone Migration API
   slug: solaris-zones-zone-migration-api
-- description: Recover zones from archives
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Recover zones from archives
   name: Solaris Zones Zone Recovery API
   slug: solaris-zones-zone-recovery-api
-- description: Zone state monitoring via zonemgr module
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Zone state monitoring via zonemgr module
   name: Solaris Zones Zone State API
   slug: solaris-zones-zone-state-api
-- description: Per-zone resource utilization statistics
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Per-zone resource utilization statistics
   name: Solaris Zones Zone Statistics API
   slug: solaris-zones-zone-statistics-api
-- description: Individual zone operations including configuration, lifecycle, and resource management
+- baseURL: https://solaris-host.example.com/api/v1
+  baseurl_source: declared
+  description: Individual zone operations including configuration, lifecycle, and resource management
   name: Solaris Zones Zones API
   slug: solaris-zones-zones-api
 artifact_total: 414
@@ -1418,7 +1470,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/screenshots/solaris-zones-2026-06-20T194146.png
 security:

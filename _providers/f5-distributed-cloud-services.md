@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Comprehensive REST API for managing F5 Distributed Cloud Services including load balancers, WAF/WAAP policies, API security, DNS, origin pools, certificates, cloud site connectors, and observability r
   name: F5 Distributed Cloud Services API
   slug: platform-api
-- description: The Config API from F5 Distributed Cloud Services — 10 operation(s) for config.
+- baseURL: https://console.ves.volterra.io/api
+  baseurl_source: declared
+  description: The Config API from F5 Distributed Cloud Services — 10 operation(s) for config.
   name: F5 Distributed Cloud Services Config API
   slug: f5-distributed-cloud-services-config-api
-- description: The Data API from F5 Distributed Cloud Services — 1 operation(s) for data.
+- baseURL: https://console.ves.volterra.io/api
+  baseurl_source: declared
+  description: The Data API from F5 Distributed Cloud Services — 1 operation(s) for data.
   name: F5 Distributed Cloud Services Data API
   slug: f5-distributed-cloud-services-data-api
 artifact_total: 11
@@ -155,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/screenshots/f5-distributed-cloud-services-2026-06-20T180955.png
 security:

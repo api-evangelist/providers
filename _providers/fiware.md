@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 63 operations · 41 acting
 api_count: 2
 apis:
-- description: The API Entry Point API from FIWARE — 1 operation(s) for api entry point.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The API Entry Point API from FIWARE — 1 operation(s) for api entry point.
   name: FIWARE API Entry Point API
   slug: fiware-api-entry-point-api
-- description: The Attribute Value API from FIWARE — 1 operation(s) for attribute value.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Attribute Value API from FIWARE — 1 operation(s) for attribute value.
   name: FIWARE Attribute Value API
   slug: fiware-attribute-value-api
-- description: The Attributes API from FIWARE — 1 operation(s) for attributes.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Attributes API from FIWARE — 1 operation(s) for attributes.
   name: FIWARE Attributes API
   slug: fiware-attributes-api
-- description: The Batch Operations API from FIWARE — 7 operation(s) for batch operations.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Batch Operations API from FIWARE — 7 operation(s) for batch operations.
   name: FIWARE Batch Operations API
   slug: fiware-batch-operations-api
 - description: The Context Information API from FIWARE — 4 operation(s) for context information.
@@ -64,19 +72,27 @@ apis:
 - description: The Context Subscription API from FIWARE — 2 operation(s) for context subscription.
   name: FIWARE Context Subscription API
   slug: fiware-context-subscription-api
-- description: The Entities API from FIWARE — 11 operation(s) for entities.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Entities API from FIWARE — 11 operation(s) for entities.
   name: FIWARE Entities API
   slug: fiware-entities-api
-- description: The Registrations API from FIWARE — 2 operation(s) for registrations.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Registrations API from FIWARE — 2 operation(s) for registrations.
   name: FIWARE Registrations API
   slug: fiware-registrations-api
-- description: The Subscriptions API from FIWARE — 4 operation(s) for subscriptions.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Subscriptions API from FIWARE — 4 operation(s) for subscriptions.
   name: FIWARE Subscriptions API
   slug: fiware-subscriptions-api
 - description: The Temporal Evolution API from FIWARE — 5 operation(s) for temporal evolution.
   name: FIWARE Temporal Evolution API
   slug: fiware-temporal-evolution-api
-- description: The Types API from FIWARE — 2 operation(s) for types.
+- baseURL: http://orion.lab.fiware.org/
+  baseurl_source: spec
+  description: The Types API from FIWARE — 2 operation(s) for types.
   name: FIWARE Types API
   slug: fiware-types-api
 artifact_total: 35
@@ -201,7 +217,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -211,7 +227,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.5
+  previous_composite: 25.1
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/screenshots/fiware-2026-06-20T181304.png
 security:

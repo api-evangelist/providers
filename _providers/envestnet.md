@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 150 operations · 76 acting · 2 human-in-the-loop
 api_count: 6
 apis:
-- description: Account verification customers looking to integrate with one of our payment partners can use the Account Token endpoints. These APIs allow creating a secure processor token for your user's verified fi
+- baseURL: /
+  baseurl_source: spec
+  description: Account verification customers looking to integrate with one of our payment partners can use the Account Token endpoints. These APIs allow creating a secure processor token for your user's verified fi
   name: Envestnet Account Token API
   slug: envestnet-account-token-api
-- description: Accounts API
+- baseURL: /
+  baseurl_source: spec
+  description: Accounts API
   name: Envestnet Accounts API
   slug: envestnet-accounts-api
-- description: The Associated Details API from Envestnet — 2 operation(s) for associated details.
+- baseURL: /
+  baseurl_source: spec
+  description: The Associated Details API from Envestnet — 2 operation(s) for associated details.
   name: Envestnet Associated Details API
   slug: envestnet-associated-details-api
-- description: Auth API
+- baseURL: /
+  baseurl_source: spec
+  description: Auth API
   name: Envestnet Auth API
   slug: envestnet-auth-api
-- description: Configs API
+- baseURL: /
+  baseurl_source: spec
+  description: Configs API
   name: Envestnet Configs API
   slug: envestnet-configs-api
-- description: Consents API
+- baseURL: /
+  baseurl_source: spec
+  description: Consents API
   name: Envestnet Consents API
   slug: envestnet-consents-api
-- description: CreditAcceleratorFile API
+- baseURL: /
+  baseurl_source: spec
+  description: CreditAcceleratorFile API
   name: Envestnet CreditAcceleratorFile API
   slug: envestnet-creditacceleratorfile-api
-- description: The Customer API from Envestnet — 1 operation(s) for customer.
+- baseURL: /
+  baseurl_source: spec
+  description: The Customer API from Envestnet — 1 operation(s) for customer.
   name: Envestnet Customer API
   slug: envestnet-customer-api
-- description: DataExtracts API
+- baseURL: /
+  baseurl_source: spec
+  description: DataExtracts API
   name: Envestnet DataExtracts API
   slug: envestnet-dataextracts-api
-- description: Derived API
+- baseURL: /
+  baseurl_source: spec
+  description: Derived API
   name: Envestnet Derived API
   slug: envestnet-derived-api
-- description: Documents API
+- baseURL: /
+  baseurl_source: spec
+  description: Documents API
   name: Envestnet Documents API
   slug: envestnet-documents-api
-- description: Holdings API
+- baseURL: /
+  baseurl_source: spec
+  description: Holdings API
   name: Envestnet Holdings API
   slug: envestnet-holdings-api
-- description: Envestnet | Yodlee's payment processor partners can use the Payment Processor endpoints to access verified account details using the <code>processorToken</code> created and shared by mutual customers.
+- baseURL: /
+  baseurl_source: spec
+  description: Envestnet | Yodlee's payment processor partners can use the Payment Processor endpoints to access verified account details using the <code>processorToken</code> created and shared by mutual customers.
   name: Envestnet Payment Processor API
   slug: envestnet-payment-processor-api
-- description: Provider Accounts API
+- baseURL: /
+  baseurl_source: spec
+  description: Provider Accounts API
   name: Envestnet ProviderAccounts API
   slug: envestnet-provideraccounts-api
-- description: Providers API
+- baseURL: /
+  baseurl_source: spec
+  description: Providers API
   name: Envestnet Providers API
   slug: envestnet-providers-api
-- description: Statements API
+- baseURL: /
+  baseurl_source: spec
+  description: Statements API
   name: Envestnet Statements API
   slug: envestnet-statements-api
-- description: Transactions API
+- baseURL: /
+  baseurl_source: spec
+  description: Transactions API
   name: Envestnet Transactions API
   slug: envestnet-transactions-api
-- description: Users API
+- baseURL: /
+  baseurl_source: spec
+  description: Users API
   name: Envestnet User API
   slug: envestnet-user-api
-- description: Verification API
+- baseURL: /
+  baseurl_source: spec
+  description: Verification API
   name: Envestnet Verification API
   slug: envestnet-verification-api
-- description: Verify Account API
+- baseURL: /
+  baseurl_source: spec
+  description: Verify Account API
   name: Envestnet Verify Account API
   slug: envestnet-verify-account-api
-- description: The View API from Envestnet — 11 operation(s) for view.
+- baseURL: /
+  baseurl_source: spec
+  description: The View API from Envestnet — 11 operation(s) for view.
   name: Envestnet View API
   slug: envestnet-view-api
 artifact_total: 447
@@ -1500,7 +1542,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:

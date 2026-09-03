@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Product search across Ibotta browser-extension retailer coverage.
+- baseURL: https://api.ibops.net/bex-api
+  baseurl_source: declared
+  description: Product search across Ibotta browser-extension retailer coverage.
   name: Ibotta Products API
   slug: ibotta-products-api
 artifact_total: 9
@@ -202,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png
 security:

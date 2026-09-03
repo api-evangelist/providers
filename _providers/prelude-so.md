@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 6 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Phone number intelligence - line type, carrier, and flags.
+- baseURL: https://api.prelude.dev/v2
+  baseurl_source: declared
+  description: Phone number intelligence - line type, carrier, and flags.
   name: Prelude Lookup API
   slug: prelude-so-lookup-api
-- description: Send transactional messages over SMS, RCS, and WhatsApp.
+- baseURL: https://api.prelude.dev/v2
+  baseurl_source: declared
+  description: Send transactional messages over SMS, RCS, and WhatsApp.
   name: Prelude Transactional API
   slug: prelude-so-transactional-api
-- description: Create and check one-time passcode (OTP) verifications.
+- baseURL: https://api.prelude.dev/v2
+  baseurl_source: declared
+  description: Create and check one-time passcode (OTP) verifications.
   name: Prelude Verification API
   slug: prelude-so-verification-api
-- description: Anti-fraud risk prediction and outcome feedback.
+- baseURL: https://api.prelude.dev/v2
+  baseurl_source: declared
+  description: Anti-fraud risk prediction and outcome feedback.
   name: Prelude Watch API
   slug: prelude-so-watch-api
 artifact_total: 15
@@ -171,7 +179,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

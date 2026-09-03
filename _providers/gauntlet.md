@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: The Prices API from Gauntlet — 2 operation(s) for prices.
+- baseURL: https://api.gauntlet.xyz
+  baseurl_source: declared
+  description: The Prices API from Gauntlet — 2 operation(s) for prices.
   name: Gauntlet Prices API
   slug: gauntlet-prices-api
-- description: The System API from Gauntlet — 2 operation(s) for system.
+- baseURL: https://api.gauntlet.xyz
+  baseurl_source: declared
+  description: The System API from Gauntlet — 2 operation(s) for system.
   name: Gauntlet System API
   slug: gauntlet-system-api
-- description: The TVL API from Gauntlet — 1 operation(s) for tvl.
+- baseURL: https://api.gauntlet.xyz
+  baseurl_source: declared
+  description: The TVL API from Gauntlet — 1 operation(s) for tvl.
   name: Gauntlet TVL API
   slug: gauntlet-tvl-api
-- description: The Users API from Gauntlet — 4 operation(s) for users.
+- baseURL: https://api.gauntlet.xyz
+  baseurl_source: declared
+  description: The Users API from Gauntlet — 4 operation(s) for users.
   name: Gauntlet Users API
   slug: gauntlet-users-api
-- description: The Vaults API from Gauntlet — 5 operation(s) for vaults.
+- baseURL: https://api.gauntlet.xyz
+  baseurl_source: declared
+  description: The Vaults API from Gauntlet — 5 operation(s) for vaults.
   name: Gauntlet Vaults API
   slug: gauntlet-vaults-api
 artifact_total: 17
@@ -250,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/screenshots/gauntlet-2026-07-25T215504.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -47,88 +47,144 @@ apis:
 - description: Outbound HTTP webhook delivery for customer, account, card, transaction, and payment events.
   name: Synctera Webhooks
   slug: webhooks
-- description: Request to create and manage accounts
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Request to create and manage accounts
   name: Synctera Accounts API
   slug: synctera-accounts-api
-- description: Create and manage payments
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Create and manage payments
   name: Synctera ACH API
   slug: synctera-ach-api
-- description: Create a credit application.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Create a credit application.
   name: Synctera Applications API
   slug: synctera-applications-api
-- description: 'A legal entity (corporation, partnership, etc.) that is relevant to the Synctera platform in some way: a business customer or some other organization that has an ownership share in such a business cus'
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: 'A legal entity (corporation, partnership, etc.) that is relevant to the Synctera platform in some way: a business customer or some other organization that has an ownership share in such a business cus'
   name: Synctera Businesses API
   slug: synctera-businesses-api
-- description: Requests to generate simulated transactions
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to generate simulated transactions
   name: Synctera Card Transaction Simulations API
   slug: synctera-card-transaction-simulations-api
-- description: Requests to generate simulated webhooks
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to generate simulated webhooks
   name: Synctera Card Webhook Simulations API
   slug: synctera-card-webhook-simulations-api
-- description: Requests to issue and manage cards
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to issue and manage cards
   name: Synctera Cards API
   slug: synctera-cards-api
-- description: Requests to create and manage customers
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to create and manage customers
   name: Synctera Customers API
   slug: synctera-customers-api
-- description: The Digital Wallet Tokens API from Synctera — 4 operation(s) for digital wallet tokens.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The Digital Wallet Tokens API from Synctera — 4 operation(s) for digital wallet tokens.
   name: Synctera Digital Wallet Tokens API
   slug: synctera-digital-wallet-tokens-api
-- description: The disclosures resource is used to track the status of disclosures and ensure that all parties have been shown the necessary disclosures to meet regulatory obligations.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The disclosures resource is used to track the status of disclosures and ensure that all parties have been shown the necessary disclosures to meet regulatory obligations.
   name: Synctera Disclosures API
   slug: synctera-disclosures-api
-- description: The Documents (alpha) API from Synctera — 3 operation(s) for documents (alpha).
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The Documents (alpha) API from Synctera — 3 operation(s) for documents (alpha).
   name: Synctera Documents (alpha) API
   slug: synctera-documents-alpha-api
-- description: The External Account resource is used for managing links to accounts that operate outside of the Synctera ecosystem.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The External Account resource is used for managing links to accounts that operate outside of the Synctera ecosystem.
   name: Synctera External Accounts API
   slug: synctera-external-accounts-api
-- description: Push and pull from cards
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Push and pull from cards
   name: Synctera External Cards (alpha) API
   slug: synctera-external-cards-alpha-api
-- description: The internal account resource is used for managing links to internal accounts where the funds are managed by integrators.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The internal account resource is used for managing links to internal accounts where the funds are managed by integrators.
   name: Synctera Internal Accounts API
   slug: synctera-internal-accounts-api
-- description: Requests to initiate customer verification.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to initiate customer verification.
   name: Synctera KYC/KYB Verifications API
   slug: synctera-kyc-kyb-verifications-api
-- description: Requests to initiate customer verification.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to initiate customer verification.
   name: Synctera KYC Verification API
   slug: synctera-kyc-verification-api
-- description: Requests to manage monitoring subscriptions and alerts for customers.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to manage monitoring subscriptions and alerts for customers.
   name: Synctera Monitoring API
   slug: synctera-monitoring-api
-- description: The PaymentSchedules API from Synctera — 3 operation(s) for paymentschedules.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The PaymentSchedules API from Synctera — 3 operation(s) for paymentschedules.
   name: Synctera PaymentSchedules API
   slug: synctera-paymentschedules-api
-- description: 'A natural person (individual human) that is relevant to the Synctera platform in some way: e.g. a personal customer or a director/officer/owner of a business.'
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: 'A natural person (individual human) that is relevant to the Synctera platform in some way: e.g. a personal customer or a director/officer/owner of a business.'
   name: Synctera Persons API
   slug: synctera-persons-api
-- description: Requests to create and manage reconciliation
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to create and manage reconciliation
   name: Synctera Reconciliations API
   slug: synctera-reconciliations-api
-- description: Represents the relationships between parties. A relationship can exist between personal customers, business customers, or non-customer persons/organizations.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Represents the relationships between parties. A relationship can exist between personal customers, business customers, or non-customer persons/organizations.
   name: Synctera Relationships API
   slug: synctera-relationships-api
-- description: The Remote Check Deposit (beta) API from Synctera — 2 operation(s) for remote check deposit (beta).
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The Remote Check Deposit (beta) API from Synctera — 2 operation(s) for remote check deposit (beta).
   name: Synctera Remote Check Deposit (beta) API
   slug: synctera-remote-check-deposit-beta-api
-- description: The Sandbox Wipe (alpha) API from Synctera — 1 operation(s) for sandbox wipe (alpha).
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The Sandbox Wipe (alpha) API from Synctera — 1 operation(s) for sandbox wipe (alpha).
   name: Synctera Sandbox Wipe (alpha) API
   slug: synctera-sandbox-wipe-alpha-api
-- description: The Statements API from Synctera — 2 operation(s) for statements.
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: The Statements API from Synctera — 2 operation(s) for statements.
   name: Synctera Statements API
   slug: synctera-statements-api
-- description: Create and manage transactions
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Create and manage transactions
   name: Synctera Transactions API
   slug: synctera-transactions-api
-- description: Request to enroll, renew, or cancel watchlist monitors
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Request to enroll, renew, or cancel watchlist monitors
   name: Synctera Watchlist API
   slug: synctera-watchlist-api
-- description: Requests to create and manage webhooks
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Requests to create and manage webhooks
   name: Synctera Webhooks API
   slug: synctera-webhooks-api
-- description: Create and manage wire transfers
+- baseURL: https://api.synctera.com
+  baseurl_source: declared
+  description: Create and manage wire transfers
   name: Synctera Wires (alpha) API
   slug: synctera-wires-alpha-api
 artifact_total: 524
@@ -1716,7 +1772,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/screenshots/synctera-2026-06-20T194825.png
 security:

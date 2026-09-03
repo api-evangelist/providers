@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 17
 apis:
-- description: Contact profile lookup.
+- baseURL: https://api.simondata.com/audience/v2
+  baseurl_source: declared
+  description: Contact profile lookup.
   name: Simon Data Contacts API
   slug: simon-data-contacts-api
-- description: Event collection into the Simon Signal pipeline.
+- baseURL: https://api.simondata.com/audience/v2
+  baseurl_source: declared
+  description: Event collection into the Simon Signal pipeline.
   name: Simon Data Events API
   slug: simon-data-events-api
 artifact_total: 23
@@ -353,7 +357,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -363,7 +367,7 @@ score:
     discoverability: 81.5
     governance: 29.5
     operational_transparency: 65.8
-  previous_composite: 65.0
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,7 +379,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:

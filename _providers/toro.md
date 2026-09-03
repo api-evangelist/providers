@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -47,37 +47,59 @@ apis:
 - description: Toro myTurf Pro is a web-based equipment management solution for golf courses and sports fields that provides fleet tracking, maintenance scheduling, work orders, parts management, and equipment healt
   name: Toro myTurf
   slug: myturf
-- description: Manage crew members and assignments
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Manage crew members and assignments
   name: Toro Crews API
   slug: toro-crews-api
-- description: Manage customer accounts and contacts
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Manage customer accounts and contacts
   name: Toro Customers API
   slug: toro-customers-api
-- description: Track and manage landscaping equipment
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Track and manage landscaping equipment
   name: Toro Equipment API
   slug: toro-equipment-api
-- description: Generate and manage customer invoices
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Generate and manage customer invoices
   name: Toro Invoices API
   slug: toro-invoices-api
-- description: Control and monitor irrigation systems
+- baseURL: https://api.intellidash.toro.com/v1
+  baseurl_source: spec
+  description: Control and monitor irrigation systems
   name: Toro Irrigation API
   slug: toro-irrigation-api
-- description: Create and track landscaping jobs and work orders
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Create and track landscaping jobs and work orders
   name: Toro Jobs API
   slug: toro-jobs-api
-- description: Process and manage customer payments
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Process and manage customer payments
   name: Toro Payments API
   slug: toro-payments-api
-- description: Agronomic and operational reports
+- baseURL: https://api.intellidash.toro.com/v1
+  baseurl_source: spec
+  description: Agronomic and operational reports
   name: Toro Reports API
   slug: toro-reports-api
-- description: Manage crew and job scheduling
+- baseURL: https://api.horizon360.toro.com/v1
+  baseurl_source: spec
+  description: Manage crew and job scheduling
   name: Toro Schedules API
   slug: toro-schedules-api
-- description: Environmental and soil sensor data
+- baseURL: https://api.intellidash.toro.com/v1
+  baseurl_source: spec
+  description: Environmental and soil sensor data
   name: Toro Sensors API
   slug: toro-sensors-api
-- description: Irrigation zone management
+- baseURL: https://api.intellidash.toro.com/v1
+  baseurl_source: spec
+  description: Irrigation zone management
   name: Toro Zones API
   slug: toro-zones-api
 artifact_total: 40
@@ -266,7 +288,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -276,7 +298,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 32.4
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -285,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

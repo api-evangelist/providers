@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Passive liveness / presentation-attack detection from a single selfie, trained on 850M+ liveness checks. Delivered primarily through HyperVerge's mobile SDKs and the hosted onboarding Workflow; a stan
   name: HyperVerge Liveness Detection
   slug: hyperverge-liveness-api
-- description: Central/government database verification for Indian documents.
+- baseURL: https://ind-docs.hyperverge.co/v2.0
+  baseurl_source: declared
+  description: Central/government database verification for Indian documents.
   name: HyperVerge Database Verification API
   slug: hyperverge-database-verification-api
-- description: Selfie-to-ID / selfie-to-selfie face comparison.
+- baseURL: https://ind-docs.hyperverge.co/v2.0
+  baseurl_source: declared
+  description: Selfie-to-ID / selfie-to-selfie face comparison.
   name: HyperVerge Face Match API
   slug: hyperverge-face-match-api
-- description: Cross-validation of user input against OCR/QR extraction output.
+- baseURL: https://ind-docs.hyperverge.co/v2.0
+  baseurl_source: declared
+  description: Cross-validation of user input against OCR/QR extraction output.
   name: HyperVerge Input Validation API
   slug: hyperverge-input-validation-api
-- description: Document OCR and KYC field extraction for Indian identity documents.
+- baseURL: https://ind-docs.hyperverge.co/v2.0
+  baseurl_source: declared
+  description: Document OCR and KYC field extraction for Indian identity documents.
   name: HyperVerge KYC OCR API
   slug: hyperverge-kyc-ocr-api
-- description: Fuzzy and direct field matching.
+- baseURL: https://ind-docs.hyperverge.co/v2.0
+  baseurl_source: declared
+  description: Fuzzy and direct field matching.
   name: HyperVerge Matching API
   slug: hyperverge-matching-api
 artifact_total: 19
@@ -182,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png
 security:

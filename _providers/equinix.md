@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -44,226 +44,374 @@ agentic_access:
   summary_line: 253 operations · 119 acting · 4 human-in-the-loop
 api_count: 10
 apis:
-- description: The Agent Templates API from Equinix — 2 operation(s) for agent templates.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Agent Templates API from Equinix — 2 operation(s) for agent templates.
   name: Equinix Agent Templates API
   slug: equinix-agent-templates-api
-- description: The Agents API from Equinix — 3 operation(s) for agents.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Agents API from Equinix — 3 operation(s) for agents.
   name: Equinix Agents API
   slug: equinix-agents-api
-- description: Nearly all of the endpoints in the API require authentication. Authentication is performed by providing an authentication token (interchangeably referred to as an API key) in the `X-Auth-Token` HTTP r
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Nearly all of the endpoints in the API require authentication. Authentication is performed by providing an authentication token (interchangeably referred to as an API key) in the `X-Auth-Token` HTTP r
   name: Equinix Authentication API
   slug: equinix-authentication-api
-- description: Secure Cabinet availability
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Secure Cabinet availability
   name: Equinix availability API
   slug: equinix-availability-api
-- description: Manage device batches. See project endpoints to list batches for a particular project. Check out the product docs to learn more about [Batch Deployment](https://metal.equinix.com/developers/docs/deplo
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage device batches. See project endpoints to list batches for a particular project. Check out the product docs to learn more about [Batch Deployment](https://metal.equinix.com/developers/docs/deplo
   name: Equinix Batches API
   slug: equinix-batches-api
-- description: Manage BGP configs and sessions. See device endpoints to create and list BGP sessions for a particular device. Check out the product docs to learn more about [Local and Global BGP](https://metal.equin
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage BGP configs and sessions. See device endpoints to create and list BGP sessions for a particular device. Check out the product docs to learn more about [Local and Global BGP](https://metal.equin
   name: Equinix BGP API
   slug: equinix-bgp-api
-- description: Capacity Management. Check out the product docs to learn more about [Capacity](https://metal.equinix.com/developers/docs/locations/capacity/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Capacity Management. Check out the product docs to learn more about [Capacity](https://metal.equinix.com/developers/docs/locations/capacity/).
   name: Equinix Capacity API
   slug: equinix-capacity-api
-- description: Cloud Events
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Cloud Events
   name: Equinix Cloud Events API
   slug: equinix-cloud-events-api
-- description: Cloud Routers
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Cloud Routers
   name: Equinix Cloud Routers API
   slug: equinix-cloud-routers-api
-- description: Company Profiles <font color="red"> <sup color='red'>Beta</sup></font>
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Company Profiles <font color="red"> <sup color='red'>Beta</sup></font>
   name: Equinix Company Profiles API
   slug: equinix-company-profiles-api
-- description: Connections
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Connections
   name: Equinix Connections API
   slug: equinix-connections-api
-- description: 'Console Log Details. Notice: This is a test feature currently under active development, and only available to certain users. Please contact Customer Success for more information.'
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: 'Console Log Details. Notice: This is a test feature currently under active development, and only available to certain users. Please contact Customer Success for more information.'
   name: Equinix Console Log Details API
   slug: equinix-console-log-details-api
-- description: Device Management. Check out the product docs to learn more about [Server Devices](https://metal.equinix.com/developers/docs/servers/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Device Management. Check out the product docs to learn more about [Server Devices](https://metal.equinix.com/developers/docs/servers/).
   name: Equinix Devices API
   slug: equinix-devices-api
-- description: Equinix Internet Access Service API
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Equinix Internet Access Service API
   name: Equinix EIA Service API
   slug: equinix-eia-service-api
-- description: Email Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Email Management
   name: Equinix Emails API
   slug: equinix-emails-api
-- description: Event Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Event Management
   name: Equinix Events API
   slug: equinix-events-api
-- description: Facility Management. Check out the product docs to learn more about [Facilities](https://metal.equinix.com/developers/docs/locations/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Facility Management. Check out the product docs to learn more about [Facilities](https://metal.equinix.com/developers/docs/locations/).
   name: Equinix Facilities API
   slug: equinix-facilities-api
-- description: 'Firmware Sets Management. Notice: Firmware Sets are a test feature currently under active development, and only available to certain users. Please contact Customer Success for more information.'
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: 'Firmware Sets Management. Notice: Firmware Sets are a test feature currently under active development, and only available to certain users. Please contact Customer Success for more information.'
   name: Equinix Firmware Sets API
   slug: equinix-firmware-sets-api
-- description: Hardware Reservation Management. Check out the product docs to learn more about [Reserved Hardware](https://metal.equinix.com/developers/docs/deploy/reserved/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Hardware Reservation Management. Check out the product docs to learn more about [Reserved Hardware](https://metal.equinix.com/developers/docs/deploy/reserved/).
   name: Equinix HardwareReservations API
   slug: equinix-hardwarereservations-api
-- description: The Health API from Equinix — 1 operation(s) for health.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Health API from Equinix — 1 operation(s) for health.
   name: Equinix Health API
   slug: equinix-health-api
-- description: Incident Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Incident Management
   name: Equinix Incidents API
   slug: equinix-incidents-api
-- description: Network Interconnections. See Instructions to create Network Interconnections at Check out the product docs to learn more about [Equinix Fabric](https://metal.equinix.com/developers/docs/networking/fa
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Network Interconnections. See Instructions to create Network Interconnections at Check out the product docs to learn more about [Equinix Fabric](https://metal.equinix.com/developers/docs/networking/fa
   name: Equinix Interconnections API
   slug: equinix-interconnections-api
-- description: Manage invitations. See project endpoints to create a new invitation. Check out the product docs to learn more about [Invitations](https://metal.equinix.com/developers/docs/accounts/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage invitations. See project endpoints to create a new invitation. Check out the product docs to learn more about [Invitations](https://metal.equinix.com/developers/docs/accounts/).
   name: Equinix Invitations API
   slug: equinix-invitations-api
-- description: The Invoices API from Equinix — 2 operation(s) for invoices.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Invoices API from Equinix — 2 operation(s) for invoices.
   name: Equinix Invoices API
   slug: equinix-invoices-api
-- description: Manage IP addresses. See device and project endpoints to list and create IP assignments for a particular project or device. Check out the product docs to learn more about [the basic networking feature
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage IP addresses. See device and project endpoints to list and create IP assignments for a particular project or device. Check out the product docs to learn more about [the basic networking feature
   name: Equinix IPAddresses API
   slug: equinix-ipaddresses-api
-- description: Manage licenses. See project endpoints to list and create licenses for a particular project.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage licenses. See project endpoints to list and create licenses for a particular project.
   name: Equinix Licenses API
   slug: equinix-licenses-api
-- description: The Logos API from Equinix — 1 operation(s) for logos.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Logos API from Equinix — 1 operation(s) for logos.
   name: Equinix Logos API
   slug: equinix-logos-api
-- description: Lookup
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Lookup
   name: Equinix Lookup API
   slug: equinix-lookup-api
-- description: The Marketplace Subscriptions API from Equinix — 1 operation(s) for marketplace subscriptions.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Marketplace Subscriptions API from Equinix — 1 operation(s) for marketplace subscriptions.
   name: Equinix Marketplace Subscriptions API
   slug: equinix-marketplace-subscriptions-api
-- description: Membership Management (Project). Check out the product docs to learn more about [Membership](https://metal.equinix.com/developers/docs/accounts/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Membership Management (Project). Check out the product docs to learn more about [Membership](https://metal.equinix.com/developers/docs/accounts/).
   name: Equinix Memberships API
   slug: equinix-memberships-api
-- description: Metal Gateway Management.Check out the product docs to learn more about [Metal Gateways](https://metal.equinix.com/developers/docs/networking/metal-gateway/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Metal Gateway Management.Check out the product docs to learn more about [Metal Gateways](https://metal.equinix.com/developers/docs/networking/metal-gateway/).
   name: Equinix MetalGateways API
   slug: equinix-metalgateways-api
-- description: Metrics
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Metrics
   name: Equinix Metrics API
   slug: equinix-metrics-api
-- description: Metro Management. Check out the product docs to learn more about [Metros](https://metal.equinix.com/developers/docs/locations/metros/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Metro Management. Check out the product docs to learn more about [Metros](https://metal.equinix.com/developers/docs/locations/metros/).
   name: Equinix Metros API
   slug: equinix-metros-api
-- description: The Networks API from Equinix — 6 operation(s) for networks.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Networks API from Equinix — 6 operation(s) for networks.
   name: Equinix Networks API
   slug: equinix-networks-api
-- description: The OAuth2 Token API from Equinix — 2 operation(s) for oauth2 token.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The OAuth2 Token API from Equinix — 2 operation(s) for oauth2 token.
   name: Equinix OAuth2 Token API
   slug: equinix-oauth2-token-api
-- description: Operating System Management. Check out the product docs to learn more about [Operating Systems choices](https://metal.equinix.com/developers/docs/operating-systems/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Operating System Management. Check out the product docs to learn more about [Operating Systems choices](https://metal.equinix.com/developers/docs/operating-systems/).
   name: Equinix OperatingSystems API
   slug: equinix-operatingsystems-api
-- description: Orders
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Orders
   name: Equinix Orders API
   slug: equinix-orders-api
-- description: Organizations Management. Check out the product docs to learn more about [Organizations](https://metal.equinix.com/developers/docs/accounts/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Organizations Management. Check out the product docs to learn more about [Organizations](https://metal.equinix.com/developers/docs/accounts/).
   name: Equinix Organizations API
   slug: equinix-organizations-api
-- description: OTP Management. Check out the product docs to learn more about [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: OTP Management. Check out the product docs to learn more about [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
   name: Equinix OTPs API
   slug: equinix-otps-api
-- description: Password Reset Token Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Password Reset Token Management
   name: Equinix PasswordResetTokens API
   slug: equinix-passwordresettokens-api
-- description: Payment Method Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Payment Method Management
   name: Equinix PaymentMethods API
   slug: equinix-paymentmethods-api
-- description: Plan Management (Device). Check out the product docs to learn more about [Device Plans](https://metal.equinix.com/developers/docs/servers/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Plan Management (Device). Check out the product docs to learn more about [Device Plans](https://metal.equinix.com/developers/docs/servers/).
   name: Equinix Plans API
   slug: equinix-plans-api
-- description: Port Packages <font color="red"> <sup color='red'>Beta</sup></font>
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Port Packages <font color="red"> <sup color='red'>Beta</sup></font>
   name: Equinix Port Packages API
   slug: equinix-port-packages-api
-- description: Port ManagementCheck out the product docs to learn more about [Port configurations](https://metal.equinix.com/developers/docs/layer2-networking/overview/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Port ManagementCheck out the product docs to learn more about [Port configurations](https://metal.equinix.com/developers/docs/layer2-networking/overview/).
   name: Equinix Ports API
   slug: equinix-ports-api
-- description: Precision Time
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Precision Time
   name: Equinix Precision Time API
   slug: equinix-precision-time-api
-- description: Prices
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Prices
   name: Equinix Prices API
   slug: equinix-prices-api
-- description: Project Management. Check out the product docs to learn more about [Projects](https://metal.equinix.com/developers/docs/accounts/projects/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Project Management. Check out the product docs to learn more about [Projects](https://metal.equinix.com/developers/docs/accounts/projects/).
   name: Equinix Projects API
   slug: equinix-projects-api
-- description: The Retrieve Orders API from Equinix — 2 operation(s) for retrieve orders.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Retrieve Orders API from Equinix — 2 operation(s) for retrieve orders.
   name: Equinix Retrieve Orders API
   slug: equinix-retrieve-orders-api
-- description: Route Aggregation Rules
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Route Aggregation Rules
   name: Equinix Route Aggregation Rules API
   slug: equinix-route-aggregation-rules-api
-- description: Route Aggregations
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Route Aggregations
   name: Equinix Route Aggregations API
   slug: equinix-route-aggregations-api
-- description: Route Filter Rules
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Route Filter Rules
   name: Equinix Route Filter Rules API
   slug: equinix-route-filter-rules-api
-- description: Route Filters
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Route Filters
   name: Equinix Route Filters API
   slug: equinix-route-filters-api
-- description: Routing Protocols
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Routing Protocols
   name: Equinix Routing Protocols API
   slug: equinix-routing-protocols-api
-- description: Self Service Reservations
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Self Service Reservations
   name: Equinix SelfServiceReservations API
   slug: equinix-selfservicereservations-api
-- description: Service Profiles
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Service Profiles
   name: Equinix Service Profiles API
   slug: equinix-service-profiles-api
-- description: Service Tokens
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Service Tokens
   name: Equinix Service Tokens API
   slug: equinix-service-tokens-api
-- description: The Smarthands API from Equinix — 14 operation(s) for smarthands.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Smarthands API from Equinix — 14 operation(s) for smarthands.
   name: Equinix Smarthands API
   slug: equinix-smarthands-api
-- description: Spot Market Pricing and Requests Management. Check out the product docs to learn more about [Spot Market features](https://metal.equinix.com/developers/docs/deploy/spot-market/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Spot Market Pricing and Requests Management. Check out the product docs to learn more about [Spot Market features](https://metal.equinix.com/developers/docs/deploy/spot-market/).
   name: Equinix SpotMarket API
   slug: equinix-spotmarket-api
-- description: Manage SSH keys. See project endpoints to list and create project-level SSH keys.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage SSH keys. See project endpoints to list and create project-level SSH keys.
   name: Equinix SSHKeys API
   slug: equinix-sshkeys-api
-- description: Statistics
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Statistics
   name: Equinix Statistics API
   slug: equinix-statistics-api
-- description: Stream Alert Rules <font color="red"> <sup color='red'>Beta</sup></font>
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Stream Alert Rules <font color="red"> <sup color='red'>Beta</sup></font>
   name: Equinix Stream Alert Rules API
   slug: equinix-stream-alert-rules-api
-- description: Stream Subscriptions
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Stream Subscriptions
   name: Equinix Stream Subscriptions API
   slug: equinix-stream-subscriptions-api
-- description: Streams
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Streams
   name: Equinix Streams API
   slug: equinix-streams-api
-- description: Support request
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Support request
   name: Equinix SupportRequest API
   slug: equinix-supportrequest-api
-- description: The Tags API from Equinix — 1 operation(s) for tags.
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: The Tags API from Equinix — 1 operation(s) for tags.
   name: Equinix Tags API
   slug: equinix-tags-api
-- description: Project Transfer Requests Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Project Transfer Requests Management
   name: Equinix TransferRequests API
   slug: equinix-transferrequests-api
-- description: Two Factor Authentication Management. Check out the product docs to learn more about [2FA](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Two Factor Authentication Management. Check out the product docs to learn more about [2FA](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
   name: Equinix TwoFactorAuth API
   slug: equinix-twofactorauth-api
-- description: Usage Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Usage Management
   name: Equinix Usages API
   slug: equinix-usages-api
-- description: Operations for normal users of this service
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Operations for normal users of this service
   name: Equinix use API
   slug: equinix-use-api
-- description: Userdata Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Userdata Management
   name: Equinix Userdata API
   slug: equinix-userdata-api
-- description: User Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: User Management
   name: Equinix Users API
   slug: equinix-users-api
-- description: User Verification Token Management
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: User Verification Token Management
   name: Equinix UserVerificationTokens API
   slug: equinix-userverificationtokens-api
-- description: Manage virtual networks (VLANs). See project endpoints to list and create virtual networks. Check out the product docs to learn more about [VLANs](https://metal.equinix.com/developers/docs/networking/
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage virtual networks (VLANs). See project endpoints to list and create virtual networks. Check out the product docs to learn more about [VLANs](https://metal.equinix.com/developers/docs/networking/
   name: Equinix VLANs API
   slug: equinix-vlans-api
-- description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
   name: Equinix VRFs API
   slug: equinix-vrfs-api
 artifact_total: 158
@@ -610,7 +758,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 81 operations · 44 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The API Key API from Ampersand — 2 operation(s) for api key.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The API Key API from Ampersand — 2 operation(s) for api key.
   name: Ampersand API Key API
   slug: ampersand-api-key-api
-- description: The Billing Account API from Ampersand — 2 operation(s) for billing account.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Billing Account API from Ampersand — 2 operation(s) for billing account.
   name: Ampersand Billing Account API
   slug: ampersand-billing-account-api
-- description: The Connection API from Ampersand — 3 operation(s) for connection.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Connection API from Ampersand — 3 operation(s) for connection.
   name: Ampersand Connection API
   slug: ampersand-connection-api
-- description: The Destination API from Ampersand — 6 operation(s) for destination.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Destination API from Ampersand — 6 operation(s) for destination.
   name: Ampersand Destination API
   slug: ampersand-destination-api
-- description: The Installation API from Ampersand — 4 operation(s) for installation.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Installation API from Ampersand — 4 operation(s) for installation.
   name: Ampersand Installation API
   slug: ampersand-installation-api
-- description: The Integration API from Ampersand — 4 operation(s) for integration.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Integration API from Ampersand — 4 operation(s) for integration.
   name: Ampersand Integration API
   slug: ampersand-integration-api
-- description: The JWT Key API from Ampersand — 2 operation(s) for jwt key.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The JWT Key API from Ampersand — 2 operation(s) for jwt key.
   name: Ampersand JWT Key API
   slug: ampersand-jwt-key-api
-- description: The Notification API from Ampersand — 2 operation(s) for notification.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Notification API from Ampersand — 2 operation(s) for notification.
   name: Ampersand Notification API
   slug: ampersand-notification-api
-- description: The OAuth API from Ampersand — 2 operation(s) for oauth.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The OAuth API from Ampersand — 2 operation(s) for oauth.
   name: Ampersand OAuth API
   slug: ampersand-oauth-api
-- description: The Objects & Fields API from Ampersand — 4 operation(s) for objects & fields.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Objects & Fields API from Ampersand — 4 operation(s) for objects & fields.
   name: Ampersand Objects & Fields API
   slug: ampersand-objects-fields-api
-- description: The Operation API from Ampersand — 4 operation(s) for operation.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Operation API from Ampersand — 4 operation(s) for operation.
   name: Ampersand Operation API
   slug: ampersand-operation-api
-- description: The Org API from Ampersand — 8 operation(s) for org.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Org API from Ampersand — 8 operation(s) for org.
   name: Ampersand Org API
   slug: ampersand-org-api
-- description: The Project API from Ampersand — 2 operation(s) for project.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Project API from Ampersand — 2 operation(s) for project.
   name: Ampersand Project API
   slug: ampersand-project-api
-- description: The Provider API from Ampersand — 2 operation(s) for provider.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Provider API from Ampersand — 2 operation(s) for provider.
   name: Ampersand Provider API
   slug: ampersand-provider-api
-- description: The Provider App API from Ampersand — 2 operation(s) for provider app.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Provider App API from Ampersand — 2 operation(s) for provider app.
   name: Ampersand Provider App API
   slug: ampersand-provider-app-api
-- description: The Revision API from Ampersand — 2 operation(s) for revision.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Revision API from Ampersand — 2 operation(s) for revision.
   name: Ampersand Revision API
   slug: ampersand-revision-api
-- description: The Upload URL API from Ampersand — 1 operation(s) for upload url.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The Upload URL API from Ampersand — 1 operation(s) for upload url.
   name: Ampersand Upload URL API
   slug: ampersand-upload-url-api
-- description: The User API from Ampersand — 2 operation(s) for user.
+- baseURL: https://api.withampersand.com
+  baseurl_source: declared
+  description: The User API from Ampersand — 2 operation(s) for user.
   name: Ampersand User API
   slug: ampersand-user-api
 artifact_total: 208
@@ -767,7 +803,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/screenshots/ampersand-2026-06-20T171937.png
 security:

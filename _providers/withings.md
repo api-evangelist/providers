@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -49,52 +49,84 @@ apis:
 - description: The Withings Advanced Research API provides access to detailed and granular health biomarker data for academic and clinical research purposes, including full biomarker packs with extended data sets be
   name: Withings Advanced Research API
   slug: withings-advanced-research-api
-- description: These webservices allows you to get user's answers from surveys
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: These webservices allows you to get user's answers from surveys
   name: Withings answers API
   slug: withings-answers-api
-- description: The device API from Withings — 3 operation(s) for device.
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: The device API from Withings — 3 operation(s) for device.
   name: Withings device API
   slug: withings-device-api
-- description: The following services are part of the Logistics APIs. Refer to [this section](/developer-guide/v3/integration-guide/dropship-only/logistics-api/overview-create-order) for more information. The Logist
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: The following services are part of the Logistics APIs. Refer to [this section](/developer-guide/v3/integration-guide/dropship-only/logistics-api/overview-create-order) for more information. The Logist
   name: Withings dropshipment API
   slug: withings-dropshipment-api
-- description: Returns ECG (EKG) signal points in micro-volt (μV). You can use the [Heart - List](#operation/heartv2-list) service to get the list of ECG records and their corresponding ```signalid``` and then use [
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: Returns ECG (EKG) signal points in micro-volt (μV). You can use the [Heart - List](#operation/heartv2-list) service to get the list of ECG records and their corresponding ```signalid``` and then use [
   name: Withings heart API
   slug: withings-heart-api
-- description: The following services gives access to several types of Health Data collected by a user. The data are only available once a synchronization occured between the device and Withings servers (which might
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: The following services gives access to several types of Health Data collected by a user. The data are only available once a synchronization occured between the device and Withings servers (which might
   name: Withings measure API
   slug: withings-measure-api
-- description: These services will allow you to be notified when new data is collected by Withings devices, or when specific events happen. Learn more about our notification services in [the dedicated section](/deve
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: These services will allow you to be notified when new data is collected by Withings devices, or when specific events happen. Learn more about our notification services in [the dedicated section](/deve
   name: Withings notify API
   slug: withings-notify-api
-- description: These webservices allows you to to manage Health Nudges. Read the [Health Nudges Integration Guide](/developer-guide/v3/integration-guide/health-nudges/health-nudge-overview) for more information.
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: These webservices allows you to to manage Health Nudges. Read the [Health Nudges Integration Guide](/developer-guide/v3/integration-guide/health-nudges/health-nudge-overview) for more information.
   name: Withings nudge API
   slug: withings-nudge-api
-- description: These webservices allows you to to manage Health Nudges Campaign. Read the [Health Nudges Integration Guide](/developer-guide/v3/integration-guide/health-nudges/health-nudge-overview) for more informa
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: These webservices allows you to to manage Health Nudges Campaign. Read the [Health Nudges Integration Guide](/developer-guide/v3/integration-guide/health-nudges/health-nudge-overview) for more informa
   name: Withings nudgecampaign API
   slug: withings-nudgecampaign-api
-- description: <br>The Withings API uses OAuth 2.0, an industry-standard protocol for authorization.<br> OAuth 2.0 enables your application to access user-specific data with a secure and seamless way without requiri
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: <br>The Withings API uses OAuth 2.0, an industry-standard protocol for authorization.<br> OAuth 2.0 enables your application to access user-specific data with a secure and seamless way without requiri
   name: Withings oauth2 API
   slug: withings-oauth2-api
-- description: The following services are part of the Logistics APIs. Refer to [this section](/developer-guide/v3/integration-guide/dropship-only/logistics-api/overview-create-order) for more information.
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: The following services are part of the Logistics APIs. Refer to [this section](/developer-guide/v3/integration-guide/dropship-only/logistics-api/overview-create-order) for more information.
   name: Withings order API
   slug: withings-order-api
-- description: Raw Data webservices are part of the Advanced research API that allows to collect high frequency PPG and accelerometer data (around 25Hz). These APIs are compatible only with the Withings ScanWatch. I
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: Raw Data webservices are part of the Advanced research API that allows to collect high frequency PPG and accelerometer data (around 25Hz). These APIs are compatible only with the Withings ScanWatch. I
   name: Withings rawdata API
   slug: withings-rawdata-api
-- description: The following services are part of the Logistics APIs. Refer to [this section](/developer-guide/v3/integration-guide/dropship-only/logistics-api/overview-create-order) for more information.
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: The following services are part of the Logistics APIs. Refer to [this section](/developer-guide/v3/integration-guide/dropship-only/logistics-api/overview-create-order) for more information.
   name: Withings signature API
   slug: withings-signature-api
-- description: Returns data related to user sleep activities, wether they are captured by an Activity Tracker or a Sleep Monitor. The data are only available once a synchronization occured between the device and Wit
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: Returns data related to user sleep activities, wether they are captured by an Activity Tracker or a Sleep Monitor. The data are only available once a synchronization occured between the device and Wit
   name: Withings sleep API
   slug: withings-sleep-api
-- description: First the [Stetho - List](#operation/stethov2-list) API should be called to fetch the stetho signalIds which should be fetched individually using the [Stetho - Get](#operation/stethov2-get) API.
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: First the [Stetho - List](#operation/stethov2-list) API should be called to fetch the stetho signalIds which should be fetched individually using the [Stetho - Get](#operation/stethov2-get) API.
   name: Withings stetho API
   slug: withings-stetho-api
-- description: These webservices allows you to to manage user's surveys
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: These webservices allows you to to manage user's surveys
   name: Withings survey API
   slug: withings-survey-api
-- description: The user API from Withings — 7 operation(s) for user.
+- baseURL: https://wbsapi.withings.net
+  baseurl_source: declared
+  description: The user API from Withings — 7 operation(s) for user.
   name: Withings user API
   slug: withings-user-api
 artifact_total: 55
@@ -317,7 +349,7 @@ score:
     catalog_gap: 35.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -327,7 +359,7 @@ score:
     discoverability: 63.0
     governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 39.2
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -342,7 +374,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png
 security:

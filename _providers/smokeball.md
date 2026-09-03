@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -44,106 +44,174 @@ agentic_access:
   summary_line: 233 operations · 119 acting
 api_count: 1
 apis:
-- description: The Activity Codes API from Smokeball — 2 operation(s) for activity codes.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Activity Codes API from Smokeball — 2 operation(s) for activity codes.
   name: Smokeball Activity Codes API
   slug: smokeball-activity-codes-api
-- description: The Authorization API from Smokeball — 4 operation(s) for authorization.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Authorization API from Smokeball — 4 operation(s) for authorization.
   name: Smokeball Authorization API
   slug: smokeball-authorization-api
-- description: The Bank Accounts API from Smokeball — 9 operation(s) for bank accounts.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Bank Accounts API from Smokeball — 9 operation(s) for bank accounts.
   name: Smokeball Bank Accounts API
   slug: smokeball-bank-accounts-api
-- description: The Contacts API from Smokeball — 6 operation(s) for contacts.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Contacts API from Smokeball — 6 operation(s) for contacts.
   name: Smokeball Contacts API
   slug: smokeball-contacts-api
-- description: The Events API from Smokeball — 4 operation(s) for events.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Events API from Smokeball — 4 operation(s) for events.
   name: Smokeball Events API
   slug: smokeball-events-api
-- description: The Expenses API from Smokeball — 2 operation(s) for expenses.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Expenses API from Smokeball — 2 operation(s) for expenses.
   name: Smokeball Expenses API
   slug: smokeball-expenses-api
-- description: The Fees API from Smokeball — 2 operation(s) for fees.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Fees API from Smokeball — 2 operation(s) for fees.
   name: Smokeball Fees API
   slug: smokeball-fees-api
-- description: The Files API from Smokeball — 8 operation(s) for files.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Files API from Smokeball — 8 operation(s) for files.
   name: Smokeball Files API
   slug: smokeball-files-api
-- description: The Firm API from Smokeball — 3 operation(s) for firm.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Firm API from Smokeball — 3 operation(s) for firm.
   name: Smokeball Firm API
   slug: smokeball-firm-api
-- description: The Folders API from Smokeball — 4 operation(s) for folders.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Folders API from Smokeball — 4 operation(s) for folders.
   name: Smokeball Folders API
   slug: smokeball-folders-api
-- description: The Intake API from Smokeball — 3 operation(s) for intake.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Intake API from Smokeball — 3 operation(s) for intake.
   name: Smokeball Intake API
   slug: smokeball-intake-api
-- description: The Integrated Search API from Smokeball — 1 operation(s) for integrated search.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Integrated Search API from Smokeball — 1 operation(s) for integrated search.
   name: Smokeball Integrated Search API
   slug: smokeball-integrated-search-api
-- description: The Invoices API from Smokeball — 3 operation(s) for invoices.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Invoices API from Smokeball — 3 operation(s) for invoices.
   name: Smokeball Invoices API
   slug: smokeball-invoices-api
-- description: The Layout Designs API from Smokeball — 2 operation(s) for layout designs.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Layout Designs API from Smokeball — 2 operation(s) for layout designs.
   name: Smokeball Layout Designs API
   slug: smokeball-layout-designs-api
-- description: The Layout Matter Items API from Smokeball — 3 operation(s) for layout matter items.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Layout Matter Items API from Smokeball — 3 operation(s) for layout matter items.
   name: Smokeball Layout Matter Items API
   slug: smokeball-layout-matter-items-api
-- description: The Matter Items API from Smokeball — 2 operation(s) for matter items.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Matter Items API from Smokeball — 2 operation(s) for matter items.
   name: Smokeball Matter Items API
   slug: smokeball-matter-items-api
-- description: The Matter Types API from Smokeball — 3 operation(s) for matter types.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Matter Types API from Smokeball — 3 operation(s) for matter types.
   name: Smokeball Matter Types API
   slug: smokeball-matter-types-api
-- description: The Matters API from Smokeball — 6 operation(s) for matters.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Matters API from Smokeball — 6 operation(s) for matters.
   name: Smokeball Matters API
   slug: smokeball-matters-api
-- description: The Memos API from Smokeball — 2 operation(s) for memos.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Memos API from Smokeball — 2 operation(s) for memos.
   name: Smokeball Memos API
   slug: smokeball-memos-api
-- description: The Notifications API from Smokeball — 2 operation(s) for notifications.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Notifications API from Smokeball — 2 operation(s) for notifications.
   name: Smokeball Notifications API
   slug: smokeball-notifications-api
-- description: The Plugins API from Smokeball — 5 operation(s) for plugins.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Plugins API from Smokeball — 5 operation(s) for plugins.
   name: Smokeball Plugins API
   slug: smokeball-plugins-api
-- description: The Portal API from Smokeball — 3 operation(s) for portal.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Portal API from Smokeball — 3 operation(s) for portal.
   name: Smokeball Portal API
   slug: smokeball-portal-api
-- description: The Referral Types API from Smokeball — 2 operation(s) for referral types.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Referral Types API from Smokeball — 2 operation(s) for referral types.
   name: Smokeball Referral Types API
   slug: smokeball-referral-types-api
-- description: The Relationships API from Smokeball — 2 operation(s) for relationships.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Relationships API from Smokeball — 2 operation(s) for relationships.
   name: Smokeball Relationships API
   slug: smokeball-relationships-api
-- description: The Roles API from Smokeball — 2 operation(s) for roles.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Roles API from Smokeball — 2 operation(s) for roles.
   name: Smokeball Roles API
   slug: smokeball-roles-api
-- description: The Search API from Smokeball — 1 operation(s) for search.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Search API from Smokeball — 1 operation(s) for search.
   name: Smokeball Search API
   slug: smokeball-search-api
-- description: The Staff API from Smokeball — 2 operation(s) for staff.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Staff API from Smokeball — 2 operation(s) for staff.
   name: Smokeball Staff API
   slug: smokeball-staff-api
-- description: The Stages API from Smokeball — 5 operation(s) for stages.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Stages API from Smokeball — 5 operation(s) for stages.
   name: Smokeball Stages API
   slug: smokeball-stages-api
-- description: The Subscription Payments API from Smokeball — 4 operation(s) for subscription payments.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Subscription Payments API from Smokeball — 4 operation(s) for subscription payments.
   name: Smokeball Subscription Payments API
   slug: smokeball-subscription-payments-api
-- description: The Subscription Promotions API from Smokeball — 3 operation(s) for subscription promotions.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Subscription Promotions API from Smokeball — 3 operation(s) for subscription promotions.
   name: Smokeball Subscription Promotions API
   slug: smokeball-subscription-promotions-api
-- description: The Subscriptions API from Smokeball — 26 operation(s) for subscriptions.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Subscriptions API from Smokeball — 26 operation(s) for subscriptions.
   name: Smokeball Subscriptions API
   slug: smokeball-subscriptions-api
-- description: The Tasks API from Smokeball — 6 operation(s) for tasks.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Tasks API from Smokeball — 6 operation(s) for tasks.
   name: Smokeball Tasks API
   slug: smokeball-tasks-api
-- description: The Users API from Smokeball — 3 operation(s) for users.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Users API from Smokeball — 3 operation(s) for users.
   name: Smokeball Users API
   slug: smokeball-users-api
-- description: The Webhooks API from Smokeball — 4 operation(s) for webhooks.
+- baseURL: https://api.smokeball.com
+  baseurl_source: declared
+  description: The Webhooks API from Smokeball — 4 operation(s) for webhooks.
   name: Smokeball Webhooks API
   slug: smokeball-webhooks-api
 artifact_total: 111
@@ -499,7 +567,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png
 security:

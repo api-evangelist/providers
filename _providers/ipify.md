@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 3
 apis:
-- description: Account balance and credit utilities.
+- baseURL: https://api.ipify.org
+  baseurl_source: declared
+  description: Account balance and credit utilities.
   name: ipify Account API
   slug: ipify-account-api
-- description: Resolve an IP, domain, or email to a country, region, city, and ISP.
+- baseURL: https://api.ipify.org
+  baseurl_source: declared
+  description: Resolve an IP, domain, or email to a country, region, city, and ISP.
   name: ipify Geolocation API
   slug: ipify-geolocation-api
-- description: Operations that return the caller's public IP address.
+- baseURL: https://api.ipify.org
+  baseurl_source: declared
+  description: Operations that return the caller's public IP address.
   name: ipify IP Address API
   slug: ipify-ip-address-api
 artifact_total: 45
@@ -268,7 +274,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipify/refs/heads/main/screenshots/ipify-2026-06-20T183551.png
 security:

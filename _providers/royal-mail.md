@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,19 +59,29 @@ apis:
 - description: Enables Royal Mail customers to obtain details of the delivery office dedicated to a provided postcode, including location name, address, available facilities, and opening hours.
   name: Royal Mail Delivery Office Finder V1 (REST)
   slug: royal-mail-delivery-office-finder-v1-rest
-- description: The Labels API from Royal Mail — 1 operation(s) for labels.
+- baseURL: https://api.royalmail.net/shipping/v2
+  baseurl_source: declared
+  description: The Labels API from Royal Mail — 1 operation(s) for labels.
   name: Royal Mail Labels API
   slug: royal-mail-labels-api
-- description: The Manifests API from Royal Mail — 3 operation(s) for manifests.
+- baseURL: https://api.royalmail.net/shipping/v2
+  baseurl_source: declared
+  description: The Manifests API from Royal Mail — 3 operation(s) for manifests.
   name: Royal Mail Manifests API
   slug: royal-mail-manifests-api
-- description: The Orders API from Royal Mail — 5 operation(s) for orders.
+- baseURL: https://api.royalmail.net/shipping/v2
+  baseurl_source: declared
+  description: The Orders API from Royal Mail — 5 operation(s) for orders.
   name: Royal Mail Orders API
   slug: royal-mail-orders-api
-- description: Reserved for OBA customers only.
+- baseURL: https://api.royalmail.net/shipping/v2
+  baseurl_source: declared
+  description: Reserved for OBA customers only.
   name: Royal Mail Returns API
   slug: royal-mail-returns-api
-- description: The Version API from Royal Mail — 1 operation(s) for version.
+- baseURL: https://api.royalmail.net/shipping/v2
+  baseurl_source: declared
+  description: The Version API from Royal Mail — 1 operation(s) for version.
   name: Royal Mail Version API
   slug: royal-mail-version-api
 artifact_total: 29
@@ -235,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png
 security:

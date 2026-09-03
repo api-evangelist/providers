@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 43 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Alerts API from Flock Safety — 3 operation(s) for alerts.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Alerts API from Flock Safety — 3 operation(s) for alerts.
   name: Flock Safety Alerts API
   slug: flock-safety-alerts-api
-- description: The CAD Events API from Flock Safety — 7 operation(s) for cad events.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The CAD Events API from Flock Safety — 7 operation(s) for cad events.
   name: Flock Safety CAD Events API
   slug: flock-safety-cad-events-api
-- description: The Custom Hotlists API from Flock Safety — 5 operation(s) for custom hotlists.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Custom Hotlists API from Flock Safety — 5 operation(s) for custom hotlists.
   name: Flock Safety Custom Hotlists API
   slug: flock-safety-custom-hotlists-api
-- description: The Devices API from Flock Safety — 3 operation(s) for devices.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Devices API from Flock Safety — 3 operation(s) for devices.
   name: Flock Safety Devices API
   slug: flock-safety-devices-api
-- description: The LPR Hotlist Alert Subscriptions API from Flock Safety — 2 operation(s) for lpr hotlist alert subscriptions.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The LPR Hotlist Alert Subscriptions API from Flock Safety — 2 operation(s) for lpr hotlist alert subscriptions.
   name: Flock Safety LPR Hotlist Alert Subscriptions API
   slug: flock-safety-lpr-hotlist-alert-subscriptions-api
-- description: The OAuth2 API from Flock Safety — 1 operation(s) for oauth2.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The OAuth2 API from Flock Safety — 1 operation(s) for oauth2.
   name: Flock Safety OAuth2 API
   slug: flock-safety-oauth2-api
-- description: The Plate Reads API from Flock Safety — 2 operation(s) for plate reads.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Plate Reads API from Flock Safety — 2 operation(s) for plate reads.
   name: Flock Safety Plate Reads API
   slug: flock-safety-plate-reads-api
-- description: The Tracked Subject Types API from Flock Safety — 2 operation(s) for tracked subject types.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Tracked Subject Types API from Flock Safety — 2 operation(s) for tracked subject types.
   name: Flock Safety Tracked Subject Types API
   slug: flock-safety-tracked-subject-types-api
-- description: The Tracked Subjects API from Flock Safety — 2 operation(s) for tracked subjects.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Tracked Subjects API from Flock Safety — 2 operation(s) for tracked subjects.
   name: Flock Safety Tracked Subjects API
   slug: flock-safety-tracked-subjects-api
-- description: The Vehicle Images API from Flock Safety — 1 operation(s) for vehicle images.
+- baseURL: https://api.flocksafety.com/api/v3
+  baseurl_source: declared
+  description: The Vehicle Images API from Flock Safety — 1 operation(s) for vehicle images.
   name: Flock Safety Vehicle Images API
   slug: flock-safety-vehicle-images-api
 artifact_total: 29
@@ -294,7 +314,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -304,7 +324,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 47.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,7 +336,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/screenshots/flock-safety-2026-07-25T214812.png
 security:

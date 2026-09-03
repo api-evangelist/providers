@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Retrieve the most popular BLS series identifiers
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Retrieve the most popular BLS series identifiers
   name: US Bureau of Labor Statistics Popular Series API
   slug: us-bureau-of-labor-statistics-popular-series-api
-- description: Discover and list available BLS surveys
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Discover and list available BLS surveys
   name: US Bureau of Labor Statistics Surveys API
   slug: us-bureau-of-labor-statistics-surveys-api
-- description: Retrieve time series data for BLS statistical series
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Retrieve time series data for BLS statistical series
   name: US Bureau of Labor Statistics Time Series API
   slug: us-bureau-of-labor-statistics-time-series-api
 artifact_total: 21
@@ -189,7 +195,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bureau-of-labor-statistics/refs/heads/main/screenshots/us-bureau-of-labor-statistics-2026-06-20T200548.png
 security:

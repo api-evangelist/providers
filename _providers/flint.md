@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Start and monitor background AI agent tasks on a Flint site.
+- baseURL: https://app.tryflint.com/api/v1
+  baseurl_source: declared
+  description: Start and monitor background AI agent tasks on a Flint site.
   name: Flint Agent Tasks API
   slug: flint-agent-tasks-api
 - description: Flint's official hosted remote MCP server. Four tools — list_sites, run_background_agent, check_background_agent_status and publish_site — let an MCP client discover Flint sites, run background design
@@ -286,7 +288,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -296,7 +298,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 62.9
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,7 +310,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,37 +45,59 @@ agentic_access:
   summary_line: 64 operations · 1 acting
 api_count: 18
 apis:
-- description: Index of HTTP application programming interfaces.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Index of HTTP application programming interfaces.
   name: APIs.io APIs API
   slug: apis-io-apis-api
-- description: The API Evangelist areas taxonomy — curated topic collections (authentication, webhooks, payments, …), each a scored provider index with its own site. Pro.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: The API Evangelist areas taxonomy — curated topic collections (authentication, webhooks, payments, …), each a scored provider index with its own site. Pro.
   name: APIs.io Areas API
   slug: apis-io-areas-api
-- description: First-class, per-type artifact collections (OpenAPI, AsyncAPI, Arazzo, Postman, JSON Schema, and more). Each path filters and normalizes one artifact type across all providers.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: First-class, per-type artifact collections (OpenAPI, AsyncAPI, Arazzo, Postman, JSON Schema, and more). Each path filters and normalizes one artifact type across all providers.
   name: APIs.io Artifact Types API
   slug: apis-io-artifact-types-api
-- description: Industry verticals grouping providers across the catalog.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Industry verticals grouping providers across the catalog.
   name: APIs.io Industries API
   slug: apis-io-industries-api
-- description: Demand-side intelligence — what ~5,800 companies (Fortune 1000 + API providers) build, buy, and hire for around APIs, data, and AI, derived from job postings, press, and engineering blogs. Discovery i
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Demand-side intelligence — what ~5,800 companies (Fortune 1000 + API providers) build, buy, and hire for around APIs, data, and AI, derived from job postings, press, and engineering blogs. Discovery i
   name: APIs.io Insights API
   slug: apis-io-insights-api
-- description: Organizations publishing APIs on the network.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Organizations publishing APIs on the network.
   name: APIs.io Providers API
   slug: apis-io-providers-api
-- description: 'The APIs.io API rating system — a 0–100 composite score, five bands, a trend marker, and six weighted facets measuring how complete, governed, and integration-ready each provider''s public API surface '
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: 'The APIs.io API rating system — a 0–100 composite score, five bands, a trend marker, and six weighted facets measuring how complete, governed, and integration-ready each provider''s public API surface '
   name: APIs.io Ratings API
   slug: apis-io-ratings-api
-- description: Geographic regions grouping providers across the catalog.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Geographic regions grouping providers across the catalog.
   name: APIs.io Regions API
   slug: apis-io-regions-api
-- description: Search using a cloud search engine.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Search using a cloud search engine.
   name: APIs.io Search API
   slug: apis-io-search-api
-- description: Decision-grade composites over the catalog — provider comparison, gap analysis, catalog change feed, and recommended-stack design. Pro.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: Decision-grade composites over the catalog — provider comparison, gap analysis, catalog change feed, and recommended-stack design. Pro.
   name: APIs.io Synthesis API
   slug: apis-io-synthesis-api
-- description: The tag taxonomy, with network-wide ranking metadata.
+- baseURL: https://apis.io/api/v1
+  baseurl_source: declared
+  description: The tag taxonomy, with network-wide ranking metadata.
   name: APIs.io Tags API
   slug: apis-io-tags-api
 - description: Any scored population of providers — a tag, industry, region, area, or VC portfolio — with the distribution, rankings, facet scores, and capability matrix that a Trend or Portfolio Report is built fro
@@ -635,9 +657,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
-screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
+screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-09-02T172139.png
 security:
 - kind: authentication
   name: Apis Io Authentication

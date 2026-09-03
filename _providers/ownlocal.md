@@ -34,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Print ads converted into digital ad units — create, list, retrieve, update and upload the source PDF for an ad.
+- baseURL: https://admin.austin.ownlocal.com
+  baseurl_source: declared
+  description: Print ads converted into digital ad units — create, list, retrieve, update and upload the source PDF for an ad.
   name: OwnLocal Ads API
   slug: ownlocal-ads-api
-- description: Local business (advertiser) records — create, list, retrieve, and attach logo/imagery.
+- baseURL: https://admin.austin.ownlocal.com
+  baseurl_source: declared
+  description: Local business (advertiser) records — create, list, retrieve, and attach logo/imagery.
   name: OwnLocal Businesses API
   slug: ownlocal-businesses-api
-- description: The OwnLocal business category and sub-category vocabulary used to classify businesses and filter ads.
+- baseURL: https://admin.austin.ownlocal.com
+  baseurl_source: declared
+  description: The OwnLocal business category and sub-category vocabulary used to classify businesses and filter ads.
   name: OwnLocal Categories API
   slug: ownlocal-categories-api
-- description: Performance reporting for ads and businesses — impressions, interaction breakdowns, leads, digital lift and search-rank history.
+- baseURL: https://admin.austin.ownlocal.com
+  baseurl_source: declared
+  description: Performance reporting for ads and businesses — impressions, interaction breakdowns, leads, digital lift and search-rank history.
   name: OwnLocal Reports Data API
   slug: ownlocal-reports-data-api-api
 artifact_total: 13
@@ -219,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:

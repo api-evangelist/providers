@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 65 operations · 31 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The authenticated account and logged-in user.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: The authenticated account and logged-in user.
   name: The San Francisco Compute Company Account API
   slug: the-san-francisco-compute-company-account-api
-- description: Deployment automations that maintain a fleet of instances, including spot deployments that buy capacity up to a maximum price.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Deployment automations that maintain a fleet of instances, including spot deployments that buy capacity up to a maximum price.
   name: The San Francisco Compute Company Deployments API
   slug: the-san-francisco-compute-company-deployments-api
-- description: The Feature Flags API from The San Francisco Compute Company — 2 operation(s) for feature flags.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: The Feature Flags API from The San Francisco Compute Company — 2 operation(s) for feature flags.
   name: The San Francisco Compute Company Feature Flags API
   slug: the-san-francisco-compute-company-feature-flags-api
-- description: Custom machine images for instances.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Custom machine images for instances.
   name: The San Francisco Compute Company Images API
   slug: the-san-francisco-compute-company-images-api
-- description: Browse available instance SKU property definitions.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Browse available instance SKU property definitions.
   name: The San Francisco Compute Company Instance SKU Catalog API
   slug: the-san-francisco-compute-company-instance-sku-catalog-api
-- description: The Instance SKUs API from The San Francisco Compute Company — 4 operation(s) for instance skus.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: The Instance SKUs API from The San Francisco Compute Company — 4 operation(s) for instance skus.
   name: The San Francisco Compute Company Instance SKUs API
   slug: the-san-francisco-compute-company-instance-skus-api
-- description: Reusable instance configuration.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Reusable instance configuration.
   name: The San Francisco Compute Company Instance Templates API
   slug: the-san-francisco-compute-company-instance-templates-api
-- description: Spin up instances in a capacity to use your available compute.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Spin up instances in a capacity to use your available compute.
   name: The San Francisco Compute Company Instances API
   slug: the-san-francisco-compute-company-instances-api
-- description: 'Read-only orderbook visibility: bid/ask spread, depth, open and filled orders, and historical fills, keyed on hardware requirements + delivery window.'
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: 'Read-only orderbook visibility: bid/ask spread, depth, open and filled orders, and historical fills, keyed on hardware requirements + delivery window.'
   name: The San Francisco Compute Company Orderbook API
   slug: the-san-francisco-compute-company-orderbook-api
-- description: 'Estimate an order before placing it: filled price, fee, and operational notices.'
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: 'Estimate an order before placing it: filled price, fee, and operational notices.'
   name: The San Francisco Compute Company Orders API
   slug: the-san-francisco-compute-company-orders-api
-- description: A bucket of owned compute balance over time.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: A bucket of owned compute balance over time.
   name: The San Francisco Compute Company Pools API
   slug: the-san-francisco-compute-company-pools-api
-- description: Market automations that maintain capacity by placing buy/sell orders.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Market automations that maintain capacity by placing buy/sell orders.
   name: The San Francisco Compute Company Procurements API
   slug: the-san-francisco-compute-company-procurements-api
-- description: Read-only access to users within the caller's organization.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Read-only access to users within the caller's organization.
   name: The San Francisco Compute Company Users API
   slug: the-san-francisco-compute-company-users-api
-- description: Resource containers scoped to an account.
+- baseURL: https://api.sfcompute.com/preview/v2
+  baseurl_source: declared
+  description: Resource containers scoped to an account.
   name: The San Francisco Compute Company Workspaces API
   slug: the-san-francisco-compute-company-workspaces-api
 artifact_total: 33
@@ -324,7 +352,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-san-francisco-compute-company/refs/heads/main/screenshots/the-san-francisco-compute-company-2026-08-17T082343.png
 security:

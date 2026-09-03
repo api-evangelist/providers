@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 41 operations · 24 acting
 api_count: 1
 apis:
-- description: 100 sample photo albums owned by users
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 100 sample photo albums owned by users
   name: JSONPlaceholder Albums API
   slug: jsonplaceholder-albums-api
-- description: 500 sample comments belonging to posts
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 500 sample comments belonging to posts
   name: JSONPlaceholder Comments API
   slug: jsonplaceholder-comments-api
-- description: 5000 sample photos belonging to albums
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 5000 sample photos belonging to albums
   name: JSONPlaceholder Photos API
   slug: jsonplaceholder-photos-api
-- description: 100 sample blog posts owned by users
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 100 sample blog posts owned by users
   name: JSONPlaceholder Posts API
   slug: jsonplaceholder-posts-api
-- description: 200 sample todo items owned by users
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 200 sample todo items owned by users
   name: JSONPlaceholder Todos API
   slug: jsonplaceholder-todos-api
-- description: 10 sample users with profile, address, and company metadata
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 10 sample users with profile, address, and company metadata
   name: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
 artifact_total: 65
@@ -352,7 +364,7 @@ score:
       marker_coverage: 85.7
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:

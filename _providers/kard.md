@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 59 operations · 33 acting
 api_count: 2
 apis:
-- description: The attributions API from Kard — 1 operation(s) for attributions.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The attributions API from Kard — 1 operation(s) for attributions.
   name: Kard attributions API
   slug: kard-attributions-api
-- description: The Files API from Kard — 2 operation(s) for files.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The Files API from Kard — 2 operation(s) for files.
   name: Kard Files API
   slug: kard-files-api
-- description: The notifications > Notifications API from Kard — 2 operation(s) for notifications > notifications.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The notifications > Notifications API from Kard — 2 operation(s) for notifications > notifications.
   name: Kard notifications > Notifications API
   slug: kard-notifications-notifications-api
-- description: The notifications > Subscriptions API from Kard — 2 operation(s) for notifications > subscriptions.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The notifications > Subscriptions API from Kard — 2 operation(s) for notifications > subscriptions.
   name: Kard notifications > Subscriptions API
   slug: kard-notifications-subscriptions-api
-- description: The Organizations API from Kard — 1 operation(s) for organizations.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The Organizations API from Kard — 1 operation(s) for organizations.
   name: Kard Organizations API
   slug: kard-organizations-api
-- description: The Organizations > Children API from Kard — 2 operation(s) for organizations > children.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The Organizations > Children API from Kard — 2 operation(s) for organizations > children.
   name: Kard Organizations > Children API
   slug: kard-organizations-children-api
-- description: The Organizations > ContentStrategies API from Kard — 2 operation(s) for organizations > contentstrategies.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The Organizations > ContentStrategies API from Kard — 2 operation(s) for organizations > contentstrategies.
   name: Kard Organizations > ContentStrategies API
   slug: kard-organizations-contentstrategies-api
-- description: The Organizations > Placements API from Kard — 2 operation(s) for organizations > placements.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The Organizations > Placements API from Kard — 2 operation(s) for organizations > placements.
   name: Kard Organizations > Placements API
   slug: kard-organizations-placements-api
-- description: The Ping API from Kard — 1 operation(s) for ping.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The Ping API from Kard — 1 operation(s) for ping.
   name: Kard Ping API
   slug: kard-ping-api
-- description: The rewards API from Kard — 9 operation(s) for rewards.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The rewards API from Kard — 9 operation(s) for rewards.
   name: Kard rewards API
   slug: kard-rewards-api
-- description: The transactions API from Kard — 7 operation(s) for transactions.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The transactions API from Kard — 7 operation(s) for transactions.
   name: Kard transactions API
   slug: kard-transactions-api
-- description: The users API from Kard — 5 operation(s) for users.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The users API from Kard — 5 operation(s) for users.
   name: Kard users API
   slug: kard-users-api
-- description: The users > attributions API from Kard — 4 operation(s) for users > attributions.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The users > attributions API from Kard — 4 operation(s) for users > attributions.
   name: Kard users > attributions API
   slug: kard-users-attributions-api
-- description: The users > Rewards API from Kard — 2 operation(s) for users > rewards.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The users > Rewards API from Kard — 2 operation(s) for users > rewards.
   name: Kard users > Rewards API
   slug: kard-users-rewards-api
-- description: The users > uploads API from Kard — 3 operation(s) for users > uploads.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The users > uploads API from Kard — 3 operation(s) for users > uploads.
   name: Kard users > uploads API
   slug: kard-users-uploads-api
-- description: The users > WebView API from Kard — 1 operation(s) for users > webview.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The users > WebView API from Kard — 1 operation(s) for users > webview.
   name: Kard users > WebView API
   slug: kard-users-webview-api
-- description: The API Reference API from Kard — 0 operation(s) for api reference.
+- baseURL: https://rewards-api.getkard.com
+  baseurl_source: declared
+  description: The API Reference API from Kard — 0 operation(s) for api reference.
   name: Kard API Reference API
   slug: kard-api-reference-api
 artifact_total: 41
@@ -325,7 +359,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -335,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,7 +387,7 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 52 operations · 39 acting
 api_count: 1
 apis:
-- description: Retrieve transactions, public profiles, transfer between accounts, and issue wallet addresses.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: Retrieve transactions, public profiles, transfer between accounts, and issue wallet addresses.
   name: Chimoney Account API
   slug: chimoney-account-api
-- description: 'Reference lookups: supported banks, assets, exchange rates, currency conversion, and bank account verification.'
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: 'Reference lookups: supported banks, assets, exchange rates, currency conversion, and bank account verification.'
   name: Chimoney Info API
   slug: chimoney-info-api
-- description: The Interledger API from Chimoney — 5 operation(s) for interledger.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: The Interledger API from Chimoney — 5 operation(s) for interledger.
   name: Chimoney Interledger API
   slug: chimoney-interledger-api
-- description: Create and manage multicurrency wallets and transfer between them.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: Create and manage multicurrency wallets and transfer between them.
   name: Chimoney MultiCurrency Wallets API
   slug: chimoney-multicurrency-wallets-api
-- description: Initiate and verify inbound payment (collection) requests.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: Initiate and verify inbound payment (collection) requests.
   name: Chimoney Payments API
   slug: chimoney-payments-api
-- description: Send money to banks, mobile money, airtime, gift cards, Chimoney wallets, Interac, and Interledger wallet addresses.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: Send money to banks, mobile money, airtime, gift cards, Chimoney wallets, Interac, and Interledger wallet addresses.
   name: Chimoney Payouts API
   slug: chimoney-payouts-api
-- description: Redeem issued Chimoney, airtime, gift cards, and mobile money.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: Redeem issued Chimoney, airtime, gift cards, and mobile money.
   name: Chimoney Redeem API
   slug: chimoney-redeem-api
-- description: Create and manage sub-accounts (wallet accounts) and communities under your organization.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: Create and manage sub-accounts (wallet accounts) and communities under your organization.
   name: Chimoney SubAccount API
   slug: chimoney-subaccount-api
-- description: List, look up, and transfer between Chimoney wallets.
+- baseURL: https://api.chimoney.io/v0.2
+  baseurl_source: declared
+  description: List, look up, and transfer between Chimoney wallets.
   name: Chimoney Wallet API
   slug: chimoney-wallet-api
 artifact_total: 26
@@ -209,7 +227,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/screenshots/chimoney-2026-07-25T205233.png
 security:

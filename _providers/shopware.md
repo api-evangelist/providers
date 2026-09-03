@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 26 operations · 15 acting
 api_count: 2
 apis:
-- description: Customer registration, login and profile management
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Customer registration, login and profile management
   name: Shopware Account API
   slug: shopware-account-api
-- description: High-throughput bulk upsert and delete operations
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: High-throughput bulk upsert and delete operations
   name: Shopware Bulk API
   slug: shopware-bulk-api
-- description: Manage the shopping cart and its line items
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Manage the shopping cart and its line items
   name: Shopware Cart API
   slug: shopware-cart-api
-- description: Manage the product category tree
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Manage the product category tree
   name: Shopware Category API
   slug: shopware-category-api
-- description: Complete the purchase workflow
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Complete the purchase workflow
   name: Shopware Checkout API
   slug: shopware-checkout-api
-- description: Manage customer accounts and addresses
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Manage customer accounts and addresses
   name: Shopware Customer API
   slug: shopware-customer-api
-- description: Fetch storefront navigation menus
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Fetch storefront navigation menus
   name: Shopware Navigation API
   slug: shopware-navigation-api
-- description: Access and manage orders and their line items
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Access and manage orders and their line items
   name: Shopware Order API
   slug: shopware-order-api
-- description: Create, read, update, and delete products and variants
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: Create, read, update, and delete products and variants
   name: Shopware Product API
   slug: shopware-product-api
-- description: DAL-powered search with filter, sort, and aggregation
+- baseURL: https://{your-shop-domain}/api
+  baseurl_source: declared
+  description: DAL-powered search with filter, sort, and aggregation
   name: Shopware Search API
   slug: shopware-search-api
 artifact_total: 37
@@ -290,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopware/refs/heads/main/screenshots/shopware-2026-06-20T193839.png
 security:

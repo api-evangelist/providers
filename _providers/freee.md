@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 42 operations · 18 acting
 api_count: 1
 apis:
-- description: Accounting account items / chart of accounts (勘定科目).
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Accounting account items / chart of accounts (勘定科目).
   name: freee Account Items API
   slug: freee-account-items-api
-- description: Time clocks (打刻) and work records (勤怠).
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Time clocks (打刻) and work records (勤怠).
   name: freee Attendance API
   slug: freee-attendance-api
-- description: freee companies (事業所) the authenticated user can access.
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: freee companies (事業所) the authenticated user can access.
   name: freee Companies API
   slug: freee-companies-api
-- description: Accounting deals / transactions (取引) - income and expense records.
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Accounting deals / transactions (取引) - income and expense records.
   name: freee Deals API
   slug: freee-deals-api
-- description: HR employees (従業員).
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: HR employees (従業員).
   name: freee Employees API
   slug: freee-employees-api
-- description: Authenticated HR user context.
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Authenticated HR user context.
   name: freee HR Users API
   slug: freee-hr-users-api
-- description: Issued invoices and quotations (請求書・見積書).
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Issued invoices and quotations (請求書・見積書).
   name: freee Invoices API
   slug: freee-invoices-api
-- description: Journals (仕訳帳), manual journals, and trial-balance reports.
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Journals (仕訳帳), manual journals, and trial-balance reports.
   name: freee Journals API
   slug: freee-journals-api
-- description: Trading partners / counterparties (取引先).
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Trading partners / counterparties (取引先).
   name: freee Partners API
   slug: freee-partners-api
-- description: Employee payroll statements (給与明細) and bonuses.
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Employee payroll statements (給与明細) and bonuses.
   name: freee Payroll API
   slug: freee-payroll-api
-- description: Tax codes (税区分) available to a company.
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Tax codes (税区分) available to a company.
   name: freee Taxes API
   slug: freee-taxes-api
-- description: Wallet transactions / statement lines (明細) and walletables (口座).
+- baseURL: https://api.freee.co.jp/api/1
+  baseurl_source: declared
+  description: Wallet transactions / statement lines (明細) and walletables (口座).
   name: freee Wallet Transactions API
   slug: freee-wallet-transactions-api
 artifact_total: 32
@@ -217,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/screenshots/freee-2026-07-25T215132.png
 security:

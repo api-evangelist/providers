@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: LSE operates its own SAML2 Shibboleth identity provider for staff, students and library resource access, registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp with the
@@ -54,7 +54,9 @@ apis:
 - description: LSE is a registered DataCite provider — member identifier lcqr, "London School of Economics", memberType consortium_organization, region EMEA, registered 2020-09-01, linked to ROR https://ror.org/0090
   name: LSE DOI Registration (DataCite)
   slug: datacite-doi
-- description: IMS Global Learning Tools Interoperability 1.3 / LTI Advantage platform endpoints.
+- baseURL: https://gate.library.lse.ac.uk/idp/shibboleth
+  baseurl_source: declared
+  description: IMS Global Learning Tools Interoperability 1.3 / LTI Advantage platform endpoints.
   name: London School of Economics and Political Science LTI API
   slug: lse-lti-api
 artifact_total: 15
@@ -197,7 +199,7 @@ score:
     catalog_gap: 37.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -207,7 +209,7 @@ score:
     discoverability: 68.5
     governance: 15.2
     operational_transparency: 21.1
-  previous_composite: 35.5
+  previous_composite: 35.8
   provenance:
     conformance: first-party
     contracts:
@@ -222,7 +224,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/screenshots/lse-2026-06-20T184742.png
 security:

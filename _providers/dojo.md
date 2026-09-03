@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -33,61 +45,99 @@ agentic_access:
   summary_line: 75 operations · 52 acting
 api_count: 5
 apis:
-- description: The Areas API from Dojo — 1 operation(s) for areas.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Areas API from Dojo — 1 operation(s) for areas.
   name: Dojo Areas API
   slug: dojo-areas-api
-- description: Register your REST and WebSockets endpoints.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: Register your REST and WebSockets endpoints.
   name: Dojo Capabilities API
   slug: dojo-capabilities-api
-- description: 'Allows you to capture the full payment amount or part of the amount. **Documentation**: [Captures](../../payments/manage-payments/capture)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Allows you to capture the full payment amount or part of the amount. **Documentation**: [Captures](../../payments/manage-payments/capture)'
   name: Dojo Captures API
   slug: dojo-captures-api
-- description: Allows to create and manage a customer of your business.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: Allows to create and manage a customer of your business.
   name: Dojo Customers API
   slug: dojo-customers-api
-- description: The Events API from Dojo — 1 operation(s) for events.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Events API from Dojo — 1 operation(s) for events.
   name: Dojo Events API
   slug: dojo-events-api
-- description: The Flows API from Dojo — 2 operation(s) for flows.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Flows API from Dojo — 2 operation(s) for flows.
   name: Dojo Flows API
   slug: dojo-flows-api
-- description: The Orders API from Dojo — 7 operation(s) for orders.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Orders API from Dojo — 7 operation(s) for orders.
   name: Dojo Orders API
   slug: dojo-orders-api
-- description: The Parties API from Dojo — 3 operation(s) for parties.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Parties API from Dojo — 3 operation(s) for parties.
   name: Dojo Parties API
   slug: dojo-parties-api
-- description: 'Allows you to take and manage payments. **Documentation**: [Payment intents](../../payments/manage-payments/payment-intent)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Allows you to take and manage payments. **Documentation**: [Payment intents](../../payments/manage-payments/payment-intent)'
   name: Dojo Payment intents API
   slug: dojo-payment-intents-api
-- description: 'Allows you to create a refund for a captured payment. **Documentation**: [Refunds](/payments/manage-payments/cancelling-payments/refund)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Allows you to create a refund for a captured payment. **Documentation**: [Refunds](/payments/manage-payments/cancelling-payments/refund)'
   name: Dojo Refunds API
   slug: dojo-refunds-api
-- description: The Reservations API from Dojo — 3 operation(s) for reservations.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Reservations API from Dojo — 3 operation(s) for reservations.
   name: Dojo Reservations API
   slug: dojo-reservations-api
-- description: 'Allows you to create a reversal for payments. **Documentation**: [Reversal](../../payments/manage-payments/cancelling-payments/reversal)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Allows you to create a reversal for payments. **Documentation**: [Reversal](../../payments/manage-payments/cancelling-payments/reversal)'
   name: Dojo Reversal API
   slug: dojo-reversal-api
-- description: 'Allows you to setup a card for future payments. **Documentation**: [Setup intent](../payments/manage-payments/setup-intent)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Allows you to setup a card for future payments. **Documentation**: [Setup intent](../payments/manage-payments/setup-intent)'
   name: Dojo Setup intents API
   slug: dojo-setup-intents-api
-- description: The Tables API from Dojo — 1 operation(s) for tables.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: The Tables API from Dojo — 1 operation(s) for tables.
   name: Dojo Tables API
   slug: dojo-tables-api
-- description: Allows you to create a terminal secret value.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: Allows you to create a terminal secret value.
   name: Dojo Tap to Pay on iPhone API
   slug: dojo-tap-to-pay-on-iphone-api
-- description: Allows you to manage sessions on the terminal.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: Allows you to manage sessions on the terminal.
   name: Dojo Terminal sessions API
   slug: dojo-terminal-sessions-api
-- description: 'Allows you to manage payments on the terminal. **Documentation**: [Terminals](../payments/accept-payments/in-person-payments/pay-at-counter/terminals)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Allows you to manage payments on the terminal. **Documentation**: [Terminals](../payments/accept-payments/in-person-payments/pay-at-counter/terminals)'
   name: Dojo Terminals API
   slug: dojo-terminals-api
-- description: Allows you to take and manage payments.
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: Allows you to take and manage payments.
   name: Dojo Transactions API
   slug: dojo-transactions-api
-- description: 'Webhooks notify you when a specific event has occurred. **Documentation**: [Webhooks](../../development-resources/webhooks)'
+- baseURL: https://api.dojo.tech
+  baseurl_source: declared
+  description: 'Webhooks notify you when a specific event has occurred. **Documentation**: [Webhooks](../../development-resources/webhooks)'
   name: Dojo Webhooks API
   slug: dojo-webhooks-api
 artifact_total: 30
@@ -293,7 +343,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -303,7 +353,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 54.3
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +371,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:

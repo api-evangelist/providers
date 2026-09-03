@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Data Transfer v2.0 provides raw, event-level reporting data from Campaign Manager 360 beyond what is available through standard reporting. Data is delivered to Google Cloud Storage as CSV files for ad
   name: Campaign Manager 360 Data Transfer v2.0
   slug: campaign-manager-360-data-transfer-v20
-- description: Manage ad configurations within campaigns. Ads define the creative content, delivery schedules, targeting rules, and placement assignments that determine how and where advertising is served to users.
+- baseURL: https://dfareporting.googleapis.com
+  baseurl_source: declared
+  description: Manage ad configurations within campaigns. Ads define the creative content, delivery schedules, targeting rules, and placement assignments that determine how and where advertising is served to users.
   name: Google Campaign Manager Ads API
   slug: google-campaign-manager-ads-api
-- description: Manage advertising campaigns. Campaigns serve as top-level organizational containers that group ads, placements, and creatives under a single advertiser with shared start and end dates, budgets, and t
+- baseURL: https://dfareporting.googleapis.com
+  baseurl_source: declared
+  description: Manage advertising campaigns. Campaigns serve as top-level organizational containers that group ads, placements, and creatives under a single advertiser with shared start and end dates, budgets, and t
   name: Google Campaign Manager Campaigns API
   slug: google-campaign-manager-campaigns-api
-- description: Manage placements representing ad inventory on publisher sites. Placements define the size, format, pricing, and site location where ads can be served, and generate the ad tags that publishers install
+- baseURL: https://dfareporting.googleapis.com
+  baseurl_source: declared
+  description: Manage placements representing ad inventory on publisher sites. Placements define the size, format, pricing, and site location where ads can be served, and generate the ad tags that publishers install
   name: Google Campaign Manager Placements API
   slug: google-campaign-manager-placements-api
-- description: Create, configure, and run reports to analyze campaign performance. Reports support multiple types including standard, reach, path to conversion, cross-dimension reach, floodlight, and cross-media rea
+- baseURL: https://dfareporting.googleapis.com
+  baseurl_source: declared
+  description: Create, configure, and run reports to analyze campaign performance. Reports support multiple types including standard, reach, path to conversion, cross-dimension reach, floodlight, and cross-media rea
   name: Google Campaign Manager Reports API
   slug: google-campaign-manager-reports-api
 artifact_total: 230
@@ -977,7 +985,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
 security:

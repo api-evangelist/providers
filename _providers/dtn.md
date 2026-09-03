@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -46,298 +46,494 @@ apis:
 - description: DTN Point Forecast API delivers high-quality weather forecasts for specified locations. Provides hourly and daily forecast data for agriculture, aviation, shipping, and utilities use cases. Uses the s
   name: DTN Point Forecast API
   slug: dtn-point-forecast-api
-- description: The Account API from DTN — 2 operation(s) for account.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Account API from DTN — 2 operation(s) for account.
   name: DTN Account API
   slug: dtn-account-api
-- description: The Agency API from DTN — 5 operation(s) for agency.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Agency API from DTN — 5 operation(s) for agency.
   name: DTN Agency API
   slug: dtn-agency-api
-- description: The alerts API from DTN — 1 operation(s) for alerts.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The alerts API from DTN — 1 operation(s) for alerts.
   name: DTN Alerts API
   slug: dtn-alerts-api
-- description: The API Endpoints API from DTN — 4 operation(s) for api endpoints.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The API Endpoints API from DTN — 4 operation(s) for api endpoints.
   name: DTN API Endpoints API
   slug: dtn-api-endpoints-api
-- description: Endpoints for the api/catalog resources
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Endpoints for the api/catalog resources
   name: DTN AP Is API
   slug: dtn-apis-api
-- description: The Archive API from DTN — 2 operation(s) for archive.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Archive API from DTN — 2 operation(s) for archive.
   name: DTN Archive API
   slug: dtn-archive-api
-- description: Atmospheric Soundings
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Atmospheric Soundings
   name: DTN Atmospheric Soundings API
   slug: dtn-atmospheric-soundings-api
-- description: The Auth API from DTN — 1 operation(s) for auth.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Auth API from DTN — 1 operation(s) for auth.
   name: DTN Auth API
   slug: dtn-auth-api
-- description: Returns layers and layer groups.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns layers and layer groups.
   name: DTN Catalog API
   slug: dtn-catalog-api
-- description: The Codes API from DTN — 3 operation(s) for codes.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Codes API from DTN — 3 operation(s) for codes.
   name: DTN Codes API
   slug: dtn-codes-api
-- description: On demand Convective SIGMETs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Convective SIGMETs via API
   name: DTN Convective SIGMET API
   slug: dtn-convective-sigmet-api
-- description: The Coverage Daily API from DTN — 1 operation(s) for coverage daily.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Coverage Daily API from DTN — 1 operation(s) for coverage daily.
   name: DTN Coverage Daily API
   slug: dtn-coverage-daily-api
-- description: Current weather observations and conditions
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Current weather observations and conditions
   name: DTN Current Conditions API
   slug: dtn-current-conditions-api
-- description: Consists of http methods for managing customer vessel subscriptions.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Consists of http methods for managing customer vessel subscriptions.
   name: DTN Customer Vessel Subscription API
   slug: dtn-customervesselsubscription-api
-- description: Cacheable route geometry endpoints (Mapbox Directions API)
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Cacheable route geometry endpoints (Mapbox Directions API)
   name: DTN Directions API
   slug: dtn-directions-api
-- description: The DTN API from DTN — 3 operation(s) for dtn.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The DTN API from DTN — 3 operation(s) for dtn.
   name: DTN DTN API
   slug: dtn-dtn-api
-- description: The DTN Tropical Cyclone API API from DTN — 1 operation(s) for dtn tropical cyclone api.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The DTN Tropical Cyclone API API from DTN — 1 operation(s) for dtn tropical cyclone api.
   name: DTN DTN Tropical Cyclone API
   slug: dtn-dtn-tropical-cyclone-api-api
-- description: The the Agency Bulletin API (ABA) is designed around two major endpoints, each offering unique functionalities tailored to your diverse weather bulletin data needs. Whether you require forecast and hi
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The the Agency Bulletin API (ABA) is designed around two major endpoints, each offering unique functionalities tailored to your diverse weather bulletin data needs. Whether you require forecast and hi
   name: DTN Endpoints API
   slug: dtn-endpoints-api
-- description: The Event Geojson API from DTN — 1 operation(s) for event geojson.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Event Geojson API from DTN — 1 operation(s) for event geojson.
   name: DTN Event Geojson API
   slug: dtn-event-geojson-api
-- description: The Event Predictions API from DTN — 1 operation(s) for event predictions.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Event Predictions API from DTN — 1 operation(s) for event predictions.
   name: DTN Event Predictions API
   slug: dtn-event-predictions-api
-- description: Excessive Rainfall Outlook
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Excessive Rainfall Outlook
   name: DTN Excessive Rainfall Outlook API
   slug: dtn-excessive-rainfall-outlook-api
-- description: Weather forecast data (hourly and daily)
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Weather forecast data (hourly and daily)
   name: DTN Forecasts API
   slug: dtn-forecasts-api
-- description: Returns location information or geographic coordinates from a geocoding service. Supports forward and reverse geocoding.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns location information or geographic coordinates from a geocoding service. Supports forward and reverse geocoding.
   name: DTN Geocoder API
   slug: dtn-geocoder-api
-- description: The Geographic Areas API from DTN — 2 operation(s) for geographic areas.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Geographic Areas API from DTN — 2 operation(s) for geographic areas.
   name: DTN Geographic Areas API
   slug: dtn-geographic-areas-api
-- description: The Get Eei Forecast API from DTN — 2 operation(s) for get eei forecast.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Get Eei Forecast API from DTN — 2 operation(s) for get eei forecast.
   name: DTN Get Eei Forecast API
   slug: dtn-get-eei-forecast-api
-- description: Utility endpoints used by K8s
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Utility endpoints used by K8s
   name: DTN Health API
   slug: dtn-health-api
-- description: The Health Check API from DTN — 1 operation(s) for health check.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Health Check API from DTN — 1 operation(s) for health check.
   name: DTN Health Check API
   slug: dtn-health-check-api
-- description: The History API from DTN — 4 operation(s) for history.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The History API from DTN — 4 operation(s) for history.
   name: DTN History API
   slug: dtn-history-api
-- description: On demand Hiwc via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Hiwc via API
   name: DTN Hiwc API
   slug: dtn-hiwc-api
-- description: The Hourly Predictions API from DTN — 1 operation(s) for hourly predictions.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Hourly Predictions API from DTN — 1 operation(s) for hourly predictions.
   name: DTN Hourly Predictions API
   slug: dtn-hourly-predictions-api
-- description: On demand Icing via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Icing via API
   name: DTN Icing API
   slug: dtn-icing-api
-- description: Allows generation of custom tailored map images
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Allows generation of custom tailored map images
   name: DTN Image API
   slug: dtn-image-api
-- description: The Information API from DTN — 5 operation(s) for information.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Information API from DTN — 5 operation(s) for information.
   name: DTN Information API
   slug: dtn-information-api
-- description: On demand JetStreamAxis via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand JetStreamAxis via API
   name: DTN Jet Stream Axis API
   slug: dtn-jetstreamaxis-api
-- description: The Land Crop API from DTN — 1 operation(s) for land crop.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Land Crop API from DTN — 1 operation(s) for land crop.
   name: DTN Land Crop API
   slug: dtn-land-crop-api
-- description: The Land Details API from DTN — 5 operation(s) for land details.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Land Details API from DTN — 5 operation(s) for land details.
   name: DTN Land Details API
   slug: dtn-land-details-api
-- description: The Land Geospatial API from DTN — 2 operation(s) for land geospatial.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Land Geospatial API from DTN — 2 operation(s) for land geospatial.
   name: DTN Land Geospatial API
   slug: dtn-land-geospatial-api
-- description: The Land Search API from DTN — 2 operation(s) for land search.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Land Search API from DTN — 2 operation(s) for land search.
   name: DTN Land Search API
   slug: dtn-land-search-api
-- description: Returns layer legends in either html or image format.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns layer legends in either html or image format.
   name: DTN Legends API
   slug: dtn-legends-api
-- description: Relates to lightning strike products
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Relates to lightning strike products
   name: DTN Lightning API
   slug: dtn-lightning-api
-- description: Local Storm Reports
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Local Storm Reports
   name: DTN Local Storm Reports API
   slug: dtn-local-storm-reports-api
-- description: Logistics-focused pavement data endpoints
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Logistics-focused pavement data endpoints
   name: DTN Logistics API
   slug: dtn-logistics-api
-- description: Mesoscale Discussions
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Mesoscale Discussions
   name: DTN Mesoscale Discussions API
   slug: dtn-mesoscale-discussions-api
-- description: Returns layer metadata such as zoom levels, bounding boxes, etc.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns layer metadata such as zoom levels, bounding boxes, etc.
   name: DTN Metadata API
   slug: dtn-metadata-api
-- description: On demand METARs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand METARs via API
   name: DTN METAR API
   slug: dtn-metar-api
-- description: World wide NOTAMS available from various sources, FAA SWIM, EAD and others. Using a hierarchy to avoid duplicated NOTAMS
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: World wide NOTAMS available from various sources, FAA SWIM, EAD and others. Using a hierarchy to avoid duplicated NOTAMS
   name: DTN NOTAM API
   slug: dtn-notam-api
-- description: On demand Nowcast via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Nowcast via API
   name: DTN Nowcast API
   slug: dtn-nowcast-api
-- description: Historical weather observation data
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Historical weather observation data
   name: DTN Observations API
   slug: dtn-observations-api
-- description: The Option Series API from DTN — 1 operation(s) for option series.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Option Series API from DTN — 1 operation(s) for option series.
   name: DTN Option Series API
   slug: dtn-option-series-api
-- description: The Order API from DTN — 1 operation(s) for order.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Order API from DTN — 1 operation(s) for order.
   name: DTN Order API
   slug: dtn-order-api
-- description: The Orders API from DTN — 3 operation(s) for orders.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Orders API from DTN — 3 operation(s) for orders.
   name: DTN Orders API
   slug: dtn-orders-api
-- description: Convective and Fire Outlooks
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Convective and Fire Outlooks
   name: DTN Outlooks API
   slug: dtn-outlooks-api
-- description: On demand Ozone via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Ozone via API
   name: DTN Ozone API
   slug: dtn-ozone-api
-- description: The PADD Daily API from DTN — 1 operation(s) for padd daily.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The PADD Daily API from DTN — 1 operation(s) for padd daily.
   name: DTN PADD Daily API
   slug: dtn-padd-daily-api
-- description: This API offers climatological data for any numerical month and day, including leap day (February 29). It’s possible to aggregate certain parameters over multiple days. To request an aggregation, just
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: This API offers climatological data for any numerical month and day, including leap day (February 29). It’s possible to aggregate certain parameters over multiple days. To request an aggregation, just
   name: DTN Parameters API
   slug: dtn-parameters-api
-- description: Pavement condition data endpoints
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Pavement condition data endpoints
   name: DTN Pavement Conditions API
   slug: dtn-pavement-conditions-api
-- description: On demand PIREPS via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand PIREPS via API
   name: DTN PIREP API
   slug: dtn-pirep-api
-- description: The Portfolios API from DTN — 2 operation(s) for portfolios.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Portfolios API from DTN — 2 operation(s) for portfolios.
   name: DTN Portfolios API
   slug: dtn-portfolios-api
-- description: List of possible FIR names that may be used with firNames parameter for SIGMET requests via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: List of possible FIR names that may be used with firNames parameter for SIGMET requests via API
   name: DTN Possible SIGMET FIR names API
   slug: dtn-possible-sigmet-fir-names-api
-- description: Radar-based precipitation forecasts
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Radar-based precipitation forecasts
   name: DTN Precipitation API
   slug: dtn-precipitation-api
-- description: The Predictions API from DTN — 3 operation(s) for predictions.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Predictions API from DTN — 3 operation(s) for predictions.
   name: DTN Predictions API
   slug: dtn-predictions-api
-- description: Energy Sales & Marketing Pricing API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Energy Sales & Marketing Pricing API
   name: DTN Pricing API
   slug: dtn-pricing-api
-- description: The Producer Details API from DTN — 2 operation(s) for producer details.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Producer Details API from DTN — 2 operation(s) for producer details.
   name: DTN Producer Details API
   slug: dtn-producer-details-api
-- description: The Producer Relationships API from DTN — 4 operation(s) for producer relationships.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Producer Relationships API from DTN — 4 operation(s) for producer relationships.
   name: DTN Producer Relationships API
   slug: dtn-producer-relationships-api
-- description: The Producer Search API from DTN — 3 operation(s) for producer search.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Producer Search API from DTN — 3 operation(s) for producer search.
   name: DTN Producer Search API
   slug: dtn-producer-search-api
-- description: The Quotes API from DTN — 3 operation(s) for quotes.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Quotes API from DTN — 3 operation(s) for quotes.
   name: DTN Quotes API
   slug: dtn-quotes-api
-- description: Quantitative Volcanic Ash (QVA) data ΓÇö ash cloud polygons, deterministic and probabilistic ash concentration forecasts, and active volcano listings.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Quantitative Volcanic Ash (QVA) data ΓÇö ash cloud polygons, deterministic and probabilistic ash concentration forecasts, and active volcano listings.
   name: DTN QVA API
   slug: dtn-qva-api
-- description: The Rack Daily API from DTN — 1 operation(s) for rack daily.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Rack Daily API from DTN — 1 operation(s) for rack daily.
   name: DTN Rack Daily API
   slug: dtn-rack-daily-api
-- description: Relates to NIDS radar products
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Relates to NIDS radar products
   name: DTN Radar Products API
   slug: dtn-radar-products-api
-- description: The Region API from DTN — 1 operation(s) for region.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Region API from DTN — 1 operation(s) for region.
   name: DTN Region API
   slug: dtn-region-api
-- description: The Segments API from DTN — 2 operation(s) for segments.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Segments API from DTN — 2 operation(s) for segments.
   name: DTN Segments API
   slug: dtn-segments-api
-- description: Relates to text-based weather products
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Relates to text-based weather products
   name: DTN Server Health API
   slug: dtn-server-health-api
-- description: The Service Area Geojson API from DTN — 1 operation(s) for service area geojson.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Service Area Geojson API from DTN — 1 operation(s) for service area geojson.
   name: DTN Service Area Geojson API
   slug: dtn-service-area-geojson-api
-- description: On demand Sierra (IFR) AIRMETs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Sierra (IFR) AIRMETs via API
   name: DTN Sierra (IFR) AIRMET API
   slug: dtn-sierra-ifr-airmet-api
-- description: On demand SIGMETs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand SIGMETs via API
   name: DTN SIGMET API
   slug: dtn-sigmet-api
-- description: The Similar Storms API from DTN — 1 operation(s) for similar storms.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Similar Storms API from DTN — 1 operation(s) for similar storms.
   name: DTN Similar Storms API
   slug: dtn-similar-storms-api
-- description: Space Weather Prediction Center (SWPC) NOAA Scales data via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Space Weather Prediction Center (SWPC) NOAA Scales data via API
   name: DTN Space Weather API
   slug: dtn-space-weather-api
-- description: Special Weather Statements
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Special Weather Statements
   name: DTN Special Weather Statements API
   slug: dtn-special-weather-statements-api
-- description: Weather station metadata
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Weather station metadata
   name: DTN Stations API
   slug: dtn-stations-api
-- description: The Strikes API from DTN — 1 operation(s) for strikes.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Strikes API from DTN — 1 operation(s) for strikes.
   name: DTN Strikes API
   slug: dtn-strikes-api
-- description: Returns layer styles as defined by the MapBox Style Specification.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns layer styles as defined by the MapBox Style Specification.
   name: DTN Styles API
   slug: dtn-styles-api
-- description: The Supplier Terminal Monthly Counts API from DTN — 1 operation(s) for supplier terminal monthly counts.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Supplier Terminal Monthly Counts API from DTN — 1 operation(s) for supplier terminal monthly counts.
   name: DTN Supplier Terminal Monthly Counts API
   slug: dtn-supplier-terminal-monthly-counts-api
-- description: On demand TAFs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand TAFs via API
   name: DTN TAF API
   slug: dtn-taf-api
-- description: On demand Tango (Turbulence) AIRMETs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Tango (Turbulence) AIRMETs via API
   name: DTN Tango (Turbulence) AIRMET API
   slug: dtn-tango-turbulence-airmet-api
-- description: On demand Thunderstorms via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Thunderstorms via API
   name: DTN Thunderstorm API
   slug: dtn-thunderstorm-api
-- description: 'Returns layer tiles in either raster or vector format. ## Token passing methods <table> <tr> <th></th> <th>Authorization header</td> <th>Token query parameter</td> </tr> <tr> <td><b>Security</b></td> '
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: 'Returns layer tiles in either raster or vector format. ## Token passing methods <table> <tr> <th></th> <th>Authorization header</td> <th>Token query parameter</td> </tr> <tr> <td><b>Security</b></td> '
   name: DTN Tiles API
   slug: dtn-tiles-api
-- description: Returns each timestamp for each of the layers the system has tiles for.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns each timestamp for each of the layers the system has tiles for.
   name: DTN Timestamps API
   slug: dtn-timestamps-api
-- description: Returns handlebar templates to be used for displaying tooltips.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns handlebar templates to be used for displaying tooltips.
   name: DTN Tooltip templates API
   slug: dtn-tooltip-templates-api
-- description: Returns tooltips in either application/json or text/html from a certain location. When using the API from a browser, the recommended method is <b>Token query parameter</b> since it delivers higher thr
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Returns tooltips in either application/json or text/html from a certain location. When using the API from a browser, the recommended method is <b>Token query parameter</b> since it delivers higher thr
   name: DTN Tooltips API
   slug: dtn-tooltips-api
-- description: Tropical Cyclones
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Tropical Cyclones
   name: DTN Tropical Cyclones API
   slug: dtn-tropical-cyclones-api
-- description: Tropical Events
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Tropical Events
   name: DTN Tropical Events API
   slug: dtn-tropical-events-api
-- description: On demand Turbulence via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Turbulence via API
   name: DTN Turbulence API
   slug: dtn-turbulence-api
-- description: Energy Sales & Marketing Users API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Energy Sales & Marketing Users API
   name: DTN Users API
   slug: dtn-users-api
-- description: Warnings
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Warnings
   name: DTN Warnings API
   slug: dtn-warnings-api
-- description: Watches
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: Watches
   name: DTN Watches API
   slug: dtn-watches-api
-- description: The Weather Events API from DTN — 1 operation(s) for weather events.
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: The Weather Events API from DTN — 1 operation(s) for weather events.
   name: DTN Weather Events API
   slug: dtn-weather-events-api
-- description: On demand Winds Aloft data via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Winds Aloft data via API
   name: DTN Winds Aloft API
   slug: dtn-winds-aloft-api
-- description: On demand Zulu (Icing) AIRMETs via API
+- baseURL: https://weather.api.dtn.com
+  baseurl_source: declared
+  description: On demand Zulu (Icing) AIRMETs via API
   name: DTN Zulu (Icing) AIRMET API
   slug: dtn-zulu-icing-airmet-api
 artifact_total: 149
@@ -670,7 +866,7 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -680,7 +876,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -698,7 +894,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

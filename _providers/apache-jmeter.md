@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -46,13 +46,19 @@ apis:
 - description: JMeter command-line interface for running load tests in non-GUI mode for CI/CD integration, including options for test plan execution, result reporting, and distributed testing.
   name: Apache JMeter CLI
   slug: cli
-- description: Test results access
+- baseURL: http://localhost:4445
+  baseurl_source: spec
+  description: Test results access
   name: Apache JMeter Results API
   slug: apache-jmeter-results-api
-- description: Test status and monitoring
+- baseURL: http://localhost:4445
+  baseurl_source: spec
+  description: Test status and monitoring
   name: Apache JMeter Status API
   slug: apache-jmeter-status-api
-- description: Test execution management
+- baseURL: http://localhost:4445
+  baseurl_source: spec
+  description: Test execution management
   name: Apache JMeter Tests API
   slug: apache-jmeter-tests-api
 artifact_total: 44
@@ -294,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/screenshots/apache-jmeter-2026-06-20T172112.png
 security:

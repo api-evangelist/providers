@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 36 operations · 18 acting
 api_count: 1
 apis:
-- description: The Audit Service API from Spot by NetApp — 3 operation(s) for audit service.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Audit Service API from Spot by NetApp — 3 operation(s) for audit service.
   name: Spot by NetApp Audit Service API
   slug: spot-by-netapp-audit-service-api
-- description: The Create an API Token API from Spot by NetApp — 1 operation(s) for create an api token.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Create an API Token API from Spot by NetApp — 1 operation(s) for create an api token.
   name: Spot by NetApp Create an API Token API
   slug: spot-by-netapp-create-an-api-token-api
-- description: The Elastigroup AWS API from Spot by NetApp — 6 operation(s) for elastigroup aws.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Elastigroup AWS API from Spot by NetApp — 6 operation(s) for elastigroup aws.
   name: Spot by NetApp Elastigroup AWS API
   slug: spot-by-netapp-elastigroup-aws-api
-- description: The Elastigroup Azure Spot VMs API from Spot by NetApp — 2 operation(s) for elastigroup azure spot vms.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Elastigroup Azure Spot VMs API from Spot by NetApp — 2 operation(s) for elastigroup azure spot vms.
   name: Spot by NetApp Elastigroup Azure Spot VMs API
   slug: spot-by-netapp-elastigroup-azure-spot-vms-api
-- description: The Elastigroup GCP API from Spot by NetApp — 2 operation(s) for elastigroup gcp.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Elastigroup GCP API from Spot by NetApp — 2 operation(s) for elastigroup gcp.
   name: Spot by NetApp Elastigroup GCP API
   slug: spot-by-netapp-elastigroup-gcp-api
-- description: The Health Check Service API from Spot by NetApp — 1 operation(s) for health check service.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Health Check Service API from Spot by NetApp — 1 operation(s) for health check service.
   name: Spot by NetApp Health Check Service API
   slug: spot-by-netapp-health-check-service-api
-- description: The Insights Service API from Spot by NetApp — 1 operation(s) for insights service.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Insights Service API from Spot by NetApp — 1 operation(s) for insights service.
   name: Spot by NetApp Insights Service API
   slug: spot-by-netapp-insights-service-api
-- description: The Notification Subscription Service API from Spot by NetApp — 1 operation(s) for notification subscription service.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Notification Subscription Service API from Spot by NetApp — 1 operation(s) for notification subscription service.
   name: Spot by NetApp Notification Subscription Service API
   slug: spot-by-netapp-notification-subscription-service-api
-- description: The Ocean Automatic Rightsizing API from Spot by NetApp — 1 operation(s) for ocean automatic rightsizing.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Ocean Automatic Rightsizing API from Spot by NetApp — 1 operation(s) for ocean automatic rightsizing.
   name: Spot by NetApp Ocean Automatic Rightsizing API
   slug: spot-by-netapp-ocean-automatic-rightsizing-api
-- description: The Ocean AWS API from Spot by NetApp — 3 operation(s) for ocean aws.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: The Ocean AWS API from Spot by NetApp — 3 operation(s) for ocean aws.
   name: Spot by NetApp Ocean AWS API
   slug: spot-by-netapp-ocean-aws-api
 artifact_total: 46
@@ -323,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/screenshots/spot-by-netapp-2026-06-20T194351.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 81 operations · 31 acting
 api_count: 5
 apis:
-- description: User address management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: User address management
   name: SAP Commerce Cloud Addresses API
   slug: sap-commerce-cloud-addresses-api
-- description: Customer service agent operations
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Customer service agent operations
   name: SAP Commerce Cloud Agents API
   slug: sap-commerce-cloud-agents-api
-- description: Cache management operations
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Cache management operations
   name: SAP Commerce Cloud Cache API
   slug: sap-commerce-cloud-cache-api
-- description: Shopping cart management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Shopping cart management
   name: SAP Commerce Cloud Cart API
   slug: sap-commerce-cloud-cart-api
-- description: Cart emulation and management on behalf of customers
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Cart emulation and management on behalf of customers
   name: SAP Commerce Cloud Carts API
   slug: sap-commerce-cloud-carts-api
-- description: Catalog and category browsing
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Catalog and category browsing
   name: SAP Commerce Cloud Catalogs API
   slug: sap-commerce-cloud-catalogs-api
-- description: Category content management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Category content management
   name: SAP Commerce Cloud Categories API
   slug: sap-commerce-cloud-categories-api
-- description: Checkout and payment operations
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Checkout and payment operations
   name: SAP Commerce Cloud Checkout API
   slug: sap-commerce-cloud-checkout-api
-- description: Product classification and attributes
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Product classification and attributes
   name: SAP Commerce Cloud Classifications API
   slug: sap-commerce-cloud-classifications-api
-- description: System configuration management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: System configuration management
   name: SAP Commerce Cloud Configuration API
   slug: sap-commerce-cloud-configuration-api
-- description: User consent management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: User consent management
   name: SAP Commerce Cloud Consents API
   slug: sap-commerce-cloud-consents-api
-- description: CronJob management and execution
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: CronJob management and execution
   name: SAP Commerce Cloud CronJobs API
   slug: sap-commerce-cloud-cronjobs-api
-- description: Customer lookup and 360 view
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Customer lookup and 360 view
   name: SAP Commerce Cloud Customers API
   slug: sap-commerce-cloud-customers-api
-- description: System health and readiness checks
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: System health and readiness checks
   name: SAP Commerce Cloud Health API
   slug: sap-commerce-cloud-health-api
-- description: Media and image management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Media and image management
   name: SAP Commerce Cloud Media API
   slug: sap-commerce-cloud-media-api
-- description: OData service metadata
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: OData service metadata
   name: SAP Commerce Cloud Metadata API
   slug: sap-commerce-cloud-metadata-api
-- description: System monitoring and metrics
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: System monitoring and metrics
   name: SAP Commerce Cloud Monitoring API
   slug: sap-commerce-cloud-monitoring-api
-- description: Order management and history
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Order management and history
   name: SAP Commerce Cloud Orders API
   slug: sap-commerce-cloud-orders-api
-- description: Product catalog browsing and search
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Product catalog browsing and search
   name: SAP Commerce Cloud Products API
   slug: sap-commerce-cloud-products-api
-- description: Promotions and vouchers
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Promotions and vouchers
   name: SAP Commerce Cloud Promotions API
   slug: sap-commerce-cloud-promotions-api
-- description: Assisted service session management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Assisted service session management
   name: SAP Commerce Cloud Sessions API
   slug: sap-commerce-cloud-sessions-api
-- description: Stock and inventory integration
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Stock and inventory integration
   name: SAP Commerce Cloud Stock API
   slug: sap-commerce-cloud-stock-api
-- description: Physical store locator
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: Physical store locator
   name: SAP Commerce Cloud Stores API
   slug: sap-commerce-cloud-stores-api
-- description: User account management
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: User account management
   name: SAP Commerce Cloud Users API
   slug: sap-commerce-cloud-users-api
 artifact_total: 157
@@ -675,7 +723,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -685,7 +733,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 41.9
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -694,7 +742,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:

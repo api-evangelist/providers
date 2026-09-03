@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 79 operations · 30 acting
 api_count: 23
 apis:
-- description: The Answers API from Bazaarvoice — 1 operation(s) for answers.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Answers API from Bazaarvoice — 1 operation(s) for answers.
   name: Bazaarvoice Answers API
   slug: bazaarvoice-answers-api
-- description: The Clients API from Bazaarvoice — 1 operation(s) for clients.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Clients API from Bazaarvoice — 1 operation(s) for clients.
   name: Bazaarvoice Clients API
   slug: bazaarvoice-clients-api
-- description: The Contributor API from Bazaarvoice — 3 operation(s) for contributor.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Contributor API from Bazaarvoice — 3 operation(s) for contributor.
   name: Bazaarvoice Contributor API
   slug: bazaarvoice-contributor-api
-- description: The Lookahead API from Bazaarvoice — 1 operation(s) for lookahead.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Lookahead API from Bazaarvoice — 1 operation(s) for lookahead.
   name: Bazaarvoice Lookahead API
   slug: bazaarvoice-lookahead-api
-- description: The Questions API from Bazaarvoice — 4 operation(s) for questions.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Questions API from Bazaarvoice — 4 operation(s) for questions.
   name: Bazaarvoice Questions API
   slug: bazaarvoice-questions-api
-- description: Search for reviews
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: Search for reviews
   name: Bazaarvoice Reviews API
   slug: bazaarvoice-reviews-api
-- description: The Authenticateuser API from Bazaarvoice — 1 operation(s) for authenticateuser.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Authenticateuser API from Bazaarvoice — 1 operation(s) for authenticateuser.
   name: Bazaarvoice Authenticateuser API
   slug: bazaarvoice-authenticateuser-api
-- description: The Author API from Bazaarvoice — 2 operation(s) for author.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Author API from Bazaarvoice — 2 operation(s) for author.
   name: Bazaarvoice Author API
   slug: bazaarvoice-author-api
-- description: The Client Response API from Bazaarvoice — 3 operation(s) for client response.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Client Response API from Bazaarvoice — 3 operation(s) for client response.
   name: Bazaarvoice Client Response API
   slug: bazaarvoice-client-response-api
-- description: The Comments API from Bazaarvoice — 1 operation(s) for comments.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Comments API from Bazaarvoice — 1 operation(s) for comments.
   name: Bazaarvoice Comments API
   slug: bazaarvoice-comments-api
-- description: The default API from Bazaarvoice — 8 operation(s) for default.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The default API from Bazaarvoice — 8 operation(s) for default.
   name: Bazaarvoice Default API
   slug: bazaarvoice-default-api
-- description: The expressions API from Bazaarvoice — 1 operation(s) for expressions.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The expressions API from Bazaarvoice — 1 operation(s) for expressions.
   name: Bazaarvoice Expressions API
   slug: bazaarvoice-expressions-api
-- description: The Facebook API from Bazaarvoice — 4 operation(s) for facebook.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Facebook API from Bazaarvoice — 4 operation(s) for facebook.
   name: Bazaarvoice Facebook API
   slug: bazaarvoice-facebook-api
-- description: The features API from Bazaarvoice — 3 operation(s) for features.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The features API from Bazaarvoice — 3 operation(s) for features.
   name: Bazaarvoice Features API
   slug: bazaarvoice-features-api
-- description: The Feedback API from Bazaarvoice — 2 operation(s) for feedback.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Feedback API from Bazaarvoice — 2 operation(s) for feedback.
   name: Bazaarvoice Feedback API
   slug: bazaarvoice-feedback-api
-- description: The Instagram API from Bazaarvoice — 3 operation(s) for instagram.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Instagram API from Bazaarvoice — 3 operation(s) for instagram.
   name: Bazaarvoice Instagram API
   slug: bazaarvoice-instagram-api
-- description: The Media API from Bazaarvoice — 4 operation(s) for media.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Media API from Bazaarvoice — 4 operation(s) for media.
   name: Bazaarvoice Media API
   slug: bazaarvoice-media-api
-- description: The Meta API from Bazaarvoice — 1 operation(s) for meta.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Meta API from Bazaarvoice — 1 operation(s) for meta.
   name: Bazaarvoice Meta API
   slug: bazaarvoice-meta-api
-- description: Enables clients to manage end-user subscriptions to email notifications.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: Enables clients to manage end-user subscriptions to email notifications.
   name: Bazaarvoice Notifications/{client}/subscriptions API
   slug: bazaarvoice-notifications-client-subscriptions-api
-- description: The ProgressiveSubmit API from Bazaarvoice — 2 operation(s) for progressivesubmit.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The ProgressiveSubmit API from Bazaarvoice — 2 operation(s) for progressivesubmit.
   name: Bazaarvoice Progressive Submit API
   slug: bazaarvoice-progressivesubmit-api
-- description: The quotes API from Bazaarvoice — 1 operation(s) for quotes.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The quotes API from Bazaarvoice — 1 operation(s) for quotes.
   name: Bazaarvoice Quotes API
   slug: bazaarvoice-quotes-api
-- description: The Report API from Bazaarvoice — 1 operation(s) for report.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Report API from Bazaarvoice — 1 operation(s) for report.
   name: Bazaarvoice Report API
   slug: bazaarvoice-report-api
-- description: The Review API from Bazaarvoice — 2 operation(s) for review.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Review API from Bazaarvoice — 2 operation(s) for review.
   name: Bazaarvoice Review API
   slug: bazaarvoice-review-api
-- description: The Step 1 API from Bazaarvoice — 2 operation(s) for step 1.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Step 1 API from Bazaarvoice — 2 operation(s) for step 1.
   name: Bazaarvoice Step 1 API
   slug: bazaarvoice-step-1-api
-- description: The Structured Data API from Bazaarvoice — 1 operation(s) for structured data.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Structured Data API from Bazaarvoice — 1 operation(s) for structured data.
   name: Bazaarvoice Structured Data API
   slug: bazaarvoice-structured-data-api
-- description: The Submitreview API from Bazaarvoice — 1 operation(s) for submitreview.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Submitreview API from Bazaarvoice — 1 operation(s) for submitreview.
   name: Bazaarvoice Submitreview API
   slug: bazaarvoice-submitreview-api
-- description: The Transactions API from Bazaarvoice — 3 operation(s) for transactions.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Transactions API from Bazaarvoice — 3 operation(s) for transactions.
   name: Bazaarvoice Transactions API
   slug: bazaarvoice-transactions-api
-- description: The Upload API from Bazaarvoice — 3 operation(s) for upload.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Upload API from Bazaarvoice — 3 operation(s) for upload.
   name: Bazaarvoice Upload API
   slug: bazaarvoice-upload-api
-- description: The Uploadphoto API from Bazaarvoice — 1 operation(s) for uploadphoto.
+- baseURL: https://api.bazaarvoice.com
+  baseurl_source: declared
+  description: The Uploadphoto API from Bazaarvoice — 1 operation(s) for uploadphoto.
   name: Bazaarvoice Uploadphoto API
   slug: bazaarvoice-uploadphoto-api
 artifact_total: 57
@@ -453,7 +511,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png
 security:

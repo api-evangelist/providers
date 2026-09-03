@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 85 operations · 33 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: REST API endpoints for app previews.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for app previews.
   name: Nevercode App Previews API
   slug: nevercode-app-previews-api
-- description: REST API endpoints for applications.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for applications.
   name: Nevercode Applications API
   slug: nevercode-applications-api
-- description: REST API endpoints for billing.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for billing.
   name: Nevercode Billing API
   slug: nevercode-billing-api
-- description: REST API endpoints for build dashboards.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for build dashboards.
   name: Nevercode Build Dashboards API
   slug: nevercode-build-dashboards-api
-- description: REST API endpoints for builds.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for builds.
   name: Nevercode Builds API
   slug: nevercode-builds-api
-- description: REST API endpoints for meta data.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for meta data.
   name: Nevercode Meta API
   slug: nevercode-meta-api
-- description: REST API endpoints for over-the-air updates.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for over-the-air updates.
   name: Nevercode Over-the-air Updates API
   slug: nevercode-over-the-air-updates-api
-- description: REST API endpoints for environment variables.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for environment variables.
   name: Nevercode Secrets and Environment Vars API
   slug: nevercode-secrets-and-environment-vars-api
-- description: REST API endpoints for team invitations.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for team invitations.
   name: Nevercode Team Invitations API
   slug: nevercode-team-invitations-api
-- description: REST API endpoints for team members.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for team members.
   name: Nevercode Team Members API
   slug: nevercode-team-members-api
-- description: REST API endpoints for teams.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for teams.
   name: Nevercode Teams API
   slug: nevercode-teams-api
-- description: REST API endpoints for tester groups.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for tester groups.
   name: Nevercode Tester Groups API
   slug: nevercode-tester-groups-api
-- description: REST API endpoints for users.
+- baseURL: https://codemagic.io/
+  baseurl_source: declared
+  description: REST API endpoints for users.
   name: Nevercode Users API
   slug: nevercode-users-api
 artifact_total: 30
@@ -291,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nevercode/refs/heads/main/screenshots/nevercode-2026-08-07T185044.png
 security:

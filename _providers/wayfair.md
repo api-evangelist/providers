@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Token-based authentication for API access.
+- baseURL: https://api.wayfair.com/v1/graphql
+  baseurl_source: declared
+  description: Token-based authentication for API access.
   name: Wayfair Authentication API
   slug: wayfair-authentication-api
-- description: GraphQL query and mutation operations for supplier management.
+- baseURL: https://api.wayfair.com/v1/graphql
+  baseurl_source: declared
+  description: GraphQL query and mutation operations for supplier management.
   name: Wayfair GraphQL API
   slug: wayfair-graphql-api
 artifact_total: 46
@@ -281,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png
 security:

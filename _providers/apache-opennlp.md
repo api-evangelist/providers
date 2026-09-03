@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 11 operations · 9 acting
 api_count: 10
 apis:
-- description: The Chunking API from Apache OpenNLP — 1 operation(s) for chunking.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Chunking API from Apache OpenNLP — 1 operation(s) for chunking.
   name: Apache OpenNLP Chunking API
   slug: apache-opennlp-chunking-api
-- description: The Document Categorization API from Apache OpenNLP — 1 operation(s) for document categorization.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Document Categorization API from Apache OpenNLP — 1 operation(s) for document categorization.
   name: Apache OpenNLP Document Categorization API
   slug: apache-opennlp-document-categorization-api
-- description: The Language Detection API from Apache OpenNLP — 1 operation(s) for language detection.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Language Detection API from Apache OpenNLP — 1 operation(s) for language detection.
   name: Apache OpenNLP Language Detection API
   slug: apache-opennlp-language-detection-api
-- description: The Lemmatization API from Apache OpenNLP — 1 operation(s) for lemmatization.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Lemmatization API from Apache OpenNLP — 1 operation(s) for lemmatization.
   name: Apache OpenNLP Lemmatization API
   slug: apache-opennlp-lemmatization-api
-- description: The Models API from Apache OpenNLP — 2 operation(s) for models.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Models API from Apache OpenNLP — 2 operation(s) for models.
   name: Apache OpenNLP Models API
   slug: apache-opennlp-models-api
-- description: The Named Entity Recognition API from Apache OpenNLP — 1 operation(s) for named entity recognition.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Named Entity Recognition API from Apache OpenNLP — 1 operation(s) for named entity recognition.
   name: Apache OpenNLP Named Entity Recognition API
   slug: apache-opennlp-named-entity-recognition-api
-- description: The Parsing API from Apache OpenNLP — 1 operation(s) for parsing.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Parsing API from Apache OpenNLP — 1 operation(s) for parsing.
   name: Apache OpenNLP Parsing API
   slug: apache-opennlp-parsing-api
-- description: The POS Tagging API from Apache OpenNLP — 1 operation(s) for pos tagging.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The POS Tagging API from Apache OpenNLP — 1 operation(s) for pos tagging.
   name: Apache OpenNLP POS Tagging API
   slug: apache-opennlp-pos-tagging-api
-- description: The Sentence Detection API from Apache OpenNLP — 1 operation(s) for sentence detection.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Sentence Detection API from Apache OpenNLP — 1 operation(s) for sentence detection.
   name: Apache OpenNLP Sentence Detection API
   slug: apache-opennlp-sentence-detection-api
-- description: The Tokenization API from Apache OpenNLP — 1 operation(s) for tokenization.
+- baseURL_template: https://{host}/opennlp
+  baseurl_source: spec_template
+  description: The Tokenization API from Apache OpenNLP — 1 operation(s) for tokenization.
   name: Apache OpenNLP Tokenization API
   slug: apache-opennlp-tokenization-api
 artifact_total: 104
@@ -428,7 +448,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/screenshots/apache-opennlp-2026-06-20T172128.png
 security:

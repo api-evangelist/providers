@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: 'Standalone Tracking API: create Trackers from a tracking code + carrier, receive webhooks on status changes, query historical scan events. Standard Tracking and Advanced Tracking tiers are available w'
   name: EasyPost Tracking API
   slug: tracking
-- description: Asynchronous Event delivery surface. EasyPost POSTs Event objects to subscriber URLs whenever asynchronous objects (batches, trackers, scan forms, refunds, reports, payments, claims, insurance, shipme
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: Asynchronous Event delivery surface. EasyPost POSTs Event objects to subscriber URLs whenever asynchronous objects (batches, trackers, scan forms, refunds, reports, payments, claims, insurance, shipme
   name: EasyPost Webhooks API
   slug: webhooks
 - description: 'Insurance API: insure shipments at 1% of declared value with a $1 minimum. Claims API: file and manage damage/loss/theft claims via REST.'
@@ -59,22 +61,34 @@ apis:
 - description: Generate Shipment, Tracker, Refund, Payment Log, and other reports asynchronously; download CSVs from the URL returned in the report object.
   name: EasyPost Reports API
   slug: reports
-- description: The Addresses API from EasyPost — 2 operation(s) for addresses.
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: The Addresses API from EasyPost — 2 operation(s) for addresses.
   name: EasyPost Addresses API
   slug: easypost-addresses-api
-- description: The Parcels API from EasyPost — 1 operation(s) for parcels.
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: The Parcels API from EasyPost — 1 operation(s) for parcels.
   name: EasyPost Parcels API
   slug: easypost-parcels-api
-- description: The Refunds API from EasyPost — 1 operation(s) for refunds.
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: The Refunds API from EasyPost — 1 operation(s) for refunds.
   name: EasyPost Refunds API
   slug: easypost-refunds-api
-- description: The Reports API from EasyPost — 1 operation(s) for reports.
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: The Reports API from EasyPost — 1 operation(s) for reports.
   name: EasyPost Reports API
   slug: easypost-reports-api
-- description: The Shipments API from EasyPost — 5 operation(s) for shipments.
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: The Shipments API from EasyPost — 5 operation(s) for shipments.
   name: EasyPost Shipments API
   slug: easypost-shipments-api
-- description: The Trackers API from EasyPost — 2 operation(s) for trackers.
+- baseURL: https://api.easypost.com/v2
+  baseurl_source: declared
+  description: The Trackers API from EasyPost — 2 operation(s) for trackers.
   name: EasyPost Trackers API
   slug: easypost-trackers-api
 artifact_total: 28
@@ -212,7 +226,7 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -222,7 +236,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 36.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -237,7 +251,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/screenshots/easypost-2026-07-25T212719.png
 security:

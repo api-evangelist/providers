@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -46,46 +46,74 @@ apis:
 - description: SkySlope's broader enterprise Transaction Management API, positioned for brokerages to query, extract, and build on top of their SkySlope transaction data for reporting tools, dashboards, and enterpri
   name: SkySlope Transaction Management API (BETA)
   slug: skyslope-transaction-management-api
-- description: The Agents, Listings API from SkySlope — 1 operation(s) for agents, listings.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Agents, Listings API from SkySlope — 1 operation(s) for agents, listings.
   name: SkySlope Agents, Listings API
   slug: skyslope-agents-listings-api
-- description: The Auth API from SkySlope — 1 operation(s) for auth.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Auth API from SkySlope — 1 operation(s) for auth.
   name: SkySlope Auth API
   slug: skyslope-auth-api
-- description: The Buyer Agreements API from SkySlope — 1 operation(s) for buyer agreements.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Buyer Agreements API from SkySlope — 1 operation(s) for buyer agreements.
   name: SkySlope Buyer Agreements API
   slug: skyslope-buyer-agreements-api
-- description: The Contacts API from SkySlope — 4 operation(s) for contacts.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Contacts API from SkySlope — 4 operation(s) for contacts.
   name: SkySlope Contacts API
   slug: skyslope-contacts-api
-- description: The Documents API from SkySlope — 5 operation(s) for documents.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Documents API from SkySlope — 5 operation(s) for documents.
   name: SkySlope Documents API
   slug: skyslope-documents-api
-- description: The Envelopes API from SkySlope — 1 operation(s) for envelopes.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Envelopes API from SkySlope — 1 operation(s) for envelopes.
   name: SkySlope Envelopes API
   slug: skyslope-envelopes-api
-- description: The Files API from SkySlope — 14 operation(s) for files.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Files API from SkySlope — 14 operation(s) for files.
   name: SkySlope Files API
   slug: skyslope-files-api
-- description: The Forms API from SkySlope — 1 operation(s) for forms.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Forms API from SkySlope — 1 operation(s) for forms.
   name: SkySlope Forms API
   slug: skyslope-forms-api
-- description: The Libraries API from SkySlope — 3 operation(s) for libraries.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Libraries API from SkySlope — 3 operation(s) for libraries.
   name: SkySlope Libraries API
   slug: skyslope-libraries-api
-- description: The Offers API from SkySlope — 2 operation(s) for offers.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Offers API from SkySlope — 2 operation(s) for offers.
   name: SkySlope Offers API
   slug: skyslope-offers-api
-- description: The Report API from SkySlope — 1 operation(s) for report.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Report API from SkySlope — 1 operation(s) for report.
   name: SkySlope Report API
   slug: skyslope-report-api
-- description: The Templates API from SkySlope — 1 operation(s) for templates.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Templates API from SkySlope — 1 operation(s) for templates.
   name: SkySlope Templates API
   slug: skyslope-templates-api
-- description: The Users API from SkySlope — 4 operation(s) for users.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Users API from SkySlope — 4 operation(s) for users.
   name: SkySlope Users API
   slug: skyslope-users-api
-- description: The Webhooks API from SkySlope — 1 operation(s) for webhooks.
+- baseURL: https://forms.skyslope.com/partner/api
+  baseurl_source: declared
+  description: The Webhooks API from SkySlope — 1 operation(s) for webhooks.
   name: SkySlope Webhooks API
   slug: skyslope-webhooks-api
 artifact_total: 35
@@ -205,7 +233,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -228,8 +256,9 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skyslope/refs/heads/main/screenshots/skyslope-2026-09-02T155819.png
 security:
 - kind: domain-security
   name: Skyslope Domain Security

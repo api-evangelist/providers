@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 3
 apis:
-- description: The Geo API from World News API — 1 operation(s) for geo.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: spec
+  description: The Geo API from World News API — 1 operation(s) for geo.
   name: World News API Geo API
   slug: world-news-api-geo-api
-- description: The News API from World News API — 6 operation(s) for news.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: spec
+  description: The News API from World News API — 6 operation(s) for news.
   name: World News API News API
   slug: world-news-api-news-api
-- description: The Sources API from World News API — 3 operation(s) for sources.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: spec
+  description: The Sources API from World News API — 3 operation(s) for sources.
   name: World News API Sources API
   slug: world-news-api-sources-api
 artifact_total: 14
@@ -146,10 +152,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/world-news-api/refs/heads/main/screenshots/world-news-api-2026-06-20T201617.png
 security:

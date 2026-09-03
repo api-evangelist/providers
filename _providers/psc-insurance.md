@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -149,11 +161,11 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -163,7 +175,7 @@ score:
     discoverability: 61.1
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 37.2
+  previous_composite: 36.9
   provenance:
     conformance: first-party
   regulatory:
@@ -173,8 +185,9 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/psc-insurance/refs/heads/main/screenshots/psc-insurance-2026-09-02T152303.png
 security:
 - kind: authentication
   name: Psc Insurance Authentication

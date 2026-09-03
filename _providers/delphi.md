@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 25 operations · 16 acting
 api_count: 1
 apis:
-- description: Store and manage contextual information about users in your audience.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Store and manage contextual information about users in your audience.
   name: Delphi Audience API
   slug: delphi-audience-api
-- description: Retrieve your clone's public profile information.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Retrieve your clone's public profile information.
   name: Delphi Clone API
   slug: delphi-clone-api
-- description: Create conversations, stream responses, view history, and manage conversation lifecycle.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Create conversations, stream responses, view history, and manage conversation lifecycle.
   name: Delphi Conversations API
   slug: delphi-conversations-api
-- description: Retrieve suggested questions configured for your clone.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Retrieve suggested questions configured for your clone.
   name: Delphi Questions API
   slug: delphi-questions-api
-- description: Search your clone's digital mind for relevant chunks or content.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Search your clone's digital mind for relevant chunks or content.
   name: Delphi Search API
   slug: delphi-search-api
-- description: Create tags and organize your audience.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Create tags and organize your audience.
   name: Delphi Tags API
   slug: delphi-tags-api
-- description: Track consumption metrics and access tiers for your users.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Track consumption metrics and access tiers for your users.
   name: Delphi Usage API
   slug: delphi-usage-api
-- description: Stream voice responses and synthesize speech as real-time PCM audio.
+- baseURL: https://api.delphi.ai
+  baseurl_source: declared
+  description: Stream voice responses and synthesize speech as real-time PCM audio.
   name: Delphi Voice API
   slug: delphi-voice-api
 artifact_total: 22
@@ -241,7 +257,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -251,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 38.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/screenshots/delphi-2026-07-25T211653.png
 security:

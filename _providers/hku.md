@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -63,10 +63,14 @@ apis:
 - description: HKU's Microsoft Entra ID tenant (42f9b54e-2477-41ba-bf09-7a0d2a83ff09) publishes a live OpenID Connect discovery document for the hku.hk domain. It is institution-specific and machine-readable, but it
   name: HKU Microsoft Entra ID Tenant
   slug: entra-tenant
-- description: Metadata documents that describe the identity service.
+- baseURL: https://hkafidp.hku.hk/idp/shibboleth
+  baseurl_source: declared
+  description: Metadata documents that describe the identity service.
   name: University of Hong Kong Discovery API
   slug: hku-discovery-api
-- description: OAuth 2.0 / OpenID Connect protocol endpoints.
+- baseURL: https://hkafidp.hku.hk/idp/shibboleth
+  baseurl_source: declared
+  description: OAuth 2.0 / OpenID Connect protocol endpoints.
   name: University of Hong Kong O Auth API
   slug: hku-oauth-api
 artifact_total: 29
@@ -322,23 +326,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 50.1
+  composite: 49.6
   coverage:
     artifact_dirs: 20
     catalog_gap: 29.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 63.6
-    contract_quality: 27.2
+    contract_quality: 25.3
     developer_ergonomics: 28.6
     discoverability: 79.6
     governance: 63.6
     operational_transparency: 36.8
-  previous_composite: 49.8
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -354,7 +358,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/screenshots/hku-2026-06-20T182806.png
 security:

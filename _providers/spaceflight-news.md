@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ apis:
 - description: Sister API by The Space Devs, used by SNAPI to relate news articles to specific launches and events. Provides upcoming/previous launch data, events, agencies, astronauts, expeditions, spacecraft, laun
   name: Launch Library 2 API
   slug: launch-library-2-api
-- description: News articles aggregated from 40+ spaceflight news sites.
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: News articles aggregated from 40+ spaceflight news sites.
   name: Spaceflight News Articles API
   slug: spaceflight-news-articles-api
-- description: Blog posts and longform commentary from spaceflight publishers.
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: Blog posts and longform commentary from spaceflight publishers.
   name: Spaceflight News Blogs API
   slug: spaceflight-news-blogs-api
-- description: API metadata, version, and the list of currently imported news sites.
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: API metadata, version, and the list of currently imported news sites.
   name: Spaceflight News Info API
   slug: spaceflight-news-info-api
-- description: Official mission, program, and agency reports.
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: Official mission, program, and agency reports.
   name: Spaceflight News Reports API
   slug: spaceflight-news-reports-api
 artifact_total: 50
@@ -349,7 +357,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/screenshots/spaceflight-news-2026-06-20T194233.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 1
 apis:
-- description: The Channels API from Rasayel — 1 operation(s) for channels.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Channels API from Rasayel — 1 operation(s) for channels.
   name: Rasayel Channels API
   slug: rasayel-channels-api
-- description: The Contacts API from Rasayel — 5 operation(s) for contacts.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Contacts API from Rasayel — 5 operation(s) for contacts.
   name: Rasayel Contacts API
   slug: rasayel-contacts-api
-- description: The Conversations API from Rasayel — 2 operation(s) for conversations.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Conversations API from Rasayel — 2 operation(s) for conversations.
   name: Rasayel Conversations API
   slug: rasayel-conversations-api
-- description: The Messages API from Rasayel — 1 operation(s) for messages.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Messages API from Rasayel — 1 operation(s) for messages.
   name: Rasayel Messages API
   slug: rasayel-messages-api
-- description: The Properties API from Rasayel — 2 operation(s) for properties.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Properties API from Rasayel — 2 operation(s) for properties.
   name: Rasayel Properties API
   slug: rasayel-properties-api
-- description: The Tags API from Rasayel — 1 operation(s) for tags.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Tags API from Rasayel — 1 operation(s) for tags.
   name: Rasayel Tags API
   slug: rasayel-tags-api
-- description: The Templates API from Rasayel — 2 operation(s) for templates.
+- baseURL: https://api.rasayel.io/v1/
+  baseurl_source: declared
+  description: The Templates API from Rasayel — 2 operation(s) for templates.
   name: Rasayel Templates API
   slug: rasayel-templates-api
 artifact_total: 20
@@ -262,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/screenshots/rasayel-2026-08-17T081447.png
 security:

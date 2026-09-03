@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -47,28 +47,44 @@ apis:
 - description: API for interacting with OpenBMC baseboard management controller firmware, providing programmatic access to server hardware management and monitoring capabilities.
   name: OpenBMC API
   slug: openbmc-api
-- description: The AccountService API from OpenBMC — 1 operation(s) for accountservice.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The AccountService API from OpenBMC — 1 operation(s) for accountservice.
   name: OpenBMC AccountService API
   slug: openbmc-accountservice-api
-- description: The Chassis API from OpenBMC — 1 operation(s) for chassis.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The Chassis API from OpenBMC — 1 operation(s) for chassis.
   name: OpenBMC Chassis API
   slug: openbmc-chassis-api
-- description: The EventService API from OpenBMC — 1 operation(s) for eventservice.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The EventService API from OpenBMC — 1 operation(s) for eventservice.
   name: OpenBMC EventService API
   slug: openbmc-eventservice-api
-- description: The Managers API from OpenBMC — 3 operation(s) for managers.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The Managers API from OpenBMC — 3 operation(s) for managers.
   name: OpenBMC Managers API
   slug: openbmc-managers-api
-- description: The OpenBMC Redfish API API from OpenBMC — 1 operation(s) for openbmc redfish api.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The OpenBMC Redfish API API from OpenBMC — 1 operation(s) for openbmc redfish api.
   name: OpenBMC OpenBMC Redfish API API
   slug: openbmc-openbmc-redfish-api-api
-- description: The SessionService API from OpenBMC — 1 operation(s) for sessionservice.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The SessionService API from OpenBMC — 1 operation(s) for sessionservice.
   name: OpenBMC SessionService API
   slug: openbmc-sessionservice-api
-- description: The Systems API from OpenBMC — 3 operation(s) for systems.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The Systems API from OpenBMC — 3 operation(s) for systems.
   name: OpenBMC Systems API
   slug: openbmc-systems-api
-- description: The UpdateService API from OpenBMC — 1 operation(s) for updateservice.
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The UpdateService API from OpenBMC — 1 operation(s) for updateservice.
   name: OpenBMC UpdateService API
   slug: openbmc-updateservice-api
 artifact_total: 24
@@ -176,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/screenshots/openbmc-2026-06-20T190919.png
 security:

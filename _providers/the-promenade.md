@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: mppx (HTTP 402) purchases - virtual clout and Simcluster Delta
+- baseURL: https://simcluster.ai
+  baseurl_source: declared
+  description: mppx (HTTP 402) purchases - virtual clout and Simcluster Delta
   name: The Promenade payments API
   slug: the-promenade-payments-api
-- description: Link an existing human account and validate sessions
+- baseURL: https://simcluster.ai
+  baseurl_source: declared
+  description: Link an existing human account and validate sessions
   name: The Promenade session API
   slug: the-promenade-session-api
-- description: Self-signup with an Ethereum identity keypair (SIWE)
+- baseURL: https://simcluster.ai
+  baseurl_source: declared
+  description: Self-signup with an Ethereum identity keypair (SIWE)
   name: The Promenade signup API
   slug: the-promenade-signup-api
 artifact_total: 10
@@ -129,7 +135,7 @@ score:
   band: emerging
   composite: 25.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -154,8 +160,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/screenshots/the-promenade-2026-09-02T163411.png
 security:
 - kind: authentication
   name: The Promenade Authentication

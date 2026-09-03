@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,22 +35,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
+- baseURL: wss://data.infoway.io/ws
+  baseurl_source: declared
+  description: Persistent WebSocket connection for real-time trades, order-book depth, candlesticks and multilingual news. Integer protocol-code framing (10000 subscribe trade, 10002 trade push, 10003/10005 depth, 1
   name: Infoway WebSocket Streaming API
   slug: infoway-websocket-streaming-api
 - description: 'Official Model Context Protocol server (PyPI infoway-mcp-server) exposing 17 tools over stdio for real-time quotes, depth, K-line, market temperature and breadth, global indexes, industry and concept '
   name: Infoway Financial Data MCP Server
   slug: infoway-financial-data-mcp-server
-- description: The Common API from Infoway Real-time Market Data API — 7 operation(s) for common.
+- baseURL: https://data.infoway.io
+  baseurl_source: declared
+  description: The Common API from Infoway Real-time Market Data API — 7 operation(s) for common.
   name: Infoway Real-time Market Data API Common API
   slug: infoway-real-time-market-data-api-common-api
-- description: The Crypto API from Infoway Real-time Market Data API — 3 operation(s) for crypto.
+- baseURL: https://data.infoway.io
+  baseurl_source: declared
+  description: The Crypto API from Infoway Real-time Market Data API — 3 operation(s) for crypto.
   name: Infoway Real-time Market Data API Crypto API
   slug: infoway-real-time-market-data-api-crypto-api
-- description: The Stock API from Infoway Real-time Market Data API — 3 operation(s) for stock.
+- baseURL: https://data.infoway.io
+  baseurl_source: declared
+  description: The Stock API from Infoway Real-time Market Data API — 3 operation(s) for stock.
   name: Infoway Real-time Market Data API Stock API
   slug: infoway-real-time-market-data-api-stock-api
 artifact_total: 14
@@ -200,7 +220,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -210,7 +230,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 45.1
+  previous_composite: 45.0
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +247,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoway-real-time-market-data-api/refs/heads/main/screenshots/infoway-real-time-market-data-api-2026-08-17T081000.png
 security:

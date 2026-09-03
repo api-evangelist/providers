@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 467 operations
 api_count: 5
 apis:
-- description: The MLB v3 Headshots API from SportsDataIO — 1 operation(s) for mlb v3 headshots.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 Headshots API from SportsDataIO — 1 operation(s) for mlb v3 headshots.
   name: SportsDataIO MLB v3 Headshots API
   slug: sportsdataio-mlb-v3-headshots-api
-- description: The MLB v3 Odds API from SportsDataIO — 34 operation(s) for mlb v3 odds.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 Odds API from SportsDataIO — 34 operation(s) for mlb v3 odds.
   name: SportsDataIO MLB v3 Odds API
   slug: sportsdataio-mlb-v3-odds-api
-- description: The MLB v3 Play-by-Play API from SportsDataIO — 3 operation(s) for mlb v3 play-by-play.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 Play-by-Play API from SportsDataIO — 3 operation(s) for mlb v3 play-by-play.
   name: SportsDataIO MLB v3 Play-by-Play API
   slug: sportsdataio-mlb-v3-play-by-play-api
-- description: The MLB v3 Projections API from SportsDataIO — 8 operation(s) for mlb v3 projections.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 Projections API from SportsDataIO — 8 operation(s) for mlb v3 projections.
   name: SportsDataIO MLB v3 Projections API
   slug: sportsdataio-mlb-v3-projections-api
-- description: The MLB v3 RotoBaller Premium News API from SportsDataIO — 2 operation(s) for mlb v3 rotoballer premium news.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 RotoBaller Premium News API from SportsDataIO — 2 operation(s) for mlb v3 rotoballer premium news.
   name: SportsDataIO MLB v3 RotoBaller Premium News API
   slug: sportsdataio-mlb-v3-rotoballer-premium-news-api
-- description: The MLB v3 Scores API from SportsDataIO — 27 operation(s) for mlb v3 scores.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 Scores API from SportsDataIO — 27 operation(s) for mlb v3 scores.
   name: SportsDataIO MLB v3 Scores API
   slug: sportsdataio-mlb-v3-scores-api
-- description: The MLB v3 Stats API from SportsDataIO — 17 operation(s) for mlb v3 stats.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The MLB v3 Stats API from SportsDataIO — 17 operation(s) for mlb v3 stats.
   name: SportsDataIO MLB v3 Stats API
   slug: sportsdataio-mlb-v3-stats-api
-- description: The NBA v3 Headshots API from SportsDataIO — 1 operation(s) for nba v3 headshots.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 Headshots API from SportsDataIO — 1 operation(s) for nba v3 headshots.
   name: SportsDataIO NBA v3 Headshots API
   slug: sportsdataio-nba-v3-headshots-api
-- description: The NBA v3 Odds API from SportsDataIO — 34 operation(s) for nba v3 odds.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 Odds API from SportsDataIO — 34 operation(s) for nba v3 odds.
   name: SportsDataIO NBA v3 Odds API
   slug: sportsdataio-nba-v3-odds-api
-- description: The NBA v3 Play-by-Play API from SportsDataIO — 3 operation(s) for nba v3 play-by-play.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 Play-by-Play API from SportsDataIO — 3 operation(s) for nba v3 play-by-play.
   name: SportsDataIO NBA v3 Play-by-Play API
   slug: sportsdataio-nba-v3-play-by-play-api
-- description: The NBA v3 Projections API from SportsDataIO — 6 operation(s) for nba v3 projections.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 Projections API from SportsDataIO — 6 operation(s) for nba v3 projections.
   name: SportsDataIO NBA v3 Projections API
   slug: sportsdataio-nba-v3-projections-api
-- description: The NBA v3 RotoBaller Premium News API from SportsDataIO — 2 operation(s) for nba v3 rotoballer premium news.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 RotoBaller Premium News API from SportsDataIO — 2 operation(s) for nba v3 rotoballer premium news.
   name: SportsDataIO NBA v3 RotoBaller Premium News API
   slug: sportsdataio-nba-v3-rotoballer-premium-news-api
-- description: The NBA v3 Scores API from SportsDataIO — 28 operation(s) for nba v3 scores.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 Scores API from SportsDataIO — 28 operation(s) for nba v3 scores.
   name: SportsDataIO NBA v3 Scores API
   slug: sportsdataio-nba-v3-scores-api
-- description: The NBA v3 Stats API from SportsDataIO — 14 operation(s) for nba v3 stats.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NBA v3 Stats API from SportsDataIO — 14 operation(s) for nba v3 stats.
   name: SportsDataIO NBA v3 Stats API
   slug: sportsdataio-nba-v3-stats-api
-- description: The NFL v3 Headshots API from SportsDataIO — 1 operation(s) for nfl v3 headshots.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 Headshots API from SportsDataIO — 1 operation(s) for nfl v3 headshots.
   name: SportsDataIO NFL v3 Headshots API
   slug: sportsdataio-nfl-v3-headshots-api
-- description: The NFL v3 Odds API from SportsDataIO — 34 operation(s) for nfl v3 odds.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 Odds API from SportsDataIO — 34 operation(s) for nfl v3 odds.
   name: SportsDataIO NFL v3 Odds API
   slug: sportsdataio-nfl-v3-odds-api
-- description: The NFL v3 Play-by-Play API from SportsDataIO — 6 operation(s) for nfl v3 play-by-play.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 Play-by-Play API from SportsDataIO — 6 operation(s) for nfl v3 play-by-play.
   name: SportsDataIO NFL v3 Play-by-Play API
   slug: sportsdataio-nfl-v3-play-by-play-api
-- description: The NFL v3 Projections API from SportsDataIO — 13 operation(s) for nfl v3 projections.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 Projections API from SportsDataIO — 13 operation(s) for nfl v3 projections.
   name: SportsDataIO NFL v3 Projections API
   slug: sportsdataio-nfl-v3-projections-api
-- description: The NFL v3 RotoBaller Premium News API from SportsDataIO — 3 operation(s) for nfl v3 rotoballer premium news.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 RotoBaller Premium News API from SportsDataIO — 3 operation(s) for nfl v3 rotoballer premium news.
   name: SportsDataIO NFL v3 RotoBaller Premium News API
   slug: sportsdataio-nfl-v3-rotoballer-premium-news-api
-- description: The NFL v3 Scores API from SportsDataIO — 45 operation(s) for nfl v3 scores.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 Scores API from SportsDataIO — 45 operation(s) for nfl v3 scores.
   name: SportsDataIO NFL v3 Scores API
   slug: sportsdataio-nfl-v3-scores-api
-- description: The NFL v3 Stats API from SportsDataIO — 34 operation(s) for nfl v3 stats.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NFL v3 Stats API from SportsDataIO — 34 operation(s) for nfl v3 stats.
   name: SportsDataIO NFL v3 Stats API
   slug: sportsdataio-nfl-v3-stats-api
-- description: The NHL v3 Headshots API from SportsDataIO — 1 operation(s) for nhl v3 headshots.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 Headshots API from SportsDataIO — 1 operation(s) for nhl v3 headshots.
   name: SportsDataIO NHL v3 Headshots API
   slug: sportsdataio-nhl-v3-headshots-api
-- description: The NHL v3 Odds API from SportsDataIO — 34 operation(s) for nhl v3 odds.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 Odds API from SportsDataIO — 34 operation(s) for nhl v3 odds.
   name: SportsDataIO NHL v3 Odds API
   slug: sportsdataio-nhl-v3-odds-api
-- description: The NHL v3 Play-by-Play API from SportsDataIO — 3 operation(s) for nhl v3 play-by-play.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 Play-by-Play API from SportsDataIO — 3 operation(s) for nhl v3 play-by-play.
   name: SportsDataIO NHL v3 Play-by-Play API
   slug: sportsdataio-nhl-v3-play-by-play-api
-- description: The NHL v3 Projections API from SportsDataIO — 4 operation(s) for nhl v3 projections.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 Projections API from SportsDataIO — 4 operation(s) for nhl v3 projections.
   name: SportsDataIO NHL v3 Projections API
   slug: sportsdataio-nhl-v3-projections-api
-- description: The NHL v3 RotoBaller Premium News API from SportsDataIO — 2 operation(s) for nhl v3 rotoballer premium news.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 RotoBaller Premium News API from SportsDataIO — 2 operation(s) for nhl v3 rotoballer premium news.
   name: SportsDataIO NHL v3 RotoBaller Premium News API
   slug: sportsdataio-nhl-v3-rotoballer-premium-news-api
-- description: The NHL v3 Scores API from SportsDataIO — 28 operation(s) for nhl v3 scores.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 Scores API from SportsDataIO — 28 operation(s) for nhl v3 scores.
   name: SportsDataIO NHL v3 Scores API
   slug: sportsdataio-nhl-v3-scores-api
-- description: The NHL v3 Stats API from SportsDataIO — 14 operation(s) for nhl v3 stats.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The NHL v3 Stats API from SportsDataIO — 14 operation(s) for nhl v3 stats.
   name: SportsDataIO NHL v3 Stats API
   slug: sportsdataio-nhl-v3-stats-api
-- description: The Soccer v4 Headshots API from SportsDataIO — 1 operation(s) for soccer v4 headshots.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The Soccer v4 Headshots API from SportsDataIO — 1 operation(s) for soccer v4 headshots.
   name: SportsDataIO Soccer v4 Headshots API
   slug: sportsdataio-soccer-v4-headshots-api
-- description: The Soccer v4 Odds API from SportsDataIO — 28 operation(s) for soccer v4 odds.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The Soccer v4 Odds API from SportsDataIO — 28 operation(s) for soccer v4 odds.
   name: SportsDataIO Soccer v4 Odds API
   slug: sportsdataio-soccer-v4-odds-api
-- description: The Soccer v4 Projections API from SportsDataIO — 4 operation(s) for soccer v4 projections.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The Soccer v4 Projections API from SportsDataIO — 4 operation(s) for soccer v4 projections.
   name: SportsDataIO Soccer v4 Projections API
   slug: sportsdataio-soccer-v4-projections-api
-- description: The Soccer v4 Scores API from SportsDataIO — 21 operation(s) for soccer v4 scores.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The Soccer v4 Scores API from SportsDataIO — 21 operation(s) for soccer v4 scores.
   name: SportsDataIO Soccer v4 Scores API
   slug: sportsdataio-soccer-v4-scores-api
-- description: The Soccer v4 Stats API from SportsDataIO — 11 operation(s) for soccer v4 stats.
+- baseURL: https://api.sportsdata.io
+  baseurl_source: declared
+  description: The Soccer v4 Stats API from SportsDataIO — 11 operation(s) for soccer v4 stats.
   name: SportsDataIO Soccer v4 Stats API
   slug: sportsdataio-soccer-v4-stats-api
 artifact_total: 187
@@ -721,7 +787,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsdataio/refs/heads/main/screenshots/sportsdataio-2026-06-20T194350.png
 security:

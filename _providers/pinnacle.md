@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,34 +50,54 @@ apis:
 - description: Pinnacle is an online gaming website that was founded in 1998. Since its inception, Pinnacle has become a medium-sized, fully licensed, online sportsbook.
   name: Pinnacle Lines API
   slug: pinnacle-lines-api
-- description: The Cancellationreasons API from Pinnacle Sports Betting — 1 operation(s) for cancellationreasons.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Cancellationreasons API from Pinnacle Sports Betting — 1 operation(s) for cancellationreasons.
   name: ' Pinnacle Sports Betting Cancellationreasons API'
   slug: pinnacle-cancellationreasons-api
-- description: The Currencies API from Pinnacle Sports Betting — 1 operation(s) for currencies.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Currencies API from Pinnacle Sports Betting — 1 operation(s) for currencies.
   name: ' Pinnacle Sports Betting Currencies API'
   slug: pinnacle-currencies-api
-- description: The Fixtures API from Pinnacle Sports Betting — 4 operation(s) for fixtures.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Fixtures API from Pinnacle Sports Betting — 4 operation(s) for fixtures.
   name: ' Pinnacle Sports Betting Fixtures API'
   slug: pinnacle-fixtures-api
-- description: The Inrunning API from Pinnacle Sports Betting — 1 operation(s) for inrunning.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Inrunning API from Pinnacle Sports Betting — 1 operation(s) for inrunning.
   name: ' Pinnacle Sports Betting Inrunning API'
   slug: pinnacle-inrunning-api
-- description: The Leagues API from Pinnacle Sports Betting — 1 operation(s) for leagues.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Leagues API from Pinnacle Sports Betting — 1 operation(s) for leagues.
   name: ' Pinnacle Sports Betting Leagues API'
   slug: pinnacle-leagues-api
-- description: The Line API from Pinnacle Sports Betting — 4 operation(s) for line.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Line API from Pinnacle Sports Betting — 4 operation(s) for line.
   name: ' Pinnacle Sports Betting Line API'
   slug: pinnacle-line-api
-- description: The Odds API from Pinnacle Sports Betting — 3 operation(s) for odds.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Odds API from Pinnacle Sports Betting — 3 operation(s) for odds.
   name: ' Pinnacle Sports Betting Odds API'
   slug: pinnacle-odds-api
-- description: The Periods API from Pinnacle Sports Betting — 1 operation(s) for periods.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Periods API from Pinnacle Sports Betting — 1 operation(s) for periods.
   name: ' Pinnacle Sports Betting Periods API'
   slug: pinnacle-periods-api
-- description: The Sports API from Pinnacle Sports Betting — 1 operation(s) for sports.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Sports API from Pinnacle Sports Betting — 1 operation(s) for sports.
   name: ' Pinnacle Sports Betting Sports API'
   slug: pinnacle-sports-api
-- description: The Teaser API from Pinnacle Sports Betting — 1 operation(s) for teaser.
+- baseURL: https://api.pinnacle.com
+  baseurl_source: spec
+  description: The Teaser API from Pinnacle Sports Betting — 1 operation(s) for teaser.
   name: ' Pinnacle Sports Betting Teaser API'
   slug: pinnacle-teaser-api
 artifact_total: 31
@@ -151,7 +171,7 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pinnacle.png
 layout: provider
 modified: '2026-05-30'
-name: ' Pinnacle Sports Betting'
+name: Pinnacle Sports Betting
 nav: Providers
 network: true
 overview: 'Pinnacle Sports Betting publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Pinnacle Lines API, g Cancellationreasons API, g Currencies API, and 8 more. Tagged areas include Gambling and Sports Betting.
@@ -194,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinnacle/refs/heads/main/screenshots/pinnacle-2026-06-20T191716.png
 security:

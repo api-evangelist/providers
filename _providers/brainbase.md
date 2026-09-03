@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations · 2 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: ApiContractController endpoints
+- baseURL: https://api.brainbase.com
+  baseurl_source: declared
+  description: ApiContractController endpoints
   name: Brainbase ApiContract API
   slug: brainbase-apicontract-api
-- description: GeneralController endpoints
+- baseURL: https://api.brainbase.com
+  baseurl_source: declared
+  description: GeneralController endpoints
   name: Brainbase General API
   slug: brainbase-general-api
 artifact_total: 9
@@ -156,7 +160,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

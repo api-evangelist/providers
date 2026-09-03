@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 24 operations · 8 acting
 api_count: 1
 apis:
-- description: Manage payment requests sent to specific buyers with fixed-price line items typically denominated in fiat currency. Supports email billing and recurring payment scheduling via subscriptions.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Manage payment requests sent to specific buyers with fixed-price line items typically denominated in fiat currency. Supports email billing and recurring payment scheduling via subscriptions.
   name: BitPay Bills API
   slug: bitpay-bills-api
-- description: Submit cryptocurrency withdrawal payments to active BitPay recipients for customer payouts, marketplace disbursements, affiliate networks, and payroll processing.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Submit cryptocurrency withdrawal payments to active BitPay recipients for customer payouts, marketplace disbursements, affiliate networks, and payroll processing.
   name: BitPay Payouts API
   slug: bitpay-payouts-api
-- description: Process full or partial refunds associated with invoices. Supports automatic handling of underpaid and overpaid amounts with cryptocurrency refund workflows.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Process full or partial refunds associated with invoices. Supports automatic handling of underpaid and overpaid amounts with cryptocurrency refund workflows.
   name: BitPay Refunds API
   slug: bitpay-refunds-api
-- description: Access transfer reports documenting payment profits settled from BitPay to merchant bank accounts and cryptocurrency wallets. Supports USD, EUR, GBP, CAD, AUD, NZD, MXN, and major cryptocurrencies.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Access transfer reports documenting payment profits settled from BitPay to merchant bank accounts and cryptocurrency wallets. Supports USD, EUR, GBP, CAD, AUD, NZD, MXN, and major cryptocurrencies.
   name: BitPay Settlements API
   slug: bitpay-settlements-api
-- description: Retrieve exchange rate data representing fiat currency equivalents per cryptocurrency unit. Supports BTC, ETH, BCH, XRP, DOGE, and stablecoins against major fiat currencies.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Retrieve exchange rate data representing fiat currency equivalents per cryptocurrency unit. Supports BTC, ETH, BCH, XRP, DOGE, and stablecoins against major fiat currencies.
   name: BitPay Rates API
   slug: bitpay-rates-api
-- description: Access account balance records by currency and track individual ledger entries. Provides accounting data for merchant financial reconciliation.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Access account balance records by currency and track individual ledger entries. Provides accounting data for merchant financial reconciliation.
   name: BitPay Ledgers API
   slug: bitpay-ledgers-api
-- description: Manage payment requests sent to specific buyers with fixed-price line items.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Manage payment requests sent to specific buyers with fixed-price line items.
   name: BitPay Bills API
   slug: bitpay-bills-api
-- description: Create and manage time-sensitive payment requests with fixed prices in fiat or cryptocurrency.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Create and manage time-sensitive payment requests with fixed prices in fiat or cryptocurrency.
   name: BitPay Invoices API
   slug: bitpay-invoices-api
-- description: Access account balance records by currency and track individual ledger entries.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Access account balance records by currency and track individual ledger entries.
   name: BitPay Ledgers API
   slug: bitpay-ledgers-api
-- description: Submit cryptocurrency withdrawal payments to active BitPay recipients.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Submit cryptocurrency withdrawal payments to active BitPay recipients.
   name: BitPay Payouts API
   slug: bitpay-payouts-api
-- description: Retrieve exchange rate data representing fiat currency equivalents per cryptocurrency unit.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Retrieve exchange rate data representing fiat currency equivalents per cryptocurrency unit.
   name: BitPay Rates API
   slug: bitpay-rates-api
-- description: Process full or partial refunds associated with invoices.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Process full or partial refunds associated with invoices.
   name: BitPay Refunds API
   slug: bitpay-refunds-api
-- description: Access transfer reports documenting payment profits settled from BitPay.
+- baseURL: https://bitpay.com
+  baseurl_source: declared
+  description: Access transfer reports documenting payment profits settled from BitPay.
   name: BitPay Settlements API
   slug: bitpay-settlements-api
 artifact_total: 32
@@ -234,7 +260,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -244,7 +270,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 9.2
-  previous_composite: 41.1
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +285,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/screenshots/bitpay-2026-06-20T173317.png
 security:

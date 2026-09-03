@@ -23,22 +23,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Create and download workspace-scoped evidence exports.
+- baseURL: https://venueauthority.com
+  baseurl_source: declared
+  description: Create and download workspace-scoped evidence exports.
   name: Venue Authority Audit Exports API
   slug: venueauthority-audit-exports-api
-- description: Read supported sources, record counts, availability, and freshness.
+- baseURL: https://venueauthority.com
+  baseurl_source: declared
+  description: Read supported sources, record counts, availability, and freshness.
   name: Venue Authority Coverage API
   slug: venueauthority-coverage-api
-- description: Resolve a merchant and retrieve its canonical regulator record and retained evidence.
+- baseURL: https://venueauthority.com
+  baseurl_source: declared
+  description: Resolve a merchant and retrieve its canonical regulator record and retained evidence.
   name: Venue Authority Resolution & Evidence API
   slug: venueauthority-resolution-evidence-api
-- description: Manage workspace-owned facility watchlists and stable change history.
+- baseURL: https://venueauthority.com
+  baseurl_source: declared
+  description: Manage workspace-owned facility watchlists and stable change history.
   name: Venue Authority Watchlists API
   slug: venueauthority-watchlists-api
-- description: Register endpoints and inspect delivery attempts.
+- baseURL: https://venueauthority.com
+  baseurl_source: declared
+  description: Register endpoints and inspect delivery attempts.
   name: Venue Authority Webhooks API
   slug: venueauthority-webhooks-api
 artifact_total: 6
@@ -133,11 +143,11 @@ score:
   band: developing
   composite: 45.3
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -147,7 +157,7 @@ score:
     discoverability: 70.4
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 45.5
+  previous_composite: 45.3
   provenance:
     contracts:
       callable: 100.0
@@ -161,8 +171,9 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/venueauthority/refs/heads/main/screenshots/venueauthority-2026-09-02T165648.png
 slug: venueauthority
 tags:
 - Food Service

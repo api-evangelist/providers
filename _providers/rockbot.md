@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 55 operations · 38 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: Audio-messaging campaigns and assets by group or zone.
+- baseURL: https://api.rockbot.com/v5
+  baseurl_source: declared
+  description: Audio-messaging campaigns and assets by group or zone.
   name: Rockbot Audio Messaging API
   slug: rockbot-audio-messaging-api
-- description: OAuth 2.0 client-credentials token exchange.
+- baseURL: https://api.rockbot.com/v5
+  baseurl_source: declared
+  description: OAuth 2.0 client-credentials token exchange.
   name: Rockbot Auth API
   slug: rockbot-auth-api
-- description: Playback history and asynchronous history exports.
+- baseURL: https://api.rockbot.com/v5
+  baseurl_source: declared
+  description: Playback history and asynchronous history exports.
   name: Rockbot Data API
   slug: rockbot-data-api
-- description: Device status, screenshots, and remote reboot.
+- baseURL: https://api.rockbot.com/v5
+  baseurl_source: declared
+  description: Device status, screenshots, and remote reboot.
   name: Rockbot Devices API
   slug: rockbot-devices-api
-- description: Playback control and playlist overrides per zone.
+- baseURL: https://api.rockbot.com/v5
+  baseurl_source: declared
+  description: Playback control and playlist overrides per zone.
   name: Rockbot Music API
   slug: rockbot-music-api
-- description: Digital-signage campaigns and assets by group or zone.
+- baseURL: https://api.rockbot.com/v5
+  baseurl_source: declared
+  description: Digital-signage campaigns and assets by group or zone.
   name: Rockbot Signage API
   slug: rockbot-signage-api
 artifact_total: 22
@@ -283,7 +295,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/screenshots/rockbot-2026-08-17T081620.png
 security:

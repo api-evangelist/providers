@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 512
   human_in_the_loop: 18
@@ -44,145 +44,239 @@ agentic_access:
   summary_line: 910 operations · 512 acting · 18 human-in-the-loop
 api_count: 1
 apis:
-- description: The Activity Feed API from Opply — 4 operation(s) for activity feed.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Activity Feed API from Opply — 4 operation(s) for activity feed.
   name: Opply Activity Feed API
   slug: opply-activity-feed-api
-- description: The Admin panel API from Opply — 46 operation(s) for admin panel.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Admin panel API from Opply — 46 operation(s) for admin panel.
   name: Opply Admin panel API
   slug: opply-admin-panel-api
-- description: The Agents API from Opply — 7 operation(s) for agents.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Agents API from Opply — 7 operation(s) for agents.
   name: Opply Agents API
   slug: opply-agents-api
-- description: The Agreements API from Opply — 10 operation(s) for agreements.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Agreements API from Opply — 10 operation(s) for agreements.
   name: Opply Agreements API
   slug: opply-agreements-api
-- description: The api API from Opply — 122 operation(s) for api.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The api API from Opply — 122 operation(s) for api.
   name: Opply api API
   slug: opply-api-api
-- description: The App Orders API from Opply — 126 operation(s) for app orders.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The App Orders API from Opply — 126 operation(s) for app orders.
   name: Opply App Orders API
   slug: opply-app-orders-api
-- description: The Brain API from Opply — 1 operation(s) for brain.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Brain API from Opply — 1 operation(s) for brain.
   name: Opply Brain API
   slug: opply-brain-api
-- description: The Brands API from Opply — 24 operation(s) for brands.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Brands API from Opply — 24 operation(s) for brands.
   name: Opply Brands API
   slug: opply-brands-api
-- description: The Buyer Documents API from Opply — 6 operation(s) for buyer documents.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Buyer Documents API from Opply — 6 operation(s) for buyer documents.
   name: Opply Buyer Documents API
   slug: opply-buyer-documents-api
-- description: The Buyer Financial Documents API from Opply — 2 operation(s) for buyer financial documents.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Buyer Financial Documents API from Opply — 2 operation(s) for buyer financial documents.
   name: Opply Buyer Financial Documents API
   slug: opply-buyer-financial-documents-api
-- description: The Buyer Onboarding API from Opply — 21 operation(s) for buyer onboarding.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Buyer Onboarding API from Opply — 21 operation(s) for buyer onboarding.
   name: Opply Buyer Onboarding API
   slug: opply-buyer-onboarding-api
-- description: The Buyer self-onboarding API from Opply — 16 operation(s) for buyer self-onboarding.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Buyer self-onboarding API from Opply — 16 operation(s) for buyer self-onboarding.
   name: Opply Buyer self-onboarding API
   slug: opply-buyer-self-onboarding-api
-- description: The Buyers API from Opply — 3 operation(s) for buyers.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Buyers API from Opply — 3 operation(s) for buyers.
   name: Opply Buyers API
   slug: opply-buyers-api
-- description: The Canny API from Opply — 1 operation(s) for canny.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Canny API from Opply — 1 operation(s) for canny.
   name: Opply Canny API
   slug: opply-canny-api
-- description: The Catalog API from Opply — 10 operation(s) for catalog.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Catalog API from Opply — 10 operation(s) for catalog.
   name: Opply Catalog API
   slug: opply-catalog-api
-- description: The Chats API from Opply — 7 operation(s) for chats.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Chats API from Opply — 7 operation(s) for chats.
   name: Opply Chats API
   slug: opply-chats-api
-- description: The Companies API from Opply — 27 operation(s) for companies.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Companies API from Opply — 27 operation(s) for companies.
   name: Opply Companies API
   slug: opply-companies-api
-- description: The Credibility API from Opply — 1 operation(s) for credibility.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Credibility API from Opply — 1 operation(s) for credibility.
   name: Opply Credibility API
   slug: opply-credibility-api
-- description: The Customer Status API from Opply — 2 operation(s) for customer status.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Customer Status API from Opply — 2 operation(s) for customer status.
   name: Opply Customer Status API
   slug: opply-customer-status-api
-- description: The Deals API from Opply — 6 operation(s) for deals.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Deals API from Opply — 6 operation(s) for deals.
   name: Opply Deals API
   slug: opply-deals-api
-- description: The Files API from Opply — 12 operation(s) for files.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Files API from Opply — 12 operation(s) for files.
   name: Opply Files API
   slug: opply-files-api
-- description: The Ingredients API from Opply — 8 operation(s) for ingredients.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Ingredients API from Opply — 8 operation(s) for ingredients.
   name: Opply Ingredients API
   slug: opply-ingredients-api
-- description: The Inquiries API from Opply — 20 operation(s) for inquiries.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Inquiries API from Opply — 20 operation(s) for inquiries.
   name: Opply Inquiries API
   slug: opply-inquiries-api
-- description: The InquiryDeliveryAddresses API from Opply — 1 operation(s) for inquirydeliveryaddresses.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The InquiryDeliveryAddresses API from Opply — 1 operation(s) for inquirydeliveryaddresses.
   name: Opply InquiryDeliveryAddresses API
   slug: opply-inquirydeliveryaddresses-api
-- description: The Insights API from Opply — 2 operation(s) for insights.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Insights API from Opply — 2 operation(s) for insights.
   name: Opply Insights API
   slug: opply-insights-api
-- description: The Integrations API from Opply — 1 operation(s) for integrations.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Integrations API from Opply — 1 operation(s) for integrations.
   name: Opply Integrations API
   slug: opply-integrations-api
-- description: The Masquerade API from Opply — 2 operation(s) for masquerade.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Masquerade API from Opply — 2 operation(s) for masquerade.
   name: Opply Masquerade API
   slug: opply-masquerade-api
-- description: The Merchant of Record API from Opply — 3 operation(s) for merchant of record.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Merchant of Record API from Opply — 3 operation(s) for merchant of record.
   name: Opply Merchant of Record API
   slug: opply-merchant-of-record-api
-- description: The Notes API from Opply — 2 operation(s) for notes.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Notes API from Opply — 2 operation(s) for notes.
   name: Opply Notes API
   slug: opply-notes-api
-- description: The Notifications API from Opply — 12 operation(s) for notifications.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Notifications API from Opply — 12 operation(s) for notifications.
   name: Opply Notifications API
   slug: opply-notifications-api
-- description: The Opply Documents API from Opply — 7 operation(s) for opply documents.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Opply Documents API from Opply — 7 operation(s) for opply documents.
   name: Opply Opply Documents API
   slug: opply-opply-documents-api
-- description: The Order Management Contracts API from Opply — 3 operation(s) for order management contracts.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Order Management Contracts API from Opply — 3 operation(s) for order management contracts.
   name: Opply Order Management Contracts API
   slug: opply-order-management-contracts-api
-- description: The Orders API from Opply — 21 operation(s) for orders.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Orders API from Opply — 21 operation(s) for orders.
   name: Opply Orders API
   slug: opply-orders-api
-- description: The Public Buyer Onboarding API from Opply — 23 operation(s) for public buyer onboarding.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Public Buyer Onboarding API from Opply — 23 operation(s) for public buyer onboarding.
   name: Opply Public Buyer Onboarding API
   slug: opply-public-buyer-onboarding-api
-- description: The QuoteDispatchAddresses API from Opply — 1 operation(s) for quotedispatchaddresses.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The QuoteDispatchAddresses API from Opply — 1 operation(s) for quotedispatchaddresses.
   name: Opply QuoteDispatchAddresses API
   slug: opply-quotedispatchaddresses-api
-- description: The Quotes API from Opply — 35 operation(s) for quotes.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Quotes API from Opply — 35 operation(s) for quotes.
   name: Opply Quotes API
   slug: opply-quotes-api
-- description: The Rapyd API from Opply — 12 operation(s) for rapyd.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Rapyd API from Opply — 12 operation(s) for rapyd.
   name: Opply Rapyd API
   slug: opply-rapyd-api
-- description: The Recommendations API from Opply — 11 operation(s) for recommendations.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Recommendations API from Opply — 11 operation(s) for recommendations.
   name: Opply Recommendations API
   slug: opply-recommendations-api
-- description: The Registration Validation API from Opply — 2 operation(s) for registration validation.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Registration Validation API from Opply — 2 operation(s) for registration validation.
   name: Opply Registration Validation API
   slug: opply-registration-validation-api
-- description: The Sourcing API from Opply — 6 operation(s) for sourcing.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Sourcing API from Opply — 6 operation(s) for sourcing.
   name: Opply Sourcing API
   slug: opply-sourcing-api
-- description: The SSO API from Opply — 1 operation(s) for sso.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The SSO API from Opply — 1 operation(s) for sso.
   name: Opply SSO API
   slug: opply-sso-api
-- description: The Suppliers API from Opply — 41 operation(s) for suppliers.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Suppliers API from Opply — 41 operation(s) for suppliers.
   name: Opply Suppliers API
   slug: opply-suppliers-api
-- description: The System Tasks API from Opply — 5 operation(s) for system tasks.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The System Tasks API from Opply — 5 operation(s) for system tasks.
   name: Opply System Tasks API
   slug: opply-system-tasks-api
-- description: The Tasks API from Opply — 17 operation(s) for tasks.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Tasks API from Opply — 17 operation(s) for tasks.
   name: Opply Tasks API
   slug: opply-tasks-api
-- description: The Users API from Opply — 18 operation(s) for users.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Users API from Opply — 18 operation(s) for users.
   name: Opply Users API
   slug: opply-users-api
-- description: The Welcome Modal API from Opply — 1 operation(s) for welcome modal.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The Welcome Modal API from Opply — 1 operation(s) for welcome modal.
   name: Opply Welcome Modal API
   slug: opply-welcome-modal-api
-- description: The .well-known API from Opply — 3 operation(s) for .well-known.
+- baseURL: https://api.opply.com
+  baseurl_source: declared
+  description: The .well-known API from Opply — 3 operation(s) for .well-known.
   name: Opply .well-known API
   slug: opply-well-known-api
 artifact_total: 100
@@ -470,7 +564,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/screenshots/opply-2026-08-07T190741.png
 security:

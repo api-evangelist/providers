@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 71 operations · 40 acting
 api_count: 1
 apis:
-- description: Serialized fixed (rentable) assets and GPS location tracking.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Serialized fixed (rentable) assets and GPS location tracking.
   name: EZRentOut Assets API
   slug: ezrentout-assets-api
-- description: Booked dates and per-location quantity for scheduling.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Booked dates and per-location quantity for scheduling.
   name: EZRentOut Availability API
   slug: ezrentout-availability-api
-- description: Reusable kits of assets and inventory rented together.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Reusable kits of assets and inventory rented together.
   name: EZRentOut Bundles API
   slug: ezrentout-bundles-api
-- description: Customers, businesses, and business contacts, with addresses.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Customers, businesses, and business contacts, with addresses.
   name: EZRentOut Customers API
   slug: ezrentout-customers-api
-- description: Volatile assets (inventory) and asset stock, with per-location stock.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Volatile assets (inventory) and asset stock, with per-location stock.
   name: EZRentOut Inventory API
   slug: ezrentout-inventory-api
-- description: Warehouses / branches that hold assets and inventory.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Warehouses / branches that hold assets and inventory.
   name: EZRentOut Locations API
   slug: ezrentout-locations-api
-- description: Service records and work orders (tasks) to keep equipment serviceable.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Service records and work orders (tasks) to keep equipment serviceable.
   name: EZRentOut Maintenance API
   slug: ezrentout-maintenance-api
-- description: Staff members (users) of the rental account.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Staff members (users) of the rental account.
   name: EZRentOut Members API
   slug: ezrentout-members-api
-- description: Rental orders, called baskets - draft, reserve, check out, and check in.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Rental orders, called baskets - draft, reserve, check out, and check in.
   name: EZRentOut Orders API
   slug: ezrentout-orders-api
-- description: Order payments, taxes, coupons, and damage charges (invoicing).
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Order payments, taxes, coupons, and damage charges (invoicing).
   name: EZRentOut Payments API
   slug: ezrentout-payments-api
-- description: Procurement - purchase orders and vendors.
+- baseURL: https://{subdomain}.ezrentout.com
+  baseurl_source: declared
+  description: Procurement - purchase orders and vendors.
   name: EZRentOut Purchase Orders API
   slug: ezrentout-purchase-orders-api
 artifact_total: 31
@@ -219,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezrentout/refs/heads/main/screenshots/ezrentout-2026-07-25T214101.png
 security:

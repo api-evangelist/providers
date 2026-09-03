@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 4
 apis:
-- description: Manage API definitions and designs.
+- baseURL: https://api.apigit.com/v1
+  baseurl_source: declared
+  description: Manage API definitions and designs.
   name: APIGit APIs API
   slug: apigit-apis-api
-- description: Manage dynamic mock servers.
+- baseURL: https://api.apigit.com/v1
+  baseurl_source: declared
+  description: Manage dynamic mock servers.
   name: APIGit Mocks API
   slug: apigit-mocks-api
-- description: Manage API Git repositories.
+- baseURL: https://api.apigit.com/v1
+  baseurl_source: declared
+  description: Manage API Git repositories.
   name: APIGit Repositories API
   slug: apigit-repositories-api
-- description: Manage API tests.
+- baseURL: https://api.apigit.com/v1
+  baseurl_source: declared
+  description: Manage API tests.
   name: APIGit Tests API
   slug: apigit-tests-api
 artifact_total: 38
@@ -235,7 +243,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/screenshots/apigit-2026-06-20T172238.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 32 operations · 23 acting
 api_count: 1
 apis:
-- description: Account balance and user information
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Account balance and user information
   name: Stannp Account API
   slug: stannp-account-api
-- description: Manage batch direct mail campaigns
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Manage batch direct mail campaigns
   name: Stannp Campaigns API
   slug: stannp-campaigns-api
-- description: Record recipient engagement and conversion events
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Record recipient engagement and conversion events
   name: Stannp Events API
   slug: stannp-events-api
-- description: Manage recipient groups
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Manage recipient groups
   name: Stannp Groups API
   slug: stannp-groups-api
-- description: Create, post, retrieve, and cancel letter mailpieces
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Create, post, retrieve, and cancel letter mailpieces
   name: Stannp Letters API
   slug: stannp-letters-api
-- description: Create, retrieve, and cancel postcard mailpieces
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Create, retrieve, and cancel postcard mailpieces
   name: Stannp Postcards API
   slug: stannp-postcards-api
-- description: Manage individual recipients and bulk imports
+- baseURL: https://api-eu1.stannp.com/v1/
+  baseurl_source: declared
+  description: Manage individual recipients and bulk imports
   name: Stannp Recipients API
   slug: stannp-recipients-api
 artifact_total: 33
@@ -336,7 +350,7 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -346,7 +360,7 @@ score:
     discoverability: 75.9
     governance: 43.2
     operational_transparency: 68.4
-  previous_composite: 78.3
+  previous_composite: 78.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -364,7 +378,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/screenshots/stannp-2026-06-20T194506.png
 security:

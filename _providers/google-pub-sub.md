@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 12 acting
 api_count: 1
 apis:
-- description: Publish messages to topics
+- baseURL: https://pubsub.googleapis.com
+  baseurl_source: spec
+  description: Publish messages to topics
   name: Google Pub/Sub Publish API
   slug: google-pub-sub-publish-api
-- description: Manage Pub/Sub schemas
+- baseURL: https://pubsub.googleapis.com
+  baseurl_source: spec
+  description: Manage Pub/Sub schemas
   name: Google Pub/Sub Schemas API
   slug: google-pub-sub-schemas-api
-- description: Manage subscription snapshots
+- baseURL: https://pubsub.googleapis.com
+  baseurl_source: spec
+  description: Manage subscription snapshots
   name: Google Pub/Sub Snapshots API
   slug: google-pub-sub-snapshots-api
-- description: Pull and acknowledge messages
+- baseURL: https://pubsub.googleapis.com
+  baseurl_source: spec
+  description: Pull and acknowledge messages
   name: Google Pub/Sub Subscribe API
   slug: google-pub-sub-subscribe-api
-- description: Manage Pub/Sub subscriptions
+- baseURL: https://pubsub.googleapis.com
+  baseurl_source: spec
+  description: Manage Pub/Sub subscriptions
   name: Google Pub/Sub Subscriptions API
   slug: google-pub-sub-subscriptions-api
-- description: Manage Pub/Sub topics
+- baseURL: https://pubsub.googleapis.com
+  baseurl_source: spec
+  description: Manage Pub/Sub topics
   name: Google Pub/Sub Topics API
   slug: google-pub-sub-topics-api
 artifact_total: 25
@@ -200,7 +212,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -210,7 +222,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 39.0
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/screenshots/google-pub-sub-2026-06-20T182227.png
 security:

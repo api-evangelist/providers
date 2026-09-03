@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
-- description: Track and manage facility assets and equipment.
+- baseURL: https://am-ce98c.corrigo.com/api/v1
+  baseurl_source: declared
+  description: Track and manage facility assets and equipment.
   name: Jones Lang LaSalle Assets API
   slug: jones-lang-lasalle-assets-api
-- description: Manage contacts including vendors and tenants.
+- baseURL: https://am-ce98c.corrigo.com/api/v1
+  baseurl_source: declared
+  description: Manage contacts including vendors and tenants.
   name: Jones Lang LaSalle Contacts API
   slug: jones-lang-lasalle-contacts-api
-- description: Manage building and space locations.
+- baseURL: https://am-ce98c.corrigo.com/api/v1
+  baseurl_source: declared
+  description: Manage building and space locations.
   name: Jones Lang LaSalle Locations API
   slug: jones-lang-lasalle-locations-api
-- description: Create and manage work orders for facility maintenance.
+- baseURL: https://am-ce98c.corrigo.com/api/v1
+  baseurl_source: declared
+  description: Create and manage work orders for facility maintenance.
   name: Jones Lang LaSalle Work Orders API
   slug: jones-lang-lasalle-work-orders-api
 artifact_total: 16
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

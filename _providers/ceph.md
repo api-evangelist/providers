@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 18 operations · 12 acting
 api_count: 1
 apis:
-- description: The Auth API from Ceph — 3 operation(s) for auth.
+- baseURL: https://{manager_host}:{dashboard_port}/api
+  baseurl_source: declared
+  description: The Auth API from Ceph — 3 operation(s) for auth.
   name: Ceph Auth API
   slug: ceph-auth-api
-- description: The Cluster API from Ceph — 1 operation(s) for cluster.
+- baseURL: https://{manager_host}:{dashboard_port}/api
+  baseurl_source: declared
+  description: The Cluster API from Ceph — 1 operation(s) for cluster.
   name: Ceph Cluster API
   slug: ceph-cluster-api
-- description: The Configuration API from Ceph — 3 operation(s) for configuration.
+- baseURL: https://{manager_host}:{dashboard_port}/api
+  baseurl_source: declared
+  description: The Configuration API from Ceph — 3 operation(s) for configuration.
   name: Ceph Configuration API
   slug: ceph-configuration-api
-- description: The CRUSH API from Ceph — 2 operation(s) for crush.
+- baseURL: https://{manager_host}:{dashboard_port}/api
+  baseurl_source: declared
+  description: The CRUSH API from Ceph — 2 operation(s) for crush.
   name: Ceph CRUSH API
   slug: ceph-crush-api
-- description: The Daemon API from Ceph — 2 operation(s) for daemon.
+- baseURL: https://{manager_host}:{dashboard_port}/api
+  baseurl_source: declared
+  description: The Daemon API from Ceph — 2 operation(s) for daemon.
   name: Ceph Daemon API
   slug: ceph-daemon-api
-- description: The User API from Ceph — 2 operation(s) for user.
+- baseURL: https://{manager_host}:{dashboard_port}/api
+  baseurl_source: declared
+  description: The User API from Ceph — 2 operation(s) for user.
   name: Ceph User API
   slug: ceph-user-api
 artifact_total: 18
@@ -172,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/screenshots/ceph-2026-06-20T174133.png
 security:

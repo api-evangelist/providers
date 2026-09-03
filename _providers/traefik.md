@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,22 +73,34 @@ apis:
 - description: Lightweight service mesh built on Traefik Proxy. Offers traffic management and observability for service-to-service communication inside a Kubernetes cluster.
   name: Traefik Mesh
   slug: traefik-mesh
-- description: Endpoints for listing configured entry points.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Endpoints for listing configured entry points.
   name: Traefik Labs Entrypoints API
   slug: traefik-entrypoints-api
-- description: Health check and ping endpoints for liveness probes.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Health check and ping endpoints for liveness probes.
   name: Traefik Labs Health API
   slug: traefik-health-api
-- description: Endpoints for inspecting HTTP routers, services, and middlewares.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Endpoints for inspecting HTTP routers, services, and middlewares.
   name: Traefik Labs HTTP API
   slug: traefik-http-api
-- description: Overview and version information for the running Traefik instance.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Overview and version information for the running Traefik instance.
   name: Traefik Labs Overview API
   slug: traefik-overview-api
-- description: Endpoints for inspecting TCP routers, services, and middlewares.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Endpoints for inspecting TCP routers, services, and middlewares.
   name: Traefik Labs TCP API
   slug: traefik-tcp-api
-- description: Endpoints for inspecting UDP routers and services.
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Endpoints for inspecting UDP routers and services.
   name: Traefik Labs UDP API
   slug: traefik-udp-api
 artifact_total: 40
@@ -410,7 +422,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png
 security:

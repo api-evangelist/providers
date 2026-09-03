@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: 'RESTful endpoints for delivering text messages from platforms external to the Wunderkind ecosystem (ESP, CDP, etc.): single and bulk sends of up to 50,000 messages per request, message status lookup, '
   name: Wunderkind Text Message API
   slug: wunderkind-text-message-api
-- description: Email sending operations
+- baseURL: https://api.wunderkind.co
+  baseurl_source: declared
+  description: Email sending operations
   name: Wunderkind Email API
   slug: wunderkind-email-api
-- description: The Id Resolution API from Wunderkind — 3 operation(s) for id resolution.
+- baseURL: https://api.wunderkind.co
+  baseurl_source: declared
+  description: The Id Resolution API from Wunderkind — 3 operation(s) for id resolution.
   name: Wunderkind Id Resolution API
   slug: wunderkind-id-resolution-api
-- description: The Identity API from Wunderkind — 2 operation(s) for identity.
+- baseURL: https://api.wunderkind.co
+  baseurl_source: declared
+  description: The Identity API from Wunderkind — 2 operation(s) for identity.
   name: Wunderkind Identity API
   slug: wunderkind-identity-api
-- description: The Send Event API from Wunderkind — 11 operation(s) for send event.
+- baseURL: https://api.wunderkind.co
+  baseurl_source: declared
+  description: The Send Event API from Wunderkind — 11 operation(s) for send event.
   name: Wunderkind Send Event API
   slug: wunderkind-send-event-api
-- description: The Ucrm API from Wunderkind — 2 operation(s) for ucrm.
+- baseURL: https://api.wunderkind.co
+  baseurl_source: declared
+  description: The Ucrm API from Wunderkind — 2 operation(s) for ucrm.
   name: Wunderkind Ucrm API
   slug: wunderkind-ucrm-api
-- description: The Signals Wunderhook consumer contract — the single POST endpoint a client stands up to RECEIVE Wunderkind Signals webhook deliveries. The base URL is therefore templated and client-owned (https://{
+- baseURL: https://{yourendpoint}
+  baseurl_source: declared
+  description: The Signals Wunderhook consumer contract — the single POST endpoint a client stands up to RECEIVE Wunderkind Signals webhook deliveries. The base URL is therefore templated and client-owned (https://{
   name: Wunderkind Wunderhook API
   slug: wunderkind-wunderhook-api
 artifact_total: 27
@@ -312,7 +324,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -322,7 +334,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 57.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,7 +352,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/screenshots/wunderkind-2026-08-17T082958.png
 security:

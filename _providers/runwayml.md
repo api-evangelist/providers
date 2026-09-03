@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 9 operations · 7 acting
 api_count: 1
 apis:
-- description: Drive a character with a reference performance (Act-Two).
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Drive a character with a reference performance (Act-Two).
   name: Runway Character Performance API
   slug: runwayml-character-performance-api
-- description: Generate video from an image and prompt (Gen-4 Turbo, Gen-4.5).
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate video from an image and prompt (Gen-4 Turbo, Gen-4.5).
   name: Runway Image-to-Video API
   slug: runwayml-image-to-video-api
-- description: Usage tier and credit balance for the API organization.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Usage tier and credit balance for the API organization.
   name: Runway Organization API
   slug: runwayml-organization-api
-- description: Poll and cancel asynchronous generation tasks.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Poll and cancel asynchronous generation tasks.
   name: Runway Tasks API
   slug: runwayml-tasks-api
-- description: Generate images from a prompt (Gen-4 Image, Gen-4 Image Turbo).
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate images from a prompt (Gen-4 Image, Gen-4 Image Turbo).
   name: Runway Text-to-Image API
   slug: runwayml-text-to-image-api
-- description: Synthesize speech audio from text.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Synthesize speech audio from text.
   name: Runway Text-to-Speech API
   slug: runwayml-text-to-speech-api
-- description: Upscale a video to higher resolution.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Upscale a video to higher resolution.
   name: Runway Upscale API
   slug: runwayml-upscale-api
-- description: Edit / restyle an existing video (Aleph).
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Edit / restyle an existing video (Aleph).
   name: Runway Video-to-Video API
   slug: runwayml-video-to-video-api
 artifact_total: 26
@@ -227,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runwayml/refs/heads/main/screenshots/runwayml-2026-06-20T193258.png
 security:

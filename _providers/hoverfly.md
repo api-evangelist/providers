@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 42 operations · 23 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Inspect and clear the cache of matched request-response pairs.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Inspect and clear the cache of matched request-response pairs.
   name: Hoverfly Cache API
   slug: hoverfly-cache-api
-- description: Inspect and clear response difference reports.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Inspect and clear response difference reports.
   name: Hoverfly Diff API
   slug: hoverfly-diff-api
-- description: Manage Hoverfly runtime configuration.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Manage Hoverfly runtime configuration.
   name: Hoverfly Hoverfly API
   slug: hoverfly-hoverfly-api
-- description: Inspect and filter the journal of intercepted requests.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Inspect and filter the journal of intercepted requests.
   name: Hoverfly Journal API
   slug: hoverfly-journal-api
-- description: Retrieve runtime logs.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Retrieve runtime logs.
   name: Hoverfly Logs API
   slug: hoverfly-logs-api
-- description: Manage post-serve actions executed after responses are served.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Manage post-serve actions executed after responses are served.
   name: Hoverfly Post-Serve Actions API
   slug: hoverfly-post-serve-actions-api
-- description: Manage simulation request-response pairs and metadata.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Manage simulation request-response pairs and metadata.
   name: Hoverfly Simulation API
   slug: hoverfly-simulation-api
-- description: Manage stateful keys used during simulation.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Manage stateful keys used during simulation.
   name: Hoverfly State API
   slug: hoverfly-state-api
-- description: System-level controls.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: System-level controls.
   name: Hoverfly System API
   slug: hoverfly-system-api
-- description: Manage CSV-based templating data sources.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Manage CSV-based templating data sources.
   name: Hoverfly Templating Data API
   slug: hoverfly-templating-data-api
 artifact_total: 27
@@ -207,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/screenshots/hoverfly-2026-06-20T182852.png
 security:

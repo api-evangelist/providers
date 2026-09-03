@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 18 operations
 api_count: 1
 apis:
-- description: The Detailed Info API from Rotten Tomatoes — 6 operation(s) for detailed info.
+- baseURL: http://api.rottentomatoes.com/api/public/v1.0
+  baseurl_source: declared
+  description: The Detailed Info API from Rotten Tomatoes — 6 operation(s) for detailed info.
   name: Rotten Tomatoes Detailed Info API
   slug: rottentomatoes-detailed-info-api
-- description: The DVD Lists API from Rotten Tomatoes — 4 operation(s) for dvd lists.
+- baseURL: http://api.rottentomatoes.com/api/public/v1.0
+  baseurl_source: declared
+  description: The DVD Lists API from Rotten Tomatoes — 4 operation(s) for dvd lists.
   name: Rotten Tomatoes DVD Lists API
   slug: rottentomatoes-dvd-lists-api
-- description: The Movie Lists API from Rotten Tomatoes — 4 operation(s) for movie lists.
+- baseURL: http://api.rottentomatoes.com/api/public/v1.0
+  baseurl_source: declared
+  description: The Movie Lists API from Rotten Tomatoes — 4 operation(s) for movie lists.
   name: Rotten Tomatoes Movie Lists API
   slug: rottentomatoes-movie-lists-api
-- description: The Search API from Rotten Tomatoes — 1 operation(s) for search.
+- baseURL: http://api.rottentomatoes.com/api/public/v1.0
+  baseurl_source: declared
+  description: The Search API from Rotten Tomatoes — 1 operation(s) for search.
   name: Rotten Tomatoes Search API
   slug: rottentomatoes-search-api
-- description: The Top Level Lists API from Rotten Tomatoes — 3 operation(s) for top level lists.
+- baseURL: http://api.rottentomatoes.com/api/public/v1.0
+  baseurl_source: declared
+  description: The Top Level Lists API from Rotten Tomatoes — 3 operation(s) for top level lists.
   name: Rotten Tomatoes Top Level Lists API
   slug: rottentomatoes-top-level-lists-api
 artifact_total: 27
@@ -221,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/screenshots/rottentomatoes-2026-08-17T081638.png
 security:

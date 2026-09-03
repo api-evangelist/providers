@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: IMB Bank Banking Account Balances API
   slug: imb-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: IMB Bank Banking Account Direct Debits API
   slug: imb-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: IMB Bank Banking Account Scheduled Payments API
   slug: imb-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: IMB Bank Banking Account Transactions API
   slug: imb-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: IMB Bank Banking Accounts API
   slug: imb-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: IMB Bank Banking Payees API
   slug: imb-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://openbank.openbanking.imb.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: IMB Bank Banking Products API
   slug: imb-bank-banking-products-api
 artifact_total: 20
@@ -266,7 +280,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: whylogs is an open-source data logging library that creates approximate statistical profiles of datasets, enabling drift detection, data quality monitoring, and bias analysis for ML pipelines. Support
@@ -170,7 +170,7 @@ score:
     score: 65.0
   previous_composite: 25.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whylabs/refs/heads/main/screenshots/whylabs-2026-06-20T201448.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -44,157 +44,259 @@ agentic_access:
   summary_line: 197 operations · 112 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The AI Interaction Logs API from Miro — 1 operation(s) for ai interaction logs.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The AI Interaction Logs API from Miro — 1 operation(s) for ai interaction logs.
   name: Miro AI Interaction Logs API
   slug: miro-ai-interaction-logs-api
-- description: The App card items API from Miro — 2 operation(s) for app card items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The App card items API from Miro — 2 operation(s) for app card items.
   name: Miro App card items API
   slug: miro-app-card-items-api
-- description: The App metrics (experimental) API from Miro — 2 operation(s) for app metrics (experimental).
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The App metrics (experimental) API from Miro — 2 operation(s) for app metrics (experimental).
   name: Miro App metrics (experimental) API
   slug: miro-app-metrics-experimental-api
-- description: The Audit Logs API from Miro — 1 operation(s) for audit logs.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Audit Logs API from Miro — 1 operation(s) for audit logs.
   name: Miro Audit Logs API
   slug: miro-audit-logs-api
-- description: 'The Board classification: Board level API from Miro — 1 operation(s) for board classification: board level.'
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: 'The Board classification: Board level API from Miro — 1 operation(s) for board classification: board level.'
   name: 'Miro Board classification: Board level API'
   slug: miro-board-classification-board-level-api
-- description: 'The Board classification: Organization level API from Miro — 1 operation(s) for board classification: organization level.'
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: 'The Board classification: Organization level API from Miro — 1 operation(s) for board classification: organization level.'
   name: 'Miro Board classification: Organization level API'
   slug: miro-board-classification-organization-level-api
-- description: 'The Board classification: Team level API from Miro — 2 operation(s) for board classification: team level.'
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: 'The Board classification: Team level API from Miro — 2 operation(s) for board classification: team level.'
   name: 'Miro Board classification: Team level API'
   slug: miro-board-classification-team-level-api
-- description: The Board Content Logs API from Miro — 1 operation(s) for board content logs.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Board Content Logs API from Miro — 1 operation(s) for board content logs.
   name: Miro Board Content Logs API
   slug: miro-board-content-logs-api
-- description: The Board Export API from Miro — 6 operation(s) for board export.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Board Export API from Miro — 6 operation(s) for board export.
   name: Miro Board Export API
   slug: miro-board-export-api
-- description: The Board members API from Miro — 2 operation(s) for board members.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Board members API from Miro — 2 operation(s) for board members.
   name: Miro Board members API
   slug: miro-board-members-api
-- description: The Boards API from Miro — 2 operation(s) for boards.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Boards API from Miro — 2 operation(s) for boards.
   name: Miro Boards API
   slug: miro-boards-api
-- description: The Bulk operations API from Miro — 2 operation(s) for bulk operations.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Bulk operations API from Miro — 2 operation(s) for bulk operations.
   name: Miro Bulk operations API
   slug: miro-bulk-operations-api
-- description: The Card items API from Miro — 2 operation(s) for card items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Card items API from Miro — 2 operation(s) for card items.
   name: Miro Card items API
   slug: miro-card-items-api
-- description: The Code widget items (experimental) API from Miro — 3 operation(s) for code widget items (experimental).
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Code widget items (experimental) API from Miro — 3 operation(s) for code widget items (experimental).
   name: Miro Code widget items (experimental) API
   slug: miro-code-widget-items-experimental-api
-- description: The Connectors API from Miro — 2 operation(s) for connectors.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Connectors API from Miro — 2 operation(s) for connectors.
   name: Miro Connectors API
   slug: miro-connectors-api
-- description: The Discovery API from Miro — 5 operation(s) for discovery.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Discovery API from Miro — 5 operation(s) for discovery.
   name: Miro Discovery API
   slug: miro-discovery-api
-- description: The doc formats API from Miro — 2 operation(s) for doc formats.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The doc formats API from Miro — 2 operation(s) for doc formats.
   name: Miro doc formats API
   slug: miro-doc-formats-api
-- description: The Document items API from Miro — 2 operation(s) for document items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Document items API from Miro — 2 operation(s) for document items.
   name: Miro Document items API
   slug: miro-document-items-api
-- description: The documents API from Miro — 2 operation(s) for documents.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The documents API from Miro — 2 operation(s) for documents.
   name: Miro documents API
   slug: miro-documents-api
-- description: The Embed items API from Miro — 2 operation(s) for embed items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Embed items API from Miro — 2 operation(s) for embed items.
   name: Miro Embed items API
   slug: miro-embed-items-api
-- description: The Flowchart shapes (experimental) API from Miro — 4 operation(s) for flowchart shapes (experimental).
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Flowchart shapes (experimental) API from Miro — 4 operation(s) for flowchart shapes (experimental).
   name: Miro Flowchart shapes (experimental) API
   slug: miro-flowchart-shapes-experimental-api
-- description: The frames API from Miro — 2 operation(s) for frames.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The frames API from Miro — 2 operation(s) for frames.
   name: Miro frames API
   slug: miro-frames-api
-- description: The Group API from Miro — 2 operation(s) for group.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Group API from Miro — 2 operation(s) for group.
   name: Miro Group API
   slug: miro-group-api
-- description: The groups API from Miro — 4 operation(s) for groups.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The groups API from Miro — 4 operation(s) for groups.
   name: Miro groups API
   slug: miro-groups-api
-- description: The Image items API from Miro — 2 operation(s) for image items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Image items API from Miro — 2 operation(s) for image items.
   name: Miro Image items API
   slug: miro-image-items-api
-- description: The images API from Miro — 2 operation(s) for images.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The images API from Miro — 2 operation(s) for images.
   name: Miro images API
   slug: miro-images-api
-- description: The Items API from Miro — 4 operation(s) for items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Items API from Miro — 4 operation(s) for items.
   name: Miro Items API
   slug: miro-items-api
-- description: The Legal holds API from Miro — 6 operation(s) for legal holds.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Legal holds API from Miro — 6 operation(s) for legal holds.
   name: Miro Legal holds API
   slug: miro-legal-holds-api
-- description: The Mind map nodes (experimental) API from Miro — 2 operation(s) for mind map nodes (experimental).
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Mind map nodes (experimental) API from Miro — 2 operation(s) for mind map nodes (experimental).
   name: Miro Mind map nodes (experimental) API
   slug: miro-mind-map-nodes-experimental-api
-- description: The OAuth API from Miro — 1 operation(s) for oauth.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The OAuth API from Miro — 1 operation(s) for oauth.
   name: Miro OAuth API
   slug: miro-oauth-api
-- description: The Organization Members API from Miro — 2 operation(s) for organization members.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Organization Members API from Miro — 2 operation(s) for organization members.
   name: Miro Organization Members API
   slug: miro-organization-members-api
-- description: The Organizations API from Miro — 1 operation(s) for organizations.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Organizations API from Miro — 1 operation(s) for organizations.
   name: Miro Organizations API
   slug: miro-organizations-api
-- description: The Project Members API from Miro — 2 operation(s) for project members.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Project Members API from Miro — 2 operation(s) for project members.
   name: Miro Project Members API
   slug: miro-project-members-api
-- description: The Project Settings API from Miro — 1 operation(s) for project settings.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Project Settings API from Miro — 1 operation(s) for project settings.
   name: Miro Project Settings API
   slug: miro-project-settings-api
-- description: The Projects API from Miro — 2 operation(s) for projects.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Projects API from Miro — 2 operation(s) for projects.
   name: Miro Projects API
   slug: miro-projects-api
-- description: The Reset all sessions of a user API from Miro — 1 operation(s) for reset all sessions of a user.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Reset all sessions of a user API from Miro — 1 operation(s) for reset all sessions of a user.
   name: Miro Reset all sessions of a user API
   slug: miro-reset-all-sessions-of-a-user-api
-- description: The Shape items API from Miro — 2 operation(s) for shape items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Shape items API from Miro — 2 operation(s) for shape items.
   name: Miro Shape items API
   slug: miro-shape-items-api
-- description: The Share boards with groups API from Miro — 2 operation(s) for share boards with groups.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Share boards with groups API from Miro — 2 operation(s) for share boards with groups.
   name: Miro Share boards with groups API
   slug: miro-share-boards-with-groups-api
-- description: The Share projects with groups API from Miro — 2 operation(s) for share projects with groups.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Share projects with groups API from Miro — 2 operation(s) for share projects with groups.
   name: Miro Share projects with groups API
   slug: miro-share-projects-with-groups-api
-- description: The Sticky note items API from Miro — 2 operation(s) for sticky note items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Sticky note items API from Miro — 2 operation(s) for sticky note items.
   name: Miro Sticky note items API
   slug: miro-sticky-note-items-api
-- description: The tags API from Miro — 5 operation(s) for tags.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The tags API from Miro — 5 operation(s) for tags.
   name: Miro tags API
   slug: miro-tags-api
-- description: The Team Members API from Miro — 2 operation(s) for team members.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Team Members API from Miro — 2 operation(s) for team members.
   name: Miro Team Members API
   slug: miro-team-members-api
-- description: The Team Settings API from Miro — 2 operation(s) for team settings.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Team Settings API from Miro — 2 operation(s) for team settings.
   name: Miro Team Settings API
   slug: miro-team-settings-api
-- description: The Team user groups API from Miro — 2 operation(s) for team user groups.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Team user groups API from Miro — 2 operation(s) for team user groups.
   name: Miro Team user groups API
   slug: miro-team-user-groups-api
-- description: The Teams API from Miro — 2 operation(s) for teams.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Teams API from Miro — 2 operation(s) for teams.
   name: Miro Teams API
   slug: miro-teams-api
-- description: The Text items API from Miro — 2 operation(s) for text items.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The Text items API from Miro — 2 operation(s) for text items.
   name: Miro Text items API
   slug: miro-text-items-api
-- description: The tokens API from Miro — 2 operation(s) for tokens.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The tokens API from Miro — 2 operation(s) for tokens.
   name: Miro tokens API
   slug: miro-tokens-api
-- description: The User API from Miro — 2 operation(s) for user.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The User API from Miro — 2 operation(s) for user.
   name: Miro User API
   slug: miro-user-api
-- description: The User group members API from Miro — 2 operation(s) for user group members.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The User group members API from Miro — 2 operation(s) for user group members.
   name: Miro User group members API
   slug: miro-user-group-members-api
-- description: The User group to teams API from Miro — 2 operation(s) for user group to teams.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The User group to teams API from Miro — 2 operation(s) for user group to teams.
   name: Miro User group to teams API
   slug: miro-user-group-to-teams-api
-- description: The User groups API from Miro — 2 operation(s) for user groups.
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The User groups API from Miro — 2 operation(s) for user groups.
   name: Miro User groups API
   slug: miro-user-groups-api
 artifact_total: 112
@@ -476,7 +578,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/screenshots/miro-2026-08-07T183725.png
 security:

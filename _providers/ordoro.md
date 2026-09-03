@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -43,85 +43,139 @@ agentic_access:
   summary_line: 243 operations · 164 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: Address objects are used and referenced in Orders shipping and billing addresses, Warehouses, and Suppliers.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Address objects are used and referenced in Orders shipping and billing addresses, Warehouses, and Suppliers.
   name: Ordoro Address API
   slug: ordoro-address-api
-- description: The Api Key API from Ordoro — 2 operation(s) for api key.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Api Key API from Ordoro — 2 operation(s) for api key.
   name: Ordoro Api Key API
   slug: ordoro-api-key-api
-- description: The Authenticated API from Ordoro — 1 operation(s) for authenticated.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Authenticated API from Ordoro — 1 operation(s) for authenticated.
   name: Ordoro Authenticated API
   slug: ordoro-authenticated-api
-- description: Current routes for `/cart/` are sometimes interchangeably referenced as `sales_channel`
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Current routes for `/cart/` are sometimes interchangeably referenced as `sales_channel`
   name: Ordoro Cart API
   slug: ordoro-cart-api
-- description: The Company API from Ordoro — 5 operation(s) for company.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Company API from Ordoro — 5 operation(s) for company.
   name: Ordoro Company API
   slug: ordoro-company-api
-- description: 'Goods Receipts are used for receiving items on a Purchase Order. You may have multiple Goods Receipts per Purchase Order and can have multiple lines and quantities of products related to the Purchase '
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: 'Goods Receipts are used for receiving items on a Purchase Order. You may have multiple Goods Receipts per Purchase Order and can have multiple lines and quantities of products related to the Purchase '
   name: Ordoro Goods Receipt API
   slug: ordoro-goods-receipt-api
-- description: Currently Ordoro offers one type of integration to QuickBooks Online. Orders can be exported from Ordoro to QuickBooks using the integration.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Currently Ordoro offers one type of integration to QuickBooks Online. Orders can be exported from Ordoro to QuickBooks using the integration.
   name: Ordoro Integration API
   slug: ordoro-integration-api
-- description: Labels can be retrieved in a raw image format using the Label endpoints. For order specific labels refer to the Orders section.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Labels can be retrieved in a raw image format using the Label endpoints. For order specific labels refer to the Orders section.
   name: Ordoro Label API
   slug: ordoro-label-api
-- description: Manufacturing Orders are used for creating and tracking Bill of Material orders. A Manufacturing Order is assigned to a warehouse and may have multiple lines and tags.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Manufacturing Orders are used for creating and tracking Bill of Material orders. A Manufacturing Order is assigned to a warehouse and may have multiple lines and tags.
   name: Ordoro Manufacturing Order API
   slug: ordoro-manufacturing-order-api
-- description: Orders are the main level of management in Ordoro. Orders have lines, warehouse associations and can be dropshipped or have labels created for them.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Orders are the main level of management in Ordoro. Orders have lines, warehouse associations and can be dropshipped or have labels created for them.
   name: Ordoro Order API
   slug: ordoro-order-api
-- description: A company or account may have multple packing list formats to be saved, retrieved and used for printing Order information.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: A company or account may have multple packing list formats to be saved, retrieved and used for printing Order information.
   name: Ordoro Packing List API
   slug: ordoro-packing-list-api
-- description: Methods for retrieving postage account information to be used with USPS carriers.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Methods for retrieving postage account information to be used with USPS carriers.
   name: Ordoro Postage Account API
   slug: ordoro-postage-account-api
-- description: The Product API from Ordoro — 21 operation(s) for product.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Product API from Ordoro — 21 operation(s) for product.
   name: Ordoro Product API
   slug: ordoro-product-api
-- description: The Purchase Order API from Ordoro — 12 operation(s) for purchase order.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Purchase Order API from Ordoro — 12 operation(s) for purchase order.
   name: Ordoro Purchase Order API
   slug: ordoro-purchase-order-api
-- description: Rates are cost estimates or quotes provided by a shipping carrier or shipper. These can be retrieved per Order based on the order's package and address details.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: Rates are cost estimates or quotes provided by a shipping carrier or shipper. These can be retrieved per Order based on the order's package and address details.
   name: Ordoro Rate API
   slug: ordoro-rate-api
-- description: The Return Label API from Ordoro — 3 operation(s) for return label.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Return Label API from Ordoro — 3 operation(s) for return label.
   name: Ordoro Return Label API
   slug: ordoro-return-label-api
-- description: The Return Order API from Ordoro — 3 operation(s) for return order.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Return Order API from Ordoro — 3 operation(s) for return order.
   name: Ordoro Return Order API
   slug: ordoro-return-order-api
-- description: The Return Order Label API from Ordoro — 8 operation(s) for return order label.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Return Order Label API from Ordoro — 8 operation(s) for return order label.
   name: Ordoro Return Order Label API
   slug: ordoro-return-order-label-api
-- description: The Return Order Rate API from Ordoro — 7 operation(s) for return order rate.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Return Order Rate API from Ordoro — 7 operation(s) for return order rate.
   name: Ordoro Return Order Rate API
   slug: ordoro-return-order-rate-api
-- description: The Return Tracking API from Ordoro — 2 operation(s) for return tracking.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Return Tracking API from Ordoro — 2 operation(s) for return tracking.
   name: Ordoro Return Tracking API
   slug: ordoro-return-tracking-api
-- description: The Rule API from Ordoro — 3 operation(s) for rule.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Rule API from Ordoro — 3 operation(s) for rule.
   name: Ordoro Rule API
   slug: ordoro-rule-api
-- description: A shipper or carrier account can be created and used to get quotes and generate labels for orders.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: A shipper or carrier account can be created and used to get quotes and generate labels for orders.
   name: Ordoro Shipper API
   slug: ordoro-shipper-api
-- description: The Supplier API from Ordoro — 5 operation(s) for supplier.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Supplier API from Ordoro — 5 operation(s) for supplier.
   name: Ordoro Supplier API
   slug: ordoro-supplier-api
-- description: The Tag API from Ordoro — 3 operation(s) for tag.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Tag API from Ordoro — 3 operation(s) for tag.
   name: Ordoro Tag API
   slug: ordoro-tag-api
-- description: The Tracking API from Ordoro — 2 operation(s) for tracking.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Tracking API from Ordoro — 2 operation(s) for tracking.
   name: Ordoro Tracking API
   slug: ordoro-tracking-api
-- description: The User API from Ordoro — 3 operation(s) for user.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The User API from Ordoro — 3 operation(s) for user.
   name: Ordoro User API
   slug: ordoro-user-api
-- description: The Warehouse API from Ordoro — 3 operation(s) for warehouse.
+- baseURL: https://api.ordoro.com/
+  baseurl_source: declared
+  description: The Warehouse API from Ordoro — 3 operation(s) for warehouse.
   name: Ordoro Warehouse API
   slug: ordoro-warehouse-api
 artifact_total: 216
@@ -819,7 +873,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordoro/refs/heads/main/screenshots/ordoro-2026-06-20T191205.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Purchase order management
+- baseURL: https://api.applied-industrial-technologies.com/v1
+  baseurl_source: spec
+  description: Purchase order management
   name: Applied Industrial Technologies Orders API
   slug: applied-industrial-technologies-orders-api
-- description: Industrial product catalog operations
+- baseURL: https://api.applied-industrial-technologies.com/v1
+  baseurl_source: spec
+  description: Industrial product catalog operations
   name: Applied Industrial Technologies Products API
   slug: applied-industrial-technologies-products-api
 artifact_total: 16
@@ -197,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

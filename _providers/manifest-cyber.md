@@ -33,28 +33,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
   name: Manifest Cyber API
   slug: manifest-cyber-api
-- description: Asset and component inventory
+- baseURL: https://app.manifestcyber.com/api/v1
+  baseurl_source: declared
+  description: Asset and component inventory
   name: Manifest Cyber Assets API
   slug: manifest-cyber-assets-api
-- description: Organization management
+- baseURL: https://app.manifestcyber.com/api/v1
+  baseurl_source: declared
+  description: Organization management
   name: Manifest Cyber Organizations API
   slug: manifest-cyber-organizations-api
-- description: Product hierarchy and metadata
+- baseURL: https://app.manifestcyber.com/api/v1
+  baseurl_source: declared
+  description: Product hierarchy and metadata
   name: Manifest Cyber Products API
   slug: manifest-cyber-products-api
-- description: Software Bill of Materials uploads and management
+- baseURL: https://app.manifestcyber.com/api/v1
+  baseurl_source: declared
+  description: Software Bill of Materials uploads and management
   name: Manifest Cyber SBO Ms API
   slug: manifest-cyber-sboms-api
-- description: User management
+- baseURL: https://app.manifestcyber.com/api/v1
+  baseurl_source: declared
+  description: User management
   name: Manifest Cyber Users API
   slug: manifest-cyber-users-api
-- description: Vulnerability triage and custom vulnerability ingestion
+- baseURL: https://app.manifestcyber.com/api/v1
+  baseurl_source: declared
+  description: Vulnerability triage and custom vulnerability ingestion
   name: Manifest Cyber Vulnerabilities API
   slug: manifest-cyber-vulnerabilities-api
 artifact_total: 19
@@ -156,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/screenshots/manifest-cyber-2026-06-20T184923.png
 security:

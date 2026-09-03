@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -44,349 +44,579 @@ agentic_access:
   summary_line: 1106 operations · 546 acting · 2 human-in-the-loop
 api_count: 40
 apis:
-- description: The A2p API from Twilio — 5 operation(s) for a2p.
+- baseURL: https://messaging.twilio.com
+  baseurl_source: spec
+  description: The A2p API from Twilio — 5 operation(s) for a2p.
   name: Twilio A2p API
   slug: twilio-a2p-api
-- description: Generate access tokens for SDKs
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Generate access tokens for SDKs
   name: Twilio Access Tokens API
   slug: twilio-access-tokens-api
-- description: Manage Twilio accounts and subaccounts
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage Twilio accounts and subaccounts
   name: Twilio Accounts API
   slug: twilio-accounts-api
-- description: The Alerts API from Twilio — 2 operation(s) for alerts.
+- baseURL: https://monitor.twilio.com
+  baseurl_source: spec
+  description: The Alerts API from Twilio — 2 operation(s) for alerts.
   name: Twilio Alerts API
   slug: twilio-alerts-api
-- description: Manage alphanumeric sender IDs
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage alphanumeric sender IDs
   name: Twilio Alpha Senders API
   slug: twilio-alpha-senders-api
-- description: The Apps API from Twilio — 3 operation(s) for apps.
+- baseURL: https://microvisor.twilio.com
+  baseurl_source: spec
+  description: The Apps API from Twilio — 3 operation(s) for apps.
   name: Twilio Apps API
   slug: twilio-apps-api
-- description: The Archives API from Twilio — 1 operation(s) for archives.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The Archives API from Twilio — 1 operation(s) for archives.
   name: Twilio Archives API
   slug: twilio-archives-api
-- description: The Assistants API from Twilio — 24 operation(s) for assistants.
+- baseURL: https://autopilot.twilio.com
+  baseurl_source: spec
+  description: The Assistants API from Twilio — 24 operation(s) for assistants.
   name: Twilio Assistants API
   slug: twilio-assistants-api
-- description: The Attempts API from Twilio — 3 operation(s) for attempts.
+- baseURL: https://verify.twilio.com
+  baseurl_source: spec
+  description: The Attempts API from Twilio — 3 operation(s) for attempts.
   name: Twilio Attempts API
   slug: twilio-attempts-api
-- description: Manage primary and secondary auth tokens
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage primary and secondary auth tokens
   name: Twilio Auth Tokens API
   slug: twilio-auth-tokens-api
-- description: The AuthTokens API from Twilio — 2 operation(s) for authtokens.
+- baseURL: https://accounts.twilio.com
+  baseurl_source: spec
+  description: The AuthTokens API from Twilio — 2 operation(s) for authtokens.
   name: Twilio AuthTokens API
   slug: twilio-authtokens-api
-- description: The ByocTrunks API from Twilio — 2 operation(s) for byoctrunks.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The ByocTrunks API from Twilio — 2 operation(s) for byoctrunks.
   name: Twilio ByocTrunks API
   slug: twilio-byoctrunks-api
-- description: Initiate, manage, and monitor voice calls
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Initiate, manage, and monitor voice calls
   name: Twilio Calls API
   slug: twilio-calls-api
-- description: Manage push authentication challenges
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Manage push authentication challenges
   name: Twilio Challenges API
   slug: twilio-challenges-api
-- description: Manage Flex communication channels
+- baseURL: https://flex-api.twilio.com/v1
+  baseurl_source: spec
+  description: Manage Flex communication channels
   name: Twilio Channels API
   slug: twilio-channels-api
-- description: The Commands API from Twilio — 2 operation(s) for commands.
+- baseURL: https://wireless.twilio.com
+  baseurl_source: spec
+  description: The Commands API from Twilio — 2 operation(s) for commands.
   name: Twilio Commands API
   slug: twilio-commands-api
-- description: The ComplianceInquiries API from Twilio — 3 operation(s) for complianceinquiries.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The ComplianceInquiries API from Twilio — 3 operation(s) for complianceinquiries.
   name: Twilio ComplianceInquiries API
   slug: twilio-complianceinquiries-api
-- description: Configure automatic composition rules
+- baseURL: https://video.twilio.com/v1
+  baseurl_source: spec
+  description: Configure automatic composition rules
   name: Twilio Composition Hooks API
   slug: twilio-composition-hooks-api
-- description: The CompositionHooks API from Twilio — 2 operation(s) for compositionhooks.
+- baseURL: https://video.twilio.com
+  baseurl_source: spec
+  description: The CompositionHooks API from Twilio — 2 operation(s) for compositionhooks.
   name: Twilio CompositionHooks API
   slug: twilio-compositionhooks-api
-- description: Compose multiple recordings into a single file
+- baseURL: https://video.twilio.com/v1
+  baseurl_source: spec
+  description: Compose multiple recordings into a single file
   name: Twilio Compositions API
   slug: twilio-compositions-api
-- description: The CompositionSettings API from Twilio — 1 operation(s) for compositionsettings.
+- baseURL: https://video.twilio.com
+  baseurl_source: spec
+  description: The CompositionSettings API from Twilio — 1 operation(s) for compositionsettings.
   name: Twilio CompositionSettings API
   slug: twilio-compositionsettings-api
-- description: The Conferences API from Twilio — 7 operation(s) for conferences.
+- baseURL: https://insights.twilio.com
+  baseurl_source: spec
+  description: The Conferences API from Twilio — 7 operation(s) for conferences.
   name: Twilio Conferences API
   slug: twilio-conferences-api
-- description: The Configs API from Twilio — 2 operation(s) for configs.
+- baseURL: https://microvisor.twilio.com
+  baseurl_source: spec
+  description: The Configs API from Twilio — 2 operation(s) for configs.
   name: Twilio Configs API
   slug: twilio-configs-api
-- description: The Configuration API from Twilio — 5 operation(s) for configuration.
+- baseURL: https://conversations.twilio.com
+  baseurl_source: spec
+  description: The Configuration API from Twilio — 5 operation(s) for configuration.
   name: Twilio Configuration API
   slug: twilio-configuration-api
-- description: The ConnectionPolicies API from Twilio — 4 operation(s) for connectionpolicies.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The ConnectionPolicies API from Twilio — 4 operation(s) for connectionpolicies.
   name: Twilio ConnectionPolicies API
   slug: twilio-connectionpolicies-api
-- description: Manage marketing contacts
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Manage marketing contacts
   name: Twilio Contacts API
   slug: twilio-contacts-api
-- description: The Content API from Twilio — 3 operation(s) for content.
+- baseURL: https://content.twilio.com
+  baseurl_source: spec
+  description: The Content API from Twilio — 3 operation(s) for content.
   name: Twilio Content API
   slug: twilio-content-api
-- description: The ContentAndApprovals API from Twilio — 1 operation(s) for contentandapprovals.
+- baseURL: https://content.twilio.com
+  baseurl_source: spec
+  description: The ContentAndApprovals API from Twilio — 1 operation(s) for contentandapprovals.
   name: Twilio ContentAndApprovals API
   slug: twilio-contentandapprovals-api
-- description: The Conversations API from Twilio — 10 operation(s) for conversations.
+- baseURL: https://conversations.twilio.com
+  baseurl_source: spec
+  description: The Conversations API from Twilio — 10 operation(s) for conversations.
   name: Twilio Conversations API
   slug: twilio-conversations-api
-- description: The Credentials API from Twilio — 10 operation(s) for credentials.
+- baseURL: https://accounts.twilio.com
+  baseurl_source: spec
+  description: The Credentials API from Twilio — 10 operation(s) for credentials.
   name: Twilio Credentials API
   slug: twilio-credentials-api
-- description: The CustomerProfiles API from Twilio — 8 operation(s) for customerprofiles.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The CustomerProfiles API from Twilio — 8 operation(s) for customerprofiles.
   name: Twilio CustomerProfiles API
   slug: twilio-customerprofiles-api
-- description: The Deactivations API from Twilio — 1 operation(s) for deactivations.
+- baseURL: https://messaging.twilio.com
+  baseurl_source: spec
+  description: The Deactivations API from Twilio — 1 operation(s) for deactivations.
   name: Twilio Deactivations API
   slug: twilio-deactivations-api
-- description: The Devices API from Twilio — 6 operation(s) for devices.
+- baseURL: https://microvisor.twilio.com
+  baseurl_source: spec
+  description: The Devices API from Twilio — 6 operation(s) for devices.
   name: Twilio Devices API
   slug: twilio-devices-api
-- description: The DialingPermissions API from Twilio — 4 operation(s) for dialingpermissions.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The DialingPermissions API from Twilio — 4 operation(s) for dialingpermissions.
   name: Twilio DialingPermissions API
   slug: twilio-dialingpermissions-api
-- description: Validate email addresses
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Validate email addresses
   name: Twilio Email Validation API
   slug: twilio-email-validation-api
-- description: The EndUsers API from Twilio — 2 operation(s) for endusers.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The EndUsers API from Twilio — 2 operation(s) for endusers.
   name: Twilio EndUsers API
   slug: twilio-endusers-api
-- description: The EndUserTypes API from Twilio — 2 operation(s) for endusertypes.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The EndUserTypes API from Twilio — 2 operation(s) for endusertypes.
   name: Twilio EndUserTypes API
   slug: twilio-endusertypes-api
-- description: Manage end-user entities for TOTP and push
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Manage end-user entities for TOTP and push
   name: Twilio Entities API
   slug: twilio-entities-api
-- description: The ESimProfiles API from Twilio — 2 operation(s) for esimprofiles.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The ESimProfiles API from Twilio — 2 operation(s) for esimprofiles.
   name: Twilio ESimProfiles API
   slug: twilio-esimprofiles-api
-- description: The Events API from Twilio — 2 operation(s) for events.
+- baseURL: https://monitor.twilio.com
+  baseurl_source: spec
+  description: The Events API from Twilio — 2 operation(s) for events.
   name: Twilio Events API
   slug: twilio-events-api
-- description: The Exports API from Twilio — 6 operation(s) for exports.
+- baseURL: https://bulkexports.twilio.com
+  baseurl_source: spec
+  description: The Exports API from Twilio — 6 operation(s) for exports.
   name: Twilio Exports API
   slug: twilio-exports-api
-- description: Manage authentication factors (TOTP, push)
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Manage authentication factors (TOTP, push)
   name: Twilio Factors API
   slug: twilio-factors-api
-- description: The Fleets API from Twilio — 2 operation(s) for fleets.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The Fleets API from Twilio — 2 operation(s) for fleets.
   name: Twilio Fleets API
   slug: twilio-fleets-api
-- description: Manage Flex Flow routing
+- baseURL: https://flex-api.twilio.com/v1
+  baseurl_source: spec
+  description: Manage Flex Flow routing
   name: Twilio Flex Flows API
   slug: twilio-flex-flows-api
-- description: The Flows API from Twilio — 12 operation(s) for flows.
+- baseURL: https://studio.twilio.com
+  baseurl_source: spec
+  description: The Flows API from Twilio — 12 operation(s) for flows.
   name: Twilio Flows API
   slug: twilio-flows-api
-- description: The Forms API from Twilio — 1 operation(s) for forms.
+- baseURL: https://verify.twilio.com
+  baseurl_source: spec
+  description: The Forms API from Twilio — 1 operation(s) for forms.
   name: Twilio Forms API
   slug: twilio-forms-api
-- description: The HostedNumber API from Twilio — 6 operation(s) for hostednumber.
+- baseURL: https://numbers.twilio.com
+  baseurl_source: spec
+  description: The HostedNumber API from Twilio — 6 operation(s) for hostednumber.
   name: Twilio HostedNumber API
   slug: twilio-hostednumber-api
-- description: Access Flex Insights questionnaires and assessments
+- baseURL: https://flex-api.twilio.com/v1
+  baseurl_source: spec
+  description: Access Flex Insights questionnaires and assessments
   name: Twilio Insights API
   slug: twilio-insights-api
-- description: Manage customer interactions
+- baseURL: https://flex-api.twilio.com/v1
+  baseurl_source: spec
+  description: Manage customer interactions
   name: Twilio Interactions API
   slug: twilio-interactions-api
-- description: The IpCommands API from Twilio — 2 operation(s) for ipcommands.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The IpCommands API from Twilio — 2 operation(s) for ipcommands.
   name: Twilio IpCommands API
   slug: twilio-ipcommands-api
-- description: The IpRecords API from Twilio — 2 operation(s) for iprecords.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The IpRecords API from Twilio — 2 operation(s) for iprecords.
   name: Twilio IpRecords API
   slug: twilio-iprecords-api
-- description: Manage API keys for authentication
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage API keys for authentication
   name: Twilio Keys API
   slug: twilio-keys-api
-- description: The LegacyContent API from Twilio — 1 operation(s) for legacycontent.
+- baseURL: https://content.twilio.com
+  baseurl_source: spec
+  description: The LegacyContent API from Twilio — 1 operation(s) for legacycontent.
   name: Twilio LegacyContent API
   slug: twilio-legacycontent-api
-- description: The LinkShortening API from Twilio — 5 operation(s) for linkshortening.
+- baseURL: https://messaging.twilio.com
+  baseurl_source: spec
+  description: The LinkShortening API from Twilio — 5 operation(s) for linkshortening.
   name: Twilio LinkShortening API
   slug: twilio-linkshortening-api
-- description: Manage contact lists
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Manage contact lists
   name: Twilio Lists API
   slug: twilio-lists-api
-- description: Send email messages
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Send email messages
   name: Twilio Mail Send API
   slug: twilio-mail-send-api
-- description: The Marketplace API from Twilio — 8 operation(s) for marketplace.
+- baseURL: https://preview.twilio.com
+  baseurl_source: spec
+  description: The Marketplace API from Twilio — 8 operation(s) for marketplace.
   name: Twilio Marketplace API
   slug: twilio-marketplace-api
-- description: Manage media attachments for MMS messages
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage media attachments for MMS messages
   name: Twilio Media API
   slug: twilio-media-api
-- description: The MediaProcessors API from Twilio — 2 operation(s) for mediaprocessors.
+- baseURL: https://media.twilio.com
+  baseurl_source: spec
+  description: The MediaProcessors API from Twilio — 2 operation(s) for mediaprocessors.
   name: Twilio MediaProcessors API
   slug: twilio-mediaprocessors-api
-- description: The MediaRecordings API from Twilio — 2 operation(s) for mediarecordings.
+- baseURL: https://media.twilio.com
+  baseurl_source: spec
+  description: The MediaRecordings API from Twilio — 2 operation(s) for mediarecordings.
   name: Twilio MediaRecordings API
   slug: twilio-mediarecordings-api
-- description: Send and manage SMS and MMS messages
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Send and manage SMS and MMS messages
   name: Twilio Messages API
   slug: twilio-messages-api
-- description: Configure messaging services for scalable messaging
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Configure messaging services for scalable messaging
   name: Twilio Messaging Services API
   slug: twilio-messaging-services-api
-- description: The NetworkAccessProfiles API from Twilio — 4 operation(s) for networkaccessprofiles.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The NetworkAccessProfiles API from Twilio — 4 operation(s) for networkaccessprofiles.
   name: Twilio NetworkAccessProfiles API
   slug: twilio-networkaccessprofiles-api
-- description: The Networks API from Twilio — 2 operation(s) for networks.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The Networks API from Twilio — 2 operation(s) for networks.
   name: Twilio Networks API
   slug: twilio-networks-api
-- description: The ParticipantConversations API from Twilio — 1 operation(s) for participantconversations.
+- baseURL: https://conversations.twilio.com
+  baseurl_source: spec
+  description: The ParticipantConversations API from Twilio — 1 operation(s) for participantconversations.
   name: Twilio ParticipantConversations API
   slug: twilio-participantconversations-api
-- description: Manage room participants
+- baseURL: https://video.twilio.com/v1
+  baseurl_source: spec
+  description: Manage room participants
   name: Twilio Participants API
   slug: twilio-participants-api
-- description: Query phone number data and intelligence
+- baseURL: https://lookups.twilio.com/v2
+  baseurl_source: spec
+  description: Query phone number data and intelligence
   name: Twilio Phone Numbers API
   slug: twilio-phone-numbers-api
-- description: The PhoneNumbers API from Twilio — 1 operation(s) for phonenumbers.
+- baseURL: https://routes.twilio.com
+  baseurl_source: spec
+  description: The PhoneNumbers API from Twilio — 1 operation(s) for phonenumbers.
   name: Twilio PhoneNumbers API
   slug: twilio-phonenumbers-api
-- description: The PlayerStreamers API from Twilio — 3 operation(s) for playerstreamers.
+- baseURL: https://media.twilio.com
+  baseurl_source: spec
+  description: The PlayerStreamers API from Twilio — 3 operation(s) for playerstreamers.
   name: Twilio PlayerStreamers API
   slug: twilio-playerstreamers-api
-- description: Manage Flex plugins
+- baseURL: https://flex-api.twilio.com/v1
+  baseurl_source: spec
+  description: Manage Flex plugins
   name: Twilio Plugins API
   slug: twilio-plugins-api
-- description: The Policies API from Twilio — 2 operation(s) for policies.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The Policies API from Twilio — 2 operation(s) for policies.
   name: Twilio Policies API
   slug: twilio-policies-api
-- description: Manage call queues
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage call queues
   name: Twilio Queues API
   slug: twilio-queues-api
-- description: Configure rate limiting for verification requests
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Configure rate limiting for verification requests
   name: Twilio Rate Limits API
   slug: twilio-rate-limits-api
-- description: The RatePlans API from Twilio — 2 operation(s) for rateplans.
+- baseURL: https://wireless.twilio.com
+  baseurl_source: spec
+  description: The RatePlans API from Twilio — 2 operation(s) for rateplans.
   name: Twilio RatePlans API
   slug: twilio-rateplans-api
-- description: Manage recording rules for rooms
+- baseURL: https://video.twilio.com/v1
+  baseurl_source: spec
+  description: Manage recording rules for rooms
   name: Twilio Recording Rules API
   slug: twilio-recording-rules-api
-- description: Manage video and audio recordings
+- baseURL: https://video.twilio.com/v1
+  baseurl_source: spec
+  description: Manage video and audio recordings
   name: Twilio Recordings API
   slug: twilio-recordings-api
-- description: The RecordingSettings API from Twilio — 1 operation(s) for recordingsettings.
+- baseURL: https://video.twilio.com
+  baseurl_source: spec
+  description: The RecordingSettings API from Twilio — 1 operation(s) for recordingsettings.
   name: Twilio RecordingSettings API
   slug: twilio-recordingsettings-api
-- description: The RegulatoryCompliance API from Twilio — 18 operation(s) for regulatorycompliance.
+- baseURL: https://numbers.twilio.com
+  baseurl_source: spec
+  description: The RegulatoryCompliance API from Twilio — 18 operation(s) for regulatorycompliance.
   name: Twilio RegulatoryCompliance API
   slug: twilio-regulatorycompliance-api
-- description: The Roles API from Twilio — 2 operation(s) for roles.
+- baseURL: https://conversations.twilio.com
+  baseurl_source: spec
+  description: The Roles API from Twilio — 2 operation(s) for roles.
   name: Twilio Roles API
   slug: twilio-roles-api
-- description: Create and manage video rooms
+- baseURL: https://video.twilio.com/v1
+  baseurl_source: spec
+  description: Create and manage video rooms
   name: Twilio Rooms API
   slug: twilio-rooms-api
-- description: The SafeList API from Twilio — 5 operation(s) for safelist.
+- baseURL: https://accounts.twilio.com
+  baseurl_source: spec
+  description: The SafeList API from Twilio — 5 operation(s) for safelist.
   name: Twilio SafeList API
   slug: twilio-safelist-api
-- description: The Schemas API from Twilio — 3 operation(s) for schemas.
+- baseURL: https://events.twilio.com
+  baseurl_source: spec
+  description: The Schemas API from Twilio — 3 operation(s) for schemas.
   name: Twilio Schemas API
   slug: twilio-schemas-api
-- description: The Secrets API from Twilio — 2 operation(s) for secrets.
+- baseURL: https://microvisor.twilio.com
+  baseurl_source: spec
+  description: The Secrets API from Twilio — 2 operation(s) for secrets.
   name: Twilio Secrets API
   slug: twilio-secrets-api
-- description: Manage verified sender identities
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Manage verified sender identities
   name: Twilio Senders API
   slug: twilio-senders-api
-- description: The Services API from Twilio — 131 operation(s) for services.
+- baseURL: https://conversations.twilio.com
+  baseurl_source: spec
+  description: The Services API from Twilio — 131 operation(s) for services.
   name: Twilio Services API
   slug: twilio-services-api
-- description: The Settings API from Twilio — 1 operation(s) for settings.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The Settings API from Twilio — 1 operation(s) for settings.
   name: Twilio Settings API
   slug: twilio-settings-api
-- description: The SettingsUpdates API from Twilio — 1 operation(s) for settingsupdates.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The SettingsUpdates API from Twilio — 1 operation(s) for settingsupdates.
   name: Twilio SettingsUpdates API
   slug: twilio-settingsupdates-api
-- description: Manage short codes for messaging services
+- baseURL: https://api.twilio.com/2010-04-01
+  baseurl_source: spec
+  description: Manage short codes for messaging services
   name: Twilio Short Codes API
   slug: twilio-short-codes-api
-- description: The Sims API from Twilio — 6 operation(s) for sims.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The Sims API from Twilio — 6 operation(s) for sims.
   name: Twilio Sims API
   slug: twilio-sims-api
-- description: The Sinks API from Twilio — 4 operation(s) for sinks.
+- baseURL: https://events.twilio.com
+  baseurl_source: spec
+  description: The Sinks API from Twilio — 4 operation(s) for sinks.
   name: Twilio Sinks API
   slug: twilio-sinks-api
-- description: The SipDomains API from Twilio — 1 operation(s) for sipdomains.
+- baseURL: https://routes.twilio.com
+  baseurl_source: spec
+  description: The SipDomains API from Twilio — 1 operation(s) for sipdomains.
   name: Twilio SipDomains API
   slug: twilio-sipdomains-api
-- description: The SmsCommands API from Twilio — 2 operation(s) for smscommands.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The SmsCommands API from Twilio — 2 operation(s) for smscommands.
   name: Twilio SmsCommands API
   slug: twilio-smscommands-api
-- description: The SourceIpMappings API from Twilio — 2 operation(s) for sourceipmappings.
+- baseURL: https://voice.twilio.com
+  baseurl_source: spec
+  description: The SourceIpMappings API from Twilio — 2 operation(s) for sourceipmappings.
   name: Twilio SourceIpMappings API
   slug: twilio-sourceipmappings-api
-- description: Retrieve email analytics and statistics
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Retrieve email analytics and statistics
   name: Twilio Stats API
   slug: twilio-stats-api
-- description: The Subscriptions API from Twilio — 4 operation(s) for subscriptions.
+- baseURL: https://events.twilio.com
+  baseurl_source: spec
+  description: The Subscriptions API from Twilio — 4 operation(s) for subscriptions.
   name: Twilio Subscriptions API
   slug: twilio-subscriptions-api
-- description: The SupportingDocuments API from Twilio — 2 operation(s) for supportingdocuments.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The SupportingDocuments API from Twilio — 2 operation(s) for supportingdocuments.
   name: Twilio SupportingDocuments API
   slug: twilio-supportingdocuments-api
-- description: The SupportingDocumentTypes API from Twilio — 2 operation(s) for supportingdocumenttypes.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The SupportingDocumentTypes API from Twilio — 2 operation(s) for supportingdocumenttypes.
   name: Twilio SupportingDocumentTypes API
   slug: twilio-supportingdocumenttypes-api
-- description: Manage email suppressions and bounces
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Manage email suppressions and bounces
   name: Twilio Suppressions API
   slug: twilio-suppressions-api
-- description: Manage dynamic email templates
+- baseURL: https://api.sendgrid.com/v3
+  baseurl_source: spec
+  description: Manage dynamic email templates
   name: Twilio Templates API
   slug: twilio-templates-api
-- description: The Tollfree API from Twilio — 2 operation(s) for tollfree.
+- baseURL: https://messaging.twilio.com
+  baseurl_source: spec
+  description: The Tollfree API from Twilio — 2 operation(s) for tollfree.
   name: Twilio Tollfree API
   slug: twilio-tollfree-api
-- description: The Transcripts API from Twilio — 6 operation(s) for transcripts.
+- baseURL: https://intelligence.twilio.com
+  baseurl_source: spec
+  description: The Transcripts API from Twilio — 6 operation(s) for transcripts.
   name: Twilio Transcripts API
   slug: twilio-transcripts-api
-- description: The Trunking API from Twilio — 3 operation(s) for trunking.
+- baseURL: https://pricing.twilio.com
+  baseurl_source: spec
+  description: The Trunking API from Twilio — 3 operation(s) for trunking.
   name: Twilio Trunking API
   slug: twilio-trunking-api
-- description: The Trunks API from Twilio — 12 operation(s) for trunks.
+- baseURL: https://routes.twilio.com
+  baseurl_source: spec
+  description: The Trunks API from Twilio — 12 operation(s) for trunks.
   name: Twilio Trunks API
   slug: twilio-trunks-api
-- description: The TrustProducts API from Twilio — 8 operation(s) for trustproducts.
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The TrustProducts API from Twilio — 8 operation(s) for trustproducts.
   name: Twilio TrustProducts API
   slug: twilio-trustproducts-api
-- description: The Types API from Twilio — 2 operation(s) for types.
+- baseURL: https://events.twilio.com
+  baseurl_source: spec
+  description: The Types API from Twilio — 2 operation(s) for types.
   name: Twilio Types API
   slug: twilio-types-api
-- description: The Understand API from Twilio — 21 operation(s) for understand.
+- baseURL: https://preview.twilio.com
+  baseurl_source: spec
+  description: The Understand API from Twilio — 21 operation(s) for understand.
   name: Twilio Understand API
   slug: twilio-understand-api
-- description: The UsageRecords API from Twilio — 1 operation(s) for usagerecords.
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The UsageRecords API from Twilio — 1 operation(s) for usagerecords.
   name: Twilio UsageRecords API
   slug: twilio-usagerecords-api
-- description: The Users API from Twilio — 4 operation(s) for users.
+- baseURL: https://conversations.twilio.com
+  baseurl_source: spec
+  description: The Users API from Twilio — 4 operation(s) for users.
   name: Twilio Users API
   slug: twilio-users-api
-- description: Check verification codes
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Check verification codes
   name: Twilio Verification Checks API
   slug: twilio-verification-checks-api
-- description: Send and manage verification codes
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Send and manage verification codes
   name: Twilio Verifications API
   slug: twilio-verifications-api
-- description: The Video API from Twilio — 4 operation(s) for video.
+- baseURL: https://insights.twilio.com
+  baseurl_source: spec
+  description: The Video API from Twilio — 4 operation(s) for video.
   name: Twilio Video API
   slug: twilio-video-api
-- description: The Voice API from Twilio — 10 operation(s) for voice.
+- baseURL: https://insights.twilio.com
+  baseurl_source: spec
+  description: The Voice API from Twilio — 10 operation(s) for voice.
   name: Twilio Voice API
   slug: twilio-voice-api
-- description: Manage web chat channels
+- baseURL: https://flex-api.twilio.com/v1
+  baseurl_source: spec
+  description: Manage web chat channels
   name: Twilio Web Channels API
   slug: twilio-web-channels-api
-- description: Configure event webhooks
+- baseURL: https://verify.twilio.com/v2
+  baseurl_source: spec
+  description: Configure event webhooks
   name: Twilio Webhooks API
   slug: twilio-webhooks-api
-- description: The Workspaces API from Twilio — 36 operation(s) for workspaces.
+- baseURL: https://taskrouter.twilio.com
+  baseurl_source: spec
+  description: The Workspaces API from Twilio — 36 operation(s) for workspaces.
   name: Twilio Workspaces API
   slug: twilio-workspaces-api
 arazzos:
@@ -1537,7 +1767,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -1547,7 +1777,7 @@ score:
     discoverability: 66.7
     governance: 33.3
     operational_transparency: 71.1
-  previous_composite: 72.3
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1565,7 +1795,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

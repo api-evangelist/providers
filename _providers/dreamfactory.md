@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -47,49 +47,79 @@ apis:
 - description: The DreamFactory System API provides administrative management capabilities for DreamFactory instances. It allows managing services, apps, roles, users, CORS configurations, email templates, environme
   name: DreamFactory System API
   slug: system-api
-- description: System administrator management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: System administrator management
   name: DreamFactory Admin API
   slug: dreamfactory-admin-api
-- description: Application and API key management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Application and API key management
   name: DreamFactory App API
   slug: dreamfactory-app-api
-- description: Application group management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Application group management
   name: DreamFactory AppGroup API
   slug: dreamfactory-appgroup-api
-- description: Cross-Origin Resource Sharing configuration
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Cross-Origin Resource Sharing configuration
   name: DreamFactory CORS API
   slug: dreamfactory-cors-api
-- description: Custom settings management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Custom settings management
   name: DreamFactory Custom API
   slug: dreamfactory-custom-api
-- description: Email template management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Email template management
   name: DreamFactory EmailTemplate API
   slug: dreamfactory-emailtemplate-api
-- description: Environment information
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Environment information
   name: DreamFactory Environment API
   slug: dreamfactory-environment-api
-- description: Event management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Event management
   name: DreamFactory Event API
   slug: dreamfactory-event-api
-- description: API rate limiting management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: API rate limiting management
   name: DreamFactory Limit API
   slug: dreamfactory-limit-api
-- description: Lookup key management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Lookup key management
   name: DreamFactory Lookup API
   slug: dreamfactory-lookup-api
-- description: Package import and export
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Package import and export
   name: DreamFactory Package API
   slug: dreamfactory-package-api
-- description: Role-based access control management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Role-based access control management
   name: DreamFactory Role API
   slug: dreamfactory-role-api
-- description: Script type discovery
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Script type discovery
   name: DreamFactory ScriptType API
   slug: dreamfactory-scripttype-api
-- description: Service type discovery
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Service type discovery
   name: DreamFactory ServiceType API
   slug: dreamfactory-servicetype-api
-- description: User management
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: User management
   name: DreamFactory User API
   slug: dreamfactory-user-api
 artifact_total: 109
@@ -343,7 +373,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -353,7 +383,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 42.7
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -362,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/screenshots/dreamfactory-2026-06-20T180322.png
 security:

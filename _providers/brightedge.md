@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 248 operations · 144 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Operation related to accounts
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to accounts
   name: BrightEdge accounts API
   slug: brightedge-accounts-api
-- description: APIs for ai_catalyst dataset
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: APIs for ai_catalyst dataset
   name: BrightEdge ai_catalyst API
   slug: brightedge-ai-catalyst-api
-- description: The autopilot API from BrightEdge — 4 operation(s) for autopilot.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The autopilot API from BrightEdge — 4 operation(s) for autopilot.
   name: BrightEdge autopilot API
   slug: brightedge-autopilot-api
-- description: Operation related to backlinks
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to backlinks
   name: BrightEdge backlinks API
   slug: brightedge-backlinks-api
-- description: Operation related to BE Local
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to BE Local
   name: BrightEdge be_local API
   slug: brightedge-be-local-api
-- description: The budd API from BrightEdge — 2 operation(s) for budd.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The budd API from BrightEdge — 2 operation(s) for budd.
   name: BrightEdge budd API
   slug: brightedge-budd-api
-- description: The bulk_export API from BrightEdge — 6 operation(s) for bulk_export.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The bulk_export API from BrightEdge — 6 operation(s) for bulk_export.
   name: BrightEdge bulk_export API
   slug: brightedge-bulk-export-api
-- description: The chrome_extension API from BrightEdge — 12 operation(s) for chrome_extension.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The chrome_extension API from BrightEdge — 12 operation(s) for chrome_extension.
   name: BrightEdge chrome_extension API
   slug: brightedge-chrome-extension-api
-- description: Supports ChromeExtension functionality.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Supports ChromeExtension functionality.
   name: BrightEdge chromeextension API
   slug: brightedge-chromeextension-api
-- description: The core API from BrightEdge — 6 operation(s) for core.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The core API from BrightEdge — 6 operation(s) for core.
   name: BrightEdge core API
   slug: brightedge-core-api
-- description: APIs for brightedge dataset
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: APIs for brightedge dataset
   name: BrightEdge dataset API
   slug: brightedge-dataset-api
-- description: Operation related to domains
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to domains
   name: BrightEdge domains API
   slug: brightedge-domains-api
-- description: The instant API from BrightEdge — 6 operation(s) for instant.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The instant API from BrightEdge — 6 operation(s) for instant.
   name: BrightEdge instant API
   slug: brightedge-instant-api
-- description: Operation related to keyword groups
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to keyword groups
   name: BrightEdge keywordgroups API
   slug: brightedge-keywordgroups-api
-- description: Operation related to keywords
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to keywords
   name: BrightEdge keywords API
   slug: brightedge-keywords-api
-- description: The Latest5 API from BrightEdge — 2 operation(s) for latest5.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The Latest5 API from BrightEdge — 2 operation(s) for latest5.
   name: BrightEdge Latest5 API
   slug: brightedge-latest5-api
-- description: Operation ported over from legacy API
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation ported over from legacy API
   name: BrightEdge legacy API
   slug: brightedge-legacy-api
-- description: Operation related to Market Insights
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to Market Insights
   name: BrightEdge marketinsights API
   slug: brightedge-marketinsights-api
-- description: APIs for marketo
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: APIs for marketo
   name: BrightEdge marketo API
   slug: brightedge-marketo-api
-- description: Operation related to organizations
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to organizations
   name: BrightEdge organizations API
   slug: brightedge-organizations-api
-- description: The Pages API from BrightEdge — 2 operation(s) for pages.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The Pages API from BrightEdge — 2 operation(s) for pages.
   name: BrightEdge Pages API
   slug: brightedge-pages-api
-- description: APIs for product grid
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: APIs for product grid
   name: BrightEdge product_grid API
   slug: brightedge-product-grid-api
-- description: The recommendations API from BrightEdge — 6 operation(s) for recommendations.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The recommendations API from BrightEdge — 6 operation(s) for recommendations.
   name: BrightEdge recommendations API
   slug: brightedge-recommendations-api
-- description: Operation related to search engines
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to search engines
   name: BrightEdge searchengines API
   slug: brightedge-searchengines-api
-- description: Operation related to Serp features like People Also Ask etc
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to Serp features like People Also Ask etc
   name: BrightEdge Serp Features API
   slug: brightedge-serp-features-api
-- description: Operation related to time
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to time
   name: BrightEdge time API
   slug: brightedge-time-api
-- description: The user_settings API from BrightEdge — 4 operation(s) for user_settings.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The user_settings API from BrightEdge — 4 operation(s) for user_settings.
   name: BrightEdge user_settings API
   slug: brightedge-user-settings-api
-- description: Operation related to users
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: Operation related to users
   name: BrightEdge users API
   slug: brightedge-users-api
-- description: The web_vitals API from BrightEdge — 4 operation(s) for web_vitals.
+- baseURL: https://api.brightedge.com
+  baseurl_source: declared
+  description: The web_vitals API from BrightEdge — 4 operation(s) for web_vitals.
   name: BrightEdge web_vitals API
   slug: brightedge-web-vitals-api
 - description: BrightEdge's hosted, remote Model Context Protocol server. An MCP client POSTs to https://mcp2.brightedge.com/mcp (or the SSE endpoint https://mcp2-sse.brightedge.com/sse) and, after an OAuth 2.0 auth
@@ -481,7 +539,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -491,7 +549,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 48.6
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -503,7 +561,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: The Credits API from Linkup — 1 operation(s) for credits.
+- baseURL: https://api.linkup.so/v1
+  baseurl_source: declared
+  description: The Credits API from Linkup — 1 operation(s) for credits.
   name: Linkup Credits API
   slug: linkup-so-credits-api
-- description: The Fetch API from Linkup — 1 operation(s) for fetch.
+- baseURL: https://api.linkup.so/v1
+  baseurl_source: declared
+  description: The Fetch API from Linkup — 1 operation(s) for fetch.
   name: Linkup Fetch API
   slug: linkup-so-fetch-api
-- description: The Research API from Linkup — 2 operation(s) for research.
+- baseURL: https://api.linkup.so/v1
+  baseurl_source: declared
+  description: The Research API from Linkup — 2 operation(s) for research.
   name: Linkup Research API
   slug: linkup-so-research-api
-- description: The Search API from Linkup — 1 operation(s) for search.
+- baseURL: https://api.linkup.so/v1
+  baseurl_source: declared
+  description: The Search API from Linkup — 1 operation(s) for search.
   name: Linkup Search API
   slug: linkup-so-search-api
 artifact_total: 17
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/screenshots/linkup-so-2026-06-20T184547.png
 security:

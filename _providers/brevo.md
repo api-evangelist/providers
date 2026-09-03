@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 4
@@ -44,163 +44,269 @@ agentic_access:
   summary_line: 360 operations · 218 acting · 4 human-in-the-loop
 api_count: 21
 apis:
-- description: Manage agent online status for conversation availability.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Manage agent online status for conversation availability.
   name: brevo Agent Status API
   slug: brevo-agent-status-api
-- description: Create, manage, and retrieve automated messages pushed to visitors.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create, manage, and retrieve automated messages pushed to visitors.
   name: brevo Automated Messages API
   slug: brevo-automated-messages-api
-- description: Retrieve performance metrics and statistics for email campaigns.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Retrieve performance metrics and statistics for email campaigns.
   name: brevo Campaign Statistics API
   slug: brevo-campaign-statistics-api
-- description: Manage product categories for organizing the catalog.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Manage product categories for organizing the catalog.
   name: brevo Categories API
   slug: brevo-categories-api
-- description: Define and manage custom attributes for contact profiles.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Define and manage custom attributes for contact profiles.
   name: brevo Contact Attributes API
   slug: brevo-contact-attributes-api
-- description: Manage contact lists for organizing and segmenting audiences.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Manage contact lists for organizing and segmenting audiences.
   name: brevo Contact Lists API
   slug: brevo-contact-lists-api
-- description: Create, retrieve, update, and delete individual contacts.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete individual contacts.
   name: brevo Contacts API
   slug: brevo-contacts-api
-- description: Track and retrieve transactional email activity including delivery status, opens, clicks, and bounces.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Track and retrieve transactional email activity including delivery status, opens, clicks, and bounces.
   name: brevo Email Activity API
   slug: brevo-email-activity-api
-- description: Create, update, send, and manage marketing email campaigns.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create, update, send, and manage marketing email campaigns.
   name: brevo Email Campaigns API
   slug: brevo-email-campaigns-api
-- description: Create and manage reusable email templates for transactional messaging.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create and manage reusable email templates for transactional messaging.
   name: brevo Email Templates API
   slug: brevo-email-templates-api
-- description: Organize contact lists into folders for better management.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Organize contact lists into folders for better management.
   name: brevo Folders API
   slug: brevo-folders-api
-- description: Bulk import contacts from files or data payloads.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Bulk import contacts from files or data payloads.
   name: brevo Import API
   slug: brevo-import-api
-- description: Send and manage chat messages as an agent or automated bot within conversations.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Send and manage chat messages as an agent or automated bot within conversations.
   name: brevo Messages API
   slug: brevo-messages-api
-- description: Create and manage eCommerce order data for revenue attribution and purchase tracking.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create and manage eCommerce order data for revenue attribution and purchase tracking.
   name: brevo Orders API
   slug: brevo-orders-api
-- description: Import, manage, and retrieve eCommerce product data.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Import, manage, and retrieve eCommerce product data.
   name: brevo Products API
   slug: brevo-products-api
-- description: Manage sender identities used for transactional email sending.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Manage sender identities used for transactional email sending.
   name: brevo Senders API
   slug: brevo-senders-api
-- description: Retrieve delivery reports and activity statistics for transactional SMS messages.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Retrieve delivery reports and activity statistics for transactional SMS messages.
   name: brevo SMS Statistics API
   slug: brevo-sms-statistics-api
-- description: Send and manage transactional emails including order confirmations, password resets, and account notifications.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Send and manage transactional emails including order confirmations, password resets, and account notifications.
   name: brevo Transactional Emails API
   slug: brevo-transactional-emails-api
-- description: Send transactional SMS messages for notifications, verifications, and alerts.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Send transactional SMS messages for notifications, verifications, and alerts.
   name: brevo Transactional SMS API
   slug: brevo-transactional-sms-api
-- description: Create, manage, and configure webhook subscriptions for receiving real-time event notifications.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create, manage, and configure webhook subscriptions for receiving real-time event notifications.
   name: brevo Webhooks API
   slug: brevo-webhooks-api
-- description: Create, manage, and send WhatsApp marketing campaigns.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create, manage, and send WhatsApp marketing campaigns.
   name: brevo WhatsApp Campaigns API
   slug: brevo-whatsapp-campaigns-api
-- description: Send transactional WhatsApp messages to recipients using approved templates or plain text.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Send transactional WhatsApp messages to recipients using approved templates or plain text.
   name: brevo WhatsApp Messages API
   slug: brevo-whatsapp-messages-api
-- description: Create and manage WhatsApp message templates that require Meta approval before use.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: Create and manage WhatsApp message templates that require Meta approval before use.
   name: brevo WhatsApp Templates API
   slug: brevo-whatsapp-templates-api
-- description: The account API from Brevo — 2 operation(s) for account.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The account API from Brevo — 2 operation(s) for account.
   name: Brevo Account API
   slug: brevo-account-api
-- description: The balance API from Brevo — 12 operation(s) for balance.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The balance API from Brevo — 12 operation(s) for balance.
   name: Brevo Balance API
   slug: brevo-balance-api
-- description: The companies API from Brevo — 6 operation(s) for companies.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The companies API from Brevo — 6 operation(s) for companies.
   name: Brevo Companies API
   slug: brevo-companies-api
-- description: The consentGroups API from Brevo — 2 operation(s) for consentgroups.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The consentGroups API from Brevo — 2 operation(s) for consentgroups.
   name: Brevo Consent Groups API
   slug: brevo-consentgroups-api
-- description: The conversations API from Brevo — 6 operation(s) for conversations.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The conversations API from Brevo — 6 operation(s) for conversations.
   name: Brevo Conversations API
   slug: brevo-conversations-api
-- description: The coupons API from Brevo — 3 operation(s) for coupons.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The coupons API from Brevo — 3 operation(s) for coupons.
   name: Brevo Coupons API
   slug: brevo-coupons-api
-- description: The customObjects API from Brevo — 3 operation(s) for customobjects.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The customObjects API from Brevo — 3 operation(s) for customobjects.
   name: Brevo Custom Objects API
   slug: brevo-customobjects-api
-- description: The deals API from Brevo — 8 operation(s) for deals.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The deals API from Brevo — 8 operation(s) for deals.
   name: Brevo Deals API
   slug: brevo-deals-api
-- description: The domains API from Brevo — 3 operation(s) for domains.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The domains API from Brevo — 3 operation(s) for domains.
   name: Brevo Domains API
   slug: brevo-domains-api
-- description: The ecommerce API from Brevo — 15 operation(s) for ecommerce.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The ecommerce API from Brevo — 15 operation(s) for ecommerce.
   name: Brevo Ecommerce API
   slug: brevo-ecommerce-api
-- description: The emailCampaigns API from Brevo — 10 operation(s) for emailcampaigns.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The emailCampaigns API from Brevo — 10 operation(s) for emailcampaigns.
   name: Brevo Email Campaigns API
   slug: brevo-emailcampaigns-api
-- description: The event API from Brevo — 2 operation(s) for event.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The event API from Brevo — 2 operation(s) for event.
   name: Brevo Event API
   slug: brevo-event-api
-- description: The externalFeeds API from Brevo — 2 operation(s) for externalfeeds.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The externalFeeds API from Brevo — 2 operation(s) for externalfeeds.
   name: Brevo External Feeds API
   slug: brevo-externalfeeds-api
-- description: The files API from Brevo — 3 operation(s) for files.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The files API from Brevo — 3 operation(s) for files.
   name: Brevo Files API
   slug: brevo-files-api
-- description: The inboundParsing API from Brevo — 3 operation(s) for inboundparsing.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The inboundParsing API from Brevo — 3 operation(s) for inboundparsing.
   name: Brevo Inbound Parsing API
   slug: brevo-inboundparsing-api
-- description: The masterAccount API from Brevo — 21 operation(s) for masteraccount.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The masterAccount API from Brevo — 21 operation(s) for masteraccount.
   name: Brevo Master Account API
   slug: brevo-masteraccount-api
-- description: The notes API from Brevo — 2 operation(s) for notes.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The notes API from Brevo — 2 operation(s) for notes.
   name: Brevo Notes API
   slug: brevo-notes-api
-- description: The payments API from Brevo — 2 operation(s) for payments.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The payments API from Brevo — 2 operation(s) for payments.
   name: Brevo Payments API
   slug: brevo-payments-api
-- description: The process API from Brevo — 2 operation(s) for process.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The process API from Brevo — 2 operation(s) for process.
   name: Brevo Process API
   slug: brevo-process-api
-- description: The program API from Brevo — 7 operation(s) for program.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The program API from Brevo — 7 operation(s) for program.
   name: Brevo Program API
   slug: brevo-program-api
-- description: The reward API from Brevo — 9 operation(s) for reward.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The reward API from Brevo — 9 operation(s) for reward.
   name: Brevo Reward API
   slug: brevo-reward-api
-- description: The smsCampaigns API from Brevo — 7 operation(s) for smscampaigns.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The smsCampaigns API from Brevo — 7 operation(s) for smscampaigns.
   name: Brevo Sms Campaigns API
   slug: brevo-smscampaigns-api
-- description: The tasks API from Brevo — 3 operation(s) for tasks.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The tasks API from Brevo — 3 operation(s) for tasks.
   name: Brevo Tasks API
   slug: brevo-tasks-api
-- description: The tier API from Brevo — 6 operation(s) for tier.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The tier API from Brevo — 6 operation(s) for tier.
   name: Brevo Tier API
   slug: brevo-tier-api
-- description: The transactionalEmails API from Brevo — 18 operation(s) for transactionalemails.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The transactionalEmails API from Brevo — 18 operation(s) for transactionalemails.
   name: Brevo Transactional Emails API
   slug: brevo-transactionalemails-api
-- description: The transactionalSms API from Brevo — 4 operation(s) for transactionalsms.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The transactionalSms API from Brevo — 4 operation(s) for transactionalsms.
   name: Brevo Transactional Sms API
   slug: brevo-transactionalsms-api
-- description: The transactionalWhatsApp API from Brevo — 2 operation(s) for transactionalwhatsapp.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The transactionalWhatsApp API from Brevo — 2 operation(s) for transactionalwhatsapp.
   name: Brevo Transactional Whats App API
   slug: brevo-transactionalwhatsapp-api
-- description: The user API from Brevo — 6 operation(s) for user.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The user API from Brevo — 6 operation(s) for user.
   name: Brevo User API
   slug: brevo-user-api
-- description: The wallet API from Brevo — 1 operation(s) for wallet.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The wallet API from Brevo — 1 operation(s) for wallet.
   name: Brevo Wallet API
   slug: brevo-wallet-api
-- description: The whatsAppCampaigns API from Brevo — 6 operation(s) for whatsappcampaigns.
+- baseURL: https://api.brevo.com/v3
+  baseurl_source: declared
+  description: The whatsAppCampaigns API from Brevo — 6 operation(s) for whatsappcampaigns.
   name: Brevo Whats App Campaigns API
   slug: brevo-whatsappcampaigns-api
 artifact_total: 174
@@ -886,7 +992,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -896,7 +1002,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 92.1
-  previous_composite: 84.4
+  previous_composite: 84.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -914,7 +1020,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:

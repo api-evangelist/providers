@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: The Amazon DataSync REST API API from Amazon DataSync — 1 operation(s) for amazon datasync rest api.
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon DataSync REST API API from Amazon DataSync — 1 operation(s) for amazon datasync rest api.
   name: Amazon DataSync Amazon DataSync REST API API
   slug: amazon-datasync-amazon-datasync-rest-api-api
-- description: 'The #CreateAgent API from Amazon DataSync — 1 operation(s) for #createagent.'
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateAgent API from Amazon DataSync — 1 operation(s) for #createagent.'
   name: 'Amazon DataSync #CreateAgent API'
   slug: amazon-datasync-createagent-api
-- description: 'The #CreateLocationS3 API from Amazon DataSync — 1 operation(s) for #createlocations3.'
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateLocationS3 API from Amazon DataSync — 1 operation(s) for #createlocations3.'
   name: 'Amazon DataSync #CreateLocationS3 API'
   slug: amazon-datasync-createlocations3-api
-- description: 'The #DescribeTask API from Amazon DataSync — 1 operation(s) for #describetask.'
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeTask API from Amazon DataSync — 1 operation(s) for #describetask.'
   name: 'Amazon DataSync #DescribeTask API'
   slug: amazon-datasync-describetask-api
-- description: 'The #ListTasks API from Amazon DataSync — 1 operation(s) for #listtasks.'
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListTasks API from Amazon DataSync — 1 operation(s) for #listtasks.'
   name: 'Amazon DataSync #ListTasks API'
   slug: amazon-datasync-listtasks-api
-- description: 'The #StartTaskExecution API from Amazon DataSync — 1 operation(s) for #starttaskexecution.'
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: 'The #StartTaskExecution API from Amazon DataSync — 1 operation(s) for #starttaskexecution.'
   name: 'Amazon DataSync #StartTaskExecution API'
   slug: amazon-datasync-starttaskexecution-api
 artifact_total: 74
@@ -392,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/screenshots/amazon-datasync-2026-06-20T171614.png
 security:

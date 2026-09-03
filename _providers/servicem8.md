@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 63 operations · 36 acting
 api_count: 1
 apis:
-- description: Files linked to jobs - photos, PDFs, signed documents.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Files linked to jobs - photos, PDFs, signed documents.
   name: ServiceM8 Attachments API
   slug: servicem8-attachments-api
-- description: Coloured labels used to tag jobs and clients.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Coloured labels used to tag jobs and clients.
   name: ServiceM8 Badges API
   slug: servicem8-badges-api
-- description: Companies (clients/customers) and their contacts.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Companies (clients/customers) and their contacts.
   name: ServiceM8 Clients API
   slug: servicem8-clients-api
-- description: Scheduled bookings and recorded time entries on a job.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Scheduled bookings and recorded time entries on a job.
   name: ServiceM8 Job Activities API
   slug: servicem8-job-activities-api
-- description: People attached to a specific job (billing, site, etc.).
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: People attached to a specific job (billing, site, etc.).
   name: ServiceM8 Job Contacts API
   slug: servicem8-job-contacts-api
-- description: Jobs - the central record for a piece of work.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Jobs - the central record for a piece of work.
   name: ServiceM8 Jobs API
   slug: servicem8-jobs-api
-- description: Materials catalog and job material line items.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Materials catalog and job material line items.
   name: ServiceM8 Materials API
   slug: servicem8-materials-api
-- description: Workflow stages jobs move through.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Workflow stages jobs move through.
   name: ServiceM8 Queues API
   slug: servicem8-queues-api
-- description: Staff members - technicians and office users.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Staff members - technicians and office users.
   name: ServiceM8 Staff API
   slug: servicem8-staff-api
-- description: ServiceM8 account records an integration operates against.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: ServiceM8 account records an integration operates against.
   name: ServiceM8 Vendors API
   slug: servicem8-vendors-api
-- description: Object and event webhook subscriptions.
+- baseURL: https://api.servicem8.com/api_1.0
+  baseurl_source: declared
+  description: Object and event webhook subscriptions.
   name: ServiceM8 Webhooks API
   slug: servicem8-webhooks-api
 artifact_total: 32
@@ -205,7 +227,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -228,8 +250,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/screenshots/servicem8-2026-09-02T155003.png
 security:
 - kind: authentication
   name: Servicem8 Authentication

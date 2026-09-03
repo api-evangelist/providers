@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
-- description: The Projects API from Google Cloud Profiler — 4 operation(s) for projects.
+- baseURL: https://cloudprofiler.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Cloud Profiler — 4 operation(s) for projects.
   name: Google Cloud Profiler Projects API
   slug: google-cloud-profiler-projects-api
 artifact_total: 12
@@ -187,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-profiler/refs/heads/main/screenshots/google-cloud-profiler-2026-06-20T182130.png
 security:

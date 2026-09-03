@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,199 +35,327 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Admin Configurations API from Infoworks — 10 operation(s) for admin configurations.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Admin Configurations API from Infoworks — 10 operation(s) for admin configurations.
   name: Infoworks Admin Configurations API
   slug: infoworks-admin-configurations-api
-- description: The Admin Metadata Backup API from Infoworks — 1 operation(s) for admin metadata backup.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Admin Metadata Backup API from Infoworks — 1 operation(s) for admin metadata backup.
   name: Infoworks Admin Metadata Backup API
   slug: infoworks-admin-metadata-backup-api
-- description: The Admin Metadata Cleanup API from Infoworks — 8 operation(s) for admin metadata cleanup.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Admin Metadata Cleanup API from Infoworks — 8 operation(s) for admin metadata cleanup.
   name: Infoworks Admin Metadata Cleanup API
   slug: infoworks-admin-metadata-cleanup-api
-- description: The Admin Schedules API from Infoworks — 1 operation(s) for admin schedules.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Admin Schedules API from Infoworks — 1 operation(s) for admin schedules.
   name: Infoworks Admin Schedules API
   slug: infoworks-admin-schedules-api
-- description: The Admin Subscribers API from Infoworks — 4 operation(s) for admin subscribers.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Admin Subscribers API from Infoworks — 4 operation(s) for admin subscribers.
   name: Infoworks Admin Subscribers API
   slug: infoworks-admin-subscribers-api
-- description: The Admin Workflows API from Infoworks — 9 operation(s) for admin workflows.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Admin Workflows API from Infoworks — 9 operation(s) for admin workflows.
   name: Infoworks Admin Workflows API
   slug: infoworks-admin-workflows-api
-- description: The Audits API from Infoworks — 2 operation(s) for audits.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Audits API from Infoworks — 2 operation(s) for audits.
   name: Infoworks Audits API
   slug: infoworks-audits-api
-- description: The Billing Metering Data API from Infoworks — 6 operation(s) for billing metering data.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Billing Metering Data API from Infoworks — 6 operation(s) for billing metering data.
   name: Infoworks Billing Metering Data API
   slug: infoworks-billing-metering-data-api
-- description: The Clear Cache API from Infoworks — 1 operation(s) for clear cache.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Clear Cache API from Infoworks — 1 operation(s) for clear cache.
   name: Infoworks Clear Cache API
   slug: infoworks-clear-cache-api
-- description: The Configurations API from Infoworks — 2 operation(s) for configurations.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Configurations API from Infoworks — 2 operation(s) for configurations.
   name: Infoworks Configurations API
   slug: infoworks-configurations-api
-- description: The Connections API from Infoworks — 1 operation(s) for connections.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Connections API from Infoworks — 1 operation(s) for connections.
   name: Infoworks Connections API
   slug: infoworks-connections-api
-- description: The Custom Audit Columns API from Infoworks — 3 operation(s) for custom audit columns.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Custom Audit Columns API from Infoworks — 3 operation(s) for custom audit columns.
   name: Infoworks Custom Audit Columns API
   slug: infoworks-custom-audit-columns-api
-- description: Custom Tags
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Custom Tags
   name: Infoworks Custom Tags API
   slug: infoworks-custom-tags-api
-- description: Read Operation for Data Catalog
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Read Operation for Data Catalog
   name: Infoworks Data Catalog API
   slug: infoworks-data-catalog-api
-- description: The Domains API from Infoworks — 21 operation(s) for domains.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Domains API from Infoworks — 21 operation(s) for domains.
   name: Infoworks Domains API
   slug: infoworks-domains-api
-- description: Read Operation for engagement metrics
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Read Operation for engagement metrics
   name: Infoworks Engagement Metrics API
   slug: infoworks-engagement-metrics-api
-- description: The Environment API from Infoworks — 11 operation(s) for environment.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Environment API from Infoworks — 11 operation(s) for environment.
   name: Infoworks Environment API
   slug: infoworks-environment-api
-- description: Environment Cluster to start/stop/restart cluster
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Environment Cluster to start/stop/restart cluster
   name: Infoworks Environment Cluster API
   slug: infoworks-environment-cluster-api
-- description: Read Operation for event notifications
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Read Operation for event notifications
   name: Infoworks Event Notifications API
   slug: infoworks-event-notifications-api
-- description: The Favorites API from Infoworks — 2 operation(s) for favorites.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Favorites API from Infoworks — 2 operation(s) for favorites.
   name: Infoworks Favorites API
   slug: infoworks-favorites-api
-- description: The File Mappings API from Infoworks — 7 operation(s) for file mappings.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The File Mappings API from Infoworks — 7 operation(s) for file mappings.
   name: Infoworks File Mappings API
   slug: infoworks-file-mappings-api
-- description: The General Configs API from Infoworks — 2 operation(s) for general configs.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The General Configs API from Infoworks — 2 operation(s) for general configs.
   name: Infoworks General Configs API
   slug: infoworks-general-configs-api
-- description: The Generic Source Types API from Infoworks — 4 operation(s) for generic source types.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Generic Source Types API from Infoworks — 4 operation(s) for generic source types.
   name: Infoworks Generic Source Types API
   slug: infoworks-generic-source-types-api
-- description: The Get Cdata Connectors API from Infoworks — 1 operation(s) for get cdata connectors.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Get Cdata Connectors API from Infoworks — 1 operation(s) for get cdata connectors.
   name: Infoworks Get Cdata Connectors API
   slug: infoworks-get-cdata-connectors-api
-- description: The Getting Server Timezone API from Infoworks — 1 operation(s) for getting server timezone.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Getting Server Timezone API from Infoworks — 1 operation(s) for getting server timezone.
   name: Infoworks Getting Server Timezone API
   slug: infoworks-getting-server-timezone-api
-- description: The Job Hooks API from Infoworks — 9 operation(s) for job hooks.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Job Hooks API from Infoworks — 9 operation(s) for job hooks.
   name: Infoworks Job Hooks API
   slug: infoworks-job-hooks-api
-- description: Operations to manage Jobflows
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Operations to manage Jobflows
   name: Infoworks Jobflows API
   slug: infoworks-jobflows-api
-- description: The Jobs API from Infoworks — 33 operation(s) for jobs.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Jobs API from Infoworks — 33 operation(s) for jobs.
   name: Infoworks Jobs API
   slug: infoworks-jobs-api
-- description: The License API from Infoworks — 3 operation(s) for license.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The License API from Infoworks — 3 operation(s) for license.
   name: Infoworks License API
   slug: infoworks-license-api
-- description: The Locked Entities API from Infoworks — 7 operation(s) for locked entities.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Locked Entities API from Infoworks — 7 operation(s) for locked entities.
   name: Infoworks Locked Entities API
   slug: infoworks-locked-entities-api
-- description: The Metrics API from Infoworks — 15 operation(s) for metrics.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Metrics API from Infoworks — 15 operation(s) for metrics.
   name: Infoworks Metrics API
   slug: infoworks-metrics-api
-- description: The Misc API from Infoworks — 2 operation(s) for misc.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Misc API from Infoworks — 2 operation(s) for misc.
   name: Infoworks Misc API
   slug: infoworks-misc-api
-- description: The Pipeline Extensions API from Infoworks — 4 operation(s) for pipeline extensions.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Pipeline Extensions API from Infoworks — 4 operation(s) for pipeline extensions.
   name: Infoworks Pipeline Extensions API
   slug: infoworks-pipeline-extensions-api
-- description: The Pipeline Groups API from Infoworks — 6 operation(s) for pipeline groups.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Pipeline Groups API from Infoworks — 6 operation(s) for pipeline groups.
   name: Infoworks Pipeline Groups API
   slug: infoworks-pipeline-groups-api
-- description: The Pipeline Version Lock API from Infoworks — 2 operation(s) for pipeline version lock.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Pipeline Version Lock API from Infoworks — 2 operation(s) for pipeline version lock.
   name: Infoworks Pipeline Version Lock API
   slug: infoworks-pipeline-version-lock-api
-- description: CRUD operations from pipeline version locks
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: CRUD operations from pipeline version locks
   name: Infoworks Pipeline Version Locks API
   slug: infoworks-pipeline-version-locks-api
-- description: The Pipelines API from Infoworks — 22 operation(s) for pipelines.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Pipelines API from Infoworks — 22 operation(s) for pipelines.
   name: Infoworks Pipelines API
   slug: infoworks-pipelines-api
-- description: CRUD Operations to manage user specific presets
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: CRUD Operations to manage user specific presets
   name: Infoworks Presets API
   slug: infoworks-presets-api
-- description: The Scheduling Information API from Infoworks — 5 operation(s) for scheduling information.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Scheduling Information API from Infoworks — 5 operation(s) for scheduling information.
   name: Infoworks Scheduling Information API
   slug: infoworks-scheduling-information-api
-- description: CRUD Operations to manage Secret Stores
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: CRUD Operations to manage Secret Stores
   name: Infoworks Secret Store API
   slug: infoworks-secret-store-api
-- description: CRUD Operations to manage Secrets
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: CRUD Operations to manage Secrets
   name: Infoworks Secrets API
   slug: infoworks-secrets-api
-- description: The Security API from Infoworks — 8 operation(s) for security.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Security API from Infoworks — 8 operation(s) for security.
   name: Infoworks Security API
   slug: infoworks-security-api
-- description: The Self API from Infoworks — 2 operation(s) for self.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Self API from Infoworks — 2 operation(s) for self.
   name: Infoworks Self API
   slug: infoworks-self-api
-- description: The Server Time API from Infoworks — 1 operation(s) for server time.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Server Time API from Infoworks — 1 operation(s) for server time.
   name: Infoworks Server Time API
   slug: infoworks-server-time-api
-- description: CRUD Operations to manage Service Authentication mechanisms
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: CRUD Operations to manage Service Authentication mechanisms
   name: Infoworks Service Authentication API
   slug: infoworks-service-authentication-api
-- description: The Service Authentication Cache API from Infoworks — 1 operation(s) for service authentication cache.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Service Authentication Cache API from Infoworks — 1 operation(s) for service authentication cache.
   name: Infoworks Service Authentication Cache API
   slug: infoworks-service-authentication-cache-api
-- description: The Source Configurations API from Infoworks — 3 operation(s) for source configurations.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Source Configurations API from Infoworks — 3 operation(s) for source configurations.
   name: Infoworks Source Configurations API
   slug: infoworks-source-configurations-api
-- description: The Source Extensions API from Infoworks — 4 operation(s) for source extensions.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Source Extensions API from Infoworks — 4 operation(s) for source extensions.
   name: Infoworks Source Extensions API
   slug: infoworks-source-extensions-api
-- description: The Sources API from Infoworks — 8 operation(s) for sources.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Sources API from Infoworks — 8 operation(s) for sources.
   name: Infoworks Sources API
   slug: infoworks-sources-api
-- description: The StopStreaming API from Infoworks — 1 operation(s) for stopstreaming.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The StopStreaming API from Infoworks — 1 operation(s) for stopstreaming.
   name: Infoworks Stop Streaming API
   slug: infoworks-stopstreaming-api
-- description: The Streaming API from Infoworks — 3 operation(s) for streaming.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Streaming API from Infoworks — 3 operation(s) for streaming.
   name: Infoworks Streaming API
   slug: infoworks-streaming-api
-- description: The Subscribers API from Infoworks — 2 operation(s) for subscribers.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Subscribers API from Infoworks — 2 operation(s) for subscribers.
   name: Infoworks Subscribers API
   slug: infoworks-subscribers-api
-- description: Enable/Disable schedule for table groups
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Enable/Disable schedule for table groups
   name: Infoworks Table Group Schedule API
   slug: infoworks-table-group-schedule-api
-- description: The Table Groups API from Infoworks — 5 operation(s) for table groups.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Table Groups API from Infoworks — 5 operation(s) for table groups.
   name: Infoworks Table Groups API
   slug: infoworks-table-groups-api
-- description: The Tables API from Infoworks — 37 operation(s) for tables.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Tables API from Infoworks — 37 operation(s) for tables.
   name: Infoworks Tables API
   slug: infoworks-tables-api
-- description: Target Data Connections
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Target Data Connections
   name: Infoworks Target Data Connections API
   slug: infoworks-target-data-connections-api
-- description: The Topics API from Infoworks — 9 operation(s) for topics.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Topics API from Infoworks — 9 operation(s) for topics.
   name: Infoworks Topics API
   slug: infoworks-topics-api
-- description: The User Notification Subscribe API from Infoworks — 3 operation(s) for user notification subscribe.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The User Notification Subscribe API from Infoworks — 3 operation(s) for user notification subscribe.
   name: Infoworks User Notification Subscribe API
   slug: infoworks-user-notification-subscribe-api
-- description: The Users API from Infoworks — 13 operation(s) for users.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Users API from Infoworks — 13 operation(s) for users.
   name: Infoworks Users API
   slug: infoworks-users-api
-- description: The Validation API from Infoworks — 2 operation(s) for validation.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Validation API from Infoworks — 2 operation(s) for validation.
   name: Infoworks Validation API
   slug: infoworks-validation-api
-- description: The Workflow Run Metering variables API from Infoworks — 1 operation(s) for workflow run metering variables.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Workflow Run Metering variables API from Infoworks — 1 operation(s) for workflow run metering variables.
   name: Infoworks Workflow Run Metering variables API
   slug: infoworks-workflow-run-metering-variables-api
-- description: Workflow Versions CRUD Operations
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: Workflow Versions CRUD Operations
   name: Infoworks Workflow Versions API
   slug: infoworks-workflow-versions-api
-- description: The Workflows API from Infoworks — 20 operation(s) for workflows.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Workflows API from Infoworks — 20 operation(s) for workflows.
   name: Infoworks Workflows API
   slug: infoworks-workflows-api
-- description: The Workflows Schedules API from Infoworks — 5 operation(s) for workflows schedules.
+- baseURL: https://{host}:{port}/v3
+  baseurl_source: declared
+  description: The Workflows Schedules API from Infoworks — 5 operation(s) for workflows schedules.
   name: Infoworks Workflows Schedules API
   slug: infoworks-workflows-schedules-api
 artifact_total: 70
@@ -352,20 +492,20 @@ rate_limits:
   slug: infoworks-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 35.8
   coverage:
-    artifact_dirs: 19
-    catalog_gap: 78.0
+    artifact_dirs: 20
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 50.9
+    contract_quality: 54.3
     developer_ergonomics: 28.0
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 4.5
     operational_transparency: 28.9
   previous_composite: 36.8
@@ -379,8 +519,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infoworks/refs/heads/main/screenshots/infoworks-2026-09-02T145852.png
 security:
 - kind: authentication
   name: Infoworks Authentication

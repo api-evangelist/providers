@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 17 operations · 13 acting
 api_count: 3
 apis:
-- description: Hybrid quantum-classical job orchestration.
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: spec
+  description: Hybrid quantum-classical job orchestration.
   name: AWS Braket HybridJobs API
   slug: aws-braket-hybridjobs-api
-- description: Submit and manage quantum task executions on Amazon Braket devices.
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: spec
+  description: Submit and manage quantum task executions on Amazon Braket devices.
   name: AWS Braket QuantumTasks API
   slug: aws-braket-quantumtasks-api
-- description: Per-device opt-in cost controls for QPU tasks.
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: spec
+  description: Per-device opt-in cost controls for QPU tasks.
   name: AWS Braket SpendingLimits API
   slug: aws-braket-spendinglimits-api
 artifact_total: 53
@@ -421,7 +427,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/screenshots/aws-braket-2026-06-20T172752.png
 security:

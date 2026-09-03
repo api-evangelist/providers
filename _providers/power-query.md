@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: API and language reference for the M formula language used in Power Query for data transformation expressions and custom functions.
@@ -48,7 +48,9 @@ apis:
 - description: Development toolkit for building custom Power Query connectors using Visual Studio Code, including project scaffolding, testing, and packaging of .mez connector files.
   name: Power Query SDK
   slug: sdk
-- description: REST API for the Microsoft Fabric Dataflow item - the productized Power Query mashup engine. Creates, reads, updates and deletes dataflows, publishes and retrieves their Power Query definitions, disco
+- baseURL: https://api.fabric.microsoft.com/v1
+  baseurl_source: declared
+  description: REST API for the Microsoft Fabric Dataflow item - the productized Power Query mashup engine. Creates, reads, updates and deletes dataflows, publishes and retrieves their Power Query definitions, disco
   name: Fabric Dataflow REST API (Power Query)
   slug: fabric-api
 artifact_total: 31
@@ -343,7 +345,7 @@ score:
     catalog_gap: 32.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -356,7 +358,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 75.2
+  previous_composite: 80.1
   provenance:
     conformance: derived
     contracts:
@@ -373,7 +375,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/screenshots/power-query-2026-06-20T192025.png
 security:

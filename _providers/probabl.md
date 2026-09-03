@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +33,47 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Anthropic Compatible Agent API from Probabl — 1 operation(s) for anthropic compatible agent.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The Anthropic Compatible Agent API from Probabl — 1 operation(s) for anthropic compatible agent.
   name: Probabl Anthropic Compatible Agent API
   slug: probabl-anthropic-compatible-agent-api
-- description: The Health API from Probabl — 1 operation(s) for health.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The Health API from Probabl — 1 operation(s) for health.
   name: Probabl Health API
   slug: probabl-health-api
-- description: The identity API from Probabl — 22 operation(s) for identity.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The identity API from Probabl — 22 operation(s) for identity.
   name: Probabl Identity API
   slug: probabl-identity-api
-- description: The Liveness API from Probabl — 1 operation(s) for liveness.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The Liveness API from Probabl — 1 operation(s) for liveness.
   name: Probabl Liveness API
   slug: probabl-liveness-api
-- description: The LLM Provider API from Probabl — 3 operation(s) for llm provider.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The LLM Provider API from Probabl — 3 operation(s) for llm provider.
   name: Probabl LLM Provider API
   slug: probabl-llm-provider-api
-- description: The OpenAI Compatible Agent API from Probabl — 3 operation(s) for openai compatible agent.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The OpenAI Compatible Agent API from Probabl — 3 operation(s) for openai compatible agent.
   name: Probabl OpenAI Compatible Agent API
   slug: probabl-openai-compatible-agent-api
-- description: The projects API from Probabl — 19 operation(s) for projects.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The projects API from Probabl — 19 operation(s) for projects.
   name: Probabl Projects API
   slug: probabl-projects-api
-- description: The Readiness API from Probabl — 1 operation(s) for readiness.
+- baseURL: https://api.skore.probabl.ai
+  baseurl_source: declared
+  description: The Readiness API from Probabl — 1 operation(s) for readiness.
   name: Probabl Readiness API
   slug: probabl-readiness-api
 artifact_total: 10
@@ -162,7 +188,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -184,8 +210,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/screenshots/probabl-2026-09-02T152057.png
 security:
 - kind: domain-security
   name: Probabl Domain Security

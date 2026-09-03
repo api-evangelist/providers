@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered c
@@ -150,7 +150,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

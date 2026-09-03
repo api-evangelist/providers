@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 9 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Tagging and category metadata for songs and SFX.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: Tagging and category metadata for songs and SFX.
   name: Soundstripe Categories API
   slug: soundstripe-categories-api
-- description: Soundstripe-curated playlists and their categories.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: Soundstripe-curated playlists and their categories.
   name: Soundstripe Playlists API
   slug: soundstripe-playlists-api
-- description: User-scoped playlists for organizing songs and sound effects.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: User-scoped playlists for organizing songs and sound effects.
   name: Soundstripe Private Playlists API
   slug: soundstripe-private-playlists-api
-- description: Catalog song retrieval with artists and audio files.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: Catalog song retrieval with artists and audio files.
   name: Soundstripe Songs API
   slug: soundstripe-songs-api
-- description: Sound-effect library and category browsing.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: Sound-effect library and category browsing.
   name: Soundstripe Sound Effects API
   slug: soundstripe-sound-effects-api
-- description: Reference image and video uploads consumed by Supe Search.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: Reference image and video uploads consumed by Supe Search.
   name: Soundstripe Supe Assets API
   slug: soundstripe-supe-assets-api
-- description: Asynchronous AI music supervisor for natural-language and image-based catalog matching.
+- baseURL: https://api.soundstripe.com
+  baseurl_source: declared
+  description: Asynchronous AI music supervisor for natural-language and image-based catalog matching.
   name: Soundstripe Supe Search API
   slug: soundstripe-supe-search-api
 artifact_total: 22
@@ -225,7 +239,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -235,7 +249,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 41.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -244,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/screenshots/soundstripe-2026-06-20T194222.png
 security:

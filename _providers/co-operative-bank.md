@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII / Card-Based Payment Instrument) API — funds-confirmation consent and funds-confirmation checks for The Co-operative Bank and smile brands. FAPI-secured (O
   name: The Co-operative Bank Confirmation of Funds API (CBPII)
   slug: confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://openbanking-retail.apis.co-operativebank.co.uk/apis/retail/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: The Co-operative Bank ATM API
   slug: co-operative-bank-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://openbanking-retail.apis.co-operativebank.co.uk/apis/retail/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: The Co-operative Bank BCA API
   slug: co-operative-bank-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://openbanking-retail.apis.co-operativebank.co.uk/apis/retail/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: The Co-operative Bank Branch API
   slug: co-operative-bank-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://openbanking-retail.apis.co-operativebank.co.uk/apis/retail/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: The Co-operative Bank CCC API
   slug: co-operative-bank-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://openbanking-retail.apis.co-operativebank.co.uk/apis/retail/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: The Co-operative Bank PCA API
   slug: co-operative-bank-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://openbanking-retail.apis.co-operativebank.co.uk/apis/retail/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: The Co-operative Bank SME API
   slug: co-operative-bank-sme-api
 artifact_total: 15
@@ -246,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 73.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:

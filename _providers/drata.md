@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 93
@@ -48,157 +48,259 @@ apis:
 - description: Drata's hosted remote Model Context Protocol server (Beta). MCP-compatible clients (Claude, ChatGPT, Cursor, Microsoft Copilot) connect over OAuth 2.1 with PKCE to regional endpoints for the US, EU an
   name: Drata MCP Server
   slug: mcp
-- description: The Account Members API from Drata — 3 operation(s) for account members.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Account Members API from Drata — 3 operation(s) for account members.
   name: Drata Account Members API
   slug: drata-account-members-api
-- description: The Accounts API from Drata — 3 operation(s) for accounts.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Accounts API from Drata — 3 operation(s) for accounts.
   name: Drata Accounts API
   slug: drata-accounts-api
-- description: Assets let you build an inventory of policies, personnel and computer infrastructure. The [help docs](https://help.drata.com/en/collections/10485424) have more information.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Assets let you build an inventory of policies, personnel and computer infrastructure. The [help docs](https://help.drata.com/en/collections/10485424) have more information.
   name: Drata Assets API
   slug: drata-assets-api
-- description: The Audit Requests API from Drata — 2 operation(s) for audit requests.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Audit Requests API from Drata — 2 operation(s) for audit requests.
   name: Drata Audit Requests API
   slug: drata-audit-requests-api
-- description: Audits represent compliance assessments for a specific framework and time period. Audit Requests are evidence requests associated with an audit.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Audits represent compliance assessments for a specific framework and time period. Audit Requests are evidence requests associated with an audit.
   name: Drata Audits API
   slug: drata-audits-api
-- description: Background checks verify a person’s identity, history, and qualifications to ensure they meet legal, regulatory, or policy standards. The [help docs](https://help.drata.com/en/articles/5833999-backgro
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Background checks verify a person’s identity, history, and qualifications to ensure they meet legal, regulatory, or policy standards. The [help docs](https://help.drata.com/en/articles/5833999-backgro
   name: Drata Background Checks API
   slug: drata-background-checks-api
-- description: The Company tracks essential information about your organization. The [help docs](https://help.drata.com/en/articles/8283910) have more information on the purpose of each field.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Company tracks essential information about your organization. The [help docs](https://help.drata.com/en/articles/8283910) have more information on the purpose of each field.
   name: Drata Company API
   slug: drata-company-api
-- description: The Control Library is a catalog of pre-built Control Templates that can be provisioned into a Workspace. Each item carries default mappings to Tests, Policies, Evidence, and Framework Requirements.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Control Library is a catalog of pre-built Control Templates that can be provisioned into a Workspace. Each item carries default mappings to Tests, Policies, Evidence, and Framework Requirements.
   name: Drata Control Library API
   slug: drata-control-library-api
-- description: Control Notes allow you to provide additional information about Controls.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Control Notes allow you to provide additional information about Controls.
   name: Drata Control Notes API
   slug: drata-control-notes-api
-- description: Control Owners are the Users responsible for Controls. They ensure the right evidence is associated, that any automated tests are passing, and help prepare for an audit.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Control Owners are the Users responsible for Controls. They ensure the right evidence is associated, that any automated tests are passing, and help prepare for an audit.
   name: Drata Control Owners API
   slug: drata-control-owners-api
-- description: Controls are a strategic measure or safeguard that an organization puts in place to protect its assets and meet the requirements of specific compliance frameworks.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Controls are a strategic measure or safeguard that an organization puts in place to protect its assets and meet the requirements of specific compliance frameworks.
   name: Drata Controls API
   slug: drata-controls-api
-- description: Custom Connections allow users to integrate external systems with Drata. CUSTOM connections push arbitrary JSON evidence records using a user-defined schema. MDM and HRIS connections use a fixed commo
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Custom Connections allow users to integrate external systems with Drata. CUSTOM connections push arbitrary JSON evidence records using a user-defined schema. MDM and HRIS connections use a fixed commo
   name: Drata Custom Connections API
   slug: drata-custom-connections-api
-- description: Custom Data Records are JSON evidence records pushed to a Custom Connection resource. Use the session management endpoints to batch upload records and track the status of bulk operations. You can crea
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Custom Data Records are JSON evidence records pushed to a Custom Connection resource. Use the session management endpoints to batch upload records and track the status of bulk operations. You can crea
   name: Drata Custom Data Records API
   slug: drata-custom-data-records-api
-- description: 'Custom Field Definitions describe the schema - name, required, type, options, entity placements, and framework scope - of the Custom Fields configured on your account. Use them to discover the option '
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: 'Custom Field Definitions describe the schema - name, required, type, options, entity placements, and framework scope - of the Custom Fields configured on your account. Use them to discover the option '
   name: Drata Custom Field Definitions API
   slug: drata-custom-field-definitions-api
-- description: Device Documents allow you to provide manual evidence of Devices compliance. Using the Drata Agent or an MDM connection automatically provides this information.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Device Documents allow you to provide manual evidence of Devices compliance. Using the Drata Agent or an MDM connection automatically provides this information.
   name: Drata Device Documents API
   slug: drata-device-documents-api
-- description: Devices are computers used by personnel. The data is provided by the Drata Agent or an MDM connection.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Devices are computers used by personnel. The data is provided by the Drata Agent or an MDM connection.
   name: Drata Devices API
   slug: drata-devices-api
-- description: The Documents API from Drata — 4 operation(s) for documents.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Documents API from Drata — 4 operation(s) for documents.
   name: Drata Documents API
   slug: drata-documents-api
-- description: Events record the activity of User and automated processes in the Drata platform.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Events record the activity of User and automated processes in the Drata platform.
   name: Drata Events API
   slug: drata-events-api
-- description: 'Evidence items hold one or more artifacts, the files, URLs, or ticket references that demonstrate a control is operating. <br/>Use the evidence-files endpoint to pre-upload a file, then reference the '
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: 'Evidence items hold one or more artifacts, the files, URLs, or ticket references that demonstrate a control is operating. <br/>Use the evidence-files endpoint to pre-upload a file, then reference the '
   name: Drata Evidence API
   slug: drata-evidence-api
-- description: Drata's Evidence Library serves as a repository for all the evidence you need to collect across your controls. The [help docs](https://help.drata.com/en/articles/8288579-evidence-library-overview) hav
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Drata's Evidence Library serves as a repository for all the evidence you need to collect across your controls. The [help docs](https://help.drata.com/en/articles/8288579-evidence-library-overview) hav
   name: Drata Evidence Library API
   slug: drata-evidence-library-api
-- description: Frameworks are collections of controls that are used to assess compliance with specific standards or regulations. The [help docs](https://help.drata.com/en/articles/5329593-frameworks) have more infor
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Frameworks are collections of controls that are used to assess compliance with specific standards or regulations. The [help docs](https://help.drata.com/en/articles/5329593-frameworks) have more infor
   name: Drata Frameworks API
   slug: drata-frameworks-api
-- description: Groups are collections of Users that can be used to manage permissions and access to resources.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Groups are collections of Users that can be used to manage permissions and access to resources.
   name: Drata Groups API
   slug: drata-groups-api
-- description: HR user identity records for a Custom HRIS connection. Use the batch upsert endpoint to submit employee records keyed by your own `identityId`, then use the update endpoint to reflect employment chang
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: HR user identity records for a Custom HRIS connection. Use the batch upsert endpoint to submit employee records keyed by your own `identityId`, then use the update endpoint to reflect employment chang
   name: Drata HRIS User Identities API
   slug: drata-hris-user-identities-api
-- description: The Knowledge Base API from Drata — 3 operation(s) for knowledge base.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Knowledge Base API from Drata — 3 operation(s) for knowledge base.
   name: Drata Knowledge Base API
   slug: drata-knowledge-base-api
-- description: Monitoring Tests are compliance tests used to determine whether a person, system, process, or organization is adhering to standards set by compliance controls within a framework. The [help docs](https
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Monitoring Tests are compliance tests used to determine whether a person, system, process, or organization is adhering to standards set by compliance controls within a framework. The [help docs](https
   name: Drata Monitoring Tests API
   slug: drata-monitoring-tests-api
-- description: The Organization API from Drata — 4 operation(s) for organization.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Organization API from Drata — 4 operation(s) for organization.
   name: Drata Organization API
   slug: drata-organization-api
-- description: Personnel are people who work for your organization. The [help docs](https://help.drata.com/en/collections/2653981) have more information.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Personnel are people who work for your organization. The [help docs](https://help.drata.com/en/collections/2653981) have more information.
   name: Drata Personnel API
   slug: drata-personnel-api
-- description: 'A policy is a document that outlines an organization’s commitment to following standards relevant to its operations. The [help docs](https://help.drata.com/en/articles/9202419-policy-center-overview) '
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: 'A policy is a document that outlines an organization’s commitment to following standards relevant to its operations. The [help docs](https://help.drata.com/en/articles/9202419-policy-center-overview) '
   name: Drata Policies API
   slug: drata-policies-api
-- description: Policy Languages let an organization publish the same Policy Version in several languages. Settings endpoints expose the languages an organization has configured and which one is the default; Policy L
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Policy Languages let an organization publish the same Policy Version in several languages. Settings endpoints expose the languages an organization has configured and which one is the default; Policy L
   name: Drata Policy Languages API
   slug: drata-policy-languages-api
-- description: The Portals API from Drata — 1 operation(s) for portals.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Portals API from Drata — 1 operation(s) for portals.
   name: Drata Portals API
   slug: drata-portals-api
-- description: The Procurement Connection Mappings API from Drata — 1 operation(s) for procurement connection mappings.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Procurement Connection Mappings API from Drata — 1 operation(s) for procurement connection mappings.
   name: Drata Procurement Connection Mappings API
   slug: drata-procurement-connection-mappings-api
-- description: The Products API from Drata — 1 operation(s) for products.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Products API from Drata — 1 operation(s) for products.
   name: Drata Products API
   slug: drata-products-api
-- description: The Questionnaires API from Drata — 2 operation(s) for questionnaires.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Questionnaires API from Drata — 2 operation(s) for questionnaires.
   name: Drata Questionnaires API
   slug: drata-questionnaires-api
-- description: The Requests API from Drata — 3 operation(s) for requests.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Requests API from Drata — 3 operation(s) for requests.
   name: Drata Requests API
   slug: drata-requests-api
-- description: Risk Documents are supporting documents, evidence, or other materials that are associated with a risk.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Risk Documents are supporting documents, evidence, or other materials that are associated with a risk.
   name: Drata Risk Documents API
   slug: drata-risk-documents-api
-- description: The Risk Library is a collection of Risks that can be copied into a Risk Register. The [help docs](https://help.drata.com/en/articles/13371089-drata-s-risk-library-new-experience) have more informatio
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Risk Library is a collection of Risks that can be copied into a Risk Register. The [help docs](https://help.drata.com/en/articles/13371089-drata-s-risk-library-new-experience) have more informatio
   name: Drata Risk Library API
   slug: drata-risk-library-api
-- description: Risk Notes allow you to provide additional information about Risks.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Risk Notes allow you to provide additional information about Risks.
   name: Drata Risk Notes API
   slug: drata-risk-notes-api
-- description: Risk Registers are a collection of Risks. They are used to organize and manage Risks.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Risk Registers are a collection of Risks. They are used to organize and manage Risks.
   name: Drata Risk Registers API
   slug: drata-risk-registers-api
-- description: Risks are potential events that could impact the security, reputation, and financial health of a company.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Risks are potential events that could impact the security, reputation, and financial health of a company.
   name: Drata Risks API
   slug: drata-risks-api
-- description: The Tags API from Drata — 1 operation(s) for tags.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Tags API from Drata — 1 operation(s) for tags.
   name: Drata Tags API
   slug: drata-tags-api
-- description: Tasks are individual units of work that can be assigned to users.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Tasks are individual units of work that can be assigned to users.
   name: Drata Tasks API
   slug: drata-tasks-api
-- description: The Trust Center Updates API from Drata — 4 operation(s) for trust center updates.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: The Trust Center Updates API from Drata — 4 operation(s) for trust center updates.
   name: Drata Trust Center Updates API
   slug: drata-trust-center-updates-api
-- description: Uploads let you request a pre-signed S3 URL to upload a file for a given purpose (e.g. Evidence), then reference the resulting object key when creating the associated resource.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Uploads let you request a pre-signed S3 URL to upload a file for a given purpose (e.g. Evidence), then reference the resulting object key when creating the associated resource.
   name: Drata Uploads API
   slug: drata-uploads-api
-- description: User Documents allow you to provide manual evidence of User and Personnel compliance.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: User Documents allow you to provide manual evidence of User and Personnel compliance.
   name: Drata User Documents API
   slug: drata-user-documents-api
-- description: User's Assigned Policies track the acknowledgement of Policy Versions by Users.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: User's Assigned Policies track the acknowledgement of Policy Versions by Users.
   name: Drata User's Assigned Policies API
   slug: drata-user-s-assigned-policies-api
-- description: '**Users** are are people with access to the Drata platform. **Roles** grant permissions to Users. The [help docs](https://help.drata.com/en/collections/5993507) have more information on the default Ro'
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: '**Users** are are people with access to the Drata platform. **Roles** grant permissions to Users. The [help docs](https://help.drata.com/en/collections/5993507) have more information on the default Ro'
   name: Drata Users and Roles API
   slug: drata-users-and-roles-api
-- description: Vendor Documents provide compliance-related documentation, such as bridge letters, questionnaires, and SOC reports.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Vendor Documents provide compliance-related documentation, such as bridge letters, questionnaires, and SOC reports.
   name: Drata Vendor Documents API
   slug: drata-vendor-documents-api
-- description: Vendor Security Reviews track the status of security reviews for Vendors. You can create a security review, upload questionnaires, and track the progress of the review. The [help docs](https://help.dr
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Vendor Security Reviews track the status of security reviews for Vendors. You can create a security review, upload questionnaires, and track the progress of the review. The [help docs](https://help.dr
   name: Drata Vendor Security Reviews API
   slug: drata-vendor-security-reviews-api
-- description: Vendor Types are user-defined classifications used to categorize and organize vendors.
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Vendor Types are user-defined classifications used to categorize and organize vendors.
   name: Drata Vendor Types API
   slug: drata-vendor-types-api
-- description: Vendors are third-parties that your organization is working with. Drata allows you to track and review risks associated with these third-parties. The [help docs](https://help.drata.com/en/articles/967
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Vendors are third-parties that your organization is working with. Drata allows you to track and review risks associated with these third-parties. The [help docs](https://help.drata.com/en/articles/967
   name: Drata Vendors API
   slug: drata-vendors-api
-- description: Workspaces allow you to represent different products or business lines that have different compliance requirements. Each Workspace can have its own Frameworks and Controls. The [help docs](https://hel
+- baseURL: https://public-api.drata.com/public/v2
+  baseurl_source: declared
+  description: Workspaces allow you to represent different products or business lines that have different compliance requirements. Each Workspace can have its own Frameworks and Controls. The [help docs](https://hel
   name: Drata Workspaces API
   slug: drata-workspaces-api
 artifact_total: 62
@@ -409,7 +511,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -419,7 +521,7 @@ score:
     discoverability: 50.0
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 57.5
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,7 +533,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/screenshots/drata-2026-06-20T180244.png
 security:

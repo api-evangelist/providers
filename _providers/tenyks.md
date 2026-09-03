@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations · 7 acting
 api_count: 1
 apis:
-- description: Obtain a Bearer access token from an API key and secret.
+- baseURL: https://dashboard.tenyks.ai
+  baseurl_source: declared
+  description: Obtain a Bearer access token from an API key and secret.
   name: Tenyks Auth API
   slug: tenyks-auth-api
-- description: Upload and ingest annotations, models and predictions from cloud storage.
+- baseURL: https://dashboard.tenyks.ai
+  baseurl_source: declared
+  description: Upload and ingest annotations, models and predictions from cloud storage.
   name: Tenyks Data Upload API
   slug: tenyks-data-upload-api
-- description: Create and retrieve datasets.
+- baseURL: https://dashboard.tenyks.ai
+  baseurl_source: declared
+  description: Create and retrieve datasets.
   name: Tenyks Datasets API
   slug: tenyks-datasets-api
 artifact_total: 12
@@ -223,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenyks/refs/heads/main/screenshots/tenyks-2026-08-17T082314.png
 security:

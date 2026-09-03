@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 191 operations · 119 acting · 20 human-in-the-loop
 api_count: 3
 apis:
-- description: The api API from AgStack Foundation — 57 operation(s) for api.
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The api API from AgStack Foundation — 57 operation(s) for api.
   name: AgStack Foundation api API
   slug: agstack-api-api
-- description: The Auth API from AgStack Foundation — 2 operation(s) for auth.
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The Auth API from AgStack Foundation — 2 operation(s) for auth.
   name: AgStack Foundation Auth API
   slug: agstack-auth-api
-- description: The Authentication API from AgStack Foundation — 1 operation(s) for authentication.
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The Authentication API from AgStack Foundation — 1 operation(s) for authentication.
   name: AgStack Foundation Authentication API
   slug: agstack-authentication-api
-- description: The Data API from AgStack Foundation — 6 operation(s) for data.
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The Data API from AgStack Foundation — 6 operation(s) for data.
   name: AgStack Foundation Data API
   slug: agstack-data-api
-- description: The Field Registration (POST) API from AgStack Foundation — 4 operation(s) for field registration (post).
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The Field Registration (POST) API from AgStack Foundation — 4 operation(s) for field registration (post).
   name: AgStack Foundation Field Registration (POST) API
   slug: agstack-field-registration-post-api
-- description: The Field Retrieval & Queries API from AgStack Foundation — 4 operation(s) for field retrieval & queries.
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The Field Retrieval & Queries API from AgStack Foundation — 4 operation(s) for field retrieval & queries.
   name: AgStack Foundation Field Retrieval & Queries API
   slug: agstack-field-retrieval-queries-api
-- description: The Linkeddata API from AgStack Foundation — 5 operation(s) for linkeddata.
+- baseURL: https://api-ar.agstack.org
+  baseurl_source: spec
+  description: The Linkeddata API from AgStack Foundation — 5 operation(s) for linkeddata.
   name: AgStack Foundation Linkeddata API
   slug: agstack-linkeddata-api
 artifact_total: 267
@@ -930,7 +944,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/screenshots/agstack-2026-06-20T170504.png
 security:

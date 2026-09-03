@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,16 +60,24 @@ apis:
 - description: gRPC interface defined by clickhouse_grpc.proto for efficient binary communication.
   name: ClickHouse gRPC Interface
   slug: clickhouse-grpc
-- description: The ClickHouse HTTP Interface API from ClickHouse — 1 operation(s) for clickhouse http interface.
+- baseURL: http://localhost:8123
+  baseurl_source: declared
+  description: The ClickHouse HTTP Interface API from ClickHouse — 1 operation(s) for clickhouse http interface.
   name: ClickHouse ClickHouse HTTP Interface API
   slug: clickhouse-clickhouse-http-interface-api
-- description: The Ping API from ClickHouse — 1 operation(s) for ping.
+- baseURL: http://localhost:8123
+  baseurl_source: declared
+  description: The Ping API from ClickHouse — 1 operation(s) for ping.
   name: ClickHouse Ping API
   slug: clickhouse-ping-api
-- description: The Play API from ClickHouse — 1 operation(s) for play.
+- baseURL: http://localhost:8123
+  baseurl_source: declared
+  description: The Play API from ClickHouse — 1 operation(s) for play.
   name: ClickHouse Play API
   slug: clickhouse-play-api
-- description: The Replicas Status API from ClickHouse — 1 operation(s) for replicas status.
+- baseURL: http://localhost:8123
+  baseurl_source: declared
+  description: The Replicas Status API from ClickHouse — 1 operation(s) for replicas status.
   name: ClickHouse Replicas Status API
   slug: clickhouse-replicas-status-api
 artifact_total: 30
@@ -257,7 +265,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -267,7 +275,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 28.9
-  previous_composite: 40.4
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -276,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/screenshots/clickhouse-2026-06-20T174515.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 75 operations · 31 acting
 api_count: 7
 apis:
-- description: The Claim acknowledgments API from Stedi — 1 operation(s) for claim acknowledgments.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Claim acknowledgments API from Stedi — 1 operation(s) for claim acknowledgments.
   name: Stedi Claim acknowledgments API
   slug: stedi-claim-acknowledgments-api
-- description: The Claim Attachments API from Stedi — 2 operation(s) for claim attachments.
+- baseURL: https://claims.us.stedi.com/2025-03-07
+  baseurl_source: declared
+  description: The Claim Attachments API from Stedi — 2 operation(s) for claim attachments.
   name: Stedi Claim Attachments API
   slug: stedi-claim-attachments-api
-- description: The Claim submission API from Stedi — 8 operation(s) for claim submission.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Claim submission API from Stedi — 8 operation(s) for claim submission.
   name: Stedi Claim submission API
   slug: stedi-claim-submission-api
-- description: The Coordination of benefits API from Stedi — 1 operation(s) for coordination of benefits.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Coordination of benefits API from Stedi — 1 operation(s) for coordination of benefits.
   name: Stedi Coordination of benefits API
   slug: stedi-coordination-of-benefits-api
-- description: The Documents API from Stedi — 2 operation(s) for documents.
+- baseURL: https://enrollments.us.stedi.com/2024-09-01
+  baseurl_source: declared
+  description: The Documents API from Stedi — 2 operation(s) for documents.
   name: Stedi Documents API
   slug: stedi-documents-api
-- description: The Enrollments API from Stedi — 4 operation(s) for enrollments.
+- baseURL: https://enrollments.us.stedi.com/2024-09-01
+  baseurl_source: declared
+  description: The Enrollments API from Stedi — 4 operation(s) for enrollments.
   name: Stedi Enrollments API
   slug: stedi-enrollments-api
-- description: The Events API from Stedi — 3 operation(s) for events.
+- baseURL: https://events.us.stedi.com/2026-02-01
+  baseurl_source: declared
+  description: The Events API from Stedi — 3 operation(s) for events.
   name: Stedi Events API
   slug: stedi-events-api
-- description: The Executions API from Stedi — 11 operation(s) for executions.
+- baseURL: https://core.us.stedi.com/2023-08-01
+  baseurl_source: declared
+  description: The Executions API from Stedi — 11 operation(s) for executions.
   name: Stedi Executions API
   slug: stedi-executions-api
-- description: The Fragments API from Stedi — 1 operation(s) for fragments.
+- baseURL: https://core.us.stedi.com/2023-08-01
+  baseurl_source: declared
+  description: The Fragments API from Stedi — 1 operation(s) for fragments.
   name: Stedi Fragments API
   slug: stedi-fragments-api
-- description: The Insurance discovery API from Stedi — 2 operation(s) for insurance discovery.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Insurance discovery API from Stedi — 2 operation(s) for insurance discovery.
   name: Stedi Insurance discovery API
   slug: stedi-insurance-discovery-api
-- description: The Partnerships API from Stedi — 3 operation(s) for partnerships.
+- baseURL: https://core.us.stedi.com/2023-08-01
+  baseurl_source: declared
+  description: The Partnerships API from Stedi — 3 operation(s) for partnerships.
   name: Stedi Partnerships API
   slug: stedi-partnerships-api
-- description: The Payer API from Stedi — 1 operation(s) for payer.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Payer API from Stedi — 1 operation(s) for payer.
   name: Stedi Payer API
   slug: stedi-payer-api
-- description: The Payers API from Stedi — 4 operation(s) for payers.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Payers API from Stedi — 4 operation(s) for payers.
   name: Stedi Payers API
   slug: stedi-payers-api
-- description: The Polling API from Stedi — 2 operation(s) for polling.
+- baseURL: https://core.us.stedi.com/2023-08-01
+  baseurl_source: declared
+  description: The Polling API from Stedi — 2 operation(s) for polling.
   name: Stedi Polling API
   slug: stedi-polling-api
-- description: The Providers API from Stedi — 2 operation(s) for providers.
+- baseURL: https://enrollments.us.stedi.com/2024-09-01
+  baseurl_source: declared
+  description: The Providers API from Stedi — 2 operation(s) for providers.
   name: Stedi Providers API
   slug: stedi-providers-api
-- description: The Real-time claim status API from Stedi — 2 operation(s) for real-time claim status.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Real-time claim status API from Stedi — 2 operation(s) for real-time claim status.
   name: Stedi Real-time claim status API
   slug: stedi-real-time-claim-status-api
-- description: The Real-time eligibility check API from Stedi — 2 operation(s) for real-time eligibility check.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Real-time eligibility check API from Stedi — 2 operation(s) for real-time eligibility check.
   name: Stedi Real-time eligibility check API
   slug: stedi-real-time-eligibility-check-api
-- description: The Remittances API from Stedi — 2 operation(s) for remittances.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Remittances API from Stedi — 2 operation(s) for remittances.
   name: Stedi Remittances API
   slug: stedi-remittances-api
-- description: The Tasks API from Stedi — 1 operation(s) for tasks.
+- baseURL: https://enrollments.us.stedi.com/2024-09-01
+  baseurl_source: declared
+  description: The Tasks API from Stedi — 1 operation(s) for tasks.
   name: Stedi Tasks API
   slug: stedi-tasks-api
-- description: The Transactions API from Stedi — 11 operation(s) for transactions.
+- baseURL: https://core.us.stedi.com/2023-08-01
+  baseurl_source: declared
+  description: The Transactions API from Stedi — 11 operation(s) for transactions.
   name: Stedi Transactions API
   slug: stedi-transactions-api
-- description: The X12 API from Stedi — 1 operation(s) for x12.
+- baseURL: https://core.us.stedi.com/2023-08-01
+  baseurl_source: declared
+  description: The X12 API from Stedi — 1 operation(s) for x12.
   name: Stedi X12 API
   slug: stedi-x12-api
-- description: The Batch Eligibility Check API from Stedi — 4 operation(s) for submitting and polling asynchronous batches of X12 270 eligibility checks.
+- baseURL: https://manager.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Batch Eligibility Check API from Stedi — 4 operation(s) for submitting and polling asynchronous batches of X12 270 eligibility checks.
   name: Stedi Batch Eligibility Check API
   slug: stedi-batch-eligibility-check-api
-- description: The Eligibility PDF API from Stedi — 1 operation(s) for retrieving a rendered PDF of an X12 271 eligibility response.
+- baseURL: https://manager.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Eligibility PDF API from Stedi — 1 operation(s) for retrieving a rendered PDF of an X12 271 eligibility response.
   name: Stedi Eligibility PDF API
   slug: stedi-eligibility-pdf-api
-- description: The Destinations API from Stedi — 4 operation(s) for destinations.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Destinations API from Stedi — 4 operation(s) for destinations.
   name: Stedi Destinations API
   slug: stedi-destinations-api
-- description: The Eligibility Check API from Stedi — 1 operation(s) for eligibility check.
+- baseURL: https://healthcare.us.stedi.com/2024-04-01
+  baseurl_source: declared
+  description: The Eligibility Check API from Stedi — 1 operation(s) for eligibility check.
   name: Stedi Eligibility Check API
   slug: stedi-eligibility-check-api
 arazzos:
@@ -515,7 +565,7 @@ score:
     catalog_gap: 31.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -525,7 +575,7 @@ score:
     discoverability: 81.5
     governance: 43.2
     operational_transparency: 76.3
-  previous_composite: 83.0
+  previous_composite: 82.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -543,7 +593,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/screenshots/stedi-2026-06-20T194534.png
 security:

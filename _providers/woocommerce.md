@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -50,61 +50,99 @@ apis:
 - description: 'WooCommerce GraphQL support is provided by the WPGraphQL WooCommerce extension (WooGraphQL), an open-source WordPress plugin that exposes the full WooCommerce data model through a GraphQL endpoint at '
   name: WooCommerce GraphQL API
   slug: graphql-api
-- description: Manage the current shopper's cart session including items, coupons, and shipping
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Manage the current shopper's cart session including items, coupons, and shipping
   name: WooCommerce Cart API
   slug: woocommerce-cart-api
-- description: Submit and manage the checkout process for the current shopper
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Submit and manage the checkout process for the current shopper
   name: WooCommerce Checkout API
   slug: woocommerce-checkout-api
-- description: Create, retrieve, update, and delete discount coupons
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete discount coupons
   name: WooCommerce Coupons API
   slug: woocommerce-coupons-api
-- description: Create, retrieve, update, and delete customer accounts
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete customer accounts
   name: WooCommerce Customers API
   slug: woocommerce-customers-api
-- description: Manage private and customer-facing notes on orders
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Manage private and customer-facing notes on orders
   name: WooCommerce Order Notes API
   slug: woocommerce-order-notes-api
-- description: Create and retrieve refunds associated with orders
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Create and retrieve refunds associated with orders
   name: WooCommerce Order Refunds API
   slug: woocommerce-order-refunds-api
-- description: Create, retrieve, update, and delete customer orders
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete customer orders
   name: WooCommerce Orders API
   slug: woocommerce-orders-api
-- description: Retrieve and configure available payment gateways
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Retrieve and configure available payment gateways
   name: WooCommerce Payment Gateways API
   slug: woocommerce-payment-gateways-api
-- description: Retrieve global product attributes and their terms for filtering
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Retrieve global product attributes and their terms for filtering
   name: WooCommerce Product Attributes API
   slug: woocommerce-product-attributes-api
-- description: Manage product categories used to organize the store catalog
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Manage product categories used to organize the store catalog
   name: WooCommerce Product Categories API
   slug: woocommerce-product-categories-api
-- description: Retrieve customer reviews on products
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Retrieve customer reviews on products
   name: WooCommerce Product Reviews API
   slug: woocommerce-product-reviews-api
-- description: Retrieve product tags for filtering
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Retrieve product tags for filtering
   name: WooCommerce Product Tags API
   slug: woocommerce-product-tags-api
-- description: Manage variations of variable products including price, stock, and attributes
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Manage variations of variable products including price, stock, and attributes
   name: WooCommerce Product Variations API
   slug: woocommerce-product-variations-api
-- description: Create, retrieve, update, and delete store products and their variations
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete store products and their variations
   name: WooCommerce Products API
   slug: woocommerce-products-api
-- description: Retrieve aggregated sales, product, and customer report data
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Retrieve aggregated sales, product, and customer report data
   name: WooCommerce Reports API
   slug: woocommerce-reports-api
-- description: Manage shipping zones, their locations, and shipping methods
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Manage shipping zones, their locations, and shipping methods
   name: WooCommerce Shipping Zones API
   slug: woocommerce-shipping-zones-api
-- description: Retrieve system environment, active plugins, and store configuration status
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Retrieve system environment, active plugins, and store configuration status
   name: WooCommerce System Status API
   slug: woocommerce-system-status-api
-- description: Manage tax rates and tax classes applied at checkout
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Manage tax rates and tax classes applied at checkout
   name: WooCommerce Tax Rates API
   slug: woocommerce-tax-rates-api
-- description: Create and manage webhooks that deliver event notifications to URLs
+- baseURL: https://example.com/wp-json/wc/v3
+  baseurl_source: declared
+  description: Create and manage webhooks that deliver event notifications to URLs
   name: WooCommerce Webhooks API
   slug: woocommerce-webhooks-api
 arazzos:
@@ -1181,7 +1219,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
 security:

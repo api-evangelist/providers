@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 4
 apis:
-- description: Endpoints for archiving conversations
+- baseURL: https://conversations.api.globalrelay.com/v2
+  baseurl_source: spec
+  description: Endpoints for archiving conversations
   name: Global Relay Conversations API
   slug: global-relay-conversations-api
-- description: Endpoints for archiving email messages
+- baseURL: https://email.api.globalrelay.com/v2
+  baseurl_source: spec
+  description: Endpoints for archiving email messages
   name: Global Relay Email API
   slug: global-relay-email-api
-- description: Endpoints for archiving event cards
+- baseURL: https://events.api.globalrelay.com/v2
+  baseurl_source: spec
+  description: Endpoints for archiving event cards
   name: Global Relay Events API
   slug: global-relay-events-api
-- description: Endpoints for uploading file attachments
+- baseURL: https://conversations.api.globalrelay.com/v2
+  baseurl_source: spec
+  description: Endpoints for uploading file attachments
   name: Global Relay Files API
   slug: global-relay-files-api
-- description: Endpoints for archiving voice and video recordings
+- baseURL: https://voice.api.globalrelay.com/v2
+  baseurl_source: spec
+  description: Endpoints for archiving voice and video recordings
   name: Global Relay Voice API
   slug: global-relay-voice-api
 artifact_total: 32
@@ -236,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-relay/refs/heads/main/screenshots/global-relay-2026-06-20T181917.png
 security:

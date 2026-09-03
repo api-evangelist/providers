@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The Trustpilot Consumer API provides access to reviews written by individual consumers. Developers can retrieve a consumer's review history with filtering by stars, language, location, and business un
   name: Trustpilot Consumer API
   slug: trustpilot-consumer-api
-- description: Business unit profile and review operations
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Business unit profile and review operations
   name: Trustpilot Business Units API
   slug: trustpilot-business-units-api
-- description: Product review conversation management
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Product review conversation management
   name: Trustpilot Conversations API
   slug: trustpilot-conversations-api
-- description: Business unit image operations
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Business unit image operations
   name: Trustpilot Images API
   slug: trustpilot-images-api
-- description: Review invitation operations
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Review invitation operations
   name: Trustpilot Invitations API
   slug: trustpilot-invitations-api
-- description: Private product review management
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Private product review management
   name: Trustpilot Product Review Management API
   slug: trustpilot-product-review-management-api
-- description: Product review retrieval operations
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Product review retrieval operations
   name: Trustpilot Product Reviews API
   slug: trustpilot-product-reviews-api
-- description: Private review management operations
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Private review management operations
   name: Trustpilot Review Management API
   slug: trustpilot-review-management-api
-- description: Business unit review retrieval
+- baseURL: https://api.trustpilot.com/v1
+  baseurl_source: declared
+  description: Business unit review retrieval
   name: Trustpilot Reviews API
   slug: trustpilot-reviews-api
 artifact_total: 52
@@ -360,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/screenshots/trustpilot-2026-06-20T195803.png
 security:

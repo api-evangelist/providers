@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The legacy Opendatasoft Search API v1.0 still served alongside Explore v2.1 on the SP Energy Networks Open Data Portal. Verified anonymously on 2026-07-27: GET /api/datasets/1.0/search/?rows=1 returne'
   name: SP Energy Networks Open Data Search API (v1.0)
   slug: spen-open-data-search-api-v1
-- description: API to enumerate datasets
+- baseURL: https://spenergynetworks.opendatasoft.com/api/explore/v2.1
+  baseurl_source: declared
+  description: API to enumerate datasets
   name: ScottishPower Catalog API
   slug: scottishpower-catalog-api
-- description: API to work on records
+- baseURL: https://spenergynetworks.opendatasoft.com/api/explore/v2.1
+  baseurl_source: declared
+  description: API to work on records
   name: ScottishPower Dataset API
   slug: scottishpower-dataset-api
 artifact_total: 12
@@ -234,7 +250,7 @@ score:
   band: developing
   composite: 42.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -265,8 +281,9 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scottishpower/refs/heads/main/screenshots/scottishpower-2026-09-02T154554.png
 security:
 - kind: authentication
   name: Scottishpower Authentication

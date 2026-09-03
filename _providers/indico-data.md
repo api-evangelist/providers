@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Exchange an API token for a short-lived JWT access token
+- baseURL: https://app.indico.io/restapi
+  baseurl_source: declared
+  description: Exchange an API token for a short-lived JWT access token
   name: Indico Data Authentication API
   slug: indico-data-authentication-api
-- description: Datasets that back workflows and models
+- baseURL: https://app.indico.io/restapi
+  baseurl_source: declared
+  description: Datasets that back workflows and models
   name: Indico Data Datasets API
   slug: indico-data-datasets-api
-- description: Objects stored on the Indico platform
+- baseURL: https://app.indico.io/restapi
+  baseurl_source: declared
+  description: Objects stored on the Indico platform
   name: Indico Data Storage API
   slug: indico-data-storage-api
-- description: Documents submitted to a workflow and their results
+- baseURL: https://app.indico.io/restapi
+  baseurl_source: declared
+  description: Documents submitted to a workflow and their results
   name: Indico Data Submissions API
   slug: indico-data-submissions-api
-- description: Document processing workflows
+- baseURL: https://app.indico.io/restapi
+  baseurl_source: declared
+  description: Document processing workflows
   name: Indico Data Workflows API
   slug: indico-data-workflows-api
 artifact_total: 15
@@ -224,7 +234,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indico-data/refs/heads/main/screenshots/indico-data-2026-07-25T222311.png
 security:

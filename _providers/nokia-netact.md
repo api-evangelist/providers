@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 1
 apis:
-- description: Network element configuration read and write
+- baseURL: https://api.nokia-netact.example.com
+  baseurl_source: declared
+  description: Network element configuration read and write
   name: Nokia NetAct Configuration Management API
   slug: nokia-netact-configuration-management-api
-- description: Alarm monitoring and lifecycle management
+- baseURL: https://api.nokia-netact.example.com
+  baseurl_source: declared
+  description: Alarm monitoring and lifecycle management
   name: Nokia NetAct Fault Management API
   slug: nokia-netact-fault-management-api
-- description: KPI and PM counter retrieval
+- baseURL: https://api.nokia-netact.example.com
+  baseurl_source: declared
+  description: KPI and PM counter retrieval
   name: Nokia NetAct Performance Management API
   slug: nokia-netact-performance-management-api
-- description: Network topology discovery and navigation
+- baseURL: https://api.nokia-netact.example.com
+  baseurl_source: declared
+  description: Network topology discovery and navigation
   name: Nokia NetAct Topology API
   slug: nokia-netact-topology-api
 artifact_total: 20
@@ -203,7 +211,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-netact/refs/heads/main/screenshots/nokia-netact-2026-06-20T190353.png
 security:

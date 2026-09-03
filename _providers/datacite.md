@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,46 +50,74 @@ apis:
 - description: Tracks mentions, citations, and scholarly events related to registered DOIs. Enables discovery of how research outputs are referenced and linked across the scholarly web.
   name: DataCite Event Data API
   slug: datacite-event-data-api
-- description: Activities
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Activities
   name: DataCite activities API
   slug: datacite-activities-api
-- description: Client Prefixes
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Client Prefixes
   name: DataCite client-prefixes API
   slug: datacite-client-prefixes-api
-- description: Clients
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Clients
   name: DataCite clients API
   slug: datacite-clients-api
-- description: DOIs
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: DOIs
   name: DataCite dois API
   slug: datacite-dois-api
-- description: Events
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Events
   name: DataCite events API
   slug: datacite-events-api
-- description: Heartbeat
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Heartbeat
   name: DataCite heartbeat API
   slug: datacite-heartbeat-api
-- description: Prefixes
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Prefixes
   name: DataCite prefixes API
   slug: datacite-prefixes-api
-- description: Provider Prefixes
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Provider Prefixes
   name: DataCite provider-prefixes API
   slug: datacite-provider-prefixes-api
-- description: Providers
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Providers
   name: DataCite providers API
   slug: datacite-providers-api
-- description: The publishers API from DataCite — 2 operation(s) for publishers.
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: The publishers API from DataCite — 2 operation(s) for publishers.
   name: DataCite publishers API
   slug: datacite-publishers-api
-- description: The report_types API from DataCite — 1 operation(s) for report_types.
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: The report_types API from DataCite — 1 operation(s) for report_types.
   name: DataCite report_types API
   slug: datacite-report-types-api
-- description: Reports
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: Reports
   name: DataCite reports API
   slug: datacite-reports-api
-- description: The repositories API from DataCite — 2 operation(s) for repositories.
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: The repositories API from DataCite — 2 operation(s) for repositories.
   name: DataCite repositories API
   slug: datacite-repositories-api
-- description: The status API from DataCite — 1 operation(s) for status.
+- baseURL: https://api.datacite.org
+  baseurl_source: declared
+  description: The status API from DataCite — 1 operation(s) for status.
   name: DataCite status API
   slug: datacite-status-api
 artifact_total: 39
@@ -282,7 +310,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/screenshots/datacite-2026-06-20T175634.png
 security:

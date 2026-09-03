@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,100 +37,160 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Northmill Bank's PSD2 third-party-provider interface, covering Account Information Services (AIS) and Confirmation of Available Funds (CBPII/CAF), with request signing via ES256/RS256 key pairs regist
   name: Northmill Bank Open Banking API for TPPs
   slug: northmill-bank-open-banking-api-for-tpps
-- description: The AccountCodes API from Northmill — 4 operation(s) for accountcodes.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The AccountCodes API from Northmill — 4 operation(s) for accountcodes.
   name: Northmill Account Codes API
   slug: northmill-accountcodes-api
-- description: The AccountingSettings API from Northmill — 6 operation(s) for accountingsettings.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The AccountingSettings API from Northmill — 6 operation(s) for accountingsettings.
   name: Northmill Accounting Settings API
   slug: northmill-accountingsettings-api
-- description: The Articles API from Northmill — 10 operation(s) for articles.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Articles API from Northmill — 10 operation(s) for articles.
   name: Northmill Articles API
   slug: northmill-articles-api
-- description: The ArticlesAvailability API from Northmill — 2 operation(s) for articlesavailability.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The ArticlesAvailability API from Northmill — 2 operation(s) for articlesavailability.
   name: Northmill Articles Availability API
   slug: northmill-articlesavailability-api
-- description: The ArticleSets API from Northmill — 4 operation(s) for articlesets.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The ArticleSets API from Northmill — 4 operation(s) for articlesets.
   name: Northmill Article Sets API
   slug: northmill-articlesets-api
-- description: The BookableResourceEventInstances API from Northmill — 2 operation(s) for bookableresourceeventinstances.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The BookableResourceEventInstances API from Northmill — 2 operation(s) for bookableresourceeventinstances.
   name: Northmill Bookable Resource Event Instances API
   slug: northmill-bookableresourceeventinstances-api
-- description: The BookableResources API from Northmill — 2 operation(s) for bookableresources.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The BookableResources API from Northmill — 2 operation(s) for bookableresources.
   name: Northmill Bookable Resources API
   slug: northmill-bookableresources-api
-- description: The BookingOrders API from Northmill — 6 operation(s) for bookingorders.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The BookingOrders API from Northmill — 6 operation(s) for bookingorders.
   name: Northmill Booking Orders API
   slug: northmill-bookingorders-api
-- description: The Brands API from Northmill — 4 operation(s) for brands.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Brands API from Northmill — 4 operation(s) for brands.
   name: Northmill Brands API
   slug: northmill-brands-api
-- description: The Campaigns API from Northmill — 4 operation(s) for campaigns.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Campaigns API from Northmill — 4 operation(s) for campaigns.
   name: Northmill Campaigns API
   slug: northmill-campaigns-api
-- description: The CashCards API from Northmill — 2 operation(s) for cashcards.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The CashCards API from Northmill — 2 operation(s) for cashcards.
   name: Northmill Cash Cards API
   slug: northmill-cashcards-api
-- description: The CashierUsers API from Northmill — 2 operation(s) for cashierusers.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The CashierUsers API from Northmill — 2 operation(s) for cashierusers.
   name: Northmill Cashier Users API
   slug: northmill-cashierusers-api
-- description: The Customers API from Northmill — 8 operation(s) for customers.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Customers API from Northmill — 8 operation(s) for customers.
   name: Northmill Customers API
   slug: northmill-customers-api
-- description: The Groups API from Northmill — 4 operation(s) for groups.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Groups API from Northmill — 4 operation(s) for groups.
   name: Northmill Groups API
   slug: northmill-groups-api
-- description: The Health API from Northmill — 1 operation(s) for health.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Health API from Northmill — 1 operation(s) for health.
   name: Northmill Health API
   slug: northmill-health-api
-- description: The Locations API from Northmill — 4 operation(s) for locations.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Locations API from Northmill — 4 operation(s) for locations.
   name: Northmill Locations API
   slug: northmill-locations-api
-- description: The OnlineSolutions API from Northmill — 10 operation(s) for onlinesolutions.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The OnlineSolutions API from Northmill — 10 operation(s) for onlinesolutions.
   name: Northmill Online Solutions API
   slug: northmill-onlinesolutions-api
-- description: The Orders API from Northmill — 6 operation(s) for orders.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Orders API from Northmill — 6 operation(s) for orders.
   name: Northmill Orders API
   slug: northmill-orders-api
-- description: The OrdersV3 API from Northmill — 6 operation(s) for ordersv3.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The OrdersV3 API from Northmill — 6 operation(s) for ordersv3.
   name: Northmill Orders V3 API
   slug: northmill-ordersv3-api
-- description: The Receipts API from Northmill — 4 operation(s) for receipts.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Receipts API from Northmill — 4 operation(s) for receipts.
   name: Northmill Receipts API
   slug: northmill-receipts-api
-- description: The Sales API from Northmill — 2 operation(s) for sales.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Sales API from Northmill — 2 operation(s) for sales.
   name: Northmill Sales API
   slug: northmill-sales-api
-- description: The ServiceOrders API from Northmill — 4 operation(s) for serviceorders.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The ServiceOrders API from Northmill — 4 operation(s) for serviceorders.
   name: Northmill Service Orders API
   slug: northmill-serviceorders-api
-- description: The Settings API from Northmill — 4 operation(s) for settings.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Settings API from Northmill — 4 operation(s) for settings.
   name: Northmill Settings API
   slug: northmill-settings-api
-- description: The Sms API from Northmill — 2 operation(s) for sms.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Sms API from Northmill — 2 operation(s) for sms.
   name: Northmill Sms API
   slug: northmill-sms-api
-- description: The Stores API from Northmill — 2 operation(s) for stores.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Stores API from Northmill — 2 operation(s) for stores.
   name: Northmill Stores API
   slug: northmill-stores-api
-- description: The Suppliers API from Northmill — 4 operation(s) for suppliers.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Suppliers API from Northmill — 4 operation(s) for suppliers.
   name: Northmill Suppliers API
   slug: northmill-suppliers-api
-- description: The TicketOrders API from Northmill — 6 operation(s) for ticketorders.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The TicketOrders API from Northmill — 6 operation(s) for ticketorders.
   name: Northmill Ticket Orders API
   slug: northmill-ticketorders-api
-- description: The Vouchers API from Northmill — 4 operation(s) for vouchers.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The Vouchers API from Northmill — 4 operation(s) for vouchers.
   name: Northmill Vouchers API
   slug: northmill-vouchers-api
-- description: The WebHookCategories API from Northmill — 2 operation(s) for webhookcategories.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The WebHookCategories API from Northmill — 2 operation(s) for webhookcategories.
   name: Northmill Web Hook Categories API
   slug: northmill-webhookcategories-api
-- description: The WebHooks API from Northmill — 4 operation(s) for webhooks.
+- baseURL: https://api.moreflo.com
+  baseurl_source: declared
+  description: The WebHooks API from Northmill — 4 operation(s) for webhooks.
   name: Northmill Web Hooks API
   slug: northmill-webhooks-api
 artifact_total: 38
@@ -283,23 +357,23 @@ rate_limits:
   slug: northmill-rate-limits
 score:
   band: strong
-  composite: 55.7
+  composite: 56.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.8
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 47.9
+    contract_quality: 51.2
     developer_ergonomics: 54.2
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 55.9
+  previous_composite: 55.7
   provenance:
     conformance: derived
     contracts:
@@ -320,8 +394,9 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/screenshots/northmill-2026-09-02T150801.png
 security:
 - kind: authentication
   name: Northmill Authentication

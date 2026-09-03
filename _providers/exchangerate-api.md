@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Pair conversion enriched with target currency locale, name, symbol, and flag (Business / Volume plans only).
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Pair conversion enriched with target currency locale, name, symbol, and flag (Business / Volume plans only).
   name: ExchangeRate-API Enriched Data API
   slug: exchangerate-api-enriched-data-api
-- description: Historical exchange rates for a specific date back to 1990 (Pro / Business / Volume plans only).
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Historical exchange rates for a specific date back to 1990 (Pro / Business / Volume plans only).
   name: ExchangeRate-API Historical Rates API
   slug: exchangerate-api-historical-rates-api
-- description: Standard endpoint returning latest exchange rates from a base currency to all supported currencies.
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Standard endpoint returning latest exchange rates from a base currency to all supported currencies.
   name: ExchangeRate-API Latest Rates API
   slug: exchangerate-api-latest-rates-api
-- description: Free no-key endpoint with once-daily rates and attribution requirement.
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Free no-key endpoint with once-daily rates and attribution requirement.
   name: ExchangeRate-API Open Access API
   slug: exchangerate-api-open-access-api
-- description: Direct currency-to-currency exchange rate and optional amount conversion.
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Direct currency-to-currency exchange rate and optional amount conversion.
   name: ExchangeRate-API Pair Conversion API
   slug: exchangerate-api-pair-conversion-api
-- description: Inspect the remaining request quota for the API key.
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Inspect the remaining request quota for the API key.
   name: ExchangeRate-API Quota API
   slug: exchangerate-api-quota-api
-- description: List of all supported ISO 4217 currency codes with their full names.
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: List of all supported ISO 4217 currency codes with their full names.
   name: ExchangeRate-API Supported Codes API
   slug: exchangerate-api-supported-codes-api
 arazzos:
@@ -447,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:

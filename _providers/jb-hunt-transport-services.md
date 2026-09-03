@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Upload and retrieve shipment documents.
+- baseURL: https://api.jbhunt.com
+  baseurl_source: declared
+  description: Upload and retrieve shipment documents.
   name: J.B. Hunt Transport Services Documents API
   slug: jb-hunt-transport-services-documents-api
-- description: Create, search, and manage transportation orders.
+- baseURL: https://api.jbhunt.com
+  baseurl_source: declared
+  description: Create, search, and manage transportation orders.
   name: J.B. Hunt Transport Services Orders API
   slug: jb-hunt-transport-services-orders-api
-- description: Request shipping quotes and rates.
+- baseURL: https://api.jbhunt.com
+  baseurl_source: declared
+  description: Request shipping quotes and rates.
   name: J.B. Hunt Transport Services Quotes API
   slug: jb-hunt-transport-services-quotes-api
-- description: Manage pickup and delivery appointments.
+- baseURL: https://api.jbhunt.com
+  baseurl_source: declared
+  description: Manage pickup and delivery appointments.
   name: J.B. Hunt Transport Services Scheduling API
   slug: jb-hunt-transport-services-scheduling-api
-- description: Near real-time freight shipment tracking.
+- baseURL: https://api.jbhunt.com
+  baseurl_source: declared
+  description: Near real-time freight shipment tracking.
   name: J.B. Hunt Transport Services Tracking API
   slug: jb-hunt-transport-services-tracking-api
 artifact_total: 17
@@ -190,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png
 security:

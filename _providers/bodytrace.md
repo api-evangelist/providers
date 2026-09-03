@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: Modeled threshold and connectivity alerts.
+- baseURL: https://us.data.bodytrace.com/1
+  baseurl_source: declared
+  description: Modeled threshold and connectivity alerts.
   name: BodyTrace Alerts API
   slug: bodytrace-alerts-api
-- description: Modeled surface for raw per-transmission device messages.
+- baseURL: https://us.data.bodytrace.com/1
+  baseurl_source: declared
+  description: Modeled surface for raw per-transmission device messages.
   name: BodyTrace Data Messages API
   slug: bodytrace-data-messages-api
-- description: Modeled device listing and status keyed by IMEI.
+- baseURL: https://us.data.bodytrace.com/1
+  baseurl_source: declared
+  description: Modeled device listing and status keyed by IMEI.
   name: BodyTrace Devices API
   slug: bodytrace-devices-api
-- description: Confirmed pull surface for device readings (data values).
+- baseURL: https://us.data.bodytrace.com/1
+  baseurl_source: declared
+  description: Confirmed pull surface for device readings (data values).
   name: BodyTrace Observations API
   slug: bodytrace-observations-api
-- description: Modeled device enrollment and delivery configuration.
+- baseURL: https://us.data.bodytrace.com/1
+  baseurl_source: declared
+  description: Modeled device enrollment and delivery configuration.
   name: BodyTrace Provisioning API
   slug: bodytrace-provisioning-api
 artifact_total: 18
@@ -177,7 +187,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bodytrace/refs/heads/main/screenshots/bodytrace-2026-07-25T203525.png
 security:

@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create, list, retrieve, and continue investigation sessions.
+- baseURL: https://api.traversal.com
+  baseurl_source: declared
+  description: Create, list, retrieve, and continue investigation sessions.
   name: Traversal Sessions API
   slug: traversal-sessions-api
 artifact_total: 8
@@ -198,7 +200,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traversal/refs/heads/main/screenshots/traversal-2026-08-17T082630.png
 security:

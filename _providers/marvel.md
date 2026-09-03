@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: Marvel character resources.
+- baseURL: https://gateway.marvel.com/v1/public
+  baseurl_source: declared
+  description: Marvel character resources.
   name: Marvel Characters API
   slug: marvel-characters-api
-- description: Marvel comic resources.
+- baseURL: https://gateway.marvel.com/v1/public
+  baseurl_source: declared
+  description: Marvel comic resources.
   name: Marvel Comics API
   slug: marvel-comics-api
-- description: Marvel creator resources.
+- baseURL: https://gateway.marvel.com/v1/public
+  baseurl_source: declared
+  description: Marvel creator resources.
   name: Marvel Creators API
   slug: marvel-creators-api
-- description: Marvel event (crossover storyline) resources.
+- baseURL: https://gateway.marvel.com/v1/public
+  baseurl_source: declared
+  description: Marvel event (crossover storyline) resources.
   name: Marvel Events API
   slug: marvel-events-api
-- description: Marvel series resources.
+- baseURL: https://gateway.marvel.com/v1/public
+  baseurl_source: declared
+  description: Marvel series resources.
   name: Marvel Series API
   slug: marvel-series-api
-- description: Marvel story resources.
+- baseURL: https://gateway.marvel.com/v1/public
+  baseurl_source: declared
+  description: Marvel story resources.
   name: Marvel Stories API
   slug: marvel-stories-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

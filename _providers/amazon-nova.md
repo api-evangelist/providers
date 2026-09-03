@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The Amazon Nova API provides programmatic access to Amazon Nova foundation models through Amazon Bedrock for text, image, and video generation, understanding, and reasoning tasks. Supports Nova Premie
   name: Amazon Nova API
   slug: amazon-nova-api
-- description: Asynchronous invocation for long-running Amazon Nova generation jobs, principally Amazon Nova Reel video generation. StartAsyncInvoke returns an invocationArn, GetAsyncInvoke polls it, and output medi
+- baseURL_template: https://bedrock-runtime.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Asynchronous invocation for long-running Amazon Nova generation jobs, principally Amazon Nova Reel video generation. StartAsyncInvoke returns an invocationArn, GetAsyncInvoke polls it, and output medi
   name: Amazon Nova Async API
   slug: amazon-nova-async-api
-- description: Synchronous and streaming inference against the Amazon Nova understanding and generation models through the Amazon Bedrock Runtime endpoint — InvokeModel, InvokeModelWithResponseStream, Converse and C
+- baseURL_template: https://bedrock-runtime.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Synchronous and streaming inference against the Amazon Nova understanding and generation models through the Amazon Bedrock Runtime endpoint — InvokeModel, InvokeModelWithResponseStream, Converse and C
   name: Amazon Nova Inference API
   slug: amazon-nova-inference-api
 artifact_total: 41
@@ -330,7 +334,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 15.8
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -340,7 +344,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 45.7
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -352,8 +356,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/screenshots/amazon-nova-2026-06-20T171754.png
 security:
 - kind: authentication

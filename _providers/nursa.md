@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,49 +37,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Nursa's OpenID Connect / OAuth 2.0 authorization server. Issues the JWT access tokens the Nursa Public API requires, supports the authorization code (with and without PKCE), resource owner password, i
   name: Nursa Authorization Server
   slug: auth
-- description: The Clinicians API from Nursa — 4 operation(s) for clinicians.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Clinicians API from Nursa — 4 operation(s) for clinicians.
   name: Nursa Clinicians API
   slug: nursa-clinicians-api
-- description: The Downloads API from Nursa — 1 operation(s) for downloads.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Downloads API from Nursa — 1 operation(s) for downloads.
   name: Nursa Downloads API
   slug: nursa-downloads-api
-- description: The Facilities API from Nursa — 8 operation(s) for facilities.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Facilities API from Nursa — 8 operation(s) for facilities.
   name: Nursa Facilities API
   slug: nursa-facilities-api
-- description: The Facilities webhooks API from Nursa — 2 operation(s) for facilities webhooks.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Facilities webhooks API from Nursa — 2 operation(s) for facilities webhooks.
   name: Nursa Facilities webhooks API
   slug: nursa-facilities-webhooks-api
-- description: The Licenses API from Nursa — 1 operation(s) for licenses.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Licenses API from Nursa — 1 operation(s) for licenses.
   name: Nursa Licenses API
   slug: nursa-licenses-api
-- description: The Marketplace API from Nursa — 6 operation(s) for marketplace.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Marketplace API from Nursa — 6 operation(s) for marketplace.
   name: Nursa Marketplace API
   slug: nursa-marketplace-api
-- description: The Scheduled shifts API from Nursa — 2 operation(s) for scheduled shifts.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Scheduled shifts API from Nursa — 2 operation(s) for scheduled shifts.
   name: Nursa Scheduled shifts API
   slug: nursa-scheduled-shifts-api
-- description: The Shift reports API from Nursa — 4 operation(s) for shift reports.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Shift reports API from Nursa — 4 operation(s) for shift reports.
   name: Nursa Shift reports API
   slug: nursa-shift-reports-api
-- description: The Shift requests API from Nursa — 2 operation(s) for shift requests.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Shift requests API from Nursa — 2 operation(s) for shift requests.
   name: Nursa Shift requests API
   slug: nursa-shift-requests-api
-- description: The Shifts API from Nursa — 1 operation(s) for shifts.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Shifts API from Nursa — 1 operation(s) for shifts.
   name: Nursa Shifts API
   slug: nursa-shifts-api
-- description: The Support API from Nursa — 1 operation(s) for support.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Support API from Nursa — 1 operation(s) for support.
   name: Nursa Support API
   slug: nursa-support-api
-- description: The User webhooks API from Nursa — 2 operation(s) for user webhooks.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The User webhooks API from Nursa — 2 operation(s) for user webhooks.
   name: Nursa User webhooks API
   slug: nursa-user-webhooks-api
-- description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
+- baseURL: https://public-api.prod.nursa.com
+  baseurl_source: declared
+  description: The Webhook logs API from Nursa — 1 operation(s) for webhook logs.
   name: Nursa Webhook logs API
   slug: nursa-webhook-logs-api
 artifact_total: 35
@@ -299,7 +339,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -309,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 60.6
+  previous_composite: 60.4
   provenance:
     conformance: derived
     contracts:
@@ -326,7 +366,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/screenshots/nursa-2026-08-07T185748.png
 security:

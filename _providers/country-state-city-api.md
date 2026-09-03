@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: City reference data with coordinates and time zones, scoped by country and state.
+- baseURL: https://api.countrystatecity.in/v1
+  baseurl_source: declared
+  description: City reference data with coordinates and time zones, scoped by country and state.
   name: Country State City API Cities API
   slug: country-state-city-api-cities-api
-- description: Country reference data including ISO codes, currencies, phone codes, and regions.
+- baseURL: https://api.countrystatecity.in/v1
+  baseurl_source: declared
+  description: Country reference data including ISO codes, currencies, phone codes, and regions.
   name: Country State City API Countries API
   slug: country-state-city-api-countries-api
-- description: State, province, and region reference data scoped by country.
+- baseURL: https://api.countrystatecity.in/v1
+  baseurl_source: declared
+  description: State, province, and region reference data scoped by country.
   name: Country State City API States API
   slug: country-state-city-api-states-api
 artifact_total: 15
@@ -221,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/screenshots/country-state-city-api-2026-06-20T175144.png
 security:

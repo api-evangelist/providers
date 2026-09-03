@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Account/application metadata.
+- baseURL: https://api.music.ai/v1
+  baseurl_source: declared
+  description: Account/application metadata.
   name: Moises Application API
   slug: moises-application-api
-- description: Create, retrieve, list, and delete processing jobs.
+- baseURL: https://api.music.ai/v1
+  baseurl_source: declared
+  description: Create, retrieve, list, and delete processing jobs.
   name: Moises Jobs API
   slug: moises-jobs-api
-- description: Temporary file staging for input audio.
+- baseURL: https://api.music.ai/v1
+  baseurl_source: declared
+  description: Temporary file staging for input audio.
   name: Moises Upload API
   slug: moises-upload-api
-- description: List the workflows configured in your account.
+- baseURL: https://api.music.ai/v1
+  baseurl_source: declared
+  description: List the workflows configured in your account.
   name: Moises Workflows API
   slug: moises-workflows-api
 artifact_total: 11
@@ -208,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moises/refs/heads/main/screenshots/moises-2026-08-07T184046.png
 security:

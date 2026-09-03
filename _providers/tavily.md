@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -36,19 +48,29 @@ apis:
 - description: The Tavily Web API offers a unified set of endpoints for AI agents to search the web, extract page content, crawl sites, map sitemaps, and run AI research tasks. Endpoints are REST-based and authentic
   name: Tavily Web API
   slug: web-api
-- description: The Crawl API from Tavily — 1 operation(s) for crawl.
+- baseURL: https://api.tavily.com
+  baseurl_source: declared
+  description: The Crawl API from Tavily — 1 operation(s) for crawl.
   name: Tavily Crawl API
   slug: tavily-crawl-api
-- description: The Extract API from Tavily — 1 operation(s) for extract.
+- baseURL: https://api.tavily.com
+  baseurl_source: declared
+  description: The Extract API from Tavily — 1 operation(s) for extract.
   name: Tavily Extract API
   slug: tavily-extract-api
-- description: The Map API from Tavily — 1 operation(s) for map.
+- baseURL: https://api.tavily.com
+  baseurl_source: declared
+  description: The Map API from Tavily — 1 operation(s) for map.
   name: Tavily Map API
   slug: tavily-map-api
-- description: The Research API from Tavily — 1 operation(s) for research.
+- baseURL: https://api.tavily.com
+  baseurl_source: declared
+  description: The Research API from Tavily — 1 operation(s) for research.
   name: Tavily Research API
   slug: tavily-research-api
-- description: The Search API from Tavily — 1 operation(s) for search.
+- baseURL: https://api.tavily.com
+  baseurl_source: declared
+  description: The Search API from Tavily — 1 operation(s) for search.
   name: Tavily Search API
   slug: tavily-search-api
 artifact_total: 20
@@ -195,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tavily/refs/heads/main/screenshots/tavily-2026-06-20T194930.png
 security:

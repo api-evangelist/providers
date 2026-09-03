@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 1
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 143 operations · 75 acting · 1 human-in-the-loop
 api_count: 9
 apis:
-- description: Users assigned to an Assessment Group, with their roles.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Users assigned to an Assessment Group, with their roles.
   name: Synack Assessment Groups API
   slug: synack-assessment-groups-api
-- description: Lifecycle state transitions for an individual assessment.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Lifecycle state transitions for an individual assessment.
   name: Synack Assessment Lifecycle API
   slug: synack-assessment-lifecycle-api
-- description: Assets are associated with listings.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Assets are associated with listings.
   name: Synack Assessments API
   slug: synack-assessments-api
-- description: Relationships between assets.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Relationships between assets.
   name: Synack asset-relationships API
   slug: synack-asset-relationships-api
-- description: The assetproviders API from Synack — 1 operation(s) for assetproviders.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: The assetproviders API from Synack — 1 operation(s) for assetproviders.
   name: Synack assetproviders API
   slug: synack-assetproviders-api
-- description: Assets managed by Synack.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Assets managed by Synack.
   name: Synack Assets API
   slug: synack-assets-api
-- description: Operations related to comments
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Operations related to comments
   name: Synack Comments API
   slug: synack-comments-api
-- description: Credentials are restricted to authorized users.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Credentials are restricted to authorized users.
   name: Synack credentials API
   slug: synack-credentials-api
-- description: The external-relationships API from Synack — 2 operation(s) for external-relationships.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: The external-relationships API from Synack — 2 operation(s) for external-relationships.
   name: Synack external-relationships API
   slug: synack-external-relationships-api
-- description: The health API from Synack — 1 operation(s) for health.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: The health API from Synack — 1 operation(s) for health.
   name: Synack health API
   slug: synack-health-api
-- description: Host assets.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Host assets.
   name: Synack Hosts API
   slug: synack-hosts-api
-- description: Access mission information.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Access mission information.
   name: Synack Missions API
   slug: synack-missions-api
-- description: Mobile application assets.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Mobile application assets.
   name: Synack mobileapps API
   slug: synack-mobileapps-api
-- description: Operations related to patch verifications
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Operations related to patch verifications
   name: Synack Patch Verifications API
   slug: synack-patch-verifications-api
-- description: Collections of seeds associated with a listing.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Collections of seeds associated with a listing.
   name: Synack Seeds API
   slug: synack-seeds-api
-- description: Operations related to suspected vulnerabilities
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Operations related to suspected vulnerabilities
   name: Synack Suspected Vulnerabilities API
   slug: synack-suspected-vulnerabilities-api
-- description: Tags applied to seeds and seed groups.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Tags applied to seeds and seed groups.
   name: Synack Tags API
   slug: synack-tags-api
-- description: Operations related to security tests
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Operations related to security tests
   name: Synack Tests API
   slug: synack-tests-api
-- description: Users of credentials.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Users of credentials.
   name: Synack users API
   slug: synack-users-api
-- description: Operations related to security vulnerabilities
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Operations related to security vulnerabilities
   name: Synack Vulnerabilities API
   slug: synack-vulnerabilities-api
-- description: Operations related to vulnerability statuses
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Operations related to vulnerability statuses
   name: Synack Vulnerability Statuses API
   slug: synack-vulnerability-statuses-api
-- description: Web application assets.
+- baseURL: https://api.synack.com
+  baseurl_source: declared
+  description: Web application assets.
   name: Synack webapps API
   slug: synack-webapps-api
 artifact_total: 58
@@ -375,7 +419,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/screenshots/synack-2026-08-17T082224.png
 security:

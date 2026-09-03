@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 24 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage and query analytics events
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: Manage and query analytics events
   name: Smartlook Events API
   slug: smartlook-events-api
-- description: Manage and query funnel analysis data
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: Manage and query funnel analysis data
   name: Smartlook Funnels API
   slug: smartlook-funnels-api
-- description: Upload mapping files for crash reports
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: Upload mapping files for crash reports
   name: Smartlook mappingFiles API
   slug: smartlook-mappingfiles-api
-- description: Search and retrieve session recordings
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: Search and retrieve session recordings
   name: Smartlook Sessions API
   slug: smartlook-sessions-api
-- description: API stats and project information
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: API stats and project information
   name: Smartlook System API
   slug: smartlook-system-api
-- description: Manage and query visitor data
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: Manage and query visitor data
   name: Smartlook Visitors API
   slug: smartlook-visitors-api
-- description: Create and manage webhooks
+- baseURL: https://api.eu.smartlook.cloud
+  baseurl_source: declared
+  description: Create and manage webhooks
   name: Smartlook Webhooks API
   slug: smartlook-webhooks-api
 artifact_total: 22
@@ -220,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/screenshots/smartlook-2026-06-20T194043.png
 security:

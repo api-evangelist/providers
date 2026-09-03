@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 23 operations · 4 acting
 api_count: 1
 apis:
-- description: The Market Data API from Rho Protocol — 7 operation(s) for market data.
+- baseURL: https://x.rho.trading/api/v1
+  baseurl_source: declared
+  description: The Market Data API from Rho Protocol — 7 operation(s) for market data.
   name: Rho Protocol Market Data API
   slug: rho-protocol-market-data-api
-- description: The Stats API from Rho Protocol — 1 operation(s) for stats.
+- baseURL: https://x.rho.trading/api/v1
+  baseurl_source: declared
+  description: The Stats API from Rho Protocol — 1 operation(s) for stats.
   name: Rho Protocol Stats API
   slug: rho-protocol-stats-api
-- description: The Trading API from Rho Protocol — 3 operation(s) for trading.
+- baseURL: https://x.rho.trading/api/v1
+  baseurl_source: declared
+  description: The Trading API from Rho Protocol — 3 operation(s) for trading.
   name: Rho Protocol Trading API
   slug: rho-protocol-trading-api
-- description: The User Data API from Rho Protocol — 12 operation(s) for user data.
+- baseURL: https://x.rho.trading/api/v1
+  baseurl_source: declared
+  description: The User Data API from Rho Protocol — 12 operation(s) for user data.
   name: Rho Protocol User Data API
   slug: rho-protocol-user-data-api
 artifact_total: 15
@@ -213,11 +221,11 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -227,7 +235,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 38.8
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,8 +253,9 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rho-protocol/refs/heads/main/screenshots/rho-protocol-2026-09-02T153758.png
 security:
 - kind: authentication
   name: Rho Protocol Authentication

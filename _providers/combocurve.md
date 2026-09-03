@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: custom-columns operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: custom-columns operations
   name: ComboCurve v1 custom-columns API
   slug: combocurve-v1-custom-columns-api
-- description: daily-productions operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: daily-productions operations
   name: ComboCurve v1 daily-productions API
   slug: combocurve-v1-daily-productions-api
-- description: directional-surveys operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: directional-surveys operations
   name: ComboCurve v1 directional-surveys API
   slug: combocurve-v1-directional-surveys-api
-- description: econ-models operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: econ-models operations
   name: ComboCurve v1 econ-models API
   slug: combocurve-v1-econ-models-api
-- description: econ-runs operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: econ-runs operations
   name: ComboCurve v1 econ-runs API
   slug: combocurve-v1-econ-runs-api
-- description: exports operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: exports operations
   name: ComboCurve v1 exports API
   slug: combocurve-v1-exports-api
-- description: forecast-configurations operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: forecast-configurations operations
   name: ComboCurve v1 forecast-configurations API
   slug: combocurve-v1-forecast-configurations-api
-- description: forecast-daily-volumes operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: forecast-daily-volumes operations
   name: ComboCurve v1 forecast-daily-volumes API
   slug: combocurve-v1-forecast-daily-volumes-api
-- description: forecast-monthly-volumes operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: forecast-monthly-volumes operations
   name: ComboCurve v1 forecast-monthly-volumes API
   slug: combocurve-v1-forecast-monthly-volumes-api
-- description: monthly-productions operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: monthly-productions operations
   name: ComboCurve v1 monthly-productions API
   slug: combocurve-v1-monthly-productions-api
-- description: ownership-qualifiers operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: ownership-qualifiers operations
   name: ComboCurve v1 ownership-qualifiers API
   slug: combocurve-v1-ownership-qualifiers-api
-- description: projects operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: projects operations
   name: ComboCurve v1 projects API
   slug: combocurve-v1-projects-api
-- description: tags operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: tags operations
   name: ComboCurve v1 tags API
   slug: combocurve-v1-tags-api
-- description: users operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: users operations
   name: ComboCurve v1 users API
   slug: combocurve-v1-users-api
-- description: well-comments operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: well-comments operations
   name: ComboCurve v1 well-comments API
   slug: combocurve-v1-well-comments-api
-- description: wells operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: wells operations
   name: ComboCurve v1 wells API
   slug: combocurve-v1-wells-api
-- description: wells-identifiers operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: wells-identifiers operations
   name: ComboCurve v1 wells-identifiers API
   slug: combocurve-v1-wells-identifiers-api
-- description: exports operations
+- baseURL: https://api.combocurve.com
+  baseurl_source: declared
+  description: exports operations
   name: ComboCurve v2 exports API
   slug: combocurve-v2-exports-api
 artifact_total: 40
@@ -306,7 +342,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/screenshots/combocurve-2026-07-25T210107.png
 security:

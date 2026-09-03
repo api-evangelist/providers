@@ -1,6 +1,6 @@
 {
- "total": 19,
- "shown": 19,
+ "total": 20,
+ "shown": 20,
  "limit": 1000,
  "bands": [
   {
@@ -16,11 +16,11 @@
      "slug": "nokia-network-as-code",
      "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png",
-     "score": 59.0,
+     "score": 57.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 63.0,
+      "discoverability": 44.4,
       "contract_quality": 63.7,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -29,7 +29,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -75,12 +75,12 @@
      "slug": "university-of-helsinki",
      "description": "The University of Helsinki is Finland's oldest and largest multidisciplinary research university, founded in 1640, and it is one of the very few institutions in this cohort that operates a real, first-party API program rather than only renting vendor platforms. It runs its own Gravitee API gateway at gw.api.helsinki.fi behind a public developer portal at api.helsinki.fi, listing fifteen public APIs — organisations, buildings and spaces, employee and group directories, service management, the application-portfolio register, network registry, and the CMS behind helsinki.fi and the course pages — twelve of which publish a readable OpenAPI. Alongside that sit genuinely institution-operated scholarly and identity infrastructure: Helda (DSpace 7.6.2) and the newer HY Data Catalogue (DSpace 9.0), three live OAI-PMH endpoints, the Editori open-publishing service, the Shibboleth/OIDC identity provider at login.helsinki.fi with sixteen entities registered in the Haka federation, and the Finnish Biodiversity Information Facility (api.laji.fi, 177 paths), which is run by Luomus, a University institute. What the University does NOT author is equally important and is recorded here as tenancy rather than as its own work: Sisu/Kori is Funidata's, the research portal is Elsevier Pure, and Helka is Ex Libris Primo. The gateway is affiliation-gated — keyless access is disabled and portal self-registration is off — so the catalogue and every specification are readable by anyone, while a credential requires a university or Haka identity.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/screenshots/university-of-helsinki-2026-06-20T200155.png",
-     "score": 54.4,
+     "score": 54.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.6,
+      "contract_quality": 63.6,
       "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 10.5,
@@ -88,7 +88,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -130,9 +130,60 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
+    {
+     "name": "TietoEVRY",
+     "slug": "tietoevry",
+     "description": "TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to \"Tieto\" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is published by the banking business (Tieto Banktech / Tietoevry Banking) through the Tietoevry Banking API Hub at api.tietoevry.com, which fronts three developer portals: an Open Banking PSD2/XS2A platform built on the Berlin Group NextGenPSD2 framework with a free self-service sandbox, a Financial API Aggregation service offering one integration to Nordic and Baltic banks, and a Credit Cloud platform for loan origination and loan life-cycle management. 24 machine-readable Swagger 2.0 / OpenAPI 3.0 contracts covering 211 operations are published unauthenticated from the Open Banking and Aggregation portals, including account information, payment initiation, confirmation of funds, bulk and periodic payments, payment recall, request-to-pay, signing baskets, virtual account management, card account information and a SEPA Direct Debits gateway with a webhook event-notification surface.",
+     "score": 52.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 59.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 45.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
     {
      "name": "Enable Banking",
      "slug": "enable-banking",
@@ -151,7 +202,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -183,7 +234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Holvi",
@@ -203,7 +254,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -242,7 +293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "IQM Quantum Computers",
@@ -262,7 +313,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.7,
      "agent_band": "agent-aware",
@@ -287,7 +338,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Aalto University",
@@ -307,7 +358,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -339,7 +390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "DataCrunch",
@@ -359,7 +410,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -384,7 +435,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     }
    ],
    "open": true
@@ -415,7 +466,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -447,7 +498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "KNL",
@@ -467,7 +518,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -492,7 +543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     }
    ]
   },
@@ -522,7 +573,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -547,7 +598,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Futureplay",
@@ -567,52 +618,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Rovio Entertainment",
-     "slug": "rovio-entertainment",
-     "description": "Rovio Entertainment is a Finnish mobile game company founded in 2003 and headquartered in Espoo, best known for the Angry Birds franchise and a portfolio of casual and puzzle titles played by hundreds of millions of players worldwide. It operates game studios across Finland, Sweden, Denmark, Canada, Spain, and Turkey, and became part of Sega Sammy Holdings in 2023. Rovio was surfaced as a portfolio company of Atomico and added to the API Evangelist network. As of this enrichment pass Rovio publishes a corporate/marketing website but no public developer portal, API, SDK, or well-known discovery surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rovio-entertainment/refs/heads/main/screenshots/rovio-entertainment-2026-09-02T154142.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -640,10 +646,11 @@
      "rank": 12
     },
     {
-     "name": "BIT ODD",
-     "slug": "bit-odd",
-     "description": "BIT ODD is a Helsinki-based mobile game studio founded in 2019 by former Supercell creative leads Lasse Louhento, Taneli Oksama, and Jani Lintunen. The studio hand-crafts casual mobile games driven by feeling and a sense of wonder rather than aggressive monetization, explicitly rejecting ad-spam and dark-pattern design. Backed by Index Ventures, Griffin Gaming Partners, and Makers Fund across a EUR 5M seed and a EUR 17M round, BIT ODD is a consumer entertainment company with no public developer platform, API, or SDK surface; this API Evangelist profile tracks the company as a portfolio lead and carries only the artifacts that can be honestly probed from its public web presence (domain security, legal pages).",
-     "score": 9.2,
+     "name": "Rovio Entertainment",
+     "slug": "rovio-entertainment",
+     "description": "Rovio Entertainment is a Finnish mobile game company founded in 2003 and headquartered in Espoo, best known for the Angry Birds franchise and a portfolio of casual and puzzle titles played by hundreds of millions of players worldwide. It operates game studios across Finland, Sweden, Denmark, Canada, Spain, and Turkey, and became part of Sega Sammy Holdings in 2023. Rovio was surfaced as a portfolio company of Atomico and added to the API Evangelist network. As of this enrichment pass Rovio publishes a corporate/marketing website but no public developer portal, API, SDK, or well-known discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rovio-entertainment/refs/heads/main/screenshots/rovio-entertainment-2026-09-02T154142.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -652,11 +659,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -684,11 +691,10 @@
      "rank": 13
     },
     {
-     "name": "Huuva",
-     "slug": "huuva",
-     "description": "Huuva is a Finnish food-court aggregator that lets customers order from multiple partner restaurants in a single order under the tagline \"The hottest restaurants, all in one address.\" It operates physical food-court locations across Finland and runs a consumer web and mobile ordering platform for delivery and pickup, alongside lunch services and gift cards. Huuva is a consumer marketplace in the restaurant-technology and food-delivery space and does not currently publish a public developer or API program. It is a General Catalyst portfolio company based in Europe.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/screenshots/huuva-2026-07-25T221752.png",
-     "score": 7.1,
+     "name": "BIT ODD",
+     "slug": "bit-odd",
+     "description": "BIT ODD is a Helsinki-based mobile game studio founded in 2019 by former Supercell creative leads Lasse Louhento, Taneli Oksama, and Jani Lintunen. The studio hand-crafts casual mobile games driven by feeling and a sense of wonder rather than aggressive monetization, explicitly rejecting ad-spam and dark-pattern design. Backed by Index Ventures, Griffin Gaming Partners, and Makers Fund across a EUR 5M seed and a EUR 17M round, BIT ODD is a consumer entertainment company with no public developer platform, API, or SDK surface; this API Evangelist profile tracks the company as a portfolio lead and carries only the artifacts that can be honestly probed from its public web presence (domain security, legal pages).",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -698,10 +704,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -729,11 +735,11 @@
      "rank": 14
     },
     {
-     "name": "Kuva Space",
-     "slug": "kuva-space",
-     "description": "Kuva Space is a Finnish space-data company headquartered in Espoo that operates a fleet of hyperspectral Earth observation microsatellites and delivers AI-driven planetary intelligence through its Kuva Sense platform. Founded in 2016 (originally as Reaktor Space Lab) by Tuomas Tikka and Janne Kuhno in collaboration with Reaktor, the company designs, builds, and operates its own 6U CubeSat-class spacecraft carrying a patented in-orbit tunable Fabry-Perot 2D snapshot hyperspectral imager. Its operational Hyperfield-1A (launched August 2024 on SpaceX Falcon 9 from Vandenberg) and Hyperfield-1B (launched June 2025) cover the 475–950 nm VNIR range with up to 160 tunable spectral bands at 25 m spatial resolution and a 50 km swath from a 500 km polar sun-synchronous orbit. The larger 70 kg Hyperfield-2 microsatellite, scheduled for H2 2026, expands coverage to 450–1,650 nm at 15 m resolution with an additional 3.6 m GSD RGB camera. By 2030 Kuva Space plans to grow the constellation to roughly 100 satellites to enable sub-daily revisit anywhere on Earth. Onboard AI handles cloud filtering, spectral band alignment, and compression so that downlinked products feed directly into Kuva Sense, where automated analytics generate insights-as-a-service for agriculture (crop identification, yield forecasting, harvest timing), aquaculture (water quality, algal bloom detection, biomass), environment and carbon (sequestration monitoring, deforestation, pollution tracking), and safety and security (vessel detection and tracking, illegal activity warning, rapid change detection). Kuva Space is part of the European Space Agency InCubed-co-funded HYPERFIELD program, was awarded a €1.8M ESA Civil Security from Space contract within the SMART-CONNECT consortium to demonstrate rapid hyperspectral insights for crisis response, and in 2026 signed a Letter of Intent with SSC Space to strengthen Nordic space capabilities. The commercial model is subscription-based insights-as-a-service rather than pay-per-pixel imagery sales, with current access offered through the Kuva Sense Early Adopter Program; the company markets \"robust APIs and customizable data formats\" for system integration but does not currently publish open public API reference documentation, an OpenAPI specification, or a self-service developer portal. The only public engineering surface is the open-source kuva-data-processing Python toolkit (kuva-metadata, kuva-reader, kuva-geometry) on GitHub and PyPI, which reads Kuva GeoTIFF-based L0/L1AB/L1C/L2A data products and their metadata sidecars.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuva-space/refs/heads/main/screenshots/kuva-space-2026-06-20T184221.png",
-     "score": 5.7,
+     "name": "Huuva",
+     "slug": "huuva",
+     "description": "Huuva is a Finnish food-court aggregator that lets customers order from multiple partner restaurants in a single order under the tagline \"The hottest restaurants, all in one address.\" It operates physical food-court locations across Finland and runs a consumer web and mobile ordering platform for delivery and pickup, alongside lunch services and gift cards. Huuva is a consumer marketplace in the restaurant-technology and food-delivery space and does not currently publish a public developer or API program. It is a General Catalyst portfolio company based in Europe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/screenshots/huuva-2026-07-25T221752.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -741,12 +747,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -774,10 +780,11 @@
      "rank": 15
     },
     {
-     "name": "Curious Ai",
-     "slug": "curious-ai",
-     "description": "The Curious AI Company was a Helsinki, Finland-based artificial intelligence research company founded in 2015 by Harri Valpola (previously founder of ZenRobotics) along with Antti Rasmus, Mathias Berglund, Tapani Raiko, and Timo Haanpaa. The company pursued artificial general intelligence, real-world computer vision for robots, and interactive, autonomous, and semi-supervised machine learning, and is best known for foundational research on Ladder Networks for semi-supervised deep learning. It raised roughly 4.7M USD from investors including DCVC, Lifeline Ventures, and Invus, and was acquired by Apple in January 2021. The company no longer operates as an independent entity and publishes no public developer platform, API, documentation, or SDKs. This record is retained as a DCVC portfolio identity profile; there is no active API surface to enrich.",
-     "score": 5.0,
+     "name": "Kuva Space",
+     "slug": "kuva-space",
+     "description": "Kuva Space is a Finnish space-data company headquartered in Espoo that operates a fleet of hyperspectral Earth observation microsatellites and delivers AI-driven planetary intelligence through its Kuva Sense platform. Founded in 2016 (originally as Reaktor Space Lab) by Tuomas Tikka and Janne Kuhno in collaboration with Reaktor, the company designs, builds, and operates its own 6U CubeSat-class spacecraft carrying a patented in-orbit tunable Fabry-Perot 2D snapshot hyperspectral imager. Its operational Hyperfield-1A (launched August 2024 on SpaceX Falcon 9 from Vandenberg) and Hyperfield-1B (launched June 2025) cover the 475–950 nm VNIR range with up to 160 tunable spectral bands at 25 m spatial resolution and a 50 km swath from a 500 km polar sun-synchronous orbit. The larger 70 kg Hyperfield-2 microsatellite, scheduled for H2 2026, expands coverage to 450–1,650 nm at 15 m resolution with an additional 3.6 m GSD RGB camera. By 2030 Kuva Space plans to grow the constellation to roughly 100 satellites to enable sub-daily revisit anywhere on Earth. Onboard AI handles cloud filtering, spectral band alignment, and compression so that downlinked products feed directly into Kuva Sense, where automated analytics generate insights-as-a-service for agriculture (crop identification, yield forecasting, harvest timing), aquaculture (water quality, algal bloom detection, biomass), environment and carbon (sequestration monitoring, deforestation, pollution tracking), and safety and security (vessel detection and tracking, illegal activity warning, rapid change detection). Kuva Space is part of the European Space Agency InCubed-co-funded HYPERFIELD program, was awarded a €1.8M ESA Civil Security from Space contract within the SMART-CONNECT consortium to demonstrate rapid hyperspectral insights for crisis response, and in 2026 signed a Letter of Intent with SSC Space to strengthen Nordic space capabilities. The commercial model is subscription-based insights-as-a-service rather than pay-per-pixel imagery sales, with current access offered through the Kuva Sense Early Adopter Program; the company markets \"robust APIs and customizable data formats\" for system integration but does not currently publish open public API reference documentation, an OpenAPI specification, or a self-service developer portal. The only public engineering surface is the open-source kuva-data-processing Python toolkit (kuva-metadata, kuva-reader, kuva-geometry) on GitHub and PyPI, which reads Kuva GeoTIFF-based L0/L1AB/L1C/L2A data products and their metadata sidecars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuva-space/refs/heads/main/screenshots/kuva-space-2026-06-20T184221.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -785,12 +792,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -818,9 +825,9 @@
      "rank": 16
     },
     {
-     "name": "Kodit.io",
-     "slug": "kodit-io",
-     "description": "Kodit.io was a Helsinki-based proptech and \"iBuyer\" that used machine learning and automation to make instant cash offers on residential property, buying homes directly from sellers and reselling them, with operations in Finland, Spain and Poland. Founded in 2017 and backed by Speedinvest among others, the company rebranded to Rive in 2022 after a EUR 23M Series A aimed at simplifying home buying and selling across Europe. In January 2024 Rive (formerly Kodit.io) transferred its entire Finnish real estate brokerage business to Neliöt Liikkuu LKV, and the Kodit.io LKV entity subsequently entered bankruptcy proceedings in late 2024. The company operated a consumer-facing marketplace only; it never published a public developer portal, API documentation, SDKs, or machine-readable API artifacts, and the kodit.io domain has since lapsed to an unrelated registrant. This profile is retained as a historical network record.",
+     "name": "Curious Ai",
+     "slug": "curious-ai",
+     "description": "The Curious AI Company was a Helsinki, Finland-based artificial intelligence research company founded in 2015 by Harri Valpola (previously founder of ZenRobotics) along with Antti Rasmus, Mathias Berglund, Tapani Raiko, and Timo Haanpaa. The company pursued artificial general intelligence, real-world computer vision for robots, and interactive, autonomous, and semi-supervised machine learning, and is best known for foundational research on Ladder Networks for semi-supervised deep learning. It raised roughly 4.7M USD from investors including DCVC, Lifeline Ventures, and Invus, and was acquired by Apple in January 2021. The company no longer operates as an independent entity and publishes no public developer platform, API, documentation, or SDKs. This record is retained as a DCVC portfolio identity profile; there is no active API surface to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -834,7 +841,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -862,9 +869,9 @@
      "rank": 17
     },
     {
-     "name": "Small Giant Games",
-     "slug": "small-giant-games",
-     "description": "Small Giant Games is a Helsinki, Finland based mobile game studio best known for the hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a consumer mobile gaming company it publishes player-facing games and support resources rather than a public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal, OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.",
+     "name": "Kodit.io",
+     "slug": "kodit-io",
+     "description": "Kodit.io was a Helsinki-based proptech and \"iBuyer\" that used machine learning and automation to make instant cash offers on residential property, buying homes directly from sellers and reselling them, with operations in Finland, Spain and Poland. Founded in 2017 and backed by Speedinvest among others, the company rebranded to Rive in 2022 after a EUR 23M Series A aimed at simplifying home buying and selling across Europe. In January 2024 Rive (formerly Kodit.io) transferred its entire Finnish real estate brokerage business to Neliöt Liikkuu LKV, and the Kodit.io LKV entity subsequently entered bankruptcy proceedings in late 2024. The company operated a consumer-facing marketplace only; it never published a public developer portal, API documentation, SDKs, or machine-readable API artifacts, and the kodit.io domain has since lapsed to an unrelated registrant. This profile is retained as a historical network record.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -878,7 +885,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -906,6 +913,51 @@
      "rank": 18
     },
     {
+     "name": "Small Giant Games",
+     "slug": "small-giant-games",
+     "description": "Small Giant Games is a Helsinki, Finland based mobile game studio best known for the hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a consumer mobile gaming company it publishes player-facing games and support resources rather than a public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal, OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/small-giant-games/refs/heads/main/screenshots/small-giant-games-2026-09-02T155859.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
      "name": "Cencorp",
      "slug": "cencorp",
      "description": "Cencorp (Zhuhai) Industrial Technology Co., Ltd. is a process-automation equipment manufacturer that designs and builds high-end laser processing, dispensing, automated optical inspection (AOI), and system-integration & automation systems for the consumer electronics, automotive electronics, semiconductor, and new-energy industries. Formed in 2020 and combining the acquired Finland-based Cencorp automation business with operations headquartered in Zhuhai, China, the company runs 12 offices worldwide with 400+ R&D engineers and 300+ patents, and is a portfolio company of Qiming Venture Partners. It exposes no public developer API, SDK, or developer portal — this is a physical automation-equipment business.",
@@ -923,7 +975,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -955,7 +1007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     }
    ]
   }

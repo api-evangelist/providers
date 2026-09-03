@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Account API from Zenscrape — 1 operation(s) for account.
+- baseURL: https://app.zenscrape.com/api/v1
+  baseurl_source: declared
+  description: The Account API from Zenscrape — 1 operation(s) for account.
   name: Zenscrape Account API
   slug: zenscrape-account-api
-- description: The Scrape API from Zenscrape — 1 operation(s) for scrape.
+- baseURL: https://app.zenscrape.com/api/v1
+  baseurl_source: declared
+  description: The Scrape API from Zenscrape — 1 operation(s) for scrape.
   name: Zenscrape Scrape API
   slug: zenscrape-scrape-api
 artifact_total: 12
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/screenshots/zenscrape-2026-06-20T201818.png
 security:

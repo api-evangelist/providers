@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: Create, poll, and download programmatic visual generations.
+- baseURL: https://api.napkin.ai
+  baseurl_source: declared
+  description: Create, poll, and download programmatic visual generations.
   name: Napkin Visuals API
   slug: napkin-visuals-api
 artifact_total: 9
@@ -227,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/screenshots/napkin-2026-08-07T184622.png
 security:

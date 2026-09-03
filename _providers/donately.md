@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 10 acting
 api_count: 1
 apis:
-- description: The organizations a token has access to.
+- baseURL: https://api.donately.com/v2
+  baseurl_source: declared
+  description: The organizations a token has access to.
   name: Donately Accounts API
   slug: donately-accounts-api
-- description: Fundraising pages with goals and settings.
+- baseURL: https://api.donately.com/v2
+  baseurl_source: declared
+  description: Fundraising pages with goals and settings.
   name: Donately Campaigns API
   slug: donately-campaigns-api
-- description: One-time and recurring gifts.
+- baseURL: https://api.donately.com/v2
+  baseurl_source: declared
+  description: One-time and recurring gifts.
   name: Donately Donations API
   slug: donately-donations-api
-- description: Peer-to-peer fundraising pages under a campaign.
+- baseURL: https://api.donately.com/v2
+  baseurl_source: declared
+  description: Peer-to-peer fundraising pages under a campaign.
   name: Donately Fundraisers API
   slug: donately-fundraisers-api
-- description: Donors and contacts.
+- baseURL: https://api.donately.com/v2
+  baseurl_source: declared
+  description: Donors and contacts.
   name: Donately People API
   slug: donately-people-api
-- description: Recurring donation schedules.
+- baseURL: https://api.donately.com/v2
+  baseurl_source: declared
+  description: Recurring donation schedules.
   name: Donately Subscriptions API
   slug: donately-subscriptions-api
 artifact_total: 20
@@ -187,7 +199,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/screenshots/donately-2026-07-25T212248.png
 security:

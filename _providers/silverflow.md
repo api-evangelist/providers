@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,157 +36,257 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 3DS Authentication Endpoints
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: 3DS Authentication Endpoints
   name: Silverflow 3DS Authentication API
   slug: silverflow-3ds-authentication-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Agents API
   slug: silverflow-agents-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow AMMF Submission Events API
   slug: silverflow-ammf-submission-events-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow API Keys API
   slug: silverflow-api-keys-api
-- description: The BEP Authentication API from Silverflow — 3 operation(s) for bep authentication.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The BEP Authentication API from Silverflow — 3 operation(s) for bep authentication.
   name: Silverflow BEP Authentication API
   slug: silverflow-bep-authentication-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Bins API
   slug: silverflow-bins-api
-- description: Provides information from the card networks about Card Ranges.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Provides information from the card networks about Card Ranges.
   name: Silverflow Card Info API
   slug: silverflow-card-info-api
-- description: 'ATM card management actions: PIN change, PIN unblock, balance inquiry and PIN change reversal.'
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: 'ATM card management actions: PIN change, PIN unblock, balance inquiry and PIN change reversal.'
   name: Silverflow Card Management API
   slug: silverflow-card-management-api
-- description: The Card Network Reports API from Silverflow — 2 operation(s) for card network reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Card Network Reports API from Silverflow — 2 operation(s) for card network reports.
   name: Silverflow Card Network Reports API
   slug: silverflow-card-network-reports-api
-- description: Perform different actions on existing charges.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Perform different actions on existing charges.
   name: Silverflow Charge Actions API
   slug: silverflow-charge-actions-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Charges Events API
   slug: silverflow-charges-events-api
-- description: The Charges Reports API from Silverflow — 1 operation(s) for charges reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Charges Reports API from Silverflow — 1 operation(s) for charges reports.
   name: Silverflow Charges Reports API
   slug: silverflow-charges-reports-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Clearing Events API
   slug: silverflow-clearing-events-api
-- description: Create different types of charges.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Create different types of charges.
   name: Silverflow Create Charges API
   slug: silverflow-create-charges-api
-- description: Create a POS charge.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Create a POS charge.
   name: Silverflow Create POS Charges API
   slug: silverflow-create-pos-charges-api
-- description: Create different types of recurring charges.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Create different types of recurring charges.
   name: Silverflow Create Recurring API
   slug: silverflow-create-recurring-api
-- description: The Currency Conversion Rates API from Silverflow — 1 operation(s) for currency conversion rates.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Currency Conversion Rates API from Silverflow — 1 operation(s) for currency conversion rates.
   name: Silverflow Currency Conversion Rates API
   slug: silverflow-currency-conversion-rates-api
-- description: The Dispute Reports API from Silverflow — 1 operation(s) for dispute reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Dispute Reports API from Silverflow — 1 operation(s) for dispute reports.
   name: Silverflow Dispute Reports API
   slug: silverflow-dispute-reports-api
-- description: The Disputes API from Silverflow — 9 operation(s) for disputes.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Disputes API from Silverflow — 9 operation(s) for disputes.
   name: Silverflow Disputes API
   slug: silverflow-disputes-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Disputes Events API
   slug: silverflow-disputes-events-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Distribution Events API
   slug: silverflow-distribution-events-api
-- description: The Distributions API from Silverflow — 2 operation(s) for distributions.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Distributions API from Silverflow — 2 operation(s) for distributions.
   name: Silverflow Distributions API
   slug: silverflow-distributions-api
-- description: A Document is a file with associated metadata that can be uploaded and downloaded. Documents have to be attached to a business entity, for example `Dispute Documents`. The Document upload process star
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: A Document is a file with associated metadata that can be uploaded and downloaded. Documents have to be attached to a business entity, for example `Dispute Documents`. The Document upload process star
   name: Silverflow Documents API
   slug: silverflow-documents-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Enrollments API
   slug: silverflow-enrollments-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Event Subscriptions API
   slug: silverflow-event-subscriptions-api
-- description: The Fees API from Silverflow — 2 operation(s) for fees.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Fees API from Silverflow — 2 operation(s) for fees.
   name: Silverflow Fees API
   slug: silverflow-fees-api
-- description: Subscribe to raw files from the card networks.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Subscribe to raw files from the card networks.
   name: Silverflow File Subscriptions API
   slug: silverflow-file-subscriptions-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Fraud Notification Events API
   slug: silverflow-fraud-notification-events-api
-- description: Fraud Notifications are created by the schemes when a fraudulent transaction is reported to them. The Fraud Notification endpoints, allow to obtain more information about a Fraud Notification, includi
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Fraud Notifications are created by the schemes when a fraudulent transaction is reported to them. The Fraud Notification endpoints, allow to obtain more information about a Fraud Notification, includi
   name: Silverflow Fraud Notifications API
   slug: silverflow-fraud-notifications-api
-- description: The Fraud Notifications Reports API from Silverflow — 1 operation(s) for fraud notifications reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Fraud Notifications Reports API from Silverflow — 1 operation(s) for fraud notifications reports.
   name: Silverflow Fraud Notifications Reports API
   slug: silverflow-fraud-notifications-reports-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Merchant Acceptors API
   slug: silverflow-merchant-acceptors-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Merchants API
   slug: silverflow-merchants-api
-- description: The Network Funds Transfers API from Silverflow — 2 operation(s) for network funds transfers.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Network Funds Transfers API from Silverflow — 2 operation(s) for network funds transfers.
   name: Silverflow Network Funds Transfers API
   slug: silverflow-network-funds-transfers-api
-- description: Network Tokenization
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Network Tokenization
   name: Silverflow Network Tokenization API
   slug: silverflow-network-tokenization-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Network Tokens Events API
   slug: silverflow-network-tokens-events-api
-- description: Perform different actions on a previously created charge.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Perform different actions on a previously created charge.
   name: Silverflow POS Charge Actions API
   slug: silverflow-pos-charge-actions-api
-- description: Processor Tokenization
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Processor Tokenization
   name: Silverflow Processor Tokenization API
   slug: silverflow-processor-tokenization-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Processor Tokens Events API
   slug: silverflow-processor-tokens-events-api
-- description: The Reconciliation Details API from Silverflow — 3 operation(s) for reconciliation details.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Reconciliation Details API from Silverflow — 3 operation(s) for reconciliation details.
   name: Silverflow Reconciliation Details API
   slug: silverflow-reconciliation-details-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Reconciliation Events API
   slug: silverflow-reconciliation-events-api
-- description: The Reconciliation Reports API from Silverflow — 2 operation(s) for reconciliation reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Reconciliation Reports API from Silverflow — 2 operation(s) for reconciliation reports.
   name: Silverflow Reconciliation Reports API
   slug: silverflow-reconciliation-reports-api
-- description: The Report Events API from Silverflow — 0 operation(s) for report events.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Report Events API from Silverflow — 0 operation(s) for report events.
   name: Silverflow Report Events API
   slug: silverflow-report-events-api
-- description: The Report Scheduling API from Silverflow — 2 operation(s) for report scheduling.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Report Scheduling API from Silverflow — 2 operation(s) for report scheduling.
   name: Silverflow Report Scheduling API
   slug: silverflow-report-scheduling-api
-- description: Retrieve a single or multiple charges.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Retrieve a single or multiple charges.
   name: Silverflow Retrieve Charges API
   slug: silverflow-retrieve-charges-api
-- description: Retrieve charges for given merchant and with additonal filters.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Retrieve charges for given merchant and with additonal filters.
   name: Silverflow Retrieve POS Charges API
   slug: silverflow-retrieve-pos-charges-api
-- description: The Retrieve Reports API from Silverflow — 3 operation(s) for retrieve reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Retrieve Reports API from Silverflow — 3 operation(s) for retrieve reports.
   name: Silverflow Retrieve Reports API
   slug: silverflow-retrieve-reports-api
-- description: The Scheme Fee Reports API from Silverflow — 1 operation(s) for scheme fee reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Scheme Fee Reports API from Silverflow — 1 operation(s) for scheme fee reports.
   name: Silverflow Scheme Fee Reports API
   slug: silverflow-scheme-fee-reports-api
-- description: ''
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: ''
   name: Silverflow Screenings API
   slug: silverflow-screenings-api
-- description: The Settlement Reports API from Silverflow — 1 operation(s) for settlement reports.
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: The Settlement Reports API from Silverflow — 1 operation(s) for settlement reports.
   name: Silverflow Settlement Reports API
   slug: silverflow-settlement-reports-api
-- description: Transaction Risk Assessment
+- baseURL: https://eu-west-1.api.silverflow.com/v1
+  baseurl_source: declared
+  description: Transaction Risk Assessment
   name: Silverflow Transaction Risk Assessment API
   slug: silverflow-transaction-risk-assessment-api
 artifact_total: 56
@@ -349,23 +462,23 @@ rate_limits:
   slug: silverflow-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 51.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.0
+  delta: 0.5
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 4.5
-    contract_quality: 63.0
+    contract_quality: 64.9
     developer_ergonomics: 66.1
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 53.3
+  previous_composite: 51.3
   provenance:
     conformance: derived
     contracts:
@@ -382,8 +495,9 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png
 security:
 - kind: authentication
   name: Silverflow Authentication

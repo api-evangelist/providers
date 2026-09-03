@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: 'The CoreDNS plugin framework allows extending DNS server functionality through a chain of plugins defined in the Corefile configuration. External plugins can be written in Go to add custom DNS record '
   name: CoreDNS Plugin API
   slug: coredns-plugin-api
-- description: Health check endpoints used by Kubernetes liveness and readiness probes to assess the operational state of the CoreDNS process.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Health check endpoints used by Kubernetes liveness and readiness probes to assess the operational state of the CoreDNS process.
   name: CoreDNS Health API
   slug: coredns-health-api
-- description: Prometheus-compatible metrics endpoints exposing DNS query statistics, cache performance, latency histograms, and build information.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Prometheus-compatible metrics endpoints exposing DNS query statistics, cache performance, latency histograms, and build information.
   name: CoreDNS Metrics API
   slug: coredns-metrics-api
-- description: Readiness check endpoints that indicate whether CoreDNS plugins have finished initializing and are ready to serve DNS queries.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Readiness check endpoints that indicate whether CoreDNS plugins have finished initializing and are ready to serve DNS queries.
   name: CoreDNS Ready API
   slug: coredns-ready-api
 artifact_total: 21
@@ -263,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:

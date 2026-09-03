@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Same REST surface served from each customer's tenant subdomain (https://<tenant>.rossum.app/api/v1/) for organisations created after November 2022 or migrated to the new platform.
   name: Rossum Tenant API (rossum.app)
   slug: tenant-app
-- description: The Annotations API from Rossum — 2 operation(s) for annotations.
+- baseURL: https://api.elis.rossum.ai/v1
+  baseurl_source: declared
+  description: The Annotations API from Rossum — 2 operation(s) for annotations.
   name: Rossum Annotations API
   slug: rossum-annotations-api
-- description: The Authentication API from Rossum — 2 operation(s) for authentication.
+- baseURL: https://api.elis.rossum.ai/v1
+  baseurl_source: declared
+  description: The Authentication API from Rossum — 2 operation(s) for authentication.
   name: Rossum Authentication API
   slug: rossum-authentication-api
-- description: The Queues API from Rossum — 2 operation(s) for queues.
+- baseURL: https://api.elis.rossum.ai/v1
+  baseurl_source: declared
+  description: The Queues API from Rossum — 2 operation(s) for queues.
   name: Rossum Queues API
   slug: rossum-queues-api
-- description: The Schemas API from Rossum — 1 operation(s) for schemas.
+- baseURL: https://api.elis.rossum.ai/v1
+  baseurl_source: declared
+  description: The Schemas API from Rossum — 1 operation(s) for schemas.
   name: Rossum Schemas API
   slug: rossum-schemas-api
-- description: The Uploads API from Rossum — 1 operation(s) for uploads.
+- baseURL: https://api.elis.rossum.ai/v1
+  baseurl_source: declared
+  description: The Uploads API from Rossum — 1 operation(s) for uploads.
   name: Rossum Uploads API
   slug: rossum-uploads-api
 artifact_total: 21
@@ -197,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rossum/refs/heads/main/screenshots/rossum-2026-06-20T193224.png
 security:

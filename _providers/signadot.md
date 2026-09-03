@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 21 operations · 10 acting
 api_count: 1
 apis:
-- description: The Cluster API from Signadot — 5 operation(s) for cluster.
+- baseURL: https://api.signadot.com/api/v2
+  baseurl_source: declared
+  description: The Cluster API from Signadot — 5 operation(s) for cluster.
   name: Signadot Cluster API
   slug: signadot-cluster-api
-- description: The Orgs API from Signadot — 1 operation(s) for orgs.
+- baseURL: https://api.signadot.com/api/v2
+  baseurl_source: declared
+  description: The Orgs API from Signadot — 1 operation(s) for orgs.
   name: Signadot Orgs API
   slug: signadot-orgs-api
-- description: The ResourcePlugins API from Signadot — 2 operation(s) for resourceplugins.
+- baseURL: https://api.signadot.com/api/v2
+  baseurl_source: declared
+  description: The ResourcePlugins API from Signadot — 2 operation(s) for resourceplugins.
   name: Signadot ResourcePlugins API
   slug: signadot-resourceplugins-api
-- description: The RouteGroups API from Signadot — 2 operation(s) for routegroups.
+- baseURL: https://api.signadot.com/api/v2
+  baseurl_source: declared
+  description: The RouteGroups API from Signadot — 2 operation(s) for routegroups.
   name: Signadot RouteGroups API
   slug: signadot-routegroups-api
-- description: The Sandboxes API from Signadot — 2 operation(s) for sandboxes.
+- baseURL: https://api.signadot.com/api/v2
+  baseurl_source: declared
+  description: The Sandboxes API from Signadot — 2 operation(s) for sandboxes.
   name: Signadot Sandboxes API
   slug: signadot-sandboxes-api
 arazzos:
@@ -242,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signadot/refs/heads/main/screenshots/signadot-2026-08-17T081851.png
 security:

@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -40,13 +55,19 @@ apis:
 - description: Published portable SKILL.md agent skill in the stayingapi/travel-skills GitHub repo, referenced from the SDK docs, plus n8n workflow recipes.
   name: StayingAPI Agent Skills
   slug: stayingapi-agent-skills
-- description: Account, plan and credit balance
+- baseURL: https://api.stayingapi.com/v1
+  baseurl_source: declared
+  description: Account, plan and credit balance
   name: StayingAPI Account API
   slug: stayingapi-account-api
-- description: Accommodation data endpoints
+- baseURL: https://api.stayingapi.com/v1
+  baseurl_source: declared
+  description: Accommodation data endpoints
   name: StayingAPI Data API
   slug: stayingapi-data-api
-- description: Async job polling
+- baseURL: https://api.stayingapi.com/v1
+  baseurl_source: declared
+  description: Async job polling
   name: StayingAPI Jobs API
   slug: stayingapi-jobs-api
 arazzos:
@@ -291,7 +312,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 5 acting
 api_count: 1
 apis:
-- description: The Activities API from Hotelbeds — 1 operation(s) for activities.
+- baseURL: https://api.hotelbeds.com/hotel-api/1.0
+  baseurl_source: declared
+  description: The Activities API from Hotelbeds — 1 operation(s) for activities.
   name: Hotelbeds Activities API
   slug: hotelbeds-activities-api
-- description: The Booking API from Hotelbeds — 5 operation(s) for booking.
+- baseURL: https://api.hotelbeds.com/hotel-api/1.0
+  baseurl_source: declared
+  description: The Booking API from Hotelbeds — 5 operation(s) for booking.
   name: Hotelbeds Booking API
   slug: hotelbeds-booking-api
-- description: The Cache API from Hotelbeds — 1 operation(s) for cache.
+- baseURL: https://api.hotelbeds.com/hotel-api/1.0
+  baseurl_source: declared
+  description: The Cache API from Hotelbeds — 1 operation(s) for cache.
   name: Hotelbeds Cache API
   slug: hotelbeds-cache-api
-- description: The Content API from Hotelbeds — 3 operation(s) for content.
+- baseURL: https://api.hotelbeds.com/hotel-api/1.0
+  baseurl_source: declared
+  description: The Content API from Hotelbeds — 3 operation(s) for content.
   name: Hotelbeds Content API
   slug: hotelbeds-content-api
-- description: The Transfers API from Hotelbeds — 1 operation(s) for transfers.
+- baseURL: https://api.hotelbeds.com/hotel-api/1.0
+  baseurl_source: declared
+  description: The Transfers API from Hotelbeds — 1 operation(s) for transfers.
   name: Hotelbeds Transfers API
   slug: hotelbeds-transfers-api
 artifact_total: 18
@@ -171,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/screenshots/hotelbeds-2026-07-25T221500.png
 security:

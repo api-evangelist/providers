@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -46,34 +46,54 @@ apis:
 - description: REST API for centrally configuring and managing AWS Backup including backup plans, backup selections, backup vaults, recovery points, restore jobs, framework reports, audit reports, and the AWS Backup
   name: AWS Backup API
   slug: api
-- description: The Backup Jobs API from AWS Backup — 2 operation(s) for backup jobs.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Jobs API from AWS Backup — 2 operation(s) for backup jobs.
   name: AWS Backup Backup Jobs API
   slug: aws-backup-backup-jobs-api
-- description: The Backup Plans API from AWS Backup — 2 operation(s) for backup plans.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Plans API from AWS Backup — 2 operation(s) for backup plans.
   name: AWS Backup Backup Plans API
   slug: aws-backup-backup-plans-api
-- description: The Backup Selections API from AWS Backup — 1 operation(s) for backup selections.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Selections API from AWS Backup — 1 operation(s) for backup selections.
   name: AWS Backup Backup Selections API
   slug: aws-backup-backup-selections-api
-- description: The Backup Vaults API from AWS Backup — 2 operation(s) for backup vaults.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Backup Vaults API from AWS Backup — 2 operation(s) for backup vaults.
   name: AWS Backup Backup Vaults API
   slug: aws-backup-backup-vaults-api
-- description: The Copy Jobs API from AWS Backup — 1 operation(s) for copy jobs.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Copy Jobs API from AWS Backup — 1 operation(s) for copy jobs.
   name: AWS Backup Copy Jobs API
   slug: aws-backup-copy-jobs-api
-- description: The Frameworks API from AWS Backup — 1 operation(s) for frameworks.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Frameworks API from AWS Backup — 1 operation(s) for frameworks.
   name: AWS Backup Frameworks API
   slug: aws-backup-frameworks-api
-- description: The Recovery Points API from AWS Backup — 2 operation(s) for recovery points.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Recovery Points API from AWS Backup — 2 operation(s) for recovery points.
   name: AWS Backup Recovery Points API
   slug: aws-backup-recovery-points-api
-- description: The Report Plans API from AWS Backup — 1 operation(s) for report plans.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Report Plans API from AWS Backup — 1 operation(s) for report plans.
   name: AWS Backup Report Plans API
   slug: aws-backup-report-plans-api
-- description: The Restore Jobs API from AWS Backup — 1 operation(s) for restore jobs.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Restore Jobs API from AWS Backup — 1 operation(s) for restore jobs.
   name: AWS Backup Restore Jobs API
   slug: aws-backup-restore-jobs-api
-- description: The Tags API from AWS Backup — 1 operation(s) for tags.
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from AWS Backup — 1 operation(s) for tags.
   name: AWS Backup Tags API
   slug: aws-backup-tags-api
 artifact_total: 28
@@ -191,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-backup/refs/heads/main/screenshots/aws-backup-2026-06-20T172742.png
 security:

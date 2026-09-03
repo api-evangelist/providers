@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 11 operations · 2 acting
 api_count: 1
 apis:
-- description: Resource 'CommonContent' operations.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: Resource 'CommonContent' operations.
   name: Orakl CommonContent API
   slug: orakl-commoncontent-api
-- description: CustomForms describe each node structure family, They are mandatory before creating any Node.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: CustomForms describe each node structure family, They are mandatory before creating any Node.
   name: Orakl CustomForm API
   slug: orakl-customform-api
-- description: Folders entity represent a directory on server with datetime and naming.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: Folders entity represent a directory on server with datetime and naming.
   name: Orakl Folder API
   slug: orakl-folder-api
-- description: The Login Check API from Orakl — 1 operation(s) for login check.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: The Login Check API from Orakl — 1 operation(s) for login check.
   name: Orakl Login Check API
   slug: orakl-login-check-api
-- description: NodesSources store Node content according to a translation and a NodeType.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: NodesSources store Node content according to a translation and a NodeType.
   name: Orakl NodesSources API
   slug: orakl-nodessources-api
-- description: Page node-source entity.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: Page node-source entity.
   name: Orakl Page API
   slug: orakl-page-api
-- description: Tags are hierarchical entities used to qualify Nodes.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: Tags are hierarchical entities used to qualify Nodes.
   name: Orakl Tag API
   slug: orakl-tag-api
-- description: Translations describe language locales to be used by Nodes, Tags, UrlAliases and Documents.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: Translations describe language locales to be used by Nodes, Tags, UrlAliases and Documents.
   name: Orakl Translation API
   slug: orakl-translation-api
-- description: Resource 'WebResponse' operations.
+- baseURL: https://www.orakl-oncology.com
+  baseurl_source: declared
+  description: Resource 'WebResponse' operations.
   name: Orakl WebResponse API
   slug: orakl-webresponse-api
 artifact_total: 23
@@ -212,7 +230,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orakl/refs/heads/main/screenshots/orakl-2026-08-07T190829.png
 security:

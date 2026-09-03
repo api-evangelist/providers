@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The open-source Dolt database ships a MySQL-compatible SQL server (dolt sql-server) over the MySQL wire protocol, giving the same versioned database hosted on DoltHub a self-hostable, drop-in SQL inte
   name: Dolt SQL Server
   slug: dolt-sql-server
-- description: The Branches API from DoltHub — 1 operation(s) for branches.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The Branches API from DoltHub — 1 operation(s) for branches.
   name: DoltHub Branches API
   slug: dolthub-branches-api
-- description: The Databases API from DoltHub — 3 operation(s) for databases.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The Databases API from DoltHub — 3 operation(s) for databases.
   name: DoltHub Databases API
   slug: dolthub-databases-api
-- description: The Jobs API from DoltHub — 1 operation(s) for jobs.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The Jobs API from DoltHub — 1 operation(s) for jobs.
   name: DoltHub Jobs API
   slug: dolthub-jobs-api
-- description: The Operations API from DoltHub — 1 operation(s) for operations.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The Operations API from DoltHub — 1 operation(s) for operations.
   name: DoltHub Operations API
   slug: dolthub-operations-api
-- description: The Pull Requests API from DoltHub — 3 operation(s) for pull requests.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The Pull Requests API from DoltHub — 3 operation(s) for pull requests.
   name: DoltHub Pull Requests API
   slug: dolthub-pull-requests-api
-- description: The SQL API from DoltHub — 4 operation(s) for sql.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The SQL API from DoltHub — 4 operation(s) for sql.
   name: DoltHub SQL API
   slug: dolthub-sql-api
-- description: The Tags API from DoltHub — 1 operation(s) for tags.
+- baseURL: https://www.dolthub.com/api/v1alpha1
+  baseurl_source: declared
+  description: The Tags API from DoltHub — 1 operation(s) for tags.
   name: DoltHub Tags API
   slug: dolthub-tags-api
 artifact_total: 23
@@ -194,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/screenshots/dolthub-2026-06-20T180140.png
 security:

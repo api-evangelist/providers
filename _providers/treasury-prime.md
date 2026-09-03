@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: Outbound HTTP webhook delivery for account, card, transaction, payment, and KYC events.
   name: Treasury Prime Webhooks
   slug: webhooks
-- description: The Accounts API from Treasury Prime — 2 operation(s) for accounts.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Accounts API from Treasury Prime — 2 operation(s) for accounts.
   name: Treasury Prime Accounts API
   slug: treasury-prime-accounts-api
-- description: The Businesses API from Treasury Prime — 2 operation(s) for businesses.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Businesses API from Treasury Prime — 2 operation(s) for businesses.
   name: Treasury Prime Businesses API
   slug: treasury-prime-businesses-api
-- description: The Cards API from Treasury Prime — 2 operation(s) for cards.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Cards API from Treasury Prime — 2 operation(s) for cards.
   name: Treasury Prime Cards API
   slug: treasury-prime-cards-api
-- description: The Health API from Treasury Prime — 1 operation(s) for health.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Health API from Treasury Prime — 1 operation(s) for health.
   name: Treasury Prime Health API
   slug: treasury-prime-health-api
-- description: The Payments API from Treasury Prime — 8 operation(s) for payments.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Payments API from Treasury Prime — 8 operation(s) for payments.
   name: Treasury Prime Payments API
   slug: treasury-prime-payments-api
-- description: The Persons API from Treasury Prime — 1 operation(s) for persons.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Persons API from Treasury Prime — 1 operation(s) for persons.
   name: Treasury Prime Persons API
   slug: treasury-prime-persons-api
-- description: The Statements API from Treasury Prime — 1 operation(s) for statements.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Statements API from Treasury Prime — 1 operation(s) for statements.
   name: Treasury Prime Statements API
   slug: treasury-prime-statements-api
-- description: The Transactions API from Treasury Prime — 2 operation(s) for transactions.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Transactions API from Treasury Prime — 2 operation(s) for transactions.
   name: Treasury Prime Transactions API
   slug: treasury-prime-transactions-api
-- description: The Webhooks API from Treasury Prime — 2 operation(s) for webhooks.
+- baseURL: https://sandbox.treasuryprime.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Treasury Prime — 2 operation(s) for webhooks.
   name: Treasury Prime Webhooks API
   slug: treasury-prime-webhooks-api
 artifact_total: 28
@@ -239,7 +257,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/screenshots/treasury-prime-2026-06-20T195641.png
 security:

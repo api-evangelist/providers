@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,25 +44,39 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: 'Self-describing metadata: the API index, registered content types, taxonomies and post statuses.'
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: 'Self-describing metadata: the API index, registered content types, taxonomies and post statuses.'
   name: MindMaze Discovery API
   slug: mindmaze-discovery-api
-- description: Images, documents and files in the MindMaze media library.
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Images, documents and files in the MindMaze media library.
   name: MindMaze Media API
   slug: mindmaze-media-api
-- description: oEmbed representation of a mindmazetherapeutics.com URL.
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representation of a mindmazetherapeutics.com URL.
   name: MindMaze O Embed API
   slug: mindmaze-oembed-api
-- description: Marketing, product, platform, research and investor-relations pages on mindmazetherapeutics.com.
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Marketing, product, platform, research and investor-relations pages on mindmazetherapeutics.com.
   name: MindMaze Pages API
   slug: mindmaze-pages-api
-- description: 'MindMaze Therapeutics news: EQS regulatory and ad-hoc announcements, investor-relations news, press releases, in-the-media coverage, events, testimonials and product announcements.'
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: 'MindMaze Therapeutics news: EQS regulatory and ad-hoc announcements, investor-relations news, press releases, in-the-media coverage, events, testimonials and product announcements.'
   name: MindMaze Posts API
   slug: mindmaze-posts-api
-- description: Cross-content-type search over published mindmazetherapeutics.com content.
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type search over published mindmazetherapeutics.com content.
   name: MindMaze Search API
   slug: mindmaze-search-api
-- description: The categories and tags used to classify MindMaze posts, including the EQS, ad-hoc-news and other-ir-news disclosure categories.
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: The categories and tags used to classify MindMaze posts, including the EQS, ad-hoc-news and other-ir-news disclosure categories.
   name: MindMaze Taxonomy API
   slug: mindmaze-taxonomy-api
 artifact_total: 15
@@ -272,7 +297,7 @@ score:
     regime_id: health
     score: 57.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:

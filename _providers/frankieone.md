@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 52 operations · 38 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Manage audit entries
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage audit entries
   name: FrankieOne Audit API
   slug: frankieone-audit-api
-- description: Manage hosted URLs for an individual
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage hosted URLs for an individual
   name: FrankieOne HostedURL API
   slug: frankieone-hostedurl-api
-- description: Get a token and/or upload documents to initiate an IDV process
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Get a token and/or upload documents to initiate an IDV process
   name: FrankieOne IDV API
   slug: frankieone-idv-api
-- description: Manage documents for individuals
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage documents for individuals
   name: FrankieOne Individual Documents API
   slug: frankieone-individual-documents-api
-- description: Manage individual entity records
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage individual entity records
   name: FrankieOne Individual Entities API
   slug: frankieone-individual-entities-api
-- description: Manage individual entity record elements
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage individual entity record elements
   name: FrankieOne Individual Entity Elements API
   slug: frankieone-individual-entity-elements-api
-- description: Manage individual profiles
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage individual profiles
   name: FrankieOne Individual Profiles API
   slug: frankieone-individual-profiles-api
-- description: Manage results for individuals
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage results for individuals
   name: FrankieOne Individual Results API
   slug: frankieone-individual-results-api
-- description: Manage risks associated with an individual
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Manage risks associated with an individual
   name: FrankieOne Individual Risks API
   slug: frankieone-individual-risks-api
-- description: The Individual Workflows API from FrankieOne — 5 operation(s) for individual workflows.
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: The Individual Workflows API from FrankieOne — 5 operation(s) for individual workflows.
   name: FrankieOne Individual Workflows API
   slug: frankieone-individual-workflows-api
-- description: The Matchlists API from FrankieOne — 6 operation(s) for matchlists.
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: The Matchlists API from FrankieOne — 6 operation(s) for matchlists.
   name: FrankieOne Matchlists API
   slug: frankieone-matchlists-api
-- description: Turn on/off ongoing monitoring for an individual entity
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: Turn on/off ongoing monitoring for an individual entity
   name: FrankieOne Monitoring API
   slug: frankieone-monitoring-api
-- description: The Search API from FrankieOne — 1 operation(s) for search.
+- baseURL: https://api.frankie.one
+  baseurl_source: declared
+  description: The Search API from FrankieOne — 1 operation(s) for search.
   name: FrankieOne Search API
   slug: frankieone-search-api
 artifact_total: 38
@@ -254,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/screenshots/frankieone-2026-06-20T181611.png
 security:

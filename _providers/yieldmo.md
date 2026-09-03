@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
@@ -49,25 +49,39 @@ apis:
 - description: Proprietary programmatic exchange and creative intelligence platform offering curated inventory access, contextual targeting, attention analytics, and deal management for advertisers and demand-side p
   name: Yieldmo YMax Platform API
   slug: yieldmo-ymax-platform-api
-- description: The Canned Reports API from Yieldmo — 19 operation(s) for canned reports.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The Canned Reports API from Yieldmo — 19 operation(s) for canned reports.
   name: Yieldmo Canned Reports API
   slug: yieldmo-canned-reports-api
-- description: The Dcs API from Yieldmo — 1 operation(s) for dcs.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The Dcs API from Yieldmo — 1 operation(s) for dcs.
   name: Yieldmo Dcs API
   slug: yieldmo-dcs-api
-- description: The Manage API from Yieldmo — 1 operation(s) for manage.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The Manage API from Yieldmo — 1 operation(s) for manage.
   name: Yieldmo Manage API
   slug: yieldmo-manage-api
-- description: The Mcp API from Yieldmo — 1 operation(s) for mcp.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The Mcp API from Yieldmo — 1 operation(s) for mcp.
   name: Yieldmo MCP API
   slug: yieldmo-mcp-api
-- description: The Ping API from Yieldmo — 1 operation(s) for ping.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The Ping API from Yieldmo — 1 operation(s) for ping.
   name: Yieldmo Ping API
   slug: yieldmo-ping-api
-- description: The Register API from Yieldmo — 1 operation(s) for register.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The Register API from Yieldmo — 1 operation(s) for register.
   name: Yieldmo Register API
   slug: yieldmo-register-api
-- description: The .well Known API from Yieldmo — 3 operation(s) for .well known.
+- baseURL: https://ads.yieldmo.com
+  baseurl_source: declared
+  description: The .well Known API from Yieldmo — 3 operation(s) for .well known.
   name: Yieldmo .well Known API
   slug: yieldmo-well-known-api
 artifact_total: 20
@@ -274,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png
 security:

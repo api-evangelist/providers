@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 21 operations · 2 acting
 api_count: 2
 apis:
-- description: The Accounts API from Datanomik — 5 operation(s) for accounts.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Accounts API from Datanomik — 5 operation(s) for accounts.
   name: Datanomik Accounts API
   slug: datanomik-accounts-api
-- description: The Applications API from Datanomik — 1 operation(s) for applications.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Applications API from Datanomik — 1 operation(s) for applications.
   name: Datanomik Applications API
   slug: datanomik-applications-api
-- description: The Balances API from Datanomik — 1 operation(s) for balances.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Balances API from Datanomik — 1 operation(s) for balances.
   name: Datanomik Balances API
   slug: datanomik-balances-api
-- description: The General Owners API from Datanomik — 2 operation(s) for general owners.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The General Owners API from Datanomik — 2 operation(s) for general owners.
   name: Datanomik General Owners API
   slug: datanomik-general-owners-api
-- description: The Investments API from Datanomik — 4 operation(s) for investments.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Investments API from Datanomik — 4 operation(s) for investments.
   name: Datanomik Investments API
   slug: datanomik-investments-api
-- description: The Links API from Datanomik — 1 operation(s) for links.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Links API from Datanomik — 1 operation(s) for links.
   name: Datanomik Links API
   slug: datanomik-links-api
-- description: The Payment Slips API from Datanomik — 1 operation(s) for payment slips.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Payment Slips API from Datanomik — 1 operation(s) for payment slips.
   name: Datanomik Payment Slips API
   slug: datanomik-payment-slips-api
-- description: The Payments API from Datanomik — 2 operation(s) for payments.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Payments API from Datanomik — 2 operation(s) for payments.
   name: Datanomik Payments API
   slug: datanomik-payments-api
-- description: The Pix Transactions API from Datanomik — 2 operation(s) for pix transactions.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Pix Transactions API from Datanomik — 2 operation(s) for pix transactions.
   name: Datanomik Pix Transactions API
   slug: datanomik-pix-transactions-api
-- description: The Transactions API from Datanomik — 2 operation(s) for transactions.
+- baseURL: https://api.datanomik.com
+  baseurl_source: declared
+  description: The Transactions API from Datanomik — 2 operation(s) for transactions.
   name: Datanomik Transactions API
   slug: datanomik-transactions-api
 artifact_total: 25
@@ -298,7 +318,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png
 security:

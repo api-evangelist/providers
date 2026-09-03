@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 6 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: API-key and web integration token management.
+- baseURL: https://api.checks.truora.com
+  baseurl_source: declared
+  description: API-key and web integration token management.
   name: Truora Account API
   slug: truora-account-api
-- description: Background checks on persons, vehicles, and companies across LatAm.
+- baseURL: https://api.checks.truora.com
+  baseurl_source: declared
+  description: Background checks on persons, vehicles, and companies across LatAm.
   name: Truora Checks API
   slug: truora-checks-api
-- description: Recurring re-checks of previously verified subjects.
+- baseURL: https://api.checks.truora.com
+  baseurl_source: declared
+  description: Recurring re-checks of previously verified subjects.
   name: Truora Continuous Monitoring API
   slug: truora-continuous-monitoring-api
-- description: Web and WhatsApp identity verification processes.
+- baseURL: https://api.checks.truora.com
+  baseurl_source: declared
+  description: Web and WhatsApp identity verification processes.
   name: Truora Digital Identity API
   slug: truora-digital-identity-api
-- description: Document, facial, email, and phone validation (KYC).
+- baseURL: https://api.checks.truora.com
+  baseurl_source: declared
+  description: Document, facial, email, and phone validation (KYC).
   name: Truora Validators API
   slug: truora-validators-api
 artifact_total: 27
@@ -300,7 +310,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -310,7 +320,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 61.7
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -322,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/screenshots/truora-2026-08-17T080431.png
 security:

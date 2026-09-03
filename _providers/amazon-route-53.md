@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for managing health checks.
+- baseURL: https://route53.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing health checks.
   name: Amazon Route 53 Health Checks API
   slug: amazon-route-53-health-checks-api
-- description: Operations for managing DNS hosted zones.
+- baseURL: https://route53.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing DNS hosted zones.
   name: Amazon Route 53 Hosted Zones API
   slug: amazon-route-53-hosted-zones-api
-- description: Operations for managing DNS resource record sets.
+- baseURL: https://route53.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing DNS resource record sets.
   name: Amazon Route 53 Resource Record Sets API
   slug: amazon-route-53-resource-record-sets-api
 artifact_total: 77
@@ -668,7 +674,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route-53/refs/heads/main/screenshots/amazon-route-53-2026-06-20T171815.png
 security:

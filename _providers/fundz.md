@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,28 +37,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
   name: Fundz API
   slug: fundz-api
-- description: Company acquisitions and M&A events, with acquirer and target organization records where disclosed.
+- baseURL: https://api.fundz.net
+  baseurl_source: declared
+  description: Company acquisitions and M&A events, with acquirer and target organization records where disclosed.
   name: Fundz Acquisitions API
   slug: fundz-acquisitions-api
-- description: Business agreements and partnerships announced by companies — distribution, licensing, joint ventures and similar.
+- baseURL: https://api.fundz.net
+  baseurl_source: declared
+  description: Business agreements and partnerships announced by companies — distribution, licensing, joint ventures and similar.
   name: Fundz Agreements API
   slug: fundz-agreements-api
-- description: Regulation CF and Regulation A crowdfunding campaigns, sourced from SEC Form C and Form 1-A filings.
+- baseURL: https://api.fundz.net
+  baseurl_source: declared
+  description: Regulation CF and Regulation A crowdfunding campaigns, sourced from SEC Form C and Form 1-A filings.
   name: Fundz Crowdfundings API
   slug: fundz-crowdfundings-api
-- description: Executive hires and appointments — new C-level, VP and board appointments at private and public companies.
+- baseURL: https://api.fundz.net
+  baseurl_source: declared
+  description: Executive hires and appointments — new C-level, VP and board appointments at private and public companies.
   name: Fundz Executives API
   slug: fundz-executives-api
-- description: Funding rounds — seed through late-stage venture and private equity — with the investors on the round and the full organization record.
+- baseURL: https://api.fundz.net
+  baseurl_source: declared
+  description: Funding rounds — seed through late-stage venture and private equity — with the investors on the round and the full organization record.
   name: Fundz Fundings API
   slug: fundz-fundings-api
-- description: Product launches and major product announcements.
+- baseURL: https://api.fundz.net
+  baseurl_source: declared
+  description: Product launches and major product announcements.
   name: Fundz Products API
   slug: fundz-products-api
 - description: 'The agent-facing Fundz surface, served on the same host under /v1/watch/*: AI-scored leads matched to an ICP, a raw business-event feed, a company watchlist, nightly market aggregates, and signed webh'
@@ -250,7 +276,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -260,7 +286,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 63.5
+  previous_composite: 63.3
   provenance:
     conformance: derived
     contracts:
@@ -277,7 +303,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png
 security:

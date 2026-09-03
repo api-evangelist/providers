@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 24 operations · 15 acting
 api_count: 2
 apis:
-- description: The Dubbing API from Deepdub — 4 operation(s) for dubbing.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Dubbing API from Deepdub — 4 operation(s) for dubbing.
   name: Deepdub Dubbing API
   slug: deepdub-dubbing-api
-- description: The Gender Detection API from Deepdub — 2 operation(s) for gender detection.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Gender Detection API from Deepdub — 2 operation(s) for gender detection.
   name: Deepdub Gender Detection API
   slug: deepdub-gender-detection-api
-- description: The Infrastructure API from Deepdub — 2 operation(s) for infrastructure.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Infrastructure API from Deepdub — 2 operation(s) for infrastructure.
   name: Deepdub Infrastructure API
   slug: deepdub-infrastructure-api
-- description: The Issues API from Deepdub — 2 operation(s) for issues.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Issues API from Deepdub — 2 operation(s) for issues.
   name: Deepdub Issues API
   slug: deepdub-issues-api
-- description: The TTS API from Deepdub — 1 operation(s) for tts.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The TTS API from Deepdub — 1 operation(s) for tts.
   name: Deepdub TTS API
   slug: deepdub-tts-api
-- description: The Usage API from Deepdub — 2 operation(s) for usage.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Usage API from Deepdub — 2 operation(s) for usage.
   name: Deepdub Usage API
   slug: deepdub-usage-api
-- description: The Voice API from Deepdub — 2 operation(s) for voice.
+- baseURL: https://restapi.deepdub.ai/api/v1
+  baseurl_source: declared
+  description: The Voice API from Deepdub — 2 operation(s) for voice.
   name: Deepdub Voice API
   slug: deepdub-voice-api
 artifact_total: 20
@@ -270,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
 security:

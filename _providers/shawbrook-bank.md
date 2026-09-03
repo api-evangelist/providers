@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,106 +44,174 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The Account Access Consents API from Shawbrook Bank — 2 operation(s) for account access consents.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Account Access Consents API from Shawbrook Bank — 2 operation(s) for account access consents.
   name: Shawbrook Bank Account Access Consents API
   slug: shawbrook-bank-account-access-consents-api
-- description: The Accounts API from Shawbrook Bank — 2 operation(s) for accounts.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Accounts API from Shawbrook Bank — 2 operation(s) for accounts.
   name: Shawbrook Bank Accounts API
   slug: shawbrook-bank-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting ATM data
   name: Shawbrook Bank ATM API
   slug: shawbrook-bank-atm-api
-- description: The Balances API from Shawbrook Bank — 2 operation(s) for balances.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Balances API from Shawbrook Bank — 2 operation(s) for balances.
   name: Shawbrook Bank Balances API
   slug: shawbrook-bank-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Business Current Account data
   name: Shawbrook Bank BCA API
   slug: shawbrook-bank-bca-api
-- description: The Beneficiaries API from Shawbrook Bank — 2 operation(s) for beneficiaries.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Beneficiaries API from Shawbrook Bank — 2 operation(s) for beneficiaries.
   name: Shawbrook Bank Beneficiaries API
   slug: shawbrook-bank-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Branch data
   name: Shawbrook Bank Branch API
   slug: shawbrook-bank-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Commercial Credit Card data
   name: Shawbrook Bank CCC API
   slug: shawbrook-bank-ccc-api
-- description: The Direct Debits API from Shawbrook Bank — 2 operation(s) for direct debits.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Direct Debits API from Shawbrook Bank — 2 operation(s) for direct debits.
   name: Shawbrook Bank Direct Debits API
   slug: shawbrook-bank-direct-debits-api
-- description: The Domestic Payment Consents API from Shawbrook Bank — 3 operation(s) for domestic payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payment Consents API from Shawbrook Bank — 3 operation(s) for domestic payment consents.
   name: Shawbrook Bank Domestic Payment Consents API
   slug: shawbrook-bank-domestic-payment-consents-api
-- description: The Domestic Payments API from Shawbrook Bank — 3 operation(s) for domestic payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payments API from Shawbrook Bank — 3 operation(s) for domestic payments.
   name: Shawbrook Bank Domestic Payments API
   slug: shawbrook-bank-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Shawbrook Bank — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payment Consents API from Shawbrook Bank — 2 operation(s) for domestic scheduled payment consents.
   name: Shawbrook Bank Domestic Scheduled Payment Consents API
   slug: shawbrook-bank-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Shawbrook Bank — 3 operation(s) for domestic scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payments API from Shawbrook Bank — 3 operation(s) for domestic scheduled payments.
   name: Shawbrook Bank Domestic Scheduled Payments API
   slug: shawbrook-bank-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Shawbrook Bank — 2 operation(s) for domestic standing order consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Order Consents API from Shawbrook Bank — 2 operation(s) for domestic standing order consents.
   name: Shawbrook Bank Domestic Standing Order Consents API
   slug: shawbrook-bank-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Shawbrook Bank — 3 operation(s) for domestic standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Orders API from Shawbrook Bank — 3 operation(s) for domestic standing orders.
   name: Shawbrook Bank Domestic Standing Orders API
   slug: shawbrook-bank-domestic-standing-orders-api
-- description: The File Payment Consents API from Shawbrook Bank — 3 operation(s) for file payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payment Consents API from Shawbrook Bank — 3 operation(s) for file payment consents.
   name: Shawbrook Bank File Payment Consents API
   slug: shawbrook-bank-file-payment-consents-api
-- description: The File Payments API from Shawbrook Bank — 4 operation(s) for file payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payments API from Shawbrook Bank — 4 operation(s) for file payments.
   name: Shawbrook Bank File Payments API
   slug: shawbrook-bank-file-payments-api
-- description: The Funds Confirmation Consents API from Shawbrook Bank — 2 operation(s) for funds confirmation consents.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmation Consents API from Shawbrook Bank — 2 operation(s) for funds confirmation consents.
   name: Shawbrook Bank Funds Confirmation Consents API
   slug: shawbrook-bank-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Shawbrook Bank — 1 operation(s) for funds confirmations.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmations API from Shawbrook Bank — 1 operation(s) for funds confirmations.
   name: Shawbrook Bank Funds Confirmations API
   slug: shawbrook-bank-funds-confirmations-api
-- description: The International Payment Consents API from Shawbrook Bank — 3 operation(s) for international payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payment Consents API from Shawbrook Bank — 3 operation(s) for international payment consents.
   name: Shawbrook Bank International Payment Consents API
   slug: shawbrook-bank-international-payment-consents-api
-- description: The International Payments API from Shawbrook Bank — 3 operation(s) for international payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payments API from Shawbrook Bank — 3 operation(s) for international payments.
   name: Shawbrook Bank International Payments API
   slug: shawbrook-bank-international-payments-api
-- description: The International Scheduled Payments API from Shawbrook Bank — 3 operation(s) for international scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments API from Shawbrook Bank — 3 operation(s) for international scheduled payments.
   name: Shawbrook Bank International Scheduled Payments API
   slug: shawbrook-bank-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Shawbrook Bank — 3 operation(s) for international scheduled payments consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments Consents API from Shawbrook Bank — 3 operation(s) for international scheduled payments consents.
   name: Shawbrook Bank International Scheduled Payments Consents API
   slug: shawbrook-bank-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Shawbrook Bank — 3 operation(s) for international standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders API from Shawbrook Bank — 3 operation(s) for international standing orders.
   name: Shawbrook Bank International Standing Orders API
   slug: shawbrook-bank-international-standing-orders-api
-- description: The International Standing Orders Consents API from Shawbrook Bank — 2 operation(s) for international standing orders consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders Consents API from Shawbrook Bank — 2 operation(s) for international standing orders consents.
   name: Shawbrook Bank International Standing Orders Consents API
   slug: shawbrook-bank-international-standing-orders-consents-api
-- description: The Offers API from Shawbrook Bank — 2 operation(s) for offers.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Offers API from Shawbrook Bank — 2 operation(s) for offers.
   name: Shawbrook Bank Offers API
   slug: shawbrook-bank-offers-api
-- description: The Parties API from Shawbrook Bank — 3 operation(s) for parties.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Parties API from Shawbrook Bank — 3 operation(s) for parties.
   name: Shawbrook Bank Parties API
   slug: shawbrook-bank-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Personal Current Account data
   name: Shawbrook Bank PCA API
   slug: shawbrook-bank-pca-api
-- description: The Products API from Shawbrook Bank — 2 operation(s) for products.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Products API from Shawbrook Bank — 2 operation(s) for products.
   name: Shawbrook Bank Products API
   slug: shawbrook-bank-products-api
-- description: The Scheduled Payments API from Shawbrook Bank — 2 operation(s) for scheduled payments.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Scheduled Payments API from Shawbrook Bank — 2 operation(s) for scheduled payments.
   name: Shawbrook Bank Scheduled Payments API
   slug: shawbrook-bank-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Unsecured SME Loan data
   name: Shawbrook Bank SME API
   slug: shawbrook-bank-sme-api
-- description: The Standing Orders API from Shawbrook Bank — 2 operation(s) for standing orders.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Standing Orders API from Shawbrook Bank — 2 operation(s) for standing orders.
   name: Shawbrook Bank Standing Orders API
   slug: shawbrook-bank-standing-orders-api
-- description: The Statements API from Shawbrook Bank — 5 operation(s) for statements.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Statements API from Shawbrook Bank — 5 operation(s) for statements.
   name: Shawbrook Bank Statements API
   slug: shawbrook-bank-statements-api
-- description: The Transactions API from Shawbrook Bank — 2 operation(s) for transactions.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Transactions API from Shawbrook Bank — 2 operation(s) for transactions.
   name: Shawbrook Bank Transactions API
   slug: shawbrook-bank-transactions-api
 artifact_total: 39
@@ -256,7 +335,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -294,8 +373,9 @@ score:
     regime_id: banking_open_finance
     score: 65.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shawbrook-bank/refs/heads/main/screenshots/shawbrook-bank-2026-09-02T155119.png
 security:
 - kind: authentication
   name: Shawbrook Bank Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -44,148 +44,244 @@ agentic_access:
   summary_line: 182 operations · 106 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
   name: SpotDraft V1 Contract APIs API
   slug: spotdraft-v1-contract-apis-api
-- description: Render stored public email audit HTML for preview and troubleshooting.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Render stored public email audit HTML for preview and troubleshooting.
   name: SpotDraft V1 Emails API
   slug: spotdraft-v1-emails-api
-- description: Public legal intake endpoints for intake submission, detail, attachments, and tasks.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Public legal intake endpoints for intake submission, detail, attachments, and tasks.
   name: SpotDraft V1 Legal Intake API
   slug: spotdraft-v1-legal-intake-api
-- description: Native integration helpers for embedded SpotDraft workflows.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Native integration helpers for embedded SpotDraft workflows.
   name: SpotDraft V1 Native Integrations API
   slug: spotdraft-v1-native-integrations-api
-- description: Legacy obligation-type reference endpoints.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Legacy obligation-type reference endpoints.
   name: SpotDraft V1 Obligation Types API
   slug: spotdraft-v1-obligation-types-api
-- description: List templates, inspect template fields, and read template details across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List templates, inspect template fields, and read template details across public API versions.
   name: SpotDraft V1 Templates API
   slug: spotdraft-v1-templates-api
-- description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
   name: SpotDraft V1 Users API
   slug: spotdraft-v1-users-api
-- description: Create webhook subscriptions, inspect sample payloads, validate deliveries, and manage webhook secrets across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Create webhook subscriptions, inspect sample payloads, validate deliveries, and manage webhook secrets across public API versions.
   name: SpotDraft V1 Webhooks API
   slug: spotdraft-v1-webhooks-api
-- description: Read-only analytics SQL execution and related analytics catalog guidance.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read-only analytics SQL execution and related analytics catalog guidance.
   name: SpotDraft V2.1 Analytics Query API
   slug: spotdraft-v2-1-analytics-query-api
-- description: Clickwrap agreement preview, consent status, and contract creation endpoints.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Clickwrap agreement preview, consent status, and contract creation endpoints.
   name: SpotDraft V2.1 Clickwrap API
   slug: spotdraft-v2-1-clickwrap-api
-- description: Read contract comments and activity history across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read contract comments and activity history across public API versions.
   name: SpotDraft V2.1 Contract Activity API
   slug: spotdraft-v2-1-contract-activity-api
-- description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
   name: SpotDraft V2.1 Contract APIs API
   slug: spotdraft-v2-1-contract-apis-api
-- description: Review contract approvals, approvers, and approval actions across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Review contract approvals, approvers, and approval actions across public API versions.
   name: SpotDraft V2.1 Contract Approvals API
   slug: spotdraft-v2-1-contract-approvals-api
-- description: Read and update integration-owned external metadata attached to a contract.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read and update integration-owned external metadata attached to a contract.
   name: SpotDraft V2.1 Contract External Metadata API
   slug: spotdraft-v2-1-contract-external-metadata-api
-- description: Discover available contract search filters and facet values.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Discover available contract search filters and facet values.
   name: SpotDraft V2.1 Contract Facets API
   slug: spotdraft-v2-1-contract-facets-api
-- description: Invite, uninvite, and manage contract participants and invited roles across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Invite, uninvite, and manage contract participants and invited roles across public API versions.
   name: SpotDraft V2.1 Contract Invitations API
   slug: spotdraft-v2-1-contract-invitations-api
-- description: List workspace-level or contract-type-level contract metadata definitions. Legacy API paths may still use key-pointer naming.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List workspace-level or contract-type-level contract metadata definitions. Legacy API paths may still use key-pointer naming.
   name: SpotDraft V2.1 Contract Metadata Definitions API
   slug: spotdraft-v2-1-contract-metadata-definitions-api
-- description: Read and update contract metadata values for a specific contract. Legacy API paths may still use key-pointer naming.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read and update contract metadata values for a specific contract. Legacy API paths may still use key-pointer naming.
   name: SpotDraft V2.1 Contract Metadata Values API
   slug: spotdraft-v2-1-contract-metadata-values-api
-- description: Read and update contract notes across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read and update contract notes across public API versions.
   name: SpotDraft V2.1 Contract Notes API
   slug: spotdraft-v2-1-contract-notes-api
-- description: List and inspect obligations generated from a contract.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List and inspect obligations generated from a contract.
   name: SpotDraft V2.1 Contract Obligations API
   slug: spotdraft-v2-1-contract-obligations-api
-- description: Browse contract types, questionnaire definitions, and contract-type metadata.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Browse contract types, questionnaire definitions, and contract-type metadata.
   name: SpotDraft V2.1 Contract Types API
   slug: spotdraft-v2-1-contract-types-api
-- description: Retrieve contract version history and generated artifacts such as PDF and DOCX.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Retrieve contract version history and generated artifacts such as PDF and DOCX.
   name: SpotDraft V2.1 Contract Versions API
   slug: spotdraft-v2-1-contract-versions-api
-- description: Create, search, and manage counterparties across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Create, search, and manage counterparties across public API versions.
   name: SpotDraft V2.1 Counterparties API
   slug: spotdraft-v2-1-counterparties-api
-- description: Organization and organization-type lookups across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Organization and organization-type lookups across public API versions.
   name: SpotDraft V2.1 Organizations API
   slug: spotdraft-v2-1-organizations-api
-- description: Recipient lookups and participant-facing contract resources across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Recipient lookups and participant-facing contract resources across public API versions.
   name: SpotDraft V2.1 Recipients API
   slug: spotdraft-v2-1-recipients-api
-- description: Sidebar APIs for legal questions, contract query workflows, and related AI-assisted experiences.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Sidebar APIs for legal questions, contract query workflows, and related AI-assisted experiences.
   name: SpotDraft V2.1 Sidebar API
   slug: spotdraft-v2-1-sidebar-api
-- description: Task and reminder workflows across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Task and reminder workflows across public API versions.
   name: SpotDraft V2.1 Tasks and Reminders API
   slug: spotdraft-v2-1-tasks-and-reminders-api
-- description: List templates, inspect template fields, and read template details across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List templates, inspect template fields, and read template details across public API versions.
   name: SpotDraft V2.1 Templates API
   slug: spotdraft-v2-1-templates-api
-- description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
   name: SpotDraft V2.1 Users API
   slug: spotdraft-v2-1-users-api
-- description: Create webhook subscriptions, inspect sample payloads, validate deliveries, and manage webhook secrets across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Create webhook subscriptions, inspect sample payloads, validate deliveries, and manage webhook secrets across public API versions.
   name: SpotDraft V2.1 Webhooks API
   slug: spotdraft-v2-1-webhooks-api
-- description: Download workspace files through signed URLs.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Download workspace files through signed URLs.
   name: SpotDraft V2.1 Workspace Files API
   slug: spotdraft-v2-1-workspace-files-api
-- description: Create and manage workspace tags used to categorize and filter contracts.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Create and manage workspace tags used to categorize and filter contracts.
   name: SpotDraft V2.1 Workspace Tags API
   slug: spotdraft-v2-1-workspace-tags-api
-- description: Workspace-scoped helper endpoints exposed publicly.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Workspace-scoped helper endpoints exposed publicly.
   name: SpotDraft V2.1 Workspaces API
   slug: spotdraft-v2-1-workspaces-api
-- description: Read contract comments and activity history across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read contract comments and activity history across public API versions.
   name: SpotDraft V2 Contract Activity API
   slug: spotdraft-v2-contract-activity-api
-- description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
   name: SpotDraft V2 Contract APIs API
   slug: spotdraft-v2-contract-apis-api
-- description: Review contract approvals, approvers, and approval actions across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Review contract approvals, approvers, and approval actions across public API versions.
   name: SpotDraft V2 Contract Approvals API
   slug: spotdraft-v2-contract-approvals-api
-- description: Invite, uninvite, and manage contract participants and invited roles across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Invite, uninvite, and manage contract participants and invited roles across public API versions.
   name: SpotDraft V2 Contract Invitations API
   slug: spotdraft-v2-contract-invitations-api
-- description: List workspace-level or contract-type-level contract metadata definitions. Legacy API paths may still use key-pointer naming.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List workspace-level or contract-type-level contract metadata definitions. Legacy API paths may still use key-pointer naming.
   name: SpotDraft V2 Contract Metadata Definitions API
   slug: spotdraft-v2-contract-metadata-definitions-api
-- description: Read and update contract metadata values for a specific contract. Legacy API paths may still use key-pointer naming.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read and update contract metadata values for a specific contract. Legacy API paths may still use key-pointer naming.
   name: SpotDraft V2 Contract Metadata Values API
   slug: spotdraft-v2-contract-metadata-values-api
-- description: Read and update contract notes across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Read and update contract notes across public API versions.
   name: SpotDraft V2 Contract Notes API
   slug: spotdraft-v2-contract-notes-api
-- description: Browse contract types, questionnaire definitions, and contract-type metadata.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Browse contract types, questionnaire definitions, and contract-type metadata.
   name: SpotDraft V2 Contract Types API
   slug: spotdraft-v2-contract-types-api
-- description: Retrieve contract version history and generated artifacts such as PDF and DOCX.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Retrieve contract version history and generated artifacts such as PDF and DOCX.
   name: SpotDraft V2 Contract Versions API
   slug: spotdraft-v2-contract-versions-api
-- description: Create, search, and manage counterparties across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Create, search, and manage counterparties across public API versions.
   name: SpotDraft V2 Counterparties API
   slug: spotdraft-v2-counterparties-api
-- description: Organization and organization-type lookups across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Organization and organization-type lookups across public API versions.
   name: SpotDraft V2 Organizations API
   slug: spotdraft-v2-organizations-api
-- description: Recipient lookups and participant-facing contract resources across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Recipient lookups and participant-facing contract resources across public API versions.
   name: SpotDraft V2 Recipients API
   slug: spotdraft-v2-recipients-api
-- description: Task and reminder workflows across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: Task and reminder workflows across public API versions.
   name: SpotDraft V2 Tasks and Reminders API
   slug: spotdraft-v2-tasks-and-reminders-api
-- description: List templates, inspect template fields, and read template details across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List templates, inspect template fields, and read template details across public API versions.
   name: SpotDraft V2 Templates API
   slug: spotdraft-v2-templates-api
-- description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
+- baseURL: https://api.us.spotdraft.com
+  baseurl_source: declared
+  description: List users, list roles, manage role membership, invite users, and update user access across public API versions.
   name: SpotDraft V2 Users API
   slug: spotdraft-v2-users-api
 artifact_total: 165
@@ -674,7 +770,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -684,7 +780,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 50.1
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -693,7 +789,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:

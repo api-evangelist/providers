@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Calico exposes its networking and security primitives through Kubernetes Custom Resource Definitions (CRDs) including NetworkPolicy, GlobalNetworkPolicy, IPPool, BGPConfiguration, BGPPeer, HostEndpoin
   name: Calico Kubernetes CRDs
   slug: calico-kubernetes-crds
-- description: The BGPConfiguration API from Calico — 2 operation(s) for bgpconfiguration.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The BGPConfiguration API from Calico — 2 operation(s) for bgpconfiguration.
   name: Calico BGPConfiguration API
   slug: calico-bgpconfiguration-api
-- description: The BGPPeer API from Calico — 2 operation(s) for bgppeer.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The BGPPeer API from Calico — 2 operation(s) for bgppeer.
   name: Calico BGPPeer API
   slug: calico-bgppeer-api
-- description: The GlobalNetworkPolicy API from Calico — 2 operation(s) for globalnetworkpolicy.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The GlobalNetworkPolicy API from Calico — 2 operation(s) for globalnetworkpolicy.
   name: Calico GlobalNetworkPolicy API
   slug: calico-globalnetworkpolicy-api
-- description: The HostEndpoint API from Calico — 2 operation(s) for hostendpoint.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The HostEndpoint API from Calico — 2 operation(s) for hostendpoint.
   name: Calico HostEndpoint API
   slug: calico-hostendpoint-api
-- description: The IPPool API from Calico — 2 operation(s) for ippool.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The IPPool API from Calico — 2 operation(s) for ippool.
   name: Calico IPPool API
   slug: calico-ippool-api
-- description: The NetworkPolicy API from Calico — 2 operation(s) for networkpolicy.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The NetworkPolicy API from Calico — 2 operation(s) for networkpolicy.
   name: Calico NetworkPolicy API
   slug: calico-networkpolicy-api
-- description: The Profile API from Calico — 2 operation(s) for profile.
+- baseURL_template: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: spec_template
+  description: The Profile API from Calico — 2 operation(s) for profile.
   name: Calico Profile API
   slug: calico-profile-api
 artifact_total: 26
@@ -245,7 +259,7 @@ score:
     regime_id: insurance
     score: 27.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/screenshots/calico-2026-06-20T173846.png
 security:

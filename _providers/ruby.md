@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -85,31 +85,49 @@ apis:
 - description: '"Opinionated framework for creating REST-like APIs in Ruby." Provides a routing DSL with parameter validation, versioning, and content-negotiation helpers; runs standalone or mounted in Rails.'
   name: Grape
   slug: grape
-- description: The Activity API from Ruby Programming Language and Popular API Gems — 2 operation(s) for activity.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Activity API from Ruby Programming Language and Popular API Gems — 2 operation(s) for activity.
   name: Ruby Programming Language and Popular API Gems Activity API
   slug: ruby-activity-api
-- description: The API Keys API from Ruby Programming Language and Popular API Gems — 1 operation(s) for api keys.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The API Keys API from Ruby Programming Language and Popular API Gems — 1 operation(s) for api keys.
   name: Ruby Programming Language and Popular API Gems API Keys API
   slug: ruby-api-keys-api
-- description: The Downloads API from Ruby Programming Language and Popular API Gems — 2 operation(s) for downloads.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Downloads API from Ruby Programming Language and Popular API Gems — 2 operation(s) for downloads.
   name: Ruby Programming Language and Popular API Gems Downloads API
   slug: ruby-downloads-api
-- description: The Gems API from Ruby Programming Language and Popular API Gems — 4 operation(s) for gems.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Gems API from Ruby Programming Language and Popular API Gems — 4 operation(s) for gems.
   name: Ruby Programming Language and Popular API Gems Gems API
   slug: ruby-gems-api
-- description: The OIDC API from Ruby Programming Language and Popular API Gems — 1 operation(s) for oidc.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The OIDC API from Ruby Programming Language and Popular API Gems — 1 operation(s) for oidc.
   name: Ruby Programming Language and Popular API Gems OIDC API
   slug: ruby-oidc-api
-- description: The Owners API from Ruby Programming Language and Popular API Gems — 1 operation(s) for owners.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Owners API from Ruby Programming Language and Popular API Gems — 1 operation(s) for owners.
   name: Ruby Programming Language and Popular API Gems Owners API
   slug: ruby-owners-api
-- description: The Profiles API from Ruby Programming Language and Popular API Gems — 1 operation(s) for profiles.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Profiles API from Ruby Programming Language and Popular API Gems — 1 operation(s) for profiles.
   name: Ruby Programming Language and Popular API Gems Profiles API
   slug: ruby-profiles-api
-- description: The Versions API from Ruby Programming Language and Popular API Gems — 3 operation(s) for versions.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Versions API from Ruby Programming Language and Popular API Gems — 3 operation(s) for versions.
   name: Ruby Programming Language and Popular API Gems Versions API
   slug: ruby-versions-api
-- description: The Webhooks API from Ruby Programming Language and Popular API Gems — 4 operation(s) for webhooks.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Ruby Programming Language and Popular API Gems — 4 operation(s) for webhooks.
   name: Ruby Programming Language and Popular API Gems Webhooks API
   slug: ruby-webhooks-api
 artifact_total: 67
@@ -376,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/screenshots/ruby-2026-06-20T193244.png
 security:

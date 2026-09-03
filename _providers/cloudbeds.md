@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,91 +53,149 @@ apis:
 - description: Event-driven webhooks for reservation, guest, room, and payment state changes. Use webhooks instead of polling list endpoints.
   name: Cloudbeds Webhooks
   slug: webhooks
-- description: The Access Token API from Cloudbeds — 1 operation(s) for access token.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The Access Token API from Cloudbeds — 1 operation(s) for access token.
   name: Cloudbeds Access Token API
   slug: cloudbeds-access-token-api
-- description: The DeleteWebhook API from Cloudbeds — 1 operation(s) for deletewebhook.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The DeleteWebhook API from Cloudbeds — 1 operation(s) for deletewebhook.
   name: Cloudbeds DeleteWebhook API
   slug: cloudbeds-deletewebhook-api
-- description: The GetAvailableRoomTypes API from Cloudbeds — 1 operation(s) for getavailableroomtypes.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetAvailableRoomTypes API from Cloudbeds — 1 operation(s) for getavailableroomtypes.
   name: Cloudbeds GetAvailableRoomTypes API
   slug: cloudbeds-getavailableroomtypes-api
-- description: The GetDashboard API from Cloudbeds — 1 operation(s) for getdashboard.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetDashboard API from Cloudbeds — 1 operation(s) for getdashboard.
   name: Cloudbeds GetDashboard API
   slug: cloudbeds-getdashboard-api
-- description: The GetGuest API from Cloudbeds — 1 operation(s) for getguest.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetGuest API from Cloudbeds — 1 operation(s) for getguest.
   name: Cloudbeds GetGuest API
   slug: cloudbeds-getguest-api
-- description: The GetGuestList API from Cloudbeds — 1 operation(s) for getguestlist.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetGuestList API from Cloudbeds — 1 operation(s) for getguestlist.
   name: Cloudbeds GetGuestList API
   slug: cloudbeds-getguestlist-api
-- description: The GetHotelDetails API from Cloudbeds — 1 operation(s) for gethoteldetails.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetHotelDetails API from Cloudbeds — 1 operation(s) for gethoteldetails.
   name: Cloudbeds GetHotelDetails API
   slug: cloudbeds-gethoteldetails-api
-- description: The GetHotels API from Cloudbeds — 1 operation(s) for gethotels.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetHotels API from Cloudbeds — 1 operation(s) for gethotels.
   name: Cloudbeds GetHotels API
   slug: cloudbeds-gethotels-api
-- description: The GetPaymentMethods API from Cloudbeds — 1 operation(s) for getpaymentmethods.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetPaymentMethods API from Cloudbeds — 1 operation(s) for getpaymentmethods.
   name: Cloudbeds GetPaymentMethods API
   slug: cloudbeds-getpaymentmethods-api
-- description: The GetRate API from Cloudbeds — 1 operation(s) for getrate.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetRate API from Cloudbeds — 1 operation(s) for getrate.
   name: Cloudbeds GetRate API
   slug: cloudbeds-getrate-api
-- description: The GetRatePlans API from Cloudbeds — 1 operation(s) for getrateplans.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetRatePlans API from Cloudbeds — 1 operation(s) for getrateplans.
   name: Cloudbeds GetRatePlans API
   slug: cloudbeds-getrateplans-api
-- description: The GetReservation API from Cloudbeds — 1 operation(s) for getreservation.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetReservation API from Cloudbeds — 1 operation(s) for getreservation.
   name: Cloudbeds GetReservation API
   slug: cloudbeds-getreservation-api
-- description: The GetReservations API from Cloudbeds — 1 operation(s) for getreservations.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetReservations API from Cloudbeds — 1 operation(s) for getreservations.
   name: Cloudbeds GetReservations API
   slug: cloudbeds-getreservations-api
-- description: The GetRooms API from Cloudbeds — 1 operation(s) for getrooms.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetRooms API from Cloudbeds — 1 operation(s) for getrooms.
   name: Cloudbeds GetRooms API
   slug: cloudbeds-getrooms-api
-- description: The GetRoomTypes API from Cloudbeds — 1 operation(s) for getroomtypes.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetRoomTypes API from Cloudbeds — 1 operation(s) for getroomtypes.
   name: Cloudbeds GetRoomTypes API
   slug: cloudbeds-getroomtypes-api
-- description: The GetUsers API from Cloudbeds — 1 operation(s) for getusers.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetUsers API from Cloudbeds — 1 operation(s) for getusers.
   name: Cloudbeds GetUsers API
   slug: cloudbeds-getusers-api
-- description: The GetWebhooks API from Cloudbeds — 1 operation(s) for getwebhooks.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The GetWebhooks API from Cloudbeds — 1 operation(s) for getwebhooks.
   name: Cloudbeds GetWebhooks API
   slug: cloudbeds-getwebhooks-api
-- description: The PostCharge API from Cloudbeds — 1 operation(s) for postcharge.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostCharge API from Cloudbeds — 1 operation(s) for postcharge.
   name: Cloudbeds PostCharge API
   slug: cloudbeds-postcharge-api
-- description: The PostGuest API from Cloudbeds — 1 operation(s) for postguest.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostGuest API from Cloudbeds — 1 operation(s) for postguest.
   name: Cloudbeds PostGuest API
   slug: cloudbeds-postguest-api
-- description: The PostPayment API from Cloudbeds — 1 operation(s) for postpayment.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostPayment API from Cloudbeds — 1 operation(s) for postpayment.
   name: Cloudbeds PostPayment API
   slug: cloudbeds-postpayment-api
-- description: The PostReservation API from Cloudbeds — 1 operation(s) for postreservation.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostReservation API from Cloudbeds — 1 operation(s) for postreservation.
   name: Cloudbeds PostReservation API
   slug: cloudbeds-postreservation-api
-- description: The PostRoomAssign API from Cloudbeds — 1 operation(s) for postroomassign.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostRoomAssign API from Cloudbeds — 1 operation(s) for postroomassign.
   name: Cloudbeds PostRoomAssign API
   slug: cloudbeds-postroomassign-api
-- description: The PostRoomCheckIn API from Cloudbeds — 1 operation(s) for postroomcheckin.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostRoomCheckIn API from Cloudbeds — 1 operation(s) for postroomcheckin.
   name: Cloudbeds PostRoomCheckIn API
   slug: cloudbeds-postroomcheckin-api
-- description: The PostRoomCheckOut API from Cloudbeds — 1 operation(s) for postroomcheckout.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostRoomCheckOut API from Cloudbeds — 1 operation(s) for postroomcheckout.
   name: Cloudbeds PostRoomCheckOut API
   slug: cloudbeds-postroomcheckout-api
-- description: The PostWebhook API from Cloudbeds — 1 operation(s) for postwebhook.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PostWebhook API from Cloudbeds — 1 operation(s) for postwebhook.
   name: Cloudbeds PostWebhook API
   slug: cloudbeds-postwebhook-api
-- description: The PutGuest API from Cloudbeds — 1 operation(s) for putguest.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PutGuest API from Cloudbeds — 1 operation(s) for putguest.
   name: Cloudbeds PutGuest API
   slug: cloudbeds-putguest-api
-- description: The PutRate API from Cloudbeds — 1 operation(s) for putrate.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PutRate API from Cloudbeds — 1 operation(s) for putrate.
   name: Cloudbeds PutRate API
   slug: cloudbeds-putrate-api
-- description: The PutReservation API from Cloudbeds — 1 operation(s) for putreservation.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The PutReservation API from Cloudbeds — 1 operation(s) for putreservation.
   name: Cloudbeds PutReservation API
   slug: cloudbeds-putreservation-api
-- description: The Userinfo API from Cloudbeds — 1 operation(s) for userinfo.
+- baseURL: https://hotels.cloudbeds.com/api/v1.3
+  baseurl_source: declared
+  description: The Userinfo API from Cloudbeds — 1 operation(s) for userinfo.
   name: Cloudbeds Userinfo API
   slug: cloudbeds-userinfo-api
 artifact_total: 82
@@ -423,7 +481,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

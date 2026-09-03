@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 32 operations · 32 acting
 api_count: 3
 apis:
-- description: The Ethereum API from Gallop — 28 operation(s) for ethereum.
+- baseURL: https://api.prod.gallop.run/v1
+  baseurl_source: declared
+  description: The Ethereum API from Gallop — 28 operation(s) for ethereum.
   name: Gallop Ethereum API
   slug: gallop-ethereum-api
-- description: The Polygon API from Gallop — 21 operation(s) for polygon.
+- baseURL: https://api.prod.gallop.run/v1
+  baseurl_source: declared
+  description: The Polygon API from Gallop — 21 operation(s) for polygon.
   name: Gallop Polygon API
   slug: gallop-polygon-api
-- description: The Solana API from Gallop — 18 operation(s) for solana.
+- baseURL: https://api.prod.gallop.run/v1
+  baseurl_source: declared
+  description: The Solana API from Gallop — 18 operation(s) for solana.
   name: Gallop Solana API
   slug: gallop-solana-api
-- description: The Starknet API from Gallop — 2 operation(s) for starknet.
+- baseURL: https://api.prod.gallop.run/v1
+  baseurl_source: declared
+  description: The Starknet API from Gallop — 2 operation(s) for starknet.
   name: Gallop Starknet API
   slug: gallop-starknet-api
 artifact_total: 14
@@ -208,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gallop/refs/heads/main/screenshots/gallop-2026-07-25T215406.png
 security:

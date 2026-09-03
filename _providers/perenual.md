@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Plant care guides
+- baseURL: https://perenual.com/api/v2
+  baseurl_source: declared
+  description: Plant care guides
   name: Perenual Care API
   slug: perenual-care-api
-- description: Hardiness map data
+- baseURL: https://perenual.com/api/v2
+  baseurl_source: declared
+  description: Hardiness map data
   name: Perenual Maps API
   slug: perenual-maps-api
-- description: Pest and disease data
+- baseURL: https://perenual.com/api/v2
+  baseurl_source: declared
+  description: Pest and disease data
   name: Perenual Pests API
   slug: perenual-pests-api
-- description: Plant species data
+- baseURL: https://perenual.com/api/v2
+  baseurl_source: declared
+  description: Plant species data
   name: Perenual Species API
   slug: perenual-species-api
 artifact_total: 17
@@ -157,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perenual/refs/heads/main/screenshots/perenual-2026-06-20T191559.png
 security:

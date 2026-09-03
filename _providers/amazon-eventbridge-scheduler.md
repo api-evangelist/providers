@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: The Schedule Groups API from Amazon EventBridge Scheduler — 2 operation(s) for schedule groups.
+- baseURL: https://scheduler.amazonaws.com
+  baseurl_source: declared
+  description: The Schedule Groups API from Amazon EventBridge Scheduler — 2 operation(s) for schedule groups.
   name: Amazon EventBridge Scheduler Schedule Groups API
   slug: amazon-eventbridge-scheduler-schedule-groups-api
-- description: The Schedules API from Amazon EventBridge Scheduler — 2 operation(s) for schedules.
+- baseURL: https://scheduler.amazonaws.com
+  baseurl_source: declared
+  description: The Schedules API from Amazon EventBridge Scheduler — 2 operation(s) for schedules.
   name: Amazon EventBridge Scheduler Schedules API
   slug: amazon-eventbridge-scheduler-schedules-api
-- description: The Tags API from Amazon EventBridge Scheduler — 2 operation(s) for tags.
+- baseURL: https://scheduler.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon EventBridge Scheduler — 2 operation(s) for tags.
   name: Amazon EventBridge Scheduler Tags API
   slug: amazon-eventbridge-scheduler-tags-api
 arazzos:
@@ -1200,7 +1206,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/screenshots/amazon-eventbridge-scheduler-2026-06-20T171646.png
 security:

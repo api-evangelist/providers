@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Search across all indexed articles.
+- baseURL: https://newsapi.org/v2
+  baseurl_source: declared
+  description: Search across all indexed articles.
   name: Mashable Articles API
   slug: mashable-articles-api
-- description: Top headline retrieval.
+- baseURL: https://newsapi.org/v2
+  baseurl_source: declared
+  description: Top headline retrieval.
   name: Mashable Headlines API
   slug: mashable-headlines-api
 artifact_total: 12
@@ -185,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/screenshots/mashable-2026-06-20T185014.png
 security:

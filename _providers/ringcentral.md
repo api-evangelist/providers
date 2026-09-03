@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 487 operations · 250 acting · 47 human-in-the-loop
 api_count: 1
 apis:
-- description: The RingCentral SMS API supports targeted and bulk SMS and MMS with deep insights and regulatory compliance built in. It supports sending and receiving messages, A2P 10DLC registration, message status
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The RingCentral SMS API supports targeted and bulk SMS and MMS with deep insights and regulatory compliance built in. It supports sending and receiving messages, A2P 10DLC registration, message status
   name: RingCentral SMS API
   slug: ringcentral-sms-api
 - description: The RingCentral Team Messaging API enables developers to build chatbots, send notifications, and create add-ins within RingCentral Team Messaging (formerly Glip). It supports posting messages, managin
@@ -54,7 +56,9 @@ apis:
 - description: 'The RingCentral Video API powers high-quality, secure video meetings in the browser without requiring a downloaded app. It exposes endpoints for scheduling meetings, joining/embedding video sessions, '
   name: RingCentral Video API
   slug: ringcentral-video-api
-- description: The RingCentral Fax API enables developers to add programmable and customizable fax sending and receiving capabilities to applications, including multi-attachment support, scheduled delivery, and inbo
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The RingCentral Fax API enables developers to add programmable and customizable fax sending and receiving capabilities to applications, including multi-attachment support, scheduled delivery, and inbo
   name: RingCentral Fax API
   slug: ringcentral-fax-api
 - description: The RingCentral Data API helps customers manage and ensure regulatory compliance with call data, message data, and video recordings, supporting bulk export, archival, and supervisory retrieval workflo
@@ -63,13 +67,17 @@ apis:
 - description: The RingCentral Audio and Video AI API exposes speech-to-text, summarization, and conversational analytics on call and meeting media, enabling developers to extract transcripts, action items, and insi
   name: RingCentral Audio and Video AI API
   slug: ringcentral-ai-api
-- description: The RingCentral Call Log API provides historical call data, recordings, and synchronization endpoints used to power analytics, billing, and compliance retention systems.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The RingCentral Call Log API provides historical call data, recordings, and synchronization endpoints used to power analytics, billing, and compliance retention systems.
   name: RingCentral Call Log API
   slug: ringcentral-call-log-api
 - description: The RingCentral Call Analytics API exposes aggregated metrics, KPIs, and reporting endpoints for inbound and outbound calling activity at the user, queue, department, and account levels.
   name: RingCentral Call Analytics API
   slug: ringcentral-call-analytics-api
-- description: 'The RingCentral Presence API exposes real-time and historical presence/availability state for users and call queues, including DND, telephony state, and meeting status, with subscription-based change '
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: 'The RingCentral Presence API exposes real-time and historical presence/availability state for users and call queues, including DND, telephony state, and meeting status, with subscription-based change '
   name: RingCentral Presence API
   slug: ringcentral-presence-api
 - description: The RingCentral Voicemail API enables retrieval, playback, and management of voicemail messages, including transcripts, attachments, and read/unread state.
@@ -87,226 +95,374 @@ apis:
 - description: The RingCentral Events API supports the lifecycle of large-scale virtual and hybrid events including event creation, registration, sessions, sponsors, attendees, and reporting.
   name: RingCentral Events API
   slug: ringcentral-events-api
-- description: The Adaptive Cards API from RingCentral — 2 operation(s) for adaptive cards.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Adaptive Cards API from RingCentral — 2 operation(s) for adaptive cards.
   name: RingCentral Adaptive Cards API
   slug: ringcentral-adaptive-cards-api
-- description: The API Info API from RingCentral — 2 operation(s) for api info.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The API Info API from RingCentral — 2 operation(s) for api info.
   name: RingCentral API Info API
   slug: ringcentral-api-info-api
-- description: Conversational AI audio processing APIs
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Conversational AI audio processing APIs
   name: RingCentral Audio API
   slug: ringcentral-audio-api
-- description: The Audit Trail API from RingCentral — 1 operation(s) for audit trail.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Audit Trail API from RingCentral — 1 operation(s) for audit trail.
   name: RingCentral Audit Trail API
   slug: ringcentral-audit-trail-api
-- description: The Automatic Location Updates API from RingCentral — 21 operation(s) for automatic location updates.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Automatic Location Updates API from RingCentral — 21 operation(s) for automatic location updates.
   name: RingCentral Automatic Location Updates API
   slug: ringcentral-automatic-location-updates-api
-- description: The Bridge Management API from RingCentral — 5 operation(s) for bridge management.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Bridge Management API from RingCentral — 5 operation(s) for bridge management.
   name: RingCentral Bridge Management API
   slug: ringcentral-bridge-management-api
-- description: The Business Analytics API from RingCentral — 2 operation(s) for business analytics.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Business Analytics API from RingCentral — 2 operation(s) for business analytics.
   name: RingCentral Business Analytics API
   slug: ringcentral-business-analytics-api
-- description: The Business Hours API from RingCentral — 2 operation(s) for business hours.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Business Hours API from RingCentral — 2 operation(s) for business hours.
   name: RingCentral Business Hours API
   slug: ringcentral-business-hours-api
-- description: The Calendar Events API from RingCentral — 3 operation(s) for calendar events.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Calendar Events API from RingCentral — 3 operation(s) for calendar events.
   name: RingCentral Calendar Events API
   slug: ringcentral-calendar-events-api
-- description: The Call Blocking API from RingCentral — 3 operation(s) for call blocking.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Blocking API from RingCentral — 3 operation(s) for call blocking.
   name: RingCentral Call Blocking API
   slug: ringcentral-call-blocking-api
-- description: The Call Control API from RingCentral — 21 operation(s) for call control.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Control API from RingCentral — 21 operation(s) for call control.
   name: RingCentral Call Control API
   slug: ringcentral-call-control-api
-- description: The Call Forwarding API from RingCentral — 2 operation(s) for call forwarding.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Forwarding API from RingCentral — 2 operation(s) for call forwarding.
   name: RingCentral Call Forwarding API
   slug: ringcentral-call-forwarding-api
-- description: The Call Handling Rules API from RingCentral — 5 operation(s) for call handling rules.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Handling Rules API from RingCentral — 5 operation(s) for call handling rules.
   name: RingCentral Call Handling Rules API
   slug: ringcentral-call-handling-rules-api
-- description: The Call Log API from RingCentral — 8 operation(s) for call log.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Log API from RingCentral — 8 operation(s) for call log.
   name: RingCentral Call Log API
   slug: ringcentral-call-log-api
-- description: The Call Monitoring Groups API from RingCentral — 4 operation(s) for call monitoring groups.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Monitoring Groups API from RingCentral — 4 operation(s) for call monitoring groups.
   name: RingCentral Call Monitoring Groups API
   slug: ringcentral-call-monitoring-groups-api
-- description: The Call Queues API from RingCentral — 8 operation(s) for call queues.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Queues API from RingCentral — 8 operation(s) for call queues.
   name: RingCentral Call Queues API
   slug: ringcentral-call-queues-api
-- description: The Call Recording Settings API from RingCentral — 5 operation(s) for call recording settings.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Recording Settings API from RingCentral — 5 operation(s) for call recording settings.
   name: RingCentral Call Recording Settings API
   slug: ringcentral-call-recording-settings-api
-- description: The Call Recordings API from RingCentral — 3 operation(s) for call recordings.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Call Recordings API from RingCentral — 3 operation(s) for call recordings.
   name: RingCentral Call Recordings API
   slug: ringcentral-call-recordings-api
-- description: The Chats API from RingCentral — 6 operation(s) for chats.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Chats API from RingCentral — 6 operation(s) for chats.
   name: RingCentral Chats API
   slug: ringcentral-chats-api
-- description: The Company API from RingCentral — 8 operation(s) for company.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Company API from RingCentral — 8 operation(s) for company.
   name: RingCentral Company API
   slug: ringcentral-company-api
-- description: The Compliance Exports API from RingCentral — 2 operation(s) for compliance exports.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Compliance Exports API from RingCentral — 2 operation(s) for compliance exports.
   name: RingCentral Compliance Exports API
   slug: ringcentral-compliance-exports-api
-- description: The Contents API from RingCentral — 2 operation(s) for contents.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Contents API from RingCentral — 2 operation(s) for contents.
   name: RingCentral Contents API
   slug: ringcentral-contents-api
-- description: The Conversations API from RingCentral — 2 operation(s) for conversations.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Conversations API from RingCentral — 2 operation(s) for conversations.
   name: RingCentral Conversations API
   slug: ringcentral-conversations-api
-- description: The Custom Fields API from RingCentral — 2 operation(s) for custom fields.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Custom Fields API from RingCentral — 2 operation(s) for custom fields.
   name: RingCentral Custom Fields API
   slug: ringcentral-custom-fields-api
-- description: The Delegation Management API from RingCentral — 1 operation(s) for delegation management.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Delegation Management API from RingCentral — 1 operation(s) for delegation management.
   name: RingCentral Delegation Management API
   slug: ringcentral-delegation-management-api
-- description: The Device SIP Registration API from RingCentral — 1 operation(s) for device sip registration.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Device SIP Registration API from RingCentral — 1 operation(s) for device sip registration.
   name: RingCentral Device SIP Registration API
   slug: ringcentral-device-sip-registration-api
-- description: The Devices API from RingCentral — 8 operation(s) for devices.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Devices API from RingCentral — 8 operation(s) for devices.
   name: RingCentral Devices API
   slug: ringcentral-devices-api
-- description: The Extensions API from RingCentral — 5 operation(s) for extensions.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Extensions API from RingCentral — 5 operation(s) for extensions.
   name: RingCentral Extensions API
   slug: ringcentral-extensions-api
-- description: The External Contacts API from RingCentral — 6 operation(s) for external contacts.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The External Contacts API from RingCentral — 6 operation(s) for external contacts.
   name: RingCentral External Contacts API
   slug: ringcentral-external-contacts-api
-- description: The Fax API from RingCentral — 2 operation(s) for fax.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Fax API from RingCentral — 2 operation(s) for fax.
   name: RingCentral Fax API
   slug: ringcentral-fax-api
-- description: The Features API from RingCentral — 1 operation(s) for features.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Features API from RingCentral — 1 operation(s) for features.
   name: RingCentral Features API
   slug: ringcentral-features-api
-- description: The Greetings API from RingCentral — 7 operation(s) for greetings.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Greetings API from RingCentral — 7 operation(s) for greetings.
   name: RingCentral Greetings API
   slug: ringcentral-greetings-api
-- description: The High Volume SMS API from RingCentral — 7 operation(s) for high volume sms.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The High Volume SMS API from RingCentral — 7 operation(s) for high volume sms.
   name: RingCentral High Volume SMS API
   slug: ringcentral-high-volume-sms-api
-- description: Historical webinar recordings management (host and admin interfaces)
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Historical webinar recordings management (host and admin interfaces)
   name: RingCentral Historical Recordings API
   slug: ringcentral-historical-recordings-api
-- description: Historical webinars and sessions information
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Historical webinars and sessions information
   name: RingCentral Historical Webinars API
   slug: ringcentral-historical-webinars-api
-- description: The Identities API from RingCentral — 2 operation(s) for identities.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Identities API from RingCentral — 2 operation(s) for identities.
   name: RingCentral Identities API
   slug: ringcentral-identities-api
-- description: The Incoming Webhooks API from RingCentral — 5 operation(s) for incoming webhooks.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Incoming Webhooks API from RingCentral — 5 operation(s) for incoming webhooks.
   name: RingCentral Incoming Webhooks API
   slug: ringcentral-incoming-webhooks-api
-- description: Conversational AI insight APIs
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Conversational AI insight APIs
   name: RingCentral Insights API
   slug: ringcentral-insights-api
-- description: The Internal Contacts API from RingCentral — 4 operation(s) for internal contacts.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Internal Contacts API from RingCentral — 4 operation(s) for internal contacts.
   name: RingCentral Internal Contacts API
   slug: ringcentral-internal-contacts-api
-- description: External APIs to manage webinar invitees and invitations
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: External APIs to manage webinar invitees and invitations
   name: RingCentral Invitees API
   slug: ringcentral-invitees-api
-- description: The IVR API from RingCentral — 5 operation(s) for ivr.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The IVR API from RingCentral — 5 operation(s) for ivr.
   name: RingCentral IVR API
   slug: ringcentral-ivr-api
-- description: The Meeting Recordings API from RingCentral — 2 operation(s) for meeting recordings.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Meeting Recordings API from RingCentral — 2 operation(s) for meeting recordings.
   name: RingCentral Meeting Recordings API
   slug: ringcentral-meeting-recordings-api
-- description: The Meetings History API from RingCentral — 2 operation(s) for meetings history.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Meetings History API from RingCentral — 2 operation(s) for meetings history.
   name: RingCentral Meetings History API
   slug: ringcentral-meetings-history-api
-- description: External interface to export user's messages
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: External interface to export user's messages
   name: RingCentral Message Exports API
   slug: ringcentral-message-exports-api
-- description: The Message Store API from RingCentral — 5 operation(s) for message store.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Message Store API from RingCentral — 5 operation(s) for message store.
   name: RingCentral Message Store API
   slug: ringcentral-message-store-api
-- description: The Multi-Site API from RingCentral — 5 operation(s) for multi-site.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Multi-Site API from RingCentral — 5 operation(s) for multi-site.
   name: RingCentral Multi-Site API
   slug: ringcentral-multi-site-api
-- description: The Notes API from RingCentral — 5 operation(s) for notes.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Notes API from RingCentral — 5 operation(s) for notes.
   name: RingCentral Notes API
   slug: ringcentral-notes-api
-- description: Public OAuth 2.0 and OpenID Connect Resources
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Public OAuth 2.0 and OpenID Connect Resources
   name: RingCentral OAuth 2.0 / OpenID Connect API
   slug: ringcentral-oauth-2-0-openid-connect-api
-- description: The Pager Messages API from RingCentral — 1 operation(s) for pager messages.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Pager Messages API from RingCentral — 1 operation(s) for pager messages.
   name: RingCentral Pager Messages API
   slug: ringcentral-pager-messages-api
-- description: The Paging Only Groups API from RingCentral — 3 operation(s) for paging only groups.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Paging Only Groups API from RingCentral — 3 operation(s) for paging only groups.
   name: RingCentral Paging Only Groups API
   slug: ringcentral-paging-only-groups-api
-- description: The Phone Numbers API from RingCentral — 9 operation(s) for phone numbers.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Phone Numbers API from RingCentral — 9 operation(s) for phone numbers.
   name: RingCentral Phone Numbers API
   slug: ringcentral-phone-numbers-api
-- description: The Posts API from RingCentral — 3 operation(s) for posts.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Posts API from RingCentral — 3 operation(s) for posts.
   name: RingCentral Posts API
   slug: ringcentral-posts-api
-- description: The Presence API from RingCentral — 5 operation(s) for presence.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Presence API from RingCentral — 5 operation(s) for presence.
   name: RingCentral Presence API
   slug: ringcentral-presence-api
-- description: The Profile API from RingCentral — 2 operation(s) for profile.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Profile API from RingCentral — 2 operation(s) for profile.
   name: RingCentral Profile API
   slug: ringcentral-profile-api
-- description: The RCM Meetings (Legacy) API from RingCentral — 13 operation(s) for rcm meetings (legacy).
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The RCM Meetings (Legacy) API from RingCentral — 13 operation(s) for rcm meetings (legacy).
   name: RingCentral RCM Meetings (Legacy) API
   slug: ringcentral-rcm-meetings-legacy-api
-- description: The Regional Settings API from RingCentral — 9 operation(s) for regional settings.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Regional Settings API from RingCentral — 9 operation(s) for regional settings.
   name: RingCentral Regional Settings API
   slug: ringcentral-regional-settings-api
-- description: External APIs for registrants management
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: External APIs for registrants management
   name: RingCentral Registrants API
   slug: ringcentral-registrants-api
-- description: External APIs for registration flow management
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: External APIs for registration flow management
   name: RingCentral Registration Management API
   slug: ringcentral-registration-management-api
-- description: The RingOut API from RingCentral — 2 operation(s) for ringout.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The RingOut API from RingCentral — 2 operation(s) for ringout.
   name: RingCentral RingOut API
   slug: ringcentral-ringout-api
-- description: The Role Management API from RingCentral — 10 operation(s) for role management.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Role Management API from RingCentral — 10 operation(s) for role management.
   name: RingCentral Role Management API
   slug: ringcentral-role-management-api
-- description: The SCIM API from RingCentral — 8 operation(s) for scim.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The SCIM API from RingCentral — 8 operation(s) for scim.
   name: RingCentral SCIM API
   slug: ringcentral-scim-api
-- description: The Site Administration API from RingCentral — 1 operation(s) for site administration.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Site Administration API from RingCentral — 1 operation(s) for site administration.
   name: RingCentral Site Administration API
   slug: ringcentral-site-administration-api
-- description: The SMS API from RingCentral — 2 operation(s) for sms.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The SMS API from RingCentral — 2 operation(s) for sms.
   name: RingCentral SMS API
   slug: ringcentral-sms-api
-- description: The SMS Templates API from RingCentral — 4 operation(s) for sms templates.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The SMS Templates API from RingCentral — 4 operation(s) for sms templates.
   name: RingCentral SMS Templates API
   slug: ringcentral-sms-templates-api
-- description: Conversational AI async job status
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Conversational AI async job status
   name: RingCentral Status API
   slug: ringcentral-status-api
-- description: General interface to manage subscriptions
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: General interface to manage subscriptions
   name: RingCentral Subscriptions API
   slug: ringcentral-subscriptions-api
-- description: The Tasks API from RingCentral — 3 operation(s) for tasks.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Tasks API from RingCentral — 3 operation(s) for tasks.
   name: RingCentral Tasks API
   slug: ringcentral-tasks-api
-- description: The Teams API from RingCentral — 9 operation(s) for teams.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Teams API from RingCentral — 9 operation(s) for teams.
   name: RingCentral Teams API
   slug: ringcentral-teams-api
-- description: Conversational AI text processing APIs
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: Conversational AI text processing APIs
   name: RingCentral Text API
   slug: ringcentral-text-api
-- description: The User Permissions API from RingCentral — 6 operation(s) for user permissions.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The User Permissions API from RingCentral — 6 operation(s) for user permissions.
   name: RingCentral User Permissions API
   slug: ringcentral-user-permissions-api
-- description: The User Settings API from RingCentral — 9 operation(s) for user settings.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The User Settings API from RingCentral — 9 operation(s) for user settings.
   name: RingCentral User Settings API
   slug: ringcentral-user-settings-api
-- description: The Video Configuration API from RingCentral — 1 operation(s) for video configuration.
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: The Video Configuration API from RingCentral — 1 operation(s) for video configuration.
   name: RingCentral Video Configuration API
   slug: ringcentral-video-configuration-api
-- description: General interface to manage webinar subscriptions
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: General interface to manage webinar subscriptions
   name: RingCentral Webinar Subscriptions API
   slug: ringcentral-webinar-subscriptions-api
-- description: External APIs for webinar and session management
+- baseURL: https://platform.ringcentral.com
+  baseurl_source: spec
+  description: External APIs for webinar and session management
   name: RingCentral Webinars and Sessions API
   slug: ringcentral-webinars-and-sessions-api
 arazzos:
@@ -1101,7 +1257,7 @@ score:
     catalog_gap: 77.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -1111,7 +1267,7 @@ score:
     discoverability: 44.4
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1128,7 +1284,7 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

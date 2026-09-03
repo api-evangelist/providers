@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 31 operations · 17 acting
 api_count: 1
 apis:
-- description: 'CompositeResourceDefinitions (XRDs) extend the Kubernetes API with new custom resource types. An XRD defines the schema and API surface for a composite resource and an optional namespace-scoped claim '
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: 'CompositeResourceDefinitions (XRDs) extend the Kubernetes API with new custom resource types. An XRD defines the schema and API surface for a composite resource and an optional namespace-scoped claim '
   name: Crossplane CompositeResourceDefinitions API
   slug: crossplane-compositeresourcedefinitions-api
-- description: Compositions define how to compose a set of managed resources or Composition Functions into a higher-level composite resource. A Composition acts as a template that maps fields from a composite resour
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Compositions define how to compose a set of managed resources or Composition Functions into a higher-level composite resource. A Composition acts as a template that maps fields from a composite resour
   name: Crossplane Compositions API
   slug: crossplane-compositions-api
-- description: Configurations are Crossplane packages that bundle Compositions and CompositeResourceDefinitions together into a distributable unit that can be installed into a Crossplane control plane.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Configurations are Crossplane packages that bundle Compositions and CompositeResourceDefinitions together into a distributable unit that can be installed into a Crossplane control plane.
   name: Crossplane Configurations API
   slug: crossplane-configurations-api
-- description: DeploymentRuntimeConfigs customize the runtime behavior of Provider and Function deployments, including replica counts, resource limits, service account annotations, and pod template overrides.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: DeploymentRuntimeConfigs customize the runtime behavior of Provider and Function deployments, including replica counts, resource limits, service account annotations, and pod template overrides.
   name: Crossplane DeploymentRuntimeConfigs API
   slug: crossplane-deploymentruntimeconfigs-api
-- description: EnvironmentConfigs provide shared configuration data that can be referenced by Compositions via environment patches, enabling reusable configuration across multiple Compositions.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: EnvironmentConfigs provide shared configuration data that can be referenced by Compositions via environment patches, enabling reusable configuration across multiple Compositions.
   name: Crossplane EnvironmentConfigs API
   slug: crossplane-environmentconfigs-api
-- description: Functions are Crossplane packages that contain Composition Functions, which are OCI container images invoked during composition to perform advanced resource templating and transformation logic.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Functions are Crossplane packages that contain Composition Functions, which are OCI container images invoked during composition to perform advanced resource templating and transformation logic.
   name: Crossplane Functions API
   slug: crossplane-functions-api
-- description: Providers are Crossplane packages that install controllers and CRDs for managing resources on a specific infrastructure platform such as AWS, GCP, or Azure.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: declared
+  description: Providers are Crossplane packages that install controllers and CRDs for managing resources on a specific infrastructure platform such as AWS, GCP, or Azure.
   name: Crossplane Providers API
   slug: crossplane-providers-api
 artifact_total: 35
@@ -315,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-08-17T082555.png
 security:

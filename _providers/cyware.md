@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,112 +35,180 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
   name: Cyware MCP Server
   slug: cyware-mcp-server
-- description: Administration
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Administration
   name: Cyware Administration API
   slug: cyware-administration-api
-- description: Allowed Indicators
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Allowed Indicators
   name: Cyware Allowed Indicators API
   slug: cyware-allowed-indicators-api
-- description: Analytics
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Analytics
   name: Cyware Analytics API
   slug: cyware-analytics-api
-- description: ATT&CK Navigator
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: ATT&CK Navigator
   name: Cyware ATT&CK Navigator API
   slug: cyware-att-ck-navigator-api
-- description: Authentication
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Authentication
   name: Cyware Authentication API
   slug: cyware-authentication-api
-- description: Code Snippets
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Code Snippets
   name: Cyware Code Snippets API
   slug: cyware-code-snippets-api
-- description: Create Intel via Open API
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Create Intel via Open API
   name: Cyware Create Intel via Open API API
   slug: cyware-create-intel-via-open-api-api
-- description: Custom Email Templates
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Custom Email Templates
   name: Cyware Custom Email Templates API
   slug: cyware-custom-email-templates-api
-- description: Dashboards
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Dashboards
   name: Cyware Dashboards API
   slug: cyware-dashboards-api
-- description: Detailed Submission
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Detailed Submission
   name: Cyware Detailed Submission API
   slug: cyware-detailed-submission-api
-- description: Events
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Events
   name: Cyware Events API
   slug: cyware-events-api
-- description: Fang/Defang
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Fang/Defang
   name: Cyware Fang/Defang API
   slug: cyware-fang-defang-api
-- description: Global Notes
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Global Notes
   name: Cyware Global Notes API
   slug: cyware-global-notes-api
-- description: Global Tasks
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Global Tasks
   name: Cyware Global Tasks API
   slug: cyware-global-tasks-api
-- description: Import Intel
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Import Intel
   name: Cyware Import Intel API
   slug: cyware-import-intel-api
-- description: Integrations
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Integrations
   name: Cyware Integrations API
   slug: cyware-integrations-api
-- description: Persistent List
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Persistent List
   name: Cyware Persistent List API
   slug: cyware-persistent-list-api
-- description: Ping
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Ping
   name: Cyware Ping API
   slug: cyware-ping-api
-- description: PIR
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: PIR
   name: Cyware PIR API
   slug: cyware-pir-api
-- description: Playbooks
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Playbooks
   name: Cyware Playbooks API
   slug: cyware-playbooks-api
-- description: Quick Add Intel
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Quick Add Intel
   name: Cyware Quick Add Intel API
   slug: cyware-quick-add-intel-api
-- description: Reports
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Reports
   name: Cyware Reports API
   slug: cyware-reports-api
-- description: RSS Feeds
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: RSS Feeds
   name: Cyware RSS Feeds API
   slug: cyware-rss-feeds-api
-- description: Rules
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Rules
   name: Cyware Rules API
   slug: cyware-rules-api
-- description: Status Check
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Status Check
   name: Cyware Status Check API
   slug: cyware-status-check-api
-- description: Tag Groups
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Tag Groups
   name: Cyware Tag Groups API
   slug: cyware-tag-groups-api
-- description: Tags
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Tags
   name: Cyware Tags API
   slug: cyware-tags-api
-- description: Threat Bulletin
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Threat Bulletin
   name: Cyware Threat Bulletin API
   slug: cyware-threat-bulletin-api
-- description: Threat Data
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Threat Data
   name: Cyware Threat Data API
   slug: cyware-threat-data-api
-- description: Threat Data Objects
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Threat Data Objects
   name: Cyware Threat Data Objects API
   slug: cyware-threat-data-objects-api
-- description: Threat Investigation
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Threat Investigation
   name: Cyware Threat Investigation API
   slug: cyware-threat-investigation-api
-- description: Threat Mailbox
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Threat Mailbox
   name: Cyware Threat Mailbox API
   slug: cyware-threat-mailbox-api
-- description: Watchlist
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Watchlist
   name: Cyware Watchlist API
   slug: cyware-watchlist-api
-- description: Webhooks
+- baseURL: https://demo.cyware.com/ctixapi
+  baseurl_source: declared
+  description: Webhooks
   name: Cyware Webhooks API
   slug: cyware-webhooks-api
 artifact_total: 76
@@ -432,7 +512,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:

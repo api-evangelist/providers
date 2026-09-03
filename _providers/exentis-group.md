@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,31 +45,47 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: The Posts API from Exentis Group — news, press releases and article records served as JSON by the WordPress REST API on www.exentis-group.com, filterable by date, slug, category and full text, and ava
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Posts API from Exentis Group — news, press releases and article records served as JSON by the WordPress REST API on www.exentis-group.com, filterable by date, slug, category and full text, and ava
   name: Exentis Group Posts API
   slug: exentis-group-posts-api
-- description: The Blog API from Exentis Group — the `blog` custom post type behind /en/media/blog/, served as JSON at the `blogposts` REST base and grouped by the `blogkategorie` taxonomy. 16 blog entries were read
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Blog API from Exentis Group — the `blog` custom post type behind /en/media/blog/, served as JSON at the `blogposts` REST base and grouped by the `blogkategorie` taxonomy. 16 blog entries were read
   name: Exentis Group Blog API
   slug: exentis-group-blog-api
-- description: The Pages API from Exentis Group — corporate website pages covering the 3D screen printing technology platform, materials, applications, certifications, sustainability, investors, careers and contact,
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Pages API from Exentis Group — corporate website pages covering the 3D screen printing technology platform, materials, applications, certifications, sustainability, investors, careers and contact,
   name: Exentis Group Pages API
   slug: exentis-group-pages-api
-- description: The Media API from Exentis Group — the media library of product photography, trade-fair assets, technical diagrams and documents attached to pages, posts and blog entries, with rendered source URLs, M
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Media API from Exentis Group — the media library of product photography, trade-fair assets, technical diagrams and documents attached to pages, posts and blog entries, with rendered source URLs, M
   name: Exentis Group Media API
   slug: exentis-group-media-api
-- description: The Categories API from Exentis Group — the `category` taxonomy that posts are filed under, with parent/child nesting and post counts. 27 categories were readable anonymously at probe time.
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Categories API from Exentis Group — the `category` taxonomy that posts are filed under, with parent/child nesting and post counts. 27 categories were readable anonymously at probe time.
   name: Exentis Group Categories API
   slug: exentis-group-categories-api
-- description: 'The Search API from Exentis Group — full-text search across every publicly readable object on www.exentis-group.com, returning id, title, url, type and subtype, filterable by object type and subtype. '
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: 'The Search API from Exentis Group — full-text search across every publicly readable object on www.exentis-group.com, returning id, title, url, type and subtype, filterable by object type and subtype. '
   name: Exentis Group Search API
   slug: exentis-group-search-api
-- description: The Languages API from Exentis Group — the Polylang language configuration for the site, returning locale, slug, default flag, home and search URLs and per-language content counts for German (de_CH, d
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Languages API from Exentis Group — the Polylang language configuration for the site, returning locale, slug, default flag, home and search URLs and per-language content counts for German (de_CH, d
   name: Exentis Group Languages API
   slug: exentis-group-languages-api
 - description: An MCP (Model Context Protocol) server endpoint mounted on www.exentis-group.com by the WordPress MCP adapter, alongside the WordPress Abilities API. The endpoint is really served — GET /wp-json/mcp e
   name: Exentis Group MCP Server
   slug: exentis-group-mcp-server
-- description: The Taxonomy API from Exentis Group — 2 operation(s) for taxonomy.
+- baseURL: https://www.exentis-group.com/wp-json
+  baseurl_source: declared
+  description: The Taxonomy API from Exentis Group — 2 operation(s) for taxonomy.
   name: Exentis Group Taxonomy API
   slug: exentis-group-taxonomy-api
 artifact_total: 23
@@ -257,7 +285,7 @@ score:
   band: emerging
   composite: 25.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -289,8 +317,9 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/screenshots/exentis-group-2026-09-02T145447.png
 security:
 - kind: authentication
   name: Exentis Group Authentication

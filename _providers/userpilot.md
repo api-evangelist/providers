@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 23 operations · 7 acting
 api_count: 2
 apis:
-- description: The Analytics API from Userpilot — 15 operation(s) for analytics.
+- baseURL: https://analytex.userpilot.io/v1
+  baseurl_source: declared
+  description: The Analytics API from Userpilot — 15 operation(s) for analytics.
   name: Userpilot Analytics API
   slug: userpilot-analytics-api
-- description: The Background Jobs API from Userpilot — 2 operation(s) for background jobs.
+- baseURL: https://analytex.userpilot.io/v1
+  baseurl_source: declared
+  description: The Background Jobs API from Userpilot — 2 operation(s) for background jobs.
   name: Userpilot Background Jobs API
   slug: userpilot-background-jobs-api
-- description: The Companies API from Userpilot — 2 operation(s) for companies.
+- baseURL: https://analytex.userpilot.io/v1
+  baseurl_source: declared
+  description: The Companies API from Userpilot — 2 operation(s) for companies.
   name: Userpilot Companies API
   slug: userpilot-companies-api
-- description: The Imports API from Userpilot — 1 operation(s) for imports.
+- baseURL: https://analytex.userpilot.io/v1
+  baseurl_source: declared
+  description: The Imports API from Userpilot — 1 operation(s) for imports.
   name: Userpilot Imports API
   slug: userpilot-imports-api
-- description: The Real-time API from Userpilot — 2 operation(s) for real-time.
+- baseURL: https://analytex.userpilot.io/v1
+  baseurl_source: declared
+  description: The Real-time API from Userpilot — 2 operation(s) for real-time.
   name: Userpilot Real-time API
   slug: userpilot-real-time-api
-- description: The Track API from Userpilot — 1 operation(s) for track.
+- baseURL: https://analytex.userpilot.io/v1
+  baseurl_source: declared
+  description: The Track API from Userpilot — 1 operation(s) for track.
   name: Userpilot Track API
   slug: userpilot-track-api
 artifact_total: 43
@@ -272,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/screenshots/userpilot-2026-06-20T200701.png
 security:

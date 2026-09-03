@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for the CloudGenix AppFabric / Cloud Controller — manage sites, elements (ION devices), WAN networks, application policies, and telemetry. Token-authenticated via the X-Auth-Token header.
@@ -104,7 +104,7 @@ score:
       reason: never_enriched
   previous_composite: 14.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudgenix/refs/heads/main/screenshots/cloudgenix-2026-07-25T205705.png
 security:

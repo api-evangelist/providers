@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 121 operations · 62 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: Endpoints for AI-powered job application features.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Endpoints for AI-powered job application features.
   name: Kombo AI Apply API
   slug: kombo-ai-apply-api
-- description: Custom integration-specific endpoints.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Custom integration-specific endpoints.
   name: Kombo Custom Endpoints API
   slug: kombo-custom-endpoints-api
-- description: The General API from Kombo — 12 operation(s) for general.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: The General API from Kombo — 12 operation(s) for general.
   name: Kombo General API
   slug: kombo-general-api
-- description: Endpoints for Kombo Connect, our end-user-facing flow for setting up new integrations.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Endpoints for Kombo Connect, our end-user-facing flow for setting up new integrations.
   name: Kombo Kombo Connect API
   slug: kombo-kombo-connect-api
-- description: Unified endpoints to access all the ATS concepts you might need.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Unified endpoints to access all the ATS concepts you might need.
   name: Kombo Unified ATS API API
   slug: kombo-unified-ats-api-api
-- description: Unified endpoints to operate Assessments and Background Checks for many applicant tracking systems.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Unified endpoints to operate Assessments and Background Checks for many applicant tracking systems.
   name: Kombo Unified ATS (Assessment & Background Check) API API
   slug: kombo-unified-ats-assessment-background-check-api-api
-- description: Unified endpoints to access all the HR concepts you might need.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Unified endpoints to access all the HR concepts you might need.
   name: Kombo Unified HRIS API API
   slug: kombo-unified-hris-api-api
-- description: Unified endpoints to access all the LMS concepts you might need.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: Unified endpoints to access all the LMS concepts you might need.
   name: Kombo Unified LMS API API
   slug: kombo-unified-lms-api-api
-- description: The Kombo API API from Kombo — 0 operation(s) for kombo api.
+- baseURL: https://api.kombo.dev
+  baseurl_source: declared
+  description: The Kombo API API from Kombo — 0 operation(s) for kombo api.
   name: Kombo Kombo API
   slug: kombo-kombo-api-api
 artifact_total: 671
@@ -2171,7 +2189,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/screenshots/kombo-2026-06-20T184122.png
 security:

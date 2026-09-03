@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 36 operations · 15 acting
 api_count: 1
 apis:
-- description: Appointments, class bookings, availabilities, and the waiting list.
+- baseURL: https://api.nookal.com/production/v2
+  baseurl_source: declared
+  description: Appointments, class bookings, availabilities, and the waiting list.
   name: Nookal Appointments API
   slug: nookal-appointments-api
-- description: Clinic reference data - locations, practitioners, and item/type lists.
+- baseURL: https://api.nookal.com/production/v2
+  baseurl_source: declared
+  description: Clinic reference data - locations, practitioners, and item/type lists.
   name: Nookal Clinic API
   slug: nookal-clinic-api
-- description: Invoices and their items, payments, credits, discounts, and refunds.
+- baseURL: https://api.nookal.com/production/v2
+  baseurl_source: declared
+  description: Invoices and their items, payments, credits, discounts, and refunds.
   name: Nookal Invoices API
   slug: nookal-invoices-api
-- description: Patient records, cases, treatment notes, and patient files.
+- baseURL: https://api.nookal.com/production/v2
+  baseurl_source: declared
+  description: Patient records, cases, treatment notes, and patient files.
   name: Nookal Patients API
   slug: nookal-patients-api
-- description: Verify that an API key is valid and connected to a Nookal account.
+- baseURL: https://api.nookal.com/production/v2
+  baseurl_source: declared
+  description: Verify that an API key is valid and connected to a Nookal account.
   name: Nookal Verification API
   slug: nookal-verification-api
 artifact_total: 18
@@ -189,7 +199,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nookal/refs/heads/main/screenshots/nookal-2026-08-07T185455.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -42,10 +42,14 @@ agentic_access:
   summary_line: 20 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Ops API from Expanso — 6 operation(s) for ops.
+- baseURL: https://cloud.expanso.io
+  baseurl_source: declared
+  description: The Ops API from Expanso — 6 operation(s) for ops.
   name: Expanso Ops API
   slug: expanso-ops-api
-- description: The Orchestrator API from Expanso — 11 operation(s) for orchestrator.
+- baseURL: https://cloud.expanso.io
+  baseurl_source: declared
+  description: The Orchestrator API from Expanso — 11 operation(s) for orchestrator.
   name: Expanso Orchestrator API
   slug: expanso-orchestrator-api
 artifact_total: 8
@@ -203,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/screenshots/expanso-2026-07-25T213913.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,88 +47,144 @@ apis:
 - description: Public, unauthenticated Open Data reference API conforming to the OBIE UK Open Banking Open Data standard (product reference data such as personal and business current accounts). Listed on Hampden & C
   name: Hampden & Co Open Data API
   slug: hampden-and-co-open-data-api
-- description: The Account Access Consents API from Hampden & Co — 2 operation(s) for account access consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Account Access Consents API from Hampden & Co — 2 operation(s) for account access consents.
   name: Hampden & Co Account Access Consents API
   slug: hampden-and-co-account-access-consents-api
-- description: The Accounts API from Hampden & Co — 2 operation(s) for accounts.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Accounts API from Hampden & Co — 2 operation(s) for accounts.
   name: Hampden & Co Accounts API
   slug: hampden-and-co-accounts-api
-- description: The Balances API from Hampden & Co — 2 operation(s) for balances.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Balances API from Hampden & Co — 2 operation(s) for balances.
   name: Hampden & Co Balances API
   slug: hampden-and-co-balances-api
-- description: The Beneficiaries API from Hampden & Co — 2 operation(s) for beneficiaries.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Beneficiaries API from Hampden & Co — 2 operation(s) for beneficiaries.
   name: Hampden & Co Beneficiaries API
   slug: hampden-and-co-beneficiaries-api
-- description: The Direct Debits API from Hampden & Co — 2 operation(s) for direct debits.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Direct Debits API from Hampden & Co — 2 operation(s) for direct debits.
   name: Hampden & Co Direct Debits API
   slug: hampden-and-co-direct-debits-api
-- description: The Domestic Payment Consents API from Hampden & Co — 3 operation(s) for domestic payment consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Hampden & Co — 3 operation(s) for domestic payment consents.
   name: Hampden & Co Domestic Payment Consents API
   slug: hampden-and-co-domestic-payment-consents-api
-- description: The Domestic Payments API from Hampden & Co — 3 operation(s) for domestic payments.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Domestic Payments API from Hampden & Co — 3 operation(s) for domestic payments.
   name: Hampden & Co Domestic Payments API
   slug: hampden-and-co-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Hampden & Co — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Hampden & Co — 2 operation(s) for domestic scheduled payment consents.
   name: Hampden & Co Domestic Scheduled Payment Consents API
   slug: hampden-and-co-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Hampden & Co — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Hampden & Co — 3 operation(s) for domestic scheduled payments.
   name: Hampden & Co Domestic Scheduled Payments API
   slug: hampden-and-co-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Hampden & Co — 2 operation(s) for domestic standing order consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Hampden & Co — 2 operation(s) for domestic standing order consents.
   name: Hampden & Co Domestic Standing Order Consents API
   slug: hampden-and-co-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Hampden & Co — 3 operation(s) for domestic standing orders.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Hampden & Co — 3 operation(s) for domestic standing orders.
   name: Hampden & Co Domestic Standing Orders API
   slug: hampden-and-co-domestic-standing-orders-api
-- description: The File Payment Consents API from Hampden & Co — 3 operation(s) for file payment consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The File Payment Consents API from Hampden & Co — 3 operation(s) for file payment consents.
   name: Hampden & Co File Payment Consents API
   slug: hampden-and-co-file-payment-consents-api
-- description: The File Payments API from Hampden & Co — 4 operation(s) for file payments.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The File Payments API from Hampden & Co — 4 operation(s) for file payments.
   name: Hampden & Co File Payments API
   slug: hampden-and-co-file-payments-api
-- description: The Funds Confirmation Consents API from Hampden & Co — 2 operation(s) for funds confirmation consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Hampden & Co — 2 operation(s) for funds confirmation consents.
   name: Hampden & Co Funds Confirmation Consents API
   slug: hampden-and-co-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Hampden & Co — 1 operation(s) for funds confirmations.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Funds Confirmations API from Hampden & Co — 1 operation(s) for funds confirmations.
   name: Hampden & Co Funds Confirmations API
   slug: hampden-and-co-funds-confirmations-api
-- description: The International Payment Consents API from Hampden & Co — 3 operation(s) for international payment consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The International Payment Consents API from Hampden & Co — 3 operation(s) for international payment consents.
   name: Hampden & Co International Payment Consents API
   slug: hampden-and-co-international-payment-consents-api
-- description: The International Payments API from Hampden & Co — 3 operation(s) for international payments.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The International Payments API from Hampden & Co — 3 operation(s) for international payments.
   name: Hampden & Co International Payments API
   slug: hampden-and-co-international-payments-api
-- description: The International Scheduled Payments API from Hampden & Co — 3 operation(s) for international scheduled payments.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Hampden & Co — 3 operation(s) for international scheduled payments.
   name: Hampden & Co International Scheduled Payments API
   slug: hampden-and-co-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Hampden & Co — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Hampden & Co — 3 operation(s) for international scheduled payments consents.
   name: Hampden & Co International Scheduled Payments Consents API
   slug: hampden-and-co-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Hampden & Co — 3 operation(s) for international standing orders.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The International Standing Orders API from Hampden & Co — 3 operation(s) for international standing orders.
   name: Hampden & Co International Standing Orders API
   slug: hampden-and-co-international-standing-orders-api
-- description: The International Standing Orders Consents API from Hampden & Co — 2 operation(s) for international standing orders consents.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Hampden & Co — 2 operation(s) for international standing orders consents.
   name: Hampden & Co International Standing Orders Consents API
   slug: hampden-and-co-international-standing-orders-consents-api
-- description: The Offers API from Hampden & Co — 2 operation(s) for offers.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Offers API from Hampden & Co — 2 operation(s) for offers.
   name: Hampden & Co Offers API
   slug: hampden-and-co-offers-api
-- description: The Parties API from Hampden & Co — 3 operation(s) for parties.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Parties API from Hampden & Co — 3 operation(s) for parties.
   name: Hampden & Co Parties API
   slug: hampden-and-co-parties-api
-- description: The Products API from Hampden & Co — 2 operation(s) for products.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Products API from Hampden & Co — 2 operation(s) for products.
   name: Hampden & Co Products API
   slug: hampden-and-co-products-api
-- description: The Scheduled Payments API from Hampden & Co — 2 operation(s) for scheduled payments.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Scheduled Payments API from Hampden & Co — 2 operation(s) for scheduled payments.
   name: Hampden & Co Scheduled Payments API
   slug: hampden-and-co-scheduled-payments-api
-- description: The Standing Orders API from Hampden & Co — 2 operation(s) for standing orders.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Standing Orders API from Hampden & Co — 2 operation(s) for standing orders.
   name: Hampden & Co Standing Orders API
   slug: hampden-and-co-standing-orders-api
-- description: The Statements API from Hampden & Co — 5 operation(s) for statements.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Statements API from Hampden & Co — 5 operation(s) for statements.
   name: Hampden & Co Statements API
   slug: hampden-and-co-statements-api
-- description: The Transactions API from Hampden & Co — 2 operation(s) for transactions.
+- baseURL: https://developer-sandbox.hampdendigital.com
+  baseurl_source: declared
+  description: The Transactions API from Hampden & Co — 2 operation(s) for transactions.
   name: Hampden & Co Transactions API
   slug: hampden-and-co-transactions-api
 artifact_total: 37
@@ -322,7 +378,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png
 security:

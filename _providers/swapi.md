@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: 'The Node/MongoDB community rebuild of SWAPI, maintained by @semperry at swapi.tech. Wraps the canonical SWAPI payloads inside `result.properties` envelopes and adds Discord/Reddit community surfaces. '
   name: SWAPI REST API (swapi.tech)
   slug: swapi-rest-api-swapitech
-- description: The Star Wars films (theatrical episodes I-VII supported by the canonical dataset).
+- baseURL: https://swapi.dev/api
+  baseurl_source: declared
+  description: The Star Wars films (theatrical episodes I-VII supported by the canonical dataset).
   name: SWAPI - Star Wars API Films API
   slug: swapi-films-api
-- description: Characters from the Star Wars universe (Luke Skywalker, Darth Vader, etc.).
+- baseURL: https://swapi.dev/api
+  baseurl_source: declared
+  description: Characters from the Star Wars universe (Luke Skywalker, Darth Vader, etc.).
   name: SWAPI - Star Wars API People API
   slug: swapi-people-api
-- description: Planets featured across the Star Wars films.
+- baseURL: https://swapi.dev/api
+  baseurl_source: declared
+  description: Planets featured across the Star Wars films.
   name: SWAPI - Star Wars API Planets API
   slug: swapi-planets-api
-- description: Sentient and non-sentient species of the Star Wars universe.
+- baseURL: https://swapi.dev/api
+  baseurl_source: declared
+  description: Sentient and non-sentient species of the Star Wars universe.
   name: SWAPI - Star Wars API Species API
   slug: swapi-species-api
-- description: Hyperdrive-capable starships (X-wings, Star Destroyers, Death Stars).
+- baseURL: https://swapi.dev/api
+  baseurl_source: declared
+  description: Hyperdrive-capable starships (X-wings, Star Destroyers, Death Stars).
   name: SWAPI - Star Wars API Starships API
   slug: swapi-starships-api
-- description: Non-hyperdrive vehicles (AT-ATs, snowspeeders, sand crawlers).
+- baseURL: https://swapi.dev/api
+  baseurl_source: declared
+  description: Non-hyperdrive vehicles (AT-ATs, snowspeeders, sand crawlers).
   name: SWAPI - Star Wars API Vehicles API
   slug: swapi-vehicles-api
 artifact_total: 43
@@ -327,7 +339,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/screenshots/swapi-2026-06-20T194754.png
 security:

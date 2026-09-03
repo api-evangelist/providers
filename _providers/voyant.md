@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -46,298 +46,494 @@ apis:
 - description: Hosted Model Context Protocol server (`voyant-mcp` 1.1.0) exposing 15 tools that let an agent client pull the organization's brand context, persona/funnel-modulated context, positioning, messaging, pe
   name: Voyant MCP Server
   slug: voyant-mcp-server
-- description: Super admin endpoints for platform management.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Super admin endpoints for platform management.
   name: Voyant.io Admin API
   slug: voyant-admin-api
-- description: Data migration and import tools.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Data migration and import tools.
   name: Voyant.io Admin Migration API
   slug: voyant-admin-migration-api
-- description: Conversational AI with full brand context. Chat interface for content generation and Q&A.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Conversational AI with full brand context. Chat interface for content generation and Q&A.
   name: Voyant.io AI Assistant API
   slug: voyant-ai-assistant-api
-- description: AirOps integration for workflow automation.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: AirOps integration for workflow automation.
   name: Voyant.io Airops API
   slug: voyant-airops-api
-- description: Platform analytics and usage metrics.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Platform analytics and usage metrics.
   name: Voyant.io Analytics API
   slug: voyant-analytics-api
-- description: API key management for programmatic access and AI agents.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: API key management for programmatic access and AI agents.
   name: Voyant.io API Keys API
   slug: voyant-api-keys-api
-- description: The Attribution API from Voyant.io — 5 operation(s) for attribution.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Attribution API from Voyant.io — 5 operation(s) for attribution.
   name: Voyant.io Attribution API
   slug: voyant-attribution-api
-- description: Connect signals to pipeline. Track which content and channels drive deals.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Connect signals to pipeline. Track which content and channels drive deals.
   name: Voyant.io Attribution Intelligence API
   slug: voyant-attribution-intelligence-api
-- description: The Auth API from Voyant.io — 2 operation(s) for auth.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Auth API from Voyant.io — 2 operation(s) for auth.
   name: Voyant.io Auth API
   slug: voyant-auth-api
-- description: AI-generated competitive battlecards with objection handling and differentiators.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: AI-generated competitive battlecards with objection handling and differentiators.
   name: Voyant.io Battlecards API
   slug: voyant-battlecards-api
-- description: Initialize a new organization with default context streams.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Initialize a new organization with default context streams.
   name: Voyant.io Bootstrap API
   slug: voyant-bootstrap-api
-- description: Terminology rules, voice guidelines, and compliance checks. Ensure consistent brand language.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Terminology rules, voice guidelines, and compliance checks. Ensure consistent brand language.
   name: Voyant.io Brand Standards API
   slug: voyant-brand-standards-api
-- description: Marketing campaign management
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Marketing campaign management
   name: Voyant.io Campaigns API
   slug: voyant-campaigns-api
-- description: The Capture Session API from Voyant.io — 1 operation(s) for capture session.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Capture Session API from Voyant.io — 1 operation(s) for capture session.
   name: Voyant.io Capture Session API
   slug: voyant-capture-session-api
-- description: Brand-aware AI chat
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Brand-aware AI chat
   name: Voyant.io Chat API
   slug: voyant-chat-api
-- description: 'Executive-level metrics: AI readiness score, signal pulse, pipeline attribution.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'Executive-level metrics: AI readiness score, signal pulse, pipeline attribution.'
   name: Voyant.io Cmo Intelligence API
   slug: voyant-cmo-intelligence-api
-- description: CNCF Landscape data for cloud-native ecosystem context.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: CNCF Landscape data for cloud-native ecosystem context.
   name: Voyant.io Cncf Landscape API
   slug: voyant-cncf-landscape-api
-- description: Real-time dashboard with live visitor feed and signal alerts.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Real-time dashboard with live visitor feed and signal alerts.
   name: Voyant.io Command Center API
   slug: voyant-command-center-api
-- description: The Companies API from Voyant.io — 7 operation(s) for companies.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Companies API from Voyant.io — 7 operation(s) for companies.
   name: Voyant.io Companies API
   slug: voyant-companies-api
-- description: Automated competitor monitoring. Track positioning, messaging, and market moves.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Automated competitor monitoring. Track positioning, messaging, and market moves.
   name: Voyant.io Competitive Intelligence API
   slug: voyant-competitive-intelligence-api
-- description: Deep competitor analysis including feature comparisons and win/loss patterns.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Deep competitor analysis including feature comparisons and win/loss patterns.
   name: Voyant.io Competitor Intelligence API
   slug: voyant-competitor-intelligence-api
-- description: Content performance tracking. Monitor engagement, reach, and effectiveness across platforms.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Content performance tracking. Monitor engagement, reach, and effectiveness across platforms.
   name: Voyant.io Content Analytics API
   slug: voyant-content-analytics-api
-- description: Export content in various formats (Markdown, JSON, PDF) for use in other tools.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Export content in various formats (Markdown, JSON, PDF) for use in other tools.
   name: Voyant.io Content Export API
   slug: voyant-content-export-api
-- description: Semantic search across all crawled and uploaded content.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Semantic search across all crawled and uploaded content.
   name: Voyant.io Content Search API
   slug: voyant-content-search-api
-- description: Content versioning and history. Track changes and roll back to previous versions.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Content versioning and history. Track changes and roll back to previous versions.
   name: Voyant.io Content Versions API
   slug: voyant-content-versions-api
-- description: Extracted writing style characteristics. Analyze and replicate your brand's unique voice.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Extracted writing style characteristics. Analyze and replicate your brand's unique voice.
   name: Voyant.io Content Voices API
   slug: voyant-content-voices-api
-- description: Brand context retrieval (messaging, personas, positioning, etc.)
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Brand context retrieval (messaging, personas, positioning, etc.)
   name: Voyant.io Context API
   slug: voyant-context-api
-- description: Ontology and provenance tracking. Explore relationships between entities in your context graph.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Ontology and provenance tracking. Explore relationships between entities in your context graph.
   name: Voyant.io Context Graph API
   slug: voyant-context-graph-api
-- description: Context streams and brand knowledge management. Create, update, and query your organization's unified knowledge base.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Context streams and brand knowledge management. Create, update, and query your organization's unified knowledge base.
   name: Voyant.io Context Intelligence API
   slug: voyant-context-intelligence-api
-- description: Shape context output by persona, funnel stage, or use case. Dynamically adjust messaging for different audiences.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Shape context output by persona, funnel stage, or use case. Dynamically adjust messaging for different audiences.
   name: Voyant.io Context Modulators API
   slug: voyant-context-modulators-api
-- description: Individual context stream management. Each stream represents a category of brand knowledge.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Individual context stream management. Each stream represents a category of brand knowledge.
   name: Voyant.io Context Streams API
   slug: voyant-context-streams-api
-- description: Real-time context streaming via Kafka-compatible brokers (Redpanda). Publish and subscribe to context updates.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Real-time context streaming via Kafka-compatible brokers (Redpanda). Publish and subscribe to context updates.
   name: Voyant.io Context Streams Streaming API
   slug: voyant-context-streams-streaming-api
-- description: Website crawling and content extraction. Ingest web pages, blogs, and documentation.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Website crawling and content extraction. Ingest web pages, blogs, and documentation.
   name: Voyant.io Crawler API
   slug: voyant-crawler-api
-- description: CRM integrations for syncing contacts, companies, and deal data.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: CRM integrations for syncing contacts, companies, and deal data.
   name: Voyant.io CRM API
   slug: voyant-crm-api
-- description: CRM data as a context stream. Query deal history, contact info, and account context.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: CRM data as a context stream. Query deal history, contact info, and account context.
   name: Voyant.io CRM Context Stream API
   slug: voyant-crm-context-stream-api
-- description: The Dashboard API from Voyant.io — 13 operation(s) for dashboard.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Dashboard API from Voyant.io — 13 operation(s) for dashboard.
   name: Voyant.io Dashboard API
   slug: voyant-dashboard-api
-- description: Developer Experience Optimization - track AI agent interactions, RAG queries, and tool integrations with your content.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Developer Experience Optimization - track AI agent interactions, RAG queries, and tool integrations with your content.
   name: Voyant.io DEO Signals API
   slug: voyant-deo-signals-api
-- description: One-time discovery runs and results.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: One-time discovery runs and results.
   name: Voyant.io Discovery API
   slug: voyant-discovery-api
-- description: Domain management for crawling and monitoring.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Domain management for crawling and monitoring.
   name: Voyant.io Domains API
   slug: voyant-domains-api
-- description: Advanced RAG with multi-source retrieval, re-ranking, and context fusion.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Advanced RAG with multi-source retrieval, re-ranking, and context fusion.
   name: Voyant.io Enhanced RAG API
   slug: voyant-enhanced-rag-api
-- description: General export functionality.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: General export functionality.
   name: Voyant.io Export API
   slug: voyant-export-api
-- description: 'G2 Crowd review monitoring: ratings, review sentiment, competitive comparisons, and category positioning.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'G2 Crowd review monitoring: ratings, review sentiment, competitive comparisons, and category positioning.'
   name: Voyant.io G2 API
   slug: voyant-g2-api
-- description: Generative Engine Optimization - monitor your visibility in AI search engines (ChatGPT, Claude, Perplexity).
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Generative Engine Optimization - monitor your visibility in AI search engines (ChatGPT, Claude, Perplexity).
   name: Voyant.io GEO/AEO API
   slug: voyant-geo-aeo-api
-- description: Advanced GEO analytics with Google Search Console integration.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Advanced GEO analytics with Google Search Console integration.
   name: Voyant.io GEO Intelligence API
   slug: voyant-geo-intelligence-api
-- description: The Get Session API from Voyant.io — 1 operation(s) for get session.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Get Session API from Voyant.io — 1 operation(s) for get session.
   name: Voyant.io Get Session API
   slug: voyant-get-session-api
-- description: 'GitHub organization analysis: stars, forks, contributors, repository health, issue sentiment, and developer activity.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'GitHub organization analysis: stars, forks, contributors, repository health, issue sentiment, and developer activity.'
   name: Voyant.io Github Org Intelligence API
   slug: voyant-github-org-intelligence-api
-- description: Google OAuth for Drive and Analytics integrations.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Google OAuth for Drive and Analytics integrations.
   name: Voyant.io Google Auth API
   slug: voyant-google-auth-api
-- description: GSC integration for search performance data.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: GSC integration for search performance data.
   name: Voyant.io Google Search Console API
   slug: voyant-google-search-console-api
-- description: Content governance rules and approval workflows.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Content governance rules and approval workflows.
   name: Voyant.io Governance API
   slug: voyant-governance-api
-- description: Government contract signals from SAM.gov, FERC filings, and federal opportunity tracking.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Government contract signals from SAM.gov, FERC filings, and federal opportunity tracking.
   name: Voyant.io Government Signals API
   slug: voyant-government-signals-api
-- description: HackerNews front page monitoring, Show HN tracking, comment sentiment, and discussion threads.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: HackerNews front page monitoring, Show HN tracking, comment sentiment, and discussion threads.
   name: Voyant.io Hackernews Signals API
   slug: voyant-hackernews-signals-api
-- description: Service health and status
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Service health and status
   name: Voyant.io Health API
   slug: voyant-health-api
-- description: 'HubSpot CRM integration: contacts, companies, deals, and engagement.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'HubSpot CRM integration: contacts, companies, deals, and engagement.'
   name: Voyant.io Hubspot API
   slug: voyant-hubspot-api
-- description: HubSpot OAuth authentication flow.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: HubSpot OAuth authentication flow.
   name: Voyant.io Hubspot Auth API
   slug: voyant-hubspot-auth-api
-- description: Ideal Customer Profile management
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Ideal Customer Profile management
   name: Voyant.io Icp API
   slug: voyant-icp-api
-- description: Generate optimized prompts for various AI models.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Generate optimized prompts for various AI models.
   name: Voyant.io Intelligent Prompt Generation API
   slug: voyant-intelligent-prompt-generation-api
-- description: Analyze leadership team presence and thought leadership visibility.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Analyze leadership team presence and thought leadership visibility.
   name: Voyant.io Leadership Audit API
   slug: voyant-leadership-audit-api
-- description: LinkedIn data extraction via browser automation.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: LinkedIn data extraction via browser automation.
   name: Voyant.io Linkedin Playwright API
   slug: voyant-linkedin-playwright-api
-- description: The Linkedin Signals API from Voyant.io — 12 operation(s) for linkedin signals.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Linkedin Signals API from Voyant.io — 12 operation(s) for linkedin signals.
   name: Voyant.io Linkedin Signals API
   slug: voyant-linkedin-signals-api
-- description: Export context in LLM-friendly formats.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Export context in LLM-friendly formats.
   name: Voyant.io Llm Exports API
   slug: voyant-llm-exports-api
-- description: Lusha contact enrichment for lead data.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Lusha contact enrichment for lead data.
   name: Voyant.io Lusha Intelligence API
   slug: voyant-lusha-intelligence-api
-- description: Model Context Protocol server. Expose your context to AI agents (Claude Code, Cursor, etc).
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Model Context Protocol server. Expose your context to AI agents (Claude Code, Cursor, etc).
   name: Voyant.io MCP API
   slug: voyant-mcp-api
-- description: 'Core GTM messaging assets: personas, products, use cases, positioning, and value propositions.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'Core GTM messaging assets: personas, products, use cases, positioning, and value propositions.'
   name: Voyant.io Messaging Framework API
   slug: voyant-messaging-framework-api
-- description: Notion workspace integration for content sync.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Notion workspace integration for content sync.
   name: Voyant.io Notion API
   slug: voyant-notion-api
-- description: Notion OAuth authentication flow.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Notion OAuth authentication flow.
   name: Voyant.io Notion Auth API
   slug: voyant-notion-auth-api
-- description: AI-assisted onboarding. Generate messaging framework from your website.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: AI-assisted onboarding. Generate messaging framework from your website.
   name: Voyant.io Onboarding Wizard API
   slug: voyant-onboarding-wizard-api
-- description: The ontology API from Voyant.io — 3 operation(s) for ontology.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The ontology API from Voyant.io — 3 operation(s) for ontology.
   name: Voyant.io Ontology API
   slug: voyant-ontology-api
-- description: 'Organization settings: domain, company name, preferences.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'Organization settings: domain, company name, preferences.'
   name: Voyant.io Org Settings API
   slug: voyant-org-settings-api
-- description: PDF upload and processing. Extract text and structure from documents.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: PDF upload and processing. Extract text and structure from documents.
   name: Voyant.io PD Fs API
   slug: voyant-pdfs-api
-- description: Pipeline framework for multi-step agent workflows (Blueprints).
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Pipeline framework for multi-step agent workflows (Blueprints).
   name: Voyant.io Pipeline API
   slug: voyant-pipeline-api
-- description: Generate pitch decks from website content and context.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Generate pitch decks from website content and context.
   name: Voyant.io Pitch Deck Generator API
   slug: voyant-pitch-deck-generator-api
-- description: 'GTM playbooks: sequences, triggers, and automated workflows.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'GTM playbooks: sequences, triggers, and automated workflows.'
   name: Voyant.io Playbooks API
   slug: voyant-playbooks-api
-- description: The Rag API from Voyant.io — 7 operation(s) for rag.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Rag API from Voyant.io — 7 operation(s) for rag.
   name: Voyant.io Rag API
   slug: voyant-rag-api
-- description: Reddit monitoring across subreddits. Track brand mentions, competitor discussions, and community sentiment.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Reddit monitoring across subreddits. Track brand mentions, competitor discussions, and community sentiment.
   name: Voyant.io Reddit Lite Signals API
   slug: voyant-reddit-lite-signals-api
-- description: Marketing resource management
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Marketing resource management
   name: Voyant.io Resources API
   slug: voyant-resources-api
-- description: The Session Status API from Voyant.io — 1 operation(s) for session status.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Session Status API from Voyant.io — 1 operation(s) for session status.
   name: Voyant.io Session Status API
   slug: voyant-session-status-api
-- description: 'Unified signal ingestion across 10+ platforms: GitHub, Reddit, HackerNews, LinkedIn, Discord, Twitter/X, ProductHunt, Slack, YouTube, G2, and government sources (SAM.gov, FERC).'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'Unified signal ingestion across 10+ platforms: GitHub, Reddit, HackerNews, LinkedIn, Discord, Twitter/X, ProductHunt, Slack, YouTube, G2, and government sources (SAM.gov, FERC).'
   name: Voyant.io Signals API
   slug: voyant-signals-api
-- description: Discord server monitoring for developer communities. Track mentions and community discussions.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Discord server monitoring for developer communities. Track mentions and community discussions.
   name: Voyant.io Signals Discord API
   slug: voyant-signals-discord-api
-- description: Streamlined 5-step onboarding flow.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Streamlined 5-step onboarding flow.
   name: Voyant.io Simple Onboarding API
   slug: voyant-simple-onboarding-api
-- description: The Strategy Pipeline API from Voyant.io — 8 operation(s) for strategy pipeline.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Strategy Pipeline API from Voyant.io — 8 operation(s) for strategy pipeline.
   name: Voyant.io Strategy Pipeline API
   slug: voyant-strategy-pipeline-api
-- description: Server-sent events for real-time updates.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Server-sent events for real-time updates.
   name: Voyant.io Stream API
   slug: voyant-stream-api
-- description: Organization data synchronization
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Organization data synchronization
   name: Voyant.io Sync API
   slug: voyant-sync-api
-- description: Account and contact intelligence. Build and enrich your target account list.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Account and contact intelligence. Build and enrich your target account list.
   name: Voyant.io Target Graph API
   slug: voyant-target-graph-api
-- description: Target graph queries and relationship mapping.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Target graph queries and relationship mapping.
   name: Voyant.io Targetgraph API
   slug: voyant-targetgraph-api
-- description: The Targets API from Voyant.io — 1 operation(s) for targets.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Targets API from Voyant.io — 1 operation(s) for targets.
   name: Voyant.io Targets API
   slug: voyant-targets-api
-- description: Site visitor tracking with IP geolocation and company enrichment. Identify anonymous visitors.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Site visitor tracking with IP geolocation and company enrichment. Identify anonymous visitors.
   name: Voyant.io Telemetry API
   slug: voyant-telemetry-api
-- description: The Templates API from Voyant.io — 5 operation(s) for templates.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Templates API from Voyant.io — 5 operation(s) for templates.
   name: Voyant.io Templates API
   slug: voyant-templates-api
-- description: The Test Search API from Voyant.io — 1 operation(s) for test search.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The Test Search API from Voyant.io — 1 operation(s) for test search.
   name: Voyant.io Test Search API
   slug: voyant-test-search-api
-- description: Automated discovery across all signal platforms. Schedule and manage discovery jobs.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Automated discovery across all signal platforms. Schedule and manage discovery jobs.
   name: Voyant.io Unified Discovery API
   slug: voyant-unified-discovery-api
-- description: AI video script generation and storyboarding.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: AI video script generation and storyboarding.
   name: Voyant.io Video Generation API
   slug: voyant-video-generation-api
-- description: Generate video scripts from your brand context.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Generate video scripts from your brand context.
   name: Voyant.io Video Script Generation API
   slug: voyant-video-script-generation-api
-- description: Manage and version video scripts.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Manage and version video scripts.
   name: Voyant.io Video Script Management API
   slug: voyant-video-script-management-api
-- description: Train custom voice models on your brand content.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Train custom voice models on your brand content.
   name: Voyant.io Voice Training API
   slug: voyant-voice-training-api
-- description: The VoyantIO API API from Voyant.io — 2 operation(s) for voyantio api.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: The VoyantIO API API from Voyant.io — 2 operation(s) for voyantio api.
   name: Voyant.io VoyantIO API
   slug: voyant-voyantio-api-api
-- description: Webflow site management and content publishing.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Webflow site management and content publishing.
   name: Voyant.io Webflow API
   slug: voyant-webflow-api
-- description: Webflow OAuth authentication flow.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Webflow OAuth authentication flow.
   name: Voyant.io Webflow Auth API
   slug: voyant-webflow-auth-api
-- description: Generate llms.txt, context.txt, and agents.json for AI discoverability.
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: Generate llms.txt, context.txt, and agents.json for AI discoverability.
   name: Voyant.io Well Known API
   slug: voyant-well-known-api
-- description: 'YouTube video tracking: tutorials, reviews, mentions, and developer content about your product.'
+- baseURL: https://voice-forge-production.up.railway.app
+  baseurl_source: declared
+  description: 'YouTube video tracking: tutorials, reviews, mentions, and developer content about your product.'
   name: Voyant.io Youtube Signals API
   slug: voyant-youtube-signals-api
 artifact_total: 107
@@ -498,7 +694,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -508,7 +704,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 40.9
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -520,7 +716,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png
 security:

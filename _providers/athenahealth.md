@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -52,70 +52,114 @@ apis:
 - description: FHIR API Server for athenaPractice and athenaFlow products, enabling developers to build integrations with athenahealth's on-premise and hybrid deployment products using FHIR R4 standards.
   name: athenaFlex (athenaPractice/athenaFlow) API
   slug: athenaflex-api
-- description: The AllergyIntolerance API from athenahealth — 1 operation(s) for allergyintolerance.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The AllergyIntolerance API from athenahealth — 1 operation(s) for allergyintolerance.
   name: athenahealth AllergyIntolerance API
   slug: athena-health-allergyintolerance-api
-- description: The Appointment API from athenahealth — 1 operation(s) for appointment.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Appointment API from athenahealth — 1 operation(s) for appointment.
   name: athenahealth Appointment API
   slug: athena-health-appointment-api
-- description: The Appointments API from athenahealth — 6 operation(s) for appointments.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Appointments API from athenahealth — 6 operation(s) for appointments.
   name: athenahealth Appointments API
   slug: athena-health-appointments-api
-- description: The Bulk Data API from athenahealth — 2 operation(s) for bulk data.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Bulk Data API from athenahealth — 2 operation(s) for bulk data.
   name: athenahealth Bulk Data API
   slug: athena-health-bulk-data-api
-- description: The CDS Hooks API from athenahealth — 2 operation(s) for cds hooks.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The CDS Hooks API from athenahealth — 2 operation(s) for cds hooks.
   name: athenahealth CDS Hooks API
   slug: athena-health-cds-hooks-api
-- description: The Claims API from athenahealth — 1 operation(s) for claims.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Claims API from athenahealth — 1 operation(s) for claims.
   name: athenahealth Claims API
   slug: athena-health-claims-api
-- description: The Condition API from athenahealth — 1 operation(s) for condition.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Condition API from athenahealth — 1 operation(s) for condition.
   name: athenahealth Condition API
   slug: athena-health-condition-api
-- description: The Conformance API from athenahealth — 1 operation(s) for conformance.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Conformance API from athenahealth — 1 operation(s) for conformance.
   name: athenahealth Conformance API
   slug: athena-health-conformance-api
-- description: The Departments API from athenahealth — 1 operation(s) for departments.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Departments API from athenahealth — 1 operation(s) for departments.
   name: athenahealth Departments API
   slug: athena-health-departments-api
-- description: The DiagnosticReport API from athenahealth — 1 operation(s) for diagnosticreport.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The DiagnosticReport API from athenahealth — 1 operation(s) for diagnosticreport.
   name: athenahealth DiagnosticReport API
   slug: athena-health-diagnosticreport-api
-- description: The DocumentReference API from athenahealth — 1 operation(s) for documentreference.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The DocumentReference API from athenahealth — 1 operation(s) for documentreference.
   name: athenahealth DocumentReference API
   slug: athena-health-documentreference-api
-- description: The Documents API from athenahealth — 1 operation(s) for documents.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Documents API from athenahealth — 1 operation(s) for documents.
   name: athenahealth Documents API
   slug: athena-health-documents-api
-- description: The Encounter API from athenahealth — 2 operation(s) for encounter.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Encounter API from athenahealth — 2 operation(s) for encounter.
   name: athenahealth Encounter API
   slug: athena-health-encounter-api
-- description: The Encounters API from athenahealth — 2 operation(s) for encounters.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Encounters API from athenahealth — 2 operation(s) for encounters.
   name: athenahealth Encounters API
   slug: athena-health-encounters-api
-- description: The Immunization API from athenahealth — 1 operation(s) for immunization.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Immunization API from athenahealth — 1 operation(s) for immunization.
   name: athenahealth Immunization API
   slug: athena-health-immunization-api
-- description: The MedicationRequest API from athenahealth — 1 operation(s) for medicationrequest.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The MedicationRequest API from athenahealth — 1 operation(s) for medicationrequest.
   name: athenahealth MedicationRequest API
   slug: athena-health-medicationrequest-api
-- description: The Observation API from athenahealth — 1 operation(s) for observation.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Observation API from athenahealth — 1 operation(s) for observation.
   name: athenahealth Observation API
   slug: athena-health-observation-api
-- description: The Patient API from athenahealth — 2 operation(s) for patient.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Patient API from athenahealth — 2 operation(s) for patient.
   name: athenahealth Patient API
   slug: athena-health-patient-api
-- description: The Patients API from athenahealth — 2 operation(s) for patients.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Patients API from athenahealth — 2 operation(s) for patients.
   name: athenahealth Patients API
   slug: athena-health-patients-api
-- description: The Practice API from athenahealth — 1 operation(s) for practice.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Practice API from athenahealth — 1 operation(s) for practice.
   name: athenahealth Practice API
   slug: athena-health-practice-api
-- description: The Providers API from athenahealth — 1 operation(s) for providers.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Providers API from athenahealth — 1 operation(s) for providers.
   name: athenahealth Providers API
   slug: athena-health-providers-api
-- description: The Subscription API from athenahealth — 3 operation(s) for subscription.
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Subscription API from athenahealth — 3 operation(s) for subscription.
   name: athenahealth Subscription API
   slug: athena-health-subscription-api
 artifact_total: 72
@@ -626,7 +670,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -636,7 +680,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 42.1
-  previous_composite: 77.6
+  previous_composite: 77.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -654,7 +698,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:

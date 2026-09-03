@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 23 operations · 13 acting
 api_count: 7
 apis:
-- description: The Appointments API from Microsoft Bookings — 3 operation(s) for appointments.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The Appointments API from Microsoft Bookings — 3 operation(s) for appointments.
   name: Microsoft Bookings Appointments API
   slug: microsoft-bookings-appointments-api
-- description: The BookingBusinesses API from Microsoft Bookings — 4 operation(s) for bookingbusinesses.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The BookingBusinesses API from Microsoft Bookings — 4 operation(s) for bookingbusinesses.
   name: Microsoft Bookings BookingBusinesses API
   slug: microsoft-bookings-bookingbusinesses-api
-- description: The Currencies API from Microsoft Bookings — 1 operation(s) for currencies.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The Currencies API from Microsoft Bookings — 1 operation(s) for currencies.
   name: Microsoft Bookings Currencies API
   slug: microsoft-bookings-currencies-api
-- description: The Customers API from Microsoft Bookings — 1 operation(s) for customers.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The Customers API from Microsoft Bookings — 1 operation(s) for customers.
   name: Microsoft Bookings Customers API
   slug: microsoft-bookings-customers-api
-- description: The CustomQuestions API from Microsoft Bookings — 1 operation(s) for customquestions.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The CustomQuestions API from Microsoft Bookings — 1 operation(s) for customquestions.
   name: Microsoft Bookings CustomQuestions API
   slug: microsoft-bookings-customquestions-api
-- description: The Services API from Microsoft Bookings — 2 operation(s) for services.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The Services API from Microsoft Bookings — 2 operation(s) for services.
   name: Microsoft Bookings Services API
   slug: microsoft-bookings-services-api
-- description: The StaffMembers API from Microsoft Bookings — 1 operation(s) for staffmembers.
+- baseURL: https://graph.microsoft.com/
+  baseurl_source: declared
+  description: The StaffMembers API from Microsoft Bookings — 1 operation(s) for staffmembers.
   name: Microsoft Bookings StaffMembers API
   slug: microsoft-bookings-staffmembers-api
 artifact_total: 23
@@ -187,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/screenshots/microsoft-bookings-2026-06-20T185445.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: Poll the status of asynchronous conversion jobs.
+- baseURL: https://bff.listnr.tech/api/tts/v1
+  baseurl_source: declared
+  description: Poll the status of asynchronous conversion jobs.
   name: Listnr Jobs API
   slug: listnr-jobs-api
-- description: Convert SSML text or an article URL into audio.
+- baseURL: https://bff.listnr.tech/api/tts/v1
+  baseurl_source: declared
+  description: Convert SSML text or an article URL into audio.
   name: Listnr Text-to-Speech API
   slug: listnr-text-to-speech-api
-- description: List the AI voices available on Listnr.
+- baseURL: https://bff.listnr.tech/api/tts/v1
+  baseurl_source: declared
+  description: List the AI voices available on Listnr.
   name: Listnr Voices API
   slug: listnr-voices-api
 artifact_total: 14
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listnr/refs/heads/main/screenshots/listnr-2026-07-25T225328.png
 security:

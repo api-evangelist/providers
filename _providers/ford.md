@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -50,22 +50,34 @@ apis:
 - description: With this API, authorized external parties can retrieve WLTP values based on a specific vehicle configuration.
   name: Ford WLTP Emissions
   slug: ford-wltp-emissions
-- description: The Charging API from Ford — 4 operation(s) for charging.
+- baseURL: https://api.mps.ford.com
+  baseurl_source: spec
+  description: The Charging API from Ford — 4 operation(s) for charging.
   name: Ford Charging API
   slug: ford-charging-api
-- description: The Commands API from Ford — 7 operation(s) for commands.
+- baseURL: https://api.mps.ford.com
+  baseurl_source: spec
+  description: The Commands API from Ford — 7 operation(s) for commands.
   name: Ford Commands API
   slug: ford-commands-api
-- description: The Images API from Ford — 2 operation(s) for images.
+- baseURL: https://api.mps.ford.com
+  baseurl_source: spec
+  description: The Images API from Ford — 2 operation(s) for images.
   name: Ford Images API
   slug: ford-images-api
-- description: The OAuth API from Ford — 1 operation(s) for oauth.
+- baseURL: https://api.mps.ford.com
+  baseurl_source: spec
+  description: The OAuth API from Ford — 1 operation(s) for oauth.
   name: Ford OAuth API
   slug: ford-oauth-api
-- description: The Status API from Ford — 2 operation(s) for status.
+- baseURL: https://api.mps.ford.com
+  baseurl_source: spec
+  description: The Status API from Ford — 2 operation(s) for status.
   name: Ford Status API
   slug: ford-status-api
-- description: The Vehicles API from Ford — 2 operation(s) for vehicles.
+- baseURL: https://api.mps.ford.com
+  baseurl_source: spec
+  description: The Vehicles API from Ford — 2 operation(s) for vehicles.
   name: Ford Vehicles API
   slug: ford-vehicles-api
 artifact_total: 24
@@ -200,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png
 security:

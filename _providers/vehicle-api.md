@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 7 operations
 api_count: 7
 apis:
-- description: Dealer vehicle inventory
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: Dealer vehicle inventory
   name: Vehicle API Inventory API
   slug: vehicle-api-inventory-api
-- description: Vehicle manufacturer make data
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: Vehicle manufacturer make data
   name: Vehicle API Makes API
   slug: vehicle-api-makes-api
-- description: Vehicle photos and videos
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: Vehicle photos and videos
   name: Vehicle API Media API
   slug: vehicle-api-media-api
-- description: Vehicle model information
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: Vehicle model information
   name: Vehicle API Models API
   slug: vehicle-api-models-api
-- description: True Market Value pricing data
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: True Market Value pricing data
   name: Vehicle API Pricing API
   slug: vehicle-api-pricing-api
-- description: Vehicle technical specifications
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: Vehicle technical specifications
   name: Vehicle API Specs API
   slug: vehicle-api-specs-api
-- description: Vehicle trim and style configurations
+- baseURL: https://api.edmunds.com/api
+  baseurl_source: spec
+  description: Vehicle trim and style configurations
   name: Vehicle API Styles API
   slug: vehicle-api-styles-api
 artifact_total: 61
@@ -311,7 +325,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/screenshots/vehicle-api-2026-06-20T200854.png
 security:

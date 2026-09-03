@@ -34,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Attenuation setpoint control
+- baseURL: http://192.168.0.95
+  baseurl_source: declared
+  description: Attenuation setpoint control
   name: Nine Fives Attenuator API
   slug: nine-fives-attenuator-api
-- description: Firmware status and dual-slot (A/B) updates
+- baseURL: http://192.168.0.95
+  baseurl_source: declared
+  description: Firmware status and dual-slot (A/B) updates
   name: Nine Fives Firmware API
   slug: nine-fives-firmware-api
-- description: Ethernet and USB-C interface configuration
+- baseURL: http://192.168.0.95
+  baseurl_source: declared
+  description: Ethernet and USB-C interface configuration
   name: Nine Fives Network API
   slug: nine-fives-network-api
-- description: SPDT switch state control
+- baseURL: http://192.168.0.95
+  baseurl_source: declared
+  description: SPDT switch state control
   name: Nine Fives Switch API
   slug: nine-fives-switch-api
-- description: Device status and reboot
+- baseURL: http://192.168.0.95
+  baseurl_source: declared
+  description: Device status and reboot
   name: Nine Fives System API
   slug: nine-fives-system-api
 artifact_total: 14
@@ -182,7 +192,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -8.6
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -192,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 38.3
+  previous_composite: 29.7
   provenance:
     conformance: first-party
     contracts:
@@ -203,8 +213,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nine-fives/refs/heads/main/screenshots/nine-fives-2026-08-07T185318.png
 security:
 - kind: authentication

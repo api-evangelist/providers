@@ -34,118 +34,192 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Administrative reporting routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Administrative reporting routes.
   name: Openwork Admin API
   slug: openwork-admin-api
-- description: Organization API key management routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization API key management routes.
   name: Openwork API Keys API
   slug: openwork-api-keys-api
-- description: The Auth API from Openwork — 11 operation(s) for auth.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Auth API from Openwork — 11 operation(s) for auth.
   name: Openwork Auth API
   slug: openwork-auth-api
-- description: The Authentication API from Openwork — 19 operation(s) for authentication.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Authentication API from Openwork — 19 operation(s) for authentication.
   name: Openwork Authentication API
   slug: openwork-authentication-api
-- description: Agent-first provisional workspace setup routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Agent-first provisional workspace setup routes.
   name: Openwork Bootstrap API
   slug: openwork-bootstrap-api
-- description: The Capability Sources API from Openwork — 25 operation(s) for capability sources.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Capability Sources API from Openwork — 25 operation(s) for capability sources.
   name: Openwork Capability Sources API
   slug: openwork-capability-sources-api
-- description: The Config Objects API from Openwork — 12 operation(s) for config objects.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Config Objects API from Openwork — 12 operation(s) for config objects.
   name: Openwork Config Objects API
   slug: openwork-config-objects-api
-- description: The Connectors API from Openwork — 21 operation(s) for connectors.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Connectors API from Openwork — 21 operation(s) for connectors.
   name: Openwork Connectors API
   slug: openwork-connectors-api
-- description: The Desktop Policies API from Openwork — 2 operation(s) for desktop policies.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Desktop Policies API from Openwork — 2 operation(s) for desktop policies.
   name: Openwork Desktop Policies API
   slug: openwork-desktop-policies-api
-- description: The Dev API from Openwork — 2 operation(s) for dev.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Dev API from Openwork — 2 operation(s) for dev.
   name: Openwork Dev API
   slug: openwork-dev-api
-- description: The Diagnostics API from Openwork — 2 operation(s) for diagnostics.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Diagnostics API from Openwork — 2 operation(s) for diagnostics.
   name: Openwork Diagnostics API
   slug: openwork-diagnostics-api
-- description: The GitHub API from Openwork — 11 operation(s) for github.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The GitHub API from Openwork — 11 operation(s) for github.
   name: Openwork GitHub API
   slug: openwork-github-api
-- description: The Inference API from Openwork — 1 operation(s) for inference.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Inference API from Openwork — 1 operation(s) for inference.
   name: Openwork Inference API
   slug: openwork-inference-api
-- description: Invitation preview, acceptance, creation, and cancellation routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Invitation preview, acceptance, creation, and cancellation routes.
   name: Openwork Invitations API
   slug: openwork-invitations-api
-- description: Organization LLM provider catalog, configuration, and access routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization LLM provider catalog, configuration, and access routes.
   name: Openwork LLM Providers API
   slug: openwork-llm-providers-api
-- description: The Marketplaces API from Openwork — 9 operation(s) for marketplaces.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Marketplaces API from Openwork — 9 operation(s) for marketplaces.
   name: Openwork Marketplaces API
   slug: openwork-marketplaces-api
-- description: The Mcp API from Openwork — 3 operation(s) for mcp.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Mcp API from Openwork — 3 operation(s) for mcp.
   name: Openwork Mcp API
   slug: openwork-mcp-api
-- description: Organization member management routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization member management routes.
   name: Openwork Members API
   slug: openwork-members-api
-- description: The Memory API from Openwork — 3 operation(s) for memory.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Memory API from Openwork — 3 operation(s) for memory.
   name: Openwork Memory API
   slug: openwork-memory-api
-- description: Top-level organization creation and context routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Top-level organization creation and context routes.
   name: Openwork Organizations API
   slug: openwork-organizations-api
-- description: The Plugins API from Openwork — 10 operation(s) for plugins.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Plugins API from Openwork — 10 operation(s) for plugins.
   name: Openwork Plugins API
   slug: openwork-plugins-api
-- description: The Register API from Openwork — 1 operation(s) for register.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Register API from Openwork — 1 operation(s) for register.
   name: Openwork Register API
   slug: openwork-register-api
-- description: The Resources API from Openwork — 1 operation(s) for resources.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Resources API from Openwork — 1 operation(s) for resources.
   name: Openwork Resources API
   slug: openwork-resources-api
-- description: Organization custom role management routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization custom role management routes.
   name: Openwork Roles API
   slug: openwork-roles-api
-- description: Organization SCIM connector management routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization SCIM connector management routes.
   name: Openwork SCIM API
   slug: openwork-scim-api
-- description: Organization skill hub management and access routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization skill hub management and access routes.
   name: Openwork Skill Hubs API
   slug: openwork-skill-hubs-api
-- description: Organization skill authoring and sharing routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization skill authoring and sharing routes.
   name: Openwork Skills API
   slug: openwork-skills-api
-- description: Organization single sign-on connector management routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization single sign-on connector management routes.
   name: Openwork SSO API
   slug: openwork-sso-api
-- description: Service health and operational routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Service health and operational routes.
   name: Openwork System API
   slug: openwork-system-api
-- description: Organization team management routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Organization team management routes.
   name: Openwork Teams API
   slug: openwork-teams-api
-- description: Telemetry event ingestion and adoption analytics.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Telemetry event ingestion and adoption analytics.
   name: Openwork Telemetry API
   slug: openwork-telemetry-api
-- description: Current user and membership routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Current user and membership routes.
   name: Openwork Users API
   slug: openwork-users-api
-- description: The Webhooks API from Openwork — 2 operation(s) for webhooks.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The Webhooks API from Openwork — 2 operation(s) for webhooks.
   name: Openwork Webhooks API
   slug: openwork-webhooks-api
-- description: The .well Known API from Openwork — 8 operation(s) for .well known.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: The .well Known API from Openwork — 8 operation(s) for .well known.
   name: Openwork .well Known API
   slug: openwork-well-known-api
-- description: Worker heartbeat and activity reporting routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Worker heartbeat and activity reporting routes.
   name: Openwork Worker Activity API
   slug: openwork-worker-activity-api
-- description: Worker runtime inspection and upgrade routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Worker runtime inspection and upgrade routes.
   name: Openwork Worker Runtime API
   slug: openwork-worker-runtime-api
-- description: Worker lifecycle, billing, and runtime routes.
+- baseURL: https://api.openworklabs.com
+  baseurl_source: declared
+  description: Worker lifecycle, billing, and runtime routes.
   name: Openwork Workers API
   slug: openwork-workers-api
 artifact_total: 81
@@ -446,7 +520,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -459,7 +533,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
@@ -470,7 +544,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwork/refs/heads/main/screenshots/openwork-2026-08-17T124245.png
 security:

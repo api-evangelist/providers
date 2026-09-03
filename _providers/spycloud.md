@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,25 +45,39 @@ agentic_access:
   summary_line: 69 operations · 2 acting
 api_count: 18
 apis:
-- description: The Breach API from SpyCloud — 23 operation(s) for breach.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Breach API from SpyCloud — 23 operation(s) for breach.
   name: SpyCloud Breach API
   slug: spycloud-breach-api
-- description: The Check API from SpyCloud — 2 operation(s) for check.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Check API from SpyCloud — 2 operation(s) for check.
   name: SpyCloud Check API
   slug: spycloud-check-api
-- description: The Compass API from SpyCloud — 5 operation(s) for compass.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Compass API from SpyCloud — 5 operation(s) for compass.
   name: SpyCloud Compass API
   slug: spycloud-compass-api
-- description: The Data API from SpyCloud — 2 operation(s) for data.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Data API from SpyCloud — 2 operation(s) for data.
   name: SpyCloud Data API
   slug: spycloud-data-api
-- description: The Query API from SpyCloud — 3 operation(s) for query.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Query API from SpyCloud — 3 operation(s) for query.
   name: SpyCloud Query API
   slug: spycloud-query-api
-- description: The Stats API from SpyCloud — 2 operation(s) for stats.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Stats API from SpyCloud — 2 operation(s) for stats.
   name: SpyCloud Stats API
   slug: spycloud-stats-api
-- description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
+- baseURL: https://api.spycloud.io/enterprise-v2
+  baseurl_source: declared
+  description: The Watchlist API from SpyCloud — 5 operation(s) for watchlist.
   name: SpyCloud Watchlist API
   slug: spycloud-watchlist-api
 artifact_total: 22
@@ -276,7 +302,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spycloud/refs/heads/main/screenshots/spycloud-2026-08-17T082052.png
 security:

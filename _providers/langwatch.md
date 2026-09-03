@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 133 operations · 85 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from LangWatch — 2 operation(s) for agents.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Agents API from LangWatch — 2 operation(s) for agents.
   name: LangWatch Agents API
   slug: langwatch-agents-api
-- description: The Analytics API from LangWatch — 1 operation(s) for analytics.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Analytics API from LangWatch — 1 operation(s) for analytics.
   name: LangWatch Analytics API
   slug: langwatch-analytics-api
-- description: The Annotations API from LangWatch — 3 operation(s) for annotations.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Annotations API from LangWatch — 3 operation(s) for annotations.
   name: LangWatch Annotations API
   slug: langwatch-annotations-api
-- description: The Api Keys API from LangWatch — 2 operation(s) for api keys.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Api Keys API from LangWatch — 2 operation(s) for api keys.
   name: LangWatch Api Keys API
   slug: langwatch-api-keys-api
-- description: The Budgets API from LangWatch — 2 operation(s) for budgets.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Budgets API from LangWatch — 2 operation(s) for budgets.
   name: LangWatch Budgets API
   slug: langwatch-budgets-api
-- description: The Cache Rules API from LangWatch — 2 operation(s) for cache rules.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Cache Rules API from LangWatch — 2 operation(s) for cache rules.
   name: LangWatch Cache Rules API
   slug: langwatch-cache-rules-api
-- description: The Dashboards API from LangWatch — 3 operation(s) for dashboards.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Dashboards API from LangWatch — 3 operation(s) for dashboards.
   name: LangWatch Dashboards API
   slug: langwatch-dashboards-api
-- description: The Dataset API from LangWatch — 7 operation(s) for dataset.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Dataset API from LangWatch — 7 operation(s) for dataset.
   name: LangWatch Dataset API
   slug: langwatch-dataset-api
-- description: The Evaluations V3 API from LangWatch — 2 operation(s) for evaluations v3.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Evaluations V3 API from LangWatch — 2 operation(s) for evaluations v3.
   name: LangWatch Evaluations V3 API
   slug: langwatch-evaluations-v3-api
-- description: The Evaluators API from LangWatch — 3 operation(s) for evaluators.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Evaluators API from LangWatch — 3 operation(s) for evaluators.
   name: LangWatch Evaluators API
   slug: langwatch-evaluators-api
-- description: The Graphs API from LangWatch — 2 operation(s) for graphs.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Graphs API from LangWatch — 2 operation(s) for graphs.
   name: LangWatch Graphs API
   slug: langwatch-graphs-api
-- description: The LangWatch API API from LangWatch — 1 operation(s) for langwatch api.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The LangWatch API API from LangWatch — 1 operation(s) for langwatch api.
   name: LangWatch LangWatch API API
   slug: langwatch-langwatch-api-api
-- description: The Model Defaults API from LangWatch — 2 operation(s) for model defaults.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Model Defaults API from LangWatch — 2 operation(s) for model defaults.
   name: LangWatch Model Defaults API
   slug: langwatch-model-defaults-api
-- description: The Model Providers API from LangWatch — 2 operation(s) for model providers.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Model Providers API from LangWatch — 2 operation(s) for model providers.
   name: LangWatch Model Providers API
   slug: langwatch-model-providers-api
-- description: The Monitors API from LangWatch — 3 operation(s) for monitors.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Monitors API from LangWatch — 3 operation(s) for monitors.
   name: LangWatch Monitors API
   slug: langwatch-monitors-api
-- description: The Projects API from LangWatch — 2 operation(s) for projects.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Projects API from LangWatch — 2 operation(s) for projects.
   name: LangWatch Projects API
   slug: langwatch-projects-api
-- description: The Prompts API from LangWatch — 8 operation(s) for prompts.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Prompts API from LangWatch — 8 operation(s) for prompts.
   name: LangWatch Prompts API
   slug: langwatch-prompts-api
-- description: The Providers API from LangWatch — 2 operation(s) for providers.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Providers API from LangWatch — 2 operation(s) for providers.
   name: LangWatch Providers API
   slug: langwatch-providers-api
-- description: The Scenario Events API from LangWatch — 1 operation(s) for scenario events.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Scenario Events API from LangWatch — 1 operation(s) for scenario events.
   name: LangWatch Scenario Events API
   slug: langwatch-scenario-events-api
-- description: The Scenarios API from LangWatch — 2 operation(s) for scenarios.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Scenarios API from LangWatch — 2 operation(s) for scenarios.
   name: LangWatch Scenarios API
   slug: langwatch-scenarios-api
-- description: The Secrets API from LangWatch — 2 operation(s) for secrets.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Secrets API from LangWatch — 2 operation(s) for secrets.
   name: LangWatch Secrets API
   slug: langwatch-secrets-api
-- description: The Simulation Runs API from LangWatch — 3 operation(s) for simulation runs.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Simulation Runs API from LangWatch — 3 operation(s) for simulation runs.
   name: LangWatch Simulation Runs API
   slug: langwatch-simulation-runs-api
-- description: The Suites API from LangWatch — 4 operation(s) for suites.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Suites API from LangWatch — 4 operation(s) for suites.
   name: LangWatch Suites API
   slug: langwatch-suites-api
-- description: The Trace API from LangWatch — 3 operation(s) for trace.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Trace API from LangWatch — 3 operation(s) for trace.
   name: LangWatch Trace API
   slug: langwatch-trace-api
-- description: The Traces API from LangWatch — 3 operation(s) for traces.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Traces API from LangWatch — 3 operation(s) for traces.
   name: LangWatch Traces API
   slug: langwatch-traces-api
-- description: The Triggers API from LangWatch — 2 operation(s) for triggers.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Triggers API from LangWatch — 2 operation(s) for triggers.
   name: LangWatch Triggers API
   slug: langwatch-triggers-api
-- description: The Virtual Keys API from LangWatch — 4 operation(s) for virtual keys.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Virtual Keys API from LangWatch — 4 operation(s) for virtual keys.
   name: LangWatch Virtual Keys API
   slug: langwatch-virtual-keys-api
-- description: The Workflows API from LangWatch — 2 operation(s) for workflows.
+- baseURL: https://app.langwatch.ai
+  baseurl_source: spec
+  description: The Workflows API from LangWatch — 2 operation(s) for workflows.
   name: LangWatch Workflows API
   slug: langwatch-workflows-api
 artifact_total: 83
@@ -478,7 +534,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:

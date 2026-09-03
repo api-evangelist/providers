@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 21 operations · 6 acting
 api_count: 1
 apis:
-- description: The Accounts API from Publer — 1 operation for listing the social media accounts (Facebook, Instagram, X/Twitter, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, Mastodon, Google Business, Wor
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: The Accounts API from Publer — 1 operation for listing the social media accounts (Facebook, Instagram, X/Twitter, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, Mastodon, Google Business, Wor
   name: Publer Accounts API
   slug: publer-accounts-api
-- description: 'The Analytics API from Publer — 7 operations for social analytics: available charts and chart data, per-post insights, hashtag insights and top hashtag posts, best times to post as a day/hour heatmap,'
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: 'The Analytics API from Publer — 7 operations for social analytics: available charts and chart data, per-post insights, hashtag insights and top hashtag posts, best times to post as a day/hour heatmap,'
   name: Publer Analytics API
   slug: publer-analytics-api
-- description: The Competitors API from Publer — 2 operations for listing the competitor accounts tracked against one of your social accounts and comparing followers, engagement, reach and posting mix against them.
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: The Competitors API from Publer — 2 operations for listing the competitor accounts tracked against one of your social accounts and comparing followers, engagement, reach and posting mix against them.
   name: Publer Competitors API
   slug: publer-competitors-api
-- description: The Jobs API from Publer — 1 operation for resolving the asynchronous job returned by every write on the Publer API. Scheduling, publishing and media-from-URL uploads all return 202 with a job_id; thi
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: The Jobs API from Publer — 1 operation for resolving the asynchronous job returned by every write on the Publer API. Scheduling, publishing and media-from-URL uploads all return 202 with a job_id; thi
   name: Publer Jobs API
   slug: publer-jobs-api
-- description: 'The Media API from Publer — 3 operations for the workspace media library: list and filter photos, videos and GIFs by type, usage, source and search term, upload a file directly as multipart, or upload'
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: 'The Media API from Publer — 3 operations for the workspace media library: list and filter photos, videos and GIFs by type, usage, source and search term, upload a file directly as multipart, or upload'
   name: Publer Media API
   slug: publer-media-api
-- description: 'The Posts API from Publer — 5 operations covering the content lifecycle: list posts with state, date, account, member and full-text filters, schedule a bulk payload of per-network content, publish imm'
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: 'The Posts API from Publer — 5 operations covering the content lifecycle: list posts with state, date, account, member and full-text filters, schedule a bulk payload of per-network content, publish imm'
   name: Publer Posts API
   slug: publer-posts-api
-- description: The Users API from Publer — 1 operation returning the profile of the currently authenticated user (id, email, name and picture), used to adapt an integration to the user identity behind an API key.
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Publer — 1 operation returning the profile of the currently authenticated user (id, email, name and picture), used to adapt an integration to the user identity behind an API key.
   name: Publer Users API
   slug: publer-users-api
-- description: The Workspaces API from Publer — 1 operation listing every workspace the authenticated user can reach, with owner, members, plan and picture. The workspace id it returns is required as the Publer-Work
+- baseURL: https://app.publer.com/api/v1
+  baseurl_source: declared
+  description: The Workspaces API from Publer — 1 operation listing every workspace the authenticated user can reach, with owner, members, plan and picture. The workspace id it returns is required as the Publer-Work
   name: Publer Workspaces API
   slug: publer-workspaces-api
 artifact_total: 26
@@ -297,7 +313,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/screenshots/publer-2026-08-17T081403.png
 security:

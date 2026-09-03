@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: A seller's orders (authenticated).
+- baseURL: https://www.tindie.com/api/v1
+  baseurl_source: declared
+  description: A seller's orders (authenticated).
   name: Tindie order API
   slug: tindie-order-api
-- description: Line items within a seller's orders (authenticated).
+- baseURL: https://www.tindie.com/api/v1
+  baseurl_source: declared
+  description: Line items within a seller's orders (authenticated).
   name: Tindie orderitem API
   slug: tindie-orderitem-api
-- description: Store product listings (public read).
+- baseURL: https://www.tindie.com/api/v1
+  baseurl_source: declared
+  description: Store product listings (public read).
   name: Tindie product API
   slug: tindie-product-api
 artifact_total: 11
@@ -181,7 +187,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

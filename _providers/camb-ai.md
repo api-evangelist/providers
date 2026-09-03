@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: End-to-end video and audio dubbing across languages.
+- baseURL: https://client.camb.ai/apis
+  baseurl_source: declared
+  description: End-to-end video and audio dubbing across languages.
   name: Camb.AI Dubbing API
   slug: camb-ai-dubbing-api
-- description: Supported source and target languages.
+- baseURL: https://client.camb.ai/apis
+  baseurl_source: declared
+  description: Supported source and target languages.
   name: Camb.AI Languages API
   slug: camb-ai-languages-api
-- description: Convert text to speech with the MARS voice models.
+- baseURL: https://client.camb.ai/apis
+  baseurl_source: declared
+  description: Convert text to speech with the MARS voice models.
   name: Camb.AI Text-to-Speech API
   slug: camb-ai-text-to-speech-api
-- description: Speech-to-text transcription with timestamps.
+- baseURL: https://client.camb.ai/apis
+  baseurl_source: declared
+  description: Speech-to-text transcription with timestamps.
   name: Camb.AI Transcription API
   slug: camb-ai-transcription-api
-- description: Neural text translation via the BOLI model.
+- baseURL: https://client.camb.ai/apis
+  baseurl_source: declared
+  description: Neural text translation via the BOLI model.
   name: Camb.AI Translation API
   slug: camb-ai-translation-api
-- description: Discover, clone, design, and manage voices.
+- baseURL: https://client.camb.ai/apis
+  baseurl_source: declared
+  description: Discover, clone, design, and manage voices.
   name: Camb.AI Voices API
   slug: camb-ai-voices-api
 artifact_total: 22
@@ -185,7 +197,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -195,7 +207,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 36.8
-  previous_composite: 33.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +216,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/screenshots/camb-ai-2026-07-25T204253.png
 security:

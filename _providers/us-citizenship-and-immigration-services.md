@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 2
 apis:
-- description: Immigration case status retrieval by receipt number
+- baseURL: https://api-int.uscis.gov/case-status
+  baseurl_source: declared
+  description: Immigration case status retrieval by receipt number
   name: US Citizenship and Immigration Services Case Status API
   slug: us-citizenship-and-immigration-services-case-status-api
-- description: Submit and manage FOIA and Privacy Act requests for Alien File records
+- baseURL: https://api-int.uscis.gov/case-status
+  baseurl_source: declared
+  description: Submit and manage FOIA and Privacy Act requests for Alien File records
   name: US Citizenship and Immigration Services FOIA Requests API
   slug: us-citizenship-and-immigration-services-foia-requests-api
 artifact_total: 21
@@ -199,7 +203,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/screenshots/us-citizenship-and-immigration-services-2026-06-20T200606.png
 security:

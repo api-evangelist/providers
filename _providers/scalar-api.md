@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,10 +62,14 @@ apis:
 - description: AI layer that lets developers chat with an API inside the docs and exposes hosted MCP (Model Context Protocol) servers generated from an OpenAPI document so agents can call the API. Metered in Agent S
   name: Scalar Agent and MCP
   slug: scalar-agent-mcp
-- description: Publish / list / update / delete documents - performed via the Scalar CLI (modeled).
+- baseURL: https://registry.scalar.com
+  baseurl_source: declared
+  description: Publish / list / update / delete documents - performed via the Scalar CLI (modeled).
   name: Scalar Registry Management API
   slug: scalar-api-registry-management-api
-- description: Public retrieval of published OpenAPI documents (confirmed public surface).
+- baseURL: https://registry.scalar.com
+  baseurl_source: declared
+  description: Public retrieval of published OpenAPI documents (confirmed public surface).
   name: Scalar Registry Read API
   slug: scalar-api-registry-read-api
 artifact_total: 17
@@ -177,7 +181,7 @@ score:
   band: developing
   composite: 41.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +207,9 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scalar-api/refs/heads/main/screenshots/scalar-api-2026-09-02T154503.png
 security:
 - kind: authentication
   name: Scalar Api Authentication

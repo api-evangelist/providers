@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,19 +35,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
+- baseURL: https://{store_domain}/wp-json/ciloo/v1
+  baseurl_source: declared
+  description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
   name: Ciloo Cart API
   slug: ciloo-cart-api
 - description: Bidirectional order integration between Ciloo and its production partners. Ciloo POSTs a print order — items, print components with artwork paths and substrate attributes, and shipments with carrier a
   name: Ciloo Printer API Integration
   slug: ciloo-printer-api
-- description: OAuth key provisioning and auto-login token issuance.
+- baseURL: https://{store_domain}/wp-json/ciloo/v1
+  baseurl_source: declared
+  description: OAuth key provisioning and auto-login token issuance.
   name: Ciloo Authentication API
   slug: ciloo-authentication-api
-- description: Customer lifecycle via the WooCommerce REST API v3 namespace, as documented by Ciloo.
+- baseURL: https://{store_domain}/wp-json/ciloo/v1
+  baseurl_source: declared
+  description: Customer lifecycle via the WooCommerce REST API v3 namespace, as documented by Ciloo.
   name: Ciloo Customers API
   slug: ciloo-customers-api
 artifact_total: 11
@@ -189,7 +207,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -199,7 +217,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 30.5
+  previous_composite: 30.4
   provenance:
     conformance: derived
     contracts:
@@ -210,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png
 security:

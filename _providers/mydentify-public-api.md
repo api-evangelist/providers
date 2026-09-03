@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,22 +45,34 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: The Directories API from Mydentify Public API — 2 operation(s) for directories.
+- baseURL: https://mydentify.com
+  baseurl_source: declared
+  description: The Directories API from Mydentify Public API — 2 operation(s) for directories.
   name: Mydentify Public API Directories API
   slug: mydentify-public-api-directories-api
-- description: The Directories.json API from Mydentify Public API — 1 operation(s) for directories.json.
+- baseURL: https://mydentify.com
+  baseurl_source: declared
+  description: The Directories.json API from Mydentify Public API — 1 operation(s) for directories.json.
   name: Mydentify Public API Directories.json API
   slug: mydentify-public-api-directories-json-api
-- description: The Imports API from Mydentify Public API — 8 operation(s) for imports.
+- baseURL: https://mydentify.com
+  baseurl_source: declared
+  description: The Imports API from Mydentify Public API — 8 operation(s) for imports.
   name: Mydentify Public API Imports API
   slug: mydentify-public-api-imports-api
-- description: The Leaderboards API from Mydentify Public API — 1 operation(s) for leaderboards.
+- baseURL: https://mydentify.com
+  baseurl_source: declared
+  description: The Leaderboards API from Mydentify Public API — 1 operation(s) for leaderboards.
   name: Mydentify Public API Leaderboards API
   slug: mydentify-public-api-leaderboards-api
-- description: The Leaderboards.json API from Mydentify Public API — 1 operation(s) for leaderboards.json.
+- baseURL: https://mydentify.com
+  baseurl_source: declared
+  description: The Leaderboards.json API from Mydentify Public API — 1 operation(s) for leaderboards.json.
   name: Mydentify Public API Leaderboards.json API
   slug: mydentify-public-api-leaderboards-json-api
-- description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
+- baseURL: https://mydentify.com
+  baseurl_source: declared
+  description: The Product Categories.json API from Mydentify Public API — 1 operation(s) for product categories.json.
   name: Mydentify Public API Product Categories.json API
   slug: mydentify-public-api-product-categories-json-api
 artifact_total: 21
@@ -209,7 +233,7 @@ score:
   band: developing
   composite: 42.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -235,8 +259,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mydentify-public-api/refs/heads/main/screenshots/mydentify-public-api-2026-09-02T150703.png
 security:
 - kind: authentication
   name: Mydentify Public Api Authentication

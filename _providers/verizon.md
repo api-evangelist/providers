@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -83,19 +83,29 @@ apis:
 - description: SCI supports APIs to fetch data consumption and bandwidth utilization measurements for the SCI connection to the cloud.
   name: Secure Cloud Interconnect APIs Billing Usage
   slug: secure-cloud-interconnect-apis-billing-usage
-- description: Account information and management
+- baseURL: https://thingspace.verizon.com/api/m2m/v2
+  baseurl_source: declared
+  description: Account information and management
   name: Verizon Accounts API
   slug: verizon-accounts-api
-- description: Callback subscription management
+- baseURL: https://thingspace.verizon.com/api/m2m/v2
+  baseurl_source: declared
+  description: Callback subscription management
   name: Verizon Callbacks API
   slug: verizon-callbacks-api
-- description: Device activation, deactivation, and management
+- baseURL: https://thingspace.verizon.com/api/m2m/v2
+  baseurl_source: declared
+  description: Device activation, deactivation, and management
   name: Verizon Devices API
   slug: verizon-devices-api
-- description: Session management and authentication
+- baseURL: https://thingspace.verizon.com/api/m2m/v2
+  baseurl_source: declared
+  description: Session management and authentication
   name: Verizon Session API
   slug: verizon-session-api
-- description: SMS messaging to devices
+- baseURL: https://thingspace.verizon.com/api/m2m/v2
+  baseurl_source: declared
+  description: SMS messaging to devices
   name: Verizon SMS API
   slug: verizon-sms-api
 artifact_total: 98
@@ -547,7 +557,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -557,7 +567,7 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 60.5
-  previous_composite: 64.0
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -575,7 +585,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png
 security:

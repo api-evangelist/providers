@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,25 +65,39 @@ apis:
 - description: The Veryfi Classification API determines the document type before processing, enabling intelligent routing to the appropriate extraction endpoint.
   name: Veryfi Classification API
   slug: classification-api
-- description: The Any Documents API from Veryfi — 2 operation(s) for any documents.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The Any Documents API from Veryfi — 2 operation(s) for any documents.
   name: Veryfi Any Documents API
   slug: veryfi-any-documents-api
-- description: The Bank Statements API from Veryfi — 2 operation(s) for bank statements.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The Bank Statements API from Veryfi — 2 operation(s) for bank statements.
   name: Veryfi Bank Statements API
   slug: veryfi-bank-statements-api
-- description: The Checks API from Veryfi — 2 operation(s) for checks.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The Checks API from Veryfi — 2 operation(s) for checks.
   name: Veryfi Checks API
   slug: veryfi-checks-api
-- description: The Classification API from Veryfi — 1 operation(s) for classification.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The Classification API from Veryfi — 1 operation(s) for classification.
   name: Veryfi Classification API
   slug: veryfi-classification-api
-- description: The Documents API from Veryfi — 2 operation(s) for documents.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The Documents API from Veryfi — 2 operation(s) for documents.
   name: Veryfi Documents API
   slug: veryfi-documents-api
-- description: The W-2 Forms API from Veryfi — 2 operation(s) for w-2 forms.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The W-2 Forms API from Veryfi — 2 operation(s) for w-2 forms.
   name: Veryfi W-2 Forms API
   slug: veryfi-w-2-forms-api
-- description: The W-9 Forms API from Veryfi — 2 operation(s) for w-9 forms.
+- baseURL: https://api.veryfi.com/api/v8
+  baseurl_source: spec
+  description: The W-9 Forms API from Veryfi — 2 operation(s) for w-9 forms.
   name: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
 artifact_total: 56
@@ -345,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

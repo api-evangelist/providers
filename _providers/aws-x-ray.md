@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 22 operations · 22 acting
 api_count: 1
 apis:
-- description: Manage encryption configuration
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage encryption configuration
   name: AWS X-Ray Encryption API
   slug: aws-x-ray-encryption-api
-- description: Manage trace groups
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage trace groups
   name: AWS X-Ray Groups API
   slug: aws-x-ray-groups-api
-- description: Automated anomaly detection insights
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Automated anomaly detection insights
   name: AWS X-Ray Insights API
   slug: aws-x-ray-insights-api
-- description: Manage sampling rules
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage sampling rules
   name: AWS X-Ray Sampling API
   slug: aws-x-ray-sampling-api
-- description: Service map and statistics
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Service map and statistics
   name: AWS X-Ray Service Graph API
   slug: aws-x-ray-service-graph-api
-- description: The TagResource API from AWS X-Ray — 1 operation(s) for tagresource.
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from AWS X-Ray — 1 operation(s) for tagresource.
   name: AWS X-Ray TagResource API
   slug: aws-x-ray-tagresource-api
-- description: The Tags API from AWS X-Ray — 1 operation(s) for tags.
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from AWS X-Ray — 1 operation(s) for tags.
   name: AWS X-Ray Tags API
   slug: aws-x-ray-tags-api
-- description: Upload and retrieve trace data
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Upload and retrieve trace data
   name: AWS X-Ray Traces API
   slug: aws-x-ray-traces-api
-- description: The UntagResource API from AWS X-Ray — 1 operation(s) for untagresource.
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from AWS X-Ray — 1 operation(s) for untagresource.
   name: AWS X-Ray UntagResource API
   slug: aws-x-ray-untagresource-api
 artifact_total: 111
@@ -481,7 +499,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/screenshots/aws-x-ray-2026-06-20T172820.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 37 operations · 20 acting
 api_count: 1
 apis:
-- description: The Address API from Terminal — 2 operation(s) for address.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Address API from Terminal — 2 operation(s) for address.
   name: Terminal Address API
   slug: terminal-shop-address-api
-- description: The App API from Terminal — 2 operation(s) for app.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The App API from Terminal — 2 operation(s) for app.
   name: Terminal App API
   slug: terminal-shop-app-api
-- description: The Card API from Terminal — 3 operation(s) for card.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Card API from Terminal — 3 operation(s) for card.
   name: Terminal Card API
   slug: terminal-shop-card-api
-- description: The Cart API from Terminal — 5 operation(s) for cart.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Cart API from Terminal — 5 operation(s) for cart.
   name: Terminal Cart API
   slug: terminal-shop-cart-api
-- description: The Email API from Terminal — 1 operation(s) for email.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Email API from Terminal — 1 operation(s) for email.
   name: Terminal Email API
   slug: terminal-shop-email-api
-- description: The Order API from Terminal — 2 operation(s) for order.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Order API from Terminal — 2 operation(s) for order.
   name: Terminal Order API
   slug: terminal-shop-order-api
-- description: The Product API from Terminal — 2 operation(s) for product.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Product API from Terminal — 2 operation(s) for product.
   name: Terminal Product API
   slug: terminal-shop-product-api
-- description: The Profile API from Terminal — 1 operation(s) for profile.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Profile API from Terminal — 1 operation(s) for profile.
   name: Terminal Profile API
   slug: terminal-shop-profile-api
-- description: The Subscription API from Terminal — 2 operation(s) for subscription.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Subscription API from Terminal — 2 operation(s) for subscription.
   name: Terminal Subscription API
   slug: terminal-shop-subscription-api
-- description: The Token API from Terminal — 2 operation(s) for token.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The Token API from Terminal — 2 operation(s) for token.
   name: Terminal Token API
   slug: terminal-shop-token-api
-- description: The View API from Terminal — 1 operation(s) for view.
+- baseURL: https://api.terminal.shop
+  baseurl_source: declared
+  description: The View API from Terminal — 1 operation(s) for view.
   name: Terminal View API
   slug: terminal-shop-view-api
 artifact_total: 30
@@ -211,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-shop/refs/heads/main/screenshots/terminal-shop-2026-06-20T195128.png
 security:

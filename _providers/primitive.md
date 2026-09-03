@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 75.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -34,70 +46,114 @@ agentic_access:
   summary_line: 129 operations · 76 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage your account settings, storage, and webhook secret
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Manage your account settings, storage, and webhook secret
   name: Primitive Account API
   slug: primitive-account-api
-- description: Agent signup and authentication
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Agent signup and authentication
   name: Primitive Agent API
   slug: primitive-agent-api
-- description: Browser-assisted CLI authentication
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Browser-assisted CLI authentication
   name: Primitive CLI API
   slug: primitive-cli-api
-- description: Public, no-account sandbox operations that mirror authenticated endpoints with synthetic data so an agent can learn the request and response shapes before signing up.
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Public, no-account sandbox operations that mirror authenticated endpoints with synthetic data so an agent can learn the request and response shapes before signing up.
   name: Primitive Demo API
   slug: primitive-demo-api
-- description: Unauthenticated entry point that lists the API base URL, how to obtain credentials, and the operations callable without a token.
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Unauthenticated entry point that lists the API base URL, how to obtain credentials, and the operations callable without a token.
   name: Primitive Discovery API
   slug: primitive-discovery-api
-- description: Claim, verify, and manage email domains
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Claim, verify, and manage email domains
   name: Primitive Domains API
   slug: primitive-domains-api
-- description: List, inspect, and manage received emails
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: List, inspect, and manage received emails
   name: Primitive Emails API
   slug: primitive-emails-api
-- description: Manage webhook endpoints that receive email events
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Manage webhook endpoints that receive email events
   name: Primitive Endpoints API
   slug: primitive-endpoints-api
-- description: Manage whitelist and blocklist filter rules
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Manage whitelist and blocklist filter rules
   name: Primitive Filters API
   slug: primitive-filters-api
-- description: 'Deploy JavaScript handlers that run on inbound mail. Each function is a single ESM module whose default export is an object with an async `fetch(request, env)` method, in the shape of a Workers-style '
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: 'Deploy JavaScript handlers that run on inbound mail. Each function is a single ESM module whose default export is an object with an async `fetch(request, env)` method, in the shape of a Workers-style '
   name: Primitive Functions API
   slug: primitive-functions-api
-- description: Check inbound email setup and processing readiness
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Check inbound email setup and processing readiness
   name: Primitive Inbox API
   slug: primitive-inbox-api
-- description: Durable org-scoped or function-scoped JSON key-value storage for agents and functions. Keys are caller-defined. Function scope is always addressed by the function id UUID, not by function name.
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Durable org-scoped or function-scoped JSON key-value storage for agents and functions. Keys are caller-defined. Function scope is always addressed by the function id UUID, not by function name.
   name: Primitive Memories API
   slug: primitive-memories-api
-- description: 'Collect and pay stablecoin (USDC) payments with x402. Settlement is non-custodial: funds move directly from payer to payee on-chain via an EIP-3009 authorization the payer signs with their own key, an'
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: 'Collect and pay stablecoin (USDC) payments with x402. Settlement is non-custodial: funds move directly from payer to payee on-chain via an EIP-3009 authorization the payer signs with their own key, an'
   name: Primitive Payments API
   slug: primitive-payments-api
-- description: 'The Agent Registry: ownable directories of agents, addressable by a registry-scoped handle. A registry''s publish policy (owner_only, request, or open) decides whether a publish lists immediately or pe'
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: 'The Agent Registry: ownable directories of agents, addressable by a registry-scoped handle. A registry''s publish policy (owner_only, request, or open) decides whether a publish lists immediately or pe'
   name: Primitive Registries API
   slug: primitive-registries-api
-- description: 'Recipient routing: route inbound mail to a single destination per recipient address. Rules bind an address pattern (exact or wildcard) to an endpoint; `function_id` routes an address to a function, mi'
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: 'Recipient routing: route inbound mail to a single destination per recipient address. Rules bind an address pattern (exact or wildcard) to an endpoint; `function_id` routes an address to a function, mi'
   name: Primitive Routes API
   slug: primitive-routes-api
-- description: Semantic and hybrid search across received and sent mail
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Semantic and hybrid search across received and sent mail
   name: Primitive Search API
   slug: primitive-search-api
-- description: Send outbound emails through the Primitive API
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Send outbound emails through the Primitive API
   name: Primitive Sending API
   slug: primitive-sending-api
-- description: Operational endpoints such as the unauthenticated health/liveness probe.
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Operational endpoints such as the unauthenticated health/liveness probe.
   name: Primitive Service API
   slug: primitive-service-api
-- description: Public Function template registry reads used to browse installable agent templates.
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Public Function template registry reads used to browse installable agent templates.
   name: Primitive Templates API
   slug: primitive-templates-api
-- description: Conversation threads spanning received and sent emails
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: Conversation threads spanning received and sent emails
   name: Primitive Threads API
   slug: primitive-threads-api
-- description: 'Wake scheduling: schedule and send typed wake commands to your own functions over real DKIM-signed email on a cron cadence, and manage the per-target allowlist that authorizes which senders may wake a'
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: 'Wake scheduling: schedule and send typed wake commands to your own functions over real DKIM-signed email on a cron cadence, and manage the per-target allowlist that authorizes which senders may wake a'
   name: Primitive Wake API
   slug: primitive-wake-api
-- description: View and replay webhook delivery attempts
+- baseURL: https://api.primitive.dev/v1
+  baseurl_source: spec
+  description: View and replay webhook delivery attempts
   name: Primitive Webhook Deliveries API
   slug: primitive-webhook-deliveries-api
 artifact_total: 51
@@ -216,7 +272,7 @@ score:
     catalog_gap: 100.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -232,7 +288,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 24.9
+  previous_composite: 24.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -244,7 +300,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 49 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Low-code UIs backed by scripts and flows.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Low-code UIs backed by scripts and flows.
   name: Windmill Apps API
   slug: windmill-dev-apps-api
-- description: Audit log entries (Enterprise Edition).
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Audit log entries (Enterprise Edition).
   name: Windmill Audit API
   slug: windmill-dev-audit-api
-- description: DAG workflows composing scripts with branches, loops, and approvals.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: DAG workflows composing scripts with branches, loops, and approvals.
   name: Windmill Flows API
   slug: windmill-dev-flows-api
-- description: Ownership and permission boundaries for workspace assets.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Ownership and permission boundaries for workspace assets.
   name: Windmill Folders API
   slug: windmill-dev-folders-api
-- description: User groups for role-based access control.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: User groups for role-based access control.
   name: Windmill Groups API
   slug: windmill-dev-groups-api
-- description: Execution of scripts and flows - run, inspect, and cancel jobs.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Execution of scripts and flows - run, inspect, and cancel jobs.
   name: Windmill Jobs API
   slug: windmill-dev-jobs-api
-- description: Short-lived OIDC token issuance (Enterprise Edition).
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Short-lived OIDC token issuance (Enterprise Edition).
   name: Windmill OIDC API
   slug: windmill-dev-oidc-api
-- description: Typed connection objects and resource types.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Typed connection objects and resource types.
   name: Windmill Resources API
   slug: windmill-dev-resources-api
-- description: Cron schedules attached to runnables.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Cron schedules attached to runnables.
   name: Windmill Schedules API
   slug: windmill-dev-schedules-api
-- description: Code runnables in Python, TypeScript, Go, Bash, SQL, and more.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Code runnables in Python, TypeScript, Go, Bash, SQL, and more.
   name: Windmill Scripts API
   slug: windmill-dev-scripts-api
-- description: Event triggers - HTTP, WebSocket, Kafka, NATS, Postgres, SQS, MQTT.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Event triggers - HTTP, WebSocket, Kafka, NATS, Postgres, SQS, MQTT.
   name: Windmill Triggers API
   slug: windmill-dev-triggers-api
-- description: Users, authentication, tokens, and service accounts.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Users, authentication, tokens, and service accounts.
   name: Windmill Users API
   slug: windmill-dev-users-api
-- description: Encrypted, path-scoped variables and secrets.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Encrypted, path-scoped variables and secrets.
   name: Windmill Variables API
   slug: windmill-dev-variables-api
-- description: The distributed worker fleet executing jobs.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The distributed worker fleet executing jobs.
   name: Windmill Workers API
   slug: windmill-dev-workers-api
-- description: Isolated tenants and their settings.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: Isolated tenants and their settings.
   name: Windmill Workspaces API
   slug: windmill-dev-workspaces-api
 artifact_total: 38
@@ -216,7 +246,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -239,8 +269,9 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/screenshots/windmill-dev-2026-09-02T170815.png
 security:
 - kind: authentication
   name: Windmill Dev Authentication

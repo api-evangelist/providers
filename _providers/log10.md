@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,32 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: API for submitting human and automated feedback on LLM completions, defining feedback tasks with structured scales, and accessing AutoFeedback predictions via GraphQL using completion identifiers.
+- baseURL: https://log10.io
+  baseurl_source: declared
+  description: API for submitting human and automated feedback on LLM completions, defining feedback tasks with structured scales, and accessing AutoFeedback predictions via GraphQL using completion identifiers.
   name: Log10 Feedback API
   slug: log10-feedback-api
 - description: API for running automated evaluations and benchmarking logged completions across multiple LLM providers, generating performance reports and accuracy insights to support model selection and prompt opti
   name: Log10 Evaluation API
   slug: log10-evaluation-api
-- description: Completions
+- baseURL: https://log10.io
+  baseurl_source: declared
+  description: Completions
   name: Log10 Completions API
   slug: log10-completions-api
-- description: Feedback
+- baseURL: https://log10.io
+  baseurl_source: declared
+  description: Feedback
   name: Log10 Feedback API
   slug: log10-feedback-api
-- description: FeedbackTasks
+- baseURL: https://log10.io
+  baseurl_source: declared
+  description: FeedbackTasks
   name: Log10 FeedbackTasks API
   slug: log10-feedbacktasks-api
-- description: Sessions
+- baseURL: https://log10.io
+  baseurl_source: declared
+  description: Sessions
   name: Log10 Sessions API
   slug: log10-sessions-api
 artifact_total: 28
@@ -262,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/screenshots/log10-2026-06-20T184646.png
 security:

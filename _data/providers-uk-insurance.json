@@ -16,11 +16,11 @@
      "slug": "beazley",
      "description": "Beazley plc is a London-headquartered specialty insurer and one of the largest managing agents at Lloyd's of London, underwriting through Lloyd's syndicates alongside US admitted and surplus lines carriers and a European company platform. Its book is specialty property and casualty — cyber and technology risks (where it is a global market leader), professional indemnity, management liability and directors and officers, marine, political risk, contingency, environmental, healthcare and property. Its home market is the United Kingdom, where there is no open-insurance mandate; the only market-wide data and API modernization effort is the Lloyd's Blueprint Two programme, and Beazley sat on the closed beta group that tested Lloyd's ACORD-based Core Data Record. Unusually for a carrier, Beazley operates a real first-party developer portal at developer.beazley.com — an Azure API Management portal with self-serve account signup, a publicly browsable catalog of 14 published APIs across nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png",
-     "score": 49.1,
+     "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 75.9,
       "contract_quality": 47.8,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -29,7 +29,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -65,68 +65,15 @@
      "rank": 1
     },
     {
-     "name": "PPL",
-     "slug": "ppl-london-market",
-     "description": "PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the market it serves, PPL lets brokers and carriers quote, negotiate, bind and renew open-market (re)insurance risks electronically across almost all classes of business written in London, and is used by roughly 200 carriers and 200 broking firms. It is market infrastructure rather than a carrier or a broker - it writes no insurance and carries no risk - and it is one of the accredited placing platforms underpinning Lloyd's Blueprint Two, generating the Core Data Record for bound business. Its API posture is unusual for insurance and genuinely good: the PPL Next Gen API Developer Portal at developer.pplnextgen.com is publicly readable and publishes a real API catalogue of five REST collections - Organisations, Placements, Submissions, Documents and Events - each with a downloadable OpenAPI 3.0 document and a Postman collection, built on REST standards and the ACORD GRLC (Global Reinsurance and Large Commercial) data model. Actually calling the APIs is market-gated rather than self-serve: consumers must be onboarded by PPL, subscribe to LIMOSS API Common Services, be guested into the Microsoft Entra ID (Azure AD) tenant of the LIMOSS API Gateway, and register an X.509 certificate per environment. The surface covers quote and bind (submission negotiation, contract negotiation, participations, firm order) and contract issuance via the Market Reform Contract document set; there is no claims or FNOL API, and no webhook or event-push surface - the Events API is pull-based.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/screenshots/ppl-london-market-2026-08-17T081327.png",
-     "score": 48.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 49.6,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 70.8,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 71.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 2
-    },
-    {
      "name": "Whitespace",
      "slug": "whitespace-london",
      "description": "Whitespace Software Limited is a London-based digital placing platform for the Lloyd's and London (re)insurance market, and one of only two electronic placing systems given fully recognised status by Lloyd's. Acquired by Verisk (via Sequel), Whitespace lets brokers and underwriters create, negotiate, quote, firm-order, line, sign and endorse fully digital subscription-market contracts in place of the traditional slip, across property and casualty, specialty, marine, aviation, energy and reinsurance business written in the United Kingdom and internationally. Its API posture is unusually strong for the insurance sector but only half open: the reference documentation is genuinely public and unauthenticated at apidocs.whitespace.co.uk, with a complete OpenAPI 3.0.0 description of 113 endpoints served through Swagger UI at swagger.whitespace.co.uk, yet there is no self-serve signup. Sandbox and production service tokens are issued by Whitespace Support to contracted broker, carrier and vendor organisations, are IP-allowlisted and expire within a year, so the integration surface itself is partner-gated. Whitespace is ACORD-native rather than merely ACORD-aware: it authored the JSON Market Reform Contract (JMRC) standard and donated it to ACORD for incorporation into the Global Reinsurance and Large Commercial data standards, and its Defined Data API returns contract values tagged with an ACORDGPM tagset alongside MRC headings. Event integration is delivered as per-client Azure Service Bus queues rather than webhooks, and no AsyncAPI, GraphQL or public Postman workspace is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/screenshots/whitespace-london-2026-08-17T082915.png",
-     "score": 45.6,
+     "score": 47.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 63.0,
       "contract_quality": 55.3,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -135,7 +82,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -168,6 +115,59 @@
       "agentic_commerce": false
      },
      "tier": "Market Bodies, Standards & Regulators",
+     "rank": 2
+    },
+    {
+     "name": "PPL",
+     "slug": "ppl-london-market",
+     "description": "PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the market it serves, PPL lets brokers and carriers quote, negotiate, bind and renew open-market (re)insurance risks electronically across almost all classes of business written in London, and is used by roughly 200 carriers and 200 broking firms. It is market infrastructure rather than a carrier or a broker - it writes no insurance and carries no risk - and it is one of the accredited placing platforms underpinning Lloyd's Blueprint Two, generating the Core Data Record for bound business. Its API posture is unusual for insurance and genuinely good: the PPL Next Gen API Developer Portal at developer.pplnextgen.com is publicly readable and publishes a real API catalogue of five REST collections - Organisations, Placements, Submissions, Documents and Events - each with a downloadable OpenAPI 3.0 document and a Postman collection, built on REST standards and the ACORD GRLC (Global Reinsurance and Large Commercial) data model. Actually calling the APIs is market-gated rather than self-serve: consumers must be onboarded by PPL, subscribe to LIMOSS API Common Services, be guested into the Microsoft Entra ID (Azure AD) tenant of the LIMOSS API Gateway, and register an X.509 certificate per environment. The surface covers quote and bind (submission negotiation, contract negotiation, participations, firm order) and contract issuance via the Market Reform Contract document set; there is no claims or FNOL API, and no webhook or event-push surface - the Events API is pull-based.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/screenshots/ppl-london-market-2026-08-17T081327.png",
+     "score": 47.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 49.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 70.8,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 71.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
      "rank": 3
     },
     {
@@ -188,7 +188,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -358,7 +358,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -411,7 +411,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -464,7 +464,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -517,7 +517,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -569,7 +569,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -622,7 +622,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -661,6 +661,7 @@
      "name": "Zego",
      "slug": "zego",
      "description": "Zego is an FCA-regulated UK insurtech providing flexible, technology-driven motor and public-liability insurance built for the gig economy. Its telematics app (Sense) rewards safe driving, and it covers food-delivery and courier riders, private-hire and taxi drivers, van drivers, fleets, and learner drivers with monthly or annual policies. Zego works with partners such as Uber, Deliveroo, Just Eat and Amazon Flex, has served around 750,000 drivers and sold over 94 million policies. Beyond consumer products, Zego operates a RESTful Partner API (developer.zego.com, base URL api.zego.com) that lets work providers activate and deactivate insurance cover per shift, register and validate customers, enrol customers on public liability, issue fixed-term policies, and match external users to Zego customers, with signed webhooks for sign-up integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zego/refs/heads/main/screenshots/zego-2026-09-02T171533.png",
      "score": 28.6,
      "band": "thin",
      "band_label": "Thin",
@@ -674,7 +675,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -727,7 +728,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -787,7 +788,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -851,7 +852,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -904,7 +905,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -957,7 +958,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -996,6 +997,7 @@
      "name": "Vitality",
      "slug": "vitality-uk",
      "description": "Vitality is a United Kingdom health and life insurer, operating as VitalityHealth and VitalityLife under the Vitality umbrella brand and owned by the South African financial services group Discovery Limited. Formed from the 2004 PruHealth joint venture with Prudential and the 2010 acquisition of Standard Life Healthcare, and rebranded to Vitality in 2014, it is the UK's third-largest private medical insurer behind Bupa and AXA, with roughly 1.9 million members and a shared-value model that prices private medical insurance, life cover and protection against member health and activity engagement. Its lines of business are private medical insurance, life insurance and protection, and workplace/employee benefits distributed through intermediaries, employee benefit consultants and bank partnerships rather than direct developer channels. Vitality's API posture is partner-gated and undocumented in public: it has modernised onto a WSO2 API Manager platform to decouple core policy and member services from front-end applications and to shorten partner onboarding, and it runs a publicly resolvable production API gateway at apis.vitality.co.uk, but it publishes no self-serve developer portal, no API reference, no OpenAPI or Swagger definitions and no public quote, bind, issue or FNOL endpoints. Credentials are issued through commercial partner onboarding and the gateway's OAuth2 client-credentials token endpoint rejects anonymous callers. There is no public ACORD, AL3 or NGDS reference for the UK entity, which is consistent with a life-and-health carrier in a market where ACORD adoption is concentrated in the London subscription market rather than in retail health and protection.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/screenshots/vitality-uk-2026-09-02T170104.png",
      "score": 23.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1009,7 +1011,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1062,7 +1064,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1115,7 +1117,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1168,7 +1170,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1228,7 +1230,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1288,7 +1290,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1341,7 +1343,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1380,6 +1382,7 @@
      "name": "Yulife",
      "slug": "yulife",
      "description": "YuLife is a London-founded (2016) technology-driven insurtech and employee benefits platform offering group life insurance, group health insurance, income protection and a gamified wellbeing app. Employees complete everyday wellness activities to earn YuCoin rewards, with access to an EAP, telemedicine and wellbeing apps such as Meditopia. A certified B Corp, YuLife insures 400k+ lives across the UK and US and sells to employers and brokers. It publishes no public developer API or portal; api.yulife.com is the internal app backend (issuer api.uk.yulife.com), and a Vanta Trust Center is at trust.yulife.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yulife/refs/heads/main/screenshots/yulife-2026-09-02T171358.png",
      "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1393,7 +1396,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1446,7 +1449,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1499,7 +1502,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1552,7 +1555,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1612,7 +1615,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1661,6 +1664,7 @@
      "name": "Superscript",
      "slug": "superscript",
      "description": "Superscript is a UK- and Netherlands-based business insurance provider offering flexible, subscription-based cover for small and growing businesses, sole traders, landlords, and larger enterprises. Its product range spans public and employers' liability, professional indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass it publishes no public API, developer portal, or programmatic integration surface; this profile captures its public web identity and probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superscript/refs/heads/main/screenshots/superscript-2026-09-02T161254.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1674,7 +1678,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1727,7 +1731,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1766,6 +1770,7 @@
      "name": "Urban Jungle",
      "slug": "urban-jungle",
      "description": "Urban Jungle Services Ltd is a London-based direct-to-consumer insurtech, founded in 2016 by Jimmy Williams and Greg Smyth to sell home insurance to \"Generation Rent\" — renters, sharers and students the traditional UK market underserves. It is an FCA-authorised intermediary (FRN 782061, company number 10414152, England and Wales) and a certified B Corp, selling contents, buildings and contents, students contents, tenants liability, landlord, home emergency and public liability cover through its own digital journey at myurbanjungle.com, and claiming over 100,000 customers. Its API posture is partner-gated and undocumented in public. Urban Jungle announced a partnership programme and quote API in 2018, positioned so lettings agents, PropTech firms, institutional landlords and eCommerce sites can serve Urban Jungle quotes inside their own apps without being directly FCA-regulated themselves, but there is no developer portal, no reference documentation, no machine- readable specification and no self-serve signup. The only route in is a partnerships email address on a marketing page. No ACORD, AL3 or NGDS reference appears anywhere on the company's site or in its front-end bundles.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urban-jungle/refs/heads/main/screenshots/urban-jungle-2026-09-02T165148.png",
      "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1779,7 +1784,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1839,7 +1844,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1892,7 +1897,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

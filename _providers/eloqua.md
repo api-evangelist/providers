@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -44,478 +44,794 @@ agentic_access:
   summary_line: 111 operations · 63 acting
 api_count: 3
 apis:
-- description: Export account data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Export account data in bulk
   name: Oracle Eloqua Account Exports API
   slug: eloqua-account-exports-api
-- description: Retrieve available account fields for mapping
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Retrieve available account fields for mapping
   name: Oracle Eloqua Account Fields API
   slug: eloqua-account-fields-api
-- description: Import account data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Import account data in bulk
   name: Oracle Eloqua Account Imports API
   slug: eloqua-account-imports-api
-- description: Manage account records and groups
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Manage account records and groups
   name: Oracle Eloqua Accounts API
   slug: eloqua-accounts-api
-- description: Export activity data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Export activity data in bulk
   name: Oracle Eloqua Activity Exports API
   slug: eloqua-activity-exports-api
-- description: Import activity data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Import activity data in bulk
   name: Oracle Eloqua Activity Imports API
   slug: eloqua-activity-imports-api
-- description: Create and manage marketing campaigns
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage marketing campaigns
   name: Oracle Eloqua Campaigns API
   slug: eloqua-campaigns-api
-- description: Export contact data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Export contact data in bulk
   name: Oracle Eloqua Contact Exports API
   slug: eloqua-contact-exports-api
-- description: Retrieve available contact fields for mapping
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Retrieve available contact fields for mapping
   name: Oracle Eloqua Contact Fields API
   slug: eloqua-contact-fields-api
-- description: Import contact data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Import contact data in bulk
   name: Oracle Eloqua Contact Imports API
   slug: eloqua-contact-imports-api
-- description: Create and manage contact lists
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage contact lists
   name: Oracle Eloqua Contact Lists API
   slug: eloqua-contact-lists-api
-- description: Create and manage contact segments
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage contact segments
   name: Oracle Eloqua Contact Segments API
   slug: eloqua-contact-segments-api
-- description: Manage contact records and data
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Manage contact records and data
   name: Oracle Eloqua Contacts API
   slug: eloqua-contacts-api
-- description: Export custom object data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Export custom object data in bulk
   name: Oracle Eloqua Custom Object Exports API
   slug: eloqua-custom-object-exports-api
-- description: Import custom object data in bulk
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Import custom object data in bulk
   name: Oracle Eloqua Custom Object Imports API
   slug: eloqua-custom-object-imports-api
-- description: Manage custom object definitions and data
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Manage custom object definitions and data
   name: Oracle Eloqua Custom Objects API
   slug: eloqua-custom-objects-api
-- description: Create and manage email assets
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage email assets
   name: Oracle Eloqua Emails API
   slug: eloqua-emails-api
-- description: Create and manage forms and form data
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage forms and form data
   name: Oracle Eloqua Forms API
   slug: eloqua-forms-api
-- description: Create and manage landing pages
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage landing pages
   name: Oracle Eloqua Landing Pages API
   slug: eloqua-landing-pages-api
-- description: Create and manage automation programs
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Create and manage automation programs
   name: Oracle Eloqua Programs API
   slug: eloqua-programs-api
-- description: Manage data synchronization operations
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Manage data synchronization operations
   name: Oracle Eloqua Syncs API
   slug: eloqua-syncs-api
-- description: Manage system users
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Manage system users
   name: Oracle Eloqua Users API
   slug: eloqua-users-api
-- description: An Oracle Eloqua Account provides group contact information. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Accounts'>Learn more about accounts</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: An Oracle Eloqua Account provides group contact information. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Accounts'>Learn more about accounts</a>.
   name: Oracle Eloqua Application/1.0/Accounts API
   slug: eloqua-application-1-0-accounts-api
-- description: Activities are tracked for individual contacts.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Activities are tracked for individual contacts.
   name: Oracle Eloqua Application/1.0/Activities API
   slug: eloqua-application-1-0-activities-api
-- description: Contact fields are the fields associated with a specific contact asset. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=ContactFields'>Learn more about contact fiel
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Contact fields are the fields associated with a specific contact asset. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=ContactFields'>Learn more about contact fiel
   name: Oracle Eloqua Application/1.0/Contact fields API
   slug: eloqua-application-1-0-contact-fields-api
-- description: Customized lists of contacts.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Customized lists of contacts.
   name: Oracle Eloqua Application/1.0/Contact list API
   slug: eloqua-application-1-0-contact-list-api
-- description: Segments API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Segments'>Learn more about segments</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Segments API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Segments'>Learn more about segments</a>.
   name: Oracle Eloqua Application/1.0/Contact segments API
   slug: eloqua-application-1-0-contact-segments-api
-- description: A contact is a data entity that contains the explicit data around an individual person in the database. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Contacts'>Le
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: A contact is a data entity that contains the explicit data around an individual person in the database. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Contacts'>Le
   name: Oracle Eloqua Application/1.0/Contacts API
   slug: eloqua-application-1-0-contacts-api
-- description: Content sections allow you to create shared content to use inside assets such as emails and landing pages. <a href='https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/index.html#CSHID=SharedC
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Content sections allow you to create shared content to use inside assets such as emails and landing pages. <a href='https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/index.html#CSHID=SharedC
   name: Oracle Eloqua Application/1.0/Content sections API
   slug: eloqua-application-1-0-content-sections-api
-- description: Custom object data are the records of custom object instances. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=CustomObjects'>Learn more about custom objects</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Custom object data are the records of custom object instances. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=CustomObjects'>Learn more about custom objects</a>.
   name: Oracle Eloqua Application/1.0/Custom object data API
   slug: eloqua-application-1-0-custom-object-data-api
-- description: 'Custom objects are a complement to the standard Data Entities (i.e. Contacts, Companies). Essentially, custom objects are used for two main functions: linking directly to a Contact and performing acti'
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: 'Custom objects are a complement to the standard Data Entities (i.e. Contacts, Companies). Essentially, custom objects are used for two main functions: linking directly to a Contact and performing acti'
   name: Oracle Eloqua Application/1.0/Custom objects API
   slug: eloqua-application-1-0-custom-objects-api
-- description: Email folders organize your email assets. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Emails'>Learn more about emails</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Email folders organize your email assets. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Emails'>Learn more about emails</a>.
   name: Oracle Eloqua Application/1.0/Email folders API
   slug: eloqua-application-1-0-email-folders-api
-- description: Email footers are used to customize the look and feel of the bottom of your email. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EmailFooters'>Learn more about em
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Email footers are used to customize the look and feel of the bottom of your email. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EmailFooters'>Learn more about em
   name: Oracle Eloqua Application/1.0/Email footers API
   slug: eloqua-application-1-0-email-footers-api
-- description: Email Groups are used to control default settings for similar types of emails. For instance, you can set the default header, footer, subscription landing page, and unsubscribe landing page for a set o
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Email Groups are used to control default settings for similar types of emails. For instance, you can set the default header, footer, subscription landing page, and unsubscribe landing page for a set o
   name: Oracle Eloqua Application/1.0/Email groups API
   slug: eloqua-application-1-0-email-groups-api
-- description: Email headers are used to customize the look and feel of the top of your email. Headers can be used in your emails for branding purposes (your company's logo), to provide links to other (external) res
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Email headers are used to customize the look and feel of the top of your email. Headers can be used in your emails for branding purposes (your company's logo), to provide links to other (external) res
   name: Oracle Eloqua Application/1.0/Email headers API
   slug: eloqua-application-1-0-email-headers-api
-- description: Despite vast innovations and improvements to other channels of communication with prospects, emails are still central to many marketing campaigns. You can reach a large number of existing and potentia
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Despite vast innovations and improvements to other channels of communication with prospects, emails are still central to many marketing campaigns. You can reach a large number of existing and potentia
   name: Oracle Eloqua Application/1.0/Emails API
   slug: eloqua-application-1-0-emails-api
-- description: Form data are the submissions for a form. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about forms</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Form data are the submissions for a form. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about forms</a>.
   name: Oracle Eloqua Application/1.0/Form data API
   slug: eloqua-application-1-0-form-data-api
-- description: Form data are the submissions for a form. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about Forms</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Form data are the submissions for a form. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about Forms</a>.
   name: Oracle Eloqua Application/1.0/Forms API
   slug: eloqua-application-1-0-forms-api
-- description: Image assets to be used in places such as emails or landing pages. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Images'>Learn more about images</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Image assets to be used in places such as emails or landing pages. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Images'>Learn more about images</a>.
   name: Oracle Eloqua Application/1.0/Images API
   slug: eloqua-application-1-0-images-api
-- description: Landing pages are often the first significant part of a campaign that a contact will see. A contact may be directed to your landing page from a link in an email or from an ad on the web. The landing p
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Landing pages are often the first significant part of a campaign that a contact will see. A contact may be directed to your landing page from a link in an email or from an ad on the web. The landing p
   name: Oracle Eloqua Application/1.0/Landing pages API
   slug: eloqua-application-1-0-landing-pages-api
-- description: 'A microsite is a miniature website, often dedicated to a specific campaign, product, or keyword. The purpose is to give a visitor (whether channeled through your website, social media assets, emails, '
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: 'A microsite is a miniature website, often dedicated to a specific campaign, product, or keyword. The purpose is to give a visitor (whether channeled through your website, social media assets, emails, '
   name: Oracle Eloqua Application/1.0/Microsites API
   slug: eloqua-application-1-0-microsites-api
-- description: Option lists are usually referred to on the marketers' side as select lists or pick lists. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=PickLists'>Learn more abo
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Option lists are usually referred to on the marketers' side as select lists or pick lists. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=PickLists'>Learn more abo
   name: Oracle Eloqua Application/1.0/Option lists API
   slug: eloqua-application-1-0-option-lists-api
-- description: Users API endpoints. The API allows you to modify such things as a user's time preference. <a href='https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/UserManagement/UserManagement.htm'>
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Users API endpoints. The API allows you to modify such things as a user's time preference. <a href='https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/UserManagement/UserManagement.htm'>
   name: Oracle Eloqua Application/1.0/Users API
   slug: eloqua-application-1-0-users-api
-- description: An Oracle Eloqua Account Group provides the ability to group multiple companies into an Account Group. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Accounts'>Lea
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: An Oracle Eloqua Account Group provides the ability to group multiple companies into an Account Group. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Accounts'>Lea
   name: Oracle Eloqua Application/2.0/Account groups API
   slug: eloqua-application-2-0-account-groups-api
-- description: An Oracle Eloqua Account provides group contact information. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Accounts'>Learn more about accounts</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: An Oracle Eloqua Account provides group contact information. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Accounts'>Learn more about accounts</a>.
   name: Oracle Eloqua Application/2.0/Accounts API
   slug: eloqua-application-2-0-accounts-api
-- description: Activities API endpoint.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Activities API endpoint.
   name: Oracle Eloqua Application/2.0/Activities API
   slug: eloqua-application-2-0-activities-api
-- description: The Audit Log API endpoint enables initiating a request for <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EloquaAuditing'>Eloqua audit log</a> exports using the A
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The Audit Log API endpoint enables initiating a request for <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EloquaAuditing'>Eloqua audit log</a> exports using the A
   name: Oracle Eloqua Application/2.0/Audit logs API
   slug: eloqua-application-2-0-audit-logs-api
-- description: Campaign fields are the fields associated with a specific campaign asset. <a href='https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Administration/Tasks/ConfiguringCustomCampaignFields
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Campaign fields are the fields associated with a specific campaign asset. <a href='https://docs.oracle.com/en/cloud/saas/marketing/eloqua-user/Help/Administration/Tasks/ConfiguringCustomCampaignFields
   name: Oracle Eloqua Application/2.0/Campaign fields API
   slug: eloqua-application-2-0-campaign-fields-api
-- description: Campaign folders organize your campaign assets.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Campaign folders organize your campaign assets.
   name: Oracle Eloqua Application/2.0/Campaign folders API
   slug: eloqua-application-2-0-campaign-folders-api
-- description: Marketing campaigns are at the center of the Eloqua application, campaigns are comprised of different elements (such as segments, emails, landing pages, etc.) that are used to perform a variety of fun
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Marketing campaigns are at the center of the Eloqua application, campaigns are comprised of different elements (such as segments, emails, landing pages, etc.) that are used to perform a variety of fun
   name: Oracle Eloqua Application/2.0/Campaigns API
   slug: eloqua-application-2-0-campaigns-api
-- description: Contact filter folders organize your contact filters.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Contact filter folders organize your contact filters.
   name: Oracle Eloqua Application/2.0/Contact filter folders API
   slug: eloqua-application-2-0-contact-filter-folders-api
-- description: Contact list folders organize your contact lists.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Contact list folders organize your contact lists.
   name: Oracle Eloqua Application/2.0/Contact list folders API
   slug: eloqua-application-2-0-contact-list-folders-api
-- description: Contact segment folders to organize your segments.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Contact segment folders to organize your segments.
   name: Oracle Eloqua Application/2.0/Contact segment folders API
   slug: eloqua-application-2-0-contact-segment-folders-api
-- description: Contact segments are groups of contacts generated based on filter criteria and contact lists. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Segments'>Learn more a
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Contact segments are groups of contacts generated based on filter criteria and contact lists. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Segments'>Learn more a
   name: Oracle Eloqua Application/2.0/Contact segments API
   slug: eloqua-application-2-0-contact-segments-api
-- description: A contact is a data entity that contains the explicit data around an individual person in the database. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Contacts'>Le
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: A contact is a data entity that contains the explicit data around an individual person in the database. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Contacts'>Le
   name: Oracle Eloqua Application/2.0/Contacts API
   slug: eloqua-application-2-0-contacts-api
-- description: Countries API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Countries API endpoints.
   name: Oracle Eloqua Application/2.0/Countries API
   slug: eloqua-application-2-0-countries-api
-- description: Custom object data are the records of custom object instances. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=CustomObjects'>Learn more about custom objects</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Custom object data are the records of custom object instances. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=CustomObjects'>Learn more about custom objects</a>.
   name: Oracle Eloqua Application/2.0/Custom object data API
   slug: eloqua-application-2-0-custom-object-data-api
-- description: 'Custom objects are a complement to the standard Data Entities (i.e. Contacts, Companies). Essentially, custom objects are used for two main functions: linking directly to a Contact and performing acti'
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: 'Custom objects are a complement to the standard Data Entities (i.e. Contacts, Companies). Essentially, custom objects are used for two main functions: linking directly to a Contact and performing acti'
   name: Oracle Eloqua Application/2.0/Custom objects API
   slug: eloqua-application-2-0-custom-objects-api
-- description: Dedupe Rule endpoints
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Dedupe Rule endpoints
   name: Oracle Eloqua Application/2.0/Dedupe Rules API
   slug: eloqua-application-2-0-dedupe-rules-api
-- description: 'The email deployment API is used to send and retrieve email deployments. There are two methods for creating and sending email deployments: to a single contact, or to a low volume of contacts (up to 10'
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: 'The email deployment API is used to send and retrieve email deployments. There are two methods for creating and sending email deployments: to a single contact, or to a low volume of contacts (up to 10'
   name: Oracle Eloqua Application/2.0/Email deployment API
   slug: eloqua-application-2-0-email-deployment-api
-- description: Email folders organize your email assets.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Email folders organize your email assets.
   name: Oracle Eloqua Application/2.0/Email folders API
   slug: eloqua-application-2-0-email-folders-api
-- description: Emails API Endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Emails'>Learn more about emails</a>. Creating and updating emails with the type <code>Responsi
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Emails API Endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Emails'>Learn more about emails</a>. Creating and updating emails with the type <code>Responsi
   name: Oracle Eloqua Application/2.0/Emails API
   slug: eloqua-application-2-0-emails-api
-- description: The event registration API is used to manage event registrants. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EventManagement'>Learn more about Event Management</
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The event registration API is used to manage event registrants. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EventManagement'>Learn more about Event Management</
   name: Oracle Eloqua Application/2.0/Event registrants API
   slug: eloqua-application-2-0-event-registrants-api
-- description: The events API is used to manage events. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EventManagement'>Learn more about Event Management</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The events API is used to manage events. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=EventManagement'>Learn more about Event Management</a>.
   name: Oracle Eloqua Application/2.0/Events API
   slug: eloqua-application-2-0-events-api
-- description: External activities are non-Eloqua (that is, offline) activities performed by your contacts or prospects. These assets can be imported for use in Eloqua campaign reporting. External asset types is the
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: External activities are non-Eloqua (that is, offline) activities performed by your contacts or prospects. These assets can be imported for use in Eloqua campaign reporting. External asset types is the
   name: Oracle Eloqua Application/2.0/External activities API
   slug: eloqua-application-2-0-external-activities-api
-- description: External activities are non-Eloqua (that is, offline) activities performed by your contacts or prospects. These assets can be imported for use in Eloqua campaign reporting. External asset types is the
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: External activities are non-Eloqua (that is, offline) activities performed by your contacts or prospects. These assets can be imported for use in Eloqua campaign reporting. External asset types is the
   name: Oracle Eloqua Application/2.0/External asset types API
   slug: eloqua-application-2-0-external-asset-types-api
-- description: External assets are non-Eloqua (that is, offline) activities performed by your contacts or prospects. These assets can be imported for use in Eloqua campaign reporting. <a href='https://docs.oracle.co
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: External assets are non-Eloqua (that is, offline) activities performed by your contacts or prospects. These assets can be imported for use in Eloqua campaign reporting. <a href='https://docs.oracle.co
   name: Oracle Eloqua Application/2.0/External assets API
   slug: eloqua-application-2-0-external-assets-api
-- description: Form data are the submissions for a form. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about Forms</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Form data are the submissions for a form. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about Forms</a>.
   name: Oracle Eloqua Application/2.0/Form data API
   slug: eloqua-application-2-0-form-data-api
-- description: Form folders organize your form assets.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Form folders organize your form assets.
   name: Oracle Eloqua Application/2.0/Form folders API
   slug: eloqua-application-2-0-form-folders-api
-- description: Forms API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about Forms</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Forms API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=Forms'>Learn more about Forms</a>.
   name: Oracle Eloqua Application/2.0/Forms API
   slug: eloqua-application-2-0-forms-api
-- description: Hyperlink folders organize your hyperlinks.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Hyperlink folders organize your hyperlinks.
   name: Oracle Eloqua Application/2.0/Hyperlink folders API
   slug: eloqua-application-2-0-hyperlink-folders-api
-- description: Image folders organize your image assets.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Image folders organize your image assets.
   name: Oracle Eloqua Application/2.0/Image folders API
   slug: eloqua-application-2-0-image-folders-api
-- description: Landing Pages API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=LandingPages'>Learn more about landing pages</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Landing Pages API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=LandingPages'>Learn more about landing pages</a>.
   name: Oracle Eloqua Application/2.0/Landing pages API
   slug: eloqua-application-2-0-landing-pages-api
-- description: Lookup table endpoints
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Lookup table endpoints
   name: Oracle Eloqua Application/2.0/Lookup tables API
   slug: eloqua-application-2-0-lookup-tables-api
-- description: Programs API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=ProgramCanvas'>Learn more about Programs</a>.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Programs API endpoints. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=ProgramCanvas'>Learn more about Programs</a>.
   name: Oracle Eloqua Application/2.0/Programs API
   slug: eloqua-application-2-0-programs-api
-- description: Security group API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Security group API endpoints.
   name: Oracle Eloqua Application/2.0/Security groups API
   slug: eloqua-application-2-0-security-groups-api
-- description: Signature rule mappings API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Signature rule mappings API endpoints.
   name: Oracle Eloqua Application/2.0/Signature Rule Mappings API
   slug: eloqua-application-2-0-signature-rule-mappings-api
-- description: Signature rules API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Signature rules API endpoints.
   name: Oracle Eloqua Application/2.0/Signature Rules API
   slug: eloqua-application-2-0-signature-rules-api
-- description: SMS API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: SMS API endpoints.
   name: Oracle Eloqua Application/2.0/SMS API
   slug: eloqua-application-2-0-sms-api
-- description: SMS sender codes API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: SMS sender codes API endpoints.
   name: Oracle Eloqua Application/2.0/SMS codes API
   slug: eloqua-application-2-0-sms-codes-api
-- description: SMS folders organize your SMS assets.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: SMS folders organize your SMS assets.
   name: Oracle Eloqua Application/2.0/SMS folders API
   slug: eloqua-application-2-0-sms-folders-api
-- description: SMS invalid keyword response message API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: SMS invalid keyword response message API endpoints.
   name: Oracle Eloqua Application/2.0/SMS invalid keyword messages API
   slug: eloqua-application-2-0-sms-invalid-keyword-messages-api
-- description: SMS keywords API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: SMS keywords API endpoints.
   name: Oracle Eloqua Application/2.0/SMS keywords API
   slug: eloqua-application-2-0-sms-keywords-api
-- description: The SMS subscription API is used to manage phone number consent.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The SMS subscription API is used to manage phone number consent.
   name: Oracle Eloqua Application/2.0/SMS subscription API
   slug: eloqua-application-2-0-sms-subscription-api
-- description: Users API endpoints.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: Users API endpoints.
   name: Oracle Eloqua Application/2.0/Users API
   slug: eloqua-application-2-0-users-api
-- description: A visitor profile field are the fields associated to a website visitor. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=VisitorProfileFields'>Learn more about Visit
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: A visitor profile field are the fields associated to a website visitor. <a href='https://docs.oracle.com/cloud/latest/marketingcs_gs/OMCAA/index.html#CSHID=VisitorProfileFields'>Learn more about Visit
   name: Oracle Eloqua Application/2.0/Visitor profile fields API
   slug: eloqua-application-2-0-visitor-profile-fields-api
-- description: A visitor is a data entity that represents a unique cookie. The tracked activity data from that cookie is associated with the Visitor. There can be multiple visitors linked to a single contact.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: A visitor is a data entity that represents a unique cookie. The tracked activity data from that cookie is associated with the Visitor. There can be multiple visitors linked to a single contact.
   name: Oracle Eloqua Application/2.0/Visitors API
   slug: eloqua-application-2-0-visitors-api
-- description: The operations from the Bulk/2.0/accounts category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/accounts category.
   name: Oracle Eloqua Bulk/2.0/accounts API
   slug: eloqua-bulk-2-0-accounts-api
-- description: The operations from the Bulk/2.0/activities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/activities category.
   name: Oracle Eloqua Bulk/2.0/activities API
   slug: eloqua-bulk-2-0-activities-api
-- description: The operations from the Bulk/2.0/campaignResponses category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/campaignResponses category.
   name: Oracle Eloqua Bulk/2.0/campaign Responses API
   slug: eloqua-bulk-2-0-campaignresponses-api
-- description: The operations from the Bulk/2.0/campaigns category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/campaigns category.
   name: Oracle Eloqua Bulk/2.0/campaigns API
   slug: eloqua-bulk-2-0-campaigns-api
-- description: The operations from the Bulk/2.0/contacts category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/contacts category.
   name: Oracle Eloqua Bulk/2.0/contacts API
   slug: eloqua-bulk-2-0-contacts-api
-- description: The operations from the Bulk/2.0/customObjects category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/customObjects category.
   name: Oracle Eloqua Bulk/2.0/custom Objects API
   slug: eloqua-bulk-2-0-customobjects-api
-- description: The operations from the Bulk/2.0/emailAddresses category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/emailAddresses category.
   name: Oracle Eloqua Bulk/2.0/email Addresses API
   slug: eloqua-bulk-2-0-emailaddresses-api
-- description: The operations from the Bulk/2.0/emailGroups category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/emailGroups category.
   name: Oracle Eloqua Bulk/2.0/email Groups API
   slug: eloqua-bulk-2-0-emailgroups-api
-- description: The operations from the Bulk/2.0/events category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/events category.
   name: Oracle Eloqua Bulk/2.0/events API
   slug: eloqua-bulk-2-0-events-api
-- description: The operations from the Bulk/2.0/exports category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/exports category.
   name: Oracle Eloqua Bulk/2.0/exports API
   slug: eloqua-bulk-2-0-exports-api
-- description: The operations from the Bulk/2.0/imports category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/imports category.
   name: Oracle Eloqua Bulk/2.0/imports API
   slug: eloqua-bulk-2-0-imports-api
-- description: The operations from the Bulk/2.0/opportunities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/opportunities category.
   name: Oracle Eloqua Bulk/2.0/opportunities API
   slug: eloqua-bulk-2-0-opportunities-api
-- description: The operations from the Bulk/2.0/phoneNumbers category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/phoneNumbers category.
   name: Oracle Eloqua Bulk/2.0/phone Numbers API
   slug: eloqua-bulk-2-0-phonenumbers-api
-- description: The operations from the Bulk/2.0/syncActions category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/syncActions category.
   name: Oracle Eloqua Bulk/2.0/sync Actions API
   slug: eloqua-bulk-2-0-syncactions-api
-- description: The operations from the Bulk/2.0/syncs category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Bulk/2.0/syncs category.
   name: Oracle Eloqua Bulk/2.0/syncs API
   slug: eloqua-bulk-2-0-syncs-api
-- description: The operations from the Reporting/AccountActivity/1.0/Account category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/AccountActivity/1.0/Account category.
   name: Oracle Eloqua Reporting/Account Activity/1.0/Account API
   slug: eloqua-reporting-accountactivity-1-0-account-api
-- description: The operations from the Reporting/AccountActivity/1.0/AccountEngagement category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/AccountActivity/1.0/AccountEngagement category.
   name: Oracle Eloqua Reporting/Account Activity/1.0/Account Engagement API
   slug: eloqua-reporting-accountactivity-1-0-accountengagement-api
-- description: The operations from the Reporting/ActivityDetails/1.0/Campaign category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/Campaign category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Campaign API
   slug: eloqua-reporting-activitydetails-1-0-campaign-api
-- description: The operations from the Reporting/ActivityDetails/1.0/CampaignResponse category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/CampaignResponse category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Campaign Response API
   slug: eloqua-reporting-activitydetails-1-0-campaignresponse-api
-- description: The operations from the Reporting/ActivityDetails/1.0/Contact category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/Contact category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Contact API
   slug: eloqua-reporting-activitydetails-1-0-contact-api
-- description: The operations from the Reporting/ActivityDetails/1.0/ContactIntegrationFields category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/ContactIntegrationFields category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Contact Integration Fields API
   slug: eloqua-reporting-activitydetails-1-0-contactintegrationfields-api
-- description: The operations from the Reporting/ActivityDetails/1.0/Device category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/Device category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Device API
   slug: eloqua-reporting-activitydetails-1-0-device-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EloquaLinkedAccount category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EloquaLinkedAccount category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Eloqua Linked Account API
   slug: eloqua-reporting-activitydetails-1-0-eloqualinkedaccount-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailAsset category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Asset API
   slug: eloqua-reporting-activitydetails-1-0-emailasset-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailAutoClick category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailAutoClick category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Auto Click API
   slug: eloqua-reporting-activitydetails-1-0-emailautoclick-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailAutoOpen category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailAutoOpen category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Auto Open API
   slug: eloqua-reporting-activitydetails-1-0-emailautoopen-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailBounceback category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailBounceback category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Bounceback API
   slug: eloqua-reporting-activitydetails-1-0-emailbounceback-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailClickthrough category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailClickthrough category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Clickthrough API
   slug: eloqua-reporting-activitydetails-1-0-emailclickthrough-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailGroup category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailGroup category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Group API
   slug: eloqua-reporting-activitydetails-1-0-emailgroup-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailGroupSubscriptionStatus category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailGroupSubscriptionStatus category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Group Subscription Status API
   slug: eloqua-reporting-activitydetails-1-0-emailgroupsubscriptionstatus-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailOpen category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailOpen category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Open API
   slug: eloqua-reporting-activitydetails-1-0-emailopen-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailSend category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailSend category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Send API
   slug: eloqua-reporting-activitydetails-1-0-emailsend-api
-- description: The operations from the Reporting/ActivityDetails/1.0/EmailUnsubscribe category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/EmailUnsubscribe category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Email Unsubscribe API
   slug: eloqua-reporting-activitydetails-1-0-emailunsubscribe-api
-- description: The operations from the Reporting/ActivityDetails/1.0/FormSubmission category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/FormSubmission category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Form Submission API
   slug: eloqua-reporting-activitydetails-1-0-formsubmission-api
-- description: The operations from the Reporting/ActivityDetails/1.0/LandingPageVisit category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/LandingPageVisit category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Landing Page Visit API
   slug: eloqua-reporting-activitydetails-1-0-landingpagevisit-api
-- description: The operations from the Reporting/ActivityDetails/1.0/Referrer category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/Referrer category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Referrer API
   slug: eloqua-reporting-activitydetails-1-0-referrer-api
-- description: The operations from the Reporting/ActivityDetails/1.0/Segment category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/Segment category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Segment API
   slug: eloqua-reporting-activitydetails-1-0-segment-api
-- description: The operations from the Reporting/ActivityDetails/1.0/SpamUnsubscribesByEmail category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/SpamUnsubscribesByEmail category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/Spam Unsubscribes By Email API
   slug: eloqua-reporting-activitydetails-1-0-spamunsubscribesbyemail-api
-- description: The operations from the Reporting/ActivityDetails/1.0/User category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/ActivityDetails/1.0/User category.
   name: Oracle Eloqua Reporting/Activity Details/1.0/User API
   slug: eloqua-reporting-activitydetails-1-0-user-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/Calendar category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/Calendar category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Calendar API
   slug: eloqua-reporting-campaignanalysis-1-0-calendar-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/Campaign category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/Campaign category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Campaign API
   slug: eloqua-reporting-campaignanalysis-1-0-campaign-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/EmailActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/EmailActivities category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Email Activities API
   slug: eloqua-reporting-campaignanalysis-1-0-emailactivities-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/EmailAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/EmailAsset category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Email Asset API
   slug: eloqua-reporting-campaignanalysis-1-0-emailasset-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/ExternalActivityTotals category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/ExternalActivityTotals category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/External Activity Totals API
   slug: eloqua-reporting-campaignanalysis-1-0-externalactivitytotals-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/FormActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/FormActivities category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Form Activities API
   slug: eloqua-reporting-campaignanalysis-1-0-formactivities-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/LandingPageActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/LandingPageActivities category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Landing Page Activities API
   slug: eloqua-reporting-campaignanalysis-1-0-landingpageactivities-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/LandingPageAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/LandingPageAsset category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Landing Page Asset API
   slug: eloqua-reporting-campaignanalysis-1-0-landingpageasset-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/LeadActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/LeadActivities category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Lead Activities API
   slug: eloqua-reporting-campaignanalysis-1-0-leadactivities-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/MarketingActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/MarketingActivities category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Marketing Activities API
   slug: eloqua-reporting-campaignanalysis-1-0-marketingactivities-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/Segment category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/Segment category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Segment API
   slug: eloqua-reporting-campaignanalysis-1-0-segment-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/User category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/User category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/User API
   slug: eloqua-reporting-campaignanalysis-1-0-user-api
-- description: The operations from the Reporting/CampaignAnalysis/1.0/WebActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignAnalysis/1.0/WebActivities category.
   name: Oracle Eloqua Reporting/Campaign Analysis/1.0/Web Activities API
   slug: eloqua-reporting-campaignanalysis-1-0-webactivities-api
-- description: The operations from the Reporting/CampaignExternalActivity/1.0/ExternalActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignExternalActivity/1.0/ExternalActivities category.
   name: Oracle Eloqua Reporting/Campaign External Activity/1.0/External Activities API
   slug: eloqua-reporting-campaignexternalactivity-1-0-externalactivities-api
-- description: The operations from the Reporting/CampaignExternalActivity/1.0/ExternalActivityAttributes category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/CampaignExternalActivity/1.0/ExternalActivityAttributes category.
   name: Oracle Eloqua Reporting/Campaign External Activity/1.0/External Activity Attributes API
   slug: eloqua-reporting-campaignexternalactivity-1-0-externalactivityattributes-api
-- description: The operations from the Reporting/FormSubmission/1.0/Calendar category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/Calendar category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Calendar API
   slug: eloqua-reporting-formsubmission-1-0-calendar-api
-- description: The operations from the Reporting/FormSubmission/1.0/Campaign category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/Campaign category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Campaign API
   slug: eloqua-reporting-formsubmission-1-0-campaign-api
-- description: The operations from the Reporting/FormSubmission/1.0/EmailAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/EmailAsset category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Email Asset API
   slug: eloqua-reporting-formsubmission-1-0-emailasset-api
-- description: The operations from the Reporting/FormSubmission/1.0/FormAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/FormAsset category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Form Asset API
   slug: eloqua-reporting-formsubmission-1-0-formasset-api
-- description: The operations from the Reporting/FormSubmission/1.0/FormSubmissionActivities category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/FormSubmissionActivities category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Form Submission Activities API
   slug: eloqua-reporting-formsubmission-1-0-formsubmissionactivities-api
-- description: The operations from the Reporting/FormSubmission/1.0/LandingPageAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/LandingPageAsset category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Landing Page Asset API
   slug: eloqua-reporting-formsubmission-1-0-landingpageasset-api
-- description: The operations from the Reporting/FormSubmission/1.0/User category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/User category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/User API
   slug: eloqua-reporting-formsubmission-1-0-user-api
-- description: The operations from the Reporting/FormSubmission/1.0/WebPage category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/FormSubmission/1.0/WebPage category.
   name: Oracle Eloqua Reporting/Form Submission/1.0/Web Page API
   slug: eloqua-reporting-formsubmission-1-0-webpage-api
-- description: The operations from the Reporting/LandingPageAnalysis/1.0/Calendar category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/LandingPageAnalysis/1.0/Calendar category.
   name: Oracle Eloqua Reporting/Landing Page Analysis/1.0/Calendar API
   slug: eloqua-reporting-landingpageanalysis-1-0-calendar-api
-- description: The operations from the Reporting/LandingPageAnalysis/1.0/LandingPageActivity category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/LandingPageAnalysis/1.0/LandingPageActivity category.
   name: Oracle Eloqua Reporting/Landing Page Analysis/1.0/Landing Page Activity API
   slug: eloqua-reporting-landingpageanalysis-1-0-landingpageactivity-api
-- description: The operations from the Reporting/LandingPageAnalysis/1.0/LandingPageAsset category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/LandingPageAnalysis/1.0/LandingPageAsset category.
   name: Oracle Eloqua Reporting/Landing Page Analysis/1.0/Landing Page Asset API
   slug: eloqua-reporting-landingpageanalysis-1-0-landingpageasset-api
-- description: The operations from the Reporting/OpportunityAnalysis/1.0/Account category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/OpportunityAnalysis/1.0/Account category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Account API
   slug: eloqua-reporting-opportunityanalysis-1-0-account-api
-- description: The operations from the Reporting/OpportunityAnalysis/1.0/AccountCampaignScore category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/OpportunityAnalysis/1.0/AccountCampaignScore category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Account Campaign Score API
   slug: eloqua-reporting-opportunityanalysis-1-0-accountcampaignscore-api
-- description: The operations from the Reporting/OpportunityAnalysis/1.0/AccountEngagement category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/OpportunityAnalysis/1.0/AccountEngagement category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Account Engagement API
   slug: eloqua-reporting-opportunityanalysis-1-0-accountengagement-api
-- description: The operations from the Reporting/OpportunityAnalysis/1.0/Contact category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/OpportunityAnalysis/1.0/Contact category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Contact API
   slug: eloqua-reporting-opportunityanalysis-1-0-contact-api
-- description: The operations from the Reporting/OpportunityAnalysis/1.0/Opportunity category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/OpportunityAnalysis/1.0/Opportunity category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Opportunity API
   slug: eloqua-reporting-opportunityanalysis-1-0-opportunity-api
-- description: The operations from the Reporting/OpportunityAnalysis/1.0/OpportunityRevenue category.
+- baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
+  baseurl_source: declared
+  description: The operations from the Reporting/OpportunityAnalysis/1.0/OpportunityRevenue category.
   name: Oracle Eloqua Reporting/Opportunity Analysis/1.0/Opportunity Revenue API
   slug: eloqua-reporting-opportunityanalysis-1-0-opportunityrevenue-api
 artifact_total: 195
@@ -787,7 +1103,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -797,7 +1113,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 57.9
-  previous_composite: 50.5
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -809,7 +1125,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/screenshots/eloqua-2026-06-20T180617.png
 security:

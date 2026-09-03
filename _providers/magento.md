@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -51,46 +51,72 @@ apis:
 - description: 'The Adobe Commerce SOAP API exposes the same service contracts as the REST API through a WSDL 1.2 interface compliant with WS-I 2.0 Basic Profile. It allows enterprise systems and legacy integrations '
   name: Magento SOAP API
   slug: soap-api
-- description: Adobe Commerce Webhooks enable developers to configure synchronous HTTP callbacks that fire when specific events occur within a Commerce instance, allowing external systems to react in real time to st
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Adobe Commerce Webhooks enable developers to configure synchronous HTTP callbacks that fire when specific events occur within a Commerce instance, allowing external systems to react in real time to st
   name: Adobe Commerce Webhooks
   slug: webhooks
 - description: The Adobe Commerce Admin UI SDK enables App Builder developers to extend the Commerce Admin panel with custom menus, pages, and UI components built as out-of-process applications. Rather than modifyin
   name: Adobe Commerce Admin UI SDK
   slug: admin-ui-sdk
-- description: Adobe Commerce Eventing provides an asynchronous event-driven integration framework that publishes Commerce business events to Adobe I/O Events, enabling App Builder applications and other Adobe Exper
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Adobe Commerce Eventing provides an asynchronous event-driven integration framework that publishes Commerce business events to Adobe I/O Events, enabling App Builder applications and other Adobe Exper
   name: Adobe Commerce Eventing
   slug: events
-- description: Endpoints for obtaining integration tokens for admin and customer users. Token-based authentication issues a Bearer token that must be included in the Authorization header of subsequent requests.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Endpoints for obtaining integration tokens for admin and customer users. Token-based authentication issues a Bearer token that must be included in the Authorization header of subsequent requests.
   name: magento Authentication API
   slug: magento-authentication-api
-- description: Shopping cart and quote management for admin, customer, and guest users, including item management, coupon codes, shipping estimation, and payment information collection.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Shopping cart and quote management for admin, customer, and guest users, including item management, coupon codes, shipping estimation, and payment information collection.
   name: magento Carts API
   slug: magento-carts-api
-- description: Category tree management including creation, retrieval, update, and deletion of catalog categories and their product assignments.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Category tree management including creation, retrieval, update, and deletion of catalog categories and their product assignments.
   name: magento Categories API
   slug: magento-categories-api
-- description: Customer account management including registration, profile updates, address management, authentication, and customer group assignment.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Customer account management including registration, profile updates, address management, authentication, and customer group assignment.
   name: magento Customers API
   slug: magento-customers-api
-- description: Multi-source inventory management including sources, stocks, stock-source links, and source item quantity management.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Multi-source inventory management including sources, stocks, stock-source links, and source item quantity management.
   name: magento Inventory API
   slug: magento-inventory-api
-- description: Invoice management for orders including invoice creation, retrieval, and payment capture operations.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Invoice management for orders including invoice creation, retrieval, and payment capture operations.
   name: magento Invoices API
   slug: magento-invoices-api
-- description: Sales order management including order retrieval, status updates, comment posting, cancellation, and order item management.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Sales order management including order retrieval, status updates, comment posting, cancellation, and order item management.
   name: magento Orders API
   slug: magento-orders-api
-- description: Catalog product management including creation, retrieval, update, and deletion of simple, configurable, virtual, bundled, and grouped products. Supports product attributes, media, pricing rules, and c
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Catalog product management including creation, retrieval, update, and deletion of simple, configurable, virtual, bundled, and grouped products. Supports product attributes, media, pricing rules, and c
   name: magento Products API
   slug: magento-products-api
-- description: Shipment management for orders including shipment creation, retrieval, tracking number management, and shipment comments.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Shipment management for orders including shipment creation, retrieval, tracking number management, and shipment comments.
   name: magento Shipments API
   slug: magento-shipments-api
-- description: Store configuration retrieval including store groups, store views, websites, and configuration settings.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Store configuration retrieval including store groups, store views, websites, and configuration settings.
   name: magento Stores API
   slug: magento-stores-api
-- description: Tax configuration management including tax rates, tax rules, and tax classes used for order tax calculation.
+- baseURL: https://your-store.example.com/rest
+  baseurl_source: declared
+  description: Tax configuration management including tax rates, tax rules, and tax classes used for order tax calculation.
   name: magento Tax API
   slug: magento-tax-api
 artifact_total: 94
@@ -322,16 +348,16 @@ jsonld:
   slug: magento-context
 layout: provider
 modified: '2026-05-19'
-name: magento
+name: Magento
 nav: Providers
 network: true
-overview: 'magento publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 10 more.
+overview: 'Magento publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 10 more.
 
 
-  The magento catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Magento catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  magento''s developer surface includes authentication and 8 more developer resources.'
+  Magento''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Magento Plans Pricing
   plan_count: 3
@@ -345,7 +371,7 @@ rules:
 - effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: magento API Rules
+  name: Magento API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -355,7 +381,7 @@ rules:
   slug: magento-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: magento API Rules
+  name: Magento API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -371,7 +397,7 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -381,7 +407,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.0
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -391,10 +417,10 @@ score:
       total: 11
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png
 security:

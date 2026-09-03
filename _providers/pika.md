@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 2
 apis:
-- description: The Fal Ai API from Pika — 8 operation(s) for fal ai.
+- baseURL: https://fal.run/fal-ai/pika
+  baseurl_source: declared
+  description: The Fal Ai API from Pika — 8 operation(s) for fal ai.
   name: Pika Fal Ai API
   slug: pika-fal-ai-api
 artifact_total: 15
@@ -201,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/screenshots/pika-2026-06-20T191705.png
 security:

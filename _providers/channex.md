@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 42 operations · 22 acting
 api_count: 1
 apis:
-- description: Availability, Rates, and Inventory (restrictions).
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Availability, Rates, and Inventory (restrictions).
   name: Channex ARI API
   slug: channex-ari-api
-- description: Retrieve and manage bookings and booking revisions.
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Retrieve and manage bookings and booking revisions.
   name: Channex Bookings API
   slug: channex-bookings-api
-- description: Manage OTA distribution channels.
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Manage OTA distribution channels.
   name: Channex Channels API
   slug: channex-channels-api
-- description: Manage properties (hotels, apartments, vacation rentals).
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Manage properties (hotels, apartments, vacation rentals).
   name: Channex Properties API
   slug: channex-properties-api
-- description: Manage pricing plans for room types.
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Manage pricing plans for room types.
   name: Channex Rate Plans API
   slug: channex-rate-plans-api
-- description: Manage room types under a property.
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Manage room types under a property.
   name: Channex Room Types API
   slug: channex-room-types-api
-- description: Manage event notification callbacks.
+- baseURL: https://secure.channex.io/api/v1
+  baseurl_source: declared
+  description: Manage event notification callbacks.
   name: Channex Webhooks API
   slug: channex-webhooks-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channex/refs/heads/main/screenshots/channex-2026-07-25T205054.png
 security:

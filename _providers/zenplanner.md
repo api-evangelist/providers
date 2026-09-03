@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 1
 apis:
-- description: The Classes API from Zen Planner — 3 operation(s) for classes.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The Classes API from Zen Planner — 3 operation(s) for classes.
   name: Zen Planner Classes API
   slug: zenplanner-classes-api
-- description: The Groups API from Zen Planner — 1 operation(s) for groups.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The Groups API from Zen Planner — 1 operation(s) for groups.
   name: Zen Planner Groups API
   slug: zenplanner-groups-api
-- description: The Locations API from Zen Planner — 1 operation(s) for locations.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The Locations API from Zen Planner — 1 operation(s) for locations.
   name: Zen Planner Locations API
   slug: zenplanner-locations-api
-- description: The Memberships API from Zen Planner — 1 operation(s) for memberships.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The Memberships API from Zen Planner — 1 operation(s) for memberships.
   name: Zen Planner Memberships API
   slug: zenplanner-memberships-api
-- description: The People API from Zen Planner — 2 operation(s) for people.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The People API from Zen Planner — 2 operation(s) for people.
   name: Zen Planner People API
   slug: zenplanner-people-api
-- description: The Programs API from Zen Planner — 1 operation(s) for programs.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The Programs API from Zen Planner — 1 operation(s) for programs.
   name: Zen Planner Programs API
   slug: zenplanner-programs-api
-- description: The Prospects API from Zen Planner — 1 operation(s) for prospects.
+- baseURL: https://api.partners.daxko.com/api/v1
+  baseurl_source: declared
+  description: The Prospects API from Zen Planner — 1 operation(s) for prospects.
   name: Zen Planner Prospects API
   slug: zenplanner-prospects-api
 artifact_total: 20
@@ -154,7 +168,7 @@ score:
   band: emerging
   composite: 19.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -177,8 +191,9 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/screenshots/zenplanner-2026-09-02T171615.png
 security:
 - kind: authentication
   name: Zenplanner Authentication

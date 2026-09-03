@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 14 acting
 api_count: 1
 apis:
-- description: The Deployments API from LinearB — 1 operation(s) for deployments.
+- baseURL: https://public-api.linearb.io/api/v1
+  baseurl_source: declared
+  description: The Deployments API from LinearB — 1 operation(s) for deployments.
   name: LinearB Deployments API
   slug: linearb-deployments-api
-- description: The Incidents API from LinearB — 2 operation(s) for incidents.
+- baseURL: https://public-api.linearb.io/api/v1
+  baseurl_source: declared
+  description: The Incidents API from LinearB — 2 operation(s) for incidents.
   name: LinearB Incidents API
   slug: linearb-incidents-api
-- description: The Measurements API from LinearB — 2 operation(s) for measurements.
+- baseURL: https://public-api.linearb.io/api/v1
+  baseurl_source: declared
+  description: The Measurements API from LinearB — 2 operation(s) for measurements.
   name: LinearB Measurements API
   slug: linearb-measurements-api
-- description: The Services API from LinearB — 2 operation(s) for services.
+- baseURL: https://public-api.linearb.io/api/v1
+  baseurl_source: declared
+  description: The Services API from LinearB — 2 operation(s) for services.
   name: LinearB Services API
   slug: linearb-services-api
-- description: The Teams API from LinearB — 4 operation(s) for teams.
+- baseURL: https://public-api.linearb.io/api/v1
+  baseurl_source: declared
+  description: The Teams API from LinearB — 4 operation(s) for teams.
   name: LinearB Teams API
   slug: linearb-teams-api
 artifact_total: 19
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/screenshots/linearb-2026-07-25T225235.png
 security:

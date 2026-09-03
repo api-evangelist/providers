@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 48 operations · 28 acting
 api_count: 10
 apis:
-- description: The Account API from Neon Commerce — 2 operation(s) for account.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Account API from Neon Commerce — 2 operation(s) for account.
   name: Neon Commerce Account API
   slug: neon-commerce-account-api
-- description: The Assets API from Neon Commerce — 4 operation(s) for assets.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Assets API from Neon Commerce — 4 operation(s) for assets.
   name: Neon Commerce Assets API
   slug: neon-commerce-assets-api
-- description: The Auth API from Neon Commerce — 1 operation(s) for auth.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Auth API from Neon Commerce — 1 operation(s) for auth.
   name: Neon Commerce Auth API
   slug: neon-commerce-auth-api
-- description: The Checkout API from Neon Commerce — 3 operation(s) for checkout.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Checkout API from Neon Commerce — 3 operation(s) for checkout.
   name: Neon Commerce Checkout API
   slug: neon-commerce-checkout-api
-- description: The Client API from Neon Commerce — 4 operation(s) for client.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Client API from Neon Commerce — 4 operation(s) for client.
   name: Neon Commerce Client API
   slug: neon-commerce-client-api
-- description: The Payouts API from Neon Commerce — 1 operation(s) for payouts.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Payouts API from Neon Commerce — 1 operation(s) for payouts.
   name: Neon Commerce Payouts API
   slug: neon-commerce-payouts-api
-- description: The Prices API from Neon Commerce — 1 operation(s) for prices.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Prices API from Neon Commerce — 1 operation(s) for prices.
   name: Neon Commerce Prices API
   slug: neon-commerce-prices-api
-- description: The Pricing Sheet API from Neon Commerce — 1 operation(s) for pricing sheet.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Pricing Sheet API from Neon Commerce — 1 operation(s) for pricing sheet.
   name: Neon Commerce Pricing Sheet API
   slug: neon-commerce-pricing-sheet-api
-- description: The Purchases API from Neon Commerce — 6 operation(s) for purchases.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Purchases API from Neon Commerce — 6 operation(s) for purchases.
   name: Neon Commerce Purchases API
   slug: neon-commerce-purchases-api
-- description: The Reports API from Neon Commerce — 1 operation(s) for reports.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Reports API from Neon Commerce — 1 operation(s) for reports.
   name: Neon Commerce Reports API
   slug: neon-commerce-reports-api
-- description: The Status API from Neon Commerce — 1 operation(s) for status.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Status API from Neon Commerce — 1 operation(s) for status.
   name: Neon Commerce Status API
   slug: neon-commerce-status-api
-- description: The Storefront API from Neon Commerce — 9 operation(s) for storefront.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Storefront API from Neon Commerce — 9 operation(s) for storefront.
   name: Neon Commerce Storefront API
   slug: neon-commerce-storefront-api
-- description: The Subscriptions API from Neon Commerce — 4 operation(s) for subscriptions.
+- baseURL: https://api.neonpay.com
+  baseurl_source: declared
+  description: The Subscriptions API from Neon Commerce — 4 operation(s) for subscriptions.
   name: Neon Commerce Subscriptions API
   slug: neon-commerce-subscriptions-api
 artifact_total: 32
@@ -299,7 +325,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -309,7 +335,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 53.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +353,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-17T082605.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 6
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 244 operations · 116 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The Asset Tags API from NinjaOne — 6 operation(s) for asset tags.
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: The Asset Tags API from NinjaOne — 6 operation(s) for asset tags.
   name: NinjaOne Asset Tags API
   slug: ninjaone-asset-tags-api
-- description: Backup
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Backup
   name: NinjaOne Backup API
   slug: ninjaone-backup-api
-- description: Checklist Templates
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Checklist Templates
   name: NinjaOne Checklist Templates API
   slug: ninjaone-checklist-templates-api
-- description: Custom Fields
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Custom Fields
   name: NinjaOne Custom Fields API
   slug: ninjaone-custom-fields-api
-- description: The Custom Tabs API from NinjaOne — 13 operation(s) for custom tabs.
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: The Custom Tabs API from NinjaOne — 13 operation(s) for custom tabs.
   name: NinjaOne Custom Tabs API
   slug: ninjaone-custom-tabs-api
-- description: Devices
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Devices
   name: NinjaOne devices API
   slug: ninjaone-devices-api
-- description: Document Templates
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Document Templates
   name: NinjaOne Document Templates API
   slug: ninjaone-document-templates-api
-- description: Groups/Search
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Groups/Search
   name: NinjaOne groups API
   slug: ninjaone-groups-api
-- description: Knowledge Base Articles
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Knowledge Base Articles
   name: NinjaOne Knowledge Base Articles API
   slug: ninjaone-knowledge-base-articles-api
-- description: Location
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Location
   name: NinjaOne Location API
   slug: ninjaone-location-api
-- description: Management
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Management
   name: NinjaOne management API
   slug: ninjaone-management-api
-- description: Organizations
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Organizations
   name: NinjaOne organization API
   slug: ninjaone-organization-api
-- description: Organization Checklists
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Organization Checklists
   name: NinjaOne Organization Checklists API
   slug: ninjaone-organization-checklists-api
-- description: Organization Documents
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Organization Documents
   name: NinjaOne Organization Documents API
   slug: ninjaone-organization-documents-api
-- description: Queries
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Queries
   name: NinjaOne queries API
   slug: ninjaone-queries-api
-- description: Related Items
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Related Items
   name: NinjaOne Related Items API
   slug: ninjaone-related-items-api
-- description: Core system Entities and Resources
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Core system Entities and Resources
   name: NinjaOne system API
   slug: ninjaone-system-api
-- description: ticketing
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: ticketing
   name: NinjaOne ticketing API
   slug: ninjaone-ticketing-api
-- description: The Unmanaged Devices API from NinjaOne — 2 operation(s) for unmanaged devices.
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: The Unmanaged Devices API from NinjaOne — 2 operation(s) for unmanaged devices.
   name: NinjaOne Unmanaged Devices API
   slug: ninjaone-unmanaged-devices-api
-- description: Users
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Users
   name: NinjaOne Users API
   slug: ninjaone-users-api
-- description: Vulnerability Management
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Vulnerability Management
   name: NinjaOne Vulnerability Management API
   slug: ninjaone-vulnerability-management-api
-- description: Webhook Endpoints
+- baseURL: https://app.ninjarmm.com/v2
+  baseurl_source: declared
+  description: Webhook Endpoints
   name: NinjaOne webhooks API
   slug: ninjaone-webhooks-api
 artifact_total: 53
@@ -326,7 +370,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -336,7 +380,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 48.5
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,7 +392,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjaone/refs/heads/main/screenshots/ninjaone-2026-08-07T185326.png
 security:

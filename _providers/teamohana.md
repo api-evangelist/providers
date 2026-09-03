@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
-- description: The Discovery API from TeamOhana — 3 operation(s) for discovery.
+- baseURL: https://api.teamohana.us
+  baseurl_source: declared
+  description: The Discovery API from TeamOhana — 3 operation(s) for discovery.
   name: TeamOhana Discovery API
   slug: teamohana-discovery-api
-- description: The Headcount API from TeamOhana — 2 operation(s) for headcount.
+- baseURL: https://api.teamohana.us
+  baseurl_source: declared
+  description: The Headcount API from TeamOhana — 2 operation(s) for headcount.
   name: TeamOhana Headcount API
   slug: teamohana-headcount-api
-- description: The Scenario API from TeamOhana — 2 operation(s) for scenario.
+- baseURL: https://api.teamohana.us
+  baseurl_source: declared
+  description: The Scenario API from TeamOhana — 2 operation(s) for scenario.
   name: TeamOhana Scenario API
   slug: teamohana-scenario-api
-- description: The SCIM API from TeamOhana — 3 operation(s) for scim.
+- baseURL: https://api.teamohana.us
+  baseurl_source: declared
+  description: The SCIM API from TeamOhana — 3 operation(s) for scim.
   name: TeamOhana SCIM API
   slug: teamohana-scim-api
 artifact_total: 15
@@ -228,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamohana/refs/heads/main/screenshots/teamohana-2026-08-17T082257.png
 security:

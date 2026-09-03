@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,109 +36,177 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Account Access Consents API from Bank of Scotland — 2 operation(s) for account access consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Account Access Consents API from Bank of Scotland — 2 operation(s) for account access consents.
   name: Bank of Scotland Account Access Consents API
   slug: bank-of-scotland-account-access-consents-api
-- description: The Accounts API from Bank of Scotland — 2 operation(s) for accounts.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Accounts API from Bank of Scotland — 2 operation(s) for accounts.
   name: Bank of Scotland Accounts API
   slug: bank-of-scotland-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Bank of Scotland ATM API
   slug: bank-of-scotland-atm-api
-- description: The Balances API from Bank of Scotland — 2 operation(s) for balances.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Balances API from Bank of Scotland — 2 operation(s) for balances.
   name: Bank of Scotland Balances API
   slug: bank-of-scotland-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Bank of Scotland BCA API
   slug: bank-of-scotland-bca-api
-- description: The Beneficiaries API from Bank of Scotland — 2 operation(s) for beneficiaries.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Beneficiaries API from Bank of Scotland — 2 operation(s) for beneficiaries.
   name: Bank of Scotland Beneficiaries API
   slug: bank-of-scotland-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Bank of Scotland Branch API
   slug: bank-of-scotland-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Bank of Scotland CCC API
   slug: bank-of-scotland-ccc-api
-- description: The Direct Debits API from Bank of Scotland — 2 operation(s) for direct debits.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Direct Debits API from Bank of Scotland — 2 operation(s) for direct debits.
   name: Bank of Scotland Direct Debits API
   slug: bank-of-scotland-direct-debits-api
-- description: The Domestic Payment Consents API from Bank of Scotland — 3 operation(s) for domestic payment consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Bank of Scotland — 3 operation(s) for domestic payment consents.
   name: Bank of Scotland Domestic Payment Consents API
   slug: bank-of-scotland-domestic-payment-consents-api
-- description: The Domestic Payments API from Bank of Scotland — 3 operation(s) for domestic payments.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Payments API from Bank of Scotland — 3 operation(s) for domestic payments.
   name: Bank of Scotland Domestic Payments API
   slug: bank-of-scotland-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Bank of Scotland — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Bank of Scotland — 2 operation(s) for domestic scheduled payment consents.
   name: Bank of Scotland Domestic Scheduled Payment Consents API
   slug: bank-of-scotland-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Bank of Scotland — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Bank of Scotland — 3 operation(s) for domestic scheduled payments.
   name: Bank of Scotland Domestic Scheduled Payments API
   slug: bank-of-scotland-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Bank of Scotland — 2 operation(s) for domestic standing order consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Bank of Scotland — 2 operation(s) for domestic standing order consents.
   name: Bank of Scotland Domestic Standing Order Consents API
   slug: bank-of-scotland-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Bank of Scotland — 3 operation(s) for domestic standing orders.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Bank of Scotland — 3 operation(s) for domestic standing orders.
   name: Bank of Scotland Domestic Standing Orders API
   slug: bank-of-scotland-domestic-standing-orders-api
-- description: The File Payment Consents API from Bank of Scotland — 3 operation(s) for file payment consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The File Payment Consents API from Bank of Scotland — 3 operation(s) for file payment consents.
   name: Bank of Scotland File Payment Consents API
   slug: bank-of-scotland-file-payment-consents-api
-- description: The File Payments API from Bank of Scotland — 4 operation(s) for file payments.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The File Payments API from Bank of Scotland — 4 operation(s) for file payments.
   name: Bank of Scotland File Payments API
   slug: bank-of-scotland-file-payments-api
-- description: The Funds Confirmation Consents API from Bank of Scotland — 2 operation(s) for funds confirmation consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Bank of Scotland — 2 operation(s) for funds confirmation consents.
   name: Bank of Scotland Funds Confirmation Consents API
   slug: bank-of-scotland-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Bank of Scotland — 1 operation(s) for funds confirmations.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Funds Confirmations API from Bank of Scotland — 1 operation(s) for funds confirmations.
   name: Bank of Scotland Funds Confirmations API
   slug: bank-of-scotland-funds-confirmations-api
-- description: The International Payment Consents API from Bank of Scotland — 3 operation(s) for international payment consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Payment Consents API from Bank of Scotland — 3 operation(s) for international payment consents.
   name: Bank of Scotland International Payment Consents API
   slug: bank-of-scotland-international-payment-consents-api
-- description: The International Payments API from Bank of Scotland — 3 operation(s) for international payments.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Payments API from Bank of Scotland — 3 operation(s) for international payments.
   name: Bank of Scotland International Payments API
   slug: bank-of-scotland-international-payments-api
-- description: The International Scheduled Payments API from Bank of Scotland — 3 operation(s) for international scheduled payments.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Bank of Scotland — 3 operation(s) for international scheduled payments.
   name: Bank of Scotland International Scheduled Payments API
   slug: bank-of-scotland-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Bank of Scotland — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Bank of Scotland — 3 operation(s) for international scheduled payments consents.
   name: Bank of Scotland International Scheduled Payments Consents API
   slug: bank-of-scotland-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Bank of Scotland — 3 operation(s) for international standing orders.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Standing Orders API from Bank of Scotland — 3 operation(s) for international standing orders.
   name: Bank of Scotland International Standing Orders API
   slug: bank-of-scotland-international-standing-orders-api
-- description: The International Standing Orders Consents API from Bank of Scotland — 2 operation(s) for international standing orders consents.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Bank of Scotland — 2 operation(s) for international standing orders consents.
   name: Bank of Scotland International Standing Orders Consents API
   slug: bank-of-scotland-international-standing-orders-consents-api
-- description: The Offers API from Bank of Scotland — 2 operation(s) for offers.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Offers API from Bank of Scotland — 2 operation(s) for offers.
   name: Bank of Scotland Offers API
   slug: bank-of-scotland-offers-api
-- description: The Parties API from Bank of Scotland — 3 operation(s) for parties.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Parties API from Bank of Scotland — 3 operation(s) for parties.
   name: Bank of Scotland Parties API
   slug: bank-of-scotland-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Bank of Scotland PCA API
   slug: bank-of-scotland-pca-api
-- description: The Products API from Bank of Scotland — 2 operation(s) for products.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Products API from Bank of Scotland — 2 operation(s) for products.
   name: Bank of Scotland Products API
   slug: bank-of-scotland-products-api
-- description: The Scheduled Payments API from Bank of Scotland — 2 operation(s) for scheduled payments.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Scheduled Payments API from Bank of Scotland — 2 operation(s) for scheduled payments.
   name: Bank of Scotland Scheduled Payments API
   slug: bank-of-scotland-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Bank of Scotland SME API
   slug: bank-of-scotland-sme-api
-- description: The Standing Orders API from Bank of Scotland — 2 operation(s) for standing orders.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Standing Orders API from Bank of Scotland — 2 operation(s) for standing orders.
   name: Bank of Scotland Standing Orders API
   slug: bank-of-scotland-standing-orders-api
-- description: The Statements API from Bank of Scotland — 5 operation(s) for statements.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Statements API from Bank of Scotland — 5 operation(s) for statements.
   name: Bank of Scotland Statements API
   slug: bank-of-scotland-statements-api
-- description: The Transactions API from Bank of Scotland — 2 operation(s) for transactions.
+- baseURL: https://api.bankofscotland.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: The Transactions API from Bank of Scotland — 2 operation(s) for transactions.
   name: Bank of Scotland Transactions API
   slug: bank-of-scotland-transactions-api
 artifact_total: 39
@@ -304,7 +385,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Operations API from Azure DevOps — 1 operation(s) for operations.
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: The Operations API from Azure DevOps — 1 operation(s) for operations.
   name: Azure DevOps Operations API
   slug: azure-dev-ops-operations-api
-- description: The Pipelines API from Azure DevOps — 3 operation(s) for pipelines.
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: The Pipelines API from Azure DevOps — 3 operation(s) for pipelines.
   name: Azure DevOps Pipelines API
   slug: azure-dev-ops-pipelines-api
-- description: The PipelineTemplateDefinitions API from Azure DevOps — 1 operation(s) for pipelinetemplatedefinitions.
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: The PipelineTemplateDefinitions API from Azure DevOps — 1 operation(s) for pipelinetemplatedefinitions.
   name: Azure DevOps PipelineTemplateDefinitions API
   slug: azure-dev-ops-pipelinetemplatedefinitions-api
 artifact_total: 66
@@ -386,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/screenshots/azure-dev-ops-2026-06-20T172849.png
 security:

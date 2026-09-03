@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -46,37 +46,57 @@ agentic_access:
   summary_line: 21 operations · 9 acting
 api_count: 3
 apis:
-- description: Cellular-enabled health device activation and suspension.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: Cellular-enabled health device activation and suspension.
   name: Validic Devices API
   slug: validic-devices-api
-- description: Hosted Marketplace tokens and connection (connect/disconnect) event history.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: Hosted Marketplace tokens and connection (connect/disconnect) event history.
   name: Validic Marketplace & Connections API
   slug: validic-marketplace-connections-api
-- description: Standardized health observations recorded by connected apps and devices.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: Standardized health observations recorded by connected apps and devices.
   name: Validic Observations & Data API
   slug: validic-observations-data-api
-- description: Event-based webhook delivery to a customer endpoint.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: Event-based webhook delivery to a customer endpoint.
   name: Validic Push Service API
   slug: validic-push-service-api
-- description: Server-Sent Events stream of organization-wide health events.
+- baseURL: https://streams.v2.validic.com
+  baseurl_source: declared
+  description: Server-Sent Events stream of organization-wide health events.
   name: Validic Streaming API
   slug: validic-streaming-api
-- description: Provision and manage users within an organization.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: Provision and manage users within an organization.
   name: Validic Users API
   slug: validic-users-api
 - description: Self-serve registration, email verification, login and organization provisioning for the free Validic developer tier. Returns the organization_id and organization_token that every Inform API call requ
   name: Validic Developer Signup API
   slug: validic-developer-signup-api
-- description: The Measurements API from Validic — 1 operation(s) for measurements.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: The Measurements API from Validic — 1 operation(s) for measurements.
   name: Validic Measurements API
   slug: validic-measurements-api
-- description: The Organizations API from Validic — 15 operation(s) for organizations.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: The Organizations API from Validic — 15 operation(s) for organizations.
   name: Validic Organizations API
   slug: validic-organizations-api
-- description: The Streams API from Validic — 1 operation(s) for streams.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: The Streams API from Validic — 1 operation(s) for streams.
   name: Validic Streams API
   slug: validic-streams-api
-- description: The Streams?token={token} API from Validic — 1 operation(s) for streams?token={token}.
+- baseURL: https://api.v2.validic.com
+  baseurl_source: declared
+  description: The Streams?token={token} API from Validic — 1 operation(s) for streams?token={token}.
   name: Validic Streams?token={token} API
   slug: validic-streams-token-token-api
 artifact_total: 28
@@ -286,7 +306,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -296,7 +316,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 61.7
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,7 +334,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/screenshots/validic-2026-08-17T082707.png
 security:

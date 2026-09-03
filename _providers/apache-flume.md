@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Java API for building custom Flume sources, channels, sinks, and interceptors. Provides interfaces for developing pluggable data ingestion components.
   name: Apache Flume Java API
   slug: apache-flume-java-api
-- description: The Monitoring API from Apache Flume — 1 operation(s) for monitoring.
+- baseURL: http://localhost:41414
+  baseurl_source: declared
+  description: The Monitoring API from Apache Flume — 1 operation(s) for monitoring.
   name: Apache Flume Monitoring API
   slug: apache-flume-monitoring-api
 artifact_total: 39
@@ -249,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/screenshots/apache-flume-2026-06-20T172058.png
 security:

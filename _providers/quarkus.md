@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The Dev UI API from Quarkus — 1 operation(s) for dev ui.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Dev UI API from Quarkus — 1 operation(s) for dev ui.
   name: Quarkus Dev UI API
   slug: quarkus-dev-ui-api
-- description: The Health API from Quarkus — 4 operation(s) for health.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Health API from Quarkus — 4 operation(s) for health.
   name: Quarkus Health API
   slug: quarkus-health-api
-- description: The Info API from Quarkus — 1 operation(s) for info.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Info API from Quarkus — 1 operation(s) for info.
   name: Quarkus Info API
   slug: quarkus-info-api
-- description: The Metrics API from Quarkus — 1 operation(s) for metrics.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Metrics API from Quarkus — 1 operation(s) for metrics.
   name: Quarkus Metrics API
   slug: quarkus-metrics-api
-- description: The OpenAPI API from Quarkus — 2 operation(s) for openapi.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The OpenAPI API from Quarkus — 2 operation(s) for openapi.
   name: Quarkus OpenAPI API
   slug: quarkus-openapi-api
 artifact_total: 24
@@ -200,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/screenshots/quarkus-2026-06-20T192414.png
 security:

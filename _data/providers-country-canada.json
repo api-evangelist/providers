@@ -29,7 +29,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -192,7 +192,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -244,7 +244,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -296,7 +296,7 @@
       "commercial_clarity": 48.7,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -347,7 +347,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -410,7 +410,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -462,7 +462,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -514,7 +514,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -566,7 +566,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -605,12 +605,12 @@
      "slug": "rose-rocket",
      "description": "Rose Rocket is a Toronto-based transportation management system (TMS) for freight brokers, carriers and 3PLs, sold as an AI-native, configurable operations platform rather than an off-the-shelf template. The product covers order intake, dispatch, tendering, tracking, documents, invoicing and billing, with no-code custom fields, boards and workflows, in-product AI agents (TED, Rosie, Rocky) and role-based access control down to the widget. Its developer surface is the Platform Model API, a single generic object-CRUD REST API served at network.roserocket.com/api/v2/platformModel that reads and writes every domain object — customer, order, task, stop, manifest, commodity, partner, quote, invoice, bill, asset, tag, contact, document — through one set of /objects operations keyed by objectKey, plus user groups, boards, events and webhook destinations. Authentication is OAuth 2.0 (authorization code or client-credentials service account) against an Auth0-hosted authorization server at a.roserocket.com. API access is not self-serve: credentials come from an account representative or the partnership team, and the pricing page lists \"unlimited API access\" as an Enterprise tier feature.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/screenshots/rose-rocket-2026-09-02T154132.png",
-     "score": 52.0,
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 48.6,
+      "contract_quality": 50.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
@@ -618,7 +618,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 44.4,
      "agent_band": "agent-native",
@@ -663,7 +663,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -702,11 +702,11 @@
      "slug": "vopay",
      "description": "VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vopay/refs/heads/main/screenshots/vopay-2026-08-17T082823.png",
-     "score": 50.2,
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 66.7,
       "contract_quality": 58.3,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -715,7 +715,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -767,7 +767,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -819,7 +819,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -878,7 +878,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.2,
      "agent_band": "agent-ready",
@@ -923,7 +923,7 @@
       "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -975,7 +975,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1027,7 +1027,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1079,7 +1079,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1131,7 +1131,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1183,7 +1183,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1235,7 +1235,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1287,7 +1287,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1339,7 +1339,7 @@
       "commercial_clarity": 78.6,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1378,12 +1378,12 @@
      "slug": "universite-de-montreal",
      "description": "Université de Montréal (UdeM) is Québec's largest French-language public research university and, with its two affiliated schools, the second-largest research complex in Canada. Its programmable footprint is small, real, and almost entirely research-facing — and it is important to say plainly what UdeM does and does not operate, because this profile previously claimed 36 APIs it does not have. UdeM genuinely operates two machine-readable surfaces. The first is the SADVR REST API (Service d'accès aux données de la Vitrine-Recherche), built in-house by the Centre d'expertise numérique pour la recherche and serving UdeM's faculties, departments, job titles, programmes, disciplines, research-expertise keywords and its own persistent identifiers (idsadvr) for 3,516 indexed researchers and 429 research units — read-only, keyless, French-first, documented on the institution's own wiki, and confirmed live on 2026-08-30. The second is UdeM's Shibboleth Identity Provider, which publishes SAML 2.0 entity metadata under the institution's own domain; it is institution-operated by definition and is the kind of surface this cohort systematically fails to catalogue. Everything else in UdeM's footprint is a tenancy. PAPYRUS, the institutional repository, moved to Scholaris, the CRKN-hosted national DSpace service, so its OAI-PMH and DSpace REST contracts are DSpace's. UdeM's research data lives in a collection on Borealis, the shared Canadian Dataverse operated by Scholars Portal, so that contract is Dataverse's. Library discovery runs on OCLC WorldCat, and the LMS is Moodle. The data in all four is UdeM's; the engineering is not. There is no central developer portal, no self-service credential, no OAuth authorization server and no published status page. api.umontreal.ca resolves and answers, but returns HTTP 400 with an empty body on every anonymous path and is documented nowhere — an internal gateway, not a public API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png",
-     "score": 44.3,
+     "score": 43.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 32.1,
+      "contract_quality": 30.6,
       "governance": 45.5,
       "contract_governance": 45.5,
       "operational_transparency": 23.7,
@@ -1391,7 +1391,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1443,7 +1443,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1495,7 +1495,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1547,7 +1547,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1599,7 +1599,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -1644,7 +1644,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1696,7 +1696,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1738,8 +1738,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 33,
-   "shown": 33,
+   "count": 34,
+   "shown": 34,
    "providers": [
     {
      "name": "Flinks",
@@ -1759,7 +1759,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1811,7 +1811,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -1842,6 +1842,7 @@
      "name": "Wahi",
      "slug": "wahi",
      "description": "Wahi is a Toronto-headquartered Canadian digital real estate platform and licensed brokerage — Wahi Inc., trading as Wahi Realty Inc., Brokerage — founded in 2021 by Benjy Katchen. It runs a consumer home search, an instant home valuation estimate, market data products (Market Pulse, House Price Index), a Wahi Select REALTOR matching service and a cashback program across Ontario, British Columbia, Alberta, Nova Scotia, Saskatchewan and New Brunswick. Wahi sits in the challenger layer of the Canadian listings value chain and does not own the data it surfaces: Canadian residential listings run through CREA, the single national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF), and Wahi reaches that data as a member brokerage and through a commercial MLS connectivity vendor (Repliers) rather than by operating a feed of its own. Wahi runs no developer programme: there is no developer portal, no api./developer./developers./docs. subdomain (all fail DNS resolution), no API key or OAuth credential path, and no RESO Web API certification, RESO Data Dictionary certification, OData service or $metadata document anywhere on its hosts — Wahi appears in neither the RESO certificates directory nor RESO's Canadian membership roster. The Terms of Use expressly forbid automated access, crawling and scraping, and forbid collecting, copying, storing or redistributing MLS data. It does, however, publish two agent-facing artifacts that a portal-shaped search misses: a 421KB llms.txt at https://wahi.com/llms.txt (Last-Updated 2025-07-20) and an OpenAI-style AI plugin manifest at /.well-known/ai-plugin.json that points to a genuine OpenAPI 3.0.1 \"Listing Search API\" at https://wahi.com/gpt/openapi.yaml — one anonymous searchListings operation with 30 typed filters over Canadian listings. The spec is still served; the server it names, api.prod.wahi.com/gpt, returns 404, so the contract is published but unserved. A live Apollo GraphQL endpoint exists at api.prod.wahi.com/graphql with introspection disabled and robots.txt disallowing it, and the stock WordPress REST API of the marketing CMS remains anonymously callable. Wahi is overwhelmingly an API consumer rather than a producer, but not a zero.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/screenshots/wahi-2026-09-02T170359.png",
      "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1855,7 +1856,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1893,6 +1894,7 @@
      "name": "WestJet",
      "slug": "westjet",
      "description": "WestJet Airlines Ltd. is Canada's second-largest air carrier, headquartered in Calgary, Alberta, operating scheduled passenger service to more than 100 destinations across Canada, the United States, Mexico, Central America, the Caribbean, Europe and Asia, alongside WestJet Encore, WestJet Vacations, WestJet Cargo and the Sunwing Vacations Group. In the distribution chain WestJet sits upstream of the agency channel: its inventory reaches travel sellers today through EDIFACT in the Amadeus, Sabre and Travelport GDSs, and it is standing up an IATA NDC surface (schema 17.2 and 21.3/24.1) built and hosted on Accelya's FLX/Farelogix platform, with a stated Q4 2026 rollout. Its API posture is honest but closed: there is no public developer portal, no self-serve signup, no OpenAPI or WSDL and no consumer API. The WestJet Direct Connect API is documented only as a public capability matrix at westjetndc.com, and access requires an IATA or ARC accreditation number (TIDS is explicitly not supported), a business-type and sales-volume qualification form, and WestJet approval. Agency booking through WestJet Agent Direct likewise requires an IATA/TIDS/ARC number and a five-to-ten business day review. There is no bulk export for agency or booking data; guest data comes out only via a verbally authenticated PIPEDA-style \"Guest information report\" request.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westjet/refs/heads/main/screenshots/westjet-2026-09-02T170639.png",
      "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
@@ -1906,7 +1908,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1951,7 +1953,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1996,7 +1998,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2048,7 +2050,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2100,7 +2102,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -2145,7 +2147,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2197,7 +2199,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2249,7 +2251,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2300,7 +2302,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
@@ -2345,7 +2347,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
@@ -2390,7 +2392,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2428,6 +2430,7 @@
      "name": "Toronto Hydro",
      "slug": "toronto-hydro",
      "description": "Toronto Hydro is the municipally owned local electricity distribution company (LDC) for the City of Toronto, delivering power to roughly 800,000 residential and business customers across Canada's largest city. It sits in the wires-and-meters layer of Ontario's electricity value chain — it does not generate power and it does not run the wholesale market (that is IESO) — so the only customer-facing data it owns is smart-meter consumption, billing and account data. Its API posture is a clean example of a mandate that produced an implementation but not a developer product — Ontario's O. Reg. 633/21 under the Electricity Act, 1998 compelled rate-regulated electricity and gas utilities to offer Green Button Download My Data and Connect My Data conforming to NAESB REQ.21 ESPI v3.3 by 1 November 2023, and Toronto Hydro runs both — customer-facing Download My Data and Connect My Data pages behind its account login, a published third-party terms-and-conditions document, and a live third-party onboarding portal operated by its platform vendor Savage Data Systems. But there is no developer.torontohydro.com, no docs. or api. subdomain, no published base URI, no OpenAPI, and no self-serve keys. Consumer data is available only to companies that apply, pass a connectivity test and sign the third-party terms; market and grid data are not published openly at all. Mandated, implemented, and completely gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/screenshots/toronto-hydro-2026-09-02T163937.png",
      "score": 30.9,
      "band": "thin",
      "band_label": "Thin",
@@ -2441,7 +2444,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2493,7 +2496,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2545,7 +2548,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2597,7 +2600,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2648,7 +2651,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2700,7 +2703,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2752,7 +2755,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2804,7 +2807,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -2832,61 +2835,10 @@
      "rank": 55
     },
     {
-     "name": "Queen's University at Kingston",
-     "slug": "queens-university-at-kingston",
-     "description": "Queen's University at Kingston is a public research university in Kingston, Ontario, Canada — a member of the U15 group of Canadian research universities, serving more than 25,000 students. Its machine-readable footprint is small, and stating it honestly matters more than inflating it: Queen's operates no public developer portal, no institution-run open-data API, and no published course, timetable, or registrar contract. api.queensu.ca, developer.queensu.ca and data.queensu.ca do not resolve. What Queen's genuinely operates and publishes on its own domain is federated identity — a Shibboleth Identity Provider serving SAML 2.0 metadata at login.queensu.ca — and an authored llms.txt directing AI agents to official sources. Its two research-data surfaces are real institutional facts but are tenant deployments, not Queen's engineering: QSpace, the institutional repository, now runs as DSpace 8.4 on Scholaris, the shared service of the Ontario Council of University Libraries, and the Queen's University Dataverse Collection lives inside Borealis, the national Dataverse operated by Scholars Portal. Both expose live REST and OAI-PMH interfaces, and both contracts belong to their platforms. An earlier profile of this repository carried 36 OpenAPI definitions titled after Queen's; every one of them was the Dataverse product's own contract, and they have been removed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png",
-     "score": 28.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 7.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 38.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    },
-    {
      "name": "TELUS Health",
      "slug": "telus-health",
      "description": "TELUS Health is the digital-health division of TELUS, one of Canada's largest telecommunications and technology companies, and the country's leading health-IT provider. It operates the PS Suite, Med Access, and cloud-native Collaborative Health Record (CHR) electronic medical records used across Canadian primary care, along with pharmacy management, virtual care, and employer/benefits health services. Its documented public integration surface is the CHR Enterprise API, a GraphQL endpoint secured with RS512-signed JWT bearer tokens that exposes clinic data (patients, appointments, encounters, clinical documents and more) for partner-built add-ons, complemented by the TELUS Patient Chart FHIR R4 implementation guide, a package of 89 published StructureDefinition profiles under the http://telus.com/fhir/patientChart canonical for standards-based patient-record exchange out of TELUS EMRs, and the Omara Health Exchange FHIR interoperability platform. Home market is Canada, where healthcare is province-fragmented and FHIR interoperability is stewarded federally by Canada Health Infoway. Both API surfaces are documented but gated behind a partner or CHR-domain agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telus-health/refs/heads/main/screenshots/telus-health-2026-09-02T162751.png",
      "score": 28.7,
      "band": "thin",
      "band_label": "Thin",
@@ -2900,7 +2852,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2932,12 +2884,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "VRIFY",
      "slug": "vrify",
      "description": "VRIFY Technology Inc. is a Vancouver, British Columbia software company that builds exploration intelligence software for the mining industry, with a team of geoscientists and AI engineers and a presence in Western Australia. Its platform pairs VRIFY Predict — the DORA AI-assisted mineral discovery product, which trains mineral-system-specific models on a large proprietary global exploration dataset to rank prospectivity targets, score them (VPS) and, since August 2026, quantify prediction uncertainty — with VRIFY Present, an interactive 3D and 360-degree presentation product mining companies use to communicate projects to investors, plus a Files upload/processing and VRIFY Explore data layer and an iOS app. Southern Cross Gold's 2024 Sunday Creek discovery came from a target DORA identified independently. VRIFY raised a CAD$12.5M Series B in February 2025 led by LGVP with RCF Innovation and Beedie Capital, taking total funding past CAD$30M. VRIFY sells a closed end-user SaaS: as of August 2026 it publishes no public API, SDK, developer portal or machine-readable contract. The only machine surfaces a member of the public can reach are the app's own backend at services.vrify.com/v2/ (401, WWW-Authenticate: Bearer realm=\"api\", with its /v2/docs endpoint 302ing to a Django staff login) and a copy-paste 3D presentation embed customers place on their own company websites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vrify/refs/heads/main/screenshots/vrify-2026-09-02T170313.png",
      "score": 28.7,
      "band": "thin",
      "band_label": "Thin",
@@ -2951,7 +2904,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2976,7 +2929,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "FLO",
@@ -2996,7 +2949,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3028,7 +2981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "ATCO",
@@ -3048,7 +3001,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3080,12 +3033,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Wawanesa Insurance",
      "slug": "wawanesa",
      "description": "The Wawanesa Mutual Insurance Company, founded in 1896 in Wawanesa, Manitoba and headquartered in Winnipeg, is one of Canada's largest property and casualty mutual insurers, writing auto, home, condo, tenant, seasonal residence, farm and commercial lines across every province and territory through a 100% independent broker distribution model, alongside its wholly-owned life and group subsidiary Wawanesa Life. Wawanesa runs its policy, claims and billing on Guidewire InsuranceSuite following a roughly $300 million Strategic Systems Renewal that made it one of the first Canadian insurers to put its entire product suite online, and it has announced a broker-facing API programme — most notably a Commercial Small Business API aligned to CSIO data standards that supports real-time rating, quoting and binding — plus CSIO My Proof of Insurance electronic pink slips. None of that surface is public: Wawanesa publishes no developer portal, no API reference, no OpenAPI, and no self-serve signup. Probes of developer./developers./docs. wawanesa.com do not resolve, api.wawanesa.com answers 403 at the root, and the only integration path is the Salesforce-based Broker Platform behind an Okta login with onboarding brokered by a Wawanesa Business Development representative. Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance outright — so the connectivity layer here is CSIO, not ACORD, and the honest posture is partner-gated with no public API. What Wawanesa does publish is certification: it holds CSIO's API Security Standards Certification (2024-10-29), was the first CSIO member certified in JSON API Standards for Billing (2025-02-05), was the first insurer to attain Claims eDocs Certification (2022-04-04), and contributed nine reusable API packages — Quote, New Business, Policy Inquiry, Policy Update List, Policy Cancellation, Risk Appetite, Required Fields, Billing Inquiry and eDocs — to CSIO's Reusable Services Library for other carriers and BMS vendors to implement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wawanesa/refs/heads/main/screenshots/wawanesa-2026-09-02T170501.png",
      "score": 28.3,
      "band": "thin",
      "band_label": "Thin",
@@ -3099,7 +3053,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3131,7 +3085,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "ENMAX",
@@ -3151,7 +3105,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3171,6 +3125,58 @@
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
+     "name": "Queen's University at Kingston",
+     "slug": "queens-university-at-kingston",
+     "description": "Queen's University at Kingston is a public research university in Kingston, Ontario, Canada — a member of the U15 group of Canadian research universities, serving more than 25,000 students. Its machine-readable footprint is small, and stating it honestly matters more than inflating it: Queen's operates no public developer portal, no institution-run open-data API, and no published course, timetable, or registrar contract. api.queensu.ca, developer.queensu.ca and data.queensu.ca do not resolve. What Queen's genuinely operates and publishes on its own domain is federated identity — a Shibboleth Identity Provider serving SAML 2.0 metadata at login.queensu.ca — and an authored llms.txt directing AI agents to official sources. Its two research-data surfaces are real institutional facts but are tenant deployments, not Queen's engineering: QSpace, the institutional repository, now runs as DSpace 8.4 on Scholaris, the shared service of the Ontario Council of University Libraries, and the Queen's University Dataverse Collection lives inside Borealis, the national Dataverse operated by Scholars Portal. Both expose live REST and OAI-PMH interfaces, and both contracts belong to their platforms. An earlier profile of this repository carried 36 OpenAPI definitions titled after Queen's; every one of them was the Dataverse product's own contract, and they have been removed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png",
+     "score": 28.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 4.4,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 38.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -3203,7 +3209,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3255,7 +3261,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3307,7 +3313,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3342,9 +3348,62 @@
      "rank": 65
     },
     {
+     "name": "Scimar",
+     "slug": "scimar",
+     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
+     "score": 26.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 16.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 20.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 66
+    },
+    {
      "name": "Teranet",
      "slug": "teranet",
      "description": "Teranet Inc. is the private operator of Ontario's Electronic Land Registration System (ELRS) and the POLARIS land records database under a long-running concession with the Government of Ontario, and is the exclusive service provider for Manitoba's Land Titles System and Personal Property Registry. Founded in 1991, headquartered in Toronto and wholly owned by OMERS, Teranet sits at the base of the Canadian property value chain: it holds the authoritative title, parcel, writ and instrument record and resells it as commercial products — Teraview, OnLand, Teranet eXpress, GeoWarehouse, PurView, Teranet Xchange, DataConnect/ValueProtect AVM, TeraIntelligence — plus the Teranet-National Bank House Price Index. Its API posture is licensed access only. Teranet Connect is genuinely described by Teranet as an API (XML and web services over POLARIS and the Writs database), but it is licensed to legal-software vendors through an account manager, with no public documentation, no published base URL, no self-serve signup and no developer portal; Teranet's own support site states plainly that GeoWarehouse has no open API. No RESO certification was found — Teranet is a land registry, not an MLS — and the public record it stewards is sold back rather than published as open data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teranet/refs/heads/main/screenshots/teranet-2026-09-02T163122.png",
      "score": 26.3,
      "band": "thin",
      "band_label": "Thin",
@@ -3358,7 +3417,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3390,7 +3449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     }
    ]
   },
@@ -3399,8 +3458,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 61,
-   "shown": 61,
+   "count": 60,
+   "shown": 60,
    "providers": [
     {
      "name": "Canada Life",
@@ -3420,7 +3479,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3452,7 +3511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Shakepay",
@@ -3472,7 +3531,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3511,7 +3570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Hydro Ottawa",
@@ -3531,7 +3590,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3563,64 +3622,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
-    },
-    {
-     "name": "Scimar",
-     "slug": "scimar",
-     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
-     "score": 25.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 13.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 70
     },
     {
      "name": "VIA Rail Canada",
      "slug": "via-rail",
      "description": "VIA Rail Canada Inc. is the federal Crown corporation that operates Canada's national intercity passenger rail network, headquartered in Montreal and reporting to Parliament through the Minister of Transport. It runs the Quebec City - Windsor corridor plus long-distance and regional services including The Canadian (Toronto - Vancouver), The Ocean (Montreal - Halifax), Winnipeg - Churchill, Jasper - Prince Rupert, Sudbury - White River, and the jointly operated Toronto - New York Maple Leaf. In the distribution chain VIA Rail is a direct-only supplier: it sells through viarail.ca, its mobile app, its call centre, and its own Travel Agency and Tour Operator portals on reservia.viarail.ca. There is no GDS channel, no NDC, no OSDM, and no reseller API. VIA Rail's API posture is honestly stated as an open-standard data feed and nothing else. It publishes a real, ungated Developer Resources page offering a static GTFS schedule feed licensed under the Open Government Licence - Canada 2.0, with a dev@viarail.ca contact address - one of the very few genuinely self-serve, commercially reusable machine-readable contracts in Canadian travel. Everything transactional is unpublished: the reservation platform is Sqills S3 Passenger integrated by CGI, its API gateway at api.reservia.viarail.ca answers 403 \"Missing Authentication Token\" with no documentation, no terms and no published contract, and agency access is gated behind approval plus a registered IATA number, while tour operators must commit to a CAD $25,000 per year minimum revenue and may not sell VIA tickets outside packaged travel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/via-rail/refs/heads/main/screenshots/via-rail-2026-09-02T165836.png",
      "score": 25.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3634,7 +3642,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3686,7 +3694,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3724,6 +3732,7 @@
      "name": "WELL Health Technologies",
      "slug": "well-health",
      "description": "WELL Health Technologies Corp (TSX: WELL, OTCQX: WHTCF) is a Vancouver, Canada-headquartered healthcare technology company that is Canada's largest outpatient medical clinic owner-operator and a leading multi-disciplinary digital health service provider. It runs two synergistic channels: an omni-channel patient services business operating 115+ multidisciplinary clinics across Canada plus US telehealth and anesthesia operations, and a virtual-services / practitioner-enablement platform serving 44,000+ providers through the OSCAR Pro EMR, billing and revenue-cycle tools, eReferral, digital booking, and ePharma. Its programmatic surface is the apps.health marketplace, through which third-party digital health apps integrate with WELL's network of EMRs (OSCAR Pro, Profile) using HL7 FHIR and other interoperability standards. As of this review WELL exposes no self-serve public developer portal, sandbox, OpenAPI, or FHIR CapabilityStatement; integration is FHIR-based but gated behind a partner/contact process. Home market is Canada, positioned in a province-fragmented healthcare landscape coordinated federally by Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/screenshots/well-health-2026-09-02T170603.png",
      "score": 24.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3737,7 +3746,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3789,7 +3798,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3841,7 +3850,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3879,6 +3888,7 @@
      "name": "Steinbach Credit Union",
      "slug": "steinbach-credit-union",
      "description": "Steinbach Credit Union (SCU) is a member-owned financial cooperative founded in 1941 and headquartered in Steinbach, Manitoba, Canada, operating three branches (Steinbach plus Linden Ridge and Lagimodiere in Winnipeg). With more than CA$10 billion in assets and over 115,000 consumer, business, and agricultural members, SCU is the largest credit union in Manitoba and among the ten largest in Canada. As a provincially chartered co-operative it is regulated in Manitoba with deposits guaranteed by the Manitoba Deposit Guarantee Corporation. SCU offers personal and business banking, mortgages, wealth management, and insurance, and delivers digital banking through an online portal (online.scu.mb.ca) and a mobile app built on the Celero core banking platform. Like nearly all Canadian credit unions, SCU exposes NO public first-party developer API or portal: Canada's federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the Financial Consumer Agency of Canada) is legislated but not yet operational, so open finance remains voluntary. Consumer-permissioned data access to SCU accounts today is aggregator-mediated (e.g. Flinks, the National Bank-owned Canadian aggregator, and Plaid), and interbank money movement runs on the shared Canadian rails via Interac e-Transfer.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steinbach-credit-union/refs/heads/main/screenshots/steinbach-credit-union-2026-09-02T160831.png",
      "score": 23.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3892,7 +3902,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3944,7 +3954,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3982,6 +3992,7 @@
      "name": "Transport Canada",
      "slug": "transport-canada",
      "description": "Transport Canada (Transports Canada) is the federal department that regulates aviation, marine, rail and road transportation in Canada under the Aeronautics Act and the Canadian Aviation Regulations. In travel it is the safety-and-security regulator rather than a participant in distribution — it certifies air operators, registers aircraft on the Canadian Civil Aircraft Register, licenses pilots and drone operators, runs the Civil Aviation Daily Occurrence Reporting System (CADORS) and the Air Cargo Security program, and publishes the Canadian airports layer. It sits entirely outside the GDS/NDC distribution chain; airline economic licensing, all-in fare advertising and the Air Passenger Protection Regulations belong to the separate Canadian Transportation Agency. Its API posture is thin but genuinely open — no developer portal exists at tc.canada.ca, developer./developers./docs. subdomains do not resolve, and no OpenAPI is published anywhere. What does exist is real and ungated: a self-describing JSON/XML Vehicle Recalls Database API at data.tc.gc.ca, an ArcGIS REST and OGC WMS service for Canadian airports with air navigation services, and bulk CSV/XML extracts of CADORS, the Air Cargo Security members list and the vessel registers, all indexed through the Treasury-Board-operated open.canada.ca CKAN Action API under the Open Government Licence – Canada. No key, no account, no accreditation, no contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/screenshots/transport-canada-2026-09-02T164136.png",
      "score": 22.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3995,7 +4006,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4033,6 +4044,7 @@
      "name": "Transat",
      "slug": "transat",
      "description": "Transat A.T. Inc. (TSX: TRZ) is a Montreal-headquartered, vertically integrated Canadian leisure travel group. It operates Air Transat (IATA carrier code TS), a transatlantic and sun-destination leisure airline, alongside tour-operating brands (Transat / Transat Tours Canada Inc.) and one of Canada's largest retail travel agency networks (Transat Travel, Voyages Transat, Marlin Travel, Club Voyages). It sits on the supply side of the distribution chain: it owns the seat and package inventory, sells it direct through transat.com and airtransat.com, through its own retail agencies, through GDS/CRS EDIFACT channels governed by IATA Resolution 850m and BSP settlement, and — since its published NDC programme — through an Accelya Farelogix NDC gateway and a named set of NDC aggregators. Its API posture is partner-gated but not opaque: Air Transat publishes a public NDC connectivity page and a publicly downloadable 46-page \"Air Transat API specifications\" document, but that document is a proprietary Radixx ConnectPoint SOAP contract (v2.2.4, May 2023), not an IATA NDC schema. There is no self-serve developer portal, no machine-readable OpenAPI or WSDL, no published base URL, no sandbox, no bulk export operation, and no IATA NDC certification level is claimed. Credentials (a Transat-assigned IATA number, agency login and password) are issued only under a commercial agreement, and the site terms plus the CRS Booking and Ticketing Procedures Policy expressly prohibit scraping and prohibit redistributing Air Transat content to any third-party agent, GDS or metasearch engine without prior written consent.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transat/refs/heads/main/screenshots/transat-2026-09-02T164115.png",
      "score": 22.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4046,7 +4058,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4090,7 +4102,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4141,7 +4153,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4193,7 +4205,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4245,7 +4257,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4297,7 +4309,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4349,7 +4361,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4387,6 +4399,7 @@
      "name": "Wealthsimple",
      "slug": "wealthsimple",
      "description": "Wealthsimple is a Toronto-based Canadian financial technology company, founded in 2014, offering a full suite of consumer financial products: managed investing (Invest), self-directed stock and ETF trading (Trade), cryptocurrency, tax filing (Tax), spending, saving, and cash and card products. It serves more than four million Canadians with roughly CAD $125 billion in assets under administration and reached a CAD $10 billion valuation in its 2025 Series F round. Wealthsimple does not publish an official public developer API or OpenAPI specification; programmatic account access is available only through open-banking aggregators (SnapTrade, Plaid) and community-built unofficial libraries. This profile captures the company's public trust, security, and developer-adjacent surface (security.txt, HackerOne bug bounty, Trust Center, status page, verified GitHub organization).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wealthsimple/refs/heads/main/screenshots/wealthsimple-2026-09-02T170518.png",
      "score": 20.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4400,7 +4413,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4451,7 +4464,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4503,7 +4516,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4541,6 +4554,7 @@
      "name": "Trufla",
      "slug": "trufla",
      "description": "Trufla Technology is a Calgary, Alberta insurtech that builds digital distribution software for independent property and casualty insurance brokerages, serving 300+ brokerages primarily across Canada with some UK clients. Founded in 2018 by Sherif Gemayel out of Sharp Insurance's in-house tooling (SharpMobile plus the E-Method digital agency), Trufla sells a broker-channel suite rather than underwriting risk itself: truWeb for broker websites, SEO and digital marketing; truMarket, an insurance CRM with a \"Quote Bind Issue\" rating workflow, lead management, an app store and a marketplace; truMobile, a customer self-service app and broker portal with policy access, document delivery, claim reporting and a marketplace for auxiliary products such as travel, roadside and pet; DataHub with the Policy KPI Dashboard and AI Retention X-Ray; Trudi, an AI insurance assistant; and PolicyPro, a contracted back-office outsourcing service. Its API posture is entirely partner-gated and inbound. Trufla publishes no public developer portal and no self-serve API — developer.trufla.com, developers.trufla.com, docs.trufla.com and api.trufla.com do not resolve (NXDOMAIN), and every OpenAPI, Swagger, GraphQL and API-docs path probed on www.trufla.com returns 404. Integration happens the way it does across the Canadian broker channel: through broker management system connectors (Acturis, Power Broker, Vertafore, Applied Epic/TAM), Salesforce, SEH Systems, telephony, e-signature and payment apps subscribed from the truMarket app store, and through a CSIO implementation step during onboarding. Trufla makes no reference to ACORD, AL3 or IVANS anywhere on its public site; CSIO — Canada's insurance data-standards body — is the standards seam here, and Trufla's own terms of service require the brokerage client to supply its own CSIO account and mailbox plus its own insurer contracts and APIs. What Trufla does publish machine-readably sits outside the developer surface entirely: an llms.txt at www.trufla.com/llms.txt that licenses AI summarization while forbidding training and pricing extraction, a SafeBase trust center at trust.trufla.com that names AWS as its sole subprocessor and no completed certification, dated per-product release notes, a GitHub organization at trufla-technology holding only forks, and one first-party npm package, the Angular JSON-Schema form library @trufla/ngx-tru-forms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trufla/refs/heads/main/screenshots/trufla-2026-09-02T164358.png",
      "score": 19.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4554,7 +4568,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4606,7 +4620,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4658,7 +4672,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4710,7 +4724,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
@@ -4755,7 +4769,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4807,7 +4821,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4859,7 +4873,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4911,7 +4925,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4963,7 +4977,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5015,7 +5029,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5067,7 +5081,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5119,7 +5133,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5171,7 +5185,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5223,7 +5237,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5275,7 +5289,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5327,7 +5341,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5379,7 +5393,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5431,7 +5445,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5483,7 +5497,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5535,7 +5549,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5587,7 +5601,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5639,7 +5653,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5691,7 +5705,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5742,7 +5756,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5794,7 +5808,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5846,7 +5860,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5891,7 +5905,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5929,6 +5943,7 @@
      "name": "Tia Health",
      "slug": "tia-health",
      "description": "Tia Health is a Canadian telehealth platform that connects patients with licensed Canadian providers - family doctors, nurse practitioners, specialists, and naturopaths - for on-demand virtual care by phone, video, and secure messaging. Its services span virtual walk-in and family-practice appointments, prescription renewals, sick notes, lab requisitions, and mental health therapy (via partner Focus Mental Wellness), with visits covered by provincial health plans in Ontario (OHIP), British Columbia (MSP), and Alberta (AHCIP) and paid options elsewhere. Tia Health is part of the WELL Health Technologies Corp. clinic network, one of the largest outpatient networks in Canada. As of this review Tia Health is a consumer-facing virtual-care product with no public developer portal, no documented REST/OpenAPI, and no exposed HL7 FHIR CapabilityStatement or SMART-on-FHIR configuration; interoperability in the Canadian market is stewarded federally through Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications, which this platform does not publicly surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tia-health/refs/heads/main/screenshots/tia-health-2026-09-02T163658.png",
      "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5942,7 +5957,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5980,6 +5995,7 @@
      "name": "Zensurance",
      "slug": "zensurance",
      "description": "Zensurance is a Toronto-based digital commercial insurance brokerage founded in 2016 that sells small-business and freelancer coverage online across every Canadian province, placing risk with Canadian carriers rather than underwriting it. Its book is commercial property and casualty — general and commercial general liability, professional liability and errors and omissions, cyber liability, directors and officers, commercial property, commercial auto, builder's risk, and a long tail of trade- and profession-specific packages — sold through a quote-to-bind web flow marketed as an instant online price with licensed broker support and claims advocacy behind it. It sits in the thin digital-broker layer beneath Canada's Big-Few carrier oligopoly, in a market with no open-insurance mandate — OSFI supervises federally-regulated insurers prudentially while FSRA, the AMF, and the other provincial regulators own market conduct, and Consumer-Driven Banking excludes insurance outright. Its API posture reflects that. Zensurance publishes no public, self-serve developer portal, no reference documentation, and no downloadable OpenAPI, Swagger, GraphQL, or AsyncAPI definition. The company's partnership page advertises \"seamless API integrations and co-branded white-label tools\" for distribution partners, but the only route to that surface is a partnership application form — the integration is partner-gated and privately negotiated. A first-party host at api.zensurance.com answers on the public internet (HTTP 200, returning a bare version string, with a /health endpoint) but it is the undocumented backend for Zensurance's own quoting and policy application, not a published product API. No ACORD, AL3, ACORD XML, NGDS, or agency-management-system integration claim appears anywhere on the company's public web properties. The one machine-addressable surface the company does publish for automated consumers is an llms.txt at www.zensurance.com/llms.txt — a 178KB marketing index of its pages, blog posts, and FAQs (which inadvertently lists its zenstage.wpengine.com staging host rather than the production domain). It describes insurance products for AI assistants; it documents no API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zensurance/refs/heads/main/screenshots/zensurance-2026-09-02T171615.png",
      "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5993,7 +6009,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6044,7 +6060,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6075,6 +6091,7 @@
      "name": "Vancity Community Investment Bank",
      "slug": "vancity-community-investment-bank",
      "description": "Vancity Community Investment Bank (VCIB) is a federally regulated Schedule I chartered bank headquartered in Toronto, Ontario, and a wholly owned subsidiary of Vancouver City Savings Credit Union (Vancity), Canada's largest community credit union. Established to carry the cooperative \"community-first\" finance model into the national banking system, VCIB is a values-driven, Certified B Corporation and CDIC member that provides impact-focused commercial banking - commercial real estate and affordable-housing lending, clean-energy and green-building finance, social-enterprise banking, Impact GICs, high-interest savings, and business Visa products - to organizations driving social, economic, and environmental change. As a small impact/commercial bank rather than one of the Big Six, VCIB operates no public developer portal, exposes no first-party developer API, and publishes no downloadable API specifications. Canada's Consumer-Driven Banking (open banking) framework, legislated in Budget 2024 and the 2024 Fall Economic Statement under the Financial Consumer Agency of Canada, is not yet operational, so any third-party access to VCIB customer data today would be voluntary and aggregator-mediated rather than via a documented open API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vancity-community-investment-bank/refs/heads/main/screenshots/vancity-community-investment-bank-2026-09-02T165352.png",
      "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6088,7 +6105,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6140,7 +6157,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6185,7 +6202,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6236,7 +6253,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6288,7 +6305,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6326,6 +6343,7 @@
      "name": "Sonnet Insurance",
      "slug": "sonnet-insurance",
      "description": "Sonnet Insurance is a Canadian direct-to-consumer digital property and casualty insurer launched in 2016 and a member of the Definity family of companies, underwriting its own auto, home, condo, tenant, landlord and pet policies through Sonnet Insurance Company. It sells auto, home, condo, tenant and landlord coverage in Ontario, Quebec, New Brunswick, Nova Scotia and Prince Edward Island, and home-only coverage in British Columbia and Alberta, positioning itself as \"Canada's original digital-first home and auto insurance company\" with a fully online quote-and-buy flow and licensed agents for support. Sonnet is an explicit direct writer -- its own FAQ states that \"a third party -- even a licensed broker -- cannot purchase a Sonnet policy on your behalf\" -- so it operates no broker or agency distribution channel and therefore no ACORD/AL3 agency-download path. Its API posture is closed -- no developer, developers, docs or api subdomain resolves in DNS, every first-party developer path probed returns HTTP 404, and no OpenAPI, Swagger, GraphQL, Postman collection, webhook catalog or partner technical onboarding surface is published. The only third-party integrations Sonnet describes -- the Kanetix.ca (RATESDOTCA) quote-and-buy partnership and the Sonnet Connect brand referral program -- are privately negotiated commercial arrangements with no public technical documentation. Two machine-readable surfaces do exist and are captured here. Sonnet serves a real llms.txt at www.sonnet.ca/llms.txt that declares per-agent AI-Training, AI-Generation, AI-Summarization and AI-Crawling directives (Allow for OpenAI, Google-DeepMind and Anthropic) alongside a curated reference-content index -- an AI consent signal rather than an API contract. And the secure.sonnet.ca quote-and-buy application is driven by an undocumented first-party REST/JSON surface under /api/v1 covering quoting, binding, policy servicing, payments and identity; it is observable from Sonnet's own public JavaScript bundle but carries no documentation, no specification and no third-party terms of use, so it is recorded as observed evidence, not as an integratable API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sonnet-insurance/refs/heads/main/screenshots/sonnet-insurance-2026-09-02T160220.png",
      "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6339,7 +6357,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6391,7 +6409,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6443,7 +6461,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6481,6 +6499,7 @@
      "name": "Tangerine",
      "slug": "tangerine",
      "description": "Tangerine is a Canadian direct (branchless) bank headquartered in Toronto, Ontario, and a federally regulated Schedule I bank chartered as Tangerine Bank (institution number 614). Founded in 1997 as ING Direct Canada, it was acquired by Scotiabank in 2012 and rebranded as Tangerine in 2014; it remains a separate legal entity operating as Scotiabank's digital-banking arm, serving roughly two million clients with no-fee chequing and savings accounts, GICs, mortgages, mutual funds, and a cash-back Mastercard delivered entirely through mobile and web. On API and open-finance posture, Tangerine publishes no first-party public developer portal or downloadable API specifications; Canada has no operational consumer-driven-banking mandate yet (the federal framework is legislated but not live), so third-party access to Tangerine account and transaction data today is aggregator-based via Plaid and Finicity (Mastercard) rather than through a documented first-party API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tangerine/refs/heads/main/screenshots/tangerine-2026-09-02T162525.png",
      "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6494,7 +6513,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6556,7 +6575,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6601,7 +6620,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6653,7 +6672,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6698,7 +6717,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6749,7 +6768,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6794,7 +6813,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6839,7 +6858,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6891,7 +6910,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6943,7 +6962,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6995,7 +7014,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7047,7 +7066,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7099,7 +7118,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7151,7 +7170,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7203,7 +7222,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7255,7 +7274,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7300,7 +7319,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7345,7 +7364,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7397,7 +7416,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7449,7 +7468,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7501,7 +7520,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7546,7 +7565,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7598,7 +7617,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7650,7 +7669,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7702,7 +7721,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7754,7 +7773,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7799,7 +7818,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7851,7 +7870,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7903,7 +7922,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7955,7 +7974,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8007,7 +8026,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8051,7 +8070,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8103,7 +8122,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8147,7 +8166,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8178,6 +8197,7 @@
      "name": "TD Bank Group",
      "slug": "td-bank-group",
      "description": "TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered banks — a federally regulated Schedule I bank headquartered in Toronto and listed on the TSX and NYSE under the ticker TD. It is among North America's largest banks by assets, serving roughly 27 million customers worldwide across Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and Wholesale Banking (TD Securities). Like the rest of Canada's banking sector, TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet operational, so the Canadian parent exposes no first-party public developer API. Consumer financial-data access today is aggregator-based — TD signed a North American data-access agreement with Plaid in December 2023 — while payments run over the shared Canadian rails (Interac e-Transfer and Payments Canada's Real-Time Rail, with Interac as the RTR exchange solution provider). The FDX-aligned, Akoya-based open-banking API suite published at developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this Canadian entity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-bank-group/refs/heads/main/screenshots/td-bank-group-2026-09-02T162634.png",
      "score": 5.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8191,7 +8211,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8243,7 +8263,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8295,7 +8315,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8340,7 +8360,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8391,7 +8411,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8435,7 +8455,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8480,7 +8500,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8531,7 +8551,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8583,7 +8603,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8635,7 +8655,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8687,7 +8707,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8739,7 +8759,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8791,7 +8811,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8843,7 +8863,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8894,7 +8914,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

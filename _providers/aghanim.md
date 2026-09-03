@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 110
   human_in_the_loop: 1
@@ -43,85 +43,139 @@ agentic_access:
   summary_line: 170 operations · 110 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Achievements API from Aghanim — 3 operation(s) for achievements.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Achievements API from Aghanim — 3 operation(s) for achievements.
   name: Aghanim Achievements API
   slug: aghanim-achievements-api
-- description: The Coupons API from Aghanim — 3 operation(s) for coupons.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Coupons API from Aghanim — 3 operation(s) for coupons.
   name: Aghanim Coupons API
   slug: aghanim-coupons-api
-- description: The Creators API from Aghanim — 4 operation(s) for creators.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Creators API from Aghanim — 4 operation(s) for creators.
   name: Aghanim Creators API
   slug: aghanim-creators-api
-- description: The Daily Rewards API from Aghanim — 3 operation(s) for daily rewards.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Daily Rewards API from Aghanim — 3 operation(s) for daily rewards.
   name: Aghanim Daily Rewards API
   slug: aghanim-daily-rewards-api
-- description: The GDPR Requests API from Aghanim — 1 operation(s) for gdpr requests.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The GDPR Requests API from Aghanim — 1 operation(s) for gdpr requests.
   name: Aghanim GDPR Requests API
   slug: aghanim-gdpr-requests-api
-- description: The Item Categories API from Aghanim — 2 operation(s) for item categories.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Item Categories API from Aghanim — 2 operation(s) for item categories.
   name: Aghanim Item Categories API
   slug: aghanim-item-categories-api
-- description: The Items API from Aghanim — 3 operation(s) for items.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Items API from Aghanim — 3 operation(s) for items.
   name: Aghanim Items API
   slug: aghanim-items-api
-- description: The Leaderboards API from Aghanim — 5 operation(s) for leaderboards.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Leaderboards API from Aghanim — 5 operation(s) for leaderboards.
   name: Aghanim Leaderboards API
   slug: aghanim-leaderboards-api
-- description: The LiveOps API from Aghanim — 5 operation(s) for liveops.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The LiveOps API from Aghanim — 5 operation(s) for liveops.
   name: Aghanim LiveOps API
   slug: aghanim-liveops-api
-- description: The Locales API from Aghanim — 2 operation(s) for locales.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Locales API from Aghanim — 2 operation(s) for locales.
   name: Aghanim Locales API
   slug: aghanim-locales-api
-- description: The Loyalty Program API from Aghanim — 4 operation(s) for loyalty program.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Loyalty Program API from Aghanim — 4 operation(s) for loyalty program.
   name: Aghanim Loyalty Program API
   slug: aghanim-loyalty-program-api
-- description: The News API from Aghanim — 2 operation(s) for news.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The News API from Aghanim — 2 operation(s) for news.
   name: Aghanim News API
   slug: aghanim-news-api
-- description: The Orders API from Aghanim — 4 operation(s) for orders.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Orders API from Aghanim — 4 operation(s) for orders.
   name: Aghanim Orders API
   slug: aghanim-orders-api
-- description: The Pages API from Aghanim — 3 operation(s) for pages.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Pages API from Aghanim — 3 operation(s) for pages.
   name: Aghanim Pages API
   slug: aghanim-pages-api
-- description: The Payments API from Aghanim — 1 operation(s) for payments.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Payments API from Aghanim — 1 operation(s) for payments.
   name: Aghanim Payments API
   slug: aghanim-payments-api
-- description: The Players API from Aghanim — 4 operation(s) for players.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Players API from Aghanim — 4 operation(s) for players.
   name: Aghanim Players API
   slug: aghanim-players-api
-- description: The Players' Marketing Consents API from Aghanim — 2 operation(s) for players' marketing consents.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Players' Marketing Consents API from Aghanim — 2 operation(s) for players' marketing consents.
   name: Aghanim Players' Marketing Consents API
   slug: aghanim-players-marketing-consents-api
-- description: The Players' Subscriptions API from Aghanim — 3 operation(s) for players' subscriptions.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Players' Subscriptions API from Aghanim — 3 operation(s) for players' subscriptions.
   name: Aghanim Players' Subscriptions API
   slug: aghanim-players-subscriptions-api
-- description: The Price Points API from Aghanim — 1 operation(s) for price points.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Price Points API from Aghanim — 1 operation(s) for price points.
   name: Aghanim Price Points API
   slug: aghanim-price-points-api
-- description: The Price Templates API from Aghanim — 2 operation(s) for price templates.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Price Templates API from Aghanim — 2 operation(s) for price templates.
   name: Aghanim Price Templates API
   slug: aghanim-price-templates-api
-- description: The Segmentation API from Aghanim — 5 operation(s) for segmentation.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Segmentation API from Aghanim — 5 operation(s) for segmentation.
   name: Aghanim Segmentation API
   slug: aghanim-segmentation-api
-- description: The Store Promotions API from Aghanim — 5 operation(s) for store promotions.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Store Promotions API from Aghanim — 5 operation(s) for store promotions.
   name: Aghanim Store Promotions API
   slug: aghanim-store-promotions-api
-- description: The Stores API from Aghanim — 11 operation(s) for stores.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Stores API from Aghanim — 11 operation(s) for stores.
   name: Aghanim Stores API
   slug: aghanim-stores-api
-- description: The Translation Glossaries API from Aghanim — 2 operation(s) for translation glossaries.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Translation Glossaries API from Aghanim — 2 operation(s) for translation glossaries.
   name: Aghanim Translation Glossaries API
   slug: aghanim-translation-glossaries-api
-- description: The Users API from Aghanim — 5 operation(s) for users.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Users API from Aghanim — 5 operation(s) for users.
   name: Aghanim Users API
   slug: aghanim-users-api
-- description: The Videos API from Aghanim — 2 operation(s) for videos.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Videos API from Aghanim — 2 operation(s) for videos.
   name: Aghanim Videos API
   slug: aghanim-videos-api
-- description: The Webhooks API from Aghanim — 4 operation(s) for webhooks.
+- baseURL: https://api.aghanim.com/s2s
+  baseurl_source: declared
+  description: The Webhooks API from Aghanim — 4 operation(s) for webhooks.
   name: Aghanim Webhooks API
   slug: aghanim-webhooks-api
 artifact_total: 60
@@ -351,7 +405,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -361,7 +415,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 46.2
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,7 +437,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aghanim/refs/heads/main/screenshots/aghanim-2026-07-25T195259.png
 security:

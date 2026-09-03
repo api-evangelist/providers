@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 48 operations · 25 acting
 api_count: 1
 apis:
-- description: Manage customers in Paigo.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: Manage customers in Paigo.
   name: Paigo Customers API
   slug: paigo-customers-api
-- description: Manage dimensions in Paigo.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: Manage dimensions in Paigo.
   name: Paigo Dimensions API
   slug: paigo-dimensions-api
-- description: Manage invoices in Paigo.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: Manage invoices in Paigo.
   name: Paigo Invoices API
   slug: paigo-invoices-api
-- description: Manage measurements in Paigo. <br><br> See <a href="https://docs.paigo.tech/measure-usage-and-collect-data/measure-and-collect-usage-data-at-production-scale">Measure and Collect Usage Data at Product
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: Manage measurements in Paigo. <br><br> See <a href="https://docs.paigo.tech/measure-usage-and-collect-data/measure-and-collect-usage-data-at-production-scale">Measure and Collect Usage Data at Product
   name: Paigo Measurements API
   slug: paigo-measurements-api
-- description: Manage offerings in Paigo.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: Manage offerings in Paigo.
   name: Paigo Offerings API
   slug: paigo-offerings-api
-- description: The Settings API from Paigo — 2 operation(s) for settings.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: The Settings API from Paigo — 2 operation(s) for settings.
   name: Paigo Settings API
   slug: paigo-settings-api
-- description: Measure and collect usage data.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: Measure and collect usage data.
   name: Paigo Usage API
   slug: paigo-usage-api
-- description: The Webhooks API from Paigo — 7 operation(s) for webhooks.
+- baseURL: https://api.prod.paigo.tech
+  baseurl_source: declared
+  description: The Webhooks API from Paigo — 7 operation(s) for webhooks.
   name: Paigo Webhooks API
   slug: paigo-webhooks-api
 artifact_total: 41
@@ -277,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/screenshots/paigo-2026-06-20T191330.png
 security:

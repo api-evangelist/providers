@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Pre-built plugins integrate Friendly Captcha into WordPress, Magento, and other CMS platforms, letting non-developers add privacy-preserving bot defense to common forms without writing code.
   name: Friendly Captcha CMS Plugins
   slug: plugins
-- description: The Siteverify API from Friendly Captcha — 1 operation(s) for siteverify.
+- baseURL: https://global.frcapi.com/api/v2/captcha/siteverify
+  baseurl_source: declared
+  description: The Siteverify API from Friendly Captcha — 1 operation(s) for siteverify.
   name: Friendly Captcha Siteverify API
   slug: friendly-captcha-siteverify-api
 artifact_total: 14
@@ -179,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/screenshots/friendly-captcha-2026-06-20T181553.png
 security:

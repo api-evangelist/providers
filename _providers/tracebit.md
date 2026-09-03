@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Alerts API from Tracebit — 2 operation(s) for alerts.
+- baseURL: https://community.tracebit.com
+  baseurl_source: declared
+  description: The Alerts API from Tracebit — 2 operation(s) for alerts.
   name: Tracebit Alerts API
   slug: tracebit-alerts-api
-- description: The Canary Credentials API from Tracebit — 2 operation(s) for canary credentials.
+- baseURL: https://community.tracebit.com
+  baseurl_source: declared
+  description: The Canary Credentials API from Tracebit — 2 operation(s) for canary credentials.
   name: Tracebit Canary Credentials API
   slug: tracebit-canary-credentials-api
 artifact_total: 9
@@ -216,7 +220,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tracebit/refs/heads/main/screenshots/tracebit-2026-08-17T082426.png
 security:

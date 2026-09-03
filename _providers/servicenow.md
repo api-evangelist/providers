@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -114,7 +114,9 @@ apis:
 - description: The ServiceNow HR API provides REST endpoints for managing Human Resources Service Delivery (HRSD) data including employee cases, lifecycle events, and HR service requests. It enables integration with
   name: ServiceNow HR API
   slug: servicenow-hr-api
-- description: The ServiceNow Event Management Topic Open API provides REST endpoints for managing event topics and subscriptions within IT Operations Management. It enables external monitoring tools to publish even
+- baseURL: https://{instance}.service-now.com/api/em/topic
+  baseurl_source: declared
+  description: The ServiceNow Event Management Topic Open API provides REST endpoints for managing event topics and subscriptions within IT Operations Management. It enables external monitoring tools to publish even
   name: ServiceNow Event Management Topic Open API
   slug: servicenow-event-management-topic-api
 - description: The ServiceNow Predictive Intelligence API provides REST endpoints for accessing machine learning prediction models on the Now Platform. It supports classification, similarity matching, and regression
@@ -189,49 +191,79 @@ apis:
 - description: The ServiceNow Project Portfolio Management API provides REST endpoints for managing projects, demands, and resource plans within Strategic Portfolio Management (SPM). It enables external systems to c
   name: ServiceNow Project Portfolio Management API
   slug: servicenow-project-portfolio-management-api
-- description: Operations for computing aggregate statistics on ServiceNow table records including count, sum, average, minimum, and maximum values.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for computing aggregate statistics on ServiceNow table records including count, sum, average, minimum, and maximum values.
   name: ServiceNow Aggregate Statistics API
   slug: servicenow-aggregate-statistics-api
-- description: Operations for uploading, retrieving, listing, and deleting file attachments on ServiceNow records.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for uploading, retrieving, listing, and deleting file attachments on ServiceNow records.
   name: ServiceNow Attachments API
   slug: servicenow-attachments-api
-- description: Operations for managing the shopping cart and submitting orders.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing the shopping cart and submitting orders.
   name: ServiceNow Cart API
   slug: servicenow-cart-api
-- description: Operations for retrieving catalog item details and variables.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for retrieving catalog item details and variables.
   name: ServiceNow Catalog Items API
   slug: servicenow-catalog-items-api
-- description: Operations for browsing and retrieving service catalogs.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for browsing and retrieving service catalogs.
   name: ServiceNow Catalogs API
   slug: servicenow-catalogs-api
-- description: Operations for browsing catalog categories.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for browsing catalog categories.
   name: ServiceNow Categories API
   slug: servicenow-categories-api
-- description: Operations for managing tasks associated with change requests.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing tasks associated with change requests.
   name: ServiceNow Change Tasks API
   slug: servicenow-change-tasks-api
-- description: Operations for retrieving configuration item instances from the CMDB by class name.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for retrieving configuration item instances from the CMDB by class name.
   name: ServiceNow CMDB Instances API
   slug: servicenow-cmdb-instances-api
-- description: Operations for managing Customer Service Management contacts
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing Customer Service Management contacts
   name: ServiceNow Contact API
   slug: servicenow-contact-api
-- description: Operations for managing emergency change requests that require expedited processing.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing emergency change requests that require expedited processing.
   name: ServiceNow Emergency Changes API
   slug: servicenow-emergency-changes-api
-- description: Operations for inserting records into import set staging tables and triggering transform map processing.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for inserting records into import set staging tables and triggering transform map processing.
   name: ServiceNow Import Sets API
   slug: servicenow-import-sets-api
-- description: Operations for managing normal change requests that require full review and approval before implementation.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing normal change requests that require full review and approval before implementation.
   name: ServiceNow Normal Changes API
   slug: servicenow-normal-changes-api
-- description: Operations for managing standard change requests based on pre-approved templates.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing standard change requests based on pre-approved templates.
   name: ServiceNow Standard Changes API
   slug: servicenow-standard-changes-api
-- description: Operations for creating, reading, updating, and deleting records in ServiceNow tables.
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for creating, reading, updating, and deleting records in ServiceNow tables.
   name: ServiceNow Table Records API
   slug: servicenow-table-records-api
-- description: Operations for managing trouble tickets (Cases, Incidents, and Service Problem Cases)
+- baseURL: https://{instance}.service-now.com/api/now/table
+  baseurl_source: declared
+  description: Operations for managing trouble tickets (Cases, Incidents, and Service Problem Cases)
   name: ServiceNow Trouble Ticket API
   slug: servicenow-trouble-ticket-api
 arazzos:
@@ -1404,7 +1436,7 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -1414,7 +1446,7 @@ score:
     discoverability: 48.1
     governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 62.3
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1425,7 +1457,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

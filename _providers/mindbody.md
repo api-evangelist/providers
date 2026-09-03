@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 154 operations · 73 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: Appointment operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Appointment operations.
   name: Mindbody Appointment API
   slug: mindbody-appointment-api
-- description: Class operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Class operations.
   name: Mindbody Class API
   slug: mindbody-class-api
-- description: Client operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Client operations.
   name: Mindbody Client API
   slug: mindbody-client-api
-- description: Cross Site operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Cross Site operations.
   name: Mindbody Cross Site API
   slug: mindbody-cross-site-api
-- description: Enrollment operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Enrollment operations.
   name: Mindbody Enrollment API
   slug: mindbody-enrollment-api
-- description: Metrics operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Metrics operations.
   name: Mindbody Metrics API
   slug: mindbody-metrics-api
-- description: Payroll operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Payroll operations.
   name: Mindbody Payroll API
   slug: mindbody-payroll-api
-- description: Pick A Spot operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Pick A Spot operations.
   name: Mindbody Pick A Spot API
   slug: mindbody-pick-a-spot-api
-- description: Sale operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Sale operations.
   name: Mindbody Sale API
   slug: mindbody-sale-api
-- description: Site operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Site operations.
   name: Mindbody Site API
   slug: mindbody-site-api
-- description: Staff operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Staff operations.
   name: Mindbody Staff API
   slug: mindbody-staff-api
-- description: Subscriptions operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: Subscriptions operations.
   name: Mindbody Subscriptions API
   slug: mindbody-subscriptions-api
-- description: User Token operations.
+- baseURL: https://api.mindbodyonline.com
+  baseurl_source: declared
+  description: User Token operations.
   name: Mindbody User Token API
   slug: mindbody-user-token-api
 arazzos:
@@ -3545,7 +3571,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/screenshots/mindbody-2026-06-20T185555.png
 security:

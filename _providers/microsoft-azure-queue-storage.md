@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: Queues operations
+- baseURL: https://{account}.queue.core.windows.net/
+  baseurl_source: declared
+  description: Queues operations
   name: Azure Queue Storage Queues API
   slug: microsoft-azure-queue-storage-queues-api
 artifact_total: 10
@@ -167,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/screenshots/microsoft-azure-queue-storage-2026-06-20T185432.png
 security:

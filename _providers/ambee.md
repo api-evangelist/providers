@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations
 api_count: 1
 apis:
-- description: The Air Quality API from Ambee — 5 operation(s) for air quality.
+- baseURL: https://api.ambeedata.com
+  baseurl_source: declared
+  description: The Air Quality API from Ambee — 5 operation(s) for air quality.
   name: Ambee Air Quality API
   slug: ambee-air-quality-api
-- description: The Fire API from Ambee — 2 operation(s) for fire.
+- baseURL: https://api.ambeedata.com
+  baseurl_source: declared
+  description: The Fire API from Ambee — 2 operation(s) for fire.
   name: Ambee Fire API
   slug: ambee-fire-api
-- description: The NDVI API from Ambee — 2 operation(s) for ndvi.
+- baseURL: https://api.ambeedata.com
+  baseurl_source: declared
+  description: The NDVI API from Ambee — 2 operation(s) for ndvi.
   name: Ambee NDVI API
   slug: ambee-ndvi-api
-- description: The Pollen API from Ambee — 5 operation(s) for pollen.
+- baseURL: https://api.ambeedata.com
+  baseurl_source: declared
+  description: The Pollen API from Ambee — 5 operation(s) for pollen.
   name: Ambee Pollen API
   slug: ambee-pollen-api
-- description: The Soil API from Ambee — 2 operation(s) for soil.
+- baseURL: https://api.ambeedata.com
+  baseurl_source: declared
+  description: The Soil API from Ambee — 2 operation(s) for soil.
   name: Ambee Soil API
   slug: ambee-soil-api
-- description: The Weather API from Ambee — 3 operation(s) for weather.
+- baseURL: https://api.ambeedata.com
+  baseurl_source: declared
+  description: The Weather API from Ambee — 3 operation(s) for weather.
   name: Ambee Weather API
   slug: ambee-weather-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/screenshots/ambee-2026-07-25T200014.png
 security:

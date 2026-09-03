@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: Shop DSW for the best athletic shoes, sneakers, boots, sandals, acc
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dsw.png
 layout: provider
 modified: '2026-04-28'
-name: dsw
+name: Dsw
 nav: Providers
 network: true
-overview: dsw is profiled on the [APIs.io](https://apis.io/) network.
+overview: Dsw is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: '2026-05-25'
   title: DSW Successfully Incorporates AI into Customer Experience
@@ -94,10 +94,10 @@ score:
   previous_composite: 2.6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsw/refs/heads/main/screenshots/dsw-2026-06-20T180312.png
 security:

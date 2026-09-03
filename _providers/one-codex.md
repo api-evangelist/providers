@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 170 operations · 64 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from One Codex — 1 operation(s) for account.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Account API from One Codex — 1 operation(s) for account.
   name: One Codex Account API
   slug: one-codex-account-api
-- description: The Alignments API from One Codex — 9 operation(s) for alignments.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Alignments API from One Codex — 9 operation(s) for alignments.
   name: One Codex Alignments API
   slug: one-codex-alignments-api
-- description: The Analyses API from One Codex — 9 operation(s) for analyses.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Analyses API from One Codex — 9 operation(s) for analyses.
   name: One Codex Analyses API
   slug: one-codex-analyses-api
-- description: The Annotation Sets API from One Codex — 4 operation(s) for annotation sets.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Annotation Sets API from One Codex — 4 operation(s) for annotation sets.
   name: One Codex Annotation Sets API
   slug: one-codex-annotation-sets-api
-- description: The Assemblies API from One Codex — 3 operation(s) for assemblies.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Assemblies API from One Codex — 3 operation(s) for assemblies.
   name: One Codex Assemblies API
   slug: one-codex-assemblies-api
-- description: The Assets API from One Codex — 5 operation(s) for assets.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Assets API from One Codex — 5 operation(s) for assets.
   name: One Codex Assets API
   slug: one-codex-assets-api
-- description: The Classifications API from One Codex — 11 operation(s) for classifications.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Classifications API from One Codex — 11 operation(s) for classifications.
   name: One Codex Classifications API
   slug: one-codex-classifications-api
-- description: The Controls API from One Codex — 9 operation(s) for controls.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Controls API from One Codex — 9 operation(s) for controls.
   name: One Codex Controls API
   slug: one-codex-controls-api
-- description: The Documents API from One Codex — 9 operation(s) for documents.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Documents API from One Codex — 9 operation(s) for documents.
   name: One Codex Documents API
   slug: one-codex-documents-api
-- description: The Events API from One Codex — 2 operation(s) for events.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Events API from One Codex — 2 operation(s) for events.
   name: One Codex Events API
   slug: one-codex-events-api
-- description: The Functional Profiles API from One Codex — 10 operation(s) for functional profiles.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Functional Profiles API from One Codex — 10 operation(s) for functional profiles.
   name: One Codex Functional Profiles API
   slug: one-codex-functional-profiles-api
-- description: The Genomes API from One Codex — 2 operation(s) for genomes.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Genomes API from One Codex — 2 operation(s) for genomes.
   name: One Codex Genomes API
   slug: one-codex-genomes-api
-- description: The Jobs API from One Codex — 4 operation(s) for jobs.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Jobs API from One Codex — 4 operation(s) for jobs.
   name: One Codex Jobs API
   slug: one-codex-jobs-api
-- description: The Metadata API from One Codex — 2 operation(s) for metadata.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Metadata API from One Codex — 2 operation(s) for metadata.
   name: One Codex Metadata API
   slug: one-codex-metadata-api
-- description: The Mlsts API from One Codex — 9 operation(s) for mlsts.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Mlsts API from One Codex — 9 operation(s) for mlsts.
   name: One Codex Mlsts API
   slug: one-codex-mlsts-api
-- description: The Panels API from One Codex — 9 operation(s) for panels.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Panels API from One Codex — 9 operation(s) for panels.
   name: One Codex Panels API
   slug: one-codex-panels-api
-- description: The Projects API from One Codex — 7 operation(s) for projects.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Projects API from One Codex — 7 operation(s) for projects.
   name: One Codex Projects API
   slug: one-codex-projects-api
-- description: The Reports API from One Codex — 9 operation(s) for reports.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Reports API from One Codex — 9 operation(s) for reports.
   name: One Codex Reports API
   slug: one-codex-reports-api
-- description: The Samples API from One Codex — 11 operation(s) for samples.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Samples API from One Codex — 11 operation(s) for samples.
   name: One Codex Samples API
   slug: one-codex-samples-api
-- description: The Sequencing API from One Codex — 4 operation(s) for sequencing.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Sequencing API from One Codex — 4 operation(s) for sequencing.
   name: One Codex Sequencing API
   slug: one-codex-sequencing-api
-- description: The Tags API from One Codex — 2 operation(s) for tags.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Tags API from One Codex — 2 operation(s) for tags.
   name: One Codex Tags API
   slug: one-codex-tags-api
-- description: The Taxa API from One Codex — 5 operation(s) for taxa.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Taxa API from One Codex — 5 operation(s) for taxa.
   name: One Codex Taxa API
   slug: one-codex-taxa-api
-- description: The Users API from One Codex — 2 operation(s) for users.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Users API from One Codex — 2 operation(s) for users.
   name: One Codex Users API
   slug: one-codex-users-api
-- description: The Webhooks API from One Codex — 2 operation(s) for webhooks.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Webhooks API from One Codex — 2 operation(s) for webhooks.
   name: One Codex Webhooks API
   slug: one-codex-webhooks-api
-- description: The Workflows API from One Codex — 9 operation(s) for workflows.
+- baseURL: https://app.onecodex.com/api/v1/
+  baseurl_source: declared
+  description: The Workflows API from One Codex — 9 operation(s) for workflows.
   name: One Codex Workflows API
   slug: one-codex-workflows-api
 artifact_total: 57
@@ -363,7 +413,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -373,7 +423,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -395,7 +445,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 5
 apis:
-- description: The Databases API from Azure SQL Database — 2 operation(s) for databases.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Databases API from Azure SQL Database — 2 operation(s) for databases.
   name: Azure SQL Database Databases API
   slug: microsoft-azure-sql-database-databases-api
-- description: The ElasticPools API from Azure SQL Database — 1 operation(s) for elasticpools.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The ElasticPools API from Azure SQL Database — 1 operation(s) for elasticpools.
   name: Azure SQL Database ElasticPools API
   slug: microsoft-azure-sql-database-elasticpools-api
-- description: The FailoverGroups API from Azure SQL Database — 1 operation(s) for failovergroups.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The FailoverGroups API from Azure SQL Database — 1 operation(s) for failovergroups.
   name: Azure SQL Database FailoverGroups API
   slug: microsoft-azure-sql-database-failovergroups-api
-- description: The FirewallRules API from Azure SQL Database — 2 operation(s) for firewallrules.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The FirewallRules API from Azure SQL Database — 2 operation(s) for firewallrules.
   name: Azure SQL Database FirewallRules API
   slug: microsoft-azure-sql-database-firewallrules-api
-- description: The Servers API from Azure SQL Database — 3 operation(s) for servers.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Servers API from Azure SQL Database — 3 operation(s) for servers.
   name: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
 artifact_total: 18
@@ -195,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/screenshots/microsoft-azure-sql-database-2026-06-20T185438.png
 security:

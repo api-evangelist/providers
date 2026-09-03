@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,13 +44,19 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Create InfinitePay-hosted checkout payment links.
+- baseURL: https://api.checkout.infinitepay.io
+  baseurl_source: declared
+  description: Create InfinitePay-hosted checkout payment links.
   name: CloudWalk Checkout Links API
   slug: cloudwalk-checkout-links-api
-- description: The InfinitePay Checkout API API from CloudWalk — 0 operation(s) for infinitepay checkout api.
+- baseURL: https://api.checkout.infinitepay.io
+  baseurl_source: declared
+  description: The InfinitePay Checkout API API from CloudWalk — 0 operation(s) for infinitepay checkout api.
   name: CloudWalk InfinitePay Checkout API
   slug: cloudwalk-infinitepay-checkout-api-api
-- description: Query the payment status of a checkout link.
+- baseURL: https://api.checkout.infinitepay.io
+  baseurl_source: declared
+  description: Query the payment status of a checkout link.
   name: CloudWalk Payments API
   slug: cloudwalk-payments-api
 artifact_total: 10
@@ -225,7 +242,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -235,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 51.8
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +270,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwalk/refs/heads/main/screenshots/cloudwalk-2026-08-07T163513.png
 security:

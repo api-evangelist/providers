@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 75 operations · 40 acting · 1 human-in-the-loop
 api_count: 12
 apis:
-- description: Operations for retrieving authenticated user information.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for retrieving authenticated user information.
   name: clickup Authorization API
   slug: clickup-authorization-api
-- description: Operations for managing comments on tasks, views, and lists.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing comments on tasks, views, and lists.
   name: clickup Comments API
   slug: clickup-comments-api
-- description: Operations for retrieving custom field definitions and setting custom field values on tasks.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for retrieving custom field definitions and setting custom field values on tasks.
   name: clickup Custom Fields API
   slug: clickup-custom-fields-api
-- description: Operations for managing Folders within ClickUp Spaces.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing Folders within ClickUp Spaces.
   name: clickup Folders API
   slug: clickup-folders-api
-- description: Operations for managing Goals and Key Results within a ClickUp Workspace.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing Goals and Key Results within a ClickUp Workspace.
   name: clickup Goals API
   slug: clickup-goals-api
-- description: Operations for managing Lists within ClickUp Spaces and Folders.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing Lists within ClickUp Spaces and Folders.
   name: clickup Lists API
   slug: clickup-lists-api
-- description: Operations for OAuth 2.0 authentication and token management.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for OAuth 2.0 authentication and token management.
   name: clickup OAuth API
   slug: clickup-oauth-api
-- description: Operations for managing Spaces within a ClickUp Workspace.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing Spaces within a ClickUp Workspace.
   name: clickup Spaces API
   slug: clickup-spaces-api
-- description: Operations for creating, retrieving, updating, and deleting tasks within ClickUp lists and workspaces.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting tasks within ClickUp lists and workspaces.
   name: clickup Tasks API
   slug: clickup-tasks-api
-- description: Operations for retrieving Workspace (team) information and membership.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for retrieving Workspace (team) information and membership.
   name: clickup Teams API
   slug: clickup-teams-api
-- description: Operations for managing time entries and timers within a ClickUp Workspace.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing time entries and timers within a ClickUp Workspace.
   name: clickup Time Tracking API
   slug: clickup-time-tracking-api
-- description: Operations for managing views at various levels of the ClickUp hierarchy.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for managing views at various levels of the ClickUp hierarchy.
   name: clickup Views API
   slug: clickup-views-api
-- description: Operations for creating, retrieving, updating, and deleting webhook subscriptions.
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting webhook subscriptions.
   name: clickup Webhooks API
   slug: clickup-webhooks-api
 artifact_total: 109
@@ -374,16 +400,16 @@ jsonld:
   slug: clickup-context
 layout: provider
 modified: '2026-05-19'
-name: clickup
+name: Clickup
 nav: Providers
 network: true
-overview: 'clickup publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Comments API, Custom Fields API, and 10 more.
+overview: 'Clickup publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Comments API, Custom Fields API, and 10 more.
 
 
-  The clickup catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Clickup catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  clickup''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Clickup''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Clickup Plans Pricing
   plan_count: 4
@@ -397,7 +423,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: clickup API Rules
+  name: Clickup API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -407,7 +433,7 @@ rules:
   slug: clickup-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: clickup API Rules
+  name: Clickup API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -423,7 +449,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -433,7 +459,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 35.3
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -443,10 +469,10 @@ score:
       total: 13
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png
 security:

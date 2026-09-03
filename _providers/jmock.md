@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Core library for creating mock objects and defining expectations in Java tests using an expressive DSL. Supports JUnit 4 and JUnit 5, modern JDK versions, and integrates seamlessly with IDE refactorin
@@ -114,7 +114,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 14.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/screenshots/jmock-2026-06-20T183739.png
 security:

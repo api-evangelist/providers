@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 35 operations · 25 acting · 25 human-in-the-loop
 api_count: 1
 apis:
-- description: The Action API API from Spektr — 1 operation(s) for action api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Action API API from Spektr — 1 operation(s) for action api.
   name: Spektr Action API API
   slug: spektr-action-api-api
-- description: The Events API API from Spektr — 1 operation(s) for events api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Events API API from Spektr — 1 operation(s) for events api.
   name: Spektr Events API API
   slug: spektr-events-api-api
-- description: The Execution API API from Spektr — 3 operation(s) for execution api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Execution API API from Spektr — 3 operation(s) for execution api.
   name: Spektr Execution API API
   slug: spektr-execution-api-api
-- description: The Import API API from Spektr — 2 operation(s) for import api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Import API API from Spektr — 2 operation(s) for import api.
   name: Spektr Import API API
   slug: spektr-import-api-api
-- description: The Orchestration API API from Spektr — 6 operation(s) for orchestration api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Orchestration API API from Spektr — 6 operation(s) for orchestration api.
   name: Spektr Orchestration API API
   slug: spektr-orchestration-api-api
-- description: The Records API API from Spektr — 9 operation(s) for records api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Records API API from Spektr — 9 operation(s) for records api.
   name: Spektr Records API API
   slug: spektr-records-api-api
-- description: The Transaction Definitions API from Spektr — 2 operation(s) for transaction definitions.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Transaction Definitions API from Spektr — 2 operation(s) for transaction definitions.
   name: Spektr Transaction Definitions API
   slug: spektr-transaction-definitions-api
-- description: The Transactions API from Spektr — 1 operation(s) for transactions.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Transactions API from Spektr — 1 operation(s) for transactions.
   name: Spektr Transactions API
   slug: spektr-transactions-api
-- description: The Workspace Fields API API from Spektr — 2 operation(s) for workspace fields api.
+- baseURL: https://ingest.spektr.com
+  baseurl_source: declared
+  description: The Workspace Fields API API from Spektr — 2 operation(s) for workspace fields api.
   name: Spektr Workspace Fields API API
   slug: spektr-workspace-fields-api-api
 artifact_total: 25
@@ -263,7 +281,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -273,7 +291,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 50.4
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/screenshots/spektr-2026-08-17T082229.png
 security:

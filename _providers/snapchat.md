@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Lens Studio is Snap's desktop application for building augmented reality lenses for Snapchat and Spectacles. Provides an API for scripting lens behaviors, integrating dynamic data, and publishing to t
   name: Lens Studio
   slug: snapchat-lens-studio
-- description: Endpoints for sending web, app, and offline conversion events to Snap for campaign measurement and optimization.
+- baseURL: https://tr.snapchat.com/v3
+  baseurl_source: declared
+  description: Endpoints for sending web, app, and offline conversion events to Snap for campaign measurement and optimization.
   name: Snapchat Conversion Events API
   slug: snapchat-conversion-events-api
-- description: OAuth 2.0 authorization and token management endpoints for authenticating users via their Snapchat account.
+- baseURL: https://accounts.snapchat.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management endpoints for authenticating users via their Snapchat account.
   name: Snapchat OAuth API
   slug: snapchat-oauth-api
-- description: Endpoints for retrieving authenticated user profile information including display name and Bitmoji avatar.
+- baseURL: https://kit.snapchat.com/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving authenticated user profile information including display name and Bitmoji avatar.
   name: Snapchat User Profile API
   slug: snapchat-user-profile-api
 - description: Snap's first-party hosted Model Context Protocol server for the Snapchat Ads API. A supported agent connects over streamable HTTP to https://mcp.snapchat.com/ads and authenticates with OAuth 2.0 (auth
@@ -517,7 +523,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:

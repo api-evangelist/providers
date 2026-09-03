@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Published authors of Impossible Metals content (8 at capture).
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Published authors of Impossible Metals content (8 at capture).
   name: Impossible Metals Authors API
   slug: impossible-metals-authors-api
-- description: The Categories API from Impossible Metals — 2 operation(s) for categories.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The Categories API from Impossible Metals — 2 operation(s) for categories.
   name: Impossible Metals Categories API
   slug: impossible-metals-categories-api
-- description: These operations are introduced by the Common library.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: These operations are introduced by the Common library.
   name: Impossible Metals Common API
   slug: impossible-metals-common-api
-- description: API root, route index, authentication advertisement and site identity.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: API root, route index, authentication advertisement and site identity.
   name: Impossible Metals Discovery API
   slug: impossible-metals-discovery-api
-- description: The Doc API from Impossible Metals — 1 operation(s) for doc.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The Doc API from Impossible Metals — 1 operation(s) for doc.
   name: Impossible Metals Doc API
   slug: impossible-metals-doc-api
-- description: The Events API from Impossible Metals — 7 operation(s) for events.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The Events API from Impossible Metals — 7 operation(s) for events.
   name: Impossible Metals Events API
   slug: impossible-metals-events-api
-- description: These operations are introduced by Events Pro.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: These operations are introduced by Events Pro.
   name: Impossible Metals Events Pro API
   slug: impossible-metals-events-pro-api
-- description: Frequently asked questions about deep-sea mineral collection, the Eureka AUV, environmental impact and regulation.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Frequently asked questions about deep-sea mineral collection, the Eureka AUV, environmental impact and regulation.
   name: Impossible Metals FAQ API
   slug: impossible-metals-faq-api
-- description: The faq_category taxonomy grouping FAQ entries by subject.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The faq_category taxonomy grouping FAQ entries by subject.
   name: Impossible Metals FAQ Categories API
   slug: impossible-metals-faq-categories-api
-- description: Images, diagrams, PDFs and other attachments with generated size variants.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Images, diagrams, PDFs and other attachments with generated size variants.
   name: Impossible Metals Media API
   slug: impossible-metals-media-api
-- description: oEmbed 1.0 provider endpoint.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
   name: Impossible Metals O Embed API
   slug: impossible-metals-oembed-api
-- description: The Organizers API from Impossible Metals — 3 operation(s) for organizers.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The Organizers API from Impossible Metals — 3 operation(s) for organizers.
   name: Impossible Metals Organizers API
   slug: impossible-metals-organizers-api
-- description: Static marketing, technology, sustainability and policy pages.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Static marketing, technology, sustainability and policy pages.
   name: Impossible Metals Pages API
   slug: impossible-metals-pages-api
-- description: Impossible Metals blog posts, press releases and announcements on deep-sea mineral collection, policy and the Eureka programme.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Impossible Metals blog posts, press releases and announcements on deep-sea mineral collection, policy and the Eureka programme.
   name: Impossible Metals Posts API
   slug: impossible-metals-posts-api
-- description: Cross-content search returning lightweight discovery records.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search returning lightweight discovery records.
   name: Impossible Metals Search API
   slug: impossible-metals-search-api
-- description: The Tags API from Impossible Metals — 2 operation(s) for tags.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The Tags API from Impossible Metals — 2 operation(s) for tags.
   name: Impossible Metals Tags API
   slug: impossible-metals-tags-api
-- description: Categories, tags and the registered type/taxonomy vocabularies.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags and the registered type/taxonomy vocabularies.
   name: Impossible Metals Taxonomy API
   slug: impossible-metals-taxonomy-api
-- description: The Venues API from Impossible Metals — 3 operation(s) for venues.
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: The Venues API from Impossible Metals — 3 operation(s) for venues.
   name: Impossible Metals Venues API
   slug: impossible-metals-venues-api
 artifact_total: 22
@@ -272,23 +308,23 @@ rate_limits:
   slug: impossible-metals-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 21.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -6.3
+  delta: 0.8
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 26.2
+    contract_quality: 29.6
     developer_ergonomics: 20.8
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.1
+  previous_composite: 20.8
   provenance:
     conformance: derived
     contracts:
@@ -299,8 +335,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png
 security:
 - kind: authentication
   name: Impossible Metals Authentication

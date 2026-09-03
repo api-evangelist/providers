@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -92,19 +92,29 @@ apis:
 - description: Self-hostable Trieve server (Rust / Actix-web), dashboard, search and chat UIs, ingestion / file / delete workers, batch-ETL utilities, pdf2md converter, and Helm charts for Kubernetes deployment.
   name: Trieve Open Source Server
   slug: open-source
-- description: The Chunk API from Trieve — 1 operation(s) for chunk.
+- baseURL: https://api.trieve.ai
+  baseurl_source: declared
+  description: The Chunk API from Trieve — 1 operation(s) for chunk.
   name: Trieve Chunk API
   slug: trieve-chunk-api
-- description: The Dataset API from Trieve — 1 operation(s) for dataset.
+- baseURL: https://api.trieve.ai
+  baseurl_source: declared
+  description: The Dataset API from Trieve — 1 operation(s) for dataset.
   name: Trieve Dataset API
   slug: trieve-dataset-api
-- description: The File API from Trieve — 1 operation(s) for file.
+- baseURL: https://api.trieve.ai
+  baseurl_source: declared
+  description: The File API from Trieve — 1 operation(s) for file.
   name: Trieve File API
   slug: trieve-file-api
-- description: The Message API from Trieve — 1 operation(s) for message.
+- baseURL: https://api.trieve.ai
+  baseurl_source: declared
+  description: The Message API from Trieve — 1 operation(s) for message.
   name: Trieve Message API
   slug: trieve-message-api
-- description: The Topic API from Trieve — 1 operation(s) for topic.
+- baseURL: https://api.trieve.ai
+  baseurl_source: declared
+  description: The Topic API from Trieve — 1 operation(s) for topic.
   name: Trieve Topic API
   slug: trieve-topic-api
 artifact_total: 34
@@ -246,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/screenshots/trieve-2026-06-20T195811.png
 security:

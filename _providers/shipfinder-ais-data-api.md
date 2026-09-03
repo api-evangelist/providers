@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -33,25 +46,39 @@ agentic_access:
   summary_line: 40 operations · 11 acting
 api_count: 2
 apis:
-- description: The AIS Dataset API from ShipFinder AIS Data API — 7 operation(s) for ais dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The AIS Dataset API from ShipFinder AIS Data API — 7 operation(s) for ais dataset.
   name: ShipFinder AIS Data API AIS Dataset API
   slug: shipfinder-ais-data-api-ais-dataset-api
-- description: The China Coastline Warning Dataset API from ShipFinder AIS Data API — 1 operation(s) for china coastline warning dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The China Coastline Warning Dataset API from ShipFinder AIS Data API — 1 operation(s) for china coastline warning dataset.
   name: ShipFinder AIS Data API China Coastline Warning Dataset API
   slug: shipfinder-ais-data-api-china-coastline-warning-dataset-api
-- description: The Event Dataset API from ShipFinder AIS Data API — 14 operation(s) for event dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The Event Dataset API from ShipFinder AIS Data API — 14 operation(s) for event dataset.
   name: ShipFinder AIS Data API Event Dataset API
   slug: shipfinder-ais-data-api-event-dataset-api
-- description: The History Dataset API from ShipFinder AIS Data API — 6 operation(s) for history dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The History Dataset API from ShipFinder AIS Data API — 6 operation(s) for history dataset.
   name: ShipFinder AIS Data API History Dataset API
   slug: shipfinder-ais-data-api-history-dataset-api
-- description: The Meteorology Dataset API from ShipFinder AIS Data API — 5 operation(s) for meteorology dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The Meteorology Dataset API from ShipFinder AIS Data API — 5 operation(s) for meteorology dataset.
   name: ShipFinder AIS Data API Meteorology Dataset API
   slug: shipfinder-ais-data-api-meteorology-dataset-api
-- description: The Prediction Dataset API from ShipFinder AIS Data API — 3 operation(s) for prediction dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The Prediction Dataset API from ShipFinder AIS Data API — 3 operation(s) for prediction dataset.
   name: ShipFinder AIS Data API Prediction Dataset API
   slug: shipfinder-ais-data-api-prediction-dataset-api
-- description: The Voyage Dataset API from ShipFinder AIS Data API — 4 operation(s) for voyage dataset.
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The Voyage Dataset API from ShipFinder AIS Data API — 4 operation(s) for voyage dataset.
   name: ShipFinder AIS Data API Voyage Dataset API
   slug: shipfinder-ais-data-api-voyage-dataset-api
 arazzos:
@@ -275,7 +302,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -285,7 +312,7 @@ score:
     discoverability: 75.9
     governance: 19.7
     operational_transparency: 7.9
-  previous_composite: 52.6
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/screenshots/shipfinder-ais-data-api-2026-08-17T081834.png
 security:

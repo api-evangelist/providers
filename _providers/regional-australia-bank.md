@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Regional Australia Bank Banking Account Balances API
   slug: regional-australia-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Regional Australia Bank Banking Account Direct Debits API
   slug: regional-australia-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Regional Australia Bank Banking Account Scheduled Payments API
   slug: regional-australia-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Regional Australia Bank Banking Account Transactions API
   slug: regional-australia-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Regional Australia Bank Banking Accounts API
   slug: regional-australia-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Regional Australia Bank Banking Payees API
   slug: regional-australia-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://public-data.cdr.regaustbank.io/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Regional Australia Bank Banking Products API
   slug: regional-australia-bank-banking-products-api
 artifact_total: 19
@@ -241,7 +255,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png
 security:

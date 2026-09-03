@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 72 operations · 35 acting
 api_count: 1
 apis:
-- description: The ClientCredentials API from Physna — 2 operation(s) for clientcredentials.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The ClientCredentials API from Physna — 2 operation(s) for clientcredentials.
   name: Physna ClientCredentials API
   slug: physna-clientcredentials-api
-- description: The Collections API from Physna — 13 operation(s) for collections.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Collections API from Physna — 13 operation(s) for collections.
   name: Physna Collections API
   slug: physna-collections-api
-- description: The Deprecated API from Physna — 8 operation(s) for deprecated.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Deprecated API from Physna — 8 operation(s) for deprecated.
   name: Physna Deprecated API
   slug: physna-deprecated-api
-- description: The Folders API from Physna — 3 operation(s) for folders.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Folders API from Physna — 3 operation(s) for folders.
   name: Physna Folders API
   slug: physna-folders-api
-- description: The Image Search API from Physna — 2 operation(s) for image search.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Image Search API from Physna — 2 operation(s) for image search.
   name: Physna Image Search API
   slug: physna-image-search-api
-- description: The Metadata API from Physna — 6 operation(s) for metadata.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Metadata API from Physna — 6 operation(s) for metadata.
   name: Physna Metadata API
   slug: physna-metadata-api
-- description: The Models API from Physna — 16 operation(s) for models.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Models API from Physna — 16 operation(s) for models.
   name: Physna Models API
   slug: physna-models-api
-- description: The Users API from Physna — 4 operation(s) for users.
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Users API from Physna — 4 operation(s) for users.
   name: Physna Users API
   slug: physna-users-api
 artifact_total: 22
@@ -215,7 +231,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -241,8 +257,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/screenshots/physna-2026-09-02T151410.png
 security:
 - kind: authentication
   name: Physna Authentication

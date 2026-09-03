@@ -33,13 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: The Model Context Protocol (MCP) is an open JSON-RPC 2.0 standard for connecting AI applications to external systems — tools, resources and reusable prompt templates. Originally developed by Anthropic
   name: Model Context Protocol (MCP)
   slug: model-context-protocol
-- description: The Official MCP Registry is the community registry service for Model Context Protocol servers, run by the MCP project. Its REST API publishes a full OpenAPI 3.1.0 contract with 32 operations across t
+- baseURL: https://registry.modelcontextprotocol.io
+  baseurl_source: declared
+  description: The Official MCP Registry is the community registry service for Model Context Protocol servers, run by the MCP project. Its REST API publishes a full OpenAPI 3.1.0 contract with 32 operations across t
   name: Official MCP Registry API
   slug: mcp-registry
 - description: goose is a general-purpose, open-source AI agent that runs locally. Originally from Block and now governed by AAIF, it is written in Rust, ships a desktop app and a CLI for macOS, Linux and Windows, c
@@ -352,7 +354,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -365,7 +367,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 57.7
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -376,7 +378,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/screenshots/agentic-ai-foundation-2026-06-20T170026.png
 security:

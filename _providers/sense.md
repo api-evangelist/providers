@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The Sense Realtime API delivers live electricity usage data via a WebSocket connection, streaming second-by-second power consumption readings for the whole home and identified devices. The feed includ
   name: Sense Realtime API
   slug: sense-realtime-api
-- description: Authenticate and manage sessions
+- baseURL: https://api.sense.com/apiservice/api/v1
+  baseurl_source: declared
+  description: Authenticate and manage sessions
   name: Sense Authentication API
   slug: sense-authentication-api
-- description: Device-level energy data and device information
+- baseURL: https://api.sense.com/apiservice/api/v1
+  baseurl_source: declared
+  description: Device-level energy data and device information
   name: Sense Devices API
   slug: sense-devices-api
-- description: Historical energy usage and solar production data
+- baseURL: https://api.sense.com/apiservice/api/v1
+  baseurl_source: declared
+  description: Historical energy usage and solar production data
   name: Sense History API
   slug: sense-history-api
-- description: Monitor overview, status, and device detection
+- baseURL: https://api.sense.com/apiservice/api/v1
+  baseurl_source: declared
+  description: Monitor overview, status, and device detection
   name: Sense Monitors API
   slug: sense-monitors-api
-- description: User-level timeline and usage data
+- baseURL: https://api.sense.com/apiservice/api/v1
+  baseurl_source: declared
+  description: User-level timeline and usage data
   name: Sense Users API
   slug: sense-users-api
 artifact_total: 28
@@ -243,7 +253,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/screenshots/sense-2026-06-20T193703.png
 security:

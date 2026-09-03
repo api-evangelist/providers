@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -45,94 +45,154 @@ agentic_access:
   summary_line: 136 operations · 80 acting · 1 human-in-the-loop
 api_count: 25
 apis:
-- description: The Ac API from SAP Emarsys — 2 operation(s) for ac.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Ac API from SAP Emarsys — 2 operation(s) for ac.
   name: SAP Emarsys Ac API
   slug: emarsys-ac-api
-- description: The Administrator API from SAP Emarsys — 7 operation(s) for administrator.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Administrator API from SAP Emarsys — 7 operation(s) for administrator.
   name: SAP Emarsys Administrator API
   slug: emarsys-administrator-api
-- description: The Blocklist API from SAP Emarsys — 1 operation(s) for blocklist.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Blocklist API from SAP Emarsys — 1 operation(s) for blocklist.
   name: SAP Emarsys Blocklist API
   slug: emarsys-blocklist-api
-- description: The Campaigns API from SAP Emarsys — 1 operation(s) for campaigns.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Campaigns API from SAP Emarsys — 1 operation(s) for campaigns.
   name: SAP Emarsys Campaigns API
   slug: emarsys-campaigns-api
-- description: The Client Configuration API from SAP Emarsys — 1 operation(s) for client configuration.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Client Configuration API from SAP Emarsys — 1 operation(s) for client configuration.
   name: SAP Emarsys Client Configuration API
   slug: emarsys-client-configuration-api
-- description: The Client Configuration Test API from SAP Emarsys — 1 operation(s) for client configuration test.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Client Configuration Test API from SAP Emarsys — 1 operation(s) for client configuration test.
   name: SAP Emarsys Client Configuration Test API
   slug: emarsys-client-configuration-test-api
-- description: The Condition API from SAP Emarsys — 1 operation(s) for condition.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Condition API from SAP Emarsys — 1 operation(s) for condition.
   name: SAP Emarsys Condition API
   slug: emarsys-condition-api
-- description: The Contact API from SAP Emarsys — 10 operation(s) for contact.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Contact API from SAP Emarsys — 10 operation(s) for contact.
   name: SAP Emarsys Contact API
   slug: emarsys-contact-api
-- description: The Contactlist API from SAP Emarsys — 10 operation(s) for contactlist.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Contactlist API from SAP Emarsys — 10 operation(s) for contactlist.
   name: SAP Emarsys Contactlist API
   slug: emarsys-contactlist-api
-- description: The Delivery Reports API from SAP Emarsys — 1 operation(s) for delivery reports.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Delivery Reports API from SAP Emarsys — 1 operation(s) for delivery reports.
   name: SAP Emarsys Delivery Reports API
   slug: emarsys-delivery-reports-api
-- description: The Email API from SAP Emarsys — 34 operation(s) for email.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Email API from SAP Emarsys — 34 operation(s) for email.
   name: SAP Emarsys Email API
   slug: emarsys-email-api
-- description: The Emailcategory API from SAP Emarsys — 1 operation(s) for emailcategory.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Emailcategory API from SAP Emarsys — 1 operation(s) for emailcategory.
   name: SAP Emarsys Emailcategory API
   slug: emarsys-emailcategory-api
-- description: The Event API from SAP Emarsys — 6 operation(s) for event.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Event API from SAP Emarsys — 6 operation(s) for event.
   name: SAP Emarsys Event API
   slug: emarsys-event-api
-- description: The Export API from SAP Emarsys — 3 operation(s) for export.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Export API from SAP Emarsys — 3 operation(s) for export.
   name: SAP Emarsys Export API
   slug: emarsys-export-api
-- description: The Field API from SAP Emarsys — 5 operation(s) for field.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Field API from SAP Emarsys — 5 operation(s) for field.
   name: SAP Emarsys Field API
   slug: emarsys-field-api
-- description: The File API from SAP Emarsys — 4 operation(s) for file.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The File API from SAP Emarsys — 4 operation(s) for file.
   name: SAP Emarsys File API
   slug: emarsys-file-api
-- description: The Filter API from SAP Emarsys — 10 operation(s) for filter.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Filter API from SAP Emarsys — 10 operation(s) for filter.
   name: SAP Emarsys Filter API
   slug: emarsys-filter-api
-- description: The Folder API from SAP Emarsys — 1 operation(s) for folder.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Folder API from SAP Emarsys — 1 operation(s) for folder.
   name: SAP Emarsys Folder API
   slug: emarsys-folder-api
-- description: The Form API from SAP Emarsys — 2 operation(s) for form.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Form API from SAP Emarsys — 2 operation(s) for form.
   name: SAP Emarsys Form API
   slug: emarsys-form-api
-- description: 'The Https: API from SAP Emarsys — 1 operation(s) for https:.'
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: 'The Https: API from SAP Emarsys — 1 operation(s) for https:.'
   name: 'SAP Emarsys Https: API'
   slug: emarsys-https-api
-- description: The inbound-messages API from SAP Emarsys — 1 operation(s) for inbound-messages.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The inbound-messages API from SAP Emarsys — 1 operation(s) for inbound-messages.
   name: SAP Emarsys Inbound Messages API
   slug: emarsys-inbound-messages-api
-- description: The Keyring API from SAP Emarsys — 2 operation(s) for keyring.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Keyring API from SAP Emarsys — 2 operation(s) for keyring.
   name: SAP Emarsys Keyring API
   slug: emarsys-keyring-api
-- description: The Language API from SAP Emarsys — 1 operation(s) for language.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Language API from SAP Emarsys — 1 operation(s) for language.
   name: SAP Emarsys Language API
   slug: emarsys-language-api
-- description: The Outbound Message Sending API from SAP Emarsys — 1 operation(s) for outbound message sending.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Outbound Message Sending API from SAP Emarsys — 1 operation(s) for outbound message sending.
   name: SAP Emarsys Outbound Message Sending API
   slug: emarsys-outbound-message-sending-api
-- description: The Programresource API from SAP Emarsys — 1 operation(s) for programresource.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Programresource API from SAP Emarsys — 1 operation(s) for programresource.
   name: SAP Emarsys Programresource API
   slug: emarsys-programresource-api
-- description: The Rds API from SAP Emarsys — 3 operation(s) for rds.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Rds API from SAP Emarsys — 3 operation(s) for rds.
   name: SAP Emarsys Rds API
   slug: emarsys-rds-api
-- description: The Settings API from SAP Emarsys — 9 operation(s) for settings.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Settings API from SAP Emarsys — 9 operation(s) for settings.
   name: SAP Emarsys Settings API
   slug: emarsys-settings-api
-- description: The Source API from SAP Emarsys — 2 operation(s) for source.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Source API from SAP Emarsys — 2 operation(s) for source.
   name: SAP Emarsys Source API
   slug: emarsys-source-api
-- description: The Trendreporting API from SAP Emarsys — 1 operation(s) for trendreporting.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Trendreporting API from SAP Emarsys — 1 operation(s) for trendreporting.
   name: SAP Emarsys Trendreporting API
   slug: emarsys-trendreporting-api
-- description: The Wishlist API from SAP Emarsys — 1 operation(s) for wishlist.
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Wishlist API from SAP Emarsys — 1 operation(s) for wishlist.
   name: SAP Emarsys Wishlist API
   slug: emarsys-wishlist-api
 artifact_total: 64
@@ -543,7 +603,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -553,7 +613,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 64.8
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -575,7 +635,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/screenshots/emarsys-2026-06-20T180628.png
 security:

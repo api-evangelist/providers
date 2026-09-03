@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Transcription and speech-to-text are Podcastle platform features (multi-language transcription with speaker identification) available in the product, console, and credit-based plans. A standalone tran
   name: Podcastle Transcription
   slug: transcription
-- description: Synthesize speech from text in batch, streaming, or with word timestamps.
+- baseURL: https://api.async.com
+  baseurl_source: declared
+  description: Synthesize speech from text in batch, streaming, or with word timestamps.
   name: Podcastle Text to Speech API
   slug: podcastle-text-to-speech-api
-- description: Browse the voice library and create instant voice clones.
+- baseURL: https://api.async.com
+  baseurl_source: declared
+  description: Browse the voice library and create instant voice clones.
   name: Podcastle Voices API
   slug: podcastle-voices-api
 artifact_total: 13
@@ -137,7 +141,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -160,8 +164,9 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/podcastle/refs/heads/main/screenshots/podcastle-2026-09-02T151614.png
 security:
 - kind: authentication
   name: Podcastle Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Create renders and check their status.
+- baseURL: https://api.creatomate.com/v1
+  baseurl_source: declared
+  description: Create renders and check their status.
   name: Creatomate Renders API
   slug: creatomate-renders-api
-- description: List and retrieve project templates.
+- baseURL: https://api.creatomate.com/v1
+  baseurl_source: declared
+  description: List and retrieve project templates.
   name: Creatomate Templates API
   slug: creatomate-templates-api
 artifact_total: 12
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/screenshots/creatomate-2026-06-20T175219.png
 security:

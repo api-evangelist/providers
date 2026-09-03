@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 77 operations · 27 acting
 api_count: 6
 apis:
-- description: Authenticated operations not otherwise functionally categorized
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Authenticated operations not otherwise functionally categorized
   name: Roadsync authenticated API
   slug: roadsync-authenticated-api
-- description: The brokers API from Roadsync — 2 operation(s) for brokers.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The brokers API from Roadsync — 2 operation(s) for brokers.
   name: Roadsync brokers API
   slug: roadsync-brokers-api
-- description: Department operations
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Department operations
   name: Roadsync department API
   slug: roadsync-department-api
-- description: The directory API from Roadsync — 1 operation(s) for directory.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The directory API from Roadsync — 1 operation(s) for directory.
   name: Roadsync directory API
   slug: roadsync-directory-api
-- description: ETA (Estimated Time of Arrival) endpoints
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: ETA (Estimated Time of Arrival) endpoints
   name: Roadsync eta API
   slug: roadsync-eta-api
-- description: The funding sources API from Roadsync — 2 operation(s) for funding sources.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The funding sources API from Roadsync — 2 operation(s) for funding sources.
   name: Roadsync funding sources API
   slug: roadsync-funding-sources-api
-- description: Invoice operations
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Invoice operations
   name: Roadsync invoice API
   slug: roadsync-invoice-api
-- description: The loads API from Roadsync — 2 operation(s) for loads.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The loads API from Roadsync — 2 operation(s) for loads.
   name: Roadsync loads API
   slug: roadsync-loads-api
-- description: Company location operations
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Company location operations
   name: Roadsync location API
   slug: roadsync-location-api
-- description: The payables API from Roadsync — 2 operation(s) for payables.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The payables API from Roadsync — 2 operation(s) for payables.
   name: Roadsync payables API
   slug: roadsync-payables-api
-- description: The payees end point
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The payees end point
   name: Roadsync payees API
   slug: roadsync-payees-api
-- description: Payment API Operations
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Payment API Operations
   name: Roadsync payment API
   slug: roadsync-payment-api
-- description: The ping API from Roadsync — 1 operation(s) for ping.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The ping API from Roadsync — 1 operation(s) for ping.
   name: Roadsync ping API
   slug: roadsync-ping-api
-- description: Product operations (company)
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Product operations (company)
   name: Roadsync product API
   slug: roadsync-product-api
-- description: Shift operations (company/ location)
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Shift operations (company/ location)
   name: Roadsync shift API
   slug: roadsync-shift-api
-- description: The transactions API from Roadsync — 2 operation(s) for transactions.
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The transactions API from Roadsync — 2 operation(s) for transactions.
   name: Roadsync transactions API
   slug: roadsync-transactions-api
-- description: Unauthenticated operations not otherwise functionally categorized
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: Unauthenticated operations not otherwise functionally categorized
   name: Roadsync unauthenticated API
   slug: roadsync-unauthenticated-api
-- description: The Workorders API
+- baseURL: https://api.roadsync.app/rspay/v1
+  baseurl_source: declared
+  description: The Workorders API
   name: Roadsync workorders API
   slug: roadsync-workorders-api
 artifact_total: 41
@@ -290,7 +326,7 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -322,8 +358,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/roadsync/refs/heads/main/screenshots/roadsync-2026-09-02T153957.png
 security:
 - kind: authentication
   name: Roadsync Authentication

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The wc/store/v1 API from Bond Pet Foods — 31 operation(s) for wc/store/v1.
+- baseURL: https://www.bondpets.com/wp-json/wc/store/v1
+  baseurl_source: declared
+  description: The wc/store/v1 API from Bond Pet Foods — 31 operation(s) for wc/store/v1.
   name: Bond Pet Foods Wc/store/v1 API
   slug: bond-pet-foods-wc-store-v1-api
-- description: The wp/v2 API from Bond Pet Foods — 134 operation(s) for wp/v2.
+- baseURL: https://www.bondpets.com/wp-json/wc/store/v1
+  baseurl_source: declared
+  description: The wp/v2 API from Bond Pet Foods — 134 operation(s) for wp/v2.
   name: Bond Pet Foods Wp/v2 API
   slug: bond-pet-foods-wp-v2-api
 artifact_total: 9
@@ -164,11 +179,11 @@ score:
   band: emerging
   composite: 19.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -178,7 +193,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.8
+  previous_composite: 19.8
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +203,9 @@ score:
       total: 2
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bond-pet-foods/refs/heads/main/screenshots/bond-pet-foods-2026-09-02T144936.png
 security:
 - kind: authentication
   name: Bond Pet Foods Authentication

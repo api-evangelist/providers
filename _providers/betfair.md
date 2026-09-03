@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,25 +44,37 @@ agentic_access:
   summary_line: 27 operations · 26 acting
 api_count: 1
 apis:
-- description: Low-latency, subscription-based push of market and order changes over a persistent raw SSL/TCP socket to stream-api.betfair.com:443. The protocol is CRLF-delimited JSON (one JSON message per line) - N
+- baseURL: tcp+ssl://stream-api.betfair.com:443
+  baseurl_source: declared
+  description: Low-latency, subscription-based push of market and order changes over a persistent raw SSL/TCP socket to stream-api.betfair.com:443. The protocol is CRLF-delimited JSON (one JSON message per line) - N
   name: Betfair Exchange Stream API
   slug: betfair-exchange-stream-api
 - description: The Web Vendor Facility for licensed software vendors building web-based betting applications. Uses an OAuth2-style authorization flow so a vendor's web application can obtain access and refresh token
   name: Betfair Vendor API
   slug: betfair-vendor-api
-- description: AccountAPING - account funds, details, statement, and app keys.
+- baseURL: https://api.betfair.com/exchange/betting
+  baseurl_source: declared
+  description: AccountAPING - account funds, details, statement, and app keys.
   name: Betfair Accounts API
   slug: betfair-accounts-api
-- description: SportsAPING - market navigation, prices, and bet placement.
+- baseURL: https://api.betfair.com/exchange/betting
+  baseurl_source: declared
+  description: SportsAPING - market navigation, prices, and bet placement.
   name: Betfair Betting API
   slug: betfair-betting-api
-- description: HeartbeatAPING - dead man's switch that cancels unmatched bets.
+- baseURL: https://api.betfair.com/exchange/betting
+  baseurl_source: declared
+  description: HeartbeatAPING - dead man's switch that cancels unmatched bets.
   name: Betfair Heartbeat API
   slug: betfair-heartbeat-api
-- description: Download purchased historical exchange market data.
+- baseURL: https://api.betfair.com/exchange/betting
+  baseurl_source: declared
+  description: Download purchased historical exchange market data.
   name: Betfair Historic Data API
   slug: betfair-historic-data-api
-- description: Session login, keep-alive, and logout via Betfair identity SSO.
+- baseURL: https://api.betfair.com/exchange/betting
+  baseurl_source: declared
+  description: Session login, keep-alive, and logout via Betfair identity SSO.
   name: Betfair Identity API
   slug: betfair-identity-api
 artifact_total: 22
@@ -177,7 +189,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -187,7 +199,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 42.0
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -202,7 +214,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/screenshots/betfair-2026-08-17T122904.png
 security:

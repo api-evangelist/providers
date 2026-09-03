@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,13 +77,19 @@ apis:
 - description: Open-source JavaScript implementation of the TDS protocol for connecting to SQL Server from Node.js on Windows, Linux, or macOS.
   name: Node.js Driver for SQL Server (tedious)
   slug: nodejs-driver-for-sql-server-tedious
-- description: The Azure SQL Databases API from Microsoft SQL Server — 3 operation(s) for azure sql databases.
+- baseURL: https://your-server.database.windows.net
+  baseurl_source: declared
+  description: The Azure SQL Databases API from Microsoft SQL Server — 3 operation(s) for azure sql databases.
   name: Microsoft SQL Server Azure SQL Databases API
   slug: microsoft-sql-server-azure-sql-databases-api
-- description: The Azure SQL Servers API from Microsoft SQL Server — 1 operation(s) for azure sql servers.
+- baseURL: https://your-server.database.windows.net
+  baseurl_source: declared
+  description: The Azure SQL Servers API from Microsoft SQL Server — 1 operation(s) for azure sql servers.
   name: Microsoft SQL Server Azure SQL Servers API
   slug: microsoft-sql-server-azure-sql-servers-api
-- description: The Data API Builder API from Microsoft SQL Server — 2 operation(s) for data api builder.
+- baseURL: https://your-server.database.windows.net
+  baseurl_source: declared
+  description: The Data API Builder API from Microsoft SQL Server — 2 operation(s) for data api builder.
   name: Microsoft SQL Server Data API Builder API
   slug: microsoft-sql-server-data-api-builder-api
 artifact_total: 29
@@ -280,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sql-server/refs/heads/main/screenshots/microsoft-sql-server-2026-06-20T185537.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 8 acting
 api_count: 1
 apis:
-- description: The named services a clinic offers.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: The named services a clinic offers.
   name: Cliniko Appointment Types API
   slug: cliniko-appointment-types-api
-- description: Individual appointments and the unified bookings feed.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: Individual appointments and the unified bookings feed.
   name: Cliniko Appointments API
   slug: cliniko-appointments-api
-- description: Businesses / physical locations in a Cliniko account.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: Businesses / physical locations in a Cliniko account.
   name: Cliniko Businesses API
   slug: cliniko-businesses-api
-- description: Patient and appointment invoices.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: Patient and appointment invoices.
   name: Cliniko Invoices API
   slug: cliniko-invoices-api
-- description: The people who book in for appointments.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: The people who book in for appointments.
   name: Cliniko Patients API
   slug: cliniko-patients-api
-- description: Practitioners and the businesses (locations) they work from.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: Practitioners and the businesses (locations) they work from.
   name: Cliniko Practitioners API
   slug: cliniko-practitioners-api
-- description: Structured clinical notes about a patient visit.
+- baseURL: https://api.au1.cliniko.com/v1
+  baseurl_source: declared
+  description: Structured clinical notes about a patient visit.
   name: Cliniko Treatment Notes API
   slug: cliniko-treatment-notes-api
 artifact_total: 22
@@ -197,7 +211,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/screenshots/cliniko-2026-07-25T205628.png
 security:

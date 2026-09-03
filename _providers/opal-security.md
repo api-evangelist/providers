@@ -34,73 +34,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Operations related to access rules
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to access rules
   name: Opal Security access-rules API
   slug: opal-security-access-rules-api
-- description: Operations related to apps
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to apps
   name: Opal Security apps API
   slug: opal-security-apps-api
-- description: Operations related to bundles
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to bundles
   name: Opal Security bundles API
   slug: opal-security-bundles-api
-- description: Operations related to configuration templates
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to configuration templates
   name: Opal Security configuration-templates API
   slug: opal-security-configuration-templates-api
-- description: Operations related to request reviewer delegations
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to request reviewer delegations
   name: Opal Security delegations API
   slug: opal-security-delegations-api
-- description: Operations related to event streaming connections
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to event streaming connections
   name: Opal Security event-streams API
   slug: opal-security-event-streams-api
-- description: Operations related to events
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to events
   name: Opal Security events API
   slug: opal-security-events-api
-- description: Operations related to group bindings
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to group bindings
   name: Opal Security group-bindings API
   slug: opal-security-group-bindings-api
-- description: Operations related to groups
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to groups
   name: Opal Security groups API
   slug: opal-security-groups-api
-- description: Operations related to IDP group mappings
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to IDP group mappings
   name: Opal Security idp-group-mappings API
   slug: opal-security-idp-group-mappings-api
-- description: Operations related to message channels
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to message channels
   name: Opal Security message-channels API
   slug: opal-security-message-channels-api
-- description: Operations related to non-human identities
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to non-human identities
   name: Opal Security non-human-identities API
   slug: opal-security-non-human-identities-api
-- description: Operations related to on-call schedules
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to on-call schedules
   name: Opal Security on-call-schedules API
   slug: opal-security-on-call-schedules-api
-- description: Operations related to OpalQuery
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to OpalQuery
   name: Opal Security opal-queries API
   slug: opal-security-opal-queries-api
-- description: Operations related to owners
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to owners
   name: Opal Security owners API
   slug: opal-security-owners-api
-- description: Operations related to requests
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to requests
   name: Opal Security requests API
   slug: opal-security-requests-api
-- description: Operations related to resources
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to resources
   name: Opal Security resources API
   slug: opal-security-resources-api
-- description: Operations related to sessions
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to sessions
   name: Opal Security sessions API
   slug: opal-security-sessions-api
-- description: Operations related to tags
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to tags
   name: Opal Security tags API
   slug: opal-security-tags-api
-- description: Operations related to API tokens
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to API tokens
   name: Opal Security tokens API
   slug: opal-security-tokens-api
-- description: Operations related to UARs
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to UARs
   name: Opal Security uars API
   slug: opal-security-uars-api
-- description: Operations related to users
+- baseURL: https://api.opal.dev/v1
+  baseurl_source: declared
+  description: Operations related to users
   name: Opal Security users API
   slug: opal-security-users-api
 artifact_total: 51
@@ -323,7 +367,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -333,7 +377,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 49.4
+  previous_composite: 49.2
   provenance:
     conformance: derived
     contracts:
@@ -344,7 +388,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal-security/refs/heads/main/screenshots/opal-security-2026-08-07T190441.png
 security:

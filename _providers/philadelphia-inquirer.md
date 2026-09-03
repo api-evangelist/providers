@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 3
 apis:
-- description: Site-wide and per-category RSS feeds.
+- baseURL: https://www.inquirer.com/arc/outboundfeeds/rss
+  baseurl_source: declared
+  description: Site-wide and per-category RSS feeds.
   name: The Philadelphia Inquirer Feeds API
   slug: philadelphia-inquirer-feeds-api
-- description: Liveness and readiness probes.
+- baseURL: https://www.inquirer.com/arc/outboundfeeds/rss
+  baseurl_source: declared
+  description: Liveness and readiness probes.
   name: The Philadelphia Inquirer Health API
   slug: philadelphia-inquirer-health-api
-- description: Model Context Protocol surface.
+- baseURL: https://www.inquirer.com/arc/outboundfeeds/rss
+  baseurl_source: declared
+  description: Model Context Protocol surface.
   name: The Philadelphia Inquirer MCP API
   slug: philadelphia-inquirer-mcp-api
-- description: XML sitemaps and sitemap indexes.
+- baseURL: https://www.inquirer.com/arc/outboundfeeds/rss
+  baseurl_source: declared
+  description: XML sitemaps and sitemap indexes.
   name: The Philadelphia Inquirer Sitemaps API
   slug: philadelphia-inquirer-sitemaps-api
 artifact_total: 49
@@ -303,7 +311,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -316,7 +324,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 29.8
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -325,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/screenshots/philadelphia-inquirer-2026-06-20T191649.png
 security:

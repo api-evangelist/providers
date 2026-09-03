@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Full-coverage REST API for the Lokalise TMS. Resources include projects, keys, translations, contributors, files, comments, screenshots, snapshots, teams, team users, team user groups, branches, langu
   name: Lokalise API v2
   slug: api-v2
-- description: The Files API from Lokalise — 1 operation(s) for files.
+- baseURL: https://api.lokalise.com/api2
+  baseurl_source: declared
+  description: The Files API from Lokalise — 1 operation(s) for files.
   name: Lokalise Files API
   slug: lokalise-files-api
-- description: The Keys API from Lokalise — 2 operation(s) for keys.
+- baseURL: https://api.lokalise.com/api2
+  baseurl_source: declared
+  description: The Keys API from Lokalise — 2 operation(s) for keys.
   name: Lokalise Keys API
   slug: lokalise-keys-api
-- description: The Projects API from Lokalise — 2 operation(s) for projects.
+- baseURL: https://api.lokalise.com/api2
+  baseurl_source: declared
+  description: The Projects API from Lokalise — 2 operation(s) for projects.
   name: Lokalise Projects API
   slug: lokalise-projects-api
 artifact_total: 16
@@ -178,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lokalise/refs/heads/main/screenshots/lokalise-2026-06-20T184709.png
 security:

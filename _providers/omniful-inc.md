@@ -33,109 +33,177 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
   name: Omniful, Inc. Background Jobs API
   slug: omniful-inc-background-jobs-api
-- description: The Billing API from Omniful, Inc. — 9 operation(s) for billing.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Billing API from Omniful, Inc. — 9 operation(s) for billing.
   name: Omniful, Inc. Billing API
   slug: omniful-inc-billing-api
-- description: The Courier Partners API from Omniful, Inc. — 2 operation(s) for courier partners.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Courier Partners API from Omniful, Inc. — 2 operation(s) for courier partners.
   name: Omniful, Inc. Courier Partners API
   slug: omniful-inc-courier-partners-api
-- description: The Customers API from Omniful, Inc. — 2 operation(s) for customers.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Customers API from Omniful, Inc. — 2 operation(s) for customers.
   name: Omniful, Inc. Customers API
   slug: omniful-inc-customers-api
-- description: The Cycle Count API from Omniful, Inc. — 2 operation(s) for cycle count.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Cycle Count API from Omniful, Inc. — 2 operation(s) for cycle count.
   name: Omniful, Inc. Cycle Count API
   slug: omniful-inc-cycle-count-api
-- description: The Hubs API from Omniful, Inc. — 4 operation(s) for hubs.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Hubs API from Omniful, Inc. — 4 operation(s) for hubs.
   name: Omniful, Inc. Hubs API
   slug: omniful-inc-hubs-api
-- description: The Inventory API from Omniful, Inc. — 9 operation(s) for inventory.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Inventory API from Omniful, Inc. — 9 operation(s) for inventory.
   name: Omniful, Inc. Inventory API
   slug: omniful-inc-inventory-api
-- description: The Orders API from Omniful, Inc. — 16 operation(s) for orders.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Orders API from Omniful, Inc. — 16 operation(s) for orders.
   name: Omniful, Inc. Orders API
   slug: omniful-inc-orders-api
-- description: The Orders (V2) API from Omniful, Inc. — 4 operation(s) for orders (v2).
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Orders (V2) API from Omniful, Inc. — 4 operation(s) for orders (v2).
   name: Omniful, Inc. Orders (V2) API
   slug: omniful-inc-orders-v2-api
-- description: The Packaging Material API from Omniful, Inc. — 1 operation(s) for packaging material.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Packaging Material API from Omniful, Inc. — 1 operation(s) for packaging material.
   name: Omniful, Inc. Packaging Material API
   slug: omniful-inc-packaging-material-api
-- description: The Packaging Materials API from Omniful, Inc. — 1 operation(s) for packaging materials.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Packaging Materials API from Omniful, Inc. — 1 operation(s) for packaging materials.
   name: Omniful, Inc. Packaging Materials API
   slug: omniful-inc-packaging-materials-api
-- description: The Pickup Locations API from Omniful, Inc. — 4 operation(s) for pickup locations.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Pickup Locations API from Omniful, Inc. — 4 operation(s) for pickup locations.
   name: Omniful, Inc. Pickup Locations API
   slug: omniful-inc-pickup-locations-api
-- description: The POS API from Omniful, Inc. — 2 operation(s) for pos.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The POS API from Omniful, Inc. — 2 operation(s) for pos.
   name: Omniful, Inc. POS API
   slug: omniful-inc-pos-api
-- description: The Purchase Order API from Omniful, Inc. — 5 operation(s) for purchase order.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Purchase Order API from Omniful, Inc. — 5 operation(s) for purchase order.
   name: Omniful, Inc. Purchase Order API
   slug: omniful-inc-purchase-order-api
-- description: The Report API from Omniful, Inc. — 3 operation(s) for report.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Report API from Omniful, Inc. — 3 operation(s) for report.
   name: Omniful, Inc. Report API
   slug: omniful-inc-report-api
-- description: The Return Orders API from Omniful, Inc. — 5 operation(s) for return orders.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Return Orders API from Omniful, Inc. — 5 operation(s) for return orders.
   name: Omniful, Inc. Return Orders API
   slug: omniful-inc-return-orders-api
-- description: The Return Orders (V2) API from Omniful, Inc. — 1 operation(s) for return orders (v2).
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Return Orders (V2) API from Omniful, Inc. — 1 operation(s) for return orders (v2).
   name: Omniful, Inc. Return Orders (V2) API
   slug: omniful-inc-return-orders-v2-api
-- description: The Return Requests API from Omniful, Inc. — 4 operation(s) for return requests.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Return Requests API from Omniful, Inc. — 4 operation(s) for return requests.
   name: Omniful, Inc. Return Requests API
   slug: omniful-inc-return-requests-api
-- description: The Return To Sender API from Omniful, Inc. — 2 operation(s) for return to sender.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Return To Sender API from Omniful, Inc. — 2 operation(s) for return to sender.
   name: Omniful, Inc. Return To Sender API
   slug: omniful-inc-return-to-sender-api
-- description: The Returns API from Omniful, Inc. — 18 operation(s) for returns.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Returns API from Omniful, Inc. — 18 operation(s) for returns.
   name: Omniful, Inc. Returns API
   slug: omniful-inc-returns-api
-- description: The Seller and Sales Channel APIs API from Omniful, Inc. — 1 operation(s) for seller and sales channel apis.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Seller and Sales Channel APIs API from Omniful, Inc. — 1 operation(s) for seller and sales channel apis.
   name: Omniful, Inc. Seller and Sales Channel APIs API
   slug: omniful-inc-seller-and-sales-channel-apis-api
-- description: The Seller API from Omniful, Inc. — 2 operation(s) for seller.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Seller API from Omniful, Inc. — 2 operation(s) for seller.
   name: Omniful, Inc. Seller API
   slug: omniful-inc-seller-api
-- description: The Seller Integrations API from Omniful, Inc. — 3 operation(s) for seller integrations.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Seller Integrations API from Omniful, Inc. — 3 operation(s) for seller integrations.
   name: Omniful, Inc. Seller Integrations API
   slug: omniful-inc-seller-integrations-api
-- description: The Shipment API from Omniful, Inc. — 6 operation(s) for shipment.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Shipment API from Omniful, Inc. — 6 operation(s) for shipment.
   name: Omniful, Inc. Shipment API
   slug: omniful-inc-shipment-api
-- description: The Shipment Orders API from Omniful, Inc. — 18 operation(s) for shipment orders.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Shipment Orders API from Omniful, Inc. — 18 operation(s) for shipment orders.
   name: Omniful, Inc. Shipment Orders API
   slug: omniful-inc-shipment-orders-api
-- description: The Shipments API from Omniful, Inc. — 5 operation(s) for shipments.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Shipments API from Omniful, Inc. — 5 operation(s) for shipments.
   name: Omniful, Inc. Shipments API
   slug: omniful-inc-shipments-api
-- description: The Shipping Accounts API from Omniful, Inc. — 1 operation(s) for shipping accounts.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Shipping Accounts API from Omniful, Inc. — 1 operation(s) for shipping accounts.
   name: Omniful, Inc. Shipping Accounts API
   slug: omniful-inc-shipping-accounts-api
-- description: The SKUs API from Omniful, Inc. — 4 operation(s) for skus.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The SKUs API from Omniful, Inc. — 4 operation(s) for skus.
   name: Omniful, Inc. SKUs API
   slug: omniful-inc-skus-api
-- description: The SKUs (V2) API from Omniful, Inc. — 2 operation(s) for skus (v2).
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The SKUs (V2) API from Omniful, Inc. — 2 operation(s) for skus (v2).
   name: Omniful, Inc. SKUs (V2) API
   slug: omniful-inc-skus-v2-api
-- description: The Stock Transfer Order API from Omniful, Inc. — 2 operation(s) for stock transfer order.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Stock Transfer Order API from Omniful, Inc. — 2 operation(s) for stock transfer order.
   name: Omniful, Inc. Stock Transfer Order API
   slug: omniful-inc-stock-transfer-order-api
-- description: The Stock Transfer Request API from Omniful, Inc. — 4 operation(s) for stock transfer request.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Stock Transfer Request API from Omniful, Inc. — 4 operation(s) for stock transfer request.
   name: Omniful, Inc. Stock Transfer Request API
   slug: omniful-inc-stock-transfer-request-api
-- description: The Tenant APIs API from Omniful, Inc. — 1 operation(s) for tenant apis.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Tenant APIs API from Omniful, Inc. — 1 operation(s) for tenant apis.
   name: Omniful, Inc. Tenant APIs API
   slug: omniful-inc-tenant-apis-api
-- description: The Webhook API from Omniful, Inc. — 1 operation(s) for webhook.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Webhook API from Omniful, Inc. — 1 operation(s) for webhook.
   name: Omniful, Inc. Webhook API
   slug: omniful-inc-webhook-api
-- description: The Webhooks API from Omniful, Inc. — 1 operation(s) for webhooks.
+- baseURL: https://prodapi.omniful.com
+  baseurl_source: declared
+  description: The Webhooks API from Omniful, Inc. — 1 operation(s) for webhooks.
   name: Omniful, Inc. Webhooks API
   slug: omniful-inc-webhooks-api
 artifact_total: 73
@@ -366,7 +434,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -376,7 +444,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 38.2
+  previous_composite: 38.0
   provenance:
     contracts:
       callable: 100.0
@@ -385,7 +453,7 @@ score:
       total: 34
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omniful-inc/refs/heads/main/screenshots/omniful-inc-2026-08-07T190155.png
 security:

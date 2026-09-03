@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 156 operations · 87 acting · 2 human-in-the-loop
 api_count: 33
 apis:
-- description: Handle authentication.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Handle authentication.
   name: SonarSource authentication API
   slug: sonarsource-authentication-api
-- description: Get information on Compute Engine tasks.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get information on Compute Engine tasks.
   name: SonarSource ce API
   slug: sonarsource-ce-api
-- description: Get information about a component (file, directory, project, ...) and its ancestors or descendants. Update a project or module key.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get information about a component (file, directory, project, ...) and its ancestors or descendants. Update a project or module key.
   name: SonarSource components API
   slug: sonarsource-components-api
-- description: Get duplication information for a project.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get duplication information for a project.
   name: SonarSource duplications API
   slug: sonarsource-duplications-api
-- description: Manage user favorites
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage user favorites
   name: SonarSource favorites API
   slug: sonarsource-favorites-api
-- description: Removed since 6.3, please use api/favorites instead
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Removed since 6.3, please use api/favorites instead
   name: SonarSource favourites API
   slug: sonarsource-favourites-api
-- description: Read and update Security Hotspots. Hotspots are deprecated and replaced by security issues (software quality) and vulnerabilities (type). Please use the API of security issues / vulnerabilities instea
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Read and update Security Hotspots. Hotspots are deprecated and replaced by security issues (software quality) and vulnerabilities (type). Please use the API of security issues / vulnerabilities instea
   name: SonarSource hotspots API
   slug: sonarsource-hotspots-api
-- description: Read and update issues.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Read and update issues.
   name: SonarSource issues API
   slug: sonarsource-issues-api
-- description: Get the list of programming languages supported in this instance.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get the list of programming languages supported in this instance.
   name: SonarSource languages API
   slug: sonarsource-languages-api
-- description: Get components or children with specified measures.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get components or children with specified measures.
   name: SonarSource measures API
   slug: sonarsource-measures-api
-- description: Get information on automatic metrics, and manage custom metrics. See also api/custom_measures.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get information on automatic metrics, and manage custom metrics. See also api/custom_measures.
   name: SonarSource metrics API
   slug: sonarsource-metrics-api
-- description: Manage notifications of the authenticated user
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage notifications of the authenticated user
   name: SonarSource notifications API
   slug: sonarsource-notifications-api
-- description: Manage permission templates, and the granting and revoking of permissions at the global and project levels.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage permission templates, and the granting and revoking of permissions at the global and project levels.
   name: SonarSource permissions API
   slug: sonarsource-permissions-api
-- description: Manage project analyses.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage project analyses.
   name: SonarSource project_analyses API
   slug: sonarsource-project-analyses-api
-- description: Generate badges based on quality gates or measures
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Generate badges based on quality gates or measures
   name: SonarSource project_badges API
   slug: sonarsource-project-badges-api
-- description: Manage branch (only available when the Branch plugin is installed)
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage branch (only available when the Branch plugin is installed)
   name: SonarSource project_branches API
   slug: sonarsource-project-branches-api
-- description: Manage projects links.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage projects links.
   name: SonarSource project_links API
   slug: sonarsource-project-links-api
-- description: Manage pull request (only available when the Branch plugin is installed)
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage pull request (only available when the Branch plugin is installed)
   name: SonarSource project_pull_requests API
   slug: sonarsource-project-pull-requests-api
-- description: Manage project tags
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage project tags
   name: SonarSource project_tags API
   slug: sonarsource-project-tags-api
-- description: Manage project existence.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage project existence.
   name: SonarSource projects API
   slug: sonarsource-projects-api
-- description: This web service is deprecated, please use api/settings instead.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: This web service is deprecated, please use api/settings instead.
   name: SonarSource properties API
   slug: sonarsource-properties-api
-- description: Manage quality gates, including conditions and project association.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage quality gates, including conditions and project association.
   name: SonarSource qualitygates API
   slug: sonarsource-qualitygates-api
-- description: Manage quality profiles.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage quality profiles.
   name: SonarSource qualityprofiles API
   slug: sonarsource-qualityprofiles-api
-- description: Get and update some details of automatic rules, and manage custom rules.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get and update some details of automatic rules, and manage custom rules.
   name: SonarSource rules API
   slug: sonarsource-rules-api
-- description: Manage settings.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage settings.
   name: SonarSource settings API
   slug: sonarsource-settings-api
-- description: Get details on source files. See also api/tests.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get details on source files. See also api/tests.
   name: SonarSource sources API
   slug: sonarsource-sources-api
-- description: Removed since 6.3, please use api/measures/search_history instead
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Removed since 6.3, please use api/measures/search_history instead
   name: SonarSource timemachine API
   slug: sonarsource-timemachine-api
-- description: Manage user groups.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage user groups.
   name: SonarSource user_groups API
   slug: sonarsource-user-groups-api
-- description: Removed since 6.3, please use api/favorites and api/notifications instead
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Removed since 6.3, please use api/favorites and api/notifications instead
   name: SonarSource user_properties API
   slug: sonarsource-user-properties-api
-- description: List, create, and delete a user's access tokens.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: List, create, and delete a user's access tokens.
   name: SonarSource user_tokens API
   slug: sonarsource-user-tokens-api
-- description: Manage users.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Manage users.
   name: SonarSource users API
   slug: sonarsource-users-api
-- description: Webhooks allow to notify external services when a project analysis is done
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Webhooks allow to notify external services when a project analysis is done
   name: SonarSource webhooks API
   slug: sonarsource-webhooks-api
-- description: Get information on the web api supported on this instance.
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: declared
+  description: Get information on the web api supported on this instance.
   name: SonarSource webservices API
   slug: sonarsource-webservices-api
 artifact_total: 71
@@ -400,7 +466,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -410,7 +476,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 50.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -422,8 +488,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/screenshots/sonarsource-2026-08-17T082000.png
 security:
 - kind: authentication

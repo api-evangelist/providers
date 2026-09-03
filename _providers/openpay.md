@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 48 operations · 25 acting
 api_count: 1
 apis:
-- description: Manage customer bank accounts used as payout destinations.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Manage customer bank accounts used as payout destinations.
   name: Openpay BankAccounts API
   slug: openpay-bankaccounts-api
-- description: Store and manage cards at merchant or customer level.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Store and manage cards at merchant or customer level.
   name: Openpay Cards API
   slug: openpay-cards-api
-- description: Create and manage charges to cards, stores, and banks.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Create and manage charges to cards, stores, and banks.
   name: Openpay Charges API
   slug: openpay-charges-api
-- description: Manage customer records.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Manage customer records.
   name: Openpay Customers API
   slug: openpay-customers-api
-- description: Charge commission fees to a customer's Openpay balance.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Charge commission fees to a customer's Openpay balance.
   name: Openpay Fees API
   slug: openpay-fees-api
-- description: Send funds to registered bank accounts.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Send funds to registered bank accounts.
   name: Openpay Payouts API
   slug: openpay-payouts-api
-- description: Templates defining amount and frequency for recurring charges.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Templates defining amount and frequency for recurring charges.
   name: Openpay Plans API
   slug: openpay-plans-api
-- description: Associate customers and cards to plans for recurring billing.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Associate customers and cards to plans for recurring billing.
   name: Openpay Subscriptions API
   slug: openpay-subscriptions-api
-- description: Client-side tokenization of card data.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Client-side tokenization of card data.
   name: Openpay Tokens API
   slug: openpay-tokens-api
-- description: Move funds between Openpay customers.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Move funds between Openpay customers.
   name: Openpay Transfers API
   slug: openpay-transfers-api
-- description: Register and manage webhook endpoints for event notifications.
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Register and manage webhook endpoints for event notifications.
   name: Openpay Webhooks API
   slug: openpay-webhooks-api
 artifact_total: 30
@@ -217,7 +239,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/screenshots/openpay-2026-08-07T190624.png
 security:

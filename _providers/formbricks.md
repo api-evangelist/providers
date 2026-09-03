@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 26 operations · 14 acting
 api_count: 1
 apis:
-- description: Define code and no-code actions that trigger in-product surveys.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Define code and no-code actions that trigger in-product surveys.
   name: Formbricks Action Classes API
   slug: formbricks-action-classes-api
-- description: Public unauthenticated Client API used by survey front-ends.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Public unauthenticated Client API used by survey front-ends.
   name: Formbricks Client API
   slug: formbricks-client-api
-- description: Manage contacts and contact attribute keys.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Manage contacts and contact attribute keys.
   name: Formbricks Contacts API
   slug: formbricks-contacts-api
-- description: Account and environment information for an API key.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Account and environment information for an API key.
   name: Formbricks Me API
   slug: formbricks-me-api
-- description: Create, query, and manage survey responses.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Create, query, and manage survey responses.
   name: Formbricks Responses API
   slug: formbricks-responses-api
-- description: Create and manage surveys.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Create and manage surveys.
   name: Formbricks Surveys API
   slug: formbricks-surveys-api
-- description: Real-time HTTP notifications for response events.
+- baseURL: https://app.formbricks.com/api
+  baseurl_source: declared
+  description: Real-time HTTP notifications for response events.
   name: Formbricks Webhooks API
   slug: formbricks-webhooks-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/screenshots/formbricks-2026-06-20T181436.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 0
@@ -33,268 +46,444 @@ agentic_access:
   summary_line: 380 operations · 165 acting
 api_count: 2
 apis:
-- description: The ActiveEntry API from LeafLink — 2 operation(s) for activeentry.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The ActiveEntry API from LeafLink — 2 operation(s) for activeentry.
   name: LeafLink Active Entry API
   slug: leaflink-activeentry-api
-- description: The `CompanyActivityEntry` model represents a CRM action taken by a staff member that relates to a customer, with an optional description.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The `CompanyActivityEntry` model represents a CRM action taken by a staff member that relates to a customer, with an optional description.
   name: LeafLink Activity Entries API
   slug: leaflink-activity-entries-api
-- description: The batch API from LeafLink — 2 operation(s) for batch.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The batch API from LeafLink — 2 operation(s) for batch.
   name: LeafLink Batch API
   slug: leaflink-batch-api
-- description: The batch-documents API from LeafLink — 2 operation(s) for batch-documents.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The batch-documents API from LeafLink — 2 operation(s) for batch-documents.
   name: LeafLink Batch Documents API
   slug: leaflink-batch-documents-api
-- description: The batches API from LeafLink — 3 operation(s) for batches.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The batches API from LeafLink — 3 operation(s) for batches.
   name: LeafLink Batches API
   slug: leaflink-batches-api
-- description: The Brand API from LeafLink — 4 operation(s) for brand.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Brand API from LeafLink — 4 operation(s) for brand.
   name: LeafLink Brand API
   slug: leaflink-brand-api
-- description: The brands API from LeafLink — 3 operation(s) for brands.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The brands API from LeafLink — 3 operation(s) for brands.
   name: LeafLink Brands API
   slug: leaflink-brands-api
-- description: The buyer-orders API from LeafLink — 1 operation(s) for buyer-orders.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The buyer-orders API from LeafLink — 1 operation(s) for buyer-orders.
   name: LeafLink Buyer Orders API
   slug: leaflink-buyer-orders-api
-- description: The Buyer Product Image API from LeafLink — 2 operation(s) for buyer product image.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Buyer Product Image API from LeafLink — 2 operation(s) for buyer product image.
   name: LeafLink Buyer Product Image API
   slug: leaflink-buyer-product-image-api
-- description: The chats API from LeafLink — 4 operation(s) for chats.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The chats API from LeafLink — 4 operation(s) for chats.
   name: LeafLink Chats API
   slug: leaflink-chats-api
-- description: The companies API from LeafLink — 2 operation(s) for companies.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The companies API from LeafLink — 2 operation(s) for companies.
   name: LeafLink Companies API
   slug: leaflink-companies-api
-- description: The Company API from LeafLink — 1 operation(s) for company.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Company API from LeafLink — 1 operation(s) for company.
   name: LeafLink Company API
   slug: leaflink-company-api
-- description: The company_messages API from LeafLink — 2 operation(s) for company_messages.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The company_messages API from LeafLink — 2 operation(s) for company_messages.
   name: LeafLink Company Messages API
   slug: leaflink-company-messages-api
-- description: The company-staff API from LeafLink — 2 operation(s) for company-staff.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The company-staff API from LeafLink — 2 operation(s) for company-staff.
   name: LeafLink Company Staff API
   slug: leaflink-company-staff-api
-- description: The compliance API from LeafLink — 4 operation(s) for compliance.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The compliance API from LeafLink — 4 operation(s) for compliance.
   name: LeafLink Compliance API
   slug: leaflink-compliance-api
-- description: The Contact API from LeafLink — 2 operation(s) for contact.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Contact API from LeafLink — 2 operation(s) for contact.
   name: LeafLink Contact API
   slug: leaflink-contact-api
-- description: The contacts API from LeafLink — 4 operation(s) for contacts.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The contacts API from LeafLink — 4 operation(s) for contacts.
   name: LeafLink Contacts API
   slug: leaflink-contacts-api
-- description: The Credit model represents credits granted by a seller company to a customer for use in future purchases. Read-only.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Credit model represents credits granted by a seller company to a customer for use in future purchases. Read-only.
   name: LeafLink Credits API
   slug: leaflink-credits-api
-- description: The Customer API from LeafLink — 4 operation(s) for customer.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Customer API from LeafLink — 4 operation(s) for customer.
   name: LeafLink Customer API
   slug: leaflink-customer-api
-- description: The Customer Group API from LeafLink — 4 operation(s) for customer group.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Customer Group API from LeafLink — 4 operation(s) for customer group.
   name: LeafLink Customer Group API
   slug: leaflink-customer-group-api
-- description: The customer_statuses API from LeafLink — 4 operation(s) for customer_statuses.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The customer_statuses API from LeafLink — 4 operation(s) for customer_statuses.
   name: LeafLink Customer Statuses API
   slug: leaflink-customer-statuses-api
-- description: The `CompanyCustomerTier` represents a set of read only objects depicting a customer's tier in relationship to a company.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The `CompanyCustomerTier` represents a set of read only objects depicting a customer's tier in relationship to a company.
   name: LeafLink Customer Tiers API
   slug: leaflink-customer-tiers-api
-- description: The customers API from LeafLink — 7 operation(s) for customers.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The customers API from LeafLink — 7 operation(s) for customers.
   name: LeafLink Customers API
   slug: leaflink-customers-api
-- description: The Dashboard API from LeafLink — 1 operation(s) for dashboard.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Dashboard API from LeafLink — 1 operation(s) for dashboard.
   name: LeafLink Dashboard API
   slug: leaflink-dashboard-api
-- description: The deliveries API from LeafLink — 1 operation(s) for deliveries.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The deliveries API from LeafLink — 1 operation(s) for deliveries.
   name: LeafLink Deliveries API
   slug: leaflink-deliveries-api
-- description: The distribution-zones API from LeafLink — 2 operation(s) for distribution-zones.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The distribution-zones API from LeafLink — 2 operation(s) for distribution-zones.
   name: LeafLink Distribution Zones API
   slug: leaflink-distribution-zones-api
-- description: The express_menus API from LeafLink — 2 operation(s) for express_menus.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The express_menus API from LeafLink — 2 operation(s) for express_menus.
   name: LeafLink Express Menus API
   slug: leaflink-express-menus-api
-- description: The facilities API from LeafLink — 4 operation(s) for facilities.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The facilities API from LeafLink — 4 operation(s) for facilities.
   name: LeafLink Facilities API
   slug: leaflink-facilities-api
-- description: The inventory API from LeafLink — 4 operation(s) for inventory.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The inventory API from LeafLink — 4 operation(s) for inventory.
   name: LeafLink Inventory API
   slug: leaflink-inventory-api
-- description: The inventory-command API from LeafLink — 13 operation(s) for inventory-command.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The inventory-command API from LeafLink — 13 operation(s) for inventory-command.
   name: LeafLink Inventory Command API
   slug: leaflink-inventory-command-api
-- description: The `InventoryItem` model represents items of a particular inventory batch at a given facility.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The `InventoryItem` model represents items of a particular inventory batch at a given facility.
   name: LeafLink Inventory Items API
   slug: leaflink-inventory-items-api
-- description: The inventory-query API from LeafLink — 10 operation(s) for inventory-query.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The inventory-query API from LeafLink — 10 operation(s) for inventory-query.
   name: LeafLink Inventory Query API
   slug: leaflink-inventory-query-api
-- description: The inventory-v2 API from LeafLink — 12 operation(s) for inventory-v2.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The inventory-v2 API from LeafLink — 12 operation(s) for inventory-v2.
   name: LeafLink Inventory V2 API
   slug: leaflink-inventory-v2-api
-- description: The Invoice Recorded Payment API from LeafLink — 1 operation(s) for invoice recorded payment.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Invoice Recorded Payment API from LeafLink — 1 operation(s) for invoice recorded payment.
   name: LeafLink Invoice Recorded Payment API
   slug: leaflink-invoice-recorded-payment-api
-- description: The LicenseType model represents a category of state-issued licenses.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The LicenseType model represents a category of state-issued licenses.
   name: LeafLink License Types API
   slug: leaflink-license-types-api
-- description: The License model represents a single state-issued license held by a Company.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The License model represents a single state-issued license held by a Company.
   name: LeafLink Licenses API
   slug: leaflink-licenses-api
-- description: The LineItem model represents a single entry in an itemized purchase order.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The LineItem model represents a single entry in an itemized purchase order.
   name: LeafLink Line Items API
   slug: leaflink-line-items-api
-- description: The Logistics Transport API from LeafLink — 8 operation(s) for logistics transport.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Logistics Transport API from LeafLink — 8 operation(s) for logistics transport.
   name: LeafLink Logistics Transport API
   slug: leaflink-logistics-transport-api
-- description: The managed_companies API from LeafLink — 4 operation(s) for managed_companies.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The managed_companies API from LeafLink — 4 operation(s) for managed_companies.
   name: LeafLink Managed Companies API
   slug: leaflink-managed-companies-api
-- description: The Messages API from LeafLink — 1 operation(s) for messages.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Messages API from LeafLink — 1 operation(s) for messages.
   name: LeafLink Messages API
   slug: leaflink-messages-api
-- description: The notification API from LeafLink — 1 operation(s) for notification.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The notification API from LeafLink — 1 operation(s) for notification.
   name: LeafLink Notification API
   slug: leaflink-notification-api
-- description: The Notification Preferences API from LeafLink — 2 operation(s) for notification preferences.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Notification Preferences API from LeafLink — 2 operation(s) for notification preferences.
   name: LeafLink Notification Preferences API
   slug: leaflink-notification-preferences-api
-- description: The order-comments API from LeafLink — 1 operation(s) for order-comments.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The order-comments API from LeafLink — 1 operation(s) for order-comments.
   name: LeafLink Order Comments API
   slug: leaflink-order-comments-api
-- description: The order-event-logs API from LeafLink — 2 operation(s) for order-event-logs.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The order-event-logs API from LeafLink — 2 operation(s) for order-event-logs.
   name: LeafLink Order Event Logs API
   slug: leaflink-order-event-logs-api
-- description: The order-payments API from LeafLink — 3 operation(s) for order-payments.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The order-payments API from LeafLink — 3 operation(s) for order-payments.
   name: LeafLink Order Payments API
   slug: leaflink-order-payments-api
-- description: The order-sales-reps API from LeafLink — 2 operation(s) for order-sales-reps.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The order-sales-reps API from LeafLink — 2 operation(s) for order-sales-reps.
   name: LeafLink Order Sales Reps API
   slug: leaflink-order-sales-reps-api
-- description: Access the order object
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: Access the order object
   name: LeafLink Orders Received API
   slug: leaflink-orders-received-api
-- description: The package API from LeafLink — 1 operation(s) for package.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The package API from LeafLink — 1 operation(s) for package.
   name: LeafLink Package API
   slug: leaflink-package-api
-- description: The Payment Contract API from LeafLink — 2 operation(s) for payment contract.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Payment Contract API from LeafLink — 2 operation(s) for payment contract.
   name: LeafLink Payment Contract API
   slug: leaflink-payment-contract-api
-- description: The payments API from LeafLink — 2 operation(s) for payments.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The payments API from LeafLink — 2 operation(s) for payments.
   name: LeafLink Payments API
   slug: leaflink-payments-api
-- description: The poms API from LeafLink — 1 operation(s) for poms.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The poms API from LeafLink — 1 operation(s) for poms.
   name: LeafLink Poms API
   slug: leaflink-poms-api
-- description: The Pricing API from LeafLink — 2 operation(s) for pricing.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Pricing API from LeafLink — 2 operation(s) for pricing.
   name: LeafLink Pricing API
   slug: leaflink-pricing-api
-- description: The Product API from LeafLink — 7 operation(s) for product.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product API from LeafLink — 7 operation(s) for product.
   name: LeafLink Product API
   slug: leaflink-product-api
-- description: The product-assigned-to-buyer API from LeafLink — 1 operation(s) for product-assigned-to-buyer.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The product-assigned-to-buyer API from LeafLink — 1 operation(s) for product-assigned-to-buyer.
   name: LeafLink Product Assigned To Buyer API
   slug: leaflink-product-assigned-to-buyer-api
-- description: The product-assignment-products API from LeafLink — 1 operation(s) for product-assignment-products.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The product-assignment-products API from LeafLink — 1 operation(s) for product-assignment-products.
   name: LeafLink Product Assignment Products API
   slug: leaflink-product-assignment-products-api
-- description: Manage assignments.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: Manage assignments.
   name: LeafLink Product Batches API
   slug: leaflink-product-batches-api
-- description: The product-categories API from LeafLink — 2 operation(s) for product-categories.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The product-categories API from LeafLink — 2 operation(s) for product-categories.
   name: LeafLink Product Categories API
   slug: leaflink-product-categories-api
-- description: The Product Category API from LeafLink — 2 operation(s) for product category.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Category API from LeafLink — 2 operation(s) for product category.
   name: LeafLink Product Category API
   slug: leaflink-product-category-api
-- description: The Product Dosage Unit API from LeafLink — 2 operation(s) for product dosage unit.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Dosage Unit API from LeafLink — 2 operation(s) for product dosage unit.
   name: LeafLink Product Dosage Unit API
   slug: leaflink-product-dosage-unit-api
-- description: The Product Grow Operation Type API from LeafLink — 1 operation(s) for product grow operation type.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Grow Operation Type API from LeafLink — 1 operation(s) for product grow operation type.
   name: LeafLink Product Grow Operation Type API
   slug: leaflink-product-grow-operation-type-api
-- description: The Product Image API from LeafLink — 4 operation(s) for product image.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Image API from LeafLink — 4 operation(s) for product image.
   name: LeafLink Product Image API
   slug: leaflink-product-image-api
-- description: Product images for display in the marketplace. Each product may have up to 5 images.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: Product images for display in the marketplace. Each product may have up to 5 images.
   name: LeafLink Product Images API
   slug: leaflink-product-images-api
-- description: The Product Line API from LeafLink — 2 operation(s) for product line.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Line API from LeafLink — 2 operation(s) for product line.
   name: LeafLink Product Line API
   slug: leaflink-product-line-api
-- description: The product-lines API from LeafLink — 2 operation(s) for product-lines.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The product-lines API from LeafLink — 2 operation(s) for product-lines.
   name: LeafLink Product Lines API
   slug: leaflink-product-lines-api
-- description: The Product Listing State API from LeafLink — 1 operation(s) for product listing state.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Listing State API from LeafLink — 1 operation(s) for product listing state.
   name: LeafLink Product Listing State API
   slug: leaflink-product-listing-state-api
-- description: The Product MVP API from LeafLink — 4 operation(s) for product mvp.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product MVP API from LeafLink — 4 operation(s) for product mvp.
   name: LeafLink Product MVP API
   slug: leaflink-product-mvp-api
-- description: The Product Promotion API from LeafLink — 2 operation(s) for product promotion.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Promotion API from LeafLink — 2 operation(s) for product promotion.
   name: LeafLink Product Promotion API
   slug: leaflink-product-promotion-api
-- description: The product_promotions API from LeafLink — 1 operation(s) for product_promotions.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The product_promotions API from LeafLink — 1 operation(s) for product_promotions.
   name: LeafLink Product Promotions API
   slug: leaflink-product-promotions-api
-- description: The Product Specification API from LeafLink — 2 operation(s) for product specification.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Specification API from LeafLink — 2 operation(s) for product specification.
   name: LeafLink Product Specification API
   slug: leaflink-product-specification-api
-- description: The product-subcategories API from LeafLink — 2 operation(s) for product-subcategories.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The product-subcategories API from LeafLink — 2 operation(s) for product-subcategories.
   name: LeafLink Product Subcategories API
   slug: leaflink-product-subcategories-api
-- description: The Product Subcategory API from LeafLink — 2 operation(s) for product subcategory.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Subcategory API from LeafLink — 2 operation(s) for product subcategory.
   name: LeafLink Product Subcategory API
   slug: leaflink-product-subcategory-api
-- description: The Product Template API from LeafLink — 2 operation(s) for product template.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Product Template API from LeafLink — 2 operation(s) for product template.
   name: LeafLink Product Template API
   slug: leaflink-product-template-api
-- description: The products API from LeafLink — 4 operation(s) for products.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The products API from LeafLink — 4 operation(s) for products.
   name: LeafLink Products API
   slug: leaflink-products-api
-- description: The Promocode model represents a promotional discount code for a specific Brand.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Promocode model represents a promotional discount code for a specific Brand.
   name: LeafLink Promocodes API
   slug: leaflink-promocodes-api
-- description: The Report model represents a report download initiated by a User
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Report model represents a report download initiated by a User
   name: LeafLink Reports API
   slug: leaflink-reports-api
-- description: Product information for a retailer company.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: Product information for a retailer company.
   name: LeafLink Retailer Inventory API
   slug: leaflink-retailer-inventory-api
-- description: The sales_invoices API from LeafLink — 2 operation(s) for sales_invoices.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The sales_invoices API from LeafLink — 2 operation(s) for sales_invoices.
   name: LeafLink Sales Invoices API
   slug: leaflink-sales-invoices-api
-- description: The settings API from LeafLink — 2 operation(s) for settings.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The settings API from LeafLink — 2 operation(s) for settings.
   name: LeafLink Settings API
   slug: leaflink-settings-api
-- description: The SplitIO API from LeafLink — 1 operation(s) for splitio.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The SplitIO API from LeafLink — 1 operation(s) for splitio.
   name: LeafLink Split IO API
   slug: leaflink-splitio-api
-- description: The States API from LeafLink — 2 operation(s) for states.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The States API from LeafLink — 2 operation(s) for states.
   name: LeafLink States API
   slug: leaflink-states-api
-- description: The Strain API from LeafLink — 3 operation(s) for strain.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Strain API from LeafLink — 3 operation(s) for strain.
   name: LeafLink Strain API
   slug: leaflink-strain-api
-- description: The strains API from LeafLink — 2 operation(s) for strains.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The strains API from LeafLink — 2 operation(s) for strains.
   name: LeafLink Strains API
   slug: leaflink-strains-api
-- description: The taxes API from LeafLink — 2 operation(s) for taxes.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The taxes API from LeafLink — 2 operation(s) for taxes.
   name: LeafLink Taxes API
   slug: leaflink-taxes-api
-- description: The traceability API from LeafLink — 22 operation(s) for traceability.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The traceability API from LeafLink — 22 operation(s) for traceability.
   name: LeafLink Traceability API
   slug: leaflink-traceability-api
-- description: The transportation API from LeafLink — 5 operation(s) for transportation.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The transportation API from LeafLink — 5 operation(s) for transportation.
   name: LeafLink Transportation API
   slug: leaflink-transportation-api
-- description: The Unit Denomination API from LeafLink — 2 operation(s) for unit denomination.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Unit Denomination API from LeafLink — 2 operation(s) for unit denomination.
   name: LeafLink Unit Denomination API
   slug: leaflink-unit-denomination-api
-- description: The Unit of Measure API from LeafLink — 2 operation(s) for unit of measure.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The Unit of Measure API from LeafLink — 2 operation(s) for unit of measure.
   name: LeafLink Unit of Measure API
   slug: leaflink-unit-of-measure-api
-- description: The vendors API from LeafLink — 3 operation(s) for vendors.
+- baseURL: https://api.leaflink.com
+  baseurl_source: declared
+  description: The vendors API from LeafLink — 3 operation(s) for vendors.
   name: LeafLink Vendors API
   slug: leaflink-vendors-api
 artifact_total: 95
@@ -474,23 +663,23 @@ rate_limits:
   slug: leaflink-rate-limits
 score:
   band: strong
-  composite: 55.2
+  composite: 57.0
   coverage:
     artifact_dirs: 23
-    catalog_gap: 79.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.8
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 64.1
     developer_ergonomics: 66.1
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 55.4
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -508,7 +697,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png
 security:

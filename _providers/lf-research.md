@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Programmatic access to LF Research publications, open source trend data, and industry analysis resources.
@@ -114,7 +114,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-research/refs/heads/main/screenshots/lf-research-2026-06-20T184453.png
 security:

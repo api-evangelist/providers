@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Features API from Pulsoid — 1 operation(s) for features.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Features API from Pulsoid — 1 operation(s) for features.
   name: Pulsoid Features API
   slug: pulsoid-features-api
-- description: The Geometry Dash API from Pulsoid — 1 operation(s) for geometry dash.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Geometry Dash API from Pulsoid — 1 operation(s) for geometry dash.
   name: Pulsoid Geometry Dash API
   slug: pulsoid-geometry-dash-api
-- description: The Heart Rate API from Pulsoid — 2 operation(s) for heart rate.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Heart Rate API from Pulsoid — 2 operation(s) for heart rate.
   name: Pulsoid Heart Rate API
   slug: pulsoid-heart-rate-api
-- description: The OAuth2 API from Pulsoid — 4 operation(s) for oauth2.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The OAuth2 API from Pulsoid — 4 operation(s) for oauth2.
   name: Pulsoid OAuth2 API
   slug: pulsoid-oauth2-api
-- description: The Profile API from Pulsoid — 1 operation(s) for profile.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Profile API from Pulsoid — 1 operation(s) for profile.
   name: Pulsoid Profile API
   slug: pulsoid-profile-api
-- description: The Statistics API from Pulsoid — 1 operation(s) for statistics.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Statistics API from Pulsoid — 1 operation(s) for statistics.
   name: Pulsoid Statistics API
   slug: pulsoid-statistics-api
-- description: The Token API from Pulsoid — 1 operation(s) for token.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Token API from Pulsoid — 1 operation(s) for token.
   name: Pulsoid Token API
   slug: pulsoid-token-api
-- description: The Widgets API from Pulsoid — 2 operation(s) for widgets.
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The Widgets API from Pulsoid — 2 operation(s) for widgets.
   name: Pulsoid Widgets API
   slug: pulsoid-widgets-api
 artifact_total: 25
@@ -216,7 +232,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/screenshots/pulsoid-2026-06-20T192309.png
 security:

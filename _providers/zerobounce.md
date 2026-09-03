@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,7 +57,9 @@ apis:
 - description: Asynchronous file-job surface for bulk email validation, bulk AI scoring, bulk email finder, bulk domain search, List Evaluator and Amazon S3 file operations. Runs on a separate, non-region-split host
   name: ZeroBounce Bulk API
   slug: bulk-api
-- description: The ZeroBounce ChatGPT-plugin validation surface — 2 operations for single and batch email validation, served from members-api.zerobounce.net. The single-validation operation accepts up to 3 unauthent
+- baseURL: https://members-api.zerobounce.net
+  baseurl_source: declared
+  description: The ZeroBounce ChatGPT-plugin validation surface — 2 operations for single and batch email validation, served from members-api.zerobounce.net. The single-validation operation accepts up to 3 unauthent
   name: ZeroBounce Validation API
   slug: zerobounce-validation-api
 - description: Official ZeroBounce Model Context Protocol server, published by ZeroBounce under Apache-2.0 and distributed on npm as @zerobounce/mcp. Exposes 16 tools covering validation, AI scoring, email finder, d
@@ -275,7 +277,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -285,7 +287,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 67.2
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,7 +299,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerobounce/refs/heads/main/screenshots/zerobounce-2026-08-17T083321.png
 security:

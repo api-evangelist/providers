@@ -33,199 +33,327 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 20
 apis:
-- description: Notification API enables merchants to subscribe to and receive notifications in real-time.
+- baseURL: https://mns-aws.jpmchase.com/v1
+  baseurl_source: declared
+  description: Notification API enables merchants to subscribe to and receive notifications in real-time.
   name: Notifications API
   slug: notifications-api
-- description: Manage your accounts programmatically. Create new accounts, retrieve details and balances, and organize all your client accounts in one place. This allows you to automate account operations and keep y
+- baseURL: https://api.payments.jpmorgan.com/embedded/v2
+  baseurl_source: declared
+  description: Manage your accounts programmatically. Create new accounts, retrieve details and balances, and organize all your client accounts in one place. This allows you to automate account operations and keep y
   name: Accounts API
   slug: accounts-api
-- description: Streamline how you set up, manage, and verify payees by creating, updating, listing, and validating recipients for your payment transactions. This helps keep your payment workflows organized and secur
+- baseURL: https://api.payments.jpmorgan.com/embedded/v1
+  baseurl_source: declared
+  description: Streamline how you set up, manage, and verify payees by creating, updating, listing, and validating recipients for your payment transactions. This helps keep your payment workflows organized and secur
   name: Recipients API
   slug: recipients-api
-- description: Set up and manage webhook subscriptions to receive real-time notifications about key events, like transactions, account changes, or client onboarding, directly to your platform, so you can automate wo
+- baseURL: https://api.payments.jpmorgan.com/embedded/v1
+  baseurl_source: declared
+  description: Set up and manage webhook subscriptions to receive real-time notifications about key events, like transactions, account changes, or client onboarding, directly to your platform, so you can automate wo
   name: Webhooks API
   slug: webhooks-api
-- description: Create, track, and manage payments, such as ACH, wire, and real-time transfers, while easily filtering and retrieving transaction details by type, status, account, or date. This lets you automate fund
+- baseURL: https://api.payments.jpmorgan.com/embedded/v2
+  baseurl_source: declared
+  description: Create, track, and manage payments, such as ACH, wire, and real-time transfers, while easily filtering and retrieving transaction details by type, status, account, or date. This lets you automate fund
   name: Transactions API
   slug: transactions-api
-- description: Manage your documents programmatically. Generate new documents and retrieve documents relevant to your accounts. This allows you to obtain important documentation with ease.
+- baseURL: https://api.payments.jpmorgan.com/embedded/v1
+  baseurl_source: declared
+  description: Manage your documents programmatically. Generate new documents and retrieve documents relevant to your accounts. This allows you to obtain important documentation with ease.
   name: Documents API
   slug: documents-api
-- description: To retrieve the account details
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: To retrieve the account details
   name: JPMorgan Chase Account Information API
   slug: jp-morgan-chase-account-information-api
-- description: Add, Remove restrictions on the accounts.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Add, Remove restrictions on the accounts.
   name: JPMorgan Chase Account Restrictions API
   slug: jp-morgan-chase-account-restrictions-api
-- description: Account Information - Services
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Account Information - Services
   name: JPMorgan Chase Account Services API
   slug: jp-morgan-chase-account-services-api
-- description: The Account Statements API from JPMorgan Chase — 2 operation(s) for account statements.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The Account Statements API from JPMorgan Chase — 2 operation(s) for account statements.
   name: JPMorgan Chase Account Statements API
   slug: jp-morgan-chase-account-statements-api
-- description: The Account Transactions API from JPMorgan Chase — 1 operation(s) for account transactions.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The Account Transactions API from JPMorgan Chase — 1 operation(s) for account transactions.
   name: JPMorgan Chase Account Transactions API
   slug: jp-morgan-chase-account-transactions-api
-- description: Request updates to an account.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Request updates to an account.
   name: JPMorgan Chase Account Updates API
   slug: jp-morgan-chase-account-updates-api
-- description: API to validate accounts
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: API to validate accounts
   name: JPMorgan Chase Account Validation API
   slug: jp-morgan-chase-account-validation-api
-- description: Addresses API
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Addresses API
   name: JPMorgan Chase Addresses API
   slug: jp-morgan-chase-addresses-api
-- description: The AIS API from JPMorgan Chase — 6 operation(s) for ais.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The AIS API from JPMorgan Chase — 6 operation(s) for ais.
   name: JPMorgan Chase AIS API
   slug: jp-morgan-chase-ais-api
-- description: Authentication
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Authentication
   name: JPMorgan Chase Authentication API
   slug: jp-morgan-chase-authentication-api
-- description: Balance Information
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Balance Information
   name: JPMorgan Chase Balances API
   slug: jp-morgan-chase-balances-api
-- description: The Bulk Import API from JPMorgan Chase — 1 operation(s) for bulk import.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The Bulk Import API from JPMorgan Chase — 1 operation(s) for bulk import.
   name: JPMorgan Chase Bulk Import API
   slug: jp-morgan-chase-bulk-import-api
-- description: Bulk Key Management
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Bulk Key Management
   name: JPMorgan Chase Bulk Key Management API
   slug: jp-morgan-chase-bulk-key-management-api
-- description: Bulk Token Operation.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Bulk Token Operation.
   name: JPMorgan Chase Bulk Operation API
   slug: jp-morgan-chase-bulk-operation-api
-- description: Operations related to setting up and managing checkout sessions.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Operations related to setting up and managing checkout sessions.
   name: JPMorgan Chase Checkout Intent API
   slug: jp-morgan-chase-checkout-intent-api
-- description: Onboard and manage clients.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Onboard and manage clients.
   name: JPMorgan Chase Clients API
   slug: jp-morgan-chase-clients-api
-- description: Communication Update
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Communication Update
   name: JPMorgan Chase Communication API
   slug: jp-morgan-chase-communication-api
-- description: Pay By Bank - Connectivity
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Pay By Bank - Connectivity
   name: JPMorgan Chase Connectivity API
   slug: jp-morgan-chase-connectivity-api
-- description: Account Information - Consents
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Account Information - Consents
   name: JPMorgan Chase Consents API
   slug: jp-morgan-chase-consents-api
-- description: Consumer Profiles API
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Consumer Profiles API
   name: JPMorgan Chase Consumer Profiles API
   slug: jp-morgan-chase-consumer-profiles-api
-- description: Request cryptograms for a token.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Request cryptograms for a token.
   name: JPMorgan Chase Cryptograms Request API
   slug: jp-morgan-chase-cryptograms-request-api
-- description: Operations for executing actions on disputes, such as challenging, accepting, and fulfilling requests.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Operations for executing actions on disputes, such as challenging, accepting, and fulfilling requests.
   name: JPMorgan Chase Disputes Actions API
   slug: jp-morgan-chase-disputes-actions-api
-- description: Operations for fetching dispute-related data, such as list of disputes, details, status, and issuer documents
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Operations for fetching dispute-related data, such as list of disputes, details, status, and issuer documents
   name: JPMorgan Chase Disputes Data Retrieval API
   slug: jp-morgan-chase-disputes-data-retrieval-api
-- description: View details of requests for documents.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: View details of requests for documents.
   name: JPMorgan Chase Document requests API
   slug: jp-morgan-chase-document-requests-api
-- description: API to validate entities
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: API to validate entities
   name: JPMorgan Chase Entity Validation API
   slug: jp-morgan-chase-entity-validation-api
-- description: Service Health Checks
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Service Health Checks
   name: JPMorgan Chase Health API
   slug: jp-morgan-chase-health-api
-- description: Validate the health of the service.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Validate the health of the service.
   name: JPMorgan Chase Health Check API
   slug: jp-morgan-chase-health-check-api
-- description: Merchant entity information
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Merchant entity information
   name: JPMorgan Chase Merchant API
   slug: jp-morgan-chase-merchant-api
-- description: Operations related to generating and managing payment links
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Operations related to generating and managing payment links
   name: JPMorgan Chase Merchant Catalog API
   slug: jp-morgan-chase-merchant-catalog-api
-- description: Operations related to merchant notifications.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Operations related to merchant notifications.
   name: JPMorgan Chase Merchant Notification API
   slug: jp-morgan-chase-merchant-notification-api
-- description: The Merchant Onboarding API from JPMorgan Chase — 2 operation(s) for merchant onboarding.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The Merchant Onboarding API from JPMorgan Chase — 2 operation(s) for merchant onboarding.
   name: JPMorgan Chase Merchant Onboarding API
   slug: jp-morgan-chase-merchant-onboarding-api
-- description: The Money Movement API from JPMorgan Chase — 1 operation(s) for money movement.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The Money Movement API from JPMorgan Chase — 1 operation(s) for money movement.
   name: JPMorgan Chase Money Movement API
   slug: jp-morgan-chase-money-movement-api
-- description: Create and manage legal parties.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Create and manage legal parties.
   name: JPMorgan Chase Party API
   slug: jp-morgan-chase-party-api
-- description: Manage Payment Holds
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage Payment Holds
   name: JPMorgan Chase Payment Holds API
   slug: jp-morgan-chase-payment-holds-api
-- description: APIs to retrieve status and details of a payment
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: APIs to retrieve status and details of a payment
   name: JPMorgan Chase Payment Information Retrieval API
   slug: jp-morgan-chase-payment-information-retrieval-api
-- description: API to initiate a payment
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: API to initiate a payment
   name: JPMorgan Chase Payment Initiation API
   slug: jp-morgan-chase-payment-initiation-api
-- description: Manage Payment Links
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage Payment Links
   name: JPMorgan Chase Payment Link API
   slug: jp-morgan-chase-payment-link-api
-- description: Operations related to catalog services
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Operations related to catalog services
   name: JPMorgan Chase Payment Links API
   slug: jp-morgan-chase-payment-links-api
-- description: Payment Methods API
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Payment Methods API
   name: JPMorgan Chase Payment Methods API
   slug: jp-morgan-chase-payment-methods-api
-- description: Manage Payment Requests
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage Payment Requests
   name: JPMorgan Chase Payment Request API
   slug: jp-morgan-chase-payment-request-api
-- description: Manage Payment Requests in Bulk
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage Payment Requests in Bulk
   name: JPMorgan Chase Payment Request - Bulk API
   slug: jp-morgan-chase-payment-request-bulk-api
-- description: API to initiate payment returns
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: API to initiate payment returns
   name: JPMorgan Chase Payment Returns API
   slug: jp-morgan-chase-payment-returns-api
-- description: API to initiate payments
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: API to initiate payments
   name: JPMorgan Chase Payments API
   slug: jp-morgan-chase-payments-api
-- description: Pay By Bank - PayoutsPayments
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Pay By Bank - PayoutsPayments
   name: JPMorgan Chase Payouts API
   slug: jp-morgan-chase-payouts-api
-- description: The Personal Information API from JPMorgan Chase — 1 operation(s) for personal information.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: The Personal Information API from JPMorgan Chase — 1 operation(s) for personal information.
   name: JPMorgan Chase Personal Information API
   slug: jp-morgan-chase-personal-information-api
-- description: Payment Initiation Services
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Payment Initiation Services
   name: JPMorgan Chase PIS API
   slug: jp-morgan-chase-pis-api
-- description: View details about answering questions by id.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: View details about answering questions by id.
   name: JPMorgan Chase Questions API
   slug: jp-morgan-chase-questions-api
-- description: Generates recommendations based on the provided input.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Generates recommendations based on the provided input.
   name: JPMorgan Chase Recommendations API
   slug: jp-morgan-chase-recommendations-api
-- description: Refund initiation services.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Refund initiation services.
   name: JPMorgan Chase Refunds API
   slug: jp-morgan-chase-refunds-api
-- description: Endpoints for report configurations.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Endpoints for report configurations.
   name: JPMorgan Chase Report Configurations API
   slug: jp-morgan-chase-report-configurations-api
-- description: Endpoints for report files.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Endpoints for report files.
   name: JPMorgan Chase Report Files API
   slug: jp-morgan-chase-report-files-api
-- description: Endpoints for report types.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Endpoints for report types.
   name: JPMorgan Chase Report Types API
   slug: jp-morgan-chase-report-types-api
-- description: Reporting Group Information
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Reporting Group Information
   name: JPMorgan Chase Reporting Groups API
   slug: jp-morgan-chase-reporting-groups-api
-- description: Endpoints for reports.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Endpoints for reports.
   name: JPMorgan Chase Reports API
   slug: jp-morgan-chase-reports-api
-- description: Create session for clients or parties.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Create session for clients or parties.
   name: JPMorgan Chase Session API
   slug: jp-morgan-chase-session-api
-- description: Manage notification subscriptions
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage notification subscriptions
   name: JPMorgan Chase Subscriptions API
   slug: jp-morgan-chase-subscriptions-api
-- description: Manage or request token state information.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage or request token state information.
   name: JPMorgan Chase Token Lifecycle Management API
   slug: jp-morgan-chase-token-lifecycle-management-api
-- description: Manage or request tokens and cryptograms.
+- baseURL: https://api.payments.jpmorgan.com/onboarding/v1
+  baseurl_source: declared
+  description: Manage or request tokens and cryptograms.
   name: JPMorgan Chase Token Processing API
   slug: jp-morgan-chase-token-processing-api
 artifact_total: 96
@@ -498,7 +626,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -508,7 +636,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 49.6
+  previous_composite: 49.3
   provenance:
     contracts:
       callable: 100.0
@@ -522,7 +650,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

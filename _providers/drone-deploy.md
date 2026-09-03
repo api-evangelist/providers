@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 3
 apis:
-- description: DroneDeploy's GraphQL API is the primary programmatic interface for the DroneDeploy reality-capture platform. A single POST endpoint at https://www.dronedeploy.com/graphql exposes a strongly-typed sch
+- baseURL: https://www.dronedeploy.com/graphql
+  baseurl_source: declared
+  description: DroneDeploy's GraphQL API is the primary programmatic interface for the DroneDeploy reality-capture platform. A single POST endpoint at https://www.dronedeploy.com/graphql exposes a strongly-typed sch
   name: DroneDeploy GraphQL API
   slug: drone-deploy-graphql-api
 - description: The DroneDeploy Apps Platform lets third parties build embedded apps and serverless "functions" that run inside the DroneDeploy web application and the DroneDeploy App Market. Apps consume the GraphQL
@@ -290,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone-deploy/refs/heads/main/screenshots/drone-deploy-2026-06-20T180248.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Tracee is a runtime security and forensics tool for Linux that uses eBPF technology to trace system events and detect suspicious behavioral patterns.
   name: Tracee
   slug: tracee
-- description: User authentication and token management
+- baseURL_template: https://{tenant}.cloud.aquasec.com/api
+  baseurl_source: spec_template
+  description: User authentication and token management
   name: Aqua Security Authentication API
   slug: aqua-security-authentication-api
-- description: Running container monitoring and enforcement
+- baseURL_template: https://{tenant}.cloud.aquasec.com/api
+  baseurl_source: spec_template
+  description: Running container monitoring and enforcement
   name: Aqua Security Containers API
   slug: aqua-security-containers-api
-- description: Container image scanning and vulnerability management
+- baseURL_template: https://{tenant}.cloud.aquasec.com/api
+  baseurl_source: spec_template
+  description: Container image scanning and vulnerability management
   name: Aqua Security Images API
   slug: aqua-security-images-api
-- description: Security policy management
+- baseURL_template: https://{tenant}.cloud.aquasec.com/api
+  baseurl_source: spec_template
+  description: Security policy management
   name: Aqua Security Policies API
   slug: aqua-security-policies-api
-- description: Container registry configuration
+- baseURL_template: https://{tenant}.cloud.aquasec.com/api
+  baseurl_source: spec_template
+  description: Container registry configuration
   name: Aqua Security Registries API
   slug: aqua-security-registries-api
-- description: User and role management
+- baseURL_template: https://{tenant}.cloud.aquasec.com/api
+  baseurl_source: spec_template
+  description: User and role management
   name: Aqua Security Users API
   slug: aqua-security-users-api
 arazzos:
@@ -558,7 +570,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/screenshots/aqua-security-2026-06-20T172346.png
 security:

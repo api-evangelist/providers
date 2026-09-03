@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: JavaScript API for building add-ins and extending Visio functionality in the browser with access to documents, pages, shapes, and comments.
   name: Visio JavaScript API
   slug: visio-javascript-api
-- description: Operations for reading and managing shape comments.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for reading and managing shape comments.
   name: Microsoft Visio Comments API
   slug: microsoft-visio-comments-api
-- description: Operations for Visio document metadata.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for Visio document metadata.
   name: Microsoft Visio Documents API
   slug: microsoft-visio-documents-api
-- description: Operations for reading shape hyperlinks.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for reading shape hyperlinks.
   name: Microsoft Visio Hyperlinks API
   slug: microsoft-visio-hyperlinks-api
-- description: Operations for managing pages in Visio documents.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing pages in Visio documents.
   name: Microsoft Visio Pages API
   slug: microsoft-visio-pages-api
-- description: Operations for reading shape data items.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for reading shape data items.
   name: Microsoft Visio Shape Data API
   slug: microsoft-visio-shape-data-api
-- description: Operations for managing shapes on pages.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing shapes on pages.
   name: Microsoft Visio Shapes API
   slug: microsoft-visio-shapes-api
 artifact_total: 54
@@ -313,7 +325,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/screenshots/microsoft-visio-2026-06-20T185541.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from TwinStrand Biosciences — 5 operation(s) for discovery.
   name: TwinStrand Biosciences Discovery API
   slug: twinstrand-biosciences-discovery-api
-- description: The Events API from TwinStrand Biosciences — 2 operation(s) for events.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Events API from TwinStrand Biosciences — 2 operation(s) for events.
   name: TwinStrand Biosciences Events API
   slug: twinstrand-biosciences-events-api
-- description: The Media API from TwinStrand Biosciences — 2 operation(s) for media.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from TwinStrand Biosciences — 2 operation(s) for media.
   name: TwinStrand Biosciences Media API
   slug: twinstrand-biosciences-media-api
-- description: The News API from TwinStrand Biosciences — 2 operation(s) for news.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The News API from TwinStrand Biosciences — 2 operation(s) for news.
   name: TwinStrand Biosciences News API
   slug: twinstrand-biosciences-news-api
-- description: The Pages API from TwinStrand Biosciences — 2 operation(s) for pages.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from TwinStrand Biosciences — 2 operation(s) for pages.
   name: TwinStrand Biosciences Pages API
   slug: twinstrand-biosciences-pages-api
-- description: The Patents API from TwinStrand Biosciences — 2 operation(s) for patents.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Patents API from TwinStrand Biosciences — 2 operation(s) for patents.
   name: TwinStrand Biosciences Patents API
   slug: twinstrand-biosciences-patents-api
-- description: The People API from TwinStrand Biosciences — 4 operation(s) for people.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The People API from TwinStrand Biosciences — 4 operation(s) for people.
   name: TwinStrand Biosciences People API
   slug: twinstrand-biosciences-people-api
-- description: The Posters API from TwinStrand Biosciences — 2 operation(s) for posters.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posters API from TwinStrand Biosciences — 2 operation(s) for posters.
   name: TwinStrand Biosciences Posters API
   slug: twinstrand-biosciences-posters-api
-- description: The Posts API from TwinStrand Biosciences — 2 operation(s) for posts.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from TwinStrand Biosciences — 2 operation(s) for posts.
   name: TwinStrand Biosciences Posts API
   slug: twinstrand-biosciences-posts-api
-- description: The Publications API from TwinStrand Biosciences — 6 operation(s) for publications.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Publications API from TwinStrand Biosciences — 6 operation(s) for publications.
   name: TwinStrand Biosciences Publications API
   slug: twinstrand-biosciences-publications-api
-- description: The Search API from TwinStrand Biosciences — 1 operation(s) for search.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from TwinStrand Biosciences — 1 operation(s) for search.
   name: TwinStrand Biosciences Search API
   slug: twinstrand-biosciences-search-api
-- description: The Taxonomies API from TwinStrand Biosciences — 4 operation(s) for taxonomies.
+- baseURL: https://twinstrandbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomies API from TwinStrand Biosciences — 4 operation(s) for taxonomies.
   name: TwinStrand Biosciences Taxonomies API
   slug: twinstrand-biosciences-taxonomies-api
 artifact_total: 27
@@ -222,7 +257,7 @@ score:
   band: emerging
   composite: 20.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -252,8 +287,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/twinstrand-biosciences/refs/heads/main/screenshots/twinstrand-biosciences-2026-09-02T164634.png
 security:
 - kind: authentication
   name: Twinstrand Biosciences Authentication

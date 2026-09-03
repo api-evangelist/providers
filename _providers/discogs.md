@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 50 operations · 16 acting
 api_count: 8
 apis:
-- description: 'Access Discogs database: artists, releases, masters, labels, and search.'
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: 'Access Discogs database: artists, releases, masters, labels, and search.'
   name: Discogs Database API
   slug: discogs-database-api
-- description: Image asset retrieval (proxied via OAuth).
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Image asset retrieval (proxied via OAuth).
   name: Discogs Image API
   slug: discogs-image-api
-- description: Bulk inventory export and CSV upload management.
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Bulk inventory export and CSV upload management.
   name: Discogs Inventory Management API
   slug: discogs-inventory-management-api
-- description: Marketplace listings, orders, fees, price suggestions, and release stats.
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Marketplace listings, orders, fees, price suggestions, and release stats.
   name: Discogs Marketplace API
   slug: discogs-marketplace-api
-- description: Manage a user's record collection.
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Manage a user's record collection.
   name: Discogs User Collection API
   slug: discogs-user-collection-api
-- description: Authenticated user identity, profile, submissions, and contributions.
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Authenticated user identity, profile, submissions, and contributions.
   name: Discogs User Identity API
   slug: discogs-user-identity-api
-- description: Browse and manage user-created lists of releases, artists, and labels.
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Browse and manage user-created lists of releases, artists, and labels.
   name: Discogs User Lists API
   slug: discogs-user-lists-api
-- description: Manage a user's wantlist.
+- baseURL: https://api.discogs.com
+  baseurl_source: declared
+  description: Manage a user's wantlist.
   name: Discogs User Wantlist API
   slug: discogs-user-wantlist-api
 artifact_total: 186
@@ -769,7 +785,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/screenshots/discogs-2026-07-25T212056.png
 security:

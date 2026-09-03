@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 1
 apis:
-- description: Manage cluster certificates in Console
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Manage cluster certificates in Console
   name: Conduktor Certificates API
   slug: conduktor-certificates-api
-- description: Manage Kafka cluster registrations in Console
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Manage Kafka cluster registrations in Console
   name: Conduktor Clusters API
   slug: conduktor-clusters-api
-- description: Manage groups and RBAC permissions in Console
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Manage groups and RBAC permissions in Console
   name: Conduktor Groups API
   slug: conduktor-groups-api
-- description: Gateway interceptors for data security, quality, and governance
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Gateway interceptors for data security, quality, and governance
   name: Conduktor Interceptors API
   slug: conduktor-interceptors-api
-- description: Declarative Application, ApplicationInstance, and TopicPolicy resources
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Declarative Application, ApplicationInstance, and TopicPolicy resources
   name: Conduktor Self-Service API
   slug: conduktor-self-service-api
-- description: Manage organization users in Console
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Manage organization users in Console
   name: Conduktor Users API
   slug: conduktor-users-api
-- description: Gateway virtual clusters, service accounts, and tokens
+- baseURL: https://{console-host}/public/console/v1
+  baseurl_source: declared
+  description: Gateway virtual clusters, service accounts, and tokens
   name: Conduktor Virtual Clusters API
   slug: conduktor-virtual-clusters-api
 artifact_total: 24
@@ -199,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduktor/refs/heads/main/screenshots/conduktor-2026-07-25T210238.png
 security:

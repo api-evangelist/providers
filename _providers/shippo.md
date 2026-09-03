@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 29 operations · 11 acting
 api_count: 1
 apis:
-- description: Validate and manage shipping addresses
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Validate and manage shipping addresses
   name: Shippo Addresses API
   slug: shippo-addresses-api
-- description: Manage carrier account integrations
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Manage carrier account integrations
   name: Shippo Carrier Accounts API
   slug: shippo-carrier-accounts-api
-- description: Define parcel dimensions and weight
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Define parcel dimensions and weight
   name: Shippo Parcels API
   slug: shippo-parcels-api
-- description: Retrieve shipping rates from carriers
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Retrieve shipping rates from carriers
   name: Shippo Rates API
   slug: shippo-rates-api
-- description: Request label refunds
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Request label refunds
   name: Shippo Refunds API
   slug: shippo-refunds-api
-- description: Create and manage shipments
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Create and manage shipments
   name: Shippo Shipments API
   slug: shippo-shipments-api
-- description: Track shipments across carriers
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Track shipments across carriers
   name: Shippo Tracking API
   slug: shippo-tracking-api
-- description: Purchase shipping labels
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Purchase shipping labels
   name: Shippo Transactions API
   slug: shippo-transactions-api
-- description: Manage webhook subscriptions
+- baseURL: https://api.goshippo.com
+  baseurl_source: spec
+  description: Manage webhook subscriptions
   name: Shippo Webhooks API
   slug: shippo-webhooks-api
 artifact_total: 78
@@ -357,7 +375,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -367,7 +385,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -376,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: The Blobs API from Google Cloud Container Registry — 1 operation(s) for blobs.
+- baseURL: https://containerregistry.googleapis.com
+  baseurl_source: declared
+  description: The Blobs API from Google Cloud Container Registry — 1 operation(s) for blobs.
   name: Google Cloud Container Registry Blobs API
   slug: google-cloud-container-registry-blobs-api
-- description: The Catalog API from Google Cloud Container Registry — 1 operation(s) for catalog.
+- baseURL: https://containerregistry.googleapis.com
+  baseurl_source: declared
+  description: The Catalog API from Google Cloud Container Registry — 1 operation(s) for catalog.
   name: Google Cloud Container Registry  Catalog API
   slug: google-cloud-container-registry-catalog-api
-- description: The Manifests API from Google Cloud Container Registry — 1 operation(s) for manifests.
+- baseURL: https://containerregistry.googleapis.com
+  baseurl_source: declared
+  description: The Manifests API from Google Cloud Container Registry — 1 operation(s) for manifests.
   name: Google Cloud Container Registry Manifests API
   slug: google-cloud-container-registry-manifests-api
-- description: The Tags API from Google Cloud Container Registry — 1 operation(s) for tags.
+- baseURL: https://containerregistry.googleapis.com
+  baseurl_source: declared
+  description: The Tags API from Google Cloud Container Registry — 1 operation(s) for tags.
   name: Google Cloud Container Registry Tags API
   slug: google-cloud-container-registry-tags-api
 artifact_total: 21
@@ -214,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-container-registry/refs/heads/main/screenshots/google-cloud-container-registry-2026-06-20T182053.png
 security:

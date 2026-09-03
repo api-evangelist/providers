@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: Workday Query Language (WQL) API enabling SQL-like querying of Workday data through REST endpoints. Provides high-performance data access for reporting and analytics use cases, with support for pagina
   name: Workday WQL API
   slug: workday-wql-api
-- description: Retrieve metadata about report fields, prompts, and filter parameters
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/{tenant}/Reporting
+  baseurl_source: declared
+  description: Retrieve metadata about report fields, prompts, and filter parameters
   name: Workday Reporting Report Metadata API
   slug: workday-reporting-report-metadata-api
-- description: Execute and retrieve data from custom and standard Workday reports configured as web services
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service/{tenant}/Reporting
+  baseurl_source: declared
+  description: Execute and retrieve data from custom and standard Workday reports configured as web services
   name: Workday Reporting Reports API
   slug: workday-reporting-reports-api
 artifact_total: 27
@@ -260,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/screenshots/workday-reporting-2026-06-20T201611.png
 security:

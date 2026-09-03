@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: The Swagger Codegen command-line interface for generating code artifacts locally. Available as a JAR file and Docker image. Supports the same generators as the online API with additional template cust
   name: Swagger Codegen CLI
   slug: swagger-codegen-cli
-- description: Code generation endpoints for clients, servers, and documentation
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: Code generation endpoints for clients, servers, and documentation
   name: Swagger Codegen Generation API
   slug: swagger-codegen-generation-api
-- description: Discover available generator languages and types
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: Discover available generator languages and types
   name: Swagger Codegen Languages API
   slug: swagger-codegen-languages-api
-- description: Retrieve per-language configuration options
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: Retrieve per-language configuration options
   name: Swagger Codegen Options API
   slug: swagger-codegen-options-api
-- description: Template rendering and intermediate model generation
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: Template rendering and intermediate model generation
   name: Swagger Codegen Utilities API
   slug: swagger-codegen-utilities-api
-- description: The clients API from Swagger Codegen — 9 operation(s) for clients.
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: The clients API from Swagger Codegen — 9 operation(s) for clients.
   name: Swagger Codegen Clients API
   slug: swagger-codegen-clients-api
-- description: The documentation API from Swagger Codegen — 2 operation(s) for documentation.
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: The documentation API from Swagger Codegen — 2 operation(s) for documentation.
   name: Swagger Codegen Documentation API
   slug: swagger-codegen-documentation-api
-- description: The servers API from Swagger Codegen — 4 operation(s) for servers.
+- baseURL: https://generator3.swagger.io/api
+  baseurl_source: declared
+  description: The servers API from Swagger Codegen — 4 operation(s) for servers.
   name: Swagger Codegen Servers API
   slug: swagger-codegen-servers-api
 artifact_total: 30
@@ -334,7 +348,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -347,7 +361,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,7 +373,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:

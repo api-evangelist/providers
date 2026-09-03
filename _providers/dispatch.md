@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Scheduled times at which an assigned technician performs work for a job.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Scheduled times at which an assigned technician performs work for a job.
   name: Dispatch Appointments API
   slug: dispatch-appointments-api
-- description: OAuth 2.0 token issuance and refresh.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance and refresh.
   name: Dispatch Authentication API
   slug: dispatch-authentication-api
-- description: Brands or divisions controlling logo and copy. Accessible only to job sources.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Brands or divisions controlling logo and copy. Accessible only to job sources.
   name: Dispatch Brands API
   slug: dispatch-brands-api
-- description: The homeowner or end customer a job belongs to.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: The homeowner or end customer a job belongs to.
   name: Dispatch Customers API
   slug: dispatch-customers-api
-- description: Files and photos associated with a job.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Files and photos associated with a job.
   name: Dispatch Files API
   slug: dispatch-files-api
-- description: A single body of work for a customer, assigned to an organization.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: A single body of work for a customer, assigned to an organization.
   name: Dispatch Jobs API
   slug: dispatch-jobs-api
-- description: The branch or third-party service provider responsible for doing the work.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: The branch or third-party service provider responsible for doing the work.
   name: Dispatch Organizations API
   slug: dispatch-organizations-api
-- description: Where job information originated.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Where job information originated.
   name: Dispatch Sources API
   slug: dispatch-sources-api
-- description: Customer surveys sent when an appointment or job completes.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Customer surveys sent when an appointment or job completes.
   name: Dispatch Survey Responses API
   slug: dispatch-survey-responses-api
-- description: Dispatchers and technicians using the Dispatch applications.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Dispatchers and technicians using the Dispatch applications.
   name: Dispatch Users API
   slug: dispatch-users-api
-- description: Composite object creating jobs, customers, organizations and appointments in one call.
+- baseURL: https://api.dispatch.me
+  baseurl_source: declared
+  description: Composite object creating jobs, customers, organizations and appointments in one call.
   name: Dispatch Work Orders API
   slug: dispatch-work-orders-api
 artifact_total: 27
@@ -248,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -258,7 +280,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 35.0
+  previous_composite: 34.9
   provenance:
     conformance: derived
     contracts:
@@ -269,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dispatch/refs/heads/main/screenshots/dispatch-2026-07-25T212107.png
 security:

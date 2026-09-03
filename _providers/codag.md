@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 70 operations · 39 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Activate API from Codag — 2 operation(s) for activate.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Activate API from Codag — 2 operation(s) for activate.
   name: Codag Activate API
   slug: codag-activate-api
-- description: The Admin API from Codag — 2 operation(s) for admin.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Admin API from Codag — 2 operation(s) for admin.
   name: Codag Admin API
   slug: codag-admin-api
-- description: The Anonymous API from Codag — 1 operation(s) for anonymous.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Anonymous API from Codag — 1 operation(s) for anonymous.
   name: Codag Anonymous API
   slug: codag-anonymous-api
-- description: The Auth API from Codag — 4 operation(s) for auth.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Auth API from Codag — 4 operation(s) for auth.
   name: Codag Auth API
   slug: codag-auth-api
-- description: The billing API from Codag — 4 operation(s) for billing.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The billing API from Codag — 4 operation(s) for billing.
   name: Codag billing API
   slug: codag-billing-api
-- description: The Capsule API from Codag — 1 operation(s) for capsule.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Capsule API from Codag — 1 operation(s) for capsule.
   name: Codag Capsule API
   slug: codag-capsule-api
-- description: The Cli API from Codag — 2 operation(s) for cli.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Cli API from Codag — 2 operation(s) for cli.
   name: Codag Cli API
   slug: codag-cli-api
-- description: The Compact API from Codag — 3 operation(s) for compact.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Compact API from Codag — 3 operation(s) for compact.
   name: Codag Compact API
   slug: codag-compact-api
-- description: The Free API from Codag — 1 operation(s) for free.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Free API from Codag — 1 operation(s) for free.
   name: Codag Free API
   slug: codag-free-api
-- description: The Health API from Codag — 1 operation(s) for health.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Health API from Codag — 1 operation(s) for health.
   name: Codag Health API
   slug: codag-health-api
-- description: The Incident Memory API from Codag — 3 operation(s) for incident memory.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Incident Memory API from Codag — 3 operation(s) for incident memory.
   name: Codag Incident Memory API
   slug: codag-incident-memory-api
-- description: The Install.sh API from Codag — 1 operation(s) for install.sh.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Install.sh API from Codag — 1 operation(s) for install.sh.
   name: Codag Install.sh API
   slug: codag-install-sh-api
-- description: The Internal API from Codag — 2 operation(s) for internal.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Internal API from Codag — 2 operation(s) for internal.
   name: Codag Internal API
   slug: codag-internal-api
-- description: The Oauth API from Codag — 2 operation(s) for oauth.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Oauth API from Codag — 2 operation(s) for oauth.
   name: Codag Oauth API
   slug: codag-oauth-api
-- description: The Onboard API from Codag — 2 operation(s) for onboard.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Onboard API from Codag — 2 operation(s) for onboard.
   name: Codag Onboard API
   slug: codag-onboard-api
-- description: The Org API from Codag — 14 operation(s) for org.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Org API from Codag — 14 operation(s) for org.
   name: Codag Org API
   slug: codag-org-api
-- description: The Orgs API from Codag — 13 operation(s) for orgs.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Orgs API from Codag — 13 operation(s) for orgs.
   name: Codag Orgs API
   slug: codag-orgs-api
-- description: The Parse API from Codag — 1 operation(s) for parse.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Parse API from Codag — 1 operation(s) for parse.
   name: Codag Parse API
   slug: codag-parse-api
-- description: The Whoami API from Codag — 1 operation(s) for whoami.
+- baseURL: https://api.codag.ai
+  baseurl_source: declared
+  description: The Whoami API from Codag — 1 operation(s) for whoami.
   name: Codag Whoami API
   slug: codag-whoami-api
 artifact_total: 44
@@ -342,7 +380,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/screenshots/codag-2026-07-25T205856.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: Download generated content files
+- baseURL: https://api.pruna.ai
+  baseurl_source: declared
+  description: Download generated content files
   name: Pruna AI Content Delivery API
   slug: pruna-ai-content-delivery-api
-- description: Upload files to be used as input for predictions
+- baseURL: https://api.pruna.ai
+  baseurl_source: declared
+  description: Upload files to be used as input for predictions
   name: Pruna AI File Management API
   slug: pruna-ai-file-management-api
-- description: Core prediction workflow operations
+- baseURL: https://api.pruna.ai
+  baseurl_source: declared
+  description: Core prediction workflow operations
   name: Pruna AI Predictions API
   slug: pruna-ai-predictions-api
 artifact_total: 12
@@ -230,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pruna-ai/refs/heads/main/screenshots/pruna-ai-2026-08-17T081359.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 93 operations · 60 acting · 1 human-in-the-loop
 api_count: 12
 apis:
-- description: The admin API from Mixedbread — 1 operation(s) for admin.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The admin API from Mixedbread — 1 operation(s) for admin.
   name: Mixedbread admin API
   slug: mixedbread-ai-admin-api
-- description: The api_keys API from Mixedbread — 4 operation(s) for api_keys.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The api_keys API from Mixedbread — 4 operation(s) for api_keys.
   name: Mixedbread api_keys API
   slug: mixedbread-ai-api-keys-api
-- description: The billing API from Mixedbread — 4 operation(s) for billing.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The billing API from Mixedbread — 4 operation(s) for billing.
   name: Mixedbread billing API
   slug: mixedbread-ai-billing-api
-- description: The completions API from Mixedbread — 1 operation(s) for completions.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The completions API from Mixedbread — 1 operation(s) for completions.
   name: Mixedbread completions API
   slug: mixedbread-ai-completions-api
-- description: The data_sources API from Mixedbread — 6 operation(s) for data_sources.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The data_sources API from Mixedbread — 6 operation(s) for data_sources.
   name: Mixedbread data_sources API
   slug: mixedbread-ai-data-sources-api
-- description: The deprecated_vector_stores API from Mixedbread — 10 operation(s) for deprecated_vector_stores.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The deprecated_vector_stores API from Mixedbread — 10 operation(s) for deprecated_vector_stores.
   name: Mixedbread deprecated_vector_stores API
   slug: mixedbread-ai-deprecated-vector-stores-api
-- description: The Embeddings API from Mixedbread — 1 operation(s) for embeddings.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The Embeddings API from Mixedbread — 1 operation(s) for embeddings.
   name: Mixedbread Embeddings API
   slug: mixedbread-ai-embeddings-api
-- description: The extractions API from Mixedbread — 6 operation(s) for extractions.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The extractions API from Mixedbread — 6 operation(s) for extractions.
   name: Mixedbread extractions API
   slug: mixedbread-ai-extractions-api
-- description: The files API from Mixedbread — 7 operation(s) for files.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The files API from Mixedbread — 7 operation(s) for files.
   name: Mixedbread files API
   slug: mixedbread-ai-files-api
-- description: The Mixedbread Embeddings API API from Mixedbread — 1 operation(s) for mixedbread embeddings api.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The Mixedbread Embeddings API API from Mixedbread — 1 operation(s) for mixedbread embeddings api.
   name: Mixedbread Mixedbread Embeddings API API
   slug: mixedbread-ai-mixedbread-embeddings-api-api
-- description: The parsing API from Mixedbread — 2 operation(s) for parsing.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The parsing API from Mixedbread — 2 operation(s) for parsing.
   name: Mixedbread parsing API
   slug: mixedbread-ai-parsing-api
-- description: The Reranking API from Mixedbread — 1 operation(s) for reranking.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The Reranking API from Mixedbread — 1 operation(s) for reranking.
   name: Mixedbread Reranking API
   slug: mixedbread-ai-reranking-api
-- description: The schemas API from Mixedbread — 1 operation(s) for schemas.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The schemas API from Mixedbread — 1 operation(s) for schemas.
   name: Mixedbread schemas API
   slug: mixedbread-ai-schemas-api
-- description: The stores API from Mixedbread — 17 operation(s) for stores.
+- baseURL: https://api.mixedbread.com
+  baseurl_source: declared
+  description: The stores API from Mixedbread — 17 operation(s) for stores.
   name: Mixedbread stores API
   slug: mixedbread-ai-stores-api
 artifact_total: 70
@@ -434,7 +462,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixedbread-ai/refs/heads/main/screenshots/mixedbread-ai-2026-08-17T124213.png
 security:

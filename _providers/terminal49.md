@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 28 operations · 11 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Containers API from Terminal49 — 4 operation(s) for containers.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Containers API from Terminal49 — 4 operation(s) for containers.
   name: Terminal49 Containers API
   slug: terminal49-containers-api
-- description: The Shipments API from Terminal49 — 4 operation(s) for shipments.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Shipments API from Terminal49 — 4 operation(s) for shipments.
   name: Terminal49 Shipments API
   slug: terminal49-shipments-api
-- description: The Shipping Lines API from Terminal49 — 2 operation(s) for shipping lines.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Shipping Lines API from Terminal49 — 2 operation(s) for shipping lines.
   name: Terminal49 Shipping Lines API
   slug: terminal49-shipping-lines-api
-- description: The Terminals API from Terminal49 — 1 operation(s) for terminals.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Terminals API from Terminal49 — 1 operation(s) for terminals.
   name: Terminal49 Terminals API
   slug: terminal49-terminals-api
-- description: The Tracking Requests API from Terminal49 — 2 operation(s) for tracking requests.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Tracking Requests API from Terminal49 — 2 operation(s) for tracking requests.
   name: Terminal49 Tracking Requests API
   slug: terminal49-tracking-requests-api
-- description: The Transport Events API from Terminal49 — 3 operation(s) for transport events.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Transport Events API from Terminal49 — 3 operation(s) for transport events.
   name: Terminal49 Transport Events API
   slug: terminal49-transport-events-api
-- description: The Webhooks API from Terminal49 — 5 operation(s) for webhooks.
+- baseURL: https://api.terminal49.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Terminal49 — 5 operation(s) for webhooks.
   name: Terminal49 Webhooks API
   slug: terminal49-webhooks-api
 artifact_total: 22
@@ -172,7 +186,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +209,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/screenshots/terminal49-2026-09-02T163138.png
 security:
 - kind: authentication
   name: Terminal49 Authentication

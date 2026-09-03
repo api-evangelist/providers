@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'Token-authenticated REST API providing structured iGaming data: slot providers, slots, news articles, jobs, and regulatory entities. OpenAPI 3.0.3, cursor-paginated, ETag-friendly, with incremental sy'
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: 'Token-authenticated REST API providing structured iGaming data: slot providers, slots, news articles, jobs, and regulatory entities. OpenAPI 3.0.3, cursor-paginated, ETag-friendly, with incremental sy'
   name: iGamingScraper REST API
   slug: igamingscraper-rest-api
 - description: 'Free public hosted MCP server (Streamable HTTP, no API key, read-only, not metered) exposing the same iGaming dataset as 17 tools: provider search and profiles, slot search and full spec sheets, serie'
@@ -142,11 +157,11 @@ score:
   band: developing
   composite: 51.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -156,14 +171,15 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 54.5
+  previous_composite: 51.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/screenshots/igaming-tools-2026-09-02T145828.png
 security:
 - kind: authentication
   name: Igaming Tools Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,19 +51,29 @@ apis:
 - description: The IEC CIM AMI (Advanced Metering Infrastructure) APIs from AMI head-end systems provide smart meter readings, interval data, usage points, and demand response signals using CIM XML data models compl
   name: IEC CIM AMI Smart Meter API
   slug: iec-cim-ami-smart-meter-api
-- description: Customer service agreements and locations
+- baseURL: https://ami-gateway.utility.example.com/cim/61968
+  baseurl_source: declared
+  description: Customer service agreements and locations
   name: iec-cim Customers API
   slug: iec-cim-customers-api
-- description: Meters and interval readings (IEC 61968-9 AMI)
+- baseURL: https://ami-gateway.utility.example.com/cim/61968
+  baseurl_source: declared
+  description: Meters and interval readings (IEC 61968-9 AMI)
   name: iec-cim Metering API
   slug: iec-cim-metering-api
-- description: Distribution network equipment – transformers, switches, lines, conductors
+- baseURL: https://ami-gateway.utility.example.com/cim/61968
+  baseurl_source: declared
+  description: Distribution network equipment – transformers, switches, lines, conductors
   name: iec-cim Network Assets API
   slug: iec-cim-network-assets-api
-- description: Outage events and management
+- baseURL: https://ami-gateway.utility.example.com/cim/61968
+  baseurl_source: declared
+  description: Outage events and management
   name: iec-cim Outages API
   slug: iec-cim-outages-api
-- description: Maintenance and construction work orders
+- baseURL: https://ami-gateway.utility.example.com/cim/61968
+  baseurl_source: declared
+  description: Maintenance and construction work orders
   name: iec-cim Work Orders API
   slug: iec-cim-work-orders-api
 artifact_total: 24
@@ -123,16 +133,16 @@ jsonld:
   slug: iec-cim-context
 layout: provider
 modified: '2026-05-19'
-name: iec-cim
+name: Iec Cim
 nav: Providers
 network: true
-overview: 'iec-cim publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Metering API, Network Assets API, and 2 more.
+overview: 'Iec Cim publishes 5 APIs on the [APIs.io](https://apis.io/) network, including iec-cim Customers API, iec-cim Metering API, iec-cim Network Assets API, and 2 more.
 
 
-  The iec-cim catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Iec Cim catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  iec-cim''s developer surface includes authentication and 3 more developer resources.'
+  Iec Cim''s developer surface includes authentication and 3 more developer resources.'
 plans:
 - name: Iec Cim Plans Pricing
   plan_count: 3
@@ -145,7 +155,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: iec-cim API Rules
+  name: Iec Cim API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -186,10 +196,10 @@ score:
       total: 5
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

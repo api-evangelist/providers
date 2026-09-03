@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,190 +35,310 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 24
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
   name: ControlUp MCP Server
   slug: controlup-mcp-server
-- description: Alerts let you receive notifications or automatically run an action when certain conditions occur on a device.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Alerts let you receive notifications or automatically run an action when certain conditions occur on a device.
   name: ControlUp Alerts API
   slug: controlup-alerts-api
-- description: The Alerts - Devices API from ControlUp — 2 operation(s) for alerts - devices.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Alerts - Devices API from ControlUp — 2 operation(s) for alerts - devices.
   name: ControlUp Alerts - Devices API
   slug: controlup-alerts-devices-api
-- description: Applications usage reports
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Applications usage reports
   name: ControlUp Applications API
   slug: controlup-applications-api
-- description: The Audit Log API from ControlUp — 1 operation(s) for audit log.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Audit Log API from ControlUp — 1 operation(s) for audit log.
   name: ControlUp Audit Log API
   slug: controlup-audit-log-api
-- description: The Cloud providers API from ControlUp — 3 operation(s) for cloud providers.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Cloud providers API from ControlUp — 3 operation(s) for cloud providers.
   name: ControlUp Cloud providers API
   slug: controlup-cloud-providers-api
-- description: The DAL (data access layer) is an advanced way to get data from an index.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The DAL (data access layer) is an advanced way to get data from an index.
   name: ControlUp Dal API
   slug: controlup-dal-api
-- description: These endpoints are for interacting with the raw data stored in data indices.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: These endpoints are for interacting with the raw data stored in data indices.
   name: ControlUp Data API
   slug: controlup-data-api
-- description: Get information about devices.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Get information about devices.
   name: ControlUp Devices API
   slug: controlup-devices-api
-- description: Dynamic SQL transformation and execution
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Dynamic SQL transformation and execution
   name: ControlUp Dynamic Query API API
   slug: controlup-dynamic-query-api-api
-- description: The System Events log reports important events and alerts in your ControlUp for Desktops environment.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The System Events log reports important events and alerts in your ControlUp for Desktops environment.
   name: ControlUp Events API
   slug: controlup-events-api
-- description: The Features API from ControlUp — 2 operation(s) for features.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Features API from ControlUp — 2 operation(s) for features.
   name: ControlUp Features API
   slug: controlup-features-api
-- description: The Health API from ControlUp — 3 operation(s) for health.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Health API from ControlUp — 3 operation(s) for health.
   name: ControlUp Health API
   slug: controlup-health-api
-- description: Hives are the locations from which Scouts (tests) are initiated. Custom Hives allow you to test internal resources from within your network. They must be installed on a computer with access to your ne
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Hives are the locations from which Scouts (tests) are initiated. Custom Hives allow you to test internal resources from within your network. They must be installed on a computer with access to your ne
   name: ControlUp Hives API
   slug: controlup-hives-api
-- description: Host usage reports
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Host usage reports
   name: ControlUp Host API
   slug: controlup-host-api
-- description: The Host pool cost API from ControlUp — 4 operation(s) for host pool cost.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool cost API from ControlUp — 4 operation(s) for host pool cost.
   name: ControlUp Host pool cost API
   slug: controlup-host-pool-cost-api
-- description: The Host pool deployments API from ControlUp — 1 operation(s) for host pool deployments.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool deployments API from ControlUp — 1 operation(s) for host pool deployments.
   name: ControlUp Host pool deployments API
   slug: controlup-host-pool-deployments-api
-- description: The Host pool scaling policies API from ControlUp — 2 operation(s) for host pool scaling policies.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool scaling policies API from ControlUp — 2 operation(s) for host pool scaling policies.
   name: ControlUp Host pool scaling policies API
   slug: controlup-host-pool-scaling-policies-api
-- description: The Host pool session host deployments API from ControlUp — 1 operation(s) for host pool session host deployments.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool session host deployments API from ControlUp — 1 operation(s) for host pool session host deployments.
   name: ControlUp Host pool session host deployments API
   slug: controlup-host-pool-session-host-deployments-api
-- description: The Host pool session hosts API from ControlUp — 1 operation(s) for host pool session hosts.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool session hosts API from ControlUp — 1 operation(s) for host pool session hosts.
   name: ControlUp Host pool session hosts API
   slug: controlup-host-pool-session-hosts-api
-- description: The Host pool user sessions API from ControlUp — 1 operation(s) for host pool user sessions.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool user sessions API from ControlUp — 1 operation(s) for host pool user sessions.
   name: ControlUp Host pool user sessions API
   slug: controlup-host-pool-user-sessions-api
-- description: The Host pool VM settings API from ControlUp — 2 operation(s) for host pool vm settings.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pool VM settings API from ControlUp — 2 operation(s) for host pool vm settings.
   name: ControlUp Host pool VM settings API
   slug: controlup-host-pool-vm-settings-api
-- description: The Host pools API from ControlUp — 6 operation(s) for host pools.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Host pools API from ControlUp — 6 operation(s) for host pools.
   name: ControlUp Host pools API
   slug: controlup-host-pools-api
-- description: The Integrations API from ControlUp — 1 operation(s) for integrations.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Integrations API from ControlUp — 1 operation(s) for integrations.
   name: ControlUp Integrations API
   slug: controlup-integrations-api
-- description: The Invitations API from ControlUp — 1 operation(s) for invitations.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Invitations API from ControlUp — 1 operation(s) for invitations.
   name: ControlUp Invitations API
   slug: controlup-invitations-api
-- description: The IP Allowlist API from ControlUp — 2 operation(s) for ip allowlist.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The IP Allowlist API from ControlUp — 2 operation(s) for ip allowlist.
   name: ControlUp IP Allowlist API
   slug: controlup-ip-allowlist-api
-- description: The Jobs API from ControlUp — 8 operation(s) for jobs.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Jobs API from ControlUp — 8 operation(s) for jobs.
   name: ControlUp Jobs API
   slug: controlup-jobs-api
-- description: The License API from ControlUp — 1 operation(s) for license.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The License API from ControlUp — 1 operation(s) for license.
   name: ControlUp License API
   slug: controlup-license-api
-- description: The License Usage API from ControlUp — 1 operation(s) for license usage.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The License Usage API from ControlUp — 1 operation(s) for license usage.
   name: ControlUp License Usage API
   slug: controlup-license-usage-api
-- description: Machine usage reports
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Machine usage reports
   name: ControlUp Machine API
   slug: controlup-machine-api
-- description: Endpoints to manage and query machines
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Endpoints to manage and query machines
   name: ControlUp Machines API
   slug: controlup-machines-api
-- description: The Master images API from ControlUp — 20 operation(s) for master images.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Master images API from ControlUp — 20 operation(s) for master images.
   name: ControlUp Master images API
   slug: controlup-master-images-api
-- description: Endpoints to manage and query metrics
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Endpoints to manage and query metrics
   name: ControlUp Metrics API
   slug: controlup-metrics-api
-- description: Multi-factor authentication (MFA) is supported for gateway access on all EUC platforms except Citrix Storefront. Use this resource to retrieve the sets of usernames and phone numbers that have been co
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Multi-factor authentication (MFA) is supported for gateway access on all EUC platforms except Citrix Storefront. Use this resource to retrieve the sets of usernames and phone numbers that have been co
   name: ControlUp MF As API
   slug: controlup-mfas-api
-- description: Netscaler usage reports
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Netscaler usage reports
   name: ControlUp Net Scaler API
   slug: controlup-netscaler-api
-- description: The Onboarding API from ControlUp — 5 operation(s) for onboarding.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Onboarding API from ControlUp — 5 operation(s) for onboarding.
   name: ControlUp Onboarding API
   slug: controlup-onboarding-api
-- description: The Organization Settings API from ControlUp — 1 operation(s) for organization settings.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Organization Settings API from ControlUp — 1 operation(s) for organization settings.
   name: ControlUp Organization Settings API
   slug: controlup-organization-settings-api
-- description: The Organizations API from ControlUp — 2 operation(s) for organizations.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Organizations API from ControlUp — 2 operation(s) for organizations.
   name: ControlUp Organizations API
   slug: controlup-organizations-api
-- description: The Overview API from ControlUp — 11 operation(s) for overview.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Overview API from ControlUp — 11 operation(s) for overview.
   name: ControlUp Overview API
   slug: controlup-overview-api
-- description: Process usage reports
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Process usage reports
   name: ControlUp Processes API
   slug: controlup-processes-api
-- description: The Public API API from ControlUp — 11 operation(s) for public api.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Public API API from ControlUp — 11 operation(s) for public api.
   name: ControlUp Public API API
   slug: controlup-public-api-api
-- description: The Roles API from ControlUp — 2 operation(s) for roles.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Roles API from ControlUp — 2 operation(s) for roles.
   name: ControlUp Roles API
   slug: controlup-roles-api
-- description: The SAML API from ControlUp — 2 operation(s) for saml.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The SAML API from ControlUp — 2 operation(s) for saml.
   name: ControlUp SAML API
   slug: controlup-saml-api
-- description: The Scaling profiles API from ControlUp — 3 operation(s) for scaling profiles.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Scaling profiles API from ControlUp — 3 operation(s) for scaling profiles.
   name: ControlUp Scaling profiles API
   slug: controlup-scaling-profiles-api
-- description: 'Scouts are the proactive tests that you configure to monitor the availability and health of various resources. There are different types of Scouts, depending on the type of resource you want to test. '
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: 'Scouts are the proactive tests that you configure to monitor the availability and health of various resources. There are different types of Scouts, depending on the type of resource you want to test. '
   name: ControlUp Scouts API
   slug: controlup-scouts-api
-- description: The Scripts API from ControlUp — 1 operation(s) for scripts.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Scripts API from ControlUp — 1 operation(s) for scripts.
   name: ControlUp Scripts API
   slug: controlup-scripts-api
-- description: Session statistics report
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Session statistics report
   name: ControlUp Session API
   slug: controlup-session-api
-- description: The Session hosts API from ControlUp — 2 operation(s) for session hosts.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Session hosts API from ControlUp — 2 operation(s) for session hosts.
   name: ControlUp Session hosts API
   slug: controlup-session-hosts-api
-- description: The SSO Groups API from ControlUp — 2 operation(s) for sso groups.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The SSO Groups API from ControlUp — 2 operation(s) for sso groups.
   name: ControlUp SSO Groups API
   slug: controlup-sso-groups-api
-- description: The Subscriptions API from ControlUp — 27 operation(s) for subscriptions.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Subscriptions API from ControlUp — 27 operation(s) for subscriptions.
   name: ControlUp Subscriptions API
   slug: controlup-subscriptions-api
-- description: Provides an additional information about customer's data
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Provides an additional information about customer's data
   name: ControlUp Support endpoint API
   slug: controlup-support-endpoint-api
-- description: These endpoints are for interacting with Employee Sentiment surveys.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: These endpoints are for interacting with Employee Sentiment surveys.
   name: ControlUp Surveys API
   slug: controlup-surveys-api
-- description: The Tags API from ControlUp — 2 operation(s) for tags.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Tags API from ControlUp — 2 operation(s) for tags.
   name: ControlUp Tags API
   slug: controlup-tags-api
-- description: The Tenants API from ControlUp — 23 operation(s) for tenants.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Tenants API from ControlUp — 23 operation(s) for tenants.
   name: ControlUp Tenants API
   slug: controlup-tenants-api
-- description: The output of the scout tests
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The output of the scout tests
   name: ControlUp Tests API
   slug: controlup-tests-api
-- description: The Triggers API from ControlUp — 2 operation(s) for triggers.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Triggers API from ControlUp — 2 operation(s) for triggers.
   name: ControlUp Triggers API
   slug: controlup-triggers-api
-- description: The TriggerSchedules API from ControlUp — 2 operation(s) for triggerschedules.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The TriggerSchedules API from ControlUp — 2 operation(s) for triggerschedules.
   name: ControlUp Trigger Schedules API
   slug: controlup-triggerschedules-api
-- description: User activity reports
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: User activity reports
   name: ControlUp User API
   slug: controlup-user-api
-- description: The User sessions API from ControlUp — 1 operation(s) for user sessions.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The User sessions API from ControlUp — 1 operation(s) for user sessions.
   name: ControlUp User sessions API
   slug: controlup-user-sessions-api
-- description: The Users API from ControlUp — 4 operation(s) for users.
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: The Users API from ControlUp — 4 operation(s) for users.
   name: ControlUp Users API
   slug: controlup-users-api
-- description: Windows Event Log Monitoring history
+- baseURL: https://api.controlup.com/v1
+  baseurl_source: declared
+  description: Windows Event Log Monitoring history
   name: ControlUp Windows Events API
   slug: controlup-windowsevents-api
 artifact_total: 129
@@ -642,23 +774,23 @@ rate_limits:
   slug: controlup-rate-limits
 score:
   band: strong
-  composite: 62.0
+  composite: 60.1
   coverage:
     artifact_dirs: 22
-    catalog_gap: 66.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -1.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 69.3
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 97.4
-  previous_composite: 62.2
+  previous_composite: 62.0
   provenance:
     conformance: derived
     contracts:
@@ -669,7 +801,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 3
 apis:
-- description: Operations for registering and discovering service instances
+- baseURL: https://servicediscovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for registering and discovering service instances
   name: Amazon Cloud Map Instances API
   slug: amazon-cloud-map-instances-api
-- description: Operations for managing service discovery namespaces
+- baseURL: https://servicediscovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing service discovery namespaces
   name: Amazon Cloud Map Namespaces API
   slug: amazon-cloud-map-namespaces-api
-- description: Operations for managing services within namespaces
+- baseURL: https://servicediscovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing services within namespaces
   name: Amazon Cloud Map Services API
   slug: amazon-cloud-map-services-api
 artifact_total: 69
@@ -401,7 +407,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:

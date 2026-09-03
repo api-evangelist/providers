@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,58 +34,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Audit API from Gleeful AI — 3 operation(s) for audit.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Audit API from Gleeful AI — 3 operation(s) for audit.
   name: Gleeful AI Audit API
   slug: gleefulai-audit-api
-- description: The Bots API from Gleeful AI — 1 operation(s) for bots.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Bots API from Gleeful AI — 1 operation(s) for bots.
   name: Gleeful AI Bots API
   slug: gleefulai-bots-api
-- description: The Capabilities API from Gleeful AI — 1 operation(s) for capabilities.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Capabilities API from Gleeful AI — 1 operation(s) for capabilities.
   name: Gleeful AI Capabilities API
   slug: gleefulai-capabilities-api
-- description: The Catalog API from Gleeful AI — 1 operation(s) for catalog.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Catalog API from Gleeful AI — 1 operation(s) for catalog.
   name: Gleeful AI Catalog API
   slug: gleefulai-catalog-api
-- description: The Cite API from Gleeful AI — 2 operation(s) for cite.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Cite API from Gleeful AI — 2 operation(s) for cite.
   name: Gleeful AI Cite API
   slug: gleefulai-cite-api
-- description: The Compare API from Gleeful AI — 2 operation(s) for compare.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Compare API from Gleeful AI — 2 operation(s) for compare.
   name: Gleeful AI Compare API
   slug: gleefulai-compare-api
-- description: The Content API from Gleeful AI — 1 operation(s) for content.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Content API from Gleeful AI — 1 operation(s) for content.
   name: Gleeful AI Content API
   slug: gleefulai-content-api
-- description: The Examples API from Gleeful AI — 1 operation(s) for examples.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Examples API from Gleeful AI — 1 operation(s) for examples.
   name: Gleeful AI Examples API
   slug: gleefulai-examples-api
-- description: The Fixes API from Gleeful AI — 1 operation(s) for fixes.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Fixes API from Gleeful AI — 1 operation(s) for fixes.
   name: Gleeful AI Fixes API
   slug: gleefulai-fixes-api
-- description: The Health API from Gleeful AI — 1 operation(s) for health.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Health API from Gleeful AI — 1 operation(s) for health.
   name: Gleeful AI Health API
   slug: gleefulai-health-api
-- description: The Llms API from Gleeful AI — 1 operation(s) for llms.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Llms API from Gleeful AI — 1 operation(s) for llms.
   name: Gleeful AI Llms API
   slug: gleefulai-llms-api
-- description: The Meta API from Gleeful AI — 1 operation(s) for meta.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Meta API from Gleeful AI — 1 operation(s) for meta.
   name: Gleeful AI Meta API
   slug: gleefulai-meta-api
-- description: The Preview API from Gleeful AI — 2 operation(s) for preview.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Preview API from Gleeful AI — 2 operation(s) for preview.
   name: Gleeful AI Preview API
   slug: gleefulai-preview-api
-- description: The Pricing API from Gleeful AI — 1 operation(s) for pricing.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Pricing API from Gleeful AI — 1 operation(s) for pricing.
   name: Gleeful AI Pricing API
   slug: gleefulai-pricing-api
-- description: The Probe API from Gleeful AI — 1 operation(s) for probe.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Probe API from Gleeful AI — 1 operation(s) for probe.
   name: Gleeful AI Probe API
   slug: gleefulai-probe-api
-- description: The Schema API from Gleeful AI — 1 operation(s) for schema.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Schema API from Gleeful AI — 1 operation(s) for schema.
   name: Gleeful AI Schema API
   slug: gleefulai-schema-api
-- description: The Status API from Gleeful AI — 1 operation(s) for status.
+- baseURL: https://visibility.gleefulai.com
+  baseurl_source: declared
+  description: The Status API from Gleeful AI — 1 operation(s) for status.
   name: Gleeful AI Status API
   slug: gleefulai-status-api
 artifact_total: 38
@@ -248,7 +293,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleefulai/refs/heads/main/screenshots/gleefulai-2026-08-07T165729.png
 security:

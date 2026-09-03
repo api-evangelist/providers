@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ apis:
 - description: OData v4.0 RESTful Web API for Microsoft Dataverse used to create, read, update, and delete Dynamics 365 Sales records (leads, opportunities, accounts, contacts, quotes, orders, invoices, products) an
   name: Microsoft Dataverse Web API (Dynamics 365 Sales)
   slug: dataverse-web-api
-- description: Account (customer organization) records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Account (customer organization) records
   name: Microsoft Dynamics 365 Sales Accounts API
   slug: microsoft-dynamics-365-sales-accounts-api
-- description: The $batch API from Microsoft Dynamics 365 Sales — 1 operation(s) for $batch.
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: The $batch API from Microsoft Dynamics 365 Sales — 1 operation(s) for $batch.
   name: Microsoft Dynamics 365 Sales $batch API
   slug: microsoft-dynamics-365-sales-batch-api
-- description: Contact (person) records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Contact (person) records
   name: Microsoft Dynamics 365 Sales Contacts API
   slug: microsoft-dynamics-365-sales-contacts-api
-- description: Invoice records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Invoice records
   name: Microsoft Dynamics 365 Sales Invoices API
   slug: microsoft-dynamics-365-sales-invoices-api
-- description: Sales lead records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Sales lead records
   name: Microsoft Dynamics 365 Sales Leads API
   slug: microsoft-dynamics-365-sales-leads-api
-- description: Sales opportunity records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Sales opportunity records
   name: Microsoft Dynamics 365 Sales Opportunities API
   slug: microsoft-dynamics-365-sales-opportunities-api
-- description: Product records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Product records
   name: Microsoft Dynamics 365 Sales Products API
   slug: microsoft-dynamics-365-sales-products-api
-- description: Sales quote records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Sales quote records
   name: Microsoft Dynamics 365 Sales Quotes API
   slug: microsoft-dynamics-365-sales-quotes-api
-- description: Sales order records
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Sales order records
   name: Microsoft Dynamics 365 Sales SalesOrders API
   slug: microsoft-dynamics-365-sales-salesorders-api
-- description: Activity tasks
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Activity tasks
   name: Microsoft Dynamics 365 Sales Tasks API
   slug: microsoft-dynamics-365-sales-tasks-api
 - description: Microsoft's hosted Model Context Protocol server for Dynamics 365 Sales. Exposes 20 sales tools to any MCP-capable agent — lead and account research, competitor research, engagement summaries, lead qu
@@ -347,7 +367,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -357,7 +377,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 67.5
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -369,7 +389,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png
 security:

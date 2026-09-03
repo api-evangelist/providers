@@ -34,70 +34,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Accounts track all billing and selling details for a customer.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Accounts track all billing and selling details for a customer.
   name: MonetizeNow Account API
   slug: monetizenow-account-api
-- description: The Account Overview API from MonetizeNow — 2 operation(s) for account overview.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Account Overview API from MonetizeNow — 2 operation(s) for account overview.
   name: MonetizeNow Account Overview API
   slug: monetizenow-account-overview-api
-- description: The AccountDocument API from MonetizeNow — 7 operation(s) for accountdocument.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The AccountDocument API from MonetizeNow — 7 operation(s) for accountdocument.
   name: MonetizeNow Account Document API
   slug: monetizenow-accountdocument-api
-- description: 'Billgroup is an object that allows you to group subscriptions. An account can have multiple bill groups representing different departments, people or groups under the account. The bill group is where '
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: 'Billgroup is an object that allows you to group subscriptions. An account can have multiple bill groups representing different departments, people or groups under the account. The bill group is where '
   name: MonetizeNow Bill Group API
   slug: monetizenow-billgroup-api
-- description: Contacts represent individual, address, and company deatils for your customers.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Contacts represent individual, address, and company deatils for your customers.
   name: MonetizeNow Contact API
   slug: monetizenow-contact-api
-- description: The Contract API from MonetizeNow — 6 operation(s) for contract.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Contract API from MonetizeNow — 6 operation(s) for contract.
   name: MonetizeNow Contract API
   slug: monetizenow-contract-api
-- description: Credits can be used to adjust account balances.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Credits can be used to adjust account balances.
   name: MonetizeNow Credit API
   slug: monetizenow-credit-api
-- description: The CreditNote API from MonetizeNow — 6 operation(s) for creditnote.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The CreditNote API from MonetizeNow — 6 operation(s) for creditnote.
   name: MonetizeNow Credit Note API
   slug: monetizenow-creditnote-api
-- description: An invoice is an itemized commercial document that records the products or services delivered to the customer, the total amount due, and the preferred payment method.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: An invoice is an itemized commercial document that records the products or services delivered to the customer, the total amount due, and the preferred payment method.
   name: MonetizeNow Invoice API
   slug: monetizenow-invoice-api
-- description: Offerings are collections of products that you can sell to customers, they can be subscriptions, one-time, or minimum commit types.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Offerings are collections of products that you can sell to customers, they can be subscriptions, one-time, or minimum commit types.
   name: MonetizeNow Offering API
   slug: monetizenow-offering-api
-- description: The Opportunity API from MonetizeNow — 5 operation(s) for opportunity.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Opportunity API from MonetizeNow — 5 operation(s) for opportunity.
   name: MonetizeNow Opportunity API
   slug: monetizenow-opportunity-api
-- description: Payment is an object that represents an amount paid to an invoice.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Payment is an object that represents an amount paid to an invoice.
   name: MonetizeNow Payment API
   slug: monetizenow-payment-api
-- description: Payment gateway is a service that helps customer transfer money to pay for invoices.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Payment gateway is a service that helps customer transfer money to pay for invoices.
   name: MonetizeNow Payment Gateway API
   slug: monetizenow-payment-gateway-api
-- description: Payment methods are entities representing the instrument used to collect payments for invoices on a bill group. This can be Credit Cards, Direct Debit, ACH Credit etc.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Payment methods are entities representing the instrument used to collect payments for invoices on a bill group. This can be Credit Cards, Direct Debit, ACH Credit etc.
   name: MonetizeNow Payment Method API
   slug: monetizenow-paymentmethod-api
-- description: The Price Uplift Configuration API from MonetizeNow — 1 operation(s) for price uplift configuration.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Price Uplift Configuration API from MonetizeNow — 1 operation(s) for price uplift configuration.
   name: MonetizeNow Price Uplift Configuration API
   slug: monetizenow-price-uplift-configuration-api
-- description: A product is an item that a business sells to its customers.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: A product is an item that a business sells to its customers.
   name: MonetizeNow Products API
   slug: monetizenow-products-api
-- description: The Quote API from MonetizeNow — 18 operation(s) for quote.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Quote API from MonetizeNow — 18 operation(s) for quote.
   name: MonetizeNow Quote API
   slug: monetizenow-quote-api
-- description: Rates allow you to add prices, pricing logic, currency details, and billing frequency to an offering
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Rates allow you to add prices, pricing logic, currency details, and billing frequency to an offering
   name: MonetizeNow Rate API
   slug: monetizenow-rate-api
-- description: Subscriptions are things your customers have been sold or signed up for that can be billed on a recurring basis.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Subscriptions are things your customers have been sold or signed up for that can be billed on a recurring basis.
   name: MonetizeNow Subscription API
   slug: monetizenow-subscription-api
-- description: The Trial API from MonetizeNow — 4 operation(s) for trial.
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Trial API from MonetizeNow — 4 operation(s) for trial.
   name: MonetizeNow Trial API
   slug: monetizenow-trial-api
-- description: APIs to record, update and query usage events
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: APIs to record, update and query usage events
   name: MonetizeNow Usage API
   slug: monetizenow-usage-api
 artifact_total: 30
@@ -300,7 +342,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -310,7 +352,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 75.0
-  previous_composite: 56.7
+  previous_composite: 56.5
   provenance:
     conformance: first-party
     contracts:
@@ -327,7 +369,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:

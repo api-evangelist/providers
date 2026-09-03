@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,265 +44,439 @@ agentic_access:
   summary_line: 196 operations · 28 acting
 api_count: 54
 apis:
-- description: The Absence Types API from Workday Integration — 1 operation(s) for absence types.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Absence Types API from Workday Integration — 1 operation(s) for absence types.
   name: Workday Integration Absence Types API
   slug: workday-integration-absence-types-api
-- description: The ACA Compliance API from Workday Integration — 2 operation(s) for aca compliance.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The ACA Compliance API from Workday Integration — 2 operation(s) for aca compliance.
   name: Workday Integration ACA Compliance API
   slug: workday-integration-aca-compliance-api
-- description: The Academic Advising API from Workday Integration — 2 operation(s) for academic advising.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Academic Advising API from Workday Integration — 2 operation(s) for academic advising.
   name: Workday Integration Academic Advising API
   slug: workday-integration-academic-advising-api
-- description: The Academic Foundation API from Workday Integration — 2 operation(s) for academic foundation.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Academic Foundation API from Workday Integration — 2 operation(s) for academic foundation.
   name: Workday Integration Academic Foundation API
   slug: workday-integration-academic-foundation-api
-- description: The Admissions API from Workday Integration — 2 operation(s) for admissions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Admissions API from Workday Integration — 2 operation(s) for admissions.
   name: Workday Integration Admissions API
   slug: workday-integration-admissions-api
-- description: The Adoption API from Workday Integration — 2 operation(s) for adoption.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Adoption API from Workday Integration — 2 operation(s) for adoption.
   name: Workday Integration Adoption API
   slug: workday-integration-adoption-api
-- description: The Assignments API from Workday Integration — 1 operation(s) for assignments.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Assignments API from Workday Integration — 1 operation(s) for assignments.
   name: Workday Integration Assignments API
   slug: workday-integration-assignments-api
-- description: The Audit API from Workday Integration — 1 operation(s) for audit.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Audit API from Workday Integration — 1 operation(s) for audit.
   name: Workday Integration Audit API
   slug: workday-integration-audit-api
-- description: The Balances API from Workday Integration — 1 operation(s) for balances.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Balances API from Workday Integration — 1 operation(s) for balances.
   name: Workday Integration Balances API
   slug: workday-integration-balances-api
-- description: The Bank Accounts API from Workday Integration — 2 operation(s) for bank accounts.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Bank Accounts API from Workday Integration — 2 operation(s) for bank accounts.
   name: Workday Integration Bank Accounts API
   slug: workday-integration-bank-accounts-api
-- description: The Bank Statements API from Workday Integration — 1 operation(s) for bank statements.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Bank Statements API from Workday Integration — 1 operation(s) for bank statements.
   name: Workday Integration Bank Statements API
   slug: workday-integration-bank-statements-api
-- description: The Benefit Elections API from Workday Integration — 1 operation(s) for benefit elections.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Benefit Elections API from Workday Integration — 1 operation(s) for benefit elections.
   name: Workday Integration Benefit Elections API
   slug: workday-integration-benefit-elections-api
-- description: The Benefit Plans API from Workday Integration — 1 operation(s) for benefit plans.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Benefit Plans API from Workday Integration — 1 operation(s) for benefit plans.
   name: Workday Integration Benefit Plans API
   slug: workday-integration-benefit-plans-api
-- description: The Benefits Partners API from Workday Integration — 2 operation(s) for benefits partners.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Benefits Partners API from Workday Integration — 2 operation(s) for benefits partners.
   name: Workday Integration Benefits Partners API
   slug: workday-integration-benefits-partners-api
-- description: The Campus Engagement API from Workday Integration — 2 operation(s) for campus engagement.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Campus Engagement API from Workday Integration — 2 operation(s) for campus engagement.
   name: Workday Integration Campus Engagement API
   slug: workday-integration-campus-engagement-api
-- description: The Cash Positions API from Workday Integration — 1 operation(s) for cash positions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Cash Positions API from Workday Integration — 1 operation(s) for cash positions.
   name: Workday Integration Cash Positions API
   slug: workday-integration-cash-positions-api
-- description: The Clock Events API from Workday Integration — 1 operation(s) for clock events.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Clock Events API from Workday Integration — 1 operation(s) for clock events.
   name: Workday Integration Clock Events API
   slug: workday-integration-clock-events-api
-- description: The Compensation Reviews API from Workday Integration — 3 operation(s) for compensation reviews.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Compensation Reviews API from Workday Integration — 3 operation(s) for compensation reviews.
   name: Workday Integration Compensation Reviews API
   slug: workday-integration-compensation-reviews-api
-- description: The Completions API from Workday Integration — 1 operation(s) for completions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Completions API from Workday Integration — 1 operation(s) for completions.
   name: Workday Integration Completions API
   slug: workday-integration-completions-api
-- description: The Contracts API from Workday Integration — 2 operation(s) for contracts.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Contracts API from Workday Integration — 2 operation(s) for contracts.
   name: Workday Integration Contracts API
   slug: workday-integration-contracts-api
-- description: The Courses API from Workday Integration — 2 operation(s) for courses.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Courses API from Workday Integration — 2 operation(s) for courses.
   name: Workday Integration Courses API
   slug: workday-integration-courses-api
-- description: The Customers API from Workday Integration — 3 operation(s) for customers.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Customers API from Workday Integration — 3 operation(s) for customers.
   name: Workday Integration Customers API
   slug: workday-integration-customers-api
-- description: The Data Change Tasks API from Workday Integration — 2 operation(s) for data change tasks.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Data Change Tasks API from Workday Integration — 2 operation(s) for data change tasks.
   name: Workday Integration Data Change Tasks API
   slug: workday-integration-data-change-tasks-api
-- description: The Data Translation API from Workday Integration — 2 operation(s) for data translation.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Data Translation API from Workday Integration — 2 operation(s) for data translation.
   name: Workday Integration Data Translation API
   slug: workday-integration-data-translation-api
-- description: The Dependents API from Workday Integration — 1 operation(s) for dependents.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Dependents API from Workday Integration — 1 operation(s) for dependents.
   name: Workday Integration Dependents API
   slug: workday-integration-dependents-api
-- description: The Document Generation API from Workday Integration — 2 operation(s) for document generation.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Document Generation API from Workday Integration — 2 operation(s) for document generation.
   name: Workday Integration Document Generation API
   slug: workday-integration-document-generation-api
-- description: The Drive API from Workday Integration — 2 operation(s) for drive.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Drive API from Workday Integration — 2 operation(s) for drive.
   name: Workday Integration Drive API
   slug: workday-integration-drive-api
-- description: The Extensibility API from Workday Integration — 2 operation(s) for extensibility.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Extensibility API from Workday Integration — 2 operation(s) for extensibility.
   name: Workday Integration Extensibility API
   slug: workday-integration-extensibility-api
-- description: The External Integrations API from Workday Integration — 2 operation(s) for external integrations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The External Integrations API from Workday Integration — 2 operation(s) for external integrations.
   name: Workday Integration External Integrations API
   slug: workday-integration-external-integrations-api
-- description: The Feedback API from Workday Integration — 2 operation(s) for feedback.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Feedback API from Workday Integration — 2 operation(s) for feedback.
   name: Workday Integration Feedback API
   slug: workday-integration-feedback-api
-- description: The File Containers API from Workday Integration — 2 operation(s) for file containers.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The File Containers API from Workday Integration — 2 operation(s) for file containers.
   name: Workday Integration File Containers API
   slug: workday-integration-file-containers-api
-- description: The Financial Aid API from Workday Integration — 2 operation(s) for financial aid.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Financial Aid API from Workday Integration — 2 operation(s) for financial aid.
   name: Workday Integration Financial Aid API
   slug: workday-integration-financial-aid-api
-- description: The Flex Teams API from Workday Integration — 2 operation(s) for flex teams.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Flex Teams API from Workday Integration — 2 operation(s) for flex teams.
   name: Workday Integration Flex Teams API
   slug: workday-integration-flex-teams-api
-- description: The Goals API from Workday Integration — 1 operation(s) for goals.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Goals API from Workday Integration — 1 operation(s) for goals.
   name: Workday Integration Goals API
   slug: workday-integration-goals-api
-- description: The Identity Management API from Workday Integration — 2 operation(s) for identity management.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Identity Management API from Workday Integration — 2 operation(s) for identity management.
   name: Workday Integration Identity Management API
   slug: workday-integration-identity-management-api
-- description: The Integration Events API from Workday Integration — 2 operation(s) for integration events.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Integration Events API from Workday Integration — 2 operation(s) for integration events.
   name: Workday Integration Integration Events API
   slug: workday-integration-integration-events-api
-- description: The Integration Systems API from Workday Integration — 3 operation(s) for integration systems.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Integration Systems API from Workday Integration — 3 operation(s) for integration systems.
   name: Workday Integration Integration Systems API
   slug: workday-integration-integration-systems-api
-- description: The Interviews API from Workday Integration — 2 operation(s) for interviews.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Interviews API from Workday Integration — 2 operation(s) for interviews.
   name: Workday Integration Interviews API
   slug: workday-integration-interviews-api
-- description: The Inventory API from Workday Integration — 2 operation(s) for inventory.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Inventory API from Workday Integration — 2 operation(s) for inventory.
   name: Workday Integration Inventory API
   slug: workday-integration-inventory-api
-- description: The Job Postings API from Workday Integration — 2 operation(s) for job postings.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Job Postings API from Workday Integration — 2 operation(s) for job postings.
   name: Workday Integration Job Postings API
   slug: workday-integration-job-postings-api
-- description: The Job Profiles API from Workday Integration — 2 operation(s) for job profiles.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Job Profiles API from Workday Integration — 2 operation(s) for job profiles.
   name: Workday Integration Job Profiles API
   slug: workday-integration-job-profiles-api
-- description: The Jobs API from Workday Integration — 1 operation(s) for jobs.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Jobs API from Workday Integration — 1 operation(s) for jobs.
   name: Workday Integration Jobs API
   slug: workday-integration-jobs-api
-- description: The Leave of Absence API from Workday Integration — 2 operation(s) for leave of absence.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Leave of Absence API from Workday Integration — 2 operation(s) for leave of absence.
   name: Workday Integration Leave of Absence API
   slug: workday-integration-leave-of-absence-api
-- description: The Mentorships API from Workday Integration — 5 operation(s) for mentorships.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Mentorships API from Workday Integration — 5 operation(s) for mentorships.
   name: Workday Integration Mentorships API
   slug: workday-integration-mentorships-api
-- description: The Messaging API from Workday Integration — 2 operation(s) for messaging.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Messaging API from Workday Integration — 2 operation(s) for messaging.
   name: Workday Integration Messaging API
   slug: workday-integration-messaging-api
-- description: The Metadata Translations API from Workday Integration — 2 operation(s) for metadata translations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Metadata Translations API from Workday Integration — 2 operation(s) for metadata translations.
   name: Workday Integration Metadata Translations API
   slug: workday-integration-metadata-translations-api
-- description: The Moments API from Workday Integration — 2 operation(s) for moments.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Moments API from Workday Integration — 2 operation(s) for moments.
   name: Workday Integration Moments API
   slug: workday-integration-moments-api
-- description: The Notifications API from Workday Integration — 2 operation(s) for notifications.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Notifications API from Workday Integration — 2 operation(s) for notifications.
   name: Workday Integration Notifications API
   slug: workday-integration-notifications-api
-- description: The Org Studio API from Workday Integration — 2 operation(s) for org studio.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Org Studio API from Workday Integration — 2 operation(s) for org studio.
   name: Workday Integration Org Studio API
   slug: workday-integration-org-studio-api
-- description: The Organizations API from Workday Integration — 8 operation(s) for organizations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Organizations API from Workday Integration — 8 operation(s) for organizations.
   name: Workday Integration Organizations API
   slug: workday-integration-organizations-api
-- description: The Pay Groups API from Workday Integration — 5 operation(s) for pay groups.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Pay Groups API from Workday Integration — 5 operation(s) for pay groups.
   name: Workday Integration Pay Groups API
   slug: workday-integration-pay-groups-api
-- description: The Payments API from Workday Integration — 1 operation(s) for payments.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payments API from Workday Integration — 1 operation(s) for payments.
   name: Workday Integration Payments API
   slug: workday-integration-payments-api
-- description: The Payroll API from Workday Integration — 1 operation(s) for payroll.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll API from Workday Integration — 1 operation(s) for payroll.
   name: Workday Integration Payroll API
   slug: workday-integration-payroll-api
-- description: The Payroll Australia API from Workday Integration — 2 operation(s) for payroll australia.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll Australia API from Workday Integration — 2 operation(s) for payroll australia.
   name: Workday Integration Payroll Australia API
   slug: workday-integration-payroll-australia-api
-- description: The Payroll Canada API from Workday Integration — 2 operation(s) for payroll canada.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll Canada API from Workday Integration — 2 operation(s) for payroll canada.
   name: Workday Integration Payroll Canada API
   slug: workday-integration-payroll-canada-api
-- description: The Payroll France API from Workday Integration — 2 operation(s) for payroll france.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll France API from Workday Integration — 2 operation(s) for payroll france.
   name: Workday Integration Payroll France API
   slug: workday-integration-payroll-france-api
-- description: The Payroll Inputs API from Workday Integration — 2 operation(s) for payroll inputs.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll Inputs API from Workday Integration — 2 operation(s) for payroll inputs.
   name: Workday Integration Payroll Inputs API
   slug: workday-integration-payroll-inputs-api
-- description: The Payroll Interface API from Workday Integration — 2 operation(s) for payroll interface.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll Interface API from Workday Integration — 2 operation(s) for payroll interface.
   name: Workday Integration Payroll Interface API
   slug: workday-integration-payroll-interface-api
-- description: The Payroll UK API from Workday Integration — 2 operation(s) for payroll uk.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Payroll UK API from Workday Integration — 2 operation(s) for payroll uk.
   name: Workday Integration Payroll UK API
   slug: workday-integration-payroll-uk-api
-- description: The Performance Reviews API from Workday Integration — 1 operation(s) for performance reviews.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Performance Reviews API from Workday Integration — 1 operation(s) for performance reviews.
   name: Workday Integration Performance Reviews API
   slug: workday-integration-performance-reviews-api
-- description: The Positions API from Workday Integration — 2 operation(s) for positions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Positions API from Workday Integration — 2 operation(s) for positions.
   name: Workday Integration Positions API
   slug: workday-integration-positions-api
-- description: The Professional Services API from Workday Integration — 2 operation(s) for professional services.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Professional Services API from Workday Integration — 2 operation(s) for professional services.
   name: Workday Integration Professional Services API
   slug: workday-integration-professional-services-api
-- description: The Prospects API from Workday Integration — 4 operation(s) for prospects.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Prospects API from Workday Integration — 4 operation(s) for prospects.
   name: Workday Integration Prospects API
   slug: workday-integration-prospects-api
-- description: The Reference Data API from Workday Integration — 8 operation(s) for reference data.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Reference Data API from Workday Integration — 8 operation(s) for reference data.
   name: Workday Integration Reference Data API
   slug: workday-integration-reference-data-api
-- description: The Requests API from Workday Integration — 2 operation(s) for requests.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Requests API from Workday Integration — 2 operation(s) for requests.
   name: Workday Integration Requests API
   slug: workday-integration-requests-api
-- description: The Resource Management API from Workday Integration — 2 operation(s) for resource management.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Resource Management API from Workday Integration — 2 operation(s) for resource management.
   name: Workday Integration Resource Management API
   slug: workday-integration-resource-management-api
-- description: The Revenue Schedules API from Workday Integration — 1 operation(s) for revenue schedules.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Revenue Schedules API from Workday Integration — 1 operation(s) for revenue schedules.
   name: Workday Integration Revenue Schedules API
   slug: workday-integration-revenue-schedules-api
-- description: The Scheduling API from Workday Integration — 2 operation(s) for scheduling.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Scheduling API from Workday Integration — 2 operation(s) for scheduling.
   name: Workday Integration Scheduling API
   slug: workday-integration-scheduling-api
-- description: The Scorecards API from Workday Integration — 4 operation(s) for scorecards.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Scorecards API from Workday Integration — 4 operation(s) for scorecards.
   name: Workday Integration Scorecards API
   slug: workday-integration-scorecards-api
-- description: The Settlement Services API from Workday Integration — 2 operation(s) for settlement services.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Settlement Services API from Workday Integration — 2 operation(s) for settlement services.
   name: Workday Integration Settlement Services API
   slug: workday-integration-settlement-services-api
-- description: The Student Core API from Workday Integration — 2 operation(s) for student core.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Student Core API from Workday Integration — 2 operation(s) for student core.
   name: Workday Integration Student Core API
   slug: workday-integration-student-core-api
-- description: The Student Finance API from Workday Integration — 2 operation(s) for student finance.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Student Finance API from Workday Integration — 2 operation(s) for student finance.
   name: Workday Integration Student Finance API
   slug: workday-integration-student-finance-api
-- description: The Student Records API from Workday Integration — 2 operation(s) for student records.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Student Records API from Workday Integration — 2 operation(s) for student records.
   name: Workday Integration Student Records API
   slug: workday-integration-student-records-api
-- description: The Student Recruiting API from Workday Integration — 2 operation(s) for student recruiting.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Student Recruiting API from Workday Integration — 2 operation(s) for student recruiting.
   name: Workday Integration Student Recruiting API
   slug: workday-integration-student-recruiting-api
-- description: The Suppliers API from Workday Integration — 2 operation(s) for suppliers.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Suppliers API from Workday Integration — 2 operation(s) for suppliers.
   name: Workday Integration Suppliers API
   slug: workday-integration-suppliers-api
-- description: The Tables API from Workday Integration — 2 operation(s) for tables.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Tables API from Workday Integration — 2 operation(s) for tables.
   name: Workday Integration Tables API
   slug: workday-integration-tables-api
-- description: The Talent Pools API from Workday Integration — 1 operation(s) for talent pools.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Talent Pools API from Workday Integration — 1 operation(s) for talent pools.
   name: Workday Integration Talent Pools API
   slug: workday-integration-talent-pools-api
-- description: The Tax Rates API from Workday Integration — 1 operation(s) for tax rates.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Tax Rates API from Workday Integration — 1 operation(s) for tax rates.
   name: Workday Integration Tax Rates API
   slug: workday-integration-tax-rates-api
-- description: The Time Blocks API from Workday Integration — 2 operation(s) for time blocks.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Time Blocks API from Workday Integration — 2 operation(s) for time blocks.
   name: Workday Integration Time Blocks API
   slug: workday-integration-time-blocks-api
-- description: The Time Off API from Workday Integration — 2 operation(s) for time off.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Time Off API from Workday Integration — 2 operation(s) for time off.
   name: Workday Integration Time Off API
   slug: workday-integration-time-off-api
-- description: The Time Reviews API from Workday Integration — 1 operation(s) for time reviews.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Time Reviews API from Workday Integration — 1 operation(s) for time reviews.
   name: Workday Integration Time Reviews API
   slug: workday-integration-time-reviews-api
-- description: The Transfer Credit API from Workday Integration — 2 operation(s) for transfer credit.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Transfer Credit API from Workday Integration — 2 operation(s) for transfer credit.
   name: Workday Integration Transfer Credit API
   slug: workday-integration-transfer-credit-api
-- description: The Validations API from Workday Integration — 1 operation(s) for validations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Validations API from Workday Integration — 1 operation(s) for validations.
   name: Workday Integration Validations API
   slug: workday-integration-validations-api
-- description: The Workers API from Workday Integration — 10 operation(s) for workers.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Workers API from Workday Integration — 10 operation(s) for workers.
   name: Workday Integration Workers API
   slug: workday-integration-workers-api
-- description: The Workforce Planning API from Workday Integration — 2 operation(s) for workforce planning.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Workforce Planning API from Workday Integration — 2 operation(s) for workforce planning.
   name: Workday Integration Workforce Planning API
   slug: workday-integration-workforce-planning-api
-- description: The Worktags API from Workday Integration — 1 operation(s) for worktags.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The Worktags API from Workday Integration — 1 operation(s) for worktags.
   name: Workday Integration Worktags API
   slug: workday-integration-worktags-api
-- description: The WQL API from Workday Integration — 1 operation(s) for wql.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: The WQL API from Workday Integration — 1 operation(s) for wql.
   name: Workday Integration WQL API
   slug: workday-integration-wql-api
 artifact_total: 449
@@ -1623,7 +1797,7 @@ score:
       marker_coverage: 0.0
       total: 87
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/screenshots/workday-integration-2026-06-20T201602.png
 security:

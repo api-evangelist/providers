@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: Digital Bridge is TD SYNNEX's integration platform providing enterprise-grade REST APIs and pre-built connectors. Engineering teams get direct access to APIs for products, pricing, orders, renewals, a
   name: TD SYNNEX Digital Bridge API
   slug: digital-bridge-api
-- description: OAuth 2.0 token management
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: Tech Data Authentication API
   slug: tech-data-authentication-api
-- description: Cart line item management
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Cart line item management
   name: Tech Data Cart Items API
   slug: tech-data-cart-items-api
-- description: Shopping cart management
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Shopping cart management
   name: Tech Data Carts API
   slug: tech-data-carts-api
-- description: Customer cloud provider account management
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Customer cloud provider account management
   name: Tech Data Cloud Providers API
   slug: tech-data-cloud-providers-api
-- description: End customer account management
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: End customer account management
   name: Tech Data Customers API
   slug: tech-data-customers-api
-- description: Order creation, management, and cancellation
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Order creation, management, and cancellation
   name: Tech Data Orders API
   slug: tech-data-orders-api
-- description: Product catalog browsing and filtering
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Product catalog browsing and filtering
   name: Tech Data Products API
   slug: tech-data-products-api
-- description: Vendor provisioning template retrieval
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Vendor provisioning template retrieval
   name: Tech Data Provisioning Templates API
   slug: tech-data-provisioning-templates-api
-- description: Billing and business intelligence reports
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Billing and business intelligence reports
   name: Tech Data Reports API
   slug: tech-data-reports-api
-- description: Customer subscription management
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Customer subscription management
   name: Tech Data Subscriptions API
   slug: tech-data-subscriptions-api
 artifact_total: 39
@@ -286,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/screenshots/tech-data-2026-06-20T195006.png
 security:

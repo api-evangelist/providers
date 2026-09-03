@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for managing Data Fusion instances
+- baseURL: https://datafusion.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing Data Fusion instances
   name: Google Cloud Data Fusion Instances API
   slug: google-cloud-data-fusion-instances-api
-- description: Available locations for Data Fusion
+- baseURL: https://datafusion.googleapis.com
+  baseurl_source: declared
+  description: Available locations for Data Fusion
   name: Google Cloud Data Fusion Locations API
   slug: google-cloud-data-fusion-locations-api
-- description: Long-running operation management
+- baseURL: https://datafusion.googleapis.com
+  baseurl_source: declared
+  description: Long-running operation management
   name: Google Cloud Data Fusion Operations API
   slug: google-cloud-data-fusion-operations-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/screenshots/google-cloud-data-fusion-2026-06-20T182058.png
 security:

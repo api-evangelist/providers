@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -34,157 +47,259 @@ agentic_access:
   summary_line: 419 operations · 242 acting · 8 human-in-the-loop
 api_count: 2
 apis:
-- description: The Accounts API from Zoom Phone — 2 operation(s) for accounts.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Accounts API from Zoom Phone — 2 operation(s) for accounts.
   name: Zoom Phone Accounts API
   slug: zoom-phone-accounts-api
-- description: The Alerts API from Zoom Phone — 2 operation(s) for alerts.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Alerts API from Zoom Phone — 2 operation(s) for alerts.
   name: Zoom Phone Alerts API
   slug: zoom-phone-alerts-api
-- description: The Audio Library API from Zoom Phone — 3 operation(s) for audio library.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Audio Library API from Zoom Phone — 3 operation(s) for audio library.
   name: Zoom Phone Audio Library API
   slug: zoom-phone-audio-library-api
-- description: The Auto Receptionists API from Zoom Phone — 10 operation(s) for auto receptionists.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Auto Receptionists API from Zoom Phone — 10 operation(s) for auto receptionists.
   name: Zoom Phone Auto Receptionists API
   slug: zoom-phone-auto-receptionists-api
-- description: The Billing Account API from Zoom Phone — 2 operation(s) for billing account.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Billing Account API from Zoom Phone — 2 operation(s) for billing account.
   name: Zoom Phone Billing Account API
   slug: zoom-phone-billing-account-api
-- description: The Blocked List API from Zoom Phone — 2 operation(s) for blocked list.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Blocked List API from Zoom Phone — 2 operation(s) for blocked list.
   name: Zoom Phone Blocked List API
   slug: zoom-phone-blocked-list-api
-- description: The Call Handling API from Zoom Phone — 2 operation(s) for call handling.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Call Handling API from Zoom Phone — 2 operation(s) for call handling.
   name: Zoom Phone Call Handling API
   slug: zoom-phone-call-handling-api
-- description: The Call Logs API from Zoom Phone — 15 operation(s) for call logs.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Call Logs API from Zoom Phone — 15 operation(s) for call logs.
   name: Zoom Phone Call Logs API
   slug: zoom-phone-call-logs-api
-- description: The Call Queues API from Zoom Phone — 18 operation(s) for call queues.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Call Queues API from Zoom Phone — 18 operation(s) for call queues.
   name: Zoom Phone Call Queues API
   slug: zoom-phone-call-queues-api
-- description: The Carrier Reseller API from Zoom Phone — 2 operation(s) for carrier reseller.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Carrier Reseller API from Zoom Phone — 2 operation(s) for carrier reseller.
   name: Zoom Phone Carrier Reseller API
   slug: zoom-phone-carrier-reseller-api
-- description: The Cloud Peering Provider Exchange API from Zoom Phone — 2 operation(s) for cloud peering provider exchange.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Cloud Peering Provider Exchange API from Zoom Phone — 2 operation(s) for cloud peering provider exchange.
   name: Zoom Phone Cloud Peering Provider Exchange API
   slug: zoom-phone-cloud-peering-provider-exchange-api
-- description: The Common Areas API from Zoom Phone — 14 operation(s) for common areas.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Common Areas API from Zoom Phone — 14 operation(s) for common areas.
   name: Zoom Phone Common Areas API
   slug: zoom-phone-common-areas-api
-- description: The Dashboard API from Zoom Phone — 11 operation(s) for dashboard.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Dashboard API from Zoom Phone — 11 operation(s) for dashboard.
   name: Zoom Phone Dashboard API
   slug: zoom-phone-dashboard-api
-- description: The Device Line Keys API from Zoom Phone — 1 operation(s) for device line keys.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Device Line Keys API from Zoom Phone — 1 operation(s) for device line keys.
   name: Zoom Phone Device Line Keys API
   slug: zoom-phone-device-line-keys-api
-- description: The Dial by Name Directory API from Zoom Phone — 2 operation(s) for dial by name directory.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Dial by Name Directory API from Zoom Phone — 2 operation(s) for dial by name directory.
   name: Zoom Phone Dial by Name Directory API
   slug: zoom-phone-dial-by-name-directory-api
-- description: The Emergency Addresses API from Zoom Phone — 2 operation(s) for emergency addresses.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Emergency Addresses API from Zoom Phone — 2 operation(s) for emergency addresses.
   name: Zoom Phone Emergency Addresses API
   slug: zoom-phone-emergency-addresses-api
-- description: The Emergency Service Locations API from Zoom Phone — 3 operation(s) for emergency service locations.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Emergency Service Locations API from Zoom Phone — 3 operation(s) for emergency service locations.
   name: Zoom Phone Emergency Service Locations API
   slug: zoom-phone-emergency-service-locations-api
-- description: The External Contacts API from Zoom Phone — 2 operation(s) for external contacts.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The External Contacts API from Zoom Phone — 2 operation(s) for external contacts.
   name: Zoom Phone External Contacts API
   slug: zoom-phone-external-contacts-api
-- description: The Fax API from Zoom Phone — 6 operation(s) for fax.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Fax API from Zoom Phone — 6 operation(s) for fax.
   name: Zoom Phone Fax API
   slug: zoom-phone-fax-api
-- description: The Firmware Update Rules API from Zoom Phone — 3 operation(s) for firmware update rules.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Firmware Update Rules API from Zoom Phone — 3 operation(s) for firmware update rules.
   name: Zoom Phone Firmware Update Rules API
   slug: zoom-phone-firmware-update-rules-api
-- description: The Group Call Pickup API from Zoom Phone — 4 operation(s) for group call pickup.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Group Call Pickup API from Zoom Phone — 4 operation(s) for group call pickup.
   name: Zoom Phone Group Call Pickup API
   slug: zoom-phone-group-call-pickup-api
-- description: The Groups API from Zoom Phone — 2 operation(s) for groups.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Groups API from Zoom Phone — 2 operation(s) for groups.
   name: Zoom Phone Groups API
   slug: zoom-phone-groups-api
-- description: The Inbound Blocked List API from Zoom Phone — 5 operation(s) for inbound blocked list.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Inbound Blocked List API from Zoom Phone — 5 operation(s) for inbound blocked list.
   name: Zoom Phone Inbound Blocked List API
   slug: zoom-phone-inbound-blocked-list-api
-- description: The IVR API from Zoom Phone — 1 operation(s) for ivr.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The IVR API from Zoom Phone — 1 operation(s) for ivr.
   name: Zoom Phone IVR API
   slug: zoom-phone-ivr-api
-- description: The Line Keys API from Zoom Phone — 2 operation(s) for line keys.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Line Keys API from Zoom Phone — 2 operation(s) for line keys.
   name: Zoom Phone Line Keys API
   slug: zoom-phone-line-keys-api
-- description: The Monitoring Groups API from Zoom Phone — 4 operation(s) for monitoring groups.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Monitoring Groups API from Zoom Phone — 4 operation(s) for monitoring groups.
   name: Zoom Phone Monitoring Groups API
   slug: zoom-phone-monitoring-groups-api
-- description: The Outbound Calling API from Zoom Phone — 12 operation(s) for outbound calling.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Outbound Calling API from Zoom Phone — 12 operation(s) for outbound calling.
   name: Zoom Phone Outbound Calling API
   slug: zoom-phone-outbound-calling-api
-- description: The Phone Devices API from Zoom Phone — 8 operation(s) for phone devices.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Phone Devices API from Zoom Phone — 8 operation(s) for phone devices.
   name: Zoom Phone Phone Devices API
   slug: zoom-phone-phone-devices-api
-- description: The Phone Numbers API from Zoom Phone — 10 operation(s) for phone numbers.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Phone Numbers API from Zoom Phone — 10 operation(s) for phone numbers.
   name: Zoom Phone Phone Numbers API
   slug: zoom-phone-phone-numbers-api
-- description: The Phone Plan API from Zoom Phone — 1 operation(s) for phone plan.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Phone Plan API from Zoom Phone — 1 operation(s) for phone plan.
   name: Zoom Phone Phone Plan API
   slug: zoom-phone-phone-plan-api
-- description: The Phone Plans API from Zoom Phone — 2 operation(s) for phone plans.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Phone Plans API from Zoom Phone — 2 operation(s) for phone plans.
   name: Zoom Phone Phone Plans API
   slug: zoom-phone-phone-plans-api
-- description: The Phone Roles API from Zoom Phone — 4 operation(s) for phone roles.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Phone Roles API from Zoom Phone — 4 operation(s) for phone roles.
   name: Zoom Phone Phone Roles API
   slug: zoom-phone-phone-roles-api
-- description: The Private Directory API from Zoom Phone — 2 operation(s) for private directory.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Private Directory API from Zoom Phone — 2 operation(s) for private directory.
   name: Zoom Phone Private Directory API
   slug: zoom-phone-private-directory-api
-- description: The Provider Exchange API from Zoom Phone — 2 operation(s) for provider exchange.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Provider Exchange API from Zoom Phone — 2 operation(s) for provider exchange.
   name: Zoom Phone Provider Exchange API
   slug: zoom-phone-provider-exchange-api
-- description: The Provision Templates API from Zoom Phone — 2 operation(s) for provision templates.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Provision Templates API from Zoom Phone — 2 operation(s) for provision templates.
   name: Zoom Phone Provision Templates API
   slug: zoom-phone-provision-templates-api
-- description: The Recordings API from Zoom Phone — 8 operation(s) for recordings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Recordings API from Zoom Phone — 8 operation(s) for recordings.
   name: Zoom Phone Recordings API
   slug: zoom-phone-recordings-api
-- description: The Reports API from Zoom Phone — 4 operation(s) for reports.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Reports API from Zoom Phone — 4 operation(s) for reports.
   name: Zoom Phone Reports API
   slug: zoom-phone-reports-api
-- description: The Routing Rules API from Zoom Phone — 2 operation(s) for routing rules.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Routing Rules API from Zoom Phone — 2 operation(s) for routing rules.
   name: Zoom Phone Routing Rules API
   slug: zoom-phone-routing-rules-api
-- description: The Setting API from Zoom Phone — 4 operation(s) for setting.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Setting API from Zoom Phone — 4 operation(s) for setting.
   name: Zoom Phone Setting API
   slug: zoom-phone-setting-api
-- description: The Setting Templates API from Zoom Phone — 2 operation(s) for setting templates.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Setting Templates API from Zoom Phone — 2 operation(s) for setting templates.
   name: Zoom Phone Setting Templates API
   slug: zoom-phone-setting-templates-api
-- description: The Settings API from Zoom Phone — 6 operation(s) for settings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Settings API from Zoom Phone — 6 operation(s) for settings.
   name: Zoom Phone Settings API
   slug: zoom-phone-settings-api
-- description: The Shared Line Appearance API from Zoom Phone — 1 operation(s) for shared line appearance.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Shared Line Appearance API from Zoom Phone — 1 operation(s) for shared line appearance.
   name: Zoom Phone Shared Line Appearance API
   slug: zoom-phone-shared-line-appearance-api
-- description: The Shared Line Group API from Zoom Phone — 13 operation(s) for shared line group.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Shared Line Group API from Zoom Phone — 13 operation(s) for shared line group.
   name: Zoom Phone Shared Line Group API
   slug: zoom-phone-shared-line-group-api
-- description: The Sites API from Zoom Phone — 4 operation(s) for sites.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Sites API from Zoom Phone — 4 operation(s) for sites.
   name: Zoom Phone Sites API
   slug: zoom-phone-sites-api
-- description: The SMS API from Zoom Phone — 7 operation(s) for sms.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The SMS API from Zoom Phone — 7 operation(s) for sms.
   name: Zoom Phone SMS API
   slug: zoom-phone-sms-api
-- description: The SMS Campaign API from Zoom Phone — 6 operation(s) for sms campaign.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The SMS Campaign API from Zoom Phone — 6 operation(s) for sms campaign.
   name: Zoom Phone SMS Campaign API
   slug: zoom-phone-sms-campaign-api
-- description: The SMS Campaigns API from Zoom Phone — 3 operation(s) for sms campaigns.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The SMS Campaigns API from Zoom Phone — 3 operation(s) for sms campaigns.
   name: Zoom Phone SMS Campaigns API
   slug: zoom-phone-sms-campaigns-api
-- description: The SMS Consent API from Zoom Phone — 4 operation(s) for sms consent.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The SMS Consent API from Zoom Phone — 4 operation(s) for sms consent.
   name: Zoom Phone SMS Consent API
   slug: zoom-phone-sms-consent-api
-- description: The Users API from Zoom Phone — 13 operation(s) for users.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Users API from Zoom Phone — 13 operation(s) for users.
   name: Zoom Phone Users API
   slug: zoom-phone-users-api
-- description: The Voicemails API from Zoom Phone — 6 operation(s) for voicemails.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Voicemails API from Zoom Phone — 6 operation(s) for voicemails.
   name: Zoom Phone Voicemails API
   slug: zoom-phone-voicemails-api
-- description: The Zoom Rooms API from Zoom Phone — 7 operation(s) for zoom rooms.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Zoom Rooms API from Zoom Phone — 7 operation(s) for zoom rooms.
   name: Zoom Phone Zoom Rooms API
   slug: zoom-phone-zoom-rooms-api
 artifact_total: 63
@@ -455,23 +570,23 @@ scopes:
   summary_line: 435 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.7
+  composite: 72.6
   coverage:
     artifact_dirs: 24
-    catalog_gap: 79.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 1.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 68.6
     developer_ergonomics: 71.4
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 70.1
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -489,7 +604,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png
 security:

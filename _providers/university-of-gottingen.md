@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: 'OAI-PMH 2.0 harvesting interface for the Göttinger Digitalisierungszentrum, operated by SUB Göttingen on the university''s own domain. Verified live on 2026-08-30: Identify names the repository "GDZ - '
+- baseURL: https://gdz.sub.uni-goettingen.de/oai2/
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 harvesting interface for the Göttinger Digitalisierungszentrum, operated by SUB Göttingen on the university''s own domain. Verified live on 2026-08-30: Identify names the repository "GDZ - '
   name: GDZ OAI-PMH Metadata Harvesting
   slug: gdz-oai-pmh
-- description: OAI-PMH 2.0 harvesting interface for eDiss Göttingen, the university's electronic dissertations and theses server, operated by SUB Göttingen on the uni-goettingen.de domain. Verified live on 2026-08-3
+- baseURL: https://ediss.uni-goettingen.de/oai/request
+  baseurl_source: declared
+  description: OAI-PMH 2.0 harvesting interface for eDiss Göttingen, the university's electronic dissertations and theses server, operated by SUB Göttingen on the uni-goettingen.de domain. Verified live on 2026-08-3
   name: eDiss Göttingen OAI-PMH Metadata Harvesting
   slug: ediss-oai-pmh
-- description: IIIF Image API 2.0 (level 2) image service at images.sub.uni-goettingen.de and IIIF Presentation manifests routed through gdz.sub.uni-goettingen.de with canonical identifiers on manifests.sub.uni-goet
+- baseURL: https://images.sub.uni-goettingen.de/iiif/image/
+  baseurl_source: declared
+  description: IIIF Image API 2.0 (level 2) image service at images.sub.uni-goettingen.de and IIIF Presentation manifests routed through gdz.sub.uni-goettingen.de with canonical identifiers on manifests.sub.uni-goet
   name: SUB Göttingen IIIF Image and Presentation
   slug: sub-iiif
 - description: The university's own SAML 2.0 identity provider, entityID https://shibboleth-idp.uni-goettingen.de/uni/shibboleth, registered by DFN-AAI, exported to eduGAIN as entity 696098 since 2017-04-13, scope u
@@ -214,23 +220,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.0
+  composite: 40.8
   coverage:
     artifact_dirs: 15
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -5.2
+  delta: -0.2
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 15.2
-    contract_quality: 54.2
+    contract_quality: 53.3
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 7.9
-  previous_composite: 46.2
+  previous_composite: 41.0
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +251,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png
 security:
 - kind: authentication

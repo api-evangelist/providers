@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -45,613 +45,1019 @@ agentic_access:
   summary_line: 402 operations · 234 acting
 api_count: 2
 apis:
-- description: AA Sequences are the working units of cells that make everything run (they help make structures, catalyze reactions and allow for signaling - a kind of internal cell communication). On Benchling, thes
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: AA Sequences are the working units of cells that make everything run (they help make structures, catalyze reactions and allow for signaling - a kind of internal cell communication). On Benchling, thes
   name: Benchling AA Sequences API
   slug: benchling-aa-sequences-api
-- description: Create and manage Benchling apps on your tenant
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Create and manage Benchling apps on your tenant
   name: Benchling Apps API
   slug: benchling-apps-api
-- description: Results represent the output of assays that have been performed. You can customize the schemas of results to fit your needs. Results can link to runs, entities, and other types. To learn more about cr
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Results represent the output of assays that have been performed. You can customize the schemas of results to fit your needs. Results can link to runs, entities, and other types. To learn more about cr
   name: Benchling Assay Results API
   slug: benchling-assay-results-api
-- description: Runs capture the details / parameters of a run that was performed. Results are usually nested under a run.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Runs capture the details / parameters of a run that was performed. Results are usually nested under a run.
   name: Benchling Assay Runs API
   slug: benchling-assay-runs-api
-- description: Export audit log data for Benchling objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Export audit log data for Benchling objects.
   name: Benchling Audit API
   slug: benchling-audit-api
-- description: Endpoints to help authenticate with the rest of the API resources.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Endpoints to help authenticate with the rest of the API resources.
   name: Benchling Authentication API
   slug: benchling-authentication-api
-- description: Blobs are opaque files that can be linked to other items in Benchling, like assay runs or results. For example, you can upload a blob, then upload an assay result that links to that blob by ID. The bl
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Blobs are opaque files that can be linked to other items in Benchling, like assay runs or results. For example, you can upload a blob, then upload an assay result that links to that blob by ID. The bl
   name: Benchling Blobs API
   slug: benchling-blobs-api
-- description: Boxes are a structured inventory type, consisting of a grid of positions that can each hold one container. Unlike locations, there are a maximum number of containers that a box can hold (one per posit
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Boxes are a structured inventory type, consisting of a grid of positions that can each hold one container. Unlike locations, there are a maximum number of containers that a box can hold (one per posit
   name: Benchling Boxes API
   slug: benchling-boxes-api
-- description: Benchling curates codon usage data for a variety of organisms to support operations such as Codon Optimization and Back Translation.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Benchling curates codon usage data for a variety of organisms to support operations such as Codon Optimization and Back Translation.
   name: Benchling Codon Usage Tables API
   slug: benchling-codon-usage-tables-api
-- description: Connect endpoints support Benchling Connect actions, like instrument data conversion.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Connect endpoints support Benchling Connect actions, like instrument data conversion.
   name: Benchling Connect API
   slug: benchling-connect-api
-- description: Containers are the backbone of sample management in Benchling. They represent physical containers, such as tubes or wells, that hold quantities of biological samples (represented by the entities insid
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Containers are the backbone of sample management in Benchling. They represent physical containers, such as tubes or wells, that hold quantities of biological samples (represented by the entities insid
   name: Benchling Containers API
   slug: benchling-containers-api
-- description: Benchling supports custom entities for biological entities that are neither DNA, RNA, nor AA sequences. Custom entities must have an entity schema set and can have both schema fields and custom fields
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Benchling supports custom entities for biological entities that are neither DNA, RNA, nor AA sequences. Custom entities must have an entity schema set and can have both schema fields and custom fields
   name: Benchling Custom Entities API
   slug: benchling-custom-entities-api
-- description: Benchling allows users to configure their own fully-custom string representation formats for import/export of nucleotide sequences (including chemical modifications).
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Benchling allows users to configure their own fully-custom string representation formats for import/export of nucleotide sequences (including chemical modifications).
   name: Benchling Custom Notations API
   slug: benchling-custom-notations-api
-- description: Data frames in Benchling represent tabular data that is not schematized. They contain columns with defined types and rows of data. Data frames are primarily used within specific Benchling applications
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Data frames in Benchling represent tabular data that is not schematized. They contain columns with defined types and rows of data. Data frames are primarily used within specific Benchling applications
   name: Benchling Data Frames API
   slug: benchling-data-frames-api
-- description: Similar to Data frames, datasets in Benchling represent tabular data that is not schematized. Datasets are saved to folders within Benchling with additional metadata, making them accessible and search
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Similar to Data frames, datasets in Benchling represent tabular data that is not schematized. Datasets are saved to folders within Benchling with additional metadata, making them accessible and search
   name: Benchling Datasets API
   slug: benchling-datasets-api
-- description: A DNA alignment is a Benchling object representing an alignment of multiple DNA sequences. This endpoint is deprecated, please migrate to the existing [Nucleotide Alignments endpoints.](#/Nucleotide%2
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A DNA alignment is a Benchling object representing an alignment of multiple DNA sequences. This endpoint is deprecated, please migrate to the existing [Nucleotide Alignments endpoints.](#/Nucleotide%2
   name: Benchling DNA Alignments API
   slug: benchling-dna-alignments-api
-- description: DNA Oligos are short linear DNA sequences that can be attached as primers to full DNA sequences. Just like other entities, they support schemas, tags, and aliases.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: DNA Oligos are short linear DNA sequences that can be attached as primers to full DNA sequences. Just like other entities, they support schemas, tags, and aliases.
   name: Benchling DNA Oligos API
   slug: benchling-dna-oligos-api
-- description: DNA sequences are the bread and butter of the Benchling Molecular Biology suite. On Benchling, these are comprised of a string of nucleotides and collections of other attributes, such as annotations a
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: DNA sequences are the bread and butter of the Benchling Molecular Biology suite. On Benchling, these are comprised of a string of nucleotides and collections of other attributes, such as annotations a
   name: Benchling DNA Sequences API
   slug: benchling-dna-sequences-api
-- description: Dropdowns are registry-wide enums. Use dropdowns to standardize on spelling and naming conventions, especially for important metadata like resistance markers.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Dropdowns are registry-wide enums. Use dropdowns to standardize on spelling and naming conventions, especially for important metadata like resistance markers.
   name: Benchling Dropdowns API
   slug: benchling-dropdowns-api
-- description: Entities include DNA and AA sequences, oligos, molecules, custom entities, and other biological objects in Benchling. Entities support schemas, tags, and aliases, and can be registered.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Entities include DNA and AA sequences, oligos, molecules, custom entities, and other biological objects in Benchling. Entities support schemas, tags, and aliases, and can be registered.
   name: Benchling Entities API
   slug: benchling-entities-api
-- description: Entries are rich text documents that allow you to capture all of your experimental data in one place.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Entries are rich text documents that allow you to capture all of your experimental data in one place.
   name: Benchling Entries API
   slug: benchling-entries-api
-- description: Restriction enzymes are curated by Benchling for operations such as Digests and Codon Optimization.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Restriction enzymes are curated by Benchling for operations such as Digests and Codon Optimization.
   name: Benchling Enzymes API
   slug: benchling-enzymes-api
-- description: The Events system allows external services to subscribe to events that are triggered in Benchling (e.g. plasmid registration, request submission, etc).
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The Events system allows external services to subscribe to events that are triggered in Benchling (e.g. plasmid registration, request submission, etc).
   name: Benchling Events API
   slug: benchling-events-api
-- description: Export a Notebook Entry or a Legacy Workflow Stage Entry.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Export a Notebook Entry or a Legacy Workflow Stage Entry.
   name: Benchling Exports API
   slug: benchling-exports-api
-- description: Feature Libraries are collections of shared canonical patterns that can be used to generate annotations on matching regions of DNA Sequences or AA Sequences.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Feature Libraries are collections of shared canonical patterns that can be used to generate annotations on matching regions of DNA Sequences or AA Sequences.
   name: Benchling Feature Libraries API
   slug: benchling-feature-libraries-api
-- description: 'Files are Benchling objects that represent files and their metadata. Compared to Blobs, which are used by most Benchling products for attachments, Files are primarily used in the Analysis and Connect '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Files are Benchling objects that represent files and their metadata. Compared to Blobs, which are used by most Benchling products for attachments, Files are primarily used in the Analysis and Connect '
   name: Benchling Files API
   slug: benchling-files-api
-- description: Folders are nested within projects to provide additional organization.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Folders are nested within projects to provide additional organization.
   name: Benchling Folders API
   slug: benchling-folders-api
-- description: Instrument Queries are used to query the instrument service.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Instrument Queries are used to query the instrument service.
   name: Benchling Instrument Queries API
   slug: benchling-instrument-queries-api
-- description: Manage inventory wide objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Manage inventory wide objects.
   name: Benchling Inventory API
   slug: benchling-inventory-api
-- description: Lab Automation endpoints support integration with lab instruments, and liquid handlers to create samples or results, and capture transfers between containers at scale.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Lab Automation endpoints support integration with lab instruments, and liquid handlers to create samples or results, and capture transfers between containers at scale.
   name: Benchling Lab Automation API
   slug: benchling-lab-automation-api
-- description: List label templates.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: List label templates.
   name: Benchling Label Templates API
   slug: benchling-label-templates-api
-- description: Legacy Requests allow scientists and teams to collaborate around experimental assays and workflows.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Legacy Requests allow scientists and teams to collaborate around experimental assays and workflows.
   name: Benchling Legacy Requests API
   slug: benchling-legacy-requests-api
-- description: Legacy Workflows allow orchestrating complex experiments.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Legacy Workflows allow orchestrating complex experiments.
   name: Benchling Legacy Workflows API
   slug: benchling-legacy-workflows-api
-- description: Please use endpoints for Legacy Workflows. These deprecated endpoints will be removed once users are migrated onto Legacy Workflows endpoints.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Please use endpoints for Legacy Workflows. These deprecated endpoints will be removed once users are migrated onto Legacy Workflows endpoints.
   name: Benchling Legacy Workflows (deprecated) API
   slug: benchling-legacy-workflows-deprecated-api
-- description: Manage locations objects. Like all inventory, every Location has a barcode that is unique across the registry.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Manage locations objects. Like all inventory, every Location has a barcode that is unique across the registry.
   name: Benchling Locations API
   slug: benchling-locations-api
-- description: Mixtures are solutions comprised of multiple ingredients where the exact quantities of each ingredient are important to track. Each ingredient is uniquely identified by its component entity.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Mixtures are solutions comprised of multiple ingredients where the exact quantities of each ingredient are important to track. Each ingredient is uniquely identified by its component entity.
   name: Benchling Mixtures API
   slug: benchling-mixtures-api
-- description: Molecules are groups of atoms held together by bonds, representing entities smaller than DNA Sequences and AA Sequences. Just like other entities, they support schemas, tags, and aliases.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Molecules are groups of atoms held together by bonds, representing entities smaller than DNA Sequences and AA Sequences. Just like other entities, they support schemas, tags, and aliases.
   name: Benchling Molecules API
   slug: benchling-molecules-api
-- description: Monomers are chemical building blocks with specified structures used to compose modified nucleotides. Note that monomer write endpoints require tenant admin permissions.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Monomers are chemical building blocks with specified structures used to compose modified nucleotides. Note that monomer write endpoints require tenant admin permissions.
   name: Benchling Monomers API
   slug: benchling-monomers-api
-- description: A Nucleotide Alignment is a Benchling object representing an alignment of multiple DNA and/or RNA sequences.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Nucleotide Alignment is a Benchling object representing an alignment of multiple DNA and/or RNA sequences.
   name: Benchling Nucleotide Alignments API
   slug: benchling-nucleotide-alignments-api
-- description: 'Oligos are short linear DNA sequences that can be attached as primers to full DNA sequences. Just like other entities, they support schemas, tags, and aliases. Please migrate to the corresponding DNA '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Oligos are short linear DNA sequences that can be attached as primers to full DNA sequences. Just like other entities, they support schemas, tags, and aliases. Please migrate to the corresponding DNA '
   name: Benchling Oligos API
   slug: benchling-oligos-api
-- description: View organization objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: View organization objects.
   name: Benchling Organizations API
   slug: benchling-organizations-api
-- description: 'Plates are a structured inventory type, grids of wells that each function like containers. Plates come in two types: a traditional "fixed" type, where the wells cannot move, and a "matrix" type. A mat'
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Plates are a structured inventory type, grids of wells that each function like containers. Plates come in two types: a traditional "fixed" type, where the wells cannot move, and a "matrix" type. A mat'
   name: Benchling Plates API
   slug: benchling-plates-api
-- description: List printers.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: List printers.
   name: Benchling Printers API
   slug: benchling-printers-api
-- description: Manage project objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Manage project objects.
   name: Benchling Projects API
   slug: benchling-projects-api
-- description: Manage registry objects. See our documentation on [how to register entities](https://docs.benchling.com/docs/registering-entities).
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Manage registry objects. See our documentation on [how to register entities](https://docs.benchling.com/docs/registering-entities).
   name: Benchling Registry API
   slug: benchling-registry-api
-- description: RNA Oligos are short linear RNA sequences that can be attached as primers to full DNA sequences. Just like other entities, they support schemas, tags, and aliases.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: RNA Oligos are short linear RNA sequences that can be attached as primers to full DNA sequences. Just like other entities, they support schemas, tags, and aliases.
   name: Benchling RNA Oligos API
   slug: benchling-rna-oligos-api
-- description: Chains of linear, single stranded RNA that support most capabilities and attributes of DNA Sequences.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Chains of linear, single stranded RNA that support most capabilities and attributes of DNA Sequences.
   name: Benchling RNA Sequences API
   slug: benchling-rna-sequences-api
-- description: Schemas represent custom configuration of objects in Benchling. See this [guide in our documentation](https://docs.benchling.com/docs/schemas) on how Schemas impact our developers
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Schemas represent custom configuration of objects in Benchling. See this [guide in our documentation](https://docs.benchling.com/docs/schemas) on how Schemas impact our developers
   name: Benchling Schemas API
   slug: benchling-schemas-api
-- description: Endpoints that perform expensive computations launch long-running tasks. These endpoints return the task ID (a UUID) in the response body. After launching a task, periodically invoke the [Get a task](
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Endpoints that perform expensive computations launch long-running tasks. These endpoints return the task ID (a UUID) in the response body. After launching a task, periodically invoke the [Get a task](
   name: Benchling Tasks API
   slug: benchling-tasks-api
-- description: View team objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: View team objects.
   name: Benchling Teams API
   slug: benchling-teams-api
-- description: Manage user objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Manage user objects.
   name: Benchling Users API
   slug: benchling-users-api
-- description: Manage warehouse credentials.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Manage warehouse credentials.
   name: Benchling Warehouse API
   slug: benchling-warehouse-api
-- description: Workflow flowchart config versions are versioned graphs of flowchart configurations.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Workflow flowchart config versions are versioned graphs of flowchart configurations.
   name: Benchling Workflow Flowchart Config Versions API
   slug: benchling-workflow-flowchart-config-versions-api
-- description: Workflow flowcharts represent the nodes and edges that a flowchart is comprised of.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Workflow flowcharts represent the nodes and edges that a flowchart is comprised of.
   name: Benchling Workflow Flowcharts API
   slug: benchling-workflow-flowcharts-api
-- description: Workflow outputs are outputs of a workflow task
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Workflow outputs are outputs of a workflow task
   name: Benchling Workflow Outputs API
   slug: benchling-workflow-outputs-api
-- description: Workflow task groups are groups of workflow tasks of the same schema
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Workflow task groups are groups of workflow tasks of the same schema
   name: Benchling Workflow Task Groups API
   slug: benchling-workflow-task-groups-api
-- description: Workflow tasks encapsulate a single unit of work
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Workflow tasks encapsulate a single unit of work
   name: Benchling Workflow Tasks API
   slug: benchling-workflow-tasks-api
-- description: Represents an amino acid sequence in Benchling's molecular biology platform. An AaSequence stores the one-letter amino acid code string along with annotations marking functional regions, domains, or o
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an amino acid sequence in Benchling's molecular biology platform. An AaSequence stores the one-letter amino acid code string along with annotations marking functional regions, domains, or o
   name: Benchling Aa Sequence API
   slug: benchling-aasequence-api
-- description: Defines the structure, field definitions, and configuration options for AA sequences.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for AA sequences.
   name: Benchling Aa Sequence Schema API
   slug: benchling-aasequenceschema-api
-- description: The Agent API from Benchling — 1 operation(s) for agent.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The Agent API from Benchling — 1 operation(s) for agent.
   name: Benchling Agent API
   slug: benchling-agent-api
-- description: Operations for Analysis
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Operations for Analysis
   name: Benchling Analysis API
   slug: benchling-analysis-api
-- description: A reusable pipeline configuration that can be instantiated to create new Analysis objects. AnalysisTemplates define a complete data processing workflow with PipelineSteps (see `steps`) that can be par
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A reusable pipeline configuration that can be instantiated to create new Analysis objects. AnalysisTemplates define a complete data processing workflow with PipelineSteps (see `steps`) that can be par
   name: Benchling Analysis Template API
   slug: benchling-analysistemplate-api
-- description: Defines a data frame placeholder within an AnalysisTemplate that users must provide when applying the template. Each variable specifies which PipelineStep input (replaceStep, replaceStepData, replaceS
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines a data frame placeholder within an AnalysisTemplate that users must provide when applying the template. Each variable specifies which PipelineStep input (replaceStep, replaceStepData, replaceS
   name: Benchling Analysis Template Data Frame Variable API
   slug: benchling-analysistemplatedataframevariable-api
-- description: Defines a configuration parameter within an AnalysisTemplate that users can customize when applying the template. Unlike AnalysisTemplateDataFrameVariable which handles data frame inputs, this type re
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines a configuration parameter within an AnalysisTemplate that users can customize when applying the template. Unlike AnalysisTemplateDataFrameVariable which handles data frame inputs, this type re
   name: Benchling Analysis Template Variable API
   slug: benchling-analysistemplatevariable-api
-- description: Represents a Benchling App canvas, an embedded UI surface that apps use to render custom interactive content within notebook entries, entry templates, assay runs, or app homepages. Each canvas belongs
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a Benchling App canvas, an embedded UI surface that apps use to render custom interactive content within notebook entries, entry templates, assay runs, or app homepages. Each canvas belongs
   name: Benchling App Canvas API
   slug: benchling-appcanvas-api
-- description: 'Represents a configured value for a Benchling App on a specific tenant. Each config value has a path identifying its location in the configuration hierarchy and valueData containing the actual value. '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Represents a configured value for a Benchling App on a specific tenant. Each config value has a path identifying its location in the configuration hierarchy and valueData containing the actual value. '
   name: Benchling App Config Value API
   slug: benchling-appconfigvalue-api
-- description: Represents an installed Benchling App on a tenant, created from an `AppDefinitionVersion`. App installations store tenant-specific configuration values and feature bindings. As a Principal, app instal
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an installed Benchling App on a tenant, created from an `AppDefinitionVersion`. App installations store tenant-specific configuration values and feature bindings. As a Principal, app instal
   name: Benchling App Installation API
   slug: benchling-appinstallation-api
-- description: Represents a running or completed session for a Benchling App. App sessions track long-running app operations, providing status updates and user-facing messages. Each session belongs to a single app i
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a running or completed session for a Benchling App. App sessions track long-running app operations, providing status updates and user-facing messages. Each session belongs to a single app i
   name: Benchling App Session API
   slug: benchling-appsession-api
-- description: Represents a molecular cloning assembly that combines multiple DNA fragments into complete constructs. Assemblies model the process of joining fragment sequences (such as genes, promoters, and termina
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a molecular cloning assembly that combines multiple DNA fragments into complete constructs. Assemblies model the process of joining fragment sequences (such as genes, promoters, and termina
   name: Benchling Assembly API
   slug: benchling-assembly-api
-- description: Represents a single entry in an object's audit log. Each entry captures what changed, who made the change, and contextual information about the affected object hierarchy.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single entry in an object's audit log. Each entry captures what changed, who made the change, and contextual information about the affected object hierarchy.
   name: Benchling Audit Log API
   slug: benchling-auditlog-api
-- description: A Box is a grid-based storage container in Benchling's inventory system, designed to hold multiple sample containers (tubes, vials, etc.) in an organized layout. Boxes have a defined capacity based on
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Box is a grid-based storage container in Benchling's inventory system, designed to hold multiple sample containers (tubes, vials, etc.) in an organized layout. Boxes have a defined capacity based on
   name: Benchling Box API
   slug: benchling-box-api
-- description: Defines the structure and constraints for a category of Boxes in Benchling's inventory system. A BoxSchema specifies the grid dimensions (height and width) determining how many container positions the
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and constraints for a category of Boxes in Benchling's inventory system. A BoxSchema specifies the grid dimensions (height and width) determining how many container positions the
   name: Benchling Box Schema API
   slug: benchling-boxschema-api
-- description: The BulkExport API from Benchling — 1 operation(s) for bulkexport.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The BulkExport API from Benchling — 1 operation(s) for bulkexport.
   name: Benchling Bulk Export API
   slug: benchling-bulkexport-api
-- description: A Chart is a data visualization within Benchling. Charts can be created directly (for example, via APIs or the UI) or generated from other workflows. Charts store their configuration in a library-spec
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Chart is a data visualization within Benchling. Charts can be created directly (for example, via APIs or the UI) or generated from other workflows. Charts store their configuration in a library-spec
   name: Benchling Chart API
   slug: benchling-chart-api
-- description: A Collaboration indicates that a Principal or Group is granted a Policy on a Resource. Some Collaborations represent Ownership, while others indicate that a Resource was shared with the Principal or G
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Collaboration indicates that a Principal or Group is granted a Policy on a Resource. Some Collaborations represent Ownership, while others indicate that a Resource was shared with the Principal or G
   name: Benchling Collaboration API
   slug: benchling-collaboration-api
-- description: Records a configuration import operation from one Benchling tenant to another. Each entry captures the source tenant, target organization, who performed the import, and an optional changelog URL docum
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Records a configuration import operation from one Benchling tenant to another. Each entry captures the source tenant, target organization, who performed the import, and an optional changelog URL docum
   name: Benchling Config Import History Entry API
   slug: benchling-configimporthistoryentry-api
-- description: 'A Container is a physical vessel (such as a tube, vial, or cryotube) that holds biological or chemical samples in Benchling''s inventory system. Containers track their contents (see ContainerContent), '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'A Container is a physical vessel (such as a tube, vial, or cryotube) that holds biological or chemical samples in Benchling''s inventory system. Containers track their contents (see ContainerContent), '
   name: Benchling Container API
   slug: benchling-container-api
-- description: 'Defines the structure and metadata for a category of Containers in Benchling''s inventory system. A `ContainerSchema` specifies the container type (e.g., "1.5mL Microcentrifuge Tube", "2mL Cryovial"), '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Defines the structure and metadata for a category of Containers in Benchling''s inventory system. A `ContainerSchema` specifies the container type (e.g., "1.5mL Microcentrifuge Tube", "2mL Cryovial"), '
   name: Benchling Container Schema API
   slug: benchling-containerschema-api
-- description: A flexible, user-defined entity type in Benchling's Registry. Unlike specialized entity types such as DnaSequence or Molecule, CustomEntities allow organizations to model any kind of scientific or bus
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A flexible, user-defined entity type in Benchling's Registry. Unlike specialized entity types such as DnaSequence or Molecule, CustomEntities allow organizations to model any kind of scientific or bus
   name: Benchling Custom Entity API
   slug: benchling-customentity-api
-- description: Operations for CustomEntitySchema
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Operations for CustomEntitySchema
   name: Benchling Custom Entity Schema API
   slug: benchling-customentityschema-api
-- description: '`DataFrame` stores non-schematized tabular data, with Benchling-aware column types (see `DataFrameColumn`). Data frames are not searchable and lack their own permissions; rather, they are child object'
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: '`DataFrame` stores non-schematized tabular data, with Benchling-aware column types (see `DataFrameColumn`). Data frames are not searchable and lack their own permissions; rather, they are child object'
   name: Benchling Data Frame API
   slug: benchling-dataframe-api
-- description: '`Dataset` stores non-schematized tabular data, with Benchling-aware column types. Datasets are first-class, searchable, archivable folder items. A Dataset''s actual data is stored in a `DataFrame`.'
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: '`Dataset` stores non-schematized tabular data, with Benchling-aware column types. Datasets are first-class, searchable, archivable folder items. A Dataset''s actual data is stored in a `DataFrame`.'
   name: Benchling Dataset API
   slug: benchling-dataset-api
-- description: Represents a short single-stranded DNA oligonucleotide in Benchling's molecular biology platform. DNA oligos are typically synthetic sequences used as primers for PCR, probes for hybridization assays,
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a short single-stranded DNA oligonucleotide in Benchling's molecular biology platform. DNA oligos are typically synthetic sequences used as primers for PCR, probes for hybridization assays,
   name: Benchling Dna Oligo API
   slug: benchling-dnaoligo-api
-- description: Defines the structure, field definitions, and configuration options for DNA oligos.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for DNA oligos.
   name: Benchling Dna Oligo Schema API
   slug: benchling-dnaoligoschema-api
-- description: Represents a DNA sequence in Benchling's molecular biology platform. A `DnaSequence` stores the nucleotide bases of the forward strand along with rich annotations for biological features such as genes
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a DNA sequence in Benchling's molecular biology platform. A `DnaSequence` stores the nucleotide bases of the forward strand along with rich annotations for biological features such as genes
   name: Benchling Dna Sequence API
   slug: benchling-dnasequence-api
-- description: Defines the structure, field definitions, and configuration options for DNA sequences.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for DNA sequences.
   name: Benchling Dna Sequence Schema API
   slug: benchling-dnasequenceschema-api
-- description: The DocumentExport API from Benchling — 3 operation(s) for documentexport.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The DocumentExport API from Benchling — 3 operation(s) for documentexport.
   name: Benchling Document Export API
   slug: benchling-documentexport-api
-- description: Represents an ordered piece of content within an entry, template, subtemplate, or document. Each document part wraps one content block and records its container, version, and audit metadata.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an ordered piece of content within an entry, template, subtemplate, or document. Each document part wraps one content block and records its container, version, and audit metadata.
   name: Benchling Document Part API
   slug: benchling-documentpart-api
-- description: A configurable list of predefined values used for standardizing data entry in schema fields. Dropdowns provide controlled vocabulary choices that ensure consistency when users fill out entity and obje
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A configurable list of predefined values used for standardizing data entry in schema fields. Dropdowns provide controlled vocabulary choices that ensure consistency when users fill out entity and obje
   name: Benchling Dropdown API
   slug: benchling-dropdown-api
-- description: A schema field definition that links to a dropdown for value selection. The `linkDefinition` field references the `Dropdown` configuration that defines the available options. When `isMulti` is true, u
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A schema field definition that links to a dropdown for value selection. The `linkDefinition` field references the `Dropdown` configuration that defines the available options. When `isMulti` is true, u
   name: Benchling Dropdown Link Field Definition API
   slug: benchling-dropdownlinkfielddefinition-api
-- description: 'An individual selectable value within a Dropdown. Each DropdownOption represents one valid choice that users can select when populating a schema field configured with the parent Dropdown. Options can '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'An individual selectable value within a Dropdown. Each DropdownOption represents one valid choice that users can select when populating a schema field configured with the parent Dropdown. Options can '
   name: Benchling Dropdown Option API
   slug: benchling-dropdownoption-api
-- description: Defines the structure and behavior for a category of registered entities in Benchling. EntitySchemas specify the field definitions (see `fieldDefinitions` and `SchemaFieldDefinition`) that determine w
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and behavior for a category of registered entities in Benchling. EntitySchemas specify the field definitions (see `fieldDefinitions` and `SchemaFieldDefinition`) that determine w
   name: Benchling Entity Schema API
   slug: benchling-entityschema-api
-- description: 'An Entry is the core document type in Benchling''s Electronic Lab Notebook (ELN), used by scientists to record experimental work and observations. Entries are organized into sections (days) containing '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'An Entry is the core document type in Benchling''s Electronic Lab Notebook (ELN), used by scientists to record experimental work and observations. Entries are organized into sections (days) containing '
   name: Benchling Entry API
   slug: benchling-entry-api
-- description: Defines a schema that can be applied to Entries to add structured metadata through custom fields. Entry schemas allow organizations to standardize the information captured in notebook entries by defin
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines a schema that can be applied to Entries to add structured metadata through custom fields. Entry schemas allow organizations to standardize the information captured in notebook entries by defin
   name: Benchling Entry Schema API
   slug: benchling-entryschema-api
-- description: A reusable content block that can be inserted into `DocumentLike` objects. Subtemplates contain pre-defined note content (text, tables, etc.) that scientists commonly need to repeat across multiple en
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A reusable content block that can be inserted into `DocumentLike` objects. Subtemplates contain pre-defined note content (text, tables, etc.) that scientists commonly need to repeat across multiple en
   name: Benchling Entry Subtemplate API
   slug: benchling-entrysubtemplate-api
-- description: A template used to create new `DocumentLike` objects with pre-populated content and structure. `EntryTemplate`s contain boilerplate text, tables, placeholders, and other note content that provides a c
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A template used to create new `DocumentLike` objects with pre-populated content and structure. `EntryTemplate`s contain boilerplate text, tables, placeholders, and other note content that provides a c
   name: Benchling Entry Template API
   slug: benchling-entrytemplate-api
-- description: Represents a restriction enzyme from Benchling's global catalog of commercially available enzymes. Restriction enzymes (also known as restriction endonucleases) are molecular scissors that recognize s
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a restriction enzyme from Benchling's global catalog of commercially available enzymes. Restriction enzymes (also known as restriction endonucleases) are molecular scissors that recognize s
   name: Benchling Enzyme API
   slug: benchling-enzyme-api
-- description: Represents a user-curated collection of restriction enzymes for molecular cloning workflows. EnzymeLists allow users and organizations to organize commonly used enzymes into named groups for easy acce
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a user-curated collection of restriction enzymes for molecular cloning workflows. EnzymeLists allow users and organizations to organize commonly used enzymes into named groups for easy acce
   name: Benchling Enzyme List API
   slug: benchling-enzymelist-api
-- description: Defines the structure, field definitions, and configuration options for Equipments.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for Equipments.
   name: Benchling Equipment Schema API
   slug: benchling-equipmentschema-api
-- description: Configures delivery of Benchling events to external systems via AWS EventBridge. Event subscriptions enable real-time integration by streaming events (such as entity creation, updates, or workflow sta
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Configures delivery of Benchling events to external systems via AWS EventBridge. Event subscriptions enable real-time integration by streaming events (such as entity creation, updates, or workflow sta
   name: Benchling Event Subscription API
   slug: benchling-eventsubscription-api
-- description: Represents a reusable collection of biological features for auto-annotating nucleotide and AA sequences. FeatureLibraries enable users to define common sequence motifs (such as genes, promoters, termi
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a reusable collection of biological features for auto-annotating nucleotide and AA sequences. FeatureLibraries enable users to define common sequence motifs (such as genes, promoters, termi
   name: Benchling Feature Library API
   slug: benchling-featurelibrary-api
-- description: Represents a single feature definition within a FeatureLibrary used for auto-annotation. Each item defines a searchable pattern (nucleotide or amino acid sequence), a feature type classification (such
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single feature definition within a FeatureLibrary used for auto-annotation. Each item defines a searchable pattern (nucleotide or amino acid sequence), a feature type classification (such
   name: Benchling Feature Library Item API
   slug: benchling-featurelibraryitem-api
-- description: A tenant-defined schema interface (also known as a "Fieldset") that groups related fields to be shared across multiple schemas. Fieldsets are created and managed by tenant administrators and belong to
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A tenant-defined schema interface (also known as a "Fieldset") that groups related fields to be shared across multiple schemas. Fieldsets are created and managed by tenant administrators and belong to
   name: Benchling Fieldset API
   slug: benchling-fieldset-api
-- description: A File represents an uploaded document or data file that is surfaced in Benchling's Data Catalog for discovery and organization. Files are primarily created through Benchling Connect (for external fil
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A File represents an uploaded document or data file that is surfaced in Benchling's Data Catalog for discovery and organization. Files are primarily created through Benchling Connect (for external fil
   name: Benchling File API
   slug: benchling-file-api
-- description: A hierarchical container for organizing entities, notebook entries, and other items within a Project. Folders support nested structures through parent-child relationships (see `parent`), enabling user
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A hierarchical container for organizing entities, notebook entries, and other items within a Project. Folders support nested structures through parent-child relationships (see `parent`), enabling user
   name: Benchling Folder API
   slug: benchling-folder-api
-- description: A database of reference sequences used to characterize protein sequences via alignment.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A database of reference sequences used to characterize protein sequences via alignment.
   name: Benchling Germline API
   slug: benchling-germline-api
-- description: Indicates that a Principal is a member of Group. Role indicates that the Principal is a member of a subgroup, such as Admins of the Group. Teams are the canonical example of a Group.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Indicates that a Principal is a member of Group. Role indicates that the Principal is a member of a subgroup, such as Admins of the Group. Teams are the canonical example of a Group.
   name: Benchling Group Membership API
   slug: benchling-groupmembership-api
-- description: A `LabelTemplate` defines the format for printing physical labels for inventory items, such as containers, plates, and boxes. Each template contains a template string, `zplTemplate`, that is populated
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A `LabelTemplate` defines the format for printing physical labels for inventory items, such as containers, plates, and boxes. Each template contains a template string, `zplTemplate`, that is populated
   name: Benchling Label Template API
   slug: benchling-labeltemplate-api
-- description: Represents a legacy (pre-App Store) Benchling App installation on a tenant. Legacy apps are configured directly with webhook URLs and configuration specs rather than through app definition versions. T
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a legacy (pre-App Store) Benchling App installation on a tenant. Legacy apps are configured directly with webhook URLs and configuration specs rather than through app definition versions. T
   name: Benchling Legacy App Installation API
   slug: benchling-legacyappinstallation-api
-- description: A reusable parameter definition stored in the Parameter Library. LibraryParameterDefinitions allow organizations to standardize parameters used across multiple procedures by defining a name, descripti
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A reusable parameter definition stored in the Parameter Library. LibraryParameterDefinitions allow organizations to standardize parameters used across multiple procedures by defining a name, descripti
   name: Benchling Library Parameter Definition API
   slug: benchling-libraryparameterdefinition-api
-- description: The limits API from Benchling — 1 operation(s) for limits.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The limits API from Benchling — 1 operation(s) for limits.
   name: Benchling Limits API
   slug: benchling-limits-api
-- description: A Location represents a physical storage area in Benchling's inventory system, such as a freezer, refrigerator, shelf, room, or building. Locations form a hierarchy where each location can contain chi
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Location represents a physical storage area in Benchling's inventory system, such as a freezer, refrigerator, shelf, room, or building. Locations form a hierarchy where each location can contain chi
   name: Benchling Location API
   slug: benchling-location-api
-- description: Defines the structure and metadata for a category of Locations in Benchling's inventory system. A LocationSchema specifies schema field definitions for capturing location-specific data (e.g., temperat
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and metadata for a category of Locations in Benchling's inventory system. A LocationSchema specifies schema field definitions for capturing location-specific data (e.g., temperat
   name: Benchling Location Schema API
   slug: benchling-locationschema-api
-- description: A MatrixPlate is a rack-style storage plate where Containers (tubes, vials) can be inserted into and removed from grid positions. Unlike FixedPlate or WellPlate where wells are permanently attached, M
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A MatrixPlate is a rack-style storage plate where Containers (tubes, vials) can be inserted into and removed from grid positions. Unlike FixedPlate or WellPlate where wells are permanently attached, M
   name: Benchling Matrix Plate API
   slug: benchling-matrixplate-api
-- description: 'Defines the structure and constraints for a category of MatrixPlates in Benchling''s inventory system. A MatrixPlateSchema specifies the grid dimensions (height and width), an optional ContainerSchema '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Defines the structure and constraints for a category of MatrixPlates in Benchling''s inventory system. A MatrixPlateSchema specifies the grid dimensions (height and width), an optional ContainerSchema '
   name: Benchling Matrix Plate Schema API
   slug: benchling-matrixplateschema-api
-- description: A Mixture is a formulation entity in Benchling that represents a combination of ingredients with specified amounts. Mixtures are commonly used for buffers, media, reagent preparations, and other multi
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Mixture is a formulation entity in Benchling that represents a combination of ingredients with specified amounts. Mixtures are commonly used for buffers, media, reagent preparations, and other multi
   name: Benchling Mixture API
   slug: benchling-mixture-api
-- description: Defines the structure, field definitions, and configuration options for Mixtures.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for Mixtures.
   name: Benchling Mixture Schema API
   slug: benchling-mixtureschema-api
-- description: A Molecule represents a small molecule chemical compound in Benchling that is imported either as a MolFile or using SMILES (Simplified Molecular Input Line Entry System) notation. Molecules are regist
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Molecule represents a small molecule chemical compound in Benchling that is imported either as a MolFile or using SMILES (Simplified Molecular Input Line Entry System) notation. Molecules are regist
   name: Benchling Molecule API
   slug: benchling-molecule-api
-- description: Defines the structure, field definitions, and configuration options for Molecule schemas.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for Molecule schemas.
   name: Benchling Molecule Schema API
   slug: benchling-moleculeschema-api
-- description: Represents a multiple sequence alignment of nucleotide sequences (DNA or RNA). Nucleotide alignments are used to compare sequence reads against a reference template for verification (see AlignmentType
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a multiple sequence alignment of nucleotide sequences (DNA or RNA). Nucleotide alignments are used to compare sequence reads against a reference template for verification (see AlignmentType
   name: Benchling Nucleotide Alignment API
   slug: benchling-nucleotidealignment-api
-- description: A building block component of modified oligonucleotides, representing a sugar, phosphate, or base subunit. Monomers are the chemical units that assemble to form nucleotides in therapeutic oligonucleot
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A building block component of modified oligonucleotides, representing a sugar, phosphate, or base subunit. Monomers are the chemical units that assemble to form nucleotides in therapeutic oligonucleot
   name: Benchling Nucleotide Monomer API
   slug: benchling-nucleotidemonomer-api
-- description: 'An oligo conjugate is a therapeutic modality consisting of a single-stranded oligonucleotide backbone with one or more attached conjugate molecules. Common examples include antisense oligonucleotides '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'An oligo conjugate is a therapeutic modality consisting of a single-stranded oligonucleotide backbone with one or more attached conjugate molecules. Common examples include antisense oligonucleotides '
   name: Benchling Oligo Conjugate API
   slug: benchling-oligoconjugate-api
-- description: Defines the structure, field definitions, and configuration options for Oligo Conjugates.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for Oligo Conjugates.
   name: Benchling Oligo Conjugate Schema API
   slug: benchling-oligoconjugateschema-api
-- description: An oligo duplex is a therapeutic modality consisting of two complementary oligonucleotide strands (forward and reverse) with optional conjugate molecules attached to either strand. The classic example
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: An oligo duplex is a therapeutic modality consisting of two complementary oligonucleotide strands (forward and reverse) with optional conjugate molecules attached to either strand. The classic example
   name: Benchling Oligo Duplex API
   slug: benchling-oligoduplex-api
-- description: Defines the structure, field definitions, and configuration options for Oligo Duplexes.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for Oligo Duplexes.
   name: Benchling Oligo Duplex Schema API
   slug: benchling-oligoduplexschema-api
-- description: 'Represents a group of users within Benchling, typically corresponding to a company, department, or research group. Organizations provide a many-to-many relationship between users—each user can belong '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Represents a group of users within Benchling, typically corresponding to a company, department, or research group. Organizations provide a many-to-many relationship between users—each user can belong '
   name: Benchling Organization API
   slug: benchling-organization-api
-- description: Represents a single operation node within a Pipeline's directed acyclic graph (DAG). Each step performs a specific transformation determined by its stepType (see `PipelineStepType`), with configuratio
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single operation node within a Pipeline's directed acyclic graph (DAG). Each step performs a specific transformation determined by its stepType (see `PipelineStepType`), with configuratio
   name: Benchling Pipeline Step API
   slug: benchling-pipelinestep-api
-- description: Represents actual data attached to an input or output slot of a PipelineStep during execution. Each PipelineStepData corresponds to a defined data shape (input or output) on the step's configuration a
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents actual data attached to an input or output slot of a PipelineStep during execution. Each PipelineStepData corresponds to a defined data shape (input or output) on the step's configuration a
   name: Benchling Pipeline Step Data API
   slug: benchling-pipelinestepdata-api
-- description: A Plate is a legacy unified type representing both well plates and tube racks in Benchling's inventory system. The type field (see PlateType) indicates whether this is a FIXED_PLATE (wells permanently
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Plate is a legacy unified type representing both well plates and tube racks in Benchling's inventory system. The type field (see PlateType) indicates whether this is a FIXED_PLATE (wells permanently
   name: Benchling Plate API
   slug: benchling-plate-api
-- description: A named plate design template backed by a scratch plate that lives in a template collection. Plate design templates allow scratch plates to be organized and reused as templates.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A named plate design template backed by a scratch plate that lives in a template collection. Plate design templates allow scratch plates to be organized and reused as templates.
   name: Benchling Plate Design Template API
   slug: benchling-platedesigntemplate-api
-- description: Defines the structure and constraints for a category of Plates in Benchling's inventory system. A PlateSchema specifies the grid dimensions (height and width), the plate type (see PlateType), and opti
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and constraints for a category of Plates in Benchling's inventory system. A PlateSchema specifies the grid dimensions (height and width), the plate type (see PlateType), and opti
   name: Benchling Plate Schema API
   slug: benchling-plateschema-api
-- description: Defines a named set of permissions that can be assigned to users or groups through collaborations. Policies contain PolicyStatements that specify allowed actions on different item types. When a user i
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines a named set of permissions that can be assigned to users or groups through collaborations. Policies contain PolicyStatements that specify allowed actions on different item types. When a user i
   name: Benchling Policy API
   slug: benchling-policy-api
-- description: Represents an execution of a Model Hub model against multiple data inputs (resulting in multiple Predictions). A PredictionBatch tracks the input configuration, execution status, and results. Each bat
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an execution of a Model Hub model against multiple data inputs (resulting in multiple Predictions). A PredictionBatch tracks the input configuration, execution status, and results. Each bat
   name: Benchling Prediction Batch API
   slug: benchling-predictionbatch-api
-- description: Represents a single prediction within a PredictionBatch. Each PredictionJob captures the input configuration for one prediction and its association with input components (e.g., AA sequences, molecules
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single prediction within a PredictionBatch. Each PredictionJob captures the input configuration for one prediction and its association with input components (e.g., AA sequences, molecules
   name: Benchling Prediction Job API
   slug: benchling-predictionjob-api
-- description: A Printer represents a network-connected label printer configured in Benchling for printing barcode labels on inventory items. Printers are associated with a Registry and work with LabelTemplates to g
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Printer represents a network-connected label printer configured in Benchling for printing barcode labels on inventory items. Printers are associated with a Registry and work with LabelTemplates to g
   name: Benchling Printer API
   slug: benchling-printer-api
-- description: A reusable template that defines a structured experimental workflow. Procedures specify a sequence of method steps (see `ProcedureMethodDefinitionVersion`) connected in a flowchart (see `workflowFlowc
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A reusable template that defines a structured experimental workflow. Procedures specify a sequence of method steps (see `ProcedureMethodDefinitionVersion`) connected in a flowchart (see `workflowFlowc
   name: Benchling Procedure API
   slug: benchling-procedure-api
-- description: 'Contains the flowchart configuration for a Procedure or TemplateCollection. A ProcedureFlowchart acts as a container for flowchart versions (see `ProcedureFlowchartVersion`), tracking both the latest '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Contains the flowchart configuration for a Procedure or TemplateCollection. A ProcedureFlowchart acts as a container for flowchart versions (see `ProcedureFlowchartVersion`), tracking both the latest '
   name: Benchling Procedure Flowchart API
   slug: benchling-procedureflowchart-api
-- description: Represents a snapshot of a procedure's flowchart configuration at a specific point in time. The flowchart defines the structure of a procedure as a directed graph, where nodes represent method steps (
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a snapshot of a procedure's flowchart configuration at a specific point in time. The flowchart defines the structure of a procedure as a directed graph, where nodes represent method steps (
   name: Benchling Procedure Flowchart Config Version Proxy API
   slug: benchling-procedureflowchartconfigversionproxy-api
-- description: An immutable snapshot of a procedure's flowchart structure at a specific point in time. Each version contains the complete graph of method steps (see `nodes` and `ProcedureMethodDefinitionVersion`) an
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: An immutable snapshot of a procedure's flowchart structure at a specific point in time. Each version contains the complete graph of method steps (see `nodes` and `ProcedureMethodDefinitionVersion`) an
   name: Benchling Procedure Flowchart Version API
   slug: benchling-procedureflowchartversion-api
-- description: 'A versioned method within a procedure flowchart. Methods are the building blocks of procedures, representing discrete experimental operations that scientists perform. Each method contains step groups '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'A versioned method within a procedure flowchart. Methods are the building blocks of procedures, representing discrete experimental operations that scientists perform. Each method contains step groups '
   name: Benchling Procedure Method Definition Version API
   slug: benchling-proceduremethoddefinitionversion-api
-- description: An instance of a method being executed within a procedure run. When a scientist runs a procedure, each method in the flowchart becomes a ProcedureMethodExecutionInstance that tracks the actual executi
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: An instance of a method being executed within a procedure run. When a scientist runs a procedure, each method in the flowchart becomes a ProcedureMethodExecutionInstance that tracks the actual executi
   name: Benchling Procedure Method Execution Instance API
   slug: benchling-proceduremethodexecutioninstance-api
-- description: 'Links two method execution instances across procedure runs to represent an intended connection within a study. This allows scientists to coordinate their analyses across runs, even when the flowchart '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Links two method execution instances across procedure runs to represent an intended connection within a study. This allows scientists to coordinate their analyses across runs, even when the flowchart '
   name: Benchling Procedure Method Execution Instance Association API
   slug: benchling-proceduremethodexecutioninstanceassociation-api
-- description: Represents a parameter entity within a procedure template. Parameters define the data, materials, or equipment that scientists interact with during procedure execution. The `parameterType` field class
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a parameter entity within a procedure template. Parameters define the data, materials, or equipment that scientists interact with during procedure execution. The `parameterType` field class
   name: Benchling Procedure Parameter API
   slug: benchling-procedureparameter-api
-- description: 'Records a scientist''s confirmation of a parameter value during procedure execution. When running a procedure, scientists confirm that inputs (such as materials, equipment, or data) match expectations '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Records a scientist''s confirmation of a parameter value during procedure execution. When running a procedure, scientists confirm that inputs (such as materials, equipment, or data) match expectations '
   name: Benchling Procedure Parameter Confirmation Value API
   slug: benchling-procedureparameterconfirmationvalue-api
-- description: Records the actual measured or observed value for a parameter during procedure execution. Scientists enter measured values after performing an experimental step—for example, recording a temperature re
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Records the actual measured or observed value for a parameter during procedure execution. Scientists enter measured values after performing an experimental step—for example, recording a temperature re
   name: Benchling Procedure Parameter Measured Value API
   slug: benchling-procedureparametermeasuredvalue-api
-- description: Stores the expected or planned value for a parameter, set during procedure setup or run planning. Used to specify anticipated inputs before execution begins—for example, the target concentration for a
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Stores the expected or planned value for a parameter, set during procedure setup or run planning. Used to specify anticipated inputs before execution begins—for example, the target concentration for a
   name: Benchling Procedure Parameter Planned Value API
   slug: benchling-procedureparameterplannedvalue-api
-- description: A versioned definition of a procedure parameter. Each version specifies the parameter's name, description, data type configuration (`dataType`), and how values are entered (`confirmationMethod`). Para
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A versioned definition of a procedure parameter. Each version specifies the parameter's name, description, data type configuration (`dataType`), and how values are entered (`confirmationMethod`). Para
   name: Benchling Procedure Parameter Version API
   slug: benchling-procedureparameterversion-api
-- description: An active execution of a procedure template. Created when scientists start running an experiment based on a `Procedure`. Contains experimental conditions (`conditions` via `ProcedureRunCondition`) and
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: An active execution of a procedure template. Created when scientists start running an experiment based on a `Procedure`. Contains experimental conditions (`conditions` via `ProcedureRunCondition`) and
   name: Benchling Procedure Run API
   slug: benchling-procedurerun-api
-- description: A ProcedureRunCondition represents a configuration of the methods of a Procedure that is being executed within a ProcedureRun. The values associated with the ProcedureRunCondition are not exposed on t
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A ProcedureRunCondition represents a configuration of the methods of a Procedure that is being executed within a ProcedureRun. The values associated with the ProcedureRunCondition are not exposed on t
   name: Benchling Procedure Run Condition API
   slug: benchling-procedureruncondition-api
-- description: A replicate of a `ProcedureRunCondition`, representing one execution of a condition's configuration. Scientists often run the same experimental condition multiple times to obtain statistically signifi
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A replicate of a `ProcedureRunCondition`, representing one execution of a condition's configuration. Scientists often run the same experimental condition multiple times to obtain statistically signifi
   name: Benchling Procedure Run Condition Replicate API
   slug: benchling-procedurerunconditionreplicate-api
-- description: A draft experiment plan that can be promoted to a `ProcedureRun` for execution. Scientists use run plans to configure experimental conditions, parameter values, and replicates before starting an actua
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A draft experiment plan that can be promoted to a `ProcedureRun` for execution. Scientists use run plans to configure experimental conditions, parameter values, and replicates before starting an actua
   name: Benchling Procedure Run Plan API
   slug: benchling-procedurerunplan-api
-- description: A planned experimental condition within a `ProcedureRunPlan`, representing how a procedure's methods will be configured when the plan is promoted to an actual `ProcedureRun`. Each condition contains p
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A planned experimental condition within a `ProcedureRunPlan`, representing how a procedure's methods will be configured when the plan is promoted to an actual `ProcedureRun`. Each condition contains p
   name: Benchling Procedure Run Plan Condition API
   slug: benchling-procedurerunplancondition-api
-- description: A versioned definition of a procedure step within a procedure flowchart. Steps represent documentation or instructions that guide scientists through a procedure but do not collect data—they differ fro
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A versioned definition of a procedure step within a procedure flowchart. Steps represent documentation or instructions that guide scientists through a procedure but do not collect data—they differ fro
   name: Benchling Procedure Step Definition Version API
   slug: benchling-procedurestepdefinitionversion-api
-- description: An execution instance of a procedure step within a `ProcedureMethodExecutionInstance`. Created when a procedure run is started, representing a step where scientists can document their work. The `docum
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: An execution instance of a procedure step within a `ProcedureMethodExecutionInstance`. Created when a procedure run is started, representing a step where scientists can document their work. The `docum
   name: Benchling Procedure Step Execution Instance API
   slug: benchling-procedurestepexecutioninstance-api
-- description: A top-level organizational container in Benchling that groups related work and controls access permissions. Projects contain Folders (see `Folder`) which in turn hold entities, notebook entries, and o
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A top-level organizational container in Benchling that groups related work and controls access permissions. Projects contain Folders (see `Folder`) which in turn hold entities, notebook entries, and o
   name: Benchling Project API
   slug: benchling-project-api
-- description: A Protein is a complex biomolecule entity in Benchling representing immunoglobulins or related therapeutic proteins like T-cell receptors. Proteins are defined by an `ProteinFormat` that specifies the
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Protein is a complex biomolecule entity in Benchling representing immunoglobulins or related therapeutic proteins like T-cell receptors. Proteins are defined by an `ProteinFormat` that specifies the
   name: Benchling Protein API
   slug: benchling-protein-api
-- description: A ProteinFormat defines the structural template for a class of proteins, specifying the arrangement of chains and domains. Formats can be built-in (e.g., IgG1, Fab, scFv) or custom-defined by users.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A ProteinFormat defines the structural template for a class of proteins, specifying the arrangement of chains and domains. Formats can be built-in (e.g., IgG1, Fab, scFv) or custom-defined by users.
   name: Benchling Protein Format API
   slug: benchling-proteinformat-api
-- description: Defines the structure, field definitions, and configuration options for Proteins.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for Proteins.
   name: Benchling Protein Schema API
   slug: benchling-proteinschema-api
-- description: A historical snapshot of an `Protein` at a specific point in time, preserving the complete structural state including domains, chains, and HELM notation. Protein versions form a lineage that tracks ch
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A historical snapshot of an `Protein` at a specific point in time, preserving the complete structural state including domains, chains, and HELM notation. Protein versions form a lineage that tracks ch
   name: Benchling Protein Version API
   slug: benchling-proteinversion-api
-- description: A Chemical Reaction is a process where molecules are transformed into new molecules.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Chemical Reaction is a process where molecules are transformed into new molecules.
   name: Benchling Reaction API
   slug: benchling-reaction-api
-- description: A reusable template that defines the structure and configuration for requests in Benchling. Also known as a "Request Template" in the UI. Each RequestV2Definition specifies a `templateDocument` that s
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A reusable template that defines the structure and configuration for requests in Benchling. Also known as a "Request Template" in the UI. Each RequestV2Definition specifies a `templateDocument` that s
   name: Benchling Request V2 Definition API
   slug: benchling-requestv2definition-api
-- description: A workflow request submitted from a `RequestV2Definition` (known as "Request Template" in the UI). When a request is submitted (status transitions to SENT), a `WorkflowTaskGroup` is automatically crea
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A workflow request submitted from a `RequestV2Definition` (known as "Request Template" in the UI). When a request is submitted (status transitions to SENT), a `WorkflowTaskGroup` is automatically crea
   name: Benchling Request V2 Submission API
   slug: benchling-requestv2submission-api
-- description: A Result represents a single row of experimental measurement data in Benchling's lab automation system. Results conform to a ResultSchema that defines their field structure, enabling standardized capt
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Result represents a single row of experimental measurement data in Benchling's lab automation system. Results conform to a ResultSchema that defines their field structure, enabling standardized capt
   name: Benchling Result API
   slug: benchling-result-api
-- description: Defines the structure and metadata fields for a category of assay Results in Benchling's lab automation system. A ResultSchema specifies the field definitions that capture measurement data, calculated
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and metadata fields for a category of assay Results in Benchling's lab automation system. A ResultSchema specifies the field definitions that capture measurement data, calculated
   name: Benchling Result Schema API
   slug: benchling-resultschema-api
-- description: Represents an active or completed review of a reviewable item such as an Entry or StageEntry. A Review tracks the overall status, the assigned reviewers (see `Reviewer`), and links back to the reviewa
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an active or completed review of a reviewable item such as an Entry or StageEntry. A Review tracks the overall status, the assigned reviewers (see `Reviewer`), and links back to the reviewa
   name: Benchling Review API
   slug: benchling-review-api
-- description: Represents a single action taken within a review. ReviewChanges form an ordered history of all changes made to a review, including status transitions, reviewer assignments, and comments. Each ReviewCh
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single action taken within a review. ReviewChanges form an ordered history of all changes made to a review, including status transitions, reviewer assignments, and comments. Each ReviewCh
   name: Benchling Review Change API
   slug: benchling-reviewchange-api
-- description: Defines a review process configuration that specifies how entries and other reviewable items should be reviewed. A ReviewProcess belongs to an Organization and can be associated with one or more Proje
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines a review process configuration that specifies how entries and other reviewable items should be reviewed. A ReviewProcess belongs to an Organization and can be associated with one or more Proje
   name: Benchling Review Process API
   slug: benchling-reviewprocess-api
-- description: A single stage within a ReviewProcess that defines a required step in the review workflow. Each stage specifies what action reviewers must take (see `ReviewProcessActionType`), who is eligible to be a
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A single stage within a ReviewProcess that defines a required step in the review workflow. Each stage specifies what action reviewers must take (see `ReviewProcessActionType`), who is eligible to be a
   name: Benchling Review Process Stage API
   slug: benchling-reviewprocessstage-api
-- description: Represents a short single-stranded RNA oligonucleotide in Benchling's molecular biology platform. RNA oligos are synthetic sequences used in applications such as RNA interference (siRNA, shRNA), antis
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a short single-stranded RNA oligonucleotide in Benchling's molecular biology platform. RNA oligos are synthetic sequences used in applications such as RNA interference (siRNA, shRNA), antis
   name: Benchling Rna Oligo API
   slug: benchling-rnaoligo-api
-- description: Defines the structure, field definitions, and configuration options for RNA oligos.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for RNA oligos.
   name: Benchling Rna Oligo Schema API
   slug: benchling-rnaoligoschema-api
-- description: Represents an RNA sequence in Benchling's molecular biology platform. An RnaSequence stores the nucleotide bases (using A, C, G, U) along with annotations marking functional regions, translation annot
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an RNA sequence in Benchling's molecular biology platform. An RnaSequence stores the nucleotide bases (using A, C, G, U) along with annotations marking functional regions, translation annot
   name: Benchling Rna Sequence API
   slug: benchling-rnasequence-api
-- description: Defines the structure, field definitions, and configuration options for RNA sequences
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure, field definitions, and configuration options for RNA sequences
   name: Benchling Rna Sequence Schema API
   slug: benchling-rnasequenceschema-api
-- description: A Run represents an execution instance of a lab automation workflow in Benchling, capturing the inputs, outputs, and metadata for a single assay or instrument operation. Runs conform to a RunSchema th
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Run represents an execution instance of a lab automation workflow in Benchling, capturing the inputs, outputs, and metadata for a single assay or instrument operation. Runs conform to a RunSchema th
   name: Benchling Run API
   slug: benchling-run-api
-- description: Defines the structure and automation configuration for a category of Runs in Benchling's lab automation system. A RunSchema specifies field definitions for run metadata, input generator configurations
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and automation configuration for a category of Runs in Benchling's lab automation system. A RunSchema specifies field definitions for run metadata, input generator configurations
   name: Benchling Run Schema API
   slug: benchling-runschema-api
-- description: A ScratchFile represents raw file content used as intermediate input or output of pipeline steps (see PipelineStepData). Unlike File, ScratchFiles are not surfaced in the Data Catalog because they typ
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A ScratchFile represents raw file content used as intermediate input or output of pipeline steps (see PipelineStepData). Unlike File, ScratchFiles are not surfaced in the Data Catalog because they typ
   name: Benchling Scratch File API
   slug: benchling-scratchfile-api
-- description: 'A plate design or record used for designing, tracking, and analyzing experimental plates outside of the inventory. Scratch plates are the working surface for plate-based workflows: you build up a plat'
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'A plate design or record used for designing, tracking, and analyzing experimental plates outside of the inventory. Scratch plates are the working surface for plate-based workflows: you build up a plat'
   name: Benchling Scratch Plate API
   slug: benchling-scratchplate-api
-- description: The Search API from Benchling — 1 operation(s) for search.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The Search API from Benchling — 1 operation(s) for search.
   name: Benchling Search API
   slug: benchling-search-api
-- description: Represents a non-human identity used for system integrations and automated processes within Benchling. Service principals act as the identity for service accounts that perform actions via APIs or back
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a non-human identity used for system integrations and automated processes within Benchling. Service principals act as the identity for service accounts that perform actions via APIs or back
   name: Benchling Service Principal API
   slug: benchling-serviceprincipal-api
-- description: A SqlDashboard is a configurable analytics page that displays one or more SQL-driven visualizations within Benchling Insights. Dashboards belong to a Project and contain ordered blocks (see SqlDashboa
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A SqlDashboard is a configurable analytics page that displays one or more SQL-driven visualizations within Benchling Insights. Dashboards belong to a Project and contain ordered blocks (see SqlDashboa
   name: Benchling Sql Dashboard API
   slug: benchling-sqldashboard-api
-- description: 'Represents a single query and visualization pane within a SqlDashboard. Each block contains a SQL query (sqlQuery) that runs against the Benchling data warehouse, along with a BlockVisualization that '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Represents a single query and visualization pane within a SqlDashboard. Each block contains a SQL query (sqlQuery) that runs against the Benchling data warehouse, along with a BlockVisualization that '
   name: Benchling Sql Dashboard Block API
   slug: benchling-sqldashboardblock-api
-- description: A StageEntry is an Entry that is associated with a specific stage in a legacy Workflow. Unlike regular Entries which exist independently in folders, StageEntries are created as part of workflow execut
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A StageEntry is an Entry that is associated with a specific stage in a legacy Workflow. Unlike regular Entries which exist independently in folders, StageEntries are created as part of workflow execut
   name: Benchling Stage Entry API
   slug: benchling-stageentry-api
-- description: A structured unit used to plan and organize research in Benchling. Each study progresses through phases (see `StudyPhase`) sequentially from design to execution to completion. The current phase determ
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A structured unit used to plan and organize research in Benchling. Each study progresses through phases (see `StudyPhase`) sequentially from design to execution to completion. The current phase determ
   name: Benchling Study API
   slug: benchling-study-api
-- description: Represents the link between a Study and a Studyable item (such as entities or molecules). Each association is identified by id and links a specific `study` to a specific `item`, and records when the l
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents the link between a Study and a Studyable item (such as entities or molecules). Each association is identified by id and links a specific `study` to a specific `item`, and records when the l
   name: Benchling Study Item Association API
   slug: benchling-studyitemassociation-api
-- description: A configuration template that defines the structure and behavior of Studies within an organization. Each `StudySchema` specifies the `studyType`, which determines available features and workflow capab
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A configuration template that defines the structure and behavior of Studies within an organization. Each `StudySchema` specifies the `studyType`, which determines available features and workflow capab
   name: Benchling Study Schema API
   slug: benchling-studyschema-api
-- description: Represents a subgroup of users within an `Organization`, enabling finer-grained user management and data sharing. Teams belong to exactly one organization, and users may only join a team if they are a
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a subgroup of users within an `Organization`, enabling finer-grained user management and data sharing. Teams belong to exactly one organization, and users may only join a team if they are a
   name: Benchling Team API
   slug: benchling-team-api
-- description: A container that organizes related templates, subtemplates, and other template-like items. Template Collections provide a way to group and manage reusable content that teams use to create standardized
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A container that organizes related templates, subtemplates, and other template-like items. Template Collections provide a way to group and manage reusable content that teams use to create standardized
   name: Benchling Template Collection API
   slug: benchling-templatecollection-api
-- description: A Test Definition is a configuration object that specifies a type of test or assay that can be ordered against samples. Each Test Definition is associated with a `ResultSchema` that defines the struct
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Test Definition is a configuration object that specifies a type of test or assay that can be ordered against samples. Each Test Definition is associated with a `ResultSchema` that defines the struct
   name: Benchling Test Definition API
   slug: benchling-testdefinition-api
-- description: A Test Order represents an individual request to perform a specific test on a sample. Each Test Order references a `TestDefinition` that specifies what type of test to perform, and a `sample` (Entity)
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A Test Order represents an individual request to perform a specific test on a sample. Each Test Order references a `TestDefinition` that specifies what type of test to perform, and a `sample` (Entity)
   name: Benchling Test Order API
   slug: benchling-testorder-api
-- description: 'A Unit is a specific measure of a physical quantity within Benchling''s tenant-specific unit dictionary, used to capture and convert scientific measurements across the platform. Each Unit belongs to a '
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'A Unit is a specific measure of a physical quantity within Benchling''s tenant-specific unit dictionary, used to capture and convert scientific measurements across the platform. Each Unit belongs to a '
   name: Benchling Unit API
   slug: benchling-unit-api
-- description: A UnitType is a dimensional category that groups inter-convertible `Unit` objects within Benchling's tenant-specific unit dictionary. Examples include Volume, Mass, Time, Molar Concentration, and cust
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A UnitType is a dimensional category that groups inter-convertible `Unit` objects within Benchling's tenant-specific unit dictionary. Examples include Volume, Mass, Time, Molar Concentration, and cust
   name: Benchling Unit Type API
   slug: benchling-unittype-api
-- description: Represents a human user in Benchling who can log in, perform actions, and own data. Users belong to one or more Organizations and may be members of Teams within those organizations. As an Owner, users
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a human user in Benchling who can log in, perform actions, and own data. Users belong to one or more Organizations and may be members of Teams within those organizations. As an Owner, users
   name: Benchling User API
   slug: benchling-user-api
-- description: 'Represents credentials for connecting to Benchling''s data warehouse, enabling users to query data using SQL tools like database clients or BI platforms. This includes all warehouse login types: user-g'
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: 'Represents credentials for connecting to Benchling''s data warehouse, enabling users to query data using SQL tools like database clients or BI platforms. This includes all warehouse login types: user-g'
   name: Benchling Warehouse Credential API
   slug: benchling-warehousecredential-api
-- description: A custom SQL view created by users in Benchling's data warehouse, allowing them to define reusable queries that can be accessed like tables. Views appear in a dedicated schema and can be queried via I
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A custom SQL view created by users in Benchling's data warehouse, allowing them to define reusable queries that can be accessed like tables. Views appear in a dedicated schema and can be queried via I
   name: Benchling Warehouse Custom View API
   slug: benchling-warehousecustomview-api
-- description: A WellPlate is a multi-well plate in Benchling's inventory system where wells are permanently fixed to the plate structure. This is the standard plate type for laboratory multi-well formats such as 96
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A WellPlate is a multi-well plate in Benchling's inventory system where wells are permanently fixed to the plate structure. This is the standard plate type for laboratory multi-well formats such as 96
   name: Benchling Well Plate API
   slug: benchling-wellplate-api
-- description: Represents a single well within a WellPlate, functioning as a fixed container at a specific grid position. Each WellPlatePosition has coordinates identifying its row and column, can hold sample conten
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single well within a WellPlate, functioning as a fixed container at a specific grid position. Each WellPlatePosition has coordinates identifying its row and column, can hold sample conten
   name: Benchling Well Plate Position API
   slug: benchling-wellplateposition-api
-- description: Defines the structure and constraints for a category of WellPlates in Benchling's inventory system. A WellPlateSchema specifies the grid dimensions (height and width) determining how many wells the pl
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure and constraints for a category of WellPlates in Benchling's inventory system. A WellPlateSchema specifies the grid dimensions (height and width) determining how many wells the pl
   name: Benchling Well Plate Schema API
   slug: benchling-wellplateschema-api
-- description: Represents the result or product of completing a `WorkflowTask`. Each output is associated with a single task. Outputs can contain schema-defined fields that capture structured data from task executio
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents the result or product of completing a `WorkflowTask`. Each output is associated with a single task. Outputs can contain schema-defined fields that capture structured data from task executio
   name: Benchling Workflow Output API
   slug: benchling-workflowoutput-api
-- description: Defines the structure of `WorkflowOutput` instances produced by tasks of a given `WorkflowTaskSchema`. Each output schema specifies `fieldDefinitions` for the data to be captured, an optional `prefix`
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Defines the structure of `WorkflowOutput` instances produced by tasks of a given `WorkflowTaskSchema`. Each output schema specifies `fieldDefinitions` for the data to be captured, an optional `prefix`
   name: Benchling Workflow Output Schema API
   slug: benchling-workflowoutputschema-api
-- description: Represents a unit of work within a `WorkflowTaskGroup`. Each task has a `status` that progresses through a configurable lifecycle (see `WorkflowTaskStatusLifecycle`), an optional `assignee` and `respo
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a unit of work within a `WorkflowTaskGroup`. Each task has a `status` that progresses through a configurable lifecycle (see `WorkflowTaskStatusLifecycle`), an optional `assignee` and `respo
   name: Benchling Workflow Task API
   slug: benchling-workflowtask-api
-- description: A container that groups related `WorkflowTask` instances together, representing a cohesive unit of work. Task groups are created from a `WorkflowTaskSchema` (via `workflowTaskSchema`). They are stored
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A container that groups related `WorkflowTask` instances together, representing a cohesive unit of work. Task groups are created from a `WorkflowTaskSchema` (via `workflowTaskSchema`). They are stored
   name: Benchling Workflow Task Group API
   slug: benchling-workflowtaskgroup-api
-- description: A configuration template that defines the structure and behavior of `WorkflowTask` instances. Each schema specifies an `executionType` (direct, entry, or flowchart) and custom `fieldDefinitions` for t
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A configuration template that defines the structure and behavior of `WorkflowTask` instances. Each schema specifies an `executionType` (direct, entry, or flowchart) and custom `fieldDefinitions` for t
   name: Benchling Workflow Task Schema API
   slug: benchling-workflowtaskschema-api
-- description: A typed collection of items used to group related objects for batch operations. Unlike folders, items can belong to multiple worklists simultaneously, making worklists useful as temporary holding grou
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A typed collection of items used to group related objects for batch operations. Unlike folders, items can belong to multiple worklists simultaneously, making worklists useful as temporary holding grou
   name: Benchling Worklist API
   slug: benchling-worklist-api
-- description: A structured document container used to organize and execute procedural work within Benchling's notebook system. Worksheets contain ordered `WorksheetStepGroup`s, each holding `WorksheetStep`s that re
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: A structured document container used to organize and execute procedural work within Benchling's notebook system. Worksheets contain ordered `WorksheetStepGroup`s, each holding `WorksheetStep`s that re
   name: Benchling Worksheet API
   slug: benchling-worksheet-api
 artifact_total: 1142
@@ -3704,7 +4110,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -3714,7 +4120,7 @@ score:
     discoverability: 70.4
     governance: 28.0
     operational_transparency: 69.7
-  previous_composite: 67.9
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3738,7 +4144,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:

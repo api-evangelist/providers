@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: Whop's GraphQL API at api.whop.com/public-graphql, positioned as the current primary interface for building apps - search/discovery, access passes, plans, memberships, users, and messaging - authentic
   name: Whop GraphQL API
   slug: whop-graphql-api
-- description: 'Bidirectional realtime WebSocket for Whop apps - custom app messages and chat/feed updates - connected and authenticated through the @whop/react and @whop/api SDKs. Whop does not publish a raw wss:// '
+- baseURL: wss://realtime.whop.com
+  baseurl_source: declared
+  description: 'Bidirectional realtime WebSocket for Whop apps - custom app messages and chat/feed updates - connected and authenticated through the @whop/react and @whop/api SDKs. Whop does not publish a raw wss:// '
   name: Whop Realtime WebSocket API
   slug: whop-realtime-websocket-api
-- description: Reusable checkout / payment flow configurations.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Reusable checkout / payment flow configurations.
   name: Whop Checkout Configurations API
   slug: whop-checkout-configurations-api
-- description: Seller companies (whops) and sub-merchant onboarding.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Seller companies (whops) and sub-merchant onboarding.
   name: Whop Companies API
   slug: whop-companies-api
-- description: A user's access to a product; lifecycle and access management.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: A user's access to a product; lifecycle and access management.
   name: Whop Memberships API
   slug: whop-memberships-api
-- description: Charges, refunds, retries, and voids.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Charges, refunds, retries, and voids.
   name: Whop Payments API
   slug: whop-payments-api
-- description: Pricing plans attached to products.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Pricing plans attached to products.
   name: Whop Plans API
   slug: whop-plans-api
-- description: Products (access passes) that companies sell.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Products (access passes) that companies sell.
   name: Whop Products API
   slug: whop-products-api
-- description: Discount / promo codes applied at checkout.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Discount / promo codes applied at checkout.
   name: Whop Promo Codes API
   slug: whop-promo-codes-api
-- description: Programmatic payouts to users and connected accounts.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Programmatic payouts to users and connected accounts.
   name: Whop Transfers API
   slug: whop-transfers-api
-- description: Whop users and their access checks.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Whop users and their access checks.
   name: Whop Users API
   slug: whop-users-api
-- description: Webhook endpoint registration for platform events.
+- baseURL: https://api.whop.com/api/v1
+  baseurl_source: declared
+  description: Webhook endpoint registration for platform events.
   name: Whop Webhooks API
   slug: whop-webhooks-api
 artifact_total: 33
@@ -215,7 +237,7 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -244,8 +266,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/whop/refs/heads/main/screenshots/whop-2026-09-02T170731.png
 security:
 - kind: authentication
   name: Whop Authentication

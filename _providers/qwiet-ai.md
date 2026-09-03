@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -43,85 +43,139 @@ agentic_access:
   summary_line: 145 operations · 59 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Notification and alerting related endpoints (such as webhooks)
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: Notification and alerting related endpoints (such as webhooks)
   name: Qwiet Ai alerting API
   slug: qwiet-ai-alerting-api
-- description: The analyze API from Qwiet Ai — 2 operation(s) for analyze.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The analyze API from Qwiet Ai — 2 operation(s) for analyze.
   name: Qwiet Ai analyze API
   slug: qwiet-ai-analyze-api
-- description: The user-created groups of applications. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-3251cbed-4ae3-4b06-8cad-c8748e49c7ec?action=collection%2
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The user-created groups of applications. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-3251cbed-4ae3-4b06-8cad-c8748e49c7ec?action=collection%2
   name: Qwiet Ai app_groups API
   slug: qwiet-ai-app-groups-api
-- description: The user-created application labels. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/30743751-da3c929b-651f-414c-993c-ee2b2573b2f4?action=collection%2Ffo
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The user-created application labels. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/30743751-da3c929b-651f-414c-993c-ee2b2573b2f4?action=collection%2Ffo
   name: Qwiet Ai app_labels API
   slug: qwiet-ai-app-labels-api
-- description: The applications submitted for analysis. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-e9d0bf19-30bd-46f4-b40c-9df03d2a463a?action=collection%2
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The applications submitted for analysis. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-e9d0bf19-30bd-46f4-b40c-9df03d2a463a?action=collection%2
   name: Qwiet Ai apps API
   slug: qwiet-ai-apps-api
-- description: The AutoFix suggestions for findings in applications. Harness SAST and SCA AutoFix uses large language models (LLMs) to generate potential code fix suggestions for findings produced by Qwiet AI by Har
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The AutoFix suggestions for findings in applications. Harness SAST and SCA AutoFix uses large language models (LLMs) to generate potential code fix suggestions for findings produced by Qwiet AI by Har
   name: Qwiet Ai autofix API
   slug: qwiet-ai-autofix-api
-- description: The endpoints to manage the Azure Boards integration.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The endpoints to manage the Azure Boards integration.
   name: Qwiet Ai azureboard API
   slug: qwiet-ai-azureboard-api
-- description: The branch information for scans of applications.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The branch information for scans of applications.
   name: Qwiet Ai branches API
   slug: qwiet-ai-branches-api
-- description: The text threads (with individual comments ordered by time) attached to findings. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-49dbc330-9cb4-4
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The text threads (with individual comments ordered by time) attached to findings. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-49dbc330-9cb4-4
   name: Qwiet Ai comments API
   slug: qwiet-ai-comments-api
-- description: Multi-Language Apps are groups of applications that are scanned together as a single application. This is useful for applications that are a compound of various programming languages and configuration
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: Multi-Language Apps are groups of applications that are scanned together as a single application. This is useful for applications that are a compound of various programming languages and configuration
   name: Qwiet Ai compounds API
   slug: qwiet-ai-compounds-api
-- description: The results of a scan (which can include vulnerabilities, secrets, or insights). [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-156075f8-c7cf-4e
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The results of a scan (which can include vulnerabilities, secrets, or insights). [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-156075f8-c7cf-4e
   name: Qwiet Ai findings API
   slug: qwiet-ai-findings-api
-- description: The endpoints for downloading backups of an organization's data.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The endpoints for downloading backups of an organization's data.
   name: Qwiet Ai org_backup API
   slug: qwiet-ai-org-backup-api
-- description: The logical grouping (e.g., tenant/account) within Qwiet that defines a set of users, teams, and applications. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-colle
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The logical grouping (e.g., tenant/account) within Qwiet that defines a set of users, teams, and applications. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-colle
   name: Qwiet Ai orgs API
   slug: qwiet-ai-orgs-api
-- description: Roles-based access control (RBAC) allows you to control the permissions users in an organization are granted. The permissions granted to a user are additive. The base level of a user's permission is d
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: Roles-based access control (RBAC) allows you to control the permissions users in an organization are granted. The permissions granted to a user are additive. The base level of a user's permission is d
   name: Qwiet Ai rbac API
   slug: qwiet-ai-rbac-api
-- description: The summaries of applications and their findings for a specific organization. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-b675d7af-bdd5-49a4-
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The summaries of applications and their findings for a specific organization. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-b675d7af-bdd5-49a4-
   name: Qwiet Ai reports API
   slug: qwiet-ai-reports-api
-- description: The integration endpoints allowing orgs to configure Qwiet to act as a SAML service provider (SP) that uses the customer's identity provider (IdP) to log users in. [![Run in Postman](https://run.pstmn
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The integration endpoints allowing orgs to configure Qwiet to act as a SAML service provider (SP) that uses the customer's identity provider (IdP) to log users in. [![Run in Postman](https://run.pstmn
   name: Qwiet Ai SAML API
   slug: qwiet-ai-saml-api
-- description: The integration endpoints for generating and downloading SARIF reports for applications.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The integration endpoints for generating and downloading SARIF reports for applications.
   name: Qwiet Ai sarif API
   slug: qwiet-ai-sarif-api
-- description: The saved searches endpoints allow users to save specific search queries for organization and app findings
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The saved searches endpoints allow users to save specific search queries for organization and app findings
   name: Qwiet Ai saved_searches API
   slug: qwiet-ai-saved-searches-api
-- description: The summaries of software composition analysis (SCA) results for apps in an organization. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/30743751-08a1d6
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The summaries of software composition analysis (SCA) results for apps in an organization. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/30743751-08a1d6
   name: Qwiet Ai sca API
   slug: qwiet-ai-sca-api
-- description: The instances where Qwiet AI by Harness is invoked to identify findings in an application. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-dc6a68
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The instances where Qwiet AI by Harness is invoked to identify findings in an application. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-dc6a68
   name: Qwiet Ai scans API
   slug: qwiet-ai-scans-api
-- description: Scopes define the type of resource and the operation that you can perform with the access token you bear. For example, `scans:create` means that the bearer of the token with this scope can create scan
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: Scopes define the type of resource and the operation that you can perform with the access token you bear. For example, `scans:create` means that the bearer of the token with this scope can create scan
   name: Qwiet Ai scopes API
   slug: qwiet-ai-scopes-api
-- description: The integration endpoints enabling users to set up a Slack integration.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The integration endpoints enabling users to set up a Slack integration.
   name: Qwiet Ai slack API
   slug: qwiet-ai-slack-api
-- description: The endpoints to manage team-level configuration.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The endpoints to manage team-level configuration.
   name: Qwiet Ai team_config API
   slug: qwiet-ai-team-config-api
-- description: Used to authenticate with the API. Can be issued by org admins. Each access token is owned by the org that issued it. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/ru
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: Used to authenticate with the API. Can be issued by org admins. Each access token is owned by the org that issued it. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/ru
   name: Qwiet Ai tokens API
   slug: qwiet-ai-tokens-api
-- description: Users pertains the users in general as qwiet.ai users and of each org as organization users.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: Users pertains the users in general as qwiet.ai users and of each org as organization users.
   name: Qwiet Ai users API
   slug: qwiet-ai-users-api
-- description: The specific instances of an application scanned using Qwiet AI by Harness. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-d8e4a6f2-bdce-4807-a8
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The specific instances of an application scanned using Qwiet AI by Harness. [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/9829310-d8e4a6f2-bdce-4807-a8
   name: Qwiet Ai versions API
   slug: qwiet-ai-versions-api
-- description: The endpoints to manage the Wiz integration.
+- baseURL: https://app.shiftleft.io/api/v4
+  baseurl_source: declared
+  description: The endpoints to manage the Wiz integration.
   name: Qwiet Ai wiz API
   slug: qwiet-ai-wiz-api
 artifact_total: 60
@@ -367,7 +421,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -377,7 +431,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -389,7 +443,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/screenshots/qwiet-ai-2026-08-17T081438.png
 security:

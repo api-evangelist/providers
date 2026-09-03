@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 13 operations · 3 acting
 api_count: 1
 apis:
-- description: Fetch application configuration
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Fetch application configuration
   name: Spring Cloud Config Configuration API
   slug: spring-cloud-config-configuration-api
-- description: Encrypt and decrypt configuration values
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Encrypt and decrypt configuration values
   name: Spring Cloud Config Encryption API
   slug: spring-cloud-config-encryption-api
-- description: Webhook and monitoring endpoints
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Webhook and monitoring endpoints
   name: Spring Cloud Config Monitoring API
   slug: spring-cloud-config-monitoring-api
-- description: Fetch resource files from the config repository
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: Fetch resource files from the config repository
   name: Spring Cloud Config Resources API
   slug: spring-cloud-config-resources-api
 artifact_total: 25
@@ -238,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-config/refs/heads/main/screenshots/spring-cloud-config-2026-06-20T194410.png
 security:

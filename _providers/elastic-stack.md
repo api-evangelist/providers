@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: Data visualization and exploration tool API for Elasticsearch, providing dashboards, saved objects, alerting, and spaces management.
   name: Kibana API
   slug: kibana-api
-- description: The Bulk API from Elastic Stack — 1 operation(s) for bulk.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Bulk API from Elastic Stack — 1 operation(s) for bulk.
   name: Elastic Stack Bulk API
   slug: elastic-stack-bulk-api
-- description: The Cluster API from Elastic Stack — 1 operation(s) for cluster.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Cluster API from Elastic Stack — 1 operation(s) for cluster.
   name: Elastic Stack Cluster API
   slug: elastic-stack-cluster-api
-- description: The Doc API from Elastic Stack — 1 operation(s) for doc.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Doc API from Elastic Stack — 1 operation(s) for doc.
   name: Elastic Stack Doc API
   slug: elastic-stack-doc-api
-- description: The Elasticsearch API API from Elastic Stack — 1 operation(s) for elasticsearch api.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Elasticsearch API API from Elastic Stack — 1 operation(s) for elasticsearch api.
   name: Elastic Stack Elasticsearch API API
   slug: elastic-stack-elasticsearch-api-api
-- description: The Search API from Elastic Stack — 1 operation(s) for search.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Search API from Elastic Stack — 1 operation(s) for search.
   name: Elastic Stack Search API
   slug: elastic-stack-search-api
-- description: The Settings API from Elastic Stack — 1 operation(s) for settings.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Settings API from Elastic Stack — 1 operation(s) for settings.
   name: Elastic Stack Settings API
   slug: elastic-stack-settings-api
 artifact_total: 22
@@ -195,7 +207,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/screenshots/elastic-stack-2026-06-20T180536.png
 security:

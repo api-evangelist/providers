@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Monte Carlo's single GraphQL endpoint. Every piece of information the web application presents can be retrieved and mutated programmatically — alerts and incidents, monitors and monitors-as-code, asse
@@ -238,7 +238,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -248,13 +248,13 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 50.5
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monte-carlo-data/refs/heads/main/screenshots/monte-carlo-data-2026-06-20T185743.png
 security:

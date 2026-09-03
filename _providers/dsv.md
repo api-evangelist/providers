@@ -23,103 +23,167 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 29
 apis:
-- description: Booking Api Service
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: Booking Api Service
   name: DSV Booking API
   slug: dsv-booking-api
-- description: The Bookings API from DSV — 8 operation(s) for bookings.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Bookings API from DSV — 8 operation(s) for bookings.
   name: DSV Bookings API
   slug: dsv-bookings-api
-- description: The BookingWebService API from DSV — 1 operation(s) for bookingwebservice.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The BookingWebService API from DSV — 1 operation(s) for bookingwebservice.
   name: DSV Booking Web Service API
   slug: dsv-bookingwebservice-api
-- description: The BPO Inbound API from DSV — 3 operation(s) for bpo inbound.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The BPO Inbound API from DSV — 3 operation(s) for bpo inbound.
   name: DSV BPO Inbound API
   slug: dsv-bpo-inbound-api
-- description: The Declarations API from DSV — 2 operation(s) for declarations.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Declarations API from DSV — 2 operation(s) for declarations.
   name: DSV Declarations API
   slug: dsv-declarations-api
-- description: The Delivery API from DSV — 1 operation(s) for delivery.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Delivery API from DSV — 1 operation(s) for delivery.
   name: DSV Delivery API
   slug: dsv-delivery-api
-- description: The Draft API from DSV — 4 operation(s) for draft.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Draft API from DSV — 4 operation(s) for draft.
   name: DSV Draft API
   slug: dsv-draft-api
-- description: The EDocs API from DSV — 5 operation(s) for edocs.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The EDocs API from DSV — 5 operation(s) for edocs.
   name: DSV E Docs API
   slug: dsv-edocs-api
-- description: The Events API from DSV — 2 operation(s) for events.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Events API from DSV — 2 operation(s) for events.
   name: DSV Events API
   slug: dsv-events-api
-- description: The Inbound API from DSV — 1 operation(s) for inbound.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Inbound API from DSV — 1 operation(s) for inbound.
   name: DSV Inbound API
   slug: dsv-inbound-api
-- description: The Inventory API from DSV — 2 operation(s) for inventory.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Inventory API from DSV — 2 operation(s) for inventory.
   name: DSV Inventory API
   slug: dsv-inventory-api
-- description: The Invoices API from DSV — 5 operation(s) for invoices.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Invoices API from DSV — 5 operation(s) for invoices.
   name: DSV Invoices API
   slug: dsv-invoices-api
-- description: Printing API
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: Printing API
   name: DSV Label API
   slug: dsv-label-api
-- description: The LoadPlans API from DSV — 7 operation(s) for loadplans.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The LoadPlans API from DSV — 7 operation(s) for loadplans.
   name: DSV Load Plans API
   slug: dsv-loadplans-api
-- description: The Orders API from DSV — 6 operation(s) for orders.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Orders API from DSV — 6 operation(s) for orders.
   name: DSV Orders API
   slug: dsv-orders-api
-- description: The OrdersAsync API from DSV — 1 operation(s) for ordersasync.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The OrdersAsync API from DSV — 1 operation(s) for ordersasync.
   name: DSV Orders Async API
   slug: dsv-ordersasync-api
-- description: The ProductData API from DSV — 1 operation(s) for productdata.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The ProductData API from DSV — 1 operation(s) for productdata.
   name: DSV Product Data API
   slug: dsv-productdata-api
-- description: The Public API from DSV — 5 operation(s) for public.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Public API from DSV — 5 operation(s) for public.
   name: DSV Public API
   slug: dsv-public-api
-- description: The Quote API from DSV — 1 operation(s) for quote.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Quote API from DSV — 1 operation(s) for quote.
   name: DSV Quote API
   slug: dsv-quote-api
-- description: The Shipment API from DSV — 1 operation(s) for shipment.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Shipment API from DSV — 1 operation(s) for shipment.
   name: DSV Shipment API
   slug: dsv-shipment-api
-- description: The Shipment details API from DSV — 4 operation(s) for shipment details.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Shipment details API from DSV — 4 operation(s) for shipment details.
   name: DSV Shipment details API
   slug: dsv-shipment-details-api
-- description: The Shipment document API from DSV — 1 operation(s) for shipment document.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Shipment document API from DSV — 1 operation(s) for shipment document.
   name: DSV Shipment document API
   slug: dsv-shipment-document-api
-- description: The Shipment documents API from DSV — 3 operation(s) for shipment documents.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Shipment documents API from DSV — 3 operation(s) for shipment documents.
   name: DSV Shipment documents API
   slug: dsv-shipment-documents-api
-- description: The Shipment list API from DSV — 1 operation(s) for shipment list.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Shipment list API from DSV — 1 operation(s) for shipment list.
   name: DSV Shipment list API
   slug: dsv-shipment-list-api
-- description: The Shipments API from DSV — 1 operation(s) for shipments.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Shipments API from DSV — 1 operation(s) for shipments.
   name: DSV Shipments API
   slug: dsv-shipments-api
-- description: The Status API from DSV — 2 operation(s) for status.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Status API from DSV — 2 operation(s) for status.
   name: DSV Status API
   slug: dsv-status-api
-- description: The Token API from DSV — 1 operation(s) for token.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Token API from DSV — 1 operation(s) for token.
   name: DSV Token API
   slug: dsv-token-api
-- description: The Tracking API from DSV — 3 operation(s) for tracking.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Tracking API from DSV — 3 operation(s) for tracking.
   name: DSV Tracking API
   slug: dsv-tracking-api
-- description: The TrackingWebServiceV3 API from DSV — 1 operation(s) for trackingwebservicev3.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The TrackingWebServiceV3 API from DSV — 1 operation(s) for trackingwebservicev3.
   name: DSV Tracking Web Service V3 API
   slug: dsv-trackingwebservicev3-api
-- description: The Upload attachment using Booking ID API from DSV — 1 operation(s) for upload attachment using booking id.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Upload attachment using Booking ID API from DSV — 1 operation(s) for upload attachment using booking id.
   name: DSV Upload attachment using Booking ID API
   slug: dsv-upload-attachment-using-booking-id-api
-- description: The Upload attachment using Shipment Id API from DSV — 1 operation(s) for upload attachment using shipment id.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Upload attachment using Shipment Id API from DSV — 1 operation(s) for upload attachment using shipment id.
   name: DSV Upload attachment using Shipment Id API
   slug: dsv-upload-attachment-using-shipment-id-api
-- description: The Webhook API from DSV — 3 operation(s) for webhook.
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Webhook API from DSV — 3 operation(s) for webhook.
   name: DSV Webhook API
   slug: dsv-webhook-api
 artifact_total: 61
@@ -313,7 +377,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -323,7 +387,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.7
+  previous_composite: 38.5
   provenance:
     contracts:
       callable: 100.0
@@ -331,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png
 slug: dsv

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 9 acting
 api_count: 1
 apis:
-- description: Dolly-based on-demand delivery, quoting, and routing.
+- baseURL: https://{api_subdomain}.partner-platform.taskrabbit.com/2025-12
+  baseurl_source: declared
+  description: Dolly-based on-demand delivery, quoting, and routing.
   name: TaskRabbit Delivery API
   slug: taskrabbit-delivery-api
-- description: Real-time bookable time windows for Home Services projects.
+- baseURL: https://{api_subdomain}.partner-platform.taskrabbit.com/2025-12
+  baseurl_source: declared
+  description: Real-time bookable time windows for Home Services projects.
   name: TaskRabbit Home Services Availability API
   slug: taskrabbit-home-services-availability-api
-- description: Bid, book, retrieve, cancel, and reschedule Home Services projects.
+- baseURL: https://{api_subdomain}.partner-platform.taskrabbit.com/2025-12
+  baseurl_source: declared
+  description: Bid, book, retrieve, cancel, and reschedule Home Services projects.
   name: TaskRabbit Home Services Booking API
   slug: taskrabbit-home-services-booking-api
-- description: Partner brand service catalog for Home Services.
+- baseURL: https://{api_subdomain}.partner-platform.taskrabbit.com/2025-12
+  baseurl_source: declared
+  description: Partner brand service catalog for Home Services.
   name: TaskRabbit Home Services Catalog API
   slug: taskrabbit-home-services-catalog-api
-- description: Pricing and eligibility estimation for Home Services projects.
+- baseURL: https://{api_subdomain}.partner-platform.taskrabbit.com/2025-12
+  baseurl_source: declared
+  description: Pricing and eligibility estimation for Home Services projects.
   name: TaskRabbit Home Services Estimate API
   slug: taskrabbit-home-services-estimate-api
 artifact_total: 16
@@ -143,7 +153,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -166,8 +176,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/screenshots/taskrabbit-2026-09-02T162553.png
 security:
 - kind: authentication
   name: Taskrabbit Authentication

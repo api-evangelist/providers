@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- description: Load Balancers operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Load Balancers operations
   name: Azure Load Balancer Load Balancers API
   slug: microsoft-azure-load-balancer-load-balancers-api
-- description: Operations operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations operations
   name: Azure Load Balancer Operations API
   slug: microsoft-azure-load-balancer-operations-api
 artifact_total: 25
@@ -198,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/screenshots/microsoft-azure-load-balancer-2026-06-20T185420.png
 security:

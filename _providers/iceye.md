@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: Web platform at platform.iceye.com for browsing catalog imagery, submitting tasking orders, monitoring task status, and downloading delivered SAR products through the same backend as the API Platform.
   name: ICEYE Platform
   slug: platform
-- description: The Catalog API from ICEYE — 5 operation(s) for catalog.
+- baseURL: https://api.iceye.com
+  baseurl_source: declared
+  description: The Catalog API from ICEYE — 5 operation(s) for catalog.
   name: ICEYE Catalog API
   slug: iceye-catalog-api
-- description: The Company API from ICEYE — 3 operation(s) for company.
+- baseURL: https://api.iceye.com
+  baseurl_source: declared
+  description: The Company API from ICEYE — 3 operation(s) for company.
   name: ICEYE Company API
   slug: iceye-company-api
-- description: The Tasking API from ICEYE — 5 operation(s) for tasking.
+- baseURL: https://api.iceye.com
+  baseurl_source: declared
+  description: The Tasking API from ICEYE — 5 operation(s) for tasking.
   name: ICEYE Tasking API
   slug: iceye-tasking-api
 artifact_total: 19
@@ -215,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iceye/refs/heads/main/screenshots/iceye-2026-06-20T183148.png
 security:

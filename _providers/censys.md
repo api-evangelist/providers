@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 88 operations · 36 acting
 api_count: 2
 apis:
-- description: Endpoints related to the Account Management product
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to the Account Management product
   name: Censys Account Management API
   slug: censys-account-management-api
-- description: Endpoints related to the Adversary Investigation product
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to the Adversary Investigation product
   name: Censys Adversary Investigation API
   slug: censys-adversary-investigation-api
-- description: The Asset Graphs API from Censys — 2 operation(s) for asset graphs.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Asset Graphs API from Censys — 2 operation(s) for asset graphs.
   name: Censys Asset Graphs API
   slug: censys-asset-graphs-api
-- description: The Assets API from Censys — 2 operation(s) for assets.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Assets API from Censys — 2 operation(s) for assets.
   name: Censys Assets API
   slug: censys-assets-api
-- description: Endpoints related to the Collections product
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to the Collections product
   name: Censys Collections API
   slug: censys-collections-api
-- description: The Excluded Assets API from Censys — 2 operation(s) for excluded assets.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Excluded Assets API from Censys — 2 operation(s) for excluded assets.
   name: Censys Excluded Assets API
   slug: censys-excluded-assets-api
-- description: Endpoints related to the Global Data product
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to the Global Data product
   name: Censys Global Data API
   slug: censys-global-data-api
-- description: The Graph Executions API from Censys — 2 operation(s) for graph executions.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Graph Executions API from Censys — 2 operation(s) for graph executions.
   name: Censys Graph Executions API
   slug: censys-graph-executions-api
-- description: The Risks API from Censys — 1 operation(s) for risks.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Risks API from Censys — 1 operation(s) for risks.
   name: Censys Risks API
   slug: censys-risks-api
-- description: The Seeds API from Censys — 2 operation(s) for seeds.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Seeds API from Censys — 2 operation(s) for seeds.
   name: Censys Seeds API
   slug: censys-seeds-api
-- description: The Shards API from Censys — 1 operation(s) for shards.
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: The Shards API from Censys — 1 operation(s) for shards.
   name: Censys Shards API
   slug: censys-shards-api
-- description: Endpoints related to the Supply Chain Intelligence product
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to the Supply Chain Intelligence product
   name: Censys Supply Chain Intelligence API
   slug: censys-supply-chain-intelligence-api
-- description: Endpoints related to asset tagging and commenting
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to asset tagging and commenting
   name: Censys Tags and Comments API
   slug: censys-tags-and-comments-api
-- description: Endpoints related to the Adversary Investigation product
+- baseURL: https://api.platform.censys.io
+  baseurl_source: declared
+  description: Endpoints related to the Adversary Investigation product
   name: Censys Threat Hunting API
   slug: censys-threat-hunting-api
 artifact_total: 3546
@@ -10812,7 +10840,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/screenshots/censys-2026-06-20T174122.png
 security:

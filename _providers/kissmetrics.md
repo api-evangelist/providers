@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 17
 apis:
-- description: 'REST API for programmatic access to Kissmetrics reports, segments, events, properties and account metadata. Queries are asynchronous: a POST to /queries, /queries/report or /queries/metric returns a q'
+- baseURL: https://query.kissmetrics.io/v3
+  baseurl_source: declared
+  description: 'REST API for programmatic access to Kissmetrics reports, segments, events, properties and account metadata. Queries are asynchronous: a POST to /queries, /queries/report or /queries/metric returns a q'
   name: Kissmetrics REST API
   slug: rest-api
 - description: Event ingest surface. Three query-string endpoints record an event (/e), set person properties (/s) and irreversibly alias two identities to one person (/a), accepting GET or POST with the product key
@@ -261,7 +263,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Events API from Simple Analytics — server-side collection of custom events and page views, with customer-defined metadata, posted unauthenticated to the collection queue.
+- baseURL: https://queue.simpleanalyticscdn.com
+  baseurl_source: declared
+  description: The Events API from Simple Analytics — server-side collection of custom events and page views, with customer-defined metadata, posted unauthenticated to the collection queue.
   name: Simple Analytics Events API
   slug: simpleanalytics-events-api
-- description: The Export API from Simple Analytics — raw, unsampled data point export (page views and events) as JSON or CSV over a date range, with per-field selection.
+- baseURL: https://simpleanalytics.com
+  baseurl_source: declared
+  description: The Export API from Simple Analytics — raw, unsampled data point export (page views and events) as JSON or CSV over a date range, with per-field selection.
   name: Simple Analytics Export API
   slug: simpleanalytics-export-api
-- description: The Stats API from Simple Analytics — the aggregated dashboard statistics (pageviews, visitors, histogram, pages, countries, referrers, UTM and device breakdowns) as JSON for any tracked hostname.
+- baseURL: https://simpleanalytics.com
+  baseurl_source: declared
+  description: The Stats API from Simple Analytics — the aggregated dashboard statistics (pageviews, visitors, histogram, pages, countries, referrers, UTM and device breakdowns) as JSON for any tracked hostname.
   name: Simple Analytics Stats API
   slug: simpleanalytics-stats-api
-- description: The Websites API from Simple Analytics — the Admin surface for listing the websites in an account and adding a new one with timezone, visibility and label.
+- baseURL: https://simpleanalytics.com
+  baseurl_source: declared
+  description: The Websites API from Simple Analytics — the Admin surface for listing the websites in an account and adding a new one with timezone, visibility and label.
   name: Simple Analytics Websites API
   slug: simpleanalytics-websites-api
 artifact_total: 18
@@ -285,7 +293,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/screenshots/simpleanalytics-2026-08-17T080419.png
 security:

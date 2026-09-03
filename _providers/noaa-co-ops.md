@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,43 +42,69 @@ agentic_access:
   summary_line: 14 operations
 api_count: 3
 apis:
-- description: The Benchmarks API from NOAA CO-OPS — 1 operation(s) for benchmarks.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Benchmarks API from NOAA CO-OPS — 1 operation(s) for benchmarks.
   name: NOAA CO-OPS Benchmarks API
   slug: noaa-co-ops-benchmarks-api
-- description: The Datagetter API from NOAA CO-OPS — 1 operation(s) for datagetter.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Datagetter API from NOAA CO-OPS — 1 operation(s) for datagetter.
   name: NOAA CO-OPS Datagetter API
   slug: noaa-co-ops-datagetter-api
-- description: The Extremewaterlevels API from NOAA CO-OPS — 1 operation(s) for extremewaterlevels.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Extremewaterlevels API from NOAA CO-OPS — 1 operation(s) for extremewaterlevels.
   name: NOAA CO-OPS Extremewaterlevels API
   slug: noaa-co-ops-extremewaterlevels-api
-- description: The Htf Annual API from NOAA CO-OPS — 1 operation(s) for htf annual.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Htf Annual API from NOAA CO-OPS — 1 operation(s) for htf annual.
   name: NOAA CO-OPS Htf Annual API
   slug: noaa-co-ops-htf-annual-api
-- description: The Htf Monthly API from NOAA CO-OPS — 1 operation(s) for htf monthly.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Htf Monthly API from NOAA CO-OPS — 1 operation(s) for htf monthly.
   name: NOAA CO-OPS Htf Monthly API
   slug: noaa-co-ops-htf-monthly-api
-- description: The Htf Projection Decadal API from NOAA CO-OPS — 1 operation(s) for htf projection decadal.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Htf Projection Decadal API from NOAA CO-OPS — 1 operation(s) for htf projection decadal.
   name: NOAA CO-OPS Htf Projection Decadal API
   slug: noaa-co-ops-htf-projection-decadal-api
-- description: The Peakwaterlevels API from NOAA CO-OPS — 1 operation(s) for peakwaterlevels.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Peakwaterlevels API from NOAA CO-OPS — 1 operation(s) for peakwaterlevels.
   name: NOAA CO-OPS Peakwaterlevels API
   slug: noaa-co-ops-peakwaterlevels-api
-- description: The Ports.json API from NOAA CO-OPS — 1 operation(s) for ports.json.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Ports.json API from NOAA CO-OPS — 1 operation(s) for ports.json.
   name: NOAA CO-OPS Ports.json API
   slug: noaa-co-ops-ports-json-api
-- description: The Sealvltrends API from NOAA CO-OPS — 1 operation(s) for sealvltrends.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Sealvltrends API from NOAA CO-OPS — 1 operation(s) for sealvltrends.
   name: NOAA CO-OPS Sealvltrends API
   slug: noaa-co-ops-sealvltrends-api
-- description: The Slr Projections API from NOAA CO-OPS — 1 operation(s) for slr projections.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Slr Projections API from NOAA CO-OPS — 1 operation(s) for slr projections.
   name: NOAA CO-OPS Slr Projections API
   slug: noaa-co-ops-slr-projections-api
-- description: NOAA CO-OPS station metadata, sensors, datums, and configuration
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: NOAA CO-OPS station metadata, sensors, datums, and configuration
   name: NOAA CO-OPS Stations API
   slug: noaa-co-ops-stations-api
-- description: The Stations.json API from NOAA CO-OPS — 1 operation(s) for stations.json.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Stations.json API from NOAA CO-OPS — 1 operation(s) for stations.json.
   name: NOAA CO-OPS Stations.json API
   slug: noaa-co-ops-stations-json-api
-- description: The Toptenwaterlevels API from NOAA CO-OPS — 1 operation(s) for toptenwaterlevels.
+- baseURL: https://api.tidesandcurrents.noaa.gov/api/prod/
+  baseurl_source: declared
+  description: The Toptenwaterlevels API from NOAA CO-OPS — 1 operation(s) for toptenwaterlevels.
   name: NOAA CO-OPS Toptenwaterlevels API
   slug: noaa-co-ops-toptenwaterlevels-api
 artifact_total: 37
@@ -293,7 +319,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:

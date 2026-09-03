@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 13
@@ -46,67 +46,109 @@ apis:
 - description: Hosted Model Context Protocol server at mcp.onkernel.com that exposes Kernel resources (browsers, profiles, proxies, apps) as MCP tools and bundles four standalone tools — computer actions, Playwright
   name: Kernel MCP Server
   slug: kernel-mcp-server
-- description: Create and manage API keys for organization and project-scoped access.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage API keys for organization and project-scoped access.
   name: Kernel API Keys API
   slug: kernel-so-api-keys-api
-- description: List applications and versions.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: List applications and versions.
   name: Kernel Apps API
   slug: kernel-so-apps-api
-- description: The Auth Connections API from Kernel — 6 operation(s) for auth connections.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: The Auth Connections API from Kernel — 6 operation(s) for auth connections.
   name: Kernel Auth Connections API
   slug: kernel-so-auth-connections-api
-- description: Control mouse, keyboard, and screen on the browser instance.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Control mouse, keyboard, and screen on the browser instance.
   name: Kernel Browser Computer Controls API
   slug: kernel-so-browser-computer-controls-api
-- description: Read, write, and manage files on the browser instance.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Read, write, and manage files on the browser instance.
   name: Kernel Browser Filesystem API
   slug: kernel-so-browser-filesystem-api
-- description: Stream logs from the browser instance.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Stream logs from the browser instance.
   name: Kernel Browser Logs API
   slug: kernel-so-browser-logs-api
-- description: Execute Playwright code against the browser instance.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Execute Playwright code against the browser instance.
   name: Kernel Browser Playwright API
   slug: kernel-so-browser-playwright-api
-- description: Create and manage browser pools for acquiring and releasing browsers.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage browser pools for acquiring and releasing browsers.
   name: Kernel Browser Pools API
   slug: kernel-so-browser-pools-api
-- description: Execute and manage processes on the browser instance.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Execute and manage processes on the browser instance.
   name: Kernel Browser Processes API
   slug: kernel-so-browser-processes-api
-- description: Record and manage browser session video replays.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Record and manage browser session video replays.
   name: Kernel Browser Replays API
   slug: kernel-so-browser-replays-api
-- description: Stream live telemetry events from a browser session.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Stream live telemetry events from a browser session.
   name: Kernel Browser Telemetry API
   slug: kernel-so-browser-telemetry-api
-- description: Create and manage browser sessions.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage browser sessions.
   name: Kernel Browsers API
   slug: kernel-so-browsers-api
-- description: Configure external credential providers like 1Password.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Configure external credential providers like 1Password.
   name: Kernel Credential Providers API
   slug: kernel-so-credential-providers-api
-- description: Create and manage credentials for authentication.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage credentials for authentication.
   name: Kernel Credentials API
   slug: kernel-so-credentials-api
-- description: Create and manage app deployments and stream deployment events.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage app deployments and stream deployment events.
   name: Kernel Deployments API
   slug: kernel-so-deployments-api
-- description: Create, list, retrieve, and delete browser extensions.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create, list, retrieve, and delete browser extensions.
   name: Kernel Extensions API
   slug: kernel-so-extensions-api
-- description: Invoke actions and stream or query invocation status and events.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Invoke actions and stream or query invocation status and events.
   name: Kernel Invocations API
   slug: kernel-so-invocations-api
-- description: Create and manage auth connections for automated credential capture and login.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage auth connections for automated credential capture and login.
   name: Kernel Managed Auth API
   slug: kernel-so-managed-auth-api
-- description: Create, list, retrieve, and delete browser profiles.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create, list, retrieve, and delete browser profiles.
   name: Kernel Profiles API
   slug: kernel-so-profiles-api
-- description: Create and manage projects for resource isolation within an organization.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage projects for resource isolation within an organization.
   name: Kernel Projects API
   slug: kernel-so-projects-api
-- description: Create and manage proxy configurations for routing browser traffic.
+- baseURL: https://api.onkernel.com
+  baseurl_source: declared
+  description: Create and manage proxy configurations for routing browser traffic.
   name: Kernel Proxies API
   slug: kernel-so-proxies-api
 artifact_total: 50
@@ -329,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png
 security:

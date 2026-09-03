@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: The Shell Aviation Fuel Reseller API enables aviation fuel resellers and operators to manage fuel procurement, pricing queries, order placement, and delivery logistics for Shell Aviation fuel products
   name: Shell Aviation Fuel Reseller API
   slug: aviation-fuel-reseller
-- description: Manage loyalty accounts
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Manage loyalty accounts
   name: Shell Accounts API
   slug: shell-accounts-api
-- description: Manage B2B fuel cards
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Manage B2B fuel cards
   name: Shell Cards API
   slug: shell-cards-api
-- description: Browse loyalty rewards catalogue
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Browse loyalty rewards catalogue
   name: Shell Catalogue API
   slug: shell-catalogue-api
-- description: Manage fuel card invoices
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Manage fuel card invoices
   name: Shell Invoices API
   slug: shell-invoices-api
-- description: Manage card spending limits and restrictions
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Manage card spending limits and restrictions
   name: Shell Limits API
   slug: shell-limits-api
-- description: Manage loyalty offers
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Manage loyalty offers
   name: Shell Offers API
   slug: shell-offers-api
-- description: Manage lubricants orders
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Manage lubricants orders
   name: Shell Orders API
   slug: shell-orders-api
-- description: Query and manage loyalty points
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Query and manage loyalty points
   name: Shell Points API
   slug: shell-points-api
-- description: Browse lubricants product catalogue
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Browse lubricants product catalogue
   name: Shell Products API
   slug: shell-products-api
-- description: Query Shell fuel and EV charging sites
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Query Shell fuel and EV charging sites
   name: Shell Sites API
   slug: shell-sites-api
-- description: Retrieve fuel card transaction data
+- baseURL: https://api.shell.com/mobility/v2
+  baseurl_source: spec
+  description: Retrieve fuel card transaction data
   name: Shell Transactions API
   slug: shell-transactions-api
 artifact_total: 82
@@ -443,7 +465,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

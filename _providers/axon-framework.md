@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 20 operations · 9 acting
 api_count: 1
 apis:
-- description: The Applications API from Axon Framework — 1 operation(s) for applications.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Applications API from Axon Framework — 1 operation(s) for applications.
   name: Axon Framework Applications API
   slug: axon-framework-applications-api
-- description: The Cluster API from Axon Framework — 2 operation(s) for cluster.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Cluster API from Axon Framework — 2 operation(s) for cluster.
   name: Axon Framework Cluster API
   slug: axon-framework-cluster-api
-- description: The Commands API from Axon Framework — 1 operation(s) for commands.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Commands API from Axon Framework — 1 operation(s) for commands.
   name: Axon Framework Commands API
   slug: axon-framework-commands-api
-- description: The Contexts API from Axon Framework — 2 operation(s) for contexts.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Contexts API from Axon Framework — 2 operation(s) for contexts.
   name: Axon Framework Contexts API
   slug: axon-framework-contexts-api
-- description: The Event Processors API from Axon Framework — 3 operation(s) for event processors.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Event Processors API from Axon Framework — 3 operation(s) for event processors.
   name: Axon Framework Event Processors API
   slug: axon-framework-event-processors-api
-- description: The Events API from Axon Framework — 2 operation(s) for events.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Events API from Axon Framework — 2 operation(s) for events.
   name: Axon Framework Events API
   slug: axon-framework-events-api
-- description: The Queries API from Axon Framework — 1 operation(s) for queries.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Queries API from Axon Framework — 1 operation(s) for queries.
   name: Axon Framework Queries API
   slug: axon-framework-queries-api
-- description: The Snapshots API from Axon Framework — 1 operation(s) for snapshots.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Snapshots API from Axon Framework — 1 operation(s) for snapshots.
   name: Axon Framework Snapshots API
   slug: axon-framework-snapshots-api
-- description: The Users API from Axon Framework — 2 operation(s) for users.
+- baseURL: https://axonserver:8024
+  baseurl_source: declared
+  description: The Users API from Axon Framework — 2 operation(s) for users.
   name: Axon Framework Users API
   slug: axon-framework-users-api
 artifact_total: 76
@@ -380,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/screenshots/axon-framework-2026-06-20T172816.png
 security:

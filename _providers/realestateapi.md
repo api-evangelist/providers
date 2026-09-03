@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 9 operations · 9 acting
 api_count: 1
 apis:
-- description: Automated valuation model
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Automated valuation model
   name: RealEstateAPI AVM API
   slug: realestateapi-avm-api
-- description: Comparable property analytics
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Comparable property analytics
   name: RealEstateAPI Comparables API
   slug: realestateapi-comparables-api
-- description: Involuntary lien records
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Involuntary lien records
   name: RealEstateAPI Liens API
   slug: realestateapi-liens-api
-- description: MLS listing data
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: MLS listing data
   name: RealEstateAPI MLS API
   slug: realestateapi-mls-api
-- description: Parcel boundary and GIS data
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Parcel boundary and GIS data
   name: RealEstateAPI Parcel API
   slug: realestateapi-parcel-api
-- description: Detailed property records
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Detailed property records
   name: RealEstateAPI Property Detail API
   slug: realestateapi-property-detail-api
-- description: Search and filter properties
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Search and filter properties
   name: RealEstateAPI Property Search API
   slug: realestateapi-property-search-api
-- description: Owner contact tracing
+- baseURL: https://api.realestateapi.com
+  baseurl_source: declared
+  description: Owner contact tracing
   name: RealEstateAPI Skip Trace API
   slug: realestateapi-skip-trace-api
 artifact_total: 24
@@ -213,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realestateapi/refs/heads/main/screenshots/realestateapi-2026-06-20T192646.png
 security:

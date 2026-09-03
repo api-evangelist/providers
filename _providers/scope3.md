@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 69.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,157 +43,259 @@ agentic_access:
   summary_line: 30 operations · 17 acting
 api_count: 4
 apis:
-- description: The AI Impact Measurement API from Scope3 — 1 operation(s) for ai impact measurement.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The AI Impact Measurement API from Scope3 — 1 operation(s) for ai impact measurement.
   name: Scope3 AI Impact Measurement API
   slug: scope3-ai-impact-measurement-api
-- description: The Benchmarks API from Scope3 — 1 operation(s) for benchmarks.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Benchmarks API from Scope3 — 1 operation(s) for benchmarks.
   name: Scope3 Benchmarks API
   slug: scope3-benchmarks-api
-- description: The Creative API from Scope3 — 1 operation(s) for creative.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Creative API from Scope3 — 1 operation(s) for creative.
   name: Scope3 Creative API
   slug: scope3-creative-api
-- description: The Data API from Scope3 — 2 operation(s) for data.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Data API from Scope3 — 2 operation(s) for data.
   name: Scope3 Data API
   slug: scope3-data-api
-- description: The Gpu API from Scope3 — 2 operation(s) for gpu.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Gpu API from Scope3 — 2 operation(s) for gpu.
   name: Scope3 Gpu API
   slug: scope3-gpu-api
-- description: The Impact API from Scope3 — 1 operation(s) for impact.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Impact API from Scope3 — 1 operation(s) for impact.
   name: Scope3 Impact API
   slug: scope3-impact-api
-- description: The Measure API from Scope3 — 1 operation(s) for measure.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Measure API from Scope3 — 1 operation(s) for measure.
   name: Scope3 Measure API
   slug: scope3-measure-api
-- description: The Model API from Scope3 — 4 operation(s) for model.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Model API from Scope3 — 4 operation(s) for model.
   name: Scope3 Model API
   slug: scope3-model-api
-- description: The Node API from Scope3 — 2 operation(s) for node.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Node API from Scope3 — 2 operation(s) for node.
   name: Scope3 Node API
   slug: scope3-node-api
-- description: The Reload API from Scope3 — 1 operation(s) for reload.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Reload API from Scope3 — 1 operation(s) for reload.
   name: Scope3 Reload API
   slug: scope3-reload-api
-- description: The Saved Lists API from Scope3 — 1 operation(s) for saved lists.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Saved Lists API from Scope3 — 1 operation(s) for saved lists.
   name: Scope3 Saved Lists API
   slug: scope3-saved-lists-api
-- description: The Segment API from Scope3 — 2 operation(s) for segment.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Segment API from Scope3 — 2 operation(s) for segment.
   name: Scope3 Segment API
   slug: scope3-segment-api
-- description: The Signals API from Scope3 — 1 operation(s) for signals.
+- baseURL: https://api.scope3.com/v2
+  baseurl_source: declared
+  description: The Signals API from Scope3 — 1 operation(s) for signals.
   name: Scope3 Signals API
   slug: scope3-signals-api
-- description: The Status API from Scope3 — 1 operation(s) for status.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Status API from Scope3 — 1 operation(s) for status.
   name: Scope3 Status API
   slug: scope3-status-api
-- description: Account management, service tokens, and preferences
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Account management, service tokens, and preferences
   name: Scope3 Account API
   slug: scope3-account-api
-- description: The Activity API from Scope3 — 2 operation(s) for activity.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Activity API from Scope3 — 2 operation(s) for activity.
   name: Scope3 Activity API
   slug: scope3-activity-api
-- description: Manage advertisers
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Manage advertisers
   name: Scope3 Advertisers API
   slug: scope3-advertisers-api
-- description: Storefront AI token usage visibility by model
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Storefront AI token usage visibility by model
   name: Scope3 AI Usage API
   slug: scope3-ai-usage-api
-- description: What you are waiting on Scope3 for — support, product, and supply asks in one list
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: What you are waiting on Scope3 for — support, product, and supply asks in one list
   name: Scope3 Asks API
   slug: scope3-asks-api
-- description: The Audit Logs API from Scope3 — 1 operation(s) for audit logs.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Audit Logs API from Scope3 — 1 operation(s) for audit logs.
   name: Scope3 Audit Logs API
   slug: scope3-audit-logs-api
-- description: The Brands API from Scope3 — 1 operation(s) for brands.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Brands API from Scope3 — 1 operation(s) for brands.
   name: Scope3 Brands API
   slug: scope3-brands-api
-- description: Consolidated invoicing for buyers — invoices and pending invoice items issued by Scope3 across the buyer customer.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Consolidated invoicing for buyers — invoices and pending invoice items issued by Scope3 across the buyer customer.
   name: Scope3 Buyer Billing API
   slug: scope3-buyer-billing-api
-- description: Manage advertising campaigns
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Manage advertising campaigns
   name: Scope3 Campaigns API
   slug: scope3-campaigns-api
-- description: Build, manage, and sync campaign creatives via AdCP Creative Protocol
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Build, manage, and sync campaign creatives via AdCP Creative Protocol
   name: Scope3 Creatives API
   slug: scope3-creatives-api
-- description: Manage event source configurations and log conversion/marketing events for attribution
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Manage event source configurations and log conversion/marketing events for attribution
   name: Scope3 Event Sources API
   slug: scope3-event-sources-api
-- description: Model Context Protocol endpoints for AI agents
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Model Context Protocol endpoints for AI agents
   name: Scope3 MCP API
   slug: scope3-mcp-api
-- description: Measurement sources, records, context, and freshness
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Measurement sources, records, context, and freshness
   name: Scope3 Measurement API
   slug: scope3-measurement-api
-- description: The Media Billing API from Scope3 — 5 operation(s) for media billing.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Media Billing API from Scope3 — 5 operation(s) for media billing.
   name: Scope3 Media Billing API
   slug: scope3-media-billing-api
-- description: The Moderation API from Scope3 — 1 operation(s) for moderation.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Moderation API from Scope3 — 1 operation(s) for moderation.
   name: Scope3 Moderation API
   slug: scope3-moderation-api
-- description: The Notifications API from Scope3 — 4 operation(s) for notifications.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Notifications API from Scope3 — 4 operation(s) for notifications.
   name: Scope3 Notifications API
   slug: scope3-notifications-api
-- description: The Optimization Suggestions API from Scope3 — 4 operation(s) for optimization suggestions.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Optimization Suggestions API from Scope3 — 4 operation(s) for optimization suggestions.
   name: Scope3 Optimization Suggestions API
   slug: scope3-optimization-suggestions-api
-- description: Discover and select products
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Discover and select products
   name: Scope3 Product Discovery API
   slug: scope3-product-discovery-api
-- description: The Products API from Scope3 — 1 operation(s) for products.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Products API from Scope3 — 1 operation(s) for products.
   name: Scope3 Products API
   slug: scope3-products-api
-- description: Validate property lists against AAO registry
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Validate property lists against AAO registry
   name: Scope3 Property Lists API
   slug: scope3-property-lists-api
-- description: The Release Updates API from Scope3 — 2 operation(s) for release updates.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Release Updates API from Scope3 — 2 operation(s) for release updates.
   name: Scope3 Release Updates API
   slug: scope3-release-updates-api
-- description: Access performance metrics
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Access performance metrics
   name: Scope3 Reporting API
   slug: scope3-reporting-api
-- description: Request reviewed access to Interchange
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Request reviewed access to Interchange
   name: Scope3 Signup API
   slug: scope3-signup-api
-- description: Audit log of configuration and inventory changes on the storefront
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Audit log of configuration and inventory changes on the storefront
   name: Scope3 Storefront Activity API
   slug: scope3-storefront-activity-api
-- description: The Storefront Ad Server Buyer Routing API from Scope3 — 12 operation(s) for storefront ad server buyer routing.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Storefront Ad Server Buyer Routing API from Scope3 — 12 operation(s) for storefront ad server buyer routing.
   name: Scope3 Storefront Ad Server Buyer Routing API
   slug: scope3-storefront-ad-server-buyer-routing-api
-- description: The Storefront Ad Server Catalog API from Scope3 — 11 operation(s) for storefront ad server catalog.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Storefront Ad Server Catalog API from Scope3 — 11 operation(s) for storefront ad server catalog.
   name: Scope3 Storefront Ad Server Catalog API
   slug: scope3-storefront-ad-server-catalog-api
-- description: The Storefront Ad Server Diagnostics API from Scope3 — 2 operation(s) for storefront ad server diagnostics.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Storefront Ad Server Diagnostics API from Scope3 — 2 operation(s) for storefront ad server diagnostics.
   name: Scope3 Storefront Ad Server Diagnostics API
   slug: scope3-storefront-ad-server-diagnostics-api
-- description: List and manage registered sales, signals, and outcomes agents
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: List and manage registered sales, signals, and outcomes agents
   name: Scope3 Storefront Agents API
   slug: scope3-storefront-agents-api
-- description: Manage storefront and inventory sources
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Manage storefront and inventory sources
   name: Scope3 Storefront API
   slug: scope3-storefront-api
-- description: Payout bank details and billing configuration for storefronts
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Payout bank details and billing configuration for storefronts
   name: Scope3 Storefront Billing API
   slug: scope3-storefront-billing-api
-- description: The Storefront Proposals API from Scope3 — 3 operation(s) for storefront proposals.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Storefront Proposals API from Scope3 — 3 operation(s) for storefront proposals.
   name: Scope3 Storefront Proposals API
   slug: scope3-storefront-proposals-api
-- description: The Storefronts API from Scope3 — 18 operation(s) for storefronts.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Storefronts API from Scope3 — 18 operation(s) for storefronts.
   name: Scope3 Storefronts API
   slug: scope3-storefronts-api
-- description: The Supply Requests API from Scope3 — 3 operation(s) for supply requests.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Supply Requests API from Scope3 — 3 operation(s) for supply requests.
   name: Scope3 Supply Requests API
   slug: scope3-supply-requests-api
-- description: Syndicate resources to ADCP agents
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Syndicate resources to ADCP agents
   name: Scope3 Syndication API
   slug: scope3-syndication-api
-- description: Track async operation status
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: Track async operation status
   name: Scope3 Tasks API
   slug: scope3-tasks-api
-- description: The Update Proposals API from Scope3 — 1 operation(s) for update proposals.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Update Proposals API from Scope3 — 1 operation(s) for update proposals.
   name: Scope3 Update Proposals API
   slug: scope3-update-proposals-api
-- description: The Webhook Subscriptions API from Scope3 — 2 operation(s) for webhook subscriptions.
+- baseURL: https://aiapi.scope3.com
+  baseurl_source: declared
+  description: The Webhook Subscriptions API from Scope3 — 2 operation(s) for webhook subscriptions.
   name: Scope3 Webhook Subscriptions API
   slug: scope3-webhook-subscriptions-api
 artifact_total: 74
@@ -464,23 +566,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.9
+  composite: 61.5
   coverage:
     artifact_dirs: 27
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: -0.4
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 18.2
-    contract_quality: 62.8
+    contract_quality: 61.3
     developer_ergonomics: 66.7
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 62.4
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -492,7 +594,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png
 security:

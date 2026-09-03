@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,40 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Search Open Library's catalog of books, authors, lists, and subjects. Returns JSON results for full-text and faceted queries, with options for pagination, field selection, and language filtering.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: Search Open Library's catalog of books, authors, lists, and subjects. Returns JSON results for full-text and faceted queries, with options for pagination, field selection, and language filtering.
   name: Open Library Search API
   slug: open-library-search-api
 - description: Full-text search across the millions of digitized books in the Internet Archive's collection, returning matching passages and book identifiers.
   name: Open Library Search Inside API
   slug: open-library-search-inside-api
-- description: Retrieve work-level records (the abstract concept of a book independent of edition) by Open Library Work ID. Returns JSON, YAML, or RDF/XML.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: Retrieve work-level records (the abstract concept of a book independent of edition) by Open Library Work ID. Returns JSON, YAML, or RDF/XML.
   name: Open Library Works API
   slug: open-library-works-api
-- description: Retrieve edition-level records (specific printings, ISBNs, formats) by Open Library Edition ID, ISBN-10, ISBN-13, OCLC, or LCCN.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: Retrieve edition-level records (specific printings, ISBNs, formats) by Open Library Edition ID, ISBN-10, ISBN-13, OCLC, or LCCN.
   name: Open Library Editions API
   slug: open-library-editions-api
-- description: Fetch author records and their works by Open Library Author ID. Supports JSON, YAML, and RDF/XML representations.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: Fetch author records and their works by Open Library Author ID. Supports JSON, YAML, and RDF/XML representations.
   name: Open Library Authors API
   slug: open-library-authors-api
-- description: Retrieve books, works, and metadata grouped by subject (genre, topic, place, time, person) with paging and faceting.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: Retrieve books, works, and metadata grouped by subject (genre, topic, place, time, person) with paging and faceting.
   name: Open Library Subjects API
   slug: open-library-subjects-api
 - description: Retrieve book and author cover images by Open Library ID, ISBN, OCLC, LCCN, or Goodreads ID, in small, medium, and large sizes.
   name: Open Library Covers API
   slug: open-library-covers-api
-- description: Read and manage user-curated reading lists. Authenticated patrons can create lists and add or remove works, editions, and subjects.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: Read and manage user-curated reading lists. Authenticated patrons can create lists and add or remove works, editions, and subjects.
   name: Open Library Lists API
   slug: open-library-lists-api
 - description: 'Access a patron''s public reading log: Want to Read, Currently Reading, and Already Read shelves for a given Open Library account.'
@@ -76,28 +88,44 @@ apis:
 - description: Legacy partner API that returns availability and read URLs for books matched by ISBN, OCLC, LCCN, or OLID identifiers across libraries and the Internet Archive.
   name: Open Library Read API
   slug: open-library-read-api
-- description: The Authors API from Open Library — 1 operation(s) for authors.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Authors API from Open Library — 1 operation(s) for authors.
   name: Open Library Authors API
   slug: open-library-authors-api
-- description: The Editions API from Open Library — 1 operation(s) for editions.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Editions API from Open Library — 1 operation(s) for editions.
   name: Open Library Editions API
   slug: open-library-editions-api
-- description: The Lists API from Open Library — 1 operation(s) for lists.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Lists API from Open Library — 1 operation(s) for lists.
   name: Open Library Lists API
   slug: open-library-lists-api
-- description: The Recentchanges.json API from Open Library — 1 operation(s) for recentchanges.json.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Recentchanges.json API from Open Library — 1 operation(s) for recentchanges.json.
   name: Open Library Recentchanges.json API
   slug: open-library-recentchanges-json-api
-- description: The Search API from Open Library — 2 operation(s) for search.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Search API from Open Library — 2 operation(s) for search.
   name: Open Library Search API
   slug: open-library-search-api
-- description: The Search.json API from Open Library — 1 operation(s) for search.json.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Search.json API from Open Library — 1 operation(s) for search.json.
   name: Open Library Search.json API
   slug: open-library-search-json-api
-- description: The Subjects API from Open Library — 1 operation(s) for subjects.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Subjects API from Open Library — 1 operation(s) for subjects.
   name: Open Library Subjects API
   slug: open-library-subjects-api
-- description: The Works API from Open Library — 1 operation(s) for works.
+- baseURL: https://openlibrary.org
+  baseurl_source: spec
+  description: The Works API from Open Library — 1 operation(s) for works.
   name: Open Library Works API
   slug: open-library-works-api
 artifact_total: 34
@@ -231,7 +259,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/screenshots/open-library-2026-06-20T190844.png
 security:

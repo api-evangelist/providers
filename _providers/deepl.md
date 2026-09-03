@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 15 operations · 6 acting
 api_count: 1
 apis:
-- description: The DeepL Voice API provides real-time speech transcription and translation. A POST to /v3/voice/realtime issues an ephemeral token and WebSocket streaming URL; clients then open a WSS channel to stre
+- baseURL: https://api.deepl.com/v3
+  baseurl_source: declared
+  description: The DeepL Voice API provides real-time speech transcription and translation. A POST to /v3/voice/realtime issues an ephemeral token and WebSocket streaming URL; clients then open a WSS channel to stre
   name: DeepL Voice API
   slug: deepl-voice-api
-- description: The Documents API from DeepL — 3 operation(s) for documents.
+- baseURL: https://api.deepl.com/v2
+  baseurl_source: declared
+  description: The Documents API from DeepL — 3 operation(s) for documents.
   name: DeepL Documents API
   slug: deepl-documents-api
-- description: The Glossaries API from DeepL — 4 operation(s) for glossaries.
+- baseURL: https://api.deepl.com/v2
+  baseurl_source: declared
+  description: The Glossaries API from DeepL — 4 operation(s) for glossaries.
   name: DeepL Glossaries API
   slug: deepl-glossaries-api
-- description: The Languages API from DeepL — 1 operation(s) for languages.
+- baseURL: https://api.deepl.com/v2
+  baseurl_source: declared
+  description: The Languages API from DeepL — 1 operation(s) for languages.
   name: DeepL Languages API
   slug: deepl-languages-api
-- description: The Translate API from DeepL — 1 operation(s) for translate.
+- baseURL: https://api.deepl.com/v2
+  baseurl_source: declared
+  description: The Translate API from DeepL — 1 operation(s) for translate.
   name: DeepL Translate API
   slug: deepl-translate-api
-- description: The Usage API from DeepL — 1 operation(s) for usage.
+- baseURL: https://api.deepl.com/v2
+  baseurl_source: declared
+  description: The Usage API from DeepL — 1 operation(s) for usage.
   name: DeepL Usage API
   slug: deepl-usage-api
-- description: The Write API from DeepL — 1 operation(s) for write.
+- baseURL: https://api.deepl.com/v2
+  baseurl_source: declared
+  description: The Write API from DeepL — 1 operation(s) for write.
   name: DeepL Write API
   slug: deepl-write-api
 artifact_total: 38
@@ -281,7 +295,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -291,7 +305,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -300,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:

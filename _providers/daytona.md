@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 238 operations · 130 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: The admin API from Daytona — 15 operation(s) for admin.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The admin API from Daytona — 15 operation(s) for admin.
   name: Daytona admin API
   slug: daytona-admin-api
-- description: The api-keys API from Daytona — 4 operation(s) for api-keys.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The api-keys API from Daytona — 4 operation(s) for api-keys.
   name: Daytona api-keys API
   slug: daytona-api-keys-api
-- description: The audit API from Daytona — 1 operation(s) for audit.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The audit API from Daytona — 1 operation(s) for audit.
   name: Daytona audit API
   slug: daytona-audit-api
-- description: The config API from Daytona — 1 operation(s) for config.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The config API from Daytona — 1 operation(s) for config.
   name: Daytona config API
   slug: daytona-config-api
-- description: The docker-registry API from Daytona — 3 operation(s) for docker-registry.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The docker-registry API from Daytona — 3 operation(s) for docker-registry.
   name: Daytona docker-registry API
   slug: daytona-docker-registry-api
-- description: The Health API from Daytona — 2 operation(s) for health.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Health API from Daytona — 2 operation(s) for health.
   name: Daytona Health API
   slug: daytona-health-api
-- description: The jobs API from Daytona — 4 operation(s) for jobs.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The jobs API from Daytona — 4 operation(s) for jobs.
   name: Daytona jobs API
   slug: daytona-jobs-api
-- description: The object-storage API from Daytona — 1 operation(s) for object-storage.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The object-storage API from Daytona — 1 operation(s) for object-storage.
   name: Daytona object-storage API
   slug: daytona-object-storage-api
-- description: The organizations API from Daytona — 30 operation(s) for organizations.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The organizations API from Daytona — 30 operation(s) for organizations.
   name: Daytona organizations API
   slug: daytona-organizations-api
-- description: The preview API from Daytona — 4 operation(s) for preview.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The preview API from Daytona — 4 operation(s) for preview.
   name: Daytona preview API
   slug: daytona-preview-api
-- description: The regions API from Daytona — 1 operation(s) for regions.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The regions API from Daytona — 1 operation(s) for regions.
   name: Daytona regions API
   slug: daytona-regions-api
-- description: The runners API from Daytona — 9 operation(s) for runners.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The runners API from Daytona — 9 operation(s) for runners.
   name: Daytona runners API
   slug: daytona-runners-api
-- description: The sandbox API from Daytona — 37 operation(s) for sandbox.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The sandbox API from Daytona — 37 operation(s) for sandbox.
   name: Daytona sandbox API
   slug: daytona-sandbox-api
-- description: The snapshots API from Daytona — 6 operation(s) for snapshots.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The snapshots API from Daytona — 6 operation(s) for snapshots.
   name: Daytona snapshots API
   slug: daytona-snapshots-api
-- description: The toolbox API from Daytona — 61 operation(s) for toolbox.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The toolbox API from Daytona — 61 operation(s) for toolbox.
   name: Daytona toolbox API
   slug: daytona-toolbox-api
-- description: The users API from Daytona — 5 operation(s) for users.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The users API from Daytona — 5 operation(s) for users.
   name: Daytona users API
   slug: daytona-users-api
-- description: The volumes API from Daytona — 3 operation(s) for volumes.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The volumes API from Daytona — 3 operation(s) for volumes.
   name: Daytona volumes API
   slug: daytona-volumes-api
-- description: The webhooks API from Daytona — 3 operation(s) for webhooks.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The webhooks API from Daytona — 3 operation(s) for webhooks.
   name: Daytona webhooks API
   slug: daytona-webhooks-api
-- description: The workspace API from Daytona — 12 operation(s) for workspace.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The workspace API from Daytona — 12 operation(s) for workspace.
   name: Daytona workspace API
   slug: daytona-workspace-api
-- description: The Daytona API from Daytona — 0 operation(s) for daytona.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona API from Daytona — 0 operation(s) for daytona.
   name: Daytona Daytona API
   slug: daytona-daytona-api
 artifact_total: 47
@@ -268,7 +308,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -281,7 +321,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 41.8
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -290,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/screenshots/daytona-2026-06-20T175735.png
 security:

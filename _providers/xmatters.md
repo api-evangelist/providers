@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ apis:
 - description: REST API for managing people, groups, devices, on-call schedules, events, conferences, scenarios, sites, and integrations in xMatters. The base URL identifies the customer instance and uses the path /
   name: xMatters REST API
   slug: rest-api
-- description: The Devices API from xMatters — 2 operation(s) for devices.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Devices API from xMatters — 2 operation(s) for devices.
   name: xMatters Devices API
   slug: xmatters-devices-api
-- description: The Events API from xMatters — 3 operation(s) for events.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Events API from xMatters — 3 operation(s) for events.
   name: xMatters Events API
   slug: xmatters-events-api
-- description: The Groups API from xMatters — 3 operation(s) for groups.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Groups API from xMatters — 3 operation(s) for groups.
   name: xMatters Groups API
   slug: xmatters-groups-api
-- description: The Integrations API from xMatters — 1 operation(s) for integrations.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Integrations API from xMatters — 1 operation(s) for integrations.
   name: xMatters Integrations API
   slug: xmatters-integrations-api
-- description: The OnCall API from xMatters — 1 operation(s) for oncall.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The OnCall API from xMatters — 1 operation(s) for oncall.
   name: xMatters OnCall API
   slug: xmatters-oncall-api
-- description: The People API from xMatters — 4 operation(s) for people.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The People API from xMatters — 4 operation(s) for people.
   name: xMatters People API
   slug: xmatters-people-api
-- description: The Plans API from xMatters — 2 operation(s) for plans.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Plans API from xMatters — 2 operation(s) for plans.
   name: xMatters Plans API
   slug: xmatters-plans-api
-- description: The Scenarios API from xMatters — 1 operation(s) for scenarios.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Scenarios API from xMatters — 1 operation(s) for scenarios.
   name: xMatters Scenarios API
   slug: xmatters-scenarios-api
-- description: The Services API from xMatters — 1 operation(s) for services.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Services API from xMatters — 1 operation(s) for services.
   name: xMatters Services API
   slug: xmatters-services-api
-- description: The Shifts API from xMatters — 1 operation(s) for shifts.
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The Shifts API from xMatters — 1 operation(s) for shifts.
   name: xMatters Shifts API
   slug: xmatters-shifts-api
 artifact_total: 28
@@ -224,7 +244,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/screenshots/xmatters-2026-06-20T201707.png
 security:

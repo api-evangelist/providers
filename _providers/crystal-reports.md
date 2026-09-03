@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: API for Crystal Reports Server administration and report management.
   name: Crystal Reports Server REST API
   slug: server-rest-api
-- description: Logon and session management
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: Logon and session management
   name: Crystal Reports Authentication API
   slug: crystal-reports-authentication-api
-- description: Report export to various formats
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: Report export to various formats
   name: Crystal Reports Export API
   slug: crystal-reports-export-api
-- description: Transient report instance management
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: Transient report instance management
   name: Crystal Reports Instances API
   slug: crystal-reports-instances-api
-- description: Report structure and metadata
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: Report structure and metadata
   name: Crystal Reports Metadata API
   slug: crystal-reports-metadata-api
-- description: OData data service for report row and summary data
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: OData data service for report row and summary data
   name: Crystal Reports OData API
   slug: crystal-reports-odata-api
-- description: Report summary and URI information
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: Report summary and URI information
   name: Crystal Reports Reports API
   slug: crystal-reports-reports-api
-- description: Infostore repository navigation and folder browsing
+- baseURL: https://api.sap.com/crystal/v1
+  baseurl_source: declared
+  description: Infostore repository navigation and folder browsing
   name: Crystal Reports Repository API
   slug: crystal-reports-repository-api
 artifact_total: 115
@@ -451,7 +465,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystal-reports/refs/heads/main/screenshots/crystal-reports-2026-06-20T175319.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,34 +36,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Health API from Lucra Sports — 1 operation(s) for health.
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: The Health API from Lucra Sports — 1 operation(s) for health.
   name: Lucra Sports Health API
   slug: lucra-sports-health-api
-- description: The Locations API from Lucra Sports — 1 operation(s) for locations.
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: The Locations API from Lucra Sports — 1 operation(s) for locations.
   name: Lucra Sports Locations API
   slug: lucra-sports-locations-api
-- description: The Recreational Games API from Lucra Sports — 5 operation(s) for recreational games.
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: The Recreational Games API from Lucra Sports — 5 operation(s) for recreational games.
   name: Lucra Sports Recreational Games API
   slug: lucra-sports-recreational-games-api
-- description: The States API from Lucra Sports — 1 operation(s) for states.
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: The States API from Lucra Sports — 1 operation(s) for states.
   name: Lucra Sports States API
   slug: lucra-sports-states-api
-- description: The TenantTagGroups API from Lucra Sports — 4 operation(s) for tenanttaggroups.
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: The TenantTagGroups API from Lucra Sports — 4 operation(s) for tenanttaggroups.
   name: Lucra Sports Tenant Tag Groups API
   slug: lucra-sports-tenanttaggroups-api
-- description: 'Modular tournament management endpoints. Unlike the legacy API which returns everything in a single call, the v2 API separates concerns into dedicated resources: | Resource | Path | Purpose | |-------'
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: 'Modular tournament management endpoints. Unlike the legacy API which returns everything in a single call, the v2 API separates concerns into dedicated resources: | Resource | Path | Purpose | |-------'
   name: Lucra Sports Tournaments API
   slug: lucra-sports-tournaments-api
-- description: 'Drop-in replacement endpoints for the original tournament API operations. Request/response shapes are identical. --- ## Tournament Types ### CASH_FIXED The total prize pool is defined upfront and has '
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: 'Drop-in replacement endpoints for the original tournament API operations. Request/response shapes are identical. --- ## Tournament Types ### CASH_FIXED The total prize pool is defined upfront and has '
   name: Lucra Sports Tournaments (Legacy) API
   slug: lucra-sports-tournaments-legacy-api
-- description: The User Score API from Lucra Sports — 1 operation(s) for user score.
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: The User Score API from Lucra Sports — 1 operation(s) for user score.
   name: Lucra Sports User Score API
   slug: lucra-sports-user-score-api
-- description: 'Manage webhook configurations to receive real-time event notifications via HTTP POST requests. --- ## Available Event Types | Event | Description | |-------|-------------| | `UserSignedUp` | New user '
+- baseURL: https://forge.lucrasports.com
+  baseurl_source: declared
+  description: 'Manage webhook configurations to receive real-time event notifications via HTTP POST requests. --- ## Available Event Types | Event | Description | |-------|-------------| | `UserSignedUp` | New user '
   name: Lucra Sports Webhooks API
   slug: lucra-sports-webhooks-api
 artifact_total: 15
@@ -233,23 +264,23 @@ rate_limits:
   slug: lucra-sports-rate-limits
 score:
   band: strong
-  composite: 56.8
+  composite: 57.3
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 59.3
+    contract_quality: 61.3
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 56.2
+  previous_composite: 56.8
   provenance:
     conformance: derived
     contracts:
@@ -266,8 +297,9 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lucra-sports/refs/heads/main/screenshots/lucra-sports-2026-09-02T150330.png
 security:
 - kind: authentication
   name: Lucra Sports Authentication

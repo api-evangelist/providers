@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 93 operations · 48 acting
 api_count: 6
 apis:
-- description: Endpoints for configuring alert notifications when tests fail, including integrations with PagerDuty, Slack, and Twilio.
+- baseURL: https://testing.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for configuring alert notifications when tests fail, including integrations with PagerDuty, Slack, and Twilio.
   name: RapidAPI Alerts API
   slug: rapidapi-alerts-api
-- description: Endpoints for retrieving gateway traffic analytics, including request counts, response times, error rates, and usage patterns.
+- baseURL: https://gateway.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for retrieving gateway traffic analytics, including request counts, response times, error rates, and usage patterns.
   name: RapidAPI Analytics API
   slug: rapidapi-analytics-api
-- description: The Apis API from RapidAPI — 6 operation(s) for apis.
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: The Apis API from RapidAPI — 6 operation(s) for apis.
   name: RapidAPI Apis API
   slug: rapidapi-apis-api
-- description: Endpoints for creating, updating, and deleting applications and their associated authorizations within the Enterprise Hub.
+- baseURL: https://platform.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for creating, updating, and deleting applications and their associated authorizations within the Enterprise Hub.
   name: RapidAPI Applications API
   slug: rapidapi-applications-api
-- description: Endpoints for configuring authentication schemes on gateways, including OAuth2, API key, header-based, and basic authentication.
+- baseURL: https://gateway.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for configuring authentication schemes on gateways, including OAuth2, API key, header-based, and basic authentication.
   name: RapidAPI Authentication API
   slug: rapidapi-authentication-api
-- description: Endpoints for browsing API categories available on the marketplace, including Data, Sports, Finance, Travel, and Entertainment.
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: Endpoints for browsing API categories available on the marketplace, including Data, Sports, Finance, Travel, and Entertainment.
   name: RapidAPI Categories API
   slug: rapidapi-categories-api
-- description: Endpoints for browsing curated API collections organized around themes such as Top Meme APIs, Top Geocoding APIs, and other groupings.
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: Endpoints for browsing curated API collections organized around themes such as Top Meme APIs, Top Geocoding APIs, and other groupings.
   name: RapidAPI Collections API
   slug: rapidapi-collections-api
-- description: Endpoints for importing, exporting, and managing API definitions such as OpenAPI specifications and Postman Collections.
+- baseURL: https://studio.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for importing, exporting, and managing API definitions such as OpenAPI specifications and Postman Collections.
   name: RapidAPI Definitions API
   slug: rapidapi-definitions-api
-- description: Endpoints for generating and managing API documentation from project definitions and endpoint configurations.
+- baseURL: https://studio.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for generating and managing API documentation from project definitions and endpoint configurations.
   name: RapidAPI Documentation API
   slug: rapidapi-documentation-api
-- description: Endpoints for managing API endpoint configurations within a project, including creating, updating, and organizing endpoint groups.
+- baseURL: https://studio.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing API endpoint configurations within a project, including creating, updating, and organizing endpoint groups.
   name: RapidAPI Endpoints API
   slug: rapidapi-endpoints-api
-- description: Endpoints for managing test environments with variable sets that can be used across tests for different deployment stages.
+- baseURL: https://testing.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing test environments with variable sets that can be used across tests for different deployment stages.
   name: RapidAPI Environments API
   slug: rapidapi-environments-api
-- description: Endpoints for viewing test execution results, including pass/fail statuses, response times, and detailed assertion outcomes.
+- baseURL: https://testing.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for viewing test execution results, including pass/fail statuses, response times, and detailed assertion outcomes.
   name: RapidAPI Executions API
   slug: rapidapi-executions-api
-- description: Endpoints for managing gateway instances, including creating, configuring, and monitoring custom API gateways.
+- baseURL: https://gateway.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing gateway instances, including creating, configuring, and monitoring custom API gateways.
   name: RapidAPI Gateways API
   slug: rapidapi-gateways-api
-- description: The single GraphQL endpoint that accepts all queries and mutations for managing the Enterprise Hub, including APIs, collections, organizations, users, and hub configuration.
+- baseURL: https://platform.rapidapi.com
+  baseurl_source: spec
+  description: The single GraphQL endpoint that accepts all queries and mutations for managing the Enterprise Hub, including APIs, collections, organizations, users, and hub configuration.
   name: RapidAPI GraphQL API
   slug: rapidapi-graphql-api
-- description: Endpoints for listing available monitoring locations across global AWS regions where tests can be executed.
+- baseURL: https://testing.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for listing available monitoring locations across global AWS regions where tests can be executed.
   name: RapidAPI Locations API
   slug: rapidapi-locations-api
-- description: Endpoints for managing organizations within the Enterprise Hub, including listing, creating, and updating organization configurations.
+- baseURL: https://platform.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing organizations within the Enterprise Hub, including listing, creating, and updating organization configurations.
   name: RapidAPI Organizations API
   slug: rapidapi-organizations-api
-- description: Endpoints for managing API projects within Studio, including creating, listing, updating, and deleting projects.
+- baseURL: https://studio.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing API projects within Studio, including creating, listing, updating, and deleting projects.
   name: RapidAPI Projects API
   slug: rapidapi-projects-api
-- description: Endpoints for configuring rate limiting policies to protect APIs from overuse, including request limits, quota management, and request size limits.
+- baseURL: https://gateway.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for configuring rate limiting policies to protect APIs from overuse, including request limits, quota management, and request size limits.
   name: RapidAPI Rate Limiting API
   slug: rapidapi-rate-limiting-api
-- description: Endpoints for managing saved API requests within a project, including importing from spec files and organizing into groups.
+- baseURL: https://studio.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing saved API requests within a project, including importing from spec files and organizing into groups.
   name: RapidAPI Requests API
   slug: rapidapi-requests-api
-- description: Endpoints for configuring request routing rules that determine how incoming API requests are forwarded to backend services.
+- baseURL: https://gateway.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for configuring request routing rules that determine how incoming API requests are forwarded to backend services.
   name: RapidAPI Routes API
   slug: rapidapi-routes-api
-- description: Endpoints for managing test schedules, including frequency, environment, and location settings for automated monitoring.
+- baseURL: https://testing.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing test schedules, including frequency, environment, and location settings for automated monitoring.
   name: RapidAPI Schedules API
   slug: rapidapi-schedules-api
-- description: Endpoints for searching and discovering APIs by keyword, category, collection, or advanced filters across the RapidAPI marketplace.
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: Endpoints for searching and discovering APIs by keyword, category, collection, or advanced filters across the RapidAPI marketplace.
   name: RapidAPI Search API
   slug: rapidapi-search-api
-- description: Endpoints for configuring security policies such as IP allow and deny lists, CORS settings, and proxy secret validation.
+- baseURL: https://gateway.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for configuring security policies such as IP allow and deny lists, CORS settings, and proxy secret validation.
   name: RapidAPI Security API
   slug: rapidapi-security-api
-- description: Endpoints for generating code snippets for API calls in multiple programming languages and libraries.
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: Endpoints for generating code snippets for API calls in multiple programming languages and libraries.
   name: RapidAPI Snippets API
   slug: rapidapi-snippets-api
-- description: Endpoints for managing API subscriptions, including subscribing to API plans, viewing active subscriptions, and usage analytics.
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: Endpoints for managing API subscriptions, including subscribing to API plans, viewing active subscriptions, and usage analytics.
   name: RapidAPI Subscriptions API
   slug: rapidapi-subscriptions-api
-- description: The Tags API from RapidAPI — 2 operation(s) for tags.
+- baseURL: https://platform.rapidapi.com/v1
+  baseurl_source: spec
+  description: The Tags API from RapidAPI — 2 operation(s) for tags.
   name: RapidAPI Tags API
   slug: rapidapi-tags-api
-- description: Endpoints for creating, reading, updating, deleting, and executing API tests, including functional and performance test flows.
+- baseURL: https://testing.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for creating, reading, updating, deleting, and executing API tests, including functional and performance test flows.
   name: RapidAPI Tests API
   slug: rapidapi-tests-api
-- description: Endpoints for viewing and managing API transaction records, including usage data and billing information.
+- baseURL: https://platform.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for viewing and managing API transaction records, including usage data and billing information.
   name: RapidAPI Transactions API
   slug: rapidapi-transactions-api
-- description: Endpoints for managing users within the Enterprise Hub, including user roles, permissions, and account configurations.
+- baseURL: https://platform.rapidapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for managing users within the Enterprise Hub, including user roles, permissions, and account configurations.
   name: RapidAPI Users API
   slug: rapidapi-users-api
 artifact_total: 148
@@ -595,7 +653,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -605,7 +663,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 42.0
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -614,7 +672,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/screenshots/rapidapi-2026-06-20T192601.png
 security:

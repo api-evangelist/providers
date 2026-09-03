@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: EXIM Bank publishes open government datasets through the federal Data.gov catalog. Datasets include export authorization records from 2006 onward, accessible programmatically via the Socrata Open Data
   name: EXIM Open Data API
   slug: open-data
-- description: The Resource API from Export-Import Bank of the United States — 2 operation(s) for resource.
+- baseURL: https://data.exim.gov
+  baseurl_source: spec
+  description: The Resource API from Export-Import Bank of the United States — 2 operation(s) for resource.
   name: Export-Import Bank of the United States Resource API
   slug: export-import-bank-of-the-united-states-resource-api
-- description: The Views API from Export-Import Bank of the United States — 1 operation(s) for views.
+- baseURL: https://data.exim.gov
+  baseurl_source: spec
+  description: The Views API from Export-Import Bank of the United States — 1 operation(s) for views.
   name: Export-Import Bank of the United States Views API
   slug: export-import-bank-of-the-united-states-views-api
 artifact_total: 27
@@ -190,7 +194,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/export-import-bank-of-the-united-states/refs/heads/main/screenshots/export-import-bank-of-the-united-states-2026-06-20T180939.png
 security:

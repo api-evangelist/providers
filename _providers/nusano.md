@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,37 +35,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
 - description: A Model Context Protocol server endpoint advertised in the nusano.com WordPress REST route index under the "mcp" namespace and served at /wp-json/mcp/mcp-adapter-default-server. The endpoint is live b
   name: Nusano MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: News releases, event notices and Nu Blog posts from nusano.com, served as JSON by the WordPress content REST API. 109 posts were readable anonymously on 2026-08-26.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: News releases, event notices and Nu Blog posts from nusano.com, served as JSON by the WordPress content REST API. 109 posts were readable anonymously on 2026-08-26.
   name: Nusano Posts API
   slug: posts
-- description: Marketing, company, technology and HALEU Knowledge Center pages from nusano.com, served as JSON. 47 pages were readable anonymously on 2026-08-26.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Marketing, company, technology and HALEU Knowledge Center pages from nusano.com, served as JSON. 47 pages were readable anonymously on 2026-08-26.
   name: Nusano Pages API
   slug: pages
-- description: The nusano.com media library — facility photography, logos, media-kit assets and documents — served as JSON. 1,127 media items were readable anonymously on 2026-08-26.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The nusano.com media library — facility photography, logos, media-kit assets and documents — served as JSON. 1,127 media items were readable anonymously on 2026-08-26.
   name: Nusano Media API
   slug: media
-- description: The category taxonomy applied to Nusano news and blog content (14 categories on 2026-08-26).
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The category taxonomy applied to Nusano news and blog content (14 categories on 2026-08-26).
   name: Nusano Categories API
   slug: categories
-- description: The tag taxonomy applied to Nusano news and blog content (310 tags on 2026-08-26).
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The tag taxonomy applied to Nusano news and blog content (310 tags on 2026-08-26).
   name: Nusano Tags API
   slug: tags
-- description: Publicly listed content authors on nusano.com (2 on 2026-08-26). Write routes and the application-password routes on this collection are authentication-gated.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Publicly listed content authors on nusano.com (2 on 2026-08-26). Write routes and the application-password routes on this collection are authentication-gated.
   name: Nusano Users API
   slug: users
-- description: The comment collection for nusano.com. The route is live and anonymously readable but returns an empty set — comments are closed across the site.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The comment collection for nusano.com. The route is live and anonymously readable but returns an empty set — comments are closed across the site.
   name: Nusano Comments API
   slug: comments
-- description: Site-wide search across nusano.com posts and pages, returning 156 searchable objects on 2026-08-26.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Site-wide search across nusano.com posts and pages, returning 156 searchable objects on 2026-08-26.
   name: Nusano Search API
   slug: search
-- description: Type, taxonomy and status descriptors that describe the shape of the nusano.com content collections — the self-describing layer of the WordPress REST API.
+- baseURL: https://nusano.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Type, taxonomy and status descriptors that describe the shape of the nusano.com content collections — the self-describing layer of the WordPress REST API.
   name: Nusano Discovery API
   slug: discovery
 artifact_total: 15
@@ -202,18 +232,18 @@ rate_limits:
   slug: nusano-rate-limits
 score:
   band: emerging
-  composite: 24.5
+  composite: 25.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 17.1
+    contract_quality: 20.5
     developer_ergonomics: 20.8
     discoverability: 81.5
     governance: 4.5
@@ -235,8 +265,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nusano/refs/heads/main/screenshots/nusano-2026-09-02T150818.png
 security:
 - kind: authentication
   name: Nusano Authentication

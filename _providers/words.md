@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 30 operations
 api_count: 9
 apis:
-- description: Words API Category, Region, and Domain-Usage Relationships.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Category, Region, and Domain-Usage Relationships.
   name: Words API Categories API
   slug: words-categories-api
-- description: Words API Sense-level Definitions Grouped by Part of Speech.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Sense-level Definitions Grouped by Part of Speech.
   name: Words API Definitions API
   slug: words-definitions-api
-- description: Words API Real-world Example Sentences for Each Sense.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Real-world Example Sentences for Each Sense.
   name: Words API Examples API
   slug: words-examples-api
-- description: Words API Corpus-derived Frequency Statistics (Zipf, perMillion, diversity).
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Corpus-derived Frequency Statistics (Zipf, perMillion, diversity).
   name: Words API Frequency API
   slug: words-frequency-api
-- description: Words API Lexical Hierarchies — typeOf, hasTypes, partOf, hasParts, instances.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Lexical Hierarchies — typeOf, hasTypes, partOf, hasParts, instances.
   name: Words API Hierarchy API
   slug: words-hierarchy-api
-- description: Words API Pronunciation (IPA), Syllables, and Rhymes.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Pronunciation (IPA), Syllables, and Rhymes.
   name: Words API Phonetics API
   slug: words-phonetics-api
-- description: Words API Search and Random Word Discovery Endpoint.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Search and Random Word Discovery Endpoint.
   name: Words API Search API
   slug: words-search-api
-- description: Words API Synonyms, Antonyms, and Similar Word Relationships.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Synonyms, Antonyms, and Similar Word Relationships.
   name: Words API Thesaurus API
   slug: words-thesaurus-api
-- description: Words API Lookup a Word and Retrieve Its Full Lexical Entry.
+- baseURL: https://wordsapiv1.p.rapidapi.com
+  baseurl_source: declared
+  description: Words API Lookup a Word and Retrieve Its Full Lexical Entry.
   name: Words API Word API
   slug: words-word-api
 artifact_total: 164
@@ -629,7 +647,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/screenshots/words-2026-06-20T201547.png
 security:

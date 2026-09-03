@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 14
@@ -77,22 +77,34 @@ apis:
 - description: The Snowpipe REST API provides REST endpoints for defining the list of files to ingest and fetching reports of the load history for continuous data loading into Snowflake.
   name: Snowpipe REST API
   slug: snowpipe-rest-api
-- description: The account API from Snowflake — 3 operation(s) for account.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The account API from Snowflake — 3 operation(s) for account.
   name: Snowflake account API
   slug: snowflake-account-api
-- description: The alert API from Snowflake — 4 operation(s) for alert.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The alert API from Snowflake — 4 operation(s) for alert.
   name: Snowflake alert API
   slug: snowflake-alert-api
-- description: The api-integration API from Snowflake — 2 operation(s) for api-integration.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The api-integration API from Snowflake — 2 operation(s) for api-integration.
   name: Snowflake api-integration API
   slug: snowflake-api-integration-api
-- description: The catalog-integration API from Snowflake — 2 operation(s) for catalog-integration.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The catalog-integration API from Snowflake — 2 operation(s) for catalog-integration.
   name: Snowflake catalog-integration API
   slug: snowflake-catalog-integration-api
-- description: The compute-pool API from Snowflake — 6 operation(s) for compute-pool.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The compute-pool API from Snowflake — 6 operation(s) for compute-pool.
   name: Snowflake compute-pool API
   slug: snowflake-compute-pool-api
-- description: The cortex-analyst API from Snowflake — 4 operation(s) for cortex-analyst.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The cortex-analyst API from Snowflake — 4 operation(s) for cortex-analyst.
   name: Snowflake cortex-analyst API
   slug: snowflake-cortex-analyst-api
 - description: The cortex-inference API from Snowflake — 2 operation(s) for cortex-inference.
@@ -101,88 +113,144 @@ apis:
 - description: The cortex search service API from Snowflake — 5 operation(s) for cortex search service.
   name: Snowflake cortex search service API
   slug: snowflake-cortex-search-service-api
-- description: The database API from Snowflake — 12 operation(s) for database.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The database API from Snowflake — 12 operation(s) for database.
   name: Snowflake database API
   slug: snowflake-database-api
-- description: The database-role API from Snowflake — 7 operation(s) for database-role.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The database-role API from Snowflake — 7 operation(s) for database-role.
   name: Snowflake database-role API
   slug: snowflake-database-role-api
-- description: The dynamic-table API from Snowflake — 10 operation(s) for dynamic-table.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The dynamic-table API from Snowflake — 10 operation(s) for dynamic-table.
   name: Snowflake dynamic-table API
   slug: snowflake-dynamic-table-api
-- description: The event-table API from Snowflake — 3 operation(s) for event-table.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The event-table API from Snowflake — 3 operation(s) for event-table.
   name: Snowflake event-table API
   slug: snowflake-event-table-api
-- description: The external-volume API from Snowflake — 3 operation(s) for external-volume.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The external-volume API from Snowflake — 3 operation(s) for external-volume.
   name: Snowflake external-volume API
   slug: snowflake-external-volume-api
-- description: The function API from Snowflake — 3 operation(s) for function.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The function API from Snowflake — 3 operation(s) for function.
   name: Snowflake function API
   slug: snowflake-function-api
-- description: The grant API from Snowflake — 7 operation(s) for grant.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The grant API from Snowflake — 7 operation(s) for grant.
   name: Snowflake grant API
   slug: snowflake-grant-api
-- description: The iceberg-table API from Snowflake — 14 operation(s) for iceberg-table.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The iceberg-table API from Snowflake — 14 operation(s) for iceberg-table.
   name: Snowflake iceberg-table API
   slug: snowflake-iceberg-table-api
-- description: The image-repository API from Snowflake — 3 operation(s) for image-repository.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The image-repository API from Snowflake — 3 operation(s) for image-repository.
   name: Snowflake image-repository API
   slug: snowflake-image-repository-api
-- description: The managed-account API from Snowflake — 2 operation(s) for managed-account.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The managed-account API from Snowflake — 2 operation(s) for managed-account.
   name: Snowflake managed-account API
   slug: snowflake-managed-account-api
-- description: The network-policy API from Snowflake — 2 operation(s) for network-policy.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The network-policy API from Snowflake — 2 operation(s) for network-policy.
   name: Snowflake network-policy API
   slug: snowflake-network-policy-api
-- description: The notebook API from Snowflake — 6 operation(s) for notebook.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The notebook API from Snowflake — 6 operation(s) for notebook.
   name: Snowflake notebook API
   slug: snowflake-notebook-api
-- description: The notification-integration API from Snowflake — 2 operation(s) for notification-integration.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The notification-integration API from Snowflake — 2 operation(s) for notification-integration.
   name: Snowflake notification-integration API
   slug: snowflake-notification-integration-api
-- description: The pipe API from Snowflake — 3 operation(s) for pipe.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The pipe API from Snowflake — 3 operation(s) for pipe.
   name: Snowflake pipe API
   slug: snowflake-pipe-api
-- description: The procedure API from Snowflake — 3 operation(s) for procedure.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The procedure API from Snowflake — 3 operation(s) for procedure.
   name: Snowflake procedure API
   slug: snowflake-procedure-api
-- description: The result API from Snowflake — 1 operation(s) for result.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The result API from Snowflake — 1 operation(s) for result.
   name: Snowflake result API
   slug: snowflake-result-api
-- description: The role API from Snowflake — 8 operation(s) for role.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The role API from Snowflake — 8 operation(s) for role.
   name: Snowflake role API
   slug: snowflake-role-api
-- description: The schema API from Snowflake — 4 operation(s) for schema.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The schema API from Snowflake — 4 operation(s) for schema.
   name: Snowflake schema API
   slug: snowflake-schema-api
-- description: The service API from Snowflake — 13 operation(s) for service.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The service API from Snowflake — 13 operation(s) for service.
   name: Snowflake service API
   slug: snowflake-service-api
-- description: The stage API from Snowflake — 4 operation(s) for stage.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The stage API from Snowflake — 4 operation(s) for stage.
   name: Snowflake stage API
   slug: snowflake-stage-api
-- description: The statements API from Snowflake — 3 operation(s) for statements.
+- baseURL_template: https://{account}.snowflakecomputing.com
+  baseurl_source: spec_template
+  description: The statements API from Snowflake — 3 operation(s) for statements.
   name: Snowflake statements API
   slug: snowflake-statements-api
-- description: The stream API from Snowflake — 3 operation(s) for stream.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The stream API from Snowflake — 3 operation(s) for stream.
   name: Snowflake stream API
   slug: snowflake-stream-api
-- description: The table API from Snowflake — 16 operation(s) for table.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The table API from Snowflake — 16 operation(s) for table.
   name: Snowflake table API
   slug: snowflake-table-api
-- description: The task API from Snowflake — 10 operation(s) for task.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The task API from Snowflake — 10 operation(s) for task.
   name: Snowflake task API
   slug: snowflake-task-api
-- description: The user API from Snowflake — 4 operation(s) for user.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The user API from Snowflake — 4 operation(s) for user.
   name: Snowflake user API
   slug: snowflake-user-api
-- description: The user-defined-function API from Snowflake — 3 operation(s) for user-defined-function.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The user-defined-function API from Snowflake — 3 operation(s) for user-defined-function.
   name: Snowflake user-defined-function API
   slug: snowflake-user-defined-function-api
-- description: The view API from Snowflake — 2 operation(s) for view.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The view API from Snowflake — 2 operation(s) for view.
   name: Snowflake view API
   slug: snowflake-view-api
-- description: The warehouse API from Snowflake — 9 operation(s) for warehouse.
+- baseURL: https://org-account.snowflakecomputing.com
+  baseurl_source: spec
+  description: The warehouse API from Snowflake — 9 operation(s) for warehouse.
   name: Snowflake warehouse API
   slug: snowflake-warehouse-api
 arazzos:
@@ -4333,7 +4401,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png
 security:

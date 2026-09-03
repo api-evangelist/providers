@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations
 api_count: 2
 apis:
-- description: Real-time and historical index candles and quotes.
+- baseURL: https://api.marketdata.app/v1
+  baseurl_source: declared
+  description: Real-time and historical index candles and quotes.
   name: Market Data Indices API
   slug: marketdata-app-indices-api
-- description: Reference and status data about the markets covered by Market Data.
+- baseURL: https://api.marketdata.app/v1/markets
+  baseurl_source: declared
+  description: Reference and status data about the markets covered by Market Data.
   name: Market Data Markets API
   slug: marketdata-app-markets-api
-- description: Options chains, per-contract quotes, expirations, strikes, and OCC symbol lookup.
+- baseURL: https://api.marketdata.app/v1/options
+  baseurl_source: declared
+  description: Options chains, per-contract quotes, expirations, strikes, and OCC symbol lookup.
   name: Market Data Options API
   slug: marketdata-app-options-api
-- description: Real-time and historical stock candles, quotes, bulk data, prices, earnings, and news.
+- baseURL: https://api.marketdata.app/v1/stocks
+  baseurl_source: declared
+  description: Real-time and historical stock candles, quotes, bulk data, prices, earnings, and news.
   name: Market Data Stocks API
   slug: marketdata-app-stocks-api
-- description: The v1 API from Market Data — 15 operation(s) for v1.
+- baseURL: https://api.marketdata.app/v1
+  baseurl_source: declared
+  description: The v1 API from Market Data — 15 operation(s) for v1.
   name: Market Data V1 API
   slug: marketdata-app-v1-api
 artifact_total: 22
@@ -305,7 +315,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

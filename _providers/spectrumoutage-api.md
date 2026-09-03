@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,19 +36,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: City, state, and ZIP lookup
+- baseURL: https://spectrumoutage.us/api/v1
+  baseurl_source: declared
+  description: City, state, and ZIP lookup
   name: SpectrumOutage API Locations API
   slug: spectrumoutage-api-locations-api
-- description: Map pin and cluster data
+- baseURL: https://spectrumoutage.us/api/v1
+  baseurl_source: declared
+  description: Map pin and cluster data
   name: SpectrumOutage API Map API
   slug: spectrumoutage-api-map-api
-- description: Outage report listing and submission
+- baseURL: https://spectrumoutage.us/api/v1
+  baseurl_source: declared
+  description: Outage report listing and submission
   name: SpectrumOutage API Reports API
   slug: spectrumoutage-api-reports-api
-- description: Dashboard and aggregate statistics
+- baseURL: https://spectrumoutage.us/api/v1
+  baseurl_source: declared
+  description: Dashboard and aggregate statistics
   name: SpectrumOutage API Stats API
   slug: spectrumoutage-api-stats-api
 artifact_total: 9
@@ -204,7 +225,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/screenshots/spectrumoutage-api-2026-08-17T082021.png
 security:

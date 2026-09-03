@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The University of Michigan's own Shibboleth SAML 2.0 identity provider, and the most unambiguously institution-operated machine-readable surface U-M publishes. GET https://shibboleth.umich.edu/idp/shi
@@ -54,7 +54,9 @@ apis:
 - description: The University of Michigan's Canvas learning management system tenancy. The courses, the enrollments and the data are U-M's; the API contract is Instructure's, published once for every Canvas customer
   name: Canvas LMS (U-M tenancy on Instructure)
   slug: canvas-lms
-- description: Repository-level description and capability discovery.
+- baseURL: https://backend.production.deepblue-documents.lib.umich.edu/server/oai/request
+  baseurl_source: declared
+  description: Repository-level description and capability discovery.
   name: University of Michigan-Ann Arbor Repository API
   slug: university-of-michigan-ann-arbor-repository-api
 artifact_total: 16
@@ -316,7 +318,7 @@ score:
     catalog_gap: 30.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -326,7 +328,7 @@ score:
     discoverability: 59.3
     governance: 78.8
     operational_transparency: 23.7
-  previous_composite: 59.3
+  previous_composite: 59.2
   provenance:
     conformance: first-party
     contracts:
@@ -341,7 +343,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

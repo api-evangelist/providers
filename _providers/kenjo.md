@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 80 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Attendance and time-tracking entries.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Attendance and time-tracking entries.
   name: Kenjo Attendance API
   slug: kenjo-attendance-api
-- description: Exchange an API key for a bearer token and invalidate tokens.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Exchange an API key for a bearer token and invalidate tokens.
   name: Kenjo Authentication API
   slug: kenjo-authentication-api
-- description: Contracts, salaries, and additional payments.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Contracts, salaries, and additional payments.
   name: Kenjo Compensation API
   slug: kenjo-compensation-api
-- description: Company documents.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Company documents.
   name: Kenjo Documents API
   slug: kenjo-documents-api
-- description: Employee records and their profile sections.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Employee records and their profile sections.
   name: Kenjo Employees API
   slug: kenjo-employees-api
-- description: Companies, offices, departments, teams, areas, and calendars.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Companies, offices, departments, teams, areas, and calendars.
   name: Kenjo Organization API
   slug: kenjo-organization-api
-- description: Positions, candidates, and applications.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Positions, candidates, and applications.
   name: Kenjo Recruiting API
   slug: kenjo-recruiting-api
-- description: Absences, time-off requests, types, statuses, and balances.
+- baseURL: https://api.kenjo.io/api/v1
+  baseurl_source: declared
+  description: Absences, time-off requests, types, statuses, and balances.
   name: Kenjo Time Off API
   slug: kenjo-time-off-api
 artifact_total: 22
@@ -188,7 +204,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/screenshots/kenjo-2026-07-25T223611.png
 slug: kenjo

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The Seeker REST API provides programmatic access to Seeker IAST (Interactive Application Security Testing) functionality including project management, vulnerability export, compliance reporting, and a
   name: Synopsys Seeker REST API
   slug: seeker
-- description: Vendor entitlement queries from Synopsys Cloud.
+- baseURL: https://polaris.synopsys.com/api
+  baseurl_source: declared
+  description: Vendor entitlement queries from Synopsys Cloud.
   name: Synopsys Entitlements API
   slug: synopsys-entitlements-api
-- description: Retrieve and manage security issues.
+- baseURL: https://polaris.synopsys.com/api
+  baseurl_source: declared
+  description: Retrieve and manage security issues.
   name: Synopsys Issues API
   slug: synopsys-issues-api
-- description: License file generation and delivery.
+- baseURL: https://polaris.synopsys.com/api
+  baseurl_source: declared
+  description: License file generation and delivery.
   name: Synopsys Licenses API
   slug: synopsys-licenses-api
-- description: Project and branch management.
+- baseURL: https://polaris.synopsys.com/api
+  baseurl_source: declared
+  description: Project and branch management.
   name: Synopsys Projects API
   slug: synopsys-projects-api
-- description: Generate and retrieve security reports.
+- baseURL: https://polaris.synopsys.com/api
+  baseurl_source: declared
+  description: Generate and retrieve security reports.
   name: Synopsys Reports API
   slug: synopsys-reports-api
-- description: Trigger and manage security scans.
+- baseURL: https://polaris.synopsys.com/api
+  baseurl_source: declared
+  description: Trigger and manage security scans.
   name: Synopsys Scans API
   slug: synopsys-scans-api
 artifact_total: 31
@@ -260,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 51 operations · 25 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Campaigns API from Planable — 5 operation(s). Create, read, update and delete campaigns — named groupings of posts inside a workspace.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Campaigns API from Planable — 5 operation(s). Create, read, update and delete campaigns — named groupings of posts inside a workspace.
   name: Planable Campaigns API
   slug: planable-campaigns-api
-- description: The Competitors API from Planable — 6 operation(s). Track up to five competitor social pages per page and pull comparison tables, follower/engagement trends and competitor top posts. Requires the Anal
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Competitors API from Planable — 6 operation(s). Track up to five competitor social pages per page and pull comparison tables, follower/engagement trends and competitor top posts. Requires the Anal
   name: Planable Competitors API
   slug: planable-competitors-api
-- description: The Labels API from Planable — 2 operation(s). List and create the color-coded labels used to organize posts by topic, format or event within a workspace.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Labels API from Planable — 2 operation(s). List and create the color-coded labels used to organize posts by topic, format or event within a workspace.
   name: Planable Labels API
   slug: planable-labels-api
-- description: The Media API from Planable — 3 operation(s). List the workspace media library, upload assets from a public URL (up to 100MB per file) and read an asset’s type, dimensions and processing status.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Media API from Planable — 3 operation(s). List the workspace media library, upload assets from a public URL (up to 100MB per file) and read an asset’s type, dimensions and processing status.
   name: Planable Media API
   slug: planable-media-api
-- description: The Members API from Planable — 1 operation(s). List workspace members with their roles and approval-level assignments.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Members API from Planable — 1 operation(s). List workspace members with their roles and approval-level assignments.
   name: Planable Members API
   slug: planable-members-api
-- description: The Pages API from Planable — 4 operation(s). List the social channels connected to a workspace, pull per-page analytics, and trigger and poll a metrics sync from the source platforms.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Pages API from Planable — 4 operation(s). List the social channels connected to a workspace, pull per-page analytics, and trigger and poll a metrics sync from the source platforms.
   name: Planable Pages API
   slug: planable-pages-api
-- description: 'The Posts API from Planable — 18 operation(s). The core content surface — list, create, read, update and delete posts, create synced cross-platform group posts, manage comments and reactions, request '
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: 'The Posts API from Planable — 18 operation(s). The core content surface — list, create, read, update and delete posts, create synced cross-platform group posts, manage comments and reactions, request '
   name: Planable Posts API
   slug: planable-posts-api
-- description: The Social Listening API from Planable — 7 operation(s). Track brand and topic keywords for a workspace, then read matched mentions, daily metrics, aggregated summaries and sync status.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Social Listening API from Planable — 7 operation(s). Track brand and topic keywords for a workspace, then read matched mentions, daily metrics, aggregated summaries and sync status.
   name: Planable Social Listening API
   slug: planable-social-listening-api
-- description: The Stories API from Planable — 1 operation(s). Create single-frame or multi-frame Instagram and Facebook stories.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Stories API from Planable — 1 operation(s). Create single-frame or multi-frame Instagram and Facebook stories.
   name: Planable Stories API
   slug: planable-stories-api
-- description: The System API from Planable — 1 operation(s). Health check for the Planable Public API.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The System API from Planable — 1 operation(s). Health check for the Planable Public API.
   name: Planable System API
   slug: planable-system-api
-- description: The Workspaces API from Planable — 3 operation(s). List, create and delete the workspaces that scope every other resource in the API.
+- baseURL: https://api.planable.io/api/v1
+  baseurl_source: declared
+  description: The Workspaces API from Planable — 3 operation(s). List, create and delete the workspaces that scope every other resource in the API.
   name: Planable Workspaces API
   slug: planable-workspaces-api
 - description: Planable’s official remote Model Context Protocol server at https://mcp.planable.io/mcp. An OAuth 2.0 protected resource (authorization code + PKCE, dynamic client registration, six scopes) that gives
@@ -818,7 +840,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
 security:

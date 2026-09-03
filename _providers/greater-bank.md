@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Greater Bank Banking Account Balances API
   slug: greater-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Greater Bank Banking Account Direct Debits API
   slug: greater-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Greater Bank Banking Account Scheduled Payments API
   slug: greater-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Greater Bank Banking Account Transactions API
   slug: greater-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Greater Bank Banking Accounts API
   slug: greater-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Greater Bank Banking Payees API
   slug: greater-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://public.cdr.greater.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Greater Bank Banking Products API
   slug: greater-bank-banking-products-api
 arazzos:
@@ -248,7 +262,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:

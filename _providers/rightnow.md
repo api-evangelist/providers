@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Audio API from RightNow AI — 2 operation(s) for audio.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Audio API from RightNow AI — 2 operation(s) for audio.
   name: RightNow AI Audio API
   slug: rightnow-audio-api
-- description: The Chat API from RightNow AI — 1 operation(s) for chat.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Chat API from RightNow AI — 1 operation(s) for chat.
   name: RightNow AI Chat API
   slug: rightnow-chat-api
-- description: The Embeddings API from RightNow AI — 1 operation(s) for embeddings.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Embeddings API from RightNow AI — 1 operation(s) for embeddings.
   name: RightNow AI Embeddings API
   slug: rightnow-embeddings-api
-- description: The Images API from RightNow AI — 1 operation(s) for images.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Images API from RightNow AI — 1 operation(s) for images.
   name: RightNow AI Images API
   slug: rightnow-images-api
-- description: The Models API from RightNow AI — 2 operation(s) for models.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Models API from RightNow AI — 2 operation(s) for models.
   name: RightNow AI Models API
   slug: rightnow-models-api
-- description: The Rerank API from RightNow AI — 1 operation(s) for rerank.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Rerank API from RightNow AI — 1 operation(s) for rerank.
   name: RightNow AI Rerank API
   slug: rightnow-rerank-api
-- description: The Responses API from RightNow AI — 1 operation(s) for responses.
+- baseURL: https://api.runinfra.ai/v1
+  baseurl_source: declared
+  description: The Responses API from RightNow AI — 1 operation(s) for responses.
   name: RightNow AI Responses API
   slug: rightnow-responses-api
 artifact_total: 20
@@ -258,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightnow/refs/heads/main/screenshots/rightnow-2026-08-17T081603.png
 security:

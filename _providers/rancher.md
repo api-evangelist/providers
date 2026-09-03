@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 13 operations · 4 acting
 api_count: 1
 apis:
-- description: Helm-based applications deployed through Rancher.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Helm-based applications deployed through Rancher.
   name: Rancher Apps API
   slug: rancher-apps-api
-- description: Helm chart catalogs registered with Rancher.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Helm chart catalogs registered with Rancher.
   name: Rancher Catalogs API
   slug: rancher-catalogs-api
-- description: Downstream Kubernetes clusters managed by Rancher.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Downstream Kubernetes clusters managed by Rancher.
   name: Rancher Clusters API
   slug: rancher-clusters-api
-- description: Cluster nodes registered with Rancher.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Cluster nodes registered with Rancher.
   name: Rancher Nodes API
   slug: rancher-nodes-api
-- description: Rancher projects, which group namespaces within a cluster for tenancy and policy.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Rancher projects, which group namespaces within a cluster for tenancy and policy.
   name: Rancher Projects API
   slug: rancher-projects-api
-- description: Role templates and role bindings defining access policies.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Role templates and role bindings defining access policies.
   name: Rancher Roles API
   slug: rancher-roles-api
-- description: API tokens used to authenticate against the Rancher API.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: API tokens used to authenticate against the Rancher API.
   name: Rancher Tokens API
   slug: rancher-tokens-api
-- description: Rancher users.
+- baseURL: https://{rancher_host}/v3
+  baseurl_source: declared
+  description: Rancher users.
   name: Rancher Users API
   slug: rancher-users-api
 artifact_total: 36
@@ -288,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rancher/refs/heads/main/screenshots/rancher-2026-06-20T192552.png
 security:

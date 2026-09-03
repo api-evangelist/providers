@@ -34,46 +34,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Create API from Lilt — 2 operation(s) for create.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Create API from Lilt — 2 operation(s) for create.
   name: Lilt Create API
   slug: lilt-create-api
-- description: The Documents API from Lilt — 2 operation(s) for documents.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Documents API from Lilt — 2 operation(s) for documents.
   name: Lilt Documents API
   slug: lilt-documents-api
-- description: The Domains API from Lilt — 1 operation(s) for domains.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Domains API from Lilt — 1 operation(s) for domains.
   name: Lilt Domains API
   slug: lilt-domains-api
-- description: The Files API from Lilt — 3 operation(s) for files.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Files API from Lilt — 3 operation(s) for files.
   name: Lilt Files API
   slug: lilt-files-api
-- description: The Jobs API from Lilt — 9 operation(s) for jobs.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Jobs API from Lilt — 9 operation(s) for jobs.
   name: Lilt Jobs API
   slug: lilt-jobs-api
-- description: The Languages API from Lilt — 1 operation(s) for languages.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Languages API from Lilt — 1 operation(s) for languages.
   name: Lilt Languages API
   slug: lilt-languages-api
-- description: The Memories API from Lilt — 6 operation(s) for memories.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Memories API from Lilt — 6 operation(s) for memories.
   name: Lilt Memories API
   slug: lilt-memories-api
-- description: The Projects API from Lilt — 1 operation(s) for projects.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Projects API from Lilt — 1 operation(s) for projects.
   name: Lilt Projects API
   slug: lilt-projects-api
-- description: The Segments API from Lilt — 3 operation(s) for segments.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Segments API from Lilt — 3 operation(s) for segments.
   name: Lilt Segments API
   slug: lilt-segments-api
-- description: The Translate API from Lilt — 3 operation(s) for translate.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Translate API from Lilt — 3 operation(s) for translate.
   name: Lilt Translate API
   slug: lilt-translate-api
-- description: The Uploads API from Lilt — 7 operation(s) for uploads.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Uploads API from Lilt — 7 operation(s) for uploads.
   name: Lilt Uploads API
   slug: lilt-uploads-api
-- description: The Webhook Configuration API from Lilt — 2 operation(s) for webhook configuration.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Webhook Configuration API from Lilt — 2 operation(s) for webhook configuration.
   name: Lilt Webhook Configuration API
   slug: lilt-webhook-configuration-api
-- description: The Workflows API from Lilt — 1 operation(s) for workflows.
+- baseURL: https://api.lilt.com
+  baseurl_source: declared
+  description: The Workflows API from Lilt — 1 operation(s) for workflows.
   name: Lilt Workflows API
   slug: lilt-workflows-api
 artifact_total: 35
@@ -298,7 +324,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -308,7 +334,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 58.8
+  previous_composite: 58.6
   provenance:
     conformance: derived
     contracts:
@@ -319,7 +345,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:

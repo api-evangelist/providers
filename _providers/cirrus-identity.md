@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The endpoints API from Cirrus Identity — 2 operation(s) for endpoints.
+- baseURL: https://api.cirrusidentity.com/logs/v1
+  baseurl_source: declared
+  description: The endpoints API from Cirrus Identity — 2 operation(s) for endpoints.
   name: Cirrus Identity endpoints API
   slug: cirrus-identity-endpoints-api
 artifact_total: 9
@@ -224,7 +226,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cirrus-identity/refs/heads/main/screenshots/cirrus-identity-2026-07-25T205419.png
 security:

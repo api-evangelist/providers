@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -53,88 +53,144 @@ apis:
 - description: The Adobe Analytics 1.4 APIs provide programmatic access to reporting, classifications, data sources, and report suite configuration. This version is deprecated and scheduled for end-of-life on August
   name: Adobe Analytics 1.4 API
   slug: adobe-analytics-14-api
-- description: Manage analytics annotations
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Manage analytics annotations
   name: Adobe Analytics Annotations API
   slug: adobe-analytics-annotations-api
-- description: Manage calculated metrics built from existing metrics
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Manage calculated metrics built from existing metrics
   name: Adobe Analytics Calculated Metrics API
   slug: adobe-analytics-calculated-metrics-api
-- description: Manage saved date ranges
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Manage saved date ranges
   name: Adobe Analytics Date Ranges API
   slug: adobe-analytics-date-ranges-api
-- description: Retrieve available dimensions for a report suite
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Retrieve available dimensions for a report suite
   name: Adobe Analytics Dimensions API
   slug: adobe-analytics-dimensions-api
-- description: Upload and validate batched event data files
+- baseURL: https://analytics-collection.adobe.io/aa/collect/v1
+  baseurl_source: spec
+  description: Upload and validate batched event data files
   name: Adobe Analytics Events API
   slug: adobe-analytics-events-api
-- description: Create and monitor data repair jobs
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}/datarepair/v1
+  baseurl_source: spec_template
+  description: Create and monitor data repair jobs
   name: Adobe Analytics Jobs API
   slug: adobe-analytics-jobs-api
-- description: Retrieve available metrics for a report suite
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Retrieve available metrics for a report suite
   name: Adobe Analytics Metrics API
   slug: adobe-analytics-metrics-api
-- description: Retrieve report suite information and configuration
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Retrieve report suite information and configuration
   name: Adobe Analytics Report Suites API
   slug: adobe-analytics-report-suites-api
-- description: Run analytics reports and retrieve data
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Run analytics reports and retrieve data
   name: Adobe Analytics Reports API
   slug: adobe-analytics-reports-api
-- description: Create, retrieve, update, and delete analytics segments
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}
+  baseurl_source: spec_template
+  description: Create, retrieve, update, and delete analytics segments
   name: Adobe Analytics Segments API
   slug: adobe-analytics-segments-api
-- description: Estimate the scope and cost of a repair job
+- baseURL_template: https://analytics.adobe.io/api/{globalCompanyId}/datarepair/v1
+  baseurl_source: spec_template
+  description: Estimate the scope and cost of a repair job
   name: Adobe Analytics Server Call Estimate API
   slug: adobe-analytics-server-call-estimate-api
-- description: Manage Data Sources accounts associated with a report suite
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: Manage Data Sources accounts associated with a report suite
   name: Adobe Analytics Account API
   slug: adobe-analytics-account-api
-- description: The analytics Cloud Locations account API for user token
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The analytics Cloud Locations account API for user token
   name: Adobe Analytics Analytics Cloud Locations Account API
   slug: adobe-analytics-analytics-cloud-locations-account-api-api
-- description: The analytics Cloud Locations Location API for user token
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The analytics Cloud Locations Location API for user token
   name: Adobe Analytics Analytics Cloud Locations Location API
   slug: adobe-analytics-analytics-cloud-locations-location-api-api
-- description: The Classification Dataset API from Adobe Analytics — 3 operation(s) for classification dataset.
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The Classification Dataset API from Adobe Analytics — 3 operation(s) for classification dataset.
   name: Adobe Analytics Classification Dataset API
   slug: adobe-analytics-classification-dataset-api
-- description: The Classification Job API from Adobe Analytics — 10 operation(s) for classification job.
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The Classification Job API from Adobe Analytics — 10 operation(s) for classification job.
   name: Adobe Analytics Classification Job API
   slug: adobe-analytics-classification-job-api
-- description: The Collections Suites API from Adobe Analytics — 2 operation(s) for collections suites.
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The Collections Suites API from Adobe Analytics — 2 operation(s) for collections suites.
   name: Adobe Analytics Collections Suites API
   slug: adobe-analytics-collections-suites-api
-- description: API to create, update and retrieve column presets for datafeeds with a user token
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: API to create, update and retrieve column presets for datafeeds with a user token
   name: Adobe Analytics Column Preset API
   slug: adobe-analytics-column-preset-api-api
-- description: API Methods for migrating projects with components from Adobe Analytics to Customer Journey Analytics
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: API Methods for migrating projects with components from Adobe Analytics to Customer Journey Analytics
   name: Adobe Analytics Component migration API
   slug: adobe-analytics-component-migration-api
-- description: The data warehouse report API
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The data warehouse report API
   name: Adobe Analytics Data Warehouse Report API
   slug: adobe-analytics-data-warehouse-report-api-api
-- description: The data warehouse scheduled requests API
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The data warehouse scheduled requests API
   name: Adobe Analytics Data Warehouse Scheduled Requests API
   slug: adobe-analytics-data-warehouse-scheduled-requests-api-api
-- description: API to create, update and retrieve datafeed with a user token
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: API to create, update and retrieve datafeed with a user token
   name: Adobe Analytics Datafeed API
   slug: adobe-analytics-datafeed-api-api
-- description: Methods to map Analytics dimensions to CJA data views within an XDM schema
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: Methods to map Analytics dimensions to CJA data views within an XDM schema
   name: Adobe Analytics Dimensions mappings API
   slug: adobe-analytics-dimensions-mappings-api
-- description: Upload and monitor data of Data Sources accounts
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: Upload and monitor data of Data Sources accounts
   name: Adobe Analytics Job API
   slug: adobe-analytics-job-api
-- description: API for users to resend, reprocess and redo datafeed requests with a user token
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: API for users to resend, reprocess and redo datafeed requests with a user token
   name: Adobe Analytics Manage API
   slug: adobe-analytics-manage-api-api
-- description: The Marketing Channels API from Adobe Analytics — 1 operation(s) for marketing channels.
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The Marketing Channels API from Adobe Analytics — 1 operation(s) for marketing channels.
   name: Adobe Analytics Marketing Channels API
   slug: adobe-analytics-marketing-channels-api
-- description: Methods to map Analytics metrics to CJA data views within an XDM schema
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: Methods to map Analytics metrics to CJA data views within an XDM schema
   name: Adobe Analytics Metrics mappings API
   slug: adobe-analytics-metrics-mappings-api
-- description: The Virtual Report Suites API from Adobe Analytics — 4 operation(s) for virtual report suites.
+- baseURL: https://analytics.adobe.io/api
+  baseurl_source: spec
+  description: The Virtual Report Suites API from Adobe Analytics — 4 operation(s) for virtual report suites.
   name: Adobe Analytics Virtual Report Suites API
   slug: adobe-analytics-virtual-report-suites-api
 arazzos:
@@ -967,7 +1023,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.5
+  composite: 61.3
   coverage:
     artifact_dirs: 36
     catalog_gap: 48.5
@@ -978,7 +1034,7 @@ score:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 33.3
-    contract_quality: 67.7
+    contract_quality: 66.7
     developer_ergonomics: 70.2
     discoverability: 72.2
     governance: 33.3
@@ -986,7 +1042,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 61.7
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -998,7 +1054,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:

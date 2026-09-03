@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The Connectors API from Ballerina — 2 operation(s) for connectors.
+- baseURL: https://api.central.ballerina.io
+  baseurl_source: spec
+  description: The Connectors API from Ballerina — 2 operation(s) for connectors.
   name: Ballerina Connectors API
   slug: ballerina-connectors-api
-- description: The Organizations API from Ballerina — 2 operation(s) for organizations.
+- baseURL: https://api.central.ballerina.io
+  baseurl_source: spec
+  description: The Organizations API from Ballerina — 2 operation(s) for organizations.
   name: Ballerina Organizations API
   slug: ballerina-organizations-api
-- description: The Packages API from Ballerina — 5 operation(s) for packages.
+- baseURL: https://api.central.ballerina.io
+  baseurl_source: spec
+  description: The Packages API from Ballerina — 5 operation(s) for packages.
   name: Ballerina Packages API
   slug: ballerina-packages-api
 artifact_total: 82
@@ -357,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/screenshots/ballerina-2026-06-20T172929.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 19 operations · 6 acting
 api_count: 2
 apis:
-- description: Endpoints for creating, scheduling, tracking, and managing rides on behalf of passengers who may not have a Lyft account.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for creating, scheduling, tracking, and managing rides on behalf of passengers who may not have a Lyft account.
   name: lyft Concierge Rides API
   slug: lyft-concierge-rides-api
-- description: Endpoints for estimating ride costs for concierge bookings.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for estimating ride costs for concierge bookings.
   name: lyft Cost Estimates API
   slug: lyft-cost-estimates-api
-- description: Endpoints for checking the availability and proximity of nearby Lyft drivers.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for checking the availability and proximity of nearby Lyft drivers.
   name: lyft Drivers API
   slug: lyft-drivers-api
-- description: Endpoints for estimating the time for the nearest driver to reach a specified pickup location.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for estimating the time for the nearest driver to reach a specified pickup location.
   name: lyft ETA API
   slug: lyft-eta-api
-- description: Endpoints for retrieving profile information for the authenticated Lyft user.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for retrieving profile information for the authenticated Lyft user.
   name: lyft Profile API
   slug: lyft-profile-api
-- description: Endpoints for retrieving available ride types for concierge bookings.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for retrieving available ride types for concierge bookings.
   name: lyft Ride Types API
   slug: lyft-ride-types-api
-- description: Endpoints for requesting, tracking, canceling, and managing Lyft rides on behalf of an authenticated user.
+- baseURL: https://api.lyft.com
+  baseurl_source: declared
+  description: Endpoints for requesting, tracking, canceling, and managing Lyft rides on behalf of an authenticated user.
   name: lyft Rides API
   slug: lyft-rides-api
 artifact_total: 29
@@ -169,16 +183,16 @@ jsonld:
   slug: lyft-context
 layout: provider
 modified: '2026-05-19'
-name: lyft
+name: Lyft
 nav: Providers
 network: true
-overview: 'lyft publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Concierge Rides API, Cost Estimates API, Drivers API, and 4 more.
+overview: 'Lyft publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Concierge Rides API, Cost Estimates API, Drivers API, and 4 more.
 
 
-  The lyft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Lyft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  lyft''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Lyft''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Lyft Plans Pricing
   plan_count: 3
@@ -191,7 +205,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: lyft API Rules
+  name: Lyft API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -227,10 +241,10 @@ score:
       total: 7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png
 security:

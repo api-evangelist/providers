@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 2
 apis:
-- description: APIs for getting answers
+- baseURL: https://api.cuein.ai/answers/v1
+  baseurl_source: declared
+  description: APIs for getting answers
   name: Cuein answers API
   slug: cuein-answers-api
-- description: APIs for retrieving customer-support interaction insights
+- baseURL: https://api.cuein.ai/insights/v1
+  baseurl_source: declared
+  description: APIs for retrieving customer-support interaction insights
   name: Cuein conversations API
   slug: cuein-conversations-api
 artifact_total: 12
@@ -232,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 113 operations · 62 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: 'Programmatically manage Paperspace virtual machines — GPU and CPU compute instances. Covers the machine lifecycle (create, start, stop, restart, delete), machine events, team-member access grants per '
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: 'Programmatically manage Paperspace virtual machines — GPU and CPU compute instances. Covers the machine lifecycle (create, start, stop, restart, delete), machine events, team-member access grants per '
   name: Paperspace Machines API
   slug: paperspace-machines-api
-- description: Container-as-a-service deployments that run user-provided images on Paperspace GPU machines with a managed endpoint, autoscaling, rolling updates, runs, metrics, logs, and revision history. Includes t
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Container-as-a-service deployments that run user-provided images on Paperspace GPU machines with a managed endpoint, autoscaling, rolling updates, runs, metrics, logs, and revision history. Includes t
   name: Paperspace Deployments API
   slug: paperspace-deployments-api
-- description: Projects are the top-level organizing container in Paperspace. The Projects API covers project lifecycle, activity feeds, collaborator management, project-scoped secrets, tags, and model linkage.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Projects are the top-level organizing container in Paperspace. The Projects API covers project lifecycle, activity feeds, collaborator management, project-scoped secrets, tags, and model linkage.
   name: Paperspace Projects API
   slug: paperspace-projects-api
-- description: Versioned data collections used by Paperspace Gradient notebooks, workflows, and deployments. The Datasets API exposes the dataset lifecycle plus a versioned data revision sub-resource.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Versioned data collections used by Paperspace Gradient notebooks, workflows, and deployments. The Datasets API exposes the dataset lifecycle plus a versioned data revision sub-resource.
   name: Paperspace Datasets API
   slug: paperspace-datasets-api
-- description: Manage container registry credentials used by Paperspace Deployments to pull private images, including a test-connection endpoint that verifies the configured credentials.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Manage container registry credentials used by Paperspace Deployments to pull private images, including a test-connection endpoint that verifies the configured credentials.
   name: Paperspace Container Registries API
   slug: paperspace-container-registries-api
-- description: Register and manage trained ML models in the Paperspace Gradient model registry. Models can be associated with projects and consumed by Deployments.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Register and manage trained ML models in the Paperspace Gradient model registry. Models can be associated with projects and consumed by Deployments.
   name: Paperspace Models API
   slug: paperspace-models-api
-- description: The Activity API from Paperspace — 1 operation(s) for activity.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Activity API from Paperspace — 1 operation(s) for activity.
   name: Paperspace Activity API
   slug: paperspace-activity-api
-- description: The Authentication API from Paperspace — 1 operation(s) for authentication.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Authentication API from Paperspace — 1 operation(s) for authentication.
   name: Paperspace Authentication API
   slug: paperspace-authentication-api
-- description: The Collaborators API from Paperspace — 2 operation(s) for collaborators.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Collaborators API from Paperspace — 2 operation(s) for collaborators.
   name: Paperspace Collaborators API
   slug: paperspace-collaborators-api
-- description: The Custom Templates API from Paperspace — 2 operation(s) for custom templates.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Custom Templates API from Paperspace — 2 operation(s) for custom templates.
   name: Paperspace Custom Templates API
   slug: paperspace-custom-templates-api
-- description: The Dataset Versions API from Paperspace — 2 operation(s) for dataset versions.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Dataset Versions API from Paperspace — 2 operation(s) for dataset versions.
   name: Paperspace Dataset Versions API
   slug: paperspace-dataset-versions-api
-- description: Team-member access grants on individual machines.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Team-member access grants on individual machines.
   name: Paperspace Machine Access API
   slug: paperspace-machine-access-api
-- description: Machine-event history stream.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Machine-event history stream.
   name: Paperspace Machine Events API
   slug: paperspace-machine-events-api
-- description: Region/availability lookups for machine types.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: Region/availability lookups for machine types.
   name: Paperspace Machine Types API
   slug: paperspace-machine-types-api
-- description: The OS Templates API from Paperspace — 1 operation(s) for os templates.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The OS Templates API from Paperspace — 1 operation(s) for os templates.
   name: Paperspace OS Templates API
   slug: paperspace-os-templates-api
-- description: The Private Networks API from Paperspace — 2 operation(s) for private networks.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Private Networks API from Paperspace — 2 operation(s) for private networks.
   name: Paperspace Private Networks API
   slug: paperspace-private-networks-api
-- description: The Public IPs API from Paperspace — 2 operation(s) for public ips.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Public IPs API from Paperspace — 2 operation(s) for public ips.
   name: Paperspace Public IPs API
   slug: paperspace-public-ips-api
-- description: The Secrets API from Paperspace — 2 operation(s) for secrets.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Secrets API from Paperspace — 2 operation(s) for secrets.
   name: Paperspace Secrets API
   slug: paperspace-secrets-api
-- description: The Shared Drives API from Paperspace — 2 operation(s) for shared drives.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Shared Drives API from Paperspace — 2 operation(s) for shared drives.
   name: Paperspace Shared Drives API
   slug: paperspace-shared-drives-api
-- description: The Snapshots API from Paperspace — 3 operation(s) for snapshots.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Snapshots API from Paperspace — 3 operation(s) for snapshots.
   name: Paperspace Snapshots API
   slug: paperspace-snapshots-api
-- description: The Startup Scripts API from Paperspace — 4 operation(s) for startup scripts.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Startup Scripts API from Paperspace — 4 operation(s) for startup scripts.
   name: Paperspace Startup Scripts API
   slug: paperspace-startup-scripts-api
-- description: The Storage Providers API from Paperspace — 3 operation(s) for storage providers.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Storage Providers API from Paperspace — 3 operation(s) for storage providers.
   name: Paperspace Storage Providers API
   slug: paperspace-storage-providers-api
-- description: The Tags API from Paperspace — 1 operation(s) for tags.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Tags API from Paperspace — 1 operation(s) for tags.
   name: Paperspace Tags API
   slug: paperspace-tags-api
-- description: The Team Members API from Paperspace — 2 operation(s) for team members.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Team Members API from Paperspace — 2 operation(s) for team members.
   name: Paperspace Team Members API
   slug: paperspace-team-members-api
-- description: The Team Secrets API from Paperspace — 2 operation(s) for team secrets.
+- baseURL: https://api.paperspace.com/v1
+  baseurl_source: spec
+  description: The Team Secrets API from Paperspace — 2 operation(s) for team secrets.
   name: Paperspace Team Secrets API
   slug: paperspace-team-secrets-api
 artifact_total: 109
@@ -586,7 +636,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

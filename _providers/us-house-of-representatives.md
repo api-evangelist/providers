@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: ProPublica's Congress API provides access to detailed congressional data including member profiles, voting records, bill sponsorship, and committee activity. This third-party API aggregates and enrich
   name: ProPublica Congress API
   slug: propublica-congress-api
-- description: Legislative bills and resolutions
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: spec
+  description: Legislative bills and resolutions
   name: US House of Representatives Bills API
   slug: us-house-of-representatives-bills-api
-- description: Congressional committees
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: spec
+  description: Congressional committees
   name: US House of Representatives Committees API
   slug: us-house-of-representatives-committees-api
-- description: Members of Congress
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: spec
+  description: Members of Congress
   name: US House of Representatives Members API
   slug: us-house-of-representatives-members-api
-- description: Presidential nominations
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: spec
+  description: Presidential nominations
   name: US House of Representatives Nominations API
   slug: us-house-of-representatives-nominations-api
-- description: International treaties
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: spec
+  description: International treaties
   name: US House of Representatives Treaties API
   slug: us-house-of-representatives-treaties-api
 artifact_total: 27
@@ -213,7 +223,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-house-of-representatives/refs/heads/main/screenshots/us-house-of-representatives-2026-06-20T200622.png
 security:

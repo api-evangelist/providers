@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Request API from CivicPlus — 1 operation(s) for request.
+- baseURL: https://seeclickfix.com/api/v2
+  baseurl_source: declared
+  description: The Request API from CivicPlus — 1 operation(s) for request.
   name: CivicPlus Request API
   slug: civicplus-request-api
-- description: The Requests.{response Format} API from CivicPlus — 1 operation(s) for requests.{response format}.
+- baseURL: https://seeclickfix.com/api/v2
+  baseurl_source: declared
+  description: The Requests.{response Format} API from CivicPlus — 1 operation(s) for requests.{response format}.
   name: CivicPlus Requests.{response Format} API
   slug: civicplus-requests-response-format-api
-- description: The Services API from CivicPlus — 1 operation(s) for services.
+- baseURL: https://seeclickfix.com/api/v2
+  baseurl_source: declared
+  description: The Services API from CivicPlus — 1 operation(s) for services.
   name: CivicPlus Services API
   slug: civicplus-services-api
-- description: The Services.{response Format} API from CivicPlus — 1 operation(s) for services.{response format}.
+- baseURL: https://seeclickfix.com/api/v2
+  baseurl_source: declared
+  description: The Services.{response Format} API from CivicPlus — 1 operation(s) for services.{response format}.
   name: CivicPlus Services.{response Format} API
   slug: civicplus-services-response-format-api
-- description: The Tokens API from CivicPlus — 1 operation(s) for tokens.
+- baseURL: https://seeclickfix.com/api/v2
+  baseurl_source: declared
+  description: The Tokens API from CivicPlus — 1 operation(s) for tokens.
   name: CivicPlus Tokens API
   slug: civicplus-tokens-api
 artifact_total: 14
@@ -219,7 +229,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:

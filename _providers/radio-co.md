@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Station status and metadata endpoints
+- baseURL: https://public.radio.co
+  baseurl_source: declared
+  description: Station status and metadata endpoints
   name: Radio.co Station API
   slug: radio-co-station-api
-- description: Currently playing track information
+- baseURL: https://public.radio.co
+  baseurl_source: declared
+  description: Currently playing track information
   name: Radio.co Track API
   slug: radio-co-track-api
 artifact_total: 11
@@ -140,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/screenshots/radio-co-2026-06-20T192532.png
 security:

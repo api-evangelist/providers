@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: OBIE Read/Write Account and Transaction Information (AIS) API providing consented access to Nationwide account, balance, and transaction data for authorised third-party providers. FAPI-secured (OAuth2
@@ -48,13 +48,19 @@ apis:
 - description: OBIE Read/Write Variable Recurring Payments (VRP) API enabling consented sweeping and recurring payment mandates from Nationwide accounts. FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA); endpoints u
   name: Nationwide Variable Recurring Payments API (VRP)
   slug: nationwide-variable-recurring-payments-api
-- description: Endpoint for getting ATM data
+- baseURL: https://openapi.nationwide.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Nationwide Building Society ATM API
   slug: nationwide-building-society-atm-api
-- description: Endpoint for getting Branch data
+- baseURL: https://openapi.nationwide.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Nationwide Building Society Branch API
   slug: nationwide-building-society-branch-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://openapi.nationwide.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Nationwide Building Society PCA API
   slug: nationwide-building-society-pca-api
 artifact_total: 15
@@ -255,7 +261,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 9 acting
 api_count: 1
 apis:
-- description: The Assignment API from Shipday — 2 operation(s) for assignment.
+- baseURL: https://api.shipday.com
+  baseurl_source: declared
+  description: The Assignment API from Shipday — 2 operation(s) for assignment.
   name: Shipday Assignment API
   slug: shipday-assignment-api
-- description: The Drivers API from Shipday — 2 operation(s) for drivers.
+- baseURL: https://api.shipday.com
+  baseurl_source: declared
+  description: The Drivers API from Shipday — 2 operation(s) for drivers.
   name: Shipday Drivers API
   slug: shipday-drivers-api
-- description: The On-Demand Delivery API from Shipday — 2 operation(s) for on-demand delivery.
+- baseURL: https://api.shipday.com
+  baseurl_source: declared
+  description: The On-Demand Delivery API from Shipday — 2 operation(s) for on-demand delivery.
   name: Shipday On-Demand Delivery API
   slug: shipday-on-demand-delivery-api
-- description: The Orders API from Shipday — 3 operation(s) for orders.
+- baseURL: https://api.shipday.com
+  baseurl_source: declared
+  description: The Orders API from Shipday — 3 operation(s) for orders.
   name: Shipday Orders API
   slug: shipday-orders-api
 artifact_total: 16
@@ -154,7 +162,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -177,8 +185,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/screenshots/shipday-2026-09-02T155214.png
 security:
 - kind: authentication
   name: Shipday Authentication

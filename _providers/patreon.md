@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: 'The Patreon REST API v2 follows the JSON:API specification. It exposes campaigns, members (patrons), posts, tiers, benefits, addresses, and webhooks. Authentication uses OAuth 2.0 with creator-issued '
   name: Patreon API v2
   slug: patreon-api-v2
-- description: The Oauth2 API from Patreon — 13 operation(s) for oauth2.
+- baseURL: https://www.patreon.com/api/oauth2/v2
+  baseurl_source: declared
+  description: The Oauth2 API from Patreon — 13 operation(s) for oauth2.
   name: Patreon Oauth2 API
   slug: patreon-oauth2-api
 artifact_total: 13
@@ -155,7 +157,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -165,7 +167,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 14.5
-  previous_composite: 34.9
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -174,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patreon/refs/heads/main/screenshots/patreon-2026-06-20T191442.png
 security:

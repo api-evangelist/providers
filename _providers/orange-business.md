@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -113,211 +113,349 @@ apis:
 - description: Cameroon-specific A2P messaging platform for enterprise SMS, USSD, and rich messaging deliveries to Orange Cameroon subscribers.
   name: Orange Business Messaging Pro Cameroon API
   slug: orange-business-messagingpro-cameroon-api
-- description: Validate if the SIM of the end-user has been installed in a different device during a past period
+- baseURL: https://api.orange.com/camara/playground/api/device-swap/v0.2
+  baseurl_source: declared
+  description: Validate if the SIM of the end-user has been installed in a different device during a past period
   name: Orange Business Check Device Swap API
   slug: orange-business-check-device-swap-api
-- description: The Check SIM swap API from Orange Business — 1 operation(s) for check sim swap.
+- baseURL: https://api.orange.com/camara/playground/api/sim-swap/v1
+  baseurl_source: declared
+  description: The Check SIM swap API from Orange Business — 1 operation(s) for check sim swap.
   name: Orange Business Check SIM swap API
   slug: orange-business-check-sim-swap-api
-- description: Operations to get the current reachability status of a device
+- baseURL: https://api.orange.com/camara/playground/api/device-reachability-status/v0.6
+  baseurl_source: declared
+  description: Operations to get the current reachability status of a device
   name: Orange Business Device reachability status API
   slug: orange-business-device-reachability-status-api
-- description: Operations to manage event subscriptions on geofencing events for leaving and entering an area.
+- baseURL: https://api.orange.com/camara/playground/api/geofencing-subscriptions/v0.3
+  baseurl_source: declared
+  description: Operations to manage event subscriptions on geofencing events for leaving and entering an area.
   name: Orange Business Geofencing subscriptions API
   slug: orange-business-geofencing-subscriptions-api
-- description: Retrieve the location of a device
+- baseURL: https://api.orange.com/camara/playground/api/location-retrieval/v0.3
+  baseurl_source: declared
+  description: Retrieve the location of a device
   name: Orange Business Location retrieval API
   slug: orange-business-location-retrieval-api
-- description: Verification of the location of a device
+- baseURL: https://api.orange.com/camara/playground/api/location-verification/v1
+  baseurl_source: declared
+  description: Verification of the location of a device
   name: Orange Business Location verification API
   slug: orange-business-location-verification-api
-- description: Operations to match a customer identity against the account data bound to their phone number.
+- baseURL: https://api.orange.com/camara/playground/api/kyc-match/v0.2
+  baseurl_source: declared
+  description: Operations to match a customer identity against the account data bound to their phone number.
   name: Orange Business Match API
   slug: orange-business-match-api
-- description: API operation to return the phone number associated to the access token.
+- baseURL: https://api.orange.com/camara/playground/api/number-verification/v1
+  baseurl_source: declared
+  description: API operation to return the phone number associated to the access token.
   name: Orange Business Phone number share API
   slug: orange-business-phone-number-share-api
-- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+- baseURL: https://api.orange.com/camara/playground/api/number-verification/v1
+  baseurl_source: declared
+  description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: Orange Business Phone number verify API
   slug: orange-business-phone-number-verify-api
-- description: Operations to retrieve population density information.
+- baseURL: https://api.orange.com/camara/playground/api/population-density-data/v0.3
+  baseurl_source: declared
+  description: Operations to retrieve population density information.
   name: Orange Business Population Density Data API
   slug: orange-business-population-density-data-api
-- description: Manage QoS sessions
+- baseURL: https://api.orange.com/camara/playground/api/quality-on-demand/v0.11
+  baseurl_source: declared
+  description: Manage QoS sessions
   name: Orange Business QoS Sessions API
   slug: orange-business-qos-sessions-api
-- description: Receive the last date in which the device of the end-user was swapped
+- baseURL: https://api.orange.com/camara/playground/api/device-swap/v0.2
+  baseurl_source: declared
+  description: Receive the last date in which the device of the end-user was swapped
   name: Orange Business Retrieve Device Swap Date API
   slug: orange-business-retrieve-device-swap-date-api
-- description: The Retrieve SIM swap date API from Orange Business — 1 operation(s) for retrieve sim swap date.
+- baseURL: https://api.orange.com/camara/playground/api/sim-swap/v1
+  baseurl_source: declared
+  description: The Retrieve SIM swap date API from Orange Business — 1 operation(s) for retrieve sim swap date.
   name: Orange Business Retrieve SIM swap date API
   slug: orange-business-retrieve-sim-swap-date-api
-- description: Operation to get device roaming status and country information (if roaming) synchronously
+- baseURL: https://api.orange.com/camara/playground/api/device-roaming-status/v0.6
+  baseurl_source: declared
+  description: Operation to get device roaming status and country information (if roaming) synchronously
   name: Orange Business Roaming status retrieval API
   slug: orange-business-roaming-status-retrieval-api
-- description: get your accounting metrics
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: get your accounting metrics
   name: Orange Business Accounting - V1 API
   slug: orange-business-accounting-v1-api
-- description: Manage your alarm rules
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage your alarm rules
   name: Orange Business Alarm rules API
   slug: orange-business-alarm-rules-api
-- description: API key management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: API key management
   name: Orange Business Api keys API
   slug: orange-business-api-keys-api
-- description: API self key management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: API self key management
   name: Orange Business Api self keys API
   slug: orange-business-api-self-keys-api
-- description: Search through your AuditLog messages
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Search through your AuditLog messages
   name: Orange Business Audit Log API
   slug: orange-business-audit-log-api
-- description: Cellular subscriptions and providers management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Cellular subscriptions and providers management
   name: Orange Business Beta - Cellular networks management API
   slug: orange-business-beta-cellular-networks-management-api
-- description: Search network metrics
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Search network metrics
   name: Orange Business Beta - Network metrics API
   slug: orange-business-beta-network-metrics-api
-- description: Manage lwm2m bootstrap config
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage lwm2m bootstrap config
   name: Orange Business Bootstrap Config API
   slug: orange-business-bootstrap-config-api
-- description: Manage LwM2M bootstrap entries
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage LwM2M bootstrap entries
   name: Orange Business Bootstrap Entry API
   slug: orange-business-bootstrap-entry-api
-- description: Manage LwM2M bootstrap master entries
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage LwM2M bootstrap master entries
   name: Orange Business Bootstrap Master Entry API
   slug: orange-business-bootstrap-master-entry-api
-- description: CA certificates for MQTT client cert. authentication
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: CA certificates for MQTT client cert. authentication
   name: Orange Business CA certificates API
   slug: orange-business-ca-certificates-api
-- description: Management of actions on a fleet of devices
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Management of actions on a fleet of devices
   name: Orange Business Campaign management API
   slug: orange-business-campaign-management-api
-- description: APIs to inject a bulk of data
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: APIs to inject a bulk of data
   name: Orange Business Data bulk injection API
   slug: orange-business-data-bulk-injection-api
-- description: APIs to manage dataMessage custom pipelines
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: APIs to manage dataMessage custom pipelines
   name: Orange Business Data management custom pipelines API
   slug: orange-business-data-management-custom-pipelines-api
-- description: APIs to search through injected data
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: APIs to search through injected data
   name: Orange Business Data management data search API
   slug: orange-business-data-management-data-search-api
-- description: APIs to store and retrieve data
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: APIs to store and retrieve data
   name: Orange Business Data management data store API
   slug: orange-business-data-management-data-store-api
-- description: list all decoders for a tenant
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: list all decoders for a tenant
   name: Orange Business Decoders API
   slug: orange-business-decoders-api
-- description: binary decoder provisioning
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: binary decoder provisioning
   name: Orange Business Decoders - binary API
   slug: orange-business-decoders-binary-api
-- description: CSV decoder provisioning
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: CSV decoder provisioning
   name: Orange Business Decoders - CSV API
   slug: orange-business-decoders-csv-api
-- description: public decoder management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: public decoder management
   name: Orange Business Decoders - public API
   slug: orange-business-decoders-public-api
-- description: FIFO are now automatically managed with FifoPublish Action in Trigger & Actions
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: FIFO are now automatically managed with FifoPublish Action in Trigger & Actions
   name: Orange Business Deprecated - Bus management API
   slug: orange-business-deprecated-bus-management-api
-- description: use data search V1 instead
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: use data search V1 instead
   name: Orange Business Deprecated - Data management data search - V0 API
   slug: orange-business-deprecated-data-management-data-search-v0-api
-- description: Manage your device analytics rules
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage your device analytics rules
   name: Orange Business Device Analytics API
   slug: orange-business-device-analytics-api
-- description: Devices commands
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Devices commands
   name: Orange Business Device management - Commands API
   slug: orange-business-device-management-commands-api
-- description: Devices configuration
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Devices configuration
   name: Orange Business Device management - Configuration API
   slug: orange-business-device-management-configuration-api
-- description: LoRa connector specificity
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: LoRa connector specificity
   name: Orange Business Device management - Connector nodes - LoRa specific API
   slug: orange-business-device-management-connector-nodes-lora-specific-api
-- description: Connector nodes management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Connector nodes management
   name: Orange Business Device management - Connector nodes - V1 API
   slug: orange-business-device-management-connector-nodes-v1-api
-- description: Group management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Group management
   name: Orange Business Device management - Groups - V1 API
   slug: orange-business-device-management-groups-v1-api
-- description: Devices' interfaces management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Devices' interfaces management
   name: Orange Business Device management - Interfaces API
   slug: orange-business-device-management-interfaces-api
-- description: Devices inventory
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Devices inventory
   name: Orange Business Device management - Inventory - V1 API
   slug: orange-business-device-management-inventory-v1-api
-- description: Devices resources and firmware
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Devices resources and firmware
   name: Orange Business Device management - Resources API
   slug: orange-business-device-management-resources-api
-- description: Resources management and firmware
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Resources management and firmware
   name: Orange Business Device management - Resources management API
   slug: orange-business-device-management-resources-management-api
-- description: ActivityRule management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: ActivityRule management
   name: Orange Business Event processing - Activity API
   slug: orange-business-event-processing-activity-api
-- description: Context management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Context management
   name: Orange Business Event processing - Context API
   slug: orange-business-event-processing-context-api
-- description: FiringRules and FiringGuards management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: FiringRules and FiringGuards management
   name: Orange Business Event processing - Firing API
   slug: orange-business-event-processing-firing-api
-- description: Geozone management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Geozone management
   name: Orange Business Event processing - Geozone API
   slug: orange-business-event-processing-geozone-api
-- description: MatchingRules management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: MatchingRules management
   name: Orange Business Event processing - Matching API
   slug: orange-business-event-processing-matching-api
-- description: State processing Rules management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: State processing Rules management
   name: Orange Business Event processing - State processing API
   slug: orange-business-event-processing-state-processing-api
-- description: Gateway management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Gateway management
   name: Orange Business Gateway management for LoRa API
   slug: orange-business-gateway-management-for-lora-api
-- description: Inventory explorer management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Inventory explorer management
   name: Orange Business Inventory Explorer API
   slug: orange-business-inventory-explorer-api
-- description: sending email or sms notifications
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: sending email or sms notifications
   name: Orange Business Notification API
   slug: orange-business-notification-api
-- description: Manage notification channels
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage notification channels
   name: Orange Business Notification channels API
   slug: orange-business-notification-channels-api
-- description: Self tenant account management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Self tenant account management
   name: Orange Business Self tenant account API
   slug: orange-business-self-tenant-account-api
-- description: manage self user
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: manage self user
   name: Orange Business Self User management API
   slug: orange-business-self-user-management-api
-- description: Action policies on event and messages
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Action policies on event and messages
   name: Orange Business Triggers and Actions API
   slug: orange-business-triggers-and-actions-api
-- description: Test api for actions
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Test api for actions
   name: Orange Business Triggers and Actions - Test API
   slug: orange-business-triggers-and-actions-test-api
-- description: Manage twin data rules
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage twin data rules
   name: Orange Business Twin data rules management API
   slug: orange-business-twin-data-rules-management-api
-- description: Manage twin device
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage twin device
   name: Orange Business Twin devices management API
   slug: orange-business-twin-devices-management-api
-- description: Manage twin model
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage twin model
   name: Orange Business Twin models management API
   slug: orange-business-twin-models-management-api
-- description: Manage twin observations
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage twin observations
   name: Orange Business Twin observations API
   slug: orange-business-twin-observations-api
-- description: Manage twin device operations
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: Manage twin device operations
   name: Orange Business Twin operations management API
   slug: orange-business-twin-operations-management-api
-- description: authentication
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: authentication
   name: Orange Business User authentication API
   slug: orange-business-user-authentication-api
-- description: authentication management
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: authentication management
   name: Orange Business User authentication management API
   slug: orange-business-user-authentication-management-api
-- description: manage user profile and get access list
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: manage user profile and get access list
   name: Orange Business User Profile and Access Management API
   slug: orange-business-user-profile-and-access-management-api
-- description: manage users
+- baseURL: https://liveobjects.orange-business.com/api/v1
+  baseurl_source: declared
+  description: manage users
   name: Orange Business Users management API
   slug: orange-business-users-management-api
 artifact_total: 127
@@ -705,18 +843,18 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.7
+  composite: 68.4
   coverage:
     artifact_dirs: 31
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.7
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 64.2
+    contract_quality: 67.4
     developer_ergonomics: 82.7
     discoverability: 66.7
     governance: 18.2
@@ -724,7 +862,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 67.3
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -742,7 +880,7 @@ score:
     regime_id: telecommunications
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:

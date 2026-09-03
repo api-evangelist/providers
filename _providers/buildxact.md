@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Buildxact's webhook surface lets partner and customer integrations receive real-time notifications when events occur inside the construction-management platform — including Estimate Accepted, Lead Cre
   name: Buildxact Webhooks
   slug: buildxact-webhooks
-- description: First-party login and bearer token refresh.
+- baseURL: https://api.buildxact.com
+  baseurl_source: declared
+  description: First-party login and bearer token refresh.
   name: Buildxact Authentication API
   slug: buildxact-authentication-api
-- description: Line items inside an estimate (materials, labor, assemblies).
+- baseURL: https://api.buildxact.com
+  baseurl_source: declared
+  description: Line items inside an estimate (materials, labor, assemblies).
   name: Buildxact Estimate Items API
   slug: buildxact-estimate-items-api
-- description: Construction estimates — the top-level pricing document for a job.
+- baseURL: https://api.buildxact.com
+  baseurl_source: declared
+  description: Construction estimates — the top-level pricing document for a job.
   name: Buildxact Estimates API
   slug: buildxact-estimates-api
-- description: Tax rates and inclusivity rules applied to estimate totals.
+- baseURL: https://api.buildxact.com
+  baseurl_source: declared
+  description: Tax rates and inclusivity rules applied to estimate totals.
   name: Buildxact Tax Context API
   slug: buildxact-tax-context-api
 artifact_total: 27
@@ -269,7 +277,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -279,7 +287,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.4
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -288,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/screenshots/buildxact-2026-06-20T173758.png
 security:

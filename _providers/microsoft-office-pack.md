@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: API for accessing SharePoint sites, lists, and content.
   name: SharePoint API
   slug: sharepoint-api
-- description: The Drive API from Microsoft Office Pack — 4 operation(s) for drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Drive API from Microsoft Office Pack — 4 operation(s) for drive.
   name: Microsoft Office Pack Drive API
   slug: microsoft-office-pack-drive-api
-- description: The Mail API from Microsoft Office Pack — 4 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Mail API from Microsoft Office Pack — 4 operation(s) for mail.
   name: Microsoft Office Pack Mail API
   slug: microsoft-office-pack-mail-api
-- description: The Teams API from Microsoft Office Pack — 4 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Teams API from Microsoft Office Pack — 4 operation(s) for teams.
   name: Microsoft Office Pack Teams API
   slug: microsoft-office-pack-teams-api
 artifact_total: 21
@@ -162,7 +168,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -172,7 +178,7 @@ score:
     discoverability: 33.3
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 38.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -182,10 +188,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-pack/refs/heads/main/screenshots/microsoft-office-pack-2026-06-20T185514.png
 security:

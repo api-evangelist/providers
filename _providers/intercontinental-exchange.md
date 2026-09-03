@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: The ICE Consolidated Feed API provides developers with access to ICE Data Services real-time and delayed market data. The API delivers consolidated market data feeds from exchanges operated by Interco
+- baseURL: https://api.theice.com
+  baseurl_source: declared
+  description: The ICE Consolidated Feed API provides developers with access to ICE Data Services real-time and delayed market data. The API delivers consolidated market data feeds from exchanges operated by Interco
   name: ICE Consolidated Feed API
   slug: consolidated-feed-api
 - description: The ICE Data Services API provides access to market data, reference data, and analytics from Intercontinental Exchange. The IDS Portal provides documentation, tools, and software required for integrat
@@ -256,7 +258,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

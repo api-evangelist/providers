@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 3
 apis:
-- description: The Jobs API from microsoft-azure-batch — 1 operation(s) for jobs.
+- baseURL: https://batch.core.windows.net/
+  baseurl_source: declared
+  description: The Jobs API from microsoft-azure-batch — 1 operation(s) for jobs.
   name: microsoft-azure-batch Jobs API
   slug: microsoft-azure-batch-jobs-api
-- description: The Pools API from microsoft-azure-batch — 2 operation(s) for pools.
+- baseURL: https://batch.core.windows.net/
+  baseurl_source: declared
+  description: The Pools API from microsoft-azure-batch — 2 operation(s) for pools.
   name: microsoft-azure-batch Pools API
   slug: microsoft-azure-batch-pools-api
-- description: The Tasks API from microsoft-azure-batch — 1 operation(s) for tasks.
+- baseURL: https://batch.core.windows.net/
+  baseurl_source: declared
+  description: The Tasks API from microsoft-azure-batch — 1 operation(s) for tasks.
   name: microsoft-azure-batch Tasks API
   slug: microsoft-azure-batch-tasks-api
 artifact_total: 15
@@ -124,13 +130,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-batch.png
 layout: provider
 modified: '2026-05-19'
-name: microsoft-azure-batch
+name: Microsoft Azure Batch
 nav: Providers
 network: true
-overview: 'microsoft-azure-batch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jobs API, Pools API, and Tasks API.
+overview: 'Microsoft Azure Batch publishes 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-batch Jobs API, microsoft-azure-batch Pools API, and microsoft-azure-batch Tasks API.
 
 
-  microsoft-azure-batch''s developer surface includes authentication, developer portal, pricing, support, engineering blog, and 6 more developer resources.'
+  Microsoft Azure Batch''s developer surface includes authentication, developer portal, pricing, support, engineering blog, and 6 more developer resources.'
 plans:
 - name: Microsoft Azure Batch Plans Pricing
   plan_count: 3
@@ -173,10 +179,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/screenshots/microsoft-azure-batch-2026-06-20T185401.png
 security:

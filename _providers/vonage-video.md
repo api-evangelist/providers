@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 4
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 33 operations · 24 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: Record sessions as composed or individual-stream archives.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Record sessions as composed or individual-stream archives.
   name: Vonage Video API Archives API
   slug: vonage-video-archives-api
-- description: Live stream sessions to HLS and RTMP destinations.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Live stream sessions to HLS and RTMP destinations.
   name: Vonage Video API Broadcasts API
   slug: vonage-video-broadcasts-api
-- description: Start and stop real-time live captions.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Start and stop real-time live captions.
   name: Vonage Video API Captions API
   slug: vonage-video-captions-api
-- description: Force-disconnect and mute participants.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Force-disconnect and mute participants.
   name: Vonage Video API Moderation API
   slug: vonage-video-moderation-api
-- description: Experience Composer render service.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Experience Composer render service.
   name: Vonage Video API Render API
   slug: vonage-video-render-api
-- description: Create sessions and manage connections.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Create sessions and manage connections.
   name: Vonage Video API Sessions API
   slug: vonage-video-sessions-api
-- description: Send server-side signals into a session.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Send server-side signals into a session.
   name: Vonage Video API Signaling API
   slug: vonage-video-signaling-api
-- description: Dial SIP/PSTN endpoints into a session and play DTMF.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Dial SIP/PSTN endpoints into a session and play DTMF.
   name: Vonage Video API SIP API
   slug: vonage-video-sip-api
-- description: Inspect streams and change stream layout classes.
+- baseURL: https://video.api.vonage.com/v2
+  baseurl_source: declared
+  description: Inspect streams and change stream layout classes.
   name: Vonage Video API Streams API
   slug: vonage-video-streams-api
 artifact_total: 26
@@ -205,7 +223,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/screenshots/vonage-video-2026-06-20T201136.png
 security:

@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
   name: OpenLattice authorizations API
   slug: openlattice-authorizations-api
-- description: API endpoints to reading and writing data.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: API endpoints to reading and writing data.
   name: OpenLattice data API
   slug: openlattice-data-api
-- description: API endpoints to the entity data model.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: API endpoints to the entity data model.
   name: OpenLattice edm API
   slug: openlattice-edm-api
-- description: API endpoints related to organizations.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: API endpoints related to organizations.
   name: OpenLattice organizations API
   slug: openlattice-organizations-api
-- description: API endpoints for permissions for organisations, roles and users.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: API endpoints for permissions for organisations, roles and users.
   name: OpenLattice permissions API
   slug: openlattice-permissions-api
-- description: The principal API from OpenLattice — 5 operation(s) for principal.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: The principal API from OpenLattice — 5 operation(s) for principal.
   name: OpenLattice principal API
   slug: openlattice-principal-api
-- description: API endpoints to search data.
+- baseURL: https://api.openlattice.com
+  baseurl_source: declared
+  description: API endpoints to search data.
   name: OpenLattice search API
   slug: openlattice-search-api
 artifact_total: 18
@@ -191,7 +205,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/screenshots/openlattice-2026-08-07T190610.png
 security:

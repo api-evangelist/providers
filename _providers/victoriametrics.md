@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: Enterprise-only ML-driven anomaly detection. Reads via Prometheus query API, writes anomaly scores back via Prometheus remote-write. Multivariate models, confidence intervals and HA deployment support
   name: VictoriaMetrics Anomaly Detection (vmanomaly)
   slug: vmanomaly
-- description: Administrative operations
+- baseURL: http://<host>:8428
+  baseurl_source: declared
+  description: Administrative operations
   name: VictoriaMetrics Admin API
   slug: victoriametrics-admin-api
-- description: Raw sample export endpoints
+- baseURL: http://<host>:8428
+  baseurl_source: declared
+  description: Raw sample export endpoints
   name: VictoriaMetrics Export API
   slug: victoriametrics-export-api
-- description: Data ingestion endpoints
+- baseURL: http://<host>:8428
+  baseurl_source: declared
+  description: Data ingestion endpoints
   name: VictoriaMetrics Import API
   slug: victoriametrics-import-api
-- description: Prometheus-compatible query endpoints (PromQL / MetricsQL)
+- baseURL: http://<host>:8428
+  baseurl_source: declared
+  description: Prometheus-compatible query endpoints (PromQL / MetricsQL)
   name: VictoriaMetrics Query API
   slug: victoriametrics-query-api
-- description: Endpoints compatible with other monitoring formats
+- baseURL: http://<host>:8428
+  baseurl_source: declared
+  description: Endpoints compatible with other monitoring formats
   name: VictoriaMetrics Third-Party API
   slug: victoriametrics-third-party-api
 artifact_total: 24
@@ -207,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/screenshots/victoriametrics-2026-06-20T201019.png
 security:

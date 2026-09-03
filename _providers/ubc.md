@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -47,7 +47,9 @@ apis:
 - description: 'IIIF Presentation manifests for Open Collections items, served from UBC Library''s own host. Verified live 2026-08-19: a 10,560-byte JSON manifest returned for an item in the UBC Archives Photograph Co'
   name: UBC Library Open Collections IIIF Presentation API
   slug: open-collections-iiif
-- description: The REST API of Abacus, UBC Library's research-data repository, running Dataverse 5.9 on UBC's own infrastructure at abacus.library.ubc.ca. UBC operates the deployment and the data is UBC's and its BC
+- baseURL: https://abacus.library.ubc.ca
+  baseurl_source: declared
+  description: The REST API of Abacus, UBC Library's research-data repository, running Dataverse 5.9 on UBC's own infrastructure at abacus.library.ubc.ca. UBC operates the deployment and the data is UBC's and its BC
   name: UBC Library Abacus Dataverse API
   slug: abacus-dataverse
 - description: 'A working OAI-PMH 2.0 archive on UBC Library''s own host. Verified live 2026-08-19: verb=Identify returns repositoryName "Abacus Data Network Dataverse OAI Archive", adminEmail abacus-support@lists.ubc'
@@ -62,7 +64,9 @@ apis:
 - description: Machine-readable service status for UBC IT at status.it.ubc.ca, on UBC's own hostname but CNAMEd to stspg-customer.com — UBC's tenant of Atlassian Statuspage. The status data is UBC's; the API, its pa
   name: UBC IT Service Status API
   slug: it-status
-- description: Collection-level metadata and item traversal.
+- baseURL: https://oc-index.library.ubc.ca
+  baseurl_source: declared
+  description: Collection-level metadata and item traversal.
   name: University of British Columbia Collections API
   slug: ubc-collections-api
 artifact_total: 51
@@ -389,7 +393,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
 security:

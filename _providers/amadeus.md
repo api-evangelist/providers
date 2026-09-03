@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 54 operations · 14 acting
 api_count: 40
 apis:
-- description: The air-traffic API from Amadeus — 3 operation(s) for air-traffic.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The air-traffic API from Amadeus — 3 operation(s) for air-traffic.
   name: Amadeus air-traffic API
   slug: amadeus-air-traffic-api
-- description: The airlines API from Amadeus — 1 operation(s) for airlines.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The airlines API from Amadeus — 1 operation(s) for airlines.
   name: Amadeus airlines API
   slug: amadeus-airlines-api
-- description: The airport-ontime-prediction API from Amadeus — 1 operation(s) for airport-ontime-prediction.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The airport-ontime-prediction API from Amadeus — 1 operation(s) for airport-ontime-prediction.
   name: Amadeus airport-ontime-prediction API
   slug: amadeus-airport-ontime-prediction-api
-- description: The Availibility API from Amadeus — 1 operation(s) for availibility.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Availibility API from Amadeus — 1 operation(s) for availibility.
   name: Amadeus Availibility API
   slug: amadeus-availibility-api
-- description: The Booking API from Amadeus — 6 operation(s) for booking.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Booking API from Amadeus — 6 operation(s) for booking.
   name: Amadeus Booking API
   slug: amadeus-booking-api
-- description: The category-rated-areas API from Amadeus — 1 operation(s) for category-rated-areas.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The category-rated-areas API from Amadeus — 1 operation(s) for category-rated-areas.
   name: Amadeus category-rated-areas API
   slug: amadeus-category-rated-areas-api
-- description: The checkin-links API from Amadeus — 1 operation(s) for checkin-links.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The checkin-links API from Amadeus — 1 operation(s) for checkin-links.
   name: Amadeus checkin-links API
   slug: amadeus-checkin-links-api
-- description: The City API from Amadeus — 1 operation(s) for city.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The City API from Amadeus — 1 operation(s) for city.
   name: Amadeus City API
   slug: amadeus-city-api
-- description: The destinations API from Amadeus — 1 operation(s) for destinations.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The destinations API from Amadeus — 1 operation(s) for destinations.
   name: Amadeus destinations API
   slug: amadeus-destinations-api
-- description: The direct-destinations API from Amadeus — 1 operation(s) for direct-destinations.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The direct-destinations API from Amadeus — 1 operation(s) for direct-destinations.
   name: Amadeus direct-destinations API
   slug: amadeus-direct-destinations-api
-- description: The Display SeatMaps API from Amadeus — 1 operation(s) for display seatmaps.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Display SeatMaps API from Amadeus — 1 operation(s) for display seatmaps.
   name: Amadeus Display SeatMaps API
   slug: amadeus-display-seatmaps-api
-- description: The flight-choice-prediction API from Amadeus — 1 operation(s) for flight-choice-prediction.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The flight-choice-prediction API from Amadeus — 1 operation(s) for flight-choice-prediction.
   name: Amadeus flight-choice-prediction API
   slug: amadeus-flight-choice-prediction-api
-- description: The flight-dates API from Amadeus — 1 operation(s) for flight-dates.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The flight-dates API from Amadeus — 1 operation(s) for flight-dates.
   name: Amadeus flight-dates API
   slug: amadeus-flight-dates-api
-- description: The flight-delay-prediction API from Amadeus — 1 operation(s) for flight-delay-prediction.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The flight-delay-prediction API from Amadeus — 1 operation(s) for flight-delay-prediction.
   name: Amadeus flight-delay-prediction API
   slug: amadeus-flight-delay-prediction-api
-- description: The flight-destinations API from Amadeus — 1 operation(s) for flight-destinations.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The flight-destinations API from Amadeus — 1 operation(s) for flight-destinations.
   name: Amadeus flight-destinations API
   slug: amadeus-flight-destinations-api
-- description: The flights API from Amadeus — 1 operation(s) for flights.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The flights API from Amadeus — 1 operation(s) for flights.
   name: Amadeus flights API
   slug: amadeus-flights-api
-- description: Sentiments about Hotels.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: Sentiments about Hotels.
   name: Amadeus Hotel Ratings API
   slug: amadeus-hotel-ratings-api
-- description: The Hotels API from Amadeus — 3 operation(s) for hotels.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Hotels API from Amadeus — 3 operation(s) for hotels.
   name: Amadeus Hotels API
   slug: amadeus-hotels-api
-- description: The location API from Amadeus — 3 operation(s) for location.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The location API from Amadeus — 3 operation(s) for location.
   name: Amadeus location API
   slug: amadeus-location-api
-- description: The OAuth2 Access Token API from Amadeus — 2 operation(s) for oauth2 access token.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The OAuth2 Access Token API from Amadeus — 2 operation(s) for oauth2 access token.
   name: Amadeus OAuth2 Access Token API
   slug: amadeus-oauth2-access-token-api
-- description: The price-metrics API from Amadeus — 1 operation(s) for price-metrics.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The price-metrics API from Amadeus — 1 operation(s) for price-metrics.
   name: Amadeus price-metrics API
   slug: amadeus-price-metrics-api
-- description: The recommended-locations API from Amadeus — 1 operation(s) for recommended-locations.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The recommended-locations API from Amadeus — 1 operation(s) for recommended-locations.
   name: Amadeus recommended-locations API
   slug: amadeus-recommended-locations-api
-- description: The Retrieve API from Amadeus — 3 operation(s) for retrieve.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Retrieve API from Amadeus — 3 operation(s) for retrieve.
   name: Amadeus Retrieve API
   slug: amadeus-retrieve-api
-- description: The Search API from Amadeus — 7 operation(s) for search.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Search API from Amadeus — 7 operation(s) for search.
   name: Amadeus Search API
   slug: amadeus-search-api
-- description: The Shopping API from Amadeus — 6 operation(s) for shopping.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Shopping API from Amadeus — 6 operation(s) for shopping.
   name: Amadeus Shopping API
   slug: amadeus-shopping-api
-- description: The trip-purpose-prediction API from Amadeus — 1 operation(s) for trip-purpose-prediction.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The trip-purpose-prediction API from Amadeus — 1 operation(s) for trip-purpose-prediction.
   name: Amadeus trip-purpose-prediction API
   slug: amadeus-trip-purpose-prediction-api
 arazzos:
@@ -7345,7 +7397,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -7355,7 +7407,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -7364,7 +7416,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png
 security:

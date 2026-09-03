@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 16
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 173 operations · 118 acting · 16 human-in-the-loop
 api_count: 1
 apis:
-- description: LLM-backed domain tools
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: LLM-backed domain tools
   name: Nash AI Functions API
   slug: nash-ai-functions-api
-- description: Annotate
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Annotate
   name: Nash Annotate API
   slug: nash-annotate-api
-- description: Batch Job
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Batch Job
   name: Nash Batch Job API
   slug: nash-batch-job-api
-- description: Provider contract pricing and version listings
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Provider contract pricing and version listings
   name: Nash Contracts API
   slug: nash-contracts-api
-- description: Couriers
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Couriers
   name: Nash Couriers API
   slug: nash-couriers-api
-- description: Delivery Windows
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Delivery Windows
   name: Nash Delivery Windows API
   slug: nash-delivery-windows-api
-- description: Dispatch Strategies
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Dispatch Strategies
   name: Nash Dispatch Strategies API
   slug: nash-dispatch-strategies-api
-- description: Feedback
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Feedback
   name: Nash Feedback API
   slug: nash-feedback-api
-- description: Inbound endpoints fleets call to update in-flight deliveries.
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Inbound endpoints fleets call to update in-flight deliveries.
   name: Nash Fleet API
   slug: nash-fleet-api
-- description: Job
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Job
   name: Nash Job API
   slug: nash-job-api
-- description: Messaging
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Messaging
   name: Nash Messaging API
   slug: nash-messaging-api
-- description: Miscellaneous
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Miscellaneous
   name: Nash Miscellaneous API
   slug: nash-miscellaneous-api
-- description: Notifications
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Notifications
   name: Nash Notifications API
   slug: nash-notifications-api
-- description: Create, read, update, and delete route optimization strategies.
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete route optimization strategies.
   name: Nash Optimization Strategies API
   slug: nash-optimization-strategies-api
-- description: Order
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Order
   name: Nash Order API
   slug: nash-order-api
-- description: Organizations
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Organizations
   name: Nash Organizations API
   slug: nash-organizations-api
-- description: Provider
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Provider
   name: Nash Provider API
   slug: nash-provider-api
-- description: Route
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Route
   name: Nash Route API
   slug: nash-route-api
-- description: Org-scoped geographic areas the route optimizer must avoid traversing.
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Org-scoped geographic areas the route optimizer must avoid traversing.
   name: Nash Route Restrictions API
   slug: nash-route-restrictions-api
-- description: Shifts
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Shifts
   name: Nash Shifts API
   slug: nash-shifts-api
-- description: Shipping operations
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Shipping operations
   name: Nash Shipping API
   slug: nash-shipping-api
-- description: Store Catalog
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Store Catalog
   name: Nash Store Catalog API
   slug: nash-store-catalog-api
-- description: Store Locations
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Store Locations
   name: Nash Store Locations API
   slug: nash-store-locations-api
-- description: Templates
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Templates
   name: Nash Templates API
   slug: nash-templates-api
-- description: User, role, and organization-membership management.
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: User, role, and organization-membership management.
   name: Nash Users API
   slug: nash-users-api
-- description: Vehicles
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Vehicles
   name: Nash Vehicles API
   slug: nash-vehicles-api
-- description: Webhook delivery inspection
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Webhook delivery inspection
   name: Nash Webhooks API
   slug: nash-webhooks-api
-- description: Workflow automation management
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Workflow automation management
   name: Nash Workflow API
   slug: nash-workflow-api
-- description: Workflow execution history and monitoring
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Workflow execution history and monitoring
   name: Nash Workflow Execution API
   slug: nash-workflow-execution-api
-- description: Zones
+- baseURL: https://api.usenash.com/v1
+  baseurl_source: declared
+  description: Zones
   name: Nash Zones API
   slug: nash-zones-api
 artifact_total: 70
@@ -396,7 +456,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -406,7 +466,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 54.0
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -418,7 +478,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/screenshots/nash-2026-08-07T184639.png
 security:

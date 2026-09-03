@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 35
@@ -47,19 +47,29 @@ apis:
 - description: NovelAI API provides programmatic access to AI image generation and text generation capabilities.
   name: NovelAI API
   slug: novelai
-- description: The /ai/ API from NovelAI — 9 operation(s) for /ai/.
+- baseURL: https://api.novelai.net
+  baseurl_source: spec
+  description: The /ai/ API from NovelAI — 9 operation(s) for /ai/.
   name: NovelAI /ai/ API
   slug: novelai-ai-api
-- description: The /ai/module/ API from NovelAI — 3 operation(s) for /ai/module/.
+- baseURL: https://api.novelai.net
+  baseurl_source: spec
+  description: The /ai/module/ API from NovelAI — 3 operation(s) for /ai/module/.
   name: NovelAI /ai/module/ API
   slug: novelai-ai-module-api
-- description: The / API from NovelAI — 1 operation(s) for /.
+- baseURL: https://api.novelai.net
+  baseurl_source: spec
+  description: The / API from NovelAI — 1 operation(s) for /.
   name: NovelAI / API
   slug: novelai-default-api
-- description: The /user/ API from NovelAI — 28 operation(s) for /user/.
+- baseURL: https://api.novelai.net
+  baseurl_source: spec
+  description: The /user/ API from NovelAI — 28 operation(s) for /user/.
   name: NovelAI /user/ API
   slug: novelai-user-api
-- description: The /user/subscription/ API from NovelAI — 2 operation(s) for /user/subscription/.
+- baseURL: https://api.novelai.net
+  baseurl_source: spec
+  description: The /user/subscription/ API from NovelAI — 2 operation(s) for /user/subscription/.
   name: NovelAI /user/subscription/ API
   slug: novelai-user-subscription-api
 artifact_total: 20
@@ -166,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novelai/refs/heads/main/screenshots/novelai-2026-06-20T190437.png
 security:

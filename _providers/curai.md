@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Partner API from Curai — 2 operation(s) for partner.
+- baseURL: https://gateway.curaihealth.com/partner
+  baseurl_source: declared
+  description: The Partner API from Curai — 2 operation(s) for partner.
   name: Curai Partner API
   slug: curai-partner-api
 artifact_total: 7
@@ -204,7 +206,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
 security:

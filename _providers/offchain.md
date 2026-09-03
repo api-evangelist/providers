@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Arbitrum One (chain id 42161 / 0xa4b1), the flagship Arbitrum layer-2 network. Supports the standard Ethereum JSON-RPC method set (eth_*, net_*, web3_*
@@ -121,7 +121,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offchain/refs/heads/main/screenshots/offchain-2026-08-07T190015.png
 security:

@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create and manage diagnostic collection orders.
+- baseURL: https://partner-api.orangehealth.in
+  baseurl_source: declared
+  description: Create and manage diagnostic collection orders.
   name: Orange Health Orders API
   slug: orange-health-orders-api
-- description: Retrieve order status and structured test results.
+- baseURL: https://partner-api.orangehealth.in
+  baseurl_source: declared
+  description: Retrieve order status and structured test results.
   name: Orange Health Results API
   slug: orange-health-results-api
-- description: Check whether a location is serviceable and fetch available slots.
+- baseURL: https://partner-api.orangehealth.in
+  baseurl_source: declared
+  description: Check whether a location is serviceable and fetch available slots.
   name: Orange Health Serviceability API
   slug: orange-health-serviceability-api
-- description: The Orange Health Partner API API from Orange Health — 0 operation(s) for orange health partner api.
+- baseURL: https://partner-api.orangehealth.in
+  baseurl_source: declared
+  description: The Orange Health Partner API API from Orange Health — 0 operation(s) for orange health partner api.
   name: Orange Health Orange Health Partner API
   slug: orange-health-orange-health-partner-api-api
 artifact_total: 13
@@ -159,7 +167,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -169,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 23.2
+  previous_composite: 23.1
   provenance:
     conformance: derived
     contracts:
@@ -186,7 +194,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Commercial applications describing the insured business.
+- baseURL: https://api.coterieinsurance.com/v1
+  baseurl_source: declared
+  description: Commercial applications describing the insured business.
   name: Coterie Insurance Applications API
   slug: coterie-applications-api
-- description: Policy documents and proposals.
+- baseURL: https://api.coterieinsurance.com/v1
+  baseurl_source: declared
+  description: Policy documents and proposals.
   name: Coterie Insurance Documents API
   slug: coterie-documents-api
-- description: Industry / NAICS classification lookup.
+- baseURL: https://api.coterieinsurance.com/v1
+  baseurl_source: declared
+  description: Industry / NAICS classification lookup.
   name: Coterie Insurance Industry API
   slug: coterie-industry-api
-- description: Binding and issuing policies from bindable quotes.
+- baseURL: https://api.coterieinsurance.com/v1
+  baseurl_source: declared
+  description: Binding and issuing policies from bindable quotes.
   name: Coterie Insurance Policies API
   slug: coterie-policies-api
-- description: Rated, bindable quotes and underwriting questions.
+- baseURL: https://api.coterieinsurance.com/v1
+  baseurl_source: declared
+  description: Rated, bindable quotes and underwriting questions.
   name: Coterie Insurance Quotes API
   slug: coterie-quotes-api
-- description: Webhook subscription management.
+- baseURL: https://api.coterieinsurance.com/v1
+  baseurl_source: declared
+  description: Webhook subscription management.
   name: Coterie Insurance Webhooks API
   slug: coterie-webhooks-api
 artifact_total: 21
@@ -204,7 +216,7 @@ score:
     regime_id: insurance
     score: 43.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/screenshots/coterie-2026-07-25T210459.png
 security:

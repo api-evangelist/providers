@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The automations API from Capy — 3 operation(s) for automations.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The automations API from Capy — 3 operation(s) for automations.
   name: Capy automations API
   slug: capy-automations-api
-- description: The browser-snapshots API from Capy — 2 operation(s) for browser-snapshots.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The browser-snapshots API from Capy — 2 operation(s) for browser-snapshots.
   name: Capy browser-snapshots API
   slug: capy-browser-snapshots-api
-- description: The environment-variables API from Capy — 2 operation(s) for environment-variables.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The environment-variables API from Capy — 2 operation(s) for environment-variables.
   name: Capy environment-variables API
   slug: capy-environment-variables-api
-- description: The models API from Capy — 1 operation(s) for models.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The models API from Capy — 1 operation(s) for models.
   name: Capy models API
   slug: capy-models-api
-- description: The projects API from Capy — 2 operation(s) for projects.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The projects API from Capy — 2 operation(s) for projects.
   name: Capy projects API
   slug: capy-projects-api
-- description: The sessions API from Capy — 1 operation(s) for sessions.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The sessions API from Capy — 1 operation(s) for sessions.
   name: Capy sessions API
   slug: capy-sessions-api
-- description: The setup API from Capy — 1 operation(s) for setup.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The setup API from Capy — 1 operation(s) for setup.
   name: Capy setup API
   slug: capy-setup-api
-- description: The snapshots API from Capy — 1 operation(s) for snapshots.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The snapshots API from Capy — 1 operation(s) for snapshots.
   name: Capy snapshots API
   slug: capy-snapshots-api
-- description: The tags API from Capy — 2 operation(s) for tags.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The tags API from Capy — 2 operation(s) for tags.
   name: Capy tags API
   slug: capy-tags-api
-- description: The tasks API from Capy — 2 operation(s) for tasks.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The tasks API from Capy — 2 operation(s) for tasks.
   name: Capy tasks API
   slug: capy-tasks-api
-- description: The threads API from Capy — 8 operation(s) for threads.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The threads API from Capy — 8 operation(s) for threads.
   name: Capy threads API
   slug: capy-threads-api
-- description: The usage API from Capy — 1 operation(s) for usage.
+- baseURL: https://capy.ai/api/v1/
+  baseurl_source: declared
+  description: The usage API from Capy — 1 operation(s) for usage.
   name: Capy usage API
   slug: capy-usage-api
 artifact_total: 31
@@ -276,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/screenshots/capy-2026-07-25T204458.png
 security:

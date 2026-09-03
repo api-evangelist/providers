@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 38 operations · 22 acting
 api_count: 2
 apis:
-- description: Manage SwaggerHub API definitions and versions
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Manage SwaggerHub API definitions and versions
   name: SwaggerHub APIs API
   slug: swaggerhub-apis-api
-- description: Manage shared component domains
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Manage shared component domains
   name: SwaggerHub Domains API
   slug: swaggerhub-domains-api
-- description: Configure and trigger CI/CD integrations
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Configure and trigger CI/CD integrations
   name: SwaggerHub Integrations API
   slug: swaggerhub-integrations-api
-- description: Manage organization membership and roles
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Manage organization membership and roles
   name: SwaggerHub Organizations API
   slug: swaggerhub-organizations-api
-- description: Organize APIs and domains into projects
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Organize APIs and domains into projects
   name: SwaggerHub Projects API
   slug: swaggerhub-projects-api
-- description: Search across APIs, domains, and templates
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Search across APIs, domains, and templates
   name: SwaggerHub Search API
   slug: swaggerhub-search-api
-- description: API lifecycle and visibility settings
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: API lifecycle and visibility settings
   name: SwaggerHub Settings API
   slug: swaggerhub-settings-api
-- description: Spectral ruleset management for API standardization
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Spectral ruleset management for API standardization
   name: SwaggerHub Standardization API
   slug: swaggerhub-standardization-api
-- description: Manage team membership and access
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: declared
+  description: Manage team membership and access
   name: SwaggerHub Teams API
   slug: swaggerhub-teams-api
 artifact_total: 43
@@ -318,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swaggerhub/refs/heads/main/screenshots/swaggerhub-2026-06-20T194753.png
 security:

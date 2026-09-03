@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 15 operations · 4 acting
 api_count: 1
 apis:
-- description: Recruitment candidate management.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Recruitment candidate management.
   name: PeopleForce Candidates API
   slug: peopleforce-candidates-api
-- description: Departments within the organization.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Departments within the organization.
   name: PeopleForce Departments API
   slug: peopleforce-departments-api
-- description: Divisions within the organization.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Divisions within the organization.
   name: PeopleForce Divisions API
   slug: peopleforce-divisions-api
-- description: Employee profiles, positions, and compensation.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Employee profiles, positions, and compensation.
   name: PeopleForce Employees API
   slug: peopleforce-employees-api
-- description: Time off and leave management.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Time off and leave management.
   name: PeopleForce Leave Requests API
   slug: peopleforce-leave-requests-api
-- description: Job positions.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Job positions.
   name: PeopleForce Positions API
   slug: peopleforce-positions-api
-- description: Open positions and vacancies.
+- baseURL: https://app.peopleforce.io/api/public/v2
+  baseurl_source: declared
+  description: Open positions and vacancies.
   name: PeopleForce Vacancies API
   slug: peopleforce-vacancies-api
 artifact_total: 22
@@ -163,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopleforce/refs/heads/main/screenshots/peopleforce-2026-06-20T191548.png
 security:

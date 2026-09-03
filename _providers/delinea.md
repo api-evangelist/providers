@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 524
   human_in_the_loop: 28
@@ -53,301 +53,499 @@ apis:
 - description: Platform-level REST API for Delinea's unified cloud platform enabling OAuth 2.0 authentication, role and group management, service account operations, and integration with Secret Server through the pl
   name: Delinea Platform API
   slug: platform-api
-- description: Activate Licenses
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Activate Licenses
   name: Delinea Activations API
   slug: delinea-activations-api
-- description: View and maintain Active Directory
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Active Directory
   name: Delinea ActiveDirectory API
   slug: delinea-activedirectory-api
-- description: AdvancedConfigSettingsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: AdvancedConfigSettingsController
   name: Delinea AdvancedConfigSettings API
   slug: delinea-advancedconfigsettings-api
-- description: API Token Generation
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: API Token Generation
   name: Delinea ApiToken API
   slug: delinea-apitoken-api
-- description: View and maintain app clients
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain app clients
   name: Delinea AppClients API
   slug: delinea-appclients-api
-- description: View and maintain users
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain users
   name: Delinea ApplicationAccounts API
   slug: delinea-applicationaccounts-api
-- description: ApplicationRequestController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: ApplicationRequestController
   name: Delinea ApplicationRequest API
   slug: delinea-applicationrequest-api
-- description: AppStateController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: AppStateController
   name: Delinea AppState API
   slug: delinea-appstate-api
-- description: View Bulk Operations
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View Bulk Operations
   name: Delinea BulkOperations API
   slug: delinea-bulkoperations-api
-- description: Create Bulk Secret Operations
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Create Bulk Secret Operations
   name: Delinea BulkSecretOperations API
   slug: delinea-bulksecretoperations-api
-- description: Create Bulk User Operations
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Create Bulk User Operations
   name: Delinea BulkUserOperations API
   slug: delinea-bulkuseroperations-api
-- description: Export and Import Bundles
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Export and Import Bundles
   name: Delinea Bundle API
   slug: delinea-bundle-api
-- description: View and maintain lists of options
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain lists of options
   name: Delinea CategorizedLists API
   slug: delinea-categorizedlists-api
-- description: Character Sets used in password requirements
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Character Sets used in password requirements
   name: Delinea CharacterSets API
   slug: delinea-charactersets-api
-- description: View cloud diagnostics information
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View cloud diagnostics information
   name: Delinea CloudDiagnostics API
   slug: delinea-clouddiagnostics-api
-- description: Secret Server Configuration
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Secret Server Configuration
   name: Delinea Configuration API
   slug: delinea-configuration-api
-- description: ConnectionManagerSettingsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: ConnectionManagerSettingsController
   name: Delinea ConnectionManagerSettings API
   slug: delinea-connectionmanagersettings-api
-- description: DependencyChangerController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: DependencyChangerController
   name: Delinea DependencyChanger API
   slug: delinea-dependencychanger-api
-- description: Manage secrets that are synced to DSV Tenants.
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Manage secrets that are synced to DSV Tenants.
   name: Delinea DevOpsSecretsVaultSync API
   slug: delinea-devopssecretsvaultsync-api
-- description: Manage the tenants SS can communicate with in DevOps Secrets Vault.
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Manage the tenants SS can communicate with in DevOps Secrets Vault.
   name: Delinea DevOpsSecretsVaultTenant API
   slug: delinea-devopssecretsvaulttenant-api
-- description: View diagnostics information
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View diagnostics information
   name: Delinea Diagnostics API
   slug: delinea-diagnostics-api
-- description: View diagnostics information
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View diagnostics information
   name: Delinea DiagnosticsV2 API
   slug: delinea-diagnosticsv2-api
-- description: View and maintain Directory Services integrations
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Directory Services integrations
   name: Delinea DirectoryServices API
   slug: delinea-directoryservices-api
-- description: Disaster Recovery
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Disaster Recovery
   name: Delinea DisasterRecovery API
   slug: delinea-disasterrecovery-api
-- description: DiscoveryController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: DiscoveryController
   name: Delinea Discovery API
   slug: delinea-discovery-api
-- description: View and maintain Distributed Engine integrations
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Distributed Engine integrations
   name: Delinea DistributedEngine API
   slug: delinea-distributedengine-api
-- description: DomainNameIndexController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: DomainNameIndexController
   name: Delinea DomainNameIndex API
   slug: delinea-domainnameindex-api
-- description: View and maintain dual controls
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain dual controls
   name: Delinea DualControls API
   slug: delinea-dualcontrols-api
-- description: View enterprise related data
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View enterprise related data
   name: Delinea Enterprise API
   slug: delinea-enterprise-api
-- description: EventPipelineController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventPipelineController
   name: Delinea EventPipeline API
   slug: delinea-eventpipeline-api
-- description: EventPipelineAuditController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventPipelineAuditController
   name: Delinea EventPipelineAudit API
   slug: delinea-eventpipelineaudit-api
-- description: EventPipelinePolicyController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventPipelinePolicyController
   name: Delinea EventPipelinePolicy API
   slug: delinea-eventpipelinepolicy-api
-- description: EventPipelineSettingsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventPipelineSettingsController
   name: Delinea EventPipelineSettings API
   slug: delinea-eventpipelinesettings-api
-- description: EventPipelineTriggerController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventPipelineTriggerController
   name: Delinea EventPipelineTrigger API
   slug: delinea-eventpipelinetrigger-api
-- description: EventSubscriptionsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventSubscriptionsController
   name: Delinea EventSubscriptions API
   slug: delinea-eventsubscriptions-api
-- description: Extended Fields provider
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Extended Fields provider
   name: Delinea ExtendedFields API
   slug: delinea-extendedfields-api
-- description: FeatureFlagController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: FeatureFlagController
   name: Delinea FeatureFlag API
   slug: delinea-featureflag-api
-- description: View and maintain secret folder permissions
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain secret folder permissions
   name: Delinea FolderPermissions API
   slug: delinea-folderpermissions-api
-- description: View and maintain secret folders
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain secret folders
   name: Delinea Folders API
   slug: delinea-folders-api
-- description: View and maintain user security groups
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain user security groups
   name: Delinea Groups API
   slug: delinea-groups-api
-- description: HealthCheckController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: HealthCheckController
   name: Delinea HealthCheck API
   slug: delinea-healthcheck-api
-- description: Secret Server HSM Configuration
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Secret Server HSM Configuration
   name: Delinea HsmConfiguration API
   slug: delinea-hsmconfiguration-api
-- description: InboxController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: InboxController
   name: Delinea Inbox API
   slug: delinea-inbox-api
-- description: InboxRulesController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: InboxRulesController
   name: Delinea InboxRules API
   slug: delinea-inboxrules-api
-- description: InstallController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: InstallController
   name: Delinea Install API
   slug: delinea-install-api
-- description: View and maintain IP Address restrictions
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain IP Address restrictions
   name: Delinea IpAddressRestrictions API
   slug: delinea-ipaddressrestrictions-api
-- description: JumpboxRouteController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: JumpboxRouteController
   name: Delinea JumpboxRoute API
   slug: delinea-jumpboxroute-api
-- description: View and configure Key Management settings
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and configure Key Management settings
   name: Delinea KeyManagement API
   slug: delinea-keymanagement-api
-- description: Manage Launcher Agents and Launcher Agent Collections for Advanced Session Recording
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Manage Launcher Agents and Launcher Agent Collections for Advanced Session Recording
   name: Delinea LauncherAgents API
   slug: delinea-launcheragents-api
-- description: View available application launchers
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View available application launchers
   name: Delinea Launchers API
   slug: delinea-launchers-api
-- description: LicenseController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: LicenseController
   name: Delinea License API
   slug: delinea-license-api
-- description: MetadataController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: MetadataController
   name: Delinea Metadata API
   slug: delinea-metadata-api
-- description: MobileController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: MobileController
   name: Delinea Mobile API
   slug: delinea-mobile-api
-- description: Expire the current user session
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Expire the current user session
   name: Delinea OAuthExpiration API
   slug: delinea-oauthexpiration-api
-- description: View and maintain one time passwords
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain one time passwords
   name: Delinea OneTimePasswordCode API
   slug: delinea-onetimepasswordcode-api
-- description: Password Requirements
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Password Requirements
   name: Delinea PasswordRequirements API
   slug: delinea-passwordrequirements-api
-- description: View and configure Privilege Behavior Analytics
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and configure Privilege Behavior Analytics
   name: Delinea PbaConfiguration API
   slug: delinea-pbaconfiguration-api
-- description: View and maintain Platform integration
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Platform integration
   name: Delinea Platform API
   slug: delinea-platform-api
-- description: Retrieve and update SSH and RDP proxy configurations
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Retrieve and update SSH and RDP proxy configurations
   name: Delinea Proxy API
   slug: delinea-proxy-api
-- description: View Password Changing Settings
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View Password Changing Settings
   name: Delinea RemotePasswordChanging API
   slug: delinea-remotepasswordchanging-api
-- description: View and maintain Reports
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Reports
   name: Delinea Reports API
   slug: delinea-reports-api
-- description: REST API Doc Services
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: REST API Doc Services
   name: Delinea RestApiDocs API
   slug: delinea-restapidocs-api
-- description: View User Role Audits
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View User Role Audits
   name: Delinea RoleAudit API
   slug: delinea-roleaudit-api
-- description: RolePermissionsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: RolePermissionsController
   name: Delinea RolePermissions API
   slug: delinea-rolepermissions-api
-- description: View and maintain User Roles
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain User Roles
   name: Delinea Roles API
   slug: delinea-roles-api
-- description: ScheduleController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: ScheduleController
   name: Delinea Schedule API
   slug: delinea-schedule-api
-- description: View Scripts
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View Scripts
   name: Delinea Script API
   slug: delinea-script-api
-- description: View and maintain SDK Client Accounts
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain SDK Client Accounts
   name: Delinea SdkClientAccounts API
   slug: delinea-sdkclientaccounts-api
-- description: View SDK Client Audits
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View SDK Client Audits
   name: Delinea SdkClientAudits API
   slug: delinea-sdkclientaudits-api
-- description: View and maintain SDK Client Rules
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain SDK Client Rules
   name: Delinea SdkClientRules API
   slug: delinea-sdkclientrules-api
-- description: SecretAccessRequestsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SecretAccessRequestsController
   name: Delinea SecretAccessRequests API
   slug: delinea-secretaccessrequests-api
-- description: View and maintain Secret Dependencies
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Secret Dependencies
   name: Delinea SecretDependencies API
   slug: delinea-secretdependencies-api
-- description: SecretEraseRequestsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SecretEraseRequestsController
   name: Delinea SecretEraseRequests API
   slug: delinea-secreteraserequests-api
-- description: Specialized calls for Thycotic Secret Server Extensions. Thycotic may change the functionality or signatures under the secret-extensions route. Use at your own risk.
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Specialized calls for Thycotic Secret Server Extensions. Thycotic may change the functionality or signatures under the secret-extensions route. Use at your own risk.
   name: Delinea SecretExtensions API
   slug: delinea-secretextensions-api
-- description: SecretHealthController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SecretHealthController
   name: Delinea SecretHealth API
   slug: delinea-secrethealth-api
-- description: View and maintain Secret hooks
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Secret hooks
   name: Delinea SecretHooks API
   slug: delinea-secrethooks-api
-- description: View and maintain secret permissions
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain secret permissions
   name: Delinea SecretPermissions API
   slug: delinea-secretpermissions-api
-- description: Retrieve and update Secret Policies
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Retrieve and update Secret Policies
   name: Delinea SecretPolicy API
   slug: delinea-secretpolicy-api
-- description: View and maintain Secrets
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Secrets
   name: Delinea Secrets API
   slug: delinea-secrets-api
-- description: Secret Server Settings
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Secret Server Settings
   name: Delinea SecretServerSettings API
   slug: delinea-secretserversettings-api
-- description: View recorded sessions
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View recorded sessions
   name: Delinea SecretSessions API
   slug: delinea-secretsessions-api
-- description: Secret Template Permissions
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Secret Template Permissions
   name: Delinea SecretTemplatePermissions API
   slug: delinea-secrettemplatepermissions-api
-- description: View secret templates
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View secret templates
   name: Delinea SecretTemplates API
   slug: delinea-secrettemplates-api
-- description: View Security Audit Logs
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View Security Audit Logs
   name: Delinea SecurityAuditLogs API
   slug: delinea-securityauditlogs-api
-- description: View nodes and update roles or readonly mode
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View nodes and update roles or readonly mode
   name: Delinea ServerNodes API
   slug: delinea-servernodes-api
-- description: SitesController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SitesController
   name: Delinea Sites API
   slug: delinea-sites-api
-- description: SlackController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SlackController
   name: Delinea Slack API
   slug: delinea-slack-api
-- description: SshCipherSuiteController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SshCipherSuiteController
   name: Delinea SshCipherSuite API
   slug: delinea-sshciphersuite-api
-- description: View and maintain SSH Commands
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain SSH Commands
   name: Delinea SshCommand API
   slug: delinea-sshcommand-api
-- description: View and maintain SSH Command Blocklists
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain SSH Command Blocklists
   name: Delinea SshCommandBlocklist API
   slug: delinea-sshcommandblocklist-api
-- description: View and maintain SSH Command Menus
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain SSH Command Menus
   name: Delinea SshCommandMenu API
   slug: delinea-sshcommandmenu-api
-- description: SubscriptionsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: SubscriptionsController
   name: Delinea Subscriptions API
   slug: delinea-subscriptions-api
-- description: View and maintain user security teams
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain user security teams
   name: Delinea Teams API
   slug: delinea-teams-api
-- description: TicketSystemsController
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: TicketSystemsController
   name: Delinea TicketSystems API
   slug: delinea-ticketsystems-api
-- description: View and maintain users
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain users
   name: Delinea Users API
   slug: delinea-users-api
-- description: Secret Server Version
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Secret Server Version
   name: Delinea Version API
   slug: delinea-version-api
-- description: View and maintain Workflow Instances
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Workflow Instances
   name: Delinea WorkflowInstances API
   slug: delinea-workflowinstances-api
-- description: View and maintain Workflow Template Steps
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Workflow Template Steps
   name: Delinea WorkflowStepTemplates API
   slug: delinea-workflowsteptemplates-api
-- description: View and maintain Workflow Templates
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Workflow Templates
   name: Delinea WorkflowTemplates API
   slug: delinea-workflowtemplates-api
 artifact_total: 241
@@ -882,7 +1080,7 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delinea/refs/heads/main/screenshots/delinea-2026-06-20T175854.png
 security:

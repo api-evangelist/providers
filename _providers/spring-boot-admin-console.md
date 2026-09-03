@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -55,13 +55,19 @@ apis:
 - description: Configure and trigger notification channels for application lifecycle events. Supports email, Slack, PagerDuty, OpsGenie, Microsoft Teams, Telegram, and custom webhook notifications.
   name: Notifications API
   slug: notifications-api
-- description: Application registration and management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Application registration and management
   name: Spring Boot Admin Console Applications API
   slug: spring-boot-admin-console-applications-api
-- description: Instance lifecycle event stream
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Instance lifecycle event stream
   name: Spring Boot Admin Console Events API
   slug: spring-boot-admin-console-events-api
-- description: Application instance monitoring and management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Application instance monitoring and management
   name: Spring Boot Admin Console Instances API
   slug: spring-boot-admin-console-instances-api
 artifact_total: 25
@@ -232,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: spring-boot-admin-console
 tags:

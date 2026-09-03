@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: REST API for programmatic access to Commusoft's field service management platform, enabling management of jobs, customers, engineers, quotes, invoices, parts, and service histories for trades business
   name: Commusoft API
   slug: commusoft-api
-- description: Obtain API access tokens
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Obtain API access tokens
   name: Commusoft Authentication API
   slug: commusoft-authentication-api
-- description: Manage contacts linked to customers or suppliers
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Manage contacts linked to customers or suppliers
   name: Commusoft Contacts API
   slug: commusoft-contacts-api
-- description: Manage customer records including addresses, contacts, and property details
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Manage customer records including addresses, contacts, and property details
   name: Commusoft Customers API
   slug: commusoft-customers-api
-- description: Manage calendar and scheduling diary events
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Manage calendar and scheduling diary events
   name: Commusoft Diary Events API
   slug: commusoft-diary-events-api
-- description: Manage location/site records
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Manage location/site records
   name: Commusoft Locations API
   slug: commusoft-locations-api
-- description: Manage supplier records and contact details
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Manage supplier records and contact details
   name: Commusoft Suppliers API
   slug: commusoft-suppliers-api
-- description: Manage title settings (Mr, Mrs, Dr, etc.)
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Manage title settings (Mr, Mrs, Dr, etc.)
   name: Commusoft Titles API
   slug: commusoft-titles-api
-- description: Retrieve user records
+- baseURL: https://api.commusoft.com
+  baseurl_source: declared
+  description: Retrieve user records
   name: Commusoft Users API
   slug: commusoft-users-api
 artifact_total: 35
@@ -257,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png
 security:

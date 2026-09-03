@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 7 operations · 6 acting
 api_count: 4
 apis:
-- description: 'Chat completion endpoints on the OpenAI-compatible LLM gateway UC San Diego operates for approved campus faculty, staff, researchers and teams. The gateway runs on the campus Data Science and Machine '
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: 'Chat completion endpoints on the OpenAI-compatible LLM gateway UC San Diego operates for approved campus faculty, staff, researchers and teams. The gateway runs on the campus Data Science and Machine '
   name: TritonAI Developer API — chat
   slug: tritonai-chat-api
-- description: Text completion endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Text completion endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
   name: TritonAI Developer API — completions
   slug: tritonai-completions-api
-- description: Embedding generation endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Embedding generation endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
   name: TritonAI Developer API — embeddings
   slug: tritonai-embeddings-api
-- description: Model discovery endpoints on the UC San Diego TritonAI LLM gateway. The catalogue of models the gateway exposes is published for campus users through the TritonAI Model Hub.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Model discovery endpoints on the UC San Diego TritonAI LLM gateway. The catalogue of models the gateway exposes is published for campus users through the TritonAI Model Hub.
   name: TritonAI Developer API — models
   slug: tritonai-models-api
-- description: Image generation endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Image generation endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
   name: TritonAI Developer API — images
   slug: tritonai-images-api
-- description: Speech synthesis and transcription endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Speech synthesis and transcription endpoints on the UC San Diego TritonAI LLM gateway. Institution-operated on campus infrastructure; access requires an issued TritonAI API key.
   name: TritonAI Developer API — audio
   slug: tritonai-audio-api
-- description: SCIM 2.0 (RFC 7643 / RFC 7644) user and group provisioning surface exposed by the TritonAI gateway on UC San Diego infrastructure — 18 operations across /scim/v2/Users, /scim/v2/Groups, /scim/v2/Schem
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: SCIM 2.0 (RFC 7643 / RFC 7644) user and group provisioning surface exposed by the TritonAI gateway on UC San Diego infrastructure — 18 operations across /scim/v2/Users, /scim/v2/Groups, /scim/v2/Schem
   name: TritonAI Developer API — SCIM 2.0 provisioning
   slug: tritonai-scim-api
 - description: The campus API gateway, running WSO2 API Manager 4.1.0 at api.ucsd.edu on UC San Diego address space (169.228.220.90), with a developer portal, a publisher console and a legacy carbon admin console. T
@@ -78,10 +92,14 @@ apis:
 - description: UC San Diego Library mints DOIs for its Digital Collections under DataCite repository account CDL.UCSD ("UC San Diego", registered 2012), prefix 10.6075. 22,934 DOIs resolve to library.ucsd.edu/dc lan
   name: UC San Diego DOI registration (DataCite / California Digital Library)
   slug: datacite-doi-registration
-- description: Retrieval of a single digital object or assembled collection record.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Retrieval of a single digital object or assembled collection record.
   name: University of California, San Diego Objects API
   slug: ucsd-objects-api
-- description: Faceted search across publicly discoverable digital objects and collections.
+- baseURL: https://tritonai-api.ucsd.edu
+  baseurl_source: declared
+  description: Faceted search across publicly discoverable digital objects and collections.
   name: University of California, San Diego Search API
   slug: ucsd-search-api
 artifact_total: 37
@@ -326,18 +344,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.6
+  composite: 54.2
   coverage:
     artifact_dirs: 21
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 60.9
+    contract_quality: 63.4
     developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 9.8
@@ -358,7 +376,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/screenshots/ucsd-2026-06-20T195946.png
 security:

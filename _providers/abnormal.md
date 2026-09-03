@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,58 +36,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: API to manage AI Security Mailbox (formerly known as Abuse Mailbox)
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to manage AI Security Mailbox (formerly known as Abuse Mailbox)
   name: Abnormal AI AI Security Mailbox (formerly known as Abuse Mailbox) API
   slug: abnormal-ai-security-mailbox-formerly-known-as-abuse-mailbox-api
-- description: API to retrieve audit logs for Portal
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to retrieve audit logs for Portal
   name: Abnormal AI Audit Logs API
   slug: abnormal-audit-logs-api
-- description: APIs to manage Abnormal Cases
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: APIs to manage Abnormal Cases
   name: Abnormal AI Cases API
   slug: abnormal-cases-api
-- description: APIs to manage Dashboard metrics
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: APIs to manage Dashboard metrics
   name: Abnormal AI Dashboard Aggregations API
   slug: abnormal-dashboard-aggregations-api
-- description: The Detection360 API from Abnormal AI — 1 operation(s) for detection360.
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: The Detection360 API from Abnormal AI — 1 operation(s) for detection360.
   name: Abnormal AI Detection360 API
   slug: abnormal-detection360-api
-- description: API to manage employees
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to manage employees
   name: Abnormal AI Employee Insights API
   slug: abnormal-employee-insights-api
-- description: API to manage message details
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to manage message details
   name: Abnormal AI Messages API
   slug: abnormal-messages-api
-- description: The Resources API from Abnormal AI — 5 operation(s) for resources.
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: The Resources API from Abnormal AI — 5 operation(s) for resources.
   name: Abnormal AI Resources API
   slug: abnormal-resources-api
-- description: API to retrieve roles from RBAC system
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to retrieve roles from RBAC system
   name: Abnormal AI Roles API
   slug: abnormal-roles-api
-- description: The Search and Respond API from Abnormal AI — 6 operation(s) for search and respond.
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: The Search and Respond API from Abnormal AI — 6 operation(s) for search and respond.
   name: Abnormal AI Search and Respond API
   slug: abnormal-search-and-respond-api
-- description: API to retrieve security settings including session timeout configuration
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to retrieve security settings including session timeout configuration
   name: Abnormal AI Security Settings API
   slug: abnormal-security-settings-api
-- description: The SPM API from Abnormal AI — 6 operation(s) for spm.
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: The SPM API from Abnormal AI — 6 operation(s) for spm.
   name: Abnormal AI SPM API
   slug: abnormal-spm-api
-- description: APIs to manage threats notified in the Abnormal Threat Log
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: APIs to manage threats notified in the Abnormal Threat Log
   name: Abnormal AI Threats API
   slug: abnormal-threats-api
-- description: API to manage SOAR API tokens
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to manage SOAR API tokens
   name: Abnormal AI Tokens API
   slug: abnormal-tokens-api
-- description: The URL Rewrite API from Abnormal AI — 1 operation(s) for url rewrite.
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: The URL Rewrite API from Abnormal AI — 1 operation(s) for url rewrite.
   name: Abnormal AI URL Rewrite API
   slug: abnormal-url-rewrite-api
-- description: API to retrieve users from RBAC system
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to retrieve users from RBAC system
   name: Abnormal AI Users API
   slug: abnormal-users-api
-- description: API to manage Vendorbase and threats from Vendors
+- baseURL: https://api.abnormalplatform.com/v1
+  baseurl_source: declared
+  description: API to manage Vendorbase and threats from Vendors
   name: Abnormal AI Vendors API
   slug: abnormal-vendors-api
 artifact_total: 41
@@ -307,7 +353,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -317,7 +363,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 52.6
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -328,7 +374,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abnormal/refs/heads/main/screenshots/abnormal-2026-08-07T160818.png
 security:

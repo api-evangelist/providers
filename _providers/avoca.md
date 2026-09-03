@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 31 operations
 api_count: 1
 apis:
-- description: v1 funnel, UTM, service-area, and issue-type analytics
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: v1 funnel, UTM, service-area, and issue-type analytics
   name: Avoca Analytics (v1) API
   slug: avoca-analytics-v1-api
-- description: Call records, transcripts, and pre-call transfers
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: Call records, transcripts, and pre-call transfers
   name: Avoca Calls API
   slug: avoca-calls-api
-- description: Coach (QA) call evaluations and rubrics
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: Coach (QA) call evaluations and rubrics
   name: Avoca Coach API
   slug: avoca-coach-api
-- description: Unified leads (v0) and the canonical leads feed (v1)
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: Unified leads (v0) and the canonical leads feed (v1)
   name: Avoca Leads API
   slug: avoca-leads-api
-- description: Campaign text and subscription-event feeds for BI ingestion
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: Campaign text and subscription-event feeds for BI ingestion
   name: Avoca Outbound Texting API
   slug: avoca-outbound-texting-api
-- description: Simple Scheduler analytics — legacy flat endpoints
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: Simple Scheduler analytics — legacy flat endpoints
   name: Avoca Scheduler Analytics (v0) API
   slug: avoca-scheduler-analytics-v0-api
-- description: v1 scheduling-widget sessions and completed bookings
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: v1 scheduling-widget sessions and completed bookings
   name: Avoca Sessions & Bookings API
   slug: avoca-sessions-bookings-api
-- description: Teams accessible to the API key
+- baseURL: https://enterprise-api.avoca.ai
+  baseurl_source: declared
+  description: Teams accessible to the API key
   name: Avoca Teams API
   slug: avoca-teams-api
 artifact_total: 22
@@ -225,7 +241,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -235,7 +251,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 41.9
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 25 operations · 13 acting
 api_count: 1
 apis:
-- description: The Categories API from Disqus — 2 operation(s) for categories.
+- baseURL: https://disqus.com/api/3.0/
+  baseurl_source: declared
+  description: The Categories API from Disqus — 2 operation(s) for categories.
   name: Disqus Categories API
   slug: disqus-categories-api
-- description: The Forums API from Disqus — 10 operation(s) for forums.
+- baseURL: https://disqus.com/api/3.0/
+  baseurl_source: declared
+  description: The Forums API from Disqus — 10 operation(s) for forums.
   name: Disqus Forums API
   slug: disqus-forums-api
-- description: The Posts API from Disqus — 6 operation(s) for posts.
+- baseURL: https://disqus.com/api/3.0/
+  baseurl_source: declared
+  description: The Posts API from Disqus — 6 operation(s) for posts.
   name: Disqus Posts API
   slug: disqus-posts-api
-- description: The Threads API from Disqus — 4 operation(s) for threads.
+- baseURL: https://disqus.com/api/3.0/
+  baseurl_source: declared
+  description: The Threads API from Disqus — 4 operation(s) for threads.
   name: Disqus Threads API
   slug: disqus-threads-api
-- description: The Users API from Disqus — 3 operation(s) for users.
+- baseURL: https://disqus.com/api/3.0/
+  baseurl_source: declared
+  description: The Users API from Disqus — 3 operation(s) for users.
   name: Disqus Users API
   slug: disqus-users-api
 artifact_total: 16
@@ -207,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/screenshots/disqus-2026-06-20T180049.png
 security:

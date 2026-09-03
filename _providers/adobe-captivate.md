@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -56,40 +56,64 @@ apis:
 - description: Webhooks API for Adobe Learning Manager that enables real-time event notifications for learner activities, course completions, enrollments, and other learning management events.
   name: Adobe Learning Manager Webhooks API
   slug: adobe-learning-manager-webhooks-api
-- description: Retrieve and manage account-level settings
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Retrieve and manage account-level settings
   name: Adobe Captivate Account API
   slug: adobe-captivate-account-api
-- description: Manage badges awarded to learners for achievements
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage badges awarded to learners for achievements
   name: Adobe Captivate Badges API
   slug: adobe-captivate-badges-api
-- description: Manage content catalogs that organize learning objects
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage content catalogs that organize learning objects
   name: Adobe Captivate Catalogs API
   slug: adobe-captivate-catalogs-api
-- description: Manage certification programs and compliance tracking
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage certification programs and compliance tracking
   name: Adobe Captivate Certifications API
   slug: adobe-captivate-certifications-api
-- description: Manage learner enrollments in courses and learning programs
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage learner enrollments in courses and learning programs
   name: Adobe Captivate Enrollments API
   slug: adobe-captivate-enrollments-api
-- description: Manage gamification points and leaderboard features
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage gamification points and leaderboard features
   name: Adobe Captivate Gamification API
   slug: adobe-captivate-gamification-api
-- description: Manage bulk import/export jobs for data operations
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage bulk import/export jobs for data operations
   name: Adobe Captivate Jobs API
   slug: adobe-captivate-jobs-api
-- description: Manage learning objects including courses, learning programs, certifications, and job aids
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage learning objects including courses, learning programs, certifications, and job aids
   name: Adobe Captivate Learning Objects API
   slug: adobe-captivate-learning-objects-api
-- description: Manage user notifications and announcements
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage user notifications and announcements
   name: Adobe Captivate Notifications API
   slug: adobe-captivate-notifications-api
-- description: Manage skills and skill levels associated with learning content
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage skills and skill levels associated with learning content
   name: Adobe Captivate Skills API
   slug: adobe-captivate-skills-api
-- description: Manage groups of users for targeted content delivery
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage groups of users for targeted content delivery
   name: Adobe Captivate User Groups API
   slug: adobe-captivate-user-groups-api
-- description: Manage learner, manager, author, and admin user accounts
+- baseURL: https://learningmanager.adobe.com/primeapi/v2
+  baseurl_source: declared
+  description: Manage learner, manager, author, and admin user accounts
   name: Adobe Captivate Users API
   slug: adobe-captivate-users-api
 arazzos:
@@ -926,7 +950,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -936,7 +960,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 54.3
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -951,7 +975,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/screenshots/adobe-captivate-2026-06-20T164834.png
 security:

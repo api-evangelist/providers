@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 50 operations · 32 acting
 api_count: 1
 apis:
-- description: The agents API from Phonic — 5 operation(s) for agents.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The agents API from Phonic — 5 operation(s) for agents.
   name: Phonic agents API
   slug: phonic-agents-api
-- description: The apiKeys API from Phonic — 3 operation(s) for apikeys.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The apiKeys API from Phonic — 3 operation(s) for apikeys.
   name: Phonic apiKeys API
   slug: phonic-apikeys-api
-- description: The auth API from Phonic — 2 operation(s) for auth.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The auth API from Phonic — 2 operation(s) for auth.
   name: Phonic auth API
   slug: phonic-auth-api
-- description: The conversationItems API from Phonic — 1 operation(s) for conversationitems.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The conversationItems API from Phonic — 1 operation(s) for conversationitems.
   name: Phonic conversationItems API
   slug: phonic-conversationitems-api
-- description: The conversations API from Phonic — 9 operation(s) for conversations.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The conversations API from Phonic — 9 operation(s) for conversations.
   name: Phonic conversations API
   slug: phonic-conversations-api
-- description: The extractionSchemas API from Phonic — 2 operation(s) for extractionschemas.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The extractionSchemas API from Phonic — 2 operation(s) for extractionschemas.
   name: Phonic extractionSchemas API
   slug: phonic-extractionschemas-api
-- description: The projects API from Phonic — 4 operation(s) for projects.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The projects API from Phonic — 4 operation(s) for projects.
   name: Phonic projects API
   slug: phonic-projects-api
-- description: The tools API from Phonic — 2 operation(s) for tools.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The tools API from Phonic — 2 operation(s) for tools.
   name: Phonic tools API
   slug: phonic-tools-api
-- description: The voices API from Phonic — 2 operation(s) for voices.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The voices API from Phonic — 2 operation(s) for voices.
   name: Phonic voices API
   slug: phonic-voices-api
-- description: The workspace API from Phonic — 1 operation(s) for workspace.
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The workspace API from Phonic — 1 operation(s) for workspace.
   name: Phonic workspace API
   slug: phonic-workspace-api
 artifact_total: 27
@@ -242,7 +262,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -252,7 +272,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.7
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonic/refs/heads/main/screenshots/phonic-2026-08-17T081212.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The HTTP API behind the Anitian SecureCloud and FedFlex console at securecloud.anitian.com. Anitian documents (in its FedRAMP 20x pilot README) that "an API is available for auditors to download evide
@@ -159,7 +170,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anitian/refs/heads/main/screenshots/anitian-2026-08-07T161415.png
 security:

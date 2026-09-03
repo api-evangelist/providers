@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: The Authentication API from Urjanet — 1 operation(s) for authentication.
+- baseURL: https://api.urjanet.com
+  baseurl_source: declared
+  description: The Authentication API from Urjanet — 1 operation(s) for authentication.
   name: Urjanet Authentication API
   slug: urjanet-authentication-api
-- description: The Credentials & Connections API from Urjanet — 3 operation(s) for credentials & connections.
+- baseURL: https://api.urjanet.com
+  baseurl_source: declared
+  description: The Credentials & Connections API from Urjanet — 3 operation(s) for credentials & connections.
   name: Urjanet Credentials & Connections API
   slug: urjanet-credentials-connections-api
-- description: The Meters API from Urjanet — 2 operation(s) for meters.
+- baseURL: https://api.urjanet.com
+  baseurl_source: declared
+  description: The Meters API from Urjanet — 2 operation(s) for meters.
   name: Urjanet Meters API
   slug: urjanet-meters-api
-- description: The Statements & Bills API from Urjanet — 3 operation(s) for statements & bills.
+- baseURL: https://api.urjanet.com
+  baseurl_source: declared
+  description: The Statements & Bills API from Urjanet — 3 operation(s) for statements & bills.
   name: Urjanet Statements & Bills API
   slug: urjanet-statements-bills-api
-- description: The Users API from Urjanet — 1 operation(s) for users.
+- baseURL: https://api.urjanet.com
+  baseurl_source: declared
+  description: The Users API from Urjanet — 1 operation(s) for users.
   name: Urjanet Users API
   slug: urjanet-users-api
-- description: The Webhooks API from Urjanet — 1 operation(s) for webhooks.
+- baseURL: https://api.urjanet.com
+  baseurl_source: declared
+  description: The Webhooks API from Urjanet — 1 operation(s) for webhooks.
   name: Urjanet Webhooks API
   slug: urjanet-webhooks-api
 artifact_total: 20
@@ -157,7 +169,7 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +198,9 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/urjanet/refs/heads/main/screenshots/urjanet-2026-09-02T165214.png
 security:
 - kind: authentication
   name: Urjanet Authentication

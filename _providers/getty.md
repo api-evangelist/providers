@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 1
 apis:
-- description: The Downloads API from Getty Images — 1 operation(s) for downloads.
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: The Downloads API from Getty Images — 1 operation(s) for downloads.
   name: Getty Images Downloads API
   slug: getty-downloads-api
-- description: The Images API from Getty Images — 2 operation(s) for images.
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: The Images API from Getty Images — 2 operation(s) for images.
   name: Getty Images Images API
   slug: getty-images-api
-- description: The Reference API from Getty Images — 1 operation(s) for reference.
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: The Reference API from Getty Images — 1 operation(s) for reference.
   name: Getty Images Reference API
   slug: getty-reference-api
-- description: The Search API from Getty Images — 4 operation(s) for search.
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: The Search API from Getty Images — 4 operation(s) for search.
   name: Getty Images Search API
   slug: getty-search-api
-- description: The Videos API from Getty Images — 2 operation(s) for videos.
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: The Videos API from Getty Images — 2 operation(s) for videos.
   name: Getty Images Videos API
   slug: getty-videos-api
 artifact_total: 20
@@ -192,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty/refs/heads/main/screenshots/getty-2026-06-20T181814.png
 security:

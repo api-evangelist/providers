@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 24 operations · 1 acting
 api_count: 1
 apis:
-- description: Equipment, parts, and Canadian vehicle specifications
+- baseURL: https://vpic.nhtsa.dot.gov/api/vehicles
+  baseurl_source: declared
+  description: Equipment, parts, and Canadian vehicle specifications
   name: National Highway Traffic Safety Administration Equipment API
   slug: national-highway-traffic-safety-administration-equipment-api
-- description: Endpoints for vehicle make and model information
+- baseURL: https://vpic.nhtsa.dot.gov/api/vehicles
+  baseurl_source: declared
+  description: Endpoints for vehicle make and model information
   name: National Highway Traffic Safety Administration Makes and Models API
   slug: national-highway-traffic-safety-administration-makes-and-models-api
-- description: Endpoints for manufacturer and World Manufacturer Identifier (WMI) data
+- baseURL: https://vpic.nhtsa.dot.gov/api/vehicles
+  baseurl_source: declared
+  description: Endpoints for manufacturer and World Manufacturer Identifier (WMI) data
   name: National Highway Traffic Safety Administration Manufacturers API
   slug: national-highway-traffic-safety-administration-manufacturers-api
-- description: Reference variables and value lists
+- baseURL: https://vpic.nhtsa.dot.gov/api/vehicles
+  baseurl_source: declared
+  description: Reference variables and value lists
   name: National Highway Traffic Safety Administration Reference API
   slug: national-highway-traffic-safety-administration-reference-api
-- description: Endpoints related to vehicle types
+- baseURL: https://vpic.nhtsa.dot.gov/api/vehicles
+  baseurl_source: declared
+  description: Endpoints related to vehicle types
   name: National Highway Traffic Safety Administration Vehicle Types API
   slug: national-highway-traffic-safety-administration-vehicle-types-api
-- description: Endpoints for decoding Vehicle Identification Numbers
+- baseURL: https://vpic.nhtsa.dot.gov/api/vehicles
+  baseurl_source: declared
+  description: Endpoints for decoding Vehicle Identification Numbers
   name: National Highway Traffic Safety Administration VIN Decoding API
   slug: national-highway-traffic-safety-administration-vin-decoding-api
 artifact_total: 19
@@ -166,7 +178,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/screenshots/national-highway-traffic-safety-administration-2026-06-20T190021.png
 security:

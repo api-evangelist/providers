@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 102 operations · 58 acting
 api_count: 7
 apis:
-- description: Licensed psychologists, psychiatrists and family counsellors listed on Labayh, and the specialty taxonomy used to classify them.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Licensed psychologists, psychiatrists and family counsellors listed on Labayh, and the specialty taxonomy used to classify them.
   name: Labayh Consultants API
   slug: labayh-consultants-api
-- description: Blog articles, pages, media, taxonomy terms, comments and author profiles.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Blog articles, pages, media, taxonomy terms, comments and author profiles.
   name: Labayh Content API
   slug: labayh-content-api
-- description: Events published by Labayh and their categories.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Events published by Labayh and their categories.
   name: Labayh Events API
   slug: labayh-events-api
-- description: Discovery, registered types, taxonomies, statuses and cross-content search.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Discovery, registered types, taxonomies, statuses and cross-content search.
   name: Labayh Meta API
   slug: labayh-meta-api
-- description: Structured therapeutic programs and their categories.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Structured therapeutic programs and their categories.
   name: Labayh Programs API
   slug: labayh-programs-api
-- description: Peer support group offerings and their categories.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Peer support group offerings and their categories.
   name: Labayh Support Groups API
   slug: labayh-support-groups-api
-- description: Live and recorded webinar sessions and their categories.
+- baseURL: https://labayh.net/wp-json
+  baseurl_source: declared
+  description: Live and recorded webinar sessions and their categories.
   name: Labayh Webinars API
   slug: labayh-webinars-api
 artifact_total: 24
@@ -233,7 +247,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -243,7 +257,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 39.5
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,8 +275,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:
 - kind: authentication

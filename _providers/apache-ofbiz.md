@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Obtain and refresh JWT tokens for API access
+- baseURL: https://localhost:8443/rest
+  baseurl_source: declared
+  description: Obtain and refresh JWT tokens for API access
   name: Apache OFBiz Authentication API
   slug: apache-ofbiz-authentication-api
-- description: List and invoke exported OFBiz services
+- baseURL: https://localhost:8443/rest
+  baseurl_source: declared
+  description: List and invoke exported OFBiz services
   name: Apache OFBiz Services API
   slug: apache-ofbiz-services-api
 artifact_total: 58
@@ -337,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/screenshots/apache-ofbiz-2026-06-20T172127.png
 security:

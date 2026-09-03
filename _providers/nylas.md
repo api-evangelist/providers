@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 22 operations · 8 acting
 api_count: 2
 apis:
-- description: 'Application-level administration: Nylas applications, API keys, custom domains, connectors and connector credentials, workspaces, and the rules, policies and lists that govern them.'
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Application-level administration: Nylas applications, API keys, custom domains, connectors and connector credentials, workspaces, and the rules, policies and lists that govern them.'
   name: Nylas Admin API
   slug: nylas-admin-api
-- description: Authentication. Hosted OAuth 2.1 authorization and token exchange, custom (non-OAuth) grant creation for Agent Accounts, token refresh and revocation, and ID token validation.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Authentication. Hosted OAuth 2.1 authorization and token exchange, custom (non-OAuth) grant creation for Agent Accounts, token refresh and revocation, and ID token validation.
   name: Nylas Auth API
   slug: nylas-auth-api
-- description: Calendars. List and manage a grant's calendars, query free/busy availability across participants, and read room and resource calendars.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Calendars. List and manage a grant's calendars, query free/busy availability across participants, and read room and resource calendars.
   name: Nylas Calendars API
   slug: nylas-calendars-api
-- description: Contacts. Read, create, update and delete a grant's contacts and contact groups.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Contacts. Read, create, update and delete a grant's contacts and contact groups.
   name: Nylas Contacts API
   slug: nylas-contacts-api
-- description: Drafts. Compose, update, send and delete drafts, manage attachments, and generate draft bodies and replies with Smart Compose.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Drafts. Compose, update, send and delete drafts, manage attachments, and generate draft bodies and replies with Smart Compose.
   name: Nylas Drafts API
   slug: nylas-drafts-api
-- description: Events. Create, update, delete and list calendar events, including recurring events, group events and RSVP handling.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Events. Create, update, delete and list calendar events, including recurring events, group events and RSVP handling.
   name: Nylas Events API
   slug: nylas-events-api
-- description: Grants. A grant represents one authenticated mailbox and calendar. List, retrieve and delete grants, and inspect grant state and scopes.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Grants. A grant represents one authenticated mailbox and calendar. List, retrieve and delete grants, and inspect grant state and scopes.
   name: Nylas Grants API
   slug: nylas-grants-api
-- description: Messages. List, search, read, update and delete email messages. Send immediately, schedule a send and cancel a scheduled send, with folders, signatures and attachments alongside.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Messages. List, search, read, update and delete email messages. Send immediately, schedule a send and cancel a scheduled send, with folders, signatures and attachments alongside.
   name: Nylas Messages API
   slug: nylas-messages-api
-- description: Scheduler. Booking configurations, scheduling sessions, availability lookups and booking lifecycle management for hosted and component-based booking flows.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Scheduler. Booking configurations, scheduling sessions, availability lookups and booking lifecycle management for hosted and component-based booking flows.
   name: Nylas Scheduling API
   slug: nylas-scheduling-api
-- description: Threads. List, search, read and update email threads, and manage thread-level folders and state.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Threads. List, search, read and update email threads, and manage thread-level folders and state.
   name: Nylas Threads API
   slug: nylas-threads-api
-- description: 'Change notifications. Nylas pushes events for messages, threads, calendars, events, grants and Notetaker over three interchangeable transports carrying the same payloads: HTTPS webhooks, Google Cloud '
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Change notifications. Nylas pushes events for messages, threads, calendars, events, grants and Notetaker over three interchangeable transports carrying the same payloads: HTTPS webhooks, Google Cloud '
   name: Nylas Notifications API
   slug: nylas-notifications-api
-- description: Meeting notetaker. Send a notetaker to a Google Meet, Microsoft Teams or Zoom call, then retrieve the recording, transcript, summary and action items. Available grant-scoped, or standalone with no con
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Meeting notetaker. Send a notetaker to a Google Meet, Microsoft Teams or Zoom call, then retrieve the recording, transcript, summary and action items. Available grant-scoped, or standalone with no con
   name: Nylas Notetaker API
   slug: nylas-notetaker-api
-- description: The Templates and Workflows API from Nylas — 12 operation(s) for templates and workflows.
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: The Templates and Workflows API from Nylas — 12 operation(s) for templates and workflows.
   name: Nylas Templates and Workflows API
   slug: nylas-templates-and-workflows-api
 artifact_total: 35
@@ -348,23 +374,23 @@ rate_limits:
   slug: nylas-rate-limits
 score:
   band: exemplar
-  composite: 75.5
+  composite: 76.3
   coverage:
     artifact_dirs: 17
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.8
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 55.7
+    contract_quality: 59.1
     developer_ergonomics: 92.9
     discoverability: 87.0
     governance: 33.3
     operational_transparency: 78.9
-  previous_composite: 75.7
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: unknown
@@ -375,7 +401,7 @@ score:
       total: 13
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/screenshots/nylas-2026-06-20T190645.png
 security:

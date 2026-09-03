@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 30 operations · 22 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Ask API from Mireye — 2 operation(s) for ask.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Ask API from Mireye — 2 operation(s) for ask.
   name: Mireye Ask API
   slug: mireye-ask-api
-- description: The Ask Site API from Mireye — 1 operation(s) for ask site.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Ask Site API from Mireye — 1 operation(s) for ask site.
   name: Mireye Ask Site API
   slug: mireye-ask-site-api
-- description: The Auth API from Mireye — 1 operation(s) for auth.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Auth API from Mireye — 1 operation(s) for auth.
   name: Mireye Auth API
   slug: mireye-auth-api
-- description: The Authorize API from Mireye — 1 operation(s) for authorize.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Authorize API from Mireye — 1 operation(s) for authorize.
   name: Mireye Authorize API
   slug: mireye-authorize-api
-- description: The Feature Requests API from Mireye — 1 operation(s) for feature requests.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Feature Requests API from Mireye — 1 operation(s) for feature requests.
   name: Mireye Feature Requests API
   slug: mireye-feature-requests-api
-- description: The Fetch API from Mireye — 1 operation(s) for fetch.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Fetch API from Mireye — 1 operation(s) for fetch.
   name: Mireye Fetch API
   slug: mireye-fetch-api
-- description: The Healthz API from Mireye — 1 operation(s) for healthz.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Healthz API from Mireye — 1 operation(s) for healthz.
   name: Mireye Healthz API
   slug: mireye-healthz-api
-- description: The Mcp API from Mireye — 3 operation(s) for mcp.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Mcp API from Mireye — 3 operation(s) for mcp.
   name: Mireye Mcp API
   slug: mireye-mcp-api
-- description: The Meta API from Mireye — 1 operation(s) for meta.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Meta API from Mireye — 1 operation(s) for meta.
   name: Mireye Meta API
   slug: mireye-meta-api
-- description: The Oauth API from Mireye — 4 operation(s) for oauth.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Oauth API from Mireye — 4 operation(s) for oauth.
   name: Mireye Oauth API
   slug: mireye-oauth-api
-- description: The Readyz API from Mireye — 1 operation(s) for readyz.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Readyz API from Mireye — 1 operation(s) for readyz.
   name: Mireye Readyz API
   slug: mireye-readyz-api
-- description: The Register API from Mireye — 1 operation(s) for register.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Register API from Mireye — 1 operation(s) for register.
   name: Mireye Register API
   slug: mireye-register-api
-- description: The Revoke API from Mireye — 1 operation(s) for revoke.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Revoke API from Mireye — 1 operation(s) for revoke.
   name: Mireye Revoke API
   slug: mireye-revoke-api
-- description: The Sites API from Mireye — 2 operation(s) for sites.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Sites API from Mireye — 2 operation(s) for sites.
   name: Mireye Sites API
   slug: mireye-sites-api
-- description: The Token API from Mireye — 1 operation(s) for token.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Token API from Mireye — 1 operation(s) for token.
   name: Mireye Token API
   slug: mireye-token-api
-- description: The Users API from Mireye — 5 operation(s) for users.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The Users API from Mireye — 5 operation(s) for users.
   name: Mireye Users API
   slug: mireye-users-api
-- description: The .well Known API from Mireye — 1 operation(s) for .well known.
+- baseURL: https://api.mireye.com
+  baseurl_source: declared
+  description: The .well Known API from Mireye — 1 operation(s) for .well known.
   name: Mireye .well Known API
   slug: mireye-well-known-api
 artifact_total: 40
@@ -323,7 +357,7 @@ score:
     regime_id: insurance
     score: 57.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/screenshots/mireye-2026-08-07T183719.png
 security:

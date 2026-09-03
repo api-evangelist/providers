@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,82 +37,132 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Auth API from ev.energy — 1 operation(s) for auth.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The Auth API from ev.energy — 1 operation(s) for auth.
   name: ev.energy Auth API
   slug: ev-energy-auth-api
-- description: The Boundary Meters API from ev.energy — 8 operation(s) for boundary meters.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The Boundary Meters API from ev.energy — 8 operation(s) for boundary meters.
   name: ev.energy Boundary Meters API
   slug: ev-energy-boundary-meters-api
-- description: Endpoints for interacting with carbon intensity data.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with carbon intensity data.
   name: ev.energy Carbon API
   slug: ev-energy-carbon-api
-- description: Endpoints related to records of charging. See [Understanding charging data](docs/understanding/charging_sessions.md) for how charging sessions (plug-in episodes), charging sub-sessions (per-mode segme
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints related to records of charging. See [Understanding charging data](docs/understanding/charging_sessions.md) for how charging sessions (plug-in episodes), charging sub-sessions (per-mode segme
   name: ev.energy Charging Sessions API
   slug: ev-energy-charging-sessions-api
-- description: The CT Clamps API from ev.energy — 4 operation(s) for ct clamps.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The CT Clamps API from ev.energy — 4 operation(s) for ct clamps.
   name: ev.energy CT Clamps API
   slug: ev-energy-ct-clamps-api
-- description: Endpoints for interacting with EVSEs.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with EVSEs.
   name: ev.energy EVS Es API
   slug: ev-energy-evses-api
-- description: The Grid API from ev.energy — 3 operation(s) for grid.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The Grid API from ev.energy — 3 operation(s) for grid.
   name: ev.energy Grid API
   slug: ev-energy-grid-api
-- description: The HEM Systems API from ev.energy — 4 operation(s) for hem systems.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The HEM Systems API from ev.energy — 4 operation(s) for hem systems.
   name: ev.energy HEM Systems API
   slug: ev-energy-hem-systems-api
-- description: Endpoints for interacting with home batteries.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with home batteries.
   name: ev.energy Home Batteries API
   slug: ev-energy-home-batteries-api
-- description: Endpoints for communicating notifications.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for communicating notifications.
   name: ev.energy Notifications API
   slug: ev-energy-notifications-api
-- description: Endpoints related to incentivised charging programs.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints related to incentivised charging programs.
   name: ev.energy Programs API
   slug: ev-energy-programs-api
-- description: Endpoints for interacting with rebates.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with rebates.
   name: ev.energy Rebates API
   slug: ev-energy-rebates-api
-- description: The Reference Data API from ev.energy — 2 operation(s) for reference data.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The Reference Data API from ev.energy — 2 operation(s) for reference data.
   name: ev.energy Reference Data API
   slug: ev-energy-reference-data-api
-- description: Geographic regions and region groups used for program eligibility and tariffs.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Geographic regions and region groups used for program eligibility and tariffs.
   name: ev.energy Regions API
   slug: ev-energy-regions-api
-- description: The root endpoint which lists all the top-level collections.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: The root endpoint which lists all the top-level collections.
   name: ev.energy Root API
   slug: ev-energy-root-api
-- description: Endpoints for interacting with sites containing multiple EVSEs.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with sites containing multiple EVSEs.
   name: ev.energy Sites API
   slug: ev-energy-sites-api
-- description: Endpoints for interacting with solar arrays and inverters.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with solar arrays and inverters.
   name: ev.energy Solar API
   slug: ev-energy-solar-api
-- description: Endpoints for interacting with solar forecasts and their logs.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with solar forecasts and their logs.
   name: ev.energy Solar Forecasts API
   slug: ev-energy-solar-forecasts-api
-- description: Endpoints for interacting with user subscriptions.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with user subscriptions.
   name: ev.energy Subscriptions API
   slug: ev-energy-subscriptions-api
-- description: Endpoints for interacting with customer support tickets.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with customer support tickets.
   name: ev.energy Support Tickets API
   slug: ev-energy-support-tickets-api
-- description: Endpoints related to energy suppliers and their tariffs.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints related to energy suppliers and their tariffs.
   name: ev.energy Tariffs API
   slug: ev-energy-tariffs-api
-- description: Endpoints for interacting with users.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with users.
   name: ev.energy Users API
   slug: ev-energy-users-api
-- description: Endpoints for interacting with vehicles.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with vehicles.
   name: ev.energy Vehicles API
   slug: ev-energy-vehicles-api
-- description: Endpoints for virtual power plant - dispatch coordination and reporting.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for virtual power plant - dispatch coordination and reporting.
   name: ev.energy VPP API
   slug: ev-energy-vpp-api
-- description: Endpoints for configuring and managing webhooks.
+- baseURL: https://api.ev.energy/v2
+  baseurl_source: declared
+  description: Endpoints for configuring and managing webhooks.
   name: ev.energy Webhooks API
   slug: ev-energy-webhooks-api
 artifact_total: 33
@@ -237,7 +300,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -247,7 +310,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 56.8
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     contracts:
@@ -264,7 +327,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ev-energy/refs/heads/main/screenshots/ev-energy-2026-08-17T080920.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 16 operations · 16 acting
 api_count: 16
 apis:
-- description: The AddAttachmentsToSet API from Amazon Trusted Advisor — 1 operation(s) for addattachmentstoset.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The AddAttachmentsToSet API from Amazon Trusted Advisor — 1 operation(s) for addattachmentstoset.
   name: Amazon Trusted Advisor AddAttachmentsToSet API
   slug: amazon-trusted-advisor-addattachmentstoset-api
-- description: The AddCommunicationToCase API from Amazon Trusted Advisor — 1 operation(s) for addcommunicationtocase.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The AddCommunicationToCase API from Amazon Trusted Advisor — 1 operation(s) for addcommunicationtocase.
   name: Amazon Trusted Advisor AddCommunicationToCase API
   slug: amazon-trusted-advisor-addcommunicationtocase-api
-- description: The CreateCase API from Amazon Trusted Advisor — 1 operation(s) for createcase.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The CreateCase API from Amazon Trusted Advisor — 1 operation(s) for createcase.
   name: Amazon Trusted Advisor CreateCase API
   slug: amazon-trusted-advisor-createcase-api
-- description: The DescribeAttachment API from Amazon Trusted Advisor — 1 operation(s) for describeattachment.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeAttachment API from Amazon Trusted Advisor — 1 operation(s) for describeattachment.
   name: Amazon Trusted Advisor DescribeAttachment API
   slug: amazon-trusted-advisor-describeattachment-api
-- description: The DescribeCases API from Amazon Trusted Advisor — 1 operation(s) for describecases.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeCases API from Amazon Trusted Advisor — 1 operation(s) for describecases.
   name: Amazon Trusted Advisor DescribeCases API
   slug: amazon-trusted-advisor-describecases-api
-- description: The DescribeCommunications API from Amazon Trusted Advisor — 1 operation(s) for describecommunications.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeCommunications API from Amazon Trusted Advisor — 1 operation(s) for describecommunications.
   name: Amazon Trusted Advisor DescribeCommunications API
   slug: amazon-trusted-advisor-describecommunications-api
-- description: The DescribeCreateCaseOptions API from Amazon Trusted Advisor — 1 operation(s) for describecreatecaseoptions.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeCreateCaseOptions API from Amazon Trusted Advisor — 1 operation(s) for describecreatecaseoptions.
   name: Amazon Trusted Advisor DescribeCreateCaseOptions API
   slug: amazon-trusted-advisor-describecreatecaseoptions-api
-- description: The DescribeServices API from Amazon Trusted Advisor — 1 operation(s) for describeservices.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeServices API from Amazon Trusted Advisor — 1 operation(s) for describeservices.
   name: Amazon Trusted Advisor DescribeServices API
   slug: amazon-trusted-advisor-describeservices-api
-- description: The DescribeSeverityLevels API from Amazon Trusted Advisor — 1 operation(s) for describeseveritylevels.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSeverityLevels API from Amazon Trusted Advisor — 1 operation(s) for describeseveritylevels.
   name: Amazon Trusted Advisor DescribeSeverityLevels API
   slug: amazon-trusted-advisor-describeseveritylevels-api
-- description: The DescribeSupportedLanguages API from Amazon Trusted Advisor — 1 operation(s) for describesupportedlanguages.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSupportedLanguages API from Amazon Trusted Advisor — 1 operation(s) for describesupportedlanguages.
   name: Amazon Trusted Advisor DescribeSupportedLanguages API
   slug: amazon-trusted-advisor-describesupportedlanguages-api
-- description: The DescribeTrustedAdvisorCheckRefreshStatuses API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckrefreshstatuses.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeTrustedAdvisorCheckRefreshStatuses API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckrefreshstatuses.
   name: Amazon Trusted Advisor DescribeTrustedAdvisorCheckRefreshStatuses API
   slug: amazon-trusted-advisor-describetrustedadvisorcheckrefreshstatuses-api
-- description: The DescribeTrustedAdvisorCheckResult API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckresult.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeTrustedAdvisorCheckResult API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorcheckresult.
   name: Amazon Trusted Advisor DescribeTrustedAdvisorCheckResult API
   slug: amazon-trusted-advisor-describetrustedadvisorcheckresult-api
-- description: The DescribeTrustedAdvisorChecks API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecks.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeTrustedAdvisorChecks API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecks.
   name: Amazon Trusted Advisor DescribeTrustedAdvisorChecks API
   slug: amazon-trusted-advisor-describetrustedadvisorchecks-api
-- description: The DescribeTrustedAdvisorCheckSummaries API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecksummaries.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeTrustedAdvisorCheckSummaries API from Amazon Trusted Advisor — 1 operation(s) for describetrustedadvisorchecksummaries.
   name: Amazon Trusted Advisor DescribeTrustedAdvisorCheckSummaries API
   slug: amazon-trusted-advisor-describetrustedadvisorchecksummaries-api
-- description: The RefreshTrustedAdvisorCheck API from Amazon Trusted Advisor — 1 operation(s) for refreshtrustedadvisorcheck.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The RefreshTrustedAdvisorCheck API from Amazon Trusted Advisor — 1 operation(s) for refreshtrustedadvisorcheck.
   name: Amazon Trusted Advisor RefreshTrustedAdvisorCheck API
   slug: amazon-trusted-advisor-refreshtrustedadvisorcheck-api
-- description: The ResolveCase API from Amazon Trusted Advisor — 1 operation(s) for resolvecase.
+- baseURL: https://support.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ResolveCase API from Amazon Trusted Advisor — 1 operation(s) for resolvecase.
   name: Amazon Trusted Advisor ResolveCase API
   slug: amazon-trusted-advisor-resolvecase-api
 artifact_total: 47
@@ -297,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/screenshots/amazon-trusted-advisor-2026-06-20T171840.png
 security:

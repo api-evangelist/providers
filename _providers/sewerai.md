@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,88 +36,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The account_usage API from SewerAI — 4 operation(s) for account_usage.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The account_usage API from SewerAI — 4 operation(s) for account_usage.
   name: SewerAI Account Usage API
   slug: sewerai-account-usage-api
-- description: The accounts API from SewerAI — 21 operation(s) for accounts.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The accounts API from SewerAI — 21 operation(s) for accounts.
   name: SewerAI Accounts API
   slug: sewerai-accounts-api
-- description: The analytics API from SewerAI — 14 operation(s) for analytics.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The analytics API from SewerAI — 14 operation(s) for analytics.
   name: SewerAI Analytics API
   slug: sewerai-analytics-api
-- description: The annotations API from SewerAI — 2 operation(s) for annotations.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The annotations API from SewerAI — 2 operation(s) for annotations.
   name: SewerAI Annotations API
   slug: sewerai-annotations-api
-- description: The api API from SewerAI — 3 operation(s) for api.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The api API from SewerAI — 3 operation(s) for api.
   name: SewerAI API
   slug: sewerai-api-api
-- description: The autocode API from SewerAI — 8 operation(s) for autocode.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The autocode API from SewerAI — 8 operation(s) for autocode.
   name: SewerAI Autocode API
   slug: sewerai-autocode-api
-- description: The canvotation-templates API from SewerAI — 3 operation(s) for canvotation-templates.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The canvotation-templates API from SewerAI — 3 operation(s) for canvotation-templates.
   name: SewerAI Canvotation Templates API
   slug: sewerai-canvotation-templates-api
-- description: The comment API from SewerAI — 2 operation(s) for comment.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The comment API from SewerAI — 2 operation(s) for comment.
   name: SewerAI Comment API
   slug: sewerai-comment-api
-- description: The core API from SewerAI — 15 operation(s) for core.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The core API from SewerAI — 15 operation(s) for core.
   name: SewerAI Core API
   slug: sewerai-core-api
-- description: The exports API from SewerAI — 4 operation(s) for exports.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The exports API from SewerAI — 4 operation(s) for exports.
   name: SewerAI Exports API
   slug: sewerai-exports-api
-- description: The files API from SewerAI — 5 operation(s) for files.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The files API from SewerAI — 5 operation(s) for files.
   name: SewerAI Files API
   slug: sewerai-files-api
-- description: The groups API from SewerAI — 2 operation(s) for groups.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The groups API from SewerAI — 2 operation(s) for groups.
   name: SewerAI Groups API
   slug: sewerai-groups-api
-- description: The labels API from SewerAI — 4 operation(s) for labels.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The labels API from SewerAI — 4 operation(s) for labels.
   name: SewerAI Labels API
   slug: sewerai-labels-api
-- description: The modeling API from SewerAI — 43 operation(s) for modeling.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The modeling API from SewerAI — 43 operation(s) for modeling.
   name: SewerAI Modeling API
   slug: sewerai-modeling-api
-- description: The note API from SewerAI — 4 operation(s) for note.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The note API from SewerAI — 4 operation(s) for note.
   name: SewerAI Note API
   slug: sewerai-note-api
-- description: The notification-preferences API from SewerAI — 4 operation(s) for notification-preferences.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The notification-preferences API from SewerAI — 4 operation(s) for notification-preferences.
   name: SewerAI Notification Preferences API
   slug: sewerai-notification-preferences-api
-- description: The notifications API from SewerAI — 4 operation(s) for notifications.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The notifications API from SewerAI — 4 operation(s) for notifications.
   name: SewerAI Notifications API
   slug: sewerai-notifications-api
-- description: The observationclassifications API from SewerAI — 3 operation(s) for observationclassifications.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The observationclassifications API from SewerAI — 3 operation(s) for observationclassifications.
   name: SewerAI Observationclassifications API
   slug: sewerai-observationclassifications-api
-- description: The profiles API from SewerAI — 2 operation(s) for profiles.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The profiles API from SewerAI — 2 operation(s) for profiles.
   name: SewerAI Profiles API
   slug: sewerai-profiles-api
-- description: The project_tasks API from SewerAI — 5 operation(s) for project_tasks.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The project_tasks API from SewerAI — 5 operation(s) for project_tasks.
   name: SewerAI Project Tasks API
   slug: sewerai-project-tasks-api
-- description: The saitests API from SewerAI — 1 operation(s) for saitests.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The saitests API from SewerAI — 1 operation(s) for saitests.
   name: SewerAI Saitests API
   slug: sewerai-saitests-api
-- description: The schemas API from SewerAI — 2 operation(s) for schemas.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The schemas API from SewerAI — 2 operation(s) for schemas.
   name: SewerAI Schemas API
   slug: sewerai-schemas-api
-- description: The submittal API from SewerAI — 3 operation(s) for submittal.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The submittal API from SewerAI — 3 operation(s) for submittal.
   name: SewerAI Submittal API
   slug: sewerai-submittal-api
-- description: The token API from SewerAI — 2 operation(s) for token.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The token API from SewerAI — 2 operation(s) for token.
   name: SewerAI Token API
   slug: sewerai-token-api
-- description: The users API from SewerAI — 19 operation(s) for users.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The users API from SewerAI — 19 operation(s) for users.
   name: SewerAI Users API
   slug: sewerai-users-api
-- description: The v1 API from SewerAI — 21 operation(s) for v1.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The v1 API from SewerAI — 21 operation(s) for v1.
   name: SewerAI V1 API
   slug: sewerai-v1-api
-- description: The videos API from SewerAI — 89 operation(s) for videos.
+- baseURL: https://api.sewerai.com/v1
+  baseurl_source: declared
+  description: The videos API from SewerAI — 89 operation(s) for videos.
   name: SewerAI Videos API
   slug: sewerai-videos-api
 artifact_total: 32
@@ -265,23 +332,23 @@ rate_limits:
   slug: sewerai-rate-limits
 score:
   band: developing
-  composite: 52.2
+  composite: 53.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.9
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 41.8
+    contract_quality: 45.2
     developer_ergonomics: 49.4
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 52.5
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     contracts:
@@ -292,8 +359,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sewerai/refs/heads/main/screenshots/sewerai-2026-09-02T155055.png
 security:
 - kind: authentication
   name: Sewerai Authentication

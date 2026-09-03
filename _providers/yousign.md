@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -44,118 +44,194 @@ agentic_access:
   summary_line: 166 operations · 89 acting
 api_count: 1
 apis:
-- description: An applicant associated with a Workflow Session.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: An applicant associated with a Workflow Session.
   name: YouSign Applicant API
   slug: yousign-applicant-api
-- description: Person responsible for validating a Signature Request.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Person responsible for validating a Signature Request.
   name: YouSign Approver API
   slug: yousign-approver-api
-- description: A feature allowing to store and retrieve documents on Arkhineo for some customers migrated from v2
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: A feature allowing to store and retrieve documents on Arkhineo for some customers migrated from v2
   name: YouSign Archive API
   slug: yousign-archive-api
-- description: Set of documents generated once a Signature Request is completed.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Set of documents generated once a Signature Request is completed.
   name: YouSign Audit Trail API
   slug: yousign-audit-trail-api
-- description: KYC Process of verifying a person’s or company’s banking information via the Sepamail DIAMOND network.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: KYC Process of verifying a person’s or company’s banking information via the Sepamail DIAMOND network.
   name: YouSign Bank Account Lookup Verification API
   slug: yousign-bank-account-lookup-verification-api
-- description: KYC Process of verifying the identity associated with a bank account document.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: KYC Process of verifying the identity associated with a bank account document.
   name: YouSign Bank Account Verification API
   slug: yousign-bank-account-verification-api
-- description: Retrieve structured and official data about a company.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Retrieve structured and official data about a company.
   name: YouSign Company Verification API
   slug: yousign-company-verification-api
-- description: This resource provides tracking of the API usage.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: This resource provides tracking of the API usage.
   name: YouSign Consumption API
   slug: yousign-consumption-api
-- description: A saved profile containing some information (name, language, email address, etc.) that can be re-used to create a Signer, Approver, or Follower.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: A saved profile containing some information (name, language, email address, etc.) that can be re-used to create a Signer, Approver, or Follower.
   name: YouSign Contact API
   slug: yousign-contact-api
-- description: Allows to customize the look and feel of the signature experience.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Allows to customize the look and feel of the signature experience.
   name: YouSign Custom Experience API
   slug: yousign-custom-experience-api
-- description: A configurable field (list or text) allowing to tag Signature Requests with structured values.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: A configurable field (list or text) allowing to tag Signature Requests with structured values.
   name: YouSign Custom Property API
   slug: yousign-custom-property-api
-- description: Operations that are no longer recommended for use.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Operations that are no longer recommended for use.
   name: YouSign Deprecated API
   slug: yousign-deprecated-api
-- description: Analyze a document and extract structured data.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Analyze a document and extract structured data.
   name: YouSign Document Analysis API
   slug: yousign-document-analysis-api
-- description: Document that is attached to the Signature Request.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Document that is attached to the Signature Request.
   name: YouSign Document API
   slug: yousign-document-api
-- description: This resource is the digital version of the company stamp.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: This resource is the digital version of the company stamp.
   name: YouSign Electronic Seal API
   slug: yousign-electronic-seal-api
-- description: Set of documents generated once a Electronic Seal is completed.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Set of documents generated once a Electronic Seal is completed.
   name: YouSign Electronic Seal Audit Trail API
   slug: yousign-electronic-seal-audit-trail-api
-- description: Document that is attached to the Electronic Seal.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Document that is attached to the Electronic Seal.
   name: YouSign Electronic Seal Document API
   slug: yousign-electronic-seal-document-api
-- description: Set of Image which can be used in Electronic Seal.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Set of Image which can be used in Electronic Seal.
   name: YouSign Electronic Seal Image API
   slug: yousign-electronic-seal-image-api
-- description: Dynamic content that will appear on a Document.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Dynamic content that will appear on a Document.
   name: YouSign Field API
   slug: yousign-field-api
-- description: Person who is kept informed about the progress of the signing process without being an Approver or a Signer.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Person who is kept informed about the progress of the signing process without being an Approver or a Signer.
   name: YouSign Follower API
   slug: yousign-follower-api
-- description: KYC Process of verifying the identity associated with an identity document.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: KYC Process of verifying the identity associated with an identity document.
   name: YouSign Identity Document Verification API
   slug: yousign-identity-document-verification-api
-- description: KYC Process of verifying the identity associated with a document.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: KYC Process of verifying the identity associated with a document.
   name: YouSign Identity Video Verification API
   slug: yousign-identity-video-verification-api
-- description: Categorization tag that can be added to a Signature Request.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Categorization tag that can be added to a Signature Request.
   name: YouSign Label API
   slug: yousign-label-api
-- description: Extra information attached to a Signature Request.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Extra information attached to a Signature Request.
   name: YouSign Metadata API
   slug: yousign-metadata-api
-- description: KYC Process of verifying a proof of address document.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: KYC Process of verifying a proof of address document.
   name: YouSign Proof of Address Verification API
   slug: yousign-proof-of-address-verification-api
-- description: Process of inviting Signers to sign a Document.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Process of inviting Signers to sign a Document.
   name: YouSign Signature Request API
   slug: yousign-signature-request-api
-- description: Person who will sign a Signature Request.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Person who will sign a Signature Request.
   name: YouSign Signer API
   slug: yousign-signer-api
-- description: Process of asking signers to consent to specific needs during the signature process.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Process of asking signers to consent to specific needs during the signature process.
   name: YouSign Signer Consent Request API
   slug: yousign-signer-consent-request-api
-- description: Process of asking signers to upload specific documents during the signature process.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Process of asking signers to upload specific documents during the signature process.
   name: YouSign Signer Document Request API
   slug: yousign-signer-document-request-api
-- description: Pre-configuration of all elements of a Signature Request, such as Documents, Signers, Approvers, Fields, and settings.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Pre-configuration of all elements of a Signature Request, such as Documents, Signers, Approvers, Fields, and settings.
   name: YouSign Template API
   slug: yousign-template-api
-- description: A person who can access the Yousign web app of your organization.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: A person who can access the Yousign web app of your organization.
   name: YouSign User API
   slug: yousign-user-api
-- description: The Invitation of a new User to join the Yousign organization.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: The Invitation of a new User to join the Yousign organization.
   name: YouSign User Invitation API
   slug: yousign-user-invitation-api
-- description: Set of documents generated once a Verification is completed.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Set of documents generated once a Verification is completed.
   name: YouSign Verification Audit Trail API
   slug: yousign-verification-audit-trail-api
-- description: Check if individuals appear on international sanctions lists or as politically exposed persons (PEPs).
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Check if individuals appear on international sanctions lists or as politically exposed persons (PEPs).
   name: YouSign Watchlist Verification API
   slug: yousign-watchlist-verification-api
-- description: Webhook subscription; enables real-time notifications about events that happen in your Yousign organization.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Webhook subscription; enables real-time notifications about events that happen in your Yousign organization.
   name: YouSign Webhook API
   slug: yousign-webhook-api
-- description: Instance of a workflow created each time a customer goes through it.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Instance of a workflow created each time a customer goes through it.
   name: YouSign Workflow Session API
   slug: yousign-workflow-session-api
-- description: Structure of a workflow defined by the type of Actions a customer must complete.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: Structure of a workflow defined by the type of Actions a customer must complete.
   name: YouSign Workflow Template API
   slug: yousign-workflow-template-api
-- description: A way to partition your Yousign organization into separate entities.
+- baseURL: https://api.yousign.com/v3
+  baseurl_source: declared
+  description: A way to partition your Yousign organization into separate entities.
   name: YouSign Workspace API
   slug: yousign-workspace-api
 artifact_total: 86
@@ -421,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yousign/refs/heads/main/screenshots/yousign-2026-06-20T201749.png
 security:

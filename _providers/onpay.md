@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -33,22 +46,34 @@ agentic_access:
   summary_line: 58 operations · 28 acting
 api_count: 1
 apis:
-- description: The Company API from OnPay — 17 operation(s) for company.
+- baseURL: https://api.onpay.com/v2
+  baseurl_source: declared
+  description: The Company API from OnPay — 17 operation(s) for company.
   name: OnPay Company API
   slug: onpay-company-api
-- description: The Deductions API from OnPay — 7 operation(s) for deductions.
+- baseURL: https://api.onpay.com/v2
+  baseurl_source: declared
+  description: The Deductions API from OnPay — 7 operation(s) for deductions.
   name: OnPay Deductions API
   slug: onpay-deductions-api
-- description: The Employees API from OnPay — 14 operation(s) for employees.
+- baseURL: https://api.onpay.com/v2
+  baseurl_source: declared
+  description: The Employees API from OnPay — 14 operation(s) for employees.
   name: OnPay Employees API
   slug: onpay-employees-api
-- description: The Pay-runs API from OnPay — 2 operation(s) for pay-runs.
+- baseURL: https://api.onpay.com/v2
+  baseurl_source: declared
+  description: The Pay-runs API from OnPay — 2 operation(s) for pay-runs.
   name: OnPay Pay Runs API
   slug: onpay-pay-runs-api
-- description: The Reports API from OnPay — 2 operation(s) for reports.
+- baseURL: https://api.onpay.com/v2
+  baseurl_source: declared
+  description: The Reports API from OnPay — 2 operation(s) for reports.
   name: OnPay Reports API
   slug: onpay-reports-api
-- description: The User API from OnPay — 1 operation(s) for user.
+- baseURL: https://api.onpay.com/v2
+  baseurl_source: declared
+  description: The User API from OnPay — 1 operation(s) for user.
   name: OnPay User API
   slug: onpay-user-api
 artifact_total: 19
@@ -239,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/screenshots/onpay-2026-08-07T190403.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +36,42 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Per-dispensary POS surface exposing the functionality of an individual Treez retail instance - customer records and check-in queue, tickets/orders with a non-committing preview, product and stock read
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: Per-dispensary POS surface exposing the functionality of an individual Treez retail instance - customer records and check-in queue, tickets/orders with a non-committing preview, product and stock read
   name: Treez Dispensary API v3
   slug: treez-dispensary-api-v3
-- description: Organization-level central product catalog spanning every store an organization operates - products, SKUs/variants, brands, attributes and attribute categories, global and custom subcategories with pe
+- baseURL: https://api-prod.treez.io/service/catalog
+  baseurl_source: declared
+  description: Organization-level central product catalog spanning every store an organization operates - products, SKUs/variants, brands, attributes and attribute categories, global and custom subcategories with pe
   name: Treez Catalog Service API
   slug: treez-catalog-service-api
-- description: Treez central discount service - create, read, update and delete organization-level discounts that apply across the stores in an organization. 6 operations.
+- baseURL: https://api-prod.treez.io/service/discount
+  baseurl_source: declared
+  description: Treez central discount service - create, read, update and delete organization-level discounts that apply across the stores in an organization. 6 operations.
   name: Treez Discount Service API
   slug: treez-discount-service-api
-- description: Organization-level product collections used to group products for merchandising, with product list retrieval per collection. 5 operations.
+- baseURL: https://api-prod.treez.io/service/collection
+  baseurl_source: declared
+  description: Organization-level product collections used to group products for merchandising, with product list retrieval per collection. 5 operations.
   name: Treez Collection Service API
   slug: treez-collection-service-api
-- description: Organization-level tag groups and the tags within them - read all groups, read one group, create and update tags. 5 operations.
+- baseURL: https://api-prod.treez.io/service/tag-group
+  baseurl_source: declared
+  description: Organization-level tag groups and the tags within them - read all groups, read one group, create and update tags. 5 operations.
   name: Treez Tag Service API
   slug: treez-tag-service-api
-- description: Validates a self-signed JWT and returns the organizations, dispensaries and endpoints the signing certificate has been granted access to. The onboarding self-check for the v3 auth scheme. 2 operations
+- baseURL: https://api-prod.treez.io/service
+  baseurl_source: declared
+  description: Validates a self-signed JWT and returns the organizations, dispensaries and endpoints the signing certificate has been granted access to. The onboarding self-check for the v3 auth scheme. 2 operations
   name: Treez JWT Validation Service
   slug: treez-jwt-validation-service
-- description: Legacy v2.0 product surface - list products with rich filters, list products by last-updated, read a product by id, read product fields by category type, create and update products, and upload a produ
+- baseURL: https://api.treez.io/v2.0/dispensary
+  baseurl_source: declared
+  description: Legacy v2.0 product surface - list products with rich filters, list products by last-updated, read a product by id, read product fields by category type, create and update products, and upload a produ
   name: Treez Legacy SellTreez v2.0 Product API
   slug: treez-legacy-selltreez-v20-product-api
 - description: Live, anonymous, remote MCP endpoint served on Treez's own developer-documentation host. The ReadMe-generated documentation server - initialize returns serverInfo "Treez API Documentation" 3.1.0 and t
@@ -203,23 +230,23 @@ rate_limits:
   slug: treez-rate-limits
 score:
   band: developing
-  composite: 45.7
+  composite: 45.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 44.8
+    contract_quality: 45.8
     developer_ergonomics: 51.8
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 46.7
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -231,8 +258,9 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/screenshots/treez-2026-09-02T164204.png
 security:
 - kind: authentication
   name: Treez Authentication

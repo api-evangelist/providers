@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 2
@@ -44,157 +44,259 @@ agentic_access:
   summary_line: 248 operations · 173 acting · 2 human-in-the-loop
 api_count: 25
 apis:
-- description: Для работы с API от своего лица необходимо получить токен авторизации — отдельный для каждой учетной записи на Авито. 1. Получаем **client_id** и **client_secret** в [личном кабинете](https://www.avit
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: Для работы с API от своего лица необходимо получить токен авторизации — отдельный для каждой учетной записи на Авито. 1. Получаем **client_id** и **client_secret** в [личном кабинете](https://www.avit
   name: Avito Access API
   slug: avito-access-api
-- description: The Ads API from Avito — 23 operation(s) for ads.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Ads API from Avito — 23 operation(s) for ads.
   name: Avito Ads API
   slug: avito-ads-api
-- description: Для работы с API приложений от лица пользователя есть возможность получить токен через Authorization Code механизм протокола OAuth2. Для этого в первую очередь нужно зарегистрировать приложение на htt
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: Для работы с API приложений от лица пользователя есть возможность получить токен через Authorization Code механизм протокола OAuth2. Для этого в первую очередь нужно зарегистрировать приложение на htt
   name: Avito ApplicationAccess API
   slug: avito-applicationaccess-api
-- description: The Auction API from Avito — 1 operation(s) for auction.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Auction API from Avito — 1 operation(s) for auction.
   name: Avito Auction API
   slug: avito-auction-api
-- description: The Authorization API from Avito — 1 operation(s) for authorization.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Authorization API from Avito — 1 operation(s) for authorization.
   name: Avito Authorization API
   slug: avito-authorization-api
-- description: Методы API для получения информации об автозагрузке объявлений
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: Методы API для получения информации об автозагрузке объявлений
   name: Avito Autoload API
   slug: avito-autoload-api
-- description: API для работы с автостратегией в категории
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: API для работы с автостратегией в категории
   name: Avito Autostrategy API
   slug: avito-autostrategy-api
-- description: 'С помощью API данного раздела вы можете получить информацию о балансе средств агентства и всех операций с ним. ### Типы авторизации Для использования данного API запрос должен быть авторизован. API Ав'
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: 'С помощью API данного раздела вы можете получить информацию о балансе средств агентства и всех операций с ним. ### Типы авторизации Для использования данного API запрос должен быть авторизован. API Ав'
   name: Avito balance API
   slug: avito-balance-api
-- description: The Call API from Avito — 4 operation(s) for call.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Call API from Avito — 4 operation(s) for call.
   name: Avito Call API
   slug: avito-call-api
-- description: The Calltracking API from Avito — 3 operation(s) for calltracking.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Calltracking API from Avito — 3 operation(s) for calltracking.
   name: Avito Calltracking API
   slug: avito-calltracking-api
-- description: The Chat API from Avito — 4 operation(s) for chat.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Chat API from Avito — 4 operation(s) for chat.
   name: Avito Chat API
   slug: avito-chat-api
-- description: The CheckAhUserV1 API from Avito — 1 operation(s) for checkahuserv1.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The CheckAhUserV1 API from Avito — 1 operation(s) for checkahuserv1.
   name: Avito CheckAhUserV1 API
   slug: avito-checkahuserv1-api
-- description: The CheckAhUserV2 API from Avito — 1 operation(s) for checkahuserv2.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The CheckAhUserV2 API from Avito — 1 operation(s) for checkahuserv2.
   name: Avito CheckAhUserV2 API
   slug: avito-checkahuserv2-api
-- description: The Core API from Avito — 1 operation(s) for core.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Core API from Avito — 1 operation(s) for core.
   name: Avito Core API
   slug: avito-core-api
-- description: '# Методы для работы с сервисом CPA Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md). Вы можете использовать данный файл '
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: '# Методы для работы с сервисом CPA Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md). Вы можете использовать данный файл '
   name: Avito Cpa API
   slug: avito-cpa-api
-- description: The Cpxpromo API from Avito — 5 operation(s) for cpxpromo.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Cpxpromo API from Avito — 5 operation(s) for cpxpromo.
   name: Avito Cpxpromo API
   slug: avito-cpxpromo-api
-- description: The DeliverySandbox API from Avito — 9 operation(s) for deliverysandbox.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The DeliverySandbox API from Avito — 9 operation(s) for deliverysandbox.
   name: Avito DeliverySandbox API
   slug: avito-deliverysandbox-api
-- description: The DeliveryTariffication API from Avito — 3 operation(s) for deliverytariffication.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The DeliveryTariffication API from Avito — 3 operation(s) for deliverytariffication.
   name: Avito DeliveryTariffication API
   slug: avito-deliverytariffication-api
-- description: The Evaluation API from Avito — 5 operation(s) for evaluation.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Evaluation API from Avito — 5 operation(s) for evaluation.
   name: Avito Evaluation API
   slug: avito-evaluation-api
-- description: The GetAhInfoV1 API from Avito — 1 operation(s) for getahinfov1.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The GetAhInfoV1 API from Avito — 1 operation(s) for getahinfov1.
   name: Avito GetAhInfoV1 API
   slug: avito-getahinfov1-api
-- description: The GetEmployeesV1 API from Avito — 1 operation(s) for getemployeesv1.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The GetEmployeesV1 API from Avito — 1 operation(s) for getemployeesv1.
   name: Avito GetEmployeesV1 API
   slug: avito-getemployeesv1-api
-- description: С помощью API данного раздела вы можете приглашать в агентство новых клиентов. [Отправьте](#operation/agencyUsersInviteSend) приглашение новому клиенту и получите идентификатор приглашения. Затем по и
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: С помощью API данного раздела вы можете приглашать в агентство новых клиентов. [Отправьте](#operation/agencyUsersInviteSend) приглашение новому клиенту и получите идентификатор приглашения. Затем по и
   name: Avito invite API
   slug: avito-invite-api
-- description: Общие методы API для работы с объявлениями на Авито Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md). Вы можете использо
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: Общие методы API для работы с объявлениями на Авито Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md). Вы можете использо
   name: Avito Item API
   slug: avito-item-api
-- description: API для размещения, редактирования и снятия с публикации вакансии Авито Работа Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: API для размещения, редактирования и снятия с публикации вакансии Авито Работа Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.
   name: Avito Job API
   slug: avito-job-api
-- description: The LinkItemsV1 API from Avito — 1 operation(s) for linkitemsv1.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The LinkItemsV1 API from Avito — 1 operation(s) for linkitemsv1.
   name: Avito LinkItemsV1 API
   slug: avito-linkitemsv1-api
-- description: The ListCompanyPhonesV1 API from Avito — 1 operation(s) for listcompanyphonesv1.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The ListCompanyPhonesV1 API from Avito — 1 operation(s) for listcompanyphonesv1.
   name: Avito ListCompanyPhonesV1 API
   slug: avito-listcompanyphonesv1-api
-- description: The ListItemsByEmployeeIdV1 API from Avito — 1 operation(s) for listitemsbyemployeeidv1.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The ListItemsByEmployeeIdV1 API from Avito — 1 operation(s) for listitemsbyemployeeidv1.
   name: Avito ListItemsByEmployeeIdV1 API
   slug: avito-listitemsbyemployeeidv1-api
-- description: API для интеграции между мессенджером Авито и сторонней системой в обе стороны.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: API для интеграции между мессенджером Авито и сторонней системой в обе стороны.
   name: Avito Messenger API
   slug: avito-messenger-api
-- description: The OfflineMonitoring API from Avito — 4 operation(s) for offlinemonitoring.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The OfflineMonitoring API from Avito — 4 operation(s) for offlinemonitoring.
   name: Avito OfflineMonitoring API
   slug: avito-offlinemonitoring-api
-- description: The Order Management API from Avito — 12 operation(s) for order management.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Order Management API from Avito — 12 operation(s) for order management.
   name: Avito Order Management API
   slug: avito-order-management-api
-- description: The ParcelProcessing API from Avito — 9 operation(s) for parcelprocessing.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The ParcelProcessing API from Avito — 9 operation(s) for parcelprocessing.
   name: Avito ParcelProcessing API
   slug: avito-parcelprocessing-api
-- description: 'С помощью API данного раздела вы можете получать актуальную информацию о клиентах агентства. ### Типы авторизации Для использования данного API запрос должен быть авторизован. API Авито Promo использу'
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: 'С помощью API данного раздела вы можете получать актуальную информацию о клиентах агентства. ### Типы авторизации Для использования данного API запрос должен быть авторизован. API Авито Promo использу'
   name: Avito profile API
   slug: avito-profile-api
-- description: Общее API для чтения информации об услугах продвижения.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: Общее API для чтения информации об услугах продвижения.
   name: Avito Promotion API
   slug: avito-promotion-api
-- description: API для управления услугой "Продвижение с прогнозом".
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: API для управления услугой "Продвижение с прогнозом".
   name: Avito Promotion_BBIP API
   slug: avito-promotion-bbip-api
-- description: API для работы с рейтингами и отзывами
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: API для работы с рейтингами и отзывами
   name: Avito Ratings API
   slug: avito-ratings-api
-- description: The Realty API from Avito — 7 operation(s) for realty.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Realty API from Avito — 7 operation(s) for realty.
   name: Avito Realty API
   slug: avito-realty-api
-- description: The ReferenceData API from Avito — 2 operation(s) for referencedata.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The ReferenceData API from Avito — 2 operation(s) for referencedata.
   name: Avito ReferenceData API
   slug: avito-referencedata-api
-- description: The Report API from Avito — 10 operation(s) for report.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Report API from Avito — 10 operation(s) for report.
   name: Avito Report API
   slug: avito-report-api
-- description: The RisksAssessment API from Avito — 2 operation(s) for risksassessment.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The RisksAssessment API from Avito — 2 operation(s) for risksassessment.
   name: Avito RisksAssessment API
   slug: avito-risksassessment-api
-- description: The Signal API from Avito — 1 operation(s) for signal.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Signal API from Avito — 1 operation(s) for signal.
   name: Avito Signal API
   slug: avito-signal-api
-- description: The SpecialOffers API from Avito — 5 operation(s) for specialoffers.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The SpecialOffers API from Avito — 5 operation(s) for specialoffers.
   name: Avito SpecialOffers API
   slug: avito-specialoffers-api
-- description: 'С помощью API данного раздела вы можете получать статистику по объявлениям и расходам клиентов. ### Типы авторизации Для использования данного API запрос должен быть авторизован. API Авито Promo испол'
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: 'С помощью API данного раздела вы можете получать статистику по объявлениям и расходам клиентов. ### Типы авторизации Для использования данного API запрос должен быть авторизован. API Авито Promo испол'
   name: Avito statistics API
   slug: avito-statistics-api
-- description: The Stock Management API from Avito — 2 operation(s) for stock management.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Stock Management API from Avito — 2 operation(s) for stock management.
   name: Avito Stock Management API
   slug: avito-stock-management-api
-- description: С помощью API данного раздела вы можете узнать статус клиентов, проверив их ИНН. За клиентов в статусе «Новый» или «Аплифт» агентству выплачивается комиссия. Подробные правила указаны в соглашении о п
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: С помощью API данного раздела вы можете узнать статус клиентов, проверив их ИНН. За клиентов в статусе «Новый» или «Аплифт» агентству выплачивается комиссия. Подробные правила указаны в соглашении о п
   name: Avito targeting API
   slug: avito-targeting-api
-- description: API для работы с Тарифами
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: API для работы с Тарифами
   name: Avito Tariff API
   slug: avito-tariff-api
-- description: The Teaser API from Avito — 2 operation(s) for teaser.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Teaser API from Avito — 2 operation(s) for teaser.
   name: Avito Teaser API
   slug: avito-teaser-api
-- description: The TerminalManagement API from Avito — 3 operation(s) for terminalmanagement.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The TerminalManagement API from Avito — 3 operation(s) for terminalmanagement.
   name: Avito TerminalManagement API
   slug: avito-terminalmanagement-api
-- description: С помощью API данного раздела вы можете выполнять переводы средств клиентам и отслеживать транзакции. [Выполните](#operation/agencyBalance) перевод средств на счёт клиента и получите идентификатор тра
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: С помощью API данного раздела вы можете выполнять переводы средств клиентам и отслеживать транзакции. [Выполните](#operation/agencyBalance) перевод средств на счёт клиента и получите идентификатор тра
   name: Avito transactions API
   slug: avito-transactions-api
-- description: The Trx Promo API from Avito — 3 operation(s) for trx promo.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The Trx Promo API from Avito — 3 operation(s) for trx promo.
   name: Avito Trx Promo API
   slug: avito-trx-promo-api
-- description: '# API для получения баланса кошелька пользователя, истории операций и инфорации об авторизованном пользователе Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Speci'
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: '# API для получения баланса кошелька пользователя, истории операций и инфорации об авторизованном пользователе Описание API произведено в формате [**Swagger 3.0**](https://github.com/OAI/OpenAPI-Speci'
   name: Avito User API
   slug: avito-user-api
-- description: The XDelivery API from Avito — 7 operation(s) for xdelivery.
+- baseURL: https://api.avito.ru/
+  baseurl_source: declared
+  description: The XDelivery API from Avito — 7 operation(s) for xdelivery.
   name: Avito XDelivery API
   slug: avito-xdelivery-api
 artifact_total: 109
@@ -618,7 +720,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -628,7 +730,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 48.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: unknown
@@ -640,7 +742,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png
 security:

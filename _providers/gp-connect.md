@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: Send a PDF consultation summary or clinical document to a patient's registered GP practice. Used when a patient is seen in a non-GP setting (out-of-hours, community pharmacy, urgent care centre) and t
   name: GP Connect Send Document FHIR API
   slug: send-document-fhir
-- description: The Appointment API from GP Connect — 2 operation(s) for appointment.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The Appointment API from GP Connect — 2 operation(s) for appointment.
   name: GP Connect Appointment API
   slug: gp-connect-appointment-api
-- description: The Documents API from GP Connect — 2 operation(s) for documents.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The Documents API from GP Connect — 2 operation(s) for documents.
   name: GP Connect Documents API
   slug: gp-connect-documents-api
-- description: The FHIR API from GP Connect — 1 operation(s) for fhir.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The FHIR API from GP Connect — 1 operation(s) for fhir.
   name: GP Connect FHIR API
   slug: gp-connect-fhir-api
-- description: The Meta API from GP Connect — 1 operation(s) for meta.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The Meta API from GP Connect — 1 operation(s) for meta.
   name: GP Connect Meta API
   slug: gp-connect-meta-api
-- description: The Patient API from GP Connect — 4 operation(s) for patient.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The Patient API from GP Connect — 4 operation(s) for patient.
   name: GP Connect Patient API
   slug: gp-connect-patient-api
-- description: The Slot API from GP Connect — 1 operation(s) for slot.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The Slot API from GP Connect — 1 operation(s) for slot.
   name: GP Connect Slot API
   slug: gp-connect-slot-api
-- description: The Task API from GP Connect — 1 operation(s) for task.
+- baseURL: https://sandbox.api.service.nhs.uk/gp-connect-access-record-structured-fhir
+  baseurl_source: declared
+  description: The Task API from GP Connect — 1 operation(s) for task.
   name: GP Connect Task API
   slug: gp-connect-task-api
 artifact_total: 24
@@ -215,7 +229,7 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -225,7 +239,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 48.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -240,7 +254,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/screenshots/gp-connect-2026-07-25T220156.png
 security:

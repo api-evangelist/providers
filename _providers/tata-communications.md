@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,22 +54,34 @@ apis:
 - description: Issues an OAuth 2.0 bearer access token used to call the other Tata Communications MOVE APIs. Published on the MOVE Azure API Management developer portal; the reference is behind sign-in and no anonym
   name: MOVE Access Token API
   slug: tata-communications-move-access-token-api
-- description: The CDR by Customer Message Id API from Tata Communications — 1 operation(s) for cdr by customer message id.
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The CDR by Customer Message Id API from Tata Communications — 1 operation(s) for cdr by customer message id.
   name: Tata Communications CDR by Customer Message Id API
   slug: tata-communications-cdr-by-customer-message-id-api
-- description: The Destination API from Tata Communications — 1 operation(s) for destination.
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The Destination API from Tata Communications — 1 operation(s) for destination.
   name: Tata Communications Destination API
   slug: tata-communications-destination-api
-- description: The Number Intelligence API from Tata Communications — 2 operation(s) for number intelligence.
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The Number Intelligence API from Tata Communications — 2 operation(s) for number intelligence.
   name: Tata Communications Number Intelligence API
   slug: tata-communications-number-intelligence-api
-- description: The Report API from Tata Communications — 1 operation(s) for report.
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The Report API from Tata Communications — 1 operation(s) for report.
   name: Tata Communications Report API
   slug: tata-communications-report-api
-- description: The SenderId API from Tata Communications — 1 operation(s) for senderid.
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The SenderId API from Tata Communications — 1 operation(s) for senderid.
   name: Tata Communications Sender ID API
   slug: tata-communications-senderid-api
-- description: The TOP 25 CDR by account Id & Time Frame API from Tata Communications — 1 operation(s) for top 25 cdr by account id & time frame.
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The TOP 25 CDR by account Id & Time Frame API from Tata Communications — 1 operation(s) for top 25 cdr by account id & time frame.
   name: Tata Communications TOP 25 CDR by account Id & Time Frame API
   slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
 artifact_total: 18
@@ -253,7 +277,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -263,7 +287,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 48.7
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,7 +305,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/screenshots/tata-communications-2026-08-17T082254.png
 security:

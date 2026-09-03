@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -34,22 +47,34 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 4
 apis:
-- description: The CityStream™ Live Feed API V4 API from Nexar — 1 operation(s) for citystream™ live feed api v4.
+- baseURL: https://external.getnexar.com
+  baseurl_source: declared
+  description: The CityStream™ Live Feed API V4 API from Nexar — 1 operation(s) for citystream™ live feed api v4.
   name: Nexar CityStream™ Live Feed API V4 API
   slug: nexar-citystream-live-feed-api-v4-api
-- description: The Get a collection of road signs API from Nexar — 1 operation(s) for get a collection of road signs.
+- baseURL: https://external.getnexar.com
+  baseurl_source: declared
+  description: The Get a collection of road signs API from Nexar — 1 operation(s) for get a collection of road signs.
   name: Nexar Get a collection of road signs API
   slug: nexar-get-a-collection-of-road-signs-api
-- description: The Get a collection of work zones API from Nexar — 1 operation(s) for get a collection of work zones.
+- baseURL: https://external.getnexar.com
+  baseurl_source: declared
+  description: The Get a collection of work zones API from Nexar — 1 operation(s) for get a collection of work zones.
   name: Nexar Get a collection of work zones API
   slug: nexar-get-a-collection-of-work-zones-api
-- description: The Get a specific work zone API from Nexar — 1 operation(s) for get a specific work zone.
+- baseURL: https://external.getnexar.com
+  baseurl_source: declared
+  description: The Get a specific work zone API from Nexar — 1 operation(s) for get a specific work zone.
   name: Nexar Get a specific work zone API
   slug: nexar-get-a-specific-work-zone-api
-- description: The Get the details of a specific road sign API from Nexar — 1 operation(s) for get the details of a specific road sign.
+- baseURL: https://external.getnexar.com
+  baseurl_source: declared
+  description: The Get the details of a specific road sign API from Nexar — 1 operation(s) for get the details of a specific road sign.
   name: Nexar Get the details of a specific road sign API
   slug: nexar-get-the-details-of-a-specific-road-sign-api
-- description: The VirtualCam API API from Nexar — 3 operation(s) for virtualcam api.
+- baseURL: https://external.getnexar.com
+  baseurl_source: declared
+  description: The VirtualCam API API from Nexar — 3 operation(s) for virtualcam api.
   name: Nexar VirtualCam API
   slug: nexar-virtualcam-api-api
 artifact_total: 14
@@ -237,7 +262,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -263,8 +288,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/screenshots/nexar-2026-09-02T150745.png
 security:
 - kind: authentication
   name: Nexar Authentication

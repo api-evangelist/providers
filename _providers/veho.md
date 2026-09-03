@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 26 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Labels
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Labels
   name: Veho labels API
   slug: veho-labels-api
-- description: Manifests
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Manifests
   name: Veho manifests API
   slug: veho-manifests-api
-- description: Merchants
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Merchants
   name: Veho merchants API
   slug: veho-merchants-api
-- description: Orders
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Orders
   name: Veho orders API
   slug: veho-orders-api
-- description: Packages
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Packages
   name: Veho packages API
   slug: veho-packages-api
-- description: Quotes
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Quotes
   name: Veho quotes API
   slug: veho-quotes-api
-- description: Webhooks
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Webhooks
   name: Veho webhooks API
   slug: veho-webhooks-api
-- description: Serviceable Zips
+- baseURL: https://api.shipveho.com/v2
+  baseurl_source: declared
+  description: Serviceable Zips
   name: Veho zips API
   slug: veho-zips-api
 artifact_total: 32
@@ -286,7 +302,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -296,7 +312,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 53.0
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veho/refs/heads/main/screenshots/veho-2026-08-17T082724.png
 security:

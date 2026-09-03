@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: OAuth 2.0 connections endpoint for listing the Xero tenants authorized under an access token.
   name: Xero Connections API
   slug: connections
-- description: The Accounts API from Xero Accounting — 3 operation(s) for accounts.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Accounts API from Xero Accounting — 3 operation(s) for accounts.
   name: Xero Accounting Accounts API
   slug: xero-accounting-accounts-api
-- description: The BankTransactions API from Xero Accounting — 2 operation(s) for banktransactions.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The BankTransactions API from Xero Accounting — 2 operation(s) for banktransactions.
   name: Xero Accounting BankTransactions API
   slug: xero-accounting-banktransactions-api
-- description: The BankTransfers API from Xero Accounting — 1 operation(s) for banktransfers.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The BankTransfers API from Xero Accounting — 1 operation(s) for banktransfers.
   name: Xero Accounting BankTransfers API
   slug: xero-accounting-banktransfers-api
-- description: The BatchPayments API from Xero Accounting — 1 operation(s) for batchpayments.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The BatchPayments API from Xero Accounting — 1 operation(s) for batchpayments.
   name: Xero Accounting BatchPayments API
   slug: xero-accounting-batchpayments-api
-- description: The Contacts API from Xero Accounting — 1 operation(s) for contacts.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Contacts API from Xero Accounting — 1 operation(s) for contacts.
   name: Xero Accounting Contacts API
   slug: xero-accounting-contacts-api
-- description: The Invoices API from Xero Accounting — 1 operation(s) for invoices.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Invoices API from Xero Accounting — 1 operation(s) for invoices.
   name: Xero Accounting Invoices API
   slug: xero-accounting-invoices-api
 artifact_total: 20
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/screenshots/xero-accounting-2026-06-20T201700.png
 security:

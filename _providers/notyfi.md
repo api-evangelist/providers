@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 26 operations · 18 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The account API from Notyfi — 3 operation(s) for account.
+- baseURL: https://api.notyfi.com/api/v1
+  baseurl_source: declared
+  description: The account API from Notyfi — 3 operation(s) for account.
   name: Notyfi account API
   slug: notyfi-account-api
-- description: The billing API from Notyfi — 3 operation(s) for billing.
+- baseURL: https://api.notyfi.com/api/v1
+  baseurl_source: declared
+  description: The billing API from Notyfi — 3 operation(s) for billing.
   name: Notyfi billing API
   slug: notyfi-billing-api
-- description: The keys API from Notyfi — 2 operation(s) for keys.
+- baseURL: https://api.notyfi.com/api/v1
+  baseurl_source: declared
+  description: The keys API from Notyfi — 2 operation(s) for keys.
   name: Notyfi keys API
   slug: notyfi-keys-api
-- description: The trackers API from Notyfi — 6 operation(s) for trackers.
+- baseURL: https://api.notyfi.com/api/v1
+  baseurl_source: declared
+  description: The trackers API from Notyfi — 6 operation(s) for trackers.
   name: Notyfi trackers API
   slug: notyfi-trackers-api
-- description: The webhooks API from Notyfi — 4 operation(s) for webhooks.
+- baseURL: https://api.notyfi.com/api/v1
+  baseurl_source: declared
+  description: The webhooks API from Notyfi — 4 operation(s) for webhooks.
   name: Notyfi webhooks API
   slug: notyfi-webhooks-api
 artifact_total: 16
@@ -195,7 +205,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -205,7 +215,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 26.8
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,7 +227,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notyfi/refs/heads/main/screenshots/notyfi-2026-08-07T185550.png
 security:

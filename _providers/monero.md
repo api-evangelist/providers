@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 17 operations · 17 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Blockchain data and block operations
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Blockchain data and block operations
   name: Monero Blockchain API
   slug: monero-blockchain-api
-- description: JSON-RPC 2.0 dispatch endpoint
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: JSON-RPC 2.0 dispatch endpoint
   name: Monero JSON-RPC API
   slug: monero-json-rpc-api
-- description: Mining control and block template operations
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Mining control and block template operations
   name: Monero Mining API
   slug: monero-mining-api
-- description: Peer and network management
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Peer and network management
   name: Monero Network API
   slug: monero-network-api
-- description: Node status and info
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Node status and info
   name: Monero Node Info API
   slug: monero-node-info-api
-- description: Output and key image operations
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Output and key image operations
   name: Monero Outputs API
   slug: monero-outputs-api
-- description: Mempool / transaction pool operations
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Mempool / transaction pool operations
   name: Monero Transaction Pool API
   slug: monero-transaction-pool-api
-- description: Transaction submission and lookup
+- baseURL: http://localhost:18081
+  baseurl_source: declared
+  description: Transaction submission and lookup
   name: Monero Transactions API
   slug: monero-transactions-api
 artifact_total: 25
@@ -269,7 +285,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/screenshots/monero-2026-06-20T185722.png
 security:

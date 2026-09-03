@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
+- baseURL: wss://mds.qfex.com
+  baseurl_source: declared
+  description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
   name: QFEX Market Data WebSocket (MDS)
   slug: qfex-market-data-websocket-mds
-- description: 'Multiplexed WebSocket gateway for QFEX order entry and account streams: add / modify / cancel orders, stop orders, TWAPs, close position, leverage, balances, positions, fills and order responses. Requ'
+- baseURL: wss://trade.qfex.com
+  baseurl_source: declared
+  description: 'Multiplexed WebSocket gateway for QFEX order entry and account streams: add / modify / cancel orders, stop orders, TWAPs, close position, leverage, balances, positions, fills and order responses. Requ'
   name: QFEX Trade WebSocket
   slug: qfex-trade-websocket
-- description: The market-data API from Qfex — 9 operation(s) for market-data.
+- baseURL: https://api.qfex.com
+  baseurl_source: declared
+  description: The market-data API from Qfex — 9 operation(s) for market-data.
   name: Qfex market-data API
   slug: qfex-market-data-api
-- description: The pnl API from Qfex — 1 operation(s) for pnl.
+- baseURL: https://api.qfex.com
+  baseurl_source: declared
+  description: The pnl API from Qfex — 1 operation(s) for pnl.
   name: Qfex pnl API
   slug: qfex-pnl-api
-- description: The user API from Qfex — 15 operation(s) for user.
+- baseURL: https://api.qfex.com
+  baseurl_source: declared
+  description: The user API from Qfex — 15 operation(s) for user.
   name: Qfex user API
   slug: qfex-user-api
 artifact_total: 16
@@ -232,7 +242,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -242,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 53.8
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -259,7 +269,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/screenshots/qfex-2026-08-17T081412.png
 security:

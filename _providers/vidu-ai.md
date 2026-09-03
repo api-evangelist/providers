@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: Create asynchronous video-generation tasks.
+- baseURL: https://api.vidu.com/ent/v2
+  baseurl_source: declared
+  description: Create asynchronous video-generation tasks.
   name: Vidu Generation API
   slug: vidu-ai-generation-api
-- description: Poll, list, and cancel generation tasks.
+- baseURL: https://api.vidu.com/ent/v2
+  baseurl_source: declared
+  description: Poll, list, and cancel generation tasks.
   name: Vidu Tasks API
   slug: vidu-ai-tasks-api
 artifact_total: 11
@@ -130,7 +134,7 @@ score:
   band: thin
   composite: 30.5
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -153,8 +157,9 @@ score:
       marker_coverage: 50.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vidu-ai/refs/heads/main/screenshots/vidu-ai-2026-09-02T165856.png
 security:
 - kind: authentication
   name: Vidu Ai Authentication

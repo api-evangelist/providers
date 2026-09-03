@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The TraderOnline REST API is the integration surface behind Trader Interactive's marketplace network. It is an OAuth 2.0 protected, JSON, offset/limit paginated REST API served from api.traderonline.c
@@ -148,11 +160,11 @@ score:
   band: emerging
   composite: 20.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -162,7 +174,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 22.3
+  previous_composite: 20.6
   provenance:
     conformance: derived
     mcp: derived
@@ -173,8 +185,9 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trader-interactive/refs/heads/main/screenshots/trader-interactive-2026-09-02T164055.png
 security:
 - kind: authentication
   name: Trader Interactive Authentication

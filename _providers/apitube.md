@@ -23,28 +23,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: News search and retrieval — everything, top headlines, trends, companies, journalists, fact-checks and taxonomy suggestion. 26 operations, API key by header or query.
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: News search and retrieval — everything, top headlines, trends, companies, journalists, fact-checks and taxonomy suggestion. 26 operations, API key by header or query.
   name: APITube News API
   slug: apitube-news-api
-- description: API key balance and subscription plan information.
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: API key balance and subscription plan information.
   name: APITube Account API
   slug: apitube-account-api
-- description: Verify factual claims against the live news corpus (retrieval-augmented). Returns per-claim verdicts on an 8-level scale with confidence, explanation, and supporting evidence.
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: Verify factual claims against the live news corpus (retrieval-augmented). Returns per-claim verdicts on an 8-level scale with confidence, explanation, and supporting evidence.
   name: APITube Fact Check API
   slug: apitube-fact-check-api
-- description: The Reference API from APITube — 7 operation(s) for reference.
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: The Reference API from APITube — 7 operation(s) for reference.
   name: APITube Reference API
   slug: apitube-reference-api
-- description: Autocomplete and typeahead suggestions for entities.
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: Autocomplete and typeahead suggestions for entities.
   name: APITube Suggest API
   slug: apitube-suggest-api
-- description: Health checks and service status.
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: Health checks and service status.
   name: APITube System API
   slug: apitube-system-api
-- description: Helper endpoints for building queries
+- baseURL: https://api.apitube.io
+  baseurl_source: declared
+  description: Helper endpoints for building queries
   name: APITube Utilities API
   slug: apitube-utilities-api
 artifact_total: 8
@@ -86,7 +100,7 @@ score:
   band: thin
   composite: 28.5
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -108,8 +122,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/screenshots/apitube-2026-09-02T144120.png
 slug: apitube
 tags:
 - News

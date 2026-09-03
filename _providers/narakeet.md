@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Check remaining account credits.
+- baseURL: https://api.narakeet.com
+  baseurl_source: declared
+  description: Check remaining account credits.
   name: Narakeet Account API
   slug: narakeet-account-api
-- description: Build narrated audio (MP3, M4A, WAV) from text, SubRip, or WebVTT input.
+- baseURL: https://api.narakeet.com
+  baseurl_source: declared
+  description: Build narrated audio (MP3, M4A, WAV) from text, SubRip, or WebVTT input.
   name: Narakeet Text to Speech API
   slug: narakeet-text-to-speech-api
-- description: Build video from a Markdown script and assets packaged as a zip archive.
+- baseURL: https://api.narakeet.com
+  baseurl_source: declared
+  description: Build video from a Markdown script and assets packaged as a zip archive.
   name: Narakeet Video API
   slug: narakeet-video-api
-- description: List the voices available for audio and video production.
+- baseURL: https://api.narakeet.com
+  baseurl_source: declared
+  description: List the voices available for audio and video production.
   name: Narakeet Voices API
   slug: narakeet-voices-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/screenshots/narakeet-2026-08-07T184630.png
 security:

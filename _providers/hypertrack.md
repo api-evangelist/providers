@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,37 +37,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Obtain and use access tokens for the HyperTrack API.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: Obtain and use access tokens for the HyperTrack API.
   name: HyperTrack Authentication API
   slug: hypertrack-authentication-api
-- description: The Export API from HyperTrack — 2 operation(s) for export.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Export API from HyperTrack — 2 operation(s) for export.
   name: HyperTrack Export API
   slug: hypertrack-export-api
-- description: The Geotags API from HyperTrack — 2 operation(s) for geotags.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Geotags API from HyperTrack — 2 operation(s) for geotags.
   name: HyperTrack Geotags API
   slug: hypertrack-geotags-api
-- description: The Nearby API from HyperTrack — 2 operation(s) for nearby.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Nearby API from HyperTrack — 2 operation(s) for nearby.
   name: HyperTrack Nearby API
   slug: hypertrack-nearby-api
-- description: The Orders API from HyperTrack — 32 operation(s) for orders.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Orders API from HyperTrack — 32 operation(s) for orders.
   name: HyperTrack Orders API
   slug: hypertrack-orders-api
-- description: The Places API from HyperTrack — 7 operation(s) for places.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Places API from HyperTrack — 7 operation(s) for places.
   name: HyperTrack Places API
   slug: hypertrack-places-api
-- description: The Tracking API from HyperTrack — 1 operation(s) for tracking.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Tracking API from HyperTrack — 1 operation(s) for tracking.
   name: HyperTrack Tracking API
   slug: hypertrack-tracking-api
-- description: The Visits API from HyperTrack — 4 operation(s) for visits.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Visits API from HyperTrack — 4 operation(s) for visits.
   name: HyperTrack Visits API
   slug: hypertrack-visits-api
-- description: The WorkerExport API from HyperTrack — 2 operation(s) for workerexport.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The WorkerExport API from HyperTrack — 2 operation(s) for workerexport.
   name: HyperTrack Worker Export API
   slug: hypertrack-workerexport-api
-- description: The Workers API from HyperTrack — 14 operation(s) for workers.
+- baseURL: https://v3.api.hypertrack.com
+  baseurl_source: declared
+  description: The Workers API from HyperTrack — 14 operation(s) for workers.
   name: HyperTrack Workers API
   slug: hypertrack-workers-api
 artifact_total: 16
@@ -216,23 +250,23 @@ rate_limits:
   slug: hypertrack-rate-limits
 score:
   band: strong
-  composite: 59.0
+  composite: 59.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 4.5
-    contract_quality: 63.0
+    contract_quality: 65.4
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 59.2
+  previous_composite: 59.0
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +277,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hypertrack/refs/heads/main/screenshots/hypertrack-2026-09-02T145808.png
 security:
 - kind: authentication
   name: Hypertrack Authentication

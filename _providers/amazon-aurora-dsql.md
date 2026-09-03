@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 11 operations · 7 acting
 api_count: 1
 apis:
-- description: Operations for creating and managing Aurora DSQL clusters
+- baseURL: https://dsql.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing Aurora DSQL clusters
   name: Amazon Aurora DSQL Clusters API
   slug: amazon-aurora-dsql-clusters-api
-- description: Operations for managing multi-region cluster configurations
+- baseURL: https://dsql.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing multi-region cluster configurations
   name: Amazon Aurora DSQL Multi-Region Clusters API
   slug: amazon-aurora-dsql-multi-region-clusters-api
 artifact_total: 96
@@ -365,7 +369,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:

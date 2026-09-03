@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 20 operations
 api_count: 8
 apis:
-- description: Public, unauthenticated read access to the Gotham Greens Journal — recipes, company news and seasonal articles — via the WordPress core REST API. Verified live at 132 published posts.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Gotham Greens Journal — recipes, company news and seasonal articles — via the WordPress core REST API. Verified live at 132 published posts.
   name: Gotham Greens Journal Posts API
   slug: gotham-greens-posts-api
-- description: Public, unauthenticated read access to the static marketing pages of gothamgreens.com (Our Story, Our Farms, Our Products, Find Us, FAQ, Careers) via the WordPress core REST API.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static marketing pages of gothamgreens.com (Our Story, Our Farms, Our Products, Find Us, FAQ, Careers) via the WordPress core REST API.
   name: Gotham Greens Pages API
   slug: gotham-greens-pages-api
-- description: Public, unauthenticated read access to the media library behind gothamgreens.com — product photography, farm imagery and recipe images with their generated size variants.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind gothamgreens.com — product photography, farm imagery and recipe images with their generated size variants.
   name: Gotham Greens Media API
   slug: gotham-greens-media-api
-- description: Public, unauthenticated read access to the Journal taxonomy — categories (Recipes, For the Family, General) and tags — via the WordPress core REST API.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Journal taxonomy — categories (Recipes, For the Family, General) and tags — via the WordPress core REST API.
   name: Gotham Greens Taxonomy API
   slug: gotham-greens-taxonomy-api
-- description: Public, unauthenticated cross-content search over posts and pages on gothamgreens.com, returning lightweight id / title / url / subtype records.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over posts and pages on gothamgreens.com, returning lightweight id / title / url / subtype records.
   name: Gotham Greens Search API
   slug: gotham-greens-search-api
-- description: Public, unauthenticated site, content-type, taxonomy and status metadata — the self-describing route index that makes the whole surface machine-readable.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated site, content-type, taxonomy and status metadata — the self-describing route index that makes the whole surface machine-readable.
   name: Gotham Greens Discovery API
   slug: gotham-greens-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for gothamgreens.com URLs, returning embeddable rich metadata for Journal posts and site pages.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for gothamgreens.com URLs, returning embeddable rich metadata for Journal posts and site pages.
   name: Gotham Greens oEmbed API
   slug: gotham-greens-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its JSON-LD schema graph for any gothamgreens.com URL.
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its JSON-LD schema graph for any gothamgreens.com URL.
   name: Gotham Greens SEO Metadata API
   slug: gotham-greens-seo-api
 artifact_total: 20
@@ -258,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png
 security:

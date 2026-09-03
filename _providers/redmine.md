@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -46,55 +46,89 @@ apis:
 - description: REST API for Redmine providing JSON and XML access to issues, projects, users, time entries, wiki pages, attachments, versions, and other entities. Authentication uses HTTP Basic credentials or a per-
   name: Redmine REST API
   slug: rest-api
-- description: The Attachments API from Redmine — 1 operation(s) for attachments.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Attachments API from Redmine — 1 operation(s) for attachments.
   name: Redmine Attachments API
   slug: redmine-attachments-api
-- description: The Custom Fields.json API from Redmine — 1 operation(s) for custom fields.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Custom Fields.json API from Redmine — 1 operation(s) for custom fields.json.
   name: Redmine Custom Fields.json API
   slug: redmine-custom-fields-json-api
-- description: The Groups.json API from Redmine — 1 operation(s) for groups.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Groups.json API from Redmine — 1 operation(s) for groups.json.
   name: Redmine Groups.json API
   slug: redmine-groups-json-api
-- description: The Issue Statuses.json API from Redmine — 1 operation(s) for issue statuses.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Issue Statuses.json API from Redmine — 1 operation(s) for issue statuses.json.
   name: Redmine Issue Statuses.json API
   slug: redmine-issue-statuses-json-api
-- description: The Issues API from Redmine — 1 operation(s) for issues.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Issues API from Redmine — 1 operation(s) for issues.
   name: Redmine Issues API
   slug: redmine-issues-api
-- description: The Issues.json API from Redmine — 1 operation(s) for issues.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Issues.json API from Redmine — 1 operation(s) for issues.json.
   name: Redmine Issues.json API
   slug: redmine-issues-json-api
-- description: The My API from Redmine — 1 operation(s) for my.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The My API from Redmine — 1 operation(s) for my.
   name: Redmine My API
   slug: redmine-my-api
-- description: The Projects API from Redmine — 1 operation(s) for projects.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Projects API from Redmine — 1 operation(s) for projects.
   name: Redmine Projects API
   slug: redmine-projects-api
-- description: The Projects.json API from Redmine — 1 operation(s) for projects.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Projects.json API from Redmine — 1 operation(s) for projects.json.
   name: Redmine Projects.json API
   slug: redmine-projects-json-api
-- description: The Roles.json API from Redmine — 1 operation(s) for roles.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Roles.json API from Redmine — 1 operation(s) for roles.json.
   name: Redmine Roles.json API
   slug: redmine-roles-json-api
-- description: The Time Entries API from Redmine — 1 operation(s) for time entries.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Time Entries API from Redmine — 1 operation(s) for time entries.
   name: Redmine Time Entries API
   slug: redmine-time-entries-api
-- description: The Time Entries.json API from Redmine — 1 operation(s) for time entries.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Time Entries.json API from Redmine — 1 operation(s) for time entries.json.
   name: Redmine Time Entries.json API
   slug: redmine-time-entries-json-api
-- description: The Trackers.json API from Redmine — 1 operation(s) for trackers.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Trackers.json API from Redmine — 1 operation(s) for trackers.json.
   name: Redmine Trackers.json API
   slug: redmine-trackers-json-api
-- description: The Uploads.json API from Redmine — 1 operation(s) for uploads.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Uploads.json API from Redmine — 1 operation(s) for uploads.json.
   name: Redmine Uploads.json API
   slug: redmine-uploads-json-api
-- description: The Users API from Redmine — 1 operation(s) for users.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Users API from Redmine — 1 operation(s) for users.
   name: Redmine Users API
   slug: redmine-users-api
-- description: The Users.json API from Redmine — 1 operation(s) for users.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Users.json API from Redmine — 1 operation(s) for users.json.
   name: Redmine Users.json API
   slug: redmine-users-json-api
-- description: The Wiki Pages.json API from Redmine — 1 operation(s) for wiki pages.json.
+- baseURL: https://<your-redmine-host>
+  baseurl_source: declared
+  description: The Wiki Pages.json API from Redmine — 1 operation(s) for wiki pages.json.
   name: Redmine Wiki Pages.json API
   slug: redmine-wiki-pages-json-api
 artifact_total: 40
@@ -253,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redmine/refs/heads/main/screenshots/redmine-2026-06-20T192728.png
 security:

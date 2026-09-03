@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 44 operations · 29 acting
 api_count: 1
 apis:
-- description: The Activities API from Invoice Ninja — 3 operation(s) for activities.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Activities API from Invoice Ninja — 3 operation(s) for activities.
   name: Invoice Ninja Activities API
   slug: invoice-ninja-activities-api
-- description: The Authentication API from Invoice Ninja — 2 operation(s) for authentication.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Authentication API from Invoice Ninja — 2 operation(s) for authentication.
   name: Invoice Ninja Authentication API
   slug: invoice-ninja-authentication-api
-- description: The Bank Integrations API from Invoice Ninja — 3 operation(s) for bank integrations.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Bank Integrations API from Invoice Ninja — 3 operation(s) for bank integrations.
   name: Invoice Ninja Bank Integrations API
   slug: invoice-ninja-bank-integrations-api
-- description: The Bank Transaction Rules API from Invoice Ninja — 2 operation(s) for bank transaction rules.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Bank Transaction Rules API from Invoice Ninja — 2 operation(s) for bank transaction rules.
   name: Invoice Ninja Bank Transaction Rules API
   slug: invoice-ninja-bank-transaction-rules-api
-- description: The Bank Transactions API from Invoice Ninja — 3 operation(s) for bank transactions.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Bank Transactions API from Invoice Ninja — 3 operation(s) for bank transactions.
   name: Invoice Ninja Bank Transactions API
   slug: invoice-ninja-bank-transactions-api
-- description: The Charts API from Invoice Ninja — 4 operation(s) for charts.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Charts API from Invoice Ninja — 4 operation(s) for charts.
   name: Invoice Ninja Charts API
   slug: invoice-ninja-charts-api
-- description: The Client Gateway Tokens API from Invoice Ninja — 2 operation(s) for client gateway tokens.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Client Gateway Tokens API from Invoice Ninja — 2 operation(s) for client gateway tokens.
   name: Invoice Ninja Client Gateway Tokens API
   slug: invoice-ninja-client-gateway-tokens-api
-- description: The Companies API from Invoice Ninja — 4 operation(s) for companies.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Companies API from Invoice Ninja — 4 operation(s) for companies.
   name: Invoice Ninja Companies API
   slug: invoice-ninja-companies-api
-- description: The Company Gateways API from Invoice Ninja — 2 operation(s) for company gateways.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Company Gateways API from Invoice Ninja — 2 operation(s) for company gateways.
   name: Invoice Ninja Company Gateways API
   slug: invoice-ninja-company-gateways-api
-- description: The Settings API from Invoice Ninja — 1 operation(s) for settings.
+- baseURL: https://invoicing.co
+  baseurl_source: declared
+  description: The Settings API from Invoice Ninja — 1 operation(s) for settings.
   name: Invoice Ninja Settings API
   slug: invoice-ninja-settings-api
 artifact_total: 25
@@ -202,7 +222,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/screenshots/invoice-ninja-2026-06-20T183523.png
 security:

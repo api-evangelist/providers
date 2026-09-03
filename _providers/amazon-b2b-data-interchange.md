@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 30 operations · 20 acting
 api_count: 1
 apis:
-- description: Manage EDI transformation capabilities
+- baseURL: https://b2bi.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage EDI transformation capabilities
   name: Amazon B2B Data Interchange Capabilities API
   slug: amazon-b2b-data-interchange-capabilities-api
-- description: Manage partnerships between customers and trading partners
+- baseURL: https://b2bi.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage partnerships between customers and trading partners
   name: Amazon B2B Data Interchange Partnerships API
   slug: amazon-b2b-data-interchange-partnerships-api
-- description: Manage customer profiles representing private networks
+- baseURL: https://b2bi.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage customer profiles representing private networks
   name: Amazon B2B Data Interchange Profiles API
   slug: amazon-b2b-data-interchange-profiles-api
-- description: Manage resource tags
+- baseURL: https://b2bi.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage resource tags
   name: Amazon B2B Data Interchange Tags API
   slug: amazon-b2b-data-interchange-tags-api
-- description: Test and validate mappings, parsing, and conversions
+- baseURL: https://b2bi.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Test and validate mappings, parsing, and conversions
   name: Amazon B2B Data Interchange Testing API
   slug: amazon-b2b-data-interchange-testing-api
-- description: Manage EDI transformers for document conversion
+- baseURL: https://b2bi.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage EDI transformers for document conversion
   name: Amazon B2B Data Interchange Transformers API
   slug: amazon-b2b-data-interchange-transformers-api
 artifact_total: 29
@@ -262,7 +274,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:

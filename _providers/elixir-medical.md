@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,46 +35,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The categories API from Elixir Medical — 2 operation(s) for categories.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The categories API from Elixir Medical — 2 operation(s) for categories.
   name: Elixir Medical Categories API
   slug: elixir-medical-categories-api
-- description: The comments API from Elixir Medical — 2 operation(s) for comments.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The comments API from Elixir Medical — 2 operation(s) for comments.
   name: Elixir Medical Comments API
   slug: elixir-medical-comments-api
-- description: The media API from Elixir Medical — 4 operation(s) for media.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The media API from Elixir Medical — 4 operation(s) for media.
   name: Elixir Medical Media API
   slug: elixir-medical-media-api
-- description: The pages API from Elixir Medical — 6 operation(s) for pages.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The pages API from Elixir Medical — 6 operation(s) for pages.
   name: Elixir Medical Pages API
   slug: elixir-medical-pages-api
-- description: The posts API from Elixir Medical — 6 operation(s) for posts.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The posts API from Elixir Medical — 6 operation(s) for posts.
   name: Elixir Medical Posts API
   slug: elixir-medical-posts-api
-- description: The search API from Elixir Medical — 1 operation(s) for search.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The search API from Elixir Medical — 1 operation(s) for search.
   name: Elixir Medical Search API
   slug: elixir-medical-search-api
-- description: The statuses API from Elixir Medical — 2 operation(s) for statuses.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The statuses API from Elixir Medical — 2 operation(s) for statuses.
   name: Elixir Medical Statuses API
   slug: elixir-medical-statuses-api
-- description: The tags API from Elixir Medical — 2 operation(s) for tags.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The tags API from Elixir Medical — 2 operation(s) for tags.
   name: Elixir Medical Tags API
   slug: elixir-medical-tags-api
-- description: The taxonomies API from Elixir Medical — 2 operation(s) for taxonomies.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from Elixir Medical — 2 operation(s) for taxonomies.
   name: Elixir Medical Taxonomies API
   slug: elixir-medical-taxonomies-api
-- description: The types API from Elixir Medical — 2 operation(s) for types.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The types API from Elixir Medical — 2 operation(s) for types.
   name: Elixir Medical Types API
   slug: elixir-medical-types-api
-- description: The users API from Elixir Medical — 6 operation(s) for users.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The users API from Elixir Medical — 6 operation(s) for users.
   name: Elixir Medical Users API
   slug: elixir-medical-users-api
-- description: The wpfm_designations API from Elixir Medical — 2 operation(s) for wpfm_designations.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The wpfm_designations API from Elixir Medical — 2 operation(s) for wpfm_designations.
   name: Elixir Medical Wpfm Designations API
   slug: elixir-medical-wpfm-designations-api
-- description: The wpfm_locations API from Elixir Medical — 2 operation(s) for wpfm_locations.
+- baseURL: https://elixirmedical.com/wp-json
+  baseurl_source: declared
+  description: The wpfm_locations API from Elixir Medical — 2 operation(s) for wpfm_locations.
   name: Elixir Medical Wpfm Locations API
   slug: elixir-medical-wpfm-locations-api
 artifact_total: 18
@@ -172,7 +210,7 @@ score:
   band: emerging
   composite: 22.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -202,8 +240,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/elixir-medical/refs/heads/main/screenshots/elixir-medical-2026-09-02T145342.png
 security:
 - kind: authentication
   name: Elixir Medical Authentication

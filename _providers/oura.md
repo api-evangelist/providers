@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 75 operations · 4 acting
 api_count: 1
 apis:
-- description: The Daily Activity scope includes daily activity summary values and detailed activity levels. Activity levels are expressed in [metabolic equivalent of task minutes](https://en.wikipedia.org/wiki/Meta
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Daily Activity scope includes daily activity summary values and detailed activity levels. Activity levels are expressed in [metabolic equivalent of task minutes](https://en.wikipedia.org/wiki/Meta
   name: Oura Ring Daily Activity Routes API
   slug: oura-daily-activity-routes-api
-- description: Cardiovascular Age is an estimate of the health of your cardiovascular system in relation to your actual age. See more details [here](https://support.ouraring.com/hc/en-us/articles/28451491040019-Card
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: Cardiovascular Age is an estimate of the health of your cardiovascular system in relation to your actual age. See more details [here](https://support.ouraring.com/hc/en-us/articles/28451491040019-Card
   name: Oura Ring Daily Cardiovascular Age Routes API
   slug: oura-daily-cardiovascular-age-routes-api
-- description: Readiness tells how ready you are for the day.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: Readiness tells how ready you are for the day.
   name: Oura Ring Daily Readiness Routes API
   slug: oura-daily-readiness-routes-api
-- description: Resilience is an estimate of your ability to withstand physiological stress and recover from it over time.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: Resilience is an estimate of your ability to withstand physiological stress and recover from it over time.
   name: Oura Ring Daily Resilience Routes API
   slug: oura-daily-resilience-routes-api
-- description: Sleep period is a nearly continuous, longish period of time spent lying down in bed.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: Sleep period is a nearly continuous, longish period of time spent lying down in bed.
   name: Oura Ring Daily Sleep Routes API
   slug: oura-daily-sleep-routes-api
-- description: The Daily SpO2 (blood oxygenation) routes include daily SpO2 average. Data will only be available for users with a Gen 3 Oura Ring
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Daily SpO2 (blood oxygenation) routes include daily SpO2 average. Data will only be available for users with a Gen 3 Oura Ring
   name: Oura Ring Daily Spo2 Routes API
   slug: oura-daily-spo2-routes-api
-- description: 'The daily stress route includes a summary of the number of minutes the user spends in high stress and high recovery each day. This is a great way to see how your stress and recovery are trending over '
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: 'The daily stress route includes a summary of the number of minutes the user spends in high stress and high recovery each day. This is a great way to see how your stress and recovery are trending over '
   name: Oura Ring Daily Stress Routes API
   slug: oura-daily-stress-routes-api
-- description: The Enhanced Tags data scope includes tags that Oura users enter within the Oura mobile app. Enhanced Tags can be added for any lifestyle choice, habit, mood change, or environmental factor an Oura us
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Enhanced Tags data scope includes tags that Oura users enter within the Oura mobile app. Enhanced Tags can be added for any lifestyle choice, habit, mood change, or environmental factor an Oura us
   name: Oura Ring Enhanced Tag Routes API
   slug: oura-enhanced-tag-routes-api
-- description: The Heart Rate data scope includes time-series heart rate data throughout the day and night. Heart rate is provided at 5-minute increments. For heart rate data recorded from a Session, see Sessions en
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Heart Rate data scope includes time-series heart rate data throughout the day and night. Heart rate is provided at 5-minute increments. For heart rate data recorded from a Session, see Sessions en
   name: Oura Ring Heart Rate Routes API
   slug: oura-heart-rate-routes-api
-- description: The Personal Info scope includes personal information (e.g. age, email, weight, and height) about the user. You can access the id on the personal_info route with any access token (no scopes are requir
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Personal Info scope includes personal information (e.g. age, email, weight, and height) about the user. You can access the id on the personal_info route with any access token (no scopes are requir
   name: Oura Ring Personal Info Routes API
   slug: oura-personal-info-routes-api
-- description: The Rest Mode scope includes information about rest mode periods. This includes the start, end time and detaials of the rest mode period.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Rest Mode scope includes information about rest mode periods. This includes the start, end time and detaials of the rest mode period.
   name: Oura Ring Rest Mode Period Routes API
   slug: oura-rest-mode-period-routes-api
-- description: The Ring Battery Level Routes API from Oura Ring — 1 operation(s) for ring battery level routes.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Ring Battery Level Routes API from Oura Ring — 1 operation(s) for ring battery level routes.
   name: Oura Ring Ring Battery Level Routes API
   slug: oura-ring-battery-level-routes-api
-- description: The Ring Configuration scope includes information about the user's ring(s). This includes the model, size, color, etc.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Ring Configuration scope includes information about the user's ring(s). This includes the model, size, color, etc.
   name: Oura Ring Ring Configuration Routes API
   slug: oura-ring-configuration-routes-api
-- description: 'Fake user data that you can access without an Oura account. There is a corresponding sandbox endpoint to each available data type. This is useful for testing and development purposes. The data is not '
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: 'Fake user data that you can access without an Oura account. There is a corresponding sandbox endpoint to each available data type. This is useful for testing and development purposes. The data is not '
   name: Oura Ring Sandbox Routes API
   slug: oura-sandbox-routes-api
-- description: The Sessions data scope provides information on how users engage with guided and unguided sessions in the Oura app, including the user's biometric trends during the sessions.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Sessions data scope provides information on how users engage with guided and unguided sessions in the Oura app, including the user's biometric trends during the sessions.
   name: Oura Ring Session Routes API
   slug: oura-session-routes-api
-- description: Returns Oura Sleep data for the specified Oura user within a given timeframe. A user can have multiple sleep periods per day.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: Returns Oura Sleep data for the specified Oura user within a given timeframe. A user can have multiple sleep periods per day.
   name: Oura Ring Sleep Routes API
   slug: oura-sleep-routes-api
-- description: Recommendations for the optimal bedtime window that is calculated based on sleep data.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: Recommendations for the optimal bedtime window that is calculated based on sleep data.
   name: Oura Ring Sleep Time Routes API
   slug: oura-sleep-time-routes-api
-- description: <span className='text-important'>**Note:** Tag is deprecated. We recommend transitioning to [Enhanced Tag](#tag/Enhanced-Tag-Routes).</span> ~~The Tags data scope includes tags that Oura users enter w
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: <span className='text-important'>**Note:** Tag is deprecated. We recommend transitioning to [Enhanced Tag](#tag/Enhanced-Tag-Routes).</span> ~~The Tags data scope includes tags that Oura users enter w
   name: Oura Ring Tag Routes API
   slug: oura-tag-routes-api
-- description: VO2 Max is a measure of the maximum volume of oxygen that an individual can use during intense exercise. See more details [here](https://support.ouraring.com/hc/en-us/articles/28336620578835-Cardio-Ca
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: VO2 Max is a measure of the maximum volume of oxygen that an individual can use during intense exercise. See more details [here](https://support.ouraring.com/hc/en-us/articles/28336620578835-Cardio-Ca
   name: Oura Ring VO2 Max Routes API
   slug: oura-vo2-max-routes-api
-- description: '# Webhooks for Real-Time Data Updates ## What are Webhooks? Webhooks are a way for the Oura API to notify your application when new data is available, instead of requiring your application to constant'
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: '# Webhooks for Real-Time Data Updates ## What are Webhooks? Webhooks are a way for the Oura API to notify your application when new data is available, instead of requiring your application to constant'
   name: Oura Ring Webhook Subscription Routes API
   slug: oura-webhook-subscription-routes-api
-- description: The Workout data scope includes information about user workouts. This is a diverse, growing list of workouts that help inform how the user is training and exercising.
+- baseURL: https://api.ouraring.com/v2
+  baseurl_source: declared
+  description: The Workout data scope includes information about user workouts. This is a diverse, growing list of workouts that help inform how the user is training and exercising.
   name: Oura Ring Workout Routes API
   slug: oura-workout-routes-api
 artifact_total: 84
@@ -402,7 +444,7 @@ score:
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -412,7 +454,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -427,7 +469,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/screenshots/oura-2026-06-20T191225.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: This endpoint is used to authenticate a user. It requires a username and password to be passed in the request body. If the user is authenticated successfully, a token is returned in the response body.
+- baseURL: https://data-reporting-api.prod.feverup.com/v1
+  baseurl_source: declared
+  description: This endpoint is used to authenticate a user. It requires a username and password to be passed in the request body. If the user is authenticated successfully, a token is returned in the response body.
   name: Fever Authentication API
   slug: fever-authentication-api
-- description: These endpoints provide an interface to extract the data available in FeverZone reports. The delay of the data is less than 15 minutes from reality. The route `/feverzone/sales-by-reseller` allows the
+- baseURL: https://data-reporting-api.prod.feverup.com/v1
+  baseurl_source: declared
+  description: These endpoints provide an interface to extract the data available in FeverZone reports. The delay of the data is less than 15 minutes from reality. The route `/feverzone/sales-by-reseller` allows the
   name: Fever FeverZone API
   slug: fever-feverzone-api
-- description: 'These endpoints enable to access order-item data. ## Filtering Options The endpoint supports filtering by: | Parameter | Type | Description | |-----------|------|-------------| | `order_ids` | array[i'
+- baseURL: https://data-reporting-api.prod.feverup.com/v1
+  baseurl_source: declared
+  description: 'These endpoints enable to access order-item data. ## Filtering Options The endpoint supports filtering by: | Parameter | Type | Description | |-----------|------|-------------| | `order_ids` | array[i'
   name: Fever Order Items API
   slug: fever-order-items-api
-- description: 'The goal of the Plan endpoint is to provide all information about the plans/events/experiences/listings organised by a partner. The delay of the data is less than 10 minutes from reality. ## Model doc'
+- baseURL: https://data-reporting-api.prod.feverup.com/v1
+  baseurl_source: declared
+  description: 'The goal of the Plan endpoint is to provide all information about the plans/events/experiences/listings organised by a partner. The delay of the data is less than 10 minutes from reality. ## Model doc'
   name: Fever Plans API
   slug: fever-plans-api
-- description: 'The goal of the Session Endpoint is to provide all information about the session (or ticket types) of a plan. The delay of the data is less than 10 minutes from reality. ## Request filters `POST /v1/s'
+- baseURL: https://data-reporting-api.prod.feverup.com/v1
+  baseurl_source: declared
+  description: 'The goal of the Session Endpoint is to provide all information about the session (or ticket types) of a plan. The delay of the data is less than 10 minutes from reality. ## Request filters `POST /v1/s'
   name: Fever Sessions API
   slug: fever-sessions-api
 artifact_total: 16
@@ -219,7 +229,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
 security:

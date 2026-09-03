@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: Model Context Protocol server hosted by Val Town at api.val.town/v3/mcp enabling LLMs and AI agents to interact with Val Town resources and run vals programmatically via HTTP transport.
   name: Val Town MCP Server
   slug: mcp-server
-- description: Many API endpoints accept IDs instead of user-facing names. The alias endpoints let you convert between the user-facing name of a val or another object into an ID that can be used with other API endpo
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: Many API endpoints accept IDs instead of user-facing names. The alias endpoints let you convert between the user-facing name of a val or another object into an ID that can be used with other API endpo
   name: Val Town alias API
   slug: val-town-alias-api
-- description: Blobs
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: Blobs
   name: Val Town blobs API
   slug: val-town-blobs-api
-- description: The connections API from Val Town — 2 operation(s) for connections.
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: The connections API from Val Town — 2 operation(s) for connections.
   name: Val Town connections API
   slug: val-town-connections-api
-- description: Emails
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: Emails
   name: Val Town emails API
   slug: val-town-emails-api
-- description: The files API from Val Town — 1 operation(s) for files.
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: The files API from Val Town — 1 operation(s) for files.
   name: Val Town files API
   slug: val-town-files-api
-- description: These endpoints give access to details and data from the requesting user.
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: These endpoints give access to details and data from the requesting user.
   name: Val Town me API
   slug: val-town-me-api
-- description: The orgs API from Val Town — 2 operation(s) for orgs.
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: The orgs API from Val Town — 2 operation(s) for orgs.
   name: Val Town orgs API
   slug: val-town-orgs-api
-- description: SQLite
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: SQLite
   name: Val Town sqlite API
   slug: val-town-sqlite-api
-- description: The telemetry API from Val Town — 2 operation(s) for telemetry.
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: The telemetry API from Val Town — 2 operation(s) for telemetry.
   name: Val Town telemetry API
   slug: val-town-telemetry-api
-- description: Users
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: Users
   name: Val Town users API
   slug: val-town-users-api
-- description: These endpoints let you get, create, and run vals.
+- baseURL: https://api.val.town
+  baseurl_source: declared
+  description: These endpoints let you get, create, and run vals.
   name: Val Town vals API
   slug: val-town-vals-api
 artifact_total: 44
@@ -312,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/screenshots/val-town-2026-06-20T200750.png
 security:

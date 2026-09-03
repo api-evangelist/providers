@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
-- description: Interact with Google Assistant
+- baseURL: https://embeddedassistant.googleapis.com
+  baseurl_source: declared
+  description: Interact with Google Assistant
   name: Google Assistant Assistant API
   slug: google-assistant-assistant-api
 artifact_total: 13
@@ -161,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/screenshots/google-assistant-2026-06-20T182023.png
 security:

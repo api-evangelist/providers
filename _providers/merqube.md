@@ -34,34 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The api API from MerQube — 1 operation(s) for api.
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: The api API from MerQube — 1 operation(s) for api.
   name: MerQube API
   slug: merqube-api-api
-- description: The helper API from MerQube — 14 operation(s) for helper.
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: The helper API from MerQube — 14 operation(s) for helper.
   name: MerQube Helper API
   slug: merqube-helper-api
-- description: tickers for various providers
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: tickers for various providers
   name: MerQube Identifier API
   slug: merqube-identifier-api
-- description: APIs for MerQube Indices
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: APIs for MerQube Indices
   name: MerQube Index API
   slug: merqube-index-api
-- description: Equity securities (legacy non secapi)
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: Equity securities (legacy non secapi)
   name: MerQube Legacy Equity Security API
   slug: merqube-legacy-equity-security-api
-- description: Option Pricing APIs
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: Option Pricing APIs
   name: MerQube Options API
   slug: merqube-options-api
-- description: list of portfolio handlers
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: list of portfolio handlers
   name: MerQube Portfolio Handler API
   slug: merqube-portfolio-handler-api
-- description: securities
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: securities
   name: MerQube Security API
   slug: merqube-security-api
-- description: lists of securities
+- baseURL: https://api.merqube.com
+  baseurl_source: declared
+  description: lists of securities
   name: MerQube Security List API
   slug: merqube-security-list-api
 artifact_total: 13
@@ -221,23 +239,23 @@ rate_limits:
   slug: merqube-rate-limits
 score:
   band: thin
-  composite: 38.2
+  composite: 38.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 0.0
-    contract_quality: 49.9
+    contract_quality: 51.8
     developer_ergonomics: 70.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 37.4
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +272,9 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/merqube/refs/heads/main/screenshots/merqube-2026-09-02T150527.png
 security:
 - kind: authentication
   name: Merqube Authentication

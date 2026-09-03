@@ -35,58 +35,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 17
 apis:
-- description: This API enables you to retrieve and update alerts and incidents, and other APIs relating to them
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to retrieve and update alerts and incidents, and other APIs relating to them
   name: Moogsoft Alerts/Incidents API
   slug: alerts-incidents
-- description: Use Apex AIOps Incident Management API for sending/receiving alerts, events, and incidents
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: Use Apex AIOps Incident Management API for sending/receiving alerts, events, and incidents
   name: Moogsoft Azure Application Insights API
   slug: azure-app-insights
-- description: This API enables you to create and manage custom endpoints for inbound integrations.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to create and manage custom endpoints for inbound integrations.
   name: Moogsoft Create Your Own Integration API
   slug: create-your-own-integration
-- description: API for Apex AIOps Incident Management Cloudwatch Service
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: API for Apex AIOps Incident Management Cloudwatch Service
   name: Moogsoft Amazon CloudWatch API
   slug: cloudwatch
-- description: This API enables you to work with collectors
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to work with collectors
   name: Moogsoft Collector V2 API
   slug: collector
-- description: This API allows you to save and retrieve config, catalogs, credentials, watchers, menu actions, and maintenance windows
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API allows you to save and retrieve config, catalogs, credentials, watchers, menu actions, and maintenance windows
   name: Moogsoft Config API
   slug: config
-- description: API for Apex AIOps Incident Management Events Integration.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: API for Apex AIOps Incident Management Events Integration.
   name: Moogsoft Events Integration API
   slug: events-integration
-- description: This API allows you to save and retrieve on-call schedules, escalation policies
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API allows you to save and retrieve on-call schedules, escalation policies
   name: Moogsoft On-Call API
   slug: on-call
-- description: Rollup Service API for the Moogsoft metric processor. The published contract carries development servers (http://localhost:3030) rather than the production host; the production base is api.moogsoft.ai
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: Rollup Service API for the Moogsoft metric processor. The published contract carries development servers (http://localhost:3030) rather than the production host; the production base is api.moogsoft.ai
   name: Moogsoft Rollup Service API
   slug: rollup-service
-- description: This API enables you to create metrics and manage metrics policies.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to create metrics and manage metrics policies.
   name: Moogsoft Metrics API
   slug: metrics
-- description: This API enables you to create and manage Pager Duty integrations.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to create and manage Pager Duty integrations.
   name: Moogsoft PagerDuty Integration API
   slug: pagerduty
-- description: This API enables you to retrieve and update Probable Root Cause, and other APIs relating to them
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to retrieve and update Probable Root Cause, and other APIs relating to them
   name: Moogsoft Probable Root Cause API
   slug: probable-root-cause
-- description: API for the similar incidents service.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: API for the similar incidents service.
   name: Moogsoft Similar Incidents API
   slug: similar-incidents
-- description: APIs for handling features requests and some UI driven queries.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: APIs for handling features requests and some UI driven queries.
   name: Moogsoft UI Services API
   slug: ui-services
-- description: API for User Service
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: API for User Service
   name: Moogsoft User Management API
   slug: user-management
-- description: You can use this API to create, retrieve, update, delete, and test webhoook integrations.
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: You can use this API to create, retrieve, update, delete, and test webhoook integrations.
   name: Moogsoft Webhook API
   slug: webhook
-- description: This API enables you to create and manage workflows
+- baseURL: https://api.moogsoft.ai
+  baseurl_source: declared
+  description: This API enables you to create and manage workflows
   name: Moogsoft Workflow Engine API
   slug: workflow-engine
 artifact_total: 26
@@ -274,23 +308,23 @@ rate_limits:
   slug: moogsoft-rate-limits
 score:
   band: strong
-  composite: 58.2
+  composite: 59.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.8
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 18.2
-    contract_quality: 63.4
+    contract_quality: 66.7
     developer_ergonomics: 73.2
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 58.7
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     contracts:
@@ -301,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moogsoft/refs/heads/main/screenshots/moogsoft-2026-06-20T185754.png
 security:

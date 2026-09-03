@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 27 operations · 27 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CancelCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.cancelcluster.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CancelCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.cancelcluster.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CancelCluster API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-cancelcluster-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CancelJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.canceljob.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CancelJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.canceljob.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CancelJob API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-canceljob-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateAddress API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createaddress.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateAddress API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createaddress.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CreateAddress API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createaddress-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createcluster.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createcluster.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CreateCluster API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createcluster-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createjob.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createjob.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CreateJob API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createjob-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createlongtermpricing.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createlongtermpricing.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CreateLongTermPricing API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createlongtermpricing-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateReturnShippingLabel API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createreturnshippinglabel'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.CreateReturnShippingLabel API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.createreturnshippinglabel'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.CreateReturnShippingLabel API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-createreturnshippinglabel-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeAddress API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describeaddress.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeAddress API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describeaddress.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.DescribeAddress API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describeaddress-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeAddresses API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describeaddresses.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeAddresses API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describeaddresses.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.DescribeAddresses API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describeaddresses-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describecluster.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describecluster.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.DescribeCluster API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describecluster-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describejob.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describejob.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.DescribeJob API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describejob-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeReturnShippingLabel API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describereturnshippingl'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.DescribeReturnShippingLabel API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.describereturnshippingl'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.DescribeReturnShippingLabel API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-describereturnshippinglabel-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetJobManifest API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getjobmanifest.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetJobManifest API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getjobmanifest.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.GetJobManifest API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getjobmanifest-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetJobUnlockCode API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getjobunlockcode.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetJobUnlockCode API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getjobunlockcode.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.GetJobUnlockCode API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getjobunlockcode-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetSnowballUsage API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getsnowballusage.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetSnowballUsage API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getsnowballusage.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.GetSnowballUsage API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getsnowballusage-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetSoftwareUpdates API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getsoftwareupdates.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.GetSoftwareUpdates API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.getsoftwareupdates.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.GetSoftwareUpdates API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-getsoftwareupdates-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListClusterJobs API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listclusterjobs.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListClusterJobs API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listclusterjobs.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListClusterJobs API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listclusterjobs-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListClusters API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listclusters.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListClusters API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listclusters.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListClusters API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listclusters-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListCompatibleImages API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listcompatibleimages.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListCompatibleImages API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listcompatibleimages.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListCompatibleImages API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listcompatibleimages-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListJobs API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listjobs.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListJobs API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listjobs.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListJobs API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listjobs-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listlongtermpricing.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listlongtermpricing.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListLongTermPricing API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listlongtermpricing-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListPickupLocations API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listpickuplocations.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListPickupLocations API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listpickuplocations.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListPickupLocations API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listpickuplocations-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListServiceVersions API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listserviceversions.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.ListServiceVersions API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.listserviceversions.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.ListServiceVersions API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-listserviceversions-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatecluster.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateCluster API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatecluster.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.UpdateCluster API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatecluster-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatejob.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateJob API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatejob.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.UpdateJob API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatejob-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateJobShipmentState API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatejobshipmentstate.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateJobShipmentState API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatejobshipmentstate.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.UpdateJobShipmentState API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatejobshipmentstate-api
-- description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatelongtermpricing.'
+- baseURL: https://snow-device-management.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API from Amazon Snow Family — 1 operation(s) for #x amz target=awsiesnowballjobmanagementservice.updatelongtermpricing.'
   name: 'Amazon Snow Family #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API'
   slug: amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api
 artifact_total: 390
@@ -1337,7 +1391,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/screenshots/amazon-snow-family-2026-06-20T171825.png
 security:

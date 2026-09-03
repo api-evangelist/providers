@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: Time-off and leave management.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Time-off and leave management.
   name: WorkMotion Absences API
   slug: workmotion-absences-api
-- description: Employment contracts and contract changes.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Employment contracts and contract changes.
   name: WorkMotion Contracts API
   slug: workmotion-contracts-api
-- description: Employment cost estimation by country.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Employment cost estimation by country.
   name: WorkMotion Cost Calculator API
   slug: workmotion-cost-calculator-api
-- description: Employment documents attached to a talent.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Employment documents attached to a talent.
   name: WorkMotion Documents API
   slug: workmotion-documents-api
-- description: Talents employed through WorkMotion.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Talents employed through WorkMotion.
   name: WorkMotion Employees API
   slug: workmotion-employees-api
-- description: Accelerated global onboarding workflows.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Accelerated global onboarding workflows.
   name: WorkMotion Onboarding API
   slug: workmotion-onboarding-api
-- description: Event subscription management.
+- baseURL: https://api.workmotion.com/v1
+  baseurl_source: declared
+  description: Event subscription management.
   name: WorkMotion Webhooks API
   slug: workmotion-webhooks-api
 artifact_total: 22
@@ -164,7 +178,7 @@ score:
   band: thin
   composite: 34.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +201,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/screenshots/workmotion-2026-09-02T170941.png
 security:
 - kind: authentication
   name: Workmotion Authentication

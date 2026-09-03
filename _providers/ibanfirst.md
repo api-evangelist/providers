@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: First-party hosted remote MCP server, launched with API 1.7.0 on 2026-06-05, exposing 16 read tools over wallets, balances, financial movements, payments, live FX rates, spot trades, fixed forwards an
@@ -33,31 +47,49 @@ apis:
 - description: PSD2 access-to-account API for registered third-party providers, covering account information services (AIS), payment initiation services (PIS) and strong customer authentication. A sandbox is publish
   name: iBanFirst PSD2 XS2A API
   slug: ibanfirst-psd2-xs2a-api
-- description: Each of your accounts has its own specific currency and IBAN. The API allows you to get details and balances about each account in real time. **Note :** ***accounts*** are also labelled as ***wallets*
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: Each of your accounts has its own specific currency and IBAN. The API allows you to get details and balances about each account in real time. **Note :** ***accounts*** are also labelled as ***wallets*
   name: iBanFirst Accounts API
   slug: ibanfirst-accounts-api
-- description: A beneficiary can be either your own account in another bank or a third party recipient account. Beneficiaries can be created or deleted through the API. **Note :** ***beneficiaries*** are also labell
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: A beneficiary can be either your own account in another bank or a third party recipient account. Beneficiaries can be created or deleted through the API. **Note :** ***beneficiaries*** are also labell
   name: iBanFirst Beneficiaries API
   slug: ibanfirst-beneficiaries-api
-- description: The API allows you to access your documents stored on the iBanFirst platform through a one-time access link. Documents must be generated on the platform before being available through the API.
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: The API allows you to access your documents stored on the iBanFirst platform through a one-time access link. Documents must be generated on the platform before being available through the API.
   name: iBanFirst Documents API
   slug: ibanfirst-documents-api
-- description: The API allows you to retrieve all financial movements from your accounts.
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: The API allows you to retrieve all financial movements from your accounts.
   name: iBanFirst Financial movements API
   slug: ibanfirst-financial-movements-api
-- description: 'Book a fixed forward payment contracts instantly on iBanFirst without manual intervention. - Available currency pairs: - **EUR/USD** - **EUR/GBP** - **GBP/USD** - Maturities: **up to 6 months**. - Tra'
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: 'Book a fixed forward payment contracts instantly on iBanFirst without manual intervention. - Available currency pairs: - **EUR/USD** - **EUR/GBP** - **GBP/USD** - Maturities: **up to 6 months**. - Tra'
   name: iBanFirst Fixed forward payment contract API
   slug: ibanfirst-fixed-forward-payment-contract-api
-- description: The Logs API from iBanFirst — 2 operation(s) for logs.
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: The Logs API from iBanFirst — 2 operation(s) for logs.
   name: iBanFirst Logs API
   slug: ibanfirst-logs-api
-- description: 'Sending funds from one of your iBanFirst accounts to your own external bank account or a third-party recipient involves two steps: 1. Generate the payment object with the ''Create payment'' method. A un'
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: 'Sending funds from one of your iBanFirst accounts to your own external bank account or a third-party recipient involves two steps: 1. Generate the payment object with the ''Create payment'' method. A un'
   name: iBanFirst Payments API
   slug: ibanfirst-payments-api
-- description: The API provides a deliverable FX facility and deliverable FX liquidity. You will become counterparty to iBanFirst and can market and sell deliverable FX services to corporate and private clients as w
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: The API provides a deliverable FX facility and deliverable FX liquidity. You will become counterparty to iBanFirst and can market and sell deliverable FX services to corporate and private clients as w
   name: iBanFirst Spot trades API
   slug: ibanfirst-spot-trades-api
-- description: '**1. WHAT IS A WEBHOOK ?** - Webhooks are events based real-time notifications providing updates on transactions and removing the need for periodic polling. - Webhook notifications are sent as HTTPS P'
+- baseURL: https://api.ibanfirst.com/api
+  baseurl_source: declared
+  description: '**1. WHAT IS A WEBHOOK ?** - Webhooks are events based real-time notifications providing updates on transactions and removing the need for periodic polling. - Webhook notifications are sent as HTTPS P'
   name: iBanFirst Webhook subscriptions API
   slug: ibanfirst-webhook-subscriptions-api
 artifact_total: 19
@@ -258,11 +290,11 @@ score:
   band: strong
   composite: 59.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -272,7 +304,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 59.2
+  previous_composite: 59.1
   provenance:
     conformance: first-party
     contracts:
@@ -289,8 +321,9 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/screenshots/ibanfirst-2026-09-02T145820.png
 security:
 - kind: authentication
   name: Ibanfirst Authentication

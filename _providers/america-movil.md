@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,16 +83,24 @@ apis:
 - description: América Móvil's GSMA Open Gateway surface in its home market of Mexico, marketed by Telcel to enterprises as "Autenticación Móvil" — Number Verification (silent authentication of the mobile number), S
   name: Telcel Mobile Authentication APIs
   slug: telcel-mobile-authentication-apis
-- description: The Check SIM swap API from América Móvil — 1 operation(s) for check sim swap.
+- baseURL: https://api.claro.com.br/mobile/v1/gsma/gateway/simswap
+  baseurl_source: declared
+  description: The Check SIM swap API from América Móvil — 1 operation(s) for check sim swap.
   name: América Móvil Check SIM swap API
   slug: america-movil-check-sim-swap-api
-- description: The Device Locations API from América Móvil — 1 operation(s) for device locations.
+- baseURL: https://api.claro.com.br/mobile/v1/gsma/gateway/simswap
+  baseurl_source: declared
+  description: The Device Locations API from América Móvil — 1 operation(s) for device locations.
   name: América Móvil Device Locations API
   slug: america-movil-device-locations-api
-- description: The Location verification API from América Móvil — 1 operation(s) for location verification.
+- baseURL: https://api.claro.com.br/mobile/v1/gsma/gateway/simswap
+  baseurl_source: declared
+  description: The Location verification API from América Móvil — 1 operation(s) for location verification.
   name: América Móvil Location verification API
   slug: america-movil-location-verification-api
-- description: The Retrieve SIM swap date API from América Móvil — 1 operation(s) for retrieve sim swap date.
+- baseURL: https://api.claro.com.br/mobile/v1/gsma/gateway/simswap
+  baseurl_source: declared
+  description: The Retrieve SIM swap date API from América Móvil — 1 operation(s) for retrieve sim swap date.
   name: América Móvil Retrieve SIM swap date API
   slug: america-movil-retrieve-sim-swap-date-api
 arazzos:
@@ -321,7 +343,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -331,7 +353,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 58.1
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,7 +371,7 @@ score:
     regime_id: telecommunications
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Bank installment plans available for a merchant.
+- baseURL: https://atfawry.fawrystaging.com
+  baseurl_source: spec
+  description: Bank installment plans available for a merchant.
   name: Fawry Installments API
   slug: fawry-installments-api
-- description: Inspect or cancel FawryPay orders.
+- baseURL: https://atfawry.fawrystaging.com
+  baseurl_source: spec
+  description: Inspect or cancel FawryPay orders.
   name: Fawry Orders API
   slug: fawry-orders-api
-- description: Create payment requests and charge cards or wallets.
+- baseURL: https://atfawry.fawrystaging.com
+  baseurl_source: spec
+  description: Create payment requests and charge cards or wallets.
   name: Fawry Payments API
   slug: fawry-payments-api
-- description: Refund settled FawryPay orders.
+- baseURL: https://atfawry.fawrystaging.com
+  baseurl_source: spec
+  description: Refund settled FawryPay orders.
   name: Fawry Refunds API
   slug: fawry-refunds-api
 artifact_total: 23
@@ -289,7 +297,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fawry/refs/heads/main/screenshots/fawry-2026-06-20T181100.png
 security:

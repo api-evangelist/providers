@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'RealSelf Lead Sharing publishes a notification to a partner-owned HTTPS endpoint every time a new patient lead is created on the platform. Delivery is over an Amazon SNS topic subscription: the subscr'
+- baseURL: https://api.realself.com/v1
+  baseurl_source: declared
+  description: 'RealSelf Lead Sharing publishes a notification to a partner-owned HTTPS endpoint every time a new patient lead is created on the platform. Delivery is over an Amazon SNS topic subscription: the subscr'
   name: RealSelf Lead Sharing
   slug: realself-lead-sharing
 artifact_total: 12
@@ -163,7 +178,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -173,7 +188,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 34.1
+  previous_composite: 33.8
   provenance:
     conformance: derived
     mcp: derived
@@ -184,7 +199,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

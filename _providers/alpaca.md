@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 119 operations · 39 acting
 api_count: 2
 apis:
-- description: The Alpaca Trading API enables commission-free trading of US-listed equities, options, and crypto. It exposes endpoints for orders, positions, account information, watchlists, calendar, clock, and ass
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Alpaca Trading API enables commission-free trading of US-listed equities, options, and crypto. It exposes endpoints for orders, positions, account information, watchlists, calendar, clock, and ass
   name: Alpaca Trading API
   slug: trading-api
-- description: The Alpaca OAuth API allows third-party applications to authenticate Alpaca users and obtain access tokens for the Trading and Market Data APIs.
+- baseURL: https://api.alpaca.markets/oauth
+  baseurl_source: declared
+  description: The Alpaca OAuth API allows third-party applications to authenticate Alpaca users and obtain access tokens for the Trading and Market Data APIs.
   name: Alpaca OAuth API
   slug: oauth-api
-- description: The Accounts API from Alpaca — 14 operation(s) for accounts.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Accounts API from Alpaca — 14 operation(s) for accounts.
   name: Alpaca Accounts API
   slug: alpaca-accounts-api
-- description: The Assets API from Alpaca — 2 operation(s) for assets.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Assets API from Alpaca — 2 operation(s) for assets.
   name: Alpaca Assets API
   slug: alpaca-assets-api
-- description: The Calendar API from Alpaca — 2 operation(s) for calendar.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Calendar API from Alpaca — 2 operation(s) for calendar.
   name: Alpaca Calendar API
   slug: alpaca-calendar-api
-- description: The Clock API from Alpaca — 2 operation(s) for clock.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Clock API from Alpaca — 2 operation(s) for clock.
   name: Alpaca Clock API
   slug: alpaca-clock-api
-- description: The Corporate Actions API from Alpaca — 1 operation(s) for corporate actions.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Corporate Actions API from Alpaca — 1 operation(s) for corporate actions.
   name: Alpaca Corporate Actions API
   slug: alpaca-corporate-actions-api
-- description: The Crypto Pricing Data API API from Alpaca — 17 operation(s) for crypto pricing data api.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Crypto Pricing Data API API from Alpaca — 17 operation(s) for crypto pricing data api.
   name: Alpaca Crypto Pricing Data API API
   slug: alpaca-crypto-pricing-data-api-api
-- description: The Documents API from Alpaca — 3 operation(s) for documents.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Documents API from Alpaca — 3 operation(s) for documents.
   name: Alpaca Documents API
   slug: alpaca-documents-api
-- description: The Events API from Alpaca — 4 operation(s) for events.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Events API from Alpaca — 4 operation(s) for events.
   name: Alpaca Events API
   slug: alpaca-events-api
-- description: The Funding API from Alpaca — 7 operation(s) for funding.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Funding API from Alpaca — 7 operation(s) for funding.
   name: Alpaca Funding API
   slug: alpaca-funding-api
-- description: The Journals API from Alpaca — 4 operation(s) for journals.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Journals API from Alpaca — 4 operation(s) for journals.
   name: Alpaca Journals API
   slug: alpaca-journals-api
-- description: The Logo API from Alpaca — 1 operation(s) for logo.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Logo API from Alpaca — 1 operation(s) for logo.
   name: Alpaca Logo API
   slug: alpaca-logo-api
-- description: The News API from Alpaca — 1 operation(s) for news.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The News API from Alpaca — 1 operation(s) for news.
   name: Alpaca News API
   slug: alpaca-news-api
-- description: The Screener API from Alpaca — 1 operation(s) for screener.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Screener API from Alpaca — 1 operation(s) for screener.
   name: Alpaca Screener API
   slug: alpaca-screener-api
-- description: The Stock Pricing Data API API from Alpaca — 16 operation(s) for stock pricing data api.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Stock Pricing Data API API from Alpaca — 16 operation(s) for stock pricing data api.
   name: Alpaca Stock Pricing Data API API
   slug: alpaca-stock-pricing-data-api-api
-- description: The Watchlist API from Alpaca — 2 operation(s) for watchlist.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The Watchlist API from Alpaca — 2 operation(s) for watchlist.
   name: Alpaca Watchlist API
   slug: alpaca-watchlist-api
 artifact_total: 77
@@ -473,23 +507,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.6
+  composite: 59.2
   coverage:
     artifact_dirs: 28
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 31.8
-    contract_quality: 66.7
+    contract_quality: 65.4
     developer_ergonomics: 53.6
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 63.2
-  previous_composite: 59.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -511,7 +545,7 @@ score:
     regime_id: securities_market_data
     score: 73.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

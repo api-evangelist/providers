@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -33,271 +44,449 @@ agentic_access:
   summary_line: 574 operations · 241 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort agent_runtime (v2) API
   slug: 1fort-agent-runtime-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Analytics API
   slug: 1fort-analytics-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort application: applications API'
   slug: 1fort-application-applications-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort application: clients API'
   slug: 1fort-application-clients-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort application (v2): applications API'
   slug: 1fort-application-v2-applications-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort application (v2): coverages API'
   slug: 1fort-application-v2-coverages-api
-- description: '**Deprecated.** Legacy Ascend billing/payments; use the Billing (v2) endpoints instead. **Access:** mixed; some endpoints are public, others require JWT or an API key (per endpoint).'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Deprecated.** Legacy Ascend billing/payments; use the Billing (v2) endpoints instead. **Access:** mixed; some endpoints are public, others require JWT or an API key (per endpoint).'
   name: 1Fort Ascend API
   slug: 1fort-ascend-api
-- description: '**Deprecated.** Legacy Ascend billing/payments; use the Billing (v2) endpoints instead. **Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Deprecated.** Legacy Ascend billing/payments; use the Billing (v2) endpoints instead. **Access:** requires a JWT access token.'
   name: 1Fort ascend (v2) API
   slug: 1fort-ascend-v2-api
-- description: Sign in / sign up via Google or Office365 OAuth and refresh JWT access tokens. **Access:** mixed; some endpoints are public, others require JWT (per endpoint).
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: Sign in / sign up via Google or Office365 OAuth and refresh JWT access tokens. **Access:** mixed; some endpoints are public, others require JWT (per endpoint).
   name: 1Fort Auth API
   slug: 1fort-auth-api
-- description: One-time-password (OTP) authentication. **Access:** public; no authentication required.
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: One-time-password (OTP) authentication. **Access:** public; no authentication required.
   name: 1Fort Authentication API
   slug: 1fort-authentication-api
-- description: Billing and payments. Replaces the deprecated Ascend payment endpoints. **Access:** requires a JWT access token.
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: Billing and payments. Replaces the deprecated Ascend payment endpoints. **Access:** requires a JWT access token.
   name: 1Fort billing (v2) API
   slug: 1fort-billing-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: ai-customization-types API'
   slug: 1fort-broker-ai-customization-types-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: ai-customizations API'
   slug: 1fort-broker-ai-customizations-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Broker Ams Integration API
   slug: 1fort-broker-ams-integration-api
-- description: '**Access:** mixed; some endpoints are public, others require JWT (per endpoint).'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** mixed; some endpoints are public, others require JWT (per endpoint).'
   name: 1Fort Broker API
   slug: 1fort-broker-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: clients API'
   slug: 1fort-broker-clients-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: email_preferences API'
   slug: 1fort-broker-email-preferences-api
-- description: '**Access:** public; no authentication required.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** public; no authentication required.'
   name: 1Fort Broker Google API
   slug: 1fort-broker-google-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Broker Groups API
   slug: 1fort-broker-groups-api
-- description: '**Access:** public; no authentication required.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** public; no authentication required.'
   name: 1Fort Broker Office365 API
   slug: 1fort-broker-office365-api
-- description: '**Access:** public; no authentication required.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** public; no authentication required.'
   name: 1Fort Broker Office365 Individual API
   slug: 1fort-broker-office365-individual-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: proposal-preferences API'
   slug: 1fort-broker-proposal-preferences-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Broker Settings API
   slug: 1fort-broker-settings-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: take-rates API'
   slug: 1fort-broker-take-rates-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: user-ai-customizations API'
   slug: 1fort-broker-user-ai-customizations-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker: users API'
   slug: 1fort-broker-users-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): applications API'
   slug: 1fort-broker-v2-applications-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): clients API'
   slug: 1fort-broker-v2-clients-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): coverages API'
   slug: 1fort-broker-v2-coverages-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): email-templates API'
   slug: 1fort-broker-v2-email-templates-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): quote-policies API'
   slug: 1fort-broker-v2-quote-policies-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): quotes API'
   slug: 1fort-broker-v2-quotes-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): storefront API'
   slug: 1fort-broker-v2-storefront-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort broker (v2): team-users API'
   slug: 1fort-broker-v2-team-users-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Business Admin API
   slug: 1fort-business-admin-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Business API
   slug: 1fort-business-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Business Broker Users API
   slug: 1fort-business-broker-users-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Business User API
   slug: 1fort-business-user-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Carrier API
   slug: 1fort-carrier-api
-- description: Checkout and payment session endpoints. **Access:** public; no authentication required.
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: Checkout and payment session endpoints. **Access:** public; no authentication required.
   name: 1Fort Checkout API
   slug: 1fort-checkout-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent API
   slug: 1fort-email-ai-agent-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent - Attachments API
   slug: 1fort-email-ai-agent-attachments-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent - Businesses API
   slug: 1fort-email-ai-agent-businesses-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent - Entities API
   slug: 1fort-email-ai-agent-entities-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent - Markets API
   slug: 1fort-email-ai-agent-markets-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent - Profiles API
   slug: 1fort-email-ai-agent-profiles-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI Agent - Reference Data API
   slug: 1fort-email-ai-agent-reference-data-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Email AI API
   slug: 1fort-email-ai-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort email_ai (v2): attachments API'
   slug: 1fort-email-ai-v2-attachments-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort email_ai (v2): carriers API'
   slug: 1fort-email-ai-v2-carriers-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort email_ai (v2): coverage-types API'
   slug: 1fort-email-ai-v2-coverage-types-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort email_ai (v2): emails API'
   slug: 1fort-email-ai-v2-emails-api
-- description: '**Access:** public; no authentication required.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** public; no authentication required.'
   name: '1Fort email_ai (v2): gmail API'
   slug: 1fort-email-ai-v2-gmail-api
-- description: '**Access:** public; no authentication required.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** public; no authentication required.'
   name: '1Fort email_ai (v2): office365 API'
   slug: 1fort-email-ai-v2-office365-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort email_ai (v2): profiles API'
   slug: 1fort-email-ai-v2-profiles-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort email_ai (v2): wholesalers API'
   slug: 1fort-email-ai-v2-wholesalers-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort google_workspace (v2) API
   slug: 1fort-google-workspace-v2-api
-- description: '**Access:** mixed; some endpoints are public, others require JWT or an API key (per endpoint).'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** mixed; some endpoints are public, others require JWT or an API key (per endpoint).'
   name: 1Fort herald (v2) API
   slug: 1fort-herald-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort indications (v2) API
   slug: 1fort-indications-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort insurance (v2) API
   slug: 1fort-insurance-v2-api
-- description: Invitations for broker and business users. **Access:** mixed; some endpoints are public, others require JWT (per endpoint).
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: Invitations for broker and business users. **Access:** mixed; some endpoints are public, others require JWT (per endpoint).
   name: 1Fort Invite API
   slug: 1fort-invite-api
-- description: Legal documents and agreements. **Access:** requires a JWT access token.
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: Legal documents and agreements. **Access:** requires a JWT access token.
   name: 1Fort Legal API
   slug: 1fort-legal-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort market (v2) API
   slug: 1fort-market-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Markets API
   slug: 1fort-markets-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Markets - Business API
   slug: 1fort-markets-business-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort office365 (v2) API
   slug: 1fort-office365-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort premium_finance (v2) API
   slug: 1fort-premium-finance-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort quote_ai (v2) API
   slug: 1fort-quote-ai-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote: applications API'
   slug: 1fort-quote-applications-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote: clients API'
   slug: 1fort-quote-clients-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote: quotes API'
   slug: 1fort-quote-quotes-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): application API'
   slug: 1fort-quote-v2-application-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): binders API'
   slug: 1fort-quote-v2-binders-api
-- description: '**Access:** public; no authentication required.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** public; no authentication required.'
   name: '1Fort quote (v2): checkout API'
   slug: 1fort-quote-v2-checkout-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): cios API'
   slug: 1fort-quote-v2-cios-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): coverages API'
   slug: 1fort-quote-v2-coverages-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): quote-policies API'
   slug: 1fort-quote-v2-quote-policies-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): quotes API'
   slug: 1fort-quote-v2-quotes-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort quote (v2): tasks API'
   slug: 1fort-quote-v2-tasks-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Reports API
   slug: 1fort-reports-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Reward API
   slug: 1fort-reward-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Risk Manager API
   slug: 1fort-risk-manager-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort Sanity Check AI API
   slug: 1fort-sanity-check-ai-api
-- description: Insured-facing storefront endpoints. Access is scoped by storefront identity (public links, API key, or storefront permission) rather than a user JWT. **Access:** mixed; some endpoints are public, oth
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: Insured-facing storefront endpoints. Access is scoped by storefront identity (public links, API key, or storefront permission) rather than a user JWT. **Access:** mixed; some endpoints are public, oth
   name: 1Fort storefront (v2) API
   slug: 1fort-storefront-v2-api
-- description: '**Access:** mixed; some endpoints are public, others require JWT (per endpoint).'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** mixed; some endpoints are public, others require JWT (per endpoint).'
   name: 1Fort Stripe API
   slug: 1fort-stripe-api
-- description: '**Access:** requires a JWT access token or an API key.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token or an API key.'
   name: 1Fort Suggestion AI API
   slug: 1fort-suggestion-ai-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort treasury (v2) API
   slug: 1fort-treasury-v2-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: 1Fort User API
   slug: 1fort-user-api
-- description: '**Access:** requires a JWT access token.'
+- baseURL: https://api.1fort.com/apis/
+  baseurl_source: declared
+  description: '**Access:** requires a JWT access token.'
   name: '1Fort user: default-access-role API'
   slug: 1fort-user-default-access-role-api
 artifact_total: 187
@@ -757,7 +946,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -767,7 +956,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 53.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -785,7 +974,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:

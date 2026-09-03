@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Search and retrieve regulatory and clinical documents.
+- baseURL: https://rhizomeai.com/api
+  baseurl_source: declared
+  description: Search and retrieve regulatory and clinical documents.
   name: Rhizome Ai Documents API
   slug: rhizome-ai-documents-api
 artifact_total: 7
@@ -201,7 +203,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhizome-ai/refs/heads/main/screenshots/rhizome-ai-2026-08-17T081552.png
 security:

@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authorization API from Prodsmart — 1 operation(s) for authorization.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Authorization API from Prodsmart — 1 operation(s) for authorization.
   name: Prodsmart Authorization API
   slug: prodsmart-authorization-api
-- description: The Changes Feed API from Prodsmart — 1 operation(s) for changes feed.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Changes Feed API from Prodsmart — 1 operation(s) for changes feed.
   name: Prodsmart Changes Feed API
   slug: prodsmart-changes-feed-api
-- description: The Clients API from Prodsmart — 2 operation(s) for clients.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Clients API from Prodsmart — 2 operation(s) for clients.
   name: Prodsmart Clients API
   slug: prodsmart-clients-api
-- description: The Downtime API from Prodsmart — 1 operation(s) for downtime.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Downtime API from Prodsmart — 1 operation(s) for downtime.
   name: Prodsmart Downtime API
   slug: prodsmart-downtime-api
-- description: The Inventory API from Prodsmart — 3 operation(s) for inventory.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Inventory API from Prodsmart — 3 operation(s) for inventory.
   name: Prodsmart Inventory API
   slug: prodsmart-inventory-api
-- description: The Machines API from Prodsmart — 2 operation(s) for machines.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Machines API from Prodsmart — 2 operation(s) for machines.
   name: Prodsmart Machines API
   slug: prodsmart-machines-api
-- description: The Product Families API from Prodsmart — 2 operation(s) for product families.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Product Families API from Prodsmart — 2 operation(s) for product families.
   name: Prodsmart Product Families API
   slug: prodsmart-product-families-api
-- description: The Production Orders API from Prodsmart — 6 operation(s) for production orders.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Production Orders API from Prodsmart — 6 operation(s) for production orders.
   name: Prodsmart Production Orders API
   slug: prodsmart-production-orders-api
-- description: The Productions API from Prodsmart — 2 operation(s) for productions.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Productions API from Prodsmart — 2 operation(s) for productions.
   name: Prodsmart Productions API
   slug: prodsmart-productions-api
-- description: The Products API from Prodsmart — 5 operation(s) for products.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Products API from Prodsmart — 5 operation(s) for products.
   name: Prodsmart Products API
   slug: prodsmart-products-api
-- description: The Punch Clock API from Prodsmart — 1 operation(s) for punch clock.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Punch Clock API from Prodsmart — 1 operation(s) for punch clock.
   name: Prodsmart Punch Clock API
   slug: prodsmart-punch-clock-api
-- description: The Purchase Orders API from Prodsmart — 4 operation(s) for purchase orders.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Purchase Orders API from Prodsmart — 4 operation(s) for purchase orders.
   name: Prodsmart Purchase Orders API
   slug: prodsmart-purchase-orders-api
-- description: The Reports API from Prodsmart — 1 operation(s) for reports.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Reports API from Prodsmart — 1 operation(s) for reports.
   name: Prodsmart Reports API
   slug: prodsmart-reports-api
-- description: The Sales Orders API from Prodsmart — 4 operation(s) for sales orders.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Sales Orders API from Prodsmart — 4 operation(s) for sales orders.
   name: Prodsmart Sales Orders API
   slug: prodsmart-sales-orders-api
-- description: The Suppliers API from Prodsmart — 2 operation(s) for suppliers.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Suppliers API from Prodsmart — 2 operation(s) for suppliers.
   name: Prodsmart Suppliers API
   slug: prodsmart-suppliers-api
-- description: The Task Durations API from Prodsmart — 2 operation(s) for task durations.
+- baseURL: https://fusionoperations.autodesk.com
+  baseurl_source: declared
+  description: The Task Durations API from Prodsmart — 2 operation(s) for task durations.
   name: Prodsmart Task Durations API
   slug: prodsmart-task-durations-api
 artifact_total: 37
@@ -238,11 +270,11 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -252,7 +284,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 37.1
   provenance:
     contracts:
       callable: 100.0
@@ -261,8 +293,9 @@ score:
       total: 16
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prodsmart/refs/heads/main/screenshots/prodsmart-2026-09-02T152117.png
 security:
 - kind: authentication
   name: Prodsmart Authentication

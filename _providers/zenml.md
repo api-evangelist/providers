@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: The ZenML Pro REST API extends the OSS API with managed control-plane features for teams, including organization and tenant management, role-based access control, audit logs, and enterprise governance
   name: ZenML Pro REST API
   slug: zenml-pro-api
-- description: Artifact metadata and versions produced by pipeline runs
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Artifact metadata and versions produced by pipeline runs
   name: ZenML Artifacts API
   slug: zenml-artifacts-api
-- description: Authentication and token management
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Authentication and token management
   name: ZenML Auth API
   slug: zenml-auth-api
-- description: Pipeline deployments
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Pipeline deployments
   name: ZenML Deployments API
   slug: zenml-deployments-api
-- description: Registered models and their versions
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Registered models and their versions
   name: ZenML Models API
   slug: zenml-models-api
-- description: Pipeline run instances and their steps
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Pipeline run instances and their steps
   name: ZenML Pipeline Runs API
   slug: zenml-pipeline-runs-api
-- description: ML pipeline definitions
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: ML pipeline definitions
   name: ZenML Pipelines API
   slug: zenml-pipelines-api
-- description: Project workspaces
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Project workspaces
   name: ZenML Projects API
   slug: zenml-projects-api
-- description: Scheduled pipeline runs
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Scheduled pipeline runs
   name: ZenML Schedules API
   slug: zenml-schedules-api
-- description: Encrypted secret storage
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Encrypted secret storage
   name: ZenML Secrets API
   slug: zenml-secrets-api
-- description: Connectors to external infrastructure providers
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Connectors to external infrastructure providers
   name: ZenML Service Connectors API
   slug: zenml-service-connectors-api
-- description: Individual stack components such as orchestrators, artifact stores, and experiment trackers
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: Individual stack components such as orchestrators, artifact stores, and experiment trackers
   name: ZenML Stack Components API
   slug: zenml-stack-components-api
-- description: ZenML stacks and their components
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: ZenML stacks and their components
   name: ZenML Stacks API
   slug: zenml-stacks-api
-- description: User accounts
+- baseURL: https://your-zenml-server.example.com/api/v1
+  baseurl_source: spec
+  description: User accounts
   name: ZenML Users API
   slug: zenml-users-api
 arazzos:
@@ -472,7 +498,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:

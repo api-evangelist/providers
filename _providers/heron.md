@@ -34,151 +34,247 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Analytics API from Heron — 1 operation(s) for analytics.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Analytics API from Heron — 1 operation(s) for analytics.
   name: Heron Analytics API
   slug: heron-analytics-api
-- description: The AppStore API from Heron — 1 operation(s) for appstore.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The AppStore API from Heron — 1 operation(s) for appstore.
   name: Heron App Store API
   slug: heron-appstore-api
-- description: The Authentication API from Heron — 1 operation(s) for authentication.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Authentication API from Heron — 1 operation(s) for authentication.
   name: Heron Authentication API
   slug: heron-authentication-api
-- description: The Broker Funder Policies API from Heron — 10 operation(s) for broker funder policies.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Broker Funder Policies API from Heron — 10 operation(s) for broker funder policies.
   name: Heron Broker Funder Policies API
   slug: heron-broker-funder-policies-api
-- description: The BrokerSubmissions API from Heron — 6 operation(s) for brokersubmissions.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The BrokerSubmissions API from Heron — 6 operation(s) for brokersubmissions.
   name: Heron Broker Submissions API
   slug: heron-brokersubmissions-api
-- description: The Categories API from Heron — 1 operation(s) for categories.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Categories API from Heron — 1 operation(s) for categories.
   name: Heron Categories API
   slug: heron-categories-api
-- description: The Clear API from Heron — 2 operation(s) for clear.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Clear API from Heron — 2 operation(s) for clear.
   name: Heron Clear API
   slug: heron-clear-api
-- description: The Credentials API from Heron — 4 operation(s) for credentials.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Credentials API from Heron — 4 operation(s) for credentials.
   name: Heron Credentials API
   slug: heron-credentials-api
-- description: The CrmIntegrations API from Heron — 2 operation(s) for crmintegrations.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The CrmIntegrations API from Heron — 2 operation(s) for crmintegrations.
   name: Heron CRM Integrations API
   slug: heron-crmintegrations-api
-- description: The EmailTemplates API from Heron — 2 operation(s) for emailtemplates.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EmailTemplates API from Heron — 2 operation(s) for emailtemplates.
   name: Heron Email Templates API
   slug: heron-emailtemplates-api
-- description: The End Users API from Heron — 3 operation(s) for end users.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The End Users API from Heron — 3 operation(s) for end users.
   name: Heron End Users API
   slug: heron-end-users-api
-- description: The EndUserAccounts API from Heron — 1 operation(s) for enduseraccounts.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserAccounts API from Heron — 1 operation(s) for enduseraccounts.
   name: Heron End User Accounts API
   slug: heron-enduseraccounts-api
-- description: The EndUserAttributes API from Heron — 1 operation(s) for enduserattributes.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserAttributes API from Heron — 1 operation(s) for enduserattributes.
   name: Heron End User Attributes API
   slug: heron-enduserattributes-api
-- description: The EndUserCalculations API from Heron — 18 operation(s) for endusercalculations.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserCalculations API from Heron — 18 operation(s) for endusercalculations.
   name: Heron End User Calculations API
   slug: heron-endusercalculations-api
-- description: The EndUserDataSourceAccounts API from Heron — 3 operation(s) for enduserdatasourceaccounts.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserDataSourceAccounts API from Heron — 3 operation(s) for enduserdatasourceaccounts.
   name: Heron End User Data Source Accounts API
   slug: heron-enduserdatasourceaccounts-api
-- description: The EndUserDataSources API from Heron — 3 operation(s) for enduserdatasources.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserDataSources API from Heron — 3 operation(s) for enduserdatasources.
   name: Heron End User Data Sources API
   slug: heron-enduserdatasources-api
-- description: The EndUserEmails API from Heron — 1 operation(s) for enduseremails.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserEmails API from Heron — 1 operation(s) for enduseremails.
   name: Heron End User Emails API
   slug: heron-enduseremails-api
-- description: The EndUserEnrichers API from Heron — 5 operation(s) for enduserenrichers.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserEnrichers API from Heron — 5 operation(s) for enduserenrichers.
   name: Heron End User Enrichers API
   slug: heron-enduserenrichers-api
-- description: The EndUserEntity API from Heron — 14 operation(s) for enduserentity.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserEntity API from Heron — 14 operation(s) for enduserentity.
   name: Heron End User Entity API
   slug: heron-enduserentity-api
-- description: The EndUserFiles API from Heron — 18 operation(s) for enduserfiles.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserFiles API from Heron — 18 operation(s) for enduserfiles.
   name: Heron End User Files API
   slug: heron-enduserfiles-api
-- description: The EndUserFinancials API from Heron — 1 operation(s) for enduserfinancials.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserFinancials API from Heron — 1 operation(s) for enduserfinancials.
   name: Heron End User Financials API
   slug: heron-enduserfinancials-api
-- description: The EndUserIntegrations API from Heron — 15 operation(s) for enduserintegrations.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserIntegrations API from Heron — 15 operation(s) for enduserintegrations.
   name: Heron End User Integrations API
   slug: heron-enduserintegrations-api
-- description: The EndUserQueries API from Heron — 1 operation(s) for enduserqueries.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserQueries API from Heron — 1 operation(s) for enduserqueries.
   name: Heron End User Queries API
   slug: heron-enduserqueries-api
-- description: The EndUserRules API from Heron — 1 operation(s) for enduserrules.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUserRules API from Heron — 1 operation(s) for enduserrules.
   name: Heron End User Rules API
   slug: heron-enduserrules-api
-- description: The EndUsers API from Heron — 20 operation(s) for endusers.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EndUsers API from Heron — 20 operation(s) for endusers.
   name: Heron End Users API
   slug: heron-endusers-api
-- description: The EnrichedTransactions API from Heron — 2 operation(s) for enrichedtransactions.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EnrichedTransactions API from Heron — 2 operation(s) for enrichedtransactions.
   name: Heron Enriched Transactions API
   slug: heron-enrichedtransactions-api
-- description: The EnrichmentFeedback API from Heron — 4 operation(s) for enrichmentfeedback.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The EnrichmentFeedback API from Heron — 4 operation(s) for enrichmentfeedback.
   name: Heron Enrichment Feedback API
   slug: heron-enrichmentfeedback-api
-- description: The FileClass API from Heron — 4 operation(s) for fileclass.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The FileClass API from Heron — 4 operation(s) for fileclass.
   name: Heron File Class API
   slug: heron-fileclass-api
-- description: The Funder Integrations API from Heron — 4 operation(s) for funder integrations.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Funder Integrations API from Heron — 4 operation(s) for funder integrations.
   name: Heron Funder Integrations API
   slug: heron-funder-integrations-api
-- description: The Funder Submissions API from Heron — 3 operation(s) for funder submissions.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Funder Submissions API from Heron — 3 operation(s) for funder submissions.
   name: Heron Funder Submissions API
   slug: heron-funder-submissions-api
-- description: The Funders API from Heron — 4 operation(s) for funders.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Funders API from Heron — 4 operation(s) for funders.
   name: Heron Funders API
   slug: heron-funders-api
-- description: The Ingestion API from Heron — 1 operation(s) for ingestion.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Ingestion API from Heron — 1 operation(s) for ingestion.
   name: Heron Ingestion API
   slug: heron-ingestion-api
-- description: The Integrations API from Heron — 9 operation(s) for integrations.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Integrations API from Heron — 9 operation(s) for integrations.
   name: Heron Integrations API
   slug: heron-integrations-api
-- description: The Interaction Logs API from Heron — 1 operation(s) for interaction logs.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Interaction Logs API from Heron — 1 operation(s) for interaction logs.
   name: Heron Interaction Logs API
   slug: heron-interaction-logs-api
-- description: The ISOApplication API from Heron — 6 operation(s) for isoapplication.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The ISOApplication API from Heron — 6 operation(s) for isoapplication.
   name: Heron ISO Application API
   slug: heron-isoapplication-api
-- description: The Merchants API from Heron — 6 operation(s) for merchants.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Merchants API from Heron — 6 operation(s) for merchants.
   name: Heron Merchants API
   slug: heron-merchants-api
-- description: The ParsedEndUserSubmission API from Heron — 1 operation(s) for parsedendusersubmission.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The ParsedEndUserSubmission API from Heron — 1 operation(s) for parsedendusersubmission.
   name: Heron Parsed End User Submission API
   slug: heron-parsedendusersubmission-api
-- description: The Policy API from Heron — 3 operation(s) for policy.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Policy API from Heron — 3 operation(s) for policy.
   name: Heron Policy API
   slug: heron-policy-api
-- description: The Positions API from Heron — 2 operation(s) for positions.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Positions API from Heron — 2 operation(s) for positions.
   name: Heron Positions API
   slug: heron-positions-api
-- description: The Rules API from Heron — 3 operation(s) for rules.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Rules API from Heron — 3 operation(s) for rules.
   name: Heron Rules API
   slug: heron-rules-api
-- description: The Tags API from Heron — 4 operation(s) for tags.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Tags API from Heron — 4 operation(s) for tags.
   name: Heron Tags API
   slug: heron-tags-api
-- description: The Testing API from Heron — 2 operation(s) for testing.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Testing API from Heron — 2 operation(s) for testing.
   name: Heron Testing API
   slug: heron-testing-api
-- description: The Transactions API from Heron — 2 operation(s) for transactions.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Transactions API from Heron — 2 operation(s) for transactions.
   name: Heron Transactions API
   slug: heron-transactions-api
-- description: The UserMerchantGroups API from Heron — 1 operation(s) for usermerchantgroups.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The UserMerchantGroups API from Heron — 1 operation(s) for usermerchantgroups.
   name: Heron User Merchant Groups API
   slug: heron-usermerchantgroups-api
-- description: The Users API from Heron — 4 operation(s) for users.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Users API from Heron — 4 operation(s) for users.
   name: Heron Users API
   slug: heron-users-api
-- description: The Watermarks API from Heron — 1 operation(s) for watermarks.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Watermarks API from Heron — 1 operation(s) for watermarks.
   name: Heron Watermarks API
   slug: heron-watermarks-api
-- description: The Webhooks API from Heron — 3 operation(s) for webhooks.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Webhooks API from Heron — 3 operation(s) for webhooks.
   name: Heron Webhooks API
   slug: heron-webhooks-api
-- description: The Workflows API from Heron — 22 operation(s) for workflows.
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Workflows API from Heron — 22 operation(s) for workflows.
   name: Heron Workflows API
   slug: heron-workflows-api
 artifact_total: 56
@@ -395,7 +491,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -405,7 +501,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 61.5
+  previous_composite: 63.3
   provenance:
     conformance: first-party
     contracts:
@@ -428,7 +524,7 @@ score:
     regime_id: insurance
     score: 62.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 7
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 130 operations · 69 acting · 7 human-in-the-loop
 api_count: 9
 apis:
-- description: The ?Action=AddTagsToResource API from Amazon Neptune — 1 operation(s) for ?action=addtagstoresource.
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: The ?Action=AddTagsToResource API from Amazon Neptune — 1 operation(s) for ?action=addtagstoresource.
   name: Amazon Neptune ?Action=AddTagsToResource API
   slug: amazon-neptune-action-addtagstoresource-api
-- description: The ?Action=ListTagsForResource API from Amazon Neptune — 1 operation(s) for ?action=listtagsforresource.
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: The ?Action=ListTagsForResource API from Amazon Neptune — 1 operation(s) for ?action=listtagsforresource.
   name: Amazon Neptune ?Action=ListTagsForResource API
   slug: amazon-neptune-action-listtagsforresource-api
-- description: ML data processing job operations
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: ML data processing job operations
   name: Amazon Neptune Data Processing API
   slug: amazon-neptune-data-processing-api
-- description: Operations for managing Neptune DB clusters
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing Neptune DB clusters
   name: Amazon Neptune DB Clusters API
   slug: amazon-neptune-db-clusters-api
-- description: Operations for managing Neptune DB instances
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing Neptune DB instances
   name: Amazon Neptune DB Instances API
   slug: amazon-neptune-db-instances-api
-- description: Operations for querying engine version information
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for querying engine version information
   name: Amazon Neptune Engine API
   slug: amazon-neptune-engine-api
-- description: Operations for managing event subscriptions and viewing events
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing event subscriptions and viewing events
   name: Amazon Neptune Events API
   slug: amazon-neptune-events-api
-- description: Operations for managing Neptune global database clusters
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing Neptune global database clusters
   name: Amazon Neptune Global Clusters API
   slug: amazon-neptune-global-clusters-api
-- description: Operations for managing graph snapshots
+- baseURL_template: https://neptune-graph.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing graph snapshots
   name: Amazon Neptune Graph Snapshots API
   slug: amazon-neptune-graph-snapshots-api
-- description: Operations for managing Neptune Analytics graph resources
+- baseURL_template: https://neptune-graph.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing Neptune Analytics graph resources
   name: Amazon Neptune Graphs API
   slug: amazon-neptune-graphs-api
-- description: Execute Gremlin graph traversal queries
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Execute Gremlin graph traversal queries
   name: Amazon Neptune Gremlin API
   slug: amazon-neptune-gremlin-api
-- description: Operations for importing data into graphs
+- baseURL_template: https://neptune-graph.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for importing data into graphs
   name: Amazon Neptune Import Tasks API
   slug: amazon-neptune-import-tasks-api
-- description: ML inference endpoint management operations
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: ML inference endpoint management operations
   name: Amazon Neptune Inference Endpoints API
   slug: amazon-neptune-inference-endpoints-api
-- description: Bulk data loading operations
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Bulk data loading operations
   name: Amazon Neptune Loader API
   slug: amazon-neptune-loader-api
-- description: Operations for managing pending maintenance actions
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing pending maintenance actions
   name: Amazon Neptune Maintenance API
   slug: amazon-neptune-maintenance-api
-- description: Machine learning operations
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Machine learning operations
   name: Amazon Neptune ML API
   slug: amazon-neptune-ml-api
-- description: ML model training job operations
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: ML model training job operations
   name: Amazon Neptune Model Training API
   slug: amazon-neptune-model-training-api
-- description: ML model transform job operations
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: ML model transform job operations
   name: Amazon Neptune Model Transform API
   slug: amazon-neptune-model-transform-api
-- description: Execute openCypher graph queries
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Execute openCypher graph queries
   name: Amazon Neptune openCypher API
   slug: amazon-neptune-opencypher-api
-- description: Operations for managing DB and cluster parameter groups
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing DB and cluster parameter groups
   name: Amazon Neptune Parameter Groups API
   slug: amazon-neptune-parameter-groups-api
-- description: Operations for managing private graph endpoints in VPCs
+- baseURL_template: https://neptune-graph.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing private graph endpoints in VPCs
   name: Amazon Neptune Private Graph Endpoints API
   slug: amazon-neptune-private-graph-endpoints-api
-- description: Change data capture for property graph (Gremlin/openCypher) data
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: Change data capture for property graph (Gremlin/openCypher) data
   name: Amazon Neptune Property Graph Stream API
   slug: amazon-neptune-property-graph-stream-api
-- description: Submit Gremlin graph traversal queries
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: Submit Gremlin graph traversal queries
   name: Amazon Neptune Query API
   slug: amazon-neptune-query-api
-- description: Operations for managing cluster snapshots
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing cluster snapshots
   name: Amazon Neptune Snapshots API
   slug: amazon-neptune-snapshots-api
-- description: Execute SPARQL queries against RDF data
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Execute SPARQL queries against RDF data
   name: Amazon Neptune SPARQL API
   slug: amazon-neptune-sparql-api
-- description: Change data capture for RDF (SPARQL) data
+- baseURL_template: https://{cluster-endpoint}:8182
+  baseurl_source: spec_template
+  description: Change data capture for RDF (SPARQL) data
   name: Amazon Neptune SPARQL Stream API
   slug: amazon-neptune-sparql-stream-api
-- description: Query engine status and statistics
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Query engine status and statistics
   name: Amazon Neptune Status API
   slug: amazon-neptune-status-api
-- description: Change data capture stream operations
+- baseURL_template: https://neptune-db.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Change data capture stream operations
   name: Amazon Neptune Streams API
   slug: amazon-neptune-streams-api
-- description: Operations for managing DB subnet groups
+- baseURL_template: https://rds.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: Operations for managing DB subnet groups
   name: Amazon Neptune Subnet Groups API
   slug: amazon-neptune-subnet-groups-api
 arazzos:
@@ -2184,7 +2242,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -2194,7 +2252,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 62.7
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2203,7 +2261,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/screenshots/amazon-neptune-2026-06-20T171750.png
 security:

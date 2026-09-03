@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Retrieve, inspect, and delete conversation data for completed calls.
+- baseURL: https://api.goguava.ai/v1
+  baseurl_source: declared
+  description: Retrieve, inspect, and delete conversation data for completed calls.
   name: Gridspace Conversations API
   slug: gridspace-conversations-api
-- description: Send SMS messages and read inbound messages received on your Guava numbers.
+- baseURL: https://api.goguava.ai/v1
+  baseurl_source: declared
+  description: Send SMS messages and read inbound messages received on your Guava numbers.
   name: Gridspace Messages API
   slug: gridspace-messages-api
-- description: SDK lifecycle utilities.
+- baseURL: https://api.goguava.ai/v1
+  baseurl_source: declared
+  description: SDK lifecycle utilities.
   name: Gridspace SDK API
   slug: gridspace-sdk-api
 arazzos:
@@ -293,7 +299,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridspace/refs/heads/main/screenshots/gridspace-2026-07-25T220327.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 37 operations · 19 acting
 api_count: 1
 apis:
-- description: The Accounts API from ModernFi — 5 operation(s) for accounts.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The Accounts API from ModernFi — 5 operation(s) for accounts.
   name: ModernFi Accounts API
   slug: modernfi-accounts-api
-- description: The auth API from ModernFi — 1 operation(s) for auth.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The auth API from ModernFi — 1 operation(s) for auth.
   name: ModernFi auth API
   slug: modernfi-auth-api
-- description: The customBenchmarks API from ModernFi — 2 operation(s) for custombenchmarks.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The customBenchmarks API from ModernFi — 2 operation(s) for custombenchmarks.
   name: ModernFi customBenchmarks API
   slug: modernfi-custombenchmarks-api
-- description: The Depositors API from ModernFi — 3 operation(s) for depositors.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The Depositors API from ModernFi — 3 operation(s) for depositors.
   name: ModernFi Depositors API
   slug: modernfi-depositors-api
-- description: The files API from ModernFi — 4 operation(s) for files.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The files API from ModernFi — 4 operation(s) for files.
   name: ModernFi files API
   slug: modernfi-files-api
-- description: The pricingGroups API from ModernFi — 4 operation(s) for pricinggroups.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The pricingGroups API from ModernFi — 4 operation(s) for pricinggroups.
   name: ModernFi pricingGroups API
   slug: modernfi-pricinggroups-api
-- description: The Transactions API from ModernFi — 2 operation(s) for transactions.
+- baseURL: https://api.modernfi.com
+  baseurl_source: declared
+  description: The Transactions API from ModernFi — 2 operation(s) for transactions.
   name: ModernFi Transactions API
   slug: modernfi-transactions-api
 artifact_total: 19
@@ -248,7 +262,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:

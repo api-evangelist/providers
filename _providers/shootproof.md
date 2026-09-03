@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 67 operations · 37 acting
 api_count: 1
 apis:
-- description: Contacts (clients) attached to a brand.
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Contacts (clients) attached to a brand.
   name: ShootProof Clients API
   slug: shootproof-clients-api
-- description: Client contracts, contract templates, and contract email delivery.
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Client contracts, contract templates, and contract email delivery.
   name: ShootProof Contracts API
   slug: shootproof-contracts-api
-- description: Client events (galleries/shoots), albums, categories, digital rules, and QR codes.
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Client events (galleries/shoots), albums, categories, digital rules, and QR codes.
   name: ShootProof Events & Galleries API
   slug: shootproof-events-galleries-api
-- description: Print/product orders, order items, lab shipments, and payments (beta).
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Print/product orders, order items, lab shipments, and payments (beta).
   name: ShootProof Orders API
   slug: shootproof-orders-api
-- description: Photos uploaded to an event, upload policies, originals, and zip bundles.
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Photos uploaded to an event, upload policies, originals, and zip bundles.
   name: ShootProof Photos API
   slug: shootproof-photos-api
-- description: Root hypermedia entry point for the API.
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Root hypermedia entry point for the API.
   name: ShootProof Service Description API
   slug: shootproof-service-description-api
-- description: Brands, brand themes, homepage settings, watermarks, and summary reports.
+- baseURL: https://api.shootproof.com/studio
+  baseurl_source: declared
+  description: Brands, brand themes, homepage settings, watermarks, and summary reports.
   name: ShootProof Studios API
   slug: shootproof-studios-api
 artifact_total: 23
@@ -181,7 +195,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -204,8 +218,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/screenshots/shootproof-2026-09-02T155253.png
 security:
 - kind: authentication
   name: Shootproof Authentication

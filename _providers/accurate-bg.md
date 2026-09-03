@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: Webhook event notifications configured in the Accurate developer portal deliver order and report status updates (for example when an order completes) to a consumer-hosted HTTPS endpoint, so integrator
   name: Accurate Webhooks
   slug: accurate-bg-webhooks-api
-- description: Pass/fail decisioning on completed orders.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Pass/fail decisioning on completed orders.
   name: Accurate Background Adjudication API
   slug: accurate-bg-adjudication-api
-- description: Screening subjects that background checks are run against.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Screening subjects that background checks are run against.
   name: Accurate Background Candidates API
   slug: accurate-bg-candidates-api
-- description: Supporting documents attached to an order.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Supporting documents attached to an order.
   name: Accurate Background Documents API
   slug: accurate-bg-documents-api
-- description: Candidate-facing notifications.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Candidate-facing notifications.
   name: Accurate Background Notifications API
   slug: accurate-bg-notifications-api
-- description: Background-check orders placed against a candidate.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Background-check orders placed against a candidate.
   name: Accurate Background Orders API
   slug: accurate-bg-orders-api
-- description: Screening packages available on an account.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Screening packages available on an account.
   name: Accurate Background Packages API
   slug: accurate-bg-packages-api
-- description: Completed screening results and reports.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Completed screening results and reports.
   name: Accurate Background Reports API
   slug: accurate-bg-reports-api
-- description: Connectivity and health checks.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Connectivity and health checks.
   name: Accurate Background Utility API
   slug: accurate-bg-utility-api
-- description: Employment and education verification attempts.
+- baseURL: https://api.accuratebackground.com/v3
+  baseurl_source: declared
+  description: Employment and education verification attempts.
   name: Accurate Background Verifications API
   slug: accurate-bg-verifications-api
 artifact_total: 27
@@ -212,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/screenshots/accurate-bg-2026-07-25T181442.png
 security:

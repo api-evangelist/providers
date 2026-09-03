@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -50,22 +50,34 @@ apis:
 - description: The Unum Leave and Absence Management API integrates Unum's leave solutions directly with HCM platforms, automating leave request intake, status tracking, return-to-work coordination, and FMLA/state l
   name: Unum Leave and Absence Management API
   slug: leave-absence
-- description: OAuth 2.0 token management
+- baseURL: https://api.unum.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: Unum Authentication API
   slug: unum-authentication-api
-- description: Premium billing and payment management
+- baseURL: https://api.unum.com
+  baseurl_source: declared
+  description: Premium billing and payment management
   name: Unum Billing API
   slug: unum-billing-api
-- description: Member eligibility management and verification
+- baseURL: https://api.unum.com
+  baseurl_source: declared
+  description: Member eligibility management and verification
   name: Unum Eligibility API
   slug: unum-eligibility-api
-- description: Benefits enrollment and lifecycle management
+- baseURL: https://api.unum.com
+  baseurl_source: declared
+  description: Benefits enrollment and lifecycle management
   name: Unum Enrollment API
   slug: unum-enrollment-api
-- description: EOI submission and status tracking
+- baseURL: https://api.unum.com
+  baseurl_source: declared
+  description: EOI submission and status tracking
   name: Unum Evidence of Insurability API
   slug: unum-evidence-of-insurability-api
-- description: Leave and absence request management
+- baseURL: https://api.unum.com
+  baseurl_source: declared
+  description: Leave and absence request management
   name: Unum Leave Management API
   slug: unum-leave-management-api
 artifact_total: 32
@@ -269,7 +281,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png
 security:

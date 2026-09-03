@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 18 operations
 api_count: 1
 apis:
-- description: The Agency API from Crossref — 1 operation(s) for agency.
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: The Agency API from Crossref — 1 operation(s) for agency.
   name: Crossref Agency API
   slug: crossref-agency-api
-- description: Endpoints that expose funder related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose funder related data
   name: Crossref Funders API
   slug: crossref-funders-api
-- description: Endpoints that expose journal related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose journal related data
   name: Crossref Journals API
   slug: crossref-journals-api
-- description: Endpoints that expose license related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose license related data
   name: Crossref Licenses API
   slug: crossref-licenses-api
-- description: Endpoints that expose member related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose member related data
   name: Crossref Members API
   slug: crossref-members-api
-- description: Endpoints that expose prefix related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose prefix related data
   name: Crossref Prefixes API
   slug: crossref-prefixes-api
-- description: Endpoints that expose type related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose type related data
   name: Crossref Types API
   slug: crossref-types-api
-- description: Endpoints that expose works related data
+- baseURL: https://api.crossref.org
+  baseurl_source: declared
+  description: Endpoints that expose works related data
   name: Crossref Works API
   slug: crossref-works-api
 artifact_total: 28
@@ -256,7 +272,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/screenshots/crossref-2026-06-20T175248.png
 security:

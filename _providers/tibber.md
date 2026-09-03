@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Tibber's long-standing GraphQL API. A single HTTPS endpoint serves the `viewer` query (with nested `homes`, `currentSubscription`, `priceInfo`, `consumption`, `production`, and `features`), the `liveM
+- baseURL: https://api.tibber.com/v1-beta/gql
+  baseurl_source: declared
+  description: Tibber's long-standing GraphQL API. A single HTTPS endpoint serves the `viewer` query (with nested `homes`, `currentSubscription`, `priceInfo`, `consumption`, `production`, and `features`), the `liveM
   name: Tibber GraphQL API
   slug: tibber-graphql-api
-- description: IoT devices linked to a home, exposed across vehicles, chargers, thermostats, inverters, and energy systems.
+- baseURL: https://api.tibber.com/v1-beta/gql
+  baseurl_source: declared
+  description: IoT devices linked to a home, exposed across vehicles, chargers, thermostats, inverters, and energy systems.
   name: Tibber Devices API
   slug: tibber-devices-api
-- description: Historical time series at quarter-hour, hourly, daily, and monthly resolution.
+- baseURL: https://api.tibber.com/v1-beta/gql
+  baseurl_source: declared
+  description: Historical time series at quarter-hour, hourly, daily, and monthly resolution.
   name: Tibber History API
   slug: tibber-history-api
-- description: Tibber customer homes the calling client has been granted access to.
+- baseURL: https://api.tibber.com/v1-beta/gql
+  baseurl_source: declared
+  description: Tibber customer homes the calling client has been granted access to.
   name: Tibber Homes API
   slug: tibber-homes-api
 arazzos:
@@ -486,7 +494,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:

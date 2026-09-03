@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -47,106 +47,174 @@ apis:
 - description: The Openprovider Reseller API provides programmatic access to domain registration and management, DNS, SSL certificate provisioning, hosting products, and customer/billing operations across the Openpr
   name: Openprovider API
   slug: openprovider-api
-- description: The AdditionalData API from Openprovider — 1 operation(s) for additionaldata.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The AdditionalData API from Openprovider — 1 operation(s) for additionaldata.
   name: Openprovider AdditionalData API
   slug: openprovider-additionaldata-api
-- description: The ApproverEmail API from Openprovider — 1 operation(s) for approveremail.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The ApproverEmail API from Openprovider — 1 operation(s) for approveremail.
   name: Openprovider ApproverEmail API
   slug: openprovider-approveremail-api
-- description: The Auth API from Openprovider — 1 operation(s) for auth.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Auth API from Openprovider — 1 operation(s) for auth.
   name: Openprovider Auth API
   slug: openprovider-auth-api
-- description: The AuthCode API from Openprovider — 2 operation(s) for authcode.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The AuthCode API from Openprovider — 2 operation(s) for authcode.
   name: Openprovider AuthCode API
   slug: openprovider-authcode-api
-- description: The ContactService API from Openprovider — 2 operation(s) for contactservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The ContactService API from Openprovider — 2 operation(s) for contactservice.
   name: Openprovider ContactService API
   slug: openprovider-contactservice-api
-- description: The Csr API from Openprovider — 2 operation(s) for csr.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Csr API from Openprovider — 2 operation(s) for csr.
   name: Openprovider Csr API
   slug: openprovider-csr-api
-- description: The Customer API from Openprovider — 2 operation(s) for customer.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Customer API from Openprovider — 2 operation(s) for customer.
   name: Openprovider Customer API
   slug: openprovider-customer-api
-- description: The CustomerAdditionalData API from Openprovider — 1 operation(s) for customeradditionaldata.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The CustomerAdditionalData API from Openprovider — 1 operation(s) for customeradditionaldata.
   name: Openprovider CustomerAdditionalData API
   slug: openprovider-customeradditionaldata-api
-- description: The DomainPriceService API from Openprovider — 1 operation(s) for domainpriceservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The DomainPriceService API from Openprovider — 1 operation(s) for domainpriceservice.
   name: Openprovider DomainPriceService API
   slug: openprovider-domainpriceservice-api
-- description: The DomainService API from Openprovider — 11 operation(s) for domainservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The DomainService API from Openprovider — 11 operation(s) for domainservice.
   name: Openprovider DomainService API
   slug: openprovider-domainservice-api
-- description: The DomainToken API from Openprovider — 1 operation(s) for domaintoken.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The DomainToken API from Openprovider — 1 operation(s) for domaintoken.
   name: Openprovider DomainToken API
   slug: openprovider-domaintoken-api
-- description: The EasydmarcOrder API from Openprovider — 5 operation(s) for easydmarcorder.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The EasydmarcOrder API from Openprovider — 5 operation(s) for easydmarcorder.
   name: Openprovider EasydmarcOrder API
   slug: openprovider-easydmarcorder-api
-- description: The Email API from Openprovider — 2 operation(s) for email.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Email API from Openprovider — 2 operation(s) for email.
   name: Openprovider Email API
   slug: openprovider-email-api
-- description: The EmailVerification API from Openprovider — 3 operation(s) for emailverification.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The EmailVerification API from Openprovider — 3 operation(s) for emailverification.
   name: Openprovider EmailVerification API
   slug: openprovider-emailverification-api
-- description: The InvoiceService API from Openprovider — 1 operation(s) for invoiceservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The InvoiceService API from Openprovider — 1 operation(s) for invoiceservice.
   name: Openprovider InvoiceService API
   slug: openprovider-invoiceservice-api
-- description: The LicenseService API from Openprovider — 9 operation(s) for licenseservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The LicenseService API from Openprovider — 9 operation(s) for licenseservice.
   name: Openprovider LicenseService API
   slug: openprovider-licenseservice-api
-- description: The NameserverService API from Openprovider — 2 operation(s) for nameserverservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The NameserverService API from Openprovider — 2 operation(s) for nameserverservice.
   name: Openprovider NameserverService API
   slug: openprovider-nameserverservice-api
-- description: The NsGroupService API from Openprovider — 2 operation(s) for nsgroupservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The NsGroupService API from Openprovider — 2 operation(s) for nsgroupservice.
   name: Openprovider NsGroupService API
   slug: openprovider-nsgroupservice-api
-- description: The Order API from Openprovider — 5 operation(s) for order.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Order API from Openprovider — 5 operation(s) for order.
   name: Openprovider Order API
   slug: openprovider-order-api
-- description: The OrderApproverEmail API from Openprovider — 2 operation(s) for orderapproveremail.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The OrderApproverEmail API from Openprovider — 2 operation(s) for orderapproveremail.
   name: Openprovider OrderApproverEmail API
   slug: openprovider-orderapproveremail-api
-- description: The OtpToken API from Openprovider — 1 operation(s) for otptoken.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The OtpToken API from Openprovider — 1 operation(s) for otptoken.
   name: Openprovider OtpToken API
   slug: openprovider-otptoken-api
-- description: The Payment API from Openprovider — 1 operation(s) for payment.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Payment API from Openprovider — 1 operation(s) for payment.
   name: Openprovider Payment API
   slug: openprovider-payment-api
-- description: The Product API from Openprovider — 2 operation(s) for product.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Product API from Openprovider — 2 operation(s) for product.
   name: Openprovider Product API
   slug: openprovider-product-api
-- description: The ResellerService API from Openprovider — 2 operation(s) for resellerservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The ResellerService API from Openprovider — 2 operation(s) for resellerservice.
   name: Openprovider ResellerService API
   slug: openprovider-resellerservice-api
-- description: The SEDomain API from Openprovider — 2 operation(s) for sedomain.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The SEDomain API from Openprovider — 2 operation(s) for sedomain.
   name: Openprovider SEDomain API
   slug: openprovider-sedomain-api
-- description: The Settings API from Openprovider — 1 operation(s) for settings.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Settings API from Openprovider — 1 operation(s) for settings.
   name: Openprovider Settings API
   slug: openprovider-settings-api
-- description: The SpamExpert API from Openprovider — 1 operation(s) for spamexpert.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The SpamExpert API from Openprovider — 1 operation(s) for spamexpert.
   name: Openprovider SpamExpert API
   slug: openprovider-spamexpert-api
-- description: The Statistics API from Openprovider — 1 operation(s) for statistics.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Statistics API from Openprovider — 1 operation(s) for statistics.
   name: Openprovider Statistics API
   slug: openprovider-statistics-api
-- description: The TagService API from Openprovider — 1 operation(s) for tagservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The TagService API from Openprovider — 1 operation(s) for tagservice.
   name: Openprovider TagService API
   slug: openprovider-tagservice-api
-- description: The TemplateService API from Openprovider — 2 operation(s) for templateservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The TemplateService API from Openprovider — 2 operation(s) for templateservice.
   name: Openprovider TemplateService API
   slug: openprovider-templateservice-api
-- description: The TldService API from Openprovider — 2 operation(s) for tldservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The TldService API from Openprovider — 2 operation(s) for tldservice.
   name: Openprovider TldService API
   slug: openprovider-tldservice-api
-- description: The Transaction API from Openprovider — 1 operation(s) for transaction.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Transaction API from Openprovider — 1 operation(s) for transaction.
   name: Openprovider Transaction API
   slug: openprovider-transaction-api
-- description: The ZoneRecordService API from Openprovider — 1 operation(s) for zonerecordservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The ZoneRecordService API from Openprovider — 1 operation(s) for zonerecordservice.
   name: Openprovider ZoneRecordService API
   slug: openprovider-zonerecordservice-api
-- description: The ZoneService API from Openprovider — 2 operation(s) for zoneservice.
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The ZoneService API from Openprovider — 2 operation(s) for zoneservice.
   name: Openprovider ZoneService API
   slug: openprovider-zoneservice-api
 artifact_total: 78
@@ -364,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/screenshots/openprovider-2026-06-20T191025.png
 security:

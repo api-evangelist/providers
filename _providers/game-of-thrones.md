@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Books from the A Song of Ice and Fire series
+- baseURL: https://www.anapioficeandfire.com/api
+  baseurl_source: declared
+  description: Books from the A Song of Ice and Fire series
   name: An API of Ice and Fire books API
   slug: game-of-thrones-books-api
-- description: Characters from A Song of Ice and Fire and Game of Thrones
+- baseURL: https://www.anapioficeandfire.com/api
+  baseurl_source: declared
+  description: Characters from A Song of Ice and Fire and Game of Thrones
   name: An API of Ice and Fire characters API
   slug: game-of-thrones-characters-api
-- description: Noble houses from the A Song of Ice and Fire universe
+- baseURL: https://www.anapioficeandfire.com/api
+  baseurl_source: declared
+  description: Noble houses from the A Song of Ice and Fire universe
   name: An API of Ice and Fire houses API
   slug: game-of-thrones-houses-api
 artifact_total: 20
@@ -201,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/screenshots/game-of-thrones-2026-06-20T181637.png
 security:

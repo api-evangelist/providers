@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: MBrace Therapeutics Discovery API
   slug: mbrace-therapeutics-discovery-api
-- description: Media library (224 attachments at harvest time).
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Media library (224 attachments at harvest time).
   name: MBrace Therapeutics Media API
   slug: mbrace-therapeutics-media-api
-- description: Company news archive — press releases, scientific presentations and publications (8 published at harvest time, spanning November 2023 through July 2025).
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Company news archive — press releases, scientific presentations and publications (8 published at harvest time, spanning November 2023 through July 2025).
   name: MBrace Therapeutics News API
   slug: mbrace-therapeutics-news-api
-- description: oEmbed 1.0 provider endpoint for mbracetrx.com URLs.
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for mbracetrx.com URLs.
   name: MBrace Therapeutics Oembed API
   slug: mbrace-therapeutics-oembed-api
-- description: Corporate site pages (12 published at harvest time).
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Corporate site pages (12 published at harvest time).
   name: MBrace Therapeutics Pages API
   slug: mbrace-therapeutics-pages-api
-- description: 'The five company-specific custom post types MBrace Therapeutics registered for its own governance and backer disclosures: board members, executive committee, founders, investors and the scientific adv'
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: 'The five company-specific custom post types MBrace Therapeutics registered for its own governance and backer disclosures: board members, executive committee, founders, investors and the scientific adv'
   name: MBrace Therapeutics People API
   slug: mbrace-therapeutics-people-api
-- description: Cross-content search across every published object on the deployment (76 searchable objects at harvest time).
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across every published object on the deployment (76 searchable objects at harvest time).
   name: MBrace Therapeutics Search API
   slug: mbrace-therapeutics-search-api
-- description: Category and tag terms. Four categories are registered; the post_tag taxonomy is registered but empty.
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Category and tag terms. Four categories are registered; the post_tag taxonomy is registered but empty.
   name: MBrace Therapeutics Taxonomy API
   slug: mbrace-therapeutics-taxonomy-api
-- description: Post authors exposed by the users collection (3 at harvest time).
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: Post authors exposed by the users collection (3 at harvest time).
   name: MBrace Therapeutics Users API
   slug: mbrace-therapeutics-users-api
 artifact_total: 13
@@ -193,7 +223,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +254,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mbrace-therapeutics/refs/heads/main/screenshots/mbrace-therapeutics-2026-09-02T150447.png
 security:
 - kind: authentication
   name: Mbrace Therapeutics Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 49 operations · 22 acting
 api_count: 1
 apis:
-- description: The Account Debits API from AZA Finance — 1 operation(s) for account debits.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Account Debits API from AZA Finance — 1 operation(s) for account debits.
   name: AZA Finance Account Debits API
   slug: aza-finance-account-debits-api
-- description: The Account Validation API from AZA Finance — 1 operation(s) for account validation.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Account Validation API from AZA Finance — 1 operation(s) for account validation.
   name: AZA Finance Account Validation API
   slug: aza-finance-account-validation-api
-- description: The Accounts API from AZA Finance — 2 operation(s) for accounts.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Accounts API from AZA Finance — 2 operation(s) for accounts.
   name: AZA Finance Accounts API
   slug: aza-finance-accounts-api
-- description: The API Logs API from AZA Finance — 2 operation(s) for api logs.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The API Logs API from AZA Finance — 2 operation(s) for api logs.
   name: AZA Finance API Logs API
   slug: aza-finance-api-logs-api
-- description: The Currency Info API from AZA Finance — 3 operation(s) for currency info.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Currency Info API from AZA Finance — 3 operation(s) for currency info.
   name: AZA Finance Currency Info API
   slug: aza-finance-currency-info-api
-- description: The dlocal balance API from AZA Finance — 1 operation(s) for dlocal balance.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The dlocal balance API from AZA Finance — 1 operation(s) for dlocal balance.
   name: AZA Finance dlocal balance API
   slug: aza-finance-dlocal-balance-api
-- description: The Documents API from AZA Finance — 2 operation(s) for documents.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Documents API from AZA Finance — 2 operation(s) for documents.
   name: AZA Finance Documents API
   slug: aza-finance-documents-api
-- description: The Logs API from AZA Finance — 2 operation(s) for logs.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Logs API from AZA Finance — 2 operation(s) for logs.
   name: AZA Finance Logs API
   slug: aza-finance-logs-api
-- description: The Mandates API from AZA Finance — 1 operation(s) for mandates.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Mandates API from AZA Finance — 1 operation(s) for mandates.
   name: AZA Finance Mandates API
   slug: aza-finance-mandates-api
-- description: The Payin Methods API from AZA Finance — 2 operation(s) for payin methods.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Payin Methods API from AZA Finance — 2 operation(s) for payin methods.
   name: AZA Finance Payin Methods API
   slug: aza-finance-payin-methods-api
-- description: The Payment Methods API from AZA Finance — 2 operation(s) for payment methods.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Payment Methods API from AZA Finance — 2 operation(s) for payment methods.
   name: AZA Finance Payment Methods API
   slug: aza-finance-payment-methods-api
-- description: The Payout Methods API from AZA Finance — 2 operation(s) for payout methods.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Payout Methods API from AZA Finance — 2 operation(s) for payout methods.
   name: AZA Finance Payout Methods API
   slug: aza-finance-payout-methods-api
-- description: The Recipients API from AZA Finance — 3 operation(s) for recipients.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Recipients API from AZA Finance — 3 operation(s) for recipients.
   name: AZA Finance Recipients API
   slug: aza-finance-recipients-api
-- description: The Senders API from AZA Finance — 2 operation(s) for senders.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Senders API from AZA Finance — 2 operation(s) for senders.
   name: AZA Finance Senders API
   slug: aza-finance-senders-api
-- description: The Transactions API from AZA Finance — 7 operation(s) for transactions.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Transactions API from AZA Finance — 7 operation(s) for transactions.
   name: AZA Finance Transactions API
   slug: aza-finance-transactions-api
-- description: The Webhooks API from AZA Finance — 3 operation(s) for webhooks.
+- baseURL: https://api.transferzero.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from AZA Finance — 3 operation(s) for webhooks.
   name: AZA Finance Webhooks API
   slug: aza-finance-webhooks-api
 arazzos:
@@ -293,7 +325,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -303,7 +335,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +353,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:

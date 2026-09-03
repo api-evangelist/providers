@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Job openings custom post type.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: Job openings custom post type.
   name: Ascend Advanced Therapies Careers API
   slug: ascend-advanced-therapies-careers-api
-- description: Site, content-type, and taxonomy metadata.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: Site, content-type, and taxonomy metadata.
   name: Ascend Advanced Therapies Discovery API
   slug: ascend-advanced-therapies-discovery-api
-- description: Media library attachments.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: Media library attachments.
   name: Ascend Advanced Therapies Media API
   slug: ascend-advanced-therapies-media-api
-- description: oEmbed discovery for site URLs.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: oEmbed discovery for site URLs.
   name: Ascend Advanced Therapies oEmbed API
   slug: ascend-advanced-therapies-oembed-api
-- description: Static site pages.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: Static site pages.
   name: Ascend Advanced Therapies Pages API
   slug: ascend-advanced-therapies-pages-api
-- description: News & Insights articles, blogs, and webinar entries.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: News & Insights articles, blogs, and webinar entries.
   name: Ascend Advanced Therapies Posts API
   slug: ascend-advanced-therapies-posts-api
-- description: Cross-content site search.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: Cross-content site search.
   name: Ascend Advanced Therapies Search API
   slug: ascend-advanced-therapies-search-api
-- description: Categories and tags.
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags.
   name: Ascend Advanced Therapies Taxonomy API
   slug: ascend-advanced-therapies-taxonomy-api
 artifact_total: 20
@@ -211,7 +227,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:

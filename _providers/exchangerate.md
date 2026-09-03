@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: API quota and account information
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: API quota and account information
   name: ExchangeRate-API Account API
   slug: exchangerate-account-api
-- description: Supported currency codes and metadata
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Supported currency codes and metadata
   name: ExchangeRate-API Currencies API
   slug: exchangerate-currencies-api
-- description: Real-time and historical currency exchange rate endpoints
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Real-time and historical currency exchange rate endpoints
   name: ExchangeRate-API Exchange Rates API
   slug: exchangerate-exchange-rates-api
 artifact_total: 20
@@ -208,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate/refs/heads/main/screenshots/exchangerate-2026-06-20T180922.png
 security:

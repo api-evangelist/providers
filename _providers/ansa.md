@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 53 operations · 34 acting
 api_count: 1
 apis:
-- description: The Add Incentive API from Ansa — 1 operation(s) for add incentive.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Add Incentive API from Ansa — 1 operation(s) for add incentive.
   name: Ansa Add Incentive API
   slug: ansa-add-incentive-api
-- description: The Customer Segments API from Ansa — 3 operation(s) for customer segments.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Customer Segments API from Ansa — 3 operation(s) for customer segments.
   name: Ansa Customer Segments API
   slug: ansa-customer-segments-api
-- description: The Customers API from Ansa — 19 operation(s) for customers.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Customers API from Ansa — 19 operation(s) for customers.
   name: Ansa Customers API
   slug: ansa-customers-api
-- description: The Initialize Payment Session API from Ansa — 1 operation(s) for initialize payment session.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Initialize Payment Session API from Ansa — 1 operation(s) for initialize payment session.
   name: Ansa Initialize Payment Session API
   slug: ansa-initialize-payment-session-api
-- description: The Merchants API from Ansa — 10 operation(s) for merchants.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Merchants API from Ansa — 10 operation(s) for merchants.
   name: Ansa Merchants API
   slug: ansa-merchants-api
-- description: The Refunds API from Ansa — 3 operation(s) for refunds.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Refunds API from Ansa — 3 operation(s) for refunds.
   name: Ansa Refunds API
   slug: ansa-refunds-api
-- description: The Transactions API from Ansa — 3 operation(s) for transactions.
+- baseURL: https://api.getansa.com
+  baseurl_source: declared
+  description: The Transactions API from Ansa — 3 operation(s) for transactions.
   name: Ansa Transactions API
   slug: ansa-transactions-api
 artifact_total: 21
@@ -251,7 +265,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -261,7 +275,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 51.9
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,7 +293,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
 security:

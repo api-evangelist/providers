@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: SOAP-based web services API for system-to-system integration with SAP Business ByDesign. Provides access to business processes including financials, procurement, supply chain, CRM, and HR through stan
   name: SAP Business ByDesign SOAP Web Services
   slug: soap-web-services
-- description: Access pre-processed analytical data, reports, and KPIs from Business ByDesign data sources.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Access pre-processed analytical data, reports, and KPIs from Business ByDesign data sources.
   name: SAP Business ByDesign Analytics API
   slug: sap-bydesign-analytics-api
-- description: Manage leads, opportunities, and customer relationship data.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Manage leads, opportunities, and customer relationship data.
   name: SAP Business ByDesign CRM API
   slug: sap-bydesign-crm-api
-- description: Access payments, bank statements, house bank accounts, and financial documents.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Access payments, bank statements, house bank accounts, and financial documents.
   name: SAP Business ByDesign Financials API
   slug: sap-bydesign-financials-api
-- description: Access and manage organizational structures, materials, service products, customers, suppliers, employees, and other master data objects.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Access and manage organizational structures, materials, service products, customers, suppliers, employees, and other master data objects.
   name: SAP Business ByDesign Master Data API
   slug: sap-bydesign-master-data-api
-- description: Access purchase orders, supplier invoices, and procurement-related business objects.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Access purchase orders, supplier invoices, and procurement-related business objects.
   name: SAP Business ByDesign Procurement API
   slug: sap-bydesign-procurement-api
-- description: Read and manage project data.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Read and manage project data.
   name: SAP Business ByDesign Projects API
   slug: sap-bydesign-projects-api
-- description: Manage sales quotes, sales orders, customer invoices, customer returns, and related sales processes.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Manage sales quotes, sales orders, customer invoices, customer returns, and related sales processes.
   name: SAP Business ByDesign Sales API
   slug: sap-bydesign-sales-api
-- description: Manage inbound and outbound deliveries, goods receipts, goods issues, and production orders.
+- baseURL: https://{tenant}.bydesign.cloud.sap/sap/byd/odata/v1
+  baseurl_source: declared
+  description: Manage inbound and outbound deliveries, goods receipts, goods issues, and production orders.
   name: SAP Business ByDesign Supply Chain API
   slug: sap-bydesign-supply-chain-api
 artifact_total: 29
@@ -240,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/screenshots/sap-bydesign-2026-06-20T193421.png
 security:

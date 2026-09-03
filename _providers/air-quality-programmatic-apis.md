@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: The Air Quality Programmatic APIs Real Time Air Quality Tile API API from Air Quality Programmatic APIs — 1 operation(s) for air quality programmatic apis real time air quality tile api.
+- baseURL: https://tiles.aqicn.org/tiles
+  baseurl_source: spec
+  description: The Air Quality Programmatic APIs Real Time Air Quality Tile API API from Air Quality Programmatic APIs — 1 operation(s) for air quality programmatic apis real time air quality tile api.
   name: Air Quality Programmatic APIs Air Quality Programmatic APIs Real Time Air Quality Tile API API
   slug: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
-- description: The Stations API from Air Quality Programmatic APIs — 5 operation(s) for stations.
+- baseURL: https://api.waqi.info
+  baseurl_source: spec
+  description: The Stations API from Air Quality Programmatic APIs — 5 operation(s) for stations.
   name: Air Quality Programmatic APIs Stations API
   slug: air-quality-programmatic-apis-stations-api
 artifact_total: 60
@@ -296,7 +300,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -306,7 +310,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 41.4
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -321,8 +325,8 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/screenshots/air-quality-programmatic-apis-2026-06-20T171420.png
 security:
 - kind: authentication

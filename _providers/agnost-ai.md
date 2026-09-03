@@ -34,49 +34,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Alert configuration and monitoring
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Alert configuration and monitoring
   name: Agnost AI Alerts API
   slug: agnost-ai-alerts-api
-- description: API key management
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: API key management
   name: Agnost AI API Keys API
   slug: agnost-ai-api-keys-api
-- description: OAuth authentication callbacks
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: OAuth authentication callbacks
   name: Agnost AI Auth API
   slug: agnost-ai-auth-api
-- description: Stripe billing management
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Stripe billing management
   name: Agnost AI Billing API
   slug: agnost-ai-billing-api
-- description: LLM-based classification operations
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: LLM-based classification operations
   name: Agnost AI Classification API
   slug: agnost-ai-classification-api
-- description: External integrations (Slack)
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: External integrations (Slack)
   name: Agnost AI Connections API
   slug: agnost-ai-connections-api
-- description: Conversation message and span retrieval
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Conversation message and span retrieval
   name: Agnost AI Conversations API
   slug: agnost-ai-conversations-api
-- description: Analytics and metrics for the dashboard
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Analytics and metrics for the dashboard
   name: Agnost AI Dashboard API
   slug: agnost-ai-dashboard-api
-- description: First-run helpers used during organization setup
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: First-run helpers used during organization setup
   name: Agnost AI Onboarding API
   slug: agnost-ai-onboarding-api
-- description: Organization management
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Organization management
   name: Agnost AI Organizations API
   slug: agnost-ai-organizations-api
-- description: Event ingestion endpoints used by SDKs
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Event ingestion endpoints used by SDKs
   name: Agnost AI SDK API
   slug: agnost-ai-sdk-api
-- description: Sentiment and intent analysis
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Sentiment and intent analysis
   name: Agnost AI Sentiments API
   slug: agnost-ai-sentiments-api
-- description: Standard Operating Procedures
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Standard Operating Procedures
   name: Agnost AI SOPs API
   slug: agnost-ai-sops-api
-- description: Health checks, webhooks, internal endpoints
+- baseURL: https://api.agnost.ai
+  baseurl_source: declared
+  description: Health checks, webhooks, internal endpoints
   name: Agnost AI System API
   slug: agnost-ai-system-api
 artifact_total: 35
@@ -309,7 +337,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/screenshots/agnost-ai-2026-07-25T195316.png
 security:

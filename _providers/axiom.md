@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 88 operations · 52 acting
 api_count: 15
 apis:
-- description: The Annotations API from Axiom — 2 operation(s) for annotations.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Annotations API from Axiom — 2 operation(s) for annotations.
   name: Axiom Annotations API
   slug: axiom-annotations-api
-- description: The Dashboards API from Axiom — 2 operation(s) for dashboards.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Dashboards API from Axiom — 2 operation(s) for dashboards.
   name: Axiom Dashboards API
   slug: axiom-dashboards-api
-- description: The Datasets API from Axiom — 15 operation(s) for datasets.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Datasets API from Axiom — 15 operation(s) for datasets.
   name: Axiom Datasets API
   slug: axiom-datasets-api
-- description: The Edge API from Axiom — 3 operation(s) for edge.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Edge API from Axiom — 3 operation(s) for edge.
   name: Axiom Edge API
   slug: axiom-edge-api
-- description: The Groups API from Axiom — 2 operation(s) for groups.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Groups API from Axiom — 2 operation(s) for groups.
   name: Axiom Groups API
   slug: axiom-groups-api
-- description: The Mapfields API from Axiom — 1 operation(s) for mapfields.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Mapfields API from Axiom — 1 operation(s) for mapfields.
   name: Axiom Mapfields API
   slug: axiom-mapfields-api
-- description: The Monitors API from Axiom — 3 operation(s) for monitors.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Monitors API from Axiom — 3 operation(s) for monitors.
   name: Axiom Monitors API
   slug: axiom-monitors-api
-- description: The Notifiers API from Axiom — 2 operation(s) for notifiers.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Notifiers API from Axiom — 2 operation(s) for notifiers.
   name: Axiom Notifiers API
   slug: axiom-notifiers-api
-- description: The Orgs API from Axiom — 3 operation(s) for orgs.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Orgs API from Axiom — 3 operation(s) for orgs.
   name: Axiom Orgs API
   slug: axiom-orgs-api
-- description: The Roles API from Axiom — 2 operation(s) for roles.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Roles API from Axiom — 2 operation(s) for roles.
   name: Axiom Roles API
   slug: axiom-roles-api
-- description: The Starred API from Axiom — 2 operation(s) for starred.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Starred API from Axiom — 2 operation(s) for starred.
   name: Axiom Starred API
   slug: axiom-starred-api
-- description: The Tokens API from Axiom — 2 operation(s) for tokens.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Tokens API from Axiom — 2 operation(s) for tokens.
   name: Axiom Tokens API
   slug: axiom-tokens-api
-- description: The Users API from Axiom — 4 operation(s) for users.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Users API from Axiom — 4 operation(s) for users.
   name: Axiom Users API
   slug: axiom-users-api
-- description: The Views API from Axiom — 2 operation(s) for views.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Views API from Axiom — 2 operation(s) for views.
   name: Axiom Views API
   slug: axiom-views-api
-- description: The Virtualfields API from Axiom — 2 operation(s) for virtualfields.
+- baseURL: https://api.axiom.co
+  baseurl_source: declared
+  description: The Virtualfields API from Axiom — 2 operation(s) for virtualfields.
   name: Axiom Virtualfields API
   slug: axiom-virtualfields-api
 artifact_total: 65
@@ -286,7 +316,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -296,7 +326,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 45.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -305,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/screenshots/axiom-2026-06-20T172818.png
 security:

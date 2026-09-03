@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Prizeout partner integration surface. A partner loads the first-party JavaScript publisher SDK (prizeout-publisher-sdk.js), or the native iOS/Android SDK, and passes partner credentials plus a use
@@ -163,11 +176,11 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -177,7 +190,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.0
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -188,8 +201,9 @@ score:
     regime_id: banking_open_finance
     score: 46.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prizeout/refs/heads/main/screenshots/prizeout-2026-09-02T152054.png
 security:
 - kind: authentication
   name: Prizeout Authentication

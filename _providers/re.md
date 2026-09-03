@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Health, APY, NAV, and price series
+- baseURL: https://api.re.xyz
+  baseurl_source: declared
+  description: Health, APY, NAV, and price series
   name: Re General API
   slug: re-general-api
-- description: Re Points leaderboard and opportunities
+- baseURL: https://api.re.xyz
+  baseurl_source: declared
+  description: Re Points leaderboard and opportunities
   name: Re Points API
   slug: re-points-api
-- description: Token supply metrics
+- baseURL: https://api.re.xyz
+  baseurl_source: declared
+  description: Token supply metrics
   name: Re Supply API
   slug: re-supply-api
-- description: Total value locked and capital metrics
+- baseURL: https://api.re.xyz
+  baseurl_source: declared
+  description: Total value locked and capital metrics
   name: Re TVL API
   slug: re-tvl-api
-- description: Per-wallet balances and points
+- baseURL: https://api.re.xyz
+  baseurl_source: declared
+  description: Per-wallet balances and points
   name: Re Wallet API
   slug: re-wallet-api
 artifact_total: 14
@@ -189,7 +199,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +230,9 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/re/refs/heads/main/screenshots/re-2026-09-02T152938.png
 security:
 - kind: authentication
   name: Re Authentication

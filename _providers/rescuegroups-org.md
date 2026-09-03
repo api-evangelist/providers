@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 12 operations · 3 acting
 api_count: 1
 apis:
-- description: Search and retrieve adoptable animal records.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Search and retrieve adoptable animal records.
   name: RescueGroups.org Animals API
   slug: rescuegroups-org-animals-api
-- description: Obtain bearer tokens for authenticated access.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Obtain bearer tokens for authenticated access.
   name: RescueGroups.org Authentication API
   slug: rescuegroups-org-authentication-api
-- description: Retrieve animal breed reference data.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Retrieve animal breed reference data.
   name: RescueGroups.org Breeds API
   slug: rescuegroups-org-breeds-api
-- description: Retrieve animal color reference data.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Retrieve animal color reference data.
   name: RescueGroups.org Colors API
   slug: rescuegroups-org-colors-api
-- description: Search and retrieve rescue organization records.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Search and retrieve rescue organization records.
   name: RescueGroups.org Organizations API
   slug: rescuegroups-org-organizations-api
-- description: Retrieve animal pattern reference data.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Retrieve animal pattern reference data.
   name: RescueGroups.org Patterns API
   slug: rescuegroups-org-patterns-api
-- description: Manage organization pet lists.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Manage organization pet lists.
   name: RescueGroups.org Pet Lists API
   slug: rescuegroups-org-pet-lists-api
-- description: Retrieve animal species reference data.
+- baseURL: https://api.rescuegroups.org/v5
+  baseurl_source: declared
+  description: Retrieve animal species reference data.
   name: RescueGroups.org Species API
   slug: rescuegroups-org-species-api
 artifact_total: 31
@@ -241,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/screenshots/rescuegroups-org-2026-06-20T192931.png
 security:

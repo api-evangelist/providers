@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: RESTful API for managing Spanning Backup for Microsoft 365. Region-specific endpoints (US, EU, AP, CA, UK) for user license management and data export operations. Authentication uses API tokens obtain
   name: Spanning Backup for Microsoft 365 API
   slug: spanning-microsoft365-api
-- description: Data export management operations
+- baseURL: https://api.spanningbackup.com
+  baseurl_source: declared
+  description: Data export management operations
   name: Spanning Exports API
   slug: spanning-exports-api
-- description: Shared drive backup and export operations
+- baseURL: https://api.spanningbackup.com
+  baseurl_source: declared
+  description: Shared drive backup and export operations
   name: Spanning Shared Drives API
   slug: spanning-shared-drives-api
-- description: User backup license management operations
+- baseURL: https://api.spanningbackup.com
+  baseurl_source: declared
+  description: User backup license management operations
   name: Spanning Users API
   slug: spanning-users-api
 artifact_total: 21
@@ -218,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/screenshots/spanning-2026-06-20T194245.png
 security:

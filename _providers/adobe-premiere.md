@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Adobe Premiere Pro extension APIs using UXP (Unified Extensibility Platform) and CEP (Common Extensibility Platform) for building plugins and panels that automate video editing workflows, add custom e
   name: Adobe Premiere Pro API
   slug: adobe-premiere-pro-api
-- description: Manage library elements (colors, graphics, fonts, etc.)
+- baseURL: https://cc-libraries.adobe.io
+  baseurl_source: declared
+  description: Manage library elements (colors, graphics, fonts, etc.)
   name: Adobe Premiere Pro Elements API
   slug: adobe-premiere-elements-api
-- description: Manage Creative Cloud Libraries
+- baseURL: https://cc-libraries.adobe.io
+  baseurl_source: declared
+  description: Manage Creative Cloud Libraries
   name: Adobe Premiere Pro Libraries API
   slug: adobe-premiere-libraries-api
-- description: Manage element representations and renditions
+- baseURL: https://cc-libraries.adobe.io
+  baseurl_source: declared
+  description: Manage element representations and renditions
   name: Adobe Premiere Pro Representations API
   slug: adobe-premiere-representations-api
-- description: Adobe's published REST API for Creative Cloud Libraries — the shared asset store (colors, character styles, brushes, graphics, patterns and video) that Premiere Pro panels read and write. 25 operation
+- baseURL: https://cc-libraries.adobe.io
+  baseurl_source: declared
+  description: Adobe's published REST API for Creative Cloud Libraries — the shared asset store (colors, character styles, brushes, graphics, patterns and video) that Premiere Pro panels read and write. 25 operation
   name: Adobe Creative Cloud Libraries API
   slug: adobe-creative-cloud-libraries-api
 arazzos:
@@ -497,7 +505,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -507,7 +515,7 @@ score:
     discoverability: 68.5
     governance: 47.0
     operational_transparency: 44.7
-  previous_composite: 60.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -519,7 +527,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png
 security:

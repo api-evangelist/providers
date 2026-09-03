@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The reCAPTCHA Site Verify API is the standard verification endpoint for reCAPTCHA v2 and v3 tokens. After a user completes a reCAPTCHA challenge on the frontend, the backend sends the response token t
   name: reCAPTCHA Site Verify API
   slug: recaptcha-site-verify-api
-- description: Create and annotate risk assessments
+- baseURL: https://recaptchaenterprise.googleapis.com
+  baseurl_source: declared
+  description: Create and annotate risk assessments
   name: Google reCAPTCHA Assessments API
   slug: google-recaptcha-assessments-api
-- description: Manage reCAPTCHA site keys
+- baseURL: https://recaptchaenterprise.googleapis.com
+  baseurl_source: declared
+  description: Manage reCAPTCHA site keys
   name: Google reCAPTCHA Keys API
   slug: google-recaptcha-keys-api
 artifact_total: 20
@@ -214,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/screenshots/google-recaptcha-2026-06-20T182229.png
 security:

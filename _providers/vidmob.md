@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -36,16 +48,24 @@ apis:
 - description: Hosted remote MCP server exposing Vidmob creative intelligence to AI agents — organization and ad-account structure, media-library search, creative scoring, AI-detected creative attributes, full asset
   name: Vidmob MCP Server
   slug: vidmob-mcp-server
-- description: The Media API from VidMob — 5 operation(s) for media.
+- baseURL: https://public-api.vidmob.com
+  baseurl_source: declared
+  description: The Media API from VidMob — 5 operation(s) for media.
   name: VidMob Media API
   slug: vidmob-media-api
-- description: The Organization API from VidMob — 1 operation(s) for organization.
+- baseURL: https://public-api.vidmob.com
+  baseurl_source: declared
+  description: The Organization API from VidMob — 1 operation(s) for organization.
   name: VidMob Organization API
   slug: vidmob-organization-api
-- description: The Scoring API from VidMob — 4 operation(s) for scoring.
+- baseURL: https://public-api.vidmob.com
+  baseurl_source: declared
+  description: The Scoring API from VidMob — 4 operation(s) for scoring.
   name: VidMob Scoring API
   slug: vidmob-scoring-api
-- description: The Workspaces API from VidMob — 1 operation(s) for workspaces.
+- baseURL: https://public-api.vidmob.com
+  baseurl_source: declared
+  description: The Workspaces API from VidMob — 1 operation(s) for workspaces.
   name: VidMob Workspaces API
   slug: vidmob-workspaces-api
 artifact_total: 17
@@ -246,7 +266,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/screenshots/vidmob-2026-08-17T082749.png
 security:

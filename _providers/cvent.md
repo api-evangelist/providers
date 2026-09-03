@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -71,25 +71,39 @@ apis:
 - description: The Cvent Salesforce App integrates Cvent event data with Salesforce CRM, enabling users to view events from Salesforce, invite contacts and leads, and sync attendee data bidirectionally.
   name: Cvent Salesforce App
   slug: salesforce-app
-- description: Event registrations and attendees
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event registrations and attendees
   name: Cvent Attendees API
   slug: cvent-attendees-api
-- description: Contact/address book
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Contact/address book
   name: Cvent Contacts API
   slug: cvent-contacts-api
-- description: Event lifecycle and configuration
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event lifecycle and configuration
   name: Cvent Events API
   slug: cvent-events-api
-- description: Exhibitor management
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Exhibitor management
   name: Cvent Exhibitors API
   slug: cvent-exhibitors-api
-- description: OAuth 2.0 token issuance
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance
   name: Cvent OAuth API
   slug: cvent-oauth-api
-- description: Agenda sessions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Agenda sessions
   name: Cvent Sessions API
   slug: cvent-sessions-api
-- description: Webhook subscriptions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Webhook subscriptions
   name: Cvent Webhooks API
   slug: cvent-webhooks-api
 artifact_total: 33
@@ -287,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png
 security:

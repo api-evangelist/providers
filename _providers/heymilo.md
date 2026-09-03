@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 56 operations · 20 acting
 api_count: 1
 apis:
-- description: The ATS API from HeyMilo — 4 operation(s) for ats.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: The ATS API from HeyMilo — 4 operation(s) for ats.
   name: HeyMilo ATS API
   slug: heymilo-ats-api
-- description: Ingest candidates into an interviewer's workflow (sync or async, single or bulk) and list candidates with their progress.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Ingest candidates into an interviewer's workflow (sync or async, single or bulk) and list candidates with their progress.
   name: HeyMilo Candidates API
   slug: heymilo-candidates-api
-- description: View grouped design template configurations.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: View grouped design template configurations.
   name: HeyMilo Design Template Groups API
   slug: heymilo-design-template-groups-api
-- description: View design templates that control the candidate interview UI.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: View design templates that control the candidate interview UI.
   name: HeyMilo Design Templates API
   slug: heymilo-design-templates-api
-- description: Manage custom domains for white-labelled interview URLs.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Manage custom domains for white-labelled interview URLs.
   name: HeyMilo Domains API
   slug: heymilo-domains-api
-- description: View grouped email template configurations.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: View grouped email template configurations.
   name: HeyMilo Email Template Groups API
   slug: heymilo-email-template-groups-api
-- description: View email templates configured for candidate outreach.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: View email templates configured for candidate outreach.
   name: HeyMilo Email Templates API
   slug: heymilo-email-templates-api
-- description: The Health API from HeyMilo — 1 operation(s) for health.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: The Health API from HeyMilo — 1 operation(s) for health.
   name: HeyMilo Health API
   slug: heymilo-health-api
-- description: View interview templates, reusable agent configurations cloned from a blueprint posting (workflow, questions, criteria, agent settings).
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: View interview templates, reusable agent configurations cloned from a blueprint posting (workflow, questions, criteria, agent settings).
   name: HeyMilo Interview Templates API
   slug: heymilo-interview-templates-api
-- description: Create, read, update, and manage interviewers. An interviewer (posting) combines job details with an AI agent configuration and agentic workflow.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Create, read, update, and manage interviewers. An interviewer (posting) combines job details with an AI agent configuration and agentic workflow.
   name: HeyMilo Interviewers API
   slug: heymilo-interviewers-api
-- description: Retrieve full interview results (scorecard, transcript, resume evaluation) and manage per-interview metadata.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Retrieve full interview results (scorecard, transcript, resume evaluation) and manage per-interview metadata.
   name: HeyMilo Interviews API
   slug: heymilo-interviews-api
-- description: List provisioned phone numbers for SMS and voice agents.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: List provisioned phone numbers for SMS and voice agents.
   name: HeyMilo Phone Numbers API
   slug: heymilo-phone-numbers-api
-- description: 'Create, read, update, delete, and reorder questions and criteria for an interviewer''s workflow. Covers all modalities: voice, sms, form, resume_eligibility, resume_scoring, and voice_tags.'
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: 'Create, read, update, delete, and reorder questions and criteria for an interviewer''s workflow. Covers all modalities: voice, sms, form, resume_eligibility, resume_scoring, and voice_tags.'
   name: HeyMilo Questions API
   slug: heymilo-questions-api
-- description: The Schema Discovery API from HeyMilo — 2 operation(s) for schema discovery.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: The Schema Discovery API from HeyMilo — 2 operation(s) for schema discovery.
   name: HeyMilo Schema Discovery API
   slug: heymilo-schema-discovery-api
-- description: Manage sender email addresses used for candidate communications.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Manage sender email addresses used for candidate communications.
   name: HeyMilo Sender Emails API
   slug: heymilo-sender-emails-api
-- description: Browse the workspace voice registry for AI interviewer voices.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Browse the workspace voice registry for AI interviewer voices.
   name: HeyMilo Voices API
   slug: heymilo-voices-api
-- description: Register, list, and manage webhook endpoints that receive real-time event notifications.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: Register, list, and manage webhook endpoints that receive real-time event notifications.
   name: HeyMilo Webhooks API
   slug: heymilo-webhooks-api
-- description: List the workspaces accessible to the authenticated caller. API-key callers receive a single entry; OAuth callers receive every workspace they are a member of.
+- baseURL: https://api.heymilo.ai
+  baseurl_source: declared
+  description: List the workspaces accessible to the authenticated caller. API-key callers receive a single entry; OAuth callers receive every workspace they are a member of.
   name: HeyMilo Workspaces API
   slug: heymilo-workspaces-api
 artifact_total: 44
@@ -323,7 +359,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -333,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 50.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/screenshots/heymilo-2026-07-25T221122.png
 security:

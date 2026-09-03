@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 2
 apis:
-- description: Product catalog operations
+- baseURL: https://api.ingrammicro.com
+  baseurl_source: declared
+  description: Product catalog operations
   name: ingram-micro Catalog API
   slug: ingram-micro-catalog-api
-- description: Inventory management operations
+- baseURL: https://api.ingrammicro.com
+  baseurl_source: declared
+  description: Inventory management operations
   name: ingram-micro Inventory API
   slug: ingram-micro-inventory-api
-- description: Order management operations
+- baseURL: https://api.ingrammicro.com
+  baseurl_source: declared
+  description: Order management operations
   name: ingram-micro Orders API
   slug: ingram-micro-orders-api
-- description: Pricing and availability operations
+- baseURL: https://api.ingrammicro.com
+  baseurl_source: declared
+  description: Pricing and availability operations
   name: ingram-micro Pricing API
   slug: ingram-micro-pricing-api
-- description: Shipment tracking operations
+- baseURL: https://api.ingrammicro.com
+  baseurl_source: declared
+  description: Shipment tracking operations
   name: ingram-micro Shipments API
   slug: ingram-micro-shipments-api
 artifact_total: 18
@@ -109,10 +119,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ingram-micro.png
 layout: provider
 modified: '2026-05-19'
-name: ingram-micro
+name: Ingram Micro
 nav: Providers
 network: true
-overview: ingram-micro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Inventory API, Orders API, and 2 more. Tagged areas include Fortune 100.
+overview: Ingram Micro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ingram-micro Catalog API, ingram-micro Inventory API, ingram-micro Orders API, and 2 more. Tagged areas include Fortune 100.
 plans:
 - name: Ingram Micro Plans Pricing
   plan_count: 3
@@ -165,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/screenshots/ingram-micro-2026-06-20T183355.png
 security:

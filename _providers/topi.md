@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 31 operations · 20 acting
 api_count: 1
 apis:
-- description: Topi catalog for sellers
+- baseURL: https://seller-api.topi.eu
+  baseurl_source: declared
+  description: Topi catalog for sellers
   name: Topi catalog API
   slug: topi-catalog-api
-- description: 'Provides operations to handle offers for end-customers. ## Webhooks ### OfferUpdates We will ping the URL provided whenever an offer has changed its status to: `"accepted"`, `"declined"`, `"voided"`, '
+- baseURL: https://seller-api.topi.eu
+  baseurl_source: declared
+  description: 'Provides operations to handle offers for end-customers. ## Webhooks ### OfferUpdates We will ping the URL provided whenever an offer has changed its status to: `"accepted"`, `"declined"`, `"voided"`, '
   name: Topi offer API
   slug: topi-offer-api
-- description: 'Provides operations to handle orders for end-customers. ## Webhooks We will ping the URL provided whenever an order has changed its status to: `"created"`, `"completed"`, or `"canceled"`. **Payload**:'
+- baseURL: https://seller-api.topi.eu
+  baseurl_source: declared
+  description: 'Provides operations to handle orders for end-customers. ## Webhooks We will ping the URL provided whenever an order has changed its status to: `"created"`, `"completed"`, or `"canceled"`. **Payload**:'
   name: Topi order API
   slug: topi-order-api
-- description: '#### Assets without serial numbers Some assets might not have a serial number (e.g. accessories). In order to send them with the shipment, explicitly pass an empty string `""` as the `serial_number` f'
+- baseURL: https://seller-api.topi.eu
+  baseurl_source: declared
+  description: '#### Assets without serial numbers Some assets might not have a serial number (e.g. accessories). In order to send them with the shipment, explicitly pass an empty string `""` as the `serial_number` f'
   name: Topi shipment API
   slug: topi-shipment-api
-- description: Provides operations to handle shipping-related tasks.
+- baseURL: https://seller-api.topi.eu
+  baseurl_source: declared
+  description: Provides operations to handle shipping-related tasks.
   name: Topi shippingMethod API
   slug: topi-shippingmethod-api
 artifact_total: 17
@@ -212,7 +222,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -222,7 +232,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,7 +250,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png
 security:

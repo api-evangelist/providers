@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 4
 apis:
-- description: Search the database of food and restaurant brands.
+- baseURL: https://trackapi.nutritionix.com/v2
+  baseurl_source: declared
+  description: Search the database of food and restaurant brands.
   name: Nutritionix Brands API
   slug: nutritionix-brands-api
-- description: Look up detailed nutrition for branded and restaurant menu items.
+- baseURL: https://trackapi.nutritionix.com/v2
+  baseurl_source: declared
+  description: Look up detailed nutrition for branded and restaurant menu items.
   name: Nutritionix Item API
   slug: nutritionix-item-api
-- description: Translate plain-text food and exercise phrases into structured nutrition data.
+- baseURL: https://trackapi.nutritionix.com/v2
+  baseurl_source: declared
+  description: Translate plain-text food and exercise phrases into structured nutrition data.
   name: Nutritionix Natural Language API
   slug: nutritionix-natural-language-api
-- description: Search the nutrition database for common and branded foods.
+- baseURL: https://trackapi.nutritionix.com/v2
+  baseurl_source: declared
+  description: Search the nutrition database for common and branded foods.
   name: Nutritionix Search API
   slug: nutritionix-search-api
 artifact_total: 75
@@ -402,7 +410,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/screenshots/nutritionix-2026-06-20T190531.png
 security:

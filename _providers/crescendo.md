@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: Model Context Protocol (MCP) endpoints.
+- baseURL: https://platform.crescendo.ai
+  baseurl_source: declared
+  description: Model Context Protocol (MCP) endpoints.
   name: Crescendo MCP API
   slug: crescendo-mcp-api
-- description: Tenant-scoped provisioning resources.
+- baseURL: https://platform.crescendo.ai
+  baseurl_source: declared
+  description: Tenant-scoped provisioning resources.
   name: Crescendo Provisioning API
   slug: crescendo-provisioning-api
-- description: Reporting-friendly exports (cursor pagination).
+- baseURL: https://platform.crescendo.ai
+  baseurl_source: declared
+  description: Reporting-friendly exports (cursor pagination).
   name: Crescendo Reporting API
   slug: crescendo-reporting-api
-- description: Service metadata and health.
+- baseURL: https://platform.crescendo.ai
+  baseurl_source: declared
+  description: Service metadata and health.
   name: Crescendo Service API
   slug: crescendo-service-api
-- description: Upload recordings for VOC processing.
+- baseURL: https://platform.crescendo.ai
+  baseurl_source: declared
+  description: Upload recordings for VOC processing.
   name: Crescendo VOC API
   slug: crescendo-voc-api
 artifact_total: 15
@@ -214,7 +224,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo/refs/heads/main/screenshots/crescendo-2026-07-25T210727.png
 security:

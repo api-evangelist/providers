@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 54 operations · 27 acting
 api_count: 1
 apis:
-- description: The Personal Access Token endpoints lets you manage personal access tokens. For more information, see [Access Tokens](https://docs.docker.com/security/access-tokens/). You can use a personal access to
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The Personal Access Token endpoints lets you manage personal access tokens. For more information, see [Access Tokens](https://docs.docker.com/security/access-tokens/). You can use a personal access to
   name: Docker Hub access-tokens API
   slug: docker-hub-access-tokens-api
-- description: The Audit Logs API endpoints allow you to query audit log events across a namespace. For more information, see [Audit Logs](https://docs.docker.com/admin/activity-logs/).
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The Audit Logs API endpoints allow you to query audit log events across a namespace. For more information, see [Audit Logs](https://docs.docker.com/admin/activity-logs/).
   name: Docker Hub audit-logs API
   slug: docker-hub-audit-logs-api
-- description: The authentication endpoints allow you to authenticate with Docker Hub APIs. For more information, see [Authentication](#tag/authentication).
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The authentication endpoints allow you to authenticate with Docker Hub APIs. For more information, see [Authentication](#tag/authentication).
   name: Docker Hub authentication-api API
   slug: docker-hub-authentication-api-api
-- description: The groups endpoints allow you to manage your organization's teams and their members. For more information, see [Create and manage a team](https://docs.docker.com/admin/organization/manage/manage-a-te
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The groups endpoints allow you to manage your organization's teams and their members. For more information, see [Create and manage a team](https://docs.docker.com/admin/organization/manage/manage-a-te
   name: Docker Hub groups API
   slug: docker-hub-groups-api
-- description: The invites endpoints allow you to manage invites for users to join your Docker organization. For more information, see [Invite members](https://docs.docker.com/admin/organization/manage/members/#invi
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The invites endpoints allow you to manage invites for users to join your Docker organization. For more information, see [Invite members](https://docs.docker.com/admin/organization/manage/members/#invi
   name: Docker Hub invites API
   slug: docker-hub-invites-api
-- description: The organization access token endpoints allow you to manage organization access tokens (OATs). See [Organization access tokens](https://docs.docker.com/security/for-admins/access-tokens/) for more inf
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The organization access token endpoints allow you to manage organization access tokens (OATs). See [Organization access tokens](https://docs.docker.com/security/for-admins/access-tokens/) for more inf
   name: Docker Hub org-access-tokens API
   slug: docker-hub-org-access-tokens-api
-- description: The Org Settings API endpoints allow you to manage your organization's settings.
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The Org Settings API endpoints allow you to manage your organization's settings.
   name: Docker Hub org-settings API
   slug: docker-hub-org-settings-api
-- description: The organization endpoints allow you to interact with and manage your organizations. For more information, see [Organization administration overview](https://docs.docker.com/admin/organization/).
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The organization endpoints allow you to interact with and manage your organizations. For more information, see [Organization administration overview](https://docs.docker.com/admin/organization/).
   name: Docker Hub orgs API
   slug: docker-hub-orgs-api
-- description: The repository endpoints allow you to access your repository's tags.
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: The repository endpoints allow you to access your repository's tags.
   name: Docker Hub repositories API
   slug: docker-hub-repositories-api
-- description: SCIM is a provisioning system that lets you manage users within your identity provider (IdP). For more information, see [System for Cross-domain Identity management](https://docs.docker.com/security/f
+- baseURL: https://hub.docker.com/v2
+  baseurl_source: declared
+  description: SCIM is a provisioning system that lets you manage users within your identity provider (IdP). For more information, see [System for Cross-domain Identity management](https://docs.docker.com/security/f
   name: Docker Hub scim API
   slug: docker-hub-scim-api
 artifact_total: 29
@@ -249,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/screenshots/docker-hub-2026-06-20T180106.png
 security:

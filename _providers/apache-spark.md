@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,10 +55,14 @@ apis:
 - description: Spark API for graphs and graph-parallel computation with a collection of graph algorithms and builders, including PageRank, Connected Components, Triangle Counting, and shortest paths.
   name: Apache Spark GraphX API
   slug: apache-spark-graphx-api
-- description: The Applications API from Apache Spark — 25 operation(s) for applications.
+- baseURL: http://localhost:4040/api/v1
+  baseurl_source: spec
+  description: The Applications API from Apache Spark — 25 operation(s) for applications.
   name: Apache Spark Applications API
   slug: apache-spark-applications-api
-- description: The Version API from Apache Spark — 1 operation(s) for version.
+- baseURL: http://localhost:4040/api/v1
+  baseurl_source: spec
+  description: The Version API from Apache Spark — 1 operation(s) for version.
   name: Apache Spark Version API
   slug: apache-spark-version-api
 artifact_total: 35
@@ -237,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/screenshots/apache-spark-2026-06-20T172146.png
 security:

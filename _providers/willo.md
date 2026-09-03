@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 25 acting
 api_count: 1
 apis:
-- description: Organisations created under a parent organisation, inheriting its properties but managed independently.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Organisations created under a parent organisation, inheriting its properties but managed independently.
   name: Willo Child Organisations API
   slug: willo-child-organisations-api
-- description: Sub-divisions of the account (shown as "Companies" in the UI), each with its own branding.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Sub-divisions of the account (shown as "Companies" in the UI), each with its own branding.
   name: Willo Departments API
   slug: willo-departments-api
-- description: Pre-built interview templates and their categories, used to create interviews quickly.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Pre-built interview templates and their categories, used to create interviews quickly.
   name: Willo Interview Templates API
   slug: willo-interview-templates-api
-- description: A named set of pre-defined questions a participant answers; typically a "job" in an ATS.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: A named set of pre-defined questions a participant answers; typically a "job" in an ATS.
   name: Willo Interviews API
   slug: willo-interviews-api
-- description: Invite, reminder, and success email/SMS templates sent to participants.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Invite, reminder, and success email/SMS templates sent to participants.
   name: Willo Message Templates API
   slug: willo-message-templates-api
-- description: Candidates invited to an interview - no download, login, or authentication required.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Candidates invited to an interview - no download, login, or authentication required.
   name: Willo Participants API
   slug: willo-participants-api
-- description: Read-only reference data - languages and IDV countries of employment.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Read-only reference data - languages and IDV countries of employment.
   name: Willo Reference API
   slug: willo-reference-api
-- description: Authenticated team members (Owner, Admin, Standard) with access to interviews and participants.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Authenticated team members (Owner, Admin, Standard) with access to interviews and participants.
   name: Willo Users API
   slug: willo-users-api
-- description: Notifications posted to a third-party endpoint on new response, stage change, new comment, or new score.
+- baseURL: https://api.willotalent.com/api/integrations/v2
+  baseurl_source: declared
+  description: Notifications posted to a third-party endpoint on new response, stage change, new comment, or new score.
   name: Willo Webhooks API
   slug: willo-webhooks-api
 artifact_total: 27
@@ -223,7 +241,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/willo/refs/heads/main/screenshots/willo-2026-08-17T082930.png
 security:

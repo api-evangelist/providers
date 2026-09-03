@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: The Balance Sheet Statement API from Financial Modeling Prep — 1 operation(s) for balance sheet statement.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Balance Sheet Statement API from Financial Modeling Prep — 1 operation(s) for balance sheet statement.
   name: Financial Modeling Prep Balance Sheet Statement API
   slug: financial-modeling-prep-balance-sheet-statement-api
-- description: The Cash Flow Statement API from Financial Modeling Prep — 1 operation(s) for cash flow statement.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Cash Flow Statement API from Financial Modeling Prep — 1 operation(s) for cash flow statement.
   name: Financial Modeling Prep Cash Flow Statement API
   slug: financial-modeling-prep-cash-flow-statement-api
-- description: The Historical Price Full API from Financial Modeling Prep — 1 operation(s) for historical price full.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Historical Price Full API from Financial Modeling Prep — 1 operation(s) for historical price full.
   name: Financial Modeling Prep Historical Price Full API
   slug: financial-modeling-prep-historical-price-full-api
-- description: The Income Statement API from Financial Modeling Prep — 1 operation(s) for income statement.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Income Statement API from Financial Modeling Prep — 1 operation(s) for income statement.
   name: Financial Modeling Prep Income Statement API
   slug: financial-modeling-prep-income-statement-api
-- description: The Insider Trading API from Financial Modeling Prep — 1 operation(s) for insider trading.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Insider Trading API from Financial Modeling Prep — 1 operation(s) for insider trading.
   name: Financial Modeling Prep Insider Trading API
   slug: financial-modeling-prep-insider-trading-api
-- description: The Profile API from Financial Modeling Prep — 1 operation(s) for profile.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Profile API from Financial Modeling Prep — 1 operation(s) for profile.
   name: Financial Modeling Prep Profile API
   slug: financial-modeling-prep-profile-api
-- description: The Quote API from Financial Modeling Prep — 1 operation(s) for quote.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Quote API from Financial Modeling Prep — 1 operation(s) for quote.
   name: Financial Modeling Prep Quote API
   slug: financial-modeling-prep-quote-api
-- description: The Ratios API from Financial Modeling Prep — 1 operation(s) for ratios.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Ratios API from Financial Modeling Prep — 1 operation(s) for ratios.
   name: Financial Modeling Prep Ratios API
   slug: financial-modeling-prep-ratios-api
-- description: The Search API from Financial Modeling Prep — 1 operation(s) for search.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Search API from Financial Modeling Prep — 1 operation(s) for search.
   name: Financial Modeling Prep Search API
   slug: financial-modeling-prep-search-api
-- description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
+- baseURL: https://financialmodelingprep.com/stable
+  baseurl_source: declared
+  description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
   name: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
 artifact_total: 50
@@ -367,7 +387,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -377,7 +397,7 @@ score:
     discoverability: 75.9
     governance: 15.9
     operational_transparency: 73.7
-  previous_composite: 67.5
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,7 +415,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/screenshots/financial-modeling-prep-2026-08-17T080057.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Decentralized on-demand GPU compute marketplace renting idle H100, H200, A100, and RTX 4090 capacity from third-party suppliers. Pricing starts at $0.50/GPU/hr (RTX 4090), $1.39-$1.49/hr (H100), up to
   name: Hyperbolic GPU Marketplace API
   slug: hyperbolic-marketplace-api
-- description: Text-to-speech audio endpoint
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: spec
+  description: Text-to-speech audio endpoint
   name: Hyperbolic Audio Generation API
   slug: hyperbolic-ai-audio-generation-api
-- description: Generate chat-style completions from open-source LLMs
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: spec
+  description: Generate chat-style completions from open-source LLMs
   name: Hyperbolic Chat Completions API
   slug: hyperbolic-ai-chat-completions-api
-- description: Legacy base-model text completion endpoint
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: spec
+  description: Legacy base-model text completion endpoint
   name: Hyperbolic Completions API
   slug: hyperbolic-ai-completions-api
-- description: Text-to-image diffusion endpoint
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: spec
+  description: Text-to-image diffusion endpoint
   name: Hyperbolic Image Generation API
   slug: hyperbolic-ai-image-generation-api
-- description: List available inference models
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: spec
+  description: List available inference models
   name: Hyperbolic Models API
   slug: hyperbolic-ai-models-api
 arazzos:
@@ -517,7 +527,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

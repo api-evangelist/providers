@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Addresses API from Havenly — 1 operation(s) for addresses.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Addresses API from Havenly — 1 operation(s) for addresses.
   name: Havenly Addresses API
   slug: havenly-addresses-api
-- description: The Attribute Types API from Havenly — 1 operation(s) for attribute types.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Attribute Types API from Havenly — 1 operation(s) for attribute types.
   name: Havenly Attribute Types API
   slug: havenly-attribute-types-api
-- description: The Authentication API from Havenly — 1 operation(s) for authentication.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Authentication API from Havenly — 1 operation(s) for authentication.
   name: Havenly Authentication API
   slug: havenly-authentication-api
-- description: The Board Feedback API from Havenly — 2 operation(s) for board feedback.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Board Feedback API from Havenly — 2 operation(s) for board feedback.
   name: Havenly Board Feedback API
   slug: havenly-board-feedback-api
-- description: The Board Feedback Questions API from Havenly — 2 operation(s) for board feedback questions.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Board Feedback Questions API from Havenly — 2 operation(s) for board feedback questions.
   name: Havenly Board Feedback Questions API
   slug: havenly-board-feedback-questions-api
-- description: The Board Products API from Havenly — 3 operation(s) for board products.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Board Products API from Havenly — 3 operation(s) for board products.
   name: Havenly Board Products API
   slug: havenly-board-products-api
-- description: The Searched Vendor Variants API from Havenly — 1 operation(s) for searched vendor variants.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Searched Vendor Variants API from Havenly — 1 operation(s) for searched vendor variants.
   name: Havenly Searched Vendor Variants API
   slug: havenly-searched-vendor-variants-api
-- description: The User Opinions API from Havenly — 2 operation(s) for user opinions.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The User Opinions API from Havenly — 2 operation(s) for user opinions.
   name: Havenly User Opinions API
   slug: havenly-user-opinions-api
-- description: The User Profile API from Havenly — 2 operation(s) for user profile.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The User Profile API from Havenly — 2 operation(s) for user profile.
   name: Havenly User Profile API
   slug: havenly-user-profile-api
-- description: The Users API from Havenly — 1 operation(s) for users.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Users API from Havenly — 1 operation(s) for users.
   name: Havenly Users API
   slug: havenly-users-api
-- description: The Vendor Variants API from Havenly — 1 operation(s) for vendor variants.
+- baseURL: https://api.havenly.com
+  baseurl_source: declared
+  description: The Vendor Variants API from Havenly — 1 operation(s) for vendor variants.
   name: Havenly Vendor Variants API
   slug: havenly-vendor-variants-api
 artifact_total: 28
@@ -233,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

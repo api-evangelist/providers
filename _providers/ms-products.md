@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,19 +71,29 @@ apis:
 - description: APIs for Xbox gaming services and social features.
   name: Xbox Live API
   slug: xbox-live-api
-- description: Outlook calendar events for the signed-in user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Outlook calendar events for the signed-in user.
   name: Microsoft Products APIs Calendar API
   slug: ms-products-calendar-api
-- description: Microsoft 365 groups and security groups.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Microsoft 365 groups and security groups.
   name: Microsoft Products APIs Groups API
   slug: ms-products-groups-api
-- description: Outlook mail messages for the signed-in user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Outlook mail messages for the signed-in user.
   name: Microsoft Products APIs Mail API
   slug: ms-products-mail-api
-- description: Operations on the signed-in user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on the signed-in user.
   name: Microsoft Products APIs Me API
   slug: ms-products-me-api
-- description: User accounts and profiles in Microsoft Entra ID.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: User accounts and profiles in Microsoft Entra ID.
   name: Microsoft Products APIs Users API
   slug: ms-products-users-api
 artifact_total: 29
@@ -207,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/screenshots/ms-products-2026-06-20T185847.png
 security:

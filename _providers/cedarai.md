@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The ChargeService API from Cedarai — 3 operation(s) for chargeservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The ChargeService API from Cedarai — 3 operation(s) for chargeservice.
   name: Cedarai ChargeService API
   slug: cedarai-chargeservice-api
-- description: The Equipment History API from Cedarai — 1 operation(s) for equipment history.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The Equipment History API from Cedarai — 1 operation(s) for equipment history.
   name: Cedarai Equipment History API
   slug: cedarai-equipment-history-api
-- description: The Ims API from Cedarai — 16 operation(s) for ims.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The Ims API from Cedarai — 16 operation(s) for ims.
   name: Cedarai Ims API
   slug: cedarai-ims-api
-- description: The InvoicesService API from Cedarai — 3 operation(s) for invoicesservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The InvoicesService API from Cedarai — 3 operation(s) for invoicesservice.
   name: Cedarai InvoicesService API
   slug: cedarai-invoicesservice-api
-- description: The LindaService API from Cedarai — 9 operation(s) for lindaservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The LindaService API from Cedarai — 9 operation(s) for lindaservice.
   name: Cedarai LindaService API
   slug: cedarai-lindaservice-api
-- description: The NetworkStructureService API from Cedarai — 1 operation(s) for networkstructureservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The NetworkStructureService API from Cedarai — 1 operation(s) for networkstructureservice.
   name: Cedarai NetworkStructureService API
   slug: cedarai-networkstructureservice-api
-- description: The QuotesService API from Cedarai — 3 operation(s) for quotesservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The QuotesService API from Cedarai — 3 operation(s) for quotesservice.
   name: Cedarai QuotesService API
   slug: cedarai-quotesservice-api
-- description: The TruckLoadTenderService API from Cedarai — 5 operation(s) for truckloadtenderservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The TruckLoadTenderService API from Cedarai — 5 operation(s) for truckloadtenderservice.
   name: Cedarai TruckLoadTenderService API
   slug: cedarai-truckloadtenderservice-api
-- description: The WorkOrderService API from Cedarai — 10 operation(s) for workorderservice.
+- baseURL: https://api-lg.arms.cedarai.com
+  baseurl_source: declared
+  description: The WorkOrderService API from Cedarai — 10 operation(s) for workorderservice.
   name: Cedarai WorkOrderService API
   slug: cedarai-workorderservice-api
 artifact_total: 23
@@ -220,7 +238,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -230,7 +248,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.1
+  previous_composite: 39.9
   provenance:
     conformance: derived
     contracts:
@@ -241,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
 security:

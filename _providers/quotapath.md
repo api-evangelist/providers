@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 18 operations · 8 acting
 api_count: 1
 apis:
-- description: The data API from QuotaPath — 1 operation(s) for data.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The data API from QuotaPath — 1 operation(s) for data.
   name: QuotaPath data API
   slug: quotapath-data-api
-- description: The deal API from QuotaPath — 3 operation(s) for deal.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The deal API from QuotaPath — 3 operation(s) for deal.
   name: QuotaPath deal API
   slug: quotapath-deal-api
-- description: The path API from QuotaPath — 2 operation(s) for path.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The path API from QuotaPath — 2 operation(s) for path.
   name: QuotaPath path API
   slug: quotapath-path-api
-- description: The payout API from QuotaPath — 3 operation(s) for payout.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The payout API from QuotaPath — 3 operation(s) for payout.
   name: QuotaPath payout API
   slug: quotapath-payout-api
-- description: The plan API from QuotaPath — 1 operation(s) for plan.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The plan API from QuotaPath — 1 operation(s) for plan.
   name: QuotaPath plan API
   slug: quotapath-plan-api
-- description: The team API from QuotaPath — 1 operation(s) for team.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The team API from QuotaPath — 1 operation(s) for team.
   name: QuotaPath team API
   slug: quotapath-team-api
-- description: The user API from QuotaPath — 1 operation(s) for user.
+- baseURL: https://api.quotapath.com/v1
+  baseurl_source: declared
+  description: The user API from QuotaPath — 1 operation(s) for user.
   name: QuotaPath user API
   slug: quotapath-user-api
 artifact_total: 22
@@ -270,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quotapath/refs/heads/main/screenshots/quotapath-2026-08-17T081433.png
 security:

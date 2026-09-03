@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Pages API from AmazingTalker — 1 operation(s) for pages.
+- baseURL: https://en.amazingtalker.com
+  baseurl_source: declared
+  description: The Pages API from AmazingTalker — 1 operation(s) for pages.
   name: AmazingTalker Pages API
   slug: amazingtalker-pages-api
 artifact_total: 6
@@ -152,7 +154,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazingtalker/refs/heads/main/screenshots/amazingtalker-2026-07-25T195910.png
 security:

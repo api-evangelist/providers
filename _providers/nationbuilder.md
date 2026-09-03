@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -43,127 +43,209 @@ agentic_access:
   summary_line: 190 operations · 108 acting
 api_count: 1
 apis:
-- description: This endpoint is used to get information about deferred or asynchronous processes returned by other endpoints such as adding and removing signups from a list or tagging and untagging signups from a li
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: This endpoint is used to get information about deferred or asynchronous processes returned by other endpoints such as adding and removing signups from a list or tagging and untagging signups from a li
   name: NationBuilder Async Processes API
   slug: nationbuilder-async-processes-api
-- description: AutomationEnrollments link signups to automations. Every AutomationEnrollment belongs to a single Signup and a single Automation. Further information on how signups are enrolled in automations is avai
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: AutomationEnrollments link signups to automations. Every AutomationEnrollment belongs to a single Signup and a single Automation. Further information on how signups are enrolled in automations is avai
   name: NationBuilder Automation Enrollments API
   slug: nationbuilder-automation-enrollments-api
-- description: Automations represent workflows where chains of actions and reactions can be created within a nation. Signups can be enrolled in an automation and are represented via the AutomationEnrollments resourc
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Automations represent workflows where chains of actions and reactions can be created within a nation. Signups can be enrolled in an automation and are represented via the AutomationEnrollments resourc
   name: NationBuilder Automations API
   slug: nationbuilder-automations-api
-- description: Ballots are a record of an election and how a person voted for said election. Each ballot is associated with a voter and an election and contains information such as when the ballot was cast, the part
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Ballots are a record of an election and how a person voted for said election. Each ballot is associated with a voter and an election and contains information such as when the ballot was cast, the part
   name: NationBuilder Ballots API
   slug: nationbuilder-ballots-api
-- description: Broadcasters are the voices who speak publicly on behalf of your nation. All external communications are organized around broadcasters.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Broadcasters are the voices who speak publicly on behalf of your nation. All external communications are organized around broadcasters.
   name: NationBuilder Broadcasters API
   slug: nationbuilder-broadcasters-api
-- description: Contacts are logged interactions between people in your nation. More information about contacts and the fields found in the UI and API interfaces can be found [here](https://support.nationbuilder.com/
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Contacts are logged interactions between people in your nation. More information about contacts and the fields found in the UI and API interfaces can be found [here](https://support.nationbuilder.com/
   name: NationBuilder Contacts API
   slug: nationbuilder-contacts-api
-- description: Custom fields are available for Signups and Donations. See [here](https://support.nationbuilder.com/en/articles/2340612-introduction-to-custom-fields) for more information.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Custom fields are available for Signups and Donations. See [here](https://support.nationbuilder.com/en/articles/2340612-introduction-to-custom-fields) for more information.
   name: NationBuilder Custom Fields API
   slug: nationbuilder-custom-fields-api
-- description: Tracking codes are used to identify where a financial transaction came from. Users give the tracking code a custom name/slug and use the code to track where a donation was made. Read more about them [
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Tracking codes are used to identify where a financial transaction came from. Users give the tracking code a custom name/slug and use the code to track where a donation was made. Read more about them [
   name: NationBuilder Donation Tracking Codes API
   slug: nationbuilder-donation-tracking-codes-api
-- description: Currently we allow you to record existing donation transactions via API V2. These transactions will not be backed by any kind of financial transaction. See the [docs](https://support.nationbuilder.com
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Currently we allow you to record existing donation transactions via API V2. These transactions will not be backed by any kind of financial transaction. See the [docs](https://support.nationbuilder.com
   name: NationBuilder Donations API
   slug: nationbuilder-donations-api
-- description: Elections are available on nations with voter features enabled. See more information about election functionality [here](https://support.nationbuilder.com/en/articles/2362732-set-up-your-election)
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Elections are available on nations with voter features enabled. See more information about election functionality [here](https://support.nationbuilder.com/en/articles/2362732-set-up-your-election)
   name: NationBuilder Elections API
   slug: nationbuilder-elections-api
-- description: This resource is for creating, reading, updating, and deleting Event RSVPs. When creating event RSVPs, the rsvp must be given signup data, either by passing a first name, last name, and email or phone
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: This resource is for creating, reading, updating, and deleting Event RSVPs. When creating event RSVPs, the rsvp must be given signup data, either by passing a first name, last name, and email or phone
   name: NationBuilder Event Rsvps API
   slug: nationbuilder-event-rsvps-api
-- description: This resource is for creating, reading, updating, and deleting ticket levels for events. manage the ticket levels available for the events. Ticket levels and their prices are displayed on public event
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: This resource is for creating, reading, updating, and deleting ticket levels for events. manage the ticket levels available for the events. Ticket levels and their prices are displayed on public event
   name: NationBuilder Event Ticket Levels API
   slug: nationbuilder-event-ticket-levels-api
-- description: Resource used for managing event data associated with event pages. More details on events within NationBuilder can be found [here](https://support.nationbuilder.com/en/articles/2319673-setting-up-an-e
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Resource used for managing event data associated with event pages. More details on events within NationBuilder can be found [here](https://support.nationbuilder.com/en/articles/2319673-setting-up-an-e
   name: NationBuilder Events API
   slug: nationbuilder-events-api
-- description: All kinds of data can be imported into a nation, when this happens we create an import resource as a record of the imported data. Each import has a type attribute defining the kind of data being impor
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: All kinds of data can be imported into a nation, when this happens we create an import resource as a record of the imported data. Each import has a type attribute defining the kind of data being impor
   name: NationBuilder Imports API
   slug: nationbuilder-imports-api
-- description: Lists are collections of signups. Often created from filters they are useful for grouping signups together by common attributes. They can be used to perform batch updates on signups or as a list of re
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Lists are collections of signups. Often created from filters they are useful for grouping signups together by common attributes. They can be used to perform batch updates on signups or as a list of re
   name: NationBuilder Lists API
   slug: nationbuilder-lists-api
-- description: 'Referred to as email blasts, mailings send bulk emails to a group of signups at once. Mailings belong to and are sent via a broadcaster. The recipients of a mailing can be selected by lists, filters, '
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: 'Referred to as email blasts, mailings send bulk emails to a group of signups at once. Mailings belong to and are sent via a broadcaster. The recipients of a mailing can be selected by lists, filters, '
   name: NationBuilder Mailings API
   slug: nationbuilder-mailings-api
-- description: Membership types are used to identify memberships assigned to signups. A membership type has many memberships which are assigned a single signup. The only required attribute for the membership type is
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Membership types are used to identify memberships assigned to signups. A membership type has many memberships which are assigned a single signup. The only required attribute for the membership type is
   name: NationBuilder Membership Types API
   slug: nationbuilder-membership-types-api
-- description: 'A membership is a way to organize supporters and provide additional benefits based on actions they''ve taken or money donated. More information about memberships and the fields found in the UI and API '
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: 'A membership is a way to organize supporters and provide additional benefits based on actions they''ve taken or money donated. More information about memberships and the fields found in the UI and API '
   name: NationBuilder Memberships API
   slug: nationbuilder-memberships-api
-- description: Pages are published on your site. Each page type offers different features, you can view them [here](https://support.nationbuilder.com/en/articles/2319593-types-of-nationbuilder-pages).
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Pages are published on your site. Each page type offers different features, you can view them [here](https://support.nationbuilder.com/en/articles/2319593-types-of-nationbuilder-pages).
   name: NationBuilder Pages API
   slug: nationbuilder-pages-api
-- description: Documents a signup's step along a path journey.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Documents a signup's step along a path journey.
   name: NationBuilder Path Histories API
   slug: nationbuilder-path-histories-api
-- description: Documents the status change of a path journey.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Documents the status change of a path journey.
   name: NationBuilder Path Journey Status Changes API
   slug: nationbuilder-path-journey-status-changes-api
-- description: Path journeys are the relationship between signups and paths. Further information available [here](https://support.nationbuilder.com/en/articles/3055899-create-paths#create-a-path).
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Path journeys are the relationship between signups and paths. Further information available [here](https://support.nationbuilder.com/en/articles/3055899-create-paths#create-a-path).
   name: NationBuilder Path Journeys API
   slug: nationbuilder-path-journeys-api
-- description: Path steps name the positions within a path a signup can be assigned to. Further information available [here](https://support.nationbuilder.com/en/articles/3055899-create-paths#add-steps-to-the-path)
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Path steps name the positions within a path a signup can be assigned to. Further information available [here](https://support.nationbuilder.com/en/articles/3055899-create-paths#add-steps-to-the-path)
   name: NationBuilder Path Steps API
   slug: nationbuilder-path-steps-api
-- description: Paths store information about path journeys and steps. They are related to signups via path journeys. A path can be assigned many path journeys and path steps. Further information available [here](htt
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Paths store information about path journeys and steps. They are related to signups via path journeys. A path can be assigned many path journeys and path steps. Further information available [here](htt
   name: NationBuilder Paths API
   slug: nationbuilder-paths-api
-- description: Petition signatures are the relationship between petitions and signups.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Petition signatures are the relationship between petitions and signups.
   name: NationBuilder Petition Signatures API
   slug: nationbuilder-petition-signatures-api
-- description: Petitions are pages on your site that can be signed and shared by your supporters. Learn more about them [here](https://support.nationbuilder.com/en/articles/2327303-create-a-petition).
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Petitions are pages on your site that can be signed and shared by your supporters. Learn more about them [here](https://support.nationbuilder.com/en/articles/2327303-create-a-petition).
   name: NationBuilder Petitions API
   slug: nationbuilder-petitions-api
-- description: Pledges are a promise from a signup to donate to your cause. These are not donations. Further information available [here](https://support.nationbuilder.com/en/articles/2344197-fundraising-with-nation
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Pledges are a promise from a signup to donate to your cause. These are not donations. Further information available [here](https://support.nationbuilder.com/en/articles/2344197-fundraising-with-nation
   name: NationBuilder Pledges API
   slug: nationbuilder-pledges-api
-- description: Precincts are districts used by political campaigns. Read more about them [here](https://support.nationbuilder.com/en/articles/2471652-creating-and-viewing-political-precincts).
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Precincts are districts used by political campaigns. Read more about them [here](https://support.nationbuilder.com/en/articles/2471652-creating-and-viewing-political-precincts).
   name: NationBuilder Precincts API
   slug: nationbuilder-precincts-api
-- description: Valid relationship types are ["affiliate-affiliate", "alum-school", "assistant-assisted", "board_member-organization", "candidate-committee", "chapter-parent", "child-parent", "consultant-organization
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Valid relationship types are ["affiliate-affiliate", "alum-school", "assistant-assisted", "board_member-organization", "candidate-committee", "chapter-parent", "child-parent", "consultant-organization
   name: NationBuilder Relationships API
   slug: nationbuilder-relationships-api
-- description: Profile information for a signup that can be displayed on a public site page. Read more on public profiles [here](https://support.nationbuilder.com/en/articles/2327657-how-public-profile-pages-work).
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Profile information for a signup that can be displayed on a public site page. Read more on public profiles [here](https://support.nationbuilder.com/en/articles/2327657-how-public-profile-pages-work).
   name: NationBuilder Signup Profiles API
   slug: nationbuilder-signup-profiles-api
-- description: Signup taggings are the relation between a signup and a tag.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Signup taggings are the relation between a signup and a tag.
   name: NationBuilder Signup Taggings API
   slug: nationbuilder-signup-taggings-api
-- description: Tags are used to quickly identify signups by certain characteristics. They are related to signups through SignupTaggings. Read more about them [here](https://support.nationbuilder.com/en/articles/2305
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Tags are used to quickly identify signups by certain characteristics. They are related to signups through SignupTaggings. Read more about them [here](https://support.nationbuilder.com/en/articles/2305
   name: NationBuilder Signup Tags API
   slug: nationbuilder-signup-tags-api
-- description: Signups store information about people in your nation. Further information available [here](https://support.nationbuilder.com/en/articles/8810042-how-records-are-added-to-the-people-database).
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Signups store information about people in your nation. Further information available [here](https://support.nationbuilder.com/en/articles/8810042-how-records-are-added-to-the-people-database).
   name: NationBuilder Signups API
   slug: nationbuilder-signups-api
-- description: A site is how supporters interact with your nation. Each site has a theme and many pages that can be drafted and published later to be viewed publicly. Read more about sites [here](https://support.nat
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: A site is how supporters interact with your nation. Each site has a theme and many pages that can be drafted and published later to be viewed publicly. Read more about sites [here](https://support.nat
   name: NationBuilder Sites API
   slug: nationbuilder-sites-api
-- description: Suggestion boxes are containers for collecting suggestions from your community. They live on website pages, and define the settings, auto-responses, categorization tags, and moderation rules for sugge
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Suggestion boxes are containers for collecting suggestions from your community. They live on website pages, and define the settings, auto-responses, categorization tags, and moderation rules for sugge
   name: NationBuilder Suggestion Boxes API
   slug: nationbuilder-suggestion-boxes-api
-- description: Suggestions are individual ideas or proposals submitted to suggestion boxes on your site. They can be responded to, categorized, and managed by administrators. **Responding to Suggestions:** Responses
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Suggestions are individual ideas or proposals submitted to suggestion boxes on your site. They can be responded to, categorized, and managed by administrators. **Responding to Suggestions:** Responses
   name: NationBuilder Suggestions API
   slug: nationbuilder-suggestions-api
-- description: The potential answers to a survey question.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: The potential answers to a survey question.
   name: NationBuilder Survey Question Possible Responses API
   slug: nationbuilder-survey-question-possible-responses-api
-- description: User responses to Survey Questions.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: User responses to Survey Questions.
   name: NationBuilder Survey Question Responses API
   slug: nationbuilder-survey-question-responses-api
-- description: Questions asked within a survey.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Questions asked within a survey.
   name: NationBuilder Survey Questions API
   slug: nationbuilder-survey-questions-api
-- description: Surveys have questions with possible responses. These questions also have responses from the users.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Surveys have questions with possible responses. These questions also have responses from the users.
   name: NationBuilder Surveys API
   slug: nationbuilder-surveys-api
-- description: Voter records store the ballot history of a single signup.
+- baseURL: https://{nation-slug}.nationbuilder.com/api/v2
+  baseurl_source: declared
+  description: Voter records store the ballot history of a single signup.
   name: NationBuilder Voters API
   slug: nationbuilder-voters-api
 artifact_total: 88
@@ -466,7 +548,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationbuilder/refs/heads/main/screenshots/nationbuilder-2026-08-17T124218.png
 security:

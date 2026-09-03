@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 9 operations · 3 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Applications API from Lightning Social Ventures — 5 operation(s) for applications.
+- baseURL: https://api.lightningreach.org
+  baseurl_source: declared
+  description: The Applications API from Lightning Social Ventures — 5 operation(s) for applications.
   name: Lightning Social Ventures Applications API
   slug: lightning-social-ventures-applications-api
-- description: The Support Schemes API from Lightning Social Ventures — 1 operation(s) for support schemes.
+- baseURL: https://api.lightningreach.org
+  baseurl_source: declared
+  description: The Support Schemes API from Lightning Social Ventures — 1 operation(s) for support schemes.
   name: Lightning Social Ventures Support Schemes API
   slug: lightning-social-ventures-support-schemes-api
-- description: The Webhooks API from Lightning Social Ventures — 2 operation(s) for webhooks.
+- baseURL: https://api.lightningreach.org
+  baseurl_source: declared
+  description: The Webhooks API from Lightning Social Ventures — 2 operation(s) for webhooks.
   name: Lightning Social Ventures Webhooks API
   slug: lightning-social-ventures-webhooks-api
 artifact_total: 12
@@ -191,7 +197,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -201,7 +207,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 31.0
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,7 +225,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png
 security:

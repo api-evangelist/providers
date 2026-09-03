@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 73 operations · 34 acting
 api_count: 1
 apis:
-- description: The Cost Estimates API from Ribbon Health — 4 operation(s) for cost estimates.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Cost Estimates API from Ribbon Health — 4 operation(s) for cost estimates.
   name: Ribbon Health Cost Estimates API
   slug: ribbon-health-cost-estimates-api
-- description: The Filters API from Ribbon Health — 4 operation(s) for filters.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Filters API from Ribbon Health — 4 operation(s) for filters.
   name: Ribbon Health Filters API
   slug: ribbon-health-filters-api
-- description: The Focus Area Endpoints API from Ribbon Health — 6 operation(s) for focus area endpoints.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Focus Area Endpoints API from Ribbon Health — 6 operation(s) for focus area endpoints.
   name: Ribbon Health Focus Area Endpoints API
   slug: ribbon-health-focus-area-endpoints-api
-- description: The Locations API from Ribbon Health — 5 operation(s) for locations.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Locations API from Ribbon Health — 5 operation(s) for locations.
   name: Ribbon Health Locations API
   slug: ribbon-health-locations-api
-- description: The Networks API from Ribbon Health — 1 operation(s) for networks.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Networks API from Ribbon Health — 1 operation(s) for networks.
   name: Ribbon Health Networks API
   slug: ribbon-health-networks-api
-- description: The Organizations API from Ribbon Health — 2 operation(s) for organizations.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Ribbon Health — 2 operation(s) for organizations.
   name: Ribbon Health Organizations API
   slug: ribbon-health-organizations-api
-- description: The Price Transparency API from Ribbon Health — 8 operation(s) for price transparency.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Price Transparency API from Ribbon Health — 8 operation(s) for price transparency.
   name: Ribbon Health Price Transparency API
   slug: ribbon-health-price-transparency-api
-- description: The Providers API from Ribbon Health — 10 operation(s) for providers.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Providers API from Ribbon Health — 10 operation(s) for providers.
   name: Ribbon Health Providers API
   slug: ribbon-health-providers-api
-- description: The Reference Endpoints API from Ribbon Health — 13 operation(s) for reference endpoints.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The Reference Endpoints API from Ribbon Health — 13 operation(s) for reference endpoints.
   name: Ribbon Health Reference Endpoints API
   slug: ribbon-health-reference-endpoints-api
-- description: The TINs API from Ribbon Health — 2 operation(s) for tins.
+- baseURL: https://api.ribbonhealth.com/v1
+  baseurl_source: declared
+  description: The TINs API from Ribbon Health — 2 operation(s) for tins.
   name: Ribbon Health TINs API
   slug: ribbon-health-tins-api
-- description: The Price Transparency v2 API from H1 (Ribbon Health) — 7 location-first operations for negotiated-rate shopping. Prices are scoped to a facility rather than to a provider, carriers use string busines
+- baseURL: https://api.ribbonhealth.com/v2
+  baseurl_source: declared
+  description: The Price Transparency v2 API from H1 (Ribbon Health) — 7 location-first operations for negotiated-rate shopping. Prices are scoped to a facility rather than to a provider, carriers use string busines
   name: Ribbon Health Price Transparency v2 API
   slug: ribbon-health-price-transparency-v2-api
 arazzos:
@@ -537,7 +559,7 @@ score:
     regime_id: health
     score: 41.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/screenshots/ribbon-health-2026-06-20T193110.png
 security:

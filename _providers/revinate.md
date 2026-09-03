@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,25 +36,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The Hotel Sets API from Revinate — 4 operation(s) for hotel sets.
+- baseURL: https://porter.revinate.com
+  baseurl_source: declared
+  description: The Hotel Sets API from Revinate — 4 operation(s) for hotel sets.
   name: Revinate Hotel Sets API
   slug: revinate-hotel-sets-api
-- description: The Hotels API from Revinate — 11 operation(s) for hotels.
+- baseURL: https://porter.revinate.com
+  baseurl_source: declared
+  description: The Hotels API from Revinate — 11 operation(s) for hotels.
   name: Revinate Hotels API
   slug: revinate-hotels-api
-- description: The Languages API from Revinate — 2 operation(s) for languages.
+- baseURL: https://porter.revinate.com
+  baseurl_source: declared
+  description: The Languages API from Revinate — 2 operation(s) for languages.
   name: Revinate Languages API
   slug: revinate-languages-api
-- description: The Review Sites API from Revinate — 2 operation(s) for review sites.
+- baseURL: https://porter.revinate.com
+  baseurl_source: declared
+  description: The Review Sites API from Revinate — 2 operation(s) for review sites.
   name: Revinate Review Sites API
   slug: revinate-review-sites-api
-- description: The Reviews API from Revinate — 2 operation(s) for reviews.
+- baseURL: https://porter.revinate.com
+  baseurl_source: declared
+  description: The Reviews API from Revinate — 2 operation(s) for reviews.
   name: Revinate Reviews API
   slug: revinate-reviews-api
-- description: The Widget Reviews API from Revinate — 1 operation(s) for widget reviews.
+- baseURL: https://porter.revinate.com
+  baseurl_source: declared
+  description: The Widget Reviews API from Revinate — 1 operation(s) for widget reviews.
   name: Revinate Widget Reviews API
   slug: revinate-widget-reviews-api
 artifact_total: 13
@@ -180,7 +205,7 @@ score:
   band: developing
   composite: 43.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -205,8 +230,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/screenshots/revinate-2026-09-02T153723.png
 security:
 - kind: authentication
   name: Revinate Authentication

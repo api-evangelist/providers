@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 50 operations · 30 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Domain API from Amazon OpenSearch Service API — 2 operation(s) for domain.
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Domain API from Amazon OpenSearch Service API — 2 operation(s) for domain.
   name: Amazon OpenSearch Service API Domain API
   slug: amazon-opensearch-domain-api
-- description: The Es API from Amazon OpenSearch Service API — 34 operation(s) for es.
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Es API from Amazon OpenSearch Service API — 34 operation(s) for es.
   name: Amazon OpenSearch Service API Es API
   slug: amazon-opensearch-es-api
-- description: The Packages API from Amazon OpenSearch Service API — 8 operation(s) for packages.
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Packages API from Amazon OpenSearch Service API — 8 operation(s) for packages.
   name: Amazon OpenSearch Service API Packages API
   slug: amazon-opensearch-packages-api
-- description: The Tags API from Amazon OpenSearch Service API — 2 operation(s) for tags.
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon OpenSearch Service API — 2 operation(s) for tags.
   name: Amazon OpenSearch Service API Tags API
   slug: amazon-opensearch-tags-api
-- description: The Tags Removal API from Amazon OpenSearch Service API — 1 operation(s) for tags removal.
+- baseURL: https://es.amazonaws.com
+  baseurl_source: declared
+  description: The Tags Removal API from Amazon OpenSearch Service API — 1 operation(s) for tags removal.
   name: Amazon OpenSearch Service API Tags Removal API
   slug: amazon-opensearch-tags-removal-api
 artifact_total: 986
@@ -3161,7 +3171,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/screenshots/amazon-opensearch-2026-06-20T171751.png
 security:

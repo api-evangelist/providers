@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Sila's Virtual Accounts product issues each user a dedicated account and routing number, giving a program a real bank-account surface for receiving and settling funds. Virtual accounts appear as a pay
   name: Sila Virtual Accounts API
   slug: sila-money-virtual-accounts-api
-- description: Linked external bank accounts used as funding sources.
+- baseURL: https://api.silamoney.com/0.2
+  baseurl_source: declared
+  description: Linked external bank accounts used as funding sources.
   name: Sila Accounts API
   slug: sila-money-accounts-api
-- description: Handle reservation, registration, and KYC / KYB verification.
+- baseURL: https://api.silamoney.com/0.2
+  baseurl_source: declared
+  description: Handle reservation, registration, and KYC / KYB verification.
   name: Sila Identity API
   slug: sila-money-identity-api
-- description: Enumerated payment instruments and debit-card linking.
+- baseURL: https://api.silamoney.com/0.2
+  baseurl_source: declared
+  description: Enumerated payment instruments and debit-card linking.
   name: Sila Payment Methods API
   slug: sila-money-payment-methods-api
-- description: Money movement via issue / transfer / redeem over ACH.
+- baseURL: https://api.silamoney.com/0.2
+  baseurl_source: declared
+  description: Money movement via issue / transfer / redeem over ACH.
   name: Sila Payments API
   slug: sila-money-payments-api
-- description: ECDSA keypair (wallet) registration and management.
+- baseURL: https://api.silamoney.com/0.2
+  baseurl_source: declared
+  description: ECDSA keypair (wallet) registration and management.
   name: Sila Wallets API
   slug: sila-money-wallets-api
 artifact_total: 19
@@ -159,7 +169,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -188,8 +198,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/screenshots/sila-money-2026-09-02T155444.png
 security:
 - kind: authentication
   name: Sila Money Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 13 operations · 12 acting
 api_count: 1
 apis:
-- description: The Scan API from Cloudmersive — 3 operation(s) for scan.
+- baseURL: https://localhost
+  baseurl_source: spec
+  description: The Scan API from Cloudmersive — 3 operation(s) for scan.
   name: Cloudmersive Scan API
   slug: cloudmersive-scan-api
-- description: The ScanCloudStorage API from Cloudmersive — 10 operation(s) for scancloudstorage.
+- baseURL: https://localhost
+  baseurl_source: spec
+  description: The ScanCloudStorage API from Cloudmersive — 10 operation(s) for scancloudstorage.
   name: Cloudmersive ScanCloudStorage API
   slug: cloudmersive-scancloudstorage-api
 artifact_total: 15
@@ -189,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/screenshots/cloudmersive-2026-06-20T174612.png
 security:

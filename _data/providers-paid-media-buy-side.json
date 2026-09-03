@@ -29,7 +29,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -75,7 +75,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -121,7 +121,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 56.0,
      "agent_band": "agent-ready",
@@ -167,7 +167,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -213,7 +213,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -259,7 +259,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -305,7 +305,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
@@ -351,7 +351,7 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 38.9,
      "agent_band": "agent-ready",
@@ -407,7 +407,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -453,7 +453,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -482,6 +482,51 @@
      "rank": 10
     },
     {
+     "name": "AppsFlyer",
+     "slug": "appsflyer",
+     "description": "AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Roku, Tizen, webOS) and a large REST API estate published on the AppsFlyer developer hub: Pull APIs for raw and aggregate report export, the Master and Cohort reporting APIs, server-to-server and client-to-server event ingestion APIs, the OneLink deep-linking API, audience import/activation APIs, SKAdNetwork conversion-value and postback APIs, app and user management APIs, the Protect360 click-signing anti-fraud API, the ROI360 net-revenue API, and an OpenDSR privacy-request API. AppsFlyer also runs a Push API webhook surface for real-time postbacks and a hosted Model Context Protocol (MCP) server for agent access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png",
+     "score": 64.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 60.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 92.1,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 49.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
      "name": "FLORA",
      "slug": "flora-fauna",
      "description": "FLORA is a Brooklyn, New York-based applied AI / HCI company building a browser-based \"infinite canvas\" creative workspace for professional creators. Founded in 2024 by Weber Wong out of NYU's Interactive Telecommunications Program (ITP), FLORA unifies 50+ third-party text, image, and video AI models inside a single node-based visual workspace where designers, filmmakers, photographers, and creative agencies wire prompts, references, characters, and outputs into reusable generative workflows called Techniques. The platform integrates leading image models (FLUX.2, FLUX Kontext, Stable Diffusion 3.5, Nano Banana, Recraft, Seedream, Minimax Hailuo) and video models (Veo 3, Sora 2, Runway Gen-4 Turbo / Gen-3 Alpha / Act-Two, Pika, Kling, Luma Ray 2, Seedance, Marey) alongside reasoning models such as Gemini 3 Pro and GPT-5.4, and ships a creative agent named FAUNA for ideation, iteration, and workflow scaffolding. FLORA is used at agencies and studios including Pentagram, Milk, and MSCHF; the company raised a $6.5M seed led by Mike Volpi at Hanabi Capital with Menlo Ventures, a16z Games Speedrun, Long Journey Ventures, Company Ventures, Alumni Ventures, Embedding VC, and angels including Justin Kan (Twitch) and Gabe Whaley (MSCHF), and operates in-person from the Domino Refinery in Williamsburg. Beyond the canvas FLORA now ships a public developer surface: the Flora.ai REST API (OpenAPI 3.1.1, base https://app.flora.ai/api/v1) for running Techniques, one-off generations, assets, projects, canvas patches and actions programmatically; a hosted remote MCP server at https://agents.flora.ai/mcp exposing two tools (search_docs, execute) over OAuth 2.1 + PKCE; first-party TypeScript and Go SDKs and a Go CLI; signed HMAC-SHA256 run webhooks; idempotency keys; and a Stainless-generated developer portal at developer.flora.ai. API and MCP access begin on the paid Starter plan.",
@@ -499,7 +544,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 62.4,
      "agent_band": "agent-native",
@@ -525,7 +570,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Google Campaign Manager",
@@ -545,7 +590,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -570,7 +615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Singular",
@@ -590,7 +635,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -615,7 +660,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Flint",
@@ -635,7 +680,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -660,7 +705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Northbeam",
@@ -680,7 +725,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 50.0,
      "agent_band": "agent-native",
@@ -706,7 +751,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "LALAL.AI",
@@ -726,7 +771,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.9,
      "agent_band": "agent-ready",
@@ -752,7 +797,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Affise",
@@ -772,7 +817,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -798,51 +843,6 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 17
-    },
-    {
-     "name": "AppsFlyer",
-     "slug": "appsflyer",
-     "description": "AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers to measure, attribute and optimize user acquisition across mobile, web, CTV, console and PC. Its developer surface spans mobile and platform SDKs (iOS, Android, Unity, React Native, Flutter, Cordova, Unreal, Roku, Tizen, webOS) and a large REST API estate published on the AppsFlyer developer hub: Pull APIs for raw and aggregate report export, the Master and Cohort reporting APIs, server-to-server and client-to-server event ingestion APIs, the OneLink deep-linking API, audience import/activation APIs, SKAdNetwork conversion-value and postback APIs, app and user management APIs, the Protect360 click-signing anti-fraud API, the ROI360 net-revenue API, and an OpenDSR privacy-request API. AppsFlyer also runs a Push API webhook surface for real-time postbacks and a hosted Model Context Protocol (MCP) server for agent access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png",
-     "score": 62.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 60.1,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 92.1,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 49.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 18
     },
     {
@@ -863,7 +863,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
@@ -896,12 +896,12 @@
      "slug": "scope3",
      "description": "Scope3 is the source of truth for greenhouse-gas emissions data in media and advertising, and operates Scope3 Interchange, an agentic advertising platform where buyer agents and seller storefronts transact on the open Ad Context Protocol (AdCP). Its APIs let buyers, publishers and platforms measure the carbon footprint of every ad impression and creative across channels, benchmark against country/channel percentiles, and run AI-driven programmatic advertising end to end. Scope3 publishes four OpenAPI documents across three surfaces: the Carbon Calculator (Measurement) API at api.scope3.com/v2, the AI Impact Measurement API at aiapi.scope3.com (energy, gCO2e and water per inference), and the Interchange Buyer and Storefront v2 APIs at api.interchange.io with 481 operations between them. Interchange is built for AI agents as primary callers: hosted remote MCP endpoints with OAuth (RFC 8414 metadata, dynamic client registration, PKCE), an A2A agent card, three published Agent Skills, a documented error envelope, IETF draft-7 rate-limit headers and a published IU pricing model. Backed by GV.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png",
-     "score": 61.9,
+     "score": 61.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 62.8,
+      "contract_quality": 61.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 65.8,
@@ -909,7 +909,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 69.3,
      "agent_band": "agent-native",
@@ -954,7 +954,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -1000,7 +1000,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -1045,7 +1045,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 49.3,
      "agent_band": "agent-ready",
@@ -1091,7 +1091,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1137,7 +1137,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1182,7 +1182,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 55.4,
      "agent_band": "agent-ready",
@@ -1227,7 +1227,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -1272,7 +1272,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1317,7 +1317,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 42.7,
      "agent_band": "agent-ready",
@@ -1362,7 +1362,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.8,
      "agent_band": "agent-ready",
@@ -1407,7 +1407,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.4,
      "agent_band": "agent-native",
@@ -1452,7 +1452,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -1497,7 +1497,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
@@ -1543,7 +1543,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.3,
      "agent_band": "agent-ready",
@@ -1572,289 +1572,15 @@
      "rank": 34
     },
     {
-     "name": "Criteo",
-     "slug": "criteo",
-     "description": "Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com covering 219 operations: campaign and line-item management, keyword and promoted-product targeting, audience segments and contact lists, retailer catalogs, account and brand hierarchies, balances and billing, creative and product-boost management, and demand-side and supply-side analytics. Authentication is OAuth 2.0 with client-credentials and authorization-code grants and 22 scopes of the form <Service>_<Domain>_<Level>. Criteo ships officially supported Python, PHP and Java SDKs, a public Postman workspace, an llms.txt docs index, an A2A agent card, a published Agent Skill, and two remote MCP servers — an anonymous documentation server and an OAuth-protected API server at mcp.criteo.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png",
-     "score": 56.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 53.3,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 61.3,
-      "commercial_clarity": 51.3,
-      "access_clarity": 51.3
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 42.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "flavored",
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the publisher (sell side)",
-     "rank": 35
-    },
-    {
-     "name": "NextRoll",
-     "slug": "nextroll",
-     "description": "NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-based marketing platform for B2B demand generation and sales teams. The NextRoll API is the single developer surface behind both brands, served from https://services.adroll.com and split into focused services: a REST CRUD API for organizations, advertisables, campaigns, ad groups, ads, pixels, segments and product feeds; a GraphQL Reporting API that replaces the legacy per-object report endpoints; an Audience API for CRM, custom, composite, lookalike and target-account segments; Prospecting, Geotargeting and User Lists APIs; an ABM Activate/Playbooks API; and a Server-to-Server event API for conversion and engagement events. Developers register applications at developers.nextroll.com and authenticate with OAuth 2.0 or a Personal Access Token plus an application API key. In May 2026 NextRoll launched the AdRoll MCP Server, an OAuth 2.1 protected Model Context Protocol endpoint that exposes AdRoll reporting, draft-first campaign creation and ABM account intelligence to AI assistants and agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/screenshots/nextroll-2026-08-07T185216.png",
-     "score": 56.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 48.1,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 49.4,
-      "commercial_clarity": 81.6,
-      "access_clarity": 81.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 52.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 36
-    },
-    {
-     "name": "Sourcepoint",
-     "slug": "sourcepoint",
-     "description": "Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global publishers and brands — including Axel Springer, Bauer Media, CNN International, Future, Haymarket, LADBible, Autotrader, and Ancestry — to handle GDPR, CCPA, U.S. Multi-State Privacy (USNAT), LGPD, and other regulations under the IAB TCF v2.2 and IAB Global Privacy Platform (GPP) frameworks. Sourcepoint products include the multi-campaign CMP across web, AMP, mobile (iOS, Android, React Native), Unity, Roku, HTML5 OTT and CTV surfaces, Compliance Monitoring (Diagnose), DSAR Handling, Universal Consent & Preferences, Marketing Preferences, Privacy Lens, and tooling for ad-block recovery. The Sourcepoint Public API exposes REST endpoints for GDPR TCF, GDPR Standard, U.S. Multi-State Privacy, Global Enterprise consent, and Preferences history, plus reporting endpoints for dashboards. Sourcepoint technology powers over 30 billion consumer touchpoints per month. In July 2025, Sourcepoint was acquired by Paris-based Didomi (a Marlin Equity Partners portfolio company) to consolidate global consent management; Sourcepoint continues to operate under its existing brand and developer surface during integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png",
-     "score": 55.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 45.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 64.9,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 32.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 37
-    },
-    {
-     "name": "TheBrief",
-     "slug": "thebrief",
-     "description": "The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ ad formats, publish directly to networks like Meta, Google Ads, CM360, DV360 and Veeva, and optimize campaign performance with data-backed recommendations. Founded in 2021 and based in Romania, The Brief is a portfolio company of Point Nine. It ships a documented Public API on two co-equal surfaces — a REST API at https://api.thebrief.ai/v1 and a single GraphQL endpoint at https://graphql.thebrief.ai/public whose 186-type schema is readable by anonymous introspection — covering designs and templates, brand kits, projects and folders, exports and creatives, ad serving and ad-tag reporting, team users and roles, credits, and team webhooks. Authentication is a JWT bearer token minted from a clientId/clientSecret pair; the same signed token powers the App Integration flow that embeds the Ad Studio editor inside a customer's own product. No OpenAPI is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png",
-     "score": 55.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.1,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 85.5,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 38
-    },
-    {
-     "name": "TikTok Marketing API",
-     "slug": "tiktok-ads",
-     "description": "TikTok for Business is TikTok's advertising platform, where brands, agencies and advertisers create, manage and optimize ad campaigns across TikTok and its family of apps. The TikTok API for Business — the Marketing API at business-api.tiktok.com/open_api/v1.3 — is the REST interface behind it, covering advertiser accounts, campaigns, ad groups, ads, Upgraded Smart+ and GMV Max automation, creatives and files, product catalogs, custom and lookalike audiences, Business Center asset and member administration, conversion measurement through the Events API, and synchronous plus asynchronous reporting. Access is granted by a three-legged advertiser authorization that issues a long-lived token presented in an Access-Token header, with permissions expressed as a three-level hierarchy of numeric scope IDs. TikTok also operates a hosted Model Context Protocol server that packages roughly 400 of these endpoints as OAuth-protected MCP tools for AI agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/screenshots/tiktok-ads-2026-06-20T195404.png",
-     "score": 55.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 58.9,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 78.0,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 51.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 39
-    },
-    {
-     "name": "AdMob",
-     "slug": "admob",
-     "description": "AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks, and understand performance through reporting and user metrics. The AdMob API (admob.googleapis.com) provides programmatic access to AdMob account data, apps, ad units, mediation configuration, and network, mediation and campaign performance reports over REST/JSON, authorized with Google OAuth 2.0 using the admob.readonly and admob.report scopes. The stable v1 channel is read-only; the v1beta channel carries the entire write surface — creating apps, ad units and ad unit mappings, and creating, patching and A/B testing mediation groups. Google publishes no OpenAPI for AdMob; the machine-readable contract is a Google Discovery Document served by the API host itself.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png",
-     "score": 54.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.9,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 61.3,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 31.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    },
-    {
      "name": "MOLOCO",
      "slug": "moloco",
      "description": "Moloco is a machine-learning advertising company that operates three developer-facing platforms: Moloco Ads (a performance demand-side platform for app marketers), Moloco Commerce Media / MCM (a retail-media platform that lets marketplaces and retailers run sponsored product, brand, display and reserved-display ads on their own inventory), and Moloco Streaming Monetization. Its public API surface spans a Campaign Management API and a Cloud Auth API on api.moloco.cloud for the DSP side, plus MCM Management, Decision, Event and Webhook APIs on mcm-api.moloco.com for the commerce-media side, covering ad accounts, products, campaigns, ad groups, creatives, audience targets, catalog items, wallets, spending limits, reporting, log export, real-time ad decisioning and first-party user-event ingestion.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png",
-     "score": 54.8,
+     "score": 56.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 75.9,
       "contract_quality": 72.1,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -1863,7 +1589,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 57.0,
      "agent_band": "agent-native",
@@ -1889,6 +1615,280 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
+     "rank": 35
+    },
+    {
+     "name": "Criteo",
+     "slug": "criteo",
+     "description": "Criteo is a global commerce media company whose Retail Media, Marketing Solutions and Commerce Grid platforms let retailers, brands, agencies and partners create, launch and measure onsite and offsite commerce advertising. Criteo publishes three live OpenAPI 3.0.1 documents at api.criteo.com covering 219 operations: campaign and line-item management, keyword and promoted-product targeting, audience segments and contact lists, retailer catalogs, account and brand hierarchies, balances and billing, creative and product-boost management, and demand-side and supply-side analytics. Authentication is OAuth 2.0 with client-credentials and authorization-code grants and 22 scopes of the form <Service>_<Domain>_<Level>. Criteo ships officially supported Python, PHP and Java SDKs, a public Postman workspace, an llms.txt docs index, an A2A agent card, a published Agent Skill, and two remote MCP servers — an anonymous documentation server and an OAuth-protected API server at mcp.criteo.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png",
+     "score": 56.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 53.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 61.3,
+      "commercial_clarity": 51.3,
+      "access_clarity": 51.3
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 42.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the publisher (sell side)",
+     "rank": 36
+    },
+    {
+     "name": "NextRoll",
+     "slug": "nextroll",
+     "description": "NextRoll, Inc. is a San Francisco-based marketing technology company that operates two brands on a shared machine-learning and identity platform: AdRoll, a cross-channel digital advertising and retargeting platform for ecommerce and D2C marketers, and AdRoll ABM (formerly RollWorks), an account-based marketing platform for B2B demand generation and sales teams. The NextRoll API is the single developer surface behind both brands, served from https://services.adroll.com and split into focused services: a REST CRUD API for organizations, advertisables, campaigns, ad groups, ads, pixels, segments and product feeds; a GraphQL Reporting API that replaces the legacy per-object report endpoints; an Audience API for CRM, custom, composite, lookalike and target-account segments; Prospecting, Geotargeting and User Lists APIs; an ABM Activate/Playbooks API; and a Server-to-Server event API for conversion and engagement events. Developers register applications at developers.nextroll.com and authenticate with OAuth 2.0 or a Personal Access Token plus an application API key. In May 2026 NextRoll launched the AdRoll MCP Server, an OAuth 2.1 protected Model Context Protocol endpoint that exposes AdRoll reporting, draft-first campaign creation and ABM account intelligence to AI assistants and agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextroll/refs/heads/main/screenshots/nextroll-2026-08-07T185216.png",
+     "score": 56.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 48.1,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 49.4,
+      "commercial_clarity": 81.6,
+      "access_clarity": 81.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 52.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 37
+    },
+    {
+     "name": "Sourcepoint",
+     "slug": "sourcepoint",
+     "description": "Sourcepoint is a New York City-headquartered enterprise privacy and consent management technology company founded in 2015 by Ben Barokas and Brian Kane. The platform began as an ad-block recovery solution for publishers and evolved into a Consent Management Platform (CMP) used by leading global publishers and brands — including Axel Springer, Bauer Media, CNN International, Future, Haymarket, LADBible, Autotrader, and Ancestry — to handle GDPR, CCPA, U.S. Multi-State Privacy (USNAT), LGPD, and other regulations under the IAB TCF v2.2 and IAB Global Privacy Platform (GPP) frameworks. Sourcepoint products include the multi-campaign CMP across web, AMP, mobile (iOS, Android, React Native), Unity, Roku, HTML5 OTT and CTV surfaces, Compliance Monitoring (Diagnose), DSAR Handling, Universal Consent & Preferences, Marketing Preferences, Privacy Lens, and tooling for ad-block recovery. The Sourcepoint Public API exposes REST endpoints for GDPR TCF, GDPR Standard, U.S. Multi-State Privacy, Global Enterprise consent, and Preferences history, plus reporting endpoints for dashboards. Sourcepoint technology powers over 30 billion consumer touchpoints per month. In July 2025, Sourcepoint was acquired by Paris-based Didomi (a Marlin Equity Partners portfolio company) to consolidate global consent management; Sourcepoint continues to operate under its existing brand and developer surface during integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png",
+     "score": 55.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 45.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 64.9,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 32.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 38
+    },
+    {
+     "name": "TheBrief",
+     "slug": "thebrief",
+     "description": "The Brief (formerly Creatopy) is an AI-powered advertising creation platform that helps brands and agencies discover, create, launch, and optimize ads at scale. Its Ad Studio, AI agents (Discover, Create, Optimize), and native ad server generate on-brand creatives, resize a single design into 50+ ad formats, publish directly to networks like Meta, Google Ads, CM360, DV360 and Veeva, and optimize campaign performance with data-backed recommendations. Founded in 2021 and based in Romania, The Brief is a portfolio company of Point Nine. It ships a documented Public API on two co-equal surfaces — a REST API at https://api.thebrief.ai/v1 and a single GraphQL endpoint at https://graphql.thebrief.ai/public whose 186-type schema is readable by anonymous introspection — covering designs and templates, brand kits, projects and folders, exports and creatives, ad serving and ad-tag reporting, team users and roles, credits, and team webhooks. Authentication is a JWT bearer token minted from a clientId/clientSecret pair; the same signed token powers the App Integration flow that embeds the Ad Studio editor inside a customer's own product. No OpenAPI is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thebrief/refs/heads/main/screenshots/thebrief-2026-08-17T082340.png",
+     "score": 55.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 26.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 39
+    },
+    {
+     "name": "TikTok Marketing API",
+     "slug": "tiktok-ads",
+     "description": "TikTok for Business is TikTok's advertising platform, where brands, agencies and advertisers create, manage and optimize ad campaigns across TikTok and its family of apps. The TikTok API for Business — the Marketing API at business-api.tiktok.com/open_api/v1.3 — is the REST interface behind it, covering advertiser accounts, campaigns, ad groups, ads, Upgraded Smart+ and GMV Max automation, creatives and files, product catalogs, custom and lookalike audiences, Business Center asset and member administration, conversion measurement through the Events API, and synchronous plus asynchronous reporting. Access is granted by a three-legged advertiser authorization that issues a long-lived token presented in an Access-Token header, with permissions expressed as a three-level hierarchy of numeric scope IDs. TikTok also operates a hosted Model Context Protocol server that packages roughly 400 of these endpoints as OAuth-protected MCP tools for AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/screenshots/tiktok-ads-2026-06-20T195404.png",
+     "score": 55.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 58.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 78.0,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 51.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
+     "rank": 40
+    },
+    {
+     "name": "AdMob",
+     "slug": "admob",
+     "description": "AdMob is Google's mobile app advertising and monetization platform, letting app publishers earn revenue through in-app ads (banner, interstitial, rewarded, rewarded interstitial, native, and app open formats), maximize fill rate and eCPM with AdMob Mediation and open bidding across many ad networks, and understand performance through reporting and user metrics. The AdMob API (admob.googleapis.com) provides programmatic access to AdMob account data, apps, ad units, mediation configuration, and network, mediation and campaign performance reports over REST/JSON, authorized with Google OAuth 2.0 using the admob.readonly and admob.report scopes. The stable v1 channel is read-only; the v1beta channel carries the entire write surface — creating apps, ad units and ad unit mappings, and creating, patching and A/B testing mediation groups. Google publishes no OpenAPI for AdMob; the machine-readable contract is a Google Discovery Document served by the API host itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png",
+     "score": 54.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 61.3,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 31.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 41
     },
     {
@@ -1909,7 +1909,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 45.7,
      "agent_band": "agent-ready",
@@ -1954,7 +1954,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2025,7 +2025,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 43.0,
      "agent_band": "agent-ready",
@@ -2071,7 +2071,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
@@ -2117,7 +2117,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -2162,7 +2162,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -2207,7 +2207,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -2252,7 +2252,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
@@ -2297,7 +2297,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -2343,7 +2343,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2389,7 +2389,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -2435,7 +2435,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2481,7 +2481,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 43.3,
      "agent_band": "agent-native",
@@ -2527,7 +2527,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -2572,7 +2572,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -2618,7 +2618,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2664,7 +2664,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2717,7 +2717,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -2762,7 +2762,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -2807,7 +2807,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -2853,7 +2853,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2905,7 +2905,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -2951,7 +2951,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -2996,7 +2996,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -3042,7 +3042,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -3088,7 +3088,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3133,7 +3133,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 54.7,
      "agent_band": "agent-native",
@@ -3178,7 +3178,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 45.7,
      "agent_band": "agent-ready",
@@ -3223,7 +3223,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -3269,7 +3269,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
@@ -3314,7 +3314,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -3359,7 +3359,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3412,7 +3412,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -3458,7 +3458,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3504,7 +3504,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -3550,7 +3550,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -3595,7 +3595,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -3641,7 +3641,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -3687,7 +3687,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -3733,7 +3733,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -3779,7 +3779,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3824,7 +3824,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -3870,7 +3870,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 53.1,
      "agent_band": "agent-ready",
@@ -3916,7 +3916,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 16.8,
      "agent_band": "agent-aware",
@@ -3962,7 +3962,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4007,7 +4007,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
@@ -4053,7 +4053,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -4098,7 +4098,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -4144,7 +4144,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -4189,7 +4189,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
@@ -4235,7 +4235,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.2,
      "agent_band": "agent-aware",
@@ -4280,7 +4280,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.6,
      "agent_band": "agent-ready",
@@ -4326,7 +4326,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
@@ -4371,7 +4371,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -4417,7 +4417,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -4463,7 +4463,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 54.1,
      "agent_band": "agent-native",
@@ -4509,7 +4509,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -4555,7 +4555,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
@@ -4611,7 +4611,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -4657,7 +4657,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4702,7 +4702,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4765,7 +4765,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
@@ -4810,7 +4810,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -4856,7 +4856,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -4902,7 +4902,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
@@ -4934,6 +4934,7 @@
      "name": "Teads",
      "slug": "teads",
      "description": "Teads is an omnichannel advertising technology platform (combined with Outbrain since 2024) that helps brands reach audiences across video, display, CTV, and conversational surfaces on 10,000+ premium publisher properties in 50+ markets. For developers and advertisers Teads exposes a server-side Conversions API for privacy-safe conversion event delivery, an In-Chat Recommendations API (V2.0) for injecting contextual ad recommendations into chatbots and LLM experiences, and first-party mobile ad SDKs for iOS, Android, React Native, and Flutter used to build premium outstream inventory inside apps. This profile catalogs those developer-facing surfaces for API discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teads/refs/heads/main/screenshots/teads-2026-09-02T162643.png",
      "score": 37.5,
      "band": "thin",
      "band_label": "Thin",
@@ -4947,7 +4948,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4992,7 +4993,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5038,7 +5039,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.6,
      "agent_band": "agent-ready",
@@ -5067,55 +5068,10 @@
      "rank": 109
     },
     {
-     "name": "MadHive",
-     "slug": "madhive",
-     "description": "Madhive is a New York-based advertising technology company that operates a demand-side platform (DSP) and end-to-end software stack built for local and connected TV (CTV/OTT) advertising. Broadcasters, local media sellers, agencies and political advertisers use Madhive to plan campaigns, activate premium streaming and broadcast inventory, build cookieless audiences from first-party and offline data, manage creatives, and measure outcomes from a single unified DSP. Madhive publishes a public developer program at developer.madhive.com — an Apigee-fronted REST API covering campaigns, line items, advertisers, agencies, creatives, audiences, segments, retargeting, publishers, publisher groups, tracking pixels, products, metros and optimization templates — alongside a hosted Model Context Protocol (MCP) server that exposes the same campaign-management surface to AI assistants such as Claude and Gemini over JSON-RPC 2.0 with OAuth 2.0.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 59.8,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 16.1,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to both sides",
-     "rank": 110
-    },
-    {
      "name": "WideOrbit",
      "slug": "wideorbit",
      "description": "WideOrbit is a premium ad management platform for the media industry, giving broadcast television, cable and broadcast networks, radio, and digital publishers a single system to sell, traffic, bill, and reconcile advertising across linear, digital, and cross-media campaigns. Its products span WO Traffic, WO Network, WO Omni, WO Media Sales, WO Programmatic, and the WO Aurora radio automation suite, all reached through the WO Central workspace. For integration partners, WideOrbit.io exposes a certified developer program and an OIDC-secured API gateway that offers real-time, object-level access to Traffic, Network, and Omni data, complemented by the WO Data Bridge cloud data warehouse. WideOrbit manages roughly $33 billion in annual ad revenue for 6,450+ stations and networks. It was surfaced as a portfolio company of Mayfield and enriched in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wideorbit/refs/heads/main/screenshots/wideorbit-2026-09-02T170733.png",
      "score": 37.2,
      "band": "thin",
      "band_label": "Thin",
@@ -5129,7 +5085,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -5155,7 +5111,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "NaviStone",
@@ -5175,7 +5131,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -5201,7 +5157,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Pokkt",
@@ -5221,7 +5177,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -5247,7 +5203,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Jeeng",
@@ -5267,7 +5223,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -5293,7 +5249,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Amobee",
@@ -5313,7 +5269,7 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -5339,7 +5295,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "LoopMe",
@@ -5359,7 +5315,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -5384,7 +5340,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Sinclair, Inc.",
@@ -5404,7 +5360,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -5430,7 +5386,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "AppLovin",
@@ -5450,7 +5406,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -5476,6 +5432,52 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 117
+    },
+    {
+     "name": "MadHive",
+     "slug": "madhive",
+     "description": "Madhive is a New York-based advertising technology company that operates a demand-side platform (DSP) and end-to-end software stack built for local and connected TV (CTV/OTT) advertising. Broadcasters, local media sellers, agencies and political advertisers use Madhive to plan campaigns, activate premium streaming and broadcast inventory, build cookieless audiences from first-party and offline data, manage creatives, and measure outcomes from a single unified DSP. Madhive publishes a public developer program at developer.madhive.com — an Apigee-fronted REST API covering campaigns, line items, advertisers, agencies, creatives, audiences, segments, retargeting, publishers, publisher groups, tracking pixels, products, metros and optimization templates — alongside a hosted Model Context Protocol (MCP) server that exposes the same campaign-management surface to AI assistants such as Claude and Gemini over JSON-RPC 2.0 with OAuth 2.0.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png",
+     "score": 35.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 59.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 16.1,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to both sides",
      "rank": 118
     },
     {
@@ -5496,7 +5498,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.3,
      "agent_band": "agent-aware",
@@ -5542,7 +5544,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -5588,7 +5590,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -5634,7 +5636,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -5680,7 +5682,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -5725,7 +5727,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -5770,7 +5772,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -5816,7 +5818,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 16.9,
      "agent_band": "agent-aware",
@@ -5861,7 +5863,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -5907,7 +5909,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -5952,7 +5954,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -5998,7 +6000,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -6044,7 +6046,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -6090,7 +6092,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -6135,7 +6137,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6181,7 +6183,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6226,7 +6228,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6265,6 +6267,7 @@
      "name": "Terminus",
      "slug": "terminus",
      "description": "Terminus is an account-based marketing (ABM) platform covering account-based advertising, web personalization, email-signature marketing (Sigstr), conversational chat (Ramble) and revenue measurement (BrightFunnel). Terminus merged into DemandScience on 2024-11-12; terminus.com now 301-redirects to demandscience.com and the product runs as the DemandScience ABM Platform at app.demandscienceplatform.com. Terminus-branded infrastructure is still in production — api.terminusplatform.com, email.terminusplatform.com (Email Experiences / Signature Ads), terminus.bound360.com (Web Experiences) and *.terminus.services — and the API reference is published on a Redocly developer portal at developer.terminus.com. Platform API access is issued through a support ticket, and every path on the developer portal and the API host requires credentials. A third API is publicly documented: the Verify API (formerly Lastbounce, sold as Intelligent Verification) at api.lastbounce.com, whose endpoints, x-api-key header, error envelope and result-code vocabulary are all published in the DemandScience Help Center — as prose and cURL, with no OpenAPI served anywhere. No plans or price points are published, no rate limits are documented, and there is no first-party SDK in any registry for any of the three APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/terminus/refs/heads/main/screenshots/terminus-2026-09-02T163148.png",
      "score": 31.1,
      "band": "thin",
      "band_label": "Thin",
@@ -6278,7 +6281,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6323,7 +6326,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -6369,7 +6372,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -6401,6 +6404,7 @@
      "name": "Sojern",
      "slug": "sojern",
      "description": "Sojern is an AI-powered digital marketing platform built for the hospitality and travel industry. Powered by the Sojern Traveler Ecosystem, it unifies real-time traveler intent data, AI-driven audience predictions, and multichannel media activation across display, social, video, connected TV, SEM, metasearch, email, and native channels to help hotels, destinations, attractions, airlines, and agencies drive direct bookings, improve ROI, and grow guest loyalty. The platform spans audiences, creative services, activation, optimization, measurement, and attribution, plus guest-experience tools. Sojern publishes no public developer program: there is no developer portal, no API reference and no machine-readable contract. Its integration surface is the partner-side Sojern Universal Pixel and server-to-server postback described in its Technology Specifications for Partners, while the customer portal is backed by an authenticated GraphQL endpoint whose introspection is disabled for anonymous callers. This is a company profile in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sojern/refs/heads/main/screenshots/sojern-2026-09-02T160103.png",
      "score": 29.5,
      "band": "thin",
      "band_label": "Thin",
@@ -6414,7 +6418,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6460,7 +6464,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6504,7 +6508,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -6550,7 +6554,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -6596,7 +6600,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6642,7 +6646,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -6687,7 +6691,7 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -6732,7 +6736,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.3,
      "agent_band": "agent-ready",
@@ -6764,6 +6768,7 @@
      "name": "Swiftly",
      "slug": "swiftly",
      "description": "Swiftly (Swiftly Systems, Inc.) is a Seattle-based retail technology company that sells an AI platform purpose-built for grocery, convenience and wholesale retail. It powers white-labeled shopper mobile apps and websites for regional and independent retailers, and runs a multi-retailer closed-loop retail media network that lets brands buy targeted advertising against first-party shopper data. Products include the Marketing and Operations AI Stacks, Swiftly Connect (POS / loyalty / inventory / supplier data unification), Audience Optimizer, SmartCircular digital circulars, Alcohol Cashback (from the BYBE acquisition) and Retail Media. The company reports live transactions, 9 million products and closed-loop campaign outcomes across roughly 33,000 storefronts. Swiftly has raised more than $200M and trades on the Forge Global secondary market. Swiftly publishes no public developer program: the shopper-facing GraphQL API behind its retailer apps is anonymously introspectable at prod.swiftlyapi.net/graphql, but there is no developer portal, no reference documentation and no published SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftly/refs/heads/main/screenshots/swiftly-2026-09-02T161359.png",
      "score": 27.7,
      "band": "thin",
      "band_label": "Thin",
@@ -6777,7 +6782,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -6823,7 +6828,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 45.1,
      "agent_band": "agent-ready",
@@ -6869,7 +6874,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -6914,7 +6919,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -6959,7 +6964,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -7003,7 +7008,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -7049,7 +7054,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -7095,7 +7100,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -7140,7 +7145,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -7185,7 +7190,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -7241,7 +7246,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
@@ -7287,7 +7292,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -7332,7 +7337,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -7377,7 +7382,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -7423,7 +7428,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -7469,7 +7474,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -7501,6 +7506,7 @@
      "name": "Zemanta",
      "slug": "zemanta",
      "description": "Zemanta is a native advertising and content-recommendation technology company founded in 2007 (Ljubljana, Slovenia and New York), best known for Zemanta One, a self-serve programmatic demand-side platform (DSP) for native advertising. Outbrain acquired Zemanta in 2017 and the DSP now trades as Teads DSP. The product line survived both the acquisition and the rebrand, and its API is live — the Teads DSP REST Campaign Management API, the former Zemanta One API, is still served from Zemanta-owned hosts, with the API endpoint at https://oneapi.zemanta.com/rest/v1 and a complete public reference at https://dev.zemanta.com/one/api/. The API covers accounts, credits, campaigns, budgets, goals, ad groups, ads, creatives, video assets, bid modifiers, measurement services, conversion definitions, audiences, publisher groups, deals, keyword lists, reporting and real-time statistics. Authentication is two-legged OAuth 2.0 client credentials; access is granted through a sales relationship rather than self-service sign-up. The console host one.zemanta.com 301-redirects every path to the matching path on dsp.outbrain.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/screenshots/zemanta-2026-09-02T171553.png",
      "score": 25.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7514,7 +7520,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -7559,7 +7565,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7605,7 +7611,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
@@ -7650,7 +7656,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -7682,6 +7688,7 @@
      "name": "Tremor Video",
      "slug": "tremor-video",
      "description": "Tremor Video DSP is the demand-side platform originally built by Tremor Video and Tremor International; following the consolidation of Tremor Video DSP and Amobee it is now marketed as the Nexxen DSP, part of the unified Nexxen advertising stack (DSP, SSP, Ad Server and Data Platform). It offers a REST API for programmatic and connected-TV (CTV) advertising operations, letting partners manage advertisers, insertion orders, packages, line items, ads, creatives, audience segments, inventory and publisher deals, plus read-only device and geographic reference services and an asynchronous reporting service. The four services sit behind one gateway at services.amobee.com and share a single OAuth2 client-credentials bearer token. Nexxen publishes no OpenAPI; the machine-readable contract is a public Postman collection of 94 requests with 75 saved response examples, and API credentials are provisioned inside an existing DSP contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/screenshots/tremor-video-2026-09-02T164210.png",
      "score": 24.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7695,7 +7702,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -7741,7 +7748,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -7786,7 +7793,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -7832,7 +7839,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -7878,7 +7885,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -7924,7 +7931,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7955,6 +7962,7 @@
      "name": "Stllr Network",
      "slug": "stllr-network",
      "description": "Stllr Network is an AI-powered user-generated-content (UGC) and creator-marketing platform for the Arab world, connecting brands with a network of nano and micro content creators and influencers across categories such as beauty, entertainment, tech, lifestyle, parenting, gaming, fashion, fitness, and cooking. Its products include Remix, an AI tool that scales creator videos into multiple ad variations; Premier, a managed service that handles creator outreach and ad-campaign management; and pay-as-you-go video Packages (PAYG). The platform is brand- and consumer-facing, billed in Saudi Riyal (SAR), and sells through a fully published self-serve rate card of monthly UGC subscriptions and per-video bundles. It does not publish a public developer API, SDK, developer portal, or any API documentation: the string \"API\" does not appear anywhere on the marketing site. A real first-party backend does exist at api.stllr.network — the Next.js workspace at app.stllr.network calls its /v1/ routes, including TikTok and Google OAuth hand-offs — but it is an application backend with no published contract. Stllr has, by contrast, done deliberate agent-discovery work on its marketing surface: it serves a hand-written llms.txt and a robots.txt that explicitly allows OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude-SearchBot, ClaudeBot and Google-Extended. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stllr-network/refs/heads/main/screenshots/stllr-network-2026-09-02T160908.png",
      "score": 22.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7968,7 +7976,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7999,6 +8007,7 @@
      "name": "Tvscientific",
      "slug": "tvscientific",
      "description": "tvScientific is a connected-TV (CTV) advertising platform for performance marketers, pairing premium streaming-TV inventory with AI-powered bidding and optimization and outcome-based measurement so brands can run television campaigns against measurable goals like sales, app installs, and site traffic. It positions itself on \"premium inventory, AI-powered optimization, and radical transparency,\" and offers a self-serve buying platform plus an academy and reporting resources for advertisers and agencies. Originally surfaced as a portfolio company of Norwest Venture Partners, it now brands itself \"tvScientific by Pinterest\" after Pinterest completed its acquisition of the company in February 2026. tvScientific runs a real Campaign Management REST API at api.tvscientific.app — named as a component on its own status page — whose v1 and v2 version roots publicly enumerate 50 resource collections covering campaigns, line items, creatives, audiences, targeting, bid strategies, billing and accounts. It publishes no developer program around it: no portal, no API reference, no OpenAPI or GraphQL contract, no SDK, no CLI, and no MCP or agent surface. Every collection but one is credentialed, both documentation hosts sit behind a customer login, and the machine-readable operational signal is limited to an Atlassian Statuspage API and a first-party Google Tag Manager measurement pixel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/screenshots/tvscientific-2026-09-02T164602.png",
      "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8012,7 +8021,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -8058,7 +8067,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8103,7 +8112,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -8149,7 +8158,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -8195,7 +8204,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8233,6 +8242,7 @@
      "name": "Spotwise, Inc.",
      "slug": "spotwise-inc",
      "description": "Spotwise is an agentic operating system for broadcast media that detects advertising across radio, TV, podcasts, and streaming audio in real time, converts that ad-play data into qualified sales leads with decision-maker enrichment, and automates the outreach and CRM workflows that sell against it. Built by broadcasters and backed by 500 Global, the platform packages products including Spotwise aOS, the Spotty conversational copilot, Spotwise Intelligence, Lead-list, Contact Finder, Monitors & Signals, and Skills for ad-sales and commercial-leadership teams across 14 countries. Spotwise ships two OAuth-protected remote Model Context Protocol servers — a product server at app.spotwise.ai/api/mcp and a content server at spotwise.ai/api/mcp — each advertised by RFC 8414 and RFC 9728 metadata documents, plus a publicly readable Payload CMS REST and GraphQL content API on spotwise.ai. It publishes no OpenAPI, no developer portal, no API reference and no SDK, so the product surface its own launch announcement calls \"an open API and a Model Context Protocol server\" cannot be planned against without an account.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotwise-inc/refs/heads/main/screenshots/spotwise-inc-2026-09-02T160602.png",
      "score": 20.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8246,7 +8256,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -8292,7 +8302,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -8337,7 +8347,7 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -8383,7 +8393,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -8428,7 +8438,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -8474,7 +8484,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -8505,6 +8515,7 @@
      "name": "WeStock",
      "slug": "westock",
      "description": "WeStock is a shopper-marketing platform that helps consumer packaged goods (CPG) brands drive product trial, build first-party retail audiences, and manage trade and shopper marketing strategy from a single dashboard. It combines digital rebates and promotional campaigns, paid social advertising (primarily Meta), in-store sampling and demos, retail media management across Amazon, Walmart, and Instacart, email/SMS automation, and influencer marketing, alongside a consumer discovery web app used by 600,000+ shoppers to browse new products. Campaign data — trials, conversions, and repeat behavior — is unified in one place. A Techstars-backed company; its entire public surface is a Webflow marketing site, a Help Scout knowledge base of product how-tos, and login-gated dashboard and consumer apps. WeStock runs a real first-party backend at api.westock.io — hardened Node/Express that answers HTTP 401 on every path including the root — but ships no developer program: no API reference, no OpenAPI or GraphQL schema, no SDK on any registry, no webhooks, and no API pricing. Its documented integrations run the other way: WeStock consumes Klaviyo and Attentive using keys the customer pastes into the WeStock dashboard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westock/refs/heads/main/screenshots/westock-2026-09-02T170634.png",
      "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8518,7 +8529,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8564,7 +8575,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8609,7 +8620,7 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8640,6 +8651,7 @@
      "name": "Valid",
      "slug": "valid",
      "description": "Valid is an AI-native advertising agency that grows consumer companies through an end-to-end performance marketing offering, combining AI-generated performance creative (20+ ads per month, moving from concept to launch in about three days), brand-specific AI-influencers with organic followings, and managed media buying across Meta, TikTok, Google, Snap, and AppLovin. Every managed client also receives the \"Chat With Your Ads\" MCP server — a live, first-party Model Context Protocol endpoint at mcp.valid.co that lets an agent query the whole ad account in plain English. That MCP surface is customer-gated rather than public: it is protected by an OAuth 2.1 authorization code flow with PKCE and RFC 7591 dynamic client registration, and it correctly serves the full RFC 9728 / RFC 8414 discovery chain, but Valid publishes no developer portal, no documentation, no OpenAPI, and no tool catalog, so the capability surface is invisible without a client account. Valid is backed by Canaan Partners and based in San Francisco, California.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valid/refs/heads/main/screenshots/valid-2026-09-02T165318.png",
      "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8653,7 +8665,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -8685,6 +8697,7 @@
      "name": "Zefr",
      "slug": "zefr",
      "description": "Zefr is an ad-tech content intelligence company that classifies social video, image, audio and text so advertisers can buy and measure media against brand safety and suitability standards. Its classification engine labels content across YouTube, Meta (Facebook and Instagram), TikTok, Snapchat, Google Ads and DV360 against the 4A's and GARM frameworks, and its Brand Suitability Suite gives brands pre-bid controls and post-bid measurement from a single console. Zefr has no public developer program: production API infrastructure exists (api.zefr.com is a Google Apigee gateway, alongside api2.zefr.com and api-eu1.zefr.com) but no developer portal, API reference or machine-readable contract is published anywhere, and access runs through a demo request. The only machine-readable documents Zefr serves publicly are the OpenID Connect and OAuth 2.0 Authorization Server Metadata discovery documents on its Auth0 custom domain, login.zefr.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zefr/refs/heads/main/screenshots/zefr-2026-09-02T171527.png",
      "score": 18.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8698,7 +8711,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -8743,7 +8756,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -8789,7 +8802,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -8820,6 +8833,7 @@
      "name": "ViralGains",
      "slug": "viralgains",
      "description": "ViralGains is an advertising technology platform that collects consumer feedback directly within digital ad units as zero-party data, then combines that real-time, consented consumer input with its VoiceAlike AI to build higher-quality audiences and deliver more relevant, privacy-respecting advertising for brands and agencies. The platform spans zero-party data collection, brand lift measurement, and a dedicated health and pharma offering (VG Health). ViralGains was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this enrichment pass the company publishes a marketing and product website but no public developer program, API documentation, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viralgains/refs/heads/main/screenshots/viralgains-2026-09-02T165953.png",
      "score": 17.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8833,7 +8847,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8878,6 +8892,7 @@
      "name": "TVbeat",
      "slug": "tvbeat",
      "description": "TVbeat is a London-based, Techstars-backed advertising technology company whose platform unifies linear television and streaming (CTV) advertising operations into a single system. It lets media owners and buyers forecast, plan, transact, optimize, and measure campaigns across audiences, yield, and operations, supporting multi-currency transacting (ratings, spots, impressions, and outcomes) and modern buying models — Direct, Programmatic, Self-Serve, and AI-driven — across both traditional linear spots and streaming inventory. TVbeat publishes a complete first-party API reference for its analytics API — three query endpoints signed with a custom TVBEAT-HMAC-SHA256 scheme, with two draft-04 JSON Schemas and example responses — in its own GitHub organization at github.com/tvbeat/public, but the API root it names (api.tvbeat.com) no longer resolves in public DNS and the document has not been modified since 2017. TVbeat ships no OpenAPI, SDK, CLI, MCP server or agent card, and its current documentation portal at docs.tvbeat.com is credential-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tvbeat/refs/heads/main/screenshots/tvbeat-2026-09-02T164602.png",
      "score": 17.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8891,7 +8906,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -8937,7 +8952,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -8982,7 +8997,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9027,7 +9042,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -9072,7 +9087,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9118,7 +9133,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -9163,7 +9178,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9208,7 +9223,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -9240,6 +9255,7 @@
      "name": "TNL Mediagene",
      "slug": "tnlmedia",
      "description": "TNL Mediagene is a next-generation digital and technology media group serving millennial and Gen Z audiences across Asia. Formed from the 2023 merger of Taiwan's The News Lens and Japan's Mediagene, the group operates more than twenty media brands spanning news, business, technology, lifestyle, and sports — including The News Lens, INSIDE, Cool3c, Gizmodo Japan, Business Insider Japan, Lifehacker Japan, Roomie, and licensed titles such as Digiday Japan and Glossy Japan. Beyond publishing, the company runs advertising and marketing technology (the Ad2iction DSP), an AI-driven customer data and audience analytics platform, e-commerce properties, and market-research services. It is a portfolio company of 500 Global and is listed on Nasdaq as TNMG. The group publishes no developer portal, no OpenAPI, and no SDK. Its one public, machine-readable integration surface is the Ad2iction header-bidding adapter shipped inside Prebid.js — a first-party-maintained open-source module that posts bid requests to https://ads.ad2iction.com/html/prebid/, documented on the Prebid.org bidder registry rather than on a TNL Mediagene developer site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/screenshots/tnlmedia-2026-09-02T163832.png",
      "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9253,7 +9269,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -9285,6 +9301,7 @@
      "name": "Spot Runner",
      "slug": "spot-runner",
      "description": "Spot Runner is an AI-driven advertising technology company (backed by Battery Ventures) focused on contextual media planning for Connected TV (CTV) and online video. Its platform uses proprietary MicroModeling AI through tools such as ContextPlanner and ContextDeals to match advertiser creative to the most relevant, brand-suitable premium video ad opportunities across leading streaming networks, publishers, and TV OEMs, and to send Deal IDs directly to a buyer's DSP seat. Spot Runner also markets an \"Agentic Agency\" of multi-agent creative tooling for SMBs and DTC brands. The public surface is a marketing site plus an advertiser login portal; there is no published developer API, OpenAPI, or SDK. The site does expose a hosted Wix Site MCP endpoint for agentic AI access, advertised via its /llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spot-runner/refs/heads/main/screenshots/spot-runner-2026-09-02T160549.png",
      "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9298,7 +9315,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -9329,6 +9346,7 @@
      "name": "TapAd",
      "slug": "tapad",
      "description": "Tapad is a digital identity and cross-device graph technology company, founded in 2010 and headquartered in New York City. Its flagship product, the Tapad Graph, is a probabilistic device graph that lets marketers, agencies, and platforms recognize a brand's customer or related household across the many devices they use, powering programmatic targeting, media measurement, attribution, and personalization. Tapad was acquired by the Norwegian telecom Telenor in 2016 and then by the credit-and-data company Experian in 2020, and by 2026 its product and company pages redirect into Experian's Consumer Sync marketing suite while docs.tapad.com redirects to Experian's client-only Marketing Knowledge Base. Tapad runs no public developer program — no portal, no OpenAPI, no pricing and no self-service signup — but it does still operate two live first-party HTTP endpoints, the Tapestry Web API and an event tracking beacon, both requiring a partner id that only Tapad can issue, and it published four open-source mobile SDKs that it has since archived as unmaintained. It was added to the API Evangelist network as a portfolio company of Battery Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tapad/refs/heads/main/screenshots/tapad-2026-09-02T162528.png",
      "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9342,7 +9360,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -9387,7 +9405,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9432,7 +9450,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9478,7 +9496,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9523,7 +9541,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9568,7 +9586,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9600,6 +9618,7 @@
      "name": "Virool",
      "slug": "virool",
      "description": "Virool is a native video advertising platform that distributes branded video content (\"advertainment\") across the web to help brands reach and grow targeted audiences. It pairs a proprietary data-management platform of roughly 450 million unique profiles for granular audience targeting with native video placement technology designed to minimize disruption to the user experience, and a real-time performance analytics dashboard that includes emotional insight tracking (eIQ). Virool serves advertisers and publishers through self-service campaign and monetization dashboards rather than a public developer API. The company was backed by 500 Global and a16z and has run campaigns for brands including Turkish Airlines, Under Armour, and WestJet.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virool/refs/heads/main/screenshots/virool-2026-09-02T170007.png",
      "score": 12.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9613,7 +9632,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9659,7 +9678,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9705,7 +9724,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9751,7 +9770,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9797,7 +9816,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9828,6 +9847,7 @@
      "name": "Targetspot",
      "slug": "targetspot",
      "description": "Targetspot is a global digital-audio advertising (AdTech) company founded in 2007 and headquartered in New York, connecting brands with audiences across podcasts, online radio, streaming, in-video audio, mobile gaming, and in-home/out-of-home audio. Its Passport product is a self-serve ad-serving platform for publishers and advertisers, with granular reporting data made available via a partner API, and Targetplay extends audio advertising into gaming and in-app inventory. Targetspot is now part of the Azerion platform. This profile originated as a Union Square Ventures portfolio lead and has been enriched from public web probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/targetspot/refs/heads/main/screenshots/targetspot-2026-09-02T162542.png",
      "score": 11.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9841,7 +9861,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9896,7 +9916,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9941,7 +9961,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9985,7 +10005,7 @@
       "commercial_clarity": 11.8,
       "access_clarity": 11.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10030,7 +10050,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10076,7 +10096,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10122,7 +10142,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10154,6 +10174,7 @@
      "name": "SureWaves",
      "slug": "surewaves",
      "description": "SureWaves is a broadcast-television advertising technology company that integrates linear TV with digital advertising infrastructure. It provides AI-powered spot and yield management for broadcasters and real-time, pay-for-performance campaign tooling for advertisers, and operates India's largest spot TV network — more than 20 million spots monthly across 550+ local channels reaching 490+ million households. Holder of 50+ patents, backed by Accel, with offices in Bangalore, New York, McLean, Mumbai and New Delhi. Added to the API Evangelist network as a portfolio-lead stub; two enrichment passes (2026-07 and 2026-08) found no public API, developer portal, SDK, package, or machine-readable contract of any kind — the platform is sold as an enterprise engagement behind a \"Request Meeting\" form. The company does display a SOC 2 Type II badge on its homepage, attested by Prescient Assurance against AICPA SSAE 18.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/surewaves/refs/heads/main/screenshots/surewaves-2026-09-02T161314.png",
      "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10167,7 +10188,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10213,7 +10234,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10265,7 +10286,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10297,6 +10318,7 @@
      "name": "Supponor",
      "slug": "supponor",
      "description": "Supponor is a virtual advertising technology company for live sports broadcasting, now part of TGI Sport. Its software digitally replaces and inserts in-venue brand placements with real-time overlays, letting broadcasters serve region-targeted advertising across multiple feeds, languages, surfaces, and camera angles. Core products include AIR, an AI-driven virtual advertising platform for live broadcast; HUB, a pre-event suite for fixtures, inventory, playlists, creative and approvals; and Data Room, a post-event analytics platform for reporting, video storage, and performance metrics. Supponor works across any sport and surface with remotely deployable, all-weather technology, and is used by organizations including FC Bayern, the NHL, The FA, Serie A, and La Liga. Added to the API Evangelist network as a portfolio company of Northzone; it publishes a corporate and careers web presence but no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supponor/refs/heads/main/screenshots/supponor-2026-09-02T161310.png",
      "score": 9.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10310,7 +10332,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10356,7 +10378,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10401,7 +10423,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10446,7 +10468,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -10491,7 +10513,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -10536,7 +10558,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10582,7 +10604,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10635,7 +10657,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10680,7 +10702,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10726,7 +10748,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10772,7 +10794,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10818,7 +10840,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10864,7 +10886,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10909,7 +10931,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10955,7 +10977,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11001,7 +11023,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -11047,7 +11069,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11092,7 +11114,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11137,7 +11159,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11183,7 +11205,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11228,7 +11250,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11272,7 +11294,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11317,7 +11339,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11363,7 +11385,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11407,7 +11429,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11452,7 +11474,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11497,7 +11519,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11529,6 +11551,7 @@
      "name": "Tapsense",
      "slug": "tapsense",
      "description": "TapSense was a mobile advertising and real-time-bidding exchange founded in 2011 in San Francisco, connecting app publishers to brand advertisers through a private mobile RTB marketplace, an advertiser API and publisher SDKs. It was surfaced as a portfolio company of a16z and added to the API Evangelist network as a stub for enrichment. The company is defunct and the 2026-08-12 re-verification confirms it - the tapsense.com zone is now a parked domain held by Trellian Pty. Limited, serving a 995-byte \"This domain may be for sale\" holding page from a wildcard A record, so www, api and developer subdomains all return that same page and docs.tapsense.com fails TLS on an expired certificate. No OpenAPI, GraphQL, AsyncAPI, MCP, agent card, webhook or well-known document exists on any host, and no first-party package survives on npm, PyPI, RubyGems, Maven Central, CocoaPods or crates.io. The advertiser API and mobile SDKs the company once marketed went offline with it, so there is nothing to enrich beyond this identity record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tapsense/refs/heads/main/screenshots/tapsense-2026-09-02T162533.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11542,7 +11565,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11586,7 +11609,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

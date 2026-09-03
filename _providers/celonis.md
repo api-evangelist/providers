@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 5
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 78 operations · 33 acting · 5 human-in-the-loop
 api_count: 7
 apis:
-- description: The Agents - Conversation API from Celonis — 1 operation(s) for agents - conversation.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Agents - Conversation API from Celonis — 1 operation(s) for agents - conversation.
   name: Celonis Agents - Conversation API
   slug: celonis-agents-conversation-api
-- description: 'The Beta: OData Protocol API from Celonis — 3 operation(s) for beta: odata protocol.'
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: 'The Beta: OData Protocol API from Celonis — 3 operation(s) for beta: odata protocol.'
   name: 'Celonis Beta: OData Protocol API'
   slug: celonis-beta-odata-protocol-api
-- description: 'The Beta: Semantics for 3P AI Agents API from Celonis — 4 operation(s) for beta: semantics for 3p ai agents.'
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: 'The Beta: Semantics for 3P AI Agents API from Celonis — 4 operation(s) for beta: semantics for 3p ai agents.'
   name: 'Celonis Beta: Semantics for 3P AI Agents API'
   slug: celonis-beta-semantics-for-3p-ai-agents-api
-- description: The Data API from Celonis — 2 operation(s) for data.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Data API from Celonis — 2 operation(s) for data.
   name: Celonis Data API
   slug: celonis-data-api
-- description: The Job Execution API is used to trigger, stop, and track job executions.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Job Execution API is used to trigger, stop, and track job executions.
   name: Celonis Job Execution API
   slug: celonis-job-execution-api
-- description: The Job Execution Group API retrieves job execution groups.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Job Execution Group API retrieves job execution groups.
   name: Celonis Job Execution Group API
   slug: celonis-job-execution-group-api
-- description: Allows you to query the Login History for a team and export it for use with external monitoring tools to capture and monitor platform login events.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: Allows you to query the Login History for a team and export it for use with external monitoring tools to capture and monitor platform login events.
   name: Celonis Login History API API
   slug: celonis-login-history-api-api
-- description: Allows you to query and export a list of all members assigned to a Celonis Platform team.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: Allows you to query and export a list of all members assigned to a Celonis Platform team.
   name: Celonis Members API API
   slug: celonis-members-api-api
-- description: The Notebook API is used to create, read, update, and delete notebooks.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Notebook API is used to create, read, update, and delete notebooks.
   name: Celonis Notebook API
   slug: celonis-notebook-api
-- description: The Notebook Executions API is used to trigger, stop, and track notebook executions.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Notebook Executions API is used to trigger, stop, and track notebook executions.
   name: Celonis Notebook Execution API
   slug: celonis-notebook-execution-api
-- description: The Notebook Resources API configures notebook resource such as CPU, memory, storage, and gpu.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Notebook Resources API configures notebook resource such as CPU, memory, storage, and gpu.
   name: Celonis Notebook Resources API
   slug: celonis-notebook-resources-api
-- description: OpenAPI endpoints for calling tools configured in the Agent Tools (MCP) Asset.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: OpenAPI endpoints for calling tools configured in the Agent Tools (MCP) Asset.
   name: Celonis OpenAPI Tool Calling API
   slug: celonis-openapi-tool-calling-api
-- description: Export all permissions for the team as a JSON file.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: Export all permissions for the team as a JSON file.
   name: Celonis Permissions Export API API
   slug: celonis-permissions-export-api-api
-- description: The Schedule API is used to create, read, update, and delete schedules.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Schedule API is used to create, read, update, and delete schedules.
   name: Celonis Schedule API
   slug: celonis-schedule-api
-- description: The Schema API from Celonis — 6 operation(s) for schema.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Schema API from Celonis — 6 operation(s) for schema.
   name: Celonis Schema API
   slug: celonis-schema-api
-- description: The Subscriptions API from Celonis — 8 operation(s) for subscriptions.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Subscriptions API from Celonis — 8 operation(s) for subscriptions.
   name: Celonis Subscriptions API
   slug: celonis-subscriptions-api
-- description: The Triggers API from Celonis — 2 operation(s) for triggers.
+- baseURL: https://{team_domain}.{realm}.celonis.cloud
+  baseurl_source: declared
+  description: The Triggers API from Celonis — 2 operation(s) for triggers.
   name: Celonis Triggers API
   slug: celonis-triggers-api
 artifact_total: 59
@@ -388,7 +422,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -398,7 +432,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 63.3
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,7 +444,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celonis/refs/heads/main/screenshots/celonis-2026-07-25T204910.png
 security:

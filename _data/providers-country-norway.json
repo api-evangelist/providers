@@ -1,6 +1,6 @@
 {
- "total": 14,
- "shown": 14,
+ "total": 15,
+ "shown": 15,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -71,9 +71,60 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "DIPS",
+     "slug": "dips",
+     "description": "DIPS AS is Norway's largest supplier of electronic health record (EHR) systems to hospitals, in operation since 1987 and headquartered in Bodø. Its DIPS Arena EHR is built on the openEHR reference model and exposes standardised HL7 FHIR R4 and openEHR REST interfaces. Through Open DIPS — a public developer portal and synthetic-data sandbox at dips.developer.azure-api.net — DIPS publishes an OpenID Connect provider (DIPS Federation Service), a FHIR Patient API and a SMART on FHIR launch surface, backed by a public FHIR R4 Implementation Guide and an openEHR archetype repository on GitHub.",
+     "score": 54.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 45.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 55.3,
+      "access_clarity": 55.3
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 66.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
     {
      "name": "Opera",
      "slug": "opera",
@@ -92,7 +143,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -117,7 +168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "itslearning",
@@ -137,7 +188,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -176,7 +227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Yr",
@@ -196,7 +247,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -228,7 +279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -259,7 +310,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -284,7 +335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Autopay",
@@ -304,7 +355,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -336,19 +387,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Norwegian University of Science and Technology",
      "slug": "ntnu",
      "description": "The Norwegian University of Science and Technology (NTNU) is Norway's largest university, headquartered in Trondheim with campuses in Gjovik and Alesund. NTNU operates no consolidated institutional developer portal and publishes no OpenAPI, AsyncAPI or other machine-readable API contract of its own. Its one openly callable, institution-operated surface is the OAI-PMH interface of NTNU Open Access Journals at www.ntnu.no/ojs, which answers Identify, ListMetadataFormats and ListSets over sixteen NTNU-published journals. NTNU also runs an institutional API gateway at api.ntnu.no, but every path on it is behind Feide OAuth and no public documentation, contract or scope list is served without an institutional account. Everything else that looks programmable under NTNU's name is operated by somebody else and entered here as a tenant relationship, not as NTNU engineering: research data in the NTNU collection of DataverseNO (run by UiT The Arctic University of Norway on Dataverse software), research information in Cristin and the national research archive NVA (both run by Sikt), timetables in TP on educloud.no, identity in the Feide federation where NTNU exists as the scope ntnu.no on Sikt's national IdP rather than as its own eduGAIN entity, and teaching in a hosted Canvas tenant. This repo previously carried 35 OpenAPI files and 87 derived artifacts that were splits of the generic Dataverse 6.6 product contract; they were the vendor's, not NTNU's, and have been removed.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png",
-     "score": 30.5,
+     "score": 29.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 6.9,
+      "contract_quality": 4.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
@@ -356,7 +407,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -418,52 +469,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
-    },
-    {
-     "name": "Funcom",
-     "slug": "funcom",
-     "description": "Funcom is a Norwegian video-game developer and publisher founded in 1993, headquartered in Oslo with additional studios in Raleigh (North Carolina), Lisbon, and Bucharest. It is best known for online, open-world, and survival titles including Dune: Awakening, Conan Exiles, Age of Conan, and The Secret World / Secret World Legends, alongside published titles such as Metal: Hellsinger, Aloft, Dune: Spice Wars, and Mutant Year Zero. Funcom is majority-owned by Tencent. It was surfaced as a Northzone portfolio company and added to the API Evangelist network as a company profile; it does not currently publish a public developer API surface, so this profile captures company identity, legal/support links, and domain-security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/funcom/refs/heads/main/screenshots/funcom-2026-07-25T215300.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -491,9 +497,10 @@
      "rank": 9
     },
     {
-     "name": "Villoid",
-     "slug": "villoid",
-     "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com) operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses, shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns, gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.",
+     "name": "Funcom",
+     "slug": "funcom",
+     "description": "Funcom is a Norwegian video-game developer and publisher founded in 1993, headquartered in Oslo with additional studios in Raleigh (North Carolina), Lisbon, and Bucharest. It is best known for online, open-world, and survival titles including Dune: Awakening, Conan Exiles, Age of Conan, and The Secret World / Secret World Legends, alongside published titles such as Metal: Hellsinger, Aloft, Dune: Spice Wars, and Mutant Year Zero. Funcom is majority-owned by Tencent. It was surfaced as a Northzone portfolio company and added to the API Evangelist network as a company profile; it does not currently publish a public developer API surface, so this profile captures company identity, legal/support links, and domain-security posture rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/funcom/refs/heads/main/screenshots/funcom-2026-07-25T215300.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -507,7 +514,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -535,11 +542,11 @@
      "rank": 10
     },
     {
-     "name": "Dimeq",
-     "slug": "dimeq",
-     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
-     "score": 5.0,
+     "name": "Villoid",
+     "slug": "villoid",
+     "description": "Villoid is a Norwegian online fashion retailer (villoid.no, redirected from villoid.com) operating a Shopify-hosted boutique that curates over 250 designer and contemporary womenswear brands such as Ganni, Isabel Marant, Stella McCartney and ROTATE Birger Christensen. The store sells dresses, shoes, bags, accessories, sportswear and home goods, offering same-day delivery in Norway, easy returns, gift cards and payment via Klarna, Vipps, Visa and Mastercard. Originally surfaced as a portfolio company of 500 Global, Villoid exposes a consumer storefront and publishes no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/villoid/refs/heads/main/screenshots/villoid-2026-09-02T165916.png",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -548,11 +555,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -580,10 +587,10 @@
      "rank": 11
     },
     {
-     "name": "Energy Micro",
-     "slug": "energy-micro",
-     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
+     "name": "Dimeq",
+     "slug": "dimeq",
+     "description": "Dimeq is a Norwegian maritime safety technology company working to prevent loss of life at sea and set new health, safety and environmental (HSE) standards for the maritime sector. Its Eye-D System is an IoT-based digital ecosystem that delivers real-time positioning of crew and passengers to one-meter accuracy during emergencies, man-overboard detection using environmental sensors, automatic mustering that registers people in seconds, and statistical analysis for accident documentation and prevention, while keeping data anonymous and GDPR-compliant outside of emergencies. The D-Router gateway supports Wi-Fi, Ethernet, PLC, fiber optics, UWB, Bluetooth, LoRa, ZigBee and MATTER connectivity. This is a hardware/IoT product company with no public developer portal, API, SDK or documentation surface at the time of enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimeq/refs/heads/main/screenshots/dimeq-2026-07-25T212045.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -597,7 +604,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -625,9 +632,10 @@
      "rank": 12
     },
     {
-     "name": "Mamut",
-     "slug": "mamut",
-     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "name": "Energy Micro",
+     "slug": "energy-micro",
+     "description": "Energy Micro was a Norwegian fabless semiconductor company, founded in 2007 and headquartered in Oslo, best known for its EFM32 \"Gecko\" family of energy-friendly 32-bit ARM Cortex-M microcontrollers and the EFR radio products targeting low-power embedded and IoT applications. The company was acquired by Silicon Labs in 2013 and fully absorbed into that company's product lines; its former energymicro.com domain now redirects to silabs.com. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub. Enrichment found no independent, first-party API, developer portal, OpenAPI, SDK, or MCP surface for Energy Micro as a standalone entity — the developer tooling for its EFM32 line lives under Silicon Labs today.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-micro/refs/heads/main/screenshots/energy-micro-2026-07-25T213327.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -641,7 +649,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -669,6 +677,50 @@
      "rank": 13
     },
     {
+     "name": "Mamut",
+     "slug": "mamut",
+     "description": "Mamut was a Norwegian business software company (Mamut ASA / Mamut AS) that provided accounting, ERP, CRM, e-commerce and online-presence software to small and medium-sized businesses across the Nordics and parts of Europe. It was acquired by Visma in 2011 and the Mamut product line has since been absorbed into the Visma family of business software. This profile was surfaced as a portfolio company of Northzone and added to the API Evangelist network as a stub for enrichment. As of this pass the mamut.com web server is unreachable (both HTTP and HTTPS time out) and there is no reachable public developer portal, API documentation, or machine-readable API surface under the Mamut brand; enrichment therefore captured only what could be probed from DNS/TLS. Sector: enterprise.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Nextgentel",
      "slug": "nextgentel",
      "description": "NextGenTel is one of Norway's established independent internet service providers, delivering fiber and DSL broadband, TV (via RiksTV), mobile telephony, and online security services to consumers and small businesses across Norway. Surfaced as a portfolio company of Northzone and added to the API Evangelist network. An enrichment pass (2026-07-20) found a consumer-facing marketing and self-service website (www.nextgentel.no) and a customer help center (hjelp.nextgentel.no), but no public developer portal, API documentation, OpenAPI specification, or programmatic API surface — this remains a consumer telecom company with no external API program.",
@@ -686,7 +738,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -718,7 +770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     }
    ]
   }

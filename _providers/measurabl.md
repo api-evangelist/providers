@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,79 +36,127 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: The Buildings API from Measurabl — 6 operation(s) for buildings.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Buildings API from Measurabl — 6 operation(s) for buildings.
   name: Measurabl Buildings API
   slug: measurabl-buildings-api
-- description: The Carbon Estimates API from Measurabl — 7 operation(s) for carbon estimates.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Carbon Estimates API from Measurabl — 7 operation(s) for carbon estimates.
   name: Measurabl Carbon Estimates API
   slug: measurabl-carbon-estimates-api
-- description: The Certification Lookups API from Measurabl — 7 operation(s) for certification lookups.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Certification Lookups API from Measurabl — 7 operation(s) for certification lookups.
   name: Measurabl Certification Lookups API
   slug: measurabl-certification-lookups-api
-- description: The Certification Types API from Measurabl — 1 operation(s) for certification types.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Certification Types API from Measurabl — 1 operation(s) for certification types.
   name: Measurabl Certification Types API
   slug: measurabl-certification-types-api
-- description: The Certifications API from Measurabl — 3 operation(s) for certifications.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Certifications API from Measurabl — 3 operation(s) for certifications.
   name: Measurabl Certifications API
   slug: measurabl-certifications-api
-- description: The Energy and Water Meter Bills API from Measurabl — 1 operation(s) for energy and water meter bills.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Energy and Water Meter Bills API from Measurabl — 1 operation(s) for energy and water meter bills.
   name: Measurabl Energy and Water Meter Bills API
   slug: measurabl-energy-and-water-meter-bills-api
-- description: The Energy and Water Meter Readings API from Measurabl — 2 operation(s) for energy and water meter readings.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Energy and Water Meter Readings API from Measurabl — 2 operation(s) for energy and water meter readings.
   name: Measurabl Energy and Water Meter Readings API
   slug: measurabl-energy-and-water-meter-readings-api
-- description: The Energy and Water Meter Spaces API from Measurabl — 2 operation(s) for energy and water meter spaces.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Energy and Water Meter Spaces API from Measurabl — 2 operation(s) for energy and water meter spaces.
   name: Measurabl Energy and Water Meter Spaces API
   slug: measurabl-energy-and-water-meter-spaces-api
-- description: The Energy and Water Meters API from Measurabl — 3 operation(s) for energy and water meters.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Energy and Water Meters API from Measurabl — 3 operation(s) for energy and water meters.
   name: Measurabl Energy and Water Meters API
   slug: measurabl-energy-and-water-meters-api
-- description: The Energy Estimates API from Measurabl — 7 operation(s) for energy estimates.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Energy Estimates API from Measurabl — 7 operation(s) for energy estimates.
   name: Measurabl Energy Estimates API
   slug: measurabl-energy-estimates-api
-- description: The Exports API from Measurabl — 3 operation(s) for exports.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Exports API from Measurabl — 3 operation(s) for exports.
   name: Measurabl Exports API
   slug: measurabl-exports-api
-- description: The Funds API from Measurabl — 2 operation(s) for funds.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Funds API from Measurabl — 2 operation(s) for funds.
   name: Measurabl Funds API
   slug: measurabl-funds-api
-- description: The Funds Buildings API from Measurabl — 1 operation(s) for funds buildings.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Funds Buildings API from Measurabl — 1 operation(s) for funds buildings.
   name: Measurabl Funds Buildings API
   slug: measurabl-funds-buildings-api
-- description: The Listed Real Estate Compliance Files API from Measurabl — 3 operation(s) for listed real estate compliance files.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Listed Real Estate Compliance Files API from Measurabl — 3 operation(s) for listed real estate compliance files.
   name: Measurabl Listed Real Estate Compliance Files API
   slug: measurabl-listed-real-estate-compliance-files-api
-- description: The Listed Real Estate Reports API from Measurabl — 8 operation(s) for listed real estate reports.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Listed Real Estate Reports API from Measurabl — 8 operation(s) for listed real estate reports.
   name: Measurabl Listed Real Estate Reports API
   slug: measurabl-listed-real-estate-reports-api
-- description: The Ordinance Lookups API from Measurabl — 7 operation(s) for ordinance lookups.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Ordinance Lookups API from Measurabl — 7 operation(s) for ordinance lookups.
   name: Measurabl Ordinance Lookups API
   slug: measurabl-ordinance-lookups-api
-- description: The Ordinances API from Measurabl — 1 operation(s) for ordinances.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Ordinances API from Measurabl — 1 operation(s) for ordinances.
   name: Measurabl Ordinances API
   slug: measurabl-ordinances-api
-- description: The Portfolios API from Measurabl — 3 operation(s) for portfolios.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Portfolios API from Measurabl — 3 operation(s) for portfolios.
   name: Measurabl Portfolios API
   slug: measurabl-portfolios-api
-- description: The Ratings API from Measurabl — 3 operation(s) for ratings.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Ratings API from Measurabl — 3 operation(s) for ratings.
   name: Measurabl Ratings API
   slug: measurabl-ratings-api
-- description: The Space Certifications API from Measurabl — 2 operation(s) for space certifications.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Space Certifications API from Measurabl — 2 operation(s) for space certifications.
   name: Measurabl Space Certifications API
   slug: measurabl-space-certifications-api
-- description: The Space Ratings API from Measurabl — 1 operation(s) for space ratings.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Space Ratings API from Measurabl — 1 operation(s) for space ratings.
   name: Measurabl Space Ratings API
   slug: measurabl-space-ratings-api
-- description: The Spaces API from Measurabl — 2 operation(s) for spaces.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Spaces API from Measurabl — 2 operation(s) for spaces.
   name: Measurabl Spaces API
   slug: measurabl-spaces-api
-- description: The Waste Meter Readings API from Measurabl — 2 operation(s) for waste meter readings.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Waste Meter Readings API from Measurabl — 2 operation(s) for waste meter readings.
   name: Measurabl Waste Meter Readings API
   slug: measurabl-waste-meter-readings-api
-- description: The Waste Meters API from Measurabl — 3 operation(s) for waste meters.
+- baseURL: https://api.measurabl.com/core/v0
+  baseurl_source: declared
+  description: The Waste Meters API from Measurabl — 3 operation(s) for waste meters.
   name: Measurabl Waste Meters API
   slug: measurabl-waste-meters-api
 artifact_total: 36
@@ -297,20 +358,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.0
+  composite: 51.9
   coverage:
     artifact_dirs: 21
-    catalog_gap: 76.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 4.5
     contract_quality: 51.2
     developer_ergonomics: 58.9
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 50.0
   previous_composite: 50.0
@@ -334,7 +395,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:

@@ -32,139 +32,225 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
   name: Benzinga Newsfeed & Why Is It Moving API
   slug: benzinga-newsfeed-api
-- description: Structured corporate press release content with ticker, date, and channel filtering plus updatedSince delta queries.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: Structured corporate press release content with ticker, date, and channel filtering plus updatedSince delta queries.
   name: Benzinga Press Releases API
   slug: benzinga-press-releases-api
-- description: Trending-ticker rankings and per-ticker trend scores aggregated across time intervals from Benzinga audience activity.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: Trending-ticker rankings and per-ticker trend scores aggregated across time intervals from Benzinga audience activity.
   name: Benzinga Ticker Trends API
   slug: benzinga-ticker-trends-api
-- description: Real-time and historical conference-call transcripts, audio, AI-generated summaries, and speaker data, fetched by call ID or filtered lists.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: Real-time and historical conference-call transcripts, audio, AI-generated summaries, and speaker data, fetched by call ID or filtered lists.
   name: Benzinga Earnings Call Transcripts API
   slug: benzinga-earnings-call-transcripts-api
-- description: Push delivery of Benzinga calendar, signal, and sentiment data to customer endpoints with filterable, resilient webhooks and a test-delivery endpoint.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: Push delivery of Benzinga calendar, signal, and sentiment data to customer endpoints with filterable, resilient webhooks and a test-delivery endpoint.
   name: Benzinga Data Webhook Engine
   slug: benzinga-webhook-api
-- description: Real-time WebSocket streams over wss://api.benzinga.com for news, earnings, analyst ratings, consensus ratings, analyst insights, bulls/bears cases, and sentence-by-sentence earnings-call transcripts,
+- baseURL: wss://api.benzinga.com
+  baseurl_source: declared
+  description: Real-time WebSocket streams over wss://api.benzinga.com for news, earnings, analyst ratings, consensus ratings, analyst insights, bulls/bears cases, and sentence-by-sentence earnings-call transcripts,
   name: Benzinga WebSocket Streaming API
   slug: benzinga-websocket-streaming-api
 - description: 'Low-latency persistent TCP stream (tcp-v1.benzinga.io port 11337, optional TLS) delivering real-time news, option alerts, and market events as JSON messages, authenticated with username plus API key, '
   name: Benzinga TCP Streaming Service
   slug: benzinga-tcp-streaming-service
-- description: The Analyst Insights API from Benzinga — 1 operation(s) for analyst insights.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Analyst Insights API from Benzinga — 1 operation(s) for analyst insights.
   name: Benzinga Analyst Insights API
   slug: benzinga-analyst-insights-api
-- description: The Analyst Reports API from Benzinga — 1 operation(s) for analyst reports.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Analyst Reports API from Benzinga — 1 operation(s) for analyst reports.
   name: Benzinga Analyst Reports API
   slug: benzinga-analyst-reports-api
-- description: The Block Trade API from Benzinga — 1 operation(s) for block trade.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Block Trade API from Benzinga — 1 operation(s) for block trade.
   name: Benzinga Block Trade API
   slug: benzinga-block-trade-api
-- description: The Bulls Say Bears Say API from Benzinga — 1 operation(s) for bulls say bears say.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Bulls Say Bears Say API from Benzinga — 1 operation(s) for bulls say bears say.
   name: Benzinga Bulls Say Bears Say API
   slug: benzinga-bulls-say-bears-say-api
-- description: The calls API from Benzinga — 2 operation(s) for calls.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The calls API from Benzinga — 2 operation(s) for calls.
   name: Benzinga calls API
   slug: benzinga-calls-api
-- description: The Channels API from Benzinga — 1 operation(s) for channels.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Channels API from Benzinga — 1 operation(s) for channels.
   name: Benzinga Channels API
   slug: benzinga-channels-api
-- description: The conference_calls API from Benzinga — 1 operation(s) for conference_calls.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The conference_calls API from Benzinga — 1 operation(s) for conference_calls.
   name: Benzinga conference_calls API
   slug: benzinga-conference-calls-api
-- description: The consensus_ratings API from Benzinga — 1 operation(s) for consensus_ratings.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The consensus_ratings API from Benzinga — 1 operation(s) for consensus_ratings.
   name: Benzinga consensus_ratings API
   slug: benzinga-consensus-ratings-api
-- description: The Dividends API from Benzinga — 2 operation(s) for dividends.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Dividends API from Benzinga — 2 operation(s) for dividends.
   name: Benzinga Dividends API
   slug: benzinga-dividends-api
-- description: The earnings API from Benzinga — 1 operation(s) for earnings.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The earnings API from Benzinga — 1 operation(s) for earnings.
   name: Benzinga earnings API
   slug: benzinga-earnings-api
-- description: The economics API from Benzinga — 1 operation(s) for economics.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The economics API from Benzinga — 1 operation(s) for economics.
   name: Benzinga economics API
   slug: benzinga-economics-api
-- description: The ERx Gaps API from Benzinga — 1 operation(s) for erx gaps.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The ERx Gaps API from Benzinga — 1 operation(s) for erx gaps.
   name: Benzinga ERx Gaps API
   slug: benzinga-erx-gaps-api
-- description: The events API from Benzinga — 1 operation(s) for events.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The events API from Benzinga — 1 operation(s) for events.
   name: Benzinga events API
   slug: benzinga-events-api
-- description: The fda API from Benzinga — 1 operation(s) for fda.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The fda API from Benzinga — 1 operation(s) for fda.
   name: Benzinga fda API
   slug: benzinga-fda-api
-- description: The Fundamentals API from Benzinga — 20 operation(s) for fundamentals.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Fundamentals API from Benzinga — 20 operation(s) for fundamentals.
   name: Benzinga Fundamentals API
   slug: benzinga-fundamentals-api
-- description: The Government Trade Reports API from Benzinga — 1 operation(s) for government trade reports.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Government Trade Reports API from Benzinga — 1 operation(s) for government trade reports.
   name: Benzinga Government Trade Reports API
   slug: benzinga-government-trade-reports-api
-- description: The Government Trades API from Benzinga — 1 operation(s) for government trades.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Government Trades API from Benzinga — 1 operation(s) for government trades.
   name: Benzinga Government Trades API
   slug: benzinga-government-trades-api
-- description: The guidance API from Benzinga — 1 operation(s) for guidance.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The guidance API from Benzinga — 1 operation(s) for guidance.
   name: Benzinga guidance API
   slug: benzinga-guidance-api
-- description: The Halt Resume API from Benzinga — 1 operation(s) for halt resume.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Halt Resume API from Benzinga — 1 operation(s) for halt resume.
   name: Benzinga Halt Resume API
   slug: benzinga-halt-resume-api
-- description: The Insider Transaction API from Benzinga — 2 operation(s) for insider transaction.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Insider Transaction API from Benzinga — 2 operation(s) for insider transaction.
   name: Benzinga Insider Transaction API
   slug: benzinga-insider-transaction-api
-- description: The ipos API from Benzinga — 2 operation(s) for ipos.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The ipos API from Benzinga — 2 operation(s) for ipos.
   name: Benzinga ipos API
   slug: benzinga-ipos-api
-- description: The logos API from Benzinga — 2 operation(s) for logos.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The logos API from Benzinga — 2 operation(s) for logos.
   name: Benzinga logos API
   slug: benzinga-logos-api
-- description: The ma API from Benzinga — 1 operation(s) for ma.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The ma API from Benzinga — 1 operation(s) for ma.
   name: Benzinga ma API
   slug: benzinga-ma-api
-- description: The Market Data API from Benzinga — 3 operation(s) for market data.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Market Data API from Benzinga — 3 operation(s) for market data.
   name: Benzinga Market Data API
   slug: benzinga-market-data-api
-- description: The News Analytics API from Benzinga — 1 operation(s) for news analytics.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The News Analytics API from Benzinga — 1 operation(s) for news analytics.
   name: Benzinga News Analytics API
   slug: benzinga-news-analytics-api
-- description: The offerings API from Benzinga — 1 operation(s) for offerings.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The offerings API from Benzinga — 1 operation(s) for offerings.
   name: Benzinga offerings API
   slug: benzinga-offerings-api
-- description: The Option Activity API from Benzinga — 1 operation(s) for option activity.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The Option Activity API from Benzinga — 1 operation(s) for option activity.
   name: Benzinga Option Activity API
   slug: benzinga-option-activity-api
-- description: The participants API from Benzinga — 1 operation(s) for participants.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The participants API from Benzinga — 1 operation(s) for participants.
   name: Benzinga participants API
   slug: benzinga-participants-api
-- description: The QuoteDelayed API from Benzinga — 2 operation(s) for quotedelayed.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The QuoteDelayed API from Benzinga — 2 operation(s) for quotedelayed.
   name: Benzinga QuoteDelayed API
   slug: benzinga-quotedelayed-api
-- description: The ratings_analysts API from Benzinga — 1 operation(s) for ratings_analysts.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The ratings_analysts API from Benzinga — 1 operation(s) for ratings_analysts.
   name: Benzinga ratings_analysts API
   slug: benzinga-ratings-analysts-api
-- description: The ratings API from Benzinga — 1 operation(s) for ratings.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The ratings API from Benzinga — 1 operation(s) for ratings.
   name: Benzinga ratings API
   slug: benzinga-ratings-api
-- description: The ratings_firms API from Benzinga — 1 operation(s) for ratings_firms.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The ratings_firms API from Benzinga — 1 operation(s) for ratings_firms.
   name: Benzinga ratings_firms API
   slug: benzinga-ratings-firms-api
-- description: The removed API from Benzinga — 1 operation(s) for removed.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The removed API from Benzinga — 1 operation(s) for removed.
   name: Benzinga removed API
   slug: benzinga-removed-api
-- description: The splits API from Benzinga — 1 operation(s) for splits.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The splits API from Benzinga — 1 operation(s) for splits.
   name: Benzinga splits API
   slug: benzinga-splits-api
-- description: The status API from Benzinga — 1 operation(s) for status.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The status API from Benzinga — 1 operation(s) for status.
   name: Benzinga status API
   slug: benzinga-status-api
-- description: The summaries API from Benzinga — 2 operation(s) for summaries.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The summaries API from Benzinga — 2 operation(s) for summaries.
   name: Benzinga summaries API
   slug: benzinga-summaries-api
-- description: The transcripts API from Benzinga — 2 operation(s) for transcripts.
+- baseURL: https://api.benzinga.com
+  baseurl_source: declared
+  description: The transcripts API from Benzinga — 2 operation(s) for transcripts.
   name: Benzinga transcripts API
   slug: benzinga-transcripts-api
 artifact_total: 98
@@ -481,7 +567,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -491,7 +577,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 52.3
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -508,7 +594,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png
 security:

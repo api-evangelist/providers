@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -53,49 +53,79 @@ apis:
 - description: Enterprise-grade payment orchestration API powered by PaymentsOS. Provides a single entry point for processing payments across multiple provider connections with dynamic routing. Supports charge, auth
   name: PayU Enterprise API (PaymentsOS)
   slug: payu-enterprise-api
-- description: Authentication involves generating an OAuth token, which is used for further communication with PayU servers. To create a standard OAuth token, you will need <code>client_id</code> and <code>client_se
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Authentication involves generating an OAuth token, which is used for further communication with PayU servers. To create a standard OAuth token, you will need <code>client_id</code> and <code>client_se
   name: PayU Authorize API
   slug: payu-authorize-api
-- description: Retrieve available card installments options for specific card. For merchants operating on the Romanian market (Requires contact with a Payu representative first).
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Retrieve available card installments options for specific card. For merchants operating on the Romanian market (Requires contact with a Payu representative first).
   name: PayU Card Installments API
   slug: payu-card-installments-api
-- description: According to regulations in the European Union countries, payment service providers and parties providing currency conversion services at the point of sale are obliged to express the total currency co
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: According to regulations in the European Union countries, payment service providers and parties providing currency conversion services at the point of sale are obliged to express the total currency co
   name: PayU FX-Reference API
   slug: payu-fx-reference-api
-- description: In PayU, as a marketplace, you have the capability to manage various aspects of your submerchants.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: In PayU, as a marketplace, you have the capability to manage various aspects of your submerchants.
   name: PayU Marketplace-Seller API
   slug: payu-marketplace-seller-api
-- description: PayU is required by the Anti-Money Laundering Act to verify customers in this context. For this purpose, we provide a collection of endpoints to make it easier for you to verify sellers.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: PayU is required by the Anti-Money Laundering Act to verify customers in this context. For this purpose, we provide a collection of endpoints to make it easier for you to verify sellers.
   name: PayU Marketplace-Verification API
   slug: payu-marketplace-verification-api
-- description: We can convert your customers' payments to the currency of your shop set up with PayU.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: We can convert your customers' payments to the currency of your shop set up with PayU.
   name: PayU MCP API
   slug: payu-mcp-api
-- description: 'Order is the basic payment request for the standard integration with PayU. > If the response to the payment creation request is returned with an **HTTP 200** status and in HTML format, make sure that '
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: 'Order is the basic payment request for the standard integration with PayU. > If the response to the payment creation request is returned with an **HTTP 200** status and in HTML format, make sure that '
   name: PayU Order API
   slug: payu-order-api
-- description: Below are the endpoints that enable you to create the necessary entities (Firm, Url, Shop, POS) for your partner.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Below are the endpoints that enable you to create the necessary entities (Firm, Url, Shop, POS) for your partner.
   name: PayU Partner-Merchant-Registration API
   slug: payu-partner-merchant-registration-api
-- description: Retrieving payment methods allows you to remove the threat of presenting a disabled payment method with white-label integration. It also gives you the ability to retrieve stored tokens and customer ca
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Retrieving payment methods allows you to remove the threat of presenting a disabled payment method with white-label integration. It also gives you the ability to retrieve stored tokens and customer ca
   name: PayU Payment-Methods API
   slug: payu-payment-methods-api
-- description: To widthraw funds from the PayU account you need to create a payout.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: To widthraw funds from the PayU account you need to create a payout.
   name: PayU Payout API
   slug: payu-payout-api
-- description: Payment Facilitator (PF) is an advanced form of partnership where PayU cedes much of its own responsibilities, like e.g. Know Your Customer (KYC) and verification, customer support and settlement (pay
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Payment Facilitator (PF) is an advanced form of partnership where PayU cedes much of its own responsibilities, like e.g. Know Your Customer (KYC) and verification, customer support and settlement (pay
   name: PayU PF-Submerchant-Registration API
   slug: payu-pf-submerchant-registration-api
-- description: The PayU system fully supports refunds for the processed payments, the balance of which is transferred directly to the buyer's account.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: The PayU system fully supports refunds for the processed payments, the balance of which is transferred directly to the buyer's account.
   name: PayU Refund API
   slug: payu-refund-api
-- description: Shop is the main entity in the management panel. It is the place where you can manage incoming transactions processed by PayU.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Shop is the main entity in the management panel. It is the place where you can manage incoming transactions processed by PayU.
   name: PayU Shop API
   slug: payu-shop-api
-- description: Statements in PayU are comprehensive reports that provide a detailed summary of completed purchase transactions, refunds, and payouts.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: Statements in PayU are comprehensive reports that provide a detailed summary of completed purchase transactions, refunds, and payouts.
   name: PayU Statements API
   slug: payu-statements-api
-- description: With tokenization, we are confident that your customers' card data is protected from third parties.
+- baseURL: https://secure.payu.com
+  baseurl_source: declared
+  description: With tokenization, we are confident that your customers' card data is protected from third parties.
   name: PayU Token API
   slug: payu-token-api
 artifact_total: 45
@@ -298,7 +328,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/screenshots/payu-2026-08-17T124503.png
 security:

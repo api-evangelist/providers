@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 57 operations · 20 acting
 api_count: 4
 apis:
-- description: Analytics on content usage, views, and engagement.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Analytics on content usage, views, and engagement.
   name: Seismic Content Analytics API
   slug: seismic-content-analytics-api
-- description: Operations for managing content items including documents, presentations, and other sales materials.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing content items including documents, presentations, and other sales materials.
   name: Seismic Content API
   slug: seismic-content-api
-- description: Operations for managing content profiles that define content configurations.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing content profiles that define content configurations.
   name: Seismic Content Profiles API
   slug: seismic-content-profiles-api
-- description: Operations for managing content metadata properties and custom fields.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing content metadata properties and custom fields.
   name: Seismic Content Properties API
   slug: seismic-content-properties-api
-- description: Operations for managing data source connections used in LiveDoc generation.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing data source connections used in LiveDoc generation.
   name: Seismic Data Sources API
   slug: seismic-data-sources-api
-- description: Analytics on content delivery and buyer engagement.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Analytics on content delivery and buyer engagement.
   name: Seismic Delivery Analytics API
   slug: seismic-delivery-analytics-api
-- description: Operations for delivering and sharing content with buyers and teams.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for delivering and sharing content with buyers and teams.
   name: Seismic Delivery API
   slug: seismic-delivery-api
-- description: Operations for managing content folders and organizational structure.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing content folders and organizational structure.
   name: Seismic Folders API
   slug: seismic-folders-api
-- description: Operations for managing asynchronous LiveDoc generation jobs.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing asynchronous LiveDoc generation jobs.
   name: Seismic Generation Jobs API
   slug: seismic-generation-jobs-api
-- description: Operations for managing user groups and teams.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing user groups and teams.
   name: Seismic Groups API
   slug: seismic-groups-api
-- description: Operations for generating and managing LiveDoc documents.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for generating and managing LiveDoc documents.
   name: Seismic LiveDocs API
   slug: seismic-livedocs-api
-- description: Operations for generating and retrieving analytical reports.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for generating and retrieving analytical reports.
   name: Seismic Reports API
   slug: seismic-reports-api
-- description: Operations for managing roles and permissions.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing roles and permissions.
   name: Seismic Roles API
   slug: seismic-roles-api
-- description: Operations for managing team structures.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing team structures.
   name: Seismic Teams API
   slug: seismic-teams-api
-- description: Operations for managing LiveDoc templates.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing LiveDoc templates.
   name: Seismic Templates API
   slug: seismic-templates-api
-- description: Analytics on user activity and adoption metrics.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Analytics on user activity and adoption metrics.
   name: Seismic User Analytics API
   slug: seismic-user-analytics-api
-- description: Operations for managing user accounts.
+- baseURL: https://api.seismic.com/integration/v2
+  baseurl_source: declared
+  description: Operations for managing user accounts.
   name: Seismic Users API
   slug: seismic-users-api
 arazzos:
@@ -450,7 +484,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -460,7 +494,7 @@ score:
     discoverability: 79.6
     governance: 28.8
     operational_transparency: 35.5
-  previous_composite: 49.1
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -470,10 +504,10 @@ score:
       total: 17
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/screenshots/seismic-2026-06-20T193646.png
 security:

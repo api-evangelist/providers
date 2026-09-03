@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,23 +32,83 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-09-01'
+  score: 7.9
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: API-Football provides comprehensive football data including leagues, fixtures, standings, events, line-ups, players, pre-match odds, live odds, and historical statistics for 1,200+ leagues and cups wo
   name: API-Football
   slug: api-football
-artifact_total: 20
+artifact_total: 21
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/api-football-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/api-football-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/api-football-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/api-football-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/api-football-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/api-football-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/api-football-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/api-football-components.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/api-football-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/api-football-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/api-football-llms.txt
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/api-football-finops.yml
 - group: company
   title: ''
   type: Website
   url: https://www.api-football.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.api-football.com/documentation-v3
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.api-football.com/news/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.api-football.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.api-football.com/privacy
 - group: docs
   title: ''
   type: Documentation
@@ -99,17 +159,17 @@ integrations:
 - description: Subscriptions managed via Stripe or PayPal with no auto-renewal and prepaid plan options.
   name: Stripe and PayPal
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: API Football
 nav: Providers
 network: true
 overview: 'API Football publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Football, Soccer, Live Scores, and Statistics.
 
 
-  API Football''s developer surface includes documentation, pricing, signup flow, support, and 3 more developer resources.'
+  API Football''s developer surface includes authentication, API reference, engineering blog, documentation, pricing, signup flow, support, and 15 more developer resources.'
 plans:
 - name: Api Football Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: api-football-plans-pricing
 random_paper: 13
 rate_limits:
@@ -117,28 +177,35 @@ rate_limits:
   name: Api Football Rate Limits
   slug: api-football-rate-limits
 score:
-  band: emerging
-  composite: 21.2
+  band: thin
+  composite: 38.2
   coverage:
-    artifact_dirs: 5
-    catalog_gap: 74.0
+    artifact_dirs: 15
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 17.0
   facets:
-    access_clarity: 32.9
-    commercial_clarity: 32.9
-    contract_governance: 0.0
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 38.1
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    developer_ergonomics: 47.6
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 31.6
   previous_composite: 21.2
+  provenance:
+    conformance: first-party
+    mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 security:
+- kind: authentication
+  name: Api Football Authentication
+  slug: api-football-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Api Football Domain Security
   slug: api-football-domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The Model Context Protocol endpoint that Kitopi''s Wix-hosted website exposes for agentic AI access. It is a platform-provided (Wix) site assistant server rather than a Kitopi product API: it lets an a'
@@ -190,7 +190,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitopi/refs/heads/main/screenshots/kitopi-2026-07-25T223911.png
 security:

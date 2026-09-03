@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Sherwin-Williams Supplier API enables B2B partners to integrate supply chain workflows, manage purchase orders, submit invoices, and exchange product and inventory data with Sherwin-Williams enter
@@ -179,7 +179,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 25.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sherwin-williams/refs/heads/main/screenshots/sherwin-williams-2026-06-20T193801.png
 security:

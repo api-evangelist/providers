@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 28 operations · 6 acting
 api_count: 2
 apis:
-- description: Course management endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Course management endpoints
   name: Teachable Courses API
   slug: teachable-courses-api
-- description: Endpoints for the authenticated current user
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Endpoints for the authenticated current user
   name: Teachable CurrentUser API
   slug: teachable-currentuser-api
-- description: Enrollment management endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Enrollment management endpoints
   name: Teachable Enrollments API
   slug: teachable-enrollments-api
-- description: Lecture management endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Lecture management endpoints
   name: Teachable Lectures API
   slug: teachable-lectures-api
-- description: Pricing plan endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Pricing plan endpoints
   name: Teachable PricingPlans API
   slug: teachable-pricingplans-api
-- description: Quiz and quiz response endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Quiz and quiz response endpoints
   name: Teachable Quizzes API
   slug: teachable-quizzes-api
-- description: Transaction and sales endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Transaction and sales endpoints
   name: Teachable Transactions API
   slug: teachable-transactions-api
-- description: User management endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: User management endpoints
   name: Teachable Users API
   slug: teachable-users-api
-- description: Video access endpoints for current user
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Video access endpoints for current user
   name: Teachable Videos API
   slug: teachable-videos-api
-- description: Webhook configuration and event endpoints
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Webhook configuration and event endpoints
   name: Teachable Webhooks API
   slug: teachable-webhooks-api
 artifact_total: 42
@@ -304,7 +324,7 @@ score:
     regime_id: education
     score: 70.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/screenshots/teachable-2026-06-20T194953.png
 security:

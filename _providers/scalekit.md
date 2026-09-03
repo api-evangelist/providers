@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 26 operations · 15 acting
 api_count: 1
 apis:
-- description: Generate self-service admin portal links.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Generate self-service admin portal links.
   name: Scalekit Admin Portal API
   slug: scalekit-admin-portal-api
-- description: OAuth 2.0 client credentials token issuance.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: OAuth 2.0 client credentials token issuance.
   name: Scalekit Authentication API
   slug: scalekit-authentication-api
-- description: Agent / MCP connected accounts and tool execution.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Agent / MCP connected accounts and tool execution.
   name: Scalekit Connected Accounts API
   slug: scalekit-connected-accounts-api
-- description: Enterprise SSO connections (SAML / OIDC).
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Enterprise SSO connections (SAML / OIDC).
   name: Scalekit Connections API
   slug: scalekit-connections-api
-- description: SCIM directories and synced directory users and groups.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: SCIM directories and synced directory users and groups.
   name: Scalekit Directories API
   slug: scalekit-directories-api
-- description: Toggle feature settings on an organization.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Toggle feature settings on an organization.
   name: Scalekit Organization Settings API
   slug: scalekit-organization-settings-api
-- description: Create and manage tenant organizations.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Create and manage tenant organizations.
   name: Scalekit Organizations API
   slug: scalekit-organizations-api
-- description: Organization roles and permissions.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Organization roles and permissions.
   name: Scalekit Roles API
   slug: scalekit-roles-api
-- description: Organization user membership lifecycle and invitations.
+- baseURL: https://{environment}.scalekit.com
+  baseurl_source: declared
+  description: Organization user membership lifecycle and invitations.
   name: Scalekit Users & Memberships API
   slug: scalekit-users-memberships-api
 artifact_total: 27
@@ -212,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/screenshots/scalekit-2026-06-20T193503.png
 security:

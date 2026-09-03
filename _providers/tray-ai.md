@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-09-01'
+  score: 52.7
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,45 +43,73 @@ agentic_access:
   operation_count: 35
   slug: tray-ai-agentic-access
   summary_line: 35 operations · 25 acting
-api_count: 2
+api_count: 4
 apis:
-- description: Generate and manage user tokens for authenticating API calls. The authorize mutation generates a user token from a master token.
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Generate and manage user tokens for authenticating API calls. The authorize mutation generates a user token from a master token.
   name: Tray.ai Authentication API
   slug: tray-ai-authentication-api
-- description: Create, retrieve, and delete third-party service authentications that power Tray connectors (e.g., Salesforce, Slack).
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Create, retrieve, and delete third-party service authentications that power Tray connectors (e.g., Salesforce, Slack).
   name: Tray.ai Authentications API
   slug: tray-ai-authentications-api
-- description: Call any Tray connector operation to pull data from a particular service and display it in your application.
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Call any Tray connector operation to pull data from a particular service and display it in your application.
   name: Tray.ai Call Connector API
   slug: tray-ai-call-connector-api
-- description: List available connectors and their operations, and call connector operations to interact with third-party services programmatically.
+- baseURL: https://api.tray.io/core/v1
+  baseurl_source: declared
+  description: List available connectors and their operations, and call connector operations to interact with third-party services programmatically.
   name: Tray.ai Connectors API
   slug: tray-ai-connectors-api
-- description: Deploy CDK (Connector Development Kit) connectors to the Tray platform.
+- baseURL: https://api.tray.io/core/v1
+  baseurl_source: declared
+  description: Deploy CDK (Connector Development Kit) connectors to the Tray platform.
   name: Tray.ai Deployments API
   slug: tray-ai-deployments-api
-- description: Manage projects and solutions for environment promotion, including creating, exporting, and importing project versions.
+- baseURL: https://api.tray.io/core/v1
+  baseurl_source: declared
+  description: Manage projects and solutions for environment promotion, including creating, exporting, and importing project versions.
   name: Tray.ai Projects API
   slug: tray-ai-projects-api
-- description: Create, update, enable, disable, and delete solution instances for end users. Requires a user token for most operations.
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Create, update, enable, disable, and delete solution instances for end users. Requires a user token for most operations.
   name: Tray.ai Solution Instances API
   slug: tray-ai-solution-instances-api
-- description: Retrieve solutions (integrations) that have been built and published on the Tray platform.
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Retrieve solutions (integrations) that have been built and published on the Tray platform.
   name: Tray.ai Solutions API
   slug: tray-ai-solutions-api
-- description: List available triggers and manage trigger subscriptions to receive real-time data from third-party services.
+- baseURL: https://api.tray.io/core/v1
+  baseurl_source: declared
+  description: List available triggers and manage trigger subscriptions to receive real-time data from third-party services.
   name: Tray.ai Triggers API
   slug: tray-ai-triggers-api
-- description: Manage external users of your embedded application. Requires a master token for most operations.
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Manage external users of your embedded application. Requires a master token for most operations.
   name: Tray.ai Users API
   slug: tray-ai-users-api
-- description: Import and export Tray workflows between embedded accounts, useful for promoting workflows from staging to production.
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: Import and export Tray workflows between embedded accounts, useful for promoting workflows from staging to production.
   name: Tray.ai Workflows API
   slug: tray-ai-workflows-api
-- description: Manage workspaces and workspace users. Workspaces divide your organization into sub-categories such as departments or dev/prod environments.
+- baseURL: https://api.tray.io/core/v1
+  baseurl_source: declared
+  description: Manage workspaces and workspace users. Workspaces divide your organization into sub-categories such as departments or dev/prod environments.
   name: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
-artifact_total: 102
+artifact_total: 106
+asyncapis:
+- description: ''
+  name: Tray Ai Webhooks
+  slug: tray-ai-webhooks
 collections:
 - collection_type: postman
   name: Tray.ai Embedded Authentication API
@@ -255,7 +284,7 @@ common:
 - group: other
   title: ''
   type: Product
-  url: https://tray.ai/documentation/agent-builder/
+  url: https://tray.ai/documentation/platform/artificial-intelligence/agent-builder/overview
 - group: other
   title: ''
   type: Product
@@ -312,6 +341,126 @@ common:
   title: ''
   type: LlmsText
   url: https://tray.ai/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/tray-ai-llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://tray.ai/documentation/files/openapi/trayapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://tray.ai/documentation/files/openapi/embeddedapi.yaml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://tray.ai/documentation/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://tray.ai/documentation/developer/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://tray.ai/documentation/developer/getting-started/introduction
+- group: operate
+  title: ''
+  type: Support
+  url: https://tray.ai/documentation/help/
+- group: operate
+  title: ''
+  type: Community
+  url: https://tray.ai/community/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://tray.ai/pricing
+- group: build
+  title: ''
+  type: Packages
+  url: packages/tray-ai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/tray-ai-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/tray-ai-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/tray-ai-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tray-ai-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/tray-ai-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/tray-ai-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/tray-ai-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/tray-ai-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/tray-ai-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/tray-ai-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/tray-ai-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/tray-ai-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://tray.ai/documentation/releases/deprecations/connector-builder-deprecation
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/tray-ai-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://tray.ai/documentation/releases
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/tray-ai-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/tray-ai-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/tray-ai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/tray-ai-vulnerability-disclosure.yml
 created: '2025-06-05'
 description: Tray.ai (formerly Tray.io) is an AI-ready enterprise orchestration platform for data and AI, combining a Merlin Agent Builder for no-code AI agent creation, an Agent Gateway for governed MCP server management, and an intelligent iPaaS with 700+ pre-built connectors. It exposes a REST Platform API (Connectivity API) and a GraphQL Embedded API for building, embedding, and operating AI agents and integration automations at enterprise scale.
 examples:
@@ -404,17 +553,21 @@ jsonld:
   property_count: 0
   slug: tray-ai-context
 layout: provider
-modified: '2026-05-22'
+mcp_servers:
+- description: Tray.ai runs a first-party, hosted remote MCP server. Two surfaces exist and they are different products. (1) Tray Headless MCP — a Tray-hosted server at https://api.tray.io/mcp (with EU and APAC regi
+  name: Tray MCP Server (Tray Headless MCP / Agent Gateway)
+  slug: tray-mcp-server-tray-headless-mcp-agent-gateway
+modified: '2026-09-02'
 name: Tray.ai
 nav: Providers
 network: true
 overview: 'Tray.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Authentications API, Call Connector API, and 9 more. Tagged areas include Automation, Integration, iPaaS, AI Agents, and MCP.
 
 
-  The Tray.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Tray.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, code examples, tooling, and 31 more developer resources.'
+  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, code examples, tooling, documentation, API reference, and 59 more developer resources.'
 plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
@@ -446,49 +599,61 @@ rules:
     info: 0
     warn: 6
   slug: tray-ai-rules
+scopes:
+- name: Tray Ai Scopes
+  scope_count: 0
+  slug: tray-ai-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.5
+  band: exemplar
+  composite: 85.0
   coverage:
-    artifact_dirs: 19
-    catalog_gap: 41.5
+    artifact_dirs: 34
+    catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 31.5
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
-    contract_governance: 28.8
-    contract_quality: 73.7
-    developer_ergonomics: 45.2
-    discoverability: 75.9
-    governance: 28.8
-    operational_transparency: 26.3
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 47.0
+    contract_quality: 82.7
+    developer_ergonomics: 92.9
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 92.1
   previous_composite: 53.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
+    mcp: first-party
+    skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:
 - kind: authentication
   name: Tray Ai Authentication
   slug: tray-ai-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Tray Ai Domain Security
   slug: tray-ai-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Tray Ai Vulnerability Disclosure
+  slug: tray-ai-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Tray Ai Trust Center
   slug: tray-ai-trust-center
-  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
+  summary_line: SOC 1 Type 2, SOC 2 Type 2, HIPAA, GDPR, CCPA, EU-US Data Privacy Framework, Swiss-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework
 slug: tray-ai
 tags:
 - Automation
@@ -496,6 +661,13 @@ tags:
 - iPaaS
 - AI Agents
 - MCP
+- Orchestration
+- Workflow Automation
+- Connectors
+- Agent Gateway
+- Embedded Integration
+- Enterprise Automation
+- Model Context Protocol
 use_cases:
 - name: AI Agent Orchestration
 - name: MCP Governance

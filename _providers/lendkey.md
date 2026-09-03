@@ -33,52 +33,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Endpoints for creating and managing loan application contracts
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Endpoints for creating and managing loan application contracts
   name: LendKey Application Contracts API
   slug: lendkey-application-contracts-api
-- description: The applications API from LendKey — 1 operation(s) for applications.
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: The applications API from LendKey — 1 operation(s) for applications.
   name: LendKey applications API
   slug: lendkey-applications-api
-- description: The auth API from LendKey — 1 operation(s) for auth.
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: The auth API from LendKey — 1 operation(s) for auth.
   name: LendKey auth API
   slug: lendkey-auth-api
-- description: OAuth2 authentication endpoints
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: OAuth2 authentication endpoints
   name: LendKey Authentication API
   slug: lendkey-authentication-api
-- description: The Credit Risk API from LendKey — 4 operation(s) for credit risk.
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: The Credit Risk API from LendKey — 4 operation(s) for credit risk.
   name: LendKey Credit Risk API
   slug: lendkey-credit-risk-api
-- description: Disbursement processing and cancellation
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Disbursement processing and cancellation
   name: LendKey Disbursements API
   slug: lendkey-disbursements-api
-- description: The email API from LendKey — 2 operation(s) for email.
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: The email API from LendKey — 2 operation(s) for email.
   name: LendKey email API
   slug: lendkey-email-api
-- description: Internal API operations for request logging
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Internal API operations for request logging
   name: LendKey internal API
   slug: lendkey-internal-api
-- description: The leads API from LendKey — 1 operation(s) for leads.
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: The leads API from LendKey — 1 operation(s) for leads.
   name: LendKey leads API
   slug: lendkey-leads-api
-- description: Capital ledger operations
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Capital ledger operations
   name: LendKey Ledger Management API
   slug: lendkey-ledger-management-api
-- description: Manage DocuSign template assignments for lenders
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Manage DocuSign template assignments for lenders
   name: LendKey Lender Templates API
   slug: lendkey-lender-templates-api
-- description: Loan creation and management
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Loan creation and management
   name: LendKey Loans API
   slug: lendkey-loans-api
-- description: The onboarding API from LendKey — 1 operation(s) for onboarding.
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: The onboarding API from LendKey — 1 operation(s) for onboarding.
   name: LendKey onboarding API
   slug: lendkey-onboarding-api
-- description: Payment and remittance processing
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Payment and remittance processing
   name: LendKey Payments API
   slug: lendkey-payments-api
-- description: Endpoints for receiving DocuSign webhook notifications
+- baseURL: https://proxy.kong.lkeyprod.com/integration/
+  baseurl_source: declared
+  description: Endpoints for receiving DocuSign webhook notifications
   name: LendKey Webhooks API
   slug: lendkey-webhooks-api
 artifact_total: 36
@@ -269,7 +299,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -279,7 +309,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     conformance: derived
     contracts:
@@ -296,7 +326,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

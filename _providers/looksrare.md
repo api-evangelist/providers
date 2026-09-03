@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: Retrieve collection-level data for NFT collections indexed on LooksRare. Endpoints return Collection objects including logoURI, bannerURI, and collection statistics. The /v2/collections/seaport endpoi
   name: LooksRare Collections API
   slug: collections-api
-- description: Retrieve NFT collection-level metadata, statistics, and integration eligibility.
+- baseURL: https://api.looksrare.org/api
+  baseurl_source: declared
+  description: Retrieve NFT collection-level metadata, statistics, and integration eligibility.
   name: LooksRare Collections API
   slug: looksrare-collections-api
-- description: Retrieve token and order activity events from the LooksRare marketplace, including listings, sales, offers, and cancellations.
+- baseURL: https://api.looksrare.org/api
+  baseurl_source: declared
+  description: Retrieve token and order activity events from the LooksRare marketplace, including listings, sales, offers, and cancellations.
   name: LooksRare Events API
   slug: looksrare-events-api
-- description: Read and write NFT maker orders in the LooksRare V2 off-chain order book. Supports both standard (specific token) and collection-wide strategies for asks (listings) and bids (offers).
+- baseURL: https://api.looksrare.org/api
+  baseurl_source: declared
+  description: Read and write NFT maker orders in the LooksRare V2 off-chain order book. Supports both standard (specific token) and collection-wide strategies for asks (listings) and bids (offers).
   name: LooksRare Orders API
   slug: looksrare-orders-api
-- description: Endpoints specific to the LooksRare Seaport integration, enabling Seaport-compatible orders and events while earning LooksRare rewards.
+- baseURL: https://api.looksrare.org/api
+  baseurl_source: declared
+  description: Endpoints specific to the LooksRare Seaport integration, enabling Seaport-compatible orders and events while earning LooksRare rewards.
   name: LooksRare Seaport API
   slug: looksrare-seaport-api
-- description: Retrieve NFT token metadata including collection information and on-chain attribute traits.
+- baseURL: https://api.looksrare.org/api
+  baseurl_source: declared
+  description: Retrieve NFT token metadata including collection information and on-chain attribute traits.
   name: LooksRare Tokens API
   slug: looksrare-tokens-api
 artifact_total: 21
@@ -221,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/screenshots/looksrare-2026-06-20T184713.png
 security:

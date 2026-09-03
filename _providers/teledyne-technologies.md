@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: ActiveDSO is Teledyne LeCroy's ActiveX/COM control enabling remote automation of MAUI-based oscilloscopes from Windows applications via SCPI commands, VISA drivers, Ethernet (ENET), GPIB, and USBTMC i
   name: Teledyne LeCroy ActiveDSO API
   slug: lecroy-activedso-api
-- description: The Alarms API from Teledyne Technologies — 2 operation(s) for alarms.
+- baseURL: http://{camera_ip}/api
+  baseurl_source: declared
+  description: The Alarms API from Teledyne Technologies — 2 operation(s) for alarms.
   name: Teledyne Technologies Alarms API
   slug: teledyne-technologies-alarms-api
-- description: The Images API from Teledyne Technologies — 1 operation(s) for images.
+- baseURL: http://{camera_ip}/api
+  baseurl_source: declared
+  description: The Images API from Teledyne Technologies — 1 operation(s) for images.
   name: Teledyne Technologies Images API
   slug: teledyne-technologies-images-api
-- description: The Measurements API from Teledyne Technologies — 4 operation(s) for measurements.
+- baseURL: http://{camera_ip}/api
+  baseurl_source: declared
+  description: The Measurements API from Teledyne Technologies — 4 operation(s) for measurements.
   name: Teledyne Technologies Measurements API
   slug: teledyne-technologies-measurements-api
 artifact_total: 25
@@ -238,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/screenshots/teledyne-technologies-2026-06-20T195024.png
 security:

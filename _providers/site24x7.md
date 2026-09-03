@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 74 operations · 36 acting
 api_count: 1
 apis:
-- description: Alert and alarm management
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Alert and alarm management
   name: Site24x7 Alarms API
   slug: site24x7-alarms-api
-- description: Real-time status and health information
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Real-time status and health information
   name: Site24x7 Current Status API
   slug: site24x7-current-status-api
-- description: Scheduled maintenance management
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Scheduled maintenance management
   name: Site24x7 Maintenance Windows API
   slug: site24x7-maintenance-windows-api
-- description: Organize monitors into logical groups
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Organize monitors into logical groups
   name: Site24x7 Monitor Groups API
   slug: site24x7-monitor-groups-api
-- description: Create, retrieve, update, and delete monitors of all types
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete monitors of all types
   name: Site24x7 Monitors API
   slug: site24x7-monitors-api
-- description: Alert notification configuration
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Alert notification configuration
   name: Site24x7 Notification Profiles API
   slug: site24x7-notification-profiles-api
-- description: Outage records and incident management
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Outage records and incident management
   name: Site24x7 Outages API
   slug: site24x7-outages-api
-- description: Availability, performance, SLA, and custom reports
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Availability, performance, SLA, and custom reports
   name: Site24x7 Reports API
   slug: site24x7-reports-api
-- description: Tag-based monitor organization
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Tag-based monitor organization
   name: Site24x7 Tags API
   slug: site24x7-tags-api
-- description: Performance threshold configuration
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: Performance threshold configuration
   name: Site24x7 Threshold Profiles API
   slug: site24x7-threshold-profiles-api
-- description: User account administration
+- baseURL: https://api.site24x7.com/api
+  baseurl_source: declared
+  description: User account administration
   name: Site24x7 Users API
   slug: site24x7-users-api
 artifact_total: 39
@@ -271,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/screenshots/site24x7-2026-06-20T193955.png
 security:

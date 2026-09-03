@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 3
 apis:
-- description: Companies available to the registered application.
+- baseURL: https://api.paychex.com
+  baseurl_source: declared
+  description: Companies available to the registered application.
   name: Paychex Companies API
   slug: paychex-developer-companies-api
-- description: Time entry, punch, and time-worked submissions.
+- baseURL: https://api.paychex.com
+  baseurl_source: declared
+  description: Time entry, punch, and time-worked submissions.
   name: Paychex Time Entries API
   slug: paychex-developer-time-entries-api
-- description: Employees and contractors for a Paychex Flex company.
+- baseURL: https://api.paychex.com
+  baseurl_source: declared
+  description: Employees and contractors for a Paychex Flex company.
   name: Paychex Workers API
   slug: paychex-developer-workers-api
 artifact_total: 49
@@ -343,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/screenshots/paychex-developer-2026-06-20T191450.png
 security:

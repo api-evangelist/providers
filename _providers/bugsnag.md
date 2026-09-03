@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 38 operations · 16 acting
 api_count: 5
 apis:
-- description: Notify Bugsnag about application builds and deployments. Build notifications are used to track releases, identify regressions, and associate source control information with error data.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Notify Bugsnag about application builds and deployments. Build notifications are used to track releases, identify regressions, and associate source control information with error data.
   name: bugsnag Builds API
   slug: bugsnag-builds-api
-- description: Manage collaborators within an organization or project. Collaborators are users who have access to view and manage Bugsnag data.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Manage collaborators within an organization or project. Collaborators are users who have access to view and manage Bugsnag data.
   name: bugsnag Collaborators API
   slug: bugsnag-collaborators-api
-- description: Manage comments on errors. Comments allow team members to discuss and annotate specific errors.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Manage comments on errors. Comments allow team members to discuss and annotate specific errors.
   name: bugsnag Comments API
   slug: bugsnag-comments-api
-- description: Access information about the currently authenticated user.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access information about the currently authenticated user.
   name: bugsnag CurrentUser API
   slug: bugsnag-currentuser-api
-- description: Access and manage errors within projects. Errors represent groups of similar events that have been detected by Bugsnag.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access and manage errors within projects. Errors represent groups of similar events that have been detected by Bugsnag.
   name: bugsnag Errors API
   slug: bugsnag-errors-api
-- description: Access event field definitions for projects. Event fields describe the available data dimensions for filtering and searching events.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access event field definitions for projects. Event fields describe the available data dimensions for filtering and searching events.
   name: bugsnag EventFields API
   slug: bugsnag-eventfields-api
-- description: Access individual error events. Events represent individual occurrences of an error within a project.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access individual error events. Events represent individual occurrences of an error within a project.
   name: bugsnag Events API
   slug: bugsnag-events-api
-- description: Send error and exception notifications to Bugsnag. Each notification can contain one or more events representing individual error occurrences.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Send error and exception notifications to Bugsnag. Each notification can contain one or more events representing individual error occurrences.
   name: bugsnag Notifications API
   slug: bugsnag-notifications-api
-- description: Access and manage organizations. An organization is the top-level entity in Bugsnag that contains projects and collaborators.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access and manage organizations. An organization is the top-level entity in Bugsnag that contains projects and collaborators.
   name: bugsnag Organizations API
   slug: bugsnag-organizations-api
-- description: Access pivot data for errors. Pivots allow you to group and analyze error data by various dimensions such as browser, device, or location.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access pivot data for errors. Pivots allow you to group and analyze error data by various dimensions such as browser, device, or location.
   name: bugsnag Pivots API
   slug: bugsnag-pivots-api
-- description: Access and manage projects within an organization. Projects represent individual applications being monitored by Bugsnag.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access and manage projects within an organization. Projects represent individual applications being monitored by Bugsnag.
   name: bugsnag Projects API
   slug: bugsnag-projects-api
-- description: Access release information for projects. Releases represent deployed versions of your application and their associated error data.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access release information for projects. Releases represent deployed versions of your application and their associated error data.
   name: bugsnag Releases API
   slug: bugsnag-releases-api
-- description: Report session data to Bugsnag for stability score calculations. Sessions represent periods of user activity and are used to compute crash-free session and user percentages.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Report session data to Bugsnag for stability score calculations. Sessions represent periods of user activity and are used to compute crash-free session and user percentages.
   name: bugsnag Sessions API
   slug: bugsnag-sessions-api
-- description: Access stability metrics for projects. Stability data provides crash-free session and user percentages across releases.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access stability metrics for projects. Stability data provides crash-free session and user percentages across releases.
   name: bugsnag Stability API
   slug: bugsnag-stability-api
-- description: Send OpenTelemetry trace data to Bugsnag for performance monitoring. Spans represent individual operations and are assembled into traces that visualize request flow and latency.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Send OpenTelemetry trace data to Bugsnag for performance monitoring. Spans represent individual operations and are assembled into traces that visualize request flow and latency.
   name: bugsnag Traces API
   slug: bugsnag-traces-api
-- description: Access trend data for errors and projects. Trends provide time-series data showing how error rates and stability change over time.
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access trend data for errors and projects. Trends provide time-series data showing how error rates and stability change over time.
   name: bugsnag Trends API
   slug: bugsnag-trends-api
 artifact_total: 111
@@ -375,16 +407,16 @@ jsonld:
   slug: bugsnag-context
 layout: provider
 modified: '2026-05-19'
-name: bugsnag
+name: Bugsnag
 nav: Providers
 network: true
-overview: 'bugsnag publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Collaborators API, Comments API, and 13 more.
+overview: 'Bugsnag publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Collaborators API, Comments API, and 13 more.
 
 
-  The bugsnag catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Bugsnag catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  bugsnag''s developer surface includes authentication and 9 more developer resources.'
+  Bugsnag''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Bugsnag Plans Pricing
   plan_count: 4
@@ -398,7 +430,7 @@ rules:
 - effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: bugsnag API Rules
+  name: Bugsnag API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -408,7 +440,7 @@ rules:
   slug: bugsnag-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: bugsnag API Rules
+  name: Bugsnag API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -424,7 +456,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -434,7 +466,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.4
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -444,10 +476,10 @@ score:
       total: 16
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/screenshots/bugsnag-2026-06-20T173757.png
 security:

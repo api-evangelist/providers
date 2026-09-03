@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Indicator of compromise detail lookups and submission
+- baseURL: https://otx.alienvault.com/api/v1
+  baseurl_source: declared
+  description: Indicator of compromise detail lookups and submission
   name: AlienVault Indicators API
   slug: alienvault-indicators-api
-- description: Threat pulses (curated indicator collections)
+- baseURL: https://otx.alienvault.com/api/v1
+  baseurl_source: declared
+  description: Threat pulses (curated indicator collections)
   name: AlienVault Pulses API
   slug: alienvault-pulses-api
-- description: Search across pulses and users
+- baseURL: https://otx.alienvault.com/api/v1
+  baseurl_source: declared
+  description: Search across pulses and users
   name: AlienVault Search API
   slug: alienvault-search-api
-- description: OTX community users
+- baseURL: https://otx.alienvault.com/api/v1
+  baseurl_source: declared
+  description: OTX community users
   name: AlienVault Users API
   slug: alienvault-users-api
 artifact_total: 12
@@ -188,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/screenshots/alienvault-2026-07-25T195617.png
 security:

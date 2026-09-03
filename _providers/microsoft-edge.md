@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Modern web APIs and standards supported in Microsoft Edge, including Progressive Web App capabilities, Web Components, and emerging web platform features.
   name: Microsoft Edge Web Platform APIs
   slug: edge-web-platform-apis
-- description: Browser-level information and management
+- baseURL: https://api.addons.microsoftedge.microsoft.com
+  baseurl_source: declared
+  description: Browser-level information and management
   name: Microsoft Edge Browser API
   slug: microsoft-edge-browser-api
-- description: Upload and manage extension packages
+- baseURL: https://api.addons.microsoftedge.microsoft.com
+  baseurl_source: declared
+  description: Upload and manage extension packages
   name: Microsoft Edge Packages API
   slug: microsoft-edge-packages-api
-- description: Page target management
+- baseURL: https://api.addons.microsoftedge.microsoft.com
+  baseurl_source: declared
+  description: Page target management
   name: Microsoft Edge Pages API
   slug: microsoft-edge-pages-api
-- description: Manage extension products in the Edge Add-ons store
+- baseURL: https://api.addons.microsoftedge.microsoft.com
+  baseurl_source: declared
+  description: Manage extension products in the Edge Add-ons store
   name: Microsoft Edge Products API
   slug: microsoft-edge-products-api
-- description: Publish and unpublish extensions
+- baseURL: https://api.addons.microsoftedge.microsoft.com
+  baseurl_source: declared
+  description: Publish and unpublish extensions
   name: Microsoft Edge Publishing API
   slug: microsoft-edge-publishing-api
-- description: Discover and manage debuggable browser targets
+- baseURL: https://api.addons.microsoftedge.microsoft.com
+  baseurl_source: declared
+  description: Discover and manage debuggable browser targets
   name: Microsoft Edge Targets API
   slug: microsoft-edge-targets-api
 arazzos:
@@ -419,7 +431,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -429,7 +441,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -438,7 +450,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
 security:

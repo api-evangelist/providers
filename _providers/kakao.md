@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -95,16 +95,24 @@ apis:
 - description: KakaoMobility's Business API powers KakaoT corporate mobility — letting enterprise platforms book Kakao T taxi rides, manage corporate accounts, and reconcile employee trips for expense and HR systems
   name: KakaoMobility Business API
   slug: kakaomobility-business
-- description: Kakao Login OAuth 2.0 authorization, token, and logout flows.
+- baseURL: https://kapi.kakao.com
+  baseurl_source: declared
+  description: Kakao Login OAuth 2.0 authorization, token, and logout flows.
   name: Kakao OAuth API
   slug: kakao-oauth-api
-- description: OpenID Connect discovery, JWKS, and user info.
+- baseURL: https://kapi.kakao.com
+  baseurl_source: declared
+  description: OpenID Connect discovery, JWKS, and user info.
   name: Kakao OIDC API
   slug: kakao-oidc-api
-- description: Manage Kakao Sync service-terms consent.
+- baseURL: https://kapi.kakao.com
+  baseurl_source: declared
+  description: Manage Kakao Sync service-terms consent.
   name: Kakao Service Terms API
   slug: kakao-service-terms-api
-- description: Logged-in user information, scopes, and account linking.
+- baseURL: https://kapi.kakao.com
+  baseurl_source: declared
+  description: Logged-in user information, scopes, and account linking.
   name: Kakao User API
   slug: kakao-user-api
 artifact_total: 33
@@ -266,7 +274,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png
 security:

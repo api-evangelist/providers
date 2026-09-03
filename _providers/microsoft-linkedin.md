@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: The LinkedIn Talent Solutions API provides access to recruiting and talent management capabilities. It enables integration with applicant tracking systems, job posting management, candidate search, an
   name: LinkedIn Talent Solutions API
   slug: talent-solutions-api
-- description: Manage ad accounts
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage ad accounts
   name: Microsoft LinkedIn AdAccounts API
   slug: microsoft-linkedin-adaccounts-api
-- description: Manage ad account user permissions
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage ad account user permissions
   name: Microsoft LinkedIn AdAccountUsers API
   slug: microsoft-linkedin-adaccountusers-api
-- description: Manage campaign groups
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage campaign groups
   name: Microsoft LinkedIn AdCampaignGroups API
   slug: microsoft-linkedin-adcampaigngroups-api
-- description: Manage campaigns
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage campaigns
   name: Microsoft LinkedIn AdCampaigns API
   slug: microsoft-linkedin-adcampaigns-api
-- description: Manage creatives
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage creatives
   name: Microsoft LinkedIn AdCreatives API
   slug: microsoft-linkedin-adcreatives-api
 artifact_total: 26
@@ -317,7 +327,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -327,7 +337,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 61.3
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -339,7 +349,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png
 security:

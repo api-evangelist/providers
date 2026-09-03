@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 38 operations · 22 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: Authenticating with the Powernaut platform.
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Authenticating with the Powernaut platform.
   name: Powernaut authentication API
   slug: powernaut-authentication-api
-- description: 'With baselining, you indicate your normal consumption/production behaviour. This baseline is essential to provide flexibility, which is then defined as a deviation from this baseline. You can provide '
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: 'With baselining, you indicate your normal consumption/production behaviour. This baseline is essential to provide flexibility, which is then defined as a deviation from this baseline. You can provide '
   name: Powernaut baselining API
   slug: powernaut-baselining-api
-- description: A bid tells us how much flexibility is available in a certain time window.
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: A bid tells us how much flexibility is available in a certain time window.
   name: Powernaut creating_bids API
   slug: powernaut-creating-bids-api
-- description: Events are EMS-initiated control actions that deviate from a resource's default behaviour (e.g. PV curtailment due to negative tariffs). Reporting these events helps us maintain clean training data fo
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Events are EMS-initiated control actions that deviate from a resource's default behaviour (e.g. PV curtailment due to negative tariffs). Reporting these events helps us maintain clean training data fo
   name: Powernaut events API
   slug: powernaut-events-api
-- description: 'You can retrieve forecasts to help plan your flexibility offerings and understand expected power consumption or production patterns. See the [guide](/guides/connect/forecasting/getting-forecasts) for '
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: 'You can retrieve forecasts to help plan your flexibility offerings and understand expected power consumption or production patterns. See the [guide](/guides/connect/forecasting/getting-forecasts) for '
   name: Powernaut getting_forecasts API
   slug: powernaut-getting-forecasts-api
-- description: Upload historical meter data for your sites. Use these endpoints to import historical consumption and production data via CSV files.
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Upload historical meter data for your sites. Use these endpoints to import historical consumption and production data via CSV files.
   name: Powernaut historical_data API
   slug: powernaut-historical-data-api
-- description: Manage your bids. You can update, cancel and receive notifications about bids. When a bid is accepted, you either get notified or you poll for status updates. Read more [here](/guides/connect/activati
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Manage your bids. You can update, cancel and receive notifications about bids. When a bid is accepted, you either get notified or you poll for status updates. Read more [here](/guides/connect/activati
   name: Powernaut managing_bids API
   slug: powernaut-managing-bids-api
-- description: Markets are the electricity markets in which you can participate. Each market has a set of eligibility criteria, which you can query to see if you can participate in a certain market. Read our [guide]
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Markets are the electricity markets in which you can participate. Each market has a set of eligibility criteria, which you can query to see if you can participate in a certain market. Read our [guide]
   name: Powernaut markets API
   slug: powernaut-markets-api
-- description: Metrics reported by resources and sites
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Metrics reported by resources and sites
   name: Powernaut metrics API
   slug: powernaut-metrics-api
-- description: Register, modify or delete flexible resources. You can add flexible resources to each site, such as batteries, heat pumps, electric vehicles, ... They are the physical resource that can offer flexibil
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Register, modify or delete flexible resources. You can add flexible resources to each site, such as batteries, heat pumps, electric vehicles, ... They are the physical resource that can offer flexibil
   name: Powernaut resources API
   slug: powernaut-resources-api
-- description: Read raw time series data from sensors attached to your sites, such as irradiance sensors on PV installations. Useful when you need measured conditions alongside metering data, for example to estimate
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Read raw time series data from sensors attached to your sites, such as irradiance sensors on PV installations. Useful when you need measured conditions alongside metering data, for example to estimate
   name: Powernaut sensor_data API
   slug: powernaut-sensor-data-api
-- description: Register, modify or delete sites. Sites are the start of everything, they are required to uniquely identify the end consumer's connection to the grid. They define the meter point(s) for which flexibil
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Register, modify or delete sites. Sites are the start of everything, they are required to uniquely identify the end consumer's connection to the grid. They define the meter point(s) for which flexibil
   name: Powernaut sites API
   slug: powernaut-sites-api
-- description: Sharing your forecasts helps us better understand your resources' expected behaviour, leading to improved flexibility opportunities and optimised market participation. See the [guide](/guides/connect/
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: Sharing your forecasts helps us better understand your resources' expected behaviour, leading to improved flexibility opportunities and optimised market participation. See the [guide](/guides/connect/
   name: Powernaut uploading_forecasts API
   slug: powernaut-uploading-forecasts-api
-- description: The accepting_bids API from Powernaut — 0 operation(s) for accepting_bids.
+- baseURL: https://api.powernaut.io
+  baseurl_source: declared
+  description: The accepting_bids API from Powernaut — 0 operation(s) for accepting_bids.
   name: Powernaut Accepting Bids API
   slug: powernaut-accepting-bids-api
 artifact_total: 33
@@ -246,11 +274,11 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -260,7 +288,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 38.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,8 +306,9 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/powernaut/refs/heads/main/screenshots/powernaut-2026-09-02T151845.png
 security:
 - kind: authentication
   name: Powernaut Authentication

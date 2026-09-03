@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -50,97 +50,159 @@ apis:
 - description: 'The User Generated Content (UGC) API is a format and content-agnostic service for incorporating user-generated content features into games, handling content storage, discovery, ingestion, moderation, '
   name: Unity User Generated Content API
   slug: user-generated-content
-- description: Allocate servers for game sessions
+- baseURL: https://multiplay.services.api.unity.com
+  baseurl_source: spec
+  description: Allocate servers for game sessions
   name: Unity Allocations API
   slug: unity-allocations-api
-- description: Player sign-in and token management
+- baseURL: https://player-auth.services.api.unity.com
+  baseurl_source: spec
+  description: Player sign-in and token management
   name: Unity Authentication API
   slug: unity-authentication-api
-- description: Manage blocked players
+- baseURL: https://social.services.api.unity.com
+  baseurl_source: spec
+  description: Manage blocked players
   name: Unity Blocks API
   slug: unity-blocks-api
-- description: Configure build targets and platforms
+- baseURL: https://build-api.cloud.unity3d.com/api/v1
+  baseurl_source: spec
+  description: Configure build targets and platforms
   name: Unity Build Targets API
   slug: unity-build-targets-api
-- description: Manage and trigger builds
+- baseURL: https://build-api.cloud.unity3d.com/api/v1
+  baseurl_source: spec
+  description: Manage and trigger builds
   name: Unity Builds API
   slug: unity-builds-api
-- description: Manage remote configuration key-value pairs
+- baseURL: https://remote-config.services.api.unity.com
+  baseurl_source: spec
+  description: Manage remote configuration key-value pairs
   name: Unity Config API
   slug: unity-config-api
-- description: Admin endpoints for managing economy resources
+- baseURL: https://economy.services.api.unity.com
+  baseurl_source: spec
+  description: Admin endpoints for managing economy resources
   name: Unity Configuration API
   slug: unity-configuration-api
-- description: Manage virtual currencies and player balances
+- baseURL: https://economy.services.api.unity.com
+  baseurl_source: spec
+  description: Manage virtual currencies and player balances
   name: Unity Currencies API
   slug: unity-currencies-api
-- description: Manage custom data with access class controls
+- baseURL: https://cloud-save.services.api.unity.com
+  baseurl_source: spec
+  description: Manage custom data with access class controls
   name: Unity Custom Data API
   slug: unity-custom-data-api
-- description: Ingest analytics events
+- baseURL: https://analytics.services.api.unity.com
+  baseurl_source: spec
+  description: Ingest analytics events
   name: Unity Events API
   slug: unity-events-api
-- description: Execute cloud code scripts
+- baseURL: https://cloud-code.services.api.unity.com
+  baseurl_source: spec
+  description: Execute cloud code scripts
   name: Unity Executions API
   slug: unity-executions-api
-- description: Manage server fleets
+- baseURL: https://multiplay.services.api.unity.com
+  baseurl_source: spec
+  description: Manage server fleets
   name: Unity Fleets API
   slug: unity-fleets-api
-- description: Send and receive friend requests
+- baseURL: https://social.services.api.unity.com
+  baseurl_source: spec
+  description: Send and receive friend requests
   name: Unity Friend Requests API
   slug: unity-friend-requests-api
-- description: Manage player friend lists
+- baseURL: https://social.services.api.unity.com
+  baseurl_source: spec
+  description: Manage player friend lists
   name: Unity Friends API
   slug: unity-friends-api
-- description: External identity provider linking
+- baseURL: https://player-auth.services.api.unity.com
+  baseurl_source: spec
+  description: External identity provider linking
   name: Unity Identity Providers API
   slug: unity-identity-providers-api
-- description: Manage inventory items and player inventory
+- baseURL: https://economy.services.api.unity.com
+  baseurl_source: spec
+  description: Manage inventory items and player inventory
   name: Unity Inventory API
   slug: unity-inventory-api
-- description: Manage leaderboard definitions and configuration
+- baseURL: https://leaderboards.services.api.unity.com
+  baseurl_source: spec
+  description: Manage leaderboard definitions and configuration
   name: Unity Leaderboards API
   slug: unity-leaderboards-api
-- description: Create and manage game lobbies
+- baseURL: https://lobby.services.api.unity.com
+  baseurl_source: spec
+  description: Create and manage game lobbies
   name: Unity Lobbies API
   slug: unity-lobbies-api
-- description: Manage C# cloud code modules
+- baseURL: https://cloud-code.services.api.unity.com
+  baseurl_source: spec
+  description: Manage C# cloud code modules
   name: Unity Modules API
   slug: unity-modules-api
-- description: Manage targeting rules for configuration overrides
+- baseURL: https://remote-config.services.api.unity.com
+  baseurl_source: spec
+  description: Manage targeting rules for configuration overrides
   name: Unity Override Rules API
   slug: unity-override-rules-api
-- description: Manage player-scoped key-value data
+- baseURL: https://cloud-save.services.api.unity.com
+  baseurl_source: spec
+  description: Manage player-scoped key-value data
   name: Unity Player Data API
   slug: unity-player-data-api
-- description: Manage players within a lobby
+- baseURL: https://lobby.services.api.unity.com
+  baseurl_source: spec
+  description: Manage players within a lobby
   name: Unity Players API
   slug: unity-players-api
-- description: Process virtual and real-money purchases
+- baseURL: https://economy.services.api.unity.com
+  baseurl_source: spec
+  description: Process virtual and real-money purchases
   name: Unity Purchases API
   slug: unity-purchases-api
-- description: Query stored data using indexes
+- baseURL: https://cloud-save.services.api.unity.com
+  baseurl_source: spec
+  description: Query stored data using indexes
   name: Unity Queries API
   slug: unity-queries-api
-- description: Configure matchmaking queues and pools
+- baseURL: https://matchmaker.services.api.unity.com
+  baseurl_source: spec
+  description: Configure matchmaking queues and pools
   name: Unity Queues API
   slug: unity-queues-api
-- description: Submit and retrieve leaderboard scores
+- baseURL: https://leaderboards.services.api.unity.com
+  baseurl_source: spec
+  description: Submit and retrieve leaderboard scores
   name: Unity Scores API
   slug: unity-scores-api
-- description: Manage JavaScript cloud code scripts
+- baseURL: https://cloud-code.services.api.unity.com
+  baseurl_source: spec
+  description: Manage JavaScript cloud code scripts
   name: Unity Scripts API
   slug: unity-scripts-api
-- description: Discover and join lobbies
+- baseURL: https://lobby.services.api.unity.com
+  baseurl_source: spec
+  description: Discover and join lobbies
   name: Unity Search API
   slug: unity-search-api
-- description: Manage individual server instances
+- baseURL: https://multiplay.services.api.unity.com
+  baseurl_source: spec
+  description: Manage individual server instances
   name: Unity Servers API
   slug: unity-servers-api
-- description: Manage configuration settings and schemas
+- baseURL: https://remote-config.services.api.unity.com
+  baseurl_source: spec
+  description: Manage configuration settings and schemas
   name: Unity Settings API
   slug: unity-settings-api
-- description: Create and manage matchmaking tickets
+- baseURL: https://matchmaker.services.api.unity.com
+  baseurl_source: spec
+  description: Create and manage matchmaking tickets
   name: Unity Tickets API
   slug: unity-tickets-api
 arazzos:
@@ -1057,7 +1119,7 @@ score:
     catalog_gap: 60.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -1067,7 +1129,7 @@ score:
     discoverability: 57.4
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 56.5
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1076,7 +1138,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png
 security:

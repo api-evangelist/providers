@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Read-only access to the University of Auckland course catalogue, described by the University as "Exposes some course information by querying CS9 views" — CS9 being its PeopleSoft Campus Solutions inst
+- baseURL: https://apis.auckland.ac.nz/courses/v3
+  baseurl_source: declared
+  description: Read-only access to the University of Auckland course catalogue, described by the University as "Exposes some course information by querying CS9 views" — CS9 being its PeopleSoft Campus Solutions inst
   name: University of Auckland Course Catalog Api V3
   slug: course-catalog-v3
-- description: Search for scheduled class offerings at the University of Auckland — "Class API is intended to provide access to Class attributes, such as ID, Name, Description, Definition etc". A single GET /classes
+- baseURL: https://apis.auckland.ac.nz/classes/v2
+  baseurl_source: declared
+  description: Search for scheduled class offerings at the University of Auckland — "Class API is intended to provide access to Class attributes, such as ID, Name, Description, Definition etc". A single GET /classes
   name: University of Auckland Classes Api V2
   slug: classes-v2
 - description: Live OAI-PMH 2.0 metadata harvesting endpoint for ResearchSpace, the University's self-hosted DSpace institutional repository. Verified 2026-08-30 - Identify returns protocolVersion 2.0 and granularit
@@ -256,23 +260,23 @@ rules:
   slug: university-of-auckland-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 46.8
   coverage:
     artifact_dirs: 14
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.3
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 34.1
-    contract_quality: 64.0
+    contract_quality: 62.2
     developer_ergonomics: 42.9
     discoverability: 59.3
     governance: 34.1
     operational_transparency: 23.7
-  previous_composite: 46.0
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -287,7 +291,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/screenshots/university-of-auckland-2026-06-20T200126.png
 security:

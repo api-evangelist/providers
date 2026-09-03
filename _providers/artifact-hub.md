@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -47,31 +47,49 @@ apis:
 - description: The Artifact Hub REST API provides endpoints for searching and retrieving cloud-native packages across all supported artifact types, managing repositories, handling user authentication and sessions, m
   name: Artifact Hub API
   slug: artifact-hub-api
-- description: Organizations and memberships
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: Organizations and memberships
   name: Artifact Hub Organizations API
   slug: artifact-hub-organizations-api
-- description: Search and retrieve cloud-native packages
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: Search and retrieve cloud-native packages
   name: Artifact Hub Packages API
   slug: artifact-hub-packages-api
-- description: Repository management
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: Repository management
   name: Artifact Hub Repositories API
   slug: artifact-hub-repositories-api
-- description: Site-wide statistics
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: Site-wide statistics
   name: Artifact Hub Stats API
   slug: artifact-hub-stats-api
-- description: Package event subscriptions
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: Package event subscriptions
   name: Artifact Hub Subscriptions API
   slug: artifact-hub-subscriptions-api
-- description: User accounts and sessions
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: User accounts and sessions
   name: Artifact Hub Users API
   slug: artifact-hub-users-api
-- description: Webhook configuration and delivery
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: Webhook configuration and delivery
   name: Artifact Hub Webhooks API
   slug: artifact-hub-webhooks-api
-- description: The Availability checks API from Artifact Hub — 1 operation(s) for availability checks.
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: The Availability checks API from Artifact Hub — 1 operation(s) for availability checks.
   name: Artifact Hub Availability checks API
   slug: artifact-hub-availability-checks-api
-- description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
+- baseURL: https://artifacthub.io/api/v1
+  baseurl_source: declared
+  description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
   name: Artifact Hub Integrations API
   slug: artifact-hub-integrations-api
 artifact_total: 41
@@ -247,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:

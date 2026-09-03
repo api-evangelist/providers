@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: A collective list of free APIs organized by category including Animals, Finance, Weather, Geocoding, Government, Health, Machine Learning, Sports, and 40+ more categories for developers to discover an
   name: Public APIs Directory
   slug: public-apis-directory
-- description: Endpoints for category metadata.
+- baseURL: https://api.publicapis.org
+  baseurl_source: declared
+  description: Endpoints for category metadata.
   name: Public APIs Categories API
   slug: public-apis-categories-api
-- description: Endpoints for listing API directory entries.
+- baseURL: https://api.publicapis.org
+  baseurl_source: declared
+  description: Endpoints for listing API directory entries.
   name: Public APIs Entries API
   slug: public-apis-entries-api
-- description: Service health check.
+- baseURL: https://api.publicapis.org
+  baseurl_source: declared
+  description: Service health check.
   name: Public APIs Health API
   slug: public-apis-health-api
 artifact_total: 13
@@ -153,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-apis/refs/heads/main/screenshots/public-apis-2026-06-20T192252.png
 slug: public-apis

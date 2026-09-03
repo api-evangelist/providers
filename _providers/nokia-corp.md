@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: CAMARA-compliant, production-ready Network APIs exposing 5G core and RAN functions through standardized northbound interfaces. Includes Quality on Demand, Device Location (Verification, Retrieval), Ge
@@ -251,7 +251,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-corp/refs/heads/main/screenshots/nokia-corp-2026-06-20T190352.png
 security:

@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Chronicle API from Curated for You — 1 operation(s) for chronicle.
+- baseURL: https://api.curatedforyou.io
+  baseurl_source: declared
+  description: The Chronicle API from Curated for You — 1 operation(s) for chronicle.
   name: Curated for You Chronicle API
   slug: curated-for-you-chronicle-api
-- description: The Companies API from Curated for You — 1 operation(s) for companies.
+- baseURL: https://api.curatedforyou.io
+  baseurl_source: declared
+  description: The Companies API from Curated for You — 1 operation(s) for companies.
   name: Curated for You Companies API
   slug: curated-for-you-companies-api
-- description: The Curations API from Curated for You — 1 operation(s) for curations.
+- baseURL: https://api.curatedforyou.io
+  baseurl_source: declared
+  description: The Curations API from Curated for You — 1 operation(s) for curations.
   name: Curated for You Curations API
   slug: curated-for-you-curations-api
-- description: The Feedback API from Curated for You — 2 operation(s) for feedback.
+- baseURL: https://api.curatedforyou.io
+  baseurl_source: declared
+  description: The Feedback API from Curated for You — 2 operation(s) for feedback.
   name: Curated for You Feedback API
   slug: curated-for-you-feedback-api
-- description: The shopify API from Curated for You — 14 operation(s) for shopify.
+- baseURL: https://api.curatedforyou.io
+  baseurl_source: declared
+  description: The shopify API from Curated for You — 14 operation(s) for shopify.
   name: Curated for You shopify API
   slug: curated-for-you-shopify-api
-- description: The Users API from Curated for You — 1 operation(s) for users.
+- baseURL: https://api.curatedforyou.io
+  baseurl_source: declared
+  description: The Users API from Curated for You — 1 operation(s) for users.
   name: Curated for You Users API
   slug: curated-for-you-users-api
 artifact_total: 16
@@ -204,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/screenshots/curated-for-you-2026-07-25T210930.png
 security:

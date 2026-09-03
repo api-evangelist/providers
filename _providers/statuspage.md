@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -52,7 +52,9 @@ apis:
 - description: 'Outbound webhook notifications Statuspage POSTs to subscriber endpoints for component status changes, incident lifecycle updates, and scheduled maintenance lifecycle updates. Subscribers must respond '
   name: Statuspage Webhook Notifications
   slug: webhooks
-- description: The Pages API from Statuspage — 17 operation(s) for pages.
+- baseURL: https://api.statuspage.io/v1
+  baseurl_source: declared
+  description: The Pages API from Statuspage — 17 operation(s) for pages.
   name: Statuspage Pages API
   slug: statuspage-pages-api
 artifact_total: 15
@@ -171,7 +173,7 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -181,7 +183,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 35.4
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -190,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/screenshots/statuspage-2026-06-20T194529.png
 security:

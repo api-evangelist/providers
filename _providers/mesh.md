@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Assets API from Mesh — 2 operation(s) for assets.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Assets API from Mesh — 2 operation(s) for assets.
   name: Mesh Assets API
   slug: mesh-assets-api
-- description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
   name: Mesh Balance API
   slug: mesh-balance-api
-- description: The BrokerAccountDetail API from Mesh — 1 operation(s) for brokeraccountdetail.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The BrokerAccountDetail API from Mesh — 1 operation(s) for brokeraccountdetail.
   name: Mesh BrokerAccountDetail API
   slug: mesh-brokeraccountdetail-api
-- description: The recommended approach for account authentication. Front manages multiple authentication flows and handles all authentication steps such as MFA codes and OAuth redirect through our web and mobile SD
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The recommended approach for account authentication. Front manages multiple authentication flows and handles all authentication steps such as MFA codes and OAuth redirect through our web and mobile SD
   name: Mesh Managed Account Authentication API
   slug: mesh-managed-account-authentication-api
-- description: The Managed Transfers API from Mesh — 10 operation(s) for managed transfers.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Managed Transfers API from Mesh — 10 operation(s) for managed transfers.
   name: Mesh Managed Transfers API
   slug: mesh-managed-transfers-api
-- description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Op'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Op'
   name: Mesh Portfolio API
   slug: mesh-portfolio-api
-- description: Not recommended approach. Using this approach, the API client is responsible for handling multiple authentication flows and supporting future updates and changes.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: Not recommended approach. Using this approach, the API client is responsible for handling multiple authentication flows and supporting future updates and changes.
   name: Mesh Self Managed Account Authentication API
   slug: mesh-self-managed-account-authentication-api
-- description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
   name: Mesh Transactions API
   slug: mesh-transactions-api
-- description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
   name: Mesh Transfers API
   slug: mesh-transfers-api
 artifact_total: 24
@@ -252,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -262,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.5
+  previous_composite: 55.3
   provenance:
     conformance: first-party
     contracts:
@@ -279,7 +297,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh/refs/heads/main/screenshots/mesh-2026-08-07T172618.png
 security:

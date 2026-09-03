@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,76 +47,124 @@ apis:
 - description: The Chronicling America API provides access to the historic American newspapers collection digitized by the Library of Congress and its partners. Endpoints allow searching and retrieving pages, titles
   name: Chronicling America API
   slug: chronicling-america-api
-- description: Returns amendment data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns amendment data from the API
   name: Library of Congress amendments API
   slug: loc-amendments-api
-- description: Returns bill data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns bill data from the API
   name: Library of Congress bill API
   slug: loc-bill-api
-- description: Returns bound Congressional Record data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns bound Congressional Record data from the API
   name: Library of Congress bound-congressional-record API
   slug: loc-bound-congressional-record-api
-- description: Browse and access digital collections
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Browse and access digital collections
   name: Library of Congress collections API
   slug: loc-collections-api
-- description: Returns committee data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns committee data from the API
   name: Library of Congress committee API
   slug: loc-committee-api
-- description: Returns committee meeting data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns committee meeting data from the API
   name: Library of Congress committee-meeting API
   slug: loc-committee-meeting-api
-- description: Returns committee print data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns committee print data from the API
   name: Library of Congress committee-print API
   slug: loc-committee-print-api
-- description: Returns committee report data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns committee report data from the API
   name: Library of Congress committee-report API
   slug: loc-committee-report-api
-- description: Returns congress and congressional sessions data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns congress and congressional sessions data from the API
   name: Library of Congress congress API
   slug: loc-congress-api
-- description: Returns Congressional Record data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns Congressional Record data from the API
   name: Library of Congress congressional-record API
   slug: loc-congressional-record-api
-- description: Returns Congressional Research Service (CRS) report data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns Congressional Research Service (CRS) report data from the API
   name: Library of Congress crsreport API
   slug: loc-crsreport-api
-- description: Returns daily Congressional Record data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns daily Congressional Record data from the API
   name: Library of Congress daily-congressional-record API
   slug: loc-daily-congressional-record-api
-- description: Browse items by format type
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Browse items by format type
   name: Library of Congress formats API
   slug: loc-formats-api
-- description: Returns hearing data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns hearing data from the API
   name: Library of Congress hearing API
   slug: loc-hearing-api
-- description: Returns House communication data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns House communication data from the API
   name: Library of Congress house-communication API
   slug: loc-house-communication-api
-- description: Returns House requirement data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns House requirement data from the API
   name: Library of Congress house-requirement API
   slug: loc-house-requirement-api
-- description: '[BETA] Returns House of Representatives roll call vote data from the API'
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: '[BETA] Returns House of Representatives roll call vote data from the API'
   name: Library of Congress house-vote API
   slug: loc-house-vote-api
-- description: Access individual item details
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Access individual item details
   name: Library of Congress items API
   slug: loc-items-api
-- description: Returns member data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns member data from the API
   name: Library of Congress member API
   slug: loc-member-api
-- description: Returns nomination data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns nomination data from the API
   name: Library of Congress nomination API
   slug: loc-nomination-api
-- description: Search across all loc.gov digital collections
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Search across all loc.gov digital collections
   name: Library of Congress search API
   slug: loc-search-api
-- description: Returns Senate communication data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns Senate communication data from the API
   name: Library of Congress senate-communication API
   slug: loc-senate-communication-api
-- description: Returns summaries data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns summaries data from the API
   name: Library of Congress summaries API
   slug: loc-summaries-api
-- description: Returns treaty data from the API
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: Returns treaty data from the API
   name: Library of Congress treaty API
   slug: loc-treaty-api
 artifact_total: 61
@@ -350,7 +398,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/screenshots/loc-2026-06-20T184630.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: The Event API from Race Entry — 3 operation(s) for event.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Event API from Race Entry — 3 operation(s) for event.
   name: Race Entry Event API
   slug: race-entry-event-api
-- description: The Get Category Teams API from Race Entry — 1 operation(s) for get category teams.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Category Teams API from Race Entry — 1 operation(s) for get category teams.
   name: Race Entry Get Category Teams API
   slug: race-entry-get-category-teams-api
-- description: The Get Event Categories API from Race Entry — 1 operation(s) for get event categories.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Event Categories API from Race Entry — 1 operation(s) for get event categories.
   name: Race Entry Get Event Categories API
   slug: race-entry-get-event-categories-api
-- description: The Get Event Participants API from Race Entry — 1 operation(s) for get event participants.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Event Participants API from Race Entry — 1 operation(s) for get event participants.
   name: Race Entry Get Event Participants API
   slug: race-entry-get-event-participants-api
-- description: The Get Event Pin API from Race Entry — 1 operation(s) for get event pin.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Event Pin API from Race Entry — 1 operation(s) for get event pin.
   name: Race Entry Get Event Pin API
   slug: race-entry-get-event-pin-api
-- description: The Get Event Questions API from Race Entry — 1 operation(s) for get event questions.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Event Questions API from Race Entry — 1 operation(s) for get event questions.
   name: Race Entry Get Event Questions API
   slug: race-entry-get-event-questions-api
-- description: The Get Event Teams API from Race Entry — 1 operation(s) for get event teams.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Event Teams API from Race Entry — 1 operation(s) for get event teams.
   name: Race Entry Get Event Teams API
   slug: race-entry-get-event-teams-api
-- description: The Get Events API from Race Entry — 1 operation(s) for get events.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Get Events API from Race Entry — 1 operation(s) for get events.
   name: Race Entry Get Events API
   slug: race-entry-get-events-api
-- description: The Login API from Race Entry — 1 operation(s) for login.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Login API from Race Entry — 1 operation(s) for login.
   name: Race Entry Login API
   slug: race-entry-login-api
-- description: The Memberships API from Race Entry — 2 operation(s) for memberships.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Memberships API from Race Entry — 2 operation(s) for memberships.
   name: Race Entry Memberships API
   slug: race-entry-memberships-api
-- description: The Result API from Race Entry — 2 operation(s) for result.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Result API from Race Entry — 2 operation(s) for result.
   name: Race Entry Result API
   slug: race-entry-result-api
-- description: The Set Event App Access API from Race Entry — 1 operation(s) for set event app access.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Set Event App Access API from Race Entry — 1 operation(s) for set event app access.
   name: Race Entry Set Event App Access API
   slug: race-entry-set-event-app-access-api
-- description: The Set Event Pin API from Race Entry — 1 operation(s) for set event pin.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Set Event Pin API from Race Entry — 1 operation(s) for set event pin.
   name: Race Entry Set Event Pin API
   slug: race-entry-set-event-pin-api
-- description: The Update Event Participant API from Race Entry — 1 operation(s) for update event participant.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Update Event Participant API from Race Entry — 1 operation(s) for update event participant.
   name: Race Entry Update Event Participant API
   slug: race-entry-update-event-participant-api
-- description: The Upload API from Race Entry — 1 operation(s) for upload.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The Upload API from Race Entry — 1 operation(s) for upload.
   name: Race Entry Upload API
   slug: race-entry-upload-api
-- description: The User API from Race Entry — 1 operation(s) for user.
+- baseURL: https://www.raceentry.com/softwareapi
+  baseurl_source: declared
+  description: The User API from Race Entry — 1 operation(s) for user.
   name: Race Entry User API
   slug: race-entry-user-api
 artifact_total: 40
@@ -217,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/screenshots/race-entry-2026-06-20T192506.png
 security:

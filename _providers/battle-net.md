@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,16 +68,24 @@ apis:
 - description: Provides OAuth 2.0 authorization services for Battle.net including client credentials flow for game data access and authorization code flow for player profile data. Token endpoint, authorization endpo
   name: Battle.net OAuth API
   slug: battle-net-oauth
-- description: Hearthstone card back collections
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: spec
+  description: Hearthstone card back collections
   name: Battle.net Card Backs API
   slug: battle-net-card-backs-api
-- description: Hearthstone card search and lookup
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: spec
+  description: Hearthstone card search and lookup
   name: Battle.net Cards API
   slug: battle-net-cards-api
-- description: Hearthstone deck lookup
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: spec
+  description: Hearthstone deck lookup
   name: Battle.net Decks API
   slug: battle-net-decks-api
-- description: Hearthstone metadata including sets, classes, types, and keywords
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: spec
+  description: Hearthstone metadata including sets, classes, types, and keywords
   name: Battle.net Metadata API
   slug: battle-net-metadata-api
 artifact_total: 92
@@ -446,7 +454,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/screenshots/battle-net-2026-06-20T173043.png
 security:

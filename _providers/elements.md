@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Configuration props and attributes for the Stoplight Elements API component controlling layout, visibility, Try It behavior, routing, and OpenAPI specification loading.
+- baseURL: https://stoplight.io
+  baseurl_source: spec
+  description: Configuration props and attributes for the Stoplight Elements API component controlling layout, visibility, Try It behavior, routing, and OpenAPI specification loading.
   name: Stoplight Elements Configuration API
   slug: elements-configuration-api
-- description: Integration and embedding guides for using Elements in React, Angular, and plain HTML via Web Components or CDN.
+- baseURL: https://stoplight.io
+  baseurl_source: spec
+  description: Integration and embedding guides for using Elements in React, Angular, and plain HTML via Web Components or CDN.
   name: Stoplight Elements Integration API
   slug: elements-integration-api
 artifact_total: 14
@@ -203,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elements/refs/heads/main/screenshots/elements-2026-06-20T180557.png
 security:

@@ -33,31 +33,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
 - description: First-party remote Model Context Protocol server giving an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Documented as a custom connector fo
   name: Northbeam MCP Server
   slug: mcp
-- description: The Attribution Models API from Northbeam — 1 operation(s) for attribution models.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Attribution Models API from Northbeam — 1 operation(s) for attribution models.
   name: Northbeam Attribution Models API
   slug: northbeam-attribution-models-api
-- description: The Breakdowns API from Northbeam — 1 operation(s) for breakdowns.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Breakdowns API from Northbeam — 1 operation(s) for breakdowns.
   name: Northbeam Breakdowns API
   slug: northbeam-breakdowns-api
-- description: The Data Export API from Northbeam — 2 operation(s) for data export.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Data Export API from Northbeam — 2 operation(s) for data export.
   name: Northbeam Data Export API
   slug: northbeam-data-export-api
-- description: The Metrics API from Northbeam — 1 operation(s) for metrics.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Metrics API from Northbeam — 1 operation(s) for metrics.
   name: Northbeam Metrics API
   slug: northbeam-metrics-api
-- description: The Orders API from Northbeam — 2 operation(s) for orders.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Orders API from Northbeam — 2 operation(s) for orders.
   name: Northbeam Orders API
   slug: northbeam-orders-api
-- description: The Spend API from Northbeam — 1 operation(s) for spend.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Spend API from Northbeam — 1 operation(s) for spend.
   name: Northbeam Spend API
   slug: northbeam-spend-api
-- description: The Spend Hourly API from Northbeam — 1 operation(s) for spend hourly.
+- baseURL: https://api.northbeam.io/v2/orders
+  baseurl_source: declared
+  description: The Spend Hourly API from Northbeam — 1 operation(s) for spend hourly.
   name: Northbeam Spend Hourly API
   slug: northbeam-spend-hourly-api
 artifact_total: 16
@@ -312,7 +326,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
 security:

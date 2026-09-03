@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 interface for the Institutional Repository University of Antwerp (IRUA). Verified live on 2026-09-01: Identify returns repositoryName "Ins'
+- baseURL: https://repository.uantwerpen.be/oai/abua/
+  baseurl_source: declared
+  description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 interface for the Institutional Repository University of Antwerp (IRUA). Verified live on 2026-09-01: Identify returns repositoryName "Ins'
   name: IRUA OAI-PMH Metadata Interface
   slug: irua-oai-pmh
 - description: The university's federated login, published as a SAML 2.0 EntityDescriptor at https://idpx.ua.ac.be/idp/shibboleth (HTTP 200, application/xml, 16,305 bytes). Declares four SingleSignOnService bindings
@@ -193,7 +195,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 15.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -203,7 +205,7 @@ score:
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 19.6
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     contracts:
@@ -218,8 +220,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/screenshots/university-of-antwerp-2026-06-20T200126.png
 security:
 - kind: authentication

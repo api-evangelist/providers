@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,19 +36,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The data API from Swiss Food Composition Database — 13 operation(s) for data.
+- baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
+  baseurl_source: declared
+  description: The data API from Swiss Food Composition Database — 13 operation(s) for data.
   name: Swiss Food Composition Database Data API
   slug: swiss-food-composition-database-data-api
-- description: The stats API from Swiss Food Composition Database — 1 operation(s) for stats.
+- baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
+  baseurl_source: declared
+  description: The stats API from Swiss Food Composition Database — 1 operation(s) for stats.
   name: Swiss Food Composition Database Stats API
   slug: swiss-food-composition-database-stats-api
-- description: The system API from Swiss Food Composition Database — 5 operation(s) for system.
+- baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
+  baseurl_source: declared
+  description: The system API from Swiss Food Composition Database — 5 operation(s) for system.
   name: Swiss Food Composition Database System API
   slug: swiss-food-composition-database-system-api
-- description: The system configuration API from Swiss Food Composition Database — 1 operation(s) for system configuration.
+- baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
+  baseurl_source: declared
+  description: The system configuration API from Swiss Food Composition Database — 1 operation(s) for system configuration.
   name: Swiss Food Composition Database system configuration API
   slug: swiss-food-composition-database-system-configuration-api
 artifact_total: 10
@@ -170,11 +191,11 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -184,7 +205,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.6
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +222,9 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/swiss-food-composition-database/refs/heads/main/screenshots/swiss-food-composition-database-2026-09-02T161420.png
 security:
 - kind: authentication
   name: Swiss Food Composition Database Authentication

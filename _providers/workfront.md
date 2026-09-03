@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -43,22 +58,34 @@ apis:
 - description: Adobe's hosted Model Context Protocol server for Workfront, generally available since June 2026. It exposes 87 documented tools across three families — Approvals (documents, approval workflows, remind
   name: Adobe Workfront MCP Server
   slug: workfront-mcp-server
-- description: 'Field management. Per-record-type quotas: max 500 fields total; max 20 PARAGRAPH (long-text) fields; max 20 FORMULA fields; max 30 REFERENCE fields. Field display names must be unique within a record '
+- baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
+  baseurl_source: declared
+  description: 'Field management. Per-record-type quotas: max 500 fields total; max 20 PARAGRAPH (long-text) fields; max 20 FORMULA fields; max 30 REFERENCE fields. Field display names must be unique within a record '
   name: Adobe Workfront Fields API
   slug: workfront-fields-api
-- description: Resource permissions, member management, and access requests.
+- baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
+  baseurl_source: declared
+  description: Resource permissions, member management, and access requests.
   name: Adobe Workfront Permissions API
   slug: workfront-permissions-api
-- description: Record Type Controller
+- baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
+  baseurl_source: declared
+  description: Record Type Controller
   name: Adobe Workfront Record Types API
   slug: workfront-record-types-api
-- description: Record Controller
+- baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
+  baseurl_source: declared
+  description: Record Controller
   name: Adobe Workfront Records API
   slug: workfront-records-api
-- description: 'View management. Limits: max 100 personal views per record type; max 255 characters for view name.'
+- baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
+  baseurl_source: declared
+  description: 'View management. Limits: max 100 personal views per record type; max 255 characters for view name.'
   name: Adobe Workfront Views API
   slug: workfront-views-api
-- description: Workspace Controller
+- baseURL: https://{customer-domain}.my.workfront.adobe.com/attask/api/v22.0
+  baseurl_source: declared
+  description: Workspace Controller
   name: Adobe Workfront Workspaces API
   slug: workfront-workspaces-api
 artifact_total: 21
@@ -275,7 +302,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -285,7 +312,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 64.0
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,7 +324,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/screenshots/workfront-2026-08-17T075411.png
 security:

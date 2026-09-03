@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 91 operations · 69 acting
 api_count: 4
 apis:
-- description: The Ads API from Picsart — 1 operation(s) for ads.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Ads API from Picsart — 1 operation(s) for ads.
   name: Picsart Ads API
   slug: picsart-ads-api
-- description: The Audio API from Picsart — 2 operation(s) for audio.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Audio API from Picsart — 2 operation(s) for audio.
   name: Picsart Audio API
   slug: picsart-audio-api
-- description: The Classification API from Picsart — 5 operation(s) for classification.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Classification API from Picsart — 5 operation(s) for classification.
   name: Picsart Classification API
   slug: picsart-classification-api
-- description: The Content Generation API from Picsart — 2 operation(s) for content generation.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Content Generation API from Picsart — 2 operation(s) for content generation.
   name: Picsart Content Generation API
   slug: picsart-content-generation-api
-- description: The Conversion API from Picsart — 3 operation(s) for conversion.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Conversion API from Picsart — 3 operation(s) for conversion.
   name: Picsart Conversion API
   slug: picsart-conversion-api
-- description: The Edit API from Picsart — 6 operation(s) for edit.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Edit API from Picsart — 6 operation(s) for edit.
   name: Picsart Edit API
   slug: picsart-edit-api
-- description: The Editing API from Picsart — 4 operation(s) for editing.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Editing API from Picsart — 4 operation(s) for editing.
   name: Picsart Editing API
   slug: picsart-editing-api
-- description: The Effects API from Picsart — 10 operation(s) for effects.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Effects API from Picsart — 10 operation(s) for effects.
   name: Picsart Effects API
   slug: picsart-effects-api
-- description: The Image2Image / Inpainting API from Picsart — 8 operation(s) for image2image / inpainting.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Image2Image / Inpainting API from Picsart — 8 operation(s) for image2image / inpainting.
   name: Picsart Image2Image / Inpainting API
   slug: picsart-image2image-inpainting-api
-- description: The Metadata API from Picsart — 4 operation(s) for metadata.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Metadata API from Picsart — 4 operation(s) for metadata.
   name: Picsart Metadata API
   slug: picsart-metadata-api
-- description: The Photo enhancement API from Picsart — 5 operation(s) for photo enhancement.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Photo enhancement API from Picsart — 5 operation(s) for photo enhancement.
   name: Picsart Photo enhancement API
   slug: picsart-photo-enhancement-api
-- description: The Remove Background API from Picsart — 2 operation(s) for remove background.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Remove Background API from Picsart — 2 operation(s) for remove background.
   name: Picsart Remove Background API
   slug: picsart-remove-background-api
-- description: The Replay API from Picsart — 2 operation(s) for replay.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Replay API from Picsart — 2 operation(s) for replay.
   name: Picsart Replay API
   slug: picsart-replay-api
-- description: The Surfacemap API from Picsart — 1 operation(s) for surfacemap.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Surfacemap API from Picsart — 1 operation(s) for surfacemap.
   name: Picsart Surfacemap API
   slug: picsart-surfacemap-api
-- description: The Text2Audio API from Picsart — 3 operation(s) for text2audio.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Audio API from Picsart — 3 operation(s) for text2audio.
   name: Picsart Text2Audio API
   slug: picsart-text2audio-api
-- description: The Text2Image API from Picsart — 7 operation(s) for text2image.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Image API from Picsart — 7 operation(s) for text2image.
   name: Picsart Text2Image API
   slug: picsart-text2image-api
-- description: The Text2Text API from Picsart — 1 operation(s) for text2text.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Text API from Picsart — 1 operation(s) for text2text.
   name: Picsart Text2Text API
   slug: picsart-text2text-api
-- description: The Text2Video & Image2Video API from Picsart — 3 operation(s) for text2video & image2video.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Video & Image2Video API from Picsart — 3 operation(s) for text2video & image2video.
   name: Picsart Text2Video & Image2Video API
   slug: picsart-text2video-image2video-api
-- description: The Transcriptions API from Picsart — 2 operation(s) for transcriptions.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Transcriptions API from Picsart — 2 operation(s) for transcriptions.
   name: Picsart Transcriptions API
   slug: picsart-transcriptions-api
-- description: The Utilities API from Picsart — 5 operation(s) for utilities.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Utilities API from Picsart — 5 operation(s) for utilities.
   name: Picsart Utilities API
   slug: picsart-utilities-api
-- description: The Variable Data Content API from Picsart — 3 operation(s) for variable data content.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Variable Data Content API from Picsart — 3 operation(s) for variable data content.
   name: Picsart Variable Data Content API
   slug: picsart-variable-data-content-api
-- description: The Video enhancement API from Picsart — 2 operation(s) for video enhancement.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Video enhancement API from Picsart — 2 operation(s) for video enhancement.
   name: Picsart Video enhancement API
   slug: picsart-video-enhancement-api
-- description: The Watermark API from Picsart — 1 operation(s) for watermark.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Watermark API from Picsart — 1 operation(s) for watermark.
   name: Picsart Watermark API
   slug: picsart-watermark-api
 artifact_total: 52
@@ -378,7 +424,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picsart/refs/heads/main/screenshots/picsart-2026-08-17T081220.png
 security:

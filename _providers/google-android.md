@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -56,28 +56,44 @@ apis:
 - description: The Cloud Testing API powers Firebase Test Lab, enabling developers to test Android and iOS apps on real and virtual devices hosted in Google data centers, including instrumentation tests and robo tes
   name: Cloud Testing API
   slug: cloud-testing-api
-- description: The Android Management API API from Google Android — 2 operation(s) for android management api.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The Android Management API API from Google Android — 2 operation(s) for android management api.
   name: Google Android Android Management API API
   slug: google-android-android-management-api-api
-- description: The Device API from Google Android — 1 operation(s) for device.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The Device API from Google Android — 1 operation(s) for device.
   name: Google Android Device API
   slug: google-android-device-api
-- description: The Devices API from Google Android — 1 operation(s) for devices.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The Devices API from Google Android — 1 operation(s) for devices.
   name: Google Android Devices API
   slug: google-android-devices-api
-- description: The EnrollmentTokens API from Google Android — 1 operation(s) for enrollmenttokens.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The EnrollmentTokens API from Google Android — 1 operation(s) for enrollmenttokens.
   name: Google Android EnrollmentTokens API
   slug: google-android-enrollmenttokens-api
-- description: The Enterprises API from Google Android — 1 operation(s) for enterprises.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The Enterprises API from Google Android — 1 operation(s) for enterprises.
   name: Google Android Enterprises API
   slug: google-android-enterprises-api
-- description: The Policies API from Google Android — 1 operation(s) for policies.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The Policies API from Google Android — 1 operation(s) for policies.
   name: Google Android Policies API
   slug: google-android-policies-api
-- description: The Policy API from Google Android — 1 operation(s) for policy.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The Policy API from Google Android — 1 operation(s) for policy.
   name: Google Android Policy API
   slug: google-android-policy-api
-- description: The WebApps API from Google Android — 1 operation(s) for webapps.
+- baseURL: https://androidmanagement.googleapis.com
+  baseurl_source: declared
+  description: The WebApps API from Google Android — 1 operation(s) for webapps.
   name: Google Android WebApps API
   slug: google-android-webapps-api
 arazzos:
@@ -367,7 +383,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -377,7 +393,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 43.7
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,7 +404,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/screenshots/google-android-2026-06-20T182012.png
 security:

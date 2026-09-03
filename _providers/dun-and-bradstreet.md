@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,28 +69,44 @@ apis:
 - description: 'The Research surface lets customers retrieve historical responses Direct+ has previously returned, supporting audit, dispute, and reconciliation use cases where the application needs to see the exact '
   name: D&B Direct+ Research API
   slug: direct-plus-research
-- description: OAuth 2.0 token issuance for Direct+.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance for Direct+.
   name: Dun & Bradstreet Authentication API
   slug: dun-and-bradstreet-authentication-api
-- description: Asynchronous batch file submission, status, and download.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Asynchronous batch file submission, status, and download.
   name: Dun & Bradstreet Data File API
   slug: dun-and-bradstreet-data-file-api
-- description: Retrieve Data Blocks for a known D-U-N-S Number.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Retrieve Data Blocks for a known D-U-N-S Number.
   name: Dun & Bradstreet Enrich API
   slug: dun-and-bradstreet-enrich-api
-- description: Match an input record to a D-U-N-S Number.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Match an input record to a D-U-N-S Number.
   name: Dun & Bradstreet Identity Resolution API
   slug: dun-and-bradstreet-identity-resolution-api
-- description: Subscribe to and consume change notifications on a portfolio.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Subscribe to and consume change notifications on a portfolio.
   name: Dun & Bradstreet Monitoring API
   slug: dun-and-bradstreet-monitoring-api
-- description: Combined match plus enrich in a single call.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Combined match plus enrich in a single call.
   name: Dun & Bradstreet Multi-Process API
   slug: dun-and-bradstreet-multi-process-api
-- description: Retrieve historical responses for audit and reconciliation.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Retrieve historical responses for audit and reconciliation.
   name: Dun & Bradstreet Research API
   slug: dun-and-bradstreet-research-api
-- description: Find companies, principals, and related entities.
+- baseURL: https://plus.dnb.com
+  baseurl_source: declared
+  description: Find companies, principals, and related entities.
   name: Dun & Bradstreet Search API
   slug: dun-and-bradstreet-search-api
 arazzos:
@@ -602,7 +618,7 @@ score:
     catalog_gap: 29.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -612,7 +628,7 @@ score:
     discoverability: 70.4
     governance: 87.9
     operational_transparency: 34.2
-  previous_composite: 65.7
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -624,7 +640,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dun-and-bradstreet/refs/heads/main/screenshots/dun-and-bradstreet-2026-06-20T180319.png
 security:

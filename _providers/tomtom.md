@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 39 operations · 6 acting
 api_count: 4
 apis:
-- description: The TomTom Geocoding API converts structured addresses into geographic coordinates and supports reverse geocoding to translate coordinates into human-readable addresses. The Premium Geocoding API adds
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The TomTom Geocoding API converts structured addresses into geographic coordinates and supports reverse geocoding to translate coordinates into human-readable addresses. The Premium Geocoding API adds
   name: TomTom Geocoding API
   slug: tomtom-geocoding-api
 - description: The TomTom Fuel Prices API provides current fuel price information at specific fueling stations, including price by fuel type.
@@ -59,49 +61,79 @@ apis:
 - description: TomTom AutoStream is a map data delivery platform optimized for on-demand and over-the-air cloud-to-device and cloud-to-cloud data streaming for automotive applications.
   name: TomTom AutoStream API
   slug: tomtom-autostream-api
-- description: The Additional Data API from TomTom — 1 operation(s) for additional data.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Additional Data API from TomTom — 1 operation(s) for additional data.
   name: TomTom Additional Data API
   slug: tomtom-additional-data-api
-- description: Multiple route requests in a single call
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: Multiple route requests in a single call
   name: TomTom Batch Routing API
   slug: tomtom-batch-routing-api
-- description: The Copyrights API from TomTom — 4 operation(s) for copyrights.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Copyrights API from TomTom — 4 operation(s) for copyrights.
   name: TomTom Copyrights API
   slug: tomtom-copyrights-api
-- description: The Filters API from TomTom — 2 operation(s) for filters.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Filters API from TomTom — 2 operation(s) for filters.
   name: TomTom Filters API
   slug: tomtom-filters-api
-- description: The Geocoding API from TomTom — 2 operation(s) for geocoding.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Geocoding API from TomTom — 2 operation(s) for geocoding.
   name: TomTom Geocoding API
   slug: tomtom-geocoding-api
-- description: The Raster API from TomTom — 2 operation(s) for raster.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Raster API from TomTom — 2 operation(s) for raster.
   name: TomTom Raster API
   slug: tomtom-raster-api
-- description: Calculate areas reachable within given constraints
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: Calculate areas reachable within given constraints
   name: TomTom Reachable Range API
   slug: tomtom-reachable-range-api
-- description: The Reverse Geocoding API from TomTom — 2 operation(s) for reverse geocoding.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Reverse Geocoding API from TomTom — 2 operation(s) for reverse geocoding.
   name: TomTom Reverse Geocoding API
   slug: tomtom-reverse-geocoding-api
-- description: Route calculation between locations
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: Route calculation between locations
   name: TomTom Routing API
   slug: tomtom-routing-api
-- description: The Search API from TomTom — 9 operation(s) for search.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Search API from TomTom — 9 operation(s) for search.
   name: TomTom Search API
   slug: tomtom-search-api
-- description: Real-time traffic speed and flow data
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: Real-time traffic speed and flow data
   name: TomTom Traffic Flow API
   slug: tomtom-traffic-flow-api
-- description: Real-time traffic incident data
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: Real-time traffic incident data
   name: TomTom Traffic Incidents API
   slug: tomtom-traffic-incidents-api
-- description: Raster and vector tiles for map display
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: Raster and vector tiles for map display
   name: TomTom Traffic Tiles API
   slug: tomtom-traffic-tiles-api
-- description: The Vector API from TomTom — 1 operation(s) for vector.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The Vector API from TomTom — 1 operation(s) for vector.
   name: TomTom Vector API
   slug: tomtom-vector-api
-- description: The WMS / WMTS API from TomTom — 3 operation(s) for wms / wmts.
+- baseURL: https://api.tomtom.com
+  baseurl_source: declared
+  description: The WMS / WMTS API from TomTom — 3 operation(s) for wms / wmts.
   name: TomTom WMS / WMTS API
   slug: tomtom-wms-wmts-api
 artifact_total: 81
@@ -374,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/screenshots/tomtom-2026-06-20T195447.png
 security:

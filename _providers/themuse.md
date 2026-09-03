@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Employer company profiles that back the job listings.
+- baseURL: https://www.themuse.com/api/public
+  baseurl_source: declared
+  description: Employer company profiles that back the job listings.
   name: The Muse Companies API
   slug: themuse-companies-api
-- description: Live job openings, searchable by category, level, company, and location.
+- baseURL: https://www.themuse.com/api/public
+  baseurl_source: declared
+  description: Live job openings, searchable by category, level, company, and location.
   name: The Muse Jobs API
   slug: themuse-jobs-api
 artifact_total: 11
@@ -152,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themuse/refs/heads/main/screenshots/themuse-2026-06-20T195325.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -53,52 +53,84 @@ apis:
 - description: 'Moov provides official server-side client libraries for interacting with the Moov API across multiple programming languages, including Go, TypeScript, Python, Java, PHP, Ruby, and C#/.NET. These SDKs '
   name: Moov Backend SDKs
   slug: moov-backend-sdks
-- description: Create and manage Moov accounts representing individual or business legal entities. Accounts are the foundation for all money movement operations.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Create and manage Moov accounts representing individual or business legal entities. Accounts are the foundation for all money movement operations.
   name: Moov Accounts API
   slug: moov-accounts-api
-- description: OAuth2 access token creation and revocation for API authentication.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: OAuth2 access token creation and revocation for API authentication.
   name: Moov Authentication API
   slug: moov-authentication-api
-- description: Link and manage bank accounts as funding sources for ACH and RTP transfers. Includes micro-deposit and instant verification flows.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Link and manage bank accounts as funding sources for ACH and RTP transfers. Includes micro-deposit and instant verification flows.
   name: Moov Bank Accounts API
   slug: moov-bank-accounts-api
-- description: Request and manage capabilities that enable specific financial operations on an account, such as send-funds or collect-funds.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Request and manage capabilities that enable specific financial operations on an account, such as send-funds or collect-funds.
   name: Moov Capabilities API
   slug: moov-capabilities-api
-- description: Link and manage debit and credit cards as payment sources on Moov accounts.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Link and manage debit and credit cards as payment sources on Moov accounts.
   name: Moov Cards API
   slug: moov-cards-api
-- description: Manage card payment disputes including evidence submission, acceptance, and lifecycle tracking for chargeback resolution.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Manage card payment disputes including evidence submission, acceptance, and lifecycle tracking for chargeback resolution.
   name: Moov Disputes API
   slug: moov-disputes-api
-- description: Create and manage shareable payment links that allow customers to pay via card or bank account without custom code.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Create and manage shareable payment links that allow customers to pay via card or bank account without custom code.
   name: Moov Payment Links API
   slug: moov-payment-links-api
-- description: Retrieve the available payment methods on an account, including bank accounts, cards, and wallets, which can be used as transfer sources or destinations.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Retrieve the available payment methods on an account, including bank accounts, cards, and wallets, which can be used as transfer sources or destinations.
   name: Moov Payment Methods API
   slug: moov-payment-methods-api
-- description: Create and retrieve refunds for completed card transfers, including full and partial refund support.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Create and retrieve refunds for completed card transfers, including full and partial refund support.
   name: Moov Refunds API
   slug: moov-refunds-api
-- description: Manage business representatives associated with a Moov account for KYB compliance and ownership verification.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Manage business representatives associated with a Moov account for KYB compliance and ownership verification.
   name: Moov Representatives API
   slug: moov-representatives-api
-- description: Configure automatic daily transfers from a Moov wallet to an external bank account on a set schedule using ACH or RTP rails.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Configure automatic daily transfers from a Moov wallet to an external bank account on a set schedule using ACH or RTP rails.
   name: Moov Sweeps API
   slug: moov-sweeps-api
-- description: Initiate and manage money movement between Moov accounts. Supports ACH, RTP, and card rails with full lifecycle tracking.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Initiate and manage money movement between Moov accounts. Supports ACH, RTP, and card rails with full lifecycle tracking.
   name: Moov Transfers API
   slug: moov-transfers-api
-- description: Create and manage Moov digital wallets that hold funds within the platform. Supports wallet transactions and balance adjustments.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Create and manage Moov digital wallets that hold funds within the platform. Supports wallet transactions and balance adjustments.
   name: Moov Wallets API
   slug: moov-wallets-api
-- description: Virtual spending cards, authorizations, and card transactions.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Virtual spending cards, authorizations, and card transactions.
   name: Moov Card Issuing API
   slug: moov-card-issuing-api
-- description: Financial institution lookup by routing number.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Financial institution lookup by routing number.
   name: Moov Institutions API
   slug: moov-institutions-api
-- description: Underwriting details used to enable card acquiring and higher-risk activity.
+- baseURL: https://api.moov.io
+  baseurl_source: spec
+  description: Underwriting details used to enable card acquiring and higher-risk activity.
   name: Moov Underwriting API
   slug: moov-underwriting-api
 artifact_total: 130
@@ -538,7 +570,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -548,7 +580,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 56.5
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -563,7 +595,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:

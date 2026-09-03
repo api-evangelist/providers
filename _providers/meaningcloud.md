@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
 - description: Performs detailed multilingual sentiment analysis of texts from different sources, returning polarity, agreement, subjectivity, irony, and confidence scores at document, sentence, and segment levels.
@@ -162,7 +162,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: meaningcloud
 tags:

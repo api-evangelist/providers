@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 45 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Programmatic API key management.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Programmatic API key management.
   name: PushPress ApiKeys API
   slug: pushpress-apikeys-api
-- description: Scheduled one-on-one or small-group appointments.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Scheduled one-on-one or small-group appointments.
   name: PushPress Appointments API
   slug: pushpress-appointments-api
-- description: Marketing / lead-source attributions for a customer.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Marketing / lead-source attributions for a customer.
   name: PushPress Attributions API
   slug: pushpress-attributions-api
-- description: Class, appointment, event, and open-facility check-ins.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Class, appointment, event, and open-facility check-ins.
   name: PushPress Checkins API
   slug: pushpress-checkins-api
-- description: Scheduled classes and class types.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Scheduled classes and class types.
   name: PushPress Classes API
   slug: pushpress-classes-api
-- description: The gym / business (company) the API key is scoped to.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: The gym / business (company) the API key is scoped to.
   name: PushPress Company API
   slug: pushpress-company-api
-- description: Gym members and leads (customers).
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Gym members and leads (customers).
   name: PushPress Customers API
   slug: pushpress-customers-api
-- description: Customer enrollments in membership plans.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Customer enrollments in membership plans.
   name: PushPress Enrollments API
   slug: pushpress-enrollments-api
-- description: Gym events (workshops, competitions, socials).
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Gym events (workshops, competitions, socials).
   name: PushPress Events API
   slug: pushpress-events-api
-- description: Invitations for members or staff to join the gym on PushPress.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Invitations for members or staff to join the gym on PushPress.
   name: PushPress Invitations API
   slug: pushpress-invitations-api
-- description: Transactional email, SMS, push, and in-app notifications.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Transactional email, SMS, push, and in-app notifications.
   name: PushPress Messages API
   slug: pushpress-messages-api
-- description: Membership and billing plans offered by the gym.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Membership and billing plans offered by the gym.
   name: PushPress Plans API
   slug: pushpress-plans-api
-- description: Platform webhook subscriptions for real-time events.
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Platform webhook subscriptions for real-time events.
   name: PushPress Webhooks API
   slug: pushpress-webhooks-api
 artifact_total: 34
@@ -204,7 +230,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -227,8 +253,9 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pushpress/refs/heads/main/screenshots/pushpress-2026-09-02T152346.png
 security:
 - kind: authentication
   name: Pushpress Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: With the roll-out of connected cars, services such as live traffic and live parking have become standard requirements. Parkopedia leads the market in parking data services, with 90 million parking spa
@@ -110,7 +110,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkopedia/refs/heads/main/screenshots/parkopedia-2026-06-20T191413.png
 security:

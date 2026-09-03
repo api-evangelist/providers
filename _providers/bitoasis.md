@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 23 operations · 6 acting
 api_count: 1
 apis:
-- description: Authenticated account balances and registered banks.
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Authenticated account balances and registered banks.
   name: BitOasis Account API
   slug: bitoasis-account-api
-- description: Digital-asset deposit history and address generation.
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Digital-asset deposit history and address generation.
   name: BitOasis Coin Deposits API
   slug: bitoasis-coin-deposits-api
-- description: Digital-asset withdrawal history, fees, and creation.
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Digital-asset withdrawal history, fees, and creation.
   name: BitOasis Coin Withdrawals API
   slug: bitoasis-coin-withdrawals-api
-- description: Fiat deposit history.
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Fiat deposit history.
   name: BitOasis Fiat Deposits API
   slug: bitoasis-fiat-deposits-api
-- description: Fiat withdrawal history, creation, and cancellation.
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Fiat withdrawal history, creation, and cancellation.
   name: BitOasis Fiat Withdrawals API
   slug: bitoasis-fiat-withdrawals-api
-- description: Public market data endpoints (no authentication required).
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Public market data endpoints (no authentication required).
   name: BitOasis Market Data API
   slug: bitoasis-market-data-api
-- description: Place, cancel, and read Pro exchange orders.
+- baseURL: https://api.bitoasis.net/v1
+  baseurl_source: declared
+  description: Place, cancel, and read Pro exchange orders.
   name: BitOasis Orders API
   slug: bitoasis-orders-api
 artifact_total: 19
@@ -248,7 +262,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/screenshots/bitoasis-2026-07-25T203200.png
 security:

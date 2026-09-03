@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Assignments API from Sana — 1 operation(s) for assignments.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Assignments API from Sana — 1 operation(s) for assignments.
   name: Sana Assignments API
   slug: sana-assignments-api
-- description: The Authentication API from Sana — 2 operation(s) for authentication.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Authentication API from Sana — 2 operation(s) for authentication.
   name: Sana Authentication API
   slug: sana-authentication-api
-- description: The Courses API from Sana — 6 operation(s) for courses.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Courses API from Sana — 6 operation(s) for courses.
   name: Sana Courses API
   slug: sana-courses-api
-- description: The Groups API from Sana — 4 operation(s) for groups.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Groups API from Sana — 4 operation(s) for groups.
   name: Sana Groups API
   slug: sana-groups-api
-- description: The Paths API from Sana — 2 operation(s) for paths.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Paths API from Sana — 2 operation(s) for paths.
   name: Sana Paths API
   slug: sana-paths-api
-- description: The Programs API from Sana — 3 operation(s) for programs.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Programs API from Sana — 3 operation(s) for programs.
   name: Sana Programs API
   slug: sana-programs-api
-- description: The Reporting API from Sana — 5 operation(s) for reporting.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Reporting API from Sana — 5 operation(s) for reporting.
   name: Sana Reporting API
   slug: sana-reporting-api
-- description: The Teamspaces API from Sana — 3 operation(s) for teamspaces.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Teamspaces API from Sana — 3 operation(s) for teamspaces.
   name: Sana Teamspaces API
   slug: sana-teamspaces-api
-- description: The Users API from Sana — 8 operation(s) for users.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The Users API from Sana — 8 operation(s) for users.
   name: Sana Users API
   slug: sana-users-api
-- description: The xAPI API from Sana — 1 operation(s) for xapi.
+- baseURL: https://app.sana.ai
+  baseurl_source: declared
+  description: The xAPI API from Sana — 1 operation(s) for xapi.
   name: Sana xAPI API
   slug: sana-xapi-api
 artifact_total: 27
@@ -231,7 +251,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -241,7 +261,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 42.0
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     contracts:
@@ -262,7 +282,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/screenshots/sana-2026-08-17T081718.png
 security:

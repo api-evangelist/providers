@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
@@ -32,28 +47,44 @@ apis:
 - description: Rule-based transaction monitoring API (transaction evaluation, instruction management, Git-backed rule sync). Beta.
   name: Blnk Watch API
   slug: blnk-watch-api
-- description: The Accounts API from Blnk Finance — 2 operation(s) for accounts.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Accounts API from Blnk Finance — 2 operation(s) for accounts.
   name: Blnk Finance Accounts API
   slug: blnkfinance-accounts-api
-- description: The Backup API from Blnk Finance — 2 operation(s) for backup.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Backup API from Blnk Finance — 2 operation(s) for backup.
   name: Blnk Finance Backup API
   slug: blnkfinance-backup-api
-- description: The Balance Monitors API from Blnk Finance — 2 operation(s) for balance monitors.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Balance Monitors API from Blnk Finance — 2 operation(s) for balance monitors.
   name: Blnk Finance Balance Monitors API
   slug: blnkfinance-balance-monitors-api
-- description: The Balances API from Blnk Finance — 2 operation(s) for balances.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Balances API from Blnk Finance — 2 operation(s) for balances.
   name: Blnk Finance Balances API
   slug: blnkfinance-balances-api
-- description: The Identities API from Blnk Finance — 2 operation(s) for identities.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Identities API from Blnk Finance — 2 operation(s) for identities.
   name: Blnk Finance Identities API
   slug: blnkfinance-identities-api
-- description: The Ledgers API from Blnk Finance — 2 operation(s) for ledgers.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Ledgers API from Blnk Finance — 2 operation(s) for ledgers.
   name: Blnk Finance Ledgers API
   slug: blnkfinance-ledgers-api
-- description: The Refund Transaction API from Blnk Finance — 1 operation(s) for refund transaction.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Refund Transaction API from Blnk Finance — 1 operation(s) for refund transaction.
   name: Blnk Finance Refund Transaction API
   slug: blnkfinance-refund-transaction-api
-- description: The Transactions API from Blnk Finance — 2 operation(s) for transactions.
+- baseURL: http://localhost:5001
+  baseurl_source: declared
+  description: The Transactions API from Blnk Finance — 2 operation(s) for transactions.
   name: Blnk Finance Transactions API
   slug: blnkfinance-transactions-api
 artifact_total: 20
@@ -266,11 +297,11 @@ score:
   band: exemplar
   composite: 71.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -280,7 +311,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 72.2
+  previous_composite: 71.5
   provenance:
     conformance: first-party
     contracts:
@@ -301,8 +332,9 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/screenshots/blnkfinance-2026-09-02T144933.png
 security:
 - kind: authentication
   name: Blnkfinance Authentication

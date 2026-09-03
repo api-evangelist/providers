@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: OAuth2 token issuance and exchange.
+- baseURL: https://api.zusapi.com/fhir
+  baseurl_source: declared
+  description: OAuth2 token issuance and exchange.
   name: Zus Health Auth API
   slug: zus-auth-api
-- description: DocumentReference and Binary resources.
+- baseURL: https://api.zusapi.com/fhir
+  baseurl_source: declared
+  description: DocumentReference and Binary resources.
   name: Zus Health Documents API
   slug: zus-documents-api
-- description: General FHIR R4 resources.
+- baseURL: https://api.zusapi.com/fhir
+  baseurl_source: declared
+  description: General FHIR R4 resources.
   name: Zus Health FHIR API
   slug: zus-fhir-api
-- description: FHIR R4 Patient resources.
+- baseURL: https://api.zusapi.com/fhir
+  baseurl_source: declared
+  description: FHIR R4 Patient resources.
   name: Zus Health Patient API
   slug: zus-patient-api
-- description: Jobs that retrieve external data into the Zus Aggregated Profile.
+- baseURL: https://api.zusapi.com/fhir
+  baseurl_source: declared
+  description: Jobs that retrieve external data into the Zus Aggregated Profile.
   name: Zus Health Patient History API
   slug: zus-patient-history-api
 - description: Zus FHIR R4 REST API plus Auth Service and Patient History APIs. Implements FHIR R4 (v4.0.1) across 128 resource types with instance-level CRUD, transaction Bundles, conditional create/update/delete b
@@ -353,7 +363,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -363,7 +373,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 53.6
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,7 +391,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zus/refs/heads/main/screenshots/zus-2026-08-17T083124.png
 security:

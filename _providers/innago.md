@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 21 operations · 7 acting
 api_count: 1
 apis:
-- description: Manage expenses
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage expenses
   name: Innago Expenses API
   slug: innago-expenses-api
-- description: Map and manage external reference identifiers
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Map and manage external reference identifiers
   name: Innago External References API
   slug: innago-external-references-api
-- description: API health check
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: API health check
   name: Innago Health API
   slug: innago-health-api
-- description: Manage invoices
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage invoices
   name: Innago Invoices API
   slug: innago-invoices-api
-- description: Manage lease agreements
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage lease agreements
   name: Innago Leases API
   slug: innago-leases-api
-- description: Manage maintenance tickets
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage maintenance tickets
   name: Innago Maintenance API
   slug: innago-maintenance-api
-- description: Manage payments
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage payments
   name: Innago Payments API
   slug: innago-payments-api
-- description: Manage properties and units
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage properties and units
   name: Innago Properties API
   slug: innago-properties-api
-- description: Manage tenant information
+- baseURL: https://api-my.innago.com/openapi/v1
+  baseurl_source: declared
+  description: Manage tenant information
   name: Innago Tenants API
   slug: innago-tenants-api
 artifact_total: 31
@@ -246,7 +264,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/screenshots/innago-2026-06-20T183356.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: 'Edmunds API is a robust software interface that provides access to a vast database of automotive information and data. With this API, users can access details on car specifications, pricing, reviews, '
   name: Edmunds API
   slug: edmunds
-- description: The Vehicle API from Edmunds — 5 operation(s) for vehicle.
+- baseURL: https://api.edmunds.com
+  baseurl_source: spec
+  description: The Vehicle API from Edmunds — 5 operation(s) for vehicle.
   name: Edmunds Vehicle API
   slug: edmunds-vehicle-api
 artifact_total: 12
@@ -161,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/screenshots/edmunds-2026-06-20T180456.png
 security:

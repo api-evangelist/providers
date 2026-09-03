@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 102 operations · 49 acting
 api_count: 6
 apis:
-- description: The Access Token that allows access to the Pax8 API
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Access Token that allows access to the Pax8 API
   name: Pax8 Access Token API
   slug: pax8-access-token-api
-- description: Companies represent the customers your organization serves through the Pax8 platform. Fetch a list of your company records, or a specific company by its companyId
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: Companies represent the customers your organization serves through the Pax8 platform. Fetch a list of your company records, or a specific company by its companyId
   name: Pax8 Companies API
   slug: pax8-companies-api
-- description: Contacts represent the people who should be provided visibility into events such as provisioning
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: Contacts represent the people who should be provided visibility into events such as provisioning
   name: Pax8 Contacts API
   slug: pax8-contacts-api
-- description: The Invoices API from Pax8 — 4 operation(s) for invoices.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Invoices API from Pax8 — 4 operation(s) for invoices.
   name: Pax8 Invoices API
   slug: pax8-invoices-api
-- description: The Library attachments API from Pax8 — 3 operation(s) for library attachments.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Library attachments API from Pax8 — 3 operation(s) for library attachments.
   name: Pax8 Library attachments API
   slug: pax8-library-attachments-api
-- description: Orders describe your purchases of Pax8 products. Endpoints let you create new product orders and query past purchases
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: Orders describe your purchases of Pax8 products. Endpoints let you create new product orders and query past purchases
   name: Pax8 Orders API
   slug: pax8-orders-api
-- description: The Preference attachments API from Pax8 — 2 operation(s) for preference attachments.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Preference attachments API from Pax8 — 2 operation(s) for preference attachments.
   name: Pax8 Preference attachments API
   slug: pax8-preference-attachments-api
-- description: The Products resource lets you fetch all the information required to complete an Order -- product descriptions, pricing, provisioning details, and the dependencies associated with each product
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Products resource lets you fetch all the information required to complete an Order -- product descriptions, pricing, provisioning details, and the dependencies associated with each product
   name: Pax8 Products API
   slug: pax8-products-api
-- description: The Provision Attempts API from Pax8 — 3 operation(s) for provision attempts.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Provision Attempts API from Pax8 — 3 operation(s) for provision attempts.
   name: Pax8 Provision Attempts API
   slug: pax8-provision-attempts-api
-- description: The Provision Details API from Pax8 — 3 operation(s) for provision details.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Provision Details API from Pax8 — 3 operation(s) for provision details.
   name: Pax8 Provision Details API
   slug: pax8-provision-details-api
-- description: The Provision Requests API from Pax8 — 3 operation(s) for provision requests.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Provision Requests API from Pax8 — 3 operation(s) for provision requests.
   name: Pax8 Provision Requests API
   slug: pax8-provision-requests-api
-- description: The Provision Results API from Pax8 — 3 operation(s) for provision results.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Provision Results API from Pax8 — 3 operation(s) for provision results.
   name: Pax8 Provision Results API
   slug: pax8-provision-results-api
-- description: The Provisioners API from Pax8 — 5 operation(s) for provisioners.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Provisioners API from Pax8 — 5 operation(s) for provisioners.
   name: Pax8 Provisioners API
   slug: pax8-provisioners-api
-- description: The Provisioning Simulations API from Pax8 — 1 operation(s) for provisioning simulations.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Provisioning Simulations API from Pax8 — 1 operation(s) for provisioning simulations.
   name: Pax8 Provisioning Simulations API
   slug: pax8-provisioning-simulations-api
-- description: The Quote access list API from Pax8 — 2 operation(s) for quote access list.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Quote access list API from Pax8 — 2 operation(s) for quote access list.
   name: Pax8 Quote access list API
   slug: pax8-quote-access-list-api
-- description: The Quote attachments API from Pax8 — 3 operation(s) for quote attachments.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Quote attachments API from Pax8 — 3 operation(s) for quote attachments.
   name: Pax8 Quote attachments API
   slug: pax8-quote-attachments-api
-- description: The Quote line items API from Pax8 — 3 operation(s) for quote line items.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Quote line items API from Pax8 — 3 operation(s) for quote line items.
   name: Pax8 Quote line items API
   slug: pax8-quote-line-items-api
-- description: The Quote preferences API from Pax8 — 1 operation(s) for quote preferences.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Quote preferences API from Pax8 — 1 operation(s) for quote preferences.
   name: Pax8 Quote preferences API
   slug: pax8-quote-preferences-api
-- description: The Quote sections API from Pax8 — 1 operation(s) for quote sections.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Quote sections API from Pax8 — 1 operation(s) for quote sections.
   name: Pax8 Quote sections API
   slug: pax8-quote-sections-api
-- description: The Quotes API from Pax8 — 3 operation(s) for quotes.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Quotes API from Pax8 — 3 operation(s) for quotes.
   name: Pax8 Quotes API
   slug: pax8-quotes-api
-- description: Subscriptions describe terms of service, including price and the billing start/end dates for a specified product/company combination. Resources let you update, cancel, and fetch details of existing su
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: Subscriptions describe terms of service, including price and the billing start/end dates for a specified product/company combination. Resources let you update, cancel, and fetch details of existing su
   name: Pax8 Subscriptions API
   slug: pax8-subscriptions-api
-- description: The Topic Definitions API from Pax8 — 1 operation(s) for topic definitions.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Topic Definitions API from Pax8 — 1 operation(s) for topic definitions.
   name: Pax8 Topic Definitions API
   slug: pax8-topic-definitions-api
-- description: The Usage Lines API from Pax8 — 2 operation(s) for usage lines.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Usage Lines API from Pax8 — 2 operation(s) for usage lines.
   name: Pax8 Usage Lines API
   slug: pax8-usage-lines-api
-- description: The Usage Summaries API from Pax8 — 3 operation(s) for usage summaries.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Usage Summaries API from Pax8 — 3 operation(s) for usage summaries.
   name: Pax8 Usage Summaries API
   slug: pax8-usage-summaries-api
-- description: The Webhook Logs API from Pax8 — 3 operation(s) for webhook logs.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Webhook Logs API from Pax8 — 3 operation(s) for webhook logs.
   name: Pax8 Webhook Logs API
   slug: pax8-webhook-logs-api
-- description: The Webhooks API from Pax8 — 8 operation(s) for webhooks.
+- baseURL: https://api.pax8.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Pax8 — 8 operation(s) for webhooks.
   name: Pax8 Webhooks API
   slug: pax8-webhooks-api
 artifact_total: 60
@@ -354,7 +406,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -364,7 +416,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,7 +428,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pax8/refs/heads/main/screenshots/pax8-2026-08-07T191618.png
 security:

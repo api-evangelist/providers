@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 96 operations · 46 acting
 api_count: 1
 apis:
-- description: The AnnotationQueues API from Langfuse — 5 operation(s) for annotationqueues.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The AnnotationQueues API from Langfuse — 5 operation(s) for annotationqueues.
   name: Langfuse AnnotationQueues API
   slug: langfuse-annotationqueues-api
-- description: The BlobStorageIntegrations API from Langfuse — 2 operation(s) for blobstorageintegrations.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The BlobStorageIntegrations API from Langfuse — 2 operation(s) for blobstorageintegrations.
   name: Langfuse BlobStorageIntegrations API
   slug: langfuse-blobstorageintegrations-api
-- description: The Comments API from Langfuse — 2 operation(s) for comments.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Comments API from Langfuse — 2 operation(s) for comments.
   name: Langfuse Comments API
   slug: langfuse-comments-api
-- description: The DatasetItems API from Langfuse — 2 operation(s) for datasetitems.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The DatasetItems API from Langfuse — 2 operation(s) for datasetitems.
   name: Langfuse DatasetItems API
   slug: langfuse-datasetitems-api
-- description: The DatasetRunItems API from Langfuse — 1 operation(s) for datasetrunitems.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The DatasetRunItems API from Langfuse — 1 operation(s) for datasetrunitems.
   name: Langfuse DatasetRunItems API
   slug: langfuse-datasetrunitems-api
-- description: The Datasets API from Langfuse — 4 operation(s) for datasets.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Datasets API from Langfuse — 4 operation(s) for datasets.
   name: Langfuse Datasets API
   slug: langfuse-datasets-api
-- description: The Health API from Langfuse — 1 operation(s) for health.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Health API from Langfuse — 1 operation(s) for health.
   name: Langfuse Health API
   slug: langfuse-health-api
-- description: The Ingestion API from Langfuse — 1 operation(s) for ingestion.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Ingestion API from Langfuse — 1 operation(s) for ingestion.
   name: Langfuse Ingestion API
   slug: langfuse-ingestion-api
-- description: The LegacyMetricsV1 API from Langfuse — 1 operation(s) for legacymetricsv1.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The LegacyMetricsV1 API from Langfuse — 1 operation(s) for legacymetricsv1.
   name: Langfuse LegacyMetricsV1 API
   slug: langfuse-legacymetricsv1-api
-- description: The LegacyObservationsV1 API from Langfuse — 2 operation(s) for legacyobservationsv1.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The LegacyObservationsV1 API from Langfuse — 2 operation(s) for legacyobservationsv1.
   name: Langfuse LegacyObservationsV1 API
   slug: langfuse-legacyobservationsv1-api
-- description: The LegacyScoreV1 API from Langfuse — 2 operation(s) for legacyscorev1.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The LegacyScoreV1 API from Langfuse — 2 operation(s) for legacyscorev1.
   name: Langfuse LegacyScoreV1 API
   slug: langfuse-legacyscorev1-api
-- description: The LlmConnections API from Langfuse — 2 operation(s) for llmconnections.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The LlmConnections API from Langfuse — 2 operation(s) for llmconnections.
   name: Langfuse LlmConnections API
   slug: langfuse-llmconnections-api
-- description: The Media API from Langfuse — 2 operation(s) for media.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Media API from Langfuse — 2 operation(s) for media.
   name: Langfuse Media API
   slug: langfuse-media-api
-- description: The Metrics API from Langfuse — 1 operation(s) for metrics.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Metrics API from Langfuse — 1 operation(s) for metrics.
   name: Langfuse Metrics API
   slug: langfuse-metrics-api
-- description: The Models API from Langfuse — 2 operation(s) for models.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Models API from Langfuse — 2 operation(s) for models.
   name: Langfuse Models API
   slug: langfuse-models-api
-- description: The Observations API from Langfuse — 1 operation(s) for observations.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Observations API from Langfuse — 1 operation(s) for observations.
   name: Langfuse Observations API
   slug: langfuse-observations-api
-- description: The Opentelemetry API from Langfuse — 1 operation(s) for opentelemetry.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Opentelemetry API from Langfuse — 1 operation(s) for opentelemetry.
   name: Langfuse Opentelemetry API
   slug: langfuse-opentelemetry-api
-- description: The Organizations API from Langfuse — 4 operation(s) for organizations.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Organizations API from Langfuse — 4 operation(s) for organizations.
   name: Langfuse Organizations API
   slug: langfuse-organizations-api
-- description: The Projects API from Langfuse — 4 operation(s) for projects.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Projects API from Langfuse — 4 operation(s) for projects.
   name: Langfuse Projects API
   slug: langfuse-projects-api
-- description: The Prompts API from Langfuse — 2 operation(s) for prompts.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Prompts API from Langfuse — 2 operation(s) for prompts.
   name: Langfuse Prompts API
   slug: langfuse-prompts-api
-- description: The PromptVersion API from Langfuse — 1 operation(s) for promptversion.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The PromptVersion API from Langfuse — 1 operation(s) for promptversion.
   name: Langfuse PromptVersion API
   slug: langfuse-promptversion-api
-- description: The Scim API from Langfuse — 5 operation(s) for scim.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Scim API from Langfuse — 5 operation(s) for scim.
   name: Langfuse Scim API
   slug: langfuse-scim-api
-- description: The ScoreConfigs API from Langfuse — 2 operation(s) for scoreconfigs.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The ScoreConfigs API from Langfuse — 2 operation(s) for scoreconfigs.
   name: Langfuse ScoreConfigs API
   slug: langfuse-scoreconfigs-api
-- description: The Scores API from Langfuse — 2 operation(s) for scores.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Scores API from Langfuse — 2 operation(s) for scores.
   name: Langfuse Scores API
   slug: langfuse-scores-api
-- description: The Sessions API from Langfuse — 2 operation(s) for sessions.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Sessions API from Langfuse — 2 operation(s) for sessions.
   name: Langfuse Sessions API
   slug: langfuse-sessions-api
-- description: The Trace API from Langfuse — 2 operation(s) for trace.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Trace API from Langfuse — 2 operation(s) for trace.
   name: Langfuse Trace API
   slug: langfuse-trace-api
-- description: The UnstableEvaluationRules API from Langfuse — 2 operation(s) for unstableevaluationrules.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The UnstableEvaluationRules API from Langfuse — 2 operation(s) for unstableevaluationrules.
   name: Langfuse UnstableEvaluationRules API
   slug: langfuse-unstableevaluationrules-api
-- description: The UnstableEvaluators API from Langfuse — 2 operation(s) for unstableevaluators.
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The UnstableEvaluators API from Langfuse — 2 operation(s) for unstableevaluators.
   name: Langfuse UnstableEvaluators API
   slug: langfuse-unstableevaluators-api
 artifact_total: 66
@@ -333,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/screenshots/langfuse-2026-06-20T184307.png
 security:

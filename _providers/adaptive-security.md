@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations
 api_count: 1
 apis:
-- description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>Admin audit lo'
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>Admin audit lo'
   name: Adaptive Security Audit Logs API
   slug: adaptive-security-audit-logs-api
-- description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User group man'
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User group man'
   name: Adaptive Security Groups API
   slug: adaptive-security-groups-api
-- description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>Phishing campa'
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>Phishing campa'
   name: Adaptive Security Phishing API
   slug: adaptive-security-phishing-api
-- description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>Training campa'
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>Training campa'
   name: Adaptive Security Training API
   slug: adaptive-security-training-api
-- description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User managemen'
+- baseURL: https://api.adaptivesecurity.com
+  baseurl_source: declared
+  description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User managemen'
   name: Adaptive Security Users API
   slug: adaptive-security-users-api
 artifact_total: 17
@@ -250,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
 security:

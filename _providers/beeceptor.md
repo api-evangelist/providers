@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Beeceptor's management API provides programmatic access to create and manage mock endpoints, rules, and traffic inspection on Scale and Enterprise plans. It enables teams to automate mock server provi
   name: Beeceptor API
   slug: beeceptor
-- description: The Endpoint Settings API from Beeceptor — 5 operation(s) for endpoint settings.
+- baseURL: https://api.beeceptor.com/api
+  baseurl_source: spec
+  description: The Endpoint Settings API from Beeceptor — 5 operation(s) for endpoint settings.
   name: Beeceptor Endpoint Settings API
   slug: beeceptor-endpoint-settings-api
-- description: The Mock Rules API from Beeceptor — 4 operation(s) for mock rules.
+- baseURL: https://api.beeceptor.com/api
+  baseurl_source: spec
+  description: The Mock Rules API from Beeceptor — 4 operation(s) for mock rules.
   name: Beeceptor Mock Rules API
   slug: beeceptor-mock-rules-api
-- description: The Request History API from Beeceptor — 3 operation(s) for request history.
+- baseURL: https://api.beeceptor.com/api
+  baseurl_source: spec
+  description: The Request History API from Beeceptor — 3 operation(s) for request history.
   name: Beeceptor Request History API
   slug: beeceptor-request-history-api
-- description: The State Store API from Beeceptor — 2 operation(s) for state store.
+- baseURL: https://api.beeceptor.com/api
+  baseurl_source: spec
+  description: The State Store API from Beeceptor — 2 operation(s) for state store.
   name: Beeceptor State Store API
   slug: beeceptor-state-store-api
 artifact_total: 32
@@ -205,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/screenshots/beeceptor-2026-06-20T173119.png
 security:

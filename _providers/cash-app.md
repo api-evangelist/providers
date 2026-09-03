@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -33,61 +46,99 @@ agentic_access:
   summary_line: 100 operations · 59 acting · 3 human-in-the-loop
 api_count: 12
 apis:
-- description: The Add Cash App Pay To Your Site API from Cash App — 0 operation(s) for add cash app pay to your site.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Add Cash App Pay To Your Site API from Cash App — 0 operation(s) for add cash app pay to your site.
   name: Cash App Add Cash App Pay To Your Site API
   slug: cash-app-add-cash-app-pay-to-your-site-api
-- description: The apiKeys API from Cash App — 2 operation(s) for apikeys.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The apiKeys API from Cash App — 2 operation(s) for apikeys.
   name: Cash App API Keys API
   slug: cash-app-apikeys-api
-- description: The balances API from Cash App — 2 operation(s) for balances.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The balances API from Cash App — 2 operation(s) for balances.
   name: Cash App Balances API
   slug: cash-app-balances-api
-- description: The Billing Agreements (Deprecated) API from Cash App — 0 operation(s) for billing agreements (deprecated).
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Billing Agreements (Deprecated) API from Cash App — 0 operation(s) for billing agreements (deprecated).
   name: Cash App Billing Agreements (Deprecated) API
   slug: cash-app-billing-agreements-deprecated-api
-- description: The brands API from Cash App — 2 operation(s) for brands.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The brands API from Cash App — 2 operation(s) for brands.
   name: Cash App Brands API
   slug: cash-app-brands-api
-- description: The Customer Request API API from Cash App — 0 operation(s) for customer request api.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Customer Request API API from Cash App — 0 operation(s) for customer request api.
   name: Cash App Customer Request API
   slug: cash-app-customer-request-api-api
-- description: The customers API from Cash App — 5 operation(s) for customers.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The customers API from Cash App — 5 operation(s) for customers.
   name: Cash App Customers API
   slug: cash-app-customers-api
-- description: The App Default API from Cash App — 39 operation(s) for app default.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The App Default API from Cash App — 39 operation(s) for app default.
   name: Cash App App Default API
   slug: cash-app-default-api
-- description: The disputes API from Cash App — 8 operation(s) for disputes.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The disputes API from Cash App — 8 operation(s) for disputes.
   name: Cash App Disputes API
   slug: cash-app-disputes-api
-- description: The feePlans API from Cash App — 2 operation(s) for feeplans.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The feePlans API from Cash App — 2 operation(s) for feeplans.
   name: Cash App Fee Plans API
   slug: cash-app-feeplans-api
-- description: The Grants Afterpay API from Cash App — 0 operation(s) for grants afterpay.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Grants Afterpay API from Cash App — 0 operation(s) for grants afterpay.
   name: Cash App Grants Afterpay API
   slug: cash-app-grants-afterpay-api
-- description: The merchants API from Cash App — 2 operation(s) for merchants.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The merchants API from Cash App — 2 operation(s) for merchants.
   name: Cash App Merchants API
   slug: cash-app-merchants-api
-- description: The Network API API from Cash App — 0 operation(s) for network api.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Network API API from Cash App — 0 operation(s) for network api.
   name: Cash App Network API
   slug: cash-app-network-api-api
-- description: The payments API from Cash App — 6 operation(s) for payments.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The payments API from Cash App — 6 operation(s) for payments.
   name: Cash App Payments API
   slug: cash-app-payments-api
-- description: The payouts API from Cash App — 2 operation(s) for payouts.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The payouts API from Cash App — 2 operation(s) for payouts.
   name: Cash App Payouts API
   slug: cash-app-payouts-api
-- description: The refunds API from Cash App — 5 operation(s) for refunds.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The refunds API from Cash App — 5 operation(s) for refunds.
   name: Cash App Refunds API
   slug: cash-app-refunds-api
-- description: The requestChains API from Cash App — 1 operation(s) for requestchains.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The requestChains API from Cash App — 1 operation(s) for requestchains.
   name: Cash App Request Chains API
   slug: cash-app-requestchains-api
-- description: The requests API from Cash App — 2 operation(s) for requests.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The requests API from Cash App — 2 operation(s) for requests.
   name: Cash App Requests API
   slug: cash-app-requests-api
-- description: The Webhooks API from Cash App — 3 operation(s) for webhooks.
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Webhooks API from Cash App — 3 operation(s) for webhooks.
   name: Cash App Webhooks API
   slug: cash-app-webhooks-api
 artifact_total: 50
@@ -383,7 +434,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -393,7 +444,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 56.7
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -411,7 +462,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:

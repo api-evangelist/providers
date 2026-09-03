@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 1
 apis:
-- description: The artifacts::rest API from Adaptive ML — 1 operation(s) for artifacts::rest.
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: The artifacts::rest API from Adaptive ML — 1 operation(s) for artifacts::rest.
   name: Adaptive ML artifacts::rest API
   slug: adaptive-ml-artifacts-rest-api
-- description: Upload large files in chunks
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: Upload large files in chunks
   name: Adaptive ML Chunked Upload API
   slug: adaptive-ml-chunked-upload-api
-- description: The Completions API from Adaptive ML — 1 operation(s) for completions.
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: The Completions API from Adaptive ML — 1 operation(s) for completions.
   name: Adaptive ML Completions API
   slug: adaptive-ml-completions-api
-- description: The Datasets API from Adaptive ML — 1 operation(s) for datasets.
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: The Datasets API from Adaptive ML — 1 operation(s) for datasets.
   name: Adaptive ML Datasets API
   slug: adaptive-ml-datasets-api
-- description: The Embeddings API from Adaptive ML — 1 operation(s) for embeddings.
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: The Embeddings API from Adaptive ML — 1 operation(s) for embeddings.
   name: Adaptive ML Embeddings API
   slug: adaptive-ml-embeddings-api
-- description: The Feedback API from Adaptive ML — 2 operation(s) for feedback.
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: The Feedback API from Adaptive ML — 2 operation(s) for feedback.
   name: Adaptive ML Feedback API
   slug: adaptive-ml-feedback-api
-- description: The image::rest API from Adaptive ML — 1 operation(s) for image::rest.
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: The image::rest API from Adaptive ML — 1 operation(s) for image::rest.
   name: Adaptive ML image::rest API
   slug: adaptive-ml-image-rest-api
-- description: Load interactions in the db
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: Load interactions in the db
   name: Adaptive ML Interactions API
   slug: adaptive-ml-interactions-api
-- description: Recipe operations
+- baseURL: https://your-adaptive-deployment/api/v1
+  baseurl_source: declared
+  description: Recipe operations
   name: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
 artifact_total: 24
@@ -251,7 +269,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -261,7 +279,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.5
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/screenshots/adaptive-ml-2026-07-25T181557.png
 security:

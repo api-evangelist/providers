@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Binary, decimal, and hexadecimal conversions.
+- baseURL: https://networkcalc.com/api
+  baseurl_source: declared
+  description: Binary, decimal, and hexadecimal conversions.
   name: NetworkCalc Binary Converter API
   slug: networkcalc-binary-converter-api
-- description: DNS lookups and record queries.
+- baseURL: https://networkcalc.com/api
+  baseurl_source: declared
+  description: DNS lookups and record queries.
   name: NetworkCalc DNS API
   slug: networkcalc-dns-api
-- description: Encoding and decoding helpers.
+- baseURL: https://networkcalc.com/api
+  baseurl_source: declared
+  description: Encoding and decoding helpers.
   name: NetworkCalc Encoder API
   slug: networkcalc-encoder-api
-- description: TLS/SSL certificate and security utilities.
+- baseURL: https://networkcalc.com/api
+  baseurl_source: declared
+  description: TLS/SSL certificate and security utilities.
   name: NetworkCalc Security API
   slug: networkcalc-security-api
-- description: IPv4 and IPv6 subnet calculations.
+- baseURL: https://networkcalc.com/api
+  baseurl_source: declared
+  description: IPv4 and IPv6 subnet calculations.
   name: NetworkCalc Subnet Calculator API
   slug: networkcalc-subnet-calculator-api
 artifact_total: 16
@@ -147,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/screenshots/networkcalc-2026-06-20T190215.png
 security:

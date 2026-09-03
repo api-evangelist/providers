@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -47,22 +47,34 @@ apis:
 - description: Sponsor gas fees on behalf of users or let users pay gas in USDC via Circle Paymaster, removing native-token friction from onboarding.
   name: Gas Station and Paymaster
   slug: gas-station
-- description: The NFTs API from Circle — 1 operation(s) for nfts.
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The NFTs API from Circle — 1 operation(s) for nfts.
   name: Circle NFTs API
   slug: circle-nfts-api
-- description: The Signing API from Circle — 4 operation(s) for signing.
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The Signing API from Circle — 4 operation(s) for signing.
   name: Circle Signing API
   slug: circle-signing-api
-- description: The Tokens API from Circle — 1 operation(s) for tokens.
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The Tokens API from Circle — 1 operation(s) for tokens.
   name: Circle Tokens API
   slug: circle-tokens-api
-- description: The Transactions API from Circle — 12 operation(s) for transactions.
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The Transactions API from Circle — 12 operation(s) for transactions.
   name: Circle Transactions API
   slug: circle-transactions-api
-- description: The Wallet Sets API from Circle — 4 operation(s) for wallet sets.
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The Wallet Sets API from Circle — 4 operation(s) for wallet sets.
   name: Circle Wallet Sets API
   slug: circle-wallet-sets-api
-- description: The Wallets API from Circle — 7 operation(s) for wallets.
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The Wallets API from Circle — 7 operation(s) for wallets.
   name: Circle Wallets API
   slug: circle-wallets-api
 artifact_total: 29
@@ -281,7 +293,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -291,7 +303,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 42.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -306,7 +318,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png
 security:

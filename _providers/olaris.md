@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Unauthenticated remote Model Context Protocol endpoint served from Olaris' own host at https://www.myolaris.com/_api/mcp. It is the Wix platform Site MCP — provisioned by the website platform, not a f
@@ -97,7 +109,7 @@ score:
   band: minimal
   composite: 10.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -121,8 +133,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/olaris/refs/heads/main/screenshots/olaris-2026-09-02T150837.png
 security:
 - kind: authentication
   name: Olaris Authentication

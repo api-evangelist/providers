@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -47,34 +47,54 @@ apis:
 - description: The Workato Embedded Partner APIs enable partners to programmatically create and manage customers, recipes, connections, and other assets within the Workato Embedded platform. These APIs support provi
   name: Workato Embedded Partner API
   slug: embedded-api
-- description: Data tables are structured storage within Workato for persisting and querying records used in recipe automation.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Data tables are structured storage within Workato for persisting and querying records used in recipe automation.
   name: Workato Data Tables API
   slug: workato-data-tables-api
-- description: AI agents (genies) that can be configured with skills, knowledge bases, and instructions to automate complex workflows.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: AI agents (genies) that can be configured with skills, knowledge bases, and instructions to automate complex workflows.
   name: Workato Genies API
   slug: workato-genies-api
-- description: Knowledge bases provide AI agents with contextual data from configured data sources such as documents, tables, and external systems.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Knowledge bases provide AI agents with contextual data from configured data sources such as documents, tables, and external systems.
   name: Workato Knowledge Bases API
   slug: workato-knowledge-bases-api
-- description: MCP servers expose Workato API endpoints as tools accessible to AI agents via the Model Context Protocol.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: MCP servers expose Workato API endpoints as tools accessible to AI agents via the Model Context Protocol.
   name: Workato MCP Servers API
   slug: workato-mcp-servers-api
-- description: Endpoints for publishing messages to event topics and consuming messages from event topics.
+- baseURL: https://event-streams.workato.com
+  baseurl_source: spec
+  description: Endpoints for publishing messages to event topics and consuming messages from event topics.
   name: Workato Messages API
   slug: workato-messages-api
-- description: Security policies that govern rate limits, quotas, and IP access controls for MCP servers.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Security policies that govern rate limits, quotas, and IP access controls for MCP servers.
   name: Workato Policies API
   slug: workato-policies-api
-- description: Recipes are automated workflows that connect applications and services. Manage recipe lifecycle including creation, activation, and versioning.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Recipes are automated workflows that connect applications and services. Manage recipe lifecycle including creation, activation, and versioning.
   name: Workato Recipes API
   slug: workato-recipes-api
-- description: Skills are recipe-backed capabilities that can be assigned to AI agents to give them actionable tools.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Skills are recipe-backed capabilities that can be assigned to AI agents to give them actionable tools.
   name: Workato Skills API
   slug: workato-skills-api
-- description: Tools are individual API endpoints or actions exposed through an MCP server and available to AI agents.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Tools are individual API endpoints or actions exposed through an MCP server and available to AI agents.
   name: Workato Tools API
   slug: workato-tools-api
-- description: Identity provider user groups used to control access to MCP servers.
+- baseURL: https://www.workato.com
+  baseurl_source: spec
+  description: Identity provider user groups used to control access to MCP servers.
   name: Workato User Groups API
   slug: workato-user-groups-api
 arazzos:
@@ -1068,7 +1088,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1078,7 +1098,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 64.6
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1087,7 +1107,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:

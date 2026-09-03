@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Report email addresses as malicious so the reputation graph picks up the signal.
+- baseURL: https://emailrep.io
+  baseurl_source: declared
+  description: Report email addresses as malicious so the reputation graph picks up the signal.
   name: EmailRep Reports API
   slug: emailrep-reports-api
-- description: Query email address reputation and threat-intelligence signals.
+- baseURL: https://emailrep.io
+  baseurl_source: declared
+  description: Query email address reputation and threat-intelligence signals.
   name: EmailRep Reputation API
   slug: emailrep-reputation-api
 arazzos:
@@ -462,7 +466,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:

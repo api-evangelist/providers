@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: The Company API from GorillaDesk — 1 operation(s) for company.
+- baseURL: https://api.gorilladesk.com/v1
+  baseurl_source: declared
+  description: The Company API from GorillaDesk — 1 operation(s) for company.
   name: GorillaDesk Company API
   slug: gorilladesk-company-api
-- description: The Customer API from GorillaDesk — 2 operation(s) for customer.
+- baseURL: https://api.gorilladesk.com/v1
+  baseurl_source: declared
+  description: The Customer API from GorillaDesk — 2 operation(s) for customer.
   name: GorillaDesk Customer API
   slug: gorilladesk-customer-api
-- description: The Note API from GorillaDesk — 1 operation(s) for note.
+- baseURL: https://api.gorilladesk.com/v1
+  baseurl_source: declared
+  description: The Note API from GorillaDesk — 1 operation(s) for note.
   name: GorillaDesk Note API
   slug: gorilladesk-note-api
-- description: The Phone Type API from GorillaDesk — 1 operation(s) for phone type.
+- baseURL: https://api.gorilladesk.com/v1
+  baseurl_source: declared
+  description: The Phone Type API from GorillaDesk — 1 operation(s) for phone type.
   name: GorillaDesk Phone Type API
   slug: gorilladesk-phone-type-api
-- description: The User API from GorillaDesk — 2 operation(s) for user.
+- baseURL: https://api.gorilladesk.com/v1
+  baseurl_source: declared
+  description: The User API from GorillaDesk — 2 operation(s) for user.
   name: GorillaDesk User API
   slug: gorilladesk-user-api
-- description: The Users API from GorillaDesk — 1 operation(s) for users.
+- baseURL: https://api.gorilladesk.com/v1
+  baseurl_source: declared
+  description: The Users API from GorillaDesk — 1 operation(s) for users.
   name: GorillaDesk Users API
   slug: gorilladesk-users-api
 artifact_total: 20
@@ -182,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorilladesk/refs/heads/main/screenshots/gorilladesk-2026-07-25T220117.png
 security:

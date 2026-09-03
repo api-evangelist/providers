@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 24 operations · 9 acting
 api_count: 6
 apis:
-- description: Client account, warehouses, and API keys.
+- baseURL: https://api.packlink.com
+  baseurl_source: declared
+  description: Client account, warehouses, and API keys.
   name: Packlink Clients API
   slug: packlink-clients-api
-- description: Customs invoices and customs-union lookups.
+- baseURL: https://api.packlink.com
+  baseurl_source: declared
+  description: Customs invoices and customs-union lookups.
   name: Packlink Customs API
   slug: packlink-customs-api
-- description: Register and manage platform integrations.
+- baseURL: https://api.packlink.com
+  baseurl_source: declared
+  description: Register and manage platform integrations.
   name: Packlink Integrations API
   slug: packlink-integrations-api
-- description: Postal code, postal zone, and drop-off lookups.
+- baseURL: https://api.packlink.com
+  baseurl_source: declared
+  description: Postal code, postal zone, and drop-off lookups.
   name: Packlink Locations API
   slug: packlink-locations-api
-- description: Compare and query available shipping services.
+- baseURL: https://api.packlink.com
+  baseurl_source: declared
+  description: Compare and query available shipping services.
   name: Packlink Services API
   slug: packlink-services-api
-- description: Create shipments, print labels, and track parcels.
+- baseURL: https://api.packlink.com
+  baseurl_source: declared
+  description: Create shipments, print labels, and track parcels.
   name: Packlink Shipments API
   slug: packlink-shipments-api
 artifact_total: 18
@@ -213,7 +225,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -223,7 +235,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +253,8 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packlink/refs/heads/main/screenshots/packlink-2026-08-07T191246.png
 security:
 - kind: authentication

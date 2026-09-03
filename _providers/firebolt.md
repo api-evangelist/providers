@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Firebolt REST API issues SQL queries against running engines and manages account, engine, and database resources. Authentication is OAuth 2.0 client_credentials against `https://id.app.firebolt.io
   name: Firebolt REST API
   slug: firebolt-rest-api
-- description: The Firebolt REST API API from Firebolt — 1 operation(s) for firebolt rest api.
+- baseURL: https://api.app.firebolt.io
+  baseurl_source: declared
+  description: The Firebolt REST API API from Firebolt — 1 operation(s) for firebolt rest api.
   name: Firebolt Firebolt REST API API
   slug: firebolt-firebolt-rest-api-api
-- description: The Oauth API from Firebolt — 1 operation(s) for oauth.
+- baseURL: https://api.app.firebolt.io
+  baseurl_source: declared
+  description: The Oauth API from Firebolt — 1 operation(s) for oauth.
   name: Firebolt Oauth API
   slug: firebolt-oauth-api
-- description: The Query API from Firebolt — 1 operation(s) for query.
+- baseURL: https://api.app.firebolt.io
+  baseurl_source: declared
+  description: The Query API from Firebolt — 1 operation(s) for query.
   name: Firebolt Query API
   slug: firebolt-query-api
-- description: The Web API from Firebolt — 1 operation(s) for web.
+- baseURL: https://api.app.firebolt.io
+  baseurl_source: declared
+  description: The Web API from Firebolt — 1 operation(s) for web.
   name: Firebolt Web API
   slug: firebolt-web-api
 artifact_total: 19
@@ -192,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firebolt/refs/heads/main/screenshots/firebolt-2026-06-20T181231.png
 security:

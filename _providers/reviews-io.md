@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 6 acting
 api_count: 1
 apis:
-- description: Retrieve company (merchant) reviews.
+- baseURL: https://api.reviews.io
+  baseurl_source: declared
+  description: Retrieve company (merchant) reviews.
   name: REVIEWS.io Company Reviews API
   slug: reviews-io-company-reviews-api
-- description: Queue, list, and edit product and company review invitations.
+- baseURL: https://api.reviews.io
+  baseurl_source: declared
+  description: Queue, list, and edit product and company review invitations.
   name: REVIEWS.io Invitations API
   slug: reviews-io-invitations-api
-- description: Retrieve, create, and vote on product reviews.
+- baseURL: https://api.reviews.io
+  baseurl_source: declared
+  description: Retrieve, create, and vote on product reviews.
   name: REVIEWS.io Product Reviews API
   slug: reviews-io-product-reviews-api
-- description: Create and retrieve customer questions.
+- baseURL: https://api.reviews.io
+  baseurl_source: declared
+  description: Create and retrieve customer questions.
   name: REVIEWS.io Questions API
   slug: reviews-io-questions-api
-- description: Aggregate product ratings and review statistics.
+- baseURL: https://api.reviews.io
+  baseurl_source: declared
+  description: Aggregate product ratings and review statistics.
   name: REVIEWS.io Ratings API
   slug: reviews-io-ratings-api
-- description: Manage review-submitted webhook subscriptions.
+- baseURL: https://api.reviews.io
+  baseurl_source: declared
+  description: Manage review-submitted webhook subscriptions.
   name: REVIEWS.io Webhooks API
   slug: reviews-io-webhooks-api
 artifact_total: 14
@@ -144,7 +156,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -167,8 +179,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/screenshots/reviews-io-2026-09-02T153719.png
 security:
 - kind: authentication
   name: Reviews Io Authentication

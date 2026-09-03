@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -36,73 +50,119 @@ apis:
 - description: The OAuth 2.0 resource server that lets a partner application move USDC in and out of an individual Airtm user's wallet on that user's behalf, read the wallet balance, and check KYC status. Authorized
   name: Airtm Wallet Resource (Connect) API
   slug: airtm-wallet-resource-connect-api
-- description: '## Overview The Account Status endpoint enables your organization to verify recipient account information before initiating payments. This powerful verification tool helps prevent payment failures, re'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '## Overview The Account Status endpoint enables your organization to verify recipient account information before initiating payments. This powerful verification tool helps prevent payment failures, re'
   name: Airtm Account Status API
   slug: airtm-account-status-api
-- description: The ApiKeys API from Airtm — 3 operation(s) for apikeys.
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: The ApiKeys API from Airtm — 3 operation(s) for apikeys.
   name: Airtm API Keys API
   slug: airtm-apikeys-api
-- description: '## Overview Bulk Payments enable your organization to process multiple payouts simultaneously through a single API operation. This powerful feature is designed for businesses that need to send payment'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '## Overview Bulk Payments enable your organization to process multiple payouts simultaneously through a single API operation. This powerful feature is designed for businesses that need to send payment'
   name: Airtm Bulk Payments API
   slug: airtm-bulk-payments-api
-- description: '# Bulk Payouts Process multiple payouts efficiently in a single batch operation. Ideal for payroll, affiliate payments, or mass distributions. ## Overview Bulk payouts allow you to submit hundreds or '
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Bulk Payouts Process multiple payouts efficiently in a single batch operation. Ideal for payroll, affiliate payments, or mass distributions. ## Overview Bulk payouts allow you to submit hundreds or '
   name: Airtm Bulk Payouts API
   slug: airtm-bulk-payouts-api
-- description: '# Deposits The Deposits API provides comprehensive tracking and management of funding transactions for your Airtm Enterprise account. This endpoint enables you to monitor incoming funds, track deposit'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Deposits The Deposits API provides comprehensive tracking and management of funding transactions for your Airtm Enterprise account. This endpoint enables you to monitor incoming funds, track deposit'
   name: Airtm Deposits API
   slug: airtm-deposits-api
-- description: The Embedded Catalog API from Airtm — 1 operation(s) for embedded catalog.
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: The Embedded Catalog API from Airtm — 1 operation(s) for embedded catalog.
   name: Airtm Embedded Catalog API
   slug: airtm-embedded-catalog-api
-- description: The Embedded Quotes API from Airtm — 1 operation(s) for embedded quotes.
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: The Embedded Quotes API from Airtm — 1 operation(s) for embedded quotes.
   name: Airtm Embedded Quotes API
   slug: airtm-embedded-quotes-api
-- description: The Embedded Receivers API from Airtm — 4 operation(s) for embedded receivers.
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: The Embedded Receivers API from Airtm — 4 operation(s) for embedded receivers.
   name: Airtm Embedded Receivers API
   slug: airtm-embedded-receivers-api
-- description: The Embedded Senders API from Airtm — 2 operation(s) for embedded senders.
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: The Embedded Senders API from Airtm — 2 operation(s) for embedded senders.
   name: Airtm Embedded Senders API
   slug: airtm-embedded-senders-api
-- description: The Embedded Transactions API from Airtm — 2 operation(s) for embedded transactions.
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: The Embedded Transactions API from Airtm — 2 operation(s) for embedded transactions.
   name: Airtm Embedded Transactions API
   slug: airtm-embedded-transactions-api
-- description: '# External Bank Account The external bank account API provides the capability to register an external bank account where you can withdraw your funds to.'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# External Bank Account The external bank account API provides the capability to register an external bank account where you can withdraw your funds to.'
   name: Airtm External Bank Account API
   slug: airtm-external-bank-account-api
-- description: '# External Crypto Account The external crypto account API provides the capability to register an external crypto account where you can withdraw your funds to.'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# External Crypto Account The external crypto account API provides the capability to register an external crypto account where you can withdraw your funds to.'
   name: Airtm External Crypto Account API
   slug: airtm-external-crypto-account-api
-- description: '# Account Management The Account Management API provides essential information about your Airtm Enterprise account, including account details, balance information, and configuration settings. This end'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Account Management The Account Management API provides essential information about your Airtm Enterprise account, including account details, balance information, and configuration settings. This end'
   name: Airtm Me API
   slug: airtm-me-api
-- description: '## Overview The Operations endpoint serves as the central hub for tracking all transaction-related activities within the Airtm Enterprise ecosystem. This comprehensive endpoint consolidates informatio'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '## Overview The Operations endpoint serves as the central hub for tracking all transaction-related activities within the Airtm Enterprise ecosystem. This comprehensive endpoint consolidates informatio'
   name: Airtm Operations API
   slug: airtm-operations-api
-- description: '## Overview The Partner endpoint provides essential information about your Airtm Enterprise account, including account details, configuration settings, balance information, and operational status. Thi'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '## Overview The Partner endpoint provides essential information about your Airtm Enterprise account, including account details, configuration settings, balance information, and operational status. Thi'
   name: Airtm Partner API
   slug: airtm-partner-api
-- description: '# Payins The Payins API enables you to collect payments from users worldwide through their Airtm accounts. This is ideal for e-commerce platforms, service providers, and any business that needs to acc'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Payins The Payins API enables you to collect payments from users worldwide through their Airtm accounts. This is ideal for e-commerce platforms, service providers, and any business that needs to acc'
   name: Airtm Payins API
   slug: airtm-payins-api
-- description: '## Overview The Payouts endpoint enables your organization to send payments to recipients worldwide through the Airtm platform. This powerful endpoint supports both individual and bulk payment process'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '## Overview The Payouts endpoint enables your organization to send payments to recipients worldwide through the Airtm platform. This powerful endpoint supports both individual and bulk payment process'
   name: Airtm Payments / Payouts API
   slug: airtm-payments-payouts-api
-- description: '# Payouts Send money to recipients worldwide through their Airtm accounts. Payouts use a secure two-step process to prevent accidental payments. ## How Payouts Work ### Two-Step Process 1. **Create** '
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Payouts Send money to recipients worldwide through their Airtm accounts. Payouts use a secure two-step process to prevent accidental payments. ## How Payouts Work ### Two-Step Process 1. **Create** '
   name: Airtm Payouts API
   slug: airtm-payouts-api
-- description: '## Overview The Payins endpoint (also known as Purchases) enables your organization to accept payments from users for products, services, or any other transactions. This endpoint is essential for e-co'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '## Overview The Payins endpoint (also known as Purchases) enables your organization to accept payments from users for products, services, or any other transactions. This endpoint is essential for e-co'
   name: Airtm Purchases / Payins API
   slug: airtm-purchases-payins-api
-- description: '# Reports Generate detailed financial reports for your Airtm Enterprise account. Reports provide transaction data, audit trails, and downloadable CSV files for accounting and compliance. ## How Report'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Reports Generate detailed financial reports for your Airtm Enterprise account. Reports provide transaction data, audit trails, and downloadable CSV files for accounting and compliance. ## How Report'
   name: Airtm Reports API
   slug: airtm-reports-api
-- description: '# Users The Users API provides essential user management capabilities for your Airtm Enterprise integration. This endpoint allows you to verify recipient information, check account status, and ensure '
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Users The Users API provides essential user management capabilities for your Airtm Enterprise integration. This endpoint allows you to verify recipient information, check account status, and ensure '
   name: Airtm Users API
   slug: airtm-users-api
-- description: Webhooks are how services notify each other of events. At their core they are just a POST request to a pre-determined endpoint. The endpoint can be whatever you want, and you can just add them from th
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: Webhooks are how services notify each other of events. At their core they are just a POST request to a pre-determined endpoint. The endpoint can be whatever you want, and you can just add them from th
   name: Airtm Webhooks API
   slug: airtm-webhooks-api
-- description: '# Withdrawals The withdrawals API provides the capability to withdraw your funds to a previously registered external account (Bank or Crypto)'
+- baseURL: https://api.enterprise.airtm.com/v2
+  baseurl_source: declared
+  description: '# Withdrawals The withdrawals API provides the capability to withdraw your funds to a previously registered external account (Bank or Crypto)'
   name: Airtm Withdrawals API
   slug: airtm-withdrawals-api
 artifact_total: 56
@@ -373,7 +433,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -383,7 +443,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 60.4
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -401,7 +461,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtm/refs/heads/main/screenshots/airtm-2026-08-07T161117.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,19 +62,29 @@ apis:
 - description: API for AirWave network management platform.
   name: Aruba AirWave API
   slug: aruba-airwave-api
-- description: Access point monitoring and management including status, statistics, RF information, and client connectivity.
+- baseURL: https://apigw-prod2.central.arubanetworks.com
+  baseurl_source: declared
+  description: Access point monitoring and management including status, statistics, RF information, and client connectivity.
   name: Aruba Access Points API
   slug: aruba-access-points-api
-- description: Device inventory management including listing, searching, and managing devices across the Aruba Central platform.
+- baseURL: https://apigw-prod2.central.arubanetworks.com
+  baseurl_source: declared
+  description: Device inventory management including listing, searching, and managing devices across the Aruba Central platform.
   name: Aruba Devices API
   slug: aruba-devices-api
-- description: Configuration group management for organizing devices, applying templates, and managing group-level settings.
+- baseURL: https://apigw-prod2.central.arubanetworks.com
+  baseurl_source: declared
+  description: Configuration group management for organizing devices, applying templates, and managing group-level settings.
   name: Aruba Groups API
   slug: aruba-groups-api
-- description: Network-wide monitoring for clients, networks, gateways, and overall network health metrics.
+- baseURL: https://apigw-prod2.central.arubanetworks.com
+  baseurl_source: declared
+  description: Network-wide monitoring for clients, networks, gateways, and overall network health metrics.
   name: Aruba Monitoring API
   slug: aruba-monitoring-api
-- description: Site and location management for organizing network infrastructure by physical location.
+- baseURL: https://apigw-prod2.central.arubanetworks.com
+  baseurl_source: declared
+  description: Site and location management for organizing network infrastructure by physical location.
   name: Aruba Sites API
   slug: aruba-sites-api
 artifact_total: 141
@@ -557,7 +567,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/screenshots/aruba-2026-06-20T172454.png
 security:

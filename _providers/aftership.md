@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -45,106 +45,174 @@ agentic_access:
   summary_line: 131 operations · 85 acting
 api_count: 7
 apis:
-- description: Address validation and correction so packages are delivered to a deliverable, normalized address.
+- baseURL: https://api.aftership.com/address/2024-07/
+  baseurl_source: declared
+  description: Address validation and correction so packages are delivered to a deliverable, normalized address.
   name: AfterShip Address API
   slug: aftership-address-api
-- description: The Address Validations (Beta) API from AfterShip — 1 operation(s) for address validations (beta).
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Address Validations (Beta) API from AfterShip — 1 operation(s) for address validations (beta).
   name: AfterShip Address Validations (Beta) API
   slug: aftership-address-validations-beta-api
-- description: The Cancel Labels API from AfterShip — 2 operation(s) for cancel labels.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Cancel Labels API from AfterShip — 2 operation(s) for cancel labels.
   name: AfterShip Cancel Labels API
   slug: aftership-cancel-labels-api
-- description: The Cancel Pickups API from AfterShip — 2 operation(s) for cancel pickups.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Cancel Pickups API from AfterShip — 2 operation(s) for cancel pickups.
   name: AfterShip Cancel Pickups API
   slug: aftership-cancel-pickups-api
-- description: Public endpoints for updating item-level claim data.
+- baseURL: https://api.aftership.com/warranty/2026-07
+  baseurl_source: declared
+  description: Public endpoints for updating item-level claim data.
   name: AfterShip Claim Items API
   slug: aftership-claim-items-api
-- description: Public endpoints for creating and polling claim shipment resources.
+- baseURL: https://api.aftership.com/warranty/2026-07
+  baseurl_source: declared
+  description: Public endpoints for creating and polling claim shipment resources.
   name: AfterShip Claim Shipments API
   slug: aftership-claim-shipments-api
-- description: The Claims API from AfterShip — 10 operation(s) for claims.
+- baseURL: https://api.aftership.com/admin/2022-01
+  baseurl_source: declared
+  description: The Claims API from AfterShip — 10 operation(s) for claims.
   name: AfterShip Claims API
   slug: aftership-claims-api
-- description: The Courier API from AfterShip — 2 operation(s) for courier.
+- baseURL: https://api.aftership.com/tracking/2026-07
+  baseurl_source: declared
+  description: The Courier API from AfterShip — 2 operation(s) for courier.
   name: AfterShip Courier API
   slug: aftership-courier-api
-- description: The Courier connection API from AfterShip — 2 operation(s) for courier connection.
+- baseURL: https://api.aftership.com/tracking/2026-07
+  baseurl_source: declared
+  description: The Courier connection API from AfterShip — 2 operation(s) for courier connection.
   name: AfterShip Courier connection API
   slug: aftership-courier-connection-api
-- description: The Couriers API from AfterShip — 1 operation(s) for couriers.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Couriers API from AfterShip — 1 operation(s) for couriers.
   name: AfterShip Couriers API
   slug: aftership-couriers-api
-- description: The Coverages API from AfterShip — 5 operation(s) for coverages.
+- baseURL: https://api.aftership.com/admin/2022-01
+  baseurl_source: declared
+  description: The Coverages API from AfterShip — 5 operation(s) for coverages.
   name: AfterShip Coverages API
   slug: aftership-coverages-api
-- description: The Discoveries API from AfterShip — 4 operation(s) for discoveries.
+- baseURL: https://api.aftership.com/personalization/2025-01
+  baseurl_source: declared
+  description: The Discoveries API from AfterShip — 4 operation(s) for discoveries.
   name: AfterShip Discoveries API
   slug: aftership-discoveries-api
-- description: The Email Parses API from AfterShip — 2 operation(s) for email parses.
+- baseURL: https://api.aftership.com/admin/2022-01
+  baseurl_source: declared
+  description: The Email Parses API from AfterShip — 2 operation(s) for email parses.
   name: AfterShip Email Parses API
   slug: aftership-email-parses-api
-- description: The Estimated delivery date API from AfterShip — 2 operation(s) for estimated delivery date.
+- baseURL: https://api.aftership.com/tracking/2026-07
+  baseurl_source: declared
+  description: The Estimated delivery date API from AfterShip — 2 operation(s) for estimated delivery date.
   name: AfterShip Estimated delivery date API
   slug: aftership-estimated-delivery-date-api
-- description: The Fulfillments API from AfterShip — 3 operation(s) for fulfillments.
+- baseURL: https://api.aftership.com/commerce/2026-07
+  baseurl_source: declared
+  description: The Fulfillments API from AfterShip — 3 operation(s) for fulfillments.
   name: AfterShip Fulfillments API
   slug: aftership-fulfillments-api
-- description: The Item tags API from AfterShip — 1 operation(s) for item tags.
+- baseURL: https://api.aftership.com/returns/2026-07
+  baseurl_source: declared
+  description: The Item tags API from AfterShip — 1 operation(s) for item tags.
   name: AfterShip Item tags API
   slug: aftership-item-tags-api
-- description: The Labels API from AfterShip — 2 operation(s) for labels.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Labels API from AfterShip — 2 operation(s) for labels.
   name: AfterShip Labels API
   slug: aftership-labels-api
-- description: The Locations API from AfterShip — 2 operation(s) for locations.
+- baseURL: https://api.aftership.com/commerce/2026-07
+  baseurl_source: declared
+  description: The Locations API from AfterShip — 2 operation(s) for locations.
   name: AfterShip Locations API
   slug: aftership-locations-api
-- description: The Manifests API from AfterShip — 2 operation(s) for manifests.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Manifests API from AfterShip — 2 operation(s) for manifests.
   name: AfterShip Manifests API
   slug: aftership-manifests-api
-- description: The Memberships API from AfterShip — 2 operation(s) for memberships.
+- baseURL: https://api.aftership.com/admin/2022-01
+  baseurl_source: declared
+  description: The Memberships API from AfterShip — 2 operation(s) for memberships.
   name: AfterShip Memberships API
   slug: aftership-memberships-api
-- description: The Orders API from AfterShip — 4 operation(s) for orders.
+- baseURL: https://api.aftership.com/commerce/2026-07
+  baseurl_source: declared
+  description: The Orders API from AfterShip — 4 operation(s) for orders.
   name: AfterShip Orders API
   slug: aftership-orders-api
-- description: The Pickups API from AfterShip — 2 operation(s) for pickups.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Pickups API from AfterShip — 2 operation(s) for pickups.
   name: AfterShip Pickups API
   slug: aftership-pickups-api
-- description: The Products API from AfterShip — 4 operation(s) for products.
+- baseURL: https://api.aftership.com/commerce/2026-07
+  baseurl_source: declared
+  description: The Products API from AfterShip — 4 operation(s) for products.
   name: AfterShip Products API
   slug: aftership-products-api
-- description: The Rates API from AfterShip — 2 operation(s) for rates.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Rates API from AfterShip — 2 operation(s) for rates.
   name: AfterShip Rates API
   slug: aftership-rates-api
-- description: The Return Dropoffs API from AfterShip — 1 operation(s) for return dropoffs.
+- baseURL: https://api.aftership.com/returns/2026-07
+  baseurl_source: declared
+  description: The Return Dropoffs API from AfterShip — 1 operation(s) for return dropoffs.
   name: AfterShip Return Dropoffs API
   slug: aftership-return-dropoffs-api
-- description: The Return items API from AfterShip — 2 operation(s) for return items.
+- baseURL: https://api.aftership.com/returns/2026-07
+  baseurl_source: declared
+  description: The Return items API from AfterShip — 2 operation(s) for return items.
   name: AfterShip Return items API
   slug: aftership-return-items-api
-- description: Create, approve, reject, resolve and receive returns by return ID or RMA number, manage return items, item tags and returns-page deep links.
+- baseURL: https://api.aftership.com/returns/2026-07
+  baseurl_source: declared
+  description: Create, approve, reject, resolve and receive returns by return ID or RMA number, manage return items, item tags and returns-page deep links.
   name: AfterShip Returns API
   slug: aftership-returns-api
-- description: The Returns Page API from AfterShip — 1 operation(s) for returns page.
+- baseURL: https://api.aftership.com/returns/2026-07
+  baseurl_source: declared
+  description: The Returns Page API from AfterShip — 1 operation(s) for returns page.
   name: AfterShip Returns Page API
   slug: aftership-returns-page-api
-- description: The Roles API from AfterShip — 1 operation(s) for roles.
+- baseURL: https://api.aftership.com/admin/2022-01
+  baseurl_source: declared
+  description: The Roles API from AfterShip — 1 operation(s) for roles.
   name: AfterShip Roles API
   slug: aftership-roles-api
-- description: The Shipper Accounts API from AfterShip — 5 operation(s) for shipper accounts.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Shipper Accounts API from AfterShip — 5 operation(s) for shipper accounts.
   name: AfterShip Shipper Accounts API
   slug: aftership-shipper-accounts-api
-- description: The Specific Shipper Accounts API from AfterShip — 2 operation(s) for specific shipper accounts.
+- baseURL: https://api.aftership.com/postmen/v3
+  baseurl_source: declared
+  description: The Specific Shipper Accounts API from AfterShip — 2 operation(s) for specific shipper accounts.
   name: AfterShip Specific Shipper Accounts API
   slug: aftership-specific-shipper-accounts-api
-- description: The Stores API from AfterShip — 2 operation(s) for stores.
+- baseURL: https://api.aftership.com/commerce/2026-07
+  baseurl_source: declared
+  description: The Stores API from AfterShip — 2 operation(s) for stores.
   name: AfterShip Stores API
   slug: aftership-stores-api
-- description: 'Shipment tracking across 1,400+ carriers: create and query trackings, detect couriers, manage courier connections, and predict estimated delivery dates.'
+- baseURL: https://api.aftership.com/tracking/2026-07
+  baseurl_source: declared
+  description: 'Shipment tracking across 1,400+ carriers: create and query trackings, detect couriers, manage courier connections, and predict estimated delivery dates.'
   name: AfterShip Tracking API
   slug: aftership-tracking-api
-- description: Public endpoints for querying and correcting warranty registration data.
+- baseURL: https://api.aftership.com/warranty/2026-07
+  baseurl_source: declared
+  description: Public endpoints for querying and correcting warranty registration data.
   name: AfterShip Warranty Registrations API
   slug: aftership-warranty-registrations-api
 artifact_total: 45
@@ -380,23 +448,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 81.0
+  composite: 81.2
   coverage:
     artifact_dirs: 26
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 8.5
+  delta: 0.2
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 65.4
+    contract_quality: 66.3
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 72.5
+  previous_composite: 81.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -414,8 +482,8 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/screenshots/aftership-2026-06-20T165736.png
 security:
 - kind: authentication

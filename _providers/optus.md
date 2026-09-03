@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -51,31 +62,49 @@ apis:
 - description: Direct SMSC connectivity over SMPP 3.3 and 3.4 with mandatory TLS, offering high-throughput binary messaging, custom character encoding, and detailed delivery reporting. A wire protocol rather than an
   name: Optus SMS Suite SMPP API
   slug: optus-sms-suite-smpp-api
-- description: The Delete Multiple Lists API from Optus — 1 operation(s) for delete multiple lists.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Delete Multiple Lists API from Optus — 1 operation(s) for delete multiple lists.
   name: Optus Delete Multiple Lists API
   slug: optus-delete-multiple-lists-api
-- description: The documentation API from Optus — 1 operation(s) for documentation.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The documentation API from Optus — 1 operation(s) for documentation.
   name: Optus Documentation API
   slug: optus-documentation-api
-- description: The Lists API from Optus — 2 operation(s) for lists.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Lists API from Optus — 2 operation(s) for lists.
   name: Optus Lists API
   slug: optus-lists-api
-- description: The Messages API from Optus — 3 operation(s) for messages.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Messages API from Optus — 3 operation(s) for messages.
   name: Optus Messages API
   slug: optus-messages-api
-- description: The Report API from Optus — 1 operation(s) for report.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Report API from Optus — 1 operation(s) for report.
   name: Optus Report API
   slug: optus-report-api
-- description: The Scheduled Campaigns API from Optus — 1 operation(s) for scheduled campaigns.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Scheduled Campaigns API from Optus — 1 operation(s) for scheduled campaigns.
   name: Optus Scheduled Campaigns API
   slug: optus-scheduled-campaigns-api
-- description: The Services API from Optus — 1 operation(s) for services.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Services API from Optus — 1 operation(s) for services.
   name: Optus Services API
   slug: optus-services-api
-- description: The Status API from Optus — 1 operation(s) for status.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Status API from Optus — 1 operation(s) for status.
   name: Optus Status API
   slug: optus-status-api
-- description: The Templates API from Optus — 1 operation(s) for templates.
+- baseURL: https://api.sms.optus.com.au/rest/gateway
+  baseurl_source: declared
+  description: The Templates API from Optus — 1 operation(s) for templates.
   name: Optus Templates API
   slug: optus-templates-api
 artifact_total: 26
@@ -326,7 +355,7 @@ score:
     regime_id: telecommunications
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

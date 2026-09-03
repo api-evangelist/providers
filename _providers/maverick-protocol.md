@@ -32,10 +32,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
+- baseURL: https://v2-api.mav.xyz
+  baseurl_source: declared
+  description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
   name: Maverick Protocol Latest API
   slug: maverick-protocol-latest-api
 artifact_total: 6
@@ -150,7 +152,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/screenshots/maverick-protocol-2026-08-07T172331.png
 security:

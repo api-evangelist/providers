@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -33,40 +44,64 @@ agentic_access:
   summary_line: 65 operations · 42 acting
 api_count: 12
 apis:
-- description: The Categories API from Skydance Media — 2 operation(s) for categories.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Categories API from Skydance Media — 2 operation(s) for categories.
   name: Skydance Media Categories API
   slug: skydance-media-categories-api
-- description: The Comments API from Skydance Media — 2 operation(s) for comments.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Skydance Media — 2 operation(s) for comments.
   name: Skydance Media Comments API
   slug: skydance-media-comments-api
-- description: The Media API from Skydance Media — 2 operation(s) for media.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Skydance Media — 2 operation(s) for media.
   name: Skydance Media Media API
   slug: skydance-media-media-api
-- description: The Pages API from Skydance Media — 2 operation(s) for pages.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Skydance Media — 2 operation(s) for pages.
   name: Skydance Media Pages API
   slug: skydance-media-pages-api
-- description: The Posts API from Skydance Media — 2 operation(s) for posts.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Skydance Media — 2 operation(s) for posts.
   name: Skydance Media Posts API
   slug: skydance-media-posts-api
-- description: The Search API from Skydance Media — 1 operation(s) for search.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Skydance Media — 1 operation(s) for search.
   name: Skydance Media Search API
   slug: skydance-media-search-api
-- description: The Settings API from Skydance Media — 1 operation(s) for settings.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Skydance Media — 1 operation(s) for settings.
   name: Skydance Media Settings API
   slug: skydance-media-settings-api
-- description: The Statuses API from Skydance Media — 2 operation(s) for statuses.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Statuses API from Skydance Media — 2 operation(s) for statuses.
   name: Skydance Media Statuses API
   slug: skydance-media-statuses-api
-- description: The Tags API from Skydance Media — 2 operation(s) for tags.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Tags API from Skydance Media — 2 operation(s) for tags.
   name: Skydance Media Tags API
   slug: skydance-media-tags-api
-- description: The Taxonomies API from Skydance Media — 2 operation(s) for taxonomies.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomies API from Skydance Media — 2 operation(s) for taxonomies.
   name: Skydance Media Taxonomies API
   slug: skydance-media-taxonomies-api
-- description: The Types API from Skydance Media — 2 operation(s) for types.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Types API from Skydance Media — 2 operation(s) for types.
   name: Skydance Media Types API
   slug: skydance-media-types-api
-- description: The Users API from Skydance Media — 3 operation(s) for users.
+- baseURL: https://skydance.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Skydance Media — 3 operation(s) for users.
   name: Skydance Media Users API
   slug: skydance-media-users-api
 artifact_total: 28
@@ -253,7 +288,7 @@ score:
   band: emerging
   composite: 20.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -278,8 +313,9 @@ score:
       total: 13
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png
 security:
 - kind: authentication
   name: Skydance Media Authentication

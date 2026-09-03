@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -36,145 +49,239 @@ apis:
 - description: 'The webhook and event layer of the Syniverse Developer Community. The Event Subscription Service (ESS) API manages topics, topic-subscriptions, delivery-configurations, event-types, event-deliveries, '
   name: Syniverse Event Subscription Service API (Event Manager)
   slug: syniverse-event-subscription-service-api
-- description: The 10DLC ATT API from Syniverse — 1 operation(s) for 10dlc att.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The 10DLC ATT API from Syniverse — 1 operation(s) for 10dlc att.
   name: Syniverse 10DLC ATT API
   slug: syniverse-10dlc-att-api
-- description: The 10DLC LongCodes API from Syniverse — 1 operation(s) for 10dlc longcodes.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The 10DLC LongCodes API from Syniverse — 1 operation(s) for 10dlc longcodes.
   name: Syniverse 10DLC LongCodes API
   slug: syniverse-10dlc-longcodes-api
-- description: The 10DLC Number Pools API from Syniverse — 2 operation(s) for 10dlc number pools.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The 10DLC Number Pools API from Syniverse — 2 operation(s) for 10dlc number pools.
   name: Syniverse 10DLC Number Pools API
   slug: syniverse-10dlc-number-pools-api
-- description: Initial 10DLC Number to Campaign Association Management
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: Initial 10DLC Number to Campaign Association Management
   name: Syniverse 10DLC v1 API
   slug: syniverse-10dlc-v1-api
-- description: Enhanced 10DLC Number Pool to Campaign Association Management
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: Enhanced 10DLC Number Pool to Campaign Association Management
   name: Syniverse 10DLC v1 Number Pools API
   slug: syniverse-10dlc-v1-number-pools-api
-- description: The Access Token API from Syniverse — 2 operation(s) for access token.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Access Token API from Syniverse — 2 operation(s) for access token.
   name: Syniverse Access Token API
   slug: syniverse-access-token-api
-- description: The Application API from Syniverse — 2 operation(s) for application.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Application API from Syniverse — 2 operation(s) for application.
   name: Syniverse Application API
   slug: syniverse-application-api
-- description: The Application Instance API from Syniverse — 2 operation(s) for application instance.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Application Instance API from Syniverse — 2 operation(s) for application instance.
   name: Syniverse Application Instance API
   slug: syniverse-application-instance-api
-- description: The Application Instance Session API from Syniverse — 2 operation(s) for application instance session.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Application Instance Session API from Syniverse — 2 operation(s) for application instance session.
   name: Syniverse Application Instance Session API
   slug: syniverse-application-instance-session-api
-- description: The Application Processor Results API from Syniverse — 1 operation(s) for application processor results.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Application Processor Results API from Syniverse — 1 operation(s) for application processor results.
   name: Syniverse Application Processor Results API
   slug: syniverse-application-processor-results-api
-- description: The Application Script API from Syniverse — 2 operation(s) for application script.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Application Script API from Syniverse — 2 operation(s) for application script.
   name: Syniverse Application Script API
   slug: syniverse-application-script-api
-- description: The ATT DCA Campaigns API from Syniverse — 1 operation(s) for att dca campaigns.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The ATT DCA Campaigns API from Syniverse — 1 operation(s) for att dca campaigns.
   name: Syniverse ATT DCA Campaigns API
   slug: syniverse-att-dca-campaigns-api
-- description: The Attachment API from Syniverse — 4 operation(s) for attachment.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Attachment API from Syniverse — 4 operation(s) for attachment.
   name: Syniverse Attachment API
   slug: syniverse-attachment-api
-- description: The Auto Alias History API from Syniverse — 2 operation(s) for auto alias history.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Auto Alias History API from Syniverse — 2 operation(s) for auto alias history.
   name: Syniverse Auto Alias History API
   slug: syniverse-auto-alias-history-api
-- description: The Auto Alias Message Request API from Syniverse — 1 operation(s) for auto alias message request.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Auto Alias Message Request API from Syniverse — 1 operation(s) for auto alias message request.
   name: Syniverse Auto Alias Message Request API
   slug: syniverse-auto-alias-message-request-api
-- description: The Bridge API from Syniverse — 3 operation(s) for bridge.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Bridge API from Syniverse — 3 operation(s) for bridge.
   name: Syniverse Bridge API
   slug: syniverse-bridge-api
-- description: The Call API from Syniverse — 5 operation(s) for call.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Call API from Syniverse — 5 operation(s) for call.
   name: Syniverse Call API
   slug: syniverse-call-api
-- description: The Campaigns API from Syniverse — 4 operation(s) for campaigns.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Campaigns API from Syniverse — 4 operation(s) for campaigns.
   name: Syniverse Campaigns API
   slug: syniverse-campaigns-api
-- description: The Channel API from Syniverse — 4 operation(s) for channel.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Channel API from Syniverse — 4 operation(s) for channel.
   name: Syniverse Channel API
   slug: syniverse-channel-api
-- description: The Conference API from Syniverse — 4 operation(s) for conference.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Conference API from Syniverse — 4 operation(s) for conference.
   name: Syniverse Conference API
   slug: syniverse-conference-api
-- description: The ConferenceMember API from Syniverse — 2 operation(s) for conferencemember.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The ConferenceMember API from Syniverse — 2 operation(s) for conferencemember.
   name: Syniverse Conference Member API
   slug: syniverse-conferencemember-api
-- description: The Connector API from Syniverse — 2 operation(s) for connector.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Connector API from Syniverse — 2 operation(s) for connector.
   name: Syniverse Connector API
   slug: syniverse-connector-api
-- description: The Contact Address History API from Syniverse — 1 operation(s) for contact address history.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Contact Address History API from Syniverse — 1 operation(s) for contact address history.
   name: Syniverse Contact Address History API
   slug: syniverse-contact-address-history-api
-- description: The Contact Address Status API from Syniverse — 2 operation(s) for contact address status.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Contact Address Status API from Syniverse — 2 operation(s) for contact address status.
   name: Syniverse Contact Address Status API
   slug: syniverse-contact-address-status-api
-- description: The Contact Address Status Optout API from Syniverse — 1 operation(s) for contact address status optout.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Contact Address Status Optout API from Syniverse — 1 operation(s) for contact address status optout.
   name: Syniverse Contact Address Status Optout API
   slug: syniverse-contact-address-status-optout-api
-- description: The Contact API from Syniverse — 4 operation(s) for contact.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Contact API from Syniverse — 4 operation(s) for contact.
   name: Syniverse Contact API
   slug: syniverse-contact-api
-- description: The Contact Application Token API from Syniverse — 2 operation(s) for contact application token.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Contact Application Token API from Syniverse — 2 operation(s) for contact application token.
   name: Syniverse Contact Application Token API
   slug: syniverse-contact-application-token-api
-- description: The Contact Group API from Syniverse — 4 operation(s) for contact group.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Contact Group API from Syniverse — 4 operation(s) for contact group.
   name: Syniverse Contact Group API
   slug: syniverse-contact-group-api
-- description: The Detect API from Syniverse — 1 operation(s) for detect.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Detect API from Syniverse — 1 operation(s) for detect.
   name: Syniverse Detect API
   slug: syniverse-detect-api
-- description: The Digits Collector API from Syniverse — 2 operation(s) for digits collector.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Digits Collector API from Syniverse — 2 operation(s) for digits collector.
   name: Syniverse Digits Collector API
   slug: syniverse-digits-collector-api
-- description: The Fast Access API from Syniverse — 2 operation(s) for fast access.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Fast Access API from Syniverse — 2 operation(s) for fast access.
   name: Syniverse Fast Access API
   slug: syniverse-fast-access-api
-- description: The Keywords API from Syniverse — 2 operation(s) for keywords.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Keywords API from Syniverse — 2 operation(s) for keywords.
   name: Syniverse Keywords API
   slug: syniverse-keywords-api
-- description: The Lookup API from Syniverse — 1 operation(s) for lookup.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Lookup API from Syniverse — 1 operation(s) for lookup.
   name: Syniverse Lookup API
   slug: syniverse-lookup-api
-- description: The Match API from Syniverse — 1 operation(s) for match.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Match API from Syniverse — 1 operation(s) for match.
   name: Syniverse Match API
   slug: syniverse-match-api
-- description: The Message API from Syniverse — 3 operation(s) for message.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Message API from Syniverse — 3 operation(s) for message.
   name: Syniverse Message API
   slug: syniverse-message-api
-- description: The Message Request API from Syniverse — 3 operation(s) for message request.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Message Request API from Syniverse — 3 operation(s) for message request.
   name: Syniverse Message Request API
   slug: syniverse-message-request-api
-- description: The Message Template API from Syniverse — 2 operation(s) for message template.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Message Template API from Syniverse — 2 operation(s) for message template.
   name: Syniverse Message Template API
   slug: syniverse-message-template-api
-- description: The MMS Resolver API API from Syniverse — 1 operation(s) for mms resolver api.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The MMS Resolver API API from Syniverse — 1 operation(s) for mms resolver api.
   name: Syniverse MMS Resolver API
   slug: syniverse-mms-resolver-api-api
-- description: The Regenerate access token API from Syniverse — 1 operation(s) for regenerate access token.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Regenerate access token API from Syniverse — 1 operation(s) for regenerate access token.
   name: Syniverse Regenerate access token API
   slug: syniverse-regenerate-access-token-api
-- description: The reports API from Syniverse — 1 operation(s) for reports.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The reports API from Syniverse — 1 operation(s) for reports.
   name: Syniverse Reports API
   slug: syniverse-reports-api
-- description: The Scheduled Message API from Syniverse — 1 operation(s) for scheduled message.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Scheduled Message API from Syniverse — 1 operation(s) for scheduled message.
   name: Syniverse Scheduled Message API
   slug: syniverse-scheduled-message-api
-- description: The Scheduled Message Request API from Syniverse — 1 operation(s) for scheduled message request.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Scheduled Message Request API from Syniverse — 1 operation(s) for scheduled message request.
   name: Syniverse Scheduled Message Request API
   slug: syniverse-scheduled-message-request-api
-- description: The Sender ID API from Syniverse — 4 operation(s) for sender id.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Sender ID API from Syniverse — 4 operation(s) for sender id.
   name: Syniverse Sender ID API
   slug: syniverse-sender-id-api
-- description: The Sender Import Job API from Syniverse — 2 operation(s) for sender import job.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Sender Import Job API from Syniverse — 2 operation(s) for sender import job.
   name: Syniverse Sender Import Job API
   slug: syniverse-sender-import-job-api
-- description: The Text Resolver API API from Syniverse — 1 operation(s) for text resolver api.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The Text Resolver API API from Syniverse — 1 operation(s) for text resolver api.
   name: Syniverse Text Resolver API
   slug: syniverse-text-resolver-api-api
-- description: The User API from Syniverse — 5 operation(s) for user.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The User API from Syniverse — 5 operation(s) for user.
   name: Syniverse User API
   slug: syniverse-user-api
-- description: The whitelist API from Syniverse — 3 operation(s) for whitelist.
+- baseURL: https://api.syniverse.com/scg-external-api/api/v1
+  baseurl_source: declared
+  description: The whitelist API from Syniverse — 3 operation(s) for whitelist.
   name: Syniverse Whitelist API
   slug: syniverse-whitelist-api
 artifact_total: 65
@@ -432,7 +539,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -442,7 +549,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 51.6
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,7 +567,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/screenshots/syniverse-2026-08-17T082233.png
 security:

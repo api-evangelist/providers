@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 14 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: The Access Control API from Xiaomi — 1 operation(s) for access control.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The Access Control API from Xiaomi — 1 operation(s) for access control.
   name: Xiaomi Access Control API
   slug: xiaomi-access-control-api
-- description: The Authentication API from Xiaomi — 1 operation(s) for authentication.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The Authentication API from Xiaomi — 1 operation(s) for authentication.
   name: Xiaomi Authentication API
   slug: xiaomi-authentication-api
-- description: The CDN API from Xiaomi — 2 operation(s) for cdn.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The CDN API from Xiaomi — 2 operation(s) for cdn.
   name: Xiaomi CDN API
   slug: xiaomi-cdn-api
-- description: The Chat API from Xiaomi — 1 operation(s) for chat.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The Chat API from Xiaomi — 1 operation(s) for chat.
   name: Xiaomi Chat API
   slug: xiaomi-chat-api
-- description: The Models API from Xiaomi — 1 operation(s) for models.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The Models API from Xiaomi — 1 operation(s) for models.
   name: Xiaomi Models API
   slug: xiaomi-models-api
-- description: The Multipart Upload API from Xiaomi — 3 operation(s) for multipart upload.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The Multipart Upload API from Xiaomi — 3 operation(s) for multipart upload.
   name: Xiaomi Multipart Upload API
   slug: xiaomi-multipart-upload-api
-- description: The Objects API from Xiaomi — 4 operation(s) for objects.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The Objects API from Xiaomi — 4 operation(s) for objects.
   name: Xiaomi Objects API
   slug: xiaomi-objects-api
-- description: The User API from Xiaomi — 4 operation(s) for user.
+- baseURL: https://open.account.xiaomi.com
+  baseurl_source: declared
+  description: The User API from Xiaomi — 4 operation(s) for user.
   name: Xiaomi User API
   slug: xiaomi-user-api
 artifact_total: 36
@@ -272,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/screenshots/xiaomi-2026-06-20T201705.png
 security:

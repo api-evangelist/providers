@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: Read-only public API for accessing tournament information without full organizer authentication. Ideal for embedding tournament brackets, leaderboards, and match schedules in applications, streaming o
   name: Toornament Viewer API
   slug: viewer-api
-- description: Access esports discipline metadata.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Access esports discipline metadata.
   name: Toornament Disciplines API
   slug: toornament-disciplines-api
-- description: Manage tournament matches and results.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Manage tournament matches and results.
   name: Toornament Matches API
   slug: toornament-matches-api
-- description: Manage tournament participants and registrations.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Manage tournament participants and registrations.
   name: Toornament Participants API
   slug: toornament-participants-api
-- description: Retrieve tournament rankings and standings.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Retrieve tournament rankings and standings.
   name: Toornament Rankings API
   slug: toornament-rankings-api
-- description: Manage tournament registrations.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Manage tournament registrations.
   name: Toornament Registrations API
   slug: toornament-registrations-api
-- description: Manage tournament stages and brackets.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Manage tournament stages and brackets.
   name: Toornament Stages API
   slug: toornament-stages-api
-- description: Create, manage, and retrieve tournament information.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Create, manage, and retrieve tournament information.
   name: Toornament Tournaments API
   slug: toornament-tournaments-api
-- description: Manage webhook subscriptions for tournament events.
+- baseURL: https://api.toornament.com/organizer/v2
+  baseurl_source: declared
+  description: Manage webhook subscriptions for tournament events.
   name: Toornament Webhooks API
   slug: toornament-webhooks-api
 artifact_total: 55
@@ -294,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/screenshots/toornament-2026-06-20T195451.png
 security:

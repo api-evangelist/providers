@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 146 operations · 94 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The [v1] Approvals API from TimeCamp — 2 operation(s) for [v1] approvals.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Approvals API from TimeCamp — 2 operation(s) for [v1] approvals.
   name: TimeCamp [v1] Approvals API
   slug: timecamp-v1-approvals-api
-- description: The [v1] Attendance API from TimeCamp — 4 operation(s) for [v1] attendance.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Attendance API from TimeCamp — 4 operation(s) for [v1] attendance.
   name: TimeCamp [v1] Attendance API
   slug: timecamp-v1-attendance-api
-- description: The [v1] Billing Rates API from TimeCamp — 4 operation(s) for [v1] billing rates.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Billing Rates API from TimeCamp — 4 operation(s) for [v1] billing rates.
   name: TimeCamp [v1] Billing Rates API
   slug: timecamp-v1-billing-rates-api
-- description: The [v1] Computer Activities API from TimeCamp — 1 operation(s) for [v1] computer activities.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Computer Activities API from TimeCamp — 1 operation(s) for [v1] computer activities.
   name: TimeCamp [v1] Computer Activities API
   slug: timecamp-v1-computer-activities-api
-- description: The [v1] Entry API from TimeCamp — 5 operation(s) for [v1] entry.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Entry API from TimeCamp — 5 operation(s) for [v1] entry.
   name: TimeCamp [v1] Entry API
   slug: timecamp-v1-entry-api
-- description: The [v1] Group API from TimeCamp — 5 operation(s) for [v1] group.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Group API from TimeCamp — 5 operation(s) for [v1] group.
   name: TimeCamp [v1] Group API
   slug: timecamp-v1-group-api
-- description: The [v1] Roles & Permissions API from TimeCamp — 1 operation(s) for [v1] roles & permissions.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Roles & Permissions API from TimeCamp — 1 operation(s) for [v1] roles & permissions.
   name: TimeCamp [v1] Roles & Permissions API
   slug: timecamp-v1-roles-permissions-api
-- description: The [v1] Tags API from TimeCamp — 9 operation(s) for [v1] tags.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Tags API from TimeCamp — 9 operation(s) for [v1] tags.
   name: TimeCamp [v1] Tags API
   slug: timecamp-v1-tags-api
-- description: The [v1] Task API from TimeCamp — 4 operation(s) for [v1] task.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Task API from TimeCamp — 4 operation(s) for [v1] task.
   name: TimeCamp [v1] Task API
   slug: timecamp-v1-task-api
-- description: The [v1] Timer API from TimeCamp — 2 operation(s) for [v1] timer.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] Timer API from TimeCamp — 2 operation(s) for [v1] timer.
   name: TimeCamp [v1] Timer API
   slug: timecamp-v1-timer-api
-- description: The [v1] User API from TimeCamp — 5 operation(s) for [v1] user.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v1] User API from TimeCamp — 5 operation(s) for [v1] user.
   name: TimeCamp [v1] User API
   slug: timecamp-v1-user-api
-- description: The [v3] Approval API from TimeCamp — 7 operation(s) for [v3] approval.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Approval API from TimeCamp — 7 operation(s) for [v3] approval.
   name: TimeCamp [v3] Approval API
   slug: timecamp-v3-approval-api
-- description: The [v3] Attendance API from TimeCamp — 6 operation(s) for [v3] attendance.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Attendance API from TimeCamp — 6 operation(s) for [v3] attendance.
   name: TimeCamp [v3] Attendance API
   slug: timecamp-v3-attendance-api
-- description: The [v3] Attendance Requests API from TimeCamp — 1 operation(s) for [v3] attendance requests.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Attendance Requests API from TimeCamp — 1 operation(s) for [v3] attendance requests.
   name: TimeCamp [v3] Attendance Requests API
   slug: timecamp-v3-attendance-requests-api
-- description: The [v3] Computer Activities API from TimeCamp — 1 operation(s) for [v3] computer activities.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Computer Activities API from TimeCamp — 1 operation(s) for [v3] computer activities.
   name: TimeCamp [v3] Computer Activities API
   slug: timecamp-v3-computer-activities-api
-- description: The [v3] Custom Fields API from TimeCamp — 8 operation(s) for [v3] custom fields.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Custom Fields API from TimeCamp — 8 operation(s) for [v3] custom fields.
   name: TimeCamp [v3] Custom Fields API
   slug: timecamp-v3-custom-fields-api
-- description: The [v3] Data Export API from TimeCamp — 5 operation(s) for [v3] data export.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Data Export API from TimeCamp — 5 operation(s) for [v3] data export.
   name: TimeCamp [v3] Data Export API
   slug: timecamp-v3-data-export-api
-- description: The [v3] Expense API from TimeCamp — 11 operation(s) for [v3] expense.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Expense API from TimeCamp — 11 operation(s) for [v3] expense.
   name: TimeCamp [v3] Expense API
   slug: timecamp-v3-expense-api
-- description: The [v3] Invoices API from TimeCamp — 2 operation(s) for [v3] invoices.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Invoices API from TimeCamp — 2 operation(s) for [v3] invoices.
   name: TimeCamp [v3] Invoices API
   slug: timecamp-v3-invoices-api
-- description: The [v3] Projects API from TimeCamp — 5 operation(s) for [v3] projects.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Projects API from TimeCamp — 5 operation(s) for [v3] projects.
   name: TimeCamp [v3] Projects API
   slug: timecamp-v3-projects-api
-- description: The [v3] Storage API from TimeCamp — 2 operation(s) for [v3] storage.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Storage API from TimeCamp — 2 operation(s) for [v3] storage.
   name: TimeCamp [v3] Storage API
   slug: timecamp-v3-storage-api
-- description: The [v3] Tags API from TimeCamp — 1 operation(s) for [v3] tags.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Tags API from TimeCamp — 1 operation(s) for [v3] tags.
   name: TimeCamp [v3] Tags API
   slug: timecamp-v3-tags-api
-- description: The [v3] Task API from TimeCamp — 5 operation(s) for [v3] task.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Task API from TimeCamp — 5 operation(s) for [v3] task.
   name: TimeCamp [v3] Task API
   slug: timecamp-v3-task-api
-- description: The [v3] Task Archive API from TimeCamp — 2 operation(s) for [v3] task archive.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Task Archive API from TimeCamp — 2 operation(s) for [v3] task archive.
   name: TimeCamp [v3] Task Archive API
   slug: timecamp-v3-task-archive-api
-- description: The [v3] Task Picker API from TimeCamp — 3 operation(s) for [v3] task picker.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Task Picker API from TimeCamp — 3 operation(s) for [v3] task picker.
   name: TimeCamp [v3] Task Picker API
   slug: timecamp-v3-task-picker-api
-- description: The [v3] Time Entry API from TimeCamp — 4 operation(s) for [v3] time entry.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Time Entry API from TimeCamp — 4 operation(s) for [v3] time entry.
   name: TimeCamp [v3] Time Entry API
   slug: timecamp-v3-time-entry-api
-- description: The [v3] Time Entry Restriction API from TimeCamp — 3 operation(s) for [v3] time entry restriction.
+- baseURL: https://app.timecamp.com/third_party/api
+  baseurl_source: declared
+  description: The [v3] Time Entry Restriction API from TimeCamp — 3 operation(s) for [v3] time entry restriction.
   name: TimeCamp [v3] Time Entry Restriction API
   slug: timecamp-v3-time-entry-restriction-api
 artifact_total: 62
@@ -292,7 +346,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -315,8 +369,9 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/timecamp/refs/heads/main/screenshots/timecamp-2026-09-02T163753.png
 security:
 - kind: authentication
   name: Timecamp Authentication

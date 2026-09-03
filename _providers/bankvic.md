@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: BankVic Banking Account Balances API
   slug: bankvic-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: BankVic Banking Account Direct Debits API
   slug: bankvic-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: BankVic Banking Account Scheduled Payments API
   slug: bankvic-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: BankVic Banking Account Transactions API
   slug: bankvic-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: BankVic Banking Accounts API
   slug: bankvic-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: BankVic Banking Payees API
   slug: bankvic-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://ib.bankvic.com.au/openbanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: BankVic Banking Products API
   slug: bankvic-banking-products-api
 arazzos:
@@ -272,7 +286,7 @@ score:
     regime_id: banking_open_finance
     score: 62.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/screenshots/bankvic-2026-07-21T114709.png
 security:

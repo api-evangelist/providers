@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -44,316 +44,524 @@ agentic_access:
   summary_line: 104 operations · 104 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=GameLift.AcceptMatch API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.acceptmatch.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.AcceptMatch API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.acceptmatch.'
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch API'
   slug: amazon-gamelift-x-amz-target-gamelift-acceptmatch-api
-- description: 'The #X Amz Target=GameLift.ClaimGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.claimgameserver.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ClaimGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.claimgameserver.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ClaimGameServer API'
   slug: amazon-gamelift-x-amz-target-gamelift-claimgameserver-api
-- description: 'The #X Amz Target=GameLift.CreateAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createalias.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createalias.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateAlias API'
   slug: amazon-gamelift-x-amz-target-gamelift-createalias-api
-- description: 'The #X Amz Target=GameLift.CreateBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createbuild.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createbuild.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateBuild API'
   slug: amazon-gamelift-x-amz-target-gamelift-createbuild-api
-- description: 'The #X Amz Target=GameLift.CreateFleet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createfleet.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateFleet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createfleet.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateFleet API'
   slug: amazon-gamelift-x-amz-target-gamelift-createfleet-api
-- description: 'The #X Amz Target=GameLift.CreateFleetLocations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createfleetlocations.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateFleetLocations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createfleetlocations.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateFleetLocations API'
   slug: amazon-gamelift-x-amz-target-gamelift-createfleetlocations-api
-- description: 'The #X Amz Target=GameLift.CreateGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creategameservergroup.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creategameservergroup.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateGameServerGroup API'
   slug: amazon-gamelift-x-amz-target-gamelift-creategameservergroup-api
-- description: 'The #X Amz Target=GameLift.CreateGameSession API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creategamesession.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateGameSession API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creategamesession.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateGameSession API'
   slug: amazon-gamelift-x-amz-target-gamelift-creategamesession-api
-- description: 'The #X Amz Target=GameLift.CreateGameSessionQueue API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creategamesessionqueue.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateGameSessionQueue API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creategamesessionqueue.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateGameSessionQueue API'
   slug: amazon-gamelift-x-amz-target-gamelift-creategamesessionqueue-api
-- description: 'The #X Amz Target=GameLift.CreateLocation API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createlocation.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateLocation API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createlocation.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateLocation API'
   slug: amazon-gamelift-x-amz-target-gamelift-createlocation-api
-- description: 'The #X Amz Target=GameLift.CreateMatchmakingConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creatematchmakingconfiguration.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateMatchmakingConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creatematchmakingconfiguration.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateMatchmakingConfiguration API'
   slug: amazon-gamelift-x-amz-target-gamelift-creatematchmakingconfiguration-api
-- description: 'The #X Amz Target=GameLift.CreateMatchmakingRuleSet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creatematchmakingruleset.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateMatchmakingRuleSet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.creatematchmakingruleset.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateMatchmakingRuleSet API'
   slug: amazon-gamelift-x-amz-target-gamelift-creatematchmakingruleset-api
-- description: 'The #X Amz Target=GameLift.CreatePlayerSession API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createplayersession.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreatePlayerSession API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createplayersession.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreatePlayerSession API'
   slug: amazon-gamelift-x-amz-target-gamelift-createplayersession-api
-- description: 'The #X Amz Target=GameLift.CreatePlayerSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createplayersessions.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreatePlayerSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createplayersessions.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreatePlayerSessions API'
   slug: amazon-gamelift-x-amz-target-gamelift-createplayersessions-api
-- description: 'The #X Amz Target=GameLift.CreateScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createscript.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createscript.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateScript API'
   slug: amazon-gamelift-x-amz-target-gamelift-createscript-api
-- description: 'The #X Amz Target=GameLift.CreateVpcPeeringAuthorization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createvpcpeeringauthorization.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateVpcPeeringAuthorization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createvpcpeeringauthorization.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateVpcPeeringAuthorization API'
   slug: amazon-gamelift-x-amz-target-gamelift-createvpcpeeringauthorization-api
-- description: 'The #X Amz Target=GameLift.CreateVpcPeeringConnection API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createvpcpeeringconnection.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.CreateVpcPeeringConnection API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.createvpcpeeringconnection.'
   name: 'Amazon GameLift #X Amz Target=GameLift.CreateVpcPeeringConnection API'
   slug: amazon-gamelift-x-amz-target-gamelift-createvpcpeeringconnection-api
-- description: 'The #X Amz Target=GameLift.DeleteAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletealias.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletealias.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteAlias API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletealias-api
-- description: 'The #X Amz Target=GameLift.DeleteBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletebuild.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletebuild.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteBuild API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletebuild-api
-- description: 'The #X Amz Target=GameLift.DeleteFleet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletefleet.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteFleet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletefleet.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteFleet API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletefleet-api
-- description: 'The #X Amz Target=GameLift.DeleteFleetLocations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletefleetlocations.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteFleetLocations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletefleetlocations.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteFleetLocations API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletefleetlocations-api
-- description: 'The #X Amz Target=GameLift.DeleteGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletegameservergroup.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletegameservergroup.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteGameServerGroup API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletegameservergroup-api
-- description: 'The #X Amz Target=GameLift.DeleteGameSessionQueue API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletegamesessionqueue.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteGameSessionQueue API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletegamesessionqueue.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteGameSessionQueue API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletegamesessionqueue-api
-- description: 'The #X Amz Target=GameLift.DeleteLocation API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletelocation.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteLocation API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletelocation.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteLocation API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletelocation-api
-- description: 'The #X Amz Target=GameLift.DeleteMatchmakingConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletematchmakingconfiguration.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteMatchmakingConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletematchmakingconfiguration.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteMatchmakingConfiguration API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletematchmakingconfiguration-api
-- description: 'The #X Amz Target=GameLift.DeleteMatchmakingRuleSet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletematchmakingruleset.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteMatchmakingRuleSet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletematchmakingruleset.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteMatchmakingRuleSet API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletematchmakingruleset-api
-- description: 'The #X Amz Target=GameLift.DeleteScalingPolicy API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletescalingpolicy.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteScalingPolicy API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletescalingpolicy.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteScalingPolicy API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletescalingpolicy-api
-- description: 'The #X Amz Target=GameLift.DeleteScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletescript.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletescript.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteScript API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletescript-api
-- description: 'The #X Amz Target=GameLift.DeleteVpcPeeringAuthorization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletevpcpeeringauthorization.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteVpcPeeringAuthorization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletevpcpeeringauthorization.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteVpcPeeringAuthorization API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletevpcpeeringauthorization-api
-- description: 'The #X Amz Target=GameLift.DeleteVpcPeeringConnection API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletevpcpeeringconnection.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeleteVpcPeeringConnection API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deletevpcpeeringconnection.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeleteVpcPeeringConnection API'
   slug: amazon-gamelift-x-amz-target-gamelift-deletevpcpeeringconnection-api
-- description: 'The #X Amz Target=GameLift.DeregisterCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deregistercompute.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeregisterCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deregistercompute.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeregisterCompute API'
   slug: amazon-gamelift-x-amz-target-gamelift-deregistercompute-api
-- description: 'The #X Amz Target=GameLift.DeregisterGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deregistergameserver.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DeregisterGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.deregistergameserver.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DeregisterGameServer API'
   slug: amazon-gamelift-x-amz-target-gamelift-deregistergameserver-api
-- description: 'The #X Amz Target=GameLift.DescribeAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describealias.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describealias.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeAlias API'
   slug: amazon-gamelift-x-amz-target-gamelift-describealias-api
-- description: 'The #X Amz Target=GameLift.DescribeBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describebuild.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describebuild.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeBuild API'
   slug: amazon-gamelift-x-amz-target-gamelift-describebuild-api
-- description: 'The #X Amz Target=GameLift.DescribeCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describecompute.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describecompute.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeCompute API'
   slug: amazon-gamelift-x-amz-target-gamelift-describecompute-api
-- description: 'The #X Amz Target=GameLift.DescribeEC2InstanceLimits API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeec2instancelimits.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeEC2InstanceLimits API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeec2instancelimits.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeEC2InstanceLimits API'
   slug: amazon-gamelift-x-amz-target-gamelift-describeec2instancelimits-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetAttributes API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetattributes.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetAttributes API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetattributes.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetAttributes API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetattributes-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetCapacity API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetcapacity.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetCapacity API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetcapacity.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetCapacity API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetcapacity-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetEvents API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetevents.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetEvents API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetevents.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetEvents API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetevents-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetLocationAttributes API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetlocationattributes.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetLocationAttributes API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetlocationattributes.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetLocationAttributes API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetlocationattributes-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetLocationCapacity API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetlocationcapacity.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetLocationCapacity API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetlocationcapacity.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetLocationCapacity API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetlocationcapacity-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetLocationUtilization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetlocationutilization.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetLocationUtilization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetlocationutilization.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetLocationUtilization API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetlocationutilization-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetPortSettings API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetportsettings.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetPortSettings API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetportsettings.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetPortSettings API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetportsettings-api
-- description: 'The #X Amz Target=GameLift.DescribeFleetUtilization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetutilization.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeFleetUtilization API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describefleetutilization.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeFleetUtilization API'
   slug: amazon-gamelift-x-amz-target-gamelift-describefleetutilization-api
-- description: 'The #X Amz Target=GameLift.DescribeGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegameserver.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegameserver.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameServer API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegameserver-api
-- description: 'The #X Amz Target=GameLift.DescribeGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegameservergroup.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegameservergroup.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameServerGroup API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegameservergroup-api
-- description: 'The #X Amz Target=GameLift.DescribeGameServerInstances API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegameserverinstances.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameServerInstances API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegameserverinstances.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameServerInstances API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegameserverinstances-api
-- description: 'The #X Amz Target=GameLift.DescribeGameSessionDetails API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessiondetails.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameSessionDetails API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessiondetails.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameSessionDetails API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegamesessiondetails-api
-- description: 'The #X Amz Target=GameLift.DescribeGameSessionPlacement API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessionplacement.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameSessionPlacement API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessionplacement.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameSessionPlacement API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegamesessionplacement-api
-- description: 'The #X Amz Target=GameLift.DescribeGameSessionQueues API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessionqueues.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameSessionQueues API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessionqueues.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameSessionQueues API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegamesessionqueues-api
-- description: 'The #X Amz Target=GameLift.DescribeGameSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessions.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeGameSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describegamesessions.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeGameSessions API'
   slug: amazon-gamelift-x-amz-target-gamelift-describegamesessions-api
-- description: 'The #X Amz Target=GameLift.DescribeInstances API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeinstances.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeInstances API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeinstances.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeInstances API'
   slug: amazon-gamelift-x-amz-target-gamelift-describeinstances-api
-- description: 'The #X Amz Target=GameLift.DescribeMatchmaking API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describematchmaking.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeMatchmaking API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describematchmaking.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeMatchmaking API'
   slug: amazon-gamelift-x-amz-target-gamelift-describematchmaking-api
-- description: 'The #X Amz Target=GameLift.DescribeMatchmakingConfigurations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describematchmakingconfigurations.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeMatchmakingConfigurations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describematchmakingconfigurations.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeMatchmakingConfigurations API'
   slug: amazon-gamelift-x-amz-target-gamelift-describematchmakingconfigurations-api
-- description: 'The #X Amz Target=GameLift.DescribeMatchmakingRuleSets API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describematchmakingrulesets.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeMatchmakingRuleSets API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describematchmakingrulesets.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeMatchmakingRuleSets API'
   slug: amazon-gamelift-x-amz-target-gamelift-describematchmakingrulesets-api
-- description: 'The #X Amz Target=GameLift.DescribePlayerSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeplayersessions.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribePlayerSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeplayersessions.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribePlayerSessions API'
   slug: amazon-gamelift-x-amz-target-gamelift-describeplayersessions-api
-- description: 'The #X Amz Target=GameLift.DescribeRuntimeConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeruntimeconfiguration.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeRuntimeConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describeruntimeconfiguration.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeRuntimeConfiguration API'
   slug: amazon-gamelift-x-amz-target-gamelift-describeruntimeconfiguration-api
-- description: 'The #X Amz Target=GameLift.DescribeScalingPolicies API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describescalingpolicies.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeScalingPolicies API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describescalingpolicies.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeScalingPolicies API'
   slug: amazon-gamelift-x-amz-target-gamelift-describescalingpolicies-api
-- description: 'The #X Amz Target=GameLift.DescribeScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describescript.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describescript.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeScript API'
   slug: amazon-gamelift-x-amz-target-gamelift-describescript-api
-- description: 'The #X Amz Target=GameLift.DescribeVpcPeeringAuthorizations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describevpcpeeringauthorizations.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeVpcPeeringAuthorizations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describevpcpeeringauthorizations.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeVpcPeeringAuthorizations API'
   slug: amazon-gamelift-x-amz-target-gamelift-describevpcpeeringauthorizations-api
-- description: 'The #X Amz Target=GameLift.DescribeVpcPeeringConnections API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describevpcpeeringconnections.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.DescribeVpcPeeringConnections API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.describevpcpeeringconnections.'
   name: 'Amazon GameLift #X Amz Target=GameLift.DescribeVpcPeeringConnections API'
   slug: amazon-gamelift-x-amz-target-gamelift-describevpcpeeringconnections-api
-- description: 'The #X Amz Target=GameLift.GetComputeAccess API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getcomputeaccess.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.GetComputeAccess API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getcomputeaccess.'
   name: 'Amazon GameLift #X Amz Target=GameLift.GetComputeAccess API'
   slug: amazon-gamelift-x-amz-target-gamelift-getcomputeaccess-api
-- description: 'The #X Amz Target=GameLift.GetComputeAuthToken API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getcomputeauthtoken.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.GetComputeAuthToken API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getcomputeauthtoken.'
   name: 'Amazon GameLift #X Amz Target=GameLift.GetComputeAuthToken API'
   slug: amazon-gamelift-x-amz-target-gamelift-getcomputeauthtoken-api
-- description: 'The #X Amz Target=GameLift.GetGameSessionLogUrl API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getgamesessionlogurl.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.GetGameSessionLogUrl API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getgamesessionlogurl.'
   name: 'Amazon GameLift #X Amz Target=GameLift.GetGameSessionLogUrl API'
   slug: amazon-gamelift-x-amz-target-gamelift-getgamesessionlogurl-api
-- description: 'The #X Amz Target=GameLift.GetInstanceAccess API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getinstanceaccess.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.GetInstanceAccess API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.getinstanceaccess.'
   name: 'Amazon GameLift #X Amz Target=GameLift.GetInstanceAccess API'
   slug: amazon-gamelift-x-amz-target-gamelift-getinstanceaccess-api
-- description: 'The #X Amz Target=GameLift.ListAliases API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listaliases.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListAliases API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listaliases.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListAliases API'
   slug: amazon-gamelift-x-amz-target-gamelift-listaliases-api
-- description: 'The #X Amz Target=GameLift.ListBuilds API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listbuilds.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListBuilds API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listbuilds.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListBuilds API'
   slug: amazon-gamelift-x-amz-target-gamelift-listbuilds-api
-- description: 'The #X Amz Target=GameLift.ListCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listcompute.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listcompute.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListCompute API'
   slug: amazon-gamelift-x-amz-target-gamelift-listcompute-api
-- description: 'The #X Amz Target=GameLift.ListFleets API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listfleets.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListFleets API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listfleets.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListFleets API'
   slug: amazon-gamelift-x-amz-target-gamelift-listfleets-api
-- description: 'The #X Amz Target=GameLift.ListGameServerGroups API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listgameservergroups.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListGameServerGroups API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listgameservergroups.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListGameServerGroups API'
   slug: amazon-gamelift-x-amz-target-gamelift-listgameservergroups-api
-- description: 'The #X Amz Target=GameLift.ListGameServers API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listgameservers.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListGameServers API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listgameservers.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListGameServers API'
   slug: amazon-gamelift-x-amz-target-gamelift-listgameservers-api
-- description: 'The #X Amz Target=GameLift.ListLocations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listlocations.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListLocations API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listlocations.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListLocations API'
   slug: amazon-gamelift-x-amz-target-gamelift-listlocations-api
-- description: 'The #X Amz Target=GameLift.ListScripts API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listscripts.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListScripts API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listscripts.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListScripts API'
   slug: amazon-gamelift-x-amz-target-gamelift-listscripts-api
-- description: 'The #X Amz Target=GameLift.ListTagsForResource API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listtagsforresource.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ListTagsForResource API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.listtagsforresource.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ListTagsForResource API'
   slug: amazon-gamelift-x-amz-target-gamelift-listtagsforresource-api
-- description: 'The #X Amz Target=GameLift.PutScalingPolicy API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.putscalingpolicy.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.PutScalingPolicy API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.putscalingpolicy.'
   name: 'Amazon GameLift #X Amz Target=GameLift.PutScalingPolicy API'
   slug: amazon-gamelift-x-amz-target-gamelift-putscalingpolicy-api
-- description: 'The #X Amz Target=GameLift.RegisterCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.registercompute.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.RegisterCompute API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.registercompute.'
   name: 'Amazon GameLift #X Amz Target=GameLift.RegisterCompute API'
   slug: amazon-gamelift-x-amz-target-gamelift-registercompute-api
-- description: 'The #X Amz Target=GameLift.RegisterGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.registergameserver.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.RegisterGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.registergameserver.'
   name: 'Amazon GameLift #X Amz Target=GameLift.RegisterGameServer API'
   slug: amazon-gamelift-x-amz-target-gamelift-registergameserver-api
-- description: 'The #X Amz Target=GameLift.RequestUploadCredentials API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.requestuploadcredentials.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.RequestUploadCredentials API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.requestuploadcredentials.'
   name: 'Amazon GameLift #X Amz Target=GameLift.RequestUploadCredentials API'
   slug: amazon-gamelift-x-amz-target-gamelift-requestuploadcredentials-api
-- description: 'The #X Amz Target=GameLift.ResolveAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.resolvealias.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ResolveAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.resolvealias.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ResolveAlias API'
   slug: amazon-gamelift-x-amz-target-gamelift-resolvealias-api
-- description: 'The #X Amz Target=GameLift.ResumeGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.resumegameservergroup.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ResumeGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.resumegameservergroup.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ResumeGameServerGroup API'
   slug: amazon-gamelift-x-amz-target-gamelift-resumegameservergroup-api
-- description: 'The #X Amz Target=GameLift.SearchGameSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.searchgamesessions.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.SearchGameSessions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.searchgamesessions.'
   name: 'Amazon GameLift #X Amz Target=GameLift.SearchGameSessions API'
   slug: amazon-gamelift-x-amz-target-gamelift-searchgamesessions-api
-- description: 'The #X Amz Target=GameLift.StartFleetActions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startfleetactions.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StartFleetActions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startfleetactions.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StartFleetActions API'
   slug: amazon-gamelift-x-amz-target-gamelift-startfleetactions-api
-- description: 'The #X Amz Target=GameLift.StartGameSessionPlacement API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startgamesessionplacement.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StartGameSessionPlacement API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startgamesessionplacement.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StartGameSessionPlacement API'
   slug: amazon-gamelift-x-amz-target-gamelift-startgamesessionplacement-api
-- description: 'The #X Amz Target=GameLift.StartMatchBackfill API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startmatchbackfill.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StartMatchBackfill API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startmatchbackfill.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StartMatchBackfill API'
   slug: amazon-gamelift-x-amz-target-gamelift-startmatchbackfill-api
-- description: 'The #X Amz Target=GameLift.StartMatchmaking API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startmatchmaking.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StartMatchmaking API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.startmatchmaking.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StartMatchmaking API'
   slug: amazon-gamelift-x-amz-target-gamelift-startmatchmaking-api
-- description: 'The #X Amz Target=GameLift.StopFleetActions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.stopfleetactions.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StopFleetActions API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.stopfleetactions.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StopFleetActions API'
   slug: amazon-gamelift-x-amz-target-gamelift-stopfleetactions-api
-- description: 'The #X Amz Target=GameLift.StopGameSessionPlacement API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.stopgamesessionplacement.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StopGameSessionPlacement API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.stopgamesessionplacement.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StopGameSessionPlacement API'
   slug: amazon-gamelift-x-amz-target-gamelift-stopgamesessionplacement-api
-- description: 'The #X Amz Target=GameLift.StopMatchmaking API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.stopmatchmaking.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.StopMatchmaking API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.stopmatchmaking.'
   name: 'Amazon GameLift #X Amz Target=GameLift.StopMatchmaking API'
   slug: amazon-gamelift-x-amz-target-gamelift-stopmatchmaking-api
-- description: 'The #X Amz Target=GameLift.SuspendGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.suspendgameservergroup.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.SuspendGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.suspendgameservergroup.'
   name: 'Amazon GameLift #X Amz Target=GameLift.SuspendGameServerGroup API'
   slug: amazon-gamelift-x-amz-target-gamelift-suspendgameservergroup-api
-- description: 'The #X Amz Target=GameLift.TagResource API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.tagresource.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.TagResource API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.tagresource.'
   name: 'Amazon GameLift #X Amz Target=GameLift.TagResource API'
   slug: amazon-gamelift-x-amz-target-gamelift-tagresource-api
-- description: 'The #X Amz Target=GameLift.UntagResource API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.untagresource.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UntagResource API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.untagresource.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UntagResource API'
   slug: amazon-gamelift-x-amz-target-gamelift-untagresource-api
-- description: 'The #X Amz Target=GameLift.UpdateAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatealias.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateAlias API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatealias.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateAlias API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatealias-api
-- description: 'The #X Amz Target=GameLift.UpdateBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatebuild.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateBuild API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatebuild.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateBuild API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatebuild-api
-- description: 'The #X Amz Target=GameLift.UpdateFleetAttributes API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatefleetattributes.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateFleetAttributes API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatefleetattributes.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateFleetAttributes API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatefleetattributes-api
-- description: 'The #X Amz Target=GameLift.UpdateFleetCapacity API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatefleetcapacity.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateFleetCapacity API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatefleetcapacity.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateFleetCapacity API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatefleetcapacity-api
-- description: 'The #X Amz Target=GameLift.UpdateFleetPortSettings API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatefleetportsettings.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateFleetPortSettings API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatefleetportsettings.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateFleetPortSettings API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatefleetportsettings-api
-- description: 'The #X Amz Target=GameLift.UpdateGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategameserver.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateGameServer API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategameserver.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateGameServer API'
   slug: amazon-gamelift-x-amz-target-gamelift-updategameserver-api
-- description: 'The #X Amz Target=GameLift.UpdateGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategameservergroup.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateGameServerGroup API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategameservergroup.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateGameServerGroup API'
   slug: amazon-gamelift-x-amz-target-gamelift-updategameservergroup-api
-- description: 'The #X Amz Target=GameLift.UpdateGameSession API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategamesession.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateGameSession API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategamesession.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateGameSession API'
   slug: amazon-gamelift-x-amz-target-gamelift-updategamesession-api
-- description: 'The #X Amz Target=GameLift.UpdateGameSessionQueue API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategamesessionqueue.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateGameSessionQueue API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updategamesessionqueue.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateGameSessionQueue API'
   slug: amazon-gamelift-x-amz-target-gamelift-updategamesessionqueue-api
-- description: 'The #X Amz Target=GameLift.UpdateMatchmakingConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatematchmakingconfiguration.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateMatchmakingConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatematchmakingconfiguration.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateMatchmakingConfiguration API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatematchmakingconfiguration-api
-- description: 'The #X Amz Target=GameLift.UpdateRuntimeConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updateruntimeconfiguration.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateRuntimeConfiguration API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updateruntimeconfiguration.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateRuntimeConfiguration API'
   slug: amazon-gamelift-x-amz-target-gamelift-updateruntimeconfiguration-api
-- description: 'The #X Amz Target=GameLift.UpdateScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatescript.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.UpdateScript API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.updatescript.'
   name: 'Amazon GameLift #X Amz Target=GameLift.UpdateScript API'
   slug: amazon-gamelift-x-amz-target-gamelift-updatescript-api
-- description: 'The #X Amz Target=GameLift.ValidateMatchmakingRuleSet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.validatematchmakingruleset.'
+- baseURL: https://gamelift.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GameLift.ValidateMatchmakingRuleSet API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.validatematchmakingruleset.'
   name: 'Amazon GameLift #X Amz Target=GameLift.ValidateMatchmakingRuleSet API'
   slug: amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api
 arazzos:
@@ -4887,7 +5095,7 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/screenshots/amazon-gamelift-2026-07-25T200008.png
 security:

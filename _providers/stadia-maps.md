@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Attributes API from Stadia Maps — 1 operation(s) for attributes.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Attributes API from Stadia Maps — 1 operation(s) for attributes.
   name: Stadia Maps Attributes API
   slug: stadia-maps-attributes-api
-- description: The Autocomplete API from Stadia Maps — 1 operation(s) for autocomplete.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Autocomplete API from Stadia Maps — 1 operation(s) for autocomplete.
   name: Stadia Maps Autocomplete API
   slug: stadia-maps-autocomplete-api
-- description: The Geospatial API from Stadia Maps — 1 operation(s) for geospatial.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Geospatial API from Stadia Maps — 1 operation(s) for geospatial.
   name: Stadia Maps Geospatial API
   slug: stadia-maps-geospatial-api
-- description: The Lookups API from Stadia Maps — 1 operation(s) for lookups.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Lookups API from Stadia Maps — 1 operation(s) for lookups.
   name: Stadia Maps Lookups API
   slug: stadia-maps-lookups-api
-- description: The Match API from Stadia Maps — 1 operation(s) for match.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Match API from Stadia Maps — 1 operation(s) for match.
   name: Stadia Maps Match API
   slug: stadia-maps-match-api
-- description: The Place API from Stadia Maps — 1 operation(s) for place.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Place API from Stadia Maps — 1 operation(s) for place.
   name: Stadia Maps Place API
   slug: stadia-maps-place-api
-- description: The Reverse API from Stadia Maps — 1 operation(s) for reverse.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Reverse API from Stadia Maps — 1 operation(s) for reverse.
   name: Stadia Maps Reverse API
   slug: stadia-maps-reverse-api
-- description: The Roads API from Stadia Maps — 1 operation(s) for roads.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Roads API from Stadia Maps — 1 operation(s) for roads.
   name: Stadia Maps Roads API
   slug: stadia-maps-roads-api
-- description: The Routes API from Stadia Maps — 1 operation(s) for routes.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Routes API from Stadia Maps — 1 operation(s) for routes.
   name: Stadia Maps Routes API
   slug: stadia-maps-routes-api
-- description: The Routing API from Stadia Maps — 3 operation(s) for routing.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Routing API from Stadia Maps — 3 operation(s) for routing.
   name: Stadia Maps Routing API
   slug: stadia-maps-routing-api
-- description: The Search API from Stadia Maps — 3 operation(s) for search.
+- baseURL: https://api.stadiamaps.com
+  baseurl_source: declared
+  description: The Search API from Stadia Maps — 3 operation(s) for search.
   name: Stadia Maps Search API
   slug: stadia-maps-search-api
 artifact_total: 48
@@ -307,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/screenshots/stadia-maps-2026-06-20T194456.png
 security:

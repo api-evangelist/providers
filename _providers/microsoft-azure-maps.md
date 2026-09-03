@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,10 +71,14 @@ apis:
 - description: Indoor maps service for creating, managing, and rendering custom indoor maps. Supports drawing package conversion, dataset and tileset management, feature state, and wayfinding for indoor environments
   name: Azure Maps Creator API
   slug: azure-maps-creator-api
-- description: The Geocoding API from Azure Maps — 2 operation(s) for geocoding.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: declared
+  description: The Geocoding API from Azure Maps — 2 operation(s) for geocoding.
   name: Azure Maps Geocoding API
   slug: microsoft-azure-maps-geocoding-api
-- description: The Search API from Azure Maps — 2 operation(s) for search.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: declared
+  description: The Search API from Azure Maps — 2 operation(s) for search.
   name: Azure Maps Search API
   slug: microsoft-azure-maps-search-api
 artifact_total: 22
@@ -233,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/screenshots/microsoft-azure-maps-2026-06-20T185424.png
 security:

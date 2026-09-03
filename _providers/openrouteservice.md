@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -65,31 +65,49 @@ apis:
 - description: Snaps arbitrary coordinates to the nearest road network nodes, supporting up to 5,000 locations per request, useful for map matching and correcting GPS coordinates to the road network.
   name: OpenRouteService Snapping API
   slug: snapping
-- description: Get routing directions for different modes of transport
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Get routing directions for different modes of transport
   name: OpenRouteService Directions API
   slug: openrouteservice-directions-api
-- description: Return elevation data for point or line geometries
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Return elevation data for point or line geometries
   name: OpenRouteService Elevation API
   slug: openrouteservice-elevation-api
-- description: Resolve addresses to coordinates and vice versa using Pelias engine
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Resolve addresses to coordinates and vice versa using Pelias engine
   name: OpenRouteService Geocoding API
   slug: openrouteservice-geocoding-api
-- description: Service health and status endpoints
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Service health and status endpoints
   name: OpenRouteService Health API
   slug: openrouteservice-health-api
-- description: Obtain areas of reachability from given locations
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Obtain areas of reachability from given locations
   name: OpenRouteService Isochrones API
   slug: openrouteservice-isochrones-api
-- description: Obtain one-to-many, many-to-one and many-to-many matrices for time and distance
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Obtain one-to-many, many-to-one and many-to-many matrices for time and distance
   name: OpenRouteService Matrix API
   slug: openrouteservice-matrix-api
-- description: Solve vehicle routing problems using the VROOM engine
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Solve vehicle routing problems using the VROOM engine
   name: OpenRouteService Optimization API
   slug: openrouteservice-optimization-api
-- description: Return points of interest using OpenStreetMap data
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Return points of interest using OpenStreetMap data
   name: OpenRouteService POI API
   slug: openrouteservice-poi-api
-- description: Snap coordinates to the nearest road network nodes
+- baseURL: https://api.openrouteservice.org
+  baseurl_source: declared
+  description: Snap coordinates to the nearest road network nodes
   name: OpenRouteService Snapping API
   slug: openrouteservice-snapping-api
 artifact_total: 43
@@ -324,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/screenshots/openrouteservice-2026-06-20T191029.png
 security:

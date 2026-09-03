@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Manage and control Nest devices
+- baseURL: https://smartdevicemanagement.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage and control Nest devices
   name: Google Nest Smart Device Management Devices API
   slug: google-nest-devices-api
-- description: Manage rooms within structures
+- baseURL: https://smartdevicemanagement.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage rooms within structures
   name: Google Nest Smart Device Management Rooms API
   slug: google-nest-rooms-api
-- description: Manage structures (homes)
+- baseURL: https://smartdevicemanagement.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage structures (homes)
   name: Google Nest Smart Device Management Structures API
   slug: google-nest-structures-api
 artifact_total: 22
@@ -233,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/screenshots/google-nest-2026-06-20T182217.png
 security:

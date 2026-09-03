@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The batch/rooms API from Daily — 1 operation(s) for batch/rooms.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The batch/rooms API from Daily — 1 operation(s) for batch/rooms.
   name: Daily batch/rooms API
   slug: daily-batch-rooms-api
-- description: The dialin API from Daily — 1 operation(s) for dialin.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The dialin API from Daily — 1 operation(s) for dialin.
   name: Daily dialin API
   slug: daily-dialin-api
-- description: The domain API from Daily — 1 operation(s) for domain.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The domain API from Daily — 1 operation(s) for domain.
   name: Daily domain API
   slug: daily-domain-api
-- description: The domain-dialin-config API from Daily — 2 operation(s) for domain-dialin-config.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The domain-dialin-config API from Daily — 2 operation(s) for domain-dialin-config.
   name: Daily domain-dialin-config API
   slug: daily-domain-dialin-config-api
-- description: The logs API from Daily — 2 operation(s) for logs.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The logs API from Daily — 2 operation(s) for logs.
   name: Daily logs API
   slug: daily-logs-api
-- description: The meeting-tokens API from Daily — 2 operation(s) for meeting-tokens.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The meeting-tokens API from Daily — 2 operation(s) for meeting-tokens.
   name: Daily meeting-tokens API
   slug: daily-meeting-tokens-api
-- description: The meetings API from Daily — 3 operation(s) for meetings.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The meetings API from Daily — 3 operation(s) for meetings.
   name: Daily meetings API
   slug: daily-meetings-api
-- description: The phone-numbers API from Daily — 4 operation(s) for phone-numbers.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The phone-numbers API from Daily — 4 operation(s) for phone-numbers.
   name: Daily phone-numbers API
   slug: daily-phone-numbers-api
-- description: The presence API from Daily — 1 operation(s) for presence.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The presence API from Daily — 1 operation(s) for presence.
   name: Daily presence API
   slug: daily-presence-api
-- description: The recordings API from Daily — 3 operation(s) for recordings.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The recordings API from Daily — 3 operation(s) for recordings.
   name: Daily recordings API
   slug: daily-recordings-api
-- description: The rooms API from Daily — 22 operation(s) for rooms.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The rooms API from Daily — 22 operation(s) for rooms.
   name: Daily rooms API
   slug: daily-rooms-api
-- description: The transcript API from Daily — 3 operation(s) for transcript.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The transcript API from Daily — 3 operation(s) for transcript.
   name: Daily transcript API
   slug: daily-transcript-api
-- description: The webhooks API from Daily — 2 operation(s) for webhooks.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The webhooks API from Daily — 2 operation(s) for webhooks.
   name: Daily webhooks API
   slug: daily-webhooks-api
 artifact_total: 31
@@ -280,7 +306,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -290,7 +316,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 54.6
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -301,7 +327,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily/refs/heads/main/screenshots/daily-2026-07-25T211132.png
 security:

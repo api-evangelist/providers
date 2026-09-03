@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Payroll deductions track the costs of plan premiums to employees.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Payroll deductions track the costs of plan premiums to employees.
   name: Thatch Health Deductions API
   slug: thatch-health-deductions-api
-- description: Employees work for employers, both of which are managed by partners. Employees enrolled in plans are also represented in Thatch as member objects.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Employees work for employers, both of which are managed by partners. Employees enrolled in plans are also represented in Thatch as member objects.
   name: Thatch Health Employees API
   slug: thatch-health-employees-api
-- description: Employers onboard into a platform through employer onboarding sessions. After creating a session, provide the `claim_url` to the onboarding iframe in your app.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Employers onboard into a platform through employer onboarding sessions. After creating a session, provide the `claim_url` to the onboarding iframe in your app.
   name: Thatch Health Employer onboarding sessions API
   slug: thatch-health-employer-onboarding-sessions-api
-- description: Platforms onboard employers into Thatch, and have employees enrolled in plans.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Platforms onboard employers into Thatch, and have employees enrolled in plans.
   name: Thatch Health Employers API
   slug: thatch-health-employers-api
-- description: Enrollments use member objects to track employee coverage status.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Enrollments use member objects to track employee coverage status.
   name: Thatch Health Enrollments API
   slug: thatch-health-enrollments-api
-- description: Members represent employees enrolled in plans. Thatch creates member objects automatically, but you can retrieve them (for example, to aid in supporting an enrolled employee.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Members represent employees enrolled in plans. Thatch creates member objects automatically, but you can retrieve them (for example, to aid in supporting an enrolled employee.
   name: Thatch Health Members API
   slug: thatch-health-members-api
-- description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Health Pay Schedules API
   slug: thatch-health-pay-schedules-api
 artifact_total: 19
@@ -260,7 +274,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/screenshots/thatch-health-2026-08-17T082333.png
 security:

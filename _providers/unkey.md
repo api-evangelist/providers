@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 4
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 42 operations · 41 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: Analytics query operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: Analytics query operations
   name: Unkey analytics API
   slug: unkey-analytics-api
-- description: API management operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: API management operations
   name: Unkey apis API
   slug: unkey-apis-api
-- description: Deployment operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: Deployment operations
   name: Unkey deploy API
   slug: unkey-deploy-api
-- description: Identity management operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: Identity management operations
   name: Unkey identities API
   slug: unkey-identities-api
-- description: API key management operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: API key management operations
   name: Unkey keys API
   slug: unkey-keys-api
-- description: Health check operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: Health check operations
   name: Unkey liveness API
   slug: unkey-liveness-api
-- description: Permission and role management operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: Permission and role management operations
   name: Unkey permissions API
   slug: unkey-permissions-api
-- description: Rate limiting operations
+- baseURL: https://api.unkey.com
+  baseurl_source: declared
+  description: Rate limiting operations
   name: Unkey ratelimit API
   slug: unkey-ratelimit-api
 artifact_total: 223
@@ -811,7 +827,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/screenshots/unkey-2026-06-20T200401.png
 security:

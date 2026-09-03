@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -50,103 +50,169 @@ apis:
 - description: Enterprise add-on (formerly Mandiant Advantage DTM). Monitors the open, deep, and dark web for credential leaks, brand abuse, and adversary chatter referencing the customer.
   name: Google Threat Intelligence - Digital Threat Monitoring (DTM)
   slug: google-threat-intelligence-digital-threat-monitoring-dtm
-- description: Access Control - Group Management
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Access Control - Group Management
   name: VirusTotal Access Control - Group Management API
   slug: virustotal-access-control-group-management-api
-- description: Access Control - Quota Management
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Access Control - Quota Management
   name: VirusTotal Access Control - Quota Management API
   slug: virustotal-access-control-quota-management-api
-- description: Access Control - Service Account Management
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Access Control - Service Account Management
   name: VirusTotal Access Control - Service Account Management API
   slug: virustotal-access-control-service-account-management-api
-- description: Access Control - User Management
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Access Control - User Management
   name: VirusTotal Access Control - User Management API
   slug: virustotal-access-control-user-management-api
-- description: IoC Feeds - Domain intelligence feed
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Feeds - Domain intelligence feed
   name: VirusTotal IoC Feeds - Domain intelligence feed API
   slug: virustotal-ioc-feeds-domain-intelligence-feed-api
-- description: IoC Feeds - File intelligence feed
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Feeds - File intelligence feed
   name: VirusTotal IoC Feeds - File intelligence feed API
   slug: virustotal-ioc-feeds-file-intelligence-feed-api
-- description: IoC Feeds - IP intelligence feed
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Feeds - IP intelligence feed
   name: VirusTotal IoC Feeds - IP intelligence feed API
   slug: virustotal-ioc-feeds-ip-intelligence-feed-api
-- description: IoC Feeds - Sandbox analyses feed
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Feeds - Sandbox analyses feed
   name: VirusTotal IoC Feeds - Sandbox analyses feed API
   slug: virustotal-ioc-feeds-sandbox-analyses-feed-api
-- description: IoC Feeds - URL intelligence feed
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Feeds - URL intelligence feed
   name: VirusTotal IoC Feeds - URL intelligence feed API
   slug: virustotal-ioc-feeds-url-intelligence-feed-api
-- description: IoC Investigation - Analyses, Submissions & Operations
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Analyses, Submissions & Operations
   name: VirusTotal IoC Investigation - Analyses, Submissions & Operations API
   slug: virustotal-ioc-investigation-analyses-submissions-operations-api
-- description: IoC Investigation - Attack Tactics
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Attack Tactics
   name: VirusTotal IoC Investigation - Attack Tactics API
   slug: virustotal-ioc-investigation-attack-tactics-api
-- description: IoC Investigation - Attack Techniques
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Attack Techniques
   name: VirusTotal IoC Investigation - Attack Techniques API
   slug: virustotal-ioc-investigation-attack-techniques-api
-- description: IoC Investigation - Comments
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Comments
   name: VirusTotal IoC Investigation - Comments API
   slug: virustotal-ioc-investigation-comments-api
-- description: IoC Investigation - Domains & Resolutions
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Domains & Resolutions
   name: VirusTotal IoC Investigation - Domains & Resolutions API
   slug: virustotal-ioc-investigation-domains-resolutions-api
-- description: IoC Investigation - Files
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Files
   name: VirusTotal IoC Investigation - Files API
   slug: virustotal-ioc-investigation-files-api
-- description: IoC Investigation - Files Behaviours
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Files Behaviours
   name: VirusTotal IoC Investigation - Files Behaviours API
   slug: virustotal-ioc-investigation-files-behaviours-api
-- description: IoC Investigation - IP addresses
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - IP addresses
   name: VirusTotal IoC Investigation - IP addresses API
   slug: virustotal-ioc-investigation-ip-addresses-api
-- description: IoC Investigation - Popular Threat Categories
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Popular Threat Categories
   name: VirusTotal IoC Investigation - Popular Threat Categories API
   slug: virustotal-ioc-investigation-popular-threat-categories-api
-- description: IoC Investigation - Search & Metadata
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Search & Metadata
   name: VirusTotal IoC Investigation - Search & Metadata API
   slug: virustotal-ioc-investigation-search-metadata-api
-- description: IoC Investigation - URLs
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - URLs
   name: VirusTotal IoC Investigation - URLs API
   slug: virustotal-ioc-investigation-urls-api
-- description: IoC Investigation - Zipping files
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: IoC Investigation - Zipping files
   name: VirusTotal IoC Investigation - Zipping files API
   slug: virustotal-ioc-investigation-zipping-files-api
-- description: Private Scanning - Analyses
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Private Scanning - Analyses
   name: VirusTotal Private Scanning - Analyses API
   slug: virustotal-private-scanning-analyses-api
-- description: Private Scanning - Files
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Private Scanning - Files
   name: VirusTotal Private Scanning - Files API
   slug: virustotal-private-scanning-files-api
-- description: Private Scanning - Files Behaviours
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Private Scanning - Files Behaviours
   name: VirusTotal Private Scanning - Files Behaviours API
   slug: virustotal-private-scanning-files-behaviours-api
-- description: Private Scanning - URLs
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Private Scanning - URLs
   name: VirusTotal Private Scanning - URLs API
   slug: virustotal-private-scanning-urls-api
-- description: Private Scanning - Zipping files
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Private Scanning - Zipping files
   name: VirusTotal Private Scanning - Zipping files API
   slug: virustotal-private-scanning-zipping-files-api
-- description: Threat Graphs
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Threat Graphs
   name: VirusTotal Threat Graphs API
   slug: virustotal-threat-graphs-api
-- description: Threat Graphs Permissions & ACL
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Threat Graphs Permissions & ACL
   name: VirusTotal Threat Graphs Permissions & ACL API
   slug: virustotal-threat-graphs-permissions-acl-api
-- description: Threat Landscape & Vulnerability Intelligence & Reports & Analysis
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: Threat Landscape & Vulnerability Intelligence & Reports & Analysis
   name: VirusTotal Threat Landscape & Vulnerability Intelligence & Reports & Analysis API
   slug: virustotal-threat-landscape-vulnerability-intelligence-reports-analysis-api
-- description: YARA Hunting - IoC Stream
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: YARA Hunting - IoC Stream
   name: VirusTotal YARA Hunting - IoC Stream API
   slug: virustotal-yara-hunting-ioc-stream-api
-- description: YARA Hunting - Livehunt
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: YARA Hunting - Livehunt
   name: VirusTotal YARA Hunting - Livehunt API
   slug: virustotal-yara-hunting-livehunt-api
-- description: YARA Hunting - Retrohunt
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: YARA Hunting - Retrohunt
   name: VirusTotal YARA Hunting - Retrohunt API
   slug: virustotal-yara-hunting-retrohunt-api
-- description: YARA Hunting - Rules
+- baseURL: https://www.virustotal.com/api/v3
+  baseurl_source: declared
+  description: YARA Hunting - Rules
   name: VirusTotal YARA Hunting - Rules API
   slug: virustotal-yara-hunting-rules-api
 artifact_total: 142
@@ -679,7 +745,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/screenshots/virustotal-2026-06-20T201042.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Usage and quota information.
+- baseURL: https://api.metals.dev/v1
+  baseurl_source: declared
+  description: Usage and quota information.
   name: Metals.Dev Account API
   slug: metals-dev-account-api
-- description: Authority pricing from LBMA, LME, MCX, and IBJA.
+- baseURL: https://api.metals.dev/v1
+  baseurl_source: declared
+  description: Authority pricing from LBMA, LME, MCX, and IBJA.
   name: Metals.Dev Authority API
   slug: metals-dev-authority-api
-- description: Currency rates and conversions.
+- baseURL: https://api.metals.dev/v1
+  baseurl_source: declared
+  description: Currency rates and conversions.
   name: Metals.Dev Currency API
   slug: metals-dev-currency-api
-- description: Latest and historical metal and currency rates.
+- baseURL: https://api.metals.dev/v1
+  baseurl_source: declared
+  description: Latest and historical metal and currency rates.
   name: Metals.Dev Rates API
   slug: metals-dev-rates-api
-- description: Spot pricing for individual metals.
+- baseURL: https://api.metals.dev/v1
+  baseurl_source: declared
+  description: Spot pricing for individual metals.
   name: Metals.Dev Spot Prices API
   slug: metals-dev-spot-prices-api
 artifact_total: 18
@@ -167,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/screenshots/metals-dev-2026-06-20T185246.png
 security:

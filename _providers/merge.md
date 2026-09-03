@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -47,355 +47,589 @@ apis:
 - description: 'Merge is the connective infrastructure for production AI. Three product lines: Merge Unified (one API for HRIS, ATS, Accounting, CRM, Ticketing, File Storage, Knowledge Base, Chat), Merge Agent Handle'
   name: Merge
   slug: merge
-- description: The Default API from Merge — 4 operation(s) for default.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The Default API from Merge — 4 operation(s) for default.
   name: Merge Default API
   slug: merge-default-api
-- description: The subpackage_accessKeys API from Merge — 4 operation(s) for subpackage_accesskeys.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_accessKeys API from Merge — 4 operation(s) for subpackage_accesskeys.
   name: Merge subpackage_accessKeys API
   slug: merge-subpackage-accesskeys-api
-- description: The subpackage_accountDetails API from Merge — 8 operation(s) for subpackage_accountdetails.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_accountDetails API from Merge — 8 operation(s) for subpackage_accountdetails.
   name: Merge subpackage_accountDetails API
   slug: merge-subpackage-accountdetails-api
-- description: The subpackage_accountingPeriods API from Merge — 2 operation(s) for subpackage_accountingperiods.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_accountingPeriods API from Merge — 2 operation(s) for subpackage_accountingperiods.
   name: Merge subpackage_accountingPeriods API
   slug: merge-subpackage-accountingperiods-api
-- description: The subpackage_accounts API from Merge — 10 operation(s) for subpackage_accounts.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_accounts API from Merge — 10 operation(s) for subpackage_accounts.
   name: Merge subpackage_accounts API
   slug: merge-subpackage-accounts-api
-- description: The subpackage_accountToken API from Merge — 16 operation(s) for subpackage_accounttoken.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_accountToken API from Merge — 16 operation(s) for subpackage_accounttoken.
   name: Merge subpackage_accountToken API
   slug: merge-subpackage-accounttoken-api
-- description: The subpackage_activities API from Merge — 3 operation(s) for subpackage_activities.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_activities API from Merge — 3 operation(s) for subpackage_activities.
   name: Merge subpackage_activities API
   slug: merge-subpackage-activities-api
-- description: The subpackage_addresses API from Merge — 1 operation(s) for subpackage_addresses.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_addresses API from Merge — 1 operation(s) for subpackage_addresses.
   name: Merge subpackage_addresses API
   slug: merge-subpackage-addresses-api
-- description: The subpackage_applicationCredentials API from Merge — 2 operation(s) for subpackage_applicationcredentials.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_applicationCredentials API from Merge — 2 operation(s) for subpackage_applicationcredentials.
   name: Merge subpackage_applicationCredentials API
   slug: merge-subpackage-applicationcredentials-api
-- description: The subpackage_applications API from Merge — 4 operation(s) for subpackage_applications.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_applications API from Merge — 4 operation(s) for subpackage_applications.
   name: Merge subpackage_applications API
   slug: merge-subpackage-applications-api
-- description: The subpackage_articles API from Merge — 2 operation(s) for subpackage_articles.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_articles API from Merge — 2 operation(s) for subpackage_articles.
   name: Merge subpackage_articles API
   slug: merge-subpackage-articles-api
-- description: The subpackage_associations API from Merge — 2 operation(s) for subpackage_associations.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_associations API from Merge — 2 operation(s) for subpackage_associations.
   name: Merge subpackage_associations API
   slug: merge-subpackage-associations-api
-- description: The subpackage_associationTypes API from Merge — 3 operation(s) for subpackage_associationtypes.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_associationTypes API from Merge — 3 operation(s) for subpackage_associationtypes.
   name: Merge subpackage_associationTypes API
   slug: merge-subpackage-associationtypes-api
-- description: The subpackage_asyncPassthrough API from Merge — 16 operation(s) for subpackage_asyncpassthrough.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_asyncPassthrough API from Merge — 16 operation(s) for subpackage_asyncpassthrough.
   name: Merge subpackage_asyncPassthrough API
   slug: merge-subpackage-asyncpassthrough-api
-- description: The subpackage_asyncTasks API from Merge — 1 operation(s) for subpackage_asynctasks.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_asyncTasks API from Merge — 1 operation(s) for subpackage_asynctasks.
   name: Merge subpackage_asyncTasks API
   slug: merge-subpackage-asynctasks-api
-- description: The subpackage_attachments API from Merge — 12 operation(s) for subpackage_attachments.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_attachments API from Merge — 12 operation(s) for subpackage_attachments.
   name: Merge subpackage_attachments API
   slug: merge-subpackage-attachments-api
-- description: The subpackage_auditLog API from Merge — 1 operation(s) for subpackage_auditlog.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_auditLog API from Merge — 1 operation(s) for subpackage_auditlog.
   name: Merge subpackage_auditLog API
   slug: merge-subpackage-auditlog-api
-- description: The subpackage_auditTrail API from Merge — 8 operation(s) for subpackage_audittrail.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_auditTrail API from Merge — 8 operation(s) for subpackage_audittrail.
   name: Merge subpackage_auditTrail API
   slug: merge-subpackage-audittrail-api
-- description: The subpackage_availableActions API from Merge — 1 operation(s) for subpackage_availableactions.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_availableActions API from Merge — 1 operation(s) for subpackage_availableactions.
   name: Merge subpackage_availableActions API
   slug: merge-subpackage-availableactions-api
-- description: The subpackage_balanceSheets API from Merge — 2 operation(s) for subpackage_balancesheets.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_balanceSheets API from Merge — 2 operation(s) for subpackage_balancesheets.
   name: Merge subpackage_balanceSheets API
   slug: merge-subpackage-balancesheets-api
-- description: The subpackage_bankFeedAccounts API from Merge — 3 operation(s) for subpackage_bankfeedaccounts.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_bankFeedAccounts API from Merge — 3 operation(s) for subpackage_bankfeedaccounts.
   name: Merge subpackage_bankFeedAccounts API
   slug: merge-subpackage-bankfeedaccounts-api
-- description: The subpackage_bankFeedTransactions API from Merge — 3 operation(s) for subpackage_bankfeedtransactions.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_bankFeedTransactions API from Merge — 3 operation(s) for subpackage_bankfeedtransactions.
   name: Merge subpackage_bankFeedTransactions API
   slug: merge-subpackage-bankfeedtransactions-api
-- description: The subpackage_bankInfo API from Merge — 2 operation(s) for subpackage_bankinfo.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_bankInfo API from Merge — 2 operation(s) for subpackage_bankinfo.
   name: Merge subpackage_bankInfo API
   slug: merge-subpackage-bankinfo-api
-- description: The subpackage_benefits API from Merge — 2 operation(s) for subpackage_benefits.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_benefits API from Merge — 2 operation(s) for subpackage_benefits.
   name: Merge subpackage_benefits API
   slug: merge-subpackage-benefits-api
-- description: The subpackage_candidates API from Merge — 5 operation(s) for subpackage_candidates.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_candidates API from Merge — 5 operation(s) for subpackage_candidates.
   name: Merge subpackage_candidates API
   slug: merge-subpackage-candidates-api
-- description: The subpackage_cashFlowStatements API from Merge — 2 operation(s) for subpackage_cashflowstatements.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_cashFlowStatements API from Merge — 2 operation(s) for subpackage_cashflowstatements.
   name: Merge subpackage_cashFlowStatements API
   slug: merge-subpackage-cashflowstatements-api
-- description: The subpackage_collections API from Merge — 3 operation(s) for subpackage_collections.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_collections API from Merge — 3 operation(s) for subpackage_collections.
   name: Merge subpackage_collections API
   slug: merge-subpackage-collections-api
-- description: The subpackage_comments API from Merge — 3 operation(s) for subpackage_comments.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_comments API from Merge — 3 operation(s) for subpackage_comments.
   name: Merge subpackage_comments API
   slug: merge-subpackage-comments-api
-- description: The subpackage_companies API from Merge — 2 operation(s) for subpackage_companies.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_companies API from Merge — 2 operation(s) for subpackage_companies.
   name: Merge subpackage_companies API
   slug: merge-subpackage-companies-api
-- description: The subpackage_companyInfo API from Merge — 2 operation(s) for subpackage_companyinfo.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_companyInfo API from Merge — 2 operation(s) for subpackage_companyinfo.
   name: Merge subpackage_companyInfo API
   slug: merge-subpackage-companyinfo-api
-- description: The subpackage_connectors API from Merge — 2 operation(s) for subpackage_connectors.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_connectors API from Merge — 2 operation(s) for subpackage_connectors.
   name: Merge subpackage_connectors API
   slug: merge-subpackage-connectors-api
-- description: The subpackage_contacts API from Merge — 14 operation(s) for subpackage_contacts.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_contacts API from Merge — 14 operation(s) for subpackage_contacts.
   name: Merge subpackage_contacts API
   slug: merge-subpackage-contacts-api
-- description: The subpackage_containers API from Merge — 2 operation(s) for subpackage_containers.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_containers API from Merge — 2 operation(s) for subpackage_containers.
   name: Merge subpackage_containers API
   slug: merge-subpackage-containers-api
-- description: The subpackage_conversations API from Merge — 3 operation(s) for subpackage_conversations.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_conversations API from Merge — 3 operation(s) for subpackage_conversations.
   name: Merge subpackage_conversations API
   slug: merge-subpackage-conversations-api
-- description: The subpackage_credentials API from Merge — 1 operation(s) for subpackage_credentials.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_credentials API from Merge — 1 operation(s) for subpackage_credentials.
   name: Merge subpackage_credentials API
   slug: merge-subpackage-credentials-api
-- description: The subpackage_creditNotes API from Merge — 5 operation(s) for subpackage_creditnotes.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_creditNotes API from Merge — 5 operation(s) for subpackage_creditnotes.
   name: Merge subpackage_creditNotes API
   slug: merge-subpackage-creditnotes-api
-- description: The subpackage_customObjectClasses API from Merge — 2 operation(s) for subpackage_customobjectclasses.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_customObjectClasses API from Merge — 2 operation(s) for subpackage_customobjectclasses.
   name: Merge subpackage_customObjectClasses API
   slug: merge-subpackage-customobjectclasses-api
-- description: The subpackage_customObjects API from Merge — 4 operation(s) for subpackage_customobjects.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_customObjects API from Merge — 4 operation(s) for subpackage_customobjects.
   name: Merge subpackage_customObjects API
   slug: merge-subpackage-customobjects-api
-- description: The subpackage_customRegexRules API from Merge — 4 operation(s) for subpackage_customregexrules.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_customRegexRules API from Merge — 4 operation(s) for subpackage_customregexrules.
   name: Merge subpackage_customRegexRules API
   slug: merge-subpackage-customregexrules-api
-- description: The subpackage_deleteAccount API from Merge — 8 operation(s) for subpackage_deleteaccount.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_deleteAccount API from Merge — 8 operation(s) for subpackage_deleteaccount.
   name: Merge subpackage_deleteAccount API
   slug: merge-subpackage-deleteaccount-api
-- description: The subpackage_departments API from Merge — 2 operation(s) for subpackage_departments.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_departments API from Merge — 2 operation(s) for subpackage_departments.
   name: Merge subpackage_departments API
   slug: merge-subpackage-departments-api
-- description: The subpackage_dependents API from Merge — 2 operation(s) for subpackage_dependents.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_dependents API from Merge — 2 operation(s) for subpackage_dependents.
   name: Merge subpackage_dependents API
   slug: merge-subpackage-dependents-api
-- description: The subpackage_drives API from Merge — 2 operation(s) for subpackage_drives.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_drives API from Merge — 2 operation(s) for subpackage_drives.
   name: Merge subpackage_drives API
   slug: merge-subpackage-drives-api
-- description: The subpackage_eeocs API from Merge — 2 operation(s) for subpackage_eeocs.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_eeocs API from Merge — 2 operation(s) for subpackage_eeocs.
   name: Merge subpackage_eeocs API
   slug: merge-subpackage-eeocs-api
-- description: The subpackage_embeddings API from Merge — 1 operation(s) for subpackage_embeddings.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_embeddings API from Merge — 1 operation(s) for subpackage_embeddings.
   name: Merge subpackage_embeddings API
   slug: merge-subpackage-embeddings-api
-- description: The subpackage_employeePayrollRuns API from Merge — 2 operation(s) for subpackage_employeepayrollruns.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_employeePayrollRuns API from Merge — 2 operation(s) for subpackage_employeepayrollruns.
   name: Merge subpackage_employeePayrollRuns API
   slug: merge-subpackage-employeepayrollruns-api
-- description: The subpackage_employees API from Merge — 6 operation(s) for subpackage_employees.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_employees API from Merge — 6 operation(s) for subpackage_employees.
   name: Merge subpackage_employees API
   slug: merge-subpackage-employees-api
-- description: The subpackage_employerBenefits API from Merge — 2 operation(s) for subpackage_employerbenefits.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_employerBenefits API from Merge — 2 operation(s) for subpackage_employerbenefits.
   name: Merge subpackage_employerBenefits API
   slug: merge-subpackage-employerbenefits-api
-- description: The subpackage_employments API from Merge — 2 operation(s) for subpackage_employments.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_employments API from Merge — 2 operation(s) for subpackage_employments.
   name: Merge subpackage_employments API
   slug: merge-subpackage-employments-api
-- description: The subpackage_engagements API from Merge — 5 operation(s) for subpackage_engagements.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_engagements API from Merge — 5 operation(s) for subpackage_engagements.
   name: Merge subpackage_engagements API
   slug: merge-subpackage-engagements-api
-- description: The subpackage_engagementTypes API from Merge — 3 operation(s) for subpackage_engagementtypes.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_engagementTypes API from Merge — 3 operation(s) for subpackage_engagementtypes.
   name: Merge subpackage_engagementTypes API
   slug: merge-subpackage-engagementtypes-api
-- description: The subpackage_expenseReports API from Merge — 6 operation(s) for subpackage_expensereports.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_expenseReports API from Merge — 6 operation(s) for subpackage_expensereports.
   name: Merge subpackage_expenseReports API
   slug: merge-subpackage-expensereports-api
-- description: The subpackage_expenses API from Merge — 7 operation(s) for subpackage_expenses.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_expenses API from Merge — 7 operation(s) for subpackage_expenses.
   name: Merge subpackage_expenses API
   slug: merge-subpackage-expenses-api
-- description: The subpackage_fieldMapping API from Merge — 30 operation(s) for subpackage_fieldmapping.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_fieldMapping API from Merge — 30 operation(s) for subpackage_fieldmapping.
   name: Merge subpackage_fieldMapping API
   slug: merge-subpackage-fieldmapping-api
-- description: The subpackage_files API from Merge — 6 operation(s) for subpackage_files.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_files API from Merge — 6 operation(s) for subpackage_files.
   name: Merge subpackage_files API
   slug: merge-subpackage-files-api
-- description: The subpackage_folders API from Merge — 3 operation(s) for subpackage_folders.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_folders API from Merge — 3 operation(s) for subpackage_folders.
   name: Merge subpackage_folders API
   slug: merge-subpackage-folders-api
-- description: The subpackage_forceResync API from Merge — 8 operation(s) for subpackage_forceresync.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_forceResync API from Merge — 8 operation(s) for subpackage_forceresync.
   name: Merge subpackage_forceResync API
   slug: merge-subpackage-forceresync-api
-- description: The subpackage_generateKey API from Merge — 8 operation(s) for subpackage_generatekey.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_generateKey API from Merge — 8 operation(s) for subpackage_generatekey.
   name: Merge subpackage_generateKey API
   slug: merge-subpackage-generatekey-api
-- description: The subpackage_groups API from Merge — 9 operation(s) for subpackage_groups.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_groups API from Merge — 9 operation(s) for subpackage_groups.
   name: Merge subpackage_groups API
   slug: merge-subpackage-groups-api
-- description: The subpackage_incomeStatements API from Merge — 2 operation(s) for subpackage_incomestatements.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_incomeStatements API from Merge — 2 operation(s) for subpackage_incomestatements.
   name: Merge subpackage_incomeStatements API
   slug: merge-subpackage-incomestatements-api
-- description: The subpackage_interviews API from Merge — 3 operation(s) for subpackage_interviews.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_interviews API from Merge — 3 operation(s) for subpackage_interviews.
   name: Merge subpackage_interviews API
   slug: merge-subpackage-interviews-api
-- description: The subpackage_invoices API from Merge — 8 operation(s) for subpackage_invoices.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_invoices API from Merge — 8 operation(s) for subpackage_invoices.
   name: Merge subpackage_invoices API
   slug: merge-subpackage-invoices-api
-- description: The subpackage_issues API from Merge — 16 operation(s) for subpackage_issues.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_issues API from Merge — 16 operation(s) for subpackage_issues.
   name: Merge subpackage_issues API
   slug: merge-subpackage-issues-api
-- description: The subpackage_itemFulfillments API from Merge — 6 operation(s) for subpackage_itemfulfillments.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_itemFulfillments API from Merge — 6 operation(s) for subpackage_itemfulfillments.
   name: Merge subpackage_itemFulfillments API
   slug: merge-subpackage-itemfulfillments-api
-- description: The subpackage_items API from Merge — 4 operation(s) for subpackage_items.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_items API from Merge — 4 operation(s) for subpackage_items.
   name: Merge subpackage_items API
   slug: merge-subpackage-items-api
-- description: The subpackage_jobInterviewStages API from Merge — 2 operation(s) for subpackage_jobinterviewstages.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_jobInterviewStages API from Merge — 2 operation(s) for subpackage_jobinterviewstages.
   name: Merge subpackage_jobInterviewStages API
   slug: merge-subpackage-jobinterviewstages-api
-- description: The subpackage_jobPostings API from Merge — 2 operation(s) for subpackage_jobpostings.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_jobPostings API from Merge — 2 operation(s) for subpackage_jobpostings.
   name: Merge subpackage_jobPostings API
   slug: merge-subpackage-jobpostings-api
-- description: The subpackage_jobs API from Merge — 3 operation(s) for subpackage_jobs.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_jobs API from Merge — 3 operation(s) for subpackage_jobs.
   name: Merge subpackage_jobs API
   slug: merge-subpackage-jobs-api
-- description: The subpackage_journalEntries API from Merge — 5 operation(s) for subpackage_journalentries.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_journalEntries API from Merge — 5 operation(s) for subpackage_journalentries.
   name: Merge subpackage_journalEntries API
   slug: merge-subpackage-journalentries-api
-- description: The subpackage_leads API from Merge — 4 operation(s) for subpackage_leads.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_leads API from Merge — 4 operation(s) for subpackage_leads.
   name: Merge subpackage_leads API
   slug: merge-subpackage-leads-api
-- description: The subpackage_linkedAccounts API from Merge — 8 operation(s) for subpackage_linkedaccounts.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_linkedAccounts API from Merge — 8 operation(s) for subpackage_linkedaccounts.
   name: Merge subpackage_linkedAccounts API
   slug: merge-subpackage-linkedaccounts-api
-- description: The subpackage_linkToken API from Merge — 9 operation(s) for subpackage_linktoken.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_linkToken API from Merge — 9 operation(s) for subpackage_linktoken.
   name: Merge subpackage_linkToken API
   slug: merge-subpackage-linktoken-api
-- description: The subpackage_locations API from Merge — 2 operation(s) for subpackage_locations.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_locations API from Merge — 2 operation(s) for subpackage_locations.
   name: Merge subpackage_locations API
   slug: merge-subpackage-locations-api
-- description: The subpackage_mcp API from Merge — 1 operation(s) for subpackage_mcp.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_mcp API from Merge — 1 operation(s) for subpackage_mcp.
   name: Merge subpackage_mcp API
   slug: merge-subpackage-mcp-api
-- description: The subpackage_messages API from Merge — 3 operation(s) for subpackage_messages.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_messages API from Merge — 3 operation(s) for subpackage_messages.
   name: Merge subpackage_messages API
   slug: merge-subpackage-messages-api
-- description: The subpackage_models API from Merge — 1 operation(s) for subpackage_models.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_models API from Merge — 1 operation(s) for subpackage_models.
   name: Merge subpackage_models API
   slug: merge-subpackage-models-api
-- description: The subpackage_notes API from Merge — 4 operation(s) for subpackage_notes.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_notes API from Merge — 4 operation(s) for subpackage_notes.
   name: Merge subpackage_notes API
   slug: merge-subpackage-notes-api
-- description: The subpackage_offers API from Merge — 2 operation(s) for subpackage_offers.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_offers API from Merge — 2 operation(s) for subpackage_offers.
   name: Merge subpackage_offers API
   slug: merge-subpackage-offers-api
-- description: The subpackage_offices API from Merge — 2 operation(s) for subpackage_offices.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_offices API from Merge — 2 operation(s) for subpackage_offices.
   name: Merge subpackage_offices API
   slug: merge-subpackage-offices-api
-- description: The subpackage_opportunities API from Merge — 5 operation(s) for subpackage_opportunities.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_opportunities API from Merge — 5 operation(s) for subpackage_opportunities.
   name: Merge subpackage_opportunities API
   slug: merge-subpackage-opportunities-api
-- description: The subpackage_passthrough API from Merge — 8 operation(s) for subpackage_passthrough.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_passthrough API from Merge — 8 operation(s) for subpackage_passthrough.
   name: Merge subpackage_passthrough API
   slug: merge-subpackage-passthrough-api
-- description: The subpackage_payGroups API from Merge — 2 operation(s) for subpackage_paygroups.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_payGroups API from Merge — 2 operation(s) for subpackage_paygroups.
   name: Merge subpackage_payGroups API
   slug: merge-subpackage-paygroups-api
-- description: The subpackage_paymentMethods API from Merge — 2 operation(s) for subpackage_paymentmethods.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_paymentMethods API from Merge — 2 operation(s) for subpackage_paymentmethods.
   name: Merge subpackage_paymentMethods API
   slug: merge-subpackage-paymentmethods-api
-- description: The subpackage_payments API from Merge — 6 operation(s) for subpackage_payments.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_payments API from Merge — 6 operation(s) for subpackage_payments.
   name: Merge subpackage_payments API
   slug: merge-subpackage-payments-api
-- description: The subpackage_paymentTerms API from Merge — 2 operation(s) for subpackage_paymentterms.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_paymentTerms API from Merge — 2 operation(s) for subpackage_paymentterms.
   name: Merge subpackage_paymentTerms API
   slug: merge-subpackage-paymentterms-api
-- description: The subpackage_payrollRuns API from Merge — 2 operation(s) for subpackage_payrollruns.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_payrollRuns API from Merge — 2 operation(s) for subpackage_payrollruns.
   name: Merge subpackage_payrollRuns API
   slug: merge-subpackage-payrollruns-api
-- description: The subpackage_phoneNumbers API from Merge — 1 operation(s) for subpackage_phonenumbers.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_phoneNumbers API from Merge — 1 operation(s) for subpackage_phonenumbers.
   name: Merge subpackage_phoneNumbers API
   slug: merge-subpackage-phonenumbers-api
-- description: The subpackage_projects API from Merge — 2 operation(s) for subpackage_projects.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_projects API from Merge — 2 operation(s) for subpackage_projects.
   name: Merge subpackage_projects API
   slug: merge-subpackage-projects-api
-- description: The subpackage_purchaseOrders API from Merge — 5 operation(s) for subpackage_purchaseorders.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_purchaseOrders API from Merge — 5 operation(s) for subpackage_purchaseorders.
   name: Merge subpackage_purchaseOrders API
   slug: merge-subpackage-purchaseorders-api
-- description: The subpackage_regenerateKey API from Merge — 8 operation(s) for subpackage_regeneratekey.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_regenerateKey API from Merge — 8 operation(s) for subpackage_regeneratekey.
   name: Merge subpackage_regenerateKey API
   slug: merge-subpackage-regeneratekey-api
-- description: The subpackage_registeredUsers API from Merge — 2 operation(s) for subpackage_registeredusers.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_registeredUsers API from Merge — 2 operation(s) for subpackage_registeredusers.
   name: Merge subpackage_registeredUsers API
   slug: merge-subpackage-registeredusers-api
-- description: The subpackage_rejectReasons API from Merge — 2 operation(s) for subpackage_rejectreasons.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_rejectReasons API from Merge — 2 operation(s) for subpackage_rejectreasons.
   name: Merge subpackage_rejectReasons API
   slug: merge-subpackage-rejectreasons-api
-- description: The subpackage_responses API from Merge — 1 operation(s) for subpackage_responses.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_responses API from Merge — 1 operation(s) for subpackage_responses.
   name: Merge subpackage_responses API
   slug: merge-subpackage-responses-api
-- description: The subpackage_roles API from Merge — 2 operation(s) for subpackage_roles.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_roles API from Merge — 2 operation(s) for subpackage_roles.
   name: Merge subpackage_roles API
   slug: merge-subpackage-roles-api
-- description: The subpackage_routing API from Merge — 2 operation(s) for subpackage_routing.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_routing API from Merge — 2 operation(s) for subpackage_routing.
   name: Merge subpackage_routing API
   slug: merge-subpackage-routing-api
-- description: The subpackage_salesOrders API from Merge — 7 operation(s) for subpackage_salesorders.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_salesOrders API from Merge — 7 operation(s) for subpackage_salesorders.
   name: Merge subpackage_salesOrders API
   slug: merge-subpackage-salesorders-api
-- description: The subpackage_scopes API from Merge — 16 operation(s) for subpackage_scopes.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_scopes API from Merge — 16 operation(s) for subpackage_scopes.
   name: Merge subpackage_scopes API
   slug: merge-subpackage-scopes-api
-- description: The subpackage_scorecards API from Merge — 2 operation(s) for subpackage_scorecards.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_scorecards API from Merge — 2 operation(s) for subpackage_scorecards.
   name: Merge subpackage_scorecards API
   slug: merge-subpackage-scorecards-api
-- description: The subpackage_stages API from Merge — 3 operation(s) for subpackage_stages.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_stages API from Merge — 3 operation(s) for subpackage_stages.
   name: Merge subpackage_stages API
   slug: merge-subpackage-stages-api
-- description: The subpackage_standardEntityRules API from Merge — 4 operation(s) for subpackage_standardentityrules.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_standardEntityRules API from Merge — 4 operation(s) for subpackage_standardentityrules.
   name: Merge subpackage_standardEntityRules API
   slug: merge-subpackage-standardentityrules-api
-- description: The subpackage_syncStatus API from Merge — 8 operation(s) for subpackage_syncstatus.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_syncStatus API from Merge — 8 operation(s) for subpackage_syncstatus.
   name: Merge subpackage_syncStatus API
   slug: merge-subpackage-syncstatus-api
-- description: The subpackage_tags API from Merge — 4 operation(s) for subpackage_tags.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_tags API from Merge — 4 operation(s) for subpackage_tags.
   name: Merge subpackage_tags API
   slug: merge-subpackage-tags-api
-- description: The subpackage_tasks API from Merge — 5 operation(s) for subpackage_tasks.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_tasks API from Merge — 5 operation(s) for subpackage_tasks.
   name: Merge subpackage_tasks API
   slug: merge-subpackage-tasks-api
-- description: The subpackage_taxRates API from Merge — 2 operation(s) for subpackage_taxrates.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_taxRates API from Merge — 2 operation(s) for subpackage_taxrates.
   name: Merge subpackage_taxRates API
   slug: merge-subpackage-taxrates-api
-- description: The subpackage_teams API from Merge — 2 operation(s) for subpackage_teams.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_teams API from Merge — 2 operation(s) for subpackage_teams.
   name: Merge subpackage_teams API
   slug: merge-subpackage-teams-api
-- description: The subpackage_tickets API from Merge — 7 operation(s) for subpackage_tickets.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_tickets API from Merge — 7 operation(s) for subpackage_tickets.
   name: Merge subpackage_tickets API
   slug: merge-subpackage-tickets-api
-- description: The subpackage_timeOff API from Merge — 3 operation(s) for subpackage_timeoff.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_timeOff API from Merge — 3 operation(s) for subpackage_timeoff.
   name: Merge subpackage_timeOff API
   slug: merge-subpackage-timeoff-api
-- description: The subpackage_timeOffBalances API from Merge — 2 operation(s) for subpackage_timeoffbalances.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_timeOffBalances API from Merge — 2 operation(s) for subpackage_timeoffbalances.
   name: Merge subpackage_timeOffBalances API
   slug: merge-subpackage-timeoffbalances-api
-- description: The subpackage_timesheetEntries API from Merge — 3 operation(s) for subpackage_timesheetentries.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_timesheetEntries API from Merge — 3 operation(s) for subpackage_timesheetentries.
   name: Merge subpackage_timesheetEntries API
   slug: merge-subpackage-timesheetentries-api
-- description: The subpackage_toolDescriptionOverrides API from Merge — 2 operation(s) for subpackage_tooldescriptionoverrides.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_toolDescriptionOverrides API from Merge — 2 operation(s) for subpackage_tooldescriptionoverrides.
   name: Merge subpackage_toolDescriptionOverrides API
   slug: merge-subpackage-tooldescriptionoverrides-api
-- description: The subpackage_toolPacks API from Merge — 4 operation(s) for subpackage_toolpacks.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_toolPacks API from Merge — 4 operation(s) for subpackage_toolpacks.
   name: Merge subpackage_toolPacks API
   slug: merge-subpackage-toolpacks-api
-- description: The subpackage_toolSearch API from Merge — 1 operation(s) for subpackage_toolsearch.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_toolSearch API from Merge — 1 operation(s) for subpackage_toolsearch.
   name: Merge subpackage_toolSearch API
   slug: merge-subpackage-toolsearch-api
-- description: The subpackage_trackingCategories API from Merge — 2 operation(s) for subpackage_trackingcategories.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_trackingCategories API from Merge — 2 operation(s) for subpackage_trackingcategories.
   name: Merge subpackage_trackingCategories API
   slug: merge-subpackage-trackingcategories-api
-- description: The subpackage_transactions API from Merge — 2 operation(s) for subpackage_transactions.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_transactions API from Merge — 2 operation(s) for subpackage_transactions.
   name: Merge subpackage_transactions API
   slug: merge-subpackage-transactions-api
-- description: The subpackage_users API from Merge — 14 operation(s) for subpackage_users.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_users API from Merge — 14 operation(s) for subpackage_users.
   name: Merge subpackage_users API
   slug: merge-subpackage-users-api
-- description: The subpackage_vendorCredits API from Merge — 5 operation(s) for subpackage_vendorcredits.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_vendorCredits API from Merge — 5 operation(s) for subpackage_vendorcredits.
   name: Merge subpackage_vendorCredits API
   slug: merge-subpackage-vendorcredits-api
-- description: The subpackage_vendors API from Merge — 2 operation(s) for subpackage_vendors.
+- baseURL: https://api.merge.dev/api/hris/v1
+  baseurl_source: declared
+  description: The subpackage_vendors API from Merge — 2 operation(s) for subpackage_vendors.
   name: Merge subpackage_vendors API
   slug: merge-subpackage-vendors-api
 arazzos:
@@ -4468,7 +4702,7 @@ score:
       marker_coverage: 0.0
       total: 117
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png
 security:

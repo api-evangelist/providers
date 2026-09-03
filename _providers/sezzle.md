@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The legacy Sezzle v1 API for merchants. Supports checkout creation and order completion via redirect-based flow. Deprecated in favor of v2; existing integrations are encouraged to migrate to v2.
   name: Sezzle API v1
   slug: sezzle-api-v1
-- description: The Bearer Authentication API from Sezzle — 1 operation(s) for bearer authentication.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Bearer Authentication API from Sezzle — 1 operation(s) for bearer authentication.
   name: Sezzle Bearer Authentication API
   slug: sezzle-bearer-authentication-api
-- description: The Customer API from Sezzle — 4 operation(s) for customer.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Customer API from Sezzle — 4 operation(s) for customer.
   name: Sezzle Customer API
   slug: sezzle-customer-api
-- description: The Order API from Sezzle — 7 operation(s) for order.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Order API from Sezzle — 7 operation(s) for order.
   name: Sezzle Order API
   slug: sezzle-order-api
-- description: The Reports API from Sezzle — 4 operation(s) for reports.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Reports API from Sezzle — 4 operation(s) for reports.
   name: Sezzle Reports API
   slug: sezzle-reports-api
-- description: The Session API from Sezzle — 2 operation(s) for session.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Session API from Sezzle — 2 operation(s) for session.
   name: Sezzle Session API
   slug: sezzle-session-api
-- description: The Token API from Sezzle — 2 operation(s) for token.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Token API from Sezzle — 2 operation(s) for token.
   name: Sezzle Token API
   slug: sezzle-token-api
-- description: The Webhooks API from Sezzle — 3 operation(s) for webhooks.
+- baseURL: https://gateway.sezzle.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Sezzle — 3 operation(s) for webhooks.
   name: Sezzle Webhooks API
   slug: sezzle-webhooks-api
 artifact_total: 40
@@ -287,7 +301,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/screenshots/sezzle-2026-06-20T193742.png
 security:

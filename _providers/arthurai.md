@@ -34,211 +34,347 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
   name: ArthurAI Agent Discovery API
   slug: arthurai-agent-discovery-api
-- description: The Agentic Experiments API from ArthurAI — 4 operation(s) for agentic experiments.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Agentic Experiments API from ArthurAI — 4 operation(s) for agentic experiments.
   name: ArthurAI Agentic Experiments API
   slug: arthurai-agentic-experiments-api
-- description: The Agentic Notebooks API from ArthurAI — 4 operation(s) for agentic notebooks.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Agentic Notebooks API from ArthurAI — 4 operation(s) for agentic notebooks.
   name: ArthurAI Agentic Notebooks API
   slug: arthurai-agentic-notebooks-api
-- description: The Agents V1 API from ArthurAI — 12 operation(s) for agents v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Agents V1 API from ArthurAI — 12 operation(s) for agents v1.
   name: ArthurAI Agents V1 API
   slug: arthurai-agents-v1-api
-- description: The Alert Rules V1 API from ArthurAI — 5 operation(s) for alert rules v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Alert Rules V1 API from ArthurAI — 5 operation(s) for alert rules v1.
   name: ArthurAI Alert Rules V1 API
   slug: arthurai-alert-rules-v1-api
-- description: The Alerts V1 API from ArthurAI — 5 operation(s) for alerts v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Alerts V1 API from ArthurAI — 5 operation(s) for alerts v1.
   name: ArthurAI Alerts V1 API
   slug: arthurai-alerts-v1-api
-- description: Endpoints for API keys management
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for API keys management
   name: ArthurAI API Keys API
   slug: arthurai-api-keys-api
-- description: The Authorization V1 API from ArthurAI — 9 operation(s) for authorization v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Authorization V1 API from ArthurAI — 9 operation(s) for authorization v1.
   name: ArthurAI Authorization V1 API
   slug: arthurai-authorization-v1-api
-- description: The Chatbot API from ArthurAI — 2 operation(s) for chatbot.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Chatbot API from ArthurAI — 2 operation(s) for chatbot.
   name: ArthurAI Chatbot API
   slug: arthurai-chatbot-api
-- description: The Configuration API from ArthurAI — 1 operation(s) for configuration.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Configuration API from ArthurAI — 1 operation(s) for configuration.
   name: ArthurAI Configuration API
   slug: arthurai-configuration-api
-- description: The Connector Schemas V1 API from ArthurAI — 2 operation(s) for connector schemas v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Connector Schemas V1 API from ArthurAI — 2 operation(s) for connector schemas v1.
   name: ArthurAI Connector Schemas V1 API
   slug: arthurai-connector-schemas-v1-api
-- description: The Connectors V1 API from ArthurAI — 4 operation(s) for connectors v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Connectors V1 API from ArthurAI — 4 operation(s) for connectors v1.
   name: ArthurAI Connectors V1 API
   slug: arthurai-connectors-v1-api
-- description: The Continuous Eval Test Runs API from ArthurAI — 3 operation(s) for continuous eval test runs.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Continuous Eval Test Runs API from ArthurAI — 3 operation(s) for continuous eval test runs.
   name: ArthurAI Continuous Eval Test Runs API
   slug: arthurai-continuous-eval-test-runs-api
-- description: The Continuous Evals API from ArthurAI — 6 operation(s) for continuous evals.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Continuous Evals API from ArthurAI — 6 operation(s) for continuous evals.
   name: ArthurAI Continuous Evals API
   slug: arthurai-continuous-evals-api
-- description: The Custom Aggregation Tests V1 API from ArthurAI — 3 operation(s) for custom aggregation tests v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Custom Aggregation Tests V1 API from ArthurAI — 3 operation(s) for custom aggregation tests v1.
   name: ArthurAI Custom Aggregation Tests V1 API
   slug: arthurai-custom-aggregation-tests-v1-api
-- description: The Custom Aggregations V1 API from ArthurAI — 3 operation(s) for custom aggregations v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Custom Aggregations V1 API from ArthurAI — 3 operation(s) for custom aggregations v1.
   name: ArthurAI Custom Aggregations V1 API
   slug: arthurai-custom-aggregations-v1-api
-- description: The Data Plane Associations V1 API from ArthurAI — 4 operation(s) for data plane associations v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Data Plane Associations V1 API from ArthurAI — 4 operation(s) for data plane associations v1.
   name: ArthurAI Data Plane Associations V1 API
   slug: arthurai-data-plane-associations-v1-api
-- description: The Data Planes V1 API from ArthurAI — 4 operation(s) for data planes v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Data Planes V1 API from ArthurAI — 4 operation(s) for data planes v1.
   name: ArthurAI Data Planes V1 API
   slug: arthurai-data-planes-v1-api
-- description: The Data Retrieval V1 API from ArthurAI — 4 operation(s) for data retrieval v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Data Retrieval V1 API from ArthurAI — 4 operation(s) for data retrieval v1.
   name: ArthurAI Data Retrieval V1 API
   slug: arthurai-data-retrieval-v1-api
-- description: The Datasets API from ArthurAI — 9 operation(s) for datasets.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Datasets API from ArthurAI — 9 operation(s) for datasets.
   name: ArthurAI Datasets API
   slug: arthurai-datasets-api
-- description: The Datasets V1 API from ArthurAI — 9 operation(s) for datasets v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Datasets V1 API from ArthurAI — 9 operation(s) for datasets v1.
   name: ArthurAI Datasets V1 API
   slug: arthurai-datasets-v1-api
-- description: Endpoints to validate prompt and response on default rules
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints to validate prompt and response on default rules
   name: ArthurAI Default Validation API
   slug: arthurai-default-validation-api
-- description: The Demo API from ArthurAI — 2 operation(s) for demo.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Demo API from ArthurAI — 2 operation(s) for demo.
   name: ArthurAI Demo API
   slug: arthurai-demo-api
-- description: The Engine Config API from ArthurAI — 1 operation(s) for engine config.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Engine Config API from ArthurAI — 1 operation(s) for engine config.
   name: ArthurAI Engine Config API
   slug: arthurai-engine-config-api
-- description: The Feature Flags V1 API from ArthurAI — 1 operation(s) for feature flags v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Feature Flags V1 API from ArthurAI — 1 operation(s) for feature flags v1.
   name: ArthurAI Feature Flags V1 API
   slug: arthurai-feature-flags-v1-api
-- description: Endpoints to manage user feedback on inferences
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints to manage user feedback on inferences
   name: ArthurAI Feedback API
   slug: arthurai-feedback-api
-- description: The Groups V1 API from ArthurAI — 4 operation(s) for groups v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Groups V1 API from ArthurAI — 4 operation(s) for groups v1.
   name: ArthurAI Groups V1 API
   slug: arthurai-groups-v1-api
-- description: The Health API from ArthurAI — 1 operation(s) for health.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Health API from ArthurAI — 1 operation(s) for health.
   name: ArthurAI Health API
   slug: arthurai-health-api
-- description: Endpoints for querying past inferences
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for querying past inferences
   name: ArthurAI Inferences API
   slug: arthurai-inferences-api
-- description: The Jobs V1 API from ArthurAI — 7 operation(s) for jobs v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Jobs V1 API from ArthurAI — 7 operation(s) for jobs v1.
   name: ArthurAI Jobs V1 API
   slug: arthurai-jobs-v1-api
-- description: The LLMEvals API from ArthurAI — 8 operation(s) for llmevals.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The LLMEvals API from ArthurAI — 8 operation(s) for llmevals.
   name: ArthurAI LLMEvals API
   slug: arthurai-llmevals-api
-- description: The Metric Functions V1 API from ArthurAI — 1 operation(s) for metric functions v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Metric Functions V1 API from ArthurAI — 1 operation(s) for metric functions v1.
   name: ArthurAI Metric Functions V1 API
   slug: arthurai-metric-functions-v1-api
-- description: The Metrics V1 API from ArthurAI — 3 operation(s) for metrics v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Metrics V1 API from ArthurAI — 3 operation(s) for metrics v1.
   name: ArthurAI Metrics V1 API
   slug: arthurai-metrics-v1-api
-- description: The ML Evals API from ArthurAI — 1 operation(s) for ml evals.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The ML Evals API from ArthurAI — 1 operation(s) for ml evals.
   name: ArthurAI ML Evals API
   slug: arthurai-ml-evals-api
-- description: Endpoints for model provider management
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for model provider management
   name: ArthurAI Model Providers API
   slug: arthurai-model-providers-api
-- description: The Models V1 API from ArthurAI — 7 operation(s) for models v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Models V1 API from ArthurAI — 7 operation(s) for models v1.
   name: ArthurAI Models V1 API
   slug: arthurai-models-v1-api
-- description: Endpoints for managing experiment notebooks
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for managing experiment notebooks
   name: ArthurAI Notebooks API
   slug: arthurai-notebooks-api
-- description: The OAuth V1 API from ArthurAI — 1 operation(s) for oauth v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The OAuth V1 API from ArthurAI — 1 operation(s) for oauth v1.
   name: ArthurAI OAuth V1 API
   slug: arthurai-oauth-v1-api
-- description: The Organizations V1 API from ArthurAI — 1 operation(s) for organizations v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Organizations V1 API from ArthurAI — 1 operation(s) for organizations v1.
   name: ArthurAI Organizations V1 API
   slug: arthurai-organizations-v1-api
-- description: The Policies V1 API from ArthurAI — 22 operation(s) for policies v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Policies V1 API from ArthurAI — 22 operation(s) for policies v1.
   name: ArthurAI Policies V1 API
   slug: arthurai-policies-v1-api
-- description: The Projects V1 API from ArthurAI — 2 operation(s) for projects v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Projects V1 API from ArthurAI — 2 operation(s) for projects v1.
   name: ArthurAI Projects V1 API
   slug: arthurai-projects-v1-api
-- description: Endpoints for managing prompt experiments
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for managing prompt experiments
   name: ArthurAI Prompt Experiments API
   slug: arthurai-prompt-experiments-api
-- description: The Prompts API from ArthurAI — 12 operation(s) for prompts.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Prompts API from ArthurAI — 12 operation(s) for prompts.
   name: ArthurAI Prompts API
   slug: arthurai-prompts-api
-- description: Endpoints for managing RAG experiments
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for managing RAG experiments
   name: ArthurAI RAG Experiments API
   slug: arthurai-rag-experiments-api
-- description: The RAG Notebooks API from ArthurAI — 4 operation(s) for rag notebooks.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The RAG Notebooks API from ArthurAI — 4 operation(s) for rag notebooks.
   name: ArthurAI RAG Notebooks API
   slug: arthurai-rag-notebooks-api
-- description: Endpoints for RAG provider management
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for RAG provider management
   name: ArthurAI RAG Providers API
   slug: arthurai-rag-providers-api
-- description: Endpoints for RAG setting management
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for RAG setting management
   name: ArthurAI RAG Settings API
   slug: arthurai-rag-settings-api
-- description: The Registration V1 API from ArthurAI — 1 operation(s) for registration v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Registration V1 API from ArthurAI — 1 operation(s) for registration v1.
   name: ArthurAI Registration V1 API
   slug: arthurai-registration-v1-api
-- description: The Roles V1 API from ArthurAI — 1 operation(s) for roles v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Roles V1 API from ArthurAI — 1 operation(s) for roles v1.
   name: ArthurAI Roles V1 API
   slug: arthurai-roles-v1-api
-- description: Endpoints to manage rules
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints to manage rules
   name: ArthurAI Rules API
   slug: arthurai-rules-api
-- description: Endpoints for secrets management
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for secrets management
   name: ArthurAI Secrets API
   slug: arthurai-secrets-api
-- description: The Sessions API from ArthurAI — 3 operation(s) for sessions.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Sessions API from ArthurAI — 3 operation(s) for sessions.
   name: ArthurAI Sessions API
   slug: arthurai-sessions-api
-- description: The Settings API from ArthurAI — 1 operation(s) for settings.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Settings API from ArthurAI — 1 operation(s) for settings.
   name: ArthurAI Settings API
   slug: arthurai-settings-api
-- description: The Spans API from ArthurAI — 8 operation(s) for spans.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Spans API from ArthurAI — 8 operation(s) for spans.
   name: ArthurAI Spans API
   slug: arthurai-spans-api
-- description: The Stateless Validation API from ArthurAI — 1 operation(s) for stateless validation.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Stateless Validation API from ArthurAI — 1 operation(s) for stateless validation.
   name: ArthurAI Stateless Validation API
   slug: arthurai-stateless-validation-api
-- description: Endpoints to validate prompt and response for a task
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints to validate prompt and response for a task
   name: ArthurAI Task Based Validation API
   slug: arthurai-task-based-validation-api
-- description: Endpoints to manage tasks and their rules
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints to manage tasks and their rules
   name: ArthurAI Tasks API
   slug: arthurai-tasks-api
-- description: The Tasks V1 API from ArthurAI — 7 operation(s) for tasks v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Tasks V1 API from ArthurAI — 7 operation(s) for tasks v1.
   name: ArthurAI Tasks V1 API
   slug: arthurai-tasks-v1-api
-- description: The Tenant Signup API from ArthurAI — 1 operation(s) for tenant signup.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Tenant Signup API from ArthurAI — 1 operation(s) for tenant signup.
   name: ArthurAI Tenant Signup API
   slug: arthurai-tenant-signup-api
-- description: The Traces API from ArthurAI — 8 operation(s) for traces.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Traces API from ArthurAI — 8 operation(s) for traces.
   name: ArthurAI Traces API
   slug: arthurai-traces-api
-- description: The Transforms API from ArthurAI — 6 operation(s) for transforms.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Transforms API from ArthurAI — 6 operation(s) for transforms.
   name: ArthurAI Transforms API
   slug: arthurai-transforms-api
-- description: The Upsolve V1 API from ArthurAI — 1 operation(s) for upsolve v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Upsolve V1 API from ArthurAI — 1 operation(s) for upsolve v1.
   name: ArthurAI Upsolve V1 API
   slug: arthurai-upsolve-v1-api
-- description: Endpoints for retrieving token usage
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: Endpoints for retrieving token usage
   name: ArthurAI Usage API
   slug: arthurai-usage-api
-- description: The User Management API from ArthurAI — 1 operation(s) for user management.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The User Management API from ArthurAI — 1 operation(s) for user management.
   name: ArthurAI User Management API
   slug: arthurai-user-management-api
-- description: The Users API from ArthurAI — 2 operation(s) for users.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Users API from ArthurAI — 2 operation(s) for users.
   name: ArthurAI Users API
   slug: arthurai-users-api
-- description: The Users V1 API from ArthurAI — 8 operation(s) for users v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Users V1 API from ArthurAI — 8 operation(s) for users v1.
   name: ArthurAI Users V1 API
   slug: arthurai-users-v1-api
-- description: The Webhooks V1 API from ArthurAI — 3 operation(s) for webhooks v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Webhooks V1 API from ArthurAI — 3 operation(s) for webhooks v1.
   name: ArthurAI Webhooks V1 API
   slug: arthurai-webhooks-v1-api
-- description: The Workspaces V1 API from ArthurAI — 3 operation(s) for workspaces v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Workspaces V1 API from ArthurAI — 3 operation(s) for workspaces v1.
   name: ArthurAI Workspaces V1 API
   slug: arthurai-workspaces-v1-api
 artifact_total: 142
@@ -608,7 +744,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -618,7 +754,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 46.7
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -629,7 +765,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:

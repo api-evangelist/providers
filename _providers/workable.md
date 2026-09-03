@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 82 operations · 39 acting
 api_count: 1
 apis:
-- description: Create, read, update, and publish job postings. Jobs are the core organizing entity in Workable; pipelines, candidates, members, and activities are scoped to a job shortcode.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Create, read, update, and publish job postings. Jobs are the core organizing entity in Workable; pipelines, candidates, members, and activities are scoped to a job shortcode.
   name: Workable Jobs API
   slug: workable-jobs-api
-- description: Create candidates from external sources, retrieve candidate profiles, and update profile data, resumes, cover letters, and source attribution.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Create candidates from external sources, retrieve candidate profiles, and update profile data, resumes, cover letters, and source attribution.
   name: Workable Candidates API
   slug: workable-candidates-api
-- description: Read pipeline stages configured for a job and move candidates between stages (sourced, applied, phone screen, interview, offer, hired).
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Read pipeline stages configured for a job and move candidates between stages (sourced, applied, phone screen, interview, offer, hired).
   name: Workable Stages API
   slug: workable-stages-api
-- description: Manage Workable team members, recruiter accounts, and the per-job collaborators (hiring managers, interviewers, reviewers).
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Manage Workable team members, recruiter accounts, and the per-job collaborators (hiring managers, interviewers, reviewers).
   name: Workable Members API
   slug: workable-members-api
-- description: Manage external agency recruiters who can submit candidates against Workable jobs.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Manage external agency recruiters who can submit candidates against Workable jobs.
   name: Workable Recruiters API
   slug: workable-recruiters-api
-- description: Read the company's department list used to scope job postings and reporting.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Read the company's department list used to scope job postings and reporting.
   name: Workable Departments API
   slug: workable-departments-api
 - description: Define and read custom attributes attached to candidates, jobs, and requisitions for tenant-specific reporting and automation.
@@ -74,7 +86,9 @@ apis:
 - description: Submit and read interviewer evaluations and scorecards aligned to the job's interview kit.
   name: Workable Evaluations API
   slug: workable-evaluations-api
-- description: Generate and track offers including templates, compensation breakdowns, and offer letter PDFs.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Generate and track offers including templates, compensation breakdowns, and offer letter PDFs.
   name: Workable Offers API
   slug: workable-offers-api
 - description: Trigger and read candidate assessments delivered through Workable's assessment platform (Assessments+).
@@ -86,7 +100,9 @@ apis:
 - description: Manage application form questions per job, including knockout questions and EEO surveys.
   name: Workable Questions API
   slug: workable-questions-api
-- description: Read and create scheduled events (phone screens, interviews) for a candidate, integrated with Workable's calendar sync.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Read and create scheduled events (phone screens, interviews) for a candidate, integrated with Workable's calendar sync.
   name: Workable Events API
   slug: workable-events-api
 - description: Subscribe to Workable events (candidate.created, candidate.moved, candidate.hired, candidate.disqualified, member.created) for downstream automation.
@@ -95,52 +111,84 @@ apis:
 - description: Read-only public endpoint that exposes published jobs for embedding job listings on external careers pages without authentication.
   name: Workable Public Jobs API
   slug: workable-public-jobs-api
-- description: The Accounts API from Workable — 6 operation(s) for accounts.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Accounts API from Workable — 6 operation(s) for accounts.
   name: Workable Accounts API
   slug: workable-accounts-api
-- description: The Candidates API from Workable — 16 operation(s) for candidates.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Candidates API from Workable — 16 operation(s) for candidates.
   name: Workable Candidates API
   slug: workable-candidates-api
-- description: The CustomAttributes API from Workable — 2 operation(s) for customattributes.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The CustomAttributes API from Workable — 2 operation(s) for customattributes.
   name: Workable CustomAttributes API
   slug: workable-customattributes-api
-- description: The Departments API from Workable — 3 operation(s) for departments.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Departments API from Workable — 3 operation(s) for departments.
   name: Workable Departments API
   slug: workable-departments-api
-- description: The Employees API from Workable — 5 operation(s) for employees.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Employees API from Workable — 5 operation(s) for employees.
   name: Workable Employees API
   slug: workable-employees-api
-- description: The Events API from Workable — 2 operation(s) for events.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Events API from Workable — 2 operation(s) for events.
   name: Workable Events API
   slug: workable-events-api
-- description: The Jobs API from Workable — 9 operation(s) for jobs.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Jobs API from Workable — 9 operation(s) for jobs.
   name: Workable Jobs API
   slug: workable-jobs-api
-- description: The Members API from Workable — 4 operation(s) for members.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Members API from Workable — 4 operation(s) for members.
   name: Workable Members API
   slug: workable-members-api
-- description: The Offers API from Workable — 3 operation(s) for offers.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Offers API from Workable — 3 operation(s) for offers.
   name: Workable Offers API
   slug: workable-offers-api
-- description: The Recruiters API from Workable — 1 operation(s) for recruiters.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Recruiters API from Workable — 1 operation(s) for recruiters.
   name: Workable Recruiters API
   slug: workable-recruiters-api
-- description: The Requisitions API from Workable — 4 operation(s) for requisitions.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Requisitions API from Workable — 4 operation(s) for requisitions.
   name: Workable Requisitions API
   slug: workable-requisitions-api
-- description: The ReviewCycles API from Workable — 2 operation(s) for reviewcycles.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The ReviewCycles API from Workable — 2 operation(s) for reviewcycles.
   name: Workable ReviewCycles API
   slug: workable-reviewcycles-api
-- description: The Stages API from Workable — 1 operation(s) for stages.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Stages API from Workable — 1 operation(s) for stages.
   name: Workable Stages API
   slug: workable-stages-api
-- description: The Subscriptions API from Workable — 2 operation(s) for subscriptions.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Subscriptions API from Workable — 2 operation(s) for subscriptions.
   name: Workable Subscriptions API
   slug: workable-subscriptions-api
-- description: The TimeOff API from Workable — 4 operation(s) for timeoff.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The TimeOff API from Workable — 4 operation(s) for timeoff.
   name: Workable TimeOff API
   slug: workable-timeoff-api
-- description: The TimeTracking API from Workable — 3 operation(s) for timetracking.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The TimeTracking API from Workable — 3 operation(s) for timetracking.
   name: Workable TimeTracking API
   slug: workable-timetracking-api
 artifact_total: 65
@@ -334,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workable/refs/heads/main/screenshots/workable-2026-06-20T201548.png
 security:

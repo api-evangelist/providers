@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 13
 apis:
 - description: Manage users, roles, and permissions within the Exabeam platform.
@@ -231,7 +231,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exabeam/refs/heads/main/screenshots/exabeam-2026-07-25T213833.png
 security:

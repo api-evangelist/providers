@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,34 +63,54 @@ apis:
 - description: The legacy scripting system based on ExtendScript, Adobe's implementation of ECMAScript 3. ExtendScript scripts use the .jsx file extension and can automate nearly all Photoshop operations through a c
   name: Adobe Photoshop ExtendScript Scripting API
   slug: extendscript-scripting
-- description: Execute Photoshop Action files (.atn) and Action JSON descriptors on images programmatically.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Execute Photoshop Action files (.atn) and Action JSON descriptors on images programmatically.
   name: Adobe Photoshop Actions API
   slug: adobe-photoshop-actions-api
-- description: Remove backgrounds from images and create masks using AI-powered subject detection.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Remove backgrounds from images and create masks using AI-powered subject detection.
   name: Adobe Photoshop Background Removal API
   slug: adobe-photoshop-background-removal-api
-- description: Apply AI-powered product crop and depth blur effects to images.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Apply AI-powered product crop and depth blur effects to images.
   name: Adobe Photoshop Crop and Effects API
   slug: adobe-photoshop-crop-and-effects-api
-- description: Create, modify, and inspect PSD documents including layer editing, adjustments, and metadata retrieval.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Create, modify, and inspect PSD documents including layer editing, adjustments, and metadata retrieval.
   name: Adobe Photoshop Document Operations API
   slug: adobe-photoshop-document-operations-api
-- description: Fill masked areas of images using generative AI capabilities.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Fill masked areas of images using generative AI capabilities.
   name: Adobe Photoshop Generative API
   slug: adobe-photoshop-generative-api
-- description: Service health check endpoint.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Service health check endpoint.
   name: Adobe Photoshop Health API
   slug: adobe-photoshop-health-api
-- description: Generate flat image renditions from PSD files in various formats including JPEG, PNG, and TIFF.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Generate flat image renditions from PSD files in various formats including JPEG, PNG, and TIFF.
   name: Adobe Photoshop Renditions API
   slug: adobe-photoshop-renditions-api
-- description: Replace and manage embedded Smart Object layers within PSD documents.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Replace and manage embedded Smart Object layers within PSD documents.
   name: Adobe Photoshop Smart Objects API
   slug: adobe-photoshop-smart-objects-api
-- description: Poll for the status of asynchronous jobs.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Poll for the status of asynchronous jobs.
   name: Adobe Photoshop Status API
   slug: adobe-photoshop-status-api
-- description: Edit text layer content, character styles, and paragraph styles in PSD documents.
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Edit text layer content, character styles, and paragraph styles in PSD documents.
   name: Adobe Photoshop Text API
   slug: adobe-photoshop-text-api
 arazzos:
@@ -655,7 +675,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -665,7 +685,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 52.7
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -676,7 +696,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:

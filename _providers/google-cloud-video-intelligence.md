@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: The Operations API from Google Cloud Video Intelligence — 1 operation(s) for operations.
+- baseURL: https://videointelligence.googleapis.com
+  baseurl_source: declared
+  description: The Operations API from Google Cloud Video Intelligence — 1 operation(s) for operations.
   name: Google Cloud Video Intelligence Operations API
   slug: google-cloud-video-intelligence-operations-api
-- description: The Videos:annotate API from Google Cloud Video Intelligence — 1 operation(s) for videos:annotate.
+- baseURL: https://videointelligence.googleapis.com
+  baseurl_source: declared
+  description: The Videos:annotate API from Google Cloud Video Intelligence — 1 operation(s) for videos:annotate.
   name: Google Cloud Video Intelligence Videos:annotate API
   slug: google-cloud-video-intelligence-videos-annotate-api
 artifact_total: 17
@@ -209,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-video-intelligence/refs/heads/main/screenshots/google-cloud-video-intelligence-2026-06-20T182146.png
 security:

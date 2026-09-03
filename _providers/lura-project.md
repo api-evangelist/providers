@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Lura Framework is an open-source Go library for building ultra-high-performance API gateways with middleware support. It provides core packages for configuration, routing, proxying, logging, plugi
@@ -133,7 +133,7 @@ score:
     score: 100.0
   previous_composite: 27.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lura-project/refs/heads/main/screenshots/lura-project-2026-06-20T184802.png
 security:

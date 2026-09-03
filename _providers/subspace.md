@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 11 operations · 7 acting
 api_count: 1
 apis:
-- description: The AcceleratorService API from Subspace — 2 operation(s) for acceleratorservice.
+- baseURL: https://api.subspace.com/v1
+  baseurl_source: declared
+  description: The AcceleratorService API from Subspace — 2 operation(s) for acceleratorservice.
   name: Subspace AcceleratorService API
   slug: subspace-acceleratorservice-api
-- description: The SipTeleportService API from Subspace — 2 operation(s) for sipteleportservice.
+- baseURL: https://api.subspace.com/v1
+  baseurl_source: declared
+  description: The SipTeleportService API from Subspace — 2 operation(s) for sipteleportservice.
   name: Subspace SipTeleportService API
   slug: subspace-sipteleportservice-api
-- description: The WebRtcCdnService API from Subspace — 1 operation(s) for webrtccdnservice.
+- baseURL: https://api.subspace.com/v1
+  baseurl_source: declared
+  description: The WebRtcCdnService API from Subspace — 1 operation(s) for webrtccdnservice.
   name: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
 artifact_total: 13
@@ -193,7 +199,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -219,8 +225,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/screenshots/subspace-2026-09-02T161100.png
 security:
 - kind: authentication
   name: Subspace Authentication

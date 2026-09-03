@@ -33,76 +33,122 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The API Status API from Nym Technologies — 3 operation(s) for api status.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The API Status API from Nym Technologies — 3 operation(s) for api status.
   name: Nym Technologies API Status API
   slug: nym-technologies-api-status-api
-- description: The circulating-supply API from Nym Technologies — 3 operation(s) for circulating-supply.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The circulating-supply API from Nym Technologies — 3 operation(s) for circulating-supply.
   name: Nym Technologies circulating-supply API
   slug: nym-technologies-circulating-supply-api
-- description: The contract-cache API from Nym Technologies — 5 operation(s) for contract-cache.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The contract-cache API from Nym Technologies — 5 operation(s) for contract-cache.
   name: Nym Technologies contract-cache API
   slug: nym-technologies-contract-cache-api
-- description: The dVPN Directory Cache API from Nym Technologies — 9 operation(s) for dvpn directory cache.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The dVPN Directory Cache API from Nym Technologies — 9 operation(s) for dvpn directory cache.
   name: Nym Technologies dVPN Directory Cache API
   slug: nym-technologies-dvpn-directory-cache-api
-- description: The Ecash API from Nym Technologies — 13 operation(s) for ecash.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Ecash API from Nym Technologies — 13 operation(s) for ecash.
   name: Nym Technologies Ecash API
   slug: nym-technologies-ecash-api
-- description: The Ecash Global Data API from Nym Technologies — 3 operation(s) for ecash global data.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Ecash Global Data API from Nym Technologies — 3 operation(s) for ecash global data.
   name: Nym Technologies Ecash Global Data API
   slug: nym-technologies-ecash-global-data-api
-- description: The Gateways API from Nym Technologies — 3 operation(s) for gateways.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Gateways API from Nym Technologies — 3 operation(s) for gateways.
   name: Nym Technologies Gateways API
   slug: nym-technologies-gateways-api
-- description: The Mixnodes API from Nym Technologies — 1 operation(s) for mixnodes.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Mixnodes API from Nym Technologies — 1 operation(s) for mixnodes.
   name: Nym Technologies Mixnodes API
   slug: nym-technologies-mixnodes-api
-- description: The network API from Nym Technologies — 7 operation(s) for network.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The network API from Nym Technologies — 7 operation(s) for network.
   name: Nym Technologies network API
   slug: nym-technologies-network-api
-- description: The network-monitor-status API from Nym Technologies — 4 operation(s) for network-monitor-status.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The network-monitor-status API from Nym Technologies — 4 operation(s) for network-monitor-status.
   name: Nym Technologies network-monitor-status API
   slug: nym-technologies-network-monitor-status-api
-- description: The Node Families API from Nym Technologies — 3 operation(s) for node families.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Node Families API from Nym Technologies — 3 operation(s) for node families.
   name: Nym Technologies Node Families API
   slug: nym-technologies-node-families-api
-- description: The Nym Explorer API from Nym Technologies — 2 operation(s) for nym explorer.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Nym Explorer API from Nym Technologies — 2 operation(s) for nym explorer.
   name: Nym Technologies Nym Explorer API
   slug: nym-technologies-nym-explorer-api
-- description: The Nym Nodes API from Nym Technologies — 15 operation(s) for nym nodes.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Nym Nodes API from Nym Technologies — 15 operation(s) for nym nodes.
   name: Nym Technologies Nym Nodes API
   slug: nym-technologies-nym-nodes-api
-- description: The Services API from Nym Technologies — 1 operation(s) for services.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Services API from Nym Technologies — 1 operation(s) for services.
   name: Nym Technologies Services API
   slug: nym-technologies-services-api
-- description: The Sessions API from Nym Technologies — 1 operation(s) for sessions.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Sessions API from Nym Technologies — 1 operation(s) for sessions.
   name: Nym Technologies Sessions API
   slug: nym-technologies-sessions-api
-- description: The Status API from Nym Technologies — 5 operation(s) for status.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Status API from Nym Technologies — 5 operation(s) for status.
   name: Nym Technologies Status API
   slug: nym-technologies-status-api
-- description: The Summary API from Nym Technologies — 2 operation(s) for summary.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Summary API from Nym Technologies — 2 operation(s) for summary.
   name: Nym Technologies Summary API
   slug: nym-technologies-summary-api
-- description: The Unstable API from Nym Technologies — 1 operation(s) for unstable.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Unstable API from Nym Technologies — 1 operation(s) for unstable.
   name: Nym Technologies Unstable API
   slug: nym-technologies-unstable-api
-- description: The UNSTABLE - DO **NOT** USE API from Nym Technologies — 4 operation(s) for unstable - do **not** use.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The UNSTABLE - DO **NOT** USE API from Nym Technologies — 4 operation(s) for unstable - do **not** use.
   name: Nym Technologies UNSTABLE - DO **NOT** USE API
   slug: nym-technologies-unstable-do-not-use-api
-- description: The Unstable Nym Nodes API from Nym Technologies — 13 operation(s) for unstable nym nodes.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Unstable Nym Nodes API from Nym Technologies — 13 operation(s) for unstable nym nodes.
   name: Nym Technologies Unstable Nym Nodes API
   slug: nym-technologies-unstable-nym-nodes-api
-- description: The Unstable Nym Nodes v2 API from Nym Technologies — 6 operation(s) for unstable nym nodes v2.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Unstable Nym Nodes v2 API from Nym Technologies — 6 operation(s) for unstable nym nodes v2.
   name: Nym Technologies Unstable Nym Nodes v2 API
   slug: nym-technologies-unstable-nym-nodes-v2-api
-- description: The Unstable Nym Nodes v3 API from Nym Technologies — 1 operation(s) for unstable nym nodes v3.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Unstable Nym Nodes v3 API from Nym Technologies — 1 operation(s) for unstable nym nodes v3.
   name: Nym Technologies Unstable Nym Nodes v3 API
   slug: nym-technologies-unstable-nym-nodes-v3-api
-- description: The Utility API from Nym Technologies — 4 operation(s) for utility.
+- baseURL: https://validator.nymtech.net/api
+  baseurl_source: declared
+  description: The Utility API from Nym Technologies — 4 operation(s) for utility.
   name: Nym Technologies Utility API
   slug: nym-technologies-utility-api
 artifact_total: 52
@@ -366,7 +412,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
 security:

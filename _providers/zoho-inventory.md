@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 356
   human_in_the_loop: 4
@@ -44,115 +44,189 @@ agentic_access:
   summary_line: 504 operations · 356 acting · 4 human-in-the-loop
 api_count: 37
 apis:
-- description: Batches Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Batches Module
   name: Zoho Inventory batches API
   slug: zoho-inventory-batches-api
-- description: Bills Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Bills Module
   name: Zoho Inventory bills API
   slug: zoho-inventory-bills-api
-- description: CompositeItems Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: CompositeItems Module
   name: Zoho Inventory compositeitems API
   slug: zoho-inventory-compositeitems-api
-- description: Contact-Persons Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Contact-Persons Module
   name: Zoho Inventory contact-persons API
   slug: zoho-inventory-contact-persons-api
-- description: Contacts Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Contacts Module
   name: Zoho Inventory contacts API
   slug: zoho-inventory-contacts-api
-- description: Credit-Notes Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Credit-Notes Module
   name: Zoho Inventory credit-notes API
   slug: zoho-inventory-credit-notes-api
-- description: Currency Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Currency Module
   name: Zoho Inventory currency API
   slug: zoho-inventory-currency-api
-- description: Customer-Payments Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Customer-Payments Module
   name: Zoho Inventory customer-payments API
   slug: zoho-inventory-customer-payments-api
-- description: Delivery Challans Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Delivery Challans Module
   name: Zoho Inventory delivery-challans API
   slug: zoho-inventory-delivery-challans-api
-- description: Inventory Adjustments Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Inventory Adjustments Module
   name: Zoho Inventory inventoryadjustments API
   slug: zoho-inventory-inventoryadjustments-api
-- description: Invoices Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Invoices Module
   name: Zoho Inventory invoices API
   slug: zoho-inventory-invoices-api
-- description: ItemGroups Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: ItemGroups Module
   name: Zoho Inventory itemgroups API
   slug: zoho-inventory-itemgroups-api
-- description: Items Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Items Module
   name: Zoho Inventory items API
   slug: zoho-inventory-items-api
-- description: LandedCosts Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: LandedCosts Module
   name: Zoho Inventory landedcosts API
   slug: zoho-inventory-landedcosts-api
-- description: Locations Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Locations Module
   name: Zoho Inventory locations API
   slug: zoho-inventory-locations-api
-- description: MoveOrders Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: MoveOrders Module
   name: Zoho Inventory moveorders API
   slug: zoho-inventory-moveorders-api
-- description: Organizations Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Organizations Module
   name: Zoho Inventory organizations API
   slug: zoho-inventory-organizations-api
-- description: Packages Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Packages Module
   name: Zoho Inventory packages API
   slug: zoho-inventory-packages-api
-- description: Picklists Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Picklists Module
   name: Zoho Inventory picklists API
   slug: zoho-inventory-picklists-api
-- description: PriceLists Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: PriceLists Module
   name: Zoho Inventory pricelists API
   slug: zoho-inventory-pricelists-api
-- description: PurchaseOrders Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: PurchaseOrders Module
   name: Zoho Inventory purchaseorders API
   slug: zoho-inventory-purchaseorders-api
-- description: PurchaseReceives Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: PurchaseReceives Module
   name: Zoho Inventory purchasereceives API
   slug: zoho-inventory-purchasereceives-api
-- description: Putaways Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Putaways Module
   name: Zoho Inventory putaways API
   slug: zoho-inventory-putaways-api
-- description: Replenishment Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Replenishment Module
   name: Zoho Inventory replenishment API
   slug: zoho-inventory-replenishment-api
-- description: Reporting Tags Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Reporting Tags Module
   name: Zoho Inventory reporting-tags API
   slug: zoho-inventory-reporting-tags-api
-- description: Retainer-Invoices Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Retainer-Invoices Module
   name: Zoho Inventory retainer-invoices API
   slug: zoho-inventory-retainer-invoices-api
-- description: SalesOrders Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: SalesOrders Module
   name: Zoho Inventory salesorders API
   slug: zoho-inventory-salesorders-api
-- description: SalesReturns Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: SalesReturns Module
   name: Zoho Inventory salesreturns API
   slug: zoho-inventory-salesreturns-api
-- description: Serial Numbers Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Serial Numbers Module
   name: Zoho Inventory serialnumbers API
   slug: zoho-inventory-serialnumbers-api
-- description: ShipmentOrders Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: ShipmentOrders Module
   name: Zoho Inventory shipmentorders API
   slug: zoho-inventory-shipmentorders-api
-- description: Bin Locations Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Bin Locations Module
   name: Zoho Inventory storagelocations API
   slug: zoho-inventory-storagelocations-api
-- description: Task Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Task Module
   name: Zoho Inventory tasks API
   slug: zoho-inventory-tasks-api
-- description: Taxes Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Taxes Module
   name: Zoho Inventory taxes API
   slug: zoho-inventory-taxes-api
-- description: TransferOrders Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: TransferOrders Module
   name: Zoho Inventory transferorders API
   slug: zoho-inventory-transferorders-api
-- description: Units of Measurement Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Units of Measurement Module
   name: Zoho Inventory unit_of_measurement API
   slug: zoho-inventory-unit-of-measurement-api
-- description: Users Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Users Module
   name: Zoho Inventory users API
   slug: zoho-inventory-users-api
-- description: Vendor-Credits Module
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Vendor-Credits Module
   name: Zoho Inventory vendor-credits API
   slug: zoho-inventory-vendor-credits-api
 artifact_total: 124
@@ -539,7 +613,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/screenshots/zoho-inventory-2026-06-20T201942.png
 security:

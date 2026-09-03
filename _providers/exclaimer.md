@@ -32,34 +32,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: The End Users API from Exclaimer — 1 operation(s) for end users.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The End Users API from Exclaimer — 1 operation(s) for end users.
   name: Exclaimer End Users API
   slug: exclaimer-end-users-api
-- description: The Mailboxes API from Exclaimer — 1 operation(s) for mailboxes.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Mailboxes API from Exclaimer — 1 operation(s) for mailboxes.
   name: Exclaimer Mailboxes API
   slug: exclaimer-mailboxes-api
-- description: The Miscellaneous API from Exclaimer — 2 operation(s) for miscellaneous.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Miscellaneous API from Exclaimer — 2 operation(s) for miscellaneous.
   name: Exclaimer Miscellaneous API
   slug: exclaimer-miscellaneous-api
-- description: The MSP API from Exclaimer — 4 operation(s) for msp.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The MSP API from Exclaimer — 4 operation(s) for msp.
   name: Exclaimer MSP API
   slug: exclaimer-msp-api
-- description: The Reference Resources API from Exclaimer — 3 operation(s) for reference resources.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Reference Resources API from Exclaimer — 3 operation(s) for reference resources.
   name: Exclaimer Reference Resources API
   slug: exclaimer-reference-resources-api
-- description: The Resellers API from Exclaimer — 1 operation(s) for resellers.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Resellers API from Exclaimer — 1 operation(s) for resellers.
   name: Exclaimer Resellers API
   slug: exclaimer-resellers-api
-- description: The Subscription Transfers API from Exclaimer — 3 operation(s) for subscription transfers.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Subscription Transfers API from Exclaimer — 3 operation(s) for subscription transfers.
   name: Exclaimer Subscription Transfers API
   slug: exclaimer-subscription-transfers-api
-- description: The Subscription Users API from Exclaimer — 4 operation(s) for subscription users.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Subscription Users API from Exclaimer — 4 operation(s) for subscription users.
   name: Exclaimer Subscription Users API
   slug: exclaimer-subscription-users-api
-- description: The Subscriptions API from Exclaimer — 13 operation(s) for subscriptions.
+- baseURL: https://cloudapi.exclaimer.com/exclaimerapi
+  baseurl_source: declared
+  description: The Subscriptions API from Exclaimer — 13 operation(s) for subscriptions.
   name: Exclaimer Subscriptions API
   slug: exclaimer-subscriptions-api
 artifact_total: 24
@@ -254,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/screenshots/exclaimer-2026-07-25T213850.png
 security:

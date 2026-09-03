@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: REST API for managing Capsule parties (contacts and organisations), opportunities, projects (cases), tasks, users, tags, and custom fields. Each request must include an Authorization Bearer token obta
   name: Capsule CRM API v2
   slug: v2-api
-- description: The Entries API from Capsule CRM — 2 operation(s) for entries.
+- baseURL: https://api.capsulecrm.com/api/v2/
+  baseurl_source: declared
+  description: The Entries API from Capsule CRM — 2 operation(s) for entries.
   name: Capsule CRM Entries API
   slug: capsule-crm-entries-api
-- description: The Opportunities API from Capsule CRM — 3 operation(s) for opportunities.
+- baseURL: https://api.capsulecrm.com/api/v2/
+  baseurl_source: declared
+  description: The Opportunities API from Capsule CRM — 3 operation(s) for opportunities.
   name: Capsule CRM Opportunities API
   slug: capsule-crm-opportunities-api
-- description: The Parties API from Capsule CRM — 4 operation(s) for parties.
+- baseURL: https://api.capsulecrm.com/api/v2/
+  baseurl_source: declared
+  description: The Parties API from Capsule CRM — 4 operation(s) for parties.
   name: Capsule CRM Parties API
   slug: capsule-crm-parties-api
-- description: The Projects API from Capsule CRM — 2 operation(s) for projects.
+- baseURL: https://api.capsulecrm.com/api/v2/
+  baseurl_source: declared
+  description: The Projects API from Capsule CRM — 2 operation(s) for projects.
   name: Capsule CRM Projects API
   slug: capsule-crm-projects-api
-- description: The Tasks API from Capsule CRM — 2 operation(s) for tasks.
+- baseURL: https://api.capsulecrm.com/api/v2/
+  baseurl_source: declared
+  description: The Tasks API from Capsule CRM — 2 operation(s) for tasks.
   name: Capsule CRM Tasks API
   slug: capsule-crm-tasks-api
 artifact_total: 17
@@ -177,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/screenshots/capsule-crm-2026-06-20T173943.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 29 operations · 28 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Data source package management operations
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Data source package management operations
   name: Amazon Detective Datasources API
   slug: amazon-detective-datasources-api
-- description: Behavior graph management operations
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Behavior graph management operations
   name: Amazon Detective Graph API
   slug: amazon-detective-graph-api
-- description: Security investigation operations
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Security investigation operations
   name: Amazon Detective Investigations API
   slug: amazon-detective-investigations-api
-- description: Invitation management for member accounts
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Invitation management for member accounts
   name: Amazon Detective Invitations API
   slug: amazon-detective-invitations-api
-- description: Member account management operations
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Member account management operations
   name: Amazon Detective Members API
   slug: amazon-detective-members-api
-- description: AWS Organizations integration operations
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: AWS Organizations integration operations
   name: Amazon Detective Organizations API
   slug: amazon-detective-organizations-api
-- description: Resource tagging operations
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Resource tagging operations
   name: Amazon Detective Tags API
   slug: amazon-detective-tags-api
 arazzos:
@@ -824,7 +838,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/screenshots/amazon-detective-2026-06-20T171627.png
 security:

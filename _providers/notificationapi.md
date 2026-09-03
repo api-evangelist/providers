@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 11 acting
 api_count: 1
 apis:
-- description: Read and update a user's in-app (INAPP_WEB) notifications.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Read and update a user's in-app (INAPP_WEB) notifications.
   name: NotificationAPI In-App Inbox API
   slug: notificationapi-in-app-inbox-api
-- description: Query delivery and event logs.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Query delivery and event logs.
   name: NotificationAPI Logs API
   slug: notificationapi-logs-api
-- description: Configure notifications and their subNotifications.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Configure notifications and their subNotifications.
   name: NotificationAPI Notifications API
   slug: notificationapi-notifications-api
-- description: Update or delete scheduled notifications.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Update or delete scheduled notifications.
   name: NotificationAPI Schedule API
   slug: notificationapi-schedule-api
-- description: Send and retract notifications across channels.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Send and retract notifications across channels.
   name: NotificationAPI Send API
   slug: notificationapi-send-api
-- description: Read and write per-user channel and opt-out preferences.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Read and write per-user channel and opt-out preferences.
   name: NotificationAPI User Preferences API
   slug: notificationapi-user-preferences-api
-- description: Identify and manage the users you notify.
+- baseURL: https://api.notificationapi.com/{clientId}
+  baseurl_source: declared
+  description: Identify and manage the users you notify.
   name: NotificationAPI Users API
   slug: notificationapi-users-api
 artifact_total: 22
@@ -197,7 +211,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/screenshots/notificationapi-2026-08-07T185548.png
 security:

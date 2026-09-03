@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Apps API from SideQuest — 1 operation(s) for apps.
+- baseURL: https://api.sidequestvr.com
+  baseurl_source: declared
+  description: The Apps API from SideQuest — 1 operation(s) for apps.
   name: SideQuest Apps API
   slug: sidequest-apps-api
-- description: The Developers API from SideQuest — 1 operation(s) for developers.
+- baseURL: https://api.sidequestvr.com
+  baseurl_source: declared
+  description: The Developers API from SideQuest — 1 operation(s) for developers.
   name: SideQuest Developers API
   slug: sidequest-developers-api
-- description: The OAuth2 API from SideQuest — 3 operation(s) for oauth2.
+- baseURL: https://api.sidequestvr.com
+  baseurl_source: declared
+  description: The OAuth2 API from SideQuest — 3 operation(s) for oauth2.
   name: SideQuest OAuth2 API
   slug: sidequest-oauth2-api
-- description: The Users API from SideQuest — 2 operation(s) for users.
+- baseURL: https://api.sidequestvr.com
+  baseurl_source: declared
+  description: The Users API from SideQuest — 2 operation(s) for users.
   name: SideQuest Users API
   slug: sidequest-users-api
-- description: The UsersApps API from SideQuest — 1 operation(s) for usersapps.
+- baseURL: https://api.sidequestvr.com
+  baseurl_source: declared
+  description: The UsersApps API from SideQuest — 1 operation(s) for usersapps.
   name: SideQuest UsersApps API
   slug: sidequest-usersapps-api
 artifact_total: 15
@@ -162,7 +172,7 @@ score:
   band: thin
   composite: 26.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +197,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/screenshots/sidequest-2026-09-02T155400.png
 security:
 - kind: authentication
   name: Sidequest Authentication

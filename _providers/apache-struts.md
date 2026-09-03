@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Struts REST Plugin provides a convention-based REST API framework for building RESTful services. It maps HTTP methods to action methods (GET→index/show, POST→create, PUT→update, DELETE→destroy) an
   name: Apache Struts REST Plugin
   slug: apache-struts-rest-plugin
-- description: Generic RESTful resource exposed by the Struts REST plugin
+- baseURL_template: http://{host}/{context}
+  baseurl_source: spec_template
+  description: Generic RESTful resource exposed by the Struts REST plugin
   name: Apache Struts resource API
   slug: apache-struts-resource-api
 artifact_total: 27
@@ -211,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-struts/refs/heads/main/screenshots/apache-struts-2026-06-20T172148.png
 security:

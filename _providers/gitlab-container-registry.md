@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Container registry repositories
+- baseURL: https://gitlab.com/api/v4
+  baseurl_source: declared
+  description: Container registry repositories
   name: GitLab Container Registry Repositories API
   slug: gitlab-container-registry-repositories-api
-- description: Container image tags
+- baseURL: https://gitlab.com/api/v4
+  baseurl_source: declared
+  description: Container image tags
   name: GitLab Container Registry Tags API
   slug: gitlab-container-registry-tags-api
 artifact_total: 16
@@ -192,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/screenshots/gitlab-container-registry-2026-06-20T181850.png
 security:

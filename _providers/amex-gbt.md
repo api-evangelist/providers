@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 36
@@ -46,82 +46,134 @@ agentic_access:
   summary_line: 171 operations · 97 acting · 36 human-in-the-loop
 api_count: 17
 apis:
-- description: The Agent Assist Notes API from American Express Global Business Travel — 1 operation(s) for agent assist notes.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The Agent Assist Notes API from American Express Global Business Travel — 1 operation(s) for agent assist notes.
   name: American Express Global Business Travel Agent Assist Notes API
   slug: amex-gbt-agent-assist-notes-api
-- description: Approval interface that will get approval custom detail from external client based on the booking data passed in request
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: Approval interface that will get approval custom detail from external client based on the booking data passed in request
   name: American Express Global Business Travel Approval API
   slug: amex-gbt-approval-api
-- description: The availability-probes-controller API from American Express Global Business Travel — 2 operation(s) for availability-probes-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The availability-probes-controller API from American Express Global Business Travel — 2 operation(s) for availability-probes-controller.
   name: American Express Global Business Travel Availability Probes Controller API
   slug: amex-gbt-availability-probes-controller-api
-- description: The bookings v1 API from American Express Global Business Travel — 12 operation(s) for bookings v1.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The bookings v1 API from American Express Global Business Travel — 12 operation(s) for bookings v1.
   name: American Express Global Business Travel bookings v1 API
   slug: amex-gbt-bookings-v1-api
-- description: The bookings v2 API from American Express Global Business Travel — 2 operation(s) for bookings v2.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The bookings v2 API from American Express Global Business Travel — 2 operation(s) for bookings v2.
   name: American Express Global Business Travel bookings v2 API
   slug: amex-gbt-bookings-v2-api
-- description: The Company Details API from American Express Global Business Travel — 2 operation(s) for company details.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The Company Details API from American Express Global Business Travel — 2 operation(s) for company details.
   name: American Express Global Business Travel Company Details API
   slug: amex-gbt-company-details-api
-- description: The custom-data-field-cleanup-controller API from American Express Global Business Travel — 1 operation(s) for custom-data-field-cleanup-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The custom-data-field-cleanup-controller API from American Express Global Business Travel — 1 operation(s) for custom-data-field-cleanup-controller.
   name: American Express Global Business Travel Custom Data Field Cleanup Controller API
   slug: amex-gbt-custom-data-field-cleanup-controller-api
-- description: CDF APIs to retrieve Definitions and Manage Values.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: CDF APIs to retrieve Definitions and Manage Values.
   name: American Express Global Business Travel Custom Data Fields (CDF) API
   slug: amex-gbt-custom-data-fields-cdf-api
-- description: The doc-audit-clean-up-controller API from American Express Global Business Travel — 1 operation(s) for doc-audit-clean-up-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The doc-audit-clean-up-controller API from American Express Global Business Travel — 1 operation(s) for doc-audit-clean-up-controller.
   name: American Express Global Business Travel Doc Audit Clean Up Controller API
   slug: amex-gbt-doc-audit-clean-up-controller-api
-- description: The DutyOfCare Data API from American Express Global Business Travel — 2 operation(s) for dutyofcare data.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The DutyOfCare Data API from American Express Global Business Travel — 2 operation(s) for dutyofcare data.
   name: American Express Global Business Travel DutyOfCare Data API
   slug: amex-gbt-dutyofcare-data-api
-- description: The ecommerce-settings-controller API from American Express Global Business Travel — 2 operation(s) for ecommerce-settings-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The ecommerce-settings-controller API from American Express Global Business Travel — 2 operation(s) for ecommerce-settings-controller.
   name: American Express Global Business Travel Ecommerce Settings Controller API
   slug: amex-gbt-ecommerce-settings-controller-api
-- description: Push Expense and Subscription Operation. This is only an example. The path and the host are specific for each implementor. However, the model is fixed and versioned.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: Push Expense and Subscription Operation. This is only an example. The path and the host are specific for each implementor. However, the model is fixed and versioned.
   name: American Express Global Business Travel Expense SPI API
   slug: amex-gbt-expense-spi-api
-- description: The gdpr-controller API from American Express Global Business Travel — 1 operation(s) for gdpr-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The gdpr-controller API from American Express Global Business Travel — 1 operation(s) for gdpr-controller.
   name: American Express Global Business Travel Gdpr Controller API
   slug: amex-gbt-gdpr-controller-api
-- description: The pos-iata-controller API from American Express Global Business Travel — 1 operation(s) for pos-iata-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The pos-iata-controller API from American Express Global Business Travel — 1 operation(s) for pos-iata-controller.
   name: American Express Global Business Travel Pos Iata Controller API
   slug: amex-gbt-pos-iata-controller-api
-- description: The receipts API from American Express Global Business Travel — 1 operation(s) for receipts.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The receipts API from American Express Global Business Travel — 1 operation(s) for receipts.
   name: American Express Global Business Travel Receipts API
   slug: amex-gbt-receipts-api
-- description: The redirection-controller API from American Express Global Business Travel — 2 operation(s) for redirection-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The redirection-controller API from American Express Global Business Travel — 2 operation(s) for redirection-controller.
   name: American Express Global Business Travel Redirection Controller API
   slug: amex-gbt-redirection-controller-api
-- description: The resolve-controller API from American Express Global Business Travel — 1 operation(s) for resolve-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The resolve-controller API from American Express Global Business Travel — 1 operation(s) for resolve-controller.
   name: American Express Global Business Travel Resolve Controller API
   slug: amex-gbt-resolve-controller-api
-- description: The schemas-controller API from American Express Global Business Travel — 2 operation(s) for schemas-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The schemas-controller API from American Express Global Business Travel — 2 operation(s) for schemas-controller.
   name: American Express Global Business Travel Schemas Controller API
   slug: amex-gbt-schemas-controller-api
-- description: SCIM 2.0 compliant user sync APIs
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: SCIM 2.0 compliant user sync APIs
   name: American Express Global Business Travel SCIM User Sync V1 API
   slug: amex-gbt-scim-user-sync-v1-api
-- description: SCIM 2.0 compliant user sync APIs version 2.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: SCIM 2.0 compliant user sync APIs version 2.
   name: American Express Global Business Travel SCIM User Sync V2 API
   slug: amex-gbt-scim-user-sync-v2-api
-- description: SCIM 2.0 compliant user sync APIs version 3.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: SCIM 2.0 compliant user sync APIs version 3.
   name: American Express Global Business Travel SCIM User Sync V3 API
   slug: amex-gbt-scim-user-sync-v3-api
-- description: SCIM 2.0 compliant admin-users sync APIs
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: SCIM 2.0 compliant admin-users sync APIs
   name: American Express Global Business Travel SCIM V1 Admin Users API
   slug: amex-gbt-scim-v1-admin-users-api
-- description: The Third Party Acknowledgement API from American Express Global Business Travel — 1 operation(s) for third party acknowledgement.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The Third Party Acknowledgement API from American Express Global Business Travel — 1 operation(s) for third party acknowledgement.
   name: American Express Global Business Travel Third Party Acknowledgement API
   slug: amex-gbt-third-party-acknowledgement-api
-- description: Transaction data operations
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: Transaction data operations
   name: American Express Global Business Travel Transaction Service Controller API
   slug: amex-gbt-transaction-service-controller-api
-- description: Validation interface that will request authorization of booking based on the data provided at checkout time.This is only an example. The path and the host are specific for each implementor. However, t
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: Validation interface that will request authorization of booking based on the data provided at checkout time.This is only an example. The path and the host are specific for each implementor. However, t
   name: American Express Global Business Travel Validation API
   slug: amex-gbt-validation-api
-- description: The version-controller API from American Express Global Business Travel — 1 operation(s) for version-controller.
+- baseURL: https://apis.egencia.com/openconnect/api
+  baseurl_source: declared
+  description: The version-controller API from American Express Global Business Travel — 1 operation(s) for version-controller.
   name: American Express Global Business Travel Version Controller API
   slug: amex-gbt-version-controller-api
 artifact_total: 50
@@ -444,7 +496,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -454,7 +506,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 44.7
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -466,7 +518,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

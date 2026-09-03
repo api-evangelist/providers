@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -50,7 +50,9 @@ apis:
 - description: Pulumi is a modern infrastructure as code platform that uses general-purpose programming languages (TypeScript, Python, Go, C#, Java, YAML). The Pulumi Cloud API manages stacks, deployments, environme
   name: Pulumi Cloud API
   slug: pulumi-cloud-api
-- description: The EC2 API from Scalable Infrastructure — 1 operation(s) for ec2.
+- baseURL_template: https://ec2.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: The EC2 API from Scalable Infrastructure — 1 operation(s) for ec2.
   name: Scalable Infrastructure EC2 API
   slug: scalable-infrastructure-ec2-api
 artifact_total: 19
@@ -197,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/refs/heads/main/screenshots/scalable-infrastructure-2026-06-20T193459.png
 security:

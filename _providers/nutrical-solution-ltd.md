@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 21 operations · 9 acting
 api_count: 1
 apis:
-- description: Provision entities that own recipes and receive a client access token.
+- baseURL: https://api.nutrical.co
+  baseurl_source: declared
+  description: Provision entities that own recipes and receive a client access token.
   name: Nutrical Solution Ltd Entity API
   slug: nutrical-solution-ltd-entity-api
-- description: Search the NutriCal ingredient database (USDA + NutriCal sources).
+- baseURL: https://api.nutrical.co
+  baseurl_source: declared
+  description: Search the NutriCal ingredient database (USDA + NutriCal sources).
   name: Nutrical Solution Ltd Ingredients API
   slug: nutrical-solution-ltd-ingredients-api
-- description: Manage meal plans and meal-plan customers.
+- baseURL: https://api.nutrical.co
+  baseurl_source: declared
+  description: Manage meal plans and meal-plan customers.
   name: Nutrical Solution Ltd Meal Plans API
   slug: nutrical-solution-ltd-meal-plans-api
-- description: Public nutrient and allergen reference data.
+- baseURL: https://api.nutrical.co
+  baseurl_source: declared
+  description: Public nutrient and allergen reference data.
   name: Nutrical Solution Ltd Metadata API
   slug: nutrical-solution-ltd-metadata-api
-- description: Manage recipe categories and sub-categories.
+- baseURL: https://api.nutrical.co
+  baseurl_source: declared
+  description: Manage recipe categories and sub-categories.
   name: Nutrical Solution Ltd Recipe Categories API
   slug: nutrical-solution-ltd-recipe-categories-api
-- description: Create, read, update, and delete recipes with nutrition analysis.
+- baseURL: https://api.nutrical.co
+  baseurl_source: declared
+  description: Create, read, update, and delete recipes with nutrition analysis.
   name: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
 artifact_total: 17
@@ -246,7 +258,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:

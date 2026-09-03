@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: The Aflac Claims API provides programmatic access to supplemental insurance claim submission, status retrieval, and benefit payment tracking. It enables policyholders and administrators to submit clai
   name: Aflac Claims API
   slug: claims-api
-- description: Claims submission and status retrieval operations.
+- baseURL: https://api.enterprise-connect.aflac.com
+  baseurl_source: declared
+  description: Claims submission and status retrieval operations.
   name: aflac Claims API
   slug: aflac-claims-api
-- description: Employee eligibility verification operations.
+- baseURL: https://api.enterprise-connect.aflac.com
+  baseurl_source: declared
+  description: Employee eligibility verification operations.
   name: aflac Eligibility API
   slug: aflac-eligibility-api
-- description: Benefits enrollment operations for supplemental insurance products.
+- baseURL: https://api.enterprise-connect.aflac.com
+  baseurl_source: declared
+  description: Benefits enrollment operations for supplemental insurance products.
   name: aflac Enrollment API
   slug: aflac-enrollment-api
-- description: Employer group management operations.
+- baseURL: https://api.enterprise-connect.aflac.com
+  baseurl_source: declared
+  description: Employer group management operations.
   name: aflac Groups API
   slug: aflac-groups-api
-- description: Policy management and retrieval operations.
+- baseURL: https://api.enterprise-connect.aflac.com
+  baseurl_source: declared
+  description: Policy management and retrieval operations.
   name: aflac Policies API
   slug: aflac-policies-api
 artifact_total: 77
@@ -471,16 +481,16 @@ jsonld:
   slug: aflac-enterprise-context
 layout: provider
 modified: '2026-04-19'
-name: aflac
+name: Aflac
 nav: Providers
 network: true
-overview: 'aflac publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Enrollment API, and 2 more. Tagged areas include Fortune 500.
+overview: 'Aflac publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Enrollment API, and 2 more. Tagged areas include Fortune 500.
 
 
-  The aflac catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Aflac catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  aflac''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, code examples, and 51 more developer resources.'
+  Aflac''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, code examples, and 51 more developer resources.'
 plans:
 - name: Aflac Plans Pricing
   plan_count: 2
@@ -509,7 +519,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: aflac API Rules
+  name: Aflac API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -520,7 +530,7 @@ rules:
 - effective_rule_count: 71
   extends:
   - spectral:oas
-  name: aflac API Rules
+  name: Aflac API Rules
   rule_count: 30
   severity_counts:
     error: 14
@@ -560,7 +570,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:

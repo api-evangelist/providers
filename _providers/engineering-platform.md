@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1382
   human_in_the_loop: 36
@@ -50,1411 +50,2349 @@ apis:
 - description: EasyCron is used to run automated tasks, making API calls on a variety of schedules, using all of the APIs produced and consumed.
   name: EasyCron
   slug: aws-s3
-- description: The 2014 11 13 API from APIs.io Engineering Platform — 1 operation(s) for 2014 11 13.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2014 11 13 API from APIs.io Engineering Platform — 1 operation(s) for 2014 11 13.
   name: APIs.io Engineering Platform 2014 11 13 API
   slug: engineering-platform-2014-11-13-api
-- description: The 2015 03 31 API from APIs.io Engineering Platform — 13 operation(s) for 2015 03 31.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2015 03 31 API from APIs.io Engineering Platform — 13 operation(s) for 2015 03 31.
   name: APIs.io Engineering Platform 2015 03 31 API
   slug: engineering-platform-2015-03-31-api
-- description: The 2016 08 19 API from APIs.io Engineering Platform — 1 operation(s) for 2016 08 19.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2016 08 19 API from APIs.io Engineering Platform — 1 operation(s) for 2016 08 19.
   name: APIs.io Engineering Platform 2016 08 19 API
   slug: engineering-platform-2016-08-19-api
-- description: The 2017 03 31 API from APIs.io Engineering Platform — 2 operation(s) for 2017 03 31.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2017 03 31 API from APIs.io Engineering Platform — 2 operation(s) for 2017 03 31.
   name: APIs.io Engineering Platform 2017 03 31 API
   slug: engineering-platform-2017-03-31-api
-- description: The 2017 10 31 API from APIs.io Engineering Platform — 1 operation(s) for 2017 10 31.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2017 10 31 API from APIs.io Engineering Platform — 1 operation(s) for 2017 10 31.
   name: APIs.io Engineering Platform 2017 10 31 API
   slug: engineering-platform-2017-10-31-api
-- description: The 2018 10 31 API from APIs.io Engineering Platform — 6 operation(s) for 2018 10 31.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2018 10 31 API from APIs.io Engineering Platform — 6 operation(s) for 2018 10 31.
   name: APIs.io Engineering Platform 2018 10 31 API
   slug: engineering-platform-2018-10-31-api
-- description: The 2019 09 25 API from APIs.io Engineering Platform — 2 operation(s) for 2019 09 25.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2019 09 25 API from APIs.io Engineering Platform — 2 operation(s) for 2019 09 25.
   name: APIs.io Engineering Platform 2019 09 25 API
   slug: engineering-platform-2019-09-25-api
-- description: The 2019 09 30 API from APIs.io Engineering Platform — 3 operation(s) for 2019 09 30.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2019 09 30 API from APIs.io Engineering Platform — 3 operation(s) for 2019 09 30.
   name: APIs.io Engineering Platform 2019 09 30 API
   slug: engineering-platform-2019-09-30-api
-- description: The 2020 04 22 API from APIs.io Engineering Platform — 3 operation(s) for 2020 04 22.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2020 04 22 API from APIs.io Engineering Platform — 3 operation(s) for 2020 04 22.
   name: APIs.io Engineering Platform 2020 04 22 API
   slug: engineering-platform-2020-04-22-api
-- description: The 2020 06 30 API from APIs.io Engineering Platform — 1 operation(s) for 2020 06 30.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2020 06 30 API from APIs.io Engineering Platform — 1 operation(s) for 2020 06 30.
   name: APIs.io Engineering Platform 2020 06 30 API
   slug: engineering-platform-2020-06-30-api
-- description: The 2021 07 20 API from APIs.io Engineering Platform — 1 operation(s) for 2021 07 20.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2021 07 20 API from APIs.io Engineering Platform — 1 operation(s) for 2021 07 20.
   name: APIs.io Engineering Platform 2021 07 20 API
   slug: engineering-platform-2021-07-20-api
-- description: The 2021 10 31 API from APIs.io Engineering Platform — 2 operation(s) for 2021 10 31.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2021 10 31 API from APIs.io Engineering Platform — 2 operation(s) for 2021 10 31.
   name: APIs.io Engineering Platform 2021 10 31 API
   slug: engineering-platform-2021-10-31-api
-- description: The 2021 11 15 API from APIs.io Engineering Platform — 1 operation(s) for 2021 11 15.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The 2021 11 15 API from APIs.io Engineering Platform — 1 operation(s) for 2021 11 15.
   name: APIs.io Engineering Platform 2021 11 15 API
   slug: engineering-platform-2021-11-15-api
-- description: The Access Application-Scoped Policies API from APIs.io Engineering Platform — 2 operation(s) for access application-scoped policies.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Application-Scoped Policies API from APIs.io Engineering Platform — 2 operation(s) for access application-scoped policies.
   name: APIs.io Engineering Platform Access Application-Scoped Policies API
   slug: engineering-platform-access-application-scoped-policies-api
-- description: The Access Applications API from APIs.io Engineering Platform — 4 operation(s) for access applications.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Applications API from APIs.io Engineering Platform — 4 operation(s) for access applications.
   name: APIs.io Engineering Platform Access Applications API
   slug: engineering-platform-access-applications-api
-- description: The Access Authentication Logs API from APIs.io Engineering Platform — 1 operation(s) for access authentication logs.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Authentication Logs API from APIs.io Engineering Platform — 1 operation(s) for access authentication logs.
   name: APIs.io Engineering Platform Access Authentication Logs API
   slug: engineering-platform-access-authentication-logs-api
-- description: The Access Bookmark Applications (Deprecated) API from APIs.io Engineering Platform — 2 operation(s) for access bookmark applications (deprecated).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Bookmark Applications (Deprecated) API from APIs.io Engineering Platform — 2 operation(s) for access bookmark applications (deprecated).
   name: APIs.io Engineering Platform Access Bookmark Applications (Deprecated) API
   slug: engineering-platform-access-bookmark-applications-deprecated-api
-- description: The Access Custom Pages API from APIs.io Engineering Platform — 2 operation(s) for access custom pages.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Custom Pages API from APIs.io Engineering Platform — 2 operation(s) for access custom pages.
   name: APIs.io Engineering Platform Access Custom Pages API
   slug: engineering-platform-access-custom-pages-api
-- description: The Access Groups API from APIs.io Engineering Platform — 2 operation(s) for access groups.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Groups API from APIs.io Engineering Platform — 2 operation(s) for access groups.
   name: APIs.io Engineering Platform Access Groups API
   slug: engineering-platform-access-groups-api
-- description: The Access Identity Providers API from APIs.io Engineering Platform — 2 operation(s) for access identity providers.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Identity Providers API from APIs.io Engineering Platform — 2 operation(s) for access identity providers.
   name: APIs.io Engineering Platform Access Identity Providers API
   slug: engineering-platform-access-identity-providers-api
-- description: The Access Key Configuration API from APIs.io Engineering Platform — 2 operation(s) for access key configuration.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Key Configuration API from APIs.io Engineering Platform — 2 operation(s) for access key configuration.
   name: APIs.io Engineering Platform Access Key Configuration API
   slug: engineering-platform-access-key-configuration-api
-- description: The Access mTLS Authentication API from APIs.io Engineering Platform — 3 operation(s) for access mtls authentication.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access mTLS Authentication API from APIs.io Engineering Platform — 3 operation(s) for access mtls authentication.
   name: APIs.io Engineering Platform Access mTLS Authentication API
   slug: engineering-platform-access-mtls-authentication-api
-- description: The Access Policy Tester API from APIs.io Engineering Platform — 3 operation(s) for access policy tester.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Policy Tester API from APIs.io Engineering Platform — 3 operation(s) for access policy tester.
   name: APIs.io Engineering Platform Access Policy Tester API
   slug: engineering-platform-access-policy-tester-api
-- description: The Access Reusable Policies API from APIs.io Engineering Platform — 2 operation(s) for access reusable policies.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Reusable Policies API from APIs.io Engineering Platform — 2 operation(s) for access reusable policies.
   name: APIs.io Engineering Platform Access Reusable Policies API
   slug: engineering-platform-access-reusable-policies-api
-- description: The Access Service Tokens API from APIs.io Engineering Platform — 4 operation(s) for access service tokens.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Service Tokens API from APIs.io Engineering Platform — 4 operation(s) for access service tokens.
   name: APIs.io Engineering Platform Access Service Tokens API
   slug: engineering-platform-access-service-tokens-api
-- description: The Access Short-Lived Certificate CAs API from APIs.io Engineering Platform — 2 operation(s) for access short-lived certificate cas.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Short-Lived Certificate CAs API from APIs.io Engineering Platform — 2 operation(s) for access short-lived certificate cas.
   name: APIs.io Engineering Platform Access Short-Lived Certificate CAs API
   slug: engineering-platform-access-short-lived-certificate-cas-api
-- description: The Access Tags API from APIs.io Engineering Platform — 2 operation(s) for access tags.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Access Tags API from APIs.io Engineering Platform — 2 operation(s) for access tags.
   name: APIs.io Engineering Platform Access Tags API
   slug: engineering-platform-access-tags-api
-- description: The Account API from APIs.io Engineering Platform — 1 operation(s) for account.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account API from APIs.io Engineering Platform — 1 operation(s) for account.
   name: APIs.io Engineering Platform Account API
   slug: engineering-platform-account-api
-- description: The Account Billing Profile API from APIs.io Engineering Platform — 1 operation(s) for account billing profile.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Billing Profile API from APIs.io Engineering Platform — 1 operation(s) for account billing profile.
   name: APIs.io Engineering Platform Account Billing Profile API
   slug: engineering-platform-account-billing-profile-api
-- description: The Account-Level Custom Nameservers API from APIs.io Engineering Platform — 3 operation(s) for account-level custom nameservers.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account-Level Custom Nameservers API from APIs.io Engineering Platform — 3 operation(s) for account-level custom nameservers.
   name: APIs.io Engineering Platform Account-Level Custom Nameservers API
   slug: engineering-platform-account-level-custom-nameservers-api
-- description: The Account Load Balancer Monitors API from APIs.io Engineering Platform — 5 operation(s) for account load balancer monitors.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Load Balancer Monitors API from APIs.io Engineering Platform — 5 operation(s) for account load balancer monitors.
   name: APIs.io Engineering Platform Account Load Balancer Monitors API
   slug: engineering-platform-account-load-balancer-monitors-api
-- description: The Account Load Balancer Pools API from APIs.io Engineering Platform — 5 operation(s) for account load balancer pools.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Load Balancer Pools API from APIs.io Engineering Platform — 5 operation(s) for account load balancer pools.
   name: APIs.io Engineering Platform Account Load Balancer Pools API
   slug: engineering-platform-account-load-balancer-pools-api
-- description: The Account Load Balancer Search API from APIs.io Engineering Platform — 1 operation(s) for account load balancer search.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Load Balancer Search API from APIs.io Engineering Platform — 1 operation(s) for account load balancer search.
   name: APIs.io Engineering Platform Account Load Balancer Search API
   slug: engineering-platform-account-load-balancer-search-api
-- description: The Account Members API from APIs.io Engineering Platform — 2 operation(s) for account members.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Members API from APIs.io Engineering Platform — 2 operation(s) for account members.
   name: APIs.io Engineering Platform Account Members API
   slug: engineering-platform-account-members-api
-- description: The Account Permission Groups API from APIs.io Engineering Platform — 2 operation(s) for account permission groups.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Permission Groups API from APIs.io Engineering Platform — 2 operation(s) for account permission groups.
   name: APIs.io Engineering Platform Account Permission Groups API
   slug: engineering-platform-account-permission-groups-api
-- description: The Account Request Tracer API from APIs.io Engineering Platform — 1 operation(s) for account request tracer.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Request Tracer API from APIs.io Engineering Platform — 1 operation(s) for account request tracer.
   name: APIs.io Engineering Platform Account Request Tracer API
   slug: engineering-platform-account-request-tracer-api
-- description: The Account Resource Groups API from APIs.io Engineering Platform — 2 operation(s) for account resource groups.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Resource Groups API from APIs.io Engineering Platform — 2 operation(s) for account resource groups.
   name: APIs.io Engineering Platform Account Resource Groups API
   slug: engineering-platform-account-resource-groups-api
-- description: The Account Roles API from APIs.io Engineering Platform — 2 operation(s) for account roles.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Roles API from APIs.io Engineering Platform — 2 operation(s) for account roles.
   name: APIs.io Engineering Platform Account Roles API
   slug: engineering-platform-account-roles-api
-- description: The Account Rulesets API from APIs.io Engineering Platform — 10 operation(s) for account rulesets.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Rulesets API from APIs.io Engineering Platform — 10 operation(s) for account rulesets.
   name: APIs.io Engineering Platform Account Rulesets API
   slug: engineering-platform-account-rulesets-api
-- description: The Account Subscriptions API from APIs.io Engineering Platform — 2 operation(s) for account subscriptions.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Account Subscriptions API from APIs.io Engineering Platform — 2 operation(s) for account subscriptions.
   name: APIs.io Engineering Platform Account Subscriptions API
   slug: engineering-platform-account-subscriptions-api
-- description: The Accounts API from APIs.io Engineering Platform — 2 operation(s) for accounts.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Accounts API from APIs.io Engineering Platform — 2 operation(s) for accounts.
   name: APIs.io Engineering Platform Accounts API
   slug: engineering-platform-accounts-api
-- description: 'The #Action=AddClientIDToOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=addclientidtoopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AddClientIDToOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=addclientidtoopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=AddClientIDToOpenIDConnectProvider API'
   slug: engineering-platform-action-addclientidtoopenidconnectprovider-api
-- description: 'The #Action=AddRoleToInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=addroletoinstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AddRoleToInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=addroletoinstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=AddRoleToInstanceProfile API'
   slug: engineering-platform-action-addroletoinstanceprofile-api
-- description: 'The #Action=AddUserToGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=addusertogroup.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AddUserToGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=addusertogroup.'
   name: 'APIs.io Engineering Platform #Action=AddUserToGroup API'
   slug: engineering-platform-action-addusertogroup-api
-- description: 'The #Action=AttachGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=attachgrouppolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=attachgrouppolicy.'
   name: 'APIs.io Engineering Platform #Action=AttachGroupPolicy API'
   slug: engineering-platform-action-attachgrouppolicy-api
-- description: 'The #Action=AttachRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=attachrolepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=attachrolepolicy.'
   name: 'APIs.io Engineering Platform #Action=AttachRolePolicy API'
   slug: engineering-platform-action-attachrolepolicy-api
-- description: 'The #Action=AttachUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=attachuserpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=attachuserpolicy.'
   name: 'APIs.io Engineering Platform #Action=AttachUserPolicy API'
   slug: engineering-platform-action-attachuserpolicy-api
-- description: 'The #Action=ChangePassword API from APIs.io Engineering Platform — 1 operation(s) for #action=changepassword.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ChangePassword API from APIs.io Engineering Platform — 1 operation(s) for #action=changepassword.'
   name: 'APIs.io Engineering Platform #Action=ChangePassword API'
   slug: engineering-platform-action-changepassword-api
-- description: 'The #Action=CreateAccessKey API from APIs.io Engineering Platform — 1 operation(s) for #action=createaccesskey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateAccessKey API from APIs.io Engineering Platform — 1 operation(s) for #action=createaccesskey.'
   name: 'APIs.io Engineering Platform #Action=CreateAccessKey API'
   slug: engineering-platform-action-createaccesskey-api
-- description: 'The #Action=CreateAccountAlias API from APIs.io Engineering Platform — 1 operation(s) for #action=createaccountalias.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateAccountAlias API from APIs.io Engineering Platform — 1 operation(s) for #action=createaccountalias.'
   name: 'APIs.io Engineering Platform #Action=CreateAccountAlias API'
   slug: engineering-platform-action-createaccountalias-api
-- description: 'The #Action=CreateGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=creategroup.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=creategroup.'
   name: 'APIs.io Engineering Platform #Action=CreateGroup API'
   slug: engineering-platform-action-creategroup-api
-- description: 'The #Action=CreateInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=createinstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=createinstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=CreateInstanceProfile API'
   slug: engineering-platform-action-createinstanceprofile-api
-- description: 'The #Action=CreateLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=createloginprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=createloginprofile.'
   name: 'APIs.io Engineering Platform #Action=CreateLoginProfile API'
   slug: engineering-platform-action-createloginprofile-api
-- description: 'The #Action=CreateOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=createopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=createopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=CreateOpenIDConnectProvider API'
   slug: engineering-platform-action-createopenidconnectprovider-api
-- description: 'The #Action=CreatePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=createpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreatePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=createpolicy.'
   name: 'APIs.io Engineering Platform #Action=CreatePolicy API'
   slug: engineering-platform-action-createpolicy-api
-- description: 'The #Action=CreatePolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=createpolicyversion.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreatePolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=createpolicyversion.'
   name: 'APIs.io Engineering Platform #Action=CreatePolicyVersion API'
   slug: engineering-platform-action-createpolicyversion-api
-- description: 'The #Action=CreateRole API from APIs.io Engineering Platform — 1 operation(s) for #action=createrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateRole API from APIs.io Engineering Platform — 1 operation(s) for #action=createrole.'
   name: 'APIs.io Engineering Platform #Action=CreateRole API'
   slug: engineering-platform-action-createrole-api
-- description: 'The #Action=CreateSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=createsamlprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=createsamlprovider.'
   name: 'APIs.io Engineering Platform #Action=CreateSAMLProvider API'
   slug: engineering-platform-action-createsamlprovider-api
-- description: 'The #Action=CreateServiceLinkedRole API from APIs.io Engineering Platform — 1 operation(s) for #action=createservicelinkedrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateServiceLinkedRole API from APIs.io Engineering Platform — 1 operation(s) for #action=createservicelinkedrole.'
   name: 'APIs.io Engineering Platform #Action=CreateServiceLinkedRole API'
   slug: engineering-platform-action-createservicelinkedrole-api
-- description: 'The #Action=CreateServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=createservicespecificcredential.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=createservicespecificcredential.'
   name: 'APIs.io Engineering Platform #Action=CreateServiceSpecificCredential API'
   slug: engineering-platform-action-createservicespecificcredential-api
-- description: 'The #Action=CreateUser API from APIs.io Engineering Platform — 1 operation(s) for #action=createuser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateUser API from APIs.io Engineering Platform — 1 operation(s) for #action=createuser.'
   name: 'APIs.io Engineering Platform #Action=CreateUser API'
   slug: engineering-platform-action-createuser-api
-- description: 'The #Action=CreateVirtualMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=createvirtualmfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateVirtualMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=createvirtualmfadevice.'
   name: 'APIs.io Engineering Platform #Action=CreateVirtualMFADevice API'
   slug: engineering-platform-action-createvirtualmfadevice-api
-- description: 'The #Action=DeactivateMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=deactivatemfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeactivateMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=deactivatemfadevice.'
   name: 'APIs.io Engineering Platform #Action=DeactivateMFADevice API'
   slug: engineering-platform-action-deactivatemfadevice-api
-- description: 'The #Action=DeleteAccessKey API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteaccesskey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteAccessKey API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteaccesskey.'
   name: 'APIs.io Engineering Platform #Action=DeleteAccessKey API'
   slug: engineering-platform-action-deleteaccesskey-api
-- description: 'The #Action=DeleteAccountAlias API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteaccountalias.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteAccountAlias API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteaccountalias.'
   name: 'APIs.io Engineering Platform #Action=DeleteAccountAlias API'
   slug: engineering-platform-action-deleteaccountalias-api
-- description: 'The #Action=DeleteAccountPasswordPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteaccountpasswordpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteAccountPasswordPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteaccountpasswordpolicy.'
   name: 'APIs.io Engineering Platform #Action=DeleteAccountPasswordPolicy API'
   slug: engineering-platform-action-deleteaccountpasswordpolicy-api
-- description: 'The #Action=DeleteGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=deletegroup.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=deletegroup.'
   name: 'APIs.io Engineering Platform #Action=DeleteGroup API'
   slug: engineering-platform-action-deletegroup-api
-- description: 'The #Action=DeleteGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deletegrouppolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deletegrouppolicy.'
   name: 'APIs.io Engineering Platform #Action=DeleteGroupPolicy API'
   slug: engineering-platform-action-deletegrouppolicy-api
-- description: 'The #Action=DeleteInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteinstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteinstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=DeleteInstanceProfile API'
   slug: engineering-platform-action-deleteinstanceprofile-api
-- description: 'The #Action=DeleteLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteloginprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteloginprofile.'
   name: 'APIs.io Engineering Platform #Action=DeleteLoginProfile API'
   slug: engineering-platform-action-deleteloginprofile-api
-- description: 'The #Action=DeleteOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=DeleteOpenIDConnectProvider API'
   slug: engineering-platform-action-deleteopenidconnectprovider-api
-- description: 'The #Action=DeletePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deletepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeletePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deletepolicy.'
   name: 'APIs.io Engineering Platform #Action=DeletePolicy API'
   slug: engineering-platform-action-deletepolicy-api
-- description: 'The #Action=DeletePolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=deletepolicyversion.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeletePolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=deletepolicyversion.'
   name: 'APIs.io Engineering Platform #Action=DeletePolicyVersion API'
   slug: engineering-platform-action-deletepolicyversion-api
-- description: 'The #Action=DeleteRole API from APIs.io Engineering Platform — 1 operation(s) for #action=deleterole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteRole API from APIs.io Engineering Platform — 1 operation(s) for #action=deleterole.'
   name: 'APIs.io Engineering Platform #Action=DeleteRole API'
   slug: engineering-platform-action-deleterole-api
-- description: 'The #Action=DeleteRolePermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=deleterolepermissionsboundary.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteRolePermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=deleterolepermissionsboundary.'
   name: 'APIs.io Engineering Platform #Action=DeleteRolePermissionsBoundary API'
   slug: engineering-platform-action-deleterolepermissionsboundary-api
-- description: 'The #Action=DeleteRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deleterolepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deleterolepolicy.'
   name: 'APIs.io Engineering Platform #Action=DeleteRolePolicy API'
   slug: engineering-platform-action-deleterolepolicy-api
-- description: 'The #Action=DeleteSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=deletesamlprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=deletesamlprovider.'
   name: 'APIs.io Engineering Platform #Action=DeleteSAMLProvider API'
   slug: engineering-platform-action-deletesamlprovider-api
-- description: 'The #Action=DeleteServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteservercertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteservercertificate.'
   name: 'APIs.io Engineering Platform #Action=DeleteServerCertificate API'
   slug: engineering-platform-action-deleteservercertificate-api
-- description: 'The #Action=DeleteServiceLinkedRole API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteservicelinkedrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteServiceLinkedRole API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteservicelinkedrole.'
   name: 'APIs.io Engineering Platform #Action=DeleteServiceLinkedRole API'
   slug: engineering-platform-action-deleteservicelinkedrole-api
-- description: 'The #Action=DeleteServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteservicespecificcredential.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteservicespecificcredential.'
   name: 'APIs.io Engineering Platform #Action=DeleteServiceSpecificCredential API'
   slug: engineering-platform-action-deleteservicespecificcredential-api
-- description: 'The #Action=DeleteSigningCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=deletesigningcertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteSigningCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=deletesigningcertificate.'
   name: 'APIs.io Engineering Platform #Action=DeleteSigningCertificate API'
   slug: engineering-platform-action-deletesigningcertificate-api
-- description: 'The #Action=DeleteSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=deletesshpublickey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=deletesshpublickey.'
   name: 'APIs.io Engineering Platform #Action=DeleteSSHPublicKey API'
   slug: engineering-platform-action-deletesshpublickey-api
-- description: 'The #Action=DeleteUser API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteuser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteUser API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteuser.'
   name: 'APIs.io Engineering Platform #Action=DeleteUser API'
   slug: engineering-platform-action-deleteuser-api
-- description: 'The #Action=DeleteUserPermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteuserpermissionsboundary.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteUserPermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteuserpermissionsboundary.'
   name: 'APIs.io Engineering Platform #Action=DeleteUserPermissionsBoundary API'
   slug: engineering-platform-action-deleteuserpermissionsboundary-api
-- description: 'The #Action=DeleteUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteuserpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=deleteuserpolicy.'
   name: 'APIs.io Engineering Platform #Action=DeleteUserPolicy API'
   slug: engineering-platform-action-deleteuserpolicy-api
-- description: 'The #Action=DeleteVirtualMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=deletevirtualmfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteVirtualMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=deletevirtualmfadevice.'
   name: 'APIs.io Engineering Platform #Action=DeleteVirtualMFADevice API'
   slug: engineering-platform-action-deletevirtualmfadevice-api
-- description: 'The #Action=DetachGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=detachgrouppolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=detachgrouppolicy.'
   name: 'APIs.io Engineering Platform #Action=DetachGroupPolicy API'
   slug: engineering-platform-action-detachgrouppolicy-api
-- description: 'The #Action=DetachRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=detachrolepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=detachrolepolicy.'
   name: 'APIs.io Engineering Platform #Action=DetachRolePolicy API'
   slug: engineering-platform-action-detachrolepolicy-api
-- description: 'The #Action=DetachUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=detachuserpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=detachuserpolicy.'
   name: 'APIs.io Engineering Platform #Action=DetachUserPolicy API'
   slug: engineering-platform-action-detachuserpolicy-api
-- description: 'The #Action=EnableMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=enablemfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=EnableMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=enablemfadevice.'
   name: 'APIs.io Engineering Platform #Action=EnableMFADevice API'
   slug: engineering-platform-action-enablemfadevice-api
-- description: 'The #Action=GenerateCredentialReport API from APIs.io Engineering Platform — 1 operation(s) for #action=generatecredentialreport.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GenerateCredentialReport API from APIs.io Engineering Platform — 1 operation(s) for #action=generatecredentialreport.'
   name: 'APIs.io Engineering Platform #Action=GenerateCredentialReport API'
   slug: engineering-platform-action-generatecredentialreport-api
-- description: 'The #Action=GenerateOrganizationsAccessReport API from APIs.io Engineering Platform — 1 operation(s) for #action=generateorganizationsaccessreport.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GenerateOrganizationsAccessReport API from APIs.io Engineering Platform — 1 operation(s) for #action=generateorganizationsaccessreport.'
   name: 'APIs.io Engineering Platform #Action=GenerateOrganizationsAccessReport API'
   slug: engineering-platform-action-generateorganizationsaccessreport-api
-- description: 'The #Action=GenerateServiceLastAccessedDetails API from APIs.io Engineering Platform — 1 operation(s) for #action=generateservicelastaccesseddetails.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GenerateServiceLastAccessedDetails API from APIs.io Engineering Platform — 1 operation(s) for #action=generateservicelastaccesseddetails.'
   name: 'APIs.io Engineering Platform #Action=GenerateServiceLastAccessedDetails API'
   slug: engineering-platform-action-generateservicelastaccesseddetails-api
-- description: 'The #Action=GetAccessKeyLastUsed API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccesskeylastused.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetAccessKeyLastUsed API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccesskeylastused.'
   name: 'APIs.io Engineering Platform #Action=GetAccessKeyLastUsed API'
   slug: engineering-platform-action-getaccesskeylastused-api
-- description: 'The #Action=GetAccountAuthorizationDetails API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccountauthorizationdetails.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetAccountAuthorizationDetails API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccountauthorizationdetails.'
   name: 'APIs.io Engineering Platform #Action=GetAccountAuthorizationDetails API'
   slug: engineering-platform-action-getaccountauthorizationdetails-api
-- description: 'The #Action=GetAccountPasswordPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccountpasswordpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetAccountPasswordPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccountpasswordpolicy.'
   name: 'APIs.io Engineering Platform #Action=GetAccountPasswordPolicy API'
   slug: engineering-platform-action-getaccountpasswordpolicy-api
-- description: 'The #Action=GetAccountSummary API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccountsummary.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetAccountSummary API from APIs.io Engineering Platform — 1 operation(s) for #action=getaccountsummary.'
   name: 'APIs.io Engineering Platform #Action=GetAccountSummary API'
   slug: engineering-platform-action-getaccountsummary-api
-- description: 'The #Action=GetContextKeysForCustomPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getcontextkeysforcustompolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetContextKeysForCustomPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getcontextkeysforcustompolicy.'
   name: 'APIs.io Engineering Platform #Action=GetContextKeysForCustomPolicy API'
   slug: engineering-platform-action-getcontextkeysforcustompolicy-api
-- description: 'The #Action=GetContextKeysForPrincipalPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getcontextkeysforprincipalpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetContextKeysForPrincipalPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getcontextkeysforprincipalpolicy.'
   name: 'APIs.io Engineering Platform #Action=GetContextKeysForPrincipalPolicy API'
   slug: engineering-platform-action-getcontextkeysforprincipalpolicy-api
-- description: 'The #Action=GetCredentialReport API from APIs.io Engineering Platform — 1 operation(s) for #action=getcredentialreport.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetCredentialReport API from APIs.io Engineering Platform — 1 operation(s) for #action=getcredentialreport.'
   name: 'APIs.io Engineering Platform #Action=GetCredentialReport API'
   slug: engineering-platform-action-getcredentialreport-api
-- description: 'The #Action=GetGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=getgroup.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=getgroup.'
   name: 'APIs.io Engineering Platform #Action=GetGroup API'
   slug: engineering-platform-action-getgroup-api
-- description: 'The #Action=GetGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getgrouppolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getgrouppolicy.'
   name: 'APIs.io Engineering Platform #Action=GetGroupPolicy API'
   slug: engineering-platform-action-getgrouppolicy-api
-- description: 'The #Action=GetInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=getinstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=getinstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=GetInstanceProfile API'
   slug: engineering-platform-action-getinstanceprofile-api
-- description: 'The #Action=GetLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=getloginprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=getloginprofile.'
   name: 'APIs.io Engineering Platform #Action=GetLoginProfile API'
   slug: engineering-platform-action-getloginprofile-api
-- description: 'The #Action=GetOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=getopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=getopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=GetOpenIDConnectProvider API'
   slug: engineering-platform-action-getopenidconnectprovider-api
-- description: 'The #Action=GetOrganizationsAccessReport API from APIs.io Engineering Platform — 1 operation(s) for #action=getorganizationsaccessreport.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetOrganizationsAccessReport API from APIs.io Engineering Platform — 1 operation(s) for #action=getorganizationsaccessreport.'
   name: 'APIs.io Engineering Platform #Action=GetOrganizationsAccessReport API'
   slug: engineering-platform-action-getorganizationsaccessreport-api
-- description: 'The #Action=GetPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getpolicy.'
   name: 'APIs.io Engineering Platform #Action=GetPolicy API'
   slug: engineering-platform-action-getpolicy-api
-- description: 'The #Action=GetPolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=getpolicyversion.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetPolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=getpolicyversion.'
   name: 'APIs.io Engineering Platform #Action=GetPolicyVersion API'
   slug: engineering-platform-action-getpolicyversion-api
-- description: 'The #Action=GetRole API from APIs.io Engineering Platform — 1 operation(s) for #action=getrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetRole API from APIs.io Engineering Platform — 1 operation(s) for #action=getrole.'
   name: 'APIs.io Engineering Platform #Action=GetRole API'
   slug: engineering-platform-action-getrole-api
-- description: 'The #Action=GetRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getrolepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getrolepolicy.'
   name: 'APIs.io Engineering Platform #Action=GetRolePolicy API'
   slug: engineering-platform-action-getrolepolicy-api
-- description: 'The #Action=GetSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=getsamlprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=getsamlprovider.'
   name: 'APIs.io Engineering Platform #Action=GetSAMLProvider API'
   slug: engineering-platform-action-getsamlprovider-api
-- description: 'The #Action=GetServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=getservercertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=getservercertificate.'
   name: 'APIs.io Engineering Platform #Action=GetServerCertificate API'
   slug: engineering-platform-action-getservercertificate-api
-- description: 'The #Action=GetServiceLastAccessedDetails API from APIs.io Engineering Platform — 1 operation(s) for #action=getservicelastaccesseddetails.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetServiceLastAccessedDetails API from APIs.io Engineering Platform — 1 operation(s) for #action=getservicelastaccesseddetails.'
   name: 'APIs.io Engineering Platform #Action=GetServiceLastAccessedDetails API'
   slug: engineering-platform-action-getservicelastaccesseddetails-api
-- description: 'The #Action=GetServiceLastAccessedDetailsWithEntities API from APIs.io Engineering Platform — 1 operation(s) for #action=getservicelastaccesseddetailswithentities.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetServiceLastAccessedDetailsWithEntities API from APIs.io Engineering Platform — 1 operation(s) for #action=getservicelastaccesseddetailswithentities.'
   name: 'APIs.io Engineering Platform #Action=GetServiceLastAccessedDetailsWithEntities API'
   slug: engineering-platform-action-getservicelastaccesseddetailswithentities-api
-- description: 'The #Action=GetServiceLinkedRoleDeletionStatus API from APIs.io Engineering Platform — 1 operation(s) for #action=getservicelinkedroledeletionstatus.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetServiceLinkedRoleDeletionStatus API from APIs.io Engineering Platform — 1 operation(s) for #action=getservicelinkedroledeletionstatus.'
   name: 'APIs.io Engineering Platform #Action=GetServiceLinkedRoleDeletionStatus API'
   slug: engineering-platform-action-getservicelinkedroledeletionstatus-api
-- description: 'The #Action=GetSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=getsshpublickey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=getsshpublickey.'
   name: 'APIs.io Engineering Platform #Action=GetSSHPublicKey API'
   slug: engineering-platform-action-getsshpublickey-api
-- description: 'The #Action=GetUser API from APIs.io Engineering Platform — 1 operation(s) for #action=getuser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetUser API from APIs.io Engineering Platform — 1 operation(s) for #action=getuser.'
   name: 'APIs.io Engineering Platform #Action=GetUser API'
   slug: engineering-platform-action-getuser-api
-- description: 'The #Action=GetUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getuserpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=getuserpolicy.'
   name: 'APIs.io Engineering Platform #Action=GetUserPolicy API'
   slug: engineering-platform-action-getuserpolicy-api
-- description: 'The #Action=ListAccessKeys API from APIs.io Engineering Platform — 1 operation(s) for #action=listaccesskeys.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListAccessKeys API from APIs.io Engineering Platform — 1 operation(s) for #action=listaccesskeys.'
   name: 'APIs.io Engineering Platform #Action=ListAccessKeys API'
   slug: engineering-platform-action-listaccesskeys-api
-- description: 'The #Action=ListAccountAliases API from APIs.io Engineering Platform — 1 operation(s) for #action=listaccountaliases.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListAccountAliases API from APIs.io Engineering Platform — 1 operation(s) for #action=listaccountaliases.'
   name: 'APIs.io Engineering Platform #Action=ListAccountAliases API'
   slug: engineering-platform-action-listaccountaliases-api
-- description: 'The #Action=ListAttachedGroupPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listattachedgrouppolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListAttachedGroupPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listattachedgrouppolicies.'
   name: 'APIs.io Engineering Platform #Action=ListAttachedGroupPolicies API'
   slug: engineering-platform-action-listattachedgrouppolicies-api
-- description: 'The #Action=ListAttachedRolePolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listattachedrolepolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListAttachedRolePolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listattachedrolepolicies.'
   name: 'APIs.io Engineering Platform #Action=ListAttachedRolePolicies API'
   slug: engineering-platform-action-listattachedrolepolicies-api
-- description: 'The #Action=ListAttachedUserPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listattacheduserpolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListAttachedUserPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listattacheduserpolicies.'
   name: 'APIs.io Engineering Platform #Action=ListAttachedUserPolicies API'
   slug: engineering-platform-action-listattacheduserpolicies-api
-- description: 'The #Action=ListEntitiesForPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=listentitiesforpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListEntitiesForPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=listentitiesforpolicy.'
   name: 'APIs.io Engineering Platform #Action=ListEntitiesForPolicy API'
   slug: engineering-platform-action-listentitiesforpolicy-api
-- description: 'The #Action=ListGroupPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listgrouppolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListGroupPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listgrouppolicies.'
   name: 'APIs.io Engineering Platform #Action=ListGroupPolicies API'
   slug: engineering-platform-action-listgrouppolicies-api
-- description: 'The #Action=ListGroups API from APIs.io Engineering Platform — 1 operation(s) for #action=listgroups.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListGroups API from APIs.io Engineering Platform — 1 operation(s) for #action=listgroups.'
   name: 'APIs.io Engineering Platform #Action=ListGroups API'
   slug: engineering-platform-action-listgroups-api
-- description: 'The #Action=ListGroupsForUser API from APIs.io Engineering Platform — 1 operation(s) for #action=listgroupsforuser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListGroupsForUser API from APIs.io Engineering Platform — 1 operation(s) for #action=listgroupsforuser.'
   name: 'APIs.io Engineering Platform #Action=ListGroupsForUser API'
   slug: engineering-platform-action-listgroupsforuser-api
-- description: 'The #Action=ListInstanceProfiles API from APIs.io Engineering Platform — 1 operation(s) for #action=listinstanceprofiles.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListInstanceProfiles API from APIs.io Engineering Platform — 1 operation(s) for #action=listinstanceprofiles.'
   name: 'APIs.io Engineering Platform #Action=ListInstanceProfiles API'
   slug: engineering-platform-action-listinstanceprofiles-api
-- description: 'The #Action=ListInstanceProfilesForRole API from APIs.io Engineering Platform — 1 operation(s) for #action=listinstanceprofilesforrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListInstanceProfilesForRole API from APIs.io Engineering Platform — 1 operation(s) for #action=listinstanceprofilesforrole.'
   name: 'APIs.io Engineering Platform #Action=ListInstanceProfilesForRole API'
   slug: engineering-platform-action-listinstanceprofilesforrole-api
-- description: 'The #Action=ListInstanceProfileTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listinstanceprofiletags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListInstanceProfileTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listinstanceprofiletags.'
   name: 'APIs.io Engineering Platform #Action=ListInstanceProfileTags API'
   slug: engineering-platform-action-listinstanceprofiletags-api
-- description: 'The #Action=ListMFADevices API from APIs.io Engineering Platform — 1 operation(s) for #action=listmfadevices.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListMFADevices API from APIs.io Engineering Platform — 1 operation(s) for #action=listmfadevices.'
   name: 'APIs.io Engineering Platform #Action=ListMFADevices API'
   slug: engineering-platform-action-listmfadevices-api
-- description: 'The #Action=ListMFADeviceTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listmfadevicetags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListMFADeviceTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listmfadevicetags.'
   name: 'APIs.io Engineering Platform #Action=ListMFADeviceTags API'
   slug: engineering-platform-action-listmfadevicetags-api
-- description: 'The #Action=ListOpenIDConnectProviders API from APIs.io Engineering Platform — 1 operation(s) for #action=listopenidconnectproviders.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListOpenIDConnectProviders API from APIs.io Engineering Platform — 1 operation(s) for #action=listopenidconnectproviders.'
   name: 'APIs.io Engineering Platform #Action=ListOpenIDConnectProviders API'
   slug: engineering-platform-action-listopenidconnectproviders-api
-- description: 'The #Action=ListOpenIDConnectProviderTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listopenidconnectprovidertags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListOpenIDConnectProviderTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listopenidconnectprovidertags.'
   name: 'APIs.io Engineering Platform #Action=ListOpenIDConnectProviderTags API'
   slug: engineering-platform-action-listopenidconnectprovidertags-api
-- description: 'The #Action=ListPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listpolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listpolicies.'
   name: 'APIs.io Engineering Platform #Action=ListPolicies API'
   slug: engineering-platform-action-listpolicies-api
-- description: 'The #Action=ListPoliciesGrantingServiceAccess API from APIs.io Engineering Platform — 1 operation(s) for #action=listpoliciesgrantingserviceaccess.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListPoliciesGrantingServiceAccess API from APIs.io Engineering Platform — 1 operation(s) for #action=listpoliciesgrantingserviceaccess.'
   name: 'APIs.io Engineering Platform #Action=ListPoliciesGrantingServiceAccess API'
   slug: engineering-platform-action-listpoliciesgrantingserviceaccess-api
-- description: 'The #Action=ListPolicyTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listpolicytags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListPolicyTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listpolicytags.'
   name: 'APIs.io Engineering Platform #Action=ListPolicyTags API'
   slug: engineering-platform-action-listpolicytags-api
-- description: 'The #Action=ListPolicyVersions API from APIs.io Engineering Platform — 1 operation(s) for #action=listpolicyversions.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListPolicyVersions API from APIs.io Engineering Platform — 1 operation(s) for #action=listpolicyversions.'
   name: 'APIs.io Engineering Platform #Action=ListPolicyVersions API'
   slug: engineering-platform-action-listpolicyversions-api
-- description: 'The #Action=ListRolePolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listrolepolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListRolePolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listrolepolicies.'
   name: 'APIs.io Engineering Platform #Action=ListRolePolicies API'
   slug: engineering-platform-action-listrolepolicies-api
-- description: 'The #Action=ListRoles API from APIs.io Engineering Platform — 1 operation(s) for #action=listroles.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListRoles API from APIs.io Engineering Platform — 1 operation(s) for #action=listroles.'
   name: 'APIs.io Engineering Platform #Action=ListRoles API'
   slug: engineering-platform-action-listroles-api
-- description: 'The #Action=ListRoleTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listroletags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListRoleTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listroletags.'
   name: 'APIs.io Engineering Platform #Action=ListRoleTags API'
   slug: engineering-platform-action-listroletags-api
-- description: 'The #Action=ListSAMLProviders API from APIs.io Engineering Platform — 1 operation(s) for #action=listsamlproviders.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListSAMLProviders API from APIs.io Engineering Platform — 1 operation(s) for #action=listsamlproviders.'
   name: 'APIs.io Engineering Platform #Action=ListSAMLProviders API'
   slug: engineering-platform-action-listsamlproviders-api
-- description: 'The #Action=ListSAMLProviderTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listsamlprovidertags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListSAMLProviderTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listsamlprovidertags.'
   name: 'APIs.io Engineering Platform #Action=ListSAMLProviderTags API'
   slug: engineering-platform-action-listsamlprovidertags-api
-- description: 'The #Action=ListServerCertificates API from APIs.io Engineering Platform — 1 operation(s) for #action=listservercertificates.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListServerCertificates API from APIs.io Engineering Platform — 1 operation(s) for #action=listservercertificates.'
   name: 'APIs.io Engineering Platform #Action=ListServerCertificates API'
   slug: engineering-platform-action-listservercertificates-api
-- description: 'The #Action=ListServerCertificateTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listservercertificatetags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListServerCertificateTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listservercertificatetags.'
   name: 'APIs.io Engineering Platform #Action=ListServerCertificateTags API'
   slug: engineering-platform-action-listservercertificatetags-api
-- description: 'The #Action=ListServiceSpecificCredentials API from APIs.io Engineering Platform — 1 operation(s) for #action=listservicespecificcredentials.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListServiceSpecificCredentials API from APIs.io Engineering Platform — 1 operation(s) for #action=listservicespecificcredentials.'
   name: 'APIs.io Engineering Platform #Action=ListServiceSpecificCredentials API'
   slug: engineering-platform-action-listservicespecificcredentials-api
-- description: 'The #Action=ListSigningCertificates API from APIs.io Engineering Platform — 1 operation(s) for #action=listsigningcertificates.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListSigningCertificates API from APIs.io Engineering Platform — 1 operation(s) for #action=listsigningcertificates.'
   name: 'APIs.io Engineering Platform #Action=ListSigningCertificates API'
   slug: engineering-platform-action-listsigningcertificates-api
-- description: 'The #Action=ListSSHPublicKeys API from APIs.io Engineering Platform — 1 operation(s) for #action=listsshpublickeys.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListSSHPublicKeys API from APIs.io Engineering Platform — 1 operation(s) for #action=listsshpublickeys.'
   name: 'APIs.io Engineering Platform #Action=ListSSHPublicKeys API'
   slug: engineering-platform-action-listsshpublickeys-api
-- description: 'The #Action=ListUserPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listuserpolicies.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListUserPolicies API from APIs.io Engineering Platform — 1 operation(s) for #action=listuserpolicies.'
   name: 'APIs.io Engineering Platform #Action=ListUserPolicies API'
   slug: engineering-platform-action-listuserpolicies-api
-- description: 'The #Action=ListUsers API from APIs.io Engineering Platform — 1 operation(s) for #action=listusers.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListUsers API from APIs.io Engineering Platform — 1 operation(s) for #action=listusers.'
   name: 'APIs.io Engineering Platform #Action=ListUsers API'
   slug: engineering-platform-action-listusers-api
-- description: 'The #Action=ListUserTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listusertags.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListUserTags API from APIs.io Engineering Platform — 1 operation(s) for #action=listusertags.'
   name: 'APIs.io Engineering Platform #Action=ListUserTags API'
   slug: engineering-platform-action-listusertags-api
-- description: 'The #Action=ListVirtualMFADevices API from APIs.io Engineering Platform — 1 operation(s) for #action=listvirtualmfadevices.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListVirtualMFADevices API from APIs.io Engineering Platform — 1 operation(s) for #action=listvirtualmfadevices.'
   name: 'APIs.io Engineering Platform #Action=ListVirtualMFADevices API'
   slug: engineering-platform-action-listvirtualmfadevices-api
-- description: 'The #Action=PutGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=putgrouppolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutGroupPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=putgrouppolicy.'
   name: 'APIs.io Engineering Platform #Action=PutGroupPolicy API'
   slug: engineering-platform-action-putgrouppolicy-api
-- description: 'The #Action=PutRolePermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=putrolepermissionsboundary.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutRolePermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=putrolepermissionsboundary.'
   name: 'APIs.io Engineering Platform #Action=PutRolePermissionsBoundary API'
   slug: engineering-platform-action-putrolepermissionsboundary-api
-- description: 'The #Action=PutRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=putrolepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=putrolepolicy.'
   name: 'APIs.io Engineering Platform #Action=PutRolePolicy API'
   slug: engineering-platform-action-putrolepolicy-api
-- description: 'The #Action=PutUserPermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=putuserpermissionsboundary.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutUserPermissionsBoundary API from APIs.io Engineering Platform — 1 operation(s) for #action=putuserpermissionsboundary.'
   name: 'APIs.io Engineering Platform #Action=PutUserPermissionsBoundary API'
   slug: engineering-platform-action-putuserpermissionsboundary-api
-- description: 'The #Action=PutUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=putuserpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutUserPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=putuserpolicy.'
   name: 'APIs.io Engineering Platform #Action=PutUserPolicy API'
   slug: engineering-platform-action-putuserpolicy-api
-- description: 'The #Action=RemoveClientIDFromOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=removeclientidfromopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RemoveClientIDFromOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=removeclientidfromopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=RemoveClientIDFromOpenIDConnectProvider API'
   slug: engineering-platform-action-removeclientidfromopenidconnectprovider-api
-- description: 'The #Action=RemoveRoleFromInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=removerolefrominstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RemoveRoleFromInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=removerolefrominstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=RemoveRoleFromInstanceProfile API'
   slug: engineering-platform-action-removerolefrominstanceprofile-api
-- description: 'The #Action=RemoveUserFromGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=removeuserfromgroup.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RemoveUserFromGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=removeuserfromgroup.'
   name: 'APIs.io Engineering Platform #Action=RemoveUserFromGroup API'
   slug: engineering-platform-action-removeuserfromgroup-api
-- description: 'The #Action=ResetServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=resetservicespecificcredential.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ResetServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=resetservicespecificcredential.'
   name: 'APIs.io Engineering Platform #Action=ResetServiceSpecificCredential API'
   slug: engineering-platform-action-resetservicespecificcredential-api
-- description: 'The #Action=ResyncMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=resyncmfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ResyncMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=resyncmfadevice.'
   name: 'APIs.io Engineering Platform #Action=ResyncMFADevice API'
   slug: engineering-platform-action-resyncmfadevice-api
-- description: 'The #Action=SetDefaultPolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=setdefaultpolicyversion.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SetDefaultPolicyVersion API from APIs.io Engineering Platform — 1 operation(s) for #action=setdefaultpolicyversion.'
   name: 'APIs.io Engineering Platform #Action=SetDefaultPolicyVersion API'
   slug: engineering-platform-action-setdefaultpolicyversion-api
-- description: 'The #Action=SetSecurityTokenServicePreferences API from APIs.io Engineering Platform — 1 operation(s) for #action=setsecuritytokenservicepreferences.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SetSecurityTokenServicePreferences API from APIs.io Engineering Platform — 1 operation(s) for #action=setsecuritytokenservicepreferences.'
   name: 'APIs.io Engineering Platform #Action=SetSecurityTokenServicePreferences API'
   slug: engineering-platform-action-setsecuritytokenservicepreferences-api
-- description: 'The #Action=SimulateCustomPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=simulatecustompolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SimulateCustomPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=simulatecustompolicy.'
   name: 'APIs.io Engineering Platform #Action=SimulateCustomPolicy API'
   slug: engineering-platform-action-simulatecustompolicy-api
-- description: 'The #Action=SimulatePrincipalPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=simulateprincipalpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SimulatePrincipalPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=simulateprincipalpolicy.'
   name: 'APIs.io Engineering Platform #Action=SimulatePrincipalPolicy API'
   slug: engineering-platform-action-simulateprincipalpolicy-api
-- description: 'The #Action=TagInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=taginstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=taginstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=TagInstanceProfile API'
   slug: engineering-platform-action-taginstanceprofile-api
-- description: 'The #Action=TagMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=tagmfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=tagmfadevice.'
   name: 'APIs.io Engineering Platform #Action=TagMFADevice API'
   slug: engineering-platform-action-tagmfadevice-api
-- description: 'The #Action=TagOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=tagopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=tagopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=TagOpenIDConnectProvider API'
   slug: engineering-platform-action-tagopenidconnectprovider-api
-- description: 'The #Action=TagPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=tagpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=tagpolicy.'
   name: 'APIs.io Engineering Platform #Action=TagPolicy API'
   slug: engineering-platform-action-tagpolicy-api
-- description: 'The #Action=TagRole API from APIs.io Engineering Platform — 1 operation(s) for #action=tagrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagRole API from APIs.io Engineering Platform — 1 operation(s) for #action=tagrole.'
   name: 'APIs.io Engineering Platform #Action=TagRole API'
   slug: engineering-platform-action-tagrole-api
-- description: 'The #Action=TagSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=tagsamlprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=tagsamlprovider.'
   name: 'APIs.io Engineering Platform #Action=TagSAMLProvider API'
   slug: engineering-platform-action-tagsamlprovider-api
-- description: 'The #Action=TagServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=tagservercertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=tagservercertificate.'
   name: 'APIs.io Engineering Platform #Action=TagServerCertificate API'
   slug: engineering-platform-action-tagservercertificate-api
-- description: 'The #Action=TagUser API from APIs.io Engineering Platform — 1 operation(s) for #action=taguser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TagUser API from APIs.io Engineering Platform — 1 operation(s) for #action=taguser.'
   name: 'APIs.io Engineering Platform #Action=TagUser API'
   slug: engineering-platform-action-taguser-api
-- description: 'The #Action=UntagInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=untaginstanceprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagInstanceProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=untaginstanceprofile.'
   name: 'APIs.io Engineering Platform #Action=UntagInstanceProfile API'
   slug: engineering-platform-action-untaginstanceprofile-api
-- description: 'The #Action=UntagMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=untagmfadevice.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagMFADevice API from APIs.io Engineering Platform — 1 operation(s) for #action=untagmfadevice.'
   name: 'APIs.io Engineering Platform #Action=UntagMFADevice API'
   slug: engineering-platform-action-untagmfadevice-api
-- description: 'The #Action=UntagOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=untagopenidconnectprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagOpenIDConnectProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=untagopenidconnectprovider.'
   name: 'APIs.io Engineering Platform #Action=UntagOpenIDConnectProvider API'
   slug: engineering-platform-action-untagopenidconnectprovider-api
-- description: 'The #Action=UntagPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=untagpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=untagpolicy.'
   name: 'APIs.io Engineering Platform #Action=UntagPolicy API'
   slug: engineering-platform-action-untagpolicy-api
-- description: 'The #Action=UntagRole API from APIs.io Engineering Platform — 1 operation(s) for #action=untagrole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagRole API from APIs.io Engineering Platform — 1 operation(s) for #action=untagrole.'
   name: 'APIs.io Engineering Platform #Action=UntagRole API'
   slug: engineering-platform-action-untagrole-api
-- description: 'The #Action=UntagSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=untagsamlprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=untagsamlprovider.'
   name: 'APIs.io Engineering Platform #Action=UntagSAMLProvider API'
   slug: engineering-platform-action-untagsamlprovider-api
-- description: 'The #Action=UntagServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=untagservercertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=untagservercertificate.'
   name: 'APIs.io Engineering Platform #Action=UntagServerCertificate API'
   slug: engineering-platform-action-untagservercertificate-api
-- description: 'The #Action=UntagUser API from APIs.io Engineering Platform — 1 operation(s) for #action=untaguser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UntagUser API from APIs.io Engineering Platform — 1 operation(s) for #action=untaguser.'
   name: 'APIs.io Engineering Platform #Action=UntagUser API'
   slug: engineering-platform-action-untaguser-api
-- description: 'The #Action=UpdateAccessKey API from APIs.io Engineering Platform — 1 operation(s) for #action=updateaccesskey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateAccessKey API from APIs.io Engineering Platform — 1 operation(s) for #action=updateaccesskey.'
   name: 'APIs.io Engineering Platform #Action=UpdateAccessKey API'
   slug: engineering-platform-action-updateaccesskey-api
-- description: 'The #Action=UpdateAccountPasswordPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=updateaccountpasswordpolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateAccountPasswordPolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=updateaccountpasswordpolicy.'
   name: 'APIs.io Engineering Platform #Action=UpdateAccountPasswordPolicy API'
   slug: engineering-platform-action-updateaccountpasswordpolicy-api
-- description: 'The #Action=UpdateAssumeRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=updateassumerolepolicy.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateAssumeRolePolicy API from APIs.io Engineering Platform — 1 operation(s) for #action=updateassumerolepolicy.'
   name: 'APIs.io Engineering Platform #Action=UpdateAssumeRolePolicy API'
   slug: engineering-platform-action-updateassumerolepolicy-api
-- description: 'The #Action=UpdateGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=updategroup.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateGroup API from APIs.io Engineering Platform — 1 operation(s) for #action=updategroup.'
   name: 'APIs.io Engineering Platform #Action=UpdateGroup API'
   slug: engineering-platform-action-updategroup-api
-- description: 'The #Action=UpdateLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=updateloginprofile.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateLoginProfile API from APIs.io Engineering Platform — 1 operation(s) for #action=updateloginprofile.'
   name: 'APIs.io Engineering Platform #Action=UpdateLoginProfile API'
   slug: engineering-platform-action-updateloginprofile-api
-- description: 'The #Action=UpdateOpenIDConnectProviderThumbprint API from APIs.io Engineering Platform — 1 operation(s) for #action=updateopenidconnectproviderthumbprint.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateOpenIDConnectProviderThumbprint API from APIs.io Engineering Platform — 1 operation(s) for #action=updateopenidconnectproviderthumbprint.'
   name: 'APIs.io Engineering Platform #Action=UpdateOpenIDConnectProviderThumbprint API'
   slug: engineering-platform-action-updateopenidconnectproviderthumbprint-api
-- description: 'The #Action=UpdateRole API from APIs.io Engineering Platform — 1 operation(s) for #action=updaterole.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateRole API from APIs.io Engineering Platform — 1 operation(s) for #action=updaterole.'
   name: 'APIs.io Engineering Platform #Action=UpdateRole API'
   slug: engineering-platform-action-updaterole-api
-- description: 'The #Action=UpdateRoleDescription API from APIs.io Engineering Platform — 1 operation(s) for #action=updateroledescription.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateRoleDescription API from APIs.io Engineering Platform — 1 operation(s) for #action=updateroledescription.'
   name: 'APIs.io Engineering Platform #Action=UpdateRoleDescription API'
   slug: engineering-platform-action-updateroledescription-api
-- description: 'The #Action=UpdateSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=updatesamlprovider.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateSAMLProvider API from APIs.io Engineering Platform — 1 operation(s) for #action=updatesamlprovider.'
   name: 'APIs.io Engineering Platform #Action=UpdateSAMLProvider API'
   slug: engineering-platform-action-updatesamlprovider-api
-- description: 'The #Action=UpdateServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=updateservercertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=updateservercertificate.'
   name: 'APIs.io Engineering Platform #Action=UpdateServerCertificate API'
   slug: engineering-platform-action-updateservercertificate-api
-- description: 'The #Action=UpdateServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=updateservicespecificcredential.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateServiceSpecificCredential API from APIs.io Engineering Platform — 1 operation(s) for #action=updateservicespecificcredential.'
   name: 'APIs.io Engineering Platform #Action=UpdateServiceSpecificCredential API'
   slug: engineering-platform-action-updateservicespecificcredential-api
-- description: 'The #Action=UpdateSigningCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=updatesigningcertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateSigningCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=updatesigningcertificate.'
   name: 'APIs.io Engineering Platform #Action=UpdateSigningCertificate API'
   slug: engineering-platform-action-updatesigningcertificate-api
-- description: 'The #Action=UpdateSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=updatesshpublickey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=updatesshpublickey.'
   name: 'APIs.io Engineering Platform #Action=UpdateSSHPublicKey API'
   slug: engineering-platform-action-updatesshpublickey-api
-- description: 'The #Action=UpdateUser API from APIs.io Engineering Platform — 1 operation(s) for #action=updateuser.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateUser API from APIs.io Engineering Platform — 1 operation(s) for #action=updateuser.'
   name: 'APIs.io Engineering Platform #Action=UpdateUser API'
   slug: engineering-platform-action-updateuser-api
-- description: 'The #Action=UploadServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=uploadservercertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UploadServerCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=uploadservercertificate.'
   name: 'APIs.io Engineering Platform #Action=UploadServerCertificate API'
   slug: engineering-platform-action-uploadservercertificate-api
-- description: 'The #Action=UploadSigningCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=uploadsigningcertificate.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UploadSigningCertificate API from APIs.io Engineering Platform — 1 operation(s) for #action=uploadsigningcertificate.'
   name: 'APIs.io Engineering Platform #Action=UploadSigningCertificate API'
   slug: engineering-platform-action-uploadsigningcertificate-api
-- description: 'The #Action=UploadSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=uploadsshpublickey.'
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UploadSSHPublicKey API from APIs.io Engineering Platform — 1 operation(s) for #action=uploadsshpublickey.'
   name: 'APIs.io Engineering Platform #Action=UploadSSHPublicKey API'
   slug: engineering-platform-action-uploadsshpublickey-api
-- description: Endpoints to manage GitHub Actions using the REST API.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Endpoints to manage GitHub Actions using the REST API.
   name: APIs.io Engineering Platform Actions API
   slug: engineering-platform-actions-api
-- description: Activity APIs provide access to notifications, subscriptions, and timelines.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Activity APIs provide access to notifications, subscriptions, and timelines.
   name: APIs.io Engineering Platform Activity API
   slug: engineering-platform-activity-api
-- description: The AI Gateway API from APIs.io Engineering Platform — 3 operation(s) for ai gateway.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The AI Gateway API from APIs.io Engineering Platform — 3 operation(s) for ai gateway.
   name: APIs.io Engineering Platform AI Gateway API
   slug: engineering-platform-ai-gateway-api
-- description: The **API Security** endpoints enable you to manage the [security of your API](https://learning.postman.com/docs/api-governance/api-definition/api-definition-warnings/). API security includes ensuring
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **API Security** endpoints enable you to manage the [security of your API](https://learning.postman.com/docs/api-governance/api-definition/api-definition-warnings/). API security includes ensuring
   name: APIs.io Engineering Platform API Security API
   slug: engineering-platform-api-security-api
-- description: The **API Tags** endpoints enable you to manage API tags with Postman's [tagging](https://learning.postman.com/docs/designing-and-developing-your-api/managing-apis/#tagging-apis) feature. Tagging is a
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **API Tags** endpoints enable you to manage API tags with Postman's [tagging](https://learning.postman.com/docs/designing-and-developing-your-api/managing-apis/#tagging-apis) feature. Tagging is a
   name: APIs.io Engineering Platform API Tags API
   slug: engineering-platform-api-tags-api
-- description: The API Token Permission Groups API from APIs.io Engineering Platform — 1 operation(s) for api token permission groups.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The API Token Permission Groups API from APIs.io Engineering Platform — 1 operation(s) for api token permission groups.
   name: APIs.io Engineering Platform API Token Permission Groups API
   slug: engineering-platform-api-token-permission-groups-api
-- description: The **API Versions** endpoints enable you to manage your [API's versions](https://learning.postman.com/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#publishing-a
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **API Versions** endpoints enable you to manage your [API's versions](https://learning.postman.com/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#publishing-a
   name: APIs.io Engineering Platform API Versions API
   slug: engineering-platform-api-versions-api
-- description: The Apikeys API from APIs.io Engineering Platform — 2 operation(s) for apikeys.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Apikeys API from APIs.io Engineering Platform — 2 operation(s) for apikeys.
   name: APIs.io Engineering Platform Apikeys API
   slug: engineering-platform-apikeys-api
-- description: The Apikeys#mode=import&format API from APIs.io Engineering Platform — 1 operation(s) for apikeys#mode=import&format.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Apikeys#mode=import&format API from APIs.io Engineering Platform — 1 operation(s) for apikeys#mode=import&format.
   name: APIs.io Engineering Platform Apikeys#mode=import&format API
   slug: engineering-platform-apikeys-mode-import-format-api
-- description: The Apis API from APIs.io Engineering Platform — 4 operation(s) for apis.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Apis API from APIs.io Engineering Platform — 4 operation(s) for apis.
   name: APIs.io Engineering Platform Apis API
   slug: engineering-platform-apis-api
-- description: Information for integrations and installations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Information for integrations and installations.
   name: APIs.io Engineering Platform Apps API
   slug: engineering-platform-apps-api
-- description: The ASN Intelligence API from APIs.io Engineering Platform — 2 operation(s) for asn intelligence.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The ASN Intelligence API from APIs.io Engineering Platform — 2 operation(s) for asn intelligence.
   name: APIs.io Engineering Platform ASN Intelligence API
   slug: engineering-platform-asn-intelligence-api
-- description: The Audit Logs API from APIs.io Engineering Platform — 4 operation(s) for audit logs.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Audit Logs API from APIs.io Engineering Platform — 4 operation(s) for audit logs.
   name: APIs.io Engineering Platform Audit Logs API
   slug: engineering-platform-audit-logs-api
-- description: Monitor charges and usage from Actions and Packages.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Monitor charges and usage from Actions and Packages.
   name: APIs.io Engineering Platform Billing API
   slug: engineering-platform-billing-api
-- description: The Botnet Threat Feed API from APIs.io Engineering Platform — 4 operation(s) for botnet threat feed.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Botnet Threat Feed API from APIs.io Engineering Platform — 4 operation(s) for botnet threat feed.
   name: APIs.io Engineering Platform Botnet Threat Feed API
   slug: engineering-platform-botnet-threat-feed-api
-- description: The Calls Apps API from APIs.io Engineering Platform — 2 operation(s) for calls apps.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Calls Apps API from APIs.io Engineering Platform — 2 operation(s) for calls apps.
   name: APIs.io Engineering Platform Calls Apps API
   slug: engineering-platform-calls-apps-api
-- description: The Calls TURN Keys API from APIs.io Engineering Platform — 2 operation(s) for calls turn keys.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Calls TURN Keys API from APIs.io Engineering Platform — 2 operation(s) for calls turn keys.
   name: APIs.io Engineering Platform Calls TURN Keys API
   slug: engineering-platform-calls-turn-keys-api
-- description: Rich interactions with checks run by your integrations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Rich interactions with checks run by your integrations.
   name: APIs.io Engineering Platform Checks API
   slug: engineering-platform-checks-api
-- description: The Clientcertificates API from APIs.io Engineering Platform — 2 operation(s) for clientcertificates.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Clientcertificates API from APIs.io Engineering Platform — 2 operation(s) for clientcertificates.
   name: APIs.io Engineering Platform Clientcertificates API
   slug: engineering-platform-clientcertificates-api
-- description: The Cloudflare Images API from APIs.io Engineering Platform — 6 operation(s) for cloudflare images.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudflare Images API from APIs.io Engineering Platform — 6 operation(s) for cloudflare images.
   name: APIs.io Engineering Platform Cloudflare Images API
   slug: engineering-platform-cloudflare-images-api
-- description: The Cloudflare Images Keys API from APIs.io Engineering Platform — 2 operation(s) for cloudflare images keys.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudflare Images Keys API from APIs.io Engineering Platform — 2 operation(s) for cloudflare images keys.
   name: APIs.io Engineering Platform Cloudflare Images Keys API
   slug: engineering-platform-cloudflare-images-keys-api
-- description: The Cloudflare Images Variants API from APIs.io Engineering Platform — 2 operation(s) for cloudflare images variants.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudflare Images Variants API from APIs.io Engineering Platform — 2 operation(s) for cloudflare images variants.
   name: APIs.io Engineering Platform Cloudflare Images Variants API
   slug: engineering-platform-cloudflare-images-variants-api
-- description: The Cloudflare IPs API from APIs.io Engineering Platform — 1 operation(s) for cloudflare ips.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudflare IPs API from APIs.io Engineering Platform — 1 operation(s) for cloudflare ips.
   name: APIs.io Engineering Platform Cloudflare IPs API
   slug: engineering-platform-cloudflare-ips-api
-- description: The Cloudflare Tunnel API from APIs.io Engineering Platform — 10 operation(s) for cloudflare tunnel.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudflare Tunnel API from APIs.io Engineering Platform — 10 operation(s) for cloudflare tunnel.
   name: APIs.io Engineering Platform Cloudflare Tunnel API
   slug: engineering-platform-cloudflare-tunnel-api
-- description: The Cloudflare Tunnel Configuration API from APIs.io Engineering Platform — 1 operation(s) for cloudflare tunnel configuration.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Cloudflare Tunnel Configuration API from APIs.io Engineering Platform — 1 operation(s) for cloudflare tunnel configuration.
   name: APIs.io Engineering Platform Cloudflare Tunnel Configuration API
   slug: engineering-platform-cloudflare-tunnel-configuration-api
-- description: Retrieve code scanning alerts from a repository.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Retrieve code scanning alerts from a repository.
   name: APIs.io Engineering Platform Code-Scanning API
   slug: engineering-platform-code-scanning-api
-- description: Insight into codes of conduct for your communities.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Insight into codes of conduct for your communities.
   name: APIs.io Engineering Platform Codes-Of-Conduct API
   slug: engineering-platform-codes-of-conduct-api
-- description: The **Collection Access Keys** endpoints enable you to manage your [collection access keys](https://learning.postman.com/docs/developer/postman-api/authentication/#generate-a-collection-access-key). C
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collection Access Keys** endpoints enable you to manage your [collection access keys](https://learning.postman.com/docs/developer/postman-api/authentication/#generate-a-collection-access-key). C
   name: APIs.io Engineering Platform Collection Access Keys API
   slug: engineering-platform-collection-access-keys-api
-- description: The **Collection Folders** endpoints enable you to manage collection folders.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collection Folders** endpoints enable you to manage collection folders.
   name: APIs.io Engineering Platform Collection Folders API
   slug: engineering-platform-collection-folders-api
-- description: The **Collection Items** endpoints enable you to manage a collection's items, such as folders and requests.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collection Items** endpoints enable you to manage a collection's items, such as folders and requests.
   name: APIs.io Engineering Platform Collection Items API
   slug: engineering-platform-collection-items-api
-- description: The **Collection Requests** endpoints enable you to manage collection requests.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collection Requests** endpoints enable you to manage collection requests.
   name: APIs.io Engineering Platform Collection Requests API
   slug: engineering-platform-collection-requests-api
-- description: The **Collection Responses** endpoints enable you to manage collection responses.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collection Responses** endpoints enable you to manage collection responses.
   name: APIs.io Engineering Platform Collection Responses API
   slug: engineering-platform-collection-responses-api
-- description: 'The **Collection Tags** endpoints enable you to manage collection tags with Postman''s [tagging](https://learning.postman.com/docs/collections/using-collections/#tagging-a-collection) feature. Tagging '
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The **Collection Tags** endpoints enable you to manage collection tags with Postman''s [tagging](https://learning.postman.com/docs/collections/using-collections/#tagging-a-collection) feature. Tagging '
   name: APIs.io Engineering Platform Collection Tags API
   slug: engineering-platform-collection-tags-api
-- description: The **Collection to API** endpoints enable you to transform your Postman Collections into API definitions.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collection to API** endpoints enable you to transform your Postman Collections into API definitions.
   name: APIs.io Engineering Platform Collection to API API
   slug: engineering-platform-collection-to-api-api
-- description: The **Collections** endpoints enable you to manage your Postman [Collections](https://learning.postman.com/docs/sending-requests/intro-to-collections/).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Collections** endpoints enable you to manage your Postman [Collections](https://learning.postman.com/docs/sending-requests/intro-to-collections/).
   name: APIs.io Engineering Platform Collections API
   slug: engineering-platform-collections-api
-- description: The **Comments** endpoints enable you to manage comments on an API element. You can use [comments](https://learning.postman.com/docs/collaborating-in-postman/working-with-your-team/discussing-your-wor
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Comments** endpoints enable you to manage comments on an API element. You can use [comments](https://learning.postman.com/docs/collaborating-in-postman/working-with-your-team/discussing-your-wor
   name: APIs.io Engineering Platform Comments API
   slug: engineering-platform-comments-api
-- description: The Custom Indicator Feeds API from APIs.io Engineering Platform — 8 operation(s) for custom indicator feeds.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Indicator Feeds API from APIs.io Engineering Platform — 8 operation(s) for custom indicator feeds.
   name: APIs.io Engineering Platform Custom Indicator Feeds API
   slug: engineering-platform-custom-indicator-feeds-api
-- description: The Custom Pages for an Account API from APIs.io Engineering Platform — 2 operation(s) for custom pages for an account.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Pages for an Account API from APIs.io Engineering Platform — 2 operation(s) for custom pages for an account.
   name: APIs.io Engineering Platform Custom Pages for an Account API
   slug: engineering-platform-custom-pages-for-an-account-api
-- description: The D1 API from APIs.io Engineering Platform — 6 operation(s) for d1.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The D1 API from APIs.io Engineering Platform — 6 operation(s) for d1.
   name: APIs.io Engineering Platform D1 API
   slug: engineering-platform-d1-api
-- description: Endpoints to manage Dependabot.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Endpoints to manage Dependabot.
   name: APIs.io Engineering Platform Dependabot API
   slug: engineering-platform-dependabot-api
-- description: Endpoints to access Dependency Graph features.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Endpoints to access Dependency Graph features.
   name: APIs.io Engineering Platform Dependency-Graph API
   slug: engineering-platform-dependency-graph-api
-- description: The **Detected Secrets** endpoints enable you to manage secrets detected by the Postman [Secret Scanner](https://learning.postman.com/docs/administration/secret-scanner/).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Detected Secrets** endpoints enable you to manage secrets detected by the Postman [Secret Scanner](https://learning.postman.com/docs/administration/secret-scanner/).
   name: APIs.io Engineering Platform Detected Secrets API
   slug: engineering-platform-detected-secrets-api
-- description: The Device DEX Tests API from APIs.io Engineering Platform — 2 operation(s) for device dex tests.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Device DEX Tests API from APIs.io Engineering Platform — 2 operation(s) for device dex tests.
   name: APIs.io Engineering Platform Device DEX Tests API
   slug: engineering-platform-device-dex-tests-api
-- description: The Device Managed Networks API from APIs.io Engineering Platform — 2 operation(s) for device managed networks.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Device Managed Networks API from APIs.io Engineering Platform — 2 operation(s) for device managed networks.
   name: APIs.io Engineering Platform Device Managed Networks API
   slug: engineering-platform-device-managed-networks-api
-- description: The Device Posture Integrations API from APIs.io Engineering Platform — 2 operation(s) for device posture integrations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Device Posture Integrations API from APIs.io Engineering Platform — 2 operation(s) for device posture integrations.
   name: APIs.io Engineering Platform Device Posture Integrations API
   slug: engineering-platform-device-posture-integrations-api
-- description: The Device Posture Rules API from APIs.io Engineering Platform — 2 operation(s) for device posture rules.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Device Posture Rules API from APIs.io Engineering Platform — 2 operation(s) for device posture rules.
   name: APIs.io Engineering Platform Device Posture Rules API
   slug: engineering-platform-device-posture-rules-api
-- description: The Devices API from APIs.io Engineering Platform — 14 operation(s) for devices.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Devices API from APIs.io Engineering Platform — 14 operation(s) for devices.
   name: APIs.io Engineering Platform Devices API
   slug: engineering-platform-devices-api
-- description: The DEX Synthetic Application Monitoring API from APIs.io Engineering Platform — 12 operation(s) for dex synthetic application monitoring.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DEX Synthetic Application Monitoring API from APIs.io Engineering Platform — 12 operation(s) for dex synthetic application monitoring.
   name: APIs.io Engineering Platform DEX Synthetic Application Monitoring API
   slug: engineering-platform-dex-synthetic-application-monitoring-api
-- description: The Diagnostics API from APIs.io Engineering Platform — 1 operation(s) for diagnostics.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Diagnostics API from APIs.io Engineering Platform — 1 operation(s) for diagnostics.
   name: APIs.io Engineering Platform Diagnostics API
   slug: engineering-platform-diagnostics-api
-- description: The DLP Datasets API from APIs.io Engineering Platform — 6 operation(s) for dlp datasets.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DLP Datasets API from APIs.io Engineering Platform — 6 operation(s) for dlp datasets.
   name: APIs.io Engineering Platform DLP Datasets API
   slug: engineering-platform-dlp-datasets-api
-- description: The DLP Profiles API from APIs.io Engineering Platform — 5 operation(s) for dlp profiles.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DLP Profiles API from APIs.io Engineering Platform — 5 operation(s) for dlp profiles.
   name: APIs.io Engineering Platform DLP Profiles API
   slug: engineering-platform-dlp-profiles-api
-- description: The DLP Settings API from APIs.io Engineering Platform — 3 operation(s) for dlp settings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DLP Settings API from APIs.io Engineering Platform — 3 operation(s) for dlp settings.
   name: APIs.io Engineering Platform DLP Settings API
   slug: engineering-platform-dlp-settings-api
-- description: The DLS Regional Services API from APIs.io Engineering Platform — 1 operation(s) for dls regional services.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DLS Regional Services API from APIs.io Engineering Platform — 1 operation(s) for dls regional services.
   name: APIs.io Engineering Platform DLS Regional Services API
   slug: engineering-platform-dls-regional-services-api
-- description: The DNS Firewall Analytics API from APIs.io Engineering Platform — 2 operation(s) for dns firewall analytics.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DNS Firewall Analytics API from APIs.io Engineering Platform — 2 operation(s) for dns firewall analytics.
   name: APIs.io Engineering Platform DNS Firewall Analytics API
   slug: engineering-platform-dns-firewall-analytics-api
-- description: The DNS Firewall API from APIs.io Engineering Platform — 3 operation(s) for dns firewall.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DNS Firewall API from APIs.io Engineering Platform — 3 operation(s) for dns firewall.
   name: APIs.io Engineering Platform DNS Firewall API
   slug: engineering-platform-dns-firewall-api
-- description: The DNS Settings for an Account API from APIs.io Engineering Platform — 1 operation(s) for dns settings for an account.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The DNS Settings for an Account API from APIs.io Engineering Platform — 1 operation(s) for dns settings for an account.
   name: APIs.io Engineering Platform DNS Settings for an Account API
   slug: engineering-platform-dns-settings-for-an-account-api
-- description: The Domain History API from APIs.io Engineering Platform — 1 operation(s) for domain history.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Domain History API from APIs.io Engineering Platform — 1 operation(s) for domain history.
   name: APIs.io Engineering Platform Domain History API
   slug: engineering-platform-domain-history-api
-- description: The Domain Intelligence API from APIs.io Engineering Platform — 2 operation(s) for domain intelligence.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Domain Intelligence API from APIs.io Engineering Platform — 2 operation(s) for domain intelligence.
   name: APIs.io Engineering Platform Domain Intelligence API
   slug: engineering-platform-domain-intelligence-api
-- description: The Domainnames API from APIs.io Engineering Platform — 4 operation(s) for domainnames.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Domainnames API from APIs.io Engineering Platform — 4 operation(s) for domainnames.
   name: APIs.io Engineering Platform Domainnames API
   slug: engineering-platform-domainnames-api
-- description: The Durable Objects Namespace API from APIs.io Engineering Platform — 2 operation(s) for durable objects namespace.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Durable Objects Namespace API from APIs.io Engineering Platform — 2 operation(s) for durable objects namespace.
   name: APIs.io Engineering Platform Durable Objects Namespace API
   slug: engineering-platform-durable-objects-namespace-api
-- description: The Email Routing Destination Addresses API from APIs.io Engineering Platform — 2 operation(s) for email routing destination addresses.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Email Routing Destination Addresses API from APIs.io Engineering Platform — 2 operation(s) for email routing destination addresses.
   name: APIs.io Engineering Platform Email Routing Destination Addresses API
   slug: engineering-platform-email-routing-destination-addresses-api
-- description: The Email Security API from APIs.io Engineering Platform — 7 operation(s) for email security.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Email Security API from APIs.io Engineering Platform — 7 operation(s) for email security.
   name: APIs.io Engineering Platform Email Security API
   slug: engineering-platform-email-security-api
-- description: The Email Security Settings API from APIs.io Engineering Platform — 10 operation(s) for email security settings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Email Security Settings API from APIs.io Engineering Platform — 10 operation(s) for email security settings.
   name: APIs.io Engineering Platform Email Security Settings API
   slug: engineering-platform-email-security-settings-api
-- description: List emojis available to use on GitHub.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: List emojis available to use on GitHub.
   name: APIs.io Engineering Platform Emojis API
   slug: engineering-platform-emojis-api
-- description: Enterprise Administration
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Enterprise Administration
   name: APIs.io Engineering Platform Enterprise-Admin API
   slug: engineering-platform-enterprise-admin-api
-- description: The **Environments** endpoints enable you to manage your Postman [environments](https://learning.postman.com/docs/sending-requests/managing-environments/).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Environments** endpoints enable you to manage your Postman [environments](https://learning.postman.com/docs/sending-requests/managing-environments/).
   name: APIs.io Engineering Platform Environments API
   slug: engineering-platform-environments-api
-- description: 'The **Forks** endpoints enable you to manage element [forks](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/forking-elements/). Forks are new instances of an element '
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The **Forks** endpoints enable you to manage element [forks](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/forking-elements/). Forks are new instances of an element '
   name: APIs.io Engineering Platform Forks API
   slug: engineering-platform-forks-api
-- description: View, modify your gists.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: View, modify your gists.
   name: APIs.io Engineering Platform Gists API
   slug: engineering-platform-gists-api
-- description: Raw Git functionality.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Raw Git functionality.
   name: APIs.io Engineering Platform Git API
   slug: engineering-platform-git-api
-- description: View gitignore templates
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: View gitignore templates
   name: APIs.io Engineering Platform Gitignore API
   slug: engineering-platform-gitignore-api
-- description: The **Global Variables** endpoints enable you to manage global [variables](https://learning.postman.com/docs/sending-requests/variables/). Global variables are available throughout a workspace and hav
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Global Variables** endpoints enable you to manage global [variables](https://learning.postman.com/docs/sending-requests/variables/). Global variables are available throughout a workspace and hav
   name: APIs.io Engineering Platform Global Variables API
   slug: engineering-platform-global-variables-api
-- description: The **Group Provisioning** endpoints enable you to provision and manage your Postman groups.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Group Provisioning** endpoints enable you to provision and manage your Postman groups.
   name: APIs.io Engineering Platform Group Provisioning API
   slug: engineering-platform-group-provisioning-api
-- description: The Hyperdrive API from APIs.io Engineering Platform — 2 operation(s) for hyperdrive.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Hyperdrive API from APIs.io Engineering Platform — 2 operation(s) for hyperdrive.
   name: APIs.io Engineering Platform Hyperdrive API
   slug: engineering-platform-hyperdrive-api
-- description: The **Import** endpoints enable you to manage [importing and exporting](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/) Postman data.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Import** endpoints enable you to manage [importing and exporting](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/) Postman data.
   name: APIs.io Engineering Platform Import API
   slug: engineering-platform-import-api
-- description: The Infrastructure Access Targets API from APIs.io Engineering Platform — 2 operation(s) for infrastructure access targets.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Infrastructure Access Targets API from APIs.io Engineering Platform — 2 operation(s) for infrastructure access targets.
   name: APIs.io Engineering Platform Infrastructure Access Targets API
   slug: engineering-platform-infrastructure-access-targets-api
-- description: The IP Access Rules for a User API from APIs.io Engineering Platform — 2 operation(s) for ip access rules for a user.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Access Rules for a User API from APIs.io Engineering Platform — 2 operation(s) for ip access rules for a user.
   name: APIs.io Engineering Platform IP Access Rules for a User API
   slug: engineering-platform-ip-access-rules-for-a-user-api
-- description: The IP Access Rules for an Account API from APIs.io Engineering Platform — 2 operation(s) for ip access rules for an account.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Access Rules for an Account API from APIs.io Engineering Platform — 2 operation(s) for ip access rules for an account.
   name: APIs.io Engineering Platform IP Access Rules for an Account API
   slug: engineering-platform-ip-access-rules-for-an-account-api
-- description: The IP Address Management Address Maps API from APIs.io Engineering Platform — 5 operation(s) for ip address management address maps.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Address Management Address Maps API from APIs.io Engineering Platform — 5 operation(s) for ip address management address maps.
   name: APIs.io Engineering Platform IP Address Management Address Maps API
   slug: engineering-platform-ip-address-management-address-maps-api
-- description: The IP Address Management BGP Prefixes API from APIs.io Engineering Platform — 2 operation(s) for ip address management bgp prefixes.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Address Management BGP Prefixes API from APIs.io Engineering Platform — 2 operation(s) for ip address management bgp prefixes.
   name: APIs.io Engineering Platform IP Address Management BGP Prefixes API
   slug: engineering-platform-ip-address-management-bgp-prefixes-api
-- description: The IP Address Management Dynamic Advertisement API from APIs.io Engineering Platform — 1 operation(s) for ip address management dynamic advertisement.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Address Management Dynamic Advertisement API from APIs.io Engineering Platform — 1 operation(s) for ip address management dynamic advertisement.
   name: APIs.io Engineering Platform IP Address Management Dynamic Advertisement API
   slug: engineering-platform-ip-address-management-dynamic-advertisement-api
-- description: The IP Address Management Prefix Delegation API from APIs.io Engineering Platform — 2 operation(s) for ip address management prefix delegation.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Address Management Prefix Delegation API from APIs.io Engineering Platform — 2 operation(s) for ip address management prefix delegation.
   name: APIs.io Engineering Platform IP Address Management Prefix Delegation API
   slug: engineering-platform-ip-address-management-prefix-delegation-api
-- description: The IP Address Management Prefixes API from APIs.io Engineering Platform — 4 operation(s) for ip address management prefixes.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Address Management Prefixes API from APIs.io Engineering Platform — 4 operation(s) for ip address management prefixes.
   name: APIs.io Engineering Platform IP Address Management Prefixes API
   slug: engineering-platform-ip-address-management-prefixes-api
-- description: The IP Address Management Service Bindings API from APIs.io Engineering Platform — 3 operation(s) for ip address management service bindings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Address Management Service Bindings API from APIs.io Engineering Platform — 3 operation(s) for ip address management service bindings.
   name: APIs.io Engineering Platform IP Address Management Service Bindings API
   slug: engineering-platform-ip-address-management-service-bindings-api
-- description: The IP Intelligence API from APIs.io Engineering Platform — 1 operation(s) for ip intelligence.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP Intelligence API from APIs.io Engineering Platform — 1 operation(s) for ip intelligence.
   name: APIs.io Engineering Platform IP Intelligence API
   slug: engineering-platform-ip-intelligence-api
-- description: The IP List API from APIs.io Engineering Platform — 1 operation(s) for ip list.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The IP List API from APIs.io Engineering Platform — 1 operation(s) for ip list.
   name: APIs.io Engineering Platform IP List API
   slug: engineering-platform-ip-list-api
-- description: Interact with GitHub Issues.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with GitHub Issues.
   name: APIs.io Engineering Platform Issues API
   slug: engineering-platform-issues-api
-- description: View various OSS licenses.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: View various OSS licenses.
   name: APIs.io Engineering Platform Licenses API
   slug: engineering-platform-licenses-api
-- description: The Lists API from APIs.io Engineering Platform — 5 operation(s) for lists.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Lists API from APIs.io Engineering Platform — 5 operation(s) for lists.
   name: APIs.io Engineering Platform Lists API
   slug: engineering-platform-lists-api
-- description: The Load Balancer Healthcheck Events API from APIs.io Engineering Platform — 1 operation(s) for load balancer healthcheck events.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Load Balancer Healthcheck Events API from APIs.io Engineering Platform — 1 operation(s) for load balancer healthcheck events.
   name: APIs.io Engineering Platform Load Balancer Healthcheck Events API
   slug: engineering-platform-load-balancer-healthcheck-events-api
-- description: The Load Balancer Monitors API from APIs.io Engineering Platform — 5 operation(s) for load balancer monitors.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Load Balancer Monitors API from APIs.io Engineering Platform — 5 operation(s) for load balancer monitors.
   name: APIs.io Engineering Platform Load Balancer Monitors API
   slug: engineering-platform-load-balancer-monitors-api
-- description: The Load Balancer Pools API from APIs.io Engineering Platform — 5 operation(s) for load balancer pools.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Load Balancer Pools API from APIs.io Engineering Platform — 5 operation(s) for load balancer pools.
   name: APIs.io Engineering Platform Load Balancer Pools API
   slug: engineering-platform-load-balancer-pools-api
-- description: The Load Balancer Regions API from APIs.io Engineering Platform — 2 operation(s) for load balancer regions.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Load Balancer Regions API from APIs.io Engineering Platform — 2 operation(s) for load balancer regions.
   name: APIs.io Engineering Platform Load Balancer Regions API
   slug: engineering-platform-load-balancer-regions-api
-- description: The Logcontrol CMB Config for an Account API from APIs.io Engineering Platform — 1 operation(s) for logcontrol cmb config for an account.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Logcontrol CMB Config for an Account API from APIs.io Engineering Platform — 1 operation(s) for logcontrol cmb config for an account.
   name: APIs.io Engineering Platform Logcontrol CMB Config for an Account API
   slug: engineering-platform-logcontrol-cmb-config-for-an-account-api
-- description: The Logpush Jobs for an Account API from APIs.io Engineering Platform — 8 operation(s) for logpush jobs for an account.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Logpush Jobs for an Account API from APIs.io Engineering Platform — 8 operation(s) for logpush jobs for an account.
   name: APIs.io Engineering Platform Logpush Jobs for an Account API
   slug: engineering-platform-logpush-jobs-for-an-account-api
-- description: The Magic Account Apps API from APIs.io Engineering Platform — 2 operation(s) for magic account apps.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Account Apps API from APIs.io Engineering Platform — 2 operation(s) for magic account apps.
   name: APIs.io Engineering Platform Magic Account Apps API
   slug: engineering-platform-magic-account-apps-api
-- description: The Magic Connectors API from APIs.io Engineering Platform — 2 operation(s) for magic connectors.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Connectors API from APIs.io Engineering Platform — 2 operation(s) for magic connectors.
   name: APIs.io Engineering Platform Magic Connectors API
   slug: engineering-platform-magic-connectors-api
-- description: The Magic GRE Tunnels API from APIs.io Engineering Platform — 2 operation(s) for magic gre tunnels.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic GRE Tunnels API from APIs.io Engineering Platform — 2 operation(s) for magic gre tunnels.
   name: APIs.io Engineering Platform Magic GRE Tunnels API
   slug: engineering-platform-magic-gre-tunnels-api
-- description: The Magic Interconnects API from APIs.io Engineering Platform — 2 operation(s) for magic interconnects.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Interconnects API from APIs.io Engineering Platform — 2 operation(s) for magic interconnects.
   name: APIs.io Engineering Platform Magic Interconnects API
   slug: engineering-platform-magic-interconnects-api
-- description: The Magic IPsec Tunnels API from APIs.io Engineering Platform — 3 operation(s) for magic ipsec tunnels.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic IPsec Tunnels API from APIs.io Engineering Platform — 3 operation(s) for magic ipsec tunnels.
   name: APIs.io Engineering Platform Magic IPsec Tunnels API
   slug: engineering-platform-magic-ipsec-tunnels-api
-- description: The Magic Network Monitoring Configuration API from APIs.io Engineering Platform — 2 operation(s) for magic network monitoring configuration.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Network Monitoring Configuration API from APIs.io Engineering Platform — 2 operation(s) for magic network monitoring configuration.
   name: APIs.io Engineering Platform Magic Network Monitoring Configuration API
   slug: engineering-platform-magic-network-monitoring-configuration-api
-- description: The Magic Network Monitoring Rules API from APIs.io Engineering Platform — 3 operation(s) for magic network monitoring rules.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Network Monitoring Rules API from APIs.io Engineering Platform — 3 operation(s) for magic network monitoring rules.
   name: APIs.io Engineering Platform Magic Network Monitoring Rules API
   slug: engineering-platform-magic-network-monitoring-rules-api
-- description: The Magic PCAP Collection API from APIs.io Engineering Platform — 6 operation(s) for magic pcap collection.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic PCAP Collection API from APIs.io Engineering Platform — 6 operation(s) for magic pcap collection.
   name: APIs.io Engineering Platform Magic PCAP Collection API
   slug: engineering-platform-magic-pcap-collection-api
-- description: The Magic Site ACLs API from APIs.io Engineering Platform — 2 operation(s) for magic site acls.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Site ACLs API from APIs.io Engineering Platform — 2 operation(s) for magic site acls.
   name: APIs.io Engineering Platform Magic Site ACLs API
   slug: engineering-platform-magic-site-acls-api
-- description: The Magic Site App Configs API from APIs.io Engineering Platform — 2 operation(s) for magic site app configs.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Site App Configs API from APIs.io Engineering Platform — 2 operation(s) for magic site app configs.
   name: APIs.io Engineering Platform Magic Site App Configs API
   slug: engineering-platform-magic-site-app-configs-api
-- description: The Magic Site LANs API from APIs.io Engineering Platform — 2 operation(s) for magic site lans.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Site LANs API from APIs.io Engineering Platform — 2 operation(s) for magic site lans.
   name: APIs.io Engineering Platform Magic Site LANs API
   slug: engineering-platform-magic-site-lans-api
-- description: The Magic Site WANs API from APIs.io Engineering Platform — 2 operation(s) for magic site wans.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Site WANs API from APIs.io Engineering Platform — 2 operation(s) for magic site wans.
   name: APIs.io Engineering Platform Magic Site WANs API
   slug: engineering-platform-magic-site-wans-api
-- description: The Magic Sites API from APIs.io Engineering Platform — 2 operation(s) for magic sites.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Sites API from APIs.io Engineering Platform — 2 operation(s) for magic sites.
   name: APIs.io Engineering Platform Magic Sites API
   slug: engineering-platform-magic-sites-api
-- description: The Magic Static Routes API from APIs.io Engineering Platform — 2 operation(s) for magic static routes.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Magic Static Routes API from APIs.io Engineering Platform — 2 operation(s) for magic static routes.
   name: APIs.io Engineering Platform Magic Static Routes API
   slug: engineering-platform-magic-static-routes-api
-- description: Render GitHub flavored markdown
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Render GitHub flavored markdown
   name: APIs.io Engineering Platform Markdown API
   slug: engineering-platform-markdown-api
-- description: Endpoints that give information about the API.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Endpoints that give information about the API.
   name: APIs.io Engineering Platform Meta API
   slug: engineering-platform-meta-api
-- description: Move projects to or from GitHub.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Move projects to or from GitHub.
   name: APIs.io Engineering Platform Migrations API
   slug: engineering-platform-migrations-api
-- description: The Miscategorization API from APIs.io Engineering Platform — 1 operation(s) for miscategorization.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Miscategorization API from APIs.io Engineering Platform — 1 operation(s) for miscategorization.
   name: APIs.io Engineering Platform Miscategorization API
   slug: engineering-platform-miscategorization-api
-- description: The **Mocks** endpoints enable you to manage your [mock servers](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Mocks** endpoints enable you to manage your [mock servers](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
   name: APIs.io Engineering Platform Mocks API
   slug: engineering-platform-mocks-api
-- description: The **Monitors** endpoints enable you to manage your [monitors](https://learning.postman.com/docs/monitoring-your-api/intro-monitors/).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Monitors** endpoints enable you to manage your [monitors](https://learning.postman.com/docs/monitoring-your-api/intro-monitors/).
   name: APIs.io Engineering Platform Monitors API
   slug: engineering-platform-monitors-api
-- description: The mTLS Certificate Management API from APIs.io Engineering Platform — 3 operation(s) for mtls certificate management.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The mTLS Certificate Management API from APIs.io Engineering Platform — 3 operation(s) for mtls certificate management.
   name: APIs.io Engineering Platform mTLS Certificate Management API
   slug: engineering-platform-mtls-certificate-management-api
-- description: The NewsCategory API from APIs.io Engineering Platform — 1 operation(s) for newscategory.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The NewsCategory API from APIs.io Engineering Platform — 1 operation(s) for newscategory.
   name: APIs.io Engineering Platform NewsCategory API
   slug: engineering-platform-newscategory-api
-- description: The NewsSearch API from APIs.io Engineering Platform — 1 operation(s) for newssearch.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The NewsSearch API from APIs.io Engineering Platform — 1 operation(s) for newssearch.
   name: APIs.io Engineering Platform NewsSearch API
   slug: engineering-platform-newssearch-api
-- description: The NewsTrendingTopics API from APIs.io Engineering Platform — 1 operation(s) for newstrendingtopics.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The NewsTrendingTopics API from APIs.io Engineering Platform — 1 operation(s) for newstrendingtopics.
   name: APIs.io Engineering Platform NewsTrendingTopics API
   slug: engineering-platform-newstrendingtopics-api
-- description: The Notification Alert Types API from APIs.io Engineering Platform — 1 operation(s) for notification alert types.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Notification Alert Types API from APIs.io Engineering Platform — 1 operation(s) for notification alert types.
   name: APIs.io Engineering Platform Notification Alert Types API
   slug: engineering-platform-notification-alert-types-api
-- description: The Notification Destinations with PagerDuty API from APIs.io Engineering Platform — 3 operation(s) for notification destinations with pagerduty.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Notification Destinations with PagerDuty API from APIs.io Engineering Platform — 3 operation(s) for notification destinations with pagerduty.
   name: APIs.io Engineering Platform Notification Destinations with PagerDuty API
   slug: engineering-platform-notification-destinations-with-pagerduty-api
-- description: The Notification History API from APIs.io Engineering Platform — 1 operation(s) for notification history.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Notification History API from APIs.io Engineering Platform — 1 operation(s) for notification history.
   name: APIs.io Engineering Platform Notification History API
   slug: engineering-platform-notification-history-api
-- description: The Notification Mechanism Eligibility API from APIs.io Engineering Platform — 1 operation(s) for notification mechanism eligibility.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Notification Mechanism Eligibility API from APIs.io Engineering Platform — 1 operation(s) for notification mechanism eligibility.
   name: APIs.io Engineering Platform Notification Mechanism Eligibility API
   slug: engineering-platform-notification-mechanism-eligibility-api
-- description: The Notification Policies API from APIs.io Engineering Platform — 2 operation(s) for notification policies.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Notification Policies API from APIs.io Engineering Platform — 2 operation(s) for notification policies.
   name: APIs.io Engineering Platform Notification Policies API
   slug: engineering-platform-notification-policies-api
-- description: The Notification Webhooks API from APIs.io Engineering Platform — 2 operation(s) for notification webhooks.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Notification Webhooks API from APIs.io Engineering Platform — 2 operation(s) for notification webhooks.
   name: APIs.io Engineering Platform Notification Webhooks API
   slug: engineering-platform-notification-webhooks-api
-- description: OAuth Authorizations API
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: OAuth Authorizations API
   name: APIs.io Engineering Platform Oauth-Authorizations API
   slug: engineering-platform-oauth-authorizations-api
-- description: Endpoints to manage GitHub OIDC configuration using the REST API.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Endpoints to manage GitHub OIDC configuration using the REST API.
   name: APIs.io Engineering Platform Oidc API
   slug: engineering-platform-oidc-api
-- description: Interact with GitHub Orgs.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with GitHub Orgs.
   name: APIs.io Engineering Platform Orgs API
   slug: engineering-platform-orgs-api
-- description: The Origin CA API from APIs.io Engineering Platform — 2 operation(s) for origin ca.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Origin CA API from APIs.io Engineering Platform — 2 operation(s) for origin ca.
   name: APIs.io Engineering Platform Origin CA API
   slug: engineering-platform-origin-ca-api
-- description: Manage packages for authenticated users and organizations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Manage packages for authenticated users and organizations.
   name: APIs.io Engineering Platform Packages API
   slug: engineering-platform-packages-api
-- description: The Pages Build Cache API from APIs.io Engineering Platform — 1 operation(s) for pages build cache.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Pages Build Cache API from APIs.io Engineering Platform — 1 operation(s) for pages build cache.
   name: APIs.io Engineering Platform Pages Build Cache API
   slug: engineering-platform-pages-build-cache-api
-- description: The Pages Deployment API from APIs.io Engineering Platform — 5 operation(s) for pages deployment.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Pages Deployment API from APIs.io Engineering Platform — 5 operation(s) for pages deployment.
   name: APIs.io Engineering Platform Pages Deployment API
   slug: engineering-platform-pages-deployment-api
-- description: The Pages Domains API from APIs.io Engineering Platform — 2 operation(s) for pages domains.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Pages Domains API from APIs.io Engineering Platform — 2 operation(s) for pages domains.
   name: APIs.io Engineering Platform Pages Domains API
   slug: engineering-platform-pages-domains-api
-- description: The Pages Project API from APIs.io Engineering Platform — 2 operation(s) for pages project.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Pages Project API from APIs.io Engineering Platform — 2 operation(s) for pages project.
   name: APIs.io Engineering Platform Pages Project API
   slug: engineering-platform-pages-project-api
-- description: The Passive DNS by IP API from APIs.io Engineering Platform — 1 operation(s) for passive dns by ip.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Passive DNS by IP API from APIs.io Engineering Platform — 1 operation(s) for passive dns by ip.
   name: APIs.io Engineering Platform Passive DNS by IP API
   slug: engineering-platform-passive-dns-by-ip-api
-- description: The Phishing URL Information API from APIs.io Engineering Platform — 1 operation(s) for phishing url information.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Phishing URL Information API from APIs.io Engineering Platform — 1 operation(s) for phishing url information.
   name: APIs.io Engineering Platform Phishing URL Information API
   slug: engineering-platform-phishing-url-information-api
-- description: The Phishing URL Scanner API from APIs.io Engineering Platform — 1 operation(s) for phishing url scanner.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Phishing URL Scanner API from APIs.io Engineering Platform — 1 operation(s) for phishing url scanner.
   name: APIs.io Engineering Platform Phishing URL Scanner API
   slug: engineering-platform-phishing-url-scanner-api
-- description: The Priority Intelligence Requirements (PIR) API from APIs.io Engineering Platform — 4 operation(s) for priority intelligence requirements (pir).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Priority Intelligence Requirements (PIR) API from APIs.io Engineering Platform — 4 operation(s) for priority intelligence requirements (pir).
   name: APIs.io Engineering Platform Priority Intelligence Requirements (PIR) API
   slug: engineering-platform-priority-intelligence-requirements-pir-api
-- description: The **Private API Network** endpoints enable you to manage and work with your team's [Private API Network](https://learning.postman.com/docs/collaborating-in-postman/adding-private-network/). These en
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Private API Network** endpoints enable you to manage and work with your team's [Private API Network](https://learning.postman.com/docs/collaborating-in-postman/adding-private-network/). These en
   name: APIs.io Engineering Platform Private API Network API
   slug: engineering-platform-private-api-network-api
-- description: Interact with GitHub Projects.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with GitHub Projects.
   name: APIs.io Engineering Platform Projects API
   slug: engineering-platform-projects-api
-- description: These endpoints enable you to manage your [pull requests](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/creating-pull-requests/) in Postman. Pull requests allow revi
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: These endpoints enable you to manage your [pull requests](https://learning.postman.com/docs/collaborating-in-postman/using-version-control/creating-pull-requests/) in Postman. Pull requests allow revi
   name: APIs.io Engineering Platform Pull Requests API
   slug: engineering-platform-pull-requests-api
-- description: Interact with GitHub Pull Requests.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with GitHub Pull Requests.
   name: APIs.io Engineering Platform Pulls API
   slug: engineering-platform-pulls-api
-- description: The Queue API from APIs.io Engineering Platform — 6 operation(s) for queue.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Queue API from APIs.io Engineering Platform — 6 operation(s) for queue.
   name: APIs.io Engineering Platform Queue API
   slug: engineering-platform-queue-api
-- description: The R2 Bucket API from APIs.io Engineering Platform — 7 operation(s) for r2 bucket.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The R2 Bucket API from APIs.io Engineering Platform — 7 operation(s) for r2 bucket.
   name: APIs.io Engineering Platform R2 Bucket API
   slug: engineering-platform-r2-bucket-api
-- description: The R2 Event Notification API from APIs.io Engineering Platform — 2 operation(s) for r2 event notification.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The R2 Event Notification API from APIs.io Engineering Platform — 2 operation(s) for r2 event notification.
   name: APIs.io Engineering Platform R2 Event Notification API
   slug: engineering-platform-r2-event-notification-api
-- description: The Radar AI Gateway API from APIs.io Engineering Platform — 2 operation(s) for radar ai gateway.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar AI Gateway API from APIs.io Engineering Platform — 2 operation(s) for radar ai gateway.
   name: APIs.io Engineering Platform Radar AI Gateway API
   slug: engineering-platform-radar-ai-gateway-api
-- description: The Radar AI Inference API from APIs.io Engineering Platform — 4 operation(s) for radar ai inference.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar AI Inference API from APIs.io Engineering Platform — 4 operation(s) for radar ai inference.
   name: APIs.io Engineering Platform Radar AI Inference API
   slug: engineering-platform-radar-ai-inference-api
-- description: The Radar Annotations API from APIs.io Engineering Platform — 3 operation(s) for radar annotations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Annotations API from APIs.io Engineering Platform — 3 operation(s) for radar annotations.
   name: APIs.io Engineering Platform Radar Annotations API
   slug: engineering-platform-radar-annotations-api
-- description: The Radar AS112 API from APIs.io Engineering Platform — 17 operation(s) for radar as112.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar AS112 API from APIs.io Engineering Platform — 17 operation(s) for radar as112.
   name: APIs.io Engineering Platform Radar AS112 API
   slug: engineering-platform-radar-as112-api
-- description: The Radar Attacks API from APIs.io Engineering Platform — 41 operation(s) for radar attacks.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Attacks API from APIs.io Engineering Platform — 41 operation(s) for radar attacks.
   name: APIs.io Engineering Platform Radar Attacks API
   slug: engineering-platform-radar-attacks-api
-- description: The Radar BGP API from APIs.io Engineering Platform — 11 operation(s) for radar bgp.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar BGP API from APIs.io Engineering Platform — 11 operation(s) for radar bgp.
   name: APIs.io Engineering Platform Radar BGP API
   slug: engineering-platform-radar-bgp-api
-- description: The Radar Datasets API from APIs.io Engineering Platform — 3 operation(s) for radar datasets.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Datasets API from APIs.io Engineering Platform — 3 operation(s) for radar datasets.
   name: APIs.io Engineering Platform Radar Datasets API
   slug: engineering-platform-radar-datasets-api
-- description: The Radar DNS API from APIs.io Engineering Platform — 2 operation(s) for radar dns.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar DNS API from APIs.io Engineering Platform — 2 operation(s) for radar dns.
   name: APIs.io Engineering Platform Radar DNS API
   slug: engineering-platform-radar-dns-api
-- description: The Radar Email Routing API from APIs.io Engineering Platform — 12 operation(s) for radar email routing.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Email Routing API from APIs.io Engineering Platform — 12 operation(s) for radar email routing.
   name: APIs.io Engineering Platform Radar Email Routing API
   slug: engineering-platform-radar-email-routing-api
-- description: The Radar Email Security API from APIs.io Engineering Platform — 22 operation(s) for radar email security.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Email Security API from APIs.io Engineering Platform — 22 operation(s) for radar email security.
   name: APIs.io Engineering Platform Radar Email Security API
   slug: engineering-platform-radar-email-security-api
-- description: The Radar Entities API from APIs.io Engineering Platform — 7 operation(s) for radar entities.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Entities API from APIs.io Engineering Platform — 7 operation(s) for radar entities.
   name: APIs.io Engineering Platform Radar Entities API
   slug: engineering-platform-radar-entities-api
-- description: The Radar Http API from APIs.io Engineering Platform — 39 operation(s) for radar http.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Http API from APIs.io Engineering Platform — 39 operation(s) for radar http.
   name: APIs.io Engineering Platform Radar Http API
   slug: engineering-platform-radar-http-api
-- description: The Radar Netflows API from APIs.io Engineering Platform — 4 operation(s) for radar netflows.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Netflows API from APIs.io Engineering Platform — 4 operation(s) for radar netflows.
   name: APIs.io Engineering Platform Radar Netflows API
   slug: engineering-platform-radar-netflows-api
-- description: The Radar Quality API from APIs.io Engineering Platform — 6 operation(s) for radar quality.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Quality API from APIs.io Engineering Platform — 6 operation(s) for radar quality.
   name: APIs.io Engineering Platform Radar Quality API
   slug: engineering-platform-radar-quality-api
-- description: The Radar Ranking API from APIs.io Engineering Platform — 3 operation(s) for radar ranking.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Ranking API from APIs.io Engineering Platform — 3 operation(s) for radar ranking.
   name: APIs.io Engineering Platform Radar Ranking API
   slug: engineering-platform-radar-ranking-api
-- description: The Radar Robots.txt API from APIs.io Engineering Platform — 2 operation(s) for radar robots.txt.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Robots.txt API from APIs.io Engineering Platform — 2 operation(s) for radar robots.txt.
   name: APIs.io Engineering Platform Radar Robots.txt API
   slug: engineering-platform-radar-robots-txt-api
-- description: The Radar Search API from APIs.io Engineering Platform — 1 operation(s) for radar search.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Search API from APIs.io Engineering Platform — 1 operation(s) for radar search.
   name: APIs.io Engineering Platform Radar Search API
   slug: engineering-platform-radar-search-api
-- description: The Radar TCP Resets Timeouts API from APIs.io Engineering Platform — 2 operation(s) for radar tcp resets timeouts.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar TCP Resets Timeouts API from APIs.io Engineering Platform — 2 operation(s) for radar tcp resets timeouts.
   name: APIs.io Engineering Platform Radar TCP Resets Timeouts API
   slug: engineering-platform-radar-tcp-resets-timeouts-api
-- description: The Radar Traffic Anomalies API from APIs.io Engineering Platform — 2 operation(s) for radar traffic anomalies.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Traffic Anomalies API from APIs.io Engineering Platform — 2 operation(s) for radar traffic anomalies.
   name: APIs.io Engineering Platform Radar Traffic Anomalies API
   slug: engineering-platform-radar-traffic-anomalies-api
-- description: The Radar Verified Bots API from APIs.io Engineering Platform — 2 operation(s) for radar verified bots.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Radar Verified Bots API from APIs.io Engineering Platform — 2 operation(s) for radar verified bots.
   name: APIs.io Engineering Platform Radar Verified Bots API
   slug: engineering-platform-radar-verified-bots-api
-- description: Check your current rate limit status
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Check your current rate limit status
   name: APIs.io Engineering Platform Rate-Limit API
   slug: engineering-platform-rate-limit-api
-- description: Interact with reactions to various GitHub entities.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with reactions to various GitHub entities.
   name: APIs.io Engineering Platform Reactions API
   slug: engineering-platform-reactions-api
-- description: The Registrar Domains API from APIs.io Engineering Platform — 2 operation(s) for registrar domains.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Registrar Domains API from APIs.io Engineering Platform — 2 operation(s) for registrar domains.
   name: APIs.io Engineering Platform Registrar Domains API
   slug: engineering-platform-registrar-domains-api
-- description: Interact with GitHub Repos.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with GitHub Repos.
   name: APIs.io Engineering Platform Repos API
   slug: engineering-platform-repos-api
-- description: The Request for Information (RFI) API from APIs.io Engineering Platform — 12 operation(s) for request for information (rfi).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Request for Information (RFI) API from APIs.io Engineering Platform — 12 operation(s) for request for information (rfi).
   name: APIs.io Engineering Platform Request for Information (RFI) API
   slug: engineering-platform-request-for-information-rfi-api
-- description: The Restapis API from APIs.io Engineering Platform — 30 operation(s) for restapis.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Restapis API from APIs.io Engineering Platform — 30 operation(s) for restapis.
   name: APIs.io Engineering Platform Restapis API
   slug: engineering-platform-restapis-api
-- description: The Restapis#mode=import API from APIs.io Engineering Platform — 1 operation(s) for restapis#mode=import.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Restapis#mode=import API from APIs.io Engineering Platform — 1 operation(s) for restapis#mode=import.
   name: APIs.io Engineering Platform Restapis#mode=import API
   slug: engineering-platform-restapis-mode-import-api
-- description: The **Roles** endpoints enable you to manage user roles. [Roles])(https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/) define user permissions within a Postman workspace.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Roles** endpoints enable you to manage user roles. [Roles])(https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/) define user permissions within a Postman workspace.
   name: APIs.io Engineering Platform Roles API
   slug: engineering-platform-roles-api
-- description: The **Schema** endpoints enable you to manage your API definitions. These endpoints also support multi-file schema.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Schema** endpoints enable you to manage your API definitions. These endpoints also support multi-file schema.
   name: APIs.io Engineering Platform Schema API
   slug: engineering-platform-schema-api
-- description: Provisioning of GitHub organization membership for SCIM-enabled providers.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Provisioning of GitHub organization membership for SCIM-enabled providers.
   name: APIs.io Engineering Platform Scim API
   slug: engineering-platform-scim-api
-- description: The Sdktypes API from APIs.io Engineering Platform — 2 operation(s) for sdktypes.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Sdktypes API from APIs.io Engineering Platform — 2 operation(s) for sdktypes.
   name: APIs.io Engineering Platform Sdktypes API
   slug: engineering-platform-sdktypes-api
-- description: Look for stuff on GitHub.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Look for stuff on GitHub.
   name: APIs.io Engineering Platform Search API
   slug: engineering-platform-search-api
-- description: The Secondary DNS (ACL) API from APIs.io Engineering Platform — 2 operation(s) for secondary dns (acl).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Secondary DNS (ACL) API from APIs.io Engineering Platform — 2 operation(s) for secondary dns (acl).
   name: APIs.io Engineering Platform Secondary DNS (ACL) API
   slug: engineering-platform-secondary-dns-acl-api
-- description: The Secondary DNS (Peer) API from APIs.io Engineering Platform — 2 operation(s) for secondary dns (peer).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Secondary DNS (Peer) API from APIs.io Engineering Platform — 2 operation(s) for secondary dns (peer).
   name: APIs.io Engineering Platform Secondary DNS (Peer) API
   slug: engineering-platform-secondary-dns-peer-api
-- description: The Secondary DNS (TSIG) API from APIs.io Engineering Platform — 2 operation(s) for secondary dns (tsig).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Secondary DNS (TSIG) API from APIs.io Engineering Platform — 2 operation(s) for secondary dns (tsig).
   name: APIs.io Engineering Platform Secondary DNS (TSIG) API
   slug: engineering-platform-secondary-dns-tsig-api
-- description: The **Secret Scanner** endpoints enable you to manage the secrets detected by Postman's [Secret Scanner](https://learning.postman.com/docs/administration/secret-scanner/). These endpoints are only ava
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Secret Scanner** endpoints enable you to manage the secrets detected by Postman's [Secret Scanner](https://learning.postman.com/docs/administration/secret-scanner/). These endpoints are only ava
   name: APIs.io Engineering Platform Secret Scanner API
   slug: engineering-platform-secret-scanner-api
-- description: Retrieve secret scanning alerts from a repository.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Retrieve secret scanning alerts from a repository.
   name: APIs.io Engineering Platform Secret-Scanning API
   slug: engineering-platform-secret-scanning-api
-- description: The Security Center Insights API from APIs.io Engineering Platform — 6 operation(s) for security center insights.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Security Center Insights API from APIs.io Engineering Platform — 6 operation(s) for security center insights.
   name: APIs.io Engineering Platform Security Center Insights API
   slug: engineering-platform-security-center-insights-api
-- description: The Sinkhole Config API from APIs.io Engineering Platform — 1 operation(s) for sinkhole config.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Sinkhole Config API from APIs.io Engineering Platform — 1 operation(s) for sinkhole config.
   name: APIs.io Engineering Platform Sinkhole Config API
   slug: engineering-platform-sinkhole-config-api
-- description: The Stream Audio Tracks API from APIs.io Engineering Platform — 3 operation(s) for stream audio tracks.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Audio Tracks API from APIs.io Engineering Platform — 3 operation(s) for stream audio tracks.
   name: APIs.io Engineering Platform Stream Audio Tracks API
   slug: engineering-platform-stream-audio-tracks-api
-- description: The Stream Live Inputs API from APIs.io Engineering Platform — 4 operation(s) for stream live inputs.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Live Inputs API from APIs.io Engineering Platform — 4 operation(s) for stream live inputs.
   name: APIs.io Engineering Platform Stream Live Inputs API
   slug: engineering-platform-stream-live-inputs-api
-- description: The Stream MP4 Downloads API from APIs.io Engineering Platform — 1 operation(s) for stream mp4 downloads.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream MP4 Downloads API from APIs.io Engineering Platform — 1 operation(s) for stream mp4 downloads.
   name: APIs.io Engineering Platform Stream MP4 Downloads API
   slug: engineering-platform-stream-mp4-downloads-api
-- description: The Stream Signing Keys API from APIs.io Engineering Platform — 2 operation(s) for stream signing keys.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Signing Keys API from APIs.io Engineering Platform — 2 operation(s) for stream signing keys.
   name: APIs.io Engineering Platform Stream Signing Keys API
   slug: engineering-platform-stream-signing-keys-api
-- description: The Stream Subtitles/Captions API from APIs.io Engineering Platform — 4 operation(s) for stream subtitles/captions.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Subtitles/Captions API from APIs.io Engineering Platform — 4 operation(s) for stream subtitles/captions.
   name: APIs.io Engineering Platform Stream Subtitles/Captions API
   slug: engineering-platform-stream-subtitles-captions-api
-- description: The Stream Video Clipping API from APIs.io Engineering Platform — 1 operation(s) for stream video clipping.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Video Clipping API from APIs.io Engineering Platform — 1 operation(s) for stream video clipping.
   name: APIs.io Engineering Platform Stream Video Clipping API
   slug: engineering-platform-stream-video-clipping-api
-- description: The Stream Videos API from APIs.io Engineering Platform — 7 operation(s) for stream videos.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Videos API from APIs.io Engineering Platform — 7 operation(s) for stream videos.
   name: APIs.io Engineering Platform Stream Videos API
   slug: engineering-platform-stream-videos-api
-- description: The Stream Watermark Profile API from APIs.io Engineering Platform — 2 operation(s) for stream watermark profile.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Watermark Profile API from APIs.io Engineering Platform — 2 operation(s) for stream watermark profile.
   name: APIs.io Engineering Platform Stream Watermark Profile API
   slug: engineering-platform-stream-watermark-profile-api
-- description: The Stream Webhook API from APIs.io Engineering Platform — 1 operation(s) for stream webhook.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Stream Webhook API from APIs.io Engineering Platform — 1 operation(s) for stream webhook.
   name: APIs.io Engineering Platform Stream Webhook API
   slug: engineering-platform-stream-webhook-api
-- description: The Tags API from APIs.io Engineering Platform — 3 operation(s) for tags.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from APIs.io Engineering Platform — 3 operation(s) for tags.
   name: APIs.io Engineering Platform Tags API
   slug: engineering-platform-tags-api
-- description: Interact with GitHub Teams.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with GitHub Teams.
   name: APIs.io Engineering Platform Teams API
   slug: engineering-platform-teams-api
-- description: The **Transfer Collection Items** endpoints enable you to move collection items between different collections or folders.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Transfer Collection Items** endpoints enable you to move collection items between different collections or folders.
   name: APIs.io Engineering Platform Transfer Collection Items API
   slug: engineering-platform-transfer-collection-items-api
-- description: The Tunnel Routing API from APIs.io Engineering Platform — 4 operation(s) for tunnel routing.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Tunnel Routing API from APIs.io Engineering Platform — 4 operation(s) for tunnel routing.
   name: APIs.io Engineering Platform Tunnel Routing API
   slug: engineering-platform-tunnel-routing-api
-- description: The Tunnel Virtual Network API from APIs.io Engineering Platform — 2 operation(s) for tunnel virtual network.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Tunnel Virtual Network API from APIs.io Engineering Platform — 2 operation(s) for tunnel virtual network.
   name: APIs.io Engineering Platform Tunnel Virtual Network API
   slug: engineering-platform-tunnel-virtual-network-api
-- description: The Turnstile API from APIs.io Engineering Platform — 3 operation(s) for turnstile.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Turnstile API from APIs.io Engineering Platform — 3 operation(s) for turnstile.
   name: APIs.io Engineering Platform Turnstile API
   slug: engineering-platform-turnstile-api
-- description: The URL Scanner API from APIs.io Engineering Platform — 4 operation(s) for url scanner.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The URL Scanner API from APIs.io Engineering Platform — 4 operation(s) for url scanner.
   name: APIs.io Engineering Platform URL Scanner API
   slug: engineering-platform-url-scanner-api
-- description: The Usageplans API from APIs.io Engineering Platform — 6 operation(s) for usageplans.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Usageplans API from APIs.io Engineering Platform — 6 operation(s) for usageplans.
   name: APIs.io Engineering Platform Usageplans API
   slug: engineering-platform-usageplans-api
-- description: The User API from APIs.io Engineering Platform — 2 operation(s) for user.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User API from APIs.io Engineering Platform — 2 operation(s) for user.
   name: APIs.io Engineering Platform User API
   slug: engineering-platform-user-api
-- description: The User API Tokens API from APIs.io Engineering Platform — 4 operation(s) for user api tokens.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User API Tokens API from APIs.io Engineering Platform — 4 operation(s) for user api tokens.
   name: APIs.io Engineering Platform User API Tokens API
   slug: engineering-platform-user-api-tokens-api
-- description: The User Billing History API from APIs.io Engineering Platform — 1 operation(s) for user billing history.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User Billing History API from APIs.io Engineering Platform — 1 operation(s) for user billing history.
   name: APIs.io Engineering Platform User Billing History API
   slug: engineering-platform-user-billing-history-api
-- description: The User Billing Profile API from APIs.io Engineering Platform — 1 operation(s) for user billing profile.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User Billing Profile API from APIs.io Engineering Platform — 1 operation(s) for user billing profile.
   name: APIs.io Engineering Platform User Billing Profile API
   slug: engineering-platform-user-billing-profile-api
-- description: 'The **User Provisioning** endpoints enable you to provision and manage your Postman users. - You can only deactivate users with the SCIM API. You cannot permanently delete users with the API. - Users '
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The **User Provisioning** endpoints enable you to provision and manage your Postman users. - You can only deactivate users with the SCIM API. You cannot permanently delete users with the API. - Users '
   name: APIs.io Engineering Platform User Provisioning API
   slug: engineering-platform-user-provisioning-api
-- description: The User's Account Memberships API from APIs.io Engineering Platform — 2 operation(s) for user's account memberships.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User's Account Memberships API from APIs.io Engineering Platform — 2 operation(s) for user's account memberships.
   name: APIs.io Engineering Platform User's Account Memberships API
   slug: engineering-platform-user-s-account-memberships-api
-- description: The User's Invites API from APIs.io Engineering Platform — 2 operation(s) for user's invites.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User's Invites API from APIs.io Engineering Platform — 2 operation(s) for user's invites.
   name: APIs.io Engineering Platform User's Invites API
   slug: engineering-platform-user-s-invites-api
-- description: The User's Organizations API from APIs.io Engineering Platform — 2 operation(s) for user's organizations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User's Organizations API from APIs.io Engineering Platform — 2 operation(s) for user's organizations.
   name: APIs.io Engineering Platform User's Organizations API
   slug: engineering-platform-user-s-organizations-api
-- description: The User Subscription API from APIs.io Engineering Platform — 2 operation(s) for user subscription.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The User Subscription API from APIs.io Engineering Platform — 2 operation(s) for user subscription.
   name: APIs.io Engineering Platform User Subscription API
   slug: engineering-platform-user-subscription-api
-- description: Interact with and view information about users and also current user.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: Interact with and view information about users and also current user.
   name: APIs.io Engineering Platform Users API
   slug: engineering-platform-users-api
-- description: The Vectorize API from APIs.io Engineering Platform — 11 operation(s) for vectorize.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Vectorize API from APIs.io Engineering Platform — 11 operation(s) for vectorize.
   name: APIs.io Engineering Platform Vectorize API
   slug: engineering-platform-vectorize-api
-- description: The Vectorize Beta (Deprecated) API from APIs.io Engineering Platform — 7 operation(s) for vectorize beta (deprecated).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Vectorize Beta (Deprecated) API from APIs.io Engineering Platform — 7 operation(s) for vectorize beta (deprecated).
   name: APIs.io Engineering Platform Vectorize Beta (Deprecated) API
   slug: engineering-platform-vectorize-beta-deprecated-api
-- description: The VideoDetailSearch API from APIs.io Engineering Platform — 1 operation(s) for videodetailsearch.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The VideoDetailSearch API from APIs.io Engineering Platform — 1 operation(s) for videodetailsearch.
   name: APIs.io Engineering Platform VideoDetailSearch API
   slug: engineering-platform-videodetailsearch-api
-- description: The VideoSearch API from APIs.io Engineering Platform — 1 operation(s) for videosearch.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The VideoSearch API from APIs.io Engineering Platform — 1 operation(s) for videosearch.
   name: APIs.io Engineering Platform VideoSearch API
   slug: engineering-platform-videosearch-api
-- description: The VideoTrendingSearch API from APIs.io Engineering Platform — 1 operation(s) for videotrendingsearch.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The VideoTrendingSearch API from APIs.io Engineering Platform — 1 operation(s) for videotrendingsearch.
   name: APIs.io Engineering Platform VideoTrendingSearch API
   slug: engineering-platform-videotrendingsearch-api
-- description: The Vpclinks API from APIs.io Engineering Platform — 2 operation(s) for vpclinks.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Vpclinks API from APIs.io Engineering Platform — 2 operation(s) for vpclinks.
   name: APIs.io Engineering Platform Vpclinks API
   slug: engineering-platform-vpclinks-api
-- description: The Web Analytics API from APIs.io Engineering Platform — 6 operation(s) for web analytics.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Web Analytics API from APIs.io Engineering Platform — 6 operation(s) for web analytics.
   name: APIs.io Engineering Platform Web Analytics API
   slug: engineering-platform-web-analytics-api
-- description: The **Webhooks** endpoints enable you to manage [custom webhooks](https://learning.postman.com/docs/running-collections/collection-webhooks/).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Webhooks** endpoints enable you to manage [custom webhooks](https://learning.postman.com/docs/running-collections/collection-webhooks/).
   name: APIs.io Engineering Platform Webhooks API
   slug: engineering-platform-webhooks-api
-- description: The WebSearch API from APIs.io Engineering Platform — 1 operation(s) for websearch.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The WebSearch API from APIs.io Engineering Platform — 1 operation(s) for websearch.
   name: APIs.io Engineering Platform WebSearch API
   slug: engineering-platform-websearch-api
-- description: The WHOIS Record API from APIs.io Engineering Platform — 1 operation(s) for whois record.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The WHOIS Record API from APIs.io Engineering Platform — 1 operation(s) for whois record.
   name: APIs.io Engineering Platform WHOIS Record API
   slug: engineering-platform-whois-record-api
-- description: The Worker Account Settings API from APIs.io Engineering Platform — 1 operation(s) for worker account settings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Account Settings API from APIs.io Engineering Platform — 1 operation(s) for worker account settings.
   name: APIs.io Engineering Platform Worker Account Settings API
   slug: engineering-platform-worker-account-settings-api
-- description: The Worker Cron Trigger API from APIs.io Engineering Platform — 1 operation(s) for worker cron trigger.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Cron Trigger API from APIs.io Engineering Platform — 1 operation(s) for worker cron trigger.
   name: APIs.io Engineering Platform Worker Cron Trigger API
   slug: engineering-platform-worker-cron-trigger-api
-- description: The Worker Deployments API from APIs.io Engineering Platform — 1 operation(s) for worker deployments.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Deployments API from APIs.io Engineering Platform — 1 operation(s) for worker deployments.
   name: APIs.io Engineering Platform Worker Deployments API
   slug: engineering-platform-worker-deployments-api
-- description: The Worker Deployments (Deprecated) API from APIs.io Engineering Platform — 2 operation(s) for worker deployments (deprecated).
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Deployments (Deprecated) API from APIs.io Engineering Platform — 2 operation(s) for worker deployments (deprecated).
   name: APIs.io Engineering Platform Worker Deployments (Deprecated) API
   slug: engineering-platform-worker-deployments-deprecated-api
-- description: The Worker Domain API from APIs.io Engineering Platform — 2 operation(s) for worker domain.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Domain API from APIs.io Engineering Platform — 2 operation(s) for worker domain.
   name: APIs.io Engineering Platform Worker Domain API
   slug: engineering-platform-worker-domain-api
-- description: The Worker Environment API from APIs.io Engineering Platform — 2 operation(s) for worker environment.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Environment API from APIs.io Engineering Platform — 2 operation(s) for worker environment.
   name: APIs.io Engineering Platform Worker Environment API
   slug: engineering-platform-worker-environment-api
-- description: The Worker Script API from APIs.io Engineering Platform — 7 operation(s) for worker script.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Script API from APIs.io Engineering Platform — 7 operation(s) for worker script.
   name: APIs.io Engineering Platform Worker Script API
   slug: engineering-platform-worker-script-api
-- description: The Worker Subdomain API from APIs.io Engineering Platform — 1 operation(s) for worker subdomain.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Subdomain API from APIs.io Engineering Platform — 1 operation(s) for worker subdomain.
   name: APIs.io Engineering Platform Worker Subdomain API
   slug: engineering-platform-worker-subdomain-api
-- description: The Worker Tail Logs API from APIs.io Engineering Platform — 2 operation(s) for worker tail logs.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Tail Logs API from APIs.io Engineering Platform — 2 operation(s) for worker tail logs.
   name: APIs.io Engineering Platform Worker Tail Logs API
   slug: engineering-platform-worker-tail-logs-api
-- description: The Worker Versions API from APIs.io Engineering Platform — 2 operation(s) for worker versions.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Worker Versions API from APIs.io Engineering Platform — 2 operation(s) for worker versions.
   name: APIs.io Engineering Platform Worker Versions API
   slug: engineering-platform-worker-versions-api
-- description: The Workers AI API from APIs.io Engineering Platform — 5 operation(s) for workers ai.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI API from APIs.io Engineering Platform — 5 operation(s) for workers ai.
   name: APIs.io Engineering Platform Workers AI API
   slug: engineering-platform-workers-ai-api
-- description: The Workers AI Automatic Speech Recognition API from APIs.io Engineering Platform — 2 operation(s) for workers ai automatic speech recognition.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Automatic Speech Recognition API from APIs.io Engineering Platform — 2 operation(s) for workers ai automatic speech recognition.
   name: APIs.io Engineering Platform Workers AI Automatic Speech Recognition API
   slug: engineering-platform-workers-ai-automatic-speech-recognition-api
-- description: The Workers AI Finetune API from APIs.io Engineering Platform — 3 operation(s) for workers ai finetune.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Finetune API from APIs.io Engineering Platform — 3 operation(s) for workers ai finetune.
   name: APIs.io Engineering Platform Workers AI Finetune API
   slug: engineering-platform-workers-ai-finetune-api
-- description: The Workers AI Image Classification API from APIs.io Engineering Platform — 1 operation(s) for workers ai image classification.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Image Classification API from APIs.io Engineering Platform — 1 operation(s) for workers ai image classification.
   name: APIs.io Engineering Platform Workers AI Image Classification API
   slug: engineering-platform-workers-ai-image-classification-api
-- description: The Workers AI Object Detection API from APIs.io Engineering Platform — 1 operation(s) for workers ai object detection.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Object Detection API from APIs.io Engineering Platform — 1 operation(s) for workers ai object detection.
   name: APIs.io Engineering Platform Workers AI Object Detection API
   slug: engineering-platform-workers-ai-object-detection-api
-- description: The Workers AI Summarization API from APIs.io Engineering Platform — 1 operation(s) for workers ai summarization.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Summarization API from APIs.io Engineering Platform — 1 operation(s) for workers ai summarization.
   name: APIs.io Engineering Platform Workers AI Summarization API
   slug: engineering-platform-workers-ai-summarization-api
-- description: The Workers AI Text Classification API from APIs.io Engineering Platform — 1 operation(s) for workers ai text classification.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Text Classification API from APIs.io Engineering Platform — 1 operation(s) for workers ai text classification.
   name: APIs.io Engineering Platform Workers AI Text Classification API
   slug: engineering-platform-workers-ai-text-classification-api
-- description: The Workers AI Text Embeddings API from APIs.io Engineering Platform — 3 operation(s) for workers ai text embeddings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Text Embeddings API from APIs.io Engineering Platform — 3 operation(s) for workers ai text embeddings.
   name: APIs.io Engineering Platform Workers AI Text Embeddings API
   slug: engineering-platform-workers-ai-text-embeddings-api
-- description: The Workers AI Text Generation API from APIs.io Engineering Platform — 34 operation(s) for workers ai text generation.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Text Generation API from APIs.io Engineering Platform — 34 operation(s) for workers ai text generation.
   name: APIs.io Engineering Platform Workers AI Text Generation API
   slug: engineering-platform-workers-ai-text-generation-api
-- description: The Workers AI Text to Image API from APIs.io Engineering Platform — 5 operation(s) for workers ai text to image.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Text to Image API from APIs.io Engineering Platform — 5 operation(s) for workers ai text to image.
   name: APIs.io Engineering Platform Workers AI Text to Image API
   slug: engineering-platform-workers-ai-text-to-image-api
-- description: The Workers AI Translation API from APIs.io Engineering Platform — 1 operation(s) for workers ai translation.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers AI Translation API from APIs.io Engineering Platform — 1 operation(s) for workers ai translation.
   name: APIs.io Engineering Platform Workers AI Translation API
   slug: engineering-platform-workers-ai-translation-api
-- description: The Workers for Platforms API from APIs.io Engineering Platform — 10 operation(s) for workers for platforms.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers for Platforms API from APIs.io Engineering Platform — 10 operation(s) for workers for platforms.
   name: APIs.io Engineering Platform Workers for Platforms API
   slug: engineering-platform-workers-for-platforms-api
-- description: The Workers KV Namespace API from APIs.io Engineering Platform — 7 operation(s) for workers kv namespace.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers KV Namespace API from APIs.io Engineering Platform — 7 operation(s) for workers kv namespace.
   name: APIs.io Engineering Platform Workers KV Namespace API
   slug: engineering-platform-workers-kv-namespace-api
-- description: The Workers KV Request Analytics API from APIs.io Engineering Platform — 1 operation(s) for workers kv request analytics.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers KV Request Analytics API from APIs.io Engineering Platform — 1 operation(s) for workers kv request analytics.
   name: APIs.io Engineering Platform Workers KV Request Analytics API
   slug: engineering-platform-workers-kv-request-analytics-api
-- description: The Workers KV Stored Data Analytics API from APIs.io Engineering Platform — 1 operation(s) for workers kv stored data analytics.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Workers KV Stored Data Analytics API from APIs.io Engineering Platform — 1 operation(s) for workers kv stored data analytics.
   name: APIs.io Engineering Platform Workers KV Stored Data Analytics API
   slug: engineering-platform-workers-kv-stored-data-analytics-api
-- description: The **Workspace Tags** endpoints enable you to manage workspace tags with Postman's [tagging](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The **Workspace Tags** endpoints enable you to manage workspace tags with Postman's [tagging](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#tagging-a
   name: APIs.io Engineering Platform Workspace Tags API
   slug: engineering-platform-workspace-tags-api
-- description: 'The **Workspaces** endpoints enable you to manage your [workspaces](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). The Workspaces endpoints let you '
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: 'The **Workspaces** endpoints enable you to manage your [workspaces](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). The Workspaces endpoints let you '
   name: APIs.io Engineering Platform Workspaces API
   slug: engineering-platform-workspaces-api
-- description: The Zero Trust Accounts API from APIs.io Engineering Platform — 5 operation(s) for zero trust accounts.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Accounts API from APIs.io Engineering Platform — 5 operation(s) for zero trust accounts.
   name: APIs.io Engineering Platform Zero Trust Accounts API
   slug: engineering-platform-zero-trust-accounts-api
-- description: The Zero Trust Audit SSH Settings API from APIs.io Engineering Platform — 1 operation(s) for zero trust audit ssh settings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Audit SSH Settings API from APIs.io Engineering Platform — 1 operation(s) for zero trust audit ssh settings.
   name: APIs.io Engineering Platform Zero Trust Audit SSH Settings API
   slug: engineering-platform-zero-trust-audit-ssh-settings-api
-- description: The Zero Trust Certificates API from APIs.io Engineering Platform — 4 operation(s) for zero trust certificates.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Certificates API from APIs.io Engineering Platform — 4 operation(s) for zero trust certificates.
   name: APIs.io Engineering Platform Zero Trust Certificates API
   slug: engineering-platform-zero-trust-certificates-api
-- description: The Zero Trust Connectivity Settings API from APIs.io Engineering Platform — 1 operation(s) for zero trust connectivity settings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Connectivity Settings API from APIs.io Engineering Platform — 1 operation(s) for zero trust connectivity settings.
   name: APIs.io Engineering Platform Zero Trust Connectivity Settings API
   slug: engineering-platform-zero-trust-connectivity-settings-api
-- description: The Zero Trust Gateway Application and Application Type Mappings API from APIs.io Engineering Platform — 1 operation(s) for zero trust gateway application and application type mappings.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Gateway Application and Application Type Mappings API from APIs.io Engineering Platform — 1 operation(s) for zero trust gateway application and application type mappings.
   name: APIs.io Engineering Platform Zero Trust Gateway Application and Application Type Mappings API
   slug: engineering-platform-zero-trust-gateway-application-and-application-type-mappings-api
-- description: The Zero Trust Gateway Categories API from APIs.io Engineering Platform — 1 operation(s) for zero trust gateway categories.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Gateway Categories API from APIs.io Engineering Platform — 1 operation(s) for zero trust gateway categories.
   name: APIs.io Engineering Platform Zero Trust Gateway Categories API
   slug: engineering-platform-zero-trust-gateway-categories-api
-- description: The Zero Trust Gateway Locations API from APIs.io Engineering Platform — 2 operation(s) for zero trust gateway locations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Gateway Locations API from APIs.io Engineering Platform — 2 operation(s) for zero trust gateway locations.
   name: APIs.io Engineering Platform Zero Trust Gateway Locations API
   slug: engineering-platform-zero-trust-gateway-locations-api
-- description: The Zero Trust Gateway Proxy Endpoints API from APIs.io Engineering Platform — 2 operation(s) for zero trust gateway proxy endpoints.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Gateway Proxy Endpoints API from APIs.io Engineering Platform — 2 operation(s) for zero trust gateway proxy endpoints.
   name: APIs.io Engineering Platform Zero Trust Gateway Proxy Endpoints API
   slug: engineering-platform-zero-trust-gateway-proxy-endpoints-api
-- description: The Zero Trust Gateway Rules API from APIs.io Engineering Platform — 2 operation(s) for zero trust gateway rules.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Gateway Rules API from APIs.io Engineering Platform — 2 operation(s) for zero trust gateway rules.
   name: APIs.io Engineering Platform Zero Trust Gateway Rules API
   slug: engineering-platform-zero-trust-gateway-rules-api
-- description: The Zero Trust Lists API from APIs.io Engineering Platform — 3 operation(s) for zero trust lists.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Lists API from APIs.io Engineering Platform — 3 operation(s) for zero trust lists.
   name: APIs.io Engineering Platform Zero Trust Lists API
   slug: engineering-platform-zero-trust-lists-api
-- description: The Zero Trust Organization API from APIs.io Engineering Platform — 3 operation(s) for zero trust organization.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Organization API from APIs.io Engineering Platform — 3 operation(s) for zero trust organization.
   name: APIs.io Engineering Platform Zero Trust Organization API
   slug: engineering-platform-zero-trust-organization-api
-- description: The Zero Trust Risk Scoring API from APIs.io Engineering Platform — 4 operation(s) for zero trust risk scoring.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Risk Scoring API from APIs.io Engineering Platform — 4 operation(s) for zero trust risk scoring.
   name: APIs.io Engineering Platform Zero Trust Risk Scoring API
   slug: engineering-platform-zero-trust-risk-scoring-api
-- description: The Zero Trust Risk Scoring Integrations API from APIs.io Engineering Platform — 3 operation(s) for zero trust risk scoring integrations.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Risk Scoring Integrations API from APIs.io Engineering Platform — 3 operation(s) for zero trust risk scoring integrations.
   name: APIs.io Engineering Platform Zero Trust Risk Scoring Integrations API
   slug: engineering-platform-zero-trust-risk-scoring-integrations-api
-- description: The Zero Trust Seats API from APIs.io Engineering Platform — 1 operation(s) for zero trust seats.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Seats API from APIs.io Engineering Platform — 1 operation(s) for zero trust seats.
   name: APIs.io Engineering Platform Zero Trust Seats API
   slug: engineering-platform-zero-trust-seats-api
-- description: The Zero Trust Users API from APIs.io Engineering Platform — 5 operation(s) for zero trust users.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zero Trust Users API from APIs.io Engineering Platform — 5 operation(s) for zero trust users.
   name: APIs.io Engineering Platform Zero Trust Users API
   slug: engineering-platform-zero-trust-users-api
-- description: The Zone API from APIs.io Engineering Platform — 2 operation(s) for zone.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zone API from APIs.io Engineering Platform — 2 operation(s) for zone.
   name: APIs.io Engineering Platform Zone API
   slug: engineering-platform-zone-api
-- description: The Zone-Level Access Applications API from APIs.io Engineering Platform — 4 operation(s) for zone-level access applications.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zone-Level Access Applications API from APIs.io Engineering Platform — 4 operation(s) for zone-level access applications.
   name: APIs.io Engineering Platform Zone-Level Access Applications API
   slug: engineering-platform-zone-level-access-applications-api
-- description: The Zone-Level Access mTLS Authentication API from APIs.io Engineering Platform — 1 operation(s) for zone-level access mtls authentication.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zone-Level Access mTLS Authentication API from APIs.io Engineering Platform — 1 operation(s) for zone-level access mtls authentication.
   name: APIs.io Engineering Platform Zone-Level Access mTLS Authentication API
   slug: engineering-platform-zone-level-access-mtls-authentication-api
-- description: The Zone-Level Access Policies API from APIs.io Engineering Platform — 2 operation(s) for zone-level access policies.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zone-Level Access Policies API from APIs.io Engineering Platform — 2 operation(s) for zone-level access policies.
   name: APIs.io Engineering Platform Zone-Level Access Policies API
   slug: engineering-platform-zone-level-access-policies-api
-- description: The Zone-Level Access Short-Lived Certificate CAs API from APIs.io Engineering Platform — 2 operation(s) for zone-level access short-lived certificate cas.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zone-Level Access Short-Lived Certificate CAs API from APIs.io Engineering Platform — 2 operation(s) for zone-level access short-lived certificate cas.
   name: APIs.io Engineering Platform Zone-Level Access Short-Lived Certificate CAs API
   slug: engineering-platform-zone-level-access-short-lived-certificate-cas-api
-- description: The Zone Subscription API from APIs.io Engineering Platform — 1 operation(s) for zone subscription.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zone Subscription API from APIs.io Engineering Platform — 1 operation(s) for zone subscription.
   name: APIs.io Engineering Platform Zone Subscription API
   slug: engineering-platform-zone-subscription-api
-- description: The Zones API from APIs.io Engineering Platform — 1 operation(s) for zones.
+- baseURL: https://{bucketname}.s3.amazonaws.com
+  baseurl_source: declared
+  description: The Zones API from APIs.io Engineering Platform — 1 operation(s) for zones.
   name: APIs.io Engineering Platform Zones API
   slug: engineering-platform-zones-api
-- description: The APIs.io Engineering Platform GitHub V3 REST API API from APIs.io Engineering Platform — 0 operation(s) for apis.io engineering platform github v3 rest api.
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The APIs.io Engineering Platform GitHub V3 REST API API from APIs.io Engineering Platform — 0 operation(s) for apis.io engineering platform github v3 rest api.
   name: APIs.io Engineering Platform APIs.io Engineering Platform GitHub V3 REST API
   slug: engineering-platform-apis-io-engineering-platform-github-v3-rest-api-api
 artifact_total: 6980
@@ -21044,7 +21982,7 @@ score:
     catalog_gap: 82.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -21054,7 +21992,7 @@ score:
     discoverability: 40.7
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 30.3
+  previous_composite: 30.0
   provenance:
     agentic_access: derived
     contracts:
@@ -21063,7 +22001,7 @@ score:
       marker_coverage: 0.0
       total: 471
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/screenshots/engineering-platform-2026-06-20T180718.png
 security:

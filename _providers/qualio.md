@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 132 operations · 34 acting · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: The Audit Trail API from Qualio — 1 operation(s) for audit trail.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Audit Trail API from Qualio — 1 operation(s) for audit trail.
   name: Qualio Audit Trail API
   slug: qualio-audit-trail-api
-- description: The Change Management API from Qualio — 2 operation(s) for change management.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Change Management API from Qualio — 2 operation(s) for change management.
   name: Qualio Change Management API
   slug: qualio-change-management-api
-- description: The Compliance Intelligence API from Qualio — 11 operation(s) for compliance intelligence.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Compliance Intelligence API from Qualio — 11 operation(s) for compliance intelligence.
   name: Qualio Compliance Intelligence API
   slug: qualio-compliance-intelligence-api
-- description: The Design Controls API from Qualio — 8 operation(s) for design controls.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Design Controls API from Qualio — 8 operation(s) for design controls.
   name: Qualio Design Controls API
   slug: qualio-design-controls-api
-- description: The Documents API from Qualio — 12 operation(s) for documents.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Documents API from Qualio — 12 operation(s) for documents.
   name: Qualio Documents API
   slug: qualio-documents-api
-- description: The Events API from Qualio — 4 operation(s) for events.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Events API from Qualio — 4 operation(s) for events.
   name: Qualio Events API
   slug: qualio-events-api
-- description: The Resource Library API from Qualio — 4 operation(s) for resource library.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Resource Library API from Qualio — 4 operation(s) for resource library.
   name: Qualio Resource Library API
   slug: qualio-resource-library-api
-- description: The Suppliers API from Qualio — 4 operation(s) for suppliers.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Suppliers API from Qualio — 4 operation(s) for suppliers.
   name: Qualio Suppliers API
   slug: qualio-suppliers-api
-- description: The Tags API from Qualio — 1 operation(s) for tags.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Tags API from Qualio — 1 operation(s) for tags.
   name: Qualio Tags API
   slug: qualio-tags-api
-- description: The Training API from Qualio — 2 operation(s) for training.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The Training API from Qualio — 2 operation(s) for training.
   name: Qualio Training API
   slug: qualio-training-api
-- description: The User Management API from Qualio — 7 operation(s) for user management.
+- baseURL: https://api.qualio.com
+  baseurl_source: declared
+  description: The User Management API from Qualio — 7 operation(s) for user management.
   name: Qualio User Management API
   slug: qualio-user-management-api
 artifact_total: 28
@@ -280,7 +302,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/screenshots/qualio-2026-08-17T081435.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -92,22 +92,34 @@ apis:
 - description: Extensibility Development Kit providing tools, utilities, and APIs for developing Enterprise Manager plug-ins to extend platform capabilities for custom target monitoring and management.
   name: Enterprise Manager Extensibility Development Kit (EDK) API
   slug: enterprise-manager-extensibility-development-kit-edk-api
-- description: Manage blackout windows for maintenance activities. Blackouts suppress monitoring and alerting during scheduled maintenance periods, preventing false alerts.
+- baseURL: https://<em-host>:<port>/em/api
+  baseurl_source: declared
+  description: Manage blackout windows for maintenance activities. Blackouts suppress monitoring and alerting during scheduled maintenance periods, preventing false alerts.
   name: Oracle Enterprise Manager Blackouts API
   slug: oracle-enterprise-manager-blackouts-api
-- description: Access individual event details. Events are the underlying occurrences that are correlated into incidents.
+- baseURL: https://<em-host>:<port>/em/api
+  baseurl_source: declared
+  description: Access individual event details. Events are the underlying occurrences that are correlated into incidents.
   name: Oracle Enterprise Manager Events API
   slug: oracle-enterprise-manager-events-api
-- description: Manage global properties that can be applied across targets for classification, grouping, and reporting purposes.
+- baseURL: https://<em-host>:<port>/em/api
+  baseurl_source: declared
+  description: Manage global properties that can be applied across targets for classification, grouping, and reporting purposes.
   name: Oracle Enterprise Manager Global Target Properties API
   slug: oracle-enterprise-manager-global-target-properties-api
-- description: Search, view, and manage incidents and events. Incidents represent actionable issues detected by Enterprise Manager monitoring, with operations for clearing, suppressing, and annotating.
+- baseURL: https://<em-host>:<port>/em/api
+  baseurl_source: declared
+  description: Search, view, and manage incidents and events. Incidents represent actionable issues detected by Enterprise Manager monitoring, with operations for clearing, suppressing, and annotating.
   name: Oracle Enterprise Manager Incidents API
   slug: oracle-enterprise-manager-incidents-api
-- description: Query metric data and metadata for monitored targets. Access time-series performance data, latest metric values, and metric group definitions.
+- baseURL: https://<em-host>:<port>/em/api
+  baseurl_source: declared
+  description: Query metric data and metadata for monitored targets. Access time-series performance data, latest metric values, and metric group definitions.
   name: Oracle Enterprise Manager Metrics API
   slug: oracle-enterprise-manager-metrics-api
-- description: Manage monitored targets in Enterprise Manager including discovery, configuration, lifecycle operations, and property management. Targets represent any managed entity such as databases, hosts, middlew
+- baseURL: https://<em-host>:<port>/em/api
+  baseurl_source: declared
+  description: Manage monitored targets in Enterprise Manager including discovery, configuration, lifecycle operations, and property management. Targets represent any managed entity such as databases, hosts, middlew
   name: Oracle Enterprise Manager Targets API
   slug: oracle-enterprise-manager-targets-api
 arazzos:
@@ -973,7 +985,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

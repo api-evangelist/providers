@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 67 operations · 2 acting
 api_count: 1
 apis:
-- description: The Artwork API from TheTVDB — 2 operation(s) for artwork.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Artwork API from TheTVDB — 2 operation(s) for artwork.
   name: TheTVDB Artwork API
   slug: tvdb-artwork-api
-- description: The Artwork Statuses API from TheTVDB — 1 operation(s) for artwork statuses.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Artwork Statuses API from TheTVDB — 1 operation(s) for artwork statuses.
   name: TheTVDB Artwork Statuses API
   slug: tvdb-artwork-statuses-api
-- description: The Artwork Types API from TheTVDB — 1 operation(s) for artwork types.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Artwork Types API from TheTVDB — 1 operation(s) for artwork types.
   name: TheTVDB Artwork Types API
   slug: tvdb-artwork-types-api
-- description: The Award Categories API from TheTVDB — 2 operation(s) for award categories.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Award Categories API from TheTVDB — 2 operation(s) for award categories.
   name: TheTVDB Award Categories API
   slug: tvdb-award-categories-api
-- description: The Awards API from TheTVDB — 3 operation(s) for awards.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Awards API from TheTVDB — 3 operation(s) for awards.
   name: TheTVDB Awards API
   slug: tvdb-awards-api
-- description: The Characters API from TheTVDB — 1 operation(s) for characters.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Characters API from TheTVDB — 1 operation(s) for characters.
   name: TheTVDB Characters API
   slug: tvdb-characters-api
-- description: The Companies API from TheTVDB — 3 operation(s) for companies.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Companies API from TheTVDB — 3 operation(s) for companies.
   name: TheTVDB Companies API
   slug: tvdb-companies-api
-- description: The Content Ratings API from TheTVDB — 1 operation(s) for content ratings.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Content Ratings API from TheTVDB — 1 operation(s) for content ratings.
   name: TheTVDB Content Ratings API
   slug: tvdb-content-ratings-api
-- description: The Countries API from TheTVDB — 1 operation(s) for countries.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Countries API from TheTVDB — 1 operation(s) for countries.
   name: TheTVDB Countries API
   slug: tvdb-countries-api
-- description: The Entity Types API from TheTVDB — 1 operation(s) for entity types.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Entity Types API from TheTVDB — 1 operation(s) for entity types.
   name: TheTVDB Entity Types API
   slug: tvdb-entity-types-api
-- description: The Episodes API from TheTVDB — 4 operation(s) for episodes.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Episodes API from TheTVDB — 4 operation(s) for episodes.
   name: TheTVDB Episodes API
   slug: tvdb-episodes-api
-- description: The Favorites API from TheTVDB — 1 operation(s) for favorites.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Favorites API from TheTVDB — 1 operation(s) for favorites.
   name: TheTVDB Favorites API
   slug: tvdb-favorites-api
-- description: The Genders API from TheTVDB — 1 operation(s) for genders.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Genders API from TheTVDB — 1 operation(s) for genders.
   name: TheTVDB Genders API
   slug: tvdb-genders-api
-- description: The Genres API from TheTVDB — 2 operation(s) for genres.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Genres API from TheTVDB — 2 operation(s) for genres.
   name: TheTVDB Genres API
   slug: tvdb-genres-api
-- description: The InspirationTypes API from TheTVDB — 1 operation(s) for inspirationtypes.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The InspirationTypes API from TheTVDB — 1 operation(s) for inspirationtypes.
   name: TheTVDB InspirationTypes API
   slug: tvdb-inspirationtypes-api
-- description: The Languages API from TheTVDB — 1 operation(s) for languages.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Languages API from TheTVDB — 1 operation(s) for languages.
   name: TheTVDB Languages API
   slug: tvdb-languages-api
-- description: The Lists API from TheTVDB — 5 operation(s) for lists.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Lists API from TheTVDB — 5 operation(s) for lists.
   name: TheTVDB Lists API
   slug: tvdb-lists-api
-- description: The Login API from TheTVDB — 1 operation(s) for login.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Login API from TheTVDB — 1 operation(s) for login.
   name: TheTVDB Login API
   slug: tvdb-login-api
-- description: The Movie Statuses API from TheTVDB — 1 operation(s) for movie statuses.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Movie Statuses API from TheTVDB — 1 operation(s) for movie statuses.
   name: TheTVDB Movie Statuses API
   slug: tvdb-movie-statuses-api
-- description: The Movies API from TheTVDB — 6 operation(s) for movies.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Movies API from TheTVDB — 6 operation(s) for movies.
   name: TheTVDB Movies API
   slug: tvdb-movies-api
-- description: The People API from TheTVDB — 4 operation(s) for people.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The People API from TheTVDB — 4 operation(s) for people.
   name: TheTVDB People API
   slug: tvdb-people-api
-- description: The People Types API from TheTVDB — 1 operation(s) for people types.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The People Types API from TheTVDB — 1 operation(s) for people types.
   name: TheTVDB People Types API
   slug: tvdb-people-types-api
-- description: The Search API from TheTVDB — 2 operation(s) for search.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Search API from TheTVDB — 2 operation(s) for search.
   name: TheTVDB Search API
   slug: tvdb-search-api
-- description: The Seasons API from TheTVDB — 5 operation(s) for seasons.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Seasons API from TheTVDB — 5 operation(s) for seasons.
   name: TheTVDB Seasons API
   slug: tvdb-seasons-api
-- description: The Series API from TheTVDB — 10 operation(s) for series.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Series API from TheTVDB — 10 operation(s) for series.
   name: TheTVDB Series API
   slug: tvdb-series-api
-- description: The Series Statuses API from TheTVDB — 1 operation(s) for series statuses.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Series Statuses API from TheTVDB — 1 operation(s) for series statuses.
   name: TheTVDB Series Statuses API
   slug: tvdb-series-statuses-api
-- description: The Source Types API from TheTVDB — 1 operation(s) for source types.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Source Types API from TheTVDB — 1 operation(s) for source types.
   name: TheTVDB Source Types API
   slug: tvdb-source-types-api
-- description: The Updates API from TheTVDB — 1 operation(s) for updates.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The Updates API from TheTVDB — 1 operation(s) for updates.
   name: TheTVDB Updates API
   slug: tvdb-updates-api
-- description: The User info API from TheTVDB — 2 operation(s) for user info.
+- baseURL: https://api4.thetvdb.com/v4
+  baseurl_source: declared
+  description: The User info API from TheTVDB — 2 operation(s) for user info.
   name: TheTVDB User info API
   slug: tvdb-user-info-api
 artifact_total: 270
@@ -963,7 +1021,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:

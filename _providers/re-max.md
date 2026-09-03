@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The RE/MAX Europe Datahub API is the franchise-operations API behind the RE/MAX EU Datahub application. It exposes offices, persons, RE/MAX Titles (the agent/broker role records), teams, regions and m
+- baseURL: https://api.datahub.remax.eu/external
+  baseurl_source: declared
+  description: The RE/MAX Europe Datahub API is the franchise-operations API behind the RE/MAX EU Datahub application. It exposes offices, persons, RE/MAX Titles (the agent/broker role records), teams, regions and m
   name: RE/MAX Europe Datahub API
   slug: re-max-eu-datahub-api
-- description: The RE/MAX Europe Listings API is used in conjunction with the RE/MAX EU Datahub application to add, update, retrieve and delete property listing data and listing images across RE/MAX European regions
+- baseURL: https://listing-api-remaxeu.bwscloud.tech/api/v1
+  baseurl_source: declared
+  description: The RE/MAX Europe Listings API is used in conjunction with the RE/MAX EU Datahub application to add, update, retrieve and delete property listing data and listing images across RE/MAX European regions
   name: RE/MAX Europe Listings API
   slug: re-max-eu-listings-api
 - description: The RE/MAX Europe marketing site at remax.eu runs WordPress and exposes the WordPress REST API anonymously at /wp-json/. The route descriptor published there is the only self-describing, machine-reada
@@ -171,7 +175,7 @@ score:
   band: emerging
   composite: 18.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -197,8 +201,9 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/screenshots/re-max-2026-09-02T152939.png
 security:
 - kind: authentication
   name: Re Max Authentication

@@ -33,154 +33,252 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 17
 apis:
-- description: The Account API from Toqio — 7 operation(s) for account.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Account API from Toqio — 7 operation(s) for account.
   name: Toqio Account API
   slug: toqio-account-api
-- description: The Account information API from Toqio — 7 operation(s) for account information.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Account information API from Toqio — 7 operation(s) for account information.
   name: Toqio Account information API
   slug: toqio-account-information-api
-- description: The API Endpoints API from Toqio — 2 operation(s) for api endpoints.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The API Endpoints API from Toqio — 2 operation(s) for api endpoints.
   name: Toqio API Endpoints API
   slug: toqio-api-endpoints-api
-- description: The Beneficiary actions API from Toqio — 3 operation(s) for beneficiary actions.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Beneficiary actions API from Toqio — 3 operation(s) for beneficiary actions.
   name: Toqio Beneficiary actions API
   slug: toqio-beneficiary-actions-api
-- description: The Beneficiary API from Toqio — 6 operation(s) for beneficiary.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Beneficiary API from Toqio — 6 operation(s) for beneficiary.
   name: Toqio Beneficiary API
   slug: toqio-beneficiary-api
-- description: The Card actions API from Toqio — 7 operation(s) for card actions.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Card actions API from Toqio — 7 operation(s) for card actions.
   name: Toqio Card actions API
   slug: toqio-card-actions-api
-- description: The Card Details API from Toqio — 6 operation(s) for card details.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Card Details API from Toqio — 6 operation(s) for card details.
   name: Toqio Card Details API
   slug: toqio-card-details-api
-- description: The Card Lifecycle API from Toqio — 9 operation(s) for card lifecycle.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Card Lifecycle API from Toqio — 9 operation(s) for card lifecycle.
   name: Toqio Card Lifecycle API
   slug: toqio-card-lifecycle-api
-- description: The Card Limits API from Toqio — 3 operation(s) for card limits.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Card Limits API from Toqio — 3 operation(s) for card limits.
   name: Toqio Card Limits API
   slug: toqio-card-limits-api
-- description: The Client accounts information API from Toqio — 1 operation(s) for client accounts information.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Client accounts information API from Toqio — 1 operation(s) for client accounts information.
   name: Toqio Client accounts information API
   slug: toqio-client-accounts-information-api
-- description: The Client actions API from Toqio — 4 operation(s) for client actions.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Client actions API from Toqio — 4 operation(s) for client actions.
   name: Toqio Client actions API
   slug: toqio-client-actions-api
-- description: The Client information API from Toqio — 2 operation(s) for client information.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Client information API from Toqio — 2 operation(s) for client information.
   name: Toqio Client information API
   slug: toqio-client-information-api
-- description: The Compliance API from Toqio — 7 operation(s) for compliance.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Compliance API from Toqio — 7 operation(s) for compliance.
   name: Toqio Compliance API
   slug: toqio-compliance-api
-- description: The compliance-controller API from Toqio — 1 operation(s) for compliance-controller.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The compliance-controller API from Toqio — 1 operation(s) for compliance-controller.
   name: Toqio compliance-controller API
   slug: toqio-compliance-controller-api
-- description: The Create transaction API from Toqio — 1 operation(s) for create transaction.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Create transaction API from Toqio — 1 operation(s) for create transaction.
   name: Toqio Create transaction API
   slug: toqio-create-transaction-api
-- description: The Credit Cards API from Toqio — 10 operation(s) for credit cards.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Credit Cards API from Toqio — 10 operation(s) for credit cards.
   name: Toqio Credit Cards API
   slug: toqio-credit-cards-api
-- description: The Custom Faculties API from Toqio — 1 operation(s) for custom faculties.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Custom Faculties API from Toqio — 1 operation(s) for custom faculties.
   name: Toqio Custom Faculties API
   slug: toqio-custom-faculties-api
-- description: The Custom Ledger App Texts API from Toqio — 2 operation(s) for custom ledger app texts.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Custom Ledger App Texts API from Toqio — 2 operation(s) for custom ledger app texts.
   name: Toqio Custom Ledger App Texts API
   slug: toqio-custom-ledger-app-texts-api
-- description: The Custom Notifications API from Toqio — 3 operation(s) for custom notifications.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Custom Notifications API from Toqio — 3 operation(s) for custom notifications.
   name: Toqio Custom Notifications API
   slug: toqio-custom-notifications-api
-- description: The Customer API from Toqio — 7 operation(s) for customer.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Customer API from Toqio — 7 operation(s) for customer.
   name: Toqio Customer API
   slug: toqio-customer-api
-- description: The Delete Account API from Toqio — 1 operation(s) for delete account.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Delete Account API from Toqio — 1 operation(s) for delete account.
   name: Toqio Delete Account API
   slug: toqio-delete-account-api
-- description: The Direct debit API from Toqio — 3 operation(s) for direct debit.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Direct debit API from Toqio — 3 operation(s) for direct debit.
   name: Toqio Direct debit API
   slug: toqio-direct-debit-api
-- description: The Dynamic Account Button Configuration API from Toqio — 1 operation(s) for dynamic account button configuration.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Dynamic Account Button Configuration API from Toqio — 1 operation(s) for dynamic account button configuration.
   name: Toqio Dynamic Account Button Configuration API
   slug: toqio-dynamic-account-button-configuration-api
-- description: The Email Configuration API from Toqio — 1 operation(s) for email configuration.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Email Configuration API from Toqio — 1 operation(s) for email configuration.
   name: Toqio Email Configuration API
   slug: toqio-email-configuration-api
-- description: The Fees API from Toqio — 3 operation(s) for fees.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Fees API from Toqio — 3 operation(s) for fees.
   name: Toqio Fees API
   slug: toqio-fees-api
-- description: The Get Customer account information API from Toqio — 1 operation(s) for get customer account information.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Get Customer account information API from Toqio — 1 operation(s) for get customer account information.
   name: Toqio Get Customer account information API
   slug: toqio-get-customer-account-information-api
-- description: The JWT validation API from Toqio — 1 operation(s) for jwt validation.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The JWT validation API from Toqio — 1 operation(s) for jwt validation.
   name: Toqio JWT validation API
   slug: toqio-jwt-validation-api
-- description: The Lending API from Toqio — 1 operation(s) for lending.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Lending API from Toqio — 1 operation(s) for lending.
   name: Toqio Lending API
   slug: toqio-lending-api
-- description: The Lending - Lender API from Toqio — 1 operation(s) for lending - lender.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Lending - Lender API from Toqio — 1 operation(s) for lending - lender.
   name: Toqio Lending - Lender API
   slug: toqio-lending-lender-api
-- description: The Lending - Loan API from Toqio — 4 operation(s) for lending - loan.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Lending - Loan API from Toqio — 4 operation(s) for lending - loan.
   name: Toqio Lending - Loan API
   slug: toqio-lending-loan-api
-- description: The Lending - Loan - Offer API from Toqio — 2 operation(s) for lending - loan - offer.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Lending - Loan - Offer API from Toqio — 2 operation(s) for lending - loan - offer.
   name: Toqio Lending - Loan - Offer API
   slug: toqio-lending-loan-offer-api
-- description: The Lending - Loan - Request API from Toqio — 3 operation(s) for lending - loan - request.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Lending - Loan - Request API from Toqio — 3 operation(s) for lending - loan - request.
   name: Toqio Lending - Loan - Request API
   slug: toqio-lending-loan-request-api
-- description: The Manage requests API from Toqio — 5 operation(s) for manage requests.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Manage requests API from Toqio — 5 operation(s) for manage requests.
   name: Toqio Manage requests API
   slug: toqio-manage-requests-api
-- description: The MeaWallet API from Toqio — 1 operation(s) for meawallet.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The MeaWallet API from Toqio — 1 operation(s) for meawallet.
   name: Toqio MeaWallet API
   slug: toqio-meawallet-api
-- description: The Merchant API from Toqio — 2 operation(s) for merchant.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Merchant API from Toqio — 2 operation(s) for merchant.
   name: Toqio Merchant API
   slug: toqio-merchant-api
-- description: The Onboarding API from Toqio — 4 operation(s) for onboarding.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Onboarding API from Toqio — 4 operation(s) for onboarding.
   name: Toqio Onboarding API
   slug: toqio-onboarding-api
-- description: The onboarding-controller API from Toqio — 2 operation(s) for onboarding-controller.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The onboarding-controller API from Toqio — 2 operation(s) for onboarding-controller.
   name: Toqio onboarding-controller API
   slug: toqio-onboarding-controller-api
-- description: The OTP API from Toqio — 1 operation(s) for otp.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The OTP API from Toqio — 1 operation(s) for otp.
   name: Toqio OTP API
   slug: toqio-otp-api
-- description: The pre-signed-url-controller API from Toqio — 1 operation(s) for pre-signed-url-controller.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The pre-signed-url-controller API from Toqio — 1 operation(s) for pre-signed-url-controller.
   name: Toqio pre-signed-url-controller API
   slug: toqio-pre-signed-url-controller-api
-- description: The Products API from Toqio — 1 operation(s) for products.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Products API from Toqio — 1 operation(s) for products.
   name: Toqio Products API
   slug: toqio-products-api
-- description: The Provider API from Toqio — 1 operation(s) for provider.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Provider API from Toqio — 1 operation(s) for provider.
   name: Toqio Provider API
   slug: toqio-provider-api
-- description: The Receive request payment API from Toqio — 2 operation(s) for receive request payment.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Receive request payment API from Toqio — 2 operation(s) for receive request payment.
   name: Toqio Receive request payment API
   slug: toqio-receive-request-payment-api
-- description: The Security API from Toqio — 8 operation(s) for security.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Security API from Toqio — 8 operation(s) for security.
   name: Toqio Security API
   slug: toqio-security-api
-- description: The Transaction API from Toqio — 9 operation(s) for transaction.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Transaction API from Toqio — 9 operation(s) for transaction.
   name: Toqio Transaction API
   slug: toqio-transaction-api
-- description: The Transactions information API from Toqio — 6 operation(s) for transactions information.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Transactions information API from Toqio — 6 operation(s) for transactions information.
   name: Toqio Transactions information API
   slug: toqio-transactions-information-api
-- description: The User API from Toqio — 2 operation(s) for user.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The User API from Toqio — 2 operation(s) for user.
   name: Toqio User API
   slug: toqio-user-api
-- description: The User credentials API from Toqio — 5 operation(s) for user credentials.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The User credentials API from Toqio — 5 operation(s) for user credentials.
   name: Toqio User credentials API
   slug: toqio-user-credentials-api
-- description: The User status API from Toqio — 1 operation(s) for user status.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The User status API from Toqio — 1 operation(s) for user status.
   name: Toqio User status API
   slug: toqio-user-status-api
-- description: The Webhook API from Toqio — 2 operation(s) for webhook.
+- baseURL: https://api.toq.io/wallet/api
+  baseurl_source: declared
+  description: The Webhook API from Toqio — 2 operation(s) for webhook.
   name: Toqio Webhook API
   slug: toqio-webhook-api
 artifact_total: 104
@@ -493,7 +591,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -503,7 +601,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 14.5
-  previous_composite: 47.4
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     contracts:
@@ -524,7 +622,7 @@ score:
     regime_id: payments
     score: 71.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/screenshots/toqio-2026-08-17T082408.png
 security:

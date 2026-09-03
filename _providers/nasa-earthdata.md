@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,13 +55,19 @@ apis:
 - description: The Global Imagery Browse Services (GIBS) API delivers quick access to over 1,000 satellite imagery products through standards-compliant web services including WMTS, WMS, and Tiled Web Map Service (TW
   name: Global Imagery Browse Services (GIBS) API
   slug: global-imagery-browse-services-gibs-api
-- description: Essential characteristics of this API including information about the data.
+- baseURL: https://cmr.earthdata.nasa.gov
+  baseurl_source: declared
+  description: Essential characteristics of this API including information about the data.
   name: NASA Earthdata Capabilities API
   slug: nasa-earthdata-capabilities-api
-- description: Access to data (coverage).
+- baseURL: https://cmr.earthdata.nasa.gov
+  baseurl_source: declared
+  description: Access to data (coverage).
   name: NASA Earthdata Coverage API
   slug: nasa-earthdata-coverage-api
-- description: The OpenAPI API from NASA Earthdata — 1 operation(s) for openapi.
+- baseURL: https://cmr.earthdata.nasa.gov
+  baseurl_source: declared
+  description: The OpenAPI API from NASA Earthdata — 1 operation(s) for openapi.
   name: NASA Earthdata OpenAPI API
   slug: nasa-earthdata-openapi-api
 artifact_total: 16
@@ -171,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-earthdata/refs/heads/main/screenshots/nasa-earthdata-2026-06-20T185948.png
 security:

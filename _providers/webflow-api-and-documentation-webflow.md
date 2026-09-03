@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 153 operations · 89 acting
 api_count: 5
 apis:
-- description: The Asset Folders API from Webflow API and Documentation — 2 operation(s) for asset folders.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: The Asset Folders API from Webflow API and Documentation — 2 operation(s) for asset folders.
   name: Webflow API and Documentation Asset Folders API
   slug: webflow-api-and-documentation-webflow-asset-folders-api
-- description: Assets are files that are uploaded to your Webflow account.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Assets are files that are uploaded to your Webflow account.
   name: Webflow API and Documentation Assets API
   slug: webflow-api-and-documentation-webflow-assets-api
-- description: Collections are CMS collections of items.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Collections are CMS collections of items.
   name: Webflow API and Documentation Collections API
   slug: webflow-api-and-documentation-webflow-collections-api
-- description: The Comments API from Webflow API and Documentation — 3 operation(s) for comments.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: The Comments API from Webflow API and Documentation — 3 operation(s) for comments.
   name: Webflow API and Documentation Comments API
   slug: webflow-api-and-documentation-webflow-comments-api
-- description: The Components API from Webflow API and Documentation — 3 operation(s) for components.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: The Components API from Webflow API and Documentation — 3 operation(s) for components.
   name: Webflow API and Documentation Components API
   slug: webflow-api-and-documentation-webflow-components-api
-- description: Custom code is JavaScript that is added to your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Custom code is JavaScript that is added to your Webflow site.
   name: Webflow API and Documentation Custom Code API
   slug: webflow-api-and-documentation-webflow-custom-code-api
-- description: Forms are forms that are created on your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Forms are forms that are created on your Webflow site.
   name: Webflow API and Documentation Forms API
   slug: webflow-api-and-documentation-webflow-forms-api
-- description: Inventory is the stock of e-commerce items in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Inventory is the stock of e-commerce items in your Webflow site.
   name: Webflow API and Documentation Inventory API
   slug: webflow-api-and-documentation-webflow-inventory-api
-- description: Items are the individual e-commerce items in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Items are the individual e-commerce items in your Webflow site.
   name: Webflow API and Documentation Items API
   slug: webflow-api-and-documentation-webflow-items-api
-- description: Meta is the metadata for your Webflow API token.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Meta is the metadata for your Webflow API token.
   name: Webflow API and Documentation Meta API
   slug: webflow-api-and-documentation-webflow-meta-api
-- description: Orders are the orders for your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Orders are the orders for your Webflow site.
   name: Webflow API and Documentation Orders API
   slug: webflow-api-and-documentation-webflow-orders-api
-- description: Pages are the pages in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Pages are the pages in your Webflow site.
   name: Webflow API and Documentation Pages API
   slug: webflow-api-and-documentation-webflow-pages-api
-- description: Products & SKUs are the products and SKUs in your Webflow e-commerce site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Products & SKUs are the products and SKUs in your Webflow e-commerce site.
   name: Webflow API and Documentation Products & SKUs API
   slug: webflow-api-and-documentation-webflow-products-skus-api
-- description: Settings are the e-commerce settings for your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Settings are the e-commerce settings for your Webflow site.
   name: Webflow API and Documentation Settings API
   slug: webflow-api-and-documentation-webflow-settings-api
-- description: The Site Activity API from Webflow API and Documentation — 1 operation(s) for site activity.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: The Site Activity API from Webflow API and Documentation — 1 operation(s) for site activity.
   name: Webflow API and Documentation Site Activity API
   slug: webflow-api-and-documentation-webflow-site-activity-api
-- description: The Site Administration API from Webflow API and Documentation — 1 operation(s) for site administration.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: The Site Administration API from Webflow API and Documentation — 1 operation(s) for site administration.
   name: Webflow API and Documentation Site Administration API
   slug: webflow-api-and-documentation-webflow-site-administration-api
-- description: Sites are the sites in your Webflow workspace.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Sites are the sites in your Webflow workspace.
   name: Webflow API and Documentation Sites API
   slug: webflow-api-and-documentation-webflow-sites-api
-- description: Webhooks are the webhooks in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: Webhooks are the webhooks in your Webflow site.
   name: Webflow API and Documentation Webhooks API
   slug: webflow-api-and-documentation-webflow-webhooks-api
-- description: The Workspce Audit Logs API from Webflow API and Documentation — 1 operation(s) for workspce audit logs.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: spec
+  description: The Workspce Audit Logs API from Webflow API and Documentation — 1 operation(s) for workspce audit logs.
   name: Webflow API and Documentation Workspce Audit Logs API
   slug: webflow-api-and-documentation-webflow-workspce-audit-logs-api
 arazzos:
@@ -854,7 +892,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/screenshots/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:

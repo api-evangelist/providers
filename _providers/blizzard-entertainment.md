@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 26 operations · 2 acting
 api_count: 5
 apis:
-- description: Retrieve achievement reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve achievement reference data.
   name: Blizzard Entertainment Achievements API
   slug: blizzard-entertainment-achievements-api
-- description: Retrieve Diablo III act reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve Diablo III act reference data.
   name: Blizzard Entertainment Acts API
   slug: blizzard-entertainment-acts-api
-- description: Retrieve artisan and recipe reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve artisan and recipe reference data.
   name: Blizzard Entertainment Artisans API
   slug: blizzard-entertainment-artisans-api
-- description: Retrieve live auction-house listings per connected realm.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve live auction-house listings per connected realm.
   name: Blizzard Entertainment Auctions API
   slug: blizzard-entertainment-auctions-api
-- description: User-context authorization endpoints.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: User-context authorization endpoints.
   name: Blizzard Entertainment Authorization API
   slug: blizzard-entertainment-authorization-api
-- description: Retrieve Hearthstone card-back data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve Hearthstone card-back data.
   name: Blizzard Entertainment Card Backs API
   slug: blizzard-entertainment-card-backs-api
-- description: Search and retrieve Hearthstone cards.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Search and retrieve Hearthstone cards.
   name: Blizzard Entertainment Cards API
   slug: blizzard-entertainment-cards-api
-- description: Retrieve character class and skill reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve character class and skill reference data.
   name: Blizzard Entertainment Characters API
   slug: blizzard-entertainment-characters-api
-- description: Decode Hearthstone deck codes.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Decode Hearthstone deck codes.
   name: Blizzard Entertainment Decks API
   slug: blizzard-entertainment-decks-api
-- description: Retrieve guild profile data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve guild profile data.
   name: Blizzard Entertainment Guilds API
   slug: blizzard-entertainment-guilds-api
-- description: Retrieve item type and item reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve item type and item reference data.
   name: Blizzard Entertainment Items API
   slug: blizzard-entertainment-items-api
-- description: Retrieve ladder, grandmaster, and season data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve ladder, grandmaster, and season data.
   name: Blizzard Entertainment Ladders API
   slug: blizzard-entertainment-ladders-api
-- description: Retrieve Hearthstone metadata reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve Hearthstone metadata reference data.
   name: Blizzard Entertainment Metadata API
   slug: blizzard-entertainment-metadata-api
-- description: Retrieve mount index and detail data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve mount index and detail data.
   name: Blizzard Entertainment Mounts API
   slug: blizzard-entertainment-mounts-api
-- description: Retrieve player career and hero profile data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve player career and hero profile data.
   name: Blizzard Entertainment Profiles API
   slug: blizzard-entertainment-profiles-api
-- description: Retrieve realm and connected-realm reference data.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Retrieve realm and connected-realm reference data.
   name: Blizzard Entertainment Realms API
   slug: blizzard-entertainment-realms-api
-- description: Token issuance and inspection endpoints.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: Token issuance and inspection endpoints.
   name: Blizzard Entertainment Token API
   slug: blizzard-entertainment-token-api
-- description: OpenID Connect userinfo endpoint.
+- baseURL: https://us.api.blizzard.com
+  baseurl_source: declared
+  description: OpenID Connect userinfo endpoint.
   name: Blizzard Entertainment UserInfo API
   slug: blizzard-entertainment-userinfo-api
 artifact_total: 64
@@ -345,7 +381,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png
 security:

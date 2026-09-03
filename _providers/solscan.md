@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
@@ -42,19 +42,29 @@ apis:
 - description: Commercial Pro API with full account, transaction, token, NFT, DeFi, and analytics endpoints. Higher rate limits, decoded events, and historical depth. Authentication via token header.
   name: Solscan Pro API
   slug: pro-api
-- description: Solana account data
+- baseURL: https://public-api.solscan.io
+  baseurl_source: declared
+  description: Solana account data
   name: Solscan Account API
   slug: solscan-account-api
-- description: Block lookups
+- baseURL: https://public-api.solscan.io
+  baseurl_source: declared
+  description: Block lookups
   name: Solscan Block API
   slug: solscan-block-api
-- description: NFT collection data
+- baseURL: https://public-api.solscan.io
+  baseurl_source: declared
+  description: NFT collection data
   name: Solscan NFT API
   slug: solscan-nft-api
-- description: SPL token data
+- baseURL: https://public-api.solscan.io
+  baseurl_source: declared
+  description: SPL token data
   name: Solscan Token API
   slug: solscan-token-api
-- description: Transaction lookups
+- baseURL: https://public-api.solscan.io
+  baseurl_source: declared
+  description: Transaction lookups
   name: Solscan Transaction API
   slug: solscan-transaction-api
 artifact_total: 17
@@ -165,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/screenshots/solscan-2026-06-20T194154.png
 security:

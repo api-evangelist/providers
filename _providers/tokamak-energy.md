@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: Public, unauthenticated read access to the Tokamak Energy news archive behind tokamakenergy.com/latest-news/ via the WordPress core REST API. Verified live at 84 published posts on 2026-08-30.
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Tokamak Energy news archive behind tokamakenergy.com/latest-news/ via the WordPress core REST API. Verified live at 84 published posts on 2026-08-30.
   name: Tokamak Energy Posts API
   slug: tokamak-energy-posts-api
-- description: Public, unauthenticated read access to the static pages of tokamakenergy.com — About Us, Our Fusion Energy and HTS Technology, TE Magnetics, Careers, Early Careers, Current Vacancies, STEM Outreach, W
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static pages of tokamakenergy.com — About Us, Our Fusion Energy and HTS Technology, TE Magnetics, Careers, Early Careers, Current Vacancies, STEM Outreach, W
   name: Tokamak Energy Pages API
   slug: tokamak-energy-pages-api
-- description: Public, unauthenticated read access to the Tokamak Energy media library — images, diagrams, PDFs and video assets attached to news posts and pages, including ST40, Demo4 and TE Magnetics imagery. Veri
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Tokamak Energy media library — images, diagrams, PDFs and video assets attached to news posts and pages, including ST40, Demo4 and TE Magnetics imagery. Veri
   name: Tokamak Energy Media API
   slug: tokamak-energy-media-api
-- description: Public, unauthenticated read access to the site-specific `area-item` custom post type behind tokamakenergy.com — the structured content blocks Tokamak Energy uses to compose its technology, careers an
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the site-specific `area-item` custom post type behind tokamakenergy.com — the structured content blocks Tokamak Energy uses to compose its technology, careers an
   name: Tokamak Energy Area Items API
   slug: tokamak-energy-area-items-api
-- description: Public, unauthenticated read access to the classification terms Tokamak Energy applies to its news archive — the category taxonomy (8 terms live on 2026-08-30) and the post tag taxonomy (0 terms live;
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the classification terms Tokamak Energy applies to its news archive — the category taxonomy (8 terms live on 2026-08-30) and the post tag taxonomy (0 terms live;
   name: Tokamak Energy Taxonomy API
   slug: tokamak-energy-taxonomy-api
-- description: Public, unauthenticated full-text search across every searchable object on tokamakenergy.com — posts, pages and the area-item custom type — returning a lightweight result envelope (id, title, url, typ
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated full-text search across every searchable object on tokamakenergy.com — posts, pages and the area-item custom type — returning a lightweight result envelope (id, title, url, typ
   name: Tokamak Energy Search API
   slug: tokamak-energy-search-api
-- description: Public, unauthenticated read access to the post authors of the Tokamak Energy news archive. Verified live at 4 authors on 2026-08-30. WordPress exposes only the public author view — name, slug, descri
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the post authors of the Tokamak Energy news archive. Verified live at 4 authors on 2026-08-30. WordPress exposes only the public author view — name, slug, descri
   name: Tokamak Energy Authors API
   slug: tokamak-energy-authors-api
-- description: The machine-readable description of the Tokamak Energy content API itself — the REST root document, the registered content types (including the site-specific `portfolio` and `area-item` types), the re
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: The machine-readable description of the Tokamak Energy content API itself — the REST root document, the registered content types (including the site-specific `portfolio` and `area-item` types), the re
   name: Tokamak Energy Discovery API
   slug: tokamak-energy-discovery-api
-- description: 'Public, unauthenticated oEmbed 1.0 provider endpoint for tokamakenergy.com. Given the URL of any Tokamak Energy post or page it returns an oEmbed rich/link response suitable for embedding the item in '
+- baseURL: https://tokamakenergy.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated oEmbed 1.0 provider endpoint for tokamakenergy.com. Given the URL of any Tokamak Energy post or page it returns an oEmbed rich/link response suitable for embedding the item in '
   name: Tokamak Energy oEmbed API
   slug: tokamak-energy-oembed-api
 artifact_total: 22
@@ -189,11 +219,11 @@ score:
   band: emerging
   composite: 19.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -203,7 +233,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 30.9
+  previous_composite: 19.7
   provenance:
     conformance: first-party
     contracts:
@@ -220,8 +250,9 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/screenshots/tokamak-energy-2026-09-02T163845.png
 security:
 - kind: authentication
   name: Tokamak Energy Authentication

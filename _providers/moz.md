@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'The Moz API is a JSON-RPC 2.0 API accessed through HTTP POST requests to a single universal endpoint, https://api.moz.com/jsonrpc. The method name in the request body selects the operation. 62 public '
@@ -208,7 +222,7 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 49.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -228,8 +242,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moz/refs/heads/main/screenshots/moz-2026-09-02T150638.png
 security:
 - kind: authentication
   name: Moz Authentication

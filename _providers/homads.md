@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Homads marketplace surface for searching and browsing mid-term (30+ day) furnished rental listings by location, dates, and neighborhood. As of the catalog date this is a consumer-facing web produc
+- baseURL: https://homads.com
+  baseurl_source: declared
+  description: The Homads marketplace surface for searching and browsing mid-term (30+ day) furnished rental listings by location, dates, and neighborhood. As of the catalog date this is a consumer-facing web produc
   name: Homads Rental Market Data
   slug: rental-market-data
-- description: The neighborhood-matching and side-by-side rental comparison experience Homads provides to help guests compare furnished mid-term rentals across neighborhoods during a relocation. This is delivered th
+- baseURL: https://homads.com
+  baseurl_source: declared
+  description: The neighborhood-matching and side-by-side rental comparison experience Homads provides to help guests compare furnished mid-term rentals across neighborhoods during a relocation. This is delivered th
   name: Homads Rent Comparison
   slug: rent-comparison
 artifact_total: 8
@@ -124,7 +128,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homads/refs/heads/main/screenshots/homads-2026-07-25T221327.png
 security:

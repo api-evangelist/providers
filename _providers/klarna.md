@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -44,67 +44,105 @@ agentic_access:
   summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Create and authorize Klarna payment sessions; create orders against authorizations.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: Create and authorize Klarna payment sessions; create orders against authorizations.
   name: Klarna Payments API
   slug: klarna-payments-api
-- description: 'Hosted Klarna Checkout (KCO), the checkout/v3 surface. Klarna divested the Klarna Checkout product and it now trades as Kustom; as of 2026-08-27 Klarna no longer publishes a dedicated Klarna Checkout '
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: 'Hosted Klarna Checkout (KCO), the checkout/v3 surface. Klarna divested the Klarna Checkout product and it now trades as Kustom; as of 2026-08-27 Klarna no longer publishes a dedicated Klarna Checkout '
   name: Klarna Checkout API
   slug: klarna-checkout-api
 - description: Capture, refund, cancel and update orders post-authorization.
   name: Klarna Order Management API
   slug: klarna-order-management-api
-- description: Persist a payment authorization as a customer token for repeat purchases.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: Persist a payment authorization as a customer token for repeat purchases.
   name: Klarna Customer Token API
   slug: klarna-customer-token-api
 - description: Read merchant settlement reports and transactions.
   name: Klarna Settlements API
   slug: klarna-settlements-api
-- description: Outbound HTTP POST callbacks Klarna issues to merchant-hosted URLs for Payments authorization, HPP status updates, Checkout push, and pending-order risk decisions.
+- baseURL: https://merchant.example.com
+  baseurl_source: declared
+  description: Outbound HTTP POST callbacks Klarna issues to merchant-hosted URLs for Payments authorization, HPP status updates, Checkout push, and pending-order risk decisions.
   name: Klarna Push Notifications
   slug: klarna-push-notifications
-- description: The Captures API from Klarna — 6 operation(s) for captures.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Captures API from Klarna — 6 operation(s) for captures.
   name: Klarna Captures API
   slug: klarna-captures-api
-- description: The Checkout API from Klarna — 3 operation(s) for checkout.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Checkout API from Klarna — 3 operation(s) for checkout.
   name: Klarna Checkout API
   slug: klarna-checkout-api
-- description: The Customer Token API from Klarna — 3 operation(s) for customer token.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Customer Token API from Klarna — 3 operation(s) for customer token.
   name: Klarna Customer Token API
   slug: klarna-customer-token-api
-- description: The Hpp API from Klarna — 3 operation(s) for hpp.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Hpp API from Klarna — 3 operation(s) for hpp.
   name: Klarna Hpp API
   slug: klarna-hpp-api
-- description: The Merchant Urls.address Update API from Klarna — 1 operation(s) for merchant urls.address update.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Merchant Urls.address Update API from Klarna — 1 operation(s) for merchant urls.address update.
   name: Klarna Merchant Urls.address Update API
   slug: klarna-merchant-urls-address-update-api
-- description: The Merchant Urls.country Change API from Klarna — 1 operation(s) for merchant urls.country change.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Merchant Urls.country Change API from Klarna — 1 operation(s) for merchant urls.country change.
   name: Klarna Merchant Urls.country Change API
   slug: klarna-merchant-urls-country-change-api
-- description: The Merchant Urls.shipping Option Update API from Klarna — 1 operation(s) for merchant urls.shipping option update.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Merchant Urls.shipping Option Update API from Klarna — 1 operation(s) for merchant urls.shipping option update.
   name: Klarna Merchant Urls.shipping Option Update API
   slug: klarna-merchant-urls-shipping-option-update-api
-- description: The Merchant Urls.validation API from Klarna — 1 operation(s) for merchant urls.validation.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Merchant Urls.validation API from Klarna — 1 operation(s) for merchant urls.validation.
   name: Klarna Merchant Urls.validation API
   slug: klarna-merchant-urls-validation-api
-- description: The Merchantcard API from Klarna — 6 operation(s) for merchantcard.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Merchantcard API from Klarna — 6 operation(s) for merchantcard.
   name: Klarna Merchantcard API
   slug: klarna-merchantcard-api
-- description: The Orders API from Klarna — 9 operation(s) for orders.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Orders API from Klarna — 9 operation(s) for orders.
   name: Klarna Orders API
   slug: klarna-orders-api
-- description: The Payments API from Klarna — 5 operation(s) for payments.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Payments API from Klarna — 5 operation(s) for payments.
   name: Klarna Payments API
   slug: klarna-payments-api
-- description: The Payouts API from Klarna — 3 operation(s) for payouts.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Payouts API from Klarna — 3 operation(s) for payouts.
   name: Klarna Payouts API
   slug: klarna-payouts-api
-- description: The Refunds API from Klarna — 2 operation(s) for refunds.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Refunds API from Klarna — 2 operation(s) for refunds.
   name: Klarna Refunds API
   slug: klarna-refunds-api
-- description: The Reports API from Klarna — 4 operation(s) for reports.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Reports API from Klarna — 4 operation(s) for reports.
   name: Klarna Reports API
   slug: klarna-reports-api
-- description: The Transactions API from Klarna — 1 operation(s) for transactions.
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Transactions API from Klarna — 1 operation(s) for transactions.
   name: Klarna Transactions API
   slug: klarna-transactions-api
 artifact_total: 115
@@ -592,7 +630,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -602,7 +640,7 @@ score:
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 92.1
-  previous_composite: 69.3
+  previous_composite: 74.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -620,8 +658,8 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 security:
 - kind: authentication
   name: Klarna Authentication

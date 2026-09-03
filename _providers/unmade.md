@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Design API API from Unmade — 9 operation(s) for design api.
+- baseURL: https://partner-subdomain.embed.unmade.com
+  baseurl_source: declared
+  description: The Design API API from Unmade — 9 operation(s) for design api.
   name: Unmade Design API API
   slug: unmade-design-api-api
-- description: The Ecommerce Orders API API from Unmade — 12 operation(s) for ecommerce orders api.
+- baseURL: https://partner-subdomain.embed.unmade.com
+  baseurl_source: declared
+  description: The Ecommerce Orders API API from Unmade — 12 operation(s) for ecommerce orders api.
   name: Unmade Ecommerce Orders API API
   slug: unmade-ecommerce-orders-api-api
-- description: The Factory API API from Unmade — 15 operation(s) for factory api.
+- baseURL: https://partner-subdomain.embed.unmade.com
+  baseurl_source: declared
+  description: The Factory API API from Unmade — 15 operation(s) for factory api.
   name: Unmade Factory API API
   slug: unmade-factory-api-api
-- description: The Outfit API API from Unmade — 5 operation(s) for outfit api.
+- baseURL: https://partner-subdomain.embed.unmade.com
+  baseurl_source: declared
+  description: The Outfit API API from Unmade — 5 operation(s) for outfit api.
   name: Unmade Outfit API API
   slug: unmade-outfit-api-api
-- description: The Transfer Preview API API from Unmade — 2 operation(s) for transfer preview api.
+- baseURL: https://partner-subdomain.embed.unmade.com
+  baseurl_source: declared
+  description: The Transfer Preview API API from Unmade — 2 operation(s) for transfer preview api.
   name: Unmade Transfer Preview API API
   slug: unmade-transfer-preview-api-api
-- description: The Unmade Editor API from Unmade — 2 operation(s) for unmade editor.
+- baseURL: https://partner-subdomain.embed.unmade.com
+  baseurl_source: declared
+  description: The Unmade Editor API from Unmade — 2 operation(s) for unmade editor.
   name: Unmade Unmade Editor API
   slug: unmade-unmade-editor-api
 artifact_total: 16
@@ -184,7 +196,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -209,8 +221,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/screenshots/unmade-2026-09-02T164940.png
 security:
 - kind: authentication
   name: Unmade Authentication

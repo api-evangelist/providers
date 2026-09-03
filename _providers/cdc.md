@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -55,34 +55,54 @@ apis:
 - description: 'The Public Health Information Network Vocabulary Access and Distribution System (PHIN VADS) is a web-based enterprise vocabulary system for accessing, searching, and distributing vocabularies used in '
   name: PHIN VADS API
   slug: phin-vads-api
-- description: The app-notifications API from CDC — 1 operation(s) for app-notifications.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The app-notifications API from CDC — 1 operation(s) for app-notifications.
   name: CDC app-notifications API
   slug: cdc-app-notifications-api
-- description: The code-systems API from CDC — 1 operation(s) for code-systems.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The code-systems API from CDC — 1 operation(s) for code-systems.
   name: CDC code-systems API
   slug: cdc-code-systems-api
-- description: The conditions API from CDC — 2 operation(s) for conditions.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The conditions API from CDC — 2 operation(s) for conditions.
   name: CDC conditions API
   slug: cdc-conditions-api
-- description: The configurations API from CDC — 15 operation(s) for configurations.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The configurations API from CDC — 15 operation(s) for configurations.
   name: CDC configurations API
   slug: cdc-configurations-api
-- description: The events API from CDC — 2 operation(s) for events.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The events API from CDC — 2 operation(s) for events.
   name: CDC events API
   slug: cdc-events-api
-- description: The Query API from CDC — 1 operation(s) for query.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The Query API from CDC — 1 operation(s) for query.
   name: CDC Query API
   slug: cdc-query-api
-- description: The Query Connector API OpenAPI 3.0 API from CDC — 1 operation(s) for query connector api openapi 3.0.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The Query Connector API OpenAPI 3.0 API from CDC — 1 operation(s) for query connector api openapi 3.0.
   name: CDC Query Connector API OpenAPI 3.0 API
   slug: cdc-query-connector-api-openapi-3-0-api
-- description: The releases API from CDC — 1 operation(s) for releases.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The releases API from CDC — 1 operation(s) for releases.
   name: CDC releases API
   slug: cdc-releases-api
-- description: The simulator API from CDC — 3 operation(s) for simulator.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The simulator API from CDC — 3 operation(s) for simulator.
   name: CDC simulator API
   slug: cdc-simulator-api
-- description: The user API from CDC — 1 operation(s) for user.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The user API from CDC — 1 operation(s) for user.
   name: CDC user API
   slug: cdc-user-api
 artifact_total: 30
@@ -215,7 +235,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/screenshots/cdc-2026-06-20T174105.png
 security:

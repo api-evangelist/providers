@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -47,82 +47,134 @@ apis:
 - description: Beta GraphQL interface that powers the official Mighty Networks clients, for building custom user-context clients, integrations, and back-office tools. Requests go to /networks/:network_id_or_subdomai
   name: Mighty Networks Headless GraphQL API
   slug: mighty-networks-headless-graphql-api
-- description: Manage abuse reports for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage abuse reports for your network
   name: Mighty Networks AbuseReports API
   slug: mighty-networks-abusereports-api
-- description: Manage member responses to custom fields
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage member responses to custom fields
   name: Mighty Networks Answers API
   slug: mighty-networks-answers-api
-- description: Manage assets for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage assets for your network
   name: Mighty Networks Assets API
   slug: mighty-networks-assets-api
-- description: Manage badges for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage badges for your network
   name: Mighty Networks Badges API
   slug: mighty-networks-badges-api
-- description: Manage collections in your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage collections in your network
   name: Mighty Networks Collections API
   slug: mighty-networks-collections-api
-- description: Manage comments on posts
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage comments on posts
   name: Mighty Networks Comments API
   slug: mighty-networks-comments-api
-- description: Manage course content (lessons, quizzes, sections)
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage course content (lessons, quizzes, sections)
   name: Mighty Networks Courseworks API
   slug: mighty-networks-courseworks-api
-- description: Manage custom fields for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage custom fields for your network
   name: Mighty Networks CustomFields API
   slug: mighty-networks-customfields-api
-- description: Events are scheduled gatherings that members can RSVP to and engage with
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Events are scheduled gatherings that members can RSVP to and engage with
   name: Mighty Networks Events API
   slug: mighty-networks-events-api
-- description: Invites allow you to invite users to your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Invites allow you to invite users to your network
   name: Mighty Networks Invites API
   slug: mighty-networks-invites-api
-- description: Metadata about the requesting user
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Metadata about the requesting user
   name: Mighty Networks Me API
   slug: mighty-networks-me-api
-- description: Manage members of your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage members of your network
   name: Mighty Networks Members API
   slug: mighty-networks-members-api
-- description: Mute posts for users
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Mute posts for users
   name: Mighty Networks Mute API
   slug: mighty-networks-mute-api
-- description: Networks are the top-level organizational unit under which other resources are nested
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Networks are the top-level organizational unit under which other resources are nested
   name: Mighty Networks Networks API
   slug: mighty-networks-networks-api
-- description: Manage dropdown custom field options
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage dropdown custom field options
   name: Mighty Networks Options API
   slug: mighty-networks-options-api
-- description: Manage member password resets
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage member password resets
   name: Mighty Networks PasswordResets API
   slug: mighty-networks-passwordresets-api
-- description: Manage plans in your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage plans in your network
   name: Mighty Networks Plans API
   slug: mighty-networks-plans-api
-- description: Polls and Questions allow members to share opinions and engage with each other
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Polls and Questions allow members to share opinions and engage with each other
   name: Mighty Networks Polls API
   slug: mighty-networks-polls-api
-- description: Posts also include Articles.
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Posts also include Articles.
   name: Mighty Networks Posts API
   slug: mighty-networks-posts-api
-- description: Manage purchases and subscriptions for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage purchases and subscriptions for your network
   name: Mighty Networks Purchases API
   slug: mighty-networks-purchases-api
-- description: Manage reactions on comments
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage reactions on comments
   name: Mighty Networks Reactions API
   slug: mighty-networks-reactions-api
-- description: Manage event RSVPs for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage event RSVPs for your network
   name: Mighty Networks Rsvps API
   slug: mighty-networks-rsvps-api
-- description: Spaces are the organizational units within a Network where content and members are organized
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Spaces are the organizational units within a Network where content and members are organized
   name: Mighty Networks Spaces API
   slug: mighty-networks-spaces-api
-- description: Manage payment subscriptions - recurring payments from members to hosts for plans
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage payment subscriptions - recurring payments from members to hosts for plans
   name: Mighty Networks Subscriptions API
   slug: mighty-networks-subscriptions-api
-- description: Manage tags for your network
+- baseURL: https://api.mn.co/admin/v1
+  baseurl_source: declared
+  description: Manage tags for your network
   name: Mighty Networks Tags API
   slug: mighty-networks-tags-api
-- description: The Webhooks API from Mighty Networks — 0 operation(s) for webhooks.
+- baseURL: https://api.mn.co/networks
+  baseurl_source: declared
+  description: The Webhooks API from Mighty Networks — 0 operation(s) for webhooks.
   name: Mighty Networks Webhooks API
   slug: mighty-networks-webhooks-api
 artifact_total: 59
@@ -302,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/screenshots/mighty-networks-2026-08-07T172903.png
 security:

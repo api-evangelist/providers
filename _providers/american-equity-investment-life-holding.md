@@ -26,15 +26,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-01'
+  score: 2.5
+  scored_at: '2026-09-02'
 api_count: 0
-artifact_total: 14
+artifact_total: 17
 common:
 - group: auth
   title: ''
@@ -56,6 +56,64 @@ common:
   title: ''
   type: Portal
   url: https://register.american-equity.com
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.american-equity.com/security-disclosure
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/american-equity-investment-life-holding-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-equity-investment-life-holding-llms.txt
+- group: start
+  title: ''
+  type: SignUp
+  url: https://register.american-equity.com
+- group: start
+  title: ''
+  type: Login
+  url: https://myportal.american-equity.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.american-equity.com/contact-us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.american-equity.com/professionals/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.american-equity.com/insights/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.american-equity.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.american-equity.com/privacy
+coverage:
+  checked: '2026-09-02'
+  detail: American Equity is an annuity carrier whose only integration surfaces are authenticated human web apps — MyPortal for contract owners and contracted agents, AppBuilder, and a product-training LMS; api.american-equity.com is a live AWS API Gateway backing MyPortal that answers 403 {"message":"Forbidden"} on every path except /ping, there is no developer portal, no /llms.txt, no /.well-known document on any host, and the American-Equity-Life GitHub org publishes zero public repositories.
+  evidence:
+  - status: 403
+    url: https://api.american-equity.com/openapi.json
+  - status: 200
+    url: https://api.american-equity.com/ping
+  - status: 404
+    url: https://www.american-equity.com/openapi.json
+  - status: 404
+    url: https://www.american-equity.com/llms.txt
+  - status: 404
+    url: https://www.american-equity.com/.well-known/api-catalog
+  - status: 200
+    url: https://api.github.com/orgs/American-Equity-Life/repos
+  reason: no-developer-program
+  state: none
 created: '2024-11-15'
 description: American Equity Investment Life Holding Company is a leading provider of guaranteed income solutions, specializing in the design, development, and sale of fixed indexed and fixed-rate annuity products distributed through independent agents and broker-dealers. The company offers products including IncomeShield, AssetShield, EstateShield, and GuaranteeShield annuities, providing retirees with lifetime income, principal protection, tax-deferred growth, and legacy planning options.
 features:
@@ -78,14 +136,18 @@ integrations:
 - description: Compatibility with financial planning software used by independent agents to illustrate and recommend annuity products to clients.
   name: Financial Planning Platforms
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: American Equity Investment Life Holding
 nav: Providers
 network: true
 overview: 'American Equity Investment Life Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Insurance, Annuities, Fixed Indexed Annuity, and Retirement.
 
 
-  American Equity Investment Life Holding''s developer surface includes developer portal and 4 more developer resources.'
+  American Equity Investment Life Holding''s developer surface includes developer portal, signup flow, support, engineering blog, and 11 more developer resources.'
+plans:
+- name: American Equity Investment Life Holding Plans Pricing
+  plan_count: 0
+  slug: american-equity-investment-life-holding-plans-pricing
 press:
 - date: '2026-05-25'
   title: ael-20231231
@@ -103,40 +165,48 @@ press:
   title: American Equity Recognized for Award-Winning Customer ...
   url: https://www.businesswire.com/news/home/20221031005652/en/American-Equity-Recognized-for-Award-Winning-Customer-Satisfaction-Among-Annuity-Providers-in-the-U.S.-by-J.D.-Power
 random_paper: 16
+rate_limits:
+- limit_count: 0
+  name: American Equity Investment Life Holding Rate Limits
+  slug: american-equity-investment-life-holding-rate-limits
 score:
-  band: minimal
-  composite: 4.5
+  band: emerging
+  composite: 17.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 9
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 12.9
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 13.2
   previous_composite: 4.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
+    score: 30.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-equity-investment-life-holding/refs/heads/main/screenshots/american-equity-investment-life-holding-2026-06-20T171912.png
 security:
 - kind: domain-security
   name: American Equity Investment Life Holding Domain Security
   slug: american-equity-investment-life-holding-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: American Equity Investment Life Holding Vulnerability Disclosure
+  slug: american-equity-investment-life-holding-vulnerability-disclosure
+  summary_line: Hackerone
 slug: american-equity-investment-life-holding
 tags:
 - Financial-Services

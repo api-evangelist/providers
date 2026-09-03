@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 17 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Trigger and retrieve individual outbound calls.
+- baseURL: https://api.samora.ai
+  baseurl_source: declared
+  description: Trigger and retrieve individual outbound calls.
   name: Samora AI Calls API
   slug: samora-ai-calls-api
-- description: Create and manage outbound calling campaigns and their scheduled recipients.
+- baseURL: https://api.samora.ai
+  baseurl_source: declared
+  description: Create and manage outbound calling campaigns and their scheduled recipients.
   name: Samora AI Campaigns API
   slug: samora-ai-campaigns-api
-- description: Subscribe to real-time call events.
+- baseURL: https://api.samora.ai
+  baseurl_source: declared
+  description: Subscribe to real-time call events.
   name: Samora AI Webhooks API
   slug: samora-ai-webhooks-api
 artifact_total: 12
@@ -191,11 +197,11 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -205,7 +211,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 27.0
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +223,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/screenshots/samora-ai-2026-09-02T154344.png
 security:
 - kind: authentication
   name: Samora Ai Authentication

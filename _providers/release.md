@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 79 operations · 37 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounts API from Release — 11 operation(s) for accounts.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Accounts API from Release — 11 operation(s) for accounts.
   name: Release Accounts API
   slug: release-accounts-api
-- description: The Apps API from Release — 8 operation(s) for apps.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Apps API from Release — 8 operation(s) for apps.
   name: Release Apps API
   slug: release-apps-api
-- description: The Builds API from Release — 5 operation(s) for builds.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Builds API from Release — 5 operation(s) for builds.
   name: Release Builds API
   slug: release-builds-api
-- description: The Clusters API from Release — 10 operation(s) for clusters.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Clusters API from Release — 10 operation(s) for clusters.
   name: Release Clusters API
   slug: release-clusters-api
-- description: The Configs API from Release — 9 operation(s) for configs.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Configs API from Release — 9 operation(s) for configs.
   name: Release Configs API
   slug: release-configs-api
-- description: The Deploys API from Release — 5 operation(s) for deploys.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Deploys API from Release — 5 operation(s) for deploys.
   name: Release Deploys API
   slug: release-deploys-api
-- description: The Environments API from Release — 6 operation(s) for environments.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Environments API from Release — 6 operation(s) for environments.
   name: Release Environments API
   slug: release-environments-api
-- description: The Instances API from Release — 2 operation(s) for instances.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Instances API from Release — 2 operation(s) for instances.
   name: Release Instances API
   slug: release-instances-api
-- description: The Remote Development API from Release — 2 operation(s) for remote development.
+- baseURL: https://api.release.com
+  baseurl_source: declared
+  description: The Remote Development API from Release — 2 operation(s) for remote development.
   name: Release Remote Development API
   slug: release-remote-development-api
 artifact_total: 25
@@ -282,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/release/refs/heads/main/screenshots/release-2026-08-17T081509.png
 security:

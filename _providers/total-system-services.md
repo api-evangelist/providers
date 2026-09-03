@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 23 operations · 13 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Cardholder account management
+- baseURL: https://issuing.api.tsys.com/v1
+  baseurl_source: spec
+  description: Cardholder account management
   name: Total System Services Accounts API
   slug: total-system-services-accounts-api
-- description: Authorize card payments
+- baseURL: https://api.tsys.com/v1
+  baseurl_source: spec
+  description: Authorize card payments
   name: Total System Services Authorization API
   slug: total-system-services-authorization-api
-- description: Capture authorized transactions
+- baseURL: https://api.tsys.com/v1
+  baseurl_source: spec
+  description: Capture authorized transactions
   name: Total System Services Capture API
   slug: total-system-services-capture-api
-- description: Card lifecycle management
+- baseURL: https://issuing.api.tsys.com/v1
+  baseurl_source: spec
+  description: Card lifecycle management
   name: Total System Services Cards API
   slug: total-system-services-cards-api
-- description: Spending controls and limits
+- baseURL: https://issuing.api.tsys.com/v1
+  baseurl_source: spec
+  description: Spending controls and limits
   name: Total System Services Controls API
   slug: total-system-services-controls-api
-- description: Transaction dispute management
+- baseURL: https://issuing.api.tsys.com/v1
+  baseurl_source: spec
+  description: Transaction dispute management
   name: Total System Services Disputes API
   slug: total-system-services-disputes-api
-- description: Look up transaction status
+- baseURL: https://api.tsys.com/v1
+  baseurl_source: spec
+  description: Look up transaction status
   name: Total System Services Inquiries API
   slug: total-system-services-inquiries-api
-- description: Process refunds and credits
+- baseURL: https://api.tsys.com/v1
+  baseurl_source: spec
+  description: Process refunds and credits
   name: Total System Services Refunds API
   slug: total-system-services-refunds-api
-- description: Card transaction history
+- baseURL: https://issuing.api.tsys.com/v1
+  baseurl_source: spec
+  description: Card transaction history
   name: Total System Services Transactions API
   slug: total-system-services-transactions-api
-- description: Void pending transactions
+- baseURL: https://api.tsys.com/v1
+  baseurl_source: spec
+  description: Void pending transactions
   name: Total System Services Voids API
   slug: total-system-services-voids-api
 artifact_total: 36
@@ -265,7 +285,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -275,7 +295,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 30.7
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -290,7 +310,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

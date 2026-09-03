@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 28 operations · 14 acting
 api_count: 1
 apis:
-- description: Application registration and sessions.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Application registration and sessions.
   name: Pieces Applications API
   slug: pieces-applications-api
-- description: Saved snippets stored in the local Pieces OS database.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Saved snippets stored in the local Pieces OS database.
   name: Pieces Assets API
   slug: pieces-assets-api
-- description: Copilot conversations and their messages.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Copilot conversations and their messages.
   name: Pieces Conversations API
   slug: pieces-conversations-api
-- description: Fragment representations that back each asset.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Fragment representations that back each asset.
   name: Pieces Formats API
   slug: pieces-formats-api
-- description: Local and cloud LLMs available to Pieces OS.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Local and cloud LLMs available to Pieces OS.
   name: Pieces Models API
   slug: pieces-models-api
-- description: Pieces Copilot generative engine (question, relevance, stream).
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Pieces Copilot generative engine (question, relevance, stream).
   name: Pieces QGPT API
   slug: pieces-qgpt-api
-- description: Local user context.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Local user context.
   name: Pieces User API
   slug: pieces-user-api
-- description: Health and version of the local Pieces OS instance.
+- baseURL: http://localhost:1000
+  baseurl_source: declared
+  description: Health and version of the local Pieces OS instance.
   name: Pieces Well Known API
   slug: pieces-well-known-api
 artifact_total: 25
@@ -192,7 +208,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -202,7 +218,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 36.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -211,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pieces/refs/heads/main/screenshots/pieces-2026-06-20T191813.png
 security:

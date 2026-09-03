@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: Led by physicians and trusted by patients, Pediatrix delivers advan
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mednax.png
 layout: provider
 modified: '2026-03-24'
-name: mednax
+name: Mednax
 nav: Providers
 network: true
-overview: mednax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Mednax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: Sorna Corporation - Latest News - SornaCorp
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mednax/refs/heads/main/screenshots/mednax-2026-06-20T185120.png
 security:

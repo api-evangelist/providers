@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 57 operations · 33 acting
 api_count: 1
 apis:
-- description: The Agents API from Sponge — 5 operation(s) for agents.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Agents API from Sponge — 5 operation(s) for agents.
   name: Sponge Agents API
   slug: sponge-agents-api
-- description: The Cards API from Sponge — 6 operation(s) for cards.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Cards API from Sponge — 6 operation(s) for cards.
   name: Sponge Cards API
   slug: sponge-cards-api
-- description: The Fiat API from Sponge — 11 operation(s) for fiat.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Fiat API from Sponge — 11 operation(s) for fiat.
   name: Sponge Fiat API
   slug: sponge-fiat-api
-- description: The MPP API from Sponge — 5 operation(s) for mpp.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The MPP API from Sponge — 5 operation(s) for mpp.
   name: Sponge MPP API
   slug: sponge-mpp-api
-- description: The Payments API from Sponge — 1 operation(s) for payments.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Payments API from Sponge — 1 operation(s) for payments.
   name: Sponge Payments API
   slug: sponge-payments-api
-- description: The Secrets API from Sponge — 2 operation(s) for secrets.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Secrets API from Sponge — 2 operation(s) for secrets.
   name: Sponge Secrets API
   slug: sponge-secrets-api
-- description: The Sponge Card API from Sponge — 7 operation(s) for sponge card.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Sponge Card API from Sponge — 7 operation(s) for sponge card.
   name: Sponge Sponge Card API
   slug: sponge-sponge-card-api
-- description: The Trading API from Sponge — 1 operation(s) for trading.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Trading API from Sponge — 1 operation(s) for trading.
   name: Sponge Trading API
   slug: sponge-trading-api
-- description: The Transfers API from Sponge — 9 operation(s) for transfers.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Transfers API from Sponge — 9 operation(s) for transfers.
   name: Sponge Transfers API
   slug: sponge-transfers-api
-- description: The Wallet API from Sponge — 4 operation(s) for wallet.
+- baseURL: https://api.wallet.paysponge.com
+  baseurl_source: declared
+  description: The Wallet API from Sponge — 4 operation(s) for wallet.
   name: Sponge Wallet API
   slug: sponge-wallet-api
 arazzos:
@@ -287,7 +307,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/screenshots/sponge-2026-08-17T082030.png
 security:

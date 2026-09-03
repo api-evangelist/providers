@@ -32,10 +32,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Real-Time Cryptocurrency derivatives trading platform based in Hong Kong
+- baseURL: https://www.bitmex.com/app/apiOverview
+  baseurl_source: declared
+  description: Real-Time Cryptocurrency derivatives trading platform based in Hong Kong
   name: Bitmex
   slug: bitmex
 artifact_total: 5
@@ -100,7 +102,7 @@ score:
     catalog_gap: 83.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,9 +112,9 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 21.5
+  previous_composite: 21.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmex/refs/heads/main/screenshots/bitmex-2026-06-20T173314.png
 security:

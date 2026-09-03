@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 112 operations · 112 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: '`AccessRequests` represent a request by a user for access to a document they do not currently have permission to view. The request can be approved or dismissed by a user with permission to share the d'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`AccessRequests` represent a request by a user for access to a document they do not currently have permission to view. The request can be approved or dismissed by a user with permission to share the d'
   name: Outline AccessRequests API
   slug: outline-accessrequests-api
-- description: '`Attachments` represent a file uploaded to cloud storage. They are created before the upload happens from the client and store all the meta information such as file type, size, and location.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Attachments` represent a file uploaded to cloud storage. They are created before the upload happens from the client and store all the meta information such as file type, size, and location.'
   name: Outline Attachments API
   slug: outline-attachments-api
-- description: '`Auth` represents the current API Keys authentication details. It can be used to check that a token is still valid and load the IDs for the current user and workspace.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Auth` represents the current API Keys authentication details. It can be used to check that a token is still valid and load the IDs for the current user and workspace.'
   name: Outline Auth API
   slug: outline-auth-api
-- description: '`Collections` represent grouping of documents in the knowledge base, they offer a way to structure information in a nested hierarchy and a level at which read and write permissions can be granted to i'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Collections` represent grouping of documents in the knowledge base, they offer a way to structure information in a nested hierarchy and a level at which read and write permissions can be granted to i'
   name: Outline Collections API
   slug: outline-collections-api
-- description: '`Comments` represent a comment either on a selection of text in a document or on the document itself.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Comments` represent a comment either on a selection of text in a document or on the document itself.'
   name: Outline Comments API
   slug: outline-comments-api
-- description: '`DataAttributes` represent custom metadata fields that can be attached to documents. They allow workspaces to add structured data like status, priority, or any other custom properties to their documen'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`DataAttributes` represent custom metadata fields that can be attached to documents. They allow workspaces to add structured data like status, priority, or any other custom properties to their documen'
   name: Outline DataAttributes API
   slug: outline-dataattributes-api
-- description: '`Documents` are what everything else revolves around. A document represents a single page of information and always returns the latest version of the content. Documents are stored in [Markdown](https:'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Documents` are what everything else revolves around. A document represents a single page of information and always returns the latest version of the content. Documents are stored in [Markdown](https:'
   name: Outline Documents API
   slug: outline-documents-api
-- description: '`Events` represent an artifact of an action. Whether it is creating a user, editing a document, changing permissions, or any other action – an event is created that can be used as an audit trail or ac'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Events` represent an artifact of an action. Whether it is creating a user, editing a document, changing permissions, or any other action – an event is created that can be used as an audit trail or ac'
   name: Outline Events API
   slug: outline-events-api
-- description: '`FileOperations` represent background jobs for importing or exporting files. You can query the file operation to find the state of progress and any resulting output.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`FileOperations` represent background jobs for importing or exporting files. You can query the file operation to find the state of progress and any resulting output.'
   name: Outline FileOperations API
   slug: outline-fileoperations-api
-- description: '`Groups` represent a list of users that logically belong together, for example there might be groups for each department in your organization. Groups can be granted access to collections with read or '
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Groups` represent a list of users that logically belong together, for example there might be groups for each department in your organization. Groups can be granted access to collections with read or '
   name: Outline Groups API
   slug: outline-groups-api
-- description: '`OAuthAuthentications` represent individual scoped authentications between Outline and an `OAuthClient`.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`OAuthAuthentications` represent individual scoped authentications between Outline and an `OAuthClient`.'
   name: Outline OAuthAuthentications API
   slug: outline-oauthauthentications-api
-- description: '`OAuthClients` represent OAuth clients that can be used to authenticate users with third-party services.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`OAuthClients` represent OAuth clients that can be used to authenticate users with third-party services.'
   name: Outline OAuthClients API
   slug: outline-oauthclients-api
-- description: '`Revisions` represent a snapshot of a document at a point in time. They are used to keep track of editing and collaboration history – a document can also be restored to a previous revision if necessar'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Revisions` represent a snapshot of a document at a point in time. They are used to keep track of editing and collaboration history – a document can also be restored to a previous revision if necessar'
   name: Outline Revisions API
   slug: outline-revisions-api
-- description: '`Shares` represent authorization to view a document without being a member of the workspace. Shares are created in order to give access to documents publicly. Each user that shares a document will hav'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Shares` represent authorization to view a document without being a member of the workspace. Shares are created in order to give access to documents publicly. Each user that shares a document will hav'
   name: Outline Shares API
   slug: outline-shares-api
-- description: '`Stars` represent a favorited document or collection in the application sidebar. Each user has their own collection of starred items.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Stars` represent a favorited document or collection in the application sidebar. Each user has their own collection of starred items.'
   name: Outline Stars API
   slug: outline-stars-api
-- description: '`Templates` represent reusable document templates that can be used as a starting point when creating new documents. Templates can be scoped to a specific collection or available workspace-wide.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Templates` represent reusable document templates that can be used as a starting point when creating new documents. Templates can be scoped to a specific collection or available workspace-wide.'
   name: Outline Templates API
   slug: outline-templates-api
-- description: '`Users` represent an individual with access to the knowledge base. Users can be created automatically when signing in with SSO or when a user is invited via email.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Users` represent an individual with access to the knowledge base. Users can be created automatically when signing in with SSO or when a user is invited via email.'
   name: Outline Users API
   slug: outline-users-api
-- description: '`Views` represent a compressed record of an individual users views of a document. Individual views are not recorded but a first, last and total is kept per user.'
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`Views` represent a compressed record of an individual users views of a document. Individual views are not recorded but a first, last and total is kept per user.'
   name: Outline Views API
   slug: outline-views-api
 artifact_total: 197
@@ -743,7 +779,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -756,7 +792,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 37.9
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -765,7 +801,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/screenshots/outline-2026-08-17T082817.png
 security:

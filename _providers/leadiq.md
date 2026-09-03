@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Remote Model Context Protocol server at https://mcp.leadiq.com/mcp exposing LeadIQ's verified B2B contact and company intelligence to AI agents over Streamable HTTP. Seventeen tools — EnrichPeople, En
   name: LeadIQ MCP Server
   slug: leadiq-mcp-server
-- description: Single GraphQL endpoint exposing all LeadIQ queries and mutations.
+- baseURL: https://api.leadiq.com/graphql
+  baseurl_source: declared
+  description: Single GraphQL endpoint exposing all LeadIQ queries and mutations.
   name: LeadIQ GraphQL API
   slug: leadiq-graphql-api
-- description: The account API from LeadIQ — 1 operation(s) for account.
+- baseURL: https://mcp.leadiq.com/mcp
+  baseurl_source: declared
+  description: The account API from LeadIQ — 1 operation(s) for account.
   name: LeadIQ Account API
   slug: leadiq-account-api
-- description: The lists API from LeadIQ — 5 operation(s) for lists.
+- baseURL: https://mcp.leadiq.com/mcp
+  baseurl_source: declared
+  description: The lists API from LeadIQ — 5 operation(s) for lists.
   name: LeadIQ Lists API
   slug: leadiq-lists-api
-- description: The prospects API from LeadIQ — 5 operation(s) for prospects.
+- baseURL: https://mcp.leadiq.com/mcp
+  baseurl_source: declared
+  description: The prospects API from LeadIQ — 5 operation(s) for prospects.
   name: LeadIQ Prospects API
   slug: leadiq-prospects-api
 artifact_total: 17
@@ -344,7 +352,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:

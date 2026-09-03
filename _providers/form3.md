@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -33,88 +44,144 @@ agentic_access:
   summary_line: 205 operations · 84 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AccountIdentification API from Form3 — 2 operation(s) for accountidentification.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The AccountIdentification API from Form3 — 2 operation(s) for accountidentification.
   name: Form3 Account Identification API
   slug: form3-accountidentification-api
-- description: The Accounts API from Form3 — 3 operation(s) for accounts.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Accounts API from Form3 — 3 operation(s) for accounts.
   name: Form3 Accounts API
   slug: form3-accounts-api
-- description: The AccountValidation API from Form3 — 2 operation(s) for accountvalidation.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The AccountValidation API from Form3 — 2 operation(s) for accountvalidation.
   name: Form3 Account Validation API
   slug: form3-accountvalidation-api
-- description: The ACE API from Form3 — 2 operation(s) for ace.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The ACE API from Form3 — 2 operation(s) for ace.
   name: Form3 ACE API
   slug: form3-ace-api
-- description: The Audit API from Form3 — 2 operation(s) for audit.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Audit API from Form3 — 2 operation(s) for audit.
   name: Form3 Audit API
   slug: form3-audit-api
-- description: The Branches API from Form3 — 2 operation(s) for branches.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Branches API from Form3 — 2 operation(s) for branches.
   name: Form3 Branches API
   slug: form3-branches-api
-- description: The BranchIdentification API from Form3 — 2 operation(s) for branchidentification.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The BranchIdentification API from Form3 — 2 operation(s) for branchidentification.
   name: Form3 Branch Identification API
   slug: form3-branchidentification-api
-- description: The Claims API from Form3 — 8 operation(s) for claims.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Claims API from Form3 — 8 operation(s) for claims.
   name: Form3 Claims API
   slug: form3-claims-api
-- description: The DirectDebits API from Form3 — 26 operation(s) for directdebits.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The DirectDebits API from Form3 — 26 operation(s) for directdebits.
   name: Form3 Direct Debits API
   slug: form3-directdebits-api
-- description: The DirectDebitsReads API from Form3 — 1 operation(s) for directdebitsreads.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The DirectDebitsReads API from Form3 — 1 operation(s) for directdebitsreads.
   name: Form3 Direct Debits Reads API
   slug: form3-directdebitsreads-api
-- description: The Mandates API from Form3 — 9 operation(s) for mandates.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Mandates API from Form3 — 9 operation(s) for mandates.
   name: Form3 Mandates API
   slug: form3-mandates-api
-- description: The Metrics API API from Form3 — 3 operation(s) for metrics api.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Metrics API API from Form3 — 3 operation(s) for metrics api.
   name: Form3 Metrics API
   slug: form3-metrics-api-api
-- description: The Name Verification API API from Form3 — 3 operation(s) for name verification api.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Name Verification API API from Form3 — 3 operation(s) for name verification api.
   name: Form3 Name Verification API
   slug: form3-name-verification-api-api
-- description: The Oauth2 API from Form3 — 1 operation(s) for oauth2.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Oauth2 API from Form3 — 1 operation(s) for oauth2.
   name: Form3 Oauth2 API
   slug: form3-oauth2-api
-- description: The Organisations API from Form3 — 2 operation(s) for organisations.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Organisations API from Form3 — 2 operation(s) for organisations.
   name: Form3 Organisations API
   slug: form3-organisations-api
-- description: The PaymentReads API from Form3 — 31 operation(s) for paymentreads.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The PaymentReads API from Form3 — 31 operation(s) for paymentreads.
   name: Form3 Payment Reads API
   slug: form3-paymentreads-api
-- description: The PaymentWrites API from Form3 — 18 operation(s) for paymentwrites.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The PaymentWrites API from Form3 — 18 operation(s) for paymentwrites.
   name: Form3 Payment Writes API
   slug: form3-paymentwrites-api
-- description: The platformsecurityapi API from Form3 — 2 operation(s) for platformsecurityapi.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The platformsecurityapi API from Form3 — 2 operation(s) for platformsecurityapi.
   name: Form3 Platformsecurityapi API
   slug: form3-platformsecurityapi-api
-- description: The Public Keys API from Form3 — 4 operation(s) for public keys.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Public Keys API from Form3 — 4 operation(s) for public keys.
   name: Form3 Public Keys API
   slug: form3-public-keys-api
-- description: The QualifiedTransactions API from Form3 — 2 operation(s) for qualifiedtransactions.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The QualifiedTransactions API from Form3 — 2 operation(s) for qualifiedtransactions.
   name: Form3 Qualified Transactions API
   slug: form3-qualifiedtransactions-api
-- description: The query_api API from Form3 — 10 operation(s) for query_api.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The query_api API from Form3 — 10 operation(s) for query_api.
   name: Form3 Query API
   slug: form3-query-api-api
-- description: The Reports API from Form3 — 4 operation(s) for reports.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Reports API from Form3 — 4 operation(s) for reports.
   name: Form3 Reports API
   slug: form3-reports-api
-- description: The Roles API from Form3 — 2 operation(s) for roles.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Roles API from Form3 — 2 operation(s) for roles.
   name: Form3 Roles API
   slug: form3-roles-api
-- description: The Scheme File API API from Form3 — 6 operation(s) for scheme file api.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Scheme File API API from Form3 — 6 operation(s) for scheme file api.
   name: Form3 Scheme File API
   slug: form3-scheme-file-api-api
-- description: The SchemeMessages API from Form3 — 3 operation(s) for schememessages.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The SchemeMessages API from Form3 — 3 operation(s) for schememessages.
   name: Form3 Scheme Messages API
   slug: form3-schememessages-api
-- description: The Subscriptions API from Form3 — 2 operation(s) for subscriptions.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Form3 — 2 operation(s) for subscriptions.
   name: Form3 Subscriptions API
   slug: form3-subscriptions-api
-- description: The Transaction File API API from Form3 — 7 operation(s) for transaction file api.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Transaction File API API from Form3 — 7 operation(s) for transaction file api.
   name: Form3 Transaction File API
   slug: form3-transaction-file-api-api
-- description: The Users API from Form3 — 11 operation(s) for users.
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Users API from Form3 — 11 operation(s) for users.
   name: Form3 Users API
   slug: form3-users-api
 artifact_total: 38
@@ -314,23 +381,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.9
+  composite: 45.8
   coverage:
     artifact_dirs: 22
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
     contract_quality: 58.2
     developer_ergonomics: 28.0
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 44.1
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,7 +419,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:

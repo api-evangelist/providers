@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 12 operations
 api_count: 3
 apis:
-- description: The Aggregations API from Consumer Financial Protection Bureau — 2 operation(s) for aggregations.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The Aggregations API from Consumer Financial Protection Bureau — 2 operation(s) for aggregations.
   name: Consumer Financial Protection Bureau Aggregations API
   slug: consumer-financial-protection-bureau-aggregations-api
-- description: The CSV API from Consumer Financial Protection Bureau — 2 operation(s) for csv.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The CSV API from Consumer Financial Protection Bureau — 2 operation(s) for csv.
   name: Consumer Financial Protection Bureau CSV API
   slug: consumer-financial-protection-bureau-csv-api
-- description: The Filers API from Consumer Financial Protection Bureau — 1 operation(s) for filers.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The Filers API from Consumer Financial Protection Bureau — 1 operation(s) for filers.
   name: Consumer Financial Protection Bureau Filers API
   slug: consumer-financial-protection-bureau-filers-api
-- description: The Geo API from Consumer Financial Protection Bureau — 1 operation(s) for geo.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The Geo API from Consumer Financial Protection Bureau — 1 operation(s) for geo.
   name: Consumer Financial Protection Bureau Geo API
   slug: consumer-financial-protection-bureau-geo-api
-- description: The Institutions API from Consumer Financial Protection Bureau — 2 operation(s) for institutions.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The Institutions API from Consumer Financial Protection Bureau — 2 operation(s) for institutions.
   name: Consumer Financial Protection Bureau Institutions API
   slug: consumer-financial-protection-bureau-institutions-api
-- description: The Search API from Consumer Financial Protection Bureau — 3 operation(s) for search.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The Search API from Consumer Financial Protection Bureau — 3 operation(s) for search.
   name: Consumer Financial Protection Bureau Search API
   slug: consumer-financial-protection-bureau-search-api
-- description: The Trends API from Consumer Financial Protection Bureau — 1 operation(s) for trends.
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1
+  baseurl_source: declared
+  description: The Trends API from Consumer Financial Protection Bureau — 1 operation(s) for trends.
   name: Consumer Financial Protection Bureau Trends API
   slug: consumer-financial-protection-bureau-trends-api
 artifact_total: 28
@@ -278,7 +292,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/screenshots/consumer-financial-protection-bureau-2026-06-20T174916.png
 security:

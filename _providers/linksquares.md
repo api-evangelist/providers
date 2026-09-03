@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: User and group lifecycle management is offered through SCIM 2.0 provisioning on the Enterprise tier rather than a public REST endpoint. There is no documented public REST user-management API, base pat
   name: LinkSquares User and Group Provisioning (SCIM)
   slug: linksquares-scim-provisioning-api
-- description: Identity and status of the API user (confirmed).
+- baseURL: https://api.linksquares.com/api/analyze
+  baseurl_source: declared
+  description: Identity and status of the API user (confirmed).
   name: LinkSquares Account API
   slug: linksquares-account-api
-- description: Analyze agreements and document import/upload (confirmed).
+- baseURL: https://api.linksquares.com/api/analyze
+  baseurl_source: declared
+  description: Analyze agreements and document import/upload (confirmed).
   name: LinkSquares Agreements API
   slug: linksquares-agreements-api
-- description: Additional attachments on Analyze agreements (confirmed).
+- baseURL: https://api.linksquares.com/api/analyze
+  baseurl_source: declared
+  description: Additional attachments on Analyze agreements (confirmed).
   name: LinkSquares Attachments API
   slug: linksquares-attachments-api
-- description: Finalize templates, tasks, and agreement creation (MODELED paths).
+- baseURL: https://api.linksquares.com/api/analyze
+  baseurl_source: declared
+  description: Finalize templates, tasks, and agreement creation (MODELED paths).
   name: LinkSquares Finalize API
   slug: linksquares-finalize-api
-- description: Terms, Smart Values, hierarchy, and agreement types (confirmed).
+- baseURL: https://api.linksquares.com/api/analyze
+  baseurl_source: declared
+  description: Terms, Smart Values, hierarchy, and agreement types (confirmed).
   name: LinkSquares Metadata and Smart Values API
   slug: linksquares-metadata-and-smart-values-api
 artifact_total: 19
@@ -182,7 +192,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linksquares/refs/heads/main/screenshots/linksquares-2026-07-25T225259.png
 security:

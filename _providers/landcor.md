@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 2 acting
 api_count: 1
 apis:
-- description: The AVM Summary API from Landcor Data — 1 operation(s) for avm summary.
+- baseURL: https://api.landcor.com
+  baseurl_source: declared
+  description: The AVM Summary API from Landcor Data — 1 operation(s) for avm summary.
   name: Landcor Data AVM Summary API
   slug: landcor-avm-summary-api
-- description: The Comparables API from Landcor Data — 1 operation(s) for comparables.
+- baseURL: https://api.landcor.com
+  baseurl_source: declared
+  description: The Comparables API from Landcor Data — 1 operation(s) for comparables.
   name: Landcor Data Comparables API
   slug: landcor-comparables-api
-- description: The Health API from Landcor Data — 1 operation(s) for health.
+- baseURL: https://api.landcor.com
+  baseurl_source: declared
+  description: The Health API from Landcor Data — 1 operation(s) for health.
   name: Landcor Data Health API
   slug: landcor-health-api
-- description: The Property API from Landcor Data — 4 operation(s) for property.
+- baseURL: https://api.landcor.com
+  baseurl_source: declared
+  description: The Property API from Landcor Data — 4 operation(s) for property.
   name: Landcor Data Property API
   slug: landcor-property-api
-- description: The Valuation API from Landcor Data — 5 operation(s) for valuation.
+- baseURL: https://api.landcor.com
+  baseurl_source: declared
+  description: The Valuation API from Landcor Data — 5 operation(s) for valuation.
   name: Landcor Data Valuation API
   slug: landcor-valuation-api
 arazzos:
@@ -242,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

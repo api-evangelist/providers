@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +47,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: Bundled by Xoserve as the Supply Point Quantities service. Lets gas Shippers view the proposed Formula Year (Billing) Annual Quantity value for a meter point ahead of the late-March notification to th
+- baseURL: https://discoveryapi.correla.com/shipper/v1
+  baseurl_source: declared
+  description: Bundled by Xoserve as the Supply Point Quantities service. Lets gas Shippers view the proposed Formula Year (Billing) Annual Quantity value for a meter point ahead of the late-March notification to th
   name: Xoserve Shipper API
   slug: xoserve-shipper-api
-- description: Bundled by Xoserve as the Supply Point Enquiry service, part of the Gas Enquiry Service (GES). Exposes detailed supply meter point information, filtered by MPRN, address_id or postcode combined with o
+- baseURL: https://discoveryapi.correla.com/supplier/v1
+  baseurl_source: declared
+  description: Bundled by Xoserve as the Supply Point Enquiry service, part of the Gas Enquiry Service (GES). Exposes detailed supply meter point information, filtered by MPRN, address_id or postcode combined with o
   name: Xoserve Supplier API
   slug: xoserve-supplier-api
 artifact_total: 20
@@ -279,7 +297,7 @@ score:
     regime_id: energy_utilities
     score: 67.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/screenshots/xoserve-2026-08-17T083012.png
 security:

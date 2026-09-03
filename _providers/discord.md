@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -47,13 +47,19 @@ apis:
 - description: The Discord Gateway API provides persistent, stateful WebSocket connections between your client and Discord servers. These connections are used for sending and receiving real-time events your client c
   name: Discord Gateway API
   slug: discord-gateway-api
-- description: The Discord Interactions API enables applications to create and respond to application commands (slash commands), message components, and modals. It supports both Gateway-based and webhook-based inter
+- baseURL: https://discord.com/api/v10
+  baseurl_source: spec
+  description: The Discord Interactions API enables applications to create and respond to application commands (slash commands), message components, and modals. It supports both Gateway-based and webhook-based inter
   name: Discord Interactions API
   slug: discord-interactions-api
-- description: The Discord OAuth2 API enables application developers to build applications that utilize authentication and data from the Discord API. Discord supports the authorization code grant, the implicit grant
+- baseURL: https://discord.com/api/v10
+  baseurl_source: spec
+  description: The Discord OAuth2 API enables application developers to build applications that utilize authentication and data from the Discord API. Discord supports the authorization code grant, the implicit grant
   name: Discord OAuth2 API
   slug: discord-oauth2-api
-- description: The Discord Webhook Events API provides HTTP-based outgoing webhook events that allow applications to receive notifications for specific events without maintaining a persistent connection. Supported e
+- baseURL: https://discord.com/api/v10
+  baseurl_source: spec
+  description: The Discord Webhook Events API provides HTTP-based outgoing webhook events that allow applications to receive notifications for specific events without maintaining a persistent connection. Supported e
   name: Discord Webhook Events API
   slug: discord-webhook-events-api
 - description: 'The Discord Embedded App SDK lets you build rich, multiplayer experiences as Activities inside Discord. It handles RPC calls between your application and Discord, enabling interactive activities like '
@@ -65,70 +71,114 @@ apis:
 - description: The Discord Social SDK allows game developers to add rich social features into their games across desktop, mobile, and console platforms. It supports features like account linking, rich presence, lobb
   name: Discord Social SDK
   slug: discord-social-sdk
-- description: Manage global and guild application commands
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Manage global and guild application commands
   name: Discord Application Commands API
   slug: discord-application-commands-api
-- description: The Applications API from Discord — 12 operation(s) for applications.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Applications API from Discord — 12 operation(s) for applications.
   name: Discord Applications API
   slug: discord-applications-api
-- description: Operations on guild audit logs
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on guild audit logs
   name: Discord Audit Log API
   slug: discord-audit-log-api
-- description: Operations on auto moderation rules
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on auto moderation rules
   name: Discord Auto Moderation API
   slug: discord-auto-moderation-api
-- description: The Channels API from Discord — 26 operation(s) for channels.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Channels API from Discord — 26 operation(s) for channels.
   name: Discord Channels API
   slug: discord-channels-api
-- description: Operations on guild emojis
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on guild emojis
   name: Discord Emojis API
   slug: discord-emojis-api
-- description: The Gateway API from Discord — 2 operation(s) for gateway.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Gateway API from Discord — 2 operation(s) for gateway.
   name: Discord Gateway API
   slug: discord-gateway-api
-- description: The Guilds API from Discord — 45 operation(s) for guilds.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Guilds API from Discord — 45 operation(s) for guilds.
   name: Discord Guilds API
   slug: discord-guilds-api
-- description: Respond to interactions received from Discord
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Respond to interactions received from Discord
   name: Discord Interaction Responses API
   slug: discord-interaction-responses-api
-- description: The Invites API from Discord — 3 operation(s) for invites.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Invites API from Discord — 3 operation(s) for invites.
   name: Discord Invites API
   slug: discord-invites-api
-- description: Operations on guild members
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on guild members
   name: Discord Members API
   slug: discord-members-api
-- description: Operations on messages within channels
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on messages within channels
   name: Discord Messages API
   slug: discord-messages-api
-- description: Manage application role connection metadata
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Manage application role connection metadata
   name: Discord Role Connections API
   slug: discord-role-connections-api
-- description: Operations on guild roles
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on guild roles
   name: Discord Roles API
   slug: discord-roles-api
-- description: Operations on guild scheduled events
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Operations on guild scheduled events
   name: Discord Scheduled Events API
   slug: discord-scheduled-events-api
-- description: The Stage Instances API from Discord — 2 operation(s) for stage instances.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Stage Instances API from Discord — 2 operation(s) for stage instances.
   name: Discord Stage Instances API
   slug: discord-stage-instances-api
-- description: The Sticker Packs API from Discord — 1 operation(s) for sticker packs.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Sticker Packs API from Discord — 1 operation(s) for sticker packs.
   name: Discord Sticker Packs API
   slug: discord-sticker-packs-api
-- description: The Stickers API from Discord — 3 operation(s) for stickers.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Stickers API from Discord — 3 operation(s) for stickers.
   name: Discord Stickers API
   slug: discord-stickers-api
-- description: Retrieve current user information via OAuth2
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: Retrieve current user information via OAuth2
   name: Discord User Identity API
   slug: discord-user-identity-api
-- description: The Users API from Discord — 9 operation(s) for users.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Users API from Discord — 9 operation(s) for users.
   name: Discord Users API
   slug: discord-users-api
-- description: The Voice API from Discord — 1 operation(s) for voice.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Voice API from Discord — 1 operation(s) for voice.
   name: Discord Voice API
   slug: discord-voice-api
-- description: The Webhooks API from Discord — 8 operation(s) for webhooks.
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Webhooks API from Discord — 8 operation(s) for webhooks.
   name: Discord Webhooks API
   slug: discord-webhooks-api
 artifact_total: 550
@@ -1929,7 +1979,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -1942,7 +1992,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 46.9
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1951,7 +2001,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:

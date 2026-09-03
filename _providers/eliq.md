@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: The Eliq Auth API authenticates client applications and issues access tokens used to call the Insights, Data Management, and Intelligence APIs. It supports the credential flows required for utility-si
@@ -133,7 +133,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eliq/refs/heads/main/screenshots/eliq-2026-06-20T180608.png
 security:

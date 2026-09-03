@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 35 operations · 35 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Workspace API keys and auth tokens.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: Workspace API keys and auth tokens.
   name: Velt Auth API
   slug: velt-auth-api
-- description: Comment threads and annotations rendered by the SDK.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: Comment threads and annotations rendered by the SDK.
   name: Velt Comments API
   slug: velt-comments-api
-- description: Documents and folders that collaboration attaches to.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: Documents and folders that collaboration attaches to.
   name: Velt Documents API
   slug: velt-documents-api
-- description: Notifications and inbox/email configuration.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: Notifications and inbox/email configuration.
   name: Velt Notifications API
   slug: velt-notifications-api
-- description: Top-level tenancy boundary.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: Top-level tenancy boundary.
   name: Velt Organizations API
   slug: velt-organizations-api
-- description: End users and user-group membership.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: End users and user-group membership.
   name: Velt Users API
   slug: velt-users-api
-- description: Advanced webhook endpoints and event subscriptions.
+- baseURL: https://api.velt.dev/v2
+  baseurl_source: declared
+  description: Advanced webhook endpoints and event subscriptions.
   name: Velt Webhooks API
   slug: velt-webhooks-api
 artifact_total: 23
@@ -172,7 +186,7 @@ score:
   band: developing
   composite: 40.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +209,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/velt/refs/heads/main/screenshots/velt-2026-09-02T165630.png
 security:
 - kind: authentication
   name: Velt Authentication

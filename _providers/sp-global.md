@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 79 operations · 17 acting
 api_count: 5
 apis:
-- description: REST API and Model Context Protocol server exposing S&P Capital IQ Financials, Market Data, Business Relationships, Earnings Call Transcripts, Company Intelligence, M&A Transactions, and Global Securi
+- baseURL: https://kfinance.kensho.com
+  baseurl_source: declared
+  description: REST API and Model Context Protocol server exposing S&P Capital IQ Financials, Market Data, Business Relationships, Earnings Call Transcripts, Company Intelligence, M&A Transactions, and Global Securi
   name: S&P Global LLM-Ready API (kFinance)
   slug: kensho-llm-ready-api
-- description: 'Transforms unstructured PDF and image documents into machine-readable JSON, identifying titles, subtitles, paragraphs, tables, and footers in natural reading order. Optional OCR and Figure Extraction '
+- baseURL: https://extract.kensho.com
+  baseurl_source: declared
+  description: 'Transforms unstructured PDF and image documents into machine-readable JSON, identifying titles, subtitles, paragraphs, tables, and footers in natural reading order. Optional OCR and Figure Extraction '
   name: Kensho Extract API
   slug: kensho-extract-api
-- description: Named-Entity Recognition and Disambiguation REST service linking text mentions to S&P Capital IQ company identifiers and to Wikimedia entities (people, places, events). Supports asynchronous batch ann
+- baseURL: https://nerd.kensho.com
+  baseurl_source: declared
+  description: Named-Entity Recognition and Disambiguation REST service linking text mentions to S&P Capital IQ company identifiers and to Wikimedia entities (people, places, events). Supports asynchronous batch ann
   name: Kensho NERD API
   slug: kensho-nerd-api
-- description: Asynchronous audio and video transcription REST API. POST a media file to start a transcription job, then poll the transcription ID for completion. Optimised for finance and business audio (earnings c
+- baseURL: https://scribe.kensho.com
+  baseurl_source: declared
+  description: Asynchronous audio and video transcription REST API. POST a media file to start a transcription job, then poll the transcription ID for completion. Optimised for finance and business audio (earnings c
   name: Kensho Scribe Batch API v2
   slug: kensho-scribe-batch-v2-api
-- description: Real-time streaming transcription over a WebSocket at wss://scribe.kensho.com/ws. Clients send an Authenticate message with a Kensho OIDC access token, then StartTranscription with an audio_format (RA
+- baseURL: wss://scribe.kensho.com/ws
+  baseurl_source: declared
+  description: Real-time streaming transcription over a WebSocket at wss://scribe.kensho.com/ws. Clients send an Authenticate message with a Kensho OIDC access token, then StartTranscription with an audio_format (RA
   name: Kensho Scribe Real Time API
   slug: kensho-scribe-realtime-api
-- description: Legacy v1 batch transcription endpoint (POST /api/v1/transcription). Superseded by the v2 batch API which decouples submission from result retrieval. Documented here for customers on the v1 contract.
+- baseURL: https://scribe.kensho.com
+  baseurl_source: declared
+  description: Legacy v1 batch transcription endpoint (POST /api/v1/transcription). Superseded by the v2 batch API which decouples submission from result retrieval. Documented here for customers on the v1 contract.
   name: Kensho Scribe Batch API v1
   slug: kensho-scribe-batch-v1-api
 - description: Data retrieval service that translates natural-language queries into structured retrieval tasks across S&P Global AI-ready datasets. Returns answers with source citations linking back to the underlyin
@@ -896,7 +908,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -906,7 +918,7 @@ score:
     discoverability: 72.2
     governance: 47.0
     operational_transparency: 36.8
-  previous_composite: 67.3
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -918,7 +930,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: REST API for managing contacts, organizations, leads, opportunities, projects, tasks, events, products, price books, quotes, and custom objects in Insightly. Uses HTTP Basic authentication with a Base
   name: Insightly REST API v3.1
   slug: rest-api
-- description: The Contacts API from Insightly — 3 operation(s) for contacts.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Contacts API from Insightly — 3 operation(s) for contacts.
   name: Insightly Contacts API
   slug: insightly-contacts-api
-- description: The Leads API from Insightly — 1 operation(s) for leads.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Leads API from Insightly — 1 operation(s) for leads.
   name: Insightly Leads API
   slug: insightly-leads-api
-- description: The Opportunities API from Insightly — 1 operation(s) for opportunities.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Opportunities API from Insightly — 1 operation(s) for opportunities.
   name: Insightly Opportunities API
   slug: insightly-opportunities-api
-- description: The Organisations API from Insightly — 1 operation(s) for organisations.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Organisations API from Insightly — 1 operation(s) for organisations.
   name: Insightly Organisations API
   slug: insightly-organisations-api
-- description: The Products API from Insightly — 1 operation(s) for products.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Products API from Insightly — 1 operation(s) for products.
   name: Insightly Products API
   slug: insightly-products-api
-- description: The Projects API from Insightly — 1 operation(s) for projects.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Projects API from Insightly — 1 operation(s) for projects.
   name: Insightly Projects API
   slug: insightly-projects-api
-- description: The Quotations API from Insightly — 1 operation(s) for quotations.
+- baseURL: https://api.{pod}.insightly.com/v3.1
+  baseurl_source: declared
+  description: The Quotations API from Insightly — 1 operation(s) for quotations.
   name: Insightly Quotations API
   slug: insightly-quotations-api
 artifact_total: 21
@@ -185,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/screenshots/insightly-2026-06-20T183401.png
 security:

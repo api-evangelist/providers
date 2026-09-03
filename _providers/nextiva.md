@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: User login and token management operations.
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: User login and token management operations.
   name: Nextiva Authentication API
   slug: nextiva-authentication-api
-- description: Actions specific to managing calls within workitems
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: Actions specific to managing calls within workitems
   name: Nextiva Call Management API
   slug: nextiva-call-management-api
-- description: The Campaigns API from Nextiva — 1 operation(s) for campaigns.
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: The Campaigns API from Nextiva — 1 operation(s) for campaigns.
   name: Nextiva Campaigns API
   slug: nextiva-campaigns-api
-- description: Operations related to conversations
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: Operations related to conversations
   name: Nextiva Conversations API
   slug: nextiva-conversations-api
-- description: DTMF tone sending for calls
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: DTMF tone sending for calls
   name: Nextiva DTMF API
   slug: nextiva-dtmf-api
-- description: Email-related workitem operations
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: Email-related workitem operations
   name: Nextiva Email API
   slug: nextiva-email-api
-- description: Operations for sending and managing SMS messages.
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: Operations for sending and managing SMS messages.
   name: Nextiva SMS Messaging API
   slug: nextiva-sms-messaging-api
-- description: The Tickets API from Nextiva — 1 operation(s) for tickets.
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: The Tickets API from Nextiva — 1 operation(s) for tickets.
   name: Nextiva Tickets API
   slug: nextiva-tickets-api
-- description: Operations for transferring workitems
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: Operations for transferring workitems
   name: Nextiva Transfers API
   slug: nextiva-transfers-api
-- description: The Workitems API from Nextiva — 4 operation(s) for workitems.
+- baseURL: https://api.nextiva.com
+  baseurl_source: declared
+  description: The Workitems API from Nextiva — 4 operation(s) for workitems.
   name: Nextiva Workitems API
   slug: nextiva-workitems-api
 artifact_total: 20
@@ -246,7 +277,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -256,7 +287,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     conformance: derived
     contracts:
@@ -273,7 +304,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/screenshots/nextiva-2026-08-07T185215.png
 security:

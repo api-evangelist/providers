@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 260 operations · 181 acting · 3 human-in-the-loop
 api_count: 25
 apis:
-- description: Use these endpoints for interacting with Blog Posts, Blog Authors, and Blog Tags.
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Use these endpoints for interacting with Blog Posts, Blog Authors, and Blog Tags.
   name: HubSpot Posts API
   slug: hubspot-posts-api
 - description: 'URL redirects allow you to redirect traffic from a HubSpot-hosted page or blog post to any URL. You can also update URL redirects in bulk and use a flexible pattern redirect to dynamically update the '
@@ -84,7 +86,9 @@ apis:
 - description: The workflows API allows you to programmatically create, retrieve, update, and delete HubSpot automation workflows. You can manage workflow definitions and automate business processes across CRM objec
   name: HubSpot Workflows API
   slug: hubspot-workflows-api
-- description: The webhooks API allows you to subscribe to events occurring in a HubSpot account, receiving real-time notifications when CRM objects or conversations are created, updated, or deleted. You can configu
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: The webhooks API allows you to subscribe to events occurring in a HubSpot account, receiving real-time notifications when CRM objects or conversations are created, updated, or deleted. You can configu
   name: HubSpot Webhooks API
   slug: hubspot-webhooks-api
 - description: The user provisioning API allows you to create and manage users in a HubSpot account along with their roles, permissions, and team assignments. You can add, retrieve, update, and remove users programm
@@ -159,169 +163,279 @@ apis:
 - description: The currencies API allows you to manage the currencies used in your HubSpot account. You can set your account's company currency, create additional currencies, update exchange rates, and configure aut
   name: HubSpot Currencies API
   slug: hubspot-currencies-api
-- description: Operations for retrieving and validating OAuth access token metadata
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for retrieving and validating OAuth access token metadata
   name: HubSpot Access Tokens API
   slug: hubspot-access-tokens-api
-- description: Operations to create and manage custom workflow action definitions
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations to create and manage custom workflow action definitions
   name: HubSpot Action Definitions API
   slug: hubspot-action-definitions-api
-- description: Operations to manage serverless functions associated with action definitions
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations to manage serverless functions associated with action definitions
   name: HubSpot Action Functions API
   slug: hubspot-action-functions-api
-- description: Operations for managing conversation participants including visitors and agents.
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing conversation participants including visitors and agents.
   name: HubSpot Actors API
   slug: hubspot-actors-api
-- description: Manage feature flag configurations at the application level
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Manage feature flag configurations at the application level
   name: HubSpot Application Feature Flags API
   slug: hubspot-application-feature-flags-api
-- description: Create, update, and delete custom labels for association types
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Create, update, and delete custom labels for association types
   name: HubSpot Association Label Management API
   slug: hubspot-association-label-management-api
-- description: Retrieve and manage association type definitions across object types
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Retrieve and manage association type definitions across object types
   name: HubSpot Association Type Definitions API
   slug: hubspot-association-type-definitions-api
-- description: Operations for managing subscription associations
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing subscription associations
   name: HubSpot Associations API
   slug: hubspot-associations-api
-- description: Create, read, update, and delete individual call records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Create, read, update, and delete individual call records
   name: HubSpot Basic Operations API
   slug: hubspot-basic-operations-api
-- description: Batch operations for subscriptions
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Batch operations for subscriptions
   name: HubSpot Batch API
   slug: hubspot-batch-api
-- description: Perform bulk create, read, and archive operations on multiple associations
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Perform bulk create, read, and archive operations on multiple associations
   name: HubSpot Batch Association Operations API
   slug: hubspot-batch-association-operations-api
-- description: Perform bulk operations on multiple blog authors simultaneously
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Perform bulk operations on multiple blog authors simultaneously
   name: HubSpot Batch Operations API
   slug: hubspot-batch-operations-api
-- description: Perform bulk operations on portal flag states
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Perform bulk operations on portal flag states
   name: HubSpot Batch Portal Operations API
   slug: hubspot-batch-portal-operations-api
-- description: Create, read, update, and delete individual blog author profiles
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Create, read, update, and delete individual blog author profiles
   name: HubSpot Blog Authors API
   slug: hubspot-blog-authors-api
-- description: Operations for managing communication channels such as email, chat, and social media.
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing communication channels such as email, chat, and social media.
   name: HubSpot Channels API
   slug: hubspot-channels-api
-- description: Operations for managing company records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing company records
   name: HubSpot Companies API
   slug: hubspot-companies-api
-- description: Operations for managing contact records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing contact records
   name: HubSpot Contacts API
   slug: hubspot-contacts-api
-- description: Operations for managing deal records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing deal records
   name: HubSpot Deals API
   slug: hubspot-deals-api
-- description: Operations to view revision history of action definitions
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations to view revision history of action definitions
   name: HubSpot Definition Revisions API
   slug: hubspot-definition-revisions-api
-- description: Operations for managing and retrieving domain information
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing and retrieving domain information
   name: HubSpot Domain Management API
   slug: hubspot-domain-management-api
-- description: Manage blog post drafts and revision history
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Manage blog post drafts and revision history
   name: HubSpot Drafts and Revisions API
   slug: hubspot-drafts-and-revisions-api
-- description: Operations for managing email engagement records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing email engagement records
   name: HubSpot Emails API
   slug: hubspot-emails-api
-- description: Retrieve and query event completion data from CRM objects
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Retrieve and query event completion data from CRM objects
   name: HubSpot Event Instances API
   slug: hubspot-event-instances-api
-- description: Discover and retrieve available event type definitions
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Discover and retrieve available event type definitions
   name: HubSpot Event Types API
   slug: hubspot-event-types-api
-- description: Operations for downloading, creating, updating, and deleting source code files
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for downloading, creating, updating, and deleting source code files
   name: HubSpot File Content API
   slug: hubspot-file-content-api
-- description: Operations for extracting zip archives in the developer file system
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for extracting zip archives in the developer file system
   name: HubSpot File Extraction API
   slug: hubspot-file-extraction-api
-- description: Operations for retrieving file and folder metadata
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for retrieving file and folder metadata
   name: HubSpot File Metadata API
   slug: hubspot-file-metadata-api
-- description: Operations for validating source code files
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for validating source code files
   name: HubSpot File Validation API
   slug: hubspot-file-validation-api
-- description: GDPR-compliant data management operations
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: GDPR-compliant data management operations
   name: HubSpot GDPR Compliance API
   slug: hubspot-gdpr-compliance-api
-- description: Operations for managing conversation inboxes where messages are organized and routed.
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing conversation inboxes where messages are organized and routed.
   name: HubSpot Inboxes API
   slug: hubspot-inboxes-api
-- description: Operations for managing landing pages
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing landing pages
   name: HubSpot Landing Pages API
   slug: hubspot-landing-pages-api
-- description: Operations for managing CRM lists
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing CRM lists
   name: HubSpot Lists API
   slug: hubspot-lists-api
-- description: Operations for managing meeting engagement records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing meeting engagement records
   name: HubSpot Meetings API
   slug: hubspot-meetings-api
-- description: Operations for managing list memberships
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing list memberships
   name: HubSpot Memberships API
   slug: hubspot-memberships-api
-- description: Operations for sending, receiving, and managing messages within conversation threads.
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for sending, receiving, and managing messages within conversation threads.
   name: HubSpot Messages API
   slug: hubspot-messages-api
-- description: Manage multi-language author groups and language variations
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Manage multi-language author groups and language variations
   name: HubSpot Multi-Language Management API
   slug: hubspot-multi-language-management-api
-- description: Create, retrieve, and delete associations between individual CRM objects
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Create, retrieve, and delete associations between individual CRM objects
   name: HubSpot Object Associations API
   slug: hubspot-object-associations-api
-- description: Advanced search operations for finding and filtering commerce payments
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Advanced search operations for finding and filtering commerce payments
   name: HubSpot Payment Search API
   slug: hubspot-payment-search-api
-- description: Manage feature flag states for specific portals (HubSpot accounts)
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Manage feature flag states for specific portals (HubSpot accounts)
   name: HubSpot Portal Flag States API
   slug: hubspot-portal-flag-states-api
-- description: Clone and duplicate existing blog posts
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Clone and duplicate existing blog posts
   name: HubSpot Post Cloning API
   slug: hubspot-post-cloning-api
-- description: Schedule publication and manage post visibility
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Schedule publication and manage post visibility
   name: HubSpot Publishing and Scheduling API
   slug: hubspot-publishing-and-scheduling-api
-- description: Operations for managing OAuth refresh tokens
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing OAuth refresh tokens
   name: HubSpot Refresh Tokens API
   slug: hubspot-refresh-tokens-api
-- description: Operations for managing HubDB table rows
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing HubDB table rows
   name: HubSpot Rows API
   slug: hubspot-rows-api
-- description: Operations for searching CRM objects
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for searching CRM objects
   name: HubSpot Search API
   slug: hubspot-search-api
-- description: CRUD operations for individual commerce payment records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: CRUD operations for individual commerce payment records
   name: HubSpot Single Payment Operations API
   slug: hubspot-single-payment-operations-api
-- description: Send individual transactional emails using templates
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Send individual transactional emails using templates
   name: HubSpot Single Send API
   slug: hubspot-single-send-api
-- description: Operations for managing site pages
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing site pages
   name: HubSpot Site Pages API
   slug: hubspot-site-pages-api
-- description: Create, query, and manage SMTP API tokens for transactional email sending
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Create, query, and manage SMTP API tokens for transactional email sending
   name: HubSpot SMTP Token Management API
   slug: hubspot-smtp-token-management-api
-- description: Operations for managing subscription records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing subscription records
   name: HubSpot Subscriptions API
   slug: hubspot-subscriptions-api
-- description: Operations for managing HubDB tables
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing HubDB tables
   name: HubSpot Tables API
   slug: hubspot-tables-api
-- description: Operations for managing task engagement records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing task engagement records
   name: HubSpot Tasks API
   slug: hubspot-tasks-api
-- description: Operations for creating, retrieving, updating, and archiving conversation threads.
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and archiving conversation threads.
   name: HubSpot Threads API
   slug: hubspot-threads-api
-- description: Operations for managing ticket records
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for managing ticket records
   name: HubSpot Tickets API
   slug: hubspot-tickets-api
-- description: Operations for creating, refreshing, and managing OAuth tokens
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations for creating, refreshing, and managing OAuth tokens
   name: HubSpot Token Management API
   slug: hubspot-token-management-api
-- description: Operations to complete workflow action callbacks for asynchronous actions
+- baseURL: https://api.hubapi.com
+  baseurl_source: declared
+  description: Operations to complete workflow action callbacks for asynchronous actions
   name: HubSpot Workflow Callbacks API
   slug: hubspot-workflow-callbacks-api
 arazzos:
@@ -8265,7 +8379,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -8275,7 +8389,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 71.1
-  previous_composite: 80.4
+  previous_composite: 80.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -8287,7 +8401,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 49 operations · 27 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: Create and manage sub-merchant accounts.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Create and manage sub-merchant accounts.
   name: dLocal Accounts API
   slug: d-local-accounts-api
-- description: Inspect available merchant balance for payouts.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Inspect available merchant balance for payouts.
   name: dLocal Balance API
   slug: d-local-balance-api
-- description: Manage bank accounts attached to sub-merchant accounts.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Manage bank accounts attached to sub-merchant accounts.
   name: dLocal BankAccounts API
   slug: d-local-bankaccounts-api
-- description: Upload and retrieve verification documents.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Upload and retrieve verification documents.
   name: dLocal Documents API
   slug: d-local-documents-api
-- description: Retrieve real-time FX rates.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Retrieve real-time FX rates.
   name: dLocal ExchangeRates API
   slug: d-local-exchangerates-api
-- description: Submit KYC data and documents for accounts.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Submit KYC data and documents for accounts.
   name: dLocal KYC API
   slug: d-local-kyc-api
-- description: Request, retrieve, release, and cancel payouts.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Request, retrieve, release, and cancel payouts.
   name: dLocal Payouts API
   slug: d-local-payouts-api
-- description: Lock in an FX quote before requesting a payout.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Lock in an FX quote before requesting a payout.
   name: dLocal Quotes API
   slug: d-local-quotes-api
-- description: Settle and transfer between accounts.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Settle and transfer between accounts.
   name: dLocal Transfers API
   slug: d-local-transfers-api
-- description: Create and inspect KYC verifications.
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Create and inspect KYC verifications.
   name: dLocal Verifications API
   slug: d-local-verifications-api
 arazzos:
@@ -698,7 +718,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:

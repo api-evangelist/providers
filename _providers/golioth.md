@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -80,103 +80,169 @@ apis:
 - description: Non-IP device-to-cloud transport protocol from Golioth, with a companion Bluetooth gateway reference implementation (pouch-gateway) for relaying pouch traffic to the Golioth cloud.
   name: Golioth Pouch
   slug: pouch
-- description: The Access API from Golioth — 6 operation(s) for access.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Access API from Golioth — 6 operation(s) for access.
   name: Golioth Access API
   slug: golioth-access-api
-- description: The API Keys API from Golioth — 2 operation(s) for api keys.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The API Keys API from Golioth — 2 operation(s) for api keys.
   name: Golioth API Keys API
   slug: golioth-api-keys-api
-- description: The Artifacts API from Golioth — 3 operation(s) for artifacts.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Artifacts API from Golioth — 3 operation(s) for artifacts.
   name: Golioth Artifacts API
   slug: golioth-artifacts-api
-- description: The Billing API from Golioth — 1 operation(s) for billing.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Billing API from Golioth — 1 operation(s) for billing.
   name: Golioth Billing API
   slug: golioth-billing-api
-- description: The Blueprints API from Golioth — 2 operation(s) for blueprints.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Blueprints API from Golioth — 2 operation(s) for blueprints.
   name: Golioth Blueprints API
   slug: golioth-blueprints-api
-- description: The Boards API from Golioth — 2 operation(s) for boards.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Boards API from Golioth — 2 operation(s) for boards.
   name: Golioth Boards API
   slug: golioth-boards-api
-- description: The Certificates API from Golioth — 2 operation(s) for certificates.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Certificates API from Golioth — 2 operation(s) for certificates.
   name: Golioth Certificates API
   slug: golioth-certificates-api
-- description: The Cohorts API from Golioth — 2 operation(s) for cohorts.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Cohorts API from Golioth — 2 operation(s) for cohorts.
   name: Golioth Cohorts API
   slug: golioth-cohorts-api
-- description: The Credentials API from Golioth — 4 operation(s) for credentials.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Credentials API from Golioth — 4 operation(s) for credentials.
   name: Golioth Credentials API
   slug: golioth-credentials-api
-- description: The Deployments API from Golioth — 2 operation(s) for deployments.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Deployments API from Golioth — 2 operation(s) for deployments.
   name: Golioth Deployments API
   slug: golioth-deployments-api
-- description: The Devices API from Golioth — 2 operation(s) for devices.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Devices API from Golioth — 2 operation(s) for devices.
   name: Golioth Devices API
   slug: golioth-devices-api
-- description: The Firmware API from Golioth — 1 operation(s) for firmware.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Firmware API from Golioth — 1 operation(s) for firmware.
   name: Golioth Firmware API
   slug: golioth-firmware-api
-- description: The Integrations API from Golioth — 5 operation(s) for integrations.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Integrations API from Golioth — 5 operation(s) for integrations.
   name: Golioth Integrations API
   slug: golioth-integrations-api
-- description: The LightDB API from Golioth — 2 operation(s) for lightdb.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The LightDB API from Golioth — 2 operation(s) for lightdb.
   name: Golioth LightDB API
   slug: golioth-lightdb-api
-- description: The LightDB Stream API from Golioth — 2 operation(s) for lightdb stream.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The LightDB Stream API from Golioth — 2 operation(s) for lightdb stream.
   name: Golioth LightDB Stream API
   slug: golioth-lightdb-stream-api
-- description: The Location API from Golioth — 1 operation(s) for location.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Location API from Golioth — 1 operation(s) for location.
   name: Golioth Location API
   slug: golioth-location-api
-- description: The Logs API from Golioth — 2 operation(s) for logs.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Logs API from Golioth — 2 operation(s) for logs.
   name: Golioth Logs API
   slug: golioth-logs-api
-- description: The Networks API from Golioth — 4 operation(s) for networks.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Networks API from Golioth — 4 operation(s) for networks.
   name: Golioth Networks API
   slug: golioth-networks-api
-- description: The Notifications API from Golioth — 1 operation(s) for notifications.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Notifications API from Golioth — 1 operation(s) for notifications.
   name: Golioth Notifications API
   slug: golioth-notifications-api
-- description: The Organizations API from Golioth — 2 operation(s) for organizations.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Organizations API from Golioth — 2 operation(s) for organizations.
   name: Golioth Organizations API
   slug: golioth-organizations-api
-- description: The OTAEvents API from Golioth — 2 operation(s) for otaevents.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The OTAEvents API from Golioth — 2 operation(s) for otaevents.
   name: Golioth OTAEvents API
   slug: golioth-otaevents-api
-- description: The Packages API from Golioth — 2 operation(s) for packages.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Packages API from Golioth — 2 operation(s) for packages.
   name: Golioth Packages API
   slug: golioth-packages-api
-- description: The Pipelines API from Golioth — 5 operation(s) for pipelines.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Pipelines API from Golioth — 5 operation(s) for pipelines.
   name: Golioth Pipelines API
   slug: golioth-pipelines-api
-- description: The PKI API from Golioth — 5 operation(s) for pki.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The PKI API from Golioth — 5 operation(s) for pki.
   name: Golioth PKI API
   slug: golioth-pki-api
-- description: The Project Config API from Golioth — 2 operation(s) for project config.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Project Config API from Golioth — 2 operation(s) for project config.
   name: Golioth Project Config API
   slug: golioth-project-config-api
-- description: The Projects API from Golioth — 2 operation(s) for projects.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Projects API from Golioth — 2 operation(s) for projects.
   name: Golioth Projects API
   slug: golioth-projects-api
-- description: The Provisioning API from Golioth — 2 operation(s) for provisioning.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Provisioning API from Golioth — 2 operation(s) for provisioning.
   name: Golioth Provisioning API
   slug: golioth-provisioning-api
-- description: The Releases API from Golioth — 2 operation(s) for releases.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Releases API from Golioth — 2 operation(s) for releases.
   name: Golioth Releases API
   slug: golioth-releases-api
-- description: The Remote Procedure Call API from Golioth — 1 operation(s) for remote procedure call.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Remote Procedure Call API from Golioth — 1 operation(s) for remote procedure call.
   name: Golioth Remote Procedure Call API
   slug: golioth-remote-procedure-call-api
-- description: The Secrets API from Golioth — 2 operation(s) for secrets.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Secrets API from Golioth — 2 operation(s) for secrets.
   name: Golioth Secrets API
   slug: golioth-secrets-api
-- description: The Settings API from Golioth — 4 operation(s) for settings.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Settings API from Golioth — 4 operation(s) for settings.
   name: Golioth Settings API
   slug: golioth-settings-api
-- description: The Tags API from Golioth — 2 operation(s) for tags.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Tags API from Golioth — 2 operation(s) for tags.
   name: Golioth Tags API
   slug: golioth-tags-api
-- description: The Usage API from Golioth — 5 operation(s) for usage.
+- baseURL: https://api.golioth.io
+  baseurl_source: declared
+  description: The Usage API from Golioth — 5 operation(s) for usage.
   name: Golioth Usage API
   slug: golioth-usage-api
 artifact_total: 99
@@ -485,7 +551,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/screenshots/golioth-2026-06-20T181951.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: The Job Board API enables job board partners to integrate SmartRecruiters job postings directly into their platforms with real-time synchronization.
   name: SmartRecruiters Job Board API
   slug: job-board-api
-- description: The Applications API from SmartRecruiters — 3 operation(s) for applications.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Applications API from SmartRecruiters — 3 operation(s) for applications.
   name: SmartRecruiters Applications API
   slug: smartrecruiters-applications-api
-- description: The Candidates API from SmartRecruiters — 6 operation(s) for candidates.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Candidates API from SmartRecruiters — 6 operation(s) for candidates.
   name: SmartRecruiters Candidates API
   slug: smartrecruiters-candidates-api
-- description: The Documents API from SmartRecruiters — 1 operation(s) for documents.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Documents API from SmartRecruiters — 1 operation(s) for documents.
   name: SmartRecruiters Documents API
   slug: smartrecruiters-documents-api
-- description: The Jobs API from SmartRecruiters — 5 operation(s) for jobs.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Jobs API from SmartRecruiters — 5 operation(s) for jobs.
   name: SmartRecruiters Jobs API
   slug: smartrecruiters-jobs-api
-- description: The Messages API from SmartRecruiters — 1 operation(s) for messages.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Messages API from SmartRecruiters — 1 operation(s) for messages.
   name: SmartRecruiters Messages API
   slug: smartrecruiters-messages-api
-- description: The Postings API from SmartRecruiters — 2 operation(s) for postings.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Postings API from SmartRecruiters — 2 operation(s) for postings.
   name: SmartRecruiters Postings API
   slug: smartrecruiters-postings-api
-- description: The Teams API from SmartRecruiters — 1 operation(s) for teams.
+- baseURL: https://api.smartrecruiters.com
+  baseurl_source: declared
+  description: The Teams API from SmartRecruiters — 1 operation(s) for teams.
   name: SmartRecruiters Teams API
   slug: smartrecruiters-teams-api
 artifact_total: 66
@@ -358,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/screenshots/smartrecruiters-2026-06-20T194047.png
 security:

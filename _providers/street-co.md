@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -33,133 +46,219 @@ agentic_access:
   summary_line: 94 operations · 19 acting
 api_count: 6
 apis:
-- description: Activity endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Activity endpoints for this API.
   name: Street.co.uk Activity API
   slug: street-co-activity-api
-- description: Applicants endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Applicants endpoints for this API.
   name: Street.co.uk Applicants API
   slug: street-co-applicants-api
-- description: Area endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Area endpoints for this API.
   name: Street.co.uk Areas API
   slug: street-co-areas-api
-- description: Branches endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Branches endpoints for this API.
   name: Street.co.uk Branches API
   slug: street-co-branches-api
-- description: Brands endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Brands endpoints for this API.
   name: Street.co.uk Brands API
   slug: street-co-brands-api
-- description: Companies endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Companies endpoints for this API.
   name: Street.co.uk Companies API
   slug: street-co-companies-api
-- description: Documents endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Documents endpoints for this API.
   name: Street.co.uk Documents API
   slug: street-co-documents-api
-- description: E-Sign Documents endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: E-Sign Documents endpoints for this API.
   name: Street.co.uk E-Sign Documents API
   slug: street-co-e-sign-documents-api
-- description: The Email API from Street.co.uk — 2 operation(s) for email.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: The Email API from Street.co.uk — 2 operation(s) for email.
   name: Street.co.uk Email API
   slug: street-co-email-api
-- description: Enquiries endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Enquiries endpoints for this API.
   name: Street.co.uk Enquiries API
   slug: street-co-enquiries-api
-- description: Follow Ups endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Follow Ups endpoints for this API.
   name: Street.co.uk Follow Ups API
   slug: street-co-follow-ups-api
-- description: Image endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Image endpoints for this API.
   name: Street.co.uk Images API
   slug: street-co-images-api
-- description: Inspections endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Inspections endpoints for this API.
   name: Street.co.uk Inspections API
   slug: street-co-inspections-api
-- description: Interested Applicants endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Interested Applicants endpoints for this API.
   name: Street.co.uk Interested Applicants API
   slug: street-co-interested-applicants-api
-- description: Invoices endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Invoices endpoints for this API.
   name: Street.co.uk Invoices API
   slug: street-co-invoices-api
-- description: Landlords endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Landlords endpoints for this API.
   name: Street.co.uk Landlords API
   slug: street-co-landlords-api
-- description: These are the lettings specific API Endpoints.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: These are the lettings specific API Endpoints.
   name: Street.co.uk Lettings API
   slug: street-co-lettings-api
-- description: Lettings Application endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Lettings Application endpoints for this API.
   name: Street.co.uk Lettings Applications API
   slug: street-co-lettings-applications-api
-- description: Lettings Instruction endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Lettings Instruction endpoints for this API.
   name: Street.co.uk Lettings Instructions API
   slug: street-co-lettings-instructions-api
-- description: Lettings Offers endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Lettings Offers endpoints for this API.
   name: Street.co.uk Lettings Offers API
   slug: street-co-lettings-offers-api
-- description: Maintenance Jobs endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Maintenance Jobs endpoints for this API.
   name: Street.co.uk Maintenance Jobs API
   slug: street-co-maintenance-jobs-api
-- description: Maintenance Request endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Maintenance Request endpoints for this API.
   name: Street.co.uk Maintenance Requests API
   slug: street-co-maintenance-requests-api
-- description: These are specific API Endpoints for retrieving meta information such as Areas or Features.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: These are specific API Endpoints for retrieving meta information such as Areas or Features.
   name: Street.co.uk Meta API
   slug: street-co-meta-api
-- description: Move Outs endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Move Outs endpoints for this API.
   name: Street.co.uk Move Outs API
   slug: street-co-move-outs-api
-- description: Notes endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Notes endpoints for this API.
   name: Street.co.uk Notes API
   slug: street-co-notes-api
-- description: People endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: People endpoints for this API.
   name: Street.co.uk People API
   slug: street-co-people-api
-- description: Photo and Measure endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Photo and Measure endpoints for this API.
   name: Street.co.uk Photos and Measures API
   slug: street-co-photos-and-measures-api
-- description: Portal Listings endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Portal Listings endpoints for this API.
   name: Street.co.uk Portal Listings API
   slug: street-co-portal-listings-api
-- description: Properties endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Properties endpoints for this API.
   name: Street.co.uk Properties API
   slug: street-co-properties-api
-- description: Property Key endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Property Key endpoints for this API.
   name: Street.co.uk Property Keys API
   slug: street-co-property-keys-api
-- description: All endpoints for Spectre Property Reports
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: All endpoints for Spectre Property Reports
   name: Street.co.uk Property Reports API
   slug: street-co-property-reports-api
-- description: Questionnaire Response endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Questionnaire Response endpoints for this API.
   name: Street.co.uk Questionnaire Responses API
   slug: street-co-questionnaire-responses-api
-- description: Sales endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Sales endpoints for this API.
   name: Street.co.uk Sales API
   slug: street-co-sales-api
-- description: Sales Instructions endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Sales Instructions endpoints for this API.
   name: Street.co.uk Sales Instructions API
   slug: street-co-sales-instructions-api
-- description: Sales Offers endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Sales Offers endpoints for this API.
   name: Street.co.uk Sales Offers API
   slug: street-co-sales-offers-api
-- description: Solicitors endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Solicitors endpoints for this API.
   name: Street.co.uk Solicitors API
   slug: street-co-solicitors-api
-- description: Tasks endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Tasks endpoints for this API.
   name: Street.co.uk Tasks API
   slug: street-co-tasks-api
-- description: Tenancies endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Tenancies endpoints for this API.
   name: Street.co.uk Tenancies API
   slug: street-co-tenancies-api
-- description: Tenants endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Tenants endpoints for this API.
   name: Street.co.uk Tenants API
   slug: street-co-tenants-api
-- description: Users endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Users endpoints for this API.
   name: Street.co.uk Users API
   slug: street-co-users-api
-- description: Valuations endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Valuations endpoints for this API.
   name: Street.co.uk Valuations API
   slug: street-co-valuations-api
-- description: Vendors endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Vendors endpoints for this API.
   name: Street.co.uk Vendors API
   slug: street-co-vendors-api
-- description: Viewings endpoints for this API.
+- baseURL: https://street.co.uk/open-api/v1
+  baseurl_source: declared
+  description: Viewings endpoints for this API.
   name: Street.co.uk Viewings API
   slug: street-co-viewings-api
 artifact_total: 52
@@ -383,7 +482,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -393,7 +492,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 55.0
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -405,7 +504,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/street-co/refs/heads/main/screenshots/street-co-2026-08-17T082136.png
 security:

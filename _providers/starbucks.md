@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 1
 apis:
-- description: Starbucks Rewards loyalty program operations
+- baseURL: https://api.starbucks.com
+  baseurl_source: spec
+  description: Starbucks Rewards loyalty program operations
   name: Starbucks Loyalty API
   slug: starbucks-loyalty-api
-- description: Menu categories and items operations
+- baseURL: https://api.starbucks.com
+  baseurl_source: spec
+  description: Menu categories and items operations
   name: Starbucks Menu API
   slug: starbucks-menu-api
-- description: Ordering and cart management operations
+- baseURL: https://api.starbucks.com
+  baseurl_source: spec
+  description: Ordering and cart management operations
   name: Starbucks Orders API
   slug: starbucks-orders-api
-- description: API health and status operations
+- baseURL: https://api.starbucks.com
+  baseurl_source: spec
+  description: API health and status operations
   name: Starbucks Status API
   slug: starbucks-status-api
-- description: Store location and search operations
+- baseURL: https://api.starbucks.com
+  baseurl_source: spec
+  description: Store location and search operations
   name: Starbucks Stores API
   slug: starbucks-stores-api
 artifact_total: 31
@@ -279,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png
 security:

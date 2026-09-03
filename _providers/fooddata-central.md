@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ apis:
 - description: National Nutrient Database for Standard Reference
   name: FoodData Central
   slug: fooddata-central
-- description: endpoints to retrieve nutrient data
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: endpoints to retrieve nutrient data
   name: FoodData Central FDC API
   slug: fooddata-fdc-api
 artifact_total: 17
@@ -247,7 +249,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fooddata-central/refs/heads/main/screenshots/fooddata-central-2026-06-20T181402.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Six agent-native Model Context Protocol (MCP) servers over the Roadie API - api-docs-query, backend-config, catalog-decorators, rich-catalog-entity, scaffolder-use, and tech-insights-facts - letting A
   name: Roadie MCP Servers
   slug: roadie-io-mcp-servers
-- description: Read Backstage software catalog entities in your Roadie tenant.
+- baseURL: https://api.roadie.so/api/catalog
+  baseurl_source: declared
+  description: Read Backstage software catalog entities in your Roadie tenant.
   name: Roadie Catalog API
   slug: roadie-io-catalog-api
-- description: Create, delete, and idempotently manage Roadie-owned catalog entities and entity sets.
+- baseURL: https://api.roadie.so/api/catalog
+  baseurl_source: declared
+  description: Create, delete, and idempotently manage Roadie-owned catalog entities and entity sets.
   name: Roadie Entity Push API
   slug: roadie-io-entity-push-api
-- description: Backstage software templates - discover, dry-run, execute, and track scaffolder tasks.
+- baseURL: https://api.roadie.so/api/catalog
+  baseurl_source: declared
+  description: Backstage software templates - discover, dry-run, execute, and track scaffolder tasks.
   name: Roadie Scaffolder API
   slug: roadie-io-scaffolder-api
-- description: Facts, checks, and scorecards describing entity quality and compliance.
+- baseURL: https://api.roadie.so/api/catalog
+  baseurl_source: declared
+  description: Facts, checks, and scorecards describing entity quality and compliance.
   name: Roadie Tech Insights API
   slug: roadie-io-tech-insights-api
-- description: Technical documentation (docs-like-code) metadata and static content. Modeled from Backstage.
+- baseURL: https://api.roadie.so/api/catalog
+  baseurl_source: declared
+  description: Technical documentation (docs-like-code) metadata and static content. Modeled from Backstage.
   name: Roadie TechDocs API
   slug: roadie-io-techdocs-api
 artifact_total: 18
@@ -151,7 +161,7 @@ score:
   band: thin
   composite: 37.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -174,8 +184,9 @@ score:
       marker_coverage: 20.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/screenshots/roadie-io-2026-09-02T153952.png
 security:
 - kind: authentication
   name: Roadie Io Authentication

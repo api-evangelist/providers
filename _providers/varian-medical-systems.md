@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: The legacy ARIA Access API provides SOAP and REST access to core ARIA entities including patients, appointments, prescriptions, treatment plans, orders, and administrative data. Deployed on-premise wi
   name: ARIA Access API
   slug: aria-access-api
-- description: Patient allergy and intolerance records
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Patient allergy and intolerance records
   name: Varian Medical Systems AllergyIntolerance API
   slug: varian-medical-systems-allergyintolerance-api
-- description: Oncology treatment and care plans
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Oncology treatment and care plans
   name: Varian Medical Systems CarePlan API
   slug: varian-medical-systems-careplan-api
-- description: Cancer diagnoses and clinical conditions
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Cancer diagnoses and clinical conditions
   name: Varian Medical Systems Condition API
   slug: varian-medical-systems-condition-api
-- description: Pathology, imaging, and treatment reports
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Pathology, imaging, and treatment reports
   name: Varian Medical Systems DiagnosticReport API
   slug: varian-medical-systems-diagnosticreport-api
-- description: Clinical document management
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Clinical document management
   name: Varian Medical Systems DocumentReference API
   slug: varian-medical-systems-documentreference-api
-- description: Treatment goals and objectives
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Treatment goals and objectives
   name: Varian Medical Systems Goal API
   slug: varian-medical-systems-goal-api
-- description: Chemotherapy and medication prescriptions
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Chemotherapy and medication prescriptions
   name: Varian Medical Systems MedicationRequest API
   slug: varian-medical-systems-medicationrequest-api
-- description: FHIR server capability and metadata
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: FHIR server capability and metadata
   name: Varian Medical Systems Metadata API
   slug: varian-medical-systems-metadata-api
-- description: Labs, vitals, and clinical measurements
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Labs, vitals, and clinical measurements
   name: Varian Medical Systems Observation API
   slug: varian-medical-systems-observation-api
-- description: Oncology patient demographics and identifiers
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Oncology patient demographics and identifiers
   name: Varian Medical Systems Patient API
   slug: varian-medical-systems-patient-api
-- description: Radiation therapy and other clinical procedures
+- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
+  baseurl_source: declared
+  description: Radiation therapy and other clinical procedures
   name: Varian Medical Systems Procedure API
   slug: varian-medical-systems-procedure-api
 artifact_total: 39
@@ -302,7 +324,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/screenshots/varian-medical-systems-2026-06-20T200814.png
 security:

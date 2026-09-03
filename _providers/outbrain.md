@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -44,73 +44,117 @@ agentic_access:
   summary_line: 105 operations · 37 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Token-based authentication
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Token-based authentication
   name: Outbrain Authentication API
   slug: outbrain-authentication-api
-- description: Budget management
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Budget management
   name: Outbrain Budgets API
   slug: outbrain-budgets-api
-- description: Campaign management
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Campaign management
   name: Outbrain Campaigns API
   slug: outbrain-campaigns-api
-- description: Server-side conversion events
+- baseURL: https://r.teads.tv
+  baseurl_source: declared
+  description: Server-side conversion events
   name: Outbrain Conversions API
   slug: outbrain-conversions-api
-- description: Impression and click events
+- baseURL: https://odb.outbrain.com
+  baseurl_source: declared
+  description: Impression and click events
   name: Outbrain Events API
   slug: outbrain-events-api
-- description: Marketer (customer account) resources
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Marketer (customer account) resources
   name: Outbrain Marketers API
   slug: outbrain-marketers-api
-- description: Promoted link (ad creative) management
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Promoted link (ad creative) management
   name: Outbrain PromotedLinks API
   slug: outbrain-promotedlinks-api
-- description: Retrieve content recommendations
+- baseURL: https://odb.outbrain.com
+  baseurl_source: declared
+  description: Retrieve content recommendations
   name: Outbrain Recommendations API
   slug: outbrain-recommendations-api
-- description: Performance reporting
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Performance reporting
   name: Outbrain Reporting API
   slug: outbrain-reporting-api
-- description: Audience and contextual targeting
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Audience and contextual targeting
   name: Outbrain Targeting API
   slug: outbrain-targeting-api
 - description: Contextual sponsored-recommendation API for chatbot and LLM publishers, backing the Teads Conversational AI Ads SDK (public beta since 2025-11-12). Takes a partner key plus one of contentUrl / bundleU
   name: Teads In-Chat API
   slug: outbrain-teads-in-chat-api
-- description: Token Obtaining a token should be your 1st step toward using Amplify API. You need to include it in all further requests using the HTTP Header OB-TOKEN-V1. In order to protect your privacy, the tokens
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Token Obtaining a token should be your 1st step toward using Amplify API. You need to include it in all further requests using the HTTP Header OB-TOKEN-V1. In order to protect your privacy, the tokens
   name: Outbrain Authentications API
   slug: outbrain-authentications-api
-- description: Metadata about the available currencies
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Metadata about the available currencies
   name: Outbrain Currencies API
   slug: outbrain-currencies-api
-- description: GeoLocations are representatives of Outbrain Geographic Locations. GeoLocations are being used for campaigns to be targeted (or excluded) by geography. The GeoLocation object has the following attribu
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: GeoLocations are representatives of Outbrain Geographic Locations. GeoLocations are being used for campaigns to be targeted (or excluded) by geography. The GeoLocation object has the following attribu
   name: Outbrain Geo Locations API
   slug: outbrain-geo-locations-api
-- description: 'IAB category Targeting gives you the abillity to select your preferred IAB categories in your campaign setup. The IAB category Targeting object has the following attributes: Property Type Semantic Exa'
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: 'IAB category Targeting gives you the abillity to select your preferred IAB categories in your campaign setup. The IAB category Targeting object has the following attributes: Property Type Semantic Exa'
   name: Outbrain IAB category Targeting API
   slug: outbrain-iab-category-targeting-api
-- description: Interest Targeting gives you the abillity to select your preferred interests categories in your campaign setup. Then, using our powerful interest insights and predictive technology, we’ll match you wi
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: Interest Targeting gives you the abillity to select your preferred interests categories in your campaign setup. Then, using our powerful interest insights and predictive technology, we’ll match you wi
   name: Outbrain Interest Targeting API
   slug: outbrain-interest-targeting-api
-- description: The Meta Data section represents the various values (Enumarations) that can be provided as part of the different API end-points
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: The Meta Data section represents the various values (Enumarations) that can be provided as part of the different API end-points
   name: Outbrain Meta Data API
   slug: outbrain-meta-data-api
-- description: 'Multiple Conversions gives the ability to track any of the actions a user takes after clicking through to your content. You can track everything from top of funnel (page landings and time on site) to '
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: 'Multiple Conversions gives the ability to track any of the actions a user takes after clicking through to your content. You can track everything from top of funnel (page landings and time on site) to '
   name: Outbrain Multiple Conversions API
   slug: outbrain-multiple-conversions-api
-- description: 'There are a multitude of reporting endpoints that allow you to retrieve metrics at various levels of granularity. Note: All performance reports have a 10-30 minutes delay, therefore performance metric'
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: 'There are a multitude of reporting endpoints that allow you to retrieve metrics at various levels of granularity. Note: All performance reports have a 10-30 minutes delay, therefore performance metric'
   name: Outbrain Performance Reporting API
   slug: outbrain-performance-reporting-api
-- description: 'Sequences comes in 2 formats: - Carousel - multi-promotedLink format that features CTA buttons, brand logo, and more. You can use Carousel to tell your brand story, showcase multiple products, and bui'
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: 'Sequences comes in 2 formats: - Carousel - multi-promotedLink format that features CTA buttons, brand logo, and more. You can use Carousel to tell your brand story, showcase multiple products, and bui'
   name: Outbrain Promoted Links Sequences API
   slug: outbrain-promotedlinkssequences-api
-- description: A Section is a specific content within the publisher's site such as sports, business etc.
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: A Section is a specific content within the publisher's site such as sports, business etc.
   name: Outbrain Sections API
   slug: outbrain-sections-api
-- description: 'Segments give the ability to segment customers based on their actions, and retarget them with new or existing campaigns. This translates into your campaigns reaching a highly engaged audience that is '
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: 'Segments give the ability to segment customers based on their actions, and retarget them with new or existing campaigns. This translates into your campaigns reaching a highly engaged audience that is '
   name: Outbrain Segments API
   slug: outbrain-segments-api
-- description: User represents a single person's access to Outbrain services and to the site my.outbrain.com. A User is permitted to one or more Marketer accounts, each marketer with a role that specifies the user p
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: User represents a single person's access to Outbrain services and to the site my.outbrain.com. A User is permitted to one or more Marketer accounts, each marketer with a role that specifies the user p
   name: Outbrain Users API
   slug: outbrain-users-api
 artifact_total: 86
@@ -656,7 +700,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png
 security:

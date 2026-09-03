@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 16 operations · 11 acting
 api_count: 3
 apis:
-- description: Legacy OpenAI-compatible text completion endpoint (/v1/completions) for non-chat foundation models served by NIM. Accepts a raw prompt and returns generated text with the same streaming, sampling, and
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: Legacy OpenAI-compatible text completion endpoint (/v1/completions) for non-chat foundation models served by NIM. Accepts a raw prompt and returns generated text with the same streaming, sampling, and
   name: NVIDIA NIM Completions API
   slug: nvidia-nim-completions-api
-- description: 'OpenAI-compatible embeddings endpoint (/v1/embeddings) backed by NVIDIA NeMo Retriever text embedding models including NV-Embed, NV-EmbedQA-E5, llama-3.2-nv-embedqa-1b, and BAAI BGE-M3. Returns dense '
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: 'OpenAI-compatible embeddings endpoint (/v1/embeddings) backed by NVIDIA NeMo Retriever text embedding models including NV-Embed, NV-EmbedQA-E5, llama-3.2-nv-embedqa-1b, and BAAI BGE-M3. Returns dense '
   name: NVIDIA NIM Embeddings API
   slug: nvidia-nim-embeddings-api
-- description: NeMo Retriever cross-encoder reranking endpoint (/v1/ranking) for scoring candidate passages against a query. Improves retrieval relevance on RAG pipelines and supports the llama-3.2-nv-rerankqa-1b an
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: NeMo Retriever cross-encoder reranking endpoint (/v1/ranking) for scoring candidate passages against a query. Improves retrieval relevance on RAG pipelines and supports the llama-3.2-nv-rerankqa-1b an
   name: NVIDIA NIM Reranking API
   slug: nvidia-nim-reranking-api
-- description: 'OpenAI-compatible model catalog endpoint (/v1/models) returning the list of models served by the NIM endpoint or container. Each entry includes id, owned_by, and created timestamp. Used by clients to '
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: 'OpenAI-compatible model catalog endpoint (/v1/models) returning the list of models served by the NIM endpoint or container. Each entry includes id, owned_by, and created timestamp. Used by clients to '
   name: NVIDIA NIM Models API
   slug: nvidia-nim-models-api
-- description: Vision-language model inference through the standard /v1/chat/completions surface with image inputs (base64 or URL) in the messages payload. Supports NVIDIA NeVA, microsoft/kosmos-2, Phi-3-vision, lla
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: Vision-language model inference through the standard /v1/chat/completions surface with image inputs (base64 or URL) in the messages payload. Supports NVIDIA NeVA, microsoft/kosmos-2, Phi-3-vision, lla
   name: NVIDIA NIM Vision Language Models API
   slug: nvidia-nim-vision-api
-- description: Liveness, readiness, and startup probes exposed by self-hosted NIM containers (/v1/health/live, /v1/health/ready) and a Prometheus /v1/metrics scrape endpoint for GPU utilization, request latency, and
+- baseURL: https://integrate.api.nvidia.com
+  baseurl_source: spec
+  description: Liveness, readiness, and startup probes exposed by self-hosted NIM containers (/v1/health/live, /v1/health/ready) and a Prometheus /v1/metrics scrape endpoint for GPU utilization, request latency, and
   name: NVIDIA NIM Health API
   slug: nvidia-nim-health-api
-- description: BioNeMo NIMs for protein structure prediction (AlphaFold2, ESMFold, OpenFold), protein generation (ProtGPT2, RFDiffusion), molecular property prediction (MolMIM), small molecule generation, and molecu
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: BioNeMo NIMs for protein structure prediction (AlphaFold2, ESMFold, OpenFold), protein generation (ProtGPT2, RFDiffusion), molecular property prediction (MolMIM), small molecule generation, and molecu
   name: NVIDIA NIM Biology (BioNeMo) API
   slug: nvidia-nim-biology-api
-- description: Automatic speech recognition (speech-to-text)
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: Automatic speech recognition (speech-to-text)
   name: NVIDIA NIM ASR API
   slug: nvidia-nim-asr-api
-- description: OpenAI-compatible chat completion operations
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completion operations
   name: NVIDIA NIM Chat API
   slug: nvidia-nim-chat-api
-- description: Text-to-image and image-to-image generation
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: Text-to-image and image-to-image generation
   name: NVIDIA NIM Images API
   slug: nvidia-nim-images-api
-- description: Text-to-speech synthesis
+- baseURL: https://integrate.api.nvidia.com/v1
+  baseurl_source: declared
+  description: Text-to-speech synthesis
   name: NVIDIA NIM TTS API
   slug: nvidia-nim-tts-api
 arazzos:
@@ -581,7 +603,7 @@ score:
       total: 11
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 22 acting
 api_count: 1
 apis:
-- description: Market and submarket discovery, metrics, and future pricing.
+- baseURL: https://api.airdna.co/api/enterprise/v2
+  baseurl_source: declared
+  description: Market and submarket discovery, metrics, and future pricing.
   name: AirDNA Market Data API
   slug: airdna-market-data-api
-- description: Revenue estimates for individual and bulk addresses.
+- baseURL: https://api.airdna.co/api/enterprise/v2
+  baseurl_source: declared
+  description: Revenue estimates for individual and bulk addresses.
   name: AirDNA Rentalizer API
   slug: airdna-rentalizer-api
-- description: Summarized performance estimates for lead generation.
+- baseURL: https://api.airdna.co/api/enterprise/v2
+  baseurl_source: declared
+  description: Summarized performance estimates for lead generation.
   name: AirDNA Rentalizer Lead Gen API
   slug: airdna-rentalizer-lead-gen-api
-- description: Pricing strategy base rates and smart rates for listings.
+- baseURL: https://api.airdna.co/api/enterprise/v2
+  baseurl_source: declared
+  description: Pricing strategy base rates and smart rates for listings.
   name: AirDNA Smart Rates API
   slug: airdna-smart-rates-api
-- description: Short-term rental listing search, details, history, and comps.
+- baseURL: https://api.airdna.co/api/enterprise/v2
+  baseurl_source: declared
+  description: Short-term rental listing search, details, history, and comps.
   name: AirDNA STR Listing Data API
   slug: airdna-str-listing-data-api
 artifact_total: 18
@@ -177,7 +187,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/screenshots/airdna-2026-07-25T195414.png
 security:

@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Daily/monthly production records for a well.
+- baseURL: https://your-organization.tachyus.com/api/v1
+  baseurl_source: declared
+  description: Daily/monthly production records for a well.
   name: Tachyus Production Data API
   slug: tachyus-production-data-api
-- description: Projects map to a specific geographic or operational asset.
+- baseURL: https://your-organization.tachyus.com/api/v1
+  baseurl_source: declared
+  description: Projects map to a specific geographic or operational asset.
   name: Tachyus Projects API
   slug: tachyus-projects-api
-- description: Wells belong to projects.
+- baseURL: https://your-organization.tachyus.com/api/v1
+  baseurl_source: declared
+  description: Wells belong to projects.
   name: Tachyus Wells API
   slug: tachyus-wells-api
 artifact_total: 12
@@ -209,7 +215,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tachyus/refs/heads/main/screenshots/tachyus-2026-08-17T082238.png
 security:

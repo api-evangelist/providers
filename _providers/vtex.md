@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 386
   human_in_the_loop: 22
@@ -44,430 +44,714 @@ agentic_access:
   summary_line: 692 operations · 386 acting · 22 human-in-the-loop
 api_count: 44
 apis:
-- description: The Account API from VTEX — 13 operation(s) for account.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Account API from VTEX — 13 operation(s) for account.
   name: VTEX Account API
   slug: vtex-account-api
-- description: The Addresses API from VTEX — 6 operation(s) for addresses.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Addresses API from VTEX — 6 operation(s) for addresses.
   name: VTEX Addresses API
   slug: vtex-addresses-api
-- description: The Anti-Fraud Flow API from VTEX — 6 operation(s) for anti-fraud flow.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Anti-Fraud Flow API from VTEX — 6 operation(s) for anti-fraud flow.
   name: VTEX Anti-Fraud Flow API
   slug: vtex-anti-fraud-flow-api
-- description: The App Keys API from VTEX — 2 operation(s) for app keys.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The App Keys API from VTEX — 2 operation(s) for app keys.
   name: VTEX App Keys API
   slug: vtex-app-keys-api
-- description: The Attachment API from VTEX — 3 operation(s) for attachment.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Attachment API from VTEX — 3 operation(s) for attachment.
   name: VTEX Attachment API
   slug: vtex-attachment-api
-- description: The Authentication API from VTEX — 7 operation(s) for authentication.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Authentication API from VTEX — 7 operation(s) for authentication.
   name: VTEX Authentication API
   slug: vtex-authentication-api
-- description: The Autocomplete API from VTEX — 4 operation(s) for autocomplete.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Autocomplete API from VTEX — 4 operation(s) for autocomplete.
   name: VTEX Autocomplete API
   slug: vtex-autocomplete-api
-- description: The Brand API from VTEX — 7 operation(s) for brand.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Brand API from VTEX — 7 operation(s) for brand.
   name: VTEX Brand API
   slug: vtex-brand-api
-- description: The Bulk Import API from VTEX — 3 operation(s) for bulk import.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Bulk Import API from VTEX — 3 operation(s) for bulk import.
   name: VTEX Bulk Import API
   slug: vtex-bulk-import-api
-- description: The Carriers API from VTEX — 2 operation(s) for carriers.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Carriers API from VTEX — 2 operation(s) for carriers.
   name: VTEX Carriers API
   slug: vtex-carriers-api
-- description: The Cart Attachments API from VTEX — 7 operation(s) for cart attachments.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Cart Attachments API from VTEX — 7 operation(s) for cart attachments.
   name: VTEX Cart Attachments API
   slug: vtex-cart-attachments-api
-- description: The Category API from VTEX — 6 operation(s) for category.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Category API from VTEX — 6 operation(s) for category.
   name: VTEX Category API
   slug: vtex-category-api
-- description: The Category Specification API from VTEX — 2 operation(s) for category specification.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Category Specification API from VTEX — 2 operation(s) for category specification.
   name: VTEX Category Specification API
   slug: vtex-category-specification-api
-- description: The Change Order (Beta) API from VTEX — 5 operation(s) for change order (beta).
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Change Order (Beta) API from VTEX — 5 operation(s) for change order (beta).
   name: VTEX Change Order (Beta) API
   slug: vtex-change-order-beta-api
-- description: The Change Seller API from VTEX — 1 operation(s) for change seller.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Change Seller API from VTEX — 1 operation(s) for change seller.
   name: VTEX Change Seller API
   slug: vtex-change-seller-api
-- description: Changes CMS URI
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: Changes CMS URI
   name: VTEX Change URI Schema API
   slug: vtex-change-uri-schema-api
-- description: The Clusters API from VTEX — 1 operation(s) for clusters.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Clusters API from VTEX — 1 operation(s) for clusters.
   name: VTEX Clusters API
   slug: vtex-clusters-api
-- description: The Collection Beta API from VTEX — 8 operation(s) for collection beta.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Collection Beta API from VTEX — 8 operation(s) for collection beta.
   name: VTEX Collection Beta API
   slug: vtex-collection-beta-api
-- description: The Commercial Conditions API from VTEX — 2 operation(s) for commercial conditions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Commercial Conditions API from VTEX — 2 operation(s) for commercial conditions.
   name: VTEX Commercial Conditions API
   slug: vtex-commercial-conditions-api
-- description: The Configuration API from VTEX — 8 operation(s) for configuration.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Configuration API from VTEX — 8 operation(s) for configuration.
   name: VTEX Configuration API
   slug: vtex-configuration-api
-- description: The Configuration Flow API from VTEX — 3 operation(s) for configuration flow.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Configuration Flow API from VTEX — 3 operation(s) for configuration flow.
   name: VTEX Configuration Flow API
   slug: vtex-configuration-flow-api
-- description: The Conversation API from VTEX — 1 operation(s) for conversation.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Conversation API from VTEX — 1 operation(s) for conversation.
   name: VTEX Conversation API
   slug: vtex-conversation-api
-- description: The Coupons API from VTEX — 9 operation(s) for coupons.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Coupons API from VTEX — 9 operation(s) for coupons.
   name: VTEX Coupons API
   slug: vtex-coupons-api
-- description: The CrossSelling API from VTEX — 7 operation(s) for crossselling.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The CrossSelling API from VTEX — 7 operation(s) for crossselling.
   name: VTEX CrossSelling API
   slug: vtex-crossselling-api
-- description: The Custom Data API from VTEX — 2 operation(s) for custom data.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Custom Data API from VTEX — 2 operation(s) for custom data.
   name: VTEX Custom Data API
   slug: vtex-custom-data-api
-- description: The Cycles API from VTEX — 3 operation(s) for cycles.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Cycles API from VTEX — 3 operation(s) for cycles.
   name: VTEX Cycles API
   slug: vtex-cycles-api
-- description: The Data Subject Rights API from VTEX — 1 operation(s) for data subject rights.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Data Subject Rights API from VTEX — 1 operation(s) for data subject rights.
   name: VTEX Data Subject Rights API
   slug: vtex-data-subject-rights-api
-- description: The Delivery Services API from VTEX — 4 operation(s) for delivery services.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Delivery Services API from VTEX — 4 operation(s) for delivery services.
   name: VTEX Delivery Services API
   slug: vtex-delivery-services-api
-- description: The DKIM Configuration API from VTEX — 1 operation(s) for dkim configuration.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The DKIM Configuration API from VTEX — 1 operation(s) for dkim configuration.
   name: VTEX DKIM Configuration API
   slug: vtex-dkim-configuration-api
-- description: The Docks API from VTEX — 4 operation(s) for docks.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Docks API from VTEX — 4 operation(s) for docks.
   name: VTEX Docks API
   slug: vtex-docks-api
-- description: The Documents API from VTEX — 2 operation(s) for documents.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Documents API from VTEX — 2 operation(s) for documents.
   name: VTEX Documents API
   slug: vtex-documents-api
-- description: The Events API from VTEX — 1 operation(s) for events.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Events API from VTEX — 1 operation(s) for events.
   name: VTEX Events API
   slug: vtex-events-api
-- description: The External Marketplace API from VTEX — 12 operation(s) for external marketplace.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The External Marketplace API from VTEX — 12 operation(s) for external marketplace.
   name: VTEX External Marketplace API
   slug: vtex-external-marketplace-api
-- description: The External Seller API from VTEX — 8 operation(s) for external seller.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The External Seller API from VTEX — 8 operation(s) for external seller.
   name: VTEX External Seller API
   slug: vtex-external-seller-api
-- description: The Facets API from VTEX — 2 operation(s) for facets.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Facets API from VTEX — 2 operation(s) for facets.
   name: VTEX Facets API
   slug: vtex-facets-api
-- description: The Feed V2 (Deprecated) API from VTEX — 1 operation(s) for feed v2 (deprecated).
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Feed V2 (Deprecated) API from VTEX — 1 operation(s) for feed v2 (deprecated).
   name: VTEX Feed V2 (Deprecated) API
   slug: vtex-feed-v2-deprecated-api
-- description: The Feed V3 API from VTEX — 3 operation(s) for feed v3.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Feed V3 API from VTEX — 3 operation(s) for feed v3.
   name: VTEX Feed V3 API
   slug: vtex-feed-v3-api
-- description: The Freight Values API from VTEX — 2 operation(s) for freight values.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Freight Values API from VTEX — 2 operation(s) for freight values.
   name: VTEX Freight Values API
   slug: vtex-freight-values-api
-- description: The Fulfillment API from VTEX — 2 operation(s) for fulfillment.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Fulfillment API from VTEX — 2 operation(s) for fulfillment.
   name: VTEX Fulfillment API
   slug: vtex-fulfillment-api
-- description: The Get Suggestions API from VTEX — 2 operation(s) for get suggestions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Get Suggestions API from VTEX — 2 operation(s) for get suggestions.
   name: VTEX Get Suggestions API
   slug: vtex-get-suggestions-api
-- description: The Get Versions API from VTEX — 2 operation(s) for get versions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Get Versions API from VTEX — 2 operation(s) for get versions.
   name: VTEX Get Versions API
   slug: vtex-get-versions-api
-- description: The Gift Card API from VTEX — 3 operation(s) for gift card.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Gift Card API from VTEX — 3 operation(s) for gift card.
   name: VTEX Gift Card API
   slug: vtex-gift-card-api
-- description: The Gift Cards API from VTEX — 3 operation(s) for gift cards.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Gift Cards API from VTEX — 3 operation(s) for gift cards.
   name: VTEX Gift Cards API
   slug: vtex-gift-cards-api
-- description: The Gift List API from VTEX — 1 operation(s) for gift list.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Gift List API from VTEX — 1 operation(s) for gift list.
   name: VTEX Gift List API
   slug: vtex-gift-list-api
-- description: The Holidays API from VTEX — 2 operation(s) for holidays.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Holidays API from VTEX — 2 operation(s) for holidays.
   name: VTEX Holidays API
   slug: vtex-holidays-api
-- description: The Indices API from VTEX — 2 operation(s) for indices.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Indices API from VTEX — 2 operation(s) for indices.
   name: VTEX Indices API
   slug: vtex-indices-api
-- description: The Installments API from VTEX — 1 operation(s) for installments.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Installments API from VTEX — 1 operation(s) for installments.
   name: VTEX Installments API
   slug: vtex-installments-api
-- description: The Inventory API from VTEX — 9 operation(s) for inventory.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Inventory API from VTEX — 9 operation(s) for inventory.
   name: VTEX Inventory API
   slug: vtex-inventory-api
-- description: The Invoice API from VTEX — 3 operation(s) for invoice.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Invoice API from VTEX — 3 operation(s) for invoice.
   name: VTEX Invoice API
   slug: vtex-invoice-api
-- description: The Invoices API from VTEX — 5 operation(s) for invoices.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Invoices API from VTEX — 5 operation(s) for invoices.
   name: VTEX Invoices API
   slug: vtex-invoices-api
-- description: The Legacy Collection API from VTEX — 2 operation(s) for legacy collection.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Legacy Collection API from VTEX — 2 operation(s) for legacy collection.
   name: VTEX Legacy Collection API
   slug: vtex-legacy-collection-api
-- description: The Legacy Subcollection API from VTEX — 10 operation(s) for legacy subcollection.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Legacy Subcollection API from VTEX — 10 operation(s) for legacy subcollection.
   name: VTEX Legacy Subcollection API
   slug: vtex-legacy-subcollection-api
-- description: The Manage Suggestions API from VTEX — 1 operation(s) for manage suggestions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Manage Suggestions API from VTEX — 1 operation(s) for manage suggestions.
   name: VTEX Manage Suggestions API
   slug: vtex-manage-suggestions-api
-- description: The Match Received SKUs API from VTEX — 2 operation(s) for match received skus.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Match Received SKUs API from VTEX — 2 operation(s) for match received skus.
   name: VTEX Match Received SKUs API
   slug: vtex-match-received-skus-api
-- description: The Matched Offers API from VTEX — 3 operation(s) for matched offers.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Matched Offers API from VTEX — 3 operation(s) for matched offers.
   name: VTEX Matched Offers API
   slug: vtex-matched-offers-api
-- description: The Non-Structured Specification API from VTEX — 2 operation(s) for non-structured specification.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Non-Structured Specification API from VTEX — 2 operation(s) for non-structured specification.
   name: VTEX Non-Structured Specification API
   slug: vtex-non-structured-specification-api
-- description: The Note API from VTEX — 2 operation(s) for note.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Note API from VTEX — 2 operation(s) for note.
   name: VTEX Note API
   slug: vtex-note-api
-- description: The Notification API from VTEX — 3 operation(s) for notification.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Notification API from VTEX — 3 operation(s) for notification.
   name: VTEX Notification API
   slug: vtex-notification-api
-- description: The OAuth Flow API from VTEX — 4 operation(s) for oauth flow.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The OAuth Flow API from VTEX — 4 operation(s) for oauth flow.
   name: VTEX OAuth Flow API
   slug: vtex-oauth-flow-api
-- description: The Offer Management API from VTEX — 11 operation(s) for offer management.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Offer Management API from VTEX — 11 operation(s) for offer management.
   name: VTEX Offer Management API
   slug: vtex-offer-management-api
-- description: The Offers API from VTEX — 2 operation(s) for offers.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Offers API from VTEX — 2 operation(s) for offers.
   name: VTEX Offers API
   slug: vtex-offers-api
-- description: The Order Hook API from VTEX — 1 operation(s) for order hook.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Order Hook API from VTEX — 1 operation(s) for order hook.
   name: VTEX Order Hook API
   slug: vtex-order-hook-api
-- description: The Order Placement API from VTEX — 3 operation(s) for order placement.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Order Placement API from VTEX — 3 operation(s) for order placement.
   name: VTEX Order Placement API
   slug: vtex-order-placement-api
-- description: The Orders API from VTEX — 10 operation(s) for orders.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Orders API from VTEX — 10 operation(s) for orders.
   name: VTEX Orders API
   slug: vtex-orders-api
-- description: The Pages API from VTEX — 3 operation(s) for pages.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Pages API from VTEX — 3 operation(s) for pages.
   name: VTEX Pages API
   slug: vtex-pages-api
-- description: The Payment API from VTEX — 3 operation(s) for payment.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Payment API from VTEX — 3 operation(s) for payment.
   name: VTEX Payment API
   slug: vtex-payment-api
-- description: The Payment Flow API from VTEX — 6 operation(s) for payment flow.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Payment Flow API from VTEX — 6 operation(s) for payment flow.
   name: VTEX Payment Flow API
   slug: vtex-payment-flow-api
-- description: The Pickup Points API from VTEX — 3 operation(s) for pickup points.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Pickup Points API from VTEX — 3 operation(s) for pickup points.
   name: VTEX Pickup Points API
   slug: vtex-pickup-points-api
-- description: The Plans API from VTEX — 2 operation(s) for plans.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Plans API from VTEX — 2 operation(s) for plans.
   name: VTEX Plans API
   slug: vtex-plans-api
-- description: The Policy API from VTEX — 3 operation(s) for policy.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Policy API from VTEX — 3 operation(s) for policy.
   name: VTEX Policy API
   slug: vtex-policy-api
-- description: The Polygons API from VTEX — 2 operation(s) for polygons.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Polygons API from VTEX — 2 operation(s) for polygons.
   name: VTEX Polygons API
   slug: vtex-polygons-api
-- description: The Price Tables API from VTEX — 3 operation(s) for price tables.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Price Tables API from VTEX — 3 operation(s) for price tables.
   name: VTEX Price Tables API
   slug: vtex-price-tables-api
-- description: The Prices and Fixed Prices API from VTEX — 4 operation(s) for prices and fixed prices.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Prices and Fixed Prices API from VTEX — 4 operation(s) for prices and fixed prices.
   name: VTEX Prices and Fixed Prices API
   slug: vtex-prices-and-fixed-prices-api
-- description: The Pricing Configuration API from VTEX — 2 operation(s) for pricing configuration.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Pricing Configuration API from VTEX — 2 operation(s) for pricing configuration.
   name: VTEX Pricing Configuration API
   slug: vtex-pricing-configuration-api
-- description: The Pricing Hub Prices API from VTEX — 2 operation(s) for pricing hub prices.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Pricing Hub Prices API from VTEX — 2 operation(s) for pricing hub prices.
   name: VTEX Pricing Hub Prices API
   slug: vtex-pricing-hub-prices-api
-- description: The Product API from VTEX — 11 operation(s) for product.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Product API from VTEX — 11 operation(s) for product.
   name: VTEX Product API
   slug: vtex-product-api
-- description: The Product Indexing API from VTEX — 1 operation(s) for product indexing.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Product Indexing API from VTEX — 1 operation(s) for product indexing.
   name: VTEX Product Indexing API
   slug: vtex-product-indexing-api
-- description: The Product List Page API from VTEX — 4 operation(s) for product list page.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Product List Page API from VTEX — 4 operation(s) for product list page.
   name: VTEX Product List Page API
   slug: vtex-product-list-page-api
-- description: The Product Specification API from VTEX — 4 operation(s) for product specification.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Product Specification API from VTEX — 4 operation(s) for product specification.
   name: VTEX Product Specification API
   slug: vtex-product-specification-api
-- description: The Profiles API from VTEX — 5 operation(s) for profiles.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Profiles API from VTEX — 5 operation(s) for profiles.
   name: VTEX Profiles API
   slug: vtex-profiles-api
-- description: The Prospects API from VTEX — 4 operation(s) for prospects.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Prospects API from VTEX — 4 operation(s) for prospects.
   name: VTEX Prospects API
   slug: vtex-prospects-api
-- description: The Provider API from VTEX — 2 operation(s) for provider.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Provider API from VTEX — 2 operation(s) for provider.
   name: VTEX Provider API
   slug: vtex-provider-api
-- description: The Purchase Information API from VTEX — 2 operation(s) for purchase information.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Purchase Information API from VTEX — 2 operation(s) for purchase information.
   name: VTEX Purchase Information API
   slug: vtex-purchase-information-api
-- description: The Rating API from VTEX — 1 operation(s) for rating.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Rating API from VTEX — 1 operation(s) for rating.
   name: VTEX Rating API
   slug: vtex-rating-api
-- description: The Region API from VTEX — 1 operation(s) for region.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Region API from VTEX — 1 operation(s) for region.
   name: VTEX Region API
   slug: vtex-region-api
-- description: The Reports API from VTEX — 3 operation(s) for reports.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Reports API from VTEX — 3 operation(s) for reports.
   name: VTEX Reports API
   slug: vtex-reports-api
-- description: The Reservations API from VTEX — 6 operation(s) for reservations.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Reservations API from VTEX — 6 operation(s) for reservations.
   name: VTEX Reservations API
   slug: vtex-reservations-api
-- description: The Review API from VTEX — 3 operation(s) for review.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Review API from VTEX — 3 operation(s) for review.
   name: VTEX Review API
   slug: vtex-review-api
-- description: The Roles API from VTEX — 3 operation(s) for roles.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Roles API from VTEX — 3 operation(s) for roles.
   name: VTEX Roles API
   slug: vtex-roles-api
-- description: The Sales Channel API from VTEX — 2 operation(s) for sales channel.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Sales Channel API from VTEX — 2 operation(s) for sales channel.
   name: VTEX Sales Channel API
   slug: vtex-sales-channel-api
-- description: The Sales Channel Mapping API from VTEX — 1 operation(s) for sales channel mapping.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Sales Channel Mapping API from VTEX — 1 operation(s) for sales channel mapping.
   name: VTEX Sales Channel Mapping API
   slug: vtex-sales-channel-mapping-api
-- description: The Scheduled Delivery API from VTEX — 5 operation(s) for scheduled delivery.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Scheduled Delivery API from VTEX — 5 operation(s) for scheduled delivery.
   name: VTEX Scheduled Delivery API
   slug: vtex-scheduled-delivery-api
-- description: The Schemas API from VTEX — 4 operation(s) for schemas.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Schemas API from VTEX — 4 operation(s) for schemas.
   name: VTEX Schemas API
   slug: vtex-schemas-api
-- description: The Scroll API from VTEX — 1 operation(s) for scroll.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Scroll API from VTEX — 1 operation(s) for scroll.
   name: VTEX Scroll API
   slug: vtex-scroll-api
-- description: The Search API from VTEX — 4 operation(s) for search.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Search API from VTEX — 4 operation(s) for search.
   name: VTEX Search API
   slug: vtex-search-api
-- description: The Segment API from VTEX — 1 operation(s) for segment.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Segment API from VTEX — 1 operation(s) for segment.
   name: VTEX Segment API
   slug: vtex-segment-api
-- description: The Seller API from VTEX — 4 operation(s) for seller.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Seller API from VTEX — 4 operation(s) for seller.
   name: VTEX Seller API
   slug: vtex-seller-api
-- description: The Seller Commissions API from VTEX — 2 operation(s) for seller commissions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Seller Commissions API from VTEX — 2 operation(s) for seller commissions.
   name: VTEX Seller Commissions API
   slug: vtex-seller-commissions-api
-- description: The Seller Invite API from VTEX — 4 operation(s) for seller invite.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Seller Invite API from VTEX — 4 operation(s) for seller invite.
   name: VTEX Seller Invite API
   slug: vtex-seller-invite-api
-- description: The Sellers API from VTEX — 2 operation(s) for sellers.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Sellers API from VTEX — 2 operation(s) for sellers.
   name: VTEX Sellers API
   slug: vtex-sellers-api
-- description: These endpoints must be developed to integrate with the Lastmile Pick and Pack Last Mile Protocol API.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: These endpoints must be developed to integrate with the Lastmile Pick and Pack Last Mile Protocol API.
   name: VTEX Service Integration API
   slug: vtex-service-integration-api
-- description: The Session API from VTEX — 1 operation(s) for session.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Session API from VTEX — 1 operation(s) for session.
   name: VTEX Session API
   slug: vtex-session-api
-- description: The Settings API from VTEX — 1 operation(s) for settings.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Settings API from VTEX — 1 operation(s) for settings.
   name: VTEX Settings API
   slug: vtex-settings-api
-- description: The Shipping Policies API from VTEX — 2 operation(s) for shipping policies.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Shipping Policies API from VTEX — 2 operation(s) for shipping policies.
   name: VTEX Shipping Policies API
   slug: vtex-shipping-policies-api
-- description: This endpoint will allow the carriers to update an ongoing shipping service.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: This endpoint will allow the carriers to update an ongoing shipping service.
   name: VTEX Shipping Updates API
   slug: vtex-shipping-updates-api
-- description: The Shopping Cart API from VTEX — 11 operation(s) for shopping cart.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Shopping Cart API from VTEX — 11 operation(s) for shopping cart.
   name: VTEX Shopping Cart API
   slug: vtex-shopping-cart-api
-- description: The Similar Category API from VTEX — 2 operation(s) for similar category.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Similar Category API from VTEX — 2 operation(s) for similar category.
   name: VTEX Similar Category API
   slug: vtex-similar-category-api
-- description: The SKU API from VTEX — 10 operation(s) for sku.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU API from VTEX — 10 operation(s) for sku.
   name: VTEX SKU API
   slug: vtex-sku-api
-- description: The SKU Approval Settings API from VTEX — 5 operation(s) for sku approval settings.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Approval Settings API from VTEX — 5 operation(s) for sku approval settings.
   name: VTEX SKU Approval Settings API
   slug: vtex-sku-approval-settings-api
-- description: The SKU Attachment API from VTEX — 4 operation(s) for sku attachment.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Attachment API from VTEX — 4 operation(s) for sku attachment.
   name: VTEX SKU Attachment API
   slug: vtex-sku-attachment-api
-- description: The SKU Bindings API from VTEX — 11 operation(s) for sku bindings.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Bindings API from VTEX — 11 operation(s) for sku bindings.
   name: VTEX SKU Bindings API
   slug: vtex-sku-bindings-api
-- description: The SKU Complement API from VTEX — 5 operation(s) for sku complement.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Complement API from VTEX — 5 operation(s) for sku complement.
   name: VTEX SKU Complement API
   slug: vtex-sku-complement-api
-- description: The SKU EAN API from VTEX — 3 operation(s) for sku ean.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU EAN API from VTEX — 3 operation(s) for sku ean.
   name: VTEX SKU EAN API
   slug: vtex-sku-ean-api
-- description: The SKU File API from VTEX — 4 operation(s) for sku file.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU File API from VTEX — 4 operation(s) for sku file.
   name: VTEX SKU File API
   slug: vtex-sku-file-api
-- description: The SKU Kit API from VTEX — 2 operation(s) for sku kit.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Kit API from VTEX — 2 operation(s) for sku kit.
   name: VTEX SKU Kit API
   slug: vtex-sku-kit-api
-- description: The SKU Seller API from VTEX — 4 operation(s) for sku seller.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Seller API from VTEX — 4 operation(s) for sku seller.
   name: VTEX SKU Seller API
   slug: vtex-sku-seller-api
-- description: The SKU Service API from VTEX — 2 operation(s) for sku service.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Service API from VTEX — 2 operation(s) for sku service.
   name: VTEX SKU Service API
   slug: vtex-sku-service-api
-- description: The SKU Service Attachment API from VTEX — 2 operation(s) for sku service attachment.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Service Attachment API from VTEX — 2 operation(s) for sku service attachment.
   name: VTEX SKU Service Attachment API
   slug: vtex-sku-service-attachment-api
-- description: The SKU Service Type API from VTEX — 2 operation(s) for sku service type.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Service Type API from VTEX — 2 operation(s) for sku service type.
   name: VTEX SKU Service Type API
   slug: vtex-sku-service-type-api
-- description: The SKU Service Value API from VTEX — 2 operation(s) for sku service value.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Service Value API from VTEX — 2 operation(s) for sku service value.
   name: VTEX SKU Service Value API
   slug: vtex-sku-service-value-api
-- description: The SKU Specification API from VTEX — 3 operation(s) for sku specification.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SKU Specification API from VTEX — 3 operation(s) for sku specification.
   name: VTEX SKU Specification API
   slug: vtex-sku-specification-api
-- description: The SLA API from VTEX — 1 operation(s) for sla.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The SLA API from VTEX — 1 operation(s) for sla.
   name: VTEX SLA API
   slug: vtex-sla-api
-- description: The Specification API from VTEX — 2 operation(s) for specification.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Specification API from VTEX — 2 operation(s) for specification.
   name: VTEX Specification API
   slug: vtex-specification-api
-- description: The Specification Field API from VTEX — 2 operation(s) for specification field.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Specification Field API from VTEX — 2 operation(s) for specification field.
   name: VTEX Specification Field API
   slug: vtex-specification-field-api
-- description: The Specification Field Value API from VTEX — 3 operation(s) for specification field value.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Specification Field Value API from VTEX — 3 operation(s) for specification field value.
   name: VTEX Specification Field Value API
   slug: vtex-specification-field-value-api
-- description: The Specification Group API from VTEX — 4 operation(s) for specification group.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Specification Group API from VTEX — 4 operation(s) for specification group.
   name: VTEX Specification Group API
   slug: vtex-specification-group-api
-- description: The Specification Value API from VTEX — 2 operation(s) for specification value.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Specification Value API from VTEX — 2 operation(s) for specification value.
   name: VTEX Specification Value API
   slug: vtex-specification-value-api
-- description: The Store Configuration API from VTEX — 1 operation(s) for store configuration.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Store Configuration API from VTEX — 1 operation(s) for store configuration.
   name: VTEX Store Configuration API
   slug: vtex-store-configuration-api
-- description: The Stores API from VTEX — 1 operation(s) for stores.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Stores API from VTEX — 1 operation(s) for stores.
   name: VTEX Stores API
   slug: vtex-stores-api
-- description: The Subscriptions API from VTEX — 7 operation(s) for subscriptions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Subscriptions API from VTEX — 7 operation(s) for subscriptions.
   name: VTEX Subscriptions API
   slug: vtex-subscriptions-api
-- description: The Supplier API from VTEX — 2 operation(s) for supplier.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Supplier API from VTEX — 2 operation(s) for supplier.
   name: VTEX Supplier API
   slug: vtex-supplier-api
-- description: The Task API from VTEX — 3 operation(s) for task.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Task API from VTEX — 3 operation(s) for task.
   name: VTEX Task API
   slug: vtex-task-api
-- description: The Tracking API from VTEX — 2 operation(s) for tracking.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Tracking API from VTEX — 2 operation(s) for tracking.
   name: VTEX Tracking API
   slug: vtex-tracking-api
-- description: The Trade Policy API from VTEX — 3 operation(s) for trade policy.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Trade Policy API from VTEX — 3 operation(s) for trade policy.
   name: VTEX Trade Policy API
   slug: vtex-trade-policy-api
-- description: The Transaction API from VTEX — 13 operation(s) for transaction.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Transaction API from VTEX — 13 operation(s) for transaction.
   name: VTEX Transaction API
   slug: vtex-transaction-api
-- description: The Transaction Flow API from VTEX — 3 operation(s) for transaction flow.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Transaction Flow API from VTEX — 3 operation(s) for transaction flow.
   name: VTEX Transaction Flow API
   slug: vtex-transaction-flow-api
-- description: The Transaction Process API from VTEX — 8 operation(s) for transaction process.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Transaction Process API from VTEX — 8 operation(s) for transaction process.
   name: VTEX Transaction Process API
   slug: vtex-transaction-process-api
-- description: The Transactions API from VTEX — 5 operation(s) for transactions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Transactions API from VTEX — 5 operation(s) for transactions.
   name: VTEX Transactions API
   slug: vtex-transactions-api
-- description: The User Orders API from VTEX — 2 operation(s) for user orders.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The User Orders API from VTEX — 2 operation(s) for user orders.
   name: VTEX User Orders API
   slug: vtex-user-orders-api
-- description: The Users API from VTEX — 3 operation(s) for users.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Users API from VTEX — 3 operation(s) for users.
   name: VTEX Users API
   slug: vtex-users-api
-- description: The Versions API from VTEX — 2 operation(s) for versions.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Versions API from VTEX — 2 operation(s) for versions.
   name: VTEX Versions API
   slug: vtex-versions-api
-- description: The Warehouses API from VTEX — 4 operation(s) for warehouses.
+- baseURL: https://{providerApiEndpoint}
+  baseurl_source: declared
+  description: The Warehouses API from VTEX — 4 operation(s) for warehouses.
   name: VTEX Warehouses API
   slug: vtex-warehouses-api
 artifact_total: 1424
@@ -4404,7 +4688,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -4414,7 +4698,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 42.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -4429,7 +4713,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/screenshots/vtex-2026-06-20T201148.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 13 operations · 2 acting
 api_count: 10
 apis:
-- description: Portfolio performance and attribution analytics
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Portfolio performance and attribution analytics
   name: Aladdin Studio Analytics API
   slug: aladdin-studio-analytics-api
-- description: Aladdin Data Cloud Snowflake connection management
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Aladdin Data Cloud Snowflake connection management
   name: Aladdin Studio Connections API
   slug: aladdin-studio-connections-api
-- description: Available dataset and table discovery
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Available dataset and table discovery
   name: Aladdin Studio Datasets API
   slug: aladdin-studio-datasets-api
-- description: Trading order management and execution
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Trading order management and execution
   name: Aladdin Studio Orders API
   slug: aladdin-studio-orders-api
-- description: Portfolio metadata and management operations
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Portfolio metadata and management operations
   name: Aladdin Studio Portfolios API
   slug: aladdin-studio-portfolios-api
-- description: Portfolio position and holdings data
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Portfolio position and holdings data
   name: Aladdin Studio Positions API
   slug: aladdin-studio-positions-api
-- description: SQL query execution against Data Cloud datasets
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: SQL query execution against Data Cloud datasets
   name: Aladdin Studio Queries API
   slug: aladdin-studio-queries-api
-- description: Investment research data and analyst ratings
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Investment research data and analyst ratings
   name: Aladdin Studio Research API
   slug: aladdin-studio-research-api
-- description: Risk analytics and factor exposure calculations
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Risk analytics and factor exposure calculations
   name: Aladdin Studio Risk API
   slug: aladdin-studio-risk-api
-- description: Security reference data and classification
+- baseURL: https://api.blackrock.com/v1
+  baseurl_source: declared
+  description: Security reference data and classification
   name: Aladdin Studio Securities API
   slug: aladdin-studio-securities-api
 artifact_total: 108
@@ -452,7 +472,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

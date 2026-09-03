@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 61
@@ -45,511 +45,849 @@ agentic_access:
   summary_line: 1038 operations · 553 acting · 61 human-in-the-loop
 api_count: 1
 apis:
-- description: Access Tokens creation
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Access Tokens creation
   name: Telnyx Access Tokens API
   slug: telnyx-access-tokens-api
-- description: 'Operations to work with Address records. Address records are emergency-validated addresses meant to be associated with phone numbers. They are validated for emergency usage purposes at creation time, '
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: 'Operations to work with Address records. Address records are emergency-validated addresses meant to be associated with phone numbers. They are validated for emergency usage purposes at creation time, '
   name: Telnyx Addresses API
   slug: telnyx-addresses-api
-- description: The Advanced Number Orders API from Telnyx — 3 operation(s) for advanced number orders.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Advanced Number Orders API from Telnyx — 3 operation(s) for advanced number orders.
   name: Telnyx Advanced Number Orders API
   slug: telnyx-advanced-number-orders-api
-- description: Configure AI assistant specifications
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Configure AI assistant specifications
   name: Telnyx Assistants API
   slug: telnyx-assistants-api
-- description: The Audio API from Telnyx — 1 operation(s) for audio.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Audio API from Telnyx — 1 operation(s) for audio.
   name: Telnyx Audio API
   slug: telnyx-audio-api
-- description: Audit log operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Audit log operations.
   name: Telnyx Audit Logs API
   slug: telnyx-audit-logs-api
-- description: The Authentication Providers API from Telnyx — 2 operation(s) for authentication providers.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Authentication Providers API from Telnyx — 2 operation(s) for authentication providers.
   name: Telnyx Authentication Providers API
   slug: telnyx-authentication-providers-api
-- description: V2 Auto Recharge Preferences API
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: V2 Auto Recharge Preferences API
   name: Telnyx AutoRechargePreferences API
   slug: telnyx-autorechargepreferences-api
-- description: Billing operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Billing operations
   name: Telnyx Billing API
   slug: telnyx-billing-api
-- description: Billing groups operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Billing groups operations
   name: Telnyx Billing Groups API
   slug: telnyx-billing-groups-api
-- description: Brand operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Brand operations
   name: Telnyx Brands API
   slug: telnyx-brands-api
-- description: SSL certificate operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: SSL certificate operations
   name: Telnyx Bucket SSL Certificate API
   slug: telnyx-bucket-ssl-certificate-api
-- description: Bucket Usage operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Bucket Usage operations
   name: Telnyx Bucket Usage API
   slug: telnyx-bucket-usage-api
-- description: Phone number campaign bulk assignment
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Phone number campaign bulk assignment
   name: Telnyx Bulk Phone Number Campaigns API
   slug: telnyx-bulk-phone-number-campaigns-api
-- description: Background jobs performed over a batch of phone numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Background jobs performed over a batch of phone numbers
   name: Telnyx Bulk Phone Number Operations API
   slug: telnyx-bulk-phone-number-operations-api
-- description: The Bundles API from Telnyx — 2 operation(s) for bundles.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Bundles API from Telnyx — 2 operation(s) for bundles.
   name: Telnyx Bundles API
   slug: telnyx-bundles-api
-- description: Call Control command operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Call Control command operations
   name: Telnyx Call Commands API
   slug: telnyx-call-commands-api
-- description: Call Control applications operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Call Control applications operations
   name: Telnyx Call Control Applications API
   slug: telnyx-call-control-applications-api
-- description: Call information
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Call information
   name: Telnyx Call Information API
   slug: telnyx-call-information-api
-- description: Call Recordings operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Call Recordings operations.
   name: Telnyx Call Recordings API
   slug: telnyx-call-recordings-api
-- description: Campaign operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Campaign operations
   name: Telnyx Campaign API
   slug: telnyx-campaign-api
-- description: Voice batch detail records
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Voice batch detail records
   name: Telnyx CDR Reports API
   slug: telnyx-cdr-reports-api
-- description: Voice usage reports
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Voice usage reports
   name: Telnyx CDR Usage Reports API
   slug: telnyx-cdr-usage-reports-api
-- description: The Charges Breakdown API from Telnyx — 1 operation(s) for charges breakdown.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Charges Breakdown API from Telnyx — 1 operation(s) for charges breakdown.
   name: Telnyx Charges Breakdown API
   slug: telnyx-charges-breakdown-api
-- description: The Charges Summary API from Telnyx — 1 operation(s) for charges summary.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Charges Summary API from Telnyx — 1 operation(s) for charges summary.
   name: Telnyx Charges Summary API
   slug: telnyx-charges-summary-api
-- description: Generate text with LLMs
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Generate text with LLMs
   name: Telnyx Chat API
   slug: telnyx-chat-api
-- description: Identify common themes and patterns in your embedded documents
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Identify common themes and patterns in your embedded documents
   name: Telnyx Clusters API
   slug: telnyx-clusters-api
-- description: Conference command operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Conference command operations
   name: Telnyx Conference Commands API
   slug: telnyx-conference-commands-api
-- description: Connections operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Connections operations
   name: Telnyx Connections API
   slug: telnyx-connections-api
-- description: Manage historical AI assistant conversations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage historical AI assistant conversations
   name: Telnyx Conversations API
   slug: telnyx-conversations-api
-- description: Country Coverage
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Country Coverage
   name: Telnyx Country Coverage API
   slug: telnyx-country-coverage-api
-- description: The Coverage API from Telnyx — 1 operation(s) for coverage.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Coverage API from Telnyx — 1 operation(s) for coverage.
   name: Telnyx Coverage API
   slug: telnyx-coverage-api
-- description: Credential connection operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Credential connection operations
   name: Telnyx Credential Connections API
   slug: telnyx-credential-connections-api
-- description: Credentials operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Credentials operations
   name: Telnyx Credentials API
   slug: telnyx-credentials-api
-- description: The CSV Downloads API from Telnyx — 2 operation(s) for csv downloads.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The CSV Downloads API from Telnyx — 2 operation(s) for csv downloads.
   name: Telnyx CSV Downloads API
   slug: telnyx-csv-downloads-api
-- description: Customer Service Record operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Customer Service Record operations
   name: Telnyx Customer Service Record API
   slug: telnyx-customer-service-record-api
-- description: Migrate data from an external provider into Telnyx Cloud Storage
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Migrate data from an external provider into Telnyx Cloud Storage
   name: Telnyx Data Migration API
   slug: telnyx-data-migration-api
-- description: Call Control debugging
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Call Control debugging
   name: Telnyx Debugging API
   slug: telnyx-debugging-api
-- description: Detail Records operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Detail Records operations
   name: Telnyx Detail Records API
   slug: telnyx-detail-records-api
-- description: Dialogflow Connection Operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Dialogflow Connection Operations.
   name: Telnyx Dialogflow Integration API
   slug: telnyx-dialogflow-integration-api
-- description: Documents
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Documents
   name: Telnyx Documents API
   slug: telnyx-documents-api
-- description: Dynamic emergency address operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Dynamic emergency address operations
   name: Telnyx Dynamic Emergency Addresses API
   slug: telnyx-dynamic-emergency-addresses-api
-- description: Dynamic Emergency Endpoints
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Dynamic Emergency Endpoints
   name: Telnyx Dynamic Emergency Endpoints API
   slug: telnyx-dynamic-emergency-endpoints-api
-- description: Embed documents and perform text searches
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Embed documents and perform text searches
   name: Telnyx Embeddings API
   slug: telnyx-embeddings-api
-- description: Enterprise management for Branded Calling and Number Reputation services
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Enterprise management for Branded Calling and Number Reputation services
   name: Telnyx Enterprises API
   slug: telnyx-enterprises-api
-- description: The Enum API from Telnyx — 1 operation(s) for enum.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Enum API from Telnyx — 1 operation(s) for enum.
   name: Telnyx Enum API
   slug: telnyx-enum-api
-- description: External Connections operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: External Connections operations
   name: Telnyx External Connections API
   slug: telnyx-external-connections-api
-- description: Customize LLMs for your unique needs
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Customize LLMs for your unique needs
   name: Telnyx Fine Tuning API
   slug: telnyx-fine-tuning-api
-- description: FQDN connection operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: FQDN connection operations
   name: Telnyx FQDN Connections API
   slug: telnyx-fqdn-connections-api
-- description: FQDN operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: FQDN operations
   name: Telnyx FQDNs API
   slug: telnyx-fqdns-api
-- description: Global IPs
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Global IPs
   name: Telnyx Global IPs API
   slug: telnyx-global-ips-api
-- description: Manage your messaging hosted numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage your messaging hosted numbers
   name: Telnyx Hosted Numbers API
   slug: telnyx-hosted-numbers-api
-- description: Inexplicit number orders for bulk purchasing without specifying exact numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Inexplicit number orders for bulk purchasing without specifying exact numbers
   name: Telnyx Inexplicit Number Orders API
   slug: telnyx-inexplicit-number-orders-api
-- description: Store and retrieve integration secrets
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Store and retrieve integration secrets
   name: Telnyx Integration Secrets API
   slug: telnyx-integration-secrets-api
-- description: The Integrations API from Telnyx — 4 operation(s) for integrations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Integrations API from Telnyx — 4 operation(s) for integrations.
   name: Telnyx Integrations API
   slug: telnyx-integrations-api
-- description: Inventory Level
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Inventory Level
   name: Telnyx Inventory Level API
   slug: telnyx-inventory-level-api
-- description: The Invoices API from Telnyx — 2 operation(s) for invoices.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Invoices API from Telnyx — 2 operation(s) for invoices.
   name: Telnyx Invoices API
   slug: telnyx-invoices-api
-- description: IP Address Operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: IP Address Operations
   name: Telnyx IP Addresses API
   slug: telnyx-ip-addresses-api
-- description: IP connection operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: IP connection operations
   name: Telnyx IP Connections API
   slug: telnyx-ip-connections-api
-- description: IP Range Operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: IP Range Operations
   name: Telnyx IP Ranges API
   slug: telnyx-ip-ranges-api
-- description: IP operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: IP operations
   name: Telnyx IPs API
   slug: telnyx-ips-api
-- description: Managed Accounts operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Managed Accounts operations
   name: Telnyx Managed Accounts API
   slug: telnyx-managed-accounts-api
-- description: The MCP Servers API from Telnyx — 2 operation(s) for mcp servers.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The MCP Servers API from Telnyx — 2 operation(s) for mcp servers.
   name: Telnyx MCP Servers API
   slug: telnyx-mcp-servers-api
-- description: The MDR Detail Reports API from Telnyx — 1 operation(s) for mdr detail reports.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The MDR Detail Reports API from Telnyx — 1 operation(s) for mdr detail reports.
   name: Telnyx MDR Detail Reports API
   slug: telnyx-mdr-detail-reports-api
-- description: Messaging batch detail records
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Messaging batch detail records
   name: Telnyx MDR Detailed Reports API
   slug: telnyx-mdr-detailed-reports-api
-- description: Messaging usage reports
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Messaging usage reports
   name: Telnyx MDR Usage Reports API
   slug: telnyx-mdr-usage-reports-api
-- description: Media Storage operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Media Storage operations
   name: Telnyx Media Storage API API
   slug: telnyx-media-storage-api-api
-- description: Messages
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Messages
   name: Telnyx Messages API
   slug: telnyx-messages-api
-- description: The Messaging API from Telnyx — 8 operation(s) for messaging.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Messaging API from Telnyx — 8 operation(s) for messaging.
   name: Telnyx Messaging API
   slug: telnyx-messaging-api
-- description: Messaging URL Domains
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Messaging URL Domains
   name: Telnyx Messaging URL Domains API
   slug: telnyx-messaging-url-domains-api
-- description: The Missions API from Telnyx — 23 operation(s) for missions.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Missions API from Telnyx — 23 operation(s) for missions.
   name: Telnyx Missions API
   slug: telnyx-missions-api
-- description: Mobile network operators operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Mobile network operators operations
   name: Telnyx Mobile Network Operators API
   slug: telnyx-mobile-network-operators-api
-- description: The Mobile Number Settings API from Telnyx — 2 operation(s) for mobile number settings.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Mobile Number Settings API from Telnyx — 2 operation(s) for mobile number settings.
   name: Telnyx Mobile Number Settings API
   slug: telnyx-mobile-number-settings-api
-- description: Mobile phone number operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Mobile phone number operations
   name: Telnyx Mobile Phone Numbers API
   slug: telnyx-mobile-phone-numbers-api
-- description: Mobile voice connection operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Mobile voice connection operations
   name: Telnyx Mobile Voice Connections API
   slug: telnyx-mobile-voice-connections-api
-- description: Network operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Network operations
   name: Telnyx Networks API
   slug: telnyx-networks-api
-- description: Notification settings operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Notification settings operations
   name: Telnyx Notifications API
   slug: telnyx-notifications-api
-- description: Look up phone number data
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Look up phone number data
   name: Telnyx Number Lookup API
   slug: telnyx-number-lookup-api
-- description: Number portout operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Number portout operations
   name: Telnyx Number Portout API
   slug: telnyx-number-portout-api
-- description: Manage Number Reputation enrollment and check frequency settings for an enterprise
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage Number Reputation enrollment and check frequency settings for an enterprise
   name: Telnyx Number Reputation Settings API
   slug: telnyx-number-reputation-settings-api
-- description: Configure your phone numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Configure your phone numbers
   name: Telnyx Number Settings API
   slug: telnyx-number-settings-api
-- description: The numbers features API from Telnyx — 1 operation(s) for numbers features.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The numbers features API from Telnyx — 1 operation(s) for numbers features.
   name: Telnyx numbers features API
   slug: telnyx-numbers-features-api
-- description: The OAuth Clients API from Telnyx — 2 operation(s) for oauth clients.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The OAuth Clients API from Telnyx — 2 operation(s) for oauth clients.
   name: Telnyx OAuth Clients API
   slug: telnyx-oauth-clients-api
-- description: The OAuth Discovery API from Telnyx — 2 operation(s) for oauth discovery.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The OAuth Discovery API from Telnyx — 2 operation(s) for oauth discovery.
   name: Telnyx OAuth Discovery API
   slug: telnyx-oauth-discovery-api
-- description: The OAuth Grants API from Telnyx — 2 operation(s) for oauth grants.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The OAuth Grants API from Telnyx — 2 operation(s) for oauth grants.
   name: Telnyx OAuth Grants API
   slug: telnyx-oauth-grants-api
-- description: The OAuth Protocol API from Telnyx — 7 operation(s) for oauth protocol.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The OAuth Protocol API from Telnyx — 7 operation(s) for oauth protocol.
   name: Telnyx OAuth Protocol API
   slug: telnyx-oauth-protocol-api
-- description: The OpenAI Chat API from Telnyx — 2 operation(s) for openai chat.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The OpenAI Chat API from Telnyx — 2 operation(s) for openai chat.
   name: Telnyx OpenAI Chat API
   slug: telnyx-openai-chat-api
-- description: OpenAI-compatible embeddings endpoints for generating vector representations of text
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: OpenAI-compatible embeddings endpoints for generating vector representations of text
   name: Telnyx OpenAI Embeddings API
   slug: telnyx-openai-embeddings-api
-- description: Opt-Out Management
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Opt-Out Management
   name: Telnyx Opt-Out Management API
   slug: telnyx-opt-out-management-api
-- description: Operations related to users in your organization
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Operations related to users in your organization
   name: Telnyx Organization Users API
   slug: telnyx-organization-users-api
-- description: OTA updates operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: OTA updates operations
   name: Telnyx OTA updates API
   slug: telnyx-ota-updates-api
-- description: Outbound voice profiles operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Outbound voice profiles operations
   name: Telnyx Outbound Voice Profiles API
   slug: telnyx-outbound-voice-profiles-api
-- description: The Phone Number Block Orders API from Telnyx — 2 operation(s) for phone number block orders.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Phone Number Block Orders API from Telnyx — 2 operation(s) for phone number block orders.
   name: Telnyx Phone Number Block Orders API
   slug: telnyx-phone-number-block-orders-api
-- description: Background jobs performed over a phone-numbers block's phone numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Background jobs performed over a phone-numbers block's phone numbers
   name: Telnyx Phone Number Blocks Background Jobs API
   slug: telnyx-phone-number-blocks-background-jobs-api
-- description: Phone number campaign assignment
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Phone number campaign assignment
   name: Telnyx Phone Number Campaigns API
   slug: telnyx-phone-number-campaigns-api
-- description: Configure your phone numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Configure your phone numbers
   name: Telnyx Phone Number Configurations API
   slug: telnyx-phone-number-configurations-api
-- description: Number orders
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Number orders
   name: Telnyx Phone Number Orders API
   slug: telnyx-phone-number-orders-api
-- description: Determining portability of phone numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Determining portability of phone numbers
   name: Telnyx Phone Number Porting API
   slug: telnyx-phone-number-porting-api
-- description: Number reservations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Number reservations
   name: Telnyx Phone Number Reservations API
   slug: telnyx-phone-number-reservations-api
-- description: Number search
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Number search
   name: Telnyx Phone Number Search API
   slug: telnyx-phone-number-search-api
-- description: Endpoints related to porting orders management.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Endpoints related to porting orders management.
   name: Telnyx Porting Orders API
   slug: telnyx-porting-orders-api
-- description: Presigned object URL operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Presigned object URL operations
   name: Telnyx Presigned Object URLs API
   slug: telnyx-presigned-object-urls-api
-- description: Private Wireless Gateways operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Private Wireless Gateways operations
   name: Telnyx Private Wireless Gateways API
   slug: telnyx-private-wireless-gateways-api
-- description: Messaging profiles
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Messaging profiles
   name: Telnyx Profiles API
   slug: telnyx-profiles-api
-- description: Fax Applications operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Fax Applications operations
   name: Telnyx Programmable Fax Applications API
   slug: telnyx-programmable-fax-applications-api
-- description: Programmable fax command operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Programmable fax command operations
   name: Telnyx Programmable Fax Commands API
   slug: telnyx-programmable-fax-commands-api
-- description: Manage pronunciation dictionaries for text-to-speech synthesis. Dictionaries contain alias items (text replacement) and phoneme items (IPA pronunciation notation) that control how specific words are s
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage pronunciation dictionaries for text-to-speech synthesis. Dictionaries contain alias items (text replacement) and phoneme items (IPA pronunciation notation) that control how specific words are s
   name: Telnyx Pronunciation Dictionaries API
   slug: telnyx-pronunciation-dictionaries-api
-- description: Public Internet Gateway operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Public Internet Gateway operations
   name: Telnyx Public Internet Gateways API
   slug: telnyx-public-internet-gateways-api
-- description: Mobile push credential management
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Mobile push credential management
   name: Telnyx Push Credentials API
   slug: telnyx-push-credentials-api
-- description: Queue commands operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Queue commands operations
   name: Telnyx Queue Commands API
   slug: telnyx-queue-commands-api
-- description: Send RCS messages
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Send RCS messages
   name: Telnyx RCS API
   slug: telnyx-rcs-api
-- description: Regions
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Regions
   name: Telnyx Regions API
   slug: telnyx-regions-api
-- description: Regulatory Requirements
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Regulatory Requirements
   name: Telnyx Regulatory Requirements API
   slug: telnyx-regulatory-requirements-api
-- description: Wireless reporting operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Wireless reporting operations
   name: Telnyx Reporting API
   slug: telnyx-reporting-api
-- description: Ledger billing reports
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Ledger billing reports
   name: Telnyx Reports API
   slug: telnyx-reports-api
-- description: Associate phone numbers with an enterprise for reputation monitoring and retrieve reputation scores
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Associate phone numbers with an enterprise for reputation monitoring and retrieve reputation scores
   name: Telnyx Reputation Phone Numbers API
   slug: telnyx-reputation-phone-numbers-api
-- description: Requirement Groups
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Requirement Groups
   name: Telnyx Requirement Groups API
   slug: telnyx-requirement-groups-api
-- description: Types of requirements for international numbers and porting orders
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Types of requirements for international numbers and porting orders
   name: Telnyx Requirement Types API
   slug: telnyx-requirement-types-api
-- description: Requirements for international numbers and porting orders
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Requirements for international numbers and porting orders
   name: Telnyx Requirements API
   slug: telnyx-requirements-api
-- description: Rooms Compositions operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Rooms Compositions operations.
   name: Telnyx Room Compositions API
   slug: telnyx-room-compositions-api
-- description: Rooms Participants operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Rooms Participants operations.
   name: Telnyx Room Participants API
   slug: telnyx-room-participants-api
-- description: Rooms Recordings operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Rooms Recordings operations.
   name: Telnyx Room Recordings API
   slug: telnyx-room-recordings-api
-- description: Rooms Sessions operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Rooms Sessions operations.
   name: Telnyx Room Sessions API
   slug: telnyx-room-sessions-api
-- description: Rooms operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Rooms operations.
   name: Telnyx Rooms API
   slug: telnyx-rooms-api
-- description: Rooms Client Tokens operations.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Rooms Client Tokens operations.
   name: Telnyx Rooms Client Tokens API
   slug: telnyx-rooms-client-tokens-api
-- description: Analyze voice AI sessions, costs, and event hierarchies across Telnyx products.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Analyze voice AI sessions, costs, and event hierarchies across Telnyx products.
   name: Telnyx Session Analysis API
   slug: telnyx-session-analysis-api
-- description: Observability into Telnyx platform stability and performance.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Observability into Telnyx platform stability and performance.
   name: Telnyx SETI Observability API
   slug: telnyx-seti-observability-api
-- description: The Shared Campaigns API from Telnyx — 4 operation(s) for shared campaigns.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The Shared Campaigns API from Telnyx — 4 operation(s) for shared campaigns.
   name: Telnyx Shared Campaigns API
   slug: telnyx-shared-campaigns-api
-- description: Short codes
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Short codes
   name: Telnyx Short Codes API
   slug: telnyx-short-codes-api
-- description: View SIM card actions, their progress and timestamps using the SIM Card Actions API
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: View SIM card actions, their progress and timestamps using the SIM Card Actions API
   name: Telnyx SIM Card Actions API
   slug: telnyx-sim-card-actions-api
-- description: SIM Card Group actions operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: SIM Card Group actions operations
   name: Telnyx SIM Card Group Actions API
   slug: telnyx-sim-card-group-actions-api
-- description: SIM Card Groups operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: SIM Card Groups operations
   name: Telnyx SIM Card Groups API
   slug: telnyx-sim-card-groups-api
-- description: SIM Card Orders operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: SIM Card Orders operations
   name: Telnyx SIM Card Orders API
   slug: telnyx-sim-card-orders-api
-- description: SIM Cards operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: SIM Cards operations
   name: Telnyx SIM Cards API
   slug: telnyx-sim-cards-api
-- description: SIPREC connectors configuration.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: SIPREC connectors configuration.
   name: Telnyx SIPREC Connectors API
   slug: telnyx-siprec-connectors-api
-- description: Speech to text batch detail records
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Speech to text batch detail records
   name: Telnyx Speech to Text Batch Reports API
   slug: telnyx-speech-to-text-batch-reports-api
-- description: Speech to text command operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Speech to text command operations
   name: Telnyx Speech To Text over WebSockets API
   slug: telnyx-speech-to-text-over-websockets-api
-- description: Speech to text usage reports
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Speech to text usage reports
   name: Telnyx Speech to text Usage Reports API
   slug: telnyx-speech-to-text-usage-reports-api
-- description: Operations for managing stored payment transactions.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Operations for managing stored payment transactions.
   name: Telnyx Stored Payment Transactions API
   slug: telnyx-stored-payment-transactions-api
-- description: Number lookup usage reports
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Number lookup usage reports
   name: Telnyx Telco Data Usage Reports API
   slug: telnyx-telco-data-usage-reports-api
-- description: Terms of Service agreement endpoints
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Terms of Service agreement endpoints
   name: Telnyx Terms of Service API
   slug: telnyx-terms-of-service-api
-- description: TeXML Applications operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: TeXML Applications operations
   name: Telnyx TeXML Applications API
   slug: telnyx-texml-applications-api
-- description: TeXML REST Commands
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: TeXML REST Commands
   name: Telnyx TeXML REST Commands API
   slug: telnyx-texml-rest-commands-api
-- description: Text to speech streaming command operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Text to speech streaming command operations
   name: Telnyx Text To Speech Commands API
   slug: telnyx-text-to-speech-commands-api
-- description: Traffic Policy Profiles operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Traffic Policy Profiles operations
   name: Telnyx Traffic Policy Profiles API
   slug: telnyx-traffic-policy-profiles-api
-- description: UAC connection operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: UAC connection operations
   name: Telnyx UAC Connections API
   slug: telnyx-uac-connections-api
-- description: Usage data reporting across Telnyx products
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Usage data reporting across Telnyx products
   name: Telnyx Usage Reports (BETA) API
   slug: telnyx-usage-reports-beta-api
-- description: The User Bundles API from Telnyx — 5 operation(s) for user bundles.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The User Bundles API from Telnyx — 5 operation(s) for user bundles.
   name: Telnyx User Bundles API
   slug: telnyx-user-bundles-api
-- description: User-defined tags for Telnyx resources
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: User-defined tags for Telnyx resources
   name: Telnyx User Tags API
   slug: telnyx-user-tags-api
-- description: Operations for working with UserAddress records. UserAddress records are stored addresses that users can use for non-emergency-calling purposes, such as for shipping addresses for orders of wireless S
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Operations for working with UserAddress records. UserAddress records are stored addresses that users can use for non-emergency-calling purposes, such as for shipping addresses for orders of wireless S
   name: Telnyx UserAddresses API
   slug: telnyx-useraddresses-api
-- description: Manage your tollfree verification requests
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage your tollfree verification requests
   name: Telnyx Verification Requests API
   slug: telnyx-verification-requests-api
-- description: Verified Numbers operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Verified Numbers operations
   name: Telnyx Verified Numbers API
   slug: telnyx-verified-numbers-api
-- description: Two factor authentication API
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Two factor authentication API
   name: Telnyx Verify API
   slug: telnyx-verify-api
-- description: Virtual Cross Connect operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Virtual Cross Connect operations
   name: Telnyx Virtual Cross Connects API
   slug: telnyx-virtual-cross-connects-api
-- description: Voice Channels
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Voice Channels
   name: Telnyx Voice Channels API
   slug: telnyx-voice-channels-api
-- description: Capture and manage voice identities as clones for use in text-to-speech synthesis.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Capture and manage voice identities as clones for use in text-to-speech synthesis.
   name: Telnyx Voice Clones API
   slug: telnyx-voice-clones-api
-- description: Create and manage AI-generated voice designs using natural language prompts.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Create and manage AI-generated voice designs using natural language prompts.
   name: Telnyx Voice Designs API
   slug: telnyx-voice-designs-api
-- description: Voicemail API
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Voicemail API
   name: Telnyx Voicemail API
   slug: telnyx-voicemail-api
-- description: The WDR Detail Reports API from Telnyx — 1 operation(s) for wdr detail reports.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: The WDR Detail Reports API from Telnyx — 1 operation(s) for wdr detail reports.
   name: Telnyx WDR Detail Reports API
   slug: telnyx-wdr-detail-reports-api
-- description: Webhooks operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Webhooks operations
   name: Telnyx Webhooks API
   slug: telnyx-webhooks-api
-- description: Manage Whatsapp business accounts
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage Whatsapp business accounts
   name: Telnyx Whatsapp Business Accounts API
   slug: telnyx-whatsapp-business-accounts-api
-- description: Manage Whatsapp message templates
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage Whatsapp message templates
   name: Telnyx Whatsapp Message Templates API
   slug: telnyx-whatsapp-message-templates-api
-- description: Send Whatsapp messages
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Send Whatsapp messages
   name: Telnyx Whatsapp messaging API
   slug: telnyx-whatsapp-messaging-api
-- description: Manage Whatsapp phone numbers
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Manage Whatsapp phone numbers
   name: Telnyx Whatsapp Phone Numbers API
   slug: telnyx-whatsapp-phone-numbers-api
-- description: WireGuard Interface operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: WireGuard Interface operations
   name: Telnyx WireGuard Interfaces API
   slug: telnyx-wireguard-interfaces-api
-- description: Wireless Blocklists operations
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Wireless Blocklists operations
   name: Telnyx Wireless Blocklists API
   slug: telnyx-wireless-blocklists-api
-- description: Regions for wireless services
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Regions for wireless services
   name: Telnyx Wireless Regions API
   slug: telnyx-wireless-regions-api
-- description: Operations for x402 cryptocurrency payment transactions. Fund your Telnyx account using USDC stablecoin payments via the x402 protocol.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Operations for x402 cryptocurrency payment transactions. Fund your Telnyx account using USDC stablecoin payments via the x402 protocol.
   name: Telnyx x402 Payment Transactions API
   slug: telnyx-x402-payment-transactions-api
-- description: Callbacks
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Callbacks
   name: Telnyx Callbacks API
   slug: telnyx-callbacks-api
 artifact_total: 348
@@ -1188,7 +1526,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/screenshots/telnyx-2026-06-20T195051.png
 security:

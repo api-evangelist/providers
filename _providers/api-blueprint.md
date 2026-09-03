@@ -10,36 +10,41 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
-api_count: 1
+  score: 30.5
+  scored_at: '2026-09-02'
+api_count: 2
 apis:
 - description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping APIs. Files use the .apib extension with media type text/vnd.apiblueprint
   name: API Blueprint
   slug: api-blueprint
-artifact_total: 17
+- baseURL: https://api.apiblueprint.org
+  baseurl_source: declared
+  description: The API Blueprint API is the parsing service operated at api.apiblueprint.org by the API Blueprint project. It parses API Blueprint and Swagger 2.0 documents into the Refract Parse Result Namespace (A
+  name: API Blueprint API
+  slug: api-blueprint-api
+artifact_total: 21
 common:
 - group: operate
   title: ''
@@ -69,6 +74,74 @@ common:
   title: ''
   type: TermsOfService
   url: https://github.com/apiaryio/api-blueprint/blob/master/LICENSE
+- group: build
+  title: ''
+  type: Packages
+  url: packages/api-blueprint-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/api-blueprint-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/api-blueprint-cli.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/api-blueprint-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/api-blueprint-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/api-blueprint-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/api-blueprint-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/api-blueprint-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/api-blueprint-rate-limits.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/api-blueprint-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/api-blueprint-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apiblueprint.org/developers.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://apiblueprint.org/support.html
+- group: learn
+  title: ''
+  type: Tutorials
+  url: https://apiblueprint.org/documentation/tutorial.html
+- group: docs
+  title: ''
+  type: Reference
+  url: https://apiblueprint.org/documentation/specification.html
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/apiaryio/api-blueprint
 created: '2026-03-25'
 description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping web APIs. Created by Apiary and released under the MIT License, API Blueprint uses .apib files with a concise Markdown format that makes APIs accessible to both technical and non-technical stakeholders. The project is no longer actively maintained (all apiaryio GitHub repos are archived as of 2024) but remains a notable specification in API design history, influencing later formats like OpenAPI.
 features:
@@ -96,51 +169,72 @@ integrations:
   name: Dredd Testing Framework
 - description: The swagger2blueprint tool converted Swagger API descriptions into API Blueprint format for migration workflows.
   name: Swagger Conversion
+json_schemas:
+- name: Api Blueprint Api Elements Element
+  property_count: 0
+  slug: api-blueprint-api-elements-element
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: API Blueprint MCP Server
+  slug: api-blueprint-mcp-server
+modified: '2026-09-02'
 name: API Blueprint
 nav: Providers
 network: true
-overview: 'API Blueprint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Specification Language, Markdown, and Documentation.
+overview: 'API Blueprint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Specification Language, Markdown, Documentation, and API Description Language.
 
 
-  API Blueprint''s developer surface includes documentation and 6 more developer resources.'
+  API Blueprint''s developer surface includes documentation, CLI, changelog, support, and 20 more developer resources.'
 plans:
 - name: Api Blueprint Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: api-blueprint-plans-pricing
 random_paper: 17
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Api Blueprint Rate Limits
   slug: api-blueprint-rate-limits
 score:
-  band: emerging
-  composite: 18.7
+  band: developing
+  composite: 40.2
   coverage:
-    artifact_dirs: 5
-    catalog_gap: 79.0
+    artifact_dirs: 22
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 21.5
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 26.3
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 4.5
+    contract_quality: 60.7
+    developer_ergonomics: 70.8
+    discoverability: 59.3
+    governance: 4.5
+    operational_transparency: 18.4
   open_source:
     applies: true
     score: 25.0
   previous_composite: 18.7
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/screenshots/api-blueprint-2026-06-20T172201.png
 security:
+- kind: authentication
+  name: Api Blueprint Authentication
+  slug: api-blueprint-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Api Blueprint Domain Security
   slug: api-blueprint-domain-security
@@ -151,6 +245,10 @@ tags:
 - Specification Language
 - Markdown
 - Documentation
+- API Description Language
+- Parsing
+- Open Source
+- Developer Tools
 use_cases:
 - description: Write human-readable API documentation in Markdown that doubles as a machine-parseable specification for tooling.
   name: API Documentation

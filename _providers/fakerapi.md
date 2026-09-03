@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,34 +42,54 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Generate fake postal addresses with geo coordinates.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake postal addresses with geo coordinates.
   name: FakerAPI Addresses API
   slug: fakerapi-addresses-api
-- description: Generate fake book records.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake book records.
   name: FakerAPI Books API
   slug: fakerapi-books-api
-- description: Generate fake business records.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake business records.
   name: FakerAPI Companies API
   slug: fakerapi-companies-api
-- description: Generate fake records with a caller-defined field schema.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake records with a caller-defined field schema.
   name: FakerAPI Custom API
   slug: fakerapi-custom-api
-- description: Generate fake image references (titles, descriptions, URLs).
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake image references (titles, descriptions, URLs).
   name: FakerAPI Images API
   slug: fakerapi-images-api
-- description: Generate fake person profiles with nested addresses.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake person profiles with nested addresses.
   name: FakerAPI Persons API
   slug: fakerapi-persons-api
-- description: Generate fake geographic coordinates.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake geographic coordinates.
   name: FakerAPI Places API
   slug: fakerapi-places-api
-- description: Generate fake product records with images.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake product records with images.
   name: FakerAPI Products API
   slug: fakerapi-products-api
-- description: Generate fake titled text blocks.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake titled text blocks.
   name: FakerAPI Texts API
   slug: fakerapi-texts-api
-- description: Generate fake application user accounts.
+- baseURL: https://fakerapi.it/api/v1
+  baseurl_source: declared
+  description: Generate fake application user accounts.
   name: FakerAPI Users API
   slug: fakerapi-users-api
 artifact_total: 76
@@ -333,7 +353,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fakerapi/refs/heads/main/screenshots/fakerapi-2026-06-20T181022.png
 security:

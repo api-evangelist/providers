@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 24 operations · 10 acting
 api_count: 1
 apis:
-- description: Invoices and payments.
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Invoices and payments.
   name: Scalable Press Billing API
   slug: scalablepress-billing-api
-- description: Available customization options.
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Available customization options.
   name: Scalable Press Customization API
   slug: scalablepress-customization-api
-- description: Reusable design objects describing artwork and placement.
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Reusable design objects describing artwork and placement.
   name: Scalable Press Design API
   slug: scalablepress-design-api
-- description: Order and item lifecycle events (v3).
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Order and item lifecycle events (v3).
   name: Scalable Press Event API
   slug: scalablepress-event-api
-- description: Product mockup rendering (v3).
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Product mockup rendering (v3).
   name: Scalable Press Mockup API
   slug: scalablepress-mockup-api
-- description: Place and manage print-and-ship orders.
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Place and manage print-and-ship orders.
   name: Scalable Press Order API
   slug: scalablepress-order-api
-- description: Product catalog, categories, availability, and item details.
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Product catalog, categories, availability, and item details.
   name: Scalable Press Product API
   slug: scalablepress-product-api
-- description: Standard and bulk price quotes including shipping.
+- baseURL: https://api.scalablepress.com/v2
+  baseurl_source: declared
+  description: Standard and bulk price quotes including shipping.
   name: Scalable Press Quote API
   slug: scalablepress-quote-api
 artifact_total: 24
@@ -174,7 +190,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -197,8 +213,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/screenshots/scalablepress-2026-09-02T154501.png
 security:
 - kind: authentication
   name: Scalablepress Authentication

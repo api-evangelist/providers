@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -33,100 +46,164 @@ agentic_access:
   summary_line: 317 operations · 137 acting
 api_count: 32
 apis:
-- description: The Applicant API from Arthur Online — 5 operation(s) for applicant.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Applicant API from Arthur Online — 5 operation(s) for applicant.
   name: Arthur Online Applicant API
   slug: arthur-online-applicant-api
-- description: The Applicants API from Arthur Online — 4 operation(s) for applicants.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Applicants API from Arthur Online — 4 operation(s) for applicants.
   name: Arthur Online Applicants API
   slug: arthur-online-applicants-api
-- description: The Assets API from Arthur Online — 7 operation(s) for assets.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Assets API from Arthur Online — 7 operation(s) for assets.
   name: Arthur Online Assets API
   slug: arthur-online-assets-api
-- description: The Assigned Managers API from Arthur Online — 4 operation(s) for assigned managers.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Assigned Managers API from Arthur Online — 4 operation(s) for assigned managers.
   name: Arthur Online Assigned Managers API
   slug: arthur-online-assigned-managers-api
-- description: The Certificates API from Arthur Online — 5 operation(s) for certificates.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Certificates API from Arthur Online — 5 operation(s) for certificates.
   name: Arthur Online Certificates API
   slug: arthur-online-certificates-api
-- description: The Contractor Invoices API from Arthur Online — 2 operation(s) for contractor invoices.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Contractor Invoices API from Arthur Online — 2 operation(s) for contractor invoices.
   name: Arthur Online Contractor Invoices API
   slug: arthur-online-contractor-invoices-api
-- description: The Conversations API from Arthur Online — 11 operation(s) for conversations.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Conversations API from Arthur Online — 11 operation(s) for conversations.
   name: Arthur Online Conversations API
   slug: arthur-online-conversations-api
-- description: The Credit Checks API from Arthur Online — 1 operation(s) for credit checks.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Credit Checks API from Arthur Online — 1 operation(s) for credit checks.
   name: Arthur Online Credit Checks API
   slug: arthur-online-credit-checks-api
-- description: The Entities API from Arthur Online — 2 operation(s) for entities.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Entities API from Arthur Online — 2 operation(s) for entities.
   name: Arthur Online Entities API
   slug: arthur-online-entities-api
-- description: The General Information API from Arthur Online — 2 operation(s) for general information.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The General Information API from Arthur Online — 2 operation(s) for general information.
   name: Arthur Online General Information API
   slug: arthur-online-general-information-api
-- description: The Invite API from Arthur Online — 1 operation(s) for invite.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Invite API from Arthur Online — 1 operation(s) for invite.
   name: Arthur Online Invite API
   slug: arthur-online-invite-api
-- description: The Messages API from Arthur Online — 2 operation(s) for messages.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Messages API from Arthur Online — 2 operation(s) for messages.
   name: Arthur Online Messages API
   slug: arthur-online-messages-api
-- description: The Notes API from Arthur Online — 12 operation(s) for notes.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Notes API from Arthur Online — 12 operation(s) for notes.
   name: Arthur Online Notes API
   slug: arthur-online-notes-api
-- description: The Offers API from Arthur Online — 1 operation(s) for offers.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Offers API from Arthur Online — 1 operation(s) for offers.
   name: Arthur Online Offers API
   slug: arthur-online-offers-api
-- description: The Properties API from Arthur Online — 2 operation(s) for properties.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Properties API from Arthur Online — 2 operation(s) for properties.
   name: Arthur Online Properties API
   slug: arthur-online-properties-api
-- description: The Property API from Arthur Online — 1 operation(s) for property.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Property API from Arthur Online — 1 operation(s) for property.
   name: Arthur Online Property API
   slug: arthur-online-property-api
-- description: The Quotes API from Arthur Online — 2 operation(s) for quotes.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Quotes API from Arthur Online — 2 operation(s) for quotes.
   name: Arthur Online Quotes API
   slug: arthur-online-quotes-api
-- description: The Readings API from Arthur Online — 2 operation(s) for readings.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Readings API from Arthur Online — 2 operation(s) for readings.
   name: Arthur Online Readings API
   slug: arthur-online-readings-api
-- description: The Recurrings API from Arthur Online — 2 operation(s) for recurrings.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Recurrings API from Arthur Online — 2 operation(s) for recurrings.
   name: Arthur Online Recurrings API
   slug: arthur-online-recurrings-api
-- description: The Register Deposit API from Arthur Online — 1 operation(s) for register deposit.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Register Deposit API from Arthur Online — 1 operation(s) for register deposit.
   name: Arthur Online Register Deposit API
   slug: arthur-online-register-deposit-api
-- description: The Subtasks API from Arthur Online — 2 operation(s) for subtasks.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Subtasks API from Arthur Online — 2 operation(s) for subtasks.
   name: Arthur Online Subtasks API
   slug: arthur-online-subtasks-api
-- description: The Tags API from Arthur Online — 21 operation(s) for tags.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Tags API from Arthur Online — 21 operation(s) for tags.
   name: Arthur Online Tags API
   slug: arthur-online-tags-api
-- description: The Task API from Arthur Online — 3 operation(s) for task.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Task API from Arthur Online — 3 operation(s) for task.
   name: Arthur Online Task API
   slug: arthur-online-task-api
-- description: The Tasks API from Arthur Online — 26 operation(s) for tasks.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Tasks API from Arthur Online — 26 operation(s) for tasks.
   name: Arthur Online Tasks API
   slug: arthur-online-tasks-api
-- description: The Tenancies API from Arthur Online — 5 operation(s) for tenancies.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Tenancies API from Arthur Online — 5 operation(s) for tenancies.
   name: Arthur Online Tenancies API
   slug: arthur-online-tenancies-api
-- description: The Tenants API from Arthur Online — 3 operation(s) for tenants.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Tenants API from Arthur Online — 3 operation(s) for tenants.
   name: Arthur Online Tenants API
   slug: arthur-online-tenants-api
-- description: The Transactions API from Arthur Online — 6 operation(s) for transactions.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Transactions API from Arthur Online — 6 operation(s) for transactions.
   name: Arthur Online Transactions API
   slug: arthur-online-transactions-api
-- description: The Types API from Arthur Online — 31 operation(s) for types.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Types API from Arthur Online — 31 operation(s) for types.
   name: Arthur Online Types API
   slug: arthur-online-types-api
-- description: The Units API from Arthur Online — 3 operation(s) for units.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Units API from Arthur Online — 3 operation(s) for units.
   name: Arthur Online Units API
   slug: arthur-online-units-api
-- description: The Utilities API from Arthur Online — 4 operation(s) for utilities.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Utilities API from Arthur Online — 4 operation(s) for utilities.
   name: Arthur Online Utilities API
   slug: arthur-online-utilities-api
-- description: The Viewings API from Arthur Online — 5 operation(s) for viewings.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Viewings API from Arthur Online — 5 operation(s) for viewings.
   name: Arthur Online Viewings API
   slug: arthur-online-viewings-api
-- description: The Workorders API from Arthur Online — 29 operation(s) for workorders.
+- baseURL: https://api.arthuronline.co.uk/v2
+  baseurl_source: declared
+  description: The Workorders API from Arthur Online — 29 operation(s) for workorders.
   name: Arthur Online Workorders API
   slug: arthur-online-workorders-api
 arazzos:
@@ -502,7 +579,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -512,7 +589,7 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 31.6
-  previous_composite: 50.5
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -534,7 +611,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/screenshots/arthur-online-2026-08-07T161741.png
 security:

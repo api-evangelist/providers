@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 121 operations · 55 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The analytics API from Resourcly — 7 operation(s) for analytics.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The analytics API from Resourcly — 7 operation(s) for analytics.
   name: Resourcly analytics API
   slug: resourcly-analytics-api
-- description: The auth API from Resourcly — 1 operation(s) for auth.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The auth API from Resourcly — 1 operation(s) for auth.
   name: Resourcly auth API
   slug: resourcly-auth-api
-- description: The bom-comparisons API from Resourcly — 4 operation(s) for bom-comparisons.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The bom-comparisons API from Resourcly — 4 operation(s) for bom-comparisons.
   name: Resourcly bom-comparisons API
   slug: resourcly-bom-comparisons-api
-- description: The boms API from Resourcly — 8 operation(s) for boms.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The boms API from Resourcly — 8 operation(s) for boms.
   name: Resourcly boms API
   slug: resourcly-boms-api
-- description: The business API from Resourcly — 2 operation(s) for business.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The business API from Resourcly — 2 operation(s) for business.
   name: Resourcly business API
   slug: resourcly-business-api
-- description: The datasources API from Resourcly — 11 operation(s) for datasources.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The datasources API from Resourcly — 11 operation(s) for datasources.
   name: Resourcly datasources API
   slug: resourcly-datasources-api
-- description: The documents API from Resourcly — 4 operation(s) for documents.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The documents API from Resourcly — 4 operation(s) for documents.
   name: Resourcly documents API
   slug: resourcly-documents-api
-- description: The drive API from Resourcly — 10 operation(s) for drive.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The drive API from Resourcly — 10 operation(s) for drive.
   name: Resourcly drive API
   slug: resourcly-drive-api
-- description: The duplicates API from Resourcly — 1 operation(s) for duplicates.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The duplicates API from Resourcly — 1 operation(s) for duplicates.
   name: Resourcly duplicates API
   slug: resourcly-duplicates-api
-- description: The email API from Resourcly — 1 operation(s) for email.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The email API from Resourcly — 1 operation(s) for email.
   name: Resourcly email API
   slug: resourcly-email-api
-- description: The feedback API from Resourcly — 1 operation(s) for feedback.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The feedback API from Resourcly — 1 operation(s) for feedback.
   name: Resourcly feedback API
   slug: resourcly-feedback-api
-- description: The health API from Resourcly — 3 operation(s) for health.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The health API from Resourcly — 3 operation(s) for health.
   name: Resourcly health API
   slug: resourcly-health-api
-- description: The imports API from Resourcly — 6 operation(s) for imports.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The imports API from Resourcly — 6 operation(s) for imports.
   name: Resourcly imports API
   slug: resourcly-imports-api
-- description: The inventory API from Resourcly — 10 operation(s) for inventory.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The inventory API from Resourcly — 10 operation(s) for inventory.
   name: Resourcly inventory API
   slug: resourcly-inventory-api
-- description: The Items API from Resourcly — 15 operation(s) for items.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The Items API from Resourcly — 15 operation(s) for items.
   name: Resourcly Items API
   slug: resourcly-items-api
-- description: The release-notes API from Resourcly — 1 operation(s) for release-notes.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The release-notes API from Resourcly — 1 operation(s) for release-notes.
   name: Resourcly release-notes API
   slug: resourcly-release-notes-api
-- description: The search API from Resourcly — 5 operation(s) for search.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The search API from Resourcly — 5 operation(s) for search.
   name: Resourcly search API
   slug: resourcly-search-api
-- description: The storage API from Resourcly — 7 operation(s) for storage.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The storage API from Resourcly — 7 operation(s) for storage.
   name: Resourcly storage API
   slug: resourcly-storage-api
-- description: The supplier-data-requests API from Resourcly — 5 operation(s) for supplier-data-requests.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The supplier-data-requests API from Resourcly — 5 operation(s) for supplier-data-requests.
   name: Resourcly supplier-data-requests API
   slug: resourcly-supplier-data-requests-api
-- description: The supplier-portal API from Resourcly — 5 operation(s) for supplier-portal.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The supplier-portal API from Resourcly — 5 operation(s) for supplier-portal.
   name: Resourcly supplier-portal API
   slug: resourcly-supplier-portal-api
-- description: The suppliers API from Resourcly — 4 operation(s) for suppliers.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The suppliers API from Resourcly — 4 operation(s) for suppliers.
   name: Resourcly suppliers API
   slug: resourcly-suppliers-api
-- description: The upload API from Resourcly — 1 operation(s) for upload.
+- baseURL: https://api.resourcly.com/v1
+  baseurl_source: declared
+  description: The upload API from Resourcly — 1 operation(s) for upload.
   name: Resourcly upload API
   slug: resourcly-upload-api
 artifact_total: 49
@@ -290,7 +334,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -316,8 +360,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/screenshots/resourcly-2026-09-02T153551.png
 security:
 - kind: authentication
   name: Resourcly Authentication

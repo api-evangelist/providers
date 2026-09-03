@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 237 operations · 142 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Authentication and Account resources on the Losant Platform.
+- baseURL: https://api.losant.com
+  baseurl_source: declared
+  description: Authentication and Account resources on the Losant Platform.
   name: Losant Authentication and Account API
   slug: losant-authentication-and-account-api
-- description: Data and Data Tables resources on the Losant Platform.
+- baseURL: https://api.losant.com
+  baseurl_source: declared
+  description: Data and Data Tables resources on the Losant Platform.
   name: Losant Data and Data Tables API
   slug: losant-data-and-data-tables-api
-- description: Edge and Embedded Compute resources on the Losant Platform.
+- baseURL: https://api.losant.com
+  baseurl_source: declared
+  description: Edge and Embedded Compute resources on the Losant Platform.
   name: Losant Edge and Embedded Compute API
   slug: losant-edge-and-embedded-compute-api
-- description: Enterprise Instance resources on the Losant Platform.
+- baseURL: https://api.losant.com
+  baseurl_source: declared
+  description: Enterprise Instance resources on the Losant Platform.
   name: Losant Enterprise Instance API
   slug: losant-enterprise-instance-api
-- description: Notebooks resources on the Losant Platform.
+- baseURL: https://api.losant.com
+  baseurl_source: declared
+  description: Notebooks resources on the Losant Platform.
   name: Losant Notebooks API
   slug: losant-notebooks-api
-- description: Workflow Engine resources on the Losant Platform.
+- baseURL: https://api.losant.com
+  baseurl_source: declared
+  description: Workflow Engine resources on the Losant Platform.
   name: Losant Workflow Engine API
   slug: losant-workflow-engine-api
 artifact_total: 69
@@ -608,7 +620,7 @@ score:
     catalog_gap: 24.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -618,7 +630,7 @@ score:
     discoverability: 74.1
     governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 81.2
+  previous_composite: 81.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -630,7 +642,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: The Azure Data Lake Storage Gen2 REST APIs allow interaction with Azure Blob Storage through a file system interface. They enable creation and management of file systems, directories, and files on sto
   name: Azure Data Lake Storage Gen2 REST API
   slug: azure-data-lake-storage-gen2-rest-api
-- description: Operations specific to append blobs including append block
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: Operations specific to append blobs including append block
   name: Azure Blob Storage Append Blobs API
   slug: microsoft-azure-blob-storage-append-blobs-api
-- description: The Azure Blob Storage REST API API from Azure Blob Storage — 1 operation(s) for azure blob storage rest api.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The Azure Blob Storage REST API API from Azure Blob Storage — 1 operation(s) for azure blob storage rest api.
   name: Azure Blob Storage Azure Blob Storage REST API API
   slug: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
-- description: Operations on blobs including get, put, delete, and metadata
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: Operations on blobs including get, put, delete, and metadata
   name: Azure Blob Storage Blobs API
   slug: microsoft-azure-blob-storage-blobs-api
-- description: Operations specific to block blobs including put block and put block list
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: Operations specific to block blobs including put block and put block list
   name: Azure Blob Storage Block Blobs API
   slug: microsoft-azure-blob-storage-block-blobs-api
-- description: The ?comp=blobs API from Azure Blob Storage — 1 operation(s) for ?comp=blobs.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ?comp=blobs API from Azure Blob Storage — 1 operation(s) for ?comp=blobs.
   name: Azure Blob Storage ?comp=blobs API
   slug: microsoft-azure-blob-storage-comp-blobs-api
-- description: Operations on blob containers
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: Operations on blob containers
   name: Azure Blob Storage Containers API
   slug: microsoft-azure-blob-storage-containers-api
-- description: Operations specific to page blobs including put page and get page ranges
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: Operations specific to page blobs including put page and get page ranges
   name: Azure Blob Storage Page Blobs API
   slug: microsoft-azure-blob-storage-page-blobs-api
-- description: The ?restype=service&comp=batch API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=batch.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ?restype=service&comp=batch API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=batch.
   name: Azure Blob Storage ?restype=service&comp=batch API
   slug: microsoft-azure-blob-storage-restype-service-comp-batch-api
-- description: The ?restype=service&comp=properties API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=properties.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ?restype=service&comp=properties API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=properties.
   name: Azure Blob Storage ?restype=service&comp=properties API
   slug: microsoft-azure-blob-storage-restype-service-comp-properties-api
-- description: The ?restype=service&comp=stats API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=stats.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ?restype=service&comp=stats API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=stats.
   name: Azure Blob Storage ?restype=service&comp=stats API
   slug: microsoft-azure-blob-storage-restype-service-comp-stats-api
-- description: The ?restype=service&comp=userdelegationkey API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=userdelegationkey.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ?restype=service&comp=userdelegationkey API from Azure Blob Storage — 1 operation(s) for ?restype=service&comp=userdelegationkey.
   name: Azure Blob Storage ?restype=service&comp=userdelegationkey API
   slug: microsoft-azure-blob-storage-restype-service-comp-userdelegationkey-api
 artifact_total: 52
@@ -373,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/screenshots/microsoft-azure-blob-storage-2026-06-20T185402.png
 security:

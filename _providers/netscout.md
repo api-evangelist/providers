@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
 - description: RESTful interface for the nGeniusONE platform, enabling network performance monitoring, analytics, and service assurance automation.
@@ -179,7 +179,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netscout/refs/heads/main/screenshots/netscout-2026-06-20T190205.png
 security:

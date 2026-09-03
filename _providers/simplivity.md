@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 87 operations · 51 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: A backup is a complete, standalone image of a specific virtual machine, taken at a specific point in time.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A backup is a complete, standalone image of a specific virtual machine, taken at a specific point in time.
   name: SimpliVity backups API
   slug: simplivity-backups-api
-- description: A set of omnistack_clusters that are able to perform backup and restore operations between each other
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A set of omnistack_clusters that are able to perform backup and restore operations between each other
   name: SimpliVity cluster_groups API
   slug: simplivity-cluster-groups-api
-- description: A datastore is a data repository of files that constitute virtual machines.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A datastore is a data repository of files that constitute virtual machines.
   name: SimpliVity datastores API
   slug: simplivity-datastores-api
-- description: An external (non HPE SimpliVity) destination for storing backups, such as an HPE StoreOnce Catalyst store
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: An external (non HPE SimpliVity) destination for storing backups, such as an HPE StoreOnce Catalyst store
   name: SimpliVity external_stores API
   slug: simplivity-external-stores-api
-- description: A host is a virtual object that uses HPE OmniStack software in a federation.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A host is a virtual object that uses HPE OmniStack software in a federation.
   name: SimpliVity hosts API
   slug: simplivity-hosts-api
-- description: An omnistack_cluster is a logical grouping of systems that run the HPE OmniStack software. The user defines an omnistack_cluster to efficiently share resources across the systems.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: An omnistack_cluster is a logical grouping of systems that run the HPE OmniStack software. The user defines an omnistack_cluster to efficiently share resources across the systems.
   name: SimpliVity omnistack_clusters API
   slug: simplivity-omnistack-clusters-api
-- description: A policy contains backup rules that can be applied to an individual datastore or virtual_machine.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A policy contains backup rules that can be applied to an individual datastore or virtual_machine.
   name: SimpliVity policies API
   slug: simplivity-policies-api
-- description: Includes the REST APIs that support security operations for HPE SimpliVity objects
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: Includes the REST APIs that support security operations for HPE SimpliVity objects
   name: SimpliVity security API
   slug: simplivity-security-api
-- description: A task is created by the system to enable a client to track state changes where a managed object moves when it is created or modified.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A task is created by the system to enable a client to track state changes where a managed object moves when it is created or modified.
   name: SimpliVity tasks API
   slug: simplivity-tasks-api
-- description: A virtual_machine represents a single virtual machine created within an HPE SimpliVity datastore.
+- baseURL: https://management-virtual-appliance/api
+  baseurl_source: declared
+  description: A virtual_machine represents a single virtual machine created within an HPE SimpliVity datastore.
   name: SimpliVity virtual_machines API
   slug: simplivity-virtual-machines-api
 artifact_total: 26
@@ -231,7 +251,7 @@ score:
   band: thin
   composite: 31.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -260,8 +280,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/screenshots/simplivity-2026-09-02T155554.png
 security:
 - kind: authentication
   name: Simplivity Authentication

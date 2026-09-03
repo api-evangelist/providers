@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 20 operations · 13 acting
 api_count: 1
 apis:
-- description: Account creation, login, token, and session operations
+- baseURL: https://app.jadediabetes.com/api/1.0
+  baseurl_source: declared
+  description: Account creation, login, token, and session operations
   name: Manage BGL Authentication API
   slug: manage-bgl-authentication-api
-- description: Creating, updating, deleting, and extracting diabetes log data
+- baseURL: https://app.jadediabetes.com/api/1.0
+  baseurl_source: declared
+  description: Creating, updating, deleting, and extracting diabetes log data
   name: Manage BGL Logs API
   slug: manage-bgl-logs-api
-- description: Subscriber-only BGL prediction and dose features
+- baseURL: https://app.jadediabetes.com/api/1.0
+  baseurl_source: declared
+  description: Subscriber-only BGL prediction and dose features
   name: Manage BGL Predictions API
   slug: manage-bgl-predictions-api
-- description: User ratios and configuration
+- baseURL: https://app.jadediabetes.com/api/1.0
+  baseurl_source: declared
+  description: User ratios and configuration
   name: Manage BGL Settings API
   slug: manage-bgl-settings-api
-- description: Health checks and operational status
+- baseURL: https://app.jadediabetes.com/api/1.0
+  baseurl_source: declared
+  description: Health checks and operational status
   name: Manage BGL System API
   slug: manage-bgl-system-api
 artifact_total: 15
@@ -232,7 +242,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/screenshots/manage-bgl-2026-07-25T230015.png
 security:

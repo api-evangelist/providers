@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 26 operations · 26 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=AWSStepFunctions.CreateActivity API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.createactivity.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.CreateActivity API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.createactivity.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.CreateActivity API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-createactivity-api
-- description: 'The #X Amz Target=AWSStepFunctions.CreateStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.createstatemachine.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.CreateStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.createstatemachine.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.CreateStateMachine API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-createstatemachine-api
-- description: 'The #X Amz Target=AWSStepFunctions.DeleteActivity API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.deleteactivity.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DeleteActivity API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.deleteactivity.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DeleteActivity API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-deleteactivity-api
-- description: 'The #X Amz Target=AWSStepFunctions.DeleteStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.deletestatemachine.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DeleteStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.deletestatemachine.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DeleteStateMachine API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-deletestatemachine-api
-- description: 'The #X Amz Target=AWSStepFunctions.DescribeActivity API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describeactivity.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DescribeActivity API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describeactivity.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeActivity API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-describeactivity-api
-- description: 'The #X Amz Target=AWSStepFunctions.DescribeExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describeexecution.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DescribeExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describeexecution.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeExecution API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-describeexecution-api
-- description: 'The #X Amz Target=AWSStepFunctions.DescribeMapRun API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describemaprun.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DescribeMapRun API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describemaprun.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeMapRun API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-describemaprun-api
-- description: 'The #X Amz Target=AWSStepFunctions.DescribeStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describestatemachine.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DescribeStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describestatemachine.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeStateMachine API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-describestatemachine-api
-- description: 'The #X Amz Target=AWSStepFunctions.DescribeStateMachineForExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describestatemachineforexecution.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.DescribeStateMachineForExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.describestatemachineforexecution.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.DescribeStateMachineForExecution API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-describestatemachineforexecution-api
-- description: 'The #X Amz Target=AWSStepFunctions.GetActivityTask API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.getactivitytask.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.GetActivityTask API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.getactivitytask.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.GetActivityTask API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-getactivitytask-api
-- description: 'The #X Amz Target=AWSStepFunctions.GetExecutionHistory API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.getexecutionhistory.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.GetExecutionHistory API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.getexecutionhistory.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.GetExecutionHistory API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-getexecutionhistory-api
-- description: 'The #X Amz Target=AWSStepFunctions.ListActivities API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listactivities.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.ListActivities API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listactivities.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListActivities API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-listactivities-api
-- description: 'The #X Amz Target=AWSStepFunctions.ListExecutions API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listexecutions.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.ListExecutions API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listexecutions.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListExecutions API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-listexecutions-api
-- description: 'The #X Amz Target=AWSStepFunctions.ListMapRuns API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listmapruns.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.ListMapRuns API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listmapruns.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListMapRuns API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-listmapruns-api
-- description: 'The #X Amz Target=AWSStepFunctions.ListStateMachines API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.liststatemachines.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.ListStateMachines API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.liststatemachines.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListStateMachines API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-liststatemachines-api
-- description: 'The #X Amz Target=AWSStepFunctions.ListTagsForResource API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listtagsforresource.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.ListTagsForResource API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.listtagsforresource.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.ListTagsForResource API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-listtagsforresource-api
-- description: 'The #X Amz Target=AWSStepFunctions.SendTaskFailure API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.sendtaskfailure.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.SendTaskFailure API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.sendtaskfailure.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.SendTaskFailure API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-sendtaskfailure-api
-- description: 'The #X Amz Target=AWSStepFunctions.SendTaskHeartbeat API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.sendtaskheartbeat.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.SendTaskHeartbeat API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.sendtaskheartbeat.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.SendTaskHeartbeat API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-sendtaskheartbeat-api
-- description: 'The #X Amz Target=AWSStepFunctions.SendTaskSuccess API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.sendtasksuccess.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.SendTaskSuccess API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.sendtasksuccess.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.SendTaskSuccess API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-sendtasksuccess-api
-- description: 'The #X Amz Target=AWSStepFunctions.StartExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.startexecution.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.StartExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.startexecution.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.StartExecution API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-startexecution-api
-- description: 'The #X Amz Target=AWSStepFunctions.StartSyncExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.startsyncexecution.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.StartSyncExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.startsyncexecution.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.StartSyncExecution API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-startsyncexecution-api
-- description: 'The #X Amz Target=AWSStepFunctions.StopExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.stopexecution.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.StopExecution API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.stopexecution.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.StopExecution API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-stopexecution-api
-- description: 'The #X Amz Target=AWSStepFunctions.TagResource API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.tagresource.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.TagResource API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.tagresource.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.TagResource API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-tagresource-api
-- description: 'The #X Amz Target=AWSStepFunctions.UntagResource API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.untagresource.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.UntagResource API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.untagresource.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.UntagResource API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-untagresource-api
-- description: 'The #X Amz Target=AWSStepFunctions.UpdateMapRun API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatemaprun.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.UpdateMapRun API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatemaprun.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.UpdateMapRun API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-updatemaprun-api
-- description: 'The #X Amz Target=AWSStepFunctions.UpdateStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatestatemachine.'
+- baseURL: https://states.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSStepFunctions.UpdateStateMachine API from AWS Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatestatemachine.'
   name: 'AWS Step Functions #X Amz Target=AWSStepFunctions.UpdateStateMachine API'
   slug: aws-step-functions-x-amz-target-awsstepfunctions-updatestatemachine-api
 artifact_total: 625
@@ -2018,7 +2070,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/screenshots/aws-step-functions-2026-06-20T172818.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 18 operations · 14 acting
 api_count: 1
 apis:
-- description: AI-driven automated emissions calculation.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: AI-driven automated emissions calculation.
   name: Climatiq Autopilot API
   slug: climatiq-autopilot-api
-- description: EU Carbon Border Adjustment Mechanism reporting.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: EU Carbon Border Adjustment Mechanism reporting.
   name: Climatiq CBAM API
   slug: climatiq-cbam-api
-- description: Industry classification mappings for emission factors.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Industry classification mappings for emission factors.
   name: Climatiq Classifications API
   slug: climatiq-classifications-api
-- description: Cloud computing carbon footprint.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Cloud computing carbon footprint.
   name: Climatiq Computing API
   slug: climatiq-computing-api
-- description: Emissions from electricity, heat, and fuel consumption.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Emissions from electricity, heat, and fuel consumption.
   name: Climatiq Energy API
   slug: climatiq-energy-api
-- description: Activity-based emission estimation.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Activity-based emission estimation.
   name: Climatiq Estimate API
   slug: climatiq-estimate-api
-- description: Multi-modal freight emissions using GLEC factors.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Multi-modal freight emissions using GLEC factors.
   name: Climatiq Freight API
   slug: climatiq-freight-api
-- description: Spend-based emissions for purchased goods and services.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Spend-based emissions for purchased goods and services.
   name: Climatiq Procurement API
   slug: climatiq-procurement-api
-- description: Reference data such as regions and unit types.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Reference data such as regions and unit types.
   name: Climatiq Reference API
   slug: climatiq-reference-api
-- description: Discover emission factors in the Climatiq dataset.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Discover emission factors in the Climatiq dataset.
   name: Climatiq Search API
   slug: climatiq-search-api
-- description: Emissions from passenger travel and accommodation.
+- baseURL: https://api.climatiq.io
+  baseurl_source: declared
+  description: Emissions from passenger travel and accommodation.
   name: Climatiq Travel API
   slug: climatiq-travel-api
 artifact_total: 45
@@ -340,7 +362,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-08-17T083614.png
 security:

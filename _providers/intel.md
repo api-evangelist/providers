@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 2
 apis:
-- description: Attestation verification operations
+- baseURL: https://api.trustauthority.intel.com
+  baseurl_source: declared
+  description: Attestation verification operations
   name: intel Attestation API
   slug: intel-attestation-api
-- description: Policy management operations
+- baseURL: https://api.trustauthority.intel.com
+  baseurl_source: declared
+  description: Policy management operations
   name: intel Policies API
   slug: intel-policies-api
-- description: Token management operations
+- baseURL: https://api.trustauthority.intel.com
+  baseurl_source: declared
+  description: Token management operations
   name: intel Tokens API
   slug: intel-tokens-api
-- description: Developer tools and toolkit operations
+- baseURL: https://api.trustauthority.intel.com
+  baseurl_source: declared
+  description: Developer tools and toolkit operations
   name: intel Tools API
   slug: intel-tools-api
 artifact_total: 17
@@ -115,13 +123,13 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intel.png
 layout: provider
 modified: '2026-05-19'
-name: intel
+name: Intel
 nav: Providers
 network: true
-overview: 'intel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Attestation API, Policies API, Tokens API, and 1 more. Tagged areas include Fortune 100.
+overview: 'Intel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Attestation API, Policies API, Tokens API, and 1 more. Tagged areas include Fortune 100.
 
 
-  intel''s developer surface includes engineering blog and 5 more developer resources.'
+  Intel''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Intel Plans Pricing
   plan_count: 3
@@ -174,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/screenshots/intel-2026-06-20T183445.png
 security:

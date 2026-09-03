@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Commands API from Arc Prize Foundation — 8 operation(s) for commands.
+- baseURL: https://three.arcprize.org
+  baseurl_source: declared
+  description: The Commands API from Arc Prize Foundation — 8 operation(s) for commands.
   name: Arc Prize Foundation Commands API
   slug: arc-prize-foundation-commands-api
-- description: The Games API from Arc Prize Foundation — 1 operation(s) for games.
+- baseURL: https://three.arcprize.org
+  baseurl_source: declared
+  description: The Games API from Arc Prize Foundation — 1 operation(s) for games.
   name: Arc Prize Foundation Games API
   slug: arc-prize-foundation-games-api
-- description: The Scorecards API from Arc Prize Foundation — 4 operation(s) for scorecards.
+- baseURL: https://three.arcprize.org
+  baseurl_source: declared
+  description: The Scorecards API from Arc Prize Foundation — 4 operation(s) for scorecards.
   name: Arc Prize Foundation Scorecards API
   slug: arc-prize-foundation-scorecards-api
 artifact_total: 10
@@ -198,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/screenshots/arc-prize-foundation-2026-07-25T201009.png
 security:

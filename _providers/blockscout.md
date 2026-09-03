@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,46 +55,74 @@ apis:
 - description: Hosted multi-chain Blockscout API with unified routes, plans, and credit-based metering. Replaces the older MyAccount API; old keys do not work on PRO routes.
   name: Blockscout PRO API
   slug: pro-api
-- description: The Addresses API from Blockscout — 15 operation(s) for addresses.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Addresses API from Blockscout — 15 operation(s) for addresses.
   name: Blockscout Addresses API
   slug: blockscout-addresses-api
-- description: The Blocks API from Blockscout — 4 operation(s) for blocks.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Blocks API from Blockscout — 4 operation(s) for blocks.
   name: Blockscout Blocks API
   slug: blockscout-blocks-api
-- description: The CelestiaService API from Blockscout — 3 operation(s) for celestiaservice.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The CelestiaService API from Blockscout — 3 operation(s) for celestiaservice.
   name: Blockscout CelestiaService API
   slug: blockscout-celestiaservice-api
-- description: The Config API from Blockscout — 1 operation(s) for config.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Config API from Blockscout — 1 operation(s) for config.
   name: Blockscout Config API
   slug: blockscout-config-api
-- description: The Internal Transactions API from Blockscout — 1 operation(s) for internal transactions.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Internal Transactions API from Blockscout — 1 operation(s) for internal transactions.
   name: Blockscout Internal Transactions API
   slug: blockscout-internal-transactions-api
-- description: The Main Page API from Blockscout — 3 operation(s) for main page.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Main Page API from Blockscout — 3 operation(s) for main page.
   name: Blockscout Main Page API
   slug: blockscout-main-page-api
-- description: The Proxy API from Blockscout — 1 operation(s) for proxy.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Proxy API from Blockscout — 1 operation(s) for proxy.
   name: Blockscout Proxy API
   slug: blockscout-proxy-api
-- description: The Search API from Blockscout — 2 operation(s) for search.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Search API from Blockscout — 2 operation(s) for search.
   name: Blockscout Search API
   slug: blockscout-search-api
-- description: The Smart Contracts API from Blockscout — 3 operation(s) for smart contracts.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Smart Contracts API from Blockscout — 3 operation(s) for smart contracts.
   name: Blockscout Smart Contracts API
   slug: blockscout-smart-contracts-api
-- description: The Stats API from Blockscout — 3 operation(s) for stats.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Stats API from Blockscout — 3 operation(s) for stats.
   name: Blockscout Stats API
   slug: blockscout-stats-api
-- description: The Token Transfers API from Blockscout — 1 operation(s) for token transfers.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Token Transfers API from Blockscout — 1 operation(s) for token transfers.
   name: Blockscout Token Transfers API
   slug: blockscout-token-transfers-api
-- description: The Tokens API from Blockscout — 11 operation(s) for tokens.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Tokens API from Blockscout — 11 operation(s) for tokens.
   name: Blockscout Tokens API
   slug: blockscout-tokens-api
-- description: The Transactions API from Blockscout — 8 operation(s) for transactions.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Transactions API from Blockscout — 8 operation(s) for transactions.
   name: Blockscout Transactions API
   slug: blockscout-transactions-api
-- description: The Withdrawals API from Blockscout — 1 operation(s) for withdrawals.
+- baseURL: https://eth.blockscout.com/api/v2
+  baseurl_source: declared
+  description: The Withdrawals API from Blockscout — 1 operation(s) for withdrawals.
   name: Blockscout Withdrawals API
   slug: blockscout-withdrawals-api
 artifact_total: 40
@@ -252,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/screenshots/blockscout-2026-06-20T173404.png
 security:

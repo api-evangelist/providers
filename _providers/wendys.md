@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 3
 common:
@@ -77,13 +77,13 @@ jsonld:
   slug: wendys-context
 layout: provider
 modified: '2026-05-03'
-name: wendys
+name: Wendys
 nav: Providers
 network: true
-overview: 'wendys is profiled on the [APIs.io](https://apis.io/) network.
+overview: 'Wendys is profiled on the [APIs.io](https://apis.io/) network.
 
 
-  The wendys catalog on APIs.io includes 1 JSON-LD context.'
+  The Wendys catalog on APIs.io includes 1 JSON-LD context.'
 press:
 - date: '2026-05-25'
   title: Wendy's Taps Google Cloud to Revolutionize the Drive ...
@@ -122,10 +122,10 @@ score:
   previous_composite: 9.7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wendys/refs/heads/main/screenshots/wendys-2026-06-20T201353.png
 security:

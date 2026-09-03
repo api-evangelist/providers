@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 33 operations · 20 acting
 api_count: 1
 apis:
-- description: The Agent API from Amazon Ground Station — 3 operation(s) for agent.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Agent API from Amazon Ground Station — 3 operation(s) for agent.
   name: Amazon Ground Station Agent API
   slug: amazon-ground-station-agent-api
-- description: The Config API from Amazon Ground Station — 2 operation(s) for config.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Config API from Amazon Ground Station — 2 operation(s) for config.
   name: Amazon Ground Station Config API
   slug: amazon-ground-station-config-api
-- description: The Contact API from Amazon Ground Station — 2 operation(s) for contact.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Contact API from Amazon Ground Station — 2 operation(s) for contact.
   name: Amazon Ground Station Contact API
   slug: amazon-ground-station-contact-api
-- description: The Contacts API from Amazon Ground Station — 1 operation(s) for contacts.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Contacts API from Amazon Ground Station — 1 operation(s) for contacts.
   name: Amazon Ground Station Contacts API
   slug: amazon-ground-station-contacts-api
-- description: The DataflowEndpointGroup API from Amazon Ground Station — 2 operation(s) for dataflowendpointgroup.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The DataflowEndpointGroup API from Amazon Ground Station — 2 operation(s) for dataflowendpointgroup.
   name: Amazon Ground Station DataflowEndpointGroup API
   slug: amazon-ground-station-dataflowendpointgroup-api
-- description: The Ephemerides API from Amazon Ground Station — 1 operation(s) for ephemerides.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Ephemerides API from Amazon Ground Station — 1 operation(s) for ephemerides.
   name: Amazon Ground Station Ephemerides API
   slug: amazon-ground-station-ephemerides-api
-- description: The Ephemeris API from Amazon Ground Station — 2 operation(s) for ephemeris.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Ephemeris API from Amazon Ground Station — 2 operation(s) for ephemeris.
   name: Amazon Ground Station Ephemeris API
   slug: amazon-ground-station-ephemeris-api
-- description: The Groundstation API from Amazon Ground Station — 1 operation(s) for groundstation.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Groundstation API from Amazon Ground Station — 1 operation(s) for groundstation.
   name: Amazon Ground Station Groundstation API
   slug: amazon-ground-station-groundstation-api
-- description: The Minute Usage API from Amazon Ground Station — 1 operation(s) for minute usage.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Minute Usage API from Amazon Ground Station — 1 operation(s) for minute usage.
   name: Amazon Ground Station Minute Usage API
   slug: amazon-ground-station-minute-usage-api
-- description: The Missionprofile API from Amazon Ground Station — 2 operation(s) for missionprofile.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Missionprofile API from Amazon Ground Station — 2 operation(s) for missionprofile.
   name: Amazon Ground Station Missionprofile API
   slug: amazon-ground-station-missionprofile-api
-- description: The Satellite API from Amazon Ground Station — 2 operation(s) for satellite.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Satellite API from Amazon Ground Station — 2 operation(s) for satellite.
   name: Amazon Ground Station Satellite API
   slug: amazon-ground-station-satellite-api
-- description: The Tags API from Amazon Ground Station — 2 operation(s) for tags.
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Ground Station — 2 operation(s) for tags.
   name: Amazon Ground Station Tags API
   slug: amazon-ground-station-tags-api
 artifact_total: 578
@@ -1889,7 +1913,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/screenshots/amazon-ground-station-2026-06-20T171659.png
 security:

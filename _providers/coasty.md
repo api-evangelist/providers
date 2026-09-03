@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 72 operations · 42 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: API key management and usage reporting.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: API key management and usage reporting.
   name: Coasty keys API
   slug: coasty-keys-api
-- description: Provision and control managed VMs.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Provision and control managed VMs.
   name: Coasty machines API
   slug: coasty-machines-api
-- description: Stateless CUA action prediction and grounding.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Stateless CUA action prediction and grounding.
   name: Coasty predict API
   slug: coasty-predict-api
-- description: Autonomous task runs — the agent drives a task to completion on a machine.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Autonomous task runs — the agent drives a task to completion on a machine.
   name: Coasty runs API
   slug: coasty-runs-api
-- description: Cron and one-shot scheduled CUA jobs.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Cron and one-shot scheduled CUA jobs.
   name: Coasty schedules API
   slug: coasty-schedules-api
-- description: Stateful CUA sessions with persistent trajectory.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Stateful CUA sessions with persistent trajectory.
   name: Coasty sessions API
   slug: coasty-sessions-api
-- description: Webhook and chain triggers for schedules.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Webhook and chain triggers for schedules.
   name: Coasty triggers API
   slug: coasty-triggers-api
-- description: Versioned, branching multi-step automations (DSL) and their runs.
+- baseURL: https://coasty.ai
+  baseurl_source: declared
+  description: Versioned, branching multi-step automations (DSL) and their runs.
   name: Coasty workflows API
   slug: coasty-workflows-api
 artifact_total: 33
@@ -314,7 +330,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -324,7 +340,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 59.0
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,7 +352,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

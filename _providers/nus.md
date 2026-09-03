@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 3
@@ -65,13 +65,19 @@ apis:
 - description: NUS is one of fourteen identity providers registered in the Singapore Access Federation, which SingAREN operates and which interfederates with eduGAIN. The entityID NUS is registered under is a Simple
   name: NUS entry in the Singapore Access Federation
   slug: sgaf
-- description: OAuth 2.0 / OpenID Connect authorization and token issuance.
+- baseURL: https://vafs.nus.edu.sg/adfs
+  baseurl_source: declared
+  description: OAuth 2.0 / OpenID Connect authorization and token issuance.
   name: National University of Singapore Authorization API
   slug: nus-authorization-api
-- description: Machine-readable metadata describing the identity service and its signing keys.
+- baseURL: https://vafs.nus.edu.sg/adfs
+  baseurl_source: declared
+  description: Machine-readable metadata describing the identity service and its signing keys.
   name: National University of Singapore Discovery API
   slug: nus-discovery-api
-- description: End-user claims and session termination.
+- baseURL: https://vafs.nus.edu.sg/adfs
+  baseurl_source: declared
+  description: End-user claims and session termination.
   name: National University of Singapore Session API
   slug: nus-session-api
 artifact_total: 24
@@ -316,7 +322,7 @@ score:
     catalog_gap: 41.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -326,7 +332,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 41.8
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,8 +348,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png
 security:
 - kind: authentication

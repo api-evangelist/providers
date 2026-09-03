@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 104 operations · 41 acting
 api_count: 2
 apis:
-- description: The API Partners API from Shop-Ware — 2 operation(s) for api partners.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The API Partners API from Shop-Ware — 2 operation(s) for api partners.
   name: Shop-Ware API Partners API
   slug: shop-ware-api-partners-api
-- description: The Appointments API from Shop-Ware — 4 operation(s) for appointments.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Appointments API from Shop-Ware — 4 operation(s) for appointments.
   name: Shop-Ware Appointments API
   slug: shop-ware-appointments-api
-- description: The Assignments API from Shop-Ware — 4 operation(s) for assignments.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Assignments API from Shop-Ware — 4 operation(s) for assignments.
   name: Shop-Ware Assignments API
   slug: shop-ware-assignments-api
-- description: The Canned Jobs API from Shop-Ware — 2 operation(s) for canned jobs.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Canned Jobs API from Shop-Ware — 2 operation(s) for canned jobs.
   name: Shop-Ware Canned Jobs API
   slug: shop-ware-canned-jobs-api
-- description: The Categories API from Shop-Ware — 2 operation(s) for categories.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Categories API from Shop-Ware — 2 operation(s) for categories.
   name: Shop-Ware Categories API
   slug: shop-ware-categories-api
-- description: The Contacts API from Shop-Ware — 2 operation(s) for contacts.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Contacts API from Shop-Ware — 2 operation(s) for contacts.
   name: Shop-Ware Contacts API
   slug: shop-ware-contacts-api
-- description: The Customers API from Shop-Ware — 2 operation(s) for customers.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Customers API from Shop-Ware — 2 operation(s) for customers.
   name: Shop-Ware Customers API
   slug: shop-ware-customers-api
-- description: The Estimates API from Shop-Ware — 2 operation(s) for estimates.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Estimates API from Shop-Ware — 2 operation(s) for estimates.
   name: Shop-Ware Estimates API
   slug: shop-ware-estimates-api
-- description: The GP Exceptions API from Shop-Ware — 2 operation(s) for gp exceptions.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The GP Exceptions API from Shop-Ware — 2 operation(s) for gp exceptions.
   name: Shop-Ware GP Exceptions API
   slug: shop-ware-gp-exceptions-api
-- description: The Integrator Tags API from Shop-Ware — 2 operation(s) for integrator tags.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Integrator Tags API from Shop-Ware — 2 operation(s) for integrator tags.
   name: Shop-Ware Integrator Tags API
   slug: shop-ware-integrator-tags-api
-- description: The Inventory API from Shop-Ware — 3 operation(s) for inventory.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Inventory API from Shop-Ware — 3 operation(s) for inventory.
   name: Shop-Ware Inventory API
   slug: shop-ware-inventory-api
-- description: The Labels API from Shop-Ware — 2 operation(s) for labels.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Labels API from Shop-Ware — 2 operation(s) for labels.
   name: Shop-Ware Labels API
   slug: shop-ware-labels-api
-- description: The Notes API from Shop-Ware — 2 operation(s) for notes.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Notes API from Shop-Ware — 2 operation(s) for notes.
   name: Shop-Ware Notes API
   slug: shop-ware-notes-api
-- description: The Past Recommendations API from Shop-Ware — 2 operation(s) for past recommendations.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Past Recommendations API from Shop-Ware — 2 operation(s) for past recommendations.
   name: Shop-Ware Past Recommendations API
   slug: shop-ware-past-recommendations-api
-- description: The Pay Rates API from Shop-Ware — 3 operation(s) for pay rates.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Pay Rates API from Shop-Ware — 3 operation(s) for pay rates.
   name: Shop-Ware Pay Rates API
   slug: shop-ware-pay-rates-api
-- description: The Payment Transactions API from Shop-Ware — 2 operation(s) for payment transactions.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Payment Transactions API from Shop-Ware — 2 operation(s) for payment transactions.
   name: Shop-Ware Payment Transactions API
   slug: shop-ware-payment-transactions-api
-- description: The Payments API from Shop-Ware — 3 operation(s) for payments.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Payments API from Shop-Ware — 3 operation(s) for payments.
   name: Shop-Ware Payments API
   slug: shop-ware-payments-api
-- description: The Purchase Records API from Shop-Ware — 2 operation(s) for purchase records.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Purchase Records API from Shop-Ware — 2 operation(s) for purchase records.
   name: Shop-Ware Purchase Records API
   slug: shop-ware-purchase-records-api
-- description: The Recommendations API from Shop-Ware — 2 operation(s) for recommendations.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Recommendations API from Shop-Ware — 2 operation(s) for recommendations.
   name: Shop-Ware Recommendations API
   slug: shop-ware-recommendations-api
-- description: The Repair Orders API from Shop-Ware — 5 operation(s) for repair orders.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Repair Orders API from Shop-Ware — 5 operation(s) for repair orders.
   name: Shop-Ware Repair Orders API
   slug: shop-ware-repair-orders-api
-- description: The Services API from Shop-Ware — 2 operation(s) for services.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Services API from Shop-Ware — 2 operation(s) for services.
   name: Shop-Ware Services API
   slug: shop-ware-services-api
-- description: The Shift clocks API from Shop-Ware — 1 operation(s) for shift clocks.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Shift clocks API from Shop-Ware — 1 operation(s) for shift clocks.
   name: Shop-Ware Shift clocks API
   slug: shop-ware-shift-clocks-api
-- description: The Shops API from Shop-Ware — 2 operation(s) for shops.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Shops API from Shop-Ware — 2 operation(s) for shops.
   name: Shop-Ware Shops API
   slug: shop-ware-shops-api
-- description: The Staff Members API from Shop-Ware — 3 operation(s) for staff members.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Staff Members API from Shop-Ware — 3 operation(s) for staff members.
   name: Shop-Ware Staff Members API
   slug: shop-ware-staff-members-api
-- description: The Staff shift clocks API from Shop-Ware — 1 operation(s) for staff shift clocks.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Staff shift clocks API from Shop-Ware — 1 operation(s) for staff shift clocks.
   name: Shop-Ware Staff shift clocks API
   slug: shop-ware-staff-shift-clocks-api
-- description: The Statuses API from Shop-Ware — 2 operation(s) for statuses.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Statuses API from Shop-Ware — 2 operation(s) for statuses.
   name: Shop-Ware Statuses API
   slug: shop-ware-statuses-api
-- description: The Tenants API from Shop-Ware — 2 operation(s) for tenants.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Tenants API from Shop-Ware — 2 operation(s) for tenants.
   name: Shop-Ware Tenants API
   slug: shop-ware-tenants-api
-- description: The Vehicles API from Shop-Ware — 2 operation(s) for vehicles.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Vehicles API from Shop-Ware — 2 operation(s) for vehicles.
   name: Shop-Ware Vehicles API
   slug: shop-ware-vehicles-api
-- description: The Vendors API from Shop-Ware — 2 operation(s) for vendors.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Vendors API from Shop-Ware — 2 operation(s) for vendors.
   name: Shop-Ware Vendors API
   slug: shop-ware-vendors-api
-- description: The Webhooks API from Shop-Ware — 2 operation(s) for webhooks.
+- baseURL: https://api.shop-ware.com
+  baseurl_source: declared
+  description: The Webhooks API from Shop-Ware — 2 operation(s) for webhooks.
   name: Shop-Ware Webhooks API
   slug: shop-ware-webhooks-api
 artifact_total: 67
@@ -368,7 +428,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -378,7 +438,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,7 +456,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shop-ware/refs/heads/main/screenshots/shop-ware-2026-08-17T081834.png
 security:

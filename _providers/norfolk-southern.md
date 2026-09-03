@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: Access gate receipt data, terminal, and driver information, as well as the pickup numbers for equipment.
   name: Norfolk Southern Gate Receipts API
   slug: gate-receipts
-- description: Terminal gate receipt data and equipment information.
+- baseURL: https://api.nscorp.com
+  baseurl_source: declared
+  description: Terminal gate receipt data and equipment information.
   name: Norfolk Southern Gate Receipts API
   slug: norfolk-southern-gate-receipts-api
-- description: Real-time shipment location and status tracking.
+- baseURL: https://api.nscorp.com
+  baseurl_source: declared
+  description: Real-time shipment location and status tracking.
   name: Norfolk Southern Shipment Status API
   slug: norfolk-southern-shipment-status-api
-- description: Shipment route progress and ETA tracking.
+- baseURL: https://api.nscorp.com
+  baseurl_source: declared
+  description: Shipment route progress and ETA tracking.
   name: Norfolk Southern Trip Plan API
   slug: norfolk-southern-trip-plan-api
 artifact_total: 14
@@ -177,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/screenshots/norfolk-southern-2026-06-20T190408.png
 security:

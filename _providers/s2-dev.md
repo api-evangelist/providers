@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 24 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage access tokens
+- baseURL: https://a.s2.dev/v1
+  baseurl_source: declared
+  description: Manage access tokens
   name: S2 Dev access-tokens API
   slug: s2-dev-access-tokens-api
-- description: Manage basins
+- baseURL: https://a.s2.dev/v1
+  baseurl_source: declared
+  description: Manage basins
   name: S2 Dev basins API
   slug: s2-dev-basins-api
-- description: Manage locations
+- baseURL: https://a.s2.dev/v1
+  baseurl_source: declared
+  description: Manage locations
   name: S2 Dev locations API
   slug: s2-dev-locations-api
-- description: Usage metrics and data.
+- baseURL: https://a.s2.dev/v1
+  baseurl_source: declared
+  description: Usage metrics and data.
   name: S2 Dev metrics API
   slug: s2-dev-metrics-api
-- description: Manage records
+- baseURL: https://a.s2.dev/v1
+  baseurl_source: declared
+  description: Manage records
   name: S2 Dev records API
   slug: s2-dev-records-api
-- description: Manage streams
+- baseURL: https://a.s2.dev/v1
+  baseurl_source: declared
+  description: Manage streams
   name: S2 Dev streams API
   slug: s2-dev-streams-api
 artifact_total: 20
@@ -288,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/screenshots/s2-dev-2026-08-17T081704.png
 security:

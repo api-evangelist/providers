@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The admin API from Palenca (Vech) — 4 operation(s) for admin.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The admin API from Palenca (Vech) — 4 operation(s) for admin.
   name: Palenca (Vech) admin API
   slug: palenca-vech-admin-api
-- description: The Check Platform Health API from Palenca (Vech) — 1 operation(s) for check platform health.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The Check Platform Health API from Palenca (Vech) — 1 operation(s) for check platform health.
   name: Palenca (Vech) Check Platform Health API
   slug: palenca-vech-check-platform-health-api
-- description: The console API from Palenca (Vech) — 27 operation(s) for console.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The console API from Palenca (Vech) — 27 operation(s) for console.
   name: Palenca (Vech) console API
   slug: palenca-vech-console-api
-- description: The Ping API from Palenca (Vech) — 1 operation(s) for ping.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The Ping API from Palenca (Vech) — 1 operation(s) for ping.
   name: Palenca (Vech) Ping API
   slug: palenca-vech-ping-api
-- description: The Pong API from Palenca (Vech) — 1 operation(s) for pong.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The Pong API from Palenca (Vech) — 1 operation(s) for pong.
   name: Palenca (Vech) Pong API
   slug: palenca-vech-pong-api
-- description: The v1 API from Palenca (Vech) — 147 operation(s) for v1.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The v1 API from Palenca (Vech) — 147 operation(s) for v1.
   name: Palenca (Vech) v1 API
   slug: palenca-vech-v1-api
-- description: The Version API from Palenca (Vech) — 1 operation(s) for version.
+- baseURL: https://api.palenca.com
+  baseurl_source: declared
+  description: The Version API from Palenca (Vech) — 1 operation(s) for version.
   name: Palenca (Vech) Version API
   slug: palenca-vech-version-api
 artifact_total: 60
@@ -362,7 +376,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -372,7 +386,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 46.5
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     contracts:
@@ -383,7 +397,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:

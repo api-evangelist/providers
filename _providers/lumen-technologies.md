@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The Lumen Network API provides programmatic access to Lumen's network and data services. The Developer Center enables access to simple, global, secure, and reliable network APIs that allow customers t
   name: Lumen Network API
   slug: network-api
-- description: Bandwidth provisioning and adjustment
+- baseURL: https://api.lumen.com
+  baseurl_source: declared
+  description: Bandwidth provisioning and adjustment
   name: Lumen Technologies Bandwidth API
   slug: lumen-technologies-bandwidth-api
-- description: Manage internet connections
+- baseURL: https://api.lumen.com
+  baseurl_source: declared
+  description: Manage internet connections
   name: Lumen Technologies Connections API
   slug: lumen-technologies-connections-api
 artifact_total: 14
@@ -187,7 +191,7 @@ score:
     regime_id: telecommunications
     score: 45.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/screenshots/lumen-technologies-2026-06-20T184754.png
 security:

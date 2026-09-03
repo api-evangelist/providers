@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 25 operations · 8 acting
 api_count: 1
 apis:
-- description: Certification tracks and component completion.
+- baseURL: https://{subdomain}.growthzoneapp.com/api
+  baseurl_source: declared
+  description: Certification tracks and component completion.
   name: GrowthZone Certifications API
   slug: growthzone-certifications-api
-- description: Individuals (persons) and organizations, and their related data.
+- baseURL: https://{subdomain}.growthzoneapp.com/api
+  baseurl_source: declared
+  description: Individuals (persons) and organizations, and their related data.
   name: GrowthZone Contacts API
   slug: growthzone-contacts-api
-- description: Association event calendar and registration (modeled).
+- baseURL: https://{subdomain}.growthzoneapp.com/api
+  baseurl_source: declared
+  description: Association event calendar and registration (modeled).
   name: GrowthZone Events API
   slug: growthzone-events-api
-- description: Groups, categories, and directory listings.
+- baseURL: https://{subdomain}.growthzoneapp.com/api
+  baseurl_source: declared
+  description: Groups, categories, and directory listings.
   name: GrowthZone Groups & Directory API
   slug: growthzone-groups-directory-api
-- description: Membership types and member rosters.
+- baseURL: https://{subdomain}.growthzoneapp.com/api
+  baseurl_source: declared
+  description: Membership types and member rosters.
   name: GrowthZone Memberships API
   slug: growthzone-memberships-api
-- description: Recurring membership billing runs by membership type.
+- baseURL: https://{subdomain}.growthzoneapp.com/api
+  baseurl_source: declared
+  description: Recurring membership billing runs by membership type.
   name: GrowthZone Scheduled Billing API
   slug: growthzone-scheduled-billing-api
 artifact_total: 20
@@ -177,7 +189,7 @@ score:
       marker_coverage: 16.7
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthzone/refs/heads/main/screenshots/growthzone-2026-07-25T220401.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 5 acting
 api_count: 1
 apis:
-- description: Enterprise endpoints for user management and audit logging.
+- baseURL: https://app.sourcebot.dev
+  baseurl_source: declared
+  description: Enterprise endpoints for user management and audit logging.
   name: Sourcebot Enterprise (EE) API
   slug: sourcebot-enterprise-ee-api
-- description: Git history, diff, and file content endpoints.
+- baseURL: https://app.sourcebot.dev
+  baseurl_source: declared
+  description: Git history, diff, and file content endpoints.
   name: Sourcebot Git API
   slug: sourcebot-git-api
-- description: Repository listing and metadata endpoints.
+- baseURL: https://app.sourcebot.dev
+  baseurl_source: declared
+  description: Repository listing and metadata endpoints.
   name: Sourcebot Repositories API
   slug: sourcebot-repositories-api
-- description: Code search and symbol navigation endpoints.
+- baseURL: https://app.sourcebot.dev
+  baseurl_source: declared
+  description: Code search and symbol navigation endpoints.
   name: Sourcebot Search & Navigation API
   slug: sourcebot-search-navigation-api
-- description: System health and version endpoints.
+- baseURL: https://app.sourcebot.dev
+  baseurl_source: declared
+  description: System health and version endpoints.
   name: Sourcebot System API
   slug: sourcebot-system-api
 artifact_total: 15
@@ -243,7 +253,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcebot/refs/heads/main/screenshots/sourcebot-2026-08-17T082010.png
 security:

@@ -33,157 +33,257 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
   name: Wispr AI Analytics API
   slug: wispr-ai-analytics-api
-- description: The Analytics Registry API from Wispr AI — 5 operation(s) for analytics registry.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Analytics Registry API from Wispr AI — 5 operation(s) for analytics registry.
   name: Wispr AI Analytics Registry API
   slug: wispr-ai-analytics-registry-api
-- description: The Attribution Tracking API from Wispr AI — 1 operation(s) for attribution tracking.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Attribution Tracking API from Wispr AI — 1 operation(s) for attribution tracking.
   name: Wispr AI Attribution Tracking API
   slug: wispr-ai-attribution-tracking-api
-- description: The Authentication API from Wispr AI — 38 operation(s) for authentication.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Authentication API from Wispr AI — 38 operation(s) for authentication.
   name: Wispr AI Authentication API
   slug: wispr-ai-authentication-api
-- description: The Automations API from Wispr AI — 3 operation(s) for automations.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Automations API from Wispr AI — 3 operation(s) for automations.
   name: Wispr AI Automations API
   slug: wispr-ai-automations-api
-- description: The Calendar API from Wispr AI — 6 operation(s) for calendar.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Calendar API from Wispr AI — 6 operation(s) for calendar.
   name: Wispr AI Calendar API
   slug: wispr-ai-calendar-api
-- description: The Connectors API from Wispr AI — 6 operation(s) for connectors.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Connectors API from Wispr AI — 6 operation(s) for connectors.
   name: Wispr AI Connectors API
   slug: wispr-ai-connectors-api
-- description: The Cost Centers API from Wispr AI — 4 operation(s) for cost centers.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Cost Centers API from Wispr AI — 4 operation(s) for cost centers.
   name: Wispr AI Cost Centers API
   slug: wispr-ai-cost-centers-api
-- description: The Dash API from Wispr AI — 7 operation(s) for dash.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Dash API from Wispr AI — 7 operation(s) for dash.
   name: Wispr AI Dash API
   slug: wispr-ai-dash-api
-- description: The Dictionary API from Wispr AI — 5 operation(s) for dictionary.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Dictionary API from Wispr AI — 5 operation(s) for dictionary.
   name: Wispr AI Dictionary API
   slug: wispr-ai-dictionary-api
-- description: The Enterpret API from Wispr AI — 1 operation(s) for enterpret.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Enterpret API from Wispr AI — 1 operation(s) for enterpret.
   name: Wispr AI Enterpret API
   slug: wispr-ai-enterpret-api
-- description: The Enterprise API from Wispr AI — 41 operation(s) for enterprise.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Enterprise API from Wispr AI — 41 operation(s) for enterprise.
   name: Wispr AI Enterprise API
   slug: wispr-ai-enterprise-api
-- description: The Geo API from Wispr AI — 3 operation(s) for geo.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Geo API from Wispr AI — 3 operation(s) for geo.
   name: Wispr AI Geo API
   slug: wispr-ai-geo-api
-- description: The History API from Wispr AI — 8 operation(s) for history.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The History API from Wispr AI — 8 operation(s) for history.
   name: Wispr AI History API
   slug: wispr-ai-history-api
-- description: The Incidents API from Wispr AI — 1 operation(s) for incidents.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Incidents API from Wispr AI — 1 operation(s) for incidents.
   name: Wispr AI Incidents API
   slug: wispr-ai-incidents-api
-- description: The Insights API from Wispr AI — 3 operation(s) for insights.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Insights API from Wispr AI — 3 operation(s) for insights.
   name: Wispr AI Insights API
   slug: wispr-ai-insights-api
-- description: The InstructHistory API from Wispr AI — 1 operation(s) for instructhistory.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The InstructHistory API from Wispr AI — 1 operation(s) for instructhistory.
   name: Wispr AI InstructHistory API
   slug: wispr-ai-instructhistory-api
-- description: The Internal API from Wispr AI — 69 operation(s) for internal.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Internal API from Wispr AI — 69 operation(s) for internal.
   name: Wispr AI Internal API
   slug: wispr-ai-internal-api
-- description: The Internal Marketing API from Wispr AI — 6 operation(s) for internal marketing.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Internal Marketing API from Wispr AI — 6 operation(s) for internal marketing.
   name: Wispr AI Internal Marketing API
   slug: wispr-ai-internal-marketing-api
-- description: The keyboard_telemetry API from Wispr AI — 1 operation(s) for keyboard_telemetry.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The keyboard_telemetry API from Wispr AI — 1 operation(s) for keyboard_telemetry.
   name: Wispr AI keyboard_telemetry API
   slug: wispr-ai-keyboard-telemetry-api
-- description: The LinkedIn API from Wispr AI — 3 operation(s) for linkedin.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The LinkedIn API from Wispr AI — 3 operation(s) for linkedin.
   name: Wispr AI LinkedIn API
   slug: wispr-ai-linkedin-api
-- description: The LLM API from Wispr AI — 20 operation(s) for llm.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The LLM API from Wispr AI — 20 operation(s) for llm.
   name: Wispr AI LLM API
   slug: wispr-ai-llm-api
-- description: The Marketing API from Wispr AI — 6 operation(s) for marketing.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Marketing API from Wispr AI — 6 operation(s) for marketing.
   name: Wispr AI Marketing API
   slug: wispr-ai-marketing-api
-- description: The Meeting Share API from Wispr AI — 7 operation(s) for meeting share.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Meeting Share API from Wispr AI — 7 operation(s) for meeting share.
   name: Wispr AI Meeting Share API
   slug: wispr-ai-meeting-share-api
-- description: The Meetings API from Wispr AI — 7 operation(s) for meetings.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Meetings API from Wispr AI — 7 operation(s) for meetings.
   name: Wispr AI Meetings API
   slug: wispr-ai-meetings-api
-- description: The memory API from Wispr AI — 5 operation(s) for memory.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The memory API from Wispr AI — 5 operation(s) for memory.
   name: Wispr AI memory API
   slug: wispr-ai-memory-api
-- description: The Notes API from Wispr AI — 1 operation(s) for notes.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Notes API from Wispr AI — 1 operation(s) for notes.
   name: Wispr AI Notes API
   slug: wispr-ai-notes-api
-- description: The Notetaker Chats API from Wispr AI — 4 operation(s) for notetaker chats.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Notetaker Chats API from Wispr AI — 4 operation(s) for notetaker chats.
   name: Wispr AI Notetaker Chats API
   slug: wispr-ai-notetaker-chats-api
-- description: The Notification API from Wispr AI — 8 operation(s) for notification.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Notification API from Wispr AI — 8 operation(s) for notification.
   name: Wispr AI Notification API
   slug: wispr-ai-notification-api
-- description: The Payments API from Wispr AI — 22 operation(s) for payments.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Payments API from Wispr AI — 22 operation(s) for payments.
   name: Wispr AI Payments API
   slug: wispr-ai-payments-api
-- description: The Platform API from Wispr AI — 12 operation(s) for platform.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Platform API from Wispr AI — 12 operation(s) for platform.
   name: Wispr AI Platform API
   slug: wispr-ai-platform-api
-- description: The Polish API from Wispr AI — 1 operation(s) for polish.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Polish API from Wispr AI — 1 operation(s) for polish.
   name: Wispr AI Polish API
   slug: wispr-ai-polish-api
-- description: The Promotions API from Wispr AI — 6 operation(s) for promotions.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Promotions API from Wispr AI — 6 operation(s) for promotions.
   name: Wispr AI Promotions API
   slug: wispr-ai-promotions-api
-- description: The Referral API from Wispr AI — 9 operation(s) for referral.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Referral API from Wispr AI — 9 operation(s) for referral.
   name: Wispr AI Referral API
   slug: wispr-ai-referral-api
-- description: The sandbox-user API from Wispr AI — 2 operation(s) for sandbox-user.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The sandbox-user API from Wispr AI — 2 operation(s) for sandbox-user.
   name: Wispr AI sandbox-user API
   slug: wispr-ai-sandbox-user-api
-- description: The SMS API from Wispr AI — 2 operation(s) for sms.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The SMS API from Wispr AI — 2 operation(s) for sms.
   name: Wispr AI SMS API
   slug: wispr-ai-sms-api
-- description: The Support API from Wispr AI — 16 operation(s) for support.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Support API from Wispr AI — 16 operation(s) for support.
   name: Wispr AI Support API
   slug: wispr-ai-support-api
-- description: The Sync API from Wispr AI — 1 operation(s) for sync.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Sync API from Wispr AI — 1 operation(s) for sync.
   name: Wispr AI Sync API
   slug: wispr-ai-sync-api
-- description: The Sync WS API from Wispr AI — 3 operation(s) for sync ws.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Sync WS API from Wispr AI — 3 operation(s) for sync ws.
   name: Wispr AI Sync WS API
   slug: wispr-ai-sync-ws-api
-- description: The Team Insights API from Wispr AI — 7 operation(s) for team insights.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Team Insights API from Wispr AI — 7 operation(s) for team insights.
   name: Wispr AI Team Insights API
   slug: wispr-ai-team-insights-api
-- description: The Teams API from Wispr AI — 8 operation(s) for teams.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Teams API from Wispr AI — 8 operation(s) for teams.
   name: Wispr AI Teams API
   slug: wispr-ai-teams-api
-- description: The Todos API from Wispr AI — 1 operation(s) for todos.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Todos API from Wispr AI — 1 operation(s) for todos.
   name: Wispr AI Todos API
   slug: wispr-ai-todos-api
-- description: The Tracking API from Wispr AI — 1 operation(s) for tracking.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Tracking API from Wispr AI — 1 operation(s) for tracking.
   name: Wispr AI Tracking API
   slug: wispr-ai-tracking-api
-- description: The Transform API from Wispr AI — 8 operation(s) for transform.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Transform API from Wispr AI — 8 operation(s) for transform.
   name: Wispr AI Transform API
   slug: wispr-ai-transform-api
-- description: The Typing Test API from Wispr AI — 3 operation(s) for typing test.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Typing Test API from Wispr AI — 3 operation(s) for typing test.
   name: Wispr AI Typing Test API
   slug: wispr-ai-typing-test-api
-- description: The User Context API from Wispr AI — 1 operation(s) for user context.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The User Context API from Wispr AI — 1 operation(s) for user context.
   name: Wispr AI User Context API
   slug: wispr-ai-user-context-api
-- description: The User Management API from Wispr AI — 17 operation(s) for user management.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The User Management API from Wispr AI — 17 operation(s) for user management.
   name: Wispr AI User Management API
   slug: wispr-ai-user-management-api
-- description: The User Voice Preferences API from Wispr AI — 2 operation(s) for user voice preferences.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The User Voice Preferences API from Wispr AI — 2 operation(s) for user voice preferences.
   name: Wispr AI User Voice Preferences API
   slug: wispr-ai-user-voice-preferences-api
-- description: The Voice Actions API from Wispr AI — 2 operation(s) for voice actions.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Voice Actions API from Wispr AI — 2 operation(s) for voice actions.
   name: Wispr AI Voice Actions API
   slug: wispr-ai-voice-actions-api
-- description: The Wispr Backend API from Wispr AI — 1 operation(s) for wispr backend.
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Wispr Backend API from Wispr AI — 1 operation(s) for wispr backend.
   name: Wispr AI Wispr Backend API
   slug: wispr-ai-wispr-backend-api
 artifact_total: 106
@@ -508,7 +608,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/screenshots/wispr-ai-2026-08-17T130429.png
 security:

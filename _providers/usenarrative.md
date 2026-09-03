@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 24 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Health API from Narrative Sports — 1 operation(s) for health.
+- baseURL: https://api.narrative-sports.com
+  baseurl_source: declared
+  description: The Health API from Narrative Sports — 1 operation(s) for health.
   name: Narrative Sports Health API
   slug: usenarrative-health-api
-- description: The Highlight Packages API from Narrative Sports — 3 operation(s) for highlight packages.
+- baseURL: https://api.narrative-sports.com
+  baseurl_source: declared
+  description: The Highlight Packages API from Narrative Sports — 3 operation(s) for highlight packages.
   name: Narrative Sports Highlight Packages API
   slug: usenarrative-highlight-packages-api
-- description: The Highlights API from Narrative Sports — 4 operation(s) for highlights.
+- baseURL: https://api.narrative-sports.com
+  baseurl_source: declared
+  description: The Highlights API from Narrative Sports — 4 operation(s) for highlights.
   name: Narrative Sports Highlights API
   slug: usenarrative-highlights-api
-- description: The Projects API from Narrative Sports — 1 operation(s) for projects.
+- baseURL: https://api.narrative-sports.com
+  baseurl_source: declared
+  description: The Projects API from Narrative Sports — 1 operation(s) for projects.
   name: Narrative Sports Projects API
   slug: usenarrative-projects-api
-- description: The Recaps API from Narrative Sports — 3 operation(s) for recaps.
+- baseURL: https://api.narrative-sports.com
+  baseurl_source: declared
+  description: The Recaps API from Narrative Sports — 3 operation(s) for recaps.
   name: Narrative Sports Recaps API
   slug: usenarrative-recaps-api
-- description: The Tasks API from Narrative Sports — 8 operation(s) for tasks.
+- baseURL: https://api.narrative-sports.com
+  baseurl_source: declared
+  description: The Tasks API from Narrative Sports — 8 operation(s) for tasks.
   name: Narrative Sports Tasks API
   slug: usenarrative-tasks-api
 artifact_total: 17
@@ -232,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usenarrative/refs/heads/main/screenshots/usenarrative-2026-08-17T082657.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 21 operations · 1 acting
 api_count: 1
 apis:
-- description: Authenticated account details.
+- baseURL: https://api.motionelements.com/v2
+  baseurl_source: declared
+  description: Authenticated account details.
   name: Motion Elements Account API
   slug: motion-elements-account-api
-- description: Retrieve individual marketplace elements.
+- baseURL: https://api.motionelements.com/v2
+  baseurl_source: declared
+  description: Retrieve individual marketplace elements.
   name: Motion Elements Elements API
   slug: motion-elements-elements-api
-- description: 'Reference metadata: media types, categories, software versions, and music facets.'
+- baseURL: https://api.motionelements.com/v2
+  baseurl_source: declared
+  description: 'Reference metadata: media types, categories, software versions, and music facets.'
   name: Motion Elements Media types API
   slug: motion-elements-media-types-api
-- description: Search the marketplace across media types.
+- baseURL: https://api.motionelements.com/v2
+  baseurl_source: declared
+  description: Search the marketplace across media types.
   name: Motion Elements Search API
   slug: motion-elements-search-api
 artifact_total: 13
@@ -216,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/screenshots/motion-elements-2026-08-07T184326.png
 security:

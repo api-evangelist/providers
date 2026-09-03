@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,34 +65,54 @@ apis:
 - description: Monorepo with the Medusa server, Admin, Commerce Modules, Framework, and packages. MIT-licensed reference for self-hosting and for building modules and plugins.
   name: Medusa Core Repository
   slug: core-repo
-- description: The Auth API from Medusa — 2 operation(s) for auth.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Auth API from Medusa — 2 operation(s) for auth.
   name: Medusa Auth API
   slug: medusa-js-auth-api
-- description: The Carts API from Medusa — 3 operation(s) for carts.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Carts API from Medusa — 3 operation(s) for carts.
   name: Medusa Carts API
   slug: medusa-js-carts-api
-- description: The Categories API from Medusa — 1 operation(s) for categories.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Categories API from Medusa — 1 operation(s) for categories.
   name: Medusa Categories API
   slug: medusa-js-categories-api
-- description: The Collections API from Medusa — 1 operation(s) for collections.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Collections API from Medusa — 1 operation(s) for collections.
   name: Medusa Collections API
   slug: medusa-js-collections-api
-- description: The Customers API from Medusa — 2 operation(s) for customers.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Customers API from Medusa — 2 operation(s) for customers.
   name: Medusa Customers API
   slug: medusa-js-customers-api
-- description: The Orders API from Medusa — 2 operation(s) for orders.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Orders API from Medusa — 2 operation(s) for orders.
   name: Medusa Orders API
   slug: medusa-js-orders-api
-- description: The Payments API from Medusa — 1 operation(s) for payments.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Payments API from Medusa — 1 operation(s) for payments.
   name: Medusa Payments API
   slug: medusa-js-payments-api
-- description: The Products API from Medusa — 2 operation(s) for products.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Products API from Medusa — 2 operation(s) for products.
   name: Medusa Products API
   slug: medusa-js-products-api
-- description: The Regions API from Medusa — 2 operation(s) for regions.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Regions API from Medusa — 2 operation(s) for regions.
   name: Medusa Regions API
   slug: medusa-js-regions-api
-- description: The Shipping API from Medusa — 1 operation(s) for shipping.
+- baseURL: https://docs.medusajs.com/api/store
+  baseurl_source: declared
+  description: The Shipping API from Medusa — 1 operation(s) for shipping.
   name: Medusa Shipping API
   slug: medusa-js-shipping-api
 artifact_total: 69
@@ -307,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png
 security:

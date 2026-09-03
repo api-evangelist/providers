@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Klaxoon API allows developers to integrate Klaxoon's collaborative features into their applications, enabling automation of board creation, activity management, and participant engagement. It incl
   name: Klaxoon API
   slug: klaxoon-api
-- description: Adventure activity resources
+- baseURL: https://developers.klaxoon.com/klaxoon/api/v1
+  baseurl_source: spec
+  description: Adventure activity resources
   name: Klaxoon Adventures API
   slug: klaxoon-adventures-api
-- description: Mission activity resources
+- baseURL: https://developers.klaxoon.com/klaxoon/api/v1
+  baseurl_source: spec
+  description: Mission activity resources
   name: Klaxoon Missions API
   slug: klaxoon-missions-api
-- description: Quiz activity resources and participant results
+- baseURL: https://developers.klaxoon.com/klaxoon/api/v1
+  baseurl_source: spec
+  description: Quiz activity resources and participant results
   name: Klaxoon Quizzes API
   slug: klaxoon-quizzes-api
-- description: Survey activity resources and participant results
+- baseURL: https://developers.klaxoon.com/klaxoon/api/v1
+  baseurl_source: spec
+  description: Survey activity resources and participant results
   name: Klaxoon Surveys API
   slug: klaxoon-surveys-api
 artifact_total: 18
@@ -213,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/screenshots/klaxoon-2026-06-20T184103.png
 security:

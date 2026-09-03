@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations · 8 acting
 api_count: 1
 apis:
-- description: 'Stadium uses JWT (as Bearer token) for authentication. API provides 4 different methods to generate the token: 1. Client Credentials 2. Authorization Code (OAuth2) 3. Authorization Code using PKCE 4. '
+- baseURL: https://api.bystadium.com/api/v2
+  baseurl_source: declared
+  description: 'Stadium uses JWT (as Bearer token) for authentication. API provides 4 different methods to generate the token: 1. Client Credentials 2. Authorization Code (OAuth2) 3. Authorization Code using PKCE 4. '
   name: SnackMagic Authentication API
   slug: snackmagic-authentication-api
-- description: Automation related API endpoints
+- baseURL: https://api.bystadium.com/api/v2
+  baseurl_source: declared
+  description: Automation related API endpoints
   name: SnackMagic Automation management API
   slug: snackmagic-automation-management-api
-- description: Order related API endpoints
+- baseURL: https://api.bystadium.com/api/v2
+  baseurl_source: declared
+  description: Order related API endpoints
   name: SnackMagic Order management API
   slug: snackmagic-order-management-api
-- description: Store related API endpoints
+- baseURL: https://api.bystadium.com/api/v2
+  baseurl_source: declared
+  description: Store related API endpoints
   name: SnackMagic Store management API
   slug: snackmagic-store-management-api
-- description: User related API endpoints
+- baseURL: https://api.bystadium.com/api/v2
+  baseurl_source: declared
+  description: User related API endpoints
   name: SnackMagic User management API
   slug: snackmagic-user-management-api
 artifact_total: 16
@@ -214,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/screenshots/snackmagic-2026-08-17T081940.png
 security:

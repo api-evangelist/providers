@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The batch - create API from Databook — 3 operation(s) for batch - create.
+- baseURL: https://api.databook.com
+  baseurl_source: declared
+  description: The batch - create API from Databook — 3 operation(s) for batch - create.
   name: Databook batch - create API
   slug: databook-batch-create-api
-- description: The batch - query API from Databook — 3 operation(s) for batch - query.
+- baseURL: https://api.databook.com
+  baseurl_source: declared
+  description: The batch - query API from Databook — 3 operation(s) for batch - query.
   name: Databook batch - query API
   slug: databook-batch-query-api
-- description: The chat API from Databook — 1 operation(s) for chat.
+- baseURL: https://api.databook.com
+  baseurl_source: declared
+  description: The chat API from Databook — 1 operation(s) for chat.
   name: Databook Chat API
   slug: databook-chat-api
-- description: The reasoning API from Databook — 1 operation(s) for reasoning.
+- baseURL: https://api.databook.com
+  baseurl_source: declared
+  description: The reasoning API from Databook — 1 operation(s) for reasoning.
   name: Databook Reasoning API
   slug: databook-reasoning-api
 artifact_total: 11
@@ -196,7 +204,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -206,7 +214,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/screenshots/databook-2026-07-25T211258.png
 security:

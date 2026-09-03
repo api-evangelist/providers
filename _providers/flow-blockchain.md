@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 22 operations · 2 acting
 api_count: 1
 apis:
-- description: The Accounts API from Flow — 4 operation(s) for accounts.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Accounts API from Flow — 4 operation(s) for accounts.
   name: Flow Accounts API
   slug: flow-blockchain-accounts-api
-- description: The Blocks API from Flow — 3 operation(s) for blocks.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Blocks API from Flow — 3 operation(s) for blocks.
   name: Flow Blocks API
   slug: flow-blockchain-blocks-api
-- description: The Collections API from Flow — 1 operation(s) for collections.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Collections API from Flow — 1 operation(s) for collections.
   name: Flow Collections API
   slug: flow-blockchain-collections-api
-- description: The Events API from Flow — 1 operation(s) for events.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Events API from Flow — 1 operation(s) for events.
   name: Flow Events API
   slug: flow-blockchain-events-api
-- description: The Execution Receipts API from Flow — 2 operation(s) for execution receipts.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Execution Receipts API from Flow — 2 operation(s) for execution receipts.
   name: Flow Execution Receipts API
   slug: flow-blockchain-execution-receipts-api
-- description: The Execution Results API from Flow — 2 operation(s) for execution results.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Execution Results API from Flow — 2 operation(s) for execution results.
   name: Flow Execution Results API
   slug: flow-blockchain-execution-results-api
-- description: The Network API from Flow — 1 operation(s) for network.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Network API from Flow — 1 operation(s) for network.
   name: Flow Network API
   slug: flow-blockchain-network-api
-- description: The NodeVersionInfo API from Flow — 1 operation(s) for nodeversioninfo.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The NodeVersionInfo API from Flow — 1 operation(s) for nodeversioninfo.
   name: Flow NodeVersionInfo API
   slug: flow-blockchain-nodeversioninfo-api
-- description: The Scripts API from Flow — 1 operation(s) for scripts.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Scripts API from Flow — 1 operation(s) for scripts.
   name: Flow Scripts API
   slug: flow-blockchain-scripts-api
-- description: The Subscribe events API from Flow — 1 operation(s) for subscribe events.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Subscribe events API from Flow — 1 operation(s) for subscribe events.
   name: Flow Subscribe events API
   slug: flow-blockchain-subscribe-events-api
-- description: The Transactions API from Flow — 4 operation(s) for transactions.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Transactions API from Flow — 4 operation(s) for transactions.
   name: Flow Transactions API
   slug: flow-blockchain-transactions-api
 artifact_total: 39
@@ -227,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/screenshots/flow-blockchain-2026-06-20T181322.png
 security:

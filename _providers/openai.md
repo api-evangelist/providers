@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -45,40 +45,64 @@ agentic_access:
   summary_line: 307 operations · 183 acting · 6 human-in-the-loop
 api_count: 15
 apis:
-- description: The Responses API is OpenAI's most advanced interface for generating model responses. It combines the strengths of the Chat Completions and Assistants APIs into a single streamlined interface, support
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Responses API is OpenAI's most advanced interface for generating model responses. It combines the strengths of the Chat Completions and Assistants APIs into a single streamlined interface, support
   name: OpenAI Responses API
   slug: openai-responses-api
-- description: The Moderations API can be used to check whether text or images are potentially harmful. It classifies content across several categories including harassment, hate speech, sexual content, self-harm, v
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Moderations API can be used to check whether text or images are potentially harmful. It classifies content across several categories including harassment, hate speech, sexual content, self-harm, v
   name: OpenAI Moderations API
   slug: openai-moderations-api
-- description: The Batch API enables asynchronous processing of requests with 50% cost discount, higher rate limits, and completion within 24 hours. It supports /v1/responses, /v1/chat/completions, /v1/embeddings, /
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Batch API enables asynchronous processing of requests with 50% cost discount, higher rate limits, and completion within 24 hours. It supports /v1/responses, /v1/chat/completions, /v1/embeddings, /
   name: OpenAI Batch API
   slug: openai-batch-api
-- description: Vector stores are collections of processed files that power semantic search for the file_search tool in the Responses and Assistants APIs. When you add a file to a vector store it is automatically chu
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Vector stores are collections of processed files that power semantic search for the file_search tool in the Responses and Assistants APIs. When you add a file to a vector store it is automatically chu
   name: OpenAI Vector Stores API
   slug: openai-vector-stores-api
-- description: The Uploads API creates an intermediate Upload object that you can add Parts to, enabling large file uploads. Currently an Upload can accept at most 8 GB in total and expires after an hour. Once you c
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Uploads API creates an intermediate Upload object that you can add Parts to, enabling large file uploads. Currently an Upload can accept at most 8 GB in total and expires after an hour. Once you c
   name: OpenAI Uploads API
   slug: openai-uploads-api
-- description: The Realtime API enables low-latency, bidirectional communication with models that natively support speech-to-speech interactions as well as multimodal inputs (audio, images, and text) and outputs (au
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Realtime API enables low-latency, bidirectional communication with models that natively support speech-to-speech interactions as well as multimodal inputs (audio, images, and text) and outputs (au
   name: OpenAI Realtime API
   slug: openai-realtime-api
-- description: The Evals API allows you to programmatically configure and run evaluations to test model outputs against your expectations. Evaluations ensure model responses meet style and content criteria you speci
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Evals API allows you to programmatically configure and run evaluations to test model outputs against your expectations. Evaluations ensure model responses meet style and content criteria you speci
   name: OpenAI Evals API
   slug: openai-evals-api
-- description: The Videos API enables programmatic creation, extension, and remixing of videos using Sora models. It provides endpoints for creating a new render job from a text prompt, checking video status, downlo
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Videos API enables programmatic creation, extension, and remixing of videos using Sora models. It provides endpoints for creating a new render job from a text prompt, checking video status, downlo
   name: OpenAI Videos API
   slug: openai-videos-api
-- description: The Conversations API allows you to create and manage stateful conversations for use with the Responses API. A conversation object contains an id, a created_at timestamp, and metadata. Because convers
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Conversations API allows you to create and manage stateful conversations for use with the Responses API. A conversation object contains an id, a created_at timestamp, and metadata. Because convers
   name: OpenAI Conversations API
   slug: openai-conversations-api
-- description: 'The Containers API manages sandboxed containers used by Code Interpreter for running Python, data work, file transforms, and iterative debugging. Containers can be created explicitly or auto-managed, '
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: 'The Containers API manages sandboxed containers used by Code Interpreter for running Python, data work, file transforms, and iterative debugging. Containers can be created explicitly or auto-managed, '
   name: OpenAI Containers API
   slug: openai-containers-api
-- description: ChatKit is the best way to build agentic chat experiences. It provides session and thread management for building internal knowledge base assistants, research companions, support agents, and more. Cha
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: ChatKit is the best way to build agentic chat experiences. It provides session and thread management for building internal knowledge base assistants, research companions, support agents, and more. Cha
   name: OpenAI ChatKit API
   slug: openai-chatkit-api
-- description: The Skills API surfaces OpenAI's Agent Skills — discoverable folders of instructions, scripts, and resources that agents (notably Codex) can use to perform specific tasks. Operations cover creating, r
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Skills API surfaces OpenAI's Agent Skills — discoverable folders of instructions, scripts, and resources that agents (notably Codex) can use to perform specific tasks. Operations cover creating, r
   name: OpenAI Skills API
   slug: openai-skills-api
 - description: The OpenAI Agents SDK is a lightweight framework for building multi-agent workflows in Python and TypeScript. Primitives include agents (LLMs with instructions, tools, guardrails), handoffs between sp
@@ -87,118 +111,194 @@ apis:
 - description: OpenAI Codex is a lightweight coding agent that runs in the terminal, with companion IDE extensions, a desktop app, and a web experience at chatgpt.com/codex. Codex authenticates with a ChatGPT Plus/P
   name: OpenAI Codex
   slug: openai-codex
-- description: Build Assistants that can call models and use tools.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Build Assistants that can call models and use tools.
   name: OpenAI Assistants API
   slug: openai-assistants-api
-- description: Learn how to turn audio into text or text into audio.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Learn how to turn audio into text or text into audio.
   name: OpenAI Audio API
   slug: openai-audio-api
-- description: List user actions and configuration changes within this organization.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: List user actions and configuration changes within this organization.
   name: OpenAI Audit Logs API
   slug: openai-audit-logs-api
-- description: Create large batches of API requests to run asynchronously.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Create large batches of API requests to run asynchronously.
   name: OpenAI Batch API
   slug: openai-batch-api
-- description: The Certificates API from OpenAI — 7 operation(s) for certificates.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Certificates API from OpenAI — 7 operation(s) for certificates.
   name: OpenAI Certificates API
   slug: openai-certificates-api
-- description: Given a list of messages comprising a conversation, the model will return a response.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Given a list of messages comprising a conversation, the model will return a response.
   name: OpenAI Chat API
   slug: openai-chat-api
-- description: The Chatkit API from OpenAI — 5 operation(s) for chatkit.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Chatkit API from OpenAI — 5 operation(s) for chatkit.
   name: OpenAI Chatkit API
   slug: openai-chatkit-api
-- description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.
   name: OpenAI Completions API
   slug: openai-completions-api
-- description: The Containers API from OpenAI — 5 operation(s) for containers.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Containers API from OpenAI — 5 operation(s) for containers.
   name: OpenAI Containers API
   slug: openai-containers-api
-- description: Manage conversations and conversation items.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Manage conversations and conversation items.
   name: OpenAI Conversations API
   slug: openai-conversations-api
-- description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.
   name: OpenAI Embeddings API
   slug: openai-embeddings-api
-- description: Manage and run evals in the OpenAI platform.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Manage and run evals in the OpenAI platform.
   name: OpenAI Evals API
   slug: openai-evals-api
-- description: Files are used to upload documents that can be used with features like Assistants and Fine-tuning.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Files are used to upload documents that can be used with features like Assistants and Fine-tuning.
   name: OpenAI Files API
   slug: openai-files-api
-- description: The Fine Tuning API from OpenAI — 11 operation(s) for fine tuning.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Fine Tuning API from OpenAI — 11 operation(s) for fine tuning.
   name: OpenAI Fine Tuning API
   slug: openai-fine-tuning-api
-- description: The Group organization role assignments API from OpenAI — 2 operation(s) for group organization role assignments.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Group organization role assignments API from OpenAI — 2 operation(s) for group organization role assignments.
   name: OpenAI Group organization role assignments API
   slug: openai-group-organization-role-assignments-api
-- description: The Group users API from OpenAI — 2 operation(s) for group users.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Group users API from OpenAI — 2 operation(s) for group users.
   name: OpenAI Group users API
   slug: openai-group-users-api
-- description: The Groups API from OpenAI — 2 operation(s) for groups.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Groups API from OpenAI — 2 operation(s) for groups.
   name: OpenAI Groups API
   slug: openai-groups-api
-- description: Given a prompt and/or an input image, the model will generate a new image.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Given a prompt and/or an input image, the model will generate a new image.
   name: OpenAI Images API
   slug: openai-images-api
-- description: The Invites API from OpenAI — 2 operation(s) for invites.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Invites API from OpenAI — 2 operation(s) for invites.
   name: OpenAI Invites API
   slug: openai-invites-api
-- description: List and describe the various models available in the API.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: List and describe the various models available in the API.
   name: OpenAI Models API
   slug: openai-models-api
-- description: Given text and/or image inputs, classifies if those inputs are potentially harmful.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Given text and/or image inputs, classifies if those inputs are potentially harmful.
   name: OpenAI Moderations API
   slug: openai-moderations-api
-- description: The Organization API from OpenAI — 2 operation(s) for organization.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Organization API from OpenAI — 2 operation(s) for organization.
   name: OpenAI Organization API
   slug: openai-organization-api
-- description: The Project group role assignments API from OpenAI — 2 operation(s) for project group role assignments.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Project group role assignments API from OpenAI — 2 operation(s) for project group role assignments.
   name: OpenAI Project group role assignments API
   slug: openai-project-group-role-assignments-api
-- description: The Project groups API from OpenAI — 2 operation(s) for project groups.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Project groups API from OpenAI — 2 operation(s) for project groups.
   name: OpenAI Project groups API
   slug: openai-project-groups-api
-- description: The Project user role assignments API from OpenAI — 2 operation(s) for project user role assignments.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Project user role assignments API from OpenAI — 2 operation(s) for project user role assignments.
   name: OpenAI Project user role assignments API
   slug: openai-project-user-role-assignments-api
-- description: The Projects API from OpenAI — 11 operation(s) for projects.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Projects API from OpenAI — 11 operation(s) for projects.
   name: OpenAI Projects API
   slug: openai-projects-api
-- description: The Realtime API from OpenAI — 9 operation(s) for realtime.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Realtime API from OpenAI — 9 operation(s) for realtime.
   name: OpenAI Realtime API
   slug: openai-realtime-api
-- description: The Responses API from OpenAI — 6 operation(s) for responses.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Responses API from OpenAI — 6 operation(s) for responses.
   name: OpenAI Responses API
   slug: openai-responses-api
-- description: The Roles API from OpenAI — 4 operation(s) for roles.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Roles API from OpenAI — 4 operation(s) for roles.
   name: OpenAI Roles API
   slug: openai-roles-api
-- description: The Skills API from OpenAI — 6 operation(s) for skills.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Skills API from OpenAI — 6 operation(s) for skills.
   name: OpenAI Skills API
   slug: openai-skills-api
-- description: The Threads API from OpenAI — 13 operation(s) for threads.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Threads API from OpenAI — 13 operation(s) for threads.
   name: OpenAI Threads API
   slug: openai-threads-api
-- description: Use Uploads to upload large files in multiple parts.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: Use Uploads to upload large files in multiple parts.
   name: OpenAI Uploads API
   slug: openai-uploads-api
-- description: The Usage API from OpenAI — 9 operation(s) for usage.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Usage API from OpenAI — 9 operation(s) for usage.
   name: OpenAI Usage API
   slug: openai-usage-api
-- description: The User organization role assignments API from OpenAI — 2 operation(s) for user organization role assignments.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The User organization role assignments API from OpenAI — 2 operation(s) for user organization role assignments.
   name: OpenAI User organization role assignments API
   slug: openai-user-organization-role-assignments-api
-- description: The Users API from OpenAI — 2 operation(s) for users.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Users API from OpenAI — 2 operation(s) for users.
   name: OpenAI Users API
   slug: openai-users-api
-- description: The Vector stores API from OpenAI — 10 operation(s) for vector stores.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Vector stores API from OpenAI — 10 operation(s) for vector stores.
   name: OpenAI Vector stores API
   slug: openai-vector-stores-api
-- description: The Videos API from OpenAI — 8 operation(s) for videos.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The Videos API from OpenAI — 8 operation(s) for videos.
   name: OpenAI Videos API
   slug: openai-videos-api
-- description: The OpenAI API API from OpenAI — 0 operation(s) for openai api.
+- baseURL: https://api.openai.com
+  baseurl_source: declared
+  description: The OpenAI API API from OpenAI — 0 operation(s) for openai api.
   name: OpenAI OpenAI API
   slug: openai-openai-api-api
 arazzos:
@@ -1315,7 +1415,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1325,7 +1425,7 @@ score:
     discoverability: 66.7
     governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 76.8
+  previous_composite: 84.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1337,8 +1437,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-08-17T082822.png
 security:
 - kind: authentication

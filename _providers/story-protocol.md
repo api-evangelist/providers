@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 33 operations · 18 acting
 api_count: 1
 apis:
-- description: The Collections API from Story Protocol — 2 operation(s) for collections.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Collections API from Story Protocol — 2 operation(s) for collections.
   name: Story Protocol Collections API
   slug: story-protocol-collections-api
-- description: The Disputes API from Story Protocol — 2 operation(s) for disputes.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Disputes API from Story Protocol — 2 operation(s) for disputes.
   name: Story Protocol Disputes API
   slug: story-protocol-disputes-api
-- description: The IPAssets API from Story Protocol — 4 operation(s) for ipassets.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The IPAssets API from Story Protocol — 4 operation(s) for ipassets.
   name: Story Protocol IPAssets API
   slug: story-protocol-ipassets-api
-- description: The IPGroup API from Story Protocol — 2 operation(s) for ipgroup.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The IPGroup API from Story Protocol — 2 operation(s) for ipgroup.
   name: Story Protocol IPGroup API
   slug: story-protocol-ipgroup-api
-- description: The IPLicenseTerms API from Story Protocol — 4 operation(s) for iplicenseterms.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The IPLicenseTerms API from Story Protocol — 4 operation(s) for iplicenseterms.
   name: Story Protocol IPLicenseTerms API
   slug: story-protocol-iplicenseterms-api
-- description: The Licenses API from Story Protocol — 4 operation(s) for licenses.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Licenses API from Story Protocol — 4 operation(s) for licenses.
   name: Story Protocol Licenses API
   slug: story-protocol-licenses-api
-- description: The LicenseTemplates API from Story Protocol — 2 operation(s) for licensetemplates.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The LicenseTemplates API from Story Protocol — 2 operation(s) for licensetemplates.
   name: Story Protocol LicenseTemplates API
   slug: story-protocol-licensetemplates-api
-- description: The LicenseTerms API from Story Protocol — 2 operation(s) for licenseterms.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The LicenseTerms API from Story Protocol — 2 operation(s) for licenseterms.
   name: Story Protocol LicenseTerms API
   slug: story-protocol-licenseterms-api
-- description: The LicenseTokens API from Story Protocol — 2 operation(s) for licensetokens.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The LicenseTokens API from Story Protocol — 2 operation(s) for licensetokens.
   name: Story Protocol LicenseTokens API
   slug: story-protocol-licensetokens-api
-- description: The Modules API from Story Protocol — 2 operation(s) for modules.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Modules API from Story Protocol — 2 operation(s) for modules.
   name: Story Protocol Modules API
   slug: story-protocol-modules-api
-- description: The Permissions API from Story Protocol — 2 operation(s) for permissions.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Permissions API from Story Protocol — 2 operation(s) for permissions.
   name: Story Protocol Permissions API
   slug: story-protocol-permissions-api
-- description: The Royalties API from Story Protocol — 2 operation(s) for royalties.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Royalties API from Story Protocol — 2 operation(s) for royalties.
   name: Story Protocol Royalties API
   slug: story-protocol-royalties-api
-- description: The Transactions API from Story Protocol — 3 operation(s) for transactions.
+- baseURL: https://api.storyapis.com
+  baseurl_source: declared
+  description: The Transactions API from Story Protocol — 3 operation(s) for transactions.
   name: Story Protocol Transactions API
   slug: story-protocol-transactions-api
 artifact_total: 31
@@ -236,7 +262,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -262,8 +288,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/story-protocol/refs/heads/main/screenshots/story-protocol-2026-09-02T160943.png
 security:
 - kind: authentication
   name: Story Protocol Authentication

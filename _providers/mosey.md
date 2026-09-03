@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 52 operations · 29 acting
 api_count: 3
 apis:
-- description: The Accounts API from Mosey — 7 operation(s) for accounts.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Accounts API from Mosey — 7 operation(s) for accounts.
   name: Mosey Accounts API
   slug: mosey-accounts-api
-- description: The Agency Accounts API from Mosey — 2 operation(s) for agency accounts.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Agency Accounts API from Mosey — 2 operation(s) for agency accounts.
   name: Mosey Agency Accounts API
   slug: mosey-agency-accounts-api
-- description: The Auth API from Mosey — 2 operation(s) for auth.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Auth API from Mosey — 2 operation(s) for auth.
   name: Mosey Auth API
   slug: mosey-auth-api
-- description: The Documents API from Mosey — 1 operation(s) for documents.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Documents API from Mosey — 1 operation(s) for documents.
   name: Mosey Documents API
   slug: mosey-documents-api
-- description: The Handbook API from Mosey — 3 operation(s) for handbook.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Handbook API from Mosey — 3 operation(s) for handbook.
   name: Mosey Handbook API
   slug: mosey-handbook-api
-- description: The Legal Entity API from Mosey — 2 operation(s) for legal entity.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Legal Entity API from Mosey — 2 operation(s) for legal entity.
   name: Mosey Legal Entity API
   slug: mosey-legal-entity-api
-- description: The Locations API from Mosey — 7 operation(s) for locations.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Locations API from Mosey — 7 operation(s) for locations.
   name: Mosey Locations API
   slug: mosey-locations-api
-- description: The Logins API from Mosey — 4 operation(s) for logins.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Logins API from Mosey — 4 operation(s) for logins.
   name: Mosey Logins API
   slug: mosey-logins-api
-- description: The Mail API from Mosey — 2 operation(s) for mail.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Mail API from Mosey — 2 operation(s) for mail.
   name: Mosey Mail API
   slug: mosey-mail-api
-- description: The Regions API from Mosey — 2 operation(s) for regions.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Regions API from Mosey — 2 operation(s) for regions.
   name: Mosey Regions API
   slug: mosey-regions-api
-- description: The Signup API from Mosey — 3 operation(s) for signup.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Signup API from Mosey — 3 operation(s) for signup.
   name: Mosey Signup API
   slug: mosey-signup-api
-- description: The Tasks API from Mosey — 9 operation(s) for tasks.
+- baseURL: https://api.mosey.com
+  baseurl_source: declared
+  description: The Tasks API from Mosey — 9 operation(s) for tasks.
   name: Mosey Tasks API
   slug: mosey-tasks-api
 artifact_total: 29
@@ -260,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/screenshots/mosey-2026-08-07T184318.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -47,58 +47,94 @@ apis:
 - description: Model Context Protocol endpoint served on the GroundTruth developer documentation host. It answers MCP JSON-RPC on /mcp but returns error -32001 "Authorization required" to anonymous initialize and to
   name: GroundTruth Documentation MCP Server
   slug: groundtruth-documentation-mcp-server
-- description: The Accounts API from GroundTruth — 6 operation(s) for accounts.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Accounts API from GroundTruth — 6 operation(s) for accounts.
   name: GroundTruth Accounts API
   slug: groundtruth-accounts-api
-- description: The Ad Groups API from GroundTruth — 6 operation(s) for ad groups.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Ad Groups API from GroundTruth — 6 operation(s) for ad groups.
   name: GroundTruth Ad Groups API
   slug: groundtruth-ad-groups-api
-- description: The Audiences API from GroundTruth — 2 operation(s) for audiences.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Audiences API from GroundTruth — 2 operation(s) for audiences.
   name: GroundTruth Audiences API
   slug: groundtruth-audiences-api
-- description: The Campaigns API from GroundTruth — 6 operation(s) for campaigns.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Campaigns API from GroundTruth — 6 operation(s) for campaigns.
   name: GroundTruth Campaigns API
   slug: groundtruth-campaigns-api
-- description: The Creative Assets API from GroundTruth — 2 operation(s) for creative assets.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Creative Assets API from GroundTruth — 2 operation(s) for creative assets.
   name: GroundTruth Creative Assets API
   slug: groundtruth-creative-assets-api
-- description: The Creatives API from GroundTruth — 5 operation(s) for creatives.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Creatives API from GroundTruth — 5 operation(s) for creatives.
   name: GroundTruth Creatives API
   slug: groundtruth-creatives-api
-- description: Demand API documentation
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: Demand API documentation
   name: GroundTruth Demand API
   slug: groundtruth-demand-api
-- description: The Direct Mail API from GroundTruth — 1 operation(s) for direct mail.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Direct Mail API from GroundTruth — 1 operation(s) for direct mail.
   name: GroundTruth Direct Mail API
   slug: groundtruth-direct-mail-api
-- description: The Health API from GroundTruth — 1 operation(s) for health.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Health API from GroundTruth — 1 operation(s) for health.
   name: GroundTruth Health API
   slug: groundtruth-health-api
-- description: The Jobs API from GroundTruth — 9 operation(s) for jobs.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Jobs API from GroundTruth — 9 operation(s) for jobs.
   name: GroundTruth Jobs API
   slug: groundtruth-jobs-api
-- description: The Miscellaneous API from GroundTruth — 1 operation(s) for miscellaneous.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Miscellaneous API from GroundTruth — 1 operation(s) for miscellaneous.
   name: GroundTruth Miscellaneous API
   slug: groundtruth-miscellaneous-api
-- description: The Organizations API from GroundTruth — 2 operation(s) for organizations.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Organizations API from GroundTruth — 2 operation(s) for organizations.
   name: GroundTruth Organizations API
   slug: groundtruth-organizations-api
-- description: The Reporting API from GroundTruth — 160 operation(s) for reporting.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Reporting API from GroundTruth — 160 operation(s) for reporting.
   name: GroundTruth Reporting API
   slug: groundtruth-reporting-api
-- description: The Search API from GroundTruth — 18 operation(s) for search.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Search API from GroundTruth — 18 operation(s) for search.
   name: GroundTruth Search API
   slug: groundtruth-search-api
-- description: The Static API from GroundTruth — 12 operation(s) for static.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Static API from GroundTruth — 12 operation(s) for static.
   name: GroundTruth Static API
   slug: groundtruth-static-api
-- description: The Tenants API from GroundTruth — 1 operation(s) for tenants.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Tenants API from GroundTruth — 1 operation(s) for tenants.
   name: GroundTruth Tenants API
   slug: groundtruth-tenants-api
-- description: The Upload API from GroundTruth — 1 operation(s) for upload.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Upload API from GroundTruth — 1 operation(s) for upload.
   name: GroundTruth Upload API
   slug: groundtruth-upload-api
-- description: The Users API from GroundTruth — 4 operation(s) for users.
+- baseURL: https://api-public.groundtruth.com
+  baseurl_source: declared
+  description: The Users API from GroundTruth — 4 operation(s) for users.
   name: GroundTruth Users API
   slug: groundtruth-users-api
 artifact_total: 28
@@ -285,7 +321,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/screenshots/groundtruth-2026-07-25T220343.png
 security:

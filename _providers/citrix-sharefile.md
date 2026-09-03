@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: REST API for ShareFile providing access to items, folders, files, users, groups, shares, devices, accounts, and workflows. Authentication uses OAuth 2.0 with multiple supported grant types including a
   name: ShareFile REST API v3
   slug: rest-api-v3
-- description: The Accounts API from Citrix ShareFile — 1 operation(s) for accounts.
+- baseURL: https://{subdomain}.sf-api.com/sf/v3
+  baseurl_source: declared
+  description: The Accounts API from Citrix ShareFile — 1 operation(s) for accounts.
   name: Citrix ShareFile Accounts API
   slug: citrix-sharefile-accounts-api
-- description: The Groups API from Citrix ShareFile — 2 operation(s) for groups.
+- baseURL: https://{subdomain}.sf-api.com/sf/v3
+  baseurl_source: declared
+  description: The Groups API from Citrix ShareFile — 2 operation(s) for groups.
   name: Citrix ShareFile Groups API
   slug: citrix-sharefile-groups-api
-- description: The Items API from Citrix ShareFile — 5 operation(s) for items.
+- baseURL: https://{subdomain}.sf-api.com/sf/v3
+  baseurl_source: declared
+  description: The Items API from Citrix ShareFile — 5 operation(s) for items.
   name: Citrix ShareFile Items API
   slug: citrix-sharefile-items-api
-- description: The Sessions API from Citrix ShareFile — 1 operation(s) for sessions.
+- baseURL: https://{subdomain}.sf-api.com/sf/v3
+  baseurl_source: declared
+  description: The Sessions API from Citrix ShareFile — 1 operation(s) for sessions.
   name: Citrix ShareFile Sessions API
   slug: citrix-sharefile-sessions-api
-- description: The Shares API from Citrix ShareFile — 2 operation(s) for shares.
+- baseURL: https://{subdomain}.sf-api.com/sf/v3
+  baseurl_source: declared
+  description: The Shares API from Citrix ShareFile — 2 operation(s) for shares.
   name: Citrix ShareFile Shares API
   slug: citrix-sharefile-shares-api
-- description: The Users API from Citrix ShareFile — 2 operation(s) for users.
+- baseURL: https://{subdomain}.sf-api.com/sf/v3
+  baseurl_source: declared
+  description: The Users API from Citrix ShareFile — 2 operation(s) for users.
   name: Citrix ShareFile Users API
   slug: citrix-sharefile-users-api
 artifact_total: 19
@@ -179,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-sharefile/refs/heads/main/screenshots/citrix-sharefile-2026-06-20T174414.png
 security:

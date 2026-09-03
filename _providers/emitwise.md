@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Physical or virtual locations whose emissions are tracked.
+- baseURL: https://api.emitwise.com/v1
+  baseurl_source: spec
+  description: Physical or virtual locations whose emissions are tracked.
   name: Emitwise Facilities API
   slug: emitwise-facilities-api
-- description: Activity-data file uploads used to calculate emissions.
+- baseURL: https://api.emitwise.com/v1
+  baseurl_source: spec
+  description: Activity-data file uploads used to calculate emissions.
   name: Emitwise Files API
   slug: emitwise-files-api
-- description: Sustainability initiatives that group emissions data.
+- baseURL: https://api.emitwise.com/v1
+  baseurl_source: spec
+  description: Sustainability initiatives that group emissions data.
   name: Emitwise Projects API
   slug: emitwise-projects-api
-- description: Activity data schema definitions.
+- baseURL: https://api.emitwise.com/v1
+  baseurl_source: spec
+  description: Activity data schema definitions.
   name: Emitwise Schema API
   slug: emitwise-schema-api
-- description: Aggregated Scope 3 supplier emissions data.
+- baseURL: https://api.emitwise.com/v1
+  baseurl_source: spec
+  description: Aggregated Scope 3 supplier emissions data.
   name: Emitwise Suppliers API
   slug: emitwise-suppliers-api
 artifact_total: 19
@@ -215,7 +225,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emitwise/refs/heads/main/screenshots/emitwise-2026-06-20T180633.png
 security:

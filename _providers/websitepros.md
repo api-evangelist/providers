@@ -34,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Domain-name availability and suggestion.
+- baseURL: https://api.nts.web.com
+  baseurl_source: declared
+  description: Domain-name availability and suggestion.
   name: WebsitePros Domains API
   slug: websitepros-domains-api
-- description: Gateway and service liveness.
+- baseURL: https://api.nts.web.com
+  baseurl_source: declared
+  description: Gateway and service liveness.
   name: WebsitePros Health API
   slug: websitepros-health-api
-- description: Create, read, update and delete sales orders in the Web.com International pipeline.
+- baseURL: https://api.nts.web.com
+  baseurl_source: declared
+  description: Create, read, update and delete sales orders in the Web.com International pipeline.
   name: WebsitePros Sales Orders API
   slug: websitepros-sales-orders-api
-- description: Provision products and services against a customer and account.
+- baseURL: https://api.nts.web.com
+  baseurl_source: declared
+  description: Provision products and services against a customer and account.
   name: WebsitePros Service Orders API
   slug: websitepros-service-orders-api
-- description: Generate a single-sign-on URL for a customer owned by your tenant.
+- baseURL: https://api.nts.web.com
+  baseurl_source: declared
+  description: Generate a single-sign-on URL for a customer owned by your tenant.
   name: WebsitePros SSO API
   slug: websitepros-sso-api
 artifact_total: 10
@@ -176,7 +186,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -201,8 +211,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/screenshots/websitepros-2026-09-02T170535.png
 security:
 - kind: authentication
   name: Websitepros Authentication

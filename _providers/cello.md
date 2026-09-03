@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
-- description: The Events API from Cello — 1 operation(s) for events.
+- baseURL: https://api.cello.so
+  baseurl_source: declared
+  description: The Events API from Cello — 1 operation(s) for events.
   name: Cello Events API
   slug: cello-events-api
-- description: The New Users API from Cello — 1 operation(s) for new users.
+- baseURL: https://api.cello.so
+  baseurl_source: declared
+  description: The New Users API from Cello — 1 operation(s) for new users.
   name: Cello New Users API
   slug: cello-new-users-api
-- description: The Referral Codes API from Cello — 2 operation(s) for referral codes.
+- baseURL: https://api.cello.so
+  baseurl_source: declared
+  description: The Referral Codes API from Cello — 2 operation(s) for referral codes.
   name: Cello Referral Codes API
   slug: cello-referral-codes-api
-- description: The Referrers API from Cello — 1 operation(s) for referrers.
+- baseURL: https://api.cello.so
+  baseurl_source: declared
+  description: The Referrers API from Cello — 1 operation(s) for referrers.
   name: Cello Referrers API
   slug: cello-referrers-api
-- description: The Token API from Cello — 1 operation(s) for token.
+- baseURL: https://api.cello.so
+  baseurl_source: declared
+  description: The Token API from Cello — 1 operation(s) for token.
   name: Cello Token API
   slug: cello-token-api
 artifact_total: 18
@@ -289,7 +299,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:

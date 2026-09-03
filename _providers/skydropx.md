@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 32 operations · 14 acting
 api_count: 1
 apis:
-- description: Reusable saved addresses and carrier validation.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Reusable saved addresses and carrier validation.
   name: Skydropx Address Templates API
   slug: skydropx-address-templates-api
-- description: OAuth2 client-credentials token issuance.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: OAuth2 client-credentials token issuance.
   name: Skydropx Authentication API
   slug: skydropx-authentication-api
-- description: Carrier services, packagings, and consignment-note codes.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Carrier services, packagings, and consignment-note codes.
   name: Skydropx Catalog API
   slug: skydropx-catalog-api
-- description: Prepaid credit balance and extra charges.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Prepaid credit balance and extra charges.
   name: Skydropx Finance API
   slug: skydropx-finance-api
-- description: Orders and their generated shipping label URLs.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Orders and their generated shipping label URLs.
   name: Skydropx Orders and Labels API
   slug: skydropx-orders-and-labels-api
-- description: Schedule and manage carrier pickups (recolecciones).
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Schedule and manage carrier pickups (recolecciones).
   name: Skydropx Pickups API
   slug: skydropx-pickups-api
-- description: Multi-carrier rate quotations for a parcel.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Multi-carrier rate quotations for a parcel.
   name: Skydropx Quotations API
   slug: skydropx-quotations-api
-- description: Create, list, retrieve, cancel, and protect shipments.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Create, list, retrieve, cancel, and protect shipments.
   name: Skydropx Shipments API
   slug: skydropx-shipments-api
-- description: Track shipments and report tracking events.
+- baseURL: https://pro.skydropx.com/api/v1
+  baseurl_source: declared
+  description: Track shipments and report tracking events.
   name: Skydropx Tracking API
   slug: skydropx-tracking-api
 artifact_total: 26
@@ -176,7 +194,7 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -205,8 +223,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skydropx/refs/heads/main/screenshots/skydropx-2026-09-02T155757.png
 security:
 - kind: authentication
   name: Skydropx Authentication

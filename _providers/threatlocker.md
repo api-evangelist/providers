@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -33,58 +44,94 @@ agentic_access:
   summary_line: 83 operations · 46 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The ActionLog API from ThreatLocker — 9 operation(s) for actionlog.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The ActionLog API from ThreatLocker — 9 operation(s) for actionlog.
   name: ThreatLocker Action Log API
   slug: threatlocker-actionlog-api
-- description: The Application API from ThreatLocker — 6 operation(s) for application.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Application API from ThreatLocker — 6 operation(s) for application.
   name: ThreatLocker Application API
   slug: threatlocker-application-api
-- description: The ApprovalRequest API from ThreatLocker — 12 operation(s) for approvalrequest.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The ApprovalRequest API from ThreatLocker — 12 operation(s) for approvalrequest.
   name: ThreatLocker Approval Request API
   slug: threatlocker-approvalrequest-api
-- description: The Computer API from ThreatLocker — 21 operation(s) for computer.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Computer API from ThreatLocker — 21 operation(s) for computer.
   name: ThreatLocker Computer API
   slug: threatlocker-computer-api
-- description: The ComputerCheckin API from ThreatLocker — 1 operation(s) for computercheckin.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The ComputerCheckin API from ThreatLocker — 1 operation(s) for computercheckin.
   name: ThreatLocker Computer Checkin API
   slug: threatlocker-computercheckin-api
-- description: The ComputerGroup API from ThreatLocker — 4 operation(s) for computergroup.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The ComputerGroup API from ThreatLocker — 4 operation(s) for computergroup.
   name: ThreatLocker Computer Group API
   slug: threatlocker-computergroup-api
-- description: The MaintenanceMode API from ThreatLocker — 4 operation(s) for maintenancemode.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The MaintenanceMode API from ThreatLocker — 4 operation(s) for maintenancemode.
   name: ThreatLocker Maintenance Mode API
   slug: threatlocker-maintenancemode-api
-- description: The OnlineDevices API from ThreatLocker — 1 operation(s) for onlinedevices.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The OnlineDevices API from ThreatLocker — 1 operation(s) for onlinedevices.
   name: ThreatLocker Online Devices API
   slug: threatlocker-onlinedevices-api
-- description: The Organization API from ThreatLocker — 3 operation(s) for organization.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Organization API from ThreatLocker — 3 operation(s) for organization.
   name: ThreatLocker Organization API
   slug: threatlocker-organization-api
-- description: The Policy API from ThreatLocker — 1 operation(s) for policy.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Policy API from ThreatLocker — 1 operation(s) for policy.
   name: ThreatLocker Policy API
   slug: threatlocker-policy-api
-- description: The Report API from ThreatLocker — 2 operation(s) for report.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Report API from ThreatLocker — 2 operation(s) for report.
   name: ThreatLocker Report API
   slug: threatlocker-report-api
-- description: The SaveSearch API from ThreatLocker — 3 operation(s) for savesearch.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The SaveSearch API from ThreatLocker — 3 operation(s) for savesearch.
   name: ThreatLocker Save Search API
   slug: threatlocker-savesearch-api
-- description: The ScheduledAgentAction API from ThreatLocker — 6 operation(s) for scheduledagentaction.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The ScheduledAgentAction API from ThreatLocker — 6 operation(s) for scheduledagentaction.
   name: ThreatLocker Scheduled Agent Action API
   slug: threatlocker-scheduledagentaction-api
-- description: The SystemAudit API from ThreatLocker — 3 operation(s) for systemaudit.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The SystemAudit API from ThreatLocker — 3 operation(s) for systemaudit.
   name: ThreatLocker System Audit API
   slug: threatlocker-systemaudit-api
-- description: The Tag API from ThreatLocker — 3 operation(s) for tag.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Tag API from ThreatLocker — 3 operation(s) for tag.
   name: ThreatLocker Tag API
   slug: threatlocker-tag-api
-- description: The ThreatLockerVersion API from ThreatLocker — 1 operation(s) for threatlockerversion.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The ThreatLockerVersion API from ThreatLocker — 1 operation(s) for threatlockerversion.
   name: ThreatLocker Threat Locker Version API
   slug: threatlocker-threatlockerversion-api
-- description: The UploadRequest API from ThreatLocker — 2 operation(s) for uploadrequest.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The UploadRequest API from ThreatLocker — 2 operation(s) for uploadrequest.
   name: ThreatLocker Upload Request API
   slug: threatlocker-uploadrequest-api
-- description: The VDIHyperV API from ThreatLocker — 1 operation(s) for vdihyperv.
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The VDIHyperV API from ThreatLocker — 1 operation(s) for vdihyperv.
   name: ThreatLocker VDI Hyper V API
   slug: threatlocker-vdihyperv-api
 artifact_total: 44
@@ -310,7 +357,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -320,7 +367,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 51.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -332,7 +379,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threatlocker/refs/heads/main/screenshots/threatlocker-2026-08-17T082347.png
 security:

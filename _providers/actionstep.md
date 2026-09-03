@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 139 operations · 75 acting
 api_count: 35
 apis:
-- description: The Action Bill Settings API from Actionstep — 2 operation(s) for action bill settings.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Action Bill Settings API from Actionstep — 2 operation(s) for action bill settings.
   name: Actionstep Action Bill Settings API
   slug: actionstep-action-bill-settings-api
-- description: The Action Folders API from Actionstep — 2 operation(s) for action folders.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Action Folders API from Actionstep — 2 operation(s) for action folders.
   name: Actionstep Action Folders API
   slug: actionstep-action-folders-api
-- description: The Action NetDocuments Settings API from Actionstep — 2 operation(s) for action netdocuments settings.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Action NetDocuments Settings API from Actionstep — 2 operation(s) for action netdocuments settings.
   name: Actionstep Action NetDocuments Settings API
   slug: actionstep-action-netdocuments-settings-api
-- description: The Action Participants API from Actionstep — 2 operation(s) for action participants.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Action Participants API from Actionstep — 2 operation(s) for action participants.
   name: Actionstep Action Participants API
   slug: actionstep-action-participants-api
-- description: The Action Type Participant Types API from Actionstep — 2 operation(s) for action type participant types.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Action Type Participant Types API from Actionstep — 2 operation(s) for action type participant types.
   name: Actionstep Action Type Participant Types API
   slug: actionstep-action-type-participant-types-api
-- description: The Actions API from Actionstep — 2 operation(s) for actions.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Actions API from Actionstep — 2 operation(s) for actions.
   name: Actionstep Actions API
   slug: actionstep-actions-api
-- description: The ActionTypes API from Actionstep — 1 operation(s) for actiontypes.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The ActionTypes API from Actionstep — 1 operation(s) for actiontypes.
   name: Actionstep ActionTypes API
   slug: actionstep-actiontypes-api
-- description: The Bills API from Actionstep — 1 operation(s) for bills.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Bills API from Actionstep — 1 operation(s) for bills.
   name: Actionstep Bills API
   slug: actionstep-bills-api
-- description: The Contact Documents API from Actionstep — 2 operation(s) for contact documents.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Contact Documents API from Actionstep — 2 operation(s) for contact documents.
   name: Actionstep Contact Documents API
   slug: actionstep-contact-documents-api
-- description: The Contact Folders API from Actionstep — 2 operation(s) for contact folders.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Contact Folders API from Actionstep — 2 operation(s) for contact folders.
   name: Actionstep Contact Folders API
   slug: actionstep-contact-folders-api
-- description: The Contact Notes API from Actionstep — 2 operation(s) for contact notes.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Contact Notes API from Actionstep — 2 operation(s) for contact notes.
   name: Actionstep Contact Notes API
   slug: actionstep-contact-notes-api
-- description: The Contact Relationships API from Actionstep — 2 operation(s) for contact relationships.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Contact Relationships API from Actionstep — 2 operation(s) for contact relationships.
   name: Actionstep Contact Relationships API
   slug: actionstep-contact-relationships-api
-- description: The Cultural Identity API from Actionstep — 1 operation(s) for cultural identity.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Cultural Identity API from Actionstep — 1 operation(s) for cultural identity.
   name: Actionstep Cultural Identity API
   slug: actionstep-cultural-identity-api
-- description: The Data Collection Field Dropdown Choices API from Actionstep — 2 operation(s) for data collection field dropdown choices.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Data Collection Field Dropdown Choices API from Actionstep — 2 operation(s) for data collection field dropdown choices.
   name: Actionstep Data Collection Field Dropdown Choices API
   slug: actionstep-data-collection-field-dropdown-choices-api
-- description: The Data Collection Fields API from Actionstep — 2 operation(s) for data collection fields.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Data Collection Fields API from Actionstep — 2 operation(s) for data collection fields.
   name: Actionstep Data Collection Fields API
   slug: actionstep-data-collection-fields-api
-- description: The Data Collection Record Values API from Actionstep — 2 operation(s) for data collection record values.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Data Collection Record Values API from Actionstep — 2 operation(s) for data collection record values.
   name: Actionstep Data Collection Record Values API
   slug: actionstep-data-collection-record-values-api
-- description: The Data Collection Records API from Actionstep — 2 operation(s) for data collection records.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Data Collection Records API from Actionstep — 2 operation(s) for data collection records.
   name: Actionstep Data Collection Records API
   slug: actionstep-data-collection-records-api
-- description: The Data Collections API from Actionstep — 2 operation(s) for data collections.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Data Collections API from Actionstep — 2 operation(s) for data collections.
   name: Actionstep Data Collections API
   slug: actionstep-data-collections-api
-- description: The Disability Status API from Actionstep — 1 operation(s) for disability status.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Disability Status API from Actionstep — 1 operation(s) for disability status.
   name: Actionstep Disability Status API
   slug: actionstep-disability-status-api
-- description: The Disbursements API from Actionstep — 2 operation(s) for disbursements.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Disbursements API from Actionstep — 2 operation(s) for disbursements.
   name: Actionstep Disbursements API
   slug: actionstep-disbursements-api
-- description: The File Notes API from Actionstep — 2 operation(s) for file notes.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The File Notes API from Actionstep — 2 operation(s) for file notes.
   name: Actionstep File Notes API
   slug: actionstep-file-notes-api
-- description: The Gender Types API from Actionstep — 2 operation(s) for gender types.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Gender Types API from Actionstep — 2 operation(s) for gender types.
   name: Actionstep Gender Types API
   slug: actionstep-gender-types-api
-- description: The Participant Additional Notification Methods API from Actionstep — 2 operation(s) for participant additional notification methods.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Participant Additional Notification Methods API from Actionstep — 2 operation(s) for participant additional notification methods.
   name: Actionstep Participant Additional Notification Methods API
   slug: actionstep-participant-additional-notification-methods-api
-- description: The Participant Data Field Dropdown Choices API from Actionstep — 2 operation(s) for participant data field dropdown choices.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Participant Data Field Dropdown Choices API from Actionstep — 2 operation(s) for participant data field dropdown choices.
   name: Actionstep Participant Data Field Dropdown Choices API
   slug: actionstep-participant-data-field-dropdown-choices-api
-- description: The Participant Default Types API from Actionstep — 2 operation(s) for participant default types.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Participant Default Types API from Actionstep — 2 operation(s) for participant default types.
   name: Actionstep Participant Default Types API
   slug: actionstep-participant-default-types-api
-- description: The Participant Relationship Types API from Actionstep — 2 operation(s) for participant relationship types.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Participant Relationship Types API from Actionstep — 2 operation(s) for participant relationship types.
   name: Actionstep Participant Relationship Types API
   slug: actionstep-participant-relationship-types-api
-- description: The Participant Type Data Fields API from Actionstep — 2 operation(s) for participant type data fields.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Participant Type Data Fields API from Actionstep — 2 operation(s) for participant type data fields.
   name: Actionstep Participant Type Data Fields API
   slug: actionstep-participant-type-data-fields-api
-- description: The Participants API from Actionstep — 2 operation(s) for participants.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Participants API from Actionstep — 2 operation(s) for participants.
   name: Actionstep Participants API
   slug: actionstep-participants-api
-- description: The Phone Records API from Actionstep — 2 operation(s) for phone records.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Phone Records API from Actionstep — 2 operation(s) for phone records.
   name: Actionstep Phone Records API
   slug: actionstep-phone-records-api
-- description: The Primary Language API from Actionstep — 1 operation(s) for primary language.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Primary Language API from Actionstep — 1 operation(s) for primary language.
   name: Actionstep Primary Language API
   slug: actionstep-primary-language-api
-- description: The Quick Codes API from Actionstep — 2 operation(s) for quick codes.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Quick Codes API from Actionstep — 2 operation(s) for quick codes.
   name: Actionstep Quick Codes API
   slug: actionstep-quick-codes-api
-- description: The REST Hooks API from Actionstep — 2 operation(s) for rest hooks.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The REST Hooks API from Actionstep — 2 operation(s) for rest hooks.
   name: Actionstep REST Hooks API
   slug: actionstep-rest-hooks-api
-- description: The Tasks API from Actionstep — 2 operation(s) for tasks.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Tasks API from Actionstep — 2 operation(s) for tasks.
   name: Actionstep Tasks API
   slug: actionstep-tasks-api
-- description: The Time Entries API from Actionstep — 2 operation(s) for time entries.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The Time Entries API from Actionstep — 2 operation(s) for time entries.
   name: Actionstep Time Entries API
   slug: actionstep-time-entries-api
-- description: The UTBMS Codes API from Actionstep — 2 operation(s) for utbms codes.
+- baseURL: https://api.actionstep.com
+  baseurl_source: declared
+  description: The UTBMS Codes API from Actionstep — 2 operation(s) for utbms codes.
   name: Actionstep UTBMS Codes API
   slug: actionstep-utbms-codes-api
 artifact_total: 79
@@ -399,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
 security:

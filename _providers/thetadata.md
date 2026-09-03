@@ -35,28 +35,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
+- baseURL: ws://127.0.0.1:25520/v1/events
+  baseurl_source: declared
+  description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
   name: ThetaData Streaming WebSocket API
   slug: thetadata-streaming-websocket-api
 - description: Model Context Protocol server built into Theta Terminal v3, exposing the full v3 API to LLM CLIs (documented for Claude CLI and Gemini CLI) over SSE at http://127.0.0.1:25503/mcp/sse. Requires the ter
   name: ThetaData MCP Server
   slug: thetadata-mcp-server
-- description: The Calendar API from ThetaData — 3 operation(s) for calendar.
+- baseURL: http://127.0.0.1:25503/v3
+  baseurl_source: declared
+  description: The Calendar API from ThetaData — 3 operation(s) for calendar.
   name: ThetaData Calendar API
   slug: thetadata-calendar-api
-- description: The Index API from ThetaData — 10 operation(s) for index.
+- baseURL: http://127.0.0.1:25503/v3
+  baseurl_source: declared
+  description: The Index API from ThetaData — 10 operation(s) for index.
   name: ThetaData Index API
   slug: thetadata-index-api
-- description: The Interest Rate API from ThetaData — 1 operation(s) for interest rate.
+- baseURL: http://127.0.0.1:25503/v3
+  baseurl_source: declared
+  description: The Interest Rate API from ThetaData — 1 operation(s) for interest rate.
   name: ThetaData Interest Rate API
   slug: thetadata-interest-rate-api
-- description: The Option API from ThetaData — 37 operation(s) for option.
+- baseURL: http://127.0.0.1:25503/v3
+  baseurl_source: declared
+  description: The Option API from ThetaData — 37 operation(s) for option.
   name: ThetaData Option API
   slug: thetadata-option-api
-- description: The Stock API from ThetaData — 15 operation(s) for stock.
+- baseURL: http://127.0.0.1:25503/v3
+  baseurl_source: declared
+  description: The Stock API from ThetaData — 15 operation(s) for stock.
   name: ThetaData Stock API
   slug: thetadata-stock-api
 artifact_total: 38
@@ -349,7 +361,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -359,7 +371,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 63.2
+  previous_composite: 63.1
   provenance:
     conformance: derived
     contracts:
@@ -376,7 +388,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: HollyFrontier was an independent petroleum refiner and marketer tha
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hollyfrontier.png
 layout: provider
 modified: '2026-04-28'
-name: hollyfrontier
+name: Hollyfrontier
 nav: Providers
 network: true
-overview: hollyfrontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: Hollyfrontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
 - date: '2026-05-25'
   title: HollyFrontier Corporation (HFC) CEO George Damiris on ...
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/screenshots/hollyfrontier-2026-07-25T221320.png
 security:

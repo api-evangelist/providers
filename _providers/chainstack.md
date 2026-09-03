@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -44,97 +44,159 @@ agentic_access:
   summary_line: 1226 operations · 1123 acting
 api_count: 25
 apis:
-- description: Public Chainstack-operated testnet faucet for Hoodi, Sepolia, BNB Testnet, zkSync Testnet, Scroll Sepolia, and Polygon Amoy. JWT-authenticated POST /v1/faucet/{chain} request endpoint plus a transacti
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: Public Chainstack-operated testnet faucet for Hoodi, Sepolia, BNB Testnet, zkSync Testnet, Scroll Sepolia, and Polygon Amoy. JWT-authenticated POST /v1/faucet/{chain} request endpoint plus a transacti
   name: Chainstack Faucet API
   slug: chainstack-faucet-api
-- description: The Account Info API from Chainstack — 6 operation(s) for account info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Account Info API from Chainstack — 6 operation(s) for account info.
   name: Chainstack Account Info API
   slug: chainstack-account-info-api
-- description: The Accounts Info API from Chainstack — 6 operation(s) for accounts info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Accounts Info API from Chainstack — 6 operation(s) for accounts info.
   name: Chainstack Accounts Info API
   slug: chainstack-accounts-info-api
-- description: The Blocks Info API from Chainstack — 13 operation(s) for blocks info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Blocks Info API from Chainstack — 13 operation(s) for blocks info.
   name: Chainstack Blocks Info API
   slug: chainstack-blocks-info-api
-- description: The Chain Info API from Chainstack — 5 operation(s) for chain info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Chain Info API from Chainstack — 5 operation(s) for chain info.
   name: Chainstack Chain Info API
   slug: chainstack-chain-info-api
-- description: The Client Info API from Chainstack — 5 operation(s) for client info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Client Info API from Chainstack — 5 operation(s) for client info.
   name: Chainstack Client Info API
   slug: chainstack-client-info-api
-- description: The Configuration Info API from Chainstack — 5 operation(s) for configuration info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Configuration Info API from Chainstack — 5 operation(s) for configuration info.
   name: Chainstack Configuration Info API
   slug: chainstack-configuration-info-api
-- description: The Debug And Trace API from Chainstack — 37 operation(s) for debug and trace.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Debug And Trace API from Chainstack — 37 operation(s) for debug and trace.
   name: Chainstack Debug And Trace API
   slug: chainstack-debug-and-trace-api
-- description: The Debug API from Chainstack — 3 operation(s) for debug.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Debug API from Chainstack — 3 operation(s) for debug.
   name: Chainstack Debug API
   slug: chainstack-debug-api
-- description: The Deployment Options API from Chainstack — 1 operation(s) for deployment options.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Deployment Options API from Chainstack — 1 operation(s) for deployment options.
   name: Chainstack Deployment Options API
   slug: chainstack-deployment-options-api
-- description: The Events API from Chainstack — 1 operation(s) for events.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Events API from Chainstack — 1 operation(s) for events.
   name: Chainstack Events API
   slug: chainstack-events-api
-- description: The Execute Transactions API from Chainstack — 6 operation(s) for execute transactions.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Execute Transactions API from Chainstack — 6 operation(s) for execute transactions.
   name: Chainstack Execute Transactions API
   slug: chainstack-execute-transactions-api
-- description: The Filter Handling API from Chainstack — 5 operation(s) for filter handling.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Filter Handling API from Chainstack — 5 operation(s) for filter handling.
   name: Chainstack Filter Handling API
   slug: chainstack-filter-handling-api
-- description: The Gas Data API from Chainstack — 5 operation(s) for gas data.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Gas Data API from Chainstack — 5 operation(s) for gas data.
   name: Chainstack Gas Data API
   slug: chainstack-gas-data-api
-- description: The General API from Chainstack — 520 operation(s) for general.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The General API from Chainstack — 520 operation(s) for general.
   name: Chainstack General API
   slug: chainstack-general-api
-- description: The Logs And Events API from Chainstack — 3 operation(s) for logs and events.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Logs And Events API from Chainstack — 3 operation(s) for logs and events.
   name: Chainstack Logs And Events API
   slug: chainstack-logs-and-events-api
-- description: The Network API from Chainstack — 2 operation(s) for network.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Network API from Chainstack — 2 operation(s) for network.
   name: Chainstack Network API
   slug: chainstack-network-api
-- description: The Node API from Chainstack — 2 operation(s) for node.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Node API from Chainstack — 2 operation(s) for node.
   name: Chainstack Node API
   slug: chainstack-node-api
-- description: The Node V2 API from Chainstack — 2 operation(s) for node v2.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Node V2 API from Chainstack — 2 operation(s) for node v2.
   name: Chainstack Node V2 API
   slug: chainstack-node-v2-api
-- description: The Organization API from Chainstack — 1 operation(s) for organization.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Organization API from Chainstack — 1 operation(s) for organization.
   name: Chainstack Organization API
   slug: chainstack-organization-api
-- description: The Project API from Chainstack — 3 operation(s) for project.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Project API from Chainstack — 3 operation(s) for project.
   name: Chainstack Project API
   slug: chainstack-project-api
-- description: The Project V2 API from Chainstack — 2 operation(s) for project v2.
+- baseURL: https://api.chainstack.com
+  baseurl_source: spec
+  description: The Project V2 API from Chainstack — 2 operation(s) for project v2.
   name: Chainstack Project V2 API
   slug: chainstack-project-v2-api
-- description: The State API from Chainstack — 10 operation(s) for state.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The State API from Chainstack — 10 operation(s) for state.
   name: Chainstack State API
   slug: chainstack-state-api
-- description: The Tempo Specific API from Chainstack — 2 operation(s) for tempo specific.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Tempo Specific API from Chainstack — 2 operation(s) for tempo specific.
   name: Chainstack Tempo Specific API
   slug: chainstack-tempo-specific-api
-- description: The Transaction Info API from Chainstack — 14 operation(s) for transaction info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Transaction Info API from Chainstack — 14 operation(s) for transaction info.
   name: Chainstack Transaction Info API
   slug: chainstack-transaction-info-api
-- description: The Transactions Info API from Chainstack — 5 operation(s) for transactions info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Transactions Info API from Chainstack — 5 operation(s) for transactions info.
   name: Chainstack Transactions Info API
   slug: chainstack-transactions-info-api
-- description: The Txpool API from Chainstack — 2 operation(s) for txpool.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Txpool API from Chainstack — 2 operation(s) for txpool.
   name: Chainstack Txpool API
   slug: chainstack-txpool-api
-- description: The V2 API from Chainstack — 29 operation(s) for v2.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The V2 API from Chainstack — 29 operation(s) for v2.
   name: Chainstack V2 API
   slug: chainstack-v2-api
-- description: The V3 API from Chainstack — 30 operation(s) for v3.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The V3 API from Chainstack — 30 operation(s) for v3.
   name: Chainstack V3 API
   slug: chainstack-v3-api
-- description: The Validatiors Info API from Chainstack — 12 operation(s) for validatiors info.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Validatiors Info API from Chainstack — 12 operation(s) for validatiors info.
   name: Chainstack Validatiors Info API
   slug: chainstack-validatiors-info-api
-- description: The Zkevm Methods API from Chainstack — 8 operation(s) for zkevm methods.
+- baseURL_template: https://{node_id}.p2pify.com/{api_key}
+  baseurl_source: spec_template
+  description: The Zkevm Methods API from Chainstack — 8 operation(s) for zkevm methods.
   name: Chainstack Zkevm Methods API
   slug: chainstack-zkevm-methods-api
 artifact_total: 135
@@ -678,7 +740,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -688,7 +750,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 73.7
-  previous_composite: 61.1
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
@@ -697,7 +759,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

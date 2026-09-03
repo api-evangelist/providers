@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Authorization operations for OAuth 2.0 Grants
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Authorization operations for OAuth 2.0 Grants
   name: Bokio authorization API
   slug: bokio-authorization-api
-- description: Operations for creating and reading bank payments
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for creating and reading bank payments
   name: Bokio bank-payments API
   slug: bokio-bank-payments-api
-- description: Operations for managing chart of accounts
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing chart of accounts
   name: Bokio chart-of-accounts API
   slug: bokio-chart-of-accounts-api
-- description: Operations for managing company information
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing company information
   name: Bokio company-information API
   slug: bokio-company-information-api
-- description: Connections operations
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Connections operations
   name: Bokio connections API
   slug: bokio-connections-api
-- description: Operations for managing credit notes
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing credit notes
   name: Bokio credit-notes API
   slug: bokio-credit-notes-api
-- description: Operations for managing customer data
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing customer data
   name: Bokio customers API
   slug: bokio-customers-api
-- description: Operations for managing fiscal years
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing fiscal years
   name: Bokio fiscal-years API
   slug: bokio-fiscal-years-api
-- description: Operations for managing invoices
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing invoices
   name: Bokio invoices API
   slug: bokio-invoices-api
-- description: Operations for managing inventory items
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing inventory items
   name: Bokio items API
   slug: bokio-items-api
-- description: Operations for managing accounting journal entries
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing accounting journal entries
   name: Bokio journal-entries API
   slug: bokio-journal-entries-api
-- description: Operations for managing SIE files
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing SIE files
   name: Bokio sie-files API
   slug: bokio-sie-files-api
-- description: Operations for managing supplier invoices
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing supplier invoices
   name: Bokio supplier-invoices API
   slug: bokio-supplier-invoices-api
-- description: Operations for managing suppliers
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing suppliers
   name: Bokio suppliers API
   slug: bokio-suppliers-api
-- description: Operations for managing tag groups and tags
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing tag groups and tags
   name: Bokio tag-groups API
   slug: bokio-tag-groups-api
-- description: Operations for managing file uploads
+- baseURL: https://api.bokio.se/v1
+  baseurl_source: declared
+  description: Operations for managing file uploads
   name: Bokio uploads API
   slug: bokio-uploads-api
 artifact_total: 55
@@ -383,7 +415,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 11 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The current TensorDock Instances API (v2) at https://dashboard.tensordock.com/api/v2/instances for creating, listing, inspecting, starting, stopping, modifying, and deleting GPU and CPU virtual machin
+- baseURL: https://dashboard.tensordock.com
+  baseurl_source: spec
+  description: The current TensorDock Instances API (v2) at https://dashboard.tensordock.com/api/v2/instances for creating, listing, inspecting, starting, stopping, modifying, and deleting GPU and CPU virtual machin
   name: TensorDock Instances API
   slug: tensordock-instances-api
-- description: The TensorDock Secrets API (v2) for managing SSH keys and generic secrets that are encrypted at rest and in transit and can be attached to instances at deploy time. Two secret types are supported — `S
+- baseURL: https://dashboard.tensordock.com
+  baseurl_source: spec
+  description: The TensorDock Secrets API (v2) for managing SSH keys and generic secrets that are encrypted at rest and in transit and can be attached to instances at deploy time. Two secret types are supported — `S
   name: TensorDock Secrets API
   slug: tensordock-secrets-api
-- description: Verify and list API authorization pairs
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Verify and list API authorization pairs
   name: TensorDock Authorization API
   slug: tensordock-authorization-api
-- description: Retrieve balance, revenue, and monthly summaries
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Retrieve balance, revenue, and monthly summaries
   name: TensorDock Billing API
   slug: tensordock-billing-api
-- description: Deploy, scale, terminate, and inspect containers
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Deploy, scale, terminate, and inspect containers
   name: TensorDock Containers API
   slug: tensordock-containers-api
-- description: Discover available hostnodes and GPU/CPU configurations
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Discover available hostnodes and GPU/CPU configurations
   name: TensorDock Hostnodes API
   slug: tensordock-hostnodes-api
-- description: Deploy and inspect pre-configured Instant VMs
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Deploy and inspect pre-configured Instant VMs
   name: TensorDock Instant VMs API
   slug: tensordock-instant-vms-api
-- description: Validate spot instance pricing for new and existing instances
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Validate spot instance pricing for new and existing instances
   name: TensorDock Spot API
   slug: tensordock-spot-api
-- description: Deploy, list, start, stop, modify, and delete virtual machines
+- baseURL: https://marketplace.tensordock.com
+  baseurl_source: spec
+  description: Deploy, list, start, stop, modify, and delete virtual machines
   name: TensorDock Virtual Machines API
   slug: tensordock-virtual-machines-api
 artifact_total: 56
@@ -431,7 +449,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/screenshots/tensordock-2026-06-20T195118.png
 security:

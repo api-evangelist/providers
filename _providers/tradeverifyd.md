@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 46 operations · 10 acting
 api_count: 2
 apis:
-- description: Operations involving documents
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Operations involving documents
   name: Tradeverifyd Documents API
   slug: tradeverifyd-documents-api
-- description: Operations involving entities. Entities encompass a range of organizations and individuals, primarily focusing on companies. This section provides functionalities to manage and interact with informati
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Operations involving entities. Entities encompass a range of organizations and individuals, primarily focusing on companies. This section provides functionalities to manage and interact with informati
   name: Tradeverifyd Entity API
   slug: tradeverifyd-entity-api
-- description: Flags impacting an entity
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Flags impacting an entity
   name: Tradeverifyd Flags API
   slug: tradeverifyd-flags-api
-- description: The Organizations API from Tradeverifyd — 1 operation(s) for organizations.
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: The Organizations API from Tradeverifyd — 1 operation(s) for organizations.
   name: Tradeverifyd Organizations API
   slug: tradeverifyd-organizations-api
-- description: Relationships between entities
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Relationships between entities
   name: Tradeverifyd Relationships API
   slug: tradeverifyd-relationships-api
-- description: Access detailed Tradeverifyd reports. These comprehensive reports offer an in-depth analysis of suppliers, complete with compliance scoring to highlight potential trade-related issues. Utilize these r
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Access detailed Tradeverifyd reports. These comprehensive reports offer an in-depth analysis of suppliers, complete with compliance scoring to highlight potential trade-related issues. Utilize these r
   name: Tradeverifyd Reports API
   slug: tradeverifyd-reports-api
-- description: 'Manage and retrieve events related to entities. This includes real-time updates on critical incidents like supply chain disruptions, compliance issues, or significant changes affecting entities. Stay '
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: 'Manage and retrieve events related to entities. This includes real-time updates on critical incidents like supply chain disruptions, compliance issues, or significant changes affecting entities. Stay '
   name: Tradeverifyd Risk Events API
   slug: tradeverifyd-risk-events-api
-- description: SCRAPI related http resources
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: SCRAPI related http resources
   name: Tradeverifyd SCITT Reference APIs API
   slug: tradeverifyd-scitt-reference-apis-api
-- description: Operations involving shipments
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Operations involving shipments
   name: Tradeverifyd Shipments API
   slug: tradeverifyd-shipments-api
-- description: System operations and monitoring
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: System operations and monitoring
   name: Tradeverifyd System API
   slug: tradeverifyd-system-api
-- description: Auxillary resources for securing and analyzing supply chain artifacts
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Auxillary resources for securing and analyzing supply chain artifacts
   name: Tradeverifyd Transparency Log API
   slug: tradeverifyd-transparency-log-api
-- description: The US Customs API from Tradeverifyd — 1 operation(s) for us customs.
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: The US Customs API from Tradeverifyd — 1 operation(s) for us customs.
   name: Tradeverifyd US Customs API
   slug: tradeverifyd-us-customs-api
-- description: Operations involving verifiable credentials
+- baseURL: https://api.tradeverifyd.com
+  baseurl_source: declared
+  description: Operations involving verifiable credentials
   name: Tradeverifyd Verifiable Credentials API
   slug: tradeverifyd-verifiable-credentials-api
 artifact_total: 32
@@ -268,7 +294,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -278,7 +304,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 42.1
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeverifyd/refs/heads/main/screenshots/tradeverifyd-2026-08-17T082420.png
 security:

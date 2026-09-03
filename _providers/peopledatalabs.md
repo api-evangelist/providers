@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 21 operations · 8 acting
 api_count: 2
 apis:
-- description: The Autocomplete API from People Data Labs — 1 operation(s) for autocomplete.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Autocomplete API from People Data Labs — 1 operation(s) for autocomplete.
   name: People Data Labs Autocomplete API
   slug: peopledatalabs-autocomplete-api
-- description: The Cleaner Endpoints API from People Data Labs — 3 operation(s) for cleaner endpoints.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Cleaner Endpoints API from People Data Labs — 3 operation(s) for cleaner endpoints.
   name: People Data Labs Cleaner Endpoints API
   slug: peopledatalabs-cleaner-endpoints-api
-- description: The Company Endpoints API from People Data Labs — 2 operation(s) for company endpoints.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Company Endpoints API from People Data Labs — 2 operation(s) for company endpoints.
   name: People Data Labs Company Endpoints API
   slug: peopledatalabs-company-endpoints-api
-- description: The IP Enrichment API from People Data Labs — 1 operation(s) for ip enrichment.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The IP Enrichment API from People Data Labs — 1 operation(s) for ip enrichment.
   name: People Data Labs IP Enrichment API
   slug: peopledatalabs-ip-enrichment-api
-- description: The Job Title Enrichment API from People Data Labs — 1 operation(s) for job title enrichment.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Job Title Enrichment API from People Data Labs — 1 operation(s) for job title enrichment.
   name: People Data Labs Job Title Enrichment API
   slug: peopledatalabs-job-title-enrichment-api
-- description: The Person Endpoints API from People Data Labs — 5 operation(s) for person endpoints.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Person Endpoints API from People Data Labs — 5 operation(s) for person endpoints.
   name: People Data Labs Person Endpoints API
   slug: peopledatalabs-person-endpoints-api
-- description: The Skill Enrichment API from People Data Labs — 1 operation(s) for skill enrichment.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Skill Enrichment API from People Data Labs — 1 operation(s) for skill enrichment.
   name: People Data Labs Skill Enrichment API
   slug: peopledatalabs-skill-enrichment-api
-- description: 'The Subscription API from People Data Labs — 5 operations for managing webhook subscriptions: create, list, retrieve, update and delete the HTTPS target URL that People Data Labs pushes batched person'
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: 'The Subscription API from People Data Labs — 5 operations for managing webhook subscriptions: create, list, retrieve, update and delete the HTTPS target URL that People Data Labs pushes batched person'
   name: People Data Labs Subscription API
   slug: peopledatalabs-subscription-api
-- description: 'The Preview Enrichment API from People Data Labs — 1 operation returning a preview of a person match: a small set of identity fields plus booleans indicating which further fields exist on the record, '
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: 'The Preview Enrichment API from People Data Labs — 1 operation returning a preview of a person match: a small set of identity fields plus booleans indicating which further fields exist on the record, '
   name: People Data Labs Preview Enrichment API
   slug: peopledatalabs-preview-enrichment-api
-- description: The Subject Request API from People Data Labs — 1 operation returning a CSV of PDL Person IDs belonging to data subjects who have opted out of People Data Labs data, so downstream systems can delete t
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The Subject Request API from People Data Labs — 1 operation returning a CSV of PDL Person IDs belonging to data subjects who have opted out of People Data Labs data, so downstream systems can delete t
   name: People Data Labs Subject Request API
   slug: peopledatalabs-subject-request-api
-- description: Company enrichment and search operations.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: Company enrichment and search operations.
   name: People Data Labs Company API
   slug: peopledatalabs-company-api
-- description: IP-based enrichment operations.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: IP-based enrichment operations.
   name: People Data Labs IP API
   slug: peopledatalabs-ip-api
-- description: Job posting search operations.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: Job posting search operations.
   name: People Data Labs Jobs API
   slug: peopledatalabs-jobs-api
-- description: Person enrichment, search, and identification operations.
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: Person enrichment, search, and identification operations.
   name: People Data Labs Person API
   slug: peopledatalabs-person-api
 artifact_total: 39
@@ -357,7 +385,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -367,7 +395,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 66.4
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,7 +407,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/screenshots/peopledatalabs-2026-06-20T191552.png
 security:

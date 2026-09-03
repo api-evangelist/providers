@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: Free and open-source API for current and historical forex rates.
   name: Frankfurter API
   slug: frankfurter
-- description: The Account API from Forex — 1 operation(s) for account.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: The Account API from Forex — 1 operation(s) for account.
   name: Forex Account API
   slug: forex-account-api
-- description: The Rates API from Forex — 3 operation(s) for rates.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: The Rates API from Forex — 3 operation(s) for rates.
   name: Forex Rates API
   slug: forex-rates-api
-- description: The Reference API from Forex — 1 operation(s) for reference.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: The Reference API from Forex — 1 operation(s) for reference.
   name: Forex Reference API
   slug: forex-reference-api
 artifact_total: 18
@@ -153,7 +159,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/screenshots/forex-2026-06-20T181424.png
 security:

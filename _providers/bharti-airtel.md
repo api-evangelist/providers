@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -36,61 +49,99 @@ apis:
 - description: Airtel's original partner developer programme, launched in 2017 and now an unmaintained legacy portal (the site still carries a 2017 copyright). Its public documentation still describes real OAuth 2.0
   name: Airtel Smart API (legacy)
   slug: airtel-smart-api
-- description: This set of APIs shall allow user to generate Access Token and refresh Access Token to perform any action on CMP via the API gateway.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This set of APIs shall allow user to generate Access Token and refresh Access Token to perform any action on CMP via the API gateway.
   name: Bharti Airtel Account Authorization API
   slug: bharti-airtel-account-authorization-api
-- description: This set of APIs fetch various details about a Billable Customer Account including Customer Profile, Plan details, User details and so on.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This set of APIs fetch various details about a Billable Customer Account including Customer Profile, Plan details, User details and so on.
   name: Bharti Airtel Account Details API
   slug: bharti-airtel-account-details-api
-- description: <strong>Call Detail Record (CDR)</strong> is the detailed record of the call, which contains various call details such as Time, Date, Duration, Caller_ID, Destination_Number, Status, recording URL, et
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: <strong>Call Detail Record (CDR)</strong> is the detailed record of the call, which contains various call details such as Time, Date, Duration, Caller_ID, Destination_Number, Status, recording URL, et
   name: Bharti Airtel Airtel IQ Sample CDR(Call Data Record) API
   slug: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api
-- description: This API will help you to generate token from the client credentials shared upon subscription to location services. In case you have not yet subscribed to location service, email us to locate.support@
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This API will help you to generate token from the client credentials shared upon subscription to location services. In case you have not yet subscribed to location service, email us to locate.support@
   name: Bharti Airtel Authorization API
   slug: bharti-airtel-authorization-api-api
-- description: These APIs can be used to send Bulk SMS in different ways as documented below
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: These APIs can be used to send Bulk SMS in different ways as documented below
   name: Bharti Airtel Bulk SMS APIs API
   slug: bharti-airtel-bulk-sms-apis-api
-- description: To data usage on a specific SIM, this API will allow user to get total data allocation, available data, used data, device information & session information for the SIM.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: To data usage on a specific SIM, this API will allow user to get total data allocation, available data, used data, device information & session information for the SIM.
   name: Bharti Airtel Device & Session Information API
   slug: bharti-airtel-device-session-information-api
-- description: These APIs can be used to send a single SMS in a single request as documented below
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: These APIs can be used to send a single SMS in a single request as documented below
   name: Bharti Airtel Individual SMS APIs API
   slug: bharti-airtel-individual-sms-apis-api
-- description: This set of APIs fetch various details about Sim details, Basket details and so on in the account.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This set of APIs fetch various details about Sim details, Basket details and so on in the account.
   name: Bharti Airtel Inventory Management API
   slug: bharti-airtel-inventory-management-api
-- description: This API will allow user to fetch Job details for any operations being performed in that Billable account.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This API will allow user to fetch Job details for any operations being performed in that Billable account.
   name: Bharti Airtel Job Status API
   slug: bharti-airtel-job-status-api
-- description: This set of APIs to manage SIM KYC details.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This set of APIs to manage SIM KYC details.
   name: Bharti Airtel KYC Manager API
   slug: bharti-airtel-kyc-manager-api
-- description: This API will return location of MSISDN including Latitude and Longitude.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This API will return location of MSISDN including Latitude and Longitude.
   name: Bharti Airtel Location API
   slug: bharti-airtel-location-api-api
-- description: These set of APIs allow lifecycle management of the Messaging Centre functionality
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: These set of APIs allow lifecycle management of the Messaging Centre functionality
   name: Bharti Airtel Messaging Centre API
   slug: bharti-airtel-messaging-centre-api
-- description: This set of APIs allow customer initiate consent, fetch consent details, delete resource, fetch list of msisdn for consent was initiated and various other API to handle consumer msisdn's and their con
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This set of APIs allow customer initiate consent, fetch consent details, delete resource, fetch list of msisdn for consent was initiated and various other API to handle consumer msisdn's and their con
   name: Bharti Airtel Resource Consent API
   slug: bharti-airtel-resource-consent-api-api
-- description: This API shall allow user to change the state of SIMs.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This API shall allow user to change the state of SIMs.
   name: Bharti Airtel SIM LifeCycle API
   slug: bharti-airtel-sim-lifecycle-api
-- description: This API shall allow user to change the state of SIMs.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This API shall allow user to change the state of SIMs.
   name: Bharti Airtel SIM LifeCycle Bulk API
   slug: bharti-airtel-sim-lifecycle-bulk-api
-- description: These set of Tenant APIs allow customer to initiate consent, fetch consent details, delete consent, fetch list of msisdn for consent was initiated and various other API to handle tenant msisdn's and t
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: These set of Tenant APIs allow customer to initiate consent, fetch consent details, delete consent, fetch list of msisdn for consent was initiated and various other API to handle tenant msisdn's and t
   name: Bharti Airtel Tenant API
   slug: bharti-airtel-tenant-api-api
-- description: These set of APIs allow customer to validate a physical address against network fetched live location. To get access to these API's please email to locate.support@airtel.com
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: These set of APIs allow customer to validate a physical address against network fetched live location. To get access to these API's please email to locate.support@airtel.com
   name: Bharti Airtel Validation API
   slug: bharti-airtel-validation-api-api
-- description: This set of APIs to manage whitelisting numbers on Airtel IoT portal in Batch
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: This set of APIs to manage whitelisting numbers on Airtel IoT portal in Batch
   name: Bharti Airtel Whitelisting API
   slug: bharti-airtel-whitelisting-api
-- description: The Whitelisting APIs API from Bharti Airtel — 1 operation(s) for whitelisting apis.
+- baseURL: https://iqsms.airtel.in/api/v1
+  baseurl_source: declared
+  description: The Whitelisting APIs API from Bharti Airtel — 1 operation(s) for whitelisting apis.
   name: Bharti Airtel Whitelisting APIs API
   slug: bharti-airtel-whitelisting-apis-api
 artifact_total: 31
@@ -314,7 +365,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -324,7 +375,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,7 +393,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/screenshots/bharti-airtel-2026-08-07T162406.png
 security:

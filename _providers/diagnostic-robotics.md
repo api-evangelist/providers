@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,43 +37,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The API Auth API from Diagnostic Robotics — 1 operation(s) for api auth.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The API Auth API from Diagnostic Robotics — 1 operation(s) for api auth.
   name: Diagnostic Robotics API Auth API
   slug: diagnostic-robotics-api-auth-api
-- description: The Dataset Upload API API from Diagnostic Robotics — 1 operation(s) for dataset upload api.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Dataset Upload API API from Diagnostic Robotics — 1 operation(s) for dataset upload api.
   name: Diagnostic Robotics Dataset Upload API
   slug: diagnostic-robotics-dataset-upload-api-api
-- description: Global
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: Global
   name: Diagnostic Robotics Default API
   slug: diagnostic-robotics-default-api
-- description: The Patient Profile API from Diagnostic Robotics — 1 operation(s) for patient profile.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Patient Profile API from Diagnostic Robotics — 1 operation(s) for patient profile.
   name: Diagnostic Robotics Patient Profile API
   slug: diagnostic-robotics-patient-profile-api
-- description: Patients resource
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: Patients resource
   name: Diagnostic Robotics Patients v2 API
   slug: diagnostic-robotics-patients-v2-api
-- description: Questions resource
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: Questions resource
   name: Diagnostic Robotics Questions v2 API
   slug: diagnostic-robotics-questions-v2-api
-- description: The Risk Adjustment Profile API from Diagnostic Robotics — 2 operation(s) for risk adjustment profile.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Risk Adjustment Profile API from Diagnostic Robotics — 2 operation(s) for risk adjustment profile.
   name: Diagnostic Robotics Risk Adjustment Profile API
   slug: diagnostic-robotics-risk-adjustment-profile-api
-- description: The Risk List API API from Diagnostic Robotics — 3 operation(s) for risk list api.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Risk List API API from Diagnostic Robotics — 3 operation(s) for risk list api.
   name: Diagnostic Robotics Risk List API
   slug: diagnostic-robotics-risk-list-api-api
-- description: The Risk Profile API from Diagnostic Robotics — 3 operation(s) for risk profile.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Risk Profile API from Diagnostic Robotics — 3 operation(s) for risk profile.
   name: Diagnostic Robotics Risk Profile API
   slug: diagnostic-robotics-risk-profile-api
-- description: The Visits API from Diagnostic Robotics — 1 operation(s) for visits.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Visits API from Diagnostic Robotics — 1 operation(s) for visits.
   name: Diagnostic Robotics Visits API
   slug: diagnostic-robotics-visits-api
-- description: Patient visits resource
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: Patient visits resource
   name: Diagnostic Robotics Visits v2 API
   slug: diagnostic-robotics-visits-v2-api
-- description: The Widgets API API from Diagnostic Robotics — 4 operation(s) for widgets api.
+- baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
+  baseurl_source: declared
+  description: The Widgets API API from Diagnostic Robotics — 4 operation(s) for widgets api.
   name: Diagnostic Robotics Widgets API
   slug: diagnostic-robotics-widgets-api-api
 artifact_total: 21
@@ -240,7 +278,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -250,7 +288,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 51.4
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     contracts:
@@ -271,7 +309,7 @@ score:
     regime_id: health
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:

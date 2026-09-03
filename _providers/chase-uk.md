@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,88 +45,144 @@ agentic_access:
   summary_line: 74 operations · 20 acting
 api_count: 3
 apis:
-- description: The Account Access Consents API from Chase UK — 2 operation(s) for account access consents.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Account Access Consents API from Chase UK — 2 operation(s) for account access consents.
   name: Chase UK Account Access Consents API
   slug: chase-uk-account-access-consents-api
-- description: The Accounts API from Chase UK — 2 operation(s) for accounts.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Accounts API from Chase UK — 2 operation(s) for accounts.
   name: Chase UK Accounts API
   slug: chase-uk-accounts-api
-- description: The Balances API from Chase UK — 2 operation(s) for balances.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Balances API from Chase UK — 2 operation(s) for balances.
   name: Chase UK Balances API
   slug: chase-uk-balances-api
-- description: The Beneficiaries API from Chase UK — 2 operation(s) for beneficiaries.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Beneficiaries API from Chase UK — 2 operation(s) for beneficiaries.
   name: Chase UK Beneficiaries API
   slug: chase-uk-beneficiaries-api
-- description: The Direct Debits API from Chase UK — 2 operation(s) for direct debits.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Direct Debits API from Chase UK — 2 operation(s) for direct debits.
   name: Chase UK Direct Debits API
   slug: chase-uk-direct-debits-api
-- description: The Domestic Payment Consents API from Chase UK — 3 operation(s) for domestic payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payment Consents API from Chase UK — 3 operation(s) for domestic payment consents.
   name: Chase UK Domestic Payment Consents API
   slug: chase-uk-domestic-payment-consents-api
-- description: The Domestic Payments API from Chase UK — 3 operation(s) for domestic payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payments API from Chase UK — 3 operation(s) for domestic payments.
   name: Chase UK Domestic Payments API
   slug: chase-uk-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Chase UK — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payment Consents API from Chase UK — 2 operation(s) for domestic scheduled payment consents.
   name: Chase UK Domestic Scheduled Payment Consents API
   slug: chase-uk-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Chase UK — 3 operation(s) for domestic scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payments API from Chase UK — 3 operation(s) for domestic scheduled payments.
   name: Chase UK Domestic Scheduled Payments API
   slug: chase-uk-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Chase UK — 2 operation(s) for domestic standing order consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Order Consents API from Chase UK — 2 operation(s) for domestic standing order consents.
   name: Chase UK Domestic Standing Order Consents API
   slug: chase-uk-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Chase UK — 3 operation(s) for domestic standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Orders API from Chase UK — 3 operation(s) for domestic standing orders.
   name: Chase UK Domestic Standing Orders API
   slug: chase-uk-domestic-standing-orders-api
-- description: The File Payment Consents API from Chase UK — 3 operation(s) for file payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payment Consents API from Chase UK — 3 operation(s) for file payment consents.
   name: Chase UK File Payment Consents API
   slug: chase-uk-file-payment-consents-api
-- description: The File Payments API from Chase UK — 4 operation(s) for file payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payments API from Chase UK — 4 operation(s) for file payments.
   name: Chase UK File Payments API
   slug: chase-uk-file-payments-api
-- description: The Funds Confirmation Consents API from Chase UK — 2 operation(s) for funds confirmation consents.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmation Consents API from Chase UK — 2 operation(s) for funds confirmation consents.
   name: Chase UK Funds Confirmation Consents API
   slug: chase-uk-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Chase UK — 1 operation(s) for funds confirmations.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmations API from Chase UK — 1 operation(s) for funds confirmations.
   name: Chase UK Funds Confirmations API
   slug: chase-uk-funds-confirmations-api
-- description: The International Payment Consents API from Chase UK — 3 operation(s) for international payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payment Consents API from Chase UK — 3 operation(s) for international payment consents.
   name: Chase UK International Payment Consents API
   slug: chase-uk-international-payment-consents-api
-- description: The International Payments API from Chase UK — 3 operation(s) for international payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payments API from Chase UK — 3 operation(s) for international payments.
   name: Chase UK International Payments API
   slug: chase-uk-international-payments-api
-- description: The International Scheduled Payments API from Chase UK — 3 operation(s) for international scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments API from Chase UK — 3 operation(s) for international scheduled payments.
   name: Chase UK International Scheduled Payments API
   slug: chase-uk-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Chase UK — 3 operation(s) for international scheduled payments consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments Consents API from Chase UK — 3 operation(s) for international scheduled payments consents.
   name: Chase UK International Scheduled Payments Consents API
   slug: chase-uk-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Chase UK — 3 operation(s) for international standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders API from Chase UK — 3 operation(s) for international standing orders.
   name: Chase UK International Standing Orders API
   slug: chase-uk-international-standing-orders-api
-- description: The International Standing Orders Consents API from Chase UK — 2 operation(s) for international standing orders consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders Consents API from Chase UK — 2 operation(s) for international standing orders consents.
   name: Chase UK International Standing Orders Consents API
   slug: chase-uk-international-standing-orders-consents-api
-- description: The Offers API from Chase UK — 2 operation(s) for offers.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Offers API from Chase UK — 2 operation(s) for offers.
   name: Chase UK Offers API
   slug: chase-uk-offers-api
-- description: The Parties API from Chase UK — 3 operation(s) for parties.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Parties API from Chase UK — 3 operation(s) for parties.
   name: Chase UK Parties API
   slug: chase-uk-parties-api
-- description: The Products API from Chase UK — 2 operation(s) for products.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Products API from Chase UK — 2 operation(s) for products.
   name: Chase UK Products API
   slug: chase-uk-products-api
-- description: The Scheduled Payments API from Chase UK — 2 operation(s) for scheduled payments.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Scheduled Payments API from Chase UK — 2 operation(s) for scheduled payments.
   name: Chase UK Scheduled Payments API
   slug: chase-uk-scheduled-payments-api
-- description: The Standing Orders API from Chase UK — 2 operation(s) for standing orders.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Standing Orders API from Chase UK — 2 operation(s) for standing orders.
   name: Chase UK Standing Orders API
   slug: chase-uk-standing-orders-api
-- description: The Statements API from Chase UK — 5 operation(s) for statements.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Statements API from Chase UK — 5 operation(s) for statements.
   name: Chase UK Statements API
   slug: chase-uk-statements-api
-- description: The Transactions API from Chase UK — 2 operation(s) for transactions.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Transactions API from Chase UK — 2 operation(s) for transactions.
   name: Chase UK Transactions API
   slug: chase-uk-transactions-api
 artifact_total: 33
@@ -294,7 +362,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/screenshots/chase-uk-2026-07-25T205111.png
 security:

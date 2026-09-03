@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The Capital.com WebSocket API streams real-time market data, supporting up to 40 concurrent instruments and OHLC candlestick subscriptions for low-latency trading applications.
   name: Capital.com WebSocket API
   slug: capital-com-websocket-api
-- description: Account information, preferences, and demo top-up.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Account information, preferences, and demo top-up.
   name: Capital.com Public API Accounts API
   slug: capital-com-public-api-accounts-api
-- description: Server time, ping, and encryption-key utility endpoints.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Server time, ping, and encryption-key utility endpoints.
   name: Capital.com Public API General API
   slug: capital-com-public-api-general-api
-- description: Account activity and transaction history.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Account activity and transaction history.
   name: Capital.com Public API History API
   slug: capital-com-public-api-history-api
-- description: Market navigation and instrument lookup.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Market navigation and instrument lookup.
   name: Capital.com Public API Markets API
   slug: capital-com-public-api-markets-api
-- description: Operations for opening, updating, and closing trading positions.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Operations for opening, updating, and closing trading positions.
   name: Capital.com Public API Positions API
   slug: capital-com-public-api-positions-api
-- description: Operations for creating, switching, and ending API sessions.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Operations for creating, switching, and ending API sessions.
   name: Capital.com Public API Session API
   slug: capital-com-public-api-session-api
-- description: Operations for managing limit and stop working orders.
+- baseURL: https://api-capital.backend-capital.com
+  baseurl_source: spec
+  description: Operations for managing limit and stop working orders.
   name: Capital.com Public API Working Orders API
   slug: capital-com-public-api-working-orders-api
 artifact_total: 26
@@ -202,7 +216,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -212,7 +226,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.3
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +241,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png
 security:

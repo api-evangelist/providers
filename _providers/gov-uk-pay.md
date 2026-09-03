@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: The Agreements API from GOV.UK Pay — 3 operation(s) for agreements.
+- baseURL: https://publicapi.payments.service.gov.uk/
+  baseurl_source: declared
+  description: The Agreements API from GOV.UK Pay — 3 operation(s) for agreements.
   name: GOV.UK Pay Agreements API
   slug: gov-uk-pay-agreements-api
-- description: The Authorise card payments API from GOV.UK Pay — 1 operation(s) for authorise card payments.
+- baseURL: https://publicapi.payments.service.gov.uk/
+  baseurl_source: declared
+  description: The Authorise card payments API from GOV.UK Pay — 1 operation(s) for authorise card payments.
   name: GOV.UK Pay Authorise card payments API
   slug: gov-uk-pay-authorise-card-payments-api
-- description: The Card payments API from GOV.UK Pay — 5 operation(s) for card payments.
+- baseURL: https://publicapi.payments.service.gov.uk/
+  baseurl_source: declared
+  description: The Card payments API from GOV.UK Pay — 5 operation(s) for card payments.
   name: GOV.UK Pay Card payments API
   slug: gov-uk-pay-card-payments-api
-- description: The Disputes API from GOV.UK Pay — 1 operation(s) for disputes.
+- baseURL: https://publicapi.payments.service.gov.uk/
+  baseurl_source: declared
+  description: The Disputes API from GOV.UK Pay — 1 operation(s) for disputes.
   name: GOV.UK Pay Disputes API
   slug: gov-uk-pay-disputes-api
-- description: The Refunding card payments API from GOV.UK Pay — 3 operation(s) for refunding card payments.
+- baseURL: https://publicapi.payments.service.gov.uk/
+  baseurl_source: declared
+  description: The Refunding card payments API from GOV.UK Pay — 3 operation(s) for refunding card payments.
   name: GOV.UK Pay Refunding card payments API
   slug: gov-uk-pay-refunding-card-payments-api
 artifact_total: 66
@@ -307,7 +317,7 @@ score:
     catalog_gap: 55.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -320,7 +330,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 46.3
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -335,7 +345,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 3
 apis:
-- description: Create, list, retrieve, and cancel batch inference jobs.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Create, list, retrieve, and cancel batch inference jobs.
   name: Parasail Batch API
   slug: parasail-ai-batch-api
-- description: Chat completions for conversational LLM workloads.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Chat completions for conversational LLM workloads.
   name: Parasail Chat API
   slug: parasail-ai-chat-api
-- description: Legacy text completions for prompt-only LLM workloads.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Legacy text completions for prompt-only LLM workloads.
   name: Parasail Completions API
   slug: parasail-ai-completions-api
-- description: Manage dedicated GPU deployments for custom and reserved-capacity inference.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Manage dedicated GPU deployments for custom and reserved-capacity inference.
   name: Parasail Deployments API
   slug: parasail-ai-deployments-api
-- description: Vector embeddings for RAG, semantic search, and similarity workloads.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Vector embeddings for RAG, semantic search, and similarity workloads.
   name: Parasail Embeddings API
   slug: parasail-ai-embeddings-api
-- description: Upload and manage input/output JSONL files used by Batch jobs.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Upload and manage input/output JSONL files used by Batch jobs.
   name: Parasail Files API
   slug: parasail-ai-files-api
-- description: Discover the models currently exposed on the serverless tier.
+- baseURL: https://api.parasail.io/v1
+  baseurl_source: declared
+  description: Discover the models currently exposed on the serverless tier.
   name: Parasail Models API
   slug: parasail-ai-models-api
 artifact_total: 49
@@ -330,7 +344,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/screenshots/parasail-ai-2026-06-20T191400.png
 security:

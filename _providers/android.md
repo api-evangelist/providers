@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -105,16 +105,24 @@ apis:
 - description: Cloud-based Gemini API for integrating generative AI capabilities into Android applications.
   name: Gemini Developer API for Android
   slug: gemini-developer-api-for-android
-- description: Refund orders placed through Google Play for in-app products and subscriptions.
+- baseURL: https://developer.android.com
+  baseurl_source: declared
+  description: Refund orders placed through Google Play for in-app products and subscriptions.
   name: Android Orders API
   slug: android-orders-api
-- description: Manage in-app product and subscription purchases, including verification, acknowledgment, and consumption of purchase tokens.
+- baseURL: https://developer.android.com
+  baseurl_source: declared
+  description: Manage in-app product and subscription purchases, including verification, acknowledgment, and consumption of purchase tokens.
   name: Android Purchases API
   slug: android-purchases-api
-- description: Retrieve user reviews from the Google Play Store and post developer replies to those reviews.
+- baseURL: https://developer.android.com
+  baseurl_source: declared
+  description: Retrieve user reviews from the Google Play Store and post developer replies to those reviews.
   name: Android Reviews API
   slug: android-reviews-api
-- description: Create, manage, and query subscription products and their base plans, offers, and purchase entitlements.
+- baseURL: https://developer.android.com
+  baseurl_source: declared
+  description: Create, manage, and query subscription products and their base plans, offers, and purchase entitlements.
   name: Android Subscriptions API
   slug: android-subscriptions-api
 arazzos:
@@ -910,7 +918,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -920,7 +928,7 @@ score:
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 51.6
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -931,7 +939,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:

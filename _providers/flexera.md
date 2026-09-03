@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 119 operations · 65 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Create, update, and manage access control policies for users and groups.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Create, update, and manage access control policies for users and groups.
   name: Spot Access Policies API
   slug: flexera-access-policies-api
-- description: Create, update, list, and delete Spot accounts within an organization.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Create, update, list, and delete Spot accounts within an organization.
   name: Spot Accounts API
   slug: flexera-accounts-api
-- description: Retrieve audit logs for actions performed within the organization.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Retrieve audit logs for actions performed within the organization.
   name: Spot Audit API
   slug: flexera-audit-api
-- description: Manage registered billing accounts and their configurations.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage registered billing accounts and their configurations.
   name: Spot Billing Accounts API
   slug: flexera-billing-accounts-api
-- description: Set up and configure Billing Engine for cloud accounts.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Set up and configure Billing Engine for cloud accounts.
   name: Spot Billing Engine Setup API
   slug: flexera-billing-engine-setup-api
-- description: Link and validate cloud provider credentials for AWS, Azure, and GCP accounts.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Link and validate cloud provider credentials for AWS, Azure, and GCP accounts.
   name: Spot Cloud Credentials API
   slug: flexera-cloud-credentials-api
-- description: Retrieve cost analysis and spending data across cloud accounts.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Retrieve cost analysis and spending data across cloud accounts.
   name: Spot Cost Analysis API
   slug: flexera-cost-analysis-api
-- description: Access Cost Intelligence analytics for actionable cost insights and recommendations.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Access Cost Intelligence analytics for actionable cost insights and recommendations.
   name: Spot Cost Intelligence API
   slug: flexera-cost-intelligence-api
-- description: Manage rolling deployments for Elastigroups.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage rolling deployments for Elastigroups.
   name: Spot Deployments API
   slug: flexera-deployments-api
-- description: Manage Eco commitment optimization for AWS reserved instances and savings plans.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Eco commitment optimization for AWS reserved instances and savings plans.
   name: Spot Eco AWS API
   slug: flexera-eco-aws-api
-- description: Manage Eco commitment optimization for Azure reserved instances.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Eco commitment optimization for Azure reserved instances.
   name: Spot Eco Azure API
   slug: flexera-eco-azure-api
-- description: Manage Eco commitment optimization for GCP committed use discounts.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Eco commitment optimization for GCP committed use discounts.
   name: Spot Eco GCP API
   slug: flexera-eco-gcp-api
-- description: Manage Elastigroup compute groups in AWS.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Elastigroup compute groups in AWS.
   name: Spot Elastigroup AWS API
   slug: flexera-elastigroup-aws-api
-- description: Manage Elastigroup compute groups in Azure.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Elastigroup compute groups in Azure.
   name: Spot Elastigroup Azure API
   slug: flexera-elastigroup-azure-api
-- description: Manage Elastigroup compute groups in GCP.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Elastigroup compute groups in GCP.
   name: Spot Elastigroup GCP API
   slug: flexera-elastigroup-gcp-api
-- description: Manage Amazon EMR clusters with Elastigroup.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Amazon EMR clusters with Elastigroup.
   name: Spot EMR API
   slug: flexera-emr-api
-- description: Manage account families for grouping and cost allocation.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage account families for grouping and cost allocation.
   name: Spot Families API
   slug: flexera-families-api
-- description: Check the health status of the Spot API.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Check the health status of the Spot API.
   name: Spot Health Check API
   slug: flexera-health-check-api
-- description: Manage Ocean clusters for Azure Kubernetes Service.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Ocean clusters for Azure Kubernetes Service.
   name: Spot Ocean AKS API
   slug: flexera-ocean-aks-api
-- description: Manage Ocean clusters for AWS EKS.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Ocean clusters for AWS EKS.
   name: Spot Ocean AWS API
   slug: flexera-ocean-aws-api
-- description: Manage continuous delivery for Ocean clusters.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage continuous delivery for Ocean clusters.
   name: Spot Ocean CD API
   slug: flexera-ocean-cd-api
-- description: Manage Ocean clusters for Amazon ECS.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Ocean clusters for Amazon ECS.
   name: Spot Ocean ECS API
   slug: flexera-ocean-ecs-api
-- description: Manage Ocean clusters for Google Kubernetes Engine.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Ocean clusters for Google Kubernetes Engine.
   name: Spot Ocean GKE API
   slug: flexera-ocean-gke-api
-- description: Manage Apache Spark clusters on Ocean.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage Apache Spark clusters on Ocean.
   name: Spot Ocean Spark API
   slug: flexera-ocean-spark-api
-- description: Create and manage Spot organizations.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Create and manage Spot organizations.
   name: Spot Organizations API
   slug: flexera-organizations-api
-- description: Get right-sizing recommendations for Ocean workloads.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Get right-sizing recommendations for Ocean workloads.
   name: Spot Right Sizing API
   slug: flexera-right-sizing-api
-- description: Manage rolling updates for Ocean clusters.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage rolling updates for Ocean clusters.
   name: Spot Rolls API
   slug: flexera-rolls-api
-- description: Analyze potential and realized savings from cloud commitments.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Analyze potential and realized savings from cloud commitments.
   name: Spot Savings Analysis API
   slug: flexera-savings-analysis-api
-- description: Manage stateful instances within Elastigroups.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage stateful instances within Elastigroups.
   name: Spot Stateful Instances API
   slug: flexera-stateful-instances-api
-- description: Manage event notification subscriptions for Spot resources.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage event notification subscriptions for Spot resources.
   name: Spot Subscriptions API
   slug: flexera-subscriptions-api
-- description: Create, get, update, and delete users. Manage user permissions and account assignments.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Create, get, update, and delete users. Manage user permissions and account assignments.
   name: Spot Users API
   slug: flexera-users-api
-- description: Manage virtual node groups (launch specifications) within Ocean clusters.
+- baseURL: https://api.spotinst.io
+  baseurl_source: declared
+  description: Manage virtual node groups (launch specifications) within Ocean clusters.
   name: Spot Virtual Node Groups API
   slug: flexera-virtual-node-groups-api
 artifact_total: 360
@@ -1216,7 +1280,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/screenshots/flexera-2026-06-20T181307.png
 security:

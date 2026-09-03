@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Karat''s GraphQL API for managing technical-interview hiring workflows: query candidacies, roles, groups and users; invite candidates into assessments; and bulk-update candidacy dispositions. Hosted pe'
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/screenshots/karat-2026-07-25T223504.png
 security:

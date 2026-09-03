@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -35,28 +48,44 @@ apis:
 - description: 'A family of open-source dbt connector projects (Medicare CCLF, BCDA, CMS synthetic, Aetna, BCBS, and a connector template, plus a FHIR preprocessing connector) that map raw claims, EHR, ADT, and FHIR '
   name: Tuva Connectors
   slug: tuva-connectors
-- description: The config API from Tuva Health — 1 operation(s) for config.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The config API from Tuva Health — 1 operation(s) for config.
   name: Tuva Health Config API
   slug: tuva-health-config-api
-- description: The data-sources API from Tuva Health — 1 operation(s) for data-sources.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The data-sources API from Tuva Health — 1 operation(s) for data-sources.
   name: Tuva Health Data Sources API
   slug: tuva-health-data-sources-api
-- description: The health-check API from Tuva Health — 1 operation(s) for health-check.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The health-check API from Tuva Health — 1 operation(s) for health-check.
   name: Tuva Health Health Check API
   slug: tuva-health-health-check-api
-- description: The matches API from Tuva Health — 1 operation(s) for matches.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The matches API from Tuva Health — 1 operation(s) for matches.
   name: Tuva Health Matches API
   slug: tuva-health-matches-api
-- description: The person-records API from Tuva Health — 2 operation(s) for person-records.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The person-records API from Tuva Health — 2 operation(s) for person-records.
   name: Tuva Health Person Records API
   slug: tuva-health-person-records-api
-- description: The persons API from Tuva Health — 2 operation(s) for persons.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The persons API from Tuva Health — 2 operation(s) for persons.
   name: Tuva Health Persons API
   slug: tuva-health-persons-api
-- description: The potential-matches API from Tuva Health — 2 operation(s) for potential-matches.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The potential-matches API from Tuva Health — 2 operation(s) for potential-matches.
   name: Tuva Health Potential Matches API
   slug: tuva-health-potential-matches-api
-- description: The users API from Tuva Health — 2 operation(s) for users.
+- baseURL: https://{tuva-empi-host}/api/v1
+  baseurl_source: declared
+  description: The users API from Tuva Health — 2 operation(s) for users.
   name: Tuva Health Users API
   slug: tuva-health-users-api
 artifact_total: 15
@@ -253,7 +282,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
 security:

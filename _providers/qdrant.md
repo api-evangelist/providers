@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 73 operations · 48 acting
 api_count: 1
 apis:
-- description: Additional names for existing collections.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Additional names for existing collections.
   name: Qdrant Aliases API
   slug: qdrant-aliases-api
-- description: Beta features, do not depend on these yet.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Beta features, do not depend on these yet.
   name: Qdrant Beta API
   slug: qdrant-beta-api
-- description: Searchable collections of points.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Searchable collections of points.
   name: Qdrant Collections API
   slug: qdrant-collections-api
-- description: Service distributed setup.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Service distributed setup.
   name: Qdrant Distributed API
   slug: qdrant-distributed-api
-- description: Indexes for payloads associated with points.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Indexes for payloads associated with points.
   name: Qdrant Indexes API
   slug: qdrant-indexes-api
-- description: Float-point vectors with payload.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Float-point vectors with payload.
   name: Qdrant Points API
   slug: qdrant-points-api
-- description: Find points in a collection.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Find points in a collection.
   name: Qdrant Search API
   slug: qdrant-search-api
-- description: Qdrant service utilities.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Qdrant service utilities.
   name: Qdrant Service API
   slug: qdrant-service-api
-- description: Storage and collections snapshots.
+- baseURL_template: '{protocol}://{hostname}:{port}'
+  baseurl_source: spec_template
+  description: Storage and collections snapshots.
   name: Qdrant Snapshots API
   slug: qdrant-snapshots-api
 artifact_total: 431
@@ -1405,7 +1423,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/screenshots/qdrant-2026-06-20T192338.png
 security:

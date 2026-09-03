@@ -34,52 +34,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'First-party hosted Model Context Protocol server that exposes the same ad index to AI assistants (Claude, Codex, Cursor, Gemini). Streamable HTTP at https://api.adsmom.com/mcp, protected by OAuth 2.0 '
   name: Adsmom MCP Server
   slug: adsmom-mcp-server
-- description: The Account API from Adsmom Inc. — 1 operation(s) for account.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Account API from Adsmom Inc. — 1 operation(s) for account.
   name: Adsmom Inc. Account API
   slug: adsmom-inc-account-api
-- description: The Analytics · Google API from Adsmom Inc. — 7 operation(s) for analytics · google.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Analytics · Google API from Adsmom Inc. — 7 operation(s) for analytics · google.
   name: Adsmom Inc. Analytics · Google API
   slug: adsmom-inc-analytics-google-api
-- description: The Analytics · Meta API from Adsmom Inc. — 7 operation(s) for analytics · meta.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Analytics · Meta API from Adsmom Inc. — 7 operation(s) for analytics · meta.
   name: Adsmom Inc. Analytics · Meta API
   slug: adsmom-inc-analytics-meta-api
-- description: The Analytics · TikTok API from Adsmom Inc. — 9 operation(s) for analytics · tiktok.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Analytics · TikTok API from Adsmom Inc. — 9 operation(s) for analytics · tiktok.
   name: Adsmom Inc. Analytics · TikTok API
   slug: adsmom-inc-analytics-tiktok-api
-- description: The Explore · Google Ads API from Adsmom Inc. — 2 operation(s) for explore · google ads.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Explore · Google Ads API from Adsmom Inc. — 2 operation(s) for explore · google ads.
   name: Adsmom Inc. Explore · Google Ads API
   slug: adsmom-inc-explore-google-ads-api
-- description: The Explore · LinkedIn Ads API from Adsmom Inc. — 6 operation(s) for explore · linkedin ads.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Explore · LinkedIn Ads API from Adsmom Inc. — 6 operation(s) for explore · linkedin ads.
   name: Adsmom Inc. Explore · LinkedIn Ads API
   slug: adsmom-inc-explore-linkedin-ads-api
-- description: The Explore · Meta Ads API from Adsmom Inc. — 4 operation(s) for explore · meta ads.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Explore · Meta Ads API from Adsmom Inc. — 4 operation(s) for explore · meta ads.
   name: Adsmom Inc. Explore · Meta Ads API
   slug: adsmom-inc-explore-meta-ads-api
-- description: The Explore · TikTok Ads API from Adsmom Inc. — 6 operation(s) for explore · tiktok ads.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Explore · TikTok Ads API from Adsmom Inc. — 6 operation(s) for explore · tiktok ads.
   name: Adsmom Inc. Explore · TikTok Ads API
   slug: adsmom-inc-explore-tiktok-ads-api
-- description: The Insights · Google API from Adsmom Inc. — 4 operation(s) for insights · google.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Insights · Google API from Adsmom Inc. — 4 operation(s) for insights · google.
   name: Adsmom Inc. Insights · Google API
   slug: adsmom-inc-insights-google-api
-- description: The Insights · Instagram Organic API from Adsmom Inc. — 4 operation(s) for insights · instagram organic.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Insights · Instagram Organic API from Adsmom Inc. — 4 operation(s) for insights · instagram organic.
   name: Adsmom Inc. Insights · Instagram Organic API
   slug: adsmom-inc-insights-instagram-organic-api
-- description: The Insights · LinkedIn API from Adsmom Inc. — 4 operation(s) for insights · linkedin.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Insights · LinkedIn API from Adsmom Inc. — 4 operation(s) for insights · linkedin.
   name: Adsmom Inc. Insights · LinkedIn API
   slug: adsmom-inc-insights-linkedin-api
-- description: The Insights · Meta API from Adsmom Inc. — 4 operation(s) for insights · meta.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Insights · Meta API from Adsmom Inc. — 4 operation(s) for insights · meta.
   name: Adsmom Inc. Insights · Meta API
   slug: adsmom-inc-insights-meta-api
-- description: The Insights · TikTok API from Adsmom Inc. — 4 operation(s) for insights · tiktok.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Insights · TikTok API from Adsmom Inc. — 4 operation(s) for insights · tiktok.
   name: Adsmom Inc. Insights · TikTok API
   slug: adsmom-inc-insights-tiktok-api
-- description: The Insights · TikTok Organic API from Adsmom Inc. — 4 operation(s) for insights · tiktok organic.
+- baseURL: https://api.adsmom.com
+  baseurl_source: declared
+  description: The Insights · TikTok Organic API from Adsmom Inc. — 4 operation(s) for insights · tiktok organic.
   name: Adsmom Inc. Insights · TikTok Organic API
   slug: adsmom-inc-insights-tiktok-organic-api
 artifact_total: 21
@@ -256,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
 security:

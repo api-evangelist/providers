@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 42 operations · 25 acting
 api_count: 2
 apis:
-- description: Company CRM records
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Company CRM records
   name: Twenty companies API
   slug: twenty-companies-api
-- description: Custom field metadata management
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Custom field metadata management
   name: Twenty fields API
   slug: twenty-fields-api
-- description: Note records associated with CRM objects
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Note records associated with CRM objects
   name: Twenty notes API
   slug: twenty-notes-api
-- description: Custom object metadata management
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Custom object metadata management
   name: Twenty objects API
   slug: twenty-objects-api
-- description: OpenAPI schema discovery
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: OpenAPI schema discovery
   name: Twenty openapi API
   slug: twenty-openapi-api
-- description: Opportunity/deal CRM records
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Opportunity/deal CRM records
   name: Twenty opportunities API
   slug: twenty-opportunities-api
-- description: Person/contact CRM records
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Person/contact CRM records
   name: Twenty people API
   slug: twenty-people-api
-- description: Custom relation metadata management
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Custom relation metadata management
   name: Twenty relations API
   slug: twenty-relations-api
-- description: Task records associated with CRM objects
+- baseURL: https://api.twenty.com/rest/core
+  baseurl_source: spec
+  description: Task records associated with CRM objects
   name: Twenty tasks API
   slug: twenty-tasks-api
 artifact_total: 35
@@ -267,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/screenshots/twenty-2026-06-20T195948.png
 security:

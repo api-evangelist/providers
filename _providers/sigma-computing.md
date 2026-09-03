@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Sigma's first-party remote Model Context Protocol server. AI assistants such as Claude, ChatGPT, Codex, Cursor and Snowflake Cortex Code connect over HTTP with OAuth and can then search a Sigma organi
@@ -32,118 +46,194 @@ apis:
 - description: Secure embedding of Sigma workbooks, pages and individual elements into a host application. Embed URLs are signed with JSON Web Tokens carrying the viewing user's identity, team and user attributes so
   name: Sigma Embed API
   slug: sigma-embed-api
-- description: The accountTypes API from Sigma Computing — 3 operation(s) for accounttypes.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The accountTypes API from Sigma Computing — 3 operation(s) for accounttypes.
   name: Sigma Computing Account Types API
   slug: sigma-computing-accounttypes-api
-- description: The apiConnectors API from Sigma Computing — 2 operation(s) for apiconnectors.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The apiConnectors API from Sigma Computing — 2 operation(s) for apiconnectors.
   name: Sigma Computing API Connectors API
   slug: sigma-computing-apiconnectors-api
-- description: The apiCredentials API from Sigma Computing — 2 operation(s) for apicredentials.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The apiCredentials API from Sigma Computing — 2 operation(s) for apicredentials.
   name: Sigma Computing API Credentials API
   slug: sigma-computing-apicredentials-api
-- description: The Auth API from Sigma Computing — 1 operation(s) for auth.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Auth API from Sigma Computing — 1 operation(s) for auth.
   name: Sigma Computing Auth API
   slug: sigma-computing-auth-api
-- description: The Connections API from Sigma Computing — 13 operation(s) for connections.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Connections API from Sigma Computing — 13 operation(s) for connections.
   name: Sigma Computing Connections API
   slug: sigma-computing-connections-api
-- description: The Credentials API from Sigma Computing — 2 operation(s) for credentials.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Credentials API from Sigma Computing — 2 operation(s) for credentials.
   name: Sigma Computing Credentials API
   slug: sigma-computing-credentials-api
-- description: The dataModels API from Sigma Computing — 16 operation(s) for datamodels.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The dataModels API from Sigma Computing — 16 operation(s) for datamodels.
   name: Sigma Computing Data Models API
   slug: sigma-computing-datamodels-api
-- description: The Datasets API from Sigma Computing — 7 operation(s) for datasets.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Datasets API from Sigma Computing — 7 operation(s) for datasets.
   name: Sigma Computing Datasets API
   slug: sigma-computing-datasets-api
-- description: The deploymentPolicies API from Sigma Computing — 7 operation(s) for deploymentpolicies.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The deploymentPolicies API from Sigma Computing — 7 operation(s) for deploymentpolicies.
   name: Sigma Computing Deployment Policies API
   slug: sigma-computing-deploymentpolicies-api
-- description: The Favorites API from Sigma Computing — 3 operation(s) for favorites.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Favorites API from Sigma Computing — 3 operation(s) for favorites.
   name: Sigma Computing Favorites API
   slug: sigma-computing-favorites-api
-- description: The Files API from Sigma Computing — 2 operation(s) for files.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Files API from Sigma Computing — 2 operation(s) for files.
   name: Sigma Computing Files API
   slug: sigma-computing-files-api
-- description: The Grants API from Sigma Computing — 2 operation(s) for grants.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Grants API from Sigma Computing — 2 operation(s) for grants.
   name: Sigma Computing Grants API
   slug: sigma-computing-grants-api
-- description: The Members API from Sigma Computing — 9 operation(s) for members.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Members API from Sigma Computing — 9 operation(s) for members.
   name: Sigma Computing Members API
   slug: sigma-computing-members-api
-- description: The Organizations API from Sigma Computing — 4 operation(s) for organizations.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Organizations API from Sigma Computing — 4 operation(s) for organizations.
   name: Sigma Computing Organizations API
   slug: sigma-computing-organizations-api
-- description: The plugins API from Sigma Computing — 2 operation(s) for plugins.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The plugins API from Sigma Computing — 2 operation(s) for plugins.
   name: Sigma Computing Plugins API
   slug: sigma-computing-plugins-api
-- description: The Query API from Sigma Computing — 1 operation(s) for query.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Query API from Sigma Computing — 1 operation(s) for query.
   name: Sigma Computing Query API
   slug: sigma-computing-query-api
-- description: The Reports API from Sigma Computing — 26 operation(s) for reports.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Reports API from Sigma Computing — 26 operation(s) for reports.
   name: Sigma Computing Reports API
   slug: sigma-computing-reports-api
-- description: The SAML API from Sigma Computing — 5 operation(s) for saml.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The SAML API from Sigma Computing — 5 operation(s) for saml.
   name: Sigma Computing SAML API
   slug: sigma-computing-saml-api
-- description: The sharedTemplates API from Sigma Computing — 3 operation(s) for sharedtemplates.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The sharedTemplates API from Sigma Computing — 3 operation(s) for sharedtemplates.
   name: Sigma Computing Shared Templates API
   slug: sigma-computing-sharedtemplates-api
-- description: The shortcuts API from Sigma Computing — 1 operation(s) for shortcuts.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The shortcuts API from Sigma Computing — 1 operation(s) for shortcuts.
   name: Sigma Computing Shortcuts API
   slug: sigma-computing-shortcuts-api
-- description: The sourceSwapPolicies API from Sigma Computing — 2 operation(s) for sourceswappolicies.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The sourceSwapPolicies API from Sigma Computing — 2 operation(s) for sourceswappolicies.
   name: Sigma Computing Source Swap Policies API
   slug: sigma-computing-sourceswappolicies-api
-- description: The Tags API from Sigma Computing — 3 operation(s) for tags.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Tags API from Sigma Computing — 3 operation(s) for tags.
   name: Sigma Computing Tags API
   slug: sigma-computing-tags-api
-- description: The Teams API from Sigma Computing — 6 operation(s) for teams.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Teams API from Sigma Computing — 6 operation(s) for teams.
   name: Sigma Computing Teams API
   slug: sigma-computing-teams-api
-- description: The Templates API from Sigma Computing — 4 operation(s) for templates.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Templates API from Sigma Computing — 4 operation(s) for templates.
   name: Sigma Computing Templates API
   slug: sigma-computing-templates-api
-- description: The Tenants API from Sigma Computing — 6 operation(s) for tenants.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Tenants API from Sigma Computing — 6 operation(s) for tenants.
   name: Sigma Computing Tenants API
   slug: sigma-computing-tenants-api
-- description: The Translations API from Sigma Computing — 3 operation(s) for translations.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Translations API from Sigma Computing — 3 operation(s) for translations.
   name: Sigma Computing Translations API
   slug: sigma-computing-translations-api
-- description: The userAttributes API from Sigma Computing — 8 operation(s) for userattributes.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The userAttributes API from Sigma Computing — 8 operation(s) for userattributes.
   name: Sigma Computing User Attributes API
   slug: sigma-computing-userattributes-api
-- description: The Webhooks API from Sigma Computing — 2 operation(s) for webhooks.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Webhooks API from Sigma Computing — 2 operation(s) for webhooks.
   name: Sigma Computing Webhooks API
   slug: sigma-computing-webhooks-api
-- description: The Whoami API from Sigma Computing — 1 operation(s) for whoami.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Whoami API from Sigma Computing — 1 operation(s) for whoami.
   name: Sigma Computing Whoami API
   slug: sigma-computing-whoami-api
-- description: The Workbooks API from Sigma Computing — 44 operation(s) for workbooks.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Workbooks API from Sigma Computing — 44 operation(s) for workbooks.
   name: Sigma Computing Workbooks API
   slug: sigma-computing-workbooks-api
-- description: The Workspaces API from Sigma Computing — 5 operation(s) for workspaces.
+- baseURL: https://api.sigmacomputing.com
+  baseurl_source: declared
+  description: The Workspaces API from Sigma Computing — 5 operation(s) for workspaces.
   name: Sigma Computing Workspaces API
   slug: sigma-computing-workspaces-api
-- description: The allowedIps API from Sigma Computing — 1 operation(s) for allowedips.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The allowedIps API from Sigma Computing — 1 operation(s) for allowedips.
   name: Sigma Computing Allowed Ips API
   slug: sigma-computing-allowedips-api
-- description: The allowedIps\:batchCreate API from Sigma Computing — 1 operation(s) for allowedips\:batchcreate.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The allowedIps\:batchCreate API from Sigma Computing — 1 operation(s) for allowedips\:batchcreate.
   name: Sigma Computing Allowed Ips\:batch Create API
   slug: sigma-computing-allowedips-batchcreate-api
-- description: The allowedIps\:batchDelete API from Sigma Computing — 1 operation(s) for allowedips\:batchdelete.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The allowedIps\:batchDelete API from Sigma Computing — 1 operation(s) for allowedips\:batchdelete.
   name: Sigma Computing Allowed Ips\:batch Delete API
   slug: sigma-computing-allowedips-batchdelete-api
-- description: The api-connectors API from Sigma Computing — 2 operation(s) for api-connectors.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The api-connectors API from Sigma Computing — 2 operation(s) for api-connectors.
   name: Sigma Computing API Connectors API
   slug: sigma-computing-api-connectors-api
-- description: The api-credentials API from Sigma Computing — 2 operation(s) for api-credentials.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The api-credentials API from Sigma Computing — 2 operation(s) for api-credentials.
   name: Sigma Computing API Credentials API
   slug: sigma-computing-api-credentials-api
-- description: The shared_templates API from Sigma Computing — 3 operation(s) for shared_templates.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The shared_templates API from Sigma Computing — 3 operation(s) for shared_templates.
   name: Sigma Computing Shared Templates API
   slug: sigma-computing-shared-templates-api
-- description: The user-attributes API from Sigma Computing — 8 operation(s) for user-attributes.
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The user-attributes API from Sigma Computing — 8 operation(s) for user-attributes.
   name: Sigma Computing User Attributes API
   slug: sigma-computing-user-attributes-api
 artifact_total: 49
@@ -370,24 +460,24 @@ scopes:
   slug: sigma-computing-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 66.4
+  band: exemplar
+  composite: 67.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 61.7
+    contract_quality: 65.1
     developer_ergonomics: 85.7
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 65.8
+  previous_composite: 66.4
   provenance:
     conformance: first-party
     contracts:
@@ -398,8 +488,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/screenshots/sigma-computing-2026-09-02T155428.png
 security:
 - kind: authentication
   name: Sigma Computing Authentication

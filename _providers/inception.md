@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Chat completion endpoints (OpenAI-compatible).
+- baseURL: https://api.inceptionlabs.ai
+  baseurl_source: declared
+  description: Chat completion endpoints (OpenAI-compatible).
   name: Inception Chat API
   slug: inception-chat-api
-- description: Code edit completion endpoints.
+- baseURL: https://api.inceptionlabs.ai
+  baseurl_source: declared
+  description: Code edit completion endpoints.
   name: Inception Edit API
   slug: inception-edit-api
-- description: Fill-in-the-middle code completion endpoints.
+- baseURL: https://api.inceptionlabs.ai
+  baseurl_source: declared
+  description: Fill-in-the-middle code completion endpoints.
   name: Inception FIM API
   slug: inception-fim-api
-- description: List available models.
+- baseURL: https://api.inceptionlabs.ai
+  baseurl_source: declared
+  description: List available models.
   name: Inception Models API
   slug: inception-models-api
 artifact_total: 16
@@ -257,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/screenshots/inception-2026-07-25T222332.png
 security:

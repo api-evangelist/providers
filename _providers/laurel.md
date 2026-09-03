@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 9
@@ -43,124 +43,204 @@ agentic_access:
   summary_line: 364 operations · 225 acting · 9 human-in-the-loop
 api_count: 3
 apis:
-- description: The Ably API from Laurel — 1 operation(s) for ably.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Ably API from Laurel — 1 operation(s) for ably.
   name: Laurel Ably API
   slug: laurel-ably-api
-- description: The Activities API from Laurel — 16 operation(s) for activities.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Activities API from Laurel — 16 operation(s) for activities.
   name: Laurel Activities API
   slug: laurel-activities-api
-- description: The Clients API from Laurel — 10 operation(s) for clients.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Clients API from Laurel — 10 operation(s) for clients.
   name: Laurel Clients API
   slug: laurel-clients-api
-- description: The Code Types API from Laurel — 10 operation(s) for code types.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Code Types API from Laurel — 10 operation(s) for code types.
   name: Laurel Code Types API
   slug: laurel-code-types-api
-- description: The Codes API from Laurel — 10 operation(s) for codes.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Codes API from Laurel — 10 operation(s) for codes.
   name: Laurel Codes API
   slug: laurel-codes-api
-- description: The CodeTypes API from Laurel — 1 operation(s) for codetypes.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The CodeTypes API from Laurel — 1 operation(s) for codetypes.
   name: Laurel CodeTypes API
   slug: laurel-codetypes-api
-- description: The Customers API from Laurel — 14 operation(s) for customers.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Customers API from Laurel — 14 operation(s) for customers.
   name: Laurel Customers API
   slug: laurel-customers-api
-- description: The DailySelectedInitiatives API from Laurel — 1 operation(s) for dailyselectedinitiatives.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The DailySelectedInitiatives API from Laurel — 1 operation(s) for dailyselectedinitiatives.
   name: Laurel DailySelectedInitiatives API
   slug: laurel-dailyselectedinitiatives-api
-- description: The Data Retention Audits API from Laurel — 2 operation(s) for data retention audits.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Data Retention Audits API from Laurel — 2 operation(s) for data retention audits.
   name: Laurel Data Retention Audits API
   slug: laurel-data-retention-audits-api
-- description: The Delegators API from Laurel — 1 operation(s) for delegators.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Delegators API from Laurel — 1 operation(s) for delegators.
   name: Laurel Delegators API
   slug: laurel-delegators-api
-- description: The Entries API from Laurel — 56 operation(s) for entries.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Entries API from Laurel — 56 operation(s) for entries.
   name: Laurel Entries API
   slug: laurel-entries-api
-- description: The Entry Date Restrictions API from Laurel — 5 operation(s) for entry date restrictions.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Entry Date Restrictions API from Laurel — 5 operation(s) for entry date restrictions.
   name: Laurel Entry Date Restrictions API
   slug: laurel-entry-date-restrictions-api
-- description: The Exports API from Laurel — 2 operation(s) for exports.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Exports API from Laurel — 2 operation(s) for exports.
   name: Laurel Exports API
   slug: laurel-exports-api
-- description: The Health Check API from Laurel — 1 operation(s) for health check.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Health Check API from Laurel — 1 operation(s) for health check.
   name: Laurel Health Check API
   slug: laurel-health-check-api
-- description: The HealthCheck API from Laurel — 1 operation(s) for healthcheck.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The HealthCheck API from Laurel — 1 operation(s) for healthcheck.
   name: Laurel HealthCheck API
   slug: laurel-healthcheck-api
-- description: The Impersonation Events API from Laurel — 2 operation(s) for impersonation events.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Impersonation Events API from Laurel — 2 operation(s) for impersonation events.
   name: Laurel Impersonation Events API
   slug: laurel-impersonation-events-api
-- description: The Initiative Props API from Laurel — 6 operation(s) for initiative props.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Initiative Props API from Laurel — 6 operation(s) for initiative props.
   name: Laurel Initiative Props API
   slug: laurel-initiative-props-api
-- description: The InitiativeDto API from Laurel — 2 operation(s) for initiativedto.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The InitiativeDto API from Laurel — 2 operation(s) for initiativedto.
   name: Laurel InitiativeDto API
   slug: laurel-initiativedto-api
-- description: The Initiatives API from Laurel — 29 operation(s) for initiatives.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Initiatives API from Laurel — 29 operation(s) for initiatives.
   name: Laurel Initiatives API
   slug: laurel-initiatives-api
-- description: The Metrics API from Laurel — 3 operation(s) for metrics.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Metrics API from Laurel — 3 operation(s) for metrics.
   name: Laurel Metrics API
   slug: laurel-metrics-api
-- description: The Narrative Templates API from Laurel — 8 operation(s) for narrative templates.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Narrative Templates API from Laurel — 8 operation(s) for narrative templates.
   name: Laurel Narrative Templates API
   slug: laurel-narrative-templates-api
-- description: The OAuth API from Laurel — 1 operation(s) for oauth.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The OAuth API from Laurel — 1 operation(s) for oauth.
   name: Laurel OAuth API
   slug: laurel-oauth-api
-- description: The Onboarding Profiles API from Laurel — 3 operation(s) for onboarding profiles.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Onboarding Profiles API from Laurel — 3 operation(s) for onboarding profiles.
   name: Laurel Onboarding Profiles API
   slug: laurel-onboarding-profiles-api
-- description: The Permissions API from Laurel — 2 operation(s) for permissions.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Permissions API from Laurel — 2 operation(s) for permissions.
   name: Laurel Permissions API
   slug: laurel-permissions-api
-- description: The Public API from Laurel — 32 operation(s) for public.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Public API from Laurel — 32 operation(s) for public.
   name: Laurel Public API
   slug: laurel-public-api
-- description: The Roles API from Laurel — 2 operation(s) for roles.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Roles API from Laurel — 2 operation(s) for roles.
   name: Laurel Roles API
   slug: laurel-roles-api
-- description: The Search API from Laurel — 3 operation(s) for search.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Search API from Laurel — 3 operation(s) for search.
   name: Laurel Search API
   slug: laurel-search-api
-- description: The Settings API from Laurel — 1 operation(s) for settings.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Settings API from Laurel — 1 operation(s) for settings.
   name: Laurel Settings API
   slug: laurel-settings-api
-- description: The Tenants API from Laurel — 2 operation(s) for tenants.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Tenants API from Laurel — 2 operation(s) for tenants.
   name: Laurel Tenants API
   slug: laurel-tenants-api
-- description: The Timekeeper Goals API from Laurel — 2 operation(s) for timekeeper goals.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Timekeeper Goals API from Laurel — 2 operation(s) for timekeeper goals.
   name: Laurel Timekeeper Goals API
   slug: laurel-timekeeper-goals-api
-- description: The Timer Carryovers API from Laurel — 2 operation(s) for timer carryovers.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Timer Carryovers API from Laurel — 2 operation(s) for timer carryovers.
   name: Laurel Timer Carryovers API
   slug: laurel-timer-carryovers-api
-- description: The Timer Draft API from Laurel — 2 operation(s) for timer draft.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Timer Draft API from Laurel — 2 operation(s) for timer draft.
   name: Laurel Timer Draft API
   slug: laurel-timer-draft-api
-- description: The Timers API from Laurel — 11 operation(s) for timers.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Timers API from Laurel — 11 operation(s) for timers.
   name: Laurel Timers API
   slug: laurel-timers-api
-- description: The Timesheets API from Laurel — 5 operation(s) for timesheets.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Timesheets API from Laurel — 5 operation(s) for timesheets.
   name: Laurel Timesheets API
   slug: laurel-timesheets-api
-- description: The Twilio API from Laurel — 1 operation(s) for twilio.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Twilio API from Laurel — 1 operation(s) for twilio.
   name: Laurel Twilio API
   slug: laurel-twilio-api
-- description: The User Groups API from Laurel — 6 operation(s) for user groups.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The User Groups API from Laurel — 6 operation(s) for user groups.
   name: Laurel User Groups API
   slug: laurel-user-groups-api
-- description: The Users API from Laurel — 28 operation(s) for users.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Users API from Laurel — 28 operation(s) for users.
   name: Laurel Users API
   slug: laurel-users-api
-- description: The Validation Rules API from Laurel — 4 operation(s) for validation rules.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Validation Rules API from Laurel — 4 operation(s) for validation rules.
   name: Laurel Validation Rules API
   slug: laurel-validation-rules-api
-- description: The Work Groups API from Laurel — 6 operation(s) for work groups.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Work Groups API from Laurel — 6 operation(s) for work groups.
   name: Laurel Work Groups API
   slug: laurel-work-groups-api
-- description: The Working Timekeepers API from Laurel — 3 operation(s) for working timekeepers.
+- baseURL: https://api.laurel.ai/time/
+  baseurl_source: declared
+  description: The Working Timekeepers API from Laurel — 3 operation(s) for working timekeepers.
   name: Laurel Working Timekeepers API
   slug: laurel-working-timekeepers-api
 artifact_total: 87
@@ -456,7 +536,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png
 security:

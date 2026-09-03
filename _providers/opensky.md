@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: SQL query interface powered by Trino for accessing the full OpenSky historical dataset including state vectors, raw Mode S messages, ADS-C and MLAT data, and flight records. Available to university-af
   name: OpenSky Network Trino Historical Data API
   slug: opensky-network-trino-historical-data-api
-- description: Endpoints for retrieving flight records including arrivals, departures, and flights by aircraft.
+- baseURL: https://opensky-network.org/api
+  baseurl_source: declared
+  description: Endpoints for retrieving flight records including arrivals, departures, and flights by aircraft.
   name: OpenSky Network Flights API
   slug: opensky-flights-api
-- description: Endpoints for retrieving real-time and historical aircraft state vectors (position, velocity, altitude, etc.).
+- baseURL: https://opensky-network.org/api
+  baseurl_source: declared
+  description: Endpoints for retrieving real-time and historical aircraft state vectors (position, velocity, altitude, etc.).
   name: OpenSky Network State Vectors API
   slug: opensky-state-vectors-api
-- description: Endpoints for retrieving aircraft trajectory tracks with detailed waypoint data.
+- baseURL: https://opensky-network.org/api
+  baseurl_source: declared
+  description: Endpoints for retrieving aircraft trajectory tracks with detailed waypoint data.
   name: OpenSky Network Tracks API
   slug: opensky-tracks-api
 artifact_total: 23
@@ -236,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/screenshots/opensky-2026-08-17T081130.png
 security:

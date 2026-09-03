@@ -33,91 +33,147 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The ApiKeyManagement API from Fortify Software — 5 operation(s) for apikeymanagement.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The ApiKeyManagement API from Fortify Software — 5 operation(s) for apikeymanagement.
   name: Fortify Software ApiKeyManagement API
   slug: fortify-software-apikeymanagement-api
-- description: The Applications API from Fortify Software — 15 operation(s) for applications.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Applications API from Fortify Software — 15 operation(s) for applications.
   name: Fortify Software Applications API
   slug: fortify-software-applications-api
-- description: The Attributes API from Fortify Software — 2 operation(s) for attributes.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Attributes API from Fortify Software — 2 operation(s) for attributes.
   name: Fortify Software Attributes API
   slug: fortify-software-attributes-api
-- description: The AuditTemplate API from Fortify Software — 1 operation(s) for audittemplate.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The AuditTemplate API from Fortify Software — 1 operation(s) for audittemplate.
   name: Fortify Software AuditTemplate API
   slug: fortify-software-audittemplate-api
-- description: The DastAutomatedScans API from Fortify Software — 9 operation(s) for dastautomatedscans.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The DastAutomatedScans API from Fortify Software — 9 operation(s) for dastautomatedscans.
   name: Fortify Software DastAutomatedScans API
   slug: fortify-software-dastautomatedscans-api
-- description: The DynamicScans API from Fortify Software — 5 operation(s) for dynamicscans.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The DynamicScans API from Fortify Software — 5 operation(s) for dynamicscans.
   name: Fortify Software DynamicScans API
   slug: fortify-software-dynamicscans-api
-- description: The EventLogs API from Fortify Software — 1 operation(s) for eventlogs.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The EventLogs API from Fortify Software — 1 operation(s) for eventlogs.
   name: Fortify Software EventLogs API
   slug: fortify-software-eventlogs-api
-- description: The FortifyOnDemandConnectNetworks API from Fortify Software — 1 operation(s) for fortifyondemandconnectnetworks.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The FortifyOnDemandConnectNetworks API from Fortify Software — 1 operation(s) for fortifyondemandconnectnetworks.
   name: Fortify Software FortifyOnDemandConnectNetworks API
   slug: fortify-software-fortifyondemandconnectnetworks-api
-- description: The LookupItems API from Fortify Software — 1 operation(s) for lookupitems.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The LookupItems API from Fortify Software — 1 operation(s) for lookupitems.
   name: Fortify Software LookupItems API
   slug: fortify-software-lookupitems-api
-- description: The MobileScans API from Fortify Software — 3 operation(s) for mobilescans.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The MobileScans API from Fortify Software — 3 operation(s) for mobilescans.
   name: Fortify Software MobileScans API
   slug: fortify-software-mobilescans-api
-- description: The MultiFactorAuthorizationCode API from Fortify Software — 1 operation(s) for multifactorauthorizationcode.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The MultiFactorAuthorizationCode API from Fortify Software — 1 operation(s) for multifactorauthorizationcode.
   name: Fortify Software MultiFactorAuthorizationCode API
   slug: fortify-software-multifactorauthorizationcode-api
-- description: The Notifications API from Fortify Software — 3 operation(s) for notifications.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Notifications API from Fortify Software — 3 operation(s) for notifications.
   name: Fortify Software Notifications API
   slug: fortify-software-notifications-api
-- description: The OpenSourceComponents API from Fortify Software — 2 operation(s) for opensourcecomponents.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The OpenSourceComponents API from Fortify Software — 2 operation(s) for opensourcecomponents.
   name: Fortify Software OpenSourceComponents API
   slug: fortify-software-opensourcecomponents-api
-- description: The OpenSourceScans API from Fortify Software — 1 operation(s) for opensourcescans.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The OpenSourceScans API from Fortify Software — 1 operation(s) for opensourcescans.
   name: Fortify Software OpenSourceScans API
   slug: fortify-software-opensourcescans-api
-- description: The PersonalAccessTokens API from Fortify Software — 3 operation(s) for personalaccesstokens.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The PersonalAccessTokens API from Fortify Software — 3 operation(s) for personalaccesstokens.
   name: Fortify Software PersonalAccessTokens API
   slug: fortify-software-personalaccesstokens-api
-- description: The Releases API from Fortify Software — 15 operation(s) for releases.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Releases API from Fortify Software — 15 operation(s) for releases.
   name: Fortify Software Releases API
   slug: fortify-software-releases-api
-- description: The Reports API from Fortify Software — 7 operation(s) for reports.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Reports API from Fortify Software — 7 operation(s) for reports.
   name: Fortify Software Reports API
   slug: fortify-software-reports-api
-- description: The Scans API from Fortify Software — 8 operation(s) for scans.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Scans API from Fortify Software — 8 operation(s) for scans.
   name: Fortify Software Scans API
   slug: fortify-software-scans-api
-- description: The StaticScans API from Fortify Software — 6 operation(s) for staticscans.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The StaticScans API from Fortify Software — 6 operation(s) for staticscans.
   name: Fortify Software StaticScans API
   slug: fortify-software-staticscans-api
-- description: The TenantEntitlements API from Fortify Software — 2 operation(s) for tenantentitlements.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The TenantEntitlements API from Fortify Software — 2 operation(s) for tenantentitlements.
   name: Fortify Software TenantEntitlements API
   slug: fortify-software-tenantentitlements-api
-- description: The TenantHeatMaps API from Fortify Software — 1 operation(s) for tenantheatmaps.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The TenantHeatMaps API from Fortify Software — 1 operation(s) for tenantheatmaps.
   name: Fortify Software TenantHeatMaps API
   slug: fortify-software-tenantheatmaps-api
-- description: The Tenants API from Fortify Software — 2 operation(s) for tenants.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Tenants API from Fortify Software — 2 operation(s) for tenants.
   name: Fortify Software Tenants API
   slug: fortify-software-tenants-api
-- description: The TenantSummary API from Fortify Software — 1 operation(s) for tenantsummary.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The TenantSummary API from Fortify Software — 1 operation(s) for tenantsummary.
   name: Fortify Software TenantSummary API
   slug: fortify-software-tenantsummary-api
-- description: The UserApplicationAccess API from Fortify Software — 2 operation(s) for userapplicationaccess.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The UserApplicationAccess API from Fortify Software — 2 operation(s) for userapplicationaccess.
   name: Fortify Software UserApplicationAccess API
   slug: fortify-software-userapplicationaccess-api
-- description: The UserGroupApplicationAccess API from Fortify Software — 2 operation(s) for usergroupapplicationaccess.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The UserGroupApplicationAccess API from Fortify Software — 2 operation(s) for usergroupapplicationaccess.
   name: Fortify Software UserGroupApplicationAccess API
   slug: fortify-software-usergroupapplicationaccess-api
-- description: The UserManagement API from Fortify Software — 3 operation(s) for usermanagement.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The UserManagement API from Fortify Software — 3 operation(s) for usermanagement.
   name: Fortify Software UserManagement API
   slug: fortify-software-usermanagement-api
-- description: The Users API from Fortify Software — 2 operation(s) for users.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Users API from Fortify Software — 2 operation(s) for users.
   name: Fortify Software Users API
   slug: fortify-software-users-api
-- description: The Vulnerabilities API from Fortify Software — 20 operation(s) for vulnerabilities.
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Vulnerabilities API from Fortify Software — 20 operation(s) for vulnerabilities.
   name: Fortify Software Vulnerabilities API
   slug: fortify-software-vulnerabilities-api
 artifact_total: 62
@@ -357,7 +413,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify-software/refs/heads/main/screenshots/fortify-software-2026-07-25T215010.png
 security:

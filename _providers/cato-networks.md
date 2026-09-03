@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Public GraphQL API for the Cato Management Application (CMA): site and account provisioning, policy configuration, network/security analytics, entity lookup, and event streaming. Single GraphQL endpoi'
@@ -189,7 +189,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/screenshots/cato-networks-2026-07-25T204914.png
 security:

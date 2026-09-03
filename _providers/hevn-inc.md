@@ -33,100 +33,162 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The 2FA API from Hevn Inc — 10 operation(s) for 2fa.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The 2FA API from Hevn Inc — 10 operation(s) for 2fa.
   name: Hevn Inc 2FA API
   slug: hevn-inc-2fa-api
-- description: The Activity API from Hevn Inc — 2 operation(s) for activity.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Activity API from Hevn Inc — 2 operation(s) for activity.
   name: Hevn Inc Activity API
   slug: hevn-inc-activity-api
-- description: The apps API from Hevn Inc — 10 operation(s) for apps.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The apps API from Hevn Inc — 10 operation(s) for apps.
   name: Hevn Inc apps API
   slug: hevn-inc-apps-api
-- description: The apps-transfer API from Hevn Inc — 3 operation(s) for apps-transfer.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The apps-transfer API from Hevn Inc — 3 operation(s) for apps-transfer.
   name: Hevn Inc apps-transfer API
   slug: hevn-inc-apps-transfer-api
-- description: The auth API from Hevn Inc — 7 operation(s) for auth.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The auth API from Hevn Inc — 7 operation(s) for auth.
   name: Hevn Inc auth API
   slug: hevn-inc-auth-api
-- description: The B2B API from Hevn Inc — 10 operation(s) for b2b.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The B2B API from Hevn Inc — 10 operation(s) for b2b.
   name: Hevn Inc B2B API
   slug: hevn-inc-b2b-api
-- description: The Balance API from Hevn Inc — 20 operation(s) for balance.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Balance API from Hevn Inc — 20 operation(s) for balance.
   name: Hevn Inc Balance API
   slug: hevn-inc-balance-api
-- description: The Banks API from Hevn Inc — 14 operation(s) for banks.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Banks API from Hevn Inc — 14 operation(s) for banks.
   name: Hevn Inc Banks API
   slug: hevn-inc-banks-api
-- description: The Cards API from Hevn Inc — 28 operation(s) for cards.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Cards API from Hevn Inc — 28 operation(s) for cards.
   name: Hevn Inc Cards API
   slug: hevn-inc-cards-api
-- description: The Chat API from Hevn Inc — 8 operation(s) for chat.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Chat API from Hevn Inc — 8 operation(s) for chat.
   name: Hevn Inc Chat API
   slug: hevn-inc-chat-api
-- description: The contracts API from Hevn Inc — 28 operation(s) for contracts.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The contracts API from Hevn Inc — 28 operation(s) for contracts.
   name: Hevn Inc contracts API
   slug: hevn-inc-contracts-api
-- description: The Devices API from Hevn Inc — 4 operation(s) for devices.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Devices API from Hevn Inc — 4 operation(s) for devices.
   name: Hevn Inc Devices API
   slug: hevn-inc-devices-api
-- description: The documents API from Hevn Inc — 7 operation(s) for documents.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The documents API from Hevn Inc — 7 operation(s) for documents.
   name: Hevn Inc documents API
   slug: hevn-inc-documents-api
-- description: The Exports API from Hevn Inc — 8 operation(s) for exports.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Exports API from Hevn Inc — 8 operation(s) for exports.
   name: Hevn Inc Exports API
   slug: hevn-inc-exports-api
-- description: The Health API from Hevn Inc — 1 operation(s) for health.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Health API from Hevn Inc — 1 operation(s) for health.
   name: Hevn Inc Health API
   slug: hevn-inc-health-api
-- description: The Incorporate API from Hevn Inc — 4 operation(s) for incorporate.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Incorporate API from Hevn Inc — 4 operation(s) for incorporate.
   name: Hevn Inc Incorporate API
   slug: hevn-inc-incorporate-api
-- description: The invoices API from Hevn Inc — 14 operation(s) for invoices.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The invoices API from Hevn Inc — 14 operation(s) for invoices.
   name: Hevn Inc invoices API
   slug: hevn-inc-invoices-api
-- description: The kyb API from Hevn Inc — 8 operation(s) for kyb.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The kyb API from Hevn Inc — 8 operation(s) for kyb.
   name: Hevn Inc kyb API
   slug: hevn-inc-kyb-api
-- description: The mcp API from Hevn Inc — 14 operation(s) for mcp.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The mcp API from Hevn Inc — 14 operation(s) for mcp.
   name: Hevn Inc mcp API
   slug: hevn-inc-mcp-api
-- description: The Merchant API from Hevn Inc — 6 operation(s) for merchant.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Merchant API from Hevn Inc — 6 operation(s) for merchant.
   name: Hevn Inc Merchant API
   slug: hevn-inc-merchant-api
-- description: The Public API from Hevn Inc — 8 operation(s) for public.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Public API from Hevn Inc — 8 operation(s) for public.
   name: Hevn Inc Public API
   slug: hevn-inc-public-api
-- description: The Root API from Hevn Inc — 1 operation(s) for root.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Root API from Hevn Inc — 1 operation(s) for root.
   name: Hevn Inc Root API
   slug: hevn-inc-root-api
-- description: The team API from Hevn Inc — 8 operation(s) for team.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The team API from Hevn Inc — 8 operation(s) for team.
   name: Hevn Inc team API
   slug: hevn-inc-team-api
-- description: The tee API from Hevn Inc — 3 operation(s) for tee.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The tee API from Hevn Inc — 3 operation(s) for tee.
   name: Hevn Inc tee API
   slug: hevn-inc-tee-api
-- description: The tee-local API from Hevn Inc — 5 operation(s) for tee-local.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The tee-local API from Hevn Inc — 5 operation(s) for tee-local.
   name: Hevn Inc tee-local API
   slug: hevn-inc-tee-local-api
-- description: The Transactions API from Hevn Inc — 9 operation(s) for transactions.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Transactions API from Hevn Inc — 9 operation(s) for transactions.
   name: Hevn Inc Transactions API
   slug: hevn-inc-transactions-api
-- description: The User API from Hevn Inc — 21 operation(s) for user.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The User API from Hevn Inc — 21 operation(s) for user.
   name: Hevn Inc User API
   slug: hevn-inc-user-api
-- description: The Utils API from Hevn Inc — 10 operation(s) for utils.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Utils API from Hevn Inc — 10 operation(s) for utils.
   name: Hevn Inc Utils API
   slug: hevn-inc-utils-api
-- description: The Wallet API from Hevn Inc — 14 operation(s) for wallet.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Wallet API from Hevn Inc — 14 operation(s) for wallet.
   name: Hevn Inc Wallet API
   slug: hevn-inc-wallet-api
-- description: The Webhook API from Hevn Inc — 14 operation(s) for webhook.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Webhook API from Hevn Inc — 14 operation(s) for webhook.
   name: Hevn Inc Webhook API
   slug: hevn-inc-webhook-api
-- description: The Xero API from Hevn Inc — 10 operation(s) for xero.
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The Xero API from Hevn Inc — 10 operation(s) for xero.
   name: Hevn Inc Xero API
   slug: hevn-inc-xero-api
 artifact_total: 66
@@ -384,7 +446,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hevn-inc/refs/heads/main/screenshots/hevn-inc-2026-07-25T221107.png
 security:

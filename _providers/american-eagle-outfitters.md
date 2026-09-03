@@ -9,37 +9,109 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
+    agentic_commerce: platform
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
+    protected_resource_metadata: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-01'
-api_count: 0
-artifact_total: 22
+  score: 25.0
+  scored_at: '2026-09-02'
+api_count: 1
+apis:
+- description: 'The one callable, machine-reachable surface in the American Eagle Outfitters estate: a Universal Commerce Protocol shopping server, transported over MCP, on the Unsubscribed brand storefront. Anonymou'
+  name: Unsubscribed Commerce (UCP/MCP)
+  slug: unsubscribed-commerce
+artifact_total: 28
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/american-eagle-outfitters-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-eagle-outfitters-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/american-eagle-outfitters-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/american-eagle-outfitters-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/american-eagle-outfitters-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/american-eagle-outfitters-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/american-eagle-outfitters-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/american-eagle-outfitters-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/american-eagle-outfitters-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/american-eagle-outfitters-lifecycle.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/american-eagle-outfitters-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/american-eagle-outfitters-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/american-eagle-outfitters-packages.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aeo-inc.com/news-media/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ae.com/us/en/content/help/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ae.com/us/en/content/help/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ae.com/content/help/privacy-notice/
 - group: company
   title: ''
   type: LinkedIn
@@ -48,14 +120,11 @@ common:
   title: ''
   type: Website
   url: https://www.ae.com
-- group: start
-  title: ''
-  type: Portal
-  url: https://www.americaneagle.com
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/aeo
+created: '2026-04-19'
 description: American Eagle Outfitters (AEO) is a global specialty retailer operating the American Eagle and Aerie brands, offering on-trend clothing, accessories, and personal care products at affordable prices. The company operates over 1,000 stores across the Americas and online, with a unified commerce strategy spanning e-commerce, mobile, and in-store experiences.
 features:
 - description: Seamless integration of in-store, mobile, and online channels through a unified commerce strategy powered by Jumpmind Commerce POS.
@@ -91,14 +160,22 @@ integrations:
 - description: Amazon Web Services cloud infrastructure supporting e-commerce and data workloads.
   name: AWS
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: 'American Eagle Outfitters exposes one live, anonymously reachable MCP endpoint across its estate: the Universal Commerce Protocol (UCP) shopping server on www.unsubscribed.com, the AEO brand storefron'
+  name: Unsubscribed Commerce (UCP/MCP)
+  slug: unsubscribed-commerce-ucpmcp
+modified: '2026-09-02'
 name: American Eagle Outfitters
 nav: Providers
 network: true
-overview: 'American Eagle Outfitters is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, E-Commerce, Fashion, Apparel, and Consumer Goods.
+overview: 'American Eagle Outfitters publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, E-Commerce, Fashion, Apparel, and Consumer Goods.
 
 
-  American Eagle Outfitters'' developer surface includes developer portal and 4 more developer resources.'
+  American Eagle Outfitters'' developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
+plans:
+- name: American Eagle Outfitters Plans Pricing
+  plan_count: 0
+  slug: american-eagle-outfitters-plans-pricing
 press:
 - date: '2026-05-25'
   title: Grid Dynamics Helps American Eagle To Reimagine ...
@@ -116,34 +193,51 @@ press:
   title: American Eagle uses Meta AI ads to get Gen Z to stores
   url: https://adage.com/article/digital-marketing-ad-tech-news/american-eagle-uses-meta-ai-ads-get-gen-z-stores/2606366/
 random_paper: 4
+rate_limits:
+- limit_count: 0
+  name: American Eagle Outfitters Rate Limits
+  slug: american-eagle-outfitters-rate-limits
+scopes:
+- name: American Eagle Outfitters Scopes
+  scope_count: 0
+  slug: american-eagle-outfitters-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 6.7
+  band: emerging
+  composite: 19.7
   coverage:
-    artifact_dirs: 5
-    catalog_gap: 91.0
+    artifact_dirs: 18
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 13.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 44.4
-    governance: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 2.6
   previous_composite: 6.7
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-eagle-outfitters/refs/heads/main/screenshots/american-eagle-outfitters-2026-06-20T171908.png
 security:
+- kind: authentication
+  name: American Eagle Outfitters Authentication
+  slug: american-eagle-outfitters-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: American Eagle Outfitters Domain Security
   slug: american-eagle-outfitters-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: american-eagle-outfitters
 tags:
 - Retail

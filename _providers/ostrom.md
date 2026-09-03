@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 18 operations · 6 acting
 api_count: 1
 apis:
-- description: Describe how to authenticate in the api
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to authenticate in the api
   name: Ostrom Auth API
   slug: ostrom-auth-api
-- description: Describe how to fetch information related with contracts
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to fetch information related with contracts
   name: Ostrom Contracts API
   slug: ostrom-contracts-api
-- description: Describe how to fetch information related with orders
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to fetch information related with orders
   name: Ostrom Orders API
   slug: ostrom-orders-api
-- description: Describe how to fetch information related with prices
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to fetch information related with prices
   name: Ostrom Prices API
   slug: ostrom-prices-api
-- description: Describe how to fetch information related with products
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to fetch information related with products
   name: Ostrom Products API
   slug: ostrom-products-api
-- description: Describe how to fetch information related with users
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to fetch information related with users
   name: Ostrom Users API
   slug: ostrom-users-api
-- description: Describe how to create webhooks and receive notifications from our system.
+- baseURL: https://production.ostrom-api.io
+  baseurl_source: declared
+  description: Describe how to create webhooks and receive notifications from our system.
   name: Ostrom Webhooks API
   slug: ostrom-webhooks-api
 artifact_total: 20
@@ -231,7 +245,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -241,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 49.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,7 +273,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/screenshots/ostrom-2026-08-07T191022.png
 security:

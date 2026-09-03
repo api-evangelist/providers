@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 4
 apis:
-- description: Pickup scheduling and management
+- baseURL: https://api.arcbest.com/v2
+  baseurl_source: spec
+  description: Pickup scheduling and management
   name: ArcBest Pickups API
   slug: arcbest-pickups-api
-- description: Freight rate quote services
+- baseURL: https://api.arcbest.com/v2
+  baseurl_source: spec
+  description: Freight rate quote services
   name: ArcBest Rates API
   slug: arcbest-rates-api
-- description: Shipment booking and management
+- baseURL: https://api.arcbest.com/v2
+  baseurl_source: spec
+  description: Shipment booking and management
   name: ArcBest Shipments API
   slug: arcbest-shipments-api
-- description: Shipment tracking and visibility
+- baseURL: https://api.arcbest.com/v2
+  baseurl_source: spec
+  description: Shipment tracking and visibility
   name: ArcBest Tracking API
   slug: arcbest-tracking-api
 artifact_total: 69
@@ -343,7 +351,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png
 security:

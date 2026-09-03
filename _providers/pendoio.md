@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 4
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 65 operations · 32 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Pendo.io — 2 operation(s) for account.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Account API from Pendo.io — 2 operation(s) for account.
   name: Pendo.io Account API
   slug: pendoio-account-api
-- description: The Admin API from Pendo.io — 1 operation(s) for admin.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Admin API from Pendo.io — 1 operation(s) for admin.
   name: Pendo.io Admin API
   slug: pendoio-admin-api
-- description: The Aggregation API from Pendo.io — 1 operation(s) for aggregation.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Aggregation API from Pendo.io — 1 operation(s) for aggregation.
   name: Pendo.io Aggregation API
   slug: pendoio-aggregation-api
-- description: The Bulk Deletion (GDPR/CCPA) API from Pendo.io — 4 operation(s) for bulk deletion (gdpr/ccpa).
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Bulk Deletion (GDPR/CCPA) API from Pendo.io — 4 operation(s) for bulk deletion (gdpr/ccpa).
   name: Pendo.io Bulk Deletion (GDPR/CCPA) API
   slug: pendoio-bulk-deletion-gdpr-ccpa-api
-- description: The Conversations API from Pendo.io — 1 operation(s) for conversations.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Conversations API from Pendo.io — 1 operation(s) for conversations.
   name: Pendo.io Conversations API
   slug: pendoio-conversations-api
-- description: The Data Sync API from Pendo.io — 3 operation(s) for data sync.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Data Sync API from Pendo.io — 3 operation(s) for data sync.
   name: Pendo.io Data Sync API
   slug: pendoio-data-sync-api
-- description: The Exclude Lists & Servers API from Pendo.io — 5 operation(s) for exclude lists & servers.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Exclude Lists & Servers API from Pendo.io — 5 operation(s) for exclude lists & servers.
   name: Pendo.io Exclude Lists & Servers API
   slug: pendoio-exclude-lists-servers-api
-- description: The Feature API from Pendo.io — 1 operation(s) for feature.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Feature API from Pendo.io — 1 operation(s) for feature.
   name: Pendo.io Feature API
   slug: pendoio-feature-api
-- description: The Guide API from Pendo.io — 12 operation(s) for guide.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Guide API from Pendo.io — 12 operation(s) for guide.
   name: Pendo.io Guide API
   slug: pendoio-guide-api
-- description: The Listen API from Pendo.io — 3 operation(s) for listen.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Listen API from Pendo.io — 3 operation(s) for listen.
   name: Pendo.io Listen API
   slug: pendoio-listen-api
-- description: The Metadata API from Pendo.io — 9 operation(s) for metadata.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Metadata API from Pendo.io — 9 operation(s) for metadata.
   name: Pendo.io Metadata API
   slug: pendoio-metadata-api
-- description: The Page API from Pendo.io — 1 operation(s) for page.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Page API from Pendo.io — 1 operation(s) for page.
   name: Pendo.io Page API
   slug: pendoio-page-api
-- description: The Report API from Pendo.io — 3 operation(s) for report.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Report API from Pendo.io — 3 operation(s) for report.
   name: Pendo.io Report API
   slug: pendoio-report-api
-- description: The Segment API from Pendo.io — 10 operation(s) for segment.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Segment API from Pendo.io — 10 operation(s) for segment.
   name: Pendo.io Segment API
   slug: pendoio-segment-api
-- description: The Track API from Pendo.io — 2 operation(s) for track.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Track API from Pendo.io — 2 operation(s) for track.
   name: Pendo.io Track API
   slug: pendoio-track-api
-- description: The Visitor API from Pendo.io — 3 operation(s) for visitor.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Visitor API from Pendo.io — 3 operation(s) for visitor.
   name: Pendo.io Visitor API
   slug: pendoio-visitor-api
 artifact_total: 39
@@ -324,7 +356,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendoio/refs/heads/main/screenshots/pendoio-2026-08-17T081153.png
 security:

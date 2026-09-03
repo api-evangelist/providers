@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -61,10 +61,14 @@ apis:
 - description: Open data portal powered by OpenDataSoft exposing 18+ datasets including postal office locations, street mailbox listings, postal codes (HEXASMAL), business registrations (SIRENE), and postal tariff t
   name: La Poste dataNOVA Open Data API
   slug: la-poste-datanova-open-data-api
-- description: 'The SlsInternalService : Services destinés aux applications internes API from La Poste — 3 operation(s) for slsinternalservice : services destinés aux applications internes.'
+- baseURL: https://api.laposte.fr
+  baseurl_source: declared
+  description: 'The SlsInternalService : Services destinés aux applications internes API from La Poste — 3 operation(s) for slsinternalservice : services destinés aux applications internes.'
   name: 'La Poste SlsInternalService : Services destinés aux applications internes API'
   slug: la-poste-slsinternalservice-services-destin-s-aux-applications-internes-api
-- description: 'The SlsServiceWS : documentation API from La Poste — 9 operation(s) for slsservicews : documentation.'
+- baseURL: https://api.laposte.fr
+  baseurl_source: declared
+  description: 'The SlsServiceWS : documentation API from La Poste — 9 operation(s) for slsservicews : documentation.'
   name: 'La Poste SlsServiceWS : documentation API'
   slug: la-poste-slsservicews-documentation-api
 artifact_total: 107
@@ -474,7 +478,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/screenshots/la-poste-2026-06-20T184234.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: IP geolocation web service to get more than 55 parameters
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ip2location/refs/heads/main/screenshots/ip2location-2026-06-20T183542.png
 security:

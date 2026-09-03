@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -44,46 +44,72 @@ agentic_access:
   summary_line: 35 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The Calendly Webhook API enables developers to receive real-time notifications when scheduling events occur in Calendly. By creating webhook subscriptions, applications can automatically receive data '
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: 'The Calendly Webhook API enables developers to receive real-time notifications when scheduling events occur in Calendly. By creating webhook subscriptions, applications can automatically receive data '
   name: Calendly Webhook API
   slug: webhook-api
 - description: 'The Calendly Embed API allows developers to integrate Calendly scheduling pages directly into their websites and applications. It supports inline embeds, popup widgets, and popup text options, giving '
   name: Calendly Embed API
   slug: embed-api
-- description: Endpoints for retrieving activity log entries for an organization.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for retrieving activity log entries for an organization.
   name: Calendly Activity Log API
   slug: calendly-activity-log-api
-- description: Endpoints for viewing available times for event types and managing user availability schedules.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for viewing available times for event types and managing user availability schedules.
   name: Calendly Availability API
   slug: calendly-availability-api
-- description: Endpoints for handling data compliance requests such as deletion and retrieval of invitee data.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for handling data compliance requests such as deletion and retrieval of invitee data.
   name: Calendly Data Compliance API
   slug: calendly-data-compliance-api
-- description: Endpoints for listing, retrieving, and managing event types that define the kinds of meetings users can schedule.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for listing, retrieving, and managing event types that define the kinds of meetings users can schedule.
   name: Calendly Event Types API
   slug: calendly-event-types-api
-- description: Endpoints for listing and retrieving organization groups.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for listing and retrieving organization groups.
   name: Calendly Groups API
   slug: calendly-groups-api
-- description: Endpoints for listing, retrieving, and creating invitees on scheduled events.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for listing, retrieving, and creating invitees on scheduled events.
   name: Calendly Invitees API
   slug: calendly-invitees-api
-- description: Endpoints for managing organization memberships, invitations, and organization-level settings.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for managing organization memberships, invitations, and organization-level settings.
   name: Calendly Organizations API
   slug: calendly-organizations-api
-- description: Endpoints for listing and retrieving routing forms and their submissions.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for listing and retrieving routing forms and their submissions.
   name: Calendly Routing Forms API
   slug: calendly-routing-forms-api
-- description: Endpoints for listing, retrieving, and canceling scheduled events (booked meetings).
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for listing, retrieving, and canceling scheduled events (booked meetings).
   name: Calendly Scheduled Events API
   slug: calendly-scheduled-events-api
-- description: Endpoints for creating and managing shareable scheduling links.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for creating and managing shareable scheduling links.
   name: Calendly Shares API
   slug: calendly-shares-api
-- description: Endpoints for retrieving user information and managing user accounts within Calendly.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for retrieving user information and managing user accounts within Calendly.
   name: Calendly Users API
   slug: calendly-users-api
-- description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions that receive real-time event notifications.
+- baseURL: https://api.calendly.com
+  baseurl_source: declared
+  description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions that receive real-time event notifications.
   name: Calendly Webhook Subscriptions API
   slug: calendly-webhook-subscriptions-api
 artifact_total: 42
@@ -280,7 +306,7 @@ score:
     catalog_gap: 60.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -290,7 +316,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -299,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/screenshots/calendly-2026-06-20T173843.png
 security:

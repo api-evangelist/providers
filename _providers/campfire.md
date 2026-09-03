@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 362 operations · 233 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations related to billing and the AP subledger.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to billing and the AP subledger.
   name: Campfire Accounts Payable API
   slug: campfire-accounts-payable-api
-- description: Operations related to invoicing and the AR subledger
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to invoicing and the AR subledger
   name: Campfire Accounts Receivable API
   slug: campfire-accounts-receivable-api
-- description: The Bank Reconciliation API from Campfire — 6 operation(s) for bank reconciliation.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Bank Reconciliation API from Campfire — 6 operation(s) for bank reconciliation.
   name: Campfire Bank Reconciliation API
   slug: campfire-bank-reconciliation-api
-- description: Operations related to accounts, transactions, and other bank-related data.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to accounts, transactions, and other bank-related data.
   name: Campfire Cash Management API
   slug: campfire-cash-management-api
-- description: The coa API from Campfire — 1 operation(s) for coa.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The coa API from Campfire — 1 operation(s) for coa.
   name: Campfire coa API
   slug: campfire-coa-api
-- description: The Company Objects API from Campfire — 21 operation(s) for company objects.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Company Objects API from Campfire — 21 operation(s) for company objects.
   name: Campfire Company Objects API
   slug: campfire-company-objects-api
-- description: Operations related to core accounting data, such as the chart of accounts, entity management, and the general ledger.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to core accounting data, such as the chart of accounts, entity management, and the general ledger.
   name: Campfire Core Accounting API
   slug: campfire-core-accounting-api
-- description: The Custom Fields API from Campfire — 1 operation(s) for custom fields.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Custom Fields API from Campfire — 1 operation(s) for custom fields.
   name: Campfire Custom Fields API
   slug: campfire-custom-fields-api
-- description: Operations related to financial statement generation and data aggregation.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to financial statement generation and data aggregation.
   name: Campfire Financial Statements API
   slug: campfire-financial-statements-api
-- description: The Integrations API from Campfire — 3 operation(s) for integrations.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Integrations API from Campfire — 3 operation(s) for integrations.
   name: Campfire Integrations API
   slug: campfire-integrations-api
-- description: Operations related to revenue recognition, contract management, and contract data aggregation.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to revenue recognition, contract management, and contract data aggregation.
   name: Campfire Revenue Recognition API
   slug: campfire-revenue-recognition-api
-- description: Operations related to system and accounting settings configuration.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: Operations related to system and accounting settings configuration.
   name: Campfire Settings API
   slug: campfire-settings-api
 artifact_total: 31
@@ -274,7 +298,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -284,7 +308,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 47.6
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,7 +320,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/screenshots/campfire-2026-07-25T204311.png
 security:

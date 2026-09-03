@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 8 acting
 api_count: 1
 apis:
-- description: Query a Big Table with SQL.
+- baseURL: https://api.glideapps.com
+  baseurl_source: declared
+  description: Query a Big Table with SQL.
   name: Glide Queries API
   slug: glide-apps-queries-api
-- description: List, read, add, update, and delete rows in a Big Table.
+- baseURL: https://api.glideapps.com
+  baseurl_source: declared
+  description: List, read, add, update, and delete rows in a Big Table.
   name: Glide Rows API
   slug: glide-apps-rows-api
-- description: Stage large data payloads in serial chunks for bulk loads.
+- baseURL: https://api.glideapps.com
+  baseurl_source: declared
+  description: Stage large data payloads in serial chunks for bulk loads.
   name: Glide Stashes API
   slug: glide-apps-stashes-api
-- description: Create, overwrite, and list Big Tables.
+- baseURL: https://api.glideapps.com
+  baseurl_source: declared
+  description: Create, overwrite, and list Big Tables.
   name: Glide Tables API
   slug: glide-apps-tables-api
 artifact_total: 17
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/screenshots/glide-apps-2026-06-20T181910.png
 security:

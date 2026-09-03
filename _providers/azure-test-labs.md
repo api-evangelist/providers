@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 132 operations · 87 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The ArmTemplates API from Azure DevTest Labs — 2 operation(s) for armtemplates.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ArmTemplates API from Azure DevTest Labs — 2 operation(s) for armtemplates.
   name: Azure DevTest Labs ArmTemplates API
   slug: azure-test-labs-armtemplates-api
-- description: The Artifacts API from Azure DevTest Labs — 3 operation(s) for artifacts.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Artifacts API from Azure DevTest Labs — 3 operation(s) for artifacts.
   name: Azure DevTest Labs Artifacts API
   slug: azure-test-labs-artifacts-api
-- description: The ArtifactSources API from Azure DevTest Labs — 2 operation(s) for artifactsources.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ArtifactSources API from Azure DevTest Labs — 2 operation(s) for artifactsources.
   name: Azure DevTest Labs ArtifactSources API
   slug: azure-test-labs-artifactsources-api
-- description: The Costs API from Azure DevTest Labs — 1 operation(s) for costs.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Costs API from Azure DevTest Labs — 1 operation(s) for costs.
   name: Azure DevTest Labs Costs API
   slug: azure-test-labs-costs-api
-- description: The CustomImages API from Azure DevTest Labs — 2 operation(s) for customimages.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The CustomImages API from Azure DevTest Labs — 2 operation(s) for customimages.
   name: Azure DevTest Labs CustomImages API
   slug: azure-test-labs-customimages-api
-- description: The Disks API from Azure DevTest Labs — 4 operation(s) for disks.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Disks API from Azure DevTest Labs — 4 operation(s) for disks.
   name: Azure DevTest Labs Disks API
   slug: azure-test-labs-disks-api
-- description: The Environments API from Azure DevTest Labs — 2 operation(s) for environments.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Environments API from Azure DevTest Labs — 2 operation(s) for environments.
   name: Azure DevTest Labs Environments API
   slug: azure-test-labs-environments-api
-- description: The Formulas API from Azure DevTest Labs — 2 operation(s) for formulas.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Formulas API from Azure DevTest Labs — 2 operation(s) for formulas.
   name: Azure DevTest Labs Formulas API
   slug: azure-test-labs-formulas-api
-- description: The GalleryImages API from Azure DevTest Labs — 1 operation(s) for galleryimages.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The GalleryImages API from Azure DevTest Labs — 1 operation(s) for galleryimages.
   name: Azure DevTest Labs GalleryImages API
   slug: azure-test-labs-galleryimages-api
-- description: The GlobalSchedules API from Azure DevTest Labs — 5 operation(s) for globalschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The GlobalSchedules API from Azure DevTest Labs — 5 operation(s) for globalschedules.
   name: Azure DevTest Labs GlobalSchedules API
   slug: azure-test-labs-globalschedules-api
-- description: The Labs API from Azure DevTest Labs — 9 operation(s) for labs.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Labs API from Azure DevTest Labs — 9 operation(s) for labs.
   name: Azure DevTest Labs Labs API
   slug: azure-test-labs-labs-api
-- description: The NotificationChannels API from Azure DevTest Labs — 3 operation(s) for notificationchannels.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The NotificationChannels API from Azure DevTest Labs — 3 operation(s) for notificationchannels.
   name: Azure DevTest Labs NotificationChannels API
   slug: azure-test-labs-notificationchannels-api
-- description: The Operations API from Azure DevTest Labs — 1 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Operations API from Azure DevTest Labs — 1 operation(s) for operations.
   name: Azure DevTest Labs Operations API
   slug: azure-test-labs-operations-api
-- description: The Policies API from Azure DevTest Labs — 2 operation(s) for policies.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Policies API from Azure DevTest Labs — 2 operation(s) for policies.
   name: Azure DevTest Labs Policies API
   slug: azure-test-labs-policies-api
-- description: The PolicySets API from Azure DevTest Labs — 1 operation(s) for policysets.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PolicySets API from Azure DevTest Labs — 1 operation(s) for policysets.
   name: Azure DevTest Labs PolicySets API
   slug: azure-test-labs-policysets-api
-- description: The ProviderOperations API from Azure DevTest Labs — 1 operation(s) for provideroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ProviderOperations API from Azure DevTest Labs — 1 operation(s) for provideroperations.
   name: Azure DevTest Labs ProviderOperations API
   slug: azure-test-labs-provideroperations-api
-- description: The Schedules API from Azure DevTest Labs — 4 operation(s) for schedules.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Schedules API from Azure DevTest Labs — 4 operation(s) for schedules.
   name: Azure DevTest Labs Schedules API
   slug: azure-test-labs-schedules-api
-- description: The Secrets API from Azure DevTest Labs — 2 operation(s) for secrets.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Secrets API from Azure DevTest Labs — 2 operation(s) for secrets.
   name: Azure DevTest Labs Secrets API
   slug: azure-test-labs-secrets-api
-- description: The ServiceFabrics API from Azure DevTest Labs — 5 operation(s) for servicefabrics.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ServiceFabrics API from Azure DevTest Labs — 5 operation(s) for servicefabrics.
   name: Azure DevTest Labs ServiceFabrics API
   slug: azure-test-labs-servicefabrics-api
-- description: The ServiceFabricSchedules API from Azure DevTest Labs — 3 operation(s) for servicefabricschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ServiceFabricSchedules API from Azure DevTest Labs — 3 operation(s) for servicefabricschedules.
   name: Azure DevTest Labs ServiceFabricSchedules API
   slug: azure-test-labs-servicefabricschedules-api
-- description: The ServiceRunners API from Azure DevTest Labs — 1 operation(s) for servicerunners.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ServiceRunners API from Azure DevTest Labs — 1 operation(s) for servicerunners.
   name: Azure DevTest Labs ServiceRunners API
   slug: azure-test-labs-servicerunners-api
-- description: The Users API from Azure DevTest Labs — 2 operation(s) for users.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Users API from Azure DevTest Labs — 2 operation(s) for users.
   name: Azure DevTest Labs Users API
   slug: azure-test-labs-users-api
-- description: The VirtualMachines API from Azure DevTest Labs — 15 operation(s) for virtualmachines.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The VirtualMachines API from Azure DevTest Labs — 15 operation(s) for virtualmachines.
   name: Azure DevTest Labs VirtualMachines API
   slug: azure-test-labs-virtualmachines-api
-- description: The VirtualMachineSchedules API from Azure DevTest Labs — 3 operation(s) for virtualmachineschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The VirtualMachineSchedules API from Azure DevTest Labs — 3 operation(s) for virtualmachineschedules.
   name: Azure DevTest Labs VirtualMachineSchedules API
   slug: azure-test-labs-virtualmachineschedules-api
-- description: The VirtualNetworks API from Azure DevTest Labs — 2 operation(s) for virtualnetworks.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The VirtualNetworks API from Azure DevTest Labs — 2 operation(s) for virtualnetworks.
   name: Azure DevTest Labs VirtualNetworks API
   slug: azure-test-labs-virtualnetworks-api
 artifact_total: 176
@@ -699,7 +749,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:

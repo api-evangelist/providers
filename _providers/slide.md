@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Everything about [accounts](#model/account)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [accounts](#model/account)
   name: Slide Accounts API
   slug: slide-accounts-api
-- description: Everything about [agents](#model/agent)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [agents](#model/agent)
   name: Slide Agents API
   slug: slide-agents-api
-- description: Everything about [alerts](#model/alert)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [alerts](#model/alert)
   name: Slide Alerts API
   slug: slide-alerts-api
-- description: The Audits API from Slide — 4 operation(s) for audits.
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: The Audits API from Slide — 4 operation(s) for audits.
   name: Slide Audits API
   slug: slide-audits-api
-- description: Everything about [backups](#model/backup)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [backups](#model/backup)
   name: Slide Backups API
   slug: slide-backups-api
-- description: Everything about [clients](#model/client)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [clients](#model/client)
   name: Slide Clients API
   slug: slide-clients-api
-- description: Everything about [devices](#model/device)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [devices](#model/device)
   name: Slide Devices API
   slug: slide-devices-api
-- description: Everything about [networks](#model/network)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [networks](#model/network)
   name: Slide Networks API
   slug: slide-networks-api
-- description: Everything about [file restores](#model/filerestore)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [file restores](#model/filerestore)
   name: Slide Restores (File) API
   slug: slide-restores-file-api
-- description: Everything about [image exports](#model/imageexport)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [image exports](#model/imageexport)
   name: Slide Restores (Image) API
   slug: slide-restores-image-api
-- description: Everything about [push file restores](#model/filerestorepush)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [push file restores](#model/filerestorepush)
   name: Slide Restores (Push) API
   slug: slide-restores-push-api
-- description: Everything about [virtual machines](#model/virtualmachine)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [virtual machines](#model/virtualmachine)
   name: Slide Restores (Virtual Machine) API
   slug: slide-restores-virtual-machine-api
-- description: Everything about [snapshots](#model/snapshot)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [snapshots](#model/snapshot)
   name: Slide Snapshots API
   slug: slide-snapshots-api
-- description: Everything about [users](#model/user)
+- baseURL: https://api.slide.tech
+  baseurl_source: declared
+  description: Everything about [users](#model/user)
   name: Slide Users API
   slug: slide-users-api
 artifact_total: 33
@@ -276,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slide/refs/heads/main/screenshots/slide-2026-08-17T081918.png
 security:

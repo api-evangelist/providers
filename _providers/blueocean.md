@@ -33,64 +33,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Delete Conversation API from BlueOcean — 1 operation(s) for delete conversation.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Delete Conversation API from BlueOcean — 1 operation(s) for delete conversation.
   name: BlueOcean Delete Conversation API
   slug: blueocean-delete-conversation-api
-- description: The Get All Conversation History API from BlueOcean — 1 operation(s) for get all conversation history.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Get All Conversation History API from BlueOcean — 1 operation(s) for get all conversation history.
   name: BlueOcean Get All Conversation History API
   slug: blueocean-get-all-conversation-history-api
-- description: The Get Conversation History Summary API from BlueOcean — 1 operation(s) for get conversation history summary.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Get Conversation History Summary API from BlueOcean — 1 operation(s) for get conversation history summary.
   name: BlueOcean Get Conversation History Summary API
   slug: blueocean-get-conversation-history-summary-api
-- description: The Get Message History API from BlueOcean — 1 operation(s) for get message history.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Get Message History API from BlueOcean — 1 operation(s) for get message history.
   name: BlueOcean Get Message History API
   slug: blueocean-get-message-history-api
-- description: The Get Message History V2 API from BlueOcean — 1 operation(s) for get message history v2.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Get Message History V2 API from BlueOcean — 1 operation(s) for get message history v2.
   name: BlueOcean Get Message History V2 API
   slug: blueocean-get-message-history-v2-api
-- description: The images API from BlueOcean — 1 operation(s) for images.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The images API from BlueOcean — 1 operation(s) for images.
   name: BlueOcean Images API
   slug: blueocean-images-api
-- description: The langsmith_api API from BlueOcean — 1 operation(s) for langsmith_api.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The langsmith_api API from BlueOcean — 1 operation(s) for langsmith_api.
   name: BlueOcean Langsmith API
   slug: blueocean-langsmith-api-api
-- description: The mcp API from BlueOcean — 3 operation(s) for mcp.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The mcp API from BlueOcean — 3 operation(s) for mcp.
   name: BlueOcean MCP API
   slug: blueocean-mcp-api
-- description: The mock_mcp API from BlueOcean — 4 operation(s) for mock_mcp.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The mock_mcp API from BlueOcean — 4 operation(s) for mock_mcp.
   name: BlueOcean Mock MCP API
   slug: blueocean-mock-mcp-api
-- description: The oauth_providers API from BlueOcean — 15 operation(s) for oauth_providers.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The oauth_providers API from BlueOcean — 15 operation(s) for oauth_providers.
   name: BlueOcean OAUTH Providers API
   slug: blueocean-oauth-providers-api
-- description: The pinecone_api API from BlueOcean — 1 operation(s) for pinecone_api.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The pinecone_api API from BlueOcean — 1 operation(s) for pinecone_api.
   name: BlueOcean Pinecone API
   slug: blueocean-pinecone-api-api
-- description: The pipedream API from BlueOcean — 7 operation(s) for pipedream.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The pipedream API from BlueOcean — 7 operation(s) for pipedream.
   name: BlueOcean Pipedream API
   slug: blueocean-pipedream-api
-- description: The prompts API from BlueOcean — 6 operation(s) for prompts.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The prompts API from BlueOcean — 6 operation(s) for prompts.
   name: BlueOcean Prompts API
   slug: blueocean-prompts-api
-- description: The Rename Conversation API from BlueOcean — 1 operation(s) for rename conversation.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Rename Conversation API from BlueOcean — 1 operation(s) for rename conversation.
   name: BlueOcean Rename Conversation API
   slug: blueocean-rename-conversation-api
-- description: The session_documents API from BlueOcean — 5 operation(s) for session_documents.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The session_documents API from BlueOcean — 5 operation(s) for session_documents.
   name: BlueOcean Session Documents API
   slug: blueocean-session-documents-api
-- description: The siren API from BlueOcean — 4 operation(s) for siren.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The siren API from BlueOcean — 4 operation(s) for siren.
   name: BlueOcean Siren API
   slug: blueocean-siren-api
-- description: The siren-internal API from BlueOcean — 1 operation(s) for siren-internal.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The siren-internal API from BlueOcean — 1 operation(s) for siren-internal.
   name: BlueOcean Siren Internal API
   slug: blueocean-siren-internal-api
-- description: The Upsert Widget Data API from BlueOcean — 1 operation(s) for upsert widget data.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The Upsert Widget Data API from BlueOcean — 1 operation(s) for upsert widget data.
   name: BlueOcean Upsert Widget Data API
   slug: blueocean-upsert-widget-data-api
-- description: The user_memory API from BlueOcean — 8 operation(s) for user_memory.
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The user_memory API from BlueOcean — 8 operation(s) for user_memory.
   name: BlueOcean User Memory API
   slug: blueocean-user-memory-api
 artifact_total: 24
@@ -220,7 +258,7 @@ score:
       total: 19
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/screenshots/blueocean-2026-07-25T203459.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,37 +42,59 @@ agentic_access:
   summary_line: 22 operations · 2 acting
 api_count: 1
 apis:
-- description: The Accounts API from Dapper Labs — 4 operation(s) for accounts.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Accounts API from Dapper Labs — 4 operation(s) for accounts.
   name: Dapper Labs Accounts API
   slug: dapper-labs-accounts-api
-- description: The Blocks API from Dapper Labs — 3 operation(s) for blocks.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Blocks API from Dapper Labs — 3 operation(s) for blocks.
   name: Dapper Labs Blocks API
   slug: dapper-labs-blocks-api
-- description: The Collections API from Dapper Labs — 1 operation(s) for collections.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Collections API from Dapper Labs — 1 operation(s) for collections.
   name: Dapper Labs Collections API
   slug: dapper-labs-collections-api
-- description: The Events API from Dapper Labs — 1 operation(s) for events.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Events API from Dapper Labs — 1 operation(s) for events.
   name: Dapper Labs Events API
   slug: dapper-labs-events-api
-- description: The Execution Receipts API from Dapper Labs — 2 operation(s) for execution receipts.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Execution Receipts API from Dapper Labs — 2 operation(s) for execution receipts.
   name: Dapper Labs Execution Receipts API
   slug: dapper-labs-execution-receipts-api
-- description: The Execution Results API from Dapper Labs — 2 operation(s) for execution results.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Execution Results API from Dapper Labs — 2 operation(s) for execution results.
   name: Dapper Labs Execution Results API
   slug: dapper-labs-execution-results-api
-- description: The Network API from Dapper Labs — 1 operation(s) for network.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Network API from Dapper Labs — 1 operation(s) for network.
   name: Dapper Labs Network API
   slug: dapper-labs-network-api
-- description: The NodeVersionInfo API from Dapper Labs — 1 operation(s) for nodeversioninfo.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The NodeVersionInfo API from Dapper Labs — 1 operation(s) for nodeversioninfo.
   name: Dapper Labs NodeVersionInfo API
   slug: dapper-labs-nodeversioninfo-api
-- description: The Scripts API from Dapper Labs — 1 operation(s) for scripts.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Scripts API from Dapper Labs — 1 operation(s) for scripts.
   name: Dapper Labs Scripts API
   slug: dapper-labs-scripts-api
-- description: The Subscribe events API from Dapper Labs — 1 operation(s) for subscribe events.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Subscribe events API from Dapper Labs — 1 operation(s) for subscribe events.
   name: Dapper Labs Subscribe events API
   slug: dapper-labs-subscribe-events-api
-- description: The Transactions API from Dapper Labs — 4 operation(s) for transactions.
+- baseURL: https://rest-mainnet.onflow.org/v1
+  baseurl_source: declared
+  description: The Transactions API from Dapper Labs — 4 operation(s) for transactions.
   name: Dapper Labs Transactions API
   slug: dapper-labs-transactions-api
 artifact_total: 27
@@ -234,7 +256,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -244,7 +266,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.1
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapper-labs/refs/heads/main/screenshots/dapper-labs-2026-07-25T211207.png
 security:

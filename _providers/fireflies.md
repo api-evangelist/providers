@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: Retrieve and manage meeting transcripts and their content
+- baseURL: https://api.fireflies.ai/graphql
+  baseurl_source: declared
+  description: Retrieve and manage meeting transcripts and their content
   name: Fireflies.ai Transcripts API
   slug: fireflies-transcripts-api
 artifact_total: 25
@@ -364,7 +366,7 @@ score:
     catalog_gap: 37.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -374,7 +376,7 @@ score:
     discoverability: 75.9
     governance: 43.2
     operational_transparency: 44.7
-  previous_composite: 70.7
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -386,7 +388,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
 security:

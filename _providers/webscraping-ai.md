@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,19 +48,29 @@ apis:
 - description: Hosted remote Model Context Protocol server exposing the same seven capabilities as tools to AI assistants. Streamable HTTP transport, OAuth 2.1 login with PKCE and dynamic client registration, no API
   name: WebScraping.AI MCP Server
   slug: webscrapingai-mcp-server
-- description: Information about your account API credits quota
+- baseURL: https://api.webscraping.ai
+  baseurl_source: declared
+  description: Information about your account API credits quota
   name: WebScraping.AI Account API
   slug: webscraping-ai-account-api
-- description: Analyze web pages using LLMs
+- baseURL: https://api.webscraping.ai
+  baseurl_source: declared
+  description: Analyze web pages using LLMs
   name: WebScraping.AI AI API
   slug: webscraping-ai-ai-api
-- description: Get full HTML content of pages using proxies and Chromium JS rendering
+- baseURL: https://api.webscraping.ai
+  baseurl_source: declared
+  description: Get full HTML content of pages using proxies and Chromium JS rendering
   name: WebScraping.AI HTML API
   slug: webscraping-ai-html-api
-- description: Get HTML content of selected page areas (like price, search results, page title, etc.)
+- baseURL: https://api.webscraping.ai
+  baseurl_source: declared
+  description: Get HTML content of selected page areas (like price, search results, page title, etc.)
   name: WebScraping.AI Selected HTML API
   slug: webscraping-ai-selected-html-api
-- description: Get visible text of pages using proxies and Chromium JS rendering
+- baseURL: https://api.webscraping.ai
+  baseurl_source: declared
+  description: Get visible text of pages using proxies and Chromium JS rendering
   name: WebScraping.AI Text API
   slug: webscraping-ai-text-api
 artifact_total: 18
@@ -302,7 +312,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/screenshots/webscraping-ai-2026-06-20T201335.png
 security:

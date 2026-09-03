@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
 - description: Standard Ethereum JSON-RPC endpoint for Mantle mainnet (chain ID 5000). Used by wallets, dApps, indexers, and tooling to read chain state and submit transactions on the Mantle L2.
@@ -158,7 +158,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -168,9 +168,9 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 32.2
+  previous_composite: 32.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/screenshots/mantle-network-2026-06-20T184930.png
 security:

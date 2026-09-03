@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 96 operations · 42 acting
 api_count: 1
 apis:
-- description: 'Helper methods and internal APIs for editor authentication. # TAGLINE'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: 'Helper methods and internal APIs for editor authentication. # TAGLINE'
   name: Fatcat auth API
   slug: fatcat-auth-api
-- description: 'The **Changelog** is the ordered feed of editgroups which have been # TAGLINE accepted into the catalog. # TAGLINE'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: 'The **Changelog** is the ordered feed of editgroups which have been # TAGLINE accepted into the catalog. # TAGLINE'
   name: Fatcat changelog API
   slug: fatcat-changelog-api
-- description: '**Container** entities represent publication venues like journals, # TAGLINE conference proceedings, book series, or blogs. They group publications # TAGLINE ("releases"). # TAGLINE See the "Catalog S'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Container** entities represent publication venues like journals, # TAGLINE conference proceedings, book series, or blogs. They group publications # TAGLINE ("releases"). # TAGLINE See the "Catalog S'
   name: Fatcat containers API
   slug: fatcat-containers-api
-- description: '**Creator** entities represent individuals (or organizations, or other # TAGLINE agents) who contribute to the creation of specific releases # TAGLINE (publications). # TAGLINE See the "Catalog Style '
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Creator** entities represent individuals (or organizations, or other # TAGLINE agents) who contribute to the creation of specific releases # TAGLINE (publications). # TAGLINE See the "Catalog Style '
   name: Fatcat creators API
   slug: fatcat-creators-api
-- description: '**Editgroups** are sets of changes, each to individual entities in the # TAGLINE catalog. Every edit must be part of an editgroup which is reviewed and # TAGLINE accepted (merged) as a whole. # TAGLIN'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Editgroups** are sets of changes, each to individual entities in the # TAGLINE catalog. Every edit must be part of an editgroup which is reviewed and # TAGLINE accepted (merged) as a whole. # TAGLIN'
   name: Fatcat editgroups API
   slug: fatcat-editgroups-api
-- description: '**Editors** are human user accounts and bots that make changes to the # TAGLINE Fatcat catalog. # TAGLINE The API allows fetching (and updating) metadata about individual editors, # TAGLINE as well as'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Editors** are human user accounts and bots that make changes to the # TAGLINE Fatcat catalog. # TAGLINE The API allows fetching (and updating) metadata about individual editors, # TAGLINE as well as'
   name: Fatcat editors API
   slug: fatcat-editors-api
-- description: '**File** entities represent unique digital files which are full # TAGLINE manifestations of specific releases (publications), such as fulltext PDF # TAGLINE files, JATS XML documents, or video files. '
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**File** entities represent unique digital files which are full # TAGLINE manifestations of specific releases (publications), such as fulltext PDF # TAGLINE files, JATS XML documents, or video files. '
   name: Fatcat files API
   slug: fatcat-files-api
-- description: '**Fileset** entities represent sets of digital files, as well as locations # TAGLINE where they can be found on the public web. Filesets most commonly # TAGLINE represent datasets consisting of severa'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Fileset** entities represent sets of digital files, as well as locations # TAGLINE where they can be found on the public web. Filesets most commonly # TAGLINE represent datasets consisting of severa'
   name: Fatcat filesets API
   slug: fatcat-filesets-api
-- description: '**Release** entities represent specific published versions of a research # TAGLINE work, such as a pre-print, a journal article, a book (or chapter), or a # TAGLINE scholarly blog post. Releases are a'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Release** entities represent specific published versions of a research # TAGLINE work, such as a pre-print, a journal article, a book (or chapter), or a # TAGLINE scholarly blog post. Releases are a'
   name: Fatcat releases API
   slug: fatcat-releases-api
-- description: '**Web Capture** entities represent archival snapshots of web pages (or # TAGLINE other web resources), which are usually complete manifestations of a # TAGLINE specific release entity. Web Captures al'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Web Capture** entities represent archival snapshots of web pages (or # TAGLINE other web resources), which are usually complete manifestations of a # TAGLINE specific release entity. Web Captures al'
   name: Fatcat webcaptures API
   slug: fatcat-webcaptures-api
-- description: '**Work** entities group several Release entities which are different # TAGLINE versions of the same abstract piece of research. For example, three # TAGLINE release entities representing the pre-print'
+- baseURL: https://api.fatcat.wiki/v0
+  baseurl_source: declared
+  description: '**Work** entities group several Release entities which are different # TAGLINE versions of the same abstract piece of research. For example, three # TAGLINE release entities representing the pre-print'
   name: Fatcat works API
   slug: fatcat-works-api
 artifact_total: 40
@@ -248,7 +270,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

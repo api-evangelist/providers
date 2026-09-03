@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The off-chain Gondi GraphQL API (api.gondi.xyz/graphql) is the order/offer book and indexing layer behind the Gondi NFT lending protocol. It exposes 76 queries and 48 mutations across 325 types: Sign-'
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gondi/refs/heads/main/screenshots/gondi-2026-07-25T220037.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -34,106 +47,174 @@ agentic_access:
   summary_line: 70 operations · 52 acting
 api_count: 22
 apis:
-- description: Operations to verify the age of a user.
+- baseURL_template: '{apiRoot}/kyc-age-verification/v0.2'
+  baseurl_source: spec_template
+  description: Operations to verify the age of a user.
   name: GSMA Open Gateway Age Verification API
   slug: open-gateway-age-verification-api
-- description: Operations for ApiProduct Resource
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Operations for ApiProduct Resource
   name: GSMA Open Gateway API Product API
   slug: open-gateway-apiproduct-api
-- description: Operations for ApiProductOrder Resource
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Operations for ApiProductOrder Resource
   name: GSMA Open Gateway API Product Order API
   slug: open-gateway-apiproductorder-api
-- description: Operations for Application Resource
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Operations for Application Resource
   name: GSMA Open Gateway Application API
   slug: open-gateway-application-api
-- description: Operations for ApplicationOwner Resource
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Operations for ApplicationOwner Resource
   name: GSMA Open Gateway Application Owner API
   slug: open-gateway-applicationowner-api
-- description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
+- baseURL_template: '{apiRoot}/call-forwarding-signal/v0.4'
+  baseurl_source: spec_template
+  description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
   name: GSMA Open Gateway Call Forwarding information retrieval API
   slug: open-gateway-call-forwarding-information-retrieval-api
-- description: Validate if the SIM of the end-user has been installed in a different device during a past period
+- baseURL_template: '{apiRoot}/device-swap/v1'
+  baseurl_source: spec_template
+  description: Validate if the SIM of the end-user has been installed in a different device during a past period
   name: GSMA Open Gateway Check Device Swap API
   slug: open-gateway-check-device-swap-api
-- description: The Check SIM swap API from GSMA Open Gateway — 1 operation(s) for check sim swap.
+- baseURL_template: '{apiRoot}/sim-swap/v2'
+  baseurl_source: spec_template
+  description: The Check SIM swap API from GSMA Open Gateway — 1 operation(s) for check sim swap.
   name: GSMA Open Gateway Check SIM swap API
   slug: open-gateway-check-sim-swap-api
-- description: Check details about the length of tenure of the subscriber
+- baseURL_template: '{apiRoot}/kyc-tenure/v0.2'
+  baseurl_source: spec_template
+  description: Check details about the length of tenure of the subscriber
   name: GSMA Open Gateway Check Subscriber Tenure API
   slug: open-gateway-check-subscriber-tenure-api
-- description: Operations to get the network type device is connected to
+- baseURL_template: '{apiRoot}/connected-network-type/v0.1'
+  baseurl_source: spec_template
+  description: Operations to get the network type device is connected to
   name: GSMA Open Gateway Connected Network Type API
   slug: open-gateway-connected-network-type-api
-- description: Operations to get the current reachability status of a device
+- baseURL_template: '{apiRoot}/device-reachability-status/v1'
+  baseurl_source: spec_template
+  description: Operations to get the current reachability status of a device
   name: GSMA Open Gateway Device reachability status API
   slug: open-gateway-device-reachability-status-api
-- description: Operation to manage event subscription on device reachability status event.
+- baseURL_template: '{apiRoot}/device-reachability-status-subscriptions/v0.8'
+  baseurl_source: spec_template
+  description: Operation to manage event subscription on device reachability status event.
   name: GSMA Open Gateway Device reachability status subscription API
   slug: open-gateway-device-reachability-status-subscription-api
-- description: Find the closest Edge Cloud Zone to the user device.
+- baseURL_template: '{apiRoot}/simple-edge-discovery/v2'
+  baseurl_source: spec_template
+  description: Find the closest Edge Cloud Zone to the user device.
   name: GSMA Open Gateway Discovery API
   slug: open-gateway-discovery-api
-- description: Endpoints to register and terminate an Event Listener
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Endpoints to register and terminate an Event Listener
   name: GSMA Open Gateway events subscription API
   slug: open-gateway-events-subscription-api
-- description: Retrieve details about the device being used by a mobile subscriber
+- baseURL_template: '{apiRoot}/device-identifier/v0.3'
+  baseurl_source: spec_template
+  description: Retrieve details about the device being used by a mobile subscriber
   name: GSMA Open Gateway Get Device Identifiers API
   slug: open-gateway-get-device-identifiers-api
-- description: QoD control operations for home devices
+- baseURL_template: '{apiRoot}/home-devices-qod/v0.4'
+  baseurl_source: spec_template
+  description: QoD control operations for home devices
   name: GSMA Open Gateway Home Devices QoD API
   slug: open-gateway-home-devices-qod-api
-- description: Retrieve the location of a device
+- baseURL_template: '{apiRoot}/location-retrieval/v0.5'
+  baseurl_source: spec_template
+  description: Retrieve the location of a device
   name: GSMA Open Gateway Location retrieval API
   slug: open-gateway-location-retrieval-api
-- description: Verification of the location of a device
+- baseURL_template: '{apiRoot}/location-verification/v3'
+  baseurl_source: spec_template
+  description: Verification of the location of a device
   name: GSMA Open Gateway Location verification API
   slug: open-gateway-location-verification-api
-- description: Operations to match a customer identity against the account data bound to their phone number.
+- baseURL_template: '{apiRoot}/kyc-match/v0.4'
+  baseurl_source: spec_template
+  description: Operations to match a customer identity against the account data bound to their phone number.
   name: GSMA Open Gateway Match API
   slug: open-gateway-match-api
-- description: Operations for Monitor Resource
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Operations for Monitor Resource
   name: GSMA Open Gateway Monitor API
   slug: open-gateway-monitor-api
-- description: Notifications for Resource Lifecycle and event notifications
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Notifications for Resource Lifecycle and event notifications
   name: GSMA Open Gateway notification listener API
   slug: open-gateway-notification-listener-api
-- description: Operations to manage One Step Payment procedure
+- baseURL_template: '{apiRoot}/carrier-billing/v0.5'
+  baseurl_source: spec_template
+  description: Operations to manage One Step Payment procedure
   name: GSMA Open Gateway One Step Payment API
   slug: open-gateway-one-step-payment-api
-- description: API operations to manage OTP codes
+- baseURL_template: '{apiRoot}/one-time-password-sms/v1'
+  baseurl_source: spec_template
+  description: API operations to manage OTP codes
   name: GSMA Open Gateway OTP Management API
   slug: open-gateway-otp-management-api
-- description: Operations to obtain information about payments
+- baseURL_template: '{apiRoot}/carrier-billing/v0.5'
+  baseurl_source: spec_template
+  description: Operations to obtain information about payments
   name: GSMA Open Gateway Payment API
   slug: open-gateway-payment-api
-- description: API operation to return the phone number associated to the access token.
+- baseURL_template: '{apiRoot}/number-verification/v2'
+  baseurl_source: spec_template
+  description: API operation to return the phone number associated to the access token.
   name: GSMA Open Gateway Phone number share API
   slug: open-gateway-phone-number-share-api
-- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+- baseURL_template: '{apiRoot}/number-verification/v2'
+  baseurl_source: spec_template
+  description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: GSMA Open Gateway Phone number verify API
   slug: open-gateway-phone-number-verify-api
-- description: Operations to retrieve population density information.
+- baseURL_template: '{apiRoot}/population-density-data/v0.3'
+  baseurl_source: spec_template
+  description: Operations to retrieve population density information.
   name: GSMA Open Gateway Population Density Data API
   slug: open-gateway-population-density-data-api
-- description: Manage QoS Profiles
+- baseURL_template: '{apiRoot}/qos-profiles/v1'
+  baseurl_source: spec_template
+  description: Manage QoS Profiles
   name: GSMA Open Gateway QoS Profiles API
   slug: open-gateway-qos-profiles-api
-- description: Manage QoS sessions
+- baseURL_template: '{apiRoot}/quality-on-demand/v1'
+  baseurl_source: spec_template
+  description: Manage QoS sessions
   name: GSMA Open Gateway QoS Sessions API
   slug: open-gateway-qos-sessions-api
-- description: Receive the last date in which the device of the end-user was swapped
+- baseURL_template: '{apiRoot}/device-swap/v1'
+  baseurl_source: spec_template
+  description: Receive the last date in which the device of the end-user was swapped
   name: GSMA Open Gateway Retrieve Device Swap Date API
   slug: open-gateway-retrieve-device-swap-date-api
-- description: The Retrieve SIM swap date API from GSMA Open Gateway — 1 operation(s) for retrieve sim swap date.
+- baseURL_template: '{apiRoot}/sim-swap/v2'
+  baseurl_source: spec_template
+  description: The Retrieve SIM swap date API from GSMA Open Gateway — 1 operation(s) for retrieve sim swap date.
   name: GSMA Open Gateway Retrieve SIM swap date API
   slug: open-gateway-retrieve-sim-swap-date-api
-- description: Operation to get device roaming status and country information (if roaming) synchronously
+- baseURL_template: '{apiRoot}/device-roaming-status/v1'
+  baseurl_source: spec_template
+  description: Operation to get device roaming status and country information (if roaming) synchronously
   name: GSMA Open Gateway Roaming status retrieval API
   slug: open-gateway-roaming-status-retrieval-api
-- description: Operations to manage Two Step Payment procedure
+- baseURL_template: '{apiRoot}/carrier-billing/v0.5'
+  baseurl_source: spec_template
+  description: Operations to manage Two Step Payment procedure
   name: GSMA Open Gateway Two Step Payment API
   slug: open-gateway-two-step-payment-api
-- description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
+- baseURL_template: '{apiRoot}/call-forwarding-signal/v0.4'
+  baseurl_source: spec_template
+  description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: GSMA Open Gateway Unconditional Call Forwarding information retrieval API
   slug: open-gateway-unconditional-call-forwarding-information-retrieval-api
 artifact_total: 62
@@ -504,7 +585,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -514,7 +595,7 @@ score:
     discoverability: 77.8
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -532,7 +613,7 @@ score:
     regime_id: telecommunications
     score: 69.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png
 security:

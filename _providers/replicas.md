@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 99 operations · 57 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Read aggregated activity and usage metrics for your organization: compute minutes, workspaces created by source, and pull request throughput over a time range.'
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: 'Read aggregated activity and usage metrics for your organization: compute minutes, workspaces created by source, and pull request throughput over a time range.'
   name: Replicas Analytics API
   slug: replicas-analytics-api
-- description: The API Keys API from Replicas — 2 operation(s) for api keys.
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: The API Keys API from Replicas — 2 operation(s) for api keys.
   name: Replicas API Keys API
   slug: replicas-api-keys-api
-- description: Create and manage automations that trigger replicas on a schedule or in response to events
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Create and manage automations that trigger replicas on a schedule or in response to events
   name: Replicas Automation API
   slug: replicas-automation-api
-- description: Manage coding-agent credentials for an organization or the authenticated user
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Manage coding-agent credentials for an organization or the authenticated user
   name: Replicas Credentials API
   slug: replicas-credentials-api
-- description: Download Replicas applications
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Download Replicas applications
   name: Replicas Downloads API
   slug: replicas-downloads-api
-- description: Manage environments — the primitive that workspaces are created from. Variables, files, skills, MCPs, warm-hooks, and warm-pools are all scoped to an environment. Every organization has a singleton Gl
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Manage environments — the primitive that workspaces are created from. Variables, files, skills, MCPs, warm-hooks, and warm-pools are all scoped to an environment. Every organization has a singleton Gl
   name: Replicas Environments API
   slug: replicas-environments-api
-- description: Read Search Console properties, performance, sitemaps, and URL inspection results through a connected Google account
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Read Search Console properties, performance, sitemaps, and URL inspection results through a connected Google account
   name: Replicas Google Search Console API
   slug: replicas-google-search-console-api
-- description: Manage public preview URLs for workspace ports
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Manage public preview URLs for workspace ports
   name: Replicas Preview API
   slug: replicas-preview-api
-- description: Read and update the authenticated user's profile
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Read and update the authenticated user's profile
   name: Replicas Profile API
   slug: replicas-profile-api
-- description: Manage replicas (workspaces) for AI agents
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Manage replicas (workspaces) for AI agents
   name: Replicas Replica API
   slug: replicas-replica-api
-- description: Read repositories and repository sets connected to your organization. Repositories are the underlying GitHub-connection layer; bind them to an environment to use them in workspaces.
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Read repositories and repository sets connected to your organization. Repositories are the underlying GitHub-connection layer; bind them to an environment to use them in workspaces.
   name: Replicas Repository API
   slug: replicas-repository-api
-- description: Route Slack threads to Replicas workspaces
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Route Slack threads to Replicas workspaces
   name: Replicas Slack API
   slug: replicas-slack-api
-- description: Manage interactive terminal sessions in active workspaces
+- baseURL: https://api.tryreplicas.com
+  baseurl_source: declared
+  description: Manage interactive terminal sessions in active workspaces
   name: Replicas Terminal API
   slug: replicas-terminal-api
 artifact_total: 32
@@ -277,7 +303,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -287,7 +313,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 51.8
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +325,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicas/refs/heads/main/screenshots/replicas-2026-08-17T081523.png
 security:

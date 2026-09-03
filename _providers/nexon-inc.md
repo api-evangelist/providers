@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Programmatic access to per-game data (character, ranking, match, and metadata) for Nexon titles. Authenticated with a per-application API key sent in the x-nxopen-api-key HTTP header. Versioned resour
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexon-inc/refs/heads/main/screenshots/nexon-inc-2026-08-07T185157.png
 security:

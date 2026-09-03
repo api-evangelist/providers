@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: The Submission API allows third-party systems to submit filings and other regulatory data to FINRA via a standard submission interface.
   name: FINRA Submission API
   slug: submission-api
-- description: The Async API from FINRA — 1 operation(s) for async.
+- baseURL: https://api.finra.org
+  baseurl_source: spec
+  description: The Async API from FINRA — 1 operation(s) for async.
   name: FINRA Async API
   slug: finra-async-api
-- description: The Datasets API from FINRA — 3 operation(s) for datasets.
+- baseURL: https://api.finra.org
+  baseurl_source: spec
+  description: The Datasets API from FINRA — 3 operation(s) for datasets.
   name: FINRA Datasets API
   slug: finra-datasets-api
-- description: The Metadata API from FINRA — 1 operation(s) for metadata.
+- baseURL: https://api.finra.org
+  baseurl_source: spec
+  description: The Metadata API from FINRA — 1 operation(s) for metadata.
   name: FINRA Metadata API
   slug: finra-metadata-api
-- description: The Partitions API from FINRA — 1 operation(s) for partitions.
+- baseURL: https://api.finra.org
+  baseurl_source: spec
+  description: The Partitions API from FINRA — 1 operation(s) for partitions.
   name: FINRA Partitions API
   slug: finra-partitions-api
 artifact_total: 18
@@ -209,7 +217,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finra/refs/heads/main/screenshots/finra-2026-06-20T181223.png
 security:

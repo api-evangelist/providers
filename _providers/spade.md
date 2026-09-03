@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 73 operations · 51 acting
 api_count: 1
 apis:
-- description: Enrich card transactions
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Enrich card transactions
   name: Spade Card Enrichment API
   slug: spade-card-enrichment-api
-- description: Register category action triggers and receive triggered actions in enrichment responses
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Register category action triggers and receive triggered actions in enrichment responses
   name: Spade Category Action Triggers API
   slug: spade-category-action-triggers-api
-- description: Create custom categories and personalize enrichments
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Create custom categories and personalize enrichments
   name: Spade Category Personalization API
   slug: spade-category-personalization-api
-- description: Provide feedback on card events or report enrichment errors
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Provide feedback on card events or report enrichment errors
   name: Spade Feedback and Reporting API
   slug: spade-feedback-and-reporting-api
-- description: Register merchant action triggers and receive triggered actions in enrichment responses
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Register merchant action triggers and receive triggered actions in enrichment responses
   name: Spade Merchant Action Triggers API
   slug: spade-merchant-action-triggers-api
-- description: Search for Spade merchants
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Search for Spade merchants
   name: Spade Merchant Search API
   slug: spade-merchant-search-api
-- description: Enrich transfers
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: Enrich transfers
   name: Spade Transfer Enrichment API
   slug: spade-transfer-enrichment-api
-- description: The Universal Enrichment API from Spade — 3 operation(s) for universal enrichment.
+- baseURL: https://east.api.spade.com
+  baseurl_source: declared
+  description: The Universal Enrichment API from Spade — 3 operation(s) for universal enrichment.
   name: Spade Universal Enrichment API
   slug: spade-universal-enrichment-api
 artifact_total: 26
@@ -286,7 +302,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -296,7 +312,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 69.9
+  previous_composite: 69.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,7 +334,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spade/refs/heads/main/screenshots/spade-2026-08-17T080423.png
 security:

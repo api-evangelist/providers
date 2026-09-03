@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,16 +38,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The REST-native second generation of the TextQL Platform API. Standard HTTP methods, resource IDs in the path, query-parameter filtering and cursor pagination, a plain JSON error envelope, and SSE str
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The REST-native second generation of the TextQL Platform API. Standard HTTP methods, resource IDs in the path, query-parameter filtering and cursor pagination, a plain JSON error envelope, and SSE str
   name: TextQL v2 API
   slug: textql-v2-api
-- description: The first-generation TextQL Platform API, exposed as Connect-RPC over HTTP POST. Documented as deprecated in favour of the v2 REST API but still published and served. Covers chat execution and streami
+- baseURL: https://app.textql.com/v1
+  baseurl_source: declared
+  description: The first-generation TextQL Platform API, exposed as Connect-RPC over HTTP POST. Documented as deprecated in favour of the v2 REST API but still published and served. Covers chat execution and streami
   name: TextQL Platform API (v1)
   slug: textql-platform-api-v1
-- description: The full public Connect-RPC surface of the TextQL platform, generated from the protobuf service definitions and published with code samples. 407 operations across twenty services — dashboards, connect
+- baseURL: https://app.textql.com/rpc/public
+  baseurl_source: declared
+  description: The full public Connect-RPC surface of the TextQL platform, generated from the protobuf service definitions and published with code samples. 407 operations across twenty services — dashboards, connect
   name: TextQL Public RPC API
   slug: textql-public-rpc-api
 - description: TextQL's hosted, remote Model Context Protocol server. Any MCP-compatible client — Claude, Claude Code, Cursor, Windsurf, ChatGPT, Microsoft Copilot — points at the endpoint, authorizes once over OAut
@@ -234,7 +254,7 @@ score:
   band: strong
   composite: 57.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -259,8 +279,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/screenshots/textql-2026-09-02T163306.png
 security:
 - kind: authentication
   name: Textql Authentication

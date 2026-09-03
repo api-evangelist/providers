@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
-- description: The fullHashes:find API from Google Safe Browsing — 1 operation(s) for fullhashes:find.
+- baseURL: https://safebrowsing.googleapis.com/v4
+  baseurl_source: declared
+  description: The fullHashes:find API from Google Safe Browsing — 1 operation(s) for fullhashes:find.
   name: Google Safe Browsing fullHashes:find API
   slug: google-safe-browsing-fullhashes-find-api
-- description: The threatLists API from Google Safe Browsing — 1 operation(s) for threatlists.
+- baseURL: https://safebrowsing.googleapis.com/v4
+  baseurl_source: declared
+  description: The threatLists API from Google Safe Browsing — 1 operation(s) for threatlists.
   name: Google Safe Browsing threatLists API
   slug: google-safe-browsing-threatlists-api
-- description: The threatListUpdates:fetch API from Google Safe Browsing — 1 operation(s) for threatlistupdates:fetch.
+- baseURL: https://safebrowsing.googleapis.com/v4
+  baseurl_source: declared
+  description: The threatListUpdates:fetch API from Google Safe Browsing — 1 operation(s) for threatlistupdates:fetch.
   name: Google Safe Browsing threatListUpdates:fetch API
   slug: google-safe-browsing-threatlistupdates-fetch-api
-- description: The threatMatches:find API from Google Safe Browsing — 1 operation(s) for threatmatches:find.
+- baseURL: https://safebrowsing.googleapis.com/v4
+  baseurl_source: declared
+  description: The threatMatches:find API from Google Safe Browsing — 1 operation(s) for threatmatches:find.
   name: Google Safe Browsing threatMatches:find API
   slug: google-safe-browsing-threatmatches-find-api
 artifact_total: 24
@@ -224,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/screenshots/google-safe-browsing-2026-06-20T182229.png
 security:

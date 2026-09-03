@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 60 operations · 28 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Inventory availability, levels, and plannings.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Inventory availability, levels, and plannings.
   name: Booqable Availability API
   slug: booqable-availability-api
-- description: Merchandising groups and store collections.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Merchandising groups and store collections.
   name: Booqable Bundles & Collections API
   slug: booqable-bundles-collections-api
-- description: People and companies that place orders.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: People and companies that place orders.
   name: Booqable Customers API
   slug: booqable-customers-api
-- description: Invoices, quotes, contracts, and payments.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Invoices, quotes, contracts, and payments.
   name: Booqable Documents API
   slug: booqable-documents-api
-- description: Booking, starting, stopping, and transitioning orders and their lines.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Booking, starting, stopping, and transitioning orders and their lines.
   name: Booqable Order Fulfillment API
   slug: booqable-order-fulfillment-api
-- description: Rental orders and their lifecycle.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Rental orders and their lifecycle.
   name: Booqable Orders API
   slug: booqable-orders-api
-- description: Parent records grouping product variations.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Parent records grouping product variations.
   name: Booqable Product Groups API
   slug: booqable-product-groups-api
-- description: Rentable and sellable catalog products.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Rentable and sellable catalog products.
   name: Booqable Products API
   slug: booqable-products-api
-- description: Locations, tax rates, coupons, employees, and notes.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Locations, tax rates, coupons, employees, and notes.
   name: Booqable Settings API
   slug: booqable-settings-api
-- description: Individually identifiable units of trackable products.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Individually identifiable units of trackable products.
   name: Booqable Stock Items API
   slug: booqable-stock-items-api
-- description: Event subscriptions delivering HTTPS callbacks.
+- baseURL: https://{company}.booqable.com/api/4
+  baseurl_source: declared
+  description: Event subscriptions delivering HTTPS callbacks.
   name: Booqable Webhooks API
   slug: booqable-webhooks-api
 artifact_total: 31
@@ -219,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/screenshots/booqable-2026-07-25T203619.png
 security:

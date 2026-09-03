@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -45,37 +45,59 @@ agentic_access:
   summary_line: 35 operations · 21 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: User activity reporting.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: User activity reporting.
   name: JupyterHub Activity API
   slug: jupyterhub-activity-api
-- description: Administrative operations.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: Administrative operations.
   name: JupyterHub Admin API
   slug: jupyterhub-admin-api
-- description: Token and cookie verification.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: Token and cookie verification.
   name: JupyterHub Authorizations API
   slug: jupyterhub-authorizations-api
-- description: Hub identity and information.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: Hub identity and information.
   name: JupyterHub General API
   slug: jupyterhub-general-api
-- description: User group management.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: User group management.
   name: JupyterHub Groups API
   slug: jupyterhub-groups-api
-- description: OAuth2 authorization endpoints.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: OAuth2 authorization endpoints.
   name: JupyterHub OAuth2 API
   slug: jupyterhub-oauth2-api
-- description: Configurable HTTP proxy management.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: Configurable HTTP proxy management.
   name: JupyterHub Proxy API
   slug: jupyterhub-proxy-api
-- description: Single-user server lifecycle.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: Single-user server lifecycle.
   name: JupyterHub Servers API
   slug: jupyterhub-servers-api
-- description: Hub-managed services.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: Hub-managed services.
   name: JupyterHub Services API
   slug: jupyterhub-services-api
-- description: API token management for users.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: API token management for users.
   name: JupyterHub Tokens API
   slug: jupyterhub-tokens-api
-- description: User account management.
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: User account management.
   name: JupyterHub Users API
   slug: jupyterhub-users-api
 artifact_total: 37
@@ -295,7 +317,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/screenshots/jupyterhub-2026-06-20T183841.png
 security:

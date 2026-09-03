@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 2 acting
 api_count: 2
 apis:
-- description: The Accounts API from Bank of America — 2 operation(s) for accounts.
+- baseURL: https://api.bankofamerica.com/cashpro/v1
+  baseurl_source: declared
+  description: The Accounts API from Bank of America — 2 operation(s) for accounts.
   name: Bank of America Accounts API
   slug: bank-of-america-accounts-api
-- description: The Balances API from Bank of America — 1 operation(s) for balances.
+- baseURL: https://api.bankofamerica.com/cashpro/v1
+  baseurl_source: declared
+  description: The Balances API from Bank of America — 1 operation(s) for balances.
   name: Bank of America Balances API
   slug: bank-of-america-balances-api
-- description: Banking operations
+- baseURL: https://api.bankofamerica.com/cashpro/v1
+  baseurl_source: declared
+  description: Banking operations
   name: Bank of America Banking API
   slug: bank-of-america-banking-api
-- description: The Payments API from Bank of America — 2 operation(s) for payments.
+- baseURL: https://api.bankofamerica.com/cashpro/v1
+  baseurl_source: declared
+  description: The Payments API from Bank of America — 2 operation(s) for payments.
   name: Bank of America Payments API
   slug: bank-of-america-payments-api
-- description: The Statements API from Bank of America — 2 operation(s) for statements.
+- baseURL: https://api.bankofamerica.com/cashpro/v1
+  baseurl_source: declared
+  description: The Statements API from Bank of America — 2 operation(s) for statements.
   name: Bank of America Statements API
   slug: bank-of-america-statements-api
-- description: The Transactions API from Bank of America — 1 operation(s) for transactions.
+- baseURL: https://api.bankofamerica.com/cashpro/v1
+  baseurl_source: declared
+  description: The Transactions API from Bank of America — 1 operation(s) for transactions.
   name: Bank of America Transactions API
   slug: bank-of-america-transactions-api
 artifact_total: 87
@@ -420,7 +432,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png
 security:

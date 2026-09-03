@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 22 operations · 5 acting
 api_count: 1
 apis:
-- description: '### Introduction Welcome to Engine by MoneyLion''s Integration Guide for our Supply Analytics data product, which provides funnel, payout and client tag data on specific leads and lead segments to bett'
+- baseURL: https://api.engine.tech
+  baseurl_source: declared
+  description: '### Introduction Welcome to Engine by MoneyLion''s Integration Guide for our Supply Analytics data product, which provides funnel, payout and client tag data on specific leads and lead segments to bett'
   name: Even Financial Analytics API
   slug: even-financial-analytics-api
-- description: Approval probability reports contains data about the likelihood that a user with specified attributes will be approved for particular product offers. The user attributes are passed in the request's `P
+- baseURL: https://api.engine.tech
+  baseurl_source: declared
+  description: Approval probability reports contains data about the likelihood that a user with specified attributes will be approved for particular product offers. The user attributes are passed in the request's `P
   name: Even Financial Approval Probability API
   slug: even-financial-approval-probability-api
-- description: A lead combines information about a user with search criteria for financial products, and is submitted in exchange for a rate table. A rate table is a list of financial offers that match a submitted l
+- baseURL: https://api.engine.tech
+  baseurl_source: declared
+  description: A lead combines information about a user with search criteria for financial products, and is submitted in exchange for a rate table. A rate table is a list of financial offers that match a submitted l
   name: Even Financial Lead API
   slug: even-financial-lead-api
-- description: 'Preview offers are matched based upon a simple set of anonymous criteria and as a result are not personalized. This is useful if you''d like to display offers without requesting personalized data. For '
+- baseURL: https://api.engine.tech
+  baseurl_source: declared
+  description: 'Preview offers are matched based upon a simple set of anonymous criteria and as a result are not personalized. This is useful if you''d like to display offers without requesting personalized data. For '
   name: Even Financial Offer Preview API
   slug: even-financial-offer-preview-api
-- description: The Prefill API from Even Financial — 2 operation(s) for prefill.
+- baseURL: https://api.engine.tech
+  baseurl_source: declared
+  description: The Prefill API from Even Financial — 2 operation(s) for prefill.
   name: Even Financial Prefill API
   slug: even-financial-prefill-api
-- description: A collection of endpoints that can be used to improve a search experience.
+- baseURL: https://api.engine.tech
+  baseurl_source: declared
+  description: A collection of endpoints that can be used to improve a search experience.
   name: Even Financial UI Utils API
   slug: even-financial-ui-utils-api
 arazzos:
@@ -234,7 +246,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -244,7 +256,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 49.0
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,7 +274,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:

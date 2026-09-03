@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Operations related to user's note history.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations related to user's note history.
   name: HackMD History API
   slug: hackmd-history-api
-- description: Operations to retrieve user profile information.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations to retrieve user profile information.
   name: HackMD Profile API
   slug: hackmd-profile-api
-- description: Operations related to folders within a team.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations related to folders within a team.
   name: HackMD Team Folders API
   slug: hackmd-team-folders-api
-- description: Operations related to notes within a team.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations related to notes within a team.
   name: HackMD Team Notes API
   slug: hackmd-team-notes-api
-- description: Operations related to user teams.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations related to user teams.
   name: HackMD Teams API
   slug: hackmd-teams-api
-- description: Operations for listing and restoring trashed notes.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations for listing and restoring trashed notes.
   name: HackMD Trash API
   slug: hackmd-trash-api
-- description: Operations related to a user's personal folders.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations related to a user's personal folders.
   name: HackMD User Folders API
   slug: hackmd-user-folders-api
-- description: Operations related to a user's personal notes.
+- baseURL: https://api.hackmd.io/v1
+  baseurl_source: declared
+  description: Operations related to a user's personal notes.
   name: HackMD User Notes API
   slug: hackmd-user-notes-api
 artifact_total: 21
@@ -264,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hackmd/refs/heads/main/screenshots/hackmd-2026-07-25T220526.png
 security:

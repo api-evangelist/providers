@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 15 operations · 15 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Batch Stem Separation API from LALAL.AI — 3 operation(s) for batch stem separation.
+- baseURL: https://www.lalal.ai
+  baseurl_source: declared
+  description: The Batch Stem Separation API from LALAL.AI — 3 operation(s) for batch stem separation.
   name: LALAL.AI Batch Stem Separation API
   slug: lalal-ai-batch-stem-separation-api
-- description: The Common API from LALAL.AI — 6 operation(s) for common.
+- baseURL: https://www.lalal.ai
+  baseurl_source: declared
+  description: The Common API from LALAL.AI — 6 operation(s) for common.
   name: LALAL.AI Common API
   slug: lalal-ai-common-api
-- description: The Stem Separation API from LALAL.AI — 4 operation(s) for stem separation.
+- baseURL: https://www.lalal.ai
+  baseurl_source: declared
+  description: The Stem Separation API from LALAL.AI — 4 operation(s) for stem separation.
   name: LALAL.AI Stem Separation API
   slug: lalal-ai-stem-separation-api
-- description: The Voice Change API from LALAL.AI — 2 operation(s) for voice change.
+- baseURL: https://www.lalal.ai
+  baseurl_source: declared
+  description: The Voice Change API from LALAL.AI — 2 operation(s) for voice change.
   name: LALAL.AI Voice Change API
   slug: lalal-ai-voice-change-api
 artifact_total: 52
@@ -369,7 +377,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:

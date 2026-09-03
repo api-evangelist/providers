@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Assets encompass all the value that flows through the Flexa platform. In the Flexa API, both national currencies (“fiat“) and digital currencies (“crypto“ or “digital assets“) are returned together in
+- baseURL: https://api.flexa.co
+  baseurl_source: declared
+  description: Assets encompass all the value that flows through the Flexa platform. In the Flexa API, both national currencies (“fiat“) and digital currencies (“crypto“ or “digital assets“) are returned together in
   name: Flexa Assets API
   slug: flexa-assets-api
-- description: Commerce intents offer a versatile way to process digital asset payments from your customers using any sales channel.
+- baseURL: https://api.flexa.co
+  baseurl_source: declared
+  description: Commerce intents offer a versatile way to process digital asset payments from your customers using any sales channel.
   name: Flexa Commerce Intents API
   slug: flexa-commerce-intents-api
-- description: Events are created when any of the core resources on the Flexa platform change in a meaningful way, such as when a commerce intent succeeds or a digital asset transaction is requested. Clients subscri
+- baseURL: https://api.flexa.co
+  baseurl_source: declared
+  description: Events are created when any of the core resources on the Flexa platform change in a meaningful way, such as when a commerce intent succeeds or a digital asset transaction is requested. Clients subscri
   name: Flexa Events API
   slug: flexa-events-api
-- description: Refunds are the only way by which a Flexa payment can be reversed. Refunds are always initiated by the recipient, and can be made for either a partial amount or the full value of the original payment.
+- baseURL: https://api.flexa.co
+  baseurl_source: declared
+  description: Refunds are the only way by which a Flexa payment can be reversed. Refunds are always initiated by the recipient, and can be made for either a partial amount or the full value of the original payment.
   name: Flexa Refunds API
   slug: flexa-refunds-api
 artifact_total: 15
@@ -221,7 +229,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -231,7 +239,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 47.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,7 +257,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexa/refs/heads/main/screenshots/flexa-2026-07-25T214746.png
 security:

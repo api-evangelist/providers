@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,7 +52,9 @@ apis:
 - description: The account-automation surface Albacross's own MIT-licensed n8n community node calls — GET /n8n/me to verify a key, GET /n8n/segments and GET /n8n/buyer_personas to list account objects, and POST/PATC
   name: Albacross n8n Automation API
   slug: albacross-n8n-api
-- description: The Company API from Albacross — 1 operation(s) for company.
+- baseURL: https://api.albacross.com/reveal
+  baseurl_source: declared
+  description: The Company API from Albacross — 1 operation(s) for company.
   name: Albacross Company API
   slug: albacross-company-api
 artifact_total: 10
@@ -236,7 +251,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 9.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -246,7 +261,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 37.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +273,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/screenshots/albacross-2026-08-17T080546.png
 security:
 - kind: authentication

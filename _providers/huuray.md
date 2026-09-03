@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 9 operations · 7 acting
 api_count: 1
 apis:
-- description: The Balance API from Huuray — 1 operation(s) for balance.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Balance API from Huuray — 1 operation(s) for balance.
   name: Huuray Balance API
   slug: huuray-balance-api
-- description: The Cancel API from Huuray — 1 operation(s) for cancel.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Cancel API from Huuray — 1 operation(s) for cancel.
   name: Huuray Cancel API
   slug: huuray-cancel-api
-- description: The Catalogue API from Huuray — 1 operation(s) for catalogue.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Catalogue API from Huuray — 1 operation(s) for catalogue.
   name: Huuray Catalogue API
   slug: huuray-catalogue-api
-- description: The ExchangeRates API from Huuray — 1 operation(s) for exchangerates.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The ExchangeRates API from Huuray — 1 operation(s) for exchangerates.
   name: Huuray ExchangeRates API
   slug: huuray-exchangerates-api
-- description: The Order API from Huuray — 1 operation(s) for order.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Order API from Huuray — 1 operation(s) for order.
   name: Huuray Order API
   slug: huuray-order-api
-- description: The Resend API from Huuray — 1 operation(s) for resend.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Resend API from Huuray — 1 operation(s) for resend.
   name: Huuray Resend API
   slug: huuray-resend-api
-- description: The Search API from Huuray — 1 operation(s) for search.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Search API from Huuray — 1 operation(s) for search.
   name: Huuray Search API
   slug: huuray-search-api
-- description: The Stock API from Huuray — 1 operation(s) for stock.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Stock API from Huuray — 1 operation(s) for stock.
   name: Huuray Stock API
   slug: huuray-stock-api
-- description: The Template API from Huuray — 1 operation(s) for template.
+- baseURL: https://api.huuray.com
+  baseurl_source: declared
+  description: The Template API from Huuray — 1 operation(s) for template.
   name: Huuray Template API
   slug: huuray-template-api
 artifact_total: 26
@@ -197,7 +215,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huuray/refs/heads/main/screenshots/huuray-2026-08-07T182120.png
 security:

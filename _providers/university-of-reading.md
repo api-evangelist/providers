@@ -34,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: 'OAI-PMH 2.0 metadata harvesting interface for CentAUR, the Central Archive at the University of Reading — the institutional repository of the university''s research outputs. Operated by the university '
+- baseURL: https://centaur.reading.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 metadata harvesting interface for CentAUR, the Central Archive at the University of Reading — the institutional repository of the university''s research outputs. Operated by the university '
   name: CentAUR OAI-PMH Metadata API
   slug: centaur-oai-pmh
-- description: OAI-PMH 2.0 metadata harvesting interface for the University of Reading Research Data Archive, the institution's multidisciplinary service for registering, preserving and publishing research datasets.
+- baseURL: https://researchdata.reading.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting interface for the University of Reading Research Data Archive, the institution's multidisciplinary service for registering, preserving and publishing research datasets.
   name: Research Data Archive OAI-PMH Metadata API
   slug: research-data-archive-oai-pmh
-- description: The read-only EPrints REST interface on CentAUR. GET /rest/ returns the dataset index (eprint, user, subject) and GET /rest/eprint/ enumerates every record id — 6.5 MB of ids at probe time — each link
+- baseURL: https://centaur.reading.ac.uk/rest/
+  baseurl_source: declared
+  description: The read-only EPrints REST interface on CentAUR. GET /rest/ returns the dataset index (eprint, user, subject) and GET /rest/eprint/ enumerates every record id — 6.5 MB of ids at probe time — each link
   name: CentAUR Repository REST Listings
   slug: centaur-eprints-rest
-- description: The same read-only EPrints REST interface on the Research Data Archive host. GET /rest/, /rest/eprint/ (47 KB of dataset ids) and /rest/subject/ each returned 200 unauthenticated on 2026-09-01; GET /r
+- baseURL: https://researchdata.reading.ac.uk/rest/
+  baseurl_source: declared
+  description: The same read-only EPrints REST interface on the Research Data Archive host. GET /rest/, /rest/eprint/ (47 KB of dataset ids) and /rest/subject/ each returned 200 unauthenticated on 2026-09-01; GET /r
   name: Research Data Archive REST Listings
   slug: research-data-archive-eprints-rest
 - description: The University of Reading's own SAML identity provider entity, registered in the UK Access Management Federation and published in eduGAIN. entityID https://reading.ac.uk/oala/metadata, OrganizationNam
@@ -215,7 +223,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 17.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -225,7 +233,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 20.5
+  previous_composite: 38.1
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +248,8 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-reading/refs/heads/main/screenshots/university-of-reading-2026-06-20T200222.png
 security:
 - kind: authentication

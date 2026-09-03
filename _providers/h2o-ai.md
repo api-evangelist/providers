@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -37,79 +49,129 @@ apis:
 - description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It runs locally over stdio and proxies traffic to the h2oGPTe REST API, generating one MCP tool per RES
   name: h2oGPTe MCP Server
   slug: h2o-ai-h2ogpte-mcp
-- description: The Admin Sessions API from H2O.ai — 3 operation(s) for admin sessions.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Admin Sessions API from H2O.ai — 3 operation(s) for admin sessions.
   name: H2O.ai Admin Sessions API
   slug: h2o-ai-admin-sessions-api
-- description: The Agents API from H2O.ai — 30 operation(s) for agents.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Agents API from H2O.ai — 30 operation(s) for agents.
   name: H2O.ai Agents API
   slug: h2o-ai-agents-api
-- description: The AI Assistants API from H2O.ai — 30 operation(s) for ai assistants.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The AI Assistants API from H2O.ai — 30 operation(s) for ai assistants.
   name: H2O.ai AI Assistants API
   slug: h2o-ai-ai-assistants-api
-- description: The API Keys API from H2O.ai — 5 operation(s) for api keys.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The API Keys API from H2O.ai — 5 operation(s) for api keys.
   name: H2O.ai API Keys API
   slug: h2o-ai-api-keys-api
-- description: The Chat API from H2O.ai — 29 operation(s) for chat.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Chat API from H2O.ai — 29 operation(s) for chat.
   name: H2O.ai Chat API
   slug: h2o-ai-chat-api
-- description: The Collections API from H2O.ai — 40 operation(s) for collections.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Collections API from H2O.ai — 40 operation(s) for collections.
   name: H2O.ai Collections API
   slug: h2o-ai-collections-api
-- description: The Configurations API from H2O.ai — 12 operation(s) for configurations.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Configurations API from H2O.ai — 12 operation(s) for configurations.
   name: H2O.ai Configurations API
   slug: h2o-ai-configurations-api
-- description: The Document Ingestion API from H2O.ai — 21 operation(s) for document ingestion.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Document Ingestion API from H2O.ai — 21 operation(s) for document ingestion.
   name: H2O.ai Document Ingestion API
   slug: h2o-ai-document-ingestion-api
-- description: The Documents API from H2O.ai — 20 operation(s) for documents.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Documents API from H2O.ai — 20 operation(s) for documents.
   name: H2O.ai Documents API
   slug: h2o-ai-documents-api
-- description: The Extractors API from H2O.ai — 10 operation(s) for extractors.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Extractors API from H2O.ai — 10 operation(s) for extractors.
   name: H2O.ai Extractors API
   slug: h2o-ai-extractors-api
-- description: The Forums API from H2O.ai — 9 operation(s) for forums.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Forums API from H2O.ai — 9 operation(s) for forums.
   name: H2O.ai Forums API
   slug: h2o-ai-forums-api
-- description: The GraphRAG API from H2O.ai — 4 operation(s) for graphrag.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The GraphRAG API from H2O.ai — 4 operation(s) for graphrag.
   name: H2O.ai Graph RAG API
   slug: h2o-ai-graphrag-api
-- description: The Guardrails API from H2O.ai — 4 operation(s) for guardrails.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Guardrails API from H2O.ai — 4 operation(s) for guardrails.
   name: H2O.ai Guardrails API
   slug: h2o-ai-guardrails-api
-- description: The Jobs API from H2O.ai — 6 operation(s) for jobs.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Jobs API from H2O.ai — 6 operation(s) for jobs.
   name: H2O.ai Jobs API
   slug: h2o-ai-jobs-api
-- description: The Memory Blocks API from H2O.ai — 9 operation(s) for memory blocks.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Memory Blocks API from H2O.ai — 9 operation(s) for memory blocks.
   name: H2O.ai Memory Blocks API
   slug: h2o-ai-memory-blocks-api
-- description: The Model API from H2O.ai — 7 operation(s) for model.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Model API from H2O.ai — 7 operation(s) for model.
   name: H2O.ai Model API
   slug: h2o-ai-model-api
-- description: The Models API from H2O.ai — 19 operation(s) for models.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Models API from H2O.ai — 19 operation(s) for models.
   name: H2O.ai Models API
   slug: h2o-ai-models-api
-- description: The Permissions API from H2O.ai — 24 operation(s) for permissions.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Permissions API from H2O.ai — 24 operation(s) for permissions.
   name: H2O.ai Permissions API
   slug: h2o-ai-permissions-api
-- description: The Prompt Templates API from H2O.ai — 11 operation(s) for prompt templates.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Prompt Templates API from H2O.ai — 11 operation(s) for prompt templates.
   name: H2O.ai Prompt Templates API
   slug: h2o-ai-prompt-templates-api
-- description: The Scheduled Tasks API from H2O.ai — 13 operation(s) for scheduled tasks.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Scheduled Tasks API from H2O.ai — 13 operation(s) for scheduled tasks.
   name: H2O.ai Scheduled Tasks API
   slug: h2o-ai-scheduled-tasks-api
-- description: The Secrets API from H2O.ai — 4 operation(s) for secrets.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Secrets API from H2O.ai — 4 operation(s) for secrets.
   name: H2O.ai Secrets API
   slug: h2o-ai-secrets-api
-- description: The Shared Chats API from H2O.ai — 3 operation(s) for shared chats.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Shared Chats API from H2O.ai — 3 operation(s) for shared chats.
   name: H2O.ai Shared Chats API
   slug: h2o-ai-shared-chats-api
-- description: The Showcase API from H2O.ai — 5 operation(s) for showcase.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Showcase API from H2O.ai — 5 operation(s) for showcase.
   name: H2O.ai Showcase API
   slug: h2o-ai-showcase-api
-- description: The System API from H2O.ai — 3 operation(s) for system.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The System API from H2O.ai — 3 operation(s) for system.
   name: H2O.ai System API
   slug: h2o-ai-system-api
-- description: The Tags API from H2O.ai — 3 operation(s) for tags.
+- baseURL: https://h2ogpte.genai.h2o.ai/api/v1
+  baseurl_source: declared
+  description: The Tags API from H2O.ai — 3 operation(s) for tags.
   name: H2O.ai Tags API
   slug: h2o-ai-tags-api
 artifact_total: 58
@@ -379,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:

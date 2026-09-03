@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -50,52 +50,84 @@ apis:
 - description: 'Mezmo''s open-source agentic orchestration framework. Apache 2.0 Rust framework for composing AI agents from declarative TOML config, with MCP tool integration, RAG pipelines (Qdrant, Bedrock KB), and '
   name: AURA Agent Framework
   slug: mezmo-aura
-- description: The AuditEvents API from Mezmo — 1 operation(s) for auditevents.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The AuditEvents API from Mezmo — 1 operation(s) for auditevents.
   name: Mezmo AuditEvents API
   slug: mezmo-auditevents-api
-- description: The Classification API from Mezmo — 3 operation(s) for classification.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Classification API from Mezmo — 3 operation(s) for classification.
   name: Mezmo Classification API
   slug: mezmo-classification-api
-- description: The Deployments API from Mezmo — 2 operation(s) for deployments.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Deployments API from Mezmo — 2 operation(s) for deployments.
   name: Mezmo Deployments API
   slug: mezmo-deployments-api
-- description: The Destinations API from Mezmo — 2 operation(s) for destinations.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Destinations API from Mezmo — 2 operation(s) for destinations.
   name: Mezmo Destinations API
   slug: mezmo-destinations-api
-- description: The EdgeClients API from Mezmo — 2 operation(s) for edgeclients.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The EdgeClients API from Mezmo — 2 operation(s) for edgeclients.
   name: Mezmo EdgeClients API
   slug: mezmo-edgeclients-api
-- description: The Exclusions API from Mezmo — 2 operation(s) for exclusions.
+- baseURL: https://api.mezmo.com
+  baseurl_source: spec
+  description: The Exclusions API from Mezmo — 2 operation(s) for exclusions.
   name: Mezmo Exclusions API
   slug: mezmo-exclusions-api
-- description: Historical log export
+- baseURL: https://api.mezmo.com
+  baseurl_source: spec
+  description: Historical log export
   name: Mezmo Export API
   slug: mezmo-export-api
-- description: The Heartbeats API from Mezmo — 1 operation(s) for heartbeats.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Heartbeats API from Mezmo — 1 operation(s) for heartbeats.
   name: Mezmo Heartbeats API
   slug: mezmo-heartbeats-api
-- description: Log line ingestion
+- baseURL: https://logs.mezmo.com
+  baseurl_source: spec
+  description: Log line ingestion
   name: Mezmo Logs API
   slug: mezmo-logs-api
-- description: The Metrics API from Mezmo — 1 operation(s) for metrics.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Metrics API from Mezmo — 1 operation(s) for metrics.
   name: Mezmo Metrics API
   slug: mezmo-metrics-api
-- description: The Pipelines API from Mezmo — 3 operation(s) for pipelines.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Pipelines API from Mezmo — 3 operation(s) for pipelines.
   name: Mezmo Pipelines API
   slug: mezmo-pipelines-api
-- description: Preset alert configuration
+- baseURL: https://api.mezmo.com
+  baseurl_source: spec
+  description: Preset alert configuration
   name: Mezmo PresetAlerts API
   slug: mezmo-presetalerts-api
-- description: The Processors API from Mezmo — 2 operation(s) for processors.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Processors API from Mezmo — 2 operation(s) for processors.
   name: Mezmo Processors API
   slug: mezmo-processors-api
-- description: The Sources API from Mezmo — 2 operation(s) for sources.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Sources API from Mezmo — 2 operation(s) for sources.
   name: Mezmo Sources API
   slug: mezmo-sources-api
-- description: The Suspension API from Mezmo — 4 operation(s) for suspension.
+- baseURL: https://api.mezmo.com
+  baseurl_source: spec
+  description: The Suspension API from Mezmo — 4 operation(s) for suspension.
   name: Mezmo Suspension API
   slug: mezmo-suspension-api
-- description: The Tasks API from Mezmo — 2 operation(s) for tasks.
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Tasks API from Mezmo — 2 operation(s) for tasks.
   name: Mezmo Tasks API
   slug: mezmo-tasks-api
 artifact_total: 77
@@ -434,18 +466,18 @@ rules:
   slug: mezmo-rules
 score:
   band: developing
-  composite: 54.2
+  composite: 54.0
   coverage:
     artifact_dirs: 15
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 57.6
+    contract_quality: 57.0
     developer_ergonomics: 61.9
     discoverability: 55.6
     governance: 28.8
@@ -459,7 +491,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/screenshots/mezmo-2026-06-20T185318.png
 security:

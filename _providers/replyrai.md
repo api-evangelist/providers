@@ -34,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Replyr.ai — 13 operation(s) for accounts.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The Accounts API from Replyr.ai — 13 operation(s) for accounts.
   name: Replyr.ai Accounts API
   slug: replyrai-accounts-api
-- description: The AI Agents API from Replyr.ai — 5 operation(s) for ai agents.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The AI Agents API from Replyr.ai — 5 operation(s) for ai agents.
   name: Replyr.ai AI Agents API
   slug: replyrai-ai-agents-api
-- description: The Appointment Management API from Replyr.ai — 2 operation(s) for appointment management.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The Appointment Management API from Replyr.ai — 2 operation(s) for appointment management.
   name: Replyr.ai Appointment Management API
   slug: replyrai-appointment-management-api
-- description: The Contacts API from Replyr.ai — 12 operation(s) for contacts.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The Contacts API from Replyr.ai — 12 operation(s) for contacts.
   name: Replyr.ai Contacts API
   slug: replyrai-contacts-api
-- description: The Ecommerce API from Replyr.ai — 6 operation(s) for ecommerce.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The Ecommerce API from Replyr.ai — 6 operation(s) for ecommerce.
   name: Replyr.ai Ecommerce API
   slug: replyrai-ecommerce-api
-- description: The Pipelines API from Replyr.ai — 9 operation(s) for pipelines.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The Pipelines API from Replyr.ai — 9 operation(s) for pipelines.
   name: Replyr.ai Pipelines API
   slug: replyrai-pipelines-api
-- description: The Templates API from Replyr.ai — 1 operation(s) for templates.
+- baseURL: https://app.replyr.ai/api
+  baseurl_source: declared
+  description: The Templates API from Replyr.ai — 1 operation(s) for templates.
   name: Replyr.ai Templates API
   slug: replyrai-templates-api
 artifact_total: 11
@@ -162,7 +176,7 @@ score:
   band: thin
   composite: 27.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +207,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/replyrai/refs/heads/main/screenshots/replyrai-2026-09-02T153511.png
 security:
 - kind: authentication
   name: Replyrai Authentication

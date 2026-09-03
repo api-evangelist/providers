@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,22 +49,34 @@ apis:
 - description: The Interactive Brokers Client Portal API is a REST API accessed through a locally running Java gateway that routes authenticated requests to IBKR systems. It provides a lightweight interface for trad
   name: Interactive Brokers Client Portal API
   slug: client-portal-api
-- description: Account information and management
+- baseURL: https://localhost:5000/v1/api
+  baseurl_source: declared
+  description: Account information and management
   name: Interactive Brokers Accounts API
   slug: interactive-brokers-accounts-api
-- description: Contract and instrument search
+- baseURL: https://localhost:5000/v1/api
+  baseurl_source: declared
+  description: Contract and instrument search
   name: Interactive Brokers Contracts API
   slug: interactive-brokers-contracts-api
-- description: Real-time and historical market data
+- baseURL: https://localhost:5000/v1/api
+  baseurl_source: declared
+  description: Real-time and historical market data
   name: Interactive Brokers Market Data API
   slug: interactive-brokers-market-data-api
-- description: Order placement and management
+- baseURL: https://localhost:5000/v1/api
+  baseurl_source: declared
+  description: Order placement and management
   name: Interactive Brokers Orders API
   slug: interactive-brokers-orders-api
-- description: Portfolio positions and account summaries
+- baseURL: https://localhost:5000/v1/api
+  baseurl_source: declared
+  description: Portfolio positions and account summaries
   name: Interactive Brokers Portfolio API
   slug: interactive-brokers-portfolio-api
-- description: Authentication and session management
+- baseURL: https://localhost:5000/v1/api
+  baseurl_source: declared
+  description: Authentication and session management
   name: Interactive Brokers Sessions API
   slug: interactive-brokers-sessions-api
 artifact_total: 24
@@ -195,7 +207,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -205,7 +217,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 35.3
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 46.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:

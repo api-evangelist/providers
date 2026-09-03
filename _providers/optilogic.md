@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,43 +37,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Optilogic operates a hosted, remote Model Context Protocol server that backs the Ada connector for Claude. An MCP client points at https://mcp.optilogic.app/mcp and authenticates over OAuth 2.1 agains
   name: Optilogic MCP Server (Ada Connector)
   slug: optilogic-mcp-server-ada-connector
-- description: Get authentication keys and client credentials
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Get authentication keys and client credentials
   name: Optilogic Authentication API
   slug: optilogic-authentication-api
-- description: Get information about Andromeda jobs
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Get information about Andromeda jobs
   name: Optilogic Job API
   slug: optilogic-job-api
-- description: Get storage information
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Get storage information
   name: Optilogic Storage API
   slug: optilogic-storage-api
-- description: Manage database custom columns
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Manage database custom columns
   name: 'Optilogic storage : custom columns API'
   slug: optilogic-storage-custom-columns-api
-- description: Manage database custom tables
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Manage database custom tables
   name: 'Optilogic storage : custom tables API'
   slug: optilogic-storage-custom-tables-api
-- description: Manage custom key/value attributes on a storage record
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Manage custom key/value attributes on a storage record
   name: 'Optilogic storage : labels API'
   slug: optilogic-storage-labels-api
-- description: Share, send, and clone databases
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Share, send, and clone databases
   name: 'Optilogic storage : sharing API'
   slug: optilogic-storage-sharing-api
-- description: Manage custom tags on a storage record
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Manage custom tags on a storage record
   name: 'Optilogic storage : tags API'
   slug: optilogic-storage-tags-api
-- description: Get database template information
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Get database template information
   name: 'Optilogic storage : templates API'
   slug: optilogic-storage-templates-api
-- description: A library of tools that solve specific problems
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: A library of tools that solve specific problems
   name: Optilogic Utility API
   slug: optilogic-utility-api
-- description: Get information about a workspace, including job and file information
+- baseURL: https://api.optilogic.app/v0
+  baseurl_source: declared
+  description: Get information about a workspace, including job and file information
   name: Optilogic Workspace API
   slug: optilogic-workspace-api
 artifact_total: 18
@@ -230,7 +265,7 @@ score:
   band: developing
   composite: 47.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -255,8 +290,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/screenshots/optilogic-2026-09-02T150852.png
 security:
 - kind: authentication
   name: Optilogic Authentication

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Query the risk states of enrolled devices and override device risk classifications. JWT bearer auth (15-minute tokens) obtained from Application ID/Secret via HTTP Basic. Base host https://api.wandera
+- baseURL: https://api.wandera.com
+  baseurl_source: declared
+  description: Query the risk states of enrolled devices and override device risk classifications. JWT bearer auth (15-minute tokens) obtained from Application ID/Secret via HTTP Basic. Base host https://api.wandera
   name: Wandera RADAR Risk API
   slug: wandera-radar-risk-api
-- description: Obtain a bearer JWT from Application ID/Secret.
+- baseURL: https://api.wandera.com
+  baseurl_source: declared
+  description: Obtain a bearer JWT from Application ID/Secret.
   name: Wandera Authentication API
   slug: wandera-authentication-api
 artifact_total: 12
@@ -211,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wandera/refs/heads/main/screenshots/wandera-2026-08-17T082834.png
 security:

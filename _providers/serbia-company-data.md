@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,10 +46,14 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The Company API from Serbia Company Data — 2 operation(s) for company.
+- baseURL: https://serbia-company-x402.vercel.app
+  baseurl_source: declared
+  description: The Company API from Serbia Company Data — 2 operation(s) for company.
   name: Serbia Company Data Company API
   slug: serbia-company-data-company-api
-- description: The Search API from Serbia Company Data — 1 operation(s) for search.
+- baseURL: https://serbia-company-x402.vercel.app
+  baseurl_source: declared
+  description: The Search API from Serbia Company Data — 1 operation(s) for search.
   name: Serbia Company Data Search API
   slug: serbia-company-data-search-api
 artifact_total: 17
@@ -184,7 +201,7 @@ score:
   band: thin
   composite: 32.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +233,9 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/serbia-company-data/refs/heads/main/screenshots/serbia-company-data-2026-09-02T154940.png
 security:
 - kind: authentication
   name: Serbia Company Data Authentication

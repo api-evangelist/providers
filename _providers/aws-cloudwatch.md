@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Query API for publishing and retrieving metrics, managing alarms, and configuring dashboards in Amazon CloudWatch. Requests are authenticated with AWS Signature Version 4 (SigV4) using AWS access keys
   name: Amazon CloudWatch API
   slug: monitoring-api
-- description: The Amazon CloudWatch API API from Amazon CloudWatch — 1 operation(s) for amazon cloudwatch api.
+- baseURL: https://monitoring.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon CloudWatch API API from Amazon CloudWatch — 1 operation(s) for amazon cloudwatch api.
   name: Amazon CloudWatch Amazon CloudWatch API API
   slug: aws-cloudwatch-amazon-cloudwatch-api-api
 artifact_total: 10
@@ -137,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cloudwatch/refs/heads/main/screenshots/aws-cloudwatch-2026-06-20T172757.png
 security:

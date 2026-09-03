@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 106 operations · 64 acting
 api_count: 1
 apis:
-- description: Access to API client resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to API client resources
   name: Suger API API
   slug: suger-api-api
-- description: Access to Billing resources, such as addon, invoice, payment, etc.
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Billing resources, such as addon, invoice, payment, etc.
   name: Suger Billing API
   slug: suger-billing-api
-- description: Access to Buyer resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Buyer resources
   name: Suger Buyer API
   slug: suger-buyer-api
-- description: Access to Contact resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Contact resources
   name: Suger Contact API
   slug: suger-contact-api
-- description: Access to Entitlement resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Entitlement resources
   name: Suger Entitlement API
   slug: suger-entitlement-api
-- description: Access to Usage Metering resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Usage Metering resources
   name: Suger Metering API
   slug: suger-metering-api
-- description: Access to Notification resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Notification resources
   name: Suger Notification API
   slug: suger-notification-api
-- description: Access to Offer resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Offer resources
   name: Suger Offer API
   slug: suger-offer-api
-- description: Access to Product resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Product resources
   name: Suger Product API
   slug: suger-product-api
-- description: Access to revenue or usage metering Report resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to revenue or usage metering Report resources
   name: Suger Report API
   slug: suger-report-api
-- description: Access to Suger Support ticket resources
+- baseURL: https://api.suger.cloud
+  baseurl_source: declared
+  description: Access to Suger Support ticket resources
   name: Suger Support API
   slug: suger-support-api
 artifact_total: 51
@@ -304,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/screenshots/suger-2026-06-20T194638.png
 security:

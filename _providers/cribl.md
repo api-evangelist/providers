@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 133 operations · 67 acting
 api_count: 6
 apis:
-- description: Manage API credentials used for OAuth 2.0 client credentials authentication. Credentials consist of a client ID and client secret used to obtain bearer tokens for API access.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage API credentials used for OAuth 2.0 client credentials authentication. Credentials consist of a client ID and client secret used to obtain bearer tokens for API access.
   name: Cribl API Credentials API
   slug: cribl-api-credentials-api
-- description: Obtain and manage authentication tokens for API access.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Obtain and manage authentication tokens for API access.
   name: Cribl Authentication API
   slug: cribl-authentication-api
-- description: Manage scheduled and on-demand data collection jobs from REST APIs, databases, scripts, and other sources.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage scheduled and on-demand data collection jobs from REST APIs, databases, scripts, and other sources.
   name: Cribl Collectors API
   slug: cribl-collectors-api
-- description: Configure and manage database connections used by collectors and lookup functions.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Configure and manage database connections used by collectors and lookup functions.
   name: Cribl Database Connections API
   slug: cribl-database-connections-api
-- description: Manage Cribl Lake datasets that define storage buckets for observability and security data in open formats.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage Cribl Lake datasets that define storage buckets for observability and security data in open formats.
   name: Cribl Datasets API
   slug: cribl-datasets-api
-- description: Manage data output destinations where processed events are sent, including Splunk, S3, Elasticsearch, and webhook endpoints.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage data output destinations where processed events are sent, including Splunk, S3, Elasticsearch, and webhook endpoints.
   name: Cribl Destinations API
   slug: cribl-destinations-api
-- description: Manage data output destinations for edge nodes including forwarding to Stream workers, cloud storage, and analytics platforms.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage data output destinations for edge nodes including forwarding to Stream workers, cloud storage, and analytics platforms.
   name: Cribl Edge Destinations API
   slug: cribl-edge-destinations-api
-- description: Manage edge fleets that organize groups of edge nodes deployed on endpoints for local data collection and processing.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage edge fleets that organize groups of edge nodes deployed on endpoints for local data collection and processing.
   name: Cribl Edge Fleets API
   slug: cribl-edge-fleets-api
-- description: Monitor and manage individual edge nodes deployed on endpoints including their status, version, and resource utilization.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Monitor and manage individual edge nodes deployed on endpoints including their status, version, and resource utilization.
   name: Cribl Edge Nodes API
   slug: cribl-edge-nodes-api
-- description: Manage processing pipelines running on edge nodes for local data transformation and filtering before forwarding.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage processing pipelines running on edge nodes for local data transformation and filtering before forwarding.
   name: Cribl Edge Pipelines API
   slug: cribl-edge-pipelines-api
-- description: Manage routes on edge nodes for directing collected data to appropriate pipelines and destinations.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage routes on edge nodes for directing collected data to appropriate pipelines and destinations.
   name: Cribl Edge Routes API
   slug: cribl-edge-routes-api
-- description: Manage data input sources on edge nodes including file monitors, Windows Event Log, system metrics, AppScope, and other local collection methods.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage data input sources on edge nodes including file monitors, Windows Event Log, system metrics, AppScope, and other local collection methods.
   name: Cribl Edge Sources API
   slug: cribl-edge-sources-api
-- description: Retrieve available processing functions that can be used within pipelines for data transformation.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Retrieve available processing functions that can be used within pipelines for data transformation.
   name: Cribl Functions API
   slug: cribl-functions-api
-- description: Manage Worker Groups and Edge Fleets, which organize and deploy configurations to sets of worker nodes or edge agents.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage Worker Groups and Edge Fleets, which organize and deploy configurations to sets of worker nodes or edge agents.
   name: Cribl Groups API
   slug: cribl-groups-api
-- description: Check the health and availability of the Cribl Cloud management plane services.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Check the health and availability of the Cribl Cloud management plane services.
   name: Cribl Health API
   slug: cribl-health-api
-- description: Monitor and manage running and completed collection and processing jobs.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Monitor and manage running and completed collection and processing jobs.
   name: Cribl Jobs API
   slug: cribl-jobs-api
-- description: Manage Cribl Lake datasets for storing and organizing observability data in open formats.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage Cribl Lake datasets for storing and organizing observability data in open formats.
   name: Cribl Lake Datasets API
   slug: cribl-lake-datasets-api
-- description: Manage lookup files and tables used for data enrichment in pipelines.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage lookup files and tables used for data enrichment in pipelines.
   name: Cribl Lookups API
   slug: cribl-lookups-api
-- description: Monitor and manage individual worker nodes and edge nodes within groups and fleets.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Monitor and manage individual worker nodes and edge nodes within groups and fleets.
   name: Cribl Nodes API
   slug: cribl-nodes-api
-- description: Configure notification rules and targets for alerting on data flow anomalies and system events.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Configure notification rules and targets for alerting on data flow anomalies and system events.
   name: Cribl Notifications API
   slug: cribl-notifications-api
-- description: Install, manage, and distribute reusable configuration packs containing pipelines, routes, and other resources.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Install, manage, and distribute reusable configuration packs containing pipelines, routes, and other resources.
   name: Cribl Packs API
   slug: cribl-packs-api
-- description: Manage processing pipelines that contain ordered sequences of functions for transforming, filtering, and enriching events.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage processing pipelines that contain ordered sequences of functions for transforming, filtering, and enriching events.
   name: Cribl Pipelines API
   slug: cribl-pipelines-api
-- description: Configure data retention policies that control how long data is stored in Lake datasets before automatic cleanup.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Configure data retention policies that control how long data is stored in Lake datasets before automatic cleanup.
   name: Cribl Retention API
   slug: cribl-retention-api
-- description: Manage routes that filter and direct incoming data across pipelines and destinations using filter expressions.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage routes that filter and direct incoming data across pipelines and destinations using filter expressions.
   name: Cribl Routes API
   slug: cribl-routes-api
-- description: Create and manage saved search queries for reuse and sharing across teams and workflows.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Create and manage saved search queries for reuse and sharing across teams and workflows.
   name: Cribl Saved Searches API
   slug: cribl-saved-searches-api
-- description: Execute and manage search queries across live and stored observability data with support for federated search across multiple data sources.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Execute and manage search queries across live and stored observability data with support for federated search across multiple data sources.
   name: Cribl Search Jobs API
   slug: cribl-search-jobs-api
-- description: Configure notification rules that trigger alerts based on search results using webhook and other notification targets.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Configure notification rules that trigger alerts based on search results using webhook and other notification targets.
   name: Cribl Search Notifications API
   slug: cribl-search-notifications-api
-- description: Manage data input sources that collect events from various systems including Syslog, HTTP, Kafka, Splunk, and other protocols.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage data input sources that collect events from various systems including Syslog, HTTP, Kafka, Splunk, and other protocols.
   name: Cribl Sources API
   slug: cribl-sources-api
-- description: Access system-level settings including Git configuration, licensing, and global preferences.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Access system-level settings including Git configuration, licensing, and global preferences.
   name: Cribl System API
   slug: cribl-system-api
-- description: Manage configuration versions, commits, and deployment history.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage configuration versions, commits, and deployment history.
   name: Cribl Versioning API
   slug: cribl-versioning-api
-- description: Manage Stream worker groups that organize worker nodes and deploy shared pipeline configurations across clusters.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage Stream worker groups that organize worker nodes and deploy shared pipeline configurations across clusters.
   name: Cribl Worker Groups API
   slug: cribl-worker-groups-api
-- description: Manage Cribl Cloud workspaces which are unique VPC containers each isolating an instance of the Cribl Product Suite including Stream, Edge, Search, and Lake.
+- baseURL: https://api.cribl.cloud
+  baseurl_source: declared
+  description: Manage Cribl Cloud workspaces which are unique VPC containers each isolating an instance of the Cribl Product Suite including Stream, Edge, Search, and Lake.
   name: Cribl Workspaces API
   slug: cribl-workspaces-api
 artifact_total: 126
@@ -609,7 +673,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/screenshots/cribl-2026-06-20T175228.png
 security:

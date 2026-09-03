@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Arrays API from Slope Software — 2 operation(s) for arrays.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Arrays API from Slope Software — 2 operation(s) for arrays.
   name: Slope Software Arrays API
   slug: slope-software-arrays-api
-- description: The Authorize API from Slope Software — 2 operation(s) for authorize.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Authorize API from Slope Software — 2 operation(s) for authorize.
   name: Slope Software Authorize API
   slug: slope-software-authorize-api
-- description: The DataTables API from Slope Software — 7 operation(s) for datatables.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The DataTables API from Slope Software — 7 operation(s) for datatables.
   name: Slope Software DataTables API
   slug: slope-software-datatables-api
-- description: The DecrementTables API from Slope Software — 2 operation(s) for decrementtables.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The DecrementTables API from Slope Software — 2 operation(s) for decrementtables.
   name: Slope Software DecrementTables API
   slug: slope-software-decrementtables-api
-- description: The Files API from Slope Software — 4 operation(s) for files.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Files API from Slope Software — 4 operation(s) for files.
   name: Slope Software Files API
   slug: slope-software-files-api
-- description: The ImprovementScales API from Slope Software — 2 operation(s) for improvementscales.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The ImprovementScales API from Slope Software — 2 operation(s) for improvementscales.
   name: Slope Software ImprovementScales API
   slug: slope-software-improvementscales-api
-- description: The ModelPointFields API from Slope Software — 2 operation(s) for modelpointfields.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The ModelPointFields API from Slope Software — 2 operation(s) for modelpointfields.
   name: Slope Software ModelPointFields API
   slug: slope-software-modelpointfields-api
-- description: The Models API from Slope Software — 13 operation(s) for models.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Models API from Slope Software — 13 operation(s) for models.
   name: Slope Software Models API
   slug: slope-software-models-api
-- description: The Products API from Slope Software — 1 operation(s) for products.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Products API from Slope Software — 1 operation(s) for products.
   name: Slope Software Products API
   slug: slope-software-products-api
-- description: The Projections API from Slope Software — 6 operation(s) for projections.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Projections API from Slope Software — 6 operation(s) for projections.
   name: Slope Software Projections API
   slug: slope-software-projections-api
-- description: The Reports API from Slope Software — 2 operation(s) for reports.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Reports API from Slope Software — 2 operation(s) for reports.
   name: Slope Software Reports API
   slug: slope-software-reports-api
-- description: The ScenarioTables API from Slope Software — 4 operation(s) for scenariotables.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The ScenarioTables API from Slope Software — 4 operation(s) for scenariotables.
   name: Slope Software ScenarioTables API
   slug: slope-software-scenariotables-api
-- description: The TableStructures API from Slope Software — 3 operation(s) for tablestructures.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The TableStructures API from Slope Software — 3 operation(s) for tablestructures.
   name: Slope Software TableStructures API
   slug: slope-software-tablestructures-api
-- description: The Users API from Slope Software — 1 operation(s) for users.
+- baseURL: https://api.slopesoftware.com
+  baseurl_source: declared
+  description: The Users API from Slope Software — 1 operation(s) for users.
   name: Slope Software Users API
   slug: slope-software-users-api
 arazzos:
@@ -258,7 +286,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -293,8 +321,9 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/slope-software/refs/heads/main/screenshots/slope-software-2026-09-02T155856.png
 security:
 - kind: authentication
   name: Slope Software Authentication

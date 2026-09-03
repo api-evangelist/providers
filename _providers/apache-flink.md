@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -46,31 +46,49 @@ apis:
 - description: Monitoring REST API for accessing job metrics, checkpoints, and cluster statistics for Apache Flink deployments.
   name: Apache Flink Monitoring API
   slug: apache-flink-monitoring
-- description: The Cluster API from Apache Flink — 1 operation(s) for cluster.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Cluster API from Apache Flink — 1 operation(s) for cluster.
   name: Apache Flink Cluster API
   slug: apache-flink-cluster-api
-- description: The Config API from Apache Flink — 1 operation(s) for config.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Config API from Apache Flink — 1 operation(s) for config.
   name: Apache Flink Config API
   slug: apache-flink-config-api
-- description: The Datasets API from Apache Flink — 3 operation(s) for datasets.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Datasets API from Apache Flink — 3 operation(s) for datasets.
   name: Apache Flink Datasets API
   slug: apache-flink-datasets-api
-- description: The Jars API from Apache Flink — 5 operation(s) for jars.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Jars API from Apache Flink — 5 operation(s) for jars.
   name: Apache Flink Jars API
   slug: apache-flink-jars-api
-- description: The Jobmanager API from Apache Flink — 5 operation(s) for jobmanager.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Jobmanager API from Apache Flink — 5 operation(s) for jobmanager.
   name: Apache Flink Jobmanager API
   slug: apache-flink-jobmanager-api
-- description: The Jobs API from Apache Flink — 42 operation(s) for jobs.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Jobs API from Apache Flink — 42 operation(s) for jobs.
   name: Apache Flink Jobs API
   slug: apache-flink-jobs-api
-- description: The Overview API from Apache Flink — 1 operation(s) for overview.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Overview API from Apache Flink — 1 operation(s) for overview.
   name: Apache Flink Overview API
   slug: apache-flink-overview-api
-- description: The Savepoint Disposal API from Apache Flink — 2 operation(s) for savepoint disposal.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Savepoint Disposal API from Apache Flink — 2 operation(s) for savepoint disposal.
   name: Apache Flink Savepoint Disposal API
   slug: apache-flink-savepoint-disposal-api
-- description: The Taskmanagers API from Apache Flink — 6 operation(s) for taskmanagers.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Taskmanagers API from Apache Flink — 6 operation(s) for taskmanagers.
   name: Apache Flink Taskmanagers API
   slug: apache-flink-taskmanagers-api
 artifact_total: 446
@@ -1480,7 +1498,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/screenshots/apache-flink-2026-06-20T172057.png
 security:

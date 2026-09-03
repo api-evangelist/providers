@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -33,82 +45,134 @@ agentic_access:
   summary_line: 128 operations · 54 acting
 api_count: 4
 apis:
-- description: The Addresses API from Zai — 1 operation(s) for addresses.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Addresses API from Zai — 1 operation(s) for addresses.
   name: Zai Addresses API
   slug: zai-addresses-api
-- description: The Authentication API from Zai — 1 operation(s) for authentication.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Authentication API from Zai — 1 operation(s) for authentication.
   name: Zai Authentication API
   slug: zai-authentication-api
-- description: The Bank Accounts API from Zai — 6 operation(s) for bank accounts.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Bank Accounts API from Zai — 6 operation(s) for bank accounts.
   name: Zai Bank Accounts API
   slug: zai-bank-accounts-api
-- description: The Batch Transactions API from Zai — 2 operation(s) for batch transactions.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Batch Transactions API from Zai — 2 operation(s) for batch transactions.
   name: Zai Batch Transactions API
   slug: zai-batch-transactions-api
-- description: The BPay Accounts API from Zai — 3 operation(s) for bpay accounts.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The BPay Accounts API from Zai — 3 operation(s) for bpay accounts.
   name: Zai BPay Accounts API
   slug: zai-bpay-accounts-api
-- description: The Callbacks API from Zai — 4 operation(s) for callbacks.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Callbacks API from Zai — 4 operation(s) for callbacks.
   name: Zai Callbacks API
   slug: zai-callbacks-api
-- description: The Card Accounts API from Zai — 4 operation(s) for card accounts.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Card Accounts API from Zai — 4 operation(s) for card accounts.
   name: Zai Card Accounts API
   slug: zai-card-accounts-api
-- description: The Charges API from Zai — 4 operation(s) for charges.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Charges API from Zai — 4 operation(s) for charges.
   name: Zai Charges API
   slug: zai-charges-api
-- description: The Companies API from Zai — 2 operation(s) for companies.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Companies API from Zai — 2 operation(s) for companies.
   name: Zai Companies API
   slug: zai-companies-api
-- description: The Direct Debit Authorities API from Zai — 2 operation(s) for direct debit authorities.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Direct Debit Authorities API from Zai — 2 operation(s) for direct debit authorities.
   name: Zai Direct Debit Authorities API
   slug: zai-direct-debit-authorities-api
-- description: The Disbursements API from Zai — 7 operation(s) for disbursements.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Disbursements API from Zai — 7 operation(s) for disbursements.
   name: Zai Disbursements API
   slug: zai-disbursements-api
-- description: The Fees API from Zai — 2 operation(s) for fees.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Fees API from Zai — 2 operation(s) for fees.
   name: Zai Fees API
   slug: zai-fees-api
-- description: The Item Actions API from Zai — 8 operation(s) for item actions.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Item Actions API from Zai — 8 operation(s) for item actions.
   name: Zai Item Actions API
   slug: zai-item-actions-api
-- description: The Items API from Zai — 9 operation(s) for items.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Items API from Zai — 9 operation(s) for items.
   name: Zai Items API
   slug: zai-items-api
-- description: The Marketplaces API from Zai — 1 operation(s) for marketplaces.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Marketplaces API from Zai — 1 operation(s) for marketplaces.
   name: Zai Marketplaces API
   slug: zai-marketplaces-api
-- description: The PayIDs API from Zai — 3 operation(s) for payids.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The PayIDs API from Zai — 3 operation(s) for payids.
   name: Zai Pay I Ds API
   slug: zai-payids-api
-- description: Agreement Management APIs
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: Agreement Management APIs
   name: Zai PayTo Agreements API
   slug: zai-payto-agreements-api
-- description: Payment Initiation APIs
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: Payment Initiation APIs
   name: Zai PayTo Payments API
   slug: zai-payto-payments-api
-- description: The Requests API from Zai — 2 operation(s) for requests.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Requests API from Zai — 2 operation(s) for requests.
   name: Zai Requests API
   slug: zai-requests-api
-- description: The Sub-wallets API from Zai — 9 operation(s) for sub-wallets.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Sub-wallets API from Zai — 9 operation(s) for sub-wallets.
   name: Zai Sub Wallets API
   slug: zai-sub-wallets-api
-- description: The Token Auth API from Zai — 1 operation(s) for token auth.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Token Auth API from Zai — 1 operation(s) for token auth.
   name: Zai Token Auth API
   slug: zai-token-auth-api
-- description: The Tools API from Zai — 1 operation(s) for tools.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Tools API from Zai — 1 operation(s) for tools.
   name: Zai Tools API
   slug: zai-tools-api
-- description: The Transactions API from Zai — 7 operation(s) for transactions.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Transactions API from Zai — 7 operation(s) for transactions.
   name: Zai Transactions API
   slug: zai-transactions-api
-- description: The Users API from Zai — 9 operation(s) for users.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Users API from Zai — 9 operation(s) for users.
   name: Zai Users API
   slug: zai-users-api
-- description: The Virtual Accounts API from Zai — 5 operation(s) for virtual accounts.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Virtual Accounts API from Zai — 5 operation(s) for virtual accounts.
   name: Zai Virtual Accounts API
   slug: zai-virtual-accounts-api
-- description: The Wallet Accounts API from Zai — 6 operation(s) for wallet accounts.
+- baseURL: https://secure.api.promisepay.com
+  baseurl_source: declared
+  description: The Wallet Accounts API from Zai — 6 operation(s) for wallet accounts.
   name: Zai Wallet Accounts API
   slug: zai-wallet-accounts-api
 artifact_total: 40
@@ -340,7 +404,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -350,7 +414,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 22.4
-  previous_composite: 55.2
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,7 +432,7 @@ score:
     regime_id: payments
     score: 81.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
 security:

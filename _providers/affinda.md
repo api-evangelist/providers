@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 244 operations · 146 acting
 api_count: 4
 apis:
-- description: Upload documents (PDF, images, DOCX, XLSX, TXT, HTML) and Affinda returns structured JSON extraction with confidence scores, bounding boxes, and OCR text. Supports invoices, resumes, receipts, contrac
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Upload documents (PDF, images, DOCX, XLSX, TXT, HTML) and Affinda returns structured JSON extraction with confidence scores, bounding boxes, and OCR text. Supports invoices, resumes, receipts, contrac
   name: Affinda Documents API
   slug: affinda-documents-api
-- description: Manage document type definitions — the model configuration governing how a specific document category (invoice, resume, custom contract) is parsed. Each document type exposes a JSON Schema and optiona
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Manage document type definitions — the model configuration governing how a specific document category (invoice, resume, custom contract) is parsed. Each document type exposes a JSON Schema and optiona
   name: Affinda Document Types API
   slug: affinda-document-types-api
-- description: Workspaces group together related collections, documents, members, and webhook subscriptions. Workspace identifiers scope every document upload, listing, and webhook delivery. Includes per-workspace u
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Workspaces group together related collections, documents, members, and webhook subscriptions. Workspace identifiers scope every document upload, listing, and webhook delivery. Includes per-workspace u
   name: Affinda Workspaces API
   slug: affinda-workspaces-api
-- description: Manage the top-level organization account — read and update organization details. Organizations contain users, billing, document types, and workspaces. Per-user limit of 3 API keys.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Manage the top-level organization account — read and update organization details. Organizations contain users, billing, document types, and workspaces. Per-user limit of 3 API keys.
   name: Affinda Organizations API
   slug: affinda-organizations-api
-- description: Manage custom mapping data sources — master-data lists used to match raw extracted values (vendor names, SKUs, categories) to known canonical entities. Upload values via the API and reference the data
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Manage custom mapping data sources — master-data lists used to match raw extracted values (vendor names, SKUs, categories) to known canonical entities. Upload values via the API and reference the data
   name: Affinda Data Sources API
   slug: affinda-data-sources-api
-- description: Manually create, update, and delete annotations on uploaded documents. Annotations are the field-level extraction objects (value, confidence, bounding box, parent field) and provide the surface for hu
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Manually create, update, and delete annotations on uploaded documents. Annotations are the field-level extraction objects (value, confidence, bounding box, parent field) and provide the surface for hu
   name: Affinda Annotations API
   slug: affinda-annotations-api
-- description: Track the status and findings of validation rules attached to parsed documents. Validation results record passes, failures, and remediation context for field-level rules and inform the embeddable vali
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Track the status and findings of validation rules attached to parsed documents. Validation results record passes, failures, and remediation context for field-level rules and inform the embeddable vali
   name: Affinda Validation Results API
   slug: affinda-validation-results-api
-- description: Tag management for parsed documents. Tags can be arbitrarily attached to documents to support routing, segmentation, search filters, and downstream workflow triggers. Supports batch-add and batch-remo
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Tag management for parsed documents. Tags can be arbitrarily attached to documents to support routing, segmentation, search filters, and downstream workflow triggers. Supports batch-add and batch-remo
   name: Affinda Tags API
   slug: affinda-tags-api
-- description: Retrieve daily credits consumption for the organization across all workspaces and document types. Used for billing reconciliation, budget tracking, and FinOps reporting.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Retrieve daily credits consumption for the organization across all workspaces and document types. Used for billing reconciliation, budget tracking, and FinOps reporting.
   name: Affinda Usage API
   slug: affinda-usage-api
-- description: Resthook-style webhook subscriptions for document parsing events. Create a subscription, receive a probe payload, and call the activation endpoint to confirm the receiver. Affinda delivers events such
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Resthook-style webhook subscriptions for document parsing events. Create a subscription, receive a probe payload, and call the activation endpoint to confirm the receiver. Affinda delivers events such
   name: Affinda Webhooks API
   slug: affinda-webhooks-api
-- description: Resume search, job description search, and matching across parsed-document indexes. Score candidates against a job description (or vice versa), retrieve match details, configure search and embed param
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Resume search, job description search, and matching across parsed-document indexes. Score candidates against a job description (or vice versa), retrieve match details, configure search and embed param
   name: Affinda Search and Match API
   slug: affinda-search-match-api
-- description: Hidden endpoints not intended for public use. These endpoints include Splitting, Extractor, Organization, and Workspace Memberships & Usage functionality.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Hidden endpoints not intended for public use. These endpoints include Splitting, Extractor, Organization, and Workspace Memberships & Usage functionality.
   name: Affinda Add x-hidden to endpoints API
   slug: affinda-add-x-hidden-to-endpoints-api
-- description: Deprecated endpoints that are maintained for backward compatibility. These endpoints include Data Point, Collection, and Users functionality that has been superseded by newer APIs.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: Deprecated endpoints that are maintained for backward compatibility. These endpoints include Data Point, Collection, and Users functionality that has been superseded by newer APIs.
   name: Affinda Deprecated End Points API
   slug: affinda-deprecated-end-points-api
-- description: The Document API - Extractor API from Affinda — 2 operation(s) for document api - extractor.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: The Document API - Extractor API from Affinda — 2 operation(s) for document api - extractor.
   name: Affinda Document API - Extractor API
   slug: affinda-document-api-extractor-api
-- description: The Document API - Splitting API from Affinda — 3 operation(s) for document api - splitting.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: The Document API - Splitting API from Affinda — 3 operation(s) for document api - splitting.
   name: Affinda Document API - Splitting API
   slug: affinda-document-api-splitting-api
-- description: The Organization API - Invitation API from Affinda — 3 operation(s) for organization api - invitation.
+- baseURL_template: https://{region}.affinda.com
+  baseurl_source: spec_template
+  description: The Organization API - Invitation API from Affinda — 3 operation(s) for organization api - invitation.
   name: Affinda Organization API - Invitation API
   slug: affinda-organization-api-invitation-api
 arazzos:
@@ -671,7 +703,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -681,7 +713,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 57.9
-  previous_composite: 64.7
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
@@ -696,7 +728,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:

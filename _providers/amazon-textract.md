@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations for asynchronous document processing.
+- baseURL: https://textract.amazonaws.com
+  baseurl_source: declared
+  description: Operations for asynchronous document processing.
   name: Amazon Textract Async Operations API
   slug: amazon-textract-async-operations-api
-- description: Operations for analyzing document structure and content.
+- baseURL: https://textract.amazonaws.com
+  baseurl_source: declared
+  description: Operations for analyzing document structure and content.
   name: Amazon Textract Document Analysis API
   slug: amazon-textract-document-analysis-api
-- description: Operations for analyzing expense documents.
+- baseURL: https://textract.amazonaws.com
+  baseurl_source: declared
+  description: Operations for analyzing expense documents.
   name: Amazon Textract Expense Analysis API
   slug: amazon-textract-expense-analysis-api
-- description: Operations for analyzing identity documents.
+- baseURL: https://textract.amazonaws.com
+  baseurl_source: declared
+  description: Operations for analyzing identity documents.
   name: Amazon Textract ID Analysis API
   slug: amazon-textract-id-analysis-api
-- description: Operations for detecting text in documents.
+- baseURL: https://textract.amazonaws.com
+  baseurl_source: declared
+  description: Operations for detecting text in documents.
   name: Amazon Textract Text Detection API
   slug: amazon-textract-text-detection-api
 artifact_total: 35
@@ -278,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/screenshots/amazon-textract-2026-06-20T171833.png
 security:

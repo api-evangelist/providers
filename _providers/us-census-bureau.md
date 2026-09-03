@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 47 operations · 2 acting
 api_count: 7
 apis:
-- description: The 2010 API from US Census Bureau — 1 operation(s) for 2010.
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: The 2010 API from US Census Bureau — 1 operation(s) for 2010.
   name: US Census Bureau 2010 API
   slug: us-census-bureau-2010-api
-- description: The 2020 API from US Census Bureau — 1 operation(s) for 2020.
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: The 2020 API from US Census Bureau — 1 operation(s) for 2020.
   name: US Census Bureau 2020 API
   slug: us-census-bureau-2020-api
-- description: American Community Survey datasets (1-Year, Supplemental, 5-Year)
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: American Community Survey datasets (1-Year, Supplemental, 5-Year)
   name: US Census Bureau ACS API
   slug: us-census-bureau-acs-api
-- description: ACS Public Use Microdata Sample (person and household)
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: ACS Public Use Microdata Sample (person and household)
   name: US Census Bureau ACS PUMS API
   slug: us-census-bureau-acs-pums-api
-- description: Bulk geocoding (up to 10,000 records)
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Bulk geocoding (up to 10,000 records)
   name: US Census Bureau Batch API
   slug: us-census-bureau-batch-api
-- description: Service directory
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Service directory
   name: US Census Bureau Catalog API
   slug: us-census-bureau-catalog-api
-- description: Current Population Survey basic monthly and supplements
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Current Population Survey basic monthly and supplements
   name: US Census Bureau CPS API
   slug: us-census-bureau-cps-api
-- description: Current vintage TIGERweb services
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Current vintage TIGERweb services
   name: US Census Bureau Current API
   slug: us-census-bureau-current-api
-- description: Decennial Census of Population and Housing
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Decennial Census of Population and Housing
   name: US Census Bureau Decennial API
   slug: us-census-bureau-decennial-api
-- description: Dataset discovery via the DCAT-compliant catalog
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Dataset discovery via the DCAT-compliant catalog
   name: US Census Bureau Discovery API
   slug: us-census-bureau-discovery-api
-- description: Economic Census, ABS, CBP, NES
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Economic Census, ABS, CBP, NES
   name: US Census Bureau Economic API
   slug: us-census-bureau-economic-api
-- description: Address to coordinates plus Census geographies
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Address to coordinates plus Census geographies
   name: US Census Bureau Geographies API
   slug: us-census-bureau-geographies-api
-- description: Address to coordinates
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Address to coordinates
   name: US Census Bureau Locations API
   slug: us-census-bureau-locations-api
-- description: Per-dataset variables, groups, geographies, and examples
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Per-dataset variables, groups, geographies, and examples
   name: US Census Bureau Metadata API
   slug: us-census-bureau-metadata-api
-- description: Population Estimates Program
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Population Estimates Program
   name: US Census Bureau PEP API
   slug: us-census-bureau-pep-api
-- description: The Popclock API from US Census Bureau — 2 operation(s) for popclock.
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: The Popclock API from US Census Bureau — 2 operation(s) for popclock.
   name: US Census Bureau Popclock API
   slug: us-census-bureau-popclock-api
-- description: Household Pulse Survey near-real-time experimental data
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Household Pulse Survey near-real-time experimental data
   name: US Census Bureau Pulse API
   slug: us-census-bureau-pulse-api
-- description: Survey of Income and Program Participation panels
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: Survey of Income and Program Participation panels
   name: US Census Bureau SIPP API
   slug: us-census-bureau-sipp-api
-- description: The Timeseries API from US Census Bureau — 7 operation(s) for timeseries.
+- baseURL: https://api.census.gov/data
+  baseurl_source: declared
+  description: The Timeseries API from US Census Bureau — 7 operation(s) for timeseries.
   name: US Census Bureau Timeseries API
   slug: us-census-bureau-timeseries-api
 artifact_total: 84
@@ -437,7 +475,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- description: Corporate ownership and relationship hierarchy data
+- baseURL: https://api.gleif.org/api/v1
+  baseurl_source: declared
+  description: Corporate ownership and relationship hierarchy data
   name: GLEIF Corporate Relationships API
   slug: gleif-corporate-relationships-api
-- description: Operations on accredited LEI Issuers (Local Operating Units)
+- baseURL: https://api.gleif.org/api/v1
+  baseurl_source: declared
+  description: Operations on accredited LEI Issuers (Local Operating Units)
   name: GLEIF LEI Issuers API
   slug: gleif-lei-issuers-api
-- description: Operations on Legal Entity Identifier records
+- baseURL: https://api.gleif.org/api/v1
+  baseurl_source: declared
+  description: Operations on Legal Entity Identifier records
   name: GLEIF LEI Records API
   slug: gleif-lei-records-api
-- description: Reference data including entity legal forms and registration authorities
+- baseURL: https://api.gleif.org/api/v1
+  baseurl_source: declared
+  description: Reference data including entity legal forms and registration authorities
   name: GLEIF Reference Data API
   slug: gleif-reference-data-api
-- description: Search and autocomplete operations
+- baseURL: https://api.gleif.org/api/v1
+  baseurl_source: declared
+  description: Search and autocomplete operations
   name: GLEIF Search API
   slug: gleif-search-api
 artifact_total: 21
@@ -227,7 +237,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/screenshots/gleif-2026-06-20T181909.png
 security:

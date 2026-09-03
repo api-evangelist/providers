@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -43,217 +43,359 @@ agentic_access:
   summary_line: 71 operations · 71 acting · 1 human-in-the-loop
 api_count: 71
 apis:
-- description: The CreateAccess API from Amazon Transfer Family — 1 operation(s) for createaccess.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateAccess API from Amazon Transfer Family — 1 operation(s) for createaccess.
   name: Amazon Transfer Family CreateAccess API
   slug: amazon-transfer-family-createaccess-api
-- description: The CreateAgreement API from Amazon Transfer Family — 1 operation(s) for createagreement.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateAgreement API from Amazon Transfer Family — 1 operation(s) for createagreement.
   name: Amazon Transfer Family CreateAgreement API
   slug: amazon-transfer-family-createagreement-api
-- description: The CreateConnector API from Amazon Transfer Family — 1 operation(s) for createconnector.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateConnector API from Amazon Transfer Family — 1 operation(s) for createconnector.
   name: Amazon Transfer Family CreateConnector API
   slug: amazon-transfer-family-createconnector-api
-- description: The CreateProfile API from Amazon Transfer Family — 1 operation(s) for createprofile.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateProfile API from Amazon Transfer Family — 1 operation(s) for createprofile.
   name: Amazon Transfer Family CreateProfile API
   slug: amazon-transfer-family-createprofile-api
-- description: The CreateServer API from Amazon Transfer Family — 1 operation(s) for createserver.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateServer API from Amazon Transfer Family — 1 operation(s) for createserver.
   name: Amazon Transfer Family CreateServer API
   slug: amazon-transfer-family-createserver-api
-- description: The CreateUser API from Amazon Transfer Family — 1 operation(s) for createuser.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateUser API from Amazon Transfer Family — 1 operation(s) for createuser.
   name: Amazon Transfer Family CreateUser API
   slug: amazon-transfer-family-createuser-api
-- description: The CreateWebApp API from Amazon Transfer Family — 1 operation(s) for createwebapp.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateWebApp API from Amazon Transfer Family — 1 operation(s) for createwebapp.
   name: Amazon Transfer Family CreateWebApp API
   slug: amazon-transfer-family-createwebapp-api
-- description: The CreateWorkflow API from Amazon Transfer Family — 1 operation(s) for createworkflow.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The CreateWorkflow API from Amazon Transfer Family — 1 operation(s) for createworkflow.
   name: Amazon Transfer Family CreateWorkflow API
   slug: amazon-transfer-family-createworkflow-api
-- description: The DeleteAccess API from Amazon Transfer Family — 1 operation(s) for deleteaccess.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteAccess API from Amazon Transfer Family — 1 operation(s) for deleteaccess.
   name: Amazon Transfer Family DeleteAccess API
   slug: amazon-transfer-family-deleteaccess-api
-- description: The DeleteAgreement API from Amazon Transfer Family — 1 operation(s) for deleteagreement.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteAgreement API from Amazon Transfer Family — 1 operation(s) for deleteagreement.
   name: Amazon Transfer Family DeleteAgreement API
   slug: amazon-transfer-family-deleteagreement-api
-- description: The DeleteCertificate API from Amazon Transfer Family — 1 operation(s) for deletecertificate.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteCertificate API from Amazon Transfer Family — 1 operation(s) for deletecertificate.
   name: Amazon Transfer Family DeleteCertificate API
   slug: amazon-transfer-family-deletecertificate-api
-- description: The DeleteConnector API from Amazon Transfer Family — 1 operation(s) for deleteconnector.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteConnector API from Amazon Transfer Family — 1 operation(s) for deleteconnector.
   name: Amazon Transfer Family DeleteConnector API
   slug: amazon-transfer-family-deleteconnector-api
-- description: The DeleteHostKey API from Amazon Transfer Family — 1 operation(s) for deletehostkey.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteHostKey API from Amazon Transfer Family — 1 operation(s) for deletehostkey.
   name: Amazon Transfer Family DeleteHostKey API
   slug: amazon-transfer-family-deletehostkey-api
-- description: The DeleteProfile API from Amazon Transfer Family — 1 operation(s) for deleteprofile.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteProfile API from Amazon Transfer Family — 1 operation(s) for deleteprofile.
   name: Amazon Transfer Family DeleteProfile API
   slug: amazon-transfer-family-deleteprofile-api
-- description: The DeleteServer API from Amazon Transfer Family — 1 operation(s) for deleteserver.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteServer API from Amazon Transfer Family — 1 operation(s) for deleteserver.
   name: Amazon Transfer Family DeleteServer API
   slug: amazon-transfer-family-deleteserver-api
-- description: The DeleteSshPublicKey API from Amazon Transfer Family — 1 operation(s) for deletesshpublickey.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteSshPublicKey API from Amazon Transfer Family — 1 operation(s) for deletesshpublickey.
   name: Amazon Transfer Family DeleteSshPublicKey API
   slug: amazon-transfer-family-deletesshpublickey-api
-- description: The DeleteUser API from Amazon Transfer Family — 1 operation(s) for deleteuser.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteUser API from Amazon Transfer Family — 1 operation(s) for deleteuser.
   name: Amazon Transfer Family DeleteUser API
   slug: amazon-transfer-family-deleteuser-api
-- description: The DeleteWebApp API from Amazon Transfer Family — 1 operation(s) for deletewebapp.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteWebApp API from Amazon Transfer Family — 1 operation(s) for deletewebapp.
   name: Amazon Transfer Family DeleteWebApp API
   slug: amazon-transfer-family-deletewebapp-api
-- description: The DeleteWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for deletewebappcustomization.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for deletewebappcustomization.
   name: Amazon Transfer Family DeleteWebAppCustomization API
   slug: amazon-transfer-family-deletewebappcustomization-api
-- description: The DeleteWorkflow API from Amazon Transfer Family — 1 operation(s) for deleteworkflow.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteWorkflow API from Amazon Transfer Family — 1 operation(s) for deleteworkflow.
   name: Amazon Transfer Family DeleteWorkflow API
   slug: amazon-transfer-family-deleteworkflow-api
-- description: The DescribeAccess API from Amazon Transfer Family — 1 operation(s) for describeaccess.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeAccess API from Amazon Transfer Family — 1 operation(s) for describeaccess.
   name: Amazon Transfer Family DescribeAccess API
   slug: amazon-transfer-family-describeaccess-api
-- description: The DescribeAgreement API from Amazon Transfer Family — 1 operation(s) for describeagreement.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeAgreement API from Amazon Transfer Family — 1 operation(s) for describeagreement.
   name: Amazon Transfer Family DescribeAgreement API
   slug: amazon-transfer-family-describeagreement-api
-- description: The DescribeCertificate API from Amazon Transfer Family — 1 operation(s) for describecertificate.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeCertificate API from Amazon Transfer Family — 1 operation(s) for describecertificate.
   name: Amazon Transfer Family DescribeCertificate API
   slug: amazon-transfer-family-describecertificate-api
-- description: The DescribeConnector API from Amazon Transfer Family — 1 operation(s) for describeconnector.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeConnector API from Amazon Transfer Family — 1 operation(s) for describeconnector.
   name: Amazon Transfer Family DescribeConnector API
   slug: amazon-transfer-family-describeconnector-api
-- description: The DescribeExecution API from Amazon Transfer Family — 1 operation(s) for describeexecution.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeExecution API from Amazon Transfer Family — 1 operation(s) for describeexecution.
   name: Amazon Transfer Family DescribeExecution API
   slug: amazon-transfer-family-describeexecution-api
-- description: The DescribeHostKey API from Amazon Transfer Family — 1 operation(s) for describehostkey.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeHostKey API from Amazon Transfer Family — 1 operation(s) for describehostkey.
   name: Amazon Transfer Family DescribeHostKey API
   slug: amazon-transfer-family-describehostkey-api
-- description: The DescribeProfile API from Amazon Transfer Family — 1 operation(s) for describeprofile.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeProfile API from Amazon Transfer Family — 1 operation(s) for describeprofile.
   name: Amazon Transfer Family DescribeProfile API
   slug: amazon-transfer-family-describeprofile-api
-- description: The DescribeSecurityPolicy API from Amazon Transfer Family — 1 operation(s) for describesecuritypolicy.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSecurityPolicy API from Amazon Transfer Family — 1 operation(s) for describesecuritypolicy.
   name: Amazon Transfer Family DescribeSecurityPolicy API
   slug: amazon-transfer-family-describesecuritypolicy-api
-- description: The DescribeServer API from Amazon Transfer Family — 1 operation(s) for describeserver.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeServer API from Amazon Transfer Family — 1 operation(s) for describeserver.
   name: Amazon Transfer Family DescribeServer API
   slug: amazon-transfer-family-describeserver-api
-- description: The DescribeUser API from Amazon Transfer Family — 1 operation(s) for describeuser.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeUser API from Amazon Transfer Family — 1 operation(s) for describeuser.
   name: Amazon Transfer Family DescribeUser API
   slug: amazon-transfer-family-describeuser-api
-- description: The DescribeWebApp API from Amazon Transfer Family — 1 operation(s) for describewebapp.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWebApp API from Amazon Transfer Family — 1 operation(s) for describewebapp.
   name: Amazon Transfer Family DescribeWebApp API
   slug: amazon-transfer-family-describewebapp-api
-- description: The DescribeWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for describewebappcustomization.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for describewebappcustomization.
   name: Amazon Transfer Family DescribeWebAppCustomization API
   slug: amazon-transfer-family-describewebappcustomization-api
-- description: The DescribeWorkflow API from Amazon Transfer Family — 1 operation(s) for describeworkflow.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWorkflow API from Amazon Transfer Family — 1 operation(s) for describeworkflow.
   name: Amazon Transfer Family DescribeWorkflow API
   slug: amazon-transfer-family-describeworkflow-api
-- description: The ImportCertificate API from Amazon Transfer Family — 1 operation(s) for importcertificate.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ImportCertificate API from Amazon Transfer Family — 1 operation(s) for importcertificate.
   name: Amazon Transfer Family ImportCertificate API
   slug: amazon-transfer-family-importcertificate-api
-- description: The ImportHostKey API from Amazon Transfer Family — 1 operation(s) for importhostkey.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ImportHostKey API from Amazon Transfer Family — 1 operation(s) for importhostkey.
   name: Amazon Transfer Family ImportHostKey API
   slug: amazon-transfer-family-importhostkey-api
-- description: The ImportSshPublicKey API from Amazon Transfer Family — 1 operation(s) for importsshpublickey.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ImportSshPublicKey API from Amazon Transfer Family — 1 operation(s) for importsshpublickey.
   name: Amazon Transfer Family ImportSshPublicKey API
   slug: amazon-transfer-family-importsshpublickey-api
-- description: The ListAccesses API from Amazon Transfer Family — 1 operation(s) for listaccesses.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListAccesses API from Amazon Transfer Family — 1 operation(s) for listaccesses.
   name: Amazon Transfer Family ListAccesses API
   slug: amazon-transfer-family-listaccesses-api
-- description: The ListAgreements API from Amazon Transfer Family — 1 operation(s) for listagreements.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListAgreements API from Amazon Transfer Family — 1 operation(s) for listagreements.
   name: Amazon Transfer Family ListAgreements API
   slug: amazon-transfer-family-listagreements-api
-- description: The ListCertificates API from Amazon Transfer Family — 1 operation(s) for listcertificates.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListCertificates API from Amazon Transfer Family — 1 operation(s) for listcertificates.
   name: Amazon Transfer Family ListCertificates API
   slug: amazon-transfer-family-listcertificates-api
-- description: The ListConnectors API from Amazon Transfer Family — 1 operation(s) for listconnectors.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListConnectors API from Amazon Transfer Family — 1 operation(s) for listconnectors.
   name: Amazon Transfer Family ListConnectors API
   slug: amazon-transfer-family-listconnectors-api
-- description: The ListExecutions API from Amazon Transfer Family — 1 operation(s) for listexecutions.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListExecutions API from Amazon Transfer Family — 1 operation(s) for listexecutions.
   name: Amazon Transfer Family ListExecutions API
   slug: amazon-transfer-family-listexecutions-api
-- description: The ListFileTransferResults API from Amazon Transfer Family — 1 operation(s) for listfiletransferresults.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListFileTransferResults API from Amazon Transfer Family — 1 operation(s) for listfiletransferresults.
   name: Amazon Transfer Family ListFileTransferResults API
   slug: amazon-transfer-family-listfiletransferresults-api
-- description: The ListHostKeys API from Amazon Transfer Family — 1 operation(s) for listhostkeys.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListHostKeys API from Amazon Transfer Family — 1 operation(s) for listhostkeys.
   name: Amazon Transfer Family ListHostKeys API
   slug: amazon-transfer-family-listhostkeys-api
-- description: The ListProfiles API from Amazon Transfer Family — 1 operation(s) for listprofiles.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListProfiles API from Amazon Transfer Family — 1 operation(s) for listprofiles.
   name: Amazon Transfer Family ListProfiles API
   slug: amazon-transfer-family-listprofiles-api
-- description: The ListSecurityPolicies API from Amazon Transfer Family — 1 operation(s) for listsecuritypolicies.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListSecurityPolicies API from Amazon Transfer Family — 1 operation(s) for listsecuritypolicies.
   name: Amazon Transfer Family ListSecurityPolicies API
   slug: amazon-transfer-family-listsecuritypolicies-api
-- description: The ListServers API from Amazon Transfer Family — 1 operation(s) for listservers.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListServers API from Amazon Transfer Family — 1 operation(s) for listservers.
   name: Amazon Transfer Family ListServers API
   slug: amazon-transfer-family-listservers-api
-- description: The ListTagsForResource API from Amazon Transfer Family — 1 operation(s) for listtagsforresource.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForResource API from Amazon Transfer Family — 1 operation(s) for listtagsforresource.
   name: Amazon Transfer Family ListTagsForResource API
   slug: amazon-transfer-family-listtagsforresource-api
-- description: The ListUsers API from Amazon Transfer Family — 1 operation(s) for listusers.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListUsers API from Amazon Transfer Family — 1 operation(s) for listusers.
   name: Amazon Transfer Family ListUsers API
   slug: amazon-transfer-family-listusers-api
-- description: The ListWebApps API from Amazon Transfer Family — 1 operation(s) for listwebapps.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListWebApps API from Amazon Transfer Family — 1 operation(s) for listwebapps.
   name: Amazon Transfer Family ListWebApps API
   slug: amazon-transfer-family-listwebapps-api
-- description: The ListWorkflows API from Amazon Transfer Family — 1 operation(s) for listworkflows.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorkflows API from Amazon Transfer Family — 1 operation(s) for listworkflows.
   name: Amazon Transfer Family ListWorkflows API
   slug: amazon-transfer-family-listworkflows-api
-- description: The SendWorkflowStepState API from Amazon Transfer Family — 1 operation(s) for sendworkflowstepstate.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The SendWorkflowStepState API from Amazon Transfer Family — 1 operation(s) for sendworkflowstepstate.
   name: Amazon Transfer Family SendWorkflowStepState API
   slug: amazon-transfer-family-sendworkflowstepstate-api
-- description: The StartDirectoryListing API from Amazon Transfer Family — 1 operation(s) for startdirectorylisting.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The StartDirectoryListing API from Amazon Transfer Family — 1 operation(s) for startdirectorylisting.
   name: Amazon Transfer Family StartDirectoryListing API
   slug: amazon-transfer-family-startdirectorylisting-api
-- description: The StartFileTransfer API from Amazon Transfer Family — 1 operation(s) for startfiletransfer.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The StartFileTransfer API from Amazon Transfer Family — 1 operation(s) for startfiletransfer.
   name: Amazon Transfer Family StartFileTransfer API
   slug: amazon-transfer-family-startfiletransfer-api
-- description: The StartRemoteDelete API from Amazon Transfer Family — 1 operation(s) for startremotedelete.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The StartRemoteDelete API from Amazon Transfer Family — 1 operation(s) for startremotedelete.
   name: Amazon Transfer Family StartRemoteDelete API
   slug: amazon-transfer-family-startremotedelete-api
-- description: The StartRemoteMove API from Amazon Transfer Family — 1 operation(s) for startremotemove.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The StartRemoteMove API from Amazon Transfer Family — 1 operation(s) for startremotemove.
   name: Amazon Transfer Family StartRemoteMove API
   slug: amazon-transfer-family-startremotemove-api
-- description: The StartServer API from Amazon Transfer Family — 1 operation(s) for startserver.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The StartServer API from Amazon Transfer Family — 1 operation(s) for startserver.
   name: Amazon Transfer Family StartServer API
   slug: amazon-transfer-family-startserver-api
-- description: The StopServer API from Amazon Transfer Family — 1 operation(s) for stopserver.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The StopServer API from Amazon Transfer Family — 1 operation(s) for stopserver.
   name: Amazon Transfer Family StopServer API
   slug: amazon-transfer-family-stopserver-api
-- description: The TagResource API from Amazon Transfer Family — 1 operation(s) for tagresource.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from Amazon Transfer Family — 1 operation(s) for tagresource.
   name: Amazon Transfer Family TagResource API
   slug: amazon-transfer-family-tagresource-api
-- description: The TestConnection API from Amazon Transfer Family — 1 operation(s) for testconnection.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The TestConnection API from Amazon Transfer Family — 1 operation(s) for testconnection.
   name: Amazon Transfer Family TestConnection API
   slug: amazon-transfer-family-testconnection-api
-- description: The TestIdentityProvider API from Amazon Transfer Family — 1 operation(s) for testidentityprovider.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The TestIdentityProvider API from Amazon Transfer Family — 1 operation(s) for testidentityprovider.
   name: Amazon Transfer Family TestIdentityProvider API
   slug: amazon-transfer-family-testidentityprovider-api
-- description: The UntagResource API from Amazon Transfer Family — 1 operation(s) for untagresource.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from Amazon Transfer Family — 1 operation(s) for untagresource.
   name: Amazon Transfer Family UntagResource API
   slug: amazon-transfer-family-untagresource-api
-- description: The UpdateAccess API from Amazon Transfer Family — 1 operation(s) for updateaccess.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateAccess API from Amazon Transfer Family — 1 operation(s) for updateaccess.
   name: Amazon Transfer Family UpdateAccess API
   slug: amazon-transfer-family-updateaccess-api
-- description: The UpdateAgreement API from Amazon Transfer Family — 1 operation(s) for updateagreement.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateAgreement API from Amazon Transfer Family — 1 operation(s) for updateagreement.
   name: Amazon Transfer Family UpdateAgreement API
   slug: amazon-transfer-family-updateagreement-api
-- description: The UpdateCertificate API from Amazon Transfer Family — 1 operation(s) for updatecertificate.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateCertificate API from Amazon Transfer Family — 1 operation(s) for updatecertificate.
   name: Amazon Transfer Family UpdateCertificate API
   slug: amazon-transfer-family-updatecertificate-api
-- description: The UpdateConnector API from Amazon Transfer Family — 1 operation(s) for updateconnector.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateConnector API from Amazon Transfer Family — 1 operation(s) for updateconnector.
   name: Amazon Transfer Family UpdateConnector API
   slug: amazon-transfer-family-updateconnector-api
-- description: The UpdateHostKey API from Amazon Transfer Family — 1 operation(s) for updatehostkey.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateHostKey API from Amazon Transfer Family — 1 operation(s) for updatehostkey.
   name: Amazon Transfer Family UpdateHostKey API
   slug: amazon-transfer-family-updatehostkey-api
-- description: The UpdateProfile API from Amazon Transfer Family — 1 operation(s) for updateprofile.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateProfile API from Amazon Transfer Family — 1 operation(s) for updateprofile.
   name: Amazon Transfer Family UpdateProfile API
   slug: amazon-transfer-family-updateprofile-api
-- description: The UpdateServer API from Amazon Transfer Family — 1 operation(s) for updateserver.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateServer API from Amazon Transfer Family — 1 operation(s) for updateserver.
   name: Amazon Transfer Family UpdateServer API
   slug: amazon-transfer-family-updateserver-api
-- description: The UpdateUser API from Amazon Transfer Family — 1 operation(s) for updateuser.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateUser API from Amazon Transfer Family — 1 operation(s) for updateuser.
   name: Amazon Transfer Family UpdateUser API
   slug: amazon-transfer-family-updateuser-api
-- description: The UpdateWebApp API from Amazon Transfer Family — 1 operation(s) for updatewebapp.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateWebApp API from Amazon Transfer Family — 1 operation(s) for updatewebapp.
   name: Amazon Transfer Family UpdateWebApp API
   slug: amazon-transfer-family-updatewebapp-api
-- description: The UpdateWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for updatewebappcustomization.
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for updatewebappcustomization.
   name: Amazon Transfer Family UpdateWebAppCustomization API
   slug: amazon-transfer-family-updatewebappcustomization-api
 artifact_total: 157
@@ -631,7 +773,7 @@ score:
       marker_coverage: 0.0
       total: 72
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/screenshots/amazon-transfer-family-2026-06-20T171837.png
 security:

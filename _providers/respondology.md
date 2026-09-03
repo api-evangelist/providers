@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,22 +36,32 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'Respondology delivers comment moderation and analysis results via webhook. These webhooks provide the outcome of moderation decisions along with any recorded analysis data. To configure or update the '
+- baseURL: https://webhooks.respondology.io/
+  baseurl_source: declared
+  description: 'Respondology delivers comment moderation and analysis results via webhook. These webhooks provide the outcome of moderation decisions along with any recorded analysis data. To configure or update the '
   name: Respondology Comment Results API
   slug: respondology-comment-results-api
-- description: Send comments to Respondology for moderation and analysis, update or remove them as needed, and check their current processing status.
+- baseURL: https://webhooks.respondology.io/
+  baseurl_source: declared
+  description: Send comments to Respondology for moderation and analysis, update or remove them as needed, and check their current processing status.
   name: Respondology Comments API
   slug: respondology-comments-api
-- description: The following table lists all of the possible moderation rejection reasons that may be returned in the `moderation_reasons` array when a comment is rejected, ordered alphabetically. If a comment is re
+- baseURL: https://webhooks.respondology.io/
+  baseurl_source: declared
+  description: The following table lists all of the possible moderation rejection reasons that may be returned in the `moderation_reasons` array when a comment is rejected, ordered alphabetically. If a comment is re
   name: Respondology Moderation Reasons API
   slug: respondology-moderation-reasons-api
-- description: Respondology delivers post analysis and recording results via webhook. To configure or update the endpoint where result webhooks are sent, contact your account manager.
+- baseURL: https://webhooks.respondology.io/
+  baseurl_source: declared
+  description: Respondology delivers post analysis and recording results via webhook. To configure or update the endpoint where result webhooks are sent, contact your account manager.
   name: Respondology Post Results API
   slug: respondology-post-results-api
-- description: Submit posts to Respondology for moderation and analysis, update or remove them as needed, and check their current processing status.
+- baseURL: https://webhooks.respondology.io/
+  baseurl_source: declared
+  description: Submit posts to Respondology for moderation and analysis, update or remove them as needed, and check their current processing status.
   name: Respondology Posts API
   slug: respondology-posts-api
 artifact_total: 11
@@ -152,24 +175,24 @@ rate_limits:
   name: Respondology Rate Limits
   slug: respondology-rate-limits
 score:
-  band: thin
-  composite: 39.0
+  band: developing
+  composite: 39.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 64.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.8
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 8.3
-    contract_quality: 48.1
+    contract_quality: 51.4
     developer_ergonomics: 20.8
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 26.3
-  previous_composite: 39.1
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +203,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/respondology/refs/heads/main/screenshots/respondology-2026-09-02T153555.png
 security:
 - kind: authentication
   name: Respondology Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 15 operations · 3 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 client-credentials token issuance.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: OAuth 2.0 client-credentials token issuance.
   name: 3PL Warehouse Manager Authentication API
   slug: 3plcentral-authentication-api
-- description: Customers (merchants) a 3PL fulfills for.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Customers (merchants) a 3PL fulfills for.
   name: 3PL Warehouse Manager Customers API
   slug: 3plcentral-customers-api
-- description: On-hand inventory and per-receive stock details.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: On-hand inventory and per-receive stock details.
   name: 3PL Warehouse Manager Inventory API
   slug: 3plcentral-inventory-api
-- description: Customer SKU items (catalog).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Customer SKU items (catalog).
   name: 3PL Warehouse Manager Items API
   slug: 3plcentral-items-api
-- description: Outbound order creation and retrieval.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Outbound order creation and retrieval.
   name: 3PL Warehouse Manager Orders API
   slug: 3plcentral-orders-api
-- description: Packages (cartons) on a shipped order.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Packages (cartons) on a shipped order.
   name: 3PL Warehouse Manager Packages API
   slug: 3plcentral-packages-api
-- description: Inbound receivers (Advance Ship Notices).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Inbound receivers (Advance Ship Notices).
   name: 3PL Warehouse Manager Receivers API
   slug: 3plcentral-receivers-api
-- description: Rolled-up on-hand / available / allocated quantities.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Rolled-up on-hand / available / allocated quantities.
   name: 3PL Warehouse Manager Stock Summaries API
   slug: 3plcentral-stock-summaries-api
-- description: Facilities and their bin locations.
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Facilities and their bin locations.
   name: 3PL Warehouse Manager Warehouses API
   slug: 3plcentral-warehouses-api
 artifact_total: 27
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3plcentral/refs/heads/main/screenshots/3plcentral-2026-07-25T181157.png
 security:

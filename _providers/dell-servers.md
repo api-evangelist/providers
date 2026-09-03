@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -68,61 +68,99 @@ apis:
 - description: Web Services Management API for Dell server hardware management. WSMan provides a SOAP-based interface for managing server configuration, BIOS, RAID, NIC, and HBA settings on Dell PowerEdge servers th
   name: Dell WSMan API
   slug: dell-servers-wsman
-- description: User account management and role-based access control
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: User account management and role-based access control
   name: Dell Servers Accounts API
   slug: dell-servers-accounts-api
-- description: Alert monitoring, acknowledgment, and management
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Alert monitoring, acknowledgment, and management
   name: Dell Servers Alerts API
   slug: dell-servers-alerts-api
-- description: Console configuration including network, time, and proxy settings
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Console configuration including network, time, and proxy settings
   name: Dell Servers Application Settings API
   slug: dell-servers-application-settings-api
-- description: Physical enclosure resources including power supplies, thermal sensors, and physical component inventory
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Physical enclosure resources including power supplies, thermal sensors, and physical component inventory
   name: Dell Servers Chassis API
   slug: dell-servers-chassis-api
-- description: Server configuration templates and compliance baselines
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Server configuration templates and compliance baselines
   name: Dell Servers Configuration API
   slug: dell-servers-configuration-api
-- description: Device inventory, status, and hardware details for managed servers
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Device inventory, status, and hardware details for managed servers
   name: Dell Servers Devices API
   slug: dell-servers-devices-api
-- description: Network discovery configuration and job management
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Network discovery configuration and job management
   name: Dell Servers Discovery API
   slug: dell-servers-discovery-api
-- description: Event subscriptions and server-sent events configuration
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Event subscriptions and server-sent events configuration
   name: Dell Servers Event Service API
   slug: dell-servers-event-service-api
-- description: Firmware catalog management, compliance, and update operations
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Firmware catalog management, compliance, and update operations
   name: Dell Servers Firmware API
   slug: dell-servers-firmware-api
-- description: Device group management for organizing servers and infrastructure
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Device group management for organizing servers and infrastructure
   name: Dell Servers Groups API
   slug: dell-servers-groups-api
-- description: Job creation, scheduling, and status tracking
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Job creation, scheduling, and status tracking
   name: Dell Servers Jobs API
   slug: dell-servers-jobs-api
-- description: Management controller resources for iDRAC configuration, networking, and remote services
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Management controller resources for iDRAC configuration, networking, and remote services
   name: Dell Servers Managers API
   slug: dell-servers-managers-api
-- description: Report definitions and execution
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Report definitions and execution
   name: Dell Servers Reports API
   slug: dell-servers-reports-api
-- description: Redfish service root and metadata
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Redfish service root and metadata
   name: Dell Servers Service Root API
   slug: dell-servers-service-root-api
-- description: Authentication session creation and management
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Authentication session creation and management
   name: Dell Servers Sessions API
   slug: dell-servers-sessions-api
-- description: Computer system resources including hardware inventory, health status, power state, and BIOS configuration
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Computer system resources including hardware inventory, health status, power state, and BIOS configuration
   name: Dell Servers Systems API
   slug: dell-servers-systems-api
-- description: Asynchronous task tracking and lifecycle job management
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Asynchronous task tracking and lifecycle job management
   name: Dell Servers Task Service API
   slug: dell-servers-task-service-api
-- description: Telemetry metric definitions and metric report management
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Telemetry metric definitions and metric report management
   name: Dell Servers Telemetry Service API
   slug: dell-servers-telemetry-service-api
-- description: Firmware update operations and firmware inventory
+- baseURL: https://{idrac-ip}/redfish/v1
+  baseurl_source: declared
+  description: Firmware update operations and firmware inventory
   name: Dell Servers Update Service API
   slug: dell-servers-update-service-api
 arazzos:
@@ -582,7 +620,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png
 security:

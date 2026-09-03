@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REDU (Repositorio de Dados de Pesquisa da Unicamp) is Unicamp's institutional research data repository, self-hosted on the open-source Dataverse platform at redu.unicamp.br - a Unicamp-owned host, not
@@ -42,7 +42,9 @@ apis:
 - description: 'OAI-PMH 2.0 metadata harvesting endpoint for REDU, on Unicamp''s own host. Verified live 2026-09-01: verb=Identify returns 200 for repository "Repositorio de Dados de Pesquisa da Unicamp Dataverse OAI '
   name: REDU OAI-PMH Metadata Endpoint
   slug: redu-oai-pmh
-- description: API gateway (Kong) for Unicamp's Escritorio de Dados e Apoio a Tomada de Decisao (EDAT), the university's data office. It backs catalogo.dados.unicamp.br and apoio.dados.unicamp.br. Verified live 2026
+- baseURL: https://api.dados.unicamp.br
+  baseurl_source: declared
+  description: API gateway (Kong) for Unicamp's Escritorio de Dados e Apoio a Tomada de Decisao (EDAT), the university's data office. It backs catalogo.dados.unicamp.br and apoio.dados.unicamp.br. Verified live 2026
   name: EDAT Data Platform API
   slug: edat-data-api
 - description: 'Unicamp-operated Keycloak authorization server (realm `edat`) that issues the credentials for the EDAT data platform. Verified live 2026-09-01: the OIDC discovery document at /realms/edat/.well-known/'
@@ -182,7 +184,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 30.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -192,7 +194,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 18.9
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -207,8 +209,8 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/screenshots/unicamp-2026-06-20T200024.png
 security:
 - kind: authentication

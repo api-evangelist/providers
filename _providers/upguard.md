@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 133 operations · 37 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The breaches API from UpGuard — 5 operation(s) for breaches.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The breaches API from UpGuard — 5 operation(s) for breaches.
   name: UpGuard breaches API
   slug: upguard-breaches-api
-- description: The bulk API from UpGuard — 4 operation(s) for bulk.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The bulk API from UpGuard — 4 operation(s) for bulk.
   name: UpGuard bulk API
   slug: upguard-bulk-api
-- description: The dataleaks API from UpGuard — 2 operation(s) for dataleaks.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The dataleaks API from UpGuard — 2 operation(s) for dataleaks.
   name: UpGuard dataleaks API
   slug: upguard-dataleaks-api
-- description: The domains API from UpGuard — 3 operation(s) for domains.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The domains API from UpGuard — 3 operation(s) for domains.
   name: UpGuard domains API
   slug: upguard-domains-api
-- description: The ips API from UpGuard — 4 operation(s) for ips.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The ips API from UpGuard — 4 operation(s) for ips.
   name: UpGuard ips API
   slug: upguard-ips-api
-- description: The labels API from UpGuard — 1 operation(s) for labels.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The labels API from UpGuard — 1 operation(s) for labels.
   name: UpGuard labels API
   slug: upguard-labels-api
-- description: The notifications API from UpGuard — 1 operation(s) for notifications.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The notifications API from UpGuard — 1 operation(s) for notifications.
   name: UpGuard notifications API
   slug: upguard-notifications-api
-- description: The organisation API from UpGuard — 1 operation(s) for organisation.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The organisation API from UpGuard — 1 operation(s) for organisation.
   name: UpGuard organisation API
   slug: upguard-organisation-api
-- description: The reports API from UpGuard — 3 operation(s) for reports.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The reports API from UpGuard — 3 operation(s) for reports.
   name: UpGuard reports API
   slug: upguard-reports-api
-- description: The risks API from UpGuard — 13 operation(s) for risks.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The risks API from UpGuard — 13 operation(s) for risks.
   name: UpGuard risks API
   slug: upguard-risks-api
-- description: The subsidiaries API from UpGuard — 8 operation(s) for subsidiaries.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The subsidiaries API from UpGuard — 8 operation(s) for subsidiaries.
   name: UpGuard subsidiaries API
   slug: upguard-subsidiaries-api
-- description: The threatmonitoring API from UpGuard — 9 operation(s) for threatmonitoring.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The threatmonitoring API from UpGuard — 9 operation(s) for threatmonitoring.
   name: UpGuard threatmonitoring API
   slug: upguard-threatmonitoring-api
-- description: The trust_exchange API from UpGuard — 15 operation(s) for trust_exchange.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The trust_exchange API from UpGuard — 15 operation(s) for trust_exchange.
   name: UpGuard trust_exchange API
   slug: upguard-trust-exchange-api
-- description: The typosquat API from UpGuard — 2 operation(s) for typosquat.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The typosquat API from UpGuard — 2 operation(s) for typosquat.
   name: UpGuard typosquat API
   slug: upguard-typosquat-api
-- description: The userrisk API from UpGuard — 15 operation(s) for userrisk.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The userrisk API from UpGuard — 15 operation(s) for userrisk.
   name: UpGuard userrisk API
   slug: upguard-userrisk-api
-- description: The vendors API from UpGuard — 32 operation(s) for vendors.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The vendors API from UpGuard — 32 operation(s) for vendors.
   name: UpGuard vendors API
   slug: upguard-vendors-api
-- description: The vulnerabilities API from UpGuard — 2 operation(s) for vulnerabilities.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The vulnerabilities API from UpGuard — 2 operation(s) for vulnerabilities.
   name: UpGuard vulnerabilities API
   slug: upguard-vulnerabilities-api
-- description: The webhooks API from UpGuard — 3 operation(s) for webhooks.
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The webhooks API from UpGuard — 3 operation(s) for webhooks.
   name: UpGuard webhooks API
   slug: upguard-webhooks-api
 artifact_total: 44
@@ -325,7 +361,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -335,7 +371,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 51.3
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/screenshots/upguard-2026-08-17T082637.png
 security:

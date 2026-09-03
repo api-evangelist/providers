@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Appointments API from Acuity Scheduling — 3 operation(s) for appointments.
+- baseURL: https://acuityscheduling.com/api/v1/
+  baseurl_source: declared
+  description: The Appointments API from Acuity Scheduling — 3 operation(s) for appointments.
   name: Acuity Scheduling Appointments API
   slug: acuity-appointments-api
-- description: The Meta API from Acuity Scheduling — 1 operation(s) for meta.
+- baseURL: https://acuityscheduling.com/api/v1/
+  baseurl_source: declared
+  description: The Meta API from Acuity Scheduling — 1 operation(s) for meta.
   name: Acuity Scheduling Meta API
   slug: acuity-meta-api
-- description: The Payments API from Acuity Scheduling — 1 operation(s) for payments.
+- baseURL: https://acuityscheduling.com/api/v1/
+  baseurl_source: declared
+  description: The Payments API from Acuity Scheduling — 1 operation(s) for payments.
   name: Acuity Scheduling Payments API
   slug: acuity-payments-api
 artifact_total: 18
@@ -212,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/screenshots/acuity-2026-06-20T164353.png
 security:

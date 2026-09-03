@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 101 operations · 50 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: 'This service may be used by an AISP to request information about the account of a PSU. The account is managed by the ASPSP providing the XS2A Interface. Functionality and restrictions of this service '
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: 'This service may be used by an AISP to request information about the account of a PSU. The account is managed by the ASPSP providing the XS2A Interface. Functionality and restrictions of this service '
   name: Triodos Bank UK Account Information Service API
   slug: triodos-bank-uk-account-information-service-api
-- description: The Authorization Endpoint performs authentication of the end-user.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The Authorization Endpoint performs authentication of the end-user.
   name: Triodos Bank UK Authorization Endpoint API
   slug: triodos-bank-uk-authorization-endpoint-api
-- description: The Client Registration Endpoint performs registration of the client.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The Client Registration Endpoint performs registration of the client.
   name: Triodos Bank UK Client Registration Endpoint API
   slug: triodos-bank-uk-client-registration-endpoint-api
-- description: The Configuration Endpoint provides configuration information about this OpenID service.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The Configuration Endpoint provides configuration information about this OpenID service.
   name: Triodos Bank UK Configuration Endpoint API
   slug: triodos-bank-uk-configuration-endpoint-api
-- description: This service may be used by a PIISP to request a confirmation of the availability of specific funds on the account of a PSU. The account is managed by the ASPSP providing the XS2A Interface. Functiona
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: This service may be used by a PIISP to request a confirmation of the availability of specific funds on the account of a PSU. The account is managed by the ASPSP providing the XS2A Interface. Functiona
   name: Triodos Bank UK Confirmation of Funds Service API
   slug: triodos-bank-uk-confirmation-of-funds-service-api
-- description: The Extended Account Information Service API from Triodos Bank UK — 4 operation(s) for extended account information service.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The Extended Account Information Service API from Triodos Bank UK — 4 operation(s) for extended account information service.
   name: Triodos Bank UK Extended Account Information Service API
   slug: triodos-bank-uk-extended-account-information-service-api
-- description: The Initial Access Token Service API from Triodos Bank UK — 1 operation(s) for initial access token service.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The Initial Access Token Service API from Triodos Bank UK — 1 operation(s) for initial access token service.
   name: Triodos Bank UK Initial Access Token Service API
   slug: triodos-bank-uk-initial-access-token-service-api
-- description: This service may be used by a PISP to initiate a single payment on behalf of a PSU using a given account of that PSU. The account is managed by the ASPSP providing the XS2A Interface. Functionality an
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: This service may be used by a PISP to initiate a single payment on behalf of a PSU using a given account of that PSU. The account is managed by the ASPSP providing the XS2A Interface. Functionality an
   name: Triodos Bank UK Payment Initiation Service API
   slug: triodos-bank-uk-payment-initiation-service-api
-- description: The Token Endpoint provides and revokes access tokens and refresh tokens.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The Token Endpoint provides and revokes access tokens and refresh tokens.
   name: Triodos Bank UK Token Endpoint API
   slug: triodos-bank-uk-token-endpoint-api
-- description: The UserInfo Endpoint provides information about the authenticated end-user.
+- baseURL: https://api-ma.triodos.com/xs2a-bg
+  baseurl_source: declared
+  description: The UserInfo Endpoint provides information about the authenticated end-user.
   name: Triodos Bank UK UserInfo Endpoint API
   slug: triodos-bank-uk-userinfo-endpoint-api
 artifact_total: 18
@@ -289,7 +309,7 @@ score:
     regime_id: banking_open_finance
     score: 94.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/screenshots/triodos-bank-uk-2026-08-17T082439.png
 security:

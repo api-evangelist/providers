@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -48,7 +48,9 @@ apis:
 - description: Real-time management of end-user profile information with webhook events for new chats and profile updates.
   name: Ada End Users API
   slug: ada-end-users-api
-- description: Build custom channels and extend Ada into proprietary apps or third-party platforms with full conversation lifecycle control.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: Build custom channels and extend Ada into proprietary apps or third-party platforms with full conversation lifecycle control.
   name: Ada Conversations API
   slug: ada-conversations-api
 - description: Connect external applications to Ada using OAuth to extend AI agent capabilities with partner-built integrations.
@@ -57,55 +59,89 @@ apis:
 - description: Model Context Protocol server exposing Ada's management surface to AI assistants — metrics, conversation transcripts, knowledge and coaching search, entity discovery, test cases and runs, change sets,
   name: Ada MCP Server
   slug: ada-mcp-server
-- description: The auditLog API from Ada — 1 operation(s) for auditlog.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The auditLog API from Ada — 1 operation(s) for auditlog.
   name: Ada Audit Log API
   slug: ada-auditlog-api
-- description: The channels API from Ada — 2 operation(s) for channels.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The channels API from Ada — 2 operation(s) for channels.
   name: Ada Channels API
   slug: ada-channels-api
-- description: The conversations API from Ada — 9 operation(s) for conversations.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The conversations API from Ada — 9 operation(s) for conversations.
   name: Ada Conversations API
   slug: ada-conversations-api
-- description: The customInstructions API from Ada — 2 operation(s) for custominstructions.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The customInstructions API from Ada — 2 operation(s) for custominstructions.
   name: Ada Custom Instructions API
   slug: ada-custominstructions-api
-- description: The deleteChatterData API from Ada — 1 operation(s) for deletechatterdata.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The deleteChatterData API from Ada — 1 operation(s) for deletechatterdata.
   name: Ada Delete Chatter Data API
   slug: ada-deletechatterdata-api
-- description: The endUsers API from Ada — 2 operation(s) for endusers.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The endUsers API from Ada — 2 operation(s) for endusers.
   name: Ada End Users API
   slug: ada-endusers-api
-- description: The getDeletionJob API from Ada — 1 operation(s) for getdeletionjob.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The getDeletionJob API from Ada — 1 operation(s) for getdeletionjob.
   name: Ada Get Deletion Job API
   slug: ada-getdeletionjob-api
-- description: The Knowledge API from Ada — 0 operation(s) for knowledge.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The Knowledge API from Ada — 0 operation(s) for knowledge.
   name: Ada Knowledge API
   slug: ada-knowledge-api
-- description: The knowledge > articles API from Ada — 3 operation(s) for knowledge > articles.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The knowledge > articles API from Ada — 3 operation(s) for knowledge > articles.
   name: Ada knowledge > articles API
   slug: ada-knowledge-articles-api
-- description: The knowledge > sources API from Ada — 2 operation(s) for knowledge > sources.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The knowledge > sources API from Ada — 2 operation(s) for knowledge > sources.
   name: Ada knowledge > sources API
   slug: ada-knowledge-sources-api
-- description: The knowledge > tags API from Ada — 3 operation(s) for knowledge > tags.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The knowledge > tags API from Ada — 3 operation(s) for knowledge > tags.
   name: Ada knowledge > tags API
   slug: ada-knowledge-tags-api
-- description: The messages API from Ada — 2 operation(s) for messages.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The messages API from Ada — 2 operation(s) for messages.
   name: Ada Messages API
   slug: ada-messages-api
-- description: The persona API from Ada — 1 operation(s) for persona.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The persona API from Ada — 1 operation(s) for persona.
   name: Ada Persona API
   slug: ada-persona-api
-- description: The platformIntegrations API from Ada — 4 operation(s) for platformintegrations.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The platformIntegrations API from Ada — 4 operation(s) for platformintegrations.
   name: Ada Platform Integrations API
   slug: ada-platformintegrations-api
-- description: The submitDeletionRequest API from Ada — 1 operation(s) for submitdeletionrequest.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The submitDeletionRequest API from Ada — 1 operation(s) for submitdeletionrequest.
   name: Ada Submit Deletion Request API
   slug: ada-submitdeletionrequest-api
-- description: The Variables API from Ada — 2 operation(s) for variables.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The Variables API from Ada — 2 operation(s) for variables.
   name: Ada Variables API
   slug: ada-variables-api
-- description: The webhookManagement API from Ada — 5 operation(s) for webhookmanagement.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The webhookManagement API from Ada — 5 operation(s) for webhookmanagement.
   name: Ada Webhook Management API
   slug: ada-webhookmanagement-api
 artifact_total: 51
@@ -468,23 +504,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 73.8
+  composite: 73.9
   coverage:
     artifact_dirs: 33
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
     contract_governance: 43.2
-    contract_quality: 71.1
+    contract_quality: 71.6
     developer_ergonomics: 85.7
     discoverability: 92.6
     governance: 43.2
     operational_transparency: 60.5
-  previous_composite: 74.0
+  previous_composite: 73.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -496,7 +532,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:

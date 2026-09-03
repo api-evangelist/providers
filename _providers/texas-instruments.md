@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 2
 apis:
-- description: Financial document and invoice retrieval
+- baseURL: https://transact.ti.com/v2/store
+  baseurl_source: declared
+  description: Financial document and invoice retrieval
   name: Texas Instruments Financial API
   slug: texas-instruments-financial-api
-- description: Order creation and retrieval
+- baseURL: https://transact.ti.com/v2/store
+  baseurl_source: declared
+  description: Order creation and retrieval
   name: Texas Instruments Orders API
   slug: texas-instruments-orders-api
-- description: Product details and parametric data
+- baseURL: https://transact.ti.com/v2/store
+  baseurl_source: declared
+  description: Product details and parametric data
   name: Texas Instruments Product Information API
   slug: texas-instruments-product-information-api
-- description: Single-call product details including quality and reliability
+- baseURL: https://transact.ti.com/v2/store
+  baseurl_source: declared
+  description: Single-call product details including quality and reliability
   name: Texas Instruments Product Information Orchestrated API
   slug: texas-instruments-product-information-orchestrated-api
-- description: Product inventory, pricing, and catalog endpoints
+- baseURL: https://transact.ti.com/v2/store
+  baseurl_source: declared
+  description: Product inventory, pricing, and catalog endpoints
   name: Texas Instruments Products API
   slug: texas-instruments-products-api
-- description: Advanced Ship Notice (ASN) retrieval
+- baseURL: https://transact.ti.com/v2/store
+  baseurl_source: declared
+  description: Advanced Ship Notice (ASN) retrieval
   name: Texas Instruments Shipments API
   slug: texas-instruments-shipments-api
 artifact_total: 29
@@ -282,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/screenshots/texas-instruments-2026-06-20T195203.png
 security:

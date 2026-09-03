@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 9 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 client-credentials token issuance.
+- baseURL: https://api.pomelo.la
+  baseurl_source: declared
+  description: OAuth 2.0 client-credentials token issuance.
   name: Pomelo Authentication API
   slug: pomelo-authentication-api
-- description: Card account balances, activities, and movements.
+- baseURL: https://api.pomelo.la
+  baseurl_source: declared
+  description: Card account balances, activities, and movements.
   name: Pomelo Card Accounts API
   slug: pomelo-card-accounts-api
-- description: Issuing and lifecycle of physical and virtual cards.
+- baseURL: https://api.pomelo.la
+  baseurl_source: declared
+  description: Issuing and lifecycle of physical and virtual cards.
   name: Pomelo Cards API
   slug: pomelo-cards-api
-- description: Processed transactions, summaries, and history.
+- baseURL: https://api.pomelo.la
+  baseurl_source: declared
+  description: Processed transactions, summaries, and history.
   name: Pomelo Transactions API
   slug: pomelo-transactions-api
-- description: Money movement and settlements across card accounts.
+- baseURL: https://api.pomelo.la
+  baseurl_source: declared
+  description: Money movement and settlements across card accounts.
   name: Pomelo Transfers API
   slug: pomelo-transfers-api
-- description: Cardholder records and KYC/KYB identity verification.
+- baseURL: https://api.pomelo.la
+  baseurl_source: declared
+  description: Cardholder records and KYC/KYB identity verification.
   name: Pomelo Users API
   slug: pomelo-users-api
 artifact_total: 21
@@ -167,7 +179,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +208,9 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/screenshots/pomelo-2026-09-02T151717.png
 security:
 - kind: authentication
   name: Pomelo Authentication

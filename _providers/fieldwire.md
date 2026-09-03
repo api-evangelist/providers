@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 69 operations · 34 acting
 api_count: 6
 apis:
-- description: Actual cost entries logged against budget lines.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Actual cost entries logged against budget lines.
   name: Fieldwire Actual Costs API
   slug: fieldwire-actual-costs-api
-- description: Refresh-token / JWT exchange and session management.
+- baseURL: https://client-api.super.fieldwire.com
+  baseurl_source: spec
+  description: Refresh-token / JWT exchange and session management.
   name: Fieldwire Authentication API
   slug: fieldwire-authentication-api
-- description: Project budget line items tied to tier cost codes.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Project budget line items tied to tier cost codes.
   name: Fieldwire Budget Line Items API
   slug: fieldwire-budget-line-items-api
-- description: BIM and BIM versions attached to a project.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: BIM and BIM versions attached to a project.
   name: Fieldwire Building Information Models API
   slug: fieldwire-building-information-models-api
-- description: Project change orders that adjust scope and budget.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Project change orders that adjust scope and budget.
   name: Fieldwire Change Orders API
   slug: fieldwire-change-orders-api
-- description: Account-level custom stamps used on markups across projects.
+- baseURL: https://client-api.super.fieldwire.com
+  baseurl_source: spec
+  description: Account-level custom stamps used on markups across projects.
   name: Fieldwire Custom Stamps API
   slug: fieldwire-custom-stamps-api
-- description: Floorplan lifecycle, hierarchy, and collections.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Floorplan lifecycle, hierarchy, and collections.
   name: Fieldwire Floorplans API
   slug: fieldwire-floorplans-api
-- description: Inputs (text, number, photo, signature, choice, etc.) inside a section.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Inputs (text, number, photo, signature, choice, etc.) inside a section.
   name: Fieldwire Form Inputs API
   slug: fieldwire-form-inputs-api
-- description: Captured form responses per project.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Captured form responses per project.
   name: Fieldwire Form Records API
   slug: fieldwire-form-records-api
-- description: Section structure within a form template.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Section structure within a form template.
   name: Fieldwire Form Sections API
   slug: fieldwire-form-sections-api
-- description: Account-level form template lifecycle, duplication, and transfer.
+- baseURL: https://client-api.super.fieldwire.com
+  baseurl_source: spec
+  description: Account-level form template lifecycle, duplication, and transfer.
   name: Fieldwire Form Templates API
   slug: fieldwire-form-templates-api
-- description: Single and multi-hyperlink jumps between sheets.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Single and multi-hyperlink jumps between sheets.
   name: Fieldwire Hyperlinks API
   slug: fieldwire-hyperlinks-api
-- description: Requests for Information lifecycle.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Requests for Information lifecycle.
   name: Fieldwire RFIs API
   slug: fieldwire-rfis-api
-- description: Sheet upload and version management.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Sheet upload and version management.
   name: Fieldwire Sheets API
   slug: fieldwire-sheets-api
-- description: Specification sections used to organise submittals.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Specification sections used to organise submittals.
   name: Fieldwire Spec Sections API
   slug: fieldwire-spec-sections-api
-- description: Submittal lifecycle, approvals, and types.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Submittal lifecycle, approvals, and types.
   name: Fieldwire Submittals API
   slug: fieldwire-submittals-api
-- description: Webhook subscription lifecycle.
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Webhook subscription lifecycle.
   name: Fieldwire Subscriptions API
   slug: fieldwire-subscriptions-api
-- description: Account-level user, role, and permission management.
+- baseURL: https://client-api.super.fieldwire.com
+  baseurl_source: spec
+  description: Account-level user, role, and permission management.
   name: Fieldwire Users API
   slug: fieldwire-users-api
 artifact_total: 97
@@ -519,7 +555,7 @@ rules:
   slug: fieldwire-rules
 score:
   band: strong
-  composite: 58.9
+  composite: 58.7
   coverage:
     artifact_dirs: 19
     catalog_gap: 55.5
@@ -530,12 +566,12 @@ score:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 13.6
-    contract_quality: 69.0
+    contract_quality: 68.3
     developer_ergonomics: 59.5
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 68.4
-  previous_composite: 59.1
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -544,7 +580,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:

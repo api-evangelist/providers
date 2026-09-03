@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: 'Legacy REST API (v1) for searching datasets and records on Opendatasoft portals. Supports dataset search, dataset lookup, records search, records lookup, analysis, download, geo clustering, real-time '
   name: Opendatasoft Explore API v1 (Deprecated)
   slug: opendatasoft-explore-api-v1-deprecated
-- description: API to enumerate datasets
+- baseURL: https://{domain}/api/explore/v2.1
+  baseurl_source: declared
+  description: API to enumerate datasets
   name: Opendatasoft Catalog API
   slug: opendatasoft-catalog-api
-- description: API to work on records
+- baseURL: https://{domain}/api/explore/v2.1
+  baseurl_source: declared
+  description: API to work on records
   name: Opendatasoft Dataset API
   slug: opendatasoft-dataset-api
 artifact_total: 30
@@ -257,7 +261,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendatasoft/refs/heads/main/screenshots/opendatasoft-2026-06-20T190954.png
 security:

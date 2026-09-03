@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -77,13 +77,19 @@ apis:
 - description: The Splunk AppInspect API validates Splunk apps and add-ons against Splunk best practices and requirements for publishing to Splunkbase or installing on Splunk Cloud Platform. It provides automated ap
   name: Splunk AppInspect API
   slug: splunk-appinspect-api
-- description: Endpoints for configuring and managing data inputs including monitors, TCP/UDP inputs, scripted inputs, and HTTP Event Collector (HEC) tokens. Data inputs define how Splunk ingests data.
+- baseURL_template: https://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for configuring and managing data inputs including monitors, TCP/UDP inputs, scripted inputs, and HTTP Event Collector (HEC) tokens. Data inputs define how Splunk ingests data.
   name: Splunk Data Inputs API
   slug: splunk-data-inputs-api
-- description: Endpoints for managing Splunk indexes, which store and organize ingested data. Indexes can be created, modified, listed, and configured for retention and storage policies.
+- baseURL_template: https://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for managing Splunk indexes, which store and organize ingested data. Indexes can be created, modified, listed, and configured for retention and storage policies.
   name: Splunk Index API
   slug: splunk-index-api
-- description: Endpoints for creating, managing, and retrieving search jobs and their results. Splunk search processing language (SPL) queries are submitted as search jobs that run asynchronously.
+- baseURL_template: https://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for creating, managing, and retrieving search jobs and their results. Splunk search processing language (SPL) queries are submitted as search jobs that run asynchronously.
   name: Splunk Search API
   slug: splunk-search-api
 arazzos:
@@ -834,7 +840,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

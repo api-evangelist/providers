@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -50,34 +50,54 @@ apis:
 - description: Open-source Python SDK (mostlyai, Apache 2.0) for training generators and producing synthetic data. Runs in LOCAL mode on user compute or CLIENT mode against the MOSTLY AI Platform. Powered by the Tab
   name: MOSTLY AI Synthetic Data SDK
   slug: python-sdk
-- description: The About API from MOSTLY AI — 1 operation(s) for about.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The About API from MOSTLY AI — 1 operation(s) for about.
   name: MOSTLY AI About API
   slug: mostly-ai-about-api
-- description: The Computes API from MOSTLY AI — 2 operation(s) for computes.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Computes API from MOSTLY AI — 2 operation(s) for computes.
   name: MOSTLY AI Computes API
   slug: mostly-ai-computes-api
-- description: The Connectors API from MOSTLY AI — 7 operation(s) for connectors.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Connectors API from MOSTLY AI — 7 operation(s) for connectors.
   name: MOSTLY AI Connectors API
   slug: mostly-ai-connectors-api
-- description: The Datasets API from MOSTLY AI — 2 operation(s) for datasets.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Datasets API from MOSTLY AI — 2 operation(s) for datasets.
   name: MOSTLY AI Datasets API
   slug: mostly-ai-datasets-api
-- description: The Generators API from MOSTLY AI — 10 operation(s) for generators.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Generators API from MOSTLY AI — 10 operation(s) for generators.
   name: MOSTLY AI Generators API
   slug: mostly-ai-generators-api
-- description: The Models API from MOSTLY AI — 1 operation(s) for models.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Models API from MOSTLY AI — 1 operation(s) for models.
   name: MOSTLY AI Models API
   slug: mostly-ai-models-api
-- description: The Organizations API from MOSTLY AI — 3 operation(s) for organizations.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Organizations API from MOSTLY AI — 3 operation(s) for organizations.
   name: MOSTLY AI Organizations API
   slug: mostly-ai-organizations-api
-- description: The Synthetic Datasets API from MOSTLY AI — 5 operation(s) for synthetic datasets.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Synthetic Datasets API from MOSTLY AI — 5 operation(s) for synthetic datasets.
   name: MOSTLY AI Synthetic Datasets API
   slug: mostly-ai-synthetic-datasets-api
-- description: The Synthetic Probes API from MOSTLY AI — 1 operation(s) for synthetic probes.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Synthetic Probes API from MOSTLY AI — 1 operation(s) for synthetic probes.
   name: MOSTLY AI Synthetic Probes API
   slug: mostly-ai-synthetic-probes-api
-- description: The Users API from MOSTLY AI — 4 operation(s) for users.
+- baseURL: https://app.mostly.ai
+  baseurl_source: declared
+  description: The Users API from MOSTLY AI — 4 operation(s) for users.
   name: MOSTLY AI Users API
   slug: mostly-ai-users-api
 artifact_total: 30
@@ -238,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mostly-ai/refs/heads/main/screenshots/mostly-ai-2026-06-20T185821.png
 security:

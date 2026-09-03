@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 19 operations · 1 acting
 api_count: 1
 apis:
-- description: Shared API endpoints
+- baseURL: https://staking-api.babylonlabs.io
+  baseurl_source: declared
+  description: Shared API endpoints
   name: Babylon Labs shared API
   slug: babylon-labs-shared-api
-- description: Babylon Phase-1 API endpoints (Deprecated)
+- baseURL: https://staking-api.babylonlabs.io
+  baseurl_source: declared
+  description: Babylon Phase-1 API endpoints (Deprecated)
   name: Babylon Labs v1 API
   slug: babylon-labs-v1-api
-- description: Babylon Phase-2 API endpoints
+- baseURL: https://staking-api.babylonlabs.io
+  baseurl_source: declared
+  description: Babylon Phase-2 API endpoints
   name: Babylon Labs v2 API
   slug: babylon-labs-v2-api
 artifact_total: 10
@@ -209,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/screenshots/babylon-labs-2026-07-25T202203.png
 security:

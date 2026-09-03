@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: IIT Delhi runs its own Shibboleth identity provider at idp.iitd.ac.in and self-publishes its SAML 2.0 metadata as a machine-readable EntityDescriptor. The document names the institute as the organisat
@@ -42,7 +42,9 @@ apis:
 - description: 'OAI-PMH 2.0 metadata-harvesting interface for the IIT Delhi DSpace 8 institutional repository, on the institute''s own host. Verified functional on 2026-08-30, not merely mounted: Identify, ListMetadat'
   name: IIT Delhi Institutional Repository OAI-PMH
   slug: oai-pmh
-- description: Undocumented JSON API behind the shared React/Express site platform IIT Delhi runs across departmental and unit subdomains. Anonymous reads were confirmed on 2026-08-30 across three deployments — conv
+- baseURL: https://convocation.iitd.ac.in/api
+  baseurl_source: declared
+  description: Undocumented JSON API behind the shared React/Express site platform IIT Delhi runs across departmental and unit subdomains. Anonymous reads were confirmed on 2026-08-30 across three deployments — conv
   name: IIT Delhi Departmental Site Platform API
   slug: site-platform
 - description: The IIT Delhi Central Library institutional repository runs on DSpace 8.0 and exposes the standard DSpace REST/HAL API at /server/api on the institute's own host. The root endpoint is public and adver
@@ -230,7 +232,7 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -240,7 +242,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 36.9
+  previous_composite: 26.8
   provenance:
     conformance: derived
     contracts:
@@ -255,8 +257,8 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/screenshots/iit-delhi-2026-06-20T183235.png
 security:
 - kind: authentication

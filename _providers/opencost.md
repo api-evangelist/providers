@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Allocation API from OpenCost — 1 operation(s) for allocation.
+- baseURL: http://localhost:9003
+  baseurl_source: declared
+  description: The Allocation API from OpenCost — 1 operation(s) for allocation.
   name: OpenCost Allocation API
   slug: opencost-allocation-api
-- description: The Assets API from OpenCost — 1 operation(s) for assets.
+- baseURL: http://localhost:9003
+  baseurl_source: declared
+  description: The Assets API from OpenCost — 1 operation(s) for assets.
   name: OpenCost Assets API
   slug: opencost-assets-api
-- description: The CloudCost API from OpenCost — 1 operation(s) for cloudcost.
+- baseURL: http://localhost:9003
+  baseurl_source: declared
+  description: The CloudCost API from OpenCost — 1 operation(s) for cloudcost.
   name: OpenCost CloudCost API
   slug: opencost-cloudcost-api
-- description: The CustomCost API from OpenCost — 2 operation(s) for customcost.
+- baseURL: http://localhost:9003
+  baseurl_source: declared
+  description: The CustomCost API from OpenCost — 2 operation(s) for customcost.
   name: OpenCost CustomCost API
   slug: opencost-customcost-api
 artifact_total: 20
@@ -185,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencost/refs/heads/main/screenshots/opencost-2026-06-20T190924.png
 security:

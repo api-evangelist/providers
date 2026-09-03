@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -45,100 +45,164 @@ apis:
 - description: Medical platform which allows the development of applications for different healthcare scenarios
   name: Orion Health
   slug: orion-health
-- description: Clinical and population health alerts
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Clinical and population health alerts
   name: Orion Health Alerts API
   slug: orion-alerts-api
-- description: Operations on AllergyIntolerance resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on AllergyIntolerance resources
   name: Orion Health AllergyIntolerance API
   slug: orion-allergyintolerance-api
-- description: Population health analytics and reporting
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Population health analytics and reporting
   name: Orion Health Analytics API
   slug: orion-analytics-api
-- description: Audit log access for compliance
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Audit log access for compliance
   name: Orion Health Audit API
   slug: orion-audit-api
-- description: Care program management and enrollment
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Care program management and enrollment
   name: Orion Health Care Programs API
   slug: orion-care-programs-api
-- description: Operations on CarePlan resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on CarePlan resources
   name: Orion Health CarePlan API
   slug: orion-careplan-api
-- description: Patient cohort definition and analysis
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Patient cohort definition and analysis
   name: Orion Health Cohorts API
   slug: orion-cohorts-api
-- description: Communication point configuration and management
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Communication point configuration and management
   name: Orion Health Communication Points API
   slug: orion-communication-points-api
-- description: Operations on Condition resources (diagnoses, problems)
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on Condition resources (diagnoses, problems)
   name: Orion Health Condition API
   slug: orion-condition-api
-- description: Engine configuration management
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Engine configuration management
   name: Orion Health Configuration API
   slug: orion-configuration-api
-- description: Patient consent management for data sharing
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Patient consent management for data sharing
   name: Orion Health Consent API
   slug: orion-consent-api
-- description: Operations on DiagnosticReport resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on DiagnosticReport resources
   name: Orion Health DiagnosticReport API
   slug: orion-diagnosticreport-api
-- description: Operations on DocumentReference resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on DocumentReference resources
   name: Orion Health DocumentReference API
   slug: orion-documentreference-api
-- description: Clinical document exchange and retrieval
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Clinical document exchange and retrieval
   name: Orion Health Documents API
   slug: orion-documents-api
-- description: Operations on Encounter resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on Encounter resources
   name: Orion Health Encounter API
   slug: orion-encounter-api
-- description: Operations on Immunization resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on Immunization resources
   name: Orion Health Immunization API
   slug: orion-immunization-api
-- description: Lookup table management for data mapping
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Lookup table management for data mapping
   name: Orion Health Lookup Tables API
   slug: orion-lookup-tables-api
-- description: Operations on MedicationRequest resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on MedicationRequest resources
   name: Orion Health MedicationRequest API
   slug: orion-medicationrequest-api
-- description: Message queue monitoring and management
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Message queue monitoring and management
   name: Orion Health Message Queues API
   slug: orion-message-queues-api
-- description: Message search, inspection, and reprocessing
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Message search, inspection, and reprocessing
   name: Orion Health Messages API
   slug: orion-messages-api
-- description: Server capability and metadata operations
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Server capability and metadata operations
   name: Orion Health Metadata API
   slug: orion-metadata-api
-- description: System health and performance monitoring
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: System health and performance monitoring
   name: Orion Health Monitoring API
   slug: orion-monitoring-api
-- description: Admission, discharge, and transfer notifications
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Admission, discharge, and transfer notifications
   name: Orion Health Notifications API
   slug: orion-notifications-api
-- description: Operations on Observation resources (vitals, labs, etc.)
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on Observation resources (vitals, labs, etc.)
   name: Orion Health Observation API
   slug: orion-observation-api
-- description: Operations on Patient resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on Patient resources
   name: Orion Health Patient API
   slug: orion-patient-api
-- description: Patient identity matching and cross-referencing (MPI)
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Patient identity matching and cross-referencing (MPI)
   name: Orion Health Patient Identity API
   slug: orion-patient-identity-api
-- description: Operations on Procedure resources
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Operations on Procedure resources
   name: Orion Health Procedure API
   slug: orion-procedure-api
-- description: Provider and organization directory lookups
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Provider and organization directory lookups
   name: Orion Health Provider Directory API
   slug: orion-provider-directory-api
-- description: Healthcare quality measure tracking
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Healthcare quality measure tracking
   name: Orion Health Quality Measures API
   slug: orion-quality-measures-api
-- description: Patient registry management
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Patient registry management
   name: Orion Health Registries API
   slug: orion-registries-api
-- description: Patient risk scoring and stratification
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Patient risk scoring and stratification
   name: Orion Health Risk Stratification API
   slug: orion-risk-stratification-api
-- description: Integration route management
+- baseURL: https://api.orionhealth.com/fhir
+  baseurl_source: declared
+  description: Integration route management
   name: Orion Health Routes API
   slug: orion-routes-api
 artifact_total: 115
@@ -538,7 +602,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -548,7 +612,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 45.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -563,7 +627,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/screenshots/orion-health-2026-06-20T191207.png
 security:

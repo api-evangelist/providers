@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 51 operations · 24 acting
 api_count: 1
 apis:
-- description: The App API from Aptly — 2 operation(s) for app.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The App API from Aptly — 2 operation(s) for app.
   name: Aptly App API
   slug: aptly-app-api
-- description: The Board API from Aptly — 12 operation(s) for board.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Board API from Aptly — 12 operation(s) for board.
   name: Aptly Board API
   slug: aptly-board-api
-- description: The Boards API from Aptly — 1 operation(s) for boards.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Boards API from Aptly — 1 operation(s) for boards.
   name: Aptly Boards API
   slug: aptly-boards-api
-- description: The Cards API from Aptly — 6 operation(s) for cards.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Cards API from Aptly — 6 operation(s) for cards.
   name: Aptly Cards API
   slug: aptly-cards-api
-- description: The Company API from Aptly — 1 operation(s) for company.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Company API from Aptly — 1 operation(s) for company.
   name: Aptly Company API
   slug: aptly-company-api
-- description: The Contacts API from Aptly — 5 operation(s) for contacts.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Contacts API from Aptly — 5 operation(s) for contacts.
   name: Aptly Contacts API
   slug: aptly-contacts-api
-- description: The Email API from Aptly — 2 operation(s) for email.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Email API from Aptly — 2 operation(s) for email.
   name: Aptly Email API
   slug: aptly-email-api
-- description: The Files API from Aptly — 2 operation(s) for files.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Files API from Aptly — 2 operation(s) for files.
   name: Aptly Files API
   slug: aptly-files-api
-- description: The Inboxes API from Aptly — 1 operation(s) for inboxes.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Inboxes API from Aptly — 1 operation(s) for inboxes.
   name: Aptly Inboxes API
   slug: aptly-inboxes-api
-- description: The Knowledge API from Aptly — 2 operation(s) for knowledge.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Knowledge API from Aptly — 2 operation(s) for knowledge.
   name: Aptly Knowledge API
   slug: aptly-knowledge-api
-- description: The RoutingGroups API from Aptly — 4 operation(s) for routinggroups.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The RoutingGroups API from Aptly — 4 operation(s) for routinggroups.
   name: Aptly RoutingGroups API
   slug: aptly-routinggroups-api
-- description: The Schema API from Aptly — 1 operation(s) for schema.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Schema API from Aptly — 1 operation(s) for schema.
   name: Aptly Schema API
   slug: aptly-schema-api
-- description: The Tasks API from Aptly — 3 operation(s) for tasks.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Tasks API from Aptly — 3 operation(s) for tasks.
   name: Aptly Tasks API
   slug: aptly-tasks-api
-- description: The Templates API from Aptly — 2 operation(s) for templates.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Templates API from Aptly — 2 operation(s) for templates.
   name: Aptly Templates API
   slug: aptly-templates-api
-- description: The Users API from Aptly — 2 operation(s) for users.
+- baseURL: https://core-api.getaptly.com
+  baseurl_source: declared
+  description: The Users API from Aptly — 2 operation(s) for users.
   name: Aptly Users API
   slug: aptly-users-api
 artifact_total: 35
@@ -299,7 +329,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/screenshots/aptly-2026-07-25T200942.png
 security:

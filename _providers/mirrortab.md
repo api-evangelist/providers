@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: Create, list, and remove MirrorTab browser sessions.
+- baseURL: https://api.mirrortab.com
+  baseurl_source: declared
+  description: Create, list, and remove MirrorTab browser sessions.
   name: MirrorTab Sessions API
   slug: mirrortab-sessions-api
 artifact_total: 7
@@ -170,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/screenshots/mirrortab-2026-08-07T183736.png
 security:

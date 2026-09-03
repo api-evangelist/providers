@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 27 operations · 16 acting
 api_count: 1
 apis:
-- description: The Audit API from Instabase — 1 operation(s) for audit.
+- baseURL: https://aihub.instabase.com/api
+  baseurl_source: declared
+  description: The Audit API from Instabase — 1 operation(s) for audit.
   name: Instabase Audit API
   slug: instabase-audit-api
-- description: The Batches API from Instabase — 8 operation(s) for batches.
+- baseURL: https://aihub.instabase.com/api
+  baseurl_source: declared
+  description: The Batches API from Instabase — 8 operation(s) for batches.
   name: Instabase Batches API
   slug: instabase-batches-api
-- description: The Files API from Instabase — 1 operation(s) for files.
+- baseURL: https://aihub.instabase.com/api
+  baseurl_source: declared
+  description: The Files API from Instabase — 1 operation(s) for files.
   name: Instabase Files API
   slug: instabase-files-api
-- description: The Jobs API from Instabase — 1 operation(s) for jobs.
+- baseURL: https://aihub.instabase.com/api
+  baseurl_source: declared
+  description: The Jobs API from Instabase — 1 operation(s) for jobs.
   name: Instabase Jobs API
   slug: instabase-jobs-api
-- description: The Runs API from Instabase — 4 operation(s) for runs.
+- baseURL: https://aihub.instabase.com/api
+  baseurl_source: declared
+  description: The Runs API from Instabase — 4 operation(s) for runs.
   name: Instabase Runs API
   slug: instabase-runs-api
-- description: The Secrets API from Instabase — 1 operation(s) for secrets.
+- baseURL: https://aihub.instabase.com/api
+  baseurl_source: declared
+  description: The Secrets API from Instabase — 1 operation(s) for secrets.
   name: Instabase Secrets API
   slug: instabase-secrets-api
 artifact_total: 20
@@ -237,7 +249,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -247,7 +259,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 56.3
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -277,7 +289,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/screenshots/instabase-2026-07-25T222558.png
 security:

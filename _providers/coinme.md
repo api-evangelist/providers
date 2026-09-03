@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 39 operations · 20 acting
 api_count: 1
 apis:
-- description: The AuthLinkResult API from Coinme — 1 operation(s) for authlinkresult.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The AuthLinkResult API from Coinme — 1 operation(s) for authlinkresult.
   name: Coinme AuthLinkResult API
   slug: coinme-authlinkresult-api
-- description: The Authorize API from Coinme — 1 operation(s) for authorize.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Authorize API from Coinme — 1 operation(s) for authorize.
   name: Coinme Authorize API
   slug: coinme-authorize-api
-- description: The Businessonboarding API from Coinme — 1 operation(s) for businessonboarding.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Businessonboarding API from Coinme — 1 operation(s) for businessonboarding.
   name: Coinme Businessonboarding API
   slug: coinme-businessonboarding-api
-- description: The Cryptoassetbalance API from Coinme — 1 operation(s) for cryptoassetbalance.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Cryptoassetbalance API from Coinme — 1 operation(s) for cryptoassetbalance.
   name: Coinme Cryptoassetbalance API
   slug: coinme-cryptoassetbalance-api
-- description: The CryptoChains API from Coinme — 1 operation(s) for cryptochains.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The CryptoChains API from Coinme — 1 operation(s) for cryptochains.
   name: Coinme CryptoChains API
   slug: coinme-cryptochains-api
-- description: The Cryptoquote API from Coinme — 4 operation(s) for cryptoquote.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Cryptoquote API from Coinme — 4 operation(s) for cryptoquote.
   name: Coinme Cryptoquote API
   slug: coinme-cryptoquote-api
-- description: The Customeronboarding API from Coinme — 1 operation(s) for customeronboarding.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Customeronboarding API from Coinme — 1 operation(s) for customeronboarding.
   name: Coinme Customeronboarding API
   slug: coinme-customeronboarding-api
-- description: The Historiccryptodata API from Coinme — 1 operation(s) for historiccryptodata.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Historiccryptodata API from Coinme — 1 operation(s) for historiccryptodata.
   name: Coinme Historiccryptodata API
   slug: coinme-historiccryptodata-api
-- description: The Identity API from Coinme — 1 operation(s) for identity.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Identity API from Coinme — 1 operation(s) for identity.
   name: Coinme Identity API
   slug: coinme-identity-api
-- description: The Locationlicensing API from Coinme — 1 operation(s) for locationlicensing.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Locationlicensing API from Coinme — 1 operation(s) for locationlicensing.
   name: Coinme Locationlicensing API
   slug: coinme-locationlicensing-api
-- description: The Locations API from Coinme — 1 operation(s) for locations.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Locations API from Coinme — 1 operation(s) for locations.
   name: Coinme Locations API
   slug: coinme-locations-api
-- description: The MobileAuth API from Coinme — 1 operation(s) for mobileauth.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The MobileAuth API from Coinme — 1 operation(s) for mobileauth.
   name: Coinme MobileAuth API
   slug: coinme-mobileauth-api
-- description: The MobileAuthFinish API from Coinme — 1 operation(s) for mobileauthfinish.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The MobileAuthFinish API from Coinme — 1 operation(s) for mobileauthfinish.
   name: Coinme MobileAuthFinish API
   slug: coinme-mobileauthfinish-api
-- description: The Order Template API from Coinme — 4 operation(s) for order template.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Order Template API from Coinme — 4 operation(s) for order template.
   name: Coinme Order Template API
   slug: coinme-order-template-api
-- description: The Paymentmethods API from Coinme — 3 operation(s) for paymentmethods.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Paymentmethods API from Coinme — 3 operation(s) for paymentmethods.
   name: Coinme Paymentmethods API
   slug: coinme-paymentmethods-api
-- description: The Quote And Transaction API from Coinme — 1 operation(s) for quote and transaction.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Quote And Transaction API from Coinme — 1 operation(s) for quote and transaction.
   name: Coinme Quote And Transaction API
   slug: coinme-quote-and-transaction-api
-- description: The Send API from Coinme — 1 operation(s) for send.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Send API from Coinme — 1 operation(s) for send.
   name: Coinme Send API
   slug: coinme-send-api
-- description: The SendAuthSms API from Coinme — 1 operation(s) for sendauthsms.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The SendAuthSms API from Coinme — 1 operation(s) for sendauthsms.
   name: Coinme SendAuthSms API
   slug: coinme-sendauthsms-api
-- description: The Services API from Coinme — 1 operation(s) for services.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Services API from Coinme — 1 operation(s) for services.
   name: Coinme Services API
   slug: coinme-services-api
-- description: The SmsAuth API from Coinme — 1 operation(s) for smsauth.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The SmsAuth API from Coinme — 1 operation(s) for smsauth.
   name: Coinme SmsAuth API
   slug: coinme-smsauth-api
-- description: The Submit Blockchain Id API from Coinme — 1 operation(s) for submit blockchain id.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Submit Blockchain Id API from Coinme — 1 operation(s) for submit blockchain id.
   name: Coinme Submit Blockchain Id API
   slug: coinme-submit-blockchain-id-api
-- description: The Transaction API from Coinme — 1 operation(s) for transaction.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Transaction API from Coinme — 1 operation(s) for transaction.
   name: Coinme Transaction API
   slug: coinme-transaction-api
-- description: The Transactionhistory API from Coinme — 1 operation(s) for transactionhistory.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Transactionhistory API from Coinme — 1 operation(s) for transactionhistory.
   name: Coinme Transactionhistory API
   slug: coinme-transactionhistory-api
-- description: The Transactionlimits API from Coinme — 1 operation(s) for transactionlimits.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Transactionlimits API from Coinme — 1 operation(s) for transactionlimits.
   name: Coinme Transactionlimits API
   slug: coinme-transactionlimits-api
-- description: The Transactions API from Coinme — 1 operation(s) for transactions.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Transactions API from Coinme — 1 operation(s) for transactions.
   name: Coinme Transactions API
   slug: coinme-transactions-api
-- description: The Verify API from Coinme — 1 operation(s) for verify.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Verify API from Coinme — 1 operation(s) for verify.
   name: Coinme Verify API
   slug: coinme-verify-api
-- description: The Wallets API from Coinme — 2 operation(s) for wallets.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Wallets API from Coinme — 2 operation(s) for wallets.
   name: Coinme Wallets API
   slug: coinme-wallets-api
-- description: The Widget API from Coinme — 1 operation(s) for widget.
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Widget API from Coinme — 1 operation(s) for widget.
   name: Coinme Widget API
   slug: coinme-widget-api
 arazzos:
@@ -478,7 +534,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -488,7 +544,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 55.5
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -506,7 +562,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

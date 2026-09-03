@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 3
 apis:
-- description: Obtain and refresh API bearer tokens.
+- baseURL: https://api.freightwaves.com
+  baseurl_source: declared
+  description: Obtain and refresh API bearer tokens.
   name: Freight Waves Authentication API
   slug: freight-waves-authentication-api
-- description: Billable index data queries by item, level, and lane.
+- baseURL: https://api.freightwaves.com
+  baseurl_source: declared
+  description: Billable index data queries by item, level, and lane.
   name: Freight Waves Data API
   slug: freight-waves-data-api
-- description: Free reference lookups for valid indexes, qualifiers, levels, lanes, and zip3.
+- baseURL: https://api.freightwaves.com
+  baseurl_source: declared
+  description: Free reference lookups for valid indexes, qualifiers, levels, lanes, and zip3.
   name: Freight Waves Lookup API
   slug: freight-waves-lookup-api
 artifact_total: 13
@@ -218,7 +224,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -228,7 +234,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 50.5
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +252,8 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
 security:
 - kind: authentication

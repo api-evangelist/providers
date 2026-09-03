@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,34 +53,54 @@ apis:
 - description: Embeddable JavaScript widgets that render Sportmonks football data as ready-to-use UI components for livescores, league tables, fixtures, and match details. Designed for media sites and football publi
   name: Sportmonks Football Widgets
   slug: football-widgets
-- description: Scheduled and historical match fixtures.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Scheduled and historical match fixtures.
   name: Sportmonks Fixtures API
   slug: sportmonks-fixtures-api
-- description: Competition metadata across countries and seasons.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Competition metadata across countries and seasons.
   name: Sportmonks Leagues API
   slug: sportmonks-leagues-api
-- description: Real-time score and match-state feeds.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Real-time score and match-state feeds.
   name: Sportmonks Livescores API
   slug: sportmonks-livescores-api
-- description: Pre-match and in-play betting odds.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Pre-match and in-play betting odds.
   name: Sportmonks Odds API
   slug: sportmonks-odds-api
-- description: Player profiles, attributes, and career data.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Player profiles, attributes, and career data.
   name: Sportmonks Players API
   slug: sportmonks-players-api
-- description: Probabilities and predicted outcomes for upcoming fixtures.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Probabilities and predicted outcomes for upcoming fixtures.
   name: Sportmonks Predictions API
   slug: sportmonks-predictions-api
-- description: Round and stage schedules per season.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Round and stage schedules per season.
   name: Sportmonks Schedules API
   slug: sportmonks-schedules-api
-- description: Season records and per-season fixture lists.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Season records and per-season fixture lists.
   name: Sportmonks Seasons API
   slug: sportmonks-seasons-api
-- description: League tables and group standings.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: League tables and group standings.
   name: Sportmonks Standings API
   slug: sportmonks-standings-api
-- description: Team profiles, squads, and metadata.
+- baseURL: https://api.sportmonks.com/v3/football
+  baseurl_source: declared
+  description: Team profiles, squads, and metadata.
   name: Sportmonks Teams API
   slug: sportmonks-teams-api
 artifact_total: 71
@@ -405,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/screenshots/sportmonks-2026-08-17T125430.png
 security:

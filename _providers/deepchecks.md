@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The AGPL-3.0 licensed open-source Python package for continuous validation of tabular, computer-vision, and LLM/NLP data and models. Distributed via PyPI (pip install deepchecks); a Python library rat
   name: Deepchecks Open-Source Testing
   slug: open-source-testing
-- description: Versions of an evaluation application.
+- baseURL: https://app.llm.deepchecks.com/api/v1
+  baseurl_source: declared
+  description: Versions of an evaluation application.
   name: Deepchecks Application Versions API
   slug: deepchecks-application-versions-api
-- description: Evaluation applications.
+- baseURL: https://app.llm.deepchecks.com/api/v1
+  baseurl_source: declared
+  description: Evaluation applications.
   name: Deepchecks Applications API
   slug: deepchecks-applications-api
-- description: LLM interaction logging and retrieval.
+- baseURL: https://app.llm.deepchecks.com/api/v1
+  baseurl_source: declared
+  description: LLM interaction logging and retrieval.
   name: Deepchecks Interactions API
   slug: deepchecks-interactions-api
-- description: LLM property definitions.
+- baseURL: https://app.llm.deepchecks.com/api/v1
+  baseurl_source: declared
+  description: LLM property definitions.
   name: Deepchecks Properties API
   slug: deepchecks-properties-api
-- description: Raw tracing spans.
+- baseURL: https://app.llm.deepchecks.com/api/v1
+  baseurl_source: declared
+  description: Raw tracing spans.
   name: Deepchecks Spans API
   slug: deepchecks-spans-api
-- description: Backend metadata.
+- baseURL: https://app.llm.deepchecks.com/api/v1
+  baseurl_source: declared
+  description: Backend metadata.
   name: Deepchecks System API
   slug: deepchecks-system-api
 artifact_total: 21
@@ -184,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/screenshots/deepchecks-2026-06-20T175801.png
 security:

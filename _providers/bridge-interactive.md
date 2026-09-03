@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: The Agents API from Bridge Interactive — 2 operation(s) for agents.
+- baseURL: https://api.bridgedataoutput.com/api/v2
+  baseurl_source: declared
+  description: The Agents API from Bridge Interactive — 2 operation(s) for agents.
   name: Bridge Interactive Agents API
   slug: bridge-interactive-agents-api
-- description: The Listings API from Bridge Interactive — 2 operation(s) for listings.
+- baseURL: https://api.bridgedataoutput.com/api/v2
+  baseurl_source: declared
+  description: The Listings API from Bridge Interactive — 2 operation(s) for listings.
   name: Bridge Interactive Listings API
   slug: bridge-interactive-listings-api
-- description: The Offices API from Bridge Interactive — 2 operation(s) for offices.
+- baseURL: https://api.bridgedataoutput.com/api/v2
+  baseurl_source: declared
+  description: The Offices API from Bridge Interactive — 2 operation(s) for offices.
   name: Bridge Interactive Offices API
   slug: bridge-interactive-offices-api
-- description: The Open Houses API from Bridge Interactive — 1 operation(s) for open houses.
+- baseURL: https://api.bridgedataoutput.com/api/v2
+  baseurl_source: declared
+  description: The Open Houses API from Bridge Interactive — 1 operation(s) for open houses.
   name: Bridge Interactive Open Houses API
   slug: bridge-interactive-open-houses-api
-- description: The RESO Web API API from Bridge Interactive — 7 operation(s) for reso web api.
+- baseURL: https://api.bridgedataoutput.com/api/v2
+  baseurl_source: declared
+  description: The RESO Web API API from Bridge Interactive — 7 operation(s) for reso web api.
   name: Bridge Interactive RESO Web API API
   slug: bridge-interactive-reso-web-api-api
 artifact_total: 18
@@ -175,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/screenshots/bridge-interactive-2026-07-25T203811.png
 security:

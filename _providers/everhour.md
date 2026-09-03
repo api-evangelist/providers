@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 88 operations · 54 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Clients and client budgets.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Clients and client budgets.
   name: Everhour Clients API
   slug: everhour-clients-api
-- description: Expenses, expense categories, and attachments.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Expenses, expense categories, and attachments.
   name: Everhour Expenses API
   slug: everhour-expenses-api
-- description: Invoices generated from tracked time and expenses.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Invoices generated from tracked time and expenses.
   name: Everhour Invoices API
   slug: everhour-invoices-api
-- description: Projects, sections, billing, budgets, and integration sync.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Projects, sections, billing, budgets, and integration sync.
   name: Everhour Projects API
   slug: everhour-projects-api
-- description: Dashboard reports for projects, clients, and users.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Dashboard reports for projects, clients, and users.
   name: Everhour Reports API
   slug: everhour-reports-api
-- description: Resource planner assignments.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Resource planner assignments.
   name: Everhour Schedule API
   slug: everhour-schedule-api
-- description: Tasks, task search, and task estimates.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Tasks, task search, and task estimates.
   name: Everhour Tasks API
   slug: everhour-tasks-api
-- description: Time off types and allocations.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Time off types and allocations.
   name: Everhour Time Off API
   slug: everhour-time-off-api
-- description: Reported time records for the team, users, tasks, and projects.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Reported time records for the team, users, tasks, and projects.
   name: Everhour Time Records API
   slug: everhour-time-records-api
-- description: Clock-in/clock-out attendance timecards.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Clock-in/clock-out attendance timecards.
   name: Everhour Timecards API
   slug: everhour-timecards-api
-- description: Start, inspect, and stop running timers.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Start, inspect, and stop running timers.
   name: Everhour Timers API
   slug: everhour-timers-api
-- description: Weekly timesheets and the timesheet approval workflow.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Weekly timesheets and the timesheet approval workflow.
   name: Everhour Timesheets API
   slug: everhour-timesheets-api
-- description: Current user and team members.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Current user and team members.
   name: Everhour Users API
   slug: everhour-users-api
-- description: Webhook subscriptions for resource change events.
+- baseURL: https://api.everhour.com
+  baseurl_source: declared
+  description: Webhook subscriptions for resource change events.
   name: Everhour Webhooks API
   slug: everhour-webhooks-api
 artifact_total: 37
@@ -237,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everhour/refs/heads/main/screenshots/everhour-2026-07-25T213727.png
 security:

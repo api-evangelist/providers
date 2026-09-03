@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 27 operations
 api_count: 11
 apis:
-- description: The Archive API from The New York Times Company — 1 operation(s) for archive.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Archive API from The New York Times Company — 1 operation(s) for archive.
   name: The New York Times Company Archive API
   slug: new-york-times-company-archive-api
-- description: The Content API from The New York Times Company — 2 operation(s) for content.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Content API from The New York Times Company — 2 operation(s) for content.
   name: The New York Times Company Content API
   slug: new-york-times-company-content-api
-- description: The Content.json API from The New York Times Company — 1 operation(s) for content.json.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Content.json API from The New York Times Company — 1 operation(s) for content.json.
   name: The New York Times Company Content.json API
   slug: new-york-times-company-content-json-api
-- description: The Events API from The New York Times Company — 1 operation(s) for events.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Events API from The New York Times Company — 1 operation(s) for events.
   name: The New York Times Company Events API
   slug: new-york-times-company-events-api
-- description: The Lists API from The New York Times Company — 4 operation(s) for lists.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Lists API from The New York Times Company — 4 operation(s) for lists.
   name: The New York Times Company Lists API
   slug: new-york-times-company-lists-api
-- description: The Lists.json API from The New York Times Company — 1 operation(s) for lists.json.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Lists.json API from The New York Times Company — 1 operation(s) for lists.json.
   name: The New York Times Company Lists.json API
   slug: new-york-times-company-lists-json-api
-- description: The Most Popular API from The New York Times Company — 4 operation(s) for most popular.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Most Popular API from The New York Times Company — 4 operation(s) for most popular.
   name: The New York Times Company Most Popular API
   slug: new-york-times-company-most-popular-api
-- description: The Movies API from The New York Times Company — 3 operation(s) for movies.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Movies API from The New York Times Company — 3 operation(s) for movies.
   name: The New York Times Company Movies API
   slug: new-york-times-company-movies-api
-- description: The Name API from The New York Times Company — 1 operation(s) for name.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Name API from The New York Times Company — 1 operation(s) for name.
   name: The New York Times Company Name API
   slug: new-york-times-company-name-api
-- description: The Reviews.json API from The New York Times Company — 1 operation(s) for reviews.json.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Reviews.json API from The New York Times Company — 1 operation(s) for reviews.json.
   name: The New York Times Company Reviews.json API
   slug: new-york-times-company-reviews-json-api
-- description: The Search API from The New York Times Company — 1 operation(s) for search.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Search API from The New York Times Company — 1 operation(s) for search.
   name: The New York Times Company Search API
   slug: new-york-times-company-search-api
-- description: The Search.json API from The New York Times Company — 1 operation(s) for search.json.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Search.json API from The New York Times Company — 1 operation(s) for search.json.
   name: The New York Times Company Search.json API
   slug: new-york-times-company-search-json-api
-- description: The Stories API from The New York Times Company — 1 operation(s) for stories.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Stories API from The New York Times Company — 1 operation(s) for stories.
   name: The New York Times Company Stories API
   slug: new-york-times-company-stories-api
-- description: The Timestags API from The New York Times Company — 1 operation(s) for timestags.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The Timestags API from The New York Times Company — 1 operation(s) for timestags.
   name: The New York Times Company Timestags API
   slug: new-york-times-company-timestags-api
-- description: The User Content API from The New York Times Company — 4 operation(s) for user content.
+- baseURL: https://api.nytimes.com/svc/search/v2
+  baseurl_source: declared
+  description: The User Content API from The New York Times Company — 4 operation(s) for user content.
   name: The New York Times Company User Content API
   slug: new-york-times-company-user-content-api
 artifact_total: 69
@@ -421,7 +451,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-times-company/refs/heads/main/screenshots/new-york-times-company-2026-06-20T190234.png
 security:

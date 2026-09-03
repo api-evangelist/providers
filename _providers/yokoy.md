@@ -33,73 +33,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Card account associated to one of Yokoy's card programs. Only active card accounts are allowed to order new cards.
   name: Yokoy Card account API
   slug: yokoy-card-account-api
-- description: Company card entity in Yokoy. Company cards can be Yokoy Pay cards or external cards.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Company card entity in Yokoy. Company cards can be Yokoy Pay cards or external cards.
   name: Yokoy Company card API
   slug: yokoy-company-card-api
-- description: Cost objects (also called cost centers) is a hierarchical construct to which costs that occur within a company can be assigned. Cost objects are created at legal entity level and can be used for expen
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Cost objects (also called cost centers) is a hierarchical construct to which costs that occur within a company can be assigned. Cost objects are created at legal entity level and can be used for expen
   name: Yokoy Cost center API
   slug: yokoy-cost-center-api
-- description: Daily CAMT statement files associated with a card account. Statements provide a daily summary of transactions in a standardized banking format.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Daily CAMT statement files associated with a card account. Statements provide a daily summary of transactions in a standardized banking format.
   name: Yokoy Daily statement API
   slug: yokoy-daily-statement-api
-- description: An expense is a cost incurred during the performance of a business activity. Employees can create reimbursable or non-reimbursable expenses. The Expense endpoints let you query all expense types manag
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: An expense is a cost incurred during the performance of a business activity. Employees can create reimbursable or non-reimbursable expenses. The Expense endpoints let you query all expense types manag
   name: Yokoy Expense API
   slug: yokoy-expense-api
-- description: Categories for expenses (also called booking accounts). These categories only apply to expenses and trips. For invoices, use supplier invoice categories.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Categories for expenses (also called booking accounts). These categories only apply to expenses and trips. For invoices, use supplier invoice categories.
   name: Yokoy Expense category API
   slug: yokoy-expense-category-api
-- description: Invoices that are not present in Yokoy, but that are used for matching in purchase orders and goods receipts.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Invoices that are not present in Yokoy, but that are used for matching in purchase orders and goods receipts.
   name: Yokoy External invoice API
   slug: yokoy-external-invoice-api
-- description: 'Finance export mechanism in Yokoy. The Yokoy API exposes three different endpoints for the management of finance exports: 1. `/export-tasks` to trigger an export (separate endpoints for the expense an'
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: 'Finance export mechanism in Yokoy. The Yokoy API exposes three different endpoints for the management of finance exports: 1. `/export-tasks` to trigger an export (separate endpoints for the expense an'
   name: Yokoy Finance export API
   slug: yokoy-finance-export-api
-- description: Extend the offered and Yokoy-managed foreign exchange rates (Open Exchange Rates, CNB, NPB and NBS national bank rates) with your own customer-specific FX rates. The created FX rate sources are equiva
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Extend the offered and Yokoy-managed foreign exchange rates (Open Exchange Rates, CNB, NPB and NBS national bank rates) with your own customer-specific FX rates. The created FX rate sources are equiva
   name: Yokoy FX rates API
   slug: yokoy-fx-rates-api
-- description: Goods receipt are usually provided by suppliers when the goods of an order are delivered. Yokoy uses goods receipts to perform three-way matching (controlling invoice spending by checking quantities i
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Goods receipt are usually provided by suppliers when the goods of an order are delivered. Yokoy uses goods receipts to perform three-way matching (controlling invoice spending by checking quantities i
   name: Yokoy Goods receipt API
   slug: yokoy-goods-receipt-api
-- description: In the Yokoy API, invoices can only be created or retrieved. You can only update custom information via API. To update other attributes or delete the invoice, use the Yokoy web app.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: In the Yokoy API, invoices can only be created or retrieved. You can only update custom information via API. To update other attributes or delete the invoice, use the Yokoy web app.
   name: Yokoy Invoice API
   slug: yokoy-invoice-api
-- description: Categories for invoices (equivalent to GL accounts in financial systems). These categories only apply to invoices. For expenses and trips, use expense categories.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Categories for invoices (equivalent to GL accounts in financial systems). These categories only apply to invoices. For expenses and trips, use expense categories.
   name: Yokoy Invoice category API
   slug: yokoy-invoice-category-api
-- description: Payment terms determine the expectation of payment agreed between the company and the supplier. By default, all payment terms can be used with any supplier of the legal entity. However, you can restri
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Payment terms determine the expectation of payment agreed between the company and the supplier. By default, all payment terms can be used with any supplier of the legal entity. However, you can restri
   name: Yokoy Invoice payment terms API
   slug: yokoy-invoice-payment-terms-api
-- description: Legal entity or company. An organization can have multiple legal entities.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Legal entity or company. An organization can have multiple legal entities.
   name: Yokoy Legal entity API
   slug: yokoy-legal-entity-api
-- description: 'An employee policy determines the settings made available to a group of employees. A policy determines: - **categories**: the categories available to users to select. - **tags**: tags applicable to th'
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: 'An employee policy determines the settings made available to a group of employees. A policy determines: - **categories**: the categories available to users to select. - **tags**: tags applicable to th'
   name: Yokoy Policy API
   slug: yokoy-policy-api
-- description: Purchase orders are legal orders that companies send to their suppliers to buy items, services, products. Yokoy uses purchase orders to perform two-way and three-way matching (matching invoice line it
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Purchase orders are legal orders that companies send to their suppliers to buy items, services, products. Yokoy uses purchase orders to perform two-way and three-way matching (matching invoice line it
   name: Yokoy Purchase order API
   slug: yokoy-purchase-order-api
-- description: 'Companies that supply your company with goods, services, items. The Supplier entity contains information on the name, address, and bank accounts of the supplier. Suppliers can be set up for different '
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: 'Companies that supply your company with goods, services, items. The Supplier entity contains information on the name, address, and bank accounts of the supplier. Suppliers can be set up for different '
   name: Yokoy Supplier API
   slug: yokoy-supplier-api
-- description: Tag is a custom dimension that can be added to each category that help map additional information to that spend and use it at multiple levels, such as analytics or for accounting purposes. Tags are of
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Tag is a custom dimension that can be added to each category that help map additional information to that spend and use it at multiple levels, such as analytics or for accounting purposes. Tags are of
   name: Yokoy Tag API
   slug: yokoy-tag-api
-- description: Tax rates. Tax rates apply to expenses, trips, and invoices. In Yokoy, you can consult them in **Admin > VAT / Tax rates**. For invoices, you can set up advanced tax components to adjust to complex ta
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Tax rates. Tax rates apply to expenses, trips, and invoices. In Yokoy, you can consult them in **Admin > VAT / Tax rates**. For invoices, you can set up advanced tax components to adjust to complex ta
   name: Yokoy Tax rates API
   slug: yokoy-tax-rates-api
-- description: A transaction is a cleared payment that is made using a credit, debit, or prepaid card. The card issuer can be either Yokoy or a third party that has been integrated with Yokoy.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: A transaction is a cleared payment that is made using a credit, debit, or prepaid card. The card issuer can be either Yokoy or a third party that has been integrated with Yokoy.
   name: Yokoy Transaction API
   slug: yokoy-transaction-api
-- description: A trip is a collection of various types of expenses that occurred on a business trip over a period of time.
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: A trip is a collection of various types of expenses that occurred on a business trip over a period of time.
   name: Yokoy Trip API
   slug: yokoy-trip-api
-- description: Users in Yokoy reflect the fundamental roles of submitter, approver, and finance user. Mandatory user information depends on the specific organization requirements and Yokoy features enabled. Email ad
+- baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
+  baseurl_source: declared
+  description: Users in Yokoy reflect the fundamental roles of submitter, approver, and finance user. Mandatory user information depends on the specific organization requirements and Yokoy features enabled. Email ad
   name: Yokoy User API
   slug: yokoy-user-api
 artifact_total: 51
@@ -331,7 +375,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/screenshots/yokoy-2026-08-17T083017.png
 security:

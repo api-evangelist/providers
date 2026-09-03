@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Space news article operations
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: Space news article operations
   name: Spaceflight News API Articles API
   slug: spaceflight-news-api-articles-api
-- description: Space blog post operations
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: Space blog post operations
   name: Spaceflight News API Blogs API
   slug: spaceflight-news-api-blogs-api
-- description: API metadata operations
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: API metadata operations
   name: Spaceflight News API Info API
   slug: spaceflight-news-api-info-api
-- description: Space mission report operations
+- baseURL: https://api.spaceflightnewsapi.net/v4
+  baseurl_source: declared
+  description: Space mission report operations
   name: Spaceflight News API Reports API
   slug: spaceflight-news-api-reports-api
 artifact_total: 21
@@ -208,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news-api/refs/heads/main/screenshots/spaceflight-news-api-2026-06-20T194235.png
 security:

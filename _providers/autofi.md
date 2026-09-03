@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -48,22 +48,34 @@ apis:
 - description: 'Live, OAuth-protected Model Context Protocol server served from the WordPress installation behind autofi.com, discovered through RFC 9728 protected-resource metadata. It is a site/content MCP surface '
   name: AutoFi MCP Server
   slug: autofi-mcp-server
-- description: To authorize requests to the AutoFi API you will need an `Access Token` (JWT). Requesting an `Access Token` requires authentication credentials which you can retrieve from the AutoFi admin panel (comi
+- baseURL: https://api.autofi.com
+  baseurl_source: declared
+  description: To authorize requests to the AutoFi API you will need an `Access Token` (JWT). Requesting an `Access Token` requires authentication credentials which you can retrieve from the AutoFi admin panel (comi
   name: AutoFi Authorization API
   slug: autofi-authorization-api
-- description: The Calculate Payment API from AutoFi — 3 operation(s) for calculate payment.
+- baseURL: https://api.autofi.com
+  baseurl_source: declared
+  description: The Calculate Payment API from AutoFi — 3 operation(s) for calculate payment.
   name: AutoFi Calculate Payment API
   slug: autofi-calculate-payment-api
-- description: A `dealer` is a required entity when requesting to create a loan application. If the dealer does not exist you need to first create the `dealer` to acquire the unique `dealer code` from AutoFi.
+- baseURL: https://api.autofi.com
+  baseurl_source: declared
+  description: A `dealer` is a required entity when requesting to create a loan application. If the dealer does not exist you need to first create the `dealer` to acquire the unique `dealer code` from AutoFi.
   name: AutoFi Dealers API
   slug: autofi-dealers-api
-- description: The Dealmaker API from AutoFi — 2 operation(s) for dealmaker.
+- baseURL: https://api.autofi.com
+  baseurl_source: declared
+  description: The Dealmaker API from AutoFi — 2 operation(s) for dealmaker.
   name: AutoFi Dealmaker API
   slug: autofi-dealmaker-api
-- description: This section provides the methods available to submit and retrieve loan applications for your organization.
+- baseURL: https://api.autofi.com
+  baseurl_source: declared
+  description: This section provides the methods available to submit and retrieve loan applications for your organization.
   name: AutoFi Loan Applications API
   slug: autofi-loan-applications-api
-- description: The Prequalification API from AutoFi — 1 operation(s) for prequalification.
+- baseURL: https://api.autofi.com
+  baseurl_source: declared
+  description: The Prequalification API from AutoFi — 1 operation(s) for prequalification.
   name: AutoFi Prequalification API
   slug: autofi-prequalification-api
 artifact_total: 19
@@ -260,7 +272,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -270,7 +282,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 56.4
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,7 +300,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/screenshots/autofi-2026-07-25T201824.png
 security:

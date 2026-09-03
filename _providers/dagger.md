@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Dagger Cloud is the hosted control plane providing pipeline traces, checks, module observability, and team collaboration. It integrates with the local Dagger Engine for seamless trace uploads.
   name: Dagger Cloud
   slug: cloud
-- description: The GraphQL API from Dagger — 1 operation(s) for graphql.
+- baseURL_template: http://127.0.0.1:{DAGGER_SESSION_PORT}
+  baseurl_source: spec_template
+  description: The GraphQL API from Dagger — 1 operation(s) for graphql.
   name: Dagger GraphQL API
   slug: dagger-graphql-api
 artifact_total: 16
@@ -238,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/screenshots/dagger-2026-06-20T175437.png
 security:

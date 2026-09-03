@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,46 +44,72 @@ agentic_access:
   summary_line: 42 operations · 26 acting
 api_count: 3
 apis:
-- description: 'AT&T OAuth 2.0 authentication API providing access tokens for all AT&T REST APIs. Supports Authorization Code, Client Credentials, and Refresh Token grant types. Scopes include ADS, MMS, SMS, SPEECH, '
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: 'AT&T OAuth 2.0 authentication API providing access tokens for all AT&T REST APIs. Supports Authorization Code, Client Credentials, and Refresh Token grant types. Scopes include ADS, MMS, SMS, SPEECH, '
   name: AT&T OAuth 2.0 API
   slug: att-oauth-api
 - description: 'Wireline business APIs enabling partners to expedite quoting, service qualification, and ordering of AT&T wireline products. Includes Quick Quote, Product Catalog, Service Qualification, Price Offer, '
   name: AT&T Alliance Wireline APIs
   slug: att-alliance-wireline-apis
-- description: The Authentication API from AT&T — 1 operation(s) for authentication.
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: The Authentication API from AT&T — 1 operation(s) for authentication.
   name: AT&T Authentication API
   slug: att-authentication-api
-- description: The Balance Management API from AT&T — 1 operation(s) for balance management.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Balance Management API from AT&T — 1 operation(s) for balance management.
   name: AT&T Balance Management API
   slug: att-balance-management-api
-- description: The Device Management API from AT&T — 2 operation(s) for device management.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Device Management API from AT&T — 2 operation(s) for device management.
   name: AT&T Device Management API
   slug: att-device-management-api
-- description: The Geographic Sites API from AT&T — 1 operation(s) for geographic sites.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Geographic Sites API from AT&T — 1 operation(s) for geographic sites.
   name: AT&T Geographic Sites API
   slug: att-geographic-sites-api
-- description: The Inbox Management API from AT&T — 2 operation(s) for inbox management.
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: The Inbox Management API from AT&T — 2 operation(s) for inbox management.
   name: AT&T Inbox Management API
   slug: att-inbox-management-api
-- description: The Messages API from AT&T — 2 operation(s) for messages.
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: The Messages API from AT&T — 2 operation(s) for messages.
   name: AT&T Messages API
   slug: att-messages-api
-- description: The Number Management API from AT&T — 2 operation(s) for number management.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Number Management API from AT&T — 2 operation(s) for number management.
   name: AT&T Number Management API
   slug: att-number-management-api
-- description: The Porting API from AT&T — 3 operation(s) for porting.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Porting API from AT&T — 3 operation(s) for porting.
   name: AT&T Porting API
   slug: att-porting-api
-- description: The Product Orders API from AT&T — 1 operation(s) for product orders.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Product Orders API from AT&T — 1 operation(s) for product orders.
   name: AT&T Product Orders API
   slug: att-product-orders-api
-- description: The Service Management API from AT&T — 1 operation(s) for service management.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Service Management API from AT&T — 1 operation(s) for service management.
   name: AT&T Service Management API
   slug: att-service-management-api
-- description: The SMS Messaging API from AT&T — 3 operation(s) for sms messaging.
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: The SMS Messaging API from AT&T — 3 operation(s) for sms messaging.
   name: AT&T SMS Messaging API
   slug: att-sms-messaging-api
-- description: The Subscriber Management API from AT&T — 1 operation(s) for subscriber management.
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: The Subscriber Management API from AT&T — 1 operation(s) for subscriber management.
   name: AT&T Subscriber Management API
   slug: att-subscriber-management-api
 - description: TM Forum-aligned APIs for mobile virtual network operators (MVNOs) on the AT&T network. The MVNX API suite covers subscriber activation, number portability, device management, service lifecycle manage
@@ -95,52 +121,84 @@ apis:
 - description: Seamless API integration with AT&T's wireless and wireline IT and ordering systems. eBonding APIs enable enterprise partners and resellers to integrate their BSS/OSS systems directly with AT&T's backe
   name: AT&T eBonding APIs
   slug: att-ebonding-apis
-- description: Track and manage existing orders
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: Track and manage existing orders
   name: AT&T Order Management API
   slug: att-order-management-api
-- description: Place and manage service orders
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: Place and manage service orders
   name: AT&T Product Ordering API
   slug: att-product-ordering-api
-- description: Check service availability at a location
+- baseURL: https://devex-web.att.com
+  baseurl_source: declared
+  description: Check service availability at a location
   name: AT&T Service Qualification API
   slug: att-service-qualification-api
-- description: The Device Connectivity API from AT&T — 1 operation(s) for device connectivity.
+- baseURL: https://api.att.com/camara/device-status/v1
+  baseurl_source: declared
+  description: The Device Connectivity API from AT&T — 1 operation(s) for device connectivity.
   name: AT&T Device Connectivity API
   slug: att-device-connectivity-api
-- description: The Device Roaming API from AT&T — 1 operation(s) for device roaming.
+- baseURL: https://api.att.com/camara/device-status/v1
+  baseurl_source: declared
+  description: The Device Roaming API from AT&T — 1 operation(s) for device roaming.
   name: AT&T Device Roaming API
   slug: att-device-roaming-api
-- description: The Network Metrics API from AT&T — 1 operation(s) for network metrics.
+- baseURL: https://api.att.com/network/insights/v1
+  baseurl_source: declared
+  description: The Network Metrics API from AT&T — 1 operation(s) for network metrics.
   name: AT&T Network Metrics API
   slug: att-network-metrics-api
-- description: The Number Verification API from AT&T — 1 operation(s) for number verification.
+- baseURL: https://api.att.com/camara/number-verification/v1
+  baseurl_source: declared
+  description: The Number Verification API from AT&T — 1 operation(s) for number verification.
   name: AT&T Number Verification API
   slug: att-number-verification-api
-- description: The QoD Sessions API from AT&T — 2 operation(s) for qod sessions.
+- baseURL: https://api.att.com/camara/qod/v1
+  baseurl_source: declared
+  description: The QoD Sessions API from AT&T — 2 operation(s) for qod sessions.
   name: AT&T Quality on Demand API
   slug: att-qod-sessions-api
-- description: The SIM Swap API from AT&T — 2 operation(s) for sim swap.
+- baseURL: https://api.att.com/camara/sim-swap/v1
+  baseurl_source: declared
+  description: The SIM Swap API from AT&T — 2 operation(s) for sim swap.
   name: AT&T SIM Swap API
   slug: att-sim-swap-api
-- description: The Threat Detection API from AT&T — 1 operation(s) for threat detection.
+- baseURL: https://api.att.com/network/threat-detection/v1
+  baseurl_source: declared
+  description: The Threat Detection API from AT&T — 1 operation(s) for threat detection.
   name: AT&T Threat Detection API
   slug: att-threat-detection-api
-- description: The Threat Subscriptions API from AT&T — 1 operation(s) for threat subscriptions.
+- baseURL: https://api.att.com/network/threat-detection/v1
+  baseurl_source: declared
+  description: The Threat Subscriptions API from AT&T — 1 operation(s) for threat subscriptions.
   name: AT&T Threat Subscriptions API
   slug: att-threat-subscriptions-api
-- description: Device connectivity and roaming status
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: Device connectivity and roaming status
   name: AT&T Device Status API
   slug: att-device-status-api
-- description: Network performance metrics
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: Network performance metrics
   name: AT&T Network Insights API
   slug: att-network-insights-api
-- description: AT&T OAuth 2.0 authentication
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: AT&T OAuth 2.0 authentication
   name: AT&T O Auth API
   slug: att-oauth-api
-- description: 5G QoS session management
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: 5G QoS session management
   name: AT&T Quality on Demand API
   slug: att-quality-on-demand-api
-- description: Short Message Service operations
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: Short Message Service operations
   name: AT&T SMS API
   slug: att-sms-api
 artifact_total: 346
@@ -1205,17 +1263,17 @@ score:
     catalog_gap: 37.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 69.7
-    contract_quality: 42.5
+    contract_quality: 42.4
     developer_ergonomics: 61.9
     discoverability: 68.5
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 52.3
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1230,7 +1288,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: The Authority Rules API from Alibaba Sentinel — 1 operation(s) for authority rules.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: The Authority Rules API from Alibaba Sentinel — 1 operation(s) for authority rules.
   name: Alibaba Sentinel Authority Rules API
   slug: alibaba-sentinel-authority-rules-api
-- description: The Degrade Rules API from Alibaba Sentinel — 2 operation(s) for degrade rules.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: The Degrade Rules API from Alibaba Sentinel — 2 operation(s) for degrade rules.
   name: Alibaba Sentinel Degrade Rules API
   slug: alibaba-sentinel-degrade-rules-api
-- description: The Flow Rules API from Alibaba Sentinel — 2 operation(s) for flow rules.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: The Flow Rules API from Alibaba Sentinel — 2 operation(s) for flow rules.
   name: Alibaba Sentinel Flow Rules API
   slug: alibaba-sentinel-flow-rules-api
-- description: The System Rules API from Alibaba Sentinel — 1 operation(s) for system rules.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: The System Rules API from Alibaba Sentinel — 1 operation(s) for system rules.
   name: Alibaba Sentinel System Rules API
   slug: alibaba-sentinel-system-rules-api
 artifact_total: 15
@@ -203,7 +211,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/screenshots/alibaba-sentinel-2026-07-25T195610.png
 security:

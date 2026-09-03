@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -53,22 +53,34 @@ apis:
 - description: Command-line interface tool for scaffolding Triplit projects, running the local full-stack development environment, managing schemas and migrations, and deploying to Triplit Cloud. Installable via npm
   name: Triplit CLI
   slug: cli
-- description: Low-level replication and change management endpoints
+- baseURL: https://<project-id>.triplit.io
+  baseurl_source: declared
+  description: Low-level replication and change management endpoints
   name: Triplit Advanced API
   slug: triplit-advanced-api
-- description: Authentication and token management
+- baseURL: https://<project-id>.triplit.io
+  baseurl_source: declared
+  description: Authentication and token management
   name: Triplit Auth API
   slug: triplit-auth-api
-- description: CRUD operations on collection entities
+- baseURL: https://<project-id>.triplit.io
+  baseurl_source: declared
+  description: CRUD operations on collection entities
   name: Triplit Data API
   slug: triplit-data-api
-- description: Database schema management
+- baseURL: https://<project-id>.triplit.io
+  baseurl_source: declared
+  description: Database schema management
   name: Triplit Schema API
   slug: triplit-schema-api
-- description: Server health, version, and administrative endpoints
+- baseURL: https://<project-id>.triplit.io
+  baseurl_source: declared
+  description: Server health, version, and administrative endpoints
   name: Triplit System API
   slug: triplit-system-api
-- description: Webhook configuration management
+- baseURL: https://<project-id>.triplit.io
+  baseurl_source: declared
+  description: Webhook configuration management
   name: Triplit Webhooks API
   slug: triplit-webhooks-api
 artifact_total: 33
@@ -266,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

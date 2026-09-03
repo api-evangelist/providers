@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 49 operations · 30 acting
 api_count: 1
 apis:
-- description: Create and authenticate 3D Secure sessions.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Create and authenticate 3D Secure sessions.
   name: Basis Theory 3D Secure API
   slug: basis-theory-3d-secure-api
-- description: Manage API credentials, permissions, and access rules.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Manage API credentials, permissions, and access rules.
   name: Basis Theory Applications API
   slug: basis-theory-applications-api
-- description: List audit logs of platform activity.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: List audit logs of platform activity.
   name: Basis Theory Logs API
   slug: basis-theory-logs-api
-- description: Manage pre-configured proxies and invoke the detokenizing Proxy.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Manage pre-configured proxies and invoke the detokenizing Proxy.
   name: Basis Theory Proxy API
   slug: basis-theory-proxy-api
-- description: Manage and invoke serverless Reactor functions.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Manage and invoke serverless Reactor functions.
   name: Basis Theory Reactors API
   slug: basis-theory-reactors-api
-- description: Manage the current tenant, usage reports, and security contact.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Manage the current tenant, usage reports, and security contact.
   name: Basis Theory Tenants API
   slug: basis-theory-tenants-api
-- description: Short-lived intents that capture data before conversion to a token.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Short-lived intents that capture data before conversion to a token.
   name: Basis Theory Token Intents API
   slug: basis-theory-token-intents-api
-- description: Batch tokenization and detokenization.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Batch tokenization and detokenization.
   name: Basis Theory Tokenize / Detokenize API
   slug: basis-theory-tokenize-detokenize-api
-- description: Create, retrieve, search, update, and delete tokens.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Create, retrieve, search, update, and delete tokens.
   name: Basis Theory Tokens API
   slug: basis-theory-tokens-api
-- description: Register webhook URLs and subscribe to event types.
+- baseURL: https://api.basistheory.com
+  baseurl_source: declared
+  description: Register webhook URLs and subscribe to event types.
   name: Basis Theory Webhooks API
   slug: basis-theory-webhooks-api
 artifact_total: 29
@@ -247,7 +267,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/screenshots/basis-theory-2026-06-20T173050.png
 security:

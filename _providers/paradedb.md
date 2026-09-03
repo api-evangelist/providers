@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: BM25 full-text search inside Postgres via the pg_search extension, built on Tantivy. Consumed as SQL over the PostgreSQL wire protocol - BM25 indexes are created with CREATE INDEX ... USING bm25, quer
+- baseURL: postgresql://
+  baseurl_source: declared
+  description: BM25 full-text search inside Postgres via the pg_search extension, built on Tantivy. Consumed as SQL over the PostgreSQL wire protocol - BM25 indexes are created with CREATE INDEX ... USING bm25, quer
   name: ParadeDB pg_search (Full-Text Search)
   slug: pg_search
-- description: Columnar storage, fast aggregates, and OLAP-style analytics over Postgres data, powered by Apache DataFusion and Postgres parallel workers. Accessed entirely through standard SQL aggregate queries ove
+- baseURL: postgresql://
+  baseurl_source: declared
+  description: Columnar storage, fast aggregates, and OLAP-style analytics over Postgres data, powered by Apache DataFusion and Postgres parallel workers. Accessed entirely through standard SQL aggregate queries ove
   name: ParadeDB Analytics (pg_analytics)
   slug: analytics
-- description: The primary integration surface for ParadeDB - the PostgreSQL wire protocol itself. Any standard Postgres client, driver, or ORM (psql, libpq, Drizzle, Django, SQLAlchemy, Rails, EF Core) connects ove
+- baseURL: postgresql://
+  baseurl_source: declared
+  description: The primary integration surface for ParadeDB - the PostgreSQL wire protocol itself. Any standard Postgres client, driver, or ORM (psql, libpq, Drizzle, Django, SQLAlchemy, Rails, EF Core) connects ove
   name: ParadeDB Postgres SQL Interface
   slug: postgres-sql-interface
 artifact_total: 10
@@ -139,7 +145,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 29.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradedb/refs/heads/main/screenshots/paradedb-2026-06-20T191455.png
 security:

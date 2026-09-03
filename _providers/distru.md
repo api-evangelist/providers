@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 50 operations · 16 acting
 api_count: 1
 apis:
-- description: The Assemblies API from Distru — 2 operation(s) for assemblies.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Assemblies API from Distru — 2 operation(s) for assemblies.
   name: Distru Assemblies API
   slug: distru-assemblies-api
-- description: The Batches API from Distru — 2 operation(s) for batches.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Batches API from Distru — 2 operation(s) for batches.
   name: Distru Batches API
   slug: distru-batches-api
-- description: The Companies API from Distru — 2 operation(s) for companies.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Companies API from Distru — 2 operation(s) for companies.
   name: Distru Companies API
   slug: distru-companies-api
-- description: The Contacts API from Distru — 2 operation(s) for contacts.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Contacts API from Distru — 2 operation(s) for contacts.
   name: Distru Contacts API
   slug: distru-contacts-api
-- description: The CustomFields API from Distru — 2 operation(s) for customfields.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The CustomFields API from Distru — 2 operation(s) for customfields.
   name: Distru CustomFields API
   slug: distru-customfields-api
-- description: The FileAttachments API from Distru — 1 operation(s) for fileattachments.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The FileAttachments API from Distru — 1 operation(s) for fileattachments.
   name: Distru FileAttachments API
   slug: distru-fileattachments-api
-- description: The Inventory API from Distru — 1 operation(s) for inventory.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Inventory API from Distru — 1 operation(s) for inventory.
   name: Distru Inventory API
   slug: distru-inventory-api
-- description: The Invoices API from Distru — 3 operation(s) for invoices.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Invoices API from Distru — 3 operation(s) for invoices.
   name: Distru Invoices API
   slug: distru-invoices-api
-- description: The Locations API from Distru — 2 operation(s) for locations.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Locations API from Distru — 2 operation(s) for locations.
   name: Distru Locations API
   slug: distru-locations-api
-- description: The Menus API from Distru — 2 operation(s) for menus.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Menus API from Distru — 2 operation(s) for menus.
   name: Distru Menus API
   slug: distru-menus-api
-- description: The Orders API from Distru — 2 operation(s) for orders.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Orders API from Distru — 2 operation(s) for orders.
   name: Distru Orders API
   slug: distru-orders-api
-- description: The Packages API from Distru — 1 operation(s) for packages.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Packages API from Distru — 1 operation(s) for packages.
   name: Distru Packages API
   slug: distru-packages-api
-- description: The PaymentMethods API from Distru — 2 operation(s) for paymentmethods.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The PaymentMethods API from Distru — 2 operation(s) for paymentmethods.
   name: Distru PaymentMethods API
   slug: distru-paymentmethods-api
-- description: The ProductPosMappings API from Distru — 2 operation(s) for productposmappings.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The ProductPosMappings API from Distru — 2 operation(s) for productposmappings.
   name: Distru ProductPosMappings API
   slug: distru-productposmappings-api
-- description: The Products API from Distru — 2 operation(s) for products.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Products API from Distru — 2 operation(s) for products.
   name: Distru Products API
   slug: distru-products-api
-- description: The Purchases API from Distru — 3 operation(s) for purchases.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Purchases API from Distru — 3 operation(s) for purchases.
   name: Distru Purchases API
   slug: distru-purchases-api
-- description: The Returns API from Distru — 2 operation(s) for returns.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Returns API from Distru — 2 operation(s) for returns.
   name: Distru Returns API
   slug: distru-returns-api
-- description: The StockAdjustments API from Distru — 3 operation(s) for stockadjustments.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The StockAdjustments API from Distru — 3 operation(s) for stockadjustments.
   name: Distru StockAdjustments API
   slug: distru-stockadjustments-api
-- description: The Strains API from Distru — 2 operation(s) for strains.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Strains API from Distru — 2 operation(s) for strains.
   name: Distru Strains API
   slug: distru-strains-api
-- description: The TestResults API from Distru — 1 operation(s) for testresults.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The TestResults API from Distru — 1 operation(s) for testresults.
   name: Distru TestResults API
   slug: distru-testresults-api
-- description: The Vehicles API from Distru — 1 operation(s) for vehicles.
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Vehicles API from Distru — 1 operation(s) for vehicles.
   name: Distru Vehicles API
   slug: distru-vehicles-api
 artifact_total: 47
@@ -330,7 +372,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png
 security:

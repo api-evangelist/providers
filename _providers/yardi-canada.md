@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +56,24 @@ apis:
 - description: Yardi's first-party Model Context Protocol server, announced in early access on 2025-09-10 and described as available now in Virtuoso Enterprise on 2026-06-16. Listed on the Anthropic connector direct
   name: Yardi Virtuoso Connector (MCP)
   slug: yardi-virtuoso-connector-mcp
-- description: Per-product and per-region service components
+- baseURL: https://mcp.virtuoso.ai
+  baseurl_source: declared
+  description: Per-product and per-region service components
   name: Yardi Canada Components API
   slug: yardi-canada-components-api
-- description: Unplanned service incidents and their updates
+- baseURL: https://mcp.virtuoso.ai
+  baseurl_source: declared
+  description: Unplanned service incidents and their updates
   name: Yardi Canada Incidents API
   slug: yardi-canada-incidents-api
-- description: Scheduled maintenance windows
+- baseURL: https://mcp.virtuoso.ai
+  baseurl_source: declared
+  description: Scheduled maintenance windows
   name: Yardi Canada Maintenance API
   slug: yardi-canada-maintenance-api
-- description: Rolled-up page status
+- baseURL: https://mcp.virtuoso.ai
+  baseurl_source: declared
+  description: Rolled-up page status
   name: Yardi Canada Status API
   slug: yardi-canada-status-api
 artifact_total: 14
@@ -269,7 +290,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/screenshots/yardi-canada-2026-08-17T083014.png
 security:

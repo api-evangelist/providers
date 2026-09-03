@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 24 operations · 9 acting
 api_count: 1
 apis:
-- description: Non-job scheduled calendar items and reminders.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Non-job scheduled calendar items and reminders.
   name: Service Fusion Calendar Tasks API
   slug: servicefusion-calendar-tasks-api
-- description: Individual contacts and service locations on a customer account.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Individual contacts and service locations on a customer account.
   name: Service Fusion Contacts API
   slug: servicefusion-contacts-api
-- description: Customer accounts served by the contractor.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Customer accounts served by the contractor.
   name: Service Fusion Customers API
   slug: servicefusion-customers-api
-- description: Estimates (quotes) presented to customers before work begins.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Estimates (quotes) presented to customers before work begins.
   name: Service Fusion Estimates API
   slug: servicefusion-estimates-api
-- description: Invoices billed to customers for completed work.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Invoices billed to customers for completed work.
   name: Service Fusion Invoices API
   slug: servicefusion-invoices-api
-- description: Jobs (work orders) scheduled and dispatched to technicians.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Jobs (work orders) scheduled and dispatched to technicians.
   name: Service Fusion Jobs API
   slug: servicefusion-jobs-api
-- description: Payments applied against invoices.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Payments applied against invoices.
   name: Service Fusion Payments API
   slug: servicefusion-payments-api
-- description: Catalog of products (parts/inventory) and services (labor/tasks).
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Catalog of products (parts/inventory) and services (labor/tasks).
   name: Service Fusion Products and Services API
   slug: servicefusion-products-and-services-api
-- description: Technicians and users the work is assigned to.
+- baseURL: https://api.servicefusion.com/v1
+  baseurl_source: declared
+  description: Technicians and users the work is assigned to.
   name: Service Fusion Techs and Users API
   slug: servicefusion-techs-and-users-api
 artifact_total: 27
@@ -185,7 +203,7 @@ score:
   band: developing
   composite: 39.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -208,8 +226,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/screenshots/servicefusion-2026-09-02T155002.png
 security:
 - kind: authentication
   name: Servicefusion Authentication

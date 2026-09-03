@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 5
 apis:
-- description: Create and manage hosted checkout sessions.
+- baseURL: https://payments.yoco.com/api
+  baseurl_source: declared
+  description: Create and manage hosted checkout sessions.
   name: Yoco Checkout API
   slug: yoco-checkout-api
-- description: Read shareable payment links (versioned Yoco API).
+- baseURL: https://payments.yoco.com/api
+  baseurl_source: declared
+  description: Read shareable payment links (versioned Yoco API).
   name: Yoco Payment Links API
   slug: yoco-payment-links-api
-- description: Read payment records (versioned Yoco API).
+- baseURL: https://payments.yoco.com/api
+  baseurl_source: declared
+  description: Read payment records (versioned Yoco API).
   name: Yoco Payments API
   slug: yoco-payments-api
-- description: Refund completed checkouts and read refund records.
+- baseURL: https://payments.yoco.com/api
+  baseurl_source: declared
+  description: Refund completed checkouts and read refund records.
   name: Yoco Refunds API
   slug: yoco-refunds-api
-- description: Register and manage webhook endpoints for event notifications.
+- baseURL: https://payments.yoco.com/api
+  baseurl_source: declared
+  description: Register and manage webhook endpoints for event notifications.
   name: Yoco Webhooks API
   slug: yoco-webhooks-api
 artifact_total: 18
@@ -148,7 +158,7 @@ score:
   band: thin
   composite: 27.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -177,8 +187,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/screenshots/yoco-2026-09-02T171307.png
 security:
 - kind: authentication
   name: Yoco Authentication

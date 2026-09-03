@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 3 acting
 api_count: 7
 apis:
-- description: OAuth 2.0 token management for API access.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: OAuth 2.0 token management for API access.
   name: Upwork Authentication API
   slug: upwork-authentication-api
-- description: Access and manage freelance contracts including terms, milestones, and time entries.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: Access and manage freelance contracts including terms, milestones, and time entries.
   name: Upwork Contracts API
   slug: upwork-contracts-api
-- description: Search and retrieve job postings on the Upwork marketplace.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: Search and retrieve job postings on the Upwork marketplace.
   name: Upwork Jobs API
   slug: upwork-jobs-api
-- description: Read and send messages within active contracts.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: Read and send messages within active contracts.
   name: Upwork Messages API
   slug: upwork-messages-api
-- description: Team and organization management.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: Team and organization management.
   name: Upwork Organizations API
   slug: upwork-organizations-api
-- description: Query freelancer and client user profiles, skills, and ratings.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: Query freelancer and client user profiles, skills, and ratings.
   name: Upwork Profiles API
   slug: upwork-profiles-api
-- description: Financial and engagement reports for teams and organizations.
+- baseURL: https://api.upwork.com/graphql
+  baseurl_source: declared
+  description: Financial and engagement reports for teams and organizations.
   name: Upwork Reports API
   slug: upwork-reports-api
 artifact_total: 110
@@ -517,7 +531,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/screenshots/upwork-2026-06-20T200510.png
 security:

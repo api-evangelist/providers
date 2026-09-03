@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,34 +36,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Operations on cameras
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations on cameras
   name: LVT Cameras API
   slug: lvt-cameras-api
-- description: The Events API from LVT — 5 operation(s) for events.
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: The Events API from LVT — 5 operation(s) for events.
   name: LVT Events API
   slug: lvt-events-api
-- description: Operations on LiveUnits
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations on LiveUnits
   name: LVT Live Units API
   slug: lvt-liveunits-api
-- description: Operations on locations
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations on locations
   name: LVT Locations API
   slug: lvt-locations-api
-- description: The Media API from LVT — 1 operation(s) for media.
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: The Media API from LVT — 1 operation(s) for media.
   name: LVT Media API
   slug: lvt-media-api
-- description: Operations related to outbound message verification
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations related to outbound message verification
   name: LVT Public Keys API
   slug: lvt-publickeys-api
-- description: The Streams API from LVT — 3 operation(s) for streams.
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: The Streams API from LVT — 3 operation(s) for streams.
   name: LVT Streams API
   slug: lvt-streams-api
-- description: Operations related to Partner Talkdown
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations related to Partner Talkdown
   name: LVT Talkdown API
   slug: lvt-talkdown-api
-- description: Operations on webhooks
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations on webhooks
   name: LVT Webhooks API
   slug: lvt-webhooks-api
 artifact_total: 18
@@ -235,23 +266,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.5
+  composite: 52.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.8
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 61.2
+    contract_quality: 64.5
     developer_ergonomics: 39.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     conformance: first-party
     contracts:
@@ -262,8 +293,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/screenshots/lvt-2026-09-02T150348.png
 security:
 - kind: authentication
   name: Lvt Authentication

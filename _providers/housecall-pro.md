@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Companies API from Housecall Pro — 1 operation(s) for companies.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Companies API from Housecall Pro — 1 operation(s) for companies.
   name: Housecall Pro Companies API
   slug: housecall-pro-companies-api
-- description: The Customers API from Housecall Pro — 2 operation(s) for customers.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Customers API from Housecall Pro — 2 operation(s) for customers.
   name: Housecall Pro Customers API
   slug: housecall-pro-customers-api
-- description: The Employees API from Housecall Pro — 2 operation(s) for employees.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Employees API from Housecall Pro — 2 operation(s) for employees.
   name: Housecall Pro Employees API
   slug: housecall-pro-employees-api
-- description: The Estimates API from Housecall Pro — 2 operation(s) for estimates.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Estimates API from Housecall Pro — 2 operation(s) for estimates.
   name: Housecall Pro Estimates API
   slug: housecall-pro-estimates-api
-- description: The Invoices API from Housecall Pro — 2 operation(s) for invoices.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Invoices API from Housecall Pro — 2 operation(s) for invoices.
   name: Housecall Pro Invoices API
   slug: housecall-pro-invoices-api
-- description: The Jobs API from Housecall Pro — 2 operation(s) for jobs.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Jobs API from Housecall Pro — 2 operation(s) for jobs.
   name: Housecall Pro Jobs API
   slug: housecall-pro-jobs-api
-- description: The Leads API from Housecall Pro — 1 operation(s) for leads.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Leads API from Housecall Pro — 1 operation(s) for leads.
   name: Housecall Pro Leads API
   slug: housecall-pro-leads-api
-- description: The Line Items API from Housecall Pro — 1 operation(s) for line items.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Line Items API from Housecall Pro — 1 operation(s) for line items.
   name: Housecall Pro Line Items API
   slug: housecall-pro-line-items-api
-- description: The Payments API from Housecall Pro — 1 operation(s) for payments.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Payments API from Housecall Pro — 1 operation(s) for payments.
   name: Housecall Pro Payments API
   slug: housecall-pro-payments-api
-- description: The Schedule Items API from Housecall Pro — 1 operation(s) for schedule items.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Schedule Items API from Housecall Pro — 1 operation(s) for schedule items.
   name: Housecall Pro Schedule Items API
   slug: housecall-pro-schedule-items-api
-- description: The Webhooks API from Housecall Pro — 2 operation(s) for webhooks.
+- baseURL: https://api.housecallpro.com
+  baseurl_source: declared
+  description: The Webhooks API from Housecall Pro — 2 operation(s) for webhooks.
   name: Housecall Pro Webhooks API
   slug: housecall-pro-webhooks-api
 artifact_total: 51
@@ -322,7 +344,7 @@ score:
     catalog_gap: 41.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -332,7 +354,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     contracts:
       callable: 100.0
@@ -346,7 +368,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:

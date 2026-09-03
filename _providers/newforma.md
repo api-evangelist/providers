@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: buildingSMART BIM Collaboration Format (BCF) REST API for exchanging coordination issues and topics between Newforma Konekt and third-party BIM authoring/coordination tools, plus a BCF Server.
   name: Newforma Konekt BCF REST API
   slug: newforma-konekt-bcf-rest-api
-- description: The Hub API from Newforma — 7 operation(s) for hub.
+- baseURL: https://api.bimtrackapp.co
+  baseurl_source: declared
+  description: The Hub API from Newforma — 7 operation(s) for hub.
   name: Newforma Hub API
   slug: newforma-hub-api
-- description: The Issue API from Newforma — 17 operation(s) for issue.
+- baseURL: https://api.bimtrackapp.co
+  baseurl_source: declared
+  description: The Issue API from Newforma — 17 operation(s) for issue.
   name: Newforma Issue API
   slug: newforma-issue-api
-- description: The Project API from Newforma — 4 operation(s) for project.
+- baseURL: https://api.bimtrackapp.co
+  baseurl_source: declared
+  description: The Project API from Newforma — 4 operation(s) for project.
   name: Newforma Project API
   slug: newforma-project-api
 artifact_total: 13
@@ -230,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

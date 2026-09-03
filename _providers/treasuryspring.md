@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 31 operations · 10 acting
 api_count: 1
 apis:
-- description: Get Calendar information
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get Calendar information
   name: TreasurySpring Calendar API
   slug: treasuryspring-calendar-api
-- description: Get information about Cells
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get information about Cells
   name: TreasurySpring Cells API
   slug: treasuryspring-cells-api
-- description: Get information about Entities
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get information about Entities
   name: TreasurySpring Entities API
   slug: treasuryspring-entities-api
-- description: Server-managed cursors for stateless event stream consumers. In most cases, checkpoints are not needed. If your system can persist data locally (e.g. in a database, file, or key-value store), store th
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Server-managed cursors for stateless event stream consumers. In most cases, checkpoints are not needed. If your system can persist data locally (e.g. in a database, file, or key-value store), store th
   name: TreasurySpring Event Checkpoints API
   slug: treasuryspring-event-checkpoints-api
-- description: Stream of normalised events for integration and reconciliation
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Stream of normalised events for integration and reconciliation
   name: TreasurySpring Events API
   slug: treasuryspring-events-api
-- description: Check the status of the API
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Check the status of the API
   name: TreasurySpring Healthcheck API
   slug: treasuryspring-healthcheck-api
-- description: Get information about holdings. For how subscriptions become holdings and how holdings move through their lifecycle, see the FTF Lifecycle section.
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get information about holdings. For how subscriptions become holdings and how holdings move through their lifecycle, see the FTF Lifecycle section.
   name: TreasurySpring Holdings API
   slug: treasuryspring-holdings-api
-- description: Get information about Indications
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get information about Indications
   name: TreasurySpring Indications API
   slug: treasuryspring-indications-api
-- description: OAuth 2.0 endpoint to exchange your Client Credentials for a token. This token can then be used to access the API.
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: OAuth 2.0 endpoint to exchange your Client Credentials for a token. This token can then be used to access the API.
   name: TreasurySpring OAuth API
   slug: treasuryspring-oauth-api
-- description: Get information about Obligors
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get information about Obligors
   name: TreasurySpring Obligor Exposure API
   slug: treasuryspring-obligor-exposure-api
-- description: FTF Subscriptions
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: FTF Subscriptions
   name: TreasurySpring Subscriptions API
   slug: treasuryspring-subscriptions-api
-- description: Get information about Pending Tasks
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Get information about Pending Tasks
   name: TreasurySpring Tasks API
   slug: treasuryspring-tasks-api
-- description: Integrate with webhooks to receive notifications
+- baseURL: https://api.treasuryspring.com/api/v1
+  baseurl_source: declared
+  description: Integrate with webhooks to receive notifications
   name: TreasurySpring Webhooks API
   slug: treasuryspring-webhooks-api
 artifact_total: 32
@@ -267,7 +293,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -277,7 +303,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 44.1
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +321,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasuryspring/refs/heads/main/screenshots/treasuryspring-2026-08-17T082431.png
 security:

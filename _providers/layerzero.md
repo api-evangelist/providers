@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 3 acting
 api_count: 4
 apis:
-- description: The Discovery API from LayerZero — 3 operation(s) for discovery.
+- baseURL: https://scan.layerzero-api.com/v1
+  baseurl_source: declared
+  description: The Discovery API from LayerZero — 3 operation(s) for discovery.
   name: LayerZero Discovery API
   slug: layerzero-discovery-api
-- description: The messages API from LayerZero — 7 operation(s) for messages.
+- baseURL: https://scan.layerzero-api.com/v1
+  baseurl_source: declared
+  description: The messages API from LayerZero — 7 operation(s) for messages.
   name: LayerZero messages API
   slug: layerzero-messages-api
-- description: The ofts API from LayerZero — 2 operation(s) for ofts.
+- baseURL: https://scan.layerzero-api.com/v1
+  baseurl_source: declared
+  description: The ofts API from LayerZero — 2 operation(s) for ofts.
   name: LayerZero ofts API
   slug: layerzero-ofts-api
-- description: The openapi API from LayerZero — 1 operation(s) for openapi.
+- baseURL: https://scan.layerzero-api.com/v1
+  baseurl_source: declared
+  description: The openapi API from LayerZero — 1 operation(s) for openapi.
   name: LayerZero openapi API
   slug: layerzero-openapi-api
-- description: The Transfer API from LayerZero — 4 operation(s) for transfer.
+- baseURL: https://scan.layerzero-api.com/v1
+  baseurl_source: declared
+  description: The Transfer API from LayerZero — 4 operation(s) for transfer.
   name: LayerZero Transfer API
   slug: layerzero-transfer-api
 artifact_total: 18
@@ -215,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layerzero/refs/heads/main/screenshots/layerzero-2026-06-20T184335.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,10 +56,14 @@ apis:
 - description: A b.well-hosted Model Context Protocol server that exposes a catalog of healthcare agents/tools — insurance coverage validation, FHIR record and lab retrieval, patient summaries, provider search, appo
   name: b.well Health SDK for AI (MCP Server)
   slug: health-sdk-for-ai-mcp
-- description: The Users API from b.well — 2 operation(s) for users.
+- baseURL: https://api.client-sandbox.icanbwell.com/v1
+  baseurl_source: declared
+  description: The Users API from b.well — 2 operation(s) for users.
   name: b.well Users API
   slug: b-well-users-api
-- description: The Webhook API from b.well — 1 operation(s) for webhook.
+- baseURL: https://api.client-sandbox.icanbwell.com/v1
+  baseurl_source: declared
+  description: The Webhook API from b.well — 1 operation(s) for webhook.
   name: b.well Webhook API
   slug: b-well-webhook-api
 artifact_total: 20
@@ -315,7 +333,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-well/refs/heads/main/screenshots/b-well-2026-08-07T162052.png
 security:

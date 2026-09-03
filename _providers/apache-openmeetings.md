@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 56 operations · 24 acting
 api_count: 1
 apis:
-- description: The CalendarService API from Apache OpenMeetings — 8 operation(s) for calendarservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The CalendarService API from Apache OpenMeetings — 8 operation(s) for calendarservice.
   name: Apache OpenMeetings CalendarService API
   slug: apache-openmeetings-calendarservice-api
-- description: The ErrorService API from Apache OpenMeetings — 2 operation(s) for errorservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The ErrorService API from Apache OpenMeetings — 2 operation(s) for errorservice.
   name: Apache OpenMeetings ErrorService API
   slug: apache-openmeetings-errorservice-api
-- description: The FileService API from Apache OpenMeetings — 8 operation(s) for fileservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The FileService API from Apache OpenMeetings — 8 operation(s) for fileservice.
   name: Apache OpenMeetings FileService API
   slug: apache-openmeetings-fileservice-api
-- description: The GroupService API from Apache OpenMeetings — 5 operation(s) for groupservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The GroupService API from Apache OpenMeetings — 5 operation(s) for groupservice.
   name: Apache OpenMeetings GroupService API
   slug: apache-openmeetings-groupservice-api
-- description: The InfoService API from Apache OpenMeetings — 3 operation(s) for infoservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The InfoService API from Apache OpenMeetings — 3 operation(s) for infoservice.
   name: Apache OpenMeetings InfoService API
   slug: apache-openmeetings-infoservice-api
-- description: The NetTestService API from Apache OpenMeetings — 1 operation(s) for nettestservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The NetTestService API from Apache OpenMeetings — 1 operation(s) for nettestservice.
   name: Apache OpenMeetings NetTestService API
   slug: apache-openmeetings-nettestservice-api
-- description: The RecordingService API from Apache OpenMeetings — 4 operation(s) for recordingservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The RecordingService API from Apache OpenMeetings — 4 operation(s) for recordingservice.
   name: Apache OpenMeetings RecordingService API
   slug: apache-openmeetings-recordingservice-api
-- description: The RoomService API from Apache OpenMeetings — 11 operation(s) for roomservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The RoomService API from Apache OpenMeetings — 11 operation(s) for roomservice.
   name: Apache OpenMeetings RoomService API
   slug: apache-openmeetings-roomservice-api
-- description: The UserService API from Apache OpenMeetings — 5 operation(s) for userservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The UserService API from Apache OpenMeetings — 5 operation(s) for userservice.
   name: Apache OpenMeetings UserService API
   slug: apache-openmeetings-userservice-api
-- description: The WbService API from Apache OpenMeetings — 4 operation(s) for wbservice.
+- baseURL_template: https://{host}:5443/openmeetings/services
+  baseurl_source: spec_template
+  description: The WbService API from Apache OpenMeetings — 4 operation(s) for wbservice.
   name: Apache OpenMeetings WbService API
   slug: apache-openmeetings-wbservice-api
 artifact_total: 146
@@ -553,7 +573,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/screenshots/apache-openmeetings-2026-06-20T172128.png
 security:

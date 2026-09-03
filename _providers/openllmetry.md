@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: The Traceloop SDK is the developer-facing entry point for OpenLLMetry. A single Traceloop.init() call configures OpenTelemetry, registers all available LLM/vector-DB/framework instrumentations, and st
@@ -155,7 +155,7 @@ score:
     score: 100.0
   previous_composite: 25.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openllmetry/refs/heads/main/screenshots/openllmetry-2026-06-20T191014.png
 security:

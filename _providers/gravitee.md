@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -48,142 +60,234 @@ apis:
 - description: The Gravitee Kubernetes Operator (GKO) is a Go-based Kubernetes operator that lets platform teams declare Gravitee APIs, applications, subscriptions, shared policy groups, and management contexts as K
   name: Gravitee Kubernetes Operator
   slug: gravitee-kubernetes-operator
-- description: The alerts API from Gravitee — 3 operation(s) for alerts.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The alerts API from Gravitee — 3 operation(s) for alerts.
   name: Gravitee alerts API
   slug: gravitee-alerts-api
-- description: Query analytics, time-series, and dashboards
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Query analytics, time-series, and dashboards
   name: Gravitee Analytics API
   slug: gravitee-analytics-api
-- description: Bundle one or more APIs into a publishable API product
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Bundle one or more APIs into a publishable API product
   name: Gravitee API Products API
   slug: gravitee-api-products-api
-- description: Manage APIs (v2 and v4 message-oriented APIs)
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Manage APIs (v2 and v4 message-oriented APIs)
   name: Gravitee APIs API
   slug: gravitee-apis-api
-- description: The application API from Gravitee — 22 operation(s) for application.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The application API from Gravitee — 22 operation(s) for application.
   name: Gravitee application API
   slug: gravitee-application-api
-- description: Manage consumer applications
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Manage consumer applications
   name: Gravitee Applications API
   slug: gravitee-applications-api
-- description: The audit API from Gravitee — 4 operation(s) for audit.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The audit API from Gravitee — 4 operation(s) for audit.
   name: Gravitee audit API
   slug: gravitee-audit-api
-- description: The Authentication Device Notifier API from Gravitee — 5 operation(s) for authentication device notifier.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Authentication Device Notifier API from Gravitee — 5 operation(s) for authentication device notifier.
   name: Gravitee Authentication Device Notifier API
   slug: gravitee-authentication-device-notifier-api
-- description: The Authorization Engine API from Gravitee — 5 operation(s) for authorization engine.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Authorization Engine API from Gravitee — 5 operation(s) for authorization engine.
   name: Gravitee Authorization Engine API
   slug: gravitee-authorization-engine-api
-- description: The Bot Detection API from Gravitee — 5 operation(s) for bot detection.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Bot Detection API from Gravitee — 5 operation(s) for bot detection.
   name: Gravitee Bot Detection API
   slug: gravitee-bot-detection-api
-- description: The Certificate API from Gravitee — 8 operation(s) for certificate.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Certificate API from Gravitee — 8 operation(s) for certificate.
   name: Gravitee Certificate API
   slug: gravitee-certificate-api
-- description: The data-sources API from Gravitee — 1 operation(s) for data-sources.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The data-sources API from Gravitee — 1 operation(s) for data-sources.
   name: Gravitee data-sources API
   slug: gravitee-data-sources-api
-- description: The dataPlane API from Gravitee — 1 operation(s) for dataplane.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The dataPlane API from Gravitee — 1 operation(s) for dataplane.
   name: Gravitee dataPlane API
   slug: gravitee-dataplane-api
-- description: The device identifiers API from Gravitee — 2 operation(s) for device identifiers.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The device identifiers API from Gravitee — 2 operation(s) for device identifiers.
   name: Gravitee device identifiers API
   slug: gravitee-device-identifiers-api
-- description: The devices API from Gravitee — 2 operation(s) for devices.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The devices API from Gravitee — 2 operation(s) for devices.
   name: Gravitee devices API
   slug: gravitee-devices-api
-- description: The dictionary API from Gravitee — 3 operation(s) for dictionary.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The dictionary API from Gravitee — 3 operation(s) for dictionary.
   name: Gravitee dictionary API
   slug: gravitee-dictionary-api
-- description: The domain API from Gravitee — 120 operation(s) for domain.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The domain API from Gravitee — 120 operation(s) for domain.
   name: Gravitee domain API
   slug: gravitee-domain-api
-- description: The email API from Gravitee — 4 operation(s) for email.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The email API from Gravitee — 4 operation(s) for email.
   name: Gravitee email API
   slug: gravitee-email-api
-- description: The entrypoints API from Gravitee — 2 operation(s) for entrypoints.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The entrypoints API from Gravitee — 2 operation(s) for entrypoints.
   name: Gravitee entrypoints API
   slug: gravitee-entrypoints-api
-- description: The Extension Grant API from Gravitee — 5 operation(s) for extension grant.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Extension Grant API from Gravitee — 5 operation(s) for extension grant.
   name: Gravitee Extension Grant API
   slug: gravitee-extension-grant-api
-- description: The Factor API from Gravitee — 5 operation(s) for factor.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Factor API from Gravitee — 5 operation(s) for factor.
   name: Gravitee Factor API
   slug: gravitee-factor-api
-- description: The flow API from Gravitee — 2 operation(s) for flow.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The flow API from Gravitee — 2 operation(s) for flow.
   name: Gravitee flow API
   slug: gravitee-flow-api
-- description: The form API from Gravitee — 7 operation(s) for form.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The form API from Gravitee — 7 operation(s) for form.
   name: Gravitee form API
   slug: gravitee-form-api
-- description: The group API from Gravitee — 10 operation(s) for group.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The group API from Gravitee — 10 operation(s) for group.
   name: Gravitee group API
   slug: gravitee-group-api
-- description: The Identity Provider API from Gravitee — 8 operation(s) for identity provider.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Identity Provider API from Gravitee — 8 operation(s) for identity provider.
   name: Gravitee Identity Provider API
   slug: gravitee-identity-provider-api
-- description: Manage organizations, environments, and platform installation
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Manage organizations, environments, and platform installation
   name: Gravitee Installation API
   slug: gravitee-installation-api
-- description: Search request and error logs
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Search request and error logs
   name: Gravitee Logs API
   slug: gravitee-logs-api
-- description: The Newsletter API from Gravitee — 2 operation(s) for newsletter.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Newsletter API from Gravitee — 2 operation(s) for newsletter.
   name: Gravitee Newsletter API
   slug: gravitee-newsletter-api
-- description: The Organizations API from Gravitee — 5 operation(s) for organizations.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Organizations API from Gravitee — 5 operation(s) for organizations.
   name: Gravitee Organizations API
   slug: gravitee-organizations-api
-- description: The Password Policy API from Gravitee — 5 operation(s) for password policy.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Password Policy API from Gravitee — 5 operation(s) for password policy.
   name: Gravitee Password Policy API
   slug: gravitee-password-policy-api
-- description: Manage plans (Keyless, API Key, OAuth2, JWT, mTLS, Push)
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Manage plans (Keyless, API Key, OAuth2, JWT, mTLS, Push)
   name: Gravitee Plans API
   slug: gravitee-plans-api
-- description: The platform API from Gravitee — 45 operation(s) for platform.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The platform API from Gravitee — 45 operation(s) for platform.
   name: Gravitee platform API
   slug: gravitee-platform-api
-- description: The Plugin API from Gravitee — 37 operation(s) for plugin.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Plugin API from Gravitee — 37 operation(s) for plugin.
   name: Gravitee Plugin API
   slug: gravitee-plugin-api
-- description: Discover policies, endpoints, entrypoints, and resources installed in the gateway
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Discover policies, endpoints, entrypoints, and resources installed in the gateway
   name: Gravitee Plugins API
   slug: gravitee-plugins-api
-- description: The protected-resource API from Gravitee — 8 operation(s) for protected-resource.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The protected-resource API from Gravitee — 8 operation(s) for protected-resource.
   name: Gravitee protected-resource API
   slug: gravitee-protected-resource-api
-- description: The Reporter API from Gravitee — 7 operation(s) for reporter.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Reporter API from Gravitee — 7 operation(s) for reporter.
   name: Gravitee Reporter API
   slug: gravitee-reporter-api
-- description: The Resource API from Gravitee — 5 operation(s) for resource.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The Resource API from Gravitee — 5 operation(s) for resource.
   name: Gravitee Resource API
   slug: gravitee-resource-api
-- description: The role API from Gravitee — 4 operation(s) for role.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The role API from Gravitee — 4 operation(s) for role.
   name: Gravitee role API
   slug: gravitee-role-api
-- description: The scope API from Gravitee — 2 operation(s) for scope.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The scope API from Gravitee — 2 operation(s) for scope.
   name: Gravitee scope API
   slug: gravitee-scope-api
-- description: The sharding-tags API from Gravitee — 2 operation(s) for sharding-tags.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The sharding-tags API from Gravitee — 2 operation(s) for sharding-tags.
   name: Gravitee sharding-tags API
   slug: gravitee-sharding-tags-api
-- description: Manage subscriptions between applications and plans
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Manage subscriptions between applications and plans
   name: Gravitee Subscriptions API
   slug: gravitee-subscriptions-api
-- description: The theme API from Gravitee — 2 operation(s) for theme.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The theme API from Gravitee — 2 operation(s) for theme.
   name: Gravitee theme API
   slug: gravitee-theme-api
-- description: Customize developer portal and console themes
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Customize developer portal and console themes
   name: Gravitee UI API
   slug: gravitee-ui-api
-- description: The user API from Gravitee — 38 operation(s) for user.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The user API from Gravitee — 38 operation(s) for user.
   name: Gravitee user API
   slug: gravitee-user-api
-- description: The user notifications API from Gravitee — 2 operation(s) for user notifications.
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: The user notifications API from Gravitee — 2 operation(s) for user notifications.
   name: Gravitee user notifications API
   slug: gravitee-user-notifications-api
-- description: Manage Gravitee users
+- baseURL: https://documentation.gravitee.io/apim
+  baseurl_source: declared
+  description: Manage Gravitee users
   name: Gravitee Users API
   slug: gravitee-users-api
 artifact_total: 175
@@ -774,7 +878,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 25 operations
 api_count: 1
 apis:
-- description: API name and version.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: API name and version.
   name: Grid Status API Info API
   slug: gridstatus-api-info-api
-- description: Usage and limits for the current user or organization.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Usage and limits for the current user or organization.
   name: Grid Status API Usage API
   slug: gridstatus-api-usage-api
-- description: Block-averaged prices for an ISO.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Block-averaged prices for an ISO.
   name: Grid Status Block Pricing Data API
   slug: gridstatus-block-pricing-data-api
-- description: Transmission constraints, binding activity, and shift factors.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Transmission constraints, binding activity, and shift factors.
   name: Grid Status Constraints API
   slug: gridstatus-constraints-api
-- description: Bulk per-day CSV export files on S3.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Bulk per-day CSV export files on S3.
   name: Grid Status CSV Exports API
   slug: gridstatus-csv-exports-api
-- description: Ingest audit history for a dataset.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Ingest audit history for a dataset.
   name: Grid Status Dataset Audit API
   slug: gridstatus-dataset-audit-api
-- description: List datasets and fetch per-dataset metadata.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: List datasets and fetch per-dataset metadata.
   name: Grid Status Dataset Metadata API
   slug: gridstatus-dataset-metadata-api
-- description: Recent row insert/update activity for a dataset.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Recent row insert/update activity for a dataset.
   name: Grid Status Dataset Updates API
   slug: gridstatus-dataset-updates-api
-- description: Nodes, hubs, and zones behind LMP datasets.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Nodes, hubs, and zones behind LMP datasets.
   name: Grid Status Pricing Locations API
   slug: gridstatus-pricing-locations-api
-- description: Query dataset rows with filters, resampling, and pagination.
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Query dataset rows with filters, resampling, and pagination.
   name: Grid Status Query Data API
   slug: gridstatus-query-data-api
-- description: Daily peak reports (paid plans).
+- baseURL: https://api.gridstatus.io/v1
+  baseurl_source: declared
+  description: Daily peak reports (paid plans).
   name: Grid Status Reports API
   slug: gridstatus-reports-api
 artifact_total: 30
@@ -221,7 +243,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridstatus/refs/heads/main/screenshots/gridstatus-2026-07-25T220330.png
 security:

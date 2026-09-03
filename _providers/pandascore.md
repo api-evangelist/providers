@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,37 +53,59 @@ apis:
 - description: Real-time in-game state, frames, and event timelines streamed over WebSocket for supported esports titles. Used for live score apps, live trading, and second-screen experiences.
   name: PandaScore Live Data API
   slug: live-data-api
-- description: The Changes API from PandaScore — 3 operation(s) for changes.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Changes API from PandaScore — 3 operation(s) for changes.
   name: PandaScore Changes API
   slug: pandascore-changes-api
-- description: The Game - CS:GO API from PandaScore — 1 operation(s) for game - cs:go.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Game - CS:GO API from PandaScore — 1 operation(s) for game - cs:go.
   name: PandaScore Game - CS:GO API
   slug: pandascore-game-cs-go-api
-- description: The Game - Dota 2 API from PandaScore — 1 operation(s) for game - dota 2.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Game - Dota 2 API from PandaScore — 1 operation(s) for game - dota 2.
   name: PandaScore Game - Dota 2 API
   slug: pandascore-game-dota-2-api
-- description: The Game - League of Legends API from PandaScore — 1 operation(s) for game - league of legends.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Game - League of Legends API from PandaScore — 1 operation(s) for game - league of legends.
   name: PandaScore Game - League of Legends API
   slug: pandascore-game-league-of-legends-api
-- description: The Game - Valorant API from PandaScore — 1 operation(s) for game - valorant.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Game - Valorant API from PandaScore — 1 operation(s) for game - valorant.
   name: PandaScore Game - Valorant API
   slug: pandascore-game-valorant-api
-- description: The Leagues API from PandaScore — 2 operation(s) for leagues.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Leagues API from PandaScore — 2 operation(s) for leagues.
   name: PandaScore Leagues API
   slug: pandascore-leagues-api
-- description: The Matches API from PandaScore — 5 operation(s) for matches.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Matches API from PandaScore — 5 operation(s) for matches.
   name: PandaScore Matches API
   slug: pandascore-matches-api
-- description: The Players API from PandaScore — 1 operation(s) for players.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Players API from PandaScore — 1 operation(s) for players.
   name: PandaScore Players API
   slug: pandascore-players-api
-- description: The Series API from PandaScore — 1 operation(s) for series.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Series API from PandaScore — 1 operation(s) for series.
   name: PandaScore Series API
   slug: pandascore-series-api
-- description: The Teams API from PandaScore — 1 operation(s) for teams.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Teams API from PandaScore — 1 operation(s) for teams.
   name: PandaScore Teams API
   slug: pandascore-teams-api
-- description: The Tournaments API from PandaScore — 2 operation(s) for tournaments.
+- baseURL: https://api.pandascore.co
+  baseurl_source: declared
+  description: The Tournaments API from PandaScore — 2 operation(s) for tournaments.
   name: PandaScore Tournaments API
   slug: pandascore-tournaments-api
 artifact_total: 33
@@ -232,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/screenshots/pandascore-2026-08-17T083019.png
 security:

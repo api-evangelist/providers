@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,25 +58,39 @@ apis:
 - description: 'The U.S. Department of Transportation Open Data Portal provides access to transportation datasets published by DOT agencies including FMCSA, NHTSA, FTA, BTS, FAA, PHMSA, and more. The portal supports '
   name: DOT Open Data Portal
   slug: dot-data-portal
-- description: Child Seat search and list endpoints
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Child Seat search and list endpoints
   name: US Department of Transportation childSeats API
   slug: dot-childseats-api
-- description: Equipment search and list endpoints
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Equipment search and list endpoints
   name: US Department of Transportation equipment API
   slug: dot-equipment-api
-- description: Early Warning Report endpoints
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Early Warning Report endpoints
   name: US Department of Transportation ewr API
   slug: dot-ewr-api
-- description: Foreign Campaign search and list endpoints
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Foreign Campaign search and list endpoints
   name: US Department of Transportation foreignCampaigns API
   slug: dot-foreigncampaigns-api
-- description: Recalls, Investigations, Complaints, and Manufacturer Communications
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Recalls, Investigations, Complaints, and Manufacturer Communications
   name: US Department of Transportation safetyIssues API
   slug: dot-safetyissues-api
-- description: Tire search and list endpoints
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Tire search and list endpoints
   name: US Department of Transportation tires API
   slug: dot-tires-api
-- description: Vehicle search and list endpoints
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Vehicle search and list endpoints
   name: US Department of Transportation vehicles API
   slug: dot-vehicles-api
 artifact_total: 97
@@ -444,7 +458,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot/refs/heads/main/screenshots/dot-2026-06-20T180157.png
 security:

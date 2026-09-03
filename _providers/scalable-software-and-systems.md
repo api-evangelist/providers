@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,10 +65,14 @@ apis:
 - description: Argo CD provides a declarative GitOps continuous delivery API for Kubernetes applications. Enables teams to manage application deployments at scale using Git as the source of truth for system state.
   name: Argo CD API
   slug: argocd
-- description: The Entities API from Scalable Software and Systems — 6 operation(s) for entities.
+- baseURL: http://localhost:7007/api/catalog
+  baseurl_source: spec
+  description: The Entities API from Scalable Software and Systems — 6 operation(s) for entities.
   name: Scalable Software and Systems Entities API
   slug: scalable-software-and-systems-entities-api
-- description: The Locations API from Scalable Software and Systems — 2 operation(s) for locations.
+- baseURL: http://localhost:7007/api/catalog
+  baseurl_source: spec
+  description: The Locations API from Scalable Software and Systems — 2 operation(s) for locations.
   name: Scalable Software and Systems Locations API
   slug: scalable-software-and-systems-locations-api
 artifact_total: 25
@@ -228,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/screenshots/scalable-software-and-systems-2026-06-20T193456.png
 security:

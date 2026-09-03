@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,58 +44,92 @@ agentic_access:
   summary_line: 54 operations
 api_count: 2
 apis:
-- description: 'Single secure WebSocket endpoint multiplexing every subscription via tilde-delimited subscription strings (e.g. 5~CCCAGG~BTC~USD). Channel types: Trade (0), Ticker (2), Aggregate Index / CCCAGG (5), O'
+- baseURL: wss://streamer.cryptocompare.com/v2
+  baseurl_source: declared
+  description: 'Single secure WebSocket endpoint multiplexing every subscription via tilde-delimited subscription strings (e.g. 5~CCCAGG~BTC~USD). Channel types: Trade (0), Ticker (2), Aggregate Index / CCCAGG (5), O'
   name: CryptoCompare Streaming WebSocket
   slug: streamer
 - description: Quantitative ranking of integrated exchanges across Legal, KYC and Transaction Risk, Team, Data Provision, Asset Quality and Diversity, Market Quality, Security, and Negative Reports Penalty. Grade po
   name: CryptoCompare Exchange Benchmark
   slug: exchange-benchmark
-- description: Asset metadata, overview, supply, and reference data.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Asset metadata, overview, supply, and reference data.
   name: CryptoCompare Asset API
   slug: cryptocompare-asset-api
-- description: On-chain blockchain data including history and balance distribution.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: On-chain blockchain data including history and balance distribution.
   name: CryptoCompare Blockchain API
   slug: cryptocompare-blockchain-api
-- description: General coin listing, mapping, and reference metadata.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: General coin listing, mapping, and reference metadata.
   name: CryptoCompare Coins API
   slug: cryptocompare-coins-api
-- description: Exchange metadata and exchange-pair listings.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Exchange metadata and exchange-pair listings.
   name: CryptoCompare Exchanges API
   slug: cryptocompare-exchanges-api
-- description: Futures market data across integrated derivatives venues.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Futures market data across integrated derivatives venues.
   name: CryptoCompare Futures API
   slug: cryptocompare-futures-api
-- description: Historical OHLCV candle data by day, hour, and minute.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Historical OHLCV candle data by day, hour, and minute.
   name: CryptoCompare Historical API
   slug: cryptocompare-historical-api
-- description: CoinDesk Indices (CADLI, CCIX, CCIXBE) latest tick, historical values, and composition.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: CoinDesk Indices (CADLI, CCIX, CCIXBE) latest tick, historical values, and composition.
   name: CryptoCompare Index API
   slug: cryptocompare-index-api
-- description: Crypto news articles, sources, categories, and search.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Crypto news articles, sources, categories, and search.
   name: CryptoCompare News API
   slug: cryptocompare-news-api
-- description: On-chain blockchain metrics aggregated across chains.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: On-chain blockchain metrics aggregated across chains.
   name: CryptoCompare On-Chain API
   slug: cryptocompare-on-chain-api
-- description: Options market data across integrated derivatives venues.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Options market data across integrated derivatives venues.
   name: CryptoCompare Options API
   slug: cryptocompare-options-api
-- description: Top-of-book order book data across integrated exchanges.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Top-of-book order book data across integrated exchanges.
   name: CryptoCompare Order Book API
   slug: cryptocompare-order-book-api
-- description: Cross-cutting overview endpoints (market cap, dominance).
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Cross-cutting overview endpoints (market cap, dominance).
   name: CryptoCompare Overview API
   slug: cryptocompare-overview-api
-- description: Real-time and historical price endpoints for single and multi-symbol queries.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Real-time and historical price endpoints for single and multi-symbol queries.
   name: CryptoCompare Price API
   slug: cryptocompare-price-api
-- description: Social statistics for coins and assets.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Social statistics for coins and assets.
   name: CryptoCompare Social API
   slug: cryptocompare-social-api
-- description: Spot market data including latest tick, historical OHLCV, trades, order book L1, and instrument metadata.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Spot market data including latest tick, historical OHLCV, trades, order book L1, and instrument metadata.
   name: CryptoCompare Spot API
   slug: cryptocompare-spot-api
-- description: Top list endpoints by 24h volume, market cap, exchange volume, and pair volume.
+- baseURL: https://min-api.cryptocompare.com/data
+  baseurl_source: declared
+  description: Top list endpoints by 24h volume, market cap, exchange volume, and pair volume.
   name: CryptoCompare Top Lists API
   slug: cryptocompare-top-lists-api
 arazzos:
@@ -541,7 +575,7 @@ score:
     catalog_gap: 29.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -551,7 +585,7 @@ score:
     discoverability: 70.4
     governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 52.2
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -569,7 +603,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:

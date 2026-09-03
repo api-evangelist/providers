@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -83,10 +83,14 @@ apis:
 - description: Uber APIs are authenticated using OAuth 2.0. Server-to-server integrations use the client_credentials grant; user-facing integrations use the authorization_code grant with PKCE. Tokens are obtained fr
   name: Uber OAuth 2.0
   slug: oauth
-- description: The Customers API from Uber Eats — 5 operation(s) for customers.
+- baseURL: https://api.uber.com
+  baseurl_source: declared
+  description: The Customers API from Uber Eats — 5 operation(s) for customers.
   name: Uber Eats Customers API
   slug: uber-eats-customers-api
-- description: The Eats API from Uber Eats — 9 operation(s) for eats.
+- baseURL: https://api.uber.com
+  baseurl_source: declared
+  description: The Eats API from Uber Eats — 9 operation(s) for eats.
   name: Uber Eats Eats API
   slug: uber-eats-eats-api
 artifact_total: 71
@@ -394,7 +398,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -404,7 +408,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 51.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -413,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/screenshots/uber-eats-2026-06-20T195931.png
 security:

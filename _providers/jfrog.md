@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -44,163 +44,269 @@ agentic_access:
   summary_line: 260 operations · 137 acting · 3 human-in-the-loop
 api_count: 14
 apis:
-- description: Token creation and management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Token creation and management
   name: JFrog Access Tokens API
   slug: jfrog-access-tokens-api
-- description: Deploy, retrieve, copy, move, and delete artifacts
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Deploy, retrieve, copy, move, and delete artifacts
   name: JFrog Artifacts & Storage API
   slug: jfrog-artifacts-storage-api
-- description: Curation audit and activity logs
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Curation audit and activity logs
   name: JFrog Audit API
   slug: jfrog-audit-api
-- description: Build information and promotion
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Build information and promotion
   name: JFrog Builds API
   slug: jfrog-builds-api
-- description: Remote command execution on devices
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Remote command execution on devices
   name: JFrog Commands API
   slug: jfrog-commands-api
-- description: Component details and vulnerability information
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Component details and vulnerability information
   name: JFrog Components API
   slug: jfrog-components-api
-- description: Model deployment and serving
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Model deployment and serving
   name: JFrog Deployments API
   slug: jfrog-deployments-api
-- description: Logical grouping of devices
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Logical grouping of devices
   name: JFrog Device Groups API
   slug: jfrog-device-groups-api
-- description: Device management and monitoring
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Device management and monitoring
   name: JFrog Devices API
   slug: jfrog-devices-api
-- description: Distribute release bundles to edge nodes
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Distribute release bundles to edge nodes
   name: JFrog Distribution API
   slug: jfrog-distribution-api
-- description: Create and manage evidence attestations
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Create and manage evidence attestations
   name: JFrog Evidence API
   slug: jfrog-evidence-api
-- description: Worker testing and execution
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Worker testing and execution
   name: JFrog Execution API
   slug: jfrog-execution-api
-- description: ML experiment tracking
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: ML experiment tracking
   name: JFrog Experiments API
   slug: jfrog-experiments-api
-- description: GraphQL query interface for package and CVE data
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: GraphQL query interface for package and CVE data
   name: JFrog GraphQL API
   slug: jfrog-graphql-api
-- description: User group management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: User group management
   name: JFrog Groups API
   slug: jfrog-groups-api
-- description: Rules for ignoring specific vulnerabilities
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Rules for ignoring specific vulnerabilities
   name: JFrog Ignore Rules API
   slug: jfrog-ignore-rules-api
-- description: External service integrations
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: External service integrations
   name: JFrog Integrations API
   slug: jfrog-integrations-api
-- description: JFrog Platform Deployment management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: JFrog Platform Deployment management
   name: JFrog JPDs API
   slug: jfrog-jpds-api
-- description: Custom label management for packages
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Custom label management for packages
   name: JFrog Labels API
   slug: jfrog-labels-api
-- description: License management across instances
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: License management across instances
   name: JFrog Licenses API
   slug: jfrog-licenses-api
-- description: Model version management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Model version management
   name: JFrog Model Versions API
   slug: jfrog-model-versions-api
-- description: ML model registry and management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: ML model registry and management
   name: JFrog Models API
   slug: jfrog-models-api
-- description: Build node pool management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Build node pool management
   name: JFrog Node Pools API
   slug: jfrog-node-pools-api
-- description: Package metadata search and retrieval
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Package metadata search and retrieval
   name: JFrog Packages API
   slug: jfrog-packages-api
-- description: Permission target management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Permission target management
   name: JFrog Permissions API
   slug: jfrog-permissions-api
-- description: Manage pipeline source configurations
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Manage pipeline source configurations
   name: JFrog Pipeline Sources API
   slug: jfrog-pipeline-sources-api
-- description: Pipeline definitions and management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Pipeline definitions and management
   name: JFrog Pipelines API
   slug: jfrog-pipelines-api
-- description: Curation policy management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Curation policy management
   name: JFrog Policies API
   slug: jfrog-policies-api
-- description: Project administration
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Project administration
   name: JFrog Projects API
   slug: jfrog-projects-api
-- description: Promote release bundles through environments
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Promote release bundles through environments
   name: JFrog Promotion API
   slug: jfrog-promotion-api
-- description: Set, update, and delete artifact properties
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Set, update, and delete artifact properties
   name: JFrog Properties API
   slug: jfrog-properties-api
-- description: Create and manage release bundles (v1)
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Create and manage release bundles (v1)
   name: JFrog Release Bundles V1 API
   slug: jfrog-release-bundles-v1-api
-- description: Create and manage release bundles v2
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Create and manage release bundles v2
   name: JFrog Release Bundles V2 API
   slug: jfrog-release-bundles-v2-api
-- description: Push and pull replication configuration
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Push and pull replication configuration
   name: JFrog Replication API
   slug: jfrog-replication-api
-- description: Vulnerability and compliance reports
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Vulnerability and compliance reports
   name: JFrog Reports API
   slug: jfrog-reports-api
-- description: Create, read, update, and delete repositories
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Create, read, update, and delete repositories
   name: JFrog Repositories API
   slug: jfrog-repositories-api
-- description: Pipeline run execution and monitoring
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Pipeline run execution and monitoring
   name: JFrog Runs API
   slug: jfrog-runs-api
-- description: On-demand scanning operations
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: On-demand scanning operations
   name: JFrog Scanning API
   slug: jfrog-scanning-api
-- description: Remote execution scripts
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Remote execution scripts
   name: JFrog Scripts API
   slug: jfrog-scripts-api
-- description: Search for artifacts using various criteria
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Search for artifacts using various criteria
   name: JFrog Searches API
   slug: jfrog-searches-api
-- description: Users, groups, permissions, and access tokens
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Users, groups, permissions, and access tokens
   name: JFrog Security API
   slug: jfrog-security-api
-- description: Pipeline step execution details
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Pipeline step execution details
   name: JFrog Steps API
   slug: jfrog-steps-api
-- description: Artifact and build vulnerability summaries
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Artifact and build vulnerability summaries
   name: JFrog Summary API
   slug: jfrog-summary-api
-- description: Access service system information
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Access service system information
   name: JFrog System API
   slug: jfrog-system-api
-- description: System health, configuration, and version information
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: System health, configuration, and version information
   name: JFrog System & Configuration API
   slug: jfrog-system-configuration-api
-- description: Access token creation, management, and revocation
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Access token creation, management, and revocation
   name: JFrog Tokens API
   slug: jfrog-tokens-api
-- description: OTA software update deployments
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: OTA software update deployments
   name: JFrog Updates API
   slug: jfrog-updates-api
-- description: Platform user management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Platform user management
   name: JFrog Users API
   slug: jfrog-users-api
-- description: Verify evidence and retrieve verification status
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Verify evidence and retrieve verification status
   name: JFrog Verification API
   slug: jfrog-verification-api
-- description: Policy violations management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Policy violations management
   name: JFrog Violations API
   slug: jfrog-violations-api
-- description: Watch policies for monitoring artifacts
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Watch policies for monitoring artifacts
   name: JFrog Watches API
   slug: jfrog-watches-api
-- description: Webhook configuration
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Webhook configuration
   name: JFrog Webhooks API
   slug: jfrog-webhooks-api
-- description: Worker lifecycle management
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: Worker lifecycle management
   name: JFrog Workers API
   slug: jfrog-workers-api
 arazzos:
@@ -1219,7 +1325,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -1229,7 +1335,7 @@ score:
     discoverability: 83.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1238,7 +1344,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:

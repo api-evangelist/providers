@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: The Clusters API from MongoDB Atlas — 2 operation(s) for clusters.
+- baseURL: https://cloud.mongodb.com/api/atlas/v2
+  baseurl_source: declared
+  description: The Clusters API from MongoDB Atlas — 2 operation(s) for clusters.
   name: MongoDB Atlas Clusters API
   slug: mongodb-atlas-clusters-api
-- description: The Database Users API from MongoDB Atlas — 2 operation(s) for database users.
+- baseURL: https://cloud.mongodb.com/api/atlas/v2
+  baseurl_source: declared
+  description: The Database Users API from MongoDB Atlas — 2 operation(s) for database users.
   name: MongoDB Atlas Database Users API
   slug: mongodb-atlas-database-users-api
-- description: The Organizations API from MongoDB Atlas — 2 operation(s) for organizations.
+- baseURL: https://cloud.mongodb.com/api/atlas/v2
+  baseurl_source: declared
+  description: The Organizations API from MongoDB Atlas — 2 operation(s) for organizations.
   name: MongoDB Atlas Organizations API
   slug: mongodb-atlas-organizations-api
-- description: The Projects API from MongoDB Atlas — 2 operation(s) for projects.
+- baseURL: https://cloud.mongodb.com/api/atlas/v2
+  baseurl_source: declared
+  description: The Projects API from MongoDB Atlas — 2 operation(s) for projects.
   name: MongoDB Atlas Projects API
   slug: mongodb-atlas-projects-api
 artifact_total: 23
@@ -164,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/screenshots/mongodb-atlas-2026-06-20T185729.png
 security:

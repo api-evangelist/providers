@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The Companies House Streaming API delivers real-time changes to Companies House data via long-running HTTP connections. It streams updates across nine data categories including company information, fi
   name: Companies House Streaming API
   slug: companies-house-streaming-api
-- description: Charges
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Charges
   name: Companies House charges API
   slug: companies-house-charges-api
-- description: Filing history
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Filing history
   name: Companies House filingHistory API
   slug: companies-house-filinghistory-api
-- description: Insolvency
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Insolvency
   name: Companies House insolvency API
   slug: companies-house-insolvency-api
-- description: Officer disqualifications
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Officer disqualifications
   name: Companies House officerDisqualifications API
   slug: companies-house-officerdisqualifications-api
-- description: Officers
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Officers
   name: Companies House officers API
   slug: companies-house-officers-api
-- description: Persons with significant control
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Persons with significant control
   name: Companies House personsWithSignificantControl API
   slug: companies-house-personswithsignificantcontrol-api
-- description: Registered office address
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Registered office address
   name: Companies House registeredOfficeAddress API
   slug: companies-house-registeredofficeaddress-api
-- description: Search
+- baseURL: https://api.company-information.service.gov.uk
+  baseurl_source: declared
+  description: Search
   name: Companies House search API
   slug: companies-house-search-api
 artifact_total: 155
@@ -648,7 +664,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/companies-house/refs/heads/main/screenshots/companies-house-2026-06-20T174828.png
 security:

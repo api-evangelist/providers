@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -204,23 +204,23 @@ rate_limits:
   slug: monash-rate-limits
 score:
   band: emerging
-  composite: 22.4
+  composite: 21.5
   coverage:
     artifact_dirs: 9
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.1
+  delta: -0.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 8.0
+    contract_quality: 4.4
     developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.3
+  previous_composite: 22.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,7 +231,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png
 security:

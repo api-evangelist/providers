@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,19 +45,27 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 7
 apis:
-- description: The Company API from 6sense — 1 operation(s) for company.
+- baseURL: https://epsilon.6sense.com
+  baseurl_source: declared
+  description: The Company API from 6sense — 1 operation(s) for company.
   name: 6sense Company API
   slug: 6sense-company-api
-- description: The Enrichment API from 6sense — 2 operation(s) for enrichment.
+- baseURL: https://api.6sense.com
+  baseurl_source: declared
+  description: The Enrichment API from 6sense — 2 operation(s) for enrichment.
   name: 6sense Enrichment API
   slug: 6sense-enrichment-api
-- description: The People API from 6sense — 4 operation(s) for people.
+- baseURL: https://api.6sense.com
+  baseurl_source: declared
+  description: The People API from 6sense — 4 operation(s) for people.
   name: 6sense People API
   slug: 6sense-people-api
 - description: Hosted remote Model Context Protocol server at https://api.6sense.com/mcp (beta). Read-only retrieval of Revvy AI-powered 6sense insights — account insights, 6QA trends, keyword performance, ad campai
   name: 6sense MCP Server
   slug: 6sense-mcp
-- description: The Scoring API from 6sense — 1 operation(s) for scoring.
+- baseURL: https://epsilon.6sense.com
+  baseurl_source: declared
+  description: The Scoring API from 6sense — 1 operation(s) for scoring.
   name: 6sense Scoring API
   slug: 6sense-scoring-api
 artifact_total: 32
@@ -351,7 +359,7 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -361,7 +369,7 @@ score:
     discoverability: 81.5
     governance: 43.2
     operational_transparency: 81.6
-  previous_composite: 69.4
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/screenshots/6sense-2026-06-20T162740.png
 security:

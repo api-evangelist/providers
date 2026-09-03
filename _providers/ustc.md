@@ -34,13 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: USTC's institution-operated authorization server, run by the Network Information Center and the hub every other campus system authenticates against. It speaks CAS 3.0, OAuth 2.0 authorization code (re
   name: USTC Unified Identity Authentication (id.ustc.edu.cn, formerly Passport SSO)
   slug: passport
-- description: A small, precise, institution-authored REST API that resolves a person's campus enrollment status code by global person identifier or identity number, singly or in batches of up to 100. USTC publishes
+- baseURL: https://id.ustc.edu.cn/doc/api
+  baseurl_source: declared
+  description: A small, precise, institution-authored REST API that resolves a person's campus enrollment status code by global person identifier or identity number, singly or in batches of up to 100. USTC publishes
   name: USTC Campus Enrollment Status Query API (在校状态查询接口)
   slug: campus-status
 - description: USTC's self-hosted Shibboleth IdP 5.2.2, publishing a 15KB SAML 2.0 EntityDescriptor for entityID https://idp.ustc.edu.cn/idp/shibboleth with a shibmd:Scope of ustc.edu.cn, SSO and SLO endpoints acros
@@ -275,7 +277,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -285,7 +287,7 @@ score:
     discoverability: 68.5
     governance: 3.8
     operational_transparency: 39.5
-  previous_composite: 49.7
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     contracts:
@@ -300,8 +302,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/screenshots/ustc-2026-06-20T200827.png
 security:
 - kind: authentication

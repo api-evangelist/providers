@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -47,22 +47,34 @@ apis:
 - description: The SearchStax Site Search API returns JSON search results from a SearchStax Studio Site Search application. It provides real-time search via the /emselect endpoint, supporting faceted search, auto-su
   name: SearchStax Site Search API
   slug: searchstax-site-search-api
-- description: The Authentication API from SearchStax — 2 operation(s) for authentication.
+- baseURL: https://app.searchstax.com/api/rest/v2
+  baseurl_source: declared
+  description: The Authentication API from SearchStax — 2 operation(s) for authentication.
   name: SearchStax Authentication API
   slug: searchstax-authentication-api
-- description: The Backup API from SearchStax — 1 operation(s) for backup.
+- baseURL: https://app.searchstax.com/api/rest/v2
+  baseurl_source: declared
+  description: The Backup API from SearchStax — 1 operation(s) for backup.
   name: SearchStax Backup API
   slug: searchstax-backup-api
-- description: The Deployments API from SearchStax — 5 operation(s) for deployments.
+- baseURL: https://app.searchstax.com/api/rest/v2
+  baseurl_source: declared
+  description: The Deployments API from SearchStax — 5 operation(s) for deployments.
   name: SearchStax Deployments API
   slug: searchstax-deployments-api
-- description: The Nodes API from SearchStax — 4 operation(s) for nodes.
+- baseURL: https://app.searchstax.com/api/rest/v2
+  baseurl_source: declared
+  description: The Nodes API from SearchStax — 4 operation(s) for nodes.
   name: SearchStax Nodes API
   slug: searchstax-nodes-api
-- description: The Plans API from SearchStax — 1 operation(s) for plans.
+- baseURL: https://app.searchstax.com/api/rest/v2
+  baseurl_source: declared
+  description: The Plans API from SearchStax — 1 operation(s) for plans.
   name: SearchStax Plans API
   slug: searchstax-plans-api
-- description: The Usage API from SearchStax — 1 operation(s) for usage.
+- baseURL: https://app.searchstax.com/api/rest/v2
+  baseurl_source: declared
+  description: The Usage API from SearchStax — 1 operation(s) for usage.
   name: SearchStax Usage API
   slug: searchstax-usage-api
 artifact_total: 28
@@ -262,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchstax/refs/heads/main/screenshots/searchstax-2026-06-20T193615.png
 security:

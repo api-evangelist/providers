@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,52 +38,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: 'Account assessments allow you to assess SEPA counterparty accounts before initiating transactions with them. An assessment provides: * **Risk indicators**: Detection of fraudulent activity, suspicious'
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: 'Account assessments allow you to assess SEPA counterparty accounts before initiating transactions with them. An assessment provides: * **Risk indicators**: Detection of fraudulent activity, suspicious'
   name: Memo Bank Account assessments API
   slug: memo-bank-account-assessments-api
-- description: 'Accounts are any bank account that your company owns: current account, ring-fenced account, settlement account, specially dedicated account, trust account, meal voucher account, booster account, etc. '
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: 'Accounts are any bank account that your company owns: current account, ring-fenced account, settlement account, specially dedicated account, trust account, meal voucher account, booster account, etc. '
   name: Memo Bank Accounts API
   slug: memo-bank-accounts-api
-- description: Account Information Service. Consent is given using the **OAuth2 as a pre-step** authentication flow described in NextGenPSD2 specifications. This means you don't have to manage consents using the ded
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Account Information Service. Consent is given using the **OAuth2 as a pre-step** authentication flow described in NextGenPSD2 specifications. This means you don't have to manage consents using the ded
   name: Memo Bank AIS API
   slug: memo-bank-ais-api
-- description: Documents attached to transactions.
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Documents attached to transactions.
   name: Memo Bank Attachments API
   slug: memo-bank-attachments-api
-- description: Collections are SEPA direct debit collections, including SEPA CORE direct debits and SEPA B2B direct debits. To initiate a direct debit, a **mandate** signed by the debtor is required. You have the op
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Collections are SEPA direct debit collections, including SEPA CORE direct debits and SEPA B2B direct debits. To initiate a direct debit, a **mandate** signed by the debtor is required. You have the op
   name: Memo Bank Collections API
   slug: memo-bank-collections-api
-- description: 'IBANs are identifiers for bank accounts. There are two types of IBANs at Memo Bank: * Main IBANs, which act as primary identifiers for a bank account. There is exactly one main IBAN per bank account. '
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: 'IBANs are identifiers for bank accounts. There are two types of IBANs at Memo Bank: * Main IBANs, which act as primary identifiers for a bank account. There is exactly one main IBAN per bank account. '
   name: Memo Bank IBA Ns API
   slug: memo-bank-ibans-api
-- description: Mandate signature requests are a way to prepare and send collection mandates for signature. The mandate debtor receives an email with a link so they can complete and sign the mandate. Once it has been
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Mandate signature requests are a way to prepare and send collection mandates for signature. The mandate debtor receives an email with a link so they can complete and sign the mandate. Once it has been
   name: Memo Bank Mandate signature requests API
   slug: memo-bank-mandate-signature-requests-api
-- description: OAuth2 token management endpoints.
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: OAuth2 token management endpoints.
   name: Memo Bank O Auth2 API
   slug: memo-bank-oauth2-api
-- description: Payment Initiation Service. Payment initiation is done using the **integrated OAuth2** authentication flow described in NextGenPSD2 specifications. This means you first have to initiate a payment usin
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Payment Initiation Service. Payment initiation is done using the **integrated OAuth2** authentication flow described in NextGenPSD2 specifications. This means you first have to initiate a payment usin
   name: Memo Bank PIS API
   slug: memo-bank-pis-api
-- description: Sandbox only endpoints.
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Sandbox only endpoints.
   name: Memo Bank Sandbox API
   slug: memo-bank-sandbox-api
-- description: Transactions are any debit and credit operations on an account. <img src="https://assets.memo.bank/memobankapi/transactions-lifecycle-api-v2.png" alt="Transactions lifecycle" width="750"> Note that th
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Transactions are any debit and credit operations on an account. <img src="https://assets.memo.bank/memobankapi/transactions-lifecycle-api-v2.png" alt="Transactions lifecycle" width="750"> Note that th
   name: Memo Bank Transactions API
   slug: memo-bank-transactions-api
-- description: Transfers are transfers within the SEPA-zone, including SEPA standard transfers, SEPA instant transfers and Target 2 transfers. They can be initiated asynchronously, one by one or in bulk. They have a
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Transfers are transfers within the SEPA-zone, including SEPA standard transfers, SEPA instant transfers and Target 2 transfers. They can be initiated asynchronously, one by one or in bulk. They have a
   name: Memo Bank Transfers API
   slug: memo-bank-transfers-api
-- description: '# Events When something interesting happens on your Memo Bank workspace, such as a new transaction being created, Memo Bank can reach out to your application so that you can take action (such as sendi'
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: '# Events When something interesting happens on your Memo Bank workspace, such as a new transaction being created, Memo Bank can reach out to your application so that you can take action (such as sendi'
   name: Memo Bank Webhook API
   slug: memo-bank-webhook-api
-- description: Manage webhooks for your application. Webhooks allow you to receive real-time notifications when events occur on your Memo Bank workspace. Please refer to the [Webhook](https://docs.api.memo.bank/grou
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Manage webhooks for your application. Webhooks allow you to receive real-time notifications when events occur on your Memo Bank workspace. Please refer to the [Webhook](https://docs.api.memo.bank/grou
   name: Memo Bank Webhooks API
   slug: memo-bank-webhooks-api
-- description: Wire transfers are transfers going through Swift. They allow you to send funds outside the SEPA network and to transfer money in foreign currencies. Initiating a wire transfer may require you to uploa
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: Wire transfers are transfers going through Swift. They allow you to send funds outside the SEPA network and to transfer money in foreign currencies. Initiating a wire transfer may require you to uploa
   name: Memo Bank Wire Transfers API
   slug: memo-bank-wire-transfers-api
 artifact_total: 23
@@ -286,11 +331,11 @@ score:
   band: strong
   composite: 66.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -300,7 +345,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 66.2
+  previous_composite: 66.0
   provenance:
     conformance: first-party
     contracts:
@@ -327,8 +372,9 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/screenshots/memo-bank-2026-09-02T150506.png
 security:
 - kind: authentication
   name: Memo Bank Authentication

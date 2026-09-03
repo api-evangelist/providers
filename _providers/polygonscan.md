@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: The API API from PolygonScan — 1 operation(s) for api.
+- baseURL: https://api.etherscan.io/v2/api
+  baseurl_source: declared
+  description: The API API from PolygonScan — 1 operation(s) for api.
   name: PolygonScan API API
   slug: polygonscan-api-api
 artifact_total: 16
@@ -195,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/screenshots/polygonscan-2026-06-20T191911.png
 security:

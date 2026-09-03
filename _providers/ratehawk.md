@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 12 acting
 api_count: 1
 apis:
-- description: The Booking API from RateHawk — 3 operation(s) for booking.
+- baseURL: https://api.worldota.net/api/b2b/v3
+  baseurl_source: declared
+  description: The Booking API from RateHawk — 3 operation(s) for booking.
   name: RateHawk Booking API
   slug: ratehawk-booking-api
-- description: The Cancellation API from RateHawk — 1 operation(s) for cancellation.
+- baseURL: https://api.worldota.net/api/b2b/v3
+  baseurl_source: declared
+  description: The Cancellation API from RateHawk — 1 operation(s) for cancellation.
   name: RateHawk Cancellation API
   slug: ratehawk-cancellation-api
-- description: The Hotel Content API from RateHawk — 2 operation(s) for hotel content.
+- baseURL: https://api.worldota.net/api/b2b/v3
+  baseurl_source: declared
+  description: The Hotel Content API from RateHawk — 2 operation(s) for hotel content.
   name: RateHawk Hotel Content API
   slug: ratehawk-hotel-content-api
-- description: The Hotel Search API from RateHawk — 4 operation(s) for hotel search.
+- baseURL: https://api.worldota.net/api/b2b/v3
+  baseurl_source: declared
+  description: The Hotel Search API from RateHawk — 4 operation(s) for hotel search.
   name: RateHawk Hotel Search API
   slug: ratehawk-hotel-search-api
-- description: The Orders API from RateHawk — 2 operation(s) for orders.
+- baseURL: https://api.worldota.net/api/b2b/v3
+  baseurl_source: declared
+  description: The Orders API from RateHawk — 2 operation(s) for orders.
   name: RateHawk Orders API
   slug: ratehawk-orders-api
-- description: The Prebook API from RateHawk — 1 operation(s) for prebook.
+- baseURL: https://api.worldota.net/api/b2b/v3
+  baseurl_source: declared
+  description: The Prebook API from RateHawk — 1 operation(s) for prebook.
   name: RateHawk Prebook API
   slug: ratehawk-prebook-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ratehawk/refs/heads/main/screenshots/ratehawk-2026-09-02T152918.png
 security:
 - kind: authentication
   name: Ratehawk Authentication

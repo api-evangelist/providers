@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Query, extract, and scrape page content with AI.
+- baseURL: https://api.airtop.ai/api/v1
+  baseurl_source: declared
+  description: Query, extract, and scrape page content with AI.
   name: Airtop AI Query API
   slug: airtop-ai-query-api
-- description: Drive a page with natural-language click, type, hover, and scroll.
+- baseURL: https://api.airtop.ai/api/v1
+  baseurl_source: declared
+  description: Drive a page with natural-language click, type, hover, and scroll.
   name: Airtop Page Interaction API
   slug: airtop-page-interaction-api
-- description: Persist and delete browser profiles.
+- baseURL: https://api.airtop.ai/api/v1
+  baseurl_source: declared
+  description: Persist and delete browser profiles.
   name: Airtop Profiles API
   slug: airtop-profiles-api
-- description: Capture window screenshots.
+- baseURL: https://api.airtop.ai/api/v1
+  baseurl_source: declared
+  description: Capture window screenshots.
   name: Airtop Screenshots API
   slug: airtop-screenshots-api
-- description: Create and manage cloud browser sessions.
+- baseURL: https://api.airtop.ai/api/v1
+  baseurl_source: declared
+  description: Create and manage cloud browser sessions.
   name: Airtop Sessions API
   slug: airtop-sessions-api
-- description: Create, navigate, and close browser windows inside a session.
+- baseURL: https://api.airtop.ai/api/v1
+  baseurl_source: declared
+  description: Create, navigate, and close browser windows inside a session.
   name: Airtop Windows API
   slug: airtop-windows-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/screenshots/airtop-2026-06-20T171435.png
 security:

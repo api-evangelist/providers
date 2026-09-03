@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Rules, capabilities, vocabulary, and linked-data description covering classic Gang of Four patterns and key API design patterns.
@@ -120,7 +120,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 14.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/screenshots/design-patterns-2026-06-20T175933.png
 slug: design-patterns

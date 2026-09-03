@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 33 operations · 18 acting
 api_count: 6
 apis:
-- description: Manage escalation policies and on-call schedules
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage escalation policies and on-call schedules
   name: Better Stack Escalation Policies API
   slug: better-stack-escalation-policies-api
-- description: Manage heartbeat monitors for scheduled jobs and cron tasks
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage heartbeat monitors for scheduled jobs and cron tasks
   name: Better Stack Heartbeats API
   slug: better-stack-heartbeats-api
-- description: Manage incidents and on-call alerting
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage incidents and on-call alerting
   name: Better Stack Incidents API
   slug: better-stack-incidents-api
-- description: Manage uptime monitors for URLs, APIs, and services
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage uptime monitors for URLs, APIs, and services
   name: Better Stack Monitors API
   slug: better-stack-monitors-api
-- description: Manage public and private status pages
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage public and private status pages
   name: Better Stack Status Pages API
   slug: better-stack-status-pages-api
-- description: Manage team members and invitations
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage team members and invitations
   name: Better Stack Team Members API
   slug: better-stack-team-members-api
 artifact_total: 167
@@ -636,7 +648,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/screenshots/better-stack-2026-06-20T173204.png
 security:

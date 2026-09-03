@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,10 +58,14 @@ apis:
 - description: JavaScript widget library for embedding NFT minting and claim flows into any website or dApp. Served from claims.manifoldxyz.dev, current version 1.16.1. Configured via data-widget (claim type) and da
   name: Manifold Claim Widgets
   slug: claim-widgets
-- description: Exchange a one-time authorization code for a long-lived access token allowing server-side access to private user data.
+- baseURL: https://github.com/manifoldxyz/creator-core-solidity
+  baseurl_source: declared
+  description: Exchange a one-time authorization code for a long-lived access token allowing server-side access to private user data.
   name: Manifold Authorization Code Grant API
   slug: manifold-authorization-code-grant-api
-- description: Validate a wallet signature session token to confirm a user's wallet address server-side.
+- baseURL: https://github.com/manifoldxyz/creator-core-solidity
+  baseurl_source: declared
+  description: Validate a wallet signature session token to confirm a user's wallet address server-side.
   name: Manifold Signature Grant API
   slug: manifold-signature-grant-api
 artifact_total: 17
@@ -207,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manifold/refs/heads/main/screenshots/manifold-2026-06-20T184923.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,31 +57,49 @@ apis:
 - description: Chick-fil-A eGift Cards in denominations from $5 to $100 are deliverable via email and redeemable in-restaurant, through the mobile app, and via the online ordering platform.
   name: Chick-fil-A eGift Cards
   slug: chick-fil-a-egift-cards
-- description: AWS account inventory and metadata operations.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: AWS account inventory and metadata operations.
   name: Chick-fil-A Accounts API
   slug: chickfila-accounts-api
-- description: Compliance rules and audit report operations.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: Compliance rules and audit report operations.
   name: Chick-fil-A Compliance API
   slug: chickfila-compliance-api
-- description: EC2 instances and public IP address operations.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: EC2 instances and public IP address operations.
   name: Chick-fil-A Compute API
   slug: chickfila-compute-api
-- description: RDS, DynamoDB, and Redshift inventory.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: RDS, DynamoDB, and Redshift inventory.
   name: Chick-fil-A Databases API
   slug: chickfila-databases-api
-- description: IAM users and roles across accounts.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: IAM users and roles across accounts.
   name: Chick-fil-A Identity API
   slug: chickfila-identity-api
-- description: Security groups and load balancers.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: Security groups and load balancers.
   name: Chick-fil-A Networking API
   slug: chickfila-networking-api
-- description: S3 bucket inventory and object listing.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: S3 bucket inventory and object listing.
   name: Chick-fil-A Storage API
   slug: chickfila-storage-api
-- description: Aggregate counts across accounts.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: Aggregate counts across accounts.
   name: Chick-fil-A Summary API
   slug: chickfila-summary-api
-- description: Health and configuration operations.
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: Health and configuration operations.
   name: Chick-fil-A System API
   slug: chickfila-system-api
 artifact_total: 139
@@ -572,7 +590,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:

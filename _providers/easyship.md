@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 19 operations · 11 acting
 api_count: 1
 apis:
-- description: The Addresses API from Easyship — 2 operation(s) for addresses.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Addresses API from Easyship — 2 operation(s) for addresses.
   name: Easyship Addresses API
   slug: easyship-addresses-api
-- description: The Labels API from Easyship — 1 operation(s) for labels.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Labels API from Easyship — 1 operation(s) for labels.
   name: Easyship Labels API
   slug: easyship-labels-api
-- description: The Pickups API from Easyship — 1 operation(s) for pickups.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Pickups API from Easyship — 1 operation(s) for pickups.
   name: Easyship Pickups API
   slug: easyship-pickups-api
-- description: The Rates API from Easyship — 1 operation(s) for rates.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Rates API from Easyship — 1 operation(s) for rates.
   name: Easyship Rates API
   slug: easyship-rates-api
-- description: The Shipments API from Easyship — 3 operation(s) for shipments.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Shipments API from Easyship — 3 operation(s) for shipments.
   name: Easyship Shipments API
   slug: easyship-shipments-api
-- description: The Trackings API from Easyship — 2 operation(s) for trackings.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Trackings API from Easyship — 2 operation(s) for trackings.
   name: Easyship Trackings API
   slug: easyship-trackings-api
-- description: The Webhooks API from Easyship — 1 operation(s) for webhooks.
+- baseURL: https://api.easyship.com
+  baseurl_source: declared
+  description: The Webhooks API from Easyship — 1 operation(s) for webhooks.
   name: Easyship Webhooks API
   slug: easyship-webhooks-api
 artifact_total: 35
@@ -268,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/screenshots/easyship-2026-06-20T180405.png
 security:

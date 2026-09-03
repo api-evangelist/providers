@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -80,19 +80,29 @@ apis:
 - description: REST API for retrieving system information and metadata about SAP HANA Platform instances.
   name: SAP HANA REST Info API
   slug: sap-hana-rest-info-api
-- description: Operations for accessing and managing triggered alerts for SAP HANA Cloud instances, including alert state queries, severity filtering, and alert rule configuration.
+- baseURL: https://api.cf.{region}.hana.ondemand.com
+  baseurl_source: declared
+  description: Operations for accessing and managing triggered alerts for SAP HANA Cloud instances, including alert state queries, severity filtering, and alert rule configuration.
   name: SAP HANA Alerts API
   slug: sap-hana-alerts-api
-- description: Operations for creating and managing instance mappings that associate SAP HANA Cloud instances across subaccounts and environments.
+- baseURL: https://api.cf.{region}.hana.ondemand.com
+  baseurl_source: declared
+  description: Operations for creating and managing instance mappings that associate SAP HANA Cloud instances across subaccounts and environments.
   name: SAP HANA Instance Mappings API
   slug: sap-hana-instance-mappings-api
-- description: Operations for managing SAP HANA Cloud database instances including provisioning, configuration, lifecycle management, and status retrieval.
+- baseURL: https://api.cf.{region}.hana.ondemand.com
+  baseurl_source: declared
+  description: Operations for managing SAP HANA Cloud database instances including provisioning, configuration, lifecycle management, and status retrieval.
   name: SAP HANA Instances API
   slug: sap-hana-instances-api
-- description: Operations for accessing consumption metering data used for billing and capacity planning for SAP HANA Cloud instances.
+- baseURL: https://api.cf.{region}.hana.ondemand.com
+  baseurl_source: declared
+  description: Operations for accessing consumption metering data used for billing and capacity planning for SAP HANA Cloud instances.
   name: SAP HANA Metering API
   slug: sap-hana-metering-api
-- description: Operations for retrieving database performance metrics and resource utilization data for SAP HANA Cloud instances.
+- baseURL: https://api.cf.{region}.hana.ondemand.com
+  baseurl_source: declared
+  description: Operations for retrieving database performance metrics and resource utilization data for SAP HANA Cloud instances.
   name: SAP HANA Metrics API
   slug: sap-hana-metrics-api
 artifact_total: 157
@@ -632,7 +642,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/screenshots/sap-hana-2026-06-20T193427.png
 security:

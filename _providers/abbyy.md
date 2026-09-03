@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Public REST API for ABBYY Vantage intelligent document processing. Create transactions, upload and order files, launch AI skills for classification, extraction and OCR, poll transaction status, downlo
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: Public REST API for ABBYY Vantage intelligent document processing. Create transactions, upload and order files, launch AI skills for classification, extraction and OCR, poll transaction status, downlo
   name: ABBYY Vantage Processing REST API
   slug: abbyy-vantage-processing
-- description: Reporting REST API for ABBYY Vantage. Downloads CSV extracts from the Business Processing Reporting Warehouse (transaction-level step timings, skill versions, reviewer detail) and the Analytics Report
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: Reporting REST API for ABBYY Vantage. Downloads CSV extracts from the Business Processing Reporting Warehouse (transaction-level step timings, skill versions, reviewer detail) and the Analytics Report
   name: ABBYY Vantage Reporting API
   slug: abbyy-vantage-reporting
 - description: REST API for ABBYY FlexiCapture Cloud for Invoices. Uploads files, runs invoice capture tasks, downloads results, and maintains business-unit and vendor master-data sets plus model training. HTTP Basi
@@ -232,7 +236,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -242,7 +246,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 51.8
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
@@ -253,7 +257,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/screenshots/abbyy-2026-07-25T181335.png
 security:

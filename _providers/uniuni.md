@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: JWT-authenticated API for partner vendors (drop-off locations, scan events) to exchange an API key for a 24-hour access token and query shipment tracking status and event history.
@@ -42,19 +42,29 @@ apis:
 - description: Legacy enterprise integration API documented as a public Postman collection — token-based authorization, freight estimation, sorting information, batch management, shipment creation/cancellation, labe
   name: UniUni Integration API
   slug: uniuni-integration-api
-- description: Group purchased shipments into batches for drop-off or pickup.
+- baseURL: https://api.ship.uniuni.com/prod/client/
+  baseurl_source: declared
+  description: Group purchased shipments into batches for drop-off or pickup.
   name: UniUni Batches API
   slug: uniuni-batches-api
-- description: Retrieve shipping and batch labels as Base64-encoded PDFs.
+- baseURL: https://api.ship.uniuni.com/prod/client/
+  baseurl_source: declared
+  description: Retrieve shipping and batch labels as Base64-encoded PDFs.
   name: UniUni Labels API
   slug: uniuni-labels-api
-- description: Create, retrieve, list, purchase, refund, and delete shipments.
+- baseURL: https://api.ship.uniuni.com/prod/client/
+  baseurl_source: declared
+  description: Create, retrieve, list, purchase, refund, and delete shipments.
   name: UniUni Shipments API
   slug: uniuni-shipments-api
-- description: Track shipment status and scan events.
+- baseURL: https://api.ship.uniuni.com/prod/client/
+  baseurl_source: declared
+  description: Track shipment status and scan events.
   name: UniUni Tracking API
   slug: uniuni-tracking-api
-- description: Receive real-time shipment status updates.
+- baseURL: https://api.ship.uniuni.com/prod/client/
+  baseurl_source: declared
+  description: Receive real-time shipment status updates.
   name: UniUni Webhooks API
   slug: uniuni-webhooks-api
 artifact_total: 17
@@ -210,7 +220,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -220,7 +230,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 46.8
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -231,7 +241,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniuni/refs/heads/main/screenshots/uniuni-2026-08-17T082619.png
 security:

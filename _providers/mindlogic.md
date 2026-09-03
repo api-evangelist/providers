@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 17 operations · 9 acting
 api_count: 1
 apis:
-- description: The Audio API from Mindlogic — 1 operation(s) for audio.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The Audio API from Mindlogic — 1 operation(s) for audio.
   name: Mindlogic Audio API
   slug: mindlogic-audio-api
-- description: The Chat API from Mindlogic — 1 operation(s) for chat.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The Chat API from Mindlogic — 1 operation(s) for chat.
   name: Mindlogic Chat API
   slug: mindlogic-chat-api
-- description: The Credits API from Mindlogic — 1 operation(s) for credits.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The Credits API from Mindlogic — 1 operation(s) for credits.
   name: Mindlogic Credits API
   slug: mindlogic-credits-api
-- description: The gateway API from Mindlogic — 7 operation(s) for gateway.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The gateway API from Mindlogic — 7 operation(s) for gateway.
   name: Mindlogic gateway API
   slug: mindlogic-gateway-api
-- description: The Images API from Mindlogic — 2 operation(s) for images.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The Images API from Mindlogic — 2 operation(s) for images.
   name: Mindlogic Images API
   slug: mindlogic-images-api
-- description: The Models API from Mindlogic — 2 operation(s) for models.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The Models API from Mindlogic — 2 operation(s) for models.
   name: Mindlogic Models API
   slug: mindlogic-models-api
-- description: The Video API from Mindlogic — 3 operation(s) for video.
+- baseURL: https://factchat-cloud.mindlogic.ai/v1/gateway
+  baseurl_source: declared
+  description: The Video API from Mindlogic — 3 operation(s) for video.
   name: Mindlogic Video API
   slug: mindlogic-video-api
 artifact_total: 19
@@ -222,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/screenshots/mindlogic-2026-08-07T172941.png
 security:

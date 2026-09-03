@@ -33,181 +33,297 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
   name: ZenHR Inc Approvals API
   slug: zenhr-inc-approvals-api
-- description: The Attendance Details API from ZenHR Inc — 4 operation(s) for attendance details.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Attendance Details API from ZenHR Inc — 4 operation(s) for attendance details.
   name: ZenHR Inc Attendance Details API
   slug: zenhr-inc-attendance-details-api
-- description: The Bank Account API from ZenHR Inc — 1 operation(s) for bank account.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Bank Account API from ZenHR Inc — 1 operation(s) for bank account.
   name: ZenHR Inc Bank Account API
   slug: zenhr-inc-bank-account-api
-- description: The Bank Accounts API from ZenHR Inc — 1 operation(s) for bank accounts.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Bank Accounts API from ZenHR Inc — 1 operation(s) for bank accounts.
   name: ZenHR Inc Bank Accounts API
   slug: zenhr-inc-bank-accounts-api
-- description: The Bank Branches API from ZenHR Inc — 2 operation(s) for bank branches.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Bank Branches API from ZenHR Inc — 2 operation(s) for bank branches.
   name: ZenHR Inc Bank Branches API
   slug: zenhr-inc-bank-branches-api
-- description: The Banks API from ZenHR Inc — 2 operation(s) for banks.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Banks API from ZenHR Inc — 2 operation(s) for banks.
   name: ZenHR Inc Banks API
   slug: zenhr-inc-banks-api
-- description: The Branch Employee Shifts API from ZenHR Inc — 3 operation(s) for branch employee shifts.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Branch Employee Shifts API from ZenHR Inc — 3 operation(s) for branch employee shifts.
   name: ZenHR Inc Branch Employee Shifts API
   slug: zenhr-inc-branch-employee-shifts-api
-- description: The Branches API from ZenHR Inc — 3 operation(s) for branches.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Branches API from ZenHR Inc — 3 operation(s) for branches.
   name: ZenHR Inc Branches API
   slug: zenhr-inc-branches-api
-- description: The Business Travel Policies API from ZenHR Inc — 2 operation(s) for business travel policies.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Business Travel Policies API from ZenHR Inc — 2 operation(s) for business travel policies.
   name: ZenHR Inc Business Travel Policies API
   slug: zenhr-inc-business-travel-policies-api
-- description: The Business Travel Setup API from ZenHR Inc — 1 operation(s) for business travel setup.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Business Travel Setup API from ZenHR Inc — 1 operation(s) for business travel setup.
   name: ZenHR Inc Business Travel Setup API
   slug: zenhr-inc-business-travel-setup-api
-- description: The Business Trips API from ZenHR Inc — 6 operation(s) for business trips.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Business Trips API from ZenHR Inc — 6 operation(s) for business trips.
   name: ZenHR Inc Business Trips API
   slug: zenhr-inc-business-trips-api
-- description: The Business Units API from ZenHR Inc — 2 operation(s) for business units.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Business Units API from ZenHR Inc — 2 operation(s) for business units.
   name: ZenHR Inc Business Units API
   slug: zenhr-inc-business-units-api
-- description: The Competencies API from ZenHR Inc — 3 operation(s) for competencies.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Competencies API from ZenHR Inc — 3 operation(s) for competencies.
   name: ZenHR Inc Competencies API
   slug: zenhr-inc-competencies-api
-- description: The Competencies Categories API from ZenHR Inc — 2 operation(s) for competencies categories.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Competencies Categories API from ZenHR Inc — 2 operation(s) for competencies categories.
   name: ZenHR Inc Competencies Categories API
   slug: zenhr-inc-competencies-categories-api
-- description: The Countries API from ZenHR Inc — 2 operation(s) for countries.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Countries API from ZenHR Inc — 2 operation(s) for countries.
   name: ZenHR Inc Countries API
   slug: zenhr-inc-countries-api
-- description: The Departments API from ZenHR Inc — 2 operation(s) for departments.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Departments API from ZenHR Inc — 2 operation(s) for departments.
   name: ZenHR Inc Departments API
   slug: zenhr-inc-departments-api
-- description: The Divisions API from ZenHR Inc — 2 operation(s) for divisions.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Divisions API from ZenHR Inc — 2 operation(s) for divisions.
   name: ZenHR Inc Divisions API
   slug: zenhr-inc-divisions-api
-- description: The Document Types API from ZenHR Inc — 2 operation(s) for document types.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Document Types API from ZenHR Inc — 2 operation(s) for document types.
   name: ZenHR Inc Document Types API
   slug: zenhr-inc-document-types-api
-- description: The Documents API from ZenHR Inc — 2 operation(s) for documents.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Documents API from ZenHR Inc — 2 operation(s) for documents.
   name: ZenHR Inc Documents API
   slug: zenhr-inc-documents-api
-- description: The Employee Competencies API from ZenHR Inc — 2 operation(s) for employee competencies.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employee Competencies API from ZenHR Inc — 2 operation(s) for employee competencies.
   name: ZenHR Inc Employee Competencies API
   slug: zenhr-inc-employee-competencies-api
-- description: The Employee Financial Transactions API from ZenHR Inc — 4 operation(s) for employee financial transactions.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employee Financial Transactions API from ZenHR Inc — 4 operation(s) for employee financial transactions.
   name: ZenHR Inc Employee Financial Transactions API
   slug: zenhr-inc-employee-financial-transactions-api
-- description: The Employee Master Data API from ZenHR Inc — 2 operation(s) for employee master data.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employee Master Data API from ZenHR Inc — 2 operation(s) for employee master data.
   name: ZenHR Inc Employee Master Data API
   slug: zenhr-inc-employee-master-data-api
-- description: The Employee Shifts API from ZenHR Inc — 2 operation(s) for employee shifts.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employee Shifts API from ZenHR Inc — 2 operation(s) for employee shifts.
   name: ZenHR Inc Employee Shifts API
   slug: zenhr-inc-employee-shifts-api
-- description: The Employee Timeoff Transaction API from ZenHR Inc — 3 operation(s) for employee timeoff transaction.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employee Timeoff Transaction API from ZenHR Inc — 3 operation(s) for employee timeoff transaction.
   name: ZenHR Inc Employee Timeoff Transaction API
   slug: zenhr-inc-employee-timeoff-transaction-api
-- description: The Employees API from ZenHR Inc — 1 operation(s) for employees.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employees API from ZenHR Inc — 1 operation(s) for employees.
   name: ZenHR Inc Employees API
   slug: zenhr-inc-employees-api
-- description: The Employees HR Letters API from ZenHR Inc — 2 operation(s) for employees hr letters.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employees HR Letters API from ZenHR Inc — 2 operation(s) for employees hr letters.
   name: ZenHR Inc Employees HR Letters API
   slug: zenhr-inc-employees-hr-letters-api
-- description: The Employees Termination API from ZenHR Inc — 2 operation(s) for employees termination.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Employees Termination API from ZenHR Inc — 2 operation(s) for employees termination.
   name: ZenHR Inc Employees Termination API
   slug: zenhr-inc-employees-termination-api
-- description: The Families API from ZenHR Inc — 2 operation(s) for families.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Families API from ZenHR Inc — 2 operation(s) for families.
   name: ZenHR Inc Families API
   slug: zenhr-inc-families-api
-- description: The Financial Data API from ZenHR Inc — 3 operation(s) for financial data.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Financial Data API from ZenHR Inc — 3 operation(s) for financial data.
   name: ZenHR Inc Financial Data API
   slug: zenhr-inc-financial-data-api
-- description: The Financial Transaction Types API from ZenHR Inc — 3 operation(s) for financial transaction types.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Financial Transaction Types API from ZenHR Inc — 3 operation(s) for financial transaction types.
   name: ZenHR Inc Financial Transaction Types API
   slug: zenhr-inc-financial-transaction-types-api
-- description: The Financial Transactions API from ZenHR Inc — 3 operation(s) for financial transactions.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Financial Transactions API from ZenHR Inc — 3 operation(s) for financial transactions.
   name: ZenHR Inc Financial Transactions API
   slug: zenhr-inc-financial-transactions-api
-- description: The General API from ZenHR Inc — 2 operation(s) for general.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The General API from ZenHR Inc — 2 operation(s) for general.
   name: ZenHR Inc General API
   slug: zenhr-inc-general-api
-- description: The Governmental Information API from ZenHR Inc — 2 operation(s) for governmental information.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Governmental Information API from ZenHR Inc — 2 operation(s) for governmental information.
   name: ZenHR Inc Governmental Information API
   slug: zenhr-inc-governmental-information-api
-- description: The Hirearchy Groups API from ZenHR Inc — 2 operation(s) for hirearchy groups.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Hirearchy Groups API from ZenHR Inc — 2 operation(s) for hirearchy groups.
   name: ZenHR Inc Hirearchy Groups API
   slug: zenhr-inc-hirearchy-groups-api
-- description: The HR Letter Templates API from ZenHR Inc — 2 operation(s) for hr letter templates.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The HR Letter Templates API from ZenHR Inc — 2 operation(s) for hr letter templates.
   name: ZenHR Inc HR Letter Templates API
   slug: zenhr-inc-hr-letter-templates-api
-- description: The HR Letter Types API from ZenHR Inc — 2 operation(s) for hr letter types.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The HR Letter Types API from ZenHR Inc — 2 operation(s) for hr letter types.
   name: ZenHR Inc HR Letter Types API
   slug: zenhr-inc-hr-letter-types-api
-- description: The Level Scales API from ZenHR Inc — 3 operation(s) for level scales.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Level Scales API from ZenHR Inc — 3 operation(s) for level scales.
   name: ZenHR Inc Level Scales API
   slug: zenhr-inc-level-scales-api
-- description: The Loan Types API from ZenHR Inc — 3 operation(s) for loan types.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Loan Types API from ZenHR Inc — 3 operation(s) for loan types.
   name: ZenHR Inc Loan Types API
   slug: zenhr-inc-loan-types-api
-- description: The Loans API from ZenHR Inc — 6 operation(s) for loans.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Loans API from ZenHR Inc — 6 operation(s) for loans.
   name: ZenHR Inc Loans API
   slug: zenhr-inc-loans-api
-- description: The Main Projects API from ZenHR Inc — 2 operation(s) for main projects.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Main Projects API from ZenHR Inc — 2 operation(s) for main projects.
   name: ZenHR Inc Main Projects API
   slug: zenhr-inc-main-projects-api
-- description: The Miscellaneous Requests API from ZenHR Inc — 4 operation(s) for miscellaneous requests.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Miscellaneous Requests API from ZenHR Inc — 4 operation(s) for miscellaneous requests.
   name: ZenHR Inc Miscellaneous Requests API
   slug: zenhr-inc-miscellaneous-requests-api
-- description: The Miscellaneous Types API from ZenHR Inc — 2 operation(s) for miscellaneous types.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Miscellaneous Types API from ZenHR Inc — 2 operation(s) for miscellaneous types.
   name: ZenHR Inc Miscellaneous Types API
   slug: zenhr-inc-miscellaneous-types-api
-- description: The Overtime Types API from ZenHR Inc — 3 operation(s) for overtime types.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Overtime Types API from ZenHR Inc — 3 operation(s) for overtime types.
   name: ZenHR Inc Overtime Types API
   slug: zenhr-inc-overtime-types-api
-- description: The Overtimes API from ZenHR Inc — 6 operation(s) for overtimes.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Overtimes API from ZenHR Inc — 6 operation(s) for overtimes.
   name: ZenHR Inc Overtimes API
   slug: zenhr-inc-overtimes-api
-- description: The Positions API from ZenHR Inc — 2 operation(s) for positions.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Positions API from ZenHR Inc — 2 operation(s) for positions.
   name: ZenHR Inc Positions API
   slug: zenhr-inc-positions-api
-- description: The Professional Data API from ZenHR Inc — 3 operation(s) for professional data.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Professional Data API from ZenHR Inc — 3 operation(s) for professional data.
   name: ZenHR Inc Professional Data API
   slug: zenhr-inc-professional-data-api
-- description: The Recurring Transaction API from ZenHR Inc — 2 operation(s) for recurring transaction.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Recurring Transaction API from ZenHR Inc — 2 operation(s) for recurring transaction.
   name: ZenHR Inc Recurring Transaction API
   slug: zenhr-inc-recurring-transaction-api
-- description: The Request Events API from ZenHR Inc — 1 operation(s) for request events.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Request Events API from ZenHR Inc — 1 operation(s) for request events.
   name: ZenHR Inc Request Events API
   slug: zenhr-inc-request-events-api
-- description: The Salaries API from ZenHR Inc — 2 operation(s) for salaries.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Salaries API from ZenHR Inc — 2 operation(s) for salaries.
   name: ZenHR Inc Salaries API
   slug: zenhr-inc-salaries-api
-- description: The Sections API from ZenHR Inc — 2 operation(s) for sections.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Sections API from ZenHR Inc — 2 operation(s) for sections.
   name: ZenHR Inc Sections API
   slug: zenhr-inc-sections-api
-- description: The Segments API from ZenHR Inc — 2 operation(s) for segments.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Segments API from ZenHR Inc — 2 operation(s) for segments.
   name: ZenHR Inc Segments API
   slug: zenhr-inc-segments-api
-- description: The Termination Setup API from ZenHR Inc — 2 operation(s) for termination setup.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Termination Setup API from ZenHR Inc — 2 operation(s) for termination setup.
   name: ZenHR Inc Termination Setup API
   slug: zenhr-inc-termination-setup-api
-- description: The Terminations API from ZenHR Inc — 2 operation(s) for terminations.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Terminations API from ZenHR Inc — 2 operation(s) for terminations.
   name: ZenHR Inc Terminations API
   slug: zenhr-inc-terminations-api
-- description: The Timeoff Transaction API from ZenHR Inc — 3 operation(s) for timeoff transaction.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Timeoff Transaction API from ZenHR Inc — 3 operation(s) for timeoff transaction.
   name: ZenHR Inc Timeoff Transaction API
   slug: zenhr-inc-timeoff-transaction-api
-- description: The Timeoffs API from ZenHR Inc — 2 operation(s) for timeoffs.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Timeoffs API from ZenHR Inc — 2 operation(s) for timeoffs.
   name: ZenHR Inc Timeoffs API
   slug: zenhr-inc-timeoffs-api
-- description: The Users API from ZenHR Inc — 1 operation(s) for users.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Users API from ZenHR Inc — 1 operation(s) for users.
   name: ZenHR Inc Users API
   slug: zenhr-inc-users-api
-- description: The Work Location API from ZenHR Inc — 2 operation(s) for work location.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Work Location API from ZenHR Inc — 2 operation(s) for work location.
   name: ZenHR Inc Work Location API
   slug: zenhr-inc-work-location-api
-- description: The Work Shifts API from ZenHR Inc — 2 operation(s) for work shifts.
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Work Shifts API from ZenHR Inc — 2 operation(s) for work shifts.
   name: ZenHR Inc Work Shifts API
   slug: zenhr-inc-work-shifts-api
 artifact_total: 124
@@ -568,7 +684,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenhr-inc/refs/heads/main/screenshots/zenhr-inc-2026-08-17T083041.png
 security:

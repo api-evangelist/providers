@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ agentic_access:
   summary_line: 33 operations
 api_count: 3
 apis:
-- description: 'EPFL''s public news API, serving the Actu newsroom — news, projects, channels, faculties, categories, themes and publics. Django REST Framework, read-only (Allow: GET, HEAD, OPTIONS), unauthenticated b'
+- baseURL: https://actu.epfl.ch/api/v1/
+  baseurl_source: declared
+  description: 'EPFL''s public news API, serving the Actu newsroom — news, projects, channels, faculties, categories, themes and publics. Django REST Framework, read-only (Allow: GET, HEAD, OPTIONS), unauthenticated b'
   name: EPFL Actu News API
   slug: actu-news-api
-- description: EPFL's public events and agenda API, serving the Memento calendar — events, mementos, registrations, domains, categories, faculties, spoken languages and vulgarizations. Django REST Framework, read-on
+- baseURL: https://memento.epfl.ch/api/v1/
+  baseurl_source: declared
+  description: EPFL's public events and agenda API, serving the Memento calendar — events, mementos, registrations, domains, categories, faculties, spoken languages and vulgarizations. Django REST Framework, read-on
   name: EPFL Memento Events API
   slug: memento-events-api
 - description: Infoscience is EPFL's institutional repository and CRIS, self-hosted on EPFL infrastructure and running DSpace-CRIS. It exposes a HAL/HATEOAS REST API rooted at /server/api with 40+ link relations, an
@@ -69,7 +73,9 @@ apis:
 - description: EPFL's library discovery and resolution run on Ex Libris Primo VE with Alma behind it, delivered through SLSP (Swiss Library Service Platform). EPFL's holdings, EPFL's patrons, EPFL's branded entry po
   name: EPFL Library Discovery on swisscovery (Ex Libris, tenant)
   slug: swisscovery-library
-- description: The Primers API from EPFL — 1 operation(s) for primers.
+- baseURL: https://actu.epfl.ch/api/v1/
+  baseurl_source: declared
+  description: The Primers API from EPFL — 1 operation(s) for primers.
   name: EPFL Primers API
   slug: epfl-primers-api
 artifact_total: 40
@@ -338,7 +344,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -348,7 +354,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 42.3
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -364,7 +370,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png
 security:

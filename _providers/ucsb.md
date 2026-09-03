@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 21
 apis:
 - description: Central campus API developer portal. Catalogs 37 campus APIs across six categories, renders each published contract with Swagger UI, and runs registration, App/consumer-key creation and the API Access
@@ -42,67 +42,109 @@ apis:
 - description: The single API front door for the campus, at api.ucsb.edu. Every campus API is published as a proxy on it and it enforces the ucsb-api-key application entitlement before a request reaches a backend we
   name: UCSB Campus API Gateway
   slug: campus-api-gateway
-- description: Search and retrieve the UCSB schedule of classes for a quarter — classes, sections, final exams, space availability and general-education codes. The most substantial public academic contract UCSB publ
+- baseURL: https://api.ucsb.edu/academics/curriculums
+  baseurl_source: declared
+  description: Search and retrieve the UCSB schedule of classes for a quarter — classes, sections, final exams, space availability and general-education codes. The most substantial public academic contract UCSB publ
   name: UCSB Academic Curriculums
   slug: academic-curriculums
-- description: List UCSB graduate degree programs and retrieve one by id, with department, degree types and application detail, from the Graduate Division. Published as Swagger 2.0, 2 paths, base https://api.ucsb.ed
+- baseURL: https://api.ucsb.edu/academics/gradprograms/v1
+  baseurl_source: declared
+  description: List UCSB graduate degree programs and retrieve one by id, with department, degree types and application detail, from the Graduate Division. Published as Swagger 2.0, 2 paths, base https://api.ucsb.ed
   name: UCSB Academic Graduate Programs
   slug: academic-graduate-programs
-- description: 'The Office of the Registrar''s quarter calendar — first/last day of classes and finals, the three registration passes, fee deadline and add/drop deadlines. The keystone contract of the estate: everythi'
+- baseURL: https://api.ucsb.edu/academics
+  baseurl_source: declared
+  description: 'The Office of the Registrar''s quarter calendar — first/last day of classes and finals, the three registration passes, fee deadline and add/drop deadlines. The keystone contract of the estate: everythi'
   name: UCSB Academic Quarter Calendar
   slug: academic-quarter-calendar
-- description: Quarter and term calendar as the BARC student billing system sees it, which is deliberately distinct from the Registrar calendar. Private tier. Published as Swagger 2.0, 2 paths, base https://api.ucsb
+- baseURL: https://api.ucsb.edu/academics/private/barcquartercalendar/v1
+  baseurl_source: declared
+  description: Quarter and term calendar as the BARC student billing system sees it, which is deliberately distinct from the Registrar calendar. Private tier. Published as Swagger 2.0, 2 paths, base https://api.ucsb
   name: UCSB BARC Quarter Calendar
   slug: barc-quarter-calendar
-- description: Student records as held by BARC, the campus Billing, Accounts Receivable and Collections system. Private tier; the contract is public, the data is not. Published as Swagger 2.0, 1 path, base https://a
+- baseURL: https://api.ucsb.edu/students/private/barcstudents/v1
+  baseurl_source: declared
+  description: Student records as held by BARC, the campus Billing, Accounts Receivable and Collections system. Private tier; the contract is public, the data is not. Published as Swagger 2.0, 1 path, base https://a
   name: UCSB BARC Students API
   slug: barc-students-api
-- description: Subjects and skills workshops offered by Campus Learning Assistance Services. One of only two UCSB contracts published as OpenAPI 3.0.1, and the only one that requires the ucsb-api-version header on e
+- baseURL: https://api.ucsb.edu/academics/clas/schedules/v1
+  baseurl_source: declared
+  description: Subjects and skills workshops offered by Campus Learning Assistance Services. One of only two UCSB contracts published as OpenAPI 3.0.1, and the only one that requires the ucsb-api-version header on e
   name: UCSB CLAS Schedules
   slug: clas-schedules
-- description: Lookup of BARC class codes, which determine a student billing category. Access Approval Required. Published as Swagger 2.0, 2 paths, base https://api.ucsb.edu/administration/financial/barc/classcode/v
+- baseURL: https://api.ucsb.edu/administration/financial/barc/classcode/v2
+  baseurl_source: declared
+  description: Lookup of BARC class codes, which determine a student billing category. Access Approval Required. Published as Swagger 2.0, 2 paths, base https://api.ucsb.edu/administration/financial/barc/classcode/v
   name: UCSB ClassCode Lookup Service
   slug: classcode-lookup-service
-- description: Department, cost centre, cost type and project-code chartfields from the campus financial system. Published as OpenAPI 3.0.1 and the only contract that declares test and dev environments alongside pro
+- baseURL: https://api.ucsb.edu/administration/financial/accounts
+  baseurl_source: declared
+  description: Department, cost centre, cost type and project-code chartfields from the campus financial system. Published as OpenAPI 3.0.1 and the only contract that declares test and dev environments alongside pro
   name: UCSB Department Chartfield
   slug: department-chartfield
-- description: Registrar extract of a department course list with sections, time/locations, instructors and concurrent courses. Private tier. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students/priv
+- baseURL: https://api.ucsb.edu/students/private/deptcourses
+  baseurl_source: declared
+  description: Registrar extract of a department course list with sections, time/locations, instructors and concurrent courses. Private tier. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students/priv
   name: UCSB Department Course Extract
   slug: department-course-extract
-- description: Employment and job data drawn from UCPath — employee records, job codes, job class codes and employment status. Private tier; the most sensitive contract UCSB publishes a spec for. Published as Swagge
+- baseURL: https://api.ucsb.edu/employees/private/employeejoblookup
+  baseurl_source: declared
+  description: Employment and job data drawn from UCPath — employee records, job codes, job class codes and employment status. Private tier; the most sensitive contract UCSB publishes a spec for. Published as Swagge
   name: UCSB Employee Job
   slug: employee-job
-- description: Campus academic events list. The smallest contract in the estate — one GET, no declared schema. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/academics/.
+- baseURL: https://api.ucsb.edu/academics/
+  baseurl_source: declared
+  description: Campus academic events list. The smallest contract in the estate — one GET, no declared schema. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/academics/.
   name: UCSB Events
   slug: events
-- description: Graduate Division application verification service. The one published contract that does NOT run on the Campus API Gateway — it is served directly from gradpoint.ucsb.edu, which sits behind campus ADF
+- baseURL: https://gradpoint.ucsb.edu/webservices/public/applverifications
+  baseurl_source: declared
+  description: Graduate Division application verification service. The one published contract that does NOT run on the Campus API Gateway — it is served directly from gradpoint.ucsb.edu, which sits behind campus ADF
   name: UCSB Grad Application Verifications
   slug: grad-application-verifications
-- description: Registrar service backing student access to Santa Barbara Metropolitan Transit District bus service. Private tier; the campus-life corner of the estate. Published as Swagger 2.0, 1 path, base https://
+- baseURL: https://api.ucsb.edu/students/private
+  baseurl_source: declared
+  description: Registrar service backing student access to Santa Barbara Metropolitan Transit District bus service. Private tier; the campus-life corner of the estate. Published as Swagger 2.0, 1 path, base https://
   name: UCSB MTD Access
   slug: mtd-access
-- description: 'Validation of PeopleSoft Functional Accounting Unit chartstring combinations. A POST-based validation service and one of only three write-bearing contracts UCSB publishes. Published as Swagger 2.0, 1 '
+- baseURL: https://api.ucsb.edu/administration/financial/peoplesoft/fauvalidation/v2
+  baseurl_source: declared
+  description: 'Validation of PeopleSoft Functional Accounting Unit chartstring combinations. A POST-based validation service and one of only three write-bearing contracts UCSB publishes. Published as Swagger 2.0, 1 '
   name: UCSB PeopleSoft FAU (Functional Accounting Unit) Combination Service
   slug: peoplesoft-fau-functional-accounting-unit-combination-service
-- description: A student’s declared majors and minors. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 3 paths, base https://api.ucsb.edu/students.
+- baseURL: https://api.ucsb.edu/students
+  baseurl_source: declared
+  description: A student’s declared majors and minors. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 3 paths, base https://api.ucsb.edu/students.
   name: UCSB Student Academic Programs (Majors / Minors)
   slug: student-academic-programs-majors-minors
-- description: Basic and extended student demographic and enrollment records. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 2 paths, base https://api.ucsb.edu/students.
+- baseURL: https://api.ucsb.edu/students
+  baseurl_source: declared
+  description: Basic and extended student demographic and enrollment records. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 2 paths, base https://api.ucsb.edu/students.
   name: UCSB Student Basic Student Info
   slug: student-basic-student-info
-- description: The courses a student is enrolled in for a quarter. Access Approval Required; FERPA-governed. Its base path /students/courses is the exact nesting UCSB’s own published design standard tells campus tea
+- baseURL: https://api.ucsb.edu/students/courses
+  baseurl_source: declared
+  description: The courses a student is enrolled in for a quarter. Access Approval Required; FERPA-governed. Its base path /students/courses is the exact nesting UCSB’s own published design standard tells campus tea
   name: UCSB Student Courses
   slug: student-courses
-- description: Thirty-nine reference tables from the Student Information System — majors, minors, colleges, departments, divisions, grades, grading options, classifications, pronouns, gender identity, instruction ty
+- baseURL: https://api.ucsb.edu/students
+  baseurl_source: declared
+  description: Thirty-nine reference tables from the Student Information System — majors, minors, colleges, departments, divisions, grades, grading options, classifications, pronouns, gender identity, instruction ty
   name: UCSB Student Record Code Lookups
   slug: student-record-code-lookups
-- description: Student registration records and registration blocks for a quarter. Access Approval Required; one of three write-bearing contracts. Published as Swagger 2.0, 3 paths, base https://api.ucsb.edu/student
+- baseURL: https://api.ucsb.edu/students/registrations
+  baseurl_source: declared
+  description: Student registration records and registration blocks for a quarter. Access Approval Required; one of three write-bearing contracts. Published as Swagger 2.0, 3 paths, base https://api.ucsb.edu/student
   name: UCSB Student Registrations
   slug: student-registrations
-- description: The roster of students enrolled in a course section. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students.
+- baseURL: https://api.ucsb.edu/students
+  baseurl_source: declared
+  description: The roster of students enrolled in a course section. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students.
   name: UCSB Student Rosters
   slug: student-rosters
-- description: A student’s class schedule with meeting times, locations and instructors. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students/schedules.
+- baseURL: https://api.ucsb.edu/students/schedules
+  baseurl_source: declared
+  description: A student’s class schedule with meeting times, locations and instructors. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students/schedules.
   name: UCSB Student Schedules
   slug: student-schedules
 - description: 'UCSB operates its own Shibboleth identity provider, "Passport", at passport.identity.ucsb.edu, registered in InCommon as entityID urn:mace:incommon:ucsb.edu. Its SAML 2.0 metadata is machine-readable '
@@ -378,7 +420,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -388,7 +430,7 @@ score:
     discoverability: 64.8
     governance: 22.0
     operational_transparency: 23.7
-  previous_composite: 54.5
+  previous_composite: 54.1
   provenance:
     conformance: first-party
     contracts:
@@ -403,7 +445,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsb/refs/heads/main/screenshots/ucsb-2026-06-20T195943.png
 security:

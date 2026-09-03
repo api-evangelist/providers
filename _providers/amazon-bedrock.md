@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,22 +49,34 @@ apis:
 - description: The Amazon Bedrock Agent Runtime API provides operations for invoking Bedrock agents and retrieving content from knowledge bases for RAG applications. Authentication uses AWS Signature Version 4 (SigV
   name: Amazon Bedrock Agent Runtime API
   slug: amazon-bedrock-agent-runtime-api
-- description: Operations for multi-turn conversations with models.
+- baseURL: https://bedrock.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for multi-turn conversations with models.
   name: Amazon Bedrock Converse API
   slug: amazon-bedrock-converse-api
-- description: Operations for listing custom models.
+- baseURL: https://bedrock.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for listing custom models.
   name: Amazon Bedrock Custom Models API
   slug: amazon-bedrock-custom-models-api
-- description: Operations for listing and describing foundation models.
+- baseURL: https://bedrock.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for listing and describing foundation models.
   name: Amazon Bedrock Foundation Models API
   slug: amazon-bedrock-foundation-models-api
-- description: Operations for invoking models and running inference.
+- baseURL: https://bedrock.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for invoking models and running inference.
   name: Amazon Bedrock Inference API
   slug: amazon-bedrock-inference-api
-- description: Operations for creating and managing model customization jobs.
+- baseURL: https://bedrock.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing model customization jobs.
   name: Amazon Bedrock Model Customization API
   slug: amazon-bedrock-model-customization-api
-- description: Operations for managing provisioned model throughput.
+- baseURL: https://bedrock.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing provisioned model throughput.
   name: Amazon Bedrock Provisioned Throughput API
   slug: amazon-bedrock-provisioned-throughput-api
 artifact_total: 38
@@ -288,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/screenshots/amazon-bedrock-2026-06-20T171613.png
 security:

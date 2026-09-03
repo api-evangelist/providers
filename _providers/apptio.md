@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: IT budget planning and tracking
+- baseURL: https://api.apptio.com/v1
+  baseurl_source: spec
+  description: IT budget planning and tracking
   name: Apptio Budgets API
   slug: apptio-budgets-api
-- description: Technology cost allocation management
+- baseURL: https://api.apptio.com/v1
+  baseurl_source: spec
+  description: Technology cost allocation management
   name: Apptio Cost Allocations API
   slug: apptio-cost-allocations-api
-- description: Financial reporting and analytics
+- baseURL: https://api.apptio.com/v1
+  baseurl_source: spec
+  description: Financial reporting and analytics
   name: Apptio Reports API
   slug: apptio-reports-api
 artifact_total: 19
@@ -202,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/screenshots/apptio-2026-06-20T172335.png
 security:

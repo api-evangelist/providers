@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 23 operations · 13 acting
 api_count: 2
 apis:
-- description: The Billing API from Debbie Collect — 1 operation(s) for billing.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Billing API from Debbie Collect — 1 operation(s) for billing.
   name: Debbie Collect Billing API
   slug: debbie-collect-billing-api
-- description: The Case Vouchers API from Debbie Collect — 1 operation(s) for case vouchers.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Case Vouchers API from Debbie Collect — 1 operation(s) for case vouchers.
   name: Debbie Collect Case Vouchers API
   slug: debbie-collect-case-vouchers-api
-- description: The Cases API from Debbie Collect — 2 operation(s) for cases.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Cases API from Debbie Collect — 2 operation(s) for cases.
   name: Debbie Collect Cases API
   slug: debbie-collect-cases-api
-- description: The Creditors API from Debbie Collect — 2 operation(s) for creditors.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Creditors API from Debbie Collect — 2 operation(s) for creditors.
   name: Debbie Collect Creditors API
   slug: debbie-collect-creditors-api
-- description: The Customers API from Debbie Collect — 2 operation(s) for customers.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Customers API from Debbie Collect — 2 operation(s) for customers.
   name: Debbie Collect Customers API
   slug: debbie-collect-customers-api
-- description: The Files API from Debbie Collect — 2 operation(s) for files.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Files API from Debbie Collect — 2 operation(s) for files.
   name: Debbie Collect Files API
   slug: debbie-collect-files-api
-- description: The Payments API from Debbie Collect — 1 operation(s) for payments.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Payments API from Debbie Collect — 1 operation(s) for payments.
   name: Debbie Collect Payments API
   slug: debbie-collect-payments-api
-- description: The Properties API from Debbie Collect — 1 operation(s) for properties.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Properties API from Debbie Collect — 1 operation(s) for properties.
   name: Debbie Collect Properties API
   slug: debbie-collect-properties-api
-- description: The Updates API from Debbie Collect — 2 operation(s) for updates.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Updates API from Debbie Collect — 2 operation(s) for updates.
   name: Debbie Collect Updates API
   slug: debbie-collect-updates-api
-- description: The Webhooks API from Debbie Collect — 2 operation(s) for webhooks.
+- baseURL: https://api.debbie.dk
+  baseurl_source: declared
+  description: The Webhooks API from Debbie Collect — 2 operation(s) for webhooks.
   name: Debbie Collect Webhooks API
   slug: debbie-collect-webhooks-api
 artifact_total: 34
@@ -234,7 +254,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -244,7 +264,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 38.1
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +279,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
 security:

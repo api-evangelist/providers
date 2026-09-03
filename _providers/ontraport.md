@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: RESTful API providing CRUD access to contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects. Authentication uses two headers, Api-Key and Api-Appid, on every request, wit
   name: Ontraport REST API
   slug: rest-api
-- description: Object metadata and field information.
+- baseURL: https://api.ontraport.com/1
+  baseurl_source: declared
+  description: Object metadata and field information.
   name: Ontraport Metadata API
   slug: ontraport-metadata-api
-- description: Generic CRUD operations across Ontraport object types.
+- baseURL: https://api.ontraport.com/1
+  baseurl_source: declared
+  description: Generic CRUD operations across Ontraport object types.
   name: Ontraport Objects API
   slug: ontraport-objects-api
 - description: Ontraport's first-party, hosted, remote MCP server. A streamable-HTTP endpoint an agent POSTs to directly at https://mcp.ontraport.com — there is no package to install and no local stdio process. It i
@@ -287,7 +291,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -297,7 +301,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 68.6
+  previous_composite: 68.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -315,7 +319,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png
 security:

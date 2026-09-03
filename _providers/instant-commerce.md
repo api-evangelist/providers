@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
@@ -230,7 +230,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:

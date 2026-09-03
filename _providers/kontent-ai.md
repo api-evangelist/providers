@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: REST API for managing users, projects, and environments within a Kontent.ai subscription.
   name: Kontent.ai Subscription API
   slug: subscription-api
-- description: The Assets API from Kontent AI — 1 operation(s) for assets.
+- baseURL: https://deliver.kontent.ai
+  baseurl_source: spec
+  description: The Assets API from Kontent AI — 1 operation(s) for assets.
   name: Kontent AI Assets API
   slug: kontent-ai-assets-api
-- description: The Items API from Kontent AI — 3 operation(s) for items.
+- baseURL: https://deliver.kontent.ai
+  baseurl_source: spec
+  description: The Items API from Kontent AI — 3 operation(s) for items.
   name: Kontent AI Items API
   slug: kontent-ai-items-api
-- description: The Items Feed API from Kontent AI — 1 operation(s) for items feed.
+- baseURL: https://deliver.kontent.ai
+  baseurl_source: spec
+  description: The Items Feed API from Kontent AI — 1 operation(s) for items feed.
   name: Kontent AI Items Feed API
   slug: kontent-ai-items-feed-api
 artifact_total: 22
@@ -189,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/screenshots/kontent-ai-2026-06-20T184133.png
 security:

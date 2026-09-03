@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 11 operations
 api_count: 2
 apis:
-- description: 'Public, read-only API (version 2.0) for Cornell Class Roster data: scheduled classes with Course of Study detail, plus configuration lookups for rosters, academic careers, academic groups, class level'
+- baseURL: https://classes.cornell.edu/api/2.0
+  baseurl_source: declared
+  description: 'Public, read-only API (version 2.0) for Cornell Class Roster data: scheduled classes with Course of Study detail, plus configuration lookups for rosters, academic careers, academic groups, class level'
   name: Cornell Class Roster API
   slug: class-roster
-- description: JSON search over Cornell University Library's catalog. The catalog is the library's own Blacklight deployment; appending .json to any catalog route returns a Solr-backed JSON envelope, and an OpenSear
+- baseURL: https://catalog.library.cornell.edu
+  baseurl_source: declared
+  description: JSON search over Cornell University Library's catalog. The catalog is the library's own Blacklight deployment; appending .json to any catalog route returns a Solr-backed JSON envelope, and an OpenSear
   name: Cornell University Library Catalog Search API
   slug: library-catalog
 - description: 'Global bird-observation API run by the Cornell Lab of Ornithology, a unit of Cornell University. Free but token-gated: requests without a valid X-eBirdApiToken return 403. Reference documentation is p'
@@ -59,7 +63,9 @@ apis:
 - description: 'The Cornell events calendar at events.cornell.edu answers a live JSON API at /api/2/events, and the data is Cornell''s. The platform is Localist (Concept3D): the response headers carry x-slzr-platform:'
   name: Cornell Events Calendar API (Localist) — tenant
   slug: events-calendar
-- description: Search and retrieve Cornell geospatial datasets and historical maps.
+- baseURL: https://classes.cornell.edu/api/2.0
+  baseurl_source: declared
+  description: Search and retrieve Cornell geospatial datasets and historical maps.
   name: Cornell University Cugir API
   slug: cornell-cugir-api
 artifact_total: 22
@@ -268,7 +274,7 @@ score:
     catalog_gap: 39.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -278,7 +284,7 @@ score:
     discoverability: 68.5
     governance: 17.4
     operational_transparency: 23.7
-  previous_composite: 35.3
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,7 +300,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/screenshots/cornell-2026-06-20T175031.png
 security:

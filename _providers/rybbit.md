@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,13 +45,19 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 1
 apis:
-- description: Stats API for events and reporting per site.
+- baseURL: https://app.rybbit.io/api
+  baseurl_source: declared
+  description: Stats API for events and reporting per site.
   name: Rybbit Analytics API
   slug: rybbit-analytics-api
-- description: Public ingestion endpoint for pageviews and custom events.
+- baseURL: https://app.rybbit.io/api
+  baseurl_source: declared
+  description: Public ingestion endpoint for pageviews and custom events.
   name: Rybbit Event Tracking API
   slug: rybbit-event-tracking-api
-- description: Session-level analytics and cohort retention.
+- baseURL: https://app.rybbit.io/api
+  baseurl_source: declared
+  description: Session-level analytics and cohort retention.
   name: Rybbit Sessions API
   slug: rybbit-sessions-api
 artifact_total: 18
@@ -328,7 +334,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/screenshots/rybbit-2026-08-17T080417.png
 security:

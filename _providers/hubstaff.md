@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 62 operations · 22 acting
 api_count: 1
 apis:
-- description: Tracked time as 10-minute activity blocks and daily aggregates, with keyboard/mouse activity percentages.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Tracked time as 10-minute activity blocks and daily aggregates, with keyboard/mouse activity percentages.
   name: Hubstaff Activities API
   slug: hubstaff-activities-api
-- description: Application and URL usage captured while tracking, plus tracking settings.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Application and URL usage captured while tracking, plus tracking settings.
   name: Hubstaff App & URL Tracking API
   slug: hubstaff-app-url-tracking-api
-- description: Expected work shifts (schedules), actual clock-in/clock-out shifts, and holidays.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Expected work shifts (schedules), actual clock-in/clock-out shifts, and holidays.
   name: Hubstaff Attendance API
   slug: hubstaff-attendance-api
-- description: Invoices issued to clients.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Invoices issued to clients.
   name: Hubstaff Client Invoices API
   slug: hubstaff-client-invoices-api
-- description: Clients that projects are billed to.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Clients that projects are billed to.
   name: Hubstaff Clients API
   slug: hubstaff-clients-api
-- description: Invite users to an organization.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Invite users to an organization.
   name: Hubstaff Invites API
   slug: hubstaff-invites-api
-- description: Organization membership - list, add, and update members and their pay/bill rates.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Organization membership - list, add, and update members and their pay/bill rates.
   name: Hubstaff Members API
   slug: hubstaff-members-api
-- description: Organizations the authenticated user belongs to, plus seat usage.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Organizations the authenticated user belongs to, plus seat usage.
   name: Hubstaff Organizations API
   slug: hubstaff-organizations-api
-- description: Projects within an organization, including budgets and project members.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Projects within an organization, including budgets and project members.
   name: Hubstaff Projects API
   slug: hubstaff-projects-api
-- description: Screenshots captured while tracking time.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Screenshots captured while tracking time.
   name: Hubstaff Screenshots API
   slug: hubstaff-screenshots-api
-- description: Tasks (to-dos) within projects and organizations.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Tasks (to-dos) within projects and organizations.
   name: Hubstaff Tasks API
   slug: hubstaff-tasks-api
-- description: Payments made to team members (payroll).
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Payments made to team members (payroll).
   name: Hubstaff Team Payments API
   slug: hubstaff-team-payments-api
-- description: Teams within an organization and their membership.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Teams within an organization and their membership.
   name: Hubstaff Teams API
   slug: hubstaff-teams-api
-- description: Audit trail of manual time edits.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Audit trail of manual time edits.
   name: Hubstaff Time Edit Logs API
   slug: hubstaff-time-edit-logs-api
-- description: Create time entries for a user (manual time via the API).
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Create time entries for a user (manual time via the API).
   name: Hubstaff Time Entries API
   slug: hubstaff-time-entries-api
-- description: Time off requests, policies, and balances.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Time off requests, policies, and balances.
   name: Hubstaff Time Off API
   slug: hubstaff-time-off-api
-- description: Timesheet approval records - list and update status (open, submitted, approved, denied).
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Timesheet approval records - list and update status (open, submitted, approved, denied).
   name: Hubstaff Timesheets API
   slug: hubstaff-timesheets-api
-- description: The authenticated user and user profiles.
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: The authenticated user and user profiles.
   name: Hubstaff Users API
   slug: hubstaff-users-api
-- description: Webhook subscriptions delivering real-time event notifications (timer.start, timer.stop, task.create, shift.late, etc.).
+- baseURL: https://api.hubstaff.com/v2
+  baseurl_source: declared
+  description: Webhook subscriptions delivering real-time event notifications (timer.start, timer.stop, task.create, shift.late, etc.).
   name: Hubstaff Webhooks API
   slug: hubstaff-webhooks-api
 artifact_total: 47
@@ -275,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubstaff/refs/heads/main/screenshots/hubstaff-2026-07-25T221622.png
 security:

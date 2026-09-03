@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 23 operations
 api_count: 3
 apis:
-- description: Account and sub-account management
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Account and sub-account management
   name: SolarEdge Accounts API
   slug: solar-edge-accounts-api
-- description: Energy production measurements and time-frame energy
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Energy production measurements and time-frame energy
   name: SolarEdge Energy API
   slug: solar-edge-energy-api
-- description: Environmental benefit metrics
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Environmental benefit metrics
   name: SolarEdge Environmental API
   slug: solar-edge-environmental-api
-- description: Inverters, batteries, meters, sensors, and inventory
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Inverters, batteries, meters, sensors, and inventory
   name: SolarEdge Equipment API
   slug: solar-edge-equipment-api
-- description: Power measurements and power flow
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Power measurements and power flow
   name: SolarEdge Power API
   slug: solar-edge-power-api
-- description: Site list and site-level data
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Site list and site-level data
   name: SolarEdge Sites API
   slug: solar-edge-sites-api
-- description: Battery storage data
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Battery storage data
   name: SolarEdge Storage API
   slug: solar-edge-storage-api
-- description: API version information
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: API version information
   name: SolarEdge Version API
   slug: solar-edge-version-api
-- description: Account hierarchy.
+- baseURL: https://monitoringapi.solaredge.com
+  baseurl_source: declared
+  description: Account hierarchy.
   name: SolarEdge Account API
   slug: solar-edge-account-api
 artifact_total: 36
@@ -325,7 +343,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:

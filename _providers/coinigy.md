@@ -32,10 +32,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Interacting with Coinigy Accounts and Exchange Directly
+- baseURL: https://coinigy.docs.apiary.io
+  baseurl_source: declared
+  description: Interacting with Coinigy Accounts and Exchange Directly
   name: Coinigy
   slug: coinigy
 artifact_total: 2
@@ -89,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinigy/refs/heads/main/screenshots/coinigy-2026-06-20T174735.png
 security:

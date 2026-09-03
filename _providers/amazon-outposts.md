@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 26 operations · 13 acting
 api_count: 1
 apis:
-- description: The Catalog API from Amazon Outposts — 2 operation(s) for catalog.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The Catalog API from Amazon Outposts — 2 operation(s) for catalog.
   name: Amazon Outposts Catalog API
   slug: amazon-outposts-catalog-api
-- description: The Connections API from Amazon Outposts — 2 operation(s) for connections.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The Connections API from Amazon Outposts — 2 operation(s) for connections.
   name: Amazon Outposts Connections API
   slug: amazon-outposts-connections-api
-- description: The List Orders API from Amazon Outposts — 1 operation(s) for list orders.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The List Orders API from Amazon Outposts — 1 operation(s) for list orders.
   name: Amazon Outposts List Orders API
   slug: amazon-outposts-list-orders-api
-- description: The Orders API from Amazon Outposts — 3 operation(s) for orders.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The Orders API from Amazon Outposts — 3 operation(s) for orders.
   name: Amazon Outposts Orders API
   slug: amazon-outposts-orders-api
-- description: The Outposts API from Amazon Outposts — 4 operation(s) for outposts.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The Outposts API from Amazon Outposts — 4 operation(s) for outposts.
   name: Amazon Outposts Outposts API
   slug: amazon-outposts-outposts-api
-- description: The Sites API from Amazon Outposts — 5 operation(s) for sites.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The Sites API from Amazon Outposts — 5 operation(s) for sites.
   name: Amazon Outposts Sites API
   slug: amazon-outposts-sites-api
-- description: The Tags API from Amazon Outposts — 2 operation(s) for tags.
+- baseURL: https://outposts.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Outposts — 2 operation(s) for tags.
   name: Amazon Outposts Tags API
   slug: amazon-outposts-tags-api
 artifact_total: 555
@@ -1872,7 +1886,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/screenshots/amazon-outposts-2026-06-20T171754.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Album metadata retrieval and search
+- baseURL: https://www.qobuz.com/api.json/0.2
+  baseurl_source: declared
+  description: Album metadata retrieval and search
   name: Qobuz Albums API
   slug: qobuz-albums-api
-- description: Artist metadata retrieval and search
+- baseURL: https://www.qobuz.com/api.json/0.2
+  baseurl_source: declared
+  description: Artist metadata retrieval and search
   name: Qobuz Artists API
   slug: qobuz-artists-api
-- description: User login and session management
+- baseURL: https://www.qobuz.com/api.json/0.2
+  baseurl_source: declared
+  description: User login and session management
   name: Qobuz Authentication API
   slug: qobuz-authentication-api
-- description: Playlist retrieval and search
+- baseURL: https://www.qobuz.com/api.json/0.2
+  baseurl_source: declared
+  description: Playlist retrieval and search
   name: Qobuz Playlists API
   slug: qobuz-playlists-api
-- description: Cross-catalog search across all content types
+- baseURL: https://www.qobuz.com/api.json/0.2
+  baseurl_source: declared
+  description: Cross-catalog search across all content types
   name: Qobuz Search API
   slug: qobuz-search-api
-- description: Track metadata, streaming, and download URL generation
+- baseURL: https://www.qobuz.com/api.json/0.2
+  baseurl_source: declared
+  description: Track metadata, streaming, and download URL generation
   name: Qobuz Tracks API
   slug: qobuz-tracks-api
 artifact_total: 35
@@ -286,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/screenshots/qobuz-2026-06-20T192346.png
 security:

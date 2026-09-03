@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 4
@@ -33,28 +47,44 @@ agentic_access:
   summary_line: 40 operations · 26 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: How to authenticate, and manage the access and refresh tokens.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: How to authenticate, and manage the access and refresh tokens.
   name: Kardinal Authenticate API
   slug: kardinal-authenticate-api
-- description: The Core API from Kardinal — 4 operation(s) for core.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: The Core API from Kardinal — 4 operation(s) for core.
   name: Kardinal Core API
   slug: kardinal-core-api
-- description: The Management API from Kardinal — 5 operation(s) for management.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: The Management API from Kardinal — 5 operation(s) for management.
   name: Kardinal Management API
   slug: kardinal-management-api
-- description: How to create, retrieve, update and delete orders in a plan.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: How to create, retrieve, update and delete orders in a plan.
   name: Kardinal Order API
   slug: kardinal-order-api
-- description: How to create, retrieve, update and delete plans.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: How to create, retrieve, update and delete plans.
   name: Kardinal Plan API
   slug: kardinal-plan-api
-- description: How to create, retrieve, update and delete resources in a plan.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: How to create, retrieve, update and delete resources in a plan.
   name: Kardinal Resource API
   slug: kardinal-resource-api
-- description: How to create a plan through the use of a simple plan.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: How to create a plan through the use of a simple plan.
   name: Kardinal Simple Plan API
   slug: kardinal-simpleplan-api
-- description: The Solution API from Kardinal — 2 operation(s) for solution.
+- baseURL: https://app.kardinal.ai/api/v2
+  baseurl_source: declared
+  description: The Solution API from Kardinal — 2 operation(s) for solution.
   name: Kardinal Solution API
   slug: kardinal-solution-api
 artifact_total: 14
@@ -216,7 +246,7 @@ score:
   band: developing
   composite: 45.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -242,8 +272,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/screenshots/kardinal-2026-09-02T150130.png
 security:
 - kind: authentication
   name: Kardinal Authentication

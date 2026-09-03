@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,37 @@ agentic_access:
   summary_line: 19 operations
 api_count: 1
 apis:
-- description: Retrieve total prescribing spending, quantity and items across the last five years of the English Prescribing Dataset — by BNF code (section, chemical or presentation) and by NHS organisation (practic
+- baseURL: https://openprescribing.net/api/1.0
+  baseurl_source: declared
+  description: Retrieve total prescribing spending, quantity and items across the last five years of the English Prescribing Dataset — by BNF code (section, chemical or presentation) and by NHS organisation (practic
   name: OpenPrescribing Spending API
   slug: openprescribing-spending-api
-- description: Standardised NHS prescribing-quality and safety measures (numerators, denominators and calculated values) at national, Regional Team, ICB, Sub-ICB Location, PCN and practice level. These endpoints pow
+- baseURL: https://openprescribing.net/api/1.0
+  baseurl_source: declared
+  description: Standardised NHS prescribing-quality and safety measures (numerators, denominators and calculated values) at national, Regional Team, ICB, Sub-ICB Location, PCN and practice level. These endpoints pow
   name: OpenPrescribing Measures API
   slug: openprescribing-measures-api
 - description: Reference-data lookups for the prescribing dataset — search BNF sections, chemicals and presentations by name or code; look up NHS organisations (Sub-ICB Location or practice) by code or name; retriev
   name: OpenPrescribing Information API
   slug: openprescribing-information-api
-- description: Standardised NHS prescribing-quality and safety measures.
+- baseURL: https://openprescribing.net/api/1.0
+  baseurl_source: declared
+  description: Standardised NHS prescribing-quality and safety measures.
   name: OpenPrescribing Measures API
   slug: openprescribing-measures-api
-- description: BNF code, organisation code and organisation-location reference lookups.
+- baseURL: https://openprescribing.net/api/1.0
+  baseurl_source: declared
+  description: BNF code, organisation code and organisation-location reference lookups.
   name: OpenPrescribing Reference API
   slug: openprescribing-reference-api
-- description: Prescribing spending, quantity and item counts by BNF code and organisation.
+- baseURL: https://openprescribing.net/api/1.0
+  baseurl_source: declared
+  description: Prescribing spending, quantity and item counts by BNF code and organisation.
   name: OpenPrescribing Spending API
   slug: openprescribing-spending-api
-- description: Drug-tariff prices and price-per-unit / ghost-generic savings data.
+- baseURL: https://openprescribing.net/api/1.0
+  baseurl_source: declared
+  description: Drug-tariff prices and price-per-unit / ghost-generic savings data.
   name: OpenPrescribing Tariff API
   slug: openprescribing-tariff-api
 artifact_total: 12
@@ -234,7 +246,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png
 security:

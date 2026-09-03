@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,10 +62,14 @@ apis:
 - description: Issue, redeem, and manage gift cards for Zettle merchants.
   name: Zettle Giftcard API
   slug: zettle-giftcard-api
-- description: The accounts API from Zettle — 2 operation(s) for accounts.
+- baseURL: https://oauth.zettle.com
+  baseurl_source: declared
+  description: The accounts API from Zettle — 2 operation(s) for accounts.
   name: Zettle accounts API
   slug: zettle-accounts-api
-- description: The payout API from Zettle — 1 operation(s) for payout.
+- baseURL: https://oauth.zettle.com
+  baseurl_source: declared
+  description: The payout API from Zettle — 1 operation(s) for payout.
   name: Zettle payout API
   slug: zettle-payout-api
 artifact_total: 26
@@ -242,7 +246,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/screenshots/zettle-2026-06-20T201853.png
 security:

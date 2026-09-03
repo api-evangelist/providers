@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 303 operations · 160 acting · 3 human-in-the-loop
 api_count: 7
 apis:
-- description: Create and manage vault accounts, asset wallets, deposit addresses, attached tags, and balance inquiries. Vaults are the root container for MPC-secured keys, balances, and transactions inside a Firebl
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Create and manage vault accounts, asset wallets, deposit addresses, attached tags, and balance inquiries. Vaults are the root container for MPC-secured keys, balances, and transactions inside a Firebl
   name: Fireblocks Vaults API
   slug: fireblocks-vaults-api
-- description: Create, cancel, drop, and query digital-asset transactions across all supported chains. Every transaction passes the workspace Policy Engine, is signed by the MPC quorum, and is broadcast under Firebl
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Create, cancel, drop, and query digital-asset transactions across all supported chains. Every transaction passes the workspace Policy Engine, is signed by the MPC quorum, and is broadcast under Firebl
   name: Fireblocks Transactions API
   slug: fireblocks-transactions-api
-- description: Deploy, mint, burn, and manage tokens across the chains supported by Fireblocks Tokenization Engine. Covers ERC-20 fungible tokens, multichain stablecoins, asset tokenization, smart contract managemen
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Deploy, mint, burn, and manage tokens across the chains supported by Fireblocks Tokenization Engine. Covers ERC-20 fungible tokens, multichain stablecoins, asset tokenization, smart contract managemen
   name: Fireblocks Tokenization API
   slug: fireblocks-tokenization-api
-- description: Execute and track staking operations across multiple proof-of-stake chains. Browse staking providers and validators, initiate stake / unstake / withdraw / claim-rewards actions, and query position sta
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Execute and track staking operations across multiple proof-of-stake chains. Browse staking providers and validators, initiate stake / unstake / withdraw / claim-rewards actions, and query position sta
   name: Fireblocks Staking API
   slug: fireblocks-staking-api
-- description: Discover, index, and manage non-fungible tokens held in the workspace's vault accounts. List owned NFTs, fetch token-level metadata, refresh ownership state, and update token-spam classification.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Discover, index, and manage non-fungible tokens held in the workspace's vault accounts. List owned NFTs, fetch token-level metadata, refresh ownership state, and update token-spam classification.
   name: Fireblocks NFTs API
   slug: fireblocks-nfts-api
-- description: AML transaction screening, Travel Rule VASP messaging (FATF Recommendation 16), address registry lookups, and the workspace Policy Editor (Beta and V2). Wire third-party screening providers (Chainalys
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: AML transaction screening, Travel Rule VASP messaging (FATF Recommendation 16), address registry lookups, and the workspace Policy Editor (Beta and V2). Wire third-party screening providers (Chainalys
   name: Fireblocks Compliance and Policy API
   slug: fireblocks-compliance-api
-- description: Configure the Fireblocks Gas Station — auto-fuel logic that tops up native-asset balances in vault accounts so ERC-20 / SPL / contract-call transactions don't fail for lack of gas. Per-asset threshold
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Configure the Fireblocks Gas Station — auto-fuel logic that tops up native-asset balances in vault accounts so ERC-20 / SPL / contract-call transactions don't fail for lack of gas. Per-asset threshold
   name: Fireblocks Gas Station API
   slug: fireblocks-gas-station-api
-- description: Receive push notifications when workspace events occur — TRANSACTION_CREATED, TRANSACTION_STATUS_UPDATED, VAULT_ACCOUNT_ADDED, EMBEDDED_WALLET_DEVICE_PAIRED, SMART_TRANSFER events, and more. Each even
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: Receive push notifications when workspace events occur — TRANSACTION_CREATED, TRANSACTION_STATUS_UPDATED, VAULT_ACCOUNT_ADDED, EMBEDDED_WALLET_DEVICE_PAIRED, SMART_TRANSFER events, and more. Each even
   name: Fireblocks Webhooks API
   slug: fireblocks-webhooks-api
-- description: The Approval Requests API from fireblocks — 2 operation(s) for approval requests.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Approval Requests API from fireblocks — 2 operation(s) for approval requests.
   name: fireblocks Approval Requests API
   slug: fireblocks-approval-requests-api
-- description: The Blockchains & Assets API from fireblocks — 8 operation(s) for blockchains & assets.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Blockchains & Assets API from fireblocks — 8 operation(s) for blockchains & assets.
   name: fireblocks Blockchains & Assets API
   slug: fireblocks-blockchains-assets-api
-- description: The Connected Accounts (Beta) API from fireblocks — 5 operation(s) for connected accounts (beta).
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Connected Accounts (Beta) API from fireblocks — 5 operation(s) for connected accounts (beta).
   name: fireblocks Connected Accounts (Beta) API
   slug: fireblocks-connected-accounts-beta-api
-- description: The Contract Interactions API from fireblocks — 4 operation(s) for contract interactions.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Contract Interactions API from fireblocks — 4 operation(s) for contract interactions.
   name: fireblocks Contract Interactions API
   slug: fireblocks-contract-interactions-api
-- description: The Contract Templates API from fireblocks — 5 operation(s) for contract templates.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Contract Templates API from fireblocks — 5 operation(s) for contract templates.
   name: fireblocks Contract Templates API
   slug: fireblocks-contract-templates-api
-- description: The Cosigners (Beta) API from fireblocks — 5 operation(s) for cosigners (beta).
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Cosigners (Beta) API from fireblocks — 5 operation(s) for cosigners (beta).
   name: fireblocks Cosigners (Beta) API
   slug: fireblocks-cosigners-beta-api
-- description: The dApp Connections API from fireblocks — 3 operation(s) for dapp connections.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The dApp Connections API from fireblocks — 3 operation(s) for dapp connections.
   name: fireblocks dApp Connections API
   slug: fireblocks-dapp-connections-api
-- description: The Deployed Contracts API from fireblocks — 5 operation(s) for deployed contracts.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Deployed Contracts API from fireblocks — 5 operation(s) for deployed contracts.
   name: fireblocks Deployed Contracts API
   slug: fireblocks-deployed-contracts-api
-- description: The Exchange Accounts API from fireblocks — 7 operation(s) for exchange accounts.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Exchange Accounts API from fireblocks — 7 operation(s) for exchange accounts.
   name: fireblocks Exchange Accounts API
   slug: fireblocks-exchange-accounts-api
-- description: The Fiat Accounts API from fireblocks — 4 operation(s) for fiat accounts.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Fiat Accounts API from fireblocks — 4 operation(s) for fiat accounts.
   name: fireblocks Fiat Accounts API
   slug: fireblocks-fiat-accounts-api
-- description: The Fireblocks Network API from fireblocks — 11 operation(s) for fireblocks network.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Fireblocks Network API from fireblocks — 11 operation(s) for fireblocks network.
   name: fireblocks Fireblocks Network API
   slug: fireblocks-fireblocks-network-api
-- description: The Job Management API from fireblocks — 6 operation(s) for job management.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Job Management API from fireblocks — 6 operation(s) for job management.
   name: fireblocks Job Management API
   slug: fireblocks-job-management-api
-- description: The Key Link API from fireblocks — 5 operation(s) for key link.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Key Link API from fireblocks — 5 operation(s) for key link.
   name: fireblocks Key Link API
   slug: fireblocks-key-link-api
-- description: The Keys (Beta) API from fireblocks — 2 operation(s) for keys (beta).
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Keys (Beta) API from fireblocks — 2 operation(s) for keys (beta).
   name: fireblocks Keys (Beta) API
   slug: fireblocks-keys-beta-api
-- description: The Off Exchange API from fireblocks — 5 operation(s) for off exchange.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Off Exchange API from fireblocks — 5 operation(s) for off exchange.
   name: fireblocks Off Exchange API
   slug: fireblocks-off-exchange-api
-- description: The Payments - Flows API from fireblocks — 5 operation(s) for payments - flows.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Payments - Flows API from fireblocks — 5 operation(s) for payments - flows.
   name: fireblocks Payments - Flows API
   slug: fireblocks-payments-flows-api
-- description: The Payments - Payout API from fireblocks — 3 operation(s) for payments - payout.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Payments - Payout API from fireblocks — 3 operation(s) for payments - payout.
   name: fireblocks Payments - Payout API
   slug: fireblocks-payments-payout-api
-- description: The Policy Editor (Beta) API from fireblocks — 3 operation(s) for policy editor (beta).
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Policy Editor (Beta) API from fireblocks — 3 operation(s) for policy editor (beta).
   name: fireblocks Policy Editor (Beta) API
   slug: fireblocks-policy-editor-beta-api
-- description: The Policy Editor V2 (Beta) API from fireblocks — 2 operation(s) for policy editor v2 (beta).
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Policy Editor V2 (Beta) API from fireblocks — 2 operation(s) for policy editor v2 (beta).
   name: fireblocks Policy Editor V2 (Beta) API
   slug: fireblocks-policy-editor-v2-beta-api
-- description: The Smart Transfers API from fireblocks — 15 operation(s) for smart transfers.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Smart Transfers API from fireblocks — 15 operation(s) for smart transfers.
   name: fireblocks Smart Transfers API
   slug: fireblocks-smart-transfers-api
-- description: The Tags API from fireblocks — 2 operation(s) for tags.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Tags API from fireblocks — 2 operation(s) for tags.
   name: fireblocks Tags API
   slug: fireblocks-tags-api
-- description: The Trading (Beta) API from fireblocks — 4 operation(s) for trading (beta).
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Trading (Beta) API from fireblocks — 4 operation(s) for trading (beta).
   name: fireblocks Trading (Beta) API
   slug: fireblocks-trading-beta-api
-- description: The Webhooks V2 API from fireblocks — 9 operation(s) for webhooks v2.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Webhooks V2 API from fireblocks — 9 operation(s) for webhooks v2.
   name: fireblocks Webhooks V2 API
   slug: fireblocks-webhooks-v2-api
-- description: The Whitelisted Contracts API from fireblocks — 3 operation(s) for whitelisted contracts.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Whitelisted Contracts API from fireblocks — 3 operation(s) for whitelisted contracts.
   name: fireblocks Whitelisted Contracts API
   slug: fireblocks-whitelisted-contracts-api
-- description: The Whitelisted External Wallets API from fireblocks — 4 operation(s) for whitelisted external wallets.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Whitelisted External Wallets API from fireblocks — 4 operation(s) for whitelisted external wallets.
   name: fireblocks Whitelisted External Wallets API
   slug: fireblocks-whitelisted-external-wallets-api
-- description: The Whitelisted Internal Wallets API from fireblocks — 5 operation(s) for whitelisted internal wallets.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Whitelisted Internal Wallets API from fireblocks — 5 operation(s) for whitelisted internal wallets.
   name: fireblocks Whitelisted Internal Wallets API
   slug: fireblocks-whitelisted-internal-wallets-api
-- description: The Workspace Management API from fireblocks — 13 operation(s) for workspace management.
+- baseURL: https://api.fireblocks.io/v1
+  baseurl_source: declared
+  description: The Workspace Management API from fireblocks — 13 operation(s) for workspace management.
   name: fireblocks Workspace Management API
   slug: fireblocks-workspace-management-api
 artifact_total: 155
@@ -741,16 +811,16 @@ jsonld:
   slug: fireblocks-context
 layout: provider
 modified: '2026-05-25'
-name: fireblocks
+name: Fireblocks
 nav: Providers
 network: true
-overview: 'fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Vaults API, Transactions API, Tokenization API, and 32 more.
+overview: 'Fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Vaults API, Transactions API, Tokenization API, and 32 more.
 
 
-  The fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  fireblocks'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 68 more developer resources.'
+  Fireblocks'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 68 more developer resources.'
 plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
@@ -763,7 +833,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: fireblocks API Rules
+  name: Fireblocks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -799,10 +869,10 @@ score:
       total: 35
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -65,31 +65,49 @@ apis:
 - description: Surfaces treasury account details for organizations enrolled in Mercury Treasury, including yield, allocation across underlying money-market and Treasury bill portfolios, and current balance.
   name: Mercury Treasury API
   slug: treasury
-- description: Subscribes a partner application to event notifications such as transaction created/updated, payment status change, and account balance threshold events. Mercury signs each delivery so receivers can v
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: Subscribes a partner application to event notifications such as transaction created/updated, payment status change, and account balance threshold events. Mercury signs each delivery so receivers can v
   name: Mercury Webhooks API
   slug: webhooks
-- description: The Accounts API from Mercury — 2 operation(s) for accounts.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Accounts API from Mercury — 2 operation(s) for accounts.
   name: Mercury Accounts API
   slug: mercury-accounts-api
-- description: The Cards API from Mercury — 1 operation(s) for cards.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Cards API from Mercury — 1 operation(s) for cards.
   name: Mercury Cards API
   slug: mercury-cards-api
-- description: The Payments API from Mercury — 2 operation(s) for payments.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Payments API from Mercury — 2 operation(s) for payments.
   name: Mercury Payments API
   slug: mercury-payments-api
-- description: The Recipients API from Mercury — 2 operation(s) for recipients.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Recipients API from Mercury — 2 operation(s) for recipients.
   name: Mercury Recipients API
   slug: mercury-recipients-api
-- description: The Statements API from Mercury — 1 operation(s) for statements.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Statements API from Mercury — 1 operation(s) for statements.
   name: Mercury Statements API
   slug: mercury-statements-api
-- description: The Transactions API from Mercury — 2 operation(s) for transactions.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Transactions API from Mercury — 2 operation(s) for transactions.
   name: Mercury Transactions API
   slug: mercury-transactions-api
-- description: The Treasury API from Mercury — 1 operation(s) for treasury.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Treasury API from Mercury — 1 operation(s) for treasury.
   name: Mercury Treasury API
   slug: mercury-treasury-api
-- description: The Webhooks API from Mercury — 2 operation(s) for webhooks.
+- baseURL: https://api.mercury.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Mercury — 2 operation(s) for webhooks.
   name: Mercury Webhooks API
   slug: mercury-webhooks-api
 artifact_total: 35
@@ -241,7 +259,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -251,7 +269,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 35.3
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -266,7 +284,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png
 security:

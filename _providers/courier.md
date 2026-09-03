@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 103 operations · 60 acting
 api_count: 1
 apis:
-- description: WebSocket service that delivers Inbox messages and message-state events (read, unread, opened, archived, clicked, mark-all-read, archive-all, archive-read) to authenticated users in real time.
+- baseURL: wss://realtime.courier.io
+  baseurl_source: declared
+  description: WebSocket service that delivers Inbox messages and message-state events (read, unread, opened, archived, clicked, mark-all-read, archive-all, archive-read) to authenticated users in real time.
   name: Courier Inbox Real-Time API
   slug: courier-inbox-real-time-api
-- description: The Audiences API from Courier — 3 operation(s) for audiences.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Audiences API from Courier — 3 operation(s) for audiences.
   name: Courier Audiences API
   slug: courier-audiences-api
-- description: The Audit Events API from Courier — 2 operation(s) for audit events.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Audit Events API from Courier — 2 operation(s) for audit events.
   name: Courier Audit Events API
   slug: courier-audit-events-api
-- description: The Authentication API from Courier — 1 operation(s) for authentication.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Authentication API from Courier — 1 operation(s) for authentication.
   name: Courier Authentication API
   slug: courier-authentication-api
-- description: The Automations API from Courier — 3 operation(s) for automations.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Automations API from Courier — 3 operation(s) for automations.
   name: Courier Automations API
   slug: courier-automations-api
-- description: The Brands API from Courier — 2 operation(s) for brands.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Brands API from Courier — 2 operation(s) for brands.
   name: Courier Brands API
   slug: courier-brands-api
-- description: The Bulk API from Courier — 4 operation(s) for bulk.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Bulk API from Courier — 4 operation(s) for bulk.
   name: Courier Bulk API
   slug: courier-bulk-api
-- description: The Courier Create API from Courier — 4 operation(s) for courier create.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Courier Create API from Courier — 4 operation(s) for courier create.
   name: Courier Courier Create API
   slug: courier-courier-create-api
-- description: The Device Tokens API from Courier — 2 operation(s) for device tokens.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Device Tokens API from Courier — 2 operation(s) for device tokens.
   name: Courier Device Tokens API
   slug: courier-device-tokens-api
-- description: The Inbound API from Courier — 1 operation(s) for inbound.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Inbound API from Courier — 1 operation(s) for inbound.
   name: Courier Inbound API
   slug: courier-inbound-api
-- description: The Journeys API from Courier — 2 operation(s) for journeys.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Journeys API from Courier — 2 operation(s) for journeys.
   name: Courier Journeys API
   slug: courier-journeys-api
-- description: The Lists API from Courier — 5 operation(s) for lists.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Lists API from Courier — 5 operation(s) for lists.
   name: Courier Lists API
   slug: courier-lists-api
-- description: The Notification Templates API from Courier — 8 operation(s) for notification templates.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Notification Templates API from Courier — 8 operation(s) for notification templates.
   name: Courier Notification Templates API
   slug: courier-notification-templates-api
-- description: The Providers API from Courier — 3 operation(s) for providers.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Providers API from Courier — 3 operation(s) for providers.
   name: Courier Providers API
   slug: courier-providers-api
-- description: The Routing Strategies API from Courier — 3 operation(s) for routing strategies.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Routing Strategies API from Courier — 3 operation(s) for routing strategies.
   name: Courier Routing Strategies API
   slug: courier-routing-strategies-api
-- description: The Send API from Courier — 1 operation(s) for send.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Send API from Courier — 1 operation(s) for send.
   name: Courier Send API
   slug: courier-send-api
-- description: The Sent Messages API from Courier — 6 operation(s) for sent messages.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Sent Messages API from Courier — 6 operation(s) for sent messages.
   name: Courier Sent Messages API
   slug: courier-sent-messages-api
-- description: The Tenants API from Courier — 4 operation(s) for tenants.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Tenants API from Courier — 4 operation(s) for tenants.
   name: Courier Tenants API
   slug: courier-tenants-api
-- description: The Translations API from Courier — 1 operation(s) for translations.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The Translations API from Courier — 1 operation(s) for translations.
   name: Courier Translations API
   slug: courier-translations-api
-- description: The User Preferences API from Courier — 2 operation(s) for user preferences.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The User Preferences API from Courier — 2 operation(s) for user preferences.
   name: Courier User Preferences API
   slug: courier-user-preferences-api
-- description: The User Profiles API from Courier — 2 operation(s) for user profiles.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The User Profiles API from Courier — 2 operation(s) for user profiles.
   name: Courier User Profiles API
   slug: courier-user-profiles-api
-- description: The User Tenants API from Courier — 2 operation(s) for user tenants.
+- baseURL: https://api.courier.com
+  baseurl_source: declared
+  description: The User Tenants API from Courier — 2 operation(s) for user tenants.
   name: Courier User Tenants API
   slug: courier-user-tenants-api
 artifact_total: 55
@@ -286,7 +330,7 @@ score:
     catalog_gap: 76.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -296,7 +340,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 32.9
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -311,7 +355,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:

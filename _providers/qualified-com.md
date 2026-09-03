@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +37,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: (Legacy) A visitor's conversations with a bot, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully supporte
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: (Legacy) A visitor's conversations with a bot, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully supporte
   name: Qualified Bot Conversations API
   slug: qualified-com-bot-conversations-api
-- description: Submit batches of writes for asynchronous processing.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Submit batches of writes for asynchronous processing.
   name: Qualified Bulk API
   slug: qualified-com-bulk-api
-- description: Cancel a booked meeting by its Salesforce Event ID.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Cancel a booked meeting by its Salesforce Event ID.
   name: Qualified Cancel Meeting API
   slug: qualified-com-cancel-meeting-api
-- description: Create and update accounts by domain. Companies cannot be read back.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Create and update accounts by domain. Companies cannot be read back.
   name: Qualified Companies API
   slug: qualified-com-companies-api
-- description: Engaged chat conversations, meaning the visitor exchanged messages with a rep, bot, or AI assistant.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Engaged chat conversations, meaning the visitor exchanged messages with a rep, bot, or AI assistant.
   name: Qualified Conversations API
   slug: qualified-com-conversations-api
-- description: Outbound email activity sent from Qualified, with engagement timestamps.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Outbound email activity sent from Qualified, with engagement timestamps.
   name: Qualified Emails API
   slug: qualified-com-emails-api
-- description: Submit GDPR deletion requests by email.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Submit GDPR deletion requests by email.
   name: Qualified GDPR API
   slug: qualified-com-gdpr-api
-- description: Create, update, and read lead (person) records and their custom field values.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Create, update, and read lead (person) records and their custom field values.
   name: Qualified Leads API
   slug: qualified-com-leads-api
-- description: Meetings offered or booked with a visitor.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Meetings offered or booked with a visitor.
   name: Qualified Meetings API
   slug: qualified-com-meetings-api
-- description: Individual messages, either across all conversations or within one.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Individual messages, either across all conversations or within one.
   name: Qualified Messages API
   slug: qualified-com-messages-api
-- description: (Legacy) A visitor's conversations with a human rep, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully su
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: (Legacy) A visitor's conversations with a human rep, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully su
   name: Qualified Rep Conversations API
   slug: qualified-com-rep-conversations-api
-- description: Website sessions, with page views and the conversations and meetings that occurred in them.
+- baseURL: https://api.qualified.com
+  baseurl_source: declared
+  description: Website sessions, with page views and the conversations and meetings that occurred in them.
   name: Qualified Sessions API
   slug: qualified-com-sessions-api
 artifact_total: 19
@@ -226,7 +264,7 @@ score:
   band: strong
   composite: 61.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -251,8 +289,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/screenshots/qualified-com-2026-09-02T152601.png
 security:
 - kind: authentication
   name: Qualified Com Authentication

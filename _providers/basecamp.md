@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 77 operations · 41 acting
 api_count: 2
 apis:
-- description: Basecamp Webhooks deliver real-time HTTP notifications when events occur within a project. Configure webhooks per project with an HTTPS payload URL and resource types.
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Basecamp Webhooks deliver real-time HTTP notifications when events occur within a project. Configure webhooks per project with an HTTPS payload URL and resource types.
   name: Basecamp Webhooks
   slug: basecamp-webhooks
-- description: OAuth 2.0 authorization code flow endpoints
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization code flow endpoints
   name: Basecamp Authorization API
   slug: basecamp-authorization-api
-- description: Manage project campfire chat rooms and lines
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage project campfire chat rooms and lines
   name: Basecamp Campfires API
   slug: basecamp-campfires-api
-- description: Manage kanban-style card tables and card movements
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage kanban-style card tables and card movements
   name: Basecamp Card Tables API
   slug: basecamp-card-tables-api
-- description: Manage comments on any commentable recording
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage comments on any commentable recording
   name: Basecamp Comments API
   slug: basecamp-comments-api
-- description: Manage documents stored in vaults
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage documents stored in vaults
   name: Basecamp Documents API
   slug: basecamp-documents-api
-- description: Retrieve authenticated user identity
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Retrieve authenticated user identity
   name: Basecamp Identity API
   slug: basecamp-identity-api
-- description: Manage messages on message boards
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage messages on message boards
   name: Basecamp Messages API
   slug: basecamp-messages-api
-- description: Manage people, profiles, and project access
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage people, profiles, and project access
   name: Basecamp People API
   slug: basecamp-people-api
-- description: Manage Basecamp projects (buckets)
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage Basecamp projects (buckets)
   name: Basecamp Projects API
   slug: basecamp-projects-api
-- description: Common actions for all recordable resources (archive, trash, restore)
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Common actions for all recordable resources (archive, trash, restore)
   name: Basecamp Recordings API
   slug: basecamp-recordings-api
-- description: Manage individual schedule events and recurring entries
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage individual schedule events and recurring entries
   name: Basecamp Schedule Entries API
   slug: basecamp-schedule-entries-api
-- description: Manage project schedules
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage project schedules
   name: Basecamp Schedules API
   slug: basecamp-schedules-api
-- description: Manage per-recording notification subscriptions
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage per-recording notification subscriptions
   name: Basecamp Subscriptions API
   slug: basecamp-subscriptions-api
-- description: Manage project templates and construct projects from them
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage project templates and construct projects from them
   name: Basecamp Templates API
   slug: basecamp-templates-api
-- description: Manage to-do lists within a to-do set
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage to-do lists within a to-do set
   name: Basecamp To-Do Lists API
   slug: basecamp-to-do-lists-api
-- description: Manage individual to-do items
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage individual to-do items
   name: Basecamp To-Dos API
   slug: basecamp-to-dos-api
-- description: Token exchange and refresh endpoints
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Token exchange and refresh endpoints
   name: Basecamp Token API
   slug: basecamp-token-api
-- description: Manage file uploads stored in vaults
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage file uploads stored in vaults
   name: Basecamp Uploads API
   slug: basecamp-uploads-api
-- description: Manage webhook subscriptions for a project
+- baseURL: https://3.basecampapi.com
+  baseurl_source: declared
+  description: Manage webhook subscriptions for a project
   name: Basecamp Webhooks API
   slug: basecamp-webhooks-api
 artifact_total: 208
@@ -751,7 +791,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -761,7 +801,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 44.4
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -770,7 +810,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/screenshots/basecamp-2026-06-20T173011.png
 security:

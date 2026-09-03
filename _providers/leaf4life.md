@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: 'The page collection behind leafforlife.com — 8 published pages covering the mission, the science, leadership, the advisory board and contact. Anonymously readable. Verified 2026-08-25: content.rendere'
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: 'The page collection behind leafforlife.com — 8 published pages covering the mission, the science, leadership, the advisory board and contact. Anonymously readable. Verified 2026-08-25: content.rendere'
   name: LEAF4Life Content Pages API
   slug: leaf4life-pages-api
-- description: The WordPress media library behind leafforlife.com — 59 image attachments (43 PNG, 16 JPEG) spanning September 2020 to July 2026, including the brand marks, leadership headshots and the figure artwork
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: The WordPress media library behind leafforlife.com — 59 image attachments (43 PNG, 16 JPEG) spanning September 2020 to July 2026, including the brand marks, leadership headshots and the figure artwork
   name: LEAF4Life Media API
   slug: leaf4life-media-api
-- description: Category and tag terms. Registered and anonymously reachable but effectively unused — one category (the WordPress default `uncategorized`) and 21 tags, every one with an item count of zero, and the ta
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: Category and tag terms. Registered and anonymously reachable but effectively unused — one category (the WordPress default `uncategorized`) and 21 tags, every one with an item count of zero, and the ta
   name: LEAF4Life Taxonomy API
   slug: leaf4life-taxonomy-api
-- description: The self-describing routes of the deployment — registered post types, taxonomies and post statuses, plus the route index at the server root that publishes name, description, namespaces, all 150 routes
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: The self-describing routes of the deployment — registered post types, taxonomies and post statuses, plus the route index at the server root that publishes name, description, namespaces, all 150 routes
   name: LEAF4Life API Discovery
   slug: leaf4life-discovery-api
-- description: Cross-type site search returning lightweight result stubs. Live and correct, but it returns zero for every site term tried — including with subtype=page — because WordPress indexes post_content and th
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: Cross-type site search returning lightweight result stubs. Live and correct, but it returns zero for every site term tried — including with subtype=page — because WordPress indexes post_content and th
   name: LEAF4Life Search API
   slug: leaf4life-search-api
-- description: Published authors. One entry — a shared editorial account, `leaf4l` — exposing only id, name, slug, link, description and avatar URLs anonymously. No personal names, e-mail addresses or roles are disc
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: Published authors. One entry — a shared editorial account, `leaf4l` — exposing only id, name, slug, link, description and avatar URLs anonymously. No personal names, e-mail addresses or roles are disc
   name: LEAF4Life Authors API
   slug: leaf4life-users-api
-- description: Post and comment collections. Registered and anonymously reachable, both empty — LEAF4Life publishes no news archive, press-release feed or blog through WordPress, so the /feed/ RSS endpoint the theme
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: Post and comment collections. Registered and anonymously reachable, both empty — LEAF4Life publishes no news archive, press-release feed or blog through WordPress, so the /feed/ RSS endpoint the theme
   name: LEAF4Life Posts and Comments API
   slug: leaf4life-posts-api
-- description: oEmbed 1.0 provider endpoint for URLs on leafforlife.com. Verified anonymously against the site root — provider_name "LEAF4life". This is the only formally standardised interface the deployment implem
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for URLs on leafforlife.com. Verified anonymously against the site root — provider_name "LEAF4life". This is the only formally standardised interface the deployment implem
   name: LEAF4Life oEmbed API
   slug: leaf4life-oembed-api
-- description: Comment collection — registered, zero items.
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: Comment collection — registered, zero items.
   name: LEAF4Life Comments API
   slug: leaf4life-comments-api
 artifact_total: 13
@@ -157,7 +187,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -188,8 +218,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leaf4life/refs/heads/main/screenshots/leaf4life-2026-09-02T150230.png
 security:
 - kind: authentication
   name: Leaf4Life Authentication

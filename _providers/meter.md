@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,28 +42,44 @@ agentic_access:
   summary_line: 28 operations · 12 acting
 api_count: 1
 apis:
-- description: Access to account objects
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Access to account objects
   name: Meter Accounts API
   slug: meter-accounts-api
-- description: Access to blocks
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Access to blocks
   name: Meter Blocks API
   slug: meter-blocks-api
-- description: Debug utilities
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Debug utilities
   name: Meter Debug API
   slug: meter-debug-api
-- description: Access to event & transfer logs
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Access to event & transfer logs
   name: Meter Logs API
   slug: meter-logs-api
-- description: Access to node status info
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Access to node status info
   name: Meter Node API
   slug: meter-node-api
-- description: Access to staking data
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Access to staking data
   name: Meter Staking API
   slug: meter-staking-api
-- description: Subscribe interested subjects
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Subscribe interested subjects
   name: Meter Subscriptions API
   slug: meter-subscriptions-api
-- description: Access to transactions
+- baseURL: https://mainnet.meter.io
+  baseurl_source: declared
+  description: Access to transactions
   name: Meter Transactions API
   slug: meter-transactions-api
 artifact_total: 21
@@ -236,7 +252,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -246,7 +262,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 36.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meter/refs/heads/main/screenshots/meter-2026-08-07T172700.png
 security:

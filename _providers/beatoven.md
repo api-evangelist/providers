@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Poll asynchronous composition task status and retrieve generated assets.
+- baseURL: https://public-api.beatoven.ai
+  baseurl_source: declared
+  description: Poll asynchronous composition task status and retrieve generated assets.
   name: Beatoven.ai Tasks API
   slug: beatoven-tasks-api
-- description: Compose new tracks from natural language prompts.
+- baseURL: https://public-api.beatoven.ai
+  baseurl_source: declared
+  description: Compose new tracks from natural language prompts.
   name: Beatoven.ai Tracks API
   slug: beatoven-tracks-api
 artifact_total: 32
@@ -273,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

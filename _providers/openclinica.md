@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 9 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token acquisition.
+- baseURL: https://{subdomain}.build.openclinica.io/user-service/api
+  baseurl_source: declared
+  description: OAuth 2.0 token acquisition.
   name: OpenClinica Authentication API
   slug: openclinica-authentication-api
-- description: Bulk participant and event operations plus the bulk actions log.
+- baseURL: https://{subdomain}.build.openclinica.io/user-service/api
+  baseurl_source: declared
+  description: Bulk participant and event operations plus the bulk actions log.
   name: OpenClinica Bulk Operations API
   slug: openclinica-bulk-operations-api
-- description: Import and retrieve CRF data using CDISC ODM.
+- baseURL: https://{subdomain}.build.openclinica.io/user-service/api
+  baseurl_source: declared
+  description: Import and retrieve CRF data using CDISC ODM.
   name: OpenClinica Clinical Data API
   slug: openclinica-clinical-data-api
-- description: Read ODM study design metadata.
+- baseURL: https://{subdomain}.build.openclinica.io/user-service/api
+  baseurl_source: declared
+  description: Read ODM study design metadata.
   name: OpenClinica Metadata API
   slug: openclinica-metadata-api
-- description: Study participants (subjects) - add, update, list, and extract contact info.
+- baseURL: https://{subdomain}.build.openclinica.io/user-service/api
+  baseurl_source: declared
+  description: Study participants (subjects) - add, update, list, and extract contact info.
   name: OpenClinica Participants API
   slug: openclinica-participants-api
-- description: Scheduling and updating study events (visits) for participants.
+- baseURL: https://{subdomain}.build.openclinica.io/user-service/api
+  baseurl_source: declared
+  description: Scheduling and updating study events (visits) for participants.
   name: OpenClinica Study Events API
   slug: openclinica-study-events-api
 artifact_total: 21
@@ -191,7 +203,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openclinica/refs/heads/main/screenshots/openclinica-2026-08-07T190538.png
 security:

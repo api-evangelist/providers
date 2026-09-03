@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 19 acting
 api_count: 1
 apis:
-- description: Deploy and manage applications from Git or Docker.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: Deploy and manage applications from Git or Docker.
   name: Sevalla Applications API
   slug: sevalla-applications-api
-- description: Company users, projects, usage, and API keys.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: Company users, projects, usage, and API keys.
   name: Sevalla Company API
   slug: sevalla-company-api
-- description: Provision and manage managed databases.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: Provision and manage managed databases.
   name: Sevalla Databases API
   slug: sevalla-databases-api
-- description: Trigger, inspect, and roll back deployments.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: Trigger, inspect, and roll back deployments.
   name: Sevalla Deployments API
   slug: sevalla-deployments-api
-- description: S3-compatible object storage buckets.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: S3-compatible object storage buckets.
   name: Sevalla Object Storage API
   slug: sevalla-object-storage-api
-- description: Multi-stage promotion pipelines and preview environments.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: Multi-stage promotion pipelines and preview environments.
   name: Sevalla Pipelines API
   slug: sevalla-pipelines-api
-- description: Build and deploy Git-backed static sites to the edge.
+- baseURL: https://api.sevalla.com/v3
+  baseurl_source: declared
+  description: Build and deploy Git-backed static sites to the edge.
   name: Sevalla Static Sites API
   slug: sevalla-static-sites-api
 artifact_total: 22
@@ -168,7 +182,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sevalla/refs/heads/main/screenshots/sevalla-2026-09-02T155032.png
 security:
 - kind: authentication
   name: Sevalla Authentication

@@ -29,7 +29,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -146,7 +146,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -358,7 +358,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -411,12 +411,12 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -462,7 +462,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -515,7 +515,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -568,7 +568,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -621,7 +621,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -674,7 +674,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -727,7 +727,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -780,7 +780,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -844,12 +844,12 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -895,7 +895,7 @@
       "commercial_clarity": 21.4,
       "access_clarity": 21.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -948,7 +948,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1001,7 +1001,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1054,7 +1054,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1107,7 +1107,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1153,7 +1153,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1206,7 +1206,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1259,7 +1259,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1312,7 +1312,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1348,59 +1348,6 @@
      "rank": 25
     },
     {
-     "name": "NAIC",
-     "slug": "naic",
-     "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png",
-     "score": 33.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 16.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 57.1,
-      "access_clarity": 57.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 37.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 26
-    },
-    {
      "name": "Elevance Health",
      "slug": "elevance-health",
      "description": "Elevance Health (formerly Anthem) is a Fortune 500 health benefits company that serves members through Blue Cross and Blue Shield affiliated health plans across multiple states. The company offers medical, pharmacy, dental, vision, and other specialty insurance and exposes a set of CMS Interoperability and Patient Access FHIR APIs to enable members, providers, and partner payers to securely exchange coverage, clinical, claims, provider directory, and formulary data.",
@@ -1418,7 +1365,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1451,7 +1398,7 @@
       "agentic_commerce": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Boost Insurance",
@@ -1471,7 +1418,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1504,7 +1451,7 @@
       "agentic_commerce": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "CCC Intelligent Solutions",
@@ -1524,7 +1471,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1557,7 +1504,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Majesco",
@@ -1577,12 +1524,12 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 30.1,
      "agent_band": "agent-ready",
@@ -1608,7 +1555,7 @@
       "agentic_commerce": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Archipelago",
@@ -1628,7 +1575,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1661,6 +1608,59 @@
       "agentic_commerce": false
      },
      "tier": "Risk Data & Analytics",
+     "rank": 30
+    },
+    {
+     "name": "NAIC",
+     "slug": "naic",
+     "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png",
+     "score": 31.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 16.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 57.1,
+      "access_clarity": 57.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 37.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
      "rank": 31
     },
     {
@@ -1681,7 +1681,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1734,7 +1734,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -1780,7 +1780,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1833,7 +1833,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1875,8 +1875,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 28,
-   "shown": 28,
+   "count": 29,
+   "shown": 29,
    "providers": [
     {
      "name": "Branch",
@@ -1896,7 +1896,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1949,7 +1949,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2002,7 +2002,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2055,7 +2055,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2108,7 +2108,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2161,7 +2161,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2214,7 +2214,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2267,7 +2267,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2319,7 +2319,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2372,7 +2372,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2425,7 +2425,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2478,7 +2478,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2531,7 +2531,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2584,7 +2584,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2637,7 +2637,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2690,7 +2690,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2729,6 +2729,7 @@
      "name": "Vertafore",
      "slug": "vertafore",
      "description": "Vertafore is an insurance technology provider whose software runs a large share of the North American property and casualty distribution channel - agency management systems (AMS360 and Sagitta), the ImageRight document and content management platform, and the PL Rating personal-lines comparative rater. Vertafore exposes developer APIs across these products through the Vertafore API Developer Portal (developer.vertafore.com) and the Orange Partner Program. Access is partner-gated - it requires a Vertafore Single Sign-On (VSSO) account, a licensed Vertafore Developer Portal contract, and per-API scopes that the agency has contracted for, with applications promoted from a Sandbox to Live only after Vertafore approval. Because the reference documentation and OpenAPI live behind that login, the endpoints listed here are honestly modeled from public help content and product pages rather than pulled from an open specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertafore/refs/heads/main/screenshots/vertafore-2026-09-02T165758.png",
      "score": 16.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2742,7 +2743,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2795,7 +2796,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2848,7 +2849,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2901,7 +2902,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2954,7 +2955,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3007,7 +3008,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3060,7 +3061,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3113,7 +3114,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3166,7 +3167,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3202,6 +3203,59 @@
      "rank": 60
     },
     {
+     "name": "American Family Insurance",
+     "slug": "american-family-insurance",
+     "description": "American Family Insurance is a private mutual company that offers auto, homeowners, life, renters, umbrella, business, and farm/ranch insurance throughout the United States. The company serves customers through a network of exclusive agents, digital tools including the MyAmFam mobile app, and online self-service capabilities. American Family is headquartered in Madison, Wisconsin, and is one of the largest property-casualty insurers in the country.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/screenshots/american-family-insurance-2026-06-20T171911.png",
+     "score": 12.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 61
+    },
+    {
      "name": "Lockton",
      "slug": "lockton",
      "description": "Lockton Companies is the world's largest privately held, independent insurance brokerage, founded by Jack Lockton in 1966 and headquartered in Kansas City, Missouri, United States. Lockton is a broker and intermediary rather than a risk carrier: it places commercial property and casualty, specialty and financial lines, employee benefits and people solutions, private client coverage, and — through Lockton Re — treaty and facultative reinsurance, for tens of thousands of clients across a global network of associates and offices reaching more than 140 locations. Its API posture is honestly characterized as partner-gated with no public API surface. As of July 2026 Lockton publishes no developer portal, no API reference, no OpenAPI or Swagger definition, no GraphQL endpoint, no Postman workspace, and no webhook or event catalog. The hostnames developer.lockton.com, developers.lockton.com, docs.lockton.com and api.lockton.com do not resolve in DNS, and a crawl of the 6,953 URLs in global.lockton.com/sitemap.xml surfaces no developer, API, ACORD, IVANS, OpenAPI or Swagger path. Client-facing technology is delivered through authenticated regional Lockton Client Portals and the proprietary Lockton SAGE intelligence and analytics ecosystem, which is presented on the website behind a contact form with no self-serve access, no documented data feed and no published integration surface. This is the expected posture for a US broker-intermediary: the United States has no federal insurance regulator and no open-insurance mandate, so data exchange between carriers, brokers and agency management systems runs on ACORD standards in an EDI and forms idiom rather than a public API idiom. Lockton's most substantive standards signal is governance rather than implementation — in July 2026 Nidhi Howell, Chief Business Technology Officer of Lockton Re, was appointed to the ACORD Solutions Group Board of Directors representing the reinsurance broking channel — but no ACORD AL3, ACORD XML, NGDS or IVANS agency-download implementation is documented on any public Lockton property.",
@@ -3219,7 +3273,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3252,7 +3306,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -3272,7 +3326,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3305,7 +3359,7 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Brown & Brown",
@@ -3325,7 +3379,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3358,7 +3412,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 63
+     "rank": 64
     }
    ]
   },
@@ -3367,8 +3421,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 16,
-   "shown": 16,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Clearcover",
@@ -3388,60 +3442,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 64
-    },
-    {
-     "name": "Policygenius",
-     "slug": "policygenius",
-     "description": "Policygenius is an independent online insurance marketplace and licensed brokerage founded in 2014 by Jennifer Fitzgerald and Francois de Lame and headquartered in New York City. The platform lets consumers compare quotes, get unbiased expert advice, and buy life, disability, homeowners, auto, and renters insurance across dozens of carriers, and it operates Policygenius Pro, a turnkey life-insurance fulfillment platform for financial advisors, agents, banks, and credit unions. Policygenius was acquired by Zinnia (an Eldridge company) in 2023. It was surfaced in the API Evangelist network as a portfolio company of Norwest Venture Partners. As of this enrichment pass Policygenius publishes no public developer API, developer portal, or SDK; its GitHub organization hosts internal tooling and forks only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/policygenius/refs/heads/main/screenshots/policygenius-2026-09-02T151646.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3477,6 +3478,59 @@
      "rank": 65
     },
     {
+     "name": "Policygenius",
+     "slug": "policygenius",
+     "description": "Policygenius is an independent online insurance marketplace and licensed brokerage founded in 2014 by Jennifer Fitzgerald and Francois de Lame and headquartered in New York City. The platform lets consumers compare quotes, get unbiased expert advice, and buy life, disability, homeowners, auto, and renters insurance across dozens of carriers, and it operates Policygenius Pro, a turnkey life-insurance fulfillment platform for financial advisors, agents, banks, and credit unions. Policygenius was acquired by Zinnia (an Eldridge company) in 2023. It was surfaced in the API Evangelist network as a portfolio company of Norwest Venture Partners. As of this enrichment pass Policygenius publishes no public developer API, developer portal, or SDK; its GitHub organization hosts internal tooling and forks only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/policygenius/refs/heads/main/screenshots/policygenius-2026-09-02T151646.png",
+     "score": 10.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 66
+    },
+    {
      "name": "Cowbell Cyber",
      "slug": "cowbell-cyber",
      "description": "Cowbell is a cyber insurance provider (insurtech) that delivers adaptive, continuously-underwritten cyber liability coverage and cyber-risk management services to small businesses and the middle market. Its platform pairs insurance products with proprietary risk analytics — Cowbell Factors, a continuous risk-rating model that benchmarks an organization's exposure against peers — and closed-loop resilience services delivered through the Cowbell console for policyholders, agents, and brokers. Product lines include Cowbell Prime 100 / Prime 100 Pro (small business), Prime 250 / Prime One (middle market), Prime Plus (excess), Technology Errors & Omissions, Management Liability, plus the Cowbell Rx marketplace, Cowbell Connectors, and Cowbell Insights. The company was surfaced as a portfolio company of Anthemis and added to the API Evangelist network. As of this enrichment pass Cowbell publishes no public developer API, OpenAPI, or developer portal — the console at console.cowbellcyber.ai is an authenticated quoting/policy application for agents and insureds, not a documented programmatic API.",
@@ -3494,7 +3548,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3527,7 +3581,7 @@
       "agentic_commerce": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Hi Marley",
@@ -3547,7 +3601,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3580,7 +3634,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Nava Benefits",
@@ -3600,7 +3654,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3633,12 +3687,13 @@
       "agentic_commerce": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Snapsheet",
      "slug": "snapsheet",
      "description": "Snapsheet is a cloud-based property & casualty (P&C) claims management platform for insurance carriers, MGAs, and TPAs. It runs the full claims lifecycle with no-code workflow configuration, intelligent automation, document management, virtual vehicle appraisals, total-loss settlement, integrated claims payments, and analytics. Snapsheet reports serving 170+ customers, including 16 of the top 20 P&C carriers, and processing more than 400 million API calls per month. It exposes open APIs and webhooks to customers and partners for connecting policy, billing, underwriting, and vendor systems, though API access is arranged through its sales and partner channel rather than a public self-serve developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapsheet/refs/heads/main/screenshots/snapsheet-2026-09-02T160011.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3652,7 +3707,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3685,7 +3740,7 @@
       "agentic_commerce": false
      },
      "tier": "Claims Technology",
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Hippo",
@@ -3705,7 +3760,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3738,7 +3793,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Cincinnati Financial",
@@ -3758,66 +3813,13 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 71
-    },
-    {
-     "name": "American Family Insurance",
-     "slug": "american-family-insurance",
-     "description": "American Family Insurance is a private mutual company that offers auto, homeowners, life, renters, umbrella, business, and farm/ranch insurance throughout the United States. The company serves customers through a network of exclusive agents, digital tools including the MyAmFam mobile app, and online self-service capabilities. American Family is headquartered in Madison, Wisconsin, and is one of the largest property-casualty insurers in the country.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/screenshots/american-family-insurance-2026-06-20T171911.png",
-     "score": 4.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 9.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -3864,7 +3866,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3910,7 +3912,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3963,7 +3965,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4015,7 +4017,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4068,7 +4070,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4121,7 +4123,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4174,7 +4176,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

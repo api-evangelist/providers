@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 23 operations
 api_count: 1
 apis:
-- description: Avalanche validator and network supply endpoints.
+- baseURL: https://parafi.tech/api
+  baseurl_source: declared
+  description: Avalanche validator and network supply endpoints.
   name: Parafi Avalanche API
   slug: parafi-avalanche-api
-- description: Ethereum network and sidecar metrics.
+- baseURL: https://parafi.tech/api
+  baseurl_source: declared
+  description: Ethereum network and sidecar metrics.
   name: Parafi Ethereum API
   slug: parafi-ethereum-api
-- description: Token price endpoints for supported assets.
+- baseURL: https://parafi.tech/api
+  baseurl_source: declared
+  description: Token price endpoints for supported assets.
   name: Parafi Market API
   slug: parafi-market-api
-- description: ParaFi validator, rewards, stake, and Solana network endpoints.
+- baseURL: https://parafi.tech/api
+  baseurl_source: declared
+  description: ParaFi validator, rewards, stake, and Solana network endpoints.
   name: Parafi Solana API
   slug: parafi-solana-api
 artifact_total: 13
@@ -210,7 +218,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/screenshots/parafi-2026-08-07T191404.png
 security:

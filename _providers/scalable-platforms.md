@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Railway is a modern deployment platform with usage-based pricing and arguably the best developer experience of any deployment platform. Launched in 2020, by 2026 it has matured with support for persis
   name: Railway API
   slug: railway-api
-- description: The Artifacts API from Scalable Platforms — 1 operation(s) for artifacts.
+- baseURL: https://api.vercel.com
+  baseurl_source: spec
+  description: The Artifacts API from Scalable Platforms — 1 operation(s) for artifacts.
   name: Scalable Platforms Artifacts API
   slug: scalable-platforms-artifacts-api
-- description: The Deployments API from Scalable Platforms — 3 operation(s) for deployments.
+- baseURL: https://api.vercel.com
+  baseurl_source: spec
+  description: The Deployments API from Scalable Platforms — 3 operation(s) for deployments.
   name: Scalable Platforms Deployments API
   slug: scalable-platforms-deployments-api
-- description: The Domains API from Scalable Platforms — 2 operation(s) for domains.
+- baseURL: https://api.vercel.com
+  baseurl_source: spec
+  description: The Domains API from Scalable Platforms — 2 operation(s) for domains.
   name: Scalable Platforms Domains API
   slug: scalable-platforms-domains-api
-- description: The Environments API from Scalable Platforms — 1 operation(s) for environments.
+- baseURL: https://api.vercel.com
+  baseurl_source: spec
+  description: The Environments API from Scalable Platforms — 1 operation(s) for environments.
   name: Scalable Platforms Environments API
   slug: scalable-platforms-environments-api
-- description: The Projects API from Scalable Platforms — 3 operation(s) for projects.
+- baseURL: https://api.vercel.com
+  baseurl_source: spec
+  description: The Projects API from Scalable Platforms — 3 operation(s) for projects.
   name: Scalable Platforms Projects API
   slug: scalable-platforms-projects-api
-- description: The Teams API from Scalable Platforms — 1 operation(s) for teams.
+- baseURL: https://api.vercel.com
+  baseurl_source: spec
+  description: The Teams API from Scalable Platforms — 1 operation(s) for teams.
   name: Scalable Platforms Teams API
   slug: scalable-platforms-teams-api
 artifact_total: 30
@@ -224,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-platforms/refs/heads/main/screenshots/scalable-platforms-2026-06-20T193455.png
 security:

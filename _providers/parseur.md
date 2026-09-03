@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 29 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The async API from Parseur — 7 operation(s) for async.
+- baseURL: https://api.parseur.com
+  baseurl_source: declared
+  description: The async API from Parseur — 7 operation(s) for async.
   name: Parseur async API
   slug: parseur-async-api
-- description: The Bootstrap API from Parseur — 1 operation(s) for bootstrap.
+- baseURL: https://api.parseur.com
+  baseurl_source: declared
+  description: The Bootstrap API from Parseur — 1 operation(s) for bootstrap.
   name: Parseur Bootstrap API
   slug: parseur-bootstrap-api
-- description: The Document API from Parseur — 3 operation(s) for document.
+- baseURL: https://api.parseur.com
+  baseurl_source: declared
+  description: The Document API from Parseur — 3 operation(s) for document.
   name: Parseur Document API
   slug: parseur-document-api
-- description: The Parser API from Parseur — 8 operation(s) for parser.
+- baseURL: https://api.parseur.com
+  baseurl_source: declared
+  description: The Parser API from Parseur — 8 operation(s) for parser.
   name: Parseur Parser API
   slug: parseur-parser-api
-- description: The Template API from Parseur — 1 operation(s) for template.
+- baseURL: https://api.parseur.com
+  baseurl_source: declared
+  description: The Template API from Parseur — 1 operation(s) for template.
   name: Parseur Template API
   slug: parseur-template-api
-- description: The Webhook API from Parseur — 2 operation(s) for webhook.
+- baseURL: https://api.parseur.com
+  baseurl_source: declared
+  description: The Webhook API from Parseur — 2 operation(s) for webhook.
   name: Parseur Webhook API
   slug: parseur-webhook-api
 artifact_total: 18
@@ -222,7 +234,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -232,7 +244,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 41.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -241,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/screenshots/parseur-2026-06-20T191421.png
 security:

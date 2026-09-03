@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 52 operations · 19 acting
 api_count: 1
 apis:
-- description: The Accounts API from Arch — 2 operation(s) for accounts.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The Accounts API from Arch — 2 operation(s) for accounts.
   name: Arch Accounts API
   slug: arch-accounts-api
-- description: Interact with Arch objects representing financial updates
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Interact with Arch objects representing financial updates
   name: Arch Activities API
   slug: arch-activities-api
-- description: The Addepar API from Arch — 1 operation(s) for addepar.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The Addepar API from Arch — 1 operation(s) for addepar.
   name: Arch Addepar API
   slug: arch-addepar-api
-- description: The Authentication API from Arch — 1 operation(s) for authentication.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The Authentication API from Arch — 1 operation(s) for authentication.
   name: Arch Authentication API
   slug: arch-authentication-api
-- description: Read and write data relating to money inflow / outflow
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Read and write data relating to money inflow / outflow
   name: Arch Cash Flows API
   slug: arch-cash-flows-api
-- description: Reference info about firms.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Reference info about firms.
   name: Arch Firms API
   slug: arch-firms-api
-- description: Read holding data and push new investments.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Read holding data and push new investments.
   name: Arch Holdings API
   slug: arch-holdings-api
-- description: Read from and create new investing entities
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Read from and create new investing entities
   name: Arch Investing Entities API
   slug: arch-investing-entities-api
-- description: Read from and create new issuing entities
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Read from and create new issuing entities
   name: Arch Issuing Entities API
   slug: arch-issuing-entities-api
-- description: Fetch data relating to the underling investments made by your own investments
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Fetch data relating to the underling investments made by your own investments
   name: Arch Lookthroughs API
   slug: arch-lookthroughs-api
-- description: Get data on individual investment offering opportunities offered by your holdings
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: Get data on individual investment offering opportunities offered by your holdings
   name: Arch Offerings API
   slug: arch-offerings-api
-- description: The Tasks API from Arch — 6 operation(s) for tasks.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The Tasks API from Arch — 6 operation(s) for tasks.
   name: Arch Tasks API
   slug: arch-tasks-api
-- description: The Tax Documents API from Arch — 4 operation(s) for tax documents.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The Tax Documents API from Arch — 4 operation(s) for tax documents.
   name: Arch Tax Documents API
   slug: arch-tax-documents-api
-- description: The User Roles API from Arch — 1 operation(s) for user roles.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The User Roles API from Arch — 1 operation(s) for user roles.
   name: Arch User Roles API
   slug: arch-user-roles-api
-- description: The Users API from Arch — 2 operation(s) for users.
+- baseURL: https://arch.co/client-api/v0
+  baseurl_source: declared
+  description: The Users API from Arch — 2 operation(s) for users.
   name: Arch Users API
   slug: arch-users-api
 artifact_total: 37
@@ -278,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch/refs/heads/main/screenshots/arch-2026-07-25T201014.png
 security:

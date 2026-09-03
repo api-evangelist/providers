@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 20 operations · 10 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Enrollments API from Go1 — 3 operation(s) for enrollments.
+- baseURL: https://gateway.go1.com
+  baseurl_source: declared
+  description: The Enrollments API from Go1 — 3 operation(s) for enrollments.
   name: Go1 Enrollments API
   slug: go1-enrollments-api
-- description: The Learning objects API from Go1 — 5 operation(s) for learning objects.
+- baseURL: https://gateway.go1.com
+  baseurl_source: declared
+  description: The Learning objects API from Go1 — 5 operation(s) for learning objects.
   name: Go1 Learning objects API
   slug: go1-learning-objects-api
-- description: The Portals API from Go1 — 2 operation(s) for portals.
+- baseURL: https://gateway.go1.com
+  baseurl_source: declared
+  description: The Portals API from Go1 — 2 operation(s) for portals.
   name: Go1 Portals API
   slug: go1-portals-api
-- description: The Webhooks API from Go1 — 2 operation(s) for webhooks.
+- baseURL: https://gateway.go1.com
+  baseurl_source: declared
+  description: The Webhooks API from Go1 — 2 operation(s) for webhooks.
   name: Go1 Webhooks API
   slug: go1-webhooks-api
 arazzos:
@@ -261,7 +269,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -271,7 +279,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 60.9
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,7 +297,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/screenshots/go1-2026-07-25T220000.png
 security:

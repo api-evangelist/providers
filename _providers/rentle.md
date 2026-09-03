@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 28 operations · 7 acting
 api_count: 1
 apis:
-- description: API Key-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: API Key-related queries
   name: Rentle API Keys API
   slug: rentle-api-keys-api
-- description: Category-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Category-related queries
   name: Rentle Categories API
   slug: rentle-categories-api
-- description: Customer-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Customer-related queries
   name: Rentle Customers API
   slug: rentle-customers-api
-- description: Discount code-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Discount code-related queries
   name: Rentle Discount Codes API
   slug: rentle-discount-codes-api
-- description: Inventory-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Inventory-related queries
   name: Rentle Inventory Articles API
   slug: rentle-inventory-articles-api
-- description: The Inventory SKUs API from Rentle — 2 operation(s) for inventory skus.
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: The Inventory SKUs API from Rentle — 2 operation(s) for inventory skus.
   name: Rentle Inventory SKUs API
   slug: rentle-inventory-skus-api
-- description: Merchant-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Merchant-related queries
   name: Rentle Merchant API
   slug: rentle-merchant-api
-- description: Order-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Order-related queries
   name: Rentle Orders API
   slug: rentle-orders-api
-- description: Product-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Product-related queries
   name: Rentle Products API
   slug: rentle-products-api
-- description: Store-related queries
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: Store-related queries
   name: Rentle Stores API
   slug: rentle-stores-api
-- description: 'This section describes API endpoints you can use to configure webhooks. Check the [webhook events section](#tag/WebhooksOverview) for more inforation regarding the webhooks events that Twice delivers '
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: 'This section describes API endpoints you can use to configure webhooks. Check the [webhook events section](#tag/WebhooksOverview) for more inforation regarding the webhooks events that Twice delivers '
   name: Rentle Webhooks API
   slug: rentle-webhooks-api
-- description: The Order API from Rentle — 0 operation(s) for order.
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: The Order API from Rentle — 0 operation(s) for order.
   name: Rentle Order API
   slug: rentle-order-api
-- description: The Product API from Rentle — 0 operation(s) for product.
+- baseURL: https://api.twicecommerce.com/admin
+  baseurl_source: declared
+  description: The Product API from Rentle — 0 operation(s) for product.
   name: Rentle Product API
   slug: rentle-product-api
 artifact_total: 30
@@ -241,7 +267,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -251,7 +277,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 40.5
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/screenshots/rentle-2026-08-17T081515.png
 security:

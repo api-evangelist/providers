@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 14 operations · 9 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account Balance API from M-Pesa (Safaricom Daraja) — 1 operation(s) for account balance.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Account Balance API from M-Pesa (Safaricom Daraja) — 1 operation(s) for account balance.
   name: M-Pesa (Safaricom Daraja) Account Balance API
   slug: mpesa-account-balance-api
-- description: The Authorization API from M-Pesa (Safaricom Daraja) — 1 operation(s) for authorization.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Authorization API from M-Pesa (Safaricom Daraja) — 1 operation(s) for authorization.
   name: M-Pesa (Safaricom Daraja) Authorization API
   slug: mpesa-authorization-api
-- description: The B2B API from M-Pesa (Safaricom Daraja) — 2 operation(s) for b2b.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The B2B API from M-Pesa (Safaricom Daraja) — 2 operation(s) for b2b.
   name: M-Pesa (Safaricom Daraja) B2B API
   slug: mpesa-b2b-api
-- description: The B2C API from M-Pesa (Safaricom Daraja) — 1 operation(s) for b2c.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The B2C API from M-Pesa (Safaricom Daraja) — 1 operation(s) for b2c.
   name: M-Pesa (Safaricom Daraja) B2C API
   slug: mpesa-b2c-api
-- description: The C2B API from M-Pesa (Safaricom Daraja) — 2 operation(s) for c2b.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The C2B API from M-Pesa (Safaricom Daraja) — 2 operation(s) for c2b.
   name: M-Pesa (Safaricom Daraja) C2B API
   slug: mpesa-c2b-api
-- description: The Dynamic QR API from M-Pesa (Safaricom Daraja) — 1 operation(s) for dynamic qr.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Dynamic QR API from M-Pesa (Safaricom Daraja) — 1 operation(s) for dynamic qr.
   name: M-Pesa (Safaricom Daraja) Dynamic QR API
   slug: mpesa-dynamic-qr-api
-- description: The M-Pesa Express API from M-Pesa (Safaricom Daraja) — 2 operation(s) for m-pesa express.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The M-Pesa Express API from M-Pesa (Safaricom Daraja) — 2 operation(s) for m-pesa express.
   name: M-Pesa (Safaricom Daraja) M-Pesa Express API
   slug: mpesa-m-pesa-express-api
-- description: The Reversal API from M-Pesa (Safaricom Daraja) — 1 operation(s) for reversal.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Reversal API from M-Pesa (Safaricom Daraja) — 1 operation(s) for reversal.
   name: M-Pesa (Safaricom Daraja) Reversal API
   slug: mpesa-reversal-api
-- description: The Standing Order API from M-Pesa (Safaricom Daraja) — 1 operation(s) for standing order.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Standing Order API from M-Pesa (Safaricom Daraja) — 1 operation(s) for standing order.
   name: M-Pesa (Safaricom Daraja) Standing Order API
   slug: mpesa-standing-order-api
-- description: The Tax Remittance API from M-Pesa (Safaricom Daraja) — 1 operation(s) for tax remittance.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Tax Remittance API from M-Pesa (Safaricom Daraja) — 1 operation(s) for tax remittance.
   name: M-Pesa (Safaricom Daraja) Tax Remittance API
   slug: mpesa-tax-remittance-api
-- description: The Transaction Status API from M-Pesa (Safaricom Daraja) — 1 operation(s) for transaction status.
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The Transaction Status API from M-Pesa (Safaricom Daraja) — 1 operation(s) for transaction status.
   name: M-Pesa (Safaricom Daraja) Transaction Status API
   slug: mpesa-transaction-status-api
 artifact_total: 44
@@ -341,7 +363,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -351,7 +373,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 62.3
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,7 +391,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mpesa/refs/heads/main/screenshots/mpesa-2026-08-07T184414.png
 security:

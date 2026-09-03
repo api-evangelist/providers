@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,25 +48,39 @@ apis:
 - description: The API family Sprift advertises on its Data and API product page, recorded here as advertised and NOT as verified. The page names ten REST endpoint paths — /api/v2/property/{uprn} (300 data point pro
   name: Sprift Data and API (v2, advertised)
   slug: sprift-data-and-api-v2
-- description: The Home API from Sprift — 1 operation(s) for home.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The Home API from Sprift — 1 operation(s) for home.
   name: Sprift Home API
   slug: sprift-home-api
-- description: The Insider API from Sprift — 2 operation(s) for insider.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The Insider API from Sprift — 2 operation(s) for insider.
   name: Sprift Insider API
   slug: sprift-insider-api
-- description: The Property API from Sprift — 10 operation(s) for property.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The Property API from Sprift — 10 operation(s) for property.
   name: Sprift Property API
   slug: sprift-property-api
-- description: The Property V2 API from Sprift — 8 operation(s) for property v2.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The Property V2 API from Sprift — 8 operation(s) for property v2.
   name: Sprift Property V2 API
   slug: sprift-property-v2-api
-- description: The Search API from Sprift — 3 operation(s) for search.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The Search API from Sprift — 3 operation(s) for search.
   name: Sprift Search API
   slug: sprift-search-api
-- description: The Share API from Sprift — 1 operation(s) for share.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The Share API from Sprift — 1 operation(s) for share.
   name: Sprift Share API
   slug: sprift-share-api
-- description: The User API from Sprift — 2 operation(s) for user.
+- baseURL: https://sprift.com/dashboard/api/v1
+  baseurl_source: declared
+  description: The User API from Sprift — 2 operation(s) for user.
   name: Sprift User API
   slug: sprift-user-api
 arazzos:
@@ -288,7 +302,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -298,7 +312,7 @@ score:
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/screenshots/sprift-2026-08-17T082046.png
 security:

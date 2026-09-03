@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: Retrieve live Assist sessions (Enterprise Edition only).
+- baseURL: https://api.openreplay.com/v2
+  baseurl_source: declared
+  description: Retrieve live Assist sessions (Enterprise Edition only).
   name: OpenReplay Assist API
   slug: openreplay-assist-api
-- description: Retrieve events captured within a recorded session.
+- baseURL: https://api.openreplay.com/v2
+  baseurl_source: declared
+  description: Retrieve events captured within a recorded session.
   name: OpenReplay Events API
   slug: openreplay-events-api
-- description: Manage background jobs such as user-deletion tasks.
+- baseURL: https://api.openreplay.com/v2
+  baseurl_source: declared
+  description: Manage background jobs such as user-deletion tasks.
   name: OpenReplay Jobs API
   slug: openreplay-jobs-api
-- description: Create and retrieve projects.
+- baseURL: https://api.openreplay.com/v2
+  baseurl_source: declared
+  description: Create and retrieve projects.
   name: OpenReplay Projects API
   slug: openreplay-projects-api
-- description: Retrieve recorded sessions for a given user.
+- baseURL: https://api.openreplay.com/v2
+  baseurl_source: declared
+  description: Retrieve recorded sessions for a given user.
   name: OpenReplay Sessions API
   slug: openreplay-sessions-api
-- description: Search, retrieve, and delete users and their associated data.
+- baseURL: https://api.openreplay.com/v2
+  baseurl_source: declared
+  description: Search, retrieve, and delete users and their associated data.
   name: OpenReplay Users API
   slug: openreplay-users-api
 artifact_total: 20
@@ -197,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openreplay/refs/heads/main/screenshots/openreplay-2026-06-20T191026.png
 security:

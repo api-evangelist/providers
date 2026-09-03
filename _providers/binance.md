@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 180 operations · 64 acting
 api_count: 19
 apis:
-- description: The Binance Spot WebSocket API provides an alternative way to access spot trading functionality through persistent WebSocket connections. It is functionally equivalent to the REST API, accepting the s
+- baseURL: wss://ws-api.binance.com
+  baseurl_source: declared
+  description: The Binance Spot WebSocket API provides an alternative way to access spot trading functionality through persistent WebSocket connections. It is functionally equivalent to the REST API, accepting the s
   name: Binance Spot WebSocket API
   slug: spot-websocket-api
-- description: 'Binance Spot WebSocket Streams deliver real-time market data updates via persistent WebSocket connections. Developers can subscribe to individual symbol ticker streams, aggregate trade streams, kline '
+- baseURL: wss://stream.binance.com
+  baseurl_source: declared
+  description: 'Binance Spot WebSocket Streams deliver real-time market data updates via persistent WebSocket connections. Developers can subscribe to individual symbol ticker streams, aggregate trade streams, kline '
   name: Binance Spot WebSocket Streams
   slug: spot-websocket-streams
-- description: Account endpoints for COIN-M futures positions and balances.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Account endpoints for COIN-M futures positions and balances.
   name: Binance Account API
   slug: binance-account-api
-- description: Asset balance and information endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Asset balance and information endpoints.
   name: Binance Assets API
   slug: binance-assets-api
-- description: Auto-invest plan management and query endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Auto-invest plan management and query endpoints.
   name: Binance Auto-Invest API
   slug: binance-auto-invest-api
-- description: Endpoints for borrowing and repaying margin assets.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Endpoints for borrowing and repaying margin assets.
   name: Binance Borrow/Repay API
   slug: binance-borrow-repay-api
-- description: Cryptocurrency conversion quote and trade endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Cryptocurrency conversion quote and trade endpoints.
   name: Binance Convert API
   slug: binance-convert-api
-- description: Copy trading position and portfolio management endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Copy trading position and portfolio management endpoints.
   name: Binance Copy Trading API
   slug: binance-copy-trading-api
-- description: Loan borrowing, repayment, and query endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Loan borrowing, repayment, and query endpoints.
   name: Binance Crypto Loan API
   slug: binance-crypto-loan-api
-- description: Deposit-related endpoints for addresses and history.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Deposit-related endpoints for addresses and history.
   name: Binance Deposits API
   slug: binance-deposits-api
-- description: Fiat deposit, withdrawal, and payment history endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Fiat deposit, withdrawal, and payment history endpoints.
   name: Binance Fiat API
   slug: binance-fiat-api
-- description: Flexible savings products that allow instant redemption.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Flexible savings products that allow instant redemption.
   name: Binance Flexible Products API
   slug: binance-flexible-products-api
-- description: Futures algorithmic trading endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Futures algorithmic trading endpoints.
   name: Binance Futures Algo API
   slug: binance-futures-algo-api
-- description: General endpoints for connectivity testing and exchange information.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: General endpoints for connectivity testing and exchange information.
   name: Binance General API
   slug: binance-general-api
-- description: Gift card creation, redemption, and verification endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Gift card creation, redemption, and verification endpoints.
   name: Binance Gift Card API
   slug: binance-gift-card-api
-- description: Locked savings products with fixed-term commitments.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Locked savings products with fixed-term commitments.
   name: Binance Locked Products API
   slug: binance-locked-products-api
-- description: Public market data endpoints for COIN-M futures.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Public market data endpoints for COIN-M futures.
   name: Binance Market Data API
   slug: binance-market-data-api
-- description: Mining algorithms, coin info, worker stats, and earnings endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Mining algorithms, coin info, worker stats, and earnings endpoints.
   name: Binance Mining API
   slug: binance-mining-api
-- description: NFT transaction history, deposit, withdrawal, and asset endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: NFT transaction history, deposit, withdrawal, and asset endpoints.
   name: Binance NFT API
   slug: binance-nft-api
-- description: Payment order management endpoints for creating, querying, and closing orders.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Payment order management endpoints for creating, querying, and closing orders.
   name: Binance Orders API
   slug: binance-orders-api
-- description: Batch payout and transfer endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Batch payout and transfer endpoints.
   name: Binance Payouts API
   slug: binance-payouts-api
-- description: Refund processing endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Refund processing endpoints.
   name: Binance Refunds API
   slug: binance-refunds-api
-- description: Spot algorithmic trading endpoints.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Spot algorithmic trading endpoints.
   name: Binance Spot Algo API
   slug: binance-spot-algo-api
-- description: Endpoints for querying and transferring sub-account assets.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Endpoints for querying and transferring sub-account assets.
   name: Binance Sub-Account Assets API
   slug: binance-sub-account-assets-api
-- description: Endpoints for creating and managing sub-accounts.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Endpoints for creating and managing sub-accounts.
   name: Binance Sub-Account Management API
   slug: binance-sub-account-management-api
-- description: Trading endpoints for COIN-M futures orders.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Trading endpoints for COIN-M futures orders.
   name: Binance Trading API
   slug: binance-trading-api
-- description: User data stream listen key management for COIN-M futures.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: User data stream listen key management for COIN-M futures.
   name: Binance User Data Stream API
   slug: binance-user-data-stream-api
-- description: Withdrawal endpoints for initiating and tracking withdrawals.
+- baseURL: https://api.binance.com
+  baseurl_source: declared
+  description: Withdrawal endpoints for initiating and tracking withdrawals.
   name: Binance Withdrawals API
   slug: binance-withdrawals-api
 artifact_total: 148
@@ -516,7 +572,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -526,7 +582,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 41.4
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -541,7 +597,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

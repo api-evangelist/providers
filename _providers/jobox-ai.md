@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,97 +35,157 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The applogic_users API from JOBOX.ai — 1 operation(s) for applogic_users.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The applogic_users API from JOBOX.ai — 1 operation(s) for applogic_users.
   name: JOBOX.ai Applogic Users API
   slug: jobox-ai-applogic-users-api
-- description: The bankinfo API from JOBOX.ai — 3 operation(s) for bankinfo.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The bankinfo API from JOBOX.ai — 3 operation(s) for bankinfo.
   name: JOBOX.ai Bankinfo API
   slug: jobox-ai-bankinfo-api
-- description: The commodities API from JOBOX.ai — 1 operation(s) for commodities.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The commodities API from JOBOX.ai — 1 operation(s) for commodities.
   name: JOBOX.ai Commodities API
   slug: jobox-ai-commodities-api
-- description: The contacts API from JOBOX.ai — 5 operation(s) for contacts.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The contacts API from JOBOX.ai — 5 operation(s) for contacts.
   name: JOBOX.ai Contacts API
   slug: jobox-ai-contacts-api
-- description: The dashboard API from JOBOX.ai — 1 operation(s) for dashboard.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The dashboard API from JOBOX.ai — 1 operation(s) for dashboard.
   name: JOBOX.ai Dashboard API
   slug: jobox-ai-dashboard-api
-- description: The displayname API from JOBOX.ai — 1 operation(s) for displayname.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The displayname API from JOBOX.ai — 1 operation(s) for displayname.
   name: JOBOX.ai Displayname API
   slug: jobox-ai-displayname-api
-- description: The disputes API from JOBOX.ai — 2 operation(s) for disputes.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The disputes API from JOBOX.ai — 2 operation(s) for disputes.
   name: JOBOX.ai Disputes API
   slug: jobox-ai-disputes-api
-- description: The external API from JOBOX.ai — 1 operation(s) for external.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The external API from JOBOX.ai — 1 operation(s) for external.
   name: JOBOX.ai External API
   slug: jobox-ai-external-api
-- description: The history API from JOBOX.ai — 1 operation(s) for history.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The history API from JOBOX.ai — 1 operation(s) for history.
   name: JOBOX.ai History API
   slug: jobox-ai-history-api
-- description: The identification API from JOBOX.ai — 1 operation(s) for identification.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The identification API from JOBOX.ai — 1 operation(s) for identification.
   name: JOBOX.ai Identification API
   slug: jobox-ai-identification-api
-- description: The joblog API from JOBOX.ai — 3 operation(s) for joblog.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The joblog API from JOBOX.ai — 3 operation(s) for joblog.
   name: JOBOX.ai Joblog API
   slug: jobox-ai-joblog-api
-- description: The joboxnumbers API from JOBOX.ai — 1 operation(s) for joboxnumbers.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The joboxnumbers API from JOBOX.ai — 1 operation(s) for joboxnumbers.
   name: JOBOX.ai Joboxnumbers API
   slug: jobox-ai-joboxnumbers-api
-- description: The jobs API from JOBOX.ai — 17 operation(s) for jobs.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The jobs API from JOBOX.ai — 17 operation(s) for jobs.
   name: JOBOX.ai Jobs API
   slug: jobox-ai-jobs-api
-- description: The notes API from JOBOX.ai — 2 operation(s) for notes.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The notes API from JOBOX.ai — 2 operation(s) for notes.
   name: JOBOX.ai Notes API
   slug: jobox-ai-notes-api
-- description: The notifications API from JOBOX.ai — 3 operation(s) for notifications.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The notifications API from JOBOX.ai — 3 operation(s) for notifications.
   name: JOBOX.ai Notifications API
   slug: jobox-ai-notifications-api
-- description: The occupations API from JOBOX.ai — 2 operation(s) for occupations.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The occupations API from JOBOX.ai — 2 operation(s) for occupations.
   name: JOBOX.ai Occupations API
   slug: jobox-ai-occupations-api
-- description: The paymentlog API from JOBOX.ai — 3 operation(s) for paymentlog.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The paymentlog API from JOBOX.ai — 3 operation(s) for paymentlog.
   name: JOBOX.ai Paymentlog API
   slug: jobox-ai-paymentlog-api
-- description: The payments API from JOBOX.ai — 2 operation(s) for payments.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The payments API from JOBOX.ai — 2 operation(s) for payments.
   name: JOBOX.ai Payments API
   slug: jobox-ai-payments-api
-- description: The receipts API from JOBOX.ai — 3 operation(s) for receipts.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The receipts API from JOBOX.ai — 3 operation(s) for receipts.
   name: JOBOX.ai Receipts API
   slug: jobox-ai-receipts-api
-- description: The referral API from JOBOX.ai — 3 operation(s) for referral.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The referral API from JOBOX.ai — 3 operation(s) for referral.
   name: JOBOX.ai Referral API
   slug: jobox-ai-referral-api
-- description: The reports API from JOBOX.ai — 5 operation(s) for reports.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The reports API from JOBOX.ai — 5 operation(s) for reports.
   name: JOBOX.ai Reports API
   slug: jobox-ai-reports-api
-- description: The search API from JOBOX.ai — 1 operation(s) for search.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The search API from JOBOX.ai — 1 operation(s) for search.
   name: JOBOX.ai Search API
   slug: jobox-ai-search-api
-- description: The shorten API from JOBOX.ai — 1 operation(s) for shorten.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The shorten API from JOBOX.ai — 1 operation(s) for shorten.
   name: JOBOX.ai Shorten API
   slug: jobox-ai-shorten-api
-- description: The status API from JOBOX.ai — 1 operation(s) for status.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The status API from JOBOX.ai — 1 operation(s) for status.
   name: JOBOX.ai Status API
   slug: jobox-ai-status-api
-- description: The upload API from JOBOX.ai — 4 operation(s) for upload.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The upload API from JOBOX.ai — 4 operation(s) for upload.
   name: JOBOX.ai Upload API
   slug: jobox-ai-upload-api
-- description: The uploadsignature API from JOBOX.ai — 1 operation(s) for uploadsignature.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The uploadsignature API from JOBOX.ai — 1 operation(s) for uploadsignature.
   name: JOBOX.ai Uploadsignature API
   slug: jobox-ai-uploadsignature-api
-- description: The users API from JOBOX.ai — 13 operation(s) for users.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The users API from JOBOX.ai — 13 operation(s) for users.
   name: JOBOX.ai Users API
   slug: jobox-ai-users-api
-- description: The v2stripe API from JOBOX.ai — 1 operation(s) for v2stripe.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The v2stripe API from JOBOX.ai — 1 operation(s) for v2stripe.
   name: JOBOX.ai V2stripe API
   slug: jobox-ai-v2stripe-api
-- description: The wallet_alias API from JOBOX.ai — 2 operation(s) for wallet_alias.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The wallet_alias API from JOBOX.ai — 2 operation(s) for wallet_alias.
   name: JOBOX.ai Wallet Alias API
   slug: jobox-ai-wallet-alias-api
-- description: The wallet API from JOBOX.ai — 6 operation(s) for wallet.
+- baseURL: https://api.jobox.ai/Kili
+  baseurl_source: declared
+  description: The wallet API from JOBOX.ai — 6 operation(s) for wallet.
   name: JOBOX.ai Wallet API
   slug: jobox-ai-wallet-api
 artifact_total: 35
@@ -197,18 +269,18 @@ rate_limits:
   slug: jobox-ai-rate-limits
 score:
   band: thin
-  composite: 29.0
+  composite: 29.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 28.6
+    contract_quality: 30.2
     developer_ergonomics: 42.3
     discoverability: 75.9
     governance: 4.5
@@ -230,8 +302,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/screenshots/jobox-ai-2026-09-02T145948.png
 security:
 - kind: authentication
   name: Jobox Ai Authentication

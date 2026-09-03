@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: The Brokers API from Apache RocketMQ — 1 operation(s) for brokers.
+- baseURL: https://rocketmq.example.com/api/v1
+  baseurl_source: spec
+  description: The Brokers API from Apache RocketMQ — 1 operation(s) for brokers.
   name: Apache RocketMQ Brokers API
   slug: apache-rocketmq-brokers-api
-- description: The ConsumerGroups API from Apache RocketMQ — 1 operation(s) for consumergroups.
+- baseURL: https://rocketmq.example.com/api/v1
+  baseurl_source: spec
+  description: The ConsumerGroups API from Apache RocketMQ — 1 operation(s) for consumergroups.
   name: Apache RocketMQ ConsumerGroups API
   slug: apache-rocketmq-consumergroups-api
-- description: The Messages API from Apache RocketMQ — 3 operation(s) for messages.
+- baseURL: https://rocketmq.example.com/api/v1
+  baseurl_source: spec
+  description: The Messages API from Apache RocketMQ — 3 operation(s) for messages.
   name: Apache RocketMQ Messages API
   slug: apache-rocketmq-messages-api
-- description: The Topics API from Apache RocketMQ — 2 operation(s) for topics.
+- baseURL: https://rocketmq.example.com/api/v1
+  baseurl_source: spec
+  description: The Topics API from Apache RocketMQ — 2 operation(s) for topics.
   name: Apache RocketMQ Topics API
   slug: apache-rocketmq-topics-api
 artifact_total: 75
@@ -340,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/screenshots/apache-rocketmq-2026-06-20T172138.png
 security:

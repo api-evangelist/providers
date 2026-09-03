@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 79 operations · 48 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Operations to aggregate news counts.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to aggregate news counts.
   name: Newscatcher AggregationCount API
   slug: newscatcher-aggregationcount-api
-- description: Operations to search by author.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to search by author.
   name: Newscatcher Authors API
   slug: newscatcher-authors-api
-- description: Operations to retrieve breaking news articles.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to retrieve breaking news articles.
   name: Newscatcher BreakingNews API
   slug: newscatcher-breakingnews-api
-- description: Operations to create and manage datasets of entities. A dataset is a named collection of entities — think of it as a watchlist or portfolio. Connect a dataset to a job via `connected_dataset_ids` to a
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to create and manage datasets of entities. A dataset is a named collection of entities — think of it as a watchlist or portfolio. Connect a dataset to a job via `connected_dataset_ids` to a
   name: Newscatcher Datasets API
   slug: newscatcher-datasets-api
-- description: Operations to create, update, and delete company entities. Entities are the building blocks of Company Watchlist. Each entity represents a company (or person) you want to track. Add identifying inform
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to create, update, and delete company entities. Entities are the building blocks of Company Watchlist. Each entity represents a company (or person) you want to track. Add identifying inform
   name: Newscatcher Entities API
   slug: newscatcher-entities-api
-- description: Operations to create, monitor, and retrieve job results.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to create, monitor, and retrieve job results.
   name: Newscatcher Jobs API
   slug: newscatcher-jobs-api
-- description: Operations to retrieve local news latest headlines. Includes both standard location filtering and advanced GeoNames filtering.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to retrieve local news latest headlines. Includes both standard location filtering and advanced GeoNames filtering.
   name: Newscatcher LatestHeadlines API
   slug: newscatcher-latestheadlines-api
-- description: Operations to check API health and version.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to check API health and version.
   name: Newscatcher Meta API
   slug: newscatcher-meta-api
-- description: Operations to create, operate and retrieve monitor results.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to create, operate and retrieve monitor results.
   name: Newscatcher Monitors API
   slug: newscatcher-monitors-api
-- description: Operations to create, organize, and manage projects. A project is a named container for jobs, monitors, and datasets. Group related resources by use case, team, or client, and share them with teammate
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to create, organize, and manage projects. A project is a named container for jobs, monitors, and datasets. Group related resources by use case, team, or client, and share them with teammate
   name: Newscatcher Projects API
   slug: newscatcher-projects-api
-- description: Operations to search for local news articles. Includes both standard location filtering and advanced GeoNames filtering.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to search for local news articles. Includes both standard location filtering and advanced GeoNames filtering.
   name: Newscatcher Search API
   slug: newscatcher-search-api
-- description: Operations to search local news by link, ID or RSS GUID.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to search local news by link, ID or RSS GUID.
   name: Newscatcher SearchBy API
   slug: newscatcher-searchby-api
-- description: Operations to search by link or ID.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to search by link or ID.
   name: Newscatcher SearchByLink API
   slug: newscatcher-searchbylink-api
-- description: Operations to retrieve local news sources.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to retrieve local news sources.
   name: Newscatcher Sources API
   slug: newscatcher-sources-api
-- description: Operations to get subscription info.
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to get subscription info.
   name: Newscatcher Subscription API
   slug: newscatcher-subscription-api
-- description: Operations to create and manage reusable webhook endpoints. A webhook is a named HTTP endpoint that receives a POST notification when a job or monitor completes. Create webhooks once at the organizati
+- baseURL: https://v3-api.newscatcherapi.com/api
+  baseurl_source: declared
+  description: Operations to create and manage reusable webhook endpoints. A webhook is a named HTTP endpoint that receives a POST notification when a job or monitor completes. Create webhooks once at the organizati
   name: Newscatcher Webhooks API
   slug: newscatcher-webhooks-api
 artifact_total: 46
@@ -306,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newscatcher/refs/heads/main/screenshots/newscatcher-2026-06-20T190251.png
 security:

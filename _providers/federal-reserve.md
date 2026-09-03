@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: The Category API from Federal Reserve — 3 operation(s) for category.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Category API from Federal Reserve — 3 operation(s) for category.
   name: Federal Reserve Category API
   slug: federal-reserve-category-api
-- description: The Related Tags API from Federal Reserve — 1 operation(s) for related tags.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Related Tags API from Federal Reserve — 1 operation(s) for related tags.
   name: Federal Reserve Related Tags API
   slug: federal-reserve-related-tags-api
-- description: The Release API from Federal Reserve — 2 operation(s) for release.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Release API from Federal Reserve — 2 operation(s) for release.
   name: Federal Reserve Release API
   slug: federal-reserve-release-api
-- description: The Releases API from Federal Reserve — 1 operation(s) for releases.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Releases API from Federal Reserve — 1 operation(s) for releases.
   name: Federal Reserve Releases API
   slug: federal-reserve-releases-api
-- description: The Series API from Federal Reserve — 3 operation(s) for series.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Series API from Federal Reserve — 3 operation(s) for series.
   name: Federal Reserve Series API
   slug: federal-reserve-series-api
-- description: The Source API from Federal Reserve — 1 operation(s) for source.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Source API from Federal Reserve — 1 operation(s) for source.
   name: Federal Reserve Source API
   slug: federal-reserve-source-api
-- description: The Sources API from Federal Reserve — 1 operation(s) for sources.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Sources API from Federal Reserve — 1 operation(s) for sources.
   name: Federal Reserve Sources API
   slug: federal-reserve-sources-api
-- description: The Tags API from Federal Reserve — 1 operation(s) for tags.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The Tags API from Federal Reserve — 1 operation(s) for tags.
   name: Federal Reserve Tags API
   slug: federal-reserve-tags-api
 artifact_total: 24
@@ -187,7 +203,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/screenshots/federal-reserve-2026-06-20T181129.png
 security:

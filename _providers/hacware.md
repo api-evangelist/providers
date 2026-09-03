@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 3
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 113 operations · 54 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin API from Hacware — 3 operation(s) for admin.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Admin API from Hacware — 3 operation(s) for admin.
   name: Hacware Admin API
   slug: hacware-admin-api
-- description: The Compliance API from Hacware — 7 operation(s) for compliance.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Compliance API from Hacware — 7 operation(s) for compliance.
   name: Hacware Compliance API
   slug: hacware-compliance-api
-- description: The Compliance-Tenant API from Hacware — 5 operation(s) for compliance-tenant.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Compliance-Tenant API from Hacware — 5 operation(s) for compliance-tenant.
   name: Hacware Compliance-Tenant API
   slug: hacware-compliance-tenant-api
-- description: The Customer API from Hacware — 6 operation(s) for customer.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Customer API from Hacware — 6 operation(s) for customer.
   name: Hacware Customer API
   slug: hacware-customer-api
-- description: The Email-Tenant API from Hacware — 1 operation(s) for email-tenant.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Email-Tenant API from Hacware — 1 operation(s) for email-tenant.
   name: Hacware Email-Tenant API
   slug: hacware-email-tenant-api
-- description: The Group API from Hacware — 12 operation(s) for group.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Group API from Hacware — 12 operation(s) for group.
   name: Hacware Group API
   slug: hacware-group-api
-- description: The Multi-Tenant API from Hacware — 5 operation(s) for multi-tenant.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Multi-Tenant API from Hacware — 5 operation(s) for multi-tenant.
   name: Hacware Multi-Tenant API
   slug: hacware-multi-tenant-api
-- description: The Phishing API from Hacware — 17 operation(s) for phishing.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Phishing API from Hacware — 17 operation(s) for phishing.
   name: Hacware Phishing API
   slug: hacware-phishing-api
-- description: The Report API from Hacware — 16 operation(s) for report.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Report API from Hacware — 16 operation(s) for report.
   name: Hacware Report API
   slug: hacware-report-api
-- description: The Training API from Hacware — 28 operation(s) for training.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The Training API from Hacware — 28 operation(s) for training.
   name: Hacware Training API
   slug: hacware-training-api
-- description: The User API from Hacware — 9 operation(s) for user.
+- baseURL: https://app.hacware.com
+  baseurl_source: declared
+  description: The User API from Hacware — 9 operation(s) for user.
   name: Hacware User API
   slug: hacware-user-api
 artifact_total: 27
@@ -230,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/screenshots/hacware-2026-07-25T220524.png
 security:

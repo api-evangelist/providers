@@ -32,10 +32,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Post to and update maintenance and incidents on your status page through an HTTP REST API
+- baseURL: https://instatus.com/help/api
+  baseurl_source: declared
+  description: Post to and update maintenance and incidents on your status page through an HTTP REST API
   name: Instatus
   slug: instatus
 artifact_total: 2
@@ -89,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instatus/refs/heads/main/screenshots/instatus-2026-06-20T183418.png
 security:

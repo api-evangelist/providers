@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Gandalf is Lakera's free interactive game that teaches prompt injection by challenging players to extract a secret from an LLM across progressively harder defenses. It has become a primary research an
   name: Gandalf
   slug: gandalf
-- description: Screen prompts and model responses for threats
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Screen prompts and model responses for threats
   name: Lakera Guard API
   slug: lakera-guard-api
-- description: Kubernetes-style health and lifecycle probes (self-hosted)
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Kubernetes-style health and lifecycle probes (self-hosted)
   name: Lakera Health API
   slug: lakera-health-api
-- description: Policy validation (self-hosted)
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Policy validation (self-hosted)
   name: Lakera Policies API
   slug: lakera-policies-api
 artifact_total: 38
@@ -238,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera/refs/heads/main/screenshots/lakera-2026-06-20T184245.png
 security:

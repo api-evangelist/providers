@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: 'The Universal Commerce Protocol (UCP) shopping service Underdog serves from its own domain. A remote MCP endpoint that answers tools/list anonymously with 13 tools covering catalog search and lookup, '
@@ -162,7 +172,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -178,8 +188,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 31.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/underdog/refs/heads/main/screenshots/underdog-2026-09-02T164849.png
 security:
 - kind: domain-security
   name: Underdog Domain Security

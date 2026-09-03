@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -71,19 +71,29 @@ apis:
 - description: Kubernetes Ingress Controller implementation for NGINX and NGINX Plus providing load balancing, SSL/TLS termination, content-based routing, and advanced traffic management for containerized applicatio
   name: F5 NGINX Ingress Controller API
   slug: f5-nginx-ingress-controller-api
-- description: Manage nodes representing individual backend servers by IP address or FQDN.
+- baseURL: https://{{bigip_host}}/mgmt/tm
+  baseurl_source: declared
+  description: Manage nodes representing individual backend servers by IP address or FQDN.
   name: F5 Networks Nodes API
   slug: f5-networks-nodes-api
-- description: Manage individual members within a pool, including their health status, session state, and load balancing weight.
+- baseURL: https://{{bigip_host}}/mgmt/tm
+  baseurl_source: declared
+  description: Manage individual members within a pool, including their health status, session state, and load balancing weight.
   name: F5 Networks Pool Members API
   slug: f5-networks-pool-members-api
-- description: Manage pools of backend servers for load distribution and health monitoring.
+- baseURL: https://{{bigip_host}}/mgmt/tm
+  baseurl_source: declared
+  description: Manage pools of backend servers for load distribution and health monitoring.
   name: F5 Networks Pools API
   slug: f5-networks-pools-api
-- description: Manage profiles that define traffic handling behavior for virtual servers, including HTTP, TCP, UDP, client SSL, and persistence profiles.
+- baseURL: https://{{bigip_host}}/mgmt/tm
+  baseurl_source: declared
+  description: Manage profiles that define traffic handling behavior for virtual servers, including HTTP, TCP, UDP, client SSL, and persistence profiles.
   name: F5 Networks Profiles API
   slug: f5-networks-profiles-api
-- description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
+- baseURL: https://{{bigip_host}}/mgmt/tm
+  baseurl_source: declared
+  description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
   name: F5 Networks Virtual Servers API
   slug: f5-networks-virtual-servers-api
 artifact_total: 157
@@ -630,7 +640,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:

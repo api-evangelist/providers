@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: Next-generation REST API with OAuth 2.0 Client Credentials Grant authentication. Token endpoint POST /v2/auth/token returns access tokens used as Bearer credentials on subsequent calls.
   name: Personio Public API v2
   slug: public-api-v2
-- description: Manage absence periods.
+- baseURL: https://api.personio.de/v1
+  baseurl_source: declared
+  description: Manage absence periods.
   name: Personio Absence Periods API
   slug: personio-absence-periods-api
-- description: OAuth 2.0 token exchange.
+- baseURL: https://api.personio.de/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token exchange.
   name: Personio Auth API
   slug: personio-auth-api
-- description: Manage person (employee) records.
+- baseURL: https://api.personio.de/v1
+  baseurl_source: declared
+  description: Manage person (employee) records.
   name: Personio Persons API
   slug: personio-persons-api
-- description: Read project definitions.
+- baseURL: https://api.personio.de/v1
+  baseurl_source: declared
+  description: Read project definitions.
   name: Personio Projects API
   slug: personio-projects-api
-- description: Manage event webhook subscriptions.
+- baseURL: https://api.personio.de/v1
+  baseurl_source: declared
+  description: Manage event webhook subscriptions.
   name: Personio Webhooks API
   slug: personio-webhooks-api
 artifact_total: 17
@@ -169,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/personio/refs/heads/main/screenshots/personio-2026-06-20T191622.png
 security:

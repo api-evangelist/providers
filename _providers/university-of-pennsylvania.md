@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 68 operations · 30 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: 'One API, four student-facing products: Penn Course Alert (PCA), Penn Course Plan (PCP), Penn Course Review (PCR) and Penn Degree Plan (PDP), plus a shared Accounts resource. The live OpenAPI 3.0.2 doc'
+- baseURL: https://penncourseplan.com/api
+  baseurl_source: declared
+  description: 'One API, four student-facing products: Penn Course Alert (PCA), Penn Course Plan (PCP), Penn Course Review (PCR) and Penn Degree Plan (PDP), plus a shared Accounts resource. The live OpenAPI 3.0.2 doc'
   name: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan)
   slug: penn-courses
 - description: JSON API behind Penn Clubs, the student-organization directory that Penn's Office of Student Affairs adopted as its official student-group registration system. /api/clubs returned HTTP 200 JSON anonym
@@ -67,10 +69,14 @@ apis:
 - description: Penn Libraries' bulk open-data site publishing high-resolution manuscript images and TEI/XML descriptions in the public domain, laid out as a plainly-navigable directory tree (openn.library.upenn.edu/
   name: OPenn — Open Manuscript Data
   slug: openn
-- description: Bibliographic search and record retrieval.
+- baseURL: https://penncourseplan.com/api
+  baseurl_source: declared
+  description: Bibliographic search and record retrieval.
   name: University of Pennsylvania Catalog API
   slug: university-of-pennsylvania-catalog-api
-- description: The Request API from University of Pennsylvania — 1 operation(s) for request.
+- baseURL: https://penncourseplan.com/api
+  baseurl_source: declared
+  description: The Request API from University of Pennsylvania — 1 operation(s) for request.
   name: University of Pennsylvania Request API
   slug: university-of-pennsylvania-request-api
 artifact_total: 52
@@ -346,7 +352,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -356,7 +362,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 39.6
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,7 +378,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png
 security:

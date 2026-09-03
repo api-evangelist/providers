@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for Warmly's agent-tools surface — discover available tools, execute read tools (warm visitors, warm accounts, third-party intent signals, credit balance) and async write tools (push contacts
@@ -233,7 +233,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -243,13 +243,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 55.4
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warmly/refs/heads/main/screenshots/warmly-2026-08-17T082842.png
 security:

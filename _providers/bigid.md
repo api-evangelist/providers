@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 27 operations · 9 acting
 api_count: 3
 apis:
-- description: Authenticate against a BigID deployment using either username/password or a long-lived user token. Exchange a user token for a short-lived system token (JWT) used to authorize subsequent REST API call
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Authenticate against a BigID deployment using either username/password or a long-lived user token. Exchange a user token for a short-lived system token (JWT) used to authorize subsequent REST API call
   name: BigID Authentication API
   slug: bigid-authentication-api
-- description: Programmatically manage data source connections in BigID. List, create, test, and export data sources, and inspect the catalog of available connector templates (e.g. rdb-mysql, s3-v2, snowflake, share
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Programmatically manage data source connections in BigID. List, create, test, and export data sources, and inspect the catalog of available connector templates (e.g. rdb-mysql, s3-v2, snowflake, share
   name: BigID Data Sources API
   slug: bigid-data-sources-api
-- description: Configure and execute BigID scans. Create scan profiles to control which data sources are scanned and using which classifier template, then start and monitor scan executions and parent-scan rollups.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Configure and execute BigID scans. Create scan profiles to control which data sources are scanned and using which classifier template, then start and monitor scan executions and parent-scan rollups.
   name: BigID Scans API
   slug: bigid-scans-api
-- description: Run Data Subject Access Requests (DSARs) and retrieve the resulting reports. Inspect available DSAR profiles and identifier attributes, submit new DSAR scans, poll status, and download short or full r
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Run Data Subject Access Requests (DSARs) and retrieve the resulting reports. Inspect available DSAR profiles and identifier attributes, submit new DSAR scans, poll status, and download short or full r
   name: BigID DSAR API
   slug: bigid-dsar-api
-- description: DSPM cases and remediation.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: DSPM cases and remediation.
   name: BigID Actionable Insights API
   slug: bigid-actionable-insights-api
-- description: Browse catalog objects.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Browse catalog objects.
   name: BigID Catalog API
   slug: bigid-catalog-api
-- description: Cluster analysis operations.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Cluster analysis operations.
   name: BigID Clusters API
   slug: bigid-clusters-api
-- description: Inspect available connector templates.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Inspect available connector templates.
   name: BigID Connector Templates API
   slug: bigid-connector-templates-api
-- description: Export catalog metadata.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Export catalog metadata.
   name: BigID Metadata Export API
   slug: bigid-metadata-export-api
-- description: Configure recurring scan profiles.
+- baseURL: https://sandbox.bigid.tools/api/v1
+  baseurl_source: spec
+  description: Configure recurring scan profiles.
   name: BigID Scan Profiles API
   slug: bigid-scan-profiles-api
 artifact_total: 87
@@ -444,7 +464,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:

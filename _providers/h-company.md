@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -46,31 +46,49 @@ apis:
 - description: OpenAI-compatible inference API serving the Holo3 and Holo3.1 vision-language models for computer use — chat completions with structured outputs, reasoning, and image inputs, plus runtime model discov
   name: H Company Holo Models API
   slug: h-company-holo-models
-- description: The Agents API from H Company — 2 operation(s) for agents.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Agents API from H Company — 2 operation(s) for agents.
   name: H Company Agents API
   slug: h-company-agents-api
-- description: The Browser Profiles API from H Company — 6 operation(s) for browser profiles.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Browser Profiles API from H Company — 6 operation(s) for browser profiles.
   name: H Company Browser Profiles API
   slug: h-company-browser-profiles-api
-- description: The Environments API from H Company — 2 operation(s) for environments.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Environments API from H Company — 2 operation(s) for environments.
   name: H Company Environments API
   slug: h-company-environments-api
-- description: The quota API from H Company — 1 operation(s) for quota.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The quota API from H Company — 1 operation(s) for quota.
   name: H Company quota API
   slug: h-company-quota-api
-- description: The Schedules API from H Company — 6 operation(s) for schedules.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Schedules API from H Company — 6 operation(s) for schedules.
   name: H Company Schedules API
   slug: h-company-schedules-api
-- description: The Sessions API from H Company — 15 operation(s) for sessions.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Sessions API from H Company — 15 operation(s) for sessions.
   name: H Company Sessions API
   slug: h-company-sessions-api
-- description: The Skills API from H Company — 2 operation(s) for skills.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Skills API from H Company — 2 operation(s) for skills.
   name: H Company Skills API
   slug: h-company-skills-api
-- description: The Vaults API from H Company — 4 operation(s) for vaults.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Vaults API from H Company — 4 operation(s) for vaults.
   name: H Company Vaults API
   slug: h-company-vaults-api
-- description: The Webhooks API from H Company — 5 operation(s) for webhooks.
+- baseURL: https://agp.eu.hcompany.ai/api/v2
+  baseurl_source: declared
+  description: The Webhooks API from H Company — 5 operation(s) for webhooks.
   name: H Company Webhooks API
   slug: h-company-webhooks-api
 artifact_total: 25
@@ -262,7 +280,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -272,7 +290,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,7 +302,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -35,16 +47,24 @@ apis:
 - description: A read-only REST API on the Calico Cloud SaaS management plane that returns the same vCPU usage and managed-cluster data shown on the Usage Metrics page, for capacity planning, FinOps and license-comp
   name: Calico Cloud Usage API
   slug: calico-cloud-usage-api
-- description: The apis API from Tigera — 1 operation(s) for apis.
+- baseURL: https://kubernetes.default.svc/apis/projectcalico.org/v3
+  baseurl_source: declared
+  description: The apis API from Tigera — 1 operation(s) for apis.
   name: Tigera APIS API
   slug: tigera-apis-api
-- description: The projectcalicoOrg API from Tigera — 1 operation(s) for projectcalicoorg.
+- baseURL: https://kubernetes.default.svc/apis/projectcalico.org/v3
+  baseurl_source: declared
+  description: The projectcalicoOrg API from Tigera — 1 operation(s) for projectcalicoorg.
   name: Tigera Projectcalico Org API
   slug: tigera-projectcalicoorg-api
-- description: The projectcalicoOrg_v3 API from Tigera — 121 operation(s) for projectcalicoorg_v3.
+- baseURL: https://kubernetes.default.svc/apis/projectcalico.org/v3
+  baseurl_source: declared
+  description: The projectcalicoOrg_v3 API from Tigera — 121 operation(s) for projectcalicoorg_v3.
   name: Tigera Projectcalico Org V3 API
   slug: tigera-projectcalicoorg-v3-api
-- description: The version API from Tigera — 1 operation(s) for version.
+- baseURL: https://kubernetes.default.svc/apis/projectcalico.org/v3
+  baseurl_source: declared
+  description: The version API from Tigera — 1 operation(s) for version.
   name: Tigera Version API
   slug: tigera-version-api
 artifact_total: 19
@@ -290,7 +310,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -303,7 +323,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 51.8
+  previous_composite: 51.7
   provenance:
     conformance: derived
     contracts:
@@ -314,7 +334,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/screenshots/tigera-2026-08-17T082354.png
 security:

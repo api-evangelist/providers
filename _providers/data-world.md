@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -65,94 +65,154 @@ apis:
 - description: Ask natural language questions against structured data and receive answers. Enables AI-powered data exploration within the catalog.
   name: data.world Answer API
   slug: dataworld-answer-api
-- description: Manage relationships between catalog resources
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: Manage relationships between catalog resources
   name: data.world catalog relationships API
   slug: data-world-catalog-relationships-api
-- description: The catalog resources API from data.world — 7 operation(s) for catalog resources.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The catalog resources API from data.world — 7 operation(s) for catalog resources.
   name: data.world catalog resources API
   slug: data-world-catalog-resources-api
-- description: The connections API from data.world — 3 operation(s) for connections.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The connections API from data.world — 3 operation(s) for connections.
   name: data.world connections API
   slug: data-world-connections-api
-- description: Manage data quality of metadata resources
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: Manage data quality of metadata resources
   name: data.world data quality API
   slug: data-world-data-quality-api
-- description: The datasets API from data.world — 5 operation(s) for datasets.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The datasets API from data.world — 5 operation(s) for datasets.
   name: data.world datasets API
   slug: data-world-datasets-api
-- description: The DOIs API from data.world — 2 operation(s) for dois.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The DOIs API from data.world — 2 operation(s) for dois.
   name: data.world DOIs API
   slug: data-world-dois-api
-- description: This API is in active development. Its definition may change frequently and without notice.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: This API is in active development. Its definition may change frequently and without notice.
   name: data.world experimental API
   slug: data-world-experimental-api
-- description: The files API from data.world — 7 operation(s) for files.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The files API from data.world — 7 operation(s) for files.
   name: data.world files API
   slug: data-world-files-api
-- description: The insights API from data.world — 3 operation(s) for insights.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The insights API from data.world — 3 operation(s) for insights.
   name: data.world insights API
   slug: data-world-insights-api
-- description: The instance admin API from data.world — 3 operation(s) for instance admin.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The instance admin API from data.world — 3 operation(s) for instance admin.
   name: data.world instance admin API
   slug: data-world-instance-admin-api
-- description: The legacy catalog - analysis API from data.world — 3 operation(s) for legacy catalog - analysis.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The legacy catalog - analysis API from data.world — 3 operation(s) for legacy catalog - analysis.
   name: data.world legacy catalog - analysis API
   slug: data-world-legacy-catalog-analysis-api
-- description: The legacy catalog - collections API from data.world — 2 operation(s) for legacy catalog - collections.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The legacy catalog - collections API from data.world — 2 operation(s) for legacy catalog - collections.
   name: data.world legacy catalog - collections API
   slug: data-world-legacy-catalog-collections-api
-- description: The legacy catalog - data API from data.world — 8 operation(s) for legacy catalog - data.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The legacy catalog - data API from data.world — 8 operation(s) for legacy catalog - data.
   name: data.world legacy catalog - data API
   slug: data-world-legacy-catalog-data-api
-- description: The legacy catalog - glossary API from data.world — 3 operation(s) for legacy catalog - glossary.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The legacy catalog - glossary API from data.world — 3 operation(s) for legacy catalog - glossary.
   name: data.world legacy catalog - glossary API
   slug: data-world-legacy-catalog-glossary-api
-- description: The legacy catalog - properties API from data.world — 1 operation(s) for legacy catalog - properties.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The legacy catalog - properties API from data.world — 1 operation(s) for legacy catalog - properties.
   name: data.world legacy catalog - properties API
   slug: data-world-legacy-catalog-properties-api
-- description: The legacy catalog - relationships API from data.world — 4 operation(s) for legacy catalog - relationships.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The legacy catalog - relationships API from data.world — 4 operation(s) for legacy catalog - relationships.
   name: data.world legacy catalog - relationships API
   slug: data-world-legacy-catalog-relationships-api
-- description: The organizations API from data.world — 2 operation(s) for organizations.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The organizations API from data.world — 2 operation(s) for organizations.
   name: data.world organizations API
   slug: data-world-organizations-api
-- description: The projects API from data.world — 4 operation(s) for projects.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The projects API from data.world — 4 operation(s) for projects.
   name: data.world projects API
   slug: data-world-projects-api
-- description: The queries API from data.world — 14 operation(s) for queries.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The queries API from data.world — 14 operation(s) for queries.
   name: data.world queries API
   slug: data-world-queries-api
-- description: Manage authorization requests
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: Manage authorization requests
   name: data.world requests - authorization API
   slug: data-world-requests-authorization-api
-- description: Manage resource requests
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: Manage resource requests
   name: data.world requests - resource API
   slug: data-world-requests-resource-api
-- description: The search API from data.world — 2 operation(s) for search.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The search API from data.world — 2 operation(s) for search.
   name: data.world search API
   slug: data-world-search-api
-- description: The serviceaccount API from data.world — 3 operation(s) for serviceaccount.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The serviceaccount API from data.world — 3 operation(s) for serviceaccount.
   name: data.world serviceaccount API
   slug: data-world-serviceaccount-api
-- description: The streams API from data.world — 3 operation(s) for streams.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The streams API from data.world — 3 operation(s) for streams.
   name: data.world streams API
   slug: data-world-streams-api
-- description: The tables API from data.world — 1 operation(s) for tables.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The tables API from data.world — 1 operation(s) for tables.
   name: data.world tables API
   slug: data-world-tables-api
-- description: The telemetry API from data.world — 1 operation(s) for telemetry.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The telemetry API from data.world — 1 operation(s) for telemetry.
   name: data.world telemetry API
   slug: data-world-telemetry-api
-- description: The topics and comments - resource API from data.world — 7 operation(s) for topics and comments - resource.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The topics and comments - resource API from data.world — 7 operation(s) for topics and comments - resource.
   name: data.world topics and comments - resource API
   slug: data-world-topics-and-comments-resource-api
-- description: The user API from data.world — 8 operation(s) for user.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The user API from data.world — 8 operation(s) for user.
   name: data.world user API
   slug: data-world-user-api
-- description: The users API from data.world — 1 operation(s) for users.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The users API from data.world — 1 operation(s) for users.
   name: data.world users API
   slug: data-world-users-api
-- description: The webhooks API from data.world — 4 operation(s) for webhooks.
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The webhooks API from data.world — 4 operation(s) for webhooks.
   name: data.world webhooks API
   slug: data-world-webhooks-api
 artifact_total: 80
@@ -395,7 +455,7 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -405,7 +465,7 @@ score:
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 52.6
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -420,7 +480,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-world/refs/heads/main/screenshots/data-world-2026-06-20T175628.png
 security:

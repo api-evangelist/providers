@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 48 operations · 22 acting
 api_count: 1
 apis:
-- description: Invoices and charges.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Invoices and charges.
   name: Gingr Invoices API
   slug: gingr-invoices-api
-- description: Owner/client ("parent") records.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Owner/client ("parent") records.
   name: Gingr Owners API
   slug: gingr-owners-api
-- description: Charging and refunding cards on file, invoices, and deposits.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Charging and refunding cards on file, invoices, and deposits.
   name: Gingr Payments API
   slug: gingr-payments-api
-- description: Pet profiles belonging to an owner.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Pet profiles belonging to an owner.
   name: Gingr Pets API
   slug: gingr-pets-api
-- description: Daily activity report cards generated for a pet's stay.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Daily activity report cards generated for a pet's stay.
   name: Gingr Report Cards API
   slug: gingr-report-cards-api
-- description: Bookings/reservations for daycare, boarding, training, and grooming.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Bookings/reservations for daycare, boarding, training, and grooming.
   name: Gingr Reservations API
   slug: gingr-reservations-api
-- description: Service catalog and facility configuration.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Service catalog and facility configuration.
   name: Gingr Services API
   slug: gingr-services-api
-- description: Pet immunization/vaccination records.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Pet immunization/vaccination records.
   name: Gingr Vaccinations API
   slug: gingr-vaccinations-api
-- description: Managing bookings that are on the facility waitlist.
+- baseURL: https://api.gingr.io/v1
+  baseurl_source: declared
+  description: Managing bookings that are on the facility waitlist.
   name: Gingr Waitlist API
   slug: gingr-waitlist-api
 artifact_total: 26
@@ -205,7 +223,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/screenshots/gingr-2026-07-25T215825.png
 security:

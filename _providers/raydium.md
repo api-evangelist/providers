@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: Raydium's swap, AMM, CLMM, farm, and launchpad programs deployed on Solana.
   name: Raydium Solana Programs
   slug: smart-contracts
-- description: The Farms API from Raydium — 3 operation(s) for farms.
+- baseURL: https://api-v3.raydium.io
+  baseurl_source: declared
+  description: The Farms API from Raydium — 3 operation(s) for farms.
   name: Raydium Farms API
   slug: raydium-farms-api
-- description: The Main API from Raydium — 11 operation(s) for main.
+- baseURL: https://api-v3.raydium.io
+  baseurl_source: declared
+  description: The Main API from Raydium — 11 operation(s) for main.
   name: Raydium Main API
   slug: raydium-main-api
-- description: The Mint API from Raydium — 3 operation(s) for mint.
+- baseURL: https://api-v3.raydium.io
+  baseurl_source: declared
+  description: The Mint API from Raydium — 3 operation(s) for mint.
   name: Raydium Mint API
   slug: raydium-mint-api
-- description: The Pools API from Raydium — 6 operation(s) for pools.
+- baseURL: https://api-v3.raydium.io
+  baseurl_source: declared
+  description: The Pools API from Raydium — 6 operation(s) for pools.
   name: Raydium Pools API
   slug: raydium-pools-api
 artifact_total: 18
@@ -178,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/screenshots/raydium-2026-06-20T192619.png
 security:

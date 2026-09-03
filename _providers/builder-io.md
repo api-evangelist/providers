@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 6
 apis:
-- description: 'REST API for retrieving published content from Builder.io models. Supports filtering via MongoDB-style queries, targeting by user attributes, locale, and URL path. Returns paginated JSON results with '
+- baseURL: https://cdn.builder.io/api/v3/content
+  baseurl_source: declared
+  description: 'REST API for retrieving published content from Builder.io models. Supports filtering via MongoDB-style queries, targeting by user attributes, locale, and URL path. Returns paginated JSON results with '
   name: Builder.io Content API
   slug: content-api
 - description: GraphQL API for querying Builder.io content models with type-safe schemas. Supports GET and POST requests, model-level queries with pagination, and targeting via user attributes. The interactive Graph
@@ -222,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/builder-io/refs/heads/main/screenshots/builder-io-2026-06-20T173746.png
 security:

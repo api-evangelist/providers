@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -52,19 +52,29 @@ apis:
 - description: REST API for managing apps, members, and repository metadata in the Mendix platform. Uses PAT or Mendix API key authentication.
   name: Mendix App Repository API
   slug: app-repository-api
-- description: The Apps API from Mendix — 2 operation(s) for apps.
+- baseURL: https://deploy.mendix.com/api/1
+  baseurl_source: declared
+  description: The Apps API from Mendix — 2 operation(s) for apps.
   name: Mendix Apps API
   slug: mendix-apps-api
-- description: The Environments API from Mendix — 8 operation(s) for environments.
+- baseURL: https://deploy.mendix.com/api/1
+  baseurl_source: declared
+  description: The Environments API from Mendix — 8 operation(s) for environments.
   name: Mendix Environments API
   slug: mendix-environments-api
-- description: The Logs API from Mendix — 2 operation(s) for logs.
+- baseURL: https://deploy.mendix.com/api/1
+  baseurl_source: declared
+  description: The Logs API from Mendix — 2 operation(s) for logs.
   name: Mendix Logs API
   slug: mendix-logs-api
-- description: The Packages API from Mendix — 3 operation(s) for packages.
+- baseURL: https://deploy.mendix.com/api/1
+  baseurl_source: declared
+  description: The Packages API from Mendix — 3 operation(s) for packages.
   name: Mendix Packages API
   slug: mendix-packages-api
-- description: The Tags API from Mendix — 1 operation(s) for tags.
+- baseURL: https://deploy.mendix.com/api/1
+  baseurl_source: declared
+  description: The Tags API from Mendix — 1 operation(s) for tags.
   name: Mendix Tags API
   slug: mendix-tags-api
 artifact_total: 19
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/screenshots/mendix-2026-06-20T185144.png
 security:

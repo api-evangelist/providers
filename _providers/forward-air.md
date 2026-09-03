@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Forward Air API provides access to platform services and data for enterprise integration and automation.
@@ -95,7 +95,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forward-air/refs/heads/main/screenshots/forward-air-2026-06-20T181450.png
 security:

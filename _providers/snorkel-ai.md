@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Snorkel Flow Python SDK (snorkelflow) drives the platform programmatically, connecting to a customer's Snorkel Flow instance via SnorkelFlowContext and an API key. The snorkelflow.client module wr
+- baseURL_template: https://{snorkelHostname}
+  baseurl_source: spec_template
+  description: The Snorkel Flow Python SDK (snorkelflow) drives the platform programmatically, connecting to a customer's Snorkel Flow instance via SnorkelFlowContext and an API key. The snorkelflow.client module wr
   name: Snorkel Flow SDK / Platform
   slug: snorkel-flow-sdk-platform
-- description: SDK surface (snorkelflow.studio, snorkelflow.lfs, snorkelflow.operators, snorkelflow.templates) for authoring code-based and template-based labeling functions, transformation and slicing functions, an
+- baseURL_template: https://{snorkelHostname}
+  baseurl_source: spec_template
+  description: SDK surface (snorkelflow.studio, snorkelflow.lfs, snorkelflow.operators, snorkelflow.templates) for authoring code-based and template-based labeling functions, transformation and slicing functions, an
   name: Programmatic Labeling
   slug: programmatic-labeling
-- description: Platform and SDK capabilities for assessing model performance across data splits, running error and slice analysis, and building expert-curated benchmarks. Largely delivered in-platform and through th
+- baseURL_template: https://{snorkelHostname}
+  baseurl_source: spec_template
+  description: Platform and SDK capabilities for assessing model performance across data splits, running error and slice analysis, and building expert-curated benchmarks. Largely delivered in-platform and through th
   name: Evaluation
   slug: evaluation
 - description: The free, open-source snorkel Python library (Apache-2.0) for programmatically building and managing training data with weak supervision - labeling functions, the LabelModel, transformation functions,
@@ -135,7 +141,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -151,8 +157,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 34.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/screenshots/snorkel-ai-2026-09-02T160025.png
 security:
 - kind: authentication
   name: Snorkel Ai Authentication

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,97 +36,155 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 27
 apis:
 - description: 'First-party open-source Model Context Protocol server for Catalyst Center, published by Cisco under Apache-2.0 at cisco-en-programmability/catc-mcp-oss. It is self-hosted: the operator builds the Dock'
   name: Cisco Catalyst Center MCP Server
   slug: cisco-catalyst-center-mcp-server
-- description: Operations related to Catalyst Center - Assurance Network Services
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Assurance Network Services
   name: Cisco Catalyst Center AAA Services API
   slug: cisco-catalyst-center-aaa-services-api
-- description: Operations related to application health score definitions.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to application health score definitions.
   name: Cisco Catalyst Center Application Health Score Definitions API
   slug: cisco-catalyst-center-applicationhealthscoredefinitions-api
-- description: APIs related to assurance events
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: APIs related to assurance events
   name: Cisco Catalyst Center Assurance Events API
   slug: cisco-catalyst-center-assuranceevents-api
-- description: Operations related to retrieving information regarding assurance tasks
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to retrieving information regarding assurance tasks
   name: Cisco Catalyst Center Assurance Tasks API
   slug: cisco-catalyst-center-assurancetasks-api
-- description: Operations related to Catalyst Center - Assurance Network Clients
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Assurance Network Clients
   name: Cisco Catalyst Center Clients API
   slug: cisco-catalyst-center-clients-api
-- description: Assurance Custom issue definition API documentation
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Assurance Custom issue definition API documentation
   name: Cisco Catalyst Center Custom Issue Definitions API
   slug: cisco-catalyst-center-customissuedefinitions-api
-- description: Operations related to Catalyst Center - Assurance Network Services
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Assurance Network Services
   name: Cisco Catalyst Center DHCP Services API
   slug: cisco-catalyst-center-dhcp-services-api
-- description: APIs to deploy ICAP configurations without previewing the intents.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: APIs to deploy ICAP configurations without previewing the intents.
   name: Cisco Catalyst Center Direct Deploy API
   slug: cisco-catalyst-center-direct-deploy-api
-- description: Operations related to Catalyst Center - Assurance Network Services
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Assurance Network Services
   name: Cisco Catalyst Center DNS Services API
   slug: cisco-catalyst-center-dns-services-api
-- description: Operations related to retrieving overall energy information for Catalyst Center Devices
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to retrieving overall energy information for Catalyst Center Devices
   name: Cisco Catalyst Center Energy API
   slug: cisco-catalyst-center-energy-api
-- description: The fabricSiteHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for fabricsitehealthsummaries.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The fabricSiteHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for fabricsitehealthsummaries.
   name: Cisco Catalyst Center Fabric Site Health Summaries API
   slug: cisco-catalyst-center-fabricsitehealthsummaries-api
-- description: The fabricSummary API from Cisco Catalyst Center — 1 operation(s) for fabricsummary.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The fabricSummary API from Cisco Catalyst Center — 1 operation(s) for fabricsummary.
   name: Cisco Catalyst Center Fabric Summary API
   slug: cisco-catalyst-center-fabricsummary-api
-- description: The filterGroupAssociations API from Cisco Catalyst Center — 2 operation(s) for filtergroupassociations.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The filterGroupAssociations API from Cisco Catalyst Center — 2 operation(s) for filtergroupassociations.
   name: Cisco Catalyst Center Filter Group Associations API
   slug: cisco-catalyst-center-filtergroupassociations-api
-- description: Filter Group is a collection of predefined filters. When this Filter Group is associated with an entity, those filters are applied on that entity.This APIs under `filterGroups` section are used to cre
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Filter Group is a collection of predefined filters. When this Filter Group is associated with an entity, those filters are applied on that entity.This APIs under `filterGroups` section are used to cre
   name: Cisco Catalyst Center Filter Groups API
   slug: cisco-catalyst-center-filtergroups-api
-- description: Operations related to Catalyst Center - Assurance Intelligent Capture
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Assurance Intelligent Capture
   name: Cisco Catalyst Center Icap API
   slug: cisco-catalyst-center-icap-api
-- description: The interfaceList API from Cisco Catalyst Center — 6 operation(s) for interfacelist.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The interfaceList API from Cisco Catalyst Center — 6 operation(s) for interfacelist.
   name: Cisco Catalyst Center Interface List API
   slug: cisco-catalyst-center-interfacelist-api
-- description: Operations related to Catalyst Center - Assurance Issues
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Assurance Issues
   name: Cisco Catalyst Center Issues API
   slug: cisco-catalyst-center-issues-api
-- description: Operations related to Catalyst Center - Appx Network Applications
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Appx Network Applications
   name: Cisco Catalyst Center Network Applications API
   slug: cisco-catalyst-center-networkapplications-api
-- description: Operations related to Catalyst Center - Gets the Network Device details
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Gets the Network Device details
   name: Cisco Catalyst Center Network Devices API
   slug: cisco-catalyst-center-networkdevices-api
-- description: APIs to preview, approve, and cancel (discard) ICAP provisioning intents.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: APIs to preview, approve, and cancel (discard) ICAP provisioning intents.
   name: Cisco Catalyst Center Preview Deploy API
   slug: cisco-catalyst-center-preview-deploy-api
-- description: APIs to retrieve the resources that were previewed or deployed.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: APIs to retrieve the resources that were previewed or deployed.
   name: Cisco Catalyst Center Resource API
   slug: cisco-catalyst-center-resource-api
-- description: The siteAnalytics API from Cisco Catalyst Center — 8 operation(s) for siteanalytics.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The siteAnalytics API from Cisco Catalyst Center — 8 operation(s) for siteanalytics.
   name: Cisco Catalyst Center Site Analytics API
   slug: cisco-catalyst-center-siteanalytics-api
-- description: Operations related to retrieving overall health information for Catalyst Center Sites
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to retrieving overall health information for Catalyst Center Sites
   name: Cisco Catalyst Center Site Health Summaries API
   slug: cisco-catalyst-center-sitehealthsummaries-api
-- description: APIs to check the status of ICAP deployment operation.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: APIs to check the status of ICAP deployment operation.
   name: Cisco Catalyst Center Status API
   slug: cisco-catalyst-center-status-api
-- description: Operations related to system issue trigger definitions and health score definitions.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to system issue trigger definitions and health score definitions.
   name: Cisco Catalyst Center System Issue And Health Score Definitions API
   slug: cisco-catalyst-center-systemissueandhealthscoredefinitions-api
-- description: Operations related to path traces for ThousandEyes test results
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to path traces for ThousandEyes test results
   name: Cisco Catalyst Center Thousand Eyes Path Trace API
   slug: cisco-catalyst-center-thousandeyespathtrace-api
-- description: Operations related to ThousandEyes test results
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: Operations related to ThousandEyes test results
   name: Cisco Catalyst Center Thousand Eyes Test Results API
   slug: cisco-catalyst-center-thousandeyestestresults-api
-- description: The transitNetworkHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for transitnetworkhealthsummaries.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The transitNetworkHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for transitnetworkhealthsummaries.
   name: Cisco Catalyst Center Transit Network Health Summaries API
   slug: cisco-catalyst-center-transitnetworkhealthsummaries-api
-- description: The virtualNetworkHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for virtualnetworkhealthsummaries.
+- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
+  baseurl_source: declared
+  description: The virtualNetworkHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for virtualnetworkhealthsummaries.
   name: Cisco Catalyst Center Virtual Network Health Summaries API
   slug: cisco-catalyst-center-virtualnetworkhealthsummaries-api
 artifact_total: 38
@@ -448,23 +519,23 @@ rate_limits:
   slug: cisco-catalyst-center-rate-limits
 score:
   band: strong
-  composite: 64.0
+  composite: 64.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 62.6
+    contract_quality: 63.0
     developer_ergonomics: 73.2
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 64.2
+  previous_composite: 64.0
   provenance:
     conformance: derived
     contracts:
@@ -481,8 +552,9 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-catalyst-center/refs/heads/main/screenshots/cisco-catalyst-center-2026-09-02T145042.png
 security:
 - kind: authentication
   name: Cisco Catalyst Center Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 13 operations · 11 acting
 api_count: 1
 apis:
-- description: Analyze emotion, demographics and attention in images and video.
+- baseURL: https://api.kairos.com
+  baseurl_source: declared
+  description: Analyze emotion, demographics and attention in images and video.
   name: Kairos AR Emotion Analysis API
   slug: kairos-ar-emotion-analysis-api
-- description: Detect, enroll, verify and recognize faces in photos against galleries.
+- baseURL: https://api.kairos.com
+  baseurl_source: declared
+  description: Detect, enroll, verify and recognize faces in photos against galleries.
   name: Kairos AR Face Recognition API
   slug: kairos-ar-face-recognition-api
-- description: Manage galleries and the subjects/face templates enrolled in them.
+- baseURL: https://api.kairos.com
+  baseurl_source: declared
+  description: Manage galleries and the subjects/face templates enrolled in them.
   name: Kairos AR Galleries API
   slug: kairos-ar-galleries-api
 artifact_total: 11
@@ -214,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kairos-ar/refs/heads/main/screenshots/kairos-ar-2026-08-17T123941.png
 security:

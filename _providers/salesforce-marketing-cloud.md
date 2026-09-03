@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -86,13 +86,19 @@ apis:
 - description: API for registering callbacks and subscriptions to receive real-time event notifications from Marketing Cloud.
   name: Event Notification Service API
   slug: event-notification-service-api
-- description: Manage marketing assets including images, documents, content blocks, and templates. The Asset API provides CRUD operations for all content types stored in Content Builder.
+- baseURL: https://YOUR_SUBDOMAIN.rest.marketingcloudapis.com
+  baseurl_source: declared
+  description: Manage marketing assets including images, documents, content blocks, and templates. The Asset API provides CRUD operations for all content types stored in Content Builder.
   name: Salesforce Marketing Cloud Assets API
   slug: salesforce-marketing-cloud-assets-api
-- description: Create, retrieve, update, and delete contacts in Marketing Cloud. Contacts represent individuals who interact with your marketing campaigns across channels.
+- baseURL: https://YOUR_SUBDOMAIN.rest.marketingcloudapis.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete contacts in Marketing Cloud. Contacts represent individuals who interact with your marketing campaigns across channels.
   name: Salesforce Marketing Cloud Contacts API
   slug: salesforce-marketing-cloud-contacts-api
-- description: Create, manage, and automate customer journeys across multiple channels and touchpoints. Journeys define the automated workflows that guide customers through marketing interactions.
+- baseURL: https://YOUR_SUBDOMAIN.rest.marketingcloudapis.com
+  baseurl_source: declared
+  description: Create, manage, and automate customer journeys across multiple channels and touchpoints. Journeys define the automated workflows that guide customers through marketing interactions.
   name: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
 artifact_total: 170
@@ -769,7 +775,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -782,7 +788,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 78.4
+  previous_composite: 77.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -800,7 +806,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

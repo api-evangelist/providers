@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,40 +38,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: An interview or a meeting with a Candidate or Contact.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: An interview or a meeting with a Candidate or Contact.
   name: Sense Talent Labs Appointment API
   slug: sense-talent-labs-appointment-api
-- description: Authenticate using client credentials to obtain a Bearer access_token.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: Authenticate using client credentials to obtain a Bearer access_token.
   name: Sense Talent Labs Authentication API
   slug: sense-talent-labs-authentication-api
-- description: A person seeking a job.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A person seeking a job.
   name: Sense Talent Labs Candidate API
   slug: sense-talent-labs-candidate-api
-- description: The credential and or certificate of Candidate, or as required by a Job.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: The credential and or certificate of Candidate, or as required by a Job.
   name: Sense Talent Labs Certification API
   slug: sense-talent-labs-certification-api
-- description: A contact person at a Company.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A contact person at a Company.
   name: Sense Talent Labs Client Contact API
   slug: sense-talent-labs-clientcontact-api
-- description: A company that is a client of your organization.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A company that is a client of your organization.
   name: Sense Talent Labs Company API
   slug: sense-talent-labs-company-api
-- description: An internal person at your organization.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: An internal person at your organization.
   name: Sense Talent Labs Internal User API
   slug: sense-talent-labs-internaluser-api
-- description: A job to be filled by a Candidate.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A job to be filled by a Candidate.
   name: Sense Talent Labs Job Order API
   slug: sense-talent-labs-joborder-api
-- description: A new prospective client or contact
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A new prospective client or contact
   name: Sense Talent Labs Lead API
   slug: sense-talent-labs-lead-api
-- description: A job that has been filled by a Candidate.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A job that has been filled by a Candidate.
   name: Sense Talent Labs Placement API
   slug: sense-talent-labs-placement-api
-- description: Sending a Candidate’s info for additional review.
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: Sending a Candidate’s info for additional review.
   name: Sense Talent Labs Submission API
   slug: sense-talent-labs-submission-api
 artifact_total: 19
@@ -226,11 +263,11 @@ score:
   band: strong
   composite: 59.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -240,7 +277,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 58.5
+  previous_composite: 59.2
   provenance:
     conformance: derived
     contracts:
@@ -251,8 +288,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sense-talent-labs/refs/heads/main/screenshots/sense-talent-labs-2026-09-02T154856.png
 security:
 - kind: authentication
   name: Sense Talent Labs Authentication

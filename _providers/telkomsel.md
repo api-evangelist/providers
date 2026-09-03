@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 27 operations · 25 acting
 api_count: 1
 apis:
-- description: Register customer consent required by subscriber-data products.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: Register customer consent required by subscriber-data products.
   name: Telkomsel Consent Management API
   slug: telkomsel-consent-management-api
-- description: NIK/MSISDN pairing, KTP matching, and general ID verification against SIM-registration data.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: NIK/MSISDN pairing, KTP matching, and general ID verification against SIM-registration data.
   name: Telkomsel Identity Verification API
   slug: telkomsel-identity-verification-api
-- description: Location verification scoring and last known location.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: Location verification scoring and last known location.
   name: Telkomsel Location API
   slug: telkomsel-location-api
-- description: Telco-data scores - tScore, generic telco score, SES, interest, lifestyle, loyalist.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: Telco-data scores - tScore, generic telco score, SES, interest, lifestyle, loyalist.
   name: Telkomsel Scoring and Insights API
   slug: telkomsel-scoring-and-insights-api
-- description: SIM swap detection - marketplace SIM Swap v2 and the CAMARA-style /sim-swap/v0 API with CIBA auth.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: SIM swap detection - marketplace SIM Swap v2 and the CAMARA-style /sim-swap/v0 API with CIBA auth.
   name: Telkomsel SIM Swap API
   slug: telkomsel-sim-swap-api
-- description: Application-to-person SMS - regular and premium sends plus delivery-status polling.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: Application-to-person SMS - regular and premium sends plus delivery-status polling.
   name: Telkomsel SMS API
   slug: telkomsel-sms-api
-- description: MSISDN state - active status, subscriber type, roaming, call forwarding, recycled numbers.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: MSISDN state - active status, subscriber type, roaming, call forwarding, recycled numbers.
   name: Telkomsel Subscriber Check API
   slug: telkomsel-subscriber-check-api
-- description: USSD broadcast messaging and delivery status.
+- baseURL: https://api.digitalcore.telkomsel.com
+  baseurl_source: declared
+  description: USSD broadcast messaging and delivery status.
   name: Telkomsel USSD API
   slug: telkomsel-ussd-api
 artifact_total: 23
@@ -171,7 +187,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +216,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/telkomsel/refs/heads/main/screenshots/telkomsel-2026-09-02T162747.png
 security:
 - kind: authentication
   name: Telkomsel Authentication

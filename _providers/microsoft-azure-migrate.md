@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,10 +65,14 @@ apis:
 - description: Replicate workloads running on physical and virtual machines from a primary site to a secondary location for disaster recovery and migration. Manages recovery vaults, replication policies, protected i
   name: Azure Site Recovery API
   slug: azure-site-recovery-api
-- description: Operations operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations operations
   name: Azure Migrate Operations API
   slug: microsoft-azure-migrate-operations-api
-- description: Projects operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Projects operations
   name: Azure Migrate Projects API
   slug: microsoft-azure-migrate-projects-api
 artifact_total: 20
@@ -227,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/screenshots/microsoft-azure-migrate-2026-06-20T185423.png
 security:

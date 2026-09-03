@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: The Entities API from Eventuate — 2 operation(s) for entities.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Entities API from Eventuate — 2 operation(s) for entities.
   name: Eventuate Entities API
   slug: eventuate-entities-api
-- description: The Events API from Eventuate — 1 operation(s) for events.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Events API from Eventuate — 1 operation(s) for events.
   name: Eventuate Events API
   slug: eventuate-events-api
-- description: The Subscriptions API from Eventuate — 4 operation(s) for subscriptions.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Subscriptions API from Eventuate — 4 operation(s) for subscriptions.
   name: Eventuate Subscriptions API
   slug: eventuate-subscriptions-api
-- description: The System API from Eventuate — 1 operation(s) for system.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The System API from Eventuate — 1 operation(s) for system.
   name: Eventuate System API
   slug: eventuate-system-api
 artifact_total: 15
@@ -156,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/screenshots/eventuate-2026-06-20T180901.png
 security:

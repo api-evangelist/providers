@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 16 operations · 12 acting
 api_count: 1
 apis:
-- description: Getpaid accounts created for sellers so they can start accepting payments and receiving payouts.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: Getpaid accounts created for sellers so they can start accepting payments and receiving payouts.
   name: GetPaid Accounts API
   slug: getpaid-accounts-api
-- description: Onboarding applications to collect the necessary information from sellers to create their Getpaid accounts and start accepting payments.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: Onboarding applications to collect the necessary information from sellers to create their Getpaid accounts and start accepting payments.
   name: GetPaid Applications API
   slug: getpaid-applications-api
-- description: <!-- markdownlint-disable link-fragments --> In order to authenticate with Getpaid API you need to request an OAuth 2.0 access token using your client ID and secret by calling the [Request access toke
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: <!-- markdownlint-disable link-fragments --> In order to authenticate with Getpaid API you need to request an OAuth 2.0 access token using your client ID and secret by calling the [Request access toke
   name: GetPaid Authentication API
   slug: getpaid-authentication-api
-- description: Payment checkout sessions for one-time payments that the buyer can complete using Getpaid hosted checkout.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: Payment checkout sessions for one-time payments that the buyer can complete using Getpaid hosted checkout.
   name: GetPaid Checkouts API
   slug: getpaid-checkouts-api
-- description: Create and manage payments initiated by the platform on behalf of the buyer. For recurring and unscheduled payments based on a previous standing instruction.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: Create and manage payments initiated by the platform on behalf of the buyer. For recurring and unscheduled payments based on a previous standing instruction.
   name: GetPaid Payments API
   slug: getpaid-payments-api
-- description: List resources filtering and sorting them as needed.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: List resources filtering and sorting them as needed.
   name: GetPaid Queries API
   slug: getpaid-queries-api
-- description: Webhooks related to accepting payment events.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: Webhooks related to accepting payment events.
   name: GetPaid Accept payments webhooks API
   slug: getpaid-accept-payments-webhooks-api
-- description: Webhooks related to onboarding and accounts events.
+- baseURL: https://api.getpaid.io
+  baseurl_source: declared
+  description: Webhooks related to onboarding and accounts events.
   name: GetPaid Onboard sellers webhooks API
   slug: getpaid-onboard-sellers-webhooks-api
 artifact_total: 21
@@ -236,7 +252,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -246,7 +262,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 53.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,7 +286,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:

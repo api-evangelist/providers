@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 27 operations
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Energy Queensland Data Holder Customers API
   slug: energy-queensland-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Energy Queensland Data Holder Operations API
   slug: energy-queensland-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Energy Queensland Distributed Energy Resources API
   slug: energy-queensland-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Energy Queensland Electricity Service Points API
   slug: energy-queensland-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Energy Queensland Electricity Usage API
   slug: energy-queensland-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Energy Queensland Energy Account Balances API
   slug: energy-queensland-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Energy Queensland Energy Account Billing API
   slug: energy-queensland-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Energy Queensland Energy Accounts API
   slug: energy-queensland-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/ergon/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Energy Queensland Energy Plans API
   slug: energy-queensland-energy-plans-api
 artifact_total: 17
@@ -260,7 +291,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:

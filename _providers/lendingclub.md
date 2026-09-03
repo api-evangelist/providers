@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The LendingClub API provides access to platform services and data for enterprise integration and automation.
@@ -105,7 +105,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendingclub/refs/heads/main/screenshots/lendingclub-2026-06-20T184419.png
 security:

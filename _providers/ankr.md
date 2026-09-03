@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: AnkrScan is Ankr's multi-chain block explorer covering EVM and non-EVM networks. It is a hosted UI consuming Ankr's Node API and Advanced API and does not currently publish a public REST surface.
   name: AnkrScan Block Explorer
   slug: ankr-block-explorer
-- description: Standard Ethereum JSON-RPC envelope shared by every EVM chain.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Standard Ethereum JSON-RPC envelope shared by every EVM chain.
   name: ankr EVM API
   slug: ankr-evm-api
-- description: Liquid staking pool statistics (TVL, APR, holders, supply).
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Liquid staking pool statistics (TVL, APR, holders, supply).
   name: ankr Metrics API
   slug: ankr-metrics-api
-- description: NFT methods — ownership, metadata, holders, and transfer history.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: NFT methods — ownership, metadata, holders, and transfer history.
   name: ankr NFT API
   slug: ankr-nft-api
-- description: Query methods — blockchain statistics, blocks, logs, transactions, interactions.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Query methods — blockchain statistics, blocks, logs, transactions, interactions.
   name: ankr Query API
   slug: ankr-query-api
-- description: Trustless exchange ratio between native and liquid staking tokens.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Trustless exchange ratio between native and liquid staking tokens.
   name: ankr Ratio API
   slug: ankr-ratio-api
-- description: Time-based and event-triggered automation tasks.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Time-based and event-triggered automation tasks.
   name: ankr Tasks API
   slug: ankr-tasks-api
-- description: Token methods — balances, prices, holders, currencies, and transfers.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Token methods — balances, prices, holders, currencies, and transfers.
   name: ankr Token API
   slug: ankr-token-api
-- description: Validator metadata, unbond times, reward release windows.
+- baseURL: https://rpc.ankr.com
+  baseurl_source: declared
+  description: Validator metadata, unbond times, reward release windows.
   name: ankr Validators API
   slug: ankr-validators-api
 arazzos:
@@ -406,16 +422,16 @@ jsonld:
   slug: ankr-context
 layout: provider
 modified: '2026-05-29'
-name: ankr
+name: Ankr
 nav: Providers
 network: true
-overview: 'ankr publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EVM API, Metrics API, NFT API, and 5 more.
+overview: 'Ankr publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EVM API, Metrics API, NFT API, and 5 more.
 
 
-  The ankr catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Ankr catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ankr''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, CLI, and 39 more developer resources.'
+  Ankr''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, CLI, and 39 more developer resources.'
 plans:
 - name: Ankr Plans Pricing
   plan_count: 4
@@ -429,7 +445,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: ankr API Rules
+  name: Ankr API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -439,7 +455,7 @@ rules:
   slug: ankr-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: ankr API Rules
+  name: Ankr API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -450,7 +466,7 @@ rules:
 - effective_rule_count: 46
   extends:
   - spectral:oas
-  name: ankr API Rules
+  name: Ankr API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -466,7 +482,7 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -476,7 +492,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 64.5
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     contracts:
@@ -486,10 +502,10 @@ score:
       total: 8
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/screenshots/ankr-2026-06-20T172009.png
 security:

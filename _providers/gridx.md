@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
-- description: The Authentication API from GridX — 1 operation(s) for authentication.
+- baseURL: https://pge-pe-api.gridx.com/v1
+  baseurl_source: declared
+  description: The Authentication API from GridX — 1 operation(s) for authentication.
   name: GridX Authentication API
   slug: gridx-authentication-api
-- description: The Customer API from GridX — 2 operation(s) for customer.
+- baseURL: https://pge-pe-api.gridx.com/v1
+  baseurl_source: declared
+  description: The Customer API from GridX — 2 operation(s) for customer.
   name: GridX Customer API
   slug: gridx-customer-api
-- description: The OpenADR API from GridX — 2 operation(s) for openadr.
+- baseURL: https://pge-pe-api.gridx.com/v1
+  baseurl_source: declared
+  description: The OpenADR API from GridX — 2 operation(s) for openadr.
   name: GridX OpenADR API
   slug: gridx-openadr-api
-- description: The Pricing API from GridX — 1 operation(s) for pricing.
+- baseURL: https://pge-pe-api.gridx.com/v1
+  baseurl_source: declared
+  description: The Pricing API from GridX — 1 operation(s) for pricing.
   name: GridX Pricing API
   slug: gridx-pricing-api
 artifact_total: 16
@@ -171,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/screenshots/gridx-2026-06-20T182406.png
 security:

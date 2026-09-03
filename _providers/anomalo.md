@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,64 +35,100 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 19
 apis:
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
   name: Anomalo MCP Server
   slug: anomalo-mcp-server
-- description: The Access Groups API from Anomalo — 10 operation(s) for access groups.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Access Groups API from Anomalo — 10 operation(s) for access groups.
   name: Anomalo Access Groups API
   slug: anomalo-access-groups-api
-- description: The API Keys API from Anomalo — 2 operation(s) for api keys.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The API Keys API from Anomalo — 2 operation(s) for api keys.
   name: Anomalo API Keys API
   slug: anomalo-api-keys-api
-- description: The Check Runs API from Anomalo — 2 operation(s) for check runs.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Check Runs API from Anomalo — 2 operation(s) for check runs.
   name: Anomalo Check Runs API
   slug: anomalo-check-runs-api
-- description: The Checks API from Anomalo — 9 operation(s) for checks.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Checks API from Anomalo — 9 operation(s) for checks.
   name: Anomalo Checks API
   slug: anomalo-checks-api
-- description: Sets of unstructured documents Anomalo monitors and analyzes.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: Sets of unstructured documents Anomalo monitors and analyzes.
   name: Anomalo Document Collections API
   slug: anomalo-document-collections-api
-- description: Individual documents within a collection, and the issues found in them.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: Individual documents within a collection, and the issues found in them.
   name: Anomalo Documents API
   slug: anomalo-documents-api
-- description: The Exports API from Anomalo — 1 operation(s) for exports.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Exports API from Anomalo — 1 operation(s) for exports.
   name: Anomalo Exports API
   slug: anomalo-exports-api
-- description: Data quality issues detected across an organization's unstructured content.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: Data quality issues detected across an organization's unstructured content.
   name: Anomalo Issues API
   slug: anomalo-issues-api
-- description: The Labels API from Anomalo — 5 operation(s) for labels.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Labels API from Anomalo — 5 operation(s) for labels.
   name: Anomalo Labels API
   slug: anomalo-labels-api
-- description: The Lineage API from Anomalo — 3 operation(s) for lineage.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Lineage API from Anomalo — 3 operation(s) for lineage.
   name: Anomalo Lineage API
   slug: anomalo-lineage-api
-- description: The Notification Channels API from Anomalo — 3 operation(s) for notification channels.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Notification Channels API from Anomalo — 3 operation(s) for notification channels.
   name: Anomalo Notification Channels API
   slug: anomalo-notification-channels-api
-- description: The Organizations API from Anomalo — 3 operation(s) for organizations.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Organizations API from Anomalo — 3 operation(s) for organizations.
   name: Anomalo Organizations API
   slug: anomalo-organizations-api
-- description: The Sensitive Columns API from Anomalo — 2 operation(s) for sensitive columns.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Sensitive Columns API from Anomalo — 2 operation(s) for sensitive columns.
   name: Anomalo Sensitive Columns API
   slug: anomalo-sensitive-columns-api
-- description: The System API from Anomalo — 1 operation(s) for system.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The System API from Anomalo — 1 operation(s) for system.
   name: Anomalo System API
   slug: anomalo-system-api
-- description: The Tables API from Anomalo — 10 operation(s) for tables.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Tables API from Anomalo — 10 operation(s) for tables.
   name: Anomalo Tables API
   slug: anomalo-tables-api
-- description: The Tasks API from Anomalo — 1 operation(s) for tasks.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Tasks API from Anomalo — 1 operation(s) for tasks.
   name: Anomalo Tasks API
   slug: anomalo-tasks-api
-- description: The Users API from Anomalo — 6 operation(s) for users.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Users API from Anomalo — 6 operation(s) for users.
   name: Anomalo Users API
   slug: anomalo-users-api
-- description: The Warehouses API from Anomalo — 5 operation(s) for warehouses.
+- baseURL: https://app.anomalo.com/api/public/v1
+  baseurl_source: declared
+  description: The Warehouses API from Anomalo — 5 operation(s) for warehouses.
   name: Anomalo Warehouses API
   slug: anomalo-warehouses-api
 artifact_total: 25
@@ -260,7 +308,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png
 security:

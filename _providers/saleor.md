@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -68,7 +68,9 @@ apis:
 - description: Source repository for the Saleor server - the Django / Python backend that implements the GraphQL API, business logic, persistence, and webhooks.
   name: Saleor Core (Server) Repository
   slug: core-repo
-- description: The Saleor GraphQL API API from Saleor — 1 operation(s) for saleor graphql api.
+- baseURL: https://docs.saleor.io/api-reference/
+  baseurl_source: declared
+  description: The Saleor GraphQL API API from Saleor — 1 operation(s) for saleor graphql api.
   name: Saleor Saleor GraphQL API API
   slug: saleor-saleor-graphql-api-api
 artifact_total: 19
@@ -210,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/screenshots/saleor-2026-06-20T193340.png
 security:

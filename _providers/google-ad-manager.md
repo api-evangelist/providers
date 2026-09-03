@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: The adUnits API from Google Ad Manager — 1 operation(s) for adunits.
+- baseURL: https://admanager.googleapis.com
+  baseurl_source: declared
+  description: The adUnits API from Google Ad Manager — 1 operation(s) for adunits.
   name: Google Ad Manager adUnits API
   slug: google-ad-manager-adunits-api
-- description: The Companies API from Google Ad Manager — 1 operation(s) for companies.
+- baseURL: https://admanager.googleapis.com
+  baseurl_source: declared
+  description: The Companies API from Google Ad Manager — 1 operation(s) for companies.
   name: Google Ad Manager Companies API
   slug: google-ad-manager-companies-api
-- description: The Networks API from Google Ad Manager — 1 operation(s) for networks.
+- baseURL: https://admanager.googleapis.com
+  baseurl_source: declared
+  description: The Networks API from Google Ad Manager — 1 operation(s) for networks.
   name: Google Ad Manager Networks API
   slug: google-ad-manager-networks-api
-- description: The Orders API from Google Ad Manager — 1 operation(s) for orders.
+- baseURL: https://admanager.googleapis.com
+  baseurl_source: declared
+  description: The Orders API from Google Ad Manager — 1 operation(s) for orders.
   name: Google Ad Manager Orders API
   slug: google-ad-manager-orders-api
-- description: The Reports:run API from Google Ad Manager — 1 operation(s) for reports:run.
+- baseURL: https://admanager.googleapis.com
+  baseurl_source: declared
+  description: The Reports:run API from Google Ad Manager — 1 operation(s) for reports:run.
   name: Google Ad Manager Reports:run API
   slug: google-ad-manager-reports-run-api
 artifact_total: 21
@@ -194,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/screenshots/google-ad-manager-2026-06-20T182001.png
 security:

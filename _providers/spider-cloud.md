@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: 'Spider''s hosted Model Context Protocol server exposes 22 tools — eight core operations (crawl, scrape, search, links, screenshot, unblocker, transform, get_credits), five AI-routed variants, and nine '
   name: Spider Cloud MCP Server
   slug: spider-mcp
-- description: Recursively crawl entire websites and collect every page.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Recursively crawl entire websites and collect every page.
   name: Spider Crawling API
   slug: spider-cloud-crawling-api
-- description: Account data — scraper directory, crawl logs, credits balance.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Account data — scraper directory, crawl logs, credits balance.
   name: Spider Data API
   slug: spider-cloud-data-api
-- description: Per-website APIs with AI-discovered configurations.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Per-website APIs with AI-discovered configurations.
   name: Spider Fetch API
   slug: spider-cloud-fetch-api
-- description: Collect all links from a website.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Collect all links from a website.
   name: Spider Links API
   slug: spider-cloud-links-api
-- description: Extract content from individual web pages.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Extract content from individual web pages.
   name: Spider Scraping API
   slug: spider-cloud-scraping-api
-- description: Capture full-page or viewport screenshots.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Capture full-page or viewport screenshots.
   name: Spider Screenshot API
   slug: spider-cloud-screenshot-api
-- description: Search the web and crawl results.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Search the web and crawl results.
   name: Spider Search API
   slug: spider-cloud-search-api
-- description: Convert raw HTML or PDF into clean output (markdown, JSON, text).
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Convert raw HTML or PDF into clean output (markdown, JSON, text).
   name: Spider Transform API
   slug: spider-cloud-transform-api
-- description: Access content behind anti-bot protections.
+- baseURL: https://api.spider.cloud
+  baseurl_source: declared
+  description: Access content behind anti-bot protections.
   name: Spider Unblocker API
   slug: spider-cloud-unblocker-api
 artifact_total: 28
@@ -261,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:

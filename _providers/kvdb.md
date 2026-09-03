@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
-- description: Bucket lifecycle operations
+- baseURL: https://kvdb.io
+  baseurl_source: spec
+  description: Bucket lifecycle operations
   name: KVdb Buckets API
   slug: kvdb-buckets-api
-- description: Key-value operations within a bucket
+- baseURL: https://kvdb.io
+  baseurl_source: spec
+  description: Key-value operations within a bucket
   name: KVdb Keys API
   slug: kvdb-keys-api
-- description: Custom Lua script management and execution
+- baseURL: https://kvdb.io
+  baseurl_source: spec
+  description: Custom Lua script management and execution
   name: KVdb Scripts API
   slug: kvdb-scripts-api
 artifact_total: 14
@@ -147,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/screenshots/kvdb-2026-06-20T184222.png
 security:

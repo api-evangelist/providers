@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -36,31 +47,49 @@ apis:
 - description: A Model Context Protocol server endpoint advertised in the colossal.com WordPress REST route index under the "mcp" namespace and served at /wp-json/mcp/mcp-adapter-default-server. The endpoint is live
   name: Colossal MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Comments API from Colossal Laboratories & Biosciences — 2 operation(s) for comments.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Colossal Laboratories & Biosciences — 2 operation(s) for comments.
   name: Colossal Laboratories & Biosciences Comments API
   slug: colossal-laboratories--biosciences-comments-api
-- description: The Discovery API from Colossal Laboratories & Biosciences — 5 operation(s) for discovery.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Colossal Laboratories & Biosciences — 5 operation(s) for discovery.
   name: Colossal Laboratories & Biosciences Discovery API
   slug: colossal-laboratories--biosciences-discovery-api
-- description: The Media API from Colossal Laboratories & Biosciences — 3 operation(s) for media.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Colossal Laboratories & Biosciences — 3 operation(s) for media.
   name: Colossal Laboratories & Biosciences Media API
   slug: colossal-laboratories--biosciences-media-api
-- description: The Pages API from Colossal Laboratories & Biosciences — 2 operation(s) for pages.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Colossal Laboratories & Biosciences — 2 operation(s) for pages.
   name: Colossal Laboratories & Biosciences Pages API
   slug: colossal-laboratories--biosciences-pages-api
-- description: The Posts API from Colossal Laboratories & Biosciences — 2 operation(s) for posts.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Colossal Laboratories & Biosciences — 2 operation(s) for posts.
   name: Colossal Laboratories & Biosciences Posts API
   slug: colossal-laboratories--biosciences-posts-api
-- description: The Search API from Colossal Laboratories & Biosciences — 1 operation(s) for search.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Colossal Laboratories & Biosciences — 1 operation(s) for search.
   name: Colossal Laboratories & Biosciences Search API
   slug: colossal-laboratories--biosciences-search-api
-- description: The Settings API from Colossal Laboratories & Biosciences — 1 operation(s) for settings.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Colossal Laboratories & Biosciences — 1 operation(s) for settings.
   name: Colossal Laboratories & Biosciences Settings API
   slug: colossal-laboratories--biosciences-settings-api
-- description: The Taxonomy API from Colossal Laboratories & Biosciences — 6 operation(s) for taxonomy.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Colossal Laboratories & Biosciences — 6 operation(s) for taxonomy.
   name: Colossal Laboratories & Biosciences Taxonomy API
   slug: colossal-laboratories--biosciences-taxonomy-api
-- description: The Users API from Colossal Laboratories & Biosciences — 3 operation(s) for users.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Colossal Laboratories & Biosciences — 3 operation(s) for users.
   name: Colossal Laboratories & Biosciences Users API
   slug: colossal-laboratories--biosciences-users-api
 artifact_total: 24
@@ -226,7 +255,7 @@ score:
   band: emerging
   composite: 22.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -258,8 +287,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/colossal-laboratories--biosciences/refs/heads/main/screenshots/colossal-laboratories--biosciences-2026-09-02T145122.png
 security:
 - kind: authentication
   name: Colossal Laboratories  Biosciences Authentication

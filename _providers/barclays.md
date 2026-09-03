@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 23
 apis:
 - description: Barclays Smartpay Web Payment API enables businesses to accept payments on their website with real-time processing, secure encryption, and fraud prevention.
@@ -293,7 +293,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png
 security:

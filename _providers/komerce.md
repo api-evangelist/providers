@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 12 acting
 api_count: 4
 apis:
-- description: Shipping cost calculation
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: Shipping cost calculation
   name: Komerce Cost API
   slug: komerce-cost-api
-- description: Destination and administrative-region lookup
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: Destination and administrative-region lookup
   name: Komerce Destinations API
   slug: komerce-destinations-api
-- description: The Orders API from Komerce — 4 operation(s) for orders.
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: The Orders API from Komerce — 4 operation(s) for orders.
   name: Komerce Orders API
   slug: komerce-orders-api
-- description: The Payments API from Komerce — 4 operation(s) for payments.
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: The Payments API from Komerce — 4 operation(s) for payments.
   name: Komerce Payments API
   slug: komerce-payments-api
-- description: The Pickup API from Komerce — 1 operation(s) for pickup.
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: The Pickup API from Komerce — 1 operation(s) for pickup.
   name: Komerce Pickup API
   slug: komerce-pickup-api
-- description: The QRIS API from Komerce — 3 operation(s) for qris.
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: The QRIS API from Komerce — 3 operation(s) for qris.
   name: Komerce QRIS API
   slug: komerce-qris-api
-- description: Airway bill tracking
+- baseURL: https://rajaongkir.komerce.id/api/v1
+  baseurl_source: declared
+  description: Airway bill tracking
   name: Komerce Tracking API
   slug: komerce-tracking-api
 artifact_total: 29
@@ -297,7 +311,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -307,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 19.7
     operational_transparency: 55.3
-  previous_composite: 46.7
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,7 +339,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:

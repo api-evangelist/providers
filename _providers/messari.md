@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: Comprehensive REST API exposing /v1, /v2 endpoints for asset metrics (price, market cap, ROI, mining stats, supply, developer activity, ROI), markets, news, Token Unlocks, screener, and curated intel.
   name: Messari REST API
   slug: rest-api
-- description: The AI API from Messari — 4 operation(s) for ai.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The AI API from Messari — 4 operation(s) for ai.
   name: Messari AI API
   slug: messari-ai-api
-- description: The Assets API from Messari — 7 operation(s) for assets.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Assets API from Messari — 7 operation(s) for assets.
   name: Messari Assets API
   slug: messari-assets-api
-- description: The Datasets API from Messari — 2 operation(s) for datasets.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Datasets API from Messari — 2 operation(s) for datasets.
   name: Messari Datasets API
   slug: messari-datasets-api
-- description: The Exchanges API from Messari — 2 operation(s) for exchanges.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Exchanges API from Messari — 2 operation(s) for exchanges.
   name: Messari Exchanges API
   slug: messari-exchanges-api
-- description: The Markets API from Messari — 4 operation(s) for markets.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Markets API from Messari — 4 operation(s) for markets.
   name: Messari Markets API
   slug: messari-markets-api
-- description: The Monitoring API from Messari — 3 operation(s) for monitoring.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Monitoring API from Messari — 3 operation(s) for monitoring.
   name: Messari Monitoring API
   slug: messari-monitoring-api
-- description: The Networks API from Messari — 3 operation(s) for networks.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Networks API from Messari — 3 operation(s) for networks.
   name: Messari Networks API
   slug: messari-networks-api
-- description: The News API from Messari — 5 operation(s) for news.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The News API from Messari — 5 operation(s) for news.
   name: Messari News API
   slug: messari-news-api
-- description: The Protocols API from Messari — 5 operation(s) for protocols.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Protocols API from Messari — 5 operation(s) for protocols.
   name: Messari Protocols API
   slug: messari-protocols-api
-- description: The Research API from Messari — 3 operation(s) for research.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Research API from Messari — 3 operation(s) for research.
   name: Messari Research API
   slug: messari-research-api
-- description: The Token Unlocks API from Messari — 2 operation(s) for token unlocks.
+- baseURL: https://data.messari.io/api
+  baseurl_source: declared
+  description: The Token Unlocks API from Messari — 2 operation(s) for token unlocks.
   name: Messari Token Unlocks API
   slug: messari-token-unlocks-api
 artifact_total: 31
@@ -218,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messari/refs/heads/main/screenshots/messari-2026-08-07T172637.png
 security:

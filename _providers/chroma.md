@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -50,22 +50,34 @@ apis:
 - description: The Chroma JavaScript and TypeScript Client is a first-party SDK for interacting with Chroma from JavaScript or TypeScript applications. The v3 rewrite focused on reducing bundle size and improving de
   name: Chroma JavaScript Client
   slug: javascript-client
-- description: Collection management endpoints for creating, listing, retrieving, updating, and deleting collections within a database.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Collection management endpoints for creating, listing, retrieving, updating, and deleting collections within a database.
   name: Chroma Collections API
   slug: chroma-collections-api
-- description: Database management endpoints for creating, listing, retrieving, and deleting databases within a tenant.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Database management endpoints for creating, listing, retrieving, and deleting databases within a tenant.
   name: Chroma Databases API
   slug: chroma-databases-api
-- description: Record management endpoints for adding, getting, updating, upserting, deleting, and querying records within a collection.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Record management endpoints for adding, getting, updating, upserting, deleting, and querying records within a collection.
   name: Chroma Records API
   slug: chroma-records-api
-- description: Advanced search endpoints available exclusively in Chroma Cloud. Provides a unified interface for hybrid search operations combining vector similarity search with metadata filtering and custom ranking
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Advanced search endpoints available exclusively in Chroma Cloud. Provides a unified interface for hybrid search operations combining vector similarity search with metadata filtering and custom ranking
   name: Chroma Search API
   slug: chroma-search-api
-- description: System-level endpoints for health checks, version information, and server diagnostics.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: System-level endpoints for health checks, version information, and server diagnostics.
   name: Chroma System API
   slug: chroma-system-api
-- description: Tenant management endpoints for creating and retrieving tenants.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Tenant management endpoints for creating and retrieving tenants.
   name: Chroma Tenants API
   slug: chroma-tenants-api
 artifact_total: 54
@@ -328,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/screenshots/chroma-2026-06-20T174327.png
 security:

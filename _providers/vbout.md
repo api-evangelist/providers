@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 37 operations · 20 acting
 api_count: 2
 apis:
-- description: The Account API from VBOUT — 2 operation(s) for account.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Account API from VBOUT — 2 operation(s) for account.
   name: VBOUT Account API
   slug: vbout-account-api
-- description: The AIchatbot API from VBOUT — 4 operation(s) for aichatbot.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The AIchatbot API from VBOUT — 4 operation(s) for aichatbot.
   name: VBOUT AIchatbot API
   slug: vbout-aichatbot-api
-- description: The Application API from VBOUT — 1 operation(s) for application.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Application API from VBOUT — 1 operation(s) for application.
   name: VBOUT Application API
   slug: vbout-application-api
-- description: The Automation API from VBOUT — 2 operation(s) for automation.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Automation API from VBOUT — 2 operation(s) for automation.
   name: VBOUT Automation API
   slug: vbout-automation-api
-- description: The Contact API from VBOUT — 18 operation(s) for contact.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Contact API from VBOUT — 18 operation(s) for contact.
   name: VBOUT Contact API
   slug: vbout-contact-api
-- description: The Email Marketing API from VBOUT — 10 operation(s) for email marketing.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Email Marketing API from VBOUT — 10 operation(s) for email marketing.
   name: VBOUT Email Marketing API
   slug: vbout-email-marketing-api
-- description: The EmailMarketing API from VBOUT — 25 operation(s) for emailmarketing.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The EmailMarketing API from VBOUT — 25 operation(s) for emailmarketing.
   name: VBOUT EmailMarketing API
   slug: vbout-emailmarketing-api
-- description: The Goals API from VBOUT — 6 operation(s) for goals.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Goals API from VBOUT — 6 operation(s) for goals.
   name: VBOUT Goals API
   slug: vbout-goals-api
-- description: The Help API from VBOUT — 1 operation(s) for help.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Help API from VBOUT — 1 operation(s) for help.
   name: VBOUT Help API
   slug: vbout-help-api
-- description: The Pipeline API from VBOUT — 3 operation(s) for pipeline.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Pipeline API from VBOUT — 3 operation(s) for pipeline.
   name: VBOUT Pipeline API
   slug: vbout-pipeline-api
-- description: The Popups API from VBOUT — 5 operation(s) for popups.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Popups API from VBOUT — 5 operation(s) for popups.
   name: VBOUT Popups API
   slug: vbout-popups-api
-- description: The Settings API from VBOUT — 8 operation(s) for settings.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Settings API from VBOUT — 8 operation(s) for settings.
   name: VBOUT Settings API
   slug: vbout-settings-api
-- description: The Social Media API from VBOUT — 7 operation(s) for social media.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Social Media API from VBOUT — 7 operation(s) for social media.
   name: VBOUT Social Media API
   slug: vbout-social-media-api
-- description: The SocialMedia API from VBOUT — 7 operation(s) for socialmedia.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The SocialMedia API from VBOUT — 7 operation(s) for socialmedia.
   name: VBOUT SocialMedia API
   slug: vbout-socialmedia-api
-- description: The Users & Workflow API from VBOUT — 9 operation(s) for users & workflow.
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The Users & Workflow API from VBOUT — 9 operation(s) for users & workflow.
   name: VBOUT Users & Workflow API
   slug: vbout-users-workflow-api
 artifact_total: 38
@@ -331,7 +361,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -341,7 +371,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 55.7
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/screenshots/vbout-2026-08-17T082712.png
 security:

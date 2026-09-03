@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -44,172 +44,284 @@ agentic_access:
   summary_line: 121 operations · 51 acting
 api_count: 18
 apis:
-- description: Endpoints to manage app push devices.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: Endpoints to manage app push devices.
   name: Listrak app-push-mobile-client-device API
   slug: listrak-app-push-mobile-client-device-api
-- description: Endpoints to manage app push mobile client engagements.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: Endpoints to manage app push mobile client engagements.
   name: Listrak app-push-mobile-client-engagements API
   slug: listrak-app-push-mobile-client-engagements-api
-- description: The BroadcastMessage API from Listrak — 1 operation(s) for broadcastmessage.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The BroadcastMessage API from Listrak — 1 operation(s) for broadcastmessage.
   name: Listrak BroadcastMessage API
   slug: listrak-broadcastmessage-api
-- description: The Campaign API from Listrak — 2 operation(s) for campaign.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Campaign API from Listrak — 2 operation(s) for campaign.
   name: Listrak Campaign API
   slug: listrak-campaign-api
-- description: The Contact API from Listrak — 8 operation(s) for contact.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Contact API from Listrak — 8 operation(s) for contact.
   name: Listrak Contact API
   slug: listrak-contact-api
-- description: The ContactListSubscription API from Listrak — 3 operation(s) for contactlistsubscription.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ContactListSubscription API from Listrak — 3 operation(s) for contactlistsubscription.
   name: Listrak ContactListSubscription API
   slug: listrak-contactlistsubscription-api
-- description: The ContactSegmentationField API from Listrak — 1 operation(s) for contactsegmentationfield.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ContactSegmentationField API from Listrak — 1 operation(s) for contactsegmentationfield.
   name: Listrak ContactSegmentationField API
   slug: listrak-contactsegmentationfield-api
-- description: The Content API from Listrak — 2 operation(s) for content.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Content API from Listrak — 2 operation(s) for content.
   name: Listrak Content API
   slug: listrak-content-api
-- description: The ContentFolder API from Listrak — 1 operation(s) for contentfolder.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ContentFolder API from Listrak — 1 operation(s) for contentfolder.
   name: Listrak ContentFolder API
   slug: listrak-contentfolder-api
-- description: The Conversation API from Listrak — 2 operation(s) for conversation.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Conversation API from Listrak — 2 operation(s) for conversation.
   name: Listrak Conversation API
   slug: listrak-conversation-api
-- description: The ConversationMessage API from Listrak — 2 operation(s) for conversationmessage.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ConversationMessage API from Listrak — 2 operation(s) for conversationmessage.
   name: Listrak ConversationMessage API
   slug: listrak-conversationmessage-api
-- description: The ConversationMessageActivity API from Listrak — 1 operation(s) for conversationmessageactivity.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ConversationMessageActivity API from Listrak — 1 operation(s) for conversationmessageactivity.
   name: Listrak ConversationMessageActivity API
   slug: listrak-conversationmessageactivity-api
-- description: The ConversationMessageLink API from Listrak — 2 operation(s) for conversationmessagelink.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ConversationMessageLink API from Listrak — 2 operation(s) for conversationmessagelink.
   name: Listrak ConversationMessageLink API
   slug: listrak-conversationmessagelink-api
-- description: The ConversationMessageLinkClicker API from Listrak — 1 operation(s) for conversationmessagelinkclicker.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ConversationMessageLinkClicker API from Listrak — 1 operation(s) for conversationmessagelinkclicker.
   name: Listrak ConversationMessageLinkClicker API
   slug: listrak-conversationmessagelinkclicker-api
-- description: The ConversationMessageSummary API from Listrak — 1 operation(s) for conversationmessagesummary.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ConversationMessageSummary API from Listrak — 1 operation(s) for conversationmessagesummary.
   name: Listrak ConversationMessageSummary API
   slug: listrak-conversationmessagesummary-api
-- description: The ConversationSummary API from Listrak — 1 operation(s) for conversationsummary.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ConversationSummary API from Listrak — 1 operation(s) for conversationsummary.
   name: Listrak ConversationSummary API
   slug: listrak-conversationsummary-api
-- description: The Customer API from Listrak — 1 operation(s) for customer.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Customer API from Listrak — 1 operation(s) for customer.
   name: Listrak Customer API
   slug: listrak-customer-api
-- description: The Event API from Listrak — 2 operation(s) for event.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Event API from Listrak — 2 operation(s) for event.
   name: Listrak Event API
   slug: listrak-event-api
-- description: REST endpoints to manage Custom Event Configurations.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: REST endpoints to manage Custom Event Configurations.
   name: Listrak EventConfigurations API
   slug: listrak-eventconfigurations-api
-- description: The EventGroup API from Listrak — 2 operation(s) for eventgroup.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The EventGroup API from Listrak — 2 operation(s) for eventgroup.
   name: Listrak EventGroup API
   slug: listrak-eventgroup-api
-- description: REST endpoints to manage Custom Events.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: REST endpoints to manage Custom Events.
   name: Listrak Events API
   slug: listrak-events-api
-- description: The Folder API from Listrak — 2 operation(s) for folder.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Folder API from Listrak — 2 operation(s) for folder.
   name: Listrak Folder API
   slug: listrak-folder-api
-- description: The Forget API from Listrak — 2 operation(s) for forget.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Forget API from Listrak — 2 operation(s) for forget.
   name: Listrak Forget API
   slug: listrak-forget-api
-- description: The IpPool API from Listrak — 1 operation(s) for ippool.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The IpPool API from Listrak — 1 operation(s) for ippool.
   name: Listrak IpPool API
   slug: listrak-ippool-api
-- description: The List API from Listrak — 2 operation(s) for list.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The List API from Listrak — 2 operation(s) for list.
   name: Listrak List API
   slug: listrak-list-api
-- description: The ListImport API from Listrak — 2 operation(s) for listimport.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ListImport API from Listrak — 2 operation(s) for listimport.
   name: Listrak ListImport API
   slug: listrak-listimport-api
-- description: The ListImportContact API from Listrak — 1 operation(s) for listimportcontact.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ListImportContact API from Listrak — 1 operation(s) for listimportcontact.
   name: Listrak ListImportContact API
   slug: listrak-listimportcontact-api
-- description: The ListImportStatus API from Listrak — 1 operation(s) for listimportstatus.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ListImportStatus API from Listrak — 1 operation(s) for listimportstatus.
   name: Listrak ListImportStatus API
   slug: listrak-listimportstatus-api
-- description: The ListImportSummary API from Listrak — 1 operation(s) for listimportsummary.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The ListImportSummary API from Listrak — 1 operation(s) for listimportsummary.
   name: Listrak ListImportSummary API
   slug: listrak-listimportsummary-api
-- description: The Message API from Listrak — 2 operation(s) for message.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Message API from Listrak — 2 operation(s) for message.
   name: Listrak Message API
   slug: listrak-message-api
-- description: The MessageActivity API from Listrak — 1 operation(s) for messageactivity.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The MessageActivity API from Listrak — 1 operation(s) for messageactivity.
   name: Listrak MessageActivity API
   slug: listrak-messageactivity-api
-- description: The MessageLink API from Listrak — 2 operation(s) for messagelink.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The MessageLink API from Listrak — 2 operation(s) for messagelink.
   name: Listrak MessageLink API
   slug: listrak-messagelink-api
-- description: The MessageLinkClicker API from Listrak — 1 operation(s) for messagelinkclicker.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The MessageLinkClicker API from Listrak — 1 operation(s) for messagelinkclicker.
   name: Listrak MessageLinkClicker API
   slug: listrak-messagelinkclicker-api
-- description: The MessageStatus API from Listrak — 1 operation(s) for messagestatus.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The MessageStatus API from Listrak — 1 operation(s) for messagestatus.
   name: Listrak MessageStatus API
   slug: listrak-messagestatus-api
-- description: The Messagestream API from Listrak — 1 operation(s) for messagestream.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Messagestream API from Listrak — 1 operation(s) for messagestream.
   name: Listrak Messagestream API
   slug: listrak-messagestream-api
-- description: The MessageSummary API from Listrak — 1 operation(s) for messagesummary.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The MessageSummary API from Listrak — 1 operation(s) for messagesummary.
   name: Listrak MessageSummary API
   slug: listrak-messagesummary-api
-- description: The Order API from Listrak — 1 operation(s) for order.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Order API from Listrak — 1 operation(s) for order.
   name: Listrak Order API
   slug: listrak-order-api
-- description: The PhoneList API from Listrak — 2 operation(s) for phonelist.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The PhoneList API from Listrak — 2 operation(s) for phonelist.
   name: Listrak PhoneList API
   slug: listrak-phonelist-api
-- description: The Product API from Listrak — 1 operation(s) for product.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Product API from Listrak — 1 operation(s) for product.
   name: Listrak Product API
   slug: listrak-product-api
-- description: The RatingSummary API from Listrak — 1 operation(s) for ratingsummary.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The RatingSummary API from Listrak — 1 operation(s) for ratingsummary.
   name: Listrak RatingSummary API
   slug: listrak-ratingsummary-api
-- description: The Review API from Listrak — 1 operation(s) for review.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Review API from Listrak — 1 operation(s) for review.
   name: Listrak Review API
   slug: listrak-review-api
-- description: The SavedAudience API from Listrak — 1 operation(s) for savedaudience.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SavedAudience API from Listrak — 1 operation(s) for savedaudience.
   name: Listrak SavedAudience API
   slug: listrak-savedaudience-api
-- description: The SavedMessage API from Listrak — 3 operation(s) for savedmessage.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SavedMessage API from Listrak — 3 operation(s) for savedmessage.
   name: Listrak SavedMessage API
   slug: listrak-savedmessage-api
-- description: The Segmentation API from Listrak — 2 operation(s) for segmentation.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Segmentation API from Listrak — 2 operation(s) for segmentation.
   name: Listrak Segmentation API
   slug: listrak-segmentation-api
-- description: The SegmentationField API from Listrak — 2 operation(s) for segmentationfield.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SegmentationField API from Listrak — 2 operation(s) for segmentationfield.
   name: Listrak SegmentationField API
   slug: listrak-segmentationfield-api
-- description: The SegmentationFieldGroup API from Listrak — 2 operation(s) for segmentationfieldgroup.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SegmentationFieldGroup API from Listrak — 2 operation(s) for segmentationfieldgroup.
   name: Listrak SegmentationFieldGroup API
   slug: listrak-segmentationfieldgroup-api
-- description: The Send API from Listrak — 1 operation(s) for send.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Send API from Listrak — 1 operation(s) for send.
   name: Listrak Send API
   slug: listrak-send-api
-- description: The SenderCode API from Listrak — 2 operation(s) for sendercode.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SenderCode API from Listrak — 2 operation(s) for sendercode.
   name: Listrak SenderCode API
   slug: listrak-sendercode-api
-- description: The SplitTest API from Listrak — 3 operation(s) for splittest.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SplitTest API from Listrak — 3 operation(s) for splittest.
   name: Listrak SplitTest API
   slug: listrak-splittest-api
-- description: The Tickets API from Listrak — 1 operation(s) for tickets.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Tickets API from Listrak — 1 operation(s) for tickets.
   name: Listrak Tickets API
   slug: listrak-tickets-api
-- description: The TransactionalMessage API from Listrak — 6 operation(s) for transactionalmessage.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The TransactionalMessage API from Listrak — 6 operation(s) for transactionalmessage.
   name: Listrak TransactionalMessage API
   slug: listrak-transactionalmessage-api
-- description: The TransactionalMessageActivity API from Listrak — 1 operation(s) for transactionalmessageactivity.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The TransactionalMessageActivity API from Listrak — 1 operation(s) for transactionalmessageactivity.
   name: Listrak TransactionalMessageActivity API
   slug: listrak-transactionalmessageactivity-api
-- description: The TransactionalMessageResend API from Listrak — 1 operation(s) for transactionalmessageresend.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The TransactionalMessageResend API from Listrak — 1 operation(s) for transactionalmessageresend.
   name: Listrak TransactionalMessageResend API
   slug: listrak-transactionalmessageresend-api
-- description: The Directories API from Listrak — 2 operation(s) for directories.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Directories API from Listrak — 2 operation(s) for directories.
   name: Listrak Directories API
   slug: listrak-directories-api
-- description: The Files API from Listrak — 2 operation(s) for files.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Files API from Listrak — 2 operation(s) for files.
   name: Listrak Files API
   slug: listrak-files-api
-- description: The Fonts API from Listrak — 1 operation(s) for fonts.
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The Fonts API from Listrak — 1 operation(s) for fonts.
   name: Listrak Fonts API
   slug: listrak-fonts-api
 artifact_total: 132
@@ -638,7 +750,7 @@ score:
     catalog_gap: 45.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -648,7 +760,7 @@ score:
     discoverability: 50.0
     governance: 29.5
     operational_transparency: 84.2
-  previous_composite: 74.7
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -672,7 +784,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png
 security:

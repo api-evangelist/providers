@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: 'The RisingWave Cloud CLI (rwc) provides infrastructure management for RisingWave Cloud, including cluster provisioning, authentication, snapshots, and agent skill installation. Supports install of AI '
   name: RisingWave Cloud CLI
   slug: cloud-api
-- description: The Events API from RisingWave — 1 operation(s) for events.
+- baseURL: https://docs.risingwave.com
+  baseurl_source: declared
+  description: The Events API from RisingWave — 1 operation(s) for events.
   name: RisingWave Events API
   slug: risingwave-events-api
-- description: The Healthz API from RisingWave — 1 operation(s) for healthz.
+- baseURL: https://docs.risingwave.com
+  baseurl_source: declared
+  description: The Healthz API from RisingWave — 1 operation(s) for healthz.
   name: RisingWave Healthz API
   slug: risingwave-healthz-api
-- description: The Sql API from RisingWave — 1 operation(s) for sql.
+- baseURL: https://docs.risingwave.com
+  baseurl_source: declared
+  description: The Sql API from RisingWave — 1 operation(s) for sql.
   name: RisingWave Sql API
   slug: risingwave-sql-api
 artifact_total: 22
@@ -225,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/screenshots/risingwave-2026-06-20T193128.png
 security:

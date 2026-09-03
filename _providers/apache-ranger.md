@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: The Audit API from Apache Ranger — 1 operation(s) for audit.
+- baseURL: https://ranger.example.com/service
+  baseurl_source: spec
+  description: The Audit API from Apache Ranger — 1 operation(s) for audit.
   name: Apache Ranger Audit API
   slug: apache-ranger-audit-api
-- description: The Groups API from Apache Ranger — 1 operation(s) for groups.
+- baseURL: https://ranger.example.com/service
+  baseurl_source: spec
+  description: The Groups API from Apache Ranger — 1 operation(s) for groups.
   name: Apache Ranger Groups API
   slug: apache-ranger-groups-api
-- description: The Policies API from Apache Ranger — 2 operation(s) for policies.
+- baseURL: https://ranger.example.com/service
+  baseurl_source: spec
+  description: The Policies API from Apache Ranger — 2 operation(s) for policies.
   name: Apache Ranger Policies API
   slug: apache-ranger-policies-api
-- description: The Services API from Apache Ranger — 2 operation(s) for services.
+- baseURL: https://ranger.example.com/service
+  baseurl_source: spec
+  description: The Services API from Apache Ranger — 2 operation(s) for services.
   name: Apache Ranger Services API
   slug: apache-ranger-services-api
-- description: The Users API from Apache Ranger — 1 operation(s) for users.
+- baseURL: https://ranger.example.com/service
+  baseurl_source: spec
+  description: The Users API from Apache Ranger — 1 operation(s) for users.
   name: Apache Ranger Users API
   slug: apache-ranger-users-api
 artifact_total: 76
@@ -350,7 +360,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/screenshots/apache-ranger-2026-06-20T172136.png
 security:

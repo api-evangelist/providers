@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 5 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations for creating and managing human review loops
+- baseURL: https://a2i-runtime.sagemaker.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing human review loops
   name: Amazon Augmented AI Human Loops API
   slug: amazon-augmented-ai-human-loops-api
 artifact_total: 73
@@ -300,7 +302,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/screenshots/amazon-augmented-ai-2026-07-25T195931.png
 security:

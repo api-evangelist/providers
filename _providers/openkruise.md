@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,7 +48,9 @@ apis:
 - description: OpenKruise provides Kubernetes Custom Resource Definitions (CRDs) for advanced workload management. CloneSet offers efficient rolling updates with partition control, Advanced StatefulSet supports in-p
   name: OpenKruise Workload API
   slug: openkruise-api
-- description: The Apis API from OpenKruise — 9 operation(s) for apis.
+- baseURL: https://kubernetes.example.com/apis/apps.kruise.io/v1beta1
+  baseurl_source: declared
+  description: The Apis API from OpenKruise — 9 operation(s) for apis.
   name: OpenKruise Apis API
   slug: openkruise-apis-api
 artifact_total: 11
@@ -166,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/screenshots/openkruise-2026-06-20T191009.png
 security:

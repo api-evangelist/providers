@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: ENS-PSL runs its own Shibboleth identity provider under its own registrable domain. The SAML 2.0 entity descriptor is served at https://federation.ens.psl.eu/idp/shibboleth (HTTP 200, application/xml)
@@ -158,7 +158,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -6.0
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -168,7 +168,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.8
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
@@ -178,8 +178,8 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png
 security:
 - kind: authentication

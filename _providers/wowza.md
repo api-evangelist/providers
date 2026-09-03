@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 10
@@ -55,136 +55,224 @@ apis:
 - description: WebRTC-based SDK for delivering sub-second-latency live streams at scale through the Wowza Real-Time Streaming service. Public documentation repo and WebRTC sample applications are hosted in the Wowza
   name: Wowza Real-Time Streaming SDK
   slug: wowza-real-time-streaming-sdk
-- description: Operations related to using advanced token authentication, known in Wowza Video as a default playback token behavior option, with videos. Use token authentication when distributing valuable or sensiti
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to using advanced token authentication, known in Wowza Video as a default playback token behavior option, with videos. Use token authentication when distributing valuable or sensiti
   name: Wowza advanced_token_authentication API
   slug: wowza-advanced-token-authentication-api
-- description: Operations related to engagement analytics for a VOD stream.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to engagement analytics for a VOD stream.
   name: Wowza analytics_engagement API
   slug: wowza-analytics-engagement-api
-- description: Operations related to ingest analytics for a live stream.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to ingest analytics for a live stream.
   name: Wowza analytics_ingest API
   slug: wowza-analytics-ingest-api
-- description: Operations related to popularity analytics.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to popularity analytics.
   name: Wowza analytics_popularity API
   slug: wowza-analytics-popularity-api
-- description: Operations related to viewer analytics.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to viewer analytics.
   name: Wowza analytics_viewers API
   slug: wowza-analytics-viewers-api
-- description: The Applications API from Wowza — 69 operation(s) for applications.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Applications API from Wowza — 69 operation(s) for applications.
   name: Wowza Applications API
   slug: wowza-applications-api
-- description: <blockquote>The <strong>assets</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to assets, which are created through the `
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: <blockquote>The <strong>assets</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to assets, which are created through the `
   name: Wowza assets API
   slug: wowza-assets-api
-- description: Operations related to categorizing videos.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to categorizing videos.
   name: Wowza categories API
   slug: wowza-categories-api
-- description: Operations related to clipping and stitching videos and live streams.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to clipping and stitching videos and live streams.
   name: Wowza clipping API
   slug: wowza-clipping-api
-- description: Operations related to live streams. A live stream is a single, linear video broadcast. You broadcast a live stream by receiving encoded source video into the Wowza Video service and letting Wowza Vide
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to live streams. A live stream is a single, linear video broadcast. You broadcast a live stream by receiving encoded source video into the Wowza Video service and letting Wowza Vide
   name: Wowza live_streams API
   slug: wowza-live-streams-api
-- description: The Machine Stats API from Wowza — 2 operation(s) for machine stats.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Machine Stats API from Wowza — 2 operation(s) for machine stats.
   name: Wowza Machine Stats API
   slug: wowza-machine-stats-api
-- description: <blockquote>The <strong>player</strong> operations are deprecated in 2.0. Create and update player configurations in the user interface. Any values you send using the <strong>player</strong> operation
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: <blockquote>The <strong>player</strong> operations are deprecated in 2.0. Create and update player configurations in the user interface. Any values you send using the <strong>player</strong> operation
   name: Wowza players API
   slug: wowza-players-api
-- description: Operations related to quality of experience metrics.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to quality of experience metrics.
   name: Wowza quality_of_experience API
   slug: wowza-quality-of-experience-api
-- description: Operations related to Real-Time Streaming at Scale. If your audience is fewer than 300 viewers or you want to deliver a stream in near real time alongside other delivery protocols, <a href="https://ww
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to Real-Time Streaming at Scale. If your audience is fewer than 300 viewers or you want to deliver a stream in near real time alongside other delivery protocols, <a href="https://ww
   name: Wowza real_time API
   slug: wowza-real-time-api
-- description: <blockquote>The <strong>recordings</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to recordings, which are created throu
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: <blockquote>The <strong>recordings</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to recordings, which are created throu
   name: Wowza recordings API
   slug: wowza-recordings-api
-- description: The REST information API from Wowza — 1 operation(s) for rest information.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The REST information API from Wowza — 1 operation(s) for rest information.
   name: Wowza REST information API
   slug: wowza-rest-information-api
-- description: Operations related to schedules. Schedules allow you to automatically start or stop a live stream or transcoder at a predetermined date and time. You can configure a schedule to start and/or stop a li
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to schedules. Schedules allow you to automatically start or stop a live stream or transcoder at a predetermined date and time. You can configure a schedule to start and/or stop a li
   name: Wowza schedules API
   slug: wowza-schedules-api
-- description: The Server Licenses API from Wowza — 1 operation(s) for server licenses.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Licenses API from Wowza — 1 operation(s) for server licenses.
   name: Wowza Server Licenses API
   slug: wowza-server-licenses-api
-- description: The Server Listeners API from Wowza — 1 operation(s) for server listeners.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Listeners API from Wowza — 1 operation(s) for server listeners.
   name: Wowza Server Listeners API
   slug: wowza-server-listeners-api
-- description: The Server log4j system API from Wowza — 3 operation(s) for server log4j system.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server log4j system API from Wowza — 3 operation(s) for server log4j system.
   name: Wowza Server log4j system API
   slug: wowza-server-log4j-system-api
-- description: The Server MediaCache API from Wowza — 8 operation(s) for server mediacache.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server MediaCache API from Wowza — 8 operation(s) for server mediacache.
   name: Wowza Server MediaCache API
   slug: wowza-server-mediacache-api
-- description: The Server MediaCache Version 3 API from Wowza — 6 operation(s) for server mediacache version 3.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server MediaCache Version 3 API from Wowza — 6 operation(s) for server mediacache version 3.
   name: Wowza Server MediaCache Version 3 API
   slug: wowza-server-mediacache-version-3-api
-- description: The Server MediaCasters API from Wowza — 2 operation(s) for server mediacasters.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server MediaCasters API from Wowza — 2 operation(s) for server mediacasters.
   name: Wowza Server MediaCasters API
   slug: wowza-server-mediacasters-api
-- description: The Server Monitoring API from Wowza — 2 operation(s) for server monitoring.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Monitoring API from Wowza — 2 operation(s) for server monitoring.
   name: Wowza Server Monitoring API
   slug: wowza-server-monitoring-api
-- description: The Server Publishers API from Wowza — 2 operation(s) for server publishers.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Publishers API from Wowza — 2 operation(s) for server publishers.
   name: Wowza Server Publishers API
   slug: wowza-server-publishers-api
-- description: The Server Publishers Version 3 API from Wowza — 2 operation(s) for server publishers version 3.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Publishers Version 3 API from Wowza — 2 operation(s) for server publishers version 3.
   name: Wowza Server Publishers Version 3 API
   slug: wowza-server-publishers-version-3-api
-- description: The Server Status API from Wowza — 1 operation(s) for server status.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Status API from Wowza — 1 operation(s) for server status.
   name: Wowza Server Status API
   slug: wowza-server-status-api
-- description: The Server Transcoder API from Wowza — 1 operation(s) for server transcoder.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Transcoder API from Wowza — 1 operation(s) for server transcoder.
   name: Wowza Server Transcoder API
   slug: wowza-server-transcoder-api
-- description: The Server Tuning API from Wowza — 1 operation(s) for server tuning.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Tuning API from Wowza — 1 operation(s) for server tuning.
   name: Wowza Server Tuning API
   slug: wowza-server-tuning-api
-- description: The Server Users API from Wowza — 2 operation(s) for server users.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Server Users API from Wowza — 2 operation(s) for server users.
   name: Wowza Server Users API
   slug: wowza-server-users-api
-- description: The Servers Configuration API from Wowza — 12 operation(s) for servers configuration.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Servers Configuration API from Wowza — 12 operation(s) for servers configuration.
   name: Wowza Servers Configuration API
   slug: wowza-servers-configuration-api
-- description: <blockquote>The <strong>storage</strong> operations are deprecated in 2.0. Operations related to peak and current storage for an account.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: <blockquote>The <strong>storage</strong> operations are deprecated in 2.0. Operations related to peak and current storage for an account.
   name: Wowza storage API
   slug: wowza-storage-api
-- description: 'Operations related to stream sources. You can create a Wowza stream source and associate it to a live stream or transcoder. ### Wowza Stream Sources When you set up a Wowza stream source with a live s'
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: 'Operations related to stream sources. You can create a Wowza stream source and associate it to a live stream or transcoder. ### Wowza Stream Sources When you set up a Wowza stream source with a live s'
   name: Wowza stream_sources API
   slug: wowza-stream-sources-api
-- description: 'Operations related to stream targets. A stream target is a destination for a stream. Stream targets can be Wowza Video edge resources; custom, external destinations, target destinations. ### Wowza CDN'
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: 'Operations related to stream targets. A stream target is a destination for a stream. Stream targets can be Wowza Video edge resources; custom, external destinations, target destinations. ### Wowza CDN'
   name: Wowza stream_targets API
   slug: wowza-stream-targets-api
-- description: 'Operations related to transcoders, output renditions, and output stream targets. ### Transcoders Wowza Video transcoders allow you to customize transcoding processes by creating transcoders that are o'
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: 'Operations related to transcoders, output renditions, and output stream targets. ### Transcoders Wowza Video transcoders allow you to customize transcoding processes by creating transcoders that are o'
   name: Wowza transcoders API
   slug: wowza-transcoders-api
-- description: Operations related to stream analytics for an account.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to stream analytics for an account.
   name: Wowza usage_account API
   slug: wowza-usage-account-api
-- description: Operations related to stream target analytics, including CDN usage and viewer data.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to stream target analytics, including CDN usage and viewer data.
   name: Wowza usage API
   slug: wowza-usage-api
-- description: Operations related to real-time streams analytics.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to real-time streams analytics.
   name: Wowza usage_real_time_streams API
   slug: wowza-usage-real-time-streams-api
-- description: Operations related to transcoder analytics.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to transcoder analytics.
   name: Wowza usage_transcoders API
   slug: wowza-usage-transcoders-api
-- description: <blockquote>The <strong>VOD stream</strong> operations are deprecated in 2.0. Operations related to video on demand (VOD) stream analytics.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: <blockquote>The <strong>VOD stream</strong> operations are deprecated in 2.0. Operations related to video on demand (VOD) stream analytics.
   name: Wowza usage_vod_streams API
   slug: wowza-usage-vod-streams-api
-- description: Operations related to uploading and categorizing videos.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: Operations related to uploading and categorizing videos.
   name: Wowza videos API
   slug: wowza-videos-api
-- description: The Virtual Hosts API from Wowza — 42 operation(s) for virtual hosts.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Virtual Hosts API from Wowza — 42 operation(s) for virtual hosts.
   name: Wowza Virtual Hosts API
   slug: wowza-virtual-hosts-api
-- description: <blockquote>The <strong>VOD stream</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to video on demand (VOD) streams, whic
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: <blockquote>The <strong>VOD stream</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to video on demand (VOD) streams, whic
   name: Wowza vod_streams API
   slug: wowza-vod-streams-api
-- description: The Webhooks API from Wowza — 6 operation(s) for webhooks.
+- baseURL: https://api.video.wowza.com/api/v2.0
+  baseurl_source: declared
+  description: The Webhooks API from Wowza — 6 operation(s) for webhooks.
   name: Wowza Webhooks API
   slug: wowza-webhooks-api
 artifact_total: 141
@@ -545,7 +633,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -555,7 +643,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 49.6
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -564,7 +652,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wowza/refs/heads/main/screenshots/wowza-2026-06-20T201630.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,28 +44,42 @@ agentic_access:
   summary_line: 11 operations · 2 acting
 api_count: 1
 apis:
-- description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets, supporting real-time telemetry streaming, command and control, and devi
+- baseURL: https://api.thingworx.example.com
+  baseurl_source: declared
+  description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets, supporting real-time telemetry streaming, command and control, and devi
   name: PTC ThingWorx WebSocket/AlwaysOn API
   slug: thingworx-websocket-api
 - description: PTC Windchill REST API provides product lifecycle management and PDM access for CAD data management, bill of materials, change management, workflow automation, and product lifecycle workflows in manuf
   name: PTC Windchill REST API
   slug: windchill-rest-api
-- description: Data shape definitions
+- baseURL: https://api.thingworx.example.com/Thingworx
+  baseurl_source: declared
+  description: Data shape definitions
   name: ptc-thingworx DataShapes API
   slug: ptc-thingworx-datashapes-api
-- description: Event management and subscription
+- baseURL: https://api.thingworx.example.com/Thingworx
+  baseurl_source: declared
+  description: Event management and subscription
   name: ptc-thingworx Events API
   slug: ptc-thingworx-events-api
-- description: Thing property read/write
+- baseURL: https://api.thingworx.example.com/Thingworx
+  baseurl_source: declared
+  description: Thing property read/write
   name: ptc-thingworx Properties API
   slug: ptc-thingworx-properties-api
-- description: Thing (digital twin) management
+- baseURL: https://api.thingworx.example.com/Thingworx
+  baseurl_source: declared
+  description: Thing (digital twin) management
   name: ptc-thingworx Things API
   slug: ptc-thingworx-things-api
-- description: Thing template management
+- baseURL: https://api.thingworx.example.com/Thingworx
+  baseurl_source: declared
+  description: Thing template management
   name: ptc-thingworx ThingTemplates API
   slug: ptc-thingworx-thingtemplates-api
-- description: Time-series property streams
+- baseURL: https://api.thingworx.example.com/Thingworx
+  baseurl_source: declared
+  description: Time-series property streams
   name: ptc-thingworx ValueStreams API
   slug: ptc-thingworx-valuestreams-api
 artifact_total: 28
@@ -230,7 +244,7 @@ score:
     catalog_gap: 68.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -240,7 +254,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 36.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -250,10 +264,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

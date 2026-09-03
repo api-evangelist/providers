@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,85 +36,137 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The 3d API from LocalAI — 2 operation(s) for 3d.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The 3d API from LocalAI — 2 operation(s) for 3d.
   name: LocalAI 3d API
   slug: localai-3d-api
-- description: The agent-jobs API from LocalAI — 7 operation(s) for agent-jobs.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The agent-jobs API from LocalAI — 7 operation(s) for agent-jobs.
   name: LocalAI Agent Jobs API
   slug: localai-agent-jobs-api
-- description: The audio API from LocalAI — 14 operation(s) for audio.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The audio API from LocalAI — 14 operation(s) for audio.
   name: LocalAI Audio API
   slug: localai-audio-api
-- description: The backends API from LocalAI — 11 operation(s) for backends.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The backends API from LocalAI — 11 operation(s) for backends.
   name: LocalAI Backends API
   slug: localai-backends-api
-- description: The branding API from LocalAI — 3 operation(s) for branding.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The branding API from LocalAI — 3 operation(s) for branding.
   name: LocalAI Branding API
   slug: localai-branding-api
-- description: The config API from LocalAI — 6 operation(s) for config.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The config API from LocalAI — 6 operation(s) for config.
   name: LocalAI Config API
   slug: localai-config-api
-- description: The depth API from LocalAI — 1 operation(s) for depth.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The depth API from LocalAI — 1 operation(s) for depth.
   name: LocalAI Depth API
   slug: localai-depth-api
-- description: The detection API from LocalAI — 1 operation(s) for detection.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The detection API from LocalAI — 1 operation(s) for detection.
   name: LocalAI Detection API
   slug: localai-detection-api
-- description: The embeddings API from LocalAI — 1 operation(s) for embeddings.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The embeddings API from LocalAI — 1 operation(s) for embeddings.
   name: LocalAI Embeddings API
   slug: localai-embeddings-api
-- description: The face-recognition API from LocalAI — 6 operation(s) for face-recognition.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The face-recognition API from LocalAI — 6 operation(s) for face-recognition.
   name: LocalAI Face Recognition API
   slug: localai-face-recognition-api
-- description: The images API from LocalAI — 3 operation(s) for images.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The images API from LocalAI — 3 operation(s) for images.
   name: LocalAI Images API
   slug: localai-images-api
-- description: The inference API from LocalAI — 7 operation(s) for inference.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The inference API from LocalAI — 7 operation(s) for inference.
   name: LocalAI Inference API
   slug: localai-inference-api
-- description: The instructions API from LocalAI — 2 operation(s) for instructions.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The instructions API from LocalAI — 2 operation(s) for instructions.
   name: LocalAI Instructions API
   slug: localai-instructions-api
-- description: The mcp API from LocalAI — 1 operation(s) for mcp.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The mcp API from LocalAI — 1 operation(s) for mcp.
   name: LocalAI MCP API
   slug: localai-mcp-api
-- description: The models API from LocalAI — 10 operation(s) for models.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The models API from LocalAI — 10 operation(s) for models.
   name: LocalAI Models API
   slug: localai-models-api
-- description: The moderation API from LocalAI — 1 operation(s) for moderation.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The moderation API from LocalAI — 1 operation(s) for moderation.
   name: LocalAI Moderation API
   slug: localai-moderation-api
-- description: The monitoring API from LocalAI — 16 operation(s) for monitoring.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The monitoring API from LocalAI — 16 operation(s) for monitoring.
   name: LocalAI Monitoring API
   slug: localai-monitoring-api
-- description: The Nodes API from LocalAI — 3 operation(s) for nodes.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The Nodes API from LocalAI — 3 operation(s) for nodes.
   name: LocalAI Nodes API
   slug: localai-nodes-api
-- description: The p2p API from LocalAI — 2 operation(s) for p2p.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The p2p API from LocalAI — 2 operation(s) for p2p.
   name: LocalAI P2p API
   slug: localai-p2p-api
-- description: The pii API from LocalAI — 2 operation(s) for pii.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The pii API from LocalAI — 2 operation(s) for pii.
   name: LocalAI Pii API
   slug: localai-pii-api
-- description: The rerank API from LocalAI — 1 operation(s) for rerank.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The rerank API from LocalAI — 1 operation(s) for rerank.
   name: LocalAI Rerank API
   slug: localai-rerank-api
-- description: The router API from LocalAI — 3 operation(s) for router.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The router API from LocalAI — 3 operation(s) for router.
   name: LocalAI Router API
   slug: localai-router-api
-- description: The tokenize API from LocalAI — 4 operation(s) for tokenize.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The tokenize API from LocalAI — 4 operation(s) for tokenize.
   name: LocalAI Tokenize API
   slug: localai-tokenize-api
-- description: The video API from LocalAI — 1 operation(s) for video.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The video API from LocalAI — 1 operation(s) for video.
   name: LocalAI Video API
   slug: localai-video-api
-- description: The voice-profiles API from LocalAI — 3 operation(s) for voice-profiles.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The voice-profiles API from LocalAI — 3 operation(s) for voice-profiles.
   name: LocalAI Voice Profiles API
   slug: localai-voice-profiles-api
-- description: The voice-recognition API from LocalAI — 6 operation(s) for voice-recognition.
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The voice-recognition API from LocalAI — 6 operation(s) for voice-recognition.
   name: LocalAI Voice Recognition API
   slug: localai-voice-recognition-api
 artifact_total: 33
@@ -283,21 +348,21 @@ score:
   band: thin
   composite: 39.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 46.1
+    contract_quality: 46.3
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 42.0
+  previous_composite: 39.1
   provenance:
     conformance: derived
     contracts:
@@ -308,8 +373,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/localai/refs/heads/main/screenshots/localai-2026-09-02T150305.png
 security:
 - kind: authentication
   name: Localai Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -53,40 +53,64 @@ apis:
 - description: Envoy Gateway manages Envoy Proxy as a standalone or Kubernetes-based application gateway, implementing and extending the Kubernetes Gateway API. It provides Gateway API extensions including BackendTr
   name: Envoy Gateway API
   slug: envoy-gateway-api
-- description: TLS certificate inspection endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: TLS certificate inspection endpoints
   name: Envoy Certificates API
   slug: envoy-certificates-api
-- description: Chat completions endpoints compatible with the OpenAI Chat API. Routes requests to configured AI backends based on AIGatewayRoute rules.
+- baseURL_template: https://{gateway-host}
+  baseurl_source: spec_template
+  description: Chat completions endpoints compatible with the OpenAI Chat API. Routes requests to configured AI backends based on AIGatewayRoute rules.
   name: Envoy Chat API
   slug: envoy-chat-api
-- description: Upstream cluster inspection and status endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Upstream cluster inspection and status endpoints
   name: Envoy Clusters API
   slug: envoy-clusters-api
-- description: Configuration dump and inspection endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Configuration dump and inspection endpoints
   name: Envoy Configuration API
   slug: envoy-configuration-api
-- description: Health check management endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Health check management endpoints
   name: Envoy Health API
   slug: envoy-health-api
-- description: Listener inspection and drain endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Listener inspection and drain endpoints
   name: Envoy Listeners API
   slug: envoy-listeners-api
-- description: Log level management endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Log level management endpoints
   name: Envoy Logging API
   slug: envoy-logging-api
-- description: Model listing endpoints for discovering available AI models configured in the gateway routes.
+- baseURL_template: https://{gateway-host}
+  baseurl_source: spec_template
+  description: Model listing endpoints for discovering available AI models configured in the gateway routes.
   name: Envoy Models API
   slug: envoy-models-api
-- description: Runtime settings management endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Runtime settings management endpoints
   name: Envoy Runtime API
   slug: envoy-runtime-api
-- description: Server management, lifecycle, and information endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Server management, lifecycle, and information endpoints
   name: Envoy Server API
   slug: envoy-server-api
-- description: Statistics, metrics, and Prometheus endpoints
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Statistics, metrics, and Prometheus endpoints
   name: Envoy Statistics API
   slug: envoy-statistics-api
-- description: Legacy text completions endpoints compatible with the OpenAI completions API.
+- baseURL_template: https://{gateway-host}
+  baseurl_source: spec_template
+  description: Legacy text completions endpoints compatible with the OpenAI completions API.
   name: Envoy Text Completions API
   slug: envoy-text-completions-api
 artifact_total: 42
@@ -312,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/screenshots/envoy-2026-06-20T180740.png
 security:

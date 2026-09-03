@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 31 operations · 18 acting
 api_count: 1
 apis:
-- description: Activity logs, activity events, and stream stats.
+- baseURL: https://api.castr.com/v2
+  baseurl_source: declared
+  description: Activity logs, activity events, and stream stats.
   name: Castr Analytics API
   slug: castr-live-analytics-api
-- description: Live streams and their multistream platform destinations.
+- baseURL: https://api.castr.com/v2
+  baseurl_source: declared
+  description: Live streams and their multistream platform destinations.
   name: Castr Live Streams API
   slug: castr-live-live-streams-api
-- description: Ultra-low-latency (WebRTC) live streams.
+- baseURL: https://api.castr.com/v2
+  baseurl_source: declared
+  description: Ultra-low-latency (WebRTC) live streams.
   name: Castr Sub-Second Streams API
   slug: castr-live-sub-second-streams-api
-- description: Video hosting folders, uploads, and live-to-VOD recordings.
+- baseURL: https://api.castr.com/v2
+  baseurl_source: declared
+  description: Video hosting folders, uploads, and live-to-VOD recordings.
   name: Castr Video Hosting API
   slug: castr-live-video-hosting-api
-- description: Webhook endpoints for event delivery.
+- baseURL: https://api.castr.com/v2
+  baseurl_source: declared
+  description: Webhook endpoints for event delivery.
   name: Castr Webhooks API
   slug: castr-live-webhooks-api
 artifact_total: 18
@@ -187,7 +197,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castr-live/refs/heads/main/screenshots/castr-live-2026-07-25T204743.png
 security:

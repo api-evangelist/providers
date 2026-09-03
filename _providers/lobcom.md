@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -43,100 +43,164 @@ agentic_access:
   summary_line: 105 operations · 61 acting
 api_count: 1
 apis:
-- description: The Accounts API from Lob.com — 1 operation(s) for accounts.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Accounts API from Lob.com — 1 operation(s) for accounts.
   name: Lob.com Accounts API
   slug: lobcom-accounts-api
-- description: To add an address to your address book, you create a new address object. You can retrieve and delete individual addresses as well as get a list of addresses. Addresses are identified by a unique rando
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: To add an address to your address book, you create a new address object. You can retrieve and delete individual addresses as well as get a list of addresses. Addresses are identified by a unique rando
   name: Lob.com Addresses API
   slug: lobcom-addresses-api
-- description: Bank Accounts allow you to store your bank account securely in our system. The API provides endpoints for creating bank accounts, deleting bank accounts, verifying bank accounts, retrieving individual
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Bank Accounts allow you to store your bank account securely in our system. The API provides endpoints for creating bank accounts, deleting bank accounts, verifying bank accounts, retrieving individual
   name: Lob.com Bank Accounts API
   slug: lobcom-bank-accounts-api
-- description: The Billing Groups API allows you to create and view labels that can be attached to certain consumption-based usages of Letters, Checks, Postcards and Self-Mailers to customize your bill. Please check
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Billing Groups API allows you to create and view labels that can be attached to certain consumption-based usages of Letters, Checks, Postcards and Self-Mailers to customize your bill. Please check
   name: Lob.com Billing Groups API
   slug: lobcom-billing-groups-api
-- description: The Booklets API from Lob.com — 2 operation(s) for booklets.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Booklets API from Lob.com — 2 operation(s) for booklets.
   name: Lob.com Booklets API
   slug: lobcom-booklets-api
-- description: The Buckslip Orders endpoint allows you to easily create buckslip orders for existing buckslips. The API provides endpoints for creating buckslip orders and listing buckslip orders for a given bucksli
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Buckslip Orders endpoint allows you to easily create buckslip orders for existing buckslips. The API provides endpoints for creating buckslip orders and listing buckslip orders for a given bucksli
   name: Lob.com Buckslip Orders API
   slug: lobcom-buckslip-orders-api
-- description: 'The Buckslips endpoint allows you to easily create buckslips that can later be used as add-ons for Letters Campaigns. Note that a Letter Campaign with Buckslip add-on requires a minimum send quantity '
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: 'The Buckslips endpoint allows you to easily create buckslips that can later be used as add-ons for Letters Campaigns. Note that a Letter Campaign with Buckslip add-on requires a minimum send quantity '
   name: Lob.com Buckslips API
   slug: lobcom-buckslips-api
-- description: The campaigns endpoint allows you to create and view campaigns that can be used to send multiple letters or postcards. The API provides endpoints for creating campaigns, updating campaigns, retrieving
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The campaigns endpoint allows you to create and view campaigns that can be used to send multiple letters or postcards. The API provides endpoints for creating campaigns, updating campaigns, retrieving
   name: Lob.com Campaigns API
   slug: lobcom-campaigns-api
-- description: The card orders endpoint allows you to easily create card orders for existing cards. The API provides endpoints for creating card orders and listing card orders for a given card. <div class="back-to-t
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The card orders endpoint allows you to easily create card orders for existing cards. The API provides endpoints for creating card orders and listing card orders for a given card. <div class="back-to-t
   name: Lob.com Card Orders API
   slug: lobcom-card-orders-api
-- description: The cards endpoint allows you to easily create cards that can later be affixed to Letters. The API provides endpoints for creating cards, retrieving individual cards, creating card orders, and retriev
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The cards endpoint allows you to easily create cards that can later be affixed to Letters. The API provides endpoints for creating cards, retrieving individual cards, creating card orders, and retriev
   name: Lob.com Cards API
   slug: lobcom-cards-api
-- description: Checks allow you to send payments via physical checks. The API provides endpoints for creating checks, retrieving individual checks, canceling checks, and retrieving a list of checks. <div class="back
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Checks allow you to send payments via physical checks. The API provides endpoints for creating checks, retrieving individual checks, canceling checks, and retrieving a list of checks. <div class="back
   name: Lob.com Checks API
   slug: lobcom-checks-api
-- description: The creatives endpoint allows you to create and view creatives. Creatives are used to create reusable letter and postcard templates. The API provides endpoints for creating creatives, updating creativ
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The creatives endpoint allows you to create and view creatives. Creatives are used to create reusable letter and postcard templates. The API provides endpoints for creating creatives, updating creativ
   name: Lob.com Creatives API
   slug: lobcom-creatives-api
-- description: Validates whether a given name is associated with an address. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Validates whether a given name is associated with an address. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
   name: Lob.com Identity Validation API
   slug: lobcom-identity-validation-api
-- description: The Informed Delivery campaigns API allows you to create and view Informed Delivery campaigns. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Informed Delivery campaigns API allows you to create and view Informed Delivery campaigns. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
   name: Lob.com Informed Delivery Campaign API
   slug: lobcom-informed-delivery-campaign-api
-- description: 'Address verification for non-US addresses <br> <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div> ## Intl Verifications Test Env When verifying international addresses, '
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: 'Address verification for non-US addresses <br> <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div> ## Intl Verifications Test Env When verifying international addresses, '
   name: Lob.com Intl Verifications API
   slug: lobcom-intl-verifications-api
-- description: The letters endpoint allows you to easily print and mail letters. The API provides endpoints for creating letters, retrieving individual letters, canceling letters, and retrieving a list of letters. <
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The letters endpoint allows you to easily print and mail letters. The API provides endpoints for creating letters, retrieving individual letters, canceling letters, and retrieving a list of letters. <
   name: Lob.com Letters API
   slug: lobcom-letters-api
-- description: The Lob Credits API from Lob.com — 1 operation(s) for lob credits.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Lob Credits API from Lob.com — 1 operation(s) for lob credits.
   name: Lob.com Lob Credits API
   slug: lobcom-lob-credits-api
-- description: 'The postcards endpoint allows you to easily print and mail postcards. The API provides endpoints for creating postcards, retrieving individual postcards, canceling postcards, and retrieving a list of '
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: 'The postcards endpoint allows you to easily print and mail postcards. The API provides endpoints for creating postcards, retrieving individual postcards, canceling postcards, and retrieving a list of '
   name: Lob.com Postcards API
   slug: lobcom-postcards-api
-- description: Lob QR codes allow you to generate a QR code that is unique to each mailpiece, thereby allowing each and every customers to receive a personalized link. See the Create endpoint for <a href="#tag/Lette
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Lob QR codes allow you to generate a QR code that is unique to each mailpiece, thereby allowing each and every customers to receive a personalized link. See the Create endpoint for <a href="#tag/Lette
   name: Lob.com QR Codes API
   slug: lobcom-qr-codes-api
-- description: The resource proofs endpoint allows you to create a final rendering of any template. This is best practice to ensure that you are visually validating your creative before any mail pieces use the templ
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The resource proofs endpoint allows you to create a final rendering of any template. This is best practice to ensure that you are visually validating your creative before any mail pieces use the templ
   name: Lob.com Resource Proofs API
   slug: lobcom-resource-proofs-api
-- description: Find a list of zip codes associated with a valid US location via latitude and longitude. <br> <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Find a list of zip codes associated with a valid US location via latitude and longitude. <br> <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
   name: Lob.com Reverse Geocode Lookups API
   slug: lobcom-reverse-geocode-lookups-api
-- description: The self mailer endpoint allows you to easily print and mail self mailers. The API provides endpoints for creating self mailers, retrieving individual self mailers, canceling self mailers, and retriev
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The self mailer endpoint allows you to easily print and mail self mailers. The API provides endpoints for creating self mailers, retrieving individual self mailers, canceling self mailers, and retriev
   name: Lob.com Self Mailers API
   slug: lobcom-self-mailers-api
-- description: The Snap Packs API from Lob.com — 2 operation(s) for snap packs.
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The Snap Packs API from Lob.com — 2 operation(s) for snap packs.
   name: Lob.com Snap Packs API
   slug: lobcom-snap-packs-api
-- description: These API endpoints allow you to create, retrieve, update and delete versions of reusable HTML templates for use with the Print & Mail API. <div class="back-to-top" ><a href="#" onclick="toTopLink()">
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: These API endpoints allow you to create, retrieve, update and delete versions of reusable HTML templates for use with the Print & Mail API. <div class="back-to-top" ><a href="#" onclick="toTopLink()">
   name: Lob.com Template Versions API
   slug: lobcom-template-versions-api
-- description: These API endpoints allow you to create, retrieve, update and delete reusable HTML templates for use with the Print & Mail API. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top<
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: These API endpoints allow you to create, retrieve, update and delete reusable HTML templates for use with the Print & Mail API. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top<
   name: Lob.com Templates API
   slug: lobcom-templates-api
-- description: The uploads endpoint allows you to upload audience files that are then associated with a given campaign. At this time, only CSV files are allowed. The API provides endpoints for creating uploads, uplo
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: The uploads endpoint allows you to upload audience files that are then associated with a given campaign. At this time, only CSV files are allowed. The API provides endpoints for creating uploads, uplo
   name: Lob.com Uploads API
   slug: lobcom-uploads-api
-- description: Lob's URL shortener allows you to generate unique short links, either with Lob's own domain or your own custom domains. Each custom link enables Lob to track mail individually and provide customers th
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Lob's URL shortener allows you to generate unique short links, either with Lob's own domain or your own custom domains. Each custom link enables Lob to track mail individually and provide customers th
   name: Lob.com URL Shortener API
   slug: lobcom-url-shortener-api
-- description: 'Given partial address information, this endpoint returns up to 10 address suggestions. <br> <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div> ## Autocompletion Test Env'
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: 'Given partial address information, this endpoint returns up to 10 address suggestions. <br> <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div> ## Autocompletion Test Env'
   name: Lob.com US Autocompletions API
   slug: lobcom-us-autocompletions-api
-- description: Validate, automatically correct, and standardize the addresses in your address book based on USPS's <a href="https://postalpro.usps.com/certifications/cass" target="_blank">Coding Accuracy Support Sys
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Validate, automatically correct, and standardize the addresses in your address book based on USPS's <a href="https://postalpro.usps.com/certifications/cass" target="_blank">Coding Accuracy Support Sys
   name: Lob.com US Verifications API
   slug: lobcom-us-verifications-api
-- description: Find a list of cities, states and associated information about a US ZIP code. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: Find a list of cities, states and associated information about a US ZIP code. <div class="back-to-top" ><a href="#" onclick="toTopLink()">back to top</a></div>
   name: Lob.com Zip Lookups API
   slug: lobcom-zip-lookups-api
-- description: When various notable things happen within the Lob architecture, Events will be created. To get these events sent to your server automatically when they occur, you can set up [Webhooks](#tag/Webhooks).
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: When various notable things happen within the Lob architecture, Events will be created. To get these events sent to your server automatically when they occur, you can set up [Webhooks](#tag/Webhooks).
   name: Lob.com Events API
   slug: lobcom-events-api
-- description: As mailpieces travel through the mail stream, USPS scans their unique barcodes, and Lob processes these mail scans to generate tracking events. <h3>Certified Tracking Event Details</h3> Letters sent w
+- baseURL: https://api.lob.com/v1
+  baseurl_source: declared
+  description: As mailpieces travel through the mail stream, USPS scans their unique barcodes, and Lob processes these mail scans to generate tracking events. <h3>Certified Tracking Event Details</h3> Letters sent w
   name: Lob.com Tracking Events API
   slug: lobcom-tracking-events-api
 artifact_total: 73
@@ -457,7 +521,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -467,7 +531,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 77.6
-  previous_composite: 63.8
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -479,7 +543,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

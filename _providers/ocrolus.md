@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 82 operations · 34 acting · 1 human-in-the-loop
 api_count: 14
 apis:
-- description: The Book Commands API from Ocrolus — 3 operation(s) for book commands.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Book Commands API from Ocrolus — 3 operation(s) for book commands.
   name: Ocrolus Book Commands API
   slug: ocrolus-book-commands-api
-- description: The Book Queries API from Ocrolus — 5 operation(s) for book queries.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Book Queries API from Ocrolus — 5 operation(s) for book queries.
   name: Ocrolus Book Queries API
   slug: ocrolus-book-queries-api
-- description: The Business history API from Ocrolus — 4 operation(s) for business history.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Business history API from Ocrolus — 4 operation(s) for business history.
   name: Ocrolus Business history API
   slug: ocrolus-business-history-api
-- description: The Business Verification (Deprecated) API from Ocrolus — 3 operation(s) for business verification (deprecated).
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Business Verification (Deprecated) API from Ocrolus — 3 operation(s) for business verification (deprecated).
   name: Ocrolus Business Verification (Deprecated) API
   slug: ocrolus-business-verification-deprecated-api
-- description: The Capture API from Ocrolus — 7 operation(s) for capture.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Capture API from Ocrolus — 7 operation(s) for capture.
   name: Ocrolus Capture API
   slug: ocrolus-capture-api
-- description: The Cash Flow Analytics API from Ocrolus — 10 operation(s) for cash flow analytics.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Cash Flow Analytics API from Ocrolus — 10 operation(s) for cash flow analytics.
   name: Ocrolus Cash Flow Analytics API
   slug: ocrolus-cash-flow-analytics-api
-- description: The Detect API from Ocrolus — 4 operation(s) for detect.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Detect API from Ocrolus — 4 operation(s) for detect.
   name: Ocrolus Detect API
   slug: ocrolus-detect-api
-- description: The Encore API from Ocrolus — 5 operation(s) for encore.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Encore API from Ocrolus — 5 operation(s) for encore.
   name: Ocrolus Encore API
   slug: ocrolus-encore-api
-- description: The File Uploads API from Ocrolus — 7 operation(s) for file uploads.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The File Uploads API from Ocrolus — 7 operation(s) for file uploads.
   name: Ocrolus File Uploads API
   slug: ocrolus-file-uploads-api
-- description: The Income API from Ocrolus — 5 operation(s) for income.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Income API from Ocrolus — 5 operation(s) for income.
   name: Ocrolus Income API
   slug: ocrolus-income-api
-- description: The Legacy Cash Flow Analytics (Deprecated) API from Ocrolus — 4 operation(s) for legacy cash flow analytics (deprecated).
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Legacy Cash Flow Analytics (Deprecated) API from Ocrolus — 4 operation(s) for legacy cash flow analytics (deprecated).
   name: Ocrolus Legacy Cash Flow Analytics (Deprecated) API
   slug: ocrolus-legacy-cash-flow-analytics-deprecated-api
-- description: The Oauth API from Ocrolus — 1 operation(s) for oauth.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Oauth API from Ocrolus — 1 operation(s) for oauth.
   name: Ocrolus Oauth API
   slug: ocrolus-oauth-api
-- description: The Org Level Webhooks API from Ocrolus — 8 operation(s) for org level webhooks.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Org Level Webhooks API from Ocrolus — 8 operation(s) for org level webhooks.
   name: Ocrolus Org Level Webhooks API
   slug: ocrolus-org-level-webhooks-api
-- description: The Tag Management API from Ocrolus — 4 operation(s) for tag management.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Tag Management API from Ocrolus — 4 operation(s) for tag management.
   name: Ocrolus Tag Management API
   slug: ocrolus-tag-management-api
-- description: The User management API from Ocrolus — 2 operation(s) for user management.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The User management API from Ocrolus — 2 operation(s) for user management.
   name: Ocrolus User management API
   slug: ocrolus-user-management-api
-- description: The Webhooks API from Ocrolus — 4 operation(s) for webhooks.
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Webhooks API from Ocrolus — 4 operation(s) for webhooks.
   name: Ocrolus Webhooks API
   slug: ocrolus-webhooks-api
 artifact_total: 57
@@ -410,7 +442,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -420,7 +452,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 69.7
-  previous_composite: 57.5
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -446,7 +478,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:

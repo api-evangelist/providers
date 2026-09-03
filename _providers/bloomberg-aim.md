@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -47,55 +47,89 @@ apis:
 - description: Server API delivers real-time market data, historical data, premium reference data, and calculation tools from the Bloomberg Terminal into front-office applications.
   name: Bloomberg Server API (SAPI)
   slug: bloomberg-server-api
-- description: Query available broker strategies and parameters
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Query available broker strategies and parameters
   name: Bloomberg AIM Broker Strategies API
   slug: bloomberg-aim-broker-strategies-api
-- description: Browse available data catalogs and their contents
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Browse available data catalogs and their contents
   name: Bloomberg AIM Catalogs API
   slug: bloomberg-aim-catalogs-api
-- description: Access completed data distributions and downloads
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Access completed data distributions and downloads
   name: Bloomberg AIM Distributions API
   slug: bloomberg-aim-distributions-api
-- description: Manage field lists for data requests
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Manage field lists for data requests
   name: Bloomberg AIM Field Lists API
   slug: bloomberg-aim-field-lists-api
-- description: Search and discover available data fields
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Search and discover available data fields
   name: Bloomberg AIM Field Search API
   slug: bloomberg-aim-field-search-api
-- description: Track order and route fills
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Track order and route fills
   name: Bloomberg AIM Fills API
   slug: bloomberg-aim-fills-api
-- description: Request historical end-of-day or intraday data
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Request historical end-of-day or intraday data
   name: Bloomberg AIM Historical Data API
   slug: bloomberg-aim-historical-data-api
-- description: Search for securities and instruments
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Search for securities and instruments
   name: Bloomberg AIM Instruments API
   slug: bloomberg-aim-instruments-api
-- description: Request intraday tick or bar data
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Request intraday tick or bar data
   name: Bloomberg AIM Intraday Data API
   slug: bloomberg-aim-intraday-data-api
-- description: Create, modify, and manage orders
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Create, modify, and manage orders
   name: Bloomberg AIM Orders API
   slug: bloomberg-aim-orders-api
-- description: Request reference (static) data for securities
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Request reference (static) data for securities
   name: Bloomberg AIM Reference Data API
   slug: bloomberg-aim-reference-data-api
-- description: Access request reply data
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Access request reply data
   name: Bloomberg AIM Replies API
   slug: bloomberg-aim-replies-api
-- description: Create and manage data requests
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Create and manage data requests
   name: Bloomberg AIM Requests API
   slug: bloomberg-aim-requests-api
-- description: Create, modify, and manage routes to brokers
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Create, modify, and manage routes to brokers
   name: Bloomberg AIM Routes API
   slug: bloomberg-aim-routes-api
-- description: Manage EMSX teams and assignments
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Manage EMSX teams and assignments
   name: Bloomberg AIM Teams API
   slug: bloomberg-aim-teams-api
-- description: Configure scheduling triggers for data delivery
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Configure scheduling triggers for data delivery
   name: Bloomberg AIM Triggers API
   slug: bloomberg-aim-triggers-api
-- description: Manage security universes for data requests
+- baseURL: https://api.bloomberg.com/eap
+  baseurl_source: declared
+  description: Manage security universes for data requests
   name: Bloomberg AIM Universes API
   slug: bloomberg-aim-universes-api
 artifact_total: 329
@@ -1123,7 +1157,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -1136,7 +1170,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 51.1
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1151,7 +1185,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:

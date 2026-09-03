@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Public OAI-PMH 2.0 endpoint for CityUHK Scholars, the university's research information system and institutional repository. The Identify verb returns repositoryName "CityUHK Scholars" with records fr
@@ -147,7 +147,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -157,7 +157,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 19.7
+  previous_composite: 20.8
   provenance:
     conformance: first-party
   regulatory:
@@ -167,7 +167,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/screenshots/cityu-2026-06-20T174434.png
 security:

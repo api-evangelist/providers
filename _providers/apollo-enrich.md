@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 14 operations · 13 acting
 api_count: 1
 apis:
-- description: Manage accounts (companies) saved to your Apollo team.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Manage accounts (companies) saved to your Apollo team.
   name: Apollo.io Accounts API
   slug: apollo-enrich-accounts-api
-- description: Manage contacts saved in your Apollo account.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Manage contacts saved in your Apollo account.
   name: Apollo.io Contacts API
   slug: apollo-enrich-contacts-api
-- description: Match and enrich company records, single or in bulk.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Match and enrich company records, single or in bulk.
   name: Apollo.io Organization Enrichment API
   slug: apollo-enrich-organization-enrichment-api
-- description: Search Apollo's company database.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Search Apollo's company database.
   name: Apollo.io Organization Search API
   slug: apollo-enrich-organization-search-api
-- description: Match and enrich person records, single or in bulk.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Match and enrich person records, single or in bulk.
   name: Apollo.io People Enrichment API
   slug: apollo-enrich-people-enrichment-api
-- description: Search Apollo's people database for prospects.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Search Apollo's people database for prospects.
   name: Apollo.io People Search API
   slug: apollo-enrich-people-search-api
-- description: Manage sequences (emailer campaigns) and outreach emails.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Manage sequences (emailer campaigns) and outreach emails.
   name: Apollo.io Sequences API
   slug: apollo-enrich-sequences-api
 artifact_total: 21
@@ -195,7 +209,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/screenshots/apollo-enrich-2026-07-25T200708.png
 security:

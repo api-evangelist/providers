@@ -34,88 +34,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
   name: Knak Asset Custom Fieldsets API
   slug: knak-asset-custom-fieldsets-api
-- description: The AssetFolders API from Knak — 2 operation(s) for assetfolders.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The AssetFolders API from Knak — 2 operation(s) for assetfolders.
   name: Knak AssetFolders API
   slug: knak-assetfolders-api
-- description: The Assets API from Knak — 7 operation(s) for assets.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Assets API from Knak — 7 operation(s) for assets.
   name: Knak Assets API
   slug: knak-assets-api
-- description: The AvailablePlatforms API from Knak — 1 operation(s) for availableplatforms.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The AvailablePlatforms API from Knak — 1 operation(s) for availableplatforms.
   name: Knak AvailablePlatforms API
   slug: knak-availableplatforms-api
-- description: The Brands API from Knak — 1 operation(s) for brands.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Brands API from Knak — 1 operation(s) for brands.
   name: Knak Brands API
   slug: knak-brands-api
-- description: Create, retrieve and list contacts in Knak Send.
+- baseURL: https://send.knak.io/api/public/v1
+  baseurl_source: declared
+  description: Create, retrieve and list contacts in Knak Send.
   name: Knak Contacts API
   slug: knak-contacts-api
-- description: Endpoints to retrieve DAM Assets. This is a contract the CUSTOMER implements so Knak can browse images from their own digital asset management system; the base URL is the placeholder host Knak publish
+- baseURL: https://yourService.com/yourDamApi
+  baseurl_source: declared
+  description: Endpoints to retrieve DAM Assets. This is a contract the CUSTOMER implements so Knak can browse images from their own digital asset management system; the base URL is the placeholder host Knak publish
   name: Knak DAM Assets API
   slug: knak-dam-assets-api
-- description: Create and list custom contact fields (schema metadata).
+- baseURL: https://send.knak.io/api/public/v1
+  baseurl_source: declared
+  description: Create and list custom contact fields (schema metadata).
   name: Knak Fields API
   slug: knak-fields-api
-- description: The Integrations API from Knak — 1 operation(s) for integrations.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Integrations API from Knak — 1 operation(s) for integrations.
   name: Knak Integrations API
   slug: knak-integrations-api
-- description: The MarketingPlatformSyncs API from Knak — 1 operation(s) for marketingplatformsyncs.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The MarketingPlatformSyncs API from Knak — 1 operation(s) for marketingplatformsyncs.
   name: Knak MarketingPlatformSyncs API
   slug: knak-marketingplatformsyncs-api
-- description: The MergeTags API from Knak — 2 operation(s) for mergetags.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The MergeTags API from Knak — 2 operation(s) for mergetags.
   name: Knak MergeTags API
   slug: knak-mergetags-api
-- description: The Modules API from Knak — 3 operation(s) for modules.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Modules API from Knak — 3 operation(s) for modules.
   name: Knak Modules API
   slug: knak-modules-api
-- description: 'Endpoints that need to be implemented to support OAuth2 — the token and authorize endpoints a CUSTOMER exposes so Knak can authenticate against their Custom DAM or Custom Sync Location service. Not a '
+- baseURL: https://yourService.com/yourDamApi
+  baseurl_source: declared
+  description: 'Endpoints that need to be implemented to support OAuth2 — the token and authorize endpoints a CUSTOMER exposes so Knak can authenticate against their Custom DAM or Custom Sync Location service. Not a '
   name: Knak OAuth2 API
   slug: knak-oauth2-api
-- description: The Project Management API from Knak — 1 operation(s) for project management.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Project Management API from Knak — 1 operation(s) for project management.
   name: Knak Project Management API
   slug: knak-project-management-api
-- description: The health-check ping every Knak customer-implemented contract must expose — 1 operation (GET /v1/ping). Implemented by the CUSTOMER, not by Knak; the base URL is the placeholder host Knak publishes i
+- baseURL: https://yourService.com/yourValidationApi
+  baseurl_source: declared
+  description: The health-check ping every Knak customer-implemented contract must expose — 1 operation (GET /v1/ping). Implemented by the CUSTOMER, not by Knak; the base URL is the placeholder host Knak publishes i
   name: Knak Status API
   slug: knak-status-api
-- description: Endpoints to retrieve Sync Location. This is a contract the CUSTOMER implements so their own logic determines and restricts the sync location for Knak assets; the base URL is the placeholder host Knak
+- baseURL: https://yourService.com/your-sync-location-api
+  baseurl_source: declared
+  description: Endpoints to retrieve Sync Location. This is a contract the CUSTOMER implements so their own logic determines and restricts the sync location for Knak assets; the base URL is the placeholder host Knak
   name: Knak Sync Location API
   slug: knak-sync-location-api
-- description: The SyncStatuses API from Knak — 1 operation(s) for syncstatuses.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The SyncStatuses API from Knak — 1 operation(s) for syncstatuses.
   name: Knak SyncStatuses API
   slug: knak-syncstatuses-api
-- description: The Themes API from Knak — 2 operation(s) for themes.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Themes API from Knak — 2 operation(s) for themes.
   name: Knak Themes API
   slug: knak-themes-api
-- description: The TranslationRequests API from Knak — 5 operation(s) for translationrequests.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The TranslationRequests API from Knak — 5 operation(s) for translationrequests.
   name: Knak TranslationRequests API
   slug: knak-translationrequests-api
-- description: The Users API from Knak — 4 operation(s) for users.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Users API from Knak — 4 operation(s) for users.
   name: Knak Users API
   slug: knak-users-api
-- description: The Custom Validator contract — 1 operation. This is a contract the CUSTOMER implements so Knak can run assets through their own validation pipeline; the base URL is the placeholder host Knak publishe
+- baseURL: https://yourService.com/yourValidationApi
+  baseurl_source: declared
+  description: The Custom Validator contract — 1 operation. This is a contract the CUSTOMER implements so Knak can run assets through their own validation pipeline; the base URL is the placeholder host Knak publishe
   name: Knak Validation API
   slug: knak-validation-api
-- description: The asset.approval_status_updated API from Knak — 0 operation(s) for asset.approval_status_updated.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The asset.approval_status_updated API from Knak — 0 operation(s) for asset.approval_status_updated.
   name: Knak Asset.approval Status Updated API
   slug: knak-asset-approval-status-updated-api
-- description: The asset.created API from Knak — 0 operation(s) for asset.created.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The asset.created API from Knak — 0 operation(s) for asset.created.
   name: Knak Asset.created API
   slug: knak-asset-created-api
-- description: The asset.sync_confirmation_responded API from Knak — 0 operation(s) for asset.sync_confirmation_responded.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The asset.sync_confirmation_responded API from Knak — 0 operation(s) for asset.sync_confirmation_responded.
   name: Knak Asset.sync Confirmation Responded API
   slug: knak-asset-sync-confirmation-responded-api
-- description: The asset.sync_requested API from Knak — 0 operation(s) for asset.sync_requested.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The asset.sync_requested API from Knak — 0 operation(s) for asset.sync_requested.
   name: Knak Asset.sync Requested API
   slug: knak-asset-sync-requested-api
-- description: The asset.translation_requested API from Knak — 0 operation(s) for asset.translation_requested.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The asset.translation_requested API from Knak — 0 operation(s) for asset.translation_requested.
   name: Knak Asset.translation Requested API
   slug: knak-asset-translation-requested-api
-- description: The translation_request.created API from Knak — 0 operation(s) for translation_request.created.
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The translation_request.created API from Knak — 0 operation(s) for translation_request.created.
   name: Knak Translation Request.created API
   slug: knak-translation-request-created-api
 artifact_total: 58
@@ -396,7 +450,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -406,7 +460,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 56.5
+  previous_composite: 56.3
   provenance:
     conformance: derived
     contracts:
@@ -417,7 +471,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png
 security:

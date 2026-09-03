@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 9 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Core tracking operations for registering, retrieving, and managing shipment tracking numbers.
+- baseURL: https://api.17track.net/track/v1
+  baseurl_source: declared
+  description: Core tracking operations for registering, retrieving, and managing shipment tracking numbers.
   name: 17TRACK Tracking API
   slug: 17track-tracking-api
-- description: Webhook push notification management for receiving automatic tracking updates.
+- baseURL: https://api.17track.net/track/v1
+  baseurl_source: declared
+  description: Webhook push notification management for receiving automatic tracking updates.
   name: 17TRACK Webhooks API
   slug: 17track-webhooks-api
 artifact_total: 25
@@ -230,7 +234,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/screenshots/17track-2026-06-20T162321.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,19 +49,27 @@ apis:
 - description: 'The AugustusRFQ API enables market makers to integrate with ParaSwap''s on-chain limit order and Request-for-Quote system, supporting fungible token (ERC-20) and NFT trading. Market makers implement a '
   name: ParaSwap AugustusRFQ API
   slug: paraswap-augustusrfq-api
-- description: 'Retrieves the curated list of tokens supported across all ParaSwap-integrated networks. Returns token metadata including symbol, contract address, decimals, and icon image URL. Supports all 12 active '
+- baseURL: https://api.paraswap.io
+  baseurl_source: declared
+  description: 'Retrieves the curated list of tokens supported across all ParaSwap-integrated networks. Returns token metadata including symbol, contract address, decimals, and icon image URL. Supports all 12 active '
   name: ParaSwap Tokens API
   slug: paraswap-tokens-api
 - description: ParaSwap exposes TheGraph subgraphs for historical swap data and limit order/RFQ activity across multiple networks. Augustus v5 subgraphs cover standard DEX swaps on Ethereum, Arbitrum, Avalanche, Bas
   name: ParaSwap Subgraphs (GraphQL)
   slug: paraswap-subgraphs
-- description: Get swap path and pricing.
+- baseURL: https://api.paraswap.io
+  baseurl_source: declared
+  description: Get swap path and pricing.
   name: ParaSwap prices API
   slug: paraswap-prices-api
-- description: Return tokens list from Paraswap
+- baseURL: https://api.paraswap.io
+  baseurl_source: declared
+  description: Return tokens list from Paraswap
   name: ParaSwap tokens API
   slug: paraswap-tokens-api
-- description: Build parameters for a transaction
+- baseURL: https://api.paraswap.io
+  baseurl_source: declared
+  description: Build parameters for a transaction
   name: ParaSwap transactions API
   slug: paraswap-transactions-api
 artifact_total: 23
@@ -226,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paraswap/refs/heads/main/screenshots/paraswap-2026-06-20T191402.png
 security:

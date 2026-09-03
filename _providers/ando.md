@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 25 operations · 8 acting
 api_count: 1
 apis:
-- description: Call detail and transcript routes.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Call detail and transcript routes.
   name: Ando Calls API
   slug: ando-calls-api
-- description: Clipboard detail routes.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Clipboard detail routes.
   name: Ando Clipboards API
   slug: ando-clipboards-api
-- description: Workspace member detail routes. Existing v1 paths keep member compatibility spellings.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Workspace member detail routes. Existing v1 paths keep member compatibility spellings.
   name: Ando Members API
   slug: ando-members-api
-- description: Message and conversation message routes.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Message and conversation message routes.
   name: Ando Messages API
   slug: ando-messages-api
-- description: The Realtime API from Ando — 1 operation(s) for realtime.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: The Realtime API from Ando — 1 operation(s) for realtime.
   name: Ando Realtime API
   slug: ando-realtime-api
-- description: Search routes.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Search routes.
   name: Ando Search API
   slug: ando-search-api
-- description: Task routes.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Task routes.
   name: Ando Tasks API
   slug: ando-tasks-api
-- description: Outbound webhook endpoint and delivery routes.
+- baseURL: https://api.ando.so/v1
+  baseurl_source: declared
+  description: Outbound webhook endpoint and delivery routes.
   name: Ando Webhooks API
   slug: ando-webhooks-api
 artifact_total: 22
@@ -273,7 +289,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -283,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +311,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/screenshots/ando-2026-07-25T200233.png
 security:

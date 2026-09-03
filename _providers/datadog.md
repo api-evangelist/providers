@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 558 operations · 324 acting · 4 human-in-the-loop
 api_count: 6
 apis:
-- description: The Dashboards API allows you to create, update, delete, and retrieve dashboards and dashboard lists. It also supports organizing, finding, and sharing dashboards with your team and organization.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Dashboards API allows you to create, update, delete, and retrieve dashboards and dashboard lists. It also supports organizing, finding, and sharing dashboards with your team and organization.
   name: Datadog Dashboards API
   slug: datadog-dashboards-api
 - description: The Synthetics API allows you to manage API tests and browser tests programmatically. Datadog Synthetics uses simulated user requests and browser rendering to help ensure uptime, identify regional iss
@@ -92,7 +94,9 @@ apis:
 - description: The Processes API allows you to query processes data for your organization. It provides access to live process information collected from hosts running the Datadog Agent.
   name: Datadog Processes API
   slug: datadog-processes-api
-- description: The Teams API allows you to view and manage teams within Datadog. Teams can be associated with incidents, dashboards, and other resources to organize ownership and collaboration within your organizati
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Teams API allows you to view and manage teams within Datadog. Teams can be associated with incidents, dashboards, and other resources to organize ownership and collaboration within your organizati
   name: Datadog Teams API
   slug: datadog-teams-api
 - description: The Workflow Automation API allows you to automate end-to-end processes by connecting Datadog with the rest of your tech stack. It supports over 1,000 out-of-the-box actions including integrations wit
@@ -179,7 +183,9 @@ apis:
 - description: The IP Allowlist API is used to manage the IP addresses that can access the Datadog API and web UI. It allows you to configure IP address restrictions for your organization.
   name: Datadog IP Allowlist API
   slug: datadog-ip-allowlist-api
-- description: The Audit API allows you to search your Audit Logs events over HTTP. It returns Audit Logs events that match an audit search query, providing visibility into actions taken within your organization.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Audit API allows you to search your Audit Logs events over HTTP. It returns Audit Logs events that match an audit search query, providing visibility into actions taken within your organization.
   name: Datadog Audit API
   slug: datadog-audit-api
 - description: The APM API provides endpoints for working with Application Performance Monitoring services and tracing data. It supports querying service-level metrics and trace data collected by Datadog APM.
@@ -281,325 +287,539 @@ apis:
 - description: The Cloud Workload Security API provides endpoints for managing workload protection rules and agent configurations. It monitors file, network, and process activity to detect real-time threats.
   name: Datadog Cloud Workload Security API
   slug: datadog-cloud-workload-security-api
-- description: The Account API from Datadog — 20 operation(s) for account.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Account API from Datadog — 20 operation(s) for account.
   name: Datadog Account API
   slug: datadog-account-api
-- description: The Accounts API from Datadog — 6 operation(s) for accounts.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Accounts API from Datadog — 6 operation(s) for accounts.
   name: Datadog Accounts API
   slug: datadog-accounts-api
-- description: The Acknowledge API from Datadog — 1 operation(s) for acknowledge.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Acknowledge API from Datadog — 1 operation(s) for acknowledge.
   name: Datadog Acknowledge API
   slug: datadog-acknowledge-api
-- description: The Across API from Datadog — 6 operation(s) for across.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Across API from Datadog — 6 operation(s) for across.
   name: Datadog Across API
   slug: datadog-across-api
-- description: The Action API from Datadog — 2 operation(s) for action.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Action API from Datadog — 2 operation(s) for action.
   name: Datadog Action API
   slug: datadog-action-api
-- description: The Active API from Datadog — 3 operation(s) for active.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Active API from Datadog — 3 operation(s) for active.
   name: Datadog Active API
   slug: datadog-active-api
-- description: The Add API from Datadog — 9 operation(s) for add.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Add API from Datadog — 9 operation(s) for add.
   name: Datadog Add API
   slug: datadog-add-api
-- description: The Agent API from Datadog — 4 operation(s) for agent.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Agent API from Datadog — 4 operation(s) for agent.
   name: Datadog Agent API
   slug: datadog-agent-api
-- description: The Agents API from Datadog — 2 operation(s) for agents.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Agents API from Datadog — 2 operation(s) for agents.
   name: Datadog Agents API
   slug: datadog-agents-api
-- description: The Aggregate API from Datadog — 5 operation(s) for aggregate.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Aggregate API from Datadog — 5 operation(s) for aggregate.
   name: Datadog Aggregate API
   slug: datadog-aggregate-api
-- description: The Aggregated API from Datadog — 1 operation(s) for aggregated.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Aggregated API from Datadog — 1 operation(s) for aggregated.
   name: Datadog Aggregated API
   slug: datadog-aggregated-api
-- description: The All API from Datadog — 44 operation(s) for all.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The All API from Datadog — 44 operation(s) for all.
   name: Datadog All API
   slug: datadog-all-api
-- description: The Analysis API from Datadog — 3 operation(s) for analysis.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Analysis API from Datadog — 3 operation(s) for analysis.
   name: Datadog Analysis API
   slug: datadog-analysis-api
-- description: The Applications API from Datadog — 12 operation(s) for applications.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Applications API from Datadog — 12 operation(s) for applications.
   name: Datadog Applications API
   slug: datadog-applications-api
-- description: The Archive API from Datadog — 5 operation(s) for archive.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Archive API from Datadog — 5 operation(s) for archive.
   name: Datadog Archive API
   slug: datadog-archive-api
-- description: The Assets API from Datadog — 2 operation(s) for assets.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Assets API from Datadog — 2 operation(s) for assets.
   name: Datadog Assets API
   slug: datadog-assets-api
-- description: The Assign API from Datadog — 1 operation(s) for assign.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Assign API from Datadog — 1 operation(s) for assign.
   name: Datadog Assign API
   slug: datadog-assign-api
-- description: The Assignee API from Datadog — 1 operation(s) for assignee.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Assignee API from Datadog — 1 operation(s) for assignee.
   name: Datadog Assignee API
   slug: datadog-assignee-api
-- description: The Attachments API from Datadog — 1 operation(s) for attachments.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Attachments API from Datadog — 1 operation(s) for attachments.
   name: Datadog Attachments API
   slug: datadog-attachments-api
-- description: The Attributes API from Datadog — 1 operation(s) for attributes.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Attributes API from Datadog — 1 operation(s) for attributes.
   name: Datadog Attributes API
   slug: datadog-attributes-api
-- description: Search your Audit Logs events over HTTP.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Search your Audit Logs events over HTTP.
   name: Datadog Audit API
   slug: datadog-audit-api
-- description: The Available API from Datadog — 1 operation(s) for available.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Available API from Datadog — 1 operation(s) for available.
   name: Datadog Available API
   slug: datadog-available-api
-- description: The Batch API from Datadog — 2 operation(s) for batch.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Batch API from Datadog — 2 operation(s) for batch.
   name: Datadog Batch API
   slug: datadog-batch-api
-- description: The Billing API from Datadog — 2 operation(s) for billing.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Billing API from Datadog — 2 operation(s) for billing.
   name: Datadog Billing API
   slug: datadog-billing-api
-- description: The Budget API from Datadog — 2 operation(s) for budget.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Budget API from Datadog — 2 operation(s) for budget.
   name: Datadog Budget API
   slug: datadog-budget-api
-- description: The Budgets API from Datadog — 1 operation(s) for budgets.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Budgets API from Datadog — 1 operation(s) for budgets.
   name: Datadog Budgets API
   slug: datadog-budgets-api
-- description: The Cancel API from Datadog — 3 operation(s) for cancel.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Cancel API from Datadog — 3 operation(s) for cancel.
   name: Datadog Cancel API
   slug: datadog-cancel-api
-- description: The Cap API from Datadog — 1 operation(s) for cap.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Cap API from Datadog — 1 operation(s) for cap.
   name: Datadog Cap API
   slug: datadog-cap-api
-- description: The Cardinality API from Datadog — 1 operation(s) for cardinality.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Cardinality API from Datadog — 1 operation(s) for cardinality.
   name: Datadog Cardinality API
   slug: datadog-cardinality-api
-- description: The Case API from Datadog — 8 operation(s) for case.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Case API from Datadog — 8 operation(s) for case.
   name: Datadog Case API
   slug: datadog-case-api
-- description: The Cases API from Datadog — 1 operation(s) for cases.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Cases API from Datadog — 1 operation(s) for cases.
   name: Datadog Cases API
   slug: datadog-cases-api
-- description: The Change API from Datadog — 2 operation(s) for change.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Change API from Datadog — 2 operation(s) for change.
   name: Datadog Change API
   slug: datadog-change-api
-- description: The Channel API from Datadog — 1 operation(s) for channel.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Channel API from Datadog — 1 operation(s) for channel.
   name: Datadog Channel API
   slug: datadog-channel-api
-- description: The Cloud API from Datadog — 5 operation(s) for cloud.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Cloud API from Datadog — 5 operation(s) for cloud.
   name: Datadog Cloud API
   slug: datadog-cloud-api
-- description: The Configuration API from Datadog — 4 operation(s) for configuration.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Configuration API from Datadog — 4 operation(s) for configuration.
   name: Datadog Configuration API
   slug: datadog-configuration-api
-- description: The Configure API from Datadog — 1 operation(s) for configure.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Configure API from Datadog — 1 operation(s) for configure.
   name: Datadog Configure API
   slug: datadog-configure-api
-- description: The Convert API from Datadog — 3 operation(s) for convert.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Convert API from Datadog — 3 operation(s) for convert.
   name: Datadog Convert API
   slug: datadog-convert-api
-- description: The Cost API from Datadog — 10 operation(s) for cost.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Cost API from Datadog — 10 operation(s) for cost.
   name: Datadog Cost API
   slug: datadog-cost-api
-- description: The Create API from Datadog — 69 operation(s) for create.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Create API from Datadog — 69 operation(s) for create.
   name: Datadog Create API
   slug: datadog-create-api
-- description: The Custom API from Datadog — 8 operation(s) for custom.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Custom API from Datadog — 8 operation(s) for custom.
   name: Datadog Custom API
   slug: datadog-custom-api
-- description: The Dashboards API from Datadog — 1 operation(s) for dashboards.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Dashboards API from Datadog — 1 operation(s) for dashboards.
   name: Datadog Dashboards API
   slug: datadog-dashboards-api
-- description: The Definition API from Datadog — 2 operation(s) for definition.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Definition API from Datadog — 2 operation(s) for definition.
   name: Datadog Definition API
   slug: datadog-definition-api
-- description: The Delete API from Datadog — 72 operation(s) for delete.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Delete API from Datadog — 72 operation(s) for delete.
   name: Datadog Delete API
   slug: datadog-delete-api
-- description: The Demand API from Datadog — 2 operation(s) for demand.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Demand API from Datadog — 2 operation(s) for demand.
   name: Datadog Demand API
   slug: datadog-demand-api
-- description: The Deployments API from Datadog — 3 operation(s) for deployments.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Deployments API from Datadog — 3 operation(s) for deployments.
   name: Datadog Deployments API
   slug: datadog-deployments-api
-- description: The Detection API from Datadog — 2 operation(s) for detection.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Detection API from Datadog — 2 operation(s) for detection.
   name: Datadog Detection API
   slug: datadog-detection-api
-- description: The Devices API from Datadog — 4 operation(s) for devices.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Devices API from Datadog — 4 operation(s) for devices.
   name: Datadog Devices API
   slug: datadog-devices-api
-- description: The Disables API from Datadog — 1 operation(s) for disables.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Disables API from Datadog — 1 operation(s) for disables.
   name: Datadog Disables API
   slug: datadog-disables-api
-- description: The Domain API from Datadog — 1 operation(s) for domain.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Domain API from Datadog — 1 operation(s) for domain.
   name: Datadog Domain API
   slug: datadog-domain-api
-- description: The Download API from Datadog — 2 operation(s) for download.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Download API from Datadog — 2 operation(s) for download.
   name: Datadog Download API
   slug: datadog-download-api
-- description: The Edit API from Datadog — 6 operation(s) for edit.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Edit API from Datadog — 6 operation(s) for edit.
   name: Datadog Edit API
   slug: datadog-edit-api
-- description: The Emails API from Datadog — 1 operation(s) for emails.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Emails API from Datadog — 1 operation(s) for emails.
   name: Datadog Emails API
   slug: datadog-emails-api
-- description: The Entities API from Datadog — 1 operation(s) for entities.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Entities API from Datadog — 1 operation(s) for entities.
   name: Datadog Entities API
   slug: datadog-entities-api
-- description: The Entity API from Datadog — 2 operation(s) for entity.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Entity API from Datadog — 2 operation(s) for entity.
   name: Datadog Entity API
   slug: datadog-entity-api
-- description: The Escalate API from Datadog — 1 operation(s) for escalate.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Escalate API from Datadog — 1 operation(s) for escalate.
   name: Datadog Escalate API
   slug: datadog-escalate-api
-- description: The Event Management API allows you to programmatically post events to the Events Explorer and fetch events from the Events Explorer. See the [Event Management page](https://docs.datadoghq.com/service
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Event Management API allows you to programmatically post events to the Events Explorer and fetch events from the Events Explorer. See the [Event Management page](https://docs.datadoghq.com/service
   name: Datadog Events API
   slug: datadog-events-api
-- description: The Execute API from Datadog — 1 operation(s) for execute.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Execute API from Datadog — 1 operation(s) for execute.
   name: Datadog Execute API
   slug: datadog-execute-api
-- description: The Existing API from Datadog — 12 operation(s) for existing.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Existing API from Datadog — 12 operation(s) for existing.
   name: Datadog Existing API
   slug: datadog-existing-api
-- description: The External API from Datadog — 1 operation(s) for external.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The External API from Datadog — 1 operation(s) for external.
   name: Datadog External API
   slug: datadog-external-api
-- description: The Family API from Datadog — 1 operation(s) for family.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Family API from Datadog — 1 operation(s) for family.
   name: Datadog Family API
   slug: datadog-family-api
-- description: The Filter API from Datadog — 8 operation(s) for filter.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Filter API from Datadog — 8 operation(s) for filter.
   name: Datadog Filter API
   slug: datadog-filter-api
-- description: The Finding API from Datadog — 1 operation(s) for finding.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Finding API from Datadog — 1 operation(s) for finding.
   name: Datadog Finding API
   slug: datadog-finding-api
-- description: The Findings API from Datadog — 1 operation(s) for findings.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Findings API from Datadog — 1 operation(s) for findings.
   name: Datadog Findings API
   slug: datadog-findings-api
-- description: The Get API from Datadog — 170 operation(s) for get.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Get API from Datadog — 170 operation(s) for get.
   name: Datadog Get API
   slug: datadog-get-api
-- description: The Grants API from Datadog — 3 operation(s) for grants.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Grants API from Datadog — 3 operation(s) for grants.
   name: Datadog Grants API
   slug: datadog-grants-api
-- description: The Groups API from Datadog — 5 operation(s) for groups.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Groups API from Datadog — 5 operation(s) for groups.
   name: Datadog Groups API
   slug: datadog-groups-api
-- description: The Handle API from Datadog — 4 operation(s) for handle.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Handle API from Datadog — 4 operation(s) for handle.
   name: Datadog Handle API
   slug: datadog-handle-api
-- description: The Historical API from Datadog — 3 operation(s) for historical.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Historical API from Datadog — 3 operation(s) for historical.
   name: Datadog Historical API
   slug: datadog-historical-api
-- description: The Incident API from Datadog — 14 operation(s) for incident.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Incident API from Datadog — 14 operation(s) for incident.
   name: Datadog Incident API
   slug: datadog-incident-api
-- description: The Instances API from Datadog — 1 operation(s) for instances.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Instances API from Datadog — 1 operation(s) for instances.
   name: Datadog Instances API
   slug: datadog-instances-api
-- description: The Integration API from Datadog — 4 operation(s) for integration.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Integration API from Datadog — 4 operation(s) for integration.
   name: Datadog Integration API
   slug: datadog-integration-api
-- description: The Ip API from Datadog — 1 operation(s) for ip.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Ip API from Datadog — 1 operation(s) for ip.
   name: Datadog Ip API
   slug: datadog-ip-api
-- description: The Link API from Datadog — 2 operation(s) for link.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Link API from Datadog — 2 operation(s) for link.
   name: Datadog Link API
   slug: datadog-link-api
-- description: The Lists API from Datadog — 75 operation(s) for lists.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Lists API from Datadog — 75 operation(s) for lists.
   name: Datadog Lists API
   slug: datadog-lists-api
-- description: Aggregate and analyze log data
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Aggregate and analyze log data
   name: Datadog Log Aggregation API
   slug: datadog-log-aggregation-api
-- description: Manage log indexes and retention policies
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Manage log indexes and retention policies
   name: Datadog Log Indexes API
   slug: datadog-log-indexes-api
-- description: Search your logs and send them to your Datadog platform over HTTP. See the [Log Management page](https://docs.datadoghq.com/logs/) for more information.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Search your logs and send them to your Datadog platform over HTTP. See the [Log Management page](https://docs.datadoghq.com/logs/) for more information.
   name: Datadog Logs API
   slug: datadog-logs-api
-- description: View and manage metric metadata and active metrics
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: View and manage metric metadata and active metrics
   name: Datadog Metric Metadata API
   slug: datadog-metric-metadata-api
-- description: Manage metric tag configurations
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Manage metric tag configurations
   name: Datadog Metric Tags API
   slug: datadog-metric-tags-api
-- description: 'The metrics endpoint allows you to: - Post metrics data so it can be graphed on Datadog’s dashboards - Query metrics from any time period (timeseries and scalar) - Modify tag configurations for metric'
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: 'The metrics endpoint allows you to: - Post metrics data so it can be graphed on Datadog’s dashboards - Query metrics from any time period (timeseries and scalar) - Modify tag configurations for metric'
   name: Datadog Metrics API
   slug: datadog-metrics-api
-- description: The Monitor API from Datadog — 5 operation(s) for monitor.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Monitor API from Datadog — 5 operation(s) for monitor.
   name: Datadog Monitor API
   slug: datadog-monitor-api
-- description: Mute and unmute monitors to suppress notifications
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Mute and unmute monitors to suppress notifications
   name: Datadog Monitor Muting API
   slug: datadog-monitor-muting-api
-- description: Validate monitor configurations before creation
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Validate monitor configurations before creation
   name: Datadog Monitor Validation API
   slug: datadog-monitor-validation-api
-- description: Create, read, update, and delete monitors
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: Create, read, update, and delete monitors
   name: Datadog Monitors API
   slug: datadog-monitors-api
-- description: The Objects API from Datadog — 2 operation(s) for objects.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Objects API from Datadog — 2 operation(s) for objects.
   name: Datadog Objects API
   slug: datadog-objects-api
-- description: The Observability API from Datadog — 2 operation(s) for observability.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Observability API from Datadog — 2 operation(s) for observability.
   name: Datadog Observability API
   slug: datadog-observability-api
-- description: The Options API from Datadog — 2 operation(s) for options.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Options API from Datadog — 2 operation(s) for options.
   name: Datadog Options API
   slug: datadog-options-api
-- description: The Order API from Datadog — 2 operation(s) for order.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Order API from Datadog — 2 operation(s) for order.
   name: Datadog Order API
   slug: datadog-order-api
-- description: The Pages API from Datadog — 4 operation(s) for pages.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Pages API from Datadog — 4 operation(s) for pages.
   name: Datadog Pages API
   slug: datadog-pages-api
-- description: The Patch API from Datadog — 5 operation(s) for patch.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Patch API from Datadog — 5 operation(s) for patch.
   name: Datadog Patch API
   slug: datadog-patch-api
-- description: The Permissions API from Datadog — 5 operation(s) for permissions.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Permissions API from Datadog — 5 operation(s) for permissions.
   name: Datadog Permissions API
   slug: datadog-permissions-api
-- description: The Pipelines API from Datadog — 8 operation(s) for pipelines.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Pipelines API from Datadog — 8 operation(s) for pipelines.
   name: Datadog Pipelines API
   slug: datadog-pipelines-api
-- description: The Policies API from Datadog — 9 operation(s) for policies.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Policies API from Datadog — 9 operation(s) for policies.
   name: Datadog Policies API
   slug: datadog-policies-api
-- description: The Projects API from Datadog — 2 operation(s) for projects.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Projects API from Datadog — 2 operation(s) for projects.
   name: Datadog Projects API
   slug: datadog-projects-api
-- description: The Queries API from Datadog — 7 operation(s) for queries.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Queries API from Datadog — 7 operation(s) for queries.
   name: Datadog Queries API
   slug: datadog-queries-api
-- description: The Remove API from Datadog — 5 operation(s) for remove.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Remove API from Datadog — 5 operation(s) for remove.
   name: Datadog Remove API
   slug: datadog-remove-api
-- description: The Resource API from Datadog — 3 operation(s) for resource.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Resource API from Datadog — 3 operation(s) for resource.
   name: Datadog Resource API
   slug: datadog-resource-api
-- description: The Retention API from Datadog — 6 operation(s) for retention.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Retention API from Datadog — 6 operation(s) for retention.
   name: Datadog Retention API
   slug: datadog-retention-api
-- description: The Role API from Datadog — 8 operation(s) for role.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Role API from Datadog — 8 operation(s) for role.
   name: Datadog Role API
   slug: datadog-role-api
-- description: The Routing API from Datadog — 1 operation(s) for routing.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Routing API from Datadog — 1 operation(s) for routing.
   name: Datadog Routing API
   slug: datadog-routing-api
-- description: The Rules API from Datadog — 27 operation(s) for rules.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Rules API from Datadog — 27 operation(s) for rules.
   name: Datadog Rules API
   slug: datadog-rules-api
-- description: The Schedules API from Datadog — 4 operation(s) for schedules.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Schedules API from Datadog — 4 operation(s) for schedules.
   name: Datadog Schedules API
   slug: datadog-schedules-api
-- description: The Search API from Datadog — 10 operation(s) for search.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Search API from Datadog — 10 operation(s) for search.
   name: Datadog Search API
   slug: datadog-search-api
-- description: The Specific API from Datadog — 2 operation(s) for specific.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Specific API from Datadog — 2 operation(s) for specific.
   name: Datadog Specific API
   slug: datadog-specific-api
-- description: View and manage teams within Datadog. See the [Teams page](https://docs.datadoghq.com/account_management/teams/) for more information.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: View and manage teams within Datadog. See the [Teams page](https://docs.datadoghq.com/account_management/teams/) for more information.
   name: Datadog Teams API
   slug: datadog-teams-api
-- description: The Update API from Datadog — 72 operation(s) for update.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Update API from Datadog — 72 operation(s) for update.
   name: Datadog Update API
   slug: datadog-update-api
-- description: The Upload API from Datadog — 2 operation(s) for upload.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: The Upload API from Datadog — 2 operation(s) for upload.
   name: Datadog Upload API
   slug: datadog-upload-api
 arazzos:
@@ -2349,7 +2569,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -2359,7 +2579,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 58.5
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2368,7 +2588,7 @@ score:
       marker_coverage: 0.0
       total: 107
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -290,280 +290,464 @@ apis:
 - description: Mastercard Send is a suite of API services enabling real-time money transfers including person-to-person payments, disbursements, and funding transactions across the Mastercard network and other suppo
   name: Mastercard Send
   slug: mastercard-send
-- description: The Access API from Mastercard — 4 operation(s) for access.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Access API from Mastercard — 4 operation(s) for access.
   name: Mastercard Access API
   slug: mastercard-access-api
-- description: Operations related to Account Groups.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Account Groups.
   name: Mastercard Account Groups API
   slug: mastercard-account-groups-api
-- description: The Account Opening API from Mastercard — 1 operation(s) for account opening.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Account Opening API from Mastercard — 1 operation(s) for account opening.
   name: Mastercard Account  Opening API
   slug: mastercard-account-opening-api
-- description: The Account Subscriptions API from Mastercard — 1 operation(s) for account subscriptions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Account Subscriptions API from Mastercard — 1 operation(s) for account subscriptions.
   name: Mastercard Account  Subscriptions API
   slug: mastercard-account-subscriptions-api
-- description: The Accounts API from Mastercard — 9 operation(s) for accounts.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Accounts API from Mastercard — 9 operation(s) for accounts.
   name: Mastercard Accounts API
   slug: mastercard-accounts-api
-- description: The Acquirer API from Mastercard — 1 operation(s) for acquirer.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Acquirer API from Mastercard — 1 operation(s) for acquirer.
   name: Mastercard Acquirer API
   slug: mastercard-acquirer-api
-- description: The Acquirer Merchant I Ds API from Mastercard — 1 operation(s) for acquirer merchant i ds.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Acquirer Merchant I Ds API from Mastercard — 1 operation(s) for acquirer merchant i ds.
   name: Mastercard Acquirer  Merchant  I Ds API
   slug: mastercard-acquirer-merchant-i-ds-api
-- description: The Activity API from Mastercard — 2 operation(s) for activity.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Activity API from Mastercard — 2 operation(s) for activity.
   name: Mastercard Activity API
   slug: mastercard-activity-api
-- description: The Aggregate API from Mastercard — 1 operation(s) for aggregate.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Aggregate API from Mastercard — 1 operation(s) for aggregate.
   name: Mastercard Aggregate API
   slug: mastercard-aggregate-api
-- description: The Agreement API from Mastercard — 4 operation(s) for agreement.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Agreement API from Mastercard — 4 operation(s) for agreement.
   name: Mastercard Agreement API
   slug: mastercard-agreement-api
-- description: API endpoints used by CSP to create agreements and manage lifecycle of agreements.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: API endpoints used by CSP to create agreements and manage lifecycle of agreements.
   name: Mastercard Agreements API
   slug: mastercard-agreements-api
-- description: The Alert Outcomes API from Mastercard — 1 operation(s) for alert outcomes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Alert Outcomes API from Mastercard — 1 operation(s) for alert outcomes.
   name: Mastercard Alert  Outcomes API
   slug: mastercard-alert-outcomes-api
-- description: The Alerts Merchants API from Mastercard — 1 operation(s) for alerts merchants.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Alerts Merchants API from Mastercard — 1 operation(s) for alerts merchants.
   name: Mastercard Alerts  Merchants API
   slug: mastercard-alerts-merchants-api
-- description: The Apis API from Mastercard — 2 operation(s) for apis.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Apis API from Mastercard — 2 operation(s) for apis.
   name: Mastercard Apis API
   slug: mastercard-apis-api
-- description: The API provides ability for the lender to approve a BNPL loan during purchase.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The API provides ability for the lender to approve a BNPL loan during purchase.
   name: Mastercard Approvals API
   slug: mastercard-approvals-api
-- description: The Audit API from Mastercard — 1 operation(s) for audit.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Audit API from Mastercard — 1 operation(s) for audit.
   name: Mastercard Audit API
   slug: mastercard-audit-api
-- description: The Authentication API from Mastercard — 1 operation(s) for authentication.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Authentication API from Mastercard — 1 operation(s) for authentication.
   name: Mastercard Authentication API
   slug: mastercard-authentication-api
-- description: The Batch API from Mastercard — 3 operation(s) for batch.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Batch API from Mastercard — 3 operation(s) for batch.
   name: Mastercard Batch API
   slug: mastercard-batch-api
-- description: The Benchmarks API from Mastercard — 1 operation(s) for benchmarks.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Benchmarks API from Mastercard — 1 operation(s) for benchmarks.
   name: Mastercard Benchmarks API
   slug: mastercard-benchmarks-api
-- description: Endpoints to freeze/unfreeze a card and replace a card for a cardholder.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints to freeze/unfreeze a card and replace a card for a cardholder.
   name: Mastercard Benefit-Allocations-Card-Management API
   slug: mastercard-benefit-allocations-card-management-api
-- description: Endpoints to assign, cancel or replace a segment to a card.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints to assign, cancel or replace a segment to a card.
   name: Mastercard Benefit-Allocations-Segment-Management API
   slug: mastercard-benefit-allocations-segment-management-api
-- description: Handles Benefits
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Handles Benefits
   name: Mastercard Benefits API
   slug: mastercard-benefits-api
-- description: The Bin API from Mastercard — 2 operation(s) for bin.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Bin API from Mastercard — 2 operation(s) for bin.
   name: Mastercard Bin API
   slug: mastercard-bin-api
-- description: This API is to be used by the payment provider to notify payment status to relevant Mastercard Applications in case the payment was initiated by the Mastercard Application.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: This API is to be used by the payment provider to notify payment status to relevant Mastercard Applications in case the payment was initiated by the Mastercard Application.
   name: Mastercard Callbacks API
   slug: mastercard-callbacks-api
-- description: The Card API from Mastercard — 14 operation(s) for card.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Card API from Mastercard — 14 operation(s) for card.
   name: Mastercard Card API
   slug: mastercard-card-api
-- description: The Cards API from Mastercard — 7 operation(s) for cards.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Cards API from Mastercard — 7 operation(s) for cards.
   name: Mastercard Cards API
   slug: mastercard-cards-api
-- description: The Catalogs API from Mastercard — 2 operation(s) for catalogs.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Catalogs API from Mastercard — 2 operation(s) for catalogs.
   name: Mastercard Catalogs API
   slug: mastercard-catalogs-api
-- description: The Categories API from Mastercard — 2 operation(s) for categories.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Categories API from Mastercard — 2 operation(s) for categories.
   name: Mastercard Categories API
   slug: mastercard-categories-api
-- description: The Changes API from Mastercard — 1 operation(s) for changes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Changes API from Mastercard — 1 operation(s) for changes.
   name: Mastercard Changes API
   slug: mastercard-changes-api
-- description: The Claim API from Mastercard — 2 operation(s) for claim.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Claim API from Mastercard — 2 operation(s) for claim.
   name: Mastercard Claim API
   slug: mastercard-claim-api
-- description: The Claims API from Mastercard — 1 operation(s) for claims.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Claims API from Mastercard — 1 operation(s) for claims.
   name: Mastercard Claims API
   slug: mastercard-claims-api
-- description: Operations related to CLS activations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to CLS activations.
   name: Mastercard CLS Activations API
   slug: mastercard-cls-activations-api
-- description: The Confirmations API from Mastercard — 3 operation(s) for confirmations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Confirmations API from Mastercard — 3 operation(s) for confirmations.
   name: Mastercard Confirmations API
   slug: mastercard-confirmations-api
-- description: The Confirmed Fraud Management API from Mastercard — 2 operation(s) for confirmed fraud management.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Confirmed Fraud Management API from Mastercard — 2 operation(s) for confirmed fraud management.
   name: Mastercard Confirmed  Fraud  Management API
   slug: mastercard-confirmed-fraud-management-api
-- description: The Confirmed Fraud Submission API from Mastercard — 2 operation(s) for confirmed fraud submission.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Confirmed Fraud Submission API from Mastercard — 2 operation(s) for confirmed fraud submission.
   name: Mastercard Confirmed  Fraud  Submission API
   slug: mastercard-confirmed-fraud-submission-api
-- description: The Consent API from Mastercard — 2 operation(s) for consent.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Consent API from Mastercard — 2 operation(s) for consent.
   name: Mastercard Consent API
   slug: mastercard-consent-api
-- description: The Consumers API from Mastercard — 2 operation(s) for consumers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Consumers API from Mastercard — 2 operation(s) for consumers.
   name: Mastercard Consumers API
   slug: mastercard-consumers-api
-- description: The Conversions API from Mastercard — 2 operation(s) for conversions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Conversions API from Mastercard — 2 operation(s) for conversions.
   name: Mastercard Conversions API
   slug: mastercard-conversions-api
-- description: Retrieve a list of countries and country subdivisions
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve a list of countries and country subdivisions
   name: Mastercard Countries API
   slug: mastercard-countries-api
-- description: The Currencies API from Mastercard — 4 operation(s) for currencies.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Currencies API from Mastercard — 4 operation(s) for currencies.
   name: Mastercard Currencies API
   slug: mastercard-currencies-api
-- description: The Dashboards API from Mastercard — 1 operation(s) for dashboards.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Dashboards API from Mastercard — 1 operation(s) for dashboards.
   name: Mastercard Dashboards API
   slug: mastercard-dashboards-api
-- description: The Data API from Mastercard — 8 operation(s) for data.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Data API from Mastercard — 8 operation(s) for data.
   name: Mastercard Data API
   slug: mastercard-data-api
-- description: The Debtor API from Mastercard — 1 operation(s) for debtor.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Debtor API from Mastercard — 1 operation(s) for debtor.
   name: Mastercard Debtor API
   slug: mastercard-debtor-api
-- description: The Deletions API from Mastercard — 3 operation(s) for deletions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Deletions API from Mastercard — 3 operation(s) for deletions.
   name: Mastercard Deletions API
   slug: mastercard-deletions-api
-- description: The Documents API from Mastercard — 4 operation(s) for documents.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Documents API from Mastercard — 4 operation(s) for documents.
   name: Mastercard Documents API
   slug: mastercard-documents-api
-- description: The Donations API from Mastercard — 6 operation(s) for donations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Donations API from Mastercard — 6 operation(s) for donations.
   name: Mastercard Donations API
   slug: mastercard-donations-api
-- description: The Donor API from Mastercard — 7 operation(s) for donor.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Donor API from Mastercard — 7 operation(s) for donor.
   name: Mastercard Donor API
   slug: mastercard-donor-api
-- description: Donors
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Donors
   name: Mastercard Donors API
   slug: mastercard-donors-api
-- description: The Email API from Mastercard — 2 operation(s) for email.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Email API from Mastercard — 2 operation(s) for email.
   name: Mastercard Email API
   slug: mastercard-email-api
-- description: The Field Mapping API from Mastercard — 1 operation(s) for field mapping.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Field Mapping API from Mastercard — 1 operation(s) for field mapping.
   name: Mastercard Field Mapping API
   slug: mastercard-field-mapping-api
-- description: The Footprints API from Mastercard — 1 operation(s) for footprints.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Footprints API from Mastercard — 1 operation(s) for footprints.
   name: Mastercard Footprints API
   slug: mastercard-footprints-api
-- description: The Fraud API from Mastercard — 2 operation(s) for fraud.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Fraud API from Mastercard — 2 operation(s) for fraud.
   name: Mastercard Fraud API
   slug: mastercard-fraud-api
-- description: The Guid API from Mastercard — 15 operation(s) for guid.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Guid API from Mastercard — 15 operation(s) for guid.
   name: Mastercard Guid API
   slug: mastercard-guid-api
-- description: The Initiate API from Mastercard — 2 operation(s) for initiate.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Initiate API from Mastercard — 2 operation(s) for initiate.
   name: Mastercard Initiate API
   slug: mastercard-initiate-api
-- description: The Inquiries API from Mastercard — 2 operation(s) for inquiries.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Inquiries API from Mastercard — 2 operation(s) for inquiries.
   name: Mastercard Inquiries API
   slug: mastercard-inquiries-api
-- description: The Insights API from Mastercard — 3 operation(s) for insights.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Insights API from Mastercard — 3 operation(s) for insights.
   name: Mastercard Insights API
   slug: mastercard-insights-api
-- description: Contains APIs which will be consumed by the Issuer's backend system.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Contains APIs which will be consumed by the Issuer's backend system.
   name: Mastercard Issuer API
   slug: mastercard-issuer-api
-- description: The Lifecycle API from Mastercard — 6 operation(s) for lifecycle.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Lifecycle API from Mastercard — 6 operation(s) for lifecycle.
   name: Mastercard Lifecycle API
   slug: mastercard-lifecycle-api
-- description: Operations related to Lookup Identifiers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Lookup Identifiers.
   name: Mastercard Lookup Identifiers API
   slug: mastercard-lookup-identifiers-api
-- description: Operations related to Lost Stolen.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Lost Stolen.
   name: Mastercard Lost Stolen API
   slug: mastercard-lost-stolen-api
-- description: The Mastercard API from Mastercard — 1 operation(s) for mastercard.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Mastercard API from Mastercard — 1 operation(s) for mastercard.
   name: Mastercard Mastercard API
   slug: mastercard-mastercard-api
-- description: The Member API from Mastercard — 6 operation(s) for member.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Member API from Mastercard — 6 operation(s) for member.
   name: Mastercard Member API
   slug: mastercard-member-api
-- description: The Merchant Registration API from Mastercard — 2 operation(s) for merchant registration.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Merchant Registration API from Mastercard — 2 operation(s) for merchant registration.
   name: Mastercard Merchant  Registration API
   slug: mastercard-merchant-registration-api
-- description: The Merchants API from Mastercard — 22 operation(s) for merchants.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Merchants API from Mastercard — 22 operation(s) for merchants.
   name: Mastercard Merchants API
   slug: mastercard-merchants-api
-- description: The Multi API from Mastercard — 1 operation(s) for multi.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Multi API from Mastercard — 1 operation(s) for multi.
   name: Mastercard Multi API
   slug: mastercard-multi-api
-- description: Notification Operations - Retrieving collection of generated notifications
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Notification Operations - Retrieving collection of generated notifications
   name: Mastercard Notifications API
   slug: mastercard-notifications-api
-- description: The Offers API from Mastercard — 1 operation(s) for offers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Offers API from Mastercard — 1 operation(s) for offers.
   name: Mastercard Offers API
   slug: mastercard-offers-api
-- description: The Otps API from Mastercard — 1 operation(s) for otps.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Otps API from Mastercard — 1 operation(s) for otps.
   name: Mastercard Otps API
   slug: mastercard-otps-api
-- description: Operations related to PAN Blocks.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to PAN Blocks.
   name: Mastercard PAN Blocks API
   slug: mastercard-pan-blocks-api
-- description: The Payment Requests API from Mastercard — 4 operation(s) for payment requests.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Payment Requests API from Mastercard — 4 operation(s) for payment requests.
   name: Mastercard Payment  Requests API
   slug: mastercard-payment-requests-api
-- description: The Payments API from Mastercard — 17 operation(s) for payments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Payments API from Mastercard — 17 operation(s) for payments.
   name: Mastercard Payments API
   slug: mastercard-payments-api
-- description: The Plans API from Mastercard — 2 operation(s) for plans.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Plans API from Mastercard — 2 operation(s) for plans.
   name: Mastercard Plans API
   slug: mastercard-plans-api
-- description: Handles Products
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Handles Products
   name: Mastercard Products API
   slug: mastercard-products-api
-- description: The Profiles API from Mastercard — 5 operation(s) for profiles.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Profiles API from Mastercard — 5 operation(s) for profiles.
   name: Mastercard Profiles API
   slug: mastercard-profiles-api
-- description: The Rates API from Mastercard — 4 operation(s) for rates.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Rates API from Mastercard — 4 operation(s) for rates.
   name: Mastercard Rates API
   slug: mastercard-rates-api
-- description: The Routing API from Mastercard — 1 operation(s) for routing.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Routing API from Mastercard — 1 operation(s) for routing.
   name: Mastercard Routing API
   slug: mastercard-routing-api
-- description: The Scopes API from Mastercard — 3 operation(s) for scopes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Scopes API from Mastercard — 3 operation(s) for scopes.
   name: Mastercard Scopes API
   slug: mastercard-scopes-api
-- description: The Scores API from Mastercard — 2 operation(s) for scores.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Scores API from Mastercard — 2 operation(s) for scores.
   name: Mastercard Scores API
   slug: mastercard-scores-api
-- description: The Searches API from Mastercard — 11 operation(s) for searches.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Searches API from Mastercard — 11 operation(s) for searches.
   name: Mastercard Searches API
   slug: mastercard-searches-api
-- description: The Service API from Mastercard — 3 operation(s) for service.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Service API from Mastercard — 3 operation(s) for service.
   name: Mastercard Service API
   slug: mastercard-service-api
-- description: The Sources API from Mastercard — 3 operation(s) for sources.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Sources API from Mastercard — 3 operation(s) for sources.
   name: Mastercard Sources API
   slug: mastercard-sources-api
-- description: Subscription Operations - Creating, retrieving, updating and deleting subscriptions
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Subscription Operations - Creating, retrieving, updating and deleting subscriptions
   name: Mastercard Subscription API
   slug: mastercard-subscription-api
-- description: The Subscriptions API from Mastercard — 4 operation(s) for subscriptions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Subscriptions API from Mastercard — 4 operation(s) for subscriptions.
   name: Mastercard Subscriptions API
   slug: mastercard-subscriptions-api
-- description: The Summaries API from Mastercard — 1 operation(s) for summaries.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Summaries API from Mastercard — 1 operation(s) for summaries.
   name: Mastercard Summaries API
   slug: mastercard-summaries-api
-- description: The Surveys API from Mastercard — 1 operation(s) for surveys.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Surveys API from Mastercard — 1 operation(s) for surveys.
   name: Mastercard Surveys API
   slug: mastercard-surveys-api
-- description: The Transaction API from Mastercard — 3 operation(s) for transaction.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Transaction API from Mastercard — 3 operation(s) for transaction.
   name: Mastercard Transaction API
   slug: mastercard-transaction-api
-- description: The Transactions API from Mastercard — 6 operation(s) for transactions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Transactions API from Mastercard — 6 operation(s) for transactions.
   name: Mastercard Transactions API
   slug: mastercard-transactions-api
-- description: The Users API from Mastercard — 21 operation(s) for users.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Users API from Mastercard — 21 operation(s) for users.
   name: Mastercard Users API
   slug: mastercard-users-api
-- description: This API is to be used to validate customer information present within relevant Mastercard Applications.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: This API is to be used to validate customer information present within relevant Mastercard Applications.
   name: Mastercard Validations API
   slug: mastercard-validations-api
-- description: The Vendors API from Mastercard — 1 operation(s) for vendors.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Vendors API from Mastercard — 1 operation(s) for vendors.
   name: Mastercard Vendors API
   slug: mastercard-vendors-api
-- description: The Verifications API from Mastercard — 9 operation(s) for verifications.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Verifications API from Mastercard — 9 operation(s) for verifications.
   name: Mastercard Verifications API
   slug: mastercard-verifications-api
-- description: The Widgets API from Mastercard — 1 operation(s) for widgets.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Widgets API from Mastercard — 1 operation(s) for widgets.
   name: Mastercard Widgets API
   slug: mastercard-widgets-api
 artifact_total: 1952
@@ -6126,7 +6310,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 52 operations · 22 acting
 api_count: 2
 apis:
-- description: Loan application records.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Loan application records.
   name: Kita Applications API
   slug: kita-applications-api
-- description: Process up to 100 documents from URLs in one request.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Process up to 100 documents from URLs in one request.
   name: Kita Batch API
   slug: kita-batch-api
-- description: Borrower message thread.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Borrower message thread.
   name: Kita Conversation API
   slug: kita-conversation-api
-- description: Deterministic credit picture — spread, adjustments, policy decision.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Deterministic credit picture — spread, adjustments, policy decision.
   name: Kita Credit API
   slug: kita-credit-api
-- description: Borrower document upload and extraction.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Borrower document upload and extraction.
   name: Kita Documents API
   slug: kita-documents-api
-- description: PDF and XLSX exports.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: PDF and XLSX exports.
   name: Kita Exports API
   slug: kita-exports-api
-- description: Group documents into containers.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Group documents into containers.
   name: Kita Folders API
   slug: kita-folders-api
-- description: Cited credit memo synthesis and retrieval.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Cited credit memo synthesis and retrieval.
   name: Kita Memo API
   slug: kita-memo-api
-- description: Submit documents for extraction.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Submit documents for extraction.
   name: Kita Processing API
   slug: kita-processing-api
-- description: Retrieve extraction results, summaries and exports.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Retrieve extraction results, summaries and exports.
   name: Kita Results API
   slug: kita-results-api
-- description: Custom extraction schemas.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Custom extraction schemas.
   name: Kita Schemas API
   slug: kita-schemas-api
-- description: Plain-text document transcripts.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Plain-text document transcripts.
   name: Kita Transcripts API
   slug: kita-transcripts-api
-- description: Cross-document verification checks.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Cross-document verification checks.
   name: Kita Verification API
   slug: kita-verification-api
-- description: Register and manage HMAC-signed outbound webhooks.
+- baseURL: https://portal.usekita.com
+  baseurl_source: declared
+  description: Register and manage HMAC-signed outbound webhooks.
   name: Kita Webhooks API
   slug: kita-webhooks-api
 artifact_total: 52
@@ -381,7 +409,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -391,7 +419,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 66.4
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,7 +437,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:

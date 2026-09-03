@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -53,82 +53,134 @@ apis:
 - description: Public MCP server for emnify documentation. Connect Claude Code, Cursor, or any MCP-aware client to query emnify product, developer, and API reference content directly from your AI assistant.
   name: emnify Documentation MCP Server
   slug: emnify-mcp-server
-- description: The subpackage_applicationTokens API from emnify — 2 operation(s) for subpackage_applicationtokens.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_applicationTokens API from emnify — 2 operation(s) for subpackage_applicationtokens.
   name: emnify subpackage_applicationTokens API
   slug: emnify-subpackage-applicationtokens-api
-- description: The subpackage_authentication API from emnify — 8 operation(s) for subpackage_authentication.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_authentication API from emnify — 8 operation(s) for subpackage_authentication.
   name: emnify subpackage_authentication API
   slug: emnify-subpackage-authentication-api
-- description: The subpackage_automations API from emnify — 6 operation(s) for subpackage_automations.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_automations API from emnify — 6 operation(s) for subpackage_automations.
   name: emnify subpackage_automations API
   slug: emnify-subpackage-automations-api
-- description: The subpackage_cloudConnect API from emnify — 7 operation(s) for subpackage_cloudconnect.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_cloudConnect API from emnify — 7 operation(s) for subpackage_cloudconnect.
   name: emnify subpackage_cloudConnect API
   slug: emnify-subpackage-cloudconnect-api
-- description: The subpackage_customEvents API from emnify — 4 operation(s) for subpackage_customevents.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_customEvents API from emnify — 4 operation(s) for subpackage_customevents.
   name: emnify subpackage_customEvents API
   slug: emnify-subpackage-customevents-api
-- description: The subpackage_endpoint API from emnify — 16 operation(s) for subpackage_endpoint.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_endpoint API from emnify — 16 operation(s) for subpackage_endpoint.
   name: emnify subpackage_endpoint API
   slug: emnify-subpackage-endpoint-api
-- description: The subpackage_euicc API from emnify — 5 operation(s) for subpackage_euicc.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_euicc API from emnify — 5 operation(s) for subpackage_euicc.
   name: emnify subpackage_euicc API
   slug: emnify-subpackage-euicc-api
-- description: The subpackage_euiccOperation API from emnify — 4 operation(s) for subpackage_euiccoperation.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_euiccOperation API from emnify — 4 operation(s) for subpackage_euiccoperation.
   name: emnify subpackage_euiccOperation API
   slug: emnify-subpackage-euiccoperation-api
-- description: The subpackage_events API from emnify — 2 operation(s) for subpackage_events.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_events API from emnify — 2 operation(s) for subpackage_events.
   name: emnify subpackage_events API
   slug: emnify-subpackage-events-api
-- description: The subpackage_integrations API from emnify — 10 operation(s) for subpackage_integrations.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_integrations API from emnify — 10 operation(s) for subpackage_integrations.
   name: emnify subpackage_integrations API
   slug: emnify-subpackage-integrations-api
-- description: The subpackage_ipAddressSpaces API from emnify — 3 operation(s) for subpackage_ipaddressspaces.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_ipAddressSpaces API from emnify — 3 operation(s) for subpackage_ipaddressspaces.
   name: emnify subpackage_ipAddressSpaces API
   slug: emnify-subpackage-ipaddressspaces-api
-- description: The subpackage_lookups API from emnify — 8 operation(s) for subpackage_lookups.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_lookups API from emnify — 8 operation(s) for subpackage_lookups.
   name: emnify subpackage_lookups API
   slug: emnify-subpackage-lookups-api
-- description: The subpackage_operator API from emnify — 1 operation(s) for subpackage_operator.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_operator API from emnify — 1 operation(s) for subpackage_operator.
   name: emnify subpackage_operator API
   slug: emnify-subpackage-operator-api
-- description: The subpackage_organization API from emnify — 9 operation(s) for subpackage_organization.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_organization API from emnify — 9 operation(s) for subpackage_organization.
   name: emnify subpackage_organization API
   slug: emnify-subpackage-organization-api
-- description: The subpackage_passwordManagementAndActivation API from emnify — 4 operation(s) for subpackage_passwordmanagementandactivation.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_passwordManagementAndActivation API from emnify — 4 operation(s) for subpackage_passwordmanagementandactivation.
   name: emnify subpackage_passwordManagementAndActivation API
   slug: emnify-subpackage-passwordmanagementandactivation-api
-- description: The subpackage_serviceLookupsAndConfiguration API from emnify — 5 operation(s) for subpackage_servicelookupsandconfiguration.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_serviceLookupsAndConfiguration API from emnify — 5 operation(s) for subpackage_servicelookupsandconfiguration.
   name: emnify subpackage_serviceLookupsAndConfiguration API
   slug: emnify-subpackage-servicelookupsandconfiguration-api
-- description: The subpackage_serviceProfiles API from emnify — 7 operation(s) for subpackage_serviceprofiles.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_serviceProfiles API from emnify — 7 operation(s) for subpackage_serviceprofiles.
   name: emnify subpackage_serviceProfiles API
   slug: emnify-subpackage-serviceprofiles-api
-- description: The subpackage_sim API from emnify — 9 operation(s) for subpackage_sim.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_sim API from emnify — 9 operation(s) for subpackage_sim.
   name: emnify subpackage_sim API
   slug: emnify-subpackage-sim-api
-- description: The subpackage_simOperation API from emnify — 4 operation(s) for subpackage_simoperation.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_simOperation API from emnify — 4 operation(s) for subpackage_simoperation.
   name: emnify subpackage_simOperation API
   slug: emnify-subpackage-simoperation-api
-- description: The subpackage_simUnlinkedProductStatistics API from emnify — 1 operation(s) for subpackage_simunlinkedproductstatistics.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_simUnlinkedProductStatistics API from emnify — 1 operation(s) for subpackage_simunlinkedproductstatistics.
   name: emnify subpackage_simUnlinkedProductStatistics API
   slug: emnify-subpackage-simunlinkedproductstatistics-api
-- description: The subpackage_systemEvents API from emnify — 2 operation(s) for subpackage_systemevents.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_systemEvents API from emnify — 2 operation(s) for subpackage_systemevents.
   name: emnify subpackage_systemEvents API
   slug: emnify-subpackage-systemevents-api
-- description: The subpackage_tagManagement API from emnify — 8 operation(s) for subpackage_tagmanagement.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_tagManagement API from emnify — 8 operation(s) for subpackage_tagmanagement.
   name: emnify subpackage_tagManagement API
   slug: emnify-subpackage-tagmanagement-api
-- description: The subpackage_tariffPlans API from emnify — 3 operation(s) for subpackage_tariffplans.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_tariffPlans API from emnify — 3 operation(s) for subpackage_tariffplans.
   name: emnify subpackage_tariffPlans API
   slug: emnify-subpackage-tariffplans-api
-- description: The subpackage_tariffProfiles API from emnify — 9 operation(s) for subpackage_tariffprofiles.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_tariffProfiles API from emnify — 9 operation(s) for subpackage_tariffprofiles.
   name: emnify subpackage_tariffProfiles API
   slug: emnify-subpackage-tariffprofiles-api
-- description: The subpackage_userManagement API from emnify — 8 operation(s) for subpackage_usermanagement.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_userManagement API from emnify — 8 operation(s) for subpackage_usermanagement.
   name: emnify subpackage_userManagement API
   slug: emnify-subpackage-usermanagement-api
-- description: The subpackage_workspaces API from emnify — 7 operation(s) for subpackage_workspaces.
+- baseURL: https://cdn.emnify.net
+  baseurl_source: spec
+  description: The subpackage_workspaces API from emnify — 7 operation(s) for subpackage_workspaces.
   name: emnify subpackage_workspaces API
   slug: emnify-subpackage-workspaces-api
 arazzos:
@@ -661,7 +713,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/screenshots/emnify-2026-06-20T180637.png
 security:

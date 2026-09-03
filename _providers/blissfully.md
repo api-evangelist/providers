@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: Facilitates creation and management of webhooks for monitoring Vendr's data processing events, enabling integration with procurement workflows and notification systems.
   name: Vendr Webhooks API
   slug: vendr-webhooks-api
-- description: Pricing intelligence and benchmarks
+- baseURL: https://api.vendr.com/v1
+  baseurl_source: spec
+  description: Pricing intelligence and benchmarks
   name: Blissfully Pricing API
   slug: blissfully-pricing-api
-- description: Software product catalog entries
+- baseURL: https://api.vendr.com/v1
+  baseurl_source: spec
+  description: Software product catalog entries
   name: Blissfully Products API
   slug: blissfully-products-api
-- description: Software vendors and their product portfolios
+- baseURL: https://api.vendr.com/v1
+  baseurl_source: spec
+  description: Software vendors and their product portfolios
   name: Blissfully Vendors API
   slug: blissfully-vendors-api
-- description: Webhook management for event notifications
+- baseURL: https://api.vendr.com/v1
+  baseurl_source: spec
+  description: Webhook management for event notifications
   name: Blissfully Webhooks API
   slug: blissfully-webhooks-api
 artifact_total: 45
@@ -277,7 +285,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/screenshots/blissfully-2026-06-20T173353.png
 security:

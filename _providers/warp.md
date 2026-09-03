@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: The Oz CLI is a command-line interface for interacting with the Warp Oz agent platform. It allows developers to trigger cloud agent runs, manage environments, and authenticate headlessly using API key
   name: Warp Oz CLI
   slug: oz-cli
-- description: Operations for running and managing cloud agents
+- baseURL: https://app.warp.dev/api/v1
+  baseurl_source: declared
+  description: Operations for running and managing cloud agents
   name: Warp agent API
   slug: warp-agent-api
-- description: The harness-support API from Warp — 1 operation(s) for harness-support.
+- baseURL: https://app.warp.dev/api/v1
+  baseurl_source: declared
+  description: The harness-support API from Warp — 1 operation(s) for harness-support.
   name: Warp harness-support API
   slug: warp-harness-support-api
-- description: Operations for creating and managing scheduled agents
+- baseURL: https://app.warp.dev/api/v1
+  baseurl_source: declared
+  description: Operations for creating and managing scheduled agents
   name: Warp schedules API
   slug: warp-schedules-api
 artifact_total: 27
@@ -254,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/screenshots/warp-2026-06-20T201231.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -53,7 +53,9 @@ apis:
 - description: Canvas supports Learning Tools Interoperability (LTI 1.1 and LTI 1.3 / Advantage) for embedding external tools, assignments, and content into courses with deep linking, grade passback, and names-and-r
   name: Canvas LTI Integrations
   slug: canvas-lti-integrations
-- description: The Courses API from Canvas — 25 operation(s) for courses.
+- baseURL: https://canvas.instructure.com/api/v1
+  baseurl_source: spec
+  description: The Courses API from Canvas — 25 operation(s) for courses.
   name: Canvas Courses API
   slug: canvas-courses-api
 artifact_total: 16
@@ -213,7 +215,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/screenshots/canvas-2026-06-20T173929.png
 security:

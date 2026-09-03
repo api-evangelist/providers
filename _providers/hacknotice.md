@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,34 +36,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Remote Model Context Protocol server operated by HackNotice, speaking JSON-RPC 2.0 over Streamable HTTP at https://mcp.hacknotice.com:13330/mcp. It publishes 80 tools across third-party, first-party, '
   name: HackNotice MCP Server
   slug: hacknotice-mcp
-- description: Cross-service alert retrieval.
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: Cross-service alert retrieval.
   name: HackNotice Alerts API
   slug: hacknotice-alerts-api
-- description: Authentication, leak/leakfile search, customer records, metrics, habits, downloads, utilities and item notes shared by every business account.
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: Authentication, leak/leakfile search, customer records, metrics, habits, downloads, utilities and item notes shared by every business account.
   name: HackNotice All Business Accounts API
   slug: hacknotice-all-business-accounts-api
-- description: Aggregate/rollup calculation endpoints for breaches, threat actors and per-service alerts.
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: Aggregate/rollup calculation endpoints for breaches, threat actors and per-service alerts.
   name: HackNotice Calc endpoints API
   slug: hacknotice-calc-endpoints-api
-- description: Endpoints HackNotice groups as deprecated in its published collection (dark hash alerts, Teams accounts).
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: Endpoints HackNotice groups as deprecated in its published collection (dark hash alerts, Teams accounts).
   name: HackNotice Deprecated API
   slug: hacknotice-deprecated-api
-- description: 'First-party domain monitoring: domain watchlists, domain leaks, domain alerts and downloads.'
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: 'First-party domain monitoring: domain watchlists, domain leaks, domain alerts and downloads.'
   name: HackNotice Domain Business Accounts API
   slug: hacknotice-domain-business-accounts-api
-- description: 'End-user monitoring: end-user watchlists, end-user leaks and end-user alerts.'
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: 'End-user monitoring: end-user watchlists, end-user leaks and end-user alerts.'
   name: HackNotice Enduser Business Accounts API
   slug: hacknotice-enduser-business-accounts-api
-- description: Threat-research search over terms, filenames and word pools, plus saved searches.
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: Threat-research search over terms, filenames and word pools, plus saved searches.
   name: HackNotice Research Service Accounts API
   slug: hacknotice-research-service-accounts-api
-- description: 'Third-party vendor monitoring: hacks, hack updates, watchlists, alerts and vendor security assessments.'
+- baseURL: https://extensionapi.hacknotice.com
+  baseurl_source: declared
+  description: 'Third-party vendor monitoring: hacks, hack updates, watchlists, alerts and vendor security assessments.'
   name: HackNotice Third Party Accounts API
   slug: hacknotice-third-party-accounts-api
 artifact_total: 15
@@ -229,23 +258,23 @@ rate_limits:
   slug: hacknotice-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 52.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.2
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 64.8
+    contract_quality: 65.6
     developer_ergonomics: 49.4
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -256,8 +285,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hacknotice/refs/heads/main/screenshots/hacknotice-2026-09-02T145647.png
 security:
 - kind: authentication
   name: Hacknotice Authentication

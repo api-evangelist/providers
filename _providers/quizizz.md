@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server operated by Wayground at https://wayground.com/_quizizzmcp/main/mcp. Its existence is declared by Wayground's own /.well-known/oauth-protected-resource document, w
@@ -145,7 +159,7 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -170,8 +184,9 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quizizz/refs/heads/main/screenshots/quizizz-2026-09-02T152710.png
 security:
 - kind: authentication
   name: Quizizz Authentication

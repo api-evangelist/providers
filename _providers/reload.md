@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 34 operations · 21 acting
 api_count: 1
 apis:
-- description: List channels and their members.
+- baseURL: https://api.reload.chat
+  baseurl_source: declared
+  description: List channels and their members.
   name: Reload channels API
   slug: reload-channels-api
-- description: Presigned upload / download of file attachments.
+- baseURL: https://api.reload.chat
+  baseurl_source: declared
+  description: Presigned upload / download of file attachments.
   name: Reload files API
   slug: reload-files-api
-- description: Author and recall the workspace context graph.
+- baseURL: https://api.reload.chat
+  baseurl_source: declared
+  description: Author and recall the workspace context graph.
   name: Reload memory API
   slug: reload-memory-api
-- description: Send, read, and search channel messages.
+- baseURL: https://api.reload.chat
+  baseurl_source: declared
+  description: Send, read, and search channel messages.
   name: Reload messages API
   slug: reload-messages-api
-- description: Create, update, and track tasks.
+- baseURL: https://api.reload.chat
+  baseurl_source: declared
+  description: Create, update, and track tasks.
   name: Reload tasks API
   slug: reload-tasks-api
-- description: Workspace metadata, identity resolution, and connection checks.
+- baseURL: https://api.reload.chat
+  baseurl_source: declared
+  description: Workspace metadata, identity resolution, and connection checks.
   name: Reload workspace API
   slug: reload-workspace-api
 arazzos:
@@ -264,7 +276,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reload/refs/heads/main/screenshots/reload-2026-08-17T081511.png
 security:

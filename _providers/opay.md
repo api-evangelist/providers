@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 3
 apis:
-- description: 'The OPay Cashier API is the primary merchant payment API behind OPay Checkout. It exposes a hosted Express Checkout endpoint (cashier/create returning a cashierUrl), server-to-server payment creation '
+- baseURL: https://liveapi.opaycheckout.com/api/v1/international
+  baseurl_source: declared
+  description: 'The OPay Cashier API is the primary merchant payment API behind OPay Checkout. It exposes a hosted Express Checkout endpoint (cashier/create returning a cashierUrl), server-to-server payment creation '
   name: OPay Cashier API
   slug: opay-cashier-api
-- description: Server-to-server payment creation across payment methods.
+- baseURL: https://liveapi.opaycheckout.com/api/v1/international
+  baseurl_source: declared
+  description: Server-to-server payment creation across payment methods.
   name: OPay Payments API
   slug: opay-payments-api
-- description: Refund creation and status.
+- baseURL: https://liveapi.opaycheckout.com/api/v1/international
+  baseurl_source: declared
+  description: Refund creation and status.
   name: OPay Refunds API
   slug: opay-refunds-api
 artifact_total: 46
@@ -255,7 +261,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -265,7 +271,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.4
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -280,7 +286,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/screenshots/opay-2026-06-20T190727.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -44,133 +44,217 @@ agentic_access:
   summary_line: 107 operations · 53 acting
 api_count: 6
 apis:
-- description: EventSub is Twitch's webhook-based subscription service for receiving real-time notifications about events on Twitch.
+- baseURL: https://api.twitch.tv/helix/eventsub
+  baseurl_source: declared
+  description: EventSub is Twitch's webhook-based subscription service for receiving real-time notifications about events on Twitch.
   name: Twitch EventSub
   slug: twitch-eventsub
-- description: IRC and WebSocket-based APIs for integrating with Twitch chat.
+- baseURL: wss://irc-ws.chat.twitch.tv:443
+  baseurl_source: declared
+  description: IRC and WebSocket-based APIs for integrating with Twitch chat.
   name: Twitch Chat API
   slug: twitch-chat-api
 - description: APIs for embedding Twitch live streams, video on demand, clips, and chat into external websites.
   name: Twitch Embed API
   slug: twitch-embed-api
-- description: Manage and start commercial ad breaks
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage and start commercial ad breaks
   name: Twitch Ads API
   slug: twitch-ads-api
-- description: Retrieve Drops analytics
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve Drops analytics
   name: Twitch Analytics API
   slug: twitch-analytics-api
-- description: Retrieve Bits leaderboard and Cheermote information
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve Bits leaderboard and Cheermote information
   name: Twitch Bits API
   slug: twitch-bits-api
-- description: Manage custom channel point rewards and redemptions
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage custom channel point rewards and redemptions
   name: Twitch Channel Points API
   slug: twitch-channel-points-api
-- description: Manage channel information and editors
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage channel information and editors
   name: Twitch Channels API
   slug: twitch-channels-api
-- description: Game character data
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Game character data
   name: Twitch Characters API
   slug: twitch-characters-api
-- description: Retrieve charity campaign information
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve charity campaign information
   name: Twitch Charity API
   slug: twitch-charity-api
-- description: Manage chat settings, emotes, badges, and announcements
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage chat settings, emotes, badges, and announcements
   name: Twitch Chat API
   slug: twitch-chat-api
-- description: Create and retrieve clips
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Create and retrieve clips
   name: Twitch Clips API
   slug: twitch-clips-api
-- description: Game collections and franchises
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Game collections and franchises
   name: Twitch Collections API
   slug: twitch-collections-api
-- description: Game company data
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Game company data
   name: Twitch Companies API
   slug: twitch-companies-api
-- description: Manage EventSub conduits and shards
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage EventSub conduits and shards
   name: Twitch Conduits API
   slug: twitch-conduits-api
-- description: Extension configuration service
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Extension configuration service
   name: Twitch Configuration API
   slug: twitch-configuration-api
-- description: Manage Drops entitlements and fulfillment
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage Drops entitlements and fulfillment
   name: Twitch Entitlements API
   slug: twitch-entitlements-api
-- description: Manage EventSub subscriptions
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage EventSub subscriptions
   name: Twitch EventSub API
   slug: twitch-eventsub-api
-- description: Analytics data for extensions
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Analytics data for extensions
   name: Twitch Extension Analytics API
   slug: twitch-extension-analytics-api
-- description: Manage and query extension information
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage and query extension information
   name: Twitch Extensions API
   slug: twitch-extensions-api
-- description: Analytics data for games
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Analytics data for games
   name: Twitch Game Analytics API
   slug: twitch-game-analytics-api
-- description: Retrieve game/category information
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve game/category information
   name: Twitch Games API
   slug: twitch-games-api
-- description: Game genre data
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Game genre data
   name: Twitch Genres API
   slug: twitch-genres-api
-- description: Retrieve creator goals
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve creator goals
   name: Twitch Goals API
   slug: twitch-goals-api
-- description: Retrieve Hype Train events
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve Hype Train events
   name: Twitch Hype Train API
   slug: twitch-hype-train-api
-- description: Ingest server information for broadcasting
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Ingest server information for broadcasting
   name: Twitch Ingest API
   slug: twitch-ingest-api
-- description: Screenshots, artwork, and videos
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Screenshots, artwork, and videos
   name: Twitch Media API
   slug: twitch-media-api
-- description: Manage channel moderation including bans, blocks, and AutoMod
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage channel moderation including bans, blocks, and AutoMod
   name: Twitch Moderation API
   slug: twitch-moderation-api
-- description: Gaming platform data
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Gaming platform data
   name: Twitch Platforms API
   slug: twitch-platforms-api
-- description: Create and manage channel polls
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Create and manage channel polls
   name: Twitch Polls API
   slug: twitch-polls-api
-- description: Create and manage channel predictions
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Create and manage channel predictions
   name: Twitch Predictions API
   slug: twitch-predictions-api
-- description: Extension PubSub messaging
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Extension PubSub messaging
   name: Twitch Pubsub API
   slug: twitch-pubsub-api
-- description: Start and cancel raids
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Start and cancel raids
   name: Twitch Raids API
   slug: twitch-raids-api
-- description: Manage channel stream schedules
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage channel stream schedules
   name: Twitch Schedule API
   slug: twitch-schedule-api
-- description: Search for channels and categories
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Search for channels and categories
   name: Twitch Search API
   slug: twitch-search-api
-- description: Retrieve stream information and markers
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve stream information and markers
   name: Twitch Streams API
   slug: twitch-streams-api
-- description: Retrieve subscription information
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve subscription information
   name: Twitch Subscriptions API
   slug: twitch-subscriptions-api
-- description: Retrieve team information
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Retrieve team information
   name: Twitch Teams API
   slug: twitch-teams-api
-- description: Game theme data
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Game theme data
   name: Twitch Themes API
   slug: twitch-themes-api
-- description: Extension Bits transactions
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Extension Bits transactions
   name: Twitch Transactions API
   slug: twitch-transactions-api
-- description: Manage user information and blocks
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage user information and blocks
   name: Twitch Users API
   slug: twitch-users-api
-- description: Manage and retrieve videos
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Manage and retrieve videos
   name: Twitch Videos API
   slug: twitch-videos-api
-- description: Send whisper messages
+- baseURL: https://api.twitch.tv/helix
+  baseurl_source: declared
+  description: Send whisper messages
   name: Twitch Whispers API
   slug: twitch-whispers-api
 artifact_total: 117
@@ -593,7 +677,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -603,7 +687,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 52.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -612,7 +696,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png
 security:

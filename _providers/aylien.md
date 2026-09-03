@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 20 operations · 2 acting
 api_count: 2
 apis:
-- description: The Absa API from AYLIEN — 1 operation(s) for absa.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Absa API from AYLIEN — 1 operation(s) for absa.
   name: AYLIEN Absa API
   slug: aylien-absa-api
-- description: The autocomplete API from AYLIEN — 1 operation(s) for autocomplete.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The autocomplete API from AYLIEN — 1 operation(s) for autocomplete.
   name: AYLIEN autocomplete API
   slug: aylien-autocomplete-api
-- description: The Classify API from AYLIEN — 2 operation(s) for classify.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Classify API from AYLIEN — 2 operation(s) for classify.
   name: AYLIEN Classify API
   slug: aylien-classify-api
-- description: The cluster API from AYLIEN — 1 operation(s) for cluster.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The cluster API from AYLIEN — 1 operation(s) for cluster.
   name: AYLIEN cluster API
   slug: aylien-cluster-api
-- description: The Concepts API from AYLIEN — 1 operation(s) for concepts.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Concepts API from AYLIEN — 1 operation(s) for concepts.
   name: AYLIEN Concepts API
   slug: aylien-concepts-api
-- description: The Elsa API from AYLIEN — 1 operation(s) for elsa.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Elsa API from AYLIEN — 1 operation(s) for elsa.
   name: AYLIEN Elsa API
   slug: aylien-elsa-api
-- description: The Entities API from AYLIEN — 1 operation(s) for entities.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Entities API from AYLIEN — 1 operation(s) for entities.
   name: AYLIEN Entities API
   slug: aylien-entities-api
-- description: The Extract API from AYLIEN — 1 operation(s) for extract.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Extract API from AYLIEN — 1 operation(s) for extract.
   name: AYLIEN Extract API
   slug: aylien-extract-api
-- description: The Hashtags API from AYLIEN — 1 operation(s) for hashtags.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Hashtags API from AYLIEN — 1 operation(s) for hashtags.
   name: AYLIEN Hashtags API
   slug: aylien-hashtags-api
-- description: The histogram API from AYLIEN — 1 operation(s) for histogram.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The histogram API from AYLIEN — 1 operation(s) for histogram.
   name: AYLIEN histogram API
   slug: aylien-histogram-api
-- description: The Language API from AYLIEN — 1 operation(s) for language.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Language API from AYLIEN — 1 operation(s) for language.
   name: AYLIEN Language API
   slug: aylien-language-api
-- description: The related_story API from AYLIEN — 1 operation(s) for related_story.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The related_story API from AYLIEN — 1 operation(s) for related_story.
   name: AYLIEN related_story API
   slug: aylien-related-story-api
-- description: The Sentiment API from AYLIEN — 1 operation(s) for sentiment.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Sentiment API from AYLIEN — 1 operation(s) for sentiment.
   name: AYLIEN Sentiment API
   slug: aylien-sentiment-api
-- description: The story API from AYLIEN — 1 operation(s) for story.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The story API from AYLIEN — 1 operation(s) for story.
   name: AYLIEN story API
   slug: aylien-story-api
-- description: The Summarize API from AYLIEN — 1 operation(s) for summarize.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The Summarize API from AYLIEN — 1 operation(s) for summarize.
   name: AYLIEN Summarize API
   slug: aylien-summarize-api
-- description: The time_series API from AYLIEN — 1 operation(s) for time_series.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The time_series API from AYLIEN — 1 operation(s) for time_series.
   name: AYLIEN time_series API
   slug: aylien-time-series-api
-- description: The trends API from AYLIEN — 1 operation(s) for trends.
+- baseURL: https://api.aylien.com
+  baseurl_source: declared
+  description: The trends API from AYLIEN — 1 operation(s) for trends.
   name: AYLIEN trends API
   slug: aylien-trends-api
 artifact_total: 125
@@ -527,7 +561,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

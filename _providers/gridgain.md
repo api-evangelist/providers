@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 15
@@ -48,79 +48,129 @@ apis:
 - description: Legacy GridGain 8 / Apache Ignite REST API for cache operations, SQL and scan queries, cluster activation, and node management over HTTP.
   name: GridGain REST API
   slug: gridgain-rest-api
-- description: The authentication API from GridGain — 3 operation(s) for authentication.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The authentication API from GridGain — 3 operation(s) for authentication.
   name: GridGain authentication API
   slug: gridgain-authentication-api
-- description: The cdcManagement API from GridGain — 9 operation(s) for cdcmanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The cdcManagement API from GridGain — 9 operation(s) for cdcmanagement.
   name: GridGain cdcManagement API
   slug: gridgain-cdcmanagement-api
-- description: The clusterConfiguration API from GridGain — 2 operation(s) for clusterconfiguration.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The clusterConfiguration API from GridGain — 2 operation(s) for clusterconfiguration.
   name: GridGain clusterConfiguration API
   slug: gridgain-clusterconfiguration-api
-- description: The clusterManagement API from GridGain — 3 operation(s) for clustermanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The clusterManagement API from GridGain — 3 operation(s) for clustermanagement.
   name: GridGain clusterManagement API
   slug: gridgain-clustermanagement-api
-- description: The clusterMetric API from GridGain — 3 operation(s) for clustermetric.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The clusterMetric API from GridGain — 3 operation(s) for clustermetric.
   name: GridGain clusterMetric API
   slug: gridgain-clustermetric-api
-- description: The compute API from GridGain — 3 operation(s) for compute.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The compute API from GridGain — 3 operation(s) for compute.
   name: GridGain compute API
   slug: gridgain-compute-api
-- description: The dataNodes API from GridGain — 3 operation(s) for datanodes.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The dataNodes API from GridGain — 3 operation(s) for datanodes.
   name: GridGain dataNodes API
   slug: gridgain-datanodes-api
-- description: The dcr API from GridGain — 6 operation(s) for dcr.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The dcr API from GridGain — 6 operation(s) for dcr.
   name: GridGain dcr API
   slug: gridgain-dcr-api
-- description: The deployment API from GridGain — 7 operation(s) for deployment.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The deployment API from GridGain — 7 operation(s) for deployment.
   name: GridGain deployment API
   slug: gridgain-deployment-api
-- description: The distribution API from GridGain — 1 operation(s) for distribution.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The distribution API from GridGain — 1 operation(s) for distribution.
   name: GridGain distribution API
   slug: gridgain-distribution-api
-- description: The licenseManagement API from GridGain — 6 operation(s) for licensemanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The licenseManagement API from GridGain — 6 operation(s) for licensemanagement.
   name: GridGain licenseManagement API
   slug: gridgain-licensemanagement-api
-- description: The nodeConfiguration API from GridGain — 2 operation(s) for nodeconfiguration.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The nodeConfiguration API from GridGain — 2 operation(s) for nodeconfiguration.
   name: GridGain nodeConfiguration API
   slug: gridgain-nodeconfiguration-api
-- description: The nodeManagement API from GridGain — 3 operation(s) for nodemanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The nodeManagement API from GridGain — 3 operation(s) for nodemanagement.
   name: GridGain nodeManagement API
   slug: gridgain-nodemanagement-api
-- description: The nodeMetric API from GridGain — 4 operation(s) for nodemetric.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The nodeMetric API from GridGain — 4 operation(s) for nodemetric.
   name: GridGain nodeMetric API
   slug: gridgain-nodemetric-api
-- description: The privilegesGrants API from GridGain — 3 operation(s) for privilegesgrants.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The privilegesGrants API from GridGain — 3 operation(s) for privilegesgrants.
   name: GridGain privilegesGrants API
   slug: gridgain-privilegesgrants-api
-- description: The recovery API from GridGain — 9 operation(s) for recovery.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The recovery API from GridGain — 9 operation(s) for recovery.
   name: GridGain recovery API
   slug: gridgain-recovery-api
-- description: The roleAssignments API from GridGain — 5 operation(s) for roleassignments.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The roleAssignments API from GridGain — 5 operation(s) for roleassignments.
   name: GridGain roleAssignments API
   slug: gridgain-roleassignments-api
-- description: The roleManagement API from GridGain — 2 operation(s) for rolemanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The roleManagement API from GridGain — 2 operation(s) for rolemanagement.
   name: GridGain roleManagement API
   slug: gridgain-rolemanagement-api
-- description: The snapshotManagement API from GridGain — 6 operation(s) for snapshotmanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The snapshotManagement API from GridGain — 6 operation(s) for snapshotmanagement.
   name: GridGain snapshotManagement API
   slug: gridgain-snapshotmanagement-api
-- description: The sql API from GridGain — 3 operation(s) for sql.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The sql API from GridGain — 3 operation(s) for sql.
   name: GridGain sql API
   slug: gridgain-sql-api
-- description: The system API from GridGain — 2 operation(s) for system.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The system API from GridGain — 2 operation(s) for system.
   name: GridGain system API
   slug: gridgain-system-api
-- description: The topology API from GridGain — 2 operation(s) for topology.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The topology API from GridGain — 2 operation(s) for topology.
   name: GridGain topology API
   slug: gridgain-topology-api
-- description: The transactions API from GridGain — 2 operation(s) for transactions.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The transactions API from GridGain — 2 operation(s) for transactions.
   name: GridGain transactions API
   slug: gridgain-transactions-api
-- description: The upgrade API from GridGain — 4 operation(s) for upgrade.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The upgrade API from GridGain — 4 operation(s) for upgrade.
   name: GridGain upgrade API
   slug: gridgain-upgrade-api
-- description: The userManagement API from GridGain — 2 operation(s) for usermanagement.
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The userManagement API from GridGain — 2 operation(s) for usermanagement.
   name: GridGain userManagement API
   slug: gridgain-usermanagement-api
 artifact_total: 60
@@ -319,7 +369,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gridgain/refs/heads/main/screenshots/gridgain-2026-06-20T182404.png
 security:

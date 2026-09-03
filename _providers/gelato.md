@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 8 acting
 api_count: 1
 apis:
-- description: The Ecommerce API from Gelato — 4 operation(s) for ecommerce.
+- baseURL: https://order.gelatoapis.com
+  baseurl_source: declared
+  description: The Ecommerce API from Gelato — 4 operation(s) for ecommerce.
   name: Gelato Ecommerce API
   slug: gelato-ecommerce-api
-- description: The Orders API from Gelato — 5 operation(s) for orders.
+- baseURL: https://order.gelatoapis.com
+  baseurl_source: declared
+  description: The Orders API from Gelato — 5 operation(s) for orders.
   name: Gelato Orders API
   slug: gelato-orders-api
-- description: The Prices API from Gelato — 1 operation(s) for prices.
+- baseURL: https://order.gelatoapis.com
+  baseurl_source: declared
+  description: The Prices API from Gelato — 1 operation(s) for prices.
   name: Gelato Prices API
   slug: gelato-prices-api
-- description: The Product Catalog API from Gelato — 5 operation(s) for product catalog.
+- baseURL: https://order.gelatoapis.com
+  baseurl_source: declared
+  description: The Product Catalog API from Gelato — 5 operation(s) for product catalog.
   name: Gelato Product Catalog API
   slug: gelato-product-catalog-api
-- description: The Shipment API from Gelato — 1 operation(s) for shipment.
+- baseURL: https://order.gelatoapis.com
+  baseurl_source: declared
+  description: The Shipment API from Gelato — 1 operation(s) for shipment.
   name: Gelato Shipment API
   slug: gelato-shipment-api
-- description: The Stock API from Gelato — 1 operation(s) for stock.
+- baseURL: https://order.gelatoapis.com
+  baseurl_source: declared
+  description: The Stock API from Gelato — 1 operation(s) for stock.
   name: Gelato Stock API
   slug: gelato-stock-api
 artifact_total: 21
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gelato/refs/heads/main/screenshots/gelato-2026-07-25T215522.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage Autopilot drip campaign configuration and membership
+- baseURL: https://api.delighted.com
+  baseurl_source: declared
+  description: Manage Autopilot drip campaign configuration and membership
   name: Delighted Autopilot API
   slug: delighted-autopilot-api
-- description: Retrieve bounced email records
+- baseURL: https://api.delighted.com
+  baseurl_source: declared
+  description: Retrieve bounced email records
   name: Delighted Bounces API
   slug: delighted-bounces-api
-- description: Retrieve NPS and satisfaction metrics
+- baseURL: https://api.delighted.com
+  baseurl_source: declared
+  description: Retrieve NPS and satisfaction metrics
   name: Delighted Metrics API
   slug: delighted-metrics-api
-- description: Manage people records for survey targeting
+- baseURL: https://api.delighted.com
+  baseurl_source: declared
+  description: Manage people records for survey targeting
   name: Delighted People API
   slug: delighted-people-api
-- description: Create and retrieve survey responses
+- baseURL: https://api.delighted.com
+  baseurl_source: declared
+  description: Create and retrieve survey responses
   name: Delighted Survey Responses API
   slug: delighted-survey-responses-api
-- description: Manage unsubscribe lists
+- baseURL: https://api.delighted.com
+  baseurl_source: declared
+  description: Manage unsubscribe lists
   name: Delighted Unsubscribes API
   slug: delighted-unsubscribes-api
 artifact_total: 27
@@ -210,7 +222,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -220,7 +232,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 32.0
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/screenshots/delighted-2026-06-20T175852.png
 security:

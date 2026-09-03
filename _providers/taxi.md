@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,19 +52,29 @@ apis:
 - description: Interactive web-based editor for writing Taxi schemas and TaxiQL queries with live diagram generation and query execution preview.
   name: Taxi Playground
   slug: taxi-playground
-- description: Convert existing specs to Taxi format
+- baseURL: https://api.taxilang.org
+  baseurl_source: spec
+  description: Convert existing specs to Taxi format
   name: Taxi - Describe How Your APIs and Data Relate Conversion API
   slug: taxi-conversion-api
-- description: TaxiQL query execution
+- baseURL: https://api.taxilang.org
+  baseurl_source: spec
+  description: TaxiQL query execution
   name: Taxi - Describe How Your APIs and Data Relate Queries API
   slug: taxi-queries-api
-- description: Taxi schema management and compilation
+- baseURL: https://api.taxilang.org
+  baseurl_source: spec
+  description: Taxi schema management and compilation
   name: Taxi - Describe How Your APIs and Data Relate Schemas API
   slug: taxi-schemas-api
-- description: Service registry operations
+- baseURL: https://api.taxilang.org
+  baseurl_source: spec
+  description: Service registry operations
   name: Taxi - Describe How Your APIs and Data Relate Services API
   slug: taxi-services-api
-- description: Type registry and discovery
+- baseURL: https://api.taxilang.org
+  baseurl_source: spec
+  description: Type registry and discovery
   name: Taxi - Describe How Your APIs and Data Relate Types API
   slug: taxi-types-api
 artifact_total: 27
@@ -240,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxi/refs/heads/main/screenshots/taxi-2026-06-20T194934.png
 security:

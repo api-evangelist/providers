@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Alerts API from Phosphorus — 1 operation(s) for alerts.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Alerts API from Phosphorus — 1 operation(s) for alerts.
   name: Phosphorus Alerts API
   slug: phosphorus-alerts-api
-- description: The Device API from Phosphorus — 8 operation(s) for device.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Device API from Phosphorus — 8 operation(s) for device.
   name: Phosphorus Device API
   slug: phosphorus-device-api
-- description: The Devices API from Phosphorus — 1 operation(s) for devices.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Devices API from Phosphorus — 1 operation(s) for devices.
   name: Phosphorus Devices API
   slug: phosphorus-devices-api
-- description: The Dynamic Scans API from Phosphorus — 5 operation(s) for dynamic scans.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Dynamic Scans API from Phosphorus — 5 operation(s) for dynamic scans.
   name: Phosphorus Dynamic Scans API
   slug: phosphorus-dynamic-scans-api
-- description: The Providers API from Phosphorus — 5 operation(s) for providers.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Providers API from Phosphorus — 5 operation(s) for providers.
   name: Phosphorus Providers API
   slug: phosphorus-providers-api
-- description: The Search API from Phosphorus — 1 operation(s) for search.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Search API from Phosphorus — 1 operation(s) for search.
   name: Phosphorus Search API
   slug: phosphorus-search-api
-- description: The Sites API from Phosphorus — 1 operation(s) for sites.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Sites API from Phosphorus — 1 operation(s) for sites.
   name: Phosphorus Sites API
   slug: phosphorus-sites-api
-- description: The Vault API from Phosphorus — 2 operation(s) for vault.
+- baseURL: https://{tenant}.phosphorus.io
+  baseurl_source: declared
+  description: The Vault API from Phosphorus — 2 operation(s) for vault.
   name: Phosphorus Vault API
   slug: phosphorus-vault-api
 artifact_total: 13
@@ -155,18 +182,18 @@ rate_limits:
   slug: phosphorus-rate-limits
 score:
   band: thin
-  composite: 31.7
+  composite: 32.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 46.3
+    contract_quality: 48.9
     developer_ergonomics: 20.8
     discoverability: 68.5
     governance: 4.5
@@ -182,8 +209,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/phosphorus/refs/heads/main/screenshots/phosphorus-2026-09-02T151153.png
 security:
 - kind: authentication
   name: Phosphorus Authentication

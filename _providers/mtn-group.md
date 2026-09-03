@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -45,436 +58,724 @@ apis:
 - description: Provision sandbox API users and API keys for the MTN MoMo Open API test environment, the self-serve step that lets a developer obtain credentials before calling Collection, Disbursements or Remittance
   name: MTN MoMo Sandbox User Provisioning API
   slug: momo-sandbox-user-provisioning
-- description: Accessible to Client APP (3PP) - ApiKeyAuth, to subscribe (MO/MT), unsubscribe and push/send message.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: Accessible to Client APP (3PP) - ApiKeyAuth, to subscribe (MO/MT), unsubscribe and push/send message.
   name: MTN Group Accessible to 3PP API
   slug: mtn-group-accessible-to-3pp-api
-- description: Used by USSDGW - using ApiKeyAuth, to send MO generated messages to 3PP through MADAPI.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: Used by USSDGW - using ApiKeyAuth, to send MO generated messages to 3PP through MADAPI.
   name: MTN Group Accessible to USSD Gateway API
   slug: mtn-group-accessible-to-ussd-gateway-api
-- description: The Activation API from MTN Group — 1 operation(s) for activation.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Activation API from MTN Group — 1 operation(s) for activation.
   name: MTN Group Activation API
   slug: mtn-group-activation-api
-- description: The Add User API from MTN Group — 1 operation(s) for add user.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Add User API from MTN Group — 1 operation(s) for add user.
   name: MTN Group Add User API
   slug: mtn-group-add-user-api
-- description: The Admin Suspend API from MTN Group — 1 operation(s) for admin suspend.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Admin Suspend API from MTN Group — 1 operation(s) for admin suspend.
   name: MTN Group Admin Suspend API
   slug: mtn-group-admin-suspend-api
-- description: The Adverts API from MTN Group — 3 operation(s) for adverts.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Adverts API from MTN Group — 3 operation(s) for adverts.
   name: MTN Group Adverts API
   slug: mtn-group-adverts-api
-- description: The Advice Reconcile API from MTN Group — 1 operation(s) for advice reconcile.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Advice Reconcile API from MTN Group — 1 operation(s) for advice reconcile.
   name: MTN Group Advice Reconcile API
   slug: mtn-group-advice-reconcile-api
-- description: The agents API from MTN Group — 4 operation(s) for agents.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The agents API from MTN Group — 4 operation(s) for agents.
   name: MTN Group Agents API
   slug: mtn-group-agents-api
-- description: The appliedCustomerBillingRate API from MTN Group — 2 operation(s) for appliedcustomerbillingrate.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The appliedCustomerBillingRate API from MTN Group — 2 operation(s) for appliedcustomerbillingrate.
   name: MTN Group Applied Customer Billing Rate API
   slug: mtn-group-appliedcustomerbillingrate-api
-- description: The auth API from MTN Group — 1 operation(s) for auth.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The auth API from MTN Group — 1 operation(s) for auth.
   name: MTN Group Auth API
   slug: mtn-group-auth-api
-- description: The Balance Buckets Methods API from MTN Group — 1 operation(s) for balance buckets methods.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Balance Buckets Methods API from MTN Group — 1 operation(s) for balance buckets methods.
   name: MTN Group Balance Buckets Methods API
   slug: mtn-group-balance-buckets-methods-api
-- description: The Balance Management API from MTN Group — 1 operation(s) for balance management.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Balance Management API from MTN Group — 1 operation(s) for balance management.
   name: MTN Group Balance Management API
   slug: mtn-group-balance-management-api
-- description: The BalanceTransfer API from MTN Group — 1 operation(s) for balancetransfer.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The BalanceTransfer API from MTN Group — 1 operation(s) for balancetransfer.
   name: MTN Group Balance Transfer API
   slug: mtn-group-balancetransfer-api
-- description: The banktech API from MTN Group — 1 operation(s) for banktech.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The banktech API from MTN Group — 1 operation(s) for banktech.
   name: MTN Group Banktech API
   slug: mtn-group-banktech-api
-- description: The Callback API from MTN Group — 2 operation(s) for callback.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Callback API from MTN Group — 2 operation(s) for callback.
   name: MTN Group Callback API
   slug: mtn-group-callback-api
-- description: The Callmeback API from MTN Group — 1 operation(s) for callmeback.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Callmeback API from MTN Group — 1 operation(s) for callmeback.
   name: MTN Group Callmeback API
   slug: mtn-group-callmeback-api
-- description: The callmeback with geographicLocation API from MTN Group — 1 operation(s) for callmeback with geographiclocation.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The callmeback with geographicLocation API from MTN Group — 1 operation(s) for callmeback with geographiclocation.
   name: MTN Group callmeback with geographicLocation API
   slug: mtn-group-callmeback-with-geographiclocation-api
-- description: The Cancel Customer PreApproval API from MTN Group — 1 operation(s) for cancel customer preapproval.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Cancel Customer PreApproval API from MTN Group — 1 operation(s) for cancel customer preapproval.
   name: MTN Group Cancel Customer PreApproval API
   slug: mtn-group-cancel-customer-preapproval-api
-- description: The capabilityCheck API from MTN Group — 1 operation(s) for capabilitycheck.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The capabilityCheck API from MTN Group — 1 operation(s) for capabilitycheck.
   name: MTN Group Capability Check API
   slug: mtn-group-capabilitycheck-api
-- description: The catalog API from MTN Group — 2 operation(s) for catalog.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The catalog API from MTN Group — 2 operation(s) for catalog.
   name: MTN Group Catalog API
   slug: mtn-group-catalog-api
-- description: The category API from MTN Group — 1 operation(s) for category.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The category API from MTN Group — 1 operation(s) for category.
   name: MTN Group Category API
   slug: mtn-group-category-api
-- description: Channel VAS Controller
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: Channel VAS Controller
   name: MTN Group Channel Vas Controller API
   slug: mtn-group-channel-vas-controller-api
-- description: The channelService API from MTN Group — 1 operation(s) for channelservice.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The channelService API from MTN Group — 1 operation(s) for channelservice.
   name: MTN Group Channel Service API
   slug: mtn-group-channelservice-api
-- description: The Communication API from MTN Group — 4 operation(s) for communication.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Communication API from MTN Group — 4 operation(s) for communication.
   name: MTN Group Communication API
   slug: mtn-group-communication-api
-- description: The communicationMessage API from MTN Group — 4 operation(s) for communicationmessage.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The communicationMessage API from MTN Group — 4 operation(s) for communicationmessage.
   name: MTN Group Communication Message API
   slug: mtn-group-communicationmessage-api
-- description: The Consent API from MTN Group — 2 operation(s) for consent.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Consent API from MTN Group — 2 operation(s) for consent.
   name: MTN Group Consent API
   slug: mtn-group-consent-api
-- description: Consent Validation Implementation to confirm user consent
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: Consent Validation Implementation to confirm user consent
   name: MTN Group Consent Validation API
   slug: mtn-group-consent-validation-api
-- description: The Content Push API from MTN Group — 2 operation(s) for content push.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Content Push API from MTN Group — 2 operation(s) for content push.
   name: MTN Group Content Push API
   slug: mtn-group-content-push-api
-- description: The Create Customer API from MTN Group — 1 operation(s) for create customer.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Create Customer API from MTN Group — 1 operation(s) for create customer.
   name: MTN Group Create Customer API
   slug: mtn-group-create-customer-api
-- description: The Create Customer PreApproval API from MTN Group — 1 operation(s) for create customer preapproval.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Create Customer PreApproval API from MTN Group — 1 operation(s) for create customer preapproval.
   name: MTN Group Create Customer PreApproval API
   slug: mtn-group-create-customer-preapproval-api
-- description: The Customer API from MTN Group — 10 operation(s) for customer.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer API from MTN Group — 10 operation(s) for customer.
   name: MTN Group Customer API
   slug: mtn-group-customer-api
-- description: The Customer Attribute API from MTN Group — 1 operation(s) for customer attribute.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer Attribute API from MTN Group — 1 operation(s) for customer attribute.
   name: MTN Group Customer Attribute API
   slug: mtn-group-customer-attribute-api
-- description: The Customer Characteristics API from MTN Group — 1 operation(s) for customer characteristics.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer Characteristics API from MTN Group — 1 operation(s) for customer characteristics.
   name: MTN Group Customer Characteristics API
   slug: mtn-group-customer-characteristics-api
-- description: The Customer Information API from MTN Group — 1 operation(s) for customer information.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer Information API from MTN Group — 1 operation(s) for customer information.
   name: MTN Group Customer Information API
   slug: mtn-group-customer-information-api
-- description: The Customer KYC API from MTN Group — 7 operation(s) for customer kyc.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer KYC API from MTN Group — 7 operation(s) for customer kyc.
   name: MTN Group Customer KYC API
   slug: mtn-group-customer-kyc-api
-- description: The Customer Mobile Carrier Data API from MTN Group — 2 operation(s) for customer mobile carrier data.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer Mobile Carrier Data API from MTN Group — 2 operation(s) for customer mobile carrier data.
   name: MTN Group Customer Mobile Carrier Data API
   slug: mtn-group-customer-mobile-carrier-data-api
-- description: The Customer Promotion API from MTN Group — 3 operation(s) for customer promotion.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customer Promotion API from MTN Group — 3 operation(s) for customer promotion.
   name: MTN Group Customer Promotion API
   slug: mtn-group-customer-promotion-api
-- description: The customerBill API from MTN Group — 2 operation(s) for customerbill.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The customerBill API from MTN Group — 2 operation(s) for customerbill.
   name: MTN Group Customer Bill API
   slug: mtn-group-customerbill-api
-- description: The customerBillOnDemand API from MTN Group — 2 operation(s) for customerbillondemand.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The customerBillOnDemand API from MTN Group — 2 operation(s) for customerbillondemand.
   name: MTN Group Customer Bill On Demand API
   slug: mtn-group-customerbillondemand-api
-- description: The Customers API from MTN Group — 21 operation(s) for customers.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Customers API from MTN Group — 21 operation(s) for customers.
   name: MTN Group Customers API
   slug: mtn-group-customers-api
-- description: The CustomerTransferService API from MTN Group — 3 operation(s) for customertransferservice.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The CustomerTransferService API from MTN Group — 3 operation(s) for customertransferservice.
   name: MTN Group Customer Transfer Service API
   slug: mtn-group-customertransferservice-api
-- description: The Deactivation API from MTN Group — 1 operation(s) for deactivation.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Deactivation API from MTN Group — 1 operation(s) for deactivation.
   name: MTN Group Deactivation API
   slug: mtn-group-deactivation-api
-- description: The Debit API from MTN Group — 1 operation(s) for debit.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Debit API from MTN Group — 1 operation(s) for debit.
   name: MTN Group Debit API
   slug: mtn-group-debit-api
-- description: The Device Information API from MTN Group — 1 operation(s) for device information.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Device Information API from MTN Group — 1 operation(s) for device information.
   name: MTN Group Device Information API
   slug: mtn-group-device-information-api
-- description: The Device Swap API API from MTN Group — 2 operation(s) for device swap api.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Device Swap API API from MTN Group — 2 operation(s) for device swap api.
   name: MTN Group Device Swap API
   slug: mtn-group-device-swap-api-api
-- description: The document API from MTN Group — 2 operation(s) for document.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The document API from MTN Group — 2 operation(s) for document.
   name: MTN Group Document API
   slug: mtn-group-document-api
-- description: The Employee Leaves API from MTN Group — 1 operation(s) for employee leaves.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Employee Leaves API from MTN Group — 1 operation(s) for employee leaves.
   name: MTN Group Employee Leaves API
   slug: mtn-group-employee-leaves-api
-- description: The event API from MTN Group — 2 operation(s) for event.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The event API from MTN Group — 2 operation(s) for event.
   name: MTN Group Event API
   slug: mtn-group-event-api
-- description: The events subscription API from MTN Group — 2 operation(s) for events subscription.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The events subscription API from MTN Group — 2 operation(s) for events subscription.
   name: MTN Group events subscription API
   slug: mtn-group-events-subscription-api
-- description: The FinancialAccount API from MTN Group — 4 operation(s) for financialaccount.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The FinancialAccount API from MTN Group — 4 operation(s) for financialaccount.
   name: MTN Group Financial Account API
   slug: mtn-group-financialaccount-api
-- description: The fraudManagement API from MTN Group — 2 operation(s) for fraudmanagement.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The fraudManagement API from MTN Group — 2 operation(s) for fraudmanagement.
   name: MTN Group Fraud Management API
   slug: mtn-group-fraudmanagement-api
-- description: The GENEYSIS-EEC-TOKENS API from MTN Group — 1 operation(s) for geneysis-eec-tokens.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The GENEYSIS-EEC-TOKENS API from MTN Group — 1 operation(s) for geneysis-eec-tokens.
   name: MTN Group GENEYSIS EEC TOKENS API
   slug: mtn-group-geneysis-eec-tokens-api
-- description: The Get access token API from MTN Group — 1 operation(s) for get access token.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Get access token API from MTN Group — 1 operation(s) for get access token.
   name: MTN Group Get access token API
   slug: mtn-group-get-access-token-api
-- description: The getInfo API from MTN Group — 1 operation(s) for getinfo.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The getInfo API from MTN Group — 1 operation(s) for getinfo.
   name: MTN Group Get Info API
   slug: mtn-group-getinfo-api
-- description: The hub API from MTN Group — 2 operation(s) for hub.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The hub API from MTN Group — 2 operation(s) for hub.
   name: MTN Group Hub API
   slug: mtn-group-hub-api
-- description: The Incident ticket API from MTN Group — 1 operation(s) for incident ticket.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Incident ticket API from MTN Group — 1 operation(s) for incident ticket.
   name: MTN Group Incident ticket API
   slug: mtn-group-incident-ticket-api
-- description: The individual API from MTN Group — 2 operation(s) for individual.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The individual API from MTN Group — 2 operation(s) for individual.
   name: MTN Group Individual API
   slug: mtn-group-individual-api
-- description: The Kyc API from MTN Group — 2 operation(s) for kyc.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Kyc API from MTN Group — 2 operation(s) for kyc.
   name: MTN Group Kyc API
   slug: mtn-group-kyc-api
-- description: The license-aggregator-controller API from MTN Group — 2 operation(s) for license-aggregator-controller.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The license-aggregator-controller API from MTN Group — 2 operation(s) for license-aggregator-controller.
   name: MTN Group License Aggregator Controller API
   slug: mtn-group-license-aggregator-controller-api
-- description: The Link Accounts API from MTN Group — 1 operation(s) for link accounts.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Link Accounts API from MTN Group — 1 operation(s) for link accounts.
   name: MTN Group Link Accounts API
   slug: mtn-group-link-accounts-api
-- description: The Loyalty Balance API from MTN Group — 1 operation(s) for loyalty balance.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Loyalty Balance API from MTN Group — 1 operation(s) for loyalty balance.
   name: MTN Group Loyalty Balance API
   slug: mtn-group-loyalty-balance-api
-- description: The Loyalty Burn API from MTN Group — 1 operation(s) for loyalty burn.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Loyalty Burn API from MTN Group — 1 operation(s) for loyalty burn.
   name: MTN Group Loyalty Burn API
   slug: mtn-group-loyalty-burn-api
-- description: The Loyalty Member API from MTN Group — 2 operation(s) for loyalty member.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Loyalty Member API from MTN Group — 2 operation(s) for loyalty member.
   name: MTN Group Loyalty Member API
   slug: mtn-group-loyalty-member-api
-- description: The Loyalty Program Product API from MTN Group — 2 operation(s) for loyalty program product.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Loyalty Program Product API from MTN Group — 2 operation(s) for loyalty program product.
   name: MTN Group Loyalty Program Product API
   slug: mtn-group-loyalty-program-product-api
-- description: The Member Summary API from MTN Group — 1 operation(s) for member summary.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Member Summary API from MTN Group — 1 operation(s) for member summary.
   name: MTN Group Member Summary API
   slug: mtn-group-member-summary-api
-- description: The Mobile Ads Service API from MTN Group — 1 operation(s) for mobile ads service.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Mobile Ads Service API from MTN Group — 1 operation(s) for mobile ads service.
   name: MTN Group Mobile Ads Service API
   slug: mtn-group-mobile-ads-service-api
-- description: The MoMo API from MTN Group — 1 operation(s) for momo.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The MoMo API from MTN Group — 1 operation(s) for momo.
   name: MTN Group Mo Mo API
   slug: mtn-group-momo-api
-- description: The monitor API from MTN Group — 2 operation(s) for monitor.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The monitor API from MTN Group — 2 operation(s) for monitor.
   name: MTN Group Monitor API
   slug: mtn-group-monitor-api
-- description: The netflix-integration-controller API from MTN Group — 4 operation(s) for netflix-integration-controller.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The netflix-integration-controller API from MTN Group — 4 operation(s) for netflix-integration-controller.
   name: MTN Group Netflix Integration Controller API
   slug: mtn-group-netflix-integration-controller-api
-- description: The notification listeners (client side) API from MTN Group — 15 operation(s) for notification listeners (client side).
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The notification listeners (client side) API from MTN Group — 15 operation(s) for notification listeners (client side).
   name: MTN Group notification listeners (client side) API
   slug: mtn-group-notification-listeners-client-side-api
-- description: Send Notifications
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: Send Notifications
   name: MTN Group Notifications API
   slug: mtn-group-notifications-api
-- description: The NumberRecycleService API from MTN Group — 1 operation(s) for numberrecycleservice.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The NumberRecycleService API from MTN Group — 1 operation(s) for numberrecycleservice.
   name: MTN Group Number Recycle Service API
   slug: mtn-group-numberrecycleservice-api
-- description: The OrderFulfillment API from MTN Group — 1 operation(s) for orderfulfillment.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The OrderFulfillment API from MTN Group — 1 operation(s) for orderfulfillment.
   name: MTN Group Order Fulfillment API
   slug: mtn-group-orderfulfillment-api
-- description: The organization API from MTN Group — 2 operation(s) for organization.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The organization API from MTN Group — 2 operation(s) for organization.
   name: MTN Group Organization API
   slug: mtn-group-organization-api
-- description: The Organizations API from MTN Group — 3 operation(s) for organizations.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Organizations API from MTN Group — 3 operation(s) for organizations.
   name: MTN Group Organizations API
   slug: mtn-group-organizations-api
-- description: The OTP API from MTN Group — 2 operation(s) for otp.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The OTP API from MTN Group — 2 operation(s) for otp.
   name: MTN Group OTP API
   slug: mtn-group-otp-api
-- description: The partners API from MTN Group — 2 operation(s) for partners.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The partners API from MTN Group — 2 operation(s) for partners.
   name: MTN Group Partners API
   slug: mtn-group-partners-api
-- description: The partyAccount API from MTN Group — 1 operation(s) for partyaccount.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The partyAccount API from MTN Group — 1 operation(s) for partyaccount.
   name: MTN Group Party Account API
   slug: mtn-group-partyaccount-api
-- description: The partyInteraction API from MTN Group — 1 operation(s) for partyinteraction.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The partyInteraction API from MTN Group — 1 operation(s) for partyinteraction.
   name: MTN Group Party Interaction API
   slug: mtn-group-partyinteraction-api
-- description: The partyRoleRiskAssessment API from MTN Group — 8 operation(s) for partyroleriskassessment.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The partyRoleRiskAssessment API from MTN Group — 8 operation(s) for partyroleriskassessment.
   name: MTN Group Party Role Risk Assessment API
   slug: mtn-group-partyroleriskassessment-api
-- description: The Payment API from MTN Group — 13 operation(s) for payment.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Payment API from MTN Group — 13 operation(s) for payment.
   name: MTN Group Payment API
   slug: mtn-group-payment-api
-- description: The payment methods API from MTN Group — 2 operation(s) for payment methods.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The payment methods API from MTN Group — 2 operation(s) for payment methods.
   name: MTN Group payment methods API
   slug: mtn-group-payment-methods-api
-- description: The PIN API from MTN Group — 2 operation(s) for pin.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The PIN API from MTN Group — 2 operation(s) for pin.
   name: MTN Group PIN API
   slug: mtn-group-pin-api
-- description: The Policy API from MTN Group — 1 operation(s) for policy.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Policy API from MTN Group — 1 operation(s) for policy.
   name: MTN Group Policy API
   slug: mtn-group-policy-api
-- description: The Premiums API from MTN Group — 1 operation(s) for premiums.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Premiums API from MTN Group — 1 operation(s) for premiums.
   name: MTN Group Premiums API
   slug: mtn-group-premiums-api
-- description: The Process Operations API from MTN Group — 6 operation(s) for process operations.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Process Operations API from MTN Group — 6 operation(s) for process operations.
   name: MTN Group Process Operations API
   slug: mtn-group-process-operations-api
-- description: The product API from MTN Group — 2 operation(s) for product.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The product API from MTN Group — 2 operation(s) for product.
   name: MTN Group Product API
   slug: mtn-group-product-api
-- description: The Productivity Report API from MTN Group — 1 operation(s) for productivity report.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Productivity Report API from MTN Group — 1 operation(s) for productivity report.
   name: MTN Group Productivity Report API
   slug: mtn-group-productivity-report-api
-- description: The productOffering API from MTN Group — 1 operation(s) for productoffering.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The productOffering API from MTN Group — 1 operation(s) for productoffering.
   name: MTN Group Product Offering API
   slug: mtn-group-productoffering-api
-- description: The productOrder API from MTN Group — 2 operation(s) for productorder.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The productOrder API from MTN Group — 2 operation(s) for productorder.
   name: MTN Group Product Order API
   slug: mtn-group-productorder-api
-- description: The products API from MTN Group — 13 operation(s) for products.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The products API from MTN Group — 13 operation(s) for products.
   name: MTN Group Products API
   slug: mtn-group-products-api
-- description: The Provider API from MTN Group — 3 operation(s) for provider.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Provider API from MTN Group — 3 operation(s) for provider.
   name: MTN Group Provider API
   slug: mtn-group-provider-api
-- description: The Purchase API from MTN Group — 1 operation(s) for purchase.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Purchase API from MTN Group — 1 operation(s) for purchase.
   name: MTN Group Purchase API
   slug: mtn-group-purchase-api
-- description: The Query By Data API from MTN Group — 1 operation(s) for query by data.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Query By Data API from MTN Group — 1 operation(s) for query by data.
   name: MTN Group Query By Data API
   slug: mtn-group-query-by-data-api
-- description: The Query By Transaction ID API from MTN Group — 1 operation(s) for query by transaction id.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Query By Transaction ID API from MTN Group — 1 operation(s) for query by transaction id.
   name: MTN Group Query By Transaction ID API
   slug: mtn-group-query-by-transaction-id-api
-- description: The Query logback by targetURL and country code API from MTN Group — 1 operation(s) for query logback by targeturl and country code.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Query logback by targetURL and country code API from MTN Group — 1 operation(s) for query logback by targeturl and country code.
   name: MTN Group Query logback by targetURL and country code API
   slug: mtn-group-query-logback-by-targeturl-and-country-code-api
-- description: The Quotation API from MTN Group — 1 operation(s) for quotation.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Quotation API from MTN Group — 1 operation(s) for quotation.
   name: MTN Group Quotation API
   slug: mtn-group-quotation-api
-- description: The Receiving SMS API from MTN Group — 1 operation(s) for receiving sms.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Receiving SMS API from MTN Group — 1 operation(s) for receiving sms.
   name: MTN Group Receiving SMS API
   slug: mtn-group-receiving-sms-api
-- description: The Reference Data Operations API from MTN Group — 3 operation(s) for reference data operations.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Reference Data Operations API from MTN Group — 3 operation(s) for reference data operations.
   name: MTN Group Reference Data Operations API
   slug: mtn-group-reference-data-operations-api
-- description: The Refund API from MTN Group — 1 operation(s) for refund.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Refund API from MTN Group — 1 operation(s) for refund.
   name: MTN Group Refund API
   slug: mtn-group-refund-api
-- description: The Registration API from MTN Group — 7 operation(s) for registration.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Registration API from MTN Group — 7 operation(s) for registration.
   name: MTN Group Registration API
   slug: mtn-group-registration-api
-- description: The Reporting API from MTN Group — 1 operation(s) for reporting.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Reporting API from MTN Group — 1 operation(s) for reporting.
   name: MTN Group Reporting API
   slug: mtn-group-reporting-api
-- description: The resource API from MTN Group — 2 operation(s) for resource.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The resource API from MTN Group — 2 operation(s) for resource.
   name: MTN Group Resource API
   slug: mtn-group-resource-api
-- description: The ResourceFunction API from MTN Group — 1 operation(s) for resourcefunction.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The ResourceFunction API from MTN Group — 1 operation(s) for resourcefunction.
   name: MTN Group Resource Function API
   slug: mtn-group-resourcefunction-api
-- description: The resourceOrder API from MTN Group — 2 operation(s) for resourceorder.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The resourceOrder API from MTN Group — 2 operation(s) for resourceorder.
   name: MTN Group Resource Order API
   slug: mtn-group-resourceorder-api
-- description: The salesLead API from MTN Group — 1 operation(s) for saleslead.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The salesLead API from MTN Group — 1 operation(s) for saleslead.
   name: MTN Group Sales Lead API
   slug: mtn-group-saleslead-api
-- description: The Sending SMS API from MTN Group — 4 operation(s) for sending sms.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Sending SMS API from MTN Group — 4 operation(s) for sending sms.
   name: MTN Group Sending SMS API
   slug: mtn-group-sending-sms-api
-- description: The service-activation-controller API from MTN Group — 1 operation(s) for service-activation-controller.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The service-activation-controller API from MTN Group — 1 operation(s) for service-activation-controller.
   name: MTN Group Service Activation Controller API
   slug: mtn-group-service-activation-controller-api
-- description: The service API from MTN Group — 2 operation(s) for service.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The service API from MTN Group — 2 operation(s) for service.
   name: MTN Group Service API
   slug: mtn-group-service-api
-- description: The serviceOrder API from MTN Group — 2 operation(s) for serviceorder.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The serviceOrder API from MTN Group — 2 operation(s) for serviceorder.
   name: MTN Group Service Order API
   slug: mtn-group-serviceorder-api
-- description: The shoppingCart API from MTN Group — 6 operation(s) for shoppingcart.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The shoppingCart API from MTN Group — 6 operation(s) for shoppingcart.
   name: MTN Group Shopping Cart API
   slug: mtn-group-shoppingcart-api
-- description: The siebel API from MTN Group — 3 operation(s) for siebel.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The siebel API from MTN Group — 3 operation(s) for siebel.
   name: MTN Group Siebel API
   slug: mtn-group-siebel-api
-- description: The Sim Activation API from MTN Group — 2 operation(s) for sim activation.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Sim Activation API from MTN Group — 2 operation(s) for sim activation.
   name: MTN Group Sim Activation API
   slug: mtn-group-sim-activation-api
-- description: The SIM & MSISDN Availability APIs API from MTN Group — 3 operation(s) for sim & msisdn availability apis.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The SIM & MSISDN Availability APIs API from MTN Group — 3 operation(s) for sim & msisdn availability apis.
   name: MTN Group SIM & MSISDN Availability APIs API
   slug: mtn-group-sim-msisdn-availability-apis-api
-- description: The Sim Recycle API from MTN Group — 1 operation(s) for sim recycle.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Sim Recycle API from MTN Group — 1 operation(s) for sim recycle.
   name: MTN Group Sim Recycle API
   slug: mtn-group-sim-recycle-api
-- description: The SIM Swap API API from MTN Group — 1 operation(s) for sim swap api.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The SIM Swap API API from MTN Group — 1 operation(s) for sim swap api.
   name: MTN Group SIM Swap API
   slug: mtn-group-sim-swap-api-api
-- description: The Sim Swap API from MTN Group — 2 operation(s) for sim swap.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Sim Swap API from MTN Group — 2 operation(s) for sim swap.
   name: MTN Group Sim Swap API
   slug: mtn-group-sim-swap-api
-- description: The SimManagementService API from MTN Group — 11 operation(s) for simmanagementservice.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The SimManagementService API from MTN Group — 11 operation(s) for simmanagementservice.
   name: MTN Group Sim Management Service API
   slug: mtn-group-simmanagementservice-api
-- description: The status API from MTN Group — 3 operation(s) for status.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The status API from MTN Group — 3 operation(s) for status.
   name: MTN Group Status API
   slug: mtn-group-status-api
-- description: The Submit Withdrawal Request API from MTN Group — 1 operation(s) for submit withdrawal request.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Submit Withdrawal Request API from MTN Group — 1 operation(s) for submit withdrawal request.
   name: MTN Group Submit Withdrawal Request API
   slug: mtn-group-submit-withdrawal-request-api
-- description: Subscriber Attributes Controller
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: Subscriber Attributes Controller
   name: MTN Group Subscriber Attributes Controller API
   slug: mtn-group-subscriber-attributes-controller-api
-- description: The Subscriber Type API from MTN Group — 1 operation(s) for subscriber type.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Subscriber Type API from MTN Group — 1 operation(s) for subscriber type.
   name: MTN Group Subscriber Type API
   slug: mtn-group-subscriber-type-api
-- description: The subscriberinfo API from MTN Group — 2 operation(s) for subscriberinfo.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The subscriberinfo API from MTN Group — 2 operation(s) for subscriberinfo.
   name: MTN Group Subscriberinfo API
   slug: mtn-group-subscriberinfo-api
-- description: The Subscribing for Mobile Originating and Delivery Receipts API from MTN Group — 2 operation(s) for subscribing for mobile originating and delivery receipts.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Subscribing for Mobile Originating and Delivery Receipts API from MTN Group — 2 operation(s) for subscribing for mobile originating and delivery receipts.
   name: MTN Group Subscribing for Mobile Originating and Delivery Receipts API
   slug: mtn-group-subscribing-for-mobile-originating-and-delivery-receipts-api
-- description: The Taxation API from MTN Group — 1 operation(s) for taxation.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Taxation API from MTN Group — 1 operation(s) for taxation.
   name: MTN Group Taxation API
   slug: mtn-group-taxation-api
-- description: The TMF632 Party Management API from MTN Group — 5 operation(s) for tmf632 party management.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The TMF632 Party Management API from MTN Group — 5 operation(s) for tmf632 party management.
   name: MTN Group TMF632 Party Management API
   slug: mtn-group-tmf632-party-management-api
-- description: The TMF676 Payment Management Aggregator API from MTN Group — 2 operation(s) for tmf676 payment management aggregator.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The TMF676 Payment Management Aggregator API from MTN Group — 2 operation(s) for tmf676 payment management aggregator.
   name: MTN Group TMF676 Payment Management Aggregator API
   slug: mtn-group-tmf676-payment-management-aggregator-api
-- description: The TMF908 IoT Device Management API from MTN Group — 3 operation(s) for tmf908 iot device management.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The TMF908 IoT Device Management API from MTN Group — 3 operation(s) for tmf908 iot device management.
   name: MTN Group TMF908 IoT Device Management API
   slug: mtn-group-tmf908-iot-device-management-api
-- description: The topic API from MTN Group — 2 operation(s) for topic.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The topic API from MTN Group — 2 operation(s) for topic.
   name: MTN Group Topic API
   slug: mtn-group-topic-api
-- description: The Track ticket API from MTN Group — 2 operation(s) for track ticket.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Track ticket API from MTN Group — 2 operation(s) for track ticket.
   name: MTN Group Track ticket API
   slug: mtn-group-track-ticket-api
-- description: The trouble-ticket-aggregator-controller API from MTN Group — 5 operation(s) for trouble-ticket-aggregator-controller.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The trouble-ticket-aggregator-controller API from MTN Group — 5 operation(s) for trouble-ticket-aggregator-controller.
   name: MTN Group Trouble Ticket Aggregator Controller API
   slug: mtn-group-trouble-ticket-aggregator-controller-api
-- description: The Unified Balance Enquiry API from MTN Group — 1 operation(s) for unified balance enquiry.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Unified Balance Enquiry API from MTN Group — 1 operation(s) for unified balance enquiry.
   name: MTN Group Unified Balance Enquiry API
   slug: mtn-group-unified-balance-enquiry-api
-- description: The urlCreate API from MTN Group — 1 operation(s) for urlcreate.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The urlCreate API from MTN Group — 1 operation(s) for urlcreate.
   name: MTN Group URL Create API
   slug: mtn-group-urlcreate-api
-- description: The Usage Historical Information API from MTN Group — 1 operation(s) for usage historical information.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Usage Historical Information API from MTN Group — 1 operation(s) for usage historical information.
   name: MTN Group Usage Historical Information API
   slug: mtn-group-usage-historical-information-api
-- description: The Usage Limit Adjust API from MTN Group — 1 operation(s) for usage limit adjust.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Usage Limit Adjust API from MTN Group — 1 operation(s) for usage limit adjust.
   name: MTN Group Usage Limit Adjust API
   slug: mtn-group-usage-limit-adjust-api
-- description: The usageConsumptionReport API from MTN Group — 2 operation(s) for usageconsumptionreport.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The usageConsumptionReport API from MTN Group — 2 operation(s) for usageconsumptionreport.
   name: MTN Group Usage Consumption Report API
   slug: mtn-group-usageconsumptionreport-api
-- description: The UsageManagement API from MTN Group — 12 operation(s) for usagemanagement.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The UsageManagement API from MTN Group — 12 operation(s) for usagemanagement.
   name: MTN Group Usage Management API
   slug: mtn-group-usagemanagement-api
-- description: The UsageManagementsSSd API from MTN Group — 3 operation(s) for usagemanagementsssd.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The UsageManagementsSSd API from MTN Group — 3 operation(s) for usagemanagementsssd.
   name: MTN Group Usage Managements S Sd API
   slug: mtn-group-usagemanagementsssd-api
-- description: The Users API from MTN Group — 3 operation(s) for users.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Users API from MTN Group — 3 operation(s) for users.
   name: MTN Group Users API
   slug: mtn-group-users-api
-- description: The Validate an Individual's Account Status API from MTN Group — 1 operation(s) for validate an individual's account status.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Validate an Individual's Account Status API from MTN Group — 1 operation(s) for validate an individual's account status.
   name: MTN Group Validate an Individual's Account Status API
   slug: mtn-group-validate-an-individual-s-account-status-api
-- description: The Validate Customer API from MTN Group — 1 operation(s) for validate customer.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Validate Customer API from MTN Group — 1 operation(s) for validate customer.
   name: MTN Group Validate Customer API
   slug: mtn-group-validate-customer-api
-- description: The Validate using QnA API from MTN Group — 2 operation(s) for validate using qna.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Validate using QnA API from MTN Group — 2 operation(s) for validate using qna.
   name: MTN Group Validate using QnA API
   slug: mtn-group-validate-using-qna-api
-- description: The VAS Services API from MTN Group — 5 operation(s) for vas services.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The VAS Services API from MTN Group — 5 operation(s) for vas services.
   name: MTN Group VAS Services API
   slug: mtn-group-vas-services-api
-- description: The Verify a Partner's FInancial Resources API from MTN Group — 1 operation(s) for verify a partner's financial resources.
+- baseURL: https://api.mtn.com/accountDecisioning/v1
+  baseurl_source: declared
+  description: The Verify a Partner's FInancial Resources API from MTN Group — 1 operation(s) for verify a partner's financial resources.
   name: MTN Group Verify a Partner's FInancial Resources API
   slug: mtn-group-verify-a-partner-s-financial-resources-api
 artifact_total: 261
@@ -1503,7 +1804,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -1513,7 +1814,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 52.5
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1531,7 +1832,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 22 operations
 api_count: 4
 apis:
-- description: The Bulk Data API from Cigna — 1 operation(s) for bulk data.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Bulk Data API from Cigna — 1 operation(s) for bulk data.
   name: Cigna Bulk Data API
   slug: cigna-bulk-data-api
-- description: The Condition API from Cigna — 1 operation(s) for condition.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Condition API from Cigna — 1 operation(s) for condition.
   name: Cigna Condition API
   slug: cigna-condition-api
-- description: The Coverage API from Cigna — 1 operation(s) for coverage.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Coverage API from Cigna — 1 operation(s) for coverage.
   name: Cigna Coverage API
   slug: cigna-coverage-api
-- description: The Encounter API from Cigna — 1 operation(s) for encounter.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Encounter API from Cigna — 1 operation(s) for encounter.
   name: Cigna Encounter API
   slug: cigna-encounter-api
-- description: The ExplanationOfBenefit API from Cigna — 1 operation(s) for explanationofbenefit.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The ExplanationOfBenefit API from Cigna — 1 operation(s) for explanationofbenefit.
   name: Cigna ExplanationOfBenefit API
   slug: cigna-explanationofbenefit-api
-- description: The HealthcareService API from Cigna — 1 operation(s) for healthcareservice.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The HealthcareService API from Cigna — 1 operation(s) for healthcareservice.
   name: Cigna HealthcareService API
   slug: cigna-healthcareservice-api
-- description: The InsurancePlan API from Cigna — 2 operation(s) for insuranceplan.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The InsurancePlan API from Cigna — 2 operation(s) for insuranceplan.
   name: Cigna InsurancePlan API
   slug: cigna-insuranceplan-api
-- description: The Location API from Cigna — 1 operation(s) for location.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Location API from Cigna — 1 operation(s) for location.
   name: Cigna Location API
   slug: cigna-location-api
-- description: The MedicationKnowledge API from Cigna — 1 operation(s) for medicationknowledge.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The MedicationKnowledge API from Cigna — 1 operation(s) for medicationknowledge.
   name: Cigna MedicationKnowledge API
   slug: cigna-medicationknowledge-api
-- description: The MedicationRequest API from Cigna — 1 operation(s) for medicationrequest.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The MedicationRequest API from Cigna — 1 operation(s) for medicationrequest.
   name: Cigna MedicationRequest API
   slug: cigna-medicationrequest-api
-- description: The Observation API from Cigna — 1 operation(s) for observation.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Observation API from Cigna — 1 operation(s) for observation.
   name: Cigna Observation API
   slug: cigna-observation-api
-- description: The Organization API from Cigna — 1 operation(s) for organization.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Organization API from Cigna — 1 operation(s) for organization.
   name: Cigna Organization API
   slug: cigna-organization-api
-- description: The Patient API from Cigna — 4 operation(s) for patient.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Patient API from Cigna — 4 operation(s) for patient.
   name: Cigna Patient API
   slug: cigna-patient-api
-- description: The Practitioner API from Cigna — 2 operation(s) for practitioner.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Practitioner API from Cigna — 2 operation(s) for practitioner.
   name: Cigna Practitioner API
   slug: cigna-practitioner-api
-- description: The PractitionerRole API from Cigna — 1 operation(s) for practitionerrole.
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The PractitionerRole API from Cigna — 1 operation(s) for practitionerrole.
   name: Cigna PractitionerRole API
   slug: cigna-practitionerrole-api
 artifact_total: 63
@@ -400,7 +430,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png
 security:

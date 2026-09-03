@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Public REST API of the TU Wien Research Data repository, running InvenioRDM 14.0. Records, communities, affiliations, funders and vocabularies are readable anonymously; /api/names returns 403 without '
@@ -51,7 +51,9 @@ apis:
 - description: REST API of TISS, TU Wien's Information Systems & Services platform — the course catalogue, curricula, org units, people and room data behind tiss.tuwien.ac.at. The edge is reachable anonymously and r
   name: TISS REST API
   slug: tiss-api
-- description: TU Wien's own OpenAPI-described contract, and the only one in this repository. FUNDify publishes Austrian funding programmes and calls and lets institutions annotate them for their own researchers, im
+- baseURL: https://fundify.arisnet.ac.at/api/ris-synergy/funding/v1
+  baseurl_source: declared
+  description: TU Wien's own OpenAPI-described contract, and the only one in this repository. FUNDify publishes Austrian funding programmes and calls and lets institutions annotate them for their own researchers, im
   name: FUNDify — RIS Synergy Funding API
   slug: fundify-funding
 - description: Keycloak realm TU Wien operates as the identity broker for the Austrian RIS Synergy network, with SAML brokering endpoints for eleven Austrian universities. Its OpenID Connect discovery document is pu
@@ -260,7 +262,7 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -270,7 +272,7 @@ score:
     discoverability: 68.5
     governance: 49.2
     operational_transparency: 23.7
-  previous_composite: 56.8
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -285,7 +287,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/screenshots/tu-wien-2026-06-20T195820.png
 security:

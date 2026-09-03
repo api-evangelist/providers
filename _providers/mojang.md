@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 29 operations · 14 acting · 1 human-in-the-loop
 api_count: 14
 apis:
-- description: Profanity filter, friends, chat preferences
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Profanity filter, friends, chat preferences
   name: Mojang Attributes API
   slug: mojang-attributes-api
-- description: Exchange Xbox Live tokens for Minecraft access tokens
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Exchange Xbox Live tokens for Minecraft access tokens
   name: Mojang Authentication API
   slug: mojang-authentication-api
-- description: Player privacy blocklist
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Player privacy blocklist
   name: Mojang Blocklist API
   slug: mojang-blocklist-api
-- description: Cape selection and visibility
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Cape selection and visibility
   name: Mojang Capes API
   slug: mojang-capes-api
-- description: Account ownership and entitlement checks
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Account ownership and entitlement checks
   name: Mojang Entitlements API
   slug: mojang-entitlements-api
-- description: Friends graph (list, add, remove)
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Friends graph (list, add, remove)
   name: Mojang Friends API
   slug: mojang-friends-api
-- description: Player UUID and username lookup
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Player UUID and username lookup
   name: Mojang Identity API
   slug: mojang-identity-api
-- description: Signature keypairs and Mojang public keys
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Signature keypairs and Mojang public keys
   name: Mojang Keys API
   slug: mojang-keys-api
-- description: Online / playing presence reporting
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Online / playing presence reporting
   name: Mojang Presence API
   slug: mojang-presence-api
-- description: Authenticated profile and name management
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Authenticated profile and name management
   name: Mojang Profile API
   slug: mojang-profile-api
-- description: Server-policy artifacts (blocked servers)
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Server-policy artifacts (blocked servers)
   name: Mojang Server API
   slug: mojang-server-api
-- description: Login-handshake session verification
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Login-handshake session verification
   name: Mojang Session API
   slug: mojang-session-api
-- description: Skin selection, upload, and reset
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Skin selection, upload, and reset
   name: Mojang Skins API
   slug: mojang-skins-api
-- description: Player skin and cape texture lookup
+- baseURL: https://api.mojang.com
+  baseurl_source: declared
+  description: Player skin and cape texture lookup
   name: Mojang Textures API
   slug: mojang-textures-api
 artifact_total: 144
@@ -624,7 +652,7 @@ score:
       marker_coverage: 100.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mojang/refs/heads/main/screenshots/mojang-2026-06-20T185707.png
 security:

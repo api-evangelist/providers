@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 4
 apis:
-- description: The Blobs API from microsoft-azure-container-registry — 1 operation(s) for blobs.
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Blobs API from microsoft-azure-container-registry — 1 operation(s) for blobs.
   name: microsoft-azure-container-registry Blobs API
   slug: microsoft-azure-container-registry-blobs-api
-- description: The Manifests API from microsoft-azure-container-registry — 1 operation(s) for manifests.
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Manifests API from microsoft-azure-container-registry — 1 operation(s) for manifests.
   name: microsoft-azure-container-registry Manifests API
   slug: microsoft-azure-container-registry-manifests-api
-- description: The Repositories API from microsoft-azure-container-registry — 1 operation(s) for repositories.
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Repositories API from microsoft-azure-container-registry — 1 operation(s) for repositories.
   name: microsoft-azure-container-registry Repositories API
   slug: microsoft-azure-container-registry-repositories-api
-- description: The Tags API from microsoft-azure-container-registry — 1 operation(s) for tags.
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Tags API from microsoft-azure-container-registry — 1 operation(s) for tags.
   name: microsoft-azure-container-registry Tags API
   slug: microsoft-azure-container-registry-tags-api
 artifact_total: 16
@@ -169,10 +177,10 @@ score:
       total: 5
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-registry/refs/heads/main/screenshots/microsoft-azure-container-registry-2026-06-20T185406.png
 security:

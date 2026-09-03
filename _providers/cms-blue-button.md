@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Medicare coverage resources, one per coverage type.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: Medicare coverage resources, one per coverage type.
   name: CMS Blue Button 2.0 Coverage API
   slug: cms-blue-button-coverage-api
-- description: Medicare Parts A, B, and D claims as CARIN Blue Button EOB profiles.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: Medicare Parts A, B, and D claims as CARIN Blue Button EOB profiles.
   name: CMS Blue Button 2.0 ExplanationOfBenefit API
   slug: cms-blue-button-explanationofbenefit-api
-- description: FHIR capability statement.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: FHIR capability statement.
   name: CMS Blue Button 2.0 Metadata API
   slug: cms-blue-button-metadata-api
-- description: Beneficiary demographic and administrative data.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: Beneficiary demographic and administrative data.
   name: CMS Blue Button 2.0 Patient API
   slug: cms-blue-button-patient-api
-- description: OpenID Connect userinfo for the authorizing beneficiary.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: OpenID Connect userinfo for the authorizing beneficiary.
   name: CMS Blue Button 2.0 UserInfo API
   slug: cms-blue-button-userinfo-api
 artifact_total: 18
@@ -189,7 +199,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/screenshots/cms-blue-button-2026-07-25T205758.png
 security:

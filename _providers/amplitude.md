@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -62,73 +62,119 @@ apis:
 - description: The Webhooks Streaming destination forwards Amplitude event and user payloads to a customer-configured HTTPS endpoint, and the Cohort Sync family of destinations pushes cohort membership changes to do
   name: Amplitude Webhooks and Cohort Sync
   slug: webhooks-cohort-sync
-- description: Chart annotation management operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Chart annotation management operations
   name: Amplitude Annotations API
   slug: amplitude-annotations-api
-- description: Cohort management and export operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Cohort management and export operations
   name: Amplitude Cohorts API
   slug: amplitude-cohorts-api
-- description: Data subject access request operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Data subject access request operations
   name: Amplitude Data Access API
   slug: amplitude-data-access-api
-- description: User data deletion request operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: User data deletion request operations
   name: Amplitude Data Deletion API
   slug: amplitude-data-deletion-api
-- description: Deployment management operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Deployment management operations
   name: Amplitude Deployments API
   slug: amplitude-deployments-api
-- description: Remote flag and experiment evaluation operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Remote flag and experiment evaluation operations
   name: Amplitude Evaluation API
   slug: amplitude-evaluation-api
-- description: Operations for managing event categories
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Operations for managing event categories
   name: Amplitude Event Categories API
   slug: amplitude-event-categories-api
-- description: Event listing operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Event listing operations
   name: Amplitude Event List API
   slug: amplitude-event-list-api
-- description: Operations for managing event properties
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Operations for managing event properties
   name: Amplitude Event Properties API
   slug: amplitude-event-properties-api
-- description: Event segmentation analysis operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Event segmentation analysis operations
   name: Amplitude Event Segmentation API
   slug: amplitude-event-segmentation-api
-- description: Operations for managing event types
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Operations for managing event types
   name: Amplitude Event Types API
   slug: amplitude-event-types-api
-- description: Event ingestion operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Event ingestion operations
   name: Amplitude Events API
   slug: amplitude-events-api
-- description: Experiment management operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Experiment management operations
   name: Amplitude Experiments API
   slug: amplitude-experiments-api
-- description: Flag configuration retrieval for local evaluation
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Flag configuration retrieval for local evaluation
   name: Amplitude Flags API
   slug: amplitude-flags-api
-- description: Funnel analysis operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Funnel analysis operations
   name: Amplitude Funnel Analysis API
   slug: amplitude-funnel-analysis-api
-- description: SCIM group management operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: SCIM group management operations
   name: Amplitude Groups API
   slug: amplitude-groups-api
-- description: User profile retrieval operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: User profile retrieval operations
   name: Amplitude Profiles API
   slug: amplitude-profiles-api
-- description: Retention analysis operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Retention analysis operations
   name: Amplitude Retention Analysis API
   slug: amplitude-retention-analysis-api
-- description: Revenue analysis operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Revenue analysis operations
   name: Amplitude Revenue Analysis API
   slug: amplitude-revenue-analysis-api
-- description: User activity lookup operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: User activity lookup operations
   name: Amplitude User Activity API
   slug: amplitude-user-activity-api
-- description: Operations for managing user properties
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Operations for managing user properties
   name: Amplitude User Properties API
   slug: amplitude-user-properties-api
-- description: SCIM user provisioning operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: SCIM user provisioning operations
   name: Amplitude Users API
   slug: amplitude-users-api
-- description: Flag and experiment version history operations
+- baseURL: https://api2.amplitude.com
+  baseurl_source: declared
+  description: Flag and experiment version history operations
   name: Amplitude Versions API
   slug: amplitude-versions-api
 arazzos:
@@ -1772,7 +1818,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -1782,7 +1828,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 58.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1791,7 +1837,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png
 security:

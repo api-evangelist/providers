@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 81 operations · 38 acting
 api_count: 2
 apis:
-- description: The Accounts API from Puzzle — 3 operation(s) for accounts.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Accounts API from Puzzle — 3 operation(s) for accounts.
   name: Puzzle Accounts API
   slug: puzzle-accounts-api
-- description: The Attachments API from Puzzle — 1 operation(s) for attachments.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Attachments API from Puzzle — 1 operation(s) for attachments.
   name: Puzzle Attachments API
   slug: puzzle-attachments-api
-- description: The Bills API from Puzzle — 3 operation(s) for bills.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Bills API from Puzzle — 3 operation(s) for bills.
   name: Puzzle Bills API
   slug: puzzle-bills-api
-- description: The Company API from Puzzle — 10 operation(s) for company.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Company API from Puzzle — 10 operation(s) for company.
   name: Puzzle Company API
   slug: puzzle-company-api
-- description: The Customers API from Puzzle — 2 operation(s) for customers.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Customers API from Puzzle — 2 operation(s) for customers.
   name: Puzzle Customers API
   slug: puzzle-customers-api
-- description: The Departments API from Puzzle — 1 operation(s) for departments.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Departments API from Puzzle — 1 operation(s) for departments.
   name: Puzzle Departments API
   slug: puzzle-departments-api
-- description: The Documents API from Puzzle — 1 operation(s) for documents.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Documents API from Puzzle — 1 operation(s) for documents.
   name: Puzzle Documents API
   slug: puzzle-documents-api
-- description: The Invoices API from Puzzle — 2 operation(s) for invoices.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Invoices API from Puzzle — 2 operation(s) for invoices.
   name: Puzzle Invoices API
   slug: puzzle-invoices-api
-- description: The JournalEntries API from Puzzle — 2 operation(s) for journalentries.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The JournalEntries API from Puzzle — 2 operation(s) for journalentries.
   name: Puzzle JournalEntries API
   slug: puzzle-journalentries-api
-- description: The JournalEntry API from Puzzle — 2 operation(s) for journalentry.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The JournalEntry API from Puzzle — 2 operation(s) for journalentry.
   name: Puzzle JournalEntry API
   slug: puzzle-journalentry-api
-- description: The Locations API from Puzzle — 1 operation(s) for locations.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Locations API from Puzzle — 1 operation(s) for locations.
   name: Puzzle Locations API
   slug: puzzle-locations-api
-- description: The Metrics API from Puzzle — 5 operation(s) for metrics.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Metrics API from Puzzle — 5 operation(s) for metrics.
   name: Puzzle Metrics API
   slug: puzzle-metrics-api
-- description: The OAuth API from Puzzle — 2 operation(s) for oauth.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The OAuth API from Puzzle — 2 operation(s) for oauth.
   name: Puzzle OAuth API
   slug: puzzle-oauth-api
-- description: The Onboarding API from Puzzle — 1 operation(s) for onboarding.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Onboarding API from Puzzle — 1 operation(s) for onboarding.
   name: Puzzle Onboarding API
   slug: puzzle-onboarding-api
-- description: The Payroll API from Puzzle — 6 operation(s) for payroll.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Payroll API from Puzzle — 6 operation(s) for payroll.
   name: Puzzle Payroll API
   slug: puzzle-payroll-api
-- description: The Products API from Puzzle — 2 operation(s) for products.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Products API from Puzzle — 2 operation(s) for products.
   name: Puzzle Products API
   slug: puzzle-products-api
-- description: The Reports API from Puzzle — 7 operation(s) for reports.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Reports API from Puzzle — 7 operation(s) for reports.
   name: Puzzle Reports API
   slug: puzzle-reports-api
-- description: The Requests API from Puzzle — 1 operation(s) for requests.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Requests API from Puzzle — 1 operation(s) for requests.
   name: Puzzle Requests API
   slug: puzzle-requests-api
-- description: The Tasks API from Puzzle — 2 operation(s) for tasks.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Tasks API from Puzzle — 2 operation(s) for tasks.
   name: Puzzle Tasks API
   slug: puzzle-tasks-api
-- description: The Transactions API from Puzzle — 3 operation(s) for transactions.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Transactions API from Puzzle — 3 operation(s) for transactions.
   name: Puzzle Transactions API
   slug: puzzle-transactions-api
-- description: The User API from Puzzle — 3 operation(s) for user.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The User API from Puzzle — 3 operation(s) for user.
   name: Puzzle User API
   slug: puzzle-user-api
-- description: The Vendors API from Puzzle — 2 operation(s) for vendors.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Vendors API from Puzzle — 2 operation(s) for vendors.
   name: Puzzle Vendors API
   slug: puzzle-vendors-api
-- description: Categories, classes, departments, and projects for classification.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: Categories, classes, departments, and projects for classification.
   name: Puzzle Categories API
   slug: puzzle-categories-api
-- description: Companies connected to a Puzzle partner account.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: Companies connected to a Puzzle partner account.
   name: Puzzle Companies API
   slug: puzzle-companies-api
-- description: Upstream data connections that feed the ledger.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: Upstream data connections that feed the ledger.
   name: Puzzle Integrations API
   slug: puzzle-integrations-api
-- description: Double-entry journal entries against the general ledger.
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: Double-entry journal entries against the general ledger.
   name: Puzzle Journal Entries API
   slug: puzzle-journal-entries-api
 artifact_total: 64
@@ -424,7 +476,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/screenshots/puzzle-2026-08-17T081407.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -71,10 +71,14 @@ apis:
 - description: Puppet Forge is the public module repository providing thousands of downloadable Puppet modules.
   name: Puppet Forge
   slug: forge
-- description: POST endpoints that trigger orchestrator actions.
+- baseURL_template: https://{pe_host}:8143/orchestrator/v1
+  baseurl_source: spec_template
+  description: POST endpoints that trigger orchestrator actions.
   name: Puppet Commands API
   slug: puppet-commands-api
-- description: GET endpoints that return information about known orchestrator jobs.
+- baseURL_template: https://{pe_host}:8143/orchestrator/v1
+  baseurl_source: spec_template
+  description: GET endpoints that return information about known orchestrator jobs.
   name: Puppet Jobs API
   slug: puppet-jobs-api
 artifact_total: 22
@@ -196,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/screenshots/puppet-2026-06-20T192311.png
 security:

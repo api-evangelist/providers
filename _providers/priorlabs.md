@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 7 operations · 6 acting
 api_count: 1
 apis:
-- description: The Prediction API from Prior Labs — 3 operation(s) for prediction.
+- baseURL: https://api.priorlabs.ai
+  baseurl_source: declared
+  description: The Prediction API from Prior Labs — 3 operation(s) for prediction.
   name: Prior Labs Prediction API
   slug: priorlabs-prediction-api
-- description: The Training API from Prior Labs — 4 operation(s) for training.
+- baseURL: https://api.priorlabs.ai
+  baseurl_source: declared
+  description: The Training API from Prior Labs — 4 operation(s) for training.
   name: Prior Labs Training API
   slug: priorlabs-training-api
 artifact_total: 9
@@ -220,7 +224,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/priorlabs/refs/heads/main/screenshots/priorlabs-2026-08-17T081338.png
 security:

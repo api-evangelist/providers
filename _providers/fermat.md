@@ -35,13 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Remote Model Context Protocol server exposing 64 read-only tools over FERMAT commerce data — product catalog, funnel analytics, ad performance, destination insights, experiments, session and behaviora
   name: FERMAT Platform MCP Server
   slug: fermat-platform-mcp-server
-- description: First-party browser ES module (claire.mjs) a brand embeds to emit commerce telemetry to FERMAT. Exposes a window.fermat command queue with init, track and status methods, and six documented events — p
+- baseURL: https://e.clairedefermat.com
+  baseurl_source: declared
+  description: First-party browser ES module (claire.mjs) a brand embeds to emit commerce telemetry to FERMAT. Exposes a window.fermat command queue with init, track and status methods, and six documented events — p
   name: FERMAT Pixel v2
   slug: fermat-pixel-v2
 artifact_total: 8
@@ -214,7 +216,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -224,13 +226,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 40.9
+  previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermat/refs/heads/main/screenshots/fermat-2026-07-25T214339.png
 security:

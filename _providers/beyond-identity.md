@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -47,52 +47,84 @@ apis:
 - description: The Next Generation Beyond Identity API provides the latest version of the platform's REST endpoints including updated identity management, credential binding, continuous risk assessment, and policy e
   name: Beyond Identity Next Generation API
   slug: beyond-identity-next-gen-api
-- description: An application represents a client application that uses Beyond Identity for authentication. This could be a native app, a single-page application, regular web application, or machine-to-machine appli
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: An application represents a client application that uses Beyond Identity for authentication. This could be a native app, a single-page application, regular web application, or machine-to-machine appli
   name: Beyond Identity Applications API
   slug: beyond-identity-applications-api
-- description: 'A authenticator configuration prescribes how an end user may authenticate themselves to Beyond Identity. Beyond Identity provides a Hosted Web Authenticator which will work out-of-the-box, as well as '
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: 'A authenticator configuration prescribes how an end user may authenticate themselves to Beyond Identity. Beyond Identity provides a Hosted Web Authenticator which will work out-of-the-box, as well as '
   name: Beyond Identity Authenticator Configurations API
   slug: beyond-identity-authenticator-configurations-api
-- description: A credential binding job defines the state of binding a new credential to an identity. The state includes creation of the credential binding job to delivery of the credential binding method to complet
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A credential binding job defines the state of binding a new credential to an identity. The state includes creation of the credential binding job to delivery of the credential binding method to complet
   name: Beyond Identity Credential Binding Jobs API
   slug: beyond-identity-credential-binding-jobs-api
-- description: A credential is also known as a passkey. This is the public-private key pair that belongs to an identity.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A credential is also known as a passkey. This is the public-private key pair that belongs to an identity.
   name: Beyond Identity Credentials API
   slug: beyond-identity-credentials-api
-- description: A group is a logical collection of identities. Groups are commonly used as a predicate in a policy rule.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A group is a logical collection of identities. Groups are commonly used as a predicate in a policy rule.
   name: Beyond Identity Groups API
   slug: beyond-identity-groups-api
-- description: An identity is a unique identifier that may be used by an end-user to gain access governed by Beyond Identity.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: An identity is a unique identifier that may be used by an end-user to gain access governed by Beyond Identity.
   name: Beyond Identity Identities API
   slug: beyond-identity-identities-api
-- description: Identity providers enable integration with external systems to support IdP-authorized workflows, such as passkey enrollment. They serve as the counterpart to SSO applications, focusing on initiating a
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: Identity providers enable integration with external systems to support IdP-authorized workflows, such as passkey enrollment. They serve as the counterpart to SSO applications, focusing on initiating a
   name: Beyond Identity Identity Provider API
   slug: beyond-identity-identity-provider-api
-- description: 'Launch mechanisms, or flow type configurations, define which authentication launch mechanisms are enabled and valid for different platforms (Android, iOS, macOS, Windows, Web, Linux, ChromeOS) within '
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: 'Launch mechanisms, or flow type configurations, define which authentication launch mechanisms are enabled and valid for different platforms (Android, iOS, macOS, Windows, Web, Linux, ChromeOS) within '
   name: Beyond Identity Launch Mechanisms API
   slug: beyond-identity-launch-mechanisms-api
-- description: A realm is a unique administrative domain within a tenant. Realms may be used to define multiple development environments or for isolated administrative domains.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A realm is a unique administrative domain within a tenant. Realms may be used to define multiple development environments or for isolated administrative domains.
   name: Beyond Identity Realms API
   slug: beyond-identity-realms-api
-- description: A resource server represents an API server that hosts a set of protected resources and is capable of accepting and responding to protected resource requests using access tokens. Clients can enable the
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A resource server represents an API server that hosts a set of protected resources and is capable of accepting and responding to protected resource requests using access tokens. Clients can enable the
   name: Beyond Identity Resource Servers API
   slug: beyond-identity-resource-servers-api
-- description: The Roles API from Beyond Identity — 8 operation(s) for roles.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: The Roles API from Beyond Identity — 8 operation(s) for roles.
   name: Beyond Identity Roles API
   slug: beyond-identity-roles-api
-- description: The SCIM API from Beyond Identity — 7 operation(s) for scim.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: The SCIM API from Beyond Identity — 7 operation(s) for scim.
   name: Beyond Identity SCIM API
   slug: beyond-identity-scim-api
-- description: An SSO configuration defines how end users interact with supported SSO protocols and related services. Each configuration type represents a protocol or integration (e.g., SAML, WS-Federation, OIDC, SC
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: An SSO configuration defines how end users interact with supported SSO protocols and related services. Each configuration type represents a protocol or integration (e.g., SAML, WS-Federation, OIDC, SC
   name: Beyond Identity SSO Configs API
   slug: beyond-identity-sso-configs-api
-- description: A tenant represents an organization in the Beyond Identity Cloud. Tenants contain all data necessary for that organization to operate.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A tenant represents an organization in the Beyond Identity Cloud. Tenants contain all data necessary for that organization to operate.
   name: Beyond Identity Tenants API
   slug: beyond-identity-tenants-api
-- description: A theme is a collection of configurable assets that unifies the end user login experience with your brand and products. It is primarily used to change the styling of the credential binding email.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: A theme is a collection of configurable assets that unifies the end user login experience with your brand and products. It is primarily used to change the styling of the credential binding email.
   name: Beyond Identity Themes API
   slug: beyond-identity-themes-api
-- description: The Tokens API from Beyond Identity — 2 operation(s) for tokens.
+- baseURL: https://api-us.beyondidentity.com
+  baseurl_source: declared
+  description: The Tokens API from Beyond Identity — 2 operation(s) for tokens.
   name: Beyond Identity Tokens API
   slug: beyond-identity-tokens-api
 artifact_total: 63
@@ -362,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-identity/refs/heads/main/screenshots/beyond-identity-2026-06-20T173212.png
 security:

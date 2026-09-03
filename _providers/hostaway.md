@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 23 operations · 11 acting
 api_count: 16
 apis:
-- description: Manage vacation rental listings — properties, amenities, bed types, images, and custom field values. Each Hostaway listing maps to one or more external channels (Airbnb, Vrbo, Booking.com, Expedia, Go
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Manage vacation rental listings — properties, amenities, bed types, images, and custom field values. Each Hostaway listing maps to one or more external channels (Airbnb, Vrbo, Booking.com, Expedia, Go
   name: Hostaway Listings API
   slug: hostaway-listings-api
-- description: Create, read, and update reservations across all connected channels. Includes coupons, reservation fees, reservation units, host proxy email handling, and channel-of-origin context (channelId/channelN
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Create, read, and update reservations across all connected channels. Includes coupons, reservation fees, reservation units, host proxy email handling, and channel-of-origin context (channelId/channelN
   name: Hostaway Reservations API
   slug: hostaway-reservations-api
-- description: Read and update the per-listing availability and nightly pricing calendar. Supports per-day retrieval, batch updates across date ranges, and inline reservation context via the includeResources query p
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Read and update the per-listing availability and nightly pricing calendar. Supports per-day retrieval, batch updates across date ranges, and inline reservation context via the includeResources query p
   name: Hostaway Calendar API
   slug: hostaway-calendar-api
 - description: Unified guest messaging across Airbnb, Vrbo, Booking.com, Expedia, email, SMS, and WhatsApp. Resources include conversations, conversation messages, and reusable message templates.
@@ -71,25 +77,39 @@ apis:
 - description: Reference-data endpoints for cancellation policies (Airbnb, Vrbo, Booking.com, Marriott), countries, currencies, languages, and timezones.
   name: Hostaway Reference Data API
   slug: hostaway-reference-data-api
-- description: Manage unified webhooks for the three Hostaway event types — reservation created, reservation updated, and new message received. Failed deliveries retry up to three times before a failure email is sen
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Manage unified webhooks for the three Hostaway event types — reservation created, reservation updated, and new message received. Failed deliveries retry up to three times before a failure email is sen
   name: Hostaway Webhooks API
   slug: hostaway-webhooks-api
-- description: Amenities offered by a listing
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Amenities offered by a listing
   name: Hostaway Listing Amenities API
   slug: hostaway-listing-amenities-api
-- description: Bed types configured for a listing
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Bed types configured for a listing
   name: Hostaway Listing Bed Types API
   slug: hostaway-listing-bed-types-api
-- description: Photographs attached to a listing
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Photographs attached to a listing
   name: Hostaway Listing Images API
   slug: hostaway-listing-images-api
-- description: Coupons applied to a reservation
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Coupons applied to a reservation
   name: Hostaway Reservation Coupons API
   slug: hostaway-reservation-coupons-api
-- description: Fees applied to a reservation
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Fees applied to a reservation
   name: Hostaway Reservation Fees API
   slug: hostaway-reservation-fees-api
-- description: Sub-units associated with a reservation
+- baseURL: https://api.hostaway.com/v1
+  baseurl_source: spec
+  description: Sub-units associated with a reservation
   name: Hostaway Reservation Units API
   slug: hostaway-reservation-units-api
 artifact_total: 62
@@ -357,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/screenshots/hostaway-2026-06-20T182839.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -48,49 +48,79 @@ apis:
 - description: Nooks operates a hosted, remote Model Context Protocol server at https://mcp.nooks.in/. It is OAuth-protected — an anonymous `tools/list` returns HTTP 401 `invalid_token` — and publishes RFC 9728 prot
   name: Nooks MCP Server
   slug: nooks-mcp-server
-- description: Access account (company) records
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Access account (company) records
   name: Nooks Accounts API
   slug: nooks-accounts-api
-- description: Access call disposition definitions
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Access call disposition definitions
   name: Nooks Call Dispositions API
   slug: nooks-calldispositions-api
-- description: Access call records
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Access call records
   name: Nooks Calls API
   slug: nooks-calls-api
-- description: Access email records
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Access email records
   name: Nooks Emails API
   slug: nooks-emails-api
-- description: Access email template content
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Access email template content
   name: Nooks Email Templates API
   slug: nooks-emailtemplates-api
-- description: Inspect the authenticated principal
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Inspect the authenticated principal
   name: Nooks Introspection API
   slug: nooks-introspection-api
-- description: Manage mailboxes (email aliases)
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Manage mailboxes (email aliases)
   name: Nooks Mailboxes API
   slug: nooks-mailboxes-api
-- description: The Nooks Sequencing API API from Nooks — 0 operation(s) for nooks sequencing api.
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: The Nooks Sequencing API API from Nooks — 0 operation(s) for nooks sequencing api.
   name: Nooks Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
-- description: Create CRM notes on prospects and accounts
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Create CRM notes on prospects and accounts
   name: Nooks Notes API
   slug: nooks-notes-api
-- description: Manage prospects
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Manage prospects
   name: Nooks Prospects API
   slug: nooks-prospects-api
-- description: Manage sales sequences
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Manage sales sequences
   name: Nooks Sequences API
   slug: nooks-sequences-api
-- description: Track prospect enrollments in sequences
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Track prospect enrollments in sequences
   name: Nooks Sequence States API
   slug: nooks-sequencestates-api
-- description: Access sequence step definitions
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Access sequence step definitions
   name: Nooks Sequence Steps API
   slug: nooks-sequencesteps-api
-- description: Manage tasks (one-off calls and email activities)
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Manage tasks (one-off calls and email activities)
   name: Nooks Tasks API
   slug: nooks-tasks-api
-- description: Manage workspace users
+- baseURL: https://partner-api.nooks.in/v1
+  baseurl_source: declared
+  description: Manage workspace users
   name: Nooks Users API
   slug: nooks-users-api
 artifact_total: 26
@@ -241,7 +271,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -251,7 +281,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 54.6
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/screenshots/nooks-2026-08-07T185457.png
 security:

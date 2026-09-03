@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
-- description: The Compliance API from Zaius — 7 operation(s) for compliance.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Compliance API from Zaius — 7 operation(s) for compliance.
   name: Zaius Compliance API
   slug: zaius-compliance-api
-- description: The Consent API from Zaius — 2 operation(s) for consent.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Consent API from Zaius — 2 operation(s) for consent.
   name: Zaius Consent API
   slug: zaius-consent-api
-- description: The legacy Consent API is only available for the United States region. Migrate to the latest Update consent API.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The legacy Consent API is only available for the United States region. Migrate to the latest Update consent API.
   name: Zaius Consent (Legacy) API
   slug: zaius-consent-legacy-api
-- description: The Customers API from Zaius — 1 operation(s) for customers.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Customers API from Zaius — 1 operation(s) for customers.
   name: Zaius Customers API
   slug: zaius-customers-api
-- description: The Events API from Zaius — 1 operation(s) for events.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Events API from Zaius — 1 operation(s) for events.
   name: Zaius Events API
   slug: zaius-events-api
-- description: The Exports API from Zaius — 4 operation(s) for exports.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Exports API from Zaius — 4 operation(s) for exports.
   name: Zaius Exports API
   slug: zaius-exports-api
-- description: The Fields schema API from Zaius — 2 operation(s) for fields schema.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Fields schema API from Zaius — 2 operation(s) for fields schema.
   name: Zaius Fields schema API
   slug: zaius-fields-schema-api
-- description: The Identifiers API from Zaius — 3 operation(s) for identifiers.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Identifiers API from Zaius — 3 operation(s) for identifiers.
   name: Zaius Identifiers API
   slug: zaius-identifiers-api
-- description: The Lists API from Zaius — 2 operation(s) for lists.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Lists API from Zaius — 2 operation(s) for lists.
   name: Zaius Lists API
   slug: zaius-lists-api
-- description: The Object schema API from Zaius — 2 operation(s) for object schema.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Object schema API from Zaius — 2 operation(s) for object schema.
   name: Zaius Object schema API
   slug: zaius-object-schema-api
-- description: The Objects API from Zaius — 1 operation(s) for objects.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Objects API from Zaius — 1 operation(s) for objects.
   name: Zaius Objects API
   slug: zaius-objects-api
-- description: The Orders API from Zaius — 1 operation(s) for orders.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Orders API from Zaius — 1 operation(s) for orders.
   name: Zaius Orders API
   slug: zaius-orders-api
-- description: The Products API from Zaius — 1 operation(s) for products.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Products API from Zaius — 1 operation(s) for products.
   name: Zaius Products API
   slug: zaius-products-api
-- description: The Reachability API from Zaius — 2 operation(s) for reachability.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Reachability API from Zaius — 2 operation(s) for reachability.
   name: Zaius Reachability API
   slug: zaius-reachability-api
-- description: The RealtimeSegments API from Zaius — 3 operation(s) for realtimesegments.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The RealtimeSegments API from Zaius — 3 operation(s) for realtimesegments.
   name: Zaius RealtimeSegments API
   slug: zaius-realtimesegments-api
-- description: The Recommendations API from Zaius — 1 operation(s) for recommendations.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Recommendations API from Zaius — 1 operation(s) for recommendations.
   name: Zaius Recommendations API
   slug: zaius-recommendations-api
-- description: The Relationships schema API from Zaius — 2 operation(s) for relationships schema.
+- baseURL: https://api.us1.odp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Relationships schema API from Zaius — 2 operation(s) for relationships schema.
   name: Zaius Relationships schema API
   slug: zaius-relationships-schema-api
 artifact_total: 42
@@ -350,7 +384,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:

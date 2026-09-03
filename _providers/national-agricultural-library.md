@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: endpoints to retrieve nutrient data
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: endpoints to retrieve nutrient data
   name: National Agricultural Library FDC API
   slug: national-agricultural-library-fdc-api
 artifact_total: 10
@@ -141,7 +143,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-agricultural-library/refs/heads/main/screenshots/national-agricultural-library-2026-06-20T185959.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 42 operations · 12 acting
 api_count: 1
 apis:
-- description: The Appointments API from Akute Health — 4 operation(s) for appointments.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Appointments API from Akute Health — 4 operation(s) for appointments.
   name: Akute Health Appointments API
   slug: akute-appointments-api
-- description: The Documents API from Akute Health — 2 operation(s) for documents.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Documents API from Akute Health — 2 operation(s) for documents.
   name: Akute Health Documents API
   slug: akute-documents-api
-- description: The Encounters API from Akute Health — 2 operation(s) for encounters.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Encounters API from Akute Health — 2 operation(s) for encounters.
   name: Akute Health Encounters API
   slug: akute-encounters-api
-- description: The Labs API from Akute Health — 11 operation(s) for labs.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Labs API from Akute Health — 11 operation(s) for labs.
   name: Akute Health Labs API
   slug: akute-labs-api
-- description: The Medications API from Akute Health — 4 operation(s) for medications.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Medications API from Akute Health — 4 operation(s) for medications.
   name: Akute Health Medications API
   slug: akute-medications-api
-- description: The Patients API from Akute Health — 3 operation(s) for patients.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Patients API from Akute Health — 3 operation(s) for patients.
   name: Akute Health Patients API
   slug: akute-patients-api
-- description: The Tasks API from Akute Health — 2 operation(s) for tasks.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Tasks API from Akute Health — 2 operation(s) for tasks.
   name: Akute Health Tasks API
   slug: akute-tasks-api
-- description: The Webhooks API from Akute Health — 2 operation(s) for webhooks.
+- baseURL: https://api.akutehealth.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Akute Health — 2 operation(s) for webhooks.
   name: Akute Health Webhooks API
   slug: akute-webhooks-api
 artifact_total: 24
@@ -207,7 +223,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akute/refs/heads/main/screenshots/akute-2026-07-25T195526.png
 security:

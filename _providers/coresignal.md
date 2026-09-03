@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,10 +51,14 @@ apis:
 - description: 'The Company Enrichment API takes a company domain or name and returns a fully-enriched company record. Designed for sales and marketing systems that need to enrich CRM records or web form submissions '
   name: Coresignal Company Enrichment API
   slug: company-enrichment-api
-- description: Retrieve full company records by ID.
+- baseURL: https://api.coresignal.com/cdapi/v2/multi_source_company
+  baseurl_source: declared
+  description: Retrieve full company records by ID.
   name: Coresignal Collect API
   slug: coresignal-collect-api
-- description: Search and filter company records.
+- baseURL: https://api.coresignal.com/cdapi/v2/multi_source_company
+  baseurl_source: declared
+  description: Search and filter company records.
   name: Coresignal Search API
   slug: coresignal-search-api
 arazzos:
@@ -512,7 +516,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -522,7 +526,7 @@ score:
     discoverability: 81.5
     governance: 47.0
     operational_transparency: 57.9
-  previous_composite: 68.9
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -534,7 +538,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/screenshots/coresignal-2026-06-20T175026.png
 security:

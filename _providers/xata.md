@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 64 operations · 35 acting
 api_count: 1
 apis:
-- description: Operations for managing API keys, including creation, listing, and deletion
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for managing API keys, including creation, listing, and deletion
   name: Xata API Keys API
   slug: xata-api-keys-api
-- description: Internal organization billing operations
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Internal organization billing operations
   name: Xata Billing API
   slug: xata-billing-api
-- description: Operations for managing database branches within projects, including creation, configuration, and deletion
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for managing database branches within projects, including creation, configuration, and deletion
   name: Xata Branches API
   slug: xata-branches-api
-- description: PostgreSQL connectivity via HTTP SQL, WebSocket wire protocol proxy, and native wire protocol.
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: PostgreSQL connectivity via HTTP SQL, WebSocket wire protocol proxy, and native wire protocol.
   name: Xata Gateway API
   slug: xata-gateway-api
-- description: Operations for managing GitHub App installation mappings
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for managing GitHub App installation mappings
   name: Xata GitHub App API
   slug: xata-github-app-api
-- description: Operations for retrieving log entries for a branch
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for retrieving log entries for a branch
   name: Xata Logs API
   slug: xata-logs-api
-- description: Operations for linking user accounts to cloud marketplace subscriptions
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for linking user accounts to cloud marketplace subscriptions
   name: Xata Marketplace API
   slug: xata-marketplace-api
-- description: Operations for retrieving observability metrics for a branch
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for retrieving observability metrics for a branch
   name: Xata Metrics API
   slug: xata-metrics-api
-- description: Operations for creating, retrieving, updating, and deleting organizations
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting organizations
   name: Xata Organizations API
   slug: xata-organizations-api
-- description: Operations for creating, retrieving, updating, and deleting projects within an organization
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting projects within an organization
   name: Xata Projects API
   slug: xata-projects-api
-- description: The Projects Webhooks API from Xata — 1 operation(s) for projects webhooks.
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: The Projects Webhooks API from Xata — 1 operation(s) for projects webhooks.
   name: Xata Projects Webhooks API
   slug: xata-projects-webhooks-api
-- description: The Webhooks API from Xata — 2 operation(s) for webhooks.
+- baseURL: https://api.xata.tech
+  baseurl_source: declared
+  description: The Webhooks API from Xata — 2 operation(s) for webhooks.
   name: Xata Webhooks API
   slug: xata-webhooks-api
 artifact_total: 52
@@ -320,7 +344,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/screenshots/xata-2026-06-20T201708.png
 security:

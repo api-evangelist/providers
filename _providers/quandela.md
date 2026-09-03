@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 3
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 59 operations · 31 acting · 3 human-in-the-loop
 api_count: 8
 apis:
-- description: APIs related to job token
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: APIs related to job token
   name: Quandela Api - Job Token API
   slug: quandela-api-job-token-api
-- description: Operations about job - Authenticate by `Cloud Job Token`
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: Operations about job - Authenticate by `Cloud Job Token`
   name: Quandela Api - Perceval Job API
   slug: quandela-api-perceval-job-api
-- description: Operations about job token - Authenticate by `Cloud Job Token`
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: Operations about job token - Authenticate by `Cloud Job Token`
   name: Quandela Api - Perceval Job Token API
   slug: quandela-api-perceval-job-token-api
-- description: Service root, health check and specification endpoints
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: Service root, health check and specification endpoints
   name: Quandela Platform API
   slug: quandela-platform-api
-- description: Quantum Random Number generation
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: Quantum Random Number generation
   name: Quandela QRNG API
   slug: quandela-qrng-api
-- description: Quantum Toolbox entrypoints
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: Quantum Toolbox entrypoints
   name: Quandela Quantum Toolbox API
   slug: quandela-quantumtoolbox-api
 arazzos:
@@ -386,7 +398,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png
 security:

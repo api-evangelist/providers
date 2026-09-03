@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
-- description: The ?Action=ListTagsForResource API from Amazon SNS — 1 operation(s) for ?action=listtagsforresource.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ?Action=ListTagsForResource API from Amazon SNS — 1 operation(s) for ?action=listtagsforresource.
   name: Amazon SNS ?Action=ListTagsForResource API
   slug: amazon-sns-action-listtagsforresource-api
-- description: The ?Action=TagResource API from Amazon SNS — 1 operation(s) for ?action=tagresource.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ?Action=TagResource API from Amazon SNS — 1 operation(s) for ?action=tagresource.
   name: Amazon SNS ?Action=TagResource API
   slug: amazon-sns-action-tagresource-api
-- description: The ?Action=UntagResource API from Amazon SNS — 1 operation(s) for ?action=untagresource.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ?Action=UntagResource API from Amazon SNS — 1 operation(s) for ?action=untagresource.
   name: Amazon SNS ?Action=UntagResource API
   slug: amazon-sns-action-untagresource-api
-- description: Operations for managing platform applications used for mobile push notifications via APNs, FCM, and other push services.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing platform applications used for mobile push notifications via APNs, FCM, and other push services.
   name: Amazon SNS Platform Applications API
   slug: amazon-sns-platform-applications-api
-- description: Operations for publishing messages to SNS topics or directly to endpoints. Messages can be plain text or structured JSON for per-protocol delivery.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for publishing messages to SNS topics or directly to endpoints. Messages can be plain text or structured JSON for per-protocol delivery.
   name: Amazon SNS Publishing API
   slug: amazon-sns-publishing-api
-- description: Operations for managing SMS messaging attributes and phone number opt-out lists.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SMS messaging attributes and phone number opt-out lists.
   name: Amazon SNS SMS API
   slug: amazon-sns-sms-api
-- description: Operations for subscribing endpoints to topics, confirming subscriptions, listing subscriptions, and unsubscribing. Subscriptions define which endpoints receive messages published to a topic.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for subscribing endpoints to topics, confirming subscriptions, listing subscriptions, and unsubscribing. Subscriptions define which endpoints receive messages published to a topic.
   name: Amazon SNS Subscriptions API
   slug: amazon-sns-subscriptions-api
-- description: Operations for creating, listing, configuring, and deleting SNS topics. Topics are communication channels to which messages are published and from which notifications are delivered to subscribers.
+- baseURL: https://sns.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, listing, configuring, and deleting SNS topics. Topics are communication channels to which messages are published and from which notifications are delivered to subscribers.
   name: Amazon SNS Topics API
   slug: amazon-sns-topics-api
 artifact_total: 132
@@ -545,7 +561,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -558,7 +574,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 63.5
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -573,7 +589,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:

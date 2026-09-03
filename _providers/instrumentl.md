@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Instrumentl's authenticated remote Model Context Protocol (MCP) server, exposing the grant-management platform to AI agents. Access is gated by OAuth 2.0 (authorization code + PKCE, dynamic client reg
@@ -169,7 +169,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instrumentl/refs/heads/main/screenshots/instrumentl-2026-07-25T222622.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 46 operations · 1 acting
 api_count: 1
 apis:
-- description: The Applications API from Artsy — 2 operation(s) for applications.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Applications API from Artsy — 2 operation(s) for applications.
   name: Artsy Applications API
   slug: art-applications-api
-- description: The Artists API from Artsy — 2 operation(s) for artists.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Artists API from Artsy — 2 operation(s) for artists.
   name: Artsy Artists API
   slug: art-artists-api
-- description: The Artworks API from Artsy — 2 operation(s) for artworks.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Artworks API from Artsy — 2 operation(s) for artworks.
   name: Artsy Artworks API
   slug: art-artworks-api
-- description: The Authentication API from Artsy — 1 operation(s) for authentication.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Authentication API from Artsy — 1 operation(s) for authentication.
   name: Artsy Authentication API
   slug: art-authentication-api
-- description: The Bidder Positions API from Artsy — 2 operation(s) for bidder positions.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Bidder Positions API from Artsy — 2 operation(s) for bidder positions.
   name: Artsy Bidder Positions API
   slug: art-bidder-positions-api
-- description: The Bidders API from Artsy — 2 operation(s) for bidders.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Bidders API from Artsy — 2 operation(s) for bidders.
   name: Artsy Bidders API
   slug: art-bidders-api
-- description: The Collection Items API from Artsy — 2 operation(s) for collection items.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Collection Items API from Artsy — 2 operation(s) for collection items.
   name: Artsy Collection Items API
   slug: art-collection-items-api
-- description: The Collections API from Artsy — 2 operation(s) for collections.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Collections API from Artsy — 2 operation(s) for collections.
   name: Artsy Collections API
   slug: art-collections-api
-- description: The Collector Profiles API from Artsy — 2 operation(s) for collector profiles.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Collector Profiles API from Artsy — 2 operation(s) for collector profiles.
   name: Artsy Collector Profiles API
   slug: art-collector-profiles-api
-- description: The Devices API from Artsy — 2 operation(s) for devices.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Devices API from Artsy — 2 operation(s) for devices.
   name: Artsy Devices API
   slug: art-devices-api
-- description: The Editions API from Artsy — 1 operation(s) for editions.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Editions API from Artsy — 1 operation(s) for editions.
   name: Artsy Editions API
   slug: art-editions-api
-- description: The Fairs API from Artsy — 2 operation(s) for fairs.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Fairs API from Artsy — 2 operation(s) for fairs.
   name: Artsy Fairs API
   slug: art-fairs-api
-- description: The Genes API from Artsy — 2 operation(s) for genes.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Genes API from Artsy — 2 operation(s) for genes.
   name: Artsy Genes API
   slug: art-genes-api
-- description: The Images API from Artsy — 1 operation(s) for images.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Images API from Artsy — 1 operation(s) for images.
   name: Artsy Images API
   slug: art-images-api
-- description: The Partner Communications API from Artsy — 2 operation(s) for partner communications.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Partner Communications API from Artsy — 2 operation(s) for partner communications.
   name: Artsy Partner Communications API
   slug: art-partner-communications-api
-- description: The Partner Contacts API from Artsy — 2 operation(s) for partner contacts.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Partner Contacts API from Artsy — 2 operation(s) for partner contacts.
   name: Artsy Partner Contacts API
   slug: art-partner-contacts-api
-- description: The Partners API from Artsy — 2 operation(s) for partners.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Partners API from Artsy — 2 operation(s) for partners.
   name: Artsy Partners API
   slug: art-partners-api
-- description: The Profiles API from Artsy — 2 operation(s) for profiles.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Profiles API from Artsy — 2 operation(s) for profiles.
   name: Artsy Profiles API
   slug: art-profiles-api
-- description: The Sale Artworks API from Artsy — 2 operation(s) for sale artworks.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Sale Artworks API from Artsy — 2 operation(s) for sale artworks.
   name: Artsy Sale Artworks API
   slug: art-sale-artworks-api
-- description: The Sales API from Artsy — 2 operation(s) for sales.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Sales API from Artsy — 2 operation(s) for sales.
   name: Artsy Sales API
   slug: art-sales-api
-- description: The Search API from Artsy — 1 operation(s) for search.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Search API from Artsy — 1 operation(s) for search.
   name: Artsy Search API
   slug: art-search-api
-- description: The Shows API from Artsy — 2 operation(s) for shows.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Shows API from Artsy — 2 operation(s) for shows.
   name: Artsy Shows API
   slug: art-shows-api
-- description: The Status API from Artsy — 1 operation(s) for status.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Status API from Artsy — 1 operation(s) for status.
   name: Artsy Status API
   slug: art-status-api
-- description: The User Fair Actions API from Artsy — 2 operation(s) for user fair actions.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The User Fair Actions API from Artsy — 2 operation(s) for user fair actions.
   name: Artsy User Fair Actions API
   slug: art-user-fair-actions-api
-- description: The Users API from Artsy — 3 operation(s) for users.
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Users API from Artsy — 3 operation(s) for users.
   name: Artsy Users API
   slug: art-users-api
 arazzos:
@@ -358,7 +408,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

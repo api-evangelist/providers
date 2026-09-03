@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: 'Environment-variable-driven configuration interface for the Electric sync service (Elixir/Docker). Controls database connectivity, storage backends, concurrent request limits (initial: 300, live: 10 0'
   name: Electric Sync Service Configuration API
   slug: sync-service-config-api
-- description: The Shape API from ElectricSQL — 1 operation(s) for shape.
+- baseURL: https://api.electric-sql.cloud
+  baseurl_source: declared
+  description: The Shape API from ElectricSQL — 1 operation(s) for shape.
   name: ElectricSQL Shape API
   slug: electric-sql-shape-api
 artifact_total: 17
@@ -221,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electric-sql/refs/heads/main/screenshots/electric-sql-2026-06-20T180546.png
 security:

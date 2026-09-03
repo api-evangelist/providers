@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
   name: Prolific aiTaskBuilder API
   slug: prolific-aitaskbuilder-api
-- description: The bonuses API from Prolific — 2 operation(s) for bonuses.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The bonuses API from Prolific — 2 operation(s) for bonuses.
   name: Prolific bonuses API
   slug: prolific-bonuses-api
-- description: The credentials API from Prolific — 2 operation(s) for credentials.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The credentials API from Prolific — 2 operation(s) for credentials.
   name: Prolific credentials API
   slug: prolific-credentials-api
-- description: The filters API from Prolific — 3 operation(s) for filters.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The filters API from Prolific — 3 operation(s) for filters.
   name: Prolific filters API
   slug: prolific-filters-api
-- description: The filterSets API from Prolific — 5 operation(s) for filtersets.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The filterSets API from Prolific — 5 operation(s) for filtersets.
   name: Prolific filterSets API
   slug: prolific-filtersets-api
-- description: The invitations API from Prolific — 1 operation(s) for invitations.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The invitations API from Prolific — 1 operation(s) for invitations.
   name: Prolific invitations API
   slug: prolific-invitations-api
-- description: The messages API from Prolific — 4 operation(s) for messages.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The messages API from Prolific — 4 operation(s) for messages.
   name: Prolific messages API
   slug: prolific-messages-api
-- description: The participantGroups API from Prolific — 3 operation(s) for participantgroups.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The participantGroups API from Prolific — 3 operation(s) for participantgroups.
   name: Prolific participantGroups API
   slug: prolific-participantgroups-api
-- description: The projects API from Prolific — 2 operation(s) for projects.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The projects API from Prolific — 2 operation(s) for projects.
   name: Prolific projects API
   slug: prolific-projects-api
-- description: The rewardRecommendations API from Prolific — 1 operation(s) for rewardrecommendations.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The rewardRecommendations API from Prolific — 1 operation(s) for rewardrecommendations.
   name: Prolific rewardRecommendations API
   slug: prolific-rewardrecommendations-api
-- description: The studies API from Prolific — 18 operation(s) for studies.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The studies API from Prolific — 18 operation(s) for studies.
   name: Prolific studies API
   slug: prolific-studies-api
-- description: The submissionFeedbackUpload API from Prolific — 1 operation(s) for submissionfeedbackupload.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The submissionFeedbackUpload API from Prolific — 1 operation(s) for submissionfeedbackupload.
   name: Prolific submissionFeedbackUpload API
   slug: prolific-submissionfeedbackupload-api
-- description: The submissions API from Prolific — 5 operation(s) for submissions.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The submissions API from Prolific — 5 operation(s) for submissions.
   name: Prolific submissions API
   slug: prolific-submissions-api
-- description: The surveys API from Prolific — 5 operation(s) for surveys.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The surveys API from Prolific — 5 operation(s) for surveys.
   name: Prolific surveys API
   slug: prolific-surveys-api
-- description: The users API from Prolific — 2 operation(s) for users.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The users API from Prolific — 2 operation(s) for users.
   name: Prolific users API
   slug: prolific-users-api
-- description: The webhooks API from Prolific — 5 operation(s) for webhooks.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The webhooks API from Prolific — 5 operation(s) for webhooks.
   name: Prolific webhooks API
   slug: prolific-webhooks-api
-- description: The wellKnownEndpoints API from Prolific — 1 operation(s) for wellknownendpoints.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The wellKnownEndpoints API from Prolific — 1 operation(s) for wellknownendpoints.
   name: Prolific wellKnownEndpoints API
   slug: prolific-wellknownendpoints-api
-- description: The workspaces API from Prolific — 3 operation(s) for workspaces.
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The workspaces API from Prolific — 3 operation(s) for workspaces.
   name: Prolific workspaces API
   slug: prolific-workspaces-api
 artifact_total: 41
@@ -314,7 +350,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -324,7 +360,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 47.2
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -335,7 +371,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prolific/refs/heads/main/screenshots/prolific-2026-08-17T081352.png
 security:

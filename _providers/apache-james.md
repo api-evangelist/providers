@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The JMAP (JSON Meta Application Protocol) implementation in James provides a modern, efficient email protocol for synchronizing messages, mailboxes, contacts, and calendars for email clients.
   name: Apache James JMAP API
   slug: jmap-api
-- description: Email domain management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: Email domain management
   name: Apache James Domains API
   slug: apache-james-domains-api
-- description: System health monitoring
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: System health monitoring
   name: Apache James HealthCheck API
   slug: apache-james-healthcheck-api
-- description: Mailbox management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: Mailbox management
   name: Apache James Mailboxes API
   slug: apache-james-mailboxes-api
-- description: Mail queue management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: Mail queue management
   name: Apache James MailQueues API
   slug: apache-james-mailqueues-api
-- description: Mail repository management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: Mail repository management
   name: Apache James MailRepositories API
   slug: apache-james-mailrepositories-api
-- description: Storage and message quota management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: Storage and message quota management
   name: Apache James Quotas API
   slug: apache-james-quotas-api
-- description: Asynchronous task management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: Asynchronous task management
   name: Apache James Tasks API
   slug: apache-james-tasks-api
-- description: User account management
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: User account management
   name: Apache James Users API
   slug: apache-james-users-api
 artifact_total: 72
@@ -355,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/screenshots/apache-james-2026-06-20T172110.png
 security:

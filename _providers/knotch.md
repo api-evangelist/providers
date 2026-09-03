@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Server-side conversion event ingestion. Accepts batches of up to 100 events over HTTPS with Bearer authentication, so conversions that happen off-site (CRM milestones such as ClosedWon, BecameSQL or R
+- baseURL: https://events.knotch.it
+  baseurl_source: declared
+  description: Server-side conversion event ingestion. Accepts batches of up to 100 events over HTTPS with Bearer authentication, so conversions that happen off-site (CRM milestones such as ClosedWon, BecameSQL or R
   name: Knotch Events API
   slug: events-api
 - description: 'Browser-side JavaScript API exposed by the Knotch tag for controlling Measurement Units on a page at runtime: Knotch.addUnit(), Knotch.removeUnit(), Knotch.setFocus(), Knotch.enableUnit(), Knotch.disa'
@@ -49,7 +51,9 @@ apis:
 - description: 'Publisher traffic verification tag, a component of Knotch Blueprint. A single script element carrying a data-kvpid attribute, fired once on document onLoad, collecting page views, unique visitors and '
   name: Knotch Verification Pixel
   slug: verification-pixel
-- description: The Health API from Knotch — 1 operation(s) for health.
+- baseURL: https://events.knotch.it
+  baseurl_source: declared
+  description: The Health API from Knotch — 1 operation(s) for health.
   name: Knotch Health API
   slug: knotch-health-api
 artifact_total: 9
@@ -209,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/screenshots/knotch-2026-07-25T224004.png
 security:

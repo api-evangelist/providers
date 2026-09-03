@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -33,52 +45,84 @@ agentic_access:
   summary_line: 132 operations · 81 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Account API from Flueid — 24 operation(s) for account.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Account API from Flueid — 24 operation(s) for account.
   name: Flueid Account API
   slug: flueid-account-api
-- description: The AccountPartner API from Flueid — 2 operation(s) for accountpartner.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The AccountPartner API from Flueid — 2 operation(s) for accountpartner.
   name: Flueid Account Partner API
   slug: flueid-accountpartner-api
-- description: The ClientCompanies API from Flueid — 5 operation(s) for clientcompanies.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The ClientCompanies API from Flueid — 5 operation(s) for clientcompanies.
   name: Flueid Client Companies API
   slug: flueid-clientcompanies-api
-- description: The Documents API from Flueid — 1 operation(s) for documents.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Documents API from Flueid — 1 operation(s) for documents.
   name: Flueid Documents API
   slug: flueid-documents-api
-- description: The Farms API from Flueid — 18 operation(s) for farms.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Farms API from Flueid — 18 operation(s) for farms.
   name: Flueid Farms API
   slug: flueid-farms-api
-- description: The NewOrders API from Flueid — 15 operation(s) for neworders.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The NewOrders API from Flueid — 15 operation(s) for neworders.
   name: Flueid New Orders API
   slug: flueid-neworders-api
-- description: The OrderDocumentSettings API from Flueid — 5 operation(s) for orderdocumentsettings.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The OrderDocumentSettings API from Flueid — 5 operation(s) for orderdocumentsettings.
   name: Flueid Order Document Settings API
   slug: flueid-orderdocumentsettings-api
-- description: The OrderEvents API from Flueid — 2 operation(s) for orderevents.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The OrderEvents API from Flueid — 2 operation(s) for orderevents.
   name: Flueid Order Events API
   slug: flueid-orderevents-api
-- description: The OrderOptions API from Flueid — 2 operation(s) for orderoptions.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The OrderOptions API from Flueid — 2 operation(s) for orderoptions.
   name: Flueid Order Options API
   slug: flueid-orderoptions-api
-- description: The Orders API from Flueid — 10 operation(s) for orders.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Orders API from Flueid — 10 operation(s) for orders.
   name: Flueid Orders API
   slug: flueid-orders-api
-- description: The PartnerOrderSettings API from Flueid — 10 operation(s) for partnerordersettings.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The PartnerOrderSettings API from Flueid — 10 operation(s) for partnerordersettings.
   name: Flueid Partner Order Settings API
   slug: flueid-partnerordersettings-api
-- description: The Partners API from Flueid — 11 operation(s) for partners.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Partners API from Flueid — 11 operation(s) for partners.
   name: Flueid Partners API
   slug: flueid-partners-api
-- description: The Permissions API from Flueid — 3 operation(s) for permissions.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Permissions API from Flueid — 3 operation(s) for permissions.
   name: Flueid Permissions API
   slug: flueid-permissions-api
-- description: The PropertyData API from Flueid — 22 operation(s) for propertydata.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The PropertyData API from Flueid — 22 operation(s) for propertydata.
   name: Flueid Property Data API
   slug: flueid-propertydata-api
-- description: The Public API from Flueid — 1 operation(s) for public.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Public API from Flueid — 1 operation(s) for public.
   name: Flueid Public API
   slug: flueid-public-api
-- description: The Settings API from Flueid — 1 operation(s) for settings.
+- baseURL: https://api.pro.flueid.com
+  baseurl_source: declared
+  description: The Settings API from Flueid — 1 operation(s) for settings.
   name: Flueid Settings API
   slug: flueid-settings-api
 artifact_total: 22
@@ -200,7 +244,7 @@ score:
   band: thin
   composite: 29.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -236,8 +280,9 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flueid/refs/heads/main/screenshots/flueid-2026-09-02T145527.png
 security:
 - kind: authentication
   name: Flueid Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Retrieve actual statistical data observations from IMF datasets
+- baseURL: https://api.imf.org/external/sdmx/3.0
+  baseurl_source: declared
+  description: Retrieve actual statistical data observations from IMF datasets
   name: IMF Data Data API
   slug: imf-data-api
-- description: Retrieve dataset metadata including dataflows, data structures, codelists, and concept schemes
+- baseURL: https://api.imf.org/external/sdmx/3.0
+  baseurl_source: declared
+  description: Retrieve dataset metadata including dataflows, data structures, codelists, and concept schemes
   name: IMF Data Structure API
   slug: imf-structure-api
 artifact_total: 20
@@ -217,7 +221,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/screenshots/imf-2026-06-20T183250.png
 security:

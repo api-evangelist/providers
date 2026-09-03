@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 1
 apis:
-- description: The Groups API from Interos — 2 operation(s) for groups.
+- baseURL: https://api.interos.ai
+  baseurl_source: declared
+  description: The Groups API from Interos — 2 operation(s) for groups.
   name: Interos Groups API
   slug: interos-groups-api
-- description: The health API from Interos — 1 operation(s) for health.
+- baseURL: https://api.interos.ai
+  baseurl_source: declared
+  description: The health API from Interos — 1 operation(s) for health.
   name: Interos health API
   slug: interos-health-api
-- description: The Organizations API from Interos — 2 operation(s) for organizations.
+- baseURL: https://api.interos.ai
+  baseurl_source: declared
+  description: The Organizations API from Interos — 2 operation(s) for organizations.
   name: Interos Organizations API
   slug: interos-organizations-api
-- description: The Relationships API from Interos — 2 operation(s) for relationships.
+- baseURL: https://api.interos.ai
+  baseurl_source: declared
+  description: The Relationships API from Interos — 2 operation(s) for relationships.
   name: Interos Relationships API
   slug: interos-relationships-api
-- description: The Watchtower API from Interos — 3 operation(s) for watchtower.
+- baseURL: https://api.interos.ai
+  baseurl_source: declared
+  description: The Watchtower API from Interos — 3 operation(s) for watchtower.
   name: Interos Watchtower API
   slug: interos-watchtower-api
 artifact_total: 16
@@ -226,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png
 security:

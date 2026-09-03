@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -43,133 +43,219 @@ agentic_access:
   summary_line: 188 operations · 115 acting
 api_count: 1
 apis:
-- description: Inspect the identity attached to the current API key
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Inspect the identity attached to the current API key
   name: Frontline Account API
   slug: frontline-account-api
-- description: View and manage your AI agents across your account
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: View and manage your AI agents across your account
   name: Frontline Agent Builder API
   slug: frontline-agent-builder-api
-- description: 'Agent runtime data: conversations and transcripts'
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: 'Agent runtime data: conversations and transcripts'
   name: Frontline Agents API
   slug: frontline-agents-api
-- description: Discover available AI models for agent configuration
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Discover available AI models for agent configuration
   name: Frontline AI Models API
   slug: frontline-ai-models-api
-- description: View billing plan details, credits, and renewal information
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: View billing plan details, credits, and renewal information
   name: Frontline Billing API
   slug: frontline-billing-api
-- description: Manage variables scoped to an agent's flow
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage variables scoped to an agent's flow
   name: Frontline Flow Variables API
   slug: frontline-flow-variables-api
-- description: View and manage flows associated with your agents
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: View and manage flows associated with your agents
   name: Frontline Flows API
   slug: frontline-flows-api
-- description: Inbound HTTPS endpoints that external systems can post events to
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Inbound HTTPS endpoints that external systems can post events to
   name: Frontline Incoming Webhooks API
   slug: frontline-incoming-webhooks-api
-- description: Manage agent intents and training phrases
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage agent intents and training phrases
   name: Frontline Intents API
   slug: frontline-intents-api
-- description: Manual activities (notes, calls, meetings, emails) attached to object rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manual activities (notes, calls, meetings, emails) attached to object rows
   name: Frontline Object activities API
   slug: frontline-object-activities-api
-- description: Per-view aggregations on objects
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Per-view aggregations on objects
   name: Frontline Object aggregations API
   slug: frontline-object-aggregations-api
-- description: Export object data as XLSX or CSV
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Export object data as XLSX or CSV
   name: Frontline Object export API
   slug: frontline-object-export-api
-- description: Manage columns on an object
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage columns on an object
   name: Frontline Object fields API
   slug: frontline-object-fields-api
-- description: Files attached to object rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Files attached to object rows
   name: Frontline Object files API
   slug: frontline-object-files-api
-- description: Manage tag/select options on object fields
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage tag/select options on object fields
   name: Frontline Object options API
   slug: frontline-object-options-api
-- description: Categorize records inside an object
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Categorize records inside an object
   name: Frontline Object record types API
   slug: frontline-object-record-types-api
-- description: Link and unlink records across objects
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Link and unlink records across objects
   name: Frontline Object relations API
   slug: frontline-object-relations-api
-- description: Read and write object records
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Read and write object records
   name: Frontline Object rows API
   slug: frontline-object-rows-api
-- description: Tasks attached to object rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Tasks attached to object rows
   name: Frontline Object tasks API
   slug: frontline-object-tasks-api
-- description: Saved view configurations on an object
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Saved view configurations on an object
   name: Frontline Object views API
   slug: frontline-object-views-api
-- description: Manage CRM objects (standard and custom)
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage CRM objects (standard and custom)
   name: Frontline Objects API
   slug: frontline-objects-api
-- description: Manual activities (notes, calls, meetings, emails) attached to table rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manual activities (notes, calls, meetings, emails) attached to table rows
   name: Frontline Table activities API
   slug: frontline-table-activities-api
-- description: Per-view aggregations on tables
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Per-view aggregations on tables
   name: Frontline Table aggregations API
   slug: frontline-table-aggregations-api
-- description: Export table data as XLSX or CSV
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Export table data as XLSX or CSV
   name: Frontline Table export API
   slug: frontline-table-export-api
-- description: Manage columns on a table
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage columns on a table
   name: Frontline Table fields API
   slug: frontline-table-fields-api
-- description: Files attached to table rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Files attached to table rows
   name: Frontline Table files API
   slug: frontline-table-files-api
-- description: Manage tag/select options on table fields
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage tag/select options on table fields
   name: Frontline Table options API
   slug: frontline-table-options-api
-- description: Read and write table rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Read and write table rows
   name: Frontline Table rows API
   slug: frontline-table-rows-api
-- description: Tasks attached to table rows
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Tasks attached to table rows
   name: Frontline Table tasks API
   slug: frontline-table-tasks-api
-- description: Manage spreadsheet-style tables
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage spreadsheet-style tables
   name: Frontline Tables API
   slug: frontline-tables-api
-- description: Manage variables scoped to an automation workflow
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage variables scoped to an automation workflow
   name: Frontline Workflow Variables API
   slug: frontline-workflow-variables-api
-- description: View and manage your workflows across your account
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: View and manage your workflows across your account
   name: Frontline Workflows API
   slug: frontline-workflows-api
-- description: View account-scoped (Studio) connected integrations, discover connectable toolkits, and configure which tools each integration exposes to agents, flows, and workflows. These are used for workflows and
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: View account-scoped (Studio) connected integrations, discover connectable toolkits, and configure which tools each integration exposes to agents, flows, and workflows. These are used for workflows and
   name: Frontline Account Integrations API
   slug: frontline-account-integrations-api
-- description: View connected channel integrations (WhatsApp, Instagram, Messenger) and bind numbers/accounts/pages to agents
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: View connected channel integrations (WhatsApp, Instagram, Messenger) and bind numbers/accounts/pages to agents
   name: Frontline Agent Channels API
   slug: frontline-agent-channels-api
-- description: Manage reusable instruction sets assigned to agents
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage reusable instruction sets assigned to agents
   name: Frontline Agent Playbooks API
   slug: frontline-agent-playbooks-api
-- description: Communication channels connected to this account (WhatsApp, Instagram, Messenger)
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Communication channels connected to this account (WhatsApp, Instagram, Messenger)
   name: Frontline Channels API
   slug: frontline-channels-api
-- description: Manage custom tools — reusable HTTP/API-call integrations the account creates and assigns to agents, flows, and workflows. Distinct from built-in system tools and connected-integration (MCP) tools.
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage custom tools — reusable HTTP/API-call integrations the account creates and assigns to agents, flows, and workflows. Distinct from built-in system tools and connected-integration (MCP) tools.
   name: Frontline Custom Tools API
   slug: frontline-custom-tools-api
-- description: 'Builder reference data sourced live from backend constants: valid icons, colors, and formats for objects/tables/fields, plus the workflow/flow node-type catalog. Use these instead of hard-coding allow'
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: 'Builder reference data sourced live from backend constants: valid icons, colors, and formats for objects/tables/fields, plus the workflow/flow node-type catalog. Use these instead of hard-coding allow'
   name: Frontline Guidance API
   slug: frontline-guidance-api
-- description: Resolve resource IDs (spreadsheets, docs, drive folders, Asana projects, Salesforce SObjects, Gmail labels, Outlook folders/calendars) needed to configure event triggers. Requires a USER API key.
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Resolve resource IDs (spreadsheets, docs, drive folders, Asana projects, Salesforce SObjects, Gmail labels, Outlook folders/calendars) needed to configure event triggers. Requires a USER API key.
   name: Frontline Integration Resources API
   slug: frontline-integration-resources-api
-- description: OAuth/API connected accounts for toolkits like Google Sheets, Gmail, and Slack
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: OAuth/API connected accounts for toolkits like Google Sheets, Gmail, and Slack
   name: Frontline Integrations API
   slug: frontline-integrations-api
-- description: Manage knowledge bases, their sources (URLs, website crawls), search, and agent assignment
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: Manage knowledge bases, their sources (URLs, website crawls), search, and agent assignment
   name: Frontline Knowledge Bases API
   slug: frontline-knowledge-bases-api
-- description: 'User tasks — the account ''To-dos'' inbox: create, list, update, complete, and delete tasks, optionally linked to an object record. Distinct from object-row tasks (Object tasks) and from Max tasks.'
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: 'User tasks — the account ''To-dos'' inbox: create, list, update, complete, and delete tasks, optionally linked to an object record. Distinct from object-row tasks (Object tasks) and from Max tasks.'
   name: Frontline User Tasks API
   slug: frontline-user-tasks-api
-- description: List account users to resolve IDs for relations and assignment
+- baseURL: https://prod-api.getfrontline.ai/public/v1
+  baseurl_source: declared
+  description: List account users to resolve IDs for relations and assignment
   name: Frontline Users API
   slug: frontline-users-api
 artifact_total: 108
@@ -448,7 +534,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png
 security:

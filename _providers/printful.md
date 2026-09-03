@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 31 operations · 11 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Browse the Printful product catalog, variants, prices, sizes, images, and availability.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Browse the Printful product catalog, variants, prices, sizes, images, and availability.
   name: Printful Catalog API
   slug: printful-catalog-api
-- description: Upload and retrieve print files in the file library.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Upload and retrieve print files in the file library.
   name: Printful Files API
   slug: printful-files-api
-- description: Generate product mockup images via asynchronous tasks.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Generate product mockup images via asynchronous tasks.
   name: Printful Mockup Generator API
   slug: printful-mockup-generator-api
-- description: Create, confirm, and manage on-demand fulfillment orders and order items.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Create, confirm, and manage on-demand fulfillment orders and order items.
   name: Printful Orders API
   slug: printful-orders-api
-- description: Calculate shipping rates for a set of items and destination.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Calculate shipping rates for a set of items and destination.
   name: Printful Shipping Rates API
   slug: printful-shipping-rates-api
-- description: Manage products synced into a connected store.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Manage products synced into a connected store.
   name: Printful Store Products API
   slug: printful-store-products-api
-- description: List and retrieve merchant-owned warehouse products.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: List and retrieve merchant-owned warehouse products.
   name: Printful Warehouse API
   slug: printful-warehouse-api
-- description: Configure webhook endpoints and per-event subscriptions.
+- baseURL: https://api.printful.com/v2
+  baseurl_source: declared
+  description: Configure webhook endpoints and per-event subscriptions.
   name: Printful Webhooks API
   slug: printful-webhooks-api
 artifact_total: 25
@@ -182,7 +198,7 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -205,8 +221,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/screenshots/printful-2026-09-02T152031.png
 security:
 - kind: authentication
   name: Printful Authentication

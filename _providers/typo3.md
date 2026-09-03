@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: The sourcebroker/t3api extension provides an easy-to-configure REST API layer for TYPO3 Extbase models. APIs are configured with PHP annotations on classes, properties, and methods, with partial suppo
   name: TYPO3 REST API Extension (t3api)
   slug: extension-rest-api
-- description: The Cache API from TYPO3 — 2 operation(s) for cache.
+- baseURL: https://example.typo3.org
+  baseurl_source: declared
+  description: The Cache API from TYPO3 — 2 operation(s) for cache.
   name: TYPO3 Cache API
   slug: typo3-cache-api
-- description: The Major API from TYPO3 — 9 operation(s) for major.
+- baseURL: https://example.typo3.org
+  baseurl_source: declared
+  description: The Major API from TYPO3 — 9 operation(s) for major.
   name: TYPO3 Major API
   slug: typo3-major-api
-- description: The Release API from TYPO3 — 4 operation(s) for release.
+- baseURL: https://example.typo3.org
+  baseurl_source: declared
+  description: The Release API from TYPO3 — 4 operation(s) for release.
   name: TYPO3 Release API
   slug: typo3-release-api
-- description: The sitepackage API from TYPO3 — 1 operation(s) for sitepackage.
+- baseURL: https://example.typo3.org
+  baseurl_source: declared
+  description: The sitepackage API from TYPO3 — 1 operation(s) for sitepackage.
   name: TYPO3 sitepackage API
   slug: typo3-sitepackage-api
 artifact_total: 18
@@ -219,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/screenshots/typo3-2026-06-20T195907.png
 security:

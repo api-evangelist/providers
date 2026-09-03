@@ -23,208 +23,342 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
-- description: API for the AEBDelivery
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the AEBDelivery
   name: AEB AEB Delivery API
   slug: aeb-aeb-delivery-api
-- description: API for the billing of services
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the billing of services
   name: AEB Billing API
   slug: aeb-billing-api
-- description: REST API for billing scenarios
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST API for billing scenarios
   name: AEB Billing Scenario API
   slug: aeb-billingscenario-api
-- description: Business facade for auditing of BrokerInstructions.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Business facade for auditing of BrokerInstructions.
   name: AEB BIS Audit BF Bean API
   slug: aeb-bisauditbfbean-api
-- description: Business facade for handling BrokerInstructions.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Business facade for handling BrokerInstructions.
   name: AEB BISBF Bean API
   slug: aeb-bisbfbean-api
-- description: The API for BSM Carrier operations
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: The API for BSM Carrier operations
   name: AEB BSM Carrier API
   slug: aeb-bsm-carrier-api
-- description: API for BSM International Customs operations
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for BSM International Customs operations
   name: AEB BSM International Customs API
   slug: aeb-bsm-international-customs-api
-- description: API for synchronizing data asynchronous from an engine to a client system
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for synchronizing data asynchronous from an engine to a client system
   name: AEB BSM Sync API
   slug: aeb-bsm-sync-api
-- description: Rest API for carriers
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API for carriers
   name: AEB Carrier API
   slug: aeb-carrier-api
-- description: Rest API for carrier definitions
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API for carrier definitions
   name: AEB Carrier Definition API
   slug: aeb-carrierdefinition-api
-- description: Rest API for carrier descriptions
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API for carrier descriptions
   name: AEB Carrier Description API
   slug: aeb-carrierdescription-api
-- description: Carrier event service related business facade methods. Supports methods for shipments, events and configuration.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Carrier event service related business facade methods. Supports methods for shipments, events and configuration.
   name: AEB Carrier Event Service BF Bean API
   slug: aeb-carriereventservicebfbean-api
-- description: Rest API for carrier setups
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API for carrier setups
   name: AEB Carrier Setup API
   slug: aeb-carriersetup-api
-- description: API for classification proposals.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for classification proposals.
   name: AEB Classification Proposal BF Bean API
   slug: aeb-classificationproposalbfbean-api
-- description: Rest API for companies
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API for companies
   name: AEB Companies API
   slug: aeb-companies-api
-- description: API for the compliance foundation.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the compliance foundation.
   name: AEB Compliance Foundation API
   slug: aeb-compliance-foundation-api
-- description: API for restricted party list screening
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for restricted party list screening
   name: AEB Compliance Screening API
   slug: aeb-compliance-screening-api
-- description: Get URLs to various parts of the Compliance Screening application.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Get URLs to various parts of the Compliance Screening application.
   name: AEB Compliance Screening Applications API
   slug: aeb-compliance-screening-applications-api
-- description: Internal API for compliance screening
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Internal API for compliance screening
   name: AEB Compliance Screening Internal API
   slug: aeb-compliance-screening-internal-api
-- description: Consignment profiles API
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Consignment profiles API
   name: AEB Consignment profiles API
   slug: aeb-consignment-profiles-api
-- description: API for the XNSGFoundation
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the XNSGFoundation
   name: AEB Core BF Bean API
   slug: aeb-corebfbean-api
-- description: REST endpoint for Customs Inventory Management
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST endpoint for Customs Inventory Management
   name: AEB Customs Inventory Management API
   slug: aeb-customs-inventory-management-api
-- description: API providing services around customs content (nomenclatures, export control lists).
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API providing services around customs content (nomenclatures, export control lists).
   name: AEB Customs Content Service BF API
   slug: aeb-customscontentservicebf-api
-- description: Business facade for transit processes
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Business facade for transit processes
   name: AEB Customs Transit BF Bean API
   slug: aeb-customstransitbfbean-api
-- description: DataFeedBFBean
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: DataFeedBFBean
   name: AEB Data Feed BF Bean API
   slug: aeb-datafeedbfbean-api
-- description: The API with all about declaration of origin
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: The API with all about declaration of origin
   name: AEB Declaration of Origin API
   slug: aeb-declaration-of-origin-api
-- description: Document extractions API
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Document extractions API
   name: AEB Document extractions API
   slug: aeb-document-extractions-api
-- description: REST API for the Document Service
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST API for the Document Service
   name: AEB Document Service API
   slug: aeb-documentservice-api
-- description: REST API for the Document Service master data maintenance
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST API for the Document Service master data maintenance
   name: AEB Document Service Master Data API
   slug: aeb-documentservice-masterdata-api
-- description: API for export control
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for export control
   name: AEB Export Control API
   slug: aeb-export-control-api
-- description: Get URLs to various parts of the Export Controls application.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Get URLs to various parts of the Export Controls application.
   name: AEB Export Control Applications API
   slug: aeb-export-control-applications-api
-- description: Internal API for export control
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Internal API for export control
   name: AEB Export Control Internal API
   slug: aeb-export-control-internal-api
-- description: API for sending telemetry data from a third party system.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for sending telemetry data from a third party system.
   name: AEB External Telemetry BF Bean API
   slug: aeb-externaltelemetrybfbean-api
-- description: Interface overview for Finance data API for Switzerland
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Interface overview for Finance data API for Switzerland
   name: AEB Finance Data CHBF Bean API
   slug: aeb-financedatachbfbean-api
-- description: Business facade for the XNSGFoundation UI API
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Business facade for the XNSGFoundation UI API
   name: AEB Foundation AF Bean API
   slug: aeb-foundationafbean-api
-- description: REST endpoint for FoundationBF
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST endpoint for FoundationBF
   name: AEB Foundation BF Bean API
   slug: aeb-foundationbfbean-api
-- description: API for the foreign trade material classification (version 2.0)
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the foreign trade material classification (version 2.0)
   name: AEB FT Material Classification20 BF Bean API
   slug: aeb-ftmaterialclassification20bfbean-api
-- description: API to open views that support this generic interface.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API to open views that support this generic interface.
   name: AEB Generic AF Bean API
   slug: aeb-genericafbean-api
-- description: Interface overview for Customs Management
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Interface overview for Customs Management
   name: AEB International Customs API
   slug: aeb-international-customs-api-api
-- description: Application facades for Customs Management
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Application facades for Customs Management
   name: AEB International Customs AF Bean API
   slug: aeb-internationalcustomsafbean-api
-- description: Interface overview for Customs Management
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Interface overview for Customs Management
   name: AEB International Customs BF Bean API
   slug: aeb-internationalcustomsbfbean-api
-- description: API for handling external invoices
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for handling external invoices
   name: AEB Invoices API
   slug: aeb-invoices-api
-- description: API for License Management
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for License Management
   name: AEB License Management API
   slug: aeb-license-management-api
-- description: Business facade for LIS, version 2.0
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Business facade for LIS, version 2.0
   name: AEB LISBF20 Bean API
   slug: aeb-lisbf20bean-api
-- description: Authentication handler for the XNSGFoundation
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Authentication handler for the XNSGFoundation
   name: AEB Logon API
   slug: aeb-logon-api
-- description: API for maintaining and requesting classification master data.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for maintaining and requesting classification master data.
   name: AEB Material BF Bean API
   slug: aeb-materialbfbean-api
-- description: API for requesting settings regarding materials.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for requesting settings regarding materials.
   name: AEB Material Configuration BF Bean API
   slug: aeb-materialconfigurationbfbean-api
-- description: The API with all about Origin and Preferences
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: The API with all about Origin and Preferences
   name: AEB O&P API
   slug: aeb-o-p-api
-- description: The API with all about Origin and Preferences UIs
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: The API with all about Origin and Preferences UIs
   name: AEB O&P UI API
   slug: aeb-o-p-ui-api
-- description: PushApi for carrier events.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: PushApi for carrier events.
   name: AEB Push API Rest Endpoint API
   slug: aeb-pushapirestendpoint-api
-- description: API for handling rates
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for handling rates
   name: AEB Rates API
   slug: aeb-rates-api
-- description: Remote Administration tools use this methods. The main player are the Identity Access Manager (IAM) and the Installation Repository (IR).
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Remote Administration tools use this methods. The main player are the Identity Access Manager (IAM) and the Installation Repository (IR).
   name: AEB Remote Admin BF Bean API
   slug: aeb-remoteadminbfbean-api
-- description: API for Risk Assessment
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for Risk Assessment
   name: AEB Risk Assessment API
   slug: aeb-risk-assessment-api
-- description: Get URLs to various parts of the Risk Assessment application.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Get URLs to various parts of the Risk Assessment application.
   name: AEB Risk Assessment Applications API
   slug: aeb-risk-assessment-applications-api
-- description: API for the handling of routing tasks
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the handling of routing tasks
   name: AEB Routing API
   slug: aeb-routing-api
-- description: All SAP® specific APIs to interact with the BSM.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: All SAP® specific APIs to interact with the BSM.
   name: AEB SAP® API
   slug: aeb-sap-api
-- description: REST API for services
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST API for services
   name: AEB Service API
   slug: aeb-service-api
-- description: REST API for settlements
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST API for settlements
   name: AEB Settlement API
   slug: aeb-settlement-api
-- description: REST API for settlementitems
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: REST API for settlementitems
   name: AEB Settlement Item API
   slug: aeb-settlementitem-api
-- description: Rest API to get shipment objectives
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API to get shipment objectives
   name: AEB Shipment Objectives API
   slug: aeb-shipmentobjectives-api
-- description: API for the CarrierEngine service
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the CarrierEngine service
   name: AEB Shipping API
   slug: aeb-shipping-api
-- description: API for synchronizing data asynchronous from an engine to a client system.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for synchronizing data asynchronous from an engine to a client system.
   name: AEB Sync BF Bean API
   slug: aeb-syncbfbean-api
-- description: API for the tariff content solution (version 2.0).
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for the tariff content solution (version 2.0).
   name: AEB Tariff Content20 BF Bean API
   slug: aeb-tariffcontent20bfbean-api
-- description: API for fee calculation using the tariff content solution
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: API for fee calculation using the tariff content solution
   name: AEB Tariff Content Fee Calculation BF Bean API
   slug: aeb-tariffcontentfeecalculationbfbean-api
-- description: Rest API for terms of deliveries
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Rest API for terms of deliveries
   name: AEB Terms Of Delivery API
   slug: aeb-termsofdelivery-api
-- description: Connection handler for the Workstation Service Agent
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: Connection handler for the Workstation Service Agent
   name: AEB Workstation Service Agent API
   slug: aeb-workstationserviceagent-api
-- description: All Haufe x360 specific APIs to interact with the BSM.
+- baseURL: https://rz3.aeb.de/test2ici/rest
+  baseurl_source: declared
+  description: All Haufe x360 specific APIs to interact with the BSM.
   name: AEB X360 API
   slug: aeb-x360-api
 artifact_total: 78
@@ -365,7 +499,7 @@ score:
     regime_id: telecommunications
     score: 6.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb

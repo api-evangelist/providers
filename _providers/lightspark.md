@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 132 operations · 82 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Endpoints for creating and managing agents (experimental), called by the partner''s backend using platform credentials. Covers the full agent lifecycle: creation, policy configuration, pausing, deletio'
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: 'Endpoints for creating and managing agents (experimental), called by the partner''s backend using platform credentials. Covers the full agent lifecycle: creation, policy configuration, pausing, deletio'
   name: Lightspark Agent Management API
   slug: lightspark-agent-management-api
-- description: Endpoints called by the agent itself using its own credentials (obtained via device code redemption). Scoped to the agent's associated customer — all requests automatically operate on behalf of that c
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints called by the agent itself using its own credentials (obtained via device code redemption). Scoped to the agent's associated customer — all requests automatically operate on behalf of that c
   name: Lightspark Agent Operations API
   slug: lightspark-agent-operations-api
-- description: Endpoints to programmatically manage API tokens
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints to programmatically manage API tokens
   name: Lightspark API Tokens API
   slug: lightspark-api-tokens-api
-- description: The Available UMA Providers API from Lightspark — 1 operation(s) for available uma providers.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: The Available UMA Providers API from Lightspark — 1 operation(s) for available uma providers.
   name: Lightspark Available UMA Providers API
   slug: lightspark-available-uma-providers-api
-- description: Card management endpoints. Issue debit cards against an internal account, freeze / unfreeze, close, manage card funding sources, and list card transactions.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Card management endpoints. Issue debit cards against an internal account, freeze / unfreeze, close, manage card funding sources, and list card transactions.
   name: Lightspark Cards API
   slug: lightspark-cards-api
-- description: Endpoints for verifying a customer's email and phone via one-time codes. Required only for customers whose payment provider mandates contact verification (e.g. EU customers); other providers return 40
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for verifying a customer's email and phone via one-time codes. Required only for customers whose payment provider mandates contact verification (e.g. EU customers); other providers return 40
   name: Lightspark Contact Verification API
   slug: lightspark-contact-verification-api
-- description: Endpoints for creating and confirming quotes for cross-currency transfers
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for creating and confirming quotes for cross-currency transfers
   name: Lightspark Cross-Currency Transfers API
   slug: lightspark-cross-currency-transfers-api
-- description: Customer management endpoints for creating and updating customer information
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Customer management endpoints for creating and updating customer information
   name: Lightspark Customers API
   slug: lightspark-customers-api
-- description: Endpoints for discovering available payment rails, banks, and providers for a given country and currency corridor.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for discovering available payment rails, banks, and providers for a given country and currency corridor.
   name: Lightspark Discoveries API
   slug: lightspark-discoveries-api
-- description: Endpoints for uploading and managing verification documents for customers and beneficial owners. Supports KYC and KYB document requirements.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for uploading and managing verification documents for customers and beneficial owners. Supports KYC and KYB document requirements.
   name: Lightspark Documents API
   slug: lightspark-documents-api
-- description: Endpoints for registering and verifying end-user authentication credentials (email OTP, OAuth, passkey) used to sign Embedded Wallet actions.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for registering and verifying end-user authentication credentials (email OTP, OAuth, passkey) used to sign Embedded Wallet actions.
   name: Lightspark Embedded Wallet Auth API
   slug: lightspark-embedded-wallet-auth-api
-- description: Endpoints for retrieving cached foreign exchange rates. Rates are cached for approximately 5 minutes and include platform-specific fees.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for retrieving cached foreign exchange rates. Rates are cached for approximately 5 minutes and include platform-specific fees.
   name: Lightspark Exchange Rates API
   slug: lightspark-exchange-rates-api
-- description: External account management endpoints for creating and managing external bank accounts
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: External account management endpoints for creating and managing external bank accounts
   name: Lightspark External Accounts API
   slug: lightspark-external-accounts-api
-- description: Internal account management endpoints for creating and managing internal accounts
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Internal account management endpoints for creating and managing internal accounts
   name: Lightspark Internal Accounts API
   slug: lightspark-internal-accounts-api
-- description: Endpoints for creating, claiming and managing UMA invitations
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for creating, claiming and managing UMA invitations
   name: Lightspark Invitations API
   slug: lightspark-invitations-api
-- description: Endpoints for Know Your Customer (KYC) and Know Your Business (KYB) verification, including managing beneficial owners and triggering verification for customers.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for Know Your Customer (KYC) and Know Your Business (KYB) verification, including managing beneficial owners and triggering verification for customers.
   name: Lightspark KYC/KYB Verifications API
   slug: lightspark-kyc-kyb-verifications-api
-- description: Platform configuration endpoints for managing global settings. You can also configure these settings in the Grid dashboard.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Platform configuration endpoints for managing global settings. You can also configure these settings in the Grid dashboard.
   name: Lightspark Platform Configuration API
   slug: lightspark-platform-configuration-api
-- description: Endpoints for transferring funds between internal and external accounts with the same currency
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for transferring funds between internal and external accounts with the same currency
   name: Lightspark Same-Currency Transfers API
   slug: lightspark-same-currency-transfers-api
-- description: Endpoints to trigger test cases in sandbox
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints to trigger test cases in sandbox
   name: Lightspark Sandbox API
   slug: lightspark-sandbox-api
-- description: Stablecoin issuance endpoints. Link provider accounts, register provider-created stablecoins, create mint/burn quotes, execute them, and track the resulting operations.
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Stablecoin issuance endpoints. Link provider accounts, register provider-created stablecoins, create mint/burn quotes, execute them, and track the resulting operations.
   name: Lightspark Stablecoins API
   slug: lightspark-stablecoins-api
-- description: Endpoints for authorizing money-movement operations that require Strong Customer Authentication. Relevant only for customers in a region where SCA is required (e.g. EU); customers outside SCA-regulate
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for authorizing money-movement operations that require Strong Customer Authentication. Relevant only for customers in a region where SCA is required (e.g. EU); customers outside SCA-regulate
   name: Lightspark Strong Customer Authentication API
   slug: lightspark-strong-customer-authentication-api
-- description: Endpoints for retrieving transaction information
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Endpoints for retrieving transaction information
   name: Lightspark Transactions API
   slug: lightspark-transactions-api
-- description: Webhook endpoints and configuration for receiving notifications
+- baseURL: https://api.lightspark.com/grid/2025-10-13
+  baseurl_source: declared
+  description: Webhook endpoints and configuration for receiving notifications
   name: Lightspark Webhooks API
   slug: lightspark-webhooks-api
 artifact_total: 76
@@ -474,7 +520,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -484,7 +530,7 @@ score:
     discoverability: 75.9
     governance: 72.7
     operational_transparency: 60.5
-  previous_composite: 69.2
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -502,7 +548,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 client-credentials token exchange
+- baseURL: https://api.incognia.com/api
+  baseurl_source: declared
+  description: OAuth 2.0 client-credentials token exchange
   name: Incognia Authentication API
   slug: incognia-authentication-api
-- description: Report labeled events to tune the risk model
+- baseURL: https://api.incognia.com/api
+  baseurl_source: declared
+  description: Report labeled events to tune the risk model
   name: Incognia Feedback API
   slug: incognia-feedback-api
-- description: Signup risk assessment
+- baseURL: https://api.incognia.com/api
+  baseurl_source: declared
+  description: Signup risk assessment
   name: Incognia Onboarding API
   slug: incognia-onboarding-api
-- description: Login and payment risk assessment
+- baseURL: https://api.incognia.com/api
+  baseurl_source: declared
+  description: Login and payment risk assessment
   name: Incognia Transactions API
   slug: incognia-transactions-api
 artifact_total: 14
@@ -237,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/screenshots/incognia-2026-07-25T222233.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 52 operations · 16 acting
 api_count: 1
 apis:
-- description: Standardized accounting data types.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Standardized accounting data types.
   name: Codat Accounting API
   slug: codat-io-accounting-api
-- description: Push transactions into accounting platforms as a bank feed.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Push transactions into accounting platforms as a bank feed.
   name: Codat Bank Feeds API
   slug: codat-io-bank-feeds-api
-- description: Standardized banking data types.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Standardized banking data types.
   name: Codat Banking API
   slug: codat-io-banking-api
-- description: Standardized commerce and point-of-sale data types.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Standardized commerce and point-of-sale data types.
   name: Codat Commerce API
   slug: codat-io-commerce-api
-- description: Create and manage the companies (customers) you pull data for.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Create and manage the companies (customers) you pull data for.
   name: Codat Companies API
   slug: codat-io-companies-api
-- description: Manage a company's connections to accounting, banking, and commerce platforms.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Manage a company's connections to accounting, banking, and commerce platforms.
   name: Codat Connections API
   slug: codat-io-connections-api
-- description: Sync for Expenses - reconcile card and expense transactions.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Sync for Expenses - reconcile card and expense transactions.
   name: Codat Expenses API
   slug: codat-io-expenses-api
-- description: Discover supported integrations and their branding.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Discover supported integrations and their branding.
   name: Codat Integrations API
   slug: codat-io-integrations-api
-- description: Assess reports and lending metrics.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Assess reports and lending metrics.
   name: Codat Lending API
   slug: codat-io-lending-api
-- description: Queue data refreshes and inspect pull history and status.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Queue data refreshes and inspect pull history and status.
   name: Codat Manage data API
   slug: codat-io-manage-data-api
-- description: Sync for Payables - write bills and payments.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Sync for Payables - write bills and payments.
   name: Codat Payables API
   slug: codat-io-payables-api
-- description: Sync commerce sales into accounting software.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Sync commerce sales into accounting software.
   name: Codat Sync for Commerce API
   slug: codat-io-sync-for-commerce-api
-- description: Manage webhook consumers for event subscriptions.
+- baseURL: https://api.codat.io
+  baseurl_source: declared
+  description: Manage webhook consumers for event subscriptions.
   name: Codat Webhooks API
   slug: codat-io-webhooks-api
 artifact_total: 34
@@ -233,7 +259,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/screenshots/codat-io-2026-07-25T205918.png
 security:

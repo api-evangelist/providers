@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 21 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: OAuth2 client-credentials token issuance.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: OAuth2 client-credentials token issuance.
   name: RecVue Authentication API
   slug: recvue-authentication-api
-- description: Bill runs and invoice generation.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Bill runs and invoice generation.
   name: RecVue Billing API
   slug: recvue-billing-api
-- description: Dated billing schedule records.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Dated billing schedule records.
   name: RecVue Billing Schedules API
   slug: recvue-billing-schedules-api
-- description: Customer accounts, sites, and contacts.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Customer accounts, sites, and contacts.
   name: RecVue Customers API
   slug: recvue-customers-api
-- description: Invoices and adjustments (AR integration).
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Invoices and adjustments (AR integration).
   name: RecVue Invoices API
   slug: recvue-invoices-api
-- description: Order and order-line lifecycle (order-to-cash).
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Order and order-line lifecycle (order-to-cash).
   name: RecVue Orders API
   slug: recvue-orders-api
-- description: Price lists, tier pricing, and pricing rules.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Price lists, tier pricing, and pricing rules.
   name: RecVue Pricing API
   slug: recvue-pricing-api
-- description: Asynchronous concurrent programs (bill runs, revenue, exports).
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Asynchronous concurrent programs (bill runs, revenue, exports).
   name: RecVue Programs API
   slug: recvue-programs-api
-- description: ASC 606 / IFRS 15 revenue-contract configuration.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: ASC 606 / IFRS 15 revenue-contract configuration.
   name: RecVue Revenue Recognition API
   slug: recvue-revenue-recognition-api
-- description: Usage/delivery ingestion for consumption billing.
+- baseURL: https://api.recvue.com/api/v2.0
+  baseurl_source: declared
+  description: Usage/delivery ingestion for consumption billing.
   name: RecVue Usage API
   slug: recvue-usage-api
 artifact_total: 27
@@ -178,7 +198,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -201,8 +221,9 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/screenshots/recvue-2026-09-02T153111.png
 security:
 - kind: authentication
   name: Recvue Authentication

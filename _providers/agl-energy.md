@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -33,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 5 acting
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: AGL Energy Data Holder Customers API
   slug: agl-energy-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: AGL Energy Data Holder Operations API
   slug: agl-energy-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: AGL Energy Distributed Energy Resources API
   slug: agl-energy-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: AGL Energy Electricity Service Points API
   slug: agl-energy-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: AGL Energy Electricity Usage API
   slug: agl-energy-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: AGL Energy Energy Account Balances API
   slug: agl-energy-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: AGL Energy Energy Account Billing API
   slug: agl-energy-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: AGL Energy Energy Accounts API
   slug: agl-energy-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://public.cdr.agl.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: AGL Energy Energy Plans API
   slug: agl-energy-energy-plans-api
 artifact_total: 17
@@ -245,7 +274,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

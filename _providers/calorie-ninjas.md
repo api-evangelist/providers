@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The Imagetextnutrition API from CalorieNinjas — 1 operation(s) for imagetextnutrition.
+- baseURL: https://api.calorieninjas.com/v1
+  baseurl_source: declared
+  description: The Imagetextnutrition API from CalorieNinjas — 1 operation(s) for imagetextnutrition.
   name: CalorieNinjas Imagetextnutrition API
   slug: calorie-ninjas-imagetextnutrition-api
-- description: The Nutrition API from CalorieNinjas — 1 operation(s) for nutrition.
+- baseURL: https://api.calorieninjas.com/v1
+  baseurl_source: declared
+  description: The Nutrition API from CalorieNinjas — 1 operation(s) for nutrition.
   name: CalorieNinjas Nutrition API
   slug: calorie-ninjas-nutrition-api
-- description: The Recipe API from CalorieNinjas — 1 operation(s) for recipe.
+- baseURL: https://api.calorieninjas.com/v1
+  baseurl_source: declared
+  description: The Recipe API from CalorieNinjas — 1 operation(s) for recipe.
   name: CalorieNinjas Recipe API
   slug: calorie-ninjas-recipe-api
 artifact_total: 14
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/screenshots/calorie-ninjas-2026-06-20T173849.png
 security:

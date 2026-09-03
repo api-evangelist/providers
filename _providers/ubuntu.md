@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,40 +59,64 @@ apis:
 - description: Application modeling and deployment API supporting automated deployment, scaling, and management of applications across clouds and bare metal.
   name: Juju API
   slug: juju-api
-- description: Bug tracking and management
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Bug tracking and management
   name: Ubuntu Bugs API
   slug: ubuntu-bugs-api
-- description: Snap category listings
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Snap category listings
   name: Ubuntu Categories API
   slug: ubuntu-categories-api
-- description: CVE security vulnerabilities
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: CVE security vulnerabilities
   name: Ubuntu CVEs API
   slug: ubuntu-cves-api
-- description: Ubuntu distribution resources
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Ubuntu distribution resources
   name: Ubuntu Distributions API
   slug: ubuntu-distributions-api
-- description: Snap information and details
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Snap information and details
   name: Ubuntu Info API
   slug: ubuntu-info-api
-- description: Snap usage metrics
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Snap usage metrics
   name: Ubuntu Metrics API
   slug: ubuntu-metrics-api
-- description: Ubuntu Security Notices
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Ubuntu Security Notices
   name: Ubuntu Notices API
   slug: ubuntu-notices-api
-- description: Distribution package management
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Distribution package management
   name: Ubuntu Packages API
   slug: ubuntu-packages-api
-- description: People and team resources
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: People and team resources
   name: Ubuntu People API
   slug: ubuntu-people-api
-- description: Open-source project resources
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Open-source project resources
   name: Ubuntu Projects API
   slug: ubuntu-projects-api
-- description: Snap update and refresh operations
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Snap update and refresh operations
   name: Ubuntu Refresh API
   slug: ubuntu-refresh-api
-- description: Snap search and discovery
+- baseURL: https://api.launchpad.net/1.0
+  baseurl_source: declared
+  description: Snap search and discovery
   name: Ubuntu Search API
   slug: ubuntu-search-api
 artifact_total: 47
@@ -262,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/screenshots/ubuntu-2026-06-20T195936.png
 security:

@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: List, create, delete and merge branches
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: List, create, delete and merge branches
   name: Testim Io Branches API
   slug: testim-io-branches-api
-- description: Get execution results
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: Get execution results
   name: Testim Io Executions API
   slug: testim-io-executions-api
-- description: Execute labels
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: Execute labels
   name: Testim Io Labels API
   slug: testim-io-labels-api
-- description: The Mobile Applications API from Testim Io — 2 operation(s) for mobile applications.
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: The Mobile Applications API from Testim Io — 2 operation(s) for mobile applications.
   name: Testim Io Mobile Applications API
   slug: testim-io-mobile-applications-api
-- description: Search suites by name, and execute suites
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: Search suites by name, and execute suites
   name: Testim Io Suites API
   slug: testim-io-suites-api
-- description: Search test plans by name, and execute test plans
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: Search test plans by name, and execute test plans
   name: Testim Io Test plans API
   slug: testim-io-test-plans-api
-- description: List tests by branch, search by test name, and execute tests
+- baseURL: https://api.testim.io
+  baseurl_source: declared
+  description: List tests by branch, search by test name, and execute tests
   name: Testim Io Tests API
   slug: testim-io-tests-api
 artifact_total: 19
@@ -230,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/screenshots/testim-io-2026-08-17T082328.png
 security:

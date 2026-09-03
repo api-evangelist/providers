@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Post categories
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: Post categories
   name: DalCor Pharmaceuticals Categories API
   slug: dalcor-pharmaceuticals-categories-api
-- description: Comments on posts (collection is empty on this site)
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: Comments on posts (collection is empty on this site)
   name: DalCor Pharmaceuticals Comments API
   slug: dalcor-pharmaceuticals-comments-api
-- description: Site index, namespace route index, content types, taxonomies and statuses
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: Site index, namespace route index, content types, taxonomies and statuses
   name: DalCor Pharmaceuticals Discovery API
   slug: dalcor-pharmaceuticals-discovery-api
-- description: Media library items (logos, poster PDFs/JPEGs, trial imagery)
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: Media library items (logos, poster PDFs/JPEGs, trial imagery)
   name: DalCor Pharmaceuticals Media API
   slug: dalcor-pharmaceuticals-media-api
-- description: Corporate, science and clinical-trial pages
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: Corporate, science and clinical-trial pages
   name: DalCor Pharmaceuticals Pages API
   slug: dalcor-pharmaceuticals-pages-api
-- description: DalCor press releases and corporate news
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: DalCor press releases and corporate news
   name: DalCor Pharmaceuticals Posts API
   slug: dalcor-pharmaceuticals-posts-api
-- description: Cross-content search
+- baseURL: https://dalcorpharma.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search
   name: DalCor Pharmaceuticals Search API
   slug: dalcor-pharmaceuticals-search-api
 artifact_total: 17
@@ -196,7 +221,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -206,7 +231,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 19.0
   provenance:
     conformance: derived
     contracts:
@@ -222,8 +247,8 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dalcor-pharmaceuticals/refs/heads/main/screenshots/dalcor-pharmaceuticals-2026-08-07T164031.png
 security:
 - kind: authentication

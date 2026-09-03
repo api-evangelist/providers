@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,31 +44,49 @@ agentic_access:
   summary_line: 58 operations · 6 acting
 api_count: 2
 apis:
-- description: '- Partial Address Matching'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Partial Address Matching'
   name: TwentyCi Address Match API
   slug: twentyci-address-match-api
-- description: '- Agent Performance based on Sales Data - Agent Performance based on Rental Data'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Agent Performance based on Sales Data - Agent Performance based on Rental Data'
   name: TwentyCi Agent Performance API
   slug: twentyci-agent-performance-api
-- description: Bearer-token issuance for TwentyAPI.
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: Bearer-token issuance for TwentyAPI.
   name: TwentyCi Authorisation API
   slug: twentyci-authorisation-api
-- description: '- Obtain a List of Categories for a Property - Obtain a Specific Categories for a Property'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Obtain a List of Categories for a Property - Obtain a Specific Categories for a Property'
   name: TwentyCi Categories API
   slug: twentyci-categories-api
-- description: '- Property Information by Pagination - Properties Information by UPRN - Properties Details by UPRN - Recent Property Sales in the Area - Similar properties for sale in the area - Average Property Valu'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Property Information by Pagination - Properties Information by UPRN - Properties Details by UPRN - Recent Property Sales in the Area - Similar properties for sale in the area - Average Property Valu'
   name: TwentyCi Properties API
   slug: twentyci-properties-api
-- description: '- Nearby Schools by Postcode'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Nearby Schools by Postcode'
   name: TwentyCi Schools API
   slug: twentyci-schools-api
-- description: '- Local Search - National Search'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Local Search - National Search'
   name: TwentyCi This is Now | Retail Propensity To Buy Goods API
   slug: twentyci-this-is-now-retail-propensity-to-buy-goods-api
-- description: '- Obtain a Specific Trigger - Get Properties by Trigger Type - Get no UPRN Properties by Trigger Type - Trigger History'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- Obtain a Specific Trigger - Get Properties by Trigger Type - Get no UPRN Properties by Trigger Type - Trigger History'
   name: TwentyCi Trigger Information API
   slug: twentyci-trigger-information-api
-- description: '- New Instructions, SSTC''s and PCD''s for a Specific Timeframe'
+- baseURL: https://api.twentyci.co.uk
+  baseurl_source: declared
+  description: '- New Instructions, SSTC''s and PCD''s for a Specific Timeframe'
   name: TwentyCi UK Housing Market Metrics API
   slug: twentyci-uk-housing-market-metrics-api
 artifact_total: 16
@@ -236,7 +265,7 @@ score:
   band: thin
   composite: 30.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -262,8 +291,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/screenshots/twentyci-2026-09-02T164620.png
 security:
 - kind: authentication
   name: Twentyci Authentication

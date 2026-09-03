@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,61 +36,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The Accounts API from Copper.co — 1 operation(s) for accounts.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The Accounts API from Copper.co — 1 operation(s) for accounts.
   name: Copper.co Accounts API
   slug: copper-co-accounts-api
-- description: The address-book API from Copper.co — 2 operation(s) for address-book.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The address-book API from Copper.co — 2 operation(s) for address-book.
   name: Copper.co Address Book API
   slug: copper-co-address-book-api
-- description: The blockchain API from Copper.co — 1 operation(s) for blockchain.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The blockchain API from Copper.co — 1 operation(s) for blockchain.
   name: Copper.co Blockchain API
   slug: copper-co-blockchain-api
-- description: The clearloop API from Copper.co — 9 operation(s) for clearloop.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The clearloop API from Copper.co — 9 operation(s) for clearloop.
   name: Copper.co Clearloop API
   slug: copper-co-clearloop-api
-- description: The currencies API from Copper.co — 3 operation(s) for currencies.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The currencies API from Copper.co — 3 operation(s) for currencies.
   name: Copper.co Currencies API
   slug: copper-co-currencies-api
-- description: The deposit-targets API from Copper.co — 2 operation(s) for deposit-targets.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The deposit-targets API from Copper.co — 2 operation(s) for deposit-targets.
   name: Copper.co Deposit Targets API
   slug: copper-co-deposit-targets-api
-- description: The Exchange API from Copper.co — 1 operation(s) for exchange.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The Exchange API from Copper.co — 1 operation(s) for exchange.
   name: Copper.co Exchange API
   slug: copper-co-exchange-api
-- description: The files API from Copper.co — 1 operation(s) for files.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The files API from Copper.co — 1 operation(s) for files.
   name: Copper.co Files API
   slug: copper-co-files-api
-- description: The lending API from Copper.co — 34 operation(s) for lending.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The lending API from Copper.co — 34 operation(s) for lending.
   name: Copper.co Lending API
   slug: copper-co-lending-api
-- description: The network API from Copper.co — 1 operation(s) for network.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The network API from Copper.co — 1 operation(s) for network.
   name: Copper.co Network API
   slug: copper-co-network-api
-- description: The orders API from Copper.co — 8 operation(s) for orders.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The orders API from Copper.co — 8 operation(s) for orders.
   name: Copper.co Orders API
   slug: copper-co-orders-api
-- description: The organizations API from Copper.co — 3 operation(s) for organizations.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The organizations API from Copper.co — 3 operation(s) for organizations.
   name: Copper.co Organizations API
   slug: copper-co-organizations-api
-- description: The portfolios API from Copper.co — 2 operation(s) for portfolios.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The portfolios API from Copper.co — 2 operation(s) for portfolios.
   name: Copper.co Portfolios API
   slug: copper-co-portfolios-api
-- description: The reports API from Copper.co — 6 operation(s) for reports.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The reports API from Copper.co — 6 operation(s) for reports.
   name: Copper.co Reports API
   slug: copper-co-reports-api
-- description: The Sign Async API from Copper.co — 2 operation(s) for sign async.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The Sign Async API from Copper.co — 2 operation(s) for sign async.
   name: Copper.co Sign Async API
   slug: copper-co-sign-async-api
-- description: The stake API from Copper.co — 3 operation(s) for stake.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The stake API from Copper.co — 3 operation(s) for stake.
   name: Copper.co Stake API
   slug: copper-co-stake-api
-- description: The trades API from Copper.co — 19 operation(s) for trades.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The trades API from Copper.co — 19 operation(s) for trades.
   name: Copper.co Trades API
   slug: copper-co-trades-api
-- description: The wallets API from Copper.co — 2 operation(s) for wallets.
+- baseURL: https://api.copper.co/platform
+  baseurl_source: declared
+  description: The wallets API from Copper.co — 2 operation(s) for wallets.
   name: Copper.co Wallets API
   slug: copper-co-wallets-api
 artifact_total: 44
@@ -312,7 +361,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -322,7 +371,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 54.8
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
@@ -339,7 +388,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper-co/refs/heads/main/screenshots/copper-co-2026-08-07T163810.png
 security:

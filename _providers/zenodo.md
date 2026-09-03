@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 99 operations · 42 acting
 api_count: 1
 apis:
-- description: Open Archives Initiative Protocol for Metadata Harvesting endpoint that allows bulk harvesting of Zenodo metadata in formats including oai_dc, marcxml, and oai_datacite4. Supports selective harvesting
+- baseURL: https://zenodo.org/oai2d
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting endpoint that allows bulk harvesting of Zenodo metadata in formats including oai_dc, marcxml, and oai_datacite4. Supports selective harvesting
   name: Zenodo OAI-PMH API
   slug: zenodo-oai-pmh-api
-- description: Access control and sharing
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Access control and sharing
   name: Zenodo Access API
   slug: zenodo-access-api
-- description: Audit log entries and search
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Audit log entries and search
   name: Zenodo Audit Logs API
   slug: zenodo-audit-logs-api
-- description: User and group avatars
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: User and group avatars
   name: Zenodo Avatars API
   slug: zenodo-avatars-api
-- description: Request comments and discussions
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Request comments and discussions
   name: Zenodo Comments API
   slug: zenodo-comments-api
-- description: Community management endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Community management endpoints
   name: Zenodo Communities API
   slug: zenodo-communities-api
-- description: Community invitation management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Community invitation management
   name: Zenodo Communities Invitations API
   slug: zenodo-communities-invitations-api
-- description: Community logo management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Community logo management
   name: Zenodo Communities logo API
   slug: zenodo-communities-logo-api
-- description: Community membership management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Community membership management
   name: Zenodo Communities Members API
   slug: zenodo-communities-members-api
-- description: Draft record management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Draft record management
   name: Zenodo Drafts API
   slug: zenodo-drafts-api
-- description: Draft file upload workflow
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Draft file upload workflow
   name: Zenodo Drafts Files upload API
   slug: zenodo-drafts-files-upload-api
-- description: Record export functionality
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Record export functionality
   name: Zenodo Export API
   slug: zenodo-export-api
-- description: Featured communities management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Featured communities management
   name: Zenodo Featured Communities API
   slug: zenodo-featured-communities-api
-- description: Group management endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Group management endpoints
   name: Zenodo Groups API
   slug: zenodo-groups-api
-- description: OAI-PMH protocol endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: OAI-PMH protocol endpoints
   name: Zenodo OAI-PMH API
   slug: zenodo-oai-pmh-api
-- description: OAI-PMH set management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: OAI-PMH set management
   name: Zenodo OAI-PMH Sets API
   slug: zenodo-oai-pmh-sets-api
-- description: Record and draft management endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Record and draft management endpoints
   name: Zenodo Records API
   slug: zenodo-records-api
-- description: File management operations on published records
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: File management operations on published records
   name: Zenodo Records Files API
   slug: zenodo-records-files-api
-- description: Record version management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Record version management
   name: Zenodo Records Versions API
   slug: zenodo-records-versions-api
-- description: Request actions and lifecycle management
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Request actions and lifecycle management
   name: Zenodo Request Actions API
   slug: zenodo-request-actions-api
-- description: Request management endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Request management endpoints
   name: Zenodo Requests API
   slug: zenodo-requests-api
-- description: Statistics and analytics endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Statistics and analytics endpoints
   name: Zenodo Statistics API
   slug: zenodo-statistics-api
-- description: Request timeline and history
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Request timeline and history
   name: Zenodo Timeline API
   slug: zenodo-timeline-api
-- description: User management endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: User management endpoints
   name: Zenodo Users API
   slug: zenodo-users-api
-- description: Vocabulary and controlled terms endpoints
+- baseURL: https://zenodo.org/api
+  baseurl_source: declared
+  description: Vocabulary and controlled terms endpoints
   name: Zenodo Vocabularies API
   slug: zenodo-vocabularies-api
 artifact_total: 60
@@ -362,7 +412,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenodo/refs/heads/main/screenshots/zenodo-2026-06-20T201814.png
 security:

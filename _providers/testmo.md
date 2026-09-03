@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 23 operations · 7 acting
 api_count: 1
 apis:
-- description: Automation runs submitted from CI/CD, with aggregated statistics.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Automation runs submitted from CI/CD, with aggregated statistics.
   name: Testmo Automation Runs API
   slug: testmo-automation-runs-api
-- description: Automation sources grouping runs, with aggregated metrics.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Automation sources grouping runs, with aggregated metrics.
   name: Testmo Automation Sources API
   slug: testmo-automation-sources-api
-- description: Milestones and their linked run and session statistics.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Milestones and their linked run and session statistics.
   name: Testmo Milestones API
   slug: testmo-milestones-api
-- description: Top-level projects that contain runs, sessions, milestones, and cases.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Top-level projects that contain runs, sessions, milestones, and cases.
   name: Testmo Projects API
   slug: testmo-projects-api
-- description: Exploratory test sessions and session note statistics.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Exploratory test sessions and session note statistics.
   name: Testmo Sessions API
   slug: testmo-sessions-api
-- description: Beta read/write API for cases, folders, and attachments.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Beta read/write API for cases, folders, and attachments.
   name: Testmo Test Case Management API
   slug: testmo-test-case-management-api
-- description: Manual test runs and their individual results.
+- baseURL: https://{instance}.testmo.net/api/v1
+  baseurl_source: declared
+  description: Manual test runs and their individual results.
   name: Testmo Test Runs API
   slug: testmo-test-runs-api
 artifact_total: 21
@@ -160,7 +174,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -183,8 +197,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/testmo/refs/heads/main/screenshots/testmo-2026-09-02T163235.png
 security:
 - kind: authentication
   name: Testmo Authentication

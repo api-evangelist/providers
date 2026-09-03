@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The Pendo Engage API provides programmatic access to product analytics data and in-app guide management — visitors, accounts, features, pages, guides, reports, metadata, and aggregations. Used to push
   name: Pendo Engage API
   slug: engage-api
-- description: The Accounts API from Pendo — 1 operation(s) for accounts.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Accounts API from Pendo — 1 operation(s) for accounts.
   name: Pendo Accounts API
   slug: pendo-accounts-api
-- description: The Features API from Pendo — 2 operation(s) for features.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Features API from Pendo — 2 operation(s) for features.
   name: Pendo Features API
   slug: pendo-features-api
-- description: The Guides API from Pendo — 2 operation(s) for guides.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Guides API from Pendo — 2 operation(s) for guides.
   name: Pendo Guides API
   slug: pendo-guides-api
-- description: The Metadata API from Pendo — 2 operation(s) for metadata.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Metadata API from Pendo — 2 operation(s) for metadata.
   name: Pendo Metadata API
   slug: pendo-metadata-api
-- description: The Pages API from Pendo — 2 operation(s) for pages.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Pages API from Pendo — 2 operation(s) for pages.
   name: Pendo Pages API
   slug: pendo-pages-api
-- description: The Reports API from Pendo — 3 operation(s) for reports.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Reports API from Pendo — 3 operation(s) for reports.
   name: Pendo Reports API
   slug: pendo-reports-api
-- description: The Visitors API from Pendo — 1 operation(s) for visitors.
+- baseURL: https://app.pendo.io/api/v1
+  baseurl_source: declared
+  description: The Visitors API from Pendo — 1 operation(s) for visitors.
   name: Pendo Visitors API
   slug: pendo-visitors-api
 artifact_total: 24
@@ -206,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendo/refs/heads/main/screenshots/pendo-2026-06-20T191536.png
 security:

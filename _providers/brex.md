@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 17 operations · 9 acting
 api_count: 3
 apis:
-- description: The Budget Programs API from Brex — 2 operation(s) for budget programs.
+- baseURL: https://platform.brexapis.com
+  baseurl_source: spec
+  description: The Budget Programs API from Brex — 2 operation(s) for budget programs.
   name: Brex Budget Programs API
   slug: brex-budget-programs-api
-- description: The Budgets API from Brex — 6 operation(s) for budgets.
+- baseURL: https://platform.brexapis.com
+  baseurl_source: spec
+  description: The Budgets API from Brex — 6 operation(s) for budgets.
   name: Brex Budgets API
   slug: brex-budgets-api
-- description: The Spend Limits API from Brex — 3 operation(s) for spend limits.
+- baseURL: https://platform.brexapis.com
+  baseurl_source: spec
+  description: The Spend Limits API from Brex — 3 operation(s) for spend limits.
   name: Brex Spend Limits API
   slug: brex-spend-limits-api
 artifact_total: 17
@@ -182,7 +188,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 21 operations · 14 acting
 api_count: 2
 apis:
-- description: The Authentication API from Thumbtack — 1 operation(s) for authentication.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Authentication API from Thumbtack — 1 operation(s) for authentication.
   name: Thumbtack Authentication API
   slug: thumbtack-authentication-api
-- description: The Autocomplete API from Thumbtack — 1 operation(s) for autocomplete.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Autocomplete API from Thumbtack — 1 operation(s) for autocomplete.
   name: Thumbtack Autocomplete API
   slug: thumbtack-autocomplete-api
-- description: The Categories API from Thumbtack — 2 operation(s) for categories.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Categories API from Thumbtack — 2 operation(s) for categories.
   name: Thumbtack Categories API
   slug: thumbtack-categories-api
-- description: The Leads API from Thumbtack — 2 operation(s) for leads.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Leads API from Thumbtack — 2 operation(s) for leads.
   name: Thumbtack Leads API
   slug: thumbtack-leads-api
-- description: The Messages API from Thumbtack — 2 operation(s) for messages.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Messages API from Thumbtack — 2 operation(s) for messages.
   name: Thumbtack Messages API
   slug: thumbtack-messages-api
-- description: The Orders API from Thumbtack — 2 operation(s) for orders.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Orders API from Thumbtack — 2 operation(s) for orders.
   name: Thumbtack Orders API
   slug: thumbtack-orders-api
-- description: The Pro Profiles API from Thumbtack — 4 operation(s) for pro profiles.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Pro Profiles API from Thumbtack — 4 operation(s) for pro profiles.
   name: Thumbtack Pro Profiles API
   slug: thumbtack-pro-profiles-api
-- description: The Pros API from Thumbtack — 2 operation(s) for pros.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Pros API from Thumbtack — 2 operation(s) for pros.
   name: Thumbtack Pros API
   slug: thumbtack-pros-api
-- description: The Reviews API from Thumbtack — 1 operation(s) for reviews.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Reviews API from Thumbtack — 1 operation(s) for reviews.
   name: Thumbtack Reviews API
   slug: thumbtack-reviews-api
-- description: The Testing API from Thumbtack — 1 operation(s) for testing.
+- baseURL: https://api.thumbtack.com
+  baseurl_source: declared
+  description: The Testing API from Thumbtack — 1 operation(s) for testing.
   name: Thumbtack Testing API
   slug: thumbtack-testing-api
 artifact_total: 28
@@ -189,7 +209,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -212,8 +232,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/screenshots/thumbtack-2026-09-02T163644.png
 security:
 - kind: authentication
   name: Thumbtack Authentication

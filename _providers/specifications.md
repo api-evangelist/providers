@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 13
 apis:
 - description: The OpenAPI Specification (formerly Swagger) is the dominant industry standard for describing HTTP-based RESTful APIs. OAS describes endpoints, operations, parameters, request/response schemas, authen
@@ -290,7 +290,7 @@ score:
     score: 65.0
   previous_composite: 26.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/screenshots/specifications-2026-06-20T194256.png
 security:

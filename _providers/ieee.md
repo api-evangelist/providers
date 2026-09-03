@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Full-text retrieval endpoint for chargeable IEEE articles accessible to institutional subscribers. Returns complete article content for documents covered under an organization's IEEE Xplore subscripti
   name: IEEE Xplore Full-Text Access API
   slug: ieee-xplore-full-text-access-api
-- description: Query and retrieve metadata records and abstracts for IEEE documents
+- baseURL: https://ieeexploreapi.ieee.org/api/v1/search/articles
+  baseurl_source: declared
+  description: Query and retrieve metadata records and abstracts for IEEE documents
   name: IEEE Xplore Metadata Search API
   slug: ieee-metadata-search-api
 artifact_total: 39
@@ -244,7 +246,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ieee/refs/heads/main/screenshots/ieee-2026-06-20T183213.png
 security:

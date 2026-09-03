@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -47,22 +47,34 @@ apis:
 - description: Secure, licensed distribution of manufacturer-certified parts for distributed (point-of-need) manufacturing. Built on the Markforged platform (ISO 27001 certified); no separate public developer API is
   name: Markforged Digital Source
   slug: digital-source
-- description: The Builds API from Markforged — 5 operation(s) for builds.
+- baseURL: https://www.eiger.io/api/v3
+  baseurl_source: declared
+  description: The Builds API from Markforged — 5 operation(s) for builds.
   name: Markforged Builds API
   slug: markforged-builds-api
-- description: The Devices API from Markforged — 4 operation(s) for devices.
+- baseURL: https://www.eiger.io/api/v3
+  baseurl_source: declared
+  description: The Devices API from Markforged — 4 operation(s) for devices.
   name: Markforged Devices API
   slug: markforged-devices-api
-- description: The Organizations API from Markforged — 3 operation(s) for organizations.
+- baseURL: https://www.eiger.io/api/v3
+  baseurl_source: declared
+  description: The Organizations API from Markforged — 3 operation(s) for organizations.
   name: Markforged Organizations API
   slug: markforged-organizations-api
-- description: The Parts API from Markforged — 6 operation(s) for parts.
+- baseURL: https://www.eiger.io/api/v3
+  baseurl_source: declared
+  description: The Parts API from Markforged — 6 operation(s) for parts.
   name: Markforged Parts API
   slug: markforged-parts-api
-- description: The Print Jobs API from Markforged — 3 operation(s) for print jobs.
+- baseURL: https://www.eiger.io/api/v3
+  baseurl_source: declared
+  description: The Print Jobs API from Markforged — 3 operation(s) for print jobs.
   name: Markforged Print Jobs API
   slug: markforged-print-jobs-api
-- description: The Printed Parts API from Markforged — 3 operation(s) for printed parts.
+- baseURL: https://www.eiger.io/api/v3
+  baseurl_source: declared
+  description: The Printed Parts API from Markforged — 3 operation(s) for printed parts.
   name: Markforged Printed Parts API
   slug: markforged-printed-parts-api
 artifact_total: 21
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/markforged/refs/heads/main/screenshots/markforged-2026-06-20T184959.png
 security:

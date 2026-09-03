@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 6 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Reusable credential designs badges are issued against.
+- baseURL: https://api.credly.com/v1
+  baseurl_source: declared
+  description: Reusable credential designs badges are issued against.
   name: Credly Badge Templates API
   slug: credly-badge-templates-api
-- description: Organization event feed (mirrors webhook events).
+- baseURL: https://api.credly.com/v1
+  baseurl_source: declared
+  description: Organization event feed (mirrors webhook events).
   name: Credly Events API
   slug: credly-events-api
-- description: Badges issued to recipients from a badge template.
+- baseURL: https://api.credly.com/v1
+  baseurl_source: declared
+  description: Badges issued to recipients from a badge template.
   name: Credly Issued Badges API
   slug: credly-issued-badges-api
-- description: Open Badges Infrastructure endpoints for public verification.
+- baseURL: https://api.credly.com/v1
+  baseurl_source: declared
+  description: Open Badges Infrastructure endpoints for public verification.
   name: Credly OBI Recipients API
   slug: credly-obi-recipients-api
-- description: Organization details and employees directory.
+- baseURL: https://api.credly.com/v1
+  baseurl_source: declared
+  description: Organization details and employees directory.
   name: Credly Organizations API
   slug: credly-organizations-api
 artifact_total: 19
@@ -180,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/screenshots/credly-2026-07-25T210721.png
 security:

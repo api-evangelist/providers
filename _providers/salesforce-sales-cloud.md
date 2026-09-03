@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -56,130 +56,214 @@ apis:
 - description: gRPC-based API for publishing and subscribing to platform events, change data capture events, and real-time event monitoring events. Uses Apache Avro format for efficient binary event message delivery
   name: Salesforce Pub/Sub API
   slug: salesforce-pubsub-api
-- description: Change event metadata and schema operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Change event metadata and schema operations
   name: Salesforce Sales Cloud Change Events API
   slug: salesforce-sales-cloud-change-events-api
-- description: Community (Experience Cloud) operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Community (Experience Cloud) operations
   name: Salesforce Sales Cloud Communities API
   slug: salesforce-sales-cloud-communities-api
-- description: Apex code completions
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Apex code completions
   name: Salesforce Sales Cloud Completions API
   slug: salesforce-sales-cloud-completions-api
-- description: Custom Apex REST endpoints defined by @RestResource annotated classes
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Custom Apex REST endpoints defined by @RestResource annotated classes
   name: Salesforce Sales Cloud Custom Endpoints API
   slug: salesforce-sales-cloud-custom-endpoints-api
-- description: Operations for listing, describing, and refreshing dashboards
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Operations for listing, describing, and refreshing dashboards
   name: Salesforce Sales Cloud Dashboards API
   slug: salesforce-sales-cloud-dashboards-api
-- description: Retrieve event schema definitions
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Retrieve event schema definitions
   name: Salesforce Sales Cloud Event Schema API
   slug: salesforce-sales-cloud-event-schema-api
-- description: Execute anonymous Apex code
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Execute anonymous Apex code
   name: Salesforce Sales Cloud Execute Anonymous API
   slug: salesforce-sales-cloud-execute-anonymous-api
-- description: Individual feed item operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Individual feed item operations
   name: Salesforce Sales Cloud Feed Items API
   slug: salesforce-sales-cloud-feed-items-api
-- description: Chatter feed operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Chatter feed operations
   name: Salesforce Sales Cloud Feeds API
   slug: salesforce-sales-cloud-feeds-api
-- description: File sharing and management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: File sharing and management
   name: Salesforce Sales Cloud Files API
   slug: salesforce-sales-cloud-files-api
-- description: Chatter group operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Chatter group operations
   name: Salesforce Sales Cloud Groups API
   slug: salesforce-sales-cloud-groups-api
-- description: Upload CSV data to ingest jobs and retrieve results
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Upload CSV data to ingest jobs and retrieve results
   name: Salesforce Sales Cloud Ingest Data API
   slug: salesforce-sales-cloud-ingest-data-api
-- description: Create and manage bulk ingest jobs for insert, update, upsert, and delete operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Create and manage bulk ingest jobs for insert, update, upsert, and delete operations
   name: Salesforce Sales Cloud Ingest Jobs API
   slug: salesforce-sales-cloud-ingest-jobs-api
-- description: Page layout metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Page layout metadata
   name: Salesforce Sales Cloud Layouts API
   slug: salesforce-sales-cloud-layouts-api
-- description: Org limits and usage information
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Org limits and usage information
   name: Salesforce Sales Cloud Limits API
   slug: salesforce-sales-cloud-limits-api
-- description: List view metadata and records
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: List view metadata and records
   name: Salesforce Sales Cloud List Views API
   slug: salesforce-sales-cloud-list-views-api
-- description: Lookup field search
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Lookup field search
   name: Salesforce Sales Cloud Lookups API
   slug: salesforce-sales-cloud-lookups-api
-- description: Object and field metadata for UI rendering
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Object and field metadata for UI rendering
   name: Salesforce Sales Cloud Object Info API
   slug: salesforce-sales-cloud-object-info-api
-- description: Picklist field values with record type awareness
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Picklist field values with record type awareness
   name: Salesforce Sales Cloud Picklist Values API
   slug: salesforce-sales-cloud-picklist-values-api
-- description: Process approval operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Process approval operations
   name: Salesforce Sales Cloud Process Approvals API
   slug: salesforce-sales-cloud-process-approvals-api
-- description: SOQL query execution
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: SOQL query execution
   name: Salesforce Sales Cloud Query API
   slug: salesforce-sales-cloud-query-api
-- description: Create and manage bulk query jobs for extracting large data sets
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Create and manage bulk query jobs for extracting large data sets
   name: Salesforce Sales Cloud Query Jobs API
   slug: salesforce-sales-cloud-query-jobs-api
-- description: Retrieve results from completed query jobs
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Retrieve results from completed query jobs
   name: Salesforce Sales Cloud Query Results API
   slug: salesforce-sales-cloud-query-results-api
-- description: Recently viewed items
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Recently viewed items
   name: Salesforce Sales Cloud Recently Viewed API
   slug: salesforce-sales-cloud-recently-viewed-api
-- description: Complete record page data including layout and metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Complete record page data including layout and metadata
   name: Salesforce Sales Cloud Record UI API
   slug: salesforce-sales-cloud-record-ui-api
-- description: Record CRUD operations with UI metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Record CRUD operations with UI metadata
   name: Salesforce Sales Cloud Records API
   slug: salesforce-sales-cloud-records-api
-- description: Asynchronous report execution and results retrieval
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Asynchronous report execution and results retrieval
   name: Salesforce Sales Cloud Report Instances API
   slug: salesforce-sales-cloud-report-instances-api
-- description: Report type metadata and discovery
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Report type metadata and discovery
   name: Salesforce Sales Cloud Report Types API
   slug: salesforce-sales-cloud-report-types-api
-- description: Operations for listing, describing, and running reports
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Operations for listing, describing, and running reports
   name: Salesforce Sales Cloud Reports API
   slug: salesforce-sales-cloud-reports-api
-- description: Available REST resources for a given API version
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Available REST resources for a given API version
   name: Salesforce Sales Cloud Resources API
   slug: salesforce-sales-cloud-resources-api
-- description: Execute Apex tests
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Execute Apex tests
   name: Salesforce Sales Cloud Run Tests API
   slug: salesforce-sales-cloud-run-tests-api
-- description: SOSL search execution
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: SOSL search execution
   name: Salesforce Sales Cloud Search API
   slug: salesforce-sales-cloud-search-api
-- description: Operations on Salesforce standard and custom objects
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Operations on Salesforce standard and custom objects
   name: Salesforce Sales Cloud SObject API
   slug: salesforce-sales-cloud-sobject-api
-- description: Bulk CRUD on collections of same-type records
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Bulk CRUD on collections of same-type records
   name: Salesforce Sales Cloud SObject Collections API
   slug: salesforce-sales-cloud-sobject-collections-api
-- description: Metadata description of sObjects
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Metadata description of sObjects
   name: Salesforce Sales Cloud SObject Describe API
   slug: salesforce-sales-cloud-sobject-describe-api
-- description: CRUD operations on individual sObject records
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CRUD operations on individual sObject records
   name: Salesforce Sales Cloud SObject Rows API
   slug: salesforce-sales-cloud-sobject-rows-api
-- description: Tab metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Tab metadata
   name: Salesforce Sales Cloud Tabs API
   slug: salesforce-sales-cloud-tabs-api
-- description: Theme information
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Theme information
   name: Salesforce Sales Cloud Themes API
   slug: salesforce-sales-cloud-themes-api
-- description: Execute SOQL queries against Tooling API objects
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Execute SOQL queries against Tooling API objects
   name: Salesforce Sales Cloud Tooling Query API
   slug: salesforce-sales-cloud-tooling-query-api
-- description: Metadata about Tooling API sObjects
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Metadata about Tooling API sObjects
   name: Salesforce Sales Cloud Tooling SObject Describe API
   slug: salesforce-sales-cloud-tooling-sobject-describe-api
-- description: CRUD operations on Tooling API sObjects
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CRUD operations on Tooling API sObjects
   name: Salesforce Sales Cloud Tooling SObjects API
   slug: salesforce-sales-cloud-tooling-sobjects-api
-- description: User profile and photo operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: User profile and photo operations
   name: Salesforce Sales Cloud Users API
   slug: salesforce-sales-cloud-users-api
 arazzos:
@@ -921,18 +1005,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.5
+  composite: 51.7
   coverage:
     artifact_dirs: 21
     catalog_gap: 69.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 25.0
-    contract_quality: 68.8
+    contract_quality: 69.6
     developer_ergonomics: 76.2
     discoverability: 48.1
     governance: 25.0
@@ -946,7 +1030,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:

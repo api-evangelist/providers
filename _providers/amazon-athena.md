@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 32 operations · 32 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations for managing data catalogs
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data catalogs
   name: Amazon Athena Data Catalogs API
   slug: amazon-athena-data-catalogs-api
-- description: Operations for listing databases in a data catalog
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for listing databases in a data catalog
   name: Amazon Athena Databases API
   slug: amazon-athena-databases-api
-- description: Operations for creating and managing saved SQL queries
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing saved SQL queries
   name: Amazon Athena Named Queries API
   slug: amazon-athena-named-queries-api
-- description: Operations for managing prepared SQL statements
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing prepared SQL statements
   name: Amazon Athena Prepared Statements API
   slug: amazon-athena-prepared-statements-api
-- description: Operations for running and managing SQL query executions
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for running and managing SQL query executions
   name: Amazon Athena Query Executions API
   slug: amazon-athena-query-executions-api
-- description: Operations for listing and getting table metadata
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for listing and getting table metadata
   name: Amazon Athena Table Metadata API
   slug: amazon-athena-table-metadata-api
-- description: Operations for managing resource tags
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing resource tags
   name: Amazon Athena Tags API
   slug: amazon-athena-tags-api
-- description: Operations for managing Athena work groups
+- baseURL: https://athena.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Athena work groups
   name: Amazon Athena Work Groups API
   slug: amazon-athena-work-groups-api
 artifact_total: 349
@@ -1109,7 +1125,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/screenshots/amazon-athena-2026-06-20T171608.png
 security:

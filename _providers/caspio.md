@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: REST API for Caspio Bridge accounts providing programmatic access to tables, views, records, files, users, applications, and tasks. Uses OAuth 2.0 client credentials flow to obtain Bearer access token
   name: Caspio REST API
   slug: rest-api
-- description: Caspio applications
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: Caspio applications
   name: Caspio Applications API
   slug: caspio-applications-api
-- description: OAuth 2.0 token endpoint
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: OAuth 2.0 token endpoint
   name: Caspio Authentication API
   slug: caspio-authentication-api
-- description: File management
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: File management
   name: Caspio Files API
   slug: caspio-files-api
-- description: Table schema and record operations
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: Table schema and record operations
   name: Caspio Tables API
   slug: caspio-tables-api
-- description: Scheduled tasks
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: Scheduled tasks
   name: Caspio Tasks API
   slug: caspio-tasks-api
-- description: Application user management
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: Application user management
   name: Caspio Users API
   slug: caspio-users-api
-- description: View record operations
+- baseURL: https://{account}.caspio.com/rest/v3
+  baseurl_source: declared
+  description: View record operations
   name: Caspio Views API
   slug: caspio-views-api
 artifact_total: 21
@@ -181,7 +195,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/screenshots/caspio-2026-06-20T174035.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 71 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Orum — 1 operation(s) for authentication.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Authentication API from Orum — 1 operation(s) for authentication.
   name: Orum Authentication API
   slug: orum-authentication-api
-- description: The Balance API from Orum — 3 operation(s) for balance.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Balance API from Orum — 3 operation(s) for balance.
   name: Orum Balance API
   slug: orum-balance-api
-- description: The Book Transfers API from Orum — 2 operation(s) for book transfers.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Book Transfers API from Orum — 2 operation(s) for book transfers.
   name: Orum Book Transfers API
   slug: orum-book-transfers-api
-- description: The Businesses API from Orum — 2 operation(s) for businesses.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Businesses API from Orum — 2 operation(s) for businesses.
   name: Orum Businesses API
   slug: orum-businesses-api
-- description: The Cards API from Orum — 2 operation(s) for cards.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Cards API from Orum — 2 operation(s) for cards.
   name: Orum Cards API
   slug: orum-cards-api
-- description: The Configure webhooks API from Orum — 2 operation(s) for configure webhooks.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Configure webhooks API from Orum — 2 operation(s) for configure webhooks.
   name: Orum Configure webhooks API
   slug: orum-configure-webhooks-api
-- description: The Eligibility API from Orum — 1 operation(s) for eligibility.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Eligibility API from Orum — 1 operation(s) for eligibility.
   name: Orum Eligibility API
   slug: orum-eligibility-api
-- description: The External Accounts API from Orum — 4 operation(s) for external accounts.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The External Accounts API from Orum — 4 operation(s) for external accounts.
   name: Orum External Accounts API
   slug: orum-external-accounts-api
-- description: The Persons API from Orum — 2 operation(s) for persons.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Persons API from Orum — 2 operation(s) for persons.
   name: Orum Persons API
   slug: orum-persons-api
-- description: The Reports API from Orum — 5 operation(s) for reports.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Reports API from Orum — 5 operation(s) for reports.
   name: Orum Reports API
   slug: orum-reports-api
-- description: The Schedules API from Orum — 3 operation(s) for schedules.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Schedules API from Orum — 3 operation(s) for schedules.
   name: Orum Schedules API
   slug: orum-schedules-api
-- description: The Secure webhooks API from Orum — 1 operation(s) for secure webhooks.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Secure webhooks API from Orum — 1 operation(s) for secure webhooks.
   name: Orum Secure webhooks API
   slug: orum-secure-webhooks-api
-- description: The Subledgers API from Orum — 2 operation(s) for subledgers.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Subledgers API from Orum — 2 operation(s) for subledgers.
   name: Orum Subledgers API
   slug: orum-subledgers-api
-- description: The Transfer Groups API from Orum — 2 operation(s) for transfer groups.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Transfer Groups API from Orum — 2 operation(s) for transfer groups.
   name: Orum Transfer Groups API
   slug: orum-transfer-groups-api
-- description: The Transfers API from Orum — 4 operation(s) for transfers.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Transfers API from Orum — 4 operation(s) for transfers.
   name: Orum Transfers API
   slug: orum-transfers-api
-- description: The Trigger webhooks API from Orum — 1 operation(s) for trigger webhooks.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Trigger webhooks API from Orum — 1 operation(s) for trigger webhooks.
   name: Orum Trigger webhooks API
   slug: orum-trigger-webhooks-api
-- description: The Verify API from Orum — 4 operation(s) for verify.
+- baseURL: https://api.orum.io
+  baseurl_source: declared
+  description: The Verify API from Orum — 4 operation(s) for verify.
   name: Orum Verify API
   slug: orum-verify-api
 artifact_total: 42
@@ -305,7 +339,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -315,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.7
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,7 +367,7 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/screenshots/orum-2026-08-07T191005.png
 security:

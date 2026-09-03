@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,16 +48,24 @@ apis:
 - description: RESTful JSON API for email verification. Provides single email verification (`/single/check`), bulk job verification (`/jobs/create`, `/jobs/parse`, `/jobs/start`, `/jobs/status`, `/jobs/results`, `/j
   name: NeverBounce API v4
   slug: v4-api
-- description: Account credit balances and job counts by state.
+- baseURL: https://api.neverbounce.com/v4
+  baseurl_source: declared
+  description: Account credit balances and job counts by state.
   name: NeverBounce Account API
   slug: neverbounce-account-api
-- description: Bulk list verification jobs — create, parse, start, status, results, search, delete, download.
+- baseURL: https://api.neverbounce.com/v4
+  baseurl_source: declared
+  description: Bulk list verification jobs — create, parse, start, status, results, search, delete, download.
   name: NeverBounce Jobs API
   slug: neverbounce-jobs-api
-- description: Real-time verification of a single email address.
+- baseURL: https://api.neverbounce.com/v4
+  baseurl_source: declared
+  description: Real-time verification of a single email address.
   name: NeverBounce Single API
   slug: neverbounce-single-api
-- description: 'Proof of Engagement. Server-side confirmation that a verification produced by the browser JavaScript widget genuinely came from NeverBounce, using the transaction_id and confirmation_token the widget '
+- baseURL: https://api.neverbounce.com/v4
+  baseurl_source: declared
+  description: 'Proof of Engagement. Server-side confirmation that a verification produced by the browser JavaScript widget genuinely came from NeverBounce, using the transaction_id and confirmation_token the widget '
   name: NeverBounce POE API
   slug: neverbounce-poe-api
 artifact_total: 17
@@ -263,7 +271,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -273,7 +281,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 60.1
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/screenshots/neverbounce-2026-06-20T190221.png
 security:

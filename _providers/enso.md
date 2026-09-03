@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The ccip API from Enso — 2 operation(s) for ccip.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The ccip API from Enso — 2 operation(s) for ccip.
   name: Enso ccip API
   slug: enso-ccip-api
-- description: The cctp API from Enso — 3 operation(s) for cctp.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The cctp API from Enso — 3 operation(s) for cctp.
   name: Enso cctp API
   slug: enso-cctp-api
-- description: The layerzero API from Enso — 4 operation(s) for layerzero.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The layerzero API from Enso — 4 operation(s) for layerzero.
   name: Enso layerzero API
   slug: enso-layerzero-api
-- description: The metadata API from Enso — 8 operation(s) for metadata.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The metadata API from Enso — 8 operation(s) for metadata.
   name: Enso metadata API
   slug: enso-metadata-api
-- description: The projects API from Enso — 2 operation(s) for projects.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The projects API from Enso — 2 operation(s) for projects.
   name: Enso projects API
   slug: enso-projects-api
-- description: The relay API from Enso — 1 operation(s) for relay.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The relay API from Enso — 1 operation(s) for relay.
   name: Enso relay API
   slug: enso-relay-api
-- description: The shortcuts API from Enso — 5 operation(s) for shortcuts.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The shortcuts API from Enso — 5 operation(s) for shortcuts.
   name: Enso shortcuts API
   slug: enso-shortcuts-api
-- description: The standards API from Enso — 4 operation(s) for standards.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The standards API from Enso — 4 operation(s) for standards.
   name: Enso standards API
   slug: enso-standards-api
-- description: The wallet API from Enso — 2 operation(s) for wallet.
+- baseURL: https://api.enso.finance
+  baseurl_source: declared
+  description: The wallet API from Enso — 2 operation(s) for wallet.
   name: Enso wallet API
   slug: enso-wallet-api
 artifact_total: 23
@@ -250,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enso/refs/heads/main/screenshots/enso-2026-07-25T213420.png
 security:

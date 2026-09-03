@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,16 +62,24 @@ apis:
 - description: Schemathesis is a property-based testing tool for web APIs. It reads OpenAPI or GraphQL schemas and automatically generates test scripts to discover edge cases, crashes, and specification violations t
   name: Schemathesis
   slug: schemathesis
-- description: The Collections API from Test Scripts — 2 operation(s) for collections.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Collections API from Test Scripts — 2 operation(s) for collections.
   name: Test Scripts Collections API
   slug: test-scripts-collections-api
-- description: The Environments API from Test Scripts — 1 operation(s) for environments.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Environments API from Test Scripts — 1 operation(s) for environments.
   name: Test Scripts Environments API
   slug: test-scripts-environments-api
-- description: The Mocks API from Test Scripts — 1 operation(s) for mocks.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Mocks API from Test Scripts — 1 operation(s) for mocks.
   name: Test Scripts Mocks API
   slug: test-scripts-mocks-api
-- description: The Monitors API from Test Scripts — 1 operation(s) for monitors.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Monitors API from Test Scripts — 1 operation(s) for monitors.
   name: Test Scripts Monitors API
   slug: test-scripts-monitors-api
 - description: 'Cypress is a JavaScript end-to-end testing framework designed for modern web applications. Its test scripting API supports both API testing and browser automation, with real-time test runner feedback '
@@ -228,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-scripts/refs/heads/main/screenshots/test-scripts-2026-06-20T195157.png
 security:

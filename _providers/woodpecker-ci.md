@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,73 +36,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agents API from Woodpecker CI — 5 operation(s) for agents.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Agents API from Woodpecker CI — 5 operation(s) for agents.
   name: Woodpecker CI Agents API
   slug: woodpecker-ci-agents-api
-- description: The Badges API from Woodpecker CI — 2 operation(s) for badges.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Badges API from Woodpecker CI — 2 operation(s) for badges.
   name: Woodpecker CI Badges API
   slug: woodpecker-ci-badges-api
-- description: The Events API from Woodpecker CI — 1 operation(s) for events.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Events API from Woodpecker CI — 1 operation(s) for events.
   name: Woodpecker CI Events API
   slug: woodpecker-ci-events-api
-- description: The Forges API from Woodpecker CI — 2 operation(s) for forges.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Forges API from Woodpecker CI — 2 operation(s) for forges.
   name: Woodpecker CI Forges API
   slug: woodpecker-ci-forges-api
-- description: The Organization API from Woodpecker CI — 1 operation(s) for organization.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Organization API from Woodpecker CI — 1 operation(s) for organization.
   name: Woodpecker CI Organization API
   slug: woodpecker-ci-organization-api
-- description: The Organization permissions API from Woodpecker CI — 1 operation(s) for organization permissions.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Organization permissions API from Woodpecker CI — 1 operation(s) for organization permissions.
   name: Woodpecker CI Organization permissions API
   slug: woodpecker-ci-organization-permissions-api
-- description: The Organization registries API from Woodpecker CI — 2 operation(s) for organization registries.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Organization registries API from Woodpecker CI — 2 operation(s) for organization registries.
   name: Woodpecker CI Organization registries API
   slug: woodpecker-ci-organization-registries-api
-- description: The Organization secrets API from Woodpecker CI — 2 operation(s) for organization secrets.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Organization secrets API from Woodpecker CI — 2 operation(s) for organization secrets.
   name: Woodpecker CI Organization secrets API
   slug: woodpecker-ci-organization-secrets-api
-- description: The Orgs API from Woodpecker CI — 3 operation(s) for orgs.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Orgs API from Woodpecker CI — 3 operation(s) for orgs.
   name: Woodpecker CI Orgs API
   slug: woodpecker-ci-orgs-api
-- description: The Pipeline logs API from Woodpecker CI — 4 operation(s) for pipeline logs.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Pipeline logs API from Woodpecker CI — 4 operation(s) for pipeline logs.
   name: Woodpecker CI Pipeline logs API
   slug: woodpecker-ci-pipeline-logs-api
-- description: The Pipeline queues API from Woodpecker CI — 5 operation(s) for pipeline queues.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Pipeline queues API from Woodpecker CI — 5 operation(s) for pipeline queues.
   name: Woodpecker CI Pipeline queues API
   slug: woodpecker-ci-pipeline-queues-api
-- description: The Pipelines API from Woodpecker CI — 7 operation(s) for pipelines.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Pipelines API from Woodpecker CI — 7 operation(s) for pipelines.
   name: Woodpecker CI Pipelines API
   slug: woodpecker-ci-pipelines-api
-- description: The Process profiling and debugging API from Woodpecker CI — 9 operation(s) for process profiling and debugging.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Process profiling and debugging API from Woodpecker CI — 9 operation(s) for process profiling and debugging.
   name: Woodpecker CI Process profiling and debugging API
   slug: woodpecker-ci-process-profiling-and-debugging-api
-- description: The Registries API from Woodpecker CI — 2 operation(s) for registries.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Registries API from Woodpecker CI — 2 operation(s) for registries.
   name: Woodpecker CI Registries API
   slug: woodpecker-ci-registries-api
-- description: The Repositories API from Woodpecker CI — 10 operation(s) for repositories.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Repositories API from Woodpecker CI — 10 operation(s) for repositories.
   name: Woodpecker CI Repositories API
   slug: woodpecker-ci-repositories-api
-- description: The Repository cron jobs API from Woodpecker CI — 2 operation(s) for repository cron jobs.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Repository cron jobs API from Woodpecker CI — 2 operation(s) for repository cron jobs.
   name: Woodpecker CI Repository cron jobs API
   slug: woodpecker-ci-repository-cron-jobs-api
-- description: The Repository registries API from Woodpecker CI — 2 operation(s) for repository registries.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Repository registries API from Woodpecker CI — 2 operation(s) for repository registries.
   name: Woodpecker CI Repository registries API
   slug: woodpecker-ci-repository-registries-api
-- description: The Repository secrets API from Woodpecker CI — 2 operation(s) for repository secrets.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Repository secrets API from Woodpecker CI — 2 operation(s) for repository secrets.
   name: Woodpecker CI Repository secrets API
   slug: woodpecker-ci-repository-secrets-api
-- description: The Secrets API from Woodpecker CI — 2 operation(s) for secrets.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Secrets API from Woodpecker CI — 2 operation(s) for secrets.
   name: Woodpecker CI Secrets API
   slug: woodpecker-ci-secrets-api
-- description: The System API from Woodpecker CI — 5 operation(s) for system.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The System API from Woodpecker CI — 5 operation(s) for system.
   name: Woodpecker CI System API
   slug: woodpecker-ci-system-api
-- description: The User API from Woodpecker CI — 4 operation(s) for user.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The User API from Woodpecker CI — 4 operation(s) for user.
   name: Woodpecker CI User API
   slug: woodpecker-ci-user-api
-- description: The Users API from Woodpecker CI — 2 operation(s) for users.
+- baseURL: https://ci.woodpecker-ci.org/api
+  baseurl_source: declared
+  description: The Users API from Woodpecker CI — 2 operation(s) for users.
   name: Woodpecker CI Users API
   slug: woodpecker-ci-users-api
 artifact_total: 29
@@ -256,23 +313,23 @@ rate_limits:
   slug: woodpecker-ci-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 42.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.0
+  delta: 0.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 48.0
+    contract_quality: 51.3
     developer_ergonomics: 80.4
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 43.3
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -283,8 +340,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/woodpecker-ci/refs/heads/main/screenshots/woodpecker-ci-2026-09-02T170920.png
 security:
 - kind: authentication
   name: Woodpecker Ci Authentication

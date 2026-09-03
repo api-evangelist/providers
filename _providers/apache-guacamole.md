@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,22 +48,34 @@ apis:
 - description: JavaScript client library for embedding the Guacamole remote desktop client in web applications, with APIs for protocol tunneling, display rendering, and user input handling.
   name: Apache Guacamole JavaScript Client API
   slug: apache-guacamole-javascript-api
-- description: Active connection session management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Active connection session management
   name: Apache Guacamole Active Connections API
   slug: apache-guacamole-active-connections-api
-- description: Authentication token management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Authentication token management
   name: Apache Guacamole Authentication API
   slug: apache-guacamole-authentication-api
-- description: Remote desktop connection management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Remote desktop connection management
   name: Apache Guacamole Connections API
   slug: apache-guacamole-connections-api
-- description: Connection history and audit logs
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Connection history and audit logs
   name: Apache Guacamole History API
   slug: apache-guacamole-history-api
-- description: User group management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: User group management
   name: Apache Guacamole User Groups API
   slug: apache-guacamole-user-groups-api
-- description: User account management
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: User account management
   name: Apache Guacamole Users API
   slug: apache-guacamole-users-api
 artifact_total: 64
@@ -324,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/screenshots/apache-guacamole-2026-06-20T172106.png
 security:

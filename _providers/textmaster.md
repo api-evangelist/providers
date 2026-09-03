@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,67 +38,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Abilities API from TextMaster — 1 operation(s) for abilities.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Abilities API from TextMaster — 1 operation(s) for abilities.
   name: TextMaster Abilities API
   slug: textmaster-abilities-api
-- description: The API Templates API from TextMaster — 2 operation(s) for api templates.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The API Templates API from TextMaster — 2 operation(s) for api templates.
   name: TextMaster API Templates API
   slug: textmaster-api-templates-api
-- description: The Authors API from TextMaster — 1 operation(s) for authors.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Authors API from TextMaster — 1 operation(s) for authors.
   name: TextMaster Authors API
   slug: textmaster-authors-api
-- description: The Categories API from TextMaster — 1 operation(s) for categories.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Categories API from TextMaster — 1 operation(s) for categories.
   name: TextMaster Categories API
   slug: textmaster-categories-api
-- description: The Countries API from TextMaster — 1 operation(s) for countries.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Countries API from TextMaster — 1 operation(s) for countries.
   name: TextMaster Countries API
   slug: textmaster-countries-api
-- description: The Documents API from TextMaster — 7 operation(s) for documents.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Documents API from TextMaster — 7 operation(s) for documents.
   name: TextMaster Documents API
   slug: textmaster-documents-api
-- description: The Expertises API from TextMaster — 3 operation(s) for expertises.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Expertises API from TextMaster — 3 operation(s) for expertises.
   name: TextMaster Expertises API
   slug: textmaster-expertises-api
-- description: The Glossaries API from TextMaster — 1 operation(s) for glossaries.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Glossaries API from TextMaster — 1 operation(s) for glossaries.
   name: TextMaster Glossaries API
   slug: textmaster-glossaries-api
-- description: The Invoices API from TextMaster — 1 operation(s) for invoices.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Invoices API from TextMaster — 1 operation(s) for invoices.
   name: TextMaster Invoices API
   slug: textmaster-invoices-api
-- description: The Languages API from TextMaster — 1 operation(s) for languages.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Languages API from TextMaster — 1 operation(s) for languages.
   name: TextMaster Languages API
   slug: textmaster-languages-api
-- description: The Locales API from TextMaster — 1 operation(s) for locales.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Locales API from TextMaster — 1 operation(s) for locales.
   name: TextMaster Locales API
   slug: textmaster-locales-api
-- description: The My Authors API from TextMaster — 3 operation(s) for my authors.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The My Authors API from TextMaster — 3 operation(s) for my authors.
   name: TextMaster My Authors API
   slug: textmaster-my-authors-api
-- description: The Negotiated Contracts API from TextMaster — 1 operation(s) for negotiated contracts.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Negotiated Contracts API from TextMaster — 1 operation(s) for negotiated contracts.
   name: TextMaster Negotiated Contracts API
   slug: textmaster-negotiated-contracts-api
-- description: The Projects API from TextMaster — 14 operation(s) for projects.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Projects API from TextMaster — 14 operation(s) for projects.
   name: TextMaster Projects API
   slug: textmaster-projects-api
-- description: The Receipts API from TextMaster — 1 operation(s) for receipts.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Receipts API from TextMaster — 1 operation(s) for receipts.
   name: TextMaster Receipts API
   slug: textmaster-receipts-api
-- description: The Support Messages API from TextMaster — 1 operation(s) for support messages.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Support Messages API from TextMaster — 1 operation(s) for support messages.
   name: TextMaster Support Messages API
   slug: textmaster-support-messages-api
-- description: The Transactions API from TextMaster — 1 operation(s) for transactions.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Transactions API from TextMaster — 1 operation(s) for transactions.
   name: TextMaster Transactions API
   slug: textmaster-transactions-api
-- description: The UploadProperties API from TextMaster — 1 operation(s) for uploadproperties.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The UploadProperties API from TextMaster — 1 operation(s) for uploadproperties.
   name: TextMaster Upload Properties API
   slug: textmaster-uploadproperties-api
-- description: The Users API from TextMaster — 2 operation(s) for users.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Users API from TextMaster — 2 operation(s) for users.
   name: TextMaster Users API
   slug: textmaster-users-api
-- description: The Work Templates API from TextMaster — 2 operation(s) for work templates.
+- baseURL: https://api.textmaster.com
+  baseurl_source: declared
+  description: The Work Templates API from TextMaster — 2 operation(s) for work templates.
   name: TextMaster Work Templates API
   slug: textmaster-work-templates-api
 artifact_total: 28
@@ -234,11 +288,11 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -248,7 +302,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 46.7
+  previous_composite: 46.5
   provenance:
     conformance: first-party
     contracts:
@@ -259,8 +313,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/screenshots/textmaster-2026-09-02T163300.png
 security:
 - kind: authentication
   name: Textmaster Authentication

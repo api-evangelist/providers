@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 35 operations · 35 acting
 api_count: 1
 apis:
-- description: The Dashboards API from Oden Technologies — 1 operation(s) for dashboards.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Dashboards API from Oden Technologies — 1 operation(s) for dashboards.
   name: Oden Technologies Dashboards API
   slug: oden-technologies-dashboards-api
-- description: The Intervals API from Oden Technologies — 10 operation(s) for intervals.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Intervals API from Oden Technologies — 10 operation(s) for intervals.
   name: Oden Technologies Intervals API
   slug: oden-technologies-intervals-api
-- description: The Machine Groups API from Oden Technologies — 2 operation(s) for machine groups.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Machine Groups API from Oden Technologies — 2 operation(s) for machine groups.
   name: Oden Technologies Machine Groups API
   slug: oden-technologies-machine-groups-api
-- description: The Maintenance Work Orders API from Oden Technologies — 3 operation(s) for maintenance work orders.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Maintenance Work Orders API from Oden Technologies — 3 operation(s) for maintenance work orders.
   name: Oden Technologies Maintenance Work Orders API
   slug: oden-technologies-maintenance-work-orders-api
-- description: The Metric Groups API from Oden Technologies — 1 operation(s) for metric groups.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Metric Groups API from Oden Technologies — 1 operation(s) for metric groups.
   name: Oden Technologies Metric Groups API
   slug: oden-technologies-metric-groups-api
-- description: The OQL API from Oden Technologies — 1 operation(s) for oql.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The OQL API from Oden Technologies — 1 operation(s) for oql.
   name: Oden Technologies OQL API
   slug: oden-technologies-oql-api
-- description: The Product Attributes API from Oden Technologies — 2 operation(s) for product attributes.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Product Attributes API from Oden Technologies — 2 operation(s) for product attributes.
   name: Oden Technologies Product Attributes API
   slug: oden-technologies-product-attributes-api
-- description: The Product Mappings API from Oden Technologies — 2 operation(s) for product mappings.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Product Mappings API from Oden Technologies — 2 operation(s) for product mappings.
   name: Oden Technologies Product Mappings API
   slug: oden-technologies-product-mappings-api
-- description: The Products API from Oden Technologies — 3 operation(s) for products.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Products API from Oden Technologies — 3 operation(s) for products.
   name: Oden Technologies Products API
   slug: oden-technologies-products-api
-- description: The Quality Test API from Oden Technologies — 5 operation(s) for quality test.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Quality Test API from Oden Technologies — 5 operation(s) for quality test.
   name: Oden Technologies Quality Test API
   slug: oden-technologies-quality-test-api
-- description: The Scrap/Yield Data API from Oden Technologies — 3 operation(s) for scrap/yield data.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Scrap/Yield Data API from Oden Technologies — 3 operation(s) for scrap/yield data.
   name: Oden Technologies Scrap/Yield Data API
   slug: oden-technologies-scrap-yield-data-api
-- description: The Targets API from Oden Technologies — 2 operation(s) for targets.
+- baseURL: https://api.oden.app/v2
+  baseurl_source: declared
+  description: The Targets API from Oden Technologies — 2 operation(s) for targets.
   name: Oden Technologies Targets API
   slug: oden-technologies-targets-api
 artifact_total: 29
@@ -260,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/screenshots/oden-technologies-2026-08-07T190003.png
 security:

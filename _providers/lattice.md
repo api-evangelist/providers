@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 29 operations · 6 acting
 api_count: 2
 apis:
-- description: Retrieve competencies
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Retrieve competencies
   name: Lattice Competencies API
   slug: lattice-competencies-api
-- description: Manage and retrieve department records
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Manage and retrieve department records
   name: Lattice Departments API
   slug: lattice-departments-api
-- description: Retrieve continuous feedback
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Retrieve continuous feedback
   name: Lattice Feedbacks API
   slug: lattice-feedbacks-api
-- description: Create and retrieve goal progress updates
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Create and retrieve goal progress updates
   name: Lattice Goal Updates API
   slug: lattice-goal-updates-api
-- description: Create, read, and update goals and OKRs
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Create, read, and update goals and OKRs
   name: Lattice Goals API
   slug: lattice-goals-api
-- description: Retrieve information about the authenticated user
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Retrieve information about the authenticated user
   name: Lattice Me API
   slug: lattice-me-api
-- description: Manage performance review cycles
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Manage performance review cycles
   name: Lattice Review Cycles API
   slug: lattice-review-cycles-api
-- description: Manage reviewees within a review cycle
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Manage reviewees within a review cycle
   name: Lattice Reviewees API
   slug: lattice-reviewees-api
-- description: Create, update, and submit performance reviews (v2)
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Create, update, and submit performance reviews (v2)
   name: Lattice Reviews API
   slug: lattice-reviews-api
-- description: Retrieve tags used across goals and feedback
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Retrieve tags used across goals and feedback
   name: Lattice Tags API
   slug: lattice-tags-api
-- description: Manage and retrieve user records
+- baseURL: https://api.latticehq.com/v1
+  baseurl_source: declared
+  description: Manage and retrieve user records
   name: Lattice Users API
   slug: lattice-users-api
 artifact_total: 36
@@ -290,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/screenshots/lattice-2026-06-20T184350.png
 security:

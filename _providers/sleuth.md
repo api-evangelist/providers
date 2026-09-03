@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Outbound webhook automation action that sends an HTTP POST with a JSON deployment payload to a URL of your choosing, signed with X-SLEUTH-TIMESTAMP and X-SLEUTH-SIGNATURE headers (Slack-style verifica
   name: Sleuth Webhook Actions
   slug: webhooks
-- description: The Deployments API from Sleuth — 1 operation(s) for deployments.
+- baseURL: https://app.sleuth.io/api/1
+  baseurl_source: declared
+  description: The Deployments API from Sleuth — 1 operation(s) for deployments.
   name: Sleuth Deployments API
   slug: sleuth-deployments-api
-- description: The Impact API from Sleuth — 2 operation(s) for impact.
+- baseURL: https://app.sleuth.io/api/1
+  baseurl_source: declared
+  description: The Impact API from Sleuth — 2 operation(s) for impact.
   name: Sleuth Impact API
   slug: sleuth-impact-api
-- description: The Manual Changes API from Sleuth — 1 operation(s) for manual changes.
+- baseURL: https://app.sleuth.io/api/1
+  baseurl_source: declared
+  description: The Manual Changes API from Sleuth — 1 operation(s) for manual changes.
   name: Sleuth Manual Changes API
   slug: sleuth-manual-changes-api
 artifact_total: 17
@@ -150,7 +156,7 @@ score:
   band: developing
   composite: 42.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -173,8 +179,9 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sleuth/refs/heads/main/screenshots/sleuth-2026-09-02T155838.png
 security:
 - kind: authentication
   name: Sleuth Authentication

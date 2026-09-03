@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 33 operations · 16 acting
 api_count: 2
 apis:
-- description: Manage WatchGuard Cloud accounts and sub-accounts.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Manage WatchGuard Cloud accounts and sub-accounts.
   name: WatchGuard Accounts API
   slug: watchguard-accounts-api
-- description: Activate hardware devices and software licenses.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Activate hardware devices and software licenses.
   name: WatchGuard Activations API
   slug: watchguard-activations-api
-- description: Allocate and deallocate assets to managed accounts.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Allocate and deallocate assets to managed accounts.
   name: WatchGuard Allocations API
   slug: watchguard-allocations-api
-- description: Retrieve audience tokens for managed account API access.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Retrieve audience tokens for managed account API access.
   name: WatchGuard Authorization API
   slug: watchguard-authorization-api
-- description: Manage endpoint security configurations.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Manage endpoint security configurations.
   name: WatchGuard Configurations API
   slug: watchguard-configurations-api
-- description: Perform actions on endpoint devices such as isolation and scanning.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Perform actions on endpoint devices such as isolation and scanning.
   name: WatchGuard Device Actions API
   slug: watchguard-device-actions-api
-- description: Manage and query endpoint devices.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Manage and query endpoint devices.
   name: WatchGuard Devices API
   slug: watchguard-devices-api
-- description: Retrieve endpoint security license information.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Retrieve endpoint security license information.
   name: WatchGuard Licenses API
   slug: watchguard-licenses-api
-- description: Manage WatchGuard Cloud operator users.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Manage WatchGuard Cloud operator users.
   name: WatchGuard Operators API
   slug: watchguard-operators-api
-- description: Retrieve risk assessment summaries and detected risks.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Retrieve risk assessment summaries and detected risks.
   name: WatchGuard Risk Assessment API
   slug: watchguard-risk-assessment-api
-- description: Retrieve security event data and overviews.
+- baseURL: https://api.usa.cloud.watchguard.com/rest
+  baseurl_source: spec
+  description: Retrieve security event data and overviews.
   name: WatchGuard Security Events API
   slug: watchguard-security-events-api
 artifact_total: 41
@@ -302,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watchguard/refs/heads/main/screenshots/watchguard-2026-06-20T201244.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 42 operations · 26 acting
 api_count: 1
 apis:
-- description: The App Rule API from Parsec — 3 operation(s) for app rule.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The App Rule API from Parsec — 3 operation(s) for app rule.
   name: Parsec App Rule API
   slug: parsec-app-rule-api
-- description: The Audit Log API from Parsec — 2 operation(s) for audit log.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Audit Log API from Parsec — 2 operation(s) for audit log.
   name: Parsec Audit Log API
   slug: parsec-audit-log-api
-- description: The Group API from Parsec — 7 operation(s) for group.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Group API from Parsec — 7 operation(s) for group.
   name: Parsec Group API
   slug: parsec-group-api
-- description: The Guest Access Invite API from Parsec — 4 operation(s) for guest access invite.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Guest Access Invite API from Parsec — 4 operation(s) for guest access invite.
   name: Parsec Guest Access Invite API
   slug: parsec-guest-access-invite-api
-- description: The Machine API from Parsec — 4 operation(s) for machine.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Machine API from Parsec — 4 operation(s) for machine.
   name: Parsec Machine API
   slug: parsec-machine-api
-- description: The Member API from Parsec — 2 operation(s) for member.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Member API from Parsec — 2 operation(s) for member.
   name: Parsec Member API
   slug: parsec-member-api
-- description: The Member Invite API from Parsec — 3 operation(s) for member invite.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Member Invite API from Parsec — 3 operation(s) for member invite.
   name: Parsec Member Invite API
   slug: parsec-member-invite-api
-- description: The Relay API from Parsec — 2 operation(s) for relay.
+- baseURL: https://api.parsec.app
+  baseurl_source: declared
+  description: The Relay API from Parsec — 2 operation(s) for relay.
   name: Parsec Relay API
   slug: parsec-relay-api
 artifact_total: 24
@@ -284,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Outbound webhook event notifications (billing.created, billing.paid, billing.refunded, billing.failed, subscription.created, subscription.canceled) delivered with a webhookSecret query string and HMAC
   name: AbacatePay Webhooks
   slug: abacatepay-webhooks-api
-- description: Create and list billings (charges) with a shareable checkout URL.
+- baseURL: https://api.abacatepay.com/v1
+  baseurl_source: declared
+  description: Create and list billings (charges) with a shareable checkout URL.
   name: AbacatePay Billing API
   slug: abacatepay-billing-api
-- description: Create and list discount coupons.
+- baseURL: https://api.abacatepay.com/v1
+  baseurl_source: declared
+  description: Create and list discount coupons.
   name: AbacatePay Coupon API
   slug: abacatepay-coupon-api
-- description: Create and list customers (clients).
+- baseURL: https://api.abacatepay.com/v1
+  baseurl_source: declared
+  description: Create and list customers (clients).
   name: AbacatePay Customer API
   slug: abacatepay-customer-api
-- description: Create, check, and simulate dynamic Pix QR Code payments.
+- baseURL: https://api.abacatepay.com/v1
+  baseurl_source: declared
+  description: Create, check, and simulate dynamic Pix QR Code payments.
   name: AbacatePay Pix QR Code API
   slug: abacatepay-pix-qr-code-api
-- description: Create, retrieve, and list withdrawals (payouts) to a Pix key.
+- baseURL: https://api.abacatepay.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, and list withdrawals (payouts) to a Pix key.
   name: AbacatePay Withdraw API
   slug: abacatepay-withdraw-api
 artifact_total: 19
@@ -184,7 +194,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,13 +48,19 @@ apis:
 - description: Hosted, no-auth Model Context Protocol server (Streamable HTTP) exposing the same five wealth computations as agent tools with published JSON Schema inputs. Answers protocol revisions 2025-03-26 throu
   name: We > Ultrarich MCP Server
   slug: wegtultrarich-mcp-server
-- description: Compare any wealth expression for two wealths ('yours' and 'theirs') in a single call — get both results as well as the ratio between them.
+- baseURL: https://api.wegtultrarich.org/v1
+  baseurl_source: declared
+  description: Compare any wealth expression for two wealths ('yours' and 'theirs') in a single call — get both results as well as the ratio between them.
   name: We > Ultrarich Comparison API
   slug: wegtultrarich-comparison-api
-- description: Discover (list) the available endpoints.
+- baseURL: https://api.wegtultrarich.org/v1
+  baseurl_source: declared
+  description: Discover (list) the available endpoints.
   name: We > Ultrarich Discovery API
   slug: wegtultrarich-discovery-api
-- description: Express a single wealth through one of four lenses (daily spending, physical size, purchasing power, or compound interest).
+- baseURL: https://api.wegtultrarich.org/v1
+  baseurl_source: declared
+  description: Express a single wealth through one of four lenses (daily spending, physical size, purchasing power, or compound interest).
   name: We > Ultrarich Wealth Expression API
   slug: wegtultrarich-wealth-expression-api
 arazzos:
@@ -329,7 +347,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/screenshots/wegtultrarich-2026-08-17T082904.png
 security:

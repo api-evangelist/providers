@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -45,37 +45,57 @@ agentic_access:
   summary_line: 27 operations · 19 acting
 api_count: 1
 apis:
-- description: Persistent WebSocket connection carrying realtime features - status presence, realtime chat channels, relayed and authoritative multiplayer matches, matchmaking, parties, and realtime notification del
+- baseURL: ws://127.0.0.1:7350/ws
+  baseurl_source: declared
+  description: Persistent WebSocket connection carrying realtime features - status presence, realtime chat channels, relayed and authoritative multiplayer matches, matchmaking, parties, and realtime notification del
   name: Nakama Realtime Socket API
   slug: nakama-realtime-api
 - description: Administrative API behind the Nakama Developer Console for managing users, storage, leaderboards, matches, runtime configuration, and server status. It is an internal operations surface (not published
   name: Nakama Console API
   slug: nakama-console-api
-- description: Read, update, and delete the current account and link identities.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Read, update, and delete the current account and link identities.
   name: Nakama Account API
   slug: nakama-account-api
-- description: Authenticate users and issue or refresh session tokens.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Authenticate users and issue or refresh session tokens.
   name: Nakama Authentication API
   slug: nakama-authentication-api
-- description: Manage the friend graph.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Manage the friend graph.
   name: Nakama Friends API
   slug: nakama-friends-api
-- description: Create and manage groups (clans) and their members.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Create and manage groups (clans) and their members.
   name: Nakama Groups API
   slug: nakama-groups-api
-- description: Write and list leaderboard records.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Write and list leaderboard records.
   name: Nakama Leaderboards API
   slug: nakama-leaderboards-api
-- description: List and delete in-app notifications.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: List and delete in-app notifications.
   name: Nakama Notifications API
   slug: nakama-notifications-api
-- description: Call custom runtime functions.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Call custom runtime functions.
   name: Nakama RPC API
   slug: nakama-rpc-api
-- description: Read, write, list, and delete storage objects.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: Read, write, list, and delete storage objects.
   name: Nakama Storage API
   slug: nakama-storage-api
-- description: List, join, and submit to tournaments.
+- baseURL: http://127.0.0.1:7350/v2
+  baseurl_source: declared
+  description: List, join, and submit to tournaments.
   name: Nakama Tournaments API
   slug: nakama-tournaments-api
 artifact_total: 30
@@ -210,7 +230,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -220,7 +240,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 41.1
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/screenshots/nakama-2026-08-07T184611.png
 security:

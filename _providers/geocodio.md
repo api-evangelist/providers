@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Geocode or reverse geocode up to 10,000 records per request.
+- baseURL: https://api.geocod.io/v1.7
+  baseurl_source: declared
+  description: Geocode or reverse geocode up to 10,000 records per request.
   name: Geocodio Batch API
   slug: geocodio-batch-api
-- description: Convert addresses into coordinates.
+- baseURL: https://api.geocod.io/v1.7
+  baseurl_source: declared
+  description: Convert addresses into coordinates.
   name: Geocodio Forward Geocoding API
   slug: geocodio-forward-geocoding-api
-- description: Asynchronous spreadsheet geocoding jobs.
+- baseURL: https://api.geocod.io/v1.7
+  baseurl_source: declared
+  description: Asynchronous spreadsheet geocoding jobs.
   name: Geocodio Lists API
   slug: geocodio-lists-api
-- description: Convert coordinates into addresses.
+- baseURL: https://api.geocod.io/v1.7
+  baseurl_source: declared
+  description: Convert coordinates into addresses.
   name: Geocodio Reverse Geocoding API
   slug: geocodio-reverse-geocoding-api
 artifact_total: 18
@@ -181,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/screenshots/geocodio-2026-07-25T215651.png
 security:

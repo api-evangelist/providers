@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -80,46 +80,74 @@ apis:
 - description: Specification for integrating alternative tender types into Toast — callback endpoints partners implement so Toast can validate, authorize, and reconcile non-card forms of payment at checkout.
   name: Toast Tender Integration
   slug: toast-tender-integration
-- description: The Authentication API from Toast — 1 operation(s) for authentication.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Authentication API from Toast — 1 operation(s) for authentication.
   name: Toast Authentication API
   slug: toast-tab-authentication-api
-- description: The ConnectedRestaurants API from Toast — 1 operation(s) for connectedrestaurants.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The ConnectedRestaurants API from Toast — 1 operation(s) for connectedrestaurants.
   name: Toast ConnectedRestaurants API
   slug: toast-tab-connectedrestaurants-api
-- description: Related to price reduction applied to restaurant orders. For example, a restaurant might apply a discount for a promotion.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: Related to price reduction applied to restaurant orders. For example, a restaurant might apply a discount for a promotion.
   name: Toast Discounts API
   slug: toast-tab-discounts-api
-- description: The Employees API from Toast — 6 operation(s) for employees.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Employees API from Toast — 6 operation(s) for employees.
   name: Toast Employees API
   slug: toast-tab-employees-api
-- description: The Groups API from Toast — 1 operation(s) for groups.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Groups API from Toast — 1 operation(s) for groups.
   name: Toast Groups API
   slug: toast-tab-groups-api
-- description: The Jobs API from Toast — 3 operation(s) for jobs.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Jobs API from Toast — 3 operation(s) for jobs.
   name: Toast Jobs API
   slug: toast-tab-jobs-api
-- description: The Menus API from Toast — 1 operation(s) for menus.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Menus API from Toast — 1 operation(s) for menus.
   name: Toast Menus API
   slug: toast-tab-menus-api
-- description: The Metadata API from Toast — 1 operation(s) for metadata.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Metadata API from Toast — 1 operation(s) for metadata.
   name: Toast Metadata API
   slug: toast-tab-metadata-api
-- description: Related to orders made by restaurant guests. For example, a restaurant guest orders items from a menu. Toast platform orders include one or more guest check.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: Related to orders made by restaurant guests. For example, a restaurant guest orders items from a menu. Toast platform orders include one or more guest check.
   name: Toast Orders API
   slug: toast-tab-orders-api
-- description: Related to guests' payments for restaurant orders. Toast platform payments apply to a check in an order.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: Related to guests' payments for restaurant orders. Toast platform payments apply to a check in an order.
   name: Toast Payments API
   slug: toast-tab-payments-api
-- description: The Restaurants API from Toast — 2 operation(s) for restaurants.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Restaurants API from Toast — 2 operation(s) for restaurants.
   name: Toast Restaurants API
   slug: toast-tab-restaurants-api
-- description: The Shifts API from Toast — 2 operation(s) for shifts.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Shifts API from Toast — 2 operation(s) for shifts.
   name: Toast Shifts API
   slug: toast-tab-shifts-api
-- description: The Stock API from Toast — 3 operation(s) for stock.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Stock API from Toast — 3 operation(s) for stock.
   name: Toast Stock API
   slug: toast-tab-stock-api
-- description: The Time entries API from Toast — 2 operation(s) for time entries.
+- baseURL: https://ws-api.toasttab.com/authentication/v1
+  baseurl_source: declared
+  description: The Time entries API from Toast — 2 operation(s) for time entries.
   name: Toast Time entries API
   slug: toast-tab-time-entries-api
 artifact_total: 407
@@ -1414,7 +1442,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1424,7 +1452,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 56.3
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1439,7 +1467,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:

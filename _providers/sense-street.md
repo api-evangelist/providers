@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The enterprise REST API. Callers upload files of broker conversations for asynchronous processing and retrieve the extracted RFQs once parsing completes, or call the prediction operations synchronousl
@@ -171,7 +171,7 @@ score:
   band: thin
   composite: 30.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -204,8 +204,9 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sense-street/refs/heads/main/screenshots/sense-street-2026-09-02T154849.png
 security:
 - kind: authentication
   name: Sense Street Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 36 operations · 19 acting
 api_count: 9
 apis:
-- description: The Accounts API from Mention — 5 operations for account CRUD and identity resolution — createAccount, getAccount, updateAccount, deleteAccount and getMe. An access token can only act on its own accou
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: The Accounts API from Mention — 5 operations for account CRUD and identity resolution — createAccount, getAccount, updateAccount, deleteAccount and getMe. An access token can only act on its own accou
   name: Mention Accounts API
   slug: mention-accounts-api
-- description: The Alerts API from Mention — 8 operations for the standing keyword queries Mention crawls the web and social media for — list, create, read, update, pause and unpause an alert, plus the per-account n
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: The Alerts API from Mention — 8 operations for the standing keyword queries Mention crawls the web and social media for — list, create, read, update, pause and unpause an alert, plus the per-account n
   name: Mention Alerts API
   slug: mention-alerts-api
-- description: The Authors API from Mention — 1 operation. listAuthors returns the authors and influencers behind an alert’s mentions with influence score, reach and the underlying social profile, filterable by kind
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: The Authors API from Mention — 1 operation. listAuthors returns the authors and influencers behind an alert’s mentions with influence score, reach and the underlying social profile, filterable by kind
   name: Mention Authors API
   slug: mention-authors-api
-- description: The Mentions API from Mention — 6 operations over the results an alert collects — list with an extensive filter surface, read one, read its grouped children, curate folder/tone/tags/read state, mark a
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: The Mentions API from Mention — 6 operations over the results an alert collects — list with an extensive filter surface, read one, read its grouped children, curate folder/tone/tags/read state, mark a
   name: Mention Mentions API
   slug: mention-mentions-api
-- description: 'The Shares API from Mention — 5 operations over the join between an account and an alert. Share is the authorization primitive AND the lifecycle owner of an alert: deleting the last share deletes the '
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: 'The Shares API from Mention — 5 operations over the join between an account and an alert. Share is the authorization primitive AND the lifecycle owner of an alert: deleting the last share deletes the '
   name: Mention Shares API
   slug: mention-shares-api
-- description: The Stats API from Mention — 1 operation. getStats returns aggregate counters alert by alert over a date range and interval, with week-day, per-interval tone, country and influencer breakdowns, all ex
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: The Stats API from Mention — 1 operation. getStats returns aggregate counters alert by alert over a date range and interval, with week-day, per-interval tone, country and influencer breakdowns, all ex
   name: Mention Stats API
   slug: mention-stats-api
-- description: 'The Tags API from Mention — 4 operations for the labels scoped to an alert, including up to five auto-tagging keywords per tag that label incoming mentions automatically. Limits: 100 tags per alert, 2'
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: 'The Tags API from Mention — 4 operations for the labels scoped to an alert, including up to five auto-tagging keywords per tag that label incoming mentions automatically. Limits: 100 tags per alert, 2'
   name: Mention Tags API
   slug: mention-tags-api
-- description: 'The Tasks API from Mention — 5 operations for the assignments created on a mention for team mates. assigned_to_account_id is fixed at creation; type, comment and done are updatable. A mention returns '
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: 'The Tasks API from Mention — 5 operations for the assignments created on a mention for team mates. assigned_to_account_id is fixed at creation; type, comment and done are updatable. A mention returns '
   name: Mention Tasks API
   slug: mention-tasks-api
-- description: 'The App API from Mention — 1 operation. GET /app/data returns the reference vocabularies every other Mention endpoint resolves its enumerated values against: alert sources, alert languages and countri'
+- baseURL: https://api.mention.net/api
+  baseurl_source: declared
+  description: 'The App API from Mention — 1 operation. GET /app/data returns the reference vocabularies every other Mention endpoint resolves its enumerated values against: alert sources, alert languages and countri'
   name: Mention App API
   slug: mention-app-api
 artifact_total: 27
@@ -304,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/screenshots/mention-2026-06-20T185146.png
 security:

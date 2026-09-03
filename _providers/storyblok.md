@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: Storyblok emits webhook events when content actions occur in a space such as story publication, unpublication, deletion, asset upload, and pipeline stage transitions. AsyncAPI specification for webhoo
   name: Storyblok Webhooks
   slug: storyblok-webhooks
-- description: Assets are files stored in Storyblok's asset library, including images, documents, and other media. The Management API allows uploading, tagging, and organizing assets.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Assets are files stored in Storyblok's asset library, including images, documents, and other media. The Management API allows uploading, tagging, and organizing assets.
   name: Storyblok Assets API
   slug: storyblok-assets-api
-- description: Collaborators are users invited to a Storyblok space with specific roles and permissions. The Management API allows adding, updating, and removing collaborators.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Collaborators are users invited to a Storyblok space with specific roles and permissions. The Management API allows adding, updating, and removing collaborators.
   name: Storyblok Collaborators API
   slug: storyblok-collaborators-api
-- description: Components define the schema and field structure for story content. This includes managing component definitions, field types, and component groups.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Components define the schema and field structure for story content. This includes managing component definitions, field types, and component groups.
   name: Storyblok Components API
   slug: storyblok-components-api
-- description: Datasources are reusable key-value collections used for options lists, translations, and configuration data within Storyblok spaces.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Datasources are reusable key-value collections used for options lists, translations, and configuration data within Storyblok spaces.
   name: Storyblok Datasources API
   slug: storyblok-datasources-api
-- description: URL-based image transformation operations applied by constructing a specific path structure following the base asset URL. All operations require the /m/ path segment prefix.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: URL-based image transformation operations applied by constructing a specific path structure following the base asset URL. All operations require the /m/ path segment prefix.
   name: Storyblok Image Transformation API
   slug: storyblok-image-transformation-api
-- description: The links endpoint returns a flat or tree-structured list of all story URLs in a space, suitable for navigation generation and sitemap building.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: The links endpoint returns a flat or tree-structured list of all story URLs in a space, suitable for navigation generation and sitemap building.
   name: Storyblok Links API
   slug: storyblok-links-api
-- description: Spaces are the top-level containers in Storyblok. Each space has its own content, components, assets, and settings. The spaces endpoint allows retrieval and management of space metadata and configurat
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Spaces are the top-level containers in Storyblok. Each space has its own content, components, assets, and settings. The spaces endpoint allows retrieval and management of space metadata and configurat
   name: Storyblok Spaces API
   slug: storyblok-spaces-api
-- description: Stories are the content entries in Storyblok. Each story is defined by a component schema and holds the content of a page, post, or any other structured content type.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Stories are the content entries in Storyblok. Each story is defined by a component schema and holds the content of a page, post, or any other structured content type.
   name: Storyblok Stories API
   slug: storyblok-stories-api
-- description: The Tags API from Storyblok — 1 operation(s) for tags.
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: The Tags API from Storyblok — 1 operation(s) for tags.
   name: Storyblok Tags API
   slug: storyblok-tags-api
-- description: Webhooks allow external services to be notified when events occur in a Storyblok space, such as story publication or asset upload. The Management API provides full CRUD operations for webhook configur
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Webhooks allow external services to be notified when events occur in a Storyblok space, such as story publication or asset upload. The Management API provides full CRUD operations for webhook configur
   name: Storyblok Webhooks API
   slug: storyblok-webhooks-api
 arazzos:
@@ -480,7 +500,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -490,7 +510,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -501,7 +521,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png
 security:

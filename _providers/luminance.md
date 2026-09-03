@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,70 +35,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Accounts API from Luminance — 6 operation(s) for accounts.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Accounts API from Luminance — 6 operation(s) for accounts.
   name: Luminance Accounts API
   slug: luminance-accounts-api
-- description: The Annotation Source Relations API from Luminance — 2 operation(s) for annotation source relations.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Annotation Source Relations API from Luminance — 2 operation(s) for annotation source relations.
   name: Luminance Annotation Source Relations API
   slug: luminance-annotation-source-relations-api
-- description: The Annotation Sources API from Luminance — 2 operation(s) for annotation sources.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Annotation Sources API from Luminance — 2 operation(s) for annotation sources.
   name: Luminance Annotation Sources API
   slug: luminance-annotation-sources-api
-- description: The Annotation Types API from Luminance — 2 operation(s) for annotation types.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Annotation Types API from Luminance — 2 operation(s) for annotation types.
   name: Luminance Annotation Types API
   slug: luminance-annotation-types-api
-- description: The Annotations API from Luminance — 12 operation(s) for annotations.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Annotations API from Luminance — 12 operation(s) for annotations.
   name: Luminance Annotations API
   slug: luminance-annotations-api
-- description: The Contract Creation API from Luminance — 4 operation(s) for contract creation.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Contract Creation API from Luminance — 4 operation(s) for contract creation.
   name: Luminance Contract Creation API
   slug: luminance-contract-creation-api
-- description: The Document Templates API from Luminance — 4 operation(s) for document templates.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Document Templates API from Luminance — 4 operation(s) for document templates.
   name: Luminance Document Templates API
   slug: luminance-document-templates-api
-- description: The Documents API from Luminance — 19 operation(s) for documents.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Documents API from Luminance — 19 operation(s) for documents.
   name: Luminance Documents API
   slug: luminance-documents-api
-- description: The Folders API from Luminance — 10 operation(s) for folders.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Folders API from Luminance — 10 operation(s) for folders.
   name: Luminance Folders API
   slug: luminance-folders-api
-- description: The Matter Versions API from Luminance — 4 operation(s) for matter versions.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Matter Versions API from Luminance — 4 operation(s) for matter versions.
   name: Luminance Matter Versions API
   slug: luminance-matter-versions-api
-- description: The Matters API from Luminance — 22 operation(s) for matters.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Matters API from Luminance — 22 operation(s) for matters.
   name: Luminance Matters API
   slug: luminance-matters-api
-- description: The Project Users API from Luminance — 2 operation(s) for project users.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Project Users API from Luminance — 2 operation(s) for project users.
   name: Luminance Project Users API
   slug: luminance-project-users-api
-- description: The Projects API from Luminance — 6 operation(s) for projects.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Projects API from Luminance — 6 operation(s) for projects.
   name: Luminance Projects API
   slug: luminance-projects-api
-- description: The Reviews API from Luminance — 3 operation(s) for reviews.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Reviews API from Luminance — 3 operation(s) for reviews.
   name: Luminance Reviews API
   slug: luminance-reviews-api
-- description: The Root API from Luminance — 1 operation(s) for root.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Root API from Luminance — 1 operation(s) for root.
   name: Luminance Root API
   slug: luminance-root-api
-- description: The Search API from Luminance — 3 operation(s) for search.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Search API from Luminance — 3 operation(s) for search.
   name: Luminance Search API
   slug: luminance-search-api
-- description: The System API from Luminance — 1 operation(s) for system.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The System API from Luminance — 1 operation(s) for system.
   name: Luminance System API
   slug: luminance-system-api
-- description: The Tasks API from Luminance — 14 operation(s) for tasks.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Tasks API from Luminance — 14 operation(s) for tasks.
   name: Luminance Tasks API
   slug: luminance-tasks-api
-- description: The Traffic Light Analysis API from Luminance — 3 operation(s) for traffic light analysis.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Traffic Light Analysis API from Luminance — 3 operation(s) for traffic light analysis.
   name: Luminance Traffic Light Analysis API
   slug: luminance-traffic-light-analysis-api
-- description: The Users API from Luminance — 10 operation(s) for users.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Users API from Luminance — 10 operation(s) for users.
   name: Luminance Users API
   slug: luminance-users-api
-- description: The Workflows API from Luminance — 4 operation(s) for workflows.
+- baseURL: https://your-instance.app.luminance.com/api2
+  baseurl_source: declared
+  description: The Workflows API from Luminance — 4 operation(s) for workflows.
   name: Luminance Workflows API
   slug: luminance-workflows-api
 artifact_total: 48
@@ -315,7 +369,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/screenshots/luminance-2026-08-07T171838.png
 security:

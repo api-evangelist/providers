@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: 'BNY Data On-Chain publishes BNY-attested data on-chain so on-chain consumers can read it directly from smart contracts. The product ships a Solidity consumer interface (IBNYDataConsumerV2) with typed '
   name: BNY Data On-Chain
   slug: data-on-chain
-- description: Custody, fund accounting, middle-office, and transfer agency operations.
+- baseURL: https://apigateway.bny.com
+  baseurl_source: declared
+  description: Custody, fund accounting, middle-office, and transfer agency operations.
   name: BNY (Bank of New York Mellon) Asset Servicing API
   slug: bny-bank-of-new-york-mellon-asset-servicing-api
-- description: FX, securities finance, fixed income, and equities surface.
+- baseURL: https://apigateway.bny.com
+  baseurl_source: declared
+  description: FX, securities finance, fixed income, and equities surface.
   name: BNY (Bank of New York Mellon) Markets API
   slug: bny-bank-of-new-york-mellon-markets-api
-- description: Pershing clearing, custody, NetX360+, and Wove platform surface.
+- baseURL: https://apigateway.bny.com
+  baseurl_source: declared
+  description: Pershing clearing, custody, NetX360+, and Wove platform surface.
   name: BNY (Bank of New York Mellon) Pershing API
   slug: bny-bank-of-new-york-mellon-pershing-api
-- description: Payments, liquidity, cash management, trade finance, and FX.
+- baseURL: https://apigateway.bny.com
+  baseurl_source: declared
+  description: Payments, liquidity, cash management, trade finance, and FX.
   name: BNY (Bank of New York Mellon) Treasury Services API
   slug: bny-bank-of-new-york-mellon-treasury-services-api
 artifact_total: 20
@@ -218,7 +226,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/screenshots/bny-bank-of-new-york-mellon-2026-06-20T173546.png
 security:

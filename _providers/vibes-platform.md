@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -45,94 +45,154 @@ agentic_access:
   summary_line: 22 operations · 12 acting
 api_count: 5
 apis:
-- description: Manage acquisition campaigns for adding new subscribers.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Manage acquisition campaigns for adding new subscribers.
   name: Vibes Platform Acquisition Campaigns API
   slug: vibes-platform-acquisition-campaigns-api
-- description: Manage SMS and push notification broadcasts (message sends).
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Manage SMS and push notification broadcasts (message sends).
   name: Vibes Platform Broadcasts API
   slug: vibes-platform-broadcasts-api
-- description: Register and manage callback endpoints for opt-in and delivery notifications.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Register and manage callback endpoints for opt-in and delivery notifications.
   name: Vibes Platform Callbacks API
   slug: vibes-platform-callbacks-api
-- description: Retrieve carrier information for mobile numbers.
+- baseURL: https://messageapi.vibesapps.com
+  baseurl_source: declared
+  description: Retrieve carrier information for mobile numbers.
   name: Vibes Platform Carrier Lookup API
   slug: vibes-platform-carrier-lookup-api
-- description: Submit events that trigger SMS messages and push notifications.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Submit events that trigger SMS messages and push notifications.
   name: Vibes Platform Events API
   slug: vibes-platform-events-api
-- description: Manage inbound message callbacks.
+- baseURL: https://messageapi.vibesapps.com
+  baseurl_source: declared
+  description: Manage inbound message callbacks.
   name: Vibes Platform Inbound Messages API
   slug: vibes-platform-inbound-messages-api
-- description: Send SMS and MMS messages.
+- baseURL: https://messageapi.vibesapps.com
+  baseurl_source: declared
+  description: Send SMS and MMS messages.
   name: Vibes Platform Messages API
   slug: vibes-platform-messages-api
-- description: Manage persons (subscribers) in the mobile contact book.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Manage persons (subscribers) in the mobile contact book.
   name: Vibes Platform Persons API
   slug: vibes-platform-persons-api
-- description: Manage subscription lists and subscriber memberships.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Manage subscription lists and subscriber memberships.
   name: Vibes Platform Subscription Lists API
   slug: vibes-platform-subscription-lists-api
-- description: Manage mobile wallet passes (Apple Wallet, Google Pay).
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Manage mobile wallet passes (Apple Wallet, Google Pay).
   name: Vibes Platform Wallet Passes API
   slug: vibes-platform-wallet-passes-api
-- description: The Acquisition Campaign API API from Vibes Platform — 3 operation(s) for acquisition campaign api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Acquisition Campaign API API from Vibes Platform — 3 operation(s) for acquisition campaign api.
   name: Vibes Platform Acquisition Campaign API
   slug: vibes-platform-acquisition-campaign-api-api
-- description: Define the design and content of the Google Wallet (Android) pass for a wallet campaign. Each campaign has a single Google Wallet template whose fields map to Google Wallet pass concepts. See the Goog
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Define the design and content of the Google Wallet (Android) pass for a wallet campaign. Each campaign has a single Google Wallet template whose fields map to Google Wallet pass concepts. See the Goog
   name: Vibes Platform Android Wallet Templates API
   slug: vibes-platform-android-wallet-templates-api-api
-- description: The Authentication API from Vibes Platform — 1 operation(s) for authentication.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Authentication API from Vibes Platform — 1 operation(s) for authentication.
   name: Vibes Platform Authentication API
   slug: vibes-platform-authentication-api
-- description: The Broadcast API API from Vibes Platform — 3 operation(s) for broadcast api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Broadcast API API from Vibes Platform — 3 operation(s) for broadcast api.
   name: Vibes Platform Broadcast API
   slug: vibes-platform-broadcast-api-api
-- description: The Callback API API from Vibes Platform — 3 operation(s) for callback api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Callback API API from Vibes Platform — 3 operation(s) for callback api.
   name: Vibes Platform Callback API
   slug: vibes-platform-callback-api-api
-- description: The Event API API from Vibes Platform — 1 operation(s) for event api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Event API API from Vibes Platform — 1 operation(s) for event api.
   name: Vibes Platform Event API
   slug: vibes-platform-event-api-api
-- description: The Event-Triggered Campaign API API from Vibes Platform — 2 operation(s) for event-triggered campaign api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Event-Triggered Campaign API API from Vibes Platform — 2 operation(s) for event-triggered campaign api.
   name: Vibes Platform Event-Triggered Campaign API
   slug: vibes-platform-event-triggered-campaign-api-api
-- description: The Incentive Code API API from Vibes Platform — 4 operation(s) for incentive code api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Incentive Code API API from Vibes Platform — 4 operation(s) for incentive code api.
   name: Vibes Platform Incentive Code API
   slug: vibes-platform-incentive-code-api-api
-- description: The Incentive Pool API API from Vibes Platform — 2 operation(s) for incentive pool api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Incentive Pool API API from Vibes Platform — 2 operation(s) for incentive pool api.
   name: Vibes Platform Incentive Pool API
   slug: vibes-platform-incentive-pool-api-api
-- description: Define the design and content of the Apple Wallet (iOS) pass for a wallet campaign. Each campaign has a single Apple Wallet (passbook) template whose fields map to PassKit pass concepts. See the Apple
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Define the design and content of the Apple Wallet (iOS) pass for a wallet campaign. Each campaign has a single Apple Wallet (passbook) template whose fields map to PassKit pass concepts. See the Apple
   name: Vibes Platform iOS Wallet Templates API
   slug: vibes-platform-ios-wallet-templates-api-api
-- description: The Person API API from Vibes Platform — 4 operation(s) for person api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Person API API from Vibes Platform — 4 operation(s) for person api.
   name: Vibes Platform Person API
   slug: vibes-platform-person-api-api
-- description: The Push Device Manager API API from Vibes Platform — 4 operation(s) for push device manager api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Push Device Manager API API from Vibes Platform — 4 operation(s) for push device manager api.
   name: Vibes Platform Push Device Manager API
   slug: vibes-platform-push-device-manager-api-api
-- description: The RCS Business Messaging API from Vibes Platform — 6 operation(s) for rcs business messaging.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The RCS Business Messaging API from Vibes Platform — 6 operation(s) for rcs business messaging.
   name: Vibes Platform RCS Business Messaging API
   slug: vibes-platform-rcs-business-messaging-api
-- description: The Source Code API API from Vibes Platform — 1 operation(s) for source code api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Source Code API API from Vibes Platform — 1 operation(s) for source code api.
   name: Vibes Platform Source Code API
   slug: vibes-platform-source-code-api-api
-- description: The Subscription API API from Vibes Platform — 4 operation(s) for subscription api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Subscription API API from Vibes Platform — 4 operation(s) for subscription api.
   name: Vibes Platform Subscription API
   slug: vibes-platform-subscription-api-api
-- description: The Subscription List API API from Vibes Platform — 4 operation(s) for subscription list api.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: The Subscription List API API from Vibes Platform — 4 operation(s) for subscription list api.
   name: Vibes Platform Subscription List API
   slug: vibes-platform-subscription-list-api-api
-- description: 'Manage mobile wallet campaigns and the individual wallet items (passes) issued from them. A wallet campaign is the container for a single offer, loyalty card, or event ticket program; it owns the iOS '
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: 'Manage mobile wallet campaigns and the individual wallet items (passes) issued from them. A wallet campaign is the container for a single offer, loyalty card, or event ticket program; it owns the iOS '
   name: Vibes Platform Wallet Campaign API
   slug: vibes-platform-wallet-campaign-api-api
-- description: Configure the branded "Add to Wallet" landing page shown to end users for a wallet campaign, including its image, heading, colors, and language.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Configure the branded "Add to Wallet" landing page shown to end users for a wallet campaign, including its image, heading, colors, and language.
   name: Vibes Platform Wallet Location Selector API
   slug: vibes-platform-wallet-location-selector-api-api
-- description: Send push-style messages to the holders of a wallet campaign's passes and review messages that have already been sent. Messages can be targeted to specific recipients with filters (for example, by tok
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Send push-style messages to the holders of a wallet campaign's passes and review messages that have already been sent. Messages can be targeted to specific recipients with filters (for example, by tok
   name: Vibes Platform Wallet Messaging API
   slug: vibes-platform-wallet-messaging-api-api
-- description: Manage the store locations attached to a wallet campaign. Locations drive geofenced lock-screen notifications that remind pass holders about a nearby store.
+- baseURL: https://public-api.vibescm.com
+  baseurl_source: declared
+  description: Manage the store locations attached to a wallet campaign. Locations drive geofenced lock-screen notifications that remind pass holders about a nearby store.
   name: Vibes Platform Wallet Store Locations API
   slug: vibes-platform-wallet-store-locations-api-api
 artifact_total: 65
@@ -435,7 +495,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -445,7 +505,7 @@ score:
     discoverability: 57.4
     governance: 31.8
     operational_transparency: 76.3
-  previous_composite: 68.7
+  previous_composite: 68.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -463,7 +523,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:

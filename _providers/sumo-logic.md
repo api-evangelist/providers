@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -44,187 +44,309 @@ agentic_access:
   summary_line: 419 operations · 228 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: Access Key management API. Access Keys allow you to securely register new Collectors and access Sumo Logic APIs. For more information, see [Access Keys](https://help.sumologic.com/?cid=6690).
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Access Key management API. Access Keys allow you to securely register new Collectors and access Sumo Logic APIs. For more information, see [Access Keys](https://help.sumologic.com/?cid=6690).
   name: Sumo Logic accessKeyManagement API
   slug: sumo-logic-accesskeymanagement-api
-- description: Account Management API. Manage the custom subdomain for the URL used to access your Sumo Logic account. For more information, see [Manage Organization](https://help.sumologic.com/docs/manage/manage-su
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Account Management API. Manage the custom subdomain for the URL used to access your Sumo Logic account. For more information, see [Manage Organization](https://help.sumologic.com/docs/manage/manage-su
   name: Sumo Logic accountManagement API
   slug: sumo-logic-accountmanagement-api
-- description: App installation API. View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see [Sumo Lo
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: App installation API. View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see [Sumo Lo
   name: Sumo Logic appManagement API
   slug: sumo-logic-appmanagement-api
-- description: App installation API (V2). View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see [Su
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: App installation API (V2). View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see [Su
   name: Sumo Logic appManagementV2 API
   slug: sumo-logic-appmanagementv2-api
-- description: Archive Ingestion Management API. Archive Ingestion allows you to ingest data from Archive destinations. You can use this API to ingest data from your Archive with an existing AWS S3 Archive Source. Y
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Archive Ingestion Management API. Archive Ingestion allows you to ingest data from Archive destinations. You can use this API to ingest data from your Archive with an existing AWS S3 Archive Source. Y
   name: Sumo Logic archiveManagement API
   slug: sumo-logic-archivemanagement-api
-- description: Budget Management API.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Budget Management API.
   name: Sumo Logic budgetManagement API
   slug: sumo-logic-budgetmanagement-api
-- description: Connection management API. Set up connections to send alerts to other tools. For more information, see [Connections and Integrations](https://help.sumologic.com/?cid=1044).
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Connection management API. Set up connections to send alerts to other tools. For more information, see [Connections and Integrations](https://help.sumologic.com/?cid=1044).
   name: Sumo Logic connectionManagement API
   slug: sumo-logic-connectionmanagement-api
-- description: Content management API. You can export, import, delete and copy content in your organization’s Library. For more information, see [Library](https://help.sumologic.com/?cid=5173). You can perform the r
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Content management API. You can export, import, delete and copy content in your organization’s Library. For more information, see [Library](https://help.sumologic.com/?cid=5173). You can perform the r
   name: Sumo Logic contentManagement API
   slug: sumo-logic-contentmanagement-api
-- description: 'Content permissions API. You can share your folders, searches, and dashboards with specific users or roles. For more information, see [Share Content](https://help.sumologic.com/?cid=8675309). You can '
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Content permissions API. You can share your folders, searches, and dashboards with specific users or roles. For more information, see [Share Content](https://help.sumologic.com/?cid=8675309). You can '
   name: Sumo Logic contentPermissions API
   slug: sumo-logic-contentpermissions-api
-- description: Dashboard (New) management API. Dashboard (New) allows you to analyze metric and log data on the same dashboard, in a seamless view. This gives you control over the visual display of metric and log da
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Dashboard (New) management API. Dashboard (New) allows you to analyze metric and log data on the same dashboard, in a seamless view. This gives you control over the visual display of metric and log da
   name: Sumo Logic dashboardManagement API
   slug: sumo-logic-dashboardmanagement-api
-- description: Data Deletion Rules (Beta) API. Data Deletion Rules allow creating and managing requests to delete log messages satisfying parameters ( query, timerange, etc...). For more information, see [Deletion R
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Data Deletion Rules (Beta) API. Data Deletion Rules allow creating and managing requests to delete log messages satisfying parameters ( query, timerange, etc...). For more information, see [Deletion R
   name: Sumo Logic dataDeletionRules API
   slug: sumo-logic-datadeletionrules-api
-- description: Data Masking Rules management API. Data Masking Rules allow you to define regex patterns that mask sensitive data in log messages at query time.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Data Masking Rules management API. Data Masking Rules allow you to define regex patterns that mask sensitive data in log messages at query time.
   name: Sumo Logic dataMaskingManagement API
   slug: sumo-logic-datamaskingmanagement-api
-- description: Dynamic Parsing management API. Dynamic Parsing allows automatic field extraction from your log messages when you run a search. This allows you to view fields from logs without having to manually spec
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Dynamic Parsing management API. Dynamic Parsing allows automatic field extraction from your log messages when you run a search. This allows you to view fields from logs without having to manually spec
   name: Sumo Logic dynamicParsingRuleManagement API
   slug: sumo-logic-dynamicparsingrulemanagement-api
-- description: Event Analytics (Beta) API. APIs for interacting with events in Sumo Logic.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Event Analytics (Beta) API. APIs for interacting with events in Sumo Logic.
   name: Sumo Logic eventAnalytics API
   slug: sumo-logic-eventanalytics-api
-- description: 'Field Extraction Rule management API. Field Extraction Rules allow you to parse fields from your log messages at the time the messages are ingested eliminating the need to parse fields in your query. '
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Field Extraction Rule management API. Field Extraction Rules allow you to parse fields from your log messages at the time the messages are ingested eliminating the need to parse fields in your query. '
   name: Sumo Logic extractionRuleManagement API
   slug: sumo-logic-extractionrulemanagement-api
-- description: Field management API. Fields allow you to reference log data based on meaningful associations. They act as metadata tags that are assigned to your logs so you can search with them. Each field contains
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Field management API. Fields allow you to reference log data based on meaningful associations. They act as metadata tags that are assigned to your logs so you can search with them. Each field contains
   name: Sumo Logic fieldManagementV1 API
   slug: sumo-logic-fieldmanagementv1-api
-- description: Folder management API. You can add folders and subfolders to the Library in order to organize your content for easy access or to share content. For more information, see [Add Folders to the Library](h
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Folder management API. You can add folders and subfolders to the Library in order to organize your content for easy access or to share content. For more information, see [Add Folders to the Library](h
   name: Sumo Logic folderManagement API
   slug: sumo-logic-foldermanagement-api
-- description: 'Health Events management API. Health Events allow you to keep track of the health of your Collectors and Sources. You can use them to find and investigate common errors and warnings that are known to '
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Health Events management API. Health Events allow you to keep track of the health of your Collectors and Sources. You can use them to find and investigate common errors and warnings that are known to '
   name: Sumo Logic healthEvents API
   slug: sumo-logic-healthevents-api
-- description: Ingest Budget management API V2. Ingest Budgets V2 provide you the ability to create and assign budgets to your log data by Fields instead of using a Field Value. For more information, see [Metadata I
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Ingest Budget management API V2. Ingest Budgets V2 provide you the ability to create and assign budgets to your log data by Fields instead of using a Field Value. For more information, see [Metadata I
   name: Sumo Logic ingestBudgetManagementV2 API
   slug: sumo-logic-ingestbudgetmanagementv2-api
-- description: Logs Data Forwarding management API. Logs Data Forwarding allows you to forward log data from a Partition or Scheduled View to an S3 bucket. For more information, see [Forwarding Data to S3](https://h
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Logs Data Forwarding management API. Logs Data Forwarding allows you to forward log data from a Partition or Scheduled View to an S3 bucket. For more information, see [Forwarding Data to S3](https://h
   name: Sumo Logic logsDataForwardingManagement API
   slug: sumo-logic-logsdataforwardingmanagement-api
-- description: Log Search Estimated Usage API. Gets the estimated volume of data that would be scanned for a given log search in the Infrequent data tier, over a particular time range. In the Infrequent Data Tier, y
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Log Search Estimated Usage API. Gets the estimated volume of data that would be scanned for a given log search in the Infrequent data tier, over a particular time range. In the Infrequent Data Tier, y
   name: Sumo Logic logSearchesEstimatedUsage API
   slug: sumo-logic-logsearchesestimatedusage-api
-- description: Log Searches Management API. Whether you are running ad hoc searches during a forensic investigation or running standard searches for health checks, you can save any search to run again later. When yo
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Log Searches Management API. Whether you are running ad hoc searches during a forensic investigation or running standard searches for health checks, you can save any search to run again later. When yo
   name: Sumo Logic logSearchesManagement API
   slug: sumo-logic-logsearchesmanagement-api
-- description: 'Lookup Table management API. A Lookup Table is a table of data hosted on Sumo Logic that you can use to enrich the log and event data received by Sumo Logic. You must create a table schema before you '
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Lookup Table management API. A Lookup Table is a table of data hosted on Sumo Logic that you can use to enrich the log and event data received by Sumo Logic. You must create a table schema before you '
   name: Sumo Logic lookupManagement API
   slug: sumo-logic-lookupmanagement-api
-- description: Macro Management APIs. Macros allow you to reference a predefined set of query language syntax across multiple queries. This enables reuse of commonly used logic, improves consistency, and reduces dup
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Macro Management APIs. Macros allow you to reference a predefined set of query language syntax across multiple queries. This enables reuse of commonly used logic, improves consistency, and reduces dup
   name: Sumo Logic macroManagement API
   slug: sumo-logic-macromanagement-api
-- description: Metrics Query API. The Metrics Query API allows you to execute queries on various metrics and retrieve multiple time-series (data-points) over time range(s). For more information, see [Metrics - Class
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Metrics Query API. The Metrics Query API allows you to execute queries on various metrics and retrieve multiple time-series (data-points) over time range(s). For more information, see [Metrics - Class
   name: Sumo Logic metricsQuery API
   slug: sumo-logic-metricsquery-api
-- description: Metrics Search management API. Save metrics searches in the content library and organize them in a folder hierarchy. Share useful queries with users in your organization. For more information, see [Sh
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Metrics Search management API. Save metrics searches in the content library and organize them in a folder hierarchy. Share useful queries with users in your organization. For more information, see [Sh
   name: Sumo Logic metricsSearchesManagement API
   slug: sumo-logic-metricssearchesmanagement-api
-- description: New Metrics Searches Management API. Save metrics searches in the content library and organize them in a folder hierarchy. Allows you to list metrics searches under your personal folder.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: New Metrics Searches Management API. Save metrics searches in the content library and organize them in a folder hierarchy. Allows you to list metrics searches under your personal folder.
   name: Sumo Logic metricsSearchesManagementV2 API
   slug: sumo-logic-metricssearchesmanagementv2-api
-- description: Monitor Management API. Monitors continuously query your data to monitor and send notifications when specific events occur. For more information see [Monitors](https://help.sumologic.com/?cid=10020).
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Monitor Management API. Monitors continuously query your data to monitor and send notifications when specific events occur. For more information see [Monitors](https://help.sumologic.com/?cid=10020).
   name: Sumo Logic monitorsLibraryManagement API
   slug: sumo-logic-monitorslibrarymanagement-api
-- description: Muting Schedules Management API. Muting Schedule allows you to pause alert notifications from monitors. When a muting schedule is active on a monitor, the monitor will still generate alerts, but no no
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Muting Schedules Management API. Muting Schedule allows you to pause alert notifications from monitors. When a muting schedule is active on a monitor, the monitor will still generate alerts, but no no
   name: Sumo Logic mutingSchedulesLibraryManagement API
   slug: sumo-logic-mutingscheduleslibrarymanagement-api
-- description: '** Only available to Beta customers. During Beta endpoints are subject to backwards incompatible changes. ** APIs to manage OAuth Clients'
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: '** Only available to Beta customers. During Beta endpoints are subject to backwards incompatible changes. ** APIs to manage OAuth Clients'
   name: Sumo Logic oauthManagement API
   slug: sumo-logic-oauthmanagement-api
-- description: Organizations Management API.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Organizations Management API.
   name: Sumo Logic orgsManagement API
   slug: sumo-logic-orgsmanagement-api
-- description: OT Collector Management API External.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: OT Collector Management API External.
   name: Sumo Logic otCollectorManagementExternal API
   slug: sumo-logic-otcollectormanagementexternal-api
-- description: Parsers Library Management API Customize the Parsers via this API. The Parsers Library contains the Parsers used in the "_parser" field for collector, FER or query. For more information on customizing
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Parsers Library Management API Customize the Parsers via this API. The Parsers Library contains the Parsers used in the "_parser" field for collector, FER or query. For more information on customizing
   name: Sumo Logic parsersLibraryManagement API
   slug: sumo-logic-parserslibrarymanagement-api
-- description: Partition management API. Creating a Partition allows you to improve search performance by searching over a smaller number of messages. For more information, see [Manage Partitions](https://help.sumol
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Partition management API. Creating a Partition allows you to improve search performance by searching over a smaller number of messages. For more information, see [Manage Partitions](https://help.sumol
   name: Sumo Logic partitionManagement API
   slug: sumo-logic-partitionmanagement-api
-- description: Password Policy Management API The password policy controls how user passwords are managed. The "Manage Password Policy" role capability is required to update the password policy. For more information
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Password Policy Management API The password policy controls how user passwords are managed. The "Manage Password Policy" role capability is required to update the password policy. For more information
   name: Sumo Logic passwordPolicy API
   slug: sumo-logic-passwordpolicy-api
-- description: Policies management API. Policies control the security and share settings of your organization. For more information, see [Security](https://help.sumologic.com/?cid=4041).
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Policies management API. Policies control the security and share settings of your organization. For more information, see [Security](https://help.sumologic.com/?cid=4041).
   name: Sumo Logic policiesManagement API
   slug: sumo-logic-policiesmanagement-api
-- description: Role management API. Roles determine the functions that users are able to perform in Sumo Logic. To manage roles, you must have an administrator role or your role must have been assigned the manage us
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Role management API. Roles determine the functions that users are able to perform in Sumo Logic. To manage roles, you must have an administrator role or your role must have been assigned the manage us
   name: Sumo Logic roleManagement API
   slug: sumo-logic-rolemanagement-api
-- description: 'Role management API (V2). Roles determine the functions that users are able to perform in Sumo Logic. It also allows to configure access on partitions. To manage roles, you must have an administrator '
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Role management API (V2). Roles determine the functions that users are able to perform in Sumo Logic. It also allows to configure access on partitions. To manage roles, you must have an administrator '
   name: Sumo Logic roleManagementV2 API
   slug: sumo-logic-rolemanagementv2-api
-- description: SAML configuration management API Organizations with Enterprise accounts can provision Security Assertion Markup Language (SAML) 2.0 to enable Single Sign-On (SSO) for user access to Sumo Logic. For m
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: SAML configuration management API Organizations with Enterprise accounts can provision Security Assertion Markup Language (SAML) 2.0 to enable Single Sign-On (SSO) for user access to Sumo Logic. For m
   name: Sumo Logic samlConfigurationManagement API
   slug: sumo-logic-samlconfigurationmanagement-api
-- description: Scheduled View management API. Scheduled Views speed the search process for small and historical subsets of your data by functioning as a pre-aggregated index. For more information, see [Manage Schedu
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Scheduled View management API. Scheduled Views speed the search process for small and historical subsets of your data by functioning as a pre-aggregated index. For more information, see [Manage Schedu
   name: Sumo Logic scheduledViewManagement API
   slug: sumo-logic-scheduledviewmanagement-api
-- description: Schema Base Management APIs.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Schema Base Management APIs.
   name: Sumo Logic schemaBaseManagement API
   slug: sumo-logic-schemabasemanagement-api
-- description: APIs to manage scim based users.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: APIs to manage scim based users.
   name: Sumo Logic scimUserManagement API
   slug: sumo-logic-scimusermanagement-api
-- description: APIs to manage service accounts
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: APIs to manage service accounts
   name: Sumo Logic serviceAccountManagement API
   slug: sumo-logic-serviceaccountmanagement-api
-- description: Service Allowlist management API Service Allowlist Settings allow you to explicitly grant access to specific IP addresses and/or CIDR notations for logins, APIs, and dashboard access. For more informa
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Service Allowlist management API Service Allowlist Settings allow you to explicitly grant access to specific IP addresses and/or CIDR notations for logins, APIs, and dashboard access. For more informa
   name: Sumo Logic serviceAllowlistManagement API
   slug: sumo-logic-serviceallowlistmanagement-api
-- description: Service Map API The Service Map API allows you to fetch a graph representation of the Services Map, which is a high-level view of your application environment, automatically derived from tracing data.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Service Map API The Service Map API allows you to fetch a graph representation of the Services Map, which is a high-level view of your application environment, automatically derived from tracing data.
   name: Sumo Logic serviceMap API
   slug: sumo-logic-servicemap-api
-- description: SLO Management API. SLOs are used to monitor and alert on KPIs for your most important services or user experience.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: SLO Management API. SLOs are used to monitor and alert on KPIs for your most important services or user experience.
   name: Sumo Logic slosLibraryManagement API
   slug: sumo-logic-sloslibrarymanagement-api
-- description: Source Template Management APIs.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Source Template Management APIs.
   name: Sumo Logic sourceTemplateManagementExternal API
   slug: sumo-logic-sourcetemplatemanagementexternal-api
-- description: Span Analytics API The Span Analytics API allows you to browse spans collected in the system. You can execute queries to find individual spans matching provided search criteria as well as run aggregat
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Span Analytics API The Span Analytics API allows you to browse spans collected in the system. You can execute queries to find individual spans matching provided search criteria as well as run aggregat
   name: Sumo Logic spanAnalytics API
   slug: sumo-logic-spananalytics-api
-- description: 'Threat Intel Datastore Management API The Threat Intel Datastore Management API allows you to: * Get information about the threat indicator datastore and sources. * Delete the threat indicator databas'
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Threat Intel Datastore Management API The Threat Intel Datastore Management API allows you to: * Get information about the threat indicator datastore and sources. * Delete the threat indicator databas'
   name: Sumo Logic threatIntelIngest API
   slug: sumo-logic-threatintelingest-api
-- description: 'Threat Intel Ingestion API The Threat Intel Ingestion API allows you to: * Upload threat intel indicators in STIX 2.x or Sumo normalized format. * Delete indicators by ID or source. For more informati'
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: 'Threat Intel Ingestion API The Threat Intel Ingestion API allows you to: * Upload threat intel indicators in STIX 2.x or Sumo normalized format. * Delete indicators by ID or source. For more informati'
   name: Sumo Logic threatIntelIngestProducer API
   slug: sumo-logic-threatintelingestproducer-api
-- description: Tokens management API. Tokens are associated with your organization to authorize specific operations. Currently, we support collector registration tokens, which can be used to register Installed Colle
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Tokens management API. Tokens are associated with your organization to authorize specific operations. Currently, we support collector registration tokens, which can be used to register Installed Colle
   name: Sumo Logic tokensLibraryManagement API
   slug: sumo-logic-tokenslibrarymanagement-api
-- description: Traces API The Traces API allows you to browse traces collected in the system. You can execute queries to find traces matching provided search criteria as well as gather detailed information about ind
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Traces API The Traces API allows you to browse traces collected in the system. You can execute queries to find traces matching provided search criteria as well as gather detailed information about ind
   name: Sumo Logic traces API
   slug: sumo-logic-traces-api
-- description: Transformation Rule management API. Metrics Transformation Rules allow you control how long raw metrics are retained. You can also aggregate metrics at collection time and specify a separate retention
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Transformation Rule management API. Metrics Transformation Rules allow you control how long raw metrics are retained. You can also aggregate metrics at collection time and specify a separate retention
   name: Sumo Logic transformationRuleManagement API
   slug: sumo-logic-transformationrulemanagement-api
-- description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see [Manage Users](https://
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see [Manage Users](https://
   name: Sumo Logic userManagement API
   slug: sumo-logic-usermanagement-api
-- description: The Collectors API from Sumo Logic — 2 operation(s) for collectors.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Collectors API from Sumo Logic — 2 operation(s) for collectors.
   name: Sumo Logic Collectors API
   slug: sumo-logic-collectors-api
-- description: The Content API from Sumo Logic — 2 operation(s) for content.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Content API from Sumo Logic — 2 operation(s) for content.
   name: Sumo Logic Content API
   slug: sumo-logic-content-api
-- description: The Dashboards API from Sumo Logic — 2 operation(s) for dashboards.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Dashboards API from Sumo Logic — 2 operation(s) for dashboards.
   name: Sumo Logic Dashboards API
   slug: sumo-logic-dashboards-api
-- description: The Monitors API from Sumo Logic — 1 operation(s) for monitors.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Monitors API from Sumo Logic — 1 operation(s) for monitors.
   name: Sumo Logic Monitors API
   slug: sumo-logic-monitors-api
-- description: The Roles API from Sumo Logic — 1 operation(s) for roles.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Roles API from Sumo Logic — 1 operation(s) for roles.
   name: Sumo Logic Roles API
   slug: sumo-logic-roles-api
-- description: The Search Jobs API from Sumo Logic — 4 operation(s) for search jobs.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Search Jobs API from Sumo Logic — 4 operation(s) for search jobs.
   name: Sumo Logic Search Jobs API
   slug: sumo-logic-search-jobs-api
-- description: The Users API from Sumo Logic — 2 operation(s) for users.
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: The Users API from Sumo Logic — 2 operation(s) for users.
   name: Sumo Logic Users API
   slug: sumo-logic-users-api
 artifact_total: 143
@@ -598,7 +720,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -608,7 +730,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -617,7 +739,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

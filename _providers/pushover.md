@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ apis:
 - description: Real-time client API for Pushover. Combines a WebSocket channel at wss://client.pushover.net/push that streams single-byte control frames (`#` keepalive, `!` new message, `R` reload, `E` permanent err
   name: Pushover Open Client API
   slug: open-client-api
-- description: The Apps API from Pushover — 1 operation(s) for apps.
+- baseURL: https://api.pushover.net/1
+  baseurl_source: declared
+  description: The Apps API from Pushover — 1 operation(s) for apps.
   name: Pushover Apps API
   slug: pushover-apps-api
-- description: The Messages.json API from Pushover — 1 operation(s) for messages.json.
+- baseURL: https://api.pushover.net/1
+  baseurl_source: declared
+  description: The Messages.json API from Pushover — 1 operation(s) for messages.json.
   name: Pushover Messages.json API
   slug: pushover-messages-json-api
-- description: The Receipts API from Pushover — 2 operation(s) for receipts.
+- baseURL: https://api.pushover.net/1
+  baseurl_source: declared
+  description: The Receipts API from Pushover — 2 operation(s) for receipts.
   name: Pushover Receipts API
   slug: pushover-receipts-api
-- description: The Sounds.json API from Pushover — 1 operation(s) for sounds.json.
+- baseURL: https://api.pushover.net/1
+  baseurl_source: declared
+  description: The Sounds.json API from Pushover — 1 operation(s) for sounds.json.
   name: Pushover Sounds.json API
   slug: pushover-sounds-json-api
-- description: The Users API from Pushover — 1 operation(s) for users.
+- baseURL: https://api.pushover.net/1
+  baseurl_source: declared
+  description: The Users API from Pushover — 1 operation(s) for users.
   name: Pushover Users API
   slug: pushover-users-api
 artifact_total: 16
@@ -171,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/screenshots/pushover-2026-06-20T192319.png
 security:

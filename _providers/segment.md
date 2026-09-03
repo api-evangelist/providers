@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 72 operations · 34 acting
 api_count: 4
 apis:
-- description: Operations for merging two user identities together.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for merging two user identities together.
   name: segment Alias API
   slug: segment-alias-api
-- description: Operations for sending multiple calls in a single request.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for sending multiple calls in a single request.
   name: segment Batch API
   slug: segment-batch-api
-- description: Operations for browsing the Segment catalog of available sources and destination integrations.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for browsing the Segment catalog of available sources and destination integrations.
   name: segment Catalog API
   slug: segment-catalog-api
-- description: Operations for managing destinations where collected data is sent.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing destinations where collected data is sent.
   name: segment Destinations API
   slug: segment-destinations-api
-- description: Operations for retrieving events associated with a user or account profile.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for retrieving events associated with a user or account profile.
   name: segment Events API
   slug: segment-events-api
-- description: Operations for retrieving external identifiers linked to a user or account profile.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for retrieving external identifiers linked to a user or account profile.
   name: segment External IDs API
   slug: segment-external-ids-api
-- description: Operations for managing custom functions that transform or enrich data flowing through Segment.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing custom functions that transform or enrich data flowing through Segment.
   name: segment Functions API
   slug: segment-functions-api
-- description: Operations for associating users with groups or organizations.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for associating users with groups or organizations.
   name: segment Group API
   slug: segment-group-api
-- description: Operations for identifying users and associating traits with them.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for identifying users and associating traits with them.
   name: segment Identify API
   slug: segment-identify-api
-- description: Operations for managing labels used to organize and control access to workspace resources.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing labels used to organize and control access to workspace resources.
   name: segment Labels API
   slug: segment-labels-api
-- description: Operations for retrieving linked profiles and relationships.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for retrieving linked profiles and relationships.
   name: segment Links API
   slug: segment-links-api
-- description: Operations for recording page views on websites.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for recording page views on websites.
   name: segment Page API
   slug: segment-page-api
-- description: Operations for retrieving user and account profile data from Segment Unify.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for retrieving user and account profile data from Segment Unify.
   name: segment Profiles API
   slug: segment-profiles-api
-- description: Operations for managing data privacy regulations and suppression requests.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing data privacy regulations and suppression requests.
   name: segment Regulations API
   slug: segment-regulations-api
-- description: Operations for recording screen views in mobile applications.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for recording screen views in mobile applications.
   name: segment Screen API
   slug: segment-screen-api
-- description: Operations for managing data collection sources within a workspace.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing data collection sources within a workspace.
   name: segment Sources API
   slug: segment-sources-api
-- description: Operations for tracking events and actions performed by users.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for tracking events and actions performed by users.
   name: segment Track API
   slug: segment-track-api
-- description: Operations for managing tracking plans that enforce data schemas.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing tracking plans that enforce data schemas.
   name: segment Tracking Plans API
   slug: segment-tracking-plans-api
-- description: Operations for retrieving computed and custom traits for user and account profiles.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for retrieving computed and custom traits for user and account profiles.
   name: segment Traits API
   slug: segment-traits-api
-- description: Operations for managing transformations that modify event data before it reaches destinations.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing transformations that modify event data before it reaches destinations.
   name: segment Transformations API
   slug: segment-transformations-api
-- description: Operations for managing data warehouse connections, including creating and configuring warehouse destinations.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for managing data warehouse connections, including creating and configuring warehouse destinations.
   name: segment Warehouses API
   slug: segment-warehouses-api
-- description: Operations for retrieving workspace information and configuration.
+- baseURL: https://api.segmentapis.com
+  baseurl_source: declared
+  description: Operations for retrieving workspace information and configuration.
   name: segment Workspaces API
   slug: segment-workspaces-api
 artifact_total: 108
@@ -461,7 +505,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -471,7 +515,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 45.3
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -480,7 +524,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png
 security:

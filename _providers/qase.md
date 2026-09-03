@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 37 operations · 23 acting
 api_count: 1
 apis:
-- description: Test cases stored in a project repository.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Test cases stored in a project repository.
   name: Qase cases API
   slug: qase-cases-api
-- description: Defects raised against failed test results.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Defects raised against failed test results.
   name: Qase defects API
   slug: qase-defects-api
-- description: Test plans - reusable selections of test cases.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Test plans - reusable selections of test cases.
   name: Qase plans API
   slug: qase-plans-api
-- description: Test projects that contain cases, suites, runs, and results.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Test projects that contain cases, suites, runs, and results.
   name: Qase projects API
   slug: qase-projects-api
-- description: Test run results, including bulk publishing from CI/automation.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Test run results, including bulk publishing from CI/automation.
   name: Qase results API
   slug: qase-results-api
-- description: Test runs - executions of selected test cases in a project.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Test runs - executions of selected test cases in a project.
   name: Qase runs API
   slug: qase-runs-api
-- description: Test suites that group and organize test cases.
+- baseURL: https://api.qase.io/v1
+  baseurl_source: declared
+  description: Test suites that group and organize test cases.
   name: Qase suites API
   slug: qase-suites-api
 artifact_total: 21
@@ -180,7 +194,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -206,8 +220,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/screenshots/qase-2026-09-02T152417.png
 security:
 - kind: authentication
   name: Qase Authentication

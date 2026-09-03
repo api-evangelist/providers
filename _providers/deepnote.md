@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Publish and embed Deepnote notebooks and data apps in external sites and dashboards via shareable embed/app URLs. This is a publishing/embedding surface rather than a JSON REST API.
   name: Deepnote Embed
   slug: embed-api
-- description: Legacy endpoint to trigger execution of an existing notebook.
+- baseURL: https://api.deepnote.com/v2
+  baseurl_source: declared
+  description: Legacy endpoint to trigger execution of an existing notebook.
   name: Deepnote Execute (v1) API
   slug: deepnote-execute-v1-api
-- description: Information about the calling API key and its workspace.
+- baseURL: https://api.deepnote.com/v2
+  baseurl_source: declared
+  description: Information about the calling API key and its workspace.
   name: Deepnote Me API
   slug: deepnote-me-api
-- description: Notebooks, their blocks, runs, and schedules.
+- baseURL: https://api.deepnote.com/v2
+  baseurl_source: declared
+  description: Notebooks, their blocks, runs, and schedules.
   name: Deepnote Notebooks API
   slug: deepnote-notebooks-api
-- description: Projects and their contents.
+- baseURL: https://api.deepnote.com/v2
+  baseurl_source: declared
+  description: Projects and their contents.
   name: Deepnote Projects API
   slug: deepnote-projects-api
-- description: Notebook executions.
+- baseURL: https://api.deepnote.com/v2
+  baseurl_source: declared
+  description: Notebook executions.
   name: Deepnote Runs API
   slug: deepnote-runs-api
 artifact_total: 20
@@ -186,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

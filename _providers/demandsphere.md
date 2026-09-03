@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 10 operations · 10 acting
 api_count: 1
 apis:
-- description: The Keywords API from DemandSphere — 6 operation(s) for keywords.
+- baseURL: https://api.demandsphere.com
+  baseurl_source: declared
+  description: The Keywords API from DemandSphere — 6 operation(s) for keywords.
   name: DemandSphere Keywords API
   slug: demandsphere-keywords-api
-- description: The Pages API from DemandSphere — 1 operation(s) for pages.
+- baseURL: https://api.demandsphere.com
+  baseurl_source: declared
+  description: The Pages API from DemandSphere — 1 operation(s) for pages.
   name: DemandSphere Pages API
   slug: demandsphere-pages-api
-- description: The SearchEngines API from DemandSphere — 1 operation(s) for searchengines.
+- baseURL: https://api.demandsphere.com
+  baseurl_source: declared
+  description: The SearchEngines API from DemandSphere — 1 operation(s) for searchengines.
   name: DemandSphere SearchEngines API
   slug: demandsphere-searchengines-api
-- description: The Sites API from DemandSphere — 2 operation(s) for sites.
+- baseURL: https://api.demandsphere.com
+  baseurl_source: declared
+  description: The Sites API from DemandSphere — 2 operation(s) for sites.
   name: DemandSphere Sites API
   slug: demandsphere-sites-api
 artifact_total: 17
@@ -266,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/screenshots/demandsphere-2026-07-25T211708.png
 security:

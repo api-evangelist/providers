@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
-- description: The Amazon Shield REST API API from Amazon Shield — 1 operation(s) for amazon shield rest api.
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon Shield REST API API from Amazon Shield — 1 operation(s) for amazon shield rest api.
   name: Amazon Shield Amazon Shield REST API API
   slug: amazon-shield-amazon-shield-rest-api-api
-- description: 'The #CreateProtectionGroup API from Amazon Shield — 1 operation(s) for #createprotectiongroup.'
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateProtectionGroup API from Amazon Shield — 1 operation(s) for #createprotectiongroup.'
   name: 'Amazon Shield #CreateProtectionGroup API'
   slug: amazon-shield-createprotectiongroup-api
-- description: 'The #CreateSubscription API from Amazon Shield — 1 operation(s) for #createsubscription.'
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateSubscription API from Amazon Shield — 1 operation(s) for #createsubscription.'
   name: 'Amazon Shield #CreateSubscription API'
   slug: amazon-shield-createsubscription-api
-- description: 'The #DescribeAttack API from Amazon Shield — 1 operation(s) for #describeattack.'
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeAttack API from Amazon Shield — 1 operation(s) for #describeattack.'
   name: 'Amazon Shield #DescribeAttack API'
   slug: amazon-shield-describeattack-api
-- description: 'The #DescribeProtection API from Amazon Shield — 1 operation(s) for #describeprotection.'
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeProtection API from Amazon Shield — 1 operation(s) for #describeprotection.'
   name: 'Amazon Shield #DescribeProtection API'
   slug: amazon-shield-describeprotection-api
-- description: 'The #DescribeSubscription API from Amazon Shield — 1 operation(s) for #describesubscription.'
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeSubscription API from Amazon Shield — 1 operation(s) for #describesubscription.'
   name: 'Amazon Shield #DescribeSubscription API'
   slug: amazon-shield-describesubscription-api
-- description: 'The #ListProtections API from Amazon Shield — 1 operation(s) for #listprotections.'
+- baseURL: https://shield.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListProtections API from Amazon Shield — 1 operation(s) for #listprotections.'
   name: 'Amazon Shield #ListProtections API'
   slug: amazon-shield-listprotections-api
 artifact_total: 80
@@ -616,7 +630,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/screenshots/amazon-shield-2026-06-20T171822.png
 security:

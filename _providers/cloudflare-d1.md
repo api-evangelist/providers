@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 12 operations · 9 acting
 api_count: 1
 apis:
-- description: The D1 API from Cloudflare D1 — 8 operation(s) for d1.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: The D1 API from Cloudflare D1 — 8 operation(s) for d1.
   name: Cloudflare D1 D1 API
   slug: cloudflare-d1-d1-api
 artifact_total: 47
@@ -302,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-d1/refs/heads/main/screenshots/cloudflare-d1-2026-06-20T174554.png
 security:

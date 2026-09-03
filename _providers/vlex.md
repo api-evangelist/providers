@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Single sign-on authentication API for corporate vLex accounts. Generates redirect URLs using HMAC authentication for seamless user access to vLex.com from institutional portals.
   name: vLex Remote Authentication API
   slug: remote-auth-api
-- description: Identify and anonymize personally identifiable information in text
+- baseURL: https://api.vlex.com
+  baseurl_source: spec
+  description: Identify and anonymize personally identifiable information in text
   name: vLex Anonymization API
   slug: vlex-anonymization-api
-- description: Detect and resolve legal citations (vCite)
+- baseURL: https://api.vlex.com
+  baseurl_source: spec
+  description: Detect and resolve legal citations (vCite)
   name: vLex Citations API
   slug: vlex-citations-api
-- description: Classify legal documents and extract key phrases
+- baseURL: https://api.vlex.com
+  baseurl_source: spec
+  description: Classify legal documents and extract key phrases
   name: vLex Classification API
   slug: vlex-classification-api
-- description: Retrieve individual legal documents
+- baseURL: https://api.vlex.com
+  baseurl_source: spec
+  description: Retrieve individual legal documents
   name: vLex Documents API
   slug: vlex-documents-api
-- description: Search the vLex legal document corpus
+- baseURL: https://api.vlex.com
+  baseurl_source: spec
+  description: Search the vLex legal document corpus
   name: vLex Search API
   slug: vlex-search-api
 artifact_total: 27
@@ -242,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/screenshots/vlex-2026-06-20T201112.png
 security:

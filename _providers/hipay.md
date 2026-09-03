@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 55 operations · 23 acting
 api_count: 9
 apis:
-- description: Manage the balance of a HiPay account
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage the balance of a HiPay account
   name: HiPay balance API
   slug: hipay-balance-api
-- description: Manage bank informations of a HiPay account
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage bank informations of a HiPay account
   name: HiPay bank-info API
   slug: hipay-bank-info-api
-- description: Generate captcha
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Generate captcha
   name: HiPay captcha-generation API
   slug: hipay-captcha-generation-api
-- description: The Connector API from HiPay — 1 operation(s) for connector.
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: The Connector API from HiPay — 1 operation(s) for connector.
   name: HiPay Connector API
   slug: hipay-connector-api
-- description: Manage your account with our API tools
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage your account with our API tools
   name: HiPay constants API
   slug: hipay-constants-api
-- description: Manage your identification documents
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage your identification documents
   name: HiPay identification API
   slug: hipay-identification-api
-- description: Manage marketplace invoices
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage marketplace invoices
   name: HiPay invoice API
   slug: hipay-invoice-api
-- description: Perform operations (capture, refund) on transactions
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Perform operations (capture, refund) on transactions
   name: HiPay maintenance API
   slug: hipay-maintenance-api
-- description: Manage merchant groups
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage merchant groups
   name: HiPay merchant-group API
   slug: hipay-merchant-group-api
-- description: The Order API from HiPay — 2 operation(s) for order.
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: The Order API from HiPay — 2 operation(s) for order.
   name: HiPay Order API
   slug: hipay-order-api
-- description: Everything you need to create orders and transactions
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Everything you need to create orders and transactions
   name: HiPay payments API
   slug: hipay-payments-api
-- description: The Routing API from HiPay — 1 operation(s) for routing.
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: The Routing API from HiPay — 1 operation(s) for routing.
   name: HiPay Routing API
   slug: hipay-routing-api
-- description: The Sessions API from HiPay — 1 operation(s) for sessions.
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: The Sessions API from HiPay — 1 operation(s) for sessions.
   name: HiPay Sessions API
   slug: hipay-sessions-api
-- description: Everything you need to get all settlement details
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Everything you need to get all settlement details
   name: HiPay settlement API
   slug: hipay-settlement-api
-- description: Everything you need to tokenize payment cards
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Everything you need to tokenize payment cards
   name: HiPay tokenization API
   slug: hipay-tokenization-api
-- description: The Transaction API from HiPay — 6 operation(s) for transaction.
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: The Transaction API from HiPay — 6 operation(s) for transaction.
   name: HiPay Transaction API
   slug: hipay-transaction-api
-- description: Transfer funds between HiPay accounts
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Transfer funds between HiPay accounts
   name: HiPay transfer API
   slug: hipay-transfer-api
-- description: Manage your Ultimate Beneficial Ownerships (UBO)
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage your Ultimate Beneficial Ownerships (UBO)
   name: HiPay ubo API
   slug: hipay-ubo-api
-- description: Manage your HiPay account
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Manage your HiPay account
   name: HiPay user-account API
   slug: hipay-user-account-api
-- description: Request a withdrawal from a HiPay account
+- baseURL: https://api-gateway.hipay.com
+  baseurl_source: declared
+  description: Request a withdrawal from a HiPay account
   name: HiPay withdrawal API
   slug: hipay-withdrawal-api
 artifact_total: 47
@@ -259,7 +299,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -269,7 +309,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 37.0
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -284,7 +324,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipay/refs/heads/main/screenshots/hipay-2026-06-20T182747.png
 security:

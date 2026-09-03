@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 105 operations · 45 acting
 api_count: 7
 apis:
-- description: The Auth API from LawVu — 1 operation(s) for auth.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Auth API from LawVu — 1 operation(s) for auth.
   name: LawVu Auth API
   slug: lawvu-auth-api
-- description: The ContractFiles API from LawVu — 1 operation(s) for contractfiles.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The ContractFiles API from LawVu — 1 operation(s) for contractfiles.
   name: LawVu ContractFiles API
   slug: lawvu-contractfiles-api
-- description: The ContractKeyDate API from LawVu — 1 operation(s) for contractkeydate.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The ContractKeyDate API from LawVu — 1 operation(s) for contractkeydate.
   name: LawVu ContractKeyDate API
   slug: lawvu-contractkeydate-api
-- description: The Contracts API from LawVu — 12 operation(s) for contracts.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Contracts API from LawVu — 12 operation(s) for contracts.
   name: LawVu Contracts API
   slug: lawvu-contracts-api
-- description: The ContractStatusMessage API from LawVu — 1 operation(s) for contractstatusmessage.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The ContractStatusMessage API from LawVu — 1 operation(s) for contractstatusmessage.
   name: LawVu ContractStatusMessage API
   slug: lawvu-contractstatusmessage-api
-- description: The ContractTemplates API from LawVu — 2 operation(s) for contracttemplates.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The ContractTemplates API from LawVu — 2 operation(s) for contracttemplates.
   name: LawVu ContractTemplates API
   slug: lawvu-contracttemplates-api
-- description: The ContractUser API from LawVu — 1 operation(s) for contractuser.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The ContractUser API from LawVu — 1 operation(s) for contractuser.
   name: LawVu ContractUser API
   slug: lawvu-contractuser-api
-- description: The Emails API from LawVu — 5 operation(s) for emails.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Emails API from LawVu — 5 operation(s) for emails.
   name: LawVu Emails API
   slug: lawvu-emails-api
-- description: The Features API from LawVu — 1 operation(s) for features.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Features API from LawVu — 1 operation(s) for features.
   name: LawVu Features API
   slug: lawvu-features-api
-- description: The Fields API from LawVu — 5 operation(s) for fields.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Fields API from LawVu — 5 operation(s) for fields.
   name: LawVu Fields API
   slug: lawvu-fields-api
-- description: The Files API from LawVu — 9 operation(s) for files.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Files API from LawVu — 9 operation(s) for files.
   name: LawVu Files API
   slug: lawvu-files-api
-- description: The Folders API from LawVu — 2 operation(s) for folders.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Folders API from LawVu — 2 operation(s) for folders.
   name: LawVu Folders API
   slug: lawvu-folders-api
-- description: The Invoices API from LawVu — 3 operation(s) for invoices.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Invoices API from LawVu — 3 operation(s) for invoices.
   name: LawVu Invoices API
   slug: lawvu-invoices-api
-- description: The LookupFields API from LawVu — 4 operation(s) for lookupfields.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The LookupFields API from LawVu — 4 operation(s) for lookupfields.
   name: LawVu LookupFields API
   slug: lawvu-lookupfields-api
-- description: The MatterCategories API from LawVu — 2 operation(s) for mattercategories.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The MatterCategories API from LawVu — 2 operation(s) for mattercategories.
   name: LawVu MatterCategories API
   slug: lawvu-mattercategories-api
-- description: The MatterFiles API from LawVu — 1 operation(s) for matterfiles.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The MatterFiles API from LawVu — 1 operation(s) for matterfiles.
   name: LawVu MatterFiles API
   slug: lawvu-matterfiles-api
-- description: The Matters API from LawVu — 11 operation(s) for matters.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Matters API from LawVu — 11 operation(s) for matters.
   name: LawVu Matters API
   slug: lawvu-matters-api
-- description: The MattersInvoices API from LawVu — 1 operation(s) for mattersinvoices.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The MattersInvoices API from LawVu — 1 operation(s) for mattersinvoices.
   name: LawVu MattersInvoices API
   slug: lawvu-mattersinvoices-api
-- description: The MatterStatusMessage API from LawVu — 1 operation(s) for matterstatusmessage.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The MatterStatusMessage API from LawVu — 1 operation(s) for matterstatusmessage.
   name: LawVu MatterStatusMessage API
   slug: lawvu-matterstatusmessage-api
-- description: The MatterTasks API from LawVu — 1 operation(s) for mattertasks.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The MatterTasks API from LawVu — 1 operation(s) for mattertasks.
   name: LawVu MatterTasks API
   slug: lawvu-mattertasks-api
-- description: The MatterTaskTemplates API from LawVu — 2 operation(s) for mattertasktemplates.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The MatterTaskTemplates API from LawVu — 2 operation(s) for mattertasktemplates.
   name: LawVu MatterTaskTemplates API
   slug: lawvu-mattertasktemplates-api
-- description: The Organisations API from LawVu — 5 operation(s) for organisations.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Organisations API from LawVu — 5 operation(s) for organisations.
   name: LawVu Organisations API
   slug: lawvu-organisations-api
-- description: The Recents API from LawVu — 1 operation(s) for recents.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Recents API from LawVu — 1 operation(s) for recents.
   name: LawVu Recents API
   slug: lawvu-recents-api
-- description: The Teams API from LawVu — 1 operation(s) for teams.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Teams API from LawVu — 1 operation(s) for teams.
   name: LawVu Teams API
   slug: lawvu-teams-api
-- description: The Users API from LawVu — 2 operation(s) for users.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The Users API from LawVu — 2 operation(s) for users.
   name: LawVu Users API
   slug: lawvu-users-api
-- description: The WebhookSubscriptions API from LawVu — 2 operation(s) for webhooksubscriptions.
+- baseURL: https://api.lawvu.com
+  baseurl_source: declared
+  description: The WebhookSubscriptions API from LawVu — 2 operation(s) for webhooksubscriptions.
   name: LawVu WebhookSubscriptions API
   slug: lawvu-webhooksubscriptions-api
 artifact_total: 60
@@ -386,7 +438,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -396,7 +448,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 54.4
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,7 +460,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/screenshots/lawvu-2026-07-25T224645.png
 security:

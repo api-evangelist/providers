@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 4
 apis:
-- description: The Food Nutrition Request - AI Vision (Beta) API from Edamam — 1 operation(s) for food nutrition request - ai vision (beta).
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The Food Nutrition Request - AI Vision (Beta) API from Edamam — 1 operation(s) for food nutrition request - ai vision (beta).
   name: Edamam Food Nutrition Request - AI Vision (Beta) API
   slug: edamam-recipes-food-nutrition-request-ai-vision-beta-api
-- description: The Food Request Step 1 - Parser API from Edamam — 1 operation(s) for food request step 1 - parser.
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The Food Request Step 1 - Parser API from Edamam — 1 operation(s) for food request step 1 - parser.
   name: Edamam Food Request Step 1 - Parser API
   slug: edamam-recipes-food-request-step-1-parser-api
-- description: The Food Request Step 2 - Nutrients API from Edamam — 1 operation(s) for food request step 2 - nutrients.
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The Food Request Step 2 - Nutrients API from Edamam — 1 operation(s) for food request step 2 - nutrients.
   name: Edamam Food Request Step 2 - Nutrients API
   slug: edamam-recipes-food-request-step-2-nutrients-api
-- description: The Food Search Autocomplete API from Edamam — 1 operation(s) for food search autocomplete.
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The Food Search Autocomplete API from Edamam — 1 operation(s) for food search autocomplete.
   name: Edamam Food Search Autocomplete API
   slug: edamam-recipes-food-search-autocomplete-api
-- description: The Nutrition Data API from Edamam — 1 operation(s) for nutrition data.
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The Nutrition Data API from Edamam — 1 operation(s) for nutrition data.
   name: Edamam Nutrition Data API
   slug: edamam-recipes-nutrition-data-api
-- description: The Nutrition Details API from Edamam — 1 operation(s) for nutrition details.
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The Nutrition Details API from Edamam — 1 operation(s) for nutrition details.
   name: Edamam Nutrition Details API
   slug: edamam-recipes-nutrition-details-api
-- description: Meal planning
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: Meal planning
   name: Edamam planner API
   slug: edamam-recipes-planner-api
-- description: Search or access individual recipes.
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: Search or access individual recipes.
   name: Edamam Recipe Search API
   slug: edamam-recipes-recipe-search-api
-- description: The *Shopping List API* provides aggregation of shopping item quantities over one or more ingredient lists, and optional referral to external shopping services. A `shopping-list` call may be issued on
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: The *Shopping List API* provides aggregation of shopping item quantities over one or more ingredient lists, and optional referral to external shopping services. A `shopping-list` call may be issued on
   name: Edamam Shopping List API
   slug: edamam-recipes-shopping-list-api
-- description: Daily values
+- baseURL: https://api.edamam.com/api/recipes/v2
+  baseurl_source: declared
+  description: Daily values
   name: Edamam values API
   slug: edamam-recipes-values-api
 artifact_total: 78
@@ -361,7 +381,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png
 security:

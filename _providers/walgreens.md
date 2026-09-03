@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Enables developers to offer photo printing services at 8,000+ Walgreens and Duane Reade stores for same-day pickup. Supports native JSON API integration with potential revenue share commissions for qu
   name: Walgreens Photo Prints API
   slug: walgreens-photo-prints
-- description: Appointment scheduling and management
+- baseURL: https://services.walgreens.com
+  baseurl_source: declared
+  description: Appointment scheduling and management
   name: Walgreens Appointments API
   slug: walgreens-appointments-api
-- description: Vaccine eligibility checking
+- baseURL: https://services.walgreens.com
+  baseurl_source: declared
+  description: Vaccine eligibility checking
   name: Walgreens Eligibility API
   slug: walgreens-eligibility-api
-- description: Patient registration for vaccine appointments
+- baseURL: https://services.walgreens.com
+  baseurl_source: declared
+  description: Patient registration for vaccine appointments
   name: Walgreens Patients API
   slug: walgreens-patients-api
-- description: Prescription refill operations
+- baseURL: https://services.walgreens.com
+  baseurl_source: declared
+  description: Prescription refill operations
   name: Walgreens Refills API
   slug: walgreens-refills-api
-- description: Store search and details operations
+- baseURL: https://services.walgreens.com
+  baseurl_source: declared
+  description: Store search and details operations
   name: Walgreens Stores API
   slug: walgreens-stores-api
-- description: Prescription transfer operations
+- baseURL: https://services.walgreens.com
+  baseurl_source: declared
+  description: Prescription transfer operations
   name: Walgreens Transfers API
   slug: walgreens-transfers-api
 artifact_total: 35
@@ -278,7 +290,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png
 security:

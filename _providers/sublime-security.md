@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 91 operations · 48 acting
 api_count: 2
 apis:
-- description: The BinExplode API from Sublime Security — 2 operation(s) for binexplode.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The BinExplode API from Sublime Security — 2 operation(s) for binexplode.
   name: Sublime Security BinExplode API
   slug: sublime-security-binexplode-api
-- description: The Email Bombs API from Sublime Security — 3 operation(s) for email bombs.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Email Bombs API from Sublime Security — 3 operation(s) for email bombs.
   name: Sublime Security Email Bombs API
   slug: sublime-security-email-bombs-api
-- description: The Enrichment API from Sublime Security — 1 operation(s) for enrichment.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Enrichment API from Sublime Security — 1 operation(s) for enrichment.
   name: Sublime Security Enrichment API
   slug: sublime-security-enrichment-api
-- description: The Events in the audit log API from Sublime Security — 3 operation(s) for events in the audit log.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Events in the audit log API from Sublime Security — 3 operation(s) for events in the audit log.
   name: Sublime Security Events in the audit log API
   slug: sublime-security-events-in-the-audit-log-api
-- description: The Hunt Jobs API from Sublime Security — 3 operation(s) for hunt jobs.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Hunt Jobs API from Sublime Security — 3 operation(s) for hunt jobs.
   name: Sublime Security Hunt Jobs API
   slug: sublime-security-hunt-jobs-api
-- description: The Lists API from Sublime Security — 4 operation(s) for lists.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Lists API from Sublime Security — 4 operation(s) for lists.
   name: Sublime Security Lists API
   slug: sublime-security-lists-api
-- description: The Live flow API from Sublime Security — 1 operation(s) for live flow.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Live flow API from Sublime Security — 1 operation(s) for live flow.
   name: Sublime Security Live flow API
   slug: sublime-security-live-flow-api
-- description: The Mailboxes API from Sublime Security — 1 operation(s) for mailboxes.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Mailboxes API from Sublime Security — 1 operation(s) for mailboxes.
   name: Sublime Security Mailboxes API
   slug: sublime-security-mailboxes-api
-- description: The Message Groups API from Sublime Security — 17 operation(s) for message groups.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Message Groups API from Sublime Security — 17 operation(s) for message groups.
   name: Sublime Security Message Groups API
   slug: sublime-security-message-groups-api
-- description: The Messages API from Sublime Security — 19 operation(s) for messages.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Messages API from Sublime Security — 19 operation(s) for messages.
   name: Sublime Security Messages API
   slug: sublime-security-messages-api
-- description: The Organizations API from Sublime Security — 4 operation(s) for organizations.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Organizations API from Sublime Security — 4 operation(s) for organizations.
   name: Sublime Security Organizations API
   slug: sublime-security-organizations-api
-- description: The Roles API from Sublime Security — 1 operation(s) for roles.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Roles API from Sublime Security — 1 operation(s) for roles.
   name: Sublime Security Roles API
   slug: sublime-security-roles-api
-- description: The Rules API from Sublime Security — 7 operation(s) for rules.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Rules API from Sublime Security — 7 operation(s) for rules.
   name: Sublime Security Rules API
   slug: sublime-security-rules-api
-- description: The SCIM API from Sublime Security — 8 operation(s) for scim.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The SCIM API from Sublime Security — 8 operation(s) for scim.
   name: Sublime Security SCIM API
   slug: sublime-security-scim-api
-- description: The Tasks API from Sublime Security — 1 operation(s) for tasks.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The Tasks API from Sublime Security — 1 operation(s) for tasks.
   name: Sublime Security Tasks API
   slug: sublime-security-tasks-api
-- description: The User Reports API from Sublime Security — 1 operation(s) for user reports.
+- baseURL: https://platform.sublime.security
+  baseurl_source: declared
+  description: The User Reports API from Sublime Security — 1 operation(s) for user reports.
   name: Sublime Security User Reports API
   slug: sublime-security-user-reports-api
 artifact_total: 39
@@ -277,7 +309,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -287,7 +319,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.0
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/screenshots/sublime-security-2026-08-17T082147.png
 security:

@@ -23,28 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'GS1 AISBL''s own live, unauthenticated GS1-Conformant Resolver, implementing the GS1-Conformant Resolver Standard 1.2.0. It takes a GS1 Digital Link URI built from a GS1 identification key and returns '
   name: GS1 Digital Link Resolver (id.gs1.org)
   slug: gs1-digital-link-resolver
-- description: Endpoints to capture EPCIS events in bulk or individually.
+- baseURL: https://id.gs1.org
+  baseurl_source: declared
+  description: Endpoints to capture EPCIS events in bulk or individually.
   name: GS1 Capture API
   slug: gs1-capture-api
-- description: Endpoints to obtain information about the endpoint, such as EPCIS and CBV versions or custom vocabularies.
+- baseURL: https://id.gs1.org
+  baseurl_source: declared
+  description: Endpoints to obtain information about the endpoint, such as EPCIS and CBV versions or custom vocabularies.
   name: GS1 Discovery API
   slug: gs1-discovery-api
-- description: Endpoints that allow you to retrieve EPCIS events as Web resources.
+- baseURL: https://id.gs1.org
+  baseurl_source: declared
+  description: Endpoints that allow you to retrieve EPCIS events as Web resources.
   name: GS1 Events API
   slug: gs1-events-api
-- description: 'Endpoints to create large named or anonymous queries using the EPCIS Query Language. Named queries have a custom name and are stored until deleted by the user. Anonymous queries are not persisted and '
+- baseURL: https://id.gs1.org
+  baseurl_source: declared
+  description: 'Endpoints to create large named or anonymous queries using the EPCIS Query Language. Named queries have a custom name and are stored until deleted by the user. Anonymous queries are not persisted and '
   name: GS1 Queries API
   slug: gs1-queries-api
-- description: EPCIS 2.0 supports query subscriptions using Webhooks or Websockets.
+- baseURL: https://id.gs1.org
+  baseurl_source: declared
+  description: EPCIS 2.0 supports query subscriptions using Webhooks or Websockets.
   name: GS1 Subscriptions API
   slug: gs1-subscriptions-api
-- description: 'Endpoints to browse or retrieve information about EPCIS resources: - events - types of events - electronic product codes - business steps - business locations - read points - dispositions'
+- baseURL: https://id.gs1.org
+  baseurl_source: declared
+  description: 'Endpoints to browse or retrieve information about EPCIS resources: - events - types of events - electronic product codes - business steps - business locations - read points - dispositions'
   name: GS1 Top Level API
   slug: gs1-top-level-api
 artifact_total: 13
@@ -205,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png
 slug: gs1

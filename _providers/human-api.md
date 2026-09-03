@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +35,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 15
 apis:
 - description: The consumer-mediated Data API (legacy v2.1) for querying a user's normalized health data - wellness data from wearable devices and apps, and medical data (records, labs, medications, encounters) from
   name: Human API Data API
   slug: human-api-data-api
-- description: API endpoints to authorize a client app for the Admin API
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to authorize a client app for the Admin API
   name: Human API Admin API
   slug: human-api-admin-api
-- description: API endpoints to generate tokens for Connect App
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to generate tokens for Connect App
   name: Human API Connect API
   slug: human-api-connect-api
-- description: API endpoints to get orders
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to get orders
   name: Human API Orders API
   slug: human-api-orders-api
-- description: API endpoints to manage user resports
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to manage user resports
   name: Human API Reports API
   slug: human-api-reports-api
-- description: API endpoints to request different resources
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to request different resources
   name: Human API Resources API
   slug: human-api-resources-api
-- description: API endpoints to manage subscriptions
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to manage subscriptions
   name: Human API Subscriptions API
   slug: human-api-subscriptions-api
-- description: API endpoints to manage users
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to manage users
   name: Human API Users API
   slug: human-api-users-api
 artifact_total: 19
@@ -296,7 +322,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -306,7 +332,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 55.4
+  previous_composite: 55.2
   provenance:
     conformance: first-party
     contracts:
@@ -327,7 +353,7 @@ score:
     regime_id: health
     score: 58.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:

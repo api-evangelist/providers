@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 21 operations · 15 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Action API from Octoparse — 1 operation(s) for action.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Action API from Octoparse — 1 operation(s) for action.
   name: Octoparse Action API
   slug: octoparse-action-api
-- description: The Actions API from Octoparse — 1 operation(s) for actions.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Actions API from Octoparse — 1 operation(s) for actions.
   name: Octoparse Actions API
   slug: octoparse-actions-api
-- description: The Cloud_ Extraction API from Octoparse — 2 operation(s) for cloud_ extraction.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Cloud_ Extraction API from Octoparse — 2 operation(s) for cloud_ extraction.
   name: Octoparse Cloud_ Extraction API
   slug: octoparse-cloud-extraction-api
-- description: The Copy API from Octoparse — 1 operation(s) for copy.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Copy API from Octoparse — 1 operation(s) for copy.
   name: Octoparse Copy API
   slug: octoparse-copy-api
-- description: The Data API from Octoparse — 5 operation(s) for data.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Data API from Octoparse — 5 operation(s) for data.
   name: Octoparse Data API
   slug: octoparse-data-api
-- description: The Files API from Octoparse — 1 operation(s) for files.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Files API from Octoparse — 1 operation(s) for files.
   name: Octoparse Files API
   slug: octoparse-files-api
-- description: The Group API from Octoparse — 1 operation(s) for group.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Group API from Octoparse — 1 operation(s) for group.
   name: Octoparse Group API
   slug: octoparse-group-api
-- description: The Groups API from Octoparse — 1 operation(s) for groups.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Groups API from Octoparse — 1 operation(s) for groups.
   name: Octoparse Groups API
   slug: octoparse-groups-api
-- description: The Items API from Octoparse — 1 operation(s) for items.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Items API from Octoparse — 1 operation(s) for items.
   name: Octoparse Items API
   slug: octoparse-items-api
-- description: The Search API from Octoparse — 1 operation(s) for search.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Search API from Octoparse — 1 operation(s) for search.
   name: Octoparse Search API
   slug: octoparse-search-api
-- description: The Statuses API from Octoparse — 2 operation(s) for statuses.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Statuses API from Octoparse — 2 operation(s) for statuses.
   name: Octoparse Statuses API
   slug: octoparse-statuses-api
-- description: The Stop API from Octoparse — 2 operation(s) for stop.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Stop API from Octoparse — 2 operation(s) for stop.
   name: Octoparse Stop API
   slug: octoparse-stop-api
-- description: The Subtasks API from Octoparse — 2 operation(s) for subtasks.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Subtasks API from Octoparse — 2 operation(s) for subtasks.
   name: Octoparse Subtasks API
   slug: octoparse-subtasks-api
-- description: The Token API from Octoparse — 1 operation(s) for token.
+- baseURL: https://openapi.octoparse.com
+  baseurl_source: declared
+  description: The Token API from Octoparse — 1 operation(s) for token.
   name: Octoparse Token API
   slug: octoparse-token-api
 artifact_total: 40
@@ -275,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/screenshots/octoparse-2026-06-20T190615.png
 security:

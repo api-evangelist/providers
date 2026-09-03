@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
-- description: The Bucket API from Google Cloud Logging — 1 operation(s) for bucket.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Bucket API from Google Cloud Logging — 1 operation(s) for bucket.
   name: Google Cloud Logging Bucket API
   slug: google-cloud-logging-bucket-api
-- description: The Buckets API from Google Cloud Logging — 1 operation(s) for buckets.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Buckets API from Google Cloud Logging — 1 operation(s) for buckets.
   name: Google Cloud Logging Buckets API
   slug: google-cloud-logging-buckets-api
-- description: The Entries:copy API from Google Cloud Logging — 1 operation(s) for entries:copy.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Entries:copy API from Google Cloud Logging — 1 operation(s) for entries:copy.
   name: Google Cloud Logging Entries:copy API
   slug: google-cloud-logging-entries-copy-api
-- description: The Entries:list API from Google Cloud Logging — 1 operation(s) for entries:list.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Entries:list API from Google Cloud Logging — 1 operation(s) for entries:list.
   name: Google Cloud Logging Entries:list API
   slug: google-cloud-logging-entries-list-api
-- description: The Entries:tail API from Google Cloud Logging — 1 operation(s) for entries:tail.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Entries:tail API from Google Cloud Logging — 1 operation(s) for entries:tail.
   name: Google Cloud Logging Entries:tail API
   slug: google-cloud-logging-entries-tail-api
-- description: The Entries:write API from Google Cloud Logging — 1 operation(s) for entries:write.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Entries:write API from Google Cloud Logging — 1 operation(s) for entries:write.
   name: Google Cloud Logging Entries:write API
   slug: google-cloud-logging-entries-write-api
-- description: The Exclusions API from Google Cloud Logging — 1 operation(s) for exclusions.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Exclusions API from Google Cloud Logging — 1 operation(s) for exclusions.
   name: Google Cloud Logging Exclusions API
   slug: google-cloud-logging-exclusions-api
-- description: The Google Cloud Logging API API from Google Cloud Logging — 1 operation(s) for google cloud logging api.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Google Cloud Logging API API from Google Cloud Logging — 1 operation(s) for google cloud logging api.
   name: Google Cloud Logging Google Cloud Logging API API
   slug: google-cloud-logging-google-cloud-logging-api-api
-- description: The Sinks API from Google Cloud Logging — 1 operation(s) for sinks.
+- baseURL: https://logging.googleapis.com
+  baseurl_source: declared
+  description: The Sinks API from Google Cloud Logging — 1 operation(s) for sinks.
   name: Google Cloud Logging Sinks API
   slug: google-cloud-logging-sinks-api
 artifact_total: 28
@@ -248,7 +266,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -258,7 +276,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 49.8
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -267,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/screenshots/google-cloud-logging-2026-08-17T083131.png
 security:

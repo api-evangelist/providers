@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 34 operations · 4 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Assets API from Pendle — 3 operation(s) for assets.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Assets API from Pendle — 3 operation(s) for assets.
   name: Pendle Assets API
   slug: pendle-assets-api
-- description: The Chains API from Pendle — 1 operation(s) for chains.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Chains API from Pendle — 1 operation(s) for chains.
   name: Pendle Chains API
   slug: pendle-chains-api
-- description: The Dashboard API from Pendle — 2 operation(s) for dashboard.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Dashboard API from Pendle — 2 operation(s) for dashboard.
   name: Pendle Dashboard API
   slug: pendle-dashboard-api
-- description: The Limit Orders API from Pendle — 7 operation(s) for limit orders.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Limit Orders API from Pendle — 7 operation(s) for limit orders.
   name: Pendle Limit Orders API
   slug: pendle-limit-orders-api
-- description: The Markets API from Pendle — 4 operation(s) for markets.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Markets API from Pendle — 4 operation(s) for markets.
   name: Pendle Markets API
   slug: pendle-markets-api
-- description: The Pendle Emission API from Pendle — 1 operation(s) for pendle emission.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Pendle Emission API from Pendle — 1 operation(s) for pendle emission.
   name: Pendle Pendle Emission API
   slug: pendle-pendle-emission-api
-- description: The SDK API from Pendle — 10 operation(s) for sdk.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The SDK API from Pendle — 10 operation(s) for sdk.
   name: Pendle SDK API
   slug: pendle-sdk-api
-- description: The Statistics API from Pendle — 1 operation(s) for statistics.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Statistics API from Pendle — 1 operation(s) for statistics.
   name: Pendle Statistics API
   slug: pendle-statistics-api
-- description: The Transactions API from Pendle — 2 operation(s) for transactions.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Transactions API from Pendle — 2 operation(s) for transactions.
   name: Pendle Transactions API
   slug: pendle-transactions-api
-- description: The Ve Pendle API from Pendle — 2 operation(s) for ve pendle.
+- baseURL: https://api-v2.pendle.finance/core
+  baseurl_source: declared
+  description: The Ve Pendle API from Pendle — 2 operation(s) for ve pendle.
   name: Pendle Ve Pendle API
   slug: pendle-ve-pendle-api
 artifact_total: 259
@@ -930,7 +950,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/screenshots/pendle-2026-06-20T191632.png
 security:

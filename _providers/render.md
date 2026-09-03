@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 3
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 196 operations · 101 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: '[Audit Logs](https://render.com/docs/audit-logs) allow you to retrieve audit logs for workspaces and organizations. These logs provide a trail of actions and changes made to your resources.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Audit Logs](https://render.com/docs/audit-logs) allow you to retrieve audit logs for workspaces and organizations. These logs provide a trail of actions and changes made to your resources.'
   name: Render Audit Logs API
   slug: render-audit-logs-api
-- description: '[Blueprints](https://render.com/docs/infrastructure-as-code) allow you to define your resources in a `render.yaml` file and automatically sync changes to your Render services. The API gives control ov'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Blueprints](https://render.com/docs/infrastructure-as-code) allow you to define your resources in a `render.yaml` file and automatically sync changes to your Render services. The API gives control ov'
   name: Render Blueprints API
   slug: render-blueprints-api
-- description: '[Custom Domains](https://render.com/docs/custom-domains) allow you to associate domain names with your Render services.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Custom Domains](https://render.com/docs/custom-domains) allow you to associate domain names with your Render services.'
   name: Render Custom Domains API
   slug: render-custom-domains-api
-- description: '[Deploys](https://render.com/docs/deploys) are the process of updating your service with new code or configuration. These endpoints allow you to retrieve data on the deploys of your services as well a'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Deploys](https://render.com/docs/deploys) are the process of updating your service with new code or configuration. These endpoints allow you to retrieve data on the deploys of your services as well a'
   name: Render Deploys API
   slug: render-deploys-api
-- description: '[Disks](https://render.com/docs/disks) allow you to attach persistent storage to your services.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Disks](https://render.com/docs/disks) allow you to attach persistent storage to your services.'
   name: Render Disks API
   slug: render-disks-api
-- description: Collections of environment variables and secret files that can be shared between multiple services
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: Collections of environment variables and secret files that can be shared between multiple services
   name: Render Environment Groups API
   slug: render-environment-groups-api
-- description: View events for a service, postgres or key value
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: View events for a service, postgres or key value
   name: Render Events API
   slug: render-events-api
-- description: '[Key Value](https://render.com/docs/key-value) allows you to interact with your Render Key Value instances.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Key Value](https://render.com/docs/key-value) allows you to interact with your Render Key Value instances.'
   name: Render Key Value API
   slug: render-key-value-api
-- description: '[Logs](https://render.com/docs/logging) allow you to retrieve logs for your services, Postgres databases, and redis instances. You can query for logs or subscribe to logs in real-time via a websocket.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Logs](https://render.com/docs/logging) allow you to retrieve logs for your services, Postgres databases, and redis instances. You can query for logs or subscribe to logs in real-time via a websocket.'
   name: Render Logs API
   slug: render-logs-api
-- description: The `Maintenance` endpoints allow you to retrieve the latest maintenance runs for your Render services. You can also reschedule maintenance or trigger it to start immediately.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: The `Maintenance` endpoints allow you to retrieve the latest maintenance runs for your Render services. You can also reschedule maintenance or trigger it to start immediately.
   name: Render Maintenance API
   slug: render-maintenance-api
-- description: The `Metrics` endpoints allow you to retrieve metrics for your services, Postgres databases, and redis instances.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: The `Metrics` endpoints allow you to retrieve metrics for your services, Postgres databases, and redis instances.
   name: Render Metrics API
   slug: render-metrics-api
-- description: '[Notification Settings](https://render.com/docs/notifications) allow you to configure which notifications you want to recieve, and where you will receive them.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Notification Settings](https://render.com/docs/notifications) allow you to configure which notifications you want to recieve, and where you will receive them.'
   name: Render Notification Settings API
   slug: render-notification-settings-api
-- description: '[One-off jobs](https://render.com/docs/one-off-jobs) are standalone tasks that run to completion using the most recent successful build of an existing service.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[One-off jobs](https://render.com/docs/one-off-jobs) are standalone tasks that run to completion using the most recent successful build of an existing service.'
   name: Render One-Off Jobs API
   slug: render-one-off-jobs-api
-- description: '[Postgres](https://render.com/docs/postgresql) endpoints enable you to interact with your Render Postgres databases. You can manage databases, exports, recoveries, and failovers.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Postgres](https://render.com/docs/postgresql) endpoints enable you to interact with your Render Postgres databases. You can manage databases, exports, recoveries, and failovers.'
   name: Render Postgres API
   slug: render-postgres-api
-- description: Collections of services and other resources organized by environment (staging, production, etc.)
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: Collections of services and other resources organized by environment (staging, production, etc.)
   name: Render Projects & Environments API
   slug: render-projects-environments-api
-- description: '[Redis](https://render.com/docs/redis) allows you to interact with your Render Redis instances. This API is deprecated in favor of the Key Value API.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Redis](https://render.com/docs/redis) allows you to interact with your Render Redis instances. This API is deprecated in favor of the Key Value API.'
   name: Render Redis (Deprecated) API
   slug: render-redis-deprecated-api
-- description: '[Registry Credentials](https://render.com/docs/deploying-an-image#credentials-for-private-images) allows you to manage credentials for private Docker images.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Registry Credentials](https://render.com/docs/deploying-an-image#credentials-for-private-images) allows you to manage credentials for private Docker images.'
   name: Render Registry Credentials API
   slug: render-registry-credentials-api
-- description: '[Services](https://render.com/docs/service-types) allow you to manage your web services, private services, background workers, cron jobs, and static sites.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Services](https://render.com/docs/service-types) allow you to manage your web services, private services, background workers, cron jobs, and static sites.'
   name: Render Services API
   slug: render-services-api
-- description: '[Cron Jobs](https://render.com/docs/cronjobs) allow you to interact with runs of your cron jobs.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Cron Jobs](https://render.com/docs/cronjobs) allow you to interact with runs of your cron jobs.'
   name: Render Services - Cron Jobs API
   slug: render-services-cron-jobs-api
-- description: Use HTTP headers to inject response headers in static site responses. You can also use wildcards like /path/* to add headers to responses for all matching request paths.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: Use HTTP headers to inject response headers in static site responses. You can also use wildcards like /path/* to add headers to responses for all matching request paths.
   name: Render Services - Headers API
   slug: render-services-headers-api
-- description: Add Redirect or Rewrite Rules to modify requests to your site without writing code. You can use URL parameters to capture path segments, and wildcards to redirect everything under a given path.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: Add Redirect or Rewrite Rules to modify requests to your site without writing code. You can use URL parameters to capture path segments, and wildcards to redirect everything under a given path.
   name: Render Services - Routes API
   slug: render-services-routes-api
-- description: The `User` endpoints allow you to retrieve information about the authenticated user
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: The `User` endpoints allow you to retrieve information about the authenticated user
   name: Render Users API
   slug: render-users-api
-- description: '[Webhooks](https://render.com/docs/webhooks) allows you to manage your Render webhook configuration.'
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: '[Webhooks](https://render.com/docs/webhooks) allows you to manage your Render webhook configuration.'
   name: Render Webhooks API
   slug: render-webhooks-api
-- description: Run and manage tasks as part of [Render Workflows](https://render.com/docs/workflows). Workflows are in public beta.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: Run and manage tasks as part of [Render Workflows](https://render.com/docs/workflows). Workflows are in public beta.
   name: Render Workflow Tasks (Beta) API
   slug: render-workflow-tasks-beta-api
-- description: Create and manage [Render Workflows](https://render.com/docs/workflows) services. Workflows are in public beta.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: Create and manage [Render Workflows](https://render.com/docs/workflows) services. Workflows are in public beta.
   name: Render Workflows (Beta) API
   slug: render-workflows-beta-api
-- description: The `Workspaces` endpoints supply more information about the workspaces that your API key has access to. This category was previously called `Owners`, as reflected by endpoint paths.
+- baseURL: https://api.render.com/v1
+  baseurl_source: declared
+  description: The `Workspaces` endpoints supply more information about the workspaces that your API key has access to. This category was previously called `Owners`, as reflected by endpoint paths.
   name: Render Workspaces API
   slug: render-workspaces-api
 artifact_total: 281
@@ -975,7 +1027,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -985,7 +1037,7 @@ score:
     discoverability: 51.9
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -994,7 +1046,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/render/refs/heads/main/screenshots/render-2026-08-17T083315.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 137 operations · 79 acting
 api_count: 5
 apis:
-- description: The ApiVersions API from Radius — 2 operation(s) for apiversions.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ApiVersions API from Radius — 2 operation(s) for apiversions.
   name: Radius ApiVersions API
   slug: radius-apiversions-api
-- description: The Applications API from Radius — 3 operation(s) for applications.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Applications API from Radius — 3 operation(s) for applications.
   name: Radius Applications API
   slug: radius-applications-api
-- description: The AwsCredentials API from Radius — 2 operation(s) for awscredentials.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AwsCredentials API from Radius — 2 operation(s) for awscredentials.
   name: Radius AwsCredentials API
   slug: radius-awscredentials-api
-- description: The AwsPlanes API from Radius — 2 operation(s) for awsplanes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AwsPlanes API from Radius — 2 operation(s) for awsplanes.
   name: Radius AwsPlanes API
   slug: radius-awsplanes-api
-- description: The AzureCredentials API from Radius — 2 operation(s) for azurecredentials.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AzureCredentials API from Radius — 2 operation(s) for azurecredentials.
   name: Radius AzureCredentials API
   slug: radius-azurecredentials-api
-- description: The AzurePlanes API from Radius — 2 operation(s) for azureplanes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AzurePlanes API from Radius — 2 operation(s) for azureplanes.
   name: Radius AzurePlanes API
   slug: radius-azureplanes-api
-- description: The ConfigurationStores API from Radius — 2 operation(s) for configurationstores.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ConfigurationStores API from Radius — 2 operation(s) for configurationstores.
   name: Radius ConfigurationStores API
   slug: radius-configurationstores-api
-- description: The Containers API from Radius — 2 operation(s) for containers.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Containers API from Radius — 2 operation(s) for containers.
   name: Radius Containers API
   slug: radius-containers-api
-- description: The Environments API from Radius — 3 operation(s) for environments.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Environments API from Radius — 3 operation(s) for environments.
   name: Radius Environments API
   slug: radius-environments-api
-- description: The Extenders API from Radius — 3 operation(s) for extenders.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Extenders API from Radius — 3 operation(s) for extenders.
   name: Radius Extenders API
   slug: radius-extenders-api
-- description: The Gateways API from Radius — 2 operation(s) for gateways.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Gateways API from Radius — 2 operation(s) for gateways.
   name: Radius Gateways API
   slug: radius-gateways-api
-- description: The Locations API from Radius — 2 operation(s) for locations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Locations API from Radius — 2 operation(s) for locations.
   name: Radius Locations API
   slug: radius-locations-api
-- description: The MongoDatabases API from Radius — 3 operation(s) for mongodatabases.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The MongoDatabases API from Radius — 3 operation(s) for mongodatabases.
   name: Radius MongoDatabases API
   slug: radius-mongodatabases-api
-- description: The Operations API from Radius — 4 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Operations API from Radius — 4 operation(s) for operations.
   name: Radius Operations API
   slug: radius-operations-api
-- description: The Planes API from Radius — 1 operation(s) for planes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Planes API from Radius — 1 operation(s) for planes.
   name: Radius Planes API
   slug: radius-planes-api
-- description: The PubSubBrokers API from Radius — 2 operation(s) for pubsubbrokers.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PubSubBrokers API from Radius — 2 operation(s) for pubsubbrokers.
   name: Radius PubSubBrokers API
   slug: radius-pubsubbrokers-api
-- description: The RabbitMQQueues API from Radius — 3 operation(s) for rabbitmqqueues.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The RabbitMQQueues API from Radius — 3 operation(s) for rabbitmqqueues.
   name: Radius RabbitMQQueues API
   slug: radius-rabbitmqqueues-api
-- description: The RadiusPlanes API from Radius — 2 operation(s) for radiusplanes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The RadiusPlanes API from Radius — 2 operation(s) for radiusplanes.
   name: Radius RadiusPlanes API
   slug: radius-radiusplanes-api
-- description: The RedisCaches API from Radius — 3 operation(s) for rediscaches.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The RedisCaches API from Radius — 3 operation(s) for rediscaches.
   name: Radius RedisCaches API
   slug: radius-rediscaches-api
-- description: The ResourceGroups API from Radius — 2 operation(s) for resourcegroups.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ResourceGroups API from Radius — 2 operation(s) for resourcegroups.
   name: Radius ResourceGroups API
   slug: radius-resourcegroups-api
-- description: The ResourceProviders API from Radius — 4 operation(s) for resourceproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ResourceProviders API from Radius — 4 operation(s) for resourceproviders.
   name: Radius ResourceProviders API
   slug: radius-resourceproviders-api
-- description: The Resources API from Radius — 1 operation(s) for resources.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Resources API from Radius — 1 operation(s) for resources.
   name: Radius Resources API
   slug: radius-resources-api
-- description: The ResourceTypes API from Radius — 2 operation(s) for resourcetypes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ResourceTypes API from Radius — 2 operation(s) for resourcetypes.
   name: Radius ResourceTypes API
   slug: radius-resourcetypes-api
-- description: The SecretStores API from Radius — 5 operation(s) for secretstores.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SecretStores API from Radius — 5 operation(s) for secretstores.
   name: Radius SecretStores API
   slug: radius-secretstores-api
-- description: The SqlDatabases API from Radius — 3 operation(s) for sqldatabases.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SqlDatabases API from Radius — 3 operation(s) for sqldatabases.
   name: Radius SqlDatabases API
   slug: radius-sqldatabases-api
-- description: The StateStores API from Radius — 2 operation(s) for statestores.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The StateStores API from Radius — 2 operation(s) for statestores.
   name: Radius StateStores API
   slug: radius-statestores-api
-- description: The Volumes API from Radius — 2 operation(s) for volumes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Volumes API from Radius — 2 operation(s) for volumes.
   name: Radius Volumes API
   slug: radius-volumes-api
 artifact_total: 67
@@ -343,7 +397,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png
 security:

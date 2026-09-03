@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 116 operations · 64 acting
 api_count: 1
 apis:
-- description: Endpoints agents and orchestrators use to bootstrap gateway access (container config, credential stubs, gateway skill).
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Endpoints agents and orchestrators use to bootstrap gateway access (container config, credential stubs, gateway skill).
   name: Onecli Agent Setup API
   slug: onecli-agent-setup-api
-- description: Manage agents and their access tokens, secrets, and configuration.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage agents and their access tokens, secrets, and configuration.
   name: Onecli Agents API
   slug: onecli-agents-api
-- description: Long-poll for pending manual-approval requests and submit approve/deny decisions.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Long-poll for pending manual-approval requests and submit approve/deny decisions.
   name: Onecli Approvals API
   slug: onecli-approvals-api
-- description: Manage app connections (OAuth and direct credentials), BYOC configuration, permission catalogs, and blocklists.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage app connections (OAuth and direct credentials), BYOC configuration, permission catalogs, and blocklists.
   name: Onecli Apps API
   slug: onecli-apps-api
-- description: App connections as a top-level resource.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: App connections as a top-level resource.
   name: Onecli Connections API
   slug: onecli-connections-api
-- description: Migrate data from a self-hosted instance to OneCLI Cloud.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Migrate data from a self-hosted instance to OneCLI Cloud.
   name: Onecli Migration API
   slug: onecli-migration-api
-- description: Connect apps (OAuth and direct credentials) and manage BYOC app configuration at the organization level. Available on OneCLI Cloud and self-hosted Enterprise.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Connect apps (OAuth and direct credentials) and manage BYOC app configuration at the organization level. Available on OneCLI Cloud and self-hosted Enterprise.
   name: Onecli Organization App Config API
   slug: onecli-organization-app-config-api
-- description: Long-poll for manual-approval requests across every project in the organization. Available on OneCLI Cloud and self-hosted Enterprise.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Long-poll for manual-approval requests across every project in the organization. Available on OneCLI Cloud and self-hosted Enterprise.
   name: Onecli Organization Approvals API
   slug: onecli-organization-approvals-api
-- description: Manage app connections at the organization level. Available on OneCLI Cloud and self-hosted Enterprise.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage app connections at the organization level. Available on OneCLI Cloud and self-hosted Enterprise.
   name: Onecli Organization Connections API
   slug: onecli-organization-connections-api
-- description: Inspect and detach an organization's partner relationship. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Inspect and detach an organization's partner relationship. Cloud only.
   name: Onecli Organization Partner API
   slug: onecli-organization-partner-api
-- description: Manage policy rules at the organization level. Organization rules apply across all projects. Available on OneCLI Cloud and self-hosted Enterprise.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage policy rules at the organization level. Organization rules apply across all projects. Available on OneCLI Cloud and self-hosted Enterprise.
   name: Onecli Organization Rules API
   slug: onecli-organization-rules-api
-- description: Manage secrets at the organization level. Organization secrets apply across all projects. Available on OneCLI Cloud and self-hosted Enterprise.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage secrets at the organization level. Organization secrets apply across all projects. Available on OneCLI Cloud and self-hosted Enterprise.
   name: Onecli Organization Secrets API
   slug: onecli-organization-secrets-api
-- description: Organization-wide policy settings. Available on OneCLI Cloud and self-hosted Enterprise.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Organization-wide policy settings. Available on OneCLI Cloud and self-hosted Enterprise.
   name: Onecli Organization Settings API
   slug: onecli-organization-settings-api
-- description: Cap how much an organization can spend on a partner LLM key. Owner or admin only. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Cap how much an organization can spend on a partner LLM key. Owner or admin only. Cloud only.
   name: Onecli Partner Budgets API
   slug: onecli-partner-budgets-api
-- description: Manage who can sign in to your partner portal. Owner or admin only. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage who can sign in to your partner portal. Owner or admin only. Cloud only.
   name: Onecli Partner Members API
   slug: onecli-partner-members-api
-- description: Create and manage customer organizations as a partner. Requires a Partner API key. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Create and manage customer organizations as a partner. Requires a Partner API key. Cloud only.
   name: Onecli Partner Organizations API
   slug: onecli-partner-organizations-api
-- description: Manage projects within an unclaimed partner organization. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage projects within an unclaimed partner organization. Cloud only.
   name: Onecli Partner Projects API
   slug: onecli-partner-projects-api
-- description: Manage partner-level secrets inherited by every organization you manage. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage partner-level secrets inherited by every organization you manage. Cloud only.
   name: Onecli Partner Secrets API
   slug: onecli-partner-secrets-api
-- description: Manage projects within your organization. Requires admin role for create/update and owner role for delete. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage projects within your organization. Requires admin role for create/update and owner role for delete. Cloud only.
   name: Onecli Projects API
   slug: onecli-projects-api
-- description: Manage policy rules that control how agents interact with external services.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage policy rules that control how agents interact with external services.
   name: Onecli Rules API
   slug: onecli-rules-api
-- description: Manage credentials that the gateway injects into outbound requests.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage credentials that the gateway injects into outbound requests.
   name: Onecli Secrets API
   slug: onecli-secrets-api
-- description: Provision team members programmatically. Requires admin role. Cloud only.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Provision team members programmatically. Requires admin role. Cloud only.
   name: Onecli Team API
   slug: onecli-team-api
-- description: Manage your user profile and API keys.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Manage your user profile and API keys.
   name: Onecli User API
   slug: onecli-user-api
-- description: Health check and project resource summaries.
+- baseURL: https://api.onecli.sh/v1
+  baseurl_source: declared
+  description: Health check and project resource summaries.
   name: Onecli Utility API
   slug: onecli-utility-api
 artifact_total: 53
@@ -352,7 +400,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/screenshots/onecli-2026-08-07T190306.png
 security:

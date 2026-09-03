@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,28 +46,42 @@ agentic_access:
   summary_line: 19 operations · 9 acting
 api_count: 6
 apis:
-- description: 'The ShipMonk event surface: four HTTP callback events (order shipment notification, order status change, return status change, receiving status change) declared in the OpenAPI 3.1 webhooks block. Deli'
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: 'The ShipMonk event surface: four HTTP callback events (order shipment notification, order status change, return status change, receiving status change) declared in the OpenAPI 3.1 webhooks block. Deli'
   name: ShipMonk Webhooks
   slug: shipmonk-webhooks
 - description: 'A live Model Context Protocol endpoint served from ShipMonk''s own developer-docs host. tools/list responds anonymously with five spec-driven tools: four OpenAPI introspection tools plus execute-reques'
   name: ShipMonk MCP Server
   slug: shipmonk-mcp
-- description: The Orders API from ShipMonk — 5 operation(s) for orders.
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: The Orders API from ShipMonk — 5 operation(s) for orders.
   name: ShipMonk Orders API
   slug: shipmonk-orders-api
-- description: The Products API from ShipMonk — 4 operation(s) for products.
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: The Products API from ShipMonk — 4 operation(s) for products.
   name: ShipMonk Products API
   slug: shipmonk-products-api
-- description: The Receivings API from ShipMonk — 4 operation(s) for receivings.
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: The Receivings API from ShipMonk — 4 operation(s) for receivings.
   name: ShipMonk Receivings API
   slug: shipmonk-receivings-api
-- description: The Returns API from ShipMonk — 3 operation(s) for returns.
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: The Returns API from ShipMonk — 3 operation(s) for returns.
   name: ShipMonk Returns API
   slug: shipmonk-returns-api
-- description: The Warehouses API from ShipMonk — 1 operation(s) for warehouses.
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: The Warehouses API from ShipMonk — 1 operation(s) for warehouses.
   name: ShipMonk Warehouses API
   slug: shipmonk-warehouses-api
-- description: 'ShipMonk supports webhooks to help you stay updated in real time as key events happen in our system. Currently, we provide webhooks for the following areas: - Orders - Returns - Receivings ## Webhooks'
+- baseURL: https://api.shipmonk.com
+  baseurl_source: declared
+  description: 'ShipMonk supports webhooks to help you stay updated in real time as key events happen in our system. Currently, we provide webhooks for the following areas: - Orders - Returns - Receivings ## Webhooks'
   name: ShipMonk Webhooks API
   slug: shipmonk-webhooks-api
 artifact_total: 22
@@ -290,7 +317,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -300,7 +327,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 51.0
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,7 +339,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/screenshots/shipmonk-2026-08-17T081833.png
 security:

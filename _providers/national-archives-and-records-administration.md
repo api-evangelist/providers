@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 64 operations · 22 acting
 api_count: 1
 apis:
-- description: The Accounts API from National Archives and Records Administration — 4 operation(s) for accounts.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Accounts API from National Archives and Records Administration — 4 operation(s) for accounts.
   name: National Archives and Records Administration Accounts API
   slug: national-archives-and-records-administration-accounts-api
-- description: For important announcements
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: For important announcements
   name: National Archives and Records Administration Announcements API
   slug: national-archives-and-records-administration-announcements-api
-- description: Comment search and data retrieval
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: Comment search and data retrieval
   name: National Archives and Records Administration Comments API
   slug: national-archives-and-records-administration-comments-api
-- description: Contribution search and data retrieval; Contributions include Tags, Transcriptions, and Comments - search/retrieve contributions when you want to return any contribution type.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: Contribution search and data retrieval; Contributions include Tags, Transcriptions, and Comments - search/retrieve contributions when you want to return any contribution type.
   name: National Archives and Records Administration Contributions API
   slug: national-archives-and-records-administration-contributions-api
-- description: The Extracted Text API from National Archives and Records Administration — 1 operation(s) for extracted text.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Extracted Text API from National Archives and Records Administration — 1 operation(s) for extracted text.
   name: National Archives and Records Administration Extracted Text API
   slug: national-archives-and-records-administration-extracted-text-api
-- description: The Justifications API from National Archives and Records Administration — 1 operation(s) for justifications.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Justifications API from National Archives and Records Administration — 1 operation(s) for justifications.
   name: National Archives and Records Administration Justifications API
   slug: national-archives-and-records-administration-justifications-api
-- description: The Metadata API from National Archives and Records Administration — 1 operation(s) for metadata.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Metadata API from National Archives and Records Administration — 1 operation(s) for metadata.
   name: National Archives and Records Administration Metadata API
   slug: national-archives-and-records-administration-metadata-api
-- description: Information about record online availability
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: Information about record online availability
   name: National Archives and Records Administration Online Availability API
   slug: national-archives-and-records-administration-online-availability-api
-- description: The Other Extracted Text API from National Archives and Records Administration — 1 operation(s) for other extracted text.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Other Extracted Text API from National Archives and Records Administration — 1 operation(s) for other extracted text.
   name: National Archives and Records Administration Other Extracted Text API
   slug: national-archives-and-records-administration-other-extracted-text-api
-- description: The Partner API from National Archives and Records Administration — 5 operation(s) for partner.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Partner API from National Archives and Records Administration — 5 operation(s) for partner.
   name: National Archives and Records Administration Partner API
   slug: national-archives-and-records-administration-partner-api
-- description: Record description search and data retrieval
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: Record description search and data retrieval
   name: National Archives and Records Administration Records API
   slug: national-archives-and-records-administration-records-api
-- description: The Statistics API from National Archives and Records Administration — 1 operation(s) for statistics.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Statistics API from National Archives and Records Administration — 1 operation(s) for statistics.
   name: National Archives and Records Administration Statistics API
   slug: national-archives-and-records-administration-statistics-api
-- description: Tag search and data retrieval
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: Tag search and data retrieval
   name: National Archives and Records Administration Tags API
   slug: national-archives-and-records-administration-tags-api
-- description: Transcription search and data retrieval
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: Transcription search and data retrieval
   name: National Archives and Records Administration Transcriptions API
   slug: national-archives-and-records-administration-transcriptions-api
-- description: The Users API from National Archives and Records Administration — 3 operation(s) for users.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Users API from National Archives and Records Administration — 3 operation(s) for users.
   name: National Archives and Records Administration Users API
   slug: national-archives-and-records-administration-users-api
-- description: The Utilities API from National Archives and Records Administration — 1 operation(s) for utilities.
+- baseURL: https://catalog.archives.gov/api/v2/
+  baseurl_source: declared
+  description: The Utilities API from National Archives and Records Administration — 1 operation(s) for utilities.
   name: National Archives and Records Administration Utilities API
   slug: national-archives-and-records-administration-utilities-api
 artifact_total: 39
@@ -230,7 +262,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/screenshots/national-archives-and-records-administration-2026-06-20T185959.png
 security:

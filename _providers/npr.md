@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -47,13 +47,19 @@ apis:
 - description: Audio recommendations tailored to a user's preferences.
   name: NPR Listening
   slug: listening
-- description: The Authorization API from NPR — 4 operation(s) for authorization.
+- baseURL: https://listening.api.npr.org/
+  baseurl_source: declared
+  description: The Authorization API from NPR — 4 operation(s) for authorization.
   name: NPR Authorization API
   slug: npr-authorization-api
-- description: The Identity API from NPR — 3 operation(s) for identity.
+- baseURL: https://listening.api.npr.org/
+  baseurl_source: declared
+  description: The Identity API from NPR — 3 operation(s) for identity.
   name: NPR Identity API
   slug: npr-identity-api
-- description: The Stationfinder API from NPR — 2 operation(s) for stationfinder.
+- baseURL: https://listening.api.npr.org/
+  baseurl_source: declared
+  description: The Stationfinder API from NPR — 2 operation(s) for stationfinder.
   name: NPR Stationfinder API
   slug: npr-stationfinder-api
 artifact_total: 15
@@ -164,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/screenshots/npr-2026-06-20T190453.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 40 operations · 17 acting
 api_count: 1
 apis:
-- description: The Activity API from Flatcar Container Linux — 1 operation(s) for activity.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Activity API from Flatcar Container Linux — 1 operation(s) for activity.
   name: Flatcar Container Linux Activity API
   slug: flatcar-container-linux-activity-api
-- description: The Apps API from Flatcar Container Linux — 17 operation(s) for apps.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Apps API from Flatcar Container Linux — 17 operation(s) for apps.
   name: Flatcar Container Linux Apps API
   slug: flatcar-container-linux-apps-api
-- description: The Channels API from Flatcar Container Linux — 2 operation(s) for channels.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Channels API from Flatcar Container Linux — 2 operation(s) for channels.
   name: Flatcar Container Linux Channels API
   slug: flatcar-container-linux-channels-api
-- description: The Config API from Flatcar Container Linux — 1 operation(s) for config.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Config API from Flatcar Container Linux — 1 operation(s) for config.
   name: Flatcar Container Linux Config API
   slug: flatcar-container-linux-config-api
-- description: The Health API from Flatcar Container Linux — 1 operation(s) for health.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Health API from Flatcar Container Linux — 1 operation(s) for health.
   name: Flatcar Container Linux Health API
   slug: flatcar-container-linux-health-api
-- description: The Instances API from Flatcar Container Linux — 1 operation(s) for instances.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Instances API from Flatcar Container Linux — 1 operation(s) for instances.
   name: Flatcar Container Linux Instances API
   slug: flatcar-container-linux-instances-api
-- description: The Login API from Flatcar Container Linux — 3 operation(s) for login.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Login API from Flatcar Container Linux — 3 operation(s) for login.
   name: Flatcar Container Linux Login API
   slug: flatcar-container-linux-login-api
-- description: The Update API from Flatcar Container Linux — 1 operation(s) for update.
+- baseURL: https://nebraska.flatcar-linux.org/api
+  baseurl_source: declared
+  description: The Update API from Flatcar Container Linux — 1 operation(s) for update.
   name: Flatcar Container Linux Update API
   slug: flatcar-container-linux-update-api
 artifact_total: 24
@@ -224,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/screenshots/flatcar-container-linux-2026-06-20T181304.png
 security:

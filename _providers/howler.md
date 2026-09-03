@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 67 operations · 37 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Artists API from Howler — 1 operation(s) for artists.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Artists API from Howler — 1 operation(s) for artists.
   name: Howler Artists API
   slug: howler-artists-api
-- description: The Assign Ticket API from Howler — 1 operation(s) for assign ticket.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Assign Ticket API from Howler — 1 operation(s) for assign ticket.
   name: Howler Assign Ticket API
   slug: howler-assign-ticket-api
-- description: The Bank Account API from Howler — 3 operation(s) for bank account.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Bank Account API from Howler — 3 operation(s) for bank account.
   name: Howler Bank Account API
   slug: howler-bank-account-api
-- description: The Basic Authentication API from Howler — 4 operation(s) for basic authentication.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Basic Authentication API from Howler — 4 operation(s) for basic authentication.
   name: Howler Basic Authentication API
   slug: howler-basic-authentication-api
-- description: The Cashless Tags API from Howler — 2 operation(s) for cashless tags.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Cashless Tags API from Howler — 2 operation(s) for cashless tags.
   name: Howler Cashless Tags API
   slug: howler-cashless-tags-api
-- description: The Cashout API from Howler — 4 operation(s) for cashout.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Cashout API from Howler — 4 operation(s) for cashout.
   name: Howler Cashout API
   slug: howler-cashout-api
-- description: The Email OTP API from Howler — 2 operation(s) for email otp.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Email OTP API from Howler — 2 operation(s) for email otp.
   name: Howler Email OTP API
   slug: howler-email-otp-api
-- description: The Events API from Howler — 2 operation(s) for events.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Events API from Howler — 2 operation(s) for events.
   name: Howler Events API
   slug: howler-events-api
-- description: The OAuth API from Howler — 4 operation(s) for oauth.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The OAuth API from Howler — 4 operation(s) for oauth.
   name: Howler OAuth API
   slug: howler-oauth-api
-- description: The Third Party OAuth API from Howler — 5 operation(s) for third party oauth.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Third Party OAuth API from Howler — 5 operation(s) for third party oauth.
   name: Howler Third Party OAuth API
   slug: howler-third-party-oauth-api
-- description: The Tickets API from Howler — 7 operation(s) for tickets.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Tickets API from Howler — 7 operation(s) for tickets.
   name: Howler Tickets API
   slug: howler-tickets-api
-- description: The Top Up API from Howler — 1 operation(s) for top up.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Top Up API from Howler — 1 operation(s) for top up.
   name: Howler Top Up API
   slug: howler-top-up-api
-- description: The Top Up Cashless Tag API from Howler — 7 operation(s) for top up cashless tag.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Top Up Cashless Tag API from Howler — 7 operation(s) for top up cashless tag.
   name: Howler Top Up Cashless Tag API
   slug: howler-top-up-cashless-tag-api
-- description: The Top Up Ticket API from Howler — 7 operation(s) for top up ticket.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Top Up Ticket API from Howler — 7 operation(s) for top up ticket.
   name: Howler Top Up Ticket API
   slug: howler-top-up-ticket-api
-- description: The Topupables API from Howler — 1 operation(s) for topupables.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Topupables API from Howler — 1 operation(s) for topupables.
   name: Howler Topupables API
   slug: howler-topupables-api
-- description: The Transfer Ticket API from Howler — 2 operation(s) for transfer ticket.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The Transfer Ticket API from Howler — 2 operation(s) for transfer ticket.
   name: Howler Transfer Ticket API
   slug: howler-transfer-ticket-api
-- description: The User API from Howler — 4 operation(s) for user.
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The User API from Howler — 4 operation(s) for user.
   name: Howler User API
   slug: howler-user-api
 artifact_total: 41
@@ -288,7 +322,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -298,7 +332,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.3
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,7 +350,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/screenshots/howler-2026-07-25T221539.png
 security:

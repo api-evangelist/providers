@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: 'vocode-core, the MIT-licensed Python library for building voice-based LLM agents with pluggable STT, LLM, and TTS providers and Twilio/Vonage telephony, self-hosted and free, distinct from the hosted '
   name: Vocode Open Source Library
   slug: vocode-oss-library
-- description: The Actions API from Vocode — 4 operation(s) for actions.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Actions API from Vocode — 4 operation(s) for actions.
   name: Vocode Actions API
   slug: vocode-actions-api
-- description: The Agents API from Vocode — 4 operation(s) for agents.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Agents API from Vocode — 4 operation(s) for agents.
   name: Vocode Agents API
   slug: vocode-agents-api
-- description: The Calls API from Vocode — 5 operation(s) for calls.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Calls API from Vocode — 5 operation(s) for calls.
   name: Vocode Calls API
   slug: vocode-calls-api
-- description: The Numbers API from Vocode — 6 operation(s) for numbers.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Numbers API from Vocode — 6 operation(s) for numbers.
   name: Vocode Numbers API
   slug: vocode-numbers-api
-- description: The Usage API from Vocode — 1 operation(s) for usage.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Usage API from Vocode — 1 operation(s) for usage.
   name: Vocode Usage API
   slug: vocode-usage-api
-- description: The Voices API from Vocode — 4 operation(s) for voices.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Voices API from Vocode — 4 operation(s) for voices.
   name: Vocode Voices API
   slug: vocode-voices-api
-- description: The Webhooks API from Vocode — 4 operation(s) for webhooks.
+- baseURL: https://api.vocode.dev/v1
+  baseurl_source: declared
+  description: The Webhooks API from Vocode — 4 operation(s) for webhooks.
   name: Vocode Webhooks API
   slug: vocode-webhooks-api
 artifact_total: 24
@@ -170,7 +184,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +207,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vocode/refs/heads/main/screenshots/vocode-2026-09-02T170205.png
 security:
 - kind: authentication
   name: Vocode Authentication

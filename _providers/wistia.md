@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -52,145 +52,239 @@ apis:
 - description: Real-time webhook deliveries from Wistia for documented media lifecycle events. Deliveries are HTTP POST with a JSON body and are signed via HMAC-SHA256 using the consumer's configured webhook secret,
   name: Wistia Webhooks
   slug: webhooks
-- description: The Account API from Wistia — 1 operation(s) for account.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Account API from Wistia — 1 operation(s) for account.
   name: Wistia Account API
   slug: wistia-account-api
-- description: The AllowedDomains API from Wistia — 2 operation(s) for alloweddomains.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The AllowedDomains API from Wistia — 2 operation(s) for alloweddomains.
   name: Wistia AllowedDomains API
   slug: wistia-alloweddomains-api
-- description: The Captions API from Wistia — 3 operation(s) for captions.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Captions API from Wistia — 3 operation(s) for captions.
   name: Wistia Captions API
   slug: wistia-captions-api
-- description: The Channels API from Wistia — 2 operation(s) for channels.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Channels API from Wistia — 2 operation(s) for channels.
   name: Wistia Channels API
   slug: wistia-channels-api
-- description: The Customizations API from Wistia — 1 operation(s) for customizations.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Customizations API from Wistia — 1 operation(s) for customizations.
   name: Wistia Customizations API
   slug: wistia-customizations-api
-- description: The Folders API from Wistia — 3 operation(s) for folders.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Folders API from Wistia — 3 operation(s) for folders.
   name: Wistia Folders API
   slug: wistia-folders-api
-- description: The Medias API from Wistia — 8 operation(s) for medias.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Medias API from Wistia — 8 operation(s) for medias.
   name: Wistia Medias API
   slug: wistia-medias-api
-- description: The Tags API from Wistia — 3 operation(s) for tags.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Tags API from Wistia — 3 operation(s) for tags.
   name: Wistia Tags API
   slug: wistia-tags-api
-- description: The Tokens API from Wistia — 1 operation(s) for tokens.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Tokens API from Wistia — 1 operation(s) for tokens.
   name: Wistia Tokens API
   slug: wistia-tokens-api
-- description: The Webinars API from Wistia — 3 operation(s) for webinars.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Webinars API from Wistia — 3 operation(s) for webinars.
   name: Wistia Webinars API
   slug: wistia-webinars-api
-- description: The Allowed Domains API from Wistia — 2 operation(s) for allowed domains.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Allowed Domains API from Wistia — 2 operation(s) for allowed domains.
   name: Wistia Allowed Domains API
   slug: wistia-allowed-domains-api
-- description: The Analytics:Account API from Wistia — 4 operation(s) for analytics:account.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Analytics:Account API from Wistia — 4 operation(s) for analytics:account.
   name: Wistia Analytics:Account API
   slug: wistia-analytics-account-api
-- description: The Analytics:Media API from Wistia — 7 operation(s) for analytics:media.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Analytics:Media API from Wistia — 7 operation(s) for analytics:media.
   name: Wistia Analytics:Media API
   slug: wistia-analytics-media-api
-- description: The Analytics:Webinar API from Wistia — 5 operation(s) for analytics:webinar.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Analytics:Webinar API from Wistia — 5 operation(s) for analytics:webinar.
   name: Wistia Analytics:Webinar API
   slug: wistia-analytics-webinar-api
-- description: The Background Job Status API from Wistia — 1 operation(s) for background job status.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Background Job Status API from Wistia — 1 operation(s) for background job status.
   name: Wistia Background Job Status API
   slug: wistia-background-job-status-api
-- description: The Brands API from Wistia — 1 operation(s) for brands.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Brands API from Wistia — 1 operation(s) for brands.
   name: Wistia Brands API
   slug: wistia-brands-api
-- description: The Bulk Actions API from Wistia — 1 operation(s) for bulk actions.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Bulk Actions API from Wistia — 1 operation(s) for bulk actions.
   name: Wistia Bulk Actions API
   slug: wistia-bulk-actions-api
-- description: The Channel Collaborators API from Wistia — 2 operation(s) for channel collaborators.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Channel Collaborators API from Wistia — 2 operation(s) for channel collaborators.
   name: Wistia Channel Collaborators API
   slug: wistia-channel-collaborators-api
-- description: The Channel Episodes API from Wistia — 6 operation(s) for channel episodes.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Channel Episodes API from Wistia — 6 operation(s) for channel episodes.
   name: Wistia Channel Episodes API
   slug: wistia-channel-episodes-api
-- description: The Custom Metadata Field Definitions API from Wistia — 3 operation(s) for custom metadata field definitions.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Custom Metadata Field Definitions API from Wistia — 3 operation(s) for custom metadata field definitions.
   name: Wistia Custom Metadata Field Definitions API
   slug: wistia-custom-metadata-field-definitions-api
-- description: The Custom Metadata Field Values API from Wistia — 2 operation(s) for custom metadata field values.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Custom Metadata Field Values API from Wistia — 2 operation(s) for custom metadata field values.
   name: Wistia Custom Metadata Field Values API
   slug: wistia-custom-metadata-field-values-api
-- description: The Deleted Media API from Wistia — 2 operation(s) for deleted media.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Deleted Media API from Wistia — 2 operation(s) for deleted media.
   name: Wistia Deleted Media API
   slug: wistia-deleted-media-api
-- description: The Expiring Access Tokens API from Wistia — 1 operation(s) for expiring access tokens.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Expiring Access Tokens API from Wistia — 1 operation(s) for expiring access tokens.
   name: Wistia Expiring Access Tokens API
   slug: wistia-expiring-access-tokens-api
-- description: The Extended Audio Descriptions API from Wistia — 4 operation(s) for extended audio descriptions.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Extended Audio Descriptions API from Wistia — 4 operation(s) for extended audio descriptions.
   name: Wistia Extended Audio Descriptions API
   slug: wistia-extended-audio-descriptions-api
-- description: The Folder Sharings API from Wistia — 2 operation(s) for folder sharings.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Folder Sharings API from Wistia — 2 operation(s) for folder sharings.
   name: Wistia Folder Sharings API
   slug: wistia-folder-sharings-api
-- description: The Live Stream Event Registrations API from Wistia — 1 operation(s) for live stream event registrations.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Live Stream Event Registrations API from Wistia — 1 operation(s) for live stream event registrations.
   name: Wistia Live Stream Event Registrations API
   slug: wistia-live-stream-event-registrations-api
-- description: The Live Stream Events API from Wistia — 2 operation(s) for live stream events.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Live Stream Events API from Wistia — 2 operation(s) for live stream events.
   name: Wistia Live Stream Events API
   slug: wistia-live-stream-events-api
-- description: The Localizations API from Wistia — 2 operation(s) for localizations.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Localizations API from Wistia — 2 operation(s) for localizations.
   name: Wistia Localizations API
   slug: wistia-localizations-api
-- description: The Media API from Wistia — 11 operation(s) for media.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Media API from Wistia — 11 operation(s) for media.
   name: Wistia Media API
   slug: wistia-media-api
-- description: The Project Sharings API from Wistia — 2 operation(s) for project sharings.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Project Sharings API from Wistia — 2 operation(s) for project sharings.
   name: Wistia Project Sharings API
   slug: wistia-project-sharings-api
-- description: The Projects API from Wistia — 3 operation(s) for projects.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Projects API from Wistia — 3 operation(s) for projects.
   name: Wistia Projects API
   slug: wistia-projects-api
-- description: The Push Devices API from Wistia — 2 operation(s) for push devices.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Push Devices API from Wistia — 2 operation(s) for push devices.
   name: Wistia Push Devices API
   slug: wistia-push-devices-api
-- description: The Remix API from Wistia — 5 operation(s) for remix.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Remix API from Wistia — 5 operation(s) for remix.
   name: Wistia Remix API
   slug: wistia-remix-api
-- description: The Resource URLs API from Wistia — 1 operation(s) for resource urls.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Resource URLs API from Wistia — 1 operation(s) for resource urls.
   name: Wistia Resource URLs API
   slug: wistia-resource-urls-api
-- description: The Review Bundles API from Wistia — 2 operation(s) for review bundles.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Review Bundles API from Wistia — 2 operation(s) for review bundles.
   name: Wistia Review Bundles API
   slug: wistia-review-bundles-api
-- description: The Search API from Wistia — 1 operation(s) for search.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Search API from Wistia — 1 operation(s) for search.
   name: Wistia Search API
   slug: wistia-search-api
-- description: The Share Links API from Wistia — 2 operation(s) for share links.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Share Links API from Wistia — 2 operation(s) for share links.
   name: Wistia Share Links API
   slug: wistia-share-links-api
-- description: The Stats:Account API from Wistia — 2 operation(s) for stats:account.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Stats:Account API from Wistia — 2 operation(s) for stats:account.
   name: Wistia Stats:Account API
   slug: wistia-stats-account-api
-- description: The Stats:Events API from Wistia — 2 operation(s) for stats:events.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Stats:Events API from Wistia — 2 operation(s) for stats:events.
   name: Wistia Stats:Events API
   slug: wistia-stats-events-api
-- description: The Stats:Media API from Wistia — 3 operation(s) for stats:media.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Stats:Media API from Wistia — 3 operation(s) for stats:media.
   name: Wistia Stats:Media API
   slug: wistia-stats-media-api
-- description: The Stats:Projects API from Wistia — 1 operation(s) for stats:projects.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Stats:Projects API from Wistia — 1 operation(s) for stats:projects.
   name: Wistia Stats:Projects API
   slug: wistia-stats-projects-api
-- description: The Stats:Visitors API from Wistia — 2 operation(s) for stats:visitors.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Stats:Visitors API from Wistia — 2 operation(s) for stats:visitors.
   name: Wistia Stats:Visitors API
   slug: wistia-stats-visitors-api
-- description: The Subfolders API from Wistia — 5 operation(s) for subfolders.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Subfolders API from Wistia — 5 operation(s) for subfolders.
   name: Wistia Subfolders API
   slug: wistia-subfolders-api
-- description: The Taggings API from Wistia — 1 operation(s) for taggings.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Taggings API from Wistia — 1 operation(s) for taggings.
   name: Wistia Taggings API
   slug: wistia-taggings-api
-- description: The Trims API from Wistia — 1 operation(s) for trims.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Trims API from Wistia — 1 operation(s) for trims.
   name: Wistia Trims API
   slug: wistia-trims-api
-- description: The Webinar Collaborators API from Wistia — 2 operation(s) for webinar collaborators.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Webinar Collaborators API from Wistia — 2 operation(s) for webinar collaborators.
   name: Wistia Webinar Collaborators API
   slug: wistia-webinar-collaborators-api
-- description: The Webinar Registrations API from Wistia — 1 operation(s) for webinar registrations.
+- baseURL: https://api.wistia.com/v1
+  baseurl_source: declared
+  description: The Webinar Registrations API from Wistia — 1 operation(s) for webinar registrations.
   name: Wistia Webinar Registrations API
   slug: wistia-webinar-registrations-api
 artifact_total: 73
@@ -456,7 +550,7 @@ score:
     catalog_gap: 60.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -466,7 +560,7 @@ score:
     discoverability: 57.4
     governance: 29.5
     operational_transparency: 61.8
-  previous_composite: 62.8
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -478,7 +572,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:

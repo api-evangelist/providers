@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -47,58 +47,94 @@ apis:
 - description: Asynchronous server-to-server notifications for nine event categories — successful collection, successful / failed / reversed disbursement, successful / failed refund, settlement completion, mandate s
   name: Monnify Webhooks
   slug: monnify-webhooks
-- description: Obtain a Bearer access token for the Monnify API.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Obtain a Bearer access token for the Monnify API.
   name: Moniepoint Authentication API
   slug: moniepoint-authentication-api
-- description: NIP bank directory and account validation.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: NIP bank directory and account validation.
   name: Moniepoint Banks API
   slug: moniepoint-banks-api
-- description: Bill categories, billers, validation, processing, and status.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Bill categories, billers, validation, processing, and status.
   name: Moniepoint Bills Payment API
   slug: moniepoint-bills-payment-api
-- description: Initiate and query bulk transfer batches.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Initiate and query bulk transfer batches.
   name: Moniepoint Bulk Transfers API
   slug: moniepoint-bulk-transfers-api
-- description: Initiate debits against an active mandate.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Initiate debits against an active mandate.
   name: Moniepoint Debits API
   slug: moniepoint-debits-api
-- description: Create, list, and manage invoices.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Create, list, and manage invoices.
   name: Moniepoint Invoices API
   slug: moniepoint-invoices-api
-- description: Per-account transaction limit profiles.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Per-account transaction limit profiles.
   name: Moniepoint Limit Profiles API
   slug: moniepoint-limit-profiles-api
-- description: Create and manage direct-debit mandates.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Create and manage direct-debit mandates.
   name: Moniepoint Mandates API
   slug: moniepoint-mandates-api
-- description: Initiate push payments to a registered POS terminal.
+- baseURL: https://pos.moniepoint.com
+  baseurl_source: spec
+  description: Initiate push payments to a registered POS terminal.
   name: Moniepoint Push Payments API
   slug: moniepoint-push-payments-api
-- description: Initiate and query refunds.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Initiate and query refunds.
   name: Moniepoint Refunds API
   slug: moniepoint-refunds-api
-- description: Manage dedicated and invoice reserved NUBAN accounts.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Manage dedicated and invoice reserved NUBAN accounts.
   name: Moniepoint Reserved Accounts API
   slug: moniepoint-reserved-accounts-api
-- description: Settlement batches and transactions reporting.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Settlement batches and transactions reporting.
   name: Moniepoint Settlements API
   slug: moniepoint-settlements-api
-- description: Initiate, authorize, and query single transfers.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Initiate, authorize, and query single transfers.
   name: Moniepoint Single Transfers API
   slug: moniepoint-single-transfers-api
-- description: Manage settlement sub-accounts.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Manage settlement sub-accounts.
   name: Moniepoint Sub-Accounts API
   slug: moniepoint-sub-accounts-api
-- description: Initialize, charge, query, and list collection transactions.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Initialize, charge, query, and list collection transactions.
   name: Moniepoint Transactions API
   slug: moniepoint-transactions-api
-- description: Identity, BVN, NIN, and account verification.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Identity, BVN, NIN, and account verification.
   name: Moniepoint Verification API
   slug: moniepoint-verification-api
-- description: Disbursement wallet balance and metadata.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Disbursement wallet balance and metadata.
   name: Moniepoint Wallet API
   slug: moniepoint-wallet-api
-- description: Manage wallets and sub-wallets.
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Manage wallets and sub-wallets.
   name: Moniepoint Wallets API
   slug: moniepoint-wallets-api
 arazzos:
@@ -617,7 +653,7 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -627,7 +663,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 57.6
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     contracts:
@@ -642,7 +678,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:

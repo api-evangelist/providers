@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 117 operations · 59 acting · 22 human-in-the-loop
 api_count: 2
 apis:
-- description: The Ai API from Oxen — 17 operation(s) for ai.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Ai API from Oxen — 17 operation(s) for ai.
   name: Oxen Ai API
   slug: oxen-ai-api
-- description: The Branches API from Oxen — 4 operation(s) for branches.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Branches API from Oxen — 4 operation(s) for branches.
   name: Oxen Branches API
   slug: oxen-branches-api
-- description: The Commits API from Oxen — 17 operation(s) for commits.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Commits API from Oxen — 17 operation(s) for commits.
   name: Oxen Commits API
   slug: oxen-commits-api
-- description: The Compare API from Oxen — 6 operation(s) for compare.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Compare API from Oxen — 6 operation(s) for compare.
   name: Oxen Compare API
   slug: oxen-compare-api
-- description: The Data Frames API from Oxen — 5 operation(s) for data frames.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Data Frames API from Oxen — 5 operation(s) for data frames.
   name: Oxen Data Frames API
   slug: oxen-data-frames-api
-- description: The Directories API from Oxen — 1 operation(s) for directories.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Directories API from Oxen — 1 operation(s) for directories.
   name: Oxen Directories API
   slug: oxen-directories-api
-- description: The evaluations API from Oxen — 2 operation(s) for evaluations.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The evaluations API from Oxen — 2 operation(s) for evaluations.
   name: Oxen evaluations API
   slug: oxen-evaluations-api
-- description: The Export API from Oxen — 1 operation(s) for export.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Export API from Oxen — 1 operation(s) for export.
   name: Oxen Export API
   slug: oxen-export-api
-- description: The Files API from Oxen — 1 operation(s) for files.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Files API from Oxen — 1 operation(s) for files.
   name: Oxen Files API
   slug: oxen-files-api
-- description: The fine_tunes API from Oxen — 13 operation(s) for fine_tunes.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The fine_tunes API from Oxen — 13 operation(s) for fine_tunes.
   name: Oxen fine_tunes API
   slug: oxen-fine-tunes-api
-- description: The Health API from Oxen — 1 operation(s) for health.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Health API from Oxen — 1 operation(s) for health.
   name: Oxen Health API
   slug: oxen-health-api
-- description: The Import API from Oxen — 2 operation(s) for import.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Import API from Oxen — 2 operation(s) for import.
   name: Oxen Import API
   slug: oxen-import-api
-- description: The Merge API from Oxen — 1 operation(s) for merge.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Merge API from Oxen — 1 operation(s) for merge.
   name: Oxen Merge API
   slug: oxen-merge-api
-- description: The Metadata API from Oxen — 1 operation(s) for metadata.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Metadata API from Oxen — 1 operation(s) for metadata.
   name: Oxen Metadata API
   slug: oxen-metadata-api
-- description: Namespace management endpoints
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: Namespace management endpoints
   name: Oxen Namespaces API
   slug: oxen-namespaces-api
-- description: Repository management endpoints.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: Repository management endpoints.
   name: Oxen Repositories API
   slug: oxen-repositories-api
-- description: The Version Files API from Oxen — 4 operation(s) for version files.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Version Files API from Oxen — 4 operation(s) for version files.
   name: Oxen Version Files API
   slug: oxen-version-files-api
-- description: The Workspace Files API from Oxen — 5 operation(s) for workspace files.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Workspace Files API from Oxen — 5 operation(s) for workspace files.
   name: Oxen Workspace Files API
   slug: oxen-workspace-files-api
-- description: The Workspaces API from Oxen — 5 operation(s) for workspaces.
+- baseURL: https://hub.oxen.ai
+  baseurl_source: declared
+  description: The Workspaces API from Oxen — 5 operation(s) for workspaces.
   name: Oxen Workspaces API
   slug: oxen-workspaces-api
 artifact_total: 43
@@ -330,7 +368,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxen/refs/heads/main/screenshots/oxen-2026-08-07T191204.png
 security:

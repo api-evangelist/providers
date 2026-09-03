@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -62,22 +62,34 @@ apis:
 - description: REST API for Alteryx Designer Cloud (powered by Trifacta) providing data preparation, transformation, and pipeline management capabilities. Enables programmatic access to data preparation workflows an
   name: Alteryx Designer Cloud API
   slug: alteryx-designer-cloud-api
-- description: Manage collections of workflows, schedules, users, and user groups
+- baseURL: https://your-server/webapi
+  baseurl_source: declared
+  description: Manage collections of workflows, schedules, users, and user groups
   name: Alteryx Collections API
   slug: alteryx-collections-api
-- description: Manage stored credentials and credential sharing
+- baseURL: https://your-server/webapi
+  baseurl_source: declared
+  description: Manage stored credentials and credential sharing
   name: Alteryx Credentials API
   slug: alteryx-credentials-api
-- description: Manage and monitor workflow execution jobs
+- baseURL: https://your-server/webapi
+  baseurl_source: declared
+  description: Manage and monitor workflow execution jobs
   name: Alteryx Jobs API
   slug: alteryx-jobs-api
-- description: Create, retrieve, update, and delete workflow execution schedules
+- baseURL: https://your-server/webapi
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete workflow execution schedules
   name: Alteryx Schedules API
   slug: alteryx-schedules-api
-- description: Manage user accounts, permissions, and asset transfers
+- baseURL: https://your-server/webapi
+  baseurl_source: declared
+  description: Manage user accounts, permissions, and asset transfers
   name: Alteryx Users API
   slug: alteryx-users-api
-- description: Manage workflows including upload, retrieval, update, deletion, versioning, and job execution
+- baseURL: https://your-server/webapi
+  baseurl_source: declared
+  description: Manage workflows including upload, retrieval, update, deletion, versioning, and job execution
   name: Alteryx Workflows API
   slug: alteryx-workflows-api
 artifact_total: 153
@@ -621,7 +633,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:

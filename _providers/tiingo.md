@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 37 operations
 api_count: 1
 apis:
-- description: The BOATS API from Tiingo — 2 operation(s) for boats.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The BOATS API from Tiingo — 2 operation(s) for boats.
   name: Tiingo BOATS API
   slug: tiingo-boats-api
-- description: The Corporate Actions API from Tiingo — 5 operation(s) for corporate actions.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Corporate Actions API from Tiingo — 5 operation(s) for corporate actions.
   name: Tiingo Corporate Actions API
   slug: tiingo-corporate-actions-api
-- description: The Crypto API from Tiingo — 3 operation(s) for crypto.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Crypto API from Tiingo — 3 operation(s) for crypto.
   name: Tiingo Crypto API
   slug: tiingo-crypto-api
-- description: The Crypto Yield API from Tiingo — 4 operation(s) for crypto yield.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Crypto Yield API from Tiingo — 4 operation(s) for crypto yield.
   name: Tiingo Crypto Yield API
   slug: tiingo-crypto-yield-api
-- description: The End-of-Day API from Tiingo — 2 operation(s) for end-of-day.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The End-of-Day API from Tiingo — 2 operation(s) for end-of-day.
   name: Tiingo End Of Day API
   slug: tiingo-end-of-day-api
-- description: The Equity Realtime API from Tiingo — 2 operation(s) for equity realtime.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Equity Realtime API from Tiingo — 2 operation(s) for equity realtime.
   name: Tiingo Equity Realtime API
   slug: tiingo-equity-realtime-api
-- description: The Forex API from Tiingo — 2 operation(s) for forex.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Forex API from Tiingo — 2 operation(s) for forex.
   name: Tiingo Forex API
   slug: tiingo-forex-api
-- description: The Fund Fees API from Tiingo — 2 operation(s) for fund fees.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Fund Fees API from Tiingo — 2 operation(s) for fund fees.
   name: Tiingo Fund Fees API
   slug: tiingo-fund-fees-api
-- description: The Fundamentals API from Tiingo — 4 operation(s) for fundamentals.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Fundamentals API from Tiingo — 4 operation(s) for fundamentals.
   name: Tiingo Fundamentals API
   slug: tiingo-fundamentals-api
-- description: The IEX API from Tiingo — 2 operation(s) for iex.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The IEX API from Tiingo — 2 operation(s) for iex.
   name: Tiingo IEX API
   slug: tiingo-iex-api
-- description: The News API from Tiingo — 3 operation(s) for news.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The News API from Tiingo — 3 operation(s) for news.
   name: Tiingo News API
   slug: tiingo-news-api
-- description: The Small Exchange API from Tiingo — 4 operation(s) for small exchange.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Small Exchange API from Tiingo — 4 operation(s) for small exchange.
   name: Tiingo Small Exchange API
   slug: tiingo-small-exchange-api
-- description: The Utilities API from Tiingo — 2 operation(s) for utilities.
+- baseURL: https://api.tiingo.com/tiingo/daily
+  baseurl_source: declared
+  description: The Utilities API from Tiingo — 2 operation(s) for utilities.
   name: Tiingo Utilities API
   slug: tiingo-utilities-api
 artifact_total: 23
@@ -267,7 +293,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -277,7 +303,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +321,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

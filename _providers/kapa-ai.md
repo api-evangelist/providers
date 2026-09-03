@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 7 acting
 api_count: 1
 apis:
-- description: Activity, coverage gaps, and top questions.
+- baseURL: https://api.kapa.ai/query/v1
+  baseurl_source: declared
+  description: Activity, coverage gaps, and top questions.
   name: kapa.ai Analytics API
   slug: kapa-ai-analytics-api
-- description: Ask questions and create threads.
+- baseURL: https://api.kapa.ai/query/v1
+  baseurl_source: declared
+  description: Ask questions and create threads.
   name: kapa.ai Chat API
   slug: kapa-ai-chat-api
-- description: Submit reactions on answers.
+- baseURL: https://api.kapa.ai/query/v1
+  baseurl_source: declared
+  description: Submit reactions on answers.
   name: kapa.ai Feedback API
   slug: kapa-ai-feedback-api
-- description: Projects, integrations, and sources.
+- baseURL: https://api.kapa.ai/query/v1
+  baseurl_source: declared
+  description: Projects, integrations, and sources.
   name: kapa.ai Projects API
   slug: kapa-ai-projects-api
-- description: Semantic retrieval and keyword search.
+- baseURL: https://api.kapa.ai/query/v1
+  baseurl_source: declared
+  description: Semantic retrieval and keyword search.
   name: kapa.ai Retrieval API
   slug: kapa-ai-retrieval-api
-- description: List, retrieve, and continue conversations.
+- baseURL: https://api.kapa.ai/query/v1
+  baseurl_source: declared
+  description: List, retrieve, and continue conversations.
   name: kapa.ai Threads API
   slug: kapa-ai-threads-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/screenshots/kapa-ai-2026-06-20T183921.png
 security:

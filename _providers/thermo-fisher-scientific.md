@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: The Thermo Fisher Connect Platform OData API provides standards-based interoperability for laboratory data management, enabling integration between instruments, LIMS, ELN, and enterprise systems throu
   name: Thermo Fisher Connect Platform OData API
   slug: connect-platform
-- description: Token-based authentication operations.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Token-based authentication operations.
   name: Thermo Fisher Scientific Authentication API
   slug: thermo-fisher-scientific-authentication-api
-- description: Browse entity data from SampleManager.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Browse entity data from SampleManager.
   name: Thermo Fisher Scientific Entities API
   slug: thermo-fisher-scientific-entities-api
-- description: Data export operations.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Data export operations.
   name: Thermo Fisher Scientific Export API
   slug: thermo-fisher-scientific-export-api
-- description: Instrument status and control.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Instrument status and control.
   name: Thermo Fisher Scientific Instrument API
   slug: thermo-fisher-scientific-instrument-api
-- description: Sample measurements and spectra.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Sample measurements and spectra.
   name: Thermo Fisher Scientific Measurements API
   slug: thermo-fisher-scientific-measurements-api
-- description: Measurement method configuration.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Measurement method configuration.
   name: Thermo Fisher Scientific Methods API
   slug: thermo-fisher-scientific-methods-api
-- description: Access test results and measurements.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Access test results and measurements.
   name: Thermo Fisher Scientific Results API
   slug: thermo-fisher-scientific-results-api
-- description: Access and manage laboratory samples.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Access and manage laboratory samples.
   name: Thermo Fisher Scientific Samples API
   slug: thermo-fisher-scientific-samples-api
-- description: Trigger and manage laboratory workflows.
+- baseURL: https://{your-server}:{port}/smpwcfrestvgsm
+  baseurl_source: declared
+  description: Trigger and manage laboratory workflows.
   name: Thermo Fisher Scientific Workflows API
   slug: thermo-fisher-scientific-workflows-api
 artifact_total: 36
@@ -278,7 +296,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png
 security:

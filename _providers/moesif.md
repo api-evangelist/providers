@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 0
@@ -47,49 +47,79 @@ apis:
 - description: The Moesif Collector API is the high-volume ingestion endpoint that receives API event data from server, client, and gateway SDKs. It accepts HTTP API call records, user/company entity updates, and cu
   name: Moesif Collector API
   slug: collector
-- description: The Applications API from Moesif — 2 operation(s) for applications.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Applications API from Moesif — 2 operation(s) for applications.
   name: Moesif Applications API
   slug: moesif-applications-api
-- description: The Balance Transactions API from Moesif — 1 operation(s) for balance transactions.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Balance Transactions API from Moesif — 1 operation(s) for balance transactions.
   name: Moesif Balance Transactions API
   slug: moesif-balance-transactions-api
-- description: The Billing Meters API from Moesif — 2 operation(s) for billing meters.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Billing Meters API from Moesif — 2 operation(s) for billing meters.
   name: Moesif Billing Meters API
   slug: moesif-billing-meters-api
-- description: The Billing Reports API from Moesif — 2 operation(s) for billing reports.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Billing Reports API from Moesif — 2 operation(s) for billing reports.
   name: Moesif Billing Reports API
   slug: moesif-billing-reports-api
-- description: The Cohorts API from Moesif — 3 operation(s) for cohorts.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Cohorts API from Moesif — 3 operation(s) for cohorts.
   name: Moesif Cohorts API
   slug: moesif-cohorts-api
-- description: The Companies API from Moesif — 5 operation(s) for companies.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Companies API from Moesif — 5 operation(s) for companies.
   name: Moesif Companies API
   slug: moesif-companies-api
-- description: The Dashboards API from Moesif — 7 operation(s) for dashboards.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Dashboards API from Moesif — 7 operation(s) for dashboards.
   name: Moesif Dashboards API
   slug: moesif-dashboards-api
-- description: The Email Templates API from Moesif — 2 operation(s) for email templates.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Email Templates API from Moesif — 2 operation(s) for email templates.
   name: Moesif Email Templates API
   slug: moesif-email-templates-api
-- description: The Governance Rules API from Moesif — 2 operation(s) for governance rules.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Governance Rules API from Moesif — 2 operation(s) for governance rules.
   name: Moesif Governance Rules API
   slug: moesif-governance-rules-api
-- description: The Metrics API from Moesif — 4 operation(s) for metrics.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Metrics API from Moesif — 4 operation(s) for metrics.
   name: Moesif Metrics API
   slug: moesif-metrics-api
-- description: The Product Catalog API from Moesif — 4 operation(s) for product catalog.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Product Catalog API from Moesif — 4 operation(s) for product catalog.
   name: Moesif Product Catalog API
   slug: moesif-product-catalog-api
-- description: The Properties API from Moesif — 7 operation(s) for properties.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Properties API from Moesif — 7 operation(s) for properties.
   name: Moesif Properties API
   slug: moesif-properties-api
-- description: The Subscriptions API from Moesif — 4 operation(s) for subscriptions.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Subscriptions API from Moesif — 4 operation(s) for subscriptions.
   name: Moesif Subscriptions API
   slug: moesif-subscriptions-api
-- description: The Users API from Moesif — 5 operation(s) for users.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Users API from Moesif — 5 operation(s) for users.
   name: Moesif Users API
   slug: moesif-users-api
-- description: The Workspaces API from Moesif — 8 operation(s) for workspaces.
+- baseURL: https://api.moesif.com
+  baseurl_source: declared
+  description: The Workspaces API from Moesif — 8 operation(s) for workspaces.
   name: Moesif Workspaces API
   slug: moesif-workspaces-api
 artifact_total: 41
@@ -366,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/screenshots/moesif-2026-06-20T185704.png
 security:

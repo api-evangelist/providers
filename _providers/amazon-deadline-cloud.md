@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Operations for managing render farms
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing render farms
   name: Amazon Deadline Cloud Farms API
   slug: amazon-deadline-cloud-farms-api
-- description: Operations for managing compute fleets
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing compute fleets
   name: Amazon Deadline Cloud Fleets API
   slug: amazon-deadline-cloud-fleets-api
-- description: Operations for managing rendering jobs
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing rendering jobs
   name: Amazon Deadline Cloud Jobs API
   slug: amazon-deadline-cloud-jobs-api
-- description: Operations for managing job queues within farms
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing job queues within farms
   name: Amazon Deadline Cloud Queues API
   slug: amazon-deadline-cloud-queues-api
-- description: Operations for managing farm workers
+- baseURL: https://deadline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing farm workers
   name: Amazon Deadline Cloud Workers API
   slug: amazon-deadline-cloud-workers-api
 artifact_total: 82
@@ -421,7 +431,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/screenshots/amazon-deadline-cloud-2026-06-20T171619.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -51,58 +51,94 @@ apis:
 - description: Optional OpenTelemetry Protocol metrics receiver exposed on /api/v1/otlp/v1/metrics when the Prometheus server is started with --web.enable-otlp-receiver. Accepts OTLP/HTTP protobuf payloads from Open
   name: Prometheus OTLP Metrics Receiver
   slug: prometheus-otlp-receiver
-- description: Administrative operations for TSDB management.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Administrative operations for TSDB management.
   name: Prometheus admin API
   slug: prometheus-io-admin-api
-- description: Everything related to Alertmanager alerts
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Everything related to Alertmanager alerts
   name: Prometheus alert API
   slug: prometheus-io-alert-api
-- description: The alertgroup API from Prometheus — 1 operation(s) for alertgroup.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: The alertgroup API from Prometheus — 1 operation(s) for alertgroup.
   name: Prometheus alertgroup API
   slug: prometheus-io-alertgroup-api
-- description: Query active alerts and alertmanager discovery.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Query active alerts and alertmanager discovery.
   name: Prometheus alerts API
   slug: prometheus-io-alerts-api
-- description: Query enabled features.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Query enabled features.
   name: Prometheus features API
   slug: prometheus-io-features-api
-- description: General Alertmanager operations
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: General Alertmanager operations
   name: Prometheus general API
   slug: prometheus-io-general-api
-- description: Query label names and values.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Query label names and values.
   name: Prometheus labels API
   slug: prometheus-io-labels-api
-- description: Retrieve metric metadata such as type and unit.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Retrieve metric metadata such as type and unit.
   name: Prometheus metadata API
   slug: prometheus-io-metadata-api
-- description: Server notifications and events.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Server notifications and events.
   name: Prometheus notifications API
   slug: prometheus-io-notifications-api
-- description: OpenTelemetry Protocol metrics ingestion.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: OpenTelemetry Protocol metrics ingestion.
   name: Prometheus otlp API
   slug: prometheus-io-otlp-api
-- description: Query and evaluate PromQL expressions.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Query and evaluate PromQL expressions.
   name: Prometheus query API
   slug: prometheus-io-query-api
-- description: Everything related to Alertmanager receivers
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Everything related to Alertmanager receivers
   name: Prometheus receiver API
   slug: prometheus-io-receiver-api
-- description: Remote read and write endpoints.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Remote read and write endpoints.
   name: Prometheus remote API
   slug: prometheus-io-remote-api
-- description: Query recording and alerting rules.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Query recording and alerting rules.
   name: Prometheus rules API
   slug: prometheus-io-rules-api
-- description: Query and manage time series.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Query and manage time series.
   name: Prometheus series API
   slug: prometheus-io-series-api
-- description: Everything related to Alertmanager silences
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Everything related to Alertmanager silences
   name: Prometheus silence API
   slug: prometheus-io-silence-api
-- description: Retrieve server status and configuration.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Retrieve server status and configuration.
   name: Prometheus status API
   slug: prometheus-io-status-api
-- description: Retrieve target and scrape pool information.
+- baseURL: http://localhost:9090/api/v1
+  baseurl_source: declared
+  description: Retrieve target and scrape pool information.
   name: Prometheus targets API
   slug: prometheus-io-targets-api
 artifact_total: 53
@@ -430,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/screenshots/prometheus-io-2026-06-20T192153.png
 security:

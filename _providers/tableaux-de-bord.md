@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: 'The Metabase REST API enables automation of business intelligence workflows including creating and managing dashboards, running questions (queries), managing users and groups, and embedding analytics '
   name: Metabase API
   slug: metabase
-- description: Manage Grafana alerting rules
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Manage Grafana alerting rules
   name: Tableaux De Bord Alerting API
   slug: tableaux-de-bord-alerting-api
-- description: Manage dashboard annotations
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Manage dashboard annotations
   name: Tableaux De Bord Annotations API
   slug: tableaux-de-bord-annotations-api
-- description: Create and manage Grafana dashboards
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Create and manage Grafana dashboards
   name: Tableaux De Bord Dashboards API
   slug: tableaux-de-bord-dashboards-api
-- description: Manage data source connections
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Manage data source connections
   name: Tableaux De Bord Datasources API
   slug: tableaux-de-bord-datasources-api
-- description: Organize dashboards in folders
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Organize dashboards in folders
   name: Tableaux De Bord Folders API
   slug: tableaux-de-bord-folders-api
-- description: Manage Grafana organizations
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Manage Grafana organizations
   name: Tableaux De Bord Organizations API
   slug: tableaux-de-bord-organizations-api
-- description: Manage teams and memberships
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Manage teams and memberships
   name: Tableaux De Bord Teams API
   slug: tableaux-de-bord-teams-api
-- description: Manage Grafana users
+- baseURL: https://your-grafana-instance.com
+  baseurl_source: declared
+  description: Manage Grafana users
   name: Tableaux De Bord Users API
   slug: tableaux-de-bord-users-api
 artifact_total: 32
@@ -234,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/screenshots/tableaux-de-bord-2026-06-20T194915.png
 security:

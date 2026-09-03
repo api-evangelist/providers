@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -62,22 +62,34 @@ apis:
 - description: 'The Reference 360 REST API enables programmatic management of reference data, including exporting and importing reference data sets, managing code values and value mappings, retrieving asset details, '
   name: Informatica Reference 360 REST API
   slug: reference-360-rest-api
-- description: Login and session management operations.
+- baseURL: https://dm-us.informaticacloud.com
+  baseurl_source: spec
+  description: Login and session management operations.
   name: Informatica Authentication API
   slug: informatica-authentication-api
-- description: Manage connections to data sources and targets including databases, flat files, cloud applications, and SaaS services.
+- baseURL: https://dm-us.informaticacloud.com
+  baseurl_source: spec
+  description: Manage connections to data sources and targets including databases, flat files, cloud applications, and SaaS services.
   name: Informatica Connections API
   slug: informatica-connections-api
-- description: Start, stop, and monitor job execution for tasks, taskflows, and other runnable assets.
+- baseURL: https://dm-us.informaticacloud.com
+  baseurl_source: spec
+  description: Start, stop, and monitor job execution for tasks, taskflows, and other runnable assets.
   name: Informatica Jobs API
   slug: informatica-jobs-api
-- description: Create, retrieve, update, and delete mapping task configurations that execute mappings with specific runtime parameters.
+- baseURL: https://dm-us.informaticacloud.com
+  baseurl_source: spec
+  description: Create, retrieve, update, and delete mapping task configurations that execute mappings with specific runtime parameters.
   name: Informatica Mapping Tasks API
   slug: informatica-mapping-tasks-api
-- description: Retrieve mapping definitions and metadata for data integration mappings within the organization.
+- baseURL: https://dm-us.informaticacloud.com
+  baseurl_source: spec
+  description: Retrieve mapping definitions and metadata for data integration mappings within the organization.
   name: Informatica Mappings API
   slug: informatica-mappings-api
-- description: Manage task execution schedules.
+- baseURL: https://dm-us.informaticacloud.com
+  baseurl_source: spec
+  description: Manage task execution schedules.
   name: Informatica Schedules API
   slug: informatica-schedules-api
 artifact_total: 151
@@ -590,7 +602,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/screenshots/informatica-2026-06-20T183340.png
 security:

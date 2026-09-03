@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -52,28 +52,44 @@ apis:
 - description: USAspending.gov is the Treasury-operated public source of accountable federal spending data, exposing a comprehensive REST API for federal awards, contracts, grants, sub-awards, and agency budget data
   name: USAspending.gov API (Treasury)
   slug: usaspending
-- description: The Agencies API from Chief Financial Officers Council — 2 operation(s) for agencies.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Agencies API from Chief Financial Officers Council — 2 operation(s) for agencies.
   name: Chief Financial Officers Council Agencies API
   slug: chief-financial-officers-council-agencies-api
-- description: The Awards API from Chief Financial Officers Council — 3 operation(s) for awards.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Awards API from Chief Financial Officers Council — 3 operation(s) for awards.
   name: Chief Financial Officers Council Awards API
   slug: chief-financial-officers-council-awards-api
-- description: The Downloads API from Chief Financial Officers Council — 1 operation(s) for downloads.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Downloads API from Chief Financial Officers Council — 1 operation(s) for downloads.
   name: Chief Financial Officers Council Downloads API
   slug: chief-financial-officers-council-downloads-api
-- description: The Federal Accounts API from Chief Financial Officers Council — 1 operation(s) for federal accounts.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Federal Accounts API from Chief Financial Officers Council — 1 operation(s) for federal accounts.
   name: Chief Financial Officers Council Federal Accounts API
   slug: chief-financial-officers-council-federal-accounts-api
-- description: The Recipients API from Chief Financial Officers Council — 2 operation(s) for recipients.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Recipients API from Chief Financial Officers Council — 2 operation(s) for recipients.
   name: Chief Financial Officers Council Recipients API
   slug: chief-financial-officers-council-recipients-api
-- description: The References API from Chief Financial Officers Council — 2 operation(s) for references.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The References API from Chief Financial Officers Council — 2 operation(s) for references.
   name: Chief Financial Officers Council References API
   slug: chief-financial-officers-council-references-api
-- description: The Search API from Chief Financial Officers Council — 3 operation(s) for search.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Search API from Chief Financial Officers Council — 3 operation(s) for search.
   name: Chief Financial Officers Council Search API
   slug: chief-financial-officers-council-search-api
-- description: The Subawards API from Chief Financial Officers Council — 1 operation(s) for subawards.
+- baseURL: https://api.usaspending.gov
+  baseurl_source: spec
+  description: The Subawards API from Chief Financial Officers Council — 1 operation(s) for subawards.
   name: Chief Financial Officers Council Subawards API
   slug: chief-financial-officers-council-subawards-api
 artifact_total: 26
@@ -247,7 +263,7 @@ score:
     regime_id: government
     score: 14.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/screenshots/chief-financial-officers-council-2026-07-25T205215.png
 security:

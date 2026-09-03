@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Available currency information
+- baseURL: https://api.freecurrencyapi.com/v1
+  baseurl_source: declared
+  description: Available currency information
   name: Free Currency API Currencies API
   slug: freecurrencyapi-currencies-api
-- description: Current and historical exchange rate data
+- baseURL: https://api.freecurrencyapi.com/v1
+  baseurl_source: declared
+  description: Current and historical exchange rate data
   name: Free Currency API Exchange Rates API
   slug: freecurrencyapi-exchange-rates-api
-- description: API quota and status information
+- baseURL: https://api.freecurrencyapi.com/v1
+  baseurl_source: declared
+  description: API quota and status information
   name: Free Currency API Status API
   slug: freecurrencyapi-status-api
 artifact_total: 23
@@ -209,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freecurrencyapi/refs/heads/main/screenshots/freecurrencyapi-2026-06-20T181521.png
 security:

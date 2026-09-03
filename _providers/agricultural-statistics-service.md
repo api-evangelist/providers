@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: The Crop CASMA API provides programmatic access to crop vegetation and soil moisture conditions using NASA SMAP and MODIS satellite data for agricultural drought monitoring and crop condition analysis
   name: USDA NASS Crop CASMA API
   slug: crop-casma-api
-- description: Parameter value discovery for query building
+- baseURL: https://quickstats.nass.usda.gov/api
+  baseurl_source: declared
+  description: Parameter value discovery for query building
   name: Agricultural Statistics Service Parameters API
   slug: agricultural-statistics-service-parameters-api
-- description: Agricultural statistics data retrieval and filtering
+- baseURL: https://quickstats.nass.usda.gov/api
+  baseurl_source: declared
+  description: Agricultural statistics data retrieval and filtering
   name: Agricultural Statistics Service Statistics API
   slug: agricultural-statistics-service-statistics-api
 artifact_total: 50
@@ -283,7 +287,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png
 security:

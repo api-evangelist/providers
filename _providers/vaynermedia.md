@@ -32,46 +32,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Salient theme global sections (custom post type).
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Salient theme global sections (custom post type).
   name: VaynerMedia Blocks API
   slug: vaynermedia-blocks-api
-- description: VaynerMedia client case studies (custom post type).
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: VaynerMedia client case studies (custom post type).
   name: VaynerMedia Case Studies API
   slug: vaynermedia-casestudies-api
-- description: Post categories taxonomy.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Post categories taxonomy.
   name: VaynerMedia Categories API
   slug: vaynermedia-categories-api
-- description: Approved comments.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Approved comments.
   name: VaynerMedia Comments API
   slug: vaynermedia-comments-api
-- description: Media library attachments (images, video, documents).
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Media library attachments (images, video, documents).
   name: VaynerMedia Media API
   slug: vaynermedia-media-api
-- description: Static pages on vaynermedia.com.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Static pages on vaynermedia.com.
   name: VaynerMedia Pages API
   slug: vaynermedia-pages-api
-- description: Popup Maker themes.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Popup Maker themes.
   name: VaynerMedia Popups API
   slug: vaynermedia-popups-api
-- description: Blog posts and articles published on vaynermedia.com.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Blog posts and articles published on vaynermedia.com.
   name: VaynerMedia Posts API
   slug: vaynermedia-posts-api
-- description: Cross-content-type search index.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type search index.
   name: VaynerMedia Search API
   slug: vaynermedia-search-api
-- description: Registered post statuses.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Registered post statuses.
   name: VaynerMedia Statuses API
   slug: vaynermedia-statuses-api
-- description: Post tags taxonomy.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Post tags taxonomy.
   name: VaynerMedia Tags API
   slug: vaynermedia-tags-api
-- description: Registered taxonomies.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Registered taxonomies.
   name: VaynerMedia Taxonomies API
   slug: vaynermedia-taxonomies-api
-- description: Registered post types.
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: Registered post types.
   name: VaynerMedia Types API
   slug: vaynermedia-types-api
 artifact_total: 18
@@ -266,7 +292,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -276,7 +302,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 30.4
+  previous_composite: 19.8
   provenance:
     conformance: derived
     contracts:
@@ -287,8 +313,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png
 security:
 - kind: authentication

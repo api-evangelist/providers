@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,76 +50,124 @@ apis:
 - description: REST API to programmatically manage Hiro Platform devnets and chainhooks.
   name: Hiro Platform API
   slug: platform-api
-- description: Read-only endpoints to obtain Stacks account details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain Stacks account details
   name: Hiro Accounts API
   slug: hiro-accounts-api
-- description: Operations related to the Atlas global namespace.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Operations related to the Atlas global namespace.
   name: Hiro Atlas API
   slug: hiro-atlas-api
-- description: The Blocks API from Hiro — 37 operation(s) for blocks.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: The Blocks API from Hiro — 37 operation(s) for blocks.
   name: Hiro Blocks API
   slug: hiro-blocks-api
-- description: The Blocks Proposals API from Hiro — 2 operation(s) for blocks proposals.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: The Blocks Proposals API from Hiro — 2 operation(s) for blocks proposals.
   name: Hiro Blocks Proposals API
   slug: hiro-blocks-proposals-api
-- description: Read-only endpoints to obtain burn block details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain burn block details
   name: Hiro Burn Blocks API
   slug: hiro-burn-blocks-api
-- description: Endpoints to request STX or BTC tokens (not possible on Mainnet)
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Endpoints to request STX or BTC tokens (not possible on Mainnet)
   name: Hiro Faucets API
   slug: hiro-faucets-api
-- description: Read-only endpoints to obtain fee details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain fee details
   name: Hiro Fees API
   slug: hiro-fees-api
-- description: The Fungible Tokens API from Hiro — 1 operation(s) for fungible tokens.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: The Fungible Tokens API from Hiro — 1 operation(s) for fungible tokens.
   name: Hiro Fungible Tokens API
   slug: hiro-fungible-tokens-api
-- description: Read-only endpoints to obtain network, Proof-of-Transfer, Stacking, STX token, and node information
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain network, Proof-of-Transfer, Stacking, STX token, and node information
   name: Hiro Info API
   slug: hiro-info-api
-- description: Endpoints to obtain Mempool information
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Endpoints to obtain Mempool information
   name: Hiro Mempool API
   slug: hiro-mempool-api
-- description: Read-only endpoints to obtain microblocks details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain microblocks details
   name: Hiro Microblocks API
   slug: hiro-microblocks-api
-- description: Endpoints related to Stacks block production and mining.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Endpoints related to Stacks block production and mining.
   name: Hiro Mining API
   slug: hiro-mining-api
-- description: Read-only endpoints realted to the Blockchain Naming System on Stacks
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints realted to the Blockchain Naming System on Stacks
   name: Hiro Names API
   slug: hiro-names-api
-- description: Read-only endpoints to obtain non-fungible token details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain non-fungible token details
   name: Hiro Non-Fungible Tokens API
   slug: hiro-non-fungible-tokens-api
-- description: Endpoints to get information about the Proof of Transfer consensus mechanism
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Endpoints to get information about the Proof of Transfer consensus mechanism
   name: Hiro Proof of Transfer API
   slug: hiro-proof-of-transfer-api
-- description: Read-only endpoints to search for accounts, blocks, smart contracts, and transactions
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to search for accounts, blocks, smart contracts, and transactions
   name: Hiro Search API
   slug: hiro-search-api
-- description: The Signers API from Hiro — 4 operation(s) for signers.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: The Signers API from Hiro — 4 operation(s) for signers.
   name: Hiro Signers API
   slug: hiro-signers-api
-- description: Read-only endpoints to obtain Clarity smart contract details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain Clarity smart contract details
   name: Hiro Smart Contracts API
   slug: hiro-smart-contracts-api
-- description: Endpoints for interacting with StackerDB instances.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Endpoints for interacting with StackerDB instances.
   name: Hiro StackerDB API
   slug: hiro-stackerdb-api
-- description: The Stacking API from Hiro — 4 operation(s) for stacking.
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: The Stacking API from Hiro — 4 operation(s) for stacking.
   name: Hiro Stacking API
   slug: hiro-stacking-api
-- description: Read-only endpoints to obtain Stacking reward details
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain Stacking reward details
   name: Hiro Stacking Rewards API
   slug: hiro-stacking-rewards-api
-- description: Service status endpoints
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Service status endpoints
   name: Hiro Status API
   slug: hiro-status-api
-- description: Token metadata endpoints
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Token metadata endpoints
   name: Hiro Tokens API
   slug: hiro-tokens-api
-- description: Endpoints to obtain transaction details and to broadcast transactions to the network
+- baseURL: https://api.mainnet.hiro.so
+  baseurl_source: declared
+  description: Endpoints to obtain transaction details and to broadcast transactions to the network
   name: Hiro Transactions API
   slug: hiro-transactions-api
 artifact_total: 57
@@ -273,7 +321,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -283,7 +331,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.7
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -292,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/screenshots/hiro-2026-06-20T182757.png
 security:

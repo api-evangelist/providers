@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 65 operations · 43 acting
 api_count: 1
 apis:
-- description: File archiving categories and delegation management
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: File archiving categories and delegation management
   name: Sadq Holding Limited Archiving & Delegations API
   slug: sadq-holding-limited-archiving-delegations-api
-- description: Obtain and manage API access tokens
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Obtain and manage API access tokens
   name: Sadq Holding Limited Authentication API
   slug: sadq-holding-limited-authentication-api
-- description: Update tenant SMS provider and system configuration
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Update tenant SMS provider and system configuration
   name: Sadq Holding Limited Configuration API
   slug: sadq-holding-limited-configuration-api
-- description: Download and manage signed document files
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Download and manage signed document files
   name: Sadq Holding Limited Documents API
   slug: sadq-holding-limited-documents-api
-- description: Initiate and manage signing envelopes and document packages
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Initiate and manage signing envelopes and document packages
   name: Sadq Holding Limited Envelopes API
   slug: sadq-holding-limited-envelopes-api
-- description: Electronic and digital signature operations via Nafath/PKI
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Electronic and digital signature operations via Nafath/PKI
   name: Sadq Holding Limited eSign API
   slug: sadq-holding-limited-esign-api
-- description: Send, extend, and remind signing invitations
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Send, extend, and remind signing invitations
   name: Sadq Holding Limited Invitations API
   slug: sadq-holding-limited-invitations-api
-- description: Know Your Business — CR checks, Absher OTP, delegacy lookups
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Know Your Business — CR checks, Absher OTP, delegacy lookups
   name: Sadq Holding Limited KYB API
   slug: sadq-holding-limited-kyb-api
-- description: Consumption reports, request listings and bulk signature jobs
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Consumption reports, request listings and bulk signature jobs
   name: Sadq Holding Limited Reports & Requests API
   slug: sadq-holding-limited-reports-requests-api
-- description: Direct signing operations including multi-file and templates
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Direct signing operations including multi-file and templates
   name: Sadq Holding Limited Sign API
   slug: sadq-holding-limited-sign-api
-- description: List and retrieve reusable signing templates
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: List and retrieve reusable signing templates
   name: Sadq Holding Limited Templates API
   slug: sadq-holding-limited-templates-api
-- description: User management, permissions and signature uploads
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: User management, permissions and signature uploads
   name: Sadq Holding Limited Users API
   slug: sadq-holding-limited-users-api
-- description: Configure and manage webhook subscriptions and logs
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Configure and manage webhook subscriptions and logs
   name: Sadq Holding Limited Webhooks API
   slug: sadq-holding-limited-webhooks-api
-- description: Create and manage document signing workflows
+- baseURL: https://api.sadq.sa
+  baseurl_source: declared
+  description: Create and manage document signing workflows
   name: Sadq Holding Limited Workflows API
   slug: sadq-holding-limited-workflows-api
 artifact_total: 35
@@ -279,7 +307,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -289,7 +317,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,7 +329,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sadq-holding-limited/refs/heads/main/screenshots/sadq-holding-limited-2026-08-17T081705.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Rescale's token-authenticated REST API (v2) for creating, submitting, monitoring and managing simulation jobs, uploading and downloading files, listing available software (analyses) and hardware (core
@@ -161,7 +161,7 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -180,8 +180,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rescale/refs/heads/main/screenshots/rescale-2026-09-02T153521.png
 security:
 - kind: authentication
   name: Rescale Authentication

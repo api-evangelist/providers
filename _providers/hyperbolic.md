@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Bare-metal GPU rental with SSH access for full control. Hourly rates from $1.39-$1.99 with no long-term commitments. Reserved clusters available monthly/annually with up to 40% discount.
   name: Hyperbolic On-Demand GPU API
   slug: gpu
-- description: The Audio API from Hyperbolic — 1 operation(s) for audio.
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: declared
+  description: The Audio API from Hyperbolic — 1 operation(s) for audio.
   name: Hyperbolic Audio API
   slug: hyperbolic-audio-api
-- description: The Chat API from Hyperbolic — 1 operation(s) for chat.
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: declared
+  description: The Chat API from Hyperbolic — 1 operation(s) for chat.
   name: Hyperbolic Chat API
   slug: hyperbolic-chat-api
-- description: The Completions API from Hyperbolic — 1 operation(s) for completions.
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: declared
+  description: The Completions API from Hyperbolic — 1 operation(s) for completions.
   name: Hyperbolic Completions API
   slug: hyperbolic-completions-api
-- description: The Image API from Hyperbolic — 1 operation(s) for image.
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: declared
+  description: The Image API from Hyperbolic — 1 operation(s) for image.
   name: Hyperbolic Image API
   slug: hyperbolic-image-api
-- description: The Models API from Hyperbolic — 1 operation(s) for models.
+- baseURL: https://api.hyperbolic.xyz/v1
+  baseurl_source: declared
+  description: The Models API from Hyperbolic — 1 operation(s) for models.
   name: Hyperbolic Models API
   slug: hyperbolic-models-api
 artifact_total: 20
@@ -185,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/screenshots/hyperbolic-2026-06-20T183118.png
 security:

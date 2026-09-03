@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: OAuth 2.0, OIDC, and SAML-based single sign-on integration that enables application partners to authenticate students, teachers, and staff through the Clever portal. Issues bearer access tokens scoped
   name: Clever Single Sign-On API
   slug: clever-single-sign-on-api
-- description: Delta-sync event stream API that notifies application partners of changes to roster data (creates, updates, deletes) within a district. Must be enabled via the application dashboard and uses a distric
+- baseURL: https://api.clever.com/v3.1
+  baseurl_source: declared
+  description: Delta-sync event stream API that notifies application partners of changes to roster data (creates, updates, deletes) within a district. Must be enabled via the application dashboard and uses a distric
   name: Clever Events API
   slug: clever-events-api
-- description: The Assignments API from Clever — 3 operation(s) for assignments.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Assignments API from Clever — 3 operation(s) for assignments.
   name: Clever Assignments API
   slug: clever-assignments-api
-- description: The Courses API from Clever — 6 operation(s) for courses.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Courses API from Clever — 6 operation(s) for courses.
   name: Clever Courses API
   slug: clever-courses-api
-- description: The Districts API from Clever — 2 operation(s) for districts.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Districts API from Clever — 2 operation(s) for districts.
   name: Clever Districts API
   slug: clever-districts-api
-- description: The Resources API from Clever — 5 operation(s) for resources.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Resources API from Clever — 5 operation(s) for resources.
   name: Clever Resources API
   slug: clever-resources-api
-- description: The Schools API from Clever — 7 operation(s) for schools.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Schools API from Clever — 7 operation(s) for schools.
   name: Clever Schools API
   slug: clever-schools-api
-- description: The Sections API from Clever — 8 operation(s) for sections.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Sections API from Clever — 8 operation(s) for sections.
   name: Clever Sections API
   slug: clever-sections-api
-- description: The Submissions API from Clever — 1 operation(s) for submissions.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Submissions API from Clever — 1 operation(s) for submissions.
   name: Clever Submissions API
   slug: clever-submissions-api
-- description: The Terms API from Clever — 5 operation(s) for terms.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Terms API from Clever — 5 operation(s) for terms.
   name: Clever Terms API
   slug: clever-terms-api
-- description: The Users API from Clever — 9 operation(s) for users.
+- baseURL: https://api.clever.com
+  baseurl_source: declared
+  description: The Users API from Clever — 9 operation(s) for users.
   name: Clever Users API
   slug: clever-users-api
 artifact_total: 42
@@ -337,7 +357,7 @@ score:
     regime_id: education
     score: 70.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/screenshots/clever-2026-06-20T174509.png
 security:

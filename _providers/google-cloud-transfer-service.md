@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for managing on-premises transfer agent pools
+- baseURL: https://storagetransfer.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing on-premises transfer agent pools
   name: Google Cloud Transfer Service AgentPools API
   slug: google-cloud-transfer-service-agentpools-api
-- description: Operations for managing transfer jobs
+- baseURL: https://storagetransfer.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing transfer jobs
   name: Google Cloud Transfer Service TransferJobs API
   slug: google-cloud-transfer-service-transferjobs-api
-- description: Operations for monitoring transfer operations
+- baseURL: https://storagetransfer.googleapis.com
+  baseurl_source: declared
+  description: Operations for monitoring transfer operations
   name: Google Cloud Transfer Service TransferOperations API
   slug: google-cloud-transfer-service-transferoperations-api
 artifact_total: 19
@@ -191,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/screenshots/google-cloud-transfer-service-2026-06-20T182144.png
 security:

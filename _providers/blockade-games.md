@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Skybox Exports API from Blockade Games — 2 operation(s) for skybox exports.
+- baseURL: https://backend.blockadelabs.com/api/v1
+  baseurl_source: declared
+  description: The Skybox Exports API from Blockade Games — 2 operation(s) for skybox exports.
   name: Blockade Games Skybox Exports API
   slug: blockade-games-skybox-exports-api
-- description: The Skyboxes API from Blockade Games — 8 operation(s) for skyboxes.
+- baseURL: https://backend.blockadelabs.com/api/v1
+  baseurl_source: declared
+  description: The Skyboxes API from Blockade Games — 8 operation(s) for skyboxes.
   name: Blockade Games Skyboxes API
   slug: blockade-games-skyboxes-api
 artifact_total: 9
@@ -215,7 +219,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -225,7 +229,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 47.7
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -236,7 +240,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/screenshots/blockade-games-2026-07-25T203333.png
 security:

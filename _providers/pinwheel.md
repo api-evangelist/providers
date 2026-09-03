@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 46 operations · 13 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounts API from Pinwheel — 4 operation(s) for accounts.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Accounts API from Pinwheel — 4 operation(s) for accounts.
   name: Pinwheel Accounts API
   slug: pinwheel-accounts-api
-- description: The API Keys API from Pinwheel — 3 operation(s) for api keys.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The API Keys API from Pinwheel — 3 operation(s) for api keys.
   name: Pinwheel API Keys API
   slug: pinwheel-api-keys-api
-- description: The Company Connect API from Pinwheel — 7 operation(s) for company connect.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Company Connect API from Pinwheel — 7 operation(s) for company connect.
   name: Pinwheel Company Connect API
   slug: pinwheel-company-connect-api
-- description: The Direct Deposit Allocations API from Pinwheel — 1 operation(s) for direct deposit allocations.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Direct Deposit Allocations API from Pinwheel — 1 operation(s) for direct deposit allocations.
   name: Pinwheel Direct Deposit Allocations API
   slug: pinwheel-direct-deposit-allocations-api
-- description: The Earnings Stream API from Pinwheel — 1 operation(s) for earnings stream.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Earnings Stream API from Pinwheel — 1 operation(s) for earnings stream.
   name: Pinwheel Earnings Stream API
   slug: pinwheel-earnings-stream-api
-- description: The Employers and Platforms API from Pinwheel — 6 operation(s) for employers and platforms.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Employers and Platforms API from Pinwheel — 6 operation(s) for employers and platforms.
   name: Pinwheel Employers and Platforms API
   slug: pinwheel-employers-and-platforms-api
-- description: The End Users API from Pinwheel — 4 operation(s) for end users.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The End Users API from Pinwheel — 4 operation(s) for end users.
   name: Pinwheel End Users API
   slug: pinwheel-end-users-api
-- description: The Income and Employment API from Pinwheel — 6 operation(s) for income and employment.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Income and Employment API from Pinwheel — 6 operation(s) for income and employment.
   name: Pinwheel Income and Employment API
   slug: pinwheel-income-and-employment-api
-- description: The Jobs API from Pinwheel — 1 operation(s) for jobs.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Jobs API from Pinwheel — 1 operation(s) for jobs.
   name: Pinwheel Jobs API
   slug: pinwheel-jobs-api
-- description: The Link Tokens API from Pinwheel — 1 operation(s) for link tokens.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Link Tokens API from Pinwheel — 1 operation(s) for link tokens.
   name: Pinwheel Link Tokens API
   slug: pinwheel-link-tokens-api
-- description: The Sandbox API from Pinwheel — 1 operation(s) for sandbox.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Sandbox API from Pinwheel — 1 operation(s) for sandbox.
   name: Pinwheel Sandbox API
   slug: pinwheel-sandbox-api
-- description: The Tax Forms API from Pinwheel — 2 operation(s) for tax forms.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Tax Forms API from Pinwheel — 2 operation(s) for tax forms.
   name: Pinwheel Tax Forms API
   slug: pinwheel-tax-forms-api
-- description: The Verification Reports API from Pinwheel — 2 operation(s) for verification reports.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Verification Reports API from Pinwheel — 2 operation(s) for verification reports.
   name: Pinwheel Verification Reports API
   slug: pinwheel-verification-reports-api
-- description: The Webhooks API from Pinwheel — 2 operation(s) for webhooks.
+- baseURL: https://api.getpinwheel.com
+  baseurl_source: declared
+  description: The Webhooks API from Pinwheel — 2 operation(s) for webhooks.
   name: Pinwheel Webhooks API
   slug: pinwheel-webhooks-api
 artifact_total: 188
@@ -723,7 +751,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
 security:

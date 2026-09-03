@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 25 operations · 14 acting
 api_count: 1
 apis:
-- description: The Accounts API from NodePing — 1 operation(s) for accounts.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Accounts API from NodePing — 1 operation(s) for accounts.
   name: NodePing Accounts API
   slug: nodeping-accounts-api
-- description: The Checks API from NodePing — 2 operation(s) for checks.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Checks API from NodePing — 2 operation(s) for checks.
   name: NodePing Checks API
   slug: nodeping-checks-api
-- description: The Contactgroups API from NodePing — 1 operation(s) for contactgroups.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Contactgroups API from NodePing — 1 operation(s) for contactgroups.
   name: NodePing Contactgroups API
   slug: nodeping-contactgroups-api
-- description: The Contacts API from NodePing — 1 operation(s) for contacts.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Contacts API from NodePing — 1 operation(s) for contacts.
   name: NodePing Contacts API
   slug: nodeping-contacts-api
-- description: The Info API from NodePing — 1 operation(s) for info.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Info API from NodePing — 1 operation(s) for info.
   name: NodePing Info API
   slug: nodeping-info-api
-- description: The Notifications API from NodePing — 1 operation(s) for notifications.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Notifications API from NodePing — 1 operation(s) for notifications.
   name: NodePing Notifications API
   slug: nodeping-notifications-api
-- description: The Results API from NodePing — 3 operation(s) for results.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Results API from NodePing — 3 operation(s) for results.
   name: NodePing Results API
   slug: nodeping-results-api
-- description: The Schedules API from NodePing — 1 operation(s) for schedules.
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Schedules API from NodePing — 1 operation(s) for schedules.
   name: NodePing Schedules API
   slug: nodeping-schedules-api
 artifact_total: 27
@@ -216,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nodeping/refs/heads/main/screenshots/nodeping-2026-06-20T190350.png
 security:

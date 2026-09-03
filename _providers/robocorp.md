@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -47,40 +47,64 @@ apis:
 - description: The RPA Framework is an open-source collection of Python libraries for robotic process automation designed for use with Robot Framework and Python. It includes libraries for browser automation, deskto
   name: RPA Framework
   slug: rpa-framework
-- description: Asset storage management
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Asset storage management
   name: Robocorp Assets API
   slug: robocorp-assets-api
-- description: AI assistant management
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: AI assistant management
   name: Robocorp Assistants API
   slug: robocorp-assistants-api
-- description: Process execution and monitoring
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Process execution and monitoring
   name: Robocorp Process Runs API
   slug: robocorp-process-runs-api
-- description: Process definition and management
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Process definition and management
   name: Robocorp Processes API
   slug: robocorp-processes-api
-- description: Individual step execution details
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Individual step execution details
   name: Robocorp Step Runs API
   slug: robocorp-step-runs-api
-- description: Task package deployment
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Task package deployment
   name: Robocorp Task Packages API
   slug: robocorp-task-packages-api
-- description: Secret management
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Secret management
   name: Robocorp Vault API
   slug: robocorp-vault-api
-- description: Webhook configuration
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Webhook configuration
   name: Robocorp Webhooks API
   slug: robocorp-webhooks-api
-- description: Work item queue management
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Work item queue management
   name: Robocorp Work Items API
   slug: robocorp-work-items-api
-- description: Worker group organization
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Worker group organization
   name: Robocorp Worker Groups API
   slug: robocorp-worker-groups-api
-- description: Worker agent management
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Worker agent management
   name: Robocorp Workers API
   slug: robocorp-workers-api
-- description: Workspace information
+- baseURL: https://cloud.robocorp.com/api/v1
+  baseurl_source: declared
+  description: Workspace information
   name: Robocorp Workspace API
   slug: robocorp-workspace-api
 artifact_total: 53
@@ -328,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/screenshots/robocorp-2026-06-20T193143.png
 security:

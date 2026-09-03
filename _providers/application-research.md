@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,112 +44,184 @@ agentic_access:
   summary_line: 103 operations · 32 acting
 api_count: 5
 apis:
-- description: API Resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: API Resource operations
   name: Application Research API Resources API
   slug: application-research-api-resources-api
-- description: Application resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Application resource operations
   name: Application Research Applications API
   slug: application-research-applications-api
-- description: Operations for managing CNAB bundle descriptors
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing CNAB bundle descriptors
   name: Application Research Bundles API
   slug: application-research-bundles-api
-- description: Capability operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Capability operations
   name: Application Research Capabilities API
   slug: application-research-capabilities-api
-- description: Operations for managing claim execution results
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing claim execution results
   name: Application Research Claim Results API
   slug: application-research-claim-results-api
-- description: Operations for managing installation claims
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing installation claims
   name: Application Research Claims API
   slug: application-research-claims-api
-- description: Operations for managing component descriptors
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing component descriptors
   name: Application Research Components API
   slug: application-research-components-api
-- description: Operations for managing component configurations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing component configurations
   name: Application Research Configurations API
   slug: application-research-configurations-api
-- description: Consumption Bundle operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Consumption Bundle operations
   name: Application Research Consumption Bundles API
   slug: application-research-consumption-bundles-api
-- description: Container resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Container resource operations
   name: Application Research Containers API
   slug: application-research-containers-api
-- description: Credential management operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Credential management operations
   name: Application Research Credentials API
   slug: application-research-credentials-api
-- description: Dapr component operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Dapr component operations
   name: Application Research Dapr API
   slug: application-research-dapr-api
-- description: Data Product operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Data Product operations
   name: Application Research Data Products API
   slug: application-research-data-products-api
-- description: Datastore portable resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Datastore portable resource operations
   name: Application Research Datastores API
   slug: application-research-datastores-api
-- description: Entity Type operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Entity Type operations
   name: Application Research Entity Types API
   slug: application-research-entity-types-api
-- description: Environment resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Environment resource operations
   name: Application Research Environments API
   slug: application-research-environments-api
-- description: Event Resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Event Resource operations
   name: Application Research Event Resources API
   slug: application-research-event-resources-api
-- description: Extender portable resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Extender portable resource operations
   name: Application Research Extenders API
   slug: application-research-extenders-api
-- description: Gateway resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Gateway resource operations
   name: Application Research Gateways API
   slug: application-research-gateways-api
-- description: Group and Group Type operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Group and Group Type operations
   name: Application Research Groups API
   slug: application-research-groups-api
-- description: Integration Dependency operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Integration Dependency operations
   name: Application Research Integration Dependencies API
   slug: application-research-integration-dependencies-api
-- description: Messaging portable resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Messaging portable resource operations
   name: Application Research Messaging API
   slug: application-research-messaging-api
-- description: Operations for ORD Document management
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for ORD Document management
   name: Application Research ORD Documents API
   slug: application-research-ord-documents-api
-- description: Package management operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Package management operations
   name: Application Research Packages API
   slug: application-research-packages-api
-- description: Plane management operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Plane management operations
   name: Application Research Planes API
   slug: application-research-planes-api
-- description: Product operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Product operations
   name: Application Research Products API
   slug: application-research-products-api
-- description: Resource group operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Resource group operations
   name: Application Research ResourceGroups API
   slug: application-research-resourcegroups-api
-- description: Operations for managing component resources
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing component resources
   name: Application Research Resources API
   slug: application-research-resources-api
-- description: Secret store operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Secret store operations
   name: Application Research SecretStores API
   slug: application-research-secretstores-api
-- description: Operations for component signing and verification
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for component signing and verification
   name: Application Research Signatures API
   slug: application-research-signatures-api
-- description: Operations for managing component sources
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for managing component sources
   name: Application Research Sources API
   slug: application-research-sources-api
-- description: Operations for querying installation status
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Operations for querying installation status
   name: Application Research Status API
   slug: application-research-status-api
-- description: Workload validation operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Workload validation operations
   name: Application Research Validation API
   slug: application-research-validation-api
-- description: Vendor operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Vendor operations
   name: Application Research Vendors API
   slug: application-research-vendors-api
-- description: Volume resource operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Volume resource operations
   name: Application Research Volumes API
   slug: application-research-volumes-api
-- description: Score workload management operations
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Score workload management operations
   name: Application Research Workloads API
   slug: application-research-workloads-api
 artifact_total: 416
@@ -1347,7 +1419,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -1357,7 +1429,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 34.6
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1366,7 +1438,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/screenshots/application-research-2026-06-20T172330.png
 security:

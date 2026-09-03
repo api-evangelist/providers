@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage backend services for load balancers
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage backend services for load balancers
   name: Google Cloud Load Balancing BackendServices API
   slug: google-cloud-load-balancing-backendservices-api
-- description: Manage forwarding rules for directing traffic
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage forwarding rules for directing traffic
   name: Google Cloud Load Balancing ForwardingRules API
   slug: google-cloud-load-balancing-forwardingrules-api
-- description: Manage health checks for backend services
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage health checks for backend services
   name: Google Cloud Load Balancing HealthChecks API
   slug: google-cloud-load-balancing-healthchecks-api
-- description: Manage URL maps for routing traffic
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage URL maps for routing traffic
   name: Google Cloud Load Balancing UrlMaps API
   slug: google-cloud-load-balancing-urlmaps-api
 artifact_total: 23
@@ -232,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-load-balancing/refs/heads/main/screenshots/google-cloud-load-balancing-2026-06-20T182118.png
 security:

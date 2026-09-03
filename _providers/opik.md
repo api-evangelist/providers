@@ -33,124 +33,202 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Agent configuration management
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Agent configuration management
   name: Opik Agent Configs API
   slug: opik-agent-configs-api
-- description: Coding-agent spend analytics
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Coding-agent spend analytics
   name: Opik AI Spend API
   slug: opik-ai-spend-api
-- description: Alert resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Alert resources
   name: Opik Alerts API
   slug: opik-alerts-api
-- description: Private annotation queue operations
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Private annotation queue operations
   name: Opik Annotation Queues API
   slug: opik-annotation-queues-api
-- description: Assertion result related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Assertion result related resources
   name: Opik Assertion Results API
   slug: opik-assertion-results-api
-- description: Attachments related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Attachments related resources
   name: Opik Attachments API
   slug: opik-attachments-api
-- description: Automation rule evaluators resource
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Automation rule evaluators resource
   name: Opik Automation rule evaluators API
   slug: opik-automation-rule-evaluators-api
-- description: Chat Completions related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Chat Completions related resources
   name: Opik Chat Completions API
   slug: opik-chat-completions-api
-- description: Access check resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Access check resources
   name: Opik Check API
   slug: opik-check-api
-- description: Workspace Dashboard resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Workspace Dashboard resources
   name: Opik Dashboards API
   slug: opik-dashboards-api
-- description: Dataset resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Dataset resources
   name: Opik Datasets API
   slug: opik-datasets-api
-- description: Environment related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Environment related resources
   name: Opik Environments API
   slug: opik-environments-api
-- description: Experiment resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Experiment resources
   name: Opik Experiments API
   slug: opik-experiments-api
-- description: Feedback definitions related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Feedback definitions related resources
   name: Opik Feedback-definitions API
   slug: opik-feedback-definitions-api
-- description: Guardrails related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Guardrails related resources
   name: Opik Guardrails API
   slug: opik-guardrails-api
-- description: Insights View resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Insights View resources
   name: Opik Insights Views API
   slug: opik-insights-views-api
-- description: The Is Alive API from Opik — 2 operation(s) for is alive.
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: The Is Alive API from Opik — 2 operation(s) for is alive.
   name: Opik Is Alive API
   slug: opik-is-alive-api
-- description: LLM model registry resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: LLM model registry resources
   name: Opik LLM Models API
   slug: opik-llm-models-api
-- description: LLM Provider Key
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: LLM Provider Key
   name: Opik LlmProviderKey API
   slug: opik-llmproviderkey-api
-- description: Manual evaluation resources for traces, threads, and spans
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Manual evaluation resources for traces, threads, and spans
   name: Opik Manual Evaluation API
   slug: opik-manual-evaluation-api
-- description: MCP OAuth 2.1 Authorization Server resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: MCP OAuth 2.1 Authorization Server resources
   name: Opik MCP OAuth API
   slug: opik-mcp-oauth-api
-- description: Ollama provider configuration endpoints with OpenAI-compatible API support.
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Ollama provider configuration endpoints with OpenAI-compatible API support.
   name: Opik Ollama API
   slug: opik-ollama-api
-- description: Ollie pod state persistence
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Ollie pod state persistence
   name: Opik Ollie State API
   slug: opik-ollie-state-api
-- description: Resource to ingest Traces and Spans via OpenTelemetry
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Resource to ingest Traces and Spans via OpenTelemetry
   name: Opik OpenTelemetry Ingestion API
   slug: opik-opentelemetry-ingestion-api
-- description: Optimization resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Optimization resources
   name: Opik Optimizations API
   slug: opik-optimizations-api
-- description: Pairing sessions for the `opik connect` and `opik endpoint` CLI commands
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Pairing sessions for the `opik connect` and `opik endpoint` CLI commands
   name: Opik Pairing API
   slug: opik-pairing-api
-- description: Project related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Project related resources
   name: Opik Projects API
   slug: opik-projects-api
-- description: Prompt resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Prompt resources
   name: Opik Prompts API
   slug: opik-prompts-api
-- description: Redirects for SDK generated links
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Redirects for SDK generated links
   name: Opik Redirect API
   slug: opik-redirect-api
-- description: Ollie daily report management
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Ollie daily report management
   name: Opik Reports API
   slug: opik-reports-api
-- description: Data retention rule management
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Data retention rule management
   name: Opik Retention Rules API
   slug: opik-retention-rules-api
-- description: Local runner management endpoints
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Local runner management endpoints
   name: Opik Runners API
   slug: opik-runners-api
-- description: Service Toggles resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Service Toggles resources
   name: Opik Service Toggles API
   slug: opik-service-toggles-api
-- description: Span related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Span related resources
   name: Opik Spans API
   slug: opik-spans-api
-- description: System usage related resource
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: System usage related resource
   name: Opik System usage API
   slug: opik-system-usage-api
-- description: Trace related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Trace related resources
   name: Opik Traces API
   slug: opik-traces-api
-- description: Welcome wizard tracking resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Welcome wizard tracking resources
   name: Opik Welcome Wizard API
   slug: opik-welcome-wizard-api
-- description: Workspace permissions related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Workspace permissions related resources
   name: Opik Workspace permissions API
   slug: opik-workspace-permissions-api
-- description: Workspace related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Workspace related resources
   name: Opik Workspaces API
   slug: opik-workspaces-api
 artifact_total: 92
@@ -477,7 +555,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

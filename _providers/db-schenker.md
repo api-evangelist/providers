@@ -23,37 +23,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Responsible for all Web API functions related to Service Points
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to Service Points
   name: DB Schenker Delivery Point API
   slug: db-schenker-deliverypoint-api
-- description: Responsible for all Web API functions related to Service Points
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to Service Points
   name: DB Schenker Delivery Point2 API
   slug: db-schenker-deliverypoint2-api
-- description: Responsible for all Web API functions related to Service Points
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to Service Points
   name: DB Schenker Delivery Point3 API
   slug: db-schenker-deliverypoint3-api
-- description: Responsible for all Web API functions related to Service Points
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to Service Points
   name: DB Schenker Delivery Point4 API
   slug: db-schenker-deliverypoint4-api
-- description: 'Responsible for all Web API functions related to EDI (For example: Register, Register Return)'
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: 'Responsible for all Web API functions related to EDI (For example: Register, Register Return)'
   name: DB Schenker Edi API
   slug: db-schenker-edi-api
-- description: Responsible for all Web API functions related to HITTA
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to HITTA
   name: DB Schenker Extended Delivery Point API
   slug: db-schenker-extendeddeliverypoint-api
-- description: Responsible for (QR) print codes.
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for (QR) print codes.
   name: DB Schenker Print Code API
   slug: db-schenker-printcode-api
-- description: Responsible for all Web API functions related to handling sorting codes in MANET.
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to handling sorting codes in MANET.
   name: DB Schenker Sorting Code API
   slug: db-schenker-sortingcode-api
-- description: Responsible for all Web API functions related to Advanced Track and Trace.
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to Advanced Track and Trace.
   name: DB Schenker Track And Trace Advanced2 API
   slug: db-schenker-trackandtraceadvanced2-api
-- description: Responsible for all Web API functions related to Boxes Track and Trace.
+- baseURL: https://parcelservices-se.dbschenker.com/Apipartner
+  baseurl_source: declared
+  description: Responsible for all Web API functions related to Boxes Track and Trace.
   name: DB Schenker Track And Trace Boxes API
   slug: db-schenker-trackandtraceboxes-api
 artifact_total: 14
@@ -143,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png
 slug: db-schenker

@@ -33,25 +33,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'The TuneIn Platform API is a partner-facing REST API (OAuth 2.0) for embedding TuneIn''s full audio service into third-party devices and ecosystems. It exposes endpoints for categories, user profiles, '
   name: TuneIn Platform API
   slug: tunein-platform-api
-- description: The Browse.ashx API from TuneIn — 1 operation(s) for browse.ashx.
+- baseURL: https://opml.radiotime.com
+  baseurl_source: declared
+  description: The Browse.ashx API from TuneIn — 1 operation(s) for browse.ashx.
   name: TuneIn Browse.ashx API
   slug: tunein-browse-ashx-api
-- description: The Describe.ashx API from TuneIn — 1 operation(s) for describe.ashx.
+- baseURL: https://opml.radiotime.com
+  baseurl_source: declared
+  description: The Describe.ashx API from TuneIn — 1 operation(s) for describe.ashx.
   name: TuneIn Describe.ashx API
   slug: tunein-describe-ashx-api
-- description: The Playing.ashx API from TuneIn — 1 operation(s) for playing.ashx.
+- baseURL: https://opml.radiotime.com
+  baseurl_source: declared
+  description: The Playing.ashx API from TuneIn — 1 operation(s) for playing.ashx.
   name: TuneIn Playing.ashx API
   slug: tunein-playing-ashx-api
-- description: The Search.ashx API from TuneIn — 1 operation(s) for search.ashx.
+- baseURL: https://opml.radiotime.com
+  baseurl_source: declared
+  description: The Search.ashx API from TuneIn — 1 operation(s) for search.ashx.
   name: TuneIn Search.ashx API
   slug: tunein-search-ashx-api
-- description: The Tune.ashx API from TuneIn — 1 operation(s) for tune.ashx.
+- baseURL: https://opml.radiotime.com
+  baseurl_source: declared
+  description: The Tune.ashx API from TuneIn — 1 operation(s) for tune.ashx.
   name: TuneIn Tune.ashx API
   slug: tunein-tune-ashx-api
 artifact_total: 17
@@ -170,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tunein/refs/heads/main/screenshots/tunein-2026-06-20T195830.png
 security:

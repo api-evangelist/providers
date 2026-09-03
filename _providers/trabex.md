@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: Submit and manage Electronic Export Information (EEI) filings to the Automated Export System (AES) for export reporting compliance.
+- baseURL: https://api.trabex.io
+  baseurl_source: declared
+  description: Submit and manage Electronic Export Information (EEI) filings to the Automated Export System (AES) for export reporting compliance.
   name: Trabex AES Filing API
   slug: trabex-aes-filing-api
-- description: Manage company and party information used in trade compliance workflows including shippers, consignees, and freight forwarders.
+- baseURL: https://api.trabex.io
+  baseurl_source: declared
+  description: Manage company and party information used in trade compliance workflows including shippers, consignees, and freight forwarders.
   name: Trabex Companies API
   slug: trabex-companies-api
-- description: Generate and retrieve export compliance documents including commercial invoices, packing lists, certificates of origin, and shipper's letter of instruction.
+- baseURL: https://api.trabex.io
+  baseurl_source: declared
+  description: Generate and retrieve export compliance documents including commercial invoices, packing lists, certificates of origin, and shipper's letter of instruction.
   name: Trabex Documents API
   slug: trabex-documents-api
-- description: Perform restricted party screening (RPS) against denied party lists, sanctioned entities, and embargoed countries to identify compliance risks.
+- baseURL: https://api.trabex.io
+  baseurl_source: declared
+  description: Perform restricted party screening (RPS) against denied party lists, sanctioned entities, and embargoed countries to identify compliance risks.
   name: Trabex Screening API
   slug: trabex-screening-api
-- description: Submit and manage export shipment data for compliance processing, AES filing, and documentation generation.
+- baseURL: https://api.trabex.io
+  baseurl_source: declared
+  description: Submit and manage export shipment data for compliance processing, AES filing, and documentation generation.
   name: Trabex Shipments API
   slug: trabex-shipments-api
 artifact_total: 25
@@ -212,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/screenshots/trabex-2026-06-20T195511.png
 security:

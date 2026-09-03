@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -485,19 +485,29 @@ apis:
 - description: Calculation of product costs and carbon footprint.
   name: Siemens Teamcenter (X) Product Cost Management REST API
   slug: teamcenter-x-product-cost-management-rest-api
-- description: Building alarm and alert management for monitoring critical equipment conditions and building system faults.
+- baseURL: https://buildingx.siemens.com/api/v1
+  baseurl_source: declared
+  description: Building alarm and alert management for monitoring critical equipment conditions and building system faults.
   name: Siemens Alarms API
   slug: siemens-alarms-api
-- description: Building equipment management including HVAC units, chillers, AHUs, and other mechanical systems.
+- baseURL: https://buildingx.siemens.com/api/v1
+  baseurl_source: declared
+  description: Building equipment management including HVAC units, chillers, AHUs, and other mechanical systems.
   name: Siemens Equipment API
   slug: siemens-equipment-api
-- description: Building data points representing individual sensor readings, setpoints, and actuator states within a building automation system.
+- baseURL: https://buildingx.siemens.com/api/v1
+  baseurl_source: declared
+  description: Building data points representing individual sensor readings, setpoints, and actuator states within a building automation system.
   name: Siemens Points API
   slug: siemens-points-api
-- description: Building automation schedules controlling when systems operate and at what setpoints.
+- baseURL: https://buildingx.siemens.com/api/v1
+  baseurl_source: declared
+  description: Building automation schedules controlling when systems operate and at what setpoints.
   name: Siemens Schedules API
   slug: siemens-schedules-api
-- description: Historical trend data for building system data points over specified time ranges.
+- baseURL: https://buildingx.siemens.com/api/v1
+  baseurl_source: declared
+  description: Historical trend data for building system data points over specified time ranges.
   name: Siemens Trends API
   slug: siemens-trends-api
 artifact_total: 185
@@ -701,7 +711,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

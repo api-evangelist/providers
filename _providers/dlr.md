@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,13 +64,19 @@ apis:
 - description: 'Multi-mission web portal API for interactive access to the DLR Earth observation data holdings including browse-and-download features, time-series data access, OGC WMS/WFS/WMTS/TMS browsing services, '
   name: EOWEB GeoPortal API
   slug: eoweb-geoportal-api
-- description: essential characteristics of this API
+- baseURL: https://geoservice.dlr.de/eoc/ogc/stac/v1
+  baseurl_source: declared
+  description: essential characteristics of this API
   name: DLR Capabilities API
   slug: dlr-capabilities-api
-- description: access to data (features)
+- baseURL: https://geoservice.dlr.de/eoc/ogc/stac/v1
+  baseurl_source: declared
+  description: access to data (features)
   name: DLR Data API
   slug: dlr-data-api
-- description: The STAC API from DLR — 1 operation(s) for stac.
+- baseURL: https://geoservice.dlr.de/eoc/ogc/stac/v1
+  baseurl_source: declared
+  description: The STAC API from DLR — 1 operation(s) for stac.
   name: DLR STAC API
   slug: dlr-stac-api
 artifact_total: 25
@@ -228,7 +234,7 @@ score:
     regime_id: government
     score: 34.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/screenshots/dlr-2026-06-20T180058.png
 security:

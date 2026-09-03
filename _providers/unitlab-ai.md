@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Dataset releases
+- baseURL: https://api.unitlab.ai
+  baseurl_source: declared
+  description: Dataset releases
   name: Unitlab AI Datasets API
   slug: unitlab-ai-datasets-api
-- description: Annotation projects
+- baseURL: https://api.unitlab.ai
+  baseurl_source: declared
+  description: Annotation projects
   name: Unitlab AI Projects API
   slug: unitlab-ai-projects-api
 artifact_total: 8
@@ -200,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitlab-ai/refs/heads/main/screenshots/unitlab-ai-2026-08-17T082617.png
 security:

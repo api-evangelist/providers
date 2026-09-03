@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -36,31 +48,49 @@ apis:
 - description: 'A remote Model Context Protocol server published on the vestaron.com host and advertised anonymously through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata. The '
   name: Vestaron MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Comments API from Vestaron — 2 operation(s) for comments.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Vestaron — 2 operation(s) for comments.
   name: Vestaron Comments API
   slug: vestaron-comments-api
-- description: The Discovery API from Vestaron — 5 operation(s) for discovery.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Vestaron — 5 operation(s) for discovery.
   name: Vestaron Discovery API
   slug: vestaron-discovery-api
-- description: The Media API from Vestaron — 4 operation(s) for media.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Vestaron — 4 operation(s) for media.
   name: Vestaron Media API
   slug: vestaron-media-api
-- description: The Pages API from Vestaron — 6 operation(s) for pages.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Vestaron — 6 operation(s) for pages.
   name: Vestaron Pages API
   slug: vestaron-pages-api
-- description: The Posts API from Vestaron — 6 operation(s) for posts.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Vestaron — 6 operation(s) for posts.
   name: Vestaron Posts API
   slug: vestaron-posts-api
-- description: The Search API from Vestaron — 1 operation(s) for search.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Vestaron — 1 operation(s) for search.
   name: Vestaron Search API
   slug: vestaron-search-api
-- description: The Settings API from Vestaron — 1 operation(s) for settings.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Vestaron — 1 operation(s) for settings.
   name: Vestaron Settings API
   slug: vestaron-settings-api
-- description: The Taxonomy API from Vestaron — 6 operation(s) for taxonomy.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Vestaron — 6 operation(s) for taxonomy.
   name: Vestaron Taxonomy API
   slug: vestaron-taxonomy-api
-- description: The Users API from Vestaron — 6 operation(s) for users.
+- baseURL: https://vestaron.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Vestaron — 6 operation(s) for users.
   name: Vestaron Users API
   slug: vestaron-users-api
 artifact_total: 25
@@ -259,7 +289,7 @@ score:
   band: thin
   composite: 27.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -291,8 +321,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vestaron/refs/heads/main/screenshots/vestaron-2026-09-02T165821.png
 security:
 - kind: authentication
   name: Vestaron Authentication

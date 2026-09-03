@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -49,31 +49,49 @@ apis:
 - description: The Adobe Illustrator Common Extensibility Platform (CEP) allows developers to build panels and extensions using HTML, CSS, and JavaScript. CEP extensions run inside Illustrator and can communicate wi
   name: Adobe Illustrator CEP Extensions API
   slug: cep-extensions
-- description: Access to the Illustrator application object, including preferences, version information, and global settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Access to the Illustrator application object, including preferences, version information, and global settings.
   name: Adobe Illustrator Application API
   slug: adobe-illustrator-application-api
-- description: Manage artboards within an Illustrator document, including creating, resizing, reordering, and removing artboards.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage artboards within an Illustrator document, including creating, resizing, reordering, and removing artboards.
   name: Adobe Illustrator Artboards API
   slug: adobe-illustrator-artboards-api
-- description: Manage Illustrator documents, including opening, creating, saving, closing, and exporting documents in various formats.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage Illustrator documents, including opening, creating, saving, closing, and exporting documents in various formats.
   name: Adobe Illustrator Documents API
   slug: adobe-illustrator-documents-api
-- description: Manage graphic styles that can be applied to artwork for consistent appearance across multiple objects.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage graphic styles that can be applied to artwork for consistent appearance across multiple objects.
   name: Adobe Illustrator Graphic Styles API
   slug: adobe-illustrator-graphic-styles-api
-- description: Create, manage, and manipulate layers within an Illustrator document, including visibility, locking, and ordering.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create, manage, and manipulate layers within an Illustrator document, including visibility, locking, and ordering.
   name: Adobe Illustrator Layers API
   slug: adobe-illustrator-layers-api
-- description: Create and manipulate vector path items, including shapes, lines, and complex paths with anchor points and control handles.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create and manipulate vector path items, including shapes, lines, and complex paths with anchor points and control handles.
   name: Adobe Illustrator Path Items API
   slug: adobe-illustrator-path-items-api
-- description: Manage color swatches, including spot colors, process colors, gradients, and patterns stored in the document.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage color swatches, including spot colors, process colors, gradients, and patterns stored in the document.
   name: Adobe Illustrator Swatches API
   slug: adobe-illustrator-swatches-api
-- description: Manage symbol definitions and symbol instances, enabling reuse of artwork across documents.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage symbol definitions and symbol instances, enabling reuse of artwork across documents.
   name: Adobe Illustrator Symbols API
   slug: adobe-illustrator-symbols-api
-- description: Create and manipulate text frames, including point text, area text, and text on a path, with full typography control.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create and manipulate text frames, including point text, area text, and text on a path, with full typography control.
   name: Adobe Illustrator Text Frames API
   slug: adobe-illustrator-text-frames-api
 artifact_total: 103
@@ -485,7 +503,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/screenshots/adobe-illustrator-2026-06-20T164935.png
 security:

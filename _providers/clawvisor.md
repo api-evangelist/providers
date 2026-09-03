@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Local magic-link session exchange.
+- baseURL: https://app.clawvisor.com
+  baseurl_source: declared
+  description: Local magic-link session exchange.
   name: Clawvisor Auth API
   slug: clawvisor-auth-api
-- description: Discover the services and actions available to the agent.
+- baseURL: https://app.clawvisor.com
+  baseurl_source: declared
+  description: Discover the services and actions available to the agent.
   name: Clawvisor Catalog API
   slug: clawvisor-catalog-api
-- description: Execute authorized actions on downstream services through the gateway.
+- baseURL: https://app.clawvisor.com
+  baseurl_source: declared
+  description: Execute authorized actions on downstream services through the gateway.
   name: Clawvisor Gateway API
   slug: clawvisor-gateway-api
-- description: Declare, approve, expand, and complete task scopes.
+- baseURL: https://app.clawvisor.com
+  baseurl_source: declared
+  description: Declare, approve, expand, and complete task scopes.
   name: Clawvisor Tasks API
   slug: clawvisor-tasks-api
-- description: Mint and revoke scoped agent tokens (admin-gated).
+- baseURL: https://app.clawvisor.com
+  baseurl_source: declared
+  description: Mint and revoke scoped agent tokens (admin-gated).
   name: Clawvisor Tokens API
   slug: clawvisor-tokens-api
 arazzos:
@@ -220,7 +230,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -230,7 +240,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,7 +252,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clawvisor/refs/heads/main/screenshots/clawvisor-2026-07-25T205527.png
 security:

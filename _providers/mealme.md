@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 36 operations · 22 acting
 api_count: 1
 apis:
-- description: Cart creation, retrieval, and item management.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Cart creation, retrieval, and item management.
   name: MealMe Carts API
   slug: mealme-carts-api
-- description: MealMe Connect account linking and ordering.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: MealMe Connect account linking and ordering.
   name: MealMe Connect Accounts API
   slug: mealme-connect-accounts-api
-- description: Address geocoding and reverse geocoding.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Address geocoding and reverse geocoding.
   name: MealMe Geocoding API
   slug: mealme-geocoding-api
-- description: Order creation, finalization, and history.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Order creation, finalization, and history.
   name: MealMe Orders API
   slug: mealme-orders-api
-- description: Payment method management and payment intents.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Payment method management and payment intents.
   name: MealMe Payments API
   slug: mealme-payments-api
-- description: Store, product, and place search.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Store, product, and place search.
   name: MealMe Search API
   slug: mealme-search-api
-- description: Store lookup, inventory, and product details.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Store lookup, inventory, and product details.
   name: MealMe Stores API
   slug: mealme-stores-api
-- description: Customer support chat.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Customer support chat.
   name: MealMe Support Chat API
   slug: mealme-support-chat-api
-- description: Order tracking webhooks.
+- baseURL: https://api.mealme.ai
+  baseurl_source: declared
+  description: Order tracking webhooks.
   name: MealMe Tracking API
   slug: mealme-tracking-api
 artifact_total: 56
@@ -337,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/screenshots/mealme-2026-06-20T185111.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: Operations for managing Cloud Run jobs
+- baseURL: https://run.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing Cloud Run jobs
   name: Google Cloud Run Jobs API
   slug: google-cloud-run-jobs-api
-- description: The Projects API from Google Cloud Run — 2 operation(s) for projects.
+- baseURL: https://run.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Cloud Run — 2 operation(s) for projects.
   name: Google Cloud Run Projects API
   slug: google-cloud-run-projects-api
-- description: Operations for managing service revisions
+- baseURL: https://run.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing service revisions
   name: Google Cloud Run Revisions API
   slug: google-cloud-run-revisions-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/screenshots/google-cloud-run-2026-06-20T182136.png
 security:

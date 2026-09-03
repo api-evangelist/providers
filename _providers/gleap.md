@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 0
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 231 operations · 129 acting
 api_count: 1
 apis:
-- description: The AI content API from Gleap — 9 operation(s) for ai content.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The AI content API from Gleap — 9 operation(s) for ai content.
   name: Gleap AI content API
   slug: gleap-ai-content-api
-- description: The AiModels API from Gleap — 1 operation(s) for aimodels.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The AiModels API from Gleap — 1 operation(s) for aimodels.
   name: Gleap AiModels API
   slug: gleap-aimodels-api
-- description: The Code API from Gleap — 1 operation(s) for code.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Code API from Gleap — 1 operation(s) for code.
   name: Gleap Code API
   slug: gleap-code-api
-- description: The ContactMemory API from Gleap — 2 operation(s) for contactmemory.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The ContactMemory API from Gleap — 2 operation(s) for contactmemory.
   name: Gleap ContactMemory API
   slug: gleap-contactmemory-api
-- description: The Custom components API from Gleap — 2 operation(s) for custom components.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Custom components API from Gleap — 2 operation(s) for custom components.
   name: Gleap Custom components API
   slug: gleap-custom-components-api
-- description: The Engagement API from Gleap — 6 operation(s) for engagement.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement API from Gleap — 6 operation(s) for engagement.
   name: Gleap Engagement API
   slug: gleap-engagement-api
-- description: The Engagement Banner API from Gleap — 2 operation(s) for engagement banner.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Banner API from Gleap — 2 operation(s) for engagement banner.
   name: Gleap Engagement Banner API
   slug: gleap-engagement-banner-api
-- description: The Engagement Chat Message API from Gleap — 2 operation(s) for engagement chat message.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Chat Message API from Gleap — 2 operation(s) for engagement chat message.
   name: Gleap Engagement Chat Message API
   slug: gleap-engagement-chat-message-api
-- description: The Engagement Checklist API from Gleap — 2 operation(s) for engagement checklist.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Checklist API from Gleap — 2 operation(s) for engagement checklist.
   name: Gleap Engagement Checklist API
   slug: gleap-engagement-checklist-api
-- description: The Engagement Cobrowse API from Gleap — 2 operation(s) for engagement cobrowse.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Cobrowse API from Gleap — 2 operation(s) for engagement cobrowse.
   name: Gleap Engagement Cobrowse API
   slug: gleap-engagement-cobrowse-api
-- description: The Engagement Email API from Gleap — 3 operation(s) for engagement email.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Email API from Gleap — 3 operation(s) for engagement email.
   name: Gleap Engagement Email API
   slug: gleap-engagement-email-api
-- description: The Engagement Modal API from Gleap — 2 operation(s) for engagement modal.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Modal API from Gleap — 2 operation(s) for engagement modal.
   name: Gleap Engagement Modal API
   slug: gleap-engagement-modal-api
-- description: The Engagement News API from Gleap — 2 operation(s) for engagement news.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement News API from Gleap — 2 operation(s) for engagement news.
   name: Gleap Engagement News API
   slug: gleap-engagement-news-api
-- description: The Engagement Product Tour API from Gleap — 2 operation(s) for engagement product tour.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Product Tour API from Gleap — 2 operation(s) for engagement product tour.
   name: Gleap Engagement Product Tour API
   slug: gleap-engagement-product-tour-api
-- description: The Engagement Push Notification API from Gleap — 2 operation(s) for engagement push notification.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Push Notification API from Gleap — 2 operation(s) for engagement push notification.
   name: Gleap Engagement Push Notification API
   slug: gleap-engagement-push-notification-api
-- description: The Engagement Survey API from Gleap — 7 operation(s) for engagement survey.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Survey API from Gleap — 7 operation(s) for engagement survey.
   name: Gleap Engagement Survey API
   slug: gleap-engagement-survey-api
-- description: The Engagement Tooltip API from Gleap — 2 operation(s) for engagement tooltip.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Tooltip API from Gleap — 2 operation(s) for engagement tooltip.
   name: Gleap Engagement Tooltip API
   slug: gleap-engagement-tooltip-api
-- description: The Engagement Whatsapp Messages API from Gleap — 3 operation(s) for engagement whatsapp messages.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Engagement Whatsapp Messages API from Gleap — 3 operation(s) for engagement whatsapp messages.
   name: Gleap Engagement Whatsapp Messages API
   slug: gleap-engagement-whatsapp-messages-api
-- description: The Help center API from Gleap — 3 operation(s) for help center.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Help center API from Gleap — 3 operation(s) for help center.
   name: Gleap Help center API
   slug: gleap-help-center-api
-- description: The Help center articles API from Gleap — 3 operation(s) for help center articles.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Help center articles API from Gleap — 3 operation(s) for help center articles.
   name: Gleap Help center articles API
   slug: gleap-help-center-articles-api
-- description: The Help center collections API from Gleap — 4 operation(s) for help center collections.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Help center collections API from Gleap — 4 operation(s) for help center collections.
   name: Gleap Help center collections API
   slug: gleap-help-center-collections-api
-- description: The Help center redirects API from Gleap — 2 operation(s) for help center redirects.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Help center redirects API from Gleap — 2 operation(s) for help center redirects.
   name: Gleap Help center redirects API
   slug: gleap-help-center-redirects-api
-- description: The Invitation API from Gleap — 5 operation(s) for invitation.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Invitation API from Gleap — 5 operation(s) for invitation.
   name: Gleap Invitation API
   slug: gleap-invitation-api
-- description: The Knowledge API from Gleap — 2 operation(s) for knowledge.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Knowledge API from Gleap — 2 operation(s) for knowledge.
   name: Gleap Knowledge API
   slug: gleap-knowledge-api
-- description: The Message templates API from Gleap — 2 operation(s) for message templates.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Message templates API from Gleap — 2 operation(s) for message templates.
   name: Gleap Message templates API
   slug: gleap-message-templates-api
-- description: The Messages API from Gleap — 4 operation(s) for messages.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Messages API from Gleap — 4 operation(s) for messages.
   name: Gleap Messages API
   slug: gleap-messages-api
-- description: The Project API from Gleap — 2 operation(s) for project.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Project API from Gleap — 2 operation(s) for project.
   name: Gleap Project API
   slug: gleap-project-api
-- description: The Session API from Gleap — 20 operation(s) for session.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Session API from Gleap — 20 operation(s) for session.
   name: Gleap Session API
   slug: gleap-session-api
-- description: The Statistics API from Gleap — 9 operation(s) for statistics.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Statistics API from Gleap — 9 operation(s) for statistics.
   name: Gleap Statistics API
   slug: gleap-statistics-api
-- description: The Team API from Gleap — 2 operation(s) for team.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Team API from Gleap — 2 operation(s) for team.
   name: Gleap Team API
   slug: gleap-team-api
-- description: The Ticket API from Gleap — 35 operation(s) for ticket.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Ticket API from Gleap — 35 operation(s) for ticket.
   name: Gleap Ticket API
   slug: gleap-ticket-api
-- description: The Translations API from Gleap — 2 operation(s) for translations.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The Translations API from Gleap — 2 operation(s) for translations.
   name: Gleap Translations API
   slug: gleap-translations-api
-- description: The User API from Gleap — 11 operation(s) for user.
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The User API from Gleap — 11 operation(s) for user.
   name: Gleap User API
   slug: gleap-user-api
 artifact_total: 106
@@ -474,7 +540,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/screenshots/gleap-2026-06-20T181906.png
 security:

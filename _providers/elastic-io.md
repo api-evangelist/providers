@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 89 operations · 48 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage on-premises integration agents
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage on-premises integration agents
   name: Elastic.io Agents API
   slug: elastic-io-agents-api
-- description: Manage OAuth authentication clients
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage OAuth authentication clients
   name: Elastic.io Auth Clients API
   slug: elastic-io-auth-clients-api
-- description: Manage authentication secrets
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage authentication secrets
   name: Elastic.io Auth Secrets API
   slug: elastic-io-auth-secrets-api
-- description: Manage integration components
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage integration components
   name: Elastic.io Components API
   slug: elastic-io-components-api
-- description: Manage contracts (tenants)
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage contracts (tenants)
   name: Elastic.io Contracts API
   slug: elastic-io-contracts-api
-- description: Manage authentication credentials for components
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage authentication credentials for components
   name: Elastic.io Credentials API
   slug: elastic-io-credentials-api
-- description: Manage data samples for component steps
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage data samples for component steps
   name: Elastic.io Data Samples API
   slug: elastic-io-data-samples-api
-- description: Manage flow executions and logs
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage flow executions and logs
   name: Elastic.io Executions API
   slug: elastic-io-executions-api
-- description: Manage flow drafts before publishing
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage flow drafts before publishing
   name: Elastic.io Flow Drafts API
   slug: elastic-io-flow-drafts-api
-- description: Manage flow version history
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage flow version history
   name: Elastic.io Flow Versions API
   slug: elastic-io-flow-versions-api
-- description: Manage integration flows
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage integration flows
   name: Elastic.io Flows API
   slug: elastic-io-flows-api
-- description: Access execution and platform logs
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Access execution and platform logs
   name: Elastic.io Logs API
   slug: elastic-io-logs-api
-- description: View quota usage statistics
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: View quota usage statistics
   name: Elastic.io Quota Usages API
   slug: elastic-io-quota-usages-api
-- description: Manage reusable integration recipes
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage reusable integration recipes
   name: Elastic.io Recipes API
   slug: elastic-io-recipes-api
-- description: Manage user roles and permissions
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage user roles and permissions
   name: Elastic.io Roles API
   slug: elastic-io-roles-api
-- description: Manage flow step snapshots
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage flow step snapshots
   name: Elastic.io Snapshots API
   slug: elastic-io-snapshots-api
-- description: Manage SSH keys for component repositories
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage SSH keys for component repositories
   name: Elastic.io SSH Keys API
   slug: elastic-io-ssh-keys-api
-- description: Manage topic subscriptions
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage topic subscriptions
   name: Elastic.io Subscriptions API
   slug: elastic-io-subscriptions-api
-- description: Manage developer teams
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage developer teams
   name: Elastic.io Teams API
   slug: elastic-io-teams-api
-- description: Manage pub/sub topics
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage pub/sub topics
   name: Elastic.io Topics API
   slug: elastic-io-topics-api
-- description: Manage platform users
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage platform users
   name: Elastic.io Users API
   slug: elastic-io-users-api
-- description: Manage workspaces within contracts
+- baseURL: https://api.elastic.io/v2
+  baseurl_source: spec
+  description: Manage workspaces within contracts
   name: Elastic.io Workspaces API
   slug: elastic-io-workspaces-api
 artifact_total: 432
@@ -764,7 +808,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -774,7 +818,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 46.5
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -783,7 +827,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-io/refs/heads/main/screenshots/elastic-io-2026-06-20T180540.png
 security:

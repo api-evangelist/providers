@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: Artist information
+- baseURL: https://api.wmg.com
+  baseurl_source: declared
+  description: Artist information
   name: Warner Music Group Artists API
   slug: warner-music-group-artists-api
-- description: Music catalog search and discovery
+- baseURL: https://api.wmg.com
+  baseurl_source: declared
+  description: Music catalog search and discovery
   name: Warner Music Group Catalog API
   slug: warner-music-group-catalog-api
-- description: License request and management
+- baseURL: https://api.wmg.com
+  baseurl_source: declared
+  description: License request and management
   name: Warner Music Group Licenses API
   slug: warner-music-group-licenses-api
-- description: Track and recording details
+- baseURL: https://api.wmg.com
+  baseurl_source: declared
+  description: Track and recording details
   name: Warner Music Group Tracks API
   slug: warner-music-group-tracks-api
 artifact_total: 23
@@ -248,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/screenshots/warner-music-group-2026-06-20T201229.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,7 +47,9 @@ apis:
 - description: 'The stock WordPress REST API served by Wahi''s marketing and Learning Centre CMS at https://wahi.com/wp-json/. It is publicly reachable and self-describing: an anonymous GET on the root returns a 319KB'
   name: Wahi WordPress REST API
   slug: wahi-wordpress-rest-api
-- description: The Search API from Wahi — 1 operation(s) for search.
+- baseURL: https://wahi.com/wp-json
+  baseurl_source: declared
+  description: The Search API from Wahi — 1 operation(s) for search.
   name: Wahi Search API
   slug: wahi-search-api
 artifact_total: 7
@@ -156,7 +169,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -188,8 +201,9 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wahi/refs/heads/main/screenshots/wahi-2026-09-02T170359.png
 security:
 - kind: authentication
   name: Wahi Authentication

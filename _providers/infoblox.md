@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -89,22 +89,34 @@ apis:
 - description: RESTful API for the Infoblox NetMRI network change and configuration management platform. Enables automation of network device provisioning, security compliance checks, configuration management, and n
   name: Infoblox NetMRI API
   slug: infoblox-netmri-api
-- description: Operations for managing DHCP ranges, fixed addresses, leases, and DHCP option configurations.
+- baseURL: https://{grid-master}/wapi/v2.12
+  baseurl_source: declared
+  description: Operations for managing DHCP ranges, fixed addresses, leases, and DHCP option configurations.
   name: Infoblox DHCP API
   slug: infoblox-dhcp-api
-- description: Operations for managing DNS resource records including A, AAAA, CNAME, MX, PTR, TXT, SRV, and NS records.
+- baseURL: https://{grid-master}/wapi/v2.12
+  baseurl_source: declared
+  description: Operations for managing DNS resource records including A, AAAA, CNAME, MX, PTR, TXT, SRV, and NS records.
   name: Infoblox DNS Records API
   slug: infoblox-dns-records-api
-- description: Operations for managing authoritative DNS zones, delegated zones, forward zones, and stub zones.
+- baseURL: https://{grid-master}/wapi/v2.12
+  baseurl_source: declared
+  description: Operations for managing authoritative DNS zones, delegated zones, forward zones, and stub zones.
   name: Infoblox DNS Zones API
   slug: infoblox-dns-zones-api
-- description: Operations for managing Grid members, properties, and services.
+- baseURL: https://{grid-master}/wapi/v2.12
+  baseurl_source: declared
+  description: Operations for managing Grid members, properties, and services.
   name: Infoblox Grid API
   slug: infoblox-grid-api
-- description: Operations for managing IP addresses, querying address utilization, and performing next available IP lookups.
+- baseURL: https://{grid-master}/wapi/v2.12
+  baseurl_source: declared
+  description: Operations for managing IP addresses, querying address utilization, and performing next available IP lookups.
   name: Infoblox IP Address Management API
   slug: infoblox-ip-address-management-api
-- description: Operations for managing IPv4 and IPv6 networks, network containers, and network views.
+- baseURL: https://{grid-master}/wapi/v2.12
+  baseurl_source: declared
+  description: Operations for managing IPv4 and IPv6 networks, network containers, and network views.
   name: Infoblox Networks API
   slug: infoblox-networks-api
 artifact_total: 74
@@ -397,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/screenshots/infoblox-2026-06-20T183337.png
 security:

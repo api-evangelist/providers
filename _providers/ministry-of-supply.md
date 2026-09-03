@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The store's Universal Commerce Protocol service, exposed over MCP at /api/ucp/mcp. An anonymous tools/list returns thirteen tools covering catalog search and lookup, product detail, cart create / read
@@ -160,7 +173,7 @@ score:
   band: emerging
   composite: 25.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -180,8 +193,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ministry-of-supply/refs/heads/main/screenshots/ministry-of-supply-2026-09-02T150557.png
 security:
 - kind: authentication
   name: Ministry Of Supply Authentication

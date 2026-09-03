@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: MyState Bank Banking Account Balances API
   slug: mystate-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: MyState Bank Banking Account Direct Debits API
   slug: mystate-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: MyState Bank Banking Account Scheduled Payments API
   slug: mystate-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: MyState Bank Banking Account Transactions API
   slug: mystate-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: MyState Bank Banking Accounts API
   slug: mystate-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: MyState Bank Banking Payees API
   slug: mystate-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: MyState Bank Banking Products API
   slug: mystate-bank-banking-products-api
-- description: The Products API from MyState Bank — 2 operation(s) for products.
+- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: The Products API from MyState Bank — 2 operation(s) for products.
   name: MyState Bank Products API
   slug: mystate-bank-products-api
 artifact_total: 20
@@ -203,7 +219,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -213,7 +229,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 34.4
   provenance:
     conformance: derived
     contracts:
@@ -230,7 +246,7 @@ score:
     regime_id: banking_open_finance
     score: 41.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png
 security:

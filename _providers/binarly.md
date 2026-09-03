@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 109 operations · 64 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Assistant API from Binarly — 5 operation(s) for assistant.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Assistant API from Binarly — 5 operation(s) for assistant.
   name: Binarly Assistant API
   slug: binarly-assistant-api
-- description: The Chart API from Binarly — 7 operation(s) for chart.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Chart API from Binarly — 7 operation(s) for chart.
   name: Binarly Chart API
   slug: binarly-chart-api
-- description: The CustomRules API from Binarly — 4 operation(s) for customrules.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The CustomRules API from Binarly — 4 operation(s) for customrules.
   name: Binarly CustomRules API
   slug: binarly-customrules-api
-- description: The Escalation API from Binarly — 1 operation(s) for escalation.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Escalation API from Binarly — 1 operation(s) for escalation.
   name: Binarly Escalation API
   slug: binarly-escalation-api
-- description: The File API from Binarly — 4 operation(s) for file.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The File API from Binarly — 4 operation(s) for file.
   name: Binarly File API
   slug: binarly-file-api
-- description: The Finding API from Binarly — 4 operation(s) for finding.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Finding API from Binarly — 4 operation(s) for finding.
   name: Binarly Finding API
   slug: binarly-finding-api
-- description: The Grid API from Binarly — 12 operation(s) for grid.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Grid API from Binarly — 12 operation(s) for grid.
   name: Binarly Grid API
   slug: binarly-grid-api
-- description: The Group API from Binarly — 5 operation(s) for group.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Group API from Binarly — 5 operation(s) for group.
   name: Binarly Group API
   slug: binarly-group-api
-- description: The Image API from Binarly — 15 operation(s) for image.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Image API from Binarly — 15 operation(s) for image.
   name: Binarly Image API
   slug: binarly-image-api
-- description: The Integration API from Binarly — 10 operation(s) for integration.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Integration API from Binarly — 10 operation(s) for integration.
   name: Binarly Integration API
   slug: binarly-integration-api
-- description: The Notification API from Binarly — 1 operation(s) for notification.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Notification API from Binarly — 1 operation(s) for notification.
   name: Binarly Notification API
   slug: binarly-notification-api
-- description: The Product API from Binarly — 4 operation(s) for product.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Product API from Binarly — 4 operation(s) for product.
   name: Binarly Product API
   slug: binarly-product-api
-- description: The RoleBinding API from Binarly — 3 operation(s) for rolebinding.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The RoleBinding API from Binarly — 3 operation(s) for rolebinding.
   name: Binarly RoleBinding API
   slug: binarly-rolebinding-api
-- description: The Scan API from Binarly — 5 operation(s) for scan.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Scan API from Binarly — 5 operation(s) for scan.
   name: Binarly Scan API
   slug: binarly-scan-api
-- description: The Search API from Binarly — 2 operation(s) for search.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Search API from Binarly — 2 operation(s) for search.
   name: Binarly Search API
   slug: binarly-search-api
-- description: The Subscription API from Binarly — 2 operation(s) for subscription.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Subscription API from Binarly — 2 operation(s) for subscription.
   name: Binarly Subscription API
   slug: binarly-subscription-api
-- description: The TempFile API from Binarly — 1 operation(s) for tempfile.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The TempFile API from Binarly — 1 operation(s) for tempfile.
   name: Binarly TempFile API
   slug: binarly-tempfile-api
-- description: The User API from Binarly — 3 operation(s) for user.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The User API from Binarly — 3 operation(s) for user.
   name: Binarly User API
   slug: binarly-user-api
-- description: The UserStorage API from Binarly — 2 operation(s) for userstorage.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The UserStorage API from Binarly — 2 operation(s) for userstorage.
   name: Binarly UserStorage API
   slug: binarly-userstorage-api
-- description: The Vulnerability API from Binarly — 2 operation(s) for vulnerability.
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Vulnerability API from Binarly — 2 operation(s) for vulnerability.
   name: Binarly Vulnerability API
   slug: binarly-vulnerability-api
 arazzos:
@@ -331,7 +371,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binarly/refs/heads/main/screenshots/binarly-2026-07-25T202957.png
 security:

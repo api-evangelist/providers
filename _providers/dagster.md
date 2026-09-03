@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Dagster GraphQL API allows clients to interact with Dagster programmatically. It can be used to query information about Dagster runs, retrieve metadata about repositories, jobs, and ops, and launc
   name: Dagster GraphQL API
   slug: graphql-api
-- description: Report asset check evaluations.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Report asset check evaluations.
   name: Dagster Checks API
   slug: dagster-checks-api
-- description: Report asset materialization events.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Report asset materialization events.
   name: Dagster Materializations API
   slug: dagster-materializations-api
-- description: Report asset observation events.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Report asset observation events.
   name: Dagster Observations API
   slug: dagster-observations-api
 arazzos:
@@ -326,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
 security:

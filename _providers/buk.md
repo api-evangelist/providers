@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,205 +35,337 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
-- description: The Absences requests API from Buk — 4 operation(s) for absences requests.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Absences requests API from Buk — 4 operation(s) for absences requests.
   name: Buk Absences requests API
   slug: buk-absences-requests-api
-- description: The Accounting Structures API from Buk — 4 operation(s) for accounting structures.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Accounting Structures API from Buk — 4 operation(s) for accounting structures.
   name: Buk Accounting Structures API
   slug: buk-accounting-structures-api
-- description: The Applicant API from Buk — 1 operation(s) for applicant.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Applicant API from Buk — 1 operation(s) for applicant.
   name: Buk Applicant API
   slug: buk-applicant-api
-- description: The Application API from Buk — 2 operation(s) for application.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Application API from Buk — 2 operation(s) for application.
   name: Buk Application API
   slug: buk-application-api
-- description: The Benefits API from Buk — 3 operation(s) for benefits.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Benefits API from Buk — 3 operation(s) for benefits.
   name: Buk Benefits API
   slug: buk-benefits-api
-- description: The Capacitaciones API from Buk — 2 operation(s) for capacitaciones.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Capacitaciones API from Buk — 2 operation(s) for capacitaciones.
   name: Buk Capacitaciones API
   slug: buk-capacitaciones-api
-- description: The Cargos API from Buk — 1 operation(s) for cargos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Cargos API from Buk — 1 operation(s) for cargos.
   name: Buk Cargos API
   slug: buk-cargos-api
-- description: The Centralized accounting API from Buk — 7 operation(s) for centralized accounting.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Centralized accounting API from Buk — 7 operation(s) for centralized accounting.
   name: Buk Centralized accounting API
   slug: buk-centralized-accounting-api
-- description: The Centro de costo API from Buk — 4 operation(s) for centro de costo.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Centro de costo API from Buk — 4 operation(s) for centro de costo.
   name: Buk Centro de costo API
   slug: buk-centro-de-costo-api
-- description: Attendance clocking ingestion from biometric devices.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: Attendance clocking ingestion from biometric devices.
   name: Buk Clockings API
   slug: buk-clockings-api
-- description: The Colaboradores API from Buk — 23 operation(s) for colaboradores.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Colaboradores API from Buk — 23 operation(s) for colaboradores.
   name: Buk Colaboradores API
   slug: buk-colaboradores-api
-- description: The Créditos API from Buk — 5 operation(s) for créditos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Créditos API from Buk — 5 operation(s) for créditos.
   name: Buk Créditos API
   slug: buk-cr-ditos-api
-- description: The Days worked API from Buk — 2 operation(s) for days worked.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Days worked API from Buk — 2 operation(s) for days worked.
   name: Buk Days worked API
   slug: buk-days-worked-api
-- description: The Dismissal API from Buk — 1 operation(s) for dismissal.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Dismissal API from Buk — 1 operation(s) for dismissal.
   name: Buk Dismissal API
   slug: buk-dismissal-api
-- description: The Documents API from Buk — 5 operation(s) for documents.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Documents API from Buk — 5 operation(s) for documents.
   name: Buk Documents API
   slug: buk-documents-api
-- description: The Empresas API from Buk — 1 operation(s) for empresas.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Empresas API from Buk — 1 operation(s) for empresas.
   name: Buk Empresas API
   slug: buk-empresas-api
-- description: The Empresas Variable Records API from Buk — 1 operation(s) for empresas variable records.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Empresas Variable Records API from Buk — 1 operation(s) for empresas variable records.
   name: Buk Empresas Variable Records API
   slug: buk-empresas-variable-records-api
-- description: The Evaluations API from Buk — 3 operation(s) for evaluations.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Evaluations API from Buk — 3 operation(s) for evaluations.
   name: Buk Evaluations API
   slug: buk-evaluations-api
-- description: The Feriados API from Buk — 1 operation(s) for feriados.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Feriados API from Buk — 1 operation(s) for feriados.
   name: Buk Feriados API
   slug: buk-feriados-api
-- description: The Grupo Familiar API from Buk — 1 operation(s) for grupo familiar.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Grupo Familiar API from Buk — 1 operation(s) for grupo familiar.
   name: Buk Grupo Familiar API
   slug: buk-grupo-familiar-api
-- description: The Grupos API from Buk — 2 operation(s) for grupos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Grupos API from Buk — 2 operation(s) for grupos.
   name: Buk Grupos API
   slug: buk-grupos-api
-- description: The Horas extras API from Buk — 1 operation(s) for horas extras.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Horas extras API from Buk — 1 operation(s) for horas extras.
   name: Buk Horas extras API
   slug: buk-horas-extras-api
-- description: The Horas no trabajadas API from Buk — 3 operation(s) for horas no trabajadas.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Horas no trabajadas API from Buk — 3 operation(s) for horas no trabajadas.
   name: Buk Horas no trabajadas API
   slug: buk-horas-no-trabajadas-api
-- description: The Inasistencia API from Buk — 1 operation(s) for inasistencia.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Inasistencia API from Buk — 1 operation(s) for inasistencia.
   name: Buk Inasistencia API
   slug: buk-inasistencia-api
-- description: The Items API from Buk — 4 operation(s) for items.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Items API from Buk — 4 operation(s) for items.
   name: Buk Items API
   slug: buk-items-api
-- description: The Job Titles API from Buk — 3 operation(s) for job titles.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Job Titles API from Buk — 3 operation(s) for job titles.
   name: Buk Job Titles API
   slug: buk-job-titles-api
-- description: The Jobs API from Buk — 6 operation(s) for jobs.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Jobs API from Buk — 6 operation(s) for jobs.
   name: Buk Jobs API
   slug: buk-jobs-api
-- description: The KPIs API from Buk — 3 operation(s) for kpis.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The KPIs API from Buk — 3 operation(s) for kpis.
   name: Buk KP Is API
   slug: buk-kpis-api
-- description: The Labores API from Buk — 1 operation(s) for labores.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Labores API from Buk — 1 operation(s) for labores.
   name: Buk Labores API
   slug: buk-labores-api
-- description: The Leaves API from Buk — 4 operation(s) for leaves.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Leaves API from Buk — 4 operation(s) for leaves.
   name: Buk Leaves API
   slug: buk-leaves-api
-- description: The Localidades API from Buk — 2 operation(s) for localidades.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Localidades API from Buk — 2 operation(s) for localidades.
   name: Buk Localidades API
   slug: buk-localidades-api
-- description: The Lugares de Trabajo API from Buk — 1 operation(s) for lugares de trabajo.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Lugares de Trabajo API from Buk — 1 operation(s) for lugares de trabajo.
   name: Buk Lugares de Trabajo API
   slug: buk-lugares-de-trabajo-api
-- description: The Nómina Colaborador API from Buk — 1 operation(s) for nómina colaborador.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Nómina Colaborador API from Buk — 1 operation(s) for nómina colaborador.
   name: Buk Nómina Colaborador API
   slug: buk-n-mina-colaborador-api
-- description: The Non-Worked Hours API from Buk — 2 operation(s) for non-worked hours.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Non-Worked Hours API from Buk — 2 operation(s) for non-worked hours.
   name: Buk Non-Worked Hours API
   slug: buk-non-worked-hours-api
-- description: The Notas API from Buk — 1 operation(s) for notas.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Notas API from Buk — 1 operation(s) for notas.
   name: Buk Notas API
   slug: buk-notas-api
-- description: The Overtime API from Buk — 3 operation(s) for overtime.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Overtime API from Buk — 3 operation(s) for overtime.
   name: Buk Overtime API
   slug: buk-overtime-api
-- description: The Pay stubs API from Buk — 5 operation(s) for pay stubs.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Pay stubs API from Buk — 5 operation(s) for pay stubs.
   name: Buk Pay stubs API
   slug: buk-pay-stubs-api
-- description: The Payment documents API from Buk — 5 operation(s) for payment documents.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Payment documents API from Buk — 5 operation(s) for payment documents.
   name: Buk Payment documents API
   slug: buk-payment-documents-api
-- description: The Payrolls API from Buk — 1 operation(s) for payrolls.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Payrolls API from Buk — 1 operation(s) for payrolls.
   name: Buk Payrolls API
   slug: buk-payrolls-api
-- description: The People API from Buk — 1 operation(s) for people.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The People API from Buk — 1 operation(s) for people.
   name: Buk People API
   slug: buk-people-api
-- description: The Períodos API from Buk — 1 operation(s) for períodos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Períodos API from Buk — 1 operation(s) for períodos.
   name: Buk Períodos API
   slug: buk-per-odos-api
-- description: The Postulante API from Buk — 5 operation(s) for postulante.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Postulante API from Buk — 5 operation(s) for postulante.
   name: Buk Postulante API
   slug: buk-postulante-api
-- description: The Procesos API from Buk — 2 operation(s) for procesos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Procesos API from Buk — 2 operation(s) for procesos.
   name: Buk Procesos API
   slug: buk-procesos-api
-- description: The Productos API from Buk — 1 operation(s) for productos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Productos API from Buk — 1 operation(s) for productos.
   name: Buk Productos API
   slug: buk-productos-api
-- description: The Áreas API from Buk — 5 operation(s) for áreas.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Áreas API from Buk — 5 operation(s) for áreas.
   name: Buk Áreas API
   slug: buk-reas-api
-- description: The Recintos API from Buk — 3 operation(s) for recintos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Recintos API from Buk — 3 operation(s) for recintos.
   name: Buk Recintos API
   slug: buk-recintos-api
-- description: The Registro de asistencia API from Buk — 4 operation(s) for registro de asistencia.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Registro de asistencia API from Buk — 4 operation(s) for registro de asistencia.
   name: Buk Registro de asistencia API
   slug: buk-registro-de-asistencia-api
-- description: The Registros de Trabajo API from Buk — 2 operation(s) for registros de trabajo.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Registros de Trabajo API from Buk — 2 operation(s) for registros de trabajo.
   name: Buk Registros de Trabajo API
   slug: buk-registros-de-trabajo-api
-- description: The Selection process API from Buk — 1 operation(s) for selection process.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Selection process API from Buk — 1 operation(s) for selection process.
   name: Buk Selection process API
   slug: buk-selection-process-api
-- description: The Substitutions API from Buk — 2 operation(s) for substitutions.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Substitutions API from Buk — 2 operation(s) for substitutions.
   name: Buk Substitutions API
   slug: buk-substitutions-api
-- description: The Synchronization of payment data API from Buk — 1 operation(s) for synchronization of payment data.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Synchronization of payment data API from Buk — 1 operation(s) for synchronization of payment data.
   name: Buk Synchronization of payment data API
   slug: buk-synchronization-of-payment-data-api
-- description: The Tarifas API from Buk — 1 operation(s) for tarifas.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Tarifas API from Buk — 1 operation(s) for tarifas.
   name: Buk Tarifas API
   slug: buk-tarifas-api
-- description: The Ítems API from Buk — 1 operation(s) for ítems.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Ítems API from Buk — 1 operation(s) for ítems.
   name: Buk Ítems API
   slug: buk-tems-api
-- description: The Termination processes API from Buk — 1 operation(s) for termination processes.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Termination processes API from Buk — 1 operation(s) for termination processes.
   name: Buk Termination processes API
   slug: buk-termination-processes-api
-- description: The Time Off Leaves API from Buk — 1 operation(s) for time off leaves.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Time Off Leaves API from Buk — 1 operation(s) for time off leaves.
   name: Buk Time Off Leaves API
   slug: buk-time-off-leaves-api
-- description: The Turnos API from Buk — 1 operation(s) for turnos.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Turnos API from Buk — 1 operation(s) for turnos.
   name: Buk Turnos API
   slug: buk-turnos-api
-- description: The Unexcused absence API from Buk — 4 operation(s) for unexcused absence.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Unexcused absence API from Buk — 4 operation(s) for unexcused absence.
   name: Buk Unexcused absence API
   slug: buk-unexcused-absence-api
-- description: The Unidades API from Buk — 1 operation(s) for unidades.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Unidades API from Buk — 1 operation(s) for unidades.
   name: Buk Unidades API
   slug: buk-unidades-api
-- description: The Unions API from Buk — 3 operation(s) for unions.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Unions API from Buk — 3 operation(s) for unions.
   name: Buk Unions API
   slug: buk-unions-api
-- description: The Users and profiles API from Buk — 2 operation(s) for users and profiles.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Users and profiles API from Buk — 2 operation(s) for users and profiles.
   name: Buk Users and profiles API
   slug: buk-users-and-profiles-api
-- description: The Usuarios y perfiles API from Buk — 1 operation(s) for usuarios y perfiles.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Usuarios y perfiles API from Buk — 1 operation(s) for usuarios y perfiles.
   name: Buk Usuarios y perfiles API
   slug: buk-usuarios-y-perfiles-api
-- description: The Vacaciones API from Buk — 4 operation(s) for vacaciones.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Vacaciones API from Buk — 4 operation(s) for vacaciones.
   name: Buk Vacaciones API
   slug: buk-vacaciones-api
-- description: The Vacation Policies API from Buk — 1 operation(s) for vacation policies.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Vacation Policies API from Buk — 1 operation(s) for vacation policies.
   name: Buk Vacation Policies API
   slug: buk-vacation-policies-api
-- description: The Variables of the Empresas API from Buk — 1 operation(s) for variables of the empresas.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Variables of the Empresas API from Buk — 1 operation(s) for variables of the empresas.
   name: Buk Variables of the Empresas API
   slug: buk-variables-of-the-empresas-api
-- description: The Versions API from Buk — 1 operation(s) for versions.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Versions API from Buk — 1 operation(s) for versions.
   name: Buk Versions API
   slug: buk-versions-api
-- description: The Workflows API from Buk — 1 operation(s) for workflows.
+- baseURL: https://demo.buk.cl/api/v1/chile
+  baseurl_source: declared
+  description: The Workflows API from Buk — 1 operation(s) for workflows.
   name: Buk Workflows API
   slug: buk-workflows-api
 artifact_total: 138
@@ -658,7 +801,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -668,7 +811,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 49.3
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -679,7 +822,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buk/refs/heads/main/screenshots/buk-2026-08-17T080728.png
 security:

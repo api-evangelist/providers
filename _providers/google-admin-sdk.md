@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: The Admin API from Google Admin SDK — 11 operation(s) for admin.
+- baseURL: https://admin.googleapis.com
+  baseurl_source: declared
+  description: The Admin API from Google Admin SDK — 11 operation(s) for admin.
   name: Google Admin SDK Admin API
   slug: google-admin-sdk-admin-api
 artifact_total: 12
@@ -157,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admin-sdk/refs/heads/main/screenshots/google-admin-sdk-2026-06-20T182002.png
 security:

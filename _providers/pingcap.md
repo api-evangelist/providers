@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -37,97 +50,159 @@ apis:
 - description: Official Model Context Protocol server maintained by PingCAP that exposes a TiDB or TiDB Cloud database to MCP-capable agents and IDEs. Ships in the pytidb package, runs over stdio by default or SSE w
   name: TiDB MCP Server
   slug: tidb-mcp-server
-- description: The API Key API from PingCAP — 2 operation(s) for api key.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The API Key API from PingCAP — 2 operation(s) for api key.
   name: PingCAP API Key API
   slug: pingcap-api-key-api
-- description: The Audit Log API from PingCAP — 1 operation(s) for audit log.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Audit Log API from PingCAP — 1 operation(s) for audit log.
   name: PingCAP Audit Log API
   slug: pingcap-audit-log-api
-- description: Create, get, modify, and delete backups for TiDB clusters. For TiDB Cloud Starter instances, you cannot create or manage backups via API. You can use [Dumpling](https://docs.pingcap.com/tidb/stable/du
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, modify, and delete backups for TiDB clusters. For TiDB Cloud Starter instances, you cannot create or manage backups via API. You can use [Dumpling](https://docs.pingcap.com/tidb/stable/du
   name: PingCAP Backup API
   slug: pingcap-backup-api
-- description: The Billing API from PingCAP — 4 operation(s) for billing.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Billing API from PingCAP — 4 operation(s) for billing.
   name: PingCAP Billing API
   slug: pingcap-billing-api
-- description: The Branch API from PingCAP — 3 operation(s) for branch.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Branch API from PingCAP — 3 operation(s) for branch.
   name: PingCAP Branch API
   slug: pingcap-branch-api
-- description: List changefeed RCU options, list changefeeds, create a changefeed, get a changefeed, delete a changefeed, update a changefeed downstream config, pause a changefeed, resume a changefeed, and scale a c
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: List changefeed RCU options, list changefeeds, create a changefeed, get a changefeed, delete a changefeed, update a changefeed downstream config, pause a changefeed, resume a changefeed, and scale a c
   name: PingCAP Changefeed API
   slug: pingcap-changefeed-api
-- description: The Chat2Query API from PingCAP — 1 operation(s) for chat2query.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Chat2Query API from PingCAP — 1 operation(s) for chat2query.
   name: PingCAP Chat2 Query API
   slug: pingcap-chat2query-api
-- description: Create, get, update, delete, pause, resume, reset the root password, and list node quotas of a cluster.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, update, delete, pause, resume, reset the root password, and list node quotas of a cluster.
   name: PingCAP Cluster API
   slug: pingcap-cluster-api
-- description: The Collections API from PingCAP — 6 operation(s) for collections.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Collections API from PingCAP — 6 operation(s) for collections.
   name: PingCAP Collections API
   slug: pingcap-collections-api
-- description: Create, get, update, delete, and list Data API keys of a Data App. The Data API key in Data Service is different from the key used in the [TiDB Cloud API](https://docs.pingcap.com/tidbcloud/api/v1beta
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, update, delete, and list Data API keys of a Data App. The Data API key in Data Service is different from the key used in the [TiDB Cloud API](https://docs.pingcap.com/tidbcloud/api/v1beta
   name: PingCAP Data API Key API
   slug: pingcap-data-api-key-api
-- description: Create, get, update, delete, and list Data Apps.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, update, delete, and list Data Apps.
   name: PingCAP Data App API
   slug: pingcap-data-app-api
-- description: Create, get, delete, and list data sources of a Data App.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, delete, and list data sources of a Data App.
   name: PingCAP Data Source API
   slug: pingcap-data-source-api
-- description: Create, get, and list deployments of a Data App.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, and list deployments of a Data App.
   name: PingCAP Deployment API
   slug: pingcap-deployment-api
-- description: The doc API from PingCAP — 2 operation(s) for doc.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The doc API from PingCAP — 2 operation(s) for doc.
   name: PingCAP Doc API
   slug: pingcap-doc-api
-- description: Create, get, delete, list, and test endpoints of a Data App.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Create, get, delete, list, and test endpoints of a Data App.
   name: PingCAP Endpoint API
   slug: pingcap-endpoint-api
-- description: The Export API from PingCAP — 3 operation(s) for export.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Export API from PingCAP — 3 operation(s) for export.
   name: PingCAP Export API
   slug: pingcap-export-api
-- description: List import tasks, create an import task, get an import task, and cancel an import task.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: List import tasks, create an import task, get an import task, and cancel an import task.
   name: PingCAP Import API
   slug: pingcap-import-api
-- description: List integrations, create an integration, and delete an integration.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: List integrations, create an integration, and delete an integration.
   name: PingCAP Integration API
   slug: pingcap-integration-api
-- description: The Issue Creators API from PingCAP — 4 operation(s) for issue creators.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Issue Creators API from PingCAP — 4 operation(s) for issue creators.
   name: PingCAP Issue Creators API
   slug: pingcap-issue-creators-api
-- description: The Member API from PingCAP — 4 operation(s) for member.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Member API from PingCAP — 4 operation(s) for member.
   name: PingCAP Member API
   slug: pingcap-member-api
-- description: Get the OpenAPI specification of a Data App.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Get the OpenAPI specification of a Data App.
   name: PingCAP OpenAPI Specification API
   slug: pingcap-openapi-specification-api
-- description: Get private link service for a TiDB node group, create a private endpoint connection, list private endpoint connections, get a private endpoint connection, and delete a private endpoint connection.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Get private link service for a TiDB node group, create a private endpoint connection, list private endpoint connections, get a private endpoint connection, and delete a private endpoint connection.
   name: PingCAP Private Endpoint Connection API
   slug: pingcap-private-endpoint-connection-api
-- description: List projects.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: List projects.
   name: PingCAP Project API
   slug: pingcap-project-api
-- description: The PublicShadowPoolService API from PingCAP — 1 operation(s) for publicshadowpoolservice.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The PublicShadowPoolService API from PingCAP — 1 operation(s) for publicshadowpoolservice.
   name: PingCAP Public Shadow Pool Service API
   slug: pingcap-publicshadowpoolservice-api
-- description: The Pull Request Creators API from PingCAP — 4 operation(s) for pull request creators.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Pull Request Creators API from PingCAP — 4 operation(s) for pull request creators.
   name: PingCAP Pull Request Creators API
   slug: pingcap-pull-request-creators-api
-- description: List regions, get a region, and list cloud providers and node specs of a region.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: List regions, get a region, and list cloud providers and node specs of a region.
   name: PingCAP Region API
   slug: pingcap-region-api
-- description: Get and create restore tasks for TiDB clusters. You can only restore data to a new cluster. For more information on restoration on TiDB Cloud, refer to [Restore](https://docs.pingcap.com/tidbcloud/bac
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: Get and create restore tasks for TiDB clusters. You can only restore data to a new cluster. For more information on restoration on TiDB Cloud, refer to [Restore](https://docs.pingcap.com/tidbcloud/bac
   name: PingCAP Restore API
   slug: pingcap-restore-api
-- description: source
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: source
   name: PingCAP Source API
   slug: pingcap-source-api
-- description: The Stargazers API from PingCAP — 3 operation(s) for stargazers.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Stargazers API from PingCAP — 3 operation(s) for stargazers.
   name: PingCAP Stargazers API
   slug: pingcap-stargazers-api
-- description: task
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: task
   name: PingCAP Task API
   slug: pingcap-task-api
-- description: The Trends API from PingCAP — 1 operation(s) for trends.
+- baseURL: https://serverless.tidbapi.com/v1beta1
+  baseurl_source: declared
+  description: The Trends API from PingCAP — 1 operation(s) for trends.
   name: PingCAP Trends API
   slug: pingcap-trends-api
 artifact_total: 71
@@ -479,7 +554,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/screenshots/pingcap-2026-08-17T081238.png
 security:

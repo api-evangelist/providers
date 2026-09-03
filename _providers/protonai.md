@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
   name: Proton.ai Call Notes API
   slug: protonai-call-notes-api
-- description: The Contacts API from Proton.ai — 3 operation(s) for contacts.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Contacts API from Proton.ai — 3 operation(s) for contacts.
   name: Proton.ai Contacts API
   slug: protonai-contacts-api
-- description: The Custom Fields API from Proton.ai — 5 operation(s) for custom fields.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Custom Fields API from Proton.ai — 5 operation(s) for custom fields.
   name: Proton.ai Custom Fields API
   slug: protonai-custom-fields-api
-- description: The Customers API from Proton.ai — 4 operation(s) for customers.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Customers API from Proton.ai — 4 operation(s) for customers.
   name: Proton.ai Customers API
   slug: protonai-customers-api
-- description: The Leads API from Proton.ai — 3 operation(s) for leads.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Leads API from Proton.ai — 3 operation(s) for leads.
   name: Proton.ai Leads API
   slug: protonai-leads-api
-- description: The Opportunities API from Proton.ai — 8 operation(s) for opportunities.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Opportunities API from Proton.ai — 8 operation(s) for opportunities.
   name: Proton.ai Opportunities API
   slug: protonai-opportunities-api
-- description: The Product Initiatives API from Proton.ai — 1 operation(s) for product initiatives.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Product Initiatives API from Proton.ai — 1 operation(s) for product initiatives.
   name: Proton.ai Product Initiatives API
   slug: protonai-product-initiatives-api
-- description: The Quotes API from Proton.ai — 3 operation(s) for quotes.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Quotes API from Proton.ai — 3 operation(s) for quotes.
   name: Proton.ai Quotes API
   slug: protonai-quotes-api
-- description: The Recommendations API from Proton.ai — 7 operation(s) for recommendations.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Recommendations API from Proton.ai — 7 operation(s) for recommendations.
   name: Proton.ai Recommendations API
   slug: protonai-recommendations-api
-- description: The Search API from Proton.ai — 1 operation(s) for search.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Search API from Proton.ai — 1 operation(s) for search.
   name: Proton.ai Search API
   slug: protonai-search-api
-- description: The Tasks API from Proton.ai — 2 operation(s) for tasks.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Tasks API from Proton.ai — 2 operation(s) for tasks.
   name: Proton.ai Tasks API
   slug: protonai-tasks-api
-- description: The Tracking API from Proton.ai — 2 operation(s) for tracking.
+- baseURL: https://api.proton.ai
+  baseurl_source: declared
+  description: The Tracking API from Proton.ai — 2 operation(s) for tracking.
   name: Proton.ai Tracking API
   slug: protonai-tracking-api
 artifact_total: 29
@@ -199,7 +223,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +248,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/screenshots/protonai-2026-09-02T152230.png
 security:
 - kind: authentication
   name: Protonai Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 54 operations · 22 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The API Keys API from Mithril — 2 operation(s) for api keys.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The API Keys API from Mithril — 2 operation(s) for api keys.
   name: Mithril API Keys API
   slug: mithril-api-keys-api
-- description: The image versions API from Mithril — 2 operation(s) for image versions.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The image versions API from Mithril — 2 operation(s) for image versions.
   name: Mithril image versions API
   slug: mithril-image-versions-api
-- description: The instance types API from Mithril — 2 operation(s) for instance types.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The instance types API from Mithril — 2 operation(s) for instance types.
   name: Mithril instance types API
   slug: mithril-instance-types-api
-- description: The instances API from Mithril — 5 operation(s) for instances.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The instances API from Mithril — 5 operation(s) for instances.
   name: Mithril instances API
   slug: mithril-instances-api
-- description: The kubernetes clusters API from Mithril — 2 operation(s) for kubernetes clusters.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The kubernetes clusters API from Mithril — 2 operation(s) for kubernetes clusters.
   name: Mithril kubernetes clusters API
   slug: mithril-kubernetes-clusters-api
-- description: The lifecycle scripts API from Mithril — 3 operation(s) for lifecycle scripts.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The lifecycle scripts API from Mithril — 3 operation(s) for lifecycle scripts.
   name: Mithril lifecycle scripts API
   slug: mithril-lifecycle-scripts-api
-- description: The pricing API from Mithril — 2 operation(s) for pricing.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The pricing API from Mithril — 2 operation(s) for pricing.
   name: Mithril pricing API
   slug: mithril-pricing-api
-- description: The profile API from Mithril — 2 operation(s) for profile.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The profile API from Mithril — 2 operation(s) for profile.
   name: Mithril profile API
   slug: mithril-profile-api
-- description: The projects API from Mithril — 1 operation(s) for projects.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The projects API from Mithril — 1 operation(s) for projects.
   name: Mithril projects API
   slug: mithril-projects-api
-- description: The quotas API from Mithril — 1 operation(s) for quotas.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The quotas API from Mithril — 1 operation(s) for quotas.
   name: Mithril quotas API
   slug: mithril-quotas-api
-- description: The reservations API from Mithril — 10 operation(s) for reservations.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The reservations API from Mithril — 10 operation(s) for reservations.
   name: Mithril reservations API
   slug: mithril-reservations-api
-- description: The spot API from Mithril — 5 operation(s) for spot.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The spot API from Mithril — 5 operation(s) for spot.
   name: Mithril spot API
   slug: mithril-spot-api
-- description: The SSH Keys API from Mithril — 2 operation(s) for ssh keys.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The SSH Keys API from Mithril — 2 operation(s) for ssh keys.
   name: Mithril SSH Keys API
   slug: mithril-ssh-keys-api
-- description: The volumes API from Mithril — 2 operation(s) for volumes.
+- baseURL: https://api.mithril.ai/v2
+  baseurl_source: declared
+  description: The volumes API from Mithril — 2 operation(s) for volumes.
   name: Mithril volumes API
   slug: mithril-volumes-api
 artifact_total: 35
@@ -320,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/screenshots/mithril-2026-08-07T183809.png
 security:

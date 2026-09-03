@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -52,31 +52,49 @@ apis:
 - description: Next-generation web-based interactive development environment for notebooks, code, and data, with a JupyterLab Server REST API for settings, workspaces, themes, translations, and licenses.
   name: JupyterLab
   slug: jupyterlab
-- description: The Config API from Jupyter — 1 operation(s) for config.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Config API from Jupyter — 1 operation(s) for config.
   name: Jupyter Config API
   slug: jupyter-config-api
-- description: The Contents API from Jupyter — 3 operation(s) for contents.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Contents API from Jupyter — 3 operation(s) for contents.
   name: Jupyter Contents API
   slug: jupyter-contents-api
-- description: The Jupyter Server REST API API from Jupyter — 1 operation(s) for jupyter server rest api.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Jupyter Server REST API API from Jupyter — 1 operation(s) for jupyter server rest api.
   name: Jupyter Jupyter Server REST API API
   slug: jupyter-jupyter-server-rest-api-api
-- description: The Kernels API from Jupyter — 4 operation(s) for kernels.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Kernels API from Jupyter — 4 operation(s) for kernels.
   name: Jupyter Kernels API
   slug: jupyter-kernels-api
-- description: The Kernelspecs API from Jupyter — 1 operation(s) for kernelspecs.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Kernelspecs API from Jupyter — 1 operation(s) for kernelspecs.
   name: Jupyter Kernelspecs API
   slug: jupyter-kernelspecs-api
-- description: The Me API from Jupyter — 1 operation(s) for me.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Me API from Jupyter — 1 operation(s) for me.
   name: Jupyter Me API
   slug: jupyter-me-api
-- description: The Sessions API from Jupyter — 2 operation(s) for sessions.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Sessions API from Jupyter — 2 operation(s) for sessions.
   name: Jupyter Sessions API
   slug: jupyter-sessions-api
-- description: The Status API from Jupyter — 1 operation(s) for status.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Status API from Jupyter — 1 operation(s) for status.
   name: Jupyter Status API
   slug: jupyter-status-api
-- description: The Terminals API from Jupyter — 2 operation(s) for terminals.
+- baseURL: http://localhost:8888
+  baseurl_source: declared
+  description: The Terminals API from Jupyter — 2 operation(s) for terminals.
   name: Jupyter Terminals API
   slug: jupyter-terminals-api
 artifact_total: 29
@@ -244,7 +262,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/screenshots/jupyter-2026-06-20T183836.png
 security:

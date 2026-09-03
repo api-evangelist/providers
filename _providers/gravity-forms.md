@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: WordPress-hosted REST API for managing Gravity Forms forms, entries, feeds, fields, notifications, submissions, and results. Uses Basic Auth or OAuth 1.0a with consumer keys generated in the Gravity F
   name: Gravity Forms REST API v2
   slug: rest-api-v2
-- description: The Entries API from Gravity Forms — 2 operation(s) for entries.
+- baseURL: https://your-wordpress-site.example/wp-json/gf/v2
+  baseurl_source: declared
+  description: The Entries API from Gravity Forms — 2 operation(s) for entries.
   name: Gravity Forms Entries API
   slug: gravity-forms-entries-api
-- description: The Feeds API from Gravity Forms — 1 operation(s) for feeds.
+- baseURL: https://your-wordpress-site.example/wp-json/gf/v2
+  baseurl_source: declared
+  description: The Feeds API from Gravity Forms — 1 operation(s) for feeds.
   name: Gravity Forms Feeds API
   slug: gravity-forms-feeds-api
-- description: The Forms API from Gravity Forms — 4 operation(s) for forms.
+- baseURL: https://your-wordpress-site.example/wp-json/gf/v2
+  baseurl_source: declared
+  description: The Forms API from Gravity Forms — 4 operation(s) for forms.
   name: Gravity Forms Forms API
   slug: gravity-forms-forms-api
-- description: The Notifications API from Gravity Forms — 1 operation(s) for notifications.
+- baseURL: https://your-wordpress-site.example/wp-json/gf/v2
+  baseurl_source: declared
+  description: The Notifications API from Gravity Forms — 1 operation(s) for notifications.
   name: Gravity Forms Notifications API
   slug: gravity-forms-notifications-api
-- description: The Results API from Gravity Forms — 1 operation(s) for results.
+- baseURL: https://your-wordpress-site.example/wp-json/gf/v2
+  baseurl_source: declared
+  description: The Results API from Gravity Forms — 1 operation(s) for results.
   name: Gravity Forms Results API
   slug: gravity-forms-results-api
 artifact_total: 18
@@ -185,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravity-forms/refs/heads/main/screenshots/gravity-forms-2026-06-20T182350.png
 security:

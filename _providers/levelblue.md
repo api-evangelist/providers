@@ -33,19 +33,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The OTX DirectConnect API provides programmatic access to the LevelBlue Open Threat Exchange, an open community threat-intelligence platform. It exposes indicators (IPs, domains, hostnames, file hashe
   name: LevelBlue Open Threat Exchange (OTX) DirectConnect API
   slug: levelblue-open-threat-exchange-otx-directconnect-api
-- description: Endpoints for managing and searching alarm messages.
+- baseURL: https://your-subdomain.alienvault.cloud/api/2.0
+  baseurl_source: declared
+  description: Endpoints for managing and searching alarm messages.
   name: LevelBlue Alarms API
   slug: levelblue-alarms-api
-- description: Endpoints for managing and searching events.
+- baseURL: https://your-subdomain.alienvault.cloud/api/2.0
+  baseurl_source: declared
+  description: Endpoints for managing and searching events.
   name: LevelBlue Events API
   slug: levelblue-events-api
-- description: Endpoint for OAuth 2.0 functionality.
+- baseURL: https://your-subdomain.alienvault.cloud/api/2.0
+  baseurl_source: declared
+  description: Endpoint for OAuth 2.0 functionality.
   name: LevelBlue OAuth API
   slug: levelblue-oauth-api
 artifact_total: 14
@@ -228,7 +234,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -238,7 +244,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 48.2
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -249,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelblue/refs/heads/main/screenshots/levelblue-2026-07-25T224945.png
 security:

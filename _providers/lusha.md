@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -45,61 +45,97 @@ agentic_access:
   summary_line: 58 operations · 38 acting
 api_count: 2
 apis:
-- description: Find contacts or companies from known identifiers — contact id, LinkedIn URL, email or name + company; company id, name or domain — and return a non-PII preview with `has` and `canReveal` fields descr
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Find contacts or companies from known identifiers — contact id, LinkedIn URL, email or name + company; company id, name or domain — and return a non-PII preview with `has` and `canReveal` fields descr
   name: Lusha Search API
   slug: lusha-search-api
-- description: 'Reveal full contact and company profiles by Lusha id, with an explicit `reveal` list controlling which fields are unlocked and charged, and optional waterfall fall-through to enabled third-party data '
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: 'Reveal full contact and company profiles by Lusha id, with an explicit `reveal` list controlling which fields are unlocked and charged, and optional waterfall fall-through to enabled third-party data '
   name: Lusha Enrich API
   slug: lusha-enrichment-api
-- description: Resolve an identifier and return the fully revealed contact or company record in a single call, collapsing the two-phase search-then-enrich pattern where the caller has already decided to spend credit
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Resolve an identifier and return the fully revealed contact or company record in a single call, collapsing the two-phase search-then-enrich pattern where the caller has already decided to spend credit
   name: Lusha Search & Enrich API
   slug: lusha-search-enrich-api
-- description: Filter-based search across Lusha's contact and company database — job title, seniority, department, location, company size, revenue, industry, technology and intent — with paged results and a dedupe s
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Filter-based search across Lusha's contact and company database — job title, seniority, department, location, company size, revenue, industry, technology and intent — with paged results and a dedupe s
   name: Lusha Prospecting API
   slug: lusha-prospecting-api
-- description: AI-powered similarity search that expands a seed list of contacts or companies into comparable profiles, with exclusion lists, a dedupe session id and optional persistence into a Lusha table.
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: AI-powered similarity search that expands a seed list of contacts or companies into comparable profiles, with exclusion lists, a dedupe session id and optional persistence into a Lusha table.
   name: Lusha Lookalikes API
   slug: lusha-lookalike-api
-- description: Persona classification over a fixed set of up to 25 named accounts — labels each returned contact decision_maker, potential_champion or end_user with a relevance score. Released 2026-08-12 as the repl
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Persona classification over a fixed set of up to 25 named accounts — labels each returned contact decision_maker, potential_champion or end_user with a relevance score. Released 2026-08-12 as the repl
   name: Lusha Buying Group API
   slug: lusha-buying-group-api
-- description: Real-world activity data for contacts and companies — promotions and job changes on the contact side; headcount movement, hiring surges, web traffic, IT spend, news classes and LinkedIn activity inten
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Real-world activity data for contacts and companies — promotions and job changes on the contact side; headcount movement, hiring surges, web traffic, IT spend, news classes and LinkedIn activity inten
   name: Lusha Signals API
   slug: lusha-signals-api
-- description: Companies ranked by website-visit signals for domains you track, filtered by score band, visitor country, session counts, unique visitors, high-intent pageviews and recency.
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Companies ranked by website-visit signals for domains you track, filtered by score band, visitor country, session counts, unique visitors, high-intent pageviews and recency.
   name: Lusha Website Visitors API
   slug: lusha-website-visits-api
-- description: Filter discovery for prospecting — enumerates the available filter types and the valid values for each, so callers never guess industry labels, seniority ids or technology names. Charges no credits.
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Filter discovery for prospecting — enumerates the available filter types and the valid values for each, so callers never guess industry labels, seniority ids or technology names. Charges no credits.
   name: Lusha Filters API
   slug: lusha-filters-api
-- description: Persist, organise and enrich contacts in reusable tables with dynamic columns — create, list, read, update, delete tables; add and remove up to 500 entity ids per call; run enrichment columns over a s
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Persist, organise and enrich contacts in reusable tables with dynamic columns — create, list, read, update, delete tables; add and remove up to 500 entity ids per call; run enrichment columns over a s
   name: Lusha Contacts Tables API
   slug: lusha-contacts-tables-api
-- description: The company-side twin of Contacts Tables — persist and enrich company working sets in tables with dynamic columns, capped at 50,000 entities per table and 500 tables per account.
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: The company-side twin of Contacts Tables — persist and enrich company working sets in tables with dynamic columns, capped at 50,000 entities per table and 500 tables per account.
   name: Lusha Companies Tables API
   slug: lusha-companies-tables-api
-- description: Subscription management for real-time signal callbacks — bulk create and delete up to 25 items per request, account-level HMAC-SHA256 secret with rotation, delivery test, contact opt-out notifications
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Subscription management for real-time signal callbacks — bulk create and delete up to 25 items per request, account-level HMAC-SHA256 secret with rotation, delivery test, contact opt-out notifications
   name: Lusha Webhooks API
   slug: lusha-webhooks-api
-- description: Credit balance, plan information, per-action credit pricing and the live rate-limit tiers for the minute, hourly and daily windows.
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Credit balance, plan information, per-action credit pricing and the live rate-limit tiers for the minute, hourly and daily windows.
   name: Lusha Account API
   slug: lusha-account-api
 - description: 'First-party hosted Model Context Protocol server exposing 22 Lusha tools over streamable HTTP. Authenticates with OAuth 2.1 (scope `mcp`, PKCE S256, dynamic client registration at auth.lusha.com) for '
   name: Lusha MCP Server
   slug: mcp
-- description: 'Manage your account and monitor usage. Use this endpoint to: - Monitor credit usage - Understand consumption patterns - Align API usage with plan limits - Support governance and production operations '
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: 'Manage your account and monitor usage. Use this endpoint to: - Monitor credit usage - Understand consumption patterns - Align API usage with plan limits - Support governance and production operations '
   name: Lusha Account Management API
   slug: lusha-account-management-api
-- description: Available filters for company searches
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Available filters for company searches
   name: Lusha Company Filters API
   slug: lusha-company-filters-api
-- description: Available filters for contact searches
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: Available filters for contact searches
   name: Lusha Contact Filters API
   slug: lusha-contact-filters-api
-- description: '**What is enrichment?** Enrichment is the process of adding missing or updated data to existing contact or company records. Use enrichment to: - Complete CRM records - Improve outbound accuracy and de'
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: '**What is enrichment?** Enrichment is the process of adding missing or updated data to existing contact or company records. Use enrichment to: - Complete CRM records - Improve outbound accuracy and de'
   name: Lusha Enrichment API
   slug: lusha-enrichment-api
-- description: With Lusha's Prospecting API, you can query Lusha's extensive database based on specific criteria (such as job title, seniority, location, and more) to retrieve detailed contact and company informatio
+- baseURL: https://api.lusha.com
+  baseurl_source: declared
+  description: With Lusha's Prospecting API, you can query Lusha's extensive database based on specific criteria (such as job title, seniority, location, and more) to retrieve detailed contact and company informatio
   name: Lusha Prospecting - Search & Enrich API
   slug: lusha-prospecting-search-enrich-api
 artifact_total: 44
@@ -370,23 +406,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 68.3
+  composite: 68.2
   coverage:
     artifact_dirs: 25
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.1
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 65.1
+    contract_quality: 64.8
     developer_ergonomics: 61.3
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 86.8
-  previous_composite: 68.5
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,7 +434,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/screenshots/lusha-2026-06-20T184813.png
 security:

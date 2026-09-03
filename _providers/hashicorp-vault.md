@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 6
@@ -45,31 +45,49 @@ agentic_access:
   summary_line: 54 operations · 39 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: AppRole auth method
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: AppRole auth method
   name: HashiCorp Vault Auth - AppRole API
   slug: hashicorp-vault-auth-approle-api
-- description: Token auth method
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: Token auth method
   name: HashiCorp Vault Auth - Token API
   slug: hashicorp-vault-auth-token-api
-- description: Username/password auth method
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: Username/password auth method
   name: HashiCorp Vault Auth - Userpass API
   slug: hashicorp-vault-auth-userpass-api
-- description: Identity secrets engine
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: Identity secrets engine
   name: HashiCorp Vault Identity API
   slug: hashicorp-vault-identity-api
-- description: Lease management
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: Lease management
   name: HashiCorp Vault Leases API
   slug: hashicorp-vault-leases-api
-- description: ACL policy management
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: ACL policy management
   name: HashiCorp Vault Policy API
   slug: hashicorp-vault-policy-api
-- description: Key/Value secrets engine version 2
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: Key/Value secrets engine version 2
   name: HashiCorp Vault Secrets - KV v2 API
   slug: hashicorp-vault-secrets-kv-v2-api
-- description: Transit secrets engine (encryption as a service)
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: Transit secrets engine (encryption as a service)
   name: HashiCorp Vault Secrets - Transit API
   slug: hashicorp-vault-secrets-transit-api
-- description: System backend operations (init, seal, mounts, auth, audit)
+- baseURL: https://127.0.0.1:8200/v1
+  baseurl_source: declared
+  description: System backend operations (init, seal, mounts, auth, audit)
   name: HashiCorp Vault System API
   slug: hashicorp-vault-system-api
 artifact_total: 26
@@ -220,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/screenshots/hashicorp-vault-2026-06-20T182532.png
 security:

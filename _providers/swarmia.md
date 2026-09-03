@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Ingestion of usage data from external AI assistant tools.
+- baseURL: https://app.swarmia.com/api/v1
+  baseurl_source: declared
+  description: Ingestion of usage data from external AI assistant tools.
   name: Swarmia Additional AI integrations API
   slug: swarmia-additional-ai-integrations-api
-- description: Machine-readable versions of major reports found in the Swarmia app.
+- baseURL: https://app.swarmia.com/api/v1
+  baseurl_source: declared
+  description: Machine-readable versions of major reports found in the Swarmia app.
   name: Swarmia Built-in reports API
   slug: swarmia-built-in-reports-api
-- description: Saved custom reports created in the Swarmia explore view.
+- baseURL: https://app.swarmia.com/api/v1
+  baseurl_source: declared
+  description: Saved custom reports created in the Swarmia explore view.
   name: Swarmia Custom reports API
   slug: swarmia-custom-reports-api
-- description: Deployment and fix-deployment event ingestion for delivery and DORA metrics.
+- baseURL: https://app.swarmia.com/api/v1
+  baseurl_source: declared
+  description: Deployment and fix-deployment event ingestion for delivery and DORA metrics.
   name: Swarmia Deployments API
   slug: swarmia-deployments-api
-- description: Programmatic management of teams and memberships.
+- baseURL: https://app.swarmia.com/api/v1
+  baseurl_source: declared
+  description: Programmatic management of teams and memberships.
   name: Swarmia Team management API
   slug: swarmia-team-management-api
-- description: Create, read, update, and delete employee time-off periods.
+- baseURL: https://app.swarmia.com/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete employee time-off periods.
   name: Swarmia Time off API
   slug: swarmia-time-off-api
 artifact_total: 21
@@ -166,7 +178,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -189,8 +201,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/swarmia/refs/heads/main/screenshots/swarmia-2026-09-02T161344.png
 security:
 - kind: authentication
   name: Swarmia Authentication

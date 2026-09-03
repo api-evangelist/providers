@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 28 operations · 17 acting
 api_count: 1
 apis:
-- description: Retrieve the current account balance.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Retrieve the current account balance.
   name: Messente Account Balance API
   slug: messente-account-balance-api
-- description: Manage the phone number blacklist.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Manage the phone number blacklist.
   name: Messente Blacklist API
   slug: messente-blacklist-api
-- description: Send an Omnimessage to many recipients in a single request.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Send an Omnimessage to many recipients in a single request.
   name: Messente Bulk Messaging API
   slug: messente-bulk-messaging-api
-- description: Manage contacts in the Messente Phonebook.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Manage contacts in the Messente Phonebook.
   name: Messente Contacts API
   slug: messente-contacts-api
-- description: Retrieve delivery status for a sent Omnimessage.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Retrieve delivery status for a sent Omnimessage.
   name: Messente Delivery Report API
   slug: messente-delivery-report-api
-- description: Manage contact groups in the Messente Phonebook.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Manage contact groups in the Messente Phonebook.
   name: Messente Groups API
   slug: messente-groups-api
-- description: Fetch HLR / network information about phone numbers.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Fetch HLR / network information about phone numbers.
   name: Messente Number Lookup API
   slug: messente-number-lookup-api
-- description: PIN-based phone number verification (2FA / one-time passwords).
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: PIN-based phone number verification (2FA / one-time passwords).
   name: Messente Number Verification API
   slug: messente-number-verification-api
-- description: Send SMS, Viber, WhatsApp, and Telegram messages with an automatic fallback chain.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Send SMS, Viber, WhatsApp, and Telegram messages with an automatic fallback chain.
   name: Messente Omnimessage API
   slug: messente-omnimessage-api
-- description: Retrieve account pricelist and per-country prices.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Retrieve account pricelist and per-country prices.
   name: Messente Pricing API
   slug: messente-pricing-api
-- description: Request messaging statistics reports by country.
+- baseURL: https://api.messente.com/v1
+  baseurl_source: declared
+  description: Request messaging statistics reports by country.
   name: Messente Statistics API
   slug: messente-statistics-api
 artifact_total: 31
@@ -225,7 +247,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/screenshots/messente-2026-08-07T172635.png
 security:

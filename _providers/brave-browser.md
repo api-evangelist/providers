@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,28 +95,44 @@ apis:
 - description: Native multi-chain crypto wallet built into the Brave browser. Supports EVM and Solana networks; integrates with WalletConnect and dApps.
   name: Brave Wallet
   slug: wallet
-- description: The Images API from Brave — 1 operation(s) for images.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Images API from Brave — 1 operation(s) for images.
   name: Brave Images API
   slug: brave-browser-images-api
-- description: The Local API from Brave — 2 operation(s) for local.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Local API from Brave — 2 operation(s) for local.
   name: Brave Local API
   slug: brave-browser-local-api
-- description: The News API from Brave — 1 operation(s) for news.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The News API from Brave — 1 operation(s) for news.
   name: Brave News API
   slug: brave-browser-news-api
-- description: The Spellcheck API from Brave — 1 operation(s) for spellcheck.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Spellcheck API from Brave — 1 operation(s) for spellcheck.
   name: Brave Spellcheck API
   slug: brave-browser-spellcheck-api
-- description: The Suggest API from Brave — 1 operation(s) for suggest.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Suggest API from Brave — 1 operation(s) for suggest.
   name: Brave Suggest API
   slug: brave-browser-suggest-api
-- description: The Summarizer API from Brave — 1 operation(s) for summarizer.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Summarizer API from Brave — 1 operation(s) for summarizer.
   name: Brave Summarizer API
   slug: brave-browser-summarizer-api
-- description: The Videos API from Brave — 1 operation(s) for videos.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Videos API from Brave — 1 operation(s) for videos.
   name: Brave Videos API
   slug: brave-browser-videos-api
-- description: The Web API from Brave — 1 operation(s) for web.
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Web API from Brave — 1 operation(s) for web.
   name: Brave Web API
   slug: brave-browser-web-api
 - description: Privacy-preserving news feed integrated into the browser's new tab page, sourced from a curated set of publisher feeds.
@@ -266,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/screenshots/brave-browser-2026-06-20T173637.png
 security:

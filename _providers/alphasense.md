@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: Go-based CLI (AlphaSense-Engineering/privatecloud-cli, Apache-2.0-ish "Other" license) used by Enterprise Intelligence Private Cloud customers to bootstrap and validate the Kubernetes cluster that hos
   name: AlphaSense Private Cloud CLI
   slug: privatecloud-cli
-- description: OAuth 2.0 token exchange for the AlphaSense platform.
+- baseURL: https://api.alpha-sense.com
+  baseurl_source: declared
+  description: OAuth 2.0 token exchange for the AlphaSense platform.
   name: AlphaSense Authentication API
   slug: alphasense-authentication-api
-- description: Generative-search mutations and conversation polling for AlphaSense GenSearch.
+- baseURL: https://api.alpha-sense.com
+  baseurl_source: declared
+  description: Generative-search mutations and conversation polling for AlphaSense GenSearch.
   name: AlphaSense GenSearch API
   slug: alphasense-gensearch-api
-- description: Push customer-owned content into Enterprise Intelligence.
+- baseURL: https://api.alpha-sense.com
+  baseurl_source: declared
+  description: Push customer-owned content into Enterprise Intelligence.
   name: AlphaSense Ingestion API
   slug: alphasense-ingestion-api
-- description: Document search across the AlphaSense corpus (500M+ documents).
+- baseURL: https://api.alpha-sense.com
+  baseurl_source: declared
+  description: Document search across the AlphaSense corpus (500M+ documents).
   name: AlphaSense Search API
   slug: alphasense-search-api
 artifact_total: 109
@@ -458,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/screenshots/alphasense-2026-06-20T171557.png
 security:

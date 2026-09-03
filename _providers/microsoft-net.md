@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: Cloud-ready stack for building observable, production-ready distributed applications in .NET with built-in service discovery, health checks, telemetry, and configuration management.
   name: .NET Aspire
   slug: dotnet-aspire
-- description: The PackageContent API from Microsoft .NET — 3 operation(s) for packagecontent.
+- baseURL: https://api.nuget.org/v3
+  baseurl_source: declared
+  description: The PackageContent API from Microsoft .NET — 3 operation(s) for packagecontent.
   name: Microsoft .NET PackageContent API
   slug: microsoft-net-packagecontent-api
-- description: The Registration API from Microsoft .NET — 2 operation(s) for registration.
+- baseURL: https://api.nuget.org/v3
+  baseurl_source: declared
+  description: The Registration API from Microsoft .NET — 2 operation(s) for registration.
   name: Microsoft .NET Registration API
   slug: microsoft-net-registration-api
-- description: The Search API from Microsoft .NET — 1 operation(s) for search.
+- baseURL: https://api.nuget.org/v3
+  baseurl_source: declared
+  description: The Search API from Microsoft .NET — 1 operation(s) for search.
   name: Microsoft .NET Search API
   slug: microsoft-net-search-api
-- description: The ServiceIndex API from Microsoft .NET — 1 operation(s) for serviceindex.
+- baseURL: https://api.nuget.org/v3
+  baseurl_source: declared
+  description: The ServiceIndex API from Microsoft .NET — 1 operation(s) for serviceindex.
   name: Microsoft .NET ServiceIndex API
   slug: microsoft-net-serviceindex-api
 artifact_total: 41
@@ -355,7 +363,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.0
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -365,7 +373,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 89.5
-  previous_composite: 59.1
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,7 +385,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/screenshots/microsoft-net-2026-06-20T185509.png
 security:

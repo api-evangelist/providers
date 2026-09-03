@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 4
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 248 operations · 67 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: The admin API from Orderly Network — 1 operation(s) for admin.
+- baseURL: https://api.orderly.org
+  baseurl_source: declared
+  description: The admin API from Orderly Network — 1 operation(s) for admin.
   name: Orderly Network admin API
   slug: orderly-network-admin-api
-- description: The client API from Orderly Network — 1 operation(s) for client.
+- baseURL: https://api.orderly.org
+  baseurl_source: declared
+  description: The client API from Orderly Network — 1 operation(s) for client.
   name: Orderly Network client API
   slug: orderly-network-client-api
-- description: The private API from Orderly Network — 137 operation(s) for private.
+- baseURL: https://api.orderly.org
+  baseurl_source: declared
+  description: The private API from Orderly Network — 137 operation(s) for private.
   name: Orderly Network private API
   slug: orderly-network-private-api
-- description: The public API from Orderly Network — 97 operation(s) for public.
+- baseURL: https://api.orderly.org
+  baseurl_source: declared
+  description: The public API from Orderly Network — 97 operation(s) for public.
   name: Orderly Network public API
   slug: orderly-network-public-api
 artifact_total: 14
@@ -225,7 +233,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -235,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +261,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-network/refs/heads/main/screenshots/orderly-network-2026-08-07T190918.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 65 operations · 34 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from Blaxel — 3 operation(s) for agents.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Agents API from Blaxel — 3 operation(s) for agents.
   name: Blaxel Agents API
   slug: blaxel-agents-api
-- description: The Compute API from Blaxel — 6 operation(s) for compute.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Compute API from Blaxel — 6 operation(s) for compute.
   name: Blaxel Compute API
   slug: blaxel-compute-api
-- description: The Functions API from Blaxel — 3 operation(s) for functions.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Functions API from Blaxel — 3 operation(s) for functions.
   name: Blaxel Functions API
   slug: blaxel-functions-api
-- description: The Integrations API from Blaxel — 5 operation(s) for integrations.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Integrations API from Blaxel — 5 operation(s) for integrations.
   name: Blaxel Integrations API
   slug: blaxel-integrations-api
-- description: The Jobs API from Blaxel — 4 operation(s) for jobs.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Jobs API from Blaxel — 4 operation(s) for jobs.
   name: Blaxel Jobs API
   slug: blaxel-jobs-api
-- description: The Locations API from Blaxel — 1 operation(s) for locations.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Locations API from Blaxel — 1 operation(s) for locations.
   name: Blaxel Locations API
   slug: blaxel-locations-api
-- description: The Models API from Blaxel — 3 operation(s) for models.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Models API from Blaxel — 3 operation(s) for models.
   name: Blaxel Models API
   slug: blaxel-models-api
-- description: The Policies API from Blaxel — 2 operation(s) for policies.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Policies API from Blaxel — 2 operation(s) for policies.
   name: Blaxel Policies API
   slug: blaxel-policies-api
-- description: The Service Accounts API from Blaxel — 2 operation(s) for service accounts.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Service Accounts API from Blaxel — 2 operation(s) for service accounts.
   name: Blaxel Service Accounts API
   slug: blaxel-service-accounts-api
-- description: The Volumes API from Blaxel — 1 operation(s) for volumes.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Volumes API from Blaxel — 1 operation(s) for volumes.
   name: Blaxel Volumes API
   slug: blaxel-volumes-api
-- description: The Workspaces API from Blaxel — 3 operation(s) for workspaces.
+- baseURL: https://api.blaxel.ai/v0
+  baseurl_source: declared
+  description: The Workspaces API from Blaxel — 3 operation(s) for workspaces.
   name: Blaxel Workspaces API
   slug: blaxel-workspaces-api
 artifact_total: 30
@@ -215,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/screenshots/blaxel-2026-07-25T203304.png
 security:

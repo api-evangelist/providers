@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -44,259 +44,429 @@ agentic_access:
   summary_line: 591 operations · 323 acting · 10 human-in-the-loop
 api_count: 10
 apis:
-- description: Operations for Accounts.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Accounts.
   name: Flipdish Accounts API
   slug: flipdish-accounts-api
-- description: Operations for Address.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Address.
   name: Flipdish Address API
   slug: flipdish-address-api
-- description: Operations for Apm.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Apm.
   name: Flipdish Apm API
   slug: flipdish-apm-api
-- description: Operations for Apps.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Apps.
   name: Flipdish Apps API
   slug: flipdish-apps-api
-- description: Operations for App Store.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for App Store.
   name: Flipdish AppStore API
   slug: flipdish-appstore-api
-- description: Operations for App Store Configurations.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for App Store Configurations.
   name: Flipdish AppStoreConfigurations API
   slug: flipdish-appstoreconfigurations-api
-- description: Operations for App Store Developer.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for App Store Developer.
   name: Flipdish AppStoreDeveloper API
   slug: flipdish-appstoredeveloper-api
-- description: Operations for App Store Entitlements.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for App Store Entitlements.
   name: Flipdish AppStoreEntitlements API
   slug: flipdish-appstoreentitlements-api
-- description: Operations for Audit Logs.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Audit Logs.
   name: Flipdish AuditLogs API
   slug: flipdish-auditlogs-api
-- description: Operations for Authorization Tokens.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Authorization Tokens.
   name: Flipdish AuthorizationTokens API
   slug: flipdish-authorizationtokens-api
-- description: Operations for Bank Account.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Bank Account.
   name: Flipdish BankAccount API
   slug: flipdish-bankaccount-api
-- description: Operations for Campaigns.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Campaigns.
   name: Flipdish Campaigns API
   slug: flipdish-campaigns-api
-- description: Operations for Card Readers.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Card Readers.
   name: Flipdish CardReaders API
   slug: flipdish-cardreaders-api
-- description: Operations for Catalog Changes.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Changes.
   name: Flipdish CatalogChanges API
   slug: flipdish-catalogchanges-api
-- description: Operations for Catalog Groups.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Groups.
   name: Flipdish CatalogGroups API
   slug: flipdish-cataloggroups-api
-- description: Operations for Catalog Images.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Images.
   name: Flipdish CatalogImages API
   slug: flipdish-catalogimages-api
-- description: Operations for Catalog Items.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Items.
   name: Flipdish CatalogItems API
   slug: flipdish-catalogitems-api
-- description: Operations for Catalog Products.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Products.
   name: Flipdish CatalogProducts API
   slug: flipdish-catalogproducts-api
-- description: Operations for Channels.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Channels.
   name: Flipdish Channels API
   slug: flipdish-channels-api
-- description: Operations for Clients.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Clients.
   name: Flipdish Clients API
   slug: flipdish-clients-api
-- description: Operations for Content Security Policy.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Content Security Policy.
   name: Flipdish ContentSecurityPolicy API
   slug: flipdish-contentsecuritypolicy-api
-- description: Operations for Cross Sell.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Cross Sell.
   name: Flipdish CrossSell API
   slug: flipdish-crosssell-api
-- description: Operations for Customers.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Customers.
   name: Flipdish Customers API
   slug: flipdish-customers-api
-- description: Operations for Delivery Zone.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Delivery Zone.
   name: Flipdish DeliveryZone API
   slug: flipdish-deliveryzone-api
-- description: Operations for Device.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Device.
   name: Flipdish Device API
   slug: flipdish-device-api
-- description: Operations for Drivers.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Drivers.
   name: Flipdish Drivers API
   slug: flipdish-drivers-api
-- description: Operations for Events.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Events.
   name: Flipdish Events API
   slug: flipdish-events-api
-- description: Operations for Features.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Features.
   name: Flipdish Features API
   slug: flipdish-features-api
-- description: Operations for Files.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Files.
   name: Flipdish Files API
   slug: flipdish-files-api
-- description: Operations for Firebase Apps.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Firebase Apps.
   name: Flipdish FirebaseApps API
   slug: flipdish-firebaseapps-api
-- description: Operations for Fpm.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Fpm.
   name: Flipdish Fpm API
   slug: flipdish-fpm-api
-- description: Operations for Fulfillment State Configuration.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Fulfillment State Configuration.
   name: Flipdish FulfillmentStateConfiguration API
   slug: flipdish-fulfillmentstateconfiguration-api
-- description: Operations for Heartbeat.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Heartbeat.
   name: Flipdish Heartbeat API
   slug: flipdish-heartbeat-api
-- description: Operations for Home.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Home.
   name: Flipdish Home API
   slug: flipdish-home-api
-- description: Operations for Hydra.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Hydra.
   name: Flipdish Hydra API
   slug: flipdish-hydra-api
-- description: Operations for Intercom.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Intercom.
   name: Flipdish Intercom API
   slug: flipdish-intercom-api
-- description: Operations for Invoices.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Invoices.
   name: Flipdish Invoices API
   slug: flipdish-invoices-api
-- description: Operations for Kiosk Entitlements.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Kiosk Entitlements.
   name: Flipdish KioskEntitlements API
   slug: flipdish-kioskentitlements-api
-- description: Operations for Kiosk Iot.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Kiosk Iot.
   name: Flipdish KioskIot API
   slug: flipdish-kioskiot-api
-- description: Operations for Lightspeed.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Lightspeed.
   name: Flipdish Lightspeed API
   slug: flipdish-lightspeed-api
-- description: Operations for Location.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Location.
   name: Flipdish Location API
   slug: flipdish-location-api
-- description: Operations for Location Areas.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Location Areas.
   name: Flipdish LocationAreas API
   slug: flipdish-locationareas-api
-- description: Operations for Looker Dashboard.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Looker Dashboard.
   name: Flipdish LookerDashboard API
   slug: flipdish-lookerdashboard-api
-- description: Operations for Looker Single Sign On.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Looker Single Sign On.
   name: Flipdish LookerSingleSignOn API
   slug: flipdish-lookersinglesignon-api
-- description: Operations for Menu Option Set Items.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menu Option Set Items.
   name: Flipdish MenuOptionSetItems API
   slug: flipdish-menuoptionsetitems-api
-- description: Operations for Menu Option Sets.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menu Option Sets.
   name: Flipdish MenuOptionSets API
   slug: flipdish-menuoptionsets-api
-- description: Operations for Menus.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menus.
   name: Flipdish Menus API
   slug: flipdish-menus-api
-- description: Operations for Menu Section Items.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menu Section Items.
   name: Flipdish MenuSectionItems API
   slug: flipdish-menusectionitems-api
-- description: Operations for Menu Sections.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menu Sections.
   name: Flipdish MenuSections API
   slug: flipdish-menusections-api
-- description: Operations for Menus Nutrition Info.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menus Nutrition Info.
   name: Flipdish MenusNutritionInfo API
   slug: flipdish-menusnutritioninfo-api
-- description: Operations for Menus Nutrition Info V2.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menus Nutrition Info V2.
   name: Flipdish MenusNutritionInfoV2 API
   slug: flipdish-menusnutritioninfov2-api
-- description: Operations for Menu Zones.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Menu Zones.
   name: Flipdish MenuZones API
   slug: flipdish-menuzones-api
-- description: Operations for Metafield Definitions.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Metafield Definitions.
   name: Flipdish MetafieldDefinitions API
   slug: flipdish-metafielddefinitions-api
-- description: Operations for Mobile Apps.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Mobile Apps.
   name: Flipdish MobileApps API
   slug: flipdish-mobileapps-api
-- description: Operations for OAuth Clients.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for OAuth Clients.
   name: Flipdish OAuthClients API
   slug: flipdish-oauthclients-api
-- description: Operations for Onboarding.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Onboarding.
   name: Flipdish Onboarding API
   slug: flipdish-onboarding-api
-- description: Operations for Order Batches.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Order Batches.
   name: Flipdish OrderBatches API
   slug: flipdish-orderbatches-api
-- description: Operations for Order Batching Configuration.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Order Batching Configuration.
   name: Flipdish OrderBatchingConfiguration API
   slug: flipdish-orderbatchingconfiguration-api
-- description: Operations for Orders.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Orders.
   name: Flipdish Orders API
   slug: flipdish-orders-api
-- description: Operations for Payment Intents.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Payment Intents.
   name: Flipdish PaymentIntents API
   slug: flipdish-paymentintents-api
-- description: Operations for Payments.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Payments.
   name: Flipdish Payments API
   slug: flipdish-payments-api
-- description: Operations for Payout Reports.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Payout Reports.
   name: Flipdish PayoutReports API
   slug: flipdish-payoutreports-api
-- description: Operations for Payouts.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Payouts.
   name: Flipdish Payouts API
   slug: flipdish-payouts-api
-- description: Operations for Payouts Export.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Payouts Export.
   name: Flipdish PayoutsExport API
   slug: flipdish-payoutsexport-api
-- description: Operations for Processing Fee Configs.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Processing Fee Configs.
   name: Flipdish ProcessingFeeConfigs API
   slug: flipdish-processingfeeconfigs-api
-- description: Operations for Push Notifications.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Push Notifications.
   name: Flipdish PushNotifications API
   slug: flipdish-pushnotifications-api
-- description: Operations for Receipts.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Receipts.
   name: Flipdish Receipts API
   slug: flipdish-receipts-api
-- description: Operations for Restaurant Vouchers Pay Green.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Restaurant Vouchers Pay Green.
   name: Flipdish RestaurantVouchersPayGreen API
   slug: flipdish-restaurantvoucherspaygreen-api
-- description: Operations for Search.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Search.
   name: Flipdish Search API
   slug: flipdish-search-api
-- description: Operations for Sms Provider Credentials.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Sms Provider Credentials.
   name: Flipdish SmsProviderCredentials API
   slug: flipdish-smsprovidercredentials-api
-- description: Operations for Store Groups.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Store Groups.
   name: Flipdish StoreGroups API
   slug: flipdish-storegroups-api
-- description: Operations for Store Order Capacity.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Store Order Capacity.
   name: Flipdish StoreOrderCapacity API
   slug: flipdish-storeordercapacity-api
-- description: Operations for Stores.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Stores.
   name: Flipdish Stores API
   slug: flipdish-stores-api
-- description: Operations for Stripe Custom Connect.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Stripe Custom Connect.
   name: Flipdish StripeCustomConnect API
   slug: flipdish-stripecustomconnect-api
-- description: Operations for Stuart.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Stuart.
   name: Flipdish Stuart API
   slug: flipdish-stuart-api
-- description: Operations for Subscriptions.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Subscriptions.
   name: Flipdish Subscriptions API
   slug: flipdish-subscriptions-api
-- description: Operations for Teammates.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Teammates.
   name: Flipdish Teammates API
   slug: flipdish-teammates-api
-- description: Operations for Terminal Iot.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Terminal Iot.
   name: Flipdish TerminalIot API
   slug: flipdish-terminaliot-api
-- description: Operations for Tips.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Tips.
   name: Flipdish Tips API
   slug: flipdish-tips-api
-- description: Operations for Users.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Users.
   name: Flipdish Users API
   slug: flipdish-users-api
-- description: Operations for Vouchers.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Vouchers.
   name: Flipdish Vouchers API
   slug: flipdish-vouchers-api
-- description: Operations for Webhooks.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Webhooks.
   name: Flipdish Webhooks API
   slug: flipdish-webhooks-api
-- description: Operations for Website.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Website.
   name: Flipdish Website API
   slug: flipdish-website-api
-- description: Operations for White Label Builds.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for White Label Builds.
   name: Flipdish WhiteLabelBuilds API
   slug: flipdish-whitelabelbuilds-api
-- description: Operations for White Label Config.
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for White Label Config.
   name: Flipdish WhiteLabelConfig API
   slug: flipdish-whitelabelconfig-api
 artifact_total: 1119
@@ -3623,7 +3793,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:

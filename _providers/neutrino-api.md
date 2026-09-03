@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: APIs for processing, cleaning and validating data
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for processing, cleaning and validating data
   name: Neutrino API Data Tools API
   slug: neutrino-api-data-tools-api
-- description: APIs for E-commerce tasks
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for E-commerce tasks
   name: Neutrino API E Commerce API
   slug: neutrino-api-e-commerce-api
-- description: APIs for geolocation tasks
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for geolocation tasks
   name: Neutrino API Geolocation API
   slug: neutrino-api-geolocation-api
-- description: APIs for imaging and rendering
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for imaging and rendering
   name: Neutrino API Imaging API
   slug: neutrino-api-imaging-api
-- description: APIs for security and networking tasks
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for security and networking tasks
   name: Neutrino API Security and Networking API
   slug: neutrino-api-security-and-networking-api
-- description: APIs for live telephony
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for live telephony
   name: Neutrino API Telephony API
   slug: neutrino-api-telephony-api
-- description: APIs for website and HTML processing
+- baseURL: https://neutrinoapi.net/
+  baseurl_source: declared
+  description: APIs for website and HTML processing
   name: Neutrino API WWW API
   slug: neutrino-api-www-api
 artifact_total: 24
@@ -316,7 +341,7 @@ score:
     regime_id: telecommunications
     score: 48.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neutrino-api/refs/heads/main/screenshots/neutrino-api-2026-08-17T081114.png
 security:

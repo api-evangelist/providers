@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 12 operations · 9 acting
 api_count: 1
 apis:
-- description: The CancelChangeSet#catalog&changeSetId API from Amazon Marketplace — 1 operation(s) for cancelchangeset#catalog&changesetid.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The CancelChangeSet#catalog&changeSetId API from Amazon Marketplace — 1 operation(s) for cancelchangeset#catalog&changesetid.
   name: Amazon Marketplace CancelChangeSet#catalog&changeSetId API
   slug: amazon-marketplace-cancelchangeset-catalog-changesetid-api
-- description: The DeleteResourcePolicy#resourceArn API from Amazon Marketplace — 1 operation(s) for deleteresourcepolicy#resourcearn.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteResourcePolicy#resourceArn API from Amazon Marketplace — 1 operation(s) for deleteresourcepolicy#resourcearn.
   name: Amazon Marketplace DeleteResourcePolicy#resourceArn API
   slug: amazon-marketplace-deleteresourcepolicy-resourcearn-api
-- description: The DescribeChangeSet#catalog&changeSetId API from Amazon Marketplace — 1 operation(s) for describechangeset#catalog&changesetid.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeChangeSet#catalog&changeSetId API from Amazon Marketplace — 1 operation(s) for describechangeset#catalog&changesetid.
   name: Amazon Marketplace DescribeChangeSet#catalog&changeSetId API
   slug: amazon-marketplace-describechangeset-catalog-changesetid-api
-- description: The DescribeEntity#catalog&entityId API from Amazon Marketplace — 1 operation(s) for describeentity#catalog&entityid.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeEntity#catalog&entityId API from Amazon Marketplace — 1 operation(s) for describeentity#catalog&entityid.
   name: Amazon Marketplace DescribeEntity#catalog&entityId API
   slug: amazon-marketplace-describeentity-catalog-entityid-api
-- description: The GetResourcePolicy#resourceArn API from Amazon Marketplace — 1 operation(s) for getresourcepolicy#resourcearn.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The GetResourcePolicy#resourceArn API from Amazon Marketplace — 1 operation(s) for getresourcepolicy#resourcearn.
   name: Amazon Marketplace GetResourcePolicy#resourceArn API
   slug: amazon-marketplace-getresourcepolicy-resourcearn-api
-- description: The ListChangeSets API from Amazon Marketplace — 1 operation(s) for listchangesets.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The ListChangeSets API from Amazon Marketplace — 1 operation(s) for listchangesets.
   name: Amazon Marketplace ListChangeSets API
   slug: amazon-marketplace-listchangesets-api
-- description: The ListEntities API from Amazon Marketplace — 1 operation(s) for listentities.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The ListEntities API from Amazon Marketplace — 1 operation(s) for listentities.
   name: Amazon Marketplace ListEntities API
   slug: amazon-marketplace-listentities-api
-- description: The ListTagsForResource API from Amazon Marketplace — 1 operation(s) for listtagsforresource.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForResource API from Amazon Marketplace — 1 operation(s) for listtagsforresource.
   name: Amazon Marketplace ListTagsForResource API
   slug: amazon-marketplace-listtagsforresource-api
-- description: The PutResourcePolicy API from Amazon Marketplace — 1 operation(s) for putresourcepolicy.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The PutResourcePolicy API from Amazon Marketplace — 1 operation(s) for putresourcepolicy.
   name: Amazon Marketplace PutResourcePolicy API
   slug: amazon-marketplace-putresourcepolicy-api
-- description: The StartChangeSet API from Amazon Marketplace — 1 operation(s) for startchangeset.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The StartChangeSet API from Amazon Marketplace — 1 operation(s) for startchangeset.
   name: Amazon Marketplace StartChangeSet API
   slug: amazon-marketplace-startchangeset-api
-- description: The TagResource API from Amazon Marketplace — 1 operation(s) for tagresource.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from Amazon Marketplace — 1 operation(s) for tagresource.
   name: Amazon Marketplace TagResource API
   slug: amazon-marketplace-tagresource-api
-- description: The UntagResource API from Amazon Marketplace — 1 operation(s) for untagresource.
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from Amazon Marketplace — 1 operation(s) for untagresource.
   name: Amazon Marketplace UntagResource API
   slug: amazon-marketplace-untagresource-api
 artifact_total: 299
@@ -1056,7 +1080,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/screenshots/amazon-marketplace-2026-06-20T171735.png
 security:

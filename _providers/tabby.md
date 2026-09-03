@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 19 operations · 12 acting
 api_count: 1
 apis:
-- description: Checkout is a whole process of customer data collection and payment authorization.
+- baseURL: https://api.tabby.ai
+  baseurl_source: declared
+  description: Checkout is a whole process of customer data collection and payment authorization.
   name: Tabby Checkout API
   slug: tabby-checkout-api
-- description: The Disputes API is designed to simplify the process of handling disputes and help merchants resolve issues with customer orders more efficiently. Merchants can use this API to retrieve a list of disp
+- baseURL: https://api.tabby.ai
+  baseurl_source: declared
+  description: The Disputes API is designed to simplify the process of handling disputes and help merchants resolve issues with customer orders more efficiently. Merchants can use this API to retrieve a list of disp
   name: Tabby Disputes API
   slug: tabby-disputes-api
-- description: The core of tabby is a payments flow enabling you to handle payments at your webstore.
+- baseURL: https://api.tabby.ai
+  baseurl_source: declared
+  description: The core of tabby is a payments flow enabling you to handle payments at your webstore.
   name: Tabby Payments API
   slug: tabby-payments-api
-- description: Manage webhook endpoints.
+- baseURL: https://api.tabby.ai
+  baseurl_source: declared
+  description: Manage webhook endpoints.
   name: Tabby Webhooks API
   slug: tabby-webhooks-api
 artifact_total: 33
@@ -495,7 +503,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -505,7 +513,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 60.5
-  previous_composite: 81.6
+  previous_composite: 81.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -523,7 +531,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabby/refs/heads/main/screenshots/tabby-2026-06-20T194846.png
 security:

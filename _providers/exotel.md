@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 1
 apis:
-- description: Documented WebSocket (wss://) voice-streaming API. When a call reaches a Voicebot or Stream applet, Exotel opens a secure WebSocket to your endpoint and streams base64 linear-PCM audio in ~100 ms fram
+- baseURL: wss://your-bot-host.example.com
+  baseurl_source: declared
+  description: Documented WebSocket (wss://) voice-streaming API. When a call reaches a Voicebot or Stream applet, Exotel opens a secure WebSocket to your endpoint and streams base64 linear-PCM audio in ~100 ms fram
   name: Exotel AgentStream Voice Streaming API
   slug: exotel-agentstream-voice-streaming-api
-- description: Retrieve details of past and in-progress calls.
+- baseURL: https://api.exotel.com/v1/Accounts
+  baseurl_source: declared
+  description: Retrieve details of past and in-progress calls.
   name: Exotel Call Details API
   slug: exotel-call-details-api
-- description: Create and manage bulk outbound call campaigns (v2).
+- baseURL: https://api.exotel.com/v1/Accounts
+  baseurl_source: declared
+  description: Create and manage bulk outbound call campaigns (v2).
   name: Exotel Campaigns API
   slug: exotel-campaigns-api
-- description: Look up telecom metadata for phone numbers.
+- baseURL: https://api.exotel.com/v1/Accounts
+  baseurl_source: declared
+  description: Look up telecom metadata for phone numbers.
   name: Exotel Numbers API
   slug: exotel-numbers-api
-- description: Send SMS and retrieve message details.
+- baseURL: https://api.exotel.com/v1/Accounts
+  baseurl_source: declared
+  description: Send SMS and retrieve message details.
   name: Exotel SMS API
   slug: exotel-sms-api
-- description: Place and control outbound voice calls.
+- baseURL: https://api.exotel.com/v1/Accounts
+  baseurl_source: declared
+  description: Place and control outbound voice calls.
   name: Exotel Voice API
   slug: exotel-voice-api
 artifact_total: 21
@@ -178,7 +190,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -188,7 +200,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 31.7
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -203,7 +215,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png
 security:

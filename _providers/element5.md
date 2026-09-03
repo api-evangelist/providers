@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Authorization related APIs
+- baseURL: https://api.e5.ai
+  baseurl_source: declared
+  description: Authorization related APIs
   name: Element5 Authorization API
   slug: element5-authorization-api
-- description: Eligibility related APIs
+- baseURL: https://api.e5.ai
+  baseurl_source: declared
+  description: Eligibility related APIs
   name: Element5 Eligibility API
   slug: element5-eligibility-api
-- description: Object Store related APIs
+- baseURL: https://api.e5.ai
+  baseurl_source: declared
+  description: Object Store related APIs
   name: Element5 Object Store API
   slug: element5-object-store-api
-- description: Generic E5 Task related APIs and Webhooks
+- baseURL: https://api.e5.ai
+  baseurl_source: declared
+  description: Generic E5 Task related APIs and Webhooks
   name: Element5 Automation API
   slug: element5-automation-api
 arazzos:
@@ -209,7 +217,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
@@ -219,7 +227,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 44.0
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -241,7 +249,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:

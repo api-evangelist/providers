@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 10
@@ -44,31 +44,47 @@ agentic_access:
   summary_line: 24 operations · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: GraphQL API serving near-real-time commission and transaction data. The publisherCommissions and advertiserCommissions queries return commission records filtered by posting, event or locking date rang
+- baseURL: https://commissions.api.cj.com/query
+  baseurl_source: declared
+  description: GraphQL API serving near-real-time commission and transaction data. The publisherCommissions and advertiserCommissions queries return commission records filtered by posting, event or locking date rang
   name: CJ Commission Detail API
   slug: cj-affiliate-commission-detail-api
-- description: 'GraphQL API for product discovery, product feeds and catalog management across advertiser feeds. Ten queries cover common products, retail shoppingProducts (including GTIN and Google product category '
+- baseURL: https://ads.api.cj.com/query
+  baseurl_source: declared
+  description: 'GraphQL API for product discovery, product feeds and catalog management across advertiser feeds. Ten queries cover common products, retail shoppingProducts (including GTIN and Google product category '
   name: CJ Product Search API
   slug: cj-affiliate-product-search-api
-- description: Publisher-side REST API for finding advertisers in the CJ network by CID, program name, program URL or keywords, joined or not joined, returning account status, 7-day and 3-month EPC, primary category
+- baseURL: https://advertiser-lookup.api.cj.com
+  baseurl_source: declared
+  description: Publisher-side REST API for finding advertisers in the CJ network by CID, program name, program URL or keywords, joined or not joined, returning account status, 7-day and 3-month EPC, primary category
   name: CJ Affiliate Advertiser Lookup API
   slug: cj-affiliate-advertiser-lookup-api
-- description: Publisher-side REST API for finding placeable advertiser links across the whole CJ network in one call - by keyword, sub-category, link type, promotion type and dates, language, targeted country, rela
+- baseURL: https://link-search.api.cj.com
+  baseurl_source: declared
+  description: Publisher-side REST API for finding placeable advertiser links across the whole CJ network in one call - by keyword, sub-category, link type, promotion type and dates, language, targeted country, rela
   name: CJ Affiliate Link Search API
   slug: cj-affiliate-link-search-api
-- description: Advertiser-side REST API for looking up the publishers joined to a program - program terms with accept and expiry dates and join status, promotional methods, websites and PIDs with categories, country
+- baseURL: https://publisher-lookup.api.cj.com
+  baseurl_source: declared
+  description: Advertiser-side REST API for looking up the publishers joined to a program - program terms with accept and expiry dates and join status, promotional methods, websites and PIDs with categories, country
   name: CJ Affiliate Publisher Lookup API
   slug: cj-affiliate-publisher-lookup-api
 - description: GraphQL API through which advertisers submit the full transaction lifecycle - createOrders for new orders, restateOrders for changes and additions, cancelOrders for full corrections. CJ takes a determ
   name: CJ Affiliate Advertiser Tracking API
   slug: cj-affiliate-tracking-api
-- description: Server-to-server JSON REST API through which CJ partners register a consumer click and receive back the final landing-page URL carrying the cjevent tracking parameter. Supports bounceless tracking exp
+- baseURL: https://clicks.api.cj.com
+  baseurl_source: declared
+  description: Server-to-server JSON REST API through which CJ partners register a consumer click and receive back the final landing-page URL carrying the cjevent tracking parameter. Supports bounceless tracking exp
   name: CJ Affiliate Click Events API
   slug: cj-affiliate-click-events-api
-- description: Server-to-server JSON REST API through which publishers exchange a standard CJ tracking link for a final destination URL, taking the consumer straight to the advertiser where a bounceless journey is a
+- baseURL: https://publishertracking.api.cj.com
+  baseurl_source: declared
+  description: Server-to-server JSON REST API through which publishers exchange a standard CJ tracking link for a final destination URL, taking the consumer straight to the advertiser where a bounceless journey is a
   name: CJ Affiliate Publisher Tracking API
   slug: cj-affiliate-publisher-tracking-api
-- description: DEPRECATED XML REST API for near-real-time commission and item-detail data. CJ's own documentation states it was to be removed on 1 June 2019 and directs integrators to the GraphQL Commission Detail A
+- baseURL: https://commission-detail.api.cj.com
+  baseurl_source: declared
+  description: DEPRECATED XML REST API for near-real-time commission and item-detail data. CJ's own documentation states it was to be removed on 1 June 2019 and directs integrators to the GraphQL Commission Detail A
   name: CJ Affiliate Commission Detail API (Legacy)
   slug: cj-affiliate-commission-detail-legacy-api
 artifact_total: 26
@@ -291,7 +307,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -301,7 +317,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 48.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,7 +329,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png
 security:

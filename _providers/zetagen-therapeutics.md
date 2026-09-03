@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Posts, pages and the block library.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: Posts, pages and the block library.
   name: Zetagen Therapeutics Content API
   slug: zetagen-therapeutics-content-api
-- description: Route index, registered types, taxonomies and statuses.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: Route index, registered types, taxonomies and statuses.
   name: Zetagen Therapeutics Discovery API
   slug: zetagen-therapeutics-discovery-api
-- description: WP Download Manager public search.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: WP Download Manager public search.
   name: Zetagen Therapeutics Downloads API
   slug: zetagen-therapeutics-downloads-api
-- description: oEmbed 1.0 provider.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider.
   name: Zetagen Therapeutics Embed API
   slug: zetagen-therapeutics-embed-api
-- description: The 388-item media library.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: The 388-item media library.
   name: Zetagen Therapeutics Media API
   slug: zetagen-therapeutics-media-api
-- description: Author records. Personal data — see x-personal-data. Documented for completeness; deliberately excluded from every packaged Agent Skill in this repo.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: Author records. Personal data — see x-personal-data. Documented for completeness; deliberately excluded from every packaged Agent Skill in this repo.
   name: Zetagen Therapeutics People API
   slug: zetagen-therapeutics-people-api
-- description: Cross-content search.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search.
   name: Zetagen Therapeutics Search API
   slug: zetagen-therapeutics-search-api
-- description: Yoast SEO head metadata.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: Yoast SEO head metadata.
   name: Zetagen Therapeutics Seo API
   slug: zetagen-therapeutics-seo-api
-- description: Categories and tags.
+- baseURL: https://zetagen.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags.
   name: Zetagen Therapeutics Taxonomy API
   slug: zetagen-therapeutics-taxonomy-api
 artifact_total: 21
@@ -224,7 +253,7 @@ score:
   band: emerging
   composite: 22.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -254,8 +283,9 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zetagen-therapeutics/refs/heads/main/screenshots/zetagen-therapeutics-2026-09-02T171706.png
 security:
 - kind: authentication
   name: Zetagen Therapeutics Authentication

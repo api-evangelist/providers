@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -45,52 +45,84 @@ agentic_access:
   summary_line: 77 operations · 42 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Ledger operations
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: Ledger operations
   name: Ntropy Account Holder API
   slug: ntropy-account-holder-api
-- description: The accountHolders API from Ntropy — 2 operation(s) for accountholders.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The accountHolders API from Ntropy — 2 operation(s) for accountholders.
   name: Ntropy accountHolders API
   slug: ntropy-accountholders-api
-- description: The bank statements API allows you to view and enrich transactions found in bank statements. Below is a table with the description of each of the statuses and steps that each bank statement goes throu
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The bank statements API allows you to view and enrich transactions found in bank statements. Below is a table with the description of each of the statuses and steps that each bank statement goes throu
   name: Ntropy Bank statements API
   slug: ntropy-bank-statements-api
-- description: The bankStatements API from Ntropy — 4 operation(s) for bankstatements.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The bankStatements API from Ntropy — 4 operation(s) for bankstatements.
   name: Ntropy bankStatements API
   slug: ntropy-bankstatements-api
-- description: The batches API from Ntropy — 3 operation(s) for batches.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The batches API from Ntropy — 3 operation(s) for batches.
   name: Ntropy batches API
   slug: ntropy-batches-api
-- description: The categories API from Ntropy — 2 operation(s) for categories.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The categories API from Ntropy — 2 operation(s) for categories.
   name: Ntropy categories API
   slug: ntropy-categories-api
-- description: Transaction enrichment.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: Transaction enrichment.
   name: Ntropy Enrichment API
   slug: ntropy-enrichment-api
-- description: The entities API from Ntropy — 4 operation(s) for entities.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The entities API from Ntropy — 4 operation(s) for entities.
   name: Ntropy entities API
   slug: ntropy-entities-api
-- description: The Labels API from Ntropy — 2 operation(s) for labels.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The Labels API from Ntropy — 2 operation(s) for labels.
   name: Ntropy Labels API
   slug: ntropy-labels-api
-- description: Miscellaneous endpoint.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: Miscellaneous endpoint.
   name: Ntropy Misc API
   slug: ntropy-misc-api
-- description: The personalization API from Ntropy — 6 operation(s) for personalization.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The personalization API from Ntropy — 6 operation(s) for personalization.
   name: Ntropy personalization API
   slug: ntropy-personalization-api
-- description: The recurrence API from Ntropy — 1 operation(s) for recurrence.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The recurrence API from Ntropy — 1 operation(s) for recurrence.
   name: Ntropy recurrence API
   slug: ntropy-recurrence-api
-- description: The Reporting API from Ntropy — 2 operation(s) for reporting.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The Reporting API from Ntropy — 2 operation(s) for reporting.
   name: Ntropy Reporting API
   slug: ntropy-reporting-api
-- description: The reports API from Ntropy — 2 operation(s) for reports.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The reports API from Ntropy — 2 operation(s) for reports.
   name: Ntropy reports API
   slug: ntropy-reports-api
-- description: The transactions API from Ntropy — 3 operation(s) for transactions.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The transactions API from Ntropy — 3 operation(s) for transactions.
   name: Ntropy transactions API
   slug: ntropy-transactions-api
-- description: The webhooks API from Ntropy — 2 operation(s) for webhooks.
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The webhooks API from Ntropy — 2 operation(s) for webhooks.
   name: Ntropy webhooks API
   slug: ntropy-webhooks-api
 artifact_total: 41
@@ -343,7 +375,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -353,7 +385,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 59.0
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -371,7 +403,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntropy/refs/heads/main/screenshots/ntropy-2026-08-07T185714.png
 security:

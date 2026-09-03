@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 103 operations · 59 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Soda Cloud public REST API (v4). 103 operations across 15 resources — datasources, datasets, discovered datasets, data contracts, checks, data standards, monitors, scans, incidents, notification r
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Soda Cloud public REST API (v4). 103 operations across 15 resources — datasources, datasets, discovered datasets, data contracts, checks, data standards, monitors, scans, incidents, notification r
   name: Soda Cloud API v4
   slug: soda-data
-- description: The Attributes surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Attributes surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
   name: Soda Attributes API
   slug: soda-data-attributes-api
-- description: The Checks surface of the Soda Cloud v4 API — 2 operation(s) across 2 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Checks surface of the Soda Cloud v4 API — 2 operation(s) across 2 path(s).
   name: Soda Checks API
   slug: soda-data-checks-api
-- description: The Contracts surface of the Soda Cloud v4 API — 10 operation(s) across 8 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Contracts surface of the Soda Cloud v4 API — 10 operation(s) across 8 path(s).
   name: Soda Contracts API
   slug: soda-data-contracts-api
-- description: The Data Standards surface of the Soda Cloud v4 API — 13 operation(s) across 10 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Data Standards surface of the Soda Cloud v4 API — 13 operation(s) across 10 path(s).
   name: Soda Data Standards API
   slug: soda-data-data-standards-api
-- description: The Datasets surface of the Soda Cloud v4 API — 24 operation(s) across 17 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Datasets surface of the Soda Cloud v4 API — 24 operation(s) across 17 path(s).
   name: Soda Datasets API
   slug: soda-data-datasets-api
-- description: The Datasources surface of the Soda Cloud v4 API — 18 operation(s) across 11 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Datasources surface of the Soda Cloud v4 API — 18 operation(s) across 11 path(s).
   name: Soda Datasources API
   slug: soda-data-datasources-api
-- description: The Discovered Datasets surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Discovered Datasets surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
   name: Soda Discovered Datasets API
   slug: soda-data-discovered-datasets-api
-- description: The Incidents surface of the Soda Cloud v4 API — 5 operation(s) across 3 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Incidents surface of the Soda Cloud v4 API — 5 operation(s) across 3 path(s).
   name: Soda Incidents API
   slug: soda-data-incidents-api
-- description: The Licensing surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Licensing surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
   name: Soda Licensing API
   slug: soda-data-licensing-api
-- description: The Notification Rules surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Notification Rules surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
   name: Soda Notification Rules API
   slug: soda-data-notification-rules-api
-- description: The Runners surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Runners surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
   name: Soda Runners API
   slug: soda-data-runners-api
-- description: The Scans surface of the Soda Cloud v4 API — 3 operation(s) across 2 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Scans surface of the Soda Cloud v4 API — 3 operation(s) across 2 path(s).
   name: Soda Scans API
   slug: soda-data-scans-api
-- description: The Secrets surface of the Soda Cloud v4 API — 5 operation(s) across 3 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Secrets surface of the Soda Cloud v4 API — 5 operation(s) across 3 path(s).
   name: Soda Secrets API
   slug: soda-data-secrets-api
-- description: The Users surface of the Soda Cloud v4 API — 8 operation(s) across 4 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Users surface of the Soda Cloud v4 API — 8 operation(s) across 4 path(s).
   name: Soda Users API
   slug: soda-data-users-api
-- description: The Utility surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: The Utility surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
   name: Soda Utility API
   slug: soda-data-utility-api
 artifact_total: 32
@@ -306,23 +338,23 @@ rate_limits:
   slug: soda-data-rate-limits
 score:
   band: exemplar
-  composite: 71.0
+  composite: 71.2
   coverage:
     artifact_dirs: 24
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 17.4
+  delta: 0.2
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 67.9
+    contract_quality: 68.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 53.6
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,8 +366,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/screenshots/soda-data-2026-06-20T194129.png
 security:
 - kind: authentication

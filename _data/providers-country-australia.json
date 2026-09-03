@@ -29,7 +29,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -140,7 +140,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 46.6,
      "agent_band": "agent-native",
@@ -172,11 +172,11 @@
      "slug": "aemo",
      "description": "AEMO, the Australian Energy Market Operator, is the independent system and market operator for Australia's electricity and gas systems — it dispatches and prices the National Electricity Market across Queensland, New South Wales, Victoria, South Australia and Tasmania every five minutes, runs the Wholesale Electricity Market and the Gas Bulletin Board in Western Australia, operates the Victorian gas declared wholesale market and the Gas Supply Hubs, maintains the MSATS metering registry and the national Distributed Energy Resources register, and publishes the Integrated System Plan. It sits at the centre of the value chain: it does not generate, network or retail energy, it clears the market and holds the settlement-grade metering data that every other participant depends on. Under the Consumer Data Right extended to energy, AEMO is the designated SECONDARY data holder and gateway — retailers are the primary data holders, and AEMO serves NMI standing data, distributed energy resource records and up to twenty-four months of interval meter data through mandated Consumer Data Standards endpoints. Its API posture splits cleanly in two, and the split is the whole story: the market-data half is genuinely, radically open — 103 live NEMWeb report directories plus 68 archive directories of dispatch, price, demand, bidding, constraint and settlement data downloadable by anyone with no key, no account and no licence, alongside anonymous JSON endpoints behind the public NEM dashboard; the participant and consumer half is completely closed — a public developer portal at dev.aemo.com.au catalogues 74 APIs and 771 operations that anyone may read, but every one of them requires registration as an AEMO market participant, a Participant ID, MSATS user rights and an AEMO-signed mutual-TLS client certificate, and the OpenAPI documents the portal exports publicly are empty shells that declare zero paths and point at internal hostnames.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png",
-     "score": 56.9,
+     "score": 57.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 55.7,
       "governance": 19.7,
       "contract_governance": 19.7,
@@ -185,7 +185,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -237,7 +237,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -289,7 +289,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -341,7 +341,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -393,7 +393,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -445,7 +445,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -496,7 +496,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -548,7 +548,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -600,7 +600,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -652,7 +652,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -715,7 +715,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -767,7 +767,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -819,7 +819,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -871,7 +871,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -923,7 +923,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -968,7 +968,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1020,7 +1020,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1072,7 +1072,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1124,7 +1124,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1176,7 +1176,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1228,7 +1228,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1280,7 +1280,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 46.6,
      "agent_band": "agent-native",
@@ -1325,7 +1325,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -1370,7 +1370,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1422,7 +1422,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1474,7 +1474,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1537,7 +1537,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1589,7 +1589,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1641,7 +1641,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1693,7 +1693,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -1738,7 +1738,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1790,7 +1790,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1842,7 +1842,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1877,34 +1877,27 @@
      "rank": 36
     },
     {
-     "name": "Macquarie University",
-     "slug": "macquarie",
-     "description": "Macquarie University is a public research university in Sydney, Australia. Its programmable footprint is small, real, and almost entirely indirect: it operates no developer portal, no open-data platform, and no central API programme. The one institution-operated, keyless, machine-readable API surface found is the Macquarie University Research Portal OAI-PMH endpoint at research-management.mq.edu.au, which serves 114,062 publication records and a person registry over OAI-PMH 2.0 with five metadata formats and no authentication. Beyond it, Macquarie operates a Shibboleth SAML identity provider registered in the Australian Access Federation, a self-hosted Moodle (iLearn) whose web services are credential-gated, and a public library GitHub organisation whose code consumes Ex Libris Alma rather than exposing anything. Everything else that looks like a Macquarie API is a vendor's contract running under Macquarie's name — Figshare for the research data repository, Elsevier Pure for the research portal, CourseLoop for the course handbook, Ex Libris Primo for library discovery. Those relationships are recorded here as tenant surfaces; the vendors' contracts are not.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png",
-     "score": 48.1,
+     "name": "Bonjoro",
+     "slug": "bonjoro",
+     "description": "Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — \"Bonjoros\" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png",
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 55.2,
-      "governance": 60.6,
-      "contract_governance": 60.6,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
+      "discoverability": 70.4,
+      "contract_quality": 56.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.2,
-     "agent_band": "agent-aware",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -1912,11 +1905,11 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1946,7 +1939,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1981,6 +1974,58 @@
      "rank": 38
     },
     {
+     "name": "Macquarie University",
+     "slug": "macquarie",
+     "description": "Macquarie University is a public research university in Sydney, Australia. Its programmable footprint is small, real, and almost entirely indirect: it operates no developer portal, no open-data platform, and no central API programme. The one institution-operated, keyless, machine-readable API surface found is the Macquarie University Research Portal OAI-PMH endpoint at research-management.mq.edu.au, which serves 114,062 publication records and a person registry over OAI-PMH 2.0 with five metadata formats and no authentication. Beyond it, Macquarie operates a Shibboleth SAML identity provider registered in the Australian Access Federation, a self-hosted Moodle (iLearn) whose web services are credential-gated, and a public library GitHub organisation whose code consumes Ex Libris Alma rather than exposing anything. Everything else that looks like a Macquarie API is a vendor's contract running under Macquarie's name — Figshare for the research data repository, Elsevier Pure for the research portal, CourseLoop for the course handbook, Ex Libris Primo for library discovery. Those relationships are recorded here as tenant surfaces; the vendors' contracts are not.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png",
+     "score": 47.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 53.3,
+      "governance": 60.6,
+      "contract_governance": 60.6,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 39
+    },
+    {
      "name": "Sendle",
      "slug": "sendle",
      "description": "RETIRED — Sendle ceased operations on 11 January 2026 and the company entered liquidation; the API host, developer hub, sandbox and status page have all been withdrawn from DNS and returned NXDOMAIN when probed on 26 August 2026. Sendle was a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States and Canada plus international shipping from AU and US to ~180 countries. Its API exposed quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests and per-parcel tracking webhooks over HTTP Basic Authentication, with an Idempotency-Key header on order creation. The five OpenAPI definitions in this repository are retained as an archival record of a contract that can no longer be called.",
@@ -1998,7 +2043,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.2,
      "agent_band": "agent-ready",
@@ -2023,7 +2068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Powershop",
@@ -2043,7 +2088,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2075,7 +2120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Up",
@@ -2095,7 +2140,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2134,7 +2179,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "St.George Bank",
@@ -2154,7 +2199,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2193,7 +2238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Bank First",
@@ -2213,7 +2258,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2252,51 +2297,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
-    },
-    {
-     "name": "Bonjoro",
-     "slug": "bonjoro",
-     "description": "Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — \"Bonjoros\" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 56.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 44
     },
     {
@@ -2316,7 +2316,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2368,7 +2368,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2427,7 +2427,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2479,7 +2479,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2531,7 +2531,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2590,7 +2590,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2625,6 +2625,51 @@
      "rank": 50
     },
     {
+     "name": "Domain Group",
+     "slug": "domain-group",
+     "description": "Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of Australia's two national residential property portals, alongside REA Group's realestate.com.au, and since 27 August 2025 has been a wholly owned subsidiary of CoStar Group. Headquartered in Sydney, Domain operates the domain.com.au consumer marketplace plus commercial, agent, and developer-project brands, and sits in the middle of the Australian value chain between selling and leasing agencies on one side and buyers, renters, banks, and PropTech builders on the other. Unlike most of the real estate sector, Domain runs a genuine, self-serve public developer portal at developer.domain.com.au: a developer signs up with GitHub, Google, or email, creates a project, and is immediately granted the \"Agents & Listings\" and \"Properties & Locations\" packages, with the remaining eleven packages - Address Suggestions, Campaign reporting, Listings Management, Price Estimation, Property Enrichment, Property Package, PropertyRadar, Rental AVM, Schools Data, and Webhooks - added per project and negotiated with an account manager. Domain publishes three machine-readable OpenAPI 3.0.4 documents (latest, v1, v2) directly from its Libraries page, backs them with an OpenID Connect discovery document at auth.domain.com.au, and serves everything from api.domain.com.au behind API-key or OAuth 2.0 (client credentials, authorization code, implicit) credentials. Write access is a different gate entirely: uploading or updating listings requires sandbox sign-off by email to api@domain.com.au and written permission from the principal agent of each agency, making listing management broker-authorised even though the read surface is self-serve. Domain carries no RESO Web API or RESO Data Dictionary certification, exposes no OData $metadata document and no Universal Property Identifier - RESO is a North American NAR-driven standard with no presence in the Australian portal duopoly - and it publishes no open, unlicensed dataset; all data is licensed under the Domain Group API Terms and Conditions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png",
+     "score": 44.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 61.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 41.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 51
+    },
+    {
      "name": "Newcastle Permanent Building Society",
      "slug": "newcastle-permanent",
      "description": "Newcastle Permanent Building Society is a customer-owned Australian authorised deposit-taking institution (ADI) founded in 1903 and headquartered in Newcastle, New South Wales. As a mutual, it is owned by its members rather than shareholders, and it provides retail banking, home loans, savings, term deposits, and insurance to communities across NSW. In March 2023 it merged with Greater Bank to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned banks, while Newcastle Permanent continues to operate as a consumer brand. As a regulated ADI it is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards, alongside an NPBS Innovation Sandbox and Marketplace developer portal.",
@@ -2642,7 +2687,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2681,7 +2726,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Qudos Bank",
@@ -2701,7 +2746,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2733,7 +2778,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
@@ -2753,7 +2798,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2792,7 +2837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Australian Energy Regulator",
@@ -2812,7 +2857,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2844,7 +2889,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Teachers Mutual Bank",
@@ -2864,7 +2909,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2903,7 +2948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "BCU Bank",
@@ -2923,7 +2968,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2962,7 +3007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Open",
@@ -2982,7 +3027,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3014,7 +3059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Bank of Queensland",
@@ -3034,7 +3079,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3066,51 +3111,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
-    },
-    {
-     "name": "Domain Group",
-     "slug": "domain-group",
-     "description": "Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of Australia's two national residential property portals, alongside REA Group's realestate.com.au, and since 27 August 2025 has been a wholly owned subsidiary of CoStar Group. Headquartered in Sydney, Domain operates the domain.com.au consumer marketplace plus commercial, agent, and developer-project brands, and sits in the middle of the Australian value chain between selling and leasing agencies on one side and buyers, renters, banks, and PropTech builders on the other. Unlike most of the real estate sector, Domain runs a genuine, self-serve public developer portal at developer.domain.com.au: a developer signs up with GitHub, Google, or email, creates a project, and is immediately granted the \"Agents & Listings\" and \"Properties & Locations\" packages, with the remaining eleven packages - Address Suggestions, Campaign reporting, Listings Management, Price Estimation, Property Enrichment, Property Package, PropertyRadar, Rental AVM, Schools Data, and Webhooks - added per project and negotiated with an account manager. Domain publishes three machine-readable OpenAPI 3.0.4 documents (latest, v1, v2) directly from its Libraries page, backs them with an OpenID Connect discovery document at auth.domain.com.au, and serves everything from api.domain.com.au behind API-key or OAuth 2.0 (client credentials, authorization code, implicit) credentials. Write access is a different gate entirely: uploading or updating listings requires sandbox sign-off by email to api@domain.com.au and written permission from the principal agent of each agency, making listing management broker-authorised even though the read surface is self-serve. Domain carries no RESO Web API or RESO Data Dictionary certification, exposes no OData $metadata document and no Universal Property Identifier - RESO is a North American NAR-driven standard with no presence in the Australian portal duopoly - and it publishes no open, unlicensed dataset; all data is licensed under the Domain Group API Terms and Conditions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 61.8,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 59
     },
     {
@@ -3131,7 +3131,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3183,7 +3183,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3235,7 +3235,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3287,7 +3287,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3339,7 +3339,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3391,7 +3391,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3429,6 +3429,7 @@
      "name": "Wattwatchers",
      "slug": "wattwatchers",
      "description": "Wattwatchers is an Australian digital energy company (founded 2007, headquartered in Sydney, NSW) that designs and manufactures the Auditor family of DIN-rail electricity monitoring and switching devices, and operates the cloud platform behind them. It sits behind the meter rather than at it — Auditors clamp onto individual circuits and report real-time, circuit-level energy data over 4G or WiFi to Wattwatchers' hosted platform, which resells that data to solar installers, energy retailers, energy services companies, EV and DER programs, schools and research trials. Its API posture is genuinely open at the documentation layer and closed at the data layer — the full REST API v3 (Mercury) reference, a live Swagger UI and a downloadable OpenAPI 3.0 contract are all served anonymously from docs.wattwatchers.com.au, but no key is self-serve: Wattwatchers issues bearer tokens by hand and scopes each one to the specific devices you own or manage, so the API returns your fleet's data and nothing else. Consumer usage data is therefore available through a documented API, while no open grid or market data is published at all. Wattwatchers is not a designated Consumer Data Right energy data holder and does not appear as an accredited data recipient — the CDR energy mandate applies to retailers and AEMO, not to behind-the-meter hardware vendors, so this platform carries no CDR obligation and implements no CDR or Green Button data standard. Wattwatchers entered voluntary administration in October 2025 and was acquired by EPX Limited (ASX:EPX, formerly EP&T Global); the Wattwatchers knowledge base now redirects to support.epx.tech, while the developer documentation, the API host and the OpenAPI contract all remain live and unchanged.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/screenshots/wattwatchers-2026-09-02T170454.png",
      "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
@@ -3442,7 +3443,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3494,7 +3495,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3546,7 +3547,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3598,7 +3599,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3650,7 +3651,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3709,7 +3710,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3761,7 +3762,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3813,7 +3814,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3865,7 +3866,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3924,7 +3925,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3976,7 +3977,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4028,7 +4029,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4091,7 +4092,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4150,7 +4151,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4202,7 +4203,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4253,7 +4254,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4305,7 +4306,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4375,7 +4376,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4434,7 +4435,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4486,7 +4487,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4538,7 +4539,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4597,7 +4598,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4649,7 +4650,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4701,7 +4702,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4760,7 +4761,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4812,7 +4813,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4864,7 +4865,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4916,7 +4917,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4975,7 +4976,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5027,7 +5028,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5079,7 +5080,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5138,7 +5139,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5190,7 +5191,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5241,7 +5242,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5293,7 +5294,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5345,7 +5346,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5404,7 +5405,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5456,7 +5457,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5508,7 +5509,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5560,7 +5561,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5612,7 +5613,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5671,7 +5672,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5723,7 +5724,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5774,7 +5775,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5826,7 +5827,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5878,7 +5879,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5930,7 +5931,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5968,6 +5969,7 @@
      "name": "Western Power",
      "slug": "western-power",
      "description": "Western Power is the Western Australian state-owned statutory corporation that owns and operates the electricity transmission and distribution network — the poles, wires, substations and streetlights — across the South West Interconnected System (SWIS), from Kalbarri in the north to Albany in the south and east to Kalgoorlie, across more than 103,000 km of powerlines, 825,788 poles and towers, 276,000 streetlights and 154 transmission substations. It is a regulated network distributor (DNO/DSO), not a retailer and not a generator; Synergy is the SWIS retailer for residential and small-business customers and AEMO operates the WA Wholesale Electricity Market. Its API posture is honestly minimal — there is no developer portal, no published API program, no developer documentation and no published OpenAPI anywhere on westernpower.com.au (developer./api./docs./data. subdomains all fail to resolve; /developers, /docs and /openapi.json all return 404). It is nonetheless not API-less. Three anonymous machine-readable surfaces were verified on 2026-07-27 — an undocumented first-party JSON API at westernpower.com.au/api/corp/outage/* that backs the public outage tracker and returns every current and upcoming outage, one outage with hazard flags and update history, and a per-suburb rollup; an Esri ArcGIS Online feature service serving the same outages as polygons with SQL, spatial and statistical query; and the corporate site's own search, news and vacancy endpoints. All are internal endpoints of Western Power's web applications — robots.txt disallows /api/ — with no reference, no terms of use, no versioning, no SLA and no support channel. Consumer energy data is real but not programmatic — a third party must register a business with Western Power and collect verifiable customer consent, after which up to two years of interval and accumulated metering data is delivered by email or a web portal, never an API. Australia's Consumer Data Right, the mandate that forced identical banking APIs and was then transplanted into energy, does not reach this organisation at all — CDR energy covers National Electricity Market retailers, and Western Australia sits outside the NEM while distributors were never designated data holders in any state. Its 36 network asset and capacity datasets are published through the WA Government DataWA/SLIP portals as \"open data subject to registering for access\" under Western Power's own data licence — WFS, WMS and ArcGIS REST endpoints that return HTTP 401 to an anonymous caller.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/screenshots/western-power-2026-09-02T170733.png",
      "score": 33.2,
      "band": "thin",
      "band_label": "Thin",
@@ -5981,7 +5983,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6033,7 +6035,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6085,7 +6087,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -6116,6 +6118,7 @@
      "name": "Steadfast Group",
      "slug": "steadfast-group",
      "description": "Steadfast Group Limited (ASX:SDF) is the largest general insurance broker network and the largest group of insurance underwriting agencies in Australasia, headquartered in Sydney, Australia. It is a broker-intermediary rather than a risk carrier: the Steadfast Network comprises 414 independent brokerages placing approximately $12.7 billion in gross written premium, alongside 31 underwriting agencies writing roughly 100 products across business pack, liability, professional indemnity, cyber, construction, marine, aviation, farm, strata, motor and home and contents lines, plus complementary businesses covering premium funding (IQumulate), life insurance, workplace risk, legal and compliance. Its trading technology is the Steadfast Client Trading Platform (SCTP), launched in 2009, which lets network brokers send one question set to a panel of insurers for instant comparative quotes and which transacted over $1.5 billion in GWP in CY25 across 9 insurer lines and 23 connected partners; SCTP and the INSIGHT policy management platform are being consolidated into a broader \"Steadfast Apps\" broking platform. API posture, recorded honestly - Steadfast Group publishes NO developer portal, NO API documentation and NO specification of any kind, and a full crawl of all 311 pages in the public sitemap returned zero references to a developer portal, REST API, OpenAPI or Swagger. Two genuinely machine-readable surfaces nonetheless exist and neither is announced anywhere. The consumer Flood Risk Tracker is backed by a public, anonymous, undocumented JSON API that resolves Australian addresses against the national G-NAF dataset and returns Swiss Re river-flood and storm-surge risk layers, returning RFC 9457 problem details and advertising api-supported-versions 1.0; the OpenAPI in this record was derived from the tool's own client JavaScript and from live probes. Separately, idp.steadfast.com.au is an Okta-hosted OpenID Connect provider publishing a complete anonymous discovery document with PKCE S256 and DPoP, though client registration is commercially gated. The commercial surfaces remain closed: broker.steadfast.com.au is a credentialed broker login wall, and api.steadfast.com.au and api-sf.steadfast.com.au are live but undocumented hosts returning HTTP 403 at the root. Insurer and partner connectivity into SCTP is arranged commercially, not through self-serve onboarding. The company's most notable standards signal is governance rather than implementation: founder, Managing Director and CEO Robert B. Kelly AM is Chair of the ACORD Board in New York, though no ACORD, AL3, ACORD XML or NGDS implementation detail is published anywhere on the public site. Australia has the legal machinery for open insurance but no live obligation - the Consumer Data Right was designated to extend to general insurance and then deferred, so no regulatory forcing function pushes a broker network of this scale toward a public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/screenshots/steadfast-group-2026-09-02T160824.png",
      "score": 32.6,
      "band": "thin",
      "band_label": "Thin",
@@ -6129,7 +6132,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6164,6 +6167,51 @@
      "rank": 116
     },
     {
+     "name": "Webjet",
+     "slug": "webjet",
+     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png",
+     "score": 32.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 55.6,
+      "contract_quality": 49.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 32.7,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 30.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 117
+    },
+    {
      "name": "G&C Mutual Bank",
      "slug": "gc-mutual-bank",
      "description": "G&C Mutual Bank is an Australian customer-owned mutual bank and authorised deposit-taking institution (ADI) providing retail and business banking to its members, including home loans, transaction and savings accounts, and credit cards. It merged with Unity Bank effective 7 March 2025, with the combined entity renamed Unity Bank Limited from 1 July 2025; the G&C Mutual Bank brand and its digital banking host (gcmutualbank.com.au) remain operational during the multi-brand consolidation, while the public website gcmutual.bank now redirects to unity.bank. Under Australia's Consumer Data Right (CDR / Open Banking) the bank exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards, alongside the authenticated consumer-data (accounts and transactions) surface that is restricted to accredited data recipients under the CDR ADR model.",
@@ -6181,7 +6229,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6213,64 +6261,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
-    },
-    {
-     "name": "University of Adelaide",
-     "slug": "university-of-adelaide",
-     "description": "The University of Adelaide is a public research university in Adelaide, South Australia, founded in 1874 and a member of the Group of Eight. Since January 2026 it has been superseded by Adelaide University, the merged institution formed with the University of South Australia: ROR records the University of Adelaide (https://ror.org/00892tw58) as inactive with successor Adelaide University (https://ror.org/028g18b61), adelaide.edu.au now serves the merged institution, and its DataCite and Australian Access Federation records both read \"Adelaide University\". It operates no public developer program. A full crawl of the 10,326-URL adelaide.edu.au sitemap on 2026-08-30 returned no developer portal, no API reference, no open-data portal, and no OpenAPI under any path. Its genuinely institution-operated machine-readable surfaces are three: the DSpace 7.6.1 \"Adelaide Research & Scholarship\" repository at digital.library.adelaide.edu.au, which serves a keyless HAL/JSON REST API and a live OAI-PMH 2.0 endpoint under the institution's own Handle prefix 2440; and the institution's Shibboleth SAML 2.0 Identity Provider at au-idp.adelaide.edu.au, registered in the Australian Access Federation and scoped to adelaide.edu.au. Everything else that looks like an Adelaide API is a vendor contract running under an Adelaide name: adelaide.figshare.com is a Figshare tenancy, myuni.adelaide.edu.au is an Instructure Canvas tenancy exposing LTI 1.3 and OIDC discovery, and access.adelaide.edu.au is a PeopleSoft student system behind Okta SSO. This profile is deliberately thin because the footprint is thin.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png",
-     "score": 32.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 14.1,
-      "governance": 3.8,
-      "contract_governance": 3.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 46.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 6.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 118
     },
     {
      "name": "Zeller",
      "slug": "zeller",
      "description": "Zeller is a Melbourne-founded Australian payments and business banking company (founded 2020 by former Square Australia executives Ben Pfisterer and Dominic Yap) that gives SMEs an integrated stack of card payment acceptance, a transaction account, a Mastercard debit card, and financial management tools in one place. As a merchant acquirer it processes in-person and online card payments (Visa, Mastercard, eftpos, American Express, JCB, Apple Pay, Google Wallet) across its Zeller Terminal hardware, Tap to Pay on mobile, and online checkout, positioning itself against Square and fellow ASX-adjacent acquirer Tyro. Zeller reached unicorn status on a 2022 Series B. Its API posture is developer-account-gated: the Zeller Developer Suite ships Payments SDKs (React, React Native, Windows .NET, Android, iOS) plus Terminal, Online, and Tap to Pay integration APIs, with reference documentation unlocked only after creating a free developer account. The developer portal authenticates through an Auth0 (OAuth2 / OpenID Connect) tenant; no OpenAPI specification is published for anonymous download.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zeller/refs/heads/main/screenshots/zeller-2026-09-02T171559.png",
      "score": 31.8,
      "band": "thin",
      "band_label": "Thin",
@@ -6284,7 +6281,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6319,39 +6316,46 @@
      "rank": 119
     },
     {
-     "name": "Webjet",
-     "slug": "webjet",
-     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png",
-     "score": 31.6,
+     "name": "University of Adelaide",
+     "slug": "university-of-adelaide",
+     "description": "The University of Adelaide is a public research university in Adelaide, South Australia, founded in 1874 and a member of the Group of Eight. Since January 2026 it has been superseded by Adelaide University, the merged institution formed with the University of South Australia: ROR records the University of Adelaide (https://ror.org/00892tw58) as inactive with successor Adelaide University (https://ror.org/028g18b61), adelaide.edu.au now serves the merged institution, and its DataCite and Australian Access Federation records both read \"Adelaide University\". It operates no public developer program. A full crawl of the 10,326-URL adelaide.edu.au sitemap on 2026-08-30 returned no developer portal, no API reference, no open-data portal, and no OpenAPI under any path. Its genuinely institution-operated machine-readable surfaces are three: the DSpace 7.6.1 \"Adelaide Research & Scholarship\" repository at digital.library.adelaide.edu.au, which serves a keyless HAL/JSON REST API and a live OAI-PMH 2.0 endpoint under the institution's own Handle prefix 2440; and the institution's Shibboleth SAML 2.0 Identity Provider at au-idp.adelaide.edu.au, registered in the Australian Access Federation and scoped to adelaide.edu.au. Everything else that looks like an Adelaide API is a vendor contract running under an Adelaide name: adelaide.figshare.com is a Figshare tenancy, myuni.adelaide.edu.au is an Instructure Canvas tenancy exposing LTI 1.3 and OIDC discovery, and access.adelaide.edu.au is a PeopleSoft student system behind Okta SSO. This profile is deliberately thin because the footprint is thin.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png",
+     "score": 31.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 46.3,
-      "contract_quality": 49.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
+      "discoverability": 74.1,
+      "contract_quality": 10.6,
+      "governance": 3.8,
+      "contract_governance": 3.8,
       "operational_transparency": 23.7,
-      "developer_ergonomics": 32.7,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "agent_score": 30.3,
-     "agent_band": "agent-ready",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 6.3,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
+      "error_semantics": false,
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -6381,7 +6385,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6433,7 +6437,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6485,7 +6489,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6537,7 +6541,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6589,7 +6593,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6640,7 +6644,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6692,7 +6696,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6744,7 +6748,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6796,7 +6800,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6848,7 +6852,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6893,7 +6897,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6945,7 +6949,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7004,7 +7008,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -7049,7 +7053,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7108,7 +7112,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7160,7 +7164,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7222,7 +7226,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7274,7 +7278,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7325,7 +7329,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7377,7 +7381,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7429,7 +7433,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7481,7 +7485,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7533,7 +7537,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7585,7 +7589,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7636,7 +7640,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -7681,7 +7685,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7719,6 +7723,7 @@
      "name": "Youi",
      "slug": "youi",
      "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the Queensland Sunshine Coast, authorised by APRA and operating under AFSL 316511 (ABN 79 123 074 733). It is a wholly owned subsidiary of Youi Holdings Pty Ltd, part of OUTsurance International Holdings, with the South African-listed OUTsurance Group as ultimate holding company. Youi writes personal and small-business property and casualty lines direct to consumers - car, NSW CTP Green Slip, SA CTP, motorcycle, caravan and trailer, watercraft, home building and contents, and small business cover including public liability - and is a member of the Insurance Council of Australia and a signatory to the General Insurance Code of Practice. Its positioning is direct-to-consumer telephone and online underwriting rather than broker distribution. On API posture the honest finding is that Youi publishes no public API surface at all. Probing on 2026-07-25 found no developer portal (the developer., developers., docs. and api. subdomains do not resolve, and /developers, /api, /developer, /partners and /integrations all return HTTP 404), no downloadable OpenAPI or Swagger, no public Postman collection, no GraphQL, and no webhook or event catalog. The only integration-adjacent hosts are the customer self-service policy portal at portal.youi.com.au (HTTP 200, robots noindex, an Angular single-page app behind a login) and its private first-party backend portalapi.youi.com.au (HTTP 404 at root, serving no swagger or openapi document). No ACORD, AL3, ACORD XML, NGDS or IVANS reference was found anywhere on the public site. Australia's Consumer Data Right, which opened banking and energy, was designated for general insurance and then deferred, so no regulatory forcing function exists, and Youi's direct-to-consumer model gives it no broker or agency-management integration seam either. Recorded as partner-gated and customer-login-gated only, with no public self-serve API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/youi/refs/heads/main/screenshots/youi-2026-09-02T171326.png",
      "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7732,7 +7737,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7784,7 +7789,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -7812,58 +7817,6 @@
      "rank": 148
     },
     {
-     "name": "Monash University",
-     "slug": "monash",
-     "description": "Monash University is a public research university in Melbourne, Australia, and a member of the Group of Eight. Its genuinely institution-operated programmable footprint is small but real, and it is not where a company's would be. Its three institution-operated surfaces all belong to Monash eResearch and all resolve into Monash's own APNIC address space: the Cloud Resource Allocation and Management System (CRAMS) portal, a public documentation site for the M3/MASSIVE HPC estate, and a Shibboleth service provider federated through the Australian Access Federation. None of the three publishes an open specification, so Monash's only evidenced domain-standard conformance (SAML, Shibboleth) rests on that one federation entry. The Monash-branded identity provider at idp.monash.edu.au looks like the strongest contract here and is not Monash's: it CNAMEs to idp-cname.aaf.edu.au on Amazon address space, making it a tenant of AAF's fully managed Rapid IdP. Everything else that looks like a Monash API is a vendor platform running under a Monash hostname: the Bridges research repository is Figshare (bridges.monash.edu is a CNAME to figshare.com), research.monash.edu is Elsevier Pure, the Handbook course catalog runs on CourseLoop, and library discovery is Ex Libris Primo. Those are recorded here as tenant relationships, not as Monash contracts. No central institutional developer portal, no open data portal, and no institution-operated OAI-PMH endpoint were found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 8.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 29.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 4.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 149
-    },
-    {
      "name": "Console Group",
      "slug": "console-group",
      "description": "Console Group is an Australian property management software company, founded in 1992 in Brisbane, Queensland, that built the first property management and trust accounting software released in Australia and launched its cloud platform, Console Cloud, in 2017. It serves thousands of residential and commercial property management agencies across Australia and New Zealand with trust accounting, tenancy and lease management, inspections (Console Go + Inspect), maintenance, arrears, owner and tenant portals, SMS, analytics and payments (Console Pay). The company was acquired by the United Kingdom's Reapit and its flagship product has been rebranded Reapit PM, though the business continues to trade from console.com.au. In the Australian value chain Console Group sits on the property MANAGEMENT side rather than the sales-listing side, as the system of record for the rent roll, the trust account and the tenancy, downstream of REA Group's realestate.com.au and Domain and separate from PEXA's conveyancing rail and from PropTrack and CoreLogic valuation data. Its API posture is honestly closed. Console Group publishes no developer portal, no API reference, no OpenAPI or Swagger document and no partner developer program on console.com.au; the full sitemap contains no /developers, /api or /docs page, and the developer., developers. and docs. subdomains do not resolve. An api.console.com.au host answers as a Kong API Gateway but returns \"no Route matched with those values\" on every probed path, including GraphQL. A live integration marketplace at /integrate lists more than twenty two-way third-party products, so a working private integration API demonstrably exists, but access is by commercial marketplace arrangement only and nothing about it is published. The company does run a real public status page at status.console.com.au (Hund.io, Cloud and Accounts components, published uptime and response-time metrics), though its HAL+JSON status API is credential-gated. Australia has no MLS, so there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Console Group's stack, and the company publishes no open data.",
@@ -7881,7 +7834,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7913,7 +7866,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Avenue Bank",
@@ -7933,7 +7886,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7972,12 +7925,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "TAL",
      "slug": "tal-australia",
      "description": "TAL is Australia's largest life insurer by inforce risk-only premium (NMG Consulting, 2023), owned by Japan's Dai-ichi Life Group and underwriting through TAL Life Limited (ABN 70 050 109 450, AFSL 237848). Operating in the Australian market for roughly 150 years, TAL writes life cover, income protection, total and permanent disability and critical illness, and reports paying $4.7 billion in benefits to 57,000 customers and their families in its most recent year. It distributes through three channels — financial advisers via the login-gated TAL Adviser Centre, group insurance inside superannuation funds, and direct/embedded offers including backd by TAL, a payroll-embedded product built with Sydney insurtech Cover Genius. TAL is not API-less, it is API-private: certificate transparency and live probing surface a real partner API estate — an OpenID Connect partner identity tenant, a bearer-protected Group Life B2B integration estate (glsb2b), per-distributor API hosts including one named for the Iress adviser software, and a production Underwriting Rules Engine GraphQL endpoint — none of which is documented, registrable or self-serve. There is no developer portal, no public API reference, no downloadable OpenAPI, and no published ACORD or AL3 position. Australia's Consumer Data Right was designated to extend to insurance but was deferred, so no open-insurance mandate forces a public surface here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/screenshots/tal-australia-2026-09-02T162444.png",
      "score": 21.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7991,7 +7945,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8023,6 +7977,58 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 151
+    },
+    {
+     "name": "Monash University",
+     "slug": "monash",
+     "description": "Monash University is a public research university in Melbourne, Australia, and a member of the Group of Eight. Its genuinely institution-operated programmable footprint is small but real, and it is not where a company's would be. Its three institution-operated surfaces all belong to Monash eResearch and all resolve into Monash's own APNIC address space: the Cloud Resource Allocation and Management System (CRAMS) portal, a public documentation site for the M3/MASSIVE HPC estate, and a Shibboleth service provider federated through the Australian Access Federation. None of the three publishes an open specification, so Monash's only evidenced domain-standard conformance (SAML, Shibboleth) rests on that one federation entry. The Monash-branded identity provider at idp.monash.edu.au looks like the strongest contract here and is not Monash's: it CNAMEs to idp-cname.aaf.edu.au on Amazon address space, making it a tenant of AAF's fully managed Rapid IdP. Everything else that looks like a Monash API is a vendor platform running under a Monash hostname: the Bridges research repository is Figshare (bridges.monash.edu is a CNAME to figshare.com), research.monash.edu is Elsevier Pure, the Handbook course catalog runs on CourseLoop, and library discovery is Ex Libris Primo. Those are recorded here as tenant relationships, not as Monash contracts. No central institutional developer portal, no open data portal, and no institution-operated OAI-PMH endpoint were found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/screenshots/monash-2026-06-20T185718.png",
+     "score": 21.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 4.4,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 29.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 4.3,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 152
     },
     {
@@ -8030,12 +8036,12 @@
      "slug": "uon",
      "description": "The University of Newcastle (UON) is a public research university in Callaghan and Newcastle, New South Wales, ranked #179 in the QS World University Rankings order used by this cohort. It is a federation of buyers rather than an API producer: there is no central developer portal and no institutional API gateway — api.newcastle.edu.au, apis.newcastle.edu.au, developer.newcastle.edu.au, data.newcastle.edu.au and status.newcastle.edu.au all fail to resolve — and UON publishes no OpenAPI description for anything. What it genuinely operates is small and specific: a Shibboleth identity provider at idp.newcastle.edu.au serving live SAML 2.0 metadata under its own entityID and scope, registered in the Australian Access Federation; and a self-hosted XNAT 1.9.1.1 imaging-informatics platform at xnat.newcastle.edu.au, run with the Hunter Medical Research Institute on the university's own AWS estate, whose REST API answers on UON's host and is registered as a SAML service provider in the same federation. UON also holds two DataCite repository clients in its own name, ARDCX.UON and UONAU.FIGSHARE. Everything else that looks programmable is a tenancy on someone else's platform and is recorded as such, never as UON engineering: Open Research Newcastle is a Figshare tenancy, the course handbook is a CourseLoop tenancy, the learning management system is an Instructure Canvas tenancy, library guides are Springshare, site search is Squiz Funnelback, the student portal is PeopleSoft behind Okta, and the service desk is Oracle B2C Service. This profile was corrected on 2026-08-30: ten OpenAPI documents previously held here were Figshare's generic api.figshare.com/v2 contract, not the university's, and were removed along with everything derived from them.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png",
-     "score": 21.3,
+     "score": 20.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 8.0,
+      "contract_quality": 4.4,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
@@ -8043,7 +8049,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8078,58 +8084,6 @@
      "rank": 153
     },
     {
-     "name": "Deakin University",
-     "slug": "deakin",
-     "description": "Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne. Its genuinely institution-operated programmable footprint is small, real, and entirely in identity federation. Deakin self-publishes a complete SAML 2.0 EntityDescriptor at signon.deakin.edu.au/idp/shibboleth for a Shibboleth identity provider it runs on its own APNIC address space (128.184.0.0/16, netname DEAKINUNIVERSITY) under a Deakin-procured DigiCert certificate, and it registers that IdP plus three production service providers — the Deakin Data Portal, Envirocare and OT Simulations — in the Australian Access Federation. That metadata document is the only institution-operated machine-readable contract in this profile, and it is what earns Deakin its SAML and Shibboleth conformance. Deakin is also the registrant behind 4,597 DataCite DOIs (prefix 10.26187, repository ARDCX.DEAKIN under ARDC) and 1,303 Crossref deposits (member 8935, prefix 10.21153). Everything else that looks like a Deakin API belongs to a platform Deakin buys: Deakin Research Online is figshare (dro.deakin.edu.au CNAMEs to proxy-eu-01.figshare.com), CloudDeakin is D2L Brightspace (d2l.deakin.edu.au CNAMEs to deakin.brightspace.com, and its keyless Valence version manifest is the only JSON API answering on any deakin.edu.au host), library discovery resolves into Ex Libris address space, and the federated SSO endpoints registered with AAF sit on AAF's managed Rapid IdP on Amazon infrastructure. Those are recorded here as tenant relationships, not as Deakin contracts. There is no central developer portal, no institution-operated OAI-PMH endpoint, and no public course or campus API. The wider deakin.edu.au web estate — www, blogs, the Data Portal, the handbook — sits behind F5/Shape bot protection that answers automated clients with a JavaScript challenge, so it is not machine-readable at all.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png",
-     "score": 20.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 8.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 154
-    },
-    {
      "name": "Agentbox",
      "slug": "agentbox",
      "description": "Agentbox - rebranded Reapit Sales after its acquisition by the UK-headquartered proptech group Reapit - is an Australian real estate CRM and sales platform used by residential sales agencies across Australia and New Zealand, covering contacts and prospecting, listing management, appraisals, vendor management, marketing, agency websites, and a mobile agent app. Its position in the value chain is the agency system of record and, critically, the portal uploader - Agentbox is the system that pushes an agency's for-sale and for-rent listings out to realestate.com.au, domain.com.au, allhomes, commercialrealestate.com.au and dozens of other Australian portals, which in the Australian market is the REAXML feed seam rather than an MLS. Its API posture is honest but closed - a production API gateway is live at api.agentboxcrm.com.au (Tyk, HTTP 401 \"Authorization field missing\" to anonymous callers, authenticated with an X-API-Key header alongside a Client ID and Office ID), but there is no public developer portal, no published reference, and no downloadable machine-readable contract. Access is application-approval only - every third party must complete the Reapit Sales Integrator Application and be reviewed before an agency's API Key, Client ID and Office ID are issued by support. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, and no Universal Property Identifier - RESO is a North American MLS regime with no presence in this Australian vendor's surface - and no open data is published.",
@@ -8147,7 +8101,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -8172,7 +8126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Medibank",
@@ -8192,7 +8146,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8224,6 +8178,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 155
+    },
+    {
+     "name": "Deakin University",
+     "slug": "deakin",
+     "description": "Deakin University is a public research university in Victoria, Australia, with campuses in Geelong, Warrnambool and Melbourne. Its genuinely institution-operated programmable footprint is small, real, and entirely in identity federation. Deakin self-publishes a complete SAML 2.0 EntityDescriptor at signon.deakin.edu.au/idp/shibboleth for a Shibboleth identity provider it runs on its own APNIC address space (128.184.0.0/16, netname DEAKINUNIVERSITY) under a Deakin-procured DigiCert certificate, and it registers that IdP plus three production service providers — the Deakin Data Portal, Envirocare and OT Simulations — in the Australian Access Federation. That metadata document is the only institution-operated machine-readable contract in this profile, and it is what earns Deakin its SAML and Shibboleth conformance. Deakin is also the registrant behind 4,597 DataCite DOIs (prefix 10.26187, repository ARDCX.DEAKIN under ARDC) and 1,303 Crossref deposits (member 8935, prefix 10.21153). Everything else that looks like a Deakin API belongs to a platform Deakin buys: Deakin Research Online is figshare (dro.deakin.edu.au CNAMEs to proxy-eu-01.figshare.com), CloudDeakin is D2L Brightspace (d2l.deakin.edu.au CNAMEs to deakin.brightspace.com, and its keyless Valence version manifest is the only JSON API answering on any deakin.edu.au host), library discovery resolves into Ex Libris address space, and the federated SSO endpoints registered with AAF sit on AAF's managed Rapid IdP on Amazon infrastructure. Those are recorded here as tenant relationships, not as Deakin contracts. There is no central developer portal, no institution-operated OAI-PMH endpoint, and no public course or campus API. The wider deakin.edu.au web estate — www, blogs, the Data Portal, the handbook — sits behind F5/Shape bot protection that answers automated clients with a JavaScript challenge, so it is not machine-readable at all.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/screenshots/deakin-2026-06-20T175744.png",
+     "score": 20.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 4.4,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 156
     },
     {
@@ -8244,7 +8250,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8296,7 +8302,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8331,58 +8337,6 @@
      "rank": 158
     },
     {
-     "name": "RMIT University",
-     "slug": "rmit",
-     "description": "RMIT University is a public research university in Melbourne, Australia, specializing in technology, design and enterprise, and ranked #123 in the QS World University Rankings 2025. RMIT does not operate a centralized, publicly documented developer portal. Its most accessible programmatic surface is its research output: the RMIT Research Repository runs on Clarivate's Esploro platform, and RMIT's research data is published via a Figshare-hosted repository whose records are exposed through the public Figshare REST API (api.figshare.com) and syndicated to Research Data Australia. Student-facing systems such as timetables, the curriculum catalogue, and identity/SSO sit behind authentication and are not offered as public APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png",
-     "score": 19.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.9,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 22.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 4.3,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 159
-    },
-    {
      "name": "PayTo",
      "slug": "payto",
      "description": "PayTo is Australia's real-time mandated-payments service, operated by Australian Payments Plus (AP+) as an overlay on the New Payments Platform (NPP). It lets merchants, billers, and payment service providers establish digital, pre-authorised agreements (mandates) that debit a customer's bank account in real time using either a PayID or BSB and account number, with the mandate authorised, viewed, and managed by the account holder inside their own banking app. PayTo is positioned as the modern successor to the legacy BECS direct-debit rails, adding instant settlement, richer ISO 20022 data, and central mandate management via the NPP Mandate Management Service. As a domestic rail and scheme operator, AP+/NPP Australia is documentation- and rulebook-first: it publishes the NPP API Framework (v5.0, aligned to ISO 20022) that defines the mandatory data attributes and technical approach for PayTo and NPP APIs, but it does not itself host or offer a self-serve public API. The actual PayTo APIs are implemented and exposed by NPP Participants (banks) and connected payment service providers, so the company's public developer surface is a portal, framework, sandbox, and message specifications rather than a downloadable OpenAPI.",
@@ -8400,7 +8354,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8432,6 +8386,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 159
+    },
+    {
+     "name": "RMIT University",
+     "slug": "rmit",
+     "description": "RMIT University is a public research university in Melbourne, Australia, specializing in technology, design and enterprise, and ranked #123 in the QS World University Rankings 2025. RMIT does not operate a centralized, publicly documented developer portal. Its most accessible programmatic surface is its research output: the RMIT Research Repository runs on Clarivate's Esploro platform, and RMIT's research data is published via a Figshare-hosted repository whose records are exposed through the public Figshare REST API (api.figshare.com) and syndicated to Research Data Australia. Student-facing systems such as timetables, the curriculum catalogue, and identity/SSO sit behind authentication and are not offered as public APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/screenshots/rmit-2026-06-20T193137.png",
+     "score": 18.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 7.4,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 22.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 4.3,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 160
     },
     {
@@ -8452,7 +8458,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8504,7 +8510,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8556,7 +8562,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8608,7 +8614,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8660,7 +8666,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8705,7 +8711,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8757,7 +8763,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8809,7 +8815,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8861,7 +8867,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8913,7 +8919,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8965,7 +8971,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9017,7 +9023,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9069,7 +9075,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 14.2,
      "agent_band": "agent-aware",
@@ -9114,7 +9120,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9152,6 +9158,7 @@
      "name": "Sydney Airport",
      "slug": "sydney-airport",
      "description": "Sydney Airport Corporation Limited (ACN 082 578 809) operates Sydney Kingsford Smith Airport (IATA SYD, ICAO YSSY), Australia's principal international gateway, under private ownership by the Sydney Aviation Alliance consortium since its 2022 ASX delisting. In the travel distribution chain it is infrastructure rather than an intermediary - it sells no seats, holds no inventory, issues no PNRs, and sits outside the GDS and IATA NDC value chain entirely, monetising aeronautical charges, car parking, retail concessions and property instead. Its API posture is effectively nil - Sydney Airport publishes no developer portal, no API documentation, no OpenAPI, and no terms of use for machine access. Its public website is backed by undocumented JSON endpoints under /_a/ that return live flight and security wait-time data with no published contract, while its only credentialed partner surface, InfoSYD, is gated behind a ForgeRock OAuth 2.0 / OpenID Connect identity provider at id.syd.com.au and is restricted to airlines, ground handlers and on-airport tenants. The published terms of use expressly prohibit automated retrieval, scraping and indexing of the site, so there is public data but no public interface - and no documented exit path beyond an Australian Privacy Principle 12 personal-information access request.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/screenshots/sydney-airport-2026-09-02T161434.png",
      "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9165,7 +9172,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -9210,7 +9217,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9262,7 +9269,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9307,7 +9314,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9352,7 +9359,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9404,7 +9411,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9456,7 +9463,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9501,7 +9508,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9546,7 +9553,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9597,7 +9604,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9635,6 +9642,7 @@
      "name": "Virgin Australia",
      "slug": "virgin-australia",
      "description": "Virgin Australia (IATA code VA, ASX:VGN) is Australia's second-largest airline group, founded in 2000 and headquartered in Brisbane, operating a domestic and short-haul international network alongside charter and cargo services with more than 8,000 team members and the 13-million-member Velocity Frequent Flyer loyalty program. It sits on the airline side of a concentrated Australian duopoly with Qantas, and reaches travel agents and travel management companies almost entirely through GDS intermediation — Amadeus, Sabre and Travelport/Galileo — rather than through any direct machine interface of its own. Virgin Australia selected Sabre as its preferred NDC IT technology provider in October 2023 and renewed a multi-year Amadeus distribution agreement covering EDIFACT today and NDC in future, but as of July 2026 no Virgin Australia NDC endpoint, developer portal or API documentation is published anywhere on virginaustralia.com. Its API posture is honestly stated as none-published: developer.virginaustralia.com, developers., api., apis. and docs. subdomains do not resolve; /developers, /api, /api-docs, /openapi.json and /swagger.json all return 404; and the only partner surface is the Agency Hub, whose Travel Agent Main Agreement requires current IATA or ATIS accreditation, GDS access for BSP sales, and Virgin Australia's absolute discretion to approve an account. The one genuinely public programmatic-adjacent surface is the Virgin Australia app in ChatGPT, launched 10 June 2026 for flight and Velocity Reward Seat search only — it cannot book, amend, cancel or take payment, and its underlying interface is not documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virgin-australia/refs/heads/main/screenshots/virgin-australia-2026-09-02T170002.png",
      "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9648,7 +9656,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9679,6 +9687,7 @@
      "name": "Transfercar",
      "slug": "transfercar",
      "description": "Transfercar is a free vehicle relocation marketplace that connects rental car and motorhome companies who need vehicles moved between their depots with travelers willing to drive those vehicles one-way. Rental operators list relocation deals for cars and campervans that need to be repositioned, and drivers book them to travel between cities at little or no rental cost, often with extras such as free days, fuel allowances, or ferry contributions. The service operates across New Zealand, Australia, and the United States as a consumer-facing web booking platform rather than a developer API provider. Transfercar was surfaced as a portfolio company of 500 Global and added to the API Evangelist network; this profile has been enriched from its public web surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transfercar/refs/heads/main/screenshots/transfercar-2026-09-02T164125.png",
      "score": 11.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -9692,7 +9701,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9737,7 +9746,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9782,7 +9791,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9836,7 +9845,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9881,7 +9890,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9933,7 +9942,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9985,7 +9994,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10037,7 +10046,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10082,7 +10091,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10133,7 +10142,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10178,7 +10187,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10229,7 +10238,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10274,7 +10283,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10318,7 +10327,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10370,7 +10379,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10414,7 +10423,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10445,6 +10454,7 @@
      "name": "Suncorp Group",
      "slug": "suncorp-group",
      "description": "Suncorp Group Limited (ASX: SUN) is an Australian general insurance group headquartered in Brisbane, Queensland, serving customers across Australia and New Zealand. Following the sale of Suncorp Bank to ANZ on 31 July 2024 it operates as a pure-play insurer, underwriting personal lines (motor, home and contents, caravan, landlord) and commercial lines (SME packages, commercial motor and motor fleet, property/ISR, liability, professional and financial risks, workers' compensation, surety, and specialty lines including residential strata and equipment breakdown) through a portfolio of brands: in Australia AAMI, Apia, Bingle, CIL, GIO, Essentials by AAI, Shannons, Suncorp, Terri Scheer and Vero, and in New Zealand Vero and AA Insurance. Its API posture is partner-gated and there is no public API. As of a 2026-07-25 review, Suncorp Group publishes no first-party developer portal, no API reference, and no downloadable OpenAPI/Swagger definition on suncorpgroup.com.au or on any brand domain: the developer/developers/docs/api subdomains of suncorpgroup.com.au do not resolve, /developers and /api return HTTP 404 on the brand sites, and the corporate sitemap (803 URLs) plus the AAMI, GIO, Suncorp and Vero brand sitemaps (2,007 URLs) contain zero developer, API or integration paths. The only machine-to-machine integration surface is intermediated and behind a login: the VeroEdge / Vero Intermediary Portal for brokers (Access Single ID), a third-party Uniwriter underwriting portal for Engineers PI and Strata, and distribution through Australian broker trading networks — the Steadfast Client Trading Platform (SCTP), Sunrise Exchange, and direct Broker Management System connections. Australia has no live open-insurance obligation: the Consumer Data Right that opened banking and energy was never switched on for general insurance, so unlike Suncorp Bank there is no mandated public product-reference-data endpoint here. No ACORD, AL3 or NGDS reference was found anywhere on Suncorp Group or brand properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suncorp-group/refs/heads/main/screenshots/suncorp-group-2026-09-02T161129.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10458,7 +10468,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10510,7 +10520,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10562,7 +10572,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10600,6 +10610,7 @@
      "name": "University of Technology Sydney",
      "slug": "university-of-technology-sydney",
      "description": "University of Technology Sydney is a higher-education institution in Australia. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-technology-sydney/refs/heads/main/screenshots/university-of-technology-sydney-2026-09-02T164930.png",
      "score": 0.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10613,7 +10624,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

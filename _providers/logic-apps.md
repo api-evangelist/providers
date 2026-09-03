@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 6 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Inspect and cancel workflow runs.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Inspect and cancel workflow runs.
   name: Azure Logic Apps WorkflowRuns API
   slug: logic-apps-workflowruns-api
-- description: Manage Logic Apps workflows.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage Logic Apps workflows.
   name: Azure Logic Apps Workflows API
   slug: logic-apps-workflows-api
-- description: Manage workflow triggers and their histories.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage workflow triggers and their histories.
   name: Azure Logic Apps WorkflowTriggers API
   slug: logic-apps-workflowtriggers-api
-- description: Manage versions of workflow definitions.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage versions of workflow definitions.
   name: Azure Logic Apps WorkflowVersions API
   slug: logic-apps-workflowversions-api
 artifact_total: 18
@@ -170,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logic-apps/refs/heads/main/screenshots/logic-apps-2026-06-20T184652.png
 security:

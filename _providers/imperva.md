@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 8
@@ -50,43 +50,69 @@ apis:
 - description: API for managing Imperva's Data Security Fabric (DSF) product, enabling automated deployment and configuration of data security monitoring, auditing, and analytics across cloud and on-premises data re
   name: Imperva Data Security Fabric API
   slug: data-security-fabric-api
-- description: Add, delete, and modify accounts. Get account details.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Add, delete, and modify accounts. Get account details.
   name: Imperva Account Management API
   slug: imperva-account-management-api
-- description: The Administration API from Imperva — 8 operation(s) for administration.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: The Administration API from Imperva — 8 operation(s) for administration.
   name: Imperva Administration API
   slug: imperva-administration-api
-- description: The Auth API from Imperva — 2 operation(s) for auth.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: The Auth API from Imperva — 2 operation(s) for auth.
   name: Imperva Auth API
   slug: imperva-auth-api
-- description: The Conf API from Imperva — 126 operation(s) for conf.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: The Conf API from Imperva — 126 operation(s) for conf.
   name: Imperva Conf API
   slug: imperva-conf-api
-- description: Generate dummy notifications to test system alerts.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Generate dummy notifications to test system alerts.
   name: Imperva DDoS for Networks Test Alerts API
   slug: imperva-ddos-for-networks-test-alerts-api
-- description: Manage IP Protection over TCP/IP settings.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Manage IP Protection over TCP/IP settings.
   name: Imperva DDoS Protection for Individual IPs API
   slug: imperva-ddos-protection-for-individual-ips-api
-- description: The Experimental API from Imperva — 24 operation(s) for experimental.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: The Experimental API from Imperva — 24 operation(s) for experimental.
   name: Imperva Experimental API
   slug: imperva-experimental-api
-- description: Implement integrations with the Imperva service.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Implement integrations with the Imperva service.
   name: Imperva Integrations API
   slug: imperva-integrations-api
-- description: Provision Login Protect users and configure protected pages.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Provision Login Protect users and configure protected pages.
   name: Imperva Login Protect API
   slug: imperva-login-protect-api
-- description: The Management API from Imperva — 2 operation(s) for management.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: The Management API from Imperva — 2 operation(s) for management.
   name: Imperva Management API
   slug: imperva-management-api
-- description: Add, remove, and update sites.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Add, remove, and update sites.
   name: Imperva Site Management API
   slug: imperva-site-management-api
-- description: The Status API from Imperva — 1 operation(s) for status.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: The Status API from Imperva — 1 operation(s) for status.
   name: Imperva Status API
   slug: imperva-status-api
-- description: Retrieve traffic statistics and logs for sites or accounts.
+- baseURL: https://api.imperva.com
+  baseurl_source: declared
+  description: Retrieve traffic statistics and logs for sites or accounts.
   name: Imperva Traffic Statistics and Logs API
   slug: imperva-traffic-statistics-and-logs-api
 artifact_total: 46
@@ -280,7 +306,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -290,7 +316,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 42.0
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -299,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperva/refs/heads/main/screenshots/imperva-2026-06-20T183300.png
 security:

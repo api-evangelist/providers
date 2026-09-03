@@ -33,91 +33,147 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts Receivable API from Broadlume — 4 operation(s) for accounts receivable.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Accounts Receivable API from Broadlume — 4 operation(s) for accounts receivable.
   name: Broadlume Accounts Receivable API
   slug: broadlume-accounts-receivable-api
-- description: The Audit API from Broadlume — 2 operation(s) for audit.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Audit API from Broadlume — 2 operation(s) for audit.
   name: Broadlume Audit API
   slug: broadlume-audit-api
-- description: The Authentication API from Broadlume — 4 operation(s) for authentication.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Authentication API from Broadlume — 4 operation(s) for authentication.
   name: Broadlume Authentication API
   slug: broadlume-authentication-api
-- description: The Build Order API from Broadlume — 4 operation(s) for build order.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Build Order API from Broadlume — 4 operation(s) for build order.
   name: Broadlume Build Order API
   slug: broadlume-build-order-api
-- description: The Bundle API from Broadlume — 1 operation(s) for bundle.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Bundle API from Broadlume — 1 operation(s) for bundle.
   name: Broadlume Bundle API
   slug: broadlume-bundle-api
-- description: The ChargeItPro API from Broadlume — 1 operation(s) for chargeitpro.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The ChargeItPro API from Broadlume — 1 operation(s) for chargeitpro.
   name: Broadlume Charge It Pro API
   slug: broadlume-chargeitpro-api
-- description: The Committed API from Broadlume — 1 operation(s) for committed.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Committed API from Broadlume — 1 operation(s) for committed.
   name: Broadlume Committed API
   slug: broadlume-committed-api
-- description: The Company API from Broadlume — 7 operation(s) for company.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Company API from Broadlume — 7 operation(s) for company.
   name: Broadlume Company API
   slug: broadlume-company-api
-- description: The Customer API from Broadlume — 26 operation(s) for customer.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Customer API from Broadlume — 26 operation(s) for customer.
   name: Broadlume Customer API
   slug: broadlume-customer-api
-- description: The Dashboard API from Broadlume — 6 operation(s) for dashboard.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Dashboard API from Broadlume — 6 operation(s) for dashboard.
   name: Broadlume Dashboard API
   slug: broadlume-dashboard-api
-- description: The Edocs API from Broadlume — 3 operation(s) for edocs.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Edocs API from Broadlume — 3 operation(s) for edocs.
   name: Broadlume Edocs API
   slug: broadlume-edocs-api
-- description: The General API from Broadlume — 4 operation(s) for general.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The General API from Broadlume — 4 operation(s) for general.
   name: Broadlume General API
   slug: broadlume-general-api
-- description: The General Ledger API from Broadlume — 4 operation(s) for general ledger.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The General Ledger API from Broadlume — 4 operation(s) for general ledger.
   name: Broadlume General Ledger API
   slug: broadlume-general-ledger-api
-- description: The Handheld API from Broadlume — 18 operation(s) for handheld.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Handheld API from Broadlume — 18 operation(s) for handheld.
   name: Broadlume Handheld API
   slug: broadlume-handheld-api
-- description: The Install API from Broadlume — 9 operation(s) for install.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Install API from Broadlume — 9 operation(s) for install.
   name: Broadlume Install API
   slug: broadlume-install-api
-- description: The Inventory API from Broadlume — 5 operation(s) for inventory.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Inventory API from Broadlume — 5 operation(s) for inventory.
   name: Broadlume Inventory API
   slug: broadlume-inventory-api
-- description: The Invoice API from Broadlume — 5 operation(s) for invoice.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Invoice API from Broadlume — 5 operation(s) for invoice.
   name: Broadlume Invoice API
   slug: broadlume-invoice-api
-- description: The Lead API from Broadlume — 22 operation(s) for lead.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Lead API from Broadlume — 22 operation(s) for lead.
   name: Broadlume Lead API
   slug: broadlume-lead-api
-- description: The Logo API from Broadlume — 3 operation(s) for logo.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Logo API from Broadlume — 3 operation(s) for logo.
   name: Broadlume Logo API
   slug: broadlume-logo-api
-- description: The Order API from Broadlume — 17 operation(s) for order.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Order API from Broadlume — 17 operation(s) for order.
   name: Broadlume Order API
   slug: broadlume-order-api
-- description: The Pivot API from Broadlume — 6 operation(s) for pivot.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Pivot API from Broadlume — 6 operation(s) for pivot.
   name: Broadlume Pivot API
   slug: broadlume-pivot-api
-- description: The Product API from Broadlume — 22 operation(s) for product.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Product API from Broadlume — 22 operation(s) for product.
   name: Broadlume Product API
   slug: broadlume-product-api
-- description: The Purchase Order API from Broadlume — 13 operation(s) for purchase order.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Purchase Order API from Broadlume — 13 operation(s) for purchase order.
   name: Broadlume Purchase Order API
   slug: broadlume-purchase-order-api
-- description: The Quote API from Broadlume — 6 operation(s) for quote.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Quote API from Broadlume — 6 operation(s) for quote.
   name: Broadlume Quote API
   slug: broadlume-quote-api
-- description: The Reports API from Broadlume — 3 operation(s) for reports.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Reports API from Broadlume — 3 operation(s) for reports.
   name: Broadlume Reports API
   slug: broadlume-reports-api
-- description: The Retail Pricing API from Broadlume — 1 operation(s) for retail pricing.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Retail Pricing API from Broadlume — 1 operation(s) for retail pricing.
   name: Broadlume Retail Pricing API
   slug: broadlume-retail-pricing-api
-- description: The Vendor API from Broadlume — 2 operation(s) for vendor.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Vendor API from Broadlume — 2 operation(s) for vendor.
   name: Broadlume Vendor API
   slug: broadlume-vendor-api
-- description: The Version API from Broadlume — 1 operation(s) for version.
+- baseURL: https://api.rmaster.com/api
+  baseurl_source: declared
+  description: The Version API from Broadlume — 1 operation(s) for version.
   name: Broadlume Version API
   slug: broadlume-version-api
 artifact_total: 34
@@ -296,7 +352,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/screenshots/broadlume-2026-07-25T203941.png
 security:

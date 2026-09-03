@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: Risk analytics and reporting
+- baseURL: https://api.subex.example.com/roc/v1
+  baseurl_source: spec
+  description: Risk analytics and reporting
   name: Subex Analytics API
   slug: subex-analytics-api
-- description: Fraud detection and case management
+- baseURL: https://api.subex.example.com/roc/v1
+  baseurl_source: spec
+  description: Fraud detection and case management
   name: Subex Fraud Management API
   slug: subex-fraud-management-api
-- description: CDR and billing data reconciliation
+- baseURL: https://api.subex.example.com/roc/v1
+  baseurl_source: spec
+  description: CDR and billing data reconciliation
   name: Subex Reconciliation API
   slug: subex-reconciliation-api
-- description: Revenue leakage detection and reconciliation
+- baseURL: https://api.subex.example.com/roc/v1
+  baseurl_source: spec
+  description: Revenue leakage detection and reconciliation
   name: Subex Revenue Assurance API
   slug: subex-revenue-assurance-api
 artifact_total: 23
@@ -256,7 +264,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subex/refs/heads/main/screenshots/subex-2026-06-20T194634.png
 security:

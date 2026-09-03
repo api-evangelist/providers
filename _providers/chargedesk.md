@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: RESTful API for managing charges, customers, subscriptions, products, and webhooks across multiple payment gateways. Supports creating and capturing charges, processing refunds, cancelling subscriptio
   name: ChargeDesk REST API
   slug: chargedesk-rest-api
-- description: Manage charge records across payment gateways
+- baseURL: https://api.chargedesk.com/v1
+  baseurl_source: declared
+  description: Manage charge records across payment gateways
   name: ChargeDesk Charges API
   slug: chargedesk-charges-api
-- description: Manage customer billing records
+- baseURL: https://api.chargedesk.com/v1
+  baseurl_source: declared
+  description: Manage customer billing records
   name: ChargeDesk Customers API
   slug: chargedesk-customers-api
-- description: Live payment processing operations
+- baseURL: https://api.chargedesk.com/v1
+  baseurl_source: declared
+  description: Live payment processing operations
   name: ChargeDesk Gateway API
   slug: chargedesk-gateway-api
-- description: Manage products and pricing plans
+- baseURL: https://api.chargedesk.com/v1
+  baseurl_source: declared
+  description: Manage products and pricing plans
   name: ChargeDesk Products API
   slug: chargedesk-products-api
-- description: Manage recurring subscriptions
+- baseURL: https://api.chargedesk.com/v1
+  baseurl_source: declared
+  description: Manage recurring subscriptions
   name: ChargeDesk Subscriptions API
   slug: chargedesk-subscriptions-api
-- description: Manage webhook configurations
+- baseURL: https://api.chargedesk.com/v1
+  baseurl_source: declared
+  description: Manage webhook configurations
   name: ChargeDesk Webhooks API
   slug: chargedesk-webhooks-api
 artifact_total: 33
@@ -258,7 +270,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/screenshots/chargedesk-2026-06-20T174221.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Real-time WebSocket subscription API for the Solana blockchain. Provides event-driven notifications for accounts (accountSubscribe, programSubscribe), transactions (logsSubscribe, signatureSubscribe),
   name: Solana RPC WebSocket Subscriptions API
   slug: solana-rpc-websocket-api
-- description: Methods for querying account state, balances, and program ownership
+- baseURL: https://api.mainnet.solana.com
+  baseurl_source: declared
+  description: Methods for querying account state, balances, and program ownership
   name: Solana Accounts API
   slug: solana-accounts-api
-- description: Methods for querying blocks, slots, and ledger information
+- baseURL: https://api.mainnet.solana.com
+  baseurl_source: declared
+  description: Methods for querying blocks, slots, and ledger information
   name: Solana Blocks API
   slug: solana-blocks-api
-- description: Methods for querying cluster nodes, validators, and network state
+- baseURL: https://api.mainnet.solana.com
+  baseurl_source: declared
+  description: Methods for querying cluster nodes, validators, and network state
   name: Solana Cluster API
   slug: solana-cluster-api
-- description: Methods for querying inflation, staking, and supply information
+- baseURL: https://api.mainnet.solana.com
+  baseurl_source: declared
+  description: Methods for querying inflation, staking, and supply information
   name: Solana Economics API
   slug: solana-economics-api
-- description: Methods for querying SPL Token accounts, balances, and supply
+- baseURL: https://api.mainnet.solana.com
+  baseurl_source: declared
+  description: Methods for querying SPL Token accounts, balances, and supply
   name: Solana Tokens API
   slug: solana-tokens-api
-- description: Methods for sending, simulating, and querying transactions
+- baseURL: https://api.mainnet.solana.com
+  baseurl_source: declared
+  description: Methods for sending, simulating, and querying transactions
   name: Solana Transactions API
   slug: solana-transactions-api
 arazzos:
@@ -551,7 +563,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 67 operations · 33 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Count, aggregate, and groupBy operations for analytics
+- baseURL: https://localhost:3000/api
+  baseurl_source: spec
+  description: Count, aggregate, and groupBy operations for analytics
   name: Prisma Aggregation API
   slug: prisma-aggregation-api
-- description: Operations for managing API keys for platform resources
+- baseURL: https://api.cloud.prisma.io
+  baseurl_source: spec
+  description: Operations for managing API keys for platform resources
   name: Prisma API Keys API
   slug: prisma-api-keys-api
-- description: Batch operations for bulk create, update, and delete
+- baseURL: https://localhost:3000/api
+  baseurl_source: spec
+  description: Batch operations for bulk create, update, and delete
   name: Prisma Batch API
   slug: prisma-batch-api
-- description: Cache management and invalidation operations
+- baseURL: https://accelerate.prisma-data.net
+  baseurl_source: spec
+  description: Cache management and invalidation operations
   name: Prisma Cache API
   slug: prisma-cache-api
-- description: Operations for managing database connection strings
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: spec
+  description: Operations for managing database connection strings
   name: Prisma Connections API
   slug: prisma-connections-api
-- description: Core create, read, update, and delete operations for database models
+- baseURL: https://localhost:3000/api
+  baseurl_source: spec
+  description: Core create, read, update, and delete operations for database models
   name: Prisma CRUD API
   slug: prisma-crud-api
-- description: Operations for managing database backup and restore operations
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: spec
+  description: Operations for managing database backup and restore operations
   name: Prisma Database Backups API
   slug: prisma-database-backups-api
-- description: Operations for retrieving database usage metrics and statistics
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: spec
+  description: Operations for retrieving database usage metrics and statistics
   name: Prisma Database Usage API
   slug: prisma-database-usage-api
-- description: Operations for provisioning and managing Prisma Postgres databases
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: spec
+  description: Operations for provisioning and managing Prisma Postgres databases
   name: Prisma Databases API
   slug: prisma-databases-api
-- description: Operations for managing project environments
+- baseURL: https://api.cloud.prisma.io
+  baseurl_source: spec
+  description: Operations for managing project environments
   name: Prisma Environments API
   slug: prisma-environments-api
-- description: Database change event retrieval and management
+- baseURL: https://pulse.prisma-data.net
+  baseurl_source: spec
+  description: Database change event retrieval and management
   name: Prisma Events API
   slug: prisma-events-api
-- description: Service health and status checks
+- baseURL: https://accelerate.prisma-data.net
+  baseurl_source: spec
+  description: Service health and status checks
   name: Prisma Health API
   slug: prisma-health-api
-- description: Operations for managing third-party integrations
+- baseURL: https://api.prisma.io/v1
+  baseurl_source: spec
+  description: Operations for managing third-party integrations
   name: Prisma Integrations API
   slug: prisma-integrations-api
-- description: Operations for managing workspace members and roles
+- baseURL: https://api.cloud.prisma.io
+  baseurl_source: spec
+  description: Operations for managing workspace members and roles
   name: Prisma Members API
   slug: prisma-members-api
-- description: Performance metrics and statistics
+- baseURL: https://optimize.prisma-data.net
+  baseurl_source: spec
+  description: Performance metrics and statistics
   name: Prisma Metrics API
   slug: prisma-metrics-api
-- description: Operations for managing projects within workspaces
+- baseURL: https://api.cloud.prisma.io
+  baseurl_source: spec
+  description: Operations for managing projects within workspaces
   name: Prisma Projects API
   slug: prisma-projects-api
-- description: Proxied database query operations routed through Accelerate with optional caching
+- baseURL: https://accelerate.prisma-data.net
+  baseurl_source: spec
+  description: Proxied database query operations routed through Accelerate with optional caching
   name: Prisma Queries API
   slug: prisma-queries-api
-- description: Raw SQL query execution
+- baseURL: https://localhost:3000/api
+  baseurl_source: spec
+  description: Raw SQL query execution
   name: Prisma Raw API
   slug: prisma-raw-api
-- description: AI-powered query optimization recommendations
+- baseURL: https://optimize.prisma-data.net
+  baseurl_source: spec
+  description: AI-powered query optimization recommendations
   name: Prisma Recommendations API
   slug: prisma-recommendations-api
-- description: Recording session management for query capture and analysis
+- baseURL: https://optimize.prisma-data.net
+  baseurl_source: spec
+  description: Recording session management for query capture and analysis
   name: Prisma Sessions API
   slug: prisma-sessions-api
-- description: Resumable event streams with at-least-once delivery and ordering guarantees. Requires event persistence to be enabled.
+- baseURL: https://pulse.prisma-data.net
+  baseurl_source: spec
+  description: Resumable event streams with at-least-once delivery and ordering guarantees. Requires event persistence to be enabled.
   name: Prisma Streams API
   slug: prisma-streams-api
-- description: Transient event subscriptions with at-most-once delivery. Missed events during downtime are not recovered.
+- baseURL: https://pulse.prisma-data.net
+  baseurl_source: spec
+  description: Transient event subscriptions with at-most-once delivery. Missed events during downtime are not recovered.
   name: Prisma Subscriptions API
   slug: prisma-subscriptions-api
-- description: Operations for managing Prisma Data Platform workspaces
+- baseURL: https://api.cloud.prisma.io
+  baseurl_source: spec
+  description: Operations for managing Prisma Data Platform workspaces
   name: Prisma Workspaces API
   slug: prisma-workspaces-api
 arazzos:
@@ -682,7 +728,7 @@ score:
     catalog_gap: 74.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -692,7 +738,7 @@ score:
     discoverability: 38.9
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 53.1
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -702,10 +748,10 @@ score:
       total: 23
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-08-17T124858.png
 security:

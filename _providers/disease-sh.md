@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 41 operations
 api_count: 1
 apis:
-- description: (COVID-19 related mobility trend data from Apple, updated every 24 hours)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 related mobility trend data from Apple, updated every 24 hours)
   name: 'disease.sh COVID-19: Apple API'
   slug: disease-sh-covid-19-apple-api
-- description: (COVID-19 individual government reported data, updated every 24 hours)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 individual government reported data, updated every 24 hours)
   name: 'disease.sh COVID-19: Government API'
   slug: disease-sh-covid-19-government-api
-- description: (COVID-19 data sourced from Johns Hopkins University, updated every 10 minutes)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 data sourced from Johns Hopkins University, updated every 10 minutes)
   name: 'disease.sh COVID-19: JHUCSSE API'
   slug: disease-sh-covid-19-jhucsse-api
-- description: (COVID-19 data sourced from the New York Times, updated every 24 hours)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 data sourced from the New York Times, updated every 24 hours)
   name: 'disease.sh COVID-19: NYT API'
   slug: disease-sh-covid-19-nyt-api
-- description: (COVID-19 therapeutic trial data from raps.org, updated every 24 hours)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 therapeutic trial data from raps.org, updated every 24 hours)
   name: 'disease.sh COVID-19: Therapeutics API'
   slug: disease-sh-covid-19-therapeutics-api
-- description: (COVID-19 vaccine trial data from raps.org, updated every 24 hours)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 vaccine trial data from raps.org, updated every 24 hours)
   name: 'disease.sh COVID-19: Vaccine API'
   slug: disease-sh-covid-19-vaccine-api
-- description: (COVID-19 data from The European Surveillance System -TESSy, provided by [Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ir
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 data from The European Surveillance System -TESSy, provided by [Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ir
   name: 'disease.sh COVID-19: Variants API'
   slug: disease-sh-covid-19-variants-api
-- description: (COVID-19 data sourced from Worldometers, updated every 10 minutes)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (COVID-19 data sourced from Worldometers, updated every 10 minutes)
   name: 'disease.sh COVID-19: Worldometers API'
   slug: disease-sh-covid-19-worldometers-api
-- description: (Influenza data reported by the United States CDC, updated every 24 hours)
+- baseURL: https://disease.sh/v3
+  baseurl_source: declared
+  description: (Influenza data reported by the United States CDC, updated every 24 hours)
   name: 'disease.sh Influenza: CDC API'
   slug: disease-sh-influenza-cdc-api
 artifact_total: 84
@@ -381,7 +399,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/screenshots/disease-sh-2026-06-20T180044.png
 security:

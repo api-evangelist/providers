@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -43,130 +43,214 @@ agentic_access:
   summary_line: 302 operations · 142 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage user purchases, subscriptions, and consumables.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Manage user purchases, subscriptions, and consumables.
   name: Onshape Account API
   slug: onshape-account-api
-- description: Create and manage enterprise aliases. (Enterprise admins only.)
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create and manage enterprise aliases. (Enterprise admins only.)
   name: Onshape Alias API
   slug: onshape-alias-api
-- description: Manage application preferences.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Manage application preferences.
   name: Onshape APIApplication API
   slug: onshape-apiapplication-api
-- description: Manage the application-specific metadata that associates application data with Onshape data.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Manage the application-specific metadata that associates application data with Onshape data.
   name: Onshape AppAssociativeData API
   slug: onshape-appassociativedata-api
-- description: Access and modify application elements.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and modify application elements.
   name: Onshape AppElement API
   slug: onshape-appelement-api
-- description: Create and manage assemblies.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create and manage assemblies.
   name: Onshape Assembly API
   slug: onshape-assembly-api
-- description: Get billing plan data for applications.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Get billing plan data for applications.
   name: Onshape Billing API
   slug: onshape-billing-api
-- description: Create, modify, and translate blob elements.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create, modify, and translate blob elements.
   name: Onshape BlobElement API
   slug: onshape-blobelement-api
-- description: Create, read, update, and delete comments.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create, read, update, and delete comments.
   name: Onshape Comment API
   slug: onshape-comment-api
-- description: Access company information.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access company information.
   name: Onshape Company API
   slug: onshape-company-api
-- description: Create and manage documents.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create and manage documents.
   name: Onshape Document API
   slug: onshape-document-api
-- description: Access, create, and translate drawings.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access, create, and translate drawings.
   name: Onshape Drawing API
   slug: onshape-drawing-api
-- description: Access and manage Elements. Every Element in an Onshape document is represented by a tab.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and manage Elements. Every Element in an Onshape document is represented by a tab.
   name: Onshape Element API
   slug: onshape-element-api
-- description: Access valid export rules.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access valid export rules.
   name: Onshape ExportRule API
   slug: onshape-exportrule-api
-- description: Access and manage Feature Studio Elements.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and manage Feature Studio Elements.
   name: Onshape FeatureStudio API
   slug: onshape-featurestudio-api
-- description: Access and modify folder sharing permissions.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and modify folder sharing permissions.
   name: Onshape Folder API
   slug: onshape-folder-api
-- description: Access the list of things that can be inserted into a document.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access the list of things that can be inserted into a document.
   name: Onshape Insertable API
   slug: onshape-insertable-api
-- description: Manage non-geometric [items](https://cad.onshape.com/help/Content/Plans/items.htm). (Professional, Educator, and Enterprise accounts only.)
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Manage non-geometric [items](https://cad.onshape.com/help/Content/Plans/items.htm). (Professional, Educator, and Enterprise accounts only.)
   name: Onshape Item API
   slug: onshape-item-api
-- description: Work with the Onshape Material Library.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Work with the Onshape Material Library.
   name: Onshape Material API
   slug: onshape-material-api
-- description: Access and modify metadata.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and modify metadata.
   name: Onshape Metadata API
   slug: onshape-metadata-api
-- description: Access properties associated with metadata categories.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access properties associated with metadata categories.
   name: Onshape MetadataCategory API
   slug: onshape-metadatacategory-api
-- description: Manage the set of valid part numbers.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Manage the set of valid part numbers.
   name: Onshape NumberingScheme API
   slug: onshape-numberingscheme-api
-- description: Get the OpenAPI specification for the Onshape API.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Get the OpenAPI specification for the Onshape API.
   name: Onshape OpenApi API
   slug: onshape-openapi-api
-- description: Export Parts and access Part details.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Export Parts and access Part details.
   name: Onshape Part API
   slug: onshape-part-api
-- description: Create valid part numbers.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create valid part numbers.
   name: Onshape PartNumber API
   slug: onshape-partnumber-api
-- description: Access and modify Part Studios.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and modify Part Studios.
   name: Onshape PartStudio API
   slug: onshape-partstudio-api
-- description: Access information on how entities are structured within designs and documents.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access information on how entities are structured within designs and documents.
   name: Onshape ProductStructure API
   slug: onshape-productstructure-api
-- description: Create, access, and delete templates for properties tables.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create, access, and delete templates for properties tables.
   name: Onshape PropertiesTableTemplate API
   slug: onshape-propertiestabletemplate-api
-- description: Access publication information.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access publication information.
   name: Onshape Publication API
   slug: onshape-publication-api
-- description: 'Endpoints for creating , updating, and managing releases. See [API Guide: Release Management](https://onshape-public.github.io/docs/api-adv/relmgmt/).'
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: 'Endpoints for creating , updating, and managing releases. See [API Guide: Release Management](https://onshape-public.github.io/docs/api-adv/relmgmt/).'
   name: Onshape ReleasePackage API
   slug: onshape-releasepackage-api
-- description: 'Get revision information. See [API Guide: Release Management](https://onshape-public.github.io/docs/api-adv/relmgmt/)'
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: 'Get revision information. See [API Guide: Release Management](https://onshape-public.github.io/docs/api-adv/relmgmt/)'
   name: Onshape Revision API
   slug: onshape-revision-api
-- description: Access sketch information.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access sketch information.
   name: Onshape Sketch API
   slug: onshape-sketch-api
-- description: Work with Onshape standard content.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Work with Onshape standard content.
   name: Onshape StandardContent API
   slug: onshape-standardcontent-api
-- description: Create, access, and modify Tasks and Action Items.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create, access, and modify Tasks and Action Items.
   name: Onshape Task API
   slug: onshape-task-api
-- description: Access team information.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access team information.
   name: Onshape Team API
   slug: onshape-team-api
-- description: Access, modify, and delete thumbnails.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access, modify, and delete thumbnails.
   name: Onshape Thumbnail API
   slug: onshape-thumbnail-api
-- description: Import and export Onshape surfaces, parts, Part Studios, Assemblies, and subassemblies to/from other file formats (STL, PARASOLID, etc).
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Import and export Onshape surfaces, parts, Part Studios, Assemblies, and subassemblies to/from other file formats (STL, PARASOLID, etc).
   name: Onshape Translation API
   slug: onshape-translation-api
-- description: Access user information.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access user information.
   name: Onshape User API
   slug: onshape-user-api
-- description: Create, modify, and access variables.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create, modify, and access variables.
   name: Onshape Variables API
   slug: onshape-variables-api
-- description: Get all versions of the Onshape REST APIs.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Get all versions of the Onshape REST APIs.
   name: Onshape Version API
   slug: onshape-version-api
-- description: Create and manage [webhooks](https://onshape-public.github.io/docs/app-dev/webhook/).
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Create and manage [webhooks](https://onshape-public.github.io/docs/app-dev/webhook/).
   name: Onshape Webhook API
   slug: onshape-webhook-api
-- description: Access and modify workflows.
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access and modify workflows.
   name: Onshape Workflow API
   slug: onshape-workflow-api
 artifact_total: 94
@@ -482,7 +566,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -492,7 +576,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,7 +588,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/screenshots/onshape-2026-08-07T190412.png
 security:

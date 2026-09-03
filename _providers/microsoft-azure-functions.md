@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 353
   human_in_the_loop: 32
@@ -47,70 +47,114 @@ apis:
 - description: The Azure Functions host runtime provides HTTP endpoints for function invocation, admin operations, host status, function management, and key management. Includes endpoints for listing functions, gett
   name: Azure Functions Runtime API
   slug: azure-functions-runtime-api
-- description: The AppServiceEnvironments API from Microsoft Azure Functions — 36 operation(s) for appserviceenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AppServiceEnvironments API from Microsoft Azure Functions — 36 operation(s) for appserviceenvironments.
   name: Microsoft Azure Functions AppServiceEnvironments API
   slug: microsoft-azure-functions-appserviceenvironments-api
-- description: The AppServicePlans API from Microsoft Azure Functions — 22 operation(s) for appserviceplans.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AppServicePlans API from Microsoft Azure Functions — 22 operation(s) for appserviceplans.
   name: Microsoft Azure Functions AppServicePlans API
   slug: microsoft-azure-functions-appserviceplans-api
-- description: The Certificates API from Microsoft Azure Functions — 3 operation(s) for certificates.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Certificates API from Microsoft Azure Functions — 3 operation(s) for certificates.
   name: Microsoft Azure Functions Certificates API
   slug: microsoft-azure-functions-certificates-api
-- description: The DeletedWebApps API from Microsoft Azure Functions — 3 operation(s) for deletedwebapps.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DeletedWebApps API from Microsoft Azure Functions — 3 operation(s) for deletedwebapps.
   name: Microsoft Azure Functions DeletedWebApps API
   slug: microsoft-azure-functions-deletedwebapps-api
-- description: The Diagnostics API from Microsoft Azure Functions — 22 operation(s) for diagnostics.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Diagnostics API from Microsoft Azure Functions — 22 operation(s) for diagnostics.
   name: Microsoft Azure Functions Diagnostics API
   slug: microsoft-azure-functions-diagnostics-api
-- description: The Global API from Microsoft Azure Functions — 3 operation(s) for global.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Global API from Microsoft Azure Functions — 3 operation(s) for global.
   name: Microsoft Azure Functions Global API
   slug: microsoft-azure-functions-global-api
-- description: The KubeEnvironments API from Microsoft Azure Functions — 3 operation(s) for kubeenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The KubeEnvironments API from Microsoft Azure Functions — 3 operation(s) for kubeenvironments.
   name: Microsoft Azure Functions KubeEnvironments API
   slug: microsoft-azure-functions-kubeenvironments-api
-- description: The Operations API from Microsoft Azure Functions — 1 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Operations API from Microsoft Azure Functions — 1 operation(s) for operations.
   name: Microsoft Azure Functions Operations API
   slug: microsoft-azure-functions-operations-api
-- description: The Provider API from Microsoft Azure Functions — 7 operation(s) for provider.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Provider API from Microsoft Azure Functions — 7 operation(s) for provider.
   name: Microsoft Azure Functions Provider API
   slug: microsoft-azure-functions-provider-api
-- description: The Providers API from Microsoft Azure Functions — 3 operation(s) for providers.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Providers API from Microsoft Azure Functions — 3 operation(s) for providers.
   name: Microsoft Azure Functions Providers API
   slug: microsoft-azure-functions-providers-api
-- description: The Recommendations API from Microsoft Azure Functions — 15 operation(s) for recommendations.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Recommendations API from Microsoft Azure Functions — 15 operation(s) for recommendations.
   name: Microsoft Azure Functions Recommendations API
   slug: microsoft-azure-functions-recommendations-api
-- description: The ResourceHealthMetadata API from Microsoft Azure Functions — 6 operation(s) for resourcehealthmetadata.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ResourceHealthMetadata API from Microsoft Azure Functions — 6 operation(s) for resourcehealthmetadata.
   name: Microsoft Azure Functions ResourceHealthMetadata API
   slug: microsoft-azure-functions-resourcehealthmetadata-api
-- description: The SiteCertificates API from Microsoft Azure Functions — 4 operation(s) for sitecertificates.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SiteCertificates API from Microsoft Azure Functions — 4 operation(s) for sitecertificates.
   name: Microsoft Azure Functions SiteCertificates API
   slug: microsoft-azure-functions-sitecertificates-api
-- description: The StaticSites API from Microsoft Azure Functions — 51 operation(s) for staticsites.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The StaticSites API from Microsoft Azure Functions — 51 operation(s) for staticsites.
   name: Microsoft Azure Functions StaticSites API
   slug: microsoft-azure-functions-staticsites-api
-- description: The Subscriptions API from Microsoft Azure Functions — 15 operation(s) for subscriptions.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Subscriptions API from Microsoft Azure Functions — 15 operation(s) for subscriptions.
   name: Microsoft Azure Functions Subscriptions API
   slug: microsoft-azure-functions-subscriptions-api
-- description: The WebApps API from Microsoft Azure Functions — 300 operation(s) for webapps.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WebApps API from Microsoft Azure Functions — 300 operation(s) for webapps.
   name: Microsoft Azure Functions WebApps API
   slug: microsoft-azure-functions-webapps-api
-- description: The WorkflowRunActions API from Microsoft Azure Functions — 10 operation(s) for workflowrunactions.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkflowRunActions API from Microsoft Azure Functions — 10 operation(s) for workflowrunactions.
   name: Microsoft Azure Functions WorkflowRunActions API
   slug: microsoft-azure-functions-workflowrunactions-api
-- description: The WorkflowRuns API from Microsoft Azure Functions — 3 operation(s) for workflowruns.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkflowRuns API from Microsoft Azure Functions — 3 operation(s) for workflowruns.
   name: Microsoft Azure Functions WorkflowRuns API
   slug: microsoft-azure-functions-workflowruns-api
-- description: The Workflows API from Microsoft Azure Functions — 2 operation(s) for workflows.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Workflows API from Microsoft Azure Functions — 2 operation(s) for workflows.
   name: Microsoft Azure Functions Workflows API
   slug: microsoft-azure-functions-workflows-api
-- description: The WorkflowTriggerHistories API from Microsoft Azure Functions — 3 operation(s) for workflowtriggerhistories.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkflowTriggerHistories API from Microsoft Azure Functions — 3 operation(s) for workflowtriggerhistories.
   name: Microsoft Azure Functions WorkflowTriggerHistories API
   slug: microsoft-azure-functions-workflowtriggerhistories-api
-- description: The WorkflowTriggers API from Microsoft Azure Functions — 5 operation(s) for workflowtriggers.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkflowTriggers API from Microsoft Azure Functions — 5 operation(s) for workflowtriggers.
   name: Microsoft Azure Functions WorkflowTriggers API
   slug: microsoft-azure-functions-workflowtriggers-api
-- description: The WorkflowVersions API from Microsoft Azure Functions — 2 operation(s) for workflowversions.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkflowVersions API from Microsoft Azure Functions — 2 operation(s) for workflowversions.
   name: Microsoft Azure Functions WorkflowVersions API
   slug: microsoft-azure-functions-workflowversions-api
 arazzos:
@@ -813,7 +857,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/screenshots/microsoft-azure-functions-2026-06-20T185418.png
 security:

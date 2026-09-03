@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Auto Drive API API from Autonomys — 25 operation(s) for auto drive api.
+- baseURL: https://mainnet.auto-drive.autonomys.xyz
+  baseurl_source: declared
+  description: The Auto Drive API API from Autonomys — 25 operation(s) for auto drive api.
   name: Autonomys Auto Drive API API
   slug: autonomys-auto-drive-api-api
-- description: The Auto Drive Download Gateway API from Autonomys — 6 operation(s) for auto drive download gateway.
+- baseURL: https://mainnet.auto-drive.autonomys.xyz
+  baseurl_source: declared
+  description: The Auto Drive Download Gateway API from Autonomys — 6 operation(s) for auto drive download gateway.
   name: Autonomys Auto Drive Download Gateway API
   slug: autonomys-auto-drive-download-gateway-api
 artifact_total: 8
@@ -204,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomys/refs/heads/main/screenshots/autonomys-2026-07-25T201843.png
 security:

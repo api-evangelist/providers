@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 56 operations · 33 acting
 api_count: 1
 apis:
-- description: All data you can get about your agents.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All data you can get about your agents.
   name: CloudTalk Agents API
   slug: cloudtalk-agents-api
-- description: Bulk actions.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: Bulk actions.
   name: CloudTalk Bulks API
   slug: cloudtalk-bulks-api
-- description: All data you can get about your calls.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All data you can get about your calls.
   name: CloudTalk Calls API
   slug: cloudtalk-calls-api
-- description: All data you can get about your campaigns.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All data you can get about your campaigns.
   name: CloudTalk Campaigns API
   slug: cloudtalk-campaigns-api
-- description: All data you can get about your contacts.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All data you can get about your contacts.
   name: CloudTalk Contacts API
   slug: cloudtalk-contacts-api
-- description: Conversation Intelligence data about your calls.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: Conversation Intelligence data about your calls.
   name: CloudTalk Conversation Intelligence API
   slug: cloudtalk-conversation-intelligence-api
-- description: CueCards API ver. 1.0.2
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: CueCards API ver. 1.0.2
   name: CloudTalk CueCard API
   slug: cloudtalk-cuecard-api
-- description: The Groups API from CloudTalk — 3 operation(s) for groups.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: The Groups API from CloudTalk — 3 operation(s) for groups.
   name: CloudTalk Groups API
   slug: cloudtalk-groups-api
-- description: All data you can get about your numbers.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All data you can get about your numbers.
   name: CloudTalk Numbers API
   slug: cloudtalk-numbers-api
-- description: All other helper endpoints.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All other helper endpoints.
   name: CloudTalk Other API
   slug: cloudtalk-other-api
-- description: Sms handling.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: Sms handling.
   name: CloudTalk Sms API
   slug: cloudtalk-sms-api
-- description: All data you can get about your tags.
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: All data you can get about your tags.
   name: CloudTalk Tags API
   slug: cloudtalk-tags-api
-- description: VoiceAgent API ver. 1.0.0
+- baseURL: https://my.cloudtalk.io/api
+  baseurl_source: declared
+  description: VoiceAgent API ver. 1.0.0
   name: CloudTalk VoiceAgent API
   slug: cloudtalk-voiceagent-api
 artifact_total: 36
@@ -315,7 +341,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -325,7 +351,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 57.0
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,7 +369,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/screenshots/cloudtalk-2026-07-25T205712.png
 security:

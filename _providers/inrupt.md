@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The ESS Pod Storage Service implements the Solid Protocol over HTTP — LDP-style container and resource CRUD in RDF (Turtle, JSON-LD) and binary form, with Access Control Policy (ACP) resources, canoni
@@ -42,13 +56,19 @@ apis:
 - description: 'The Platform Management service hosts the ESS Admin API used to provision users before they first log in — creating a provisioning account, attaching a WebID and a storage container, setting identity '
   name: Inrupt ESS Platform Management API
   slug: platform-management
-- description: WebSocket Discovery
+- baseURL: https://notification.inrupt.com
+  baseurl_source: declared
+  description: WebSocket Discovery
   name: Inrupt Discovery API
   slug: inrupt-discovery-api
-- description: Public JSON Web Keys
+- baseURL: https://notification.inrupt.com
+  baseurl_source: declared
+  description: Public JSON Web Keys
   name: Inrupt Jsonkeys API
   slug: inrupt-jsonkeys-api
-- description: Subscription Management
+- baseURL: https://notification.inrupt.com
+  baseurl_source: declared
+  description: Subscription Management
   name: Inrupt Subscription API
   slug: inrupt-subscription-api
 artifact_total: 17
@@ -247,11 +267,11 @@ score:
   band: strong
   composite: 66.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -261,7 +281,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 66.5
+  previous_composite: 66.3
   provenance:
     conformance: first-party
     contracts:
@@ -278,8 +298,9 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/screenshots/inrupt-2026-09-02T145900.png
 security:
 - kind: authentication
   name: Inrupt Authentication

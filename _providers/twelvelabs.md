@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 1
 apis:
-- description: Generate text from video with Pegasus (analyze, gist, summarize).
+- baseURL: https://api.twelvelabs.io/v1.3
+  baseurl_source: declared
+  description: Generate text from video with Pegasus (analyze, gist, summarize).
   name: TwelveLabs Analyze API
   slug: twelvelabs-analyze-api
-- description: Create multimodal Marengo embeddings.
+- baseURL: https://api.twelvelabs.io/v1.3
+  baseurl_source: declared
+  description: Create multimodal Marengo embeddings.
   name: TwelveLabs Embed API
   slug: twelvelabs-embed-api
-- description: Create and manage video indexes.
+- baseURL: https://api.twelvelabs.io/v1.3
+  baseurl_source: declared
+  description: Create and manage video indexes.
   name: TwelveLabs Indexes API
   slug: twelvelabs-indexes-api
-- description: Any-to-video semantic search powered by Marengo.
+- baseURL: https://api.twelvelabs.io/v1.3
+  baseurl_source: declared
+  description: Any-to-video semantic search powered by Marengo.
   name: TwelveLabs Search API
   slug: twelvelabs-search-api
-- description: Upload and index video via asynchronous indexing tasks.
+- baseURL: https://api.twelvelabs.io/v1.3
+  baseurl_source: declared
+  description: Upload and index video via asynchronous indexing tasks.
   name: TwelveLabs Tasks API
   slug: twelvelabs-tasks-api
-- description: Manage videos within an index.
+- baseURL: https://api.twelvelabs.io/v1.3
+  baseurl_source: declared
+  description: Manage videos within an index.
   name: TwelveLabs Videos API
   slug: twelvelabs-videos-api
 artifact_total: 22
@@ -181,7 +193,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -191,7 +203,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -200,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/screenshots/twelvelabs-2026-06-20T195846.png
 security:

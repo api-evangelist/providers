@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Submit contact form data to Bot Butcher and receive a JSON classification result indicating whether the message is spam or legitimate. The AI model classifies each message within the context of your s
+- baseURL: https://api.botbutcher.com
+  baseurl_source: spec
+  description: Submit contact form data to Bot Butcher and receive a JSON classification result indicating whether the message is spam or legitimate. The AI model classifies each message within the context of your s
   name: Bot Butcher Classification API
   slug: bot-butcher-classification-api
-- description: Submit and retrieve classified messages.
+- baseURL: https://api.botbutcher.com
+  baseurl_source: spec
+  description: Submit and retrieve classified messages.
   name: Bot Butcher Classification API
   slug: bot-butcher-classification-api
 artifact_total: 11
@@ -134,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/screenshots/bot-butcher-2026-06-20T173615.png
 security:

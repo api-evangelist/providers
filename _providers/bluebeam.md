@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: 'The Bluebeam Studio Prime Integration API leverages the Bluebeam Public API to enable third-party application integrations with Studio Prime. APIs support programmatic access to project drawing sets, '
   name: Bluebeam Studio Prime Integration API
   slug: bluebeam-studio-prime-api
-- description: Document management within sessions
+- baseURL: https://api.bluebeam.com
+  baseurl_source: declared
+  description: Document management within sessions
   name: bluebeam Documents API
   slug: bluebeam-documents-api
-- description: Markup and annotation access
+- baseURL: https://api.bluebeam.com
+  baseurl_source: declared
+  description: Markup and annotation access
   name: bluebeam Markups API
   slug: bluebeam-markups-api
-- description: Studio Session management
+- baseURL: https://api.bluebeam.com
+  baseurl_source: declared
+  description: Studio Session management
   name: bluebeam Sessions API
   slug: bluebeam-sessions-api
-- description: Session user management
+- baseURL: https://api.bluebeam.com
+  baseurl_source: declared
+  description: Session user management
   name: bluebeam Users API
   slug: bluebeam-users-api
 artifact_total: 21
@@ -169,16 +177,16 @@ jsonld:
   slug: bluebeam-context
 layout: provider
 modified: '2026-05-19'
-name: bluebeam
+name: Bluebeam
 nav: Providers
 network: true
-overview: 'bluebeam publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Markups API, Sessions API, and 1 more.
+overview: 'Bluebeam publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Markups API, Sessions API, and 1 more.
 
 
-  The bluebeam catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Bluebeam catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  bluebeam''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 12 more developer resources.'
+  Bluebeam''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Bluebeam Plans Pricing
   plan_count: 3
@@ -191,7 +199,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: bluebeam API Rules
+  name: Bluebeam API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -232,10 +240,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/screenshots/bluebeam-2026-06-20T173533.png
 security:

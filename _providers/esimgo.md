@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 6 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Browse data bundles available to your organisation.
+- baseURL: https://api.esim-go.com/v2.4
+  baseurl_source: declared
+  description: Browse data bundles available to your organisation.
   name: eSIM Go Catalogue API
   slug: esimgo-catalogue-api
-- description: Manage eSIMs, bundle assignments, and install details.
+- baseURL: https://api.esim-go.com/v2.4
+  baseurl_source: declared
+  description: Manage eSIMs, bundle assignments, and install details.
   name: eSIM Go eSIMs API
   slug: esimgo-esims-api
-- description: View and refund unassigned bundle inventory.
+- baseURL: https://api.esim-go.com/v2.4
+  baseurl_source: declared
+  description: View and refund unassigned bundle inventory.
   name: eSIM Go Inventory API
   slug: esimgo-inventory-api
-- description: Per-country network coverage data.
+- baseURL: https://api.esim-go.com/v2.4
+  baseurl_source: declared
+  description: Per-country network coverage data.
   name: eSIM Go Networks API
   slug: esimgo-networks-api
-- description: Validate, place, and retrieve bundle orders.
+- baseURL: https://api.esim-go.com/v2.4
+  baseurl_source: declared
+  description: Validate, place, and retrieve bundle orders.
   name: eSIM Go Orders API
   slug: esimgo-orders-api
-- description: Organisation account details and balance.
+- baseURL: https://api.esim-go.com/v2.4
+  baseurl_source: declared
+  description: Organisation account details and balance.
   name: eSIM Go Organisation API
   slug: esimgo-organisation-api
 artifact_total: 20
@@ -187,7 +199,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/screenshots/esimgo-2026-07-25T213621.png
 security:

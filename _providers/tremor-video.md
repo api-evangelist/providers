@@ -35,22 +35,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) Campaign Management service — advertisers, insertion orders, packages, line items, ads, creatives, audience segments, retargeting segme
+- baseURL: https://services.amobee.com/campaign/v5/api
+  baseurl_source: declared
+  description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) Campaign Management service — advertisers, insertion orders, packages, line items, ads, creatives, audience segments, retargeting segme
   name: Nexxen DSP API
   slug: nexxen-dsp-api
-- description: OAuth2 client-credentials token service for the Nexxen DSP APIs. A client POSTs its client_id and client_secret with grant_type=client_credentials as a JSON body and receives an access_token used as a
+- baseURL: https://services.amobee.com/accounts/v1/api
+  baseurl_source: declared
+  description: OAuth2 client-credentials token service for the Nexxen DSP APIs. A client POSTs its client_id and client_secret with grant_type=client_credentials as a JSON body and receives an access_token used as a
   name: Nexxen DSP Token Service
   slug: nexxen-dsp-token-service
-- description: 'Asynchronous reporting service for the Nexxen DSP. A report is submitted as a query (aggregationType, startTime/endTime, filters by objectType, optional S3 outputPath), answered with 202 Accepted and '
+- baseURL: https://services.amobee.com/reporting/v2/api
+  baseurl_source: declared
+  description: 'Asynchronous reporting service for the Nexxen DSP. A report is submitted as a query (aggregationType, startTime/endTime, filters by objectType, optional S3 outputPath), answered with 202 Accepted and '
   name: Nexxen DSP Reporting API
   slug: nexxen-dsp-reporting-api
-- description: 'Read-only reference service for the device taxonomy used in Nexxen DSP line-item targeting — device types, operating systems, manufacturers and individual devices, each listable and retrievable by id '
+- baseURL: https://services.amobee.com/device/v1/api
+  baseurl_source: declared
+  description: 'Read-only reference service for the device taxonomy used in Nexxen DSP line-item targeting — device types, operating systems, manufacturers and individual devices, each listable and retrievable by id '
   name: Nexxen DSP Device API
   slug: nexxen-dsp-device-api
-- description: Read-only geographic reference service for Nexxen DSP geo targeting — continents, countries, regions, cities, DMAs, named places and street addresses, each listable and retrievable by id, with regions
+- baseURL: https://services.amobee.com/location/v1/api
+  baseurl_source: declared
+  description: Read-only geographic reference service for Nexxen DSP geo targeting — continents, countries, regions, cities, DMAs, named places and street addresses, each listable and retrievable by id, with regions
   name: Nexxen DSP Location API
   slug: nexxen-dsp-location-api
 artifact_total: 11
@@ -201,7 +211,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -221,8 +231,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tremor-video/refs/heads/main/screenshots/tremor-video-2026-09-02T164210.png
 security:
 - kind: authentication
   name: Tremor Video Authentication

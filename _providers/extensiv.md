@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 1
 apis:
-- description: OAuth2-style token endpoint (endpointsConfirmed).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: OAuth2-style token endpoint (endpointsConfirmed).
   name: Extensiv Authentication API
   slug: extensiv-authentication-api
-- description: Customer/tenant accounts (endpointsModeled).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Customer/tenant accounts (endpointsModeled).
   name: Extensiv Customers API
   slug: extensiv-customers-api
-- description: On-hand inventory and stock summaries (endpointsModeled).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: On-hand inventory and stock summaries (endpointsModeled).
   name: Extensiv Inventory API
   slug: extensiv-inventory-api
-- description: Customer SKU/item master (endpointsModeled).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Customer SKU/item master (endpointsModeled).
   name: Extensiv Items API
   slug: extensiv-items-api
-- description: Sales/fulfillment orders (endpointsModeled).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Sales/fulfillment orders (endpointsModeled).
   name: Extensiv Orders API
   slug: extensiv-orders-api
-- description: Inbound receivers / ASNs (endpointsModeled).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Inbound receivers / ASNs (endpointsModeled).
   name: Extensiv Receivers API
   slug: extensiv-receivers-api
-- description: Physical facilities (endpointsModeled).
+- baseURL: https://secure-wms.com
+  baseurl_source: declared
+  description: Physical facilities (endpointsModeled).
   name: Extensiv Warehouses API
   slug: extensiv-warehouses-api
 artifact_total: 23
@@ -195,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/screenshots/extensiv-2026-07-25T213952.png
 security:

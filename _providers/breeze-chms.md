@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 47 operations
 api_count: 1
 apis:
-- description: Account summary and activity log.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Account summary and activity log.
   name: Breeze ChMS Account API
   slug: breeze-chms-account-api
-- description: Check-in / check-out attendance and eligibility.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Check-in / check-out attendance and eligibility.
   name: Breeze ChMS Attendance API
   slug: breeze-chms-attendance-api
-- description: Events, calendars, and locations.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Events, calendars, and locations.
   name: Breeze ChMS Events API
   slug: breeze-chms-events-api
-- description: Forms, form fields, and form entries.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Forms, form fields, and form entries.
   name: Breeze ChMS Forms API
   slug: breeze-chms-forms-api
-- description: Contribution funds.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Contribution funds.
   name: Breeze ChMS Funds API
   slug: breeze-chms-funds-api
-- description: Contributions (giving records).
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Contributions (giving records).
   name: Breeze ChMS Giving API
   slug: breeze-chms-giving-api
-- description: Members, contacts, custom profile fields, and families.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Members, contacts, custom profile fields, and families.
   name: Breeze ChMS People API
   slug: breeze-chms-people-api
-- description: Pledge campaigns and pledges.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Pledge campaigns and pledges.
   name: Breeze ChMS Pledges API
   slug: breeze-chms-pledges-api
-- description: Tags, tag folders, and tag assignment.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Tags, tag folders, and tag assignment.
   name: Breeze ChMS Tags API
   slug: breeze-chms-tags-api
-- description: Volunteers and volunteer roles for events.
+- baseURL: https://{subdomain}.breezechms.com/api
+  baseurl_source: declared
+  description: Volunteers and volunteer roles for events.
   name: Breeze ChMS Volunteers API
   slug: breeze-chms-volunteers-api
 artifact_total: 28
@@ -205,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze-chms/refs/heads/main/screenshots/breeze-chms-2026-07-25T203746.png
 security:

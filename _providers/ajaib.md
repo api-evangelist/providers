@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,13 +45,19 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Retrieve general exchange information.
+- baseURL: https://api.ajaib.co.id
+  baseurl_source: declared
+  description: Retrieve general exchange information.
   name: Ajaib Market Info API
   slug: ajaib-market-info-api
-- description: View, place and cancel spot orders and trades.
+- baseURL: https://api.ajaib.co.id
+  baseurl_source: declared
+  description: View, place and cancel spot orders and trades.
   name: Ajaib Spot Trading API
   slug: ajaib-spot-trading-api
-- description: Check funds and assets held by the exchange client.
+- baseURL: https://api.ajaib.co.id
+  baseurl_source: declared
+  description: Check funds and assets held by the exchange client.
   name: Ajaib Wallet API
   slug: ajaib-wallet-api
 artifact_total: 12
@@ -222,7 +240,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ajaib/refs/heads/main/screenshots/ajaib-2026-08-07T161125.png
 security:

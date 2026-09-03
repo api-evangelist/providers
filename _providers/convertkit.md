@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -45,46 +45,74 @@ agentic_access:
   summary_line: 72 operations · 39 acting
 api_count: 1
 apis:
-- description: The Accounts API from Kit — 5 operation(s) for accounts.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Accounts API from Kit — 5 operation(s) for accounts.
   name: Kit Accounts API
   slug: convertkit-accounts-api
-- description: The Broadcasts API from Kit — 5 operation(s) for broadcasts.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Broadcasts API from Kit — 5 operation(s) for broadcasts.
   name: Kit Broadcasts API
   slug: convertkit-broadcasts-api
-- description: The Custom Fields API from Kit — 4 operation(s) for custom fields.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Custom Fields API from Kit — 4 operation(s) for custom fields.
   name: Kit Custom Fields API
   slug: convertkit-custom-fields-api
-- description: The Email Templates API from Kit — 1 operation(s) for email templates.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Email Templates API from Kit — 1 operation(s) for email templates.
   name: Kit Email Templates API
   slug: convertkit-email-templates-api
-- description: The Forms API from Kit — 4 operation(s) for forms.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Forms API from Kit — 4 operation(s) for forms.
   name: Kit Forms API
   slug: convertkit-forms-api
-- description: The Posts API from Kit — 2 operation(s) for posts.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Posts API from Kit — 2 operation(s) for posts.
   name: Kit Posts API
   slug: convertkit-posts-api
-- description: The Purchases API from Kit — 2 operation(s) for purchases.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Purchases API from Kit — 2 operation(s) for purchases.
   name: Kit Purchases API
   slug: convertkit-purchases-api
-- description: The Segments API from Kit — 1 operation(s) for segments.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Segments API from Kit — 1 operation(s) for segments.
   name: Kit Segments API
   slug: convertkit-segments-api
-- description: The Sequence Emails API from Kit — 2 operation(s) for sequence emails.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Sequence Emails API from Kit — 2 operation(s) for sequence emails.
   name: Kit Sequence Emails API
   slug: convertkit-sequence-emails-api
-- description: The Sequences API from Kit — 4 operation(s) for sequences.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Sequences API from Kit — 4 operation(s) for sequences.
   name: Kit Sequences API
   slug: convertkit-sequences-api
-- description: The Snippets API from Kit — 2 operation(s) for snippets.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Snippets API from Kit — 2 operation(s) for snippets.
   name: Kit Snippets API
   slug: convertkit-snippets-api
-- description: The Subscribers API from Kit — 7 operation(s) for subscribers.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Subscribers API from Kit — 7 operation(s) for subscribers.
   name: Kit Subscribers API
   slug: convertkit-subscribers-api
-- description: The Tags API from Kit — 6 operation(s) for tags.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Tags API from Kit — 6 operation(s) for tags.
   name: Kit Tags API
   slug: convertkit-tags-api
-- description: The Webhooks API from Kit — 2 operation(s) for webhooks.
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: The Webhooks API from Kit — 2 operation(s) for webhooks.
   name: Kit Webhooks API
   slug: convertkit-webhooks-api
 artifact_total: 214
@@ -1201,7 +1229,7 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1211,7 +1239,7 @@ score:
     discoverability: 75.9
     governance: 43.2
     operational_transparency: 92.1
-  previous_composite: 82.5
+  previous_composite: 82.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1229,7 +1257,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:

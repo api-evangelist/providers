@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,16 +64,24 @@ apis:
 - description: Clay's hosted remote Model Context Protocol server, letting an MCP client search companies and people, run enrichment routines and query Clay tables from natural language. Streamable HTTP at https://a
   name: Clay MCP Server
   slug: mcp
-- description: Authenticated user and workspace endpoints.
+- baseURL: https://app.clay.com
+  baseurl_source: declared
+  description: Authenticated user and workspace endpoints.
   name: Clay Me API
   slug: clay-com-me-api
-- description: Routine discovery and execution endpoints.
+- baseURL: https://app.clay.com
+  baseurl_source: declared
+  description: Routine discovery and execution endpoints.
   name: Clay Routines API
   slug: clay-com-routines-api
-- description: Search creation and pagination endpoints.
+- baseURL: https://app.clay.com
+  baseurl_source: declared
+  description: Search creation and pagination endpoints.
   name: Clay Search API
   slug: clay-com-search-api
-- description: Structured table query endpoints.
+- baseURL: https://app.clay.com
+  baseurl_source: declared
+  description: Structured table query endpoints.
   name: Clay Tables API
   slug: clay-com-tables-api
 artifact_total: 23
@@ -315,7 +323,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -325,7 +333,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 63.7
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,7 +345,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:

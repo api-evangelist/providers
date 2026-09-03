@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 53 operations · 11 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: The Flex search API from DomainTools — 2 operation(s) for flex search.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The Flex search API from DomainTools — 2 operation(s) for flex search.
   name: DomainTools Flex search API
   slug: domaintools-flex-search-api
-- description: Access the latest information about your account, including service limits.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: Access the latest information about your account, including service limits.
   name: DomainTools Information API
   slug: domaintools-information-api
-- description: 'Iris Detect is an Internet infrastructure detection, monitoring, and enforcement tool. It rapidly discovers malicious domains that are engaged in brand impersonation, risk-scores them within minutes, '
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: 'Iris Detect is an Internet infrastructure detection, monitoring, and enforcement tool. It rapidly discovers malicious domains that are engaged in brand impersonation, risk-scores them within minutes, '
   name: DomainTools Iris Detect API
   slug: domaintools-iris-detect-api
-- description: Designed to support high query volumes with batch processing and fast response times, the Iris Enrich API provides actionable insights-at-scale with enterprise-scale ingestion of DomainTools data
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: Designed to support high query volumes with batch processing and fast response times, the Iris Enrich API provides actionable insights-at-scale with enterprise-scale ingestion of DomainTools data
   name: DomainTools Iris Enrich API
   slug: domaintools-iris-enrich-api
-- description: The Iris Investigate API is ideally suited for investigate and orchestrate use cases at human scale. Identify threats, map adversary infrastructure, and streamline investigations.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The Iris Investigate API is ideally suited for investigate and orchestrate use cases at human scale. Identify threats, map adversary infrastructure, and streamline investigations.
   name: DomainTools Iris Investigate API
   slug: domaintools-iris-investigate-api
-- description: Endpoints for retrieving detailed information about domains and IPs, and for finding connections between domains and infrastructure.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: Endpoints for retrieving detailed information about domains and IPs, and for finding connections between domains and infrastructure.
   name: DomainTools Lookups API
   slug: domaintools-lookups-api
-- description: Endpoints for monitoring new domain registrations, changes to IP ranges, and other key infrastructure events based on specific terms.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: Endpoints for monitoring new domain registrations, changes to IP ranges, and other key infrastructure events based on specific terms.
   name: DomainTools Monitors API
   slug: domaintools-monitors-api
-- description: The Ping API from DomainTools — 1 operation(s) for ping.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The Ping API from DomainTools — 1 operation(s) for ping.
   name: DomainTools Ping API
   slug: domaintools-ping-api
-- description: The Rate Limit API from DomainTools — 1 operation(s) for rate limit.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The Rate Limit API from DomainTools — 1 operation(s) for rate limit.
   name: DomainTools Rate Limit API
   slug: domaintools-rate-limit-api
-- description: The rdata Lookups API from DomainTools — 4 operation(s) for rdata lookups.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The rdata Lookups API from DomainTools — 4 operation(s) for rdata lookups.
   name: DomainTools rdata Lookups API
   slug: domaintools-rdata-lookups-api
-- description: The rrset Lookups API from DomainTools — 6 operation(s) for rrset lookups.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The rrset Lookups API from DomainTools — 6 operation(s) for rrset lookups.
   name: DomainTools rrset Lookups API
   slug: domaintools-rrset-lookups-api
-- description: The Siebatchd API from DomainTools — 4 operation(s) for siebatchd.
+- baseURL: https://api.domaintools.com
+  baseurl_source: declared
+  description: The Siebatchd API from DomainTools — 4 operation(s) for siebatchd.
   name: DomainTools Siebatchd API
   slug: domaintools-siebatchd-api
 artifact_total: 29
@@ -289,7 +313,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/screenshots/domaintools-2026-07-25T212242.png
 security:

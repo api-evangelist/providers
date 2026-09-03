@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,10 +54,14 @@ apis:
 - description: The Build Event Protocol (BEP) is Bazel's structured stream of build events — target configured, progress, test results, action executed, build finished — emitted during every invocation. BEP can be w
   name: Bazel Build Event Protocol
   slug: bazel-build-event-protocol
-- description: Per-module metadata and version manifests
+- baseURL: https://bcr.bazel.build
+  baseurl_source: declared
+  description: Per-module metadata and version manifests
   name: Bazel Modules API
   slug: bazel-build-modules-api
-- description: Registry-wide metadata
+- baseURL: https://bcr.bazel.build
+  baseurl_source: declared
+  description: Registry-wide metadata
   name: Bazel Registry API
   slug: bazel-build-registry-api
 artifact_total: 32
@@ -394,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:

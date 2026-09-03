@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 74 operations · 60 acting
 api_count: 4
 apis:
-- description: The cancelServiceOrder API from Bell Canada — 2 operation(s) for cancelserviceorder.
+- baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
+  baseurl_source: spec
+  description: The cancelServiceOrder API from Bell Canada — 2 operation(s) for cancelserviceorder.
   name: Bell Canada Cancel Service Order API
   slug: bell-canada-cancelserviceorder-api
-- description: The changeRequest API from Bell Canada — 2 operation(s) for changerequest.
+- baseURL: https://serverRoot/tmf-api/ChangeManagement/v4/
+  baseurl_source: spec
+  description: The changeRequest API from Bell Canada — 2 operation(s) for changerequest.
   name: Bell Canada Change Request API
   slug: bell-canada-changerequest-api
-- description: The events subscription API from Bell Canada — 2 operation(s) for events subscription.
+- baseURL: https://serverRoot/tmf-api/ChangeManagement/v4/
+  baseurl_source: spec
+  description: The events subscription API from Bell Canada — 2 operation(s) for events subscription.
   name: Bell Canada events subscription API
   slug: bell-canada-events-subscription-api
-- description: The logicalResource API from Bell Canada — 2 operation(s) for logicalresource.
+- baseURL: https://serverRoot/resourceInventoryManagement/v4/
+  baseurl_source: spec
+  description: The logicalResource API from Bell Canada — 2 operation(s) for logicalresource.
   name: Bell Canada Logical Resource API
   slug: bell-canada-logicalresource-api
-- description: The notification listeners (client side) API from Bell Canada — 31 operation(s) for notification listeners (client side).
+- baseURL: https://serverRoot/tmf-api/ChangeManagement/v4/
+  baseurl_source: spec
+  description: The notification listeners (client side) API from Bell Canada — 31 operation(s) for notification listeners (client side).
   name: Bell Canada notification listeners (client side) API
   slug: bell-canada-notification-listeners-client-side-api
-- description: The physicalResource API from Bell Canada — 2 operation(s) for physicalresource.
+- baseURL: https://serverRoot/resourceInventoryManagement/v4/
+  baseurl_source: spec
+  description: The physicalResource API from Bell Canada — 2 operation(s) for physicalresource.
   name: Bell Canada Physical Resource API
   slug: bell-canada-physicalresource-api
-- description: The Resource API from Bell Canada — 3 operation(s) for resource.
+- baseURL: https://serverRoot/resourceInventoryManagement/v4/
+  baseurl_source: spec
+  description: The Resource API from Bell Canada — 3 operation(s) for resource.
   name: Bell Canada Resource API
   slug: bell-canada-resource-api
-- description: The serviceOrder API from Bell Canada — 2 operation(s) for serviceorder.
+- baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
+  baseurl_source: spec
+  description: The serviceOrder API from Bell Canada — 2 operation(s) for serviceorder.
   name: Bell Canada Service Order API
   slug: bell-canada-serviceorder-api
-- description: The troubleTicket API from Bell Canada — 2 operation(s) for troubleticket.
+- baseURL: https://serverRoot/tmf-api/troubleTicket/v4/
+  baseurl_source: spec
+  description: The troubleTicket API from Bell Canada — 2 operation(s) for troubleticket.
   name: Bell Canada Trouble Ticket API
   slug: bell-canada-troubleticket-api
 artifact_total: 18
@@ -264,7 +294,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -274,7 +304,7 @@ score:
     discoverability: 64.8
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 46.3
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,7 +322,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/screenshots/bell-canada-2026-08-07T162303.png
 security:

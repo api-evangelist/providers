@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 27 operations · 14 acting
 api_count: 1
 apis:
-- description: Manage API application settings and branding.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Manage API application settings and branding.
   name: SignWell API Application API
   slug: signwell-api-application-api
-- description: Send a document to multiple recipients in batch using templates.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Send a document to multiple recipients in batch using templates.
   name: SignWell Bulk Send API
   slug: signwell-bulk-send-api
-- description: Create, send, and manage documents for electronic signing.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Create, send, and manage documents for electronic signing.
   name: SignWell Document API
   slug: signwell-document-api
-- description: Retrieve account information for the authenticated API key.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Retrieve account information for the authenticated API key.
   name: SignWell Me API
   slug: signwell-me-api
-- description: Access region-specific endpoints for data residency compliance.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Access region-specific endpoints for data residency compliance.
   name: SignWell Regional API
   slug: signwell-regional-api
-- description: Create and manage reusable document templates.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Create and manage reusable document templates.
   name: SignWell Template API
   slug: signwell-template-api
-- description: Subscribe to document lifecycle events via webhook callbacks.
+- baseURL: https://www.signwell.com/api/v1
+  baseurl_source: declared
+  description: Subscribe to document lifecycle events via webhook callbacks.
   name: SignWell Webhooks API
   slug: signwell-webhooks-api
 artifact_total: 136
@@ -570,7 +584,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signwell/refs/heads/main/screenshots/signwell-2026-06-20T193916.png
 security:

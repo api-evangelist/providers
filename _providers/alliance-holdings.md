@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: 'Alliance Holdings GP, L.P. (AHGP) was a limited partnership formed
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alliance-holdings.png
 layout: provider
 modified: '2026-04-19'
-name: alliance-holdings
+name: Alliance Holdings
 nav: Providers
 network: true
-overview: alliance-holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Coal, Mining, Natural Resources, and Financial-Services.
+overview: Alliance Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Coal, Mining, Natural Resources, and Financial-Services.
 random_paper: 4
 score:
   band: minimal
@@ -83,7 +83,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-holdings/refs/heads/main/screenshots/alliance-holdings-2026-07-25T195655.png
 security:

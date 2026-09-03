@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: Create, ingest, adapt, evaluate, and export datasets.
+- baseURL: https://api.prod.adaptionlabs.ai
+  baseurl_source: declared
+  description: Create, ingest, adapt, evaluate, and export datasets.
   name: Adaption Labs Datasets API
   slug: adaption-labs-datasets-api
-- description: Presigned file-upload lifecycle for local-file ingestion.
+- baseURL: https://api.prod.adaptionlabs.ai
+  baseurl_source: declared
+  description: Presigned file-upload lifecycle for local-file ingestion.
   name: Adaption Labs Upload API
   slug: adaption-labs-upload-api
 artifact_total: 9
@@ -212,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:

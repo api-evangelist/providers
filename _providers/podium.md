@@ -33,88 +33,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 24
 apis:
-- description: The Appointment API from Podium — 1 operation(s) for appointment.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Appointment API from Podium — 1 operation(s) for appointment.
   name: Podium Appointment API
   slug: podium-appointment-api
-- description: The Call API from Podium — 1 operation(s) for call.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Call API from Podium — 1 operation(s) for call.
   name: Podium Call API
   slug: podium-call-api
-- description: The Campaign API from Podium — 2 operation(s) for campaign.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Campaign API from Podium — 2 operation(s) for campaign.
   name: Podium Campaign API
   slug: podium-campaign-api
-- description: The Campaign Interaction API from Podium — 1 operation(s) for campaign interaction.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Campaign Interaction API from Podium — 1 operation(s) for campaign interaction.
   name: Podium Campaign Interaction API
   slug: podium-campaign-interaction-api
-- description: The Contact API from Podium — 6 operation(s) for contact.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Contact API from Podium — 6 operation(s) for contact.
   name: Podium Contact API
   slug: podium-contact-api
-- description: The Contact Attribute API from Podium — 2 operation(s) for contact attribute.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Contact Attribute API from Podium — 2 operation(s) for contact attribute.
   name: Podium Contact Attribute API
   slug: podium-contact-attribute-api
-- description: The Contact Tag API from Podium — 2 operation(s) for contact tag.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Contact Tag API from Podium — 2 operation(s) for contact tag.
   name: Podium Contact Tag API
   slug: podium-contact-tag-api
-- description: The Conversation API from Podium — 4 operation(s) for conversation.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Conversation API from Podium — 4 operation(s) for conversation.
   name: Podium Conversation API
   slug: podium-conversation-api
-- description: The Conversation Assignee API from Podium — 1 operation(s) for conversation assignee.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Conversation Assignee API from Podium — 1 operation(s) for conversation assignee.
   name: Podium Conversation Assignee API
   slug: podium-conversation-assignee-api
-- description: The Feedback API from Podium — 1 operation(s) for feedback.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Feedback API from Podium — 1 operation(s) for feedback.
   name: Podium Feedback API
   slug: podium-feedback-api
-- description: The Invoice API from Podium — 6 operation(s) for invoice.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Invoice API from Podium — 6 operation(s) for invoice.
   name: Podium Invoice API
   slug: podium-invoice-api
-- description: The Location API from Podium — 2 operation(s) for location.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Location API from Podium — 2 operation(s) for location.
   name: Podium Location API
   slug: podium-location-api
-- description: The Message API from Podium — 6 operation(s) for message.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Message API from Podium — 6 operation(s) for message.
   name: Podium Message API
   slug: podium-message-api
-- description: The Organization API from Podium — 1 operation(s) for organization.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Organization API from Podium — 1 operation(s) for organization.
   name: Podium Organization API
   slug: podium-organization-api
-- description: The Payment API from Podium — 1 operation(s) for payment.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Payment API from Podium — 1 operation(s) for payment.
   name: Podium Payment API
   slug: podium-payment-api
-- description: The Product API from Podium — 4 operation(s) for product.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Product API from Podium — 4 operation(s) for product.
   name: Podium Product API
   slug: podium-product-api
-- description: The Reader API from Podium — 1 operation(s) for reader.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Reader API from Podium — 1 operation(s) for reader.
   name: Podium Reader API
   slug: podium-reader-api
-- description: The Refund API from Podium — 2 operation(s) for refund.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Refund API from Podium — 2 operation(s) for refund.
   name: Podium Refund API
   slug: podium-refund-api
-- description: The Review API from Podium — 2 operation(s) for review.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Review API from Podium — 2 operation(s) for review.
   name: Podium Review API
   slug: podium-review-api
-- description: The Review Attribution API from Podium — 1 operation(s) for review attribution.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Review Attribution API from Podium — 1 operation(s) for review attribution.
   name: Podium Review Attribution API
   slug: podium-review-attribution-api
-- description: The Review Invite API from Podium — 2 operation(s) for review invite.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Review Invite API from Podium — 2 operation(s) for review invite.
   name: Podium Review Invite API
   slug: podium-review-invite-api
-- description: The Review Response API from Podium — 2 operation(s) for review response.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Review Response API from Podium — 2 operation(s) for review response.
   name: Podium Review Response API
   slug: podium-review-response-api
-- description: The Review Sites Summary API from Podium — 1 operation(s) for review sites summary.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Review Sites Summary API from Podium — 1 operation(s) for review sites summary.
   name: Podium Review Sites Summary API
   slug: podium-review-sites-summary-api
-- description: The Review Summary API from Podium — 1 operation(s) for review summary.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Review Summary API from Podium — 1 operation(s) for review summary.
   name: Podium Review Summary API
   slug: podium-review-summary-api
-- description: The Template API from Podium — 2 operation(s) for template.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Template API from Podium — 2 operation(s) for template.
   name: Podium Template API
   slug: podium-template-api
-- description: The User API from Podium — 2 operation(s) for user.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The User API from Podium — 2 operation(s) for user.
   name: Podium User API
   slug: podium-user-api
-- description: The Webhook API from Podium — 2 operation(s) for webhook.
+- baseURL: https://api.podium.com/v4/
+  baseurl_source: declared
+  description: The Webhook API from Podium — 2 operation(s) for webhook.
   name: Podium Webhook API
   slug: podium-webhook-api
 artifact_total: 47
@@ -403,7 +457,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -413,7 +467,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 43.4
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
@@ -430,7 +484,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:

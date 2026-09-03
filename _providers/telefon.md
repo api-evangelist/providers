@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 9 acting
 api_count: 4
 apis:
-- description: Search for available numbers to purchase
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Search for available numbers to purchase
   name: Telefon Available Numbers API
   slug: telefon-available-numbers-api
-- description: Make and manage phone calls
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Make and manage phone calls
   name: Telefon Calls API
   slug: telefon-calls-api
-- description: Multi-party conferencing
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Multi-party conferencing
   name: Telefon Conferences API
   slug: telefon-conferences-api
-- description: Send and receive SMS and MMS messages
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Send and receive SMS and MMS messages
   name: Telefon Messages API
   slug: telefon-messages-api
-- description: Manage numbers in your account
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Manage numbers in your account
   name: Telefon Owned Numbers API
   slug: telefon-owned-numbers-api
-- description: Call recording management
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Call recording management
   name: Telefon Recordings API
   slug: telefon-recordings-api
-- description: Recording transcription management
+- baseURL: https://api.telefon.com/v1/voice
+  baseurl_source: declared
+  description: Recording transcription management
   name: Telefon Transcriptions API
   slug: telefon-transcriptions-api
 artifact_total: 39
@@ -296,7 +310,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/screenshots/telefon-2026-06-20T195028.png
 security:

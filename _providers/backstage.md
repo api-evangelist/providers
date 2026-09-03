@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
   name: Backstage Events System
   slug: events-system
-- description: Endpoints for listing available scaffolder actions.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: Endpoints for listing available scaffolder actions.
   name: Backstage Actions API
   slug: backstage-actions-api
-- description: The Authentication API from Backstage — 4 operation(s) for authentication.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Authentication API from Backstage — 4 operation(s) for authentication.
   name: Backstage Authentication API
   slug: backstage-authentication-api
-- description: The Authorization API from Backstage — 2 operation(s) for authorization.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Authorization API from Backstage — 2 operation(s) for authorization.
   name: Backstage Authorization API
   slug: backstage-authorization-api
-- description: The Documentation API from Backstage — 2 operation(s) for documentation.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Documentation API from Backstage — 2 operation(s) for documentation.
   name: Backstage Documentation API
   slug: backstage-documentation-api
-- description: Endpoints for managing and querying catalog entities.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: Endpoints for managing and querying catalog entities.
   name: Backstage Entities API
   slug: backstage-entities-api
-- description: Endpoints for managing catalog locations (entity sources).
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: Endpoints for managing catalog locations (entity sources).
   name: Backstage Locations API
   slug: backstage-locations-api
-- description: The Metadata API from Backstage — 2 operation(s) for metadata.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Metadata API from Backstage — 2 operation(s) for metadata.
   name: Backstage Metadata API
   slug: backstage-metadata-api
-- description: The Search API from Backstage — 1 operation(s) for search.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Search API from Backstage — 1 operation(s) for search.
   name: Backstage Search API
   slug: backstage-search-api
-- description: The Sync API from Backstage — 1 operation(s) for sync.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Sync API from Backstage — 1 operation(s) for sync.
   name: Backstage Sync API
   slug: backstage-sync-api
-- description: Endpoints for creating and managing scaffolder tasks.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: Endpoints for creating and managing scaffolder tasks.
   name: Backstage Tasks API
   slug: backstage-tasks-api
-- description: Endpoints for template metadata and parameter schemas.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: Endpoints for template metadata and parameter schemas.
   name: Backstage Templates API
   slug: backstage-templates-api
-- description: The Token Verification API from Backstage — 1 operation(s) for token verification.
+- baseURL: https://localhost:7007/api/auth
+  baseurl_source: spec
+  description: The Token Verification API from Backstage — 1 operation(s) for token verification.
   name: Backstage Token Verification API
   slug: backstage-token-verification-api
 artifact_total: 108
@@ -464,7 +488,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -474,7 +498,7 @@ score:
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 40.0
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -483,7 +507,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Real-time streaming service for MAX Exchange. Public channels cover order book (book), trade, ticker, kline, market_status and m-wallet pool_quota; private channels stream order snapshots/updates, tra
@@ -32,25 +45,39 @@ apis:
 - description: Unauthenticated system status endpoint reporting whether the MAX API is online or in maintenance, with an ISO 8601 last_changed_at timestamp. Documented in the MAX V3 API reference; status updates may
   name: MAX System Status API
   slug: maicoin-max-status
-- description: Operations about Converts
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Operations about Converts
   name: MaiCoin Convert API
   slug: maicoin-convert-api
-- description: Requires authentication
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Requires authentication
   name: MaiCoin Order API
   slug: maicoin-order-api
-- description: Public endpoints
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Public endpoints
   name: MaiCoin Public API
   slug: maicoin-public-api
-- description: Requires authentication
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Requires authentication
   name: MaiCoin Trade API
   slug: maicoin-trade-api
-- description: Requires authentication
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Requires authentication
   name: MaiCoin Transaction API
   slug: maicoin-transaction-api
-- description: Operations about Users
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Operations about Users
   name: MaiCoin User API
   slug: maicoin-user-api
-- description: Requires authentication
+- baseURL: https://max-api.maicoin.com
+  baseurl_source: declared
+  description: Requires authentication
   name: MaiCoin Wallet API
   slug: maicoin-wallet-api
 artifact_total: 14
@@ -219,11 +246,11 @@ score:
   band: strong
   composite: 61.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -233,7 +260,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 60.4
+  previous_composite: 61.1
   provenance:
     conformance: derived
     contracts:
@@ -250,8 +277,9 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maicoin/refs/heads/main/screenshots/maicoin-2026-09-02T150513.png
 security:
 - kind: authentication
   name: Maicoin Authentication

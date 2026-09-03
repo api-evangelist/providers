@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 1
 apis:
-- description: Historical activity series, totals and time breakdowns
+- baseURL: https://app.fitbark.com/api/v2
+  baseurl_source: declared
+  description: Historical activity series, totals and time breakdowns
   name: FitBark Activity API
   slug: fitbark-activity-api
-- description: Dog profile, relationships and pictures
+- baseURL: https://app.fitbark.com/api/v2
+  baseurl_source: declared
+  description: Dog profile, relationships and pictures
   name: FitBark Dog API
   slug: fitbark-dog-api
-- description: Daily goal management
+- baseURL: https://app.fitbark.com/api/v2
+  baseurl_source: declared
+  description: Daily goal management
   name: FitBark Goals API
   slug: fitbark-goals-api
-- description: OAuth 2.0 authorization and token endpoints
+- baseURL: https://app.fitbark.com/api/v2
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints
   name: FitBark OAuth API
   slug: fitbark-oauth-api
-- description: Authenticated user profile and relationships
+- baseURL: https://app.fitbark.com/api/v2
+  baseurl_source: declared
+  description: Authenticated user profile and relationships
   name: FitBark User API
   slug: fitbark-user-api
 artifact_total: 16
@@ -209,7 +219,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/screenshots/fitbark-2026-07-25T214628.png
 security:

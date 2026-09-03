@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -44,145 +44,239 @@ agentic_access:
   summary_line: 244 operations · 188 acting · 18 human-in-the-loop
 api_count: 3
 apis:
-- description: The Application API from Stytch — 2 operation(s) for application.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Application API from Stytch — 2 operation(s) for application.
   name: Stytch Application API
   slug: stytch-application-api
-- description: The B2B IDP API from Stytch — 2 operation(s) for b2b idp.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B IDP API from Stytch — 2 operation(s) for b2b idp.
   name: Stytch B2B IDP API
   slug: stytch-b2b-idp-api
-- description: The B2B Impersonation API from Stytch — 1 operation(s) for b2b impersonation.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B Impersonation API from Stytch — 1 operation(s) for b2b impersonation.
   name: Stytch B2B Impersonation API
   slug: stytch-b2b-impersonation-api
-- description: The B2B Magic Links API from Stytch — 4 operation(s) for b2b magic links.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B Magic Links API from Stytch — 4 operation(s) for b2b magic links.
   name: Stytch B2B Magic Links API
   slug: stytch-b2b-magic-links-api
-- description: The B2B OAuth API from Stytch — 2 operation(s) for b2b oauth.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B OAuth API from Stytch — 2 operation(s) for b2b oauth.
   name: Stytch B2B OAuth API
   slug: stytch-b2b-oauth-api
-- description: The B2B OTP API from Stytch — 4 operation(s) for b2b otp.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B OTP API from Stytch — 4 operation(s) for b2b otp.
   name: Stytch B2B OTP API
   slug: stytch-b2b-otp-api
-- description: The B2B Passwords API from Stytch — 6 operation(s) for b2b passwords.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B Passwords API from Stytch — 6 operation(s) for b2b passwords.
   name: Stytch B2B Passwords API
   slug: stytch-b2b-passwords-api
-- description: The B2B RBAC API from Stytch — 2 operation(s) for b2b rbac.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B RBAC API from Stytch — 2 operation(s) for b2b rbac.
   name: Stytch B2B RBAC API
   slug: stytch-b2b-rbac-api
-- description: The B2B Recovery Codes API from Stytch — 3 operation(s) for b2b recovery codes.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B Recovery Codes API from Stytch — 3 operation(s) for b2b recovery codes.
   name: Stytch B2B Recovery Codes API
   slug: stytch-b2b-recovery-codes-api
-- description: The B2B SCIM API from Stytch — 5 operation(s) for b2b scim.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B SCIM API from Stytch — 5 operation(s) for b2b scim.
   name: Stytch B2B SCIM API
   slug: stytch-b2b-scim-api
-- description: The B2B TOTP API from Stytch — 3 operation(s) for b2b totp.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The B2B TOTP API from Stytch — 3 operation(s) for b2b totp.
   name: Stytch B2B TOTP API
   slug: stytch-b2b-totp-api
-- description: The Clients API from Stytch — 6 operation(s) for clients.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Clients API from Stytch — 6 operation(s) for clients.
   name: Stytch Clients API
   slug: stytch-clients-api
-- description: The Connected Apps API from Stytch — 3 operation(s) for connected apps.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Connected Apps API from Stytch — 3 operation(s) for connected apps.
   name: Stytch Connected Apps API
   slug: stytch-connected-apps-api
-- description: The Consumer RBAC API from Stytch — 1 operation(s) for consumer rbac.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Consumer RBAC API from Stytch — 1 operation(s) for consumer rbac.
   name: Stytch Consumer RBAC API
   slug: stytch-consumer-rbac-api
-- description: The Country Code Allowlist API from Stytch — 2 operation(s) for country code allowlist.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Country Code Allowlist API from Stytch — 2 operation(s) for country code allowlist.
   name: Stytch Country Code Allowlist API
   slug: stytch-country-code-allowlist-api
-- description: The Crypto Wallet API from Stytch — 2 operation(s) for crypto wallet.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Crypto Wallet API from Stytch — 2 operation(s) for crypto wallet.
   name: Stytch Crypto Wallet API
   slug: stytch-crypto-wallet-api
-- description: The Debug API from Stytch — 1 operation(s) for debug.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Debug API from Stytch — 1 operation(s) for debug.
   name: Stytch Debug API
   slug: stytch-debug-api
-- description: The Discovery API from Stytch — 5 operation(s) for discovery.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Discovery API from Stytch — 5 operation(s) for discovery.
   name: Stytch Discovery API
   slug: stytch-discovery-api
-- description: The Email API from Stytch — 3 operation(s) for email.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Email API from Stytch — 3 operation(s) for email.
   name: Stytch Email API
   slug: stytch-email-api
-- description: The Email Template API from Stytch — 3 operation(s) for email template.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Email Template API from Stytch — 3 operation(s) for email template.
   name: Stytch Email Template API
   slug: stytch-email-template-api
-- description: The Environment API from Stytch — 3 operation(s) for environment.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Environment API from Stytch — 3 operation(s) for environment.
   name: Stytch Environment API
   slug: stytch-environment-api
-- description: The Event Log Streaming API from Stytch — 4 operation(s) for event log streaming.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Event Log Streaming API from Stytch — 4 operation(s) for event log streaming.
   name: Stytch Event Log Streaming API
   slug: stytch-event-log-streaming-api
-- description: The Fraud API from Stytch — 6 operation(s) for fraud.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Fraud API from Stytch — 6 operation(s) for fraud.
   name: Stytch Fraud API
   slug: stytch-fraud-api
-- description: The IDP API from Stytch — 2 operation(s) for idp.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The IDP API from Stytch — 2 operation(s) for idp.
   name: Stytch IDP API
   slug: stytch-idp-api
-- description: The Impersonation API from Stytch — 1 operation(s) for impersonation.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Impersonation API from Stytch — 1 operation(s) for impersonation.
   name: Stytch Impersonation API
   slug: stytch-impersonation-api
-- description: The Jwt Template API from Stytch — 1 operation(s) for jwt template.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Jwt Template API from Stytch — 1 operation(s) for jwt template.
   name: Stytch Jwt Template API
   slug: stytch-jwt-template-api
-- description: The M2M API from Stytch — 3 operation(s) for m2m.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The M2M API from Stytch — 3 operation(s) for m2m.
   name: Stytch M2M API
   slug: stytch-m2m-api
-- description: The Magic Links API from Stytch — 6 operation(s) for magic links.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Magic Links API from Stytch — 6 operation(s) for magic links.
   name: Stytch Magic Links API
   slug: stytch-magic-links-api
-- description: The Members API from Stytch — 6 operation(s) for members.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Members API from Stytch — 6 operation(s) for members.
   name: Stytch Members API
   slug: stytch-members-api
-- description: The OAuth API from Stytch — 2 operation(s) for oauth.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The OAuth API from Stytch — 2 operation(s) for oauth.
   name: Stytch OAuth API
   slug: stytch-oauth-api
-- description: The Organization API from Stytch — 7 operation(s) for organization.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Organization API from Stytch — 7 operation(s) for organization.
   name: Stytch Organization API
   slug: stytch-organization-api
-- description: The Organizations API from Stytch — 14 operation(s) for organizations.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Organizations API from Stytch — 14 operation(s) for organizations.
   name: Stytch Organizations API
   slug: stytch-organizations-api
-- description: The OTP API from Stytch — 7 operation(s) for otp.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The OTP API from Stytch — 7 operation(s) for otp.
   name: Stytch OTP API
   slug: stytch-otp-api
-- description: The Password API from Stytch — 8 operation(s) for password.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Password API from Stytch — 8 operation(s) for password.
   name: Stytch Password API
   slug: stytch-password-api
-- description: The Passwords API from Stytch — 4 operation(s) for passwords.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Passwords API from Stytch — 4 operation(s) for passwords.
   name: Stytch Passwords API
   slug: stytch-passwords-api
-- description: The Project API from Stytch — 1 operation(s) for project.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Project API from Stytch — 1 operation(s) for project.
   name: Stytch Project API
   slug: stytch-project-api
-- description: The Public Token API from Stytch — 2 operation(s) for public token.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Public Token API from Stytch — 2 operation(s) for public token.
   name: Stytch Public Token API
   slug: stytch-public-token-api
-- description: The Rbac API from Stytch — 1 operation(s) for rbac.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Rbac API from Stytch — 1 operation(s) for rbac.
   name: Stytch Rbac API
   slug: stytch-rbac-api
-- description: The Redirect Url API from Stytch — 2 operation(s) for redirect url.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Redirect Url API from Stytch — 2 operation(s) for redirect url.
   name: Stytch Redirect Url API
   slug: stytch-redirect-url-api
-- description: The Sdk API from Stytch — 2 operation(s) for sdk.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Sdk API from Stytch — 2 operation(s) for sdk.
   name: Stytch Sdk API
   slug: stytch-sdk-api
-- description: The Secret API from Stytch — 2 operation(s) for secret.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Secret API from Stytch — 2 operation(s) for secret.
   name: Stytch Secret API
   slug: stytch-secret-api
-- description: The Session API from Stytch — 15 operation(s) for session.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Session API from Stytch — 15 operation(s) for session.
   name: Stytch Session API
   slug: stytch-session-api
-- description: The SSO API from Stytch — 12 operation(s) for sso.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The SSO API from Stytch — 12 operation(s) for sso.
   name: Stytch SSO API
   slug: stytch-sso-api
-- description: The TOTP API from Stytch — 4 operation(s) for totp.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The TOTP API from Stytch — 4 operation(s) for totp.
   name: Stytch TOTP API
   slug: stytch-totp-api
-- description: The Trusted Token Profile API from Stytch — 4 operation(s) for trusted token profile.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The Trusted Token Profile API from Stytch — 4 operation(s) for trusted token profile.
   name: Stytch Trusted Token Profile API
   slug: stytch-trusted-token-profile-api
-- description: The User API from Stytch — 15 operation(s) for user.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The User API from Stytch — 15 operation(s) for user.
   name: Stytch User API
   slug: stytch-user-api
-- description: The WebAuthn API from Stytch — 6 operation(s) for webauthn.
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The WebAuthn API from Stytch — 6 operation(s) for webauthn.
   name: Stytch WebAuthn API
   slug: stytch-webauthn-api
 arazzos:
@@ -3843,7 +3937,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -3853,7 +3947,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 51.5
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -3862,7 +3956,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

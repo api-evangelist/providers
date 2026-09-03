@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 21 operations · 12 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: Convert data between EDI X12 and JSON formats.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Convert data between EDI X12 and JSON formats.
   name: Orderful Conversion API
   slug: orderful-conversion-api
-- description: Approve or fail transaction deliveries.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Approve or fail transaction deliveries.
   name: Orderful Delivery API
   slug: orderful-delivery-api
-- description: Retrieve transactions from inboxes.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Retrieve transactions from inboxes.
   name: Orderful Inbox API
   slug: orderful-inbox-api
-- description: Generate UCC-128 shipping labels.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Generate UCC-128 shipping labels.
   name: Orderful Label API
   slug: orderful-label-api
-- description: Retrieve organization information.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Retrieve organization information.
   name: Orderful Organization API
   slug: orderful-organization-api
-- description: Retrieve and confirm transactions from polling buckets.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Retrieve and confirm transactions from polling buckets.
   name: Orderful Poller API
   slug: orderful-poller-api
-- description: Manage trading partner relationships.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Manage trading partner relationships.
   name: Orderful Relationship API
   slug: orderful-relationship-api
-- description: Create and manage EDI transactions.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Create and manage EDI transactions.
   name: Orderful Transaction API
   slug: orderful-transaction-api
-- description: Create and manage EDI transactions using the v3 API.
+- baseURL: https://api.orderful.com
+  baseurl_source: declared
+  description: Create and manage EDI transactions using the v3 API.
   name: Orderful Transaction (v3) API
   slug: orderful-transaction-v3-api
 arazzos:
@@ -279,7 +297,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -289,7 +307,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 50.7
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderful/refs/heads/main/screenshots/orderful-2026-08-07T190910.png
 security:

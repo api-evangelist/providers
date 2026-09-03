@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -37,76 +51,124 @@ apis:
 - description: 'Cordial''s hosted Model Context Protocol server, which gives any MCP client secure read access to a Cordial account: audiences, messages, analytics, content, orchestrations, sculpt blocks and templates'
   name: Cordial MCP Server
   slug: cordial-mcp
-- description: The account attributes API from Cordial — 4 operation(s) for account attributes.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The account attributes API from Cordial — 4 operation(s) for account attributes.
   name: Cordial account attributes API
   slug: cordial-account-attributes-api
-- description: The account lists API from Cordial — 7 operation(s) for account lists.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The account lists API from Cordial — 7 operation(s) for account lists.
   name: Cordial account lists API
   slug: cordial-account-lists-api
-- description: The account monitor export API from Cordial — 1 operation(s) for account monitor export.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The account monitor export API from Cordial — 1 operation(s) for account monitor export.
   name: Cordial account monitor export API
   slug: cordial-account-monitor-export-api
-- description: The alerts API from Cordial — 2 operation(s) for alerts.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The alerts API from Cordial — 2 operation(s) for alerts.
   name: Cordial Alerts API
   slug: cordial-alerts-api
-- description: The analytics audiences API from Cordial — 2 operation(s) for analytics audiences.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The analytics audiences API from Cordial — 2 operation(s) for analytics audiences.
   name: Cordial analytics audiences API
   slug: cordial-analytics-audiences-api
-- description: The analytics messages API from Cordial — 2 operation(s) for analytics messages.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The analytics messages API from Cordial — 2 operation(s) for analytics messages.
   name: Cordial analytics messages API
   slug: cordial-analytics-messages-api
-- description: The audiencecount API from Cordial — 1 operation(s) for audiencecount.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The audiencecount API from Cordial — 1 operation(s) for audiencecount.
   name: Cordial Audiencecount API
   slug: cordial-audiencecount-api
-- description: The automation templates API from Cordial — 15 operation(s) for automation templates.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The automation templates API from Cordial — 15 operation(s) for automation templates.
   name: Cordial automation templates API
   slug: cordial-automation-templates-api
-- description: The batch messages API from Cordial — 18 operation(s) for batch messages.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The batch messages API from Cordial — 18 operation(s) for batch messages.
   name: Cordial batch messages API
   slug: cordial-batch-messages-api
-- description: The contact activities API from Cordial — 2 operation(s) for contact activities.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The contact activities API from Cordial — 2 operation(s) for contact activities.
   name: Cordial contact activities API
   slug: cordial-contact-activities-api
-- description: The contact activity exports API from Cordial — 2 operation(s) for contact activity exports.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The contact activity exports API from Cordial — 2 operation(s) for contact activity exports.
   name: Cordial contact activity exports API
   slug: cordial-contact-activity-exports-api
-- description: The contact exports API from Cordial — 2 operation(s) for contact exports.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The contact exports API from Cordial — 2 operation(s) for contact exports.
   name: Cordial contact exports API
   slug: cordial-contact-exports-api
-- description: The contact imports API from Cordial — 2 operation(s) for contact imports.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The contact imports API from Cordial — 2 operation(s) for contact imports.
   name: Cordial contact imports API
   slug: cordial-contact-imports-api
-- description: The contacts API from Cordial — 17 operation(s) for contacts.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The contacts API from Cordial — 17 operation(s) for contacts.
   name: Cordial Contacts API
   slug: cordial-contacts-api
-- description: The data jobs API from Cordial — 5 operation(s) for data jobs.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The data jobs API from Cordial — 5 operation(s) for data jobs.
   name: Cordial data jobs API
   slug: cordial-data-jobs-api
-- description: The jobs API from Cordial — 4 operation(s) for jobs.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The jobs API from Cordial — 4 operation(s) for jobs.
   name: Cordial Jobs API
   slug: cordial-jobs-api
-- description: The message content includes API from Cordial — 4 operation(s) for message content includes.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The message content includes API from Cordial — 4 operation(s) for message content includes.
   name: Cordial message content includes API
   slug: cordial-message-content-includes-api
-- description: The orchestrations API from Cordial — 4 operation(s) for orchestrations.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The orchestrations API from Cordial — 4 operation(s) for orchestrations.
   name: Cordial Orchestrations API
   slug: cordial-orchestrations-api
-- description: The orders API from Cordial — 4 operation(s) for orders.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The orders API from Cordial — 4 operation(s) for orders.
   name: Cordial Orders API
   slug: cordial-orders-api
-- description: The ordersimport API from Cordial — 2 operation(s) for ordersimport.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The ordersimport API from Cordial — 2 operation(s) for ordersimport.
   name: Cordial Ordersimport API
   slug: cordial-ordersimport-api
-- description: The productimports API from Cordial — 2 operation(s) for productimports.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The productimports API from Cordial — 2 operation(s) for productimports.
   name: Cordial Productimports API
   slug: cordial-productimports-api
-- description: The products API from Cordial — 4 operation(s) for products.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The products API from Cordial — 4 operation(s) for products.
   name: Cordial Products API
   slug: cordial-products-api
-- description: The programs API from Cordial — 2 operation(s) for programs.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The programs API from Cordial — 2 operation(s) for programs.
   name: Cordial Programs API
   slug: cordial-programs-api
-- description: The supplements API from Cordial — 12 operation(s) for supplements.
+- baseURL: https://api.cordial.io/v2
+  baseurl_source: declared
+  description: The supplements API from Cordial — 12 operation(s) for supplements.
   name: Cordial Supplements API
   slug: cordial-supplements-api
 artifact_total: 60
@@ -397,7 +459,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -407,7 +469,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 61.6
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,7 +493,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
 security:

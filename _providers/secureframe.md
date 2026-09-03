@@ -35,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: REST API providing programmatic access to Secureframe controls, frameworks, framework requirements, tests, evidence, policies, tasks, risks, personnel, devices, cloud resources, repositories, third-pa
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: REST API providing programmatic access to Secureframe controls, frameworks, framework requirements, tests, evidence, policies, tasks, risks, personnel, devices, cloud resources, repositories, third-pa
   name: Secureframe Public API
   slug: public-api
 - description: First-party hosted (remote) Model Context Protocol server exposing the Secureframe compliance platform as 112 tools across 41 categories — 63 read, 49 write — mapped one-for-one onto the Public API op
@@ -246,23 +248,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.1
+  composite: 57.0
   coverage:
     artifact_dirs: 21
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.5
+  delta: 0.9
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 51.8
+    contract_quality: 55.2
     developer_ergonomics: 37.5
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 49.6
+  previous_composite: 56.1
   provenance:
     conformance: first-party
     contracts:
@@ -273,8 +275,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/screenshots/secureframe-2026-06-20T193625.png
 security:
 - kind: authentication

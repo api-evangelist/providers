@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -43,373 +43,619 @@ agentic_access:
   summary_line: 1004 operations · 396 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The ACCOUNT_COSTS API from Altimate AI — 4 operation(s) for account_costs.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The ACCOUNT_COSTS API from Altimate AI — 4 operation(s) for account_costs.
   name: Altimate AI ACCOUNT_COSTS API
   slug: altimate-ai-account-costs-api
-- description: The ade-bench API from Altimate AI — 7 operation(s) for ade-bench.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The ade-bench API from Altimate AI — 7 operation(s) for ade-bench.
   name: Altimate AI ade-bench API
   slug: altimate-ai-ade-bench-api
-- description: The AGENTS API from Altimate AI — 3 operation(s) for agents.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AGENTS API from Altimate AI — 3 operation(s) for agents.
   name: Altimate AI AGENTS API
   slug: altimate-ai-agents-api
-- description: The AI_PLAYGROUND API from Altimate AI — 22 operation(s) for ai_playground.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AI_PLAYGROUND API from Altimate AI — 22 operation(s) for ai_playground.
   name: Altimate AI AI_PLAYGROUND API
   slug: altimate-ai-ai-playground-api
-- description: The AI_SERVICES API from Altimate AI — 5 operation(s) for ai_services.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AI_SERVICES API from Altimate AI — 5 operation(s) for ai_services.
   name: Altimate AI AI_SERVICES API
   slug: altimate-ai-ai-services-api
-- description: The AI_STUDIO API from Altimate AI — 22 operation(s) for ai_studio.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AI_STUDIO API from Altimate AI — 22 operation(s) for ai_studio.
   name: Altimate AI AI_STUDIO API
   slug: altimate-ai-ai-studio-api
-- description: The ALERTS_V1 API from Altimate AI — 15 operation(s) for alerts_v1.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The ALERTS_V1 API from Altimate AI — 15 operation(s) for alerts_v1.
   name: Altimate AI ALERTS_V1 API
   slug: altimate-ai-alerts-v1-api
-- description: The AUDIT_TRAIL API from Altimate AI — 2 operation(s) for audit_trail.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AUDIT_TRAIL API from Altimate AI — 2 operation(s) for audit_trail.
   name: Altimate AI AUDIT_TRAIL API
   slug: altimate-ai-audit-trail-api
-- description: The AUTH API from Altimate AI — 11 operation(s) for auth.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AUTH API from Altimate AI — 11 operation(s) for auth.
   name: Altimate AI AUTH API
   slug: altimate-ai-auth-api
-- description: The Auth Health API from Altimate AI — 1 operation(s) for auth health.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Auth Health API from Altimate AI — 1 operation(s) for auth health.
   name: Altimate AI Auth Health API
   slug: altimate-ai-auth-health-api
-- description: The AZURE_DATABRICKS_CONNECTIONS API from Altimate AI — 2 operation(s) for azure_databricks_connections.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The AZURE_DATABRICKS_CONNECTIONS API from Altimate AI — 2 operation(s) for azure_databricks_connections.
   name: Altimate AI AZURE_DATABRICKS_CONNECTIONS API
   slug: altimate-ai-azure-databricks-connections-api
-- description: The Business Intelligence API from Altimate AI — 15 operation(s) for business intelligence.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Business Intelligence API from Altimate AI — 15 operation(s) for business intelligence.
   name: Altimate AI Business Intelligence API
   slug: altimate-ai-business-intelligence-api
-- description: The Chat API from Altimate AI — 1 operation(s) for chat.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Chat API from Altimate AI — 1 operation(s) for chat.
   name: Altimate AI Chat API
   slug: altimate-ai-chat-api
-- description: The clickhouse-rbac API from Altimate AI — 1 operation(s) for clickhouse-rbac.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The clickhouse-rbac API from Altimate AI — 1 operation(s) for clickhouse-rbac.
   name: Altimate AI clickhouse-rbac API
   slug: altimate-ai-clickhouse-rbac-api
-- description: The COACH API from Altimate AI — 3 operation(s) for coach.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The COACH API from Altimate AI — 3 operation(s) for coach.
   name: Altimate AI COACH API
   slug: altimate-ai-coach-api
-- description: The COMPANY API from Altimate AI — 6 operation(s) for company.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The COMPANY API from Altimate AI — 6 operation(s) for company.
   name: Altimate AI COMPANY API
   slug: altimate-ai-company-api
-- description: The COMPUTE_POOLS API from Altimate AI — 6 operation(s) for compute_pools.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The COMPUTE_POOLS API from Altimate AI — 6 operation(s) for compute_pools.
   name: Altimate AI COMPUTE_POOLS API
   slug: altimate-ai-compute-pools-api
-- description: The connections API from Altimate AI — 3 operation(s) for connections.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The connections API from Altimate AI — 3 operation(s) for connections.
   name: Altimate AI connections API
   slug: altimate-ai-connections-api
-- description: The CONTRACT API from Altimate AI — 10 operation(s) for contract.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The CONTRACT API from Altimate AI — 10 operation(s) for contract.
   name: Altimate AI CONTRACT API
   slug: altimate-ai-contract-api
-- description: The CONTRACTS_DASHBOARDS API from Altimate AI — 2 operation(s) for contracts_dashboards.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The CONTRACTS_DASHBOARDS API from Altimate AI — 2 operation(s) for contracts_dashboards.
   name: Altimate AI CONTRACTS_DASHBOARDS API
   slug: altimate-ai-contracts-dashboards-api
-- description: The Copilot API from Altimate AI — 16 operation(s) for copilot.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Copilot API from Altimate AI — 16 operation(s) for copilot.
   name: Altimate AI Copilot API
   slug: altimate-ai-copilot-api
-- description: The CREDITS_USAGE API from Altimate AI — 8 operation(s) for credits_usage.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The CREDITS_USAGE API from Altimate AI — 8 operation(s) for credits_usage.
   name: Altimate AI CREDITS_USAGE API
   slug: altimate-ai-credits-usage-api
-- description: The CUSTOM_TAGS API from Altimate AI — 5 operation(s) for custom_tags.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The CUSTOM_TAGS API from Altimate AI — 5 operation(s) for custom_tags.
   name: Altimate AI CUSTOM_TAGS API
   slug: altimate-ai-custom-tags-api
-- description: The Dashboards API from Altimate AI — 17 operation(s) for dashboards.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Dashboards API from Altimate AI — 17 operation(s) for dashboards.
   name: Altimate AI Dashboards API
   slug: altimate-ai-dashboards-api
-- description: The DATA_AVAILABILITY API from Altimate AI — 1 operation(s) for data_availability.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DATA_AVAILABILITY API from Altimate AI — 1 operation(s) for data_availability.
   name: Altimate AI DATA_AVAILABILITY API
   slug: altimate-ai-data-availability-api
-- description: The DATA_STORE API from Altimate AI — 9 operation(s) for data_store.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DATA_STORE API from Altimate AI — 9 operation(s) for data_store.
   name: Altimate AI DATA_STORE API
   slug: altimate-ai-data-store-api
-- description: The Databricks Access Rules API from Altimate AI — 1 operation(s) for databricks access rules.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Access Rules API from Altimate AI — 1 operation(s) for databricks access rules.
   name: Altimate AI Databricks Access Rules API
   slug: altimate-ai-databricks-access-rules-api
-- description: The Databricks AI/ML Services API from Altimate AI — 8 operation(s) for databricks ai/ml services.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks AI/ML Services API from Altimate AI — 8 operation(s) for databricks ai/ml services.
   name: Altimate AI Databricks AI/ML Services API
   slug: altimate-ai-databricks-ai-ml-services-api
-- description: The Databricks AI Studio API from Altimate AI — 1 operation(s) for databricks ai studio.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks AI Studio API from Altimate AI — 1 operation(s) for databricks ai studio.
   name: Altimate AI Databricks AI Studio API
   slug: altimate-ai-databricks-ai-studio-api
-- description: The DATABRICKS API from Altimate AI — 139 operation(s) for databricks.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DATABRICKS API from Altimate AI — 139 operation(s) for databricks.
   name: Altimate AI DATABRICKS API
   slug: altimate-ai-databricks-api
-- description: The Databricks Clusters API from Altimate AI — 15 operation(s) for databricks clusters.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Clusters API from Altimate AI — 15 operation(s) for databricks clusters.
   name: Altimate AI Databricks Clusters API
   slug: altimate-ai-databricks-clusters-api
-- description: The Databricks Connections API from Altimate AI — 4 operation(s) for databricks connections.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Connections API from Altimate AI — 4 operation(s) for databricks connections.
   name: Altimate AI Databricks Connections API
   slug: altimate-ai-databricks-connections-api
-- description: The Databricks Cost API from Altimate AI — 19 operation(s) for databricks cost.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Cost API from Altimate AI — 19 operation(s) for databricks cost.
   name: Altimate AI Databricks Cost API
   slug: altimate-ai-databricks-cost-api
-- description: The Databricks Insights API from Altimate AI — 2 operation(s) for databricks insights.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Insights API from Altimate AI — 2 operation(s) for databricks insights.
   name: Altimate AI Databricks Insights API
   slug: altimate-ai-databricks-insights-api
-- description: The Databricks Jobs API from Altimate AI — 29 operation(s) for databricks jobs.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Jobs API from Altimate AI — 29 operation(s) for databricks jobs.
   name: Altimate AI Databricks Jobs API
   slug: altimate-ai-databricks-jobs-api
-- description: The Databricks Opportunities API from Altimate AI — 9 operation(s) for databricks opportunities.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Opportunities API from Altimate AI — 9 operation(s) for databricks opportunities.
   name: Altimate AI Databricks Opportunities API
   slug: altimate-ai-databricks-opportunities-api
-- description: The Databricks Queries API from Altimate AI — 18 operation(s) for databricks queries.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Queries API from Altimate AI — 18 operation(s) for databricks queries.
   name: Altimate AI Databricks Queries API
   slug: altimate-ai-databricks-queries-api
-- description: The Databricks Savings API from Altimate AI — 5 operation(s) for databricks savings.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Savings API from Altimate AI — 5 operation(s) for databricks savings.
   name: Altimate AI Databricks Savings API
   slug: altimate-ai-databricks-savings-api
-- description: The Databricks Spark API from Altimate AI — 6 operation(s) for databricks spark.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Spark API from Altimate AI — 6 operation(s) for databricks spark.
   name: Altimate AI Databricks Spark API
   slug: altimate-ai-databricks-spark-api
-- description: The Databricks Users API from Altimate AI — 8 operation(s) for databricks users.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Users API from Altimate AI — 8 operation(s) for databricks users.
   name: Altimate AI Databricks Users API
   slug: altimate-ai-databricks-users-api
-- description: The Databricks Warehouses API from Altimate AI — 14 operation(s) for databricks warehouses.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Databricks Warehouses API from Altimate AI — 14 operation(s) for databricks warehouses.
   name: Altimate AI Databricks Warehouses API
   slug: altimate-ai-databricks-warehouses-api
-- description: The Datamate Integrations API from Altimate AI — 3 operation(s) for datamate integrations.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Datamate Integrations API from Altimate AI — 3 operation(s) for datamate integrations.
   name: Altimate AI Datamate Integrations API
   slug: altimate-ai-datamate-integrations-api
-- description: The Datamates API from Altimate AI — 6 operation(s) for datamates.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Datamates API from Altimate AI — 6 operation(s) for datamates.
   name: Altimate AI Datamates API
   slug: altimate-ai-datamates-api
-- description: The DBT API from Altimate AI — 16 operation(s) for dbt.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT API from Altimate AI — 16 operation(s) for dbt.
   name: Altimate AI DBT API
   slug: altimate-ai-dbt-api
-- description: The DBT_CLOUD API from Altimate AI — 11 operation(s) for dbt_cloud.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_CLOUD API from Altimate AI — 11 operation(s) for dbt_cloud.
   name: Altimate AI DBT_CLOUD API
   slug: altimate-ai-dbt-cloud-api
-- description: The DBT_CONFIG API from Altimate AI — 8 operation(s) for dbt_config.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_CONFIG API from Altimate AI — 8 operation(s) for dbt_config.
   name: Altimate AI DBT_CONFIG API
   slug: altimate-ai-dbt-config-api
-- description: The DBT_DOCS_SHARE API from Altimate AI — 11 operation(s) for dbt_docs_share.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_DOCS_SHARE API from Altimate AI — 11 operation(s) for dbt_docs_share.
   name: Altimate AI DBT_DOCS_SHARE API
   slug: altimate-ai-dbt-docs-share-api
-- description: The DBT_HEALTH_CHECKS API from Altimate AI — 2 operation(s) for dbt_health_checks.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_HEALTH_CHECKS API from Altimate AI — 2 operation(s) for dbt_health_checks.
   name: Altimate AI DBT_HEALTH_CHECKS API
   slug: altimate-ai-dbt-health-checks-api
-- description: The DBT_MODELS API from Altimate AI — 9 operation(s) for dbt_models.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_MODELS API from Altimate AI — 9 operation(s) for dbt_models.
   name: Altimate AI DBT_MODELS API
   slug: altimate-ai-dbt-models-api
-- description: The DBT_V2 API from Altimate AI — 6 operation(s) for dbt_v2.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_V2 API from Altimate AI — 6 operation(s) for dbt_v2.
   name: Altimate AI DBT_V2 API
   slug: altimate-ai-dbt-v2-api
-- description: The DBT_V3 API from Altimate AI — 8 operation(s) for dbt_v3.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_V3 API from Altimate AI — 8 operation(s) for dbt_v3.
   name: Altimate AI DBT_V3 API
   slug: altimate-ai-dbt-v3-api
-- description: The DBT_V4 API from Altimate AI — 4 operation(s) for dbt_v4.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DBT_V4 API from Altimate AI — 4 operation(s) for dbt_v4.
   name: Altimate AI DBT_V4 API
   slug: altimate-ai-dbt-v4-api
-- description: The DEBUG_SQL API from Altimate AI — 1 operation(s) for debug_sql.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DEBUG_SQL API from Altimate AI — 1 operation(s) for debug_sql.
   name: Altimate AI DEBUG_SQL API
   slug: altimate-ai-debug-sql-api
-- description: The DEFINITIONS API from Altimate AI — 1 operation(s) for definitions.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DEFINITIONS API from Altimate AI — 1 operation(s) for definitions.
   name: Altimate AI DEFINITIONS API
   slug: altimate-ai-definitions-api
-- description: The DEMO API from Altimate AI — 2 operation(s) for demo.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The DEMO API from Altimate AI — 2 operation(s) for demo.
   name: Altimate AI DEMO API
   slug: altimate-ai-demo-api
-- description: The Embeddings API from Altimate AI — 1 operation(s) for embeddings.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Embeddings API from Altimate AI — 1 operation(s) for embeddings.
   name: Altimate AI Embeddings API
   slug: altimate-ai-embeddings-api
-- description: The ENTITY_DETECTION API from Altimate AI — 1 operation(s) for entity_detection.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The ENTITY_DETECTION API from Altimate AI — 1 operation(s) for entity_detection.
   name: Altimate AI ENTITY_DETECTION API
   slug: altimate-ai-entity-detection-api
-- description: The EVALS API from Altimate AI — 18 operation(s) for evals.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The EVALS API from Altimate AI — 18 operation(s) for evals.
   name: Altimate AI EVALS API
   slug: altimate-ai-evals-api
-- description: The EVENTS API from Altimate AI — 9 operation(s) for events.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The EVENTS API from Altimate AI — 9 operation(s) for events.
   name: Altimate AI EVENTS API
   slug: altimate-ai-events-api
-- description: The EXPERIMENTATION API from Altimate AI — 5 operation(s) for experimentation.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The EXPERIMENTATION API from Altimate AI — 5 operation(s) for experimentation.
   name: Altimate AI EXPERIMENTATION API
   slug: altimate-ai-experimentation-api
-- description: The EXTERNAL API from Altimate AI — 2 operation(s) for external.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The EXTERNAL API from Altimate AI — 2 operation(s) for external.
   name: Altimate AI EXTERNAL API
   slug: altimate-ai-external-api
-- description: The FEEDBACKS API from Altimate AI — 7 operation(s) for feedbacks.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The FEEDBACKS API from Altimate AI — 7 operation(s) for feedbacks.
   name: Altimate AI FEEDBACKS API
   slug: altimate-ai-feedbacks-api
-- description: The GLOBAL_CONFIG API from Altimate AI — 4 operation(s) for global_config.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The GLOBAL_CONFIG API from Altimate AI — 4 operation(s) for global_config.
   name: Altimate AI GLOBAL_CONFIG API
   slug: altimate-ai-global-config-api
-- description: The GOVERNANCE API from Altimate AI — 8 operation(s) for governance.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The GOVERNANCE API from Altimate AI — 8 operation(s) for governance.
   name: Altimate AI GOVERNANCE API
   slug: altimate-ai-governance-api
-- description: The Health API from Altimate AI — 1 operation(s) for health.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Health API from Altimate AI — 1 operation(s) for health.
   name: Altimate AI Health API
   slug: altimate-ai-health-api
-- description: The IMPERSONATE API from Altimate AI — 1 operation(s) for impersonate.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The IMPERSONATE API from Altimate AI — 1 operation(s) for impersonate.
   name: Altimate AI IMPERSONATE API
   slug: altimate-ai-impersonate-api
-- description: The INGESTION API from Altimate AI — 3 operation(s) for ingestion.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The INGESTION API from Altimate AI — 3 operation(s) for ingestion.
   name: Altimate AI INGESTION API
   slug: altimate-ai-ingestion-api
-- description: The Knowledge Bases API from Altimate AI — 6 operation(s) for knowledge bases.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Knowledge Bases API from Altimate AI — 6 operation(s) for knowledge bases.
   name: Altimate AI Knowledge Bases API
   slug: altimate-ai-knowledge-bases-api
-- description: The Knowledge Bases V2 API from Altimate AI — 9 operation(s) for knowledge bases v2.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Knowledge Bases V2 API from Altimate AI — 9 operation(s) for knowledge bases v2.
   name: Altimate AI Knowledge Bases V2 API
   slug: altimate-ai-knowledge-bases-v2-api
-- description: The langfuse API from Altimate AI — 2 operation(s) for langfuse.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The langfuse API from Altimate AI — 2 operation(s) for langfuse.
   name: Altimate AI langfuse API
   slug: altimate-ai-langfuse-api
-- description: The Lineage API from Altimate AI — 13 operation(s) for lineage.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Lineage API from Altimate AI — 13 operation(s) for lineage.
   name: Altimate AI Lineage API
   slug: altimate-ai-lineage-api
-- description: The MASK API from Altimate AI — 1 operation(s) for mask.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The MASK API from Altimate AI — 1 operation(s) for mask.
   name: Altimate AI MASK API
   slug: altimate-ai-mask-api
-- description: The MEMORY API from Altimate AI — 6 operation(s) for memory.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The MEMORY API from Altimate AI — 6 operation(s) for memory.
   name: Altimate AI MEMORY API
   slug: altimate-ai-memory-api
-- description: The METABASE API from Altimate AI — 6 operation(s) for metabase.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The METABASE API from Altimate AI — 6 operation(s) for metabase.
   name: Altimate AI METABASE API
   slug: altimate-ai-metabase-api
-- description: The METRICS API from Altimate AI — 1 operation(s) for metrics.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The METRICS API from Altimate AI — 1 operation(s) for metrics.
   name: Altimate AI METRICS API
   slug: altimate-ai-metrics-api
-- description: The Models API from Altimate AI — 1 operation(s) for models.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Models API from Altimate AI — 1 operation(s) for models.
   name: Altimate AI Models API
   slug: altimate-ai-models-api
-- description: The NEWSLETTER API from Altimate AI — 1 operation(s) for newsletter.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The NEWSLETTER API from Altimate AI — 1 operation(s) for newsletter.
   name: Altimate AI NEWSLETTER API
   slug: altimate-ai-newsletter-api
-- description: The NOTEBOOK API from Altimate AI — 7 operation(s) for notebook.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The NOTEBOOK API from Altimate AI — 7 operation(s) for notebook.
   name: Altimate AI NOTEBOOK API
   slug: altimate-ai-notebook-api
-- description: The NOTIFICATION API from Altimate AI — 4 operation(s) for notification.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The NOTIFICATION API from Altimate AI — 4 operation(s) for notification.
   name: Altimate AI NOTIFICATION API
   slug: altimate-ai-notification-api
-- description: The OPPORTUNITIES API from Altimate AI — 19 operation(s) for opportunities.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The OPPORTUNITIES API from Altimate AI — 19 operation(s) for opportunities.
   name: Altimate AI OPPORTUNITIES API
   slug: altimate-ai-opportunities-api
-- description: The PAYMENT API from Altimate AI — 16 operation(s) for payment.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PAYMENT API from Altimate AI — 16 operation(s) for payment.
   name: Altimate AI PAYMENT API
   slug: altimate-ai-payment-api
-- description: The PERMISSION API from Altimate AI — 3 operation(s) for permission.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PERMISSION API from Altimate AI — 3 operation(s) for permission.
   name: Altimate AI PERMISSION API
   slug: altimate-ai-permission-api
-- description: The PREDICTION API from Altimate AI — 1 operation(s) for prediction.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PREDICTION API from Altimate AI — 1 operation(s) for prediction.
   name: Altimate AI PREDICTION API
   slug: altimate-ai-prediction-api
-- description: The PRESET API from Altimate AI — 2 operation(s) for preset.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PRESET API from Altimate AI — 2 operation(s) for preset.
   name: Altimate AI PRESET API
   slug: altimate-ai-preset-api
-- description: The PROJECT_GOVERNANCE API from Altimate AI — 5 operation(s) for project_governance.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PROJECT_GOVERNANCE API from Altimate AI — 5 operation(s) for project_governance.
   name: Altimate AI PROJECT_GOVERNANCE API
   slug: altimate-ai-project-governance-api
-- description: The PROMPT_ENHANCER API from Altimate AI — 1 operation(s) for prompt_enhancer.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PROMPT_ENHANCER API from Altimate AI — 1 operation(s) for prompt_enhancer.
   name: Altimate AI PROMPT_ENHANCER API
   slug: altimate-ai-prompt-enhancer-api
-- description: The PROMPT_LIBRARY API from Altimate AI — 4 operation(s) for prompt_library.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PROMPT_LIBRARY API from Altimate AI — 4 operation(s) for prompt_library.
   name: Altimate AI PROMPT_LIBRARY API
   slug: altimate-ai-prompt-library-api
-- description: The Public Knowledge Bases API from Altimate AI — 1 operation(s) for public knowledge bases.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Public Knowledge Bases API from Altimate AI — 1 operation(s) for public knowledge bases.
   name: Altimate AI Public Knowledge Bases API
   slug: altimate-ai-public-knowledge-bases-api
-- description: The PUBLIC_PROMPT_LIBRARY API from Altimate AI — 2 operation(s) for public_prompt_library.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PUBLIC_PROMPT_LIBRARY API from Altimate AI — 2 operation(s) for public_prompt_library.
   name: Altimate AI PUBLIC_PROMPT_LIBRARY API
   slug: altimate-ai-public-prompt-library-api
-- description: The PUBLIC_SNIPPETS API from Altimate AI — 4 operation(s) for public_snippets.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The PUBLIC_SNIPPETS API from Altimate AI — 4 operation(s) for public_snippets.
   name: Altimate AI PUBLIC_SNIPPETS API
   slug: altimate-ai-public-snippets-api
-- description: The QUERIES API from Altimate AI — 18 operation(s) for queries.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The QUERIES API from Altimate AI — 18 operation(s) for queries.
   name: Altimate AI QUERIES API
   slug: altimate-ai-queries-api
-- description: The QUERIES_V2 API from Altimate AI — 63 operation(s) for queries_v2.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The QUERIES_V2 API from Altimate AI — 63 operation(s) for queries_v2.
   name: Altimate AI QUERIES_V2 API
   slug: altimate-ai-queries-v2-api
-- description: The QUERY_BOOKMARK API from Altimate AI — 5 operation(s) for query_bookmark.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The QUERY_BOOKMARK API from Altimate AI — 5 operation(s) for query_bookmark.
   name: Altimate AI QUERY_BOOKMARK API
   slug: altimate-ai-query-bookmark-api
-- description: The RECOMMENDATIONS API from Altimate AI — 4 operation(s) for recommendations.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The RECOMMENDATIONS API from Altimate AI — 4 operation(s) for recommendations.
   name: Altimate AI RECOMMENDATIONS API
   slug: altimate-ai-recommendations-api
-- description: The REFERRAL API from Altimate AI — 1 operation(s) for referral.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The REFERRAL API from Altimate AI — 1 operation(s) for referral.
   name: Altimate AI REFERRAL API
   slug: altimate-ai-referral-api
-- description: The REGISTRY API from Altimate AI — 4 operation(s) for registry.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The REGISTRY API from Altimate AI — 4 operation(s) for registry.
   name: Altimate AI REGISTRY API
   slug: altimate-ai-registry-api
-- description: The RESOURCES API from Altimate AI — 2 operation(s) for resources.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The RESOURCES API from Altimate AI — 2 operation(s) for resources.
   name: Altimate AI RESOURCES API
   slug: altimate-ai-resources-api
-- description: The SCHEDULER API from Altimate AI — 2 operation(s) for scheduler.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SCHEDULER API from Altimate AI — 2 operation(s) for scheduler.
   name: Altimate AI SCHEDULER API
   slug: altimate-ai-scheduler-api
-- description: The SCHEDULES API from Altimate AI — 12 operation(s) for schedules.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SCHEDULES API from Altimate AI — 12 operation(s) for schedules.
   name: Altimate AI SCHEDULES API
   slug: altimate-ai-schedules-api
-- description: The SDK API from Altimate AI — 3 operation(s) for sdk.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SDK API from Altimate AI — 3 operation(s) for sdk.
   name: Altimate AI SDK API
   slug: altimate-ai-sdk-api
-- description: The Semantic Metrics API from Altimate AI — 3 operation(s) for semantic metrics.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Semantic Metrics API from Altimate AI — 3 operation(s) for semantic metrics.
   name: Altimate AI Semantic Metrics API
   slug: altimate-ai-semantic-metrics-api
-- description: The SHARE API from Altimate AI — 10 operation(s) for share.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SHARE API from Altimate AI — 10 operation(s) for share.
   name: Altimate AI SHARE API
   slug: altimate-ai-share-api
-- description: The SMART_CONTRACTS API from Altimate AI — 1 operation(s) for smart_contracts.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SMART_CONTRACTS API from Altimate AI — 1 operation(s) for smart_contracts.
   name: Altimate AI SMART_CONTRACTS API
   slug: altimate-ai-smart-contracts-api
-- description: The SSO Group Mappings API from Altimate AI — 9 operation(s) for sso group mappings.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SSO Group Mappings API from Altimate AI — 9 operation(s) for sso group mappings.
   name: Altimate AI SSO Group Mappings API
   slug: altimate-ai-sso-group-mappings-api
-- description: The SUBSCRIPTIONS API from Altimate AI — 10 operation(s) for subscriptions.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SUBSCRIPTIONS API from Altimate AI — 10 operation(s) for subscriptions.
   name: Altimate AI SUBSCRIPTIONS API
   slug: altimate-ai-subscriptions-api
-- description: The SUMMARY API from Altimate AI — 6 operation(s) for summary.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SUMMARY API from Altimate AI — 6 operation(s) for summary.
   name: Altimate AI SUMMARY API
   slug: altimate-ai-summary-api
-- description: The SUMMARY_V2 API from Altimate AI — 31 operation(s) for summary_v2.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SUMMARY_V2 API from Altimate AI — 31 operation(s) for summary_v2.
   name: Altimate AI SUMMARY_V2 API
   slug: altimate-ai-summary-v2-api
-- description: The SUPERTOKENS API from Altimate AI — 7 operation(s) for supertokens.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SUPERTOKENS API from Altimate AI — 7 operation(s) for supertokens.
   name: Altimate AI SUPERTOKENS API
   slug: altimate-ai-supertokens-api
-- description: The SYNC API from Altimate AI — 1 operation(s) for sync.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The SYNC API from Altimate AI — 1 operation(s) for sync.
   name: Altimate AI SYNC API
   slug: altimate-ai-sync-api
-- description: The Tableau API from Altimate AI — 1 operation(s) for tableau.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Tableau API from Altimate AI — 1 operation(s) for tableau.
   name: Altimate AI Tableau API
   slug: altimate-ai-tableau-api
-- description: The TABLES API from Altimate AI — 30 operation(s) for tables.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The TABLES API from Altimate AI — 30 operation(s) for tables.
   name: Altimate AI TABLES API
   slug: altimate-ai-tables-api
-- description: The TEAMS API from Altimate AI — 5 operation(s) for teams.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The TEAMS API from Altimate AI — 5 operation(s) for teams.
   name: Altimate AI TEAMS API
   slug: altimate-ai-teams-api
-- description: The Test Email API from Altimate AI — 1 operation(s) for test email.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Test Email API from Altimate AI — 1 operation(s) for test email.
   name: Altimate AI Test Email API
   slug: altimate-ai-test-email-api
-- description: The USER API from Altimate AI — 12 operation(s) for user.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The USER API from Altimate AI — 12 operation(s) for user.
   name: Altimate AI USER API
   slug: altimate-ai-user-api
-- description: The USER_GROUP API from Altimate AI — 19 operation(s) for user_group.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The USER_GROUP API from Altimate AI — 19 operation(s) for user_group.
   name: Altimate AI USER_GROUP API
   slug: altimate-ai-user-group-api
-- description: The user-group-rules API from Altimate AI — 2 operation(s) for user-group-rules.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The user-group-rules API from Altimate AI — 2 operation(s) for user-group-rules.
   name: Altimate AI user-group-rules API
   slug: altimate-ai-user-group-rules-api
-- description: The Users API from Altimate AI — 5 operation(s) for users.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The Users API from Altimate AI — 5 operation(s) for users.
   name: Altimate AI Users API
   slug: altimate-ai-users-api
-- description: The VIOLATIONS API from Altimate AI — 4 operation(s) for violations.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The VIOLATIONS API from Altimate AI — 4 operation(s) for violations.
   name: Altimate AI VIOLATIONS API
   slug: altimate-ai-violations-api
-- description: The WAREHOUSE API from Altimate AI — 24 operation(s) for warehouse.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The WAREHOUSE API from Altimate AI — 24 operation(s) for warehouse.
   name: Altimate AI WAREHOUSE API
   slug: altimate-ai-warehouse-api
-- description: The WAREHOUSE_SCHEDULE API from Altimate AI — 10 operation(s) for warehouse_schedule.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The WAREHOUSE_SCHEDULE API from Altimate AI — 10 operation(s) for warehouse_schedule.
   name: Altimate AI WAREHOUSE_SCHEDULE API
   slug: altimate-ai-warehouse-schedule-api
-- description: The WORKFLOW_AGENT API from Altimate AI — 8 operation(s) for workflow_agent.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The WORKFLOW_AGENT API from Altimate AI — 8 operation(s) for workflow_agent.
   name: Altimate AI WORKFLOW_AGENT API
   slug: altimate-ai-workflow-agent-api
-- description: The WORKFLOW_DASHBOARD API from Altimate AI — 16 operation(s) for workflow_dashboard.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The WORKFLOW_DASHBOARD API from Altimate AI — 16 operation(s) for workflow_dashboard.
   name: Altimate AI WORKFLOW_DASHBOARD API
   slug: altimate-ai-workflow-dashboard-api
-- description: The WORKLOAD API from Altimate AI — 2 operation(s) for workload.
+- baseURL: https://api.myaltimate.com
+  baseurl_source: declared
+  description: The WORKLOAD API from Altimate AI — 2 operation(s) for workload.
   name: Altimate AI WORKLOAD API
   slug: altimate-ai-workload-api
 artifact_total: 252
@@ -970,7 +1216,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195830.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 1
 apis:
-- description: Regal Crown Club loyalty rewards
+- baseURL: https://api.regmovies.com/v1
+  baseurl_source: declared
+  description: Regal Crown Club loyalty rewards
   name: regal-entertainment-group Loyalty API
   slug: regal-entertainment-group-loyalty-api
-- description: Movie catalog and metadata
+- baseURL: https://api.regmovies.com/v1
+  baseurl_source: declared
+  description: Movie catalog and metadata
   name: regal-entertainment-group Movies API
   slug: regal-entertainment-group-movies-api
-- description: Showtime schedules and availability
+- baseURL: https://api.regmovies.com/v1
+  baseurl_source: declared
+  description: Showtime schedules and availability
   name: regal-entertainment-group Showtimes API
   slug: regal-entertainment-group-showtimes-api
-- description: Theatre locations and details
+- baseURL: https://api.regmovies.com/v1
+  baseurl_source: declared
+  description: Theatre locations and details
   name: regal-entertainment-group Theatres API
   slug: regal-entertainment-group-theatres-api
-- description: Ticket purchasing and reservations
+- baseURL: https://api.regmovies.com/v1
+  baseurl_source: declared
+  description: Ticket purchasing and reservations
   name: regal-entertainment-group Tickets API
   slug: regal-entertainment-group-tickets-api
 artifact_total: 27
@@ -241,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

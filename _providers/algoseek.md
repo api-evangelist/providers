@@ -32,109 +32,175 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
   name: AlgoSeek ArdaDB Query Service
   slug: algoseek-ardadb-query-service
-- description: The AWSAccount API from AlgoSeek — 3 operation(s) for awsaccount.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The AWSAccount API from AlgoSeek — 3 operation(s) for awsaccount.
   name: AlgoSeek AWSAccount API
   slug: algoseek-awsaccount-api
-- description: The AWSResourceType API from AlgoSeek — 3 operation(s) for awsresourcetype.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The AWSResourceType API from AlgoSeek — 3 operation(s) for awsresourcetype.
   name: AlgoSeek AWSResourceType API
   slug: algoseek-awsresourcetype-api
-- description: The BucketGroup API from AlgoSeek — 7 operation(s) for bucketgroup.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The BucketGroup API from AlgoSeek — 7 operation(s) for bucketgroup.
   name: AlgoSeek BucketGroup API
   slug: algoseek-bucketgroup-api
-- description: The BucketMonitoring API from AlgoSeek — 2 operation(s) for bucketmonitoring.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The BucketMonitoring API from AlgoSeek — 2 operation(s) for bucketmonitoring.
   name: AlgoSeek BucketMonitoring API
   slug: algoseek-bucketmonitoring-api
-- description: The BucketSource API from AlgoSeek — 3 operation(s) for bucketsource.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The BucketSource API from AlgoSeek — 3 operation(s) for bucketsource.
   name: AlgoSeek BucketSource API
   slug: algoseek-bucketsource-api
-- description: The BucketUpdate API from AlgoSeek — 4 operation(s) for bucketupdate.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The BucketUpdate API from AlgoSeek — 4 operation(s) for bucketupdate.
   name: AlgoSeek BucketUpdate API
   slug: algoseek-bucketupdate-api
-- description: The CloudStorage API from AlgoSeek — 6 operation(s) for cloudstorage.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The CloudStorage API from AlgoSeek — 6 operation(s) for cloudstorage.
   name: AlgoSeek CloudStorage API
   slug: algoseek-cloudstorage-api
-- description: The CSVColumn API from AlgoSeek — 4 operation(s) for csvcolumn.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The CSVColumn API from AlgoSeek — 4 operation(s) for csvcolumn.
   name: AlgoSeek CSVColumn API
   slug: algoseek-csvcolumn-api
-- description: The DatabaseObject API from AlgoSeek — 7 operation(s) for databaseobject.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DatabaseObject API from AlgoSeek — 7 operation(s) for databaseobject.
   name: AlgoSeek DatabaseObject API
   slug: algoseek-databaseobject-api
-- description: The DatabaseTable API from AlgoSeek — 7 operation(s) for databasetable.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DatabaseTable API from AlgoSeek — 7 operation(s) for databasetable.
   name: AlgoSeek DatabaseTable API
   slug: algoseek-databasetable-api
-- description: The DataClass API from AlgoSeek — 5 operation(s) for dataclass.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DataClass API from AlgoSeek — 5 operation(s) for dataclass.
   name: AlgoSeek DataClass API
   slug: algoseek-dataclass-api
-- description: The DataFormat API from AlgoSeek — 5 operation(s) for dataformat.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DataFormat API from AlgoSeek — 5 operation(s) for dataformat.
   name: AlgoSeek DataFormat API
   slug: algoseek-dataformat-api
-- description: The DataGroup API from AlgoSeek — 5 operation(s) for datagroup.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DataGroup API from AlgoSeek — 5 operation(s) for datagroup.
   name: AlgoSeek DataGroup API
   slug: algoseek-datagroup-api
-- description: The DataGroupPricing API from AlgoSeek — 4 operation(s) for datagrouppricing.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DataGroupPricing API from AlgoSeek — 4 operation(s) for datagrouppricing.
   name: AlgoSeek DataGroupPricing API
   slug: algoseek-datagrouppricing-api
-- description: The Dataset API from AlgoSeek — 10 operation(s) for dataset.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Dataset API from AlgoSeek — 10 operation(s) for dataset.
   name: AlgoSeek Dataset API
   slug: algoseek-dataset-api
-- description: The DatasetChange API from AlgoSeek — 2 operation(s) for datasetchange.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DatasetChange API from AlgoSeek — 2 operation(s) for datasetchange.
   name: AlgoSeek DatasetChange API
   slug: algoseek-datasetchange-api
-- description: The DataType API from AlgoSeek — 5 operation(s) for datatype.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DataType API from AlgoSeek — 5 operation(s) for datatype.
   name: AlgoSeek DataType API
   slug: algoseek-datatype-api
-- description: The DBObjectType API from AlgoSeek — 5 operation(s) for dbobjecttype.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DBObjectType API from AlgoSeek — 5 operation(s) for dbobjecttype.
   name: AlgoSeek DBObjectType API
   slug: algoseek-dbobjecttype-api
-- description: The DeliveryMethod API from AlgoSeek — 5 operation(s) for deliverymethod.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The DeliveryMethod API from AlgoSeek — 5 operation(s) for deliverymethod.
   name: AlgoSeek DeliveryMethod API
   slug: algoseek-deliverymethod-api
-- description: The Documentation API from AlgoSeek — 5 operation(s) for documentation.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Documentation API from AlgoSeek — 5 operation(s) for documentation.
   name: AlgoSeek Documentation API
   slug: algoseek-documentation-api
-- description: The Healthcheck API from AlgoSeek — 1 operation(s) for healthcheck.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Healthcheck API from AlgoSeek — 1 operation(s) for healthcheck.
   name: AlgoSeek Healthcheck API
   slug: algoseek-healthcheck-api
-- description: The Identity API from AlgoSeek — 2 operation(s) for identity.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Identity API from AlgoSeek — 2 operation(s) for identity.
   name: AlgoSeek Identity API
   slug: algoseek-identity-api
-- description: The Login API from AlgoSeek — 1 operation(s) for login.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Login API from AlgoSeek — 1 operation(s) for login.
   name: AlgoSeek Login API
   slug: algoseek-login-api
-- description: The Person API from AlgoSeek — 4 operation(s) for person.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Person API from AlgoSeek — 4 operation(s) for person.
   name: AlgoSeek Person API
   slug: algoseek-person-api
-- description: The Region API from AlgoSeek — 5 operation(s) for region.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Region API from AlgoSeek — 5 operation(s) for region.
   name: AlgoSeek Region API
   slug: algoseek-region-api
-- description: The S3Object API from AlgoSeek — 5 operation(s) for s3object.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The S3Object API from AlgoSeek — 5 operation(s) for s3object.
   name: AlgoSeek S3Object API
   slug: algoseek-s3object-api
-- description: The SampleData API from AlgoSeek — 5 operation(s) for sampledata.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The SampleData API from AlgoSeek — 5 operation(s) for sampledata.
   name: AlgoSeek SampleData API
   slug: algoseek-sampledata-api
-- description: The SQLColumn API from AlgoSeek — 4 operation(s) for sqlcolumn.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The SQLColumn API from AlgoSeek — 4 operation(s) for sqlcolumn.
   name: AlgoSeek SQLColumn API
   slug: algoseek-sqlcolumn-api
-- description: The Status API from AlgoSeek — 5 operation(s) for status.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Status API from AlgoSeek — 5 operation(s) for status.
   name: AlgoSeek Status API
   slug: algoseek-status-api
-- description: The StorageType API from AlgoSeek — 5 operation(s) for storagetype.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The StorageType API from AlgoSeek — 5 operation(s) for storagetype.
   name: AlgoSeek StorageType API
   slug: algoseek-storagetype-api
-- description: The TimeGranularity API from AlgoSeek — 5 operation(s) for timegranularity.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The TimeGranularity API from AlgoSeek — 5 operation(s) for timegranularity.
   name: AlgoSeek TimeGranularity API
   slug: algoseek-timegranularity-api
-- description: The TTLPeriodType API from AlgoSeek — 5 operation(s) for ttlperiodtype.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The TTLPeriodType API from AlgoSeek — 5 operation(s) for ttlperiodtype.
   name: AlgoSeek TTLPeriodType API
   slug: algoseek-ttlperiodtype-api
-- description: The Vendor API from AlgoSeek — 4 operation(s) for vendor.
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Vendor API from AlgoSeek — 4 operation(s) for vendor.
   name: AlgoSeek Vendor API
   slug: algoseek-vendor-api
 artifact_total: 71
@@ -410,7 +476,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/screenshots/algoseek-2026-07-22T202132.png
 security:

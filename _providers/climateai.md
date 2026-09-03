@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -33,49 +44,79 @@ agentic_access:
   summary_line: 89 operations · 49 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: ClimateAI authentication and routing gateway for platform services. Covers accounts, account configuration, users, roles, permissions, device API keys, products, platform labels, reports, transactiona
+- baseURL: https://api-prod.climate.ai
+  baseurl_source: declared
+  description: ClimateAI authentication and routing gateway for platform services. Covers accounts, account configuration, users, roles, permissions, device API keys, products, platform labels, reports, transactiona
   name: ClimateAI Platform API
   slug: platform
-- description: account related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: account related operations
   name: ClimateAI Account API
   slug: climateai-account-api
-- description: account config related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: account config related operations
   name: ClimateAI Account Config API
   slug: climateai-account-config-api
-- description: authentication related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: authentication related operations
   name: ClimateAI Auth API
   slug: climateai-auth-api
-- description: Modern endpoints (recommended). Faster grid-index lookups, blended multi-model forecasts, explicit downscaling control, and a compact, date-keyed response shape. All paths start with `/v2/`.
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: Modern endpoints (recommended). Faster grid-index lookups, blended multi-model forecasts, explicit downscaling control, and a compact, date-keyed response shape. All paths start with `/v2/`.
   name: ClimateAI Current (v2) API
   slug: climateai-current-v2-api
-- description: device api key related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: device api key related operations
   name: ClimateAI Device API
   slug: climateai-device-api
-- description: email sending operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: email sending operations
   name: ClimateAI Email API
   slug: climateai-email-api
-- description: Original endpoints. Stable and supported, but superseded by the Current (v2) endpoints where noted. Default response shape is the `{ meta, data }` envelope, where each `data` entry nests its per-varia
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: Original endpoints. Stable and supported, but superseded by the Current (v2) endpoints where noted. Default response shape is the `{ meta, data }` envelope, where each `data` entry nests its per-varia
   name: ClimateAI Legacy (v1) API
   slug: climateai-legacy-v1-api
-- description: permission related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: permission related operations
   name: ClimateAI Permission API
   slug: climateai-permission-api
-- description: platform label related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: platform label related operations
   name: ClimateAI Platform API
   slug: climateai-platform-api
-- description: product listing
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: product listing
   name: ClimateAI Product API
   slug: climateai-product-api
-- description: report related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: report related operations
   name: ClimateAI Report API
   slug: climateai-report-api
-- description: user role related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: user role related operations
   name: ClimateAI Role API
   slug: climateai-role-api
-- description: routing and proxy operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: routing and proxy operations
   name: ClimateAI Routing API
   slug: climateai-routing-api
-- description: user related operations
+- baseURL: https://api-prod.climate.ai/weather
+  baseurl_source: declared
+  description: user related operations
   name: ClimateAI User API
   slug: climateai-user-api
 artifact_total: 34
@@ -281,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:

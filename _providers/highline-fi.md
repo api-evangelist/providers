@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: The Highline API lets billers, lenders, and platforms verify consumer eligibility for paycheck-deduction payments, present the Highline Link flow to authorize a connection, submit and manage payment r
   name: Highline Pay by Paycheck API
   slug: pay-by-paycheck-api
-- description: The Auth API from Highline — 2 operation(s) for auth.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Auth API from Highline — 2 operation(s) for auth.
   name: Highline Auth API
   slug: highline-fi-auth-api
-- description: The Companies API from Highline — 1 operation(s) for companies.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Companies API from Highline — 1 operation(s) for companies.
   name: Highline Companies API
   slug: highline-fi-companies-api
-- description: The Connections API from Highline — 2 operation(s) for connections.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Connections API from Highline — 2 operation(s) for connections.
   name: Highline Connections API
   slug: highline-fi-connections-api
-- description: The Employments API from Highline — 1 operation(s) for employments.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Employments API from Highline — 1 operation(s) for employments.
   name: Highline Employments API
   slug: highline-fi-employments-api
-- description: The Payment Requests API from Highline — 4 operation(s) for payment requests.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Payment Requests API from Highline — 4 operation(s) for payment requests.
   name: Highline Payment Requests API
   slug: highline-fi-payment-requests-api
-- description: The Payments API from Highline — 3 operation(s) for payments.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Payments API from Highline — 3 operation(s) for payments.
   name: Highline Payments API
   slug: highline-fi-payments-api
-- description: The Products API from Highline — 4 operation(s) for products.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Products API from Highline — 4 operation(s) for products.
   name: Highline Products API
   slug: highline-fi-products-api
-- description: The Settlements API from Highline — 3 operation(s) for settlements.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Settlements API from Highline — 3 operation(s) for settlements.
   name: Highline Settlements API
   slug: highline-fi-settlements-api
-- description: The Users API from Highline — 4 operation(s) for users.
+- baseURL: https://api.highline.co
+  baseurl_source: spec
+  description: The Users API from Highline — 4 operation(s) for users.
   name: Highline Users API
   slug: highline-fi-users-api
 artifact_total: 27
@@ -224,7 +242,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/screenshots/highline-fi-2026-06-20T182729.png
 security:

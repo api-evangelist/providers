@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 2 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Jobs API from Apache SeaTunnel — 4 operation(s) for jobs.
+- baseURL: https://seatunnel.example.com/hazelcast/rest/maps
+  baseurl_source: spec
+  description: The Jobs API from Apache SeaTunnel — 4 operation(s) for jobs.
   name: Apache SeaTunnel Jobs API
   slug: apache-seatunnel-jobs-api
-- description: The Monitoring API from Apache SeaTunnel — 2 operation(s) for monitoring.
+- baseURL: https://seatunnel.example.com/hazelcast/rest/maps
+  baseurl_source: spec
+  description: The Monitoring API from Apache SeaTunnel — 2 operation(s) for monitoring.
   name: Apache SeaTunnel Monitoring API
   slug: apache-seatunnel-monitoring-api
 artifact_total: 59
@@ -296,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/screenshots/apache-seatunnel-2026-06-20T172141.png
 security:

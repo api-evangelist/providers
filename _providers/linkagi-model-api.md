@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Messages-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
+- baseURL: https://api.linktoagi.com
+  baseurl_source: declared
+  description: Messages-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
   name: LinkAGI Model API Anthropic-style route API
   slug: linkagi-model-api-anthropic-style-route-api
-- description: Inspect the models visible to the current token group.
+- baseURL: https://api.linktoagi.com
+  baseurl_source: declared
+  description: Inspect the models visible to the current token group.
   name: LinkAGI Model API Discovery API
   slug: linkagi-model-api-discovery-api
-- description: generateContent-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
+- baseURL: https://api.linktoagi.com
+  baseurl_source: declared
+  description: generateContent-shaped route advertised by the service. The route reaches authentication without a key; authenticated native compatibility has not been verified in the latest evidence set.
   name: LinkAGI Model API Gemini-style route API
   slug: linkagi-model-api-gemini-style-route-api
-- description: OpenAI-compatible Chat Completions and Responses routes.
+- baseURL: https://api.linktoagi.com
+  baseurl_source: declared
+  description: OpenAI-compatible Chat Completions and Responses routes.
   name: LinkAGI Model API OpenAI compatible API
   slug: linkagi-model-api-openai-compatible-api
-- description: Unauthenticated service status and live pricing metadata.
+- baseURL: https://api.linktoagi.com
+  baseurl_source: declared
+  description: Unauthenticated service status and live pricing metadata.
   name: LinkAGI Model API Public metadata API
   slug: linkagi-model-api-public-metadata-api
 artifact_total: 14
@@ -212,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkagi-model-api/refs/heads/main/screenshots/linkagi-model-api-2026-08-17T081030.png
 security:

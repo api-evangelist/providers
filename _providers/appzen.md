@@ -33,64 +33,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Chart of Accounts API from AppZen — 3 operation(s) for chart of accounts.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Chart of Accounts API from AppZen — 3 operation(s) for chart of accounts.
   name: AppZen Chart of Accounts API
   slug: appzen-chart-of-accounts-api
-- description: The Custom Data Sets API from AppZen — 3 operation(s) for custom data sets.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Custom Data Sets API from AppZen — 3 operation(s) for custom data sets.
   name: AppZen Custom Data Sets API
   slug: appzen-custom-data-sets-api
-- description: The Documents API from AppZen — 1 operation(s) for documents.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Documents API from AppZen — 1 operation(s) for documents.
   name: AppZen Documents API
   slug: appzen-documents-api
-- description: The Entities API from AppZen — 4 operation(s) for entities.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Entities API from AppZen — 4 operation(s) for entities.
   name: AppZen Entities API
   slug: appzen-entities-api
-- description: The Externally Processed Invoices API from AppZen — 2 operation(s) for externally processed invoices.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Externally Processed Invoices API from AppZen — 2 operation(s) for externally processed invoices.
   name: AppZen Externally Processed Invoices API
   slug: appzen-externally-processed-invoices-api
-- description: The Goods Receipt API from AppZen — 2 operation(s) for goods receipt.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Goods Receipt API from AppZen — 2 operation(s) for goods receipt.
   name: AppZen Goods Receipt API
   slug: appzen-goods-receipt-api
-- description: The Invoice Audit Results API from AppZen — 2 operation(s) for invoice audit results.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Invoice Audit Results API from AppZen — 2 operation(s) for invoice audit results.
   name: AppZen Invoice Audit Results API
   slug: appzen-invoice-audit-results-api
-- description: The Invoice Status Sync API from AppZen — 1 operation(s) for invoice status sync.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Invoice Status Sync API from AppZen — 1 operation(s) for invoice status sync.
   name: AppZen Invoice Status Sync API
   slug: appzen-invoice-status-sync-api
-- description: The Invoices API from AppZen — 3 operation(s) for invoices.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Invoices API from AppZen — 3 operation(s) for invoices.
   name: AppZen Invoices API
   slug: appzen-invoices-api
-- description: The Lookup Item API from AppZen — 3 operation(s) for lookup item.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Lookup Item API from AppZen — 3 operation(s) for lookup item.
   name: AppZen Lookup Item API
   slug: appzen-lookup-item-api
-- description: The Lookup Table API from AppZen — 3 operation(s) for lookup table.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Lookup Table API from AppZen — 3 operation(s) for lookup table.
   name: AppZen Lookup Table API
   slug: appzen-lookup-table-api
-- description: The Payment Terms API from AppZen — 4 operation(s) for payment terms.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Payment Terms API from AppZen — 4 operation(s) for payment terms.
   name: AppZen Payment Terms API
   slug: appzen-payment-terms-api
-- description: The Processed Invoices API from AppZen — 1 operation(s) for processed invoices.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Processed Invoices API from AppZen — 1 operation(s) for processed invoices.
   name: AppZen Processed Invoices API
   slug: appzen-processed-invoices-api
-- description: The Purchase Orders API from AppZen — 4 operation(s) for purchase orders.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Purchase Orders API from AppZen — 4 operation(s) for purchase orders.
   name: AppZen Purchase Orders API
   slug: appzen-purchase-orders-api
-- description: The Suppliers API from AppZen — 4 operation(s) for suppliers.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Suppliers API from AppZen — 4 operation(s) for suppliers.
   name: AppZen Suppliers API
   slug: appzen-suppliers-api
-- description: The Tax Master API from AppZen — 3 operation(s) for tax master.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Tax Master API from AppZen — 3 operation(s) for tax master.
   name: AppZen Tax Master API
   slug: appzen-tax-master-api
-- description: The Unit of Measures API from AppZen — 3 operation(s) for unit of measures.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Unit of Measures API from AppZen — 3 operation(s) for unit of measures.
   name: AppZen Unit of Measures API
   slug: appzen-unit-of-measures-api
-- description: The User Groups API from AppZen — 3 operation(s) for user groups.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The User Groups API from AppZen — 3 operation(s) for user groups.
   name: AppZen User Groups API
   slug: appzen-user-groups-api
-- description: The Vat API from AppZen — 4 operation(s) for vat.
+- baseURL: https://api.appzen.com/dictionary-data-services
+  baseurl_source: declared
+  description: The Vat API from AppZen — 4 operation(s) for vat.
   name: AppZen Vat API
   slug: appzen-vat-api
 artifact_total: 42
@@ -286,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appzen/refs/heads/main/screenshots/appzen-2026-07-25T200859.png
 security:

@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
   name: Unstoppable Finance (Iron) Addresses API
   slug: unstoppable-finance-addresses-api
-- description: Operations on Autoramp
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Autoramp
   name: Unstoppable Finance (Iron) Autoramp API
   slug: unstoppable-finance-autoramp-api
-- description: Operations on Currencies
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Currencies
   name: Unstoppable Finance (Iron) Currencies API
   slug: unstoppable-finance-currencies-api
-- description: Operations on Customers
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Customers
   name: Unstoppable Finance (Iron) Customer API
   slug: unstoppable-finance-customer-api
-- description: Operations on Exchange Rate
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Exchange Rate
   name: Unstoppable Finance (Iron) ExchangeRate API
   slug: unstoppable-finance-exchangerate-api
-- description: Operations on Fee Profiles
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Fee Profiles
   name: Unstoppable Finance (Iron) FeeProfiles API
   slug: unstoppable-finance-feeprofiles-api
-- description: Operations for Sandbox Testing
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations for Sandbox Testing
   name: Unstoppable Finance (Iron) Sandbox API
   slug: unstoppable-finance-sandbox-api
-- description: Operations on Terms and Conditions
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Terms and Conditions
   name: Unstoppable Finance (Iron) TermsAndConditions API
   slug: unstoppable-finance-termsandconditions-api
-- description: Operations on Webhooks
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Webhooks
   name: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
 artifact_total: 34
@@ -287,7 +305,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -297,7 +315,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     contracts:
@@ -318,7 +336,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/screenshots/unstoppable-finance-2026-08-17T082634.png
 security:

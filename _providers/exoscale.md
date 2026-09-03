@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -43,115 +43,189 @@ agentic_access:
   summary_line: 338 operations · 219 acting · 24 human-in-the-loop
 api_count: 1
 apis:
-- description: The ai-api-key API from Exoscale — 3 operation(s) for ai-api-key.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: The ai-api-key API from Exoscale — 3 operation(s) for ai-api-key.
   name: Exoscale ai-api-key API
   slug: exoscale-ai-api-key-api
-- description: Anti-affinity groups let you define placement constraints for your Compute instances.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Anti-affinity groups let you define placement constraints for your Compute instances.
   name: Exoscale anti-affinity-group API
   slug: exoscale-anti-affinity-group-api
-- description: API keys are credentials for programmatic access to Exoscale APIs and services.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: API keys are credentials for programmatic access to Exoscale APIs and services.
   name: Exoscale api-key API
   slug: exoscale-api-key-api
-- description: Exoscale's Block Storage offers persistent externally attached volumes for your Compute instances.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Exoscale's Block Storage offers persistent externally attached volumes for your Compute instances.
   name: Exoscale block-storage API
   slug: exoscale-block-storage-api
-- description: The ccm API from Exoscale — 1 operation(s) for ccm.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: The ccm API from Exoscale — 1 operation(s) for ccm.
   name: Exoscale ccm API
   slug: exoscale-ccm-api
-- description: Clusters are managed Kubernetes control planes.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Clusters are managed Kubernetes control planes.
   name: Exoscale cluster API
   slug: exoscale-cluster-api
-- description: Host anything from simple applications to complex architectures. Start a compute instance in seconds and scale as your infrastructure grows.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Host anything from simple applications to complex architectures. Start a compute instance in seconds and scale as your infrastructure grows.
   name: Exoscale compute API
   slug: exoscale-compute-api
-- description: A suite of cryptographic primitives offered by the Exoscale KMS.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: A suite of cryptographic primitives offered by the Exoscale KMS.
   name: Exoscale crypto API
   slug: exoscale-crypto-api
-- description: Databases as a Service (DBaaS) provides scalable and fully-managed database solutions with high availability and performance backed by Exoscale's Compute and Storage services.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Databases as a Service (DBaaS) provides scalable and fully-managed database solutions with high availability and performance backed by Exoscale's Compute and Storage services.
   name: Exoscale dbaas API
   slug: exoscale-dbaas-api
-- description: Deploy Target lets you spin up Compute instances on dedicated hypervisors.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Deploy Target lets you spin up Compute instances on dedicated hypervisors.
   name: Exoscale deploy-target API
   slug: exoscale-deploy-target-api
-- description: Deployments are loaded model instances ready for inference.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Deployments are loaded model instances ready for inference.
   name: Exoscale deployment API
   slug: exoscale-deployment-api
-- description: DNS zone management.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: DNS zone management.
   name: Exoscale domain API
   slug: exoscale-domain-api
-- description: Elastic IPs are additional public IPv4/6 addresses that can be attached to Compute instances, with optional healthcheck support.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Elastic IPs are additional public IPv4/6 addresses that can be attached to Compute instances, with optional healthcheck support.
   name: Exoscale elastic-ip API
   slug: exoscale-elastic-ip-api
-- description: Events form the basis of the Exoscale audit-trail, a mechanism to query past events performing mutations on resources which happened on an organization.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Events form the basis of the Exoscale audit-trail, a mechanism to query past events performing mutations on resources which happened on an organization.
   name: Exoscale event API
   slug: exoscale-event-api
-- description: Instances are the virtual machines at the core of the Exoscale Compute service.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Instances are the virtual machines at the core of the Exoscale Compute service.
   name: Exoscale instance API
   slug: exoscale-instance-api
-- description: Instance Pools is an Exoscale service allowing users to provision managed groups of identical Compute instances automatically.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Instance Pools is an Exoscale service allowing users to provision managed groups of identical Compute instances automatically.
   name: Exoscale instance-pool API
   slug: exoscale-instance-pool-api
-- description: An Instance Type is a resource describing the amount of CPU, RAM and GPUs allocated to a Compute instance.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: An Instance Type is a resource describing the amount of CPU, RAM and GPUs allocated to a Compute instance.
   name: Exoscale instance-type API
   slug: exoscale-instance-type-api
-- description: Operations for KMS Key lifecycle management.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Operations for KMS Key lifecycle management.
   name: Exoscale kms-key API
   slug: exoscale-kms-key-api
-- description: Lifecycle of AI Models.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Lifecycle of AI Models.
   name: Exoscale model API
   slug: exoscale-model-api
-- description: A Network Load Balancer (NLB) is a Layer 4 (TCP/UDP) load balancer that distributes incoming traffic to Compute instances managed by an Instance Pool.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: A Network Load Balancer (NLB) is a Layer 4 (TCP/UDP) load balancer that distributes incoming traffic to Compute instances managed by an Instance Pool.
   name: Exoscale network-load-balancer API
   slug: exoscale-network-load-balancer-api
-- description: Nodepools are groups of compute instances managed by SKS, serving as worker nodes in your Kubernetes cluster.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Nodepools are groups of compute instances managed by SKS, serving as worker nodes in your Kubernetes cluster.
   name: Exoscale nodepool API
   slug: exoscale-nodepool-api
-- description: Nodepool templates are Exoscale-managed instance templates for SKS worker nodes.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Nodepool templates are Exoscale-managed instance templates for SKS worker nodes.
   name: Exoscale nodepool-template API
   slug: exoscale-nodepool-template-api
-- description: Operations describe the current state of an asynchronous operation.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Operations describe the current state of an asynchronous operation.
   name: Exoscale operation API
   slug: exoscale-operation-api
-- description: The organization API from Exoscale — 3 operation(s) for organization.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: The organization API from Exoscale — 3 operation(s) for organization.
   name: Exoscale organization API
   slug: exoscale-organization-api
-- description: The Organization Policy is an IAM policy that applies as a first layer across your entire Exoscale organization.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: The Organization Policy is an IAM policy that applies as a first layer across your entire Exoscale organization.
   name: Exoscale organization-policy API
   slug: exoscale-organization-policy-api
-- description: Private Network provides private L2 networking functionality between Compute instances.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Private Network provides private L2 networking functionality between Compute instances.
   name: Exoscale private-network API
   slug: exoscale-private-network-api
-- description: The quotas API from Exoscale — 2 operation(s) for quotas.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: The quotas API from Exoscale — 2 operation(s) for quotas.
   name: Exoscale quotas API
   slug: exoscale-quotas-api
-- description: DNS zone records management.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: DNS zone records management.
   name: Exoscale record API
   slug: exoscale-record-api
-- description: Reverse DNS lets you record PTR records for Compute instance public IP addresses or Elastic IPs.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Reverse DNS lets you record PTR records for Compute instance public IP addresses or Elastic IPs.
   name: Exoscale reverse-dns API
   slug: exoscale-reverse-dns-api
-- description: IAM roles lets you define logical sets of policies to grant to users and API keys.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: IAM roles lets you define logical sets of policies to grant to users and API keys.
   name: Exoscale role API
   slug: exoscale-role-api
-- description: Security Groups are groups of firewall rules that regulate network traffic to and from your Compute instances.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Security Groups are groups of firewall rules that regulate network traffic to and from your Compute instances.
   name: Exoscale security-group API
   slug: exoscale-security-group-api
-- description: Snapshots provide a way to get point-in-time recovery for your Compute instance.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Snapshots provide a way to get point-in-time recovery for your Compute instance.
   name: Exoscale snapshot API
   slug: exoscale-snapshot-api
-- description: Exoscale Simple Object Storage (SOS) is an S3-compatible object storage service.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Exoscale Simple Object Storage (SOS) is an S3-compatible object storage service.
   name: Exoscale sos API
   slug: exoscale-sos-api
-- description: SSH Keypairs
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: SSH Keypairs
   name: Exoscale ssh-key API
   slug: exoscale-ssh-key-api
-- description: Templates contain the OS and the initial setup of a Compute instance.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Templates contain the OS and the initial setup of a Compute instance.
   name: Exoscale template API
   slug: exoscale-template-api
-- description: IAM users map to humans empowered with access to Exoscale resources.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: IAM users map to humans empowered with access to Exoscale resources.
   name: Exoscale user API
   slug: exoscale-user-api
-- description: A Zone represents an independent datacenter in which Exoscale infrastructure is deployed into.
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: A Zone represents an independent datacenter in which Exoscale infrastructure is deployed into.
   name: Exoscale zone API
   slug: exoscale-zone-api
 artifact_total: 83
@@ -394,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/screenshots/exoscale-2026-08-17T123426.png
 security:

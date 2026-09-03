@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 101 operations · 55 acting
 api_count: 1
 apis:
-- description: Administrative operations
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Administrative operations
   name: Octane Admin API
   slug: octane-admin-api
-- description: Avalara tax integration
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Avalara tax integration
   name: Octane Avalara API
   slug: octane-avalara-api
-- description: Manage vendor billing settings
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage vendor billing settings
   name: Octane Billing Settings API
   slug: octane-billing-settings-api
-- description: Manage discount coupons
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage discount coupons
   name: Octane Coupons API
   slug: octane-coupons-api
-- description: Manage customer credit grants and ledgers
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage customer credit grants and ledgers
   name: Octane Credits API
   slug: octane-credits-api
-- description: End-customer portal operations
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: End-customer portal operations
   name: Octane Customer Portal API
   slug: octane-customer-portal-api
-- description: Manage customers and their subscriptions, billing, and settings
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage customers and their subscriptions, billing, and settings
   name: Octane Customers API
   slug: octane-customers-api
-- description: Manage product features
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage product features
   name: Octane Features API
   slug: octane-features-api
-- description: Access and manage customer invoices
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Access and manage customer invoices
   name: Octane Invoices API
   slug: octane-invoices-api
-- description: Real-time usage measurement retrieval
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Real-time usage measurement retrieval
   name: Octane Live Measurements API
   slug: octane-live-measurements-api
-- description: Submit usage measurements for customers
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Submit usage measurements for customers
   name: Octane Measurements API
   slug: octane-measurements-api
-- description: Manage usage meters that track events and aggregate data
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage usage meters that track events and aggregate data
   name: Octane Meters API
   slug: octane-meters-api
-- description: Manage pricing plans with metered components and flat rates
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage pricing plans with metered components and flat rates
   name: Octane Price Plans API
   slug: octane-price-plans-api
-- description: Process customer refunds
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Process customer refunds
   name: Octane Refunds API
   slug: octane-refunds-api
-- description: Revenue recognition reporting
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Revenue recognition reporting
   name: Octane Revenue Recognition API
   slug: octane-revenue-recognition-api
-- description: Manage customer subscriptions to price plans
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage customer subscriptions to price plans
   name: Octane Subscriptions API
   slug: octane-subscriptions-api
-- description: Manage webhook endpoints
+- baseURL: https://api.getoctane.io
+  baseurl_source: declared
+  description: Manage webhook endpoints
   name: Octane Webhooks API
   slug: octane-webhooks-api
 artifact_total: 51
@@ -307,7 +341,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octane/refs/heads/main/screenshots/octane-2026-06-20T190608.png
 security:

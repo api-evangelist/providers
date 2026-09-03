@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: The Falco gRPC API provided a streaming interface for consuming Falco alert outputs and querying version information from a running Falco instance. The embedded gRPC server and gRPC Output have been d
   name: Falco gRPC API
   slug: falco-grpc-api
-- description: Health check endpoints
+- baseURL: http://localhost:8765
+  baseurl_source: spec
+  description: Health check endpoints
   name: Falco Health API
   slug: falco-health-api
-- description: Rules management endpoints
+- baseURL: http://localhost:8765
+  baseurl_source: spec
+  description: Rules management endpoints
   name: Falco Rules API
   slug: falco-rules-api
-- description: Version information
+- baseURL: http://localhost:8765
+  baseurl_source: spec
+  description: Version information
   name: Falco Version API
   slug: falco-version-api
 artifact_total: 19
@@ -225,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/screenshots/falco-2026-06-20T181029.png
 security:

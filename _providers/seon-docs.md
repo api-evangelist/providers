@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The SEON Phone API unlocks insights into a user's phone number history and social or digital profiles connected to it, helping detect fraud and verify user identity.
   name: SEON Phone API
   slug: phone-api
-- description: The AML API from SEON — 1 operation(s) for aml.
+- baseURL: https://api.seon.io
+  baseurl_source: spec
+  description: The AML API from SEON — 1 operation(s) for aml.
   name: SEON AML API
   slug: seon-docs-aml-api
-- description: The BIN API from SEON — 1 operation(s) for bin.
+- baseURL: https://api.seon.io
+  baseurl_source: spec
+  description: The BIN API from SEON — 1 operation(s) for bin.
   name: SEON BIN API
   slug: seon-docs-bin-api
-- description: The Email API from SEON — 1 operation(s) for email.
+- baseURL: https://api.seon.io
+  baseurl_source: spec
+  description: The Email API from SEON — 1 operation(s) for email.
   name: SEON Email API
   slug: seon-docs-email-api
-- description: The Fraud API from SEON — 1 operation(s) for fraud.
+- baseURL: https://api.seon.io
+  baseurl_source: spec
+  description: The Fraud API from SEON — 1 operation(s) for fraud.
   name: SEON Fraud API
   slug: seon-docs-fraud-api
-- description: The IP API from SEON — 1 operation(s) for ip.
+- baseURL: https://api.seon.io
+  baseurl_source: spec
+  description: The IP API from SEON — 1 operation(s) for ip.
   name: SEON IP API
   slug: seon-docs-ip-api
-- description: The Phone API from SEON — 1 operation(s) for phone.
+- baseURL: https://api.seon.io
+  baseurl_source: spec
+  description: The Phone API from SEON — 1 operation(s) for phone.
   name: SEON Phone API
   slug: seon-docs-phone-api
 artifact_total: 23
@@ -191,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seon-docs/refs/heads/main/screenshots/seon-docs-2026-06-20T193713.png
 security:

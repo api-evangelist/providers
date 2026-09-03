@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,43 +76,69 @@ apis:
 - description: InPort is the authoritative metadata repository for NOAA Fisheries and the National Ocean Service and the NOAA-wide platform for data management plans. Catalog records describe data products, services
   name: NOAA InPort Metadata Catalog
   slug: inport-metadata-api
-- description: The Alerts API from NOAA — National Oceanic and Atmospheric Administration — 8 operation(s) for alerts.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Alerts API from NOAA — National Oceanic and Atmospheric Administration — 8 operation(s) for alerts.
   name: NOAA — National Oceanic and Atmospheric Administration Alerts API
   slug: noaa-gov-alerts-api
-- description: The Aviation API from NOAA — National Oceanic and Atmospheric Administration — 7 operation(s) for aviation.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Aviation API from NOAA — National Oceanic and Atmospheric Administration — 7 operation(s) for aviation.
   name: NOAA — National Oceanic and Atmospheric Administration Aviation API
   slug: noaa-gov-aviation-api
-- description: The Glossary API from NOAA — National Oceanic and Atmospheric Administration — 1 operation(s) for glossary.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Glossary API from NOAA — National Oceanic and Atmospheric Administration — 1 operation(s) for glossary.
   name: NOAA — National Oceanic and Atmospheric Administration Glossary API
   slug: noaa-gov-glossary-api
-- description: The Gridpoints API from NOAA — National Oceanic and Atmospheric Administration — 4 operation(s) for gridpoints.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Gridpoints API from NOAA — National Oceanic and Atmospheric Administration — 4 operation(s) for gridpoints.
   name: NOAA — National Oceanic and Atmospheric Administration Gridpoints API
   slug: noaa-gov-gridpoints-api
-- description: The Icons API from NOAA — National Oceanic and Atmospheric Administration — 3 operation(s) for icons.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Icons API from NOAA — National Oceanic and Atmospheric Administration — 3 operation(s) for icons.
   name: NOAA — National Oceanic and Atmospheric Administration Icons API
   slug: noaa-gov-icons-api
-- description: The Offices API from NOAA — National Oceanic and Atmospheric Administration — 8 operation(s) for offices.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Offices API from NOAA — National Oceanic and Atmospheric Administration — 8 operation(s) for offices.
   name: NOAA — National Oceanic and Atmospheric Administration Offices API
   slug: noaa-gov-offices-api
-- description: The Points API from NOAA — National Oceanic and Atmospheric Administration — 3 operation(s) for points.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Points API from NOAA — National Oceanic and Atmospheric Administration — 3 operation(s) for points.
   name: NOAA — National Oceanic and Atmospheric Administration Points API
   slug: noaa-gov-points-api
-- description: The Products API from NOAA — National Oceanic and Atmospheric Administration — 9 operation(s) for products.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Products API from NOAA — National Oceanic and Atmospheric Administration — 9 operation(s) for products.
   name: NOAA — National Oceanic and Atmospheric Administration Products API
   slug: noaa-gov-products-api
-- description: The Radar API from NOAA — National Oceanic and Atmospheric Administration — 8 operation(s) for radar.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Radar API from NOAA — National Oceanic and Atmospheric Administration — 8 operation(s) for radar.
   name: NOAA — National Oceanic and Atmospheric Administration Radar API
   slug: noaa-gov-radar-api
-- description: The Radio API from NOAA — National Oceanic and Atmospheric Administration — 1 operation(s) for radio.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Radio API from NOAA — National Oceanic and Atmospheric Administration — 1 operation(s) for radio.
   name: NOAA — National Oceanic and Atmospheric Administration Radio API
   slug: noaa-gov-radio-api
-- description: The Stations API from NOAA — National Oceanic and Atmospheric Administration — 7 operation(s) for stations.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Stations API from NOAA — National Oceanic and Atmospheric Administration — 7 operation(s) for stations.
   name: NOAA — National Oceanic and Atmospheric Administration Stations API
   slug: noaa-gov-stations-api
-- description: The Thumbnails API from NOAA — National Oceanic and Atmospheric Administration — 1 operation(s) for thumbnails.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Thumbnails API from NOAA — National Oceanic and Atmospheric Administration — 1 operation(s) for thumbnails.
   name: NOAA — National Oceanic and Atmospheric Administration Thumbnails API
   slug: noaa-gov-thumbnails-api
-- description: The Zones API from NOAA — National Oceanic and Atmospheric Administration — 6 operation(s) for zones.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Zones API from NOAA — National Oceanic and Atmospheric Administration — 6 operation(s) for zones.
   name: NOAA — National Oceanic and Atmospheric Administration Zones API
   slug: noaa-gov-zones-api
 artifact_total: 60
@@ -416,7 +442,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/screenshots/noaa-gov-2026-08-17T124233.png
 security:

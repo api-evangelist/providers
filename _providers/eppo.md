@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Eppo Cloud REST API provides programmatic access to feature flags, experiments, allocations, metrics, and assignments configuration.
   name: Eppo Cloud REST API
   slug: eppo-cloud-api
-- description: The Allocations API from Eppo — 1 operation(s) for allocations.
+- baseURL: https://eppo.cloud/api
+  baseurl_source: declared
+  description: The Allocations API from Eppo — 1 operation(s) for allocations.
   name: Eppo Allocations API
   slug: eppo-allocations-api
-- description: The Assignments API from Eppo — 1 operation(s) for assignments.
+- baseURL: https://eppo.cloud/api
+  baseurl_source: declared
+  description: The Assignments API from Eppo — 1 operation(s) for assignments.
   name: Eppo Assignments API
   slug: eppo-assignments-api
-- description: The Experiments API from Eppo — 2 operation(s) for experiments.
+- baseURL: https://eppo.cloud/api
+  baseurl_source: declared
+  description: The Experiments API from Eppo — 2 operation(s) for experiments.
   name: Eppo Experiments API
   slug: eppo-experiments-api
-- description: The Flags API from Eppo — 2 operation(s) for flags.
+- baseURL: https://eppo.cloud/api
+  baseurl_source: declared
+  description: The Flags API from Eppo — 2 operation(s) for flags.
   name: Eppo Flags API
   slug: eppo-flags-api
-- description: The Metrics API from Eppo — 1 operation(s) for metrics.
+- baseURL: https://eppo.cloud/api
+  baseurl_source: declared
+  description: The Metrics API from Eppo — 1 operation(s) for metrics.
   name: Eppo Metrics API
   slug: eppo-metrics-api
 artifact_total: 20
@@ -186,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/screenshots/eppo-2026-06-20T180759.png
 security:

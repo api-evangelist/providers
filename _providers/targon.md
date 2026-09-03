@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: OpenAI-compatible chat completions.
+- baseURL: https://api.targon.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions.
   name: Targon Chat API
   slug: targon-chat-api
-- description: OpenAI-compatible legacy text completions.
+- baseURL: https://api.targon.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible legacy text completions.
   name: Targon Completions API
   slug: targon-completions-api
-- description: Image generation from a text prompt.
+- baseURL: https://api.targon.com/v1
+  baseurl_source: declared
+  description: Image generation from a text prompt.
   name: Targon Images API
   slug: targon-images-api
-- description: List models available on Targon.
+- baseURL: https://api.targon.com/v1
+  baseurl_source: declared
+  description: List models available on Targon.
   name: Targon Models API
   slug: targon-models-api
-- description: Query-based search/retrieval.
+- baseURL: https://api.targon.com/v1
+  baseurl_source: declared
+  description: Query-based search/retrieval.
   name: Targon Search API
   slug: targon-search-api
 artifact_total: 20
@@ -171,11 +181,11 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -185,7 +195,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 40.3
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +204,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/targon/refs/heads/main/screenshots/targon-2026-09-02T162642.png
 security:
 - kind: authentication
   name: Targon Authentication

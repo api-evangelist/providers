@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 34 operations · 31 acting
 api_count: 10
 apis:
-- description: The Characters API from Convai — 6 operation(s) for characters.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Characters API from Convai — 6 operation(s) for characters.
   name: Convai Characters API
   slug: convai-com-characters-api
-- description: The Chat History API from Convai — 2 operation(s) for chat history.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Chat History API from Convai — 2 operation(s) for chat history.
   name: Convai Chat History API
   slug: convai-com-chat-history-api
-- description: The Custom LLM API from Convai — 4 operation(s) for custom llm.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Custom LLM API from Convai — 4 operation(s) for custom llm.
   name: Convai Custom LLM API
   slug: convai-com-custom-llm-api
-- description: The Evaluation API from Convai — 1 operation(s) for evaluation.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Evaluation API from Convai — 1 operation(s) for evaluation.
   name: Convai Evaluation API
   slug: convai-com-evaluation-api
-- description: The Interaction API from Convai — 1 operation(s) for interaction.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Interaction API from Convai — 1 operation(s) for interaction.
   name: Convai Interaction API
   slug: convai-com-interaction-api
-- description: The Knowledge Bank API from Convai — 4 operation(s) for knowledge bank.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Knowledge Bank API from Convai — 4 operation(s) for knowledge bank.
   name: Convai Knowledge Bank API
   slug: convai-com-knowledge-bank-api
-- description: The Live API from Convai — 1 operation(s) for live.
+- baseURL: https://live.convai.com
+  baseurl_source: spec
+  description: The Live API from Convai — 1 operation(s) for live.
   name: Convai Live API
   slug: convai-com-live-api
-- description: The Narrative API from Convai — 11 operation(s) for narrative.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The Narrative API from Convai — 11 operation(s) for narrative.
   name: Convai Narrative API
   slug: convai-com-narrative-api
-- description: The Streaming API from Convai — 1 operation(s) for streaming.
+- baseURL: https://transcribe.convai.com
+  baseurl_source: spec
+  description: The Streaming API from Convai — 1 operation(s) for streaming.
   name: Convai Streaming API
   slug: convai-com-streaming-api
-- description: The TTS API from Convai — 3 operation(s) for tts.
+- baseURL: https://api.convai.com
+  baseurl_source: spec
+  description: The TTS API from Convai — 3 operation(s) for tts.
   name: Convai TTS API
   slug: convai-com-tts-api
 artifact_total: 51
@@ -359,7 +379,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/screenshots/convai-com-2026-06-20T174957.png
 security:

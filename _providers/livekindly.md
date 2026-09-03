@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -37,40 +49,64 @@ apis:
 - description: A Model Context Protocol server advertised in the thelivekindlyco.com WordPress REST route index under the "mcp" namespace, with two endpoints — mcp-adapter-default-server and mcp-oauth-server. Unlike
   name: LIVEKINDLY MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Brands API from LIVEKINDLY — 2 operation(s) for brands.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Brands API from LIVEKINDLY — 2 operation(s) for brands.
   name: LIVEKINDLY Brands API
   slug: livekindly-brands-api
-- description: The Careers API from LIVEKINDLY — 2 operation(s) for careers.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Careers API from LIVEKINDLY — 2 operation(s) for careers.
   name: LIVEKINDLY Careers API
   slug: livekindly-careers-api
-- description: The Comments API from LIVEKINDLY — 2 operation(s) for comments.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from LIVEKINDLY — 2 operation(s) for comments.
   name: LIVEKINDLY Comments API
   slug: livekindly-comments-api
-- description: The Discovery API from LIVEKINDLY — 7 operation(s) for discovery.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from LIVEKINDLY — 7 operation(s) for discovery.
   name: LIVEKINDLY Discovery API
   slug: livekindly-discovery-api
-- description: The Media API from LIVEKINDLY — 4 operation(s) for media.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from LIVEKINDLY — 4 operation(s) for media.
   name: LIVEKINDLY Media API
   slug: livekindly-media-api
-- description: The Pages API from LIVEKINDLY — 4 operation(s) for pages.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from LIVEKINDLY — 4 operation(s) for pages.
   name: LIVEKINDLY Pages API
   slug: livekindly-pages-api
-- description: The Partners API from LIVEKINDLY — 2 operation(s) for partners.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Partners API from LIVEKINDLY — 2 operation(s) for partners.
   name: LIVEKINDLY Partners API
   slug: livekindly-partners-api
-- description: The Posts API from LIVEKINDLY — 4 operation(s) for posts.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from LIVEKINDLY — 4 operation(s) for posts.
   name: LIVEKINDLY Posts API
   slug: livekindly-posts-api
-- description: The Search API from LIVEKINDLY — 1 operation(s) for search.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from LIVEKINDLY — 1 operation(s) for search.
   name: LIVEKINDLY Search API
   slug: livekindly-search-api
-- description: The Settings API from LIVEKINDLY — 1 operation(s) for settings.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from LIVEKINDLY — 1 operation(s) for settings.
   name: LIVEKINDLY Settings API
   slug: livekindly-settings-api
-- description: The Taxonomy API from LIVEKINDLY — 6 operation(s) for taxonomy.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from LIVEKINDLY — 6 operation(s) for taxonomy.
   name: LIVEKINDLY Taxonomy API
   slug: livekindly-taxonomy-api
-- description: The Users API from LIVEKINDLY — 6 operation(s) for users.
+- baseURL: https://thelivekindlyco.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from LIVEKINDLY — 6 operation(s) for users.
   name: LIVEKINDLY Users API
   slug: livekindly-users-api
 artifact_total: 31
@@ -276,7 +312,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekindly/refs/heads/main/screenshots/livekindly-2026-08-07T171739.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Authenticated user, plan, and company context.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: Authenticated user, plan, and company context.
   name: Spark Hire Account API
   slug: spark-hire-account-api
-- description: Questions within an interview and reusable question sets.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: Questions within an interview and reusable question sets.
   name: Spark Hire Interview Questions API
   slug: spark-hire-interview-questions-api
-- description: One-way and live video interviews.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: One-way and live video interviews.
   name: Spark Hire Interviews API
   slug: spark-hire-interviews-api
-- description: Jobs (requisitions) that interviews are organized under.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: Jobs (requisitions) that interviews are organized under.
   name: Spark Hire Jobs API
   slug: spark-hire-jobs-api
-- description: Basic and advanced share links for reviewing interviews.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: Basic and advanced share links for reviewing interviews.
   name: Spark Hire Share Links API
   slug: spark-hire-share-links-api
-- description: Company users (evaluators) and their integration API keys.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: Company users (evaluators) and their integration API keys.
   name: Spark Hire Users API
   slug: spark-hire-users-api
-- description: Event subscriptions for interview and job lifecycle changes.
+- baseURL: https://api.sparkhire.com/v1.0
+  baseurl_source: declared
+  description: Event subscriptions for interview and job lifecycle changes.
   name: Spark Hire Webhooks API
   slug: spark-hire-webhooks-api
 artifact_total: 22
@@ -160,7 +174,7 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -183,8 +197,9 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/screenshots/spark-hire-2026-09-02T160328.png
 security:
 - kind: authentication
   name: Spark Hire Authentication

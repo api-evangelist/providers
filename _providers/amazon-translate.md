@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: The Batch Translation API from Amazon Translate — 2 operation(s) for batch translation.
+- baseURL: https://translate.amazonaws.com
+  baseurl_source: declared
+  description: The Batch Translation API from Amazon Translate — 2 operation(s) for batch translation.
   name: Amazon Translate Batch Translation API
   slug: amazon-translate-batch-translation-api
-- description: The Terminology API from Amazon Translate — 1 operation(s) for terminology.
+- baseURL: https://translate.amazonaws.com
+  baseurl_source: declared
+  description: The Terminology API from Amazon Translate — 1 operation(s) for terminology.
   name: Amazon Translate Terminology API
   slug: amazon-translate-terminology-api
-- description: The Translation API from Amazon Translate — 1 operation(s) for translation.
+- baseURL: https://translate.amazonaws.com
+  baseurl_source: declared
+  description: The Translation API from Amazon Translate — 1 operation(s) for translation.
   name: Amazon Translate Translation API
   slug: amazon-translate-translation-api
 artifact_total: 30
@@ -281,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/screenshots/amazon-translate-2026-06-20T171839.png
 security:

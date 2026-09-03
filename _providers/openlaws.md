@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 28 operations
 api_count: 2
 apis:
-- description: Courts issue Opinions and belong to a Jurisdiction.
+- baseURL: https://api.openlaws.us
+  baseurl_source: declared
+  description: Courts issue Opinions and belong to a Jurisdiction.
   name: OpenLaws Courts API
   slug: openlaws-courts-api
-- description: All data (statutes, regulations, caselaw opinions) in OpenLaws are organized into jurisdictions. This allows you to scope searches and lookups to a specific state or federal jurisdiction (or both).
+- baseURL: https://api.openlaws.us
+  baseurl_source: declared
+  description: All data (statutes, regulations, caselaw opinions) in OpenLaws are organized into jurisdictions. This allows you to scope searches and lookups to a specific state or federal jurisdiction (or both).
   name: OpenLaws Jurisdictions API
   slug: openlaws-jurisdictions-api
-- description: Divisions represent the hierarchical documents that make up statutes, regulations, and constitutions. Each document has a 'path' which uniquely identifies the document and where it resides in the hier
+- baseURL: https://api.openlaws.us
+  baseurl_source: declared
+  description: Divisions represent the hierarchical documents that make up statutes, regulations, and constitutions. Each document has a 'path' which uniquely identifies the document and where it resides in the hier
   name: OpenLaws Law Divisions API
   slug: openlaws-law-divisions-api
-- description: 'Laws represent a specific law type in a Jurisdiction. For example, Code of Federal Regulations belongs to the FED Jurisdiction and is represented by the law_key `FED-CFR`. Florida Statutes belongs to '
+- baseURL: https://api.openlaws.us
+  baseurl_source: declared
+  description: 'Laws represent a specific law type in a Jurisdiction. For example, Code of Federal Regulations belongs to the FED Jurisdiction and is represented by the law_key `FED-CFR`. Florida Statutes belongs to '
   name: OpenLaws Laws API
   slug: openlaws-laws-api
-- description: Opinions represent published and unpublished case law opinions. Opinions belong to a Court and Jurisdiction.
+- baseURL: https://api.openlaws.us
+  baseurl_source: declared
+  description: Opinions represent published and unpublished case law opinions. Opinions belong to a Court and Jurisdiction.
   name: OpenLaws Opinions API
   slug: openlaws-opinions-api
 artifact_total: 18
@@ -193,7 +203,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/screenshots/openlaws-2026-06-20T191009.png
 security:

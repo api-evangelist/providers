@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 6
@@ -53,31 +53,49 @@ apis:
 - description: 'The MEXC Broker API enables institutional partners to manage sub-accounts and provide trading services to their users. MEXC supports three broker modes: API Broker for copy-trading and trading bot pla'
   name: MEXC Broker API
   slug: broker-api
-- description: The Accounts and Transactions API from MEXC — 59 operation(s) for accounts and transactions.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Accounts and Transactions API from MEXC — 59 operation(s) for accounts and transactions.
   name: MEXC Accounts and Transactions API
   slug: mexc-accounts-and-transactions-api
-- description: The EFT API from MEXC — 1 operation(s) for eft.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The EFT API from MEXC — 1 operation(s) for eft.
   name: MEXC EFT API
   slug: mexc-eft-api
-- description: The Margin API from MEXC — 14 operation(s) for margin.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Margin API from MEXC — 14 operation(s) for margin.
   name: MEXC Margin API
   slug: mexc-margin-api
-- description: The Market Date Endpoints API from MEXC — 13 operation(s) for market date endpoints.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Market Date Endpoints API from MEXC — 13 operation(s) for market date endpoints.
   name: MEXC Market Date Endpoints API
   slug: mexc-market-date-endpoints-api
-- description: The Parent child account API from MEXC — 6 operation(s) for parent child account.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Parent child account API from MEXC — 6 operation(s) for parent child account.
   name: MEXC Parent child account API
   slug: mexc-parent-child-account-api
-- description: The Quote API from MEXC — 12 operation(s) for quote.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Quote API from MEXC — 12 operation(s) for quote.
   name: MEXC Quote API
   slug: mexc-quote-api
-- description: The Rebate API from MEXC — 4 operation(s) for rebate.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Rebate API from MEXC — 4 operation(s) for rebate.
   name: MEXC Rebate API
   slug: mexc-rebate-api
-- description: The Spot Account/Trade API from MEXC — 8 operation(s) for spot account/trade.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Spot Account/Trade API from MEXC — 8 operation(s) for spot account/trade.
   name: MEXC Spot Account/Trade API
   slug: mexc-spot-account-trade-api
-- description: The Wallet API from MEXC — 10 operation(s) for wallet.
+- baseURL: https://api.mexc.com
+  baseurl_source: declared
+  description: The Wallet API from MEXC — 10 operation(s) for wallet.
   name: MEXC Wallet API
   slug: mexc-wallet-api
 artifact_total: 47
@@ -287,7 +305,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/screenshots/mexc-2026-06-20T185344.png
 security:

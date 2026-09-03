@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: The Common Data API exposes reference data used across the Fabric Origin product family, including country codes, image type lookups, and video type lookups required when working with the Entertainmen
   name: Fabric Origin Common Data API
   slug: common-data-api
-- description: The Entertainment API from Fabric Origin — 14 operation(s) for entertainment.
+- baseURL: https://ee.iva-api.com/api/
+  baseurl_source: declared
+  description: The Entertainment API from Fabric Origin — 14 operation(s) for entertainment.
   name: Fabric Origin Entertainment API
   slug: fabric-origin-entertainment-api
-- description: The Images API from Fabric Origin — 4 operation(s) for images.
+- baseURL: https://ee.iva-api.com/api/
+  baseurl_source: declared
+  description: The Images API from Fabric Origin — 4 operation(s) for images.
   name: Fabric Origin Images API
   slug: fabric-origin-images-api
-- description: The Videos API from Fabric Origin — 2 operation(s) for videos.
+- baseURL: https://ee.iva-api.com/api/
+  baseurl_source: declared
+  description: The Videos API from Fabric Origin — 2 operation(s) for videos.
   name: Fabric Origin Videos API
   slug: fabric-origin-videos-api
 artifact_total: 19
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png
 security:

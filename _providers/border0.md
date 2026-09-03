@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 89 operations · 53 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Audit Actions API from Border0 — 2 operation(s) for audit actions.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Audit Actions API from Border0 — 2 operation(s) for audit actions.
   name: Border0 Audit Actions API
   slug: border0-audit-actions-api
-- description: The Client API from Border0 — 6 operation(s) for client.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Client API from Border0 — 6 operation(s) for client.
   name: Border0 Client API
   slug: border0-client-api
-- description: The Connect API from Border0 — 1 operation(s) for connect.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Connect API from Border0 — 1 operation(s) for connect.
   name: Border0 Connect API
   slug: border0-connect-api
-- description: The Login API from Border0 — 2 operation(s) for login.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Login API from Border0 — 2 operation(s) for login.
   name: Border0 Login API
   slug: border0-login-api
-- description: The Mtls-Ca API from Border0 — 3 operation(s) for mtls-ca.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Mtls-Ca API from Border0 — 3 operation(s) for mtls-ca.
   name: Border0 Mtls-Ca API
   slug: border0-mtls-ca-api
-- description: The Organization API from Border0 — 4 operation(s) for organization.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Organization API from Border0 — 4 operation(s) for organization.
   name: Border0 Organization API
   slug: border0-organization-api
-- description: The Organizations API from Border0 — 15 operation(s) for organizations.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Border0 — 15 operation(s) for organizations.
   name: Border0 Organizations API
   slug: border0-organizations-api
-- description: The Policies API from Border0 — 2 operation(s) for policies.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Policies API from Border0 — 2 operation(s) for policies.
   name: Border0 Policies API
   slug: border0-policies-api
-- description: The Policy API from Border0 — 1 operation(s) for policy.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Policy API from Border0 — 1 operation(s) for policy.
   name: Border0 Policy API
   slug: border0-policy-api
-- description: The Session API from Border0 — 3 operation(s) for session.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Session API from Border0 — 3 operation(s) for session.
   name: Border0 Session API
   slug: border0-session-api
-- description: The Sessions API from Border0 — 2 operation(s) for sessions.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Sessions API from Border0 — 2 operation(s) for sessions.
   name: Border0 Sessions API
   slug: border0-sessions-api
-- description: The Socket API from Border0 — 10 operation(s) for socket.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Socket API from Border0 — 10 operation(s) for socket.
   name: Border0 Socket API
   slug: border0-socket-api
-- description: The Stats API from Border0 — 2 operation(s) for stats.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Stats API from Border0 — 2 operation(s) for stats.
   name: Border0 Stats API
   slug: border0-stats-api
-- description: The User API from Border0 — 4 operation(s) for user.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The User API from Border0 — 4 operation(s) for user.
   name: Border0 User API
   slug: border0-user-api
-- description: The Users API from Border0 — 5 operation(s) for users.
+- baseURL: https://api.border0.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Border0 — 5 operation(s) for users.
   name: Border0 Users API
   slug: border0-users-api
 artifact_total: 36
@@ -310,7 +340,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:

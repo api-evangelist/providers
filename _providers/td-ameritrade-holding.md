@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 34 operations · 11 acting
 api_count: 1
 apis:
-- description: Account information, balances, and positions
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Account information, balances, and positions
   name: TD Ameritrade Holding Accounts API
   slug: td-ameritrade-holding-accounts-api
-- description: Security and instrument search
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Security and instrument search
   name: TD Ameritrade Holding Instruments API
   slug: td-ameritrade-holding-instruments-api
-- description: Quotes, price history, and market hours
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Quotes, price history, and market hours
   name: TD Ameritrade Holding Market Data API
   slug: td-ameritrade-holding-market-data-api
-- description: Options chains and derivatives
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Options chains and derivatives
   name: TD Ameritrade Holding Options API
   slug: td-ameritrade-holding-options-api
-- description: Order placement, management, and retrieval
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Order placement, management, and retrieval
   name: TD Ameritrade Holding Orders API
   slug: td-ameritrade-holding-orders-api
-- description: Saved order management
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Saved order management
   name: TD Ameritrade Holding Saved Orders API
   slug: td-ameritrade-holding-saved-orders-api
-- description: Account transaction history
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Account transaction history
   name: TD Ameritrade Holding Transactions API
   slug: td-ameritrade-holding-transactions-api
-- description: User preferences and principal data
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: User preferences and principal data
   name: TD Ameritrade Holding User Management API
   slug: td-ameritrade-holding-user-management-api
-- description: Watchlist creation and management
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Watchlist creation and management
   name: TD Ameritrade Holding Watchlists API
   slug: td-ameritrade-holding-watchlists-api
 artifact_total: 34
@@ -291,7 +309,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/screenshots/td-ameritrade-holding-2026-06-20T194947.png
 security:

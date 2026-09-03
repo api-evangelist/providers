@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -74,19 +74,29 @@ apis:
 - description: APIs for Planning and Budgeting Cloud Service including data management, business rules, and planning operations.
   name: Oracle Planning REST API
   slug: oracle-planning-rest-api
-- description: Bank accounts and statements.
+- baseURL_template: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: spec_template
+  description: Bank accounts and statements.
   name: Oracle Financial Applications Cash Management API
   slug: oracle-financial-applications-cash-management-api
-- description: Asset lifecycle resources.
+- baseURL_template: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: spec_template
+  description: Asset lifecycle resources.
   name: Oracle Financial Applications Fixed Assets API
   slug: oracle-financial-applications-fixed-assets-api
-- description: General Ledger journal batches and currency rates.
+- baseURL_template: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: spec_template
+  description: General Ledger journal batches and currency rates.
   name: Oracle Financial Applications General Ledger API
   slug: oracle-financial-applications-general-ledger-api
-- description: Accounts Payable invoices.
+- baseURL_template: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: spec_template
+  description: Accounts Payable invoices.
   name: Oracle Financial Applications Payables API
   slug: oracle-financial-applications-payables-api
-- description: Customer transactions.
+- baseURL_template: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: spec_template
+  description: Customer transactions.
   name: Oracle Financial Applications Receivables API
   slug: oracle-financial-applications-receivables-api
 artifact_total: 28
@@ -213,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/screenshots/oracle-financial-applications-2026-06-20T191129.png
 security:

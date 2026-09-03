@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -44,265 +44,439 @@ agentic_access:
   summary_line: 738 operations · 430 acting · 11 human-in-the-loop
 api_count: 1
 apis:
-- description: The access API from Charthop — 2 operation(s) for access.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The access API from Charthop — 2 operation(s) for access.
   name: Charthop access API
   slug: charthop-access-api
-- description: The action API from Charthop — 4 operation(s) for action.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The action API from Charthop — 4 operation(s) for action.
   name: Charthop action API
   slug: charthop-action-api
-- description: The ai API from Charthop — 17 operation(s) for ai.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The ai API from Charthop — 17 operation(s) for ai.
   name: Charthop ai API
   slug: charthop-ai-api
-- description: The ai-credit-limit API from Charthop — 4 operation(s) for ai-credit-limit.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The ai-credit-limit API from Charthop — 4 operation(s) for ai-credit-limit.
   name: Charthop ai-credit-limit API
   slug: charthop-ai-credit-limit-api
-- description: The ai-hint API from Charthop — 3 operation(s) for ai-hint.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The ai-hint API from Charthop — 3 operation(s) for ai-hint.
   name: Charthop ai-hint API
   slug: charthop-ai-hint-api
-- description: The ai-prompt API from Charthop — 4 operation(s) for ai-prompt.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The ai-prompt API from Charthop — 4 operation(s) for ai-prompt.
   name: Charthop ai-prompt API
   slug: charthop-ai-prompt-api
-- description: The app API from Charthop — 18 operation(s) for app.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The app API from Charthop — 18 operation(s) for app.
   name: Charthop app API
   slug: charthop-app-api
-- description: The appConfig API from Charthop — 3 operation(s) for appconfig.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The appConfig API from Charthop — 3 operation(s) for appconfig.
   name: Charthop appConfig API
   slug: charthop-appconfig-api
-- description: The approval API from Charthop — 12 operation(s) for approval.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The approval API from Charthop — 12 operation(s) for approval.
   name: Charthop approval API
   slug: charthop-approval-api
-- description: The approval-delegate API from Charthop — 5 operation(s) for approval-delegate.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The approval-delegate API from Charthop — 5 operation(s) for approval-delegate.
   name: Charthop approval-delegate API
   slug: charthop-approval-delegate-api
-- description: The approval-request API from Charthop — 4 operation(s) for approval-request.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The approval-request API from Charthop — 4 operation(s) for approval-request.
   name: Charthop approval-request API
   slug: charthop-approval-request-api
-- description: The assessment API from Charthop — 13 operation(s) for assessment.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The assessment API from Charthop — 13 operation(s) for assessment.
   name: Charthop assessment API
   slug: charthop-assessment-api
-- description: The band API from Charthop — 6 operation(s) for band.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The band API from Charthop — 6 operation(s) for band.
   name: Charthop band API
   slug: charthop-band-api
-- description: The billing API from Charthop — 3 operation(s) for billing.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The billing API from Charthop — 3 operation(s) for billing.
   name: Charthop billing API
   slug: charthop-billing-api
-- description: The budget API from Charthop — 3 operation(s) for budget.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The budget API from Charthop — 3 operation(s) for budget.
   name: Charthop budget API
   slug: charthop-budget-api
-- description: The budget-pool API from Charthop — 4 operation(s) for budget-pool.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The budget-pool API from Charthop — 4 operation(s) for budget-pool.
   name: Charthop budget-pool API
   slug: charthop-budget-pool-api
-- description: The calendar API from Charthop — 10 operation(s) for calendar.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The calendar API from Charthop — 10 operation(s) for calendar.
   name: Charthop calendar API
   slug: charthop-calendar-api
-- description: The category API from Charthop — 2 operation(s) for category.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The category API from Charthop — 2 operation(s) for category.
   name: Charthop category API
   slug: charthop-category-api
-- description: The category-sort API from Charthop — 2 operation(s) for category-sort.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The category-sort API from Charthop — 2 operation(s) for category-sort.
   name: Charthop category-sort API
   slug: charthop-category-sort-api
-- description: The change API from Charthop — 14 operation(s) for change.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The change API from Charthop — 14 operation(s) for change.
   name: Charthop change API
   slug: charthop-change-api
-- description: The comment API from Charthop — 5 operation(s) for comment.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The comment API from Charthop — 5 operation(s) for comment.
   name: Charthop comment API
   slug: charthop-comment-api
-- description: The comp-review API from Charthop — 25 operation(s) for comp-review.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The comp-review API from Charthop — 25 operation(s) for comp-review.
   name: Charthop comp-review API
   slug: charthop-comp-review-api
-- description: The content API from Charthop — 6 operation(s) for content.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The content API from Charthop — 6 operation(s) for content.
   name: Charthop content API
   slug: charthop-content-api
-- description: The customer API from Charthop — 4 operation(s) for customer.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The customer API from Charthop — 4 operation(s) for customer.
   name: Charthop customer API
   slug: charthop-customer-api
-- description: The data-view API from Charthop — 2 operation(s) for data-view.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The data-view API from Charthop — 2 operation(s) for data-view.
   name: Charthop data-view API
   slug: charthop-data-view-api
-- description: The email-template API from Charthop — 5 operation(s) for email-template.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The email-template API from Charthop — 5 operation(s) for email-template.
   name: Charthop email-template API
   slug: charthop-email-template-api
-- description: The event API from Charthop — 5 operation(s) for event.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The event API from Charthop — 5 operation(s) for event.
   name: Charthop event API
   slug: charthop-event-api
-- description: The exchange-rate API from Charthop — 5 operation(s) for exchange-rate.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The exchange-rate API from Charthop — 5 operation(s) for exchange-rate.
   name: Charthop exchange-rate API
   slug: charthop-exchange-rate-api
-- description: The export API from Charthop — 13 operation(s) for export.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The export API from Charthop — 13 operation(s) for export.
   name: Charthop export API
   slug: charthop-export-api
-- description: The expression API from Charthop — 2 operation(s) for expression.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The expression API from Charthop — 2 operation(s) for expression.
   name: Charthop expression API
   slug: charthop-expression-api
-- description: The field API from Charthop — 10 operation(s) for field.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The field API from Charthop — 10 operation(s) for field.
   name: Charthop field API
   slug: charthop-field-api
-- description: The file API from Charthop — 6 operation(s) for file.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The file API from Charthop — 6 operation(s) for file.
   name: Charthop file API
   slug: charthop-file-api
-- description: The form API from Charthop — 15 operation(s) for form.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The form API from Charthop — 15 operation(s) for form.
   name: Charthop form API
   slug: charthop-form-api
-- description: The form-response API from Charthop — 11 operation(s) for form-response.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The form-response API from Charthop — 11 operation(s) for form-response.
   name: Charthop form-response API
   slug: charthop-form-response-api
-- description: The goal API from Charthop — 5 operation(s) for goal.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The goal API from Charthop — 5 operation(s) for goal.
   name: Charthop goal API
   slug: charthop-goal-api
-- description: The goal-type API from Charthop — 2 operation(s) for goal-type.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The goal-type API from Charthop — 2 operation(s) for goal-type.
   name: Charthop goal-type API
   slug: charthop-goal-type-api
-- description: The goalProgress API from Charthop — 2 operation(s) for goalprogress.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The goalProgress API from Charthop — 2 operation(s) for goalprogress.
   name: Charthop goalProgress API
   slug: charthop-goalprogress-api
-- description: The goalTarget API from Charthop — 3 operation(s) for goaltarget.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The goalTarget API from Charthop — 3 operation(s) for goaltarget.
   name: Charthop goalTarget API
   slug: charthop-goaltarget-api
-- description: The group API from Charthop — 17 operation(s) for group.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The group API from Charthop — 17 operation(s) for group.
   name: Charthop group API
   slug: charthop-group-api
-- description: The group-type API from Charthop — 2 operation(s) for group-type.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The group-type API from Charthop — 2 operation(s) for group-type.
   name: Charthop group-type API
   slug: charthop-group-type-api
-- description: The guideline API from Charthop — 3 operation(s) for guideline.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The guideline API from Charthop — 3 operation(s) for guideline.
   name: Charthop guideline API
   slug: charthop-guideline-api
-- description: The import API from Charthop — 6 operation(s) for import.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The import API from Charthop — 6 operation(s) for import.
   name: Charthop import API
   slug: charthop-import-api
-- description: The job API from Charthop — 10 operation(s) for job.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The job API from Charthop — 10 operation(s) for job.
   name: Charthop job API
   slug: charthop-job-api
-- description: The job-code API from Charthop — 8 operation(s) for job-code.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The job-code API from Charthop — 8 operation(s) for job-code.
   name: Charthop job-code API
   slug: charthop-job-code-api
-- description: The job-level API from Charthop — 2 operation(s) for job-level.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The job-level API from Charthop — 2 operation(s) for job-level.
   name: Charthop job-level API
   slug: charthop-job-level-api
-- description: The legalDoc API from Charthop — 2 operation(s) for legaldoc.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The legalDoc API from Charthop — 2 operation(s) for legaldoc.
   name: Charthop legalDoc API
   slug: charthop-legaldoc-api
-- description: The mcp API from Charthop — 2 operation(s) for mcp.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The mcp API from Charthop — 2 operation(s) for mcp.
   name: Charthop mcp API
   slug: charthop-mcp-api
-- description: The media API from Charthop — 4 operation(s) for media.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The media API from Charthop — 4 operation(s) for media.
   name: Charthop media API
   slug: charthop-media-api
-- description: The message API from Charthop — 7 operation(s) for message.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The message API from Charthop — 7 operation(s) for message.
   name: Charthop message API
   slug: charthop-message-api
-- description: The metric API from Charthop — 1 operation(s) for metric.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The metric API from Charthop — 1 operation(s) for metric.
   name: Charthop metric API
   slug: charthop-metric-api
-- description: The multiplier API from Charthop — 2 operation(s) for multiplier.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The multiplier API from Charthop — 2 operation(s) for multiplier.
   name: Charthop multiplier API
   slug: charthop-multiplier-api
-- description: The notification API from Charthop — 1 operation(s) for notification.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The notification API from Charthop — 1 operation(s) for notification.
   name: Charthop notification API
   slug: charthop-notification-api
-- description: The oauth API from Charthop — 17 operation(s) for oauth.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The oauth API from Charthop — 17 operation(s) for oauth.
   name: Charthop oauth API
   slug: charthop-oauth-api
-- description: The org API from Charthop — 13 operation(s) for org.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The org API from Charthop — 13 operation(s) for org.
   name: Charthop org API
   slug: charthop-org-api
-- description: The org-config API from Charthop — 1 operation(s) for org-config.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The org-config API from Charthop — 1 operation(s) for org-config.
   name: Charthop org-config API
   slug: charthop-org-config-api
-- description: The person API from Charthop — 8 operation(s) for person.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The person API from Charthop — 8 operation(s) for person.
   name: Charthop person API
   slug: charthop-person-api
-- description: The policy API from Charthop — 6 operation(s) for policy.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The policy API from Charthop — 6 operation(s) for policy.
   name: Charthop policy API
   slug: charthop-policy-api
-- description: The preload API from Charthop — 1 operation(s) for preload.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The preload API from Charthop — 1 operation(s) for preload.
   name: Charthop preload API
   slug: charthop-preload-api
-- description: The process API from Charthop — 13 operation(s) for process.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The process API from Charthop — 13 operation(s) for process.
   name: Charthop process API
   slug: charthop-process-api
-- description: The product API from Charthop — 3 operation(s) for product.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The product API from Charthop — 3 operation(s) for product.
   name: Charthop product API
   slug: charthop-product-api
-- description: The profile-tab API from Charthop — 7 operation(s) for profile-tab.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The profile-tab API from Charthop — 7 operation(s) for profile-tab.
   name: Charthop profile-tab API
   slug: charthop-profile-tab-api
-- description: The query API from Charthop — 3 operation(s) for query.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The query API from Charthop — 3 operation(s) for query.
   name: Charthop query API
   slug: charthop-query-api
-- description: The question API from Charthop — 2 operation(s) for question.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The question API from Charthop — 2 operation(s) for question.
   name: Charthop question API
   slug: charthop-question-api
-- description: The report API from Charthop — 9 operation(s) for report.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The report API from Charthop — 9 operation(s) for report.
   name: Charthop report API
   slug: charthop-report-api
-- description: The reportChart API from Charthop — 4 operation(s) for reportchart.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The reportChart API from Charthop — 4 operation(s) for reportchart.
   name: Charthop reportChart API
   slug: charthop-reportchart-api
-- description: The role API from Charthop — 4 operation(s) for role.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The role API from Charthop — 4 operation(s) for role.
   name: Charthop role API
   slug: charthop-role-api
-- description: The saml API from Charthop — 3 operation(s) for saml.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The saml API from Charthop — 3 operation(s) for saml.
   name: Charthop saml API
   slug: charthop-saml-api
-- description: The scenario API from Charthop — 13 operation(s) for scenario.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The scenario API from Charthop — 13 operation(s) for scenario.
   name: Charthop scenario API
   slug: charthop-scenario-api
-- description: The search API from Charthop — 1 operation(s) for search.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The search API from Charthop — 1 operation(s) for search.
   name: Charthop search API
   slug: charthop-search-api
-- description: The signature-request API from Charthop — 9 operation(s) for signature-request.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The signature-request API from Charthop — 9 operation(s) for signature-request.
   name: Charthop signature-request API
   slug: charthop-signature-request-api
-- description: The status API from Charthop — 1 operation(s) for status.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The status API from Charthop — 1 operation(s) for status.
   name: Charthop status API
   slug: charthop-status-api
-- description: The stock API from Charthop — 3 operation(s) for stock.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The stock API from Charthop — 3 operation(s) for stock.
   name: Charthop stock API
   slug: charthop-stock-api
-- description: The stockgrant API from Charthop — 2 operation(s) for stockgrant.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The stockgrant API from Charthop — 2 operation(s) for stockgrant.
   name: Charthop stockgrant API
   slug: charthop-stockgrant-api
-- description: The stripe API from Charthop — 4 operation(s) for stripe.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The stripe API from Charthop — 4 operation(s) for stripe.
   name: Charthop stripe API
   slug: charthop-stripe-api
-- description: The table API from Charthop — 10 operation(s) for table.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The table API from Charthop — 10 operation(s) for table.
   name: Charthop table API
   slug: charthop-table-api
-- description: The task API from Charthop — 10 operation(s) for task.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The task API from Charthop — 10 operation(s) for task.
   name: Charthop task API
   slug: charthop-task-api
-- description: The task-config API from Charthop — 2 operation(s) for task-config.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The task-config API from Charthop — 2 operation(s) for task-config.
   name: Charthop task-config API
   slug: charthop-task-config-api
-- description: The template API from Charthop — 10 operation(s) for template.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The template API from Charthop — 10 operation(s) for template.
   name: Charthop template API
   slug: charthop-template-api
-- description: The Time off ledger API from Charthop — 4 operation(s) for time off ledger.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The Time off ledger API from Charthop — 4 operation(s) for time off ledger.
   name: Charthop Time off ledger API
   slug: charthop-time-off-ledger-api
-- description: The timeoff API from Charthop — 6 operation(s) for timeoff.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The timeoff API from Charthop — 6 operation(s) for timeoff.
   name: Charthop timeoff API
   slug: charthop-timeoff-api
-- description: The timeoffAdjustment API from Charthop — 2 operation(s) for timeoffadjustment.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The timeoffAdjustment API from Charthop — 2 operation(s) for timeoffadjustment.
   name: Charthop timeoffAdjustment API
   slug: charthop-timeoffadjustment-api
-- description: The timeOffPolicy API from Charthop — 7 operation(s) for timeoffpolicy.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The timeOffPolicy API from Charthop — 7 operation(s) for timeoffpolicy.
   name: Charthop timeOffPolicy API
   slug: charthop-timeoffpolicy-api
-- description: The transcript API from Charthop — 5 operation(s) for transcript.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The transcript API from Charthop — 5 operation(s) for transcript.
   name: Charthop transcript API
   slug: charthop-transcript-api
-- description: The usage API from Charthop — 2 operation(s) for usage.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The usage API from Charthop — 2 operation(s) for usage.
   name: Charthop usage API
   slug: charthop-usage-api
-- description: The user API from Charthop — 15 operation(s) for user.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The user API from Charthop — 15 operation(s) for user.
   name: Charthop user API
   slug: charthop-user-api
-- description: The webauthn API from Charthop — 5 operation(s) for webauthn.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The webauthn API from Charthop — 5 operation(s) for webauthn.
   name: Charthop webauthn API
   slug: charthop-webauthn-api
-- description: The well-known API from Charthop — 6 operation(s) for well-known.
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The well-known API from Charthop — 6 operation(s) for well-known.
   name: Charthop well-known API
   slug: charthop-well-known-api
 artifact_total: 181
@@ -733,7 +907,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -743,7 +917,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -755,7 +929,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/screenshots/charthop-2026-07-25T205113.png
 security:

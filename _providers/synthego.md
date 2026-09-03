@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The Order API from Synthego — 3 operation(s) for order.
+- baseURL: https://api.synthego.com/
+  baseurl_source: declared
+  description: The Order API from Synthego — 3 operation(s) for order.
   name: Synthego Order API
   slug: synthego-order-api
 artifact_total: 7
@@ -168,7 +170,7 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +202,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/synthego/refs/heads/main/screenshots/synthego-2026-09-02T161631.png
 security:
 - kind: authentication
   name: Synthego Authentication

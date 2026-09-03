@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -37,106 +49,174 @@ apis:
 - description: A live Model Context Protocol (MCP) server exposed by Starfish Space at https://www.starfishspace.com/wp-json/mcp/mcp-oauth-server, served through the WordPress MCP adapter. Access is OAuth 2.1 protec
   name: Starfish Space MCP Server
   slug: starfish-space-mcp-server
-- description: Block directory search.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Block directory search.
   name: Starfish Space Block Directory API
   slug: starfish-space-block-directory-api
-- description: Registered block patterns.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered block patterns.
   name: Starfish Space Block Patterns API
   slug: starfish-space-block-patterns-api
-- description: block-renderer routes.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: block-renderer routes.
   name: Starfish Space Block Renderer API
   slug: starfish-space-block-renderer-api
-- description: Registered block types.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered block types.
   name: Starfish Space Block Types API
   slug: starfish-space-block-types-api
-- description: Reusable editor blocks.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Reusable editor blocks.
   name: Starfish Space Blocks API
   slug: starfish-space-blocks-api
-- description: Post categories.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Post categories.
   name: Starfish Space Categories API
   slug: starfish-space-categories-api
-- description: Comments on site content.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Comments on site content.
   name: Starfish Space Comments API
   slug: starfish-space-comments-api
-- description: font-collections routes.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: font-collections routes.
   name: Starfish Space Font Collections API
   slug: starfish-space-font-collections-api
-- description: Registered font families.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered font families.
   name: Starfish Space Font Families API
   slug: starfish-space-font-families-api
-- description: Global styles.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Global styles.
   name: Starfish Space Global Styles API
   slug: starfish-space-global-styles-api
-- description: icons routes.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: icons routes.
   name: Starfish Space Icons API
   slug: starfish-space-icons-api
-- description: Media library attachments (images, documents).
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Media library attachments (images, documents).
   name: Starfish Space Media API
   slug: starfish-space-media-api
-- description: Navigation menu items.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Navigation menu items.
   name: Starfish Space Menu Items API
   slug: starfish-space-menu-items-api
-- description: Theme menu locations.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Theme menu locations.
   name: Starfish Space Menu Locations API
   slug: starfish-space-menu-locations-api
-- description: Navigation menus.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Navigation menus.
   name: Starfish Space Menus API
   slug: starfish-space-menus-api
-- description: Navigation menus.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Navigation menus.
   name: Starfish Space Navigation API
   slug: starfish-space-navigation-api
-- description: Static pages (The Otter, Company, Missions, Careers, Contact).
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Static pages (The Otter, Company, Missions, Careers, Contact).
   name: Starfish Space Pages API
   slug: starfish-space-pages-api
-- description: Pattern directory.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Pattern directory.
   name: Starfish Space Pattern Directory API
   slug: starfish-space-pattern-directory-api
-- description: Installed plugins.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Installed plugins.
   name: Starfish Space Plugins API
   slug: starfish-space-plugins-api
-- description: Blog/news posts published on starfishspace.com.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Blog/news posts published on starfishspace.com.
   name: Starfish Space Posts API
   slug: starfish-space-posts-api
-- description: Cross-content search.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Cross-content search.
   name: Starfish Space Search API
   slug: starfish-space-search-api
-- description: Site settings.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Site settings.
   name: Starfish Space Settings API
   slug: starfish-space-settings-api
-- description: Widget areas.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Widget areas.
   name: Starfish Space Sidebars API
   slug: starfish-space-sidebars-api
-- description: Registered post statuses.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered post statuses.
   name: Starfish Space Statuses API
   slug: starfish-space-statuses-api
-- description: Post tags.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Post tags.
   name: Starfish Space Tags API
   slug: starfish-space-tags-api
-- description: Registered taxonomies.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered taxonomies.
   name: Starfish Space Taxonomies API
   slug: starfish-space-taxonomies-api
-- description: Block theme template parts.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Block theme template parts.
   name: Starfish Space Template Parts API
   slug: starfish-space-template-parts-api
-- description: Block theme templates.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Block theme templates.
   name: Starfish Space Templates API
   slug: starfish-space-templates-api
-- description: Installed themes.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Installed themes.
   name: Starfish Space Themes API
   slug: starfish-space-themes-api
-- description: Registered content types.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered content types.
   name: Starfish Space Types API
   slug: starfish-space-types-api
-- description: Site authors.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Site authors.
   name: Starfish Space Users API
   slug: starfish-space-users-api
-- description: Available widget types.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Available widget types.
   name: Starfish Space Widget Types API
   slug: starfish-space-widget-types-api
-- description: Widgets.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Widgets.
   name: Starfish Space Widgets API
   slug: starfish-space-widgets-api
-- description: wp_pattern_category routes.
+- baseURL: https://www.starfishspace.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: wp_pattern_category routes.
   name: Starfish Space Wp Pattern Category API
   slug: starfish-space-wp-pattern-category-api
 artifact_total: 87
@@ -406,11 +486,11 @@ score:
   band: emerging
   composite: 20.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -420,7 +500,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 20.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -432,8 +512,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/screenshots/starfish-space-2026-09-02T160802.png
 security:
 - kind: authentication
   name: Starfish Space Authentication

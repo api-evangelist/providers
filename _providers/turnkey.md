@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 21 operations · 21 acting
 api_count: 1
 apis:
-- description: Root organization and sub-organization management.
+- baseURL: https://api.turnkey.com/public/v1
+  baseurl_source: declared
+  description: Root organization and sub-organization management.
   name: Turnkey Organizations API
   slug: turnkey-organizations-api
-- description: Standalone raw private keys.
+- baseURL: https://api.turnkey.com/public/v1
+  baseurl_source: declared
+  description: Standalone raw private keys.
   name: Turnkey Private Keys API
   slug: turnkey-private-keys-api
-- description: Transaction and raw payload signing activities.
+- baseURL: https://api.turnkey.com/public/v1
+  baseurl_source: declared
+  description: Transaction and raw payload signing activities.
   name: Turnkey Signing API
   slug: turnkey-signing-api
-- description: Users, authenticators, API keys, and the policy engine.
+- baseURL: https://api.turnkey.com/public/v1
+  baseurl_source: declared
+  description: Users, authenticators, API keys, and the policy engine.
   name: Turnkey Users & Policies API
   slug: turnkey-users-policies-api
-- description: HD wallets and wallet accounts.
+- baseURL: https://api.turnkey.com/public/v1
+  baseurl_source: declared
+  description: HD wallets and wallet accounts.
   name: Turnkey Wallets API
   slug: turnkey-wallets-api
 artifact_total: 19
@@ -185,7 +195,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/screenshots/turnkey-2026-06-20T195835.png
 security:

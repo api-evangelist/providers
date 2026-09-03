@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Modern, fast web framework for building APIs with Python based on standard Python type hints.
@@ -140,7 +140,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastapi/refs/heads/main/screenshots/fastapi-2026-06-20T181048.png
 security:

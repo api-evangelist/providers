@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Modo Energy's API is designed for battery operators, owners, and utilities looking to build state-of-the-art energy data systems. RESTful, JSON-encoded, authenticated via x-token header.
   name: Modo Energy
   slug: modo-energy
-- description: ERCOT (Texas) battery operations
+- baseURL: https://api.modoenergy.com/pub/v1
+  baseurl_source: declared
+  description: ERCOT (Texas) battery operations
   name: Modo Energy ERCOT API
   slug: modo-energy-ercot-api
-- description: Great Britain market datasets
+- baseURL: https://api.modoenergy.com/pub/v1
+  baseurl_source: declared
+  description: Great Britain market datasets
   name: Modo Energy GB API
   slug: modo-energy-gb-api
-- description: Australian National Electricity Market
+- baseURL: https://api.modoenergy.com/pub/v1
+  baseurl_source: declared
+  description: Australian National Electricity Market
   name: Modo Energy NEM API
   slug: modo-energy-nem-api
 artifact_total: 15
@@ -152,7 +158,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/screenshots/modo-energy-2026-06-20T185702.png
 security:

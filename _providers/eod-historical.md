@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 69 operations
 api_count: 1
 apis:
-- description: Calendar events including earnings, IPOs, splits, dividends, and trends
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Calendar events including earnings, IPOs, splits, dividends, and trends
   name: EOD Historical Data Calendar API
   slug: eod-historical-calendar-api
-- description: CBOE index data and listings
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: CBOE index data and listings
   name: EOD Historical Data CBOE API
   slug: eod-historical-cboe-api
-- description: Symbol changes and insider transactions
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Symbol changes and insider transactions
   name: EOD Historical Data Corporate Actions API
   slug: eod-historical-corporate-actions-api
-- description: Dividend and split history
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Dividend and split history
   name: EOD Historical Data Dividends & Splits API
   slug: eod-historical-dividends-splits-api
-- description: Economic events and macro indicators
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Economic events and macro indicators
   name: EOD Historical Data Economic Data API
   slug: eod-historical-economic-data-api
-- description: Historical and current end-of-day price data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Historical and current end-of-day price data
   name: EOD Historical Data End-of-Day Data API
   slug: eod-historical-end-of-day-data-api
-- description: Environmental, Social, and Governance ratings (Investverte)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Environmental, Social, and Governance ratings (Investverte)
   name: EOD Historical Data ESG API
   slug: eod-historical-esg-api
-- description: Exchange information and symbols
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Exchange information and symbols
   name: EOD Historical Data Exchanges API
   slug: eod-historical-exchanges-api
-- description: Fundamental data for stocks and companies
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Fundamental data for stocks and companies
   name: EOD Historical Data Fundamentals API
   slug: eod-historical-fundamentals-api
-- description: S&P/Dow Jones indices data and components
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: S&P/Dow Jones indices data and components
   name: EOD Historical Data Indices API
   slug: eod-historical-indices-api
-- description: Real-time and intraday price data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Real-time and intraday price data
   name: EOD Historical Data Intraday Data API
   slug: eod-historical-intraday-data-api
-- description: Risk scoring, bond analysis, bank financials, reports (PRAAMS)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Risk scoring, bond analysis, bank financials, reports (PRAAMS)
   name: EOD Historical Data Investment Analytics API
   slug: eod-historical-investment-analytics-api
-- description: Company and ticker logos
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Company and ticker logos
   name: EOD Historical Data Logos API
   slug: eod-historical-logos-api
-- description: Market capitalization and other market data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Market capitalization and other market data
   name: EOD Historical Data Market Data API
   slug: eod-historical-market-data-api
-- description: Financial news and sentiment analysis
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Financial news and sentiment analysis
   name: EOD Historical Data News API
   slug: eod-historical-news-api
-- description: Options contracts and pricing data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Options contracts and pricing data
   name: EOD Historical Data Options API
   slug: eod-historical-options-api
-- description: Stock screening tools
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Stock screening tools
   name: EOD Historical Data Screening API
   slug: eod-historical-screening-api
-- description: Technical analysis indicators
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Technical analysis indicators
   name: EOD Historical Data Technical API
   slug: eod-historical-technical-api
-- description: US Treasury interest rates (bills, yields, long-term, real yields)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: US Treasury interest rates (bills, yields, long-term, real yields)
   name: EOD Historical Data US Treasury API
   slug: eod-historical-us-treasury-api
-- description: User account and subscription information
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: User account and subscription information
   name: EOD Historical Data User API
   slug: eod-historical-user-api
 artifact_total: 74
@@ -396,7 +436,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eod-historical/refs/heads/main/screenshots/eod-historical-2026-06-20T180743.png
 security:

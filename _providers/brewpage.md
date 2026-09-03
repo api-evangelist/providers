@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 36 operations · 15 acting
 api_count: 1
 apis:
-- description: File hosting up to 5 MB per file, 1000 files per namespace
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: File hosting up to 5 MB per file, 1000 files per namespace
   name: BrewPage Files API
   slug: brewpage-files-api
-- description: Browse public content from the 'public' namespace without password protection
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Browse public content from the 'public' namespace without password protection
   name: BrewPage Gallery API
   slug: brewpage-gallery-api
-- description: HTML page hosting with markdown support
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: HTML page hosting with markdown support
   name: BrewPage HTML API
   slug: brewpage-html-api
-- description: JSON document store with up to 10,000 docs per collection
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: JSON document store with up to 10,000 docs per collection
   name: BrewPage JSON API
   slug: brewpage-json-api
-- description: Key-Value store with up to 1000 keys per namespace
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Key-Value store with up to 1000 keys per namespace
   name: BrewPage KV API
   slug: brewpage-kv-api
-- description: Fresh, collision-free namespace suggestions
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Fresh, collision-free namespace suggestions
   name: BrewPage Namespace API
   slug: brewpage-namespace-api
-- description: Lightweight owner-token probe; never increments views or returns content
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Lightweight owner-token probe; never increments views or returns content
   name: BrewPage Owner Check API
   slug: brewpage-owner-check-api
-- description: OpenGraph metadata for social bots
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: OpenGraph metadata for social bots
   name: BrewPage preview API
   slug: brewpage-preview-api
-- description: Abuse reports for hosted content
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Abuse reports for hosted content
   name: BrewPage Reports API
   slug: brewpage-reports-api
-- description: Search engine optimization endpoints
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Search engine optimization endpoints
   name: BrewPage SEO API
   slug: brewpage-seo-api
-- description: Short URL resolver for sharing
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Short URL resolver for sharing
   name: BrewPage Short Links API
   slug: brewpage-short-links-api
-- description: Multi-file HTML site hosting via ZIP or folder upload
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Multi-file HTML site hosting via ZIP or folder upload
   name: BrewPage Sites API
   slug: brewpage-sites-api
-- description: Platform-wide usage statistics
+- baseURL: https://brewpage.app
+  baseurl_source: declared
+  description: Platform-wide usage statistics
   name: BrewPage Stats API
   slug: brewpage-stats-api
 artifact_total: 81
@@ -356,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/screenshots/brewpage-2026-06-20T173653.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 139
@@ -43,196 +43,324 @@ agentic_access:
   summary_line: 226 operations · 139 acting · 139 human-in-the-loop
 api_count: 1
 apis:
-- description: The AdditionalCostController API from Katana — 1 operation(s) for additionalcostcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The AdditionalCostController API from Katana — 1 operation(s) for additionalcostcontroller.
   name: Katana AdditionalCostController API
   slug: katana-additionalcostcontroller-api
-- description: The BatchController API from Katana — 1 operation(s) for batchcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BatchController API from Katana — 1 operation(s) for batchcontroller.
   name: Katana BatchController API
   slug: katana-batchcontroller-api
-- description: The BatchStockController API from Katana — 2 operation(s) for batchstockcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BatchStockController API from Katana — 2 operation(s) for batchstockcontroller.
   name: Katana BatchStockController API
   slug: katana-batchstockcontroller-api
-- description: The BinInventoryController API from Katana — 1 operation(s) for bininventorycontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BinInventoryController API from Katana — 1 operation(s) for bininventorycontroller.
   name: Katana BinInventoryController API
   slug: katana-bininventorycontroller-api
-- description: The BinLocationController API from Katana — 2 operation(s) for binlocationcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BinLocationController API from Katana — 2 operation(s) for binlocationcontroller.
   name: Katana BinLocationController API
   slug: katana-binlocationcontroller-api
-- description: The BinTransferController API from Katana — 3 operation(s) for bintransfercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BinTransferController API from Katana — 3 operation(s) for bintransfercontroller.
   name: Katana BinTransferController API
   slug: katana-bintransfercontroller-api
-- description: The BinTransferRowController API from Katana — 2 operation(s) for bintransferrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BinTransferRowController API from Katana — 2 operation(s) for bintransferrowcontroller.
   name: Katana BinTransferRowController API
   slug: katana-bintransferrowcontroller-api
-- description: The BomRowController API from Katana — 3 operation(s) for bomrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The BomRowController API from Katana — 3 operation(s) for bomrowcontroller.
   name: Katana BomRowController API
   slug: katana-bomrowcontroller-api
-- description: The CustomerAddressController API from Katana — 2 operation(s) for customeraddresscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The CustomerAddressController API from Katana — 2 operation(s) for customeraddresscontroller.
   name: Katana CustomerAddressController API
   slug: katana-customeraddresscontroller-api
-- description: The CustomerController API from Katana — 2 operation(s) for customercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The CustomerController API from Katana — 2 operation(s) for customercontroller.
   name: Katana CustomerController API
   slug: katana-customercontroller-api
-- description: The CustomFieldDefinitionController API from Katana — 2 operation(s) for customfielddefinitioncontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The CustomFieldDefinitionController API from Katana — 2 operation(s) for customfielddefinitioncontroller.
   name: Katana CustomFieldDefinitionController API
   slug: katana-customfielddefinitioncontroller-api
-- description: The CustomSalesOrderController API from Katana — 1 operation(s) for customsalesordercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The CustomSalesOrderController API from Katana — 1 operation(s) for customsalesordercontroller.
   name: Katana CustomSalesOrderController API
   slug: katana-customsalesordercontroller-api
-- description: The DemandForecastController API from Katana — 1 operation(s) for demandforecastcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The DemandForecastController API from Katana — 1 operation(s) for demandforecastcontroller.
   name: Katana DemandForecastController API
   slug: katana-demandforecastcontroller-api
-- description: The FactoryController API from Katana — 1 operation(s) for factorycontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The FactoryController API from Katana — 1 operation(s) for factorycontroller.
   name: Katana FactoryController API
   slug: katana-factorycontroller-api
-- description: The InventoryController API from Katana — 2 operation(s) for inventorycontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The InventoryController API from Katana — 2 operation(s) for inventorycontroller.
   name: Katana InventoryController API
   slug: katana-inventorycontroller-api
-- description: The InventorySafetyStockLevelController API from Katana — 2 operation(s) for inventorysafetystocklevelcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The InventorySafetyStockLevelController API from Katana — 2 operation(s) for inventorysafetystocklevelcontroller.
   name: Katana InventorySafetyStockLevelController API
   slug: katana-inventorysafetystocklevelcontroller-api
-- description: The ItemsCustomFieldsCollectionController API from Katana — 1 operation(s) for itemscustomfieldscollectioncontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ItemsCustomFieldsCollectionController API from Katana — 1 operation(s) for itemscustomfieldscollectioncontroller.
   name: Katana ItemsCustomFieldsCollectionController API
   slug: katana-itemscustomfieldscollectioncontroller-api
-- description: The LocationController API from Katana — 2 operation(s) for locationcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The LocationController API from Katana — 2 operation(s) for locationcontroller.
   name: Katana LocationController API
   slug: katana-locationcontroller-api
-- description: The MakeToOrderMOController API from Katana — 3 operation(s) for maketoordermocontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The MakeToOrderMOController API from Katana — 3 operation(s) for maketoordermocontroller.
   name: Katana MakeToOrderMOController API
   slug: katana-maketoordermocontroller-api
-- description: The ManufacturingOrderController API from Katana — 2 operation(s) for manufacturingordercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ManufacturingOrderController API from Katana — 2 operation(s) for manufacturingordercontroller.
   name: Katana ManufacturingOrderController API
   slug: katana-manufacturingordercontroller-api
-- description: The ManufacturingOrderOperationRowController API from Katana — 2 operation(s) for manufacturingorderoperationrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ManufacturingOrderOperationRowController API from Katana — 2 operation(s) for manufacturingorderoperationrowcontroller.
   name: Katana ManufacturingOrderOperationRowController API
   slug: katana-manufacturingorderoperationrowcontroller-api
-- description: The ManufacturingOrderProductionController API from Katana — 2 operation(s) for manufacturingorderproductioncontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ManufacturingOrderProductionController API from Katana — 2 operation(s) for manufacturingorderproductioncontroller.
   name: Katana ManufacturingOrderProductionController API
   slug: katana-manufacturingorderproductioncontroller-api
-- description: The ManufacturingOrderProductionIngredientController API from Katana — 2 operation(s) for manufacturingorderproductioningredientcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ManufacturingOrderProductionIngredientController API from Katana — 2 operation(s) for manufacturingorderproductioningredientcontroller.
   name: Katana ManufacturingOrderProductionIngredientController API
   slug: katana-manufacturingorderproductioningredientcontroller-api
-- description: The ManufacturingOrderRecipeRowController API from Katana — 2 operation(s) for manufacturingorderreciperowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ManufacturingOrderRecipeRowController API from Katana — 2 operation(s) for manufacturingorderreciperowcontroller.
   name: Katana ManufacturingOrderRecipeRowController API
   slug: katana-manufacturingorderreciperowcontroller-api
-- description: The MaterialController API from Katana — 2 operation(s) for materialcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The MaterialController API from Katana — 2 operation(s) for materialcontroller.
   name: Katana MaterialController API
   slug: katana-materialcontroller-api
-- description: The NegativeStockLatestMovementController API from Katana — 1 operation(s) for negativestocklatestmovementcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The NegativeStockLatestMovementController API from Katana — 1 operation(s) for negativestocklatestmovementcontroller.
   name: Katana NegativeStockLatestMovementController API
   slug: katana-negativestocklatestmovementcontroller-api
-- description: The OperatorsController API from Katana — 1 operation(s) for operatorscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The OperatorsController API from Katana — 1 operation(s) for operatorscontroller.
   name: Katana OperatorsController API
   slug: katana-operatorscontroller-api
-- description: The PoAdditionalCostRowController API from Katana — 2 operation(s) for poadditionalcostrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PoAdditionalCostRowController API from Katana — 2 operation(s) for poadditionalcostrowcontroller.
   name: Katana PoAdditionalCostRowController API
   slug: katana-poadditionalcostrowcontroller-api
-- description: The PriceListController API from Katana — 2 operation(s) for pricelistcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PriceListController API from Katana — 2 operation(s) for pricelistcontroller.
   name: Katana PriceListController API
   slug: katana-pricelistcontroller-api
-- description: The PriceListCustomerController API from Katana — 2 operation(s) for pricelistcustomercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PriceListCustomerController API from Katana — 2 operation(s) for pricelistcustomercontroller.
   name: Katana PriceListCustomerController API
   slug: katana-pricelistcustomercontroller-api
-- description: The PriceListRowController API from Katana — 2 operation(s) for pricelistrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PriceListRowController API from Katana — 2 operation(s) for pricelistrowcontroller.
   name: Katana PriceListRowController API
   slug: katana-pricelistrowcontroller-api
-- description: The ProductController API from Katana — 2 operation(s) for productcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ProductController API from Katana — 2 operation(s) for productcontroller.
   name: Katana ProductController API
   slug: katana-productcontroller-api
-- description: The ProductOperationsController API from Katana — 3 operation(s) for productoperationscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ProductOperationsController API from Katana — 3 operation(s) for productoperationscontroller.
   name: Katana ProductOperationsController API
   slug: katana-productoperationscontroller-api
-- description: The PurchaseOrderAccountingMetadataController API from Katana — 1 operation(s) for purchaseorderaccountingmetadatacontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PurchaseOrderAccountingMetadataController API from Katana — 1 operation(s) for purchaseorderaccountingmetadatacontroller.
   name: Katana PurchaseOrderAccountingMetadataController API
   slug: katana-purchaseorderaccountingmetadatacontroller-api
-- description: The PurchaseOrderController API from Katana — 2 operation(s) for purchaseordercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PurchaseOrderController API from Katana — 2 operation(s) for purchaseordercontroller.
   name: Katana PurchaseOrderController API
   slug: katana-purchaseordercontroller-api
-- description: The PurchaseOrderReceiveController API from Katana — 1 operation(s) for purchaseorderreceivecontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PurchaseOrderReceiveController API from Katana — 1 operation(s) for purchaseorderreceivecontroller.
   name: Katana PurchaseOrderReceiveController API
   slug: katana-purchaseorderreceivecontroller-api
-- description: The PurchaseOrderRecipeRowController API from Katana — 2 operation(s) for purchaseorderreciperowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PurchaseOrderRecipeRowController API from Katana — 2 operation(s) for purchaseorderreciperowcontroller.
   name: Katana PurchaseOrderRecipeRowController API
   slug: katana-purchaseorderreciperowcontroller-api
-- description: The PurchaseOrderRowController API from Katana — 2 operation(s) for purchaseorderrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The PurchaseOrderRowController API from Katana — 2 operation(s) for purchaseorderrowcontroller.
   name: Katana PurchaseOrderRowController API
   slug: katana-purchaseorderrowcontroller-api
-- description: The RecipeController API from Katana — 2 operation(s) for recipecontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The RecipeController API from Katana — 2 operation(s) for recipecontroller.
   name: Katana RecipeController API
   slug: katana-recipecontroller-api
-- description: The RecipeRowController API from Katana — 1 operation(s) for reciperowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The RecipeRowController API from Katana — 1 operation(s) for reciperowcontroller.
   name: Katana RecipeRowController API
   slug: katana-reciperowcontroller-api
-- description: The SalesOrderAccountingMetadataController API from Katana — 1 operation(s) for salesorderaccountingmetadatacontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesOrderAccountingMetadataController API from Katana — 1 operation(s) for salesorderaccountingmetadatacontroller.
   name: Katana SalesOrderAccountingMetadataController API
   slug: katana-salesorderaccountingmetadatacontroller-api
-- description: The SalesOrderAddressController API from Katana — 2 operation(s) for salesorderaddresscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesOrderAddressController API from Katana — 2 operation(s) for salesorderaddresscontroller.
   name: Katana SalesOrderAddressController API
   slug: katana-salesorderaddresscontroller-api
-- description: The SalesOrderController API from Katana — 4 operation(s) for salesordercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesOrderController API from Katana — 4 operation(s) for salesordercontroller.
   name: Katana SalesOrderController API
   slug: katana-salesordercontroller-api
-- description: The SalesOrderFulfillmentController API from Katana — 2 operation(s) for salesorderfulfillmentcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesOrderFulfillmentController API from Katana — 2 operation(s) for salesorderfulfillmentcontroller.
   name: Katana SalesOrderFulfillmentController API
   slug: katana-salesorderfulfillmentcontroller-api
-- description: The SalesOrderRowController API from Katana — 3 operation(s) for salesorderrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesOrderRowController API from Katana — 3 operation(s) for salesorderrowcontroller.
   name: Katana SalesOrderRowController API
   slug: katana-salesorderrowcontroller-api
-- description: The SalesOrderShippingFeeController API from Katana — 2 operation(s) for salesordershippingfeecontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesOrderShippingFeeController API from Katana — 2 operation(s) for salesordershippingfeecontroller.
   name: Katana SalesOrderShippingFeeController API
   slug: katana-salesordershippingfeecontroller-api
-- description: The SalesReturnRowController API from Katana — 3 operation(s) for salesreturnrowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesReturnRowController API from Katana — 3 operation(s) for salesreturnrowcontroller.
   name: Katana SalesReturnRowController API
   slug: katana-salesreturnrowcontroller-api
-- description: The SalesReturnsController API from Katana — 3 operation(s) for salesreturnscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SalesReturnsController API from Katana — 3 operation(s) for salesreturnscontroller.
   name: Katana SalesReturnsController API
   slug: katana-salesreturnscontroller-api
-- description: The SerialNumberController API from Katana — 2 operation(s) for serialnumbercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SerialNumberController API from Katana — 2 operation(s) for serialnumbercontroller.
   name: Katana SerialNumberController API
   slug: katana-serialnumbercontroller-api
-- description: The SerialNumberStockController API from Katana — 1 operation(s) for serialnumberstockcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SerialNumberStockController API from Katana — 1 operation(s) for serialnumberstockcontroller.
   name: Katana SerialNumberStockController API
   slug: katana-serialnumberstockcontroller-api
-- description: The ServiceController API from Katana — 2 operation(s) for servicecontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The ServiceController API from Katana — 2 operation(s) for servicecontroller.
   name: Katana ServiceController API
   slug: katana-servicecontroller-api
-- description: The StockAdjustmentController API from Katana — 2 operation(s) for stockadjustmentcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The StockAdjustmentController API from Katana — 2 operation(s) for stockadjustmentcontroller.
   name: Katana StockAdjustmentController API
   slug: katana-stockadjustmentcontroller-api
-- description: The StocktakeController API from Katana — 2 operation(s) for stocktakecontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The StocktakeController API from Katana — 2 operation(s) for stocktakecontroller.
   name: Katana StocktakeController API
   slug: katana-stocktakecontroller-api
-- description: The StocktakeRowController API from Katana — 2 operation(s) for stocktakerowcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The StocktakeRowController API from Katana — 2 operation(s) for stocktakerowcontroller.
   name: Katana StocktakeRowController API
   slug: katana-stocktakerowcontroller-api
-- description: The StockTransferController API from Katana — 3 operation(s) for stocktransfercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The StockTransferController API from Katana — 3 operation(s) for stocktransfercontroller.
   name: Katana StockTransferController API
   slug: katana-stocktransfercontroller-api
-- description: The SupplierAddressController API from Katana — 2 operation(s) for supplieraddresscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SupplierAddressController API from Katana — 2 operation(s) for supplieraddresscontroller.
   name: Katana SupplierAddressController API
   slug: katana-supplieraddresscontroller-api
-- description: The SupplierController API from Katana — 2 operation(s) for suppliercontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The SupplierController API from Katana — 2 operation(s) for suppliercontroller.
   name: Katana SupplierController API
   slug: katana-suppliercontroller-api
-- description: The TaxRateController API from Katana — 1 operation(s) for taxratecontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The TaxRateController API from Katana — 1 operation(s) for taxratecontroller.
   name: Katana TaxRateController API
   slug: katana-taxratecontroller-api
-- description: The UnlinkVariantBinLocationController API from Katana — 1 operation(s) for unlinkvariantbinlocationcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The UnlinkVariantBinLocationController API from Katana — 1 operation(s) for unlinkvariantbinlocationcontroller.
   name: Katana UnlinkVariantBinLocationController API
   slug: katana-unlinkvariantbinlocationcontroller-api
-- description: The UsersController API from Katana — 2 operation(s) for userscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The UsersController API from Katana — 2 operation(s) for userscontroller.
   name: Katana UsersController API
   slug: katana-userscontroller-api
-- description: The VariantBinLocationController API from Katana — 1 operation(s) for variantbinlocationcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The VariantBinLocationController API from Katana — 1 operation(s) for variantbinlocationcontroller.
   name: Katana VariantBinLocationController API
   slug: katana-variantbinlocationcontroller-api
-- description: The VariantController API from Katana — 2 operation(s) for variantcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The VariantController API from Katana — 2 operation(s) for variantcontroller.
   name: Katana VariantController API
   slug: katana-variantcontroller-api
-- description: The WebhookController API from Katana — 2 operation(s) for webhookcontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The WebhookController API from Katana — 2 operation(s) for webhookcontroller.
   name: Katana WebhookController API
   slug: katana-webhookcontroller-api
-- description: The WebhookLogsController API from Katana — 1 operation(s) for webhooklogscontroller.
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The WebhookLogsController API from Katana — 1 operation(s) for webhooklogscontroller.
   name: Katana WebhookLogsController API
   slug: katana-webhooklogscontroller-api
 artifact_total: 136
@@ -593,7 +721,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -603,7 +731,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 50.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -615,7 +743,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/screenshots/katana-2026-07-25T223530.png
 security:

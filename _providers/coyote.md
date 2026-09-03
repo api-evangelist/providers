@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: The primary REST API for Coyote Logistics enabling shippers and carriers to integrate freight operations directly into their TMS, WMS, ERP, or accounting systems. Provides real-time freight quotes for
   name: CoyoteGO API
   slug: coyotego-api
-- description: The Associated Entities API API from Coyote Logistics — 1 operation(s) for associated entities api.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Associated Entities API API from Coyote Logistics — 1 operation(s) for associated entities api.
   name: Coyote Logistics Associated Entities API API
   slug: coyote-associated-entities-api-api
-- description: The Carrier - Available Load APIs API from Coyote Logistics — 2 operation(s) for carrier - available load apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Carrier - Available Load APIs API from Coyote Logistics — 2 operation(s) for carrier - available load apis.
   name: Coyote Logistics Carrier - Available Load APIs API
   slug: coyote-carrier-available-load-apis-api
-- description: The Carrier - Booking APIs API from Coyote Logistics — 2 operation(s) for carrier - booking apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Carrier - Booking APIs API from Coyote Logistics — 2 operation(s) for carrier - booking apis.
   name: Coyote Logistics Carrier - Booking APIs API
   slug: coyote-carrier-booking-apis-api
-- description: The Carrier - Offer APIs API from Coyote Logistics — 4 operation(s) for carrier - offer apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Carrier - Offer APIs API from Coyote Logistics — 4 operation(s) for carrier - offer apis.
   name: Coyote Logistics Carrier - Offer APIs API
   slug: coyote-carrier-offer-apis-api
-- description: The Document APIs API from Coyote Logistics — 2 operation(s) for document apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Document APIs API from Coyote Logistics — 2 operation(s) for document apis.
   name: Coyote Logistics Document APIs API
   slug: coyote-document-apis-api
-- description: The Shipper - Quoting APIs API from Coyote Logistics — 2 operation(s) for shipper - quoting apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Shipper - Quoting APIs API from Coyote Logistics — 2 operation(s) for shipper - quoting apis.
   name: Coyote Logistics Shipper - Quoting APIs API
   slug: coyote-shipper-quoting-apis-api
-- description: The Shipper - Shipment APIs API from Coyote Logistics — 4 operation(s) for shipper - shipment apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Shipper - Shipment APIs API from Coyote Logistics — 4 operation(s) for shipper - shipment apis.
   name: Coyote Logistics Shipper - Shipment APIs API
   slug: coyote-shipper-shipment-apis-api
-- description: The Shipper - Tracking APIs API from Coyote Logistics — 4 operation(s) for shipper - tracking apis.
+- baseURL: https://api.coyote.com
+  baseurl_source: declared
+  description: The Shipper - Tracking APIs API from Coyote Logistics — 4 operation(s) for shipper - tracking apis.
   name: Coyote Logistics Shipper - Tracking APIs API
   slug: coyote-shipper-tracking-apis-api
 artifact_total: 145
@@ -599,7 +615,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coyote/refs/heads/main/screenshots/coyote-2026-06-20T175149.png
 security:

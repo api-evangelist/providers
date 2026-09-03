@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: REST API for programmatic document creation, editing, mail merge, electronic signing, webhook automation, and multi-format document export. Supports Document, Meta, Combine, Merge, and Sign API catego
   name: Zoho Writer API
   slug: zoho-writer-api
-- description: Combine multiple PDF documents into one
+- baseURL: https://writer.zoho.com/api/v1
+  baseurl_source: declared
+  description: Combine multiple PDF documents into one
   name: Zoho Writer Combine API
   slug: zoho-writer-combine-api
-- description: Create, upload, list, download, and inspect documents
+- baseURL: https://writer.zoho.com/api/v1
+  baseurl_source: declared
+  description: Create, upload, list, download, and inspect documents
   name: Zoho Writer Documents API
   slug: zoho-writer-documents-api
-- description: 'Mail-merge operations: merge to bytes, link, store, invoke, or sign'
+- baseURL: https://writer.zoho.com/api/v1
+  baseurl_source: declared
+  description: 'Mail-merge operations: merge to bytes, link, store, invoke, or sign'
   name: Zoho Writer Merge API
   slug: zoho-writer-merge-api
-- description: Electronic signature workflows via Zoho Sign
+- baseURL: https://writer.zoho.com/api/v1
+  baseurl_source: declared
+  description: Electronic signature workflows via Zoho Sign
   name: Zoho Writer Signatures API
   slug: zoho-writer-signatures-api
 artifact_total: 20
@@ -198,7 +206,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -208,7 +216,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 38.9
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -217,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/screenshots/zoho-writer-2026-06-20T201950.png
 security:

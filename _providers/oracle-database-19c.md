@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: REST APIs for Oracle Machine Learning AutoML capabilities including model building and deployment.
   name: Oracle Database REST API for AutoML
   slug: oracle-database-rest-api-for-automl
-- description: AutoREST-enabled tables and views
+- baseURL: https://example.oracle.com:8443/ords/
+  baseurl_source: declared
+  description: AutoREST-enabled tables and views
   name: Oracle Database 19c AutoREST API
   slug: oracle-database-19c-autorest-api
-- description: Schema and metadata catalog
+- baseURL: https://example.oracle.com:8443/ords/
+  baseurl_source: declared
+  description: Schema and metadata catalog
   name: Oracle Database 19c Metadata API
   slug: oracle-database-19c-metadata-api
-- description: Simple Oracle Document Access REST API
+- baseURL: https://example.oracle.com:8443/ords/
+  baseurl_source: declared
+  description: Simple Oracle Document Access REST API
   name: Oracle Database 19c SODA API
   slug: oracle-database-19c-soda-api
-- description: Ad-hoc SQL execution
+- baseURL: https://example.oracle.com:8443/ords/
+  baseurl_source: declared
+  description: Ad-hoc SQL execution
   name: Oracle Database 19c SQL API
   slug: oracle-database-19c-sql-api
 artifact_total: 31
@@ -235,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/screenshots/oracle-database-19c-2026-08-07T190822.png
 security:

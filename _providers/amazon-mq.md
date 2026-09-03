@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 11 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Broker Engine Types API from Amazon MQ — 1 operation(s) for broker engine types.
+- baseURL: http://mq.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Broker Engine Types API from Amazon MQ — 1 operation(s) for broker engine types.
   name: Amazon MQ Broker Engine Types API
   slug: amazon-mq-broker-engine-types-api
-- description: The Broker Instance Options API from Amazon MQ — 1 operation(s) for broker instance options.
+- baseURL: http://mq.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Broker Instance Options API from Amazon MQ — 1 operation(s) for broker instance options.
   name: Amazon MQ Broker Instance Options API
   slug: amazon-mq-broker-instance-options-api
-- description: The Brokers API from Amazon MQ — 5 operation(s) for brokers.
+- baseURL: http://mq.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Brokers API from Amazon MQ — 5 operation(s) for brokers.
   name: Amazon MQ Brokers API
   slug: amazon-mq-brokers-api
-- description: The Configurations API from Amazon MQ — 4 operation(s) for configurations.
+- baseURL: http://mq.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Configurations API from Amazon MQ — 4 operation(s) for configurations.
   name: Amazon MQ Configurations API
   slug: amazon-mq-configurations-api
-- description: The Tags API from Amazon MQ — 2 operation(s) for tags.
+- baseURL: http://mq.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MQ — 2 operation(s) for tags.
   name: Amazon MQ Tags API
   slug: amazon-mq-tags-api
 artifact_total: 260
@@ -942,7 +952,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/screenshots/amazon-mq-2026-06-20T171747.png
 security:

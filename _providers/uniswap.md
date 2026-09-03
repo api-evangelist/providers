@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -50,40 +50,64 @@ apis:
 - description: UniswapX is a gasless, auction-based ERC20 swap settlement protocol that routes orders through a competitive filler network. Swappers sign off-chain orders which are filled by fillers who compete to p
   name: UniswapX API
   slug: uniswap-x-api
-- description: The Approval API from Uniswap — 1 operation(s) for approval.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Approval API from Uniswap — 1 operation(s) for approval.
   name: Uniswap Approval API
   slug: uniswap-approval-api
-- description: The LimitOrderQuote API from Uniswap — 1 operation(s) for limitorderquote.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The LimitOrderQuote API from Uniswap — 1 operation(s) for limitorderquote.
   name: Uniswap LimitOrderQuote API
   slug: uniswap-limitorderquote-api
-- description: The Liquidity API from Uniswap — 7 operation(s) for liquidity.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Liquidity API from Uniswap — 7 operation(s) for liquidity.
   name: Uniswap Liquidity API
   slug: uniswap-liquidity-api
-- description: The Order API from Uniswap — 2 operation(s) for order.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Order API from Uniswap — 2 operation(s) for order.
   name: Uniswap Order API
   slug: uniswap-order-api
-- description: The Plan API from Uniswap — 2 operation(s) for plan.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Plan API from Uniswap — 2 operation(s) for plan.
   name: Uniswap Plan API
   slug: uniswap-plan-api
-- description: The Quote API from Uniswap — 1 operation(s) for quote.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Quote API from Uniswap — 1 operation(s) for quote.
   name: Uniswap Quote API
   slug: uniswap-quote-api
-- description: The Send API from Uniswap — 1 operation(s) for send.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Send API from Uniswap — 1 operation(s) for send.
   name: Uniswap Send API
   slug: uniswap-send-api
-- description: The Swap API from Uniswap — 4 operation(s) for swap.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Swap API from Uniswap — 4 operation(s) for swap.
   name: Uniswap Swap API
   slug: uniswap-swap-api
-- description: The SwappableTokens API from Uniswap — 1 operation(s) for swappabletokens.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The SwappableTokens API from Uniswap — 1 operation(s) for swappabletokens.
   name: Uniswap SwappableTokens API
   slug: uniswap-swappabletokens-api
-- description: The Wallet API from Uniswap — 1 operation(s) for wallet.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The Wallet API from Uniswap — 1 operation(s) for wallet.
   name: Uniswap Wallet API
   slug: uniswap-wallet-api
-- description: The WalletCheckDelegation API from Uniswap — 1 operation(s) for walletcheckdelegation.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The WalletCheckDelegation API from Uniswap — 1 operation(s) for walletcheckdelegation.
   name: Uniswap WalletCheckDelegation API
   slug: uniswap-walletcheckdelegation-api
-- description: The WalletEncode7702 API from Uniswap — 1 operation(s) for walletencode7702.
+- baseURL: https://trade-api.gateway.uniswap.org/v1
+  baseurl_source: spec
+  description: The WalletEncode7702 API from Uniswap — 1 operation(s) for walletencode7702.
   name: Uniswap WalletEncode7702 API
   slug: uniswap-walletencode7702-api
 artifact_total: 109
@@ -487,7 +511,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/screenshots/uniswap-2026-06-20T200036.png
 security:

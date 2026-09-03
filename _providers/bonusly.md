@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 31 operations · 12 acting
 api_count: 1
 apis:
-- description: Snapshots and lists of recognition activity for reporting.
+- baseURL: https://bonus.ly/api/v1
+  baseurl_source: declared
+  description: Snapshots and lists of recognition activity for reporting.
   name: Bonusly Analytics API
   slug: bonusly-analytics-api
-- description: Peer-to-peer recognition posts that carry points.
+- baseURL: https://bonus.ly/api/v1
+  baseurl_source: declared
+  description: Peer-to-peer recognition posts that carry points.
   name: Bonusly Bonuses API
   slug: bonusly-bonuses-api
-- description: Company-level settings and achievements.
+- baseURL: https://bonus.ly/api/v1
+  baseurl_source: declared
+  description: Company-level settings and achievements.
   name: Bonusly Company API
   slug: bonusly-company-api
-- description: Conversions of earned points into rewards.
+- baseURL: https://bonus.ly/api/v1
+  baseurl_source: declared
+  description: Conversions of earned points into rewards.
   name: Bonusly Redemptions API
   slug: bonusly-redemptions-api
-- description: The catalog of gift cards, donations, and custom rewards.
+- baseURL: https://bonus.ly/api/v1
+  baseurl_source: declared
+  description: The catalog of gift cards, donations, and custom rewards.
   name: Bonusly Rewards API
   slug: bonusly-rewards-api
-- description: Company members who give and receive recognition.
+- baseURL: https://bonus.ly/api/v1
+  baseurl_source: declared
+  description: Company members who give and receive recognition.
   name: Bonusly Users API
   slug: bonusly-users-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonusly/refs/heads/main/screenshots/bonusly-2026-07-25T203601.png
 security:

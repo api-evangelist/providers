@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 30 operations · 29 acting
 api_count: 1
 apis:
-- description: The ActivateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for activateanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ActivateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for activateanomalydetector.
   name: Amazon Lookout for Metrics ActivateAnomalyDetector API
   slug: amazon-lookout-for-metrics-activateanomalydetector-api
-- description: The BackTestAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for backtestanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The BackTestAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for backtestanomalydetector.
   name: Amazon Lookout for Metrics BackTestAnomalyDetector API
   slug: amazon-lookout-for-metrics-backtestanomalydetector-api
-- description: The CreateAlert API from Amazon Lookout for Metrics — 1 operation(s) for createalert.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The CreateAlert API from Amazon Lookout for Metrics — 1 operation(s) for createalert.
   name: Amazon Lookout for Metrics CreateAlert API
   slug: amazon-lookout-for-metrics-createalert-api
-- description: The CreateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for createanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The CreateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for createanomalydetector.
   name: Amazon Lookout for Metrics CreateAnomalyDetector API
   slug: amazon-lookout-for-metrics-createanomalydetector-api
-- description: The CreateMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for createmetricset.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The CreateMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for createmetricset.
   name: Amazon Lookout for Metrics CreateMetricSet API
   slug: amazon-lookout-for-metrics-createmetricset-api
-- description: The DeactivateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for deactivateanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DeactivateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for deactivateanomalydetector.
   name: Amazon Lookout for Metrics DeactivateAnomalyDetector API
   slug: amazon-lookout-for-metrics-deactivateanomalydetector-api
-- description: The DeleteAlert API from Amazon Lookout for Metrics — 1 operation(s) for deletealert.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteAlert API from Amazon Lookout for Metrics — 1 operation(s) for deletealert.
   name: Amazon Lookout for Metrics DeleteAlert API
   slug: amazon-lookout-for-metrics-deletealert-api
-- description: The DeleteAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for deleteanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for deleteanomalydetector.
   name: Amazon Lookout for Metrics DeleteAnomalyDetector API
   slug: amazon-lookout-for-metrics-deleteanomalydetector-api
-- description: The DescribeAlert API from Amazon Lookout for Metrics — 1 operation(s) for describealert.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeAlert API from Amazon Lookout for Metrics — 1 operation(s) for describealert.
   name: Amazon Lookout for Metrics DescribeAlert API
   slug: amazon-lookout-for-metrics-describealert-api
-- description: The DescribeAnomalyDetectionExecutions API from Amazon Lookout for Metrics — 1 operation(s) for describeanomalydetectionexecutions.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeAnomalyDetectionExecutions API from Amazon Lookout for Metrics — 1 operation(s) for describeanomalydetectionexecutions.
   name: Amazon Lookout for Metrics DescribeAnomalyDetectionExecutions API
   slug: amazon-lookout-for-metrics-describeanomalydetectionexecutions-api
-- description: The DescribeAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for describeanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for describeanomalydetector.
   name: Amazon Lookout for Metrics DescribeAnomalyDetector API
   slug: amazon-lookout-for-metrics-describeanomalydetector-api
-- description: The DescribeMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for describemetricset.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for describemetricset.
   name: Amazon Lookout for Metrics DescribeMetricSet API
   slug: amazon-lookout-for-metrics-describemetricset-api
-- description: The DetectMetricSetConfig API from Amazon Lookout for Metrics — 1 operation(s) for detectmetricsetconfig.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The DetectMetricSetConfig API from Amazon Lookout for Metrics — 1 operation(s) for detectmetricsetconfig.
   name: Amazon Lookout for Metrics DetectMetricSetConfig API
   slug: amazon-lookout-for-metrics-detectmetricsetconfig-api
-- description: The GetAnomalyGroup API from Amazon Lookout for Metrics — 1 operation(s) for getanomalygroup.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The GetAnomalyGroup API from Amazon Lookout for Metrics — 1 operation(s) for getanomalygroup.
   name: Amazon Lookout for Metrics GetAnomalyGroup API
   slug: amazon-lookout-for-metrics-getanomalygroup-api
-- description: The GetDataQualityMetrics API from Amazon Lookout for Metrics — 1 operation(s) for getdataqualitymetrics.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The GetDataQualityMetrics API from Amazon Lookout for Metrics — 1 operation(s) for getdataqualitymetrics.
   name: Amazon Lookout for Metrics GetDataQualityMetrics API
   slug: amazon-lookout-for-metrics-getdataqualitymetrics-api
-- description: The GetFeedback API from Amazon Lookout for Metrics — 1 operation(s) for getfeedback.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The GetFeedback API from Amazon Lookout for Metrics — 1 operation(s) for getfeedback.
   name: Amazon Lookout for Metrics GetFeedback API
   slug: amazon-lookout-for-metrics-getfeedback-api
-- description: The GetSampleData API from Amazon Lookout for Metrics — 1 operation(s) for getsampledata.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The GetSampleData API from Amazon Lookout for Metrics — 1 operation(s) for getsampledata.
   name: Amazon Lookout for Metrics GetSampleData API
   slug: amazon-lookout-for-metrics-getsampledata-api
-- description: The ListAlerts API from Amazon Lookout for Metrics — 1 operation(s) for listalerts.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ListAlerts API from Amazon Lookout for Metrics — 1 operation(s) for listalerts.
   name: Amazon Lookout for Metrics ListAlerts API
   slug: amazon-lookout-for-metrics-listalerts-api
-- description: The ListAnomalyDetectors API from Amazon Lookout for Metrics — 1 operation(s) for listanomalydetectors.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ListAnomalyDetectors API from Amazon Lookout for Metrics — 1 operation(s) for listanomalydetectors.
   name: Amazon Lookout for Metrics ListAnomalyDetectors API
   slug: amazon-lookout-for-metrics-listanomalydetectors-api
-- description: The ListAnomalyGroupRelatedMetrics API from Amazon Lookout for Metrics — 1 operation(s) for listanomalygrouprelatedmetrics.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ListAnomalyGroupRelatedMetrics API from Amazon Lookout for Metrics — 1 operation(s) for listanomalygrouprelatedmetrics.
   name: Amazon Lookout for Metrics ListAnomalyGroupRelatedMetrics API
   slug: amazon-lookout-for-metrics-listanomalygrouprelatedmetrics-api
-- description: The ListAnomalyGroupSummaries API from Amazon Lookout for Metrics — 1 operation(s) for listanomalygroupsummaries.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ListAnomalyGroupSummaries API from Amazon Lookout for Metrics — 1 operation(s) for listanomalygroupsummaries.
   name: Amazon Lookout for Metrics ListAnomalyGroupSummaries API
   slug: amazon-lookout-for-metrics-listanomalygroupsummaries-api
-- description: The ListAnomalyGroupTimeSeries API from Amazon Lookout for Metrics — 1 operation(s) for listanomalygrouptimeseries.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ListAnomalyGroupTimeSeries API from Amazon Lookout for Metrics — 1 operation(s) for listanomalygrouptimeseries.
   name: Amazon Lookout for Metrics ListAnomalyGroupTimeSeries API
   slug: amazon-lookout-for-metrics-listanomalygrouptimeseries-api
-- description: The ListMetricSets API from Amazon Lookout for Metrics — 1 operation(s) for listmetricsets.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The ListMetricSets API from Amazon Lookout for Metrics — 1 operation(s) for listmetricsets.
   name: Amazon Lookout for Metrics ListMetricSets API
   slug: amazon-lookout-for-metrics-listmetricsets-api
-- description: The PutFeedback API from Amazon Lookout for Metrics — 1 operation(s) for putfeedback.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The PutFeedback API from Amazon Lookout for Metrics — 1 operation(s) for putfeedback.
   name: Amazon Lookout for Metrics PutFeedback API
   slug: amazon-lookout-for-metrics-putfeedback-api
-- description: The Tags API from Amazon Lookout for Metrics — 2 operation(s) for tags.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Lookout for Metrics — 2 operation(s) for tags.
   name: Amazon Lookout for Metrics Tags API
   slug: amazon-lookout-for-metrics-tags-api
-- description: The UpdateAlert API from Amazon Lookout for Metrics — 1 operation(s) for updatealert.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateAlert API from Amazon Lookout for Metrics — 1 operation(s) for updatealert.
   name: Amazon Lookout for Metrics UpdateAlert API
   slug: amazon-lookout-for-metrics-updatealert-api
-- description: The UpdateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for updateanomalydetector.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for updateanomalydetector.
   name: Amazon Lookout for Metrics UpdateAnomalyDetector API
   slug: amazon-lookout-for-metrics-updateanomalydetector-api
-- description: The UpdateMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for updatemetricset.
+- baseURL: https://lookoutmetrics.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateMetricSet API from Amazon Lookout for Metrics — 1 operation(s) for updatemetricset.
   name: Amazon Lookout for Metrics UpdateMetricSet API
   slug: amazon-lookout-for-metrics-updatemetricset-api
 artifact_total: 795
@@ -2543,7 +2599,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 46 operations · 10 acting
 api_count: 1
 apis:
-- description: The Book API from Ripio — 2 operation(s) for book.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Book API from Ripio — 2 operation(s) for book.
   name: Ripio Book API
   slug: ripio-book-api
-- description: The Cryptocurrency Deposits API from Ripio — 2 operation(s) for cryptocurrency deposits.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Cryptocurrency Deposits API from Ripio — 2 operation(s) for cryptocurrency deposits.
   name: Ripio Cryptocurrency Deposits API
   slug: ripio-cryptocurrency-deposits-api
-- description: The Cryptocurrency Withdrawals API from Ripio — 3 operation(s) for cryptocurrency withdrawals.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Cryptocurrency Withdrawals API from Ripio — 3 operation(s) for cryptocurrency withdrawals.
   name: Ripio Cryptocurrency Withdrawals API
   slug: ripio-cryptocurrency-withdrawals-api
-- description: The General endpoints API from Ripio — 3 operation(s) for general endpoints.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The General endpoints API from Ripio — 3 operation(s) for general endpoints.
   name: Ripio General endpoints API
   slug: ripio-general-endpoints-api
-- description: The Orders API from Ripio — 11 operation(s) for orders.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Orders API from Ripio — 11 operation(s) for orders.
   name: Ripio Orders API
   slug: ripio-orders-api
-- description: The public endpoints have a reduced requests limit and a 30 seconds cache. For increased limits, use the private endpoints.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The public endpoints have a reduced requests limit and a 30 seconds cache. For increased limits, use the private endpoints.
   name: Ripio Public API
   slug: ripio-public-api
-- description: The Ticker API from Ripio — 2 operation(s) for ticker.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Ticker API from Ripio — 2 operation(s) for ticker.
   name: Ripio Ticker API
   slug: ripio-ticker-api
-- description: The Ticket API from Ripio — 1 operation(s) for ticket.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Ticket API from Ripio — 1 operation(s) for ticket.
   name: Ripio Ticket API
   slug: ripio-ticket-api
-- description: The Transactions API from Ripio — 1 operation(s) for transactions.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The Transactions API from Ripio — 1 operation(s) for transactions.
   name: Ripio Transactions API
   slug: ripio-transactions-api
-- description: The User API from Ripio — 6 operation(s) for user.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The User API from Ripio — 6 operation(s) for user.
   name: Ripio User API
   slug: ripio-user-api
-- description: API to check addresses of wallets.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: API to check addresses of wallets.
   name: Ripio Wallets API
   slug: ripio-wallets-api
-- description: The WebSocket API API from Ripio — 0 operation(s) for websocket api.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The WebSocket API API from Ripio — 0 operation(s) for websocket api.
   name: Ripio WebSocket API
   slug: ripio-websocket-api-api
-- description: The WebSocket Stream API from Ripio — 0 operation(s) for websocket stream.
+- baseURL: https://api.ripiotrade.co/v4/
+  baseurl_source: declared
+  description: The WebSocket Stream API from Ripio — 0 operation(s) for websocket stream.
   name: Ripio WebSocket Stream API
   slug: ripio-websocket-stream-api
 artifact_total: 44
@@ -326,7 +352,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -336,7 +362,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 72.4
-  previous_composite: 60.9
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -354,7 +380,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/screenshots/ripio-2026-08-17T081611.png
 security:

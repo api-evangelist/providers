@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 84 operations · 67 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Container.Audio API from FriendliAI — 2 operation(s) for container.audio.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Audio API from FriendliAI — 2 operation(s) for container.audio.
   name: FriendliAI Container.Audio API
   slug: friendliai-container-audio-api
-- description: The Container.Chat API from FriendliAI — 2 operation(s) for container.chat.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Chat API from FriendliAI — 2 operation(s) for container.chat.
   name: FriendliAI Container.Chat API
   slug: friendliai-container-chat-api
-- description: The Container.Classification API from FriendliAI — 1 operation(s) for container.classification.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Classification API from FriendliAI — 1 operation(s) for container.classification.
   name: FriendliAI Container.Classification API
   slug: friendliai-container-classification-api
-- description: The Container.Completions API from FriendliAI — 2 operation(s) for container.completions.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Completions API from FriendliAI — 2 operation(s) for container.completions.
   name: FriendliAI Container.Completions API
   slug: friendliai-container-completions-api
-- description: The Container.Image API from FriendliAI — 2 operation(s) for container.image.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Image API from FriendliAI — 2 operation(s) for container.image.
   name: FriendliAI Container.Image API
   slug: friendliai-container-image-api
-- description: The Container.Messages API from FriendliAI — 2 operation(s) for container.messages.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Messages API from FriendliAI — 2 operation(s) for container.messages.
   name: FriendliAI Container.Messages API
   slug: friendliai-container-messages-api
-- description: The Container.Responses API from FriendliAI — 2 operation(s) for container.responses.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Responses API from FriendliAI — 2 operation(s) for container.responses.
   name: FriendliAI Container.Responses API
   slug: friendliai-container-responses-api
-- description: The Container.Token API from FriendliAI — 2 operation(s) for container.token.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Container.Token API from FriendliAI — 2 operation(s) for container.token.
   name: FriendliAI Container.Token API
   slug: friendliai-container-token-api
-- description: The Cost API from FriendliAI — 1 operation(s) for cost.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Cost API from FriendliAI — 1 operation(s) for cost.
   name: FriendliAI Cost API
   slug: friendliai-cost-api
-- description: The Dataset API from FriendliAI — 8 operation(s) for dataset.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dataset API from FriendliAI — 8 operation(s) for dataset.
   name: FriendliAI Dataset API
   slug: friendliai-dataset-api
-- description: The Dedicated.Audio API from FriendliAI — 2 operation(s) for dedicated.audio.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Audio API from FriendliAI — 2 operation(s) for dedicated.audio.
   name: FriendliAI Dedicated.Audio API
   slug: friendliai-dedicated-audio-api
-- description: The Dedicated.Chat API from FriendliAI — 2 operation(s) for dedicated.chat.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Chat API from FriendliAI — 2 operation(s) for dedicated.chat.
   name: FriendliAI Dedicated.Chat API
   slug: friendliai-dedicated-chat-api
-- description: The Dedicated.ChatRender API from FriendliAI — 1 operation(s) for dedicated.chatrender.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.ChatRender API from FriendliAI — 1 operation(s) for dedicated.chatrender.
   name: FriendliAI Dedicated.ChatRender API
   slug: friendliai-dedicated-chatrender-api
-- description: The Dedicated.Classification API from FriendliAI — 1 operation(s) for dedicated.classification.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Classification API from FriendliAI — 1 operation(s) for dedicated.classification.
   name: FriendliAI Dedicated.Classification API
   slug: friendliai-dedicated-classification-api
-- description: The Dedicated.Completions API from FriendliAI — 2 operation(s) for dedicated.completions.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Completions API from FriendliAI — 2 operation(s) for dedicated.completions.
   name: FriendliAI Dedicated.Completions API
   slug: friendliai-dedicated-completions-api
-- description: The Dedicated.Embeddings API from FriendliAI — 1 operation(s) for dedicated.embeddings.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Embeddings API from FriendliAI — 1 operation(s) for dedicated.embeddings.
   name: FriendliAI Dedicated.Embeddings API
   slug: friendliai-dedicated-embeddings-api
-- description: The Dedicated.Endpoint API from FriendliAI — 9 operation(s) for dedicated.endpoint.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Endpoint API from FriendliAI — 9 operation(s) for dedicated.endpoint.
   name: FriendliAI Dedicated.Endpoint API
   slug: friendliai-dedicated-endpoint-api
-- description: The Dedicated.Image API from FriendliAI — 2 operation(s) for dedicated.image.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Image API from FriendliAI — 2 operation(s) for dedicated.image.
   name: FriendliAI Dedicated.Image API
   slug: friendliai-dedicated-image-api
-- description: The Dedicated.Messages API from FriendliAI — 2 operation(s) for dedicated.messages.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Messages API from FriendliAI — 2 operation(s) for dedicated.messages.
   name: FriendliAI Dedicated.Messages API
   slug: friendliai-dedicated-messages-api
-- description: The Dedicated.Responses API from FriendliAI — 2 operation(s) for dedicated.responses.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Responses API from FriendliAI — 2 operation(s) for dedicated.responses.
   name: FriendliAI Dedicated.Responses API
   slug: friendliai-dedicated-responses-api
-- description: The Dedicated.Token API from FriendliAI — 2 operation(s) for dedicated.token.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Dedicated.Token API from FriendliAI — 2 operation(s) for dedicated.token.
   name: FriendliAI Dedicated.Token API
   slug: friendliai-dedicated-token-api
-- description: The File API from FriendliAI — 3 operation(s) for file.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The File API from FriendliAI — 3 operation(s) for file.
   name: FriendliAI File API
   slug: friendliai-file-api
-- description: The Serverless.Audio API from FriendliAI — 2 operation(s) for serverless.audio.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Audio API from FriendliAI — 2 operation(s) for serverless.audio.
   name: FriendliAI Serverless.Audio API
   slug: friendliai-serverless-audio-api
-- description: The Serverless.Chat API from FriendliAI — 2 operation(s) for serverless.chat.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Chat API from FriendliAI — 2 operation(s) for serverless.chat.
   name: FriendliAI Serverless.Chat API
   slug: friendliai-serverless-chat-api
-- description: The Serverless.ChatRender API from FriendliAI — 1 operation(s) for serverless.chatrender.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.ChatRender API from FriendliAI — 1 operation(s) for serverless.chatrender.
   name: FriendliAI Serverless.ChatRender API
   slug: friendliai-serverless-chatrender-api
-- description: The Serverless.Completions API from FriendliAI — 2 operation(s) for serverless.completions.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Completions API from FriendliAI — 2 operation(s) for serverless.completions.
   name: FriendliAI Serverless.Completions API
   slug: friendliai-serverless-completions-api
-- description: The Serverless.Knowledge API from FriendliAI — 1 operation(s) for serverless.knowledge.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Knowledge API from FriendliAI — 1 operation(s) for serverless.knowledge.
   name: FriendliAI Serverless.Knowledge API
   slug: friendliai-serverless-knowledge-api
-- description: The Serverless.Messages API from FriendliAI — 2 operation(s) for serverless.messages.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Messages API from FriendliAI — 2 operation(s) for serverless.messages.
   name: FriendliAI Serverless.Messages API
   slug: friendliai-serverless-messages-api
-- description: The Serverless.Model API from FriendliAI — 2 operation(s) for serverless.model.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Model API from FriendliAI — 2 operation(s) for serverless.model.
   name: FriendliAI Serverless.Model API
   slug: friendliai-serverless-model-api
-- description: The Serverless.Responses API from FriendliAI — 2 operation(s) for serverless.responses.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Responses API from FriendliAI — 2 operation(s) for serverless.responses.
   name: FriendliAI Serverless.Responses API
   slug: friendliai-serverless-responses-api
-- description: The Serverless.Token API from FriendliAI — 2 operation(s) for serverless.token.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.Token API from FriendliAI — 2 operation(s) for serverless.token.
   name: FriendliAI Serverless.Token API
   slug: friendliai-serverless-token-api
-- description: The Serverless.ToolAssistedChat API from FriendliAI — 2 operation(s) for serverless.toolassistedchat.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Serverless.ToolAssistedChat API from FriendliAI — 2 operation(s) for serverless.toolassistedchat.
   name: FriendliAI Serverless.ToolAssistedChat API
   slug: friendliai-serverless-toolassistedchat-api
-- description: The Usage API from FriendliAI — 1 operation(s) for usage.
+- baseURL: https://api.friendli.ai
+  baseurl_source: declared
+  description: The Usage API from FriendliAI — 1 operation(s) for usage.
   name: FriendliAI Usage API
   slug: friendliai-usage-api
 arazzos:
@@ -453,7 +519,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
 security:

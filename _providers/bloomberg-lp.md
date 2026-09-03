@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: 'Bloomberg''s flagship subscription product — a desktop application delivering real-time market data, news, analytics, trading, messaging, and research to financial professionals globally. The Terminal '
   name: Bloomberg Terminal
   slug: terminal
-- description: Filtered, paginated search across the FIGI universe.
+- baseURL: https://api.openfigi.com/v3
+  baseurl_source: declared
+  description: Filtered, paginated search across the FIGI universe.
   name: Bloomberg L.P. Filter API
   slug: bloomberg-lp-filter-api
-- description: Map third-party identifiers to FIGIs.
+- baseURL: https://api.openfigi.com/v3
+  baseurl_source: declared
+  description: Map third-party identifiers to FIGIs.
   name: Bloomberg L.P. Mapping API
   slug: bloomberg-lp-mapping-api
-- description: Enumerated values for request and response fields.
+- baseURL: https://api.openfigi.com/v3
+  baseurl_source: declared
+  description: Enumerated values for request and response fields.
   name: Bloomberg L.P. Reference API
   slug: bloomberg-lp-reference-api
-- description: Keyword search across the FIGI universe.
+- baseURL: https://api.openfigi.com/v3
+  baseurl_source: declared
+  description: Keyword search across the FIGI universe.
   name: Bloomberg L.P. Search API
   slug: bloomberg-lp-search-api
 artifact_total: 55
@@ -361,7 +369,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Shipping options for a destination.
+- baseURL: https://api.shapeways.com
+  baseurl_source: declared
+  description: Shipping options for a destination.
   name: Shapeways Cart API
   slug: shapeways-cart-api
-- description: The Shapeways material catalog (40+ materials).
+- baseURL: https://api.shapeways.com
+  baseurl_source: declared
+  description: The Shapeways material catalog (40+ materials).
   name: Shapeways Materials API
   slug: shapeways-materials-api
-- description: Upload, list, retrieve, and delete 3D models.
+- baseURL: https://api.shapeways.com
+  baseurl_source: declared
+  description: Upload, list, retrieve, and delete 3D models.
   name: Shapeways Models API
   slug: shapeways-models-api
-- description: Place and track manufacturing orders.
+- baseURL: https://api.shapeways.com
+  baseurl_source: declared
+  description: Place and track manufacturing orders.
   name: Shapeways Orders API
   slug: shapeways-orders-api
 artifact_total: 14
@@ -207,7 +215,7 @@ score:
   band: thin
   composite: 31.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -233,8 +241,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/screenshots/shapeways-2026-09-02T155109.png
 security:
 - kind: authentication
   name: Shapeways Authentication

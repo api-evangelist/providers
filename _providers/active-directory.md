@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,25 +65,39 @@ apis:
 - description: 'Access audit logs, sign-in logs, provisioning logs, and identity-related reports for monitoring, compliance, and troubleshooting. Stream logs to Azure Monitor and Log Analytics or to third-party SIEM '
   name: Microsoft Graph Identity and Access Reports API
   slug: microsoft-graph-identity-and-access-reports-api
-- description: The App Role Assignments API from Microsoft Active Directory — 1 operation(s) for app role assignments.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The App Role Assignments API from Microsoft Active Directory — 1 operation(s) for app role assignments.
   name: Microsoft Active Directory App Role Assignments API
   slug: active-directory-app-role-assignments-api
-- description: The Applications API from Microsoft Active Directory — 2 operation(s) for applications.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Applications API from Microsoft Active Directory — 2 operation(s) for applications.
   name: Microsoft Active Directory Applications API
   slug: active-directory-applications-api
-- description: The Groups API from Microsoft Active Directory — 6 operation(s) for groups.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups API from Microsoft Active Directory — 6 operation(s) for groups.
   name: Microsoft Active Directory Groups API
   slug: active-directory-groups-api
-- description: The Members API from Microsoft Active Directory — 2 operation(s) for members.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Members API from Microsoft Active Directory — 2 operation(s) for members.
   name: Microsoft Active Directory Members API
   slug: active-directory-members-api
-- description: The Owners API from Microsoft Active Directory — 1 operation(s) for owners.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Owners API from Microsoft Active Directory — 1 operation(s) for owners.
   name: Microsoft Active Directory Owners API
   slug: active-directory-owners-api
-- description: The Service Principals API from Microsoft Active Directory — 3 operation(s) for service principals.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Service Principals API from Microsoft Active Directory — 3 operation(s) for service principals.
   name: Microsoft Active Directory Service Principals API
   slug: active-directory-service-principals-api
-- description: The Users API from Microsoft Active Directory — 5 operation(s) for users.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users API from Microsoft Active Directory — 5 operation(s) for users.
   name: Microsoft Active Directory Users API
   slug: active-directory-users-api
 arazzos:
@@ -489,7 +503,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:

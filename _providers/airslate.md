@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -65,37 +65,59 @@ apis:
 - description: AI-powered automation platform for end-to-end marketing operations. Positioned as a vertical AI product rather than a developer API.
   name: airSlate Marketing Intelligence Platform
   slug: marketing-intelligence
-- description: The Document Fields API from airSlate — 3 operation(s) for document fields.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Document Fields API from airSlate — 3 operation(s) for document fields.
   name: airSlate Document Fields API
   slug: airslate-document-fields-api
-- description: The Document Groups API from airSlate — 4 operation(s) for document groups.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Document Groups API from airSlate — 4 operation(s) for document groups.
   name: airSlate Document Groups API
   slug: airslate-document-groups-api
-- description: The Documents API from airSlate — 7 operation(s) for documents.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Documents API from airSlate — 7 operation(s) for documents.
   name: airSlate Documents API
   slug: airslate-documents-api
-- description: The Embedded API from airSlate — 3 operation(s) for embedded.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Embedded API from airSlate — 3 operation(s) for embedded.
   name: airSlate Embedded API
   slug: airslate-embedded-api
-- description: The Folders API from airSlate — 2 operation(s) for folders.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Folders API from airSlate — 2 operation(s) for folders.
   name: airSlate Folders API
   slug: airslate-folders-api
-- description: The Invites API from airSlate — 5 operation(s) for invites.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Invites API from airSlate — 5 operation(s) for invites.
   name: airSlate Invites API
   slug: airslate-invites-api
-- description: The OAuth API from airSlate — 1 operation(s) for oauth.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The OAuth API from airSlate — 1 operation(s) for oauth.
   name: airSlate OAuth API
   slug: airslate-oauth-api
-- description: The Smart Fields API from airSlate — 1 operation(s) for smart fields.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Smart Fields API from airSlate — 1 operation(s) for smart fields.
   name: airSlate Smart Fields API
   slug: airslate-smart-fields-api
-- description: The Templates API from airSlate — 4 operation(s) for templates.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Templates API from airSlate — 4 operation(s) for templates.
   name: airSlate Templates API
   slug: airslate-templates-api
-- description: The Users API from airSlate — 3 operation(s) for users.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Users API from airSlate — 3 operation(s) for users.
   name: airSlate Users API
   slug: airslate-users-api
-- description: The Webhooks API from airSlate — 2 operation(s) for webhooks.
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The Webhooks API from airSlate — 2 operation(s) for webhooks.
   name: airSlate Webhooks API
   slug: airslate-webhooks-api
 artifact_total: 37
@@ -228,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airslate/refs/heads/main/screenshots/airslate-2026-06-20T171429.png
 security:

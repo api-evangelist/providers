@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 73 operations · 40 acting
 api_count: 1
 apis:
-- description: The Access Policies API from Amazon IoT SiteWise — 2 operation(s) for access policies.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Access Policies API from Amazon IoT SiteWise — 2 operation(s) for access policies.
   name: Amazon IoT SiteWise Access Policies API
   slug: amazon-iot-sitewise-access-policies-api
-- description: The Asset Models API from Amazon IoT SiteWise — 3 operation(s) for asset models.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Asset Models API from Amazon IoT SiteWise — 3 operation(s) for asset models.
   name: Amazon IoT SiteWise Asset Models API
   slug: amazon-iot-sitewise-asset-models-api
-- description: The Assets API from Amazon IoT SiteWise — 8 operation(s) for assets.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Assets API from Amazon IoT SiteWise — 8 operation(s) for assets.
   name: Amazon IoT SiteWise Assets API
   slug: amazon-iot-sitewise-assets-api
-- description: The Configuration API from Amazon IoT SiteWise — 2 operation(s) for configuration.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Configuration API from Amazon IoT SiteWise — 2 operation(s) for configuration.
   name: Amazon IoT SiteWise Configuration API
   slug: amazon-iot-sitewise-configuration-api
-- description: The Dashboards API from Amazon IoT SiteWise — 2 operation(s) for dashboards.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Dashboards API from Amazon IoT SiteWise — 2 operation(s) for dashboards.
   name: Amazon IoT SiteWise Dashboards API
   slug: amazon-iot-sitewise-dashboards-api
-- description: The Dashboards#projectId API from Amazon IoT SiteWise — 1 operation(s) for dashboards#projectid.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Dashboards#projectId API from Amazon IoT SiteWise — 1 operation(s) for dashboards#projectid.
   name: Amazon IoT SiteWise Dashboards#projectId API
   slug: amazon-iot-sitewise-dashboards-projectid-api
-- description: The Gateways API from Amazon IoT SiteWise — 4 operation(s) for gateways.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Gateways API from Amazon IoT SiteWise — 4 operation(s) for gateways.
   name: Amazon IoT SiteWise Gateways API
   slug: amazon-iot-sitewise-gateways-api
-- description: The Jobs API from Amazon IoT SiteWise — 2 operation(s) for jobs.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon IoT SiteWise — 2 operation(s) for jobs.
   name: Amazon IoT SiteWise Jobs API
   slug: amazon-iot-sitewise-jobs-api
-- description: The Logging API from Amazon IoT SiteWise — 1 operation(s) for logging.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Logging API from Amazon IoT SiteWise — 1 operation(s) for logging.
   name: Amazon IoT SiteWise Logging API
   slug: amazon-iot-sitewise-logging-api
-- description: The Portals API from Amazon IoT SiteWise — 2 operation(s) for portals.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Portals API from Amazon IoT SiteWise — 2 operation(s) for portals.
   name: Amazon IoT SiteWise Portals API
   slug: amazon-iot-sitewise-portals-api
-- description: The Projects API from Amazon IoT SiteWise — 5 operation(s) for projects.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Projects API from Amazon IoT SiteWise — 5 operation(s) for projects.
   name: Amazon IoT SiteWise Projects API
   slug: amazon-iot-sitewise-projects-api
-- description: The Projects#portalId API from Amazon IoT SiteWise — 1 operation(s) for projects#portalid.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Projects#portalId API from Amazon IoT SiteWise — 1 operation(s) for projects#portalid.
   name: Amazon IoT SiteWise Projects#portalId API
   slug: amazon-iot-sitewise-projects-portalid-api
-- description: The Properties API from Amazon IoT SiteWise — 8 operation(s) for properties.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Properties API from Amazon IoT SiteWise — 8 operation(s) for properties.
   name: Amazon IoT SiteWise Properties API
   slug: amazon-iot-sitewise-properties-api
-- description: The Tags#resourceArn API from Amazon IoT SiteWise — 1 operation(s) for tags#resourcearn.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon IoT SiteWise — 1 operation(s) for tags#resourcearn.
   name: Amazon IoT SiteWise Tags#resourceArn API
   slug: amazon-iot-sitewise-tags-resourcearn-api
-- description: The Tags#resourceArn&tagKeys API from Amazon IoT SiteWise — 1 operation(s) for tags#resourcearn&tagkeys.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn&tagKeys API from Amazon IoT SiteWise — 1 operation(s) for tags#resourcearn&tagkeys.
   name: Amazon IoT SiteWise Tags#resourceArn&tagKeys API
   slug: amazon-iot-sitewise-tags-resourcearn-tagkeys-api
-- description: The Timeseries API from Amazon IoT SiteWise — 5 operation(s) for timeseries.
+- baseURL: https://iotsitewise.amazonaws.com
+  baseurl_source: declared
+  description: The Timeseries API from Amazon IoT SiteWise — 5 operation(s) for timeseries.
   name: Amazon IoT SiteWise Timeseries API
   slug: amazon-iot-sitewise-timeseries-api
 artifact_total: 650
@@ -2122,7 +2154,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/screenshots/amazon-iot-sitewise-2026-06-20T171713.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
 - description: The core REST API to process payments from customers across multiple payment methods including credit and debit cards, bank transfers (BLIK, EPS, iDEAL, Interac e-Transfer, ACH, SEPA), cash vouchers (
@@ -203,7 +203,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysafe/refs/heads/main/screenshots/paysafe-2026-06-20T191509.png
 security:

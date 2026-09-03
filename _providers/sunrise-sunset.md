@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: The Json API from Sunrise Sunset — 1 operation(s) for json.
+- baseURL: https://api.sunrise-sunset.org
+  baseurl_source: declared
+  description: The Json API from Sunrise Sunset — 1 operation(s) for json.
   name: Sunrise Sunset Json API
   slug: sunrise-sunset-json-api
 artifact_total: 13
@@ -181,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunrise-sunset/refs/heads/main/screenshots/sunrise-sunset-2026-06-20T194659.png
 security:

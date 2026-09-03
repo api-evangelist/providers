@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 5
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 31 operations · 21 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage dead letter queue messages
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Manage dead letter queue messages
   name: QStash Dead Letter Queue API
   slug: qstash-dead-letter-queue-api
-- description: Manage flow control keys for rate and parallelism limiting
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Manage flow control keys for rate and parallelism limiting
   name: QStash Flow Control API
   slug: qstash-flow-control-api
-- description: Retrieve message delivery logs
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Retrieve message delivery logs
   name: QStash Logs API
   slug: qstash-logs-api
-- description: Publish and manage messages
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Publish and manage messages
   name: QStash Messages API
   slug: qstash-messages-api
-- description: Manage FIFO queues
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Manage FIFO queues
   name: QStash Queues API
   slug: qstash-queues-api
-- description: Create and manage CRON-based scheduled messages
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Create and manage CRON-based scheduled messages
   name: QStash Schedules API
   slug: qstash-schedules-api
-- description: Manage URL groups for fan-out delivery
+- baseURL: https://qstash.upstash.io/v2
+  baseurl_source: declared
+  description: Manage URL groups for fan-out delivery
   name: QStash URL Groups API
   slug: qstash-url-groups-api
 artifact_total: 28
@@ -244,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/screenshots/qstash-2026-06-20T192402.png
 security:

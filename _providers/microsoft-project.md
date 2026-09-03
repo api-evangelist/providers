@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -53,43 +53,69 @@ apis:
 - description: JavaScript API for building Office Add-ins that extend Microsoft Project desktop client. Enables reading task, resource, and view data from the active project within a task pane add-in.
   name: Microsoft Project JavaScript API
   slug: javascript-api
-- description: Manage resource assignments to tasks
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage resource assignments to tasks
   name: Microsoft Project Assignments API
   slug: microsoft-project-assignments-api
-- description: Manage enterprise calendars
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage enterprise calendars
   name: Microsoft Project Calendars API
   slug: microsoft-project-calendars-api
-- description: Manage enterprise custom field definitions
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage enterprise custom field definitions
   name: Microsoft Project Custom Fields API
   slug: microsoft-project-custom-fields-api
-- description: Manage enterprise project type configurations
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage enterprise project type configurations
   name: Microsoft Project Enterprise Project Types API
   slug: microsoft-project-enterprise-project-types-api
-- description: Manage event handler subscriptions
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage event handler subscriptions
   name: Microsoft Project Event Handlers API
   slug: microsoft-project-event-handlers-api
-- description: Manage lookup table definitions and entries
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage lookup table definitions and entries
   name: Microsoft Project Lookup Tables API
   slug: microsoft-project-lookup-tables-api
-- description: Manage workflow phases
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage workflow phases
   name: Microsoft Project Phases API
   slug: microsoft-project-phases-api
-- description: Manage projects and project lifecycle operations
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage projects and project lifecycle operations
   name: Microsoft Project Projects API
   slug: microsoft-project-projects-api
-- description: Manage enterprise resources and project resources
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage enterprise resources and project resources
   name: Microsoft Project Resources API
   slug: microsoft-project-resources-api
-- description: Manage workflow stages
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage workflow stages
   name: Microsoft Project Stages API
   slug: microsoft-project-stages-api
-- description: Manage project tasks and subtasks
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage project tasks and subtasks
   name: Microsoft Project Tasks API
   slug: microsoft-project-tasks-api
-- description: Manage timesheet periods, lines, and work entries
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage timesheet periods, lines, and work entries
   name: Microsoft Project Timesheets API
   slug: microsoft-project-timesheets-api
-- description: Manage workflow activities
+- baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer
+  baseurl_source: declared
+  description: Manage workflow activities
   name: Microsoft Project Workflow Activities API
   slug: microsoft-project-workflow-activities-api
 artifact_total: 105
@@ -463,7 +489,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/screenshots/microsoft-project-2026-06-20T185526.png
 security:

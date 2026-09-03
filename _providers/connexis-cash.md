@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: The Connexis Cash digital banking application itself. While not a public REST API, it is the user-facing platform that powers payment initiation, real-time tracking, reconciliation, account reporting,
   name: Connexis Cash Digital Banking Platform
   slug: digital-banking-platform
-- description: The Accounts API from Connexis Cash — 2 operation(s) for accounts.
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: The Accounts API from Connexis Cash — 2 operation(s) for accounts.
   name: Connexis Cash Accounts API
   slug: connexis-cash-accounts-api
-- description: The Balances API from Connexis Cash — 1 operation(s) for balances.
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: The Balances API from Connexis Cash — 1 operation(s) for balances.
   name: Connexis Cash Balances API
   slug: connexis-cash-balances-api
-- description: The Beneficiaries API from Connexis Cash — 1 operation(s) for beneficiaries.
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: The Beneficiaries API from Connexis Cash — 1 operation(s) for beneficiaries.
   name: Connexis Cash Beneficiaries API
   slug: connexis-cash-beneficiaries-api
-- description: The Consents API from Connexis Cash — 1 operation(s) for consents.
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: The Consents API from Connexis Cash — 1 operation(s) for consents.
   name: Connexis Cash Consents API
   slug: connexis-cash-consents-api
-- description: The Transactions API from Connexis Cash — 1 operation(s) for transactions.
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: The Transactions API from Connexis Cash — 1 operation(s) for transactions.
   name: Connexis Cash Transactions API
   slug: connexis-cash-transactions-api
 artifact_total: 22
@@ -195,7 +205,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/screenshots/connexis-cash-2026-06-20T174906.png
 security:

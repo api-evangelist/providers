@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Asynchronous REST API for submitting structured data extraction requests against insurance payers and retrieving the results. Submit a request (single or batch) against an account-provisioned schema, '
+- baseURL: https://robodialer-service-api-9nc4t1p9.uc.gateway.dev
+  baseurl_source: declared
+  description: 'Asynchronous REST API for submitting structured data extraction requests against insurance payers and retrieving the results. Submit a request (single or batch) against an account-provisioned schema, '
   name: SuperDial API
   slug: superdial-api
 artifact_total: 8
@@ -183,11 +198,11 @@ score:
   band: developing
   composite: 47.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -197,7 +212,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 46.5
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -214,8 +229,9 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/screenshots/superdial-2026-09-02T161224.png
 security:
 - kind: authentication
   name: Superdial Authentication

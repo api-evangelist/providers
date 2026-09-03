@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 3
 apis:
-- description: The SPICA single-cell / spatial atlas project listing, on UNIL's own host spica.unil.ch. Anonymous open read, confirmed 200 on 2026-09-01. SPICA is UNIL-built and UNIL-run; the host, the application a
+- baseURL: https://spica.unil.ch
+  baseurl_source: declared
+  description: The SPICA single-cell / spatial atlas project listing, on UNIL's own host spica.unil.ch. Anonymous open read, confirmed 200 on 2026-09-01. SPICA is UNIL-built and UNIL-run; the host, the application a
   name: SPICA Atlas Projects.json API
   slug: university-of-lausanne-projects-json-api
-- description: 'SPICA project query and archive download on UNIL''s own host: filter by reference atlas (ref_id), free-text search across metadata and paginate. /projects/query.json confirmed 200 anonymously on 2026-0'
+- baseURL: https://spica.unil.ch
+  baseurl_source: declared
+  description: 'SPICA project query and archive download on UNIL''s own host: filter by reference atlas (ref_id), free-text search across metadata and paginate. /projects/query.json confirmed 200 anonymously on 2026-0'
   name: SPICA Atlas Projects API
   slug: university-of-lausanne-projects-api
-- description: Community and collection resources of IRIS, UNIL's institutional research information system and open-access repository, served from UNIL's own host api.unil.ch behind a Kong gateway. /core/communitie
+- baseURL: https://api.unil.ch/iris/server/api
+  baseurl_source: declared
+  description: Community and collection resources of IRIS, UNIL's institutional research information system and open-access repository, served from UNIL's own host api.unil.ch behind a Kong gateway. /core/communitie
   name: IRIS Repository Core API (DSpace REST)
   slug: university-of-lausanne-core-api
-- description: DSpace Discovery search across everything indexed in IRIS. Confirmed anonymous 200 on 2026-09-01, reporting a last page of 253,798 at size=1, i.e. 253,799 indexed objects. This matters because /core/i
+- baseURL: https://api.unil.ch/iris/server/api
+  baseurl_source: declared
+  description: DSpace Discovery search across everything indexed in IRIS. Confirmed anonymous 200 on 2026-09-01, reporting a last page of 253,798 at size=1, i.e. 253,799 indexed objects. This matters because /core/i
   name: IRIS Repository Discover API (DSpace Discovery)
   slug: university-of-lausanne-discover-api
-- description: The IRIS DSpace REST root document, exposing version metadata and a HAL hypermedia catalogue of 92 link relations. On 2026-09-01 it reported irisVersion 1.3.13 and irisRole "follower" — drifted from t
+- baseURL: https://api.unil.ch/iris/server/api
+  baseurl_source: declared
+  description: The IRIS DSpace REST root document, exposing version metadata and a HAL hypermedia catalogue of 92 link relations. On 2026-09-01 it reported irisVersion 1.3.13 and irisRole "follower" — drifted from t
   name: IRIS Repository API root (DSpace REST)
   slug: university-of-lausanne-iris-repository-dspace-rest-api-api
-- description: 'OAI-PMH 2.0 metadata harvesting for IRIS, on UNIL''s own host. Two contexts answer anonymously: /oai/request (11 metadata prefixes — oai_dc, qdc, dim, mods, marc, rdf, ore, mets, didl, etdms, uketd_dc '
+- baseURL: https://api.unil.ch/iris/server/oai/request
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 metadata harvesting for IRIS, on UNIL''s own host. Two contexts answer anonymously: /oai/request (11 metadata prefixes — oai_dc, qdc, dim, mods, marc, rdf, ore, mets, didl, etdms, uketd_dc '
   name: IRIS OAI-PMH
   slug: university-of-lausanne-oai-pmh-api
 - description: UNIL's own Shibboleth identity provider, entityID https://aai.unil.ch/idp/shibboleth, carrying an IDPSSODescriptor with OrganizationName "unil.ch", OrganizationDisplayName "Université de Lausanne" and
@@ -299,7 +311,7 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 23.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -309,7 +321,7 @@ score:
     discoverability: 85.2
     governance: 35.6
     operational_transparency: 10.5
-  previous_composite: 26.9
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -325,8 +337,8 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png
 security:
 - kind: authentication

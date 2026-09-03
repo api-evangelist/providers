@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: REST API covering all core OPNsense modules including firewall, NAT, interfaces, VPN (IPsec, OpenVPN, WireGuard), routing, DHCP, DNS, users, and system administration. Authentication uses HTTP basic a
   name: OPNsense Core REST API
   slug: core-api
-- description: Core OPNsense service controllers.
+- baseURL: https://opnsense.local/api
+  baseurl_source: declared
+  description: Core OPNsense service controllers.
   name: OPNsense Core API
   slug: opnsense-core-api
-- description: Interface and system diagnostics.
+- baseURL: https://opnsense.local/api
+  baseurl_source: declared
+  description: Interface and system diagnostics.
   name: OPNsense Diagnostics API
   slug: opnsense-diagnostics-api
-- description: Firewall filter and aliases.
+- baseURL: https://opnsense.local/api
+  baseurl_source: declared
+  description: Firewall filter and aliases.
   name: OPNsense Firewall API
   slug: opnsense-firewall-api
 artifact_total: 12
@@ -157,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/screenshots/opnsense-2026-06-20T191103.png
 security:

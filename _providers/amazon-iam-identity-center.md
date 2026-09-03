@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -44,172 +44,284 @@ agentic_access:
   summary_line: 56 operations · 56 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: 'The #X Amz Target=AWSIdentityStore.CreateGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.creategroup.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.CreateGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.creategroup.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateGroup API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroup-api
-- description: 'The #X Amz Target=AWSIdentityStore.CreateGroupMembership API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.creategroupmembership.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.CreateGroupMembership API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.creategroupmembership.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateGroupMembership API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-creategroupmembership-api
-- description: 'The #X Amz Target=AWSIdentityStore.CreateUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.createuser.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.CreateUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.createuser.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateUser API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-createuser-api
-- description: 'The #X Amz Target=AWSIdentityStore.DeleteGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.deletegroup.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.DeleteGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.deletegroup.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DeleteGroup API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroup-api
-- description: 'The #X Amz Target=AWSIdentityStore.DeleteGroupMembership API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.deletegroupmembership.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.DeleteGroupMembership API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.deletegroupmembership.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DeleteGroupMembership API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-deletegroupmembership-api
-- description: 'The #X Amz Target=AWSIdentityStore.DeleteUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.deleteuser.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.DeleteUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.deleteuser.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DeleteUser API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-deleteuser-api
-- description: 'The #X Amz Target=AWSIdentityStore.DescribeGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.describegroup.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.DescribeGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.describegroup.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DescribeGroup API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroup-api
-- description: 'The #X Amz Target=AWSIdentityStore.DescribeGroupMembership API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.describegroupmembership.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.DescribeGroupMembership API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.describegroupmembership.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DescribeGroupMembership API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-describegroupmembership-api
-- description: 'The #X Amz Target=AWSIdentityStore.DescribeUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.describeuser.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.DescribeUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.describeuser.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.DescribeUser API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-describeuser-api
-- description: 'The #X Amz Target=AWSIdentityStore.GetGroupId API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.getgroupid.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.GetGroupId API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.getgroupid.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.GetGroupId API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupid-api
-- description: 'The #X Amz Target=AWSIdentityStore.GetGroupMembershipId API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.getgroupmembershipid.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.GetGroupMembershipId API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.getgroupmembershipid.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.GetGroupMembershipId API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-getgroupmembershipid-api
-- description: 'The #X Amz Target=AWSIdentityStore.GetUserId API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.getuserid.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.GetUserId API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.getuserid.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.GetUserId API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-getuserid-api
-- description: 'The #X Amz Target=AWSIdentityStore.IsMemberInGroups API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.ismemberingroups.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.IsMemberInGroups API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.ismemberingroups.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.IsMemberInGroups API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-ismemberingroups-api
-- description: 'The #X Amz Target=AWSIdentityStore.ListGroupMemberships API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listgroupmemberships.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.ListGroupMemberships API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listgroupmemberships.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListGroupMemberships API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmemberships-api
-- description: 'The #X Amz Target=AWSIdentityStore.ListGroupMembershipsForMember API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listgroupmembershipsformember.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.ListGroupMembershipsForMember API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listgroupmembershipsformember.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListGroupMembershipsForMember API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroupmembershipsformember-api
-- description: 'The #X Amz Target=AWSIdentityStore.ListGroups API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listgroups.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.ListGroups API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listgroups.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListGroups API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listgroups-api
-- description: 'The #X Amz Target=AWSIdentityStore.ListUsers API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listusers.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.ListUsers API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.listusers.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.ListUsers API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-listusers-api
-- description: 'The #X Amz Target=AWSIdentityStore.UpdateGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.updategroup.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.UpdateGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.updategroup.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.UpdateGroup API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-updategroup-api
-- description: 'The #X Amz Target=AWSIdentityStore.UpdateUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.updateuser.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSIdentityStore.UpdateUser API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.updateuser.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.UpdateUser API'
   slug: amazon-iam-identity-center-x-amz-target-awsidentitystore-updateuser-api
-- description: 'The #X Amz Target=SWBExternalService.AttachCustomerManagedPolicyReferenceToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.attachcustomermanaged'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.AttachCustomerManagedPolicyReferenceToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.attachcustomermanaged'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.AttachCustomerManagedPolicyReferenceToPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-attachcustomermanagedpolicyreferencetopermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.AttachManagedPolicyToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.attachmanagedpolicytopermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.AttachManagedPolicyToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.attachmanagedpolicytopermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.AttachManagedPolicyToPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-attachmanagedpolicytopermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.CreateAccountAssignment API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.createaccountassignment.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.CreateAccountAssignment API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.createaccountassignment.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.CreateAccountAssignment API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-createaccountassignment-api
-- description: 'The #X Amz Target=SWBExternalService.CreateInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.createinstanceaccesscon'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.CreateInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.createinstanceaccesscon'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.CreateInstanceAccessControlAttributeConfiguration API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-createinstanceaccesscontrolattributeconfiguration-api
-- description: 'The #X Amz Target=SWBExternalService.CreatePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.createpermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.CreatePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.createpermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.CreatePermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-createpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.DeleteAccountAssignment API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deleteaccountassignment.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DeleteAccountAssignment API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deleteaccountassignment.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeleteAccountAssignment API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteaccountassignment-api
-- description: 'The #X Amz Target=SWBExternalService.DeleteInlinePolicyFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deleteinlinepolicyfrompermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DeleteInlinePolicyFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deleteinlinepolicyfrompermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeleteInlinePolicyFromPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinlinepolicyfrompermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.DeleteInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deleteinstanceaccesscon'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DeleteInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deleteinstanceaccesscon'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeleteInstanceAccessControlAttributeConfiguration API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deleteinstanceaccesscontrolattributeconfiguration-api
-- description: 'The #X Amz Target=SWBExternalService.DeletePermissionsBoundaryFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deletepermissionsboundaryfromp'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DeletePermissionsBoundaryFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deletepermissionsboundaryfromp'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeletePermissionsBoundaryFromPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionsboundaryfrompermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.DeletePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deletepermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DeletePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.deletepermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DeletePermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-deletepermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.DescribeAccountAssignmentCreationStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describeaccountassignmentcreation'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DescribeAccountAssignmentCreationStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describeaccountassignmentcreation'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribeAccountAssignmentCreationStatus API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentcreationstatus-api
-- description: 'The #X Amz Target=SWBExternalService.DescribeAccountAssignmentDeletionStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describeaccountassignmentdeletion'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DescribeAccountAssignmentDeletionStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describeaccountassignmentdeletion'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribeAccountAssignmentDeletionStatus API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeaccountassignmentdeletionstatus-api
-- description: 'The #X Amz Target=SWBExternalService.DescribeInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describeinstanceacces'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DescribeInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describeinstanceacces'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribeInstanceAccessControlAttributeConfiguration API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describeinstanceaccesscontrolattributeconfiguration-api
-- description: 'The #X Amz Target=SWBExternalService.DescribePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describepermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DescribePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describepermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribePermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.DescribePermissionSetProvisioningStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describepermissionsetprovisioning'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DescribePermissionSetProvisioningStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.describepermissionsetprovisioning'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DescribePermissionSetProvisioningStatus API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-describepermissionsetprovisioningstatus-api
-- description: 'The #X Amz Target=SWBExternalService.DetachCustomerManagedPolicyReferenceFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.detachcustomermanag'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DetachCustomerManagedPolicyReferenceFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.detachcustomermanag'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DetachCustomerManagedPolicyReferenceFromPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-detachcustomermanagedpolicyreferencefrompermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.DetachManagedPolicyFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.detachmanagedpolicyfrompermissionset'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.DetachManagedPolicyFromPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.detachmanagedpolicyfrompermissionset'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.DetachManagedPolicyFromPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-detachmanagedpolicyfrompermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.GetInlinePolicyForPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.getinlinepolicyforpermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.GetInlinePolicyForPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.getinlinepolicyforpermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.GetInlinePolicyForPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-getinlinepolicyforpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.GetPermissionsBoundaryForPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.getpermissionsboundaryforpermissio'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.GetPermissionsBoundaryForPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.getpermissionsboundaryforpermissio'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.GetPermissionsBoundaryForPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-getpermissionsboundaryforpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.ListAccountAssignmentCreationStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountassignmentcreationstatus.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListAccountAssignmentCreationStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountassignmentcreationstatus.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountAssignmentCreationStatus API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentcreationstatus-api
-- description: 'The #X Amz Target=SWBExternalService.ListAccountAssignmentDeletionStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountassignmentdeletionstatus.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListAccountAssignmentDeletionStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountassignmentdeletionstatus.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountAssignmentDeletionStatus API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignmentdeletionstatus-api
-- description: 'The #X Amz Target=SWBExternalService.ListAccountAssignments API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountassignments.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListAccountAssignments API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountassignments.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountAssignments API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountassignments-api
-- description: 'The #X Amz Target=SWBExternalService.ListAccountsForProvisionedPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountsforprovisionedpermiss'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListAccountsForProvisionedPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listaccountsforprovisionedpermiss'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListAccountsForProvisionedPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listaccountsforprovisionedpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.ListCustomerManagedPolicyReferencesInPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listcustomermanagedpol'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListCustomerManagedPolicyReferencesInPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listcustomermanagedpol'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListCustomerManagedPolicyReferencesInPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listcustomermanagedpolicyreferencesinpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.ListInstances API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listinstances.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListInstances API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listinstances.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListInstances API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listinstances-api
-- description: 'The #X Amz Target=SWBExternalService.ListManagedPoliciesInPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listmanagedpoliciesinpermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListManagedPoliciesInPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listmanagedpoliciesinpermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListManagedPoliciesInPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listmanagedpoliciesinpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.ListPermissionSetProvisioningStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listpermissionsetprovisioningstatus.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListPermissionSetProvisioningStatus API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listpermissionsetprovisioningstatus.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListPermissionSetProvisioningStatus API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetprovisioningstatus-api
-- description: 'The #X Amz Target=SWBExternalService.ListPermissionSets API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listpermissionsets.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListPermissionSets API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listpermissionsets.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListPermissionSets API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsets-api
-- description: 'The #X Amz Target=SWBExternalService.ListPermissionSetsProvisionedToAccount API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listpermissionsetsprovisionedtoacc'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListPermissionSetsProvisionedToAccount API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listpermissionsetsprovisionedtoacc'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListPermissionSetsProvisionedToAccount API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listpermissionsetsprovisionedtoaccount-api
-- description: 'The #X Amz Target=SWBExternalService.ListTagsForResource API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listtagsforresource.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ListTagsForResource API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.listtagsforresource.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ListTagsForResource API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-listtagsforresource-api
-- description: 'The #X Amz Target=SWBExternalService.ProvisionPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.provisionpermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.ProvisionPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.provisionpermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.ProvisionPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-provisionpermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.PutInlinePolicyToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.putinlinepolicytopermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.PutInlinePolicyToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.putinlinepolicytopermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.PutInlinePolicyToPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-putinlinepolicytopermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.putpermissionsboundarytopermissions'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.putpermissionsboundarytopermissions'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.PutPermissionsBoundaryToPermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-putpermissionsboundarytopermissionset-api
-- description: 'The #X Amz Target=SWBExternalService.TagResource API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.tagresource.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.TagResource API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.tagresource.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.TagResource API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-tagresource-api
-- description: 'The #X Amz Target=SWBExternalService.UntagResource API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.untagresource.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.UntagResource API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.untagresource.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UntagResource API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-untagresource-api
-- description: 'The #X Amz Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.updateinstanceaccesscon'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.updateinstanceaccesscon'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UpdateInstanceAccessControlAttributeConfiguration API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updateinstanceaccesscontrolattributeconfiguration-api
-- description: 'The #X Amz Target=SWBExternalService.UpdatePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.updatepermissionset.'
+- baseURL: https://sso.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SWBExternalService.UpdatePermissionSet API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=swbexternalservice.updatepermissionset.'
   name: 'Amazon IAM Identity Center #X Amz Target=SWBExternalService.UpdatePermissionSet API'
   slug: amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
 artifact_total: 697
@@ -2265,7 +2377,7 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/screenshots/amazon-iam-identity-center-2026-06-20T171703.png
 security:

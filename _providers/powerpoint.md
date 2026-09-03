@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: Office JavaScript API namespace for building PowerPoint Add-ins that read, write, and manipulate slides, shapes, text, and tables inside the running PowerPoint application.
   name: Office JavaScript API for PowerPoint
   slug: powerpoint-javascript-api
-- description: Manage files (including .pptx presentations) stored in OneDrive and SharePoint.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Manage files (including .pptx presentations) stored in OneDrive and SharePoint.
   name: PowerPoint DriveItems API
   slug: powerpoint-driveitems-api
 artifact_total: 15
@@ -158,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerpoint/refs/heads/main/screenshots/powerpoint-2026-06-20T192039.png
 security:

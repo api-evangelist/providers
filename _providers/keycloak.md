@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 40 operations · 24 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage OAuth/OIDC clients within a realm
+- baseURL_template: https://{host}/admin/realms
+  baseurl_source: spec_template
+  description: Manage OAuth/OIDC clients within a realm
   name: Keycloak Clients API
   slug: keycloak-clients-api
-- description: Manage user groups within a realm
+- baseURL_template: https://{host}/admin/realms
+  baseurl_source: spec_template
+  description: Manage user groups within a realm
   name: Keycloak Groups API
   slug: keycloak-groups-api
-- description: Manage identity providers for federated authentication
+- baseURL_template: https://{host}/admin/realms
+  baseurl_source: spec_template
+  description: Manage identity providers for federated authentication
   name: Keycloak Identity Providers API
   slug: keycloak-identity-providers-api
-- description: Manage Keycloak realms
+- baseURL_template: https://{host}/admin/realms
+  baseurl_source: spec_template
+  description: Manage Keycloak realms
   name: Keycloak Realms API
   slug: keycloak-realms-api
-- description: Manage realm-level and client-level roles
+- baseURL_template: https://{host}/admin/realms
+  baseurl_source: spec_template
+  description: Manage realm-level and client-level roles
   name: Keycloak Roles API
   slug: keycloak-roles-api
-- description: Manage users within a realm
+- baseURL_template: https://{host}/admin/realms
+  baseurl_source: spec_template
+  description: Manage users within a realm
   name: Keycloak Users API
   slug: keycloak-users-api
 arazzos:
@@ -337,7 +349,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/screenshots/keycloak-2026-06-20T184004.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 5
@@ -53,97 +53,159 @@ apis:
 - description: REST API for managing user accounts, SSO login sessions, and billing information including invoices and spending data. Supports listing joinable organizations, deleting accounts, and retrieving billin
   name: Gitpod Accounts and Billing API
   slug: accounts-billing-api
-- description: The gitpod.v1.AccountService API from Gitpod — 10 operation(s) for gitpod.v1.accountservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.AccountService API from Gitpod — 10 operation(s) for gitpod.v1.accountservice.
   name: Gitpod gitpod.v1.AccountService API
   slug: gitpod-gitpod-v1-accountservice-api
-- description: AgentSecurityService receives agent security events from runners. Authenticated with runner tokens (same as RunnerInteractionService).
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: AgentSecurityService receives agent security events from runners. Authenticated with runner tokens (same as RunnerInteractionService).
   name: Gitpod gitpod.v1.AgentSecurityService API
   slug: gitpod-gitpod-v1-agentsecurityservice-api
-- description: The gitpod.v1.AgentService API from Gitpod — 25 operation(s) for gitpod.v1.agentservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.AgentService API from Gitpod — 25 operation(s) for gitpod.v1.agentservice.
   name: Gitpod gitpod.v1.AgentService API
   slug: gitpod-gitpod-v1-agentservice-api
-- description: BillingService provides billing and subscription management functionality.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: BillingService provides billing and subscription management functionality.
   name: Gitpod gitpod.v1.BillingService API
   slug: gitpod-gitpod-v1-billingservice-api
-- description: The gitpod.v1.EditorService API from Gitpod — 3 operation(s) for gitpod.v1.editorservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.EditorService API from Gitpod — 3 operation(s) for gitpod.v1.editorservice.
   name: Gitpod gitpod.v1.EditorService API
   slug: gitpod-gitpod-v1-editorservice-api
-- description: The gitpod.v1.EnvironmentAutomationService API from Gitpod — 18 operation(s) for gitpod.v1.environmentautomationservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.EnvironmentAutomationService API from Gitpod — 18 operation(s) for gitpod.v1.environmentautomationservice.
   name: Gitpod gitpod.v1.EnvironmentAutomationService API
   slug: gitpod-gitpod-v1-environmentautomationservice-api
-- description: The gitpod.v1.EnvironmentService API from Gitpod — 15 operation(s) for gitpod.v1.environmentservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.EnvironmentService API from Gitpod — 15 operation(s) for gitpod.v1.environmentservice.
   name: Gitpod gitpod.v1.EnvironmentService API
   slug: gitpod-gitpod-v1-environmentservice-api
-- description: ErrorsService provides endpoints for clients to report errors that will be sent to error reporting systems.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: ErrorsService provides endpoints for clients to report errors that will be sent to error reporting systems.
   name: Gitpod gitpod.v1.ErrorsService API
   slug: gitpod-gitpod-v1-errorsservice-api
-- description: The gitpod.v1.EventService API from Gitpod — 2 operation(s) for gitpod.v1.eventservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.EventService API from Gitpod — 2 operation(s) for gitpod.v1.eventservice.
   name: Gitpod gitpod.v1.EventService API
   slug: gitpod-gitpod-v1-eventservice-api
-- description: The gitpod.v1.GatewayService API from Gitpod — 1 operation(s) for gitpod.v1.gatewayservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.GatewayService API from Gitpod — 1 operation(s) for gitpod.v1.gatewayservice.
   name: Gitpod gitpod.v1.GatewayService API
   slug: gitpod-gitpod-v1-gatewayservice-api
-- description: The gitpod.v1.GroupService API from Gitpod — 14 operation(s) for gitpod.v1.groupservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.GroupService API from Gitpod — 14 operation(s) for gitpod.v1.groupservice.
   name: Gitpod gitpod.v1.GroupService API
   slug: gitpod-gitpod-v1-groupservice-api
-- description: The gitpod.v1.IdentityService API from Gitpod — 3 operation(s) for gitpod.v1.identityservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.IdentityService API from Gitpod — 3 operation(s) for gitpod.v1.identityservice.
   name: Gitpod gitpod.v1.IdentityService API
   slug: gitpod-gitpod-v1-identityservice-api
-- description: InsightsService provides AI code attribution analytics for projects. The CLI reports per-commit co-author data from git history, and the dashboard reads aggregated stats.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: InsightsService provides AI code attribution analytics for projects. The CLI reports per-commit co-author data from git history, and the dashboard reads aggregated stats.
   name: Gitpod gitpod.v1.InsightsService API
   slug: gitpod-gitpod-v1-insightsservice-api
-- description: The gitpod.v1.IntegrationService API from Gitpod — 11 operation(s) for gitpod.v1.integrationservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.IntegrationService API from Gitpod — 11 operation(s) for gitpod.v1.integrationservice.
   name: Gitpod gitpod.v1.IntegrationService API
   slug: gitpod-gitpod-v1-integrationservice-api
-- description: NotificationService manages in-app notifications for users.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: NotificationService manages in-app notifications for users.
   name: Gitpod gitpod.v1.NotificationService API
   slug: gitpod-gitpod-v1-notificationservice-api
-- description: OnaIntelligenceService manages organization-level LLM configurations for Ona Intelligence. This service is restricted to Ona employees with the OnaIntelligenceAdmin role.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: OnaIntelligenceService manages organization-level LLM configurations for Ona Intelligence. This service is restricted to Ona employees with the OnaIntelligenceAdmin role.
   name: Gitpod gitpod.v1.OnaIntelligenceService API
   slug: gitpod-gitpod-v1-onaintelligenceservice-api
-- description: The gitpod.v1.OrganizationService API from Gitpod — 39 operation(s) for gitpod.v1.organizationservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.OrganizationService API from Gitpod — 39 operation(s) for gitpod.v1.organizationservice.
   name: Gitpod gitpod.v1.OrganizationService API
   slug: gitpod-gitpod-v1-organizationservice-api
-- description: PrebuildService manages prebuilds for projects to enable faster environment startup times. Prebuilds create snapshots of environments that can be used to provision new environments quickly.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: PrebuildService manages prebuilds for projects to enable faster environment startup times. Prebuilds create snapshots of environments that can be used to provision new environments quickly.
   name: Gitpod gitpod.v1.PrebuildService API
   slug: gitpod-gitpod-v1-prebuildservice-api
-- description: The gitpod.v1.ProjectService API from Gitpod — 15 operation(s) for gitpod.v1.projectservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.ProjectService API from Gitpod — 15 operation(s) for gitpod.v1.projectservice.
   name: Gitpod gitpod.v1.ProjectService API
   slug: gitpod-gitpod-v1-projectservice-api
-- description: The gitpod.v1.RunnerConfigurationService API from Gitpod — 21 operation(s) for gitpod.v1.runnerconfigurationservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.RunnerConfigurationService API from Gitpod — 21 operation(s) for gitpod.v1.runnerconfigurationservice.
   name: Gitpod gitpod.v1.RunnerConfigurationService API
   slug: gitpod-gitpod-v1-runnerconfigurationservice-api
-- description: RunnerInteractionService provides a way for the backend to interact with environment runners.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: RunnerInteractionService provides a way for the backend to interact with environment runners.
   name: Gitpod gitpod.v1.RunnerInteractionService API
   slug: gitpod-gitpod-v1-runnerinteractionservice-api
-- description: The gitpod.v1.RunnerManagerService API from Gitpod — 6 operation(s) for gitpod.v1.runnermanagerservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.RunnerManagerService API from Gitpod — 6 operation(s) for gitpod.v1.runnermanagerservice.
   name: Gitpod gitpod.v1.RunnerManagerService API
   slug: gitpod-gitpod-v1-runnermanagerservice-api
-- description: The gitpod.v1.RunnerService API from Gitpod — 16 operation(s) for gitpod.v1.runnerservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.RunnerService API from Gitpod — 16 operation(s) for gitpod.v1.runnerservice.
   name: Gitpod gitpod.v1.RunnerService API
   slug: gitpod-gitpod-v1-runnerservice-api
-- description: The gitpod.v1.SecretService API from Gitpod — 5 operation(s) for gitpod.v1.secretservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.SecretService API from Gitpod — 5 operation(s) for gitpod.v1.secretservice.
   name: Gitpod gitpod.v1.SecretService API
   slug: gitpod-gitpod-v1-secretservice-api
-- description: The gitpod.v1.ServiceAccountService API from Gitpod — 10 operation(s) for gitpod.v1.serviceaccountservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.ServiceAccountService API from Gitpod — 10 operation(s) for gitpod.v1.serviceaccountservice.
   name: Gitpod gitpod.v1.ServiceAccountService API
   slug: gitpod-gitpod-v1-serviceaccountservice-api
-- description: The gitpod.v1.SessionService API from Gitpod — 9 operation(s) for gitpod.v1.sessionservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.SessionService API from Gitpod — 9 operation(s) for gitpod.v1.sessionservice.
   name: Gitpod gitpod.v1.SessionService API
   slug: gitpod-gitpod-v1-sessionservice-api
-- description: TeamService manages teams and team memberships within an organization. A team is an organizational unit that users can belong to. Each user can belong to at most one team per organization.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: TeamService manages teams and team memberships within an organization. A team is an organizational unit that users can belong to. Each user can belong to at most one team per organization.
   name: Gitpod gitpod.v1.TeamService API
   slug: gitpod-gitpod-v1-teamservice-api
-- description: UsageService provides usage information about environments, users, and projects.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: UsageService provides usage information about environments, users, and projects.
   name: Gitpod gitpod.v1.UsageService API
   slug: gitpod-gitpod-v1-usageservice-api
-- description: The gitpod.v1.UserService API from Gitpod — 14 operation(s) for gitpod.v1.userservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.UserService API from Gitpod — 14 operation(s) for gitpod.v1.userservice.
   name: Gitpod gitpod.v1.UserService API
   slug: gitpod-gitpod-v1-userservice-api
-- description: The gitpod.v1.WebhookService API from Gitpod — 8 operation(s) for gitpod.v1.webhookservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.WebhookService API from Gitpod — 8 operation(s) for gitpod.v1.webhookservice.
   name: Gitpod gitpod.v1.WebhookService API
   slug: gitpod-gitpod-v1-webhookservice-api
-- description: The gitpod.v1.WorkflowService API from Gitpod — 16 operation(s) for gitpod.v1.workflowservice.
+- baseURL: https://api.gitpod.io
+  baseurl_source: declared
+  description: The gitpod.v1.WorkflowService API from Gitpod — 16 operation(s) for gitpod.v1.workflowservice.
   name: Gitpod gitpod.v1.WorkflowService API
   slug: gitpod-gitpod-v1-workflowservice-api
 artifact_total: 84
@@ -429,7 +491,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/screenshots/gitpod-2026-06-20T181852.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 252 operations · 145 acting · 5 human-in-the-loop
 api_count: 32
 apis:
-- description: The Slack Events API enables apps to respond to activities in Slack by subscribing to specific event types. Rather than polling for changes, apps receive HTTP POST payloads when subscribed events occu
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Slack Events API enables apps to respond to activities in Slack by subscribing to specific event types. Rather than polling for changes, apps receive HTTP POST payloads when subscribed events occu
   name: Slack Events API
   slug: slack-events-api
 - description: The Slack SCIM API lets teams on Plus and Enterprise plans provision and manage user accounts and groups programmatically using the SCIM (System for Cross-domain Identity Management) protocol. It supp
@@ -65,127 +67,209 @@ apis:
 - description: The Slack Interactivity API encompasses the mechanisms by which Slack apps handle user interactions with interactive components such as buttons, menus, date pickers, modals, shortcuts, and other Block
   name: Slack Interactivity API
   slug: slack-interactivity-api
-- description: The Access API from Slack — 4 operation(s) for access.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Access API from Slack — 4 operation(s) for access.
   name: Slack Access API
   slug: slack-access-api
-- description: The Add API from Slack — 9 operation(s) for add.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Add API from Slack — 9 operation(s) for add.
   name: Slack Add API
   slug: slack-add-api
-- description: The Administrative API from Slack — 56 operation(s) for administrative.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Administrative API from Slack — 56 operation(s) for administrative.
   name: Slack Administrative API
   slug: slack-administrative-api
-- description: The AI API from Slack — 3 operation(s) for ai.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The AI API from Slack — 3 operation(s) for ai.
   name: Slack AI API
   slug: slack-ai-api
-- description: The Applications API from Slack — 13 operation(s) for applications.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Applications API from Slack — 13 operation(s) for applications.
   name: Slack Applications API
   slug: slack-applications-api
-- description: The Archive API from Slack — 2 operation(s) for archive.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Archive API from Slack — 2 operation(s) for archive.
   name: Slack Archive API
   slug: slack-archive-api
-- description: Authentication and authorization methods
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: Authentication and authorization methods
   name: Slack Auth API
   slug: slack-auth-api
-- description: The Authentication API from Slack — 2 operation(s) for authentication.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Authentication API from Slack — 2 operation(s) for authentication.
   name: Slack Authentication API
   slug: slack-authentication-api
-- description: The Automation API from Slack — 5 operation(s) for automation.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Automation API from Slack — 5 operation(s) for automation.
   name: Slack Automation API
   slug: slack-automation-api
-- description: The Bookmarks API from Slack — 4 operation(s) for bookmarks.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Bookmarks API from Slack — 4 operation(s) for bookmarks.
   name: Slack Bookmarks API
   slug: slack-bookmarks-api
-- description: The Bots API from Slack — 1 operation(s) for bots.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Bots API from Slack — 1 operation(s) for bots.
   name: Slack Bots API
   slug: slack-bots-api
-- description: The Calls API from Slack — 6 operation(s) for calls.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Calls API from Slack — 6 operation(s) for calls.
   name: Slack Calls API
   slug: slack-calls-api
-- description: The Canvases API from Slack — 6 operation(s) for canvases.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Canvases API from Slack — 6 operation(s) for canvases.
   name: Slack Canvases API
   slug: slack-canvases-api
-- description: The Chat API from Slack — 10 operation(s) for chat.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Chat API from Slack — 10 operation(s) for chat.
   name: Slack Chat API
   slug: slack-chat-api
-- description: The Close API from Slack — 1 operation(s) for close.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Close API from Slack — 1 operation(s) for close.
   name: Slack Close API
   slug: slack-close-api
-- description: The Comments API from Slack — 1 operation(s) for comments.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Comments API from Slack — 1 operation(s) for comments.
   name: Slack Comments API
   slug: slack-comments-api
-- description: The Complete API from Slack — 1 operation(s) for complete.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Complete API from Slack — 1 operation(s) for complete.
   name: Slack Complete API
   slug: slack-complete-api
-- description: The Connect API from Slack — 1 operation(s) for connect.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Connect API from Slack — 1 operation(s) for connect.
   name: Slack Connect API
   slug: slack-connect-api
-- description: The Conversations API from Slack — 36 operation(s) for conversations.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Conversations API from Slack — 36 operation(s) for conversations.
   name: Slack Conversations API
   slug: slack-conversations-api
-- description: The Create API from Slack — 7 operation(s) for create.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Create API from Slack — 7 operation(s) for create.
   name: Slack Create API
   slug: slack-create-api
-- description: The Deletes API from Slack — 5 operation(s) for deletes.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Deletes API from Slack — 5 operation(s) for deletes.
   name: Slack Deletes API
   slug: slack-deletes-api
-- description: The Disables API from Slack — 1 operation(s) for disables.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Disables API from Slack — 1 operation(s) for disables.
   name: Slack Disables API
   slug: slack-disables-api
-- description: The Disturb API from Slack — 5 operation(s) for disturb.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Disturb API from Slack — 5 operation(s) for disturb.
   name: Slack Disturb API
   slug: slack-disturb-api
-- description: Do Not Disturb management
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: Do Not Disturb management
   name: Slack Dnd API
   slug: slack-dnd-api
-- description: The Emoji API from Slack — 1 operation(s) for emoji.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Emoji API from Slack — 1 operation(s) for emoji.
   name: Slack Emoji API
   slug: slack-emoji-api
-- description: The Enables API from Slack — 1 operation(s) for enables.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Enables API from Slack — 1 operation(s) for enables.
   name: Slack Enables API
   slug: slack-enables-api
-- description: The Exchange API from Slack — 1 operation(s) for exchange.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Exchange API from Slack — 1 operation(s) for exchange.
   name: Slack Exchange API
   slug: slack-exchange-api
-- description: The Files API from Slack — 13 operation(s) for files.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Files API from Slack — 13 operation(s) for files.
   name: Slack Files API
   slug: slack-files-api
-- description: The Get API from Slack — 76 operation(s) for get.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Get API from Slack — 76 operation(s) for get.
   name: Slack Get API
   slug: slack-get-api
-- description: The Groups API from Slack — 7 operation(s) for groups.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Groups API from Slack — 7 operation(s) for groups.
   name: Slack Groups API
   slug: slack-groups-api
-- description: The Lists API from Slack — 34 operation(s) for lists.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Lists API from Slack — 34 operation(s) for lists.
   name: Slack Lists API
   slug: slack-lists-api
-- description: The Pins API from Slack — 3 operation(s) for pins.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Pins API from Slack — 3 operation(s) for pins.
   name: Slack Pins API
   slug: slack-pins-api
-- description: The Post API from Slack — 94 operation(s) for post.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Post API from Slack — 94 operation(s) for post.
   name: Slack Post API
   slug: slack-post-api
-- description: The Reactions API from Slack — 4 operation(s) for reactions.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Reactions API from Slack — 4 operation(s) for reactions.
   name: Slack Reactions API
   slug: slack-reactions-api
-- description: Create and manage reminders
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: Create and manage reminders
   name: Slack Reminders API
   slug: slack-reminders-api
-- description: The Search API from Slack — 3 operation(s) for search.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Search API from Slack — 3 operation(s) for search.
   name: Slack Search API
   slug: slack-search-api
-- description: Access workspace information
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: Access workspace information
   name: Slack Team API
   slug: slack-team-api
-- description: Manage user groups
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: Manage user groups
   name: Slack Usergroups API
   slug: slack-usergroups-api
-- description: The Users API from Slack — 32 operation(s) for users.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Users API from Slack — 32 operation(s) for users.
   name: Slack Users API
   slug: slack-users-api
-- description: The Views API from Slack — 4 operation(s) for views.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Views API from Slack — 4 operation(s) for views.
   name: Slack Views API
   slug: slack-views-api
-- description: The Workflows API from Slack — 5 operation(s) for workflows.
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: The Workflows API from Slack — 5 operation(s) for workflows.
   name: Slack Workflows API
   slug: slack-workflows-api
 arazzos:
@@ -1332,7 +1416,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -1342,7 +1426,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 64.7
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1351,7 +1435,7 @@ score:
       marker_coverage: 0.0
       total: 41
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 35 operations · 17 acting
 api_count: 1
 apis:
-- description: The Flagsmith Flags API is the public-facing REST API that client-side and server-side SDKs use to retrieve feature flag values and remote configuration for environments and users. It uses a non-secre
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: The Flagsmith Flags API is the public-facing REST API that client-side and server-side SDKs use to retrieve feature flag values and remote configuration for environments and users. It uses a non-secre
   name: Flagsmith Flags API
   slug: flags-api
-- description: Manage environments within a project. Environments represent deployment stages such as development, staging, and production.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage environments within a project. Environments represent deployment stages such as development, staging, and production.
   name: flagsmith Environments API
   slug: flagsmith-environments-api
-- description: Manage feature flags within a project. Features can be toggled on or off and can have remote configuration values.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage feature flags within a project. Features can be toggled on or off and can have remote configuration values.
   name: flagsmith Features API
   slug: flagsmith-features-api
-- description: Manage user identities within an environment. Identities represent individual users and their associated traits.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage user identities within an environment. Identities represent individual users and their associated traits.
   name: flagsmith Identities API
   slug: flagsmith-identities-api
-- description: Manage organisations within Flagsmith. Organisations are the top-level container for projects, users, and billing.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage organisations within Flagsmith. Organisations are the top-level container for projects, users, and billing.
   name: flagsmith Organisations API
   slug: flagsmith-organisations-api
-- description: Manage projects within an organisation. Projects contain environments and feature flags.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage projects within an organisation. Projects contain environments and feature flags.
   name: flagsmith Projects API
   slug: flagsmith-projects-api
-- description: Manage segments within a project. Segments define groups of users based on traits and rules for targeted flag delivery.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage segments within a project. Segments define groups of users based on traits and rules for targeted flag delivery.
   name: flagsmith Segments API
   slug: flagsmith-segments-api
-- description: Manage organisation users and their permissions within Flagsmith.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Manage organisation users and their permissions within Flagsmith.
   name: flagsmith Users API
   slug: flagsmith-users-api
-- description: Configure webhooks for environments and organisations to receive notifications about flag changes and audit log events.
+- baseURL: https://edge.api.flagsmith.com
+  baseurl_source: declared
+  description: Configure webhooks for environments and organisations to receive notifications about flag changes and audit log events.
   name: flagsmith Webhooks API
   slug: flagsmith-webhooks-api
 artifact_total: 31
@@ -160,16 +178,16 @@ jsonld:
   slug: flagsmith-context
 layout: provider
 modified: '2026-05-19'
-name: flagsmith
+name: Flagsmith
 nav: Providers
 network: true
-overview: 'flagsmith publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Flags API, Environments API, Features API, and 6 more.
+overview: 'Flagsmith publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Flags API, Environments API, Features API, and 6 more.
 
 
-  The flagsmith catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Flagsmith catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  flagsmith''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Flagsmith''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Flagsmith Plans Pricing
   plan_count: 3
@@ -183,7 +201,7 @@ rules:
 - effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: flagsmith API Rules
+  name: Flagsmith API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -193,7 +211,7 @@ rules:
   slug: flagsmith-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: flagsmith API Rules
+  name: Flagsmith API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -209,7 +227,7 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -219,7 +237,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 33.6
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -229,10 +247,10 @@ score:
       total: 9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/screenshots/flagsmith-2026-06-20T181306.png
 security:

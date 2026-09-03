@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -49,22 +49,34 @@ apis:
 - description: Selenium Grid allows you to run test cases in different machines across different platforms. It enables the execution of test scripts on remote machines by routing commands to remote web browser insta
   name: Selenium Grid
   slug: selenium-grid
-- description: Cookie management
+- baseURL: http://localhost:4444
+  baseurl_source: declared
+  description: Cookie management
   name: Selenium Cookies API
   slug: selenium-cookies-api
-- description: Element discovery and interaction
+- baseURL: http://localhost:4444
+  baseurl_source: declared
+  description: Element discovery and interaction
   name: Selenium Elements API
   slug: selenium-elements-api
-- description: Page navigation and metadata
+- baseURL: http://localhost:4444
+  baseurl_source: declared
+  description: Page navigation and metadata
   name: Selenium Navigation API
   slug: selenium-navigation-api
-- description: Execute JavaScript in the page context
+- baseURL: http://localhost:4444
+  baseurl_source: declared
+  description: Execute JavaScript in the page context
   name: Selenium Script API
   slug: selenium-script-api
-- description: Session lifecycle
+- baseURL: http://localhost:4444
+  baseurl_source: declared
+  description: Session lifecycle
   name: Selenium Session API
   slug: selenium-session-api
-- description: Remote end readiness
+- baseURL: http://localhost:4444
+  baseurl_source: declared
+  description: Remote end readiness
   name: Selenium Status API
   slug: selenium-status-api
 artifact_total: 23
@@ -274,7 +286,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -284,7 +296,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png
 security:

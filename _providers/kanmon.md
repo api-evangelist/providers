@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 35 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Bank Accounts API from Kanmon — 2 operation(s) for bank accounts.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Bank Accounts API from Kanmon — 2 operation(s) for bank accounts.
   name: Kanmon Bank Accounts API
   slug: kanmon-bank-accounts-api
-- description: The Businesses API from Kanmon — 3 operation(s) for businesses.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Businesses API from Kanmon — 3 operation(s) for businesses.
   name: Kanmon Businesses API
   slug: kanmon-businesses-api
-- description: The Connect Tokens API from Kanmon — 1 operation(s) for connect tokens.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Connect Tokens API from Kanmon — 1 operation(s) for connect tokens.
   name: Kanmon Connect Tokens API
   slug: kanmon-connect-tokens-api
-- description: The Documents API from Kanmon — 1 operation(s) for documents.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Documents API from Kanmon — 1 operation(s) for documents.
   name: Kanmon Documents API
   slug: kanmon-documents-api
-- description: The Draw Requests API from Kanmon — 2 operation(s) for draw requests.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Draw Requests API from Kanmon — 2 operation(s) for draw requests.
   name: Kanmon Draw Requests API
   slug: kanmon-draw-requests-api
-- description: The Embedded Sessions API from Kanmon — 1 operation(s) for embedded sessions.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Embedded Sessions API from Kanmon — 1 operation(s) for embedded sessions.
   name: Kanmon Embedded Sessions API
   slug: kanmon-embedded-sessions-api
-- description: The Integrated MCA API from Kanmon — 2 operation(s) for integrated mca.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Integrated MCA API from Kanmon — 2 operation(s) for integrated mca.
   name: Kanmon Integrated MCA API
   slug: kanmon-integrated-mca-api
-- description: The Invoices API from Kanmon — 3 operation(s) for invoices.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Invoices API from Kanmon — 3 operation(s) for invoices.
   name: Kanmon Invoices API
   slug: kanmon-invoices-api
-- description: The Issued Products API from Kanmon — 2 operation(s) for issued products.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Issued Products API from Kanmon — 2 operation(s) for issued products.
   name: Kanmon Issued Products API
   slug: kanmon-issued-products-api
-- description: The Offers API from Kanmon — 2 operation(s) for offers.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Offers API from Kanmon — 2 operation(s) for offers.
   name: Kanmon Offers API
   slug: kanmon-offers-api
-- description: The Payments API from Kanmon — 3 operation(s) for payments.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Payments API from Kanmon — 3 operation(s) for payments.
   name: Kanmon Payments API
   slug: kanmon-payments-api
-- description: The Prequalifications API from Kanmon — 1 operation(s) for prequalifications.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Prequalifications API from Kanmon — 1 operation(s) for prequalifications.
   name: Kanmon Prequalifications API
   slug: kanmon-prequalifications-api
-- description: The Sandbox Utilities API from Kanmon — 2 operation(s) for sandbox utilities.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Sandbox Utilities API from Kanmon — 2 operation(s) for sandbox utilities.
   name: Kanmon Sandbox Utilities API
   slug: kanmon-sandbox-utilities-api
-- description: The Users API from Kanmon — 3 operation(s) for users.
+- baseURL: https://api.kanmon.com
+  baseurl_source: declared
+  description: The Users API from Kanmon — 3 operation(s) for users.
   name: Kanmon Users API
   slug: kanmon-users-api
 artifact_total: 34
@@ -273,7 +301,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -283,7 +311,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanmon/refs/heads/main/screenshots/kanmon-2026-07-25T223455.png
 security:

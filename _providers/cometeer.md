@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,19 +35,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Cometeer's Universal Commerce Protocol shopping service, exposed over MCP (JSON-RPC 2.0 via HTTP POST) at /api/ucp/mcp and advertised from /.well-known/ucp. Thirteen tools cover catalog search and loo
   name: Cometeer UCP Commerce (MCP)
   slug: ucp-commerce
-- description: Collection (category) browsing
+- baseURL: https://cometeer.com
+  baseurl_source: declared
+  description: Collection (category) browsing
   name: Cometeer Collections API
   slug: cometeer-collections-api
-- description: Product catalog browsing
+- baseURL: https://cometeer.com
+  baseurl_source: declared
+  description: Product catalog browsing
   name: Cometeer Products API
   slug: cometeer-products-api
-- description: Storefront search
+- baseURL: https://cometeer.com
+  baseurl_source: declared
+  description: Storefront search
   name: Cometeer Search API
   slug: cometeer-search-api
 artifact_total: 9
@@ -171,7 +189,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/screenshots/cometeer-2026-08-07T163704.png
 security:

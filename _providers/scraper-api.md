@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: ScraperAPI is a web scraping API that manages proxies, browsers, and CAPTCHAs to extract HTML from any web page with a simple API call.
   name: ScraperAPI
   slug: scraper-api
-- description: The Structured API from ScraperAPI — 2 operation(s) for structured.
+- baseURL: https://api.scraperapi.com
+  baseurl_source: spec
+  description: The Structured API from ScraperAPI — 2 operation(s) for structured.
   name: ScraperAPI Structured API
   slug: scraper-api-structured-api
-- description: The Sync API from ScraperAPI — 1 operation(s) for sync.
+- baseURL: https://api.scraperapi.com
+  baseurl_source: spec
+  description: The Sync API from ScraperAPI — 1 operation(s) for sync.
   name: ScraperAPI Sync API
   slug: scraper-api-sync-api
 artifact_total: 13
@@ -160,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scraper-api/refs/heads/main/screenshots/scraper-api-2026-06-20T193553.png
 security:

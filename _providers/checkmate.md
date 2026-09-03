@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Health API from Checkmate — 1 operation(s) for health.
+- baseURL: https://api.openstock.sh
+  baseurl_source: declared
+  description: The Health API from Checkmate — 1 operation(s) for health.
   name: Checkmate Health API
   slug: checkmate-health-api
-- description: The Merchants API from Checkmate — 2 operation(s) for merchants.
+- baseURL: https://api.openstock.sh
+  baseurl_source: declared
+  description: The Merchants API from Checkmate — 2 operation(s) for merchants.
   name: Checkmate Merchants API
   slug: checkmate-merchants-api
-- description: The Shoppers API from Checkmate — 1 operation(s) for shoppers.
+- baseURL: https://api.openstock.sh
+  baseurl_source: declared
+  description: The Shoppers API from Checkmate — 1 operation(s) for shoppers.
   name: Checkmate Shoppers API
   slug: checkmate-shoppers-api
 artifact_total: 11
@@ -212,7 +218,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/screenshots/checkmate-2026-07-25T205130.png
 security:

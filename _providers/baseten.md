@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Deployment management, async/queued inference, chain calls (multi-model workflows), training, dedicated-deployment lifecycle, async result polling, and webhook delivery.
   name: Baseten Management & Async API
   slug: management
-- description: The Chat Completions API from Baseten — 1 operation(s) for chat completions.
+- baseURL: https://inference.baseten.co/v1
+  baseurl_source: declared
+  description: The Chat Completions API from Baseten — 1 operation(s) for chat completions.
   name: Baseten Chat Completions API
   slug: baseten-chat-completions-api
-- description: The Messages API from Baseten — 1 operation(s) for messages.
+- baseURL: https://inference.baseten.co/v1
+  baseurl_source: declared
+  description: The Messages API from Baseten — 1 operation(s) for messages.
   name: Baseten Messages API
   slug: baseten-messages-api
 artifact_total: 60
@@ -327,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/screenshots/baseten-2026-06-20T173126.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -48,25 +48,39 @@ apis:
 - description: The Meilisearch RESTful API provides endpoints for creating and managing indexes, adding and searching documents, configuring search settings, managing API keys, and monitoring tasks and health status
   name: Meilisearch API
   slug: meilisearch-api
-- description: The Documents API from Meilisearch — 3 operation(s) for documents.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Documents API from Meilisearch — 3 operation(s) for documents.
   name: Meilisearch Documents API
   slug: meilisearch-documents-api
-- description: The Health API from Meilisearch — 3 operation(s) for health.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Health API from Meilisearch — 3 operation(s) for health.
   name: Meilisearch Health API
   slug: meilisearch-health-api
-- description: The Indexes API from Meilisearch — 4 operation(s) for indexes.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Indexes API from Meilisearch — 4 operation(s) for indexes.
   name: Meilisearch Indexes API
   slug: meilisearch-indexes-api
-- description: The Keys API from Meilisearch — 2 operation(s) for keys.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Keys API from Meilisearch — 2 operation(s) for keys.
   name: Meilisearch Keys API
   slug: meilisearch-keys-api
-- description: The Search API from Meilisearch — 3 operation(s) for search.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Search API from Meilisearch — 3 operation(s) for search.
   name: Meilisearch Search API
   slug: meilisearch-search-api
-- description: The Settings API from Meilisearch — 1 operation(s) for settings.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Settings API from Meilisearch — 1 operation(s) for settings.
   name: Meilisearch Settings API
   slug: meilisearch-settings-api
-- description: The Tasks API from Meilisearch — 4 operation(s) for tasks.
+- baseURL: https://localhost:7700
+  baseurl_source: declared
+  description: The Tasks API from Meilisearch — 4 operation(s) for tasks.
   name: Meilisearch Tasks API
   slug: meilisearch-tasks-api
 artifact_total: 43
@@ -240,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/screenshots/meilisearch-2026-06-20T185134.png
 security:

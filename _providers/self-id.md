@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,19 +52,29 @@ apis:
 - description: Highest-level React framework abstraction for decentralized identity apps built on Ceramic. Wraps the core, web, and react packages into a single Provider + hooks surface (useViewerConnection, useView
   name: Self.ID Framework API
   slug: selfid-framework-api
-- description: Apply commits to existing streams and retrieve stream commit history
+- baseURL: https://gateway.ceramic.network
+  baseurl_source: declared
+  description: Apply commits to existing streams and retrieve stream commit history
   name: Self.ID Commits API
   slug: self-id-commits-api
-- description: Batch-load multiple streams in a single request
+- baseURL: https://gateway.ceramic.network
+  baseurl_source: declared
+  description: Batch-load multiple streams in a single request
   name: Self.ID Multiqueries API
   slug: self-id-multiqueries-api
-- description: Node health and configuration information
+- baseURL: https://gateway.ceramic.network
+  baseurl_source: declared
+  description: Node health and configuration information
   name: Self.ID Node API
   slug: self-id-node-api
-- description: Manage persistent pinning of streams on the local node
+- baseURL: https://gateway.ceramic.network
+  baseurl_source: declared
+  description: Manage persistent pinning of streams on the local node
   name: Self.ID Pins API
   slug: self-id-pins-api
-- description: Create and load Ceramic streams by StreamID or CommitID
+- baseURL: https://gateway.ceramic.network
+  baseurl_source: declared
+  description: Create and load Ceramic streams by StreamID or CommitID
   name: Self.ID Streams API
   slug: self-id-streams-api
 artifact_total: 27
@@ -190,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/screenshots/self-id-2026-06-20T193640.png
 security:

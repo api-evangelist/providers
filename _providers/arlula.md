@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 4
 apis:
-- description: Search and order historical satellite imagery
+- baseURL: https://api.arlula.com
+  baseurl_source: declared
+  description: Search and order historical satellite imagery
   name: Arlula Archive API
   slug: arlula-archive-api
-- description: API connection testing
+- baseURL: https://api.arlula.com
+  baseurl_source: declared
+  description: API connection testing
   name: Arlula Connection API
   slug: arlula-connection-api
-- description: Manage orders, campaigns, datasets, and resources
+- baseURL: https://api.arlula.com
+  baseurl_source: declared
+  description: Manage orders, campaigns, datasets, and resources
   name: Arlula Orders API
   slug: arlula-orders-api
-- description: Schedule future satellite captures
+- baseURL: https://api.arlula.com
+  baseurl_source: declared
+  description: Schedule future satellite captures
   name: Arlula Tasking API
   slug: arlula-tasking-api
 artifact_total: 90
@@ -410,7 +418,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/screenshots/arlula-2026-06-20T172434.png
 security:

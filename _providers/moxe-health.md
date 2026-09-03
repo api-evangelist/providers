@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 4
 apis:
-- description: The Claims API from Moxe Health — 2 operation(s) for claims.
+- baseURL: https://int-api.moxehealth.com/chart-retrieval
+  baseurl_source: declared
+  description: The Claims API from Moxe Health — 2 operation(s) for claims.
   name: Moxe Health Claims API
   slug: moxe-health-claims-api
-- description: The Patient API from Moxe Health — 2 operation(s) for patient.
+- baseURL: https://int-api.moxehealth.com/chart-retrieval
+  baseurl_source: declared
+  description: The Patient API from Moxe Health — 2 operation(s) for patient.
   name: Moxe Health Patient API
   slug: moxe-health-patient-api
 arazzos:
@@ -298,7 +314,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 202
   human_in_the_loop: 9
@@ -44,610 +44,1014 @@ agentic_access:
   summary_line: 202 operations · 202 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=AWSGlue.BatchCreatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchcreatepartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchCreatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchcreatepartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchCreatePartition API'
   slug: amazon-glue-x-amz-target-awsglue-batchcreatepartition-api
-- description: 'The #X Amz Target=AWSGlue.BatchDeleteConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeleteconnection.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchDeleteConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeleteconnection.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchDeleteConnection API'
   slug: amazon-glue-x-amz-target-awsglue-batchdeleteconnection-api
-- description: 'The #X Amz Target=AWSGlue.BatchDeletePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeletepartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchDeletePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeletepartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchDeletePartition API'
   slug: amazon-glue-x-amz-target-awsglue-batchdeletepartition-api
-- description: 'The #X Amz Target=AWSGlue.BatchDeleteTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeletetable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchDeleteTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeletetable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchDeleteTable API'
   slug: amazon-glue-x-amz-target-awsglue-batchdeletetable-api
-- description: 'The #X Amz Target=AWSGlue.BatchDeleteTableVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeletetableversion.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchDeleteTableVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchdeletetableversion.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchDeleteTableVersion API'
   slug: amazon-glue-x-amz-target-awsglue-batchdeletetableversion-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetBlueprints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetblueprints.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetBlueprints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetblueprints.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetBlueprints API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetblueprints-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetCrawlers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetcrawlers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetCrawlers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetcrawlers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetCrawlers API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetcrawlers-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetCustomEntityTypes API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetcustomentitytypes.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetCustomEntityTypes API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetcustomentitytypes.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetCustomEntityTypes API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetcustomentitytypes-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetDataQualityResult API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetdataqualityresult.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetDataQualityResult API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetdataqualityresult.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetDataQualityResult API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetdataqualityresult-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetDevEndpoints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetdevendpoints.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetDevEndpoints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetdevendpoints.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetDevEndpoints API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetdevendpoints-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetJobs API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetjobs.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetJobs API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetjobs.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetJobs API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetjobs-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetpartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetpartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetPartition API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetpartition-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetTriggers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgettriggers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetTriggers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgettriggers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetTriggers API'
   slug: amazon-glue-x-amz-target-awsglue-batchgettriggers-api
-- description: 'The #X Amz Target=AWSGlue.BatchGetWorkflows API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetworkflows.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchGetWorkflows API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchgetworkflows.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchGetWorkflows API'
   slug: amazon-glue-x-amz-target-awsglue-batchgetworkflows-api
-- description: 'The #X Amz Target=AWSGlue.BatchStopJobRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchstopjobrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchStopJobRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchstopjobrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchStopJobRun API'
   slug: amazon-glue-x-amz-target-awsglue-batchstopjobrun-api
-- description: 'The #X Amz Target=AWSGlue.BatchUpdatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchupdatepartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.BatchUpdatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.batchupdatepartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.BatchUpdatePartition API'
   slug: amazon-glue-x-amz-target-awsglue-batchupdatepartition-api
-- description: 'The #X Amz Target=AWSGlue.CancelDataQualityRuleRecommendationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.canceldataqualityrulerecommendationrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CancelDataQualityRuleRecommendationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.canceldataqualityrulerecommendationrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CancelDataQualityRuleRecommendationRun API'
   slug: amazon-glue-x-amz-target-awsglue-canceldataqualityrulerecommendationrun-api
-- description: 'The #X Amz Target=AWSGlue.CancelDataQualityRulesetEvaluationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.canceldataqualityrulesetevaluationrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CancelDataQualityRulesetEvaluationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.canceldataqualityrulesetevaluationrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CancelDataQualityRulesetEvaluationRun API'
   slug: amazon-glue-x-amz-target-awsglue-canceldataqualityrulesetevaluationrun-api
-- description: 'The #X Amz Target=AWSGlue.CancelMLTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.cancelmltaskrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CancelMLTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.cancelmltaskrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CancelMLTaskRun API'
   slug: amazon-glue-x-amz-target-awsglue-cancelmltaskrun-api
-- description: 'The #X Amz Target=AWSGlue.CancelStatement API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.cancelstatement.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CancelStatement API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.cancelstatement.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CancelStatement API'
   slug: amazon-glue-x-amz-target-awsglue-cancelstatement-api
-- description: 'The #X Amz Target=AWSGlue.CheckSchemaVersionValidity API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.checkschemaversionvalidity.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CheckSchemaVersionValidity API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.checkschemaversionvalidity.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CheckSchemaVersionValidity API'
   slug: amazon-glue-x-amz-target-awsglue-checkschemaversionvalidity-api
-- description: 'The #X Amz Target=AWSGlue.CreateBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createblueprint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createblueprint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateBlueprint API'
   slug: amazon-glue-x-amz-target-awsglue-createblueprint-api
-- description: 'The #X Amz Target=AWSGlue.CreateClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createclassifier.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createclassifier.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateClassifier API'
   slug: amazon-glue-x-amz-target-awsglue-createclassifier-api
-- description: 'The #X Amz Target=AWSGlue.CreateConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createconnection.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createconnection.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateConnection API'
   slug: amazon-glue-x-amz-target-awsglue-createconnection-api
-- description: 'The #X Amz Target=AWSGlue.CreateCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createcrawler.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createcrawler.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateCrawler API'
   slug: amazon-glue-x-amz-target-awsglue-createcrawler-api
-- description: 'The #X Amz Target=AWSGlue.CreateCustomEntityType API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createcustomentitytype.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateCustomEntityType API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createcustomentitytype.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateCustomEntityType API'
   slug: amazon-glue-x-amz-target-awsglue-createcustomentitytype-api
-- description: 'The #X Amz Target=AWSGlue.CreateDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createdatabase.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createdatabase.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateDatabase API'
   slug: amazon-glue-x-amz-target-awsglue-createdatabase-api
-- description: 'The #X Amz Target=AWSGlue.CreateDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createdataqualityruleset.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createdataqualityruleset.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateDataQualityRuleset API'
   slug: amazon-glue-x-amz-target-awsglue-createdataqualityruleset-api
-- description: 'The #X Amz Target=AWSGlue.CreateDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createdevendpoint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createdevendpoint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateDevEndpoint API'
   slug: amazon-glue-x-amz-target-awsglue-createdevendpoint-api
-- description: 'The #X Amz Target=AWSGlue.CreateJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createjob.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createjob.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateJob API'
   slug: amazon-glue-x-amz-target-awsglue-createjob-api
-- description: 'The #X Amz Target=AWSGlue.CreateMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createmltransform.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createmltransform.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateMLTransform API'
   slug: amazon-glue-x-amz-target-awsglue-createmltransform-api
-- description: 'The #X Amz Target=AWSGlue.CreatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createpartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createpartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreatePartition API'
   slug: amazon-glue-x-amz-target-awsglue-createpartition-api
-- description: 'The #X Amz Target=AWSGlue.CreatePartitionIndex API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createpartitionindex.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreatePartitionIndex API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createpartitionindex.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreatePartitionIndex API'
   slug: amazon-glue-x-amz-target-awsglue-createpartitionindex-api
-- description: 'The #X Amz Target=AWSGlue.CreateRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createregistry.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createregistry.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateRegistry API'
   slug: amazon-glue-x-amz-target-awsglue-createregistry-api
-- description: 'The #X Amz Target=AWSGlue.CreateSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createschema.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createschema.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateSchema API'
   slug: amazon-glue-x-amz-target-awsglue-createschema-api
-- description: 'The #X Amz Target=AWSGlue.CreateScript API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createscript.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateScript API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createscript.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateScript API'
   slug: amazon-glue-x-amz-target-awsglue-createscript-api
-- description: 'The #X Amz Target=AWSGlue.CreateSecurityConfiguration API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createsecurityconfiguration.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateSecurityConfiguration API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createsecurityconfiguration.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateSecurityConfiguration API'
   slug: amazon-glue-x-amz-target-awsglue-createsecurityconfiguration-api
-- description: 'The #X Amz Target=AWSGlue.CreateSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createsession.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createsession.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateSession API'
   slug: amazon-glue-x-amz-target-awsglue-createsession-api
-- description: 'The #X Amz Target=AWSGlue.CreateTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createtable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createtable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateTable API'
   slug: amazon-glue-x-amz-target-awsglue-createtable-api
-- description: 'The #X Amz Target=AWSGlue.CreateTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createtrigger.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createtrigger.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateTrigger API'
   slug: amazon-glue-x-amz-target-awsglue-createtrigger-api
-- description: 'The #X Amz Target=AWSGlue.CreateUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createuserdefinedfunction.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createuserdefinedfunction.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateUserDefinedFunction API'
   slug: amazon-glue-x-amz-target-awsglue-createuserdefinedfunction-api
-- description: 'The #X Amz Target=AWSGlue.CreateWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createworkflow.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.CreateWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.createworkflow.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.CreateWorkflow API'
   slug: amazon-glue-x-amz-target-awsglue-createworkflow-api
-- description: 'The #X Amz Target=AWSGlue.DeleteBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteblueprint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteblueprint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteBlueprint API'
   slug: amazon-glue-x-amz-target-awsglue-deleteblueprint-api
-- description: 'The #X Amz Target=AWSGlue.DeleteClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteclassifier.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteclassifier.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteClassifier API'
   slug: amazon-glue-x-amz-target-awsglue-deleteclassifier-api
-- description: 'The #X Amz Target=AWSGlue.DeleteColumnStatisticsForPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecolumnstatisticsforpartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteColumnStatisticsForPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecolumnstatisticsforpartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteColumnStatisticsForPartition API'
   slug: amazon-glue-x-amz-target-awsglue-deletecolumnstatisticsforpartition-api
-- description: 'The #X Amz Target=AWSGlue.DeleteColumnStatisticsForTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecolumnstatisticsfortable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteColumnStatisticsForTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecolumnstatisticsfortable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteColumnStatisticsForTable API'
   slug: amazon-glue-x-amz-target-awsglue-deletecolumnstatisticsfortable-api
-- description: 'The #X Amz Target=AWSGlue.DeleteConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteconnection.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteconnection.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteConnection API'
   slug: amazon-glue-x-amz-target-awsglue-deleteconnection-api
-- description: 'The #X Amz Target=AWSGlue.DeleteCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecrawler.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecrawler.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteCrawler API'
   slug: amazon-glue-x-amz-target-awsglue-deletecrawler-api
-- description: 'The #X Amz Target=AWSGlue.DeleteCustomEntityType API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecustomentitytype.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteCustomEntityType API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletecustomentitytype.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteCustomEntityType API'
   slug: amazon-glue-x-amz-target-awsglue-deletecustomentitytype-api
-- description: 'The #X Amz Target=AWSGlue.DeleteDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletedatabase.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletedatabase.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteDatabase API'
   slug: amazon-glue-x-amz-target-awsglue-deletedatabase-api
-- description: 'The #X Amz Target=AWSGlue.DeleteDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletedataqualityruleset.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletedataqualityruleset.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteDataQualityRuleset API'
   slug: amazon-glue-x-amz-target-awsglue-deletedataqualityruleset-api
-- description: 'The #X Amz Target=AWSGlue.DeleteDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletedevendpoint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletedevendpoint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteDevEndpoint API'
   slug: amazon-glue-x-amz-target-awsglue-deletedevendpoint-api
-- description: 'The #X Amz Target=AWSGlue.DeleteJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletejob.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletejob.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteJob API'
   slug: amazon-glue-x-amz-target-awsglue-deletejob-api
-- description: 'The #X Amz Target=AWSGlue.DeleteMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletemltransform.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletemltransform.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteMLTransform API'
   slug: amazon-glue-x-amz-target-awsglue-deletemltransform-api
-- description: 'The #X Amz Target=AWSGlue.DeletePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletepartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeletePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletepartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeletePartition API'
   slug: amazon-glue-x-amz-target-awsglue-deletepartition-api
-- description: 'The #X Amz Target=AWSGlue.DeletePartitionIndex API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletepartitionindex.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeletePartitionIndex API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletepartitionindex.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeletePartitionIndex API'
   slug: amazon-glue-x-amz-target-awsglue-deletepartitionindex-api
-- description: 'The #X Amz Target=AWSGlue.DeleteRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteregistry.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteregistry.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteRegistry API'
   slug: amazon-glue-x-amz-target-awsglue-deleteregistry-api
-- description: 'The #X Amz Target=AWSGlue.DeleteResourcePolicy API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteresourcepolicy.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteResourcePolicy API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteresourcepolicy.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteResourcePolicy API'
   slug: amazon-glue-x-amz-target-awsglue-deleteresourcepolicy-api
-- description: 'The #X Amz Target=AWSGlue.DeleteSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteschema.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteschema.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteSchema API'
   slug: amazon-glue-x-amz-target-awsglue-deleteschema-api
-- description: 'The #X Amz Target=AWSGlue.DeleteSchemaVersions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteschemaversions.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteSchemaVersions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteschemaversions.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteSchemaVersions API'
   slug: amazon-glue-x-amz-target-awsglue-deleteschemaversions-api
-- description: 'The #X Amz Target=AWSGlue.DeleteSecurityConfiguration API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletesecurityconfiguration.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteSecurityConfiguration API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletesecurityconfiguration.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteSecurityConfiguration API'
   slug: amazon-glue-x-amz-target-awsglue-deletesecurityconfiguration-api
-- description: 'The #X Amz Target=AWSGlue.DeleteSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletesession.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletesession.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteSession API'
   slug: amazon-glue-x-amz-target-awsglue-deletesession-api
-- description: 'The #X Amz Target=AWSGlue.DeleteTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletetable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletetable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteTable API'
   slug: amazon-glue-x-amz-target-awsglue-deletetable-api
-- description: 'The #X Amz Target=AWSGlue.DeleteTableVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletetableversion.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteTableVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletetableversion.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteTableVersion API'
   slug: amazon-glue-x-amz-target-awsglue-deletetableversion-api
-- description: 'The #X Amz Target=AWSGlue.DeleteTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletetrigger.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deletetrigger.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteTrigger API'
   slug: amazon-glue-x-amz-target-awsglue-deletetrigger-api
-- description: 'The #X Amz Target=AWSGlue.DeleteUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteuserdefinedfunction.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteuserdefinedfunction.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteUserDefinedFunction API'
   slug: amazon-glue-x-amz-target-awsglue-deleteuserdefinedfunction-api
-- description: 'The #X Amz Target=AWSGlue.DeleteWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteworkflow.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.DeleteWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.deleteworkflow.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.DeleteWorkflow API'
   slug: amazon-glue-x-amz-target-awsglue-deleteworkflow-api
-- description: 'The #X Amz Target=AWSGlue.GetBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getblueprint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getblueprint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetBlueprint API'
   slug: amazon-glue-x-amz-target-awsglue-getblueprint-api
-- description: 'The #X Amz Target=AWSGlue.GetBlueprintRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getblueprintrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetBlueprintRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getblueprintrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetBlueprintRun API'
   slug: amazon-glue-x-amz-target-awsglue-getblueprintrun-api
-- description: 'The #X Amz Target=AWSGlue.GetBlueprintRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getblueprintruns.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetBlueprintRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getblueprintruns.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetBlueprintRuns API'
   slug: amazon-glue-x-amz-target-awsglue-getblueprintruns-api
-- description: 'The #X Amz Target=AWSGlue.GetCatalogImportStatus API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcatalogimportstatus.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetCatalogImportStatus API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcatalogimportstatus.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetCatalogImportStatus API'
   slug: amazon-glue-x-amz-target-awsglue-getcatalogimportstatus-api
-- description: 'The #X Amz Target=AWSGlue.GetClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getclassifier.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getclassifier.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetClassifier API'
   slug: amazon-glue-x-amz-target-awsglue-getclassifier-api
-- description: 'The #X Amz Target=AWSGlue.GetClassifiers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getclassifiers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetClassifiers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getclassifiers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetClassifiers API'
   slug: amazon-glue-x-amz-target-awsglue-getclassifiers-api
-- description: 'The #X Amz Target=AWSGlue.GetColumnStatisticsForPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcolumnstatisticsforpartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetColumnStatisticsForPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcolumnstatisticsforpartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetColumnStatisticsForPartition API'
   slug: amazon-glue-x-amz-target-awsglue-getcolumnstatisticsforpartition-api
-- description: 'The #X Amz Target=AWSGlue.GetColumnStatisticsForTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcolumnstatisticsfortable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetColumnStatisticsForTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcolumnstatisticsfortable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetColumnStatisticsForTable API'
   slug: amazon-glue-x-amz-target-awsglue-getcolumnstatisticsfortable-api
-- description: 'The #X Amz Target=AWSGlue.GetConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getconnection.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getconnection.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetConnection API'
   slug: amazon-glue-x-amz-target-awsglue-getconnection-api
-- description: 'The #X Amz Target=AWSGlue.GetConnections API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getconnections.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetConnections API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getconnections.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetConnections API'
   slug: amazon-glue-x-amz-target-awsglue-getconnections-api
-- description: 'The #X Amz Target=AWSGlue.GetCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcrawler.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcrawler.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetCrawler API'
   slug: amazon-glue-x-amz-target-awsglue-getcrawler-api
-- description: 'The #X Amz Target=AWSGlue.GetCrawlerMetrics API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcrawlermetrics.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetCrawlerMetrics API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcrawlermetrics.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetCrawlerMetrics API'
   slug: amazon-glue-x-amz-target-awsglue-getcrawlermetrics-api
-- description: 'The #X Amz Target=AWSGlue.GetCrawlers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcrawlers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetCrawlers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcrawlers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetCrawlers API'
   slug: amazon-glue-x-amz-target-awsglue-getcrawlers-api
-- description: 'The #X Amz Target=AWSGlue.GetCustomEntityType API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcustomentitytype.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetCustomEntityType API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getcustomentitytype.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetCustomEntityType API'
   slug: amazon-glue-x-amz-target-awsglue-getcustomentitytype-api
-- description: 'The #X Amz Target=AWSGlue.GetDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdatabase.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdatabase.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDatabase API'
   slug: amazon-glue-x-amz-target-awsglue-getdatabase-api
-- description: 'The #X Amz Target=AWSGlue.GetDatabases API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdatabases.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDatabases API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdatabases.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDatabases API'
   slug: amazon-glue-x-amz-target-awsglue-getdatabases-api
-- description: 'The #X Amz Target=AWSGlue.GetDataCatalogEncryptionSettings API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdatacatalogencryptionsettings.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDataCatalogEncryptionSettings API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdatacatalogencryptionsettings.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDataCatalogEncryptionSettings API'
   slug: amazon-glue-x-amz-target-awsglue-getdatacatalogencryptionsettings-api
-- description: 'The #X Amz Target=AWSGlue.GetDataflowGraph API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataflowgraph.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDataflowGraph API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataflowgraph.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDataflowGraph API'
   slug: amazon-glue-x-amz-target-awsglue-getdataflowgraph-api
-- description: 'The #X Amz Target=AWSGlue.GetDataQualityResult API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityresult.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDataQualityResult API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityresult.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDataQualityResult API'
   slug: amazon-glue-x-amz-target-awsglue-getdataqualityresult-api
-- description: 'The #X Amz Target=AWSGlue.GetDataQualityRuleRecommendationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityrulerecommendationrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDataQualityRuleRecommendationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityrulerecommendationrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDataQualityRuleRecommendationRun API'
   slug: amazon-glue-x-amz-target-awsglue-getdataqualityrulerecommendationrun-api
-- description: 'The #X Amz Target=AWSGlue.GetDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityruleset.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityruleset.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDataQualityRuleset API'
   slug: amazon-glue-x-amz-target-awsglue-getdataqualityruleset-api
-- description: 'The #X Amz Target=AWSGlue.GetDataQualityRulesetEvaluationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityrulesetevaluationrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDataQualityRulesetEvaluationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdataqualityrulesetevaluationrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDataQualityRulesetEvaluationRun API'
   slug: amazon-glue-x-amz-target-awsglue-getdataqualityrulesetevaluationrun-api
-- description: 'The #X Amz Target=AWSGlue.GetDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdevendpoint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdevendpoint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDevEndpoint API'
   slug: amazon-glue-x-amz-target-awsglue-getdevendpoint-api
-- description: 'The #X Amz Target=AWSGlue.GetDevEndpoints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdevendpoints.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetDevEndpoints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getdevendpoints.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetDevEndpoints API'
   slug: amazon-glue-x-amz-target-awsglue-getdevendpoints-api
-- description: 'The #X Amz Target=AWSGlue.GetJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjob.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjob.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetJob API'
   slug: amazon-glue-x-amz-target-awsglue-getjob-api
-- description: 'The #X Amz Target=AWSGlue.GetJobBookmark API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobbookmark.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetJobBookmark API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobbookmark.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetJobBookmark API'
   slug: amazon-glue-x-amz-target-awsglue-getjobbookmark-api
-- description: 'The #X Amz Target=AWSGlue.GetJobRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetJobRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetJobRun API'
   slug: amazon-glue-x-amz-target-awsglue-getjobrun-api
-- description: 'The #X Amz Target=AWSGlue.GetJobRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobruns.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetJobRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobruns.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetJobRuns API'
   slug: amazon-glue-x-amz-target-awsglue-getjobruns-api
-- description: 'The #X Amz Target=AWSGlue.GetJobs API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobs.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetJobs API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getjobs.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetJobs API'
   slug: amazon-glue-x-amz-target-awsglue-getjobs-api
-- description: 'The #X Amz Target=AWSGlue.GetMapping API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmapping.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetMapping API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmapping.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetMapping API'
   slug: amazon-glue-x-amz-target-awsglue-getmapping-api
-- description: 'The #X Amz Target=AWSGlue.GetMLTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltaskrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetMLTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltaskrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetMLTaskRun API'
   slug: amazon-glue-x-amz-target-awsglue-getmltaskrun-api
-- description: 'The #X Amz Target=AWSGlue.GetMLTaskRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltaskruns.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetMLTaskRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltaskruns.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetMLTaskRuns API'
   slug: amazon-glue-x-amz-target-awsglue-getmltaskruns-api
-- description: 'The #X Amz Target=AWSGlue.GetMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltransform.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltransform.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetMLTransform API'
   slug: amazon-glue-x-amz-target-awsglue-getmltransform-api
-- description: 'The #X Amz Target=AWSGlue.GetMLTransforms API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltransforms.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetMLTransforms API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getmltransforms.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetMLTransforms API'
   slug: amazon-glue-x-amz-target-awsglue-getmltransforms-api
-- description: 'The #X Amz Target=AWSGlue.GetPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getpartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getpartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetPartition API'
   slug: amazon-glue-x-amz-target-awsglue-getpartition-api
-- description: 'The #X Amz Target=AWSGlue.GetPartitionIndexes API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getpartitionindexes.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetPartitionIndexes API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getpartitionindexes.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetPartitionIndexes API'
   slug: amazon-glue-x-amz-target-awsglue-getpartitionindexes-api
-- description: 'The #X Amz Target=AWSGlue.GetPartitions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getpartitions.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetPartitions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getpartitions.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetPartitions API'
   slug: amazon-glue-x-amz-target-awsglue-getpartitions-api
-- description: 'The #X Amz Target=AWSGlue.GetPlan API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getplan.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetPlan API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getplan.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetPlan API'
   slug: amazon-glue-x-amz-target-awsglue-getplan-api
-- description: 'The #X Amz Target=AWSGlue.GetRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getregistry.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getregistry.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetRegistry API'
   slug: amazon-glue-x-amz-target-awsglue-getregistry-api
-- description: 'The #X Amz Target=AWSGlue.GetResourcePolicies API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getresourcepolicies.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetResourcePolicies API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getresourcepolicies.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetResourcePolicies API'
   slug: amazon-glue-x-amz-target-awsglue-getresourcepolicies-api
-- description: 'The #X Amz Target=AWSGlue.GetResourcePolicy API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getresourcepolicy.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetResourcePolicy API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getresourcepolicy.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetResourcePolicy API'
   slug: amazon-glue-x-amz-target-awsglue-getresourcepolicy-api
-- description: 'The #X Amz Target=AWSGlue.GetSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschema.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschema.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSchema API'
   slug: amazon-glue-x-amz-target-awsglue-getschema-api
-- description: 'The #X Amz Target=AWSGlue.GetSchemaByDefinition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschemabydefinition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSchemaByDefinition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschemabydefinition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSchemaByDefinition API'
   slug: amazon-glue-x-amz-target-awsglue-getschemabydefinition-api
-- description: 'The #X Amz Target=AWSGlue.GetSchemaVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschemaversion.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSchemaVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschemaversion.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSchemaVersion API'
   slug: amazon-glue-x-amz-target-awsglue-getschemaversion-api
-- description: 'The #X Amz Target=AWSGlue.GetSchemaVersionsDiff API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschemaversionsdiff.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSchemaVersionsDiff API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getschemaversionsdiff.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSchemaVersionsDiff API'
   slug: amazon-glue-x-amz-target-awsglue-getschemaversionsdiff-api
-- description: 'The #X Amz Target=AWSGlue.GetSecurityConfiguration API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getsecurityconfiguration.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSecurityConfiguration API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getsecurityconfiguration.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSecurityConfiguration API'
   slug: amazon-glue-x-amz-target-awsglue-getsecurityconfiguration-api
-- description: 'The #X Amz Target=AWSGlue.GetSecurityConfigurations API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getsecurityconfigurations.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSecurityConfigurations API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getsecurityconfigurations.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSecurityConfigurations API'
   slug: amazon-glue-x-amz-target-awsglue-getsecurityconfigurations-api
-- description: 'The #X Amz Target=AWSGlue.GetSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getsession.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getsession.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetSession API'
   slug: amazon-glue-x-amz-target-awsglue-getsession-api
-- description: 'The #X Amz Target=AWSGlue.GetStatement API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getstatement.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetStatement API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getstatement.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetStatement API'
   slug: amazon-glue-x-amz-target-awsglue-getstatement-api
-- description: 'The #X Amz Target=AWSGlue.GetTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTable API'
   slug: amazon-glue-x-amz-target-awsglue-gettable-api
-- description: 'The #X Amz Target=AWSGlue.GetTables API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettables.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTables API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettables.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTables API'
   slug: amazon-glue-x-amz-target-awsglue-gettables-api
-- description: 'The #X Amz Target=AWSGlue.GetTableVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettableversion.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTableVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettableversion.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTableVersion API'
   slug: amazon-glue-x-amz-target-awsglue-gettableversion-api
-- description: 'The #X Amz Target=AWSGlue.GetTableVersions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettableversions.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTableVersions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettableversions.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTableVersions API'
   slug: amazon-glue-x-amz-target-awsglue-gettableversions-api
-- description: 'The #X Amz Target=AWSGlue.GetTags API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettags.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTags API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettags.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTags API'
   slug: amazon-glue-x-amz-target-awsglue-gettags-api
-- description: 'The #X Amz Target=AWSGlue.GetTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettrigger.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettrigger.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTrigger API'
   slug: amazon-glue-x-amz-target-awsglue-gettrigger-api
-- description: 'The #X Amz Target=AWSGlue.GetTriggers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettriggers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetTriggers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.gettriggers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetTriggers API'
   slug: amazon-glue-x-amz-target-awsglue-gettriggers-api
-- description: 'The #X Amz Target=AWSGlue.GetUnfilteredPartitionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getunfilteredpartitionmetadata.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetUnfilteredPartitionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getunfilteredpartitionmetadata.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetUnfilteredPartitionMetadata API'
   slug: amazon-glue-x-amz-target-awsglue-getunfilteredpartitionmetadata-api
-- description: 'The #X Amz Target=AWSGlue.GetUnfilteredPartitionsMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getunfilteredpartitionsmetadata.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetUnfilteredPartitionsMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getunfilteredpartitionsmetadata.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetUnfilteredPartitionsMetadata API'
   slug: amazon-glue-x-amz-target-awsglue-getunfilteredpartitionsmetadata-api
-- description: 'The #X Amz Target=AWSGlue.GetUnfilteredTableMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getunfilteredtablemetadata.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetUnfilteredTableMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getunfilteredtablemetadata.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetUnfilteredTableMetadata API'
   slug: amazon-glue-x-amz-target-awsglue-getunfilteredtablemetadata-api
-- description: 'The #X Amz Target=AWSGlue.GetUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getuserdefinedfunction.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getuserdefinedfunction.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetUserDefinedFunction API'
   slug: amazon-glue-x-amz-target-awsglue-getuserdefinedfunction-api
-- description: 'The #X Amz Target=AWSGlue.GetUserDefinedFunctions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getuserdefinedfunctions.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetUserDefinedFunctions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getuserdefinedfunctions.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetUserDefinedFunctions API'
   slug: amazon-glue-x-amz-target-awsglue-getuserdefinedfunctions-api
-- description: 'The #X Amz Target=AWSGlue.GetWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflow.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflow.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetWorkflow API'
   slug: amazon-glue-x-amz-target-awsglue-getworkflow-api
-- description: 'The #X Amz Target=AWSGlue.GetWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflowrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflowrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetWorkflowRun API'
   slug: amazon-glue-x-amz-target-awsglue-getworkflowrun-api
-- description: 'The #X Amz Target=AWSGlue.GetWorkflowRunProperties API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflowrunproperties.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetWorkflowRunProperties API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflowrunproperties.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetWorkflowRunProperties API'
   slug: amazon-glue-x-amz-target-awsglue-getworkflowrunproperties-api
-- description: 'The #X Amz Target=AWSGlue.GetWorkflowRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflowruns.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.GetWorkflowRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.getworkflowruns.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.GetWorkflowRuns API'
   slug: amazon-glue-x-amz-target-awsglue-getworkflowruns-api
-- description: 'The #X Amz Target=AWSGlue.ImportCatalogToGlue API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.importcatalogtoglue.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ImportCatalogToGlue API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.importcatalogtoglue.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ImportCatalogToGlue API'
   slug: amazon-glue-x-amz-target-awsglue-importcatalogtoglue-api
-- description: 'The #X Amz Target=AWSGlue.ListBlueprints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listblueprints.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListBlueprints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listblueprints.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListBlueprints API'
   slug: amazon-glue-x-amz-target-awsglue-listblueprints-api
-- description: 'The #X Amz Target=AWSGlue.ListCrawlers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listcrawlers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListCrawlers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listcrawlers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListCrawlers API'
   slug: amazon-glue-x-amz-target-awsglue-listcrawlers-api
-- description: 'The #X Amz Target=AWSGlue.ListCrawls API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listcrawls.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListCrawls API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listcrawls.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListCrawls API'
   slug: amazon-glue-x-amz-target-awsglue-listcrawls-api
-- description: 'The #X Amz Target=AWSGlue.ListCustomEntityTypes API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listcustomentitytypes.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListCustomEntityTypes API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listcustomentitytypes.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListCustomEntityTypes API'
   slug: amazon-glue-x-amz-target-awsglue-listcustomentitytypes-api
-- description: 'The #X Amz Target=AWSGlue.ListDataQualityResults API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityresults.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListDataQualityResults API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityresults.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListDataQualityResults API'
   slug: amazon-glue-x-amz-target-awsglue-listdataqualityresults-api
-- description: 'The #X Amz Target=AWSGlue.ListDataQualityRuleRecommendationRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityrulerecommendationruns.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListDataQualityRuleRecommendationRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityrulerecommendationruns.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListDataQualityRuleRecommendationRuns API'
   slug: amazon-glue-x-amz-target-awsglue-listdataqualityrulerecommendationruns-api
-- description: 'The #X Amz Target=AWSGlue.ListDataQualityRulesetEvaluationRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityrulesetevaluationruns.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListDataQualityRulesetEvaluationRuns API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityrulesetevaluationruns.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListDataQualityRulesetEvaluationRuns API'
   slug: amazon-glue-x-amz-target-awsglue-listdataqualityrulesetevaluationruns-api
-- description: 'The #X Amz Target=AWSGlue.ListDataQualityRulesets API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityrulesets.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListDataQualityRulesets API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdataqualityrulesets.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListDataQualityRulesets API'
   slug: amazon-glue-x-amz-target-awsglue-listdataqualityrulesets-api
-- description: 'The #X Amz Target=AWSGlue.ListDevEndpoints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdevendpoints.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListDevEndpoints API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listdevendpoints.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListDevEndpoints API'
   slug: amazon-glue-x-amz-target-awsglue-listdevendpoints-api
-- description: 'The #X Amz Target=AWSGlue.ListJobs API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listjobs.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListJobs API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listjobs.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListJobs API'
   slug: amazon-glue-x-amz-target-awsglue-listjobs-api
-- description: 'The #X Amz Target=AWSGlue.ListMLTransforms API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listmltransforms.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListMLTransforms API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listmltransforms.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListMLTransforms API'
   slug: amazon-glue-x-amz-target-awsglue-listmltransforms-api
-- description: 'The #X Amz Target=AWSGlue.ListRegistries API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listregistries.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListRegistries API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listregistries.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListRegistries API'
   slug: amazon-glue-x-amz-target-awsglue-listregistries-api
-- description: 'The #X Amz Target=AWSGlue.ListSchemas API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listschemas.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListSchemas API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listschemas.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListSchemas API'
   slug: amazon-glue-x-amz-target-awsglue-listschemas-api
-- description: 'The #X Amz Target=AWSGlue.ListSchemaVersions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listschemaversions.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListSchemaVersions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listschemaversions.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListSchemaVersions API'
   slug: amazon-glue-x-amz-target-awsglue-listschemaversions-api
-- description: 'The #X Amz Target=AWSGlue.ListSessions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listsessions.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListSessions API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listsessions.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListSessions API'
   slug: amazon-glue-x-amz-target-awsglue-listsessions-api
-- description: 'The #X Amz Target=AWSGlue.ListStatements API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.liststatements.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListStatements API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.liststatements.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListStatements API'
   slug: amazon-glue-x-amz-target-awsglue-liststatements-api
-- description: 'The #X Amz Target=AWSGlue.ListTriggers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listtriggers.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListTriggers API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listtriggers.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListTriggers API'
   slug: amazon-glue-x-amz-target-awsglue-listtriggers-api
-- description: 'The #X Amz Target=AWSGlue.ListWorkflows API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listworkflows.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ListWorkflows API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.listworkflows.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ListWorkflows API'
   slug: amazon-glue-x-amz-target-awsglue-listworkflows-api
-- description: 'The #X Amz Target=AWSGlue.PutDataCatalogEncryptionSettings API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putdatacatalogencryptionsettings.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.PutDataCatalogEncryptionSettings API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putdatacatalogencryptionsettings.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.PutDataCatalogEncryptionSettings API'
   slug: amazon-glue-x-amz-target-awsglue-putdatacatalogencryptionsettings-api
-- description: 'The #X Amz Target=AWSGlue.PutResourcePolicy API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putresourcepolicy.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.PutResourcePolicy API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putresourcepolicy.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.PutResourcePolicy API'
   slug: amazon-glue-x-amz-target-awsglue-putresourcepolicy-api
-- description: 'The #X Amz Target=AWSGlue.PutSchemaVersionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putschemaversionmetadata.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.PutSchemaVersionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putschemaversionmetadata.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.PutSchemaVersionMetadata API'
   slug: amazon-glue-x-amz-target-awsglue-putschemaversionmetadata-api
-- description: 'The #X Amz Target=AWSGlue.PutWorkflowRunProperties API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putworkflowrunproperties.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.PutWorkflowRunProperties API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.putworkflowrunproperties.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.PutWorkflowRunProperties API'
   slug: amazon-glue-x-amz-target-awsglue-putworkflowrunproperties-api
-- description: 'The #X Amz Target=AWSGlue.QuerySchemaVersionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.queryschemaversionmetadata.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.QuerySchemaVersionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.queryschemaversionmetadata.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.QuerySchemaVersionMetadata API'
   slug: amazon-glue-x-amz-target-awsglue-queryschemaversionmetadata-api
-- description: 'The #X Amz Target=AWSGlue.RegisterSchemaVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.registerschemaversion.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.RegisterSchemaVersion API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.registerschemaversion.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.RegisterSchemaVersion API'
   slug: amazon-glue-x-amz-target-awsglue-registerschemaversion-api
-- description: 'The #X Amz Target=AWSGlue.RemoveSchemaVersionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.removeschemaversionmetadata.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.RemoveSchemaVersionMetadata API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.removeschemaversionmetadata.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.RemoveSchemaVersionMetadata API'
   slug: amazon-glue-x-amz-target-awsglue-removeschemaversionmetadata-api
-- description: 'The #X Amz Target=AWSGlue.ResetJobBookmark API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.resetjobbookmark.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ResetJobBookmark API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.resetjobbookmark.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ResetJobBookmark API'
   slug: amazon-glue-x-amz-target-awsglue-resetjobbookmark-api
-- description: 'The #X Amz Target=AWSGlue.ResumeWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.resumeworkflowrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.ResumeWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.resumeworkflowrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.ResumeWorkflowRun API'
   slug: amazon-glue-x-amz-target-awsglue-resumeworkflowrun-api
-- description: 'The #X Amz Target=AWSGlue.RunStatement API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.runstatement.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.RunStatement API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.runstatement.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.RunStatement API'
   slug: amazon-glue-x-amz-target-awsglue-runstatement-api
-- description: 'The #X Amz Target=AWSGlue.SearchTables API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.searchtables.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.SearchTables API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.searchtables.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.SearchTables API'
   slug: amazon-glue-x-amz-target-awsglue-searchtables-api
-- description: 'The #X Amz Target=AWSGlue.StartBlueprintRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startblueprintrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartBlueprintRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startblueprintrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartBlueprintRun API'
   slug: amazon-glue-x-amz-target-awsglue-startblueprintrun-api
-- description: 'The #X Amz Target=AWSGlue.StartCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startcrawler.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startcrawler.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartCrawler API'
   slug: amazon-glue-x-amz-target-awsglue-startcrawler-api
-- description: 'The #X Amz Target=AWSGlue.StartCrawlerSchedule API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startcrawlerschedule.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartCrawlerSchedule API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startcrawlerschedule.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartCrawlerSchedule API'
   slug: amazon-glue-x-amz-target-awsglue-startcrawlerschedule-api
-- description: 'The #X Amz Target=AWSGlue.StartDataQualityRuleRecommendationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startdataqualityrulerecommendationrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartDataQualityRuleRecommendationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startdataqualityrulerecommendationrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartDataQualityRuleRecommendationRun API'
   slug: amazon-glue-x-amz-target-awsglue-startdataqualityrulerecommendationrun-api
-- description: 'The #X Amz Target=AWSGlue.StartDataQualityRulesetEvaluationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startdataqualityrulesetevaluationrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartDataQualityRulesetEvaluationRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startdataqualityrulesetevaluationrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartDataQualityRulesetEvaluationRun API'
   slug: amazon-glue-x-amz-target-awsglue-startdataqualityrulesetevaluationrun-api
-- description: 'The #X Amz Target=AWSGlue.StartExportLabelsTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startexportlabelstaskrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartExportLabelsTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startexportlabelstaskrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartExportLabelsTaskRun API'
   slug: amazon-glue-x-amz-target-awsglue-startexportlabelstaskrun-api
-- description: 'The #X Amz Target=AWSGlue.StartImportLabelsTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startimportlabelstaskrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartImportLabelsTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startimportlabelstaskrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartImportLabelsTaskRun API'
   slug: amazon-glue-x-amz-target-awsglue-startimportlabelstaskrun-api
-- description: 'The #X Amz Target=AWSGlue.StartJobRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startjobrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartJobRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startjobrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartJobRun API'
   slug: amazon-glue-x-amz-target-awsglue-startjobrun-api
-- description: 'The #X Amz Target=AWSGlue.StartMLEvaluationTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startmlevaluationtaskrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartMLEvaluationTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startmlevaluationtaskrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartMLEvaluationTaskRun API'
   slug: amazon-glue-x-amz-target-awsglue-startmlevaluationtaskrun-api
-- description: 'The #X Amz Target=AWSGlue.StartMLLabelingSetGenerationTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startmllabelingsetgenerationtaskrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartMLLabelingSetGenerationTaskRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startmllabelingsetgenerationtaskrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartMLLabelingSetGenerationTaskRun API'
   slug: amazon-glue-x-amz-target-awsglue-startmllabelingsetgenerationtaskrun-api
-- description: 'The #X Amz Target=AWSGlue.StartTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.starttrigger.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.starttrigger.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartTrigger API'
   slug: amazon-glue-x-amz-target-awsglue-starttrigger-api
-- description: 'The #X Amz Target=AWSGlue.StartWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startworkflowrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StartWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.startworkflowrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StartWorkflowRun API'
   slug: amazon-glue-x-amz-target-awsglue-startworkflowrun-api
-- description: 'The #X Amz Target=AWSGlue.StopCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopcrawler.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StopCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopcrawler.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StopCrawler API'
   slug: amazon-glue-x-amz-target-awsglue-stopcrawler-api
-- description: 'The #X Amz Target=AWSGlue.StopCrawlerSchedule API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopcrawlerschedule.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StopCrawlerSchedule API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopcrawlerschedule.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StopCrawlerSchedule API'
   slug: amazon-glue-x-amz-target-awsglue-stopcrawlerschedule-api
-- description: 'The #X Amz Target=AWSGlue.StopSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopsession.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StopSession API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopsession.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StopSession API'
   slug: amazon-glue-x-amz-target-awsglue-stopsession-api
-- description: 'The #X Amz Target=AWSGlue.StopTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stoptrigger.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StopTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stoptrigger.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StopTrigger API'
   slug: amazon-glue-x-amz-target-awsglue-stoptrigger-api
-- description: 'The #X Amz Target=AWSGlue.StopWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopworkflowrun.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.StopWorkflowRun API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.stopworkflowrun.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.StopWorkflowRun API'
   slug: amazon-glue-x-amz-target-awsglue-stopworkflowrun-api
-- description: 'The #X Amz Target=AWSGlue.TagResource API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.tagresource.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.TagResource API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.tagresource.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.TagResource API'
   slug: amazon-glue-x-amz-target-awsglue-tagresource-api
-- description: 'The #X Amz Target=AWSGlue.UntagResource API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.untagresource.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UntagResource API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.untagresource.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UntagResource API'
   slug: amazon-glue-x-amz-target-awsglue-untagresource-api
-- description: 'The #X Amz Target=AWSGlue.UpdateBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateblueprint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateBlueprint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateblueprint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateBlueprint API'
   slug: amazon-glue-x-amz-target-awsglue-updateblueprint-api
-- description: 'The #X Amz Target=AWSGlue.UpdateClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateclassifier.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateClassifier API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateclassifier.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateClassifier API'
   slug: amazon-glue-x-amz-target-awsglue-updateclassifier-api
-- description: 'The #X Amz Target=AWSGlue.UpdateColumnStatisticsForPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecolumnstatisticsforpartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateColumnStatisticsForPartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecolumnstatisticsforpartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateColumnStatisticsForPartition API'
   slug: amazon-glue-x-amz-target-awsglue-updatecolumnstatisticsforpartition-api
-- description: 'The #X Amz Target=AWSGlue.UpdateColumnStatisticsForTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecolumnstatisticsfortable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateColumnStatisticsForTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecolumnstatisticsfortable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateColumnStatisticsForTable API'
   slug: amazon-glue-x-amz-target-awsglue-updatecolumnstatisticsfortable-api
-- description: 'The #X Amz Target=AWSGlue.UpdateConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateconnection.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateConnection API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateconnection.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateConnection API'
   slug: amazon-glue-x-amz-target-awsglue-updateconnection-api
-- description: 'The #X Amz Target=AWSGlue.UpdateCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecrawler.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateCrawler API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecrawler.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateCrawler API'
   slug: amazon-glue-x-amz-target-awsglue-updatecrawler-api
-- description: 'The #X Amz Target=AWSGlue.UpdateCrawlerSchedule API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecrawlerschedule.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateCrawlerSchedule API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatecrawlerschedule.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateCrawlerSchedule API'
   slug: amazon-glue-x-amz-target-awsglue-updatecrawlerschedule-api
-- description: 'The #X Amz Target=AWSGlue.UpdateDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatedatabase.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateDatabase API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatedatabase.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateDatabase API'
   slug: amazon-glue-x-amz-target-awsglue-updatedatabase-api
-- description: 'The #X Amz Target=AWSGlue.UpdateDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatedataqualityruleset.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateDataQualityRuleset API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatedataqualityruleset.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateDataQualityRuleset API'
   slug: amazon-glue-x-amz-target-awsglue-updatedataqualityruleset-api
-- description: 'The #X Amz Target=AWSGlue.UpdateDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatedevendpoint.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateDevEndpoint API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatedevendpoint.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateDevEndpoint API'
   slug: amazon-glue-x-amz-target-awsglue-updatedevendpoint-api
-- description: 'The #X Amz Target=AWSGlue.UpdateJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatejob.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatejob.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateJob API'
   slug: amazon-glue-x-amz-target-awsglue-updatejob-api
-- description: 'The #X Amz Target=AWSGlue.UpdateJobFromSourceControl API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatejobfromsourcecontrol.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateJobFromSourceControl API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatejobfromsourcecontrol.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateJobFromSourceControl API'
   slug: amazon-glue-x-amz-target-awsglue-updatejobfromsourcecontrol-api
-- description: 'The #X Amz Target=AWSGlue.UpdateMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatemltransform.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateMLTransform API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatemltransform.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateMLTransform API'
   slug: amazon-glue-x-amz-target-awsglue-updatemltransform-api
-- description: 'The #X Amz Target=AWSGlue.UpdatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatepartition.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdatePartition API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatepartition.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdatePartition API'
   slug: amazon-glue-x-amz-target-awsglue-updatepartition-api
-- description: 'The #X Amz Target=AWSGlue.UpdateRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateregistry.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateRegistry API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateregistry.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateRegistry API'
   slug: amazon-glue-x-amz-target-awsglue-updateregistry-api
-- description: 'The #X Amz Target=AWSGlue.UpdateSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateschema.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateSchema API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateschema.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateSchema API'
   slug: amazon-glue-x-amz-target-awsglue-updateschema-api
-- description: 'The #X Amz Target=AWSGlue.UpdateSourceControlFromJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatesourcecontrolfromjob.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateSourceControlFromJob API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatesourcecontrolfromjob.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateSourceControlFromJob API'
   slug: amazon-glue-x-amz-target-awsglue-updatesourcecontrolfromjob-api
-- description: 'The #X Amz Target=AWSGlue.UpdateTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatetable.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateTable API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatetable.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateTable API'
   slug: amazon-glue-x-amz-target-awsglue-updatetable-api
-- description: 'The #X Amz Target=AWSGlue.UpdateTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatetrigger.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateTrigger API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updatetrigger.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateTrigger API'
   slug: amazon-glue-x-amz-target-awsglue-updatetrigger-api
-- description: 'The #X Amz Target=AWSGlue.UpdateUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateuserdefinedfunction.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateUserDefinedFunction API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateuserdefinedfunction.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateUserDefinedFunction API'
   slug: amazon-glue-x-amz-target-awsglue-updateuserdefinedfunction-api
-- description: 'The #X Amz Target=AWSGlue.UpdateWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateworkflow.'
+- baseURL: https://glue.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSGlue.UpdateWorkflow API from Amazon Glue — 1 operation(s) for #x amz target=awsglue.updateworkflow.'
   name: 'Amazon Glue #X Amz Target=AWSGlue.UpdateWorkflow API'
   slug: amazon-glue-x-amz-target-awsglue-updateworkflow-api
 artifact_total: 2060
@@ -6331,7 +6735,7 @@ score:
       marker_coverage: 0.0
       total: 202
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/screenshots/amazon-glue-2026-06-20T171658.png
 security:

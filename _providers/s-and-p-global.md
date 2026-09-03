@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: API providing programmatic access to the S&P Global Marketplace catalog of premium fundamental and alternative datasets. Enables discovery and integration of datasets available on the marketplace plat
   name: S&P Global Marketplace Catalog API
   slug: marketplace-catalog
-- description: Token-based authentication
+- baseURL: https://api.platts.com
+  baseurl_source: declared
+  description: Token-based authentication
   name: S&P Global Authentication API
   slug: s-and-p-global-authentication-api
-- description: Entity linking and resolution operations
+- baseURL: https://api.platts.com
+  baseurl_source: declared
+  description: Entity linking and resolution operations
   name: S&P Global Entity Resolution API
   slug: s-and-p-global-entity-resolution-api
-- description: Real-time and historical commodity market prices
+- baseURL: https://api.platts.com
+  baseurl_source: declared
+  description: Real-time and historical commodity market prices
   name: S&P Global Market Data API
   slug: s-and-p-global-market-data-api
-- description: Symbol and contract reference data
+- baseURL: https://api.platts.com
+  baseurl_source: declared
+  description: Symbol and contract reference data
   name: S&P Global Reference Data API
   slug: s-and-p-global-reference-data-api
-- description: Entity search and discovery
+- baseURL: https://api.platts.com
+  baseurl_source: declared
+  description: Entity search and discovery
   name: S&P Global Search API
   slug: s-and-p-global-search-api
 artifact_total: 28
@@ -255,7 +265,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 12 acting
 api_count: 1
 apis:
-- description: Distribute mobile airtime to recipients.
+- baseURL: https://api.africastalking.com/version1
+  baseurl_source: declared
+  description: Distribute mobile airtime to recipients.
   name: Africa's Talking Airtime API
   slug: africastalking-airtime-api
-- description: Disburse mobile data bundles to recipients.
+- baseURL: https://api.africastalking.com/version1
+  baseurl_source: declared
+  description: Disburse mobile data bundles to recipients.
   name: Africa's Talking Mobile Data API
   slug: africastalking-mobile-data-api
-- description: Mobile C2B checkout, B2C, and B2B mobile money transfers.
+- baseURL: https://api.africastalking.com/version1
+  baseurl_source: declared
+  description: Mobile C2B checkout, B2C, and B2B mobile money transfers.
   name: Africa's Talking Payments API
   slug: africastalking-payments-api
-- description: Premium SMS subscriptions and checkout tokens.
+- baseURL: https://api.africastalking.com/version1
+  baseurl_source: declared
+  description: Premium SMS subscriptions and checkout tokens.
   name: Africa's Talking Premium SMS API
   slug: africastalking-premium-sms-api
-- description: Send single and bulk SMS and fetch inbox messages.
+- baseURL: https://api.africastalking.com/version1
+  baseurl_source: declared
+  description: Send single and bulk SMS and fetch inbox messages.
   name: Africa's Talking SMS API
   slug: africastalking-sms-api
-- description: Outbound calls, transfers, queue status, and media upload.
+- baseURL: https://api.africastalking.com/version1
+  baseurl_source: declared
+  description: Outbound calls, transfers, queue status, and media upload.
   name: Africa's Talking Voice API
   slug: africastalking-voice-api
 artifact_total: 20
@@ -191,7 +203,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/screenshots/africastalking-2026-06-20T165713.png
 security:

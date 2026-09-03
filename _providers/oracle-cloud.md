@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 81 operations · 42 acting · 2 human-in-the-loop
 api_count: 9
 apis:
-- description: The Alarms API from Oracle Cloud Infrastructure — 2 operation(s) for alarms.
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Alarms API from Oracle Cloud Infrastructure — 2 operation(s) for alarms.
   name: Oracle Cloud Infrastructure Alarms API
   slug: oracle-cloud-alarms-api
-- description: The Applications API from Oracle Cloud Infrastructure — 2 operation(s) for applications.
+- baseURL: https://functions.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Applications API from Oracle Cloud Infrastructure — 2 operation(s) for applications.
   name: Oracle Cloud Infrastructure Applications API
   slug: oracle-cloud-applications-api
-- description: The Autonomous Databases API from Oracle Cloud Infrastructure — 4 operation(s) for autonomous databases.
+- baseURL: https://database.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Autonomous Databases API from Oracle Cloud Infrastructure — 4 operation(s) for autonomous databases.
   name: Oracle Cloud Infrastructure Autonomous Databases API
   slug: oracle-cloud-autonomous-databases-api
-- description: The Buckets API from Oracle Cloud Infrastructure — 2 operation(s) for buckets.
+- baseURL: https://objectstorage.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Buckets API from Oracle Cloud Infrastructure — 2 operation(s) for buckets.
   name: Oracle Cloud Infrastructure Buckets API
   slug: oracle-cloud-buckets-api
-- description: The Clusters API from Oracle Cloud Infrastructure — 2 operation(s) for clusters.
+- baseURL: https://containerengine.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Clusters API from Oracle Cloud Infrastructure — 2 operation(s) for clusters.
   name: Oracle Cloud Infrastructure Clusters API
   slug: oracle-cloud-clusters-api
-- description: The Compartments API from Oracle Cloud Infrastructure — 1 operation(s) for compartments.
+- baseURL: https://identity.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Compartments API from Oracle Cloud Infrastructure — 1 operation(s) for compartments.
   name: Oracle Cloud Infrastructure Compartments API
   slug: oracle-cloud-compartments-api
-- description: The DB Systems API from Oracle Cloud Infrastructure — 2 operation(s) for db systems.
+- baseURL: https://database.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The DB Systems API from Oracle Cloud Infrastructure — 2 operation(s) for db systems.
   name: Oracle Cloud Infrastructure DB Systems API
   slug: oracle-cloud-db-systems-api
-- description: The Functions API from Oracle Cloud Infrastructure — 3 operation(s) for functions.
+- baseURL: https://functions.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Functions API from Oracle Cloud Infrastructure — 3 operation(s) for functions.
   name: Oracle Cloud Infrastructure Functions API
   slug: oracle-cloud-functions-api
-- description: The Groups API from Oracle Cloud Infrastructure — 1 operation(s) for groups.
+- baseURL: https://identity.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Groups API from Oracle Cloud Infrastructure — 1 operation(s) for groups.
   name: Oracle Cloud Infrastructure Groups API
   slug: oracle-cloud-groups-api
-- description: The Images API from Oracle Cloud Infrastructure — 2 operation(s) for images.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Images API from Oracle Cloud Infrastructure — 2 operation(s) for images.
   name: Oracle Cloud Infrastructure Images API
   slug: oracle-cloud-images-api
-- description: The Instances API from Oracle Cloud Infrastructure — 3 operation(s) for instances.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Instances API from Oracle Cloud Infrastructure — 3 operation(s) for instances.
   name: Oracle Cloud Infrastructure Instances API
   slug: oracle-cloud-instances-api
-- description: The Internet Gateways API from Oracle Cloud Infrastructure — 1 operation(s) for internet gateways.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Internet Gateways API from Oracle Cloud Infrastructure — 1 operation(s) for internet gateways.
   name: Oracle Cloud Infrastructure Internet Gateways API
   slug: oracle-cloud-internet-gateways-api
-- description: The Metrics API from Oracle Cloud Infrastructure — 2 operation(s) for metrics.
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Metrics API from Oracle Cloud Infrastructure — 2 operation(s) for metrics.
   name: Oracle Cloud Infrastructure Metrics API
   slug: oracle-cloud-metrics-api
-- description: The Namespaces API from Oracle Cloud Infrastructure — 1 operation(s) for namespaces.
+- baseURL: https://objectstorage.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Namespaces API from Oracle Cloud Infrastructure — 1 operation(s) for namespaces.
   name: Oracle Cloud Infrastructure Namespaces API
   slug: oracle-cloud-namespaces-api
-- description: The Node Pools API from Oracle Cloud Infrastructure — 2 operation(s) for node pools.
+- baseURL: https://containerengine.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Node Pools API from Oracle Cloud Infrastructure — 2 operation(s) for node pools.
   name: Oracle Cloud Infrastructure Node Pools API
   slug: oracle-cloud-node-pools-api
-- description: The Objects API from Oracle Cloud Infrastructure — 2 operation(s) for objects.
+- baseURL: https://objectstorage.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Objects API from Oracle Cloud Infrastructure — 2 operation(s) for objects.
   name: Oracle Cloud Infrastructure Objects API
   slug: oracle-cloud-objects-api
-- description: The Policies API from Oracle Cloud Infrastructure — 1 operation(s) for policies.
+- baseURL: https://identity.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Policies API from Oracle Cloud Infrastructure — 1 operation(s) for policies.
   name: Oracle Cloud Infrastructure Policies API
   slug: oracle-cloud-policies-api
-- description: The Preauthenticated Requests API from Oracle Cloud Infrastructure — 1 operation(s) for preauthenticated requests.
+- baseURL: https://objectstorage.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Preauthenticated Requests API from Oracle Cloud Infrastructure — 1 operation(s) for preauthenticated requests.
   name: Oracle Cloud Infrastructure Preauthenticated Requests API
   slug: oracle-cloud-preauthenticated-requests-api
-- description: The Route Tables API from Oracle Cloud Infrastructure — 1 operation(s) for route tables.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Route Tables API from Oracle Cloud Infrastructure — 1 operation(s) for route tables.
   name: Oracle Cloud Infrastructure Route Tables API
   slug: oracle-cloud-route-tables-api
-- description: The Security Lists API from Oracle Cloud Infrastructure — 1 operation(s) for security lists.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Security Lists API from Oracle Cloud Infrastructure — 1 operation(s) for security lists.
   name: Oracle Cloud Infrastructure Security Lists API
   slug: oracle-cloud-security-lists-api
-- description: The Shapes API from Oracle Cloud Infrastructure — 1 operation(s) for shapes.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Shapes API from Oracle Cloud Infrastructure — 1 operation(s) for shapes.
   name: Oracle Cloud Infrastructure Shapes API
   slug: oracle-cloud-shapes-api
-- description: The Subnets API from Oracle Cloud Infrastructure — 2 operation(s) for subnets.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Subnets API from Oracle Cloud Infrastructure — 2 operation(s) for subnets.
   name: Oracle Cloud Infrastructure Subnets API
   slug: oracle-cloud-subnets-api
-- description: The Users API from Oracle Cloud Infrastructure — 2 operation(s) for users.
+- baseURL: https://identity.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Users API from Oracle Cloud Infrastructure — 2 operation(s) for users.
   name: Oracle Cloud Infrastructure Users API
   slug: oracle-cloud-users-api
-- description: The VCNs API from Oracle Cloud Infrastructure — 2 operation(s) for vcns.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The VCNs API from Oracle Cloud Infrastructure — 2 operation(s) for vcns.
   name: Oracle Cloud Infrastructure VCNs API
   slug: oracle-cloud-vcns-api
-- description: The Volume Attachments API from Oracle Cloud Infrastructure — 2 operation(s) for volume attachments.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Volume Attachments API from Oracle Cloud Infrastructure — 2 operation(s) for volume attachments.
   name: Oracle Cloud Infrastructure Volume Attachments API
   slug: oracle-cloud-volume-attachments-api
 arazzos:
@@ -1976,7 +2026,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1989,7 +2039,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 69.1
+  previous_composite: 72.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2001,7 +2051,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 237 operations · 125 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Access Profiles API from Arcee AI — 3 operation(s) for access profiles.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Access Profiles API from Arcee AI — 3 operation(s) for access profiles.
   name: Arcee AI Access Profiles API
   slug: arcee-ai-access-profiles-api
-- description: The AFM API API from Arcee AI — 1 operation(s) for afm api.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The AFM API API from Arcee AI — 1 operation(s) for afm api.
   name: Arcee AI AFM API API
   slug: arcee-ai-afm-api-api
-- description: The Analytics API from Arcee AI — 29 operation(s) for analytics.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Analytics API from Arcee AI — 29 operation(s) for analytics.
   name: Arcee AI Analytics API
   slug: arcee-ai-analytics-api
-- description: The Arcee-Admin API from Arcee AI — 12 operation(s) for arcee-admin.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Arcee-Admin API from Arcee AI — 12 operation(s) for arcee-admin.
   name: Arcee AI Arcee-Admin API
   slug: arcee-ai-arcee-admin-api
-- description: The Auth API from Arcee AI — 21 operation(s) for auth.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Auth API from Arcee AI — 21 operation(s) for auth.
   name: Arcee AI Auth API
   slug: arcee-ai-auth-api
-- description: The Automated Reports API from Arcee AI — 7 operation(s) for automated reports.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Automated Reports API from Arcee AI — 7 operation(s) for automated reports.
   name: Arcee AI Automated Reports API
   slug: arcee-ai-automated-reports-api
-- description: The Billing API from Arcee AI — 4 operation(s) for billing.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Billing API from Arcee AI — 4 operation(s) for billing.
   name: Arcee AI Billing API
   slug: arcee-ai-billing-api
-- description: The Chat API from Arcee AI — 12 operation(s) for chat.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Chat API from Arcee AI — 12 operation(s) for chat.
   name: Arcee AI Chat API
   slug: arcee-ai-chat-api
-- description: The Completions API from Arcee AI — 7 operation(s) for completions.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Completions API from Arcee AI — 7 operation(s) for completions.
   name: Arcee AI Completions API
   slug: arcee-ai-completions-api
-- description: The Demo Mode API from Arcee AI — 5 operation(s) for demo mode.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Demo Mode API from Arcee AI — 5 operation(s) for demo mode.
   name: Arcee AI Demo Mode API
   slug: arcee-ai-demo-mode-api
-- description: The Dev Mode API from Arcee AI — 4 operation(s) for dev mode.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Dev Mode API from Arcee AI — 4 operation(s) for dev mode.
   name: Arcee AI Dev Mode API
   slug: arcee-ai-dev-mode-api
-- description: The Device Auth API from Arcee AI — 5 operation(s) for device auth.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Device Auth API from Arcee AI — 5 operation(s) for device auth.
   name: Arcee AI Device Auth API
   slug: arcee-ai-device-auth-api
-- description: The Feedback API from Arcee AI — 3 operation(s) for feedback.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Feedback API from Arcee AI — 3 operation(s) for feedback.
   name: Arcee AI Feedback API
   slug: arcee-ai-feedback-api
-- description: The Health API from Arcee AI — 1 operation(s) for health.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Health API from Arcee AI — 1 operation(s) for health.
   name: Arcee AI Health API
   slug: arcee-ai-health-api
-- description: The Keys API from Arcee AI — 7 operation(s) for keys.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Keys API from Arcee AI — 7 operation(s) for keys.
   name: Arcee AI Keys API
   slug: arcee-ai-keys-api
-- description: The Metrics API from Arcee AI — 1 operation(s) for metrics.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Metrics API from Arcee AI — 1 operation(s) for metrics.
   name: Arcee AI Metrics API
   slug: arcee-ai-metrics-api
-- description: The Models API from Arcee AI — 2 operation(s) for models.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Models API from Arcee AI — 2 operation(s) for models.
   name: Arcee AI Models API
   slug: arcee-ai-models-api
-- description: The Organizations API from Arcee AI — 20 operation(s) for organizations.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Organizations API from Arcee AI — 20 operation(s) for organizations.
   name: Arcee AI Organizations API
   slug: arcee-ai-organizations-api
-- description: The Partners API from Arcee AI — 2 operation(s) for partners.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Partners API from Arcee AI — 2 operation(s) for partners.
   name: Arcee AI Partners API
   slug: arcee-ai-partners-api
-- description: The RAG API from Arcee AI — 9 operation(s) for rag.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The RAG API from Arcee AI — 9 operation(s) for rag.
   name: Arcee AI RAG API
   slug: arcee-ai-rag-api
-- description: The Rate Limit Profiles API from Arcee AI — 2 operation(s) for rate limit profiles.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Rate Limit Profiles API from Arcee AI — 2 operation(s) for rate limit profiles.
   name: Arcee AI Rate Limit Profiles API
   slug: arcee-ai-rate-limit-profiles-api
-- description: The Registry API from Arcee AI — 6 operation(s) for registry.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Registry API from Arcee AI — 6 operation(s) for registry.
   name: Arcee AI Registry API
   slug: arcee-ai-registry-api
-- description: The S3 API from Arcee AI — 8 operation(s) for s3.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The S3 API from Arcee AI — 8 operation(s) for s3.
   name: Arcee AI S3 API
   slug: arcee-ai-s3-api
-- description: The Search API from Arcee AI — 1 operation(s) for search.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Search API from Arcee AI — 1 operation(s) for search.
   name: Arcee AI Search API
   slug: arcee-ai-search-api
-- description: The System Prompts API from Arcee AI — 3 operation(s) for system prompts.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The System Prompts API from Arcee AI — 3 operation(s) for system prompts.
   name: Arcee AI System Prompts API
   slug: arcee-ai-system-prompts-api
-- description: The Transaction API from Arcee AI — 6 operation(s) for transaction.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Transaction API from Arcee AI — 6 operation(s) for transaction.
   name: Arcee AI Transaction API
   slug: arcee-ai-transaction-api
-- description: The Usage API from Arcee AI — 6 operation(s) for usage.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Usage API from Arcee AI — 6 operation(s) for usage.
   name: Arcee AI Usage API
   slug: arcee-ai-usage-api
-- description: The User API from Arcee AI — 12 operation(s) for user.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The User API from Arcee AI — 12 operation(s) for user.
   name: Arcee AI User API
   slug: arcee-ai-user-api
-- description: The Webhooks API from Arcee AI — 1 operation(s) for webhooks.
+- baseURL: https://api.arcee.ai
+  baseurl_source: declared
+  description: The Webhooks API from Arcee AI — 1 operation(s) for webhooks.
   name: Arcee AI Webhooks API
   slug: arcee-ai-webhooks-api
 artifact_total: 63
@@ -358,7 +416,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/screenshots/arcee-ai-2026-07-25T201012.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: Manage campaigns and drafts
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Manage campaigns and drafts
   name: Mailjet Campaigns API
   slug: mailjet-campaigns-api
-- description: Manage contact lists and recipients
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Manage contact lists and recipients
   name: Mailjet Contact Lists API
   slug: mailjet-contact-lists-api
-- description: Manage contacts and properties
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Manage contacts and properties
   name: Mailjet Contacts API
   slug: mailjet-contacts-api
-- description: Retrieve real-time event data
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Retrieve real-time event data
   name: Mailjet Event API
   slug: mailjet-event-api
-- description: Send transactional and marketing emails
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Send transactional and marketing emails
   name: Mailjet Send API
   slug: mailjet-send-api
-- description: Manage verified sender addresses
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Manage verified sender addresses
   name: Mailjet Senders API
   slug: mailjet-senders-api
-- description: Retrieve aggregated sending statistics
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Retrieve aggregated sending statistics
   name: Mailjet Statistics API
   slug: mailjet-statistics-api
-- description: Manage reusable email templates
+- baseURL: https://api.mailjet.com/v3
+  baseurl_source: declared
+  description: Manage reusable email templates
   name: Mailjet Templates API
   slug: mailjet-templates-api
 artifact_total: 25
@@ -213,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailjet/refs/heads/main/screenshots/mailjet-2026-06-20T184859.png
 security:

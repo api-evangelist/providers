@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -47,34 +47,54 @@ apis:
 - description: Client-side JavaScript tracker that captures page views and custom events, exposes window.cos.identify() for attaching identity and properties, and matches visitor IPs to companies. Since the 2025-09-
   name: CustomerOS Website Tracker
   slug: customeros-website-tracker
-- description: Single GraphQL endpoint served by the open-source customer-os-api (Go, gqlgen) covering organizations, contacts, opportunities, contracts, invoices, interactions and timeline events. The repository mo
+- baseURL: https://api.customeros.ai/query
+  baseurl_source: declared
+  description: Single GraphQL endpoint served by the open-source customer-os-api (Go, gqlgen) covering organizations, contacts, opportunities, contracts, invoices, interactions and timeline events. The repository mo
   name: CustomerOS GraphQL API
   slug: customeros-graphql-api
-- description: The Billing API API from CustomerOS — 1 operation(s) for billing api.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Billing API API from CustomerOS — 1 operation(s) for billing api.
   name: CustomerOS Billing API
   slug: customeros-billing-api-api
-- description: The CustomerBASE API API from CustomerOS — 6 operation(s) for customerbase api.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The CustomerBASE API API from CustomerOS — 6 operation(s) for customerbase api.
   name: CustomerOS CustomerBASE API
   slug: customeros-customerbase-api-api
-- description: The Domains API from CustomerOS — 2 operation(s) for domains.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Domains API from CustomerOS — 2 operation(s) for domains.
   name: CustomerOS Domains API
   slug: customeros-domains-api
-- description: The Email Verification API from CustomerOS — 4 operation(s) for email verification.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Email Verification API from CustomerOS — 4 operation(s) for email verification.
   name: CustomerOS Email Verification API
   slug: customeros-email-verification-api
-- description: The Enrichment API API from CustomerOS — 3 operation(s) for enrichment api.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Enrichment API API from CustomerOS — 3 operation(s) for enrichment api.
   name: CustomerOS Enrichment API
   slug: customeros-enrichment-api-api
-- description: The Flows API from CustomerOS — 18 operation(s) for flows.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Flows API from CustomerOS — 18 operation(s) for flows.
   name: CustomerOS Flows API
   slug: customeros-flows-api
-- description: The IP Intelligence API from CustomerOS — 1 operation(s) for ip intelligence.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The IP Intelligence API from CustomerOS — 1 operation(s) for ip intelligence.
   name: CustomerOS IP Intelligence API
   slug: customeros-ip-intelligence-api
-- description: The Mailboxes API from CustomerOS — 1 operation(s) for mailboxes.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Mailboxes API from CustomerOS — 1 operation(s) for mailboxes.
   name: CustomerOS Mailboxes API
   slug: customeros-mailboxes-api
-- description: The Outreach API from CustomerOS — 1 operation(s) for outreach.
+- baseURL: https://api.customeros.ai
+  baseurl_source: declared
+  description: The Outreach API from CustomerOS — 1 operation(s) for outreach.
   name: CustomerOS Outreach API
   slug: customeros-outreach-api
 artifact_total: 30
@@ -345,7 +365,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/screenshots/customeros-2026-06-20T175351.png
 security:

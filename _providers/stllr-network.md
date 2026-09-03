@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 3
 common:
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 22.8
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -170,8 +170,9 @@ score:
     operational_transparency: 2.6
   previous_composite: 22.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stllr-network/refs/heads/main/screenshots/stllr-network-2026-09-02T160908.png
 security:
 - kind: domain-security
   name: Stllr Network Domain Security

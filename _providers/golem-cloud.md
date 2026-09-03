@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 33 operations · 19 acting
 api_count: 1
 apis:
-- description: Custom HTTP API definitions and deployments (Worker Gateway).
+- baseURL: https://release.api.golem.cloud
+  baseurl_source: declared
+  description: Custom HTTP API definitions and deployments (Worker Gateway).
   name: Golem ApiDefinition API
   slug: golem-cloud-apidefinition-api
-- description: WebAssembly component registry operations.
+- baseURL: https://release.api.golem.cloud
+  baseurl_source: declared
+  description: WebAssembly component registry operations.
   name: Golem Component API
   slug: golem-cloud-component-api
-- description: Plugin registration and grants.
+- baseURL: https://release.api.golem.cloud
+  baseurl_source: declared
+  description: Plugin registration and grants.
   name: Golem Plugin API
   slug: golem-cloud-plugin-api
-- description: Durable worker lifecycle and invocation operations.
+- baseURL: https://release.api.golem.cloud
+  baseurl_source: declared
+  description: Durable worker lifecycle and invocation operations.
   name: Golem Worker API
   slug: golem-cloud-worker-api
 artifact_total: 18
@@ -173,7 +181,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -183,7 +191,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -192,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golem-cloud/refs/heads/main/screenshots/golem-cloud-2026-06-20T181950.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 58 operations · 34 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: AI chat completion endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: AI chat completion endpoints
   name: GC AI Chat API
   slug: gc-ai-chat-api
-- description: File upload and management endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: File upload and management endpoints
   name: GC AI Files API
   slug: gc-ai-files-api
-- description: Folder management endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Folder management endpoints
   name: GC AI Folders API
   slug: gc-ai-folders-api
-- description: Playbook review endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Playbook review endpoints
   name: GC AI Playbooks API
   slug: gc-ai-playbooks-api
-- description: Personal and company profile endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Personal and company profile endpoints
   name: GC AI Profiles API
   slug: gc-ai-profiles-api
-- description: Project management endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Project management endpoints
   name: GC AI Projects API
   slug: gc-ai-projects-api
-- description: Skill library management endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Skill library management endpoints
   name: GC AI Skills API
   slug: gc-ai-skills-api
-- description: Usage and credit/billing reporting endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Usage and credit/billing reporting endpoints
   name: GC AI Usage API
   slug: gc-ai-usage-api
-- description: Health check and connectivity endpoints
+- baseURL: https://app.gc.ai/api/external/v1
+  baseurl_source: declared
+  description: Health check and connectivity endpoints
   name: GC AI Utility API
   slug: gc-ai-utility-api
 artifact_total: 25
@@ -283,7 +301,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:

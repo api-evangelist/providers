@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: The Tavus REST API powers personalized video generation and real-time Conversational Video Interface sessions. It exposes endpoints for replicas (Phoenix-4 video and image-to-replica), async video gen
   name: Tavus API
   slug: tavus-api
-- description: The Conversations API from Tavus — 3 operation(s) for conversations.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Conversations API from Tavus — 3 operation(s) for conversations.
   name: Tavus Conversations API
   slug: tavus-conversations-api
-- description: The Documents API from Tavus — 3 operation(s) for documents.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Documents API from Tavus — 3 operation(s) for documents.
   name: Tavus Documents API
   slug: tavus-documents-api
-- description: The Guardrails API from Tavus — 2 operation(s) for guardrails.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Guardrails API from Tavus — 2 operation(s) for guardrails.
   name: Tavus Guardrails API
   slug: tavus-guardrails-api
-- description: The Lipsync API from Tavus — 2 operation(s) for lipsync.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Lipsync API from Tavus — 2 operation(s) for lipsync.
   name: Tavus Lipsync API
   slug: tavus-lipsync-api
-- description: The Objectives API from Tavus — 2 operation(s) for objectives.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Objectives API from Tavus — 2 operation(s) for objectives.
   name: Tavus Objectives API
   slug: tavus-objectives-api
-- description: The Personas API from Tavus — 2 operation(s) for personas.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Personas API from Tavus — 2 operation(s) for personas.
   name: Tavus Personas API
   slug: tavus-personas-api
-- description: The Pronunciation Dictionaries API from Tavus — 2 operation(s) for pronunciation dictionaries.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Pronunciation Dictionaries API from Tavus — 2 operation(s) for pronunciation dictionaries.
   name: Tavus Pronunciation Dictionaries API
   slug: tavus-pronunciation-dictionaries-api
-- description: The Replacements API from Tavus — 2 operation(s) for replacements.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Replacements API from Tavus — 2 operation(s) for replacements.
   name: Tavus Replacements API
   slug: tavus-replacements-api
-- description: The Replicas API from Tavus — 3 operation(s) for replicas.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Replicas API from Tavus — 3 operation(s) for replicas.
   name: Tavus Replicas API
   slug: tavus-replicas-api
-- description: The Transcriptions API from Tavus — 2 operation(s) for transcriptions.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Transcriptions API from Tavus — 2 operation(s) for transcriptions.
   name: Tavus Transcriptions API
   slug: tavus-transcriptions-api
-- description: The Videos API from Tavus — 3 operation(s) for videos.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Videos API from Tavus — 3 operation(s) for videos.
   name: Tavus Videos API
   slug: tavus-videos-api
-- description: The Voices API from Tavus — 1 operation(s) for voices.
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Voices API from Tavus — 1 operation(s) for voices.
   name: Tavus Voices API
   slug: tavus-voices-api
 artifact_total: 34
@@ -240,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/screenshots/tavus-2026-06-20T194933.png
 security:

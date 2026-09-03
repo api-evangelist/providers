@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: TensorFlow Model Analysis (TFMA) provides tools and APIs for evaluating TensorFlow models. It enables computing metrics over large datasets using Apache Beam, slicing evaluation results across differe
   name: TensorFlow Model Analysis API
   slug: tensorflow-model-analysis-api
-- description: Model metadata and status operations
+- baseURL: http://localhost:8501
+  baseurl_source: declared
+  description: Model metadata and status operations
   name: Google TensorFlow Model Status API
   slug: google-tensorflow-model-status-api
-- description: Model inference operations
+- baseURL: http://localhost:8501
+  baseurl_source: declared
+  description: Model inference operations
   name: Google TensorFlow Prediction API
   slug: google-tensorflow-prediction-api
 artifact_total: 16
@@ -185,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tensorflow/refs/heads/main/screenshots/google-tensorflow-2026-06-20T182241.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: 'Flowable also ships a packaged REST API webapp that exposes the Process Engine services over HTTP. The REST API covers process definitions and deployments, process instances and variables, user tasks '
   name: Flowable REST API
   slug: rest-api
-- description: The CMMN API from Flowable — 4 operation(s) for cmmn.
+- baseURL: https://www.flowable.com/open-source/docs/bpmn/
+  baseurl_source: declared
+  description: The CMMN API from Flowable — 4 operation(s) for cmmn.
   name: Flowable CMMN API
   slug: flowable-api-cmmn-api
-- description: The Deployments API from Flowable — 3 operation(s) for deployments.
+- baseURL: https://www.flowable.com/open-source/docs/bpmn/
+  baseurl_source: declared
+  description: The Deployments API from Flowable — 3 operation(s) for deployments.
   name: Flowable Deployments API
   slug: flowable-api-deployments-api
-- description: The Models API from Flowable — 1 operation(s) for models.
+- baseURL: https://www.flowable.com/open-source/docs/bpmn/
+  baseurl_source: declared
+  description: The Models API from Flowable — 1 operation(s) for models.
   name: Flowable Models API
   slug: flowable-api-models-api
-- description: The ProcessDefinitions API from Flowable — 2 operation(s) for processdefinitions.
+- baseURL: https://www.flowable.com/open-source/docs/bpmn/
+  baseurl_source: declared
+  description: The ProcessDefinitions API from Flowable — 2 operation(s) for processdefinitions.
   name: Flowable ProcessDefinitions API
   slug: flowable-api-processdefinitions-api
-- description: The ProcessInstances API from Flowable — 1 operation(s) for processinstances.
+- baseURL: https://www.flowable.com/open-source/docs/bpmn/
+  baseurl_source: declared
+  description: The ProcessInstances API from Flowable — 1 operation(s) for processinstances.
   name: Flowable ProcessInstances API
   slug: flowable-api-processinstances-api
-- description: The Tasks API from Flowable — 2 operation(s) for tasks.
+- baseURL: https://www.flowable.com/open-source/docs/bpmn/
+  baseurl_source: declared
+  description: The Tasks API from Flowable — 2 operation(s) for tasks.
   name: Flowable Tasks API
   slug: flowable-api-tasks-api
 artifact_total: 21
@@ -194,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable-api/refs/heads/main/screenshots/flowable-api-2026-06-20T181328.png
 security:

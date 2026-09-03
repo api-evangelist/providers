@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 35 operations · 18 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: The Red5 Pro WebRTC SDK is a JavaScript library for integrating low-latency live streaming publish and subscribe capabilities into web applications. It supports WHIP for WebRTC publishing and WHEP for
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Red5 Pro WebRTC SDK is a JavaScript library for integrating low-latency live streaming publish and subscribe capabilities into web applications. It supports WHIP for WebRTC publishing and WHEP for
   name: Red5 Pro WebRTC SDK
   slug: webrtc-sdk
 - description: 'The Red5 Core SDK is a native client library for building real-time streaming applications on Linux, Windows, and macOS desktop platforms. It offers interfaces for server connection management, media '
@@ -57,34 +59,54 @@ apis:
 - description: The Red5 Pro Android Streaming SDK is a native Android library for integrating real-time live streaming publish and subscribe capabilities into Android applications. It supports H.264/H.265 video enco
   name: Red5 Pro Android Streaming SDK
   slug: android-sdk
-- description: Node metrics, system info, and autoscaling management
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Node metrics, system info, and autoscaling management
   name: Red5 Admin API
   slug: red5-admin-api
-- description: Restream recorded FLV or MP4 files as pseudo-live streams
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Restream recorded FLV or MP4 files as pseudo-live streams
   name: Red5 File Restreamer API
   slug: red5-file-restreamer-api
-- description: Image overlay management for mixer sessions
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Image overlay management for mixer sessions
   name: Red5 Images API
   slug: red5-images-api
-- description: Input stream management for mixer sessions
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Input stream management for mixer sessions
   name: Red5 Inputs API
   slug: red5-inputs-api
-- description: Mixer session lifecycle management
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Mixer session lifecycle management
   name: Red5 Mixers API
   slug: red5-mixers-api
-- description: Stream provisioning, authentication, and configuration
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Stream provisioning, authentication, and configuration
   name: Red5 Provision API
   slug: red5-provision-api
-- description: WHIP, WHEP, and WebSocket proxy endpoints
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: WHIP, WHEP, and WebSocket proxy endpoints
   name: Red5 Proxy API
   slug: red5-proxy-api
-- description: Configure RTMP and RTMPS push/pull restreaming
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Configure RTMP and RTMPS push/pull restreaming
   name: Red5 RTMP Restreamer API
   slug: red5-rtmp-restreamer-api
-- description: Server-level restreamer plugin configuration
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Server-level restreamer plugin configuration
   name: Red5 Servlet Configuration API
   slug: red5-servlet-configuration-api
-- description: Live stream enumeration, statistics, and control
+- baseURL: http://localhost:5080/api/v1
+  baseurl_source: declared
+  description: Live stream enumeration, statistics, and control
   name: Red5 Streams API
   slug: red5-streams-api
 artifact_total: 47
@@ -333,7 +355,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -343,7 +365,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 38.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -352,7 +374,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:

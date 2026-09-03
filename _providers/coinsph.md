@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 113 operations · 63 acting
 api_count: 11
 apis:
-- description: Account management APIs.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Account management APIs.
   name: Coins.ph Account API
   slug: coinsph-account-api
-- description: The Account Validation API from Coins.ph — 2 operation(s) for account validation.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: The Account Validation API from Coins.ph — 2 operation(s) for account validation.
   name: Coins.ph Account Validation API
   slug: coinsph-account-validation-api
-- description: Checkout creation and management
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Checkout creation and management
   name: Coins.ph Checkout API
   slug: coinsph-checkout-api
-- description: Checkout refund operations
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Checkout refund operations
   name: Coins.ph Checkout Refund API
   slug: coinsph-checkout-refund-api
-- description: Crypto deposit address
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Crypto deposit address
   name: Coins.ph Collections - Crypto API
   slug: coinsph-collections-crypto-api
-- description: QRPH code generation and management
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: QRPH code generation and management
   name: Coins.ph Collections - QRPH API
   slug: coinsph-collections-qrph-api
-- description: Convert quote and acceptance operations.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Convert quote and acceptance operations.
   name: Coins.ph Convert API
   slug: coinsph-convert-api
-- description: Cash-out and disbursement operations
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Cash-out and disbursement operations
   name: Coins.ph Disbursements API
   slug: coinsph-disbursements-api
-- description: General endpoints for connectivity, server time, system status, and user IP.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: General endpoints for connectivity, server time, system status, and user IP.
   name: Coins.ph General API
   slug: coinsph-general-api
-- description: Manage user data stream listenKeys for WebSocket connections. A listenKey is required to establish a private WebSocket connection for receiving real-time account updates (orders, balances, positions).
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Manage user data stream listenKeys for WebSocket connections. A listenKey is required to establish a private WebSocket connection for receiving real-time account updates (orders, balances, positions).
   name: Coins.ph Listens API
   slug: coinsph-listens-api
-- description: Market data APIs.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Market data APIs.
   name: Coins.ph Markets API
   slug: coinsph-markets-api
-- description: Fiat-to-crypto and crypto-to-fiat ramp operations
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Fiat-to-crypto and crypto-to-fiat ramp operations
   name: Coins.ph ON/OFF Ramp API
   slug: coinsph-on-off-ramp-api
-- description: Order history and details
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Order history and details
   name: Coins.ph Order History API
   slug: coinsph-order-history-api
-- description: Webhook callbacks sent to the merchant's configured callback URL when order status changes
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Webhook callbacks sent to the merchant's configured callback URL when order status changes
   name: Coins.ph Ramp Callback API
   slug: coinsph-ramp-callback-api
-- description: Reconciliation report
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Reconciliation report
   name: Coins.ph Reconciliation API
   slug: coinsph-reconciliation-api
-- description: Refund operations
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Refund operations
   name: Coins.ph Refund API
   slug: coinsph-refund-api
-- description: QR code scan-to-pay payment operations
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: QR code scan-to-pay payment operations
   name: Coins.ph Scan to Pay API
   slug: coinsph-scan-to-pay-api
-- description: Spot trading operations including order placement, querying, cancellation, and trade history.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Spot trading operations including order placement, querying, cancellation, and trade history.
   name: Coins.ph Spot API
   slug: coinsph-spot-api
-- description: Sub Account deposit, withdrawal, and transfer operations.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Sub Account deposit, withdrawal, and transfer operations.
   name: Coins.ph Sub Account API
   slug: coinsph-sub-account-api
-- description: Password-free (auto-debit) checkout
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Password-free (auto-debit) checkout
   name: Coins.ph Tokenized Checkout API
   slug: coinsph-tokenized-checkout-api
-- description: Convert trading operations
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Convert trading operations
   name: Coins.ph Trading - Convert API
   slug: coinsph-trading-convert-api
-- description: OTC trading for Business Account
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: OTC trading for Business Account
   name: Coins.ph Trading - OTC API
   slug: coinsph-trading-otc-api
-- description: The Transfers API from Coins.ph — 2 operation(s) for transfers.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: The Transfers API from Coins.ph — 2 operation(s) for transfers.
   name: Coins.ph Transfers API
   slug: coinsph-transfers-api
-- description: Account balance, transfers, and utility endpoints
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Account balance, transfers, and utility endpoints
   name: Coins.ph Utility API
   slug: coinsph-utility-api
-- description: Virtual account creation and management
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Virtual account creation and management
   name: Coins.ph Virtual Account API
   slug: coinsph-virtual-account-api
-- description: Convert, Deposit, Withdraw, Transfers, and Sub Account Transfer operations.
+- baseURL: https://api.pro.coins.ph
+  baseurl_source: declared
+  description: Convert, Deposit, Withdraw, Transfers, and Sub Account Transfer operations.
   name: Coins.ph Wallet API
   slug: coinsph-wallet-api
 artifact_total: 59
@@ -369,7 +421,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -379,7 +431,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,7 +449,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/screenshots/coinsph-2026-07-25T210033.png
 security:

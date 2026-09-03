@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 466 operations · 214 acting
 api_count: 10
 apis:
-- description: The Accounting API from Xero — 140 operation(s) for accounting.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Accounting API from Xero — 140 operation(s) for accounting.
   name: Xero Accounting API
   slug: xero-accounting-api
-- description: The Asset API from Xero — 4 operation(s) for asset.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Asset API from Xero — 4 operation(s) for asset.
   name: Xero Asset API
   slug: xero-asset-api
-- description: The BankFeeds API from Xero — 5 operation(s) for bankfeeds.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The BankFeeds API from Xero — 5 operation(s) for bankfeeds.
   name: Xero BankFeeds API
   slug: xero-bankfeeds-api
-- description: Operations available to regular developers
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: Operations available to regular developers
   name: Xero Files API
   slug: xero-files-api
-- description: The Finance API from Xero — 8 operation(s) for finance.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Finance API from Xero — 8 operation(s) for finance.
   name: Xero Finance API
   slug: xero-finance-api
-- description: The Identity API from Xero — 2 operation(s) for identity.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Identity API from Xero — 2 operation(s) for identity.
   name: Xero Identity API
   slug: xero-identity-api
-- description: Operations available to regular developers
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: Operations available to regular developers
   name: Xero PayrollAu API
   slug: xero-payrollau-api
-- description: The PayrollNz API from Xero — 46 operation(s) for payrollnz.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The PayrollNz API from Xero — 46 operation(s) for payrollnz.
   name: Xero PayrollNz API
   slug: xero-payrollnz-api
-- description: The PayrollUk API from Xero — 47 operation(s) for payrolluk.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The PayrollUk API from Xero — 47 operation(s) for payrolluk.
   name: Xero PayrollUk API
   slug: xero-payrolluk-api
-- description: The Project API from Xero — 7 operation(s) for project.
+- baseURL: https://api.xero.com/api.xro/2.0
+  baseurl_source: declared
+  description: The Project API from Xero — 7 operation(s) for project.
   name: Xero Project API
   slug: xero-project-api
 artifact_total: 788
@@ -2542,7 +2562,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -2552,7 +2572,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 54.8
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2567,7 +2587,7 @@ score:
     regime_id: banking_open_finance
     score: 46.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/screenshots/xero-2026-06-20T201700.png
 security:

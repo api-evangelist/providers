@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 37 operations · 30 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Reusable custom key/value fields merged into credentials.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Reusable custom key/value fields merged into credentials.
   name: Sertifier Attributes API
   slug: sertifier-attributes-api
-- description: Verify API key validity.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Verify API key validity.
   name: Sertifier Authentication API
   slug: sertifier-authentication-api
-- description: Containers that bind a Design, Detail, and Email Template and issue credentials.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Containers that bind a Design, Detail, and Email Template and issue credentials.
   name: Sertifier Campaigns API
   slug: sertifier-campaigns-api
-- description: Individual issued credentials - retrieve, update, publish, and generate PDF links.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Individual issued credentials - retrieve, update, publish, and generate PDF links.
   name: Sertifier Credentials API
   slug: sertifier-credentials-api
-- description: Visual designs applied to certificates and badges.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Visual designs applied to certificates and badges.
   name: Sertifier Designs API
   slug: sertifier-designs-api
-- description: Descriptive metadata (title, skills, criteria) printed on a credential.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Descriptive metadata (title, skills, criteria) printed on a credential.
   name: Sertifier Details API
   slug: sertifier-details-api
-- description: Templates used to deliver finished credentials to recipients.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Templates used to deliver finished credentials to recipients.
   name: Sertifier Email Templates API
   slug: sertifier-email-templates-api
-- description: Learners who receive credentials.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: Learners who receive credentials.
   name: Sertifier Recipients API
   slug: sertifier-recipients-api
-- description: MODELED - inbound/outbound event automation. Not confirmed in the public reference.
+- baseURL: https://b2b.sertifier.com
+  baseurl_source: declared
+  description: MODELED - inbound/outbound event automation. Not confirmed in the public reference.
   name: Sertifier Webhooks API
   slug: sertifier-webhooks-api
 artifact_total: 26
@@ -180,7 +198,7 @@ score:
   band: thin
   composite: 36.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -209,8 +227,9 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sertifier/refs/heads/main/screenshots/sertifier-2026-09-02T154957.png
 security:
 - kind: authentication
   name: Sertifier Authentication

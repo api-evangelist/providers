@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Specification for issuing and verifying tamper-evident clinical records - vaccination history, lab results, and insurance cards - as signed JWS payloads carried in QR codes or files. Issuers expose th
   name: SMART Health Cards Framework
   slug: smarthealthit-health-cards-framework
-- description: FHIR Bulk Data $export operations on the reference Bulk Data server.
+- baseURL: https://r4.smarthealthit.org
+  baseurl_source: declared
+  description: FHIR Bulk Data $export operations on the reference Bulk Data server.
   name: SMART Health IT Bulk Data API
   slug: smarthealthit-bulk-data-api
-- description: Observations, conditions, medications, encounters, allergies, and immunizations.
+- baseURL: https://r4.smarthealthit.org
+  baseurl_source: declared
+  description: Observations, conditions, medications, encounters, allergies, and immunizations.
   name: SMART Health IT Clinical Records API
   slug: smarthealthit-clinical-records-api
-- description: Server capability discovery.
+- baseURL: https://r4.smarthealthit.org
+  baseurl_source: declared
+  description: Server capability discovery.
   name: SMART Health IT Conformance API
   slug: smarthealthit-conformance-api
-- description: Synthetic patient demographic records.
+- baseURL: https://r4.smarthealthit.org
+  baseurl_source: declared
+  description: Synthetic patient demographic records.
   name: SMART Health IT Patients API
   slug: smarthealthit-patients-api
-- description: OAuth 2.0 authorization endpoints on the SMART App Launcher.
+- baseURL: https://r4.smarthealthit.org
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints on the SMART App Launcher.
   name: SMART Health IT SMART App Launch API
   slug: smarthealthit-smart-app-launch-api
 artifact_total: 20
@@ -159,7 +169,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -188,8 +198,9 @@ score:
     regime_id: health
     score: 22.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/screenshots/smarthealthit-2026-09-02T155918.png
 security:
 - kind: authentication
   name: Smarthealthit Authentication

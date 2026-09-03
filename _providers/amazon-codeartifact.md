@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 38 operations · 29 acting
 api_count: 1
 apis:
-- description: The Authorization Token#domain API from Amazon CodeArtifact — 1 operation(s) for authorization token#domain.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Authorization Token#domain API from Amazon CodeArtifact — 1 operation(s) for authorization token#domain.
   name: Amazon CodeArtifact Authorization Token#domain API
   slug: amazon-codeartifact-authorization-token-domain-api
-- description: The Domain API from Amazon CodeArtifact — 3 operation(s) for domain.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Domain API from Amazon CodeArtifact — 3 operation(s) for domain.
   name: Amazon CodeArtifact Domain API
   slug: amazon-codeartifact-domain-api
-- description: The Domain#domain API from Amazon CodeArtifact — 1 operation(s) for domain#domain.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Domain#domain API from Amazon CodeArtifact — 1 operation(s) for domain#domain.
   name: Amazon CodeArtifact Domain#domain API
   slug: amazon-codeartifact-domain-domain-api
-- description: The Domains API from Amazon CodeArtifact — 1 operation(s) for domains.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Domains API from Amazon CodeArtifact — 1 operation(s) for domains.
   name: Amazon CodeArtifact Domains API
   slug: amazon-codeartifact-domains-api
-- description: The Package API from Amazon CodeArtifact — 11 operation(s) for package.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Package API from Amazon CodeArtifact — 11 operation(s) for package.
   name: Amazon CodeArtifact Package API
   slug: amazon-codeartifact-package-api
-- description: The Package#domain&repository&format&package API from Amazon CodeArtifact — 1 operation(s) for package#domain&repository&format&package.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Package#domain&repository&format&package API from Amazon CodeArtifact — 1 operation(s) for package#domain&repository&format&package.
   name: Amazon CodeArtifact Package#domain&repository&format&package API
   slug: amazon-codeartifact-package-domain-repository-format-package-api
-- description: The Packages#domain&repository API from Amazon CodeArtifact — 1 operation(s) for packages#domain&repository.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Packages#domain&repository API from Amazon CodeArtifact — 1 operation(s) for packages#domain&repository.
   name: Amazon CodeArtifact Packages#domain&repository API
   slug: amazon-codeartifact-packages-domain-repository-api
-- description: The Repositories API from Amazon CodeArtifact — 1 operation(s) for repositories.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Repositories API from Amazon CodeArtifact — 1 operation(s) for repositories.
   name: Amazon CodeArtifact Repositories API
   slug: amazon-codeartifact-repositories-api
-- description: The Repository API from Amazon CodeArtifact — 4 operation(s) for repository.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Repository API from Amazon CodeArtifact — 4 operation(s) for repository.
   name: Amazon CodeArtifact Repository API
   slug: amazon-codeartifact-repository-api
-- description: The Repository#domain&repository API from Amazon CodeArtifact — 1 operation(s) for repository#domain&repository.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Repository#domain&repository API from Amazon CodeArtifact — 1 operation(s) for repository#domain&repository.
   name: Amazon CodeArtifact Repository#domain&repository API
   slug: amazon-codeartifact-repository-domain-repository-api
-- description: The Tag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for tag#resourcearn.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for tag#resourcearn.
   name: Amazon CodeArtifact Tag#resourceArn API
   slug: amazon-codeartifact-tag-resourcearn-api
-- description: The Tags#resourceArn API from Amazon CodeArtifact — 1 operation(s) for tags#resourcearn.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon CodeArtifact — 1 operation(s) for tags#resourcearn.
   name: Amazon CodeArtifact Tags#resourceArn API
   slug: amazon-codeartifact-tags-resourcearn-api
-- description: The Untag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for untag#resourcearn.
+- baseURL: https://codeartifact.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Untag#resourceArn API from Amazon CodeArtifact — 1 operation(s) for untag#resourcearn.
   name: Amazon CodeArtifact Untag#resourceArn API
   slug: amazon-codeartifact-untag-resourcearn-api
 artifact_total: 500
@@ -1675,7 +1701,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:

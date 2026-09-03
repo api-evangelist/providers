@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,106 +43,174 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The Account Access Consents API from Monument Bank — 2 operation(s) for account access consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Account Access Consents API from Monument Bank — 2 operation(s) for account access consents.
   name: Monument Bank Account Access Consents API
   slug: monument-bank-account-access-consents-api
-- description: The Accounts API from Monument Bank — 2 operation(s) for accounts.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Accounts API from Monument Bank — 2 operation(s) for accounts.
   name: Monument Bank Accounts API
   slug: monument-bank-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Monument Bank ATM API
   slug: monument-bank-atm-api
-- description: The Balances API from Monument Bank — 2 operation(s) for balances.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Balances API from Monument Bank — 2 operation(s) for balances.
   name: Monument Bank Balances API
   slug: monument-bank-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Monument Bank BCA API
   slug: monument-bank-bca-api
-- description: The Beneficiaries API from Monument Bank — 2 operation(s) for beneficiaries.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Beneficiaries API from Monument Bank — 2 operation(s) for beneficiaries.
   name: Monument Bank Beneficiaries API
   slug: monument-bank-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Monument Bank Branch API
   slug: monument-bank-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Monument Bank CCC API
   slug: monument-bank-ccc-api
-- description: The Direct Debits API from Monument Bank — 2 operation(s) for direct debits.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Direct Debits API from Monument Bank — 2 operation(s) for direct debits.
   name: Monument Bank Direct Debits API
   slug: monument-bank-direct-debits-api
-- description: The Domestic Payment Consents API from Monument Bank — 3 operation(s) for domestic payment consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Monument Bank — 3 operation(s) for domestic payment consents.
   name: Monument Bank Domestic Payment Consents API
   slug: monument-bank-domestic-payment-consents-api
-- description: The Domestic Payments API from Monument Bank — 3 operation(s) for domestic payments.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Domestic Payments API from Monument Bank — 3 operation(s) for domestic payments.
   name: Monument Bank Domestic Payments API
   slug: monument-bank-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Monument Bank — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Monument Bank — 2 operation(s) for domestic scheduled payment consents.
   name: Monument Bank Domestic Scheduled Payment Consents API
   slug: monument-bank-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Monument Bank — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Monument Bank — 3 operation(s) for domestic scheduled payments.
   name: Monument Bank Domestic Scheduled Payments API
   slug: monument-bank-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Monument Bank — 2 operation(s) for domestic standing order consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Monument Bank — 2 operation(s) for domestic standing order consents.
   name: Monument Bank Domestic Standing Order Consents API
   slug: monument-bank-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Monument Bank — 3 operation(s) for domestic standing orders.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Monument Bank — 3 operation(s) for domestic standing orders.
   name: Monument Bank Domestic Standing Orders API
   slug: monument-bank-domestic-standing-orders-api
-- description: The File Payment Consents API from Monument Bank — 3 operation(s) for file payment consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The File Payment Consents API from Monument Bank — 3 operation(s) for file payment consents.
   name: Monument Bank File Payment Consents API
   slug: monument-bank-file-payment-consents-api
-- description: The File Payments API from Monument Bank — 4 operation(s) for file payments.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The File Payments API from Monument Bank — 4 operation(s) for file payments.
   name: Monument Bank File Payments API
   slug: monument-bank-file-payments-api
-- description: The Funds Confirmation Consents API from Monument Bank — 2 operation(s) for funds confirmation consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Monument Bank — 2 operation(s) for funds confirmation consents.
   name: Monument Bank Funds Confirmation Consents API
   slug: monument-bank-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Monument Bank — 1 operation(s) for funds confirmations.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Funds Confirmations API from Monument Bank — 1 operation(s) for funds confirmations.
   name: Monument Bank Funds Confirmations API
   slug: monument-bank-funds-confirmations-api
-- description: The International Payment Consents API from Monument Bank — 3 operation(s) for international payment consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The International Payment Consents API from Monument Bank — 3 operation(s) for international payment consents.
   name: Monument Bank International Payment Consents API
   slug: monument-bank-international-payment-consents-api
-- description: The International Payments API from Monument Bank — 3 operation(s) for international payments.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The International Payments API from Monument Bank — 3 operation(s) for international payments.
   name: Monument Bank International Payments API
   slug: monument-bank-international-payments-api
-- description: The International Scheduled Payments API from Monument Bank — 3 operation(s) for international scheduled payments.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Monument Bank — 3 operation(s) for international scheduled payments.
   name: Monument Bank International Scheduled Payments API
   slug: monument-bank-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Monument Bank — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Monument Bank — 3 operation(s) for international scheduled payments consents.
   name: Monument Bank International Scheduled Payments Consents API
   slug: monument-bank-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Monument Bank — 3 operation(s) for international standing orders.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The International Standing Orders API from Monument Bank — 3 operation(s) for international standing orders.
   name: Monument Bank International Standing Orders API
   slug: monument-bank-international-standing-orders-api
-- description: The International Standing Orders Consents API from Monument Bank — 2 operation(s) for international standing orders consents.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Monument Bank — 2 operation(s) for international standing orders consents.
   name: Monument Bank International Standing Orders Consents API
   slug: monument-bank-international-standing-orders-consents-api
-- description: The Offers API from Monument Bank — 2 operation(s) for offers.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Offers API from Monument Bank — 2 operation(s) for offers.
   name: Monument Bank Offers API
   slug: monument-bank-offers-api
-- description: The Parties API from Monument Bank — 3 operation(s) for parties.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Parties API from Monument Bank — 3 operation(s) for parties.
   name: Monument Bank Parties API
   slug: monument-bank-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Monument Bank PCA API
   slug: monument-bank-pca-api
-- description: The Products API from Monument Bank — 2 operation(s) for products.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Products API from Monument Bank — 2 operation(s) for products.
   name: Monument Bank Products API
   slug: monument-bank-products-api
-- description: The Scheduled Payments API from Monument Bank — 2 operation(s) for scheduled payments.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Scheduled Payments API from Monument Bank — 2 operation(s) for scheduled payments.
   name: Monument Bank Scheduled Payments API
   slug: monument-bank-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Monument Bank SME API
   slug: monument-bank-sme-api
-- description: The Standing Orders API from Monument Bank — 2 operation(s) for standing orders.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Standing Orders API from Monument Bank — 2 operation(s) for standing orders.
   name: Monument Bank Standing Orders API
   slug: monument-bank-standing-orders-api
-- description: The Statements API from Monument Bank — 5 operation(s) for statements.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Statements API from Monument Bank — 5 operation(s) for statements.
   name: Monument Bank Statements API
   slug: monument-bank-statements-api
-- description: The Transactions API from Monument Bank — 2 operation(s) for transactions.
+- baseURL: https://api.monument.co/open-data/v2.3
+  baseurl_source: declared
+  description: The Transactions API from Monument Bank — 2 operation(s) for transactions.
   name: Monument Bank Transactions API
   slug: monument-bank-transactions-api
 artifact_total: 39
@@ -296,7 +364,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
 security:

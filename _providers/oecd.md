@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: The OECD provides programmatic access to OECD data through an application programming interface (API) based on the SDMX standard. These APIs are free of charge and are offered subject to your acceptan
   name: OECD Data API
   slug: oecd
-- description: The Data API from OECD — 2 operation(s) for data.
+- baseURL: https://sdmx.oecd.org/public/rest
+  baseurl_source: declared
+  description: The Data API from OECD — 2 operation(s) for data.
   name: OECD Data API
   slug: oecd-data-api
-- description: The Structure API from OECD — 4 operation(s) for structure.
+- baseURL: https://sdmx.oecd.org/public/rest
+  baseurl_source: declared
+  description: The Structure API from OECD — 4 operation(s) for structure.
   name: OECD Structure API
   slug: oecd-structure-api
 artifact_total: 12
@@ -140,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oecd/refs/heads/main/screenshots/oecd-2026-08-07T190012.png
 security:

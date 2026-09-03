@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Apis API from Resend — 2 operation(s) for apis.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Apis API from Resend — 2 operation(s) for apis.
   name: Resend Apis API
   slug: resend-apis-api
-- description: The Audience API from Resend — 3 operation(s) for audience.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Audience API from Resend — 3 operation(s) for audience.
   name: Resend Audience API
   slug: resend-audience-api
-- description: Create and manage Audiences through the Resend API.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: Create and manage Audiences through the Resend API.
   name: Resend Audiences API
   slug: resend-audiences-api
-- description: The Batch API from Resend — 1 operation(s) for batch.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Batch API from Resend — 1 operation(s) for batch.
   name: Resend Batch API
   slug: resend-batch-api
-- description: The Broadcasts API from Resend — 2 operation(s) for broadcasts.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Broadcasts API from Resend — 2 operation(s) for broadcasts.
   name: Resend Broadcasts API
   slug: resend-broadcasts-api
-- description: The Cancel API from Resend — 1 operation(s) for cancel.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Cancel API from Resend — 1 operation(s) for cancel.
   name: Resend Cancel API
   slug: resend-cancel-api
-- description: Create and manage Contacts through the Resend API.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: Create and manage Contacts through the Resend API.
   name: Resend Contacts API
   slug: resend-contacts-api
-- description: Create and manage domains through the Resend API.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: Create and manage domains through the Resend API.
   name: Resend Domains API
   slug: resend-domains-api
-- description: The Email API from Resend — 3 operation(s) for email.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Email API from Resend — 3 operation(s) for email.
   name: Resend Email API
   slug: resend-email-api
-- description: Start sending emails through the Resend API.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: Start sending emails through the Resend API.
   name: Resend Emails API
   slug: resend-emails-api
-- description: The Keys API from Resend — 2 operation(s) for keys.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Keys API from Resend — 2 operation(s) for keys.
   name: Resend Keys API
   slug: resend-keys-api
-- description: The Send API from Resend — 1 operation(s) for send.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Send API from Resend — 1 operation(s) for send.
   name: Resend Send API
   slug: resend-send-api
-- description: The Verify API from Resend — 1 operation(s) for verify.
+- baseURL: https://api.resend.com
+  baseurl_source: declared
+  description: The Verify API from Resend — 1 operation(s) for verify.
   name: Resend Verify API
   slug: resend-verify-api
 artifact_total: 64
@@ -377,7 +403,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -387,7 +413,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     contracts:
       callable: 100.0
@@ -395,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/screenshots/resend-2026-08-17T125201.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Enumerated lookup values per originating MLS.
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: Enumerated lookup values per originating MLS.
   name: mlsgrid Lookup API
   slug: mlsgrid-lookup-api
-- description: Listing media (photos, virtual tours) expanded from Property.
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: Listing media (photos, virtual tours) expanded from Property.
   name: mlsgrid Media API
   slug: mlsgrid-media-api
-- description: Real estate agents (RESO Data Dictionary Member resource).
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: Real estate agents (RESO Data Dictionary Member resource).
   name: mlsgrid Member API
   slug: mlsgrid-member-api
-- description: OData service and EDMX metadata.
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: OData service and EDMX metadata.
   name: mlsgrid Metadata API
   slug: mlsgrid-metadata-api
-- description: Brokerage offices (RESO Data Dictionary Office resource).
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: Brokerage offices (RESO Data Dictionary Office resource).
   name: mlsgrid Office API
   slug: mlsgrid-office-api
-- description: Open house events (RESO Data Dictionary OpenHouse resource).
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: Open house events (RESO Data Dictionary OpenHouse resource).
   name: mlsgrid OpenHouse API
   slug: mlsgrid-openhouse-api
-- description: Property listings (RESO Data Dictionary Property resource).
+- baseURL: https://api.mlsgrid.com/v2/
+  baseurl_source: declared
+  description: Property listings (RESO Data Dictionary Property resource).
   name: mlsgrid Property API
   slug: mlsgrid-property-api
 artifact_total: 43
@@ -220,16 +234,16 @@ jsonld:
   slug: mlsgrid-context
 layout: provider
 modified: '2026-05-25'
-name: mlsgrid
+name: Mlsgrid
 nav: Providers
 network: true
-overview: 'mlsgrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, Media API, Member API, and 4 more.
+overview: 'Mlsgrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, Media API, Member API, and 4 more.
 
 
-  The mlsgrid catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Mlsgrid catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  mlsgrid''s developer surface includes authentication, developer portal, documentation, support, and 17 more developer resources.'
+  Mlsgrid''s developer surface includes authentication, developer portal, documentation, support, and 17 more developer resources.'
 plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
@@ -242,7 +256,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: mlsgrid API Rules
+  name: Mlsgrid API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -253,7 +267,7 @@ rules:
 - effective_rule_count: 46
   extends:
   - spectral:oas
-  name: mlsgrid API Rules
+  name: Mlsgrid API Rules
   rule_count: 5
   severity_counts:
     error: 2
@@ -289,10 +303,10 @@ score:
       total: 7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/screenshots/mlsgrid-2026-06-20T185627.png
 security:

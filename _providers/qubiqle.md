@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 53 operations · 27 acting
 api_count: 1
 apis:
-- description: The accounts API from Qubiqle — 3 operation(s) for accounts.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The accounts API from Qubiqle — 3 operation(s) for accounts.
   name: Qubiqle accounts API
   slug: qubiqle-accounts-api
-- description: The batch API from Qubiqle — 3 operation(s) for batch.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The batch API from Qubiqle — 3 operation(s) for batch.
   name: Qubiqle batch API
   slug: qubiqle-batch-api
-- description: The catalog API from Qubiqle — 12 operation(s) for catalog.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The catalog API from Qubiqle — 12 operation(s) for catalog.
   name: Qubiqle catalog API
   slug: qubiqle-catalog-api
-- description: The dimensions API from Qubiqle — 3 operation(s) for dimensions.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The dimensions API from Qubiqle — 3 operation(s) for dimensions.
   name: Qubiqle dimensions API
   slug: qubiqle-dimensions-api
-- description: The invoices API from Qubiqle — 11 operation(s) for invoices.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The invoices API from Qubiqle — 11 operation(s) for invoices.
   name: Qubiqle invoices API
   slug: qubiqle-invoices-api
-- description: The oauth API from Qubiqle — 1 operation(s) for oauth.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The oauth API from Qubiqle — 1 operation(s) for oauth.
   name: Qubiqle oauth API
   slug: qubiqle-oauth-api
-- description: The purchaseOrders API from Qubiqle — 3 operation(s) for purchaseorders.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The purchaseOrders API from Qubiqle — 3 operation(s) for purchaseorders.
   name: Qubiqle purchaseOrders API
   slug: qubiqle-purchaseorders-api
-- description: The receipts API from Qubiqle — 3 operation(s) for receipts.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The receipts API from Qubiqle — 3 operation(s) for receipts.
   name: Qubiqle receipts API
   slug: qubiqle-receipts-api
-- description: The vendors API from Qubiqle — 3 operation(s) for vendors.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The vendors API from Qubiqle — 3 operation(s) for vendors.
   name: Qubiqle vendors API
   slug: qubiqle-vendors-api
 arazzos:
@@ -300,7 +318,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubiqle/refs/heads/main/screenshots/qubiqle-2026-08-17T081428.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: Create and configure card products (createCardProduct) for debit, credit, prepaid, fleet, and charge programs, then issue virtual, physical, and tokenized digital payment cards (issuePaymentCardForApp
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Create and configure card products (createCardProduct) for debit, credit, prepaid, fleet, and charge programs, then issue virtual, physical, and tokenized digital payment cards (issuePaymentCardForApp
   name: Highnote Issuing API
   slug: highnote-issuing-api
-- description: Onboard US person and US business account holders (createUSPersonAccountHolder, createUSBusinessAccountHolder), manage authorized users, submit and accept card product applications (createAccountHolde
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Onboard US person and US business account holders (createUSPersonAccountHolder, createUSBusinessAccountHolder), manage authorized users, submit and accept card product applications (createAccountHolde
   name: Highnote Account Holders & Onboarding API
   slug: highnote-account-holders-api
-- description: Accept and process payments as a merchant acquirer through the single GraphQL endpoint. Authorize, capture, charge, and cancel payment transactions (authorizePaymentCard, capturePaymentTransaction, ch
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Accept and process payments as a merchant acquirer through the single GraphQL endpoint. Authorize, capture, charge, and cancel payment transactions (authorizePaymentCard, capturePaymentTransaction, ch
   name: Highnote Acquiring API
   slug: highnote-acquiring-api
-- description: Move funds across multiple payment rails from a single API surface (initiateTransferBetweenFinancialAccounts, initiateAchTransfer, initiateUnifiedFundsTransfer). Supports standard and same-day ACH, do
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Move funds across multiple payment rails from a single API surface (initiateTransferBetweenFinancialAccounts, initiateAchTransfer, initiateUnifiedFundsTransfer). Supports standard and same-day ACH, do
   name: Highnote Money Movement API
   slug: highnote-money-movement-api
-- description: Query and manage the full payment transaction lifecycle (paymentTransactions, transactionBatches) with HQL search and Relay cursor pagination, read pending, cleared, and settled states against the rea
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Query and manage the full payment transaction lifecycle (paymentTransactions, transactionBatches) with HQL search and Relay cursor pagination, read pending, cleared, and settled states against the rea
   name: Highnote Transactions & Disputes API
   slug: highnote-transactions-api
-- description: Attach spend rules and velocity rules to card products and financial accounts to govern where, when, and how much can be spent, and register a collaborative-authorization endpoint (addCollaborativeAut
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Attach spend rules and velocity rules to card products and financial accounts to govern where, when, and how much can be spent, and register a collaborative-authorization endpoint (addCollaborativeAut
   name: Highnote Spend Controls & Collaborative Authorization API
   slug: highnote-spend-controls-api
-- description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
+- baseURL: https://api.us.highnote.com/graphql
+  baseurl_source: declared
+  description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
   name: Highnote Webhooks & Event Notifications API
   slug: highnote-webhooks-api
 artifact_total: 20
@@ -309,7 +323,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -319,7 +333,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 73.4
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -337,7 +351,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: 'Signed webhook payloads deliver real-time platform events without polling, covering charge transactions, OCPP messages, sites, teams, wallet transactions, and more. Webhook subscription configuration '
   name: Monta Webhooks
   slug: webhooks
-- description: The Authentication API from Monta — 3 operation(s) for authentication.
+- baseURL: https://public-api.monta.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Monta — 3 operation(s) for authentication.
   name: Monta Authentication API
   slug: monta-authentication-api
-- description: The Charge Points API from Monta — 5 operation(s) for charge points.
+- baseURL: https://public-api.monta.com/api/v1
+  baseurl_source: declared
+  description: The Charge Points API from Monta — 5 operation(s) for charge points.
   name: Monta Charge Points API
   slug: monta-charge-points-api
-- description: The Charges API from Monta — 4 operation(s) for charges.
+- baseURL: https://public-api.monta.com/api/v1
+  baseurl_source: declared
+  description: The Charges API from Monta — 4 operation(s) for charges.
   name: Monta Charges API
   slug: monta-charges-api
-- description: The Utilities API from Monta — 1 operation(s) for utilities.
+- baseURL: https://public-api.monta.com/api/v1
+  baseurl_source: declared
+  description: The Utilities API from Monta — 1 operation(s) for utilities.
   name: Monta Utilities API
   slug: monta-utilities-api
-- description: The Wallet Transactions API from Monta — 3 operation(s) for wallet transactions.
+- baseURL: https://public-api.monta.com/api/v1
+  baseurl_source: declared
+  description: The Wallet Transactions API from Monta — 3 operation(s) for wallet transactions.
   name: Monta Wallet Transactions API
   slug: monta-wallet-transactions-api
 artifact_total: 19
@@ -188,7 +198,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/screenshots/monta-2026-08-07T184221.png
 security:

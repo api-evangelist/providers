@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 126 operations · 73 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage cloud accounts across AWS, Azure, GCP, and OCI
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage cloud accounts across AWS, Azure, GCP, and OCI
   name: Kion Accounts API
   slug: kion-accounts-api
-- description: Manage Kion application configuration settings
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage Kion application configuration settings
   name: Kion App Configuration API
   slug: kion-app-configuration-api
-- description: Manage Azure ARM templates
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage Azure ARM templates
   name: Kion Azure ARM Templates API
   slug: kion-azure-arm-templates-api
-- description: Manage Azure policies
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage Azure policies
   name: Kion Azure Policies API
   slug: kion-azure-policies-api
-- description: Manage Azure roles
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage Azure roles
   name: Kion Azure Roles API
   slug: kion-azure-roles-api
-- description: Manage cloud access roles for OU and project level access
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage cloud access roles for OU and project level access
   name: Kion Cloud Access Roles API
   slug: kion-cloud-access-roles-api
-- description: Manage cloud rules that enforce policies on cloud accounts
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage cloud rules that enforce policies on cloud accounts
   name: Kion Cloud Rules API
   slug: kion-cloud-rules-api
-- description: Manage AWS CloudFormation templates
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage AWS CloudFormation templates
   name: Kion CloudFormation Templates API
   slug: kion-cloudformation-templates-api
-- description: Manage compliance checks for auditing cloud resources
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage compliance checks for auditing cloud resources
   name: Kion Compliance Checks API
   slug: kion-compliance-checks-api
-- description: Manage compliance standards grouping multiple compliance checks
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage compliance standards grouping multiple compliance checks
   name: Kion Compliance Standards API
   slug: kion-compliance-standards-api
-- description: Manage custom variables and overrides
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage custom variables and overrides
   name: Kion Custom Variables API
   slug: kion-custom-variables-api
-- description: Manage project enforcements
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage project enforcements
   name: Kion Enforcements API
   slug: kion-enforcements-api
-- description: Manage funding sources for tracking and allocating cloud spend
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage funding sources for tracking and allocating cloud spend
   name: Kion Funding Sources API
   slug: kion-funding-sources-api
-- description: Manage GCP IAM roles
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage GCP IAM roles
   name: Kion GCP IAM Roles API
   slug: kion-gcp-iam-roles-api
-- description: Manage AWS IAM policies
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage AWS IAM policies
   name: Kion IAM Policies API
   slug: kion-iam-policies-api
-- description: Manage identity management systems (IDMS)
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage identity management systems (IDMS)
   name: Kion Identity Management API
   slug: kion-identity-management-api
-- description: Manage labels for organizing and categorizing resources
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage labels for organizing and categorizing resources
   name: Kion Labels API
   slug: kion-labels-api
-- description: Manage organizational units (OUs) for hierarchical organization
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage organizational units (OUs) for hierarchical organization
   name: Kion Organizational Units API
   slug: kion-organizational-units-api
-- description: Manage permission mappings at global, OU, project, and funding source levels
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage permission mappings at global, OU, project, and funding source levels
   name: Kion Permission Mappings API
   slug: kion-permission-mappings-api
-- description: Manage projects which are the organizational unit for attaching cloud accounts
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage projects which are the organizational unit for attaching cloud accounts
   name: Kion Projects API
   slug: kion-projects-api
-- description: Manage SAML group associations for SSO integration
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage SAML group associations for SSO integration
   name: Kion SAML Group Associations API
   slug: kion-saml-group-associations-api
-- description: Manage AWS service control policies
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage AWS service control policies
   name: Kion Service Control Policies API
   slug: kion-service-control-policies-api
-- description: Manage user groups for role-based access control
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage user groups for role-based access control
   name: Kion User Groups API
   slug: kion-user-groups-api
-- description: Manage users within the Kion platform
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage users within the Kion platform
   name: Kion Users API
   slug: kion-users-api
-- description: Manage webhooks for event notifications
+- baseURL: https://{kion-instance}/api/v3
+  baseurl_source: declared
+  description: Manage webhooks for event notifications
   name: Kion Webhooks API
   slug: kion-webhooks-api
 artifact_total: 77
@@ -360,7 +410,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -370,7 +420,7 @@ score:
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 38.5
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -379,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:

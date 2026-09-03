@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: The Embeddings API generates high-quality text embeddings for semantic search and retrieval, offering both standard embeddings for independent texts and contextualized embeddings for document chunks t
   name: Perplexity Embeddings API
   slug: embeddings-api
-- description: The Agent API from Perplexity — 1 operation(s) for agent.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Agent API from Perplexity — 1 operation(s) for agent.
   name: Perplexity Agent API
   slug: perplexity-agent-api
-- description: The Async API from Perplexity — 2 operation(s) for async.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Async API from Perplexity — 2 operation(s) for async.
   name: Perplexity Async API
   slug: perplexity-async-api
-- description: The Contextualizedembeddings API from Perplexity — 1 operation(s) for contextualizedembeddings.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Contextualizedembeddings API from Perplexity — 1 operation(s) for contextualizedembeddings.
   name: Perplexity Contextualizedembeddings API
   slug: perplexity-contextualizedembeddings-api
-- description: The Embeddings API from Perplexity — 1 operation(s) for embeddings.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Embeddings API from Perplexity — 1 operation(s) for embeddings.
   name: Perplexity Embeddings API
   slug: perplexity-embeddings-api
-- description: The Models API from Perplexity — 1 operation(s) for models.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Models API from Perplexity — 1 operation(s) for models.
   name: Perplexity Models API
   slug: perplexity-models-api
-- description: The Search API from Perplexity — 1 operation(s) for search.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Search API from Perplexity — 1 operation(s) for search.
   name: Perplexity Search API
   slug: perplexity-search-api
-- description: The Sonar API from Perplexity — 1 operation(s) for sonar.
+- baseURL: https://api.perplexity.ai
+  baseurl_source: declared
+  description: The Sonar API from Perplexity — 1 operation(s) for sonar.
   name: Perplexity Sonar API
   slug: perplexity-sonar-api
 artifact_total: 166
@@ -738,7 +752,7 @@ score:
     catalog_gap: 79.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -748,7 +762,7 @@ score:
     discoverability: 48.1
     governance: 13.6
     operational_transparency: 50.0
-  previous_composite: 55.7
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -758,10 +772,10 @@ score:
       total: 7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/screenshots/perplexity-2026-06-20T191624.png
 security:

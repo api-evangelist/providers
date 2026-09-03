@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -58,28 +58,44 @@ apis:
 - description: Access data from the NHS Waiting List Minimum Data Set (WLMDS), the national electronic database of NHS patient waiting list records. Supports performance monitoring and patient pathway management for
   name: Elective Waiting List API
   slug: elective-waiting-list-api
-- description: The CodeSystem API from NHS API — 2 operation(s) for codesystem.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The CodeSystem API from NHS API — 2 operation(s) for codesystem.
   name: NHS API CodeSystem API
   slug: nhs-api-codesystem-api
-- description: The List{id} API from NHS API — 1 operation(s) for list{id}.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The List{id} API from NHS API — 1 operation(s) for list{id}.
   name: NHS API List{id} API
   slug: nhs-api-list-id-api
-- description: The Metadata API from NHS API — 1 operation(s) for metadata.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Metadata API from NHS API — 1 operation(s) for metadata.
   name: NHS API Metadata API
   slug: nhs-api-metadata-api
-- description: The Organization API from NHS API — 2 operation(s) for organization.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Organization API from NHS API — 2 operation(s) for organization.
   name: NHS API Organization API
   slug: nhs-api-organization-api
-- description: The OrganizationAffiliation API from NHS API — 2 operation(s) for organizationaffiliation.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The OrganizationAffiliation API from NHS API — 2 operation(s) for organizationaffiliation.
   name: NHS API OrganizationAffiliation API
   slug: nhs-api-organizationaffiliation-api
-- description: The R4 API from NHS API — 6 operation(s) for r4.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The R4 API from NHS API — 6 operation(s) for r4.
   name: NHS API R4 API
   slug: nhs-api-r4-api
-- description: The STU3 API from NHS API — 32 operation(s) for stu3.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The STU3 API from NHS API — 32 operation(s) for stu3.
   name: NHS API STU3 API
   slug: nhs-api-stu3-api
-- description: The ValueSet API from NHS API — 2 operation(s) for valueset.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The ValueSet API from NHS API — 2 operation(s) for valueset.
   name: NHS API ValueSet API
   slug: nhs-api-valueset-api
 artifact_total: 33
@@ -270,7 +286,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/screenshots/nhs-api-2026-08-07T185236.png
 security:

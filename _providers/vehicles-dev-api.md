@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,25 +36,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Control API from Vehicles.dev — 23 operation(s) for control.
+- baseURL: https://api.vehicles.dev
+  baseurl_source: declared
+  description: The Control API from Vehicles.dev — 23 operation(s) for control.
   name: Vehicles.dev Control API
   slug: vehicles-dev-api-control-api
-- description: The Employment API from Vehicles.dev — 2 operation(s) for employment.
+- baseURL: https://api.vehicles.dev
+  baseurl_source: declared
+  description: The Employment API from Vehicles.dev — 2 operation(s) for employment.
   name: Vehicles.dev Employment API
   slug: vehicles-dev-api-employment-api
-- description: The operations API from Vehicles.dev — 3 operation(s) for operations.
+- baseURL: https://api.vehicles.dev
+  baseurl_source: declared
+  description: The operations API from Vehicles.dev — 3 operation(s) for operations.
   name: Vehicles.dev Operations API
   slug: vehicles-dev-api-operations-api
-- description: The Operator API from Vehicles.dev — 11 operation(s) for operator.
+- baseURL: https://api.vehicles.dev
+  baseurl_source: declared
+  description: The Operator API from Vehicles.dev — 11 operation(s) for operator.
   name: Vehicles.dev Operator API
   slug: vehicles-dev-api-operator-api
-- description: The Vehicles API from Vehicles.dev — 14 operation(s) for vehicles.
+- baseURL: https://api.vehicles.dev
+  baseurl_source: declared
+  description: The Vehicles API from Vehicles.dev — 14 operation(s) for vehicles.
   name: Vehicles.dev Vehicles API
   slug: vehicles-dev-api-vehicles-api
-- description: The Webhooks API from Vehicles.dev — 1 operation(s) for webhooks.
+- baseURL: https://api.vehicles.dev
+  baseurl_source: declared
+  description: The Webhooks API from Vehicles.dev — 1 operation(s) for webhooks.
   name: Vehicles.dev Webhooks API
   slug: vehicles-dev-api-webhooks-api
 artifact_total: 11
@@ -219,7 +244,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/screenshots/vehicles-dev-api-2026-08-17T082722.png
 security:

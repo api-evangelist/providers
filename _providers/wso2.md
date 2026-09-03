@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -44,274 +44,454 @@ agentic_access:
   summary_line: 274 operations · 124 acting · 6 human-in-the-loop
 api_count: 7
 apis:
-- description: The Advanced Policy (Collection) API from WSO2 — 1 operation(s) for advanced policy (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Advanced Policy (Collection) API from WSO2 — 1 operation(s) for advanced policy (collection).
   name: WSO2 Advanced Policy (Collection) API
   slug: wso2-advanced-policy-collection-api
-- description: The Advanced Policy (Individual) API from WSO2 — 1 operation(s) for advanced policy (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Advanced Policy (Individual) API from WSO2 — 1 operation(s) for advanced policy (individual).
   name: WSO2 Advanced Policy (Individual) API
   slug: wso2-advanced-policy-individual-api
-- description: The AIServiceProvider API from WSO2 — 1 operation(s) for aiserviceprovider.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The AIServiceProvider API from WSO2 — 1 operation(s) for aiserviceprovider.
   name: WSO2 AIServiceProvider API
   slug: wso2-aiserviceprovider-api
-- description: The AIServiceProviders API from WSO2 — 1 operation(s) for aiserviceproviders.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The AIServiceProviders API from WSO2 — 1 operation(s) for aiserviceproviders.
   name: WSO2 AIServiceProviders API
   slug: wso2-aiserviceproviders-api
-- description: The Alert Subscriptions API from WSO2 — 1 operation(s) for alert subscriptions.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Alert Subscriptions API from WSO2 — 1 operation(s) for alert subscriptions.
   name: WSO2 Alert Subscriptions API
   slug: wso2-alert-subscriptions-api
-- description: The Alerts API from WSO2 — 1 operation(s) for alerts.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Alerts API from WSO2 — 1 operation(s) for alerts.
   name: WSO2 Alerts API
   slug: wso2-alerts-api
-- description: The Api Artifact API from WSO2 — 1 operation(s) for api artifact.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Api Artifact API from WSO2 — 1 operation(s) for api artifact.
   name: WSO2 Api Artifact API
   slug: wso2-api-artifact-api
-- description: The API Categories API from WSO2 — 1 operation(s) for api categories.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Categories API from WSO2 — 1 operation(s) for api categories.
   name: WSO2 API Categories API
   slug: wso2-api-categories-api
-- description: The API Category (Collection) API from WSO2 — 1 operation(s) for api category (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Category (Collection) API from WSO2 — 1 operation(s) for api category (collection).
   name: WSO2 API Category (Collection) API
   slug: wso2-api-category-collection-api
-- description: The API Category (Individual) API from WSO2 — 2 operation(s) for api category (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Category (Individual) API from WSO2 — 2 operation(s) for api category (individual).
   name: WSO2 API Category (Individual) API
   slug: wso2-api-category-individual-api
-- description: The API Chat API from WSO2 — 1 operation(s) for api chat.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Chat API from WSO2 — 1 operation(s) for api chat.
   name: WSO2 API Chat API
   slug: wso2-api-chat-api
-- description: The API Documents API from WSO2 — 3 operation(s) for api documents.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Documents API from WSO2 — 3 operation(s) for api documents.
   name: WSO2 API Documents API
   slug: wso2-api-documents-api
-- description: The API Monetization API from WSO2 — 1 operation(s) for api monetization.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Monetization API from WSO2 — 1 operation(s) for api monetization.
   name: WSO2 API Monetization API
   slug: wso2-api-monetization-api
-- description: The Api Provider Change API from WSO2 — 1 operation(s) for api provider change.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Api Provider Change API from WSO2 — 1 operation(s) for api provider change.
   name: WSO2 Api Provider Change API
   slug: wso2-api-provider-change-api
-- description: The APIKeys API from WSO2 — 16 operation(s) for apikeys.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The APIKeys API from WSO2 — 16 operation(s) for apikeys.
   name: WSO2 APIKeys API
   slug: wso2-apikeys-api
-- description: The APIs API from WSO2 — 9 operation(s) for apis.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The APIs API from WSO2 — 9 operation(s) for apis.
   name: WSO2 APIs API
   slug: wso2-apis-api
-- description: The Application API from WSO2 — 2 operation(s) for application.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application API from WSO2 — 2 operation(s) for application.
   name: WSO2 Application API
   slug: wso2-application-api
-- description: The Application (Collection) API from WSO2 — 1 operation(s) for application (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application (Collection) API from WSO2 — 1 operation(s) for application (collection).
   name: WSO2 Application (Collection) API
   slug: wso2-application-collection-api
-- description: The Application Keys API from WSO2 — 10 operation(s) for application keys.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application Keys API from WSO2 — 10 operation(s) for application keys.
   name: WSO2 Application Keys API
   slug: wso2-application-keys-api
-- description: The Application Policy (Collection) API from WSO2 — 1 operation(s) for application policy (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application Policy (Collection) API from WSO2 — 1 operation(s) for application policy (collection).
   name: WSO2 Application Policy (Collection) API
   slug: wso2-application-policy-collection-api
-- description: The Application Policy (Individual) API from WSO2 — 1 operation(s) for application policy (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application Policy (Individual) API from WSO2 — 1 operation(s) for application policy (individual).
   name: WSO2 Application Policy (Individual) API
   slug: wso2-application-policy-individual-api
-- description: The Application Secrets API from WSO2 — 3 operation(s) for application secrets.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application Secrets API from WSO2 — 3 operation(s) for application secrets.
   name: WSO2 Application Secrets API
   slug: wso2-application-secrets-api
-- description: The Application Tokens API from WSO2 — 2 operation(s) for application tokens.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Application Tokens API from WSO2 — 2 operation(s) for application tokens.
   name: WSO2 Application Tokens API
   slug: wso2-application-tokens-api
-- description: The Applications API from WSO2 — 3 operation(s) for applications.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Applications API from WSO2 — 3 operation(s) for applications.
   name: WSO2 Applications API
   slug: wso2-applications-api
-- description: for accessing artifact compliance.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: for accessing artifact compliance.
   name: WSO2 Artifact Compliance API
   slug: wso2-artifact-compliance-api
-- description: The Bot Detection Alert Subscriptions API from WSO2 — 2 operation(s) for bot detection alert subscriptions.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Bot Detection Alert Subscriptions API from WSO2 — 2 operation(s) for bot detection alert subscriptions.
   name: WSO2 Bot Detection Alert Subscriptions API
   slug: wso2-bot-detection-alert-subscriptions-api
-- description: The Bot Detection Data API from WSO2 — 1 operation(s) for bot detection data.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Bot Detection Data API from WSO2 — 1 operation(s) for bot detection data.
   name: WSO2 Bot Detection Data API
   slug: wso2-bot-detection-data-api
-- description: The Comments API from WSO2 — 6 operation(s) for comments.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Comments API from WSO2 — 6 operation(s) for comments.
   name: WSO2 Comments API
   slug: wso2-comments-api
-- description: The Config API from WSO2 — 1 operation(s) for config.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Config API from WSO2 — 1 operation(s) for config.
   name: WSO2 Config API
   slug: wso2-config-api
-- description: The Consumption API from WSO2 — 1 operation(s) for consumption.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Consumption API from WSO2 — 1 operation(s) for consumption.
   name: WSO2 Consumption API
   slug: wso2-consumption-api
-- description: The Custom Rules (Collection) API from WSO2 — 1 operation(s) for custom rules (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Custom Rules (Collection) API from WSO2 — 1 operation(s) for custom rules (collection).
   name: WSO2 Custom Rules (Collection) API
   slug: wso2-custom-rules-collection-api
-- description: The Custom Rules (Individual) API from WSO2 — 1 operation(s) for custom rules (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Custom Rules (Individual) API from WSO2 — 1 operation(s) for custom rules (individual).
   name: WSO2 Custom Rules (Individual) API
   slug: wso2-custom-rules-individual-api
-- description: The Deny Policies (Collection) API from WSO2 — 1 operation(s) for deny policies (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Deny Policies (Collection) API from WSO2 — 1 operation(s) for deny policies (collection).
   name: WSO2 Deny Policies (Collection) API
   slug: wso2-deny-policies-collection-api
-- description: The Deny Policy (Individual) API from WSO2 — 1 operation(s) for deny policy (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Deny Policy (Individual) API from WSO2 — 1 operation(s) for deny policy (individual).
   name: WSO2 Deny Policy (Individual) API
   slug: wso2-deny-policy-individual-api
-- description: The End Points API from WSO2 — 1 operation(s) for end points.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The End Points API from WSO2 — 1 operation(s) for end points.
   name: WSO2 End Points API
   slug: wso2-end-points-api
-- description: The Environments API from WSO2 — 3 operation(s) for environments.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Environments API from WSO2 — 3 operation(s) for environments.
   name: WSO2 Environments API
   slug: wso2-environments-api
-- description: The Get API Info API from WSO2 — 2 operation(s) for get api info.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Get API Info API from WSO2 — 2 operation(s) for get api info.
   name: WSO2 Get API Info API
   slug: wso2-get-api-info-api
-- description: The Get Application Info API from WSO2 — 1 operation(s) for get application info.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Get Application Info API from WSO2 — 1 operation(s) for get application info.
   name: WSO2 Get Application Info API
   slug: wso2-get-application-info-api
-- description: The Get Subscription Info API from WSO2 — 1 operation(s) for get subscription info.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Get Subscription Info API from WSO2 — 1 operation(s) for get subscription info.
   name: WSO2 Get Subscription Info API
   slug: wso2-get-subscription-info-api
-- description: The Global Key Manager (Collection) API from WSO2 — 1 operation(s) for global key manager (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Global Key Manager (Collection) API from WSO2 — 1 operation(s) for global key manager (collection).
   name: WSO2 Global Key Manager (Collection) API
   slug: wso2-global-key-manager-collection-api
-- description: The Global Key Manager (Individual) API from WSO2 — 1 operation(s) for global key manager (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Global Key Manager (Individual) API from WSO2 — 1 operation(s) for global key manager (individual).
   name: WSO2 Global Key Manager (Individual) API
   slug: wso2-global-key-manager-individual-api
-- description: for managing governance policies.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: for managing governance policies.
   name: WSO2 Governance Policies API
   slug: wso2-governance-policies-api
-- description: The GraphQL Policies API from WSO2 — 2 operation(s) for graphql policies.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The GraphQL Policies API from WSO2 — 2 operation(s) for graphql policies.
   name: WSO2 GraphQL Policies API
   slug: wso2-graphql-policies-api
-- description: The Import Export API from WSO2 — 4 operation(s) for import export.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Import Export API from WSO2 — 4 operation(s) for import export.
   name: WSO2 Import Export API
   slug: wso2-import-export-api
-- description: The Key Manager (Collection) API from WSO2 — 2 operation(s) for key manager (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Key Manager (Collection) API from WSO2 — 2 operation(s) for key manager (collection).
   name: WSO2 Key Manager (Collection) API
   slug: wso2-key-manager-collection-api
-- description: The Key Manager (Individual) API from WSO2 — 3 operation(s) for key manager (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Key Manager (Individual) API from WSO2 — 3 operation(s) for key manager (individual).
   name: WSO2 Key Manager (Individual) API
   slug: wso2-key-manager-individual-api
-- description: The Key Managers API from WSO2 — 1 operation(s) for key managers.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Key Managers API from WSO2 — 1 operation(s) for key managers.
   name: WSO2 Key Managers API
   slug: wso2-key-managers-api
-- description: The Label (Individual) API from WSO2 — 3 operation(s) for label (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Label (Individual) API from WSO2 — 3 operation(s) for label (individual).
   name: WSO2 Label (Individual) API
   slug: wso2-label-individual-api
-- description: The Labels (Collection) API from WSO2 — 1 operation(s) for labels (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Labels (Collection) API from WSO2 — 1 operation(s) for labels (collection).
   name: WSO2 Labels (Collection) API
   slug: wso2-labels-collection-api
-- description: The LLMProvider API from WSO2 — 1 operation(s) for llmprovider.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The LLMProvider API from WSO2 — 1 operation(s) for llmprovider.
   name: WSO2 LLMProvider API
   slug: wso2-llmprovider-api
-- description: The LLMProviders API from WSO2 — 1 operation(s) for llmproviders.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The LLMProviders API from WSO2 — 1 operation(s) for llmproviders.
   name: WSO2 LLMProviders API
   slug: wso2-llmproviders-api
-- description: The Local Entry API from WSO2 — 1 operation(s) for local entry.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Local Entry API from WSO2 — 1 operation(s) for local entry.
   name: WSO2 Local Entry API
   slug: wso2-local-entry-api
-- description: The Marketplace Assistant API from WSO2 — 2 operation(s) for marketplace assistant.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Marketplace Assistant API from WSO2 — 2 operation(s) for marketplace assistant.
   name: WSO2 Marketplace Assistant API
   slug: wso2-marketplace-assistant-api
-- description: The MCP Server Documents API from WSO2 — 3 operation(s) for mcp server documents.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The MCP Server Documents API from WSO2 — 3 operation(s) for mcp server documents.
   name: WSO2 MCP Server Documents API
   slug: wso2-mcp-server-documents-api
-- description: The MCP Servers API from WSO2 — 4 operation(s) for mcp servers.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The MCP Servers API from WSO2 — 4 operation(s) for mcp servers.
   name: WSO2 MCP Servers API
   slug: wso2-mcp-servers-api
-- description: The Monetization (Collection) API from WSO2 — 2 operation(s) for monetization (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Monetization (Collection) API from WSO2 — 2 operation(s) for monetization (collection).
   name: WSO2 Monetization (Collection) API
   slug: wso2-monetization-collection-api
-- description: The Org Themes API from WSO2 — 4 operation(s) for org themes.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Org Themes API from WSO2 — 4 operation(s) for org themes.
   name: WSO2 Org Themes API
   slug: wso2-org-themes-api
-- description: The Organizations API from WSO2 — 2 operation(s) for organizations.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Organizations API from WSO2 — 2 operation(s) for organizations.
   name: WSO2 Organizations API
   slug: wso2-organizations-api
-- description: The Platform Gateways API from WSO2 — 3 operation(s) for platform gateways.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Platform Gateways API from WSO2 — 3 operation(s) for platform gateways.
   name: WSO2 Platform Gateways API
   slug: wso2-platform-gateways-api
-- description: for accessing policy adherence.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: for accessing policy adherence.
   name: WSO2 Policy Adherence API
   slug: wso2-policy-adherence-api
-- description: The Ratings API from WSO2 — 4 operation(s) for ratings.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Ratings API from WSO2 — 4 operation(s) for ratings.
   name: WSO2 Ratings API
   slug: wso2-ratings-api
-- description: The Recommendations API from WSO2 — 1 operation(s) for recommendations.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Recommendations API from WSO2 — 1 operation(s) for recommendations.
   name: WSO2 Recommendations API
   slug: wso2-recommendations-api
-- description: The Redeploy Api API from WSO2 — 1 operation(s) for redeploy api.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Redeploy Api API from WSO2 — 1 operation(s) for redeploy api.
   name: WSO2 Redeploy Api API
   slug: wso2-redeploy-api-api
-- description: The Register API from WSO2 — 1 operation(s) for register.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Register API from WSO2 — 1 operation(s) for register.
   name: WSO2 Register API
   slug: wso2-register-api
-- description: The Roles API from WSO2 — 1 operation(s) for roles.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Roles API from WSO2 — 1 operation(s) for roles.
   name: WSO2 Roles API
   slug: wso2-roles-api
-- description: for managing rulesets.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: for managing rulesets.
   name: WSO2 Rulesets API
   slug: wso2-rulesets-api
-- description: The SDKs API from WSO2 — 2 operation(s) for sdks.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The SDKs API from WSO2 — 2 operation(s) for sdks.
   name: WSO2 SDKs API
   slug: wso2-sdks-api
-- description: The Sequence API from WSO2 — 1 operation(s) for sequence.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Sequence API from WSO2 — 1 operation(s) for sequence.
   name: WSO2 Sequence API
   slug: wso2-sequence-api
-- description: The Server Startup Healthcheck API from WSO2 — 1 operation(s) for server startup healthcheck.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Server Startup Healthcheck API from WSO2 — 1 operation(s) for server startup healthcheck.
   name: WSO2 Server Startup Healthcheck API
   slug: wso2-server-startup-healthcheck-api
-- description: The Services API from WSO2 — 6 operation(s) for services.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Services API from WSO2 — 6 operation(s) for services.
   name: WSO2 Services API
   slug: wso2-services-api
-- description: The Settings API from WSO2 — 2 operation(s) for settings.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Settings API from WSO2 — 2 operation(s) for settings.
   name: WSO2 Settings API
   slug: wso2-settings-api
-- description: The Subscription Policy (Collection) API from WSO2 — 1 operation(s) for subscription policy (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Subscription Policy (Collection) API from WSO2 — 1 operation(s) for subscription policy (collection).
   name: WSO2 Subscription Policy (Collection) API
   slug: wso2-subscription-policy-collection-api
-- description: The Subscription Policy (Individual) API from WSO2 — 1 operation(s) for subscription policy (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Subscription Policy (Individual) API from WSO2 — 1 operation(s) for subscription policy (individual).
   name: WSO2 Subscription Policy (Individual) API
   slug: wso2-subscription-policy-individual-api
-- description: The Subscriptions API from WSO2 — 4 operation(s) for subscriptions.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Subscriptions API from WSO2 — 4 operation(s) for subscriptions.
   name: WSO2 Subscriptions API
   slug: wso2-subscriptions-api
-- description: The System Scopes API from WSO2 — 3 operation(s) for system scopes.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The System Scopes API from WSO2 — 3 operation(s) for system scopes.
   name: WSO2 System Scopes API
   slug: wso2-system-scopes-api
-- description: The Tags API from WSO2 — 1 operation(s) for tags.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Tags API from WSO2 — 1 operation(s) for tags.
   name: WSO2 Tags API
   slug: wso2-tags-api
-- description: The Tenant Config API from WSO2 — 1 operation(s) for tenant config.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Tenant Config API from WSO2 — 1 operation(s) for tenant config.
   name: WSO2 Tenant Config API
   slug: wso2-tenant-config-api
-- description: The Tenant Config Schema API from WSO2 — 1 operation(s) for tenant config schema.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Tenant Config Schema API from WSO2 — 1 operation(s) for tenant config schema.
   name: WSO2 Tenant Config Schema API
   slug: wso2-tenant-config-schema-api
-- description: The Tenant Logs API from WSO2 — 2 operation(s) for tenant logs.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Tenant Logs API from WSO2 — 2 operation(s) for tenant logs.
   name: WSO2 Tenant Logs API
   slug: wso2-tenant-logs-api
-- description: The Tenant Theme API from WSO2 — 1 operation(s) for tenant theme.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Tenant Theme API from WSO2 — 1 operation(s) for tenant theme.
   name: WSO2 Tenant Theme API
   slug: wso2-tenant-theme-api
-- description: The Tenants API from WSO2 — 3 operation(s) for tenants.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Tenants API from WSO2 — 3 operation(s) for tenants.
   name: WSO2 Tenants API
   slug: wso2-tenants-api
-- description: The Throttling Policies API from WSO2 — 2 operation(s) for throttling policies.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Throttling Policies API from WSO2 — 2 operation(s) for throttling policies.
   name: WSO2 Throttling Policies API
   slug: wso2-throttling-policies-api
-- description: The Topics API from WSO2 — 1 operation(s) for topics.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Topics API from WSO2 — 1 operation(s) for topics.
   name: WSO2 Topics API
   slug: wso2-topics-api
-- description: The Transaction Records API from WSO2 — 1 operation(s) for transaction records.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Transaction Records API from WSO2 — 1 operation(s) for transaction records.
   name: WSO2 Transaction Records API
   slug: wso2-transaction-records-api
-- description: The Undeploy Api API from WSO2 — 1 operation(s) for undeploy api.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Undeploy Api API from WSO2 — 1 operation(s) for undeploy api.
   name: WSO2 Undeploy Api API
   slug: wso2-undeploy-api-api
-- description: The Unified Search API from WSO2 — 2 operation(s) for unified search.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Unified Search API from WSO2 — 2 operation(s) for unified search.
   name: WSO2 Unified Search API
   slug: wso2-unified-search-api
-- description: The Users API from WSO2 — 2 operation(s) for users.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Users API from WSO2 — 2 operation(s) for users.
   name: WSO2 Users API
   slug: wso2-users-api
-- description: The Webhooks API from WSO2 — 1 operation(s) for webhooks.
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Webhooks API from WSO2 — 1 operation(s) for webhooks.
   name: WSO2 Webhooks API
   slug: wso2-webhooks-api
-- description: The Workflow (Collection) API from WSO2 — 1 operation(s) for workflow (collection).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Workflow (Collection) API from WSO2 — 1 operation(s) for workflow (collection).
   name: WSO2 Workflow (Collection) API
   slug: wso2-workflow-collection-api
-- description: The Workflows (Individual) API from WSO2 — 2 operation(s) for workflows (individual).
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Workflows (Individual) API from WSO2 — 2 operation(s) for workflows (individual).
   name: WSO2 Workflows (Individual) API
   slug: wso2-workflows-individual-api
 artifact_total: 1194
@@ -3780,7 +3960,7 @@ score:
       marker_coverage: 0.0
       total: 91
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:

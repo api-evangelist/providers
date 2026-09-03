@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,46 +58,74 @@ apis:
 - description: The DHS Open Data Catalog publishes datasets across the Department's mission areas (immigration, law enforcement, emergency management, cybersecurity, infrastructure protection, screening, and maritim
   name: DHS Open Data Catalog
   slug: dhs-open-data-catalog
-- description: The DisasterDeclarationsSummaries API from Department of Homeland Security — 1 operation(s) for disasterdeclarationssummaries.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The DisasterDeclarationsSummaries API from Department of Homeland Security — 1 operation(s) for disasterdeclarationssummaries.
   name: Department of Homeland Security DisasterDeclarationsSummaries API
   slug: department-of-homeland-security-disasterdeclarationssummaries-api
-- description: The EmergencyManagementPerformanceGrants API from Department of Homeland Security — 1 operation(s) for emergencymanagementperformancegrants.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The EmergencyManagementPerformanceGrants API from Department of Homeland Security — 1 operation(s) for emergencymanagementperformancegrants.
   name: Department of Homeland Security EmergencyManagementPerformanceGrants API
   slug: department-of-homeland-security-emergencymanagementperformancegrants-api
-- description: The FemaRegions API from Department of Homeland Security — 1 operation(s) for femaregions.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The FemaRegions API from Department of Homeland Security — 1 operation(s) for femaregions.
   name: Department of Homeland Security FemaRegions API
   slug: department-of-homeland-security-femaregions-api
-- description: The FemaWebDisasterSummaries API from Department of Homeland Security — 1 operation(s) for femawebdisastersummaries.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The FemaWebDisasterSummaries API from Department of Homeland Security — 1 operation(s) for femawebdisastersummaries.
   name: Department of Homeland Security FemaWebDisasterSummaries API
   slug: department-of-homeland-security-femawebdisastersummaries-api
-- description: The FimaNfipClaims API from Department of Homeland Security — 1 operation(s) for fimanfipclaims.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The FimaNfipClaims API from Department of Homeland Security — 1 operation(s) for fimanfipclaims.
   name: Department of Homeland Security FimaNfipClaims API
   slug: department-of-homeland-security-fimanfipclaims-api
-- description: The FimaNfipPolicies API from Department of Homeland Security — 1 operation(s) for fimanfippolicies.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The FimaNfipPolicies API from Department of Homeland Security — 1 operation(s) for fimanfippolicies.
   name: Department of Homeland Security FimaNfipPolicies API
   slug: department-of-homeland-security-fimanfippolicies-api
-- description: The HazardMitigationAssistanceProjects API from Department of Homeland Security — 1 operation(s) for hazardmitigationassistanceprojects.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The HazardMitigationAssistanceProjects API from Department of Homeland Security — 1 operation(s) for hazardmitigationassistanceprojects.
   name: Department of Homeland Security HazardMitigationAssistanceProjects API
   slug: department-of-homeland-security-hazardmitigationassistanceprojects-api
-- description: The HazardMitigationGrants API from Department of Homeland Security — 1 operation(s) for hazardmitigationgrants.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The HazardMitigationGrants API from Department of Homeland Security — 1 operation(s) for hazardmitigationgrants.
   name: Department of Homeland Security HazardMitigationGrants API
   slug: department-of-homeland-security-hazardmitigationgrants-api
-- description: The HousingAssistanceOwners API from Department of Homeland Security — 1 operation(s) for housingassistanceowners.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The HousingAssistanceOwners API from Department of Homeland Security — 1 operation(s) for housingassistanceowners.
   name: Department of Homeland Security HousingAssistanceOwners API
   slug: department-of-homeland-security-housingassistanceowners-api
-- description: The HousingAssistanceRenters API from Department of Homeland Security — 1 operation(s) for housingassistancerenters.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The HousingAssistanceRenters API from Department of Homeland Security — 1 operation(s) for housingassistancerenters.
   name: Department of Homeland Security HousingAssistanceRenters API
   slug: department-of-homeland-security-housingassistancerenters-api
-- description: The IndividualsAndHouseholdsProgramValidRegistrations API from Department of Homeland Security — 1 operation(s) for individualsandhouseholdsprogramvalidregistrations.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The IndividualsAndHouseholdsProgramValidRegistrations API from Department of Homeland Security — 1 operation(s) for individualsandhouseholdsprogramvalidregistrations.
   name: Department of Homeland Security IndividualsAndHouseholdsProgramValidRegistrations API
   slug: department-of-homeland-security-individualsandhouseholdsprogramvalidregistrations-api
-- description: The MissionAssignments API from Department of Homeland Security — 1 operation(s) for missionassignments.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The MissionAssignments API from Department of Homeland Security — 1 operation(s) for missionassignments.
   name: Department of Homeland Security MissionAssignments API
   slug: department-of-homeland-security-missionassignments-api
-- description: The PublicAssistanceApplicants API from Department of Homeland Security — 1 operation(s) for publicassistanceapplicants.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The PublicAssistanceApplicants API from Department of Homeland Security — 1 operation(s) for publicassistanceapplicants.
   name: Department of Homeland Security PublicAssistanceApplicants API
   slug: department-of-homeland-security-publicassistanceapplicants-api
-- description: The PublicAssistanceFundedProjectsDetails API from Department of Homeland Security — 1 operation(s) for publicassistancefundedprojectsdetails.
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: The PublicAssistanceFundedProjectsDetails API from Department of Homeland Security — 1 operation(s) for publicassistancefundedprojectsdetails.
   name: Department of Homeland Security PublicAssistanceFundedProjectsDetails API
   slug: department-of-homeland-security-publicassistancefundedprojectsdetails-api
 artifact_total: 41
@@ -309,7 +337,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:

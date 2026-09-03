@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The RFC Editor publishes the canonical RFC series in multiple formats (TXT, HTML, PDF, XML) and provides bulk and machine-readable indexes of RFCs and Internet-Drafts.
   name: RFC Editor
   slug: rfc-editor
-- description: The Documents API from Internet Engineering Task Force — 1 operation(s) for documents.
+- baseURL: https://datatracker.ietf.org/api/v1/
+  baseurl_source: declared
+  description: The Documents API from Internet Engineering Task Force — 1 operation(s) for documents.
   name: Internet Engineering Task Force Documents API
   slug: internet-engineering-task-force-documents-api
-- description: Public read-only REST framework over Datatracker models.
+- baseURL: https://datatracker.ietf.org/api/v1/
+  baseurl_source: declared
+  description: Public read-only REST framework over Datatracker models.
   name: Internet Engineering Task Force Framework API API
   slug: internet-engineering-task-force-framework-api-api
-- description: The Identity API from Internet Engineering Task Force — 1 operation(s) for identity.
+- baseURL: https://datatracker.ietf.org/api/v1/
+  baseurl_source: declared
+  description: The Identity API from Internet Engineering Task Force — 1 operation(s) for identity.
   name: Internet Engineering Task Force Identity API
   slug: internet-engineering-task-force-identity-api
-- description: The IESG API from Internet Engineering Task Force — 1 operation(s) for iesg.
+- baseURL: https://datatracker.ietf.org/api/v1/
+  baseurl_source: declared
+  description: The IESG API from Internet Engineering Task Force — 1 operation(s) for iesg.
   name: Internet Engineering Task Force IESG API
   slug: internet-engineering-task-force-iesg-api
-- description: The Meetings API from Internet Engineering Task Force — 1 operation(s) for meetings.
+- baseURL: https://datatracker.ietf.org/api/v1/
+  baseurl_source: declared
+  description: The Meetings API from Internet Engineering Task Force — 1 operation(s) for meetings.
   name: Internet Engineering Task Force Meetings API
   slug: internet-engineering-task-force-meetings-api
 artifact_total: 20
@@ -184,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/internet-engineering-task-force/refs/heads/main/screenshots/internet-engineering-task-force-2026-06-20T183501.png
 security:

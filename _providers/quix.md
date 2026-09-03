@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,31 +44,47 @@ agentic_access:
   summary_line: 16 operations · 11 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Subscribe to live parameter data, events, definitions, active streams, topic metrics, and raw packages from Quix topics in real time over a Microsoft SignalR hub (WebSockets, with Long Polling fallbac
+- baseURL: https://reader-{environmentId}.cloud.quix.io/hub
+  baseurl_source: declared
+  description: Subscribe to live parameter data, events, definitions, active streams, topic metrics, and raw packages from Quix topics in real time over a Microsoft SignalR hub (WebSockets, with Long Polling fallbac
   name: Quix Streaming Reader API (Real-time)
   slug: streaming-reader-api
 - description: Apache 2.0 open source Python library (pip install quixstreams) for building containerized stream-processing applications on Apache Kafka, using a declarative StreamingDataFrame and an Application run
   name: Quix Streams (Open Source)
   slug: quix-streams-oss
-- description: Declare parameter and event metadata for a stream (Streaming Writer API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Declare parameter and event metadata for a stream (Streaming Writer API).
   name: Quix Definitions API
   slug: quix-definitions-api
-- description: Manage and monitor service deployments (Portal API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Manage and monitor service deployments (Portal API).
   name: Quix Deployments API
   slug: quix-deployments-api
-- description: Publish discrete events into a stream (Streaming Writer API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Publish discrete events into a stream (Streaming Writer API).
   name: Quix Event Data API
   slug: quix-event-data-api
-- description: Publish time-series parameter data into a stream (Streaming Writer API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Publish time-series parameter data into a stream (Streaming Writer API).
   name: Quix Parameter Data API
   slug: quix-parameter-data-api
-- description: Create and close streams within a topic (Streaming Writer API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Create and close streams within a topic (Streaming Writer API).
   name: Quix Streams API
   slug: quix-streams-api
-- description: Manage Kafka topics in a workspace (Portal API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Manage Kafka topics in a workspace (Portal API).
   name: Quix Topics API
   slug: quix-topics-api
-- description: Manage Quix Cloud workspaces / environments (Portal API).
+- baseURL: https://writer-{environmentId}.cloud.quix.io
+  baseurl_source: declared
+  description: Manage Quix Cloud workspaces / environments (Portal API).
   name: Quix Workspaces API
   slug: quix-workspaces-api
 artifact_total: 26
@@ -197,7 +213,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -207,7 +223,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 41.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -216,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/screenshots/quix-2026-08-17T081431.png
 security:

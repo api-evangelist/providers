@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for national sex-offender screening; API-key authenticated, JSON responses, synchronous and asynchronous search across all 58 US registries.
@@ -43,7 +43,7 @@ score:
   band: minimal
   composite: 10.8
   coverage:
-    artifact_dirs: 0
+    artifact_dirs: 1
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -71,8 +71,9 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/offendersearch/refs/heads/main/screenshots/offendersearch-2026-09-02T150825.png
 slug: offendersearch
 tags:
 - Background Screening

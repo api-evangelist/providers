@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: The SWIFT Transaction Screening API enables financial institutions to submit transactions to the SWIFT Transaction Screening Service (TSS) for sanctions and compliance screening before processing. Ret
   name: Transaction Screening API
   slug: transaction-screening-api
-- description: Account number format validation
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: Account number format validation
   name: SWIFT Account Numbers API
   slug: swift-account-numbers-api
-- description: BBAN to IBAN conversion
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: BBAN to IBAN conversion
   name: SWIFT BBANs API
   slug: swift-bbans-api
-- description: BIC (Bank Identifier Code) lookup and validation
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: BIC (Bank Identifier Code) lookup and validation
   name: SWIFT BICs API
   slug: swift-bics-api
-- description: Country code lookup and validation
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: Country code lookup and validation
   name: SWIFT Country Codes API
   slug: swift-country-codes-api
-- description: Currency code lookup and validation
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: Currency code lookup and validation
   name: SWIFT Currency Codes API
   slug: swift-currency-codes-api
-- description: IBAN (International Bank Account Number) lookup and validation
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: IBAN (International Bank Account Number) lookup and validation
   name: SWIFT IBANs API
   slug: swift-ibans-api
-- description: LEI (Legal Entity Identifier) lookup and validation
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: LEI (Legal Entity Identifier) lookup and validation
   name: SWIFT LEIs API
   slug: swift-leis-api
-- description: National ID lookup and BIC resolution
+- baseURL: https://api.swift.com/swiftrefdata
+  baseurl_source: declared
+  description: National ID lookup and BIC resolution
   name: SWIFT National IDs API
   slug: swift-national-ids-api
 artifact_total: 44
@@ -329,7 +345,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/screenshots/swift-2026-06-20T194804.png
 security:

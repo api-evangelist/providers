@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Programmatic entry points into the Guided Selling managed package for completing participant actions, skipping (deferring) participant actions, and creating sequence-independent quick actions. These a
@@ -233,7 +233,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/screenshots/ringdna-2026-06-20T193122.png
 security:

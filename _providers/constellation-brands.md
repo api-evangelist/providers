@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,25 +62,39 @@ apis:
 - description: Supplies cocktail and beverage recipes featuring Constellation brands so on-premise partners and digital experiences can surface branded drink ideas.
   name: Recipes API
   slug: recipes
-- description: The BottleShots API from Constellation Brands — 2 operation(s) for bottleshots.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The BottleShots API from Constellation Brands — 2 operation(s) for bottleshots.
   name: Constellation Brands BottleShots API
   slug: constellation-brands-bottleshots-api
-- description: The HotSheets API from Constellation Brands — 1 operation(s) for hotsheets.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The HotSheets API from Constellation Brands — 1 operation(s) for hotsheets.
   name: Constellation Brands HotSheets API
   slug: constellation-brands-hotsheets-api
-- description: The Items API from Constellation Brands — 3 operation(s) for items.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The Items API from Constellation Brands — 3 operation(s) for items.
   name: Constellation Brands Items API
   slug: constellation-brands-items-api
-- description: The NeckHangers API from Constellation Brands — 1 operation(s) for neckhangers.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The NeckHangers API from Constellation Brands — 1 operation(s) for neckhangers.
   name: Constellation Brands NeckHangers API
   slug: constellation-brands-neckhangers-api
-- description: The Recipes API from Constellation Brands — 1 operation(s) for recipes.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The Recipes API from Constellation Brands — 1 operation(s) for recipes.
   name: Constellation Brands Recipes API
   slug: constellation-brands-recipes-api
-- description: The ShelfTalkers API from Constellation Brands — 1 operation(s) for shelftalkers.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The ShelfTalkers API from Constellation Brands — 1 operation(s) for shelftalkers.
   name: Constellation Brands ShelfTalkers API
   slug: constellation-brands-shelftalkers-api
-- description: The TastingNotes API from Constellation Brands — 1 operation(s) for tastingnotes.
+- baseURL: https://api.cbrands.com/v3
+  baseurl_source: declared
+  description: The TastingNotes API from Constellation Brands — 1 operation(s) for tastingnotes.
   name: Constellation Brands TastingNotes API
   slug: constellation-brands-tastingnotes-api
 artifact_total: 28
@@ -229,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png
 security:

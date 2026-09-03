@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,16 +58,24 @@ apis:
 - description: Ray Serve is a scalable model serving library built on Ray, designed for building online inference APIs. Supports composable deployments, autoscaling, HTTP ingress, gRPC, WebSockets, and request batch
   name: Ray Serve REST API
   slug: ray-serve-rest-api
-- description: Server and model liveness and readiness probes
+- baseURL: https://inference.kserve.example.com
+  baseurl_source: spec
+  description: Server and model liveness and readiness probes
   name: Scalable Inference Serving Health API
   slug: scalable-inference-serving-health-api
-- description: Model inference request endpoints
+- baseURL: https://inference.kserve.example.com
+  baseurl_source: spec
+  description: Model inference request endpoints
   name: Scalable Inference Serving Inference API
   slug: scalable-inference-serving-inference-api
-- description: Server and model metadata endpoints
+- baseURL: https://inference.kserve.example.com
+  baseurl_source: spec
+  description: Server and model metadata endpoints
   name: Scalable Inference Serving Metadata API
   slug: scalable-inference-serving-metadata-api
-- description: Model management and metadata operations
+- baseURL: https://inference.kserve.example.com
+  baseurl_source: spec
+  description: Model management and metadata operations
   name: Scalable Inference Serving Models API
   slug: scalable-inference-serving-models-api
 artifact_total: 48
@@ -302,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving

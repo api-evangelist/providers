@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -77,13 +77,19 @@ apis:
 - description: The world's largest open social-media toxicity dataset, published under MIT license.
   name: Surge Toxicity Dataset
   slug: surge-toxicity-dataset
-- description: The Projects API from Surge AI — 9 operation(s) for projects.
+- baseURL: https://app.surgehq.ai/api
+  baseurl_source: spec
+  description: The Projects API from Surge AI — 9 operation(s) for projects.
   name: Surge AI Projects API
   slug: surge-ai-projects-api
-- description: The Tasks API from Surge AI — 5 operation(s) for tasks.
+- baseURL: https://app.surgehq.ai/api
+  baseurl_source: spec
+  description: The Tasks API from Surge AI — 5 operation(s) for tasks.
   name: Surge AI Tasks API
   slug: surge-ai-tasks-api
-- description: The Teams API from Surge AI — 1 operation(s) for teams.
+- baseURL: https://app.surgehq.ai/api
+  baseurl_source: spec
+  description: The Teams API from Surge AI — 1 operation(s) for teams.
   name: Surge AI Teams API
   slug: surge-ai-teams-api
 artifact_total: 44
@@ -261,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/screenshots/surge-ai-2026-06-20T194733.png
 security:

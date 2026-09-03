@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 73 operations · 28 acting
 api_count: 1
 apis:
-- description: Manage OAuth applications
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage OAuth applications
   name: PDFfiller Applications API
   slug: pdffiller-applications-api
-- description: OAuth 2.0 authentication token management
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: OAuth 2.0 authentication token management
   name: PDFfiller Auth API
   slug: pdffiller-auth-api
-- description: Manage webhook callbacks for document events
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage webhook callbacks for document events
   name: PDFfiller Callbacks API
   slug: pdffiller-callbacks-api
-- description: Manage custom branding logos
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage custom branding logos
   name: PDFfiller Custom Logos API
   slug: pdffiller-custom-logos-api
-- description: Manage fillable form links and submissions
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage fillable form links and submissions
   name: PDFfiller Fillable Forms API
   slug: pdffiller-fillable-forms-api
-- description: Organize documents into folders
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Organize documents into folders
   name: PDFfiller Folders API
   slug: pdffiller-folders-api
-- description: Manage eSignature requests and workflows
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage eSignature requests and workflows
   name: PDFfiller Signature Requests API
   slug: pdffiller-signature-requests-api
-- description: Manage PDF document templates
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage PDF document templates
   name: PDFfiller Templates API
   slug: pdffiller-templates-api
-- description: Manage embedded document tokens
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Manage embedded document tokens
   name: PDFfiller Tokens API
   slug: pdffiller-tokens-api
-- description: Document utility tools (merge, convert)
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Document utility tools (merge, convert)
   name: PDFfiller Tools API
   slug: pdffiller-tools-api
-- description: Retrieve current user information
+- baseURL: https://api.pdffiller.com/v2/
+  baseurl_source: declared
+  description: Retrieve current user information
   name: PDFfiller Users API
   slug: pdffiller-users-api
 artifact_total: 38
@@ -272,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/screenshots/pdffiller-2026-06-20T191529.png
 security:

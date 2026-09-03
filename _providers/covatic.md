@@ -35,61 +35,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Audience Builder Agent API from Covatic — 1 operation(s) for audience builder agent.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Audience Builder Agent API from Covatic — 1 operation(s) for audience builder agent.
   name: Covatic Audience Builder Agent API
   slug: covatic-audience-builder-agent-api
-- description: The Audience Builder API from Covatic — 1 operation(s) for audience builder.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Audience Builder API from Covatic — 1 operation(s) for audience builder.
   name: Covatic Audience Builder API
   slug: covatic-audience-builder-api
-- description: The Auth API from Covatic — 2 operation(s) for auth.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Auth API from Covatic — 2 operation(s) for auth.
   name: Covatic Auth API
   slug: covatic-auth-api
-- description: The Campaigns API from Covatic — 16 operation(s) for campaigns.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Campaigns API from Covatic — 16 operation(s) for campaigns.
   name: Covatic Campaigns API
   slug: covatic-campaigns-api
-- description: The ChatGPT API from Covatic — 1 operation(s) for chatgpt.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The ChatGPT API from Covatic — 1 operation(s) for chatgpt.
   name: Covatic Chat GPT API
   slug: covatic-chatgpt-api
-- description: The Commons API from Covatic — 4 operation(s) for commons.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Commons API from Covatic — 4 operation(s) for commons.
   name: Covatic Commons API
   slug: covatic-commons-api
-- description: The Company API from Covatic — 2 operation(s) for company.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Company API from Covatic — 2 operation(s) for company.
   name: Covatic Company API
   slug: covatic-company-api
-- description: The Event Traits API from Covatic — 5 operation(s) for event traits.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Event Traits API from Covatic — 5 operation(s) for event traits.
   name: Covatic Event Traits API
   slug: covatic-event-traits-api
-- description: The Insights API from Covatic — 2 operation(s) for insights.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Insights API from Covatic — 2 operation(s) for insights.
   name: Covatic Insights API
   slug: covatic-insights-api
-- description: The Notes API from Covatic — 2 operation(s) for notes.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Notes API from Covatic — 2 operation(s) for notes.
   name: Covatic Notes API
   slug: covatic-notes-api
-- description: The Profiles API from Covatic — 6 operation(s) for profiles.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Profiles API from Covatic — 6 operation(s) for profiles.
   name: Covatic Profiles API
   slug: covatic-profiles-api
-- description: The QA and Debug API from Covatic — 1 operation(s) for qa and debug.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The QA and Debug API from Covatic — 1 operation(s) for qa and debug.
   name: Covatic QA and Debug API
   slug: covatic-qa-and-debug-api
-- description: The Retargeting Traits API from Covatic — 3 operation(s) for retargeting traits.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Retargeting Traits API from Covatic — 3 operation(s) for retargeting traits.
   name: Covatic Retargeting Traits API
   slug: covatic-retargeting-traits-api
-- description: The Root API from Covatic — 1 operation(s) for root.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Root API from Covatic — 1 operation(s) for root.
   name: Covatic Root API
   slug: covatic-root-api
-- description: The Seeders API from Covatic — 6 operation(s) for seeders.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Seeders API from Covatic — 6 operation(s) for seeders.
   name: Covatic Seeders API
   slug: covatic-seeders-api
-- description: The Tags API from Covatic — 2 operation(s) for tags.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Tags API from Covatic — 2 operation(s) for tags.
   name: Covatic Tags API
   slug: covatic-tags-api
-- description: The Traits API from Covatic — 7 operation(s) for traits.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Traits API from Covatic — 7 operation(s) for traits.
   name: Covatic Traits API
   slug: covatic-traits-api
-- description: The Users API from Covatic — 9 operation(s) for users.
+- baseURL: https://prodaudiencebuilderapi.covatic.io
+  baseurl_source: declared
+  description: The Users API from Covatic — 9 operation(s) for users.
   name: Covatic Users API
   slug: covatic-users-api
 artifact_total: 24
@@ -269,7 +305,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png
 security:

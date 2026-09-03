@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Core API from Evervault — 9 operation(s) for core.
+- baseURL: https://api.evervault.com
+  baseurl_source: declared
+  description: The Core API from Evervault — 9 operation(s) for core.
   name: Evervault Core API
   slug: evervault-core-api
-- description: The Payments API from Evervault — 17 operation(s) for payments.
+- baseURL: https://api.evervault.com
+  baseurl_source: declared
+  description: The Payments API from Evervault — 17 operation(s) for payments.
   name: Evervault Payments API
   slug: evervault-payments-api
-- description: The Webhooks API from Evervault — 2 operation(s) for webhooks.
+- baseURL: https://api.evervault.com
+  baseurl_source: declared
+  description: The Webhooks API from Evervault — 2 operation(s) for webhooks.
   name: Evervault Webhooks API
   slug: evervault-webhooks-api
-- description: The Evervault API API from Evervault — 0 operation(s) for evervault api.
+- baseURL: https://api.evervault.com
+  baseurl_source: declared
+  description: The Evervault API API from Evervault — 0 operation(s) for evervault api.
   name: Evervault Evervault API
   slug: evervault-evervault-api-api
 artifact_total: 34
@@ -302,7 +310,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -312,7 +320,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 62.2
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     contracts:
@@ -335,7 +343,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:

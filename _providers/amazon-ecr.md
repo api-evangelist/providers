@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: The Amazon ECR Amazon Elastic Container Registry (ECR) API API from Amazon ECR — 1 operation(s) for amazon ecr amazon elastic container registry (ecr) api.
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon ECR Amazon Elastic Container Registry (ECR) API API from Amazon ECR — 1 operation(s) for amazon ecr amazon elastic container registry (ecr) api.
   name: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API API
   slug: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
-- description: 'The #BatchGetImage API from Amazon ECR — 1 operation(s) for #batchgetimage.'
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: 'The #BatchGetImage API from Amazon ECR — 1 operation(s) for #batchgetimage.'
   name: 'Amazon ECR #BatchGetImage API'
   slug: amazon-ecr-batchgetimage-api
-- description: 'The #DeleteRepository API from Amazon ECR — 1 operation(s) for #deleterepository.'
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DeleteRepository API from Amazon ECR — 1 operation(s) for #deleterepository.'
   name: 'Amazon ECR #DeleteRepository API'
   slug: amazon-ecr-deleterepository-api
-- description: 'The #DescribeRepositories API from Amazon ECR — 1 operation(s) for #describerepositories.'
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeRepositories API from Amazon ECR — 1 operation(s) for #describerepositories.'
   name: 'Amazon ECR #DescribeRepositories API'
   slug: amazon-ecr-describerepositories-api
-- description: 'The #ListImages API from Amazon ECR — 1 operation(s) for #listimages.'
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListImages API from Amazon ECR — 1 operation(s) for #listimages.'
   name: 'Amazon ECR #ListImages API'
   slug: amazon-ecr-listimages-api
-- description: 'The #PutImage API from Amazon ECR — 1 operation(s) for #putimage.'
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: 'The #PutImage API from Amazon ECR — 1 operation(s) for #putimage.'
   name: 'Amazon ECR #PutImage API'
   slug: amazon-ecr-putimage-api
 arazzos:
@@ -375,7 +387,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/screenshots/amazon-ecr-2026-06-20T171634.png
 security:

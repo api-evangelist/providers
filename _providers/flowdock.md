@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 54 operations · 27 acting
 api_count: 2
 apis:
-- description: 'Long-lived HTTP connection to stream.flowdock.com delivering real-time flow events. Two content types: newline-delimited JSON (`application/json`, `\r` delimited) or HTML5 Server-Sent Events (`text/ev'
+- baseURL: https://stream.flowdock.com
+  baseurl_source: declared
+  description: 'Long-lived HTTP connection to stream.flowdock.com delivering real-time flow events. Two content types: newline-delimited JSON (`application/json`, `\r` delimited) or HTML5 Server-Sent Events (`text/ev'
   name: Flowdock Streaming API
   slug: streaming-api
-- description: Partial SCIM 1.x user provisioning API for CA Flowdock Enterprise customers with Single Sign-On configured. Bearer-token authenticated. Now offline.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Partial SCIM 1.x user provisioning API for CA Flowdock Enterprise customers with Single Sign-On configured. Bearer-token authenticated. Now offline.
   name: Flowdock SCIM Provisioning API
   slug: scim-api
-- description: OAuth 2.0 authorization-code grant for user delegation.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization-code grant for user delegation.
   name: Flowdock (Discontinued) Authentication API
   slug: flowdock-authentication-api
-- description: Chat-style messages posted as an external user.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Chat-style messages posted as an external user.
   name: Flowdock (Discontinued) Chat API
   slug: flowdock-chat-api
-- description: File uploads and downloads attached to messages.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: File uploads and downloads attached to messages.
   name: Flowdock (Discontinued) Files API
   slug: flowdock-files-api
-- description: Team workspaces combining chat and a shared team inbox.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Team workspaces combining chat and a shared team inbox.
   name: Flowdock (Discontinued) Flows API
   slug: flowdock-flows-api
-- description: Open and accepted invitations to join a flow.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Open and accepted invitations to join a flow.
   name: Flowdock (Discontinued) Invitations API
   slug: flowdock-invitations-api
-- description: Chat messages, comments, status, activity, discussion, and file events posted to a flow.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Chat messages, comments, status, activity, discussion, and file events posted to a flow.
   name: Flowdock (Discontinued) Messages API
   slug: flowdock-messages-api
-- description: Account-level container that owns flows and bills users.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Account-level container that owns flows and bills users.
   name: Flowdock (Discontinued) Organizations API
   slug: flowdock-organizations-api
-- description: One-to-one direct message channels between two users.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: One-to-one direct message channels between two users.
   name: Flowdock (Discontinued) Private Conversations API
   slug: flowdock-private-conversations-api
-- description: Messages within a private conversation.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Messages within a private conversation.
   name: Flowdock (Discontinued) Private Messages API
   slug: flowdock-private-messages-api
-- description: External integrations (GitHub, Jira, Zendesk, etc.) that post into a flow.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: External integrations (GitHub, Jira, Zendesk, etc.) that post into a flow.
   name: Flowdock (Discontinued) Sources API
   slug: flowdock-sources-api
-- description: Mail-like messages posted into a flow's team inbox.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Mail-like messages posted into a flow's team inbox.
   name: Flowdock (Discontinued) Team Inbox API
   slug: flowdock-team-inbox-api
-- description: Threaded conversations rooted on a parent message.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: Threaded conversations rooted on a parent message.
   name: Flowdock (Discontinued) Threads API
   slug: flowdock-threads-api
-- description: User accounts that may belong to multiple organizations and flows.
+- baseURL: https://api.flowdock.com
+  baseurl_source: declared
+  description: User accounts that may belong to multiple organizations and flows.
   name: Flowdock (Discontinued) Users API
   slug: flowdock-users-api
 artifact_total: 59
@@ -407,7 +437,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -417,7 +447,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 30.0
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -426,7 +456,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
 security:

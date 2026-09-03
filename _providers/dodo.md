@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: The Trade API from DODO — 1 operation(s) for trade.
+- baseURL: https://route-api.dodoex.io
+  baseurl_source: declared
+  description: The Trade API from DODO — 1 operation(s) for trade.
   name: DODO Trade API
   slug: dodo-trade-api
 artifact_total: 7
@@ -184,7 +186,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo/refs/heads/main/screenshots/dodo-2026-07-25T212227.png
 security:

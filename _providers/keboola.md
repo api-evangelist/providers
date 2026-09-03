@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 376
   human_in_the_loop: 13
@@ -44,151 +44,249 @@ agentic_access:
   summary_line: 631 operations · 376 acting · 13 human-in-the-loop
 api_count: 14
 apis:
-- description: The Actions API from Keboola — 1 operation(s) for actions.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Actions API from Keboola — 1 operation(s) for actions.
   name: Keboola Actions API
   slug: keboola-actions-api
-- description: The Admin Apps API from Keboola — 5 operation(s) for admin apps.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Admin Apps API from Keboola — 5 operation(s) for admin apps.
   name: Keboola Admin Apps API
   slug: keboola-admin-apps-api
-- description: The Admin Stacks API from Keboola — 1 operation(s) for admin stacks.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Admin Stacks API from Keboola — 1 operation(s) for admin stacks.
   name: Keboola Admin Stacks API
   slug: keboola-admin-stacks-api
-- description: The Admin Users API from Keboola — 5 operation(s) for admin users.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Admin Users API from Keboola — 5 operation(s) for admin users.
   name: Keboola Admin Users API
   slug: keboola-admin-users-api
-- description: The Admin Vendors API from Keboola — 3 operation(s) for admin vendors.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Admin Vendors API from Keboola — 3 operation(s) for admin vendors.
   name: Keboola Admin Vendors API
   slug: keboola-admin-vendors-api
-- description: App (component) management for a vendor.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: App (component) management for a vendor.
   name: Keboola App API
   slug: keboola-app-api
-- description: Authentication, account confirmation and MFA.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Authentication, account confirmation and MFA.
   name: Keboola Auth API
   slug: keboola-auth-api
-- description: The Authorize API from Keboola — 2 operation(s) for authorize.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Authorize API from Keboola — 2 operation(s) for authorize.
   name: Keboola Authorize API
   slug: keboola-authorize-api
-- description: The configuration API from Keboola — 26 operation(s) for configuration.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The configuration API from Keboola — 26 operation(s) for configuration.
   name: Keboola configuration API
   slug: keboola-configuration-api
-- description: The Configurations Jobs API from Keboola — 1 operation(s) for configurations jobs.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Configurations Jobs API from Keboola — 1 operation(s) for configurations jobs.
   name: Keboola Configurations Jobs API
   slug: keboola-configurations-jobs-api
-- description: The Consumers API from Keboola — 2 operation(s) for consumers.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Consumers API from Keboola — 2 operation(s) for consumers.
   name: Keboola Consumers API
   slug: keboola-consumers-api
-- description: The Credentials API from Keboola — 3 operation(s) for credentials.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Credentials API from Keboola — 3 operation(s) for credentials.
   name: Keboola Credentials API
   slug: keboola-credentials-api
-- description: The Credits API from Keboola — 1 operation(s) for credits.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Credits API from Keboola — 1 operation(s) for credits.
   name: Keboola Credits API
   slug: keboola-credits-api
-- description: Inspect and purge soft-deleted projects.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Inspect and purge soft-deleted projects.
   name: Keboola Deleted Projects API
   slug: keboola-deleted-projects-api
-- description: The Description API from Keboola — 7 operation(s) for description.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Description API from Keboola — 7 operation(s) for description.
   name: Keboola Description API
   slug: keboola-description-api
-- description: The Documentation API from Keboola — 9 operation(s) for documentation.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Documentation API from Keboola — 9 operation(s) for documentation.
   name: Keboola Documentation API
   slug: keboola-documentation-api
-- description: The Duration API from Keboola — 3 operation(s) for duration.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Duration API from Keboola — 3 operation(s) for duration.
   name: Keboola Duration API
   slug: keboola-duration-api
-- description: The Encrypt API from Keboola — 1 operation(s) for encrypt.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Encrypt API from Keboola — 1 operation(s) for encrypt.
   name: Keboola Encrypt API
   slug: keboola-encrypt-api
-- description: The health API from Keboola — 1 operation(s) for health.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The health API from Keboola — 1 operation(s) for health.
   name: Keboola health API
   slug: keboola-health-api
-- description: Import operations
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Import operations
   name: Keboola import API
   slug: keboola-import-api
-- description: The Internal API from Keboola — 2 operation(s) for internal.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Internal API from Keboola — 2 operation(s) for internal.
   name: Keboola Internal API
   slug: keboola-internal-api
-- description: The jobs API from Keboola — 13 operation(s) for jobs.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The jobs API from Keboola — 13 operation(s) for jobs.
   name: Keboola jobs API
   slug: keboola-jobs-api
-- description: The Latest Configurations Jobs API from Keboola — 1 operation(s) for latest configurations jobs.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Latest Configurations Jobs API from Keboola — 1 operation(s) for latest configurations jobs.
   name: Keboola Latest Configurations Jobs API
   slug: keboola-latest-configurations-jobs-api
-- description: Manage maintainer records, their members and invitations.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage maintainer records, their members and invitations.
   name: Keboola Maintainers API
   slug: keboola-maintainers-api
-- description: The Marketplaces API from Keboola — 2 operation(s) for marketplaces.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Marketplaces API from Keboola — 2 operation(s) for marketplaces.
   name: Keboola Marketplaces API
   slug: keboola-marketplaces-api
-- description: The Migrate API from Keboola — 1 operation(s) for migrate.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Migrate API from Keboola — 1 operation(s) for migrate.
   name: Keboola Migrate API
   slug: keboola-migrate-api
-- description: Endpoints scoped to the current user — invitations, join requests and session tokens.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Endpoints scoped to the current user — invitations, join requests and session tokens.
   name: Keboola My Account API
   slug: keboola-my-account-api
-- description: The Orchestration Rerun Plan API from Keboola — 1 operation(s) for orchestration rerun plan.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Orchestration Rerun Plan API from Keboola — 1 operation(s) for orchestration rerun plan.
   name: Keboola Orchestration Rerun Plan API
   slug: keboola-orchestration-rerun-plan-api
-- description: Manage organizations, their members and invitations.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage organizations, their members and invitations.
   name: Keboola Organizations API
   slug: keboola-organizations-api
-- description: The Others API from Keboola — 2 operation(s) for others.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Others API from Keboola — 2 operation(s) for others.
   name: Keboola Others API
   slug: keboola-others-api
-- description: The Project Jobs Stats API from Keboola — 1 operation(s) for project jobs stats.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Project Jobs Stats API from Keboola — 1 operation(s) for project jobs stats.
   name: Keboola Project Jobs Stats API
   slug: keboola-project-jobs-stats-api
-- description: Manage projects, project members, invitations, join requests and per-project settings.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage projects, project members, invitations, join requests and per-project settings.
   name: Keboola Projects API
   slug: keboola-projects-api
-- description: Unauthenticated read access to published apps and vendors.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Unauthenticated read access to published apps and vendors.
   name: Keboola Public API API
   slug: keboola-public-api-api
-- description: The queries API from Keboola — 1 operation(s) for queries.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The queries API from Keboola — 1 operation(s) for queries.
   name: Keboola queries API
   slug: keboola-queries-api
-- description: The Resolve Config Variables API from Keboola — 1 operation(s) for resolve config variables.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Resolve Config Variables API from Keboola — 1 operation(s) for resolve config variables.
   name: Keboola Resolve Config Variables API
   slug: keboola-resolve-config-variables-api
-- description: The schedules API from Keboola — 4 operation(s) for schedules.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The schedules API from Keboola — 4 operation(s) for schedules.
   name: Keboola schedules API
   slug: keboola-schedules-api
-- description: The service API from Keboola — 1 operation(s) for service.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The service API from Keboola — 1 operation(s) for service.
   name: Keboola service API
   slug: keboola-service-api
-- description: The SQL Editor API from Keboola — 13 operation(s) for sql editor.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The SQL Editor API from Keboola — 13 operation(s) for sql editor.
   name: Keboola SQL Editor API
   slug: keboola-sql-editor-api
-- description: Run Keboola Connection CLI commands asynchronously via the commands queue.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Run Keboola Connection CLI commands asynchronously via the commands queue.
   name: Keboola SUPER - Commands API
   slug: keboola-super-commands-api
-- description: Manage feature flags and assign features to projects, users or organizations.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage feature flags and assign features to projects, users or organizations.
   name: Keboola SUPER - Features API
   slug: keboola-super-features-api
-- description: Manage S3, GCS and ABS file storage backends and their credentials.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage S3, GCS and ABS file storage backends and their credentials.
   name: Keboola SUPER - File Storage Management API
   slug: keboola-super-file-storage-management-api
-- description: Read-only access to Kubernetes service accounts discovered in the stack.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Read-only access to Kubernetes service accounts discovered in the stack.
   name: Keboola SUPER - Kubernetes API
   slug: keboola-super-kubernetes-api
-- description: Manage Snowflake, BigQuery and other storage backends used by projects.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage Snowflake, BigQuery and other storage backends used by projects.
   name: Keboola SUPER - Storage Backends Management API
   slug: keboola-super-storage-backends-management-api
-- description: Manage UI applications and their deployed versions.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage UI applications and their deployed versions.
   name: Keboola SUPER - UI Management API
   slug: keboola-super-ui-management-api
-- description: The test API from Keboola — 1 operation(s) for test.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The test API from Keboola — 1 operation(s) for test.
   name: Keboola test API
   slug: keboola-test-api
-- description: Inspect the manage token used for the request.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Inspect the manage token used for the request.
   name: Keboola Token Verification API
   slug: keboola-token-verification-api
-- description: Manage Keboola users by super admins.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Manage Keboola users by super admins.
   name: Keboola Users API
   slug: keboola-users-api
-- description: The Variables API from Keboola — 4 operation(s) for variables.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: The Variables API from Keboola — 4 operation(s) for variables.
   name: Keboola Variables API
   slug: keboola-variables-api
-- description: Vendor membership and service accounts.
+- baseURL: https://connection.keboola.com/v2/storage
+  baseurl_source: declared
+  description: Vendor membership and service accounts.
   name: Keboola Vendor API
   slug: keboola-vendor-api
 artifact_total: 527
@@ -1738,7 +1836,7 @@ rules:
   slug: keboola-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.7
+  composite: 41.6
   coverage:
     artifact_dirs: 16
     catalog_gap: 52.8
@@ -1749,12 +1847,12 @@ score:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 58.9
+    contract_quality: 58.5
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 41.8
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1763,7 +1861,7 @@ score:
       marker_coverage: 0.0
       total: 79
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
 security:

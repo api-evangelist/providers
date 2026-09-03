@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Events API from Helika — 1 operation(s) for events.
+- baseURL: https://events.analytics.helika.io
+  baseurl_source: declared
+  description: The Events API from Helika — 1 operation(s) for events.
   name: Helika Events API
   slug: helika-events-api
 artifact_total: 6
@@ -186,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helika/refs/heads/main/screenshots/helika-2026-07-25T220913.png
 security:

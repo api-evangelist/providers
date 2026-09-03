@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 36 operations · 15 acting
 api_count: 3
 apis:
-- description: The Encryption API from Figure — 1 operation(s) for encryption.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Encryption API from Figure — 1 operation(s) for encryption.
   name: Figure Encryption API
   slug: figure-encryption-api
-- description: The HELOC application requests API from Figure — 19 operation(s) for heloc application requests.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The HELOC application requests API from Figure — 19 operation(s) for heloc application requests.
   name: Figure HELOC application requests API
   slug: figure-heloc-application-requests-api
-- description: The HELOC Offers API from Figure — 2 operation(s) for heloc offers.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The HELOC Offers API from Figure — 2 operation(s) for heloc offers.
   name: Figure HELOC Offers API
   slug: figure-heloc-offers-api
-- description: The Loan Originator requests API from Figure — 1 operation(s) for loan originator requests.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Loan Originator requests API from Figure — 1 operation(s) for loan originator requests.
   name: Figure Loan Originator requests API
   slug: figure-loan-originator-requests-api
-- description: The Loan Tape V1 API from Figure — 6 operation(s) for loan tape v1.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Loan Tape V1 API from Figure — 6 operation(s) for loan tape v1.
   name: Figure Loan Tape V1 API
   slug: figure-loan-tape-v1-api
-- description: The Loan Tape V2 API from Figure — 3 operation(s) for loan tape v2.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Loan Tape V2 API from Figure — 3 operation(s) for loan tape v2.
   name: Figure Loan Tape V2 API
   slug: figure-loan-tape-v2-api
-- description: The Payment History V1 API from Figure — 3 operation(s) for payment history v1.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Payment History V1 API from Figure — 3 operation(s) for payment history v1.
   name: Figure Payment History V1 API
   slug: figure-payment-history-v1-api
-- description: The Payment History V2 API from Figure — 1 operation(s) for payment history v2.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Payment History V2 API from Figure — 1 operation(s) for payment history v2.
   name: Figure Payment History V2 API
   slug: figure-payment-history-v2-api
 artifact_total: 22
@@ -241,7 +257,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -251,7 +267,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.4
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/screenshots/figure-2026-07-25T214439.png
 security:

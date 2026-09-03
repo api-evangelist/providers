@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Query and analyze costs using Finout Views
+- baseURL: https://app.finout.io/v1
+  baseurl_source: declared
+  description: Query and analyze costs using Finout Views
   name: Finout Cost API
   slug: finout-cost-api
-- description: Retrieve CostGuard scans and recommendations
+- baseURL: https://app.finout.io/v1
+  baseurl_source: declared
+  description: Retrieve CostGuard scans and recommendations
   name: Finout CostGuard API
   slug: finout-costguard-api
-- description: Query and create notification endpoints
+- baseURL: https://app.finout.io/v1
+  baseurl_source: declared
+  description: Query and create notification endpoints
   name: Finout Endpoints API
   slug: finout-endpoints-api
-- description: Query MegaBill keys, values, and metadata for building filters
+- baseURL: https://app.finout.io/v1
+  baseurl_source: declared
+  description: Query MegaBill keys, values, and metadata for building filters
   name: Finout Query Language API
   slug: finout-query-language-api
-- description: Manage metadata for virtual tags
+- baseURL: https://app.finout.io/v1
+  baseurl_source: declared
+  description: Manage metadata for virtual tags
   name: Finout Virtual Tag Metadata API
   slug: finout-virtual-tag-metadata-api
-- description: Create, retrieve, update, and delete Virtual Tag configurations
+- baseURL: https://app.finout.io/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete Virtual Tag configurations
   name: Finout Virtual Tags API
   slug: finout-virtual-tags-api
 artifact_total: 35
@@ -274,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/screenshots/finout-2026-06-20T181223.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -46,52 +46,84 @@ apis:
 - description: JSON REST API for TalentLMS, scoped to a per-tenant subdomain (https://{domain}.talentlms.com/api/v1/). Manages users, courses, categories, groups, branches, enrollments, units, tests, surveys, ILT se
   name: TalentLMS API
   slug: talentlms-api
-- description: The Account API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for account.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Account API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for account.
   name: Epignosis (TalentLMS, eFront, TalentCards) Account API
   slug: epignosis-talentlms-efront-talentcards-account-api
-- description: The Autologin API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for autologin.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Autologin API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for autologin.
   name: Epignosis (TalentLMS, eFront, TalentCards) Autologin API
   slug: epignosis-talentlms-efront-talentcards-autologin-api
-- description: The Branch API from Epignosis (TalentLMS, eFront, TalentCards) — 5 operation(s) for branch.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Branch API from Epignosis (TalentLMS, eFront, TalentCards) — 5 operation(s) for branch.
   name: Epignosis (TalentLMS, eFront, TalentCards) Branch API
   slug: epignosis-talentlms-efront-talentcards-branch-api
-- description: The Catalog API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for catalog.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Catalog API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for catalog.
   name: Epignosis (TalentLMS, eFront, TalentCards) Catalog API
   slug: epignosis-talentlms-efront-talentcards-catalog-api
-- description: The Category API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for category.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Category API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for category.
   name: Epignosis (TalentLMS, eFront, TalentCards) Category API
   slug: epignosis-talentlms-efront-talentcards-category-api
-- description: The Content API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for content.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Content API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for content.
   name: Epignosis (TalentLMS, eFront, TalentCards) Content API
   slug: epignosis-talentlms-efront-talentcards-content-api
-- description: The Course API from Epignosis (TalentLMS, eFront, TalentCards) — 11 operation(s) for course.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Course API from Epignosis (TalentLMS, eFront, TalentCards) — 11 operation(s) for course.
   name: Epignosis (TalentLMS, eFront, TalentCards) Course API
   slug: epignosis-talentlms-efront-talentcards-course-api
-- description: The Curriculum API from Epignosis (TalentLMS, eFront, TalentCards) — 3 operation(s) for curriculum.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Curriculum API from Epignosis (TalentLMS, eFront, TalentCards) — 3 operation(s) for curriculum.
   name: Epignosis (TalentLMS, eFront, TalentCards) Curriculum API
   slug: epignosis-talentlms-efront-talentcards-curriculum-api
-- description: The Extended Field API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for extended field.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Extended Field API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for extended field.
   name: Epignosis (TalentLMS, eFront, TalentCards) Extended Field API
   slug: epignosis-talentlms-efront-talentcards-extended-field-api
-- description: The Group API from Epignosis (TalentLMS, eFront, TalentCards) — 6 operation(s) for group.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Group API from Epignosis (TalentLMS, eFront, TalentCards) — 6 operation(s) for group.
   name: Epignosis (TalentLMS, eFront, TalentCards) Group API
   slug: epignosis-talentlms-efront-talentcards-group-api
-- description: The Job API from Epignosis (TalentLMS, eFront, TalentCards) — 6 operation(s) for job.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Job API from Epignosis (TalentLMS, eFront, TalentCards) — 6 operation(s) for job.
   name: Epignosis (TalentLMS, eFront, TalentCards) Job API
   slug: epignosis-talentlms-efront-talentcards-job-api
-- description: The Plugin API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for plugin.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Plugin API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for plugin.
   name: Epignosis (TalentLMS, eFront, TalentCards) Plugin API
   slug: epignosis-talentlms-efront-talentcards-plugin-api
-- description: The System API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for system.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The System API from Epignosis (TalentLMS, eFront, TalentCards) — 1 operation(s) for system.
   name: Epignosis (TalentLMS, eFront, TalentCards) System API
   slug: epignosis-talentlms-efront-talentcards-system-api
-- description: The Training Session API from Epignosis (TalentLMS, eFront, TalentCards) — 4 operation(s) for training session.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The Training Session API from Epignosis (TalentLMS, eFront, TalentCards) — 4 operation(s) for training session.
   name: Epignosis (TalentLMS, eFront, TalentCards) Training Session API
   slug: epignosis-talentlms-efront-talentcards-training-session-api
-- description: The User API from Epignosis (TalentLMS, eFront, TalentCards) — 10 operation(s) for user.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The User API from Epignosis (TalentLMS, eFront, TalentCards) — 10 operation(s) for user.
   name: Epignosis (TalentLMS, eFront, TalentCards) User API
   slug: epignosis-talentlms-efront-talentcards-user-api
-- description: The User Type API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for user type.
+- baseURL: https://samples.talentlms.com/api/v1/
+  baseurl_source: declared
+  description: The User Type API from Epignosis (TalentLMS, eFront, TalentCards) — 2 operation(s) for user type.
   name: Epignosis (TalentLMS, eFront, TalentCards) User Type API
   slug: epignosis-talentlms-efront-talentcards-user-type-api
 artifact_total: 41
@@ -321,7 +353,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epignosis-talentlms-efront-talentcards/refs/heads/main/screenshots/epignosis-talentlms-efront-talentcards-2026-07-25T213519.png
 security:

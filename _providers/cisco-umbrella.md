@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,262 +37,432 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 52
 apis:
-- description: The Activities API from Cisco Umbrella — 1 operation(s) for activities.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Activities API from Cisco Umbrella — 1 operation(s) for activities.
   name: Cisco Umbrella Activities API
   slug: cisco-umbrella-activities-api
-- description: The Activity API from Cisco Umbrella — 7 operation(s) for activity.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Activity API from Cisco Umbrella — 7 operation(s) for activity.
   name: Cisco Umbrella Activity API
   slug: cisco-umbrella-activity-api
-- description: The API Keys API from Cisco Umbrella — 3 operation(s) for api keys.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The API Keys API from Cisco Umbrella — 3 operation(s) for api keys.
   name: Cisco Umbrella API Keys API
   slug: cisco-umbrella-api-keys-api
-- description: API Usage reports
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: API Usage reports
   name: Cisco Umbrella API Usage Report API
   slug: cisco-umbrella-api-usage-report-api
-- description: The Application Categories API from Cisco Umbrella — 1 operation(s) for application categories.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Application Categories API from Cisco Umbrella — 1 operation(s) for application categories.
   name: Cisco Umbrella Application Categories API
   slug: cisco-umbrella-application-categories-api
-- description: Manage the application lists and the internet destinations in the application lists.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Manage the application lists and the internet destinations in the application lists.
   name: Cisco Umbrella Application Lists API
   slug: cisco-umbrella-application-lists-api
-- description: The Applications API from Cisco Umbrella — 6 operation(s) for applications.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Applications API from Cisco Umbrella — 6 operation(s) for applications.
   name: Cisco Umbrella Applications API
   slug: cisco-umbrella-applications-api
-- description: The Apps API from Cisco Umbrella — 4 operation(s) for apps.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Apps API from Cisco Umbrella — 4 operation(s) for apps.
   name: Cisco Umbrella Apps API
   slug: cisco-umbrella-apps-api
-- description: The AS Information for a Domain API from Cisco Umbrella — 2 operation(s) for as information for a domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The AS Information for a Domain API from Cisco Umbrella — 2 operation(s) for as information for a domain.
   name: Cisco Umbrella AS Information for a Domain API
   slug: cisco-umbrella-as-information-for-a-domain-api
-- description: The Bandwidth by Hour API from Cisco Umbrella — 1 operation(s) for bandwidth by hour.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Bandwidth by Hour API from Cisco Umbrella — 1 operation(s) for bandwidth by hour.
   name: Cisco Umbrella Bandwidth by Hour API
   slug: cisco-umbrella-bandwidth-by-hour-api
-- description: The Bandwidth by Timerange API from Cisco Umbrella — 1 operation(s) for bandwidth by timerange.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Bandwidth by Timerange API from Cisco Umbrella — 1 operation(s) for bandwidth by timerange.
   name: Cisco Umbrella Bandwidth by Timerange API
   slug: cisco-umbrella-bandwidth-by-timerange-api
-- description: The Cisco Secure Malware Analytics Integration API from Cisco Umbrella — 5 operation(s) for cisco secure malware analytics integration.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Cisco Secure Malware Analytics Integration API from Cisco Umbrella — 5 operation(s) for cisco secure malware analytics integration.
   name: Cisco Umbrella Cisco Secure Malware Analytics Integration API
   slug: cisco-umbrella-cisco-secure-malware-analytics-integration-api
-- description: The Cnames API from Cisco Umbrella — 2 operation(s) for cnames.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Cnames API from Cisco Umbrella — 2 operation(s) for cnames.
   name: Cisco Umbrella Cnames API
   slug: cisco-umbrella-cnames-api
-- description: The Co-occurrences for a Domain API from Cisco Umbrella — 1 operation(s) for co-occurrences for a domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Co-occurrences for a Domain API from Cisco Umbrella — 1 operation(s) for co-occurrences for a domain.
   name: Cisco Umbrella Co-occurrences for a Domain API
   slug: cisco-umbrella-co-occurrences-for-a-domain-api
-- description: The Contacts API from Cisco Umbrella — 2 operation(s) for contacts.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Contacts API from Cisco Umbrella — 2 operation(s) for contacts.
   name: Cisco Umbrella Contacts API
   slug: cisco-umbrella-contacts-api
-- description: The Data Center API from Cisco Umbrella — 1 operation(s) for data center.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Data Center API from Cisco Umbrella — 1 operation(s) for data center.
   name: Cisco Umbrella Data Center API
   slug: cisco-umbrella-data-center-api
-- description: The Debugging API from Cisco Umbrella — 4 operation(s) for debugging.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Debugging API from Cisco Umbrella — 4 operation(s) for debugging.
   name: Cisco Umbrella Debugging API
   slug: cisco-umbrella-debugging-api
-- description: The Deployment Status API from Cisco Umbrella — 1 operation(s) for deployment status.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Deployment Status API from Cisco Umbrella — 1 operation(s) for deployment status.
   name: Cisco Umbrella Deployment Status API
   slug: cisco-umbrella-deployment-status-api
-- description: Destination Lists
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Destination Lists
   name: Cisco Umbrella Destination Lists API
   slug: cisco-umbrella-destination-lists-api
-- description: Destinations
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Destinations
   name: Cisco Umbrella Destinations API
   slug: cisco-umbrella-destinations-api
-- description: The Domain Status and Categorization API from Cisco Umbrella — 2 operation(s) for domain status and categorization.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Domain Status and Categorization API from Cisco Umbrella — 2 operation(s) for domain status and categorization.
   name: Cisco Umbrella Domain Status and Categorization API
   slug: cisco-umbrella-domain-status-and-categorization-api
-- description: The Domain Volume API from Cisco Umbrella — 1 operation(s) for domain volume.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Domain Volume API from Cisco Umbrella — 1 operation(s) for domain volume.
   name: Cisco Umbrella Domain Volume API
   slug: cisco-umbrella-domain-volume-api
-- description: The Entities API from Cisco Umbrella — 1 operation(s) for entities.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Entities API from Cisco Umbrella — 1 operation(s) for entities.
   name: Cisco Umbrella Entities API
   slug: cisco-umbrella-entities-api
-- description: The Identities API from Cisco Umbrella — 1 operation(s) for identities.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Identities API from Cisco Umbrella — 1 operation(s) for identities.
   name: Cisco Umbrella Identities API
   slug: cisco-umbrella-identities-api
-- description: The Identity Distribution API from Cisco Umbrella — 2 operation(s) for identity distribution.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Identity Distribution API from Cisco Umbrella — 2 operation(s) for identity distribution.
   name: Cisco Umbrella Identity Distribution API
   slug: cisco-umbrella-identity-distribution-api
-- description: The Incident Aggregates API from Cisco Umbrella — 3 operation(s) for incident aggregates.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Incident Aggregates API from Cisco Umbrella — 3 operation(s) for incident aggregates.
   name: Cisco Umbrella Incident Aggregates API
   slug: cisco-umbrella-incident-aggregates-api
-- description: The Incident Entities API from Cisco Umbrella — 1 operation(s) for incident entities.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Incident Entities API from Cisco Umbrella — 1 operation(s) for incident entities.
   name: Cisco Umbrella Incident Entities API
   slug: cisco-umbrella-incident-entities-api
-- description: The Incidents API from Cisco Umbrella — 2 operation(s) for incidents.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Incidents API from Cisco Umbrella — 2 operation(s) for incidents.
   name: Cisco Umbrella Incidents API
   slug: cisco-umbrella-incidents-api
-- description: The Internal Domains API from Cisco Umbrella — 2 operation(s) for internal domains.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Internal Domains API from Cisco Umbrella — 2 operation(s) for internal domains.
   name: Cisco Umbrella Internal Domains API
   slug: cisco-umbrella-internal-domains-api
-- description: The Internal Networks API from Cisco Umbrella — 3 operation(s) for internal networks.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Internal Networks API from Cisco Umbrella — 3 operation(s) for internal networks.
   name: Cisco Umbrella Internal Networks API
   slug: cisco-umbrella-internal-networks-api
-- description: The IP Libraries API from Cisco Umbrella — 4 operation(s) for ip libraries.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The IP Libraries API from Cisco Umbrella — 4 operation(s) for ip libraries.
   name: Cisco Umbrella IP Libraries API
   slug: cisco-umbrella-ip-libraries-api
-- description: The Logos API from Cisco Umbrella — 2 operation(s) for logos.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Logos API from Cisco Umbrella — 2 operation(s) for logos.
   name: Cisco Umbrella Logos API
   slug: cisco-umbrella-logos-api
-- description: The Managed Providers API from Cisco Umbrella — 2 operation(s) for managed providers.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Managed Providers API from Cisco Umbrella — 2 operation(s) for managed providers.
   name: Cisco Umbrella Managed Providers API
   slug: cisco-umbrella-managed-providers-api
-- description: Umbrella Network Device Management
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Umbrella Network Device Management
   name: Cisco Umbrella Network Devices API
   slug: cisco-umbrella-network-devices-api
-- description: The Networks API from Cisco Umbrella — 3 operation(s) for networks.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Networks API from Cisco Umbrella — 3 operation(s) for networks.
   name: Cisco Umbrella Networks API
   slug: cisco-umbrella-networks-api
-- description: The Organization Information API from Cisco Umbrella — 1 operation(s) for organization information.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Organization Information API from Cisco Umbrella — 1 operation(s) for organization information.
   name: Cisco Umbrella Organization Information API
   slug: cisco-umbrella-organization-information-api
-- description: The Organization Requests by Hour and Category API from Cisco Umbrella — 2 operation(s) for organization requests by hour and category.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Organization Requests by Hour and Category API from Cisco Umbrella — 2 operation(s) for organization requests by hour and category.
   name: Cisco Umbrella Organization Requests by Hour and Category API
   slug: cisco-umbrella-organization-requests-by-hour-and-category-api
-- description: The Organization Requests by Hour API from Cisco Umbrella — 2 operation(s) for organization requests by hour.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Organization Requests by Hour API from Cisco Umbrella — 2 operation(s) for organization requests by hour.
   name: Cisco Umbrella Organization Requests by Hour API
   slug: cisco-umbrella-organization-requests-by-hour-api
-- description: The Organization Requests by Timerange and Category API from Cisco Umbrella — 2 operation(s) for organization requests by timerange and category.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Organization Requests by Timerange and Category API from Cisco Umbrella — 2 operation(s) for organization requests by timerange and category.
   name: Cisco Umbrella Organization Requests by Timerange and Category API
   slug: cisco-umbrella-organization-requests-by-timerange-and-category-api
-- description: The Organization Requests by Timerange API from Cisco Umbrella — 2 operation(s) for organization requests by timerange.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Organization Requests by Timerange API from Cisco Umbrella — 2 operation(s) for organization requests by timerange.
   name: Cisco Umbrella Organization Requests by Timerange API
   slug: cisco-umbrella-organization-requests-by-timerange-api
-- description: The Organization Tunnel API from Cisco Umbrella — 4 operation(s) for organization tunnel.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Organization Tunnel API from Cisco Umbrella — 4 operation(s) for organization tunnel.
   name: Cisco Umbrella Organization Tunnel API
   slug: cisco-umbrella-organization-tunnel-api
-- description: The Passive DNS API from Cisco Umbrella — 4 operation(s) for passive dns.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Passive DNS API from Cisco Umbrella — 4 operation(s) for passive dns.
   name: Cisco Umbrella Passive DNS API
   slug: cisco-umbrella-passive-dns-api
-- description: The Policies API from Cisco Umbrella — 1 operation(s) for policies.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Policies API from Cisco Umbrella — 1 operation(s) for policies.
   name: Cisco Umbrella Policies API
   slug: cisco-umbrella-policies-api
-- description: Umbrella Policy Management
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Umbrella Policy Management
   name: Cisco Umbrella Policy API
   slug: cisco-umbrella-policy-api
-- description: The Popularity List-Top Million Domains API from Cisco Umbrella — 1 operation(s) for popularity list-top million domains.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Popularity List-Top Million Domains API from Cisco Umbrella — 1 operation(s) for popularity list-top million domains.
   name: Cisco Umbrella Popularity List-Top Million Domains API
   slug: cisco-umbrella-popularity-list-top-million-domains-api
-- description: The Protocols API from Cisco Umbrella — 2 operation(s) for protocols.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Protocols API from Cisco Umbrella — 2 operation(s) for protocols.
   name: Cisco Umbrella Protocols API
   slug: cisco-umbrella-protocols-api
-- description: The Provider Category Requests by Organization API from Cisco Umbrella — 1 operation(s) for provider category requests by organization.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Category Requests by Organization API from Cisco Umbrella — 1 operation(s) for provider category requests by organization.
   name: Cisco Umbrella Provider Category Requests by Organization API
   slug: cisco-umbrella-provider-category-requests-by-organization-api
-- description: The Provider Deployment Status API from Cisco Umbrella — 1 operation(s) for provider deployment status.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Deployment Status API from Cisco Umbrella — 1 operation(s) for provider deployment status.
   name: Cisco Umbrella Provider Deployment Status API
   slug: cisco-umbrella-provider-deployment-status-api
-- description: The Provider Requests by Category API from Cisco Umbrella — 1 operation(s) for provider requests by category.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Requests by Category API from Cisco Umbrella — 1 operation(s) for provider requests by category.
   name: Cisco Umbrella Provider Requests by Category API
   slug: cisco-umbrella-provider-requests-by-category-api
-- description: The Provider Requests by Destination API from Cisco Umbrella — 1 operation(s) for provider requests by destination.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Requests by Destination API from Cisco Umbrella — 1 operation(s) for provider requests by destination.
   name: Cisco Umbrella Provider Requests by Destination API
   slug: cisco-umbrella-provider-requests-by-destination-api
-- description: The Provider Requests by Hour API from Cisco Umbrella — 1 operation(s) for provider requests by hour.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Requests by Hour API from Cisco Umbrella — 1 operation(s) for provider requests by hour.
   name: Cisco Umbrella Provider Requests by Hour API
   slug: cisco-umbrella-provider-requests-by-hour-api
-- description: The Provider Requests by Organization API from Cisco Umbrella — 1 operation(s) for provider requests by organization.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Requests by Organization API from Cisco Umbrella — 1 operation(s) for provider requests by organization.
   name: Cisco Umbrella Provider Requests by Organization API
   slug: cisco-umbrella-provider-requests-by-organization-api
-- description: The Provider Requests by Timerange API from Cisco Umbrella — 1 operation(s) for provider requests by timerange.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Provider Requests by Timerange API from Cisco Umbrella — 1 operation(s) for provider requests by timerange.
   name: Cisco Umbrella Provider Requests by Timerange API
   slug: cisco-umbrella-provider-requests-by-timerange-api
-- description: The Providers API from Cisco Umbrella — 14 operation(s) for providers.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Providers API from Cisco Umbrella — 14 operation(s) for providers.
   name: Cisco Umbrella Providers API
   slug: cisco-umbrella-providers-api
-- description: The Related Domains for a Domain API from Cisco Umbrella — 1 operation(s) for related domains for a domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Related Domains for a Domain API from Cisco Umbrella — 1 operation(s) for related domains for a domain.
   name: Cisco Umbrella Related Domains for a Domain API
   slug: cisco-umbrella-related-domains-for-a-domain-api
-- description: The Roaming Computers API from Cisco Umbrella — 2 operation(s) for roaming computers.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Roaming Computers API from Cisco Umbrella — 2 operation(s) for roaming computers.
   name: Cisco Umbrella Roaming Computers API
   slug: cisco-umbrella-roaming-computers-api
-- description: The Roles API from Cisco Umbrella — 1 operation(s) for roles.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Roles API from Cisco Umbrella — 1 operation(s) for roles.
   name: Cisco Umbrella Roles API
   slug: cisco-umbrella-roles-api
-- description: The S3 Bucket Key Rotation API from Cisco Umbrella — 1 operation(s) for s3 bucket key rotation.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The S3 Bucket Key Rotation API from Cisco Umbrella — 1 operation(s) for s3 bucket key rotation.
   name: Cisco Umbrella S3 Bucket Key Rotation API
   slug: cisco-umbrella-s3-bucket-key-rotation-api
-- description: The Search Domain API from Cisco Umbrella — 1 operation(s) for search domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Search Domain API from Cisco Umbrella — 1 operation(s) for search domain.
   name: Cisco Umbrella Search Domain API
   slug: cisco-umbrella-search-domain-api
-- description: The Security Information for a Domain API from Cisco Umbrella — 2 operation(s) for security information for a domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Security Information for a Domain API from Cisco Umbrella — 2 operation(s) for security information for a domain.
   name: Cisco Umbrella Security Information for a Domain API
   slug: cisco-umbrella-security-information-for-a-domain-api
-- description: The Sites API from Cisco Umbrella — 2 operation(s) for sites.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Sites API from Cisco Umbrella — 2 operation(s) for sites.
   name: Cisco Umbrella Sites API
   slug: cisco-umbrella-sites-api
-- description: The Subdomains for a Domain API from Cisco Umbrella — 1 operation(s) for subdomains for a domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Subdomains for a Domain API from Cisco Umbrella — 1 operation(s) for subdomains for a domain.
   name: Cisco Umbrella Subdomains for a Domain API
   slug: cisco-umbrella-subdomains-for-a-domain-api
-- description: The Summaries by Category API from Cisco Umbrella — 2 operation(s) for summaries by category.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Summaries by Category API from Cisco Umbrella — 2 operation(s) for summaries by category.
   name: Cisco Umbrella Summaries by Category API
   slug: cisco-umbrella-summaries-by-category-api
-- description: The Summaries by Destination API from Cisco Umbrella — 2 operation(s) for summaries by destination.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Summaries by Destination API from Cisco Umbrella — 2 operation(s) for summaries by destination.
   name: Cisco Umbrella Summaries by Destination API
   slug: cisco-umbrella-summaries-by-destination-api
-- description: The Summaries by Rule (Intrusion) API from Cisco Umbrella — 1 operation(s) for summaries by rule (intrusion).
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Summaries by Rule (Intrusion) API from Cisco Umbrella — 1 operation(s) for summaries by rule (intrusion).
   name: Cisco Umbrella Summaries by Rule (Intrusion) API
   slug: cisco-umbrella-summaries-by-rule-intrusion-api
-- description: The Summary API from Cisco Umbrella — 2 operation(s) for summary.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Summary API from Cisco Umbrella — 2 operation(s) for summary.
   name: Cisco Umbrella Summary API
   slug: cisco-umbrella-summary-api
-- description: Secure Web Gateway (SWG) device settings
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Secure Web Gateway (SWG) device settings
   name: Cisco Umbrella SWG Device Settings API
   slug: cisco-umbrella-swg-device-settings-api
-- description: Manage the roaming computers in the Umbrella organization that have a tag.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Manage the roaming computers in the Umbrella organization that have a tag.
   name: Cisco Umbrella Tag Devices API
   slug: cisco-umbrella-tagdevices-api
-- description: The Tagging Timeline API from Cisco Umbrella — 1 operation(s) for tagging timeline.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Tagging Timeline API from Cisco Umbrella — 1 operation(s) for tagging timeline.
   name: Cisco Umbrella Tagging Timeline API
   slug: cisco-umbrella-tagging-timeline-api
-- description: Manage the tags in the organization.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: Manage the tags in the organization.
   name: Cisco Umbrella Tags API
   slug: cisco-umbrella-tags-api
-- description: The Token API from Cisco Umbrella — 1 operation(s) for token.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Token API from Cisco Umbrella — 1 operation(s) for token.
   name: Cisco Umbrella Token API
   slug: cisco-umbrella-token-api
-- description: The Top Categories API from Cisco Umbrella — 2 operation(s) for top categories.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Categories API from Cisco Umbrella — 2 operation(s) for top categories.
   name: Cisco Umbrella Top Categories API
   slug: cisco-umbrella-top-categories-api
-- description: The Top Destinations API from Cisco Umbrella — 3 operation(s) for top destinations.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Destinations API from Cisco Umbrella — 3 operation(s) for top destinations.
   name: Cisco Umbrella Top Destinations API
   slug: cisco-umbrella-top-destinations-api
-- description: The Top DNS Query Types API from Cisco Umbrella — 1 operation(s) for top dns query types.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top DNS Query Types API from Cisco Umbrella — 1 operation(s) for top dns query types.
   name: Cisco Umbrella Top DNS Query Types API
   slug: cisco-umbrella-top-dns-query-types-api
-- description: The Top Event Types API from Cisco Umbrella — 1 operation(s) for top event types.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Event Types API from Cisco Umbrella — 1 operation(s) for top event types.
   name: Cisco Umbrella Top Event Types API
   slug: cisco-umbrella-top-event-types-api
-- description: The Top Files API from Cisco Umbrella — 1 operation(s) for top files.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Files API from Cisco Umbrella — 1 operation(s) for top files.
   name: Cisco Umbrella Top Files API
   slug: cisco-umbrella-top-files-api
-- description: The Top Identities API from Cisco Umbrella — 2 operation(s) for top identities.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Identities API from Cisco Umbrella — 2 operation(s) for top identities.
   name: Cisco Umbrella Top Identities API
   slug: cisco-umbrella-top-identities-api
-- description: The Top IPs API from Cisco Umbrella — 2 operation(s) for top ips.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top IPs API from Cisco Umbrella — 2 operation(s) for top ips.
   name: Cisco Umbrella Top IPs API
   slug: cisco-umbrella-top-ips-api
-- description: The Top Threat Types API from Cisco Umbrella — 2 operation(s) for top threat types.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Threat Types API from Cisco Umbrella — 2 operation(s) for top threat types.
   name: Cisco Umbrella Top Threat Types API
   slug: cisco-umbrella-top-threat-types-api
-- description: The Top Threats API from Cisco Umbrella — 2 operation(s) for top threats.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Top Threats API from Cisco Umbrella — 2 operation(s) for top threats.
   name: Cisco Umbrella Top Threats API
   slug: cisco-umbrella-top-threats-api
-- description: The Total Requests API from Cisco Umbrella — 2 operation(s) for total requests.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Total Requests API from Cisco Umbrella — 2 operation(s) for total requests.
   name: Cisco Umbrella Total Requests API
   slug: cisco-umbrella-total-requests-api
-- description: The Users API from Cisco Umbrella — 4 operation(s) for users.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Users API from Cisco Umbrella — 4 operation(s) for users.
   name: Cisco Umbrella Users API
   slug: cisco-umbrella-users-api
-- description: The Utility API from Cisco Umbrella — 9 operation(s) for utility.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Utility API from Cisco Umbrella — 9 operation(s) for utility.
   name: Cisco Umbrella Utility API
   slug: cisco-umbrella-utility-api
-- description: The Virtual Appliances API from Cisco Umbrella — 2 operation(s) for virtual appliances.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The Virtual Appliances API from Cisco Umbrella — 2 operation(s) for virtual appliances.
   name: Cisco Umbrella Virtual Appliances API
   slug: cisco-umbrella-virtual-appliances-api
-- description: The WHOIS Information for a Domain API from Cisco Umbrella — 6 operation(s) for whois information for a domain.
+- baseURL: https://api.umbrella.com/admin/v2
+  baseurl_source: declared
+  description: The WHOIS Information for a Domain API from Cisco Umbrella — 6 operation(s) for whois information for a domain.
   name: Cisco Umbrella WHOIS Information for a Domain API
   slug: cisco-umbrella-whois-information-for-a-domain-api
 artifact_total: 92
@@ -575,18 +759,18 @@ scopes:
   summary_line: 61 scopes
 score:
   band: strong
-  composite: 59.2
+  composite: 60.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 58.3
+    contract_quality: 61.7
     developer_ergonomics: 70.8
     discoverability: 68.5
     governance: 4.5
@@ -602,8 +786,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/screenshots/cisco-umbrella-2026-09-02T145048.png
 security:
 - kind: authentication
   name: Cisco Umbrella Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 23 operations · 16 acting
 api_count: 1
 apis:
-- description: Operations for sending, receiving, and deleting messages in SQS queues
+- baseURL: https://sqs.{region}.amazonaws.com/
+  baseurl_source: declared
+  description: Operations for sending, receiving, and deleting messages in SQS queues
   name: Amazon SQS Messages API
   slug: amazon-sqs-messages-api
-- description: Operations for managing queue access permissions
+- baseURL: https://sqs.{region}.amazonaws.com/
+  baseurl_source: declared
+  description: Operations for managing queue access permissions
   name: Amazon SQS Permissions API
   slug: amazon-sqs-permissions-api
-- description: Operations for creating, managing, and deleting SQS queues
+- baseURL: https://sqs.{region}.amazonaws.com/
+  baseurl_source: declared
+  description: Operations for creating, managing, and deleting SQS queues
   name: Amazon SQS Queues API
   slug: amazon-sqs-queues-api
-- description: The Tags API from Amazon SQS — 1 operation(s) for tags.
+- baseURL: https://sqs.{region}.amazonaws.com/
+  baseurl_source: declared
+  description: The Tags API from Amazon SQS — 1 operation(s) for tags.
   name: Amazon SQS Tags API
   slug: amazon-sqs-tags-api
 artifact_total: 100
@@ -425,7 +433,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -435,7 +443,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 59.0
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -444,7 +452,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Create, list, retrieve, update and delete survey Projects and their Quotas against the DISQO panel, and manage the included-users, excluded-users and excluded-projects lists that drive recontact and w
+- baseURL: https://projects-api.audience.disqo.com
+  baseurl_source: declared
+  description: Create, list, retrieve, update and delete survey Projects and their Quotas against the DISQO panel, and manage the included-users, excluded-users and excluded-projects lists that drive recontact and w
   name: DISQO Audience Projects API
   slug: disqo-audience-projects-api
 - description: Estimate the number of panelists — feasible completes — available for a given set of qualifications, country, device mix, length of interview and incidence rate before a project is created and fielded
@@ -159,7 +173,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disqo/refs/heads/main/screenshots/disqo-2026-08-07T164402.png
 security:

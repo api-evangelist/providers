@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 50 operations · 50 acting
 api_count: 3
 apis:
-- description: The AddRelationshipService API from Verato — 1 operation(s) for addrelationshipservice.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The AddRelationshipService API from Verato — 1 operation(s) for addrelationshipservice.
   name: Verato AddRelationshipService API
   slug: verato-addrelationshipservice-api
-- description: The CreateDataSource API from Verato — 1 operation(s) for createdatasource.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The CreateDataSource API from Verato — 1 operation(s) for createdatasource.
   name: Verato CreateDataSource API
   slug: verato-createdatasource-api
-- description: The DeactivateSourceWs API from Verato — 1 operation(s) for deactivatesourcews.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The DeactivateSourceWs API from Verato — 1 operation(s) for deactivatesourcews.
   name: Verato DeactivateSourceWs API
   slug: verato-deactivatesourcews-api
-- description: The DeleteRelationshipService API from Verato — 1 operation(s) for deleterelationshipservice.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The DeleteRelationshipService API from Verato — 1 operation(s) for deleterelationshipservice.
   name: Verato DeleteRelationshipService API
   slug: verato-deleterelationshipservice-api
-- description: The DeleteSourceIdentity API from Verato — 1 operation(s) for deletesourceidentity.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The DeleteSourceIdentity API from Verato — 1 operation(s) for deletesourceidentity.
   name: Verato DeleteSourceIdentity API
   slug: verato-deletesourceidentity-api
-- description: The DemographicsQuery API from Verato — 2 operation(s) for demographicsquery.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The DemographicsQuery API from Verato — 2 operation(s) for demographicsquery.
   name: Verato DemographicsQuery API
   slug: verato-demographicsquery-api
-- description: The DemographicsSearch API from Verato — 2 operation(s) for demographicssearch.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The DemographicsSearch API from Verato — 2 operation(s) for demographicssearch.
   name: Verato DemographicsSearch API
   slug: verato-demographicssearch-api
-- description: The HouseholdQuery API from Verato — 1 operation(s) for householdquery.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The HouseholdQuery API from Verato — 1 operation(s) for householdquery.
   name: Verato HouseholdQuery API
   slug: verato-householdquery-api
-- description: The IdentityIdQuery API from Verato — 2 operation(s) for identityidquery.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The IdentityIdQuery API from Verato — 2 operation(s) for identityidquery.
   name: Verato IdentityIdQuery API
   slug: verato-identityidquery-api
-- description: The LinkIdentities API from Verato — 1 operation(s) for linkidentities.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The LinkIdentities API from Verato — 1 operation(s) for linkidentities.
   name: Verato LinkIdentities API
   slug: verato-linkidentities-api
-- description: The MergeIdentities API from Verato — 1 operation(s) for mergeidentities.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The MergeIdentities API from Verato — 1 operation(s) for mergeidentities.
   name: Verato MergeIdentities API
   slug: verato-mergeidentities-api
-- description: The NativeIdQuery API from Verato — 2 operation(s) for nativeidquery.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The NativeIdQuery API from Verato — 2 operation(s) for nativeidquery.
   name: Verato NativeIdQuery API
   slug: verato-nativeidquery-api
-- description: The PostIdentity API from Verato — 2 operation(s) for postidentity.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The PostIdentity API from Verato — 2 operation(s) for postidentity.
   name: Verato PostIdentity API
   slug: verato-postidentity-api
-- description: The ReactivateSourceWs API from Verato — 1 operation(s) for reactivatesourcews.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The ReactivateSourceWs API from Verato — 1 operation(s) for reactivatesourcews.
   name: Verato ReactivateSourceWs API
   slug: verato-reactivatesourcews-api
-- description: The RestoreSource API from Verato — 1 operation(s) for restoresource.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The RestoreSource API from Verato — 1 operation(s) for restoresource.
   name: Verato RestoreSource API
   slug: verato-restoresource-api
-- description: The SearchNotifications API from Verato — 1 operation(s) for searchnotifications.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The SearchNotifications API from Verato — 1 operation(s) for searchnotifications.
   name: Verato SearchNotifications API
   slug: verato-searchnotifications-api
-- description: The SearchRelationshipsService API from Verato — 1 operation(s) for searchrelationshipsservice.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The SearchRelationshipsService API from Verato — 1 operation(s) for searchrelationshipsservice.
   name: Verato SearchRelationshipsService API
   slug: verato-searchrelationshipsservice-api
-- description: The SoftDeleteSource API from Verato — 1 operation(s) for softdeletesource.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The SoftDeleteSource API from Verato — 1 operation(s) for softdeletesource.
   name: Verato SoftDeleteSource API
   slug: verato-softdeletesource-api
-- description: The UnlinkIdentities API from Verato — 1 operation(s) for unlinkidentities.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The UnlinkIdentities API from Verato — 1 operation(s) for unlinkidentities.
   name: Verato UnlinkIdentities API
   slug: verato-unlinkidentities-api
-- description: The UnmergeIdentities API from Verato — 1 operation(s) for unmergeidentities.
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The UnmergeIdentities API from Verato — 1 operation(s) for unmergeidentities.
   name: Verato UnmergeIdentities API
   slug: verato-unmergeidentities-api
 artifact_total: 46
@@ -343,7 +383,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/screenshots/verato-2026-08-17T082722.png
 security:

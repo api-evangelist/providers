@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 2
 apis:
-- description: API key management and usage
+- baseURL: https://developer.biogen.com
+  baseurl_source: declared
+  description: API key management and usage
   name: Biogen Keys API
   slug: biogen-keys-api
-- description: Available Biogen API services
+- baseURL: https://developer.biogen.com
+  baseurl_source: declared
+  description: Available Biogen API services
   name: Biogen Services API
   slug: biogen-services-api
 artifact_total: 43
@@ -282,7 +286,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

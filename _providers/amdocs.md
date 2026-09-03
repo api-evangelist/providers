@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: The Amdocs NetCracker OSS API provides network inventory management, network provisioning, and service assurance capabilities for telecom operators. REST and SOAP APIs support integration with network
   name: Amdocs NetCracker OSS API
   slug: amdocs-netcracker-oss-api
-- description: Billing and invoice operations
+- baseURL: https://api.amdocs-dbs.com
+  baseurl_source: declared
+  description: Billing and invoice operations
   name: Amdocs Billing API
   slug: amdocs-billing-api
-- description: Customer account management
+- baseURL: https://api.amdocs-dbs.com
+  baseurl_source: declared
+  description: Customer account management
   name: Amdocs Customers API
   slug: amdocs-customers-api
-- description: Product catalog management
+- baseURL: https://api.amdocs-dbs.com
+  baseurl_source: declared
+  description: Product catalog management
   name: Amdocs Products API
   slug: amdocs-products-api
-- description: Subscription lifecycle management
+- baseURL: https://api.amdocs-dbs.com
+  baseurl_source: declared
+  description: Subscription lifecycle management
   name: Amdocs Subscriptions API
   slug: amdocs-subscriptions-api
 artifact_total: 93
@@ -390,7 +398,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -400,7 +408,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 39.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -415,7 +423,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/screenshots/amdocs-2026-06-20T171859.png
 security:

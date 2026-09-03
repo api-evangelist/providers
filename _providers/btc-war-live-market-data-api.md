@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Sourced and timestamped Binance Spot observations.
+- baseURL: https://btcwar.net
+  baseurl_source: declared
+  description: Sourced and timestamped Binance Spot observations.
   name: BTC War Live Market Data API Market data API
   slug: btc-war-live-market-data-api-market-data-api
 artifact_total: 14
@@ -258,7 +273,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:

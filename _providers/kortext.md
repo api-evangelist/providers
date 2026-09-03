@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The institution-facing integration surface behind vle.kortext.com — 1EdTech LTI 1.1 launch and LTI 1.3 Deep Linking endpoints that place Kortext content and KeyLinks reading lists inside Blackboard, M
@@ -32,28 +44,44 @@ apis:
 - description: The authenticated application API behind app.kortext.com serving the Kortext study reader and companion apps — identity, content, upload, cover, features, assessments, events and the genai and study-t
   name: Kortext Platform API
   slug: kortext-platform-api
-- description: The Chat API from Kortext — 31 operation(s) for chat.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Chat API from Kortext — 31 operation(s) for chat.
   name: Kortext Chat API
   slug: kortext-chat-api
-- description: The Content API from Kortext — 20 operation(s) for content.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Content API from Kortext — 20 operation(s) for content.
   name: Kortext Content API
   slug: kortext-content-api
-- description: The Health Checks API from Kortext — 2 operation(s) for health checks.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Health Checks API from Kortext — 2 operation(s) for health checks.
   name: Kortext Health Checks API
   slug: kortext-health-checks-api
-- description: The Labs API from Kortext — 1 operation(s) for labs.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Labs API from Kortext — 1 operation(s) for labs.
   name: Kortext Labs API
   slug: kortext-labs-api
-- description: The Podcast API from Kortext — 3 operation(s) for podcast.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Podcast API from Kortext — 3 operation(s) for podcast.
   name: Kortext Podcast API
   slug: kortext-podcast-api
-- description: The Quiz API from Kortext — 8 operation(s) for quiz.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Quiz API from Kortext — 8 operation(s) for quiz.
   name: Kortext Quiz API
   slug: kortext-quiz-api
-- description: The Reading List API from Kortext — 1 operation(s) for reading list.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Reading List API from Kortext — 1 operation(s) for reading list.
   name: Kortext Reading List API
   slug: kortext-reading-list-api
-- description: The Test API from Kortext — 2 operation(s) for test.
+- baseURL: https://api-demo.labs.kortext.com
+  baseurl_source: declared
+  description: The Test API from Kortext — 2 operation(s) for test.
   name: Kortext Test API
   slug: kortext-test-api
 artifact_total: 14
@@ -208,7 +236,7 @@ score:
   band: developing
   composite: 44.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -239,8 +267,9 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/screenshots/kortext-2026-09-02T150138.png
 security:
 - kind: authentication
   name: Kortext Authentication

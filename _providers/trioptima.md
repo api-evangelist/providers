@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Trioptima triResolve is a web-based portfolio reconciliation service for OTC derivatives. It normalizes trade data, reconciles all fields using an algorithmic match engine, and provides break workflow
   name: Trioptima triResolve Portfolio Reconciliation
   slug: triresolve
-- description: Compression cycle discovery and management
+- baseURL: https://rates.trireduce.com
+  baseurl_source: declared
+  description: Compression cycle discovery and management
   name: Trioptima Cycles API
   slug: trioptima-cycles-api
-- description: Compression results and reports
+- baseURL: https://rates.trireduce.com
+  baseurl_source: declared
+  description: Compression results and reports
   name: Trioptima Results API
   slug: trioptima-results-api
-- description: Risk data submission and delta ladder management
+- baseURL: https://rates.trireduce.com
+  baseurl_source: declared
+  description: Risk data submission and delta ladder management
   name: Trioptima Risk API
   slug: trioptima-risk-api
-- description: Trade data submission and retrieval
+- baseURL: https://rates.trireduce.com
+  baseurl_source: declared
+  description: Trade data submission and retrieval
   name: Trioptima Trades API
   slug: trioptima-trades-api
 artifact_total: 55
@@ -290,7 +298,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/screenshots/trioptima-2026-06-20T195722.png
 security:

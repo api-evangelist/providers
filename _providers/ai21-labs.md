@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,13 +68,19 @@ apis:
 - description: Open-weight releases of the Jamba family on Hugging Face for self-hosted inference via vLLM, Transformers, and other runtimes.
   name: AI21 Jamba on Hugging Face
   slug: huggingface
-- description: The Chat API from AI21 Labs — 1 operation(s) for chat.
+- baseURL: https://api.ai21.com/studio/v1
+  baseurl_source: declared
+  description: The Chat API from AI21 Labs — 1 operation(s) for chat.
   name: AI21 Labs Chat API
   slug: ai21-labs-chat-api
-- description: The Library API from AI21 Labs — 1 operation(s) for library.
+- baseURL: https://api.ai21.com/studio/v1
+  baseurl_source: declared
+  description: The Library API from AI21 Labs — 1 operation(s) for library.
   name: AI21 Labs Library API
   slug: ai21-labs-library-api
-- description: The Maestro API from AI21 Labs — 2 operation(s) for maestro.
+- baseURL: https://api.ai21.com/studio/v1
+  baseurl_source: declared
+  description: The Maestro API from AI21 Labs — 2 operation(s) for maestro.
   name: AI21 Labs Maestro API
   slug: ai21-labs-maestro-api
 artifact_total: 25
@@ -223,7 +229,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -236,7 +242,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 44.0
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -245,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/screenshots/ai21-labs-2026-06-20T170826.png
 security:

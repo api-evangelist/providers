@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: In airports around the world and rental car locations near you, get
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hertz.png
 layout: provider
 modified: '2026-04-28'
-name: hertz
+name: Hertz
 nav: Providers
 network: true
-overview: hertz is profiled on the [APIs.io](https://apis.io/) network.
+overview: Hertz is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 11
 score:
   band: minimal
@@ -78,10 +78,10 @@ score:
   previous_composite: 2.6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

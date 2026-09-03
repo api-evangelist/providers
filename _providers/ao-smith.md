@@ -33,18 +33,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith mobile app. Provides connectivity for tracking water u
+- description: AO Smith's iCOMM connected technology platform enables remote monitoring and control of compatible AO Smith water heaters through the A. O. Smith and iCOMM Connectivity mobile apps — tracking water an
   name: AO Smith iCOMM Connected Technology
   slug: ao-smith-icomm-connected-technology
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.aosmith.com/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/ao-smith-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ao-smith-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ao-smith-llms.txt
 - group: company
   title: ''
   type: LinkedIn
@@ -53,33 +65,57 @@ common:
   title: ''
   type: Portal
   url: https://www.aosmith.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.aosmith.com/about-us/contact.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aosmith.com/news.html
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.aosmith.com/legal/terms-of-use/
+  url: https://www.aosmith.com/terms-and-conditions.html
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.aosmith.com/legal/privacy-policy/
+  url: https://www.aosmith.com/privacy-policy
+coverage:
+  checked: '2026-09-02'
+  detail: A. O. Smith ships connected water heaters but no developer program — the iCOMM platform is an end-user mobile app whose only backend is an undocumented Apollo GraphQL endpoint with introspection disabled, and the Red Hat 3scale portal on A. O. Smith's own OpenShift cluster is a stock unconfigured install advertising nothing but 3scale's built-in "Echo API" demo.
+  evidence:
+  - status: 200
+    url: https://r2.wh8.co/graphql
+  - status: 200
+    url: https://3scale.apps.aosmith-prod.hd1m.p1.openshiftapps.com/
+  - status: 0
+    url: https://api.aosmith.com/
+  - status: 404
+    url: https://www.aosmith.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.hotwater.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-03-23'
-description: A. O. Smith Corporation is a global manufacturer of residential and commercial water heaters, boilers, and water treatment products. AO Smith offers connected water heater products with IoT capabilities through its iCOMM connected technology platform, enabling remote monitoring and control of water heating systems via mobile app and third-party integrations.
+description: 'A. O. Smith Corporation (NYSE: AOS) is a global manufacturer of residential and commercial water heaters, boilers, water treatment and air purification products, headquartered in Milwaukee, Wisconsin. Its connected-product line runs on the iCOMM platform, which lets homeowners and plumbing professionals monitor and control compatible water heaters — temperature, vacation mode, leak and maintenance alerts, energy-use history — from a mobile app. A. O. Smith operates no public developer program: there is no developer portal, API reference, OpenAPI, SDK or MCP server, and the iCOMM backend is an undocumented GraphQL endpoint reachable only by the mobile apps and by community clients that reverse-engineered it.'
 finops:
 - name: Ao Smith Finops
   service_category: API
   slug: ao-smith-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ao-smith.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: AO Smith
 nav: Providers
 network: true
-overview: 'AO Smith publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Manufacturing, Smart Home, and Water Heaters.
+overview: 'AO Smith publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IoT, Manufacturing, Smart Home, Water Heaters, and Connected Products.
 
 
-  AO Smith''s developer surface includes developer portal and 4 more developer resources.'
+  AO Smith''s developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Ao Smith Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: ao-smith-plans-pricing
 press:
 - date: '2026-05-25'
@@ -99,42 +135,48 @@ press:
   url: https://investor.aosmith.com/news-releases/news-release-details/water-council-and-o-smith-kick-2018-competition-supporting
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ao Smith Rate Limits
   slug: ao-smith-rate-limits
 score:
   band: emerging
-  composite: 12.0
+  composite: 11.8
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 74.0
+    artifact_dirs: 12
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.2
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 7.9
+    commercial_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 59.3
+    developer_ergonomics: 16.7
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 0.0
   previous_composite: 12.0
+  provenance:
+    mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ao-smith/refs/heads/main/screenshots/ao-smith-2026-06-20T172035.png
 security:
 - kind: domain-security
   name: Ao Smith Domain Security
   slug: ao-smith-domain-security
-  summary_line: TLSv1.2 · HSTS · DMARC
+  summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: ao-smith
 tags:
 - IoT
 - Manufacturing
 - Smart Home
 - Water Heaters
-website: https://www.aosmith.com
+- Connected Products
+- Water Treatment
+- Boilers
+- Consumer Hardware
+website: https://www.aosmith.com/
 ---

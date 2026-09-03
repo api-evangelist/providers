@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -33,34 +46,54 @@ agentic_access:
   summary_line: 37 operations · 25 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Manage API keys for your clients.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: Manage API keys for your clients.
   name: Azupay API Keys API
   slug: azupay-api-keys-api
-- description: Fetch transaction, billing and other reports.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: Fetch transaction, billing and other reports.
   name: Azupay Billing and Transaction Reports API
   slug: azupay-billing-and-transaction-reports-api
-- description: Before you submit a Payment you can validate if the PayID or BSB account of the recipient exists and is eligible to receive payments.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: Before you submit a Payment you can validate if the PayID or BSB account of the recipient exists and is eligible to receive payments.
   name: Azupay Check Accounts API
   slug: azupay-check-accounts-api
-- description: Would let you manage clients
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: Would let you manage clients
   name: Azupay Clients API
   slug: azupay-clients-api
-- description: Obtain current dollar balances for Azupay products
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: Obtain current dollar balances for Azupay products
   name: Azupay Current Balances API
   slug: azupay-current-balances-api
-- description: This API allows you to request Payments using mandates.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: This API allows you to request Payments using mandates.
   name: Azupay Payment Agreement API
   slug: azupay-payment-agreement-api
-- description: This API generates a link to a one-time UX experience that enables payers to create and approve a PayTo Agreement, facilitating the setup of recurring payments through the Payment Initiation API or ba
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: This API generates a link to a one-time UX experience that enables payers to create and approve a PayTo Agreement, facilitating the setup of recurring payments through the Payment Initiation API or ba
   name: Azupay Payment Agreement Request API
   slug: azupay-payment-agreement-request-api
-- description: This API allows you to make outbound payments to PayID or NPP enabled BSB accounts.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: This API allows you to make outbound payments to PayID or NPP enabled BSB accounts.
   name: Azupay Payment API
   slug: azupay-payment-api
-- description: This API allows you to initiate Payments using mandates.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: This API allows you to initiate Payments using mandates.
   name: Azupay Payment Initiation API
   slug: azupay-payment-initiation-api
-- description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
+- baseURL: https://api.azupay.com.au/v1
+  baseurl_source: declared
+  description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
   name: Azupay Payment Request API
   slug: azupay-payment-request-api
 artifact_total: 22
@@ -282,7 +315,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -292,7 +325,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 51.3
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,7 +343,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
 security:

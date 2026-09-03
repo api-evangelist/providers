@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
 - description: Hokkaido University's own Shibboleth/SAML 2.0 identity provider, entityID https://shib-idp01.iic.hokudai.ac.jp/idp/shibboleth, scope hokudai.ac.jp, registered in the GakuNin national academic federati
@@ -190,7 +190,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -200,7 +200,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.9
+  previous_composite: 23.2
   provenance:
     conformance: first-party
   regulatory:
@@ -210,7 +210,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/screenshots/hokkaido-2026-06-20T182813.png
 security:

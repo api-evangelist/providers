@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Divvi Hooks API (positions and shortcuts), served under /hooks-api
+- baseURL: https://api.mainnet.valora.xyz
+  baseurl_source: declared
+  description: Divvi Hooks API (positions and shortcuts), served under /hooks-api
   name: Valora hooks API
   slug: valora-hooks-api
-- description: NFTs held by an address
+- baseURL: https://api.mainnet.valora.xyz
+  baseurl_source: declared
+  description: NFTs held by an address
   name: Valora nfts API
   slug: valora-nfts-api
-- description: Swap quotes
+- baseURL: https://api.mainnet.valora.xyz
+  baseurl_source: declared
+  description: Swap quotes
   name: Valora swaps API
   slug: valora-swaps-api
-- description: Token metadata and prices
+- baseURL: https://api.mainnet.valora.xyz
+  baseurl_source: declared
+  description: Token metadata and prices
   name: Valora tokens API
   slug: valora-tokens-api
-- description: Transaction simulation
+- baseURL: https://api.mainnet.valora.xyz
+  baseurl_source: declared
+  description: Transaction simulation
   name: Valora transactions API
   slug: valora-transactions-api
 artifact_total: 14
@@ -185,7 +195,7 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +226,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/valora/refs/heads/main/screenshots/valora-2026-09-02T165333.png
 security:
 - kind: authentication
   name: Valora Authentication

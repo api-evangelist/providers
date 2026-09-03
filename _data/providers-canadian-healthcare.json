@@ -29,7 +29,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -93,7 +93,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -143,6 +143,7 @@
      "name": "TELUS Health",
      "slug": "telus-health",
      "description": "TELUS Health is the digital-health division of TELUS, one of Canada's largest telecommunications and technology companies, and the country's leading health-IT provider. It operates the PS Suite, Med Access, and cloud-native Collaborative Health Record (CHR) electronic medical records used across Canadian primary care, along with pharmacy management, virtual care, and employer/benefits health services. Its documented public integration surface is the CHR Enterprise API, a GraphQL endpoint secured with RS512-signed JWT bearer tokens that exposes clinic data (patients, appointments, encounters, clinical documents and more) for partner-built add-ons, complemented by the TELUS Patient Chart FHIR R4 implementation guide, a package of 89 published StructureDefinition profiles under the http://telus.com/fhir/patientChart canonical for standards-based patient-record exchange out of TELUS EMRs, and the Omara Health Exchange FHIR interoperability platform. Home market is Canada, where healthcare is province-fragmented and FHIR interoperability is stewarded federally by Canada Health Infoway. Both API surfaces are documented but gated behind a partner or CHR-domain agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telus-health/refs/heads/main/screenshots/telus-health-2026-09-02T162751.png",
      "score": 28.7,
      "band": "thin",
      "band_label": "Thin",
@@ -156,7 +157,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -209,7 +210,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -258,6 +259,7 @@
      "name": "WELL Health Technologies",
      "slug": "well-health",
      "description": "WELL Health Technologies Corp (TSX: WELL, OTCQX: WHTCF) is a Vancouver, Canada-headquartered healthcare technology company that is Canada's largest outpatient medical clinic owner-operator and a leading multi-disciplinary digital health service provider. It runs two synergistic channels: an omni-channel patient services business operating 115+ multidisciplinary clinics across Canada plus US telehealth and anesthesia operations, and a virtual-services / practitioner-enablement platform serving 44,000+ providers through the OSCAR Pro EMR, billing and revenue-cycle tools, eReferral, digital booking, and ePharma. Its programmatic surface is the apps.health marketplace, through which third-party digital health apps integrate with WELL's network of EMRs (OSCAR Pro, Profile) using HL7 FHIR and other interoperability standards. As of this review WELL exposes no self-serve public developer portal, sandbox, OpenAPI, or FHIR CapabilityStatement; integration is FHIR-based but gated behind a partner/contact process. Home market is Canada, positioned in a province-fragmented healthcare landscape coordinated federally by Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/well-health/refs/heads/main/screenshots/well-health-2026-09-02T170603.png",
      "score": 24.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -271,7 +273,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -324,7 +326,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -377,7 +379,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -430,7 +432,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -469,6 +471,7 @@
      "name": "Tia Health",
      "slug": "tia-health",
      "description": "Tia Health is a Canadian telehealth platform that connects patients with licensed Canadian providers - family doctors, nurse practitioners, specialists, and naturopaths - for on-demand virtual care by phone, video, and secure messaging. Its services span virtual walk-in and family-practice appointments, prescription renewals, sick notes, lab requisitions, and mental health therapy (via partner Focus Mental Wellness), with visits covered by provincial health plans in Ontario (OHIP), British Columbia (MSP), and Alberta (AHCIP) and paid options elsewhere. Tia Health is part of the WELL Health Technologies Corp. clinic network, one of the largest outpatient networks in Canada. As of this review Tia Health is a consumer-facing virtual-care product with no public developer portal, no documented REST/OpenAPI, and no exposed HL7 FHIR CapabilityStatement or SMART-on-FHIR configuration; interoperability in the Canadian market is stewarded federally through Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications, which this platform does not publicly surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tia-health/refs/heads/main/screenshots/tia-health-2026-09-02T163658.png",
      "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -482,7 +485,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -544,7 +547,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

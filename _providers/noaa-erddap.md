@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Download subsets of tabular or gridded data.
+- baseURL: https://coastwatch.pfeg.noaa.gov/erddap
+  baseurl_source: declared
+  description: Download subsets of tabular or gridded data.
   name: NOAA ERDDAP Data Access API
   slug: noaa-erddap-data-access-api
-- description: Search and browse available datasets.
+- baseURL: https://coastwatch.pfeg.noaa.gov/erddap
+  baseurl_source: declared
+  description: Search and browse available datasets.
   name: NOAA ERDDAP Discovery API
   slug: noaa-erddap-discovery-api
-- description: Browse and download raw files associated with a dataset.
+- baseURL: https://coastwatch.pfeg.noaa.gov/erddap
+  baseurl_source: declared
+  description: Browse and download raw files associated with a dataset.
   name: NOAA ERDDAP Files API
   slug: noaa-erddap-files-api
-- description: Inspect variable and attribute metadata for a specific dataset.
+- baseURL: https://coastwatch.pfeg.noaa.gov/erddap
+  baseurl_source: declared
+  description: Inspect variable and attribute metadata for a specific dataset.
   name: NOAA ERDDAP Metadata API
   slug: noaa-erddap-metadata-api
 artifact_total: 20
@@ -160,7 +168,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-erddap/refs/heads/main/screenshots/noaa-erddap-2026-06-20T190341.png
 security:

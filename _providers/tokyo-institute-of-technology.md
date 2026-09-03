@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: OAI-PMH 2.0 metadata harvesting interface for T2R2, the Science Tokyo / Tokyo Tech Research Repository, operated by the university library on the institution's own host. Repository name "T2R2 -Tokyo T
+- baseURL: https://t2r2.star.titech.ac.jp/oaipmh/OAIHandler
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting interface for T2R2, the Science Tokyo / Tokyo Tech Research Repository, operated by the university library on the institution's own host. Repository name "T2R2 -Tokyo T
   name: T2R2 Research Repository OAI-PMH
   slug: t2r2-oaipmh
 - description: Shibboleth / SAML 2.0 Identity Provider for institutional single sign-on, registered in GakuNin, Japan's national academic access management federation operated by NII. Advertises the Shibboleth 1.0 A
@@ -220,7 +222,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -230,7 +232,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 48.5
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +247,8 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/screenshots/tokyo-institute-of-technology-2026-06-20T195440.png
 security:
 - kind: authentication

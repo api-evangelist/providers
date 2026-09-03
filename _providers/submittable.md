@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 19 operations · 5 acting
 api_count: 1
 apis:
-- description: Routing of submissions to reviewers.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Routing of submissions to reviewers.
   name: Submittable Assignments API
   slug: submittable-assignments-api
-- description: Form-field responses captured on submissions.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Form-field responses captured on submissions.
   name: Submittable Entries API
   slug: submittable-entries-api
-- description: Budgets and grant distributions.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Budgets and grant distributions.
   name: Submittable Funds API
   slug: submittable-funds-api
-- description: Tags used to categorize submissions.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Tags used to categorize submissions.
   name: Submittable Labels API
   slug: submittable-labels-api
-- description: Message attachments.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Message attachments.
   name: Submittable Messaging API
   slug: submittable-messaging-api
-- description: Payment records.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Payment records.
   name: Submittable Payments API
   slug: submittable-payments-api
-- description: The forms/programs people apply through.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: The forms/programs people apply through.
   name: Submittable Projects API
   slug: submittable-projects-api
-- description: Applications and entries sent to your projects.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Applications and entries sent to your projects.
   name: Submittable Submissions API
   slug: submittable-submissions-api
-- description: Organization team members and reviewers.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Organization team members and reviewers.
   name: Submittable Teams API
   slug: submittable-teams-api
-- description: Submitters - the people who send submissions.
+- baseURL: https://submittable-api.submittable.com/v4
+  baseurl_source: declared
+  description: Submitters - the people who send submissions.
   name: Submittable Users API
   slug: submittable-users-api
 artifact_total: 29
@@ -190,7 +210,7 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -213,8 +233,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/submittable/refs/heads/main/screenshots/submittable-2026-09-02T161056.png
 security:
 - kind: authentication
   name: Submittable Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 941
   human_in_the_loop: 3
@@ -45,106 +45,174 @@ agentic_access:
   summary_line: 1467 operations · 941 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: 'Account related resources of the *Lytics API*. The Account resource describes an account. An account can be a *Master* account, which means that it is a billing account. Master accounts have children '
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: 'Account related resources of the *Lytics API*. The Account resource describes an account. An account can be a *Master* account, which means that it is a billing account. Master accounts have children '
   name: Lytics Account API
   slug: lytics-account-api
-- description: Account Settings describe features/settings for a Lytics account.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Account Settings describe features/settings for a Lytics account.
   name: Lytics Account Settings API
   slug: lytics-account-settings-api
-- description: API for creation or storage of auth tokens. Most of these tokens are created from the Integrations/Imports setup for Lytics integrations. Additionally, api tokens can be created/managed from this endp
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: API for creation or storage of auth tokens. Most of these tokens are created from the Integrations/Imports setup for Lytics integrations. Additionally, api tokens can be created/managed from this endp
   name: Lytics Auth API
   slug: lytics-auth-api
-- description: Create and manage credentials and access to external systems.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage credentials and access to external systems.
   name: Lytics Auths API
   slug: lytics-auths-api
-- description: Catalog exposes info about the schema of the data in Lytics. * **Entities** are Object Types, the primary one being a *User* although most accounts also have *Content* and *Campaign* as well. Custom o
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Catalog exposes info about the schema of the data in Lytics. * **Entities** are Object Types, the primary one being a *User* although most accounts also have *Content* and *Campaign* as well. Custom o
   name: Lytics Catalog API
   slug: lytics-catalog-api
-- description: Create and manage connections to external data sources.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage connections to external data sources.
   name: Lytics Connections API
   slug: lytics-connections-api
-- description: Content APIs for Lytics Content Affinity Engine, allow for adding content into lytics, getting lists of content, and understanding the content and content-topics. **Content Classification** Content cl
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Content APIs for Lytics Content Affinity Engine, allow for adding content into lytics, getting lists of content, and understanding the content and content-topics. **Content Classification** Content cl
   name: Lytics Content API
   slug: lytics-content-api
-- description: Create and manage data models and their record stores.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage data models and their record stores.
   name: Lytics Data Models API
   slug: lytics-datamodels-api
-- description: APIs for collecting or uploading data. There are two main APIs, one for uploading Large files (bulk, millions of records) and another for sending real-time, or slightly batched events (Less than 10MB)
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: APIs for collecting or uploading data. There are two main APIs, one for uploading Large files (bulk, millions of records) and another for sending real-time, or slightly batched events (Less than 10MB)
   name: Lytics Data Upload API
   slug: lytics-dataupload-api
-- description: API for creating and managing Experiences as well as all related and/or dependent models such as but not limited to Groups, Templates, Candidates, etc.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: API for creating and managing Experiences as well as all related and/or dependent models such as but not limited to Groups, Templates, Candidates, etc.
   name: Lytics Experience API
   slug: lytics-experience-api
-- description: Create and manage flows that orchestrate multi-step audience journeys.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage flows that orchestrate multi-step audience journeys.
   name: Lytics Flows API
   slug: lytics-flows-api
-- description: Create and manage data import and export jobs.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage data import and export jobs.
   name: Lytics Jobs API
   slug: lytics-jobs-api
-- description: 'The Metric API provides access to a variety of metrics that are recorded in the Lytics platform. With this API, you can access segment-size metrics, events received per-hour, as well as many workflow '
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: 'The Metric API provides access to a variety of metrics that are recorded in the Lytics platform. With this API, you can access segment-size metrics, events received per-hour, as well as many workflow '
   name: Lytics Metric API
   slug: lytics-metric-api
-- description: Query time series metrics for segments, streams, experiences, and other Lytics resources.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Query time series metrics for segments, streams, experiences, and other Lytics resources.
   name: Lytics Metrics API
   slug: lytics-metrics-api
-- description: The ML Models API from Lytics — 3 operation(s) for ml models.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: The ML Models API from Lytics — 3 operation(s) for ml models.
   name: Lytics ML Models API
   slug: lytics-ml-models-api
-- description: 'Entity API, ie Personalization or Profile API. Retrieve attributes and segments an entity (most likely a user) is a member of. The *Entity* is a *User* most likely, but since Lytics is organized as a '
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: 'Entity API, ie Personalization or Profile API. Retrieve attributes and segments an entity (most likely a user) is a member of. The *Entity* is a *User* most likely, but since Lytics is organized as a '
   name: Lytics Personalization API
   slug: lytics-personalization-api
-- description: Get and delete user profiles.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Get and delete user profiles.
   name: Lytics Profiles API
   slug: lytics-profiles-api
-- description: Provider is a 3rd party Lytics Integrates with (Mailchimp, Optimizely, Mixpanel, Facebook etc)
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Provider is a 3rd party Lytics Integrates with (Mailchimp, Optimizely, Mixpanel, Facebook etc)
   name: Lytics Provider API
   slug: lytics-provider-api
-- description: Schema management api to add/edit queries and user-fields. Lytics Query Language ============================= The Lytics Query Language is used to define the transformation of uploaded records, and e
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Schema management api to add/edit queries and user-fields. Lytics Query Language ============================= The Lytics Query Language is used to define the transformation of uploaded records, and e
   name: Lytics Query API
   slug: lytics-query-api
-- description: Create and manage reports.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage reports.
   name: Lytics Reports API
   slug: lytics-reports-api
-- description: Manage how data sources populate profile fields.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Manage how data sources populate profile fields.
   name: Lytics Schema API
   slug: lytics-schema-api
-- description: Segments are named, logical expressions of users. These segments may logically be built using other segments as well. The segment api provides a list of segments built by both the admin, pre-defined s
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Segments are named, logical expressions of users. These segments may logically be built using other segments as well. The segment api provides a list of segments built by both the admin, pre-defined s
   name: Lytics Segment API
   slug: lytics-segment-api
-- description: Segment Collections are grouped/named lists of segments. Segments that participate in a collection such as **Goals** are related. The Lytics App ui has one predefined collection called **Goals** which
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Segment Collections are grouped/named lists of segments. Segments that participate in a collection such as **Goals** are related. The Lytics App ui has one predefined collection called **Goals** which
   name: Lytics Segment Collection API
   slug: lytics-segmentcollection-api
-- description: SegmentML provides a framework for building custom machine learning models directly in Lytics. Lytics SegmentML models are self-training, continuously-updating and real-time. SegmentML models are buil
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: SegmentML provides a framework for building custom machine learning models directly in Lytics. Lytics SegmentML models are self-training, continuously-updating and real-time. SegmentML models are buil
   name: Lytics Segment ML API
   slug: lytics-segmentml-api
-- description: Create and manage audience segments.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create and manage audience segments.
   name: Lytics Segments API
   slug: lytics-segments-api
-- description: 'API for creating stream models. A stream is the same as a [data stream](https://learn.lytics.com/product-docs/data-management/using-data-streams#what-are-data-streams? ) and is consumed for ingestion '
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: 'API for creating stream models. A stream is the same as a [data stream](https://learn.lytics.com/product-docs/data-management/using-data-streams#what-are-data-streams? ) and is consumed for ingestion '
   name: Lytics Stream API
   slug: lytics-stream-api
-- description: Get metrics and events for data streams in your Lytics account.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Get metrics and events for data streams in your Lytics account.
   name: Lytics Streams API
   slug: lytics-streams-api
-- description: '**BETA API** Subscriptions are queries into real-time events in Lytics, most commonly listening to a list of users entering/leaving segments ie _triggers_. **Common Use Cases** * Upon Entering/Leaving'
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: '**BETA API** Subscriptions are queries into real-time events in Lytics, most commonly listening to a list of users entering/leaving segments ie _triggers_. **Common Use Cases** * Upon Entering/Leaving'
   name: Lytics Subscription API
   slug: lytics-subscription-api
-- description: Manage Lytics system users and their access to data and resources.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Manage Lytics system users and their access to data and resources.
   name: Lytics System API
   slug: lytics-system-api
-- description: Get internal Lytics system events. These events are generally related to internal changes to state of an account. Common changes are CRUD Operations (Create, Update, Delete) of *Account*, *Admin User*
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Get internal Lytics system events. These events are generally related to internal changes to state of an account. Common changes are CRUD Operations (Create, Update, Delete) of *Account*, *Admin User*
   name: Lytics System Events API
   slug: lytics-system-events-api
-- description: Create, manage, and test templates.
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Create, manage, and test templates.
   name: Lytics Templates API
   slug: lytics-templates-api
-- description: Info about Administrative Lytics account users * Lytics users are unique across accounts * They get *invited* to have access to your account
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Info about Administrative Lytics account users * Lytics users are unique across accounts * They get *invited* to have access to your account
   name: Lytics User API
   slug: lytics-user-api
-- description: 'Work is an *integration* unit, typically for imports and exports. Most run continually, while some run to completion. You generally would only use it through the Webadmin Integrations. * *Workflow* A '
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: 'Work is an *integration* unit, typically for imports and exports. Most run continually, while some run to completion. You generally would only use it through the Webadmin Integrations. * *Workflow* A '
   name: Lytics Work API
   slug: lytics-work-api
-- description: Workflow is a specification for a work unit
+- baseURL: https://api.lytics.io/v2
+  baseurl_source: declared
+  description: Workflow is a specification for a work unit
   name: Lytics Workflow API
   slug: lytics-workflow-api
 artifact_total: 54
@@ -462,7 +530,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -472,7 +540,7 @@ score:
     discoverability: 51.9
     governance: 29.5
     operational_transparency: 34.2
-  previous_composite: 61.0
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -484,7 +552,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/screenshots/lytics-2026-06-20T184816.png
 security:

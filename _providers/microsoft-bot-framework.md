@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Libraries for building conversational AI bots in C#, JavaScript, Python, and Java.
   name: Bot Builder SDK
   slug: bot-builder-sdk
-- description: The Activities API from Microsoft Bot Framework — 3 operation(s) for activities.
+- baseURL: https://api.botframework.com/
+  baseurl_source: declared
+  description: The Activities API from Microsoft Bot Framework — 3 operation(s) for activities.
   name: Microsoft Bot Framework Activities API
   slug: microsoft-bot-framework-activities-api
-- description: The Attachments API from Microsoft Bot Framework — 3 operation(s) for attachments.
+- baseURL: https://api.botframework.com/
+  baseurl_source: declared
+  description: The Attachments API from Microsoft Bot Framework — 3 operation(s) for attachments.
   name: Microsoft Bot Framework Attachments API
   slug: microsoft-bot-framework-attachments-api
-- description: The Conversations API from Microsoft Bot Framework — 1 operation(s) for conversations.
+- baseURL: https://api.botframework.com/
+  baseurl_source: declared
+  description: The Conversations API from Microsoft Bot Framework — 1 operation(s) for conversations.
   name: Microsoft Bot Framework Conversations API
   slug: microsoft-bot-framework-conversations-api
-- description: The Members API from Microsoft Bot Framework — 4 operation(s) for members.
+- baseURL: https://api.botframework.com/
+  baseurl_source: declared
+  description: The Members API from Microsoft Bot Framework — 4 operation(s) for members.
   name: Microsoft Bot Framework Members API
   slug: microsoft-bot-framework-members-api
 artifact_total: 19
@@ -183,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/screenshots/microsoft-bot-framework-2026-06-20T185445.png
 security:

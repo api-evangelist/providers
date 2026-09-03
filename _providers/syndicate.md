@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 24 operations · 14 acting
 api_count: 1
 apis:
-- description: The api-key-manager > admin API from Syndicate — 11 operation(s) for api-key-manager > admin.
+- baseURL: https://api.syndicate.io
+  baseurl_source: declared
+  description: The api-key-manager > admin API from Syndicate — 11 operation(s) for api-key-manager > admin.
   name: Syndicate api-key-manager > admin API
   slug: syndicate-api-key-manager-admin-api
-- description: The call API from Syndicate — 1 operation(s) for call.
+- baseURL: https://api.syndicate.io
+  baseurl_source: declared
+  description: The call API from Syndicate — 1 operation(s) for call.
   name: Syndicate call API
   slug: syndicate-call-api
-- description: The transact API from Syndicate — 1 operation(s) for transact.
+- baseURL: https://api.syndicate.io
+  baseurl_source: declared
+  description: The transact API from Syndicate — 1 operation(s) for transact.
   name: Syndicate transact API
   slug: syndicate-transact-api
-- description: The wallet API from Syndicate — 11 operation(s) for wallet.
+- baseURL: https://api.syndicate.io
+  baseurl_source: declared
+  description: The wallet API from Syndicate — 11 operation(s) for wallet.
   name: Syndicate wallet API
   slug: syndicate-wallet-api
 artifact_total: 14
@@ -225,7 +233,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -235,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 44.0
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +261,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syndicate/refs/heads/main/screenshots/syndicate-2026-08-17T082233.png
 security:

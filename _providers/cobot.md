@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
@@ -33,130 +45,214 @@ apis:
 - description: A hosted, remote Model Context Protocol server operated by Cobot at api.cobot.me/mcp. It is live and OAuth 2.0 protected — an anonymous tools/list returns 401 with an RFC 9728 WWW-Authenticate challen
   name: Cobot MCP Server
   slug: cobot-mcp
-- description: A long-term allocation of a resource to a membership or team.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A long-term allocation of a resource to a membership or team.
   name: Cobot Allocation API
   slug: cobot-allocation-api
-- description: Approving terms & conditions, privacy policies etc. as a member of a space.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Approving terms & conditions, privacy policies etc. as a member of a space.
   name: Cobot Approval API
   slug: cobot-approval-api
-- description: A help desk article explaning an aspect of the space.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A help desk article explaning an aspect of the space.
   name: Cobot Article API
   slug: cobot-article-api
-- description: A booking of a resource in the booking calendar.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A booking of a resource in the booking calendar.
   name: Cobot Booking API
   slug: cobot-booking-api
-- description: Booking credits are added to plans and give memberships free booking time or a fixed amount of free bookings. The hourly rate of a resource can also be customized.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Booking credits are added to plans and give memberships free booking time or a fixed amount of free bookings. The hourly rate of a resource can also be customized.
   name: Cobot Booking Credit API
   slug: cobot-booking-credit-api
-- description: Email customizations for emails that can be sent via Cobot.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Email customizations for emails that can be sent via Cobot.
   name: Cobot Built-in Email Customizations API
   slug: cobot-built-in-email-customizations-api
-- description: Blocks off a space for member/external bookings and drop-in passes.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Blocks off a space for member/external bookings and drop-in passes.
   name: Cobot Calendar Blocker API
   slug: cobot-calendar-blocker-api
-- description: Members check in to a space for attendance tracking and for using up their time passes.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Members check in to a space for attendance tracking and for using up their time passes.
   name: Cobot Check In API
   slug: cobot-check-in-api
-- description: Non-member contacts a space has.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Non-member contacts a space has.
   name: Cobot Contact API
   slug: cobot-contact-api
-- description: Cost centers are used to categorize invoice items. Anything that can be invoiced can be assigned a cost center. When a service/charge is added to an invoice, its cost center will be assigned to the re
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Cost centers are used to categorize invoice items. Anything that can be invoiced can be assigned a cost center. When a service/charge is added to an invoice, its cost center will be assigned to the re
   name: Cobot Cost Center API
   slug: cobot-cost-center-api
-- description: A trial space can be converted to a customer
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A trial space can be converted to a customer
   name: Cobot Customer API
   slug: cobot-customer-api
-- description: A discount code can be used to offer a discount for various products in a space.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A discount code can be used to offer a discount for various products in a space.
   name: Cobot Discount Code API
   slug: cobot-discount-code-api
-- description: Purchased drop-in passes.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Purchased drop-in passes.
   name: Cobot Drop-In Pass API
   slug: cobot-drop-in-pass-api
-- description: A purchase of drop-in-passes, currently only supports buying one pass at a time.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A purchase of drop-in-passes, currently only supports buying one pass at a time.
   name: Cobot Drop-In Pass Purchase API
   slug: cobot-drop-in-pass-purchase-api
-- description: Drop-in pass templates are templates for drop-in passes that can be bought by visitors.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Drop-in pass templates are templates for drop-in passes that can be bought by visitors.
   name: Cobot Drop-In Pass Template API
   slug: cobot-drop-in-pass-template-api
-- description: Spaces can run events for their members or the public. Events are created and later published by admins, at which point members are able to see and attend them. Admins can also create messages for eve
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Spaces can run events for their members or the public. Events are created and later published by admins, at which point members are able to see and attend them. Admins can also create messages for eve
   name: Cobot Event API
   slug: cobot-event-api
-- description: After a resource has been enabled for external booking (see _External Resource_) it can be booked by visitors (non-members) using external booking endpoints. Making an external booking also results in
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: After a resource has been enabled for external booking (see _External Resource_) it can be booked by visitors (non-members) using external booking endpoints. Making an external booking also results in
   name: Cobot External Booking API
   slug: cobot-external-booking-api
-- description: A space's resources can be enabled for external booking, which means they can be booked by guests without a Cobot account or space membership. All resources enabled for external booking appear under e
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A space's resources can be enabled for external booking, which means they can be booked by guests without a Cobot account or space membership. All resources enabled for external booking appear under e
   name: Cobot External Resource API
   slug: cobot-external-resource-api
-- description: Invoices are automatically generated once a month, based on members' activity. In addition, manual invoices can be generated at any time.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Invoices are automatically generated once a month, based on members' activity. In addition, manual invoices can be generated at any time.
   name: Cobot Invoice API
   slug: cobot-invoice-api
-- description: Admins can send invoice reminders for overdue invoices.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Admins can send invoice reminders for overdue invoices.
   name: Cobot Invoice Reminder API
   slug: cobot-invoice-reminder-api
-- description: Represents a person being a member in a space. Can optionally be connected to a User.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Represents a person being a member in a space. Can optionally be connected to a User.
   name: Cobot Membership API
   slug: cobot-membership-api
-- description: The plans belonging to a membership. When a membership is signed up one of the space's plans is selected and a copy is created for the membership. A membership's plan can be customized or changed over
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: The plans belonging to a membership. When a membership is signed up one of the space's plans is selected and a copy is created for the membership. A membership's plan can be customized or changed over
   name: Cobot Membership Plan API
   slug: cobot-membership-plan-api
-- description: Social profile for a membership.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Social profile for a membership.
   name: Cobot Membership Profile API
   slug: cobot-membership-profile-api
-- description: Navigation links allow you to embed 3rd party apps on a space's Cobot UI. See also the single page app endpoints.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Navigation links allow you to embed 3rd party apps on a space's Cobot UI. See also the single page app endpoints.
   name: Cobot Navigation Link API
   slug: cobot-navigation-link-api
-- description: Multiple spaces can form a network. This allows their members to access multiple spaces, for example to book resources.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Multiple spaces can form a network. This allows their members to access multiple spaces, for example to book resources.
   name: Cobot Network API
   slug: cobot-network-api
-- description: '*The payment API is in development. Endpoints may be missing or not working yet.* Payments allow any user (i.e. non-members) to pay for items on Cobot via the payment methods a space has set up. For n'
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: '*The payment API is in development. Endpoints may be missing or not working yet.* Payments allow any user (i.e. non-members) to pay for items on Cobot via the payment methods a space has set up. For n'
   name: Cobot Payment API
   slug: cobot-payment-api
-- description: Spaces can set up payment methods that members can use to make payments to the space. Payment methods can be automated via a payment provider such as Stripe or manual (e.g. cash, bank transfer).
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Spaces can set up payment methods that members can use to make payments to the space. Payment methods can be automated via a payment provider such as Stripe or manual (e.g. cash, bank transfer).
   name: Cobot Payment Method API
   slug: cobot-payment-method-api
-- description: Products can be set up by a space and then used as booking extras or to create charges from. Examples are coffee, projectors, additional cleaning services etc.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Products can be set up by a space and then used as booking extras or to create charges from. Examples are coffee, projectors, additional cleaning services etc.
   name: Cobot Product API
   slug: cobot-product-api
-- description: A full or partial refund of an invoice.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A full or partial refund of an invoice.
   name: Cobot Refund API
   slug: cobot-refund-api
-- description: A resource can be booked on an hourly basis using the booking calendar. Examples are conference rooms, presentation equipment, bikes etc.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A resource can be booked on an hourly basis using the booking calendar. Examples are conference rooms, presentation equipment, bikes etc.
   name: Cobot Resource API
   slug: cobot-resource-api
-- description: Revenue accounts are used to categorize invoice items. Anything that can be invoiced can be assigned a revenue account. When a service/charge is added to an invoice, its revenue account will be assign
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Revenue accounts are used to categorize invoice items. Anything that can be invoiced can be assigned a revenue account. When a service/charge is added to an invoice, its revenue account will be assign
   name: Cobot Revenue Account API
   slug: cobot-revenue-account-api
-- description: A single page app consists of HTML, CSS and JavaScript code. It can be embedded into the Cobot UI via navigation links.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A single page app consists of HTML, CSS and JavaScript code. It can be embedded into the Cobot UI via navigation links.
   name: Cobot Single page app API
   slug: cobot-single-page-app-api
-- description: A coworking space. Spaces can form a network to allow members access to multiple spaces.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A coworking space. Spaces can form a network to allow members access to multiple spaces.
   name: Cobot Space API
   slug: cobot-space-api
-- description: Billing details of a space.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Billing details of a space.
   name: Cobot Space Billing Details API
   slug: cobot-space-billing-details-api
-- description: The payment method a space uses to pay their Cobot subscription.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: The payment method a space uses to pay their Cobot subscription.
   name: Cobot Space Payment Method API
   slug: cobot-space-payment-method-api
-- description: Preview of a to-be-created space.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Preview of a to-be-created space.
   name: Cobot Space Preview API
   slug: cobot-space-preview-api
-- description: Public profile information such as location, phone, website, social media links.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Public profile information such as location, phone, website, social media links.
   name: Cobot Space Profile API
   slug: cobot-space-profile-api
-- description: How much a space pays Cobot, how many members they can have and the extras they have booked.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: How much a space pays Cobot, how many members they can have and the extras they have booked.
   name: Cobot Subscription API
   slug: cobot-subscription-api
-- description: The Team API from Cobot — 2 operation(s) for team.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: The Team API from Cobot — 2 operation(s) for team.
   name: Cobot Team API
   slug: cobot-team-api
-- description: 'These URLs/URL templates enable API clients to provide links to the Cobot web interface without having to hard-code them. Each Url includes a unique, never changing `identifier` and either a `url` or '
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: 'These URLs/URL templates enable API clients to provide links to the Cobot web interface without having to hard-code them. Each Url includes a unique, never changing `identifier` and either a `url` or '
   name: Cobot URL API
   slug: cobot-url-api
-- description: A user is used to log in to Cobot via email/password. Users can be admins/members (see Membership) in multiple spaces.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: A user is used to log in to Cobot via email/password. Users can be admins/members (see Membership) in multiple spaces.
   name: Cobot User API
   slug: cobot-user-api
-- description: Confirms if a given email address is free to take.
+- baseURL: https://api.cobot.me
+  baseurl_source: declared
+  description: Confirms if a given email address is free to take.
   name: Cobot User Email Preview API
   slug: cobot-user-email-preview-api
 artifact_total: 90
@@ -466,7 +562,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -476,7 +572,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.8
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     contracts:
@@ -493,7 +589,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/screenshots/cobot-2026-08-17T080822.png
 security:

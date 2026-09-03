@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -43,181 +43,299 @@ agentic_access:
   summary_line: 300 operations · 147 acting
 api_count: 1
 apis:
-- description: The Account backups API from Aha.io — 3 operation(s) for account backups.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Account backups API from Aha.io — 3 operation(s) for account backups.
   name: Aha.io Account backups API
   slug: aha-account-backups-api
-- description: The Attachments API from Aha.io — 7 operation(s) for attachments.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Attachments API from Aha.io — 7 operation(s) for attachments.
   name: Aha.io Attachments API
   slug: aha-attachments-api
-- description: The Audits API from Aha.io — 1 operation(s) for audits.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Audits API from Aha.io — 1 operation(s) for audits.
   name: Aha.io Audits API
   slug: aha-audits-api
-- description: The Capacity estimate values API from Aha.io — 2 operation(s) for capacity estimate values.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Capacity estimate values API from Aha.io — 2 operation(s) for capacity estimate values.
   name: Aha.io Capacity estimate values API
   slug: aha-capacity-estimate-values-api
-- description: The Capacity investments API from Aha.io — 5 operation(s) for capacity investments.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Capacity investments API from Aha.io — 5 operation(s) for capacity investments.
   name: Aha.io Capacity investments API
   slug: aha-capacity-investments-api
-- description: The Capacity scenarios API from Aha.io — 2 operation(s) for capacity scenarios.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Capacity scenarios API from Aha.io — 2 operation(s) for capacity scenarios.
   name: Aha.io Capacity scenarios API
   slug: aha-capacity-scenarios-api
-- description: The Comments API from Aha.io — 12 operation(s) for comments.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Comments API from Aha.io — 12 operation(s) for comments.
   name: Aha.io Comments API
   slug: aha-comments-api
-- description: The Competitors API from Aha.io — 3 operation(s) for competitors.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Competitors API from Aha.io — 3 operation(s) for competitors.
   name: Aha.io Competitors API
   slug: aha-competitors-api
-- description: The Creative briefs API from Aha.io — 3 operation(s) for creative briefs.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Creative briefs API from Aha.io — 3 operation(s) for creative briefs.
   name: Aha.io Creative briefs API
   slug: aha-creative-briefs-api
-- description: The Custom field options API from Aha.io — 2 operation(s) for custom field options.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Custom field options API from Aha.io — 2 operation(s) for custom field options.
   name: Aha.io Custom field options API
   slug: aha-custom-field-options-api
-- description: The Custom fields API from Aha.io — 2 operation(s) for custom fields.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Custom fields API from Aha.io — 2 operation(s) for custom fields.
   name: Aha.io Custom fields API
   slug: aha-custom-fields-api
-- description: The Custom Layouts API from Aha.io — 2 operation(s) for custom layouts.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Custom Layouts API from Aha.io — 2 operation(s) for custom layouts.
   name: Aha.io Custom Layouts API
   slug: aha-custom-layouts-api
-- description: The Custom pivots API from Aha.io — 1 operation(s) for custom pivots.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Custom pivots API from Aha.io — 1 operation(s) for custom pivots.
   name: Aha.io Custom pivots API
   slug: aha-custom-pivots-api
-- description: The Custom table record links API from Aha.io — 8 operation(s) for custom table record links.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Custom table record links API from Aha.io — 8 operation(s) for custom table record links.
   name: Aha.io Custom table record links API
   slug: aha-custom-table-record-links-api
-- description: The Custom table records API from Aha.io — 2 operation(s) for custom table records.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Custom table records API from Aha.io — 2 operation(s) for custom table records.
   name: Aha.io Custom table records API
   slug: aha-custom-table-records-api
-- description: The Deletions API from Aha.io — 2 operation(s) for deletions.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Deletions API from Aha.io — 2 operation(s) for deletions.
   name: Aha.io Deletions API
   slug: aha-deletions-api
-- description: The Epics API from Aha.io — 6 operation(s) for epics.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Epics API from Aha.io — 6 operation(s) for epics.
   name: Aha.io Epics API
   slug: aha-epics-api
-- description: The Features API from Aha.io — 8 operation(s) for features.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Features API from Aha.io — 8 operation(s) for features.
   name: Aha.io Features API
   slug: aha-features-api
-- description: The Goals API from Aha.io — 5 operation(s) for goals.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Goals API from Aha.io — 5 operation(s) for goals.
   name: Aha.io Goals API
   slug: aha-goals-api
-- description: The Historical Audits API from Aha.io — 1 operation(s) for historical audits.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Historical Audits API from Aha.io — 1 operation(s) for historical audits.
   name: Aha.io Historical Audits API
   slug: aha-historical-audits-api
-- description: The Idea categories API from Aha.io — 1 operation(s) for idea categories.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea categories API from Aha.io — 1 operation(s) for idea categories.
   name: Aha.io Idea categories API
   slug: aha-idea-categories-api
-- description: The Idea comments API from Aha.io — 3 operation(s) for idea comments.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea comments API from Aha.io — 3 operation(s) for idea comments.
   name: Aha.io Idea comments API
   slug: aha-idea-comments-api
-- description: The Idea organizations API from Aha.io — 2 operation(s) for idea organizations.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea organizations API from Aha.io — 2 operation(s) for idea organizations.
   name: Aha.io Idea organizations API
   slug: aha-idea-organizations-api
-- description: The Idea Portals API from Aha.io — 2 operation(s) for idea portals.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea Portals API from Aha.io — 2 operation(s) for idea portals.
   name: Aha.io Idea Portals API
   slug: aha-idea-portals-api
-- description: The Idea subscriptions API from Aha.io — 2 operation(s) for idea subscriptions.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea subscriptions API from Aha.io — 2 operation(s) for idea subscriptions.
   name: Aha.io Idea subscriptions API
   slug: aha-idea-subscriptions-api
-- description: The Idea users API from Aha.io — 2 operation(s) for idea users.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea users API from Aha.io — 2 operation(s) for idea users.
   name: Aha.io Idea users API
   slug: aha-idea-users-api
-- description: The Idea votes API from Aha.io — 6 operation(s) for idea votes.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Idea votes API from Aha.io — 6 operation(s) for idea votes.
   name: Aha.io Idea votes API
   slug: aha-idea-votes-api
-- description: The Ideas API from Aha.io — 6 operation(s) for ideas.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Ideas API from Aha.io — 6 operation(s) for ideas.
   name: Aha.io Ideas API
   slug: aha-ideas-api
-- description: The Ideas portal user subscriptions API from Aha.io — 2 operation(s) for ideas portal user subscriptions.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Ideas portal user subscriptions API from Aha.io — 2 operation(s) for ideas portal user subscriptions.
   name: Aha.io Ideas portal user subscriptions API
   slug: aha-ideas-portal-user-subscriptions-api
-- description: The Ideas portal users API from Aha.io — 2 operation(s) for ideas portal users.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Ideas portal users API from Aha.io — 2 operation(s) for ideas portal users.
   name: Aha.io Ideas portal users API
   slug: aha-ideas-portal-users-api
-- description: The Identity providers API from Aha.io — 2 operation(s) for identity providers.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Identity providers API from Aha.io — 2 operation(s) for identity providers.
   name: Aha.io Identity providers API
   slug: aha-identity-providers-api
-- description: The Initiatives API from Aha.io — 5 operation(s) for initiatives.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Initiatives API from Aha.io — 5 operation(s) for initiatives.
   name: Aha.io Initiatives API
   slug: aha-initiatives-api
-- description: The Integration changes API from Aha.io — 1 operation(s) for integration changes.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Integration changes API from Aha.io — 1 operation(s) for integration changes.
   name: Aha.io Integration changes API
   slug: aha-integration-changes-api
-- description: The Integration fields API from Aha.io — 15 operation(s) for integration fields.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Integration fields API from Aha.io — 15 operation(s) for integration fields.
   name: Aha.io Integration fields API
   slug: aha-integration-fields-api
-- description: The Integrations API from Aha.io — 4 operation(s) for integrations.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Integrations API from Aha.io — 4 operation(s) for integrations.
   name: Aha.io Integrations API
   slug: aha-integrations-api
-- description: The Key results API from Aha.io — 2 operation(s) for key results.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Key results API from Aha.io — 2 operation(s) for key results.
   name: Aha.io Key results API
   slug: aha-key-results-api
-- description: The Me API from Aha.io — 3 operation(s) for me.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Me API from Aha.io — 3 operation(s) for me.
   name: Aha.io Me API
   slug: aha-me-api
-- description: The Notes API from Aha.io — 2 operation(s) for notes.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Notes API from Aha.io — 2 operation(s) for notes.
   name: Aha.io Notes API
   slug: aha-notes-api
-- description: The Paid Seat Groups API from Aha.io — 3 operation(s) for paid seat groups.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Paid Seat Groups API from Aha.io — 3 operation(s) for paid seat groups.
   name: Aha.io Paid Seat Groups API
   slug: aha-paid-seat-groups-api
-- description: The Personas API from Aha.io — 3 operation(s) for personas.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Personas API from Aha.io — 3 operation(s) for personas.
   name: Aha.io Personas API
   slug: aha-personas-api
-- description: The Products API from Aha.io — 2 operation(s) for products.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Products API from Aha.io — 2 operation(s) for products.
   name: Aha.io Products API
   slug: aha-products-api
-- description: The Record links API from Aha.io — 3 operation(s) for record links.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Record links API from Aha.io — 3 operation(s) for record links.
   name: Aha.io Record links API
   slug: aha-record-links-api
-- description: The Release phases API from Aha.io — 3 operation(s) for release phases.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Release phases API from Aha.io — 3 operation(s) for release phases.
   name: Aha.io Release phases API
   slug: aha-release-phases-api
-- description: The Releases API from Aha.io — 8 operation(s) for releases.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Releases API from Aha.io — 8 operation(s) for releases.
   name: Aha.io Releases API
   slug: aha-releases-api
-- description: The Requirements API from Aha.io — 3 operation(s) for requirements.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Requirements API from Aha.io — 3 operation(s) for requirements.
   name: Aha.io Requirements API
   slug: aha-requirements-api
-- description: The Roll up releases API from Aha.io — 2 operation(s) for roll up releases.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Roll up releases API from Aha.io — 2 operation(s) for roll up releases.
   name: Aha.io Roll up releases API
   slug: aha-roll-up-releases-api
-- description: The Schedulable changes API from Aha.io — 3 operation(s) for schedulable changes.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Schedulable changes API from Aha.io — 3 operation(s) for schedulable changes.
   name: Aha.io Schedulable changes API
   slug: aha-schedulable-changes-api
-- description: The Schedules API from Aha.io — 1 operation(s) for schedules.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Schedules API from Aha.io — 1 operation(s) for schedules.
   name: Aha.io Schedules API
   slug: aha-schedules-api
-- description: The Strategic models API from Aha.io — 2 operation(s) for strategic models.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Strategic models API from Aha.io — 2 operation(s) for strategic models.
   name: Aha.io Strategic models API
   slug: aha-strategic-models-api
-- description: The Strategic positionings API from Aha.io — 2 operation(s) for strategic positionings.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Strategic positionings API from Aha.io — 2 operation(s) for strategic positionings.
   name: Aha.io Strategic positionings API
   slug: aha-strategic-positionings-api
-- description: The Strategic visions API from Aha.io — 2 operation(s) for strategic visions.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Strategic visions API from Aha.io — 2 operation(s) for strategic visions.
   name: Aha.io Strategic visions API
   slug: aha-strategic-visions-api
-- description: The Team members API from Aha.io — 2 operation(s) for team members.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Team members API from Aha.io — 2 operation(s) for team members.
   name: Aha.io Team members API
   slug: aha-team-members-api
-- description: The Team memberships API from Aha.io — 2 operation(s) for team memberships.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Team memberships API from Aha.io — 2 operation(s) for team memberships.
   name: Aha.io Team memberships API
   slug: aha-team-memberships-api
-- description: The Teams API from Aha.io — 3 operation(s) for teams.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Teams API from Aha.io — 3 operation(s) for teams.
   name: Aha.io Teams API
   slug: aha-teams-api
-- description: The Time tracking events API from Aha.io — 4 operation(s) for time tracking events.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Time tracking events API from Aha.io — 4 operation(s) for time tracking events.
   name: Aha.io Time tracking events API
   slug: aha-time-tracking-events-api
-- description: The To-dos API from Aha.io — 9 operation(s) for to-dos.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The To-dos API from Aha.io — 9 operation(s) for to-dos.
   name: Aha.io To-dos API
   slug: aha-to-dos-api
-- description: The Users API from Aha.io — 7 operation(s) for users.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Users API from Aha.io — 7 operation(s) for users.
   name: Aha.io Users API
   slug: aha-users-api
-- description: The Webhooks API from Aha.io — 1 operation(s) for webhooks.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Aha.io — 1 operation(s) for webhooks.
   name: Aha.io Webhooks API
   slug: aha-webhooks-api
-- description: The Workflows API from Aha.io — 2 operation(s) for workflows.
+- baseURL: https://{subdomain}.aha.io/api/v1
+  baseurl_source: declared
+  description: The Workflows API from Aha.io — 2 operation(s) for workflows.
   name: Aha.io Workflows API
   slug: aha-workflows-api
 artifact_total: 124
@@ -499,7 +617,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/screenshots/aha-2026-06-20T170530.png
 security:

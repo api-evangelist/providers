@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -47,28 +47,44 @@ apis:
 - description: WebSocket API for real-time live audio transcription with sub-second latency, supporting multi-language detection, live speaker diarization, and streaming audio intelligence. Individual sessions are c
   name: Gladia Live (Real-time) API
   slug: gladia-live-real-time-api
-- description: The AudioToText API from Gladia — 1 operation(s) for audiototext.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The AudioToText API from Gladia — 1 operation(s) for audiototext.
   name: Gladia AudioToText API
   slug: gladia-audiototext-api
-- description: The File Management API from Gladia — 1 operation(s) for file management.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The File Management API from Gladia — 1 operation(s) for file management.
   name: Gladia File Management API
   slug: gladia-file-management-api
-- description: The Job History API from Gladia — 1 operation(s) for job history.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The Job History API from Gladia — 1 operation(s) for job history.
   name: Gladia Job History API
   slug: gladia-job-history-api
-- description: The Live V2 API from Gladia — 3 operation(s) for live v2.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The Live V2 API from Gladia — 3 operation(s) for live v2.
   name: Gladia Live V2 API
   slug: gladia-live-v2-api
-- description: The OpenRouter API from Gladia — 1 operation(s) for openrouter.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The OpenRouter API from Gladia — 1 operation(s) for openrouter.
   name: Gladia OpenRouter API
   slug: gladia-openrouter-api
-- description: The Pre-recorded V2 API from Gladia — 3 operation(s) for pre-recorded v2.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The Pre-recorded V2 API from Gladia — 3 operation(s) for pre-recorded v2.
   name: Gladia Pre-recorded V2 API
   slug: gladia-pre-recorded-v2-api
-- description: The Transcription V1 API from Gladia — 2 operation(s) for transcription v1.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The Transcription V1 API from Gladia — 2 operation(s) for transcription v1.
   name: Gladia Transcription V1 API
   slug: gladia-transcription-v1-api
-- description: The Transcription V2 API from Gladia — 3 operation(s) for transcription v2.
+- baseURL: https://api.gladia.io/v2/
+  baseurl_source: declared
+  description: The Transcription V2 API from Gladia — 3 operation(s) for transcription v2.
   name: Gladia Transcription V2 API
   slug: gladia-transcription-v2-api
 artifact_total: 45
@@ -329,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/screenshots/gladia-2026-06-20T181856.png
 security:

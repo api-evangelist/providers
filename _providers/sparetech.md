@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 28 operations · 20 acting
 api_count: 2
 apis:
-- description: The Authentication API from Sparetech — 2 operation(s) for authentication.
+- baseURL: https://sync.sparetech.io/v1
+  baseurl_source: declared
+  description: The Authentication API from Sparetech — 2 operation(s) for authentication.
   name: Sparetech Authentication API
   slug: sparetech-authentication-api
-- description: The ChangeIntent API from Sparetech — 4 operation(s) for changeintent.
+- baseURL: https://sync.sparetech.io/v1
+  baseurl_source: declared
+  description: The ChangeIntent API from Sparetech — 4 operation(s) for changeintent.
   name: Sparetech ChangeIntent API
   slug: sparetech-changeintent-api
-- description: The CreationIntent API from Sparetech — 4 operation(s) for creationintent.
+- baseURL: https://sync.sparetech.io/v1
+  baseurl_source: declared
+  description: The CreationIntent API from Sparetech — 4 operation(s) for creationintent.
   name: Sparetech CreationIntent API
   slug: sparetech-creationintent-api
-- description: The ExtensionIntent API from Sparetech — 4 operation(s) for extensionintent.
+- baseURL: https://sync.sparetech.io/v1
+  baseurl_source: declared
+  description: The ExtensionIntent API from Sparetech — 4 operation(s) for extensionintent.
   name: Sparetech ExtensionIntent API
   slug: sparetech-extensionintent-api
-- description: The Material Master Sync API from Sparetech — 3 operation(s) for material master sync.
+- baseURL: https://sync.sparetech.io/v1
+  baseurl_source: declared
+  description: The Material Master Sync API from Sparetech — 3 operation(s) for material master sync.
   name: Sparetech Material Master Sync API
   slug: sparetech-material-master-sync-api
-- description: The Schema API from Sparetech — 2 operation(s) for schema.
+- baseURL: https://sync.sparetech.io/v1
+  baseurl_source: declared
+  description: The Schema API from Sparetech — 2 operation(s) for schema.
   name: Sparetech Schema API
   slug: sparetech-schema-api
 artifact_total: 19
@@ -252,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/screenshots/sparetech-2026-08-17T082021.png
 security:

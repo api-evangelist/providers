@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Read and write table cell and value ranges.
+- baseURL: https://api.rows.com/v1
+  baseurl_source: declared
+  description: Read and write table cell and value ranges.
   name: Rows Data API
   slug: rows-data-api
-- description: Discover folders that organize spreadsheets.
+- baseURL: https://api.rows.com/v1
+  baseurl_source: declared
+  description: Discover folders that organize spreadsheets.
   name: Rows Folders API
   slug: rows-folders-api
-- description: List and read spreadsheets and their tables.
+- baseURL: https://api.rows.com/v1
+  baseurl_source: declared
+  description: List and read spreadsheets and their tables.
   name: Rows Spreadsheets API
   slug: rows-spreadsheets-api
-- description: Extract structured data from files using Rows AI Vision.
+- baseURL: https://api.rows.com/v1
+  baseurl_source: declared
+  description: Extract structured data from files using Rows AI Vision.
   name: Rows Vision API
   slug: rows-vision-api
-- description: Discover the workspaces available to the authenticated key.
+- baseURL: https://api.rows.com/v1
+  baseurl_source: declared
+  description: Discover the workspaces available to the authenticated key.
   name: Rows Workspaces API
   slug: rows-workspaces-api
 artifact_total: 17
@@ -238,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rows/refs/heads/main/screenshots/rows-2026-08-17T081656.png
 security:

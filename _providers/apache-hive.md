@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: JDBC interface to HiveServer2 for standard SQL client connectivity, supporting parameterized queries, result sets, and connection pooling from Java and ODBC-bridge applications.
   name: Apache Hive JDBC API
   slug: apache-hive-jdbc
-- description: Database metadata operations
+- baseURL: http://localhost:50111/templeton/v1
+  baseurl_source: declared
+  description: Database metadata operations
   name: Apache Hive Databases API
   slug: apache-hive-databases-api
-- description: Hive job submission and monitoring
+- baseURL: http://localhost:50111/templeton/v1
+  baseurl_source: declared
+  description: Hive job submission and monitoring
   name: Apache Hive Jobs API
   slug: apache-hive-jobs-api
-- description: Table metadata operations
+- baseURL: http://localhost:50111/templeton/v1
+  baseurl_source: declared
+  description: Table metadata operations
   name: Apache Hive Tables API
   slug: apache-hive-tables-api
 artifact_total: 49
@@ -284,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/screenshots/apache-hive-2026-06-20T172106.png
 security:

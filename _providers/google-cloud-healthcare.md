@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -59,7 +59,9 @@ apis:
 - description: The Cloud Healthcare Consent Management API provides fine-grained, patient-centric consent management for healthcare data access. It enables organizations to define consent policies, record patient co
   name: Cloud Healthcare Consent Management API
   slug: healthcare-consent
-- description: The projects API from Google Cloud Healthcare — 111 operation(s) for projects.
+- baseURL: https://healthcare.googleapis.com
+  baseurl_source: declared
+  description: The projects API from Google Cloud Healthcare — 111 operation(s) for projects.
   name: Google Cloud Healthcare projects API
   slug: google-cloud-healthcare-projects-api
 artifact_total: 171
@@ -688,7 +690,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/screenshots/google-cloud-healthcare-2026-06-20T182114.png
 security:

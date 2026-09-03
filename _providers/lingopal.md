@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 13 operations · 8 acting
 api_count: 1
 apis:
-- description: Work with reusable registered jobs, their workflows, status, and outputs.
+- baseURL: https://api.lingopal.ai
+  baseurl_source: declared
+  description: Work with reusable registered jobs, their workflows, status, and outputs.
   name: Lingopal Jobs API
   slug: lingopal-jobs-api
-- description: List supported language capabilities for dubbing, text, and other workflows.
+- baseURL: https://api.lingopal.ai
+  baseurl_source: declared
+  description: List supported language capabilities for dubbing, text, and other workflows.
   name: Lingopal Languages API
   slug: lingopal-languages-api
-- description: Start media, document, subtitle, and text translation workflows.
+- baseURL: https://api.lingopal.ai
+  baseurl_source: declared
+  description: Start media, document, subtitle, and text translation workflows.
   name: Lingopal Translate API
   slug: lingopal-translate-api
-- description: Create storage uploads and register jobs for later use.
+- baseURL: https://api.lingopal.ai
+  baseurl_source: declared
+  description: Create storage uploads and register jobs for later use.
   name: Lingopal Upload API
   slug: lingopal-upload-api
 artifact_total: 13
@@ -224,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

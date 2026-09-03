@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 30 operations · 19 acting
 api_count: 1
 apis:
-- description: The File API API from Writer — 4 operation(s) for file api.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The File API API from Writer — 4 operation(s) for file api.
   name: Writer File API API
   slug: writer-file-api-api
-- description: The Generation API API from Writer — 5 operation(s) for generation api.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The Generation API API from Writer — 5 operation(s) for generation api.
   name: Writer Generation API API
   slug: writer-generation-api-api
-- description: The KG API API from Writer — 5 operation(s) for kg api.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The KG API API from Writer — 5 operation(s) for kg api.
   name: Writer KG API API
   slug: writer-kg-api-api
-- description: The template API from Writer — 4 operation(s) for template.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The template API from Writer — 4 operation(s) for template.
   name: Writer template API
   slug: writer-template-api
-- description: The Tools API API from Writer — 2 operation(s) for tools api.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The Tools API API from Writer — 2 operation(s) for tools api.
   name: Writer Tools API API
   slug: writer-tools-api-api
-- description: The Translation API from Writer — 1 operation(s) for translation.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The Translation API from Writer — 1 operation(s) for translation.
   name: Writer Translation API
   slug: writer-translation-api
-- description: The Vision API from Writer — 1 operation(s) for vision.
+- baseURL: https://api.writer.com/v1
+  baseurl_source: declared
+  description: The Vision API from Writer — 1 operation(s) for vision.
   name: Writer Vision API
   slug: writer-vision-api
 artifact_total: 22
@@ -195,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/screenshots/writer-2026-06-20T201632.png
 security:

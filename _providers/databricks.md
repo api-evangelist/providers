@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -207,13 +207,19 @@ apis:
 - description: 'The Databricks Table Constraints API allows you to create and delete primary key and foreign key constraints on Unity Catalog tables. Table constraints define relationships between tables, supporting '
   name: Databricks Table Constraints API
   slug: table-constraints-api
-- description: Manage Databricks clusters for running data engineering and data science workloads on Apache Spark.
+- baseURL_template: https://{workspace_host}/api
+  baseurl_source: spec_template
+  description: Manage Databricks clusters for running data engineering and data science workloads on Apache Spark.
   name: Databricks Clusters API
   slug: databricks-clusters-api
-- description: Create and manage automated workloads including notebooks, JARs, Python scripts, and multi-task workflows.
+- baseURL_template: https://{workspace_host}/api
+  baseurl_source: spec_template
+  description: Create and manage automated workloads including notebooks, JARs, Python scripts, and multi-task workflows.
   name: Databricks Jobs API
   slug: databricks-jobs-api
-- description: Manage workspace objects such as notebooks, folders, and libraries.
+- baseURL_template: https://{workspace_host}/api
+  baseurl_source: spec_template
+  description: Manage workspace objects such as notebooks, folders, and libraries.
   name: Databricks Workspace API
   slug: databricks-workspace-api
 arazzos:
@@ -1073,7 +1079,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png
 security:

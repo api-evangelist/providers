@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,28 +53,44 @@ apis:
 - description: A live remote Model Context Protocol server on the heuritech.com host, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata. It is the WordPress MCP
   name: Heuritech MCP Server
   slug: heuritech-mcp-server
-- description: The Heuritech editorial blog over the WordPress REST API — 169 published posts on fashion trend forecasting, AI, market insight and retail data, anonymously readable as JSON. Derived by API Evangelist
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Heuritech editorial blog over the WordPress REST API — 169 published posts on fashion trend forecasting, AI, market insight and retail data, anonymously readable as JSON. Derived by API Evangelist
   name: Heuritech Posts API
   slug: heuritech-posts-api
-- description: The 63 published marketing, product, pricing, FAQ and legal pages that make up heuritech.com, served as JSON by the WordPress REST API. Derived by API Evangelist from the live route-discovery document
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The 63 published marketing, product, pricing, FAQ and legal pages that make up heuritech.com, served as JSON by the WordPress REST API. Derived by API Evangelist from the live route-discovery document
   name: Heuritech Pages API
   slug: heuritech-pages-api
-- description: The 3,800-item Heuritech media library — trend imagery, report covers, charts and downloadable assets — with rendition URLs and metadata, served as JSON by the WordPress REST API.
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The 3,800-item Heuritech media library — trend imagery, report covers, charts and downloadable assets — with rendition URLs and metadata, served as JSON by the WordPress REST API.
   name: Heuritech Media API
   slug: heuritech-media-api
-- description: The 1,284 reader comments attached to Heuritech blog posts, anonymously readable as JSON by post, author or date range.
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The 1,284 reader comments attached to Heuritech blog posts, anonymously readable as JSON by post, author or date range.
   name: Heuritech Comments API
   slug: heuritech-comments-api
-- description: The five editorial categories Heuritech uses to classify its blog content, plus the (currently empty) tag taxonomy, served as JSON by the WordPress REST API.
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The five editorial categories Heuritech uses to classify its blog content, plus the (currently empty) tag taxonomy, served as JSON by the WordPress REST API.
   name: Heuritech Taxonomy API
   slug: heuritech-taxonomy-api
-- description: The 25 authoring profiles behind Heuritech blog content — analysts, fashion experts and data scientists — with names, biographies and avatars, served as JSON by the WordPress REST API.
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The 25 authoring profiles behind Heuritech blog content — analysts, fashion experts and data scientists — with names, biographies and avatars, served as JSON by the WordPress REST API.
   name: Heuritech Users API
   slug: heuritech-users-api
-- description: Site-wide search across the 232 indexed posts and pages on heuritech.com, returning id, title, url, type and subtype for each hit.
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Site-wide search across the 232 indexed posts and pages on heuritech.com, returning id, title, url, type and subtype for each hit.
   name: Heuritech Search API
   slug: heuritech-search-api
-- description: The WordPress metadata routes describing which post types, taxonomies and post statuses heuritech.com exposes — the self-description layer an agent reads before querying the content collections.
+- baseURL: https://heuritech.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The WordPress metadata routes describing which post types, taxonomies and post statuses heuritech.com exposes — the self-description layer an agent reads before querying the content collections.
   name: Heuritech Discovery API
   slug: heuritech-discovery-api
 artifact_total: 17
@@ -232,7 +262,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -258,8 +288,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/heuritech/refs/heads/main/screenshots/heuritech-2026-09-02T145723.png
 security:
 - kind: authentication
   name: Heuritech Authentication

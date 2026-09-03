@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -47,22 +47,34 @@ apis:
 - description: Server-to-server webhook notifications (HTTP POST) for transaction and payment-source state changes, validated with an asymmetric integrity checksum carried in the X-Event-Checksum header and the even
   name: Wompi Events (Webhooks)
   slug: wompi-events-webhooks
-- description: Merchant info and presigned acceptance tokens.
+- baseURL: https://production.wompi.co/v1
+  baseurl_source: declared
+  description: Merchant info and presigned acceptance tokens.
   name: Wompi Merchants API
   slug: wompi-merchants-api
-- description: Hosted, shareable payment links.
+- baseURL: https://production.wompi.co/v1
+  baseurl_source: declared
+  description: Hosted, shareable payment links.
   name: Wompi Payment Links API
   slug: wompi-payment-links-api
-- description: Reusable payment sources for recurring charges.
+- baseURL: https://production.wompi.co/v1
+  baseurl_source: declared
+  description: Reusable payment sources for recurring charges.
   name: Wompi Payment Sources API
   slug: wompi-payment-sources-api
-- description: PSE financial institution catalog.
+- baseURL: https://production.wompi.co/v1
+  baseurl_source: declared
+  description: PSE financial institution catalog.
   name: Wompi PSE API
   slug: wompi-pse-api
-- description: Tokenize cards and Nequi accounts.
+- baseURL: https://production.wompi.co/v1
+  baseurl_source: declared
+  description: Tokenize cards and Nequi accounts.
   name: Wompi Tokenization API
   slug: wompi-tokenization-api
-- description: Create and track payment transactions.
+- baseURL: https://production.wompi.co/v1
+  baseurl_source: declared
+  description: Create and track payment transactions.
   name: Wompi Transactions API
   slug: wompi-transactions-api
 artifact_total: 30
@@ -283,7 +295,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -293,7 +305,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,7 +323,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/screenshots/wompi-2026-08-17T082934.png
 security:

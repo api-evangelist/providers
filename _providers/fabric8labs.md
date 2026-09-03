@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,25 +49,39 @@ apis:
 - description: A Model Context Protocol server endpoint registered on www.fabric8labs.com under the WordPress REST "mcp" namespace and served at /wp-json/mcp/mcp-oauth-server (with a sibling /wp-json/mcp/mcp-adapter
   name: Fabric8Labs MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Posts API from Fabric8Labs — 2 anonymous read operations over the 13 published newsroom and technical-showcase posts on www.fabric8labs.com.
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Posts API from Fabric8Labs — 2 anonymous read operations over the 13 published newsroom and technical-showcase posts on www.fabric8labs.com.
   name: Fabric8Labs Posts API
   slug: fabric8labs-posts-api
-- description: The Pages API from Fabric8Labs — 2 anonymous read operations over the 27 published marketing, market and technology pages on www.fabric8labs.com.
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Pages API from Fabric8Labs — 2 anonymous read operations over the 27 published marketing, market and technology pages on www.fabric8labs.com.
   name: Fabric8Labs Pages API
   slug: fabric8labs-pages-api
-- description: The Media API from Fabric8Labs — 2 anonymous read operations over the 276 media library attachments (product imagery, press assets, diagrams) on www.fabric8labs.com.
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Media API from Fabric8Labs — 2 anonymous read operations over the 276 media library attachments (product imagery, press assets, diagrams) on www.fabric8labs.com.
   name: Fabric8Labs Media API
   slug: fabric8labs-media-api
-- description: The Team API from Fabric8Labs — 2 anonymous read operations over the "team" custom post type, a 3-record leadership directory registered by the fabric8labs WordPress theme.
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Team API from Fabric8Labs — 2 anonymous read operations over the "team" custom post type, a 3-record leadership directory registered by the fabric8labs WordPress theme.
   name: Fabric8Labs Team API
   slug: fabric8labs-team-api
-- description: The Taxonomy API from Fabric8Labs — 4 anonymous read operations over the 6 content categories (News, Insights, Case Study, Guide, White Paper, Uncategorized) and the post_tag vocabulary, which is regi
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Taxonomy API from Fabric8Labs — 4 anonymous read operations over the 6 content categories (News, Insights, Case Study, Guide, White Paper, Uncategorized) and the post_tag vocabulary, which is regi
   name: Fabric8Labs Taxonomy API
   slug: fabric8labs-taxonomy-api
-- description: The Search API from Fabric8Labs — 1 anonymous read operation returning a unified search index across every public post type on www.fabric8labs.com.
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Search API from Fabric8Labs — 1 anonymous read operation returning a unified search index across every public post type on www.fabric8labs.com.
   name: Fabric8Labs Search API
   slug: fabric8labs-search-api
-- description: The Discovery API from Fabric8Labs — 6 anonymous read operations describing the registered post types, taxonomies and post statuses that define the rest of the surface.
+- baseURL: https://www.fabric8labs.com/wp-json
+  baseurl_source: declared
+  description: The Discovery API from Fabric8Labs — 6 anonymous read operations describing the registered post types, taxonomies and post statuses that define the rest of the surface.
   name: Fabric8Labs Discovery API
   slug: fabric8labs-discovery-api
 artifact_total: 22
@@ -284,7 +311,7 @@ score:
   band: thin
   composite: 33.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -316,8 +343,9 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fabric8labs/refs/heads/main/screenshots/fabric8labs-2026-09-02T145452.png
 security:
 - kind: authentication
   name: Fabric8Labs Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,19 +55,29 @@ apis:
 - description: The WMO Hydrological Observing System (WHOS) provides multiple API interfaces for accessing global hydrological station data and time series. Available services include a REST/JSON DAB Observation and
   name: WHOS Hydrological Observing System API
   slug: whos-hydrological-api
-- description: The jobs API from World Meteorological Organization — 3 operation(s) for jobs.
+- baseURL: https://worldweather.wmo.int/en/json/
+  baseurl_source: declared
+  description: The jobs API from World Meteorological Organization — 3 operation(s) for jobs.
   name: World Meteorological Organization jobs API
   slug: wmo-jobs-api
-- description: The pywcmp-wis2-wcmp2-ets API from World Meteorological Organization — 2 operation(s) for pywcmp-wis2-wcmp2-ets.
+- baseURL: https://worldweather.wmo.int/en/json/
+  baseurl_source: declared
+  description: The pywcmp-wis2-wcmp2-ets API from World Meteorological Organization — 2 operation(s) for pywcmp-wis2-wcmp2-ets.
   name: World Meteorological Organization pywcmp-wis2-wcmp2-ets API
   slug: wmo-pywcmp-wis2-wcmp2-ets-api
-- description: The pywcmp-wis2-wcmp2-kpi API from World Meteorological Organization — 2 operation(s) for pywcmp-wis2-wcmp2-kpi.
+- baseURL: https://worldweather.wmo.int/en/json/
+  baseurl_source: declared
+  description: The pywcmp-wis2-wcmp2-kpi API from World Meteorological Organization — 2 operation(s) for pywcmp-wis2-wcmp2-kpi.
   name: World Meteorological Organization pywcmp-wis2-wcmp2-kpi API
   slug: wmo-pywcmp-wis2-wcmp2-kpi-api
-- description: Meteorological Service of Canada Global Discovery Catalogue (GDC)
+- baseURL: https://worldweather.wmo.int/en/json/
+  baseurl_source: declared
+  description: Meteorological Service of Canada Global Discovery Catalogue (GDC)
   name: World Meteorological Organization server API
   slug: wmo-server-api
-- description: WIS2 discovery metadata
+- baseURL: https://worldweather.wmo.int/en/json/
+  baseurl_source: declared
+  description: WIS2 discovery metadata
   name: World Meteorological Organization wis2-discovery-metadata API
   slug: wmo-wis2-discovery-metadata-api
 artifact_total: 21
@@ -205,7 +215,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/screenshots/wmo-2026-06-20T201531.png
 security:

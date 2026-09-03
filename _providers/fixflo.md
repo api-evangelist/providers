@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -33,76 +47,124 @@ agentic_access:
   summary_line: 165 operations · 75 acting
 api_count: 1
 apis:
-- description: The Agency API from Fixflo — 5 operation(s) for agency.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Agency API from Fixflo — 5 operation(s) for agency.
   name: Fixflo Agency API
   slug: fixflo-agency-api
-- description: The Agent API from Fixflo — 3 operation(s) for agent.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Agent API from Fixflo — 3 operation(s) for agent.
   name: Fixflo Agent API
   slug: fixflo-agent-api
-- description: The Asset API from Fixflo — 3 operation(s) for asset.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Asset API from Fixflo — 3 operation(s) for asset.
   name: Fixflo Asset API
   slug: fixflo-asset-api
-- description: The Block API from Fixflo — 4 operation(s) for block.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Block API from Fixflo — 4 operation(s) for block.
   name: Fixflo Block API
   slug: fixflo-block-api
-- description: The Brand API from Fixflo — 2 operation(s) for brand.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Brand API from Fixflo — 2 operation(s) for brand.
   name: Fixflo Brand API
   slug: fixflo-brand-api
-- description: The Contractor API from Fixflo — 5 operation(s) for contractor.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Contractor API from Fixflo — 5 operation(s) for contractor.
   name: Fixflo Contractor API
   slug: fixflo-contractor-api
-- description: The Contractor networks API from Fixflo — 27 operation(s) for contractor networks.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Contractor networks API from Fixflo — 27 operation(s) for contractor networks.
   name: Fixflo Contractor networks API
   slug: fixflo-contractor-networks-api
-- description: The Cost code API from Fixflo — 2 operation(s) for cost code.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Cost code API from Fixflo — 2 operation(s) for cost code.
   name: Fixflo Cost code API
   slug: fixflo-cost-code-api
-- description: The Estate API from Fixflo — 3 operation(s) for estate.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Estate API from Fixflo — 3 operation(s) for estate.
   name: Fixflo Estate API
   slug: fixflo-estate-api
-- description: The FaultTree API from Fixflo — 1 operation(s) for faulttree.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The FaultTree API from Fixflo — 1 operation(s) for faulttree.
   name: Fixflo Fault Tree API
   slug: fixflo-faulttree-api
-- description: The Issue API from Fixflo — 11 operation(s) for issue.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Issue API from Fixflo — 11 operation(s) for issue.
   name: Fixflo Issue API
   slug: fixflo-issue-api
-- description: The Issue draft API from Fixflo — 7 operation(s) for issue draft.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Issue draft API from Fixflo — 7 operation(s) for issue draft.
   name: Fixflo Issue draft API
   slug: fixflo-issue-draft-api
-- description: The Job API from Fixflo — 1 operation(s) for job.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Job API from Fixflo — 1 operation(s) for job.
   name: Fixflo Job API
   slug: fixflo-job-api
-- description: The Landlord API from Fixflo — 8 operation(s) for landlord.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Landlord API from Fixflo — 8 operation(s) for landlord.
   name: Fixflo Landlord API
   slug: fixflo-landlord-api
-- description: The Leaseholder API from Fixflo — 9 operation(s) for leaseholder.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Leaseholder API from Fixflo — 9 operation(s) for leaseholder.
   name: Fixflo Leaseholder API
   slug: fixflo-leaseholder-api
-- description: The Media API from Fixflo — 3 operation(s) for media.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Media API from Fixflo — 3 operation(s) for media.
   name: Fixflo Media API
   slug: fixflo-media-api
-- description: The Property API from Fixflo — 15 operation(s) for property.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Property API from Fixflo — 15 operation(s) for property.
   name: Fixflo Property API
   slug: fixflo-property-api
-- description: The Service Event API from Fixflo — 7 operation(s) for service event.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Service Event API from Fixflo — 7 operation(s) for service event.
   name: Fixflo Service Event API
   slug: fixflo-service-event-api
-- description: The Service Programme API from Fixflo — 4 operation(s) for service programme.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Service Programme API from Fixflo — 4 operation(s) for service programme.
   name: Fixflo Service Programme API
   slug: fixflo-service-programme-api
-- description: The Service programme definition API from Fixflo — 2 operation(s) for service programme definition.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Service programme definition API from Fixflo — 2 operation(s) for service programme definition.
   name: Fixflo Service programme definition API
   slug: fixflo-service-programme-definition-api
-- description: The Team API from Fixflo — 2 operation(s) for team.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Team API from Fixflo — 2 operation(s) for team.
   name: Fixflo Team API
   slug: fixflo-team-api
-- description: The Tenant API from Fixflo — 7 operation(s) for tenant.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Tenant API from Fixflo — 7 operation(s) for tenant.
   name: Fixflo Tenant API
   slug: fixflo-tenant-api
-- description: The Warranty API from Fixflo — 3 operation(s) for warranty.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Warranty API from Fixflo — 3 operation(s) for warranty.
   name: Fixflo Warranty API
   slug: fixflo-warranty-api
-- description: The Webhook API from Fixflo — 4 operation(s) for webhook.
+- baseURL: https://api-sandbox.fixflo.com/api/v2
+  baseurl_source: declared
+  description: The Webhook API from Fixflo — 4 operation(s) for webhook.
   name: Fixflo Webhook API
   slug: fixflo-webhook-api
 artifact_total: 32
@@ -309,7 +371,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -319,7 +381,7 @@ score:
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 40.5
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,7 +393,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/screenshots/fixflo-2026-08-07T165332.png
 security:

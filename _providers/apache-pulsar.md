@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: Pulsar messaging protocol for producing and consuming messages on topics, with support for multiple subscription types (Exclusive, Shared, Failover, Key_Shared), schema enforcement, and both persisten
   name: Apache Pulsar Messaging API
   slug: apache-pulsar-messaging-api
-- description: The Brokers API from Apache Pulsar — 2 operation(s) for brokers.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Brokers API from Apache Pulsar — 2 operation(s) for brokers.
   name: Apache Pulsar Brokers API
   slug: apache-pulsar-brokers-api
-- description: The Clusters API from Apache Pulsar — 2 operation(s) for clusters.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Clusters API from Apache Pulsar — 2 operation(s) for clusters.
   name: Apache Pulsar Clusters API
   slug: apache-pulsar-clusters-api
-- description: The Functions API from Apache Pulsar — 3 operation(s) for functions.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Functions API from Apache Pulsar — 3 operation(s) for functions.
   name: Apache Pulsar Functions API
   slug: apache-pulsar-functions-api
-- description: The Namespaces API from Apache Pulsar — 3 operation(s) for namespaces.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Namespaces API from Apache Pulsar — 3 operation(s) for namespaces.
   name: Apache Pulsar Namespaces API
   slug: apache-pulsar-namespaces-api
-- description: The Subscriptions API from Apache Pulsar — 2 operation(s) for subscriptions.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Apache Pulsar — 2 operation(s) for subscriptions.
   name: Apache Pulsar Subscriptions API
   slug: apache-pulsar-subscriptions-api
-- description: The Tenants API from Apache Pulsar — 2 operation(s) for tenants.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Tenants API from Apache Pulsar — 2 operation(s) for tenants.
   name: Apache Pulsar Tenants API
   slug: apache-pulsar-tenants-api
-- description: The Topics API from Apache Pulsar — 4 operation(s) for topics.
+- baseURL: http://localhost:8080/admin/v2
+  baseurl_source: declared
+  description: The Topics API from Apache Pulsar — 4 operation(s) for topics.
   name: Apache Pulsar Topics API
   slug: apache-pulsar-topics-api
 artifact_total: 61
@@ -295,7 +309,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -305,7 +319,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 30.9
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -314,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/screenshots/apache-pulsar-2026-06-20T172138.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: Access to Airbus radar (SAR) imagery and elevation products including WorldDEM, suitable for change detection, surveillance, and terrain analysis.
   name: OneAtlas Radar & Elevation API
   slug: oneatlas-radar-elevation
-- description: The Authentication API from Airbus — 1 operation(s) for authentication.
+- baseURL: https://authenticate.foundation.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Authentication API from Airbus — 1 operation(s) for authentication.
   name: Airbus Authentication API
   slug: airbus-authentication-api
-- description: The Catalog API from Airbus — 1 operation(s) for catalog.
+- baseURL: https://authenticate.foundation.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Catalog API from Airbus — 1 operation(s) for catalog.
   name: Airbus Catalog API
   slug: airbus-catalog-api
 artifact_total: 33
@@ -202,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png
 security:

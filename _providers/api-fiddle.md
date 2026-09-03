@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 12 acting
 api_count: 1
 apis:
-- description: Export projects and specifications.
+- baseURL: https://api.api-fiddle.com/v1
+  baseurl_source: spec
+  description: Export projects and specifications.
   name: API-Fiddle Export API
   slug: api-fiddle-export-api
-- description: Manage API design projects.
+- baseURL: https://api.api-fiddle.com/v1
+  baseurl_source: spec
+  description: Manage API design projects.
   name: API-Fiddle Projects API
   slug: api-fiddle-projects-api
-- description: Share projects with other users.
+- baseURL: https://api.api-fiddle.com/v1
+  baseurl_source: spec
+  description: Share projects with other users.
   name: API-Fiddle Sharing API
   slug: api-fiddle-sharing-api
-- description: Manage API specifications within projects.
+- baseURL: https://api.api-fiddle.com/v1
+  baseurl_source: spec
+  description: Manage API specifications within projects.
   name: API-Fiddle Specifications API
   slug: api-fiddle-specifications-api
-- description: Organize projects into workspaces.
+- baseURL: https://api.api-fiddle.com/v1
+  baseurl_source: spec
+  description: Organize projects into workspaces.
   name: API-Fiddle Workspaces API
   slug: api-fiddle-workspaces-api
 artifact_total: 34
@@ -210,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/screenshots/api-fiddle-2026-06-20T172209.png
 security:

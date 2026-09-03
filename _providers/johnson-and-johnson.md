@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Manage connected glucose monitoring devices.
+- baseURL: https://api.lifescan.com
+  baseurl_source: declared
+  description: Manage connected glucose monitoring devices.
   name: Johnson & Johnson Devices API
   slug: johnson-and-johnson-devices-api
-- description: Manage and retrieve blood glucose reading data.
+- baseURL: https://api.lifescan.com
+  baseurl_source: declared
+  description: Manage and retrieve blood glucose reading data.
   name: Johnson & Johnson Glucose Readings API
   slug: johnson-and-johnson-glucose-readings-api
-- description: Access patient profile and health information.
+- baseURL: https://api.lifescan.com
+  baseurl_source: declared
+  description: Access patient profile and health information.
   name: Johnson & Johnson Patients API
   slug: johnson-and-johnson-patients-api
 artifact_total: 14
@@ -165,7 +171,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: SCIM 2.0 endpoints used by identity providers such as Microsoft Entra (Azure AD) and Okta to provision users and groups into Webex as an alternative to the on-premises Directory Connector.
   name: Webex SCIM 2.0 Provisioning
   slug: webex-scim
-- description: The Groups API from Cisco Directory Connector — 3 operation(s) for groups.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Groups API from Cisco Directory Connector — 3 operation(s) for groups.
   name: Cisco Directory Connector Groups API
   slug: cisco-directory-connector-groups-api
-- description: The Organizations API from Cisco Directory Connector — 1 operation(s) for organizations.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Cisco Directory Connector — 1 operation(s) for organizations.
   name: Cisco Directory Connector Organizations API
   slug: cisco-directory-connector-organizations-api
-- description: The People API from Cisco Directory Connector — 2 operation(s) for people.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The People API from Cisco Directory Connector — 2 operation(s) for people.
   name: Cisco Directory Connector People API
   slug: cisco-directory-connector-people-api
 artifact_total: 16
@@ -194,7 +200,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/screenshots/cisco-directory-connector-2026-06-20T174400.png
 security:

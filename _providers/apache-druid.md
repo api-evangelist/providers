@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 13 operations · 11 acting
 api_count: 1
 apis:
-- description: The Druid API from Apache Druid — 10 operation(s) for druid.
+- baseURL: http://localhost:8888
+  baseurl_source: spec
+  description: The Druid API from Apache Druid — 10 operation(s) for druid.
   name: Apache Druid Druid API
   slug: apache-druid-druid-api
 artifact_total: 44
@@ -267,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-druid/refs/heads/main/screenshots/apache-druid-2026-06-20T172055.png
 security:

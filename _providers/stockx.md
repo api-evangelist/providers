@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 32 operations · 9 acting
 api_count: 1
 apis:
-- description: Batch APIs enable a user to create, update, delete listings in bulk. Batch APIs are asynchronous in nature and we provide mechanisms to poll the API so that you can keep track of the batch completion.
+- baseURL: https://api.stockx.com/v2
+  baseurl_source: declared
+  description: Batch APIs enable a user to create, update, delete listings in bulk. Batch APIs are asynchronous in nature and we provide mechanisms to poll the API so that you can keep track of the batch completion.
   name: StockX Batch API
   slug: stockx-batch-api
-- description: The StockX Catalog API provides a means for partners to search for catalog data, and request products to be added. Partners can search our Catalog to get StockX product and variant IDs for various pur
+- baseURL: https://api.stockx.com/v2
+  baseurl_source: declared
+  description: The StockX Catalog API provides a means for partners to search for catalog data, and request products to be added. Partners can search our Catalog to get StockX product and variant IDs for various pur
   name: StockX Catalog API
   slug: stockx-catalog-api
-- description: Listings APIs enable a seller to programmatically sell on StockX. The APIs enable a user to create, update and delete listings on the marketplace, as well as view and fetch live market data for any li
+- baseURL: https://api.stockx.com/v2
+  baseurl_source: declared
+  description: Listings APIs enable a seller to programmatically sell on StockX. The APIs enable a user to create, update and delete listings on the marketplace, as well as view and fetch live market data for any li
   name: StockX Listings API
   slug: stockx-listings-api
-- description: Order APIs enable a user to view all their active orders / sales as well as details for a single order.
+- baseURL: https://api.stockx.com/v2
+  baseurl_source: declared
+  description: Order APIs enable a user to view all their active orders / sales as well as details for a single order.
   name: StockX Order API
   slug: stockx-order-api
 artifact_total: 15
@@ -242,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/screenshots/stockx-2026-08-17T082124.png
 security:

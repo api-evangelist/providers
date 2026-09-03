@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Fanar is Qatar's Arabic generative-AI platform, developed by the Qatar Computing Research Institute at Hamad Bin Khalifa University with support from Qatar's Ministry of Communications and Information
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: Fanar is Qatar's Arabic generative-AI platform, developed by the Qatar Computing Research Institute at Hamad Bin Khalifa University with support from Qatar's Ministry of Communications and Information
   name: Fanar API
   slug: fanar-api
-- description: Farasa ("insight") is the Arabic text-processing toolkit built by the Arabic Language Technologies group at QCRI, Hamad Bin Khalifa University, and offered free to registered users as a keyed web API.
+- baseURL: https://farasa.qcri.org/webapi
+  baseurl_source: declared
+  description: Farasa ("insight") is the Arabic text-processing toolkit built by the Arabic Language Technologies group at QCRI, Hamad Bin Khalifa University, and offered free to registered users as a keyed web API.
   name: Farasa Web API
   slug: farasa-api
 - description: HBKU's research information system, Elmi, runs Elsevier Pure on the university's own subdomain and exposes a public, unauthenticated OAI-PMH 2.0 harvesting endpoint at elmi.hbku.edu.qa/ws/oai. Confirm
@@ -219,23 +223,23 @@ rules:
   slug: hbku-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 43.0
   coverage:
     artifact_dirs: 16
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.5
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 15.2
-    contract_quality: 51.7
+    contract_quality: 49.8
     developer_ergonomics: 40.5
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 18.4
-  previous_composite: 53.0
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
@@ -250,8 +254,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/screenshots/hbku-2026-06-20T182545.png
 security:
 - kind: authentication

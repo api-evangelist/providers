@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 4
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 190 operations · 86 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: Endpoints relating to retrieving, managing Account Activity subscriptions — 5 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints relating to retrieving, managing Account Activity subscriptions — 5 operation(s) in the X-published contract.
   name: X Account Activity API
   slug: x-account-activity-api
-- description: Endpoints for managing the authenticated user's X Developer Platform account — 2 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints for managing the authenticated user's X Developer Platform account — 2 operation(s) in the X-published contract.
   name: X Account API
   slug: x-account-api
-- description: Endpoints relating to retrieving, managing activity subscriptions — 5 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints relating to retrieving, managing activity subscriptions — 5 operation(s) in the X-published contract.
   name: X Activity API
   slug: x-activity-api
-- description: Endpoints related to retrieving, creating & modifying Articles — 2 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, creating & modifying Articles — 2 operation(s) in the X-published contract.
   name: X Articles API
   slug: x-articles-api
-- description: The Bots surface of the X API v2. — 6 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Bots surface of the X API v2. — 6 operation(s) in the X-published contract.
   name: X Bots API
   slug: x-bots-api
-- description: Endpoints related to live broadcasts and their chat — 13 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to live broadcasts and their chat — 13 operation(s) in the X-published contract.
   name: X Broadcasts API
   slug: x-broadcasts-api
-- description: Endpoints related to Chat encrypted messaging — 16 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to Chat encrypted messaging — 16 operation(s) in the X-published contract.
   name: X Chat API
   slug: x-chat-api
-- description: Endpoints related to retrieving and managing Communities — 2 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving and managing Communities — 2 operation(s) in the X-published contract.
   name: X Communities API
   slug: x-communities-api
-- description: Endpoints related to retrieving, searching, and modifying Community Notes — 5 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, searching, and modifying Community Notes — 5 operation(s) in the X-published contract.
   name: X Community Notes API
   slug: x-community-notes-api
-- description: Endpoints related to keeping X data in your systems compliant — 6 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to keeping X data in your systems compliant — 6 operation(s) in the X-published contract.
   name: X Compliance API
   slug: x-compliance-api
-- description: Endpoints related to streaming connections — 4 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to streaming connections — 4 operation(s) in the X-published contract.
   name: X Connections API
   slug: x-connections-api
-- description: Endpoints related to retrieving, managing Direct Messages — 9 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Direct Messages — 9 operation(s) in the X-published contract.
   name: X Direct Messages API
   slug: x-direct-messages-api
-- description: Miscellaneous endpoints for general API functionality — 1 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Miscellaneous endpoints for general API functionality — 1 operation(s) in the X-published contract.
   name: X General API
   slug: x-general-api
-- description: Endpoints related to retrieving, managing Lists — 9 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Lists — 9 operation(s) in the X-published contract.
   name: X Lists API
   slug: x-lists-api
-- description: Endpoints related to retrieving and uploading Media — 11 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving and uploading Media — 11 operation(s) in the X-published contract.
   name: X Media API
   slug: x-media-api
-- description: Endpoint for retrieving news stories — 2 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoint for retrieving news stories — 2 operation(s) in the X-published contract.
   name: X News API
   slug: x-news-api
-- description: Endpoints related to retrieving, searching, and modifying Posts — 14 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, searching, and modifying Posts — 14 operation(s) in the X-published contract.
   name: X Posts API
   slug: x-posts-api
-- description: Endpoints related to retrieving, managing Spaces — 6 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Spaces — 6 operation(s) in the X-published contract.
   name: X Spaces API
   slug: x-spaces-api
-- description: Endpoints related to streaming — 18 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to streaming — 18 operation(s) in the X-published contract.
   name: X Stream API
   slug: x-stream-api
-- description: Endpoint for retrieving trends — 2 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoint for retrieving trends — 2 operation(s) in the X-published contract.
   name: X Trends API
   slug: x-trends-api
-- description: Endpoints related to retrieving usage — 2 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving usage — 2 operation(s) in the X-published contract.
   name: X Usage API
   slug: x-usage-api
-- description: Endpoints related to retrieving, managing relationships of Users — 42 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing relationships of Users — 42 operation(s) in the X-published contract.
   name: X Users API
   slug: x-users-api
-- description: Endpoints relating to retrieving, managing webhooks and webhook configs — 8 operation(s) in the X-published contract.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints relating to retrieving, managing webhooks and webhook configs — 8 operation(s) in the X-published contract.
   name: X Webhooks API
   slug: x-webhooks-api
 artifact_total: 38
@@ -357,23 +403,23 @@ scopes:
   summary_line: 29 scopes
 score:
   band: strong
-  composite: 64.3
+  composite: 64.9
   coverage:
     artifact_dirs: 27
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 16.0
+  delta: 0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 60.5
+    contract_quality: 62.7
     developer_ergonomics: 73.8
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 48.3
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -385,8 +431,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/screenshots/x-2026-06-20T201653.png
 security:
 - kind: authentication

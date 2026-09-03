@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: The Clubs API from BJ's Wholesale Club — 1 operation(s) for clubs.
+- baseURL: https://api.bjs.com/v1
+  baseurl_source: spec
+  description: The Clubs API from BJ's Wholesale Club — 1 operation(s) for clubs.
   name: BJ's Wholesale Club Clubs API
   slug: bjs-wholesale-club-clubs-api
-- description: The Inventory API from BJ's Wholesale Club — 1 operation(s) for inventory.
+- baseURL: https://api.bjs.com/v1
+  baseurl_source: spec
+  description: The Inventory API from BJ's Wholesale Club — 1 operation(s) for inventory.
   name: BJ's Wholesale Club Inventory API
   slug: bjs-wholesale-club-inventory-api
-- description: The Membership API from BJ's Wholesale Club — 1 operation(s) for membership.
+- baseURL: https://api.bjs.com/v1
+  baseurl_source: spec
+  description: The Membership API from BJ's Wholesale Club — 1 operation(s) for membership.
   name: BJ's Wholesale Club Membership API
   slug: bjs-wholesale-club-membership-api
-- description: The Orders API from BJ's Wholesale Club — 2 operation(s) for orders.
+- baseURL: https://api.bjs.com/v1
+  baseurl_source: spec
+  description: The Orders API from BJ's Wholesale Club — 2 operation(s) for orders.
   name: BJ's Wholesale Club Orders API
   slug: bjs-wholesale-club-orders-api
-- description: The Products API from BJ's Wholesale Club — 2 operation(s) for products.
+- baseURL: https://api.bjs.com/v1
+  baseurl_source: spec
+  description: The Products API from BJ's Wholesale Club — 2 operation(s) for products.
   name: BJ's Wholesale Club Products API
   slug: bjs-wholesale-club-products-api
 artifact_total: 44
@@ -266,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

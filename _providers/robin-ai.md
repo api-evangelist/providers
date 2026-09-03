@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Upload and manage legal documents
+- baseURL: https://api.robinai.com
+  baseurl_source: declared
+  description: Upload and manage legal documents
   name: Robin AI Documents API
   slug: robin-ai-documents-api
-- description: Organizational containers for documents and tables
+- baseURL: https://api.robinai.com
+  baseurl_source: declared
+  description: Organizational containers for documents and tables
   name: Robin AI Groups API
   slug: robin-ai-groups-api
-- description: Typed custom property definitions for documents
+- baseURL: https://api.robinai.com
+  baseurl_source: declared
+  description: Typed custom property definitions for documents
   name: Robin AI Properties API
   slug: robin-ai-properties-api
-- description: Bulk structured extraction from contract portfolios
+- baseURL: https://api.robinai.com
+  baseurl_source: declared
+  description: Bulk structured extraction from contract portfolios
   name: Robin AI Tables API
   slug: robin-ai-tables-api
-- description: Reusable prompt sets that drive Table extraction
+- baseURL: https://api.robinai.com
+  baseurl_source: declared
+  description: Reusable prompt sets that drive Table extraction
   name: Robin AI Templates API
   slug: robin-ai-templates-api
 artifact_total: 58
@@ -362,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robin-ai/refs/heads/main/screenshots/robin-ai-2026-06-20T193139.png
 security:

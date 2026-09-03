@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: The Carbon Intensity API from Electricity Maps — 3 operation(s) for carbon intensity.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Carbon Intensity API from Electricity Maps — 3 operation(s) for carbon intensity.
   name: Electricity Maps Carbon Intensity API
   slug: electricitymaps-carbon-intensity-api
-- description: The Forecast API from Electricity Maps — 2 operation(s) for forecast.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Forecast API from Electricity Maps — 2 operation(s) for forecast.
   name: Electricity Maps Forecast API
   slug: electricitymaps-forecast-api
-- description: The Health API from Electricity Maps — 1 operation(s) for health.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Health API from Electricity Maps — 1 operation(s) for health.
   name: Electricity Maps Health API
   slug: electricitymaps-health-api
-- description: The Power Breakdown API from Electricity Maps — 3 operation(s) for power breakdown.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Power Breakdown API from Electricity Maps — 3 operation(s) for power breakdown.
   name: Electricity Maps Power Breakdown API
   slug: electricitymaps-power-breakdown-api
-- description: The Power Consumption API from Electricity Maps — 1 operation(s) for power consumption.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Power Consumption API from Electricity Maps — 1 operation(s) for power consumption.
   name: Electricity Maps Power Consumption API
   slug: electricitymaps-power-consumption-api
-- description: The Power Production API from Electricity Maps — 1 operation(s) for power production.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Power Production API from Electricity Maps — 1 operation(s) for power production.
   name: Electricity Maps Power Production API
   slug: electricitymaps-power-production-api
-- description: The Zones API from Electricity Maps — 1 operation(s) for zones.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: The Zones API from Electricity Maps — 1 operation(s) for zones.
   name: Electricity Maps Zones API
   slug: electricitymaps-zones-api
-- description: Carbon intensity (gCO2eq/kWh) signals.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: Carbon intensity (gCO2eq/kWh) signals.
   name: Electricity Maps Carbon Intensity API
   slug: electricitymaps-carbonintensity-api
-- description: Power production and consumption breakdown by source.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: Power production and consumption breakdown by source.
   name: Electricity Maps Electricity Mix API
   slug: electricitymaps-electricitymix-api
-- description: Total load, net load, and electricity flows between zones.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: Total load, net load, and electricity flows between zones.
   name: Electricity Maps Grid Metrics API
   slug: electricitymaps-gridmetrics-api
-- description: Day-ahead electricity pricing.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: Day-ahead electricity pricing.
   name: Electricity Maps Pricing API
   slug: electricitymaps-pricing-api
-- description: Renewable and carbon-free percentage signals.
+- baseURL: https://api.electricitymap.org/v3
+  baseurl_source: declared
+  description: Renewable and carbon-free percentage signals.
   name: Electricity Maps Renewables API
   slug: electricitymaps-renewables-api
 artifact_total: 33
@@ -242,7 +266,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/screenshots/electricitymaps-2026-07-25T213108.png
 security:

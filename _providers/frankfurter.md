@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 10 operations
 api_count: 2
 apis:
-- description: Supported currency reference data
+- baseURL: https://api.frankfurter.dev/v2
+  baseurl_source: declared
+  description: Supported currency reference data
   name: Frankfurter Currencies API
   slug: frankfurter-currencies-api
-- description: Latest foreign exchange rates
+- baseURL: https://api.frankfurter.dev/v2
+  baseurl_source: declared
+  description: Latest foreign exchange rates
   name: Frankfurter current-rates API
   slug: frankfurter-current-rates-api
-- description: Historical exchange rates for specific dates and periods
+- baseURL: https://api.frankfurter.dev/v2
+  baseurl_source: declared
+  description: Historical exchange rates for specific dates and periods
   name: Frankfurter historical-rates API
   slug: frankfurter-historical-rates-api
-- description: API reference data like available currencies
+- baseURL: https://api.frankfurter.dev/v2
+  baseurl_source: declared
+  description: API reference data like available currencies
   name: Frankfurter metadata API
   slug: frankfurter-metadata-api
-- description: Central-bank and institutional data providers
+- baseURL: https://api.frankfurter.dev/v2
+  baseurl_source: declared
+  description: Central-bank and institutional data providers
   name: Frankfurter Providers API
   slug: frankfurter-providers-api
-- description: Blended currency exchange rates
+- baseURL: https://api.frankfurter.dev/v2
+  baseurl_source: declared
+  description: Blended currency exchange rates
   name: Frankfurter Rates API
   slug: frankfurter-rates-api
 artifact_total: 87
@@ -402,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/screenshots/frankfurter-2026-06-20T181506.png
 security:

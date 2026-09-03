@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 18 operations · 10 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Operations for searching and managing Looker Studio assets (reports and data sources).
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for searching and managing Looker Studio assets (reports and data sources).
   name: Looker Studio Assets API
   slug: looker-studio-assets-api
-- description: Operations for managing third-party authentication including OAuth2, API keys, and username/password credentials.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for managing third-party authentication including OAuth2, API keys, and username/password credentials.
   name: Looker Studio Authentication API
   slug: looker-studio-authentication-api
-- description: Operations related to connector configuration, including user-configurable options and authentication setup.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations related to connector configuration, including user-configurable options and authentication setup.
   name: Looker Studio Configuration API
   slug: looker-studio-configuration-api
-- description: Operations for fetching data from the external source and returning it to Looker Studio.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for fetching data from the external source and returning it to Looker Studio.
   name: Looker Studio Data API
   slug: looker-studio-data-api
-- description: Operations for embedding Looker Studio reports in external applications and websites.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for embedding Looker Studio reports in external applications and websites.
   name: Looker Studio Embed API
   slug: looker-studio-embed-api
-- description: Operations related to the visualization manifest configuration that defines how a visualization is discovered and loaded.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations related to the visualization manifest configuration that defines how a visualization is discovered and loaded.
   name: Looker Studio Manifest API
   slug: looker-studio-manifest-api
-- description: oEmbed-compatible endpoint for platforms that support the oEmbed standard.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: oEmbed-compatible endpoint for platforms that support the oEmbed standard.
   name: Looker Studio oEmbed API
   slug: looker-studio-oembed-api
-- description: Operations for managing asset permissions including getting, updating, adding, and revoking member access.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for managing asset permissions including getting, updating, adding, and revoking member access.
   name: Looker Studio Permissions API
   slug: looker-studio-permissions-api
-- description: Operations for creating and configuring linked Looker Studio reports.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for creating and configuring linked Looker Studio reports.
   name: Looker Studio Reports API
   slug: looker-studio-reports-api
-- description: Operations for defining the data structure and field definitions returned by the connector.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for defining the data structure and field definitions returned by the connector.
   name: Looker Studio Schema API
   slug: looker-studio-schema-api
-- description: Operations for loading and rendering community visualizations in Looker Studio reports.
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for loading and rendering community visualizations in Looker Studio reports.
   name: Looker Studio Visualization API
   slug: looker-studio-visualization-api
 artifact_total: 85
@@ -454,7 +476,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-08-17T082124.png
 security:

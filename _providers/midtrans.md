@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 33 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Client-key card token and card registration (browser-side).
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Client-key card token and card registration (browser-side).
   name: Midtrans Card Tokenization API
   slug: midtrans-card-tokenization-api
-- description: Charge and manage the lifecycle of a transaction.
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Charge and manage the lifecycle of a transaction.
   name: Midtrans Core API API
   slug: midtrans-core-api-api
-- description: Bind and read a customer's GoPay account.
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Bind and read a customer's GoPay account.
   name: Midtrans GoPay Tokenization API
   slug: midtrans-gopay-tokenization-api
-- description: Payouts, beneficiaries, balance, and account validation.
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Payouts, beneficiaries, balance, and account validation.
   name: Midtrans Iris Disbursement API
   slug: midtrans-iris-disbursement-api
-- description: Create, read, and delete shareable payment links.
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Create, read, and delete shareable payment links.
   name: Midtrans Payment Link API
   slug: midtrans-payment-link-api
-- description: Hosted / drop-in checkout session creation.
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Hosted / drop-in checkout session creation.
   name: Midtrans Snap API
   slug: midtrans-snap-api
-- description: Recurring / subscription billing.
+- baseURL: https://app.midtrans.com/snap/v1
+  baseurl_source: declared
+  description: Recurring / subscription billing.
   name: Midtrans Subscription API
   slug: midtrans-subscription-api
 artifact_total: 22
@@ -197,7 +211,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/screenshots/midtrans-2026-08-07T172858.png
 security:

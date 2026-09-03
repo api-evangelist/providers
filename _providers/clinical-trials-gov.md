@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,13 +51,19 @@ apis:
 - description: AACT (Aggregate Analysis of ClinicalTrials.gov) is a publicly available relational database of all ClinicalTrials.gov study content maintained by the Clinical Trials Transformation Initiative (CTTI) a
   name: AACT Database
   slug: aact
-- description: The Stats API from ClinicalTrials.gov — 3 operation(s) for stats.
+- baseURL: https://clinicaltrials.gov/api/v2
+  baseurl_source: declared
+  description: The Stats API from ClinicalTrials.gov — 3 operation(s) for stats.
   name: ClinicalTrials.gov Stats API
   slug: clinical-trials-gov-stats-api
-- description: The Studies API from ClinicalTrials.gov — 5 operation(s) for studies.
+- baseURL: https://clinicaltrials.gov/api/v2
+  baseurl_source: declared
+  description: The Studies API from ClinicalTrials.gov — 5 operation(s) for studies.
   name: ClinicalTrials.gov Studies API
   slug: clinical-trials-gov-studies-api
-- description: The Version API from ClinicalTrials.gov — 1 operation(s) for version.
+- baseURL: https://clinicaltrials.gov/api/v2
+  baseurl_source: declared
+  description: The Version API from ClinicalTrials.gov — 1 operation(s) for version.
   name: ClinicalTrials.gov Version API
   slug: clinical-trials-gov-version-api
 artifact_total: 15
@@ -204,7 +210,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/screenshots/clinical-trials-gov-2026-06-20T174525.png
 security:

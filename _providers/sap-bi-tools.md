@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -74,52 +74,84 @@ apis:
 - description: 'OData V4 API for browsing the SAP Datasphere catalog and consuming datasets and metadata from consumable data assets. Enables external applications to discover available spaces, access relational and '
   name: SAP Datasphere Consumption and Catalog API
   slug: sap-datasphere-consumption-and-catalog-api
-- description: Administration service endpoints for discovering available namespaces and providers (models) on the SAP Analytics Cloud tenant.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Administration service endpoints for discovering available namespaces and providers (models) on the SAP Analytics Cloud tenant.
   name: SAP BI Tools Administration API
   slug: sap-bi-tools-administration-api
-- description: Logon and logoff endpoints for obtaining and invalidating session tokens required for all subsequent API calls.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Logon and logoff endpoints for obtaining and invalidating session tokens required for all subsequent API calls.
   name: SAP BI Tools Authentication API
   slug: sap-bi-tools-authentication-api
-- description: Manage calendar events and tasks used for planning workflows and scheduling in SAP Analytics Cloud.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Manage calendar events and tasks used for planning workflows and scheduling in SAP Analytics Cloud.
   name: SAP BI Tools Calendars API
   slug: sap-bi-tools-calendars-api
-- description: Execute CMS queries against the BI Platform repository to search for objects using CMS query language syntax.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Execute CMS queries against the BI Platform repository to search for objects using CMS query language syntax.
   name: SAP BI Tools CMS Query API
   slug: sap-bi-tools-cms-query-api
-- description: Manage content items in the Content Network including retrieving, publishing, and deleting both private and public content packages.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Manage content items in the Content Network including retrieving, publishing, and deleting both private and public content packages.
   name: SAP BI Tools Content Items API
   slug: sap-bi-tools-content-items-api
-- description: Provider service endpoints for retrieving fact data from specific models. Fact data includes the transactional records with associated dimension values and measures.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Provider service endpoints for retrieving fact data from specific models. Fact data includes the transactional records with associated dimension values and measures.
   name: SAP BI Tools Fact Data API
   slug: sap-bi-tools-fact-data-api
-- description: Import content items from the Content Network into the local SAP Analytics Cloud tenant.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Import content items from the Content Network into the local SAP Analytics Cloud tenant.
   name: SAP BI Tools Import API
   slug: sap-bi-tools-import-api
-- description: Manage BI Inbox items including viewing received reports and scheduled instances.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Manage BI Inbox items including viewing received reports and scheduled instances.
   name: SAP BI Tools Inbox API
   slug: sap-bi-tools-inbox-api
-- description: Browse and query the CMS InfoStore repository to access documents, folders, users, groups, and other BI Platform objects.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Browse and query the CMS InfoStore repository to access documents, folders, users, groups, and other BI Platform objects.
   name: SAP BI Tools InfoStore API
   slug: sap-bi-tools-infostore-api
-- description: Provider service endpoints for retrieving master data from specific model dimensions. Master data includes the dimension member lists with their attributes and hierarchies.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Provider service endpoints for retrieving master data from specific model dimensions. Master data includes the dimension member lists with their attributes and hierarchies.
   name: SAP BI Tools Master Data API
   slug: sap-bi-tools-master-data-api
-- description: Provider service endpoints for retrieving OData metadata documents describing the structure of models, dimensions, and measures.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Provider service endpoints for retrieving OData metadata documents describing the structure of models, dimensions, and measures.
   name: SAP BI Tools Metadata API
   slug: sap-bi-tools-metadata-api
-- description: Browse and manage resources within the SAP Analytics Cloud file repository including stories, models, and folders.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Browse and manage resources within the SAP Analytics Cloud file repository including stories, models, and folders.
   name: SAP BI Tools Resources API
   slug: sap-bi-tools-resources-api
-- description: Schedule reports and documents for execution with configurable parameters, recurrence, and destination options.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Schedule reports and documents for execution with configurable parameters, recurrence, and destination options.
   name: SAP BI Tools Scheduling API
   slug: sap-bi-tools-scheduling-api
-- description: Manage analytic stories including dashboards and reports. Stories are the primary visualization artifact in SAP Analytics Cloud.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: Manage analytic stories including dashboards and reports. Stories are the primary visualization artifact in SAP Analytics Cloud.
   name: SAP BI Tools Stories API
   slug: sap-bi-tools-stories-api
-- description: SCIM 2.0 endpoints for managing teams and group memberships for access control in SAP Analytics Cloud.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: SCIM 2.0 endpoints for managing teams and group memberships for access control in SAP Analytics Cloud.
   name: SAP BI Tools Teams API
   slug: sap-bi-tools-teams-api
-- description: SCIM 2.0 endpoints for managing user accounts, provisioning, and deprovisioning in SAP Analytics Cloud.
+- baseURL: https://api.sapanalytics.cloud
+  baseurl_source: declared
+  description: SCIM 2.0 endpoints for managing user accounts, provisioning, and deprovisioning in SAP Analytics Cloud.
   name: SAP BI Tools Users API
   slug: sap-bi-tools-users-api
 arazzos:
@@ -589,7 +621,7 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -602,7 +634,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 45.9
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -611,7 +643,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -47,13 +47,19 @@ apis:
 - description: UltraSignal is Ultrahuman's wearable developer platform for building custom algorithms on raw Ring AIR sensor streams - photoplethysmography (PPG), temperature, and accelerometer data. Access is appli
   name: UltraSignal Sensor Platform API
   slug: ultrahuman-ultrasignal-api
-- description: Ring and CGM daily metrics for consented users.
+- baseURL: https://partner.ultrahuman.com
+  baseurl_source: declared
+  description: Ring and CGM daily metrics for consented users.
   name: Ultrahuman Metrics API
   slug: ultrahuman-metrics-api
-- description: OAuth 2.0 authorization, token exchange, and revocation.
+- baseURL: https://partner.ultrahuman.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization, token exchange, and revocation.
   name: Ultrahuman OAuth API
   slug: ultrahuman-oauth-api
-- description: Basic authorized-user profile information.
+- baseURL: https://partner.ultrahuman.com
+  baseurl_source: declared
+  description: Basic authorized-user profile information.
   name: Ultrahuman User API
   slug: ultrahuman-user-api
 artifact_total: 16
@@ -148,7 +154,7 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -177,8 +183,9 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ultrahuman/refs/heads/main/screenshots/ultrahuman-2026-09-02T164801.png
 security:
 - kind: authentication
   name: Ultrahuman Authentication

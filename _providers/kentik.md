@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 3
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 135 operations · 79 acting · 3 human-in-the-loop
 api_count: 20
 apis:
-- description: The AiAdvisorDataService API from Kentik — 2 operation(s) for aiadvisordataservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The AiAdvisorDataService API from Kentik — 2 operation(s) for aiadvisordataservice.
   name: Kentik AiAdvisorDataService API
   slug: kentik-aiadvisordataservice-api
-- description: The AlertService API from Kentik — 7 operation(s) for alertservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The AlertService API from Kentik — 7 operation(s) for alertservice.
   name: Kentik AlertService API
   slug: kentik-alertservice-api
-- description: The ASGroupService API from Kentik — 2 operation(s) for asgroupservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The ASGroupService API from Kentik — 2 operation(s) for asgroupservice.
   name: Kentik ASGroupService API
   slug: kentik-asgroupservice-api
-- description: The AuditService API from Kentik — 3 operation(s) for auditservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The AuditService API from Kentik — 3 operation(s) for auditservice.
   name: Kentik AuditService API
   slug: kentik-auditservice-api
-- description: The BgpMonitoringAdminService API from Kentik — 3 operation(s) for bgpmonitoringadminservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The BgpMonitoringAdminService API from Kentik — 3 operation(s) for bgpmonitoringadminservice.
   name: Kentik BgpMonitoringAdminService API
   slug: kentik-bgpmonitoringadminservice-api
-- description: The BgpMonitoringDataService API from Kentik — 2 operation(s) for bgpmonitoringdataservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The BgpMonitoringDataService API from Kentik — 2 operation(s) for bgpmonitoringdataservice.
   name: Kentik BgpMonitoringDataService API
   slug: kentik-bgpmonitoringdataservice-api
-- description: The CapacityPlanService API from Kentik — 4 operation(s) for capacityplanservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The CapacityPlanService API from Kentik — 4 operation(s) for capacityplanservice.
   name: Kentik CapacityPlanService API
   slug: kentik-capacityplanservice-api
-- description: The CloudExportAdminService API from Kentik — 2 operation(s) for cloudexportadminservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The CloudExportAdminService API from Kentik — 2 operation(s) for cloudexportadminservice.
   name: Kentik CloudExportAdminService API
   slug: kentik-cloudexportadminservice-api
-- description: The CostService API from Kentik — 3 operation(s) for costservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The CostService API from Kentik — 3 operation(s) for costservice.
   name: Kentik CostService API
   slug: kentik-costservice-api
-- description: The CustomDimensionService API from Kentik — 6 operation(s) for customdimensionservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The CustomDimensionService API from Kentik — 6 operation(s) for customdimensionservice.
   name: Kentik CustomDimensionService API
   slug: kentik-customdimensionservice-api
-- description: The DeviceService API from Kentik — 7 operation(s) for deviceservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The DeviceService API from Kentik — 7 operation(s) for deviceservice.
   name: Kentik DeviceService API
   slug: kentik-deviceservice-api
-- description: The FlowTagService API from Kentik — 2 operation(s) for flowtagservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The FlowTagService API from Kentik — 2 operation(s) for flowtagservice.
   name: Kentik FlowTagService API
   slug: kentik-flowtagservice-api
-- description: The KmiService API from Kentik — 5 operation(s) for kmiservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The KmiService API from Kentik — 5 operation(s) for kmiservice.
   name: Kentik KmiService API
   slug: kentik-kmiservice-api
-- description: The LabelService API from Kentik — 2 operation(s) for labelservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The LabelService API from Kentik — 2 operation(s) for labelservice.
   name: Kentik LabelService API
   slug: kentik-labelservice-api
-- description: The MitigationsService API from Kentik — 4 operation(s) for mitigationsservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The MitigationsService API from Kentik — 4 operation(s) for mitigationsservice.
   name: Kentik MitigationsService API
   slug: kentik-mitigationsservice-api
-- description: The NotificationChannelService API from Kentik — 3 operation(s) for notificationchannelservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The NotificationChannelService API from Kentik — 3 operation(s) for notificationchannelservice.
   name: Kentik NotificationChannelService API
   slug: kentik-notificationchannelservice-api
-- description: The PackageService API from Kentik — 2 operation(s) for packageservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The PackageService API from Kentik — 2 operation(s) for packageservice.
   name: Kentik PackageService API
   slug: kentik-packageservice-api
-- description: The PolicyService API from Kentik — 4 operation(s) for policyservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The PolicyService API from Kentik — 4 operation(s) for policyservice.
   name: Kentik PolicyService API
   slug: kentik-policyservice-api
-- description: The SiteService API from Kentik — 4 operation(s) for siteservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The SiteService API from Kentik — 4 operation(s) for siteservice.
   name: Kentik SiteService API
   slug: kentik-siteservice-api
-- description: The SyntheticsAdminService API from Kentik — 7 operation(s) for syntheticsadminservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The SyntheticsAdminService API from Kentik — 7 operation(s) for syntheticsadminservice.
   name: Kentik SyntheticsAdminService API
   slug: kentik-syntheticsadminservice-api
-- description: The SyntheticsDataService API from Kentik — 3 operation(s) for syntheticsdataservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The SyntheticsDataService API from Kentik — 3 operation(s) for syntheticsdataservice.
   name: Kentik SyntheticsDataService API
   slug: kentik-syntheticsdataservice-api
-- description: The TenantService API from Kentik — 2 operation(s) for tenantservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The TenantService API from Kentik — 2 operation(s) for tenantservice.
   name: Kentik TenantService API
   slug: kentik-tenantservice-api
-- description: The TenantUserService API from Kentik — 2 operation(s) for tenantuserservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The TenantUserService API from Kentik — 2 operation(s) for tenantuserservice.
   name: Kentik TenantUserService API
   slug: kentik-tenantuserservice-api
-- description: The UserService API from Kentik — 4 operation(s) for userservice.
+- baseURL: https://grpc.api.kentik.com
+  baseurl_source: declared
+  description: The UserService API from Kentik — 4 operation(s) for userservice.
   name: Kentik UserService API
   slug: kentik-userservice-api
 artifact_total: 54
@@ -373,7 +421,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -383,7 +431,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 55.0
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,7 +443,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/screenshots/kentik-2026-07-25T223629.png
 security:

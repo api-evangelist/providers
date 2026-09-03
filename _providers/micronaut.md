@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Beans API from Micronaut — 1 operation(s) for beans.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Beans API from Micronaut — 1 operation(s) for beans.
   name: Micronaut Beans API
   slug: micronaut-beans-api
-- description: The Configuration API from Micronaut — 1 operation(s) for configuration.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Configuration API from Micronaut — 1 operation(s) for configuration.
   name: Micronaut Configuration API
   slug: micronaut-configuration-api
-- description: The Environment API from Micronaut — 1 operation(s) for environment.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Environment API from Micronaut — 1 operation(s) for environment.
   name: Micronaut Environment API
   slug: micronaut-environment-api
-- description: The Health API from Micronaut — 1 operation(s) for health.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Health API from Micronaut — 1 operation(s) for health.
   name: Micronaut Health API
   slug: micronaut-health-api
-- description: The Info API from Micronaut — 1 operation(s) for info.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Info API from Micronaut — 1 operation(s) for info.
   name: Micronaut Info API
   slug: micronaut-info-api
-- description: The JVM API from Micronaut — 1 operation(s) for jvm.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The JVM API from Micronaut — 1 operation(s) for jvm.
   name: Micronaut JVM API
   slug: micronaut-jvm-api
-- description: The Lifecycle API from Micronaut — 1 operation(s) for lifecycle.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Lifecycle API from Micronaut — 1 operation(s) for lifecycle.
   name: Micronaut Lifecycle API
   slug: micronaut-lifecycle-api
-- description: The Loggers API from Micronaut — 2 operation(s) for loggers.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Loggers API from Micronaut — 2 operation(s) for loggers.
   name: Micronaut Loggers API
   slug: micronaut-loggers-api
-- description: The Metrics API from Micronaut — 2 operation(s) for metrics.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Metrics API from Micronaut — 2 operation(s) for metrics.
   name: Micronaut Metrics API
   slug: micronaut-metrics-api
-- description: The Routes API from Micronaut — 1 operation(s) for routes.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Routes API from Micronaut — 1 operation(s) for routes.
   name: Micronaut Routes API
   slug: micronaut-routes-api
 artifact_total: 30
@@ -222,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/screenshots/micronaut-2026-06-20T185335.png
 security:

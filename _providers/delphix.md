@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -43,184 +43,304 @@ agentic_access:
   summary_line: 730 operations · 510 acting · 15 human-in-the-loop
 api_count: 2
 apis:
-- description: The Algorithms API from Delphix — 12 operation(s) for algorithms.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Algorithms API from Delphix — 12 operation(s) for algorithms.
   name: Delphix Algorithms API
   slug: delphix-algorithms-api
-- description: The Bookmarks API from Delphix — 8 operation(s) for bookmarks.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Bookmarks API from Delphix — 8 operation(s) for bookmarks.
   name: Delphix Bookmarks API
   slug: delphix-bookmarks-api
-- description: The CDB DSources API from Delphix — 11 operation(s) for cdb dsources.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The CDB DSources API from Delphix — 11 operation(s) for cdb dsources.
   name: Delphix CDB DSources API
   slug: delphix-cdb-dsources-api
-- description: The CDBs API from Delphix — 14 operation(s) for cdbs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The CDBs API from Delphix — 14 operation(s) for cdbs.
   name: Delphix CDBs API
   slug: delphix-cdbs-api
-- description: The Classifiers API from Delphix — 7 operation(s) for classifiers.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Classifiers API from Delphix — 7 operation(s) for classifiers.
   name: Delphix Classifiers API
   slug: delphix-classifiers-api
-- description: The CloudAccounts API from Delphix — 7 operation(s) for cloudaccounts.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The CloudAccounts API from Delphix — 7 operation(s) for cloudaccounts.
   name: Delphix CloudAccounts API
   slug: delphix-cloudaccounts-api
-- description: The ComplianceJobCollections API from Delphix — 8 operation(s) for compliancejobcollections.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The ComplianceJobCollections API from Delphix — 8 operation(s) for compliancejobcollections.
   name: Delphix ComplianceJobCollections API
   slug: delphix-compliancejobcollections-api
-- description: The ComplianceJobs API from Delphix — 7 operation(s) for compliancejobs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The ComplianceJobs API from Delphix — 7 operation(s) for compliancejobs.
   name: Delphix ComplianceJobs API
   slug: delphix-compliancejobs-api
-- description: The ComplianceNodes API from Delphix — 6 operation(s) for compliancenodes.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The ComplianceNodes API from Delphix — 6 operation(s) for compliancenodes.
   name: Delphix ComplianceNodes API
   slug: delphix-compliancenodes-api
-- description: The Connectivity API from Delphix — 4 operation(s) for connectivity.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Connectivity API from Delphix — 4 operation(s) for connectivity.
   name: Delphix Connectivity API
   slug: delphix-connectivity-api
-- description: The Connectors API from Delphix — 11 operation(s) for connectors.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Connectors API from Delphix — 11 operation(s) for connectors.
   name: Delphix Connectors API
   slug: delphix-connectors-api
-- description: The DatabaseTemplates API from Delphix — 7 operation(s) for databasetemplates.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The DatabaseTemplates API from Delphix — 7 operation(s) for databasetemplates.
   name: Delphix DatabaseTemplates API
   slug: delphix-databasetemplates-api
-- description: The DataClasses API from Delphix — 8 operation(s) for dataclasses.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The DataClasses API from Delphix — 8 operation(s) for dataclasses.
   name: Delphix DataClasses API
   slug: delphix-dataclasses-api
-- description: The DataLayouts API from Delphix — 7 operation(s) for datalayouts.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The DataLayouts API from Delphix — 7 operation(s) for datalayouts.
   name: Delphix DataLayouts API
   slug: delphix-datalayouts-api
-- description: The DiscoveryExpressions API from Delphix — 5 operation(s) for discoveryexpressions.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The DiscoveryExpressions API from Delphix — 5 operation(s) for discoveryexpressions.
   name: Delphix DiscoveryExpressions API
   slug: delphix-discoveryexpressions-api
-- description: The DiscoveryPolicies API from Delphix — 10 operation(s) for discoverypolicies.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The DiscoveryPolicies API from Delphix — 10 operation(s) for discoverypolicies.
   name: Delphix DiscoveryPolicies API
   slug: delphix-discoverypolicies-api
-- description: The DSources API from Delphix — 45 operation(s) for dsources.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The DSources API from Delphix — 45 operation(s) for dsources.
   name: Delphix DSources API
   slug: delphix-dsources-api
-- description: The Environments API from Delphix — 24 operation(s) for environments.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Environments API from Delphix — 24 operation(s) for environments.
   name: Delphix Environments API
   slug: delphix-environments-api
-- description: The Executions API from Delphix — 15 operation(s) for executions.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Executions API from Delphix — 15 operation(s) for executions.
   name: Delphix Executions API
   slug: delphix-executions-api
-- description: The File Mapping API from Delphix — 4 operation(s) for file mapping.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The File Mapping API from Delphix — 4 operation(s) for file mapping.
   name: Delphix File Mapping API
   slug: delphix-file-mapping-api
-- description: The Groups API from Delphix — 3 operation(s) for groups.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Groups API from Delphix — 3 operation(s) for groups.
   name: Delphix Groups API
   slug: delphix-groups-api
-- description: The HeldSpace API from Delphix — 2 operation(s) for heldspace.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The HeldSpace API from Delphix — 2 operation(s) for heldspace.
   name: Delphix HeldSpace API
   slug: delphix-heldspace-api
-- description: The HookTemplates API from Delphix — 5 operation(s) for hooktemplates.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The HookTemplates API from Delphix — 5 operation(s) for hooktemplates.
   name: Delphix HookTemplates API
   slug: delphix-hooktemplates-api
-- description: The HyperscaleInstance API from Delphix — 9 operation(s) for hyperscaleinstance.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The HyperscaleInstance API from Delphix — 9 operation(s) for hyperscaleinstance.
   name: Delphix HyperscaleInstance API
   slug: delphix-hyperscaleinstance-api
-- description: The HyperscaleObjects API from Delphix — 17 operation(s) for hyperscaleobjects.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The HyperscaleObjects API from Delphix — 17 operation(s) for hyperscaleobjects.
   name: Delphix HyperscaleObjects API
   slug: delphix-hyperscaleobjects-api
-- description: The JobCollectionExecutions API from Delphix — 4 operation(s) for jobcollectionexecutions.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The JobCollectionExecutions API from Delphix — 4 operation(s) for jobcollectionexecutions.
   name: Delphix JobCollectionExecutions API
   slug: delphix-jobcollectionexecutions-api
-- description: The JobOrchestrators API from Delphix — 12 operation(s) for joborchestrators.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The JobOrchestrators API from Delphix — 12 operation(s) for joborchestrators.
   name: Delphix JobOrchestrators API
   slug: delphix-joborchestrators-api
-- description: The KerberosConfig API from Delphix — 3 operation(s) for kerberosconfig.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The KerberosConfig API from Delphix — 3 operation(s) for kerberosconfig.
   name: Delphix KerberosConfig API
   slug: delphix-kerberosconfig-api
-- description: The Management API from Delphix — 1 operation(s) for management.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Management API from Delphix — 1 operation(s) for management.
   name: Delphix Management API
   slug: delphix-management-api
-- description: The MaskingEnvironments API from Delphix — 3 operation(s) for maskingenvironments.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The MaskingEnvironments API from Delphix — 3 operation(s) for maskingenvironments.
   name: Delphix MaskingEnvironments API
   slug: delphix-maskingenvironments-api
-- description: The MaskingFiles API from Delphix — 8 operation(s) for maskingfiles.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The MaskingFiles API from Delphix — 8 operation(s) for maskingfiles.
   name: Delphix MaskingFiles API
   slug: delphix-maskingfiles-api
-- description: The MaskingJobs API from Delphix — 14 operation(s) for maskingjobs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The MaskingJobs API from Delphix — 14 operation(s) for maskingjobs.
   name: Delphix MaskingJobs API
   slug: delphix-maskingjobs-api
-- description: The MaskingPlugins API from Delphix — 6 operation(s) for maskingplugins.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The MaskingPlugins API from Delphix — 6 operation(s) for maskingplugins.
   name: Delphix MaskingPlugins API
   slug: delphix-maskingplugins-api
-- description: The MigrationJobs API from Delphix — 1 operation(s) for migrationjobs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The MigrationJobs API from Delphix — 1 operation(s) for migrationjobs.
   name: Delphix MigrationJobs API
   slug: delphix-migrationjobs-api
-- description: The Namespace API from Delphix — 7 operation(s) for namespace.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Namespace API from Delphix — 7 operation(s) for namespace.
   name: Delphix Namespace API
   slug: delphix-namespace-api
-- description: The Network Performance Tool API from Delphix — 6 operation(s) for network performance tool.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Network Performance Tool API from Delphix — 6 operation(s) for network performance tool.
   name: Delphix Network Performance Tool API
   slug: delphix-network-performance-tool-api
-- description: The PaaSDatabases API from Delphix — 15 operation(s) for paasdatabases.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The PaaSDatabases API from Delphix — 15 operation(s) for paasdatabases.
   name: Delphix PaaSDatabases API
   slug: delphix-paasdatabases-api
-- description: The PaaSInstances API from Delphix — 15 operation(s) for paasinstances.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The PaaSInstances API from Delphix — 15 operation(s) for paasinstances.
   name: Delphix PaaSInstances API
   slug: delphix-paasinstances-api
-- description: The PaaSPlugins API from Delphix — 3 operation(s) for paasplugins.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The PaaSPlugins API from Delphix — 3 operation(s) for paasplugins.
   name: Delphix PaaSPlugins API
   slug: delphix-paasplugins-api
-- description: The PaaSSnapshots API from Delphix — 10 operation(s) for paassnapshots.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The PaaSSnapshots API from Delphix — 10 operation(s) for paassnapshots.
   name: Delphix PaaSSnapshots API
   slug: delphix-paassnapshots-api
-- description: The PaaSTimeflows API from Delphix — 7 operation(s) for paastimeflows.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The PaaSTimeflows API from Delphix — 7 operation(s) for paastimeflows.
   name: Delphix PaaSTimeflows API
   slug: delphix-paastimeflows-api
-- description: The PasswordVaults API from Delphix — 3 operation(s) for passwordvaults.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The PasswordVaults API from Delphix — 3 operation(s) for passwordvaults.
   name: Delphix PasswordVaults API
   slug: delphix-passwordvaults-api
-- description: The Replication API from Delphix — 8 operation(s) for replication.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Replication API from Delphix — 8 operation(s) for replication.
   name: Delphix Replication API
   slug: delphix-replication-api
-- description: The Reporting API from Delphix — 19 operation(s) for reporting.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Reporting API from Delphix — 19 operation(s) for reporting.
   name: Delphix Reporting API
   slug: delphix-reporting-api
-- description: The RuleSets API from Delphix — 14 operation(s) for rulesets.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The RuleSets API from Delphix — 14 operation(s) for rulesets.
   name: Delphix RuleSets API
   slug: delphix-rulesets-api
-- description: The Snapshots API from Delphix — 14 operation(s) for snapshots.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Snapshots API from Delphix — 14 operation(s) for snapshots.
   name: Delphix Snapshots API
   slug: delphix-snapshots-api
-- description: The Sources API from Delphix — 18 operation(s) for sources.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Sources API from Delphix — 18 operation(s) for sources.
   name: Delphix Sources API
   slug: delphix-sources-api
-- description: The StagingCdbs API from Delphix — 9 operation(s) for stagingcdbs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The StagingCdbs API from Delphix — 9 operation(s) for stagingcdbs.
   name: Delphix StagingCdbs API
   slug: delphix-stagingcdbs-api
-- description: The StagingSources API from Delphix — 6 operation(s) for stagingsources.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The StagingSources API from Delphix — 6 operation(s) for stagingsources.
   name: Delphix StagingSources API
   slug: delphix-stagingsources-api
-- description: The StorageUsage API from Delphix — 2 operation(s) for storageusage.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The StorageUsage API from Delphix — 2 operation(s) for storageusage.
   name: Delphix StorageUsage API
   slug: delphix-storageusage-api
-- description: The Timeflows API from Delphix — 8 operation(s) for timeflows.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Timeflows API from Delphix — 8 operation(s) for timeflows.
   name: Delphix Timeflows API
   slug: delphix-timeflows-api
-- description: The Toolkits API from Delphix — 8 operation(s) for toolkits.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Toolkits API from Delphix — 8 operation(s) for toolkits.
   name: Delphix Toolkits API
   slug: delphix-toolkits-api
-- description: The VCDBs API from Delphix — 14 operation(s) for vcdbs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VCDBs API from Delphix — 14 operation(s) for vcdbs.
   name: Delphix VCDBs API
   slug: delphix-vcdbs-api
-- description: The VDBGroups API from Delphix — 21 operation(s) for vdbgroups.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VDBGroups API from Delphix — 21 operation(s) for vdbgroups.
   name: Delphix VDBGroups API
   slug: delphix-vdbgroups-api
-- description: The VDBs API from Delphix — 54 operation(s) for vdbs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VDBs API from Delphix — 54 operation(s) for vdbs.
   name: Delphix VDBs API
   slug: delphix-vdbs-api
-- description: The VirtualizationActions API from Delphix — 2 operation(s) for virtualizationactions.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VirtualizationActions API from Delphix — 2 operation(s) for virtualizationactions.
   name: Delphix VirtualizationActions API
   slug: delphix-virtualizationactions-api
-- description: The VirtualizationAlerts API from Delphix — 2 operation(s) for virtualizationalerts.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VirtualizationAlerts API from Delphix — 2 operation(s) for virtualizationalerts.
   name: Delphix VirtualizationAlerts API
   slug: delphix-virtualizationalerts-api
-- description: The VirtualizationFaults API from Delphix — 5 operation(s) for virtualizationfaults.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VirtualizationFaults API from Delphix — 5 operation(s) for virtualizationfaults.
   name: Delphix VirtualizationFaults API
   slug: delphix-virtualizationfaults-api
-- description: The VirtualizationJobs API from Delphix — 2 operation(s) for virtualizationjobs.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VirtualizationJobs API from Delphix — 2 operation(s) for virtualizationjobs.
   name: Delphix VirtualizationJobs API
   slug: delphix-virtualizationjobs-api
-- description: The VirtualizationPolicies API from Delphix — 9 operation(s) for virtualizationpolicies.
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The VirtualizationPolicies API from Delphix — 9 operation(s) for virtualizationpolicies.
   name: Delphix VirtualizationPolicies API
   slug: delphix-virtualizationpolicies-api
 artifact_total: 125
@@ -592,7 +712,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/screenshots/delphix-2026-07-25T211658.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 222 operations · 128 acting
 api_count: 1
 apis:
-- description: The subpackage_accounts API from Flatfile — 1 operation(s) for subpackage_accounts.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_accounts API from Flatfile — 1 operation(s) for subpackage_accounts.
   name: Flatfile subpackage_accounts API
   slug: flatfile-subpackage-accounts-api
-- description: The subpackage_actions API from Flatfile — 3 operation(s) for subpackage_actions.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_actions API from Flatfile — 3 operation(s) for subpackage_actions.
   name: Flatfile subpackage_actions API
   slug: flatfile-subpackage-actions-api
-- description: The subpackage_agent-exports API from Flatfile — 3 operation(s) for subpackage_agent-exports.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_agent-exports API from Flatfile — 3 operation(s) for subpackage_agent-exports.
   name: Flatfile subpackage_agent-exports API
   slug: flatfile-subpackage-agent-exports-api
-- description: The subpackage_agents API from Flatfile — 10 operation(s) for subpackage_agents.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_agents API from Flatfile — 10 operation(s) for subpackage_agents.
   name: Flatfile subpackage_agents API
   slug: flatfile-subpackage-agents-api
-- description: The subpackage_apps API from Flatfile — 6 operation(s) for subpackage_apps.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_apps API from Flatfile — 6 operation(s) for subpackage_apps.
   name: Flatfile subpackage_apps API
   slug: flatfile-subpackage-apps-api
-- description: The subpackage_assistant API from Flatfile — 2 operation(s) for subpackage_assistant.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_assistant API from Flatfile — 2 operation(s) for subpackage_assistant.
   name: Flatfile subpackage_assistant API
   slug: flatfile-subpackage-assistant-api
-- description: The subpackage_auth API from Flatfile — 2 operation(s) for subpackage_auth.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_auth API from Flatfile — 2 operation(s) for subpackage_auth.
   name: Flatfile subpackage_auth API
   slug: flatfile-subpackage-auth-api
-- description: The subpackage_canvas-areas API from Flatfile — 2 operation(s) for subpackage_canvas-areas.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_canvas-areas API from Flatfile — 2 operation(s) for subpackage_canvas-areas.
   name: Flatfile subpackage_canvas-areas API
   slug: flatfile-subpackage-canvas-areas-api
-- description: The subpackage_commits API from Flatfile — 3 operation(s) for subpackage_commits.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_commits API from Flatfile — 3 operation(s) for subpackage_commits.
   name: Flatfile subpackage_commits API
   slug: flatfile-subpackage-commits-api
-- description: The subpackage_data-clips API from Flatfile — 6 operation(s) for subpackage_data-clips.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_data-clips API from Flatfile — 6 operation(s) for subpackage_data-clips.
   name: Flatfile subpackage_data-clips API
   slug: flatfile-subpackage-data-clips-api
-- description: The subpackage_data-retention-policies API from Flatfile — 2 operation(s) for subpackage_data-retention-policies.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_data-retention-policies API from Flatfile — 2 operation(s) for subpackage_data-retention-policies.
   name: Flatfile subpackage_data-retention-policies API
   slug: flatfile-subpackage-data-retention-policies-api
-- description: The subpackage_documents API from Flatfile — 2 operation(s) for subpackage_documents.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_documents API from Flatfile — 2 operation(s) for subpackage_documents.
   name: Flatfile subpackage_documents API
   slug: flatfile-subpackage-documents-api
-- description: The subpackage_entitlements API from Flatfile — 1 operation(s) for subpackage_entitlements.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_entitlements API from Flatfile — 1 operation(s) for subpackage_entitlements.
   name: Flatfile subpackage_entitlements API
   slug: flatfile-subpackage-entitlements-api
-- description: The subpackage_environments API from Flatfile — 6 operation(s) for subpackage_environments.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_environments API from Flatfile — 6 operation(s) for subpackage_environments.
   name: Flatfile subpackage_environments API
   slug: flatfile-subpackage-environments-api
-- description: The subpackage_events API from Flatfile — 4 operation(s) for subpackage_events.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_events API from Flatfile — 4 operation(s) for subpackage_events.
   name: Flatfile subpackage_events API
   slug: flatfile-subpackage-events-api
-- description: The subpackage_files API from Flatfile — 5 operation(s) for subpackage_files.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_files API from Flatfile — 5 operation(s) for subpackage_files.
   name: Flatfile subpackage_files API
   slug: flatfile-subpackage-files-api
-- description: The subpackage_flags API from Flatfile — 3 operation(s) for subpackage_flags.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_flags API from Flatfile — 3 operation(s) for subpackage_flags.
   name: Flatfile subpackage_flags API
   slug: flatfile-subpackage-flags-api
-- description: The subpackage_guests API from Flatfile — 6 operation(s) for subpackage_guests.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_guests API from Flatfile — 6 operation(s) for subpackage_guests.
   name: Flatfile subpackage_guests API
   slug: flatfile-subpackage-guests-api
-- description: The subpackage_jobs API from Flatfile — 12 operation(s) for subpackage_jobs.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_jobs API from Flatfile — 12 operation(s) for subpackage_jobs.
   name: Flatfile subpackage_jobs API
   slug: flatfile-subpackage-jobs-api
-- description: The subpackage_mapping API from Flatfile — 4 operation(s) for subpackage_mapping.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_mapping API from Flatfile — 4 operation(s) for subpackage_mapping.
   name: Flatfile subpackage_mapping API
   slug: flatfile-subpackage-mapping-api
-- description: The subpackage_records API from Flatfile — 4 operation(s) for subpackage_records.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_records API from Flatfile — 4 operation(s) for subpackage_records.
   name: Flatfile subpackage_records API
   slug: flatfile-subpackage-records-api
-- description: The subpackage_roles API from Flatfile — 1 operation(s) for subpackage_roles.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_roles API from Flatfile — 1 operation(s) for subpackage_roles.
   name: Flatfile subpackage_roles API
   slug: flatfile-subpackage-roles-api
-- description: The subpackage_routines API from Flatfile — 2 operation(s) for subpackage_routines.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_routines API from Flatfile — 2 operation(s) for subpackage_routines.
   name: Flatfile subpackage_routines API
   slug: flatfile-subpackage-routines-api
-- description: The subpackage_runbooks API from Flatfile — 2 operation(s) for subpackage_runbooks.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_runbooks API from Flatfile — 2 operation(s) for subpackage_runbooks.
   name: Flatfile subpackage_runbooks API
   slug: flatfile-subpackage-runbooks-api
-- description: The subpackage_secrets API from Flatfile — 2 operation(s) for subpackage_secrets.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_secrets API from Flatfile — 2 operation(s) for subpackage_secrets.
   name: Flatfile subpackage_secrets API
   slug: flatfile-subpackage-secrets-api
-- description: The subpackage_sheets API from Flatfile — 11 operation(s) for subpackage_sheets.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_sheets API from Flatfile — 11 operation(s) for subpackage_sheets.
   name: Flatfile subpackage_sheets API
   slug: flatfile-subpackage-sheets-api
-- description: The subpackage_snapshots API from Flatfile — 4 operation(s) for subpackage_snapshots.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_snapshots API from Flatfile — 4 operation(s) for subpackage_snapshots.
   name: Flatfile subpackage_snapshots API
   slug: flatfile-subpackage-snapshots-api
-- description: The subpackage_spaces API from Flatfile — 8 operation(s) for subpackage_spaces.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_spaces API from Flatfile — 8 operation(s) for subpackage_spaces.
   name: Flatfile subpackage_spaces API
   slug: flatfile-subpackage-spaces-api
-- description: The subpackage_users API from Flatfile — 6 operation(s) for subpackage_users.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_users API from Flatfile — 6 operation(s) for subpackage_users.
   name: Flatfile subpackage_users API
   slug: flatfile-subpackage-users-api
-- description: The subpackage_versions API from Flatfile — 1 operation(s) for subpackage_versions.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_versions API from Flatfile — 1 operation(s) for subpackage_versions.
   name: Flatfile subpackage_versions API
   slug: flatfile-subpackage-versions-api
-- description: The subpackage_views API from Flatfile — 2 operation(s) for subpackage_views.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_views API from Flatfile — 2 operation(s) for subpackage_views.
   name: Flatfile subpackage_views API
   slug: flatfile-subpackage-views-api
-- description: The subpackage_workbooks API from Flatfile — 3 operation(s) for subpackage_workbooks.
+- baseURL: https://api.x.flatfile.com/v1
+  baseurl_source: declared
+  description: The subpackage_workbooks API from Flatfile — 3 operation(s) for subpackage_workbooks.
   name: Flatfile subpackage_workbooks API
   slug: flatfile-subpackage-workbooks-api
 artifact_total: 74
@@ -369,7 +433,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/screenshots/flatfile-2026-06-20T181305.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for financial and market data covering equities, ETFs, crypto, forex, derivatives, fundamentals, financial statements, news, economic indicators, and more. Responses in JSON/CSV; API-key auth
@@ -167,7 +180,7 @@ score:
   band: developing
   composite: 43.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -192,8 +205,9 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/financialdata-net/refs/heads/main/screenshots/financialdata-net-2026-09-02T145508.png
 security:
 - kind: authentication
   name: Financialdata Net Authentication

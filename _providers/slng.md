@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 43 operations · 31 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Inspect the authenticated account and organization.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Inspect the authenticated account and organization.
   name: SLNG Account API
   slug: slng-account-api
-- description: Voice agent CRUD.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Voice agent CRUD.
   name: SLNG Agents API
   slug: slng-agents-api
-- description: Call dispatch and status.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Call dispatch and status.
   name: SLNG Calls API
   slug: slng-calls-api
-- description: Discover and inspect available models in the SLNG catalog.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Discover and inspect available models in the SLNG catalog.
   name: SLNG Catalog API
   slug: slng-catalog-api
-- description: Deepgram Aura 2 for conversational voice agents.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Deepgram Aura 2 for conversational voice agents.
   name: SLNG Deepgram Aura 2 API
   slug: slng-deepgram-aura-2-api
-- description: Deepgram Nova 3 with VAD and speaker diarization.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Deepgram Nova 3 with VAD and speaker diarization.
   name: SLNG Deepgram Nova 3 API
   slug: slng-deepgram-nova-3-api
-- description: Inworld Max 1.5 for multilingual, expressive synthesis.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Inworld Max 1.5 for multilingual, expressive synthesis.
   name: SLNG Inworld Max 1.5 API
   slug: slng-inworld-max-1-5-api
-- description: Orpheus TTS with emotion control.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Orpheus TTS with emotion control.
   name: SLNG Orpheus English API
   slug: slng-orpheus-english-api
-- description: Manage reusable pronunciation rewrite dictionaries for TTS.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Manage reusable pronunciation rewrite dictionaries for TTS.
   name: SLNG Pronunciation dictionaries API
   slug: slng-pronunciation-dictionaries-api
-- description: Rime Arcana v2 TTS with multi-language support.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Rime Arcana v2 TTS with multi-language support.
   name: SLNG Rime Arcana v2 API
   slug: slng-rime-arcana-v2-api
-- description: Rime Arcana v3 TTS with multilingual support (English, Hindi).
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Rime Arcana v3 TTS with multilingual support (English, Hindi).
   name: SLNG Rime Arcana v3 API
   slug: slng-rime-arcana-v3-api
-- description: Rime Coda TTS for Bahasa Indonesian.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Rime Coda TTS for Bahasa Indonesian.
   name: SLNG Rime Coda API
   slug: slng-rime-coda-api
-- description: Web (non-telephony) sessions.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Web (non-telephony) sessions.
   name: SLNG Sessions API
   slug: slng-sessions-api
-- description: Create and manage asynchronous transcription jobs.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Create and manage asynchronous transcription jobs.
   name: SLNG Speechmatics API
   slug: slng-speechmatics-api
-- description: Whisper Large v3 with 99+ language support.
+- baseURL: https://api.slng.ai
+  baseurl_source: declared
+  description: Whisper Large v3 with 99+ language support.
   name: SLNG Whisper Large v3 API
   slug: slng-whisper-large-v3-api
 artifact_total: 54
@@ -358,7 +388,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -368,7 +398,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 55.4
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,7 +410,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slng/refs/heads/main/screenshots/slng-2026-08-17T081926.png
 security:

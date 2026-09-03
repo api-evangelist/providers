@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 107 operations · 63 acting · 14 human-in-the-loop
 api_count: 1
 apis:
-- description: The Application API from Perimeter 81 — 3 operation(s) for application.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Application API from Perimeter 81 — 3 operation(s) for application.
   name: Perimeter 81 Application API
   slug: perimeter-81-application-api
-- description: The Enhanced Network API allows you to manage and configure enhanced networks.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Enhanced Network API allows you to manage and configure enhanced networks.
   name: Perimeter 81 Enhanced Networks API
   slug: perimeter-81-enhanced-networks-api
-- description: The Enhanced Region API allows you to manage and configure enhanced regions, including scale units.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Enhanced Region API allows you to manage and configure enhanced regions, including scale units.
   name: Perimeter 81 Enhanced Regions API
   slug: perimeter-81-enhanced-regions-api
-- description: The Enhanced Route Tables API allows you to manage and configure enhanced route tables of static and dynamic tunnels.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Enhanced Route Tables API allows you to manage and configure enhanced route tables of static and dynamic tunnels.
   name: Perimeter 81 Enhanced Route Tables API
   slug: perimeter-81-enhanced-route-tables-api
-- description: The Enhanced Tunnel API allows you to manage and configure enhanced tunnels.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Enhanced Tunnel API allows you to manage and configure enhanced tunnels.
   name: Perimeter 81 Enhanced Tunnels API
   slug: perimeter-81-enhanced-tunnels-api
-- description: The Firewall Policy API from Perimeter 81 — 1 operation(s) for firewall policy.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Firewall Policy API from Perimeter 81 — 1 operation(s) for firewall policy.
   name: Perimeter 81 Firewall Policy API
   slug: perimeter-81-firewall-policy-api
-- description: The Gateways API from Perimeter 81 — 2 operation(s) for gateways.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Gateways API from Perimeter 81 — 2 operation(s) for gateways.
   name: Perimeter 81 Gateways API
   slug: perimeter-81-gateways-api
-- description: The IPSec-Redundant API from Perimeter 81 — 2 operation(s) for ipsec-redundant.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The IPSec-Redundant API from Perimeter 81 — 2 operation(s) for ipsec-redundant.
   name: Perimeter 81 IPSec-Redundant API
   slug: perimeter-81-ipsec-redundant-api
-- description: The IPSec-Single API from Perimeter 81 — 2 operation(s) for ipsec-single.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The IPSec-Single API from Perimeter 81 — 2 operation(s) for ipsec-single.
   name: Perimeter 81 IPSec-Single API
   slug: perimeter-81-ipsec-single-api
-- description: This API allows you to manage and configure standard networks using the old API and keep you BC.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: This API allows you to manage and configure standard networks using the old API and keep you BC.
   name: Perimeter 81 Networks API
   slug: perimeter-81-networks-api
-- description: The Objects Addresses API from Perimeter 81 — 2 operation(s) for objects addresses.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Objects Addresses API from Perimeter 81 — 2 operation(s) for objects addresses.
   name: Perimeter 81 Objects Addresses API
   slug: perimeter-81-objects-addresses-api
-- description: The Objects Services API from Perimeter 81 — 2 operation(s) for objects services.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Objects Services API from Perimeter 81 — 2 operation(s) for objects services.
   name: Perimeter 81 Objects Services API
   slug: perimeter-81-objects-services-api
-- description: The OpenVPN API from Perimeter 81 — 2 operation(s) for openvpn.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The OpenVPN API from Perimeter 81 — 2 operation(s) for openvpn.
   name: Perimeter 81 OpenVPN API
   slug: perimeter-81-openvpn-api
-- description: The Regions API from Perimeter 81 — 3 operation(s) for regions.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Regions API from Perimeter 81 — 3 operation(s) for regions.
   name: Perimeter 81 Regions API
   slug: perimeter-81-regions-api
-- description: The Route Table API from Perimeter 81 — 1 operation(s) for route table.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Route Table API from Perimeter 81 — 1 operation(s) for route table.
   name: Perimeter 81 Route Table API
   slug: perimeter-81-route-table-api
-- description: The Standard Network API allows you to manage and configure standard networks.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Standard Network API allows you to manage and configure standard networks.
   name: Perimeter 81 Standard Networks API
   slug: perimeter-81-standard-networks-api
-- description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
+- baseURL: https://api.perimeter81.com/api/rest
+  baseurl_source: declared
+  description: The Wireguard API from Perimeter 81 — 2 operation(s) for wireguard.
   name: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
 artifact_total: 39
@@ -244,7 +278,7 @@ score:
   band: thin
   composite: 30.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -270,8 +304,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/screenshots/perimeter-81-2026-09-02T151050.png
 security:
 - kind: authentication
   name: Perimeter 81 Authentication

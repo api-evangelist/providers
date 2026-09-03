@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -52,25 +52,39 @@ apis:
 - description: Caching-optimised read API available at /api/rest_v1/ on each Wikisource language subdomain. Provides page summaries, full HTML, media lists, and language links for Wikisource pages. Backed by Varnish
   name: Wikimedia REST API v1
   slug: wikimedia-rest-api-v1
-- description: generation of citation data
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: generation of citation data
   name: Wikisource Citation API
   slug: wikisource-citation-api
-- description: formula rendering
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: formula rendering
   name: Wikisource Math API
   slug: wikisource-math-api
-- description: The Mobile API from Wikisource — 3 operation(s) for mobile.
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: The Mobile API from Wikisource — 3 operation(s) for mobile.
   name: Wikisource Mobile API
   slug: wikisource-mobile-api
-- description: page content in different formats
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: page content in different formats
   name: Wikisource Page content API
   slug: wikisource-page-content-api
-- description: Private lists of selected pages
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: Private lists of selected pages
   name: Wikisource Reading lists API
   slug: wikisource-reading-lists-api
-- description: contribution recommendations
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: contribution recommendations
   name: Wikisource Recommendation API
   slug: wikisource-recommendation-api
-- description: convert content between HTML and Wikitext
+- baseURL: https://en.wikisource.org/w/api.php
+  baseurl_source: declared
+  description: convert content between HTML and Wikitext
   name: Wikisource Transforms API
   slug: wikisource-transforms-api
 artifact_total: 46
@@ -323,7 +337,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/screenshots/wikisource-2026-06-20T201455.png
 security:

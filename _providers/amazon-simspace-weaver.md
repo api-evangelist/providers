@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 16 operations · 11 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Createsnapshot API from Amazon SimSpace Weaver — 1 operation(s) for createsnapshot.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Createsnapshot API from Amazon SimSpace Weaver — 1 operation(s) for createsnapshot.
   name: Amazon SimSpace Weaver Createsnapshot API
   slug: amazon-simspace-weaver-createsnapshot-api
-- description: The Deleteapp#app&domain&simulation API from Amazon SimSpace Weaver — 1 operation(s) for deleteapp#app&domain&simulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Deleteapp#app&domain&simulation API from Amazon SimSpace Weaver — 1 operation(s) for deleteapp#app&domain&simulation.
   name: Amazon SimSpace Weaver Deleteapp#app&domain&simulation API
   slug: amazon-simspace-weaver-deleteapp-app-domain-simulation-api
-- description: The Deletesimulation#simulation API from Amazon SimSpace Weaver — 1 operation(s) for deletesimulation#simulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Deletesimulation#simulation API from Amazon SimSpace Weaver — 1 operation(s) for deletesimulation#simulation.
   name: Amazon SimSpace Weaver Deletesimulation#simulation API
   slug: amazon-simspace-weaver-deletesimulation-simulation-api
-- description: The Describeapp#app&domain&simulation API from Amazon SimSpace Weaver — 1 operation(s) for describeapp#app&domain&simulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Describeapp#app&domain&simulation API from Amazon SimSpace Weaver — 1 operation(s) for describeapp#app&domain&simulation.
   name: Amazon SimSpace Weaver Describeapp#app&domain&simulation API
   slug: amazon-simspace-weaver-describeapp-app-domain-simulation-api
-- description: The Describesimulation#simulation API from Amazon SimSpace Weaver — 1 operation(s) for describesimulation#simulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Describesimulation#simulation API from Amazon SimSpace Weaver — 1 operation(s) for describesimulation#simulation.
   name: Amazon SimSpace Weaver Describesimulation#simulation API
   slug: amazon-simspace-weaver-describesimulation-simulation-api
-- description: The Listapps#simulation API from Amazon SimSpace Weaver — 1 operation(s) for listapps#simulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Listapps#simulation API from Amazon SimSpace Weaver — 1 operation(s) for listapps#simulation.
   name: Amazon SimSpace Weaver Listapps#simulation API
   slug: amazon-simspace-weaver-listapps-simulation-api
-- description: The Listsimulations API from Amazon SimSpace Weaver — 1 operation(s) for listsimulations.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Listsimulations API from Amazon SimSpace Weaver — 1 operation(s) for listsimulations.
   name: Amazon SimSpace Weaver Listsimulations API
   slug: amazon-simspace-weaver-listsimulations-api
-- description: The Startapp API from Amazon SimSpace Weaver — 1 operation(s) for startapp.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Startapp API from Amazon SimSpace Weaver — 1 operation(s) for startapp.
   name: Amazon SimSpace Weaver Startapp API
   slug: amazon-simspace-weaver-startapp-api
-- description: The Startclock API from Amazon SimSpace Weaver — 1 operation(s) for startclock.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Startclock API from Amazon SimSpace Weaver — 1 operation(s) for startclock.
   name: Amazon SimSpace Weaver Startclock API
   slug: amazon-simspace-weaver-startclock-api
-- description: The Startsimulation API from Amazon SimSpace Weaver — 1 operation(s) for startsimulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Startsimulation API from Amazon SimSpace Weaver — 1 operation(s) for startsimulation.
   name: Amazon SimSpace Weaver Startsimulation API
   slug: amazon-simspace-weaver-startsimulation-api
-- description: The Stopapp API from Amazon SimSpace Weaver — 1 operation(s) for stopapp.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Stopapp API from Amazon SimSpace Weaver — 1 operation(s) for stopapp.
   name: Amazon SimSpace Weaver Stopapp API
   slug: amazon-simspace-weaver-stopapp-api
-- description: The Stopclock API from Amazon SimSpace Weaver — 1 operation(s) for stopclock.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Stopclock API from Amazon SimSpace Weaver — 1 operation(s) for stopclock.
   name: Amazon SimSpace Weaver Stopclock API
   slug: amazon-simspace-weaver-stopclock-api
-- description: The Stopsimulation API from Amazon SimSpace Weaver — 1 operation(s) for stopsimulation.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Stopsimulation API from Amazon SimSpace Weaver — 1 operation(s) for stopsimulation.
   name: Amazon SimSpace Weaver Stopsimulation API
   slug: amazon-simspace-weaver-stopsimulation-api
-- description: The Tags API from Amazon SimSpace Weaver — 2 operation(s) for tags.
+- baseURL: https://simspaceweaver.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon SimSpace Weaver — 2 operation(s) for tags.
   name: Amazon SimSpace Weaver Tags API
   slug: amazon-simspace-weaver-tags-api
 artifact_total: 213
@@ -806,7 +834,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/screenshots/amazon-simspace-weaver-2026-06-20T171825.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: The Dart Analysis Server provides a JSON-based protocol for IDE integration, enabling code analysis, completion, navigation, refactoring, and diagnostics for Dart and Flutter projects.
   name: Dart Analysis Server Protocol
   slug: dart-analysis-server-protocol
-- description: Package documentation endpoints
+- baseURL: https://pub.dev/api
+  baseurl_source: declared
+  description: Package documentation endpoints
   name: Google Flutter Documentation API
   slug: google-flutter-documentation-api
-- description: Operations for searching and retrieving package information
+- baseURL: https://pub.dev/api
+  baseurl_source: declared
+  description: Operations for searching and retrieving package information
   name: Google Flutter Packages API
   slug: google-flutter-packages-api
 artifact_total: 18
@@ -216,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/screenshots/google-flutter-2026-06-20T182202.png
 security:

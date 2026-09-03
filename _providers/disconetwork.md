@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: 'The server-to-server conversion intake used by advertisers who cannot run the Web SDK. A POST carries an event name, the publisher account id and one of three customer identifiers (raw email, SHA-256 '
   name: Disco Event API
   slug: disconetwork-event-api
-- description: The Discobeat API from Disconetwork — 3 operation(s) for discobeat.
+- baseURL: https://partners.disconetwork.com
+  baseurl_source: declared
+  description: The Discobeat API from Disconetwork — 3 operation(s) for discobeat.
   name: Disconetwork Discobeat API
   slug: disconetwork-discobeat-api
-- description: The Events API from Disconetwork — 2 operation(s) for events.
+- baseURL: https://partners.disconetwork.com
+  baseurl_source: declared
+  description: The Events API from Disconetwork — 2 operation(s) for events.
   name: Disconetwork Events API
   slug: disconetwork-events-api
-- description: The Recommendations API from Disconetwork — 1 operation(s) for recommendations.
+- baseURL: https://partners.disconetwork.com
+  baseurl_source: declared
+  description: The Recommendations API from Disconetwork — 1 operation(s) for recommendations.
   name: Disconetwork Recommendations API
   slug: disconetwork-recommendations-api
 artifact_total: 16
@@ -249,7 +255,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -259,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +277,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/screenshots/disconetwork-2026-07-25T212103.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 21 operations · 7 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: EV charging management and status
+- baseURL: https://vehicle.api.smartcar.com/v2.0
+  baseurl_source: spec
+  description: EV charging management and status
   name: Smartcar Charging API
   slug: smartcar-charging-api
-- description: Manage vehicle connections and user authorizations
+- baseURL: https://vehicle.api.smartcar.com/v2.0
+  baseurl_source: spec
+  description: Manage vehicle connections and user authorizations
   name: Smartcar Connections API
   slug: smartcar-connections-api
-- description: Vehicle navigation and destination setting
+- baseURL: https://vehicle.api.smartcar.com/v2.0
+  baseurl_source: spec
+  description: Vehicle navigation and destination setting
   name: Smartcar Navigation API
   slug: smartcar-navigation-api
-- description: Vehicle security, locking and unlocking
+- baseURL: https://vehicle.api.smartcar.com/v2.0
+  baseurl_source: spec
+  description: Vehicle security, locking and unlocking
   name: Smartcar Security API
   slug: smartcar-security-api
-- description: Read vehicle signals and status data
+- baseURL: https://vehicle.api.smartcar.com/v2.0
+  baseurl_source: spec
+  description: Read vehicle signals and status data
   name: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
 artifact_total: 28
@@ -258,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/screenshots/smartcar-2026-06-20T194039.png
 security:

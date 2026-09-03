@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,16 +50,24 @@ apis:
 - description: 'The OAuth 2.0 authorization server behind Share My Data, implemented to meet the NAESB ESPI authorization profile. Two token classes are issued separately: a client access token via the client_credent'
   name: PG&E Share My Data OAuth 2.0 Authorization API
   slug: pge-share-my-data-oauth-api
-- description: Application Information endpoints
+- baseURL: https://api.pge.com/GreenButtonConnect/espi/1_1/resource
+  baseurl_source: declared
+  description: Application Information endpoints
   name: Pacific Gas and Electric Application Information API
   slug: pge-applicationinformation-api
-- description: Authorization endpoints
+- baseURL: https://api.pge.com/GreenButtonConnect/espi/1_1/resource
+  baseurl_source: declared
+  description: Authorization endpoints
   name: Pacific Gas and Electric Authorization API
   slug: pge-authorization-api
-- description: Batch data transfer endpoints
+- baseURL: https://api.pge.com/GreenButtonConnect/espi/1_1/resource
+  baseurl_source: declared
+  description: Batch data transfer endpoints
   name: Pacific Gas and Electric Batch API
   slug: pge-batch-api
-- description: Usage Point endpoints
+- baseURL: https://api.pge.com/GreenButtonConnect/espi/1_1/resource
+  baseurl_source: declared
+  description: Usage Point endpoints
   name: Pacific Gas and Electric Usage Point API
   slug: pge-usagepoint-api
 artifact_total: 13
@@ -242,7 +264,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -252,7 +274,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 53.7
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,7 +291,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/screenshots/pge-2026-08-17T081205.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -51,112 +51,184 @@ apis:
 - description: Kuma's Multizone deployment API enables managing service meshes across multiple Kubernetes clusters and Universal zones from a single global control plane. It provides resources for zone management, c
   name: Kuma Multizone API
   slug: kuma-multizone-api
-- description: The Dataplane API from Kuma — 2 operation(s) for dataplane.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The Dataplane API from Kuma — 2 operation(s) for dataplane.
   name: Kuma Dataplane API
   slug: kuma-dataplane-api
-- description: The GlobalInsight API from Kuma — 1 operation(s) for globalinsight.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The GlobalInsight API from Kuma — 1 operation(s) for globalinsight.
   name: Kuma GlobalInsight API
   slug: kuma-globalinsight-api
-- description: The HostnameGenerator API from Kuma — 2 operation(s) for hostnamegenerator.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The HostnameGenerator API from Kuma — 2 operation(s) for hostnamegenerator.
   name: Kuma HostnameGenerator API
   slug: kuma-hostnamegenerator-api
-- description: The Inspect API from Kuma — 4 operation(s) for inspect.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The Inspect API from Kuma — 4 operation(s) for inspect.
   name: Kuma Inspect API
   slug: kuma-inspect-api
-- description: The KRI API from Kuma — 1 operation(s) for kri.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The KRI API from Kuma — 1 operation(s) for kri.
   name: Kuma KRI API
   slug: kuma-kri-api
-- description: The Mesh API from Kuma — 2 operation(s) for mesh.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The Mesh API from Kuma — 2 operation(s) for mesh.
   name: Kuma Mesh API
   slug: kuma-mesh-api
-- description: The MeshAccessLog API from Kuma — 2 operation(s) for meshaccesslog.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshAccessLog API from Kuma — 2 operation(s) for meshaccesslog.
   name: Kuma MeshAccessLog API
   slug: kuma-meshaccesslog-api
-- description: The MeshCircuitBreaker API from Kuma — 2 operation(s) for meshcircuitbreaker.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshCircuitBreaker API from Kuma — 2 operation(s) for meshcircuitbreaker.
   name: Kuma MeshCircuitBreaker API
   slug: kuma-meshcircuitbreaker-api
-- description: The Meshes API from Kuma — 9 operation(s) for meshes.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The Meshes API from Kuma — 9 operation(s) for meshes.
   name: Kuma Meshes API
   slug: kuma-meshes-api
-- description: The MeshExternalService API from Kuma — 2 operation(s) for meshexternalservice.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshExternalService API from Kuma — 2 operation(s) for meshexternalservice.
   name: Kuma MeshExternalService API
   slug: kuma-meshexternalservice-api
-- description: The MeshFaultInjection API from Kuma — 2 operation(s) for meshfaultinjection.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshFaultInjection API from Kuma — 2 operation(s) for meshfaultinjection.
   name: Kuma MeshFaultInjection API
   slug: kuma-meshfaultinjection-api
-- description: The MeshGateway API from Kuma — 2 operation(s) for meshgateway.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshGateway API from Kuma — 2 operation(s) for meshgateway.
   name: Kuma MeshGateway API
   slug: kuma-meshgateway-api
-- description: The MeshHealthCheck API from Kuma — 2 operation(s) for meshhealthcheck.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshHealthCheck API from Kuma — 2 operation(s) for meshhealthcheck.
   name: Kuma MeshHealthCheck API
   slug: kuma-meshhealthcheck-api
-- description: The MeshHTTPRoute API from Kuma — 2 operation(s) for meshhttproute.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshHTTPRoute API from Kuma — 2 operation(s) for meshhttproute.
   name: Kuma MeshHTTPRoute API
   slug: kuma-meshhttproute-api
-- description: The MeshIdentity API from Kuma — 2 operation(s) for meshidentity.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshIdentity API from Kuma — 2 operation(s) for meshidentity.
   name: Kuma MeshIdentity API
   slug: kuma-meshidentity-api
-- description: The MeshLoadBalancingStrategy API from Kuma — 2 operation(s) for meshloadbalancingstrategy.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshLoadBalancingStrategy API from Kuma — 2 operation(s) for meshloadbalancingstrategy.
   name: Kuma MeshLoadBalancingStrategy API
   slug: kuma-meshloadbalancingstrategy-api
-- description: The MeshMetric API from Kuma — 2 operation(s) for meshmetric.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshMetric API from Kuma — 2 operation(s) for meshmetric.
   name: Kuma MeshMetric API
   slug: kuma-meshmetric-api
-- description: The MeshMultiZoneService API from Kuma — 2 operation(s) for meshmultizoneservice.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshMultiZoneService API from Kuma — 2 operation(s) for meshmultizoneservice.
   name: Kuma MeshMultiZoneService API
   slug: kuma-meshmultizoneservice-api
-- description: The MeshOpenTelemetryBackend API from Kuma — 2 operation(s) for meshopentelemetrybackend.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshOpenTelemetryBackend API from Kuma — 2 operation(s) for meshopentelemetrybackend.
   name: Kuma MeshOpenTelemetryBackend API
   slug: kuma-meshopentelemetrybackend-api
-- description: The MeshPassthrough API from Kuma — 2 operation(s) for meshpassthrough.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshPassthrough API from Kuma — 2 operation(s) for meshpassthrough.
   name: Kuma MeshPassthrough API
   slug: kuma-meshpassthrough-api
-- description: The MeshProxyPatch API from Kuma — 2 operation(s) for meshproxypatch.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshProxyPatch API from Kuma — 2 operation(s) for meshproxypatch.
   name: Kuma MeshProxyPatch API
   slug: kuma-meshproxypatch-api
-- description: The MeshRateLimit API from Kuma — 2 operation(s) for meshratelimit.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshRateLimit API from Kuma — 2 operation(s) for meshratelimit.
   name: Kuma MeshRateLimit API
   slug: kuma-meshratelimit-api
-- description: The MeshRetry API from Kuma — 2 operation(s) for meshretry.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshRetry API from Kuma — 2 operation(s) for meshretry.
   name: Kuma MeshRetry API
   slug: kuma-meshretry-api
-- description: The MeshService API from Kuma — 2 operation(s) for meshservice.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshService API from Kuma — 2 operation(s) for meshservice.
   name: Kuma MeshService API
   slug: kuma-meshservice-api
-- description: The MeshTCPRoute API from Kuma — 2 operation(s) for meshtcproute.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshTCPRoute API from Kuma — 2 operation(s) for meshtcproute.
   name: Kuma MeshTCPRoute API
   slug: kuma-meshtcproute-api
-- description: The MeshTimeout API from Kuma — 2 operation(s) for meshtimeout.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshTimeout API from Kuma — 2 operation(s) for meshtimeout.
   name: Kuma MeshTimeout API
   slug: kuma-meshtimeout-api
-- description: The MeshTLS API from Kuma — 2 operation(s) for meshtls.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshTLS API from Kuma — 2 operation(s) for meshtls.
   name: Kuma MeshTLS API
   slug: kuma-meshtls-api
-- description: The MeshTrace API from Kuma — 2 operation(s) for meshtrace.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshTrace API from Kuma — 2 operation(s) for meshtrace.
   name: Kuma MeshTrace API
   slug: kuma-meshtrace-api
-- description: The MeshTrafficPermission API from Kuma — 2 operation(s) for meshtrafficpermission.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshTrafficPermission API from Kuma — 2 operation(s) for meshtrafficpermission.
   name: Kuma MeshTrafficPermission API
   slug: kuma-meshtrafficpermission-api
-- description: The MeshTrust API from Kuma — 2 operation(s) for meshtrust.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshTrust API from Kuma — 2 operation(s) for meshtrust.
   name: Kuma MeshTrust API
   slug: kuma-meshtrust-api
-- description: The MeshZoneAddress API from Kuma — 2 operation(s) for meshzoneaddress.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The MeshZoneAddress API from Kuma — 2 operation(s) for meshzoneaddress.
   name: Kuma MeshZoneAddress API
   slug: kuma-meshzoneaddress-api
-- description: The Secret API from Kuma — 2 operation(s) for secret.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The Secret API from Kuma — 2 operation(s) for secret.
   name: Kuma Secret API
   slug: kuma-secret-api
-- description: The System API from Kuma — 2 operation(s) for system.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The System API from Kuma — 2 operation(s) for system.
   name: Kuma System API
   slug: kuma-system-api
-- description: The Workload API from Kuma — 2 operation(s) for workload.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The Workload API from Kuma — 2 operation(s) for workload.
   name: Kuma Workload API
   slug: kuma-workload-api
-- description: The ZoneEgress API from Kuma — 2 operation(s) for zoneegress.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The ZoneEgress API from Kuma — 2 operation(s) for zoneegress.
   name: Kuma ZoneEgress API
   slug: kuma-zoneegress-api
-- description: The ZoneIngress API from Kuma — 2 operation(s) for zoneingress.
+- baseURL: https://localhost:5681
+  baseurl_source: declared
+  description: The ZoneIngress API from Kuma — 2 operation(s) for zoneingress.
   name: Kuma ZoneIngress API
   slug: kuma-zoneingress-api
 artifact_total: 85
@@ -446,7 +518,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/screenshots/kuma-2026-06-20T184214.png
 security:

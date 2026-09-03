@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 19
 apis:
 - description: Getnet's core REST API and Single Entry Point (SEP) for direct payment integration across Argentina, Brazil, Chile, Colombia, Mexico, Portugal, Spain, and Uruguay. One contract gives merchants omnicha
@@ -161,7 +161,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getnet/refs/heads/main/screenshots/getnet-2026-06-20T181816.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,22 +48,34 @@ apis:
 - description: DogStatsD is the Datadog Agent's StatsD-compatible ingestion protocol. It is a strict superset of the StatsD wire format that adds first-class tag syntax (`|#k:v,k:v`), histogram (`|h`) and distributi
   name: DogStatsD Wire Protocol
   slug: dogstatsd-wire-protocol
-- description: Runtime Configuration Inspection
+- baseURL_template: tcp://{host}:{port}
+  baseurl_source: spec_template
+  description: Runtime Configuration Inspection
   name: StatsD Configuration API
   slug: statsd-configuration-api
-- description: Inspect Or Delete Counters
+- baseURL_template: tcp://{host}:{port}
+  baseurl_source: spec_template
+  description: Inspect Or Delete Counters
   name: StatsD Counters API
   slug: statsd-counters-api
-- description: Inspect Or Delete Gauges
+- baseURL_template: tcp://{host}:{port}
+  baseurl_source: spec_template
+  description: Inspect Or Delete Gauges
   name: StatsD Gauges API
   slug: statsd-gauges-api
-- description: Health Check Control
+- baseURL_template: tcp://{host}:{port}
+  baseurl_source: spec_template
+  description: Health Check Control
   name: StatsD Health API
   slug: statsd-health-api
-- description: Inspect Aggregated In-Memory State
+- baseURL_template: tcp://{host}:{port}
+  baseurl_source: spec_template
+  description: Inspect Aggregated In-Memory State
   name: StatsD Stats API
   slug: statsd-stats-api
-- description: Inspect Or Delete Timers
+- baseURL_template: tcp://{host}:{port}
+  baseurl_source: spec_template
+  description: Inspect Or Delete Timers
   name: StatsD Timers API
   slug: statsd-timers-api
 artifact_total: 41
@@ -427,7 +439,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -440,7 +452,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 36.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -449,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png
 slug: statsd

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 2
@@ -44,214 +44,354 @@ agentic_access:
   summary_line: 247 operations · 143 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The Accept Certificate Transfer API from Amazon IoT Core — 1 operation(s) for accept certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Accept Certificate Transfer API from Amazon IoT Core — 1 operation(s) for accept certificate transfer.
   name: Amazon IoT Core Accept Certificate Transfer API
   slug: amazon-iot-core-accept-certificate-transfer-api
-- description: The Active Violations API from Amazon IoT Core — 1 operation(s) for active violations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Active Violations API from Amazon IoT Core — 1 operation(s) for active violations.
   name: Amazon IoT Core Active Violations API
   slug: amazon-iot-core-active-violations-api
-- description: The Attached Policies API from Amazon IoT Core — 1 operation(s) for attached policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Attached Policies API from Amazon IoT Core — 1 operation(s) for attached policies.
   name: Amazon IoT Core Attached Policies API
   slug: amazon-iot-core-attached-policies-api
-- description: The Audit API from Amazon IoT Core — 19 operation(s) for audit.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Audit API from Amazon IoT Core — 19 operation(s) for audit.
   name: Amazon IoT Core Audit API
   slug: amazon-iot-core-audit-api
-- description: The Authorizer API from Amazon IoT Core — 2 operation(s) for authorizer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Authorizer API from Amazon IoT Core — 2 operation(s) for authorizer.
   name: Amazon IoT Core Authorizer API
   slug: amazon-iot-core-authorizer-api
-- description: The Authorizers API from Amazon IoT Core — 1 operation(s) for authorizers.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Authorizers API from Amazon IoT Core — 1 operation(s) for authorizers.
   name: Amazon IoT Core Authorizers API
   slug: amazon-iot-core-authorizers-api
-- description: The Behavior Model Training API from Amazon IoT Core — 1 operation(s) for behavior model training.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Behavior Model Training API from Amazon IoT Core — 1 operation(s) for behavior model training.
   name: Amazon IoT Core Behavior Model Training API
   slug: amazon-iot-core-behavior-model-training-api
-- description: The Billing Groups API from Amazon IoT Core — 5 operation(s) for billing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Billing Groups API from Amazon IoT Core — 5 operation(s) for billing groups.
   name: Amazon IoT Core Billing Groups API
   slug: amazon-iot-core-billing-groups-api
-- description: The Cacertificate API from Amazon IoT Core — 2 operation(s) for cacertificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cacertificate API from Amazon IoT Core — 2 operation(s) for cacertificate.
   name: Amazon IoT Core Cacertificate API
   slug: amazon-iot-core-cacertificate-api
-- description: The Cacertificates API from Amazon IoT Core — 1 operation(s) for cacertificates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cacertificates API from Amazon IoT Core — 1 operation(s) for cacertificates.
   name: Amazon IoT Core Cacertificates API
   slug: amazon-iot-core-cacertificates-api
-- description: The Cancel Certificate Transfer API from Amazon IoT Core — 1 operation(s) for cancel certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cancel Certificate Transfer API from Amazon IoT Core — 1 operation(s) for cancel certificate transfer.
   name: Amazon IoT Core Cancel Certificate Transfer API
   slug: amazon-iot-core-cancel-certificate-transfer-api
-- description: The Certificate API from Amazon IoT Core — 2 operation(s) for certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificate API from Amazon IoT Core — 2 operation(s) for certificate.
   name: Amazon IoT Core Certificate API
   slug: amazon-iot-core-certificate-api
-- description: The Certificates API from Amazon IoT Core — 3 operation(s) for certificates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates API from Amazon IoT Core — 3 operation(s) for certificates.
   name: Amazon IoT Core Certificates API
   slug: amazon-iot-core-certificates-api
-- description: The Certificates By Ca API from Amazon IoT Core — 1 operation(s) for certificates by ca.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates By Ca API from Amazon IoT Core — 1 operation(s) for certificates by ca.
   name: Amazon IoT Core Certificates By Ca API
   slug: amazon-iot-core-certificates-by-ca-api
-- description: The Certificates Out Going API from Amazon IoT Core — 1 operation(s) for certificates out going.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates Out Going API from Amazon IoT Core — 1 operation(s) for certificates out going.
   name: Amazon IoT Core Certificates Out Going API
   slug: amazon-iot-core-certificates-out-going-api
-- description: The Confirmdestination API from Amazon IoT Core — 1 operation(s) for confirmdestination.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Confirmdestination API from Amazon IoT Core — 1 operation(s) for confirmdestination.
   name: Amazon IoT Core Confirmdestination API
   slug: amazon-iot-core-confirmdestination-api
-- description: The Custom Metric API from Amazon IoT Core — 1 operation(s) for custom metric.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Metric API from Amazon IoT Core — 1 operation(s) for custom metric.
   name: Amazon IoT Core Custom Metric API
   slug: amazon-iot-core-custom-metric-api
-- description: The Custom Metrics API from Amazon IoT Core — 1 operation(s) for custom metrics.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Metrics API from Amazon IoT Core — 1 operation(s) for custom metrics.
   name: Amazon IoT Core Custom Metrics API
   slug: amazon-iot-core-custom-metrics-api
-- description: The Default Authorizer API from Amazon IoT Core — 1 operation(s) for default authorizer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Default Authorizer API from Amazon IoT Core — 1 operation(s) for default authorizer.
   name: Amazon IoT Core Default Authorizer API
   slug: amazon-iot-core-default-authorizer-api
-- description: The Destinations API from Amazon IoT Core — 2 operation(s) for destinations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Destinations API from Amazon IoT Core — 2 operation(s) for destinations.
   name: Amazon IoT Core Destinations API
   slug: amazon-iot-core-destinations-api
-- description: The Detect API from Amazon IoT Core — 4 operation(s) for detect.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Detect API from Amazon IoT Core — 4 operation(s) for detect.
   name: Amazon IoT Core Detect API
   slug: amazon-iot-core-detect-api
-- description: The Dimensions API from Amazon IoT Core — 2 operation(s) for dimensions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Dimensions API from Amazon IoT Core — 2 operation(s) for dimensions.
   name: Amazon IoT Core Dimensions API
   slug: amazon-iot-core-dimensions-api
-- description: The DomainConfigurations API from Amazon IoT Core — 2 operation(s) for domainconfigurations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The DomainConfigurations API from Amazon IoT Core — 2 operation(s) for domainconfigurations.
   name: Amazon IoT Core DomainConfigurations API
   slug: amazon-iot-core-domainconfigurations-api
-- description: The Dynamic Thing Groups API from Amazon IoT Core — 1 operation(s) for dynamic thing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamic Thing Groups API from Amazon IoT Core — 1 operation(s) for dynamic thing groups.
   name: Amazon IoT Core Dynamic Thing Groups API
   slug: amazon-iot-core-dynamic-thing-groups-api
-- description: The Effective Policies API from Amazon IoT Core — 1 operation(s) for effective policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Effective Policies API from Amazon IoT Core — 1 operation(s) for effective policies.
   name: Amazon IoT Core Effective Policies API
   slug: amazon-iot-core-effective-policies-api
-- description: The Endpoint API from Amazon IoT Core — 1 operation(s) for endpoint.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Endpoint API from Amazon IoT Core — 1 operation(s) for endpoint.
   name: Amazon IoT Core Endpoint API
   slug: amazon-iot-core-endpoint-api
-- description: The Event Configurations API from Amazon IoT Core — 1 operation(s) for event configurations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Event Configurations API from Amazon IoT Core — 1 operation(s) for event configurations.
   name: Amazon IoT Core Event Configurations API
   slug: amazon-iot-core-event-configurations-api
-- description: The Fleet Metric API from Amazon IoT Core — 1 operation(s) for fleet metric.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Fleet Metric API from Amazon IoT Core — 1 operation(s) for fleet metric.
   name: Amazon IoT Core Fleet Metric API
   slug: amazon-iot-core-fleet-metric-api
-- description: The Fleet Metrics API from Amazon IoT Core — 1 operation(s) for fleet metrics.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Fleet Metrics API from Amazon IoT Core — 1 operation(s) for fleet metrics.
   name: Amazon IoT Core Fleet Metrics API
   slug: amazon-iot-core-fleet-metrics-api
-- description: The Indexing API from Amazon IoT Core — 1 operation(s) for indexing.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Indexing API from Amazon IoT Core — 1 operation(s) for indexing.
   name: Amazon IoT Core Indexing API
   slug: amazon-iot-core-indexing-api
-- description: The Indices API from Amazon IoT Core — 7 operation(s) for indices.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Indices API from Amazon IoT Core — 7 operation(s) for indices.
   name: Amazon IoT Core Indices API
   slug: amazon-iot-core-indices-api
-- description: The Job Templates API from Amazon IoT Core — 2 operation(s) for job templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Job Templates API from Amazon IoT Core — 2 operation(s) for job templates.
   name: Amazon IoT Core Job Templates API
   slug: amazon-iot-core-job-templates-api
-- description: The Jobs API from Amazon IoT Core — 6 operation(s) for jobs.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon IoT Core — 6 operation(s) for jobs.
   name: Amazon IoT Core Jobs API
   slug: amazon-iot-core-jobs-api
-- description: The Keys And Certificate API from Amazon IoT Core — 1 operation(s) for keys and certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Keys And Certificate API from Amazon IoT Core — 1 operation(s) for keys and certificate.
   name: Amazon IoT Core Keys And Certificate API
   slug: amazon-iot-core-keys-and-certificate-api
-- description: The LoggingOptions API from Amazon IoT Core — 1 operation(s) for loggingoptions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The LoggingOptions API from Amazon IoT Core — 1 operation(s) for loggingoptions.
   name: Amazon IoT Core LoggingOptions API
   slug: amazon-iot-core-loggingoptions-api
-- description: The Managed Job Templates API from Amazon IoT Core — 2 operation(s) for managed job templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Job Templates API from Amazon IoT Core — 2 operation(s) for managed job templates.
   name: Amazon IoT Core Managed Job Templates API
   slug: amazon-iot-core-managed-job-templates-api
-- description: The Metric Values#thingName&metricName&startTime&endTime API from Amazon IoT Core — 1 operation(s) for metric values#thingname&metricname&starttime&endtime.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Metric Values#thingName&metricName&startTime&endTime API from Amazon IoT Core — 1 operation(s) for metric values#thingname&metricname&starttime&endtime.
   name: Amazon IoT Core Metric Values#thingName&metricName&startTime&endTime API
   slug: amazon-iot-core-metric-values-thingname-metricname-starttime-endtime-api
-- description: The Mitigationactions API from Amazon IoT Core — 2 operation(s) for mitigationactions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Mitigationactions API from Amazon IoT Core — 2 operation(s) for mitigationactions.
   name: Amazon IoT Core Mitigationactions API
   slug: amazon-iot-core-mitigationactions-api
-- description: The OtaUpdates API from Amazon IoT Core — 2 operation(s) for otaupdates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The OtaUpdates API from Amazon IoT Core — 2 operation(s) for otaupdates.
   name: Amazon IoT Core OtaUpdates API
   slug: amazon-iot-core-otaupdates-api
-- description: The Policies API from Amazon IoT Core — 4 operation(s) for policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policies API from Amazon IoT Core — 4 operation(s) for policies.
   name: Amazon IoT Core Policies API
   slug: amazon-iot-core-policies-api
-- description: The Policy Principals#x Amzn Iot Policy API from Amazon IoT Core — 1 operation(s) for policy principals#x amzn iot policy.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policy Principals#x Amzn Iot Policy API from Amazon IoT Core — 1 operation(s) for policy principals#x amzn iot policy.
   name: Amazon IoT Core Policy Principals#x Amzn Iot Policy API
   slug: amazon-iot-core-policy-principals-x-amzn-iot-policy-api
-- description: The Policy Targets API from Amazon IoT Core — 1 operation(s) for policy targets.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policy Targets API from Amazon IoT Core — 1 operation(s) for policy targets.
   name: Amazon IoT Core Policy Targets API
   slug: amazon-iot-core-policy-targets-api
-- description: The Principal Policies API from Amazon IoT Core — 1 operation(s) for principal policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principal Policies API from Amazon IoT Core — 1 operation(s) for principal policies.
   name: Amazon IoT Core Principal Policies API
   slug: amazon-iot-core-principal-policies-api
-- description: The Principal Policies#x Amzn Iot Principal API from Amazon IoT Core — 1 operation(s) for principal policies#x amzn iot principal.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principal Policies#x Amzn Iot Principal API from Amazon IoT Core — 1 operation(s) for principal policies#x amzn iot principal.
   name: Amazon IoT Core Principal Policies#x Amzn Iot Principal API
   slug: amazon-iot-core-principal-policies-x-amzn-iot-principal-api
-- description: The Principals API from Amazon IoT Core — 1 operation(s) for principals.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principals API from Amazon IoT Core — 1 operation(s) for principals.
   name: Amazon IoT Core Principals API
   slug: amazon-iot-core-principals-api
-- description: The Provisioning Templates API from Amazon IoT Core — 5 operation(s) for provisioning templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Provisioning Templates API from Amazon IoT Core — 5 operation(s) for provisioning templates.
   name: Amazon IoT Core Provisioning Templates API
   slug: amazon-iot-core-provisioning-templates-api
-- description: The Registrationcode API from Amazon IoT Core — 1 operation(s) for registrationcode.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Registrationcode API from Amazon IoT Core — 1 operation(s) for registrationcode.
   name: Amazon IoT Core Registrationcode API
   slug: amazon-iot-core-registrationcode-api
-- description: The Reject Certificate Transfer API from Amazon IoT Core — 1 operation(s) for reject certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Reject Certificate Transfer API from Amazon IoT Core — 1 operation(s) for reject certificate transfer.
   name: Amazon IoT Core Reject Certificate Transfer API
   slug: amazon-iot-core-reject-certificate-transfer-api
-- description: The Role Aliases API from Amazon IoT Core — 2 operation(s) for role aliases.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Role Aliases API from Amazon IoT Core — 2 operation(s) for role aliases.
   name: Amazon IoT Core Role Aliases API
   slug: amazon-iot-core-role-aliases-api
-- description: The Rules API from Amazon IoT Core — 4 operation(s) for rules.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Rules API from Amazon IoT Core — 4 operation(s) for rules.
   name: Amazon IoT Core Rules API
   slug: amazon-iot-core-rules-api
-- description: The Security Profile Behaviors API from Amazon IoT Core — 1 operation(s) for security profile behaviors.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profile Behaviors API from Amazon IoT Core — 1 operation(s) for security profile behaviors.
   name: Amazon IoT Core Security Profile Behaviors API
   slug: amazon-iot-core-security-profile-behaviors-api
-- description: The Security Profiles API from Amazon IoT Core — 4 operation(s) for security profiles.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profiles API from Amazon IoT Core — 4 operation(s) for security profiles.
   name: Amazon IoT Core Security Profiles API
   slug: amazon-iot-core-security-profiles-api
-- description: The Security Profiles For Target#securityProfileTargetArn API from Amazon IoT Core — 1 operation(s) for security profiles for target#securityprofiletargetarn.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profiles For Target#securityProfileTargetArn API from Amazon IoT Core — 1 operation(s) for security profiles for target#securityprofiletargetarn.
   name: Amazon IoT Core Security Profiles For Target#securityProfileTargetArn API
   slug: amazon-iot-core-security-profiles-for-target-securityprofiletargetarn-api
-- description: Operations for managing device shadows
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing device shadows
   name: Amazon IoT Core Shadows API
   slug: amazon-iot-core-shadows-api
-- description: The Streams API from Amazon IoT Core — 2 operation(s) for streams.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Streams API from Amazon IoT Core — 2 operation(s) for streams.
   name: Amazon IoT Core Streams API
   slug: amazon-iot-core-streams-api
-- description: The Tags API from Amazon IoT Core — 1 operation(s) for tags.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon IoT Core — 1 operation(s) for tags.
   name: Amazon IoT Core Tags API
   slug: amazon-iot-core-tags-api
-- description: The Tags#resourceArn API from Amazon IoT Core — 1 operation(s) for tags#resourcearn.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon IoT Core — 1 operation(s) for tags#resourcearn.
   name: Amazon IoT Core Tags#resourceArn API
   slug: amazon-iot-core-tags-resourcearn-api
-- description: The Target Policies API from Amazon IoT Core — 1 operation(s) for target policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Target Policies API from Amazon IoT Core — 1 operation(s) for target policies.
   name: Amazon IoT Core Target Policies API
   slug: amazon-iot-core-target-policies-api
-- description: The Test Authorization API from Amazon IoT Core — 1 operation(s) for test authorization.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Test Authorization API from Amazon IoT Core — 1 operation(s) for test authorization.
   name: Amazon IoT Core Test Authorization API
   slug: amazon-iot-core-test-authorization-api
-- description: The Thing Groups API from Amazon IoT Core — 6 operation(s) for thing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Groups API from Amazon IoT Core — 6 operation(s) for thing groups.
   name: Amazon IoT Core Thing Groups API
   slug: amazon-iot-core-thing-groups-api
-- description: The Thing Registration Tasks API from Amazon IoT Core — 4 operation(s) for thing registration tasks.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Registration Tasks API from Amazon IoT Core — 4 operation(s) for thing registration tasks.
   name: Amazon IoT Core Thing Registration Tasks API
   slug: amazon-iot-core-thing-registration-tasks-api
-- description: The Thing Types API from Amazon IoT Core — 3 operation(s) for thing types.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Types API from Amazon IoT Core — 3 operation(s) for thing types.
   name: Amazon IoT Core Thing Types API
   slug: amazon-iot-core-thing-types-api
-- description: The Things API from Amazon IoT Core — 9 operation(s) for things.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Things API from Amazon IoT Core — 9 operation(s) for things.
   name: Amazon IoT Core Things API
   slug: amazon-iot-core-things-api
-- description: The Transfer Certificate API from Amazon IoT Core — 1 operation(s) for transfer certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Transfer Certificate API from Amazon IoT Core — 1 operation(s) for transfer certificate.
   name: Amazon IoT Core Transfer Certificate API
   slug: amazon-iot-core-transfer-certificate-api
-- description: The Untag API from Amazon IoT Core — 1 operation(s) for untag.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Untag API from Amazon IoT Core — 1 operation(s) for untag.
   name: Amazon IoT Core Untag API
   slug: amazon-iot-core-untag-api
-- description: The V2LoggingLevel API from Amazon IoT Core — 1 operation(s) for v2logginglevel.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingLevel API from Amazon IoT Core — 1 operation(s) for v2logginglevel.
   name: Amazon IoT Core V2LoggingLevel API
   slug: amazon-iot-core-v2logginglevel-api
-- description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Core — 1 operation(s) for v2logginglevel#targettype&targetname.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Core — 1 operation(s) for v2logginglevel#targettype&targetname.
   name: Amazon IoT Core V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-core-v2logginglevel-targettype-targetname-api
-- description: The V2LoggingOptions API from Amazon IoT Core — 1 operation(s) for v2loggingoptions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingOptions API from Amazon IoT Core — 1 operation(s) for v2loggingoptions.
   name: Amazon IoT Core V2LoggingOptions API
   slug: amazon-iot-core-v2loggingoptions-api
-- description: The Violation Events#startTime&endTime API from Amazon IoT Core — 1 operation(s) for violation events#starttime&endtime.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Violation Events#startTime&endTime API from Amazon IoT Core — 1 operation(s) for violation events#starttime&endtime.
   name: Amazon IoT Core Violation Events#startTime&endTime API
   slug: amazon-iot-core-violation-events-starttime-endtime-api
-- description: The Violations API from Amazon IoT Core — 1 operation(s) for violations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Violations API from Amazon IoT Core — 1 operation(s) for violations.
   name: Amazon IoT Core Violations API
   slug: amazon-iot-core-violations-api
 artifact_total: 836
@@ -2684,7 +2824,7 @@ score:
       marker_coverage: 0.0
       total: 70
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/screenshots/amazon-iot-core-2026-06-20T171706.png
 security:

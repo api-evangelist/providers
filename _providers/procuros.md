@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: The All Transactions API from Procuros — 2 operation(s) for all transactions.
+- baseURL: https://api.procuros.io/v2
+  baseurl_source: declared
+  description: The All Transactions API from Procuros — 2 operation(s) for all transactions.
   name: Procuros All Transactions API
   slug: procuros-all-transactions-api
-- description: The Incoming Transactions API from Procuros — 3 operation(s) for incoming transactions.
+- baseURL: https://api.procuros.io/v2
+  baseurl_source: declared
+  description: The Incoming Transactions API from Procuros — 3 operation(s) for incoming transactions.
   name: Procuros Incoming Transactions API
   slug: procuros-incoming-transactions-api
-- description: The Misc API from Procuros — 1 operation(s) for misc.
+- baseURL: https://api.procuros.io/v2
+  baseurl_source: declared
+  description: The Misc API from Procuros — 1 operation(s) for misc.
   name: Procuros Misc API
   slug: procuros-misc-api
-- description: The Outgoing Transactions API from Procuros — 2 operation(s) for outgoing transactions.
+- baseURL: https://api.procuros.io/v2
+  baseurl_source: declared
+  description: The Outgoing Transactions API from Procuros — 2 operation(s) for outgoing transactions.
   name: Procuros Outgoing Transactions API
   slug: procuros-outgoing-transactions-api
 artifact_total: 13
@@ -216,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procuros/refs/heads/main/screenshots/procuros-2026-08-17T081343.png
 security:

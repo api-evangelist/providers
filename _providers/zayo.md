@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 26 operations · 15 acting
 api_count: 1
 apis:
-- description: Monitor upcoming outages with Maintenance Cases API. The Zayo Maintenance Cases API is composed of a series of API calls that are intended to be leveraged sequentially with each request/response cycle
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: Monitor upcoming outages with Maintenance Cases API. The Zayo Maintenance Cases API is composed of a series of API calls that are intended to be leveraged sequentially with each request/response cycle
   name: Zayo Maintenance Cases API
   slug: zayo-maintenance-cases-api
-- description: Grow your footprint by analyzing network availability by utilizing our Building, Locations, and Cloud Providers APIs.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: Grow your footprint by analyzing network availability by utilizing our Building, Locations, and Cloud Providers APIs.
   name: Zayo Network Discovery API
   slug: zayo-network-discovery-api
-- description: Grow your footprint by reviewing Zayo products in our Product Catalog API, generating quotes with our Quoting API, and automating the ordering process through the Order API.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: Grow your footprint by reviewing Zayo products in our Product Catalog API, generating quotes with our Quoting API, and automating the ordering process through the Order API.
   name: Zayo Order API
   slug: zayo-order-api
-- description: View available Zayo products and product detials to use in the Quoting API.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: View available Zayo products and product detials to use in the Quoting API.
   name: Zayo Product Catalog API
   slug: zayo-product-catalog-api
-- description: Grow your footprint by reviewing Zayo products in our Product Catalog API, generating quotes with our Quoting API, and automating the ordering process through the Order API.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: Grow your footprint by reviewing Zayo products in our Product Catalog API, generating quotes with our Quoting API, and automating the ordering process through the Order API.
   name: Zayo Quote API
   slug: zayo-quote-api
-- description: Monitor your critical services with our Service Inventory API.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: Monitor your critical services with our Service Inventory API.
   name: Zayo Service Inventory API
   slug: zayo-service-inventory-api
-- description: View available tickets and ticket details to use in the Ticketing API.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: View available tickets and ticket details to use in the Ticketing API.
   name: Zayo Ticket Catalog API
   slug: zayo-ticket-catalog-api
-- description: Create various types of tickets, view all tickets, and create ticket comments.
+- baseURL: https://api.zayo.com
+  baseurl_source: declared
+  description: Create various types of tickets, view all tickets, and create ticket comments.
   name: Zayo Ticketing API
   slug: zayo-ticketing-api
 artifact_total: 23
@@ -210,7 +226,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -220,7 +236,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 43.0
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,7 +254,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/screenshots/zayo-2026-08-17T083035.png
 security:

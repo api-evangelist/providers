@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -62,22 +62,34 @@ apis:
 - description: 'Identity in AT Protocol is anchored in DIDs (did:plc or did:web), with human-readable handles resolved through DNS TXT records or well-known HTTP endpoints. The protocol specifies how DIDs map to PDS '
   name: AT Protocol Identity (DID & Handles)
   slug: identity-did
-- description: Bluesky actor profiles (app.bsky.actor.*)
+- baseURL: https://atproto.com/xrpc
+  baseurl_source: declared
+  description: Bluesky actor profiles (app.bsky.actor.*)
   name: AT Protocol Actor API
   slug: at-protocol-actor-api
-- description: Bluesky feeds, posts, and threads (app.bsky.feed.*)
+- baseURL: https://atproto.com/xrpc
+  baseurl_source: declared
+  description: Bluesky feeds, posts, and threads (app.bsky.feed.*)
   name: AT Protocol Feed API
   slug: at-protocol-feed-api
-- description: Follow, mute, and block graph (app.bsky.graph.*)
+- baseURL: https://atproto.com/xrpc
+  baseurl_source: declared
+  description: Follow, mute, and block graph (app.bsky.graph.*)
   name: AT Protocol Graph API
   slug: at-protocol-graph-api
-- description: DID and handle resolution (com.atproto.identity.*)
+- baseURL: https://atproto.com/xrpc
+  baseurl_source: declared
+  description: DID and handle resolution (com.atproto.identity.*)
   name: AT Protocol Identity API
   slug: at-protocol-identity-api
-- description: Repository record CRUD (com.atproto.repo.*)
+- baseURL: https://atproto.com/xrpc
+  baseurl_source: declared
+  description: Repository record CRUD (com.atproto.repo.*)
   name: AT Protocol Repo API
   slug: at-protocol-repo-api
-- description: Session and account management (com.atproto.server.*)
+- baseURL: https://atproto.com/xrpc
+  baseurl_source: declared
+  description: Session and account management (com.atproto.server.*)
   name: AT Protocol Server API
   slug: at-protocol-server-api
 artifact_total: 28
@@ -231,7 +243,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -244,7 +256,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 45.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/screenshots/at-protocol-2026-08-17T122411.png
 security:

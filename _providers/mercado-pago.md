@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -128,52 +128,84 @@ apis:
 - description: Official n8n workflow automation node for orchestrating Mercado Pago operations alongside other SaaS apps.
   name: Mercado Pago n8n Node
   slug: n8n
-- description: OAuth 2.0 authorisation flows
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorisation flows
   name: Mercado Pago Authentication API
   slug: mercado-pago-authentication-api
-- description: Tokenised customer cards
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Tokenised customer cards
   name: Mercado Pago Cards API
   slug: mercado-pago-cards-api
-- description: Read chargebacks and disputes
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Read chargebacks and disputes
   name: Mercado Pago Chargebacks API
   slug: mercado-pago-chargebacks-api
-- description: Buyer claims, mediations, and evidence
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Buyer claims, mediations, and evidence
   name: Mercado Pago Claims API
   slug: mercado-pago-claims-api
-- description: Stored customers and addresses
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Stored customers and addresses
   name: Mercado Pago Customers API
   slug: mercado-pago-customers-api
-- description: Aggregated preference + payments order resource
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Aggregated preference + payments order resource
   name: Mercado Pago Merchant Orders API
   slug: mercado-pago-merchant-orders-api
-- description: Unified Orders API (next-generation checkout)
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Unified Orders API (next-generation checkout)
   name: Mercado Pago Orders API
   slug: mercado-pago-orders-api
-- description: Discover available payment methods
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Discover available payment methods
   name: Mercado Pago Payment Methods API
   slug: mercado-pago-payment-methods-api
-- description: Create, capture, refund, and search payments
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Create, capture, refund, and search payments
   name: Mercado Pago Payments API
   slug: mercado-pago-payments-api
-- description: Subscription plans
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Subscription plans
   name: Mercado Pago Plans API
   slug: mercado-pago-plans-api
-- description: In-person POS (stores, terminals)
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: In-person POS (stores, terminals)
   name: Mercado Pago Point API
   slug: mercado-pago-point-api
-- description: Checkout Pro preferences
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Checkout Pro preferences
   name: Mercado Pago Preferences API
   slug: mercado-pago-preferences-api
-- description: QR-code in-person collection
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: QR-code in-person collection
   name: Mercado Pago QR API
   slug: mercado-pago-qr-api
-- description: Refund payments
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Refund payments
   name: Mercado Pago Refunds API
   slug: mercado-pago-refunds-api
-- description: Settlement and release reports
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Settlement and release reports
   name: Mercado Pago Reports API
   slug: mercado-pago-reports-api
-- description: Recurring preapproval subscriptions
+- baseURL: https://api.mercadopago.com
+  baseurl_source: declared
+  description: Recurring preapproval subscriptions
   name: Mercado Pago Subscriptions API
   slug: mercado-pago-subscriptions-api
 artifact_total: 85
@@ -457,7 +489,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -470,7 +502,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 51.9
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -485,7 +517,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png
 security:

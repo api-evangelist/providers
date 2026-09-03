@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Simetrik''s hosted remote Model Context Protocol server. An MCP client adds one URL and signs in with a Simetrik account over OAuth 2.1 (authorization code + PKCE, dynamic client registration) - there '
@@ -190,7 +203,7 @@ score:
   band: developing
   composite: 48.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +229,9 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/screenshots/simetrik-2026-09-02T155523.png
 security:
 - kind: authentication
   name: Simetrik Authentication

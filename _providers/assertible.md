@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Assertible API enables programmatic management of API tests, test suites, and monitoring configurations for automated quality assurance. It allows triggering test runs, managing webhooks, and acce
   name: Assertible API
   slug: assertible-api
-- description: Notify Assertible of deployments and trigger tests
+- baseURL: https://api.assertible.com
+  baseurl_source: declared
+  description: Notify Assertible of deployments and trigger tests
   name: Assertible Deployments API
   slug: assertible-deployments-api
 artifact_total: 23
@@ -174,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/screenshots/assertible-2026-06-20T172506.png
 security:

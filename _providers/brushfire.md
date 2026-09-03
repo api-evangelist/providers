@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 135 operations · 57 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The AccessCodes API from Brushfire — 3 operation(s) for accesscodes.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The AccessCodes API from Brushfire — 3 operation(s) for accesscodes.
   name: Brushfire AccessCodes API
   slug: brushfire-accesscodes-api
-- description: The Accounts API from Brushfire — 3 operation(s) for accounts.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Accounts API from Brushfire — 3 operation(s) for accounts.
   name: Brushfire Accounts API
   slug: brushfire-accounts-api
-- description: The Attendees API from Brushfire — 18 operation(s) for attendees.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Attendees API from Brushfire — 18 operation(s) for attendees.
   name: Brushfire Attendees API
   slug: brushfire-attendees-api
-- description: The Cart API from Brushfire — 11 operation(s) for cart.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Cart API from Brushfire — 11 operation(s) for cart.
   name: Brushfire Cart API
   slug: brushfire-cart-api
-- description: The Clients API from Brushfire — 3 operation(s) for clients.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Clients API from Brushfire — 3 operation(s) for clients.
   name: Brushfire Clients API
   slug: brushfire-clients-api
-- description: The Data API from Brushfire — 1 operation(s) for data.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Data API from Brushfire — 1 operation(s) for data.
   name: Brushfire Data API
   slug: brushfire-data-api
-- description: The Events API from Brushfire — 27 operation(s) for events.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Events API from Brushfire — 27 operation(s) for events.
   name: Brushfire Events API
   slug: brushfire-events-api
-- description: The Exchanges API from Brushfire — 2 operation(s) for exchanges.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Exchanges API from Brushfire — 2 operation(s) for exchanges.
   name: Brushfire Exchanges API
   slug: brushfire-exchanges-api
-- description: The Groups API from Brushfire — 7 operation(s) for groups.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Groups API from Brushfire — 7 operation(s) for groups.
   name: Brushfire Groups API
   slug: brushfire-groups-api
-- description: The Hooks API from Brushfire — 7 operation(s) for hooks.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Hooks API from Brushfire — 7 operation(s) for hooks.
   name: Brushfire Hooks API
   slug: brushfire-hooks-api
-- description: The Lookups API from Brushfire — 6 operation(s) for lookups.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Lookups API from Brushfire — 6 operation(s) for lookups.
   name: Brushfire Lookups API
   slug: brushfire-lookups-api
-- description: The Orders API from Brushfire — 11 operation(s) for orders.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Orders API from Brushfire — 11 operation(s) for orders.
   name: Brushfire Orders API
   slug: brushfire-orders-api
-- description: The PaymentProfiles API from Brushfire — 4 operation(s) for paymentprofiles.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The PaymentProfiles API from Brushfire — 4 operation(s) for paymentprofiles.
   name: Brushfire PaymentProfiles API
   slug: brushfire-paymentprofiles-api
-- description: The Promotions API from Brushfire — 4 operation(s) for promotions.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Promotions API from Brushfire — 4 operation(s) for promotions.
   name: Brushfire Promotions API
   slug: brushfire-promotions-api
-- description: The Regions API from Brushfire — 1 operation(s) for regions.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Regions API from Brushfire — 1 operation(s) for regions.
   name: Brushfire Regions API
   slug: brushfire-regions-api
-- description: The Sessions API from Brushfire — 10 operation(s) for sessions.
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Sessions API from Brushfire — 10 operation(s) for sessions.
   name: Brushfire Sessions API
   slug: brushfire-sessions-api
 artifact_total: 39
@@ -252,7 +284,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/screenshots/brushfire-2026-07-25T204003.png
 security:

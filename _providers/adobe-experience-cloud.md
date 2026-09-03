@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -44,112 +44,184 @@ agentic_access:
   summary_line: 110 operations · 53 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Adobe I/O Events enables developers to receive near-real-time notifications from Adobe services via webhooks and journal polling. Events are emitted when significant changes occur across Adobe Experie
+- baseURL: https://api.adobe.io
+  baseurl_source: declared
+  description: Adobe I/O Events enables developers to receive near-real-time notifications from Adobe services via webhooks and journal polling. Events are emitted when significant changes occur across Adobe Experie
   name: Adobe I/O Events
   slug: io-events
-- description: Operations for managing Target activities (A/B, XT, MVT, AP)
+- baseURL: https://mc.adobe.io/{tenant}
+  baseurl_source: declared
+  description: Operations for managing Target activities (A/B, XT, MVT, AP)
   name: Adobe Experience Cloud Activities API
   slug: adobe-experience-cloud-activities-api
-- description: Operations for managing Target audiences
+- baseURL: https://mc.adobe.io/{tenant}
+  baseurl_source: declared
+  description: Operations for managing Target audiences
   name: Adobe Experience Cloud Audiences API
   slug: adobe-experience-cloud-audiences-api
-- description: Operations for batch data ingestion
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for batch data ingestion
   name: Adobe Experience Cloud Batches API
   slug: adobe-experience-cloud-batches-api
-- description: Operations for managing calculated metrics
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for managing calculated metrics
   name: Adobe Experience Cloud Calculated Metrics API
   slug: adobe-experience-cloud-calculated-metrics-api
-- description: The Campaign API from Adobe Experience Cloud — 3 operation(s) for campaign.
+- baseURL: https://mc.adobe.io/{organization}
+  baseurl_source: declared
+  description: The Campaign API from Adobe Experience Cloud — 3 operation(s) for campaign.
   name: Adobe Experience Cloud Campaign API
   slug: adobe-experience-cloud-campaign-api
-- description: Operations for managing marketing campaigns
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing marketing campaigns
   name: Adobe Experience Cloud Campaigns API
   slug: adobe-experience-cloud-campaigns-api
-- description: Operations for managing XDM classes
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing XDM classes
   name: Adobe Experience Cloud Classes API
   slug: adobe-experience-cloud-classes-api
-- description: Operations for managing offer collections
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing offer collections
   name: Adobe Experience Cloud Collections API
   slug: adobe-experience-cloud-collections-api
-- description: Operations for managing email and landing page content
+- baseURL: https://mc.adobe.io/{organization}
+  baseurl_source: declared
+  description: Operations for managing email and landing page content
   name: Adobe Experience Cloud Content API
   slug: adobe-experience-cloud-content-api
-- description: Operations for managing reusable content templates
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing reusable content templates
   name: Adobe Experience Cloud Content Templates API
   slug: adobe-experience-cloud-content-templates-api
-- description: Operations for managing datasets in the Data Lake
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing datasets in the Data Lake
   name: Adobe Experience Cloud Datasets API
   slug: adobe-experience-cloud-datasets-api
-- description: Operations for managing saved date ranges
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for managing saved date ranges
   name: Adobe Experience Cloud Date Ranges API
   slug: adobe-experience-cloud-date-ranges-api
-- description: Operations for managing offer eligibility rules
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing offer eligibility rules
   name: Adobe Experience Cloud Decision Rules API
   slug: adobe-experience-cloud-decision-rules-api
-- description: Operations for real-time content delivery
+- baseURL: https://delivery.adobetarget.com
+  baseurl_source: declared
+  description: Operations for real-time content delivery
   name: Adobe Experience Cloud Delivery API
   slug: adobe-experience-cloud-delivery-api
-- description: Operations for retrieving dimension metadata
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for retrieving dimension metadata
   name: Adobe Experience Cloud Dimensions API
   slug: adobe-experience-cloud-dimensions-api
-- description: Operations for managing environments
+- baseURL: https://mc.adobe.io/{tenant}
+  baseurl_source: declared
+  description: Operations for managing environments
   name: Adobe Experience Cloud Environments API
   slug: adobe-experience-cloud-environments-api
-- description: Operations for identity namespace management
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for identity namespace management
   name: Adobe Experience Cloud Identities API
   slug: adobe-experience-cloud-identities-api
-- description: Operations for managing customer journeys
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing customer journeys
   name: Adobe Experience Cloud Journeys API
   slug: adobe-experience-cloud-journeys-api
-- description: Operations for managing channel messages
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing channel messages
   name: Adobe Experience Cloud Messages API
   slug: adobe-experience-cloud-messages-api
-- description: Operations for retrieving resource metadata
+- baseURL: https://mc.adobe.io/{organization}
+  baseurl_source: declared
+  description: Operations for retrieving resource metadata
   name: Adobe Experience Cloud Metadata API
   slug: adobe-experience-cloud-metadata-api
-- description: Operations for retrieving metric metadata
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for retrieving metric metadata
   name: Adobe Experience Cloud Metrics API
   slug: adobe-experience-cloud-metrics-api
-- description: Operations for offer decisioning
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for offer decisioning
   name: Adobe Experience Cloud Offers API
   slug: adobe-experience-cloud-offers-api
-- description: Operations for managing offer placements
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing offer placements
   name: Adobe Experience Cloud Placements API
   slug: adobe-experience-cloud-placements-api
-- description: Operations for managing subscriber profiles
+- baseURL: https://mc.adobe.io/{organization}
+  baseurl_source: declared
+  description: Operations for managing subscriber profiles
   name: Adobe Experience Cloud Profiles API
   slug: adobe-experience-cloud-profiles-api
-- description: Operations for managing Analysis Workspace projects
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for managing Analysis Workspace projects
   name: Adobe Experience Cloud Projects API
   slug: adobe-experience-cloud-projects-api
-- description: Operations for managing enterprise properties
+- baseURL: https://mc.adobe.io/{tenant}
+  baseurl_source: declared
+  description: Operations for managing enterprise properties
   name: Adobe Experience Cloud Properties API
   slug: adobe-experience-cloud-properties-api
-- description: Operations for the Query Service
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for the Query Service
   name: Adobe Experience Cloud Queries API
   slug: adobe-experience-cloud-queries-api
-- description: Operations for managing report suites
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for managing report suites
   name: Adobe Experience Cloud Report Suites API
   slug: adobe-experience-cloud-report-suites-api
-- description: Operations for retrieving analytics report data
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for retrieving analytics report data
   name: Adobe Experience Cloud Reports API
   slug: adobe-experience-cloud-reports-api
-- description: Operations for managing platform sandboxes
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing platform sandboxes
   name: Adobe Experience Cloud Sandboxes API
   slug: adobe-experience-cloud-sandboxes-api
-- description: Operations for managing XDM schemas via the Schema Registry
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing XDM schemas via the Schema Registry
   name: Adobe Experience Cloud Schemas API
   slug: adobe-experience-cloud-schemas-api
-- description: Operations for managing analytics segments
+- baseURL: https://platform.adobe.io
+  baseurl_source: declared
+  description: Operations for managing analytics segments
   name: Adobe Experience Cloud Segments API
   slug: adobe-experience-cloud-segments-api
-- description: Operations for sending real-time transactional messages
+- baseURL: https://mc.adobe.io/{organization}
+  baseurl_source: declared
+  description: Operations for sending real-time transactional messages
   name: Adobe Experience Cloud Transactional Messages API
   slug: adobe-experience-cloud-transactional-messages-api
-- description: Operations for managing analytics users
+- baseURL: https://analytics.adobe.io
+  baseurl_source: declared
+  description: Operations for managing analytics users
   name: Adobe Experience Cloud Users API
   slug: adobe-experience-cloud-users-api
-- description: Operations for managing automated workflows
+- baseURL: https://mc.adobe.io/{organization}
+  baseurl_source: declared
+  description: Operations for managing automated workflows
   name: Adobe Experience Cloud Workflows API
   slug: adobe-experience-cloud-workflows-api
 arazzos:
@@ -1566,7 +1638,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -1576,7 +1648,7 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 52.6
-  previous_composite: 61.9
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1588,7 +1660,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/screenshots/adobe-experience-cloud-2026-06-20T164907.png
 security:

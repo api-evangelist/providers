@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: The CloudBees CD plugin for Jenkins exposes Jenkins pipeline steps that call CloudBees CD/RO REST endpoints — triggering pipelines, running releases, deploying applications, and pulling artifacts from
   name: CloudBees CD/RO Jenkins Plugin Steps
   slug: jenkins-plugin
-- description: The Computer API from CloudBees — 1 operation(s) for computer.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Computer API from CloudBees — 1 operation(s) for computer.
   name: CloudBees Computer API
   slug: cloudbees-computer-api
-- description: The CreateItem API from CloudBees — 1 operation(s) for createitem.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The CreateItem API from CloudBees — 1 operation(s) for createitem.
   name: CloudBees CreateItem API
   slug: cloudbees-createitem-api
-- description: The Job API from CloudBees — 7 operation(s) for job.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Job API from CloudBees — 7 operation(s) for job.
   name: CloudBees Job API
   slug: cloudbees-job-api
-- description: The Json API from CloudBees — 1 operation(s) for json.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Json API from CloudBees — 1 operation(s) for json.
   name: CloudBees Json API
   slug: cloudbees-json-api
-- description: The Python API from CloudBees — 1 operation(s) for python.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Python API from CloudBees — 1 operation(s) for python.
   name: CloudBees Python API
   slug: cloudbees-python-api
-- description: The Queue API from CloudBees — 1 operation(s) for queue.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Queue API from CloudBees — 1 operation(s) for queue.
   name: CloudBees Queue API
   slug: cloudbees-queue-api
-- description: The Xml API from CloudBees — 1 operation(s) for xml.
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Xml API from CloudBees — 1 operation(s) for xml.
   name: CloudBees Xml API
   slug: cloudbees-xml-api
 artifact_total: 31
@@ -242,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/screenshots/cloudbees-2026-06-20T174542.png
 security:

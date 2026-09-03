@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -45,67 +45,109 @@ agentic_access:
   summary_line: 57 operations · 26 acting
 api_count: 13
 apis:
-- description: The Bookings API from Tyro Payments — 2 operation(s) for bookings.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Bookings API from Tyro Payments — 2 operation(s) for bookings.
   name: Tyro Payments Bookings API
   slug: tyro-bookings-api
-- description: The Connections API from Tyro Payments — 1 operation(s) for connections.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Connections API from Tyro Payments — 1 operation(s) for connections.
   name: Tyro Payments Connections API
   slug: tyro-connections-api
-- description: The Locations API from Tyro Payments — 2 operation(s) for locations.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Locations API from Tyro Payments — 2 operation(s) for locations.
   name: Tyro Payments Locations API
   slug: tyro-locations-api
-- description: The Loyalty API from Tyro Payments — 1 operation(s) for loyalty.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Loyalty API from Tyro Payments — 1 operation(s) for loyalty.
   name: Tyro Payments Loyalty API
   slug: tyro-loyalty-api
-- description: The Member API from Tyro Payments — 1 operation(s) for member.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Member API from Tyro Payments — 1 operation(s) for member.
   name: Tyro Payments Member API
   slug: tyro-member-api
-- description: The Menus API from Tyro Payments — 2 operation(s) for menus.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Menus API from Tyro Payments — 2 operation(s) for menus.
   name: Tyro Payments Menus API
   slug: tyro-menus-api
-- description: The Merchants API from Tyro Payments — 7 operation(s) for merchants.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Merchants API from Tyro Payments — 7 operation(s) for merchants.
   name: Tyro Payments Merchants API
   slug: tyro-merchants-api
-- description: The Onboarding API from Tyro Payments — 1 operation(s) for onboarding.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Onboarding API from Tyro Payments — 1 operation(s) for onboarding.
   name: Tyro Payments Onboarding API
   slug: tyro-onboarding-api
-- description: The Orders API from Tyro Payments — 2 operation(s) for orders.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Orders API from Tyro Payments — 2 operation(s) for orders.
   name: Tyro Payments Orders API
   slug: tyro-orders-api
-- description: The Pay Methods API from Tyro Payments — 2 operation(s) for pay methods.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Pay Methods API from Tyro Payments — 2 operation(s) for pay methods.
   name: Tyro Payments Pay Methods API
   slug: tyro-pay-methods-api
-- description: The Pay Refunds API from Tyro Payments — 2 operation(s) for pay refunds.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Pay Refunds API from Tyro Payments — 2 operation(s) for pay refunds.
   name: Tyro Payments Pay Refunds API
   slug: tyro-pay-refunds-api
-- description: The Pay Requests API from Tyro Payments — 4 operation(s) for pay requests.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Pay Requests API from Tyro Payments — 4 operation(s) for pay requests.
   name: Tyro Payments Pay Requests API
   slug: tyro-pay-requests-api
-- description: The Payments API from Tyro Payments — 1 operation(s) for payments.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Payments API from Tyro Payments — 1 operation(s) for payments.
   name: Tyro Payments Payments API
   slug: tyro-payments-api
-- description: The Readers API from Tyro Payments — 2 operation(s) for readers.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Readers API from Tyro Payments — 2 operation(s) for readers.
   name: Tyro Payments Readers API
   slug: tyro-readers-api
-- description: The Referrals API from Tyro Payments — 2 operation(s) for referrals.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Referrals API from Tyro Payments — 2 operation(s) for referrals.
   name: Tyro Payments Referrals API
   slug: tyro-referrals-api
-- description: The Refunds API from Tyro Payments — 1 operation(s) for refunds.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Refunds API from Tyro Payments — 1 operation(s) for refunds.
   name: Tyro Payments Refunds API
   slug: tyro-refunds-api
-- description: The Registered Card API from Tyro Payments — 1 operation(s) for registered card.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Registered Card API from Tyro Payments — 1 operation(s) for registered card.
   name: Tyro Payments Registered Card API
   slug: tyro-registered-card-api
-- description: The Reporting API from Tyro Payments — 2 operation(s) for reporting.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Reporting API from Tyro Payments — 2 operation(s) for reporting.
   name: Tyro Payments Reporting API
   slug: tyro-reporting-api
-- description: The Sales API from Tyro Payments — 2 operation(s) for sales.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Sales API from Tyro Payments — 2 operation(s) for sales.
   name: Tyro Payments Sales API
   slug: tyro-sales-api
-- description: The Tables API from Tyro Payments — 2 operation(s) for tables.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Tables API from Tyro Payments — 2 operation(s) for tables.
   name: Tyro Payments Tables API
   slug: tyro-tables-api
-- description: The Transactions API from Tyro Payments — 2 operation(s) for transactions.
+- baseURL: https://api.tyro.com/connect
+  baseurl_source: declared
+  description: The Transactions API from Tyro Payments — 2 operation(s) for transactions.
   name: Tyro Payments Transactions API
   slug: tyro-transactions-api
 artifact_total: 39
@@ -366,7 +408,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -376,7 +418,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 42.9
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -394,7 +436,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/screenshots/tyro-2026-08-17T082516.png
 security:

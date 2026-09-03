@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: SpotNow is SpotHero's server and API built in Kotlin for real-time parking availability and instant booking functionality, exposed via the HeroLab platform.
   name: SpotHero SpotNow API
   slug: spotnow-api
-- description: Check real-time parking availability
+- baseURL: https://api.spothero.com/v2
+  baseurl_source: declared
+  description: Check real-time parking availability
   name: SpotHero Availability API
   slug: spothero-availability-api
-- description: Retrieve facility details, amenities, pricing, and directions
+- baseURL: https://api.spothero.com/v2
+  baseurl_source: declared
+  description: Retrieve facility details, amenities, pricing, and directions
   name: SpotHero Facilities API
   slug: spothero-facilities-api
-- description: Retrieve pricing and rate information
+- baseURL: https://api.spothero.com/v2
+  baseurl_source: declared
+  description: Retrieve pricing and rate information
   name: SpotHero Rates API
   slug: spothero-rates-api
-- description: Create, manage, and cancel parking reservations
+- baseURL: https://api.spothero.com/v2
+  baseurl_source: declared
+  description: Create, manage, and cancel parking reservations
   name: SpotHero Reservations API
   slug: spothero-reservations-api
-- description: Search for available parking locations and facilities
+- baseURL: https://api.spothero.com/v2
+  baseurl_source: declared
+  description: Search for available parking locations and facilities
   name: SpotHero Search API
   slug: spothero-search-api
 artifact_total: 33
@@ -288,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spothero/refs/heads/main/screenshots/spothero-2026-06-20T194352.png
 security:

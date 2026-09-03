@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 23 operations
 api_count: 2
 apis:
-- description: The Price Differences API from Pyth — 1 operation(s) for price differences.
+- baseURL: https://hermes.pyth.network
+  baseurl_source: declared
+  description: The Price Differences API from Pyth — 1 operation(s) for price differences.
   name: Pyth Price Differences API
   slug: pyth-price-differences-api
-- description: The Price Feeds API from Pyth — 2 operation(s) for price feeds.
+- baseURL: https://hermes.pyth.network
+  baseurl_source: declared
+  description: The Price Feeds API from Pyth — 2 operation(s) for price feeds.
   name: Pyth Price Feeds API
   slug: pyth-price-feeds-api
-- description: The rest API from Pyth — 11 operation(s) for rest.
+- baseURL: https://hermes.pyth.network
+  baseurl_source: declared
+  description: The rest API from Pyth — 11 operation(s) for rest.
   name: Pyth rest API
   slug: pyth-rest-api
-- description: Routes for TradingView Data Integration.
+- baseURL: https://hermes.pyth.network
+  baseurl_source: declared
+  description: Routes for TradingView Data Integration.
   name: Pyth TradingView API
   slug: pyth-tradingview-api
-- description: The Updates API from Pyth — 2 operation(s) for updates.
+- baseURL: https://hermes.pyth.network
+  baseurl_source: declared
+  description: The Updates API from Pyth — 2 operation(s) for updates.
   name: Pyth Updates API
   slug: pyth-updates-api
 artifact_total: 15
@@ -244,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyth/refs/heads/main/screenshots/pyth-2026-08-17T081409.png
 security:

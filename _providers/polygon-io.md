@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: 'Real-time and historical US equity market data including aggregates (minute/hour/day bars), trades, NBBO quotes, snapshots, ticker reference, splits, dividends, and financials. Available via REST and '
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: 'Real-time and historical US equity market data including aggregates (minute/hour/day bars), trades, NBBO quotes, snapshots, ticker reference, splits, dividends, and financials. Available via REST and '
   name: Polygon.io Stocks API
   slug: stocks-api
-- description: 'OPRA-licensed options market data via REST and WebSocket: aggregates, trades, quotes, snapshots, contract reference, and option chains.'
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: 'OPRA-licensed options market data via REST and WebSocket: aggregates, trades, quotes, snapshots, contract reference, and option chains.'
   name: Polygon.io Options API
   slug: options-api
-- description: Real-time and historical index values for major US and global indices via REST and WebSocket.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time and historical index values for major US and global indices via REST and WebSocket.
   name: Polygon.io Indices API
   slug: indices-api
-- description: Real-time and historical FX prices for 1,000+ currency pairs via REST and WebSocket.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time and historical FX prices for 1,000+ currency pairs via REST and WebSocket.
   name: Polygon.io Forex API
   slug: forex-api
-- description: Aggregates, trades, snapshots, level-2 books, and L2 streaming for crypto pairs across major exchanges.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Aggregates, trades, snapshots, level-2 books, and L2 streaming for crypto pairs across major exchanges.
   name: Polygon.io Crypto API
   slug: crypto-api
-- description: Real-time and historical futures market data including aggregates, trades, quotes, and snapshots.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time and historical futures market data including aggregates, trades, quotes, and snapshots.
   name: Polygon.io Futures API
   slug: futures-api
-- description: Aggregate (OHLC) bar data.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Aggregate (OHLC) bar data.
   name: Polygon.io Aggregates API
   slug: polygon-io-aggregates-api
-- description: Ticker reference data.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Ticker reference data.
   name: Polygon.io Reference API
   slug: polygon-io-reference-api
 artifact_total: 20
@@ -183,7 +199,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -193,7 +209,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 21.1
-  previous_composite: 36.8
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -208,7 +224,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/screenshots/polygon-io-2026-06-20T191906.png
 security:

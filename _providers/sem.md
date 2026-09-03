@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Xiaoe's Open API (开放API) for integrating store data and operations — users, products, orders, refunds, live broadcasts, learning/course data, marketing (coupons, group-buy, promoters) and points — int
@@ -129,11 +129,11 @@ score:
   band: thin
   composite: 33.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -143,7 +143,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 33.9
+  previous_composite: 33.7
   regulatory:
     applies: true
     matched_via: tags
@@ -151,8 +151,9 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sem/refs/heads/main/screenshots/sem-2026-09-02T154825.png
 security:
 - kind: authentication
   name: Sem Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: 'Consul Connect supports four gateway types for traffic flowing into and out of the mesh: mesh gateways for cross-datacenter and cross-partition traffic, ingress gateways for North-South entry, termina'
   name: Consul Connect Gateways
   slug: consul-connect-gateways
-- description: Certificate authority management
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Certificate authority management
   name: Consul Connect CA API
   slug: consul-connect-ca-api
-- description: Service-to-service traffic authorization
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Service-to-service traffic authorization
   name: Consul Connect Intentions API
   slug: consul-connect-intentions-api
 artifact_total: 18
@@ -232,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/screenshots/consul-connect-2026-06-20T174917.png
 security:

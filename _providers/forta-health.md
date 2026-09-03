@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,109 +34,177 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
   name: Forta Health Assessment Surveys API
   slug: forta-health-assessment-surveys-api
-- description: The behavior API from Forta Health — 6 operation(s) for behavior.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The behavior API from Forta Health — 6 operation(s) for behavior.
   name: Forta Health Behavior API
   slug: forta-health-behavior-api
-- description: The bt_supervisions API from Forta Health — 6 operation(s) for bt_supervisions.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The bt_supervisions API from Forta Health — 6 operation(s) for bt_supervisions.
   name: Forta Health Bt Supervisions API
   slug: forta-health-bt-supervisions-api
-- description: The claim_invoices API from Forta Health — 10 operation(s) for claim_invoices.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The claim_invoices API from Forta Health — 10 operation(s) for claim_invoices.
   name: Forta Health Claim Invoices API
   slug: forta-health-claim-invoices-api
-- description: The claims API from Forta Health — 17 operation(s) for claims.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The claims API from Forta Health — 17 operation(s) for claims.
   name: Forta Health Claims API
   slug: forta-health-claims-api
-- description: The client_assessments API from Forta Health — 10 operation(s) for client_assessments.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The client_assessments API from Forta Health — 10 operation(s) for client_assessments.
   name: Forta Health Client Assessments API
   slug: forta-health-client-assessments-api
-- description: The client_cohort_assignments API from Forta Health — 2 operation(s) for client_cohort_assignments.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The client_cohort_assignments API from Forta Health — 2 operation(s) for client_cohort_assignments.
   name: Forta Health Client Cohort Assignments API
   slug: forta-health-client-cohort-assignments-api
-- description: The client_facility_assignments API from Forta Health — 2 operation(s) for client_facility_assignments.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The client_facility_assignments API from Forta Health — 2 operation(s) for client_facility_assignments.
   name: Forta Health Client Facility Assignments API
   slug: forta-health-client-facility-assignments-api
-- description: The client_supervisions API from Forta Health — 12 operation(s) for client_supervisions.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The client_supervisions API from Forta Health — 12 operation(s) for client_supervisions.
   name: Forta Health Client Supervisions API
   slug: forta-health-client-supervisions-api
-- description: The clients API from Forta Health — 7 operation(s) for clients.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The clients API from Forta Health — 7 operation(s) for clients.
   name: Forta Health Clients API
   slug: forta-health-clients-api
-- description: The cohorts API from Forta Health — 3 operation(s) for cohorts.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The cohorts API from Forta Health — 3 operation(s) for cohorts.
   name: Forta Health Cohorts API
   slug: forta-health-cohorts-api
-- description: The email_cron_configs API from Forta Health — 3 operation(s) for email_cron_configs.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The email_cron_configs API from Forta Health — 3 operation(s) for email_cron_configs.
   name: Forta Health Email Cron Configs API
   slug: forta-health-email-cron-configs-api
-- description: The evv API from Forta Health — 1 operation(s) for evv.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The evv API from Forta Health — 1 operation(s) for evv.
   name: Forta Health Evv API
   slug: forta-health-evv-api
-- description: The facilities API from Forta Health — 1 operation(s) for facilities.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The facilities API from Forta Health — 1 operation(s) for facilities.
   name: Forta Health Facilities API
   slug: forta-health-facilities-api
-- description: The feature_flags API from Forta Health — 2 operation(s) for feature_flags.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The feature_flags API from Forta Health — 2 operation(s) for feature_flags.
   name: Forta Health Feature Flags API
   slug: forta-health-feature-flags-api
-- description: The field_templates API from Forta Health — 2 operation(s) for field_templates.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The field_templates API from Forta Health — 2 operation(s) for field_templates.
   name: Forta Health Field Templates API
   slug: forta-health-field-templates-api
-- description: The group_parent_supervisions API from Forta Health — 18 operation(s) for group_parent_supervisions.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The group_parent_supervisions API from Forta Health — 18 operation(s) for group_parent_supervisions.
   name: Forta Health Group Parent Supervisions API
   slug: forta-health-group-parent-supervisions-api
-- description: The health API from Forta Health — 1 operation(s) for health.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The health API from Forta Health — 1 operation(s) for health.
   name: Forta Health Health API
   slug: forta-health-health-api
-- description: The intake_questionnaires API from Forta Health — 32 operation(s) for intake_questionnaires.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The intake_questionnaires API from Forta Health — 32 operation(s) for intake_questionnaires.
   name: Forta Health Intake Questionnaires API
   slug: forta-health-intake-questionnaires-api
-- description: The metrics API from Forta Health — 1 operation(s) for metrics.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The metrics API from Forta Health — 1 operation(s) for metrics.
   name: Forta Health Metrics API
   slug: forta-health-metrics-api
-- description: The onboarding_questionnaires API from Forta Health — 17 operation(s) for onboarding_questionnaires.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The onboarding_questionnaires API from Forta Health — 17 operation(s) for onboarding_questionnaires.
   name: Forta Health Onboarding Questionnaires API
   slug: forta-health-onboarding-questionnaires-api
-- description: The parent_supervisions API from Forta Health — 18 operation(s) for parent_supervisions.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The parent_supervisions API from Forta Health — 18 operation(s) for parent_supervisions.
   name: Forta Health Parent Supervisions API
   slug: forta-health-parent-supervisions-api
-- description: The payor API from Forta Health — 6 operation(s) for payor.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The payor API from Forta Health — 6 operation(s) for payor.
   name: Forta Health Payor API
   slug: forta-health-payor-api
-- description: The payor_provider_credentials API from Forta Health — 2 operation(s) for payor_provider_credentials.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The payor_provider_credentials API from Forta Health — 2 operation(s) for payor_provider_credentials.
   name: Forta Health Payor Provider Credentials API
   slug: forta-health-payor-provider-credentials-api
-- description: The policies API from Forta Health — 3 operation(s) for policies.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The policies API from Forta Health — 3 operation(s) for policies.
   name: Forta Health Policies API
   slug: forta-health-policies-api
-- description: The provider_assignments API from Forta Health — 2 operation(s) for provider_assignments.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The provider_assignments API from Forta Health — 2 operation(s) for provider_assignments.
   name: Forta Health Provider Assignments API
   slug: forta-health-provider-assignments-api
-- description: The provider_availability_records API from Forta Health — 2 operation(s) for provider_availability_records.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The provider_availability_records API from Forta Health — 2 operation(s) for provider_availability_records.
   name: Forta Health Provider Availability Records API
   slug: forta-health-provider-availability-records-api
-- description: The providers API from Forta Health — 12 operation(s) for providers.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The providers API from Forta Health — 12 operation(s) for providers.
   name: Forta Health Providers API
   slug: forta-health-providers-api
-- description: The service_codes API from Forta Health — 1 operation(s) for service_codes.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The service_codes API from Forta Health — 1 operation(s) for service_codes.
   name: Forta Health Service Codes API
   slug: forta-health-service-codes-api
-- description: The sessions API from Forta Health — 38 operation(s) for sessions.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The sessions API from Forta Health — 38 operation(s) for sessions.
   name: Forta Health Sessions API
   slug: forta-health-sessions-api
-- description: The stripe API from Forta Health — 1 operation(s) for stripe.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The stripe API from Forta Health — 1 operation(s) for stripe.
   name: Forta Health Stripe API
   slug: forta-health-stripe-api
-- description: The timesheets API from Forta Health — 3 operation(s) for timesheets.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The timesheets API from Forta Health — 3 operation(s) for timesheets.
   name: Forta Health Timesheets API
   slug: forta-health-timesheets-api
-- description: The treatment_plan API from Forta Health — 63 operation(s) for treatment_plan.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The treatment_plan API from Forta Health — 63 operation(s) for treatment_plan.
   name: Forta Health Treatment Plan API
   slug: forta-health-treatment-plan-api
-- description: The treatment_plan_statuses API from Forta Health — 1 operation(s) for treatment_plan_statuses.
+- baseURL: https://api.prod.fortahealth.com/api/v1/
+  baseurl_source: declared
+  description: The treatment_plan_statuses API from Forta Health — 1 operation(s) for treatment_plan_statuses.
   name: Forta Health Treatment Plan Statuses API
   slug: forta-health-treatment-plan-statuses-api
 artifact_total: 72
@@ -377,7 +456,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:

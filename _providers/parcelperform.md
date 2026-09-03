@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: Delivery-experience performance metrics behind the Analyze product. Entirely MODELED - no public reference page found.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: Delivery-experience performance metrics behind the Analyze product. Entirely MODELED - no public reference page found.
   name: Parcel Perform Analytics API
   slug: parcelperform-analytics-api
-- description: OAuth2 client-credentials token issuance. CONFIRMED path.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: OAuth2 client-credentials token issuance. CONFIRMED path.
   name: Parcel Perform Authentication API
   slug: parcelperform-authentication-api
-- description: Carrier/courier reference data. Entirely MODELED - no public reference page found.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: Carrier/courier reference data. Entirely MODELED - no public reference page found.
   name: Parcel Perform Couriers API
   slug: parcelperform-couriers-api
-- description: Create returns and return shipments. CONFIRMED operations; MODELED paths/schemas.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: Create returns and return shipments. CONFIRMED operations; MODELED paths/schemas.
   name: Parcel Perform Returns API
   slug: parcelperform-returns-api
-- description: Create, retrieve, list, and update shipments. CONFIRMED operations; MODELED paths/schemas.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: Create, retrieve, list, and update shipments. CONFIRMED operations; MODELED paths/schemas.
   name: Parcel Perform Shipments API
   slug: parcelperform-shipments-api
-- description: Normalized carrier tracking event timeline. CONFIRMED operations; MODELED paths/schemas.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: Normalized carrier tracking event timeline. CONFIRMED operations; MODELED paths/schemas.
   name: Parcel Perform Tracking Events API
   slug: parcelperform-tracking-events-api
-- description: Outgoing webhook subscriptions for tracking updates. CONFIRMED operations; MODELED paths/schemas.
+- baseURL: https://api.parcelperform.com/v5
+  baseurl_source: declared
+  description: Outgoing webhook subscriptions for tracking updates. CONFIRMED operations; MODELED paths/schemas.
   name: Parcel Perform Webhooks API
   slug: parcelperform-webhooks-api
 artifact_total: 23
@@ -195,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/screenshots/parcelperform-2026-08-07T191537.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Agent-commerce surface for the TTRacing Shopify store: a hosted UCP shopping MCP endpoint plus unauthenticated read-only product/collection JSON browsing.'
@@ -90,7 +90,7 @@ score:
   band: emerging
   composite: 11.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -108,8 +108,9 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ttracing/refs/heads/main/screenshots/ttracing-2026-09-02T164508.png
 security:
 - kind: domain-security
   name: Ttracing Domain Security

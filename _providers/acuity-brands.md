@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Product catalog and item details
+- baseURL: https://api.acuitybrands.com/v1
+  baseurl_source: spec
+  description: Product catalog and item details
   name: acuity-brands Catalog API
   slug: acuity-brands-catalog-api
-- description: Product inventory and availability
+- baseURL: https://api.acuitybrands.com/v1
+  baseurl_source: spec
+  description: Product inventory and availability
   name: acuity-brands Inventory API
   slug: acuity-brands-inventory-api
-- description: Order status and shipment tracking
+- baseURL: https://api.acuitybrands.com/v1
+  baseurl_source: spec
+  description: Order status and shipment tracking
   name: acuity-brands Orders API
   slug: acuity-brands-orders-api
-- description: Web content and product page data
+- baseURL: https://api.acuitybrands.com/v1
+  baseurl_source: spec
+  description: Web content and product page data
   name: acuity-brands Webpages API
   slug: acuity-brands-webpages-api
 artifact_total: 49
@@ -315,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png
 security:

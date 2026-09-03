@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,22 +48,34 @@ apis:
 - description: Serverless GCP Cloud Function that returns the current OHM total supply as a plain-text numeric string. Reads from a one-hour Firestore cache backed by the Olympus Protocol Metrics API. Used by CoinGe
   name: Olympus OHM Total Supply API
   slug: olympus-ohm-total-supply-api
-- description: API health and readiness endpoints.
+- baseURL: https://treasury-subgraph-api.olympusdao.finance
+  baseurl_source: declared
+  description: API health and readiness endpoints.
   name: OlympusDAO Health API
   slug: olympusdao-health-api
-- description: Deprecated WunderGraph-compatible /operations routes.
+- baseURL: https://treasury-subgraph-api.olympusdao.finance
+  baseurl_source: declared
+  description: Deprecated WunderGraph-compatible /operations routes.
   name: OlympusDAO Legacy API
   slug: olympusdao-legacy-api
-- description: Date bounds and indexer metadata.
+- baseURL: https://treasury-subgraph-api.olympusdao.finance
+  baseurl_source: declared
+  description: Date bounds and indexer metadata.
   name: OlympusDAO Metadata API
   slug: olympusdao-metadata-api
-- description: Daily OHM supply attribution records.
+- baseURL: https://treasury-subgraph-api.olympusdao.finance
+  baseurl_source: declared
+  description: Daily OHM supply attribution records.
   name: OlympusDAO OHM Supply API
   slug: olympusdao-ohm-supply-api
-- description: Daily cross-chain OHM protocol metrics.
+- baseURL: https://treasury-subgraph-api.olympusdao.finance
+  baseurl_source: declared
+  description: Daily cross-chain OHM protocol metrics.
   name: OlympusDAO Protocol Metrics API
   slug: olympusdao-protocol-metrics-api
-- description: Daily treasury asset holdings.
+- baseURL: https://treasury-subgraph-api.olympusdao.finance
+  baseurl_source: declared
+  description: Daily treasury asset holdings.
   name: OlympusDAO Treasury API
   slug: olympusdao-treasury-api
 artifact_total: 28
@@ -199,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/screenshots/olympusdao-2026-06-20T190659.png
 security:

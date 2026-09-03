@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Split an audio track into vocal and instrument stems.
+- baseURL: https://arpeggi.io/api/kits/v1
+  baseurl_source: declared
+  description: Split an audio track into vocal and instrument stems.
   name: Arpeggi Labs Stem Splitter API
   slug: arpeggi-labs-stem-splitter-api
-- description: Isolate vocals from a mixed audio track.
+- baseURL: https://arpeggi.io/api/kits/v1
+  baseurl_source: declared
+  description: Isolate vocals from a mixed audio track.
   name: Arpeggi Labs Vocal Separation API
   slug: arpeggi-labs-vocal-separation-api
-- description: Blend two to four voice models into a new voice model.
+- baseURL: https://arpeggi.io/api/kits/v1
+  baseurl_source: declared
+  description: Blend two to four voice models into a new voice model.
   name: Arpeggi Labs Voice Blender API
   slug: arpeggi-labs-voice-blender-api
-- description: Convert an input performance to a target voice model.
+- baseURL: https://arpeggi.io/api/kits/v1
+  baseurl_source: declared
+  description: Convert an input performance to a target voice model.
   name: Arpeggi Labs Voice Conversion API
   slug: arpeggi-labs-voice-conversion-api
-- description: Browse and retrieve available voice models.
+- baseURL: https://arpeggi.io/api/kits/v1
+  baseurl_source: declared
+  description: Browse and retrieve available voice models.
   name: Arpeggi Labs Voice Models API
   slug: arpeggi-labs-voice-models-api
 artifact_total: 15
@@ -222,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
 security:

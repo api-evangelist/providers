@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 9
 apis:
-- description: The Lookup API from Smarty — 3 operation(s) for lookup.
+- baseURL: https://us-street.api.smarty.com/street-address
+  baseurl_source: declared
+  description: The Lookup API from Smarty — 3 operation(s) for lookup.
   name: Smarty Lookup API
   slug: smarty-lookup-api
-- description: Operation invlovling reverse geocoding
+- baseURL: https://us-street.api.smarty.com/street-address
+  baseurl_source: declared
+  description: Operation invlovling reverse geocoding
   name: Smarty reverse-geo API
   slug: smarty-reverse-geo-api
-- description: The street-address API from Smarty — 1 operation(s) for street-address.
+- baseURL: https://us-street.api.smarty.com/street-address
+  baseurl_source: declared
+  description: The street-address API from Smarty — 1 operation(s) for street-address.
   name: Smarty street-address API
   slug: smarty-street-address-api
-- description: The us-enrichment API from Smarty — 8 operation(s) for us-enrichment.
+- baseURL: https://us-street.api.smarty.com/street-address
+  baseurl_source: declared
+  description: The us-enrichment API from Smarty — 8 operation(s) for us-enrichment.
   name: Smarty us-enrichment API
   slug: smarty-us-enrichment-api
-- description: The US Extract API API from Smarty — 1 operation(s) for us extract api.
+- baseURL: https://us-street.api.smarty.com/street-address
+  baseurl_source: declared
+  description: The US Extract API API from Smarty — 1 operation(s) for us extract api.
   name: Smarty US Extract API API
   slug: smarty-us-extract-api-api
-- description: The Verify API from Smarty — 1 operation(s) for verify.
+- baseURL: https://us-street.api.smarty.com/street-address
+  baseurl_source: declared
+  description: The Verify API from Smarty — 1 operation(s) for verify.
   name: Smarty Verify API
   slug: smarty-verify-api
 artifact_total: 31
@@ -273,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smarty/refs/heads/main/screenshots/smarty-2026-06-20T194052.png
 security:

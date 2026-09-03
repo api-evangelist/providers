@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 50 operations · 30 acting
 api_count: 2
 apis:
-- description: The Attachments API from Jasper — 1 operation(s) for attachments.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Attachments API from Jasper — 1 operation(s) for attachments.
   name: Jasper Attachments API
   slug: jasper-attachments-api
-- description: The Audiences API from Jasper — 2 operation(s) for audiences.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Audiences API from Jasper — 2 operation(s) for audiences.
   name: Jasper Audiences API
   slug: jasper-audiences-api
-- description: The Command API from Jasper — 1 operation(s) for command.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Command API from Jasper — 1 operation(s) for command.
   name: Jasper Command API
   slug: jasper-command-api
-- description: The Documents API from Jasper — 2 operation(s) for documents.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Documents API from Jasper — 2 operation(s) for documents.
   name: Jasper Documents API
   slug: jasper-documents-api
-- description: The Image Templates API from Jasper — 3 operation(s) for image templates.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Image Templates API from Jasper — 3 operation(s) for image templates.
   name: Jasper Image Templates API
   slug: jasper-image-templates-api
-- description: The Images API from Jasper — 10 operation(s) for images.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Images API from Jasper — 10 operation(s) for images.
   name: Jasper Images API
   slug: jasper-images-api
-- description: The Knowledge API from Jasper — 3 operation(s) for knowledge.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Knowledge API from Jasper — 3 operation(s) for knowledge.
   name: Jasper Knowledge API
   slug: jasper-knowledge-api
-- description: The Projects API from Jasper — 2 operation(s) for projects.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Projects API from Jasper — 2 operation(s) for projects.
   name: Jasper Projects API
   slug: jasper-projects-api
-- description: The Styles API from Jasper — 2 operation(s) for styles.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Styles API from Jasper — 2 operation(s) for styles.
   name: Jasper Styles API
   slug: jasper-styles-api
-- description: The Tasks API from Jasper — 4 operation(s) for tasks.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Tasks API from Jasper — 4 operation(s) for tasks.
   name: Jasper Tasks API
   slug: jasper-tasks-api
-- description: The Templates API from Jasper — 3 operation(s) for templates.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Templates API from Jasper — 3 operation(s) for templates.
   name: Jasper Templates API
   slug: jasper-templates-api
-- description: The Usage API from Jasper — 1 operation(s) for usage.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Usage API from Jasper — 1 operation(s) for usage.
   name: Jasper Usage API
   slug: jasper-usage-api
-- description: The Users API from Jasper — 2 operation(s) for users.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Users API from Jasper — 2 operation(s) for users.
   name: Jasper Users API
   slug: jasper-users-api
-- description: The Voices API from Jasper — 2 operation(s) for voices.
+- baseURL: https://api.jasper.ai/v1
+  baseurl_source: declared
+  description: The Voices API from Jasper — 2 operation(s) for voices.
   name: Jasper Voices API
   slug: jasper-voices-api
 artifact_total: 23
@@ -312,7 +340,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/screenshots/jasper-2026-07-25T223101.png
 security:

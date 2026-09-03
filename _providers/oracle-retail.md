@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Oracle Retail Xstore Point of Service provides APIs for store operations including transactions, inventory lookup, customer management, and omnichannel fulfillment from retail store systems.
   name: Oracle Retail Xstore Point of Service API
   slug: oracle-retail-xstore-point-of-service-api
-- description: Fulfillment and sourcing operations
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Fulfillment and sourcing operations
   name: Oracle Retail Fulfillment API
   slug: oracle-retail-fulfillment-api
-- description: Inventory and stock on hand
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Inventory and stock on hand
   name: Oracle Retail Inventory API
   slug: oracle-retail-inventory-api
-- description: Item setup and attributes
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Item setup and attributes
   name: Oracle Retail Items API
   slug: oracle-retail-items-api
-- description: Customer order management
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Customer order management
   name: Oracle Retail Orders API
   slug: oracle-retail-orders-api
-- description: Purchase order management
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Purchase order management
   name: Oracle Retail PurchaseOrders API
   slug: oracle-retail-purchaseorders-api
-- description: Returns and refunds management
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Returns and refunds management
   name: Oracle Retail Returns API
   slug: oracle-retail-returns-api
-- description: Supplier management
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Supplier management
   name: Oracle Retail Suppliers API
   slug: oracle-retail-suppliers-api
 artifact_total: 57
@@ -361,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/screenshots/oracle-retail-2026-06-20T191144.png
 security:

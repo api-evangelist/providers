@@ -10,41 +10,149 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
-api_count: 1
+  score: 22.6
+  scored_at: '2026-09-02'
+api_count: 3
 apis:
-- description: AMETEK provides advanced electronic instruments and electromechanical devices for energy, aerospace, power, research, medical, and industrial markets. The company does not currently publish a public d
+- description: 'AMETEK provides advanced electronic instruments and electromechanical devices for energy, aerospace, power, research, medical, and industrial markets. The corporate site is not a developer surface: th'
   name: AMETEK Website
   slug: website
-artifact_total: 21
+- baseURL: http://{device_host}:{port}/api/v1
+  baseurl_source: declared
+  description: Read-only REST API embedded in the AMETEK Powervar iSite PRO network management card, the adapter fitted to Powervar UPS systems for secure remote monitoring. Three GET operations over HTTP or HTTPS r
+  name: AMETEK Powervar iSite PRO REST API
+  slug: powervar-isite-pro
+- description: The public API reference for Crank Storyboard, the embedded graphical-interface development platform AMETEK acquired with Crank Software. Nine documented API families across 313 server-rendered, versi
+  name: Crank Storyboard APIs
+  slug: crank-storyboard
+artifact_total: 25
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ametek.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ametek-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/ametek-domain-security.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/ametek-powervar-isite-pro-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ametek-powervar-isite-pro-overlay.yaml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ametek-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ametek-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ametek-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ametek-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/ametek-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ametek-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ametek-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ametek-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/ametek-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ametek-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ametek-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ametek-packages.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ametek-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ametek-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ametek-rate-limits.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/crank-software
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.cranksoftware.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.cranksoftware.com/docs/9.0/category/storyboard-apis
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ametek.com/newsroom
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.ametek.com/careers
 - group: start
   title: ''
   type: Portal
@@ -52,7 +160,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.ametek.com/privacy-policy
+  url: https://www.ametek.com/privacy
 - group: commercial
   title: ''
   type: TermsOfService
@@ -60,11 +168,11 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.ametek.com/contact
+  url: https://www.ametek.com/contact-us
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/ametek-inc-
+  url: https://www.linkedin.com/company/ametek
 - group: other
   title: ''
   type: X
@@ -106,20 +214,24 @@ jsonld:
   property_count: 21
   slug: ametek-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: AMETEK publishes no MCP server. This is a DERIVED candidate tool list — one tool per published operation of the AMETEK Powervar iSite PRO REST API — recorded so the agent surface AMETEK could offer is
+  name: AMETEK MCP Server
+  slug: ametek-mcp-server
+modified: '2026-09-02'
 name: AMETEK
 nav: Providers
 network: true
-overview: 'AMETEK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Electronic Instruments, Test and Measurement, Aerospace, Energy, and Industrial.
+overview: 'AMETEK publishes 1 API on the [APIs.io](https://apis.io/) network: Powervar iSite PRO REST API. Tagged areas include Electronic Instruments, Test and Measurement, Aerospace, Energy, and Industrial.
 
 
   The AMETEK catalog on APIs.io includes 1 JSON-LD context.
 
 
-  AMETEK''s developer surface includes developer portal, support, YouTube channel, and 5 more developer resources.'
+  AMETEK''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, developer portal, support, and 26 more developer resources.'
 plans:
 - name: Ametek Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: ametek-plans-pricing
 press:
 - date: '2026-05-25'
@@ -139,43 +251,56 @@ press:
   url: https://www.ametek.com/our-stories/stories/innovation/2023/august/ametek-enabling-ai
 random_paper: 1
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Ametek Rate Limits
   slug: ametek-rate-limits
 score:
-  band: emerging
-  composite: 18.0
+  band: thin
+  composite: 32.5
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 60.0
+    artifact_dirs: 24
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 14.5
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 14.7
-    developer_ergonomics: 9.5
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 20.7
+    developer_ergonomics: 49.4
+    discoverability: 64.8
+    governance: 18.2
+    operational_transparency: 28.9
   previous_composite: 18.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 20.3
+    score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/screenshots/ametek-2026-06-20T171929.png
 security:
+- kind: authentication
+  name: Ametek Authentication
+  slug: ametek-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Ametek Domain Security
   slug: ametek-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: ametek
 tags:
 - Electronic Instruments
@@ -200,5 +325,5 @@ use_cases:
   name: Research and Laboratory Analysis
 - description: Power management and monitoring solutions for data center operators managing complex energy and thermal challenges.
   name: Data Center Infrastructure
-website: https://www.ametek.com
+website: https://www.ametek.com/
 ---

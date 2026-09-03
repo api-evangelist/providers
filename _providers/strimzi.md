@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: The Strimzi Operator API is expressed through Kubernetes Custom Resource Definitions (CRDs). Operators are controlled by creating and modifying Kafka, KafkaTopic, KafkaUser, KafkaConnect, KafkaMirrorM
   name: Strimzi Operator API
   slug: strimzi-operator-api
-- description: Endpoints for managing consumer groups and consuming messages from Kafka topics via HTTP long-polling.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Endpoints for managing consumer groups and consuming messages from Kafka topics via HTTP long-polling.
   name: Strimzi Consumer API
   slug: strimzi-consumer-api
-- description: Endpoints for producing (sending) messages to Kafka topics via HTTP. Supports JSON and binary message formats.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Endpoints for producing (sending) messages to Kafka topics via HTTP. Supports JSON and binary message formats.
   name: Strimzi Producer API
   slug: strimzi-producer-api
-- description: Endpoints for seeking consumer positions within topic partitions.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Endpoints for seeking consumer positions within topic partitions.
   name: Strimzi Seek API
   slug: strimzi-seek-api
-- description: Endpoints for querying Kafka topic metadata including partition counts, offsets, and configuration.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Endpoints for querying Kafka topic metadata including partition counts, offsets, and configuration.
   name: Strimzi Topics API
   slug: strimzi-topics-api
 artifact_total: 23
@@ -239,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/screenshots/strimzi-2026-06-20T194621.png
 security:

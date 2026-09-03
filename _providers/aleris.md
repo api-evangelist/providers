@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: Aleris was a global producer of rolled aluminum products serving th
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aleris.png
 layout: provider
 modified: '2026-04-19'
-name: aleris
+name: Aleris
 nav: Providers
 network: true
-overview: aleris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Manufacturing, Aerospace, Automotive, and Industrial.
+overview: Aleris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Manufacturing, Aerospace, Automotive, and Industrial.
 random_paper: 10
 score:
   band: minimal
@@ -77,7 +77,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 13 acting
 api_count: 1
 apis:
-- description: Apply and retrieve decisions against users, orders, sessions, and content.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: Apply and retrieve decisions against users, orders, sessions, and content.
   name: Sift Decisions API
   slug: sift-decisions-api
-- description: Stream user activity to Sift's machine learning models.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: Stream user activity to Sift's machine learning models.
   name: Sift Events API
   slug: sift-events-api
-- description: Legacy API for labeling users to train models.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: Legacy API for labeling users to train models.
   name: Sift Labels API
   slug: sift-labels-api
-- description: Manage sub-merchant profiles for payment service providers.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: Manage sub-merchant profiles for payment service providers.
   name: Sift PSP Merchant Management API
   slug: sift-psp-merchant-management-api
-- description: Retrieve real-time Sift Scores per abuse type.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: Retrieve real-time Sift Scores per abuse type.
   name: Sift Score API
   slug: sift-score-api
-- description: One-time passcode (OTP) step-up verification.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: One-time passcode (OTP) step-up verification.
   name: Sift Verification API
   slug: sift-verification-api
-- description: Retrieve the status and results of Sift Workflow runs.
+- baseURL: https://api.sift.com
+  baseurl_source: declared
+  description: Retrieve the status and results of Sift Workflow runs.
   name: Sift Workflows API
   slug: sift-workflows-api
 artifact_total: 22
@@ -168,7 +182,7 @@ score:
   band: thin
   composite: 37.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -197,8 +211,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sift/refs/heads/main/screenshots/sift-2026-09-02T155412.png
 security:
 - kind: authentication
   name: Sift Authentication

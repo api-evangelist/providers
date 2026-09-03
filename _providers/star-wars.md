@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Star Wars films
+- baseURL: https://swapi.info/api
+  baseurl_source: declared
+  description: Star Wars films
   name: Star Wars API Films API
   slug: star-wars-films-api
-- description: People and characters in the Star Wars universe
+- baseURL: https://swapi.info/api
+  baseurl_source: declared
+  description: People and characters in the Star Wars universe
   name: Star Wars API People API
   slug: star-wars-people-api
-- description: Planets in the Star Wars universe
+- baseURL: https://swapi.info/api
+  baseurl_source: declared
+  description: Planets in the Star Wars universe
   name: Star Wars API Planets API
   slug: star-wars-planets-api
-- description: Species in the Star Wars universe
+- baseURL: https://swapi.info/api
+  baseurl_source: declared
+  description: Species in the Star Wars universe
   name: Star Wars API Species API
   slug: star-wars-species-api
-- description: Starships in the Star Wars universe
+- baseURL: https://swapi.info/api
+  baseurl_source: declared
+  description: Starships in the Star Wars universe
   name: Star Wars API Starships API
   slug: star-wars-starships-api
-- description: Vehicles in the Star Wars universe
+- baseURL: https://swapi.info/api
+  baseurl_source: declared
+  description: Vehicles in the Star Wars universe
   name: Star Wars API Vehicles API
   slug: star-wars-vehicles-api
 artifact_total: 32
@@ -234,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/star-wars/refs/heads/main/screenshots/star-wars-2026-06-20T194509.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: Soil Data Access (SDA) is a USDA-NRCS web service that supports ad hoc query and real-time delivery of official soil survey data (SSURGO and STATSGO2) for any user-defined geographic area. The service
   name: NRCS Soil Data Access
   slug: soil-data-access-api
-- description: The Query API from Natural Resources Conservation Service — 1 operation(s) for query.
+- baseURL: https://sdmdataaccess.nrcs.usda.gov
+  baseurl_source: declared
+  description: The Query API from Natural Resources Conservation Service — 1 operation(s) for query.
   name: Natural Resources Conservation Service Query API
   slug: natural-resources-conservation-service-query-api
-- description: The SOAP API from Natural Resources Conservation Service — 1 operation(s) for soap.
+- baseURL: https://sdmdataaccess.nrcs.usda.gov
+  baseurl_source: declared
+  description: The SOAP API from Natural Resources Conservation Service — 1 operation(s) for soap.
   name: Natural Resources Conservation Service SOAP API
   slug: natural-resources-conservation-service-soap-api
-- description: The Spatial API from Natural Resources Conservation Service — 2 operation(s) for spatial.
+- baseURL: https://sdmdataaccess.nrcs.usda.gov
+  baseurl_source: declared
+  description: The Spatial API from Natural Resources Conservation Service — 2 operation(s) for spatial.
   name: Natural Resources Conservation Service Spatial API
   slug: natural-resources-conservation-service-spatial-api
 artifact_total: 14
@@ -159,7 +165,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-resources-conservation-service/refs/heads/main/screenshots/natural-resources-conservation-service-2026-06-20T190054.png
 security:

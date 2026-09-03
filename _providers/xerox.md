@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: Software development kit for integrating with the Xerox FreeFlow production printing platform. Includes interfaces for Prepress, Press, Variable Information (VIPP), and Photo modules enabling custom w
   name: Xerox FreeFlow SDK
   slug: xerox-freeflow-api
-- description: End-user license agreement management
+- baseURL: https://publicprintapi.services.xerox.com/api/v1
+  baseurl_source: declared
+  description: End-user license agreement management
   name: Xerox EULA API
   slug: xerox-eula-api
-- description: Print job creation, management, and history operations
+- baseURL: https://publicprintapi.services.xerox.com/api/v1
+  baseurl_source: declared
+  description: Print job creation, management, and history operations
   name: Xerox Jobs API
   slug: xerox-jobs-api
-- description: Provider type listing and management
+- baseURL: https://publicprintapi.services.xerox.com/api/v1
+  baseurl_source: declared
+  description: Provider type listing and management
   name: Xerox Provider Types API
   slug: xerox-provider-types-api
-- description: Provider management operations
+- baseURL: https://publicprintapi.services.xerox.com/api/v1
+  baseurl_source: declared
+  description: Provider management operations
   name: Xerox Providers API
   slug: xerox-providers-api
-- description: Site discovery and management for print locations
+- baseURL: https://publicprintapi.services.xerox.com/api/v1
+  baseurl_source: declared
+  description: Site discovery and management for print locations
   name: Xerox Sites API
   slug: xerox-sites-api
-- description: Health and status monitoring
+- baseURL: https://publicprintapi.services.xerox.com/api/v1
+  baseurl_source: declared
+  description: Health and status monitoring
   name: Xerox Status API
   slug: xerox-status-api
 artifact_total: 23
@@ -214,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 18 acting
 api_count: 1
 apis:
-- description: The Agent API from Langbase — 1 operation(s) for agent.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Agent API from Langbase — 1 operation(s) for agent.
   name: Langbase Agent API
   slug: langbase-agent-api
-- description: The Chunker API from Langbase — 1 operation(s) for chunker.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Chunker API from Langbase — 1 operation(s) for chunker.
   name: Langbase Chunker API
   slug: langbase-chunker-api
-- description: The Embed API from Langbase — 1 operation(s) for embed.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Embed API from Langbase — 1 operation(s) for embed.
   name: Langbase Embed API
   slug: langbase-embed-api
-- description: The Memory API from Langbase — 5 operation(s) for memory.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Memory API from Langbase — 5 operation(s) for memory.
   name: Langbase Memory API
   slug: langbase-memory-api
-- description: The Parser API from Langbase — 1 operation(s) for parser.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Parser API from Langbase — 1 operation(s) for parser.
   name: Langbase Parser API
   slug: langbase-parser-api
-- description: The Pipes API from Langbase — 3 operation(s) for pipes.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Pipes API from Langbase — 3 operation(s) for pipes.
   name: Langbase Pipes API
   slug: langbase-pipes-api
-- description: The Threads API from Langbase — 3 operation(s) for threads.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Threads API from Langbase — 3 operation(s) for threads.
   name: Langbase Threads API
   slug: langbase-threads-api
-- description: The Tools API from Langbase — 2 operation(s) for tools.
+- baseURL: https://api.langbase.com/v1
+  baseurl_source: declared
+  description: The Tools API from Langbase — 2 operation(s) for tools.
   name: Langbase Tools API
   slug: langbase-tools-api
 artifact_total: 25
@@ -201,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langbase/refs/heads/main/screenshots/langbase-2026-07-25T224526.png
 security:

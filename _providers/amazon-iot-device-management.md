@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -44,211 +44,349 @@ agentic_access:
   summary_line: 238 operations · 141 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accept Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for accept certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Accept Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for accept certificate transfer.
   name: Amazon IoT Device Management Accept Certificate Transfer API
   slug: amazon-iot-device-management-accept-certificate-transfer-api
-- description: The Active Violations API from Amazon IoT Device Management — 1 operation(s) for active violations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Active Violations API from Amazon IoT Device Management — 1 operation(s) for active violations.
   name: Amazon IoT Device Management Active Violations API
   slug: amazon-iot-device-management-active-violations-api
-- description: The Attached Policies API from Amazon IoT Device Management — 1 operation(s) for attached policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Attached Policies API from Amazon IoT Device Management — 1 operation(s) for attached policies.
   name: Amazon IoT Device Management Attached Policies API
   slug: amazon-iot-device-management-attached-policies-api
-- description: The Audit API from Amazon IoT Device Management — 19 operation(s) for audit.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Audit API from Amazon IoT Device Management — 19 operation(s) for audit.
   name: Amazon IoT Device Management Audit API
   slug: amazon-iot-device-management-audit-api
-- description: The Authorizer API from Amazon IoT Device Management — 2 operation(s) for authorizer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Authorizer API from Amazon IoT Device Management — 2 operation(s) for authorizer.
   name: Amazon IoT Device Management Authorizer API
   slug: amazon-iot-device-management-authorizer-api
-- description: The Authorizers API from Amazon IoT Device Management — 1 operation(s) for authorizers.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Authorizers API from Amazon IoT Device Management — 1 operation(s) for authorizers.
   name: Amazon IoT Device Management Authorizers API
   slug: amazon-iot-device-management-authorizers-api
-- description: The Behavior Model Training API from Amazon IoT Device Management — 1 operation(s) for behavior model training.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Behavior Model Training API from Amazon IoT Device Management — 1 operation(s) for behavior model training.
   name: Amazon IoT Device Management Behavior Model Training API
   slug: amazon-iot-device-management-behavior-model-training-api
-- description: The Billing Groups API from Amazon IoT Device Management — 5 operation(s) for billing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Billing Groups API from Amazon IoT Device Management — 5 operation(s) for billing groups.
   name: Amazon IoT Device Management Billing Groups API
   slug: amazon-iot-device-management-billing-groups-api
-- description: The Cacertificate API from Amazon IoT Device Management — 2 operation(s) for cacertificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cacertificate API from Amazon IoT Device Management — 2 operation(s) for cacertificate.
   name: Amazon IoT Device Management Cacertificate API
   slug: amazon-iot-device-management-cacertificate-api
-- description: The Cacertificates API from Amazon IoT Device Management — 1 operation(s) for cacertificates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cacertificates API from Amazon IoT Device Management — 1 operation(s) for cacertificates.
   name: Amazon IoT Device Management Cacertificates API
   slug: amazon-iot-device-management-cacertificates-api
-- description: The Cancel Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for cancel certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cancel Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for cancel certificate transfer.
   name: Amazon IoT Device Management Cancel Certificate Transfer API
   slug: amazon-iot-device-management-cancel-certificate-transfer-api
-- description: The Certificate API from Amazon IoT Device Management — 2 operation(s) for certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificate API from Amazon IoT Device Management — 2 operation(s) for certificate.
   name: Amazon IoT Device Management Certificate API
   slug: amazon-iot-device-management-certificate-api
-- description: The Certificates API from Amazon IoT Device Management — 3 operation(s) for certificates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates API from Amazon IoT Device Management — 3 operation(s) for certificates.
   name: Amazon IoT Device Management Certificates API
   slug: amazon-iot-device-management-certificates-api
-- description: The Certificates By Ca API from Amazon IoT Device Management — 1 operation(s) for certificates by ca.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates By Ca API from Amazon IoT Device Management — 1 operation(s) for certificates by ca.
   name: Amazon IoT Device Management Certificates By Ca API
   slug: amazon-iot-device-management-certificates-by-ca-api
-- description: The Certificates Out Going API from Amazon IoT Device Management — 1 operation(s) for certificates out going.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates Out Going API from Amazon IoT Device Management — 1 operation(s) for certificates out going.
   name: Amazon IoT Device Management Certificates Out Going API
   slug: amazon-iot-device-management-certificates-out-going-api
-- description: The Confirmdestination API from Amazon IoT Device Management — 1 operation(s) for confirmdestination.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Confirmdestination API from Amazon IoT Device Management — 1 operation(s) for confirmdestination.
   name: Amazon IoT Device Management Confirmdestination API
   slug: amazon-iot-device-management-confirmdestination-api
-- description: The Custom Metric API from Amazon IoT Device Management — 1 operation(s) for custom metric.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Metric API from Amazon IoT Device Management — 1 operation(s) for custom metric.
   name: Amazon IoT Device Management Custom Metric API
   slug: amazon-iot-device-management-custom-metric-api
-- description: The Custom Metrics API from Amazon IoT Device Management — 1 operation(s) for custom metrics.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Metrics API from Amazon IoT Device Management — 1 operation(s) for custom metrics.
   name: Amazon IoT Device Management Custom Metrics API
   slug: amazon-iot-device-management-custom-metrics-api
-- description: The Default Authorizer API from Amazon IoT Device Management — 1 operation(s) for default authorizer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Default Authorizer API from Amazon IoT Device Management — 1 operation(s) for default authorizer.
   name: Amazon IoT Device Management Default Authorizer API
   slug: amazon-iot-device-management-default-authorizer-api
-- description: The Destinations API from Amazon IoT Device Management — 2 operation(s) for destinations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Destinations API from Amazon IoT Device Management — 2 operation(s) for destinations.
   name: Amazon IoT Device Management Destinations API
   slug: amazon-iot-device-management-destinations-api
-- description: The Detect API from Amazon IoT Device Management — 4 operation(s) for detect.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Detect API from Amazon IoT Device Management — 4 operation(s) for detect.
   name: Amazon IoT Device Management Detect API
   slug: amazon-iot-device-management-detect-api
-- description: The Dimensions API from Amazon IoT Device Management — 2 operation(s) for dimensions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Dimensions API from Amazon IoT Device Management — 2 operation(s) for dimensions.
   name: Amazon IoT Device Management Dimensions API
   slug: amazon-iot-device-management-dimensions-api
-- description: The DomainConfigurations API from Amazon IoT Device Management — 2 operation(s) for domainconfigurations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The DomainConfigurations API from Amazon IoT Device Management — 2 operation(s) for domainconfigurations.
   name: Amazon IoT Device Management DomainConfigurations API
   slug: amazon-iot-device-management-domainconfigurations-api
-- description: The Dynamic Thing Groups API from Amazon IoT Device Management — 1 operation(s) for dynamic thing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamic Thing Groups API from Amazon IoT Device Management — 1 operation(s) for dynamic thing groups.
   name: Amazon IoT Device Management Dynamic Thing Groups API
   slug: amazon-iot-device-management-dynamic-thing-groups-api
-- description: The Effective Policies API from Amazon IoT Device Management — 1 operation(s) for effective policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Effective Policies API from Amazon IoT Device Management — 1 operation(s) for effective policies.
   name: Amazon IoT Device Management Effective Policies API
   slug: amazon-iot-device-management-effective-policies-api
-- description: The Endpoint API from Amazon IoT Device Management — 1 operation(s) for endpoint.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Endpoint API from Amazon IoT Device Management — 1 operation(s) for endpoint.
   name: Amazon IoT Device Management Endpoint API
   slug: amazon-iot-device-management-endpoint-api
-- description: The Event Configurations API from Amazon IoT Device Management — 1 operation(s) for event configurations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Event Configurations API from Amazon IoT Device Management — 1 operation(s) for event configurations.
   name: Amazon IoT Device Management Event Configurations API
   slug: amazon-iot-device-management-event-configurations-api
-- description: The Fleet Metric API from Amazon IoT Device Management — 1 operation(s) for fleet metric.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Fleet Metric API from Amazon IoT Device Management — 1 operation(s) for fleet metric.
   name: Amazon IoT Device Management Fleet Metric API
   slug: amazon-iot-device-management-fleet-metric-api
-- description: The Fleet Metrics API from Amazon IoT Device Management — 1 operation(s) for fleet metrics.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Fleet Metrics API from Amazon IoT Device Management — 1 operation(s) for fleet metrics.
   name: Amazon IoT Device Management Fleet Metrics API
   slug: amazon-iot-device-management-fleet-metrics-api
-- description: The Indexing API from Amazon IoT Device Management — 1 operation(s) for indexing.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Indexing API from Amazon IoT Device Management — 1 operation(s) for indexing.
   name: Amazon IoT Device Management Indexing API
   slug: amazon-iot-device-management-indexing-api
-- description: The Indices API from Amazon IoT Device Management — 7 operation(s) for indices.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Indices API from Amazon IoT Device Management — 7 operation(s) for indices.
   name: Amazon IoT Device Management Indices API
   slug: amazon-iot-device-management-indices-api
-- description: The Job Templates API from Amazon IoT Device Management — 2 operation(s) for job templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Job Templates API from Amazon IoT Device Management — 2 operation(s) for job templates.
   name: Amazon IoT Device Management Job Templates API
   slug: amazon-iot-device-management-job-templates-api
-- description: The Jobs API from Amazon IoT Device Management — 6 operation(s) for jobs.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon IoT Device Management — 6 operation(s) for jobs.
   name: Amazon IoT Device Management Jobs API
   slug: amazon-iot-device-management-jobs-api
-- description: The Keys And Certificate API from Amazon IoT Device Management — 1 operation(s) for keys and certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Keys And Certificate API from Amazon IoT Device Management — 1 operation(s) for keys and certificate.
   name: Amazon IoT Device Management Keys And Certificate API
   slug: amazon-iot-device-management-keys-and-certificate-api
-- description: The LoggingOptions API from Amazon IoT Device Management — 1 operation(s) for loggingoptions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The LoggingOptions API from Amazon IoT Device Management — 1 operation(s) for loggingoptions.
   name: Amazon IoT Device Management LoggingOptions API
   slug: amazon-iot-device-management-loggingoptions-api
-- description: The Managed Job Templates API from Amazon IoT Device Management — 2 operation(s) for managed job templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Job Templates API from Amazon IoT Device Management — 2 operation(s) for managed job templates.
   name: Amazon IoT Device Management Managed Job Templates API
   slug: amazon-iot-device-management-managed-job-templates-api
-- description: The Metric Values#thingName&metricName&startTime&endTime API from Amazon IoT Device Management — 1 operation(s) for metric values#thingname&metricname&starttime&endtime.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Metric Values#thingName&metricName&startTime&endTime API from Amazon IoT Device Management — 1 operation(s) for metric values#thingname&metricname&starttime&endtime.
   name: Amazon IoT Device Management Metric Values#thingName&metricName&startTime&endTime API
   slug: amazon-iot-device-management-metric-values-thingname-metricname-starttime-endtime-api
-- description: The Mitigationactions API from Amazon IoT Device Management — 2 operation(s) for mitigationactions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Mitigationactions API from Amazon IoT Device Management — 2 operation(s) for mitigationactions.
   name: Amazon IoT Device Management Mitigationactions API
   slug: amazon-iot-device-management-mitigationactions-api
-- description: The OtaUpdates API from Amazon IoT Device Management — 2 operation(s) for otaupdates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The OtaUpdates API from Amazon IoT Device Management — 2 operation(s) for otaupdates.
   name: Amazon IoT Device Management OtaUpdates API
   slug: amazon-iot-device-management-otaupdates-api
-- description: The Policies API from Amazon IoT Device Management — 4 operation(s) for policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policies API from Amazon IoT Device Management — 4 operation(s) for policies.
   name: Amazon IoT Device Management Policies API
   slug: amazon-iot-device-management-policies-api
-- description: The Policy Principals#x Amzn Iot Policy API from Amazon IoT Device Management — 1 operation(s) for policy principals#x amzn iot policy.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policy Principals#x Amzn Iot Policy API from Amazon IoT Device Management — 1 operation(s) for policy principals#x amzn iot policy.
   name: Amazon IoT Device Management Policy Principals#x Amzn Iot Policy API
   slug: amazon-iot-device-management-policy-principals-x-amzn-iot-policy-api
-- description: The Policy Targets API from Amazon IoT Device Management — 1 operation(s) for policy targets.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policy Targets API from Amazon IoT Device Management — 1 operation(s) for policy targets.
   name: Amazon IoT Device Management Policy Targets API
   slug: amazon-iot-device-management-policy-targets-api
-- description: The Principal Policies API from Amazon IoT Device Management — 1 operation(s) for principal policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principal Policies API from Amazon IoT Device Management — 1 operation(s) for principal policies.
   name: Amazon IoT Device Management Principal Policies API
   slug: amazon-iot-device-management-principal-policies-api
-- description: The Principal Policies#x Amzn Iot Principal API from Amazon IoT Device Management — 1 operation(s) for principal policies#x amzn iot principal.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principal Policies#x Amzn Iot Principal API from Amazon IoT Device Management — 1 operation(s) for principal policies#x amzn iot principal.
   name: Amazon IoT Device Management Principal Policies#x Amzn Iot Principal API
   slug: amazon-iot-device-management-principal-policies-x-amzn-iot-principal-api
-- description: The Principals API from Amazon IoT Device Management — 1 operation(s) for principals.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principals API from Amazon IoT Device Management — 1 operation(s) for principals.
   name: Amazon IoT Device Management Principals API
   slug: amazon-iot-device-management-principals-api
-- description: The Provisioning Templates API from Amazon IoT Device Management — 5 operation(s) for provisioning templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Provisioning Templates API from Amazon IoT Device Management — 5 operation(s) for provisioning templates.
   name: Amazon IoT Device Management Provisioning Templates API
   slug: amazon-iot-device-management-provisioning-templates-api
-- description: The Registrationcode API from Amazon IoT Device Management — 1 operation(s) for registrationcode.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Registrationcode API from Amazon IoT Device Management — 1 operation(s) for registrationcode.
   name: Amazon IoT Device Management Registrationcode API
   slug: amazon-iot-device-management-registrationcode-api
-- description: The Reject Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for reject certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Reject Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for reject certificate transfer.
   name: Amazon IoT Device Management Reject Certificate Transfer API
   slug: amazon-iot-device-management-reject-certificate-transfer-api
-- description: The Role Aliases API from Amazon IoT Device Management — 2 operation(s) for role aliases.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Role Aliases API from Amazon IoT Device Management — 2 operation(s) for role aliases.
   name: Amazon IoT Device Management Role Aliases API
   slug: amazon-iot-device-management-role-aliases-api
-- description: The Rules API from Amazon IoT Device Management — 4 operation(s) for rules.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Rules API from Amazon IoT Device Management — 4 operation(s) for rules.
   name: Amazon IoT Device Management Rules API
   slug: amazon-iot-device-management-rules-api
-- description: The Security Profile Behaviors API from Amazon IoT Device Management — 1 operation(s) for security profile behaviors.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profile Behaviors API from Amazon IoT Device Management — 1 operation(s) for security profile behaviors.
   name: Amazon IoT Device Management Security Profile Behaviors API
   slug: amazon-iot-device-management-security-profile-behaviors-api
-- description: The Security Profiles API from Amazon IoT Device Management — 4 operation(s) for security profiles.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profiles API from Amazon IoT Device Management — 4 operation(s) for security profiles.
   name: Amazon IoT Device Management Security Profiles API
   slug: amazon-iot-device-management-security-profiles-api
-- description: The Security Profiles For Target#securityProfileTargetArn API from Amazon IoT Device Management — 1 operation(s) for security profiles for target#securityprofiletargetarn.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profiles For Target#securityProfileTargetArn API from Amazon IoT Device Management — 1 operation(s) for security profiles for target#securityprofiletargetarn.
   name: Amazon IoT Device Management Security Profiles For Target#securityProfileTargetArn API
   slug: amazon-iot-device-management-security-profiles-for-target-securityprofiletargetarn-api
-- description: The Streams API from Amazon IoT Device Management — 2 operation(s) for streams.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Streams API from Amazon IoT Device Management — 2 operation(s) for streams.
   name: Amazon IoT Device Management Streams API
   slug: amazon-iot-device-management-streams-api
-- description: The Tags API from Amazon IoT Device Management — 1 operation(s) for tags.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon IoT Device Management — 1 operation(s) for tags.
   name: Amazon IoT Device Management Tags API
   slug: amazon-iot-device-management-tags-api
-- description: The Tags#resourceArn API from Amazon IoT Device Management — 1 operation(s) for tags#resourcearn.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon IoT Device Management — 1 operation(s) for tags#resourcearn.
   name: Amazon IoT Device Management Tags#resourceArn API
   slug: amazon-iot-device-management-tags-resourcearn-api
-- description: The Target Policies API from Amazon IoT Device Management — 1 operation(s) for target policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Target Policies API from Amazon IoT Device Management — 1 operation(s) for target policies.
   name: Amazon IoT Device Management Target Policies API
   slug: amazon-iot-device-management-target-policies-api
-- description: The Test Authorization API from Amazon IoT Device Management — 1 operation(s) for test authorization.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Test Authorization API from Amazon IoT Device Management — 1 operation(s) for test authorization.
   name: Amazon IoT Device Management Test Authorization API
   slug: amazon-iot-device-management-test-authorization-api
-- description: The Thing Groups API from Amazon IoT Device Management — 6 operation(s) for thing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Groups API from Amazon IoT Device Management — 6 operation(s) for thing groups.
   name: Amazon IoT Device Management Thing Groups API
   slug: amazon-iot-device-management-thing-groups-api
-- description: The Thing Registration Tasks API from Amazon IoT Device Management — 4 operation(s) for thing registration tasks.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Registration Tasks API from Amazon IoT Device Management — 4 operation(s) for thing registration tasks.
   name: Amazon IoT Device Management Thing Registration Tasks API
   slug: amazon-iot-device-management-thing-registration-tasks-api
-- description: The Thing Types API from Amazon IoT Device Management — 3 operation(s) for thing types.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Types API from Amazon IoT Device Management — 3 operation(s) for thing types.
   name: Amazon IoT Device Management Thing Types API
   slug: amazon-iot-device-management-thing-types-api
-- description: The Things API from Amazon IoT Device Management — 9 operation(s) for things.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Things API from Amazon IoT Device Management — 9 operation(s) for things.
   name: Amazon IoT Device Management Things API
   slug: amazon-iot-device-management-things-api
-- description: The Transfer Certificate API from Amazon IoT Device Management — 1 operation(s) for transfer certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Transfer Certificate API from Amazon IoT Device Management — 1 operation(s) for transfer certificate.
   name: Amazon IoT Device Management Transfer Certificate API
   slug: amazon-iot-device-management-transfer-certificate-api
-- description: The Untag API from Amazon IoT Device Management — 1 operation(s) for untag.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Untag API from Amazon IoT Device Management — 1 operation(s) for untag.
   name: Amazon IoT Device Management Untag API
   slug: amazon-iot-device-management-untag-api
-- description: The V2LoggingLevel API from Amazon IoT Device Management — 1 operation(s) for v2logginglevel.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingLevel API from Amazon IoT Device Management — 1 operation(s) for v2logginglevel.
   name: Amazon IoT Device Management V2LoggingLevel API
   slug: amazon-iot-device-management-v2logginglevel-api
-- description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Device Management — 1 operation(s) for v2logginglevel#targettype&targetname.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Device Management — 1 operation(s) for v2logginglevel#targettype&targetname.
   name: Amazon IoT Device Management V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-device-management-v2logginglevel-targettype-targetname-api
-- description: The V2LoggingOptions API from Amazon IoT Device Management — 1 operation(s) for v2loggingoptions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingOptions API from Amazon IoT Device Management — 1 operation(s) for v2loggingoptions.
   name: Amazon IoT Device Management V2LoggingOptions API
   slug: amazon-iot-device-management-v2loggingoptions-api
-- description: The Violation Events#startTime&endTime API from Amazon IoT Device Management — 1 operation(s) for violation events#starttime&endtime.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Violation Events#startTime&endTime API from Amazon IoT Device Management — 1 operation(s) for violation events#starttime&endtime.
   name: Amazon IoT Device Management Violation Events#startTime&endTime API
   slug: amazon-iot-device-management-violation-events-starttime-endtime-api
-- description: The Violations API from Amazon IoT Device Management — 1 operation(s) for violations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Violations API from Amazon IoT Device Management — 1 operation(s) for violations.
   name: Amazon IoT Device Management Violations API
   slug: amazon-iot-device-management-violations-api
 artifact_total: 825
@@ -2654,7 +2792,7 @@ score:
       marker_coverage: 0.0
       total: 69
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/screenshots/amazon-iot-device-management-2026-06-20T171712.png
 security:

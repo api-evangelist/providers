@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -51,172 +51,284 @@ apis:
 - description: API for syncing audience segment data through server-to-server data distribution, supporting UUID-to-segment mappings, SFTP file transfer, and processing log access with Basic Authentication.
   name: MediaMath Server-to-Server Data Distribution API
   slug: mediamath-server-to-server-data-distribution-api
-- description: Ad Servers
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Ad Servers
   name: MediaMath Ad Servers API
   slug: mediamath-ad-servers-api
-- description: Advertisers
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Advertisers
   name: MediaMath Advertisers API
   slug: mediamath-advertisers-api
-- description: Agencies
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Agencies
   name: MediaMath Agencies API
   slug: mediamath-agencies-api
-- description: Atomic Creatives
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Atomic Creatives
   name: MediaMath Atomic Creatives API
   slug: mediamath-atomic-creatives-api
-- description: Audience Vendors
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Audience Vendors
   name: MediaMath Audience Vendors API
   slug: mediamath-audience-vendors-api
-- description: Campaign Plans
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Campaign Plans
   name: MediaMath Campaign Plans API
   slug: mediamath-campaign-plans-api
-- description: Campaigns
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Campaigns
   name: MediaMath Campaigns API
   slug: mediamath-campaigns-api
-- description: Campaigns Budget Flights
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Campaigns Budget Flights
   name: MediaMath Campaigns Budget Flights API
   slug: mediamath-campaigns-budget-flights-api
-- description: Concepts
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Concepts
   name: MediaMath Concepts API
   slug: mediamath-concepts-api
-- description: Contracts
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Contracts
   name: MediaMath Contracts API
   slug: mediamath-contracts-api
-- description: Creatives
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Creatives
   name: MediaMath Creatives API
   slug: mediamath-creatives-api
-- description: Currency Rates
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Currency Rates
   name: MediaMath Currency Rates API
   slug: mediamath-currency-rates-api
-- description: The Datasets API from MediaMath — 10 operation(s) for datasets.
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: The Datasets API from MediaMath — 10 operation(s) for datasets.
   name: MediaMath Datasets API
   slug: mediamath-datasets-api
-- description: Enterprise Controls
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Enterprise Controls
   name: MediaMath Enterprise Controls API
   slug: mediamath-enterprise-controls-api
-- description: General
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: General
   name: MediaMath General API
   slug: mediamath-general-api
-- description: Marketplaces
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Marketplaces
   name: MediaMath Marketplaces API
   slug: mediamath-marketplaces-api
-- description: The New Strategy Groups API from MediaMath — 3 operation(s) for new strategy groups.
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: The New Strategy Groups API from MediaMath — 3 operation(s) for new strategy groups.
   name: MediaMath New Strategy Groups API
   slug: mediamath-new-strategy-groups-api
-- description: New Strategy Plans
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: New Strategy Plans
   name: MediaMath New Strategy Plans API
   slug: mediamath-new-strategy-plans-api
-- description: Organizations
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Organizations
   name: MediaMath Organizations API
   slug: mediamath-organizations-api
-- description: Pixel Bundles
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Pixel Bundles
   name: MediaMath Pixel Bundles API
   slug: mediamath-pixel-bundles-api
-- description: Pixel Providers
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Pixel Providers
   name: MediaMath Pixel Providers API
   slug: mediamath-pixel-providers-api
-- description: Segment Groups
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Segment Groups
   name: MediaMath Segment Groups API
   slug: mediamath-segment-groups-api
-- description: Site Lists
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Site Lists
   name: MediaMath Site Lists API
   slug: mediamath-site-lists-api
-- description: Strategies
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Strategies
   name: MediaMath Strategies API
   slug: mediamath-strategies-api
-- description: Strategy Parameters
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Strategy Parameters
   name: MediaMath Strategy Parameters API
   slug: mediamath-strategy-parameters-api
-- description: Strategy Templates
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Strategy Templates
   name: MediaMath Strategy Templates API
   slug: mediamath-strategy-templates-api
-- description: Supply Sources
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Supply Sources
   name: MediaMath Supply Sources API
   slug: mediamath-supply-sources-api
-- description: Targeting
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Targeting
   name: MediaMath Targeting API
   slug: mediamath-targeting-api
-- description: TargetingAttachments
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: TargetingAttachments
   name: MediaMath Targeting Attachments API
   slug: mediamath-targeting-attachments-api
-- description: Targeting Segment Objectives
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Targeting Segment Objectives
   name: MediaMath Targeting Segment Objectives API
   slug: mediamath-targeting-segment-objectives-api
-- description: Targeting Segments
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Targeting Segments
   name: MediaMath Targeting Segments API
   slug: mediamath-targeting-segments-api
-- description: Timezones
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Timezones
   name: MediaMath Timezones API
   slug: mediamath-timezones-api
-- description: User Permissions
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: User Permissions
   name: MediaMath User Permissions API
   slug: mediamath-user-permissions-api
-- description: Users
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Users
   name: MediaMath Users API
   slug: mediamath-users-api
-- description: Vendor Contracts
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Vendor Contracts
   name: MediaMath Vendor Contracts API
   slug: mediamath-vendor-contracts-api
-- description: Vendors
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Vendors
   name: MediaMath Vendors API
   slug: mediamath-vendors-api
-- description: Verticals
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Verticals
   name: MediaMath Verticals API
   slug: mediamath-verticals-api
-- description: Component Creatives API (v3.0) for building and managing modular, component-based creatives in the MediaMath Platform — assembling creative components into dynamic ad units, managing component metadat
+- baseURL: https://api.mediamath.com
+  baseurl_source: declared
+  description: Component Creatives API (v3.0) for building and managing modular, component-based creatives in the MediaMath Platform — assembling creative components into dynamic ad units, managing component metadat
   name: MediaMath Component Creatives API
   slug: mediamath-component-creatives-api
-- description: v3.0 creative approval status endpoints.
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: v3.0 creative approval status endpoints.
   name: MediaMath Approvals API
   slug: mediamath-approvals-api
-- description: BYOA (Bring Your Own Algorithm) allows advertisers to apply their own bidding algorithms within MediaMath. The participating campaigns and strategies are configured with the BYOA Campaign Settings
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: BYOA (Bring Your Own Algorithm) allows advertisers to apply their own bidding algorithms within MediaMath. The participating campaigns and strategies are configured with the BYOA Campaign Settings
   name: MediaMath Campaign Settings API
   slug: mediamath-campaign-settings-api
-- description: '{% admonition type="danger" name="This API is deprecated and will be removed in July 2026" %} Please migrate to the **Classification API v3.0** documented below. {% /admonition %} {% admonition type="'
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: '{% admonition type="danger" name="This API is deprecated and will be removed in July 2026" %} Please migrate to the **Classification API v3.0** documented below. {% /admonition %} {% admonition type="'
   name: MediaMath Classification (V1.0 - Deprecated) API
   slug: mediamath-classification-v1-0-deprecated-api
-- description: V3.0 creative classification endpoints. Uses Bearer (JWT) authentication.
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: V3.0 creative classification endpoints. Uses Bearer (JWT) authentication.
   name: MediaMath Classification (V3) API
   slug: mediamath-classification-v3-api
-- description: v3.0 component definition endpoints.
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: v3.0 component definition endpoints.
   name: MediaMath Components API
   slug: mediamath-components-api
-- description: _
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: _
   name: MediaMath Consumer Management API
   slug: mediamath-consumer-management-api
-- description: v3.0 component (native) creative endpoints.
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: v3.0 component (native) creative endpoints.
   name: MediaMath Creatives - Native API
   slug: mediamath-creatives-native-api
-- description: Custom Bid Router further extends the BYOA architecture allowing advertisers to apply their own bidding algorithms in their own ecosystem. The MediaMath system will invoke an external call to the clie
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: Custom Bid Router further extends the BYOA architecture allowing advertisers to apply their own bidding algorithms in their own ecosystem. The MediaMath system will invoke an external call to the clie
   name: MediaMath Custom Bid Router API
   slug: mediamath-custom-bid-router-api
-- description: In Customized Brain, the client uses the BYOA API to upload a set of logistic coefficients corresponding to any of the variables currently in use by the MediaMath Brain. These coefficients will then b
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: In Customized Brain, the client uses the BYOA API to upload a set of logistic coefficients corresponding to any of the variables currently in use by the MediaMath Brain. These coefficients will then b
   name: MediaMath Custom Brain API
   slug: mediamath-custom-brain-api
-- description: _
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: _
   name: MediaMath Data Retrieval API
   slug: mediamath-data-retrieval-api
-- description: V3.0 IAB data endpoints. A single pair of endpoints serves all categories (`iab_verticals`, `iab_attributes`, `language`). Uses Bearer (JWT) authentication.
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: V3.0 IAB data endpoints. A single pair of endpoints serves all categories (`iab_verticals`, `iab_attributes`, `language`). Uses Bearer (JWT) authentication.
   name: MediaMath IAB Data (V3) API
   slug: mediamath-iab-data-v3-api
-- description: '{% admonition type="danger" name="This API is deprecated and will be removed in July 2026" %} Please migrate to the **IAB Data API v3.0** (`GET /v3.0/static_data/{category}`) documented below. {% /adm'
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: '{% admonition type="danger" name="This API is deprecated and will be removed in July 2026" %} Please migrate to the **IAB Data API v3.0** (`GET /v3.0/static_data/{category}`) documented below. {% /adm'
   name: MediaMath IAB (V1.0 - Deprecated) API
   slug: mediamath-iab-v1-0-deprecated-api
-- description: _
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: _
   name: MediaMath Metadata API
   slug: mediamath-metadata-api
-- description: _
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: _
   name: MediaMath Permission Taxonomies API
   slug: mediamath-permission-taxonomies-api
-- description: Private Marketplace Direct (PMP-E)
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: Private Marketplace Direct (PMP-E)
   name: MediaMath Private Marketplace Exchange (PMP-E) API
   slug: mediamath-private-marketplace-exchange-pmp-e-api
-- description: _
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: _
   name: MediaMath Reports API
   slug: mediamath-reports-api
-- description: V2.0 video creative endpoints (legacy)
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: V2.0 video creative endpoints (legacy)
   name: MediaMath Video Creative Management (V2) API
   slug: mediamath-video-creative-management-v2-api
-- description: V3.0 video creative management endpoints
+- baseURL: https://api.mediamath.com/deals/v1.0
+  baseurl_source: declared
+  description: V3.0 video creative management endpoints
   name: MediaMath Video Creative Management (V3) API
   slug: mediamath-video-creative-management-v3-api
 artifact_total: 436
@@ -1574,7 +1686,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -1584,7 +1696,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 60.5
-  previous_composite: 60.5
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1596,7 +1708,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:

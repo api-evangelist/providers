@@ -33,52 +33,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Customer Links API from Imprint — 1 operation(s) for customer links.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Customer Links API from Imprint — 1 operation(s) for customer links.
   name: Imprint Customer Links API
   slug: imprint-customer-links-api
-- description: The Customer Sessions API from Imprint — 2 operation(s) for customer sessions.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Customer Sessions API from Imprint — 2 operation(s) for customer sessions.
   name: Imprint Customer Sessions API
   slug: imprint-customer-sessions-api
-- description: The Customers API from Imprint — 7 operation(s) for customers.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Customers API from Imprint — 7 operation(s) for customers.
   name: Imprint Customers API
   slug: imprint-customers-api
-- description: The Keys API from Imprint — 1 operation(s) for keys.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Keys API from Imprint — 1 operation(s) for keys.
   name: Imprint Keys API
   slug: imprint-keys-api
-- description: The Offers API from Imprint — 1 operation(s) for offers.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Offers API from Imprint — 1 operation(s) for offers.
   name: Imprint Offers API
   slug: imprint-offers-api
-- description: The Order Events API from Imprint — 2 operation(s) for order events.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Order Events API from Imprint — 2 operation(s) for order events.
   name: Imprint Order Events API
   slug: imprint-order-events-api
-- description: The Orders API from Imprint — 2 operation(s) for orders.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Orders API from Imprint — 2 operation(s) for orders.
   name: Imprint Orders API
   slug: imprint-orders-api
-- description: The Payment Methods API from Imprint — 2 operation(s) for payment methods.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Payment Methods API from Imprint — 2 operation(s) for payment methods.
   name: Imprint Payment Methods API
   slug: imprint-payment-methods-api
-- description: The Rewards API from Imprint — 2 operation(s) for rewards.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Rewards API from Imprint — 2 operation(s) for rewards.
   name: Imprint Rewards API
   slug: imprint-rewards-api
-- description: The Simulate Reward API from Imprint — 1 operation(s) for simulate reward.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Simulate Reward API from Imprint — 1 operation(s) for simulate reward.
   name: Imprint Simulate Reward API
   slug: imprint-simulate-reward-api
-- description: The Simulate Statement Reward API from Imprint — 1 operation(s) for simulate statement reward.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Simulate Statement Reward API from Imprint — 1 operation(s) for simulate statement reward.
   name: Imprint Simulate Statement Reward API
   slug: imprint-simulate-statement-reward-api
-- description: The Simulate Transaction Event API from Imprint — 1 operation(s) for simulate transaction event.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Simulate Transaction Event API from Imprint — 1 operation(s) for simulate transaction event.
   name: Imprint Simulate Transaction Event API
   slug: imprint-simulate-transaction-event-api
-- description: The Transaction Intents API from Imprint — 2 operation(s) for transaction intents.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Transaction Intents API from Imprint — 2 operation(s) for transaction intents.
   name: Imprint Transaction Intents API
   slug: imprint-transaction-intents-api
-- description: The Transactions API from Imprint — 1 operation(s) for transactions.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Transactions API from Imprint — 1 operation(s) for transactions.
   name: Imprint Transactions API
   slug: imprint-transactions-api
-- description: The Webhooks API from Imprint — 0 operation(s) for webhooks.
+- baseURL: https://dev.imprint.co
+  baseurl_source: declared
+  description: The Webhooks API from Imprint — 0 operation(s) for webhooks.
   name: Imprint Webhooks API
   slug: imprint-webhooks-api
 artifact_total: 35
@@ -285,7 +315,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -295,7 +325,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 50.6
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -312,7 +342,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:

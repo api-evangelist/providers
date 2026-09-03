@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 25 operations · 16 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Notebook and file contents.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Notebook and file contents.
   name: Jupyter Notebooks Contents API
   slug: jupyter-notebooks-contents-api
-- description: Running kernels.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Running kernels.
   name: Jupyter Notebooks Kernels API
   slug: jupyter-notebooks-kernels-api
-- description: Available kernel specs.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Available kernel specs.
   name: Jupyter Notebooks KernelSpecs API
   slug: jupyter-notebooks-kernelspecs-api
-- description: Notebook sessions.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Notebook sessions.
   name: Jupyter Notebooks Sessions API
   slug: jupyter-notebooks-sessions-api
-- description: Terminal sessions.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Terminal sessions.
   name: Jupyter Notebooks Terminals API
   slug: jupyter-notebooks-terminals-api
 artifact_total: 22
@@ -203,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/screenshots/jupyter-notebooks-2026-06-20T183840.png
 security:

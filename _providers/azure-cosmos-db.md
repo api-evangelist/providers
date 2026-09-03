@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,31 +49,49 @@ apis:
 - description: Azure Resource Manager REST API for managing Cosmos DB accounts, databases, containers, throughput, backups, and role-based access at the control-plane level. Authentication uses Microsoft Entra ID OA
   name: Azure Cosmos DB Resource Provider API
   slug: resource-provider-api
-- description: Document collections (containers)
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Document collections (containers)
   name: Azure Cosmos DB Collections API
   slug: azure-cosmos-db-collections-api
-- description: Database resources
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Database resources
   name: Azure Cosmos DB Databases API
   slug: azure-cosmos-db-databases-api
-- description: Document items
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Document items
   name: Azure Cosmos DB Documents API
   slug: azure-cosmos-db-documents-api
-- description: Throughput offers
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Throughput offers
   name: Azure Cosmos DB Offers API
   slug: azure-cosmos-db-offers-api
-- description: Permissions
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Permissions
   name: Azure Cosmos DB Permissions API
   slug: azure-cosmos-db-permissions-api
-- description: Stored procedures
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Stored procedures
   name: Azure Cosmos DB Stored Procedures API
   slug: azure-cosmos-db-stored-procedures-api
-- description: Triggers
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Triggers
   name: Azure Cosmos DB Triggers API
   slug: azure-cosmos-db-triggers-api
-- description: UDFs
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: UDFs
   name: Azure Cosmos DB User Defined Functions API
   slug: azure-cosmos-db-user-defined-functions-api
-- description: Users
+- baseURL: https://{databaseaccount}.documents.azure.com
+  baseurl_source: declared
+  description: Users
   name: Azure Cosmos DB Users API
   slug: azure-cosmos-db-users-api
 artifact_total: 27
@@ -205,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/screenshots/azure-cosmos-db-2026-06-20T172847.png
 security:

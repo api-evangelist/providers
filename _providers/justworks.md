@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 27 operations · 9 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Read employee, contractor, and member information from the Justworks Partner API. Provides access to member profiles, employment history, pay history, custom-field values, and U.S. tax identifiers (SS
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read employee, contractor, and member information from the Justworks Partner API. Provides access to member profiles, employment history, pay history, custom-field values, and U.S. tax identifiers (SS
   name: Justworks Members API
   slug: justworks-members-api
-- description: Read company-level data from the Justworks Partner API including company identity, departments, offices, bank account on file (masked), verified business information, custom-field definitions, and the
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read company-level data from the Justworks Partner API including company identity, departments, offices, bank account on file (masked), verified business information, custom-field definitions, and the
   name: Justworks Company API
   slug: justworks-company-api
-- description: Manage employee deductions — list deduction types, create one-time and recurring deductions, update existing deductions, and cancel deductions in bulk. The primary write surface of the Justworks Partn
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Manage employee deductions — list deduction types, create one-time and recurring deductions, update existing deductions, and cancel deductions in bulk. The primary write surface of the Justworks Partn
   name: Justworks Deductions API
   slug: justworks-deductions-api
-- description: 'Manage Justworks Partner API webhooks. Justworks signs every request, delivers events at-least-once with automatic retries, and closes a webhook on sustained failures (resumable via API). Event types '
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: 'Manage Justworks Partner API webhooks. Justworks signs every request, delivers events at-least-once with automatic retries, and closes a webhook on sustained failures (resumable via API). Event types '
   name: Justworks Webhooks API
   slug: justworks-webhooks-api
-- description: OAuth 2.0 token endpoints for the Justworks Partner API. Authorization code is the only supported grant for initial token acquisition; refresh token grant is supported for renewal. Access tokens are v
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: OAuth 2.0 token endpoints for the Justworks Partner API. Authorization code is the only supported grant for initial token acquisition; refresh token grant is supported for renewal. Access tokens are v
   name: Justworks OAuth API
   slug: justworks-oauth-api
-- description: Read access to Justworks deduction type catalog
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read access to Justworks deduction type catalog
   name: Justworks Deduction Types API
   slug: justworks-deduction-types-api
-- description: Read access to payroll runs and per-payroll fees
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read access to payroll runs and per-payroll fees
   name: Justworks Payrolls API
   slug: justworks-payrolls-api
-- description: Read access to per-member paystubs
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read access to per-member paystubs
   name: Justworks Paystubs API
   slug: justworks-paystubs-api
-- description: Asynchronous balance reports for time-off policies
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Asynchronous balance reports for time-off policies
   name: Justworks Time Off Balances API
   slug: justworks-time-off-balances-api
-- description: Read access to time-off policy catalog
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read access to time-off policy catalog
   name: Justworks Time Off Policies API
   slug: justworks-time-off-policies-api
-- description: Read access to time-off requests submitted by members
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: Read access to time-off requests submitted by members
   name: Justworks Time Off Requests API
   slug: justworks-time-off-requests-api
 artifact_total: 59
@@ -338,7 +360,7 @@ score:
     regime_id: insurance
     score: 64.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/screenshots/justworks-2026-06-20T183846.png
 security:

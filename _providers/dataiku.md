@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -62,88 +62,144 @@ apis:
 - description: API for developing custom plugins that extend Dataiku DSS with custom datasets, recipes, processors, and web applications.
   name: Dataiku Plugin API
   slug: dataiku-plugin-api
-- description: Manage sign-off workflows on artifacts
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage sign-off workflows on artifacts
   name: Dataiku Artifact Sign-Offs API
   slug: dataiku-artifact-sign-offs-api
-- description: Manage governed artifacts (models, projects, etc.)
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage governed artifacts (models, projects, etc.)
   name: Dataiku Artifacts API
   slug: dataiku-artifacts-api
-- description: Manage API keys for service access
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage API keys for service access
   name: Dataiku Authentication API
   slug: dataiku-authentication-api
-- description: Manage blueprint version definitions
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage blueprint version definitions
   name: Dataiku Blueprint Versions API
   slug: dataiku-blueprint-versions-api
-- description: Manage governance blueprints that define artifact types
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage governance blueprints that define artifact types
   name: Dataiku Blueprints API
   slug: dataiku-blueprints-api
-- description: Import and export project bundles
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Import and export project bundles
   name: Dataiku Bundles API
   slug: dataiku-bundles-api
-- description: Manage code environments for Python and R
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage code environments for Python and R
   name: Dataiku Code Envs API
   slug: dataiku-code-envs-api
-- description: Manage data connections
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage data connections
   name: Dataiku Connections API
   slug: dataiku-connections-api
-- description: Manage custom fields on artifacts
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage custom fields on artifacts
   name: Dataiku Custom Fields API
   slug: dataiku-custom-fields-api
-- description: Manage datasets within projects
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage datasets within projects
   name: Dataiku Datasets API
   slug: dataiku-datasets-api
-- description: Manage instance-level settings
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage instance-level settings
   name: Dataiku General Settings API
   slug: dataiku-general-settings-api
-- description: Manage service generations (versions)
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage service generations (versions)
   name: Dataiku Generations API
   slug: dataiku-generations-api
-- description: Manage global API keys
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage global API keys
   name: Dataiku Global API Keys API
   slug: dataiku-global-api-keys-api
-- description: Manage DSS groups
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage DSS groups
   name: Dataiku Groups API
   slug: dataiku-groups-api
-- description: Run and monitor build jobs
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Run and monitor build jobs
   name: Dataiku Jobs API
   slug: dataiku-jobs-api
-- description: Manage folders for unstructured data
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage folders for unstructured data
   name: Dataiku Managed Folders API
   slug: dataiku-managed-folders-api
-- description: Manage user-defined meanings
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage user-defined meanings
   name: Dataiku Meanings API
   slug: dataiku-meanings-api
-- description: Retrieve metrics and health information
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Retrieve metrics and health information
   name: Dataiku Metrics API
   slug: dataiku-metrics-api
-- description: Manage model evaluation stores
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage model evaluation stores
   name: Dataiku Model Evaluation Stores API
   slug: dataiku-model-evaluation-stores-api
-- description: Manage DSS plugins
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage DSS plugins
   name: Dataiku Plugins API
   slug: dataiku-plugins-api
-- description: Manage DSS projects
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage DSS projects
   name: Dataiku Projects API
   slug: dataiku-projects-api
-- description: Manage recipes and data transformations
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage recipes and data transformations
   name: Dataiku Recipes API
   slug: dataiku-recipes-api
-- description: Manage governance roles and assignments
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage governance roles and assignments
   name: Dataiku Roles API
   slug: dataiku-roles-api
-- description: Manage trained machine learning models
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage trained machine learning models
   name: Dataiku Saved Models API
   slug: dataiku-saved-models-api
-- description: Manage and trigger automation scenarios
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage and trigger automation scenarios
   name: Dataiku Scenarios API
   slug: dataiku-scenarios-api
-- description: The Services API from Dataiku — 4 operation(s) for services.
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: The Services API from Dataiku — 4 operation(s) for services.
   name: Dataiku Services API
   slug: dataiku-services-api
-- description: Execute SQL queries on connections
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Execute SQL queries on connections
   name: Dataiku SQL Queries API
   slug: dataiku-sql-queries-api
-- description: Manage Govern users
+- baseURL: https://dss.example.com/public/api
+  baseurl_source: declared
+  description: Manage Govern users
   name: Dataiku Users API
   slug: dataiku-users-api
 arazzos:
@@ -804,7 +860,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/screenshots/dataiku-2026-06-20T175643.png
 security:

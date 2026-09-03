@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 60 operations · 9 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Activity feed operations
+- baseURL_template: https://{instance}.youtrack.cloud/api
+  baseurl_source: spec_template
+  description: Activity feed operations
   name: JetBrains Activities API
   slug: jetbrains-activities-api
-- description: Agent pool management
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Agent pool management
   name: JetBrains Agent Pools API
   slug: jetbrains-agent-pools-api
-- description: Build agent management
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Build agent management
   name: JetBrains Agents API
   slug: jetbrains-agents-api
-- description: Agile board management
+- baseURL_template: https://{instance}.youtrack.cloud/api
+  baseurl_source: spec_template
+  description: Agile board management
   name: JetBrains Agile Boards API
   slug: jetbrains-agile-boards-api
-- description: HTTP API model and metadata
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: HTTP API model and metadata
   name: JetBrains API Model API
   slug: jetbrains-api-model-api
-- description: Application management
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Application management
   name: JetBrains Applications API
   slug: jetbrains-applications-api
-- description: Automation and CI/CD operations
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Automation and CI/CD operations
   name: JetBrains Automation API
   slug: jetbrains-automation-api
-- description: Build type/configuration management
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Build type/configuration management
   name: JetBrains Build Configurations API
   slug: jetbrains-build-configurations-api
-- description: Build queue management
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Build queue management
   name: JetBrains Build Queue API
   slug: jetbrains-build-queue-api
-- description: Build execution and results
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Build execution and results
   name: JetBrains Builds API
   slug: jetbrains-builds-api
-- description: VCS change tracking
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: VCS change tracking
   name: JetBrains Changes API
   slug: jetbrains-changes-api
-- description: Chat and messaging operations
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Chat and messaging operations
   name: JetBrains Chats API
   slug: jetbrains-chats-api
-- description: Code review operations
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Code review operations
   name: JetBrains Code Reviews API
   slug: jetbrains-code-reviews-api
-- description: User group management
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: User group management
   name: JetBrains Groups API
   slug: jetbrains-groups-api
-- description: Issue management operations
+- baseURL_template: https://{instance}.youtrack.cloud/api
+  baseurl_source: spec_template
+  description: Issue management operations
   name: JetBrains Issues API
   slug: jetbrains-issues-api
-- description: The IssueTags API from JetBrains — 1 operation(s) for issuetags.
+- baseURL_template: https://{instance}.youtrack.cloud/api
+  baseurl_source: spec_template
+  description: The IssueTags API from JetBrains — 1 operation(s) for issuetags.
   name: JetBrains IssueTags API
   slug: jetbrains-issuetags-api
-- description: License checking operations
+- baseURL: https://plugins.jetbrains.com
+  baseurl_source: spec
+  description: License checking operations
   name: JetBrains Licenses API
   slug: jetbrains-licenses-api
-- description: OAuth2 client management
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: OAuth2 client management
   name: JetBrains OAuth2 API
   slug: jetbrains-oauth2-api
-- description: Package repository operations
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Package repository operations
   name: JetBrains Packages API
   slug: jetbrains-packages-api
-- description: Permission management
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: Permission management
   name: JetBrains Permissions API
   slug: jetbrains-permissions-api
-- description: Plugin download operations
+- baseURL: https://plugins.jetbrains.com
+  baseurl_source: spec
+  description: Plugin download operations
   name: JetBrains Plugin Download API
   slug: jetbrains-plugin-download-api
-- description: Plugin upload operations
+- baseURL: https://plugins.jetbrains.com
+  baseurl_source: spec
+  description: Plugin upload operations
   name: JetBrains Plugin Upload API
   slug: jetbrains-plugin-upload-api
-- description: Plugin listing and search
+- baseURL: https://plugins.jetbrains.com
+  baseurl_source: spec
+  description: Plugin listing and search
   name: JetBrains Plugins API
   slug: jetbrains-plugins-api
-- description: Project management
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: Project management
   name: JetBrains Projects API
   slug: jetbrains-projects-api
-- description: Role management
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: Role management
   name: JetBrains Roles API
   slug: jetbrains-roles-api
-- description: Saved search query management
+- baseURL_template: https://{instance}.youtrack.cloud/api
+  baseurl_source: spec_template
+  description: Saved search query management
   name: JetBrains Saved Queries API
   slug: jetbrains-saved-queries-api
-- description: Server information and metadata
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Server information and metadata
   name: JetBrains Server API
   slug: jetbrains-server-api
-- description: The Services API from JetBrains — 1 operation(s) for services.
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: The Services API from JetBrains — 1 operation(s) for services.
   name: JetBrains Services API
   slug: jetbrains-services-api
-- description: Team and member management
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Team and member management
   name: JetBrains Team Directory API
   slug: jetbrains-team-directory-api
-- description: Test result tracking
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Test result tracking
   name: JetBrains Tests API
   slug: jetbrains-tests-api
-- description: User management
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: User management
   name: JetBrains Users API
   slug: jetbrains-users-api
-- description: Version control system root management
+- baseURL_template: https://{server}/app/rest
+  baseurl_source: spec_template
+  description: Version control system root management
   name: JetBrains VCS Roots API
   slug: jetbrains-vcs-roots-api
-- description: Time tracking and work item management
+- baseURL_template: https://{instance}.youtrack.cloud/api
+  baseurl_source: spec_template
+  description: Time tracking and work item management
   name: JetBrains Work Items API
   slug: jetbrains-work-items-api
 artifact_total: 87
@@ -379,7 +445,7 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -389,7 +455,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 33.1
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -398,7 +464,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/screenshots/jetbrains-2026-06-20T183725.png
 security:

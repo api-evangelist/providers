@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 23 operations · 7 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 JWT-Bearer assertion grant. Exchange a partner-signed JWT for a short-lived bearer access token, then send that token in the Authorization header on every partner API call.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: OAuth 2.0 JWT-Bearer assertion grant. Exchange a partner-signed JWT for a short-lived bearer access token, then send that token in the Authorization header on every partner API call.
   name: Zest Authentication API
   slug: zest-authentication-api
-- description: Read-only access to the spaas-contract registry (templates, catalogs, primitives, samples) used to validate SPV-request `attributes`.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: Read-only access to the spaas-contract registry (templates, catalogs, primitives, samples) used to validate SPV-request `attributes`.
   name: Zest Contracts API
   slug: zest-contracts-api
-- description: Bulk-create investor records with partial-success semantics. Each row carries its own status / error envelope so a single bad row never fails the batch.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: Bulk-create investor records with partial-success semantics. Each row carries its own status / error envelope so a single bad row never fails the batch.
   name: Zest Investors API
   slug: zest-investors-api
-- description: Submit SPV creation requests, inspect their lifecycle, and cancel pending ones. SPV requests are reviewed by Zest admins and produce SPV materialisation on approval.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: Submit SPV creation requests, inspect their lifecycle, and cancel pending ones. SPV requests are reviewed by Zest admins and produce SPV materialisation on approval.
   name: Zest SPV Requests API
   slug: zest-spv-requests-api
-- description: Upload signed subscription forms (PDF or image) for partner-managed subscriptions. Files are streamed to private storage and referenced on the Bid.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: Upload signed subscription forms (PDF or image) for partner-managed subscriptions. Files are streamed to private storage and referenced on the Bid.
   name: Zest Subscription Forms API
   slug: zest-subscription-forms-api
-- description: 'Upload wire-transfer receipts plus funding metadata. Strict order: a signed form must already be on record before fundings can be uploaded.'
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: 'Upload wire-transfer receipts plus funding metadata. Strict order: a signed form must already be on record before fundings can be uploaded.'
   name: Zest Subscription Fundings API
   slug: zest-subscription-fundings-api
-- description: Create one or more subscriptions for a single SPV.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: Create one or more subscriptions for a single SPV.
   name: Zest Subscriptions API
   slug: zest-subscriptions-api
-- description: Service health and OpenAPI introspection endpoints.
+- baseURL: https://public-api.zestequity.com
+  baseurl_source: declared
+  description: Service health and OpenAPI introspection endpoints.
   name: Zest System API
   slug: zest-system-api
 artifact_total: 22
@@ -233,7 +249,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -243,7 +259,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zest/refs/heads/main/screenshots/zest-2026-08-17T083101.png
 security:

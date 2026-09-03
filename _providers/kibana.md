@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 15
@@ -45,184 +45,304 @@ agentic_access:
   summary_line: 612 operations · 389 acting · 15 human-in-the-loop
 api_count: 1
 apis:
-- description: The Actions API from Kibana — 1 operation(s) for actions.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: The Actions API from Kibana — 1 operation(s) for actions.
   name: Kibana Actions API
   slug: kibana-actions-api
-- description: Agent Builder is a set of AI-powered capabilities for developing and interacting with agents that work with your Elasticsearch data. Most users will probably want to integrate with Agent Builder using
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Agent Builder is a set of AI-powered capabilities for developing and interacting with agents that work with your Elasticsearch data. Most users will probably want to integrate with Agent Builder using
   name: Kibana agent builder API
   slug: kibana-agent-builder-api
-- description: Alerting enables you to define rules, which detect complex conditions within your data. When a condition is met, the rule tracks it as an alert and runs the actions that are defined in the rule. Actio
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Alerting enables you to define rules, which detect complex conditions within your data. When a condition is met, the rule tracks it as an alert and runs the actions that are defined in the rule. Actio
   name: Kibana alerting API
   slug: kibana-alerting-api
-- description: Adjust APM agent configuration without need to redeploy your application.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Adjust APM agent configuration without need to redeploy your application.
   name: Kibana APM agent configuration API
   slug: kibana-apm-agent-configuration-api
-- description: Configure APM agent keys to authorize requests from APM agents to the APM Server.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Configure APM agent keys to authorize requests from APM agents to the APM Server.
   name: Kibana APM agent keys API
   slug: kibana-apm-agent-keys-api
-- description: Annotate visualizations in the APM app with significant events. Annotations enable you to easily see how events are impacting the performance of your applications.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Annotate visualizations in the APM app with significant events. Annotations enable you to easily see how events are impacting the performance of your applications.
   name: Kibana APM annotations API
   slug: kibana-apm-annotations-api
-- description: Create APM fleet server schema.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Create APM fleet server schema.
   name: Kibana APM server schema API
   slug: kibana-apm-server-schema-api
-- description: Configure APM source maps. A source map allows minified files to be mapped back to original source code--allowing you to maintain the speed advantage of minified code, without losing the ability to qu
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Configure APM source maps. A source map allows minified files to be mapped back to original source code--allowing you to maintain the speed advantage of minified code, without losing the ability to qu
   name: Kibana APM sourcemaps API
   slug: kibana-apm-sourcemaps-api
-- description: 'Cases are used to open and track issues. You can add assignees and tags to your cases, set their severity and status, and add alerts, comments, and visualizations. You can also send cases to external '
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: 'Cases are used to open and track issues. You can add assignees and tags to your cases, set their severity and status, and add alerts, comments, and visualizations. You can also send cases to external '
   name: Kibana cases API
   slug: kibana-cases-api
-- description: Connectors provide a central place to store connection information for services and integrations with Elastic or third party systems. Alerting rules can use connectors to run actions when rule conditi
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Connectors provide a central place to store connection information for services and integrations with Elastic or third party systems. Alerting rules can use connectors to run actions when rule conditi
   name: Kibana connectors API
   slug: kibana-connectors-api
-- description: Data stream APIs enable you to manage data streams, which are collections of indices that share the same index template and are managed as a single unit for time-series data.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Data stream APIs enable you to manage data streams, which are collections of indices that share the same index template and are managed as a single unit for time-series data.
   name: Kibana Data streams API
   slug: kibana-data-streams-api
-- description: Data view APIs enable you to manage data views, formerly known as Kibana index patterns.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Data view APIs enable you to manage data views, formerly known as Kibana index patterns.
   name: Kibana data views API
   slug: kibana-data-views-api
-- description: Elastic Agent actions APIs enable you to manage actions performed on Elastic Agents, including agent reassignment, diagnostics collection, enrollment management, upgrades, and bulk operations for agen
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Elastic Agent actions APIs enable you to manage actions performed on Elastic Agents, including agent reassignment, diagnostics collection, enrollment management, upgrades, and bulk operations for agen
   name: Kibana Elastic Agent actions API
   slug: kibana-elastic-agent-actions-api
-- description: Elastic Agent binary download sources APIs enable you to manage download sources for Elastic Agent binaries, including creating, updating, and deleting custom download sources for agent binaries.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Elastic Agent binary download sources APIs enable you to manage download sources for Elastic Agent binaries, including creating, updating, and deleting custom download sources for agent binaries.
   name: Kibana Elastic Agent binary download sources API
   slug: kibana-elastic-agent-binary-download-sources-api
-- description: Elastic Agent policies APIs enable you to manage agent policies, including creating, updating, and deleting policies, as well as to retrieve agent policy outputs, manifests, and auto-upgrade status in
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Elastic Agent policies APIs enable you to manage agent policies, including creating, updating, and deleting policies, as well as to retrieve agent policy outputs, manifests, and auto-upgrade status in
   name: Kibana Elastic Agent policies API
   slug: kibana-elastic-agent-policies-api
-- description: Enables you to retrieve status information about Elastic Agents, including health summaries and operational status.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Enables you to retrieve status information about Elastic Agents, including health summaries and operational status.
   name: Kibana Elastic Agent status API
   slug: kibana-elastic-agent-status-api
-- description: Elastic Agents APIs enable you to manage Elastic Agents, including retrieving agent information, managing agent lifecycle, handling file uploads, and initiating agent setup.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Elastic Agents APIs enable you to manage Elastic Agents, including retrieving agent information, managing agent lifecycle, handling file uploads, and initiating agent setup.
   name: Kibana Elastic Agents API
   slug: kibana-elastic-agents-api
-- description: Elastic Package Manager (EPM) APIs enable you to manage packages and integrations, including installing, updating, and uninstalling packages, managing custom integrations, and handling package assets.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Elastic Package Manager (EPM) APIs enable you to manage packages and integrations, including installing, updating, and uninstalling packages, managing custom integrations, and handling package assets.
   name: Kibana Elastic Package Manager (EPM) API
   slug: kibana-elastic-package-manager-epm-api
-- description: The Fleet agentless policies API from Kibana — 2 operation(s) for fleet agentless policies.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: The Fleet agentless policies API from Kibana — 2 operation(s) for fleet agentless policies.
   name: Kibana Fleet agentless policies API
   slug: kibana-fleet-agentless-policies-api
-- description: The Fleet API from Kibana — 1 operation(s) for fleet.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: The Fleet API from Kibana — 1 operation(s) for fleet.
   name: Kibana Fleet API
   slug: kibana-fleet-api
-- description: Fleet cloud connectors APIs enable you to manage Fleet cloud connectors, including creating, updating, and deleting cloud connector configurations for Fleet integrations.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet cloud connectors APIs enable you to manage Fleet cloud connectors, including creating, updating, and deleting cloud connector configurations for Fleet integrations.
   name: Kibana Fleet cloud connectors API
   slug: kibana-fleet-cloud-connectors-api
-- description: Fleet enrollment API keys APIs enable you to manage enrollment API keys for Fleet, including creating, retrieving, and revoking API keys used for agent enrollment.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet enrollment API keys APIs enable you to manage enrollment API keys for Fleet, including creating, retrieving, and revoking API keys used for agent enrollment.
   name: Kibana Fleet enrollment API keys API
   slug: kibana-fleet-enrollment-api-keys-api
-- description: Fleet internals APIs enable you to manage Fleet internal operations, including checking permissions, monitoring Fleet Server health, managing settings, and initiating Fleet setup.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet internals APIs enable you to manage Fleet internal operations, including checking permissions, monitoring Fleet Server health, managing settings, and initiating Fleet setup.
   name: Kibana Fleet internals API
   slug: kibana-fleet-internals-api
-- description: Fleet outputs APIs enable you to manage Fleet outputs, including creating, updating, and deleting output configurations, generating Logstash API keys, and monitoring output health.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet outputs APIs enable you to manage Fleet outputs, including creating, updating, and deleting output configurations, generating Logstash API keys, and monitoring output health.
   name: Kibana Fleet outputs API
   slug: kibana-fleet-outputs-api
-- description: Fleet package policies APIs enable you to manage Fleet package policies, including creating, updating, and deleting policies, performing bulk operations, and managing policy upgrades.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet package policies APIs enable you to manage Fleet package policies, including creating, updating, and deleting policies, performing bulk operations, and managing policy upgrades.
   name: Kibana Fleet package policies API
   slug: kibana-fleet-package-policies-api
-- description: Fleet proxies APIs enable you to manage Fleet proxies, including creating, updating, and deleting proxy configurations for Fleet agent communication.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet proxies APIs enable you to manage Fleet proxies, including creating, updating, and deleting proxy configurations for Fleet agent communication.
   name: Kibana Fleet proxies API
   slug: kibana-fleet-proxies-api
-- description: 'Use the Fleet remote synced integrations API to check the status of the automatic integrations synchronization on a remote cluster: * Use the `/api/fleet/remote_synced_integrations/{outputId}/remote_s'
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: 'Use the Fleet remote synced integrations API to check the status of the automatic integrations synchronization on a remote cluster: * Use the `/api/fleet/remote_synced_integrations/{outputId}/remote_s'
   name: Kibana Fleet remote synced integrations API
   slug: kibana-fleet-remote-synced-integrations-api
-- description: Fleet Server hosts APIs enable you to manage Fleet Server hosts, including creating, updating, and deleting Fleet Server host configurations.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet Server hosts APIs enable you to manage Fleet Server hosts, including creating, updating, and deleting Fleet Server host configurations.
   name: Kibana Fleet Server hosts API
   slug: kibana-fleet-server-hosts-api
-- description: Enables you to create tokens for Fleet service authentication and authorization.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Enables you to create tokens for Fleet service authentication and authorization.
   name: Kibana Fleet service tokens API
   slug: kibana-fleet-service-tokens-api
-- description: Fleet uninstall tokens APIs enable you to manage Fleet uninstall tokens, including retrieving metadata and decrypted tokens for agent uninstallation.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Fleet uninstall tokens APIs enable you to manage Fleet uninstall tokens, including retrieving metadata and decrypted tokens for agent uninstallation.
   name: Kibana Fleet uninstall tokens API
   slug: kibana-fleet-uninstall-tokens-api
-- description: Programmatically integrate with Logstash configuration management. > warn > Do not directly access the `.logstash` index. The structure of the `.logstash` index is subject to change, which could cause
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Programmatically integrate with Logstash configuration management. > warn > Do not directly access the `.logstash` index. The structure of the `.logstash` index is subject to change, which could cause
   name: Kibana logstash API
   slug: kibana-logstash-api
-- description: You can schedule single or recurring maintenance windows to temporarily reduce rule notifications. For example, a maintenance window prevents false alarms during planned outages.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: You can schedule single or recurring maintenance windows to temporarily reduce rule notifications. For example, a maintenance window prevents false alarms during planned outages.
   name: Kibana maintenance-window API
   slug: kibana-maintenance-window-api
-- description: Enables you to rotate message signing key pairs for secure Fleet communication.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Enables you to rotate message signing key pairs for secure Fleet communication.
   name: Kibana Message Signing Service API
   slug: kibana-message-signing-service-api
-- description: Enables you to synchronize machine learning saved objects.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Enables you to synchronize machine learning saved objects.
   name: Kibana ml API
   slug: kibana-ml-api
-- description: Interact with the Observability AI Assistant resources.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Interact with the Observability AI Assistant resources.
   name: Kibana observability_ai_assistant API
   slug: kibana-observability-ai-assistant-api
-- description: Manage the roles that grant Elasticsearch and Kibana privileges.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Manage the roles that grant Elasticsearch and Kibana privileges.
   name: Kibana roles API
   slug: kibana-roles-api
-- description: Export sets of saved objects that you want to import into Kibana, resolve import errors, and rotate an encryption key for encrypted saved objects with the saved objects APIs. To manage a specific type
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Export sets of saved objects that you want to import into Kibana, resolve import errors, and rotate an encryption key for encrypted saved objects with the saved objects APIs. To manage a specific type
   name: Kibana saved objects API
   slug: kibana-saved-objects-api
-- description: Manage and interact with Security Assistant resources.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Manage and interact with Security Assistant resources.
   name: Kibana Security AI Assistant API API
   slug: kibana-security-ai-assistant-api-api
-- description: The Security API from Kibana — 1 operation(s) for security.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: The Security API from Kibana — 1 operation(s) for security.
   name: Kibana Security API
   slug: kibana-security-api
-- description: Use the Attack discovery APIs to generate and manage Attack discoveries. Attack Discovery leverages large language models (LLMs) to analyze alerts in your environment and identify threats. Each "disco
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Use the Attack discovery APIs to generate and manage Attack discoveries. Attack Discovery leverages large language models (LLMs) to analyze alerts in your environment and identify threats. Each "disco
   name: Kibana Security Attack discovery API API
   slug: kibana-security-attack-discovery-api-api
-- description: Use the detections APIs to create and manage detection rules. Detection rules search events and external alerts sent to Elastic Security and generate detection alerts from any hits. Alerts are display
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Use the detections APIs to create and manage detection rules. Detection rules search events and external alerts sent to Elastic Security and generate detection alerts from any hits. Alerts are display
   name: Kibana Security Detections API API
   slug: kibana-security-detections-api-api
-- description: Endpoint Exceptions API allows you to manage detection rule endpoint exceptions to prevent a rule from generating an alert from incoming events even when the rule's other criteria are met.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Endpoint Exceptions API allows you to manage detection rule endpoint exceptions to prevent a rule from generating an alert from incoming events even when the rule's other criteria are met.
   name: Kibana Security Endpoint Exceptions API API
   slug: kibana-security-endpoint-exceptions-api-api
-- description: Interact with and manage endpoints running the Elastic Defend integration.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Interact with and manage endpoints running the Elastic Defend integration.
   name: Kibana Security Endpoint Management API API
   slug: kibana-security-endpoint-management-api-api
-- description: Use the Security entity analytics APIs to manage entity analytics and risk scoring, including asset criticality, privileged user monitoring, and entity engines.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Use the Security entity analytics APIs to manage entity analytics and risk scoring, including asset criticality, privileged user monitoring, and entity engines.
   name: Kibana Security Entity Analytics API API
   slug: kibana-security-entity-analytics-api-api
-- description: The Security entity store API from Kibana — 13 operation(s) for security entity store.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: The Security entity store API from Kibana — 13 operation(s) for security entity store.
   name: Kibana Security entity store API
   slug: kibana-security-entity-store-api
-- description: Exceptions are associated with detection and endpoint rules, and are used to prevent a rule from generating an alert from incoming events, even when the rule's other criteria are met. They can help re
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Exceptions are associated with detection and endpoint rules, and are used to prevent a rule from generating an alert from incoming events, even when the rule's other criteria are met. They can help re
   name: Kibana Security Exceptions API API
   slug: kibana-security-exceptions-api-api
-- description: 'Lists can be used with detection rule exceptions to define values that prevent a rule from generating alerts. Lists are made up of: * **List containers**: A container for values of the same Elasticsea'
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: 'Lists can be used with detection rule exceptions to define values that prevent a rule from generating alerts. Lists are made up of: * **List containers**: A container for values of the same Elasticsea'
   name: Kibana Security Lists API API
   slug: kibana-security-lists-api-api
-- description: Run live queries, manage packs and saved queries.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Run live queries, manage packs and saved queries.
   name: Kibana Security Osquery API API
   slug: kibana-security-osquery-api-api
-- description: You can create Timelines and Timeline templates via the API, as well as import new Timelines from an ndjson file.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: You can create Timelines and Timeline templates via the API, as well as import new Timelines from an ndjson file.
   name: Kibana Security Timeline API API
   slug: kibana-security-timeline-api-api
-- description: Manage Kibana short URLs.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Manage Kibana short URLs.
   name: Kibana short url API
   slug: kibana-short-url-api
-- description: SLO APIs enable you to define, manage and track service-level objectives
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: SLO APIs enable you to define, manage and track service-level objectives
   name: Kibana slo API
   slug: kibana-slo-api
-- description: The Spaces API from Kibana — 7 operation(s) for spaces.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: The Spaces API from Kibana — 7 operation(s) for spaces.
   name: Kibana Spaces API
   slug: kibana-spaces-api
-- description: 'Streams provide a unified data management layer for ingestion, routing, and processing. There are three stream types: * **Wired** streams are managed by Kibana. They route documents to child streams b'
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: 'Streams provide a unified data management layer for ingestion, routing, and processing. There are three stream types: * **Wired** streams are managed by Kibana. They route documents to child streams b'
   name: Kibana streams API
   slug: kibana-streams-api
-- description: Synthetics APIs enable you to check the status of your services and applications.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Synthetics APIs enable you to check the status of your services and applications.
   name: Kibana synthetics API
   slug: kibana-synthetics-api
-- description: Get information about the system status, resource usage, features, and installed plugins.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Get information about the system status, resource usage, features, and installed plugins.
   name: Kibana system API
   slug: kibana-system-api
-- description: Task manager APIs enable you to check the health of the Kibana task manager, which is used by features such as alerting, actions, and reporting to run mission critical work as persistent background ta
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Task manager APIs enable you to check the health of the Kibana task manager, which is used by features such as alerting, actions, and reporting to run mission critical work as persistent background ta
   name: Kibana task manager API
   slug: kibana-task-manager-api
-- description: 'The Kibana Upgrade Assistant API helps you prepare for the next major Elasticsearch release. > warn > This is a Kibana REST API (not an Elasticsearch API) and requests must target your Kibana URL: > *'
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: 'The Kibana Upgrade Assistant API helps you prepare for the next major Elasticsearch release. > warn > This is a Kibana REST API (not an Elasticsearch API) and requests must target your Kibana URL: > *'
   name: Kibana upgrade API
   slug: kibana-upgrade-api
-- description: Uptime APIs enable you to view and update uptime monitoring settings.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Uptime APIs enable you to view and update uptime monitoring settings.
   name: Kibana uptime API
   slug: kibana-uptime-api
-- description: Enables you to invalidate user sessions for security and session management purposes.
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Enables you to invalidate user sessions for security and session management purposes.
   name: Kibana user session API
   slug: kibana-user-session-api
-- description: Workflows enable you to automate multi-step processes directly in Kibana. Define sequences of steps in YAML to transform data insights into automated actions and outcomes, without needing external aut
+- baseURL: https://localhost:5601/api
+  baseurl_source: declared
+  description: Workflows enable you to automate multi-step processes directly in Kibana. Define sequences of steps in YAML to transform data insights into automated actions and outcomes, without needing external aut
   name: Kibana workflows API
   slug: kibana-workflows-api
 artifact_total: 128
@@ -527,7 +647,7 @@ score:
       marker_coverage: 0.0
       total: 60
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/screenshots/kibana-2026-06-20T184031.png
 security:

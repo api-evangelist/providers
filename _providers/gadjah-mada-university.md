@@ -34,19 +34,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Universitas Gadjah Mada's own identity API, operated by the Directorate of Information Technology (DTI) at oauth.simaster.ugm.ac.id, in front of SIMASTER, the university's integrated academic informat
+- baseURL: https://oauth.simaster.ugm.ac.id
+  baseurl_source: declared
+  description: Universitas Gadjah Mada's own identity API, operated by the Directorate of Information Technology (DTI) at oauth.simaster.ugm.ac.id, in front of SIMASTER, the university's integrated academic informat
   name: UGM ID — OAuth 2.0 / OpenID Connect Authorization Server
   slug: ugm-id
 - description: 'UGM''s own Shibboleth Identity Provider, entityID https://sso.ugm.ac.id/idp/shibboleth, publishing an unsigned SAML EntityDescriptor from the university''s own host — retrieved live on 2026-09-01 (200, '
   name: UGM Shibboleth SAML 2.0 Identity Provider
   slug: shibboleth-idp
-- description: 'OAI-PMH 2.0 metadata harvesting endpoint for "repository civitas UGM", the institutional repository running EPrints 3.3.15 on the university''s own host. Verified live on 2026-09-01 — Identify returns '
+- baseURL: http://repository.ugm.ac.id/cgi/oai2
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 metadata harvesting endpoint for "repository civitas UGM", the institutional repository running EPrints 3.3.15 on the university''s own host. Verified live on 2026-09-01 — Identify returns '
   name: UGM Institutional Repository OAI-PMH
   slug: repository-oai-pmh
-- description: OAI-PMH 2.0 metadata harvesting endpoint for "Jurnal Universitas Gadjah Mada", the university-wide scholarly journal platform running Open Journal Systems 2.4.8.1 on UGM's own host, administered by bp
+- baseURL: https://journal.ugm.ac.id/index/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting endpoint for "Jurnal Universitas Gadjah Mada", the university-wide scholarly journal platform running Open Journal Systems 2.4.8.1 on UGM's own host, administered by bp
   name: UGM Journals OAI-PMH
   slug: journal-oai-pmh
 - description: Central Authentication Service at sso.ugm.ac.id/cas, the login surface UGM systems redirect users to. A bare GET redirects to /cas/login and returns the login form (200, verified 2026-09-01). CAS defi
@@ -258,7 +264,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 27.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -268,7 +274,7 @@ score:
     discoverability: 68.5
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 19.5
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     contracts:
@@ -283,8 +289,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/screenshots/gadjah-mada-university-2026-06-20T181636.png
 security:
 - kind: authentication

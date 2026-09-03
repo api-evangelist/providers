@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Hayhooks turns a Haystack pipeline into a self-hosted REST API (and optional MCP server) with one command, auto-generating OpenAPI/Swagger docs and HTTP run endpoints. The deployed surface is generate
   name: Hayhooks REST Deployment
   slug: hayhooks-rest-deployment
-- description: Upload, list, delete, and annotate files; manage upload sessions.
+- baseURL: https://github.com/deepset-ai/haystack
+  baseurl_source: declared
+  description: Upload, list, delete, and annotate files; manage upload sessions.
   name: Haystack / deepset Files API
   slug: haystack-ai-files-api
-- description: Create, list, deploy, and undeploy Haystack pipelines.
+- baseURL: https://github.com/deepset-ai/haystack
+  baseurl_source: declared
+  description: Create, list, deploy, and undeploy Haystack pipelines.
   name: Haystack / deepset Pipelines API
   slug: haystack-ai-pipelines-api
-- description: Run queries against deployed pipelines.
+- baseURL: https://github.com/deepset-ai/haystack
+  baseurl_source: declared
+  description: Run queries against deployed pipelines.
   name: Haystack / deepset Search API
   slug: haystack-ai-search-api
-- description: Manage workspaces that isolate pipelines and data.
+- baseURL: https://github.com/deepset-ai/haystack
+  baseurl_source: declared
+  description: Manage workspaces that isolate pipelines and data.
   name: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
 artifact_total: 19
@@ -187,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/screenshots/haystack-ai-2026-06-20T182543.png
 security:

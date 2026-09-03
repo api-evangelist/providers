@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -98,13 +98,19 @@ apis:
 - description: Access the Apple Music catalog metadata in bulk for albums, songs, and artists.
   name: Apple Music Feed API
   slug: apple-music-feed-api
-- description: Manage your apps in App Store Connect, including app metadata, pricing, availability, and app information.
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: Manage your apps in App Store Connect, including app metadata, pricing, availability, and app information.
   name: Apple Apps API
   slug: apple-apps-api
-- description: Manage TestFlight beta testers, including inviting testers, managing tester groups, and controlling access to beta builds.
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: Manage TestFlight beta testers, including inviting testers, managing tester groups, and controlling access to beta builds.
   name: Apple Beta Testers API
   slug: apple-beta-testers-api
-- description: Manage builds uploaded to App Store Connect, including build metadata, processing state, and build relationships.
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: Manage builds uploaded to App Store Connect, including build metadata, processing state, and build relationships.
   name: Apple Builds API
   slug: apple-builds-api
 artifact_total: 166
@@ -678,7 +684,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:

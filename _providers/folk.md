@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 39 operations · 22 acting
 api_count: 1
 apis:
-- description: Operations related to companies.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to companies.
   name: Folk Companies API
   slug: folk-companies-api
-- description: Operations related to deals.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to deals.
   name: Folk Deals API
   slug: folk-deals-api
-- description: Operations related to groups.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to groups.
   name: Folk Groups API
   slug: folk-groups-api
-- description: Operations related to interactions.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to interactions.
   name: Folk Interactions API
   slug: folk-interactions-api
-- description: Operations related to notes.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to notes.
   name: Folk Notes API
   slug: folk-notes-api
-- description: Operations related to people.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to people.
   name: Folk People API
   slug: folk-people-api
-- description: Operations related to reminders.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to reminders.
   name: Folk Reminders API
   slug: folk-reminders-api
-- description: Operations related to users.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to users.
   name: Folk Users API
   slug: folk-users-api
-- description: Operations related to webhooks.
+- baseURL: https://api.folk.app
+  baseurl_source: declared
+  description: Operations related to webhooks.
   name: Folk Webhooks API
   slug: folk-webhooks-api
 artifact_total: 30
@@ -250,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/screenshots/folk-2026-07-25T214908.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,7 +45,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Dated, source-attributed US tax and retirement figures.
+- baseURL: https://planomy.net
+  baseurl_source: declared
+  description: Dated, source-attributed US tax and retirement figures.
   name: Planomy Tax Data Tax Data API
   slug: planomy-tax-data-tax-data-api
 artifact_total: 12
@@ -164,7 +178,7 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +210,9 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/planomy-tax-data/refs/heads/main/screenshots/planomy-tax-data-2026-09-02T151417.png
 security:
 - kind: authentication
   name: Planomy Tax Data Authentication

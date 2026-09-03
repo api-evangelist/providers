@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -52,34 +52,54 @@ apis:
 - description: Zuul is a CI/CD platform that gates changes across multiple systems and repositories, providing project gating, cross-project dependency management, and pipeline-driven automation.
   name: Zuul
   slug: zuul
-- description: The Auth API from OpenInfra Foundation — 3 operation(s) for auth.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Auth API from OpenInfra Foundation — 3 operation(s) for auth.
   name: OpenInfra Foundation Auth API
   slug: openinfra-foundation-auth-api
-- description: The Credentials API from OpenInfra Foundation — 1 operation(s) for credentials.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Credentials API from OpenInfra Foundation — 1 operation(s) for credentials.
   name: OpenInfra Foundation Credentials API
   slug: openinfra-foundation-credentials-api
-- description: The Domains API from OpenInfra Foundation — 1 operation(s) for domains.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Domains API from OpenInfra Foundation — 1 operation(s) for domains.
   name: OpenInfra Foundation Domains API
   slug: openinfra-foundation-domains-api
-- description: The Endpoints API from OpenInfra Foundation — 1 operation(s) for endpoints.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Endpoints API from OpenInfra Foundation — 1 operation(s) for endpoints.
   name: OpenInfra Foundation Endpoints API
   slug: openinfra-foundation-endpoints-api
-- description: The Extensions API from OpenInfra Foundation — 1 operation(s) for extensions.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Extensions API from OpenInfra Foundation — 1 operation(s) for extensions.
   name: OpenInfra Foundation Extensions API
   slug: openinfra-foundation-extensions-api
-- description: The Groups API from OpenInfra Foundation — 1 operation(s) for groups.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Groups API from OpenInfra Foundation — 1 operation(s) for groups.
   name: OpenInfra Foundation Groups API
   slug: openinfra-foundation-groups-api
-- description: The Networks API from OpenInfra Foundation — 2 operation(s) for networks.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Networks API from OpenInfra Foundation — 2 operation(s) for networks.
   name: OpenInfra Foundation Networks API
   slug: openinfra-foundation-networks-api
-- description: The Roles API from OpenInfra Foundation — 1 operation(s) for roles.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Roles API from OpenInfra Foundation — 1 operation(s) for roles.
   name: OpenInfra Foundation Roles API
   slug: openinfra-foundation-roles-api
-- description: The Servers API from OpenInfra Foundation — 4 operation(s) for servers.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Servers API from OpenInfra Foundation — 4 operation(s) for servers.
   name: OpenInfra Foundation Servers API
   slug: openinfra-foundation-servers-api
-- description: The Users API from OpenInfra Foundation — 1 operation(s) for users.
+- baseURL: https://example.openstack.local
+  baseurl_source: spec
+  description: The Users API from OpenInfra Foundation — 1 operation(s) for users.
   name: OpenInfra Foundation Users API
   slug: openinfra-foundation-users-api
 artifact_total: 30
@@ -201,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/screenshots/openinfra-foundation-2026-06-20T191011.png
 security:

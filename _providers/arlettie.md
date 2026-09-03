@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Live, unauthenticated Model Context Protocol endpoint on the Les échappées storefront implementing the Universal Commerce Protocol (UCP) 2026-04-08. tools/list returns 13 tools with full JSON Schema i
@@ -192,7 +205,7 @@ score:
   band: thin
   composite: 27.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -212,8 +225,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arlettie/refs/heads/main/screenshots/arlettie-2026-09-02T144124.png
 security:
 - kind: authentication
   name: Arlettie Authentication

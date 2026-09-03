@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -44,25 +44,37 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/anadarko-petroleum-corporation
-- group: start
+- group: agent
   title: ''
-  type: Portal
-  url: https://www.anadarko.com
+  type: LLMsTxt
+  url: llms/anadarko-petroleum-llms.txt
 - group: company
   title: ''
   type: Website
   url: https://www.oxy.com
+coverage:
+  checked: '2026-09-02'
+  detail: Anadarko was fully absorbed into Occidental Petroleum in August 2019 and its own domain now serves nothing at all — anadarko.com keeps a CSC brand-protection A record but refuses the connection on both port 80 and port 443, and www.anadarko.com has no A record — so there is no surviving developer surface to profile.
+  evidence:
+  - status: 0
+    url: https://www.anadarko.com/
+  - status: 0
+    url: https://anadarko.com/
+  - status: 301
+    url: https://www.oxy.com/.well-known/security.txt
+  - status: 404
+    url: https://www.oxy.com/openapi.json
+  reason: defunct
+  state: none
+created: '2026-04-19'
 description: Anadarko Petroleum Corporation was one of the world's largest independent oil and natural gas exploration and production companies, with operations across the United States, the deepwater Gulf of Mexico, and international locations including Mozambique and Ghana. Anadarko was acquired by Occidental Petroleum in August 2019 in a $55 billion transaction. The company was known for its operations in the Wattenberg Gas Field in Colorado, the Delaware Basin in Texas, and major deepwater projects. Anadarko did not offer public developer APIs; its technology integrations were primarily through enterprise systems for partners and joint venture operators.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anadarko-petroleum.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Anadarko Petroleum
 nav: Providers
 network: true
-overview: 'Anadarko Petroleum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Deepwater, Energy, Natural Gas, Oil and Gas, and Petroleum.
-
-
-  Anadarko Petroleum''s developer surface includes developer portal and 3 more developer resources.'
+overview: Anadarko Petroleum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Deepwater, Energy, Natural Gas, Oil and Gas, and Petroleum.
 press:
 - date: '2026-05-25'
   title: Anadarko Petroleum Corporation; Rule 14a-8 no-action letter
@@ -82,19 +94,19 @@ press:
 random_paper: 19
 score:
   band: minimal
-  composite: 5.2
+  composite: 3.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -106,7 +118,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anadarko-petroleum/refs/heads/main/screenshots/anadarko-petroleum-2026-06-20T171945.png
 security:

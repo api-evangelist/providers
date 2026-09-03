@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 24 operations · 12 acting
 api_count: 1
 apis:
-- description: The Auth API from Bytebase — 1 operation(s) for auth.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Auth API from Bytebase — 1 operation(s) for auth.
   name: Bytebase Auth API
   slug: bytebase-auth-api
-- description: The Databases API from Bytebase — 2 operation(s) for databases.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Databases API from Bytebase — 2 operation(s) for databases.
   name: Bytebase Databases API
   slug: bytebase-databases-api
-- description: The Groups API from Bytebase — 1 operation(s) for groups.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Groups API from Bytebase — 1 operation(s) for groups.
   name: Bytebase Groups API
   slug: bytebase-groups-api
-- description: The Instances API from Bytebase — 2 operation(s) for instances.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Instances API from Bytebase — 2 operation(s) for instances.
   name: Bytebase Instances API
   slug: bytebase-instances-api
-- description: The Issues API from Bytebase — 3 operation(s) for issues.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Issues API from Bytebase — 3 operation(s) for issues.
   name: Bytebase Issues API
   slug: bytebase-issues-api
-- description: The Plans API from Bytebase — 1 operation(s) for plans.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Plans API from Bytebase — 1 operation(s) for plans.
   name: Bytebase Plans API
   slug: bytebase-plans-api
-- description: The Projects API from Bytebase — 2 operation(s) for projects.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Projects API from Bytebase — 2 operation(s) for projects.
   name: Bytebase Projects API
   slug: bytebase-projects-api
-- description: The Roles API from Bytebase — 1 operation(s) for roles.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Roles API from Bytebase — 1 operation(s) for roles.
   name: Bytebase Roles API
   slug: bytebase-roles-api
-- description: The Rollouts API from Bytebase — 2 operation(s) for rollouts.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Rollouts API from Bytebase — 2 operation(s) for rollouts.
   name: Bytebase Rollouts API
   slug: bytebase-rollouts-api
-- description: The Sheets API from Bytebase — 1 operation(s) for sheets.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Sheets API from Bytebase — 1 operation(s) for sheets.
   name: Bytebase Sheets API
   slug: bytebase-sheets-api
-- description: The Users API from Bytebase — 1 operation(s) for users.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Users API from Bytebase — 1 operation(s) for users.
   name: Bytebase Users API
   slug: bytebase-users-api
-- description: The Webhooks API from Bytebase — 1 operation(s) for webhooks.
+- baseURL: https://demo.bytebase.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Bytebase — 1 operation(s) for webhooks.
   name: Bytebase Webhooks API
   slug: bytebase-webhooks-api
 artifact_total: 33
@@ -221,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytebase/refs/heads/main/screenshots/bytebase-2026-07-25T204142.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -36,154 +48,254 @@ apis:
 - description: 'REST API for the Fortanix Confidential Computing Manager (CCM) backend: compute-node and application enrollment, enclave image build and conversion, attestation, certificate issuance, container regist'
   name: Fortanix Confidential Computing Manager REST API
   slug: ccm
-- description: The Account_extensions API from Fortanix — 1 operation(s) for account_extensions.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Account_extensions API from Fortanix — 1 operation(s) for account_extensions.
   name: Fortanix Account Extensions API
   slug: fortanix-account-extensions-api
-- description: The Accounts API from Fortanix — 9 operation(s) for accounts.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Accounts API from Fortanix — 9 operation(s) for accounts.
   name: Fortanix Accounts API
   slug: fortanix-accounts-api
-- description: The Admin API from Fortanix — 1 operation(s) for admin.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Admin API from Fortanix — 1 operation(s) for admin.
   name: Fortanix Admin API
   slug: fortanix-admin-api
-- description: The App API from Fortanix — 5 operation(s) for app.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The App API from Fortanix — 5 operation(s) for app.
   name: Fortanix App API
   slug: fortanix-app-api
-- description: The ApplicationConfig API from Fortanix — 4 operation(s) for applicationconfig.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The ApplicationConfig API from Fortanix — 4 operation(s) for applicationconfig.
   name: Fortanix Application Config API
   slug: fortanix-applicationconfig-api
-- description: The Approval_requests API from Fortanix — 6 operation(s) for approval_requests.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Approval_requests API from Fortanix — 6 operation(s) for approval_requests.
   name: Fortanix Approval Requests API
   slug: fortanix-approval-requests-api
-- description: The ApprovalRequests API from Fortanix — 5 operation(s) for approvalrequests.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The ApprovalRequests API from Fortanix — 5 operation(s) for approvalrequests.
   name: Fortanix Approval Requests API
   slug: fortanix-approvalrequests-api
-- description: The Apps API from Fortanix — 7 operation(s) for apps.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Apps API from Fortanix — 7 operation(s) for apps.
   name: Fortanix Apps API
   slug: fortanix-apps-api
-- description: The Auth API from Fortanix — 5 operation(s) for auth.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Auth API from Fortanix — 5 operation(s) for auth.
   name: Fortanix Auth API
   slug: fortanix-auth-api
-- description: APIs regarding creating or ending a session.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding creating or ending a session.
   name: Fortanix Authentication API
   slug: fortanix-authentication-api
-- description: The Batch API from Fortanix — 1 operation(s) for batch.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Batch API from Fortanix — 1 operation(s) for batch.
   name: Fortanix Batch API
   slug: fortanix-batch-api
-- description: The Build API from Fortanix — 5 operation(s) for build.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Build API from Fortanix — 5 operation(s) for build.
   name: Fortanix Build API
   slug: fortanix-build-api
-- description: The Certificate API from Fortanix — 1 operation(s) for certificate.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Certificate API from Fortanix — 1 operation(s) for certificate.
   name: Fortanix Certificate API
   slug: fortanix-certificate-api
-- description: The ComputeClusters API from Fortanix — 2 operation(s) for computeclusters.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The ComputeClusters API from Fortanix — 2 operation(s) for computeclusters.
   name: Fortanix Compute Clusters API
   slug: fortanix-computeclusters-api
-- description: The Credentials API from Fortanix — 3 operation(s) for credentials.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Credentials API from Fortanix — 3 operation(s) for credentials.
   name: Fortanix Credentials API
   slug: fortanix-credentials-api
-- description: The Crypto API from Fortanix — 24 operation(s) for crypto.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Crypto API from Fortanix — 24 operation(s) for crypto.
   name: Fortanix Crypto API
   slug: fortanix-crypto-api
-- description: The Dataset API from Fortanix — 2 operation(s) for dataset.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Dataset API from Fortanix — 2 operation(s) for dataset.
   name: Fortanix Dataset API
   slug: fortanix-dataset-api
-- description: APIs regarding obtaining the reports related to AWS.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the reports related to AWS.
   name: Fortanix Discovery Aws Reports API
   slug: fortanix-discoveryawsreports-api
-- description: APIs regarding obtaining the reports related to Azure.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the reports related to Azure.
   name: Fortanix Discovery Azure Reports API
   slug: fortanix-discoveryazurereports-api
-- description: APIs regarding obtaining details about the connection.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining details about the connection.
   name: Fortanix Discovery Connection API
   slug: fortanix-discoveryconnection-api
-- description: APIs regarding obtaining the reports related to DSM.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the reports related to DSM.
   name: Fortanix Discovery Dsm Reports API
   slug: fortanix-discoverydsmreports-api
-- description: APIs regarding obtaining the details about the inventory objects.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the details about the inventory objects.
   name: Fortanix Discovery Inventory API
   slug: fortanix-discoveryinventory-api
-- description: APIs regarding obtaining the reports related to On-Prem infrastructure.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the reports related to On-Prem infrastructure.
   name: Fortanix Discovery On Prem Reports API
   slug: fortanix-discoveryonpremreports-api
-- description: APIs regarding obtaining details about the policies.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining details about the policies.
   name: Fortanix Discovery Policies API
   slug: fortanix-discoverypolicies-api
-- description: APIs regarding obtaining the PQC reports.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the PQC reports.
   name: Fortanix Discovery Pqc Reports API
   slug: fortanix-discoverypqcreports-api
-- description: APIs regarding obtaining details about the scans.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining details about the scans.
   name: Fortanix Discovery Scan API
   slug: fortanix-discoveryscan-api
-- description: APIs regarding obtaining the details about the inventory objects associated to a scan.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the details about the inventory objects associated to a scan.
   name: Fortanix Discovery Scan Inventory API
   slug: fortanix-discoveryscaninventory-api
-- description: APIs regarding obtaining the reports for Services.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: APIs regarding obtaining the reports for Services.
   name: Fortanix Discovery Services Reports API
   slug: fortanix-discoveryservicesreports-api
-- description: The External_roles API from Fortanix — 3 operation(s) for external_roles.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The External_roles API from Fortanix — 3 operation(s) for external_roles.
   name: Fortanix External Roles API
   slug: fortanix-external-roles-api
-- description: The Fido API from Fortanix — 2 operation(s) for fido.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Fido API from Fortanix — 2 operation(s) for fido.
   name: Fortanix Fido API
   slug: fortanix-fido-api
-- description: The Groups API from Fortanix — 10 operation(s) for groups.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Groups API from Fortanix — 10 operation(s) for groups.
   name: Fortanix Groups API
   slug: fortanix-groups-api
-- description: The Keys API from Fortanix — 20 operation(s) for keys.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Keys API from Fortanix — 20 operation(s) for keys.
   name: Fortanix Keys API
   slug: fortanix-keys-api
-- description: The Logs API from Fortanix — 1 operation(s) for logs.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Logs API from Fortanix — 1 operation(s) for logs.
   name: Fortanix Logs API
   slug: fortanix-logs-api
-- description: The Marketplace API from Fortanix — 1 operation(s) for marketplace.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Marketplace API from Fortanix — 1 operation(s) for marketplace.
   name: Fortanix Marketplace API
   slug: fortanix-marketplace-api
-- description: The Misc API from Fortanix — 9 operation(s) for misc.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Misc API from Fortanix — 9 operation(s) for misc.
   name: Fortanix Misc API
   slug: fortanix-misc-api
-- description: The Node API from Fortanix — 5 operation(s) for node.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Node API from Fortanix — 5 operation(s) for node.
   name: Fortanix Node API
   slug: fortanix-node-api
-- description: The Plugins API from Fortanix — 2 operation(s) for plugins.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Plugins API from Fortanix — 2 operation(s) for plugins.
   name: Fortanix Plugins API
   slug: fortanix-plugins-api
-- description: The Registry API from Fortanix — 4 operation(s) for registry.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Registry API from Fortanix — 4 operation(s) for registry.
   name: Fortanix Registry API
   slug: fortanix-registry-api
-- description: The Roles API from Fortanix — 2 operation(s) for roles.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Roles API from Fortanix — 2 operation(s) for roles.
   name: Fortanix Roles API
   slug: fortanix-roles-api
-- description: The Session API from Fortanix — 11 operation(s) for session.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Session API from Fortanix — 11 operation(s) for session.
   name: Fortanix Session API
   slug: fortanix-session-api
-- description: The Stats API from Fortanix — 5 operation(s) for stats.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Stats API from Fortanix — 5 operation(s) for stats.
   name: Fortanix Stats API
   slug: fortanix-stats-api
-- description: The System API from Fortanix — 1 operation(s) for system.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The System API from Fortanix — 1 operation(s) for system.
   name: Fortanix System API
   slug: fortanix-system-api
-- description: The Task API from Fortanix — 3 operation(s) for task.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Task API from Fortanix — 3 operation(s) for task.
   name: Fortanix Task API
   slug: fortanix-task-api
-- description: The Tools API from Fortanix — 2 operation(s) for tools.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Tools API from Fortanix — 2 operation(s) for tools.
   name: Fortanix Tools API
   slug: fortanix-tools-api
-- description: The Users API from Fortanix — 20 operation(s) for users.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Users API from Fortanix — 20 operation(s) for users.
   name: Fortanix Users API
   slug: fortanix-users-api
-- description: The Version API from Fortanix — 1 operation(s) for version.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Version API from Fortanix — 1 operation(s) for version.
   name: Fortanix Version API
   slug: fortanix-version-api
-- description: The Workflow API from Fortanix — 2 operation(s) for workflow.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Workflow API from Fortanix — 2 operation(s) for workflow.
   name: Fortanix Workflow API
   slug: fortanix-workflow-api
-- description: The WorkflowFinal API from Fortanix — 3 operation(s) for workflowfinal.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The WorkflowFinal API from Fortanix — 3 operation(s) for workflowfinal.
   name: Fortanix Workflow Final API
   slug: fortanix-workflowfinal-api
-- description: The WorkflowRuns API from Fortanix — 5 operation(s) for workflowruns.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The WorkflowRuns API from Fortanix — 5 operation(s) for workflowruns.
   name: Fortanix Workflow Runs API
   slug: fortanix-workflowruns-api
-- description: The Zone API from Fortanix — 5 operation(s) for zone.
+- baseURL: https://amer.smartkey.io
+  baseurl_source: declared
+  description: The Zone API from Fortanix — 5 operation(s) for zone.
   name: Fortanix Zone API
   slug: fortanix-zone-api
 artifact_total: 61
@@ -384,7 +496,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -394,7 +506,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 43.0
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,7 +518,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/screenshots/fortanix-2026-08-07T165417.png
 security:

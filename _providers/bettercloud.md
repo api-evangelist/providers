@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 18 operations · 9 acting
 api_count: 5
 apis:
-- description: Query audit events and activity logs
+- baseURL: https://api.bettercloud.com/v1
+  baseurl_source: declared
+  description: Query audit events and activity logs
   name: BetterCloud Events API
   slug: bettercloud-events-api
-- description: Manage groups and group memberships
+- baseURL: https://api.bettercloud.com/v1
+  baseurl_source: declared
+  description: Manage groups and group memberships
   name: BetterCloud Groups API
   slug: bettercloud-groups-api
-- description: Manage SaaS application integrations and connections
+- baseURL: https://api.bettercloud.com/v1
+  baseurl_source: declared
+  description: Manage SaaS application integrations and connections
   name: BetterCloud Integrations API
   slug: bettercloud-integrations-api
-- description: Manage users across integrated SaaS applications
+- baseURL: https://api.bettercloud.com/v1
+  baseurl_source: declared
+  description: Manage users across integrated SaaS applications
   name: BetterCloud Users API
   slug: bettercloud-users-api
-- description: Manage automation workflows and triggers
+- baseURL: https://api.bettercloud.com/v1
+  baseurl_source: declared
+  description: Manage automation workflows and triggers
   name: BetterCloud Workflows API
   slug: bettercloud-workflows-api
 artifact_total: 115
@@ -479,7 +489,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/screenshots/bettercloud-2026-06-20T173204.png
 security:

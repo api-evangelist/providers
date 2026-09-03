@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: The Avm API from RentCast — 2 operation(s) for avm.
+- baseURL: https://api.rentcast.io/v1
+  baseurl_source: declared
+  description: The Avm API from RentCast — 2 operation(s) for avm.
   name: RentCast Avm API
   slug: rentcast-avm-api
-- description: The Listings API from RentCast — 4 operation(s) for listings.
+- baseURL: https://api.rentcast.io/v1
+  baseurl_source: declared
+  description: The Listings API from RentCast — 4 operation(s) for listings.
   name: RentCast Listings API
   slug: rentcast-listings-api
-- description: The Markets API from RentCast — 1 operation(s) for markets.
+- baseURL: https://api.rentcast.io/v1
+  baseurl_source: declared
+  description: The Markets API from RentCast — 1 operation(s) for markets.
   name: RentCast Markets API
   slug: rentcast-markets-api
-- description: The Properties API from RentCast — 3 operation(s) for properties.
+- baseURL: https://api.rentcast.io/v1
+  baseurl_source: declared
+  description: The Properties API from RentCast — 3 operation(s) for properties.
   name: RentCast Properties API
   slug: rentcast-properties-api
 artifact_total: 24
@@ -225,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/screenshots/rentcast-2026-06-20T192855.png
 security:

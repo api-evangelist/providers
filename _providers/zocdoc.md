@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -45,43 +45,69 @@ agentic_access:
   summary_line: 32 operations · 11 acting
 api_count: 1
 apis:
-- description: Endpoints for booking, cancelling, and rescheduling appointments, including retrieving current appointment statuses and updated information.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints for booking, cancelling, and rescheduling appointments, including retrieving current appointment statuses and updated information.
   name: Zocdoc appointments API
   slug: zocdoc-appointments-api
-- description: Endpoints to manage timeslots for providers.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to manage timeslots for providers.
   name: Zocdoc calendar-integration-timeslots API
   slug: zocdoc-calendar-integration-timeslots-api
-- description: Endpoints for managing API credentials.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints for managing API credentials.
   name: Zocdoc credentials API
   slug: zocdoc-credentials-api
-- description: Endpoints to retrieve facilities within the developer's directory.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to retrieve facilities within the developer's directory.
   name: Zocdoc facilities API
   slug: zocdoc-facilities-api
-- description: Endpoints to retrieve insurance plans supported by Zocdoc.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to retrieve insurance plans supported by Zocdoc.
   name: Zocdoc insurance-reference API
   slug: zocdoc-insurance-reference-api
-- description: Endpoints for retrieving and modifying provider location objects and their related insurance plans and availability.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and modifying provider location objects and their related insurance plans and availability.
   name: Zocdoc provider-locations API
   slug: zocdoc-provider-locations-api
-- description: Endpoints to retrieve providers within the developer's directory.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to retrieve providers within the developer's directory.
   name: Zocdoc providers API
   slug: zocdoc-providers-api
-- description: Endpoints to retrieve information about the developer's directory.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to retrieve information about the developer's directory.
   name: Zocdoc reference API
   slug: zocdoc-reference-api
-- description: Endpoints to retrieve schedulable entities with availability information.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to retrieve schedulable entities with availability information.
   name: Zocdoc schedulable-entities API
   slug: zocdoc-schedulable-entities-api
-- description: Sandbox endpoints to mock webhook behavior
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Sandbox endpoints to mock webhook behavior
   name: Zocdoc webhook API
   slug: zocdoc-webhook-api
-- description: Endpoints to retrieve aggregate review summaries for providers, individually or in batches of up to 100 provider IDs.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Endpoints to retrieve aggregate review summaries for providers, individually or in batches of up to 100 provider IDs.
   name: Zocdoc reviews API
   slug: zocdoc-reviews-api
-- description: Reference endpoints to retrieve the specialties Zocdoc supports and their default visit reasons, optionally filtered by care category.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Reference endpoints to retrieve the specialties Zocdoc supports and their default visit reasons, optionally filtered by care category.
   name: Zocdoc specialties API
   slug: zocdoc-specialties-api
-- description: Reference endpoints to retrieve the visit reasons Zocdoc supports and the specialty each one belongs to. Visit reason drives appointment duration and bookable timeslots.
+- baseURL: https://api-developer.zocdoc.com
+  baseurl_source: declared
+  description: Reference endpoints to retrieve the visit reasons Zocdoc supports and the specialty each one belongs to. Visit reason drives appointment duration and bookable timeslots.
   name: Zocdoc visit-reasons API
   slug: zocdoc-visit-reasons-api
 artifact_total: 42
@@ -369,7 +395,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -379,7 +405,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 28.9
-  previous_composite: 65.3
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,7 +423,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:

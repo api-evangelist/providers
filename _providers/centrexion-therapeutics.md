@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Comment collection — one item, the default WordPress sample comment on the placeholder post.
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Comment collection — one item, the default WordPress sample comment on the placeholder post.
   name: Centrexion Therapeutics Comments API
   slug: centrexion-therapeutics-comments-api
-- description: Theme custom post types (`wpex_templates` Dynamic Templates, `wpex_card` Custom Cards). Registered and anonymously reachable, but both report zero published items.
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Theme custom post types (`wpex_templates` Dynamic Templates, `wpex_card` Custom Cards). Registered and anonymously reachable, but both report zero published items.
   name: Centrexion Therapeutics Custom Types API
   slug: centrexion-therapeutics-custom-types-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Centrexion Therapeutics Discovery API
   slug: centrexion-therapeutics-discovery-api
-- description: Media library. `X-WP-Total` reports 43 attachments; anonymous enumeration returns fewer (see the listMedia description).
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Media library. `X-WP-Total` reports 43 attachments; anonymous enumeration returns fewer (see the listMedia description).
   name: Centrexion Therapeutics Media API
   slug: centrexion-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for centrexion.com URLs.
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for centrexion.com URLs.
   name: Centrexion Therapeutics Oembed API
   slug: centrexion-therapeutics-oembed-api
-- description: Corporate pages (6 published at harvest time — Home, Team, Pipeline, Contact, Privacy Policy, Terms of Use).
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages (6 published at harvest time — Home, Team, Pipeline, Contact, Privacy Policy, Terms of Use).
   name: Centrexion Therapeutics Pages API
   slug: centrexion-therapeutics-pages-api
-- description: Author records. Anonymously readable on this deployment. Contains personal data — see the operation description; deliberately excluded from the generated Agent Skills.
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Author records. Anonymously readable on this deployment. Contains personal data — see the operation description; deliberately excluded from the generated Agent Skills.
   name: Centrexion Therapeutics People API
   slug: centrexion-therapeutics-people-api
-- description: The blog/post collection. On this deployment it holds exactly one item — the stock WordPress "Hello world!" placeholder from 2025-07-25. Centrexion publishes no news or press-release archive through R
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: The blog/post collection. On this deployment it holds exactly one item — the stock WordPress "Hello world!" placeholder from 2025-07-25. Centrexion publishes no news or press-release archive through R
   name: Centrexion Therapeutics Posts API
   slug: centrexion-therapeutics-posts-api
-- description: Cross-content search across published objects (7 searchable objects at harvest time).
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects (7 searchable objects at harvest time).
   name: Centrexion Therapeutics Search API
   slug: centrexion-therapeutics-search-api
-- description: Categories, tags and the post_series taxonomy. Only the default `Uncategorized` category exists; `post_tag` and `post_series` are registered but empty.
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags and the post_series taxonomy. Only the default `Uncategorized` category exists; `post_tag` and `post_series` are registered but empty.
   name: Centrexion Therapeutics Taxonomy API
   slug: centrexion-therapeutics-taxonomy-api
 artifact_total: 23
@@ -194,7 +225,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +255,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/centrexion-therapeutics/refs/heads/main/screenshots/centrexion-therapeutics-2026-09-02T145027.png
 security:
 - kind: authentication
   name: Centrexion Therapeutics Authentication

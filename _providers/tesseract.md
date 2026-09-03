@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The clients API from Tesseract — 3 operation(s) for clients.
+- baseURL: https://api.vault.tesseract.fi
+  baseurl_source: declared
+  description: The clients API from Tesseract — 3 operation(s) for clients.
   name: Tesseract clients API
   slug: tesseract-clients-api
-- description: The health API from Tesseract — 1 operation(s) for health.
+- baseURL: https://api.vault.tesseract.fi
+  baseurl_source: declared
+  description: The health API from Tesseract — 1 operation(s) for health.
   name: Tesseract health API
   slug: tesseract-health-api
-- description: The insights API from Tesseract — 5 operation(s) for insights.
+- baseURL: https://api.vault.tesseract.fi
+  baseurl_source: declared
+  description: The insights API from Tesseract — 5 operation(s) for insights.
   name: Tesseract insights API
   slug: tesseract-insights-api
-- description: The strategies API from Tesseract — 2 operation(s) for strategies.
+- baseURL: https://api.vault.tesseract.fi
+  baseurl_source: declared
+  description: The strategies API from Tesseract — 2 operation(s) for strategies.
   name: Tesseract strategies API
   slug: tesseract-strategies-api
-- description: The vaults API from Tesseract — 4 operation(s) for vaults.
+- baseURL: https://api.vault.tesseract.fi
+  baseurl_source: declared
+  description: The vaults API from Tesseract — 4 operation(s) for vaults.
   name: Tesseract vaults API
   slug: tesseract-vaults-api
 artifact_total: 14
@@ -222,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/screenshots/tesseract-2026-08-17T082323.png
 security:

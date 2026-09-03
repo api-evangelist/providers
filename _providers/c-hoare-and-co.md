@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 66 operations · 20 acting
 api_count: 3
 apis:
-- description: The Account Access API from C. Hoare & Co. — 2 operation(s) for account access.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Account Access API from C. Hoare & Co. — 2 operation(s) for account access.
   name: C. Hoare & Co. Account Access API
   slug: c-hoare-and-co-account-access-api
-- description: The Accounts API from C. Hoare & Co. — 2 operation(s) for accounts.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Accounts API from C. Hoare & Co. — 2 operation(s) for accounts.
   name: C. Hoare & Co. Accounts API
   slug: c-hoare-and-co-accounts-api
-- description: The Balances API from C. Hoare & Co. — 2 operation(s) for balances.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Balances API from C. Hoare & Co. — 2 operation(s) for balances.
   name: C. Hoare & Co. Balances API
   slug: c-hoare-and-co-balances-api
-- description: The Beneficiaries API from C. Hoare & Co. — 2 operation(s) for beneficiaries.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from C. Hoare & Co. — 2 operation(s) for beneficiaries.
   name: C. Hoare & Co. Beneficiaries API
   slug: c-hoare-and-co-beneficiaries-api
-- description: The Client Registration API from C. Hoare & Co. — 2 operation(s) for client registration.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Client Registration API from C. Hoare & Co. — 2 operation(s) for client registration.
   name: C. Hoare & Co. Client Registration API
   slug: c-hoare-and-co-client-registration-api
-- description: The Direct Debits API from C. Hoare & Co. — 2 operation(s) for direct debits.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Direct Debits API from C. Hoare & Co. — 2 operation(s) for direct debits.
   name: C. Hoare & Co. Direct Debits API
   slug: c-hoare-and-co-direct-debits-api
-- description: The Domestic Payments API from C. Hoare & Co. — 5 operation(s) for domestic payments.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Payments API from C. Hoare & Co. — 5 operation(s) for domestic payments.
   name: C. Hoare & Co. Domestic Payments API
   slug: c-hoare-and-co-domestic-payments-api
-- description: The Domestic Scheduled Payments API from C. Hoare & Co. — 4 operation(s) for domestic scheduled payments.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from C. Hoare & Co. — 4 operation(s) for domestic scheduled payments.
   name: C. Hoare & Co. Domestic Scheduled Payments API
   slug: c-hoare-and-co-domestic-scheduled-payments-api
-- description: The Domestic Standing Orders API from C. Hoare & Co. — 4 operation(s) for domestic standing orders.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from C. Hoare & Co. — 4 operation(s) for domestic standing orders.
   name: C. Hoare & Co. Domestic Standing Orders API
   slug: c-hoare-and-co-domestic-standing-orders-api
-- description: The File Payments API from C. Hoare & Co. — 6 operation(s) for file payments.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The File Payments API from C. Hoare & Co. — 6 operation(s) for file payments.
   name: C. Hoare & Co. File Payments API
   slug: c-hoare-and-co-file-payments-api
-- description: The International Payments API from C. Hoare & Co. — 5 operation(s) for international payments.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Payments API from C. Hoare & Co. — 5 operation(s) for international payments.
   name: C. Hoare & Co. International Payments API
   slug: c-hoare-and-co-international-payments-api
-- description: The International Scheduled Payments API from C. Hoare & Co. — 5 operation(s) for international scheduled payments.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Scheduled Payments API from C. Hoare & Co. — 5 operation(s) for international scheduled payments.
   name: C. Hoare & Co. International Scheduled Payments API
   slug: c-hoare-and-co-international-scheduled-payments-api
-- description: The International Standing Orders API from C. Hoare & Co. — 4 operation(s) for international standing orders.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Standing Orders API from C. Hoare & Co. — 4 operation(s) for international standing orders.
   name: C. Hoare & Co. International Standing Orders API
   slug: c-hoare-and-co-international-standing-orders-api
-- description: The Offers API from C. Hoare & Co. — 2 operation(s) for offers.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Offers API from C. Hoare & Co. — 2 operation(s) for offers.
   name: C. Hoare & Co. Offers API
   slug: c-hoare-and-co-offers-api
-- description: The Partys API from C. Hoare & Co. — 2 operation(s) for partys.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Partys API from C. Hoare & Co. — 2 operation(s) for partys.
   name: C. Hoare & Co. Partys API
   slug: c-hoare-and-co-partys-api
-- description: The Products API from C. Hoare & Co. — 2 operation(s) for products.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Products API from C. Hoare & Co. — 2 operation(s) for products.
   name: C. Hoare & Co. Products API
   slug: c-hoare-and-co-products-api
-- description: The Scheduled Payments API from C. Hoare & Co. — 2 operation(s) for scheduled payments.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Scheduled Payments API from C. Hoare & Co. — 2 operation(s) for scheduled payments.
   name: C. Hoare & Co. Scheduled Payments API
   slug: c-hoare-and-co-scheduled-payments-api
-- description: The Standing Orders API from C. Hoare & Co. — 2 operation(s) for standing orders.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Standing Orders API from C. Hoare & Co. — 2 operation(s) for standing orders.
   name: C. Hoare & Co. Standing Orders API
   slug: c-hoare-and-co-standing-orders-api
-- description: The Statements API from C. Hoare & Co. — 5 operation(s) for statements.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Statements API from C. Hoare & Co. — 5 operation(s) for statements.
   name: C. Hoare & Co. Statements API
   slug: c-hoare-and-co-statements-api
-- description: The Transactions API from C. Hoare & Co. — 3 operation(s) for transactions.
+- baseURL: https://api.hoaresbank.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Transactions API from C. Hoare & Co. — 3 operation(s) for transactions.
   name: C. Hoare & Co. Transactions API
   slug: c-hoare-and-co-transactions-api
 artifact_total: 28
@@ -294,7 +334,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

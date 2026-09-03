@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Application API from Romit — 1 operation(s) for application.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Application API from Romit — 1 operation(s) for application.
   name: Romit Application API
   slug: romit-application-api
-- description: The Banking API from Romit — 8 operation(s) for banking.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Banking API from Romit — 8 operation(s) for banking.
   name: Romit Banking API
   slug: romit-banking-api
-- description: The Identity API from Romit — 9 operation(s) for identity.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Identity API from Romit — 9 operation(s) for identity.
   name: Romit Identity API
   slug: romit-identity-api
-- description: The Invoice API from Romit — 3 operation(s) for invoice.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Invoice API from Romit — 3 operation(s) for invoice.
   name: Romit Invoice API
   slug: romit-invoice-api
-- description: The OAuth API from Romit — 2 operation(s) for oauth.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The OAuth API from Romit — 2 operation(s) for oauth.
   name: Romit OAuth API
   slug: romit-oauth-api
-- description: The Plan API from Romit — 3 operation(s) for plan.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Plan API from Romit — 3 operation(s) for plan.
   name: Romit Plan API
   slug: romit-plan-api
-- description: The Subscription API from Romit — 3 operation(s) for subscription.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Subscription API from Romit — 3 operation(s) for subscription.
   name: Romit Subscription API
   slug: romit-subscription-api
-- description: The Transfer API from Romit — 5 operation(s) for transfer.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The Transfer API from Romit — 5 operation(s) for transfer.
   name: Romit Transfer API
   slug: romit-transfer-api
-- description: The User API from Romit — 2 operation(s) for user.
+- baseURL: https://api.romit.io/v1
+  baseurl_source: declared
+  description: The User API from Romit — 2 operation(s) for user.
   name: Romit User API
   slug: romit-user-api
 artifact_total: 22
@@ -187,7 +205,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

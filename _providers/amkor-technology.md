@@ -33,34 +33,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
-api_count: 1
+  scored_at: '2026-09-02'
+api_count: 2
 apis:
 - description: Amkor Technology provides outsourced semiconductor packaging and test services for chip manufacturers worldwide. The company does not currently publish a public developer API.
   name: Amkor Technology Website
   slug: website
-artifact_total: 22
+- description: Amkor's centralized B2B infrastructure for exchanging manufacturing information between its factories, sales teams and customers. Delivery protocols published by Amkor are RosettaNet RNIF, FTP/SFTP, E
+  name: Amkor B2B Integration Services
+  slug: b2b-integration
+artifact_total: 23
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/amkor-technology-domain-security.yml
-- group: start
+- group: company
   title: ''
-  type: Portal
-  url: https://www.amkor.com
+  type: Website
+  url: https://amkor.com
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.amkor.com/privacy-policy
+  url: https://amkor.com/privacy-notice/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.amkor.com/terms-of-use
+  url: https://amkor.com/legal/
 - group: operate
   title: ''
   type: Support
-  url: https://www.amkor.com/contact
+  url: https://amkor.com/contact-us/
+- group: company
+  title: ''
+  type: Blog
+  url: https://amkor.com/blog/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amkor-technology-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/amkor-technology-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/amkor-technology-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amkor-technology-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amkor-technology-llms.txt
 - group: company
   title: ''
   type: LinkedIn
@@ -69,6 +96,20 @@ common:
   title: ''
   type: X
   url: https://twitter.com/AmkorTech
+coverage:
+  checked: '2026-09-02'
+  detail: Amkor publishes no web API at all; its only machine-to-machine surface is the B2B Integration Services stack (RosettaNet/EDI/AS2/SFTP/SOAP) whose endpoints, WSDLs and PIP numbers are issued only under a commercial agreement, and the one live application host, api.amkor.com, answers 403 from an Imperva/Incapsula edge to every anonymous request including the site root.
+  evidence:
+  - status: 403
+    url: https://api.amkor.com/
+  - status: 200
+    url: https://amkor.com/b2b-integration-services-solutions/
+  - status: 404
+    url: https://amkor.com/openapi.json
+  - status: 404
+    url: https://amkor.com/.well-known/agent-card.json
+  reason: partner-login
+  state: gated
 created: '2024-01-01'
 description: Amkor Technology is the world's largest US-based provider of outsourced semiconductor packaging and test services (OSAT), serving integrated device manufacturers, fabless semiconductor companies, and contract foundries. The company offers advanced packaging technologies including flip chip, wafer-level packaging, 2.5D/3D TSV, System-in-Package, and chiplet integration solutions for AI, automotive, communications, computing, consumer electronics, industrial, IoT, and networking markets.
 features:
@@ -101,17 +142,17 @@ integrations:
 - description: Integration with electronic design automation tools for package design, thermal simulation, and signal integrity analysis.
   name: EDA Tool Providers
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Amkor Technology
 nav: Providers
 network: true
-overview: 'Amkor Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductor Packaging, OSAT, Test Services, Advanced Packaging, and Chiplets.
+overview: 'Amkor Technology publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductor Packaging, OSAT, Test Services, Advanced Packaging, and Chiplets.
 
 
-  Amkor Technology''s developer surface includes developer portal, support, and 5 more developer resources.'
+  Amkor Technology''s developer surface includes support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Amkor Technology Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: amkor-technology-plans-pricing
 press:
 - date: '2026-05-25'
@@ -131,30 +172,32 @@ press:
   url: https://ir.amkor.com/news-releases/news-release-details/amkor-technology-present-morgan-stanley-technology-media-0
 random_paper: 8
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Amkor Technology Rate Limits
   slug: amkor-technology-rate-limits
 score:
   band: emerging
-  composite: 15.0
+  composite: 15.8
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 69.0
+    artifact_dirs: 13
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 7.9
+    developer_ergonomics: 11.9
+    discoverability: 59.3
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 15.0
+  provenance:
+    conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amkor-technology/refs/heads/main/screenshots/amkor-technology-2026-06-20T171936.png
 security:
@@ -186,5 +229,5 @@ use_cases:
   name: Industrial and IoT
 - description: DRAM, NAND flash, and memory module packaging for storage and memory applications in enterprise and consumer markets.
   name: Memory Packaging
-website: https://www.amkor.com
+website: https://amkor.com
 ---

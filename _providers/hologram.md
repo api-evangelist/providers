@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 13 acting
 api_count: 1
 apis:
-- description: The Cellular Links API from Hologram — 6 operation(s) for cellular links.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Cellular Links API from Hologram — 6 operation(s) for cellular links.
   name: Hologram Cellular Links API
   slug: hologram-cellular-links-api
-- description: The Devices API from Hologram — 3 operation(s) for devices.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Devices API from Hologram — 3 operation(s) for devices.
   name: Hologram Devices API
   slug: hologram-devices-api
-- description: The Messaging API from Hologram — 1 operation(s) for messaging.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Messaging API from Hologram — 1 operation(s) for messaging.
   name: Hologram Messaging API
   slug: hologram-messaging-api
-- description: The Plans API from Hologram — 2 operation(s) for plans.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Plans API from Hologram — 2 operation(s) for plans.
   name: Hologram Plans API
   slug: hologram-plans-api
-- description: The SMS API from Hologram — 1 operation(s) for sms.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The SMS API from Hologram — 1 operation(s) for sms.
   name: Hologram SMS API
   slug: hologram-sms-api
-- description: The Tags API from Hologram — 4 operation(s) for tags.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Tags API from Hologram — 4 operation(s) for tags.
   name: Hologram Tags API
   slug: hologram-tags-api
-- description: The Usage API from Hologram — 3 operation(s) for usage.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Usage API from Hologram — 3 operation(s) for usage.
   name: Hologram Usage API
   slug: hologram-usage-api
-- description: The Webhooks API from Hologram — 1 operation(s) for webhooks.
+- baseURL: https://dashboard.hologram.io/api/1
+  baseurl_source: declared
+  description: The Webhooks API from Hologram — 1 operation(s) for webhooks.
   name: Hologram Webhooks API
   slug: hologram-webhooks-api
 artifact_total: 24
@@ -203,7 +219,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/screenshots/hologram-2026-07-25T221329.png
 security:

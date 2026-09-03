@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: JavaScript API for building add-ins for Word, Excel, PowerPoint, and Outlook.
   name: Office Add-ins API
   slug: office-add-ins-api
-- description: The Groups API from Microsoft Office APIs — 1 operation(s) for groups.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups API from Microsoft Office APIs — 1 operation(s) for groups.
   name: Microsoft Office APIs Groups API
   slug: ms-office-groups-api
-- description: The Me API from Microsoft Office APIs — 5 operation(s) for me.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me API from Microsoft Office APIs — 5 operation(s) for me.
   name: Microsoft Office APIs Me API
   slug: ms-office-me-api
-- description: The Users API from Microsoft Office APIs — 1 operation(s) for users.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users API from Microsoft Office APIs — 1 operation(s) for users.
   name: Microsoft Office APIs Users API
   slug: ms-office-users-api
 artifact_total: 17
@@ -179,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-office/refs/heads/main/screenshots/ms-office-2026-06-20T185846.png
 security:

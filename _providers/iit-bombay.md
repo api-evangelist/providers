@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: IIT Bombay's campus-life API and the single largest first-party programmable surface the institution operates. 112 paths and 164 operations over student bodies and their role graphs (154 bodies live),
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: IIT Bombay's campus-life API and the single largest first-party programmable surface the institution operates. 112 paths and 164 operations over student bodies and their role graphs (154 bodies live),
   name: InstiApp API
   slug: instiapp-api
 - description: 'The IIT Bombay Computer Centre''s central identity provider, and the credential every institutional service sits behind. It publishes a live OpenID Connect Discovery 1.0 document and a JWKS: issuer htt'
@@ -181,23 +183,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.7
+  composite: 46.5
   coverage:
     artifact_dirs: 17
     catalog_gap: 41.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -3.1
+  delta: 0.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 29.5
-    contract_quality: 52.7
+    contract_quality: 55.9
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 29.5
     operational_transparency: 23.7
-  previous_composite: 48.8
+  previous_composite: 45.7
   provenance:
     conformance: first-party
     contracts:
@@ -212,7 +214,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-bombay/refs/heads/main/screenshots/iit-bombay-2026-06-20T183229.png
 security:

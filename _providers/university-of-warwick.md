@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Warwick's Shibboleth SAML 2.0 identity provider. Publishes unauthenticated, machine-readable federation metadata as a SAML EntityDescriptor with entityID https://idp.warwick.ac.uk/idp/shibboleth, a sh
@@ -55,16 +55,24 @@ apis:
 - description: 'The Warwick Students'' Union publishes a Membership API for validating membership and retrieving member rosters. Two reasons this is not credited to the University: the Students'' Union is a separate le'
   name: Warwick SU Membership API
   slug: su-membership
-- description: Departments and modules.
+- baseURL: https://tabula.warwick.ac.uk/api/v1
+  baseurl_source: declared
+  description: Departments and modules.
   name: University of Warwick Administration API
   slug: university-of-warwick-administration-api
-- description: Long-running asynchronous job instances.
+- baseURL: https://tabula.warwick.ac.uk/api/v1
+  baseurl_source: declared
+  description: Long-running asynchronous job instances.
   name: University of Warwick Jobs API
   slug: university-of-warwick-jobs-api
-- description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+- baseURL: https://tabula.warwick.ac.uk/api/v1
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
   name: University of Warwick OAI PMH API
   slug: university-of-warwick-oai-pmh-api
-- description: Term dates, term weeks, holiday dates, and module/member timetables.
+- baseURL: https://tabula.warwick.ac.uk/api/v1
+  baseurl_source: declared
+  description: Term dates, term weeks, holiday dates, and module/member timetables.
   name: University of Warwick Timetabling API
   slug: university-of-warwick-timetabling-api
 artifact_total: 26
@@ -279,7 +287,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -289,7 +297,7 @@ score:
     discoverability: 68.5
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 60.2
+  previous_composite: 60.1
   provenance:
     conformance: first-party
     contracts:
@@ -304,7 +312,7 @@ score:
     regime_id: education
     score: 90.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/screenshots/university-of-warwick-2026-06-20T200340.png
 security:

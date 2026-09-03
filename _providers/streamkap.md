@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 32 operations · 17 acting
 api_count: 1
 apis:
-- description: Obtain and refresh access tokens and manage credentials.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Obtain and refresh access tokens and manage credentials.
   name: Streamkap Authentication API
   slug: streamkap-authentication-api
-- description: Discover available connector types.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Discover available connector types.
   name: Streamkap Connectors API
   slug: streamkap-connectors-api
-- description: Configure and manage sink destinations.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Configure and manage sink destinations.
   name: Streamkap Destinations API
   slug: streamkap-destinations-api
-- description: Manage Kafka users and permissions.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Manage Kafka users and permissions.
   name: Streamkap Kafka Access API
   slug: streamkap-kafka-access-api
-- description: Manage CDC pipelines and their lifecycle.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Manage CDC pipelines and their lifecycle.
   name: Streamkap Pipelines API
   slug: streamkap-pipelines-api
-- description: Configure source connectors and snapshots.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Configure source connectors and snapshots.
   name: Streamkap Sources API
   slug: streamkap-sources-api
-- description: Create and manage resource tags.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Create and manage resource tags.
   name: Streamkap Tags API
   slug: streamkap-tags-api
-- description: Manage underlying Kafka topics.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Manage underlying Kafka topics.
   name: Streamkap Topics API
   slug: streamkap-topics-api
-- description: Deploy and manage in-stream transforms.
+- baseURL: https://api.streamkap.com/api
+  baseurl_source: declared
+  description: Deploy and manage in-stream transforms.
   name: Streamkap Transforms API
   slug: streamkap-transforms-api
 artifact_total: 27
@@ -173,7 +203,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +226,9 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/screenshots/streamkap-2026-09-02T161001.png
 security:
 - kind: authentication
   name: Streamkap Authentication

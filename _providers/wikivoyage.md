@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 24 operations · 7 acting · 1 human-in-the-loop
 api_count: 14
 apis:
-- description: Login, logout, token retrieval (action=login, clientlogin, logout, query&meta=tokens)
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Login, logout, token retrieval (action=login, clientlogin, logout, query&meta=tokens)
   name: Wikivoyage Authentication API
   slug: wikivoyage-authentication-api
-- description: Create/modify travel guide content (action=edit)
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Create/modify travel guide content (action=edit)
   name: Wikivoyage Edit API
   slug: wikivoyage-edit-api
-- description: Media file metadata for travel images and maps
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Media file metadata for travel images and maps
   name: Wikivoyage Files API
   slug: wikivoyage-files-api
-- description: Travel article revision history and edit statistics
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Travel article revision history and edit statistics
   name: Wikivoyage History API
   slug: wikivoyage-history-api
-- description: Page relationships — language editions and media links
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Page relationships — language editions and media links
   name: Wikivoyage Links API
   slug: wikivoyage-links-api
-- description: Metadata operations (action=opensearch, action=feedrecentchanges)
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Metadata operations (action=opensearch, action=feedrecentchanges)
   name: Wikivoyage Meta API
   slug: wikivoyage-meta-api
-- description: Travel article metadata, HTML, source, create, update
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Travel article metadata, HTML, source, create, update
   name: Wikivoyage Pages API
   slug: wikivoyage-pages-api
-- description: Wikitext parsing (action=parse) for travel article content
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Wikitext parsing (action=parse) for travel article content
   name: Wikivoyage Parse API
   slug: wikivoyage-parse-api
-- description: Mark edits as patrolled (action=patrol)
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Mark edits as patrolled (action=patrol)
   name: Wikivoyage Patrol API
   slug: wikivoyage-patrol-api
-- description: Read-only data retrieval (action=query) — travel articles, revisions, links, search
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Read-only data retrieval (action=query) — travel articles, revisions, links, search
   name: Wikivoyage Query API
   slug: wikivoyage-query-api
-- description: Individual revision retrieval and comparison
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Individual revision retrieval and comparison
   name: Wikivoyage Revisions API
   slug: wikivoyage-revisions-api
-- description: Title and full-text search across Wikivoyage travel articles
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Title and full-text search across Wikivoyage travel articles
   name: Wikivoyage Search API
   slug: wikivoyage-search-api
-- description: Wikitext <-> HTML transformation for travel content
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: Wikitext <-> HTML transformation for travel content
   name: Wikivoyage Transforms API
   slug: wikivoyage-transforms-api
-- description: File upload (action=upload)
+- baseURL: https://en.wikivoyage.org/w/api.php
+  baseurl_source: declared
+  description: File upload (action=upload)
   name: Wikivoyage Upload API
   slug: wikivoyage-upload-api
 artifact_total: 38
@@ -276,7 +304,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/screenshots/wikivoyage-2026-06-20T201502.png
 security:

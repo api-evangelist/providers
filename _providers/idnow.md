@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 4 acting
 api_count: 1
 apis:
-- description: The Authentication API from IDnow — 1 operation(s) for authentication.
+- baseURL: https://gateway.idnow.de/api/v1
+  baseurl_source: declared
+  description: The Authentication API from IDnow — 1 operation(s) for authentication.
   name: IDnow Authentication API
   slug: idnow-authentication-api
-- description: The Identifications API from IDnow — 2 operation(s) for identifications.
+- baseURL: https://gateway.idnow.de/api/v1
+  baseurl_source: declared
+  description: The Identifications API from IDnow — 2 operation(s) for identifications.
   name: IDnow Identifications API
   slug: idnow-identifications-api
-- description: The Results API from IDnow — 1 operation(s) for results.
+- baseURL: https://gateway.idnow.de/api/v1
+  baseurl_source: declared
+  description: The Results API from IDnow — 1 operation(s) for results.
   name: IDnow Results API
   slug: idnow-results-api
-- description: The VideoIdent API from IDnow — 1 operation(s) for videoident.
+- baseURL: https://gateway.idnow.de/api/v1
+  baseurl_source: declared
+  description: The VideoIdent API from IDnow — 1 operation(s) for videoident.
   name: IDnow VideoIdent API
   slug: idnow-videoident-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idnow/refs/heads/main/screenshots/idnow-2026-07-25T222031.png
 security:

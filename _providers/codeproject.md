@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 42 operations · 29 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Articles, technical blogs, and tips and tricks (rating >= 3.0).
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Articles, technical blogs, and tips and tricks (rating >= 3.0).
   name: CodeProject Articles API
   slug: codeproject-articles-api
-- description: Sound classification.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Sound classification.
   name: CodeProject Audio API
   slug: codeproject-audio-api
-- description: Latest messages for a forum or message thread.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Latest messages for a forum or message thread.
   name: CodeProject ForumMessages API
   slug: codeproject-forummessages-api
-- description: Background removal, cartoonise, portrait filter, super-resolution.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Background removal, cartoonise, portrait filter, super-resolution.
   name: CodeProject Image-Processing API
   slug: codeproject-image-processing-api
-- description: Authenticated user resources (answers, articles, blogs, bookmarks, notifications, profile, reputation, tips).
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Authenticated user resources (answers, articles, blogs, bookmarks, notifications, profile, reputation, tips).
   name: CodeProject My API
   slug: codeproject-my-api
-- description: Q&A questions (new, active, unanswered).
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Q&A questions (new, active, unanswered).
   name: CodeProject Questions API
   slug: codeproject-questions-api
-- description: Server status, version, logs, and update checks.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Server status, version, logs, and update checks.
   name: CodeProject Status API
   slug: codeproject-status-api
-- description: Sentiment analysis and summarization.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Sentiment analysis and summarization.
   name: CodeProject Text API
   slug: codeproject-text-api
-- description: Custom YOLO dataset and model training lifecycle.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Custom YOLO dataset and model training lifecycle.
   name: CodeProject Training API
   slug: codeproject-training-api
-- description: Automatic license-plate recognition.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Automatic license-plate recognition.
   name: CodeProject Vision-ALPR API
   slug: codeproject-vision-alpr-api
-- description: Object detection across general and custom YOLO models.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Object detection across general and custom YOLO models.
   name: CodeProject Vision-Detection API
   slug: codeproject-vision-detection-api
-- description: Face detection, comparison, registration, and recognition.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Face detection, comparison, registration, and recognition.
   name: CodeProject Vision-Face API
   slug: codeproject-vision-face-api
-- description: Scene classification.
+- baseURL: https://api.codeproject.com
+  baseurl_source: declared
+  description: Scene classification.
   name: CodeProject Vision-Scene API
   slug: codeproject-vision-scene-api
 artifact_total: 38
@@ -272,7 +298,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -285,7 +311,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 43.6
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -294,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/screenshots/codeproject-2026-06-20T174804.png
 security:

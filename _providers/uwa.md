@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: An open, unauthenticated OAI-PMH 2.0 metadata harvesting endpoint operated by UWA on its own host. All six protocol verbs returned 200 on 2026-08-30 with no credential presented. Identify reports admi
+- baseURL: https://api.research-repository.uwa.edu.au/ws/oai
+  baseurl_source: declared
+  description: An open, unauthenticated OAI-PMH 2.0 metadata harvesting endpoint operated by UWA on its own host. All six protocol verbs returned 200 on 2026-08-30 with no credential presented. Identify reports admi
   name: UWA Research Repository OAI-PMH
   slug: oai-pmh
 - description: UWA operates its own Shibboleth identity provider and publishes signed SAML 2.0 federation metadata at https://idp.uwa.edu.au/idp/shibboleth (200, 5,081 bytes). The document is an EntityDescriptor wit
@@ -201,7 +203,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:

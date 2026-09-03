@@ -35,178 +35,292 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Accounts API from Cacheflow — 7 operation(s) for accounts.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Accounts API from Cacheflow — 7 operation(s) for accounts.
   name: Cacheflow Accounts API
   slug: cacheflow-accounts-api
-- description: The Addresses API from Cacheflow — 2 operation(s) for addresses.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Addresses API from Cacheflow — 2 operation(s) for addresses.
   name: Cacheflow Addresses API
   slug: cacheflow-addresses-api
-- description: The Approval Groups API from Cacheflow — 3 operation(s) for approval groups.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Approval Groups API from Cacheflow — 3 operation(s) for approval groups.
   name: Cacheflow Approval Groups API
   slug: cacheflow-approval-groups-api
-- description: The Approval Requests API from Cacheflow — 1 operation(s) for approval requests.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Approval Requests API from Cacheflow — 1 operation(s) for approval requests.
   name: Cacheflow Approval Requests API
   slug: cacheflow-approval-requests-api
-- description: The Attachments API from Cacheflow — 2 operation(s) for attachments.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Attachments API from Cacheflow — 2 operation(s) for attachments.
   name: Cacheflow Attachments API
   slug: cacheflow-attachments-api
-- description: The Authentication API from Cacheflow — 1 operation(s) for authentication.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Authentication API from Cacheflow — 1 operation(s) for authentication.
   name: Cacheflow Authentication API
   slug: cacheflow-authentication-api
-- description: The Branding API from Cacheflow — 6 operation(s) for branding.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Branding API from Cacheflow — 6 operation(s) for branding.
   name: Cacheflow Branding API
   slug: cacheflow-branding-api
-- description: The Checkout API from Cacheflow — 6 operation(s) for checkout.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Checkout API from Cacheflow — 6 operation(s) for checkout.
   name: Cacheflow Checkout API
   slug: cacheflow-checkout-api
-- description: The Close API from Cacheflow — 3 operation(s) for close.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Close API from Cacheflow — 3 operation(s) for close.
   name: Cacheflow Close API
   slug: cacheflow-close-api
-- description: The Contacts API from Cacheflow — 2 operation(s) for contacts.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Contacts API from Cacheflow — 2 operation(s) for contacts.
   name: Cacheflow Contacts API
   slug: cacheflow-contacts-api
-- description: The Countries API from Cacheflow — 2 operation(s) for countries.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Countries API from Cacheflow — 2 operation(s) for countries.
   name: Cacheflow Countries API
   slug: cacheflow-countries-api
-- description: The CRM API from Cacheflow — 11 operation(s) for crm.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The CRM API from Cacheflow — 11 operation(s) for crm.
   name: Cacheflow CRM API
   slug: cacheflow-crm-api
-- description: The Currencies API from Cacheflow — 3 operation(s) for currencies.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Currencies API from Cacheflow — 3 operation(s) for currencies.
   name: Cacheflow Currencies API
   slug: cacheflow-currencies-api
-- description: The Customers API from Cacheflow — 3 operation(s) for customers.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Customers API from Cacheflow — 3 operation(s) for customers.
   name: Cacheflow Customers API
   slug: cacheflow-customers-api
-- description: The Documents API from Cacheflow — 5 operation(s) for documents.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Documents API from Cacheflow — 5 operation(s) for documents.
   name: Cacheflow Documents API
   slug: cacheflow-documents-api
-- description: The DocuSign API from Cacheflow — 6 operation(s) for docusign.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The DocuSign API from Cacheflow — 6 operation(s) for docusign.
   name: Cacheflow Docu Sign API
   slug: cacheflow-docusign-api
-- description: The Events API from Cacheflow — 1 operation(s) for events.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Events API from Cacheflow — 1 operation(s) for events.
   name: Cacheflow Events API
   slug: cacheflow-events-api
-- description: The HubSpot Deals API from Cacheflow — 3 operation(s) for hubspot deals.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The HubSpot Deals API from Cacheflow — 3 operation(s) for hubspot deals.
   name: Cacheflow HubSpot Deals API
   slug: cacheflow-hubspot-deals-api
-- description: The HubSpot Webhooks API from Cacheflow — 1 operation(s) for hubspot webhooks.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The HubSpot Webhooks API from Cacheflow — 1 operation(s) for hubspot webhooks.
   name: Cacheflow HubSpot Webhooks API
   slug: cacheflow-hubspot-webhooks-api
-- description: The Index API from Cacheflow — 1 operation(s) for index.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Index API from Cacheflow — 1 operation(s) for index.
   name: Cacheflow Index API
   slug: cacheflow-index-api
-- description: The Integrations API from Cacheflow — 23 operation(s) for integrations.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Integrations API from Cacheflow — 23 operation(s) for integrations.
   name: Cacheflow Integrations API
   slug: cacheflow-integrations-api
-- description: The Invoice API from Cacheflow — 1 operation(s) for invoice.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Invoice API from Cacheflow — 1 operation(s) for invoice.
   name: Cacheflow Invoice API
   slug: cacheflow-invoice-api
-- description: The Invoice Configurations API from Cacheflow — 1 operation(s) for invoice configurations.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Invoice Configurations API from Cacheflow — 1 operation(s) for invoice configurations.
   name: Cacheflow Invoice Configurations API
   slug: cacheflow-invoice-configurations-api
-- description: The Invoices API from Cacheflow — 11 operation(s) for invoices.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Invoices API from Cacheflow — 11 operation(s) for invoices.
   name: Cacheflow Invoices API
   slug: cacheflow-invoices-api
-- description: The Latest API from Cacheflow — 2 operation(s) for latest.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Latest API from Cacheflow — 2 operation(s) for latest.
   name: Cacheflow Latest API
   slug: cacheflow-latest-api
-- description: The Metabase API from Cacheflow — 2 operation(s) for metabase.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Metabase API from Cacheflow — 2 operation(s) for metabase.
   name: Cacheflow Metabase API
   slug: cacheflow-metabase-api
-- description: The Metrics API from Cacheflow — 3 operation(s) for metrics.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Metrics API from Cacheflow — 3 operation(s) for metrics.
   name: Cacheflow Metrics API
   slug: cacheflow-metrics-api
-- description: The Migration API from Cacheflow — 2 operation(s) for migration.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Migration API from Cacheflow — 2 operation(s) for migration.
   name: Cacheflow Migration API
   slug: cacheflow-migration-api
-- description: The Organizations API from Cacheflow — 4 operation(s) for organizations.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Organizations API from Cacheflow — 4 operation(s) for organizations.
   name: Cacheflow Organizations API
   slug: cacheflow-organizations-api
-- description: The Payment Methods API from Cacheflow — 4 operation(s) for payment methods.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Payment Methods API from Cacheflow — 4 operation(s) for payment methods.
   name: Cacheflow Payment Methods API
   slug: cacheflow-payment-methods-api
-- description: The Payment Schedules API from Cacheflow — 1 operation(s) for payment schedules.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Payment Schedules API from Cacheflow — 1 operation(s) for payment schedules.
   name: Cacheflow Payment Schedules API
   slug: cacheflow-payment-schedules-api
-- description: The Payment Terms API from Cacheflow — 3 operation(s) for payment terms.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Payment Terms API from Cacheflow — 3 operation(s) for payment terms.
   name: Cacheflow Payment Terms API
   slug: cacheflow-payment-terms-api
-- description: The Payments API from Cacheflow — 5 operation(s) for payments.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Payments API from Cacheflow — 5 operation(s) for payments.
   name: Cacheflow Payments API
   slug: cacheflow-payments-api
-- description: The Payouts API from Cacheflow — 1 operation(s) for payouts.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Payouts API from Cacheflow — 1 operation(s) for payouts.
   name: Cacheflow Payouts API
   slug: cacheflow-payouts-api
-- description: The Products API from Cacheflow — 10 operation(s) for products.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Products API from Cacheflow — 10 operation(s) for products.
   name: Cacheflow Products API
   slug: cacheflow-products-api
-- description: The Proposal Approval Rules API from Cacheflow — 2 operation(s) for proposal approval rules.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Proposal Approval Rules API from Cacheflow — 2 operation(s) for proposal approval rules.
   name: Cacheflow Proposal Approval Rules API
   slug: cacheflow-proposal-approval-rules-api
-- description: The Proposal Approvals API from Cacheflow — 3 operation(s) for proposal approvals.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Proposal Approvals API from Cacheflow — 3 operation(s) for proposal approvals.
   name: Cacheflow Proposal Approvals API
   slug: cacheflow-proposal-approvals-api
-- description: The Proposal Deltas API from Cacheflow — 1 operation(s) for proposal deltas.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Proposal Deltas API from Cacheflow — 1 operation(s) for proposal deltas.
   name: Cacheflow Proposal Deltas API
   slug: cacheflow-proposal-deltas-api
-- description: The Proposals API from Cacheflow — 43 operation(s) for proposals.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Proposals API from Cacheflow — 43 operation(s) for proposals.
   name: Cacheflow Proposals API
   slug: cacheflow-proposals-api
-- description: The Refunds API from Cacheflow — 5 operation(s) for refunds.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Refunds API from Cacheflow — 5 operation(s) for refunds.
   name: Cacheflow Refunds API
   slug: cacheflow-refunds-api
-- description: The Renewal Configurations API from Cacheflow — 1 operation(s) for renewal configurations.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Renewal Configurations API from Cacheflow — 1 operation(s) for renewal configurations.
   name: Cacheflow Renewal Configurations API
   slug: cacheflow-renewal-configurations-api
-- description: The Roles API from Cacheflow — 2 operation(s) for roles.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Roles API from Cacheflow — 2 operation(s) for roles.
   name: Cacheflow Roles API
   slug: cacheflow-roles-api
-- description: The Salesforce API from Cacheflow — 3 operation(s) for salesforce.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Salesforce API from Cacheflow — 3 operation(s) for salesforce.
   name: Cacheflow Salesforce API
   slug: cacheflow-salesforce-api
-- description: The Self Service API from Cacheflow — 2 operation(s) for self service.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Self Service API from Cacheflow — 2 operation(s) for self service.
   name: Cacheflow Self Service API
   slug: cacheflow-self-service-api
-- description: The Settings API from Cacheflow — 6 operation(s) for settings.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Settings API from Cacheflow — 6 operation(s) for settings.
   name: Cacheflow Settings API
   slug: cacheflow-settings-api
-- description: The Slack API from Cacheflow — 5 operation(s) for slack.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Slack API from Cacheflow — 5 operation(s) for slack.
   name: Cacheflow Slack API
   slug: cacheflow-slack-api
-- description: The Stripe API from Cacheflow — 6 operation(s) for stripe.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Stripe API from Cacheflow — 6 operation(s) for stripe.
   name: Cacheflow Stripe API
   slug: cacheflow-stripe-api
-- description: The Subscriptions API from Cacheflow — 16 operation(s) for subscriptions.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Subscriptions API from Cacheflow — 16 operation(s) for subscriptions.
   name: Cacheflow Subscriptions API
   slug: cacheflow-subscriptions-api
-- description: The System API from Cacheflow — 33 operation(s) for system.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The System API from Cacheflow — 33 operation(s) for system.
   name: Cacheflow System API
   slug: cacheflow-system-api
-- description: The Taxes API from Cacheflow — 4 operation(s) for taxes.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Taxes API from Cacheflow — 4 operation(s) for taxes.
   name: Cacheflow Taxes API
   slug: cacheflow-taxes-api
-- description: The Tokens API from Cacheflow — 2 operation(s) for tokens.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Tokens API from Cacheflow — 2 operation(s) for tokens.
   name: Cacheflow Tokens API
   slug: cacheflow-tokens-api
-- description: The Transfers API from Cacheflow — 6 operation(s) for transfers.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Transfers API from Cacheflow — 6 operation(s) for transfers.
   name: Cacheflow Transfers API
   slug: cacheflow-transfers-api
-- description: The UOMs API from Cacheflow — 2 operation(s) for uoms.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The UOMs API from Cacheflow — 2 operation(s) for uoms.
   name: Cacheflow UO Ms API
   slug: cacheflow-uoms-api
-- description: The Usage API from Cacheflow — 2 operation(s) for usage.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Usage API from Cacheflow — 2 operation(s) for usage.
   name: Cacheflow Usage API
   slug: cacheflow-usage-api
-- description: The User Groups API from Cacheflow — 3 operation(s) for user groups.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The User Groups API from Cacheflow — 3 operation(s) for user groups.
   name: Cacheflow User Groups API
   slug: cacheflow-user-groups-api
-- description: The Users API from Cacheflow — 11 operation(s) for users.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Users API from Cacheflow — 11 operation(s) for users.
   name: Cacheflow Users API
   slug: cacheflow-users-api
-- description: The Webhooks API from Cacheflow — 6 operation(s) for webhooks.
+- baseURL: https://api.getcacheflow.com
+  baseurl_source: declared
+  description: The Webhooks API from Cacheflow — 6 operation(s) for webhooks.
   name: Cacheflow Webhooks API
   slug: cacheflow-webhooks-api
 artifact_total: 63
@@ -352,7 +466,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -362,7 +476,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 28.3
+  previous_composite: 28.2
   provenance:
     conformance: derived
     contracts:
@@ -379,7 +493,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cacheflow/refs/heads/main/screenshots/cacheflow-2026-07-25T204205.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,25 +62,39 @@ apis:
 - description: Embed Power BI reports and dashboards, and manage Power BI resources programmatically.
   name: Power BI API
   slug: power-bi-api
-- description: The Calendar API from Microsoft Suite — 2 operation(s) for calendar.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Calendar API from Microsoft Suite — 2 operation(s) for calendar.
   name: Microsoft Suite Calendar API
   slug: microsoft-suite-calendar-api
-- description: The Files API from Microsoft Suite — 2 operation(s) for files.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Files API from Microsoft Suite — 2 operation(s) for files.
   name: Microsoft Suite Files API
   slug: microsoft-suite-files-api
-- description: The Groups API from Microsoft Suite — 2 operation(s) for groups.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Groups API from Microsoft Suite — 2 operation(s) for groups.
   name: Microsoft Suite Groups API
   slug: microsoft-suite-groups-api
-- description: The Mail API from Microsoft Suite — 2 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Mail API from Microsoft Suite — 2 operation(s) for mail.
   name: Microsoft Suite Mail API
   slug: microsoft-suite-mail-api
-- description: The Subscriptions API from Microsoft Suite — 1 operation(s) for subscriptions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Subscriptions API from Microsoft Suite — 1 operation(s) for subscriptions.
   name: Microsoft Suite Subscriptions API
   slug: microsoft-suite-subscriptions-api
-- description: The Teams API from Microsoft Suite — 1 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Teams API from Microsoft Suite — 1 operation(s) for teams.
   name: Microsoft Suite Teams API
   slug: microsoft-suite-teams-api
-- description: The Users API from Microsoft Suite — 6 operation(s) for users.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Users API from Microsoft Suite — 6 operation(s) for users.
   name: Microsoft Suite Users API
   slug: microsoft-suite-users-api
 artifact_total: 29
@@ -191,7 +205,7 @@ score:
     catalog_gap: 89.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -201,7 +215,7 @@ score:
     discoverability: 38.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.1
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -210,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/screenshots/microsoft-suite-2026-06-20T185537.png
 security:

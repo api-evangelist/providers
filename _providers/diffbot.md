@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,31 +50,45 @@ apis:
 - description: Diffbot Enhance API enhances data by providing additional context and insights. By analyzing text and images, the API can identify and extract key information, such as entities, topics, and sentiment,
   name: Diffbot Enhance API
   slug: diffbot-enhance-api
-- description: Diffbot Natural Language API allows users to extract and analyze textual content from websites. By utilizing advanced natural language processing algorithms, the API can automatically identify and ext
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: Diffbot Natural Language API allows users to extract and analyze textual content from websites. By utilizing advanced natural language processing algorithms, the API can automatically identify and ext
   name: Diffbot Natural Language API
   slug: diffbot-natural-language-api
-- description: Diffbot Extract API is a powerful tool that allows users to automatically extract multiple types of data from web pages. This API is capable of extracting information such as article text, author deta
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: Diffbot Extract API is a powerful tool that allows users to automatically extract multiple types of data from web pages. This API is capable of extracting information such as article text, author deta
   name: Diffbot Extract API
   slug: diffbot-extract-api
 - description: Diffbot Bulk Extract API is a tool that allows users to extract data at scale from a variety of sources, including websites, documents, and social media platforms. This API utilizes machine learning a
   name: Diffbot Bulk Extract API
   slug: diffbot-bulk-extract-api
-- description: Diffbot Crawl API is a powerful tool that automates the process of extracting content and data from websites on a large scale. By using advanced machine learning algorithms, the API can analyze and ex
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: Diffbot Crawl API is a powerful tool that automates the process of extracting content and data from websites on a large scale. By using advanced machine learning algorithms, the API can analyze and ex
   name: Diffbot Crawl API
   slug: diffbot-crawl-api
 - description: The Diffbot Crawl/Bulk Job API is a powerful tool that allows users to automatically extract and organize large amounts of web data. It enables users to create custom scraping jobs that can gather inf
   name: Diffbot Crawl/Bulk Job API
   slug: diffbot-crawlbulk-job-api
-- description: The Crawl API from Diffbot — 2 operation(s) for crawl.
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: The Crawl API from Diffbot — 2 operation(s) for crawl.
   name: Diffbot Crawl API
   slug: diffbot-crawl-api
-- description: The Extract API from Diffbot — 9 operation(s) for extract.
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: The Extract API from Diffbot — 9 operation(s) for extract.
   name: Diffbot Extract API
   slug: diffbot-extract-api
-- description: The Knowledge Graph API from Diffbot — 2 operation(s) for knowledge graph.
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: The Knowledge Graph API from Diffbot — 2 operation(s) for knowledge graph.
   name: Diffbot Knowledge Graph API
   slug: diffbot-knowledge-graph-api
-- description: The Natural Language API from Diffbot — 1 operation(s) for natural language.
+- baseURL: https://api.diffbot.com
+  baseurl_source: spec
+  description: The Natural Language API from Diffbot — 1 operation(s) for natural language.
   name: Diffbot Natural Language API
   slug: diffbot-natural-language-api
 artifact_total: 23
@@ -222,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/screenshots/diffbot-2026-06-20T180012.png
 security:

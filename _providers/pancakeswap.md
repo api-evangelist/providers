@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,22 +64,34 @@ apis:
 - description: GraphQL subgraph for querying PancakeSwap yield farming data via MasterChef V3 on BNB Smart Chain, including active farms, CAKE emission rates, staking positions, and farm APR data for V3 concentrated
   name: PancakeSwap MasterChef V3 Subgraph
   slug: pancakeswap-masterchef-v3-subgraph
-- description: The Leaderboard API from PancakeSwap — 2 operation(s) for leaderboard.
+- baseURL: https://api.pancakeswap.info
+  baseurl_source: declared
+  description: The Leaderboard API from PancakeSwap — 2 operation(s) for leaderboard.
   name: PancakeSwap Leaderboard API
   slug: pancakeswap-leaderboard-api
-- description: The Miscellaneous API from PancakeSwap — 1 operation(s) for miscellaneous.
+- baseURL: https://api.pancakeswap.info
+  baseurl_source: declared
+  description: The Miscellaneous API from PancakeSwap — 1 operation(s) for miscellaneous.
   name: PancakeSwap Miscellaneous API
   slug: pancakeswap-miscellaneous-api
-- description: The Pairs API from PancakeSwap — 1 operation(s) for pairs.
+- baseURL: https://api.pancakeswap.info
+  baseurl_source: declared
+  description: The Pairs API from PancakeSwap — 1 operation(s) for pairs.
   name: PancakeSwap Pairs API
   slug: pancakeswap-pairs-api
-- description: The Summary API from PancakeSwap — 1 operation(s) for summary.
+- baseURL: https://api.pancakeswap.info
+  baseurl_source: declared
+  description: The Summary API from PancakeSwap — 1 operation(s) for summary.
   name: PancakeSwap Summary API
   slug: pancakeswap-summary-api
-- description: The Tokens API from PancakeSwap — 2 operation(s) for tokens.
+- baseURL: https://api.pancakeswap.info
+  baseurl_source: declared
+  description: The Tokens API from PancakeSwap — 2 operation(s) for tokens.
   name: PancakeSwap Tokens API
   slug: pancakeswap-tokens-api
-- description: The Users API from PancakeSwap — 3 operation(s) for users.
+- baseURL: https://api.pancakeswap.info
+  baseurl_source: declared
+  description: The Users API from PancakeSwap — 3 operation(s) for users.
   name: PancakeSwap Users API
   slug: pancakeswap-users-api
 artifact_total: 34
@@ -279,7 +291,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pancakeswap/refs/heads/main/screenshots/pancakeswap-2026-06-20T191335.png
 security:

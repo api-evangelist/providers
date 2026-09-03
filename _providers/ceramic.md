@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 30 operations · 5 acting
 api_count: 1
 apis:
-- description: The Config API from Ceramic — 1 operation(s) for config.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Config API from Ceramic — 1 operation(s) for config.
   name: Ceramic Config API
   slug: ceramic-config-api
-- description: The Debug API from Ceramic — 1 operation(s) for debug.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Debug API from Ceramic — 1 operation(s) for debug.
   name: Ceramic Debug API
   slug: ceramic-debug-api
-- description: The Events API from Ceramic — 2 operation(s) for events.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Events API from Ceramic — 2 operation(s) for events.
   name: Ceramic Events API
   slug: ceramic-events-api
-- description: The Experimental API from Ceramic — 2 operation(s) for experimental.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Experimental API from Ceramic — 2 operation(s) for experimental.
   name: Ceramic Experimental API
   slug: ceramic-experimental-api
-- description: The Feed API from Ceramic — 2 operation(s) for feed.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Feed API from Ceramic — 2 operation(s) for feed.
   name: Ceramic Feed API
   slug: ceramic-feed-api
-- description: The Interests API from Ceramic — 2 operation(s) for interests.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Interests API from Ceramic — 2 operation(s) for interests.
   name: Ceramic Interests API
   slug: ceramic-interests-api
-- description: The Liveness API from Ceramic — 1 operation(s) for liveness.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Liveness API from Ceramic — 1 operation(s) for liveness.
   name: Ceramic Liveness API
   slug: ceramic-liveness-api
-- description: The Peers API from Ceramic — 1 operation(s) for peers.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Peers API from Ceramic — 1 operation(s) for peers.
   name: Ceramic Peers API
   slug: ceramic-peers-api
-- description: The Streams API from Ceramic — 1 operation(s) for streams.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Streams API from Ceramic — 1 operation(s) for streams.
   name: Ceramic Streams API
   slug: ceramic-streams-api
-- description: The Version API from Ceramic — 1 operation(s) for version.
+- baseURL: http://localhost:5101/ceramic
+  baseurl_source: declared
+  description: The Version API from Ceramic — 1 operation(s) for version.
   name: Ceramic Version API
   slug: ceramic-version-api
 artifact_total: 46
@@ -290,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/screenshots/ceramic-2026-06-20T174136.png
 security:

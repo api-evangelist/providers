@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -36,55 +49,89 @@ apis:
 - description: The PEXA Exchange API covers key facets of PEXA Exchange e-conveyancing functionality — creating and updating workspaces, invitations, participants, land title references, documents, conversations, fi
   name: PEXA Exchange API
   slug: pexa-exchange-api
-- description: The Billing API from PEXA — 1 operation(s) for billing.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Billing API from PEXA — 1 operation(s) for billing.
   name: PEXA Billing API
   slug: pexa-billing-api
-- description: The Conversation API from PEXA — 8 operation(s) for conversation.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Conversation API from PEXA — 8 operation(s) for conversation.
   name: PEXA Conversation API
   slug: pexa-conversation-api
-- description: The Document API from PEXA — 4 operation(s) for document.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Document API from PEXA — 4 operation(s) for document.
   name: PEXA Document API
   slug: pexa-document-api
-- description: The HealthCheck API from PEXA — 2 operation(s) for healthcheck.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The HealthCheck API from PEXA — 2 operation(s) for healthcheck.
   name: PEXA Health Check API
   slug: pexa-healthcheck-api
-- description: The Invitation API from PEXA — 6 operation(s) for invitation.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Invitation API from PEXA — 6 operation(s) for invitation.
   name: PEXA Invitation API
   slug: pexa-invitation-api
-- description: The Landtitle API from PEXA — 2 operation(s) for landtitle.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Landtitle API from PEXA — 2 operation(s) for landtitle.
   name: PEXA Landtitle API
   slug: pexa-landtitle-api
-- description: The Notification API from PEXA — 1 operation(s) for notification.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Notification API from PEXA — 1 operation(s) for notification.
   name: PEXA Notification API
   slug: pexa-notification-api
-- description: The Notification Service [$] API from PEXA — 0 operation(s) for notification service [$].
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Notification Service [$] API from PEXA — 0 operation(s) for notification service [$].
   name: PEXA Notification Service [$] API
   slug: pexa-notification-service-api
-- description: Registration related endpoints
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: Registration related endpoints
   name: PEXA Notification Registration API
   slug: pexa-notificationregistration-api
-- description: The Project API from PEXA — 4 operation(s) for project.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Project API from PEXA — 4 operation(s) for project.
   name: PEXA Project API
   slug: pexa-project-api
-- description: The Settlement API from PEXA — 8 operation(s) for settlement.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Settlement API from PEXA — 8 operation(s) for settlement.
   name: PEXA Settlement API
   slug: pexa-settlement-api
-- description: The Standalone Discharge Experience API from PEXA — 1 operation(s) for standalone discharge experience.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Standalone Discharge Experience API from PEXA — 1 operation(s) for standalone discharge experience.
   name: PEXA Standalone Discharge Experience API
   slug: pexa-standalone-discharge-experience-api
-- description: The Subscriber API from PEXA — 6 operation(s) for subscriber.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Subscriber API from PEXA — 6 operation(s) for subscriber.
   name: PEXA Subscriber API
   slug: pexa-subscriber-api
-- description: The TitleSearch API from PEXA — 3 operation(s) for titlesearch.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The TitleSearch API from PEXA — 3 operation(s) for titlesearch.
   name: PEXA Title Search API
   slug: pexa-titlesearch-api
-- description: The User API from PEXA — 2 operation(s) for user.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The User API from PEXA — 2 operation(s) for user.
   name: PEXA User API
   slug: pexa-user-api
-- description: The Workspace API from PEXA — 9 operation(s) for workspace.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Workspace API from PEXA — 9 operation(s) for workspace.
   name: PEXA Workspace API
   slug: pexa-workspace-api
-- description: The Workspaces API from PEXA — 6 operation(s) for workspaces.
+- baseURL: https://api.pexa.com.au
+  baseurl_source: declared
+  description: The Workspaces API from PEXA — 6 operation(s) for workspaces.
   name: PEXA Workspaces API
   slug: pexa-workspaces-api
 artifact_total: 32
@@ -369,7 +416,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -379,7 +426,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 51.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,7 +438,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

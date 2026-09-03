@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -54,7 +54,9 @@ apis:
 - description: Create, read, update, delete, and archive content including pages and blog posts in Confluence Cloud.
   name: Confluence Content API
   slug: confluence-content-api
-- description: Manage Confluence spaces including creation, configuration, permissions, and settings.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage Confluence spaces including creation, configuration, permissions, and settings.
   name: Confluence Space API
   slug: confluence-space-api
 - description: Add, remove, and manage labels on Confluence content for organization and discovery.
@@ -225,22 +227,34 @@ apis:
 - description: Manage admin API keys for Confluence Cloud using the v2 API.
   name: Confluence V2 Admin Key API
   slug: confluence-v2-admin-key-api
-- description: Manage file attachments on content
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage file attachments on content
   name: Confluence Attachment API
   slug: confluence-attachment-api
-- description: Create, retrieve, update, and delete blog posts
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete blog posts
   name: Confluence Blog Post API
   slug: confluence-blog-post-api
-- description: Create, retrieve, update, and delete comments on pages and blog posts
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete comments on pages and blog posts
   name: Confluence Comment API
   slug: confluence-comment-api
-- description: Manage labels on content
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage labels on content
   name: Confluence Label API
   slug: confluence-label-api
-- description: Create, retrieve, update, and delete pages
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete pages
   name: Confluence Page API
   slug: confluence-page-api
-- description: Retrieve and manage Confluence spaces
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve and manage Confluence spaces
   name: Confluence Space API
   slug: confluence-space-api
 arazzos:
@@ -1171,7 +1185,7 @@ score:
     catalog_gap: 68.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -1181,7 +1195,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 63.8
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1192,7 +1206,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:

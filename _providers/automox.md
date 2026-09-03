@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for managing the Automox endpoint management platform including organizations, zones, devices, groups, policies, packages, worklets, commands, events, reports, and user accounts. Authenticati
@@ -109,7 +109,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automox/refs/heads/main/screenshots/automox-2026-06-20T172659.png
 security:

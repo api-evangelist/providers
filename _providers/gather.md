@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage the email guestlist (members/guests) of a space
+- baseURL: https://api.gather.town
+  baseurl_source: declared
+  description: Manage the email guestlist (members/guests) of a space
   name: Gather Guestlist API
   slug: gather-guestlist-api
-- description: Read and write the map/room data of a space
+- baseURL: https://api.gather.town
+  baseurl_source: declared
+  description: Read and write the map/room data of a space
   name: Gather Maps API
   slug: gather-maps-api
-- description: Create and manage Gather spaces
+- baseURL: https://api.gather.town
+  baseurl_source: declared
+  description: Create and manage Gather spaces
   name: Gather Spaces API
   slug: gather-spaces-api
 artifact_total: 10
@@ -218,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gather/refs/heads/main/screenshots/gather-2026-07-25T215458.png
 security:

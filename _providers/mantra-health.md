@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The first-party Mantra Health API. The host api.mantrahealth.com answers 200 with the plain-text banner "Mantra Health API" and exposes a GraphQL endpoint at /graphql that is served by Apollo Server (
@@ -148,7 +160,7 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -172,8 +184,9 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mantra-health/refs/heads/main/screenshots/mantra-health-2026-09-02T150429.png
 security:
 - kind: authentication
   name: Mantra Health Authentication

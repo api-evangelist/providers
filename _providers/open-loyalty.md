@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 21 acting
 api_count: 1
 apis:
-- description: Authentication and token issuance.
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Authentication and token issuance.
   name: Open Loyalty Authorization API
   slug: open-loyalty-authorization-api
-- description: Rules that define how members earn points.
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Rules that define how members earn points.
   name: Open Loyalty Earning Rules API
   slug: open-loyalty-earning-rules-api
-- description: Loyalty members (customers).
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Loyalty members (customers).
   name: Open Loyalty Members API
   slug: open-loyalty-members-api
-- description: Points transfers - the loyalty points ledger.
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Points transfers - the loyalty points ledger.
   name: Open Loyalty Points API
   slug: open-loyalty-points-api
-- description: Reward campaigns, coupons, and redemption.
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Reward campaigns, coupons, and redemption.
   name: Open Loyalty Rewards API
   slug: open-loyalty-rewards-api
-- description: Levels (loyalty tiers).
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Levels (loyalty tiers).
   name: Open Loyalty Tiers API
   slug: open-loyalty-tiers-api
-- description: Purchase transactions and points accrual.
+- baseURL: https://your-instance.openloyalty.io/api
+  baseurl_source: declared
+  description: Purchase transactions and points accrual.
   name: Open Loyalty Transactions API
   slug: open-loyalty-transactions-api
 artifact_total: 22
@@ -187,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-loyalty/refs/heads/main/screenshots/open-loyalty-2026-08-07T190513.png
 security:

@@ -33,46 +33,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
-- description: Constructed historical order books for the T7 trading venues of Deutsche Börse Group (Eurex, Xetra) with nanosecond granularity, accessed over REST with bearer-token authentication.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Constructed historical order books for the T7 trading venues of Deutsche Börse Group (Eurex, Xetra) with nanosecond granularity, accessed over REST with bearer-token authentication.
   name: A7 Analytics Platform - Order Book API
   slug: a7-order-book-api
-- description: Un-normalized, genuine historical order-by-order market data from the T7 Enhanced Order Book Interface (EOBI) feed for Eurex and Xetra.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Un-normalized, genuine historical order-by-order market data from the T7 Enhanced Order Book Interface (EOBI) feed for Eurex and Xetra.
   name: A7 Analytics Platform - Market Data API (EOBI)
   slug: a7-market-data-eobi-api
-- description: Historical CME Group market data from the MDP feed served through the A7 Analytics Platform REST API.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Historical CME Group market data from the MDP feed served through the A7 Analytics Platform REST API.
   name: A7 Analytics Platform - CME Market Data API (MDP)
   slug: a7-cme-market-data-mdp-api
-- description: Reference data for T7 venues (markets, market segments, securities) from the Reference Data Interface, version 2 of the A7 reference data API.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Reference data for T7 venues (markets, market segments, securities) from the Reference Data Interface, version 2 of the A7 reference data API.
   name: A7 Analytics Platform - Reference Data API (RDI) v2
   slug: a7-reference-data-rdi-api
-- description: CME Group security-definition reference data served through the A7 Analytics Platform REST API.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: CME Group security-definition reference data served through the A7 Analytics Platform REST API.
   name: A7 Analytics Platform - CME Reference Data API (SD)
   slug: a7-cme-reference-data-sd-api
-- description: Create, update, delete, and run custom algos over historical order book data and retrieve their results - a high-performance framework for custom analytics on A7.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Create, update, delete, and run custom algos over historical order book data and retrieve their results - a high-performance framework for custom analytics on A7.
   name: A7 Analytics Platform - Algo Management API
   slug: a7-algo-management-api
-- description: Manage customer datasets on the A7 Analytics Platform (versions 1 and 2 of the Dataset API).
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Manage customer datasets on the A7 Analytics Platform (versions 1 and 2 of the Dataset API).
   name: A7 Analytics Platform - Dataset API
   slug: a7-dataset-api
-- description: Off-the-shelf market data insights and analytics derived from A7 granular historical order book data.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Off-the-shelf market data insights and analytics derived from A7 granular historical order book data.
   name: A7 Analytics Platform - Market Data Insights API
   slug: a7-market-data-insights-api
-- description: Option analytics computed on the A7 Analytics Platform for Eurex-traded options.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Option analytics computed on the A7 Analytics Platform for Eurex-traded options.
   name: A7 Analytics Platform - Option Analytics API
   slug: a7-option-analytics-api
-- description: Management of precalculated analytics runs on the A7 Analytics Platform.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Management of precalculated analytics runs on the A7 Analytics Platform.
   name: A7 Analytics Platform - Precalc API
   slug: a7-precalc-api
-- description: Simulate Xetra auctions against historical order book data on the A7 Analytics Platform.
+- baseURL: https://a7.deutsche-boerse.com/api/v1
+  baseurl_source: declared
+  description: Simulate Xetra auctions against historical order book data on the A7 Analytics Platform.
   name: A7 Analytics Platform - Auction Simulation API
   slug: a7-auction-simulation-api
 - description: Free GraphQL API for Eurex T7 reference data (products, contracts, instrument attributes) in machine- and human-readable JSON, offered with a shared rate-limited public API key or a dedicated key from
   name: Eurex T7 Reference Data API
   slug: eurex-t7-reference-data-api
-- description: Cloud-delivered real-time market data streaming over WebSocket (host md.deutsche-boerse.com) with Protocol Buffers or JSON message encoding and API-key authentication - the published sample client sub
+- baseURL: wss://md.deutsche-boerse.com
+  baseurl_source: declared
+  description: Cloud-delivered real-time market data streaming over WebSocket (host md.deutsche-boerse.com) with Protocol Buffers or JSON message encoding and API-key authentication - the published sample client sub
   name: Deutsche Börse Cloud Stream Market Data API
   slug: cloud-stream-market-data-api
 artifact_total: 37
@@ -307,7 +331,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -317,7 +341,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 51.8
+  previous_composite: 51.7
   provenance:
     conformance: derived
     contracts:
@@ -334,7 +358,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
 security:

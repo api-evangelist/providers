@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Cobre's REST API (v1) for local and cross-border money movements, accounts and balances, counterparties, Bre-B keys, FX quotes, stablecoin payouts, reports/reconciliation and webhook subscriptions.
+- baseURL: https://api.cobre.co
+  baseurl_source: declared
+  description: Cobre's REST API (v1) for local and cross-border money movements, accounts and balances, counterparties, Bre-B keys, FX quotes, stablecoin payouts, reports/reconciliation and webhook subscriptions.
   name: Cobre Platform API
   slug: cobre-platform-api
 artifact_total: 7
@@ -172,7 +174,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -182,7 +184,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 40.4
+  previous_composite: 40.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -193,7 +195,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -53,7 +53,9 @@ apis:
 - description: Native driver APIs for connecting applications to MySQL across multiple programming languages including Python, Node.js, Java, and .NET.
   name: MySQL Connector APIs
   slug: connectors
-- description: MRS authentication endpoints (SCRAM and OAuth2).
+- baseURL_template: https://localhost:8443/{serviceName}
+  baseurl_source: spec_template
+  description: MRS authentication endpoints (SCRAM and OAuth2).
   name: MySQL Authentication API
   slug: mysql-authentication-api
 artifact_total: 13
@@ -168,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/screenshots/mysql-2026-06-20T185918.png
 security:

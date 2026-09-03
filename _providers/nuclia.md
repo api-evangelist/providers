@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
-- description: Generative RAG answers, chat and summarization grounded in a Knowledge Box.
+- baseURL: https://{zone}.nuclia.cloud/api/v1
+  baseurl_source: declared
+  description: Generative RAG answers, chat and summarization grounded in a Knowledge Box.
   name: Nuclia Ask API
   slug: nuclia-ask-api
-- description: Create, configure and inspect Knowledge Boxes and their label sets.
+- baseURL: https://{zone}.nuclia.cloud/api/v1
+  baseurl_source: declared
+  description: Create, configure and inspect Knowledge Boxes and their label sets.
   name: Nuclia Knowledge Boxes API
   slug: nuclia-knowledge-boxes-api
-- description: Nuclia Understanding API (NUA) - generation, summarize, rephrase, rerank, embeddings and tokenization.
+- baseURL: https://{zone}.nuclia.cloud/api/v1
+  baseurl_source: declared
+  description: Nuclia Understanding API (NUA) - generation, summarize, rephrase, rerank, embeddings and tokenization.
   name: Nuclia Predict API
   slug: nuclia-predict-api
-- description: Ingest and manage resources - files, text, links and conversations.
+- baseURL: https://{zone}.nuclia.cloud/api/v1
+  baseurl_source: declared
+  description: Ingest and manage resources - files, text, links and conversations.
   name: Nuclia Resources API
   slug: nuclia-resources-api
-- description: Hybrid search, find (RAG retrieval) and suggest over a Knowledge Box.
+- baseURL: https://{zone}.nuclia.cloud/api/v1
+  baseurl_source: declared
+  description: Hybrid search, find (RAG retrieval) and suggest over a Knowledge Box.
   name: Nuclia Search API
   slug: nuclia-search-api
 artifact_total: 21
@@ -179,7 +189,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -189,7 +199,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 44.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/screenshots/nuclia-2026-06-20T190517.png
 security:

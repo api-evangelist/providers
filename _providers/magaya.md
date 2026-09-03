@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 1
 apis:
-- description: Accounts-receivable invoices and their charge lines.
+- baseURL: https://SYSTEMID.magayacloud.com/api
+  baseurl_source: declared
+  description: Accounts-receivable invoices and their charge lines.
   name: Magaya Invoices API
   slug: magaya-invoices-api
-- description: Item and commodity master data referenced across transactions.
+- baseURL: https://SYSTEMID.magayacloud.com/api
+  baseurl_source: declared
+  description: Item and commodity master data referenced across transactions.
   name: Magaya Items API
   slug: magaya-items-api
-- description: Air, ocean, and ground shipment records and their tracking events.
+- baseURL: https://SYSTEMID.magayacloud.com/api
+  baseurl_source: declared
+  description: Air, ocean, and ground shipment records and their tracking events.
   name: Magaya Shipments API
   slug: magaya-shipments-api
-- description: Generic Magaya transaction documents - orders, bookings, quotes, releases.
+- baseURL: https://SYSTEMID.magayacloud.com/api
+  baseurl_source: declared
+  description: Generic Magaya transaction documents - orders, bookings, quotes, releases.
   name: Magaya Transactions API
   slug: magaya-transactions-api
-- description: Cargo received into a Magaya-managed warehouse and inventory balances.
+- baseURL: https://SYSTEMID.magayacloud.com/api
+  baseurl_source: declared
+  description: Cargo received into a Magaya-managed warehouse and inventory balances.
   name: Magaya Warehouse Receipts API
   slug: magaya-warehouse-receipts-api
 artifact_total: 18
@@ -187,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/screenshots/magaya-2026-07-25T225839.png
 security:

@@ -34,46 +34,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Classes API from Landing.ai — 1 operation(s) for classes.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Classes API from Landing.ai — 1 operation(s) for classes.
   name: Landing.ai Classes API
   slug: landingai-classes-api
-- description: The Deployment API from Landing.ai — 2 operation(s) for deployment.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Deployment API from Landing.ai — 2 operation(s) for deployment.
   name: Landing.ai Deployment API
   slug: landingai-deployment-api
-- description: The Extract API from Landing.ai — 3 operation(s) for extract.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Extract API from Landing.ai — 3 operation(s) for extract.
   name: Landing.ai Extract API
   slug: landingai-extract-api
-- description: The Image API from Landing.ai — 5 operation(s) for image.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Image API from Landing.ai — 5 operation(s) for image.
   name: Landing.ai Image API
   slug: landingai-image-api
-- description: The Metadata API from Landing.ai — 2 operation(s) for metadata.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Metadata API from Landing.ai — 2 operation(s) for metadata.
   name: Landing.ai Metadata API
   slug: landingai-metadata-api
-- description: The Metrics API from Landing.ai — 1 operation(s) for metrics.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Metrics API from Landing.ai — 1 operation(s) for metrics.
   name: Landing.ai Metrics API
   slug: landingai-metrics-api
-- description: The Model API from Landing.ai — 3 operation(s) for model.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Model API from Landing.ai — 3 operation(s) for model.
   name: Landing.ai Model API
   slug: landingai-model-api
-- description: The Parse API from Landing.ai — 3 operation(s) for parse.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Parse API from Landing.ai — 3 operation(s) for parse.
   name: Landing.ai Parse API
   slug: landingai-parse-api
-- description: The Project API from Landing.ai — 3 operation(s) for project.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Project API from Landing.ai — 3 operation(s) for project.
   name: Landing.ai Project API
   slug: landingai-project-api
-- description: The Snapshot API from Landing.ai — 3 operation(s) for snapshot.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Snapshot API from Landing.ai — 3 operation(s) for snapshot.
   name: Landing.ai Snapshot API
   slug: landingai-snapshot-api
-- description: The Tags API from Landing.ai — 2 operation(s) for tags.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Tags API from Landing.ai — 2 operation(s) for tags.
   name: Landing.ai Tags API
   slug: landingai-tags-api
-- description: The Tools API from Landing.ai — 50 operation(s) for tools.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Tools API from Landing.ai — 50 operation(s) for tools.
   name: Landing.ai Tools API
   slug: landingai-tools-api
-- description: The Training API from Landing.ai — 6 operation(s) for training.
+- baseURL: https://api.ade.landing.ai
+  baseurl_source: declared
+  description: The Training API from Landing.ai — 6 operation(s) for training.
   name: Landing.ai Training API
   slug: landingai-training-api
 artifact_total: 47
@@ -359,7 +385,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:

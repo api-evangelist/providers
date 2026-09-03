@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,22 +49,34 @@ apis:
 - description: Outbound webhook destination for ChartMogul. ChartMogul POSTs JSON event bodies to a subscriber-configured HTTPS endpoint whenever a customer-level MRR movement is recorded. Only the `mrr_movement` ev
   name: ChartMogul Webhooks
   slug: webhooks
-- description: The Account API from ChartMogul — 1 operation(s) for account.
+- baseURL: https://api.chartmogul.com
+  baseurl_source: declared
+  description: The Account API from ChartMogul — 1 operation(s) for account.
   name: ChartMogul Account API
   slug: chartmogul-account-api
-- description: The Customers API from ChartMogul — 5 operation(s) for customers.
+- baseURL: https://api.chartmogul.com
+  baseurl_source: declared
+  description: The Customers API from ChartMogul — 5 operation(s) for customers.
   name: ChartMogul Customers API
   slug: chartmogul-customers-api
-- description: The Invoices API from ChartMogul — 2 operation(s) for invoices.
+- baseURL: https://api.chartmogul.com
+  baseurl_source: declared
+  description: The Invoices API from ChartMogul — 2 operation(s) for invoices.
   name: ChartMogul Invoices API
   slug: chartmogul-invoices-api
-- description: The Metrics API from ChartMogul — 8 operation(s) for metrics.
+- baseURL: https://api.chartmogul.com
+  baseurl_source: declared
+  description: The Metrics API from ChartMogul — 8 operation(s) for metrics.
   name: ChartMogul Metrics API
   slug: chartmogul-metrics-api
-- description: The Plans API from ChartMogul — 2 operation(s) for plans.
+- baseURL: https://api.chartmogul.com
+  baseurl_source: declared
+  description: The Plans API from ChartMogul — 2 operation(s) for plans.
   name: ChartMogul Plans API
   slug: chartmogul-plans-api
-- description: The Subscriptions API from ChartMogul — 1 operation(s) for subscriptions.
+- baseURL: https://api.chartmogul.com
+  baseurl_source: declared
+  description: The Subscriptions API from ChartMogul — 1 operation(s) for subscriptions.
   name: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
 artifact_total: 23
@@ -174,7 +186,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -184,7 +196,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.7
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -193,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/screenshots/chartmogul-2026-06-20T174231.png
 security:

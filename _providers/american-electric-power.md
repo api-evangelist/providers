@@ -26,15 +26,19 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-01'
-api_count: 0
-artifact_total: 17
+  score: 2.5
+  scored_at: '2026-09-02'
+api_count: 1
+apis:
+- description: American Electric Power operates an Azure API Management instance (apim-aep-prod-use2-001) fronted by the "AEP API Management" developer portal at developer.aep.com and the gateway host api.aep.com. T
+  name: AEP API Management
+  slug: american-electric-power-api-management
+artifact_total: 20
 common:
 - group: auth
   title: ''
@@ -48,10 +52,56 @@ common:
   title: ''
   type: Website
   url: https://www.aep.com
+- group: company
+  title: ''
+  type: About
+  url: https://www.aep.com/about/
 - group: start
   title: ''
-  type: Portal
-  url: https://www.aep.com/about
+  type: DeveloperPortal
+  url: https://developer.aep.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.aep.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://developer.aep.com/signin
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.aep.com/contact/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aep.com/news/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.aep.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.aep.com/privacy/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-electric-power-llms.txt
+coverage:
+  checked: '2026-09-02'
+  detail: AEP runs a live Azure API Management program — portal at developer.aep.com, gateway at api.aep.com — but its anonymous catalog call GET /developer/apis?api-version=2022-04-01-preview returns an empty {"value":[]} list, so every API, operation and specification is invisible until a developer-portal account is created and approved.
+  evidence:
+  - status: 200
+    url: https://developer.aep.com/developer/apis?api-version=2022-04-01-preview
+  - status: 200
+    url: https://developer.aep.com/developer/products?api-version=2022-04-01-preview
+  - status: 404
+    url: https://api.aep.com/
+  - status: 404
+    url: https://www.aep.com/.well-known/api-catalog
+  reason: partner-login
+  state: gated
 created: '2024-11-15'
 description: American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.
 features:
@@ -80,14 +130,18 @@ integrations:
 - description: Integration with customer-owned solar and distributed generation systems through net metering programs across AEP operating companies.
   name: Net Metering
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: American Electric Power
 nav: Providers
 network: true
-overview: 'American Electric Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Power, Electricity, and Transmission.
+overview: 'American Electric Power publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electric Utility, Power, Electricity, and Transmission.
 
 
-  American Electric Power''s developer surface includes developer portal and 3 more developer resources.'
+  American Electric Power''s developer surface includes signup flow, support, engineering blog, and 9 more developer resources.'
+plans:
+- name: American Electric Power Plans Pricing
+  plan_count: 0
+  slug: american-electric-power-plans-pricing
 press:
 - date: '2026-05-25'
   title: Investors Boost American Electric Power on AI Growth
@@ -105,34 +159,40 @@ press:
   title: AEP Receives U.S. Department of Energy Loan Guarantee ...
   url: https://www.aep.com/news/stories/view/10501/
 random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: American Electric Power Rate Limits
+  slug: american-electric-power-rate-limits
 score:
-  band: minimal
-  composite: 5.2
+  band: emerging
+  composite: 17.0
   coverage:
-    artifact_dirs: 5
-    catalog_gap: 88.0
+    artifact_dirs: 10
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 11.8
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 50.0
+    developer_ergonomics: 16.7
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.2
+  provenance:
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
+    score: 18.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png
 security:
 - kind: domain-security

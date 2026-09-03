@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -59,13 +59,19 @@ apis:
 - description: REST API for managing shared private link resources for a Web PubSub service. Enables outbound private connectivity from Web PubSub to other Azure resources such as Key Vault and Storage when configur
   name: Azure Web PubSub Shared Private Link Resources REST API
   slug: azure-web-pubsub-shared-private-link-resources-rest-api
-- description: Generate JWT tokens for client connections
+- baseURL: https://{instance}.webpubsub.azure.com
+  baseurl_source: declared
+  description: Generate JWT tokens for client connections
   name: Azure Web PubSub ClientToken API
   slug: microsoft-azure-web-pubsub-clienttoken-api
-- description: Send messages and manage connections, groups, and users in a hub
+- baseURL: https://{instance}.webpubsub.azure.com
+  baseurl_source: declared
+  description: Send messages and manage connections, groups, and users in a hub
   name: Azure Web PubSub Hub API
   slug: microsoft-azure-web-pubsub-hub-api
-- description: Permission management for client connections
+- baseURL: https://{instance}.webpubsub.azure.com
+  baseurl_source: declared
+  description: Permission management for client connections
   name: Azure Web PubSub Permission API
   slug: microsoft-azure-web-pubsub-permission-api
 arazzos:
@@ -360,7 +366,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -370,7 +376,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 53.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -379,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/screenshots/microsoft-azure-web-pubsub-2026-06-20T185444.png
 security:

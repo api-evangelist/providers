@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 3
 apis:
-- description: Manage Apache Spark pools
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage Apache Spark pools
   name: Azure Synapse Analytics Spark Pools API
   slug: azure-synapse-spark-pools-api
-- description: Manage dedicated SQL pools
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage dedicated SQL pools
   name: Azure Synapse Analytics SQL Pools API
   slug: azure-synapse-sql-pools-api
-- description: Manage Synapse Analytics workspaces
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage Synapse Analytics workspaces
   name: Azure Synapse Analytics Workspaces API
   slug: azure-synapse-workspaces-api
 artifact_total: 38
@@ -289,7 +295,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/screenshots/azure-synapse-2026-06-20T172913.png
 security:

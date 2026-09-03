@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 2
 apis:
-- description: Classify and route natural language queries
+- baseURL: https://www.wolframalpha.com/api/v1/
+  baseurl_source: declared
+  description: Classify and route natural language queries
   name: Wolfram|Alpha Classification API
   slug: wolframalpha-classification-api
-- description: Submit natural language queries for full computational results
+- baseURL: https://www.wolframalpha.com/api/v1/
+  baseurl_source: declared
+  description: Submit natural language queries for full computational results
   name: Wolfram|Alpha Queries API
   slug: wolframalpha-queries-api
 arazzos:
@@ -465,7 +469,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/screenshots/wolframalpha-2026-06-20T201538.png
 security:

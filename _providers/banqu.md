@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,82 +34,132 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Asset Categories API from BanQu — 2 operation(s) for asset categories.
   name: BanQu Asset Categories API
   slug: banqu-asset-categories-api
-- description: The Asset Sharing API from BanQu — 6 operation(s) for asset sharing.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Asset Sharing API from BanQu — 6 operation(s) for asset sharing.
   name: BanQu Asset Sharing API
   slug: banqu-asset-sharing-api
-- description: Asset exchange/buy/sell transactions that consist of multiple asset transfers
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Asset exchange/buy/sell transactions that consist of multiple asset transfers
   name: BanQu Asset Transactions API
   slug: banqu-asset-transactions-api
-- description: The Asset Transfer Claiming API from BanQu — 3 operation(s) for asset transfer claiming.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Asset Transfer Claiming API from BanQu — 3 operation(s) for asset transfer claiming.
   name: BanQu Asset Transfer Claiming API
   slug: banqu-asset-transfer-claiming-api
-- description: Asset transfers from one owner to another
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Asset transfers from one owner to another
   name: BanQu Asset Transfers API
   slug: banqu-asset-transfers-api
-- description: The Asset Transformations API from BanQu — 1 operation(s) for asset transformations.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Asset Transformations API from BanQu — 1 operation(s) for asset transformations.
   name: BanQu Asset Transformations API
   slug: banqu-asset-transformations-api
-- description: The Assets API from BanQu — 4 operation(s) for assets.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Assets API from BanQu — 4 operation(s) for assets.
   name: BanQu Assets API
   slug: banqu-assets-api
-- description: The Attachments API from BanQu — 1 operation(s) for attachments.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Attachments API from BanQu — 1 operation(s) for attachments.
   name: BanQu Attachments API
   slug: banqu-attachments-api
-- description: The Authentication API from BanQu — 6 operation(s) for authentication.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Authentication API from BanQu — 6 operation(s) for authentication.
   name: BanQu Authentication API
   slug: banqu-authentication-api
-- description: Connected organizations and identitites
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Connected organizations and identitites
   name: BanQu Connections API
   slug: banqu-connections-api
-- description: Automation workflows for custom formats import
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Automation workflows for custom formats import
   name: BanQu Data Processors API
   slug: banqu-data-processors-api
-- description: Form assignments and submitted form data entries
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Form assignments and submitted form data entries
   name: BanQu Form Data Entries API
   slug: banqu-form-data-entries-api
-- description: The Forms API from BanQu — 6 operation(s) for forms.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Forms API from BanQu — 6 operation(s) for forms.
   name: BanQu Forms API
   slug: banqu-forms-api
-- description: The Notifications API from BanQu — 1 operation(s) for notifications.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Notifications API from BanQu — 1 operation(s) for notifications.
   name: BanQu Notifications API
   slug: banqu-notifications-api
-- description: The Organization Associates API from BanQu — 2 operation(s) for organization associates.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Organization Associates API from BanQu — 2 operation(s) for organization associates.
   name: BanQu Organization Associates API
   slug: banqu-organization-associates-api
-- description: The Organization Features API from BanQu — 1 operation(s) for organization features.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Organization Features API from BanQu — 1 operation(s) for organization features.
   name: BanQu Organization Features API
   slug: banqu-organization-features-api
-- description: Organization Roles and Permissions
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Organization Roles and Permissions
   name: BanQu Organization Roles API
   slug: banqu-organization-roles-api
-- description: Organization accounts
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Organization accounts
   name: BanQu Organizations API
   slug: banqu-organizations-api
-- description: Adjustments of payments on buy/sell transactions
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Adjustments of payments on buy/sell transactions
   name: BanQu Payment Adjustments API
   slug: banqu-payment-adjustments-api
-- description: The Public Profiles API from BanQu — 10 operation(s) for public profiles.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The Public Profiles API from BanQu — 10 operation(s) for public profiles.
   name: BanQu Public Profiles API
   slug: banqu-public-profiles-api
-- description: Automation workflows that react to system events
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Automation workflows that react to system events
   name: BanQu Smart Contracts API
   slug: banqu-smart-contracts-api
-- description: Interactive system guides
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Interactive system guides
   name: BanQu Tutorials API
   slug: banqu-tutorials-api
-- description: The User Profile API from BanQu — 7 operation(s) for user profile.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The User Profile API from BanQu — 7 operation(s) for user profile.
   name: BanQu User Profile API
   slug: banqu-user-profile-api
-- description: The User Profile Sharing API from BanQu — 11 operation(s) for user profile sharing.
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: The User Profile Sharing API from BanQu — 11 operation(s) for user profile sharing.
   name: BanQu User Profile Sharing API
   slug: banqu-user-profile-sharing-api
-- description: Automation workflows for custom validations on any write API actions
+- baseURL: https://banqu.app/api/v1
+  baseurl_source: declared
+  description: Automation workflows for custom validations on any write API actions
   name: BanQu Validation Workflows API
   slug: banqu-validation-workflows-api
 artifact_total: 55
@@ -307,7 +368,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -317,7 +378,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 33.2
+  previous_composite: 33.1
   provenance:
     conformance: derived
     contracts:
@@ -328,7 +389,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banqu/refs/heads/main/screenshots/banqu-2026-08-07T162129.png
 security:

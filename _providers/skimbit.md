@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 19 operations · 1 acting
 api_count: 3
 apis:
-- description: The Commissions API from SkimBit — 1 operation(s) for commissions.
+- baseURL: https://reporting.skimapis.com
+  baseurl_source: declared
+  description: The Commissions API from SkimBit — 1 operation(s) for commissions.
   name: SkimBit Commissions API
   slug: skimbit-commissions-api
-- description: The Domains API from SkimBit — 1 operation(s) for domains.
+- baseURL: https://merchants.skimapis.com
+  baseurl_source: declared
+  description: The Domains API from SkimBit — 1 operation(s) for domains.
   name: SkimBit Domains API
   slug: skimbit-domains-api
-- description: The Merchants API from SkimBit — 1 operation(s) for merchants.
+- baseURL: https://merchants.skimapis.com
+  baseurl_source: declared
+  description: The Merchants API from SkimBit — 1 operation(s) for merchants.
   name: SkimBit Merchants API
   slug: skimbit-merchants-api
-- description: The Offers API from SkimBit — 1 operation(s) for offers.
+- baseURL: https://merchants.skimapis.com
+  baseurl_source: declared
+  description: The Offers API from SkimBit — 1 operation(s) for offers.
   name: SkimBit Offers API
   slug: skimbit-offers-api
-- description: The Payments API from SkimBit — 1 operation(s) for payments.
+- baseURL: https://reporting.skimapis.com
+  baseurl_source: declared
+  description: The Payments API from SkimBit — 1 operation(s) for payments.
   name: SkimBit Payments API
   slug: skimbit-payments-api
-- description: The Products API from SkimBit — 4 operation(s) for products.
+- baseURL: https://products.skimapis.com
+  baseurl_source: declared
+  description: The Products API from SkimBit — 4 operation(s) for products.
   name: SkimBit Products API
   slug: skimbit-products-api
-- description: The Reports API from SkimBit — 8 operation(s) for reports.
+- baseURL: https://reporting.skimapis.com
+  baseurl_source: declared
+  description: The Reports API from SkimBit — 8 operation(s) for reports.
   name: SkimBit Reports API
   slug: skimbit-reports-api
-- description: The Verticals API from SkimBit — 2 operation(s) for verticals.
+- baseURL: https://merchants.skimapis.com
+  baseurl_source: declared
+  description: The Verticals API from SkimBit — 2 operation(s) for verticals.
   name: SkimBit Verticals API
   slug: skimbit-verticals-api
 artifact_total: 24
@@ -266,7 +282,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -276,7 +292,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.5
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skimbit/refs/heads/main/screenshots/skimbit-2026-08-17T081913.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: 'Record-retrieval half of the MSU Libraries VuFind 11.0.4 REST API, served from the university''s own host at catalog.lib.msu.edu/api/v1. Keyless and read-only: GET /record, /index2/record and /web/reco'
+- baseURL: https://catalog.lib.msu.edu/api/v1
+  baseurl_source: declared
+  description: 'Record-retrieval half of the MSU Libraries VuFind 11.0.4 REST API, served from the university''s own host at catalog.lib.msu.edu/api/v1. Keyless and read-only: GET /record, /index2/record and /web/reco'
   name: MSU Libraries Catalog Record API
   slug: michigan-state-university-record-api
-- description: Search half of the same MSU Libraries VuFind 11.0.4 REST API on catalog.lib.msu.edu/api/v1 — GET /search, /index2/search and /web/search return result sets and facets over the library discovery index.
+- baseURL: https://catalog.lib.msu.edu/api/v1
+  baseurl_source: declared
+  description: Search half of the same MSU Libraries VuFind 11.0.4 REST API on catalog.lib.msu.edu/api/v1 — GET /search, /index2/search and /web/search return result sets and facets over the library discovery index.
   name: MSU Libraries Catalog Search API
   slug: michigan-state-university-search-api
 - description: 'OAI-PMH 2.0 metadata harvesting provider over the MSU Libraries catalog, on the university''s own host. Verified live on 2026-08-30: verb=Identify returns repositoryName "Michigan State University Libr'
@@ -286,7 +290,7 @@ score:
     catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -296,7 +300,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 44.3
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,7 +316,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png
 security:

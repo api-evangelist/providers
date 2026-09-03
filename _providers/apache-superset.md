@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 1
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 146 operations · 84 acting · 1 human-in-the-loop
 api_count: 21
 apis:
-- description: The Annotation Layer API from Apache Superset — 4 operation(s) for annotation layer.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Annotation Layer API from Apache Superset — 4 operation(s) for annotation layer.
   name: Apache Superset Annotation Layer API
   slug: apache-superset-annotation-layer-api
-- description: The Assets API from Apache Superset — 2 operation(s) for assets.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Assets API from Apache Superset — 2 operation(s) for assets.
   name: Apache Superset Assets API
   slug: apache-superset-assets-api
-- description: The Async Event API from Apache Superset — 1 operation(s) for async event.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Async Event API from Apache Superset — 1 operation(s) for async event.
   name: Apache Superset Async Event API
   slug: apache-superset-async-event-api
-- description: The Available Domains API from Apache Superset — 1 operation(s) for available domains.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Available Domains API from Apache Superset — 1 operation(s) for available domains.
   name: Apache Superset Available Domains API
   slug: apache-superset-available-domains-api
-- description: The Cachekey API from Apache Superset — 1 operation(s) for cachekey.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Cachekey API from Apache Superset — 1 operation(s) for cachekey.
   name: Apache Superset Cachekey API
   slug: apache-superset-cachekey-api
-- description: The Chart API from Apache Superset — 10 operation(s) for chart.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Chart API from Apache Superset — 10 operation(s) for chart.
   name: Apache Superset Chart API
   slug: apache-superset-chart-api
-- description: The Css Template API from Apache Superset — 2 operation(s) for css template.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Css Template API from Apache Superset — 2 operation(s) for css template.
   name: Apache Superset Css Template API
   slug: apache-superset-css-template-api
-- description: The Dashboard API from Apache Superset — 16 operation(s) for dashboard.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Dashboard API from Apache Superset — 16 operation(s) for dashboard.
   name: Apache Superset Dashboard API
   slug: apache-superset-dashboard-api
-- description: The Database API from Apache Superset — 8 operation(s) for database.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Database API from Apache Superset — 8 operation(s) for database.
   name: Apache Superset Database API
   slug: apache-superset-database-api
-- description: The Dataset API from Apache Superset — 8 operation(s) for dataset.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Dataset API from Apache Superset — 8 operation(s) for dataset.
   name: Apache Superset Dataset API
   slug: apache-superset-dataset-api
-- description: The Embedded Dashboard API from Apache Superset — 1 operation(s) for embedded dashboard.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Embedded Dashboard API from Apache Superset — 1 operation(s) for embedded dashboard.
   name: Apache Superset Embedded Dashboard API
   slug: apache-superset-embedded-dashboard-api
-- description: The Log API from Apache Superset — 2 operation(s) for log.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Log API from Apache Superset — 2 operation(s) for log.
   name: Apache Superset Log API
   slug: apache-superset-log-api
-- description: The Me API from Apache Superset — 2 operation(s) for me.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Me API from Apache Superset — 2 operation(s) for me.
   name: Apache Superset Me API
   slug: apache-superset-me-api
-- description: The Menu API from Apache Superset — 1 operation(s) for menu.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Menu API from Apache Superset — 1 operation(s) for menu.
   name: Apache Superset Menu API
   slug: apache-superset-menu-api
-- description: The Query API from Apache Superset — 3 operation(s) for query.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Query API from Apache Superset — 3 operation(s) for query.
   name: Apache Superset Query API
   slug: apache-superset-query-api
-- description: The Report API from Apache Superset — 2 operation(s) for report.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Report API from Apache Superset — 2 operation(s) for report.
   name: Apache Superset Report API
   slug: apache-superset-report-api
-- description: The Saved Query API from Apache Superset — 2 operation(s) for saved query.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Saved Query API from Apache Superset — 2 operation(s) for saved query.
   name: Apache Superset Saved Query API
   slug: apache-superset-saved-query-api
-- description: The Security API from Apache Superset — 11 operation(s) for security.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Security API from Apache Superset — 11 operation(s) for security.
   name: Apache Superset Security API
   slug: apache-superset-security-api
-- description: The Sqllab API from Apache Superset — 6 operation(s) for sqllab.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Sqllab API from Apache Superset — 6 operation(s) for sqllab.
   name: Apache Superset Sqllab API
   slug: apache-superset-sqllab-api
-- description: The Tag API from Apache Superset — 3 operation(s) for tag.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Tag API from Apache Superset — 3 operation(s) for tag.
   name: Apache Superset Tag API
   slug: apache-superset-tag-api
-- description: The Theme API from Apache Superset — 2 operation(s) for theme.
+- baseURL: http://localhost:8088
+  baseurl_source: spec
+  description: The Theme API from Apache Superset — 2 operation(s) for theme.
   name: Apache Superset Theme API
   slug: apache-superset-theme-api
 artifact_total: 69
@@ -329,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-superset/refs/heads/main/screenshots/apache-superset-2026-06-20T172150.png
 security:

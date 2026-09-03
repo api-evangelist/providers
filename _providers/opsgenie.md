@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 105 operations · 61 acting · 6 human-in-the-loop
 api_count: 12
 apis:
-- description: Operations for retrieving account information and configuration.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for retrieving account information and configuration.
   name: OpsGenie Account API
   slug: opsgenie-account-api
-- description: Operations for creating, retrieving, updating, and managing alerts within the OpsGenie platform.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and managing alerts within the OpsGenie platform.
   name: OpsGenie Alerts API
   slug: opsgenie-alerts-api
-- description: Operations for creating, retrieving, updating, and deleting escalation policies.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting escalation policies.
   name: OpsGenie Escalations API
   slug: opsgenie-escalations-api
-- description: Operations for creating, managing, and pinging heartbeat monitors.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, managing, and pinging heartbeat monitors.
   name: OpsGenie Heartbeats API
   slug: opsgenie-heartbeats-api
-- description: Operations for creating, retrieving, updating, closing, and resolving incidents within the OpsGenie platform.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, closing, and resolving incidents within the OpsGenie platform.
   name: OpsGenie Incidents API
   slug: opsgenie-incidents-api
-- description: Operations for creating, retrieving, enabling, disabling, and managing integrations.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, enabling, disabling, and managing integrations.
   name: OpsGenie Integrations API
   slug: opsgenie-integrations-api
-- description: Operations for creating, listing, retrieving, and deleting maintenance windows.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, listing, retrieving, and deleting maintenance windows.
   name: OpsGenie Maintenance API
   slug: opsgenie-maintenance-api
-- description: Operations for managing user notification rules and their steps.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for managing user notification rules and their steps.
   name: OpsGenie Notification Rules API
   slug: opsgenie-notification-rules-api
-- description: Operations for querying on-call participants.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for querying on-call participants.
   name: OpsGenie On-Call API
   slug: opsgenie-on-call-api
-- description: Operations for managing schedule overrides.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for managing schedule overrides.
   name: OpsGenie Overrides API
   slug: opsgenie-overrides-api
-- description: Operations for managing schedule rotations.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for managing schedule rotations.
   name: OpsGenie Rotations API
   slug: opsgenie-rotations-api
-- description: Operations for managing on-call schedules.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for managing on-call schedules.
   name: OpsGenie Schedules API
   slug: opsgenie-schedules-api
-- description: Operations for creating, retrieving, updating, and deleting services in the service catalog.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting services in the service catalog.
   name: OpsGenie Services API
   slug: opsgenie-services-api
-- description: Operations for creating, retrieving, updating, and deleting teams and managing team membership.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting teams and managing team membership.
   name: OpsGenie Teams API
   slug: opsgenie-teams-api
-- description: Operations for creating, retrieving, updating, and deleting user accounts within the OpsGenie platform.
+- baseURL: https://api.opsgenie.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting user accounts within the OpsGenie platform.
   name: OpsGenie Users API
   slug: opsgenie-users-api
 artifact_total: 190
@@ -683,7 +713,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -693,7 +723,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 50.0
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -702,7 +732,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:

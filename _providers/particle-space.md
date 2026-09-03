@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Address and property search / lookup.
+- baseURL: https://api.particlespace.com
+  baseurl_source: declared
+  description: Address and property search / lookup.
   name: Particle Space Address Search API
   slug: particle-space-address-search-api
-- description: Comparable properties for a subject property.
+- baseURL: https://api.particlespace.com
+  baseurl_source: declared
+  description: Comparable properties for a subject property.
   name: Particle Space Comparables API
   slug: particle-space-comparables-api
-- description: For-sale, for-rent, and off-market property listings.
+- baseURL: https://api.particlespace.com
+  baseurl_source: declared
+  description: For-sale, for-rent, and off-market property listings.
   name: Particle Space Listings API
   slug: particle-space-listings-api
-- description: Property records and detailed attributes.
+- baseURL: https://api.particlespace.com
+  baseurl_source: declared
+  description: Property records and detailed attributes.
   name: Particle Space Property Records API
   slug: particle-space-property-records-api
-- description: Automated valuation model (AVM) value and rent estimates.
+- baseURL: https://api.particlespace.com
+  baseurl_source: declared
+  description: Automated valuation model (AVM) value and rent estimates.
   name: Particle Space Valuations API
   slug: particle-space-valuations-api
 artifact_total: 17
@@ -171,7 +181,7 @@ score:
       marker_coverage: 20.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

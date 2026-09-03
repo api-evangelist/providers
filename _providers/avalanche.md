@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,73 +50,119 @@ apis:
 - description: Remote procedure calls for Avalanche Platform Chain operations including UTXO queries, transaction submission, validator lookups, staking information, subnet and blockchain details, and fee estimates.
   name: Avalanche RPC API
   slug: avalanche-rpc-api
-- description: Subscribe to real-time push notifications for Avalanche on-chain events including ERC-20 and ERC-721 token transfers, address activity on C-Chain/P-Chain/X-Chain, validator events, and staking activit
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Subscribe to real-time push notifications for Avalanche on-chain events including ERC-20 and ERC-721 token transfers, address activity on C-Chain/P-Chain/X-Chain, validator events, and staking activit
   name: Avalanche Webhooks API
   slug: avalanche-webhooks-api
-- description: Find information about AVAX supply.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about AVAX supply.
   name: Avalanche AVAX Supply API
   slug: avalanche-avax-supply-api
-- description: Usage metrics and logs for the Data API.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Usage metrics and logs for the Data API.
   name: Avalanche Data API Usage Metrics API
   slug: avalanche-data-api-usage-metrics-api
-- description: Find information about balances on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about balances on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Avalanche EVM Balances API
   slug: avalanche-evm-balances-api
-- description: Find information about blocks on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about blocks on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Avalanche EVM Blocks API
   slug: avalanche-evm-blocks-api
-- description: Find information about indexed EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about indexed EVM-compatible chains, such as the Avalanche C-Chain.
   name: Avalanche EVM Chains API
   slug: avalanche-evm-chains-api
-- description: Find information about contracts on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about contracts on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Avalanche EVM Contracts API
   slug: avalanche-evm-contracts-api
-- description: Find information about transactions on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about transactions on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Avalanche EVM Transactions API
   slug: avalanche-evm-transactions-api
-- description: The Health Check API from Avalanche — 2 operation(s) for health check.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: The Health Check API from Avalanche — 2 operation(s) for health check.
   name: Avalanche Health Check API
   slug: avalanche-health-check-api
-- description: Find information about Interchain Messaging transactions.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about Interchain Messaging transactions.
   name: Avalanche Interchain Messaging API
   slug: avalanche-interchain-messaging-api
-- description: The NFTs API from Avalanche — 3 operation(s) for nfts.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: The NFTs API from Avalanche — 3 operation(s) for nfts.
   name: Avalanche NFTs API
   slug: avalanche-nfts-api
-- description: The Operations API from Avalanche — 2 operation(s) for operations.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: The Operations API from Avalanche — 2 operation(s) for operations.
   name: Avalanche Operations API
   slug: avalanche-operations-api
-- description: The Primary Network API from Avalanche — 11 operation(s) for primary network.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: The Primary Network API from Avalanche — 11 operation(s) for primary network.
   name: Avalanche Primary Network API
   slug: avalanche-primary-network-api
-- description: Find information about balances on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about balances on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Avalanche Primary Network Balances API
   slug: avalanche-primary-network-balances-api
-- description: Find information about blocks on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about blocks on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Avalanche Primary Network Blocks API
   slug: avalanche-primary-network-blocks-api
-- description: Find information about rewards on Avalanche's Primary Network.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about rewards on Avalanche's Primary Network.
   name: Avalanche Primary Network Rewards API
   slug: avalanche-primary-network-rewards-api
-- description: Find information about transactions on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about transactions on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Avalanche Primary Network Transactions API
   slug: avalanche-primary-network-transactions-api
-- description: Find information about utxos on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about utxos on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Avalanche Primary Network UTXOs API
   slug: avalanche-primary-network-utxos-api
-- description: Find information about vertices on Avalanche's X-Chain.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about vertices on Avalanche's X-Chain.
   name: Avalanche Primary Network Vertices API
   slug: avalanche-primary-network-vertices-api
-- description: Request signatures for a Warp message from Subnet validators
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Request signatures for a Warp message from Subnet validators
   name: Avalanche Signature Aggregator API
   slug: avalanche-signature-aggregator-api
-- description: Find information about Teleporter transactions.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Find information about Teleporter transactions.
   name: Avalanche Teleporter API
   slug: avalanche-teleporter-api
-- description: Manage webhooks and get notified for various onchain activities.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: Manage webhooks and get notified for various onchain activities.
   name: Avalanche Webhooks API
   slug: avalanche-webhooks-api
-- description: The Data API API from Avalanche — 0 operation(s) for data api.
+- baseURL: https://glacier-api.avax.network/v1
+  baseurl_source: declared
+  description: The Data API API from Avalanche — 0 operation(s) for data api.
   name: Avalanche Data API
   slug: avalanche-data-api-api
 artifact_total: 329
@@ -1149,7 +1195,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/screenshots/avalanche-2026-06-20T172715.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'OpenArt''s remote Model Context Protocol server, letting AI agents generate and edit images and video, discover models, manage the library and projects, and check account credits — authorized with the '
@@ -154,7 +154,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/screenshots/openart-2026-08-07T190531.png
 security:

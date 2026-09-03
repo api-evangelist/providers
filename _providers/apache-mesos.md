@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: The Mesos Scheduler HTTP API at /api/v1/scheduler enables framework schedulers to subscribe to resource offers, launch tasks, kill tasks, reconcile status, and manage framework lifecycle over a persis
   name: Apache Mesos Scheduler HTTP API
   slug: mesos-scheduler-http-api
-- description: The Apache Mesos Operator HTTP API API from Apache Mesos — 1 operation(s) for apache mesos operator http api.
+- baseURL: http://localhost:5050
+  baseurl_source: spec
+  description: The Apache Mesos Operator HTTP API API from Apache Mesos — 1 operation(s) for apache mesos operator http api.
   name: Apache Mesos Apache Mesos Operator HTTP API API
   slug: apache-mesos-apache-mesos-operator-http-api-api
 artifact_total: 29
@@ -194,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/screenshots/apache-mesos-2026-06-20T172121.png
 security:

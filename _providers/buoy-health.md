@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +35,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Auth0-backed OAuth 2.0 / OpenID Connect authorization server that issues the bearer tokens the Buoy Symptom Checker API requires. Publishes anonymous RFC 8414 authorization-server metadata and OIDC di
   name: Buoy Authorization Server
   slug: buoy-authorization-server
-- description: The Complaints API from Buoy Health — 2 operation(s) for complaints.
+- baseURL: https://api.buoyhealth.com/symptom-checker/v2
+  baseurl_source: declared
+  description: The Complaints API from Buoy Health — 2 operation(s) for complaints.
   name: Buoy Health Complaints API
   slug: buoy-health-complaints-api
-- description: The Intents API from Buoy Health — 2 operation(s) for intents.
+- baseURL: https://api.buoyhealth.com/symptom-checker/v2
+  baseurl_source: declared
+  description: The Intents API from Buoy Health — 2 operation(s) for intents.
   name: Buoy Health Intents API
   slug: buoy-health-intents-api
-- description: The Interviews API from Buoy Health — 2 operation(s) for interviews.
+- baseURL: https://api.buoyhealth.com/symptom-checker/v2
+  baseurl_source: declared
+  description: The Interviews API from Buoy Health — 2 operation(s) for interviews.
   name: Buoy Health Interviews API
   slug: buoy-health-interviews-api
-- description: The Queries API from Buoy Health — 1 operation(s) for queries.
+- baseURL: https://api.buoyhealth.com/symptom-checker/v2
+  baseurl_source: declared
+  description: The Queries API from Buoy Health — 1 operation(s) for queries.
   name: Buoy Health Queries API
   slug: buoy-health-queries-api
-- description: The Questions API from Buoy Health — 3 operation(s) for questions.
+- baseURL: https://api.buoyhealth.com/symptom-checker/v2
+  baseurl_source: declared
+  description: The Questions API from Buoy Health — 3 operation(s) for questions.
   name: Buoy Health Questions API
   slug: buoy-health-questions-api
-- description: The Results API from Buoy Health — 1 operation(s) for results.
+- baseURL: https://api.buoyhealth.com/symptom-checker/v2
+  baseurl_source: declared
+  description: The Results API from Buoy Health — 1 operation(s) for results.
   name: Buoy Health Results API
   slug: buoy-health-results-api
 artifact_total: 19
@@ -240,7 +264,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/screenshots/buoy-health-2026-08-17T080742.png
 security:

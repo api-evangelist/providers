@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: List, search, and retrieve holidays, observances, and events.
+- baseURL: https://api.apilayer.com/checkiday
+  baseurl_source: declared
+  description: List, search, and retrieve holidays, observances, and events.
   name: Checkiday - National Holiday and Event API Events API
   slug: checkiday-national-holiday-api-events-api
 artifact_total: 24
@@ -284,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:

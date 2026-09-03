@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Run analytics jobs and retrieve analysis results.
+- baseURL: https://api.rtx.com/eagle
+  baseurl_source: declared
+  description: Run analytics jobs and retrieve analysis results.
   name: RTX Analytics API
   slug: rtx-analytics-api
-- description: Manage and query intelligence data sources.
+- baseURL: https://api.rtx.com/eagle
+  baseurl_source: declared
+  description: Manage and query intelligence data sources.
   name: RTX Data Sources API
   slug: rtx-data-sources-api
-- description: Generate and retrieve intelligence reports.
+- baseURL: https://api.rtx.com/eagle
+  baseurl_source: declared
+  description: Generate and retrieve intelligence reports.
   name: RTX Reports API
   slug: rtx-reports-api
 artifact_total: 20
@@ -203,7 +209,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png
 security:

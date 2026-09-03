@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -36,55 +48,89 @@ apis:
 - description: Documented WebSockets interface for the Connect platform, offering an event-driven alternative to the REST API for terminal integration. No downloadable OpenAPI/AsyncAPI specification is published; on
   name: Paymentsense Connect WebSockets API
   slug: connect-websockets-api
-- description: The Access Token API from Paymentsense — 1 operation(s) for access token.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Access Token API from Paymentsense — 1 operation(s) for access token.
   name: Paymentsense Access Token API
   slug: paymentsense-access-token-api
-- description: The Cross Reference Payment API from Paymentsense — 1 operation(s) for cross reference payment.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Cross Reference Payment API from Paymentsense — 1 operation(s) for cross reference payment.
   name: Paymentsense Cross Reference Payment API
   slug: paymentsense-cross-reference-payment-api
-- description: The Hospitality Reports API from Paymentsense — 2 operation(s) for hospitality reports.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Hospitality Reports API from Paymentsense — 2 operation(s) for hospitality reports.
   name: Paymentsense Hospitality Reports API
   slug: paymentsense-hospitality-reports-api
-- description: The Hospitality Tables API from Paymentsense — 6 operation(s) for hospitality tables.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Hospitality Tables API from Paymentsense — 6 operation(s) for hospitality tables.
   name: Paymentsense Hospitality Tables API
   slug: paymentsense-hospitality-tables-api
-- description: The PAC Reports API from Paymentsense — 2 operation(s) for pac reports.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The PAC Reports API from Paymentsense — 2 operation(s) for pac reports.
   name: Paymentsense PAC Reports API
   slug: paymentsense-pac-reports-api
-- description: The PAC Reports (Ingenico Only) API from Paymentsense — 2 operation(s) for pac reports (ingenico only).
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The PAC Reports (Ingenico Only) API from Paymentsense — 2 operation(s) for pac reports (ingenico only).
   name: Paymentsense PAC Reports (Ingenico Only) API
   slug: paymentsense-pac-reports-ingenico-only-api
-- description: The PAC Terminals API from Paymentsense — 3 operation(s) for pac terminals.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The PAC Terminals API from Paymentsense — 3 operation(s) for pac terminals.
   name: Paymentsense PAC Terminals API
   slug: paymentsense-pac-terminals-api
-- description: The PAC Transactions API from Paymentsense — 6 operation(s) for pac transactions.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The PAC Transactions API from Paymentsense — 6 operation(s) for pac transactions.
   name: Paymentsense PAC Transactions API
   slug: paymentsense-pac-transactions-api
-- description: The PAT Reports API from Paymentsense — 2 operation(s) for pat reports.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The PAT Reports API from Paymentsense — 2 operation(s) for pat reports.
   name: Paymentsense PAT Reports API
   slug: paymentsense-pat-reports-api
-- description: The PAT Tables API from Paymentsense — 6 operation(s) for pat tables.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The PAT Tables API from Paymentsense — 6 operation(s) for pat tables.
   name: Paymentsense PAT Tables API
   slug: paymentsense-pat-tables-api
-- description: The Payment Details API from Paymentsense — 1 operation(s) for payment details.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Payment Details API from Paymentsense — 1 operation(s) for payment details.
   name: Paymentsense Payment Details API
   slug: paymentsense-payment-details-api
-- description: The Payment Methods API from Paymentsense — 1 operation(s) for payment methods.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Payment Methods API from Paymentsense — 1 operation(s) for payment methods.
   name: Paymentsense Payment Methods API
   slug: paymentsense-payment-methods-api
-- description: The Resume Payment API from Paymentsense — 1 operation(s) for resume payment.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Resume Payment API from Paymentsense — 1 operation(s) for resume payment.
   name: Paymentsense Resume Payment API
   slug: paymentsense-resume-payment-api
-- description: The Retail Reports API from Paymentsense — 2 operation(s) for retail reports.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Retail Reports API from Paymentsense — 2 operation(s) for retail reports.
   name: Paymentsense Retail Reports API
   slug: paymentsense-retail-reports-api
-- description: The Retail Terminals API from Paymentsense — 2 operation(s) for retail terminals.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Retail Terminals API from Paymentsense — 2 operation(s) for retail terminals.
   name: Paymentsense Retail Terminals API
   slug: paymentsense-retail-terminals-api
-- description: The Retail Transactions API from Paymentsense — 3 operation(s) for retail transactions.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Retail Transactions API from Paymentsense — 3 operation(s) for retail transactions.
   name: Paymentsense Retail Transactions API
   slug: paymentsense-retail-transactions-api
-- description: The Revoke Access Token API from Paymentsense — 1 operation(s) for revoke access token.
+- baseURL: https://your-host-here.connect.paymentsense.cloud
+  baseurl_source: declared
+  description: The Revoke Access Token API from Paymentsense — 1 operation(s) for revoke access token.
   name: Paymentsense Revoke Access Token API
   slug: paymentsense-revoke-access-token-api
 arazzos:
@@ -279,7 +325,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -289,7 +335,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 58.6
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,7 +353,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymentsense/refs/heads/main/screenshots/paymentsense-2026-08-07T191642.png
 security:

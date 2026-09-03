@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 1
 apis:
-- description: Operations for validating attestations
+- baseURL: https://binaryauthorization.googleapis.com
+  baseurl_source: declared
+  description: Operations for validating attestations
   name: Google Cloud Binary Authorization Attestations API
   slug: google-cloud-binary-authorization-attestations-api
-- description: Operations for managing attestors
+- baseURL: https://binaryauthorization.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing attestors
   name: Google Cloud Binary Authorization Attestors API
   slug: google-cloud-binary-authorization-attestors-api
-- description: Operations for managing the Binary Authorization policy
+- baseURL: https://binaryauthorization.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing the Binary Authorization policy
   name: Google Cloud Binary Authorization Policy API
   slug: google-cloud-binary-authorization-policy-api
 artifact_total: 22
@@ -238,7 +244,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/screenshots/google-cloud-binary-authorization-2026-06-20T182045.png
 security:

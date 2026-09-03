@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: CarMD's vehicle API (marketed as CarScan) provides access to OBD-II code definitions, vehicle images, repair information and predicted upcoming issues. Registration issues credentials that are sent on
+- baseURL: https://api.carmd.com/
+  baseurl_source: declared
+  description: CarMD's vehicle API (marketed as CarScan) provides access to OBD-II code definitions, vehicle images, repair information and predicted upcoming issues. Registration issues credentials that are sent on
   name: CarMD Vehicle API
   slug: carmd
 - description: 'Live Model Context Protocol endpoint on CarMD''s own domain, implementing the Universal Commerce Protocol (version 2026-04-08, with 2026-01-23 still served). Probed anonymously on 2026-08-27: initializ'
@@ -169,7 +171,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -179,13 +181,13 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.1
+  previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/screenshots/carmd-2026-06-20T174011.png
 security:

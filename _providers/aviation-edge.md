@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Aviation Edge API provides comprehensive aviation data including real-time flight tracking, airport information, airline schedules, aircraft data, and satellite tracking for global aviation intelligen
   name: Aviation Edge
   slug: aviation-edge
-- description: Real-time and live flight tracking
+- baseURL: https://aviation-edge.com/
+  baseurl_source: declared
+  description: Real-time and live flight tracking
   name: Aviation Edge Real-Time API
   slug: aviation-edge-real-time-api
-- description: Static reference data
+- baseURL: https://aviation-edge.com/
+  baseurl_source: declared
+  description: Static reference data
   name: Aviation Edge Reference API
   slug: aviation-edge-reference-api
-- description: Satellite tracking data
+- baseURL: https://aviation-edge.com/
+  baseurl_source: declared
+  description: Satellite tracking data
   name: Aviation Edge Satellites API
   slug: aviation-edge-satellites-api
-- description: Airport schedules and flight timetables
+- baseURL: https://aviation-edge.com/
+  baseurl_source: declared
+  description: Airport schedules and flight timetables
   name: Aviation Edge Schedules API
   slug: aviation-edge-schedules-api
 artifact_total: 17
@@ -160,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/screenshots/aviation-edge-2026-06-20T172729.png
 security:

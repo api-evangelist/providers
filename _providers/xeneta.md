@@ -33,16 +33,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Airline reports API (Selfie) serving rates, chargeable weight, load factor, and capacity reports as CSV files in ZIP archives. Airlines use a branded host (https://{airline}.useselfie.com/api/selfie/v
   name: Xeneta Airline Data API
   slug: xeneta-airline-data-api
-- description: The Air API from Xeneta — 1 operation(s) for air.
+- baseURL: https://api.xeneta.com/v3.0
+  baseurl_source: declared
+  description: The Air API from Xeneta — 1 operation(s) for air.
   name: Xeneta Air API
   slug: xeneta-air-api
-- description: The Ocean API from Xeneta — 13 operation(s) for ocean.
+- baseURL: https://api.xeneta.com/v3.0
+  baseurl_source: declared
+  description: The Ocean API from Xeneta — 13 operation(s) for ocean.
   name: Xeneta Ocean API
   slug: xeneta-ocean-api
 artifact_total: 10
@@ -225,7 +229,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xeneta/refs/heads/main/screenshots/xeneta-2026-08-17T083005.png
 security:

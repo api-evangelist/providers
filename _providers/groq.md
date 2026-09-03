@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
-- description: The Audio API from Groq — 3 operation(s) for audio.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Audio API from Groq — 3 operation(s) for audio.
   name: Groq Audio API
   slug: groq-audio-api
-- description: The Batch API from Groq — 3 operation(s) for batch.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Batch API from Groq — 3 operation(s) for batch.
   name: Groq Batch API
   slug: groq-batch-api
-- description: The Chat API from Groq — 1 operation(s) for chat.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Chat API from Groq — 1 operation(s) for chat.
   name: Groq Chat API
   slug: groq-chat-api
-- description: The Embeddings API from Groq — 1 operation(s) for embeddings.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Embeddings API from Groq — 1 operation(s) for embeddings.
   name: Groq Embeddings API
   slug: groq-embeddings-api
-- description: The Files API from Groq — 3 operation(s) for files.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Files API from Groq — 3 operation(s) for files.
   name: Groq Files API
   slug: groq-files-api
-- description: The Fine Tuning API from Groq — 2 operation(s) for fine tuning.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Fine Tuning API from Groq — 2 operation(s) for fine tuning.
   name: Groq Fine Tuning API
   slug: groq-fine-tuning-api
-- description: The Models API from Groq — 2 operation(s) for models.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Models API from Groq — 2 operation(s) for models.
   name: Groq Models API
   slug: groq-models-api
-- description: The Reranking API from Groq — 1 operation(s) for reranking.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Reranking API from Groq — 1 operation(s) for reranking.
   name: Groq Reranking API
   slug: groq-reranking-api
-- description: The Responses API from Groq — 1 operation(s) for responses.
+- baseURL: https://api.groq.com/openai/v1
+  baseurl_source: declared
+  description: The Responses API from Groq — 1 operation(s) for responses.
   name: Groq Responses API
   slug: groq-responses-api
 artifact_total: 31
@@ -215,7 +233,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -225,7 +243,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 35.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -234,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/screenshots/groq-2026-06-20T182414.png
 security:

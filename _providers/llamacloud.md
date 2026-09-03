@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Files and pipeline documents.
+- baseURL: https://api.cloud.llamaindex.ai/api/v1
+  baseurl_source: declared
+  description: Files and pipeline documents.
   name: LlamaCloud Documents API
   slug: llamacloud-documents-api
-- description: LlamaExtract schema-driven structured extraction.
+- baseURL: https://api.cloud.llamaindex.ai/api/v1
+  baseurl_source: declared
+  description: LlamaExtract schema-driven structured extraction.
   name: LlamaCloud Extraction API
   slug: llamacloud-extraction-api
-- description: LlamaParse document parsing jobs and results.
+- baseURL: https://api.cloud.llamaindex.ai/api/v1
+  baseurl_source: declared
+  description: LlamaParse document parsing jobs and results.
   name: LlamaCloud Parsing API
   slug: llamacloud-parsing-api
-- description: Managed ingestion and indexing pipelines.
+- baseURL: https://api.cloud.llamaindex.ai/api/v1
+  baseurl_source: declared
+  description: Managed ingestion and indexing pipelines.
   name: LlamaCloud Pipelines API
   slug: llamacloud-pipelines-api
-- description: Query a managed index for relevant chunks.
+- baseURL: https://api.cloud.llamaindex.ai/api/v1
+  baseurl_source: declared
+  description: Query a managed index for relevant chunks.
   name: LlamaCloud Retrieval API
   slug: llamacloud-retrieval-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamacloud/refs/heads/main/screenshots/llamacloud-2026-06-20T184622.png
 security:

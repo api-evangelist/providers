@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 29 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Gmail API from Google Gmail — 19 operation(s) for gmail.
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Gmail API from Google Gmail — 19 operation(s) for gmail.
   name: Google Gmail Gmail API
   slug: google-gmail-gmail-api
 artifact_total: 13
@@ -196,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gmail/refs/heads/main/screenshots/google-gmail-2026-06-20T182205.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,22 +37,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Account API from ProofDraw — 2 operation(s) for account.
+- baseURL: https://proofdraw.com/api/v1
+  baseurl_source: declared
+  description: The Account API from ProofDraw — 2 operation(s) for account.
   name: ProofDraw Account API
   slug: proofdraw-account-api
-- description: The Auth API from ProofDraw — 2 operation(s) for auth.
+- baseURL: https://proofdraw.com/api/v1
+  baseurl_source: declared
+  description: The Auth API from ProofDraw — 2 operation(s) for auth.
   name: ProofDraw Auth API
   slug: proofdraw-auth-api
-- description: The Draws API from ProofDraw — 6 operation(s) for draws.
+- baseURL: https://proofdraw.com/api/v1
+  baseurl_source: declared
+  description: The Draws API from ProofDraw — 6 operation(s) for draws.
   name: ProofDraw Draws API
   slug: proofdraw-draws-api
-- description: The System API from ProofDraw — 1 operation(s) for system.
+- baseURL: https://proofdraw.com/api/v1
+  baseurl_source: declared
+  description: The System API from ProofDraw — 1 operation(s) for system.
   name: ProofDraw System API
   slug: proofdraw-system-api
-- description: Public, unauthenticated artifacts used to verify a draw.
+- baseURL: https://proofdraw.com/api/v1
+  baseurl_source: declared
+  description: Public, unauthenticated artifacts used to verify a draw.
   name: ProofDraw Verification API
   slug: proofdraw-verification-api
 artifact_total: 12
@@ -207,7 +231,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -217,7 +241,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 33.5
+  previous_composite: 33.3
   provenance:
     conformance: derived
     contracts:
@@ -228,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proofdraw/refs/heads/main/screenshots/proofdraw-2026-08-17T081348.png
 security:

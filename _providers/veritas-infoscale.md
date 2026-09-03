@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -53,34 +53,54 @@ apis:
 - description: API for storage volume management, including volume creation, resizing, mirroring, and snapshot operations. Manages disk groups, plexes, subdisks, and provides advanced storage features like thin prov
   name: Veritas Volume Manager API
   slug: vxvm-api
-- description: Retrieve and manage cluster alerts
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Retrieve and manage cluster alerts
   name: Veritas InfoScale Alerts API
   slug: veritas-infoscale-alerts-api
-- description: Cluster discovery and status operations
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Cluster discovery and status operations
   name: Veritas InfoScale Clusters API
   slug: veritas-infoscale-clusters-api
-- description: Manage Veritas Volume Manager disk groups
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage Veritas Volume Manager disk groups
   name: Veritas InfoScale Disk Groups API
   slug: veritas-infoscale-disk-groups-api
-- description: Manage physical disks and disk pools
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage physical disks and disk pools
   name: Veritas InfoScale Disks API
   slug: veritas-infoscale-disks-api
-- description: Manage I/O fencing configuration
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage I/O fencing configuration
   name: Veritas InfoScale Fencing API
   slug: veritas-infoscale-fencing-api
-- description: Monitor and manage asynchronous job operations
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Monitor and manage asynchronous job operations
   name: Veritas InfoScale Jobs API
   slug: veritas-infoscale-jobs-api
-- description: Manage cluster resources within service groups
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage cluster resources within service groups
   name: Veritas InfoScale Resources API
   slug: veritas-infoscale-resources-api
-- description: Manage VCS service groups and their lifecycle
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage VCS service groups and their lifecycle
   name: Veritas InfoScale Service Groups API
   slug: veritas-infoscale-service-groups-api
-- description: Manage cluster nodes and system status
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage cluster nodes and system status
   name: Veritas InfoScale Systems API
   slug: veritas-infoscale-systems-api
-- description: Manage storage volumes
+- baseURL: https://{infoscale-server}:14149/api/v1
+  baseurl_source: declared
+  description: Manage storage volumes
   name: Veritas InfoScale Volumes API
   slug: veritas-infoscale-volumes-api
 artifact_total: 82
@@ -411,7 +431,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
 security:

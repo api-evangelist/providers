@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 7 operations · 6 acting
 api_count: 1
 apis:
-- description: Getting content into a user's memory
+- baseURL: http://localhost:8000/api/v1
+  baseurl_source: declared
+  description: Getting content into a user's memory
   name: Eder Labs Ingestion API
   slug: eder-labs-ingestion-api
-- description: Service metadata
+- baseURL: http://localhost:8000/api/v1
+  baseurl_source: declared
+  description: Service metadata
   name: Eder Labs Meta API
   slug: eder-labs-meta-api
-- description: Retrieving memory via RAG and structured insights
+- baseURL: http://localhost:8000/api/v1
+  baseurl_source: declared
+  description: Retrieving memory via RAG and structured insights
   name: Eder Labs Query API
   slug: eder-labs-query-api
-- description: User (memory namespace) lifecycle
+- baseURL: http://localhost:8000/api/v1
+  baseurl_source: declared
+  description: User (memory namespace) lifecycle
   name: Eder Labs Users API
   slug: eder-labs-users-api
 artifact_total: 12
@@ -167,7 +175,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eder-labs/refs/heads/main/screenshots/eder-labs-2026-07-25T212819.png
 security:

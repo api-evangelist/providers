@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -53,34 +53,54 @@ apis:
 - description: Neon Auth is a managed authentication service built on Better Auth that connects directly to a Neon Postgres database. It stores authentication data including users, sessions, and OAuth configurations
   name: Neon Auth
   slug: auth
-- description: Manage API keys for authentication. API keys are used to authenticate requests to the Neon API via Bearer token.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage API keys for authentication. API keys are used to authenticate requests to the Neon API via Bearer token.
   name: Neon API Keys API
   slug: neon-api-keys-api
-- description: Manage Neon Auth configuration for branches, including OAuth providers, webhooks, and authentication settings.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage Neon Auth configuration for branches, including OAuth providers, webhooks, and authentication settings.
   name: Neon Auth API
   slug: neon-auth-api
-- description: Manage branches within a project. Branches are copies of your data created using copy-on-write technology for development, testing, and preview environments.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage branches within a project. Branches are copies of your data created using copy-on-write technology for development, testing, and preview environments.
   name: Neon Branches API
   slug: neon-branches-api
-- description: Query consumption metrics for projects and accounts. Available for Scale, Business, and Enterprise plan accounts.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Query consumption metrics for projects and accounts. Available for Scale, Business, and Enterprise plan accounts.
   name: Neon Consumption API
   slug: neon-consumption-api
-- description: Manage Data API configuration for branches, including enabling and disabling the PostgREST-compatible HTTP interface.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage Data API configuration for branches, including enabling and disabling the PostgREST-compatible HTTP interface.
   name: Neon Data API API
   slug: neon-data-api-api
-- description: Manage databases within a branch. A branch can contain multiple databases.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage databases within a branch. A branch can contain multiple databases.
   name: Neon Databases API
   slug: neon-databases-api
-- description: Manage compute endpoints for branches. Compute endpoints provide the processing resources for database queries. A branch can have one read-write and multiple read-only endpoints.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage compute endpoints for branches. Compute endpoints provide the processing resources for database queries. A branch can have one read-write and multiple read-only endpoints.
   name: Neon Endpoints API
   slug: neon-endpoints-api
-- description: View and manage operations for a project. Operations track the progress and status of actions performed on project resources.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: View and manage operations for a project. Operations track the progress and status of actions performed on project resources.
   name: Neon Operations API
   slug: neon-operations-api
-- description: Manage Neon projects. A project is the top-level object in the Neon hierarchy containing branches, databases, roles, and compute endpoints.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage Neon projects. A project is the top-level object in the Neon hierarchy containing branches, databases, roles, and compute endpoints.
   name: Neon Projects API
   slug: neon-projects-api
-- description: Manage Postgres roles within a branch. Roles control database access and permissions.
+- baseURL: https://console.neon.tech/api/v2
+  baseurl_source: declared
+  description: Manage Postgres roles within a branch. Roles control database access and permissions.
   name: Neon Roles API
   slug: neon-roles-api
 artifact_total: 103
@@ -411,7 +431,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -421,7 +441,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -430,7 +450,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon/refs/heads/main/screenshots/neon-2026-06-20T190138.png
 security:

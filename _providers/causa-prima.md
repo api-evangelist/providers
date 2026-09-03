@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Invoices API from Causa Prima — 3 operation(s) for invoices.
+- baseURL: https://scribo.causaprima.ai
+  baseurl_source: declared
+  description: The Invoices API from Causa Prima — 3 operation(s) for invoices.
   name: Causa Prima Invoices API
   slug: causa-prima-invoices-api
-- description: The Jurisdictions API from Causa Prima — 1 operation(s) for jurisdictions.
+- baseURL: https://scribo.causaprima.ai
+  baseurl_source: declared
+  description: The Jurisdictions API from Causa Prima — 1 operation(s) for jurisdictions.
   name: Causa Prima Jurisdictions API
   slug: causa-prima-jurisdictions-api
-- description: The Scribo API from Causa Prima — 4 operation(s) for scribo.
+- baseURL: https://scribo.causaprima.ai
+  baseurl_source: declared
+  description: The Scribo API from Causa Prima — 4 operation(s) for scribo.
   name: Causa Prima Scribo API
   slug: causa-prima-scribo-api
 artifact_total: 11
@@ -224,7 +230,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/screenshots/causa-prima-2026-07-25T204814.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 36 operations · 20 acting
 api_count: 1
 apis:
-- description: Shapes, tracks, and tags attached to tasks and jobs.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Shapes, tracks, and tags attached to tasks and jobs.
   name: CVAT annotations API
   slug: cvat-annotations-api
-- description: External object-storage connections used as data sources.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: External object-storage connections used as data sources.
   name: CVAT cloudstorages API
   slug: cvat-cloudstorages-api
-- description: Assignable annotation units that subdivide a task.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Assignable annotation units that subdivide a task.
   name: CVAT jobs API
   slug: cvat-jobs-api
-- description: Label taxonomy shared across projects, tasks, and jobs.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Label taxonomy shared across projects, tasks, and jobs.
   name: CVAT labels API
   slug: cvat-labels-api
-- description: Membership of users within organizations.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Membership of users within organizations.
   name: CVAT memberships API
   slug: cvat-memberships-api
-- description: Organizations scoping resources for teams.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Organizations scoping resources for teams.
   name: CVAT organizations API
   slug: cvat-organizations-api
-- description: Annotation projects that group tasks and share a label set.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Annotation projects that group tasks and share a label set.
   name: CVAT projects API
   slug: cvat-projects-api
-- description: Annotation tasks holding media data and annotations.
+- baseURL: https://app.cvat.ai/api
+  baseurl_source: declared
+  description: Annotation tasks holding media data and annotations.
   name: CVAT tasks API
   slug: cvat-tasks-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvat/refs/heads/main/screenshots/cvat-2026-07-25T211022.png
 security:

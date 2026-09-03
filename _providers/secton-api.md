@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Chat API from Secton API — 1 operation(s) for chat.
+- baseURL: https://api.secton.org
+  baseurl_source: declared
+  description: The Chat API from Secton API — 1 operation(s) for chat.
   name: Secton API Chat API
   slug: secton-api-chat-api
-- description: The Models API from Secton API — 1 operation(s) for models.
+- baseURL: https://api.secton.org
+  baseurl_source: declared
+  description: The Models API from Secton API — 1 operation(s) for models.
   name: Secton API Models API
   slug: secton-api-models-api
 artifact_total: 7
@@ -188,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secton-api/refs/heads/main/screenshots/secton-api-2026-08-17T081749.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Control Plane API manages clusters (create / modify / suspend), users, roles, backups, alerts, metrics, and billing. Authentication is Bearer with a Zilliz API key.
@@ -42,13 +42,19 @@ apis:
 - description: Data Plane endpoints handle collection, vector, partition, index, and role operations on a specific cluster. Authentication accepts either a Zilliz API key or a cluster `db_admin:password` pair.
   name: Zilliz Cloud Data Plane API
   slug: zilliz-data-plane
-- description: 'Control plane: cloud and region discovery.'
+- baseURL: https://api.cloud.zilliz.com/v2
+  baseurl_source: declared
+  description: 'Control plane: cloud and region discovery.'
   name: Zilliz Cloud Providers API
   slug: zilliz-cloud-providers-api
-- description: 'Control plane: cluster lifecycle management.'
+- baseURL: https://api.cloud.zilliz.com/v2
+  baseurl_source: declared
+  description: 'Control plane: cluster lifecycle management.'
   name: Zilliz Clusters API
   slug: zilliz-clusters-api
-- description: 'Data plane: vector collection operations.'
+- baseURL: https://api.cloud.zilliz.com/v2
+  baseurl_source: declared
+  description: 'Data plane: vector collection operations.'
   name: Zilliz Collections API
   slug: zilliz-collections-api
 artifact_total: 14
@@ -165,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zilliz/refs/heads/main/screenshots/zilliz-2026-06-20T201901.png
 security:

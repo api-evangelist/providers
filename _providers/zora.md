@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,88 +53,144 @@ apis:
 - description: JSON-RPC access to the Zora Network L2 chain (Chain ID 7777777), an OP Stack rollup on Ethereum. Compatible with standard Ethereum JSON-RPC tooling (viem, ethers.js, web3.js). A public RPC endpoint is
   name: Zora Network RPC API
   slug: network-rpc
-- description: The ApiKey API from Zora — 1 operation(s) for apikey.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The ApiKey API from Zora — 1 operation(s) for apikey.
   name: Zora ApiKey API
   slug: zora-apikey-api
-- description: The Coin API from Zora — 1 operation(s) for coin.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The Coin API from Zora — 1 operation(s) for coin.
   name: Zora Coin API
   slug: zora-coin-api
-- description: The CoinComments API from Zora — 1 operation(s) for coincomments.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CoinComments API from Zora — 1 operation(s) for coincomments.
   name: Zora CoinComments API
   slug: zora-coincomments-api
-- description: The CoinHolders API from Zora — 1 operation(s) for coinholders.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CoinHolders API from Zora — 1 operation(s) for coinholders.
   name: Zora CoinHolders API
   slug: zora-coinholders-api
-- description: The CoinPriceHistory API from Zora — 1 operation(s) for coinpricehistory.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CoinPriceHistory API from Zora — 1 operation(s) for coinpricehistory.
   name: Zora CoinPriceHistory API
   slug: zora-coinpricehistory-api
-- description: The Coins API from Zora — 1 operation(s) for coins.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The Coins API from Zora — 1 operation(s) for coins.
   name: Zora Coins API
   slug: zora-coins-api
-- description: The CoinsList API from Zora — 1 operation(s) for coinslist.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CoinsList API from Zora — 1 operation(s) for coinslist.
   name: Zora CoinsList API
   slug: zora-coinslist-api
-- description: The CoinSwaps API from Zora — 1 operation(s) for coinswaps.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CoinSwaps API from Zora — 1 operation(s) for coinswaps.
   name: Zora CoinSwaps API
   slug: zora-coinswaps-api
-- description: The ContentCoinPoolConfig API from Zora — 1 operation(s) for contentcoinpoolconfig.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The ContentCoinPoolConfig API from Zora — 1 operation(s) for contentcoinpoolconfig.
   name: Zora ContentCoinPoolConfig API
   slug: zora-contentcoinpoolconfig-api
-- description: The Create API from Zora — 1 operation(s) for create.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The Create API from Zora — 1 operation(s) for create.
   name: Zora Create API
   slug: zora-create-api
-- description: The CreateUploadJWT API from Zora — 1 operation(s) for createuploadjwt.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CreateUploadJWT API from Zora — 1 operation(s) for createuploadjwt.
   name: Zora CreateUploadJWT API
   slug: zora-createuploadjwt-api
-- description: The CreatorCoinPoolConfig API from Zora — 1 operation(s) for creatorcoinpoolconfig.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CreatorCoinPoolConfig API from Zora — 1 operation(s) for creatorcoinpoolconfig.
   name: Zora CreatorCoinPoolConfig API
   slug: zora-creatorcoinpoolconfig-api
-- description: The CreatorLivestreamComments API from Zora — 1 operation(s) for creatorlivestreamcomments.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The CreatorLivestreamComments API from Zora — 1 operation(s) for creatorlivestreamcomments.
   name: Zora CreatorLivestreamComments API
   slug: zora-creatorlivestreamcomments-api
-- description: The Explore API from Zora — 1 operation(s) for explore.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The Explore API from Zora — 1 operation(s) for explore.
   name: Zora Explore API
   slug: zora-explore-api
-- description: The FeaturedCreators API from Zora — 1 operation(s) for featuredcreators.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The FeaturedCreators API from Zora — 1 operation(s) for featuredcreators.
   name: Zora FeaturedCreators API
   slug: zora-featuredcreators-api
-- description: The LatestLiveStreams API from Zora — 1 operation(s) for latestlivestreams.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The LatestLiveStreams API from Zora — 1 operation(s) for latestlivestreams.
   name: Zora LatestLiveStreams API
   slug: zora-latestlivestreams-api
-- description: The Profile API from Zora — 1 operation(s) for profile.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The Profile API from Zora — 1 operation(s) for profile.
   name: Zora Profile API
   slug: zora-profile-api
-- description: The ProfileBalances API from Zora — 1 operation(s) for profilebalances.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The ProfileBalances API from Zora — 1 operation(s) for profilebalances.
   name: Zora ProfileBalances API
   slug: zora-profilebalances-api
-- description: The ProfileBySocialHandle API from Zora — 1 operation(s) for profilebysocialhandle.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The ProfileBySocialHandle API from Zora — 1 operation(s) for profilebysocialhandle.
   name: Zora ProfileBySocialHandle API
   slug: zora-profilebysocialhandle-api
-- description: The ProfileCoins API from Zora — 1 operation(s) for profilecoins.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The ProfileCoins API from Zora — 1 operation(s) for profilecoins.
   name: Zora ProfileCoins API
   slug: zora-profilecoins-api
-- description: The ProfileSocial API from Zora — 1 operation(s) for profilesocial.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The ProfileSocial API from Zora — 1 operation(s) for profilesocial.
   name: Zora ProfileSocial API
   slug: zora-profilesocial-api
-- description: The Quote API from Zora — 1 operation(s) for quote.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The Quote API from Zora — 1 operation(s) for quote.
   name: Zora Quote API
   slug: zora-quote-api
-- description: The TokenInfo API from Zora — 1 operation(s) for tokeninfo.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The TokenInfo API from Zora — 1 operation(s) for tokeninfo.
   name: Zora TokenInfo API
   slug: zora-tokeninfo-api
-- description: The TopLiveStreams API from Zora — 1 operation(s) for toplivestreams.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The TopLiveStreams API from Zora — 1 operation(s) for toplivestreams.
   name: Zora TopLiveStreams API
   slug: zora-toplivestreams-api
-- description: The TraderLeaderboard API from Zora — 1 operation(s) for traderleaderboard.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The TraderLeaderboard API from Zora — 1 operation(s) for traderleaderboard.
   name: Zora TraderLeaderboard API
   slug: zora-traderleaderboard-api
-- description: The TrendCoin API from Zora — 1 operation(s) for trendcoin.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The TrendCoin API from Zora — 1 operation(s) for trendcoin.
   name: Zora TrendCoin API
   slug: zora-trendcoin-api
-- description: The TrendsByName API from Zora — 1 operation(s) for trendsbyname.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The TrendsByName API from Zora — 1 operation(s) for trendsbyname.
   name: Zora TrendsByName API
   slug: zora-trendsbyname-api
-- description: The WalletTradeActivity API from Zora — 1 operation(s) for wallettradeactivity.
+- baseURL: https://api.zora.co/graphql
+  baseurl_source: declared
+  description: The WalletTradeActivity API from Zora — 1 operation(s) for wallettradeactivity.
   name: Zora WalletTradeActivity API
   slug: zora-wallettradeactivity-api
 artifact_total: 76
@@ -369,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zora/refs/heads/main/screenshots/zora-2026-06-20T201958.png
 security:

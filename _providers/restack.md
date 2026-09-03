@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Agents API from Restack — 2 operation(s) for agents.
+- baseURL: https://api.restack.io
+  baseurl_source: declared
+  description: The Agents API from Restack — 2 operation(s) for agents.
   name: Restack Agents API
   slug: restack-agents-api
-- description: The System API from Restack — 1 operation(s) for system.
+- baseURL: https://api.restack.io
+  baseurl_source: declared
+  description: The System API from Restack — 1 operation(s) for system.
   name: Restack System API
   slug: restack-system-api
-- description: The Workflows API from Restack — 2 operation(s) for workflows.
+- baseURL: https://api.restack.io
+  baseurl_source: declared
+  description: The Workflows API from Restack — 2 operation(s) for workflows.
   name: Restack Workflows API
   slug: restack-workflows-api
 artifact_total: 23
@@ -218,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/screenshots/restack-2026-06-20T193006.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 2
 apis:
-- description: The Account API from RevenueBase — 2 operation(s) for account.
+- baseURL: https://api.revenuebase.ai
+  baseurl_source: declared
+  description: The Account API from RevenueBase — 2 operation(s) for account.
   name: RevenueBase Account API
   slug: revenuebase-account-api
-- description: The Email API from RevenueBase — 2 operation(s) for email.
+- baseURL: https://api.revenuebase.ai
+  baseurl_source: declared
+  description: The Email API from RevenueBase — 2 operation(s) for email.
   name: RevenueBase Email API
   slug: revenuebase-email-api
-- description: The Jobs API from RevenueBase — 4 operation(s) for jobs.
+- baseURL: https://api.revenuebase.ai
+  baseurl_source: declared
+  description: The Jobs API from RevenueBase — 4 operation(s) for jobs.
   name: RevenueBase Jobs API
   slug: revenuebase-jobs-api
-- description: The Organization API from RevenueBase — 2 operation(s) for organization.
+- baseURL: https://api.revenuebase.ai
+  baseurl_source: declared
+  description: The Organization API from RevenueBase — 2 operation(s) for organization.
   name: RevenueBase Organization API
   slug: revenuebase-organization-api
-- description: The health API from RevenueBase — 2 operation(s) for health.
+- baseURL: https://api.revenuebase.ai
+  baseurl_source: declared
+  description: The health API from RevenueBase — 2 operation(s) for health.
   name: RevenueBase Health API
   slug: revenuebase-health-api
-- description: The v2 API from RevenueBase — 1 operation(s) for v2.
+- baseURL: https://api.revenuebase.ai
+  baseurl_source: declared
+  description: The v2 API from RevenueBase — 1 operation(s) for v2.
   name: RevenueBase V2 API
   slug: revenuebase-v2-api
 artifact_total: 17
@@ -276,7 +288,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -286,7 +298,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 57.3
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,7 +310,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/screenshots/revenuebase-2026-08-17T081544.png
 security:

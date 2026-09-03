@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,262 +38,430 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
   name: CoreStack MCP Server
   slug: corestack-mcp-server
-- description: Access Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Access Pillar
   name: CoreStack Access API
   slug: corestack-access-api
-- description: Manage Cloud Accounts
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Cloud Accounts
   name: CoreStack Account Governance API
   slug: corestack-account-governance-api
-- description: AI Agent Framework API
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: AI Agent Framework API
   name: CoreStack AI Agent API
   slug: corestack-ai-agent-api
-- description: Manage AI Governance Metrics
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage AI Governance Metrics
   name: CoreStack AI Governance API
   slug: corestack-aigovernance-api
-- description: Application Health
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Application Health
   name: CoreStack Application Health API
   slug: corestack-application-health-api
-- description: Application Security
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Application Security
   name: CoreStack App Sec Ops API
   slug: corestack-appsecops-api
-- description: Manage Assessment
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Assessment
   name: CoreStack Assessment API
   slug: corestack-assessment-api
-- description: Manage Attachments
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Attachments
   name: CoreStack Attachments API
   slug: corestack-attachments-api
-- description: Manage Audit Log
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Audit Log
   name: CoreStack Audit Log API
   slug: corestack-auditlog-api
-- description: Manage Tokens
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Tokens
   name: CoreStack Authorization API
   slug: corestack-authorization-api
-- description: Manage Templates, Scripts & Blueprints
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Templates, Scripts & Blueprints
   name: CoreStack Automation API
   slug: corestack-automation-api
-- description: Manage Automation WorkFlows
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Automation WorkFlows
   name: CoreStack Automation WorkFlows API
   slug: corestack-automation-workflows-api
-- description: AWS Security Hub
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: AWS Security Hub
   name: CoreStack AWS Security Hub API
   slug: corestack-aws-security-hub-api
-- description: Manage AWS SSM
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage AWS SSM
   name: CoreStack Aws Ssm API
   slug: corestack-awsssm-api
-- description: Manage AWS SSM Automation
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage AWS SSM Automation
   name: CoreStack AwsSsm Automation API
   slug: corestack-awsssm-automation-api
-- description: Manage AWS SSM Command
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage AWS SSM Command
   name: CoreStack AwsSsm Command API
   slug: corestack-awsssm-command-api
-- description: Azure DevOps Pipeline DashBoard
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Azure DevOps Pipeline DashBoard
   name: CoreStack Azure DevOps Pipeline DashBoard API
   slug: corestack-azure-devops-pipeline-dashboard-api
-- description: Manage Background Jobs
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Background Jobs
   name: CoreStack Background Jobs API
   slug: corestack-background-jobs-api
-- description: Cost Management
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Cost Management
   name: CoreStack Billing API
   slug: corestack-billing-api
-- description: Billing commitment
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Billing commitment
   name: CoreStack Billing Commitment API
   slug: corestack-billing-commitment-api
-- description: Manage Billing Metrics
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Billing Metrics
   name: CoreStack Billing Metric API
   slug: corestack-billing-metric-api
-- description: Manage BillOps Plans
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage BillOps Plans
   name: CoreStack Billing Plan Definitions API
   slug: corestack-billingplandefinitions-api
-- description: Manage BillOps Plan Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage BillOps Plan Versions
   name: CoreStack Billing Plan Definition Versions API
   slug: corestack-billingplandefinitionversions-api
-- description: Budget V2 Management
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Budget V2 Management
   name: CoreStack Budget V2 Management API
   slug: corestack-budget-v2-management-api
-- description: Corestack compliance Rest API
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Corestack compliance Rest API
   name: CoreStack Compliance API
   slug: corestack-compliance-api
-- description: Manage Copilot Governance Metrics
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Copilot Governance Metrics
   name: CoreStack Copilot Governance API
   slug: corestack-copilot-governance-api
-- description: Cost Anomaly Detection
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Cost Anomaly Detection
   name: CoreStack Cost Anomaly API
   slug: corestack-cost-anomaly-api
-- description: Cost Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Cost Pillar
   name: CoreStack Cost API
   slug: corestack-cost-api
-- description: Manage Currency Exchange Configuration
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Currency Exchange Configuration
   name: CoreStack Currency Exchange Configuration API
   slug: corestack-currencyexchangeconfiguration-api
-- description: Custom Metric Configuration
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Custom Metric Configuration
   name: CoreStack Custom Metric Configuration API
   slug: corestack-custom-metric-configuration-api
-- description: Manage Custom Tags
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Custom Tags
   name: CoreStack Custom Tags API
   slug: corestack-custom-tags-api
-- description: Manage Executive Dashboard Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Executive Dashboard Versions
   name: CoreStack Dashboard Definition Versions API
   slug: corestack-dashboard-definition-versions-api
-- description: Manage Executive Dashboards
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Executive Dashboards
   name: CoreStack Dashboard Definitions API
   slug: corestack-dashboard-definitions-api
-- description: Manage saved views for executive dashboards (deep-linkable)
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage saved views for executive dashboards (deep-linkable)
   name: CoreStack Dashboard Saved Views API
   slug: corestack-dashboard-saved-views-api
-- description: Manage Dimensions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Dimensions
   name: CoreStack Dimension API
   slug: corestack-dimension-api
-- description: Manage Dimension Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Dimension Versions
   name: CoreStack Dimension Version API
   slug: corestack-dimensionversion-api
-- description: Freshservice Ticket Integration
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Freshservice Ticket Integration
   name: CoreStack Freshservice Tickets API
   slug: corestack-freshservice-tickets-api
-- description: Manage Policy
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Policy
   name: CoreStack Guardrails API
   slug: corestack-guardrails-api
-- description: User, Tenants & Roles Management
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: User, Tenants & Roles Management
   name: CoreStack Identity API
   slug: corestack-identity-api
-- description: Jira Service Management
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Jira Service Management
   name: CoreStack Jira Service Management API
   slug: corestack-jira-service-management-api
-- description: Kubernetes Agent
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Kubernetes Agent
   name: CoreStack Kubernetes Agent API
   slug: corestack-kubernetes-agent-api
-- description: Master Data apis
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Master Data apis
   name: CoreStack Master Data API
   slug: corestack-master-data-api
-- description: Manage Master Account
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Master Account
   name: CoreStack Master Account API
   slug: corestack-masteraccount-api
-- description: Manage Master Account Billing
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Master Account Billing
   name: CoreStack MasterAccount Billing API
   slug: corestack-masteraccount-billing-api
-- description: Manage NextGen Reports
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage NextGen Reports
   name: CoreStack NextGen Reports API
   slug: corestack-nextgen-reports-api
-- description: Manage On premises Metrics
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage On premises Metrics
   name: CoreStack On premises API
   slug: corestack-on-premises-api
-- description: Operations Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Operations Pillar
   name: CoreStack Operations API
   slug: corestack-operations-api
-- description: Dashboard For Utilization
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Dashboard For Utilization
   name: CoreStack Operations Utilization API
   slug: corestack-operations-utilization-api
-- description: Dashboard For Utilization Metrics
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Dashboard For Utilization Metrics
   name: CoreStack Operations Utilization Metric Dashboard API
   slug: corestack-operations-utilization-metric-dashboard-api
-- description: Assign Platform related background tasks to service accounts
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Assign Platform related background tasks to service accounts
   name: CoreStack Platform Task API
   slug: corestack-platformtask-api
-- description: Cloud SKU Pricing API
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Cloud SKU Pricing API
   name: CoreStack Pricing API
   slug: corestack-pricing-api
-- description: Pro Active Scanner Configurations
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Pro Active Scanner Configurations
   name: CoreStack Pro Active Scanner Configurations API
   slug: corestack-pro-active-scanner-configurations-api
-- description: Product bundles, Product & Role templates
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Product bundles, Product & Role templates
   name: CoreStack Product API
   slug: corestack-product-api
-- description: Recommendation summary
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Recommendation summary
   name: CoreStack Recommendation API
   slug: corestack-recommendation-api
-- description: Manage Recommendations
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Recommendations
   name: CoreStack Recommendation V2 Dashboard API
   slug: corestack-recommendation-v2-dashboard-api
-- description: Reports Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Reports Pillar
   name: CoreStack Reports API
   slug: corestack-reports-api
-- description: Analyze Request Audit
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Analyze Request Audit
   name: CoreStack Request Audit API
   slug: corestack-request-audit-api
-- description: Resource Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Resource Pillar
   name: CoreStack Resource API
   slug: corestack-resource-api
-- description: Savings plans purchased and utilization
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Savings plans purchased and utilization
   name: CoreStack Savings Plans API
   slug: corestack-savings-plans-api
-- description: Schedule Recommendation
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Schedule Recommendation
   name: CoreStack Schedule Recommendations API
   slug: corestack-schedule-recommendations-api
-- description: Schedules
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Schedules
   name: CoreStack Schedules API
   slug: corestack-schedules-api
-- description: Security Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Security Pillar
   name: CoreStack Security API
   slug: corestack-security-api
-- description: Self Service Pillar
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Self Service Pillar
   name: CoreStack Self Service API
   slug: corestack-self-service-api
-- description: Manage Service Accounts
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Service Accounts
   name: CoreStack Service Account Governance API
   slug: corestack-service-account-governance-api
-- description: Manage Service Account Resources
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Service Account Resources
   name: CoreStack Service Account Resources API
   slug: corestack-service-account-resources-api
-- description: ServiceNow Integrations
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: ServiceNow Integrations
   name: CoreStack ServiceNow Integrations API
   slug: corestack-servicenow-integrations-api
-- description: Manage Stacks Marketplace Products
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Stacks Marketplace Products
   name: CoreStack Stacks Marketplace Product API
   slug: corestack-stacksmarketplaceproduct-api
-- description: Manage Stacks Marketplace Stack Definitions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Stacks Marketplace Stack Definitions
   name: CoreStack Stacks Marketplace Stack Definition API
   slug: corestack-stacksmarketplacestackdefinition-api
-- description: Manage Stacks Marketplace Stack Definition Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Stacks Marketplace Stack Definition Versions
   name: CoreStack Stacks Marketplace Stack Definition Version API
   slug: corestack-stacksmarketplacestackdefinitionversion-api
-- description: Manage Stacks Marketplace Stack Deployments
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Stacks Marketplace Stack Deployments
   name: CoreStack Stacks Marketplace Stack Deployment API
   slug: corestack-stacksmarketplacestackdeployment-api
-- description: Summary Dashboard APIs
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Summary Dashboard APIs
   name: CoreStack Summary Dashboard API
   slug: corestack-summarydashboard-api
-- description: Manage Tagging Governance
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Tagging Governance
   name: CoreStack Tagging Governance Definitions API
   slug: corestack-tagginggovernancedefinitions-api
-- description: Manage Tagging Governance Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Tagging Governance Versions
   name: CoreStack Tagging Governance Definition Versions API
   slug: corestack-tagginggovernancedefinitionversions-api
-- description: Manage Tagging Governance Postures
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Tagging Governance Postures
   name: CoreStack Tagging Governance Postures API
   slug: corestack-tagginggovernancepostures-api
-- description: User Group Management
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: User Group Management
   name: CoreStack User Groups API
   slug: corestack-usergroups-api
-- description: Corestack UserPreferences Rest API
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Corestack UserPreferences Rest API
   name: CoreStack User Preference API
   slug: corestack-userpreference-api
-- description: Manage Assessments
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Assessments
   name: CoreStack Waf Assessment Definitions API
   slug: corestack-wafassessmentdefinitions-api
-- description: Manage Assessment Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Assessment Versions
   name: CoreStack Waf Assessment Definition Versions API
   slug: corestack-wafassessmentdefinitionversions-api
-- description: Manage Assessment Runs
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Assessment Runs
   name: CoreStack Waf Assessment Runs API
   slug: corestack-wafassessmentruns-api
-- description: Corestack Well Architecture Framework Rest API
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Corestack Well Architecture Framework Rest API
   name: CoreStack Well Architected Framework API
   slug: corestack-wellarchitectedframework-api
-- description: Manage Workloads
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Workloads
   name: CoreStack Workload Definitions API
   slug: corestack-workloaddefinitions-api
-- description: Manage Workload Versions
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Manage Workload Versions
   name: CoreStack Workload Definition Versions API
   slug: corestack-workloaddefinitionversions-api
-- description: Query Resources for Workloads
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Query Resources for Workloads
   name: CoreStack Workload Query API
   slug: corestack-workloadquery-api
-- description: Zoho Incident
+- baseURL: https://api.corestack.io/
+  baseurl_source: declared
+  description: Zoho Incident
   name: CoreStack Zoho Incident API
   slug: corestack-zoho-incident-api
 artifact_total: 94
@@ -474,23 +656,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.6
+  composite: 56.7
   coverage:
     artifact_dirs: 23
-    catalog_gap: 69.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.9
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 39.9
-    discoverability: 70.4
+    discoverability: 61.1
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 57.8
+  previous_composite: 57.6
   provenance:
     conformance: derived
     contracts:
@@ -507,7 +689,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/screenshots/corestack-2026-08-17T080832.png
 security:

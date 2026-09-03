@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Manage clusters within private clouds
+- baseURL: https://vmwareengine.googleapis.com
+  baseurl_source: declared
+  description: Manage clusters within private clouds
   name: Google Cloud VMware Engine Clusters API
   slug: google-cloud-vmware-engine-clusters-api
-- description: Manage network policies
+- baseURL: https://vmwareengine.googleapis.com
+  baseurl_source: declared
+  description: Manage network policies
   name: Google Cloud VMware Engine NetworkPolicies API
   slug: google-cloud-vmware-engine-networkpolicies-api
-- description: Manage VMware private clouds
+- baseURL: https://vmwareengine.googleapis.com
+  baseurl_source: declared
+  description: Manage VMware private clouds
   name: Google Cloud VMware Engine PrivateClouds API
   slug: google-cloud-vmware-engine-privateclouds-api
 artifact_total: 19
@@ -191,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/screenshots/google-cloud-vmware-engine-2026-06-20T182153.png
 security:

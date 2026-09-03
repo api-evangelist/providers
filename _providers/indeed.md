@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -80,13 +80,19 @@ apis:
 - description: Part of the Candidate Sync APIs, this API enables ATS partners to get candidate and application information from Indeed on behalf of employers.
   name: Indeed Retrieve Candidates API
   slug: retrieve-candidates
-- description: Operations for retrieving and managing candidate applications. Part of the Candidate Sync APIs, these endpoints enable ATS partners to fetch candidate and application data from Indeed on behalf of reg
+- baseURL: https://api.indeed.com
+  baseurl_source: declared
+  description: Operations for retrieving and managing candidate applications. Part of the Candidate Sync APIs, these endpoints enable ATS partners to fetch candidate and application data from Indeed on behalf of reg
   name: Indeed Candidates API
   slug: indeed-candidates-api
-- description: Operations for creating and managing employer profiles on Indeed. Employer entities must be created before job postings can be associated with them. Supports global attributes such as employer name an
+- baseURL: https://api.indeed.com
+  baseurl_source: declared
+  description: Operations for creating and managing employer profiles on Indeed. Employer entities must be created before job postings can be associated with them. Supports global attributes such as employer name an
   name: Indeed Employers API
   slug: indeed-employers-api
-- description: Operations for creating, updating, expiring, and retrieving job postings on Indeed. Supports qualifications, working hours, salary, benefits, employer information, and Indeed Apply configuration.
+- baseURL: https://api.indeed.com
+  baseurl_source: declared
+  description: Operations for creating, updating, expiring, and retrieving job postings on Indeed. Supports qualifications, working hours, salary, benefits, employer information, and Indeed Apply configuration.
   name: Indeed Jobs API
   slug: indeed-jobs-api
 artifact_total: 173
@@ -678,7 +684,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/screenshots/indeed-2026-06-20T183344.png
 security:

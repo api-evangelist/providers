@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: Event notifications for compliance and transaction lifecycle changes (e.g., filing, registration, and nexus events). Webhook delivery is offered through the Numeral platform; no public webhook subscri
   name: Numeral Webhooks
   slug: webhooks
-- description: The Customers API from Numeral — 2 operation(s) for customers.
+- baseURL: https://api.numeralhq.com
+  baseurl_source: declared
+  description: The Customers API from Numeral — 2 operation(s) for customers.
   name: Numeral Customers API
   slug: numeral-customers-api
-- description: The Health API from Numeral — 1 operation(s) for health.
+- baseURL: https://api.numeralhq.com
+  baseurl_source: declared
+  description: The Health API from Numeral — 1 operation(s) for health.
   name: Numeral Health API
   slug: numeral-health-api
-- description: The Products API from Numeral — 2 operation(s) for products.
+- baseURL: https://api.numeralhq.com
+  baseurl_source: declared
+  description: The Products API from Numeral — 2 operation(s) for products.
   name: Numeral Products API
   slug: numeral-products-api
-- description: The Refunds API from Numeral — 3 operation(s) for refunds.
+- baseURL: https://api.numeralhq.com
+  baseurl_source: declared
+  description: The Refunds API from Numeral — 3 operation(s) for refunds.
   name: Numeral Refunds API
   slug: numeral-refunds-api
-- description: The Tax Calculations API from Numeral — 2 operation(s) for tax calculations.
+- baseURL: https://api.numeralhq.com
+  baseurl_source: declared
+  description: The Tax Calculations API from Numeral — 2 operation(s) for tax calculations.
   name: Numeral Tax Calculations API
   slug: numeral-tax-calculations-api
-- description: The Transactions API from Numeral — 2 operation(s) for transactions.
+- baseURL: https://api.numeralhq.com
+  baseurl_source: declared
+  description: The Transactions API from Numeral — 2 operation(s) for transactions.
   name: Numeral Transactions API
   slug: numeral-transactions-api
 artifact_total: 23
@@ -190,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/screenshots/numeral-2026-08-07T185732.png
 security:

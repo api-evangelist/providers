@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agents API from Unitrends — 1 operation(s) for agents.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The Agents API from Unitrends — 1 operation(s) for agents.
   name: Unitrends Agents API
   slug: unitrends-agents-api
-- description: The Appliances API from Unitrends — 1 operation(s) for appliances.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The Appliances API from Unitrends — 1 operation(s) for appliances.
   name: Unitrends Appliances API
   slug: unitrends-appliances-api
-- description: The Assets API from Unitrends — 2 operation(s) for assets.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The Assets API from Unitrends — 2 operation(s) for assets.
   name: Unitrends Assets API
   slug: unitrends-assets-api
-- description: The BackupIqAlerts API from Unitrends — 1 operation(s) for backupiqalerts.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The BackupIqAlerts API from Unitrends — 1 operation(s) for backupiqalerts.
   name: Unitrends BackupIqAlerts API
   slug: unitrends-backupiqalerts-api
-- description: The Backups API from Unitrends — 1 operation(s) for backups.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The Backups API from Unitrends — 1 operation(s) for backups.
   name: Unitrends Backups API
   slug: unitrends-backups-api
-- description: The Customers API from Unitrends — 1 operation(s) for customers.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The Customers API from Unitrends — 1 operation(s) for customers.
   name: Unitrends Customers API
   slug: unitrends-customers-api
-- description: The Domains API from Unitrends — 1 operation(s) for domains.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The Domains API from Unitrends — 1 operation(s) for domains.
   name: Unitrends Domains API
   slug: unitrends-domains-api
-- description: The DomainsEntra API from Unitrends — 1 operation(s) for domainsentra.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The DomainsEntra API from Unitrends — 1 operation(s) for domainsentra.
   name: Unitrends DomainsEntra API
   slug: unitrends-domainsentra-api
-- description: The DomainsV2 API from Unitrends — 1 operation(s) for domainsv2.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The DomainsV2 API from Unitrends — 1 operation(s) for domainsv2.
   name: Unitrends DomainsV2 API
   slug: unitrends-domainsv2-api
-- description: The DomainUsers API from Unitrends — 1 operation(s) for domainusers.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The DomainUsers API from Unitrends — 1 operation(s) for domainusers.
   name: Unitrends DomainUsers API
   slug: unitrends-domainusers-api
-- description: The DomainUsersV2 API from Unitrends — 1 operation(s) for domainusersv2.
+- baseURL: https://public-api.backup.net
+  baseurl_source: declared
+  description: The DomainUsersV2 API from Unitrends — 1 operation(s) for domainusersv2.
   name: Unitrends DomainUsersV2 API
   slug: unitrends-domainusersv2-api
 artifact_total: 27
@@ -230,7 +252,7 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -255,8 +277,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/screenshots/unitrends-2026-09-02T164925.png
 security:
 - kind: authentication
   name: Unitrends Authentication

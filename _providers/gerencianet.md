@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -44,112 +44,184 @@ agentic_access:
   summary_line: 173 operations · 112 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: The Account API from Efí Pay (Gerencianet) — 2 operation(s) for account.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Account API from Efí Pay (Gerencianet) — 2 operation(s) for account.
   name: Efí Pay (Gerencianet) Account API
   slug: gerencianet-account-api
-- description: The Accounts API from Efí Pay (Gerencianet) — 3 operation(s) for accounts.
+- baseURL: https://abrircontas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Accounts API from Efí Pay (Gerencianet) — 3 operation(s) for accounts.
   name: Efí Pay (Gerencianet) Accounts API
   slug: gerencianet-accounts-api
-- description: The Authorization API from Efí Pay (Gerencianet) — 2 operation(s) for authorization.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Authorization API from Efí Pay (Gerencianet) — 2 operation(s) for authorization.
   name: Efí Pay (Gerencianet) Authorization API
   slug: gerencianet-authorization-api
-- description: The Automatic Charges API from Efí Pay (Gerencianet) — 3 operation(s) for automatic charges.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Automatic Charges API from Efí Pay (Gerencianet) — 3 operation(s) for automatic charges.
   name: Efí Pay (Gerencianet) Automatic Charges API
   slug: gerencianet-automatic-charges-api
-- description: The Automatic Pix API from Efí Pay (Gerencianet) — 2 operation(s) for automatic pix.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Automatic Pix API from Efí Pay (Gerencianet) — 2 operation(s) for automatic pix.
   name: Efí Pay (Gerencianet) Automatic Pix API
   slug: gerencianet-automatic-pix-api
-- description: The Bill Payments API from Efí Pay (Gerencianet) — 3 operation(s) for bill payments.
+- baseURL: https://pagarcontas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Bill Payments API from Efí Pay (Gerencianet) — 3 operation(s) for bill payments.
   name: Efí Pay (Gerencianet) Bill Payments API
   slug: gerencianet-bill-payments-api
-- description: The Biometric Pix API from Efí Pay (Gerencianet) — 2 operation(s) for biometric pix.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Biometric Pix API from Efí Pay (Gerencianet) — 2 operation(s) for biometric pix.
   name: Efí Pay (Gerencianet) Biometric Pix API
   slug: gerencianet-biometric-pix-api
-- description: The Card Payments API from Efí Pay (Gerencianet) — 3 operation(s) for card payments.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Card Payments API from Efí Pay (Gerencianet) — 3 operation(s) for card payments.
   name: Efí Pay (Gerencianet) Card Payments API
   slug: gerencianet-card-payments-api
-- description: The Carnets API from Efí Pay (Gerencianet) — 12 operation(s) for carnets.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Carnets API from Efí Pay (Gerencianet) — 12 operation(s) for carnets.
   name: Efí Pay (Gerencianet) Carnets API
   slug: gerencianet-carnets-api
-- description: The Charges API from Efí Pay (Gerencianet) — 12 operation(s) for charges.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Charges API from Efí Pay (Gerencianet) — 12 operation(s) for charges.
   name: Efí Pay (Gerencianet) Charges API
   slug: gerencianet-charges-api
-- description: The Configuration API from Efí Pay (Gerencianet) — 1 operation(s) for configuration.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Configuration API from Efí Pay (Gerencianet) — 1 operation(s) for configuration.
   name: Efí Pay (Gerencianet) Configuration API
   slug: gerencianet-configuration-api
-- description: The Devolutions API from Efí Pay (Gerencianet) — 1 operation(s) for devolutions.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Devolutions API from Efí Pay (Gerencianet) — 1 operation(s) for devolutions.
   name: Efí Pay (Gerencianet) Devolutions API
   slug: gerencianet-devolutions-api
-- description: The Due Charge Batches API from Efí Pay (Gerencianet) — 2 operation(s) for due charge batches.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Due Charge Batches API from Efí Pay (Gerencianet) — 2 operation(s) for due charge batches.
   name: Efí Pay (Gerencianet) Due Charge Batches API
   slug: gerencianet-due-charge-batches-api
-- description: The Due Charges API from Efí Pay (Gerencianet) — 2 operation(s) for due charges.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Due Charges API from Efí Pay (Gerencianet) — 2 operation(s) for due charges.
   name: Efí Pay (Gerencianet) Due Charges API
   slug: gerencianet-due-charges-api
-- description: The Immediate Charges API from Efí Pay (Gerencianet) — 2 operation(s) for immediate charges.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Immediate Charges API from Efí Pay (Gerencianet) — 2 operation(s) for immediate charges.
   name: Efí Pay (Gerencianet) Immediate Charges API
   slug: gerencianet-immediate-charges-api
-- description: The Immediate Pix API from Efí Pay (Gerencianet) — 2 operation(s) for immediate pix.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Immediate Pix API from Efí Pay (Gerencianet) — 2 operation(s) for immediate pix.
   name: Efí Pay (Gerencianet) Immediate Pix API
   slug: gerencianet-immediate-pix-api
-- description: The Locations API from Efí Pay (Gerencianet) — 3 operation(s) for locations.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Locations API from Efí Pay (Gerencianet) — 3 operation(s) for locations.
   name: Efí Pay (Gerencianet) Locations API
   slug: gerencianet-locations-api
-- description: The MED Infractions API from Efí Pay (Gerencianet) — 2 operation(s) for med infractions.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The MED Infractions API from Efí Pay (Gerencianet) — 2 operation(s) for med infractions.
   name: Efí Pay (Gerencianet) MED Infractions API
   slug: gerencianet-med-infractions-api
-- description: The Notifications API from Efí Pay (Gerencianet) — 1 operation(s) for notifications.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Notifications API from Efí Pay (Gerencianet) — 1 operation(s) for notifications.
   name: Efí Pay (Gerencianet) Notifications API
   slug: gerencianet-notifications-api
-- description: The Participants API from Efí Pay (Gerencianet) — 1 operation(s) for participants.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Participants API from Efí Pay (Gerencianet) — 1 operation(s) for participants.
   name: Efí Pay (Gerencianet) Participants API
   slug: gerencianet-participants-api
-- description: The Payment Links API from Efí Pay (Gerencianet) — 3 operation(s) for payment links.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Payment Links API from Efí Pay (Gerencianet) — 3 operation(s) for payment links.
   name: Efí Pay (Gerencianet) Payment Links API
   slug: gerencianet-payment-links-api
-- description: The Pix Keys API from Efí Pay (Gerencianet) — 3 operation(s) for pix keys.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Pix Keys API from Efí Pay (Gerencianet) — 3 operation(s) for pix keys.
   name: Efí Pay (Gerencianet) Pix Keys API
   slug: gerencianet-pix-keys-api
-- description: The Pix Send API from Efí Pay (Gerencianet) — 6 operation(s) for pix send.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Pix Send API from Efí Pay (Gerencianet) — 6 operation(s) for pix send.
   name: Efí Pay (Gerencianet) Pix Send API
   slug: gerencianet-pix-send-api
-- description: The Plans API from Efí Pay (Gerencianet) — 3 operation(s) for plans.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Plans API from Efí Pay (Gerencianet) — 3 operation(s) for plans.
   name: Efí Pay (Gerencianet) Plans API
   slug: gerencianet-plans-api
-- description: The QR Codes API from Efí Pay (Gerencianet) — 2 operation(s) for qr codes.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The QR Codes API from Efí Pay (Gerencianet) — 2 operation(s) for qr codes.
   name: Efí Pay (Gerencianet) QR Codes API
   slug: gerencianet-qr-codes-api
-- description: The Receipts API from Efí Pay (Gerencianet) — 1 operation(s) for receipts.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Receipts API from Efí Pay (Gerencianet) — 1 operation(s) for receipts.
   name: Efí Pay (Gerencianet) Receipts API
   slug: gerencianet-receipts-api
-- description: The Received Pix API from Efí Pay (Gerencianet) — 2 operation(s) for received pix.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Received Pix API from Efí Pay (Gerencianet) — 2 operation(s) for received pix.
   name: Efí Pay (Gerencianet) Received Pix API
   slug: gerencianet-received-pix-api
-- description: The Recurring Pix API from Efí Pay (Gerencianet) — 11 operation(s) for recurring pix.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Recurring Pix API from Efí Pay (Gerencianet) — 11 operation(s) for recurring pix.
   name: Efí Pay (Gerencianet) Recurring Pix API
   slug: gerencianet-recurring-pix-api
-- description: The Reports API from Efí Pay (Gerencianet) — 2 operation(s) for reports.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Reports API from Efí Pay (Gerencianet) — 2 operation(s) for reports.
   name: Efí Pay (Gerencianet) Reports API
   slug: gerencianet-reports-api
-- description: The Scheduled Pix API from Efí Pay (Gerencianet) — 3 operation(s) for scheduled pix.
+- baseURL: https://openfinance.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Scheduled Pix API from Efí Pay (Gerencianet) — 3 operation(s) for scheduled pix.
   name: Efí Pay (Gerencianet) Scheduled Pix API
   slug: gerencianet-scheduled-pix-api
-- description: The SFTP API from Efí Pay (Gerencianet) — 1 operation(s) for sftp.
+- baseURL: https://extratos.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The SFTP API from Efí Pay (Gerencianet) — 1 operation(s) for sftp.
   name: Efí Pay (Gerencianet) SFTP API
   slug: gerencianet-sftp-api
-- description: The Splits API from Efí Pay (Gerencianet) — 6 operation(s) for splits.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: spec
+  description: The Splits API from Efí Pay (Gerencianet) — 6 operation(s) for splits.
   name: Efí Pay (Gerencianet) Splits API
   slug: gerencianet-splits-api
-- description: The Statement Files API from Efí Pay (Gerencianet) — 2 operation(s) for statement files.
+- baseURL: https://extratos.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Statement Files API from Efí Pay (Gerencianet) — 2 operation(s) for statement files.
   name: Efí Pay (Gerencianet) Statement Files API
   slug: gerencianet-statement-files-api
-- description: The Statement Schedules API from Efí Pay (Gerencianet) — 3 operation(s) for statement schedules.
+- baseURL: https://extratos.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Statement Schedules API from Efí Pay (Gerencianet) — 3 operation(s) for statement schedules.
   name: Efí Pay (Gerencianet) Statement Schedules API
   slug: gerencianet-statement-schedules-api
-- description: The Subscriptions API from Efí Pay (Gerencianet) — 9 operation(s) for subscriptions.
+- baseURL: https://cobrancas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Subscriptions API from Efí Pay (Gerencianet) — 9 operation(s) for subscriptions.
   name: Efí Pay (Gerencianet) Subscriptions API
   slug: gerencianet-subscriptions-api
-- description: The Webhooks API from Efí Pay (Gerencianet) — 8 operation(s) for webhooks.
+- baseURL: https://abrircontas.api.efipay.com.br/v1
+  baseurl_source: spec
+  description: The Webhooks API from Efí Pay (Gerencianet) — 8 operation(s) for webhooks.
   name: Efí Pay (Gerencianet) Webhooks API
   slug: gerencianet-webhooks-api
 arazzos:
@@ -731,7 +803,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:

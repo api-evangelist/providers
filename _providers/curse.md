@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 46 operations · 19 acting
 api_count: 1
 apis:
-- description: The Categories API from Curse — 1 operation(s) for categories.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Categories API from Curse — 1 operation(s) for categories.
   name: Curse Categories API
   slug: curse-categories-api
-- description: The Files API from Curse — 7 operation(s) for files.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Files API from Curse — 7 operation(s) for files.
   name: Curse Files API
   slug: curse-files-api
-- description: The Fingerprints API from Curse — 4 operation(s) for fingerprints.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Fingerprints API from Curse — 4 operation(s) for fingerprints.
   name: Curse Fingerprints API
   slug: curse-fingerprints-api
-- description: The Games API from Curse — 6 operation(s) for games.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Games API from Curse — 6 operation(s) for games.
   name: Curse Games API
   slug: curse-games-api
-- description: The Minecraft API from Curse — 4 operation(s) for minecraft.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Minecraft API from Curse — 4 operation(s) for minecraft.
   name: Curse Minecraft API
   slug: curse-minecraft-api
-- description: The Mods API from Curse — 19 operation(s) for mods.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Mods API from Curse — 19 operation(s) for mods.
   name: Curse Mods API
   slug: curse-mods-api
-- description: The Subscriptions API from Curse — 5 operation(s) for subscriptions.
+- baseURL: https://api.curseforge.com
+  baseurl_source: declared
+  description: The Subscriptions API from Curse — 5 operation(s) for subscriptions.
   name: Curse Subscriptions API
   slug: curse-subscriptions-api
 artifact_total: 20
@@ -250,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curse/refs/heads/main/screenshots/curse-2026-07-25T210958.png
 security:

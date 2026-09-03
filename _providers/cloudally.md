@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 1
 apis:
-- description: Token issuance and refresh.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: Token issuance and refresh.
   name: CloudAlly Authentication API
   slug: cloudally-authentication-api
-- description: Backup tasks and status.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: Backup tasks and status.
   name: CloudAlly Backups API
   slug: cloudally-backups-api
-- description: Billing and invoicing data.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: Billing and invoicing data.
   name: CloudAlly Billing API
   slug: cloudally-billing-api
-- description: Partner-portal account, billing, and reseller endpoints.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: Partner-portal account, billing, and reseller endpoints.
   name: CloudAlly Partners API
   slug: cloudally-partners-api
-- description: Restore and download requests.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: Restore and download requests.
   name: CloudAlly Restore API
   slug: cloudally-restore-api
-- description: Long-running task status.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: Long-running task status.
   name: CloudAlly Tasks API
   slug: cloudally-tasks-api
-- description: User and account management.
+- baseURL: https://api.cloudally.com
+  baseurl_source: declared
+  description: User and account management.
   name: CloudAlly Users API
   slug: cloudally-users-api
 artifact_total: 27
@@ -241,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/screenshots/cloudally-2026-06-20T174540.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Account information and balances
+- baseURL: https://api.huntington.com
+  baseurl_source: declared
+  description: Account information and balances
   name: Huntington Bancshares Accounts API
   slug: huntington-bancshares-accounts-api
-- description: Payment initiation and management
+- baseURL: https://api.huntington.com
+  baseurl_source: declared
+  description: Payment initiation and management
   name: Huntington Bancshares Payments API
   slug: huntington-bancshares-payments-api
-- description: Transaction reporting and history
+- baseURL: https://api.huntington.com
+  baseurl_source: declared
+  description: Transaction reporting and history
   name: Huntington Bancshares Transactions API
   slug: huntington-bancshares-transactions-api
 artifact_total: 15
@@ -186,7 +192,7 @@ score:
     regime_id: banking_open_finance
     score: 41.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/screenshots/huntington-bancshares-2026-06-20T182949.png
 security:

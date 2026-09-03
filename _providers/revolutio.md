@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Multi-hazard combined analysis returning all available parameters for a site
+- baseURL: https://api.revolutio.com.au
+  baseurl_source: declared
+  description: Multi-hazard combined analysis returning all available parameters for a site
   name: Revolutio Combined Hazard API
   slug: revolutio-combined-hazard-api
-- description: Seismic hazard parameters
+- baseURL: https://api.revolutio.com.au
+  baseurl_source: declared
+  description: Seismic hazard parameters
   name: Revolutio Seismic API
   slug: revolutio-seismic-api
-- description: Snow and ice loading parameters per applicable standards
+- baseURL: https://api.revolutio.com.au
+  baseurl_source: declared
+  description: Snow and ice loading parameters per applicable standards
   name: Revolutio Snow And Ice API
   slug: revolutio-snow-and-ice-api
-- description: Site-specific wind hazard analysis per AS/NZS 1170.2 and ASCE 7 standards
+- baseURL: https://api.revolutio.com.au
+  baseurl_source: declared
+  description: Site-specific wind hazard analysis per AS/NZS 1170.2 and ASCE 7 standards
   name: Revolutio Wind API
   slug: revolutio-wind-api
 artifact_total: 23
@@ -205,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/screenshots/revolutio-2026-06-20T193102.png
 security:

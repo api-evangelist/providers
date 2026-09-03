@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Endpoints related to Develocity authentication and authorization. The permissions required for these endpoints vary. Consult the endpoint descriptions.
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints related to Develocity authentication and authorization. The permissions required for these endpoints vary. Consult the endpoint descriptions.
   name: Gradle Auth API
   slug: gradle-auth-api
-- description: Endpoints related to configuring the Build Cache nodes of the Develocity instance. To access these endpoints the user requires the `Configure Build Caching` permission.
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints related to configuring the Build Cache nodes of the Develocity instance. To access these endpoints the user requires the `Configure Build Caching` permission.
   name: Gradle BuildCache API
   slug: gradle-buildcache-api
-- description: Endpoints related to retrieving details of a build from the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission.
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints related to retrieving details of a build from the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission.
   name: Gradle Builds API
   slug: gradle-builds-api
-- description: Endpoints for comparing two builds to identify differences in work unit inputs, dependencies, and other dimensions. To access these endpoints the user requires the `Access build data via the API` perm
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints for comparing two builds to identify differences in work unit inputs, dependencies, and other dimensions. To access these endpoints the user requires the `Access build data via the API` perm
   name: Gradle Comparison API
   slug: gradle-comparison-api
-- description: 'Endpoints related to retrieving details about failures of builds from the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. **<mark>Beta:'
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: 'Endpoints related to retrieving details about failures of builds from the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. **<mark>Beta:'
   name: Gradle Failures API
   slug: gradle-failures-api
-- description: Endpoints related to the Develocity installation and its state.
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints related to the Develocity installation and its state.
   name: Gradle Meta API
   slug: gradle-meta-api
-- description: 'Endpoints related to the management of project-level access control in Develocity. To access these endpoints the user requires the `Administer Projects` permission. **<mark>Beta:</mark> _The Projects '
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: 'Endpoints related to the management of project-level access control in Develocity. To access these endpoints the user requires the `Administer Projects` permission. **<mark>Beta:</mark> _The Projects '
   name: Gradle Projects API
   slug: gradle-projects-api
-- description: Endpoints related to the management of Test Distribution resources. To access these endpoints the user requires the `Admin` permission.
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints related to the management of Test Distribution resources. To access these endpoints the user requires the `Admin` permission.
   name: Gradle TestDistribution API
   slug: gradle-testdistribution-api
-- description: Endpoints related to retrieving details of tests of the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. The Develocity installation als
+- baseURL: https://develocity.example.com/api
+  baseurl_source: declared
+  description: Endpoints related to retrieving details of tests of the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. The Develocity installation als
   name: Gradle Tests API
   slug: gradle-tests-api
 artifact_total: 26
@@ -284,7 +302,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 18 operations · 14 acting
 api_count: 1
 apis:
-- description: OAuth2 token management
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: OAuth2 token management
   name: Rithum Authentication API
   slug: rithum-authentication-api
-- description: Product catalog synchronization
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Product catalog synchronization
   name: Rithum Catalog API
   slug: rithum-catalog-api
-- description: Inventory level management
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Inventory level management
   name: Rithum Inventory API
   slug: rithum-inventory-api
-- description: Invoice processing
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Invoice processing
   name: Rithum Invoices API
   slug: rithum-invoices-api
-- description: Retailer and supplier order operations
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Retailer and supplier order operations
   name: Rithum Orders API
   slug: rithum-orders-api
-- description: Return and refund management
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Return and refund management
   name: Rithum Returns API
   slug: rithum-returns-api
-- description: Shipment creation and tracking
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Shipment creation and tracking
   name: Rithum Shipments API
   slug: rithum-shipments-api
-- description: Event stream management for real-time data
+- baseURL: https://api.dsco.io/api/v3
+  baseurl_source: declared
+  description: Event stream management for real-time data
   name: Rithum Streams API
   slug: rithum-streams-api
 artifact_total: 40
@@ -289,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/screenshots/rithum-2026-06-20T193131.png
 security:

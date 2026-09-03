@@ -34,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Token-authenticated synchronization of Multiplier members - employees and contractors - and their profile, employment, and status data with external HRIS platforms. Exposed through Multiplier's integr
+- baseURL: https://api.usemultiplier.com
+  baseurl_source: declared
+  description: Token-authenticated synchronization of Multiplier members - employees and contractors - and their profile, employment, and status data with external HRIS platforms. Exposed through Multiplier's integr
   name: Multiplier Members API
   slug: members-api
-- description: Employment and contractor agreement data - contract generation, terms, and lifecycle status - made available to integrations. Access is provisioned per account; no open public endpoint reference is pu
+- baseURL: https://api.usemultiplier.com
+  baseurl_source: declared
+  description: Employment and contractor agreement data - contract generation, terms, and lifecycle status - made available to integrations. Access is provisioned per account; no open public endpoint reference is pu
   name: Multiplier Contracts API
   slug: contracts-api
-- description: 'Multi-country payroll data sync - salary, compensation changes, and payroll runs across 120+ currencies. Surfaced to HRIS integrations (for example the Workday API integration, an alternative to PECI '
+- baseURL: https://api.usemultiplier.com
+  baseurl_source: declared
+  description: 'Multi-country payroll data sync - salary, compensation changes, and payroll runs across 120+ currencies. Surfaced to HRIS integrations (for example the Workday API integration, an alternative to PECI '
   name: Multiplier Payroll API
   slug: payroll-api
-- description: Payment and disbursement data for members and contractors. Available to integrations under account-provisioned tokens; no open public endpoint reference is published.
+- baseURL: https://api.usemultiplier.com
+  baseurl_source: declared
+  description: Payment and disbursement data for members and contractors. Available to integrations under account-provisioned tokens; no open public endpoint reference is published.
   name: Multiplier Payments API
   slug: payments-api
-- description: Leave requests, balances, and regional holiday data with per-country leave policy rules, plus timesheets. Made available to HRIS integrations; no open public endpoint reference is published.
+- baseURL: https://api.usemultiplier.com
+  baseurl_source: declared
+  description: Leave requests, balances, and regional holiday data with per-country leave policy rules, plus timesheets. Made available to HRIS integrations; no open public endpoint reference is published.
   name: Multiplier Time Off API
   slug: time-off-api
-- description: Consolidated invoice and billing data for employment, payroll, and contractor services. Available to integrations under account-provisioned tokens; no open public endpoint reference is published.
+- baseURL: https://api.usemultiplier.com
+  baseurl_source: declared
+  description: Consolidated invoice and billing data for employment, payroll, and contractor services. Available to integrations under account-provisioned tokens; no open public endpoint reference is published.
   name: Multiplier Invoices API
   slug: invoices-api
 artifact_total: 13
@@ -141,7 +153,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/multiplier/refs/heads/main/screenshots/multiplier-2026-08-07T184541.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -44,124 +44,204 @@ agentic_access:
   summary_line: 107 operations · 53 acting
 api_count: 1
 apis:
-- description: The Account API from PracticePanther — 2 operation(s) for account.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Account API from PracticePanther — 2 operation(s) for account.
   name: PracticePanther Account API
   slug: practicepanther-account-api
-- description: The AccountingSnapshot API from PracticePanther — 1 operation(s) for accountingsnapshot.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The AccountingSnapshot API from PracticePanther — 1 operation(s) for accountingsnapshot.
   name: PracticePanther AccountingSnapshot API
   slug: practicepanther-accountingsnapshot-api
-- description: The Activity API from PracticePanther — 2 operation(s) for activity.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Activity API from PracticePanther — 2 operation(s) for activity.
   name: PracticePanther Activity API
   slug: practicepanther-activity-api
-- description: The CustomField API from PracticePanther — 1 operation(s) for customfield.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The CustomField API from PracticePanther — 1 operation(s) for customfield.
   name: PracticePanther CustomField API
   slug: practicepanther-customfield-api
-- description: The EmailTemplate API from PracticePanther — 1 operation(s) for emailtemplate.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The EmailTemplate API from PracticePanther — 1 operation(s) for emailtemplate.
   name: PracticePanther EmailTemplate API
   slug: practicepanther-emailtemplate-api
-- description: The Expense API from PracticePanther — 2 operation(s) for expense.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Expense API from PracticePanther — 2 operation(s) for expense.
   name: PracticePanther Expense API
   slug: practicepanther-expense-api
-- description: The IntegrationBulkContactLookup API from PracticePanther — 2 operation(s) for integrationbulkcontactlookup.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The IntegrationBulkContactLookup API from PracticePanther — 2 operation(s) for integrationbulkcontactlookup.
   name: PracticePanther IntegrationBulkContactLookup API
   slug: practicepanther-integrationbulkcontactlookup-api
-- description: The IntegrationContacts API from PracticePanther — 2 operation(s) for integrationcontacts.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The IntegrationContacts API from PracticePanther — 2 operation(s) for integrationcontacts.
   name: PracticePanther IntegrationContacts API
   slug: practicepanther-integrationcontacts-api
-- description: The Invoice API from PracticePanther — 2 operation(s) for invoice.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Invoice API from PracticePanther — 2 operation(s) for invoice.
   name: PracticePanther Invoice API
   slug: practicepanther-invoice-api
-- description: The Item API from PracticePanther — 2 operation(s) for item.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Item API from PracticePanther — 2 operation(s) for item.
   name: PracticePanther Item API
   slug: practicepanther-item-api
-- description: The Payment API from PracticePanther — 2 operation(s) for payment.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Payment API from PracticePanther — 2 operation(s) for payment.
   name: PracticePanther Payment API
   slug: practicepanther-payment-api
-- description: The Project API from PracticePanther — 2 operation(s) for project.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Project API from PracticePanther — 2 operation(s) for project.
   name: PracticePanther Project API
   slug: practicepanther-project-api
-- description: The Relationship API from PracticePanther — 2 operation(s) for relationship.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Relationship API from PracticePanther — 2 operation(s) for relationship.
   name: PracticePanther Relationship API
   slug: practicepanther-relationship-api
-- description: The SalesTax API from PracticePanther — 2 operation(s) for salestax.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The SalesTax API from PracticePanther — 2 operation(s) for salestax.
   name: PracticePanther SalesTax API
   slug: practicepanther-salestax-api
-- description: The Tag API from PracticePanther — 1 operation(s) for tag.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Tag API from PracticePanther — 1 operation(s) for tag.
   name: PracticePanther Tag API
   slug: practicepanther-tag-api
-- description: The TimeEntry API from PracticePanther — 2 operation(s) for timeentry.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The TimeEntry API from PracticePanther — 2 operation(s) for timeentry.
   name: PracticePanther TimeEntry API
   slug: practicepanther-timeentry-api
-- description: The User API from PracticePanther — 1 operation(s) for user.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The User API from PracticePanther — 1 operation(s) for user.
   name: PracticePanther User API
   slug: practicepanther-user-api
-- description: The V1AccountPayeeSettings API from PracticePanther — 1 operation(s) for v1accountpayeesettings.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1AccountPayeeSettings API from PracticePanther — 1 operation(s) for v1accountpayeesettings.
   name: PracticePanther V1AccountPayeeSettings API
   slug: practicepanther-v1accountpayeesettings-api
-- description: The V1AccountsDropdown API from PracticePanther — 1 operation(s) for v1accountsdropdown.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1AccountsDropdown API from PracticePanther — 1 operation(s) for v1accountsdropdown.
   name: PracticePanther V1AccountsDropdown API
   slug: practicepanther-v1accountsdropdown-api
-- description: The V1AllPaymentsGrid API from PracticePanther — 2 operation(s) for v1allpaymentsgrid.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1AllPaymentsGrid API from PracticePanther — 2 operation(s) for v1allpaymentsgrid.
   name: PracticePanther V1AllPaymentsGrid API
   slug: practicepanther-v1allpaymentsgrid-api
-- description: The V1AnyPaymentsBulk API from PracticePanther — 3 operation(s) for v1anypaymentsbulk.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1AnyPaymentsBulk API from PracticePanther — 3 operation(s) for v1anypaymentsbulk.
   name: PracticePanther V1AnyPaymentsBulk API
   slug: practicepanther-v1anypaymentsbulk-api
-- description: The V1BankAccount API from PracticePanther — 4 operation(s) for v1bankaccount.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1BankAccount API from PracticePanther — 4 operation(s) for v1bankaccount.
   name: PracticePanther V1BankAccount API
   slug: practicepanther-v1bankaccount-api
-- description: The V1BankAccountsDropdown API from PracticePanther — 1 operation(s) for v1bankaccountsdropdown.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1BankAccountsDropdown API from PracticePanther — 1 operation(s) for v1bankaccountsdropdown.
   name: PracticePanther V1BankAccountsDropdown API
   slug: practicepanther-v1bankaccountsdropdown-api
-- description: The V1BarReportGrid API from PracticePanther — 1 operation(s) for v1barreportgrid.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1BarReportGrid API from PracticePanther — 1 operation(s) for v1barreportgrid.
   name: PracticePanther V1BarReportGrid API
   slug: practicepanther-v1barreportgrid-api
-- description: The V1ChartOfAccountsDropdown API from PracticePanther — 1 operation(s) for v1chartofaccountsdropdown.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1ChartOfAccountsDropdown API from PracticePanther — 1 operation(s) for v1chartofaccountsdropdown.
   name: PracticePanther V1ChartOfAccountsDropdown API
   slug: practicepanther-v1chartofaccountsdropdown-api
-- description: The V1ContactPayments API from PracticePanther — 3 operation(s) for v1contactpayments.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1ContactPayments API from PracticePanther — 3 operation(s) for v1contactpayments.
   name: PracticePanther V1ContactPayments API
   slug: practicepanther-v1contactpayments-api
-- description: The V1DepositSlips API from PracticePanther — 3 operation(s) for v1depositslips.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1DepositSlips API from PracticePanther — 3 operation(s) for v1depositslips.
   name: PracticePanther V1DepositSlips API
   slug: practicepanther-v1depositslips-api
-- description: The V1DepositSlipsPayments API from PracticePanther — 2 operation(s) for v1depositslipspayments.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1DepositSlipsPayments API from PracticePanther — 2 operation(s) for v1depositslipspayments.
   name: PracticePanther V1DepositSlipsPayments API
   slug: practicepanther-v1depositslipspayments-api
-- description: The V1DepositSlipsPdf API from PracticePanther — 1 operation(s) for v1depositslipspdf.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1DepositSlipsPdf API from PracticePanther — 1 operation(s) for v1depositslipspdf.
   name: PracticePanther V1DepositSlipsPdf API
   slug: practicepanther-v1depositslipspdf-api
-- description: The V1Expenses API from PracticePanther — 1 operation(s) for v1expenses.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1Expenses API from PracticePanther — 1 operation(s) for v1expenses.
   name: PracticePanther V1Expenses API
   slug: practicepanther-v1expenses-api
-- description: The V1FirmPayments API from PracticePanther — 6 operation(s) for v1firmpayments.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1FirmPayments API from PracticePanther — 6 operation(s) for v1firmpayments.
   name: PracticePanther V1FirmPayments API
   slug: practicepanther-v1firmpayments-api
-- description: The V1InvoiceProcessingTracker API from PracticePanther — 2 operation(s) for v1invoiceprocessingtracker.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1InvoiceProcessingTracker API from PracticePanther — 2 operation(s) for v1invoiceprocessingtracker.
   name: PracticePanther V1InvoiceProcessingTracker API
   slug: practicepanther-v1invoiceprocessingtracker-api
-- description: The V1Me API from PracticePanther — 1 operation(s) for v1me.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1Me API from PracticePanther — 1 operation(s) for v1me.
   name: PracticePanther V1Me API
   slug: practicepanther-v1me-api
-- description: The V1MergeFields API from PracticePanther — 1 operation(s) for v1mergefields.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1MergeFields API from PracticePanther — 1 operation(s) for v1mergefields.
   name: PracticePanther V1MergeFields API
   slug: practicepanther-v1mergefields-api
-- description: The V1PaymentGridColumns API from PracticePanther — 1 operation(s) for v1paymentgridcolumns.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1PaymentGridColumns API from PracticePanther — 1 operation(s) for v1paymentgridcolumns.
   name: PracticePanther V1PaymentGridColumns API
   slug: practicepanther-v1paymentgridcolumns-api
-- description: The V1PaymentMethodDropdown API from PracticePanther — 1 operation(s) for v1paymentmethoddropdown.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1PaymentMethodDropdown API from PracticePanther — 1 operation(s) for v1paymentmethoddropdown.
   name: PracticePanther V1PaymentMethodDropdown API
   slug: practicepanther-v1paymentmethoddropdown-api
-- description: The V1PrintChecksPdf API from PracticePanther — 1 operation(s) for v1printcheckspdf.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1PrintChecksPdf API from PracticePanther — 1 operation(s) for v1printcheckspdf.
   name: PracticePanther V1PrintChecksPdf API
   slug: practicepanther-v1printcheckspdf-api
-- description: The V1SignatureRequest API from PracticePanther — 1 operation(s) for v1signaturerequest.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1SignatureRequest API from PracticePanther — 1 operation(s) for v1signaturerequest.
   name: PracticePanther V1SignatureRequest API
   slug: practicepanther-v1signaturerequest-api
-- description: The V1SiteWideBanner API from PracticePanther — 1 operation(s) for v1sitewidebanner.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1SiteWideBanner API from PracticePanther — 1 operation(s) for v1sitewidebanner.
   name: PracticePanther V1SiteWideBanner API
   slug: practicepanther-v1sitewidebanner-api
-- description: The V1TrustbooksOnboardingNotifications API from PracticePanther — 1 operation(s) for v1trustbooksonboardingnotifications.
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The V1TrustbooksOnboardingNotifications API from PracticePanther — 1 operation(s) for v1trustbooksonboardingnotifications.
   name: PracticePanther V1TrustbooksOnboardingNotifications API
   slug: practicepanther-v1trustbooksonboardingnotifications-api
 artifact_total: 110
@@ -496,7 +576,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/screenshots/practicepanther-2026-06-20T192035.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: The Metadata API from SnapAPI — 1 operation(s) for metadata.
+- baseURL: https://snap.michaelcli.com
+  baseurl_source: declared
+  description: The Metadata API from SnapAPI — 1 operation(s) for metadata.
   name: SnapAPI Metadata API
   slug: snapapi-metadata-api
-- description: The Pdf API from SnapAPI — 1 operation(s) for pdf.
+- baseURL: https://snap.michaelcli.com
+  baseurl_source: declared
+  description: The Pdf API from SnapAPI — 1 operation(s) for pdf.
   name: SnapAPI Pdf API
   slug: snapapi-pdf-api
-- description: The Screenshot API from SnapAPI — 1 operation(s) for screenshot.
+- baseURL: https://snap.michaelcli.com
+  baseurl_source: declared
+  description: The Screenshot API from SnapAPI — 1 operation(s) for screenshot.
   name: SnapAPI Screenshot API
   slug: snapapi-screenshot-api
-- description: The Signup API from SnapAPI — 1 operation(s) for signup.
+- baseURL: https://snap.michaelcli.com
+  baseurl_source: declared
+  description: The Signup API from SnapAPI — 1 operation(s) for signup.
   name: SnapAPI Signup API
   slug: snapapi-signup-api
-- description: The Text API from SnapAPI — 1 operation(s) for text.
+- baseURL: https://snap.michaelcli.com
+  baseurl_source: declared
+  description: The Text API from SnapAPI — 1 operation(s) for text.
   name: SnapAPI Text API
   slug: snapapi-text-api
-- description: The Usage API from SnapAPI — 1 operation(s) for usage.
+- baseURL: https://snap.michaelcli.com
+  baseurl_source: declared
+  description: The Usage API from SnapAPI — 1 operation(s) for usage.
   name: SnapAPI Usage API
   slug: snapapi-usage-api
 artifact_total: 34
@@ -238,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/screenshots/snapapi-2026-06-20T194100.png
 security:

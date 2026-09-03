@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -44,256 +44,424 @@ agentic_access:
   summary_line: 84 operations · 84 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.acceptenvironmentaccountconnection.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.acceptenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API'
   slug: amazon-proton-x-amz-target-awsproton20200720-acceptenvironmentaccountconnection-api
-- description: 'The #X Amz Target=AwsProton20200720.CancelComponentDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelcomponentdeployment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CancelComponentDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelcomponentdeployment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelComponentDeployment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-cancelcomponentdeployment-api
-- description: 'The #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelenvironmentdeployment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelenvironmentdeployment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelEnvironmentDeployment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-cancelenvironmentdeployment-api
-- description: 'The #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelserviceinstancedeployment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelserviceinstancedeployment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelServiceInstanceDeployment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-cancelserviceinstancedeployment-api
-- description: 'The #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelservicepipelinedeployment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.cancelservicepipelinedeployment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CancelServicePipelineDeployment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-cancelservicepipelinedeployment-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createcomponent.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createcomponent.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateComponent API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createcomponent-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createenvironment-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmentaccountconnection.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentAccountConnection API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createenvironmentaccountconnection-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmenttemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmenttemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmenttemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createenvironmenttemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateEnvironmentTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createenvironmenttemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateRepository API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createrepository.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateRepository API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createrepository.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateRepository API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createrepository-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservice.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservice.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateService API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createservice-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateServiceInstance API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createserviceinstance.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceInstance API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createserviceinstance.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceInstance API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createserviceinstance-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservicesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservicesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createservicesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservicetemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservicetemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createservicetemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservicetemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createservicetemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateServiceTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createservicetemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createtemplatesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.createtemplatesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.CreateTemplateSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-createtemplatesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deletecomponent.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deletecomponent.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteComponent API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deletecomponent-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteenvironment-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmentaccountconnection.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentAccountConnection API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteenvironmentaccountconnection-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmenttemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmenttemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmenttemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteenvironmenttemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteEnvironmentTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteenvironmenttemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteRepository API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleterepository.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteRepository API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleterepository.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteRepository API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleterepository-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservice.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservice.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteService API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteservice-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservicesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservicesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteservicesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservicetemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservicetemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservicetemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deleteservicetemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteServiceTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deleteservicetemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deletetemplatesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.deletetemplatesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.DeleteTemplateSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-deletetemplatesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.GetAccountSettings API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getaccountsettings.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetAccountSettings API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getaccountsettings.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetAccountSettings API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getaccountsettings-api
-- description: 'The #X Amz Target=AwsProton20200720.GetComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getcomponent.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getcomponent.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetComponent API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getcomponent-api
-- description: 'The #X Amz Target=AwsProton20200720.GetEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getenvironment-api
-- description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironmentaccountconnection.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentAccountConnection API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getenvironmentaccountconnection-api
-- description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironmenttemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironmenttemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironmenttemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getenvironmenttemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetEnvironmentTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getenvironmenttemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.GetRepository API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getrepository.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetRepository API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getrepository.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetRepository API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getrepository-api
-- description: 'The #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getrepositorysyncstatus.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getrepositorysyncstatus.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetRepositorySyncStatus API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getrepositorysyncstatus-api
-- description: 'The #X Amz Target=AwsProton20200720.GetResourcesSummary API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getresourcessummary.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetResourcesSummary API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getresourcessummary.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetResourcesSummary API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getresourcessummary-api
-- description: 'The #X Amz Target=AwsProton20200720.GetService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservice.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservice.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetService API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getservice-api
-- description: 'The #X Amz Target=AwsProton20200720.GetServiceInstance API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getserviceinstance.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceInstance API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getserviceinstance.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceInstance API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getserviceinstance-api
-- description: 'The #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getserviceinstancesyncstatus.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getserviceinstancesyncstatus.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceInstanceSyncStatus API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getserviceinstancesyncstatus-api
-- description: 'The #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicesyncblockersummary.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicesyncblockersummary.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceSyncBlockerSummary API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getservicesyncblockersummary-api
-- description: 'The #X Amz Target=AwsProton20200720.GetServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getservicesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.GetServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicetemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicetemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getservicetemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicetemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.getservicetemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetServiceTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-getservicetemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.gettemplatesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.gettemplatesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetTemplateSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.gettemplatesyncstatus.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.gettemplatesyncstatus.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.GetTemplateSyncStatus API'
   slug: amazon-proton-x-amz-target-awsproton20200720-gettemplatesyncstatus-api
-- description: 'The #X Amz Target=AwsProton20200720.ListComponentOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponentoutputs.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListComponentOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponentoutputs.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponentOutputs API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listcomponentoutputs-api
-- description: 'The #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponentprovisionedresources.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponentprovisionedresources.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponentProvisionedResources API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listcomponentprovisionedresources-api
-- description: 'The #X Amz Target=AwsProton20200720.ListComponents API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponents.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListComponents API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listcomponents.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListComponents API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listcomponents-api
-- description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentaccountconnections.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentaccountconnections.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentAccountConnections API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listenvironmentaccountconnections-api
-- description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentoutputs.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentoutputs.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentOutputs API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listenvironmentoutputs-api
-- description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentprovisionedresources.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmentprovisionedresources.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentProvisionedResources API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listenvironmentprovisionedresources-api
-- description: 'The #X Amz Target=AwsProton20200720.ListEnvironments API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironments.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironments API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironments.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironments API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listenvironments-api
-- description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmenttemplates.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmenttemplates.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentTemplates API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplates-api
-- description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmenttemplateversions.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listenvironmenttemplateversions.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListEnvironmentTemplateVersions API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listenvironmenttemplateversions-api
-- description: 'The #X Amz Target=AwsProton20200720.ListRepositories API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listrepositories.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListRepositories API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listrepositories.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListRepositories API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listrepositories-api
-- description: 'The #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listrepositorysyncdefinitions.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listrepositorysyncdefinitions.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListRepositorySyncDefinitions API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listrepositorysyncdefinitions-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceoutputs.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceoutputs.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstanceOutputs API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceoutputs-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceprovisionedresources.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstanceprovisionedresources.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstanceProvisionedResources API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listserviceinstanceprovisionedresources-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServiceInstances API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstances.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceInstances API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listserviceinstances.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceInstances API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listserviceinstances-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineoutputs.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineoutputs.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServicePipelineOutputs API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listservicepipelineoutputs-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineprovisionedresources.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicepipelineprovisionedresources.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServicePipelineProvisionedResources API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listservicepipelineprovisionedresources-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServices API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservices.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServices API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservices.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServices API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listservices-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServiceTemplates API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicetemplates.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceTemplates API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicetemplates.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceTemplates API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listservicetemplates-api
-- description: 'The #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicetemplateversions.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listservicetemplateversions.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListServiceTemplateVersions API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listservicetemplateversions-api
-- description: 'The #X Amz Target=AwsProton20200720.ListTagsForResource API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listtagsforresource.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.ListTagsForResource API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.listtagsforresource.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.ListTagsForResource API'
   slug: amazon-proton-x-amz-target-awsproton20200720-listtagsforresource-api
-- description: 'The #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.notifyresourcedeploymentstatuschange.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.notifyresourcedeploymentstatuschange.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.NotifyResourceDeploymentStatusChange API'
   slug: amazon-proton-x-amz-target-awsproton20200720-notifyresourcedeploymentstatuschange-api
-- description: 'The #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.rejectenvironmentaccountconnection.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.rejectenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.RejectEnvironmentAccountConnection API'
   slug: amazon-proton-x-amz-target-awsproton20200720-rejectenvironmentaccountconnection-api
-- description: 'The #X Amz Target=AwsProton20200720.TagResource API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.tagresource.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.TagResource API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.tagresource.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.TagResource API'
   slug: amazon-proton-x-amz-target-awsproton20200720-tagresource-api
-- description: 'The #X Amz Target=AwsProton20200720.UntagResource API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.untagresource.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UntagResource API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.untagresource.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UntagResource API'
   slug: amazon-proton-x-amz-target-awsproton20200720-untagresource-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateAccountSettings API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateaccountsettings.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateAccountSettings API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateaccountsettings.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateAccountSettings API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateaccountsettings-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updatecomponent.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateComponent API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updatecomponent.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateComponent API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updatecomponent-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironment.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironment API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironment.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironment API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateenvironment-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmentaccountconnection.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentAccountConnection API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateenvironmentaccountconnection-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmenttemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmenttemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmenttemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateenvironmenttemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateEnvironmentTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateenvironmenttemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservice.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateService API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservice.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateService API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateservice-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateServiceInstance API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateserviceinstance.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceInstance API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateserviceinstance.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceInstance API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateserviceinstance-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateServicePipeline API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicepipeline.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServicePipeline API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicepipeline.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServicePipeline API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateservicepipeline-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicesyncblocker.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicesyncblocker.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceSyncBlocker API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateservicesyncblocker-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateservicesyncconfig-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicetemplate.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceTemplate API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicetemplate.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceTemplate API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateservicetemplate-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicetemplateversion.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updateservicetemplateversion.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateServiceTemplateVersion API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updateservicetemplateversion-api
-- description: 'The #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updatetemplatesyncconfig.'
+- baseURL: https://proton.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.updatetemplatesyncconfig.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
   slug: amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
 artifact_total: 810
@@ -4719,7 +4887,7 @@ score:
       marker_coverage: 0.0
       total: 84
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:

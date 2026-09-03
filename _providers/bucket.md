@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: JSON-over-HTTP API browsers and backends use at runtime to fetch evaluated and enabled flags, and to send users, companies and feature-usage events. Publishable-key (client) or secret-key (server) bea
   name: Reflag Runtime API
   slug: reflag-runtime-api
-- description: The Apps API from Bucket — 9 operation(s) for apps.
+- baseURL: https://app.reflag.com/api
+  baseurl_source: declared
+  description: The Apps API from Bucket — 9 operation(s) for apps.
   name: Bucket Apps API
   slug: bucket-apps-api
 artifact_total: 10
@@ -238,7 +240,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/screenshots/bucket-2026-07-25T204024.png
 security:

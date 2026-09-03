@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Exchange API keys for a session token.
+- baseURL: https://api.joinmesa.com/v1
+  baseurl_source: declared
+  description: Exchange API keys for a session token.
   name: Mesa Authentication API
   slug: mesa-authentication-api
-- description: Retrieve invoices for the authenticated user.
+- baseURL: https://api.joinmesa.com/v1
+  baseurl_source: declared
+  description: Retrieve invoices for the authenticated user.
   name: Mesa Invoices API
   slug: mesa-invoices-api
 artifact_total: 9
@@ -198,7 +202,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/screenshots/mesa-2026-08-07T172620.png
 security:

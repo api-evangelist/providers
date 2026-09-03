@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 55 operations · 31 acting · 1 human-in-the-loop
 api_count: 10
 apis:
-- description: The Airtime API from Interswitch — 3 operation(s) for airtime.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Airtime API from Interswitch — 3 operation(s) for airtime.
   name: Interswitch Airtime API
   slug: interswitch-airtime-api
-- description: The Balance API from Interswitch — 1 operation(s) for balance.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Balance API from Interswitch — 1 operation(s) for balance.
   name: Interswitch Balance API
   slug: interswitch-balance-api
-- description: The Billers API from Interswitch — 3 operation(s) for billers.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Billers API from Interswitch — 3 operation(s) for billers.
   name: Interswitch Billers API
   slug: interswitch-billers-api
-- description: The Cards API from Interswitch — 5 operation(s) for cards.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Cards API from Interswitch — 5 operation(s) for cards.
   name: Interswitch Cards API
   slug: interswitch-cards-api
-- description: Hosted checkout payment initiation
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: Hosted checkout payment initiation
   name: Interswitch Checkout API
   slug: interswitch-checkout-api
-- description: The Customer Validation API from Interswitch — 1 operation(s) for customer validation.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Customer Validation API from Interswitch — 1 operation(s) for customer validation.
   name: Interswitch Customer Validation API
   slug: interswitch-customer-validation-api
-- description: The Customers API from Interswitch — 2 operation(s) for customers.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Customers API from Interswitch — 2 operation(s) for customers.
   name: Interswitch Customers API
   slug: interswitch-customers-api
-- description: The Demography API from Interswitch — 1 operation(s) for demography.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Demography API from Interswitch — 1 operation(s) for demography.
   name: Interswitch Demography API
   slug: interswitch-demography-api
-- description: The Detail API from Interswitch — 1 operation(s) for detail.
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: The Detail API from Interswitch — 1 operation(s) for detail.
   name: Interswitch Detail API
   slug: interswitch-detail-api
-- description: The E-Pins API from Interswitch — 1 operation(s) for e-pins.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The E-Pins API from Interswitch — 1 operation(s) for e-pins.
   name: Interswitch E-Pins API
   slug: interswitch-e-pins-api
-- description: The Financial Habits API from Interswitch — 1 operation(s) for financial habits.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Financial Habits API from Interswitch — 1 operation(s) for financial habits.
   name: Interswitch Financial Habits API
   slug: interswitch-financial-habits-api
-- description: The Financial History API from Interswitch — 2 operation(s) for financial history.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Financial History API from Interswitch — 2 operation(s) for financial history.
   name: Interswitch Financial History API
   slug: interswitch-financial-history-api
-- description: Card data tokenization
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: Card data tokenization
   name: Interswitch Hosted Fields API
   slug: interswitch-hosted-fields-api
-- description: The Linking API from Interswitch — 1 operation(s) for linking.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Linking API from Interswitch — 1 operation(s) for linking.
   name: Interswitch Linking API
   slug: interswitch-linking-api
-- description: The Loans API from Interswitch — 3 operation(s) for loans.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Loans API from Interswitch — 3 operation(s) for loans.
   name: Interswitch Loans API
   slug: interswitch-loans-api
-- description: The Offers API from Interswitch — 2 operation(s) for offers.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Offers API from Interswitch — 2 operation(s) for offers.
   name: Interswitch Offers API
   slug: interswitch-offers-api
-- description: The Payment Items API from Interswitch — 1 operation(s) for payment items.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Payment Items API from Interswitch — 1 operation(s) for payment items.
   name: Interswitch Payment Items API
   slug: interswitch-payment-items-api
-- description: Hosted payment link generation
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: Hosted payment link generation
   name: Interswitch Payment Links API
   slug: interswitch-payment-links-api
-- description: The Payments API from Interswitch — 5 operation(s) for payments.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Payments API from Interswitch — 5 operation(s) for payments.
   name: Interswitch Payments API
   slug: interswitch-payments-api
-- description: The PIN API from Interswitch — 1 operation(s) for pin.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The PIN API from Interswitch — 1 operation(s) for pin.
   name: Interswitch PIN API
   slug: interswitch-pin-api
-- description: The Providers API from Interswitch — 1 operation(s) for providers.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Providers API from Interswitch — 1 operation(s) for providers.
   name: Interswitch Providers API
   slug: interswitch-providers-api
-- description: The Recurring Charges API from Interswitch — 1 operation(s) for recurring charges.
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: The Recurring Charges API from Interswitch — 1 operation(s) for recurring charges.
   name: Interswitch Recurring Charges API
   slug: interswitch-recurring-charges-api
-- description: The Search API from Interswitch — 3 operation(s) for search.
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: The Search API from Interswitch — 3 operation(s) for search.
   name: Interswitch Search API
   slug: interswitch-search-api
-- description: Step-up authentication
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: Step-up authentication
   name: Interswitch Three-D Secure API
   slug: interswitch-three-d-secure-api
-- description: The Tokenization API from Interswitch — 1 operation(s) for tokenization.
+- baseURL: https://qa.interswitchng.com
+  baseurl_source: spec
+  description: The Tokenization API from Interswitch — 1 operation(s) for tokenization.
   name: Interswitch Tokenization API
   slug: interswitch-tokenization-api
-- description: The Tokens API from Interswitch — 4 operation(s) for tokens.
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: The Tokens API from Interswitch — 4 operation(s) for tokens.
   name: Interswitch Tokens API
   slug: interswitch-tokens-api
-- description: Transaction status query
+- baseURL: https://sandbox.interswitchng.com
+  baseurl_source: spec
+  description: Transaction status query
   name: Interswitch Transactions API
   slug: interswitch-transactions-api
 arazzos:
@@ -628,7 +682,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -638,7 +692,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 60.1
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -653,7 +707,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/screenshots/interswitch-2026-06-20T183513.png
 security:

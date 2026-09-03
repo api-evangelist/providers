@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 75 operations · 63 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Apikeys API from Demisto — 1 operation(s) for apikeys.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Apikeys API from Demisto — 1 operation(s) for apikeys.
   name: Demisto Apikeys API
   slug: demisto-apikeys-api
-- description: The Automation API from Demisto — 5 operation(s) for automation.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Automation API from Demisto — 5 operation(s) for automation.
   name: Demisto Automation API
   slug: demisto-automation-api
-- description: The Classifier API from Demisto — 1 operation(s) for classifier.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Classifier API from Demisto — 1 operation(s) for classifier.
   name: Demisto Classifier API
   slug: demisto-classifier-api
-- description: The Contentpacks API from Demisto — 1 operation(s) for contentpacks.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Contentpacks API from Demisto — 1 operation(s) for contentpacks.
   name: Demisto Contentpacks API
   slug: demisto-contentpacks-api
-- description: The Dashboards API from Demisto — 1 operation(s) for dashboards.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Dashboards API from Demisto — 1 operation(s) for dashboards.
   name: Demisto Dashboards API
   slug: demisto-dashboards-api
-- description: The Entry API from Demisto — 8 operation(s) for entry.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Entry API from Demisto — 8 operation(s) for entry.
   name: Demisto Entry API
   slug: demisto-entry-api
-- description: The Evidence API from Demisto — 3 operation(s) for evidence.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Evidence API from Demisto — 3 operation(s) for evidence.
   name: Demisto Evidence API
   slug: demisto-evidence-api
-- description: The Incident API from Demisto — 8 operation(s) for incident.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Incident API from Demisto — 8 operation(s) for incident.
   name: Demisto Incident API
   slug: demisto-incident-api
-- description: The Incidentfields API from Demisto — 2 operation(s) for incidentfields.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Incidentfields API from Demisto — 2 operation(s) for incidentfields.
   name: Demisto Incidentfields API
   slug: demisto-incidentfields-api
-- description: The Incidents API from Demisto — 1 operation(s) for incidents.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Incidents API from Demisto — 1 operation(s) for incidents.
   name: Demisto Incidents API
   slug: demisto-incidents-api
-- description: The Incidenttype API from Demisto — 1 operation(s) for incidenttype.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Incidenttype API from Demisto — 1 operation(s) for incidenttype.
   name: Demisto Incidenttype API
   slug: demisto-incidenttype-api
-- description: The Incidenttypes API from Demisto — 1 operation(s) for incidenttypes.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Incidenttypes API from Demisto — 1 operation(s) for incidenttypes.
   name: Demisto Incidenttypes API
   slug: demisto-incidenttypes-api
-- description: The Indicator API from Demisto — 3 operation(s) for indicator.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Indicator API from Demisto — 3 operation(s) for indicator.
   name: Demisto Indicator API
   slug: demisto-indicator-api
-- description: The Indicators API from Demisto — 8 operation(s) for indicators.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Indicators API from Demisto — 8 operation(s) for indicators.
   name: Demisto Indicators API
   slug: demisto-indicators-api
-- description: The Inv Playbook API from Demisto — 11 operation(s) for inv playbook.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Inv Playbook API from Demisto — 11 operation(s) for inv playbook.
   name: Demisto Inv Playbook API
   slug: demisto-inv-playbook-api
-- description: The Investigations API from Demisto — 1 operation(s) for investigations.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Investigations API from Demisto — 1 operation(s) for investigations.
   name: Demisto Investigations API
   slug: demisto-investigations-api
-- description: The Layouts API from Demisto — 1 operation(s) for layouts.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Layouts API from Demisto — 1 operation(s) for layouts.
   name: Demisto Layouts API
   slug: demisto-layouts-api
-- description: The Playbook API from Demisto — 1 operation(s) for playbook.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Playbook API from Demisto — 1 operation(s) for playbook.
   name: Demisto Playbook API
   slug: demisto-playbook-api
-- description: The Report API from Demisto — 1 operation(s) for report.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Report API from Demisto — 1 operation(s) for report.
   name: Demisto Report API
   slug: demisto-report-api
-- description: The Reports API from Demisto — 4 operation(s) for reports.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Reports API from Demisto — 4 operation(s) for reports.
   name: Demisto Reports API
   slug: demisto-reports-api
-- description: The Reputation API from Demisto — 1 operation(s) for reputation.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Reputation API from Demisto — 1 operation(s) for reputation.
   name: Demisto Reputation API
   slug: demisto-reputation-api
-- description: The Settings API from Demisto — 3 operation(s) for settings.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Settings API from Demisto — 3 operation(s) for settings.
   name: Demisto Settings API
   slug: demisto-settings-api
-- description: The Statistics API from Demisto — 2 operation(s) for statistics.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Statistics API from Demisto — 2 operation(s) for statistics.
   name: Demisto Statistics API
   slug: demisto-statistics-api
-- description: The Widgets API from Demisto — 3 operation(s) for widgets.
+- baseURL: https://xsoar.pan.dev
+  baseurl_source: declared
+  description: The Widgets API from Demisto — 3 operation(s) for widgets.
   name: Demisto Widgets API
   slug: demisto-widgets-api
 artifact_total: 53
@@ -340,7 +388,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/screenshots/demisto-2026-07-25T211711.png
 security:

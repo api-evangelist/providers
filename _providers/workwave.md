@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 41 operations · 26 acting
 api_count: 1
 apis:
-- description: Manage the webhook callback URL for asynchronous notifications.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage the webhook callback URL for asynchronous notifications.
   name: WorkWave Callback API
   slug: workwave-callback-api
-- description: Manage companies.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage companies.
   name: WorkWave Companies API
   slug: workwave-companies-api
-- description: Manage depots within a territory.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage depots within a territory.
   name: WorkWave Depots API
   slug: workwave-depots-api
-- description: Manage the driver roster within a territory.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage the driver roster within a territory.
   name: WorkWave Drivers API
   slug: workwave-drivers-api
-- description: Retrieve GPS tracking and location data.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Retrieve GPS tracking and location data.
   name: WorkWave GPS API
   slug: workwave-gps-api
-- description: Manage orders within a territory.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage orders within a territory.
   name: WorkWave Orders API
   slug: workwave-orders-api
-- description: Manage regions within a territory.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage regions within a territory.
   name: WorkWave Regions API
   slug: workwave-regions-api
-- description: Retrieve optimized routes and Time of Arrival data.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Retrieve optimized routes and Time of Arrival data.
   name: WorkWave Routes API
   slug: workwave-routes-api
-- description: List and edit territories and their planning range.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: List and edit territories and their planning range.
   name: WorkWave Territories API
   slug: workwave-territories-api
-- description: Validate contact emails and phone numbers.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Validate contact emails and phone numbers.
   name: WorkWave Validation API
   slug: workwave-validation-api
-- description: Manage the vehicle fleet within a territory.
+- baseURL: https://wwrm.workwave.com/api/v1
+  baseurl_source: declared
+  description: Manage the vehicle fleet within a territory.
   name: WorkWave Vehicles API
   slug: workwave-vehicles-api
 artifact_total: 30
@@ -196,7 +218,7 @@ score:
   band: thin
   composite: 34.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -219,8 +241,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workwave/refs/heads/main/screenshots/workwave-2026-09-02T170950.png
 security:
 - kind: authentication
   name: Workwave Authentication

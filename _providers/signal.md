@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,31 +59,49 @@ apis:
 - description: 'Signal-Desktop is the open-source desktop client for the Signal encrypted messaging platform, built with Electron and TypeScript. It provides end-to-end encrypted messaging, voice calls, video calls, '
   name: Signal Desktop SDK
   slug: signal-desktop-sdk
-- description: Account management endpoints for configuring account settings, managing capabilities, and account lifecycle operations.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Account management endpoints for configuring account settings, managing capabilities, and account lifecycle operations.
   name: Signal Accounts API
   slug: signal-accounts-api
-- description: Attachment handling endpoints for uploading and downloading media files associated with messages.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Attachment handling endpoints for uploading and downloading media files associated with messages.
   name: Signal Attachments API
   slug: signal-attachments-api
-- description: Certificate endpoints for retrieving delivery certificates used in sealed sender message delivery.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Certificate endpoints for retrieving delivery certificates used in sealed sender message delivery.
   name: Signal Certificates API
   slug: signal-certificates-api
-- description: Device management endpoints for linking, unlinking, and managing devices associated with a Signal account.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Device management endpoints for linking, unlinking, and managing devices associated with a Signal account.
   name: Signal Devices API
   slug: signal-devices-api
-- description: Pre-key bundle management endpoints for uploading and retrieving public key material used in the Signal Protocol key exchange.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Pre-key bundle management endpoints for uploading and retrieving public key material used in the Signal Protocol key exchange.
   name: Signal Keys API
   slug: signal-keys-api
-- description: Message sending and receiving endpoints for delivering encrypted messages between Signal users.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Message sending and receiving endpoints for delivering encrypted messages between Signal users.
   name: Signal Messages API
   slug: signal-messages-api
-- description: Profile management endpoints for setting and retrieving user profile information including names, avatars, and capabilities.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Profile management endpoints for setting and retrieving user profile information including names, avatars, and capabilities.
   name: Signal Profiles API
   slug: signal-profiles-api
-- description: Account registration endpoints for creating new Signal accounts via phone number verification.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Account registration endpoints for creating new Signal accounts via phone number verification.
   name: Signal Registration API
   slug: signal-registration-api
-- description: Sticker pack management endpoints for uploading and retrieving sticker packs.
+- baseURL: https://chat.signal.org
+  baseurl_source: declared
+  description: Sticker pack management endpoints for uploading and retrieving sticker packs.
   name: Signal Stickers API
   slug: signal-stickers-api
 artifact_total: 41
@@ -263,7 +281,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -273,7 +291,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -282,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/screenshots/signal-2026-06-20T193905.png
 security:

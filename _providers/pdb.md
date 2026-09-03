@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: Asynchronous REST API that performs programmatic structure alignment calculations between PDB entries or user-supplied coordinate files. Callers submit an alignment job via POST /submit (accepting PDB
   name: RCSB PDB Structure Alignment API
   slug: rcsb-pdb-alignment-api
-- description: The General API from RCSB PDB — 12 operation(s) for general.
+- baseURL: https://data.rcsb.org/rest/v1/core
+  baseurl_source: declared
+  description: The General API from RCSB PDB — 12 operation(s) for general.
   name: RCSB PDB General API
   slug: pdb-general-api
-- description: The Metadata Service API from RCSB PDB — 3 operation(s) for metadata service.
+- baseURL: https://data.rcsb.org/rest/v1/core
+  baseurl_source: declared
+  description: The Metadata Service API from RCSB PDB — 3 operation(s) for metadata service.
   name: RCSB PDB Metadata Service API
   slug: pdb-metadata-service-api
-- description: The Search Service API from RCSB PDB — 2 operation(s) for search service.
+- baseURL: https://data.rcsb.org/rest/v1/core
+  baseurl_source: declared
+  description: The Search Service API from RCSB PDB — 2 operation(s) for search service.
   name: RCSB PDB Search Service API
   slug: pdb-search-service-api
-- description: The Suggest Service API from RCSB PDB — 1 operation(s) for suggest service.
+- baseURL: https://data.rcsb.org/rest/v1/core
+  baseurl_source: declared
+  description: The Suggest Service API from RCSB PDB — 1 operation(s) for suggest service.
   name: RCSB PDB Suggest Service API
   slug: pdb-suggest-service-api
 artifact_total: 18
@@ -208,7 +216,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdb/refs/heads/main/screenshots/pdb-2026-06-20T191514.png
 security:

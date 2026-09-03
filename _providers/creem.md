@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 1
 apis:
-- description: The Checkouts API from Creem — 1 operation(s) for checkouts.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Checkouts API from Creem — 1 operation(s) for checkouts.
   name: Creem Checkouts API
   slug: creem-checkouts-api
-- description: The Customers API from Creem — 2 operation(s) for customers.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Customers API from Creem — 2 operation(s) for customers.
   name: Creem Customers API
   slug: creem-customers-api
-- description: The Discounts API from Creem — 2 operation(s) for discounts.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Discounts API from Creem — 2 operation(s) for discounts.
   name: Creem Discounts API
   slug: creem-discounts-api
-- description: The Licenses API from Creem — 3 operation(s) for licenses.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Licenses API from Creem — 3 operation(s) for licenses.
   name: Creem Licenses API
   slug: creem-licenses-api
-- description: The Products API from Creem — 2 operation(s) for products.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Products API from Creem — 2 operation(s) for products.
   name: Creem Products API
   slug: creem-products-api
-- description: The Subscriptions API from Creem — 7 operation(s) for subscriptions.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Creem — 7 operation(s) for subscriptions.
   name: Creem Subscriptions API
   slug: creem-subscriptions-api
-- description: The Transactions API from Creem — 2 operation(s) for transactions.
+- baseURL: https://api.creem.io/v1
+  baseurl_source: declared
+  description: The Transactions API from Creem — 2 operation(s) for transactions.
   name: Creem Transactions API
   slug: creem-transactions-api
 artifact_total: 23
@@ -197,7 +211,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creem/refs/heads/main/screenshots/creem-2026-07-25T210726.png
 security:

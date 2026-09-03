@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -71,13 +71,19 @@ apis:
 - description: API for managing project operations including project scheduling, resource management, time and expense tracking, and project financials.
   name: Dynamics 365 Project Operations API
   slug: dynamics-365-project-operations-api
-- description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Business that represents a customer or potential customer. The company that is billed in business transactions.
   name: Microsoft Dynamics 365 Accounts API
   slug: microsoft-dynamics-365-accounts-api
-- description: Person with whom a business unit has a relationship, such as a customer, supplier, or colleague.
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Person with whom a business unit has a relationship, such as a customer, supplier, or colleague.
   name: Microsoft Dynamics 365 Contacts API
   slug: microsoft-dynamics-365-contacts-api
-- description: Potential revenue-generating event or sale to an account that needs to be tracked through the sales process to completion.
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Potential revenue-generating event or sale to an account that needs to be tracked through the sales process to completion.
   name: Microsoft Dynamics 365 Opportunities API
   slug: microsoft-dynamics-365-opportunities-api
 artifact_total: 40
@@ -283,7 +289,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -293,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -302,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/screenshots/microsoft-dynamics-365-2026-06-20T185452.png
 security:

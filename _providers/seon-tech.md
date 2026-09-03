@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -56,25 +56,39 @@ apis:
 - description: User Session Monitoring streams in-session behavioral, device, and risk signals for continuous account-takeover and session-hijacking detection across web, iOS, and Android. Delivered via dedicated St
   name: SEON User Session Monitoring
   slug: user-session-monitoring
-- description: The AML API from SEON — 1 operation(s) for aml.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: The AML API from SEON — 1 operation(s) for aml.
   name: SEON AML API
   slug: seon-tech-aml-api
-- description: The BIN API from SEON — 1 operation(s) for bin.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: The BIN API from SEON — 1 operation(s) for bin.
   name: SEON BIN API
   slug: seon-tech-bin-api
-- description: The Email API from SEON — 1 operation(s) for email.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: The Email API from SEON — 1 operation(s) for email.
   name: SEON Email API
   slug: seon-tech-email-api
-- description: The Fraud API from SEON — 1 operation(s) for fraud.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: The Fraud API from SEON — 1 operation(s) for fraud.
   name: SEON Fraud API
   slug: seon-tech-fraud-api
-- description: The IP API from SEON — 1 operation(s) for ip.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: The IP API from SEON — 1 operation(s) for ip.
   name: SEON IP API
   slug: seon-tech-ip-api
-- description: The Phone API from SEON — 1 operation(s) for phone.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: The Phone API from SEON — 1 operation(s) for phone.
   name: SEON Phone API
   slug: seon-tech-phone-api
-- description: Transaction outcome labeling for machine-learning feedback.
+- baseURL: https://api.seon.io/SeonRestService/fraud-api/v2/
+  baseurl_source: declared
+  description: Transaction outcome labeling for machine-learning feedback.
   name: SEON Labels API
   slug: seon-tech-labels-api
 artifact_total: 28
@@ -286,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/screenshots/seon-tech-2026-06-20T193713.png
 security:

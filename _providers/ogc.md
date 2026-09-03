@@ -23,76 +23,120 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 24
 apis:
-- description: The API API from Open Geospatial Consortium (OGC) — 7 operation(s) for api.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The API API from Open Geospatial Consortium (OGC) — 7 operation(s) for api.
   name: Open Geospatial Consortium (OGC) API
   slug: ogc-api-api
-- description: Essential characteristics of the information available from the API.
+- baseURL: https://api.georobotix.io/ogc/t18/api
+  baseurl_source: spec
+  description: Essential characteristics of the information available from the API.
   name: Open Geospatial Consortium (OGC) Capabilities API
   slug: ogc-capabilities-api
-- description: description of a catalog offered by this API
+- baseURL: https://example.org/data
+  baseurl_source: spec
+  description: description of a catalog offered by this API
   name: Open Geospatial Consortium (OGC) Collection API
   slug: ogc-collection-api
-- description: Data queries available.
+- baseURL: https://www.example.org/edr
+  baseurl_source: spec
+  description: Data queries available.
   name: Open Geospatial Consortium (OGC) Collection data queries API
   slug: ogc-collection-data-queries-api
-- description: Description of the information available from the collections
+- baseURL: https://www.example.org/edr
+  baseurl_source: spec
+  description: Description of the information available from the collections
   name: Open Geospatial Consortium (OGC) Collection metadata API
   slug: ogc-collection-metadata-api
-- description: The Collections API from Open Geospatial Consortium (OGC) — 2 operation(s) for collections.
+- baseURL: https://example.org/data
+  baseurl_source: spec
+  description: The Collections API from Open Geospatial Consortium (OGC) — 2 operation(s) for collections.
   name: Open Geospatial Consortium (OGC) Collections API
   slug: ogc-collections-api
-- description: The Conformance API from Open Geospatial Consortium (OGC) — 1 operation(s) for conformance.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Conformance API from Open Geospatial Consortium (OGC) — 1 operation(s) for conformance.
   name: Open Geospatial Consortium (OGC) Conformance API
   slug: ogc-conformance-api
-- description: The ConformanceDeclaration API from Open Geospatial Consortium (OGC) — 1 operation(s) for conformancedeclaration.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The ConformanceDeclaration API from Open Geospatial Consortium (OGC) — 1 operation(s) for conformancedeclaration.
   name: Open Geospatial Consortium (OGC) Conformance Declaration API
   slug: ogc-conformancedeclaration-api
-- description: The Coverage Tiles API from Open Geospatial Consortium (OGC) — 3 operation(s) for coverage tiles.
+- baseURL: https://maps.ecere.com/ogcapi
+  baseurl_source: spec
+  description: The Coverage Tiles API from Open Geospatial Consortium (OGC) — 3 operation(s) for coverage tiles.
   name: Open Geospatial Consortium (OGC) Coverage Tiles API
   slug: ogc-coverage-tiles-api
-- description: The Custom Projection CRS API from Open Geospatial Consortium (OGC) — 1 operation(s) for custom projection crs.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Custom Projection CRS API from Open Geospatial Consortium (OGC) — 1 operation(s) for custom projection crs.
   name: Open Geospatial Consortium (OGC) Custom Projection CRS API
   slug: ogc-custom-projection-crs-api
-- description: The Data Collections API from Open Geospatial Consortium (OGC) — 2 operation(s) for data collections.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Data Collections API from Open Geospatial Consortium (OGC) — 2 operation(s) for data collections.
   name: Open Geospatial Consortium (OGC) Data Collections API
   slug: ogc-data-collections-api
-- description: The DGGRS Description API from Open Geospatial Consortium (OGC) — 6 operation(s) for dggrs description.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The DGGRS Description API from Open Geospatial Consortium (OGC) — 6 operation(s) for dggrs description.
   name: Open Geospatial Consortium (OGC) DGGRS Description API
   slug: ogc-dggrs-description-api
-- description: The DGGS Data Retrieval API from Open Geospatial Consortium (OGC) — 2 operation(s) for dggs data retrieval.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The DGGS Data Retrieval API from Open Geospatial Consortium (OGC) — 2 operation(s) for dggs data retrieval.
   name: Open Geospatial Consortium (OGC) DGGS Data Retrieval API
   slug: ogc-dggs-data-retrieval-api
-- description: The DGGS Zone Query API from Open Geospatial Consortium (OGC) — 2 operation(s) for dggs zone query.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The DGGS Zone Query API from Open Geospatial Consortium (OGC) — 2 operation(s) for dggs zone query.
   name: Open Geospatial Consortium (OGC) DGGS Zone Query API
   slug: ogc-dggs-zone-query-api
-- description: The Dismiss API from Open Geospatial Consortium (OGC) — 1 operation(s) for dismiss.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The Dismiss API from Open Geospatial Consortium (OGC) — 1 operation(s) for dismiss.
   name: Open Geospatial Consortium (OGC) Dismiss API
   slug: ogc-dismiss-api
-- description: The Execute API from Open Geospatial Consortium (OGC) — 1 operation(s) for execute.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The Execute API from Open Geospatial Consortium (OGC) — 1 operation(s) for execute.
   name: Open Geospatial Consortium (OGC) Execute API
   slug: ogc-execute-api
 - description: The Functions API from Open Geospatial Consortium (OGC) — 1 operation(s) for functions.
   name: Open Geospatial Consortium (OGC) Functions API
   slug: ogc-functions-api
-- description: Data queries available on instances of the collection.
+- baseURL: https://www.example.org/edr
+  baseurl_source: spec
+  description: Data queries available on instances of the collection.
   name: Open Geospatial Consortium (OGC) Instance data queries API
   slug: ogc-instance-data-queries-api
-- description: Description of the information available from the instances of a collection
+- baseURL: https://www.example.org/edr
+  baseurl_source: spec
+  description: Description of the information available from the instances of a collection
   name: Open Geospatial Consortium (OGC) Instance metadata API
   slug: ogc-instance-metadata-api
-- description: The JobList API from Open Geospatial Consortium (OGC) — 1 operation(s) for joblist.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The JobList API from Open Geospatial Consortium (OGC) — 1 operation(s) for joblist.
   name: Open Geospatial Consortium (OGC) Job List API
   slug: ogc-joblist-api
-- description: The Landing Page API from Open Geospatial Consortium (OGC) — 1 operation(s) for landing page.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Landing Page API from Open Geospatial Consortium (OGC) — 1 operation(s) for landing page.
   name: Open Geospatial Consortium (OGC) Landing Page API
   slug: ogc-landing-page-api
-- description: The Map Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for map tiles.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Map Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for map tiles.
   name: Open Geospatial Consortium (OGC) Map Tiles API
   slug: ogc-map-tiles-api
-- description: The Maps API from Open Geospatial Consortium (OGC) — 4 operation(s) for maps.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Maps API from Open Geospatial Consortium (OGC) — 4 operation(s) for maps.
   name: Open Geospatial Consortium (OGC) Maps API
   slug: ogc-maps-api
 - description: Collections of moving features to be logically managed by a user.
@@ -101,25 +145,39 @@ apis:
 - description: Moving feature data, including the temporal geometry, temporal properties, etc.
   name: Open Geospatial Consortium (OGC) Moving Features API
   slug: ogc-movingfeatures-api
-- description: The ProcessDescription API from Open Geospatial Consortium (OGC) — 1 operation(s) for processdescription.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The ProcessDescription API from Open Geospatial Consortium (OGC) — 1 operation(s) for processdescription.
   name: Open Geospatial Consortium (OGC) Process Description API
   slug: ogc-processdescription-api
-- description: The ProcessList API from Open Geospatial Consortium (OGC) — 1 operation(s) for processlist.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The ProcessList API from Open Geospatial Consortium (OGC) — 1 operation(s) for processlist.
   name: Open Geospatial Consortium (OGC) Process List API
   slug: ogc-processlist-api
-- description: access to a single record
+- baseURL: https://example.org/data
+  baseurl_source: spec
+  description: access to a single record
   name: Open Geospatial Consortium (OGC) Record API
   slug: ogc-record-api
-- description: access to records
+- baseURL: https://example.org/data
+  baseurl_source: spec
+  description: access to records
   name: Open Geospatial Consortium (OGC) Records API
   slug: ogc-records-api
-- description: The Result API from Open Geospatial Consortium (OGC) — 1 operation(s) for result.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The Result API from Open Geospatial Consortium (OGC) — 1 operation(s) for result.
   name: Open Geospatial Consortium (OGC) Result API
   slug: ogc-result-api
-- description: list of record properties by which responses can be sorted
+- baseURL: https://example.org/data
+  baseurl_source: spec
+  description: list of record properties by which responses can be sorted
   name: Open Geospatial Consortium (OGC) Sortables API
   slug: ogc-sortables-api
-- description: The Status API from Open Geospatial Consortium (OGC) — 1 operation(s) for status.
+- baseURL: http://example.org/ogcapi
+  baseurl_source: spec
+  description: The Status API from Open Geospatial Consortium (OGC) — 1 operation(s) for status.
   name: Open Geospatial Consortium (OGC) Status API
   slug: ogc-status-api
 - description: The spatial change over time (temporal geometry), representing the movement of the rigid or nonrigid body of a feature.
@@ -131,10 +189,14 @@ apis:
 - description: The thematic change over time (temporal property), representing the variation of the value of any descriptive characteristic of a feature.
   name: Open Geospatial Consortium (OGC) Temporal Property API
   slug: ogc-temporalproperty-api
-- description: The Tiling Schemes API from Open Geospatial Consortium (OGC) — 2 operation(s) for tiling schemes.
+- baseURL: https://maps.gnosis.earth/ogcapi
+  baseurl_source: spec
+  description: The Tiling Schemes API from Open Geospatial Consortium (OGC) — 2 operation(s) for tiling schemes.
   name: Open Geospatial Consortium (OGC) Tiling Schemes API
   slug: ogc-tiling-schemes-api
-- description: The Vector Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for vector tiles.
+- baseURL: https://maps.ecere.com/ogcapi
+  baseurl_source: spec
+  description: The Vector Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for vector tiles.
   name: Open Geospatial Consortium (OGC) Vector Tiles API
   slug: ogc-vector-tiles-api
 - description: The server API from Open Geospatial Consortium (OGC) — 3 operation(s) for server.
@@ -222,23 +284,23 @@ overview: Open Geospatial Consortium (OGC) publishes 38 APIs on the [APIs.io](ht
 random_paper: 19
 score:
   band: emerging
-  composite: 20.8
+  composite: 21.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 51.3
+    contract_quality: 54.7
     developer_ergonomics: 0.0
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 20.5
+  previous_composite: 20.8
   provenance:
     conformance: unknown
     contracts:
@@ -247,8 +309,9 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ogc/refs/heads/main/screenshots/ogc-2026-09-02T150837.png
 slug: ogc
 tags:
 - OGC

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 21 operations · 21 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.deleterecommendationpreferences.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.deleterecommendationpreferences.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-deleterecommendationpreferences-api
-- description: 'The #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.describerecommendationexportjobs'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.describerecommendationexportjobs'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.DescribeRecommendationExportJobs API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-describerecommendationexportjobs-api
-- description: 'The #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportautoscalinggrouprecom'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportautoscalinggrouprecom'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportAutoScalingGroupRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportautoscalinggrouprecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.ExportEBSVolumeRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportebsvolumerecommendations.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.ExportEBSVolumeRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportebsvolumerecommendations.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportEBSVolumeRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportebsvolumerecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.ExportEC2InstanceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportec2instancerecommendations'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.ExportEC2InstanceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportec2instancerecommendations'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportEC2InstanceRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportec2instancerecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.ExportECSServiceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportecsservicerecommendations.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.ExportECSServiceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportecsservicerecommendations.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportECSServiceRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportecsservicerecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportlambdafunctionrecommend'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.exportlambdafunctionrecommend'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.ExportLambdaFunctionRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-exportlambdafunctionrecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getautoscalinggrouprecommendat'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getautoscalinggrouprecommendat'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetAutoScalingGroupRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getautoscalinggrouprecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetEBSVolumeRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getebsvolumerecommendations.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetEBSVolumeRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getebsvolumerecommendations.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEBSVolumeRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getebsvolumerecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetEC2InstanceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getec2instancerecommendations.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetEC2InstanceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getec2instancerecommendations.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEC2InstanceRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2instancerecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getec2recommendationprojecte'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getec2recommendationprojecte'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEC2RecommendationProjectedMetrics API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getec2recommendationprojectedmetrics-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getecsservicerecommen'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getecsservicerecommen'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendationProjectedMetrics API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendationprojectedmetrics-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getecsservicerecommendations.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getecsservicerecommendations.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetECSServiceRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getecsservicerecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.geteffectiverecommendationp'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.geteffectiverecommendationp'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEffectiveRecommendationPreferences API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-geteffectiverecommendationpreferences-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetEnrollmentStatus API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getenrollmentstatus.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetEnrollmentStatus API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getenrollmentstatus.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEnrollmentStatus API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatus-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getenrollmentstatusesfororga'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getenrollmentstatusesfororga'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetEnrollmentStatusesForOrganization API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getenrollmentstatusesfororganization-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetLambdaFunctionRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getlambdafunctionrecommendations'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetLambdaFunctionRecommendations API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getlambdafunctionrecommendations'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetLambdaFunctionRecommendations API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getlambdafunctionrecommendations-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getrecommendationpreferences.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getrecommendationpreferences.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetRecommendationPreferences API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationpreferences-api
-- description: 'The #X Amz Target=ComputeOptimizerService.GetRecommendationSummaries API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getrecommendationsummaries.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.GetRecommendationSummaries API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.getrecommendationsummaries.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.GetRecommendationSummaries API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-getrecommendationsummaries-api
-- description: 'The #X Amz Target=ComputeOptimizerService.PutRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.putrecommendationpreferences.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.PutRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.putrecommendationpreferences.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.PutRecommendationPreferences API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-putrecommendationpreferences-api
-- description: 'The #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.updateenrollmentstatus.'
+- baseURL: https://compute-optimizer.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.updateenrollmentstatus.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.UpdateEnrollmentStatus API'
   slug: amazon-compute-optimizer-x-amz-target-computeoptimizerservice-updateenrollmentstatus-api
 artifact_total: 711
@@ -2305,7 +2347,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:

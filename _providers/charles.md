@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 5
 apis:
-- description: Source and target language operations of the LINDAT Machine Translation API, operated by the Institute of Formal and Applied Linguistics (UFAL) at Charles University. Translation is performed by posti
+- baseURL: https://lindat.mff.cuni.cz/services/translation/api/v2
+  baseurl_source: declared
+  description: Source and target language operations of the LINDAT Machine Translation API, operated by the Institute of Formal and Applied Linguistics (UFAL) at Charles University. Translation is performed by posti
   name: LINDAT Translation Languages API
   slug: charles-languages-api
-- description: Translation-model operations of the LINDAT Machine Translation API, operated by UFAL at Charles University. Models are neural MT systems such as CUBBITT, addressed by source-target code.
+- baseURL: https://lindat.mff.cuni.cz/services/translation/api/v2
+  baseurl_source: declared
+  description: Translation-model operations of the LINDAT Machine Translation API, operated by UFAL at Charles University. Models are neural MT systems such as CUBBITT, addressed by source-target code.
   name: LINDAT Translation Models API
   slug: charles-models-api
-- description: Root navigation resource of the LINDAT Machine Translation API, returning HAL links to the languages and models collections.
+- baseURL: https://lindat.mff.cuni.cz/services/translation/api/v2
+  baseurl_source: declared
+  description: Root navigation resource of the LINDAT Machine Translation API, returning HAL links to the languages and models collections.
   name: LINDAT Translation Root API
   slug: charles-root-api
-- description: Public keyless REST API for tokenization, part-of-speech tagging, lemmatization and dependency parsing of CoNLL-U data, operated by UFAL at Charles University. The live service advertised 961 Universa
+- baseURL: https://lindat.mff.cuni.cz/services/udpipe/api
+  baseurl_source: declared
+  description: Public keyless REST API for tokenization, part-of-speech tagging, lemmatization and dependency parsing of CoNLL-U data, operated by UFAL at Charles University. The live service advertised 961 Universa
   name: LINDAT UDPipe API
   slug: lindat-udpipe
-- description: Public keyless REST API for named-entity recognition and tokenization (NameTag 3) operated by UFAL at Charles University via LINDAT/CLARIAH-CZ. The OpenAPI here is derived by API Evangelist from the s
+- baseURL: https://lindat.mff.cuni.cz/services/nametag/api
+  baseurl_source: declared
+  description: Public keyless REST API for named-entity recognition and tokenization (NameTag 3) operated by UFAL at Charles University via LINDAT/CLARIAH-CZ. The OpenAPI here is derived by API Evangelist from the s
   name: LINDAT NameTag API
   slug: lindat-nametag
-- description: Public keyless REST API for morphological analysis, morphological generation, part-of-speech tagging and tokenization, principally for Czech, operated by UFAL at Charles University. The OpenAPI here i
+- baseURL: https://lindat.mff.cuni.cz/services/morphodita/api
+  baseurl_source: declared
+  description: Public keyless REST API for morphological analysis, morphological generation, part-of-speech tagging and tokenization, principally for Czech, operated by UFAL at Charles University. The OpenAPI here i
   name: LINDAT MorphoDiTa API
   slug: lindat-morphodita
-- description: Public keyless REST API for Czech statistical spellchecking, diacritics generation and ranked correction suggestions, operated by UFAL at Charles University. The OpenAPI here is derived by API Evangel
+- baseURL: https://lindat.mff.cuni.cz/services/korektor/api
+  baseurl_source: declared
+  description: Public keyless REST API for Czech statistical spellchecking, diacritics generation and ranked correction suggestions, operated by UFAL at Charles University. The OpenAPI here is derived by API Evangel
   name: LINDAT Korektor API
   slug: lindat-korektor
 - description: The Charles University Digital Repository (Digitalni repozitar UK), a DSpace instance running on university-owned infrastructure (dspace.cuni.cz resolves to dspace-in-1.is.cuni.cz), exposes a public O
@@ -307,7 +321,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 8.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -317,7 +331,7 @@ score:
     discoverability: 85.2
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 35.7
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,8 +347,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/screenshots/charles-2026-06-20T174227.png
 security:
 - kind: domain-security

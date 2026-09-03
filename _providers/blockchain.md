@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,40 +44,62 @@ agentic_access:
   summary_line: 49 operations · 5 acting
 api_count: 12
 apis:
-- description: Real-time WebSocket APIs covering two distinct surfaces — the Bitcoin / blockchain.info explorer socket (unconfirmed transactions, new blocks, per-address activity) and the Blockchain.com Exchange mer
+- baseURL: wss://ws.blockchain.info
+  baseurl_source: declared
+  description: Real-time WebSocket APIs covering two distinct surfaces — the Bitcoin / blockchain.info explorer socket (unconfirmed transactions, new blocks, per-address activity) and the Blockchain.com Exchange mer
   name: Blockchain.com WebSocket APIs
   slug: blockchaincom-websocket-apis
 - description: 'Partner API for embedding Blockchain.com crypto purchases. Covers authentication, eligibility (supported currencies / regions), quotes (pricing for crypto transactions), and order state. Rate-limited '
   name: Blockchain.com Pay Partner API
   slug: blockchaincom-pay-partner-api
-- description: Bitcoin address summaries and unspent outputs.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin address summaries and unspent outputs.
   name: Blockchain.com Addresses API
   slug: blockchain-addresses-api
-- description: Bitcoin block lookups and the latest block.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin block lookups and the latest block.
   name: Blockchain.com Blocks API
   slug: blockchain-blocks-api
-- description: Historical time-series datasets for Bitcoin network metrics.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Historical time-series datasets for Bitcoin network metrics.
   name: Blockchain.com Charts API
   slug: blockchain-charts-api
-- description: Bitcoin exchange rates and fiat conversion.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin exchange rates and fiat conversion.
   name: Blockchain.com Market Data API
   slug: blockchain-market-data-api
-- description: Simple network metrics — difficulty, block height, supply, ETA, averages.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Simple network metrics — difficulty, block height, supply, ETA, averages.
   name: Blockchain.com Network API
   slug: blockchain-network-api
-- description: Authenticated account balances, deposits, withdrawals, beneficiaries.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Authenticated account balances, deposits, withdrawals, beneficiaries.
   name: Blockchain.com Payments API
   slug: blockchain-payments-api
-- description: Mining pool distribution.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Mining pool distribution.
   name: Blockchain.com Pools API
   slug: blockchain-pools-api
-- description: Real-time blockchain statistics.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Real-time blockchain statistics.
   name: Blockchain.com Stats API
   slug: blockchain-stats-api
-- description: Authenticated order management and trade history.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Authenticated order management and trade history.
   name: Blockchain.com Trading API
   slug: blockchain-trading-api
-- description: Bitcoin transaction lookups.
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin transaction lookups.
   name: Blockchain.com Transactions API
   slug: blockchain-transactions-api
 artifact_total: 250
@@ -913,7 +935,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -923,7 +945,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -938,7 +960,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain/refs/heads/main/screenshots/blockchain-2026-06-20T173356.png
 security:

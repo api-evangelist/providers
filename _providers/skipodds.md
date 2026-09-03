@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,22 +38,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server exposing the SkipOdds Index to AI assistants — stateless streamable-http at https://skipodds.com/mcp, protocol version 2025-06-18, five read-only tools (list_fixtu
   name: SkipOdds MCP Server
   slug: skipodds-mcp-server
-- description: The Alerts API from SkipOdds — 1 operation(s) for alerts.
+- baseURL: https://skipodds.com
+  baseurl_source: declared
+  description: The Alerts API from SkipOdds — 1 operation(s) for alerts.
   name: SkipOdds Alerts API
   slug: skipodds-alerts-api
-- description: The Fixtures API from SkipOdds — 6 operation(s) for fixtures.
+- baseURL: https://skipodds.com
+  baseurl_source: declared
+  description: The Fixtures API from SkipOdds — 6 operation(s) for fixtures.
   name: SkipOdds Fixtures API
   slug: skipodds-fixtures-api
-- description: The Golf API from SkipOdds — 2 operation(s) for golf.
+- baseURL: https://skipodds.com
+  baseurl_source: declared
+  description: The Golf API from SkipOdds — 2 operation(s) for golf.
   name: SkipOdds Golf API
   slug: skipodds-golf-api
-- description: The Outrights API from SkipOdds — 1 operation(s) for outrights.
+- baseURL: https://skipodds.com
+  baseurl_source: declared
+  description: The Outrights API from SkipOdds — 1 operation(s) for outrights.
   name: SkipOdds Outrights API
   slug: skipodds-outrights-api
 artifact_total: 13
@@ -195,7 +217,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -205,7 +227,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 53.9
+  previous_composite: 53.7
   provenance:
     conformance: derived
     contracts:
@@ -222,7 +244,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/screenshots/skipodds-2026-08-17T081914.png
 security:

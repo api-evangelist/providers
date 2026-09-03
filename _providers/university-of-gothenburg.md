@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: Språkbanken Text's corpus search engine, and the largest publicly callable surface the University of Gothenburg operates. Fourteen operations over 1,133 corpora — concordance query, sampling, frequenc
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Språkbanken Text's corpus search engine, and the largest publicly callable surface the University of Gothenburg operates. Fourteen operations over 1,133 corpora — concordance query, sampling, frequenc
   name: Korp API v8 — Corpus Concordance Search
   slug: korp-api
-- description: The catalogue over everything Språkbanken Text publishes — corpora, lexicons, models, analyses, utilities and collections — with BibTeX citation export, a published JSON schema endpoint and its own Op
+- baseURL: https://ws.spraakbanken.gu.se/ws/metadata/v3
+  baseurl_source: declared
+  description: The catalogue over everything Språkbanken Text publishes — corpora, lexicons, models, analyses, utilities and collections — with BibTeX citation export, a published JSON schema endpoint and its own Op
   name: Språkbanken Text Metadata API v3
   slug: sbx-metadata-api
-- description: Mink lets a researcher upload their own text, run it through the Sparv annotation pipeline and publish it into Korp. Sixty-three paths, the largest contract in this profile and the only one with a rea
+- baseURL: https://ws.spraakbanken.gu.se/ws/mink/v3
+  baseurl_source: declared
+  description: Mink lets a researcher upload their own text, run it through the Sparv annotation pipeline and publish it into Korp. Sixty-three paths, the largest contract in this profile and the only one with a rea
   name: Mink API v3 — Bring Your Own Corpus
   slug: mink-api
-- description: 'Sparv is Språkbanken Text''s annotation pipeline exposed as a job-submission web service: upload a corpus, generate a makefile, run the pipeline, poll status, download the annotated result. Institution'
+- baseURL: https://ws.spraakbanken.gu.se/ws/sparv/v3
+  baseurl_source: declared
+  description: 'Sparv is Språkbanken Text''s annotation pipeline exposed as a job-submission web service: upload a corpus, generate a makefile, run the pipeline, poll status, download the annotated result. Institution'
   name: Sparv API v3 — Text Annotation Pipeline
   slug: sparv-api
-- description: The editing and query surface over Språkbanken Text's lexical resources — entry CRUD, entry history and diff, resource permissions, field statistics, and inflection-table generation for the SAOL and S
+- baseURL: https://spraakbanken4.it.gu.se/karp/v7
+  baseurl_source: declared
+  description: The editing and query surface over Språkbanken Text's lexical resources — entry CRUD, entry history and diff, resource permissions, field statistics, and inflection-table generation for the SAOL and S
   name: Karp API v7 — Lexical Resource Editing
   slug: karp-api
-- description: 'The read-only search surface over the same lexical resources — three operations: config, search and count, across 31 lexical resources. Institution-operated, served from spraakbanken4.it.gu.se. Verifi'
+- baseURL: https://spraakbanken4.it.gu.se/karps/v1
+  baseurl_source: declared
+  description: 'The read-only search surface over the same lexical resources — three operations: config, search and count, across 31 lexical resources. Institution-operated, served from spraakbanken4.it.gu.se. Verifi'
   name: Karp Search API v1 — Karps sökgränssnitt
   slug: karp-search-api
-- description: 'GUPEA (Gothenburg University Publications Electronic Archive) is the Gothenburg University Library''s institutional repository, running DSpace 8.3. Its OAI-PMH 2.0 endpoint is institution-operated: the'
+- baseURL: https://gupea.ub.gu.se/server/oai/request
+  baseurl_source: declared
+  description: 'GUPEA (Gothenburg University Publications Electronic Archive) is the Gothenburg University Library''s institutional repository, running DSpace 8.3. Its OAI-PMH 2.0 endpoint is institution-operated: the'
   name: GUPEA Repository OAI-PMH 2.0 Interface
   slug: gupea-oai-pmh
 - description: 'The HAL+JSON REST API of the same repository, on the same University host. Verified live 2026-09-01: anonymous GET https://gupea.ub.gu.se/server/api returned HTTP 200 application/hal+json, 8,531 bytes'
@@ -317,7 +331,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 33.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -327,7 +341,7 @@ score:
     discoverability: 64.8
     governance: 40.9
     operational_transparency: 26.3
-  previous_composite: 18.6
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     contracts:
@@ -342,8 +356,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png
 security:
 - kind: authentication

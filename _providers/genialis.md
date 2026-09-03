@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,22 +35,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The about API from Genialis — 3 operation(s) for about.
+- baseURL: https://app.genialis.com
+  baseurl_source: declared
+  description: The about API from Genialis — 3 operation(s) for about.
   name: Genialis About API
   slug: genialis-about-api
-- description: The api API from Genialis — 156 operation(s) for api.
+- baseURL: https://app.genialis.com
+  baseurl_source: declared
+  description: The api API from Genialis — 156 operation(s) for api.
   name: Genialis API
   slug: genialis-api-api
-- description: The health_check API from Genialis — 1 operation(s) for health_check.
+- baseURL: https://app.genialis.com
+  baseurl_source: declared
+  description: The health_check API from Genialis — 1 operation(s) for health_check.
   name: Genialis Health Check API
   slug: genialis-health-check-api
-- description: The rest-auth API from Genialis — 6 operation(s) for rest-auth.
+- baseURL: https://app.genialis.com
+  baseurl_source: declared
+  description: The rest-auth API from Genialis — 6 operation(s) for rest-auth.
   name: Genialis Rest Auth API
   slug: genialis-rest-auth-api
-- description: The saml-auth API from Genialis — 3 operation(s) for saml-auth.
+- baseURL: https://app.genialis.com
+  baseurl_source: declared
+  description: The saml-auth API from Genialis — 3 operation(s) for saml-auth.
   name: Genialis Saml Auth API
   slug: genialis-saml-auth-api
 artifact_total: 10
@@ -178,18 +200,18 @@ rate_limits:
   slug: genialis-rate-limits
 score:
   band: developing
-  composite: 45.4
+  composite: 46.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 47.1
+    contract_quality: 49.5
     developer_ergonomics: 66.1
     discoverability: 68.5
     governance: 0.0
@@ -211,8 +233,9 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/genialis/refs/heads/main/screenshots/genialis-2026-09-02T145552.png
 security:
 - kind: authentication
   name: Genialis Authentication

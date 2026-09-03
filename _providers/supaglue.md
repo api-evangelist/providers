@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -44,127 +44,209 @@ agentic_access:
   summary_line: 139 operations · 65 acting
 api_count: 9
 apis:
-- description: The `Account` Common Object represents a "company" in CRMs.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Account` Common Object represents a "company" in CRMs.
   name: Supaglue Accounts API
   slug: supaglue-accounts-api
-- description: The Associations API from Supaglue — 1 operation(s) for associations.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Associations API from Supaglue — 1 operation(s) for associations.
   name: Supaglue Associations API
   slug: supaglue-associations-api
-- description: An `Association Schema` is an object describing an association between two entities.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: An `Association Schema` is an object describing an association between two entities.
   name: Supaglue AssociationSchemas API
   slug: supaglue-associationschemas-api
-- description: The Attachment object is used to represent an attachment for a ticket.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Attachment object is used to represent an attachment for a ticket.
   name: Supaglue Attachments API
   slug: supaglue-attachments-api
-- description: The Collection object is used to represent collections of tickets. Collections may include other collections as sub collections.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Collection object is used to represent collections of tickets. Collections may include other collections as sub collections.
   name: Supaglue Collections API
   slug: supaglue-collections-api
-- description: The Comment object is used to represent a comment on a ticket.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Comment object is used to represent a comment on a ticket.
   name: Supaglue Comments API
   slug: supaglue-comments-api
-- description: A `Connection` represents a Customer's connection to a Provider.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Connection` represents a Customer's connection to a Provider.
   name: Supaglue Connections API
   slug: supaglue-connections-api
-- description: A `ConnectionSyncConfig` is a configuration for how to sync a specific Customer's data from a Provider to a Destination on a schedule.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `ConnectionSyncConfig` is a configuration for how to sync a specific Customer's data from a Provider to a Destination on a schedule.
   name: Supaglue ConnectionSyncConfigs API
   slug: supaglue-connectionsyncconfigs-api
-- description: The `Contact` Common Object represents a "contact" in CRMs.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Contact` Common Object represents a "contact" in CRMs.
   name: Supaglue Contacts API
   slug: supaglue-contacts-api
-- description: A `Customer` represents one of your customers.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Customer` represents one of your customers.
   name: Supaglue Customers API
   slug: supaglue-customers-api
-- description: A `Custom Object` is an instance of a `Custom Object Schema`.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Custom Object` is an instance of a `Custom Object Schema`.
   name: Supaglue CustomObjects API
   slug: supaglue-customobjects-api
-- description: A `Custom Object Schema` is an object schema defined by the user.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Custom Object Schema` is an object schema defined by the user.
   name: Supaglue CustomObjectSchemas API
   slug: supaglue-customobjectschemas-api
-- description: A `Destination` is a data store where we write data in your infrastructure.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Destination` is a data store where we write data in your infrastructure.
   name: Supaglue Destinations API
   slug: supaglue-destinations-api
-- description: An [`Entity`](https://docs.supaglue.com/platform/entities/overview) allows you to represent your application data models in Supaglue so customers can map their different Provider objects and fields. S
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: An [`Entity`](https://docs.supaglue.com/platform/entities/overview) allows you to represent your application data models in Supaglue so customers can map their different Provider objects and fields. S
   name: Supaglue Entities API
   slug: supaglue-entities-api
-- description: An [`Entity Mapping`](https://docs.supaglue.com/platform/entities/overview#entity-mapping) maps an [Entity](https://docs.supaglue.com/platform/entities/overview) to a customer's Provider object and fi
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: An [`Entity Mapping`](https://docs.supaglue.com/platform/entities/overview#entity-mapping) maps an [Entity](https://docs.supaglue.com/platform/entities/overview) to a customer's Provider object and fi
   name: Supaglue EntityMappings API
   slug: supaglue-entitymappings-api
-- description: The `Lead` Common Object represents a "potential customer" in CRMs.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Lead` Common Object represents a "potential customer" in CRMs.
   name: Supaglue Leads API
   slug: supaglue-leads-api
-- description: The `List` Object represents a collection of CRM records.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `List` Object represents a collection of CRM records.
   name: Supaglue Lists API
   slug: supaglue-lists-api
-- description: A `Magic Link` is a secure URL that allows your customers to connect their accounts to Supaglue.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Magic Link` is a secure URL that allows your customers to connect their accounts to Supaglue.
   name: Supaglue Magic Links API
   slug: supaglue-magic-links-api
-- description: The `Mailbox` Common Object is used to represent email mailbox, used within the application for sending and syncing emails.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Mailbox` Common Object is used to represent email mailbox, used within the application for sending and syncing emails.
   name: Supaglue Mailboxes API
   slug: supaglue-mailboxes-api
-- description: The `Opportunity` Common Object represents a "deal opportunity" in CRMs.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Opportunity` Common Object represents a "deal opportunity" in CRMs.
   name: Supaglue Opportunities API
   slug: supaglue-opportunities-api
-- description: A `Property` is a field in a Provider Object.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Property` is a field in a Provider Object.
   name: Supaglue Properties API
   slug: supaglue-properties-api
-- description: A `Provider` is a third-party SaaS tool we can connect to (e.g. Salesforce).
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Provider` is a third-party SaaS tool we can connect to (e.g. Salesforce).
   name: Supaglue Providers API
   slug: supaglue-providers-api
-- description: A `Schema Mapping` is a mapping between a [Schema](https://docs.supaglue.com/platform/objects/overview#schemas) field and fields in your customer's Provider object.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Schema Mapping` is a mapping between a [Schema](https://docs.supaglue.com/platform/objects/overview#schemas) field and fields in your customer's Provider object.
   name: Supaglue SchemaMappings API
   slug: supaglue-schemamappings-api
-- description: A [`Schema`](https://docs.supaglue.com/platform/objects/overview#schemas) allows you to normalize fields for customers across a single Provider object. Supaglue uses Schemas for Managed Syncs and Acti
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A [`Schema`](https://docs.supaglue.com/platform/objects/overview#schemas) allows you to normalize fields for customers across a single Provider object. Supaglue uses Schemas for Managed Syncs and Acti
   name: Supaglue Schemas API
   slug: supaglue-schemas-api
-- description: The `Sequence State` Common Object represents the state of a contact in a sequence, commonly known as a "sequence membership".
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Sequence State` Common Object represents the state of a contact in a sequence, commonly known as a "sequence membership".
   name: Supaglue Sequence States API
   slug: supaglue-sequence-states-api
-- description: The `Sequence` Common Object represents a "sequence" in Engagements.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `Sequence` Common Object represents a "sequence" in Engagements.
   name: Supaglue Sequences API
   slug: supaglue-sequences-api
-- description: The StandardObjects API from Supaglue — 2 operation(s) for standardobjects.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The StandardObjects API from Supaglue — 2 operation(s) for standardobjects.
   name: Supaglue StandardObjects API
   slug: supaglue-standardobjects-api
-- description: A `Standard Object Schema` is an object schema of a standard object type supported by the provider.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Standard Object Schema` is an object schema of a standard object type supported by the provider.
   name: Supaglue StandardObjectSchemas API
   slug: supaglue-standardobjectschemas-api
-- description: A `SyncConfig` is a configuration for how to sync your Customers' data from a Provider to a Destination on a schedule.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `SyncConfig` is a configuration for how to sync your Customers' data from a Provider to a Destination on a schedule.
   name: Supaglue SyncConfigs API
   slug: supaglue-syncconfigs-api
-- description: A `SyncRun` is a single execution of a Sync at a point in time.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `SyncRun` is a single execution of a Sync at a point in time.
   name: Supaglue SyncRuns API
   slug: supaglue-syncruns-api
-- description: A `Sync` is a way for a Customer to sync data from a Provider to a Destination on a schedule.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Sync` is a way for a Customer to sync data from a Provider to a Destination on a schedule.
   name: Supaglue Syncs API
   slug: supaglue-syncs-api
-- description: The Tag object is used to represent a tag or label for a ticket.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Tag object is used to represent a tag or label for a ticket.
   name: Supaglue Tags API
   slug: supaglue-tags-api
-- description: The Team object is used to represent a team within the company receiving the ticket.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Team object is used to represent a team within the company receiving the ticket.
   name: Supaglue Teams API
   slug: supaglue-teams-api
-- description: The Ticket object is used to represent a ticket or a task within a system.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Ticket object is used to represent a ticket or a task within a system.
   name: Supaglue Tickets API
   slug: supaglue-tickets-api
-- description: The `User` Common Object represents a "user" that can log in to CRMs.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The `User` Common Object represents a "user" that can log in to CRMs.
   name: Supaglue Users API
   slug: supaglue-users-api
-- description: Endpoints for managing and submitting forms
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: Endpoints for managing and submitting forms
   name: Supaglue Forms API
   slug: supaglue-forms-api
-- description: Hubspot is a CRM Provider.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: Hubspot is a CRM Provider.
   name: Supaglue Hubspot API
   slug: supaglue-hubspot-api
-- description: Passthrough operations to underlying providers.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: Passthrough operations to underlying providers.
   name: Supaglue Passthrough API
   slug: supaglue-passthrough-api
-- description: Relating to enrichment data that is derived from information about a Person. This may include demographic and firmographic data.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: Relating to enrichment data that is derived from information about a Person. This may include demographic and firmographic data.
   name: Supaglue Persons API
   slug: supaglue-persons-api
-- description: Salesforce is a CRM Provider.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: Salesforce is a CRM Provider.
   name: Supaglue Salesforce API
   slug: supaglue-salesforce-api
-- description: The Webhook Events API from Supaglue — 0 operation(s) for webhook events.
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: The Webhook Events API from Supaglue — 0 operation(s) for webhook events.
   name: Supaglue Webhook Events API
   slug: supaglue-webhook-events-api
 artifact_total: 100
@@ -553,7 +635,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -563,7 +645,7 @@ score:
     discoverability: 74.1
     governance: 31.8
     operational_transparency: 42.1
-  previous_composite: 54.0
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -575,7 +657,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:

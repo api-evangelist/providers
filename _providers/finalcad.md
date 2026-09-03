@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,82 +36,132 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The Authentication API from Finalcad — 2 operation(s) for authentication.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Authentication API from Finalcad — 2 operation(s) for authentication.
   name: Finalcad Authentication API
   slug: finalcad-authentication-api
-- description: The Chunk Upload API from Finalcad — 4 operation(s) for chunk upload.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Chunk Upload API from Finalcad — 4 operation(s) for chunk upload.
   name: Finalcad Chunk Upload API
   slug: finalcad-chunk-upload-api
-- description: The Companies API from Finalcad — 4 operation(s) for companies.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Companies API from Finalcad — 4 operation(s) for companies.
   name: Finalcad Companies API
   slug: finalcad-companies-api
-- description: The Datasets API from Finalcad — 3 operation(s) for datasets.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Datasets API from Finalcad — 3 operation(s) for datasets.
   name: Finalcad Datasets API
   slug: finalcad-datasets-api
-- description: The Discussion groups API from Finalcad — 6 operation(s) for discussion groups.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Discussion groups API from Finalcad — 6 operation(s) for discussion groups.
   name: Finalcad Discussion groups API
   slug: finalcad-discussion-groups-api
-- description: The Documents API from Finalcad — 3 operation(s) for documents.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Documents API from Finalcad — 3 operation(s) for documents.
   name: Finalcad Documents API
   slug: finalcad-documents-api
-- description: The Exports API from Finalcad — 5 operation(s) for exports.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Exports API from Finalcad — 5 operation(s) for exports.
   name: Finalcad Exports API
   slug: finalcad-exports-api
-- description: The Forms API from Finalcad — 11 operation(s) for forms.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Forms API from Finalcad — 11 operation(s) for forms.
   name: Finalcad Forms API
   slug: finalcad-forms-api
-- description: The Languages API from Finalcad — 1 operation(s) for languages.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Languages API from Finalcad — 1 operation(s) for languages.
   name: Finalcad Languages API
   slug: finalcad-languages-api
-- description: The Libraries API from Finalcad — 19 operation(s) for libraries.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Libraries API from Finalcad — 19 operation(s) for libraries.
   name: Finalcad Libraries API
   slug: finalcad-libraries-api
-- description: The Locations API from Finalcad — 7 operation(s) for locations.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Locations API from Finalcad — 7 operation(s) for locations.
   name: Finalcad Locations API
   slug: finalcad-locations-api
-- description: The Medias API from Finalcad — 3 operation(s) for medias.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Medias API from Finalcad — 3 operation(s) for medias.
   name: Finalcad Medias API
   slug: finalcad-medias-api
-- description: The Medias handeling API from Finalcad — 6 operation(s) for medias handeling.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Medias handeling API from Finalcad — 6 operation(s) for medias handeling.
   name: Finalcad Medias handeling API
   slug: finalcad-medias-handeling-api
-- description: The Meetings API from Finalcad — 2 operation(s) for meetings.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Meetings API from Finalcad — 2 operation(s) for meetings.
   name: Finalcad Meetings API
   slug: finalcad-meetings-api
-- description: The Members API from Finalcad — 7 operation(s) for members.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Members API from Finalcad — 7 operation(s) for members.
   name: Finalcad Members API
   slug: finalcad-members-api
-- description: The Modules API from Finalcad — 20 operation(s) for modules.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Modules API from Finalcad — 20 operation(s) for modules.
   name: Finalcad Modules API
   slug: finalcad-modules-api
-- description: The Observations API from Finalcad — 6 operation(s) for observations.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Observations API from Finalcad — 6 operation(s) for observations.
   name: Finalcad Observations API
   slug: finalcad-observations-api
-- description: The Phases API from Finalcad — 3 operation(s) for phases.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Phases API from Finalcad — 3 operation(s) for phases.
   name: Finalcad Phases API
   slug: finalcad-phases-api
-- description: The Project details API from Finalcad — 5 operation(s) for project details.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Project details API from Finalcad — 5 operation(s) for project details.
   name: Finalcad Project  details API
   slug: finalcad-project-details-api
-- description: The Project libraries API from Finalcad — 7 operation(s) for project libraries.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Project libraries API from Finalcad — 7 operation(s) for project libraries.
   name: Finalcad Project libraries API
   slug: finalcad-project-libraries-api
-- description: The Project members management API from Finalcad — 4 operation(s) for project members management.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Project members management API from Finalcad — 4 operation(s) for project members management.
   name: Finalcad Project members management API
   slug: finalcad-project-members-management-api
-- description: The Referential API from Finalcad — 4 operation(s) for referential.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Referential API from Finalcad — 4 operation(s) for referential.
   name: Finalcad Referential API
   slug: finalcad-referential-api
-- description: The User organizations API from Finalcad — 1 operation(s) for user organizations.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The User organizations API from Finalcad — 1 operation(s) for user organizations.
   name: Finalcad User organizations API
   slug: finalcad-user-organizations-api
-- description: The Webhooks API from Finalcad — 5 operation(s) for webhooks.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Webhooks API from Finalcad — 5 operation(s) for webhooks.
   name: Finalcad Webhooks API
   slug: finalcad-webhooks-api
-- description: The Workspaces API from Finalcad — 17 operation(s) for workspaces.
+- baseURL: https://developer.finalcad.cloud/api
+  baseurl_source: declared
+  description: The Workspaces API from Finalcad — 17 operation(s) for workspaces.
   name: Finalcad Workspaces API
   slug: finalcad-workspaces-api
 artifact_total: 30
@@ -284,11 +347,11 @@ score:
   band: developing
   composite: 50.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -298,7 +361,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 50.7
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -309,8 +372,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finalcad/refs/heads/main/screenshots/finalcad-2026-09-02T145528.png
 security:
 - kind: authentication
   name: Finalcad Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 211 operations · 108 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: The Ah API from Maia-analytics — 1 operation(s) for ah.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The Ah API from Maia-analytics — 1 operation(s) for ah.
   name: Maia-analytics Ah API
   slug: maia-analytics-ah-api
-- description: The analytics API from Maia-analytics — 1 operation(s) for analytics.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The analytics API from Maia-analytics — 1 operation(s) for analytics.
   name: Maia-analytics analytics API
   slug: maia-analytics-analytics-api
-- description: The audit-log API from Maia-analytics — 1 operation(s) for audit-log.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The audit-log API from Maia-analytics — 1 operation(s) for audit-log.
   name: Maia-analytics audit-log API
   slug: maia-analytics-audit-log-api
-- description: The auth API from Maia-analytics — 8 operation(s) for auth.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The auth API from Maia-analytics — 8 operation(s) for auth.
   name: Maia-analytics auth API
   slug: maia-analytics-auth-api
-- description: The chat API from Maia-analytics — 8 operation(s) for chat.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The chat API from Maia-analytics — 8 operation(s) for chat.
   name: Maia-analytics chat API
   slug: maia-analytics-chat-api
-- description: The dial API from Maia-analytics — 8 operation(s) for dial.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The dial API from Maia-analytics — 8 operation(s) for dial.
   name: Maia-analytics dial API
   slug: maia-analytics-dial-api
-- description: The enrichment API from Maia-analytics — 17 operation(s) for enrichment.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The enrichment API from Maia-analytics — 17 operation(s) for enrichment.
   name: Maia-analytics enrichment API
   slug: maia-analytics-enrichment-api
-- description: The example-projects API from Maia-analytics — 9 operation(s) for example-projects.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The example-projects API from Maia-analytics — 9 operation(s) for example-projects.
   name: Maia-analytics example-projects API
   slug: maia-analytics-example-projects-api
-- description: The favorite API from Maia-analytics — 2 operation(s) for favorite.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The favorite API from Maia-analytics — 2 operation(s) for favorite.
   name: Maia-analytics favorite API
   slug: maia-analytics-favorite-api
-- description: The feature-flags API from Maia-analytics — 3 operation(s) for feature-flags.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The feature-flags API from Maia-analytics — 3 operation(s) for feature-flags.
   name: Maia-analytics feature-flags API
   slug: maia-analytics-feature-flags-api
-- description: The filters API from Maia-analytics — 1 operation(s) for filters.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The filters API from Maia-analytics — 1 operation(s) for filters.
   name: Maia-analytics filters API
   slug: maia-analytics-filters-api
-- description: The geographies API from Maia-analytics — 1 operation(s) for geographies.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The geographies API from Maia-analytics — 1 operation(s) for geographies.
   name: Maia-analytics geographies API
   slug: maia-analytics-geographies-api
-- description: The internal API from Maia-analytics — 50 operation(s) for internal.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The internal API from Maia-analytics — 50 operation(s) for internal.
   name: Maia-analytics internal API
   slug: maia-analytics-internal-api
-- description: The internal-knowledge API from Maia-analytics — 4 operation(s) for internal-knowledge.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The internal-knowledge API from Maia-analytics — 4 operation(s) for internal-knowledge.
   name: Maia-analytics internal-knowledge API
   slug: maia-analytics-internal-knowledge-api
-- description: The internal-projects API from Maia-analytics — 1 operation(s) for internal-projects.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The internal-projects API from Maia-analytics — 1 operation(s) for internal-projects.
   name: Maia-analytics internal-projects API
   slug: maia-analytics-internal-projects-api
-- description: The internal-skills API from Maia-analytics — 4 operation(s) for internal-skills.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The internal-skills API from Maia-analytics — 4 operation(s) for internal-skills.
   name: Maia-analytics internal-skills API
   slug: maia-analytics-internal-skills-api
-- description: The knowledge API from Maia-analytics — 2 operation(s) for knowledge.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The knowledge API from Maia-analytics — 2 operation(s) for knowledge.
   name: Maia-analytics knowledge API
   slug: maia-analytics-knowledge-api
-- description: The layer API from Maia-analytics — 3 operation(s) for layer.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The layer API from Maia-analytics — 3 operation(s) for layer.
   name: Maia-analytics layer API
   slug: maia-analytics-layer-api
-- description: The MAIA API API from Maia-analytics — 1 operation(s) for maia api.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The MAIA API API from Maia-analytics — 1 operation(s) for maia api.
   name: Maia-analytics MAIA API API
   slug: maia-analytics-maia-api-api
-- description: The map API from Maia-analytics — 4 operation(s) for map.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The map API from Maia-analytics — 4 operation(s) for map.
   name: Maia-analytics map API
   slug: maia-analytics-map-api
-- description: The notes API from Maia-analytics — 2 operation(s) for notes.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The notes API from Maia-analytics — 2 operation(s) for notes.
   name: Maia-analytics notes API
   slug: maia-analytics-notes-api
-- description: The project API from Maia-analytics — 15 operation(s) for project.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The project API from Maia-analytics — 15 operation(s) for project.
   name: Maia-analytics project API
   slug: maia-analytics-project-api
-- description: The project-lock API from Maia-analytics — 2 operation(s) for project-lock.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The project-lock API from Maia-analytics — 2 operation(s) for project-lock.
   name: Maia-analytics project-lock API
   slug: maia-analytics-project-lock-api
-- description: The query API from Maia-analytics — 1 operation(s) for query.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The query API from Maia-analytics — 1 operation(s) for query.
   name: Maia-analytics query API
   slug: maia-analytics-query-api
-- description: The saved-contacts API from Maia-analytics — 7 operation(s) for saved-contacts.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The saved-contacts API from Maia-analytics — 7 operation(s) for saved-contacts.
   name: Maia-analytics saved-contacts API
   slug: maia-analytics-saved-contacts-api
-- description: The share API from Maia-analytics — 17 operation(s) for share.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The share API from Maia-analytics — 17 operation(s) for share.
   name: Maia-analytics share API
   slug: maia-analytics-share-api
-- description: The skills API from Maia-analytics — 2 operation(s) for skills.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The skills API from Maia-analytics — 2 operation(s) for skills.
   name: Maia-analytics skills API
   slug: maia-analytics-skills-api
-- description: The stats API from Maia-analytics — 1 operation(s) for stats.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The stats API from Maia-analytics — 1 operation(s) for stats.
   name: Maia-analytics stats API
   slug: maia-analytics-stats-api
-- description: The table API from Maia-analytics — 12 operation(s) for table.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The table API from Maia-analytics — 12 operation(s) for table.
   name: Maia-analytics table API
   slug: maia-analytics-table-api
-- description: The user-events API from Maia-analytics — 1 operation(s) for user-events.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The user-events API from Maia-analytics — 1 operation(s) for user-events.
   name: Maia-analytics user-events API
   slug: maia-analytics-user-events-api
-- description: The users API from Maia-analytics — 7 operation(s) for users.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The users API from Maia-analytics — 7 operation(s) for users.
   name: Maia-analytics users API
   slug: maia-analytics-users-api
-- description: The workspace API from Maia-analytics — 9 operation(s) for workspace.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The workspace API from Maia-analytics — 9 operation(s) for workspace.
   name: Maia-analytics workspace API
   slug: maia-analytics-workspace-api
-- description: The workspaces API from Maia-analytics — 18 operation(s) for workspaces.
+- baseURL: https://api.maia-analytics.com
+  baseurl_source: declared
+  description: The workspaces API from Maia-analytics — 18 operation(s) for workspaces.
   name: Maia-analytics workspaces API
   slug: maia-analytics-workspaces-api
 artifact_total: 71
@@ -378,7 +444,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png
 security:

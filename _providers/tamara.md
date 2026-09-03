@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 23 operations · 17 acting
 api_count: 3
 apis:
-- description: The Captures API from Tamara — 1 operation(s) for captures.
+- baseURL: https://api.tamara.co
+  baseurl_source: declared
+  description: The Captures API from Tamara — 1 operation(s) for captures.
   name: Tamara Captures API
   slug: tamara-captures-api
-- description: The Channel Partner Webhooks API from Tamara — 2 operation(s) for channel partner webhooks.
+- baseURL: https://api.tamara.co
+  baseurl_source: declared
+  description: The Channel Partner Webhooks API from Tamara — 2 operation(s) for channel partner webhooks.
   name: Tamara Channel Partner Webhooks API
   slug: tamara-channel-partner-webhooks-api
-- description: Create and manage hosted-checkout sessions.
+- baseURL: https://api.tamara.co
+  baseurl_source: declared
+  description: Create and manage hosted-checkout sessions.
   name: Tamara Checkout Sessions API
   slug: tamara-checkout-sessions-api
-- description: The Merchant API Keys API from Tamara — 1 operation(s) for merchant api keys.
+- baseURL: https://api.tamara.co
+  baseurl_source: declared
+  description: The Merchant API Keys API from Tamara — 1 operation(s) for merchant api keys.
   name: Tamara Merchant API Keys API
   slug: tamara-merchant-api-keys-api
-- description: The Merchant Onboarding API from Tamara — 2 operation(s) for merchant onboarding.
+- baseURL: https://api.tamara.co
+  baseurl_source: declared
+  description: The Merchant Onboarding API from Tamara — 2 operation(s) for merchant onboarding.
   name: Tamara Merchant Onboarding API
   slug: tamara-merchant-onboarding-api
-- description: The Refunds API from Tamara — 2 operation(s) for refunds.
+- baseURL: https://api.tamara.co
+  baseurl_source: declared
+  description: The Refunds API from Tamara — 2 operation(s) for refunds.
   name: Tamara Refunds API
   slug: tamara-refunds-api
 arazzos:
@@ -438,18 +450,18 @@ rules:
   slug: tamara-rules
 score:
   band: developing
-  composite: 48.7
+  composite: 48.4
   coverage:
     artifact_dirs: 18
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 28.8
-    contract_quality: 64.9
+    contract_quality: 63.7
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 28.8
@@ -469,7 +481,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:

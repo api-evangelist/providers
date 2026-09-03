@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Assets API from Tristero — 1 operation(s) for assets.
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: The Assets API from Tristero — 1 operation(s) for assets.
   name: Tristero Assets API
   slug: tristero-assets-api
-- description: Margin position management
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: Margin position management
   name: Tristero Margin API
   slug: tristero-margin-api
-- description: Submit and manage orders
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: Submit and manage orders
   name: Tristero Orders API
   slug: tristero-orders-api
-- description: The Pricing API from Tristero — 1 operation(s) for pricing.
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: The Pricing API from Tristero — 1 operation(s) for pricing.
   name: Tristero Pricing API
   slug: tristero-pricing-api
-- description: Request quotes for swaps and margin positions
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: Request quotes for swaps and margin positions
   name: Tristero Quotes API
   slug: tristero-quotes-api
-- description: The Trading API from Tristero — 2 operation(s) for trading.
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: The Trading API from Tristero — 2 operation(s) for trading.
   name: Tristero Trading API
   slug: tristero-trading-api
-- description: Wallet and position queries
+- baseURL: https://api.tristero.com/v2
+  baseurl_source: declared
+  description: Wallet and position queries
   name: Tristero Wallets API
   slug: tristero-wallets-api
 artifact_total: 18
@@ -205,7 +219,7 @@ score:
   band: developing
   composite: 39.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -236,8 +250,9 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tristero/refs/heads/main/screenshots/tristero-2026-09-02T164259.png
 security:
 - kind: authentication
   name: Tristero Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Juno is Bitso's programmable-money platform for Mexican peso (MXN) rails and stablecoin operations. The API supports account creation, SPEI funding, MXNB stablecoin mint / redeem and on-chain transfer
   name: Juno API
   slug: juno
-- description: Authenticated account and trading endpoints.
+- baseURL: https://api.bitso.com/v3
+  baseurl_source: declared
+  description: Authenticated account and trading endpoints.
   name: Bitso Private API
   slug: bitso-private-api
-- description: Public market data endpoints. No authentication required.
+- baseURL: https://api.bitso.com/v3
+  baseurl_source: declared
+  description: Public market data endpoints. No authentication required.
   name: Bitso Public API
   slug: bitso-public-api
 artifact_total: 18
@@ -174,7 +178,7 @@ score:
     catalog_gap: 58.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -184,7 +188,7 @@ score:
     discoverability: 63.0
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 37.3
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +203,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png
 security:

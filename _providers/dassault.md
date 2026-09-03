@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: REST API for Dassault Systèmes channel partners to manage orders, price lists, accreditations, leads, and portfolio items through the partner gateway, using API key authentication.
   name: API4Partners
   slug: api4partners
-- description: This section defines all the operations related to accreditations, including the search of accreditations for a specfic partner.
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: This section defines all the operations related to accreditations, including the search of accreditations for a specfic partner.
   name: Dassault Systèmes accreditations API
   slug: dassault-accreditations-api
-- description: This section defines the operations related to API keys . Current API key management still requires some interaction with Dassault Systèmes Information System (IS) team. This process will likely be up
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: This section defines the operations related to API keys . Current API key management still requires some interaction with Dassault Systèmes Information System (IS) team. This process will likely be up
   name: Dassault Systèmes apikeys API
   slug: dassault-apikeys-api
-- description: This section defines the operations related to leads and opportunities for sales pipeline management. These ressources are managed with 'MySalesPipeline' application which implements Dassault Systèmes
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: This section defines the operations related to leads and opportunities for sales pipeline management. These ressources are managed with 'MySalesPipeline' application which implements Dassault Systèmes
   name: Dassault Systèmes leads-opportunities API
   slug: dassault-leads-opportunities-api
-- description: 'This section defines the operations related to orders, including the creation, management, and fulfillment of orders. It provides a comprehensive overview of the order lifecycle, from initial request '
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: 'This section defines the operations related to orders, including the creation, management, and fulfillment of orders. It provides a comprehensive overview of the order lifecycle, from initial request '
   name: Dassault Systèmes orders API
   slug: dassault-orders-api
-- description: This section defines the operations related to sales portfolio-items. The portfolio items are used in the definition of leads-opportunities in 'MySalesPipeline' application.
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: This section defines the operations related to sales portfolio-items. The portfolio items are used in the definition of leads-opportunities in 'MySalesPipeline' application.
   name: Dassault Systèmes portfolio-items API
   slug: dassault-portfolio-items-api
-- description: This section defines all the operations related to price lists, including the search of price lists for a specfic partner.
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: This section defines all the operations related to price lists, including the search of price lists for a specfic partner.
   name: Dassault Systèmes price-lists API
   slug: dassault-price-lists-api
 artifact_total: 175
@@ -679,7 +691,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dassault/refs/heads/main/screenshots/dassault-2026-06-20T175506.png
 security:

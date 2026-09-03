@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 32 operations · 10 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Authorization is a required step to get the necessary user permissions to act on behalf of the user. Please take a look at the [walkthrough of the authentication process](https://developers.facebook.c
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: Authorization is a required step to get the necessary user permissions to act on behalf of the user. Please take a look at the [walkthrough of the authentication process](https://developers.facebook.c
   name: Threads Authorization API
   slug: threads-api-authorization-api
-- description: 'This folder will enable you to: 1. Create a Media Container. The API will return a Media Container ID which will be used in the second step. 2. Publish a single Quote post.'
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: 'This folder will enable you to: 1. Create a Media Container. The API will return a Media Container ID which will be used in the second step. 2. Publish a single Quote post.'
   name: Threads Post to Threads > Quote Threads Posts API
   slug: threads-api-post-to-threads-quote-threads-posts-api
-- description: This folder will enable you to repost an original Threads post.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: This folder will enable you to repost an original Threads post.
   name: Threads Post to Threads > Repost Threads Posts API
   slug: threads-api-post-to-threads-repost-threads-posts-api
-- description: The Threads Reply Moderation API allows you to read and manage replies to users' own Threads.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: The Threads Reply Moderation API allows you to read and manage replies to users' own Threads.
   name: Threads Read And Manage Threads > Read and Manage Threads Replies API
   slug: threads-api-read-and-manage-threads-read-and-manage-threads-replies-api
-- description: This folder will enable you to use the Threads API to retrieve details about a user's own replies.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: This folder will enable you to use the Threads API to retrieve details about a user's own replies.
   name: Threads Read And Manage Threads > Read Replies Media Objects API
   slug: threads-api-read-and-manage-threads-read-replies-media-objects-api
-- description: This folder will enable you to use the Threads API to retrieve details about posts and accounts.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: This folder will enable you to use the Threads API to retrieve details about posts and accounts.
   name: Threads Read And Manage Threads > Read Threads Insights API
   slug: threads-api-read-and-manage-threads-read-threads-insights-api
-- description: This folder will enable you to use the Threads API to retrieve details about posts.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: This folder will enable you to use the Threads API to retrieve details about posts.
   name: Threads Read And Manage Threads > Retrieve Threads Media Objects API
   slug: threads-api-read-and-manage-threads-retrieve-threads-media-objects-api
-- description: This folder will enable you to get profile information about a Threads user.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: This folder will enable you to get profile information about a Threads user.
   name: Threads Read And Manage Threads > Retrieve Threads Profiles API
   slug: threads-api-read-and-manage-threads-retrieve-threads-profiles-api
-- description: This folder will enbale you to perform basic toubleshooting.
+- baseURL: https://graph.threads.net
+  baseurl_source: declared
+  description: This folder will enbale you to perform basic toubleshooting.
   name: Threads Troubleshooting API
   slug: threads-api-troubleshooting-api
 artifact_total: 34
@@ -245,7 +263,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -255,7 +273,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 40.6
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -264,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-08-17T083445.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -48,43 +60,69 @@ apis:
 - description: Open-source monorepo containing the Stack Auth backend (Next.js + Postgres) and dashboard. Deployable on customer infrastructure as an alternative to the hosted SaaS at app.stack-auth.com.
   name: Stack Auth Self-Hosted (stack-auth/stack)
   slug: self-hosted
-- description: The Auth API from Stack Auth — 4 operation(s) for auth.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Auth API from Stack Auth — 4 operation(s) for auth.
   name: Stack Auth Auth API
   slug: stack-auth-auth-api
-- description: The Connected Accounts API from Stack Auth — 1 operation(s) for connected accounts.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Connected Accounts API from Stack Auth — 1 operation(s) for connected accounts.
   name: Stack Auth Connected Accounts API
   slug: stack-auth-connected-accounts-api
-- description: The Contact Channels API from Stack Auth — 4 operation(s) for contact channels.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Contact Channels API from Stack Auth — 4 operation(s) for contact channels.
   name: Stack Auth Contact Channels API
   slug: stack-auth-contact-channels-api
-- description: The Emails API from Stack Auth — 2 operation(s) for emails.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Emails API from Stack Auth — 2 operation(s) for emails.
   name: Stack Auth Emails API
   slug: stack-auth-emails-api
-- description: The Sessions API from Stack Auth — 3 operation(s) for sessions.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Sessions API from Stack Auth — 3 operation(s) for sessions.
   name: Stack Auth Sessions API
   slug: stack-auth-sessions-api
-- description: The Stack Auth REST API API from Stack Auth — 1 operation(s) for stack auth rest api.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Stack Auth REST API API from Stack Auth — 1 operation(s) for stack auth rest api.
   name: Stack Auth Stack Auth REST API API
   slug: stack-auth-stack-auth-rest-api-api
-- description: The Team Api Keys API from Stack Auth — 3 operation(s) for team api keys.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Team Api Keys API from Stack Auth — 3 operation(s) for team api keys.
   name: Stack Auth Team Api Keys API
   slug: stack-auth-team-api-keys-api
-- description: The Team Memberships API from Stack Auth — 1 operation(s) for team memberships.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Team Memberships API from Stack Auth — 1 operation(s) for team memberships.
   name: Stack Auth Team Memberships API
   slug: stack-auth-team-memberships-api
-- description: The Team Permissions API from Stack Auth — 1 operation(s) for team permissions.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Team Permissions API from Stack Auth — 1 operation(s) for team permissions.
   name: Stack Auth Team Permissions API
   slug: stack-auth-team-permissions-api
-- description: The Teams API from Stack Auth — 2 operation(s) for teams.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Teams API from Stack Auth — 2 operation(s) for teams.
   name: Stack Auth Teams API
   slug: stack-auth-teams-api
-- description: The User Api Keys API from Stack Auth — 3 operation(s) for user api keys.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The User Api Keys API from Stack Auth — 3 operation(s) for user api keys.
   name: Stack Auth User Api Keys API
   slug: stack-auth-user-api-keys-api
-- description: The Users API from Stack Auth — 2 operation(s) for users.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Users API from Stack Auth — 2 operation(s) for users.
   name: Stack Auth Users API
   slug: stack-auth-users-api
-- description: The Webhooks API from Stack Auth — 1 operation(s) for webhooks.
+- baseURL: https://api.stack-auth.com
+  baseurl_source: declared
+  description: The Webhooks API from Stack Auth — 1 operation(s) for webhooks.
   name: Stack Auth Webhooks API
   slug: stack-auth-webhooks-api
 artifact_total: 39
@@ -246,7 +284,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-auth/refs/heads/main/screenshots/stack-auth-2026-06-20T194441.png
 security:

@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authentication API from Infra — 9 operation(s) for authentication.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Authentication API from Infra — 9 operation(s) for authentication.
   name: Infra Authentication API
   slug: infra-authentication-api
-- description: The Destinations API from Infra — 3 operation(s) for destinations.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Destinations API from Infra — 3 operation(s) for destinations.
   name: Infra Destinations API
   slug: infra-destinations-api
-- description: The Grants API from Infra — 2 operation(s) for grants.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Grants API from Infra — 2 operation(s) for grants.
   name: Infra Grants API
   slug: infra-grants-api
-- description: The Groups API from Infra — 3 operation(s) for groups.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Groups API from Infra — 3 operation(s) for groups.
   name: Infra Groups API
   slug: infra-groups-api
-- description: The Organizations API from Infra — 3 operation(s) for organizations.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Organizations API from Infra — 3 operation(s) for organizations.
   name: Infra Organizations API
   slug: infra-organizations-api
-- description: The Providers API from Infra — 2 operation(s) for providers.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Providers API from Infra — 2 operation(s) for providers.
   name: Infra Providers API
   slug: infra-providers-api
-- description: The Settings API from Infra — 2 operation(s) for settings.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Settings API from Infra — 2 operation(s) for settings.
   name: Infra Settings API
   slug: infra-settings-api
-- description: The Users API from Infra — 4 operation(s) for users.
+- baseURL: https://api.infrahq.com
+  baseurl_source: declared
+  description: The Users API from Infra — 4 operation(s) for users.
   name: Infra Users API
   slug: infra-users-api
 arazzos:
@@ -254,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

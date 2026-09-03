@@ -34,58 +34,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The admin API from Dyno — 5 operation(s) for admin.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The admin API from Dyno — 5 operation(s) for admin.
   name: Dyno Admin API
   slug: dyno-admin-api
-- description: The agents API from Dyno — 3 operation(s) for agents.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The agents API from Dyno — 3 operation(s) for agents.
   name: Dyno Agents API
   slug: dyno-agents-api
-- description: The Artifacts API from Dyno — 2 operation(s) for artifacts.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The Artifacts API from Dyno — 2 operation(s) for artifacts.
   name: Dyno Artifacts API
   slug: dyno-artifacts-api
-- description: The assets API from Dyno — 6 operation(s) for assets.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The assets API from Dyno — 6 operation(s) for assets.
   name: Dyno Assets API
   slug: dyno-assets-api
-- description: The auth API from Dyno — 2 operation(s) for auth.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The auth API from Dyno — 2 operation(s) for auth.
   name: Dyno Auth API
   slug: dyno-auth-api
-- description: The datasets API from Dyno — 4 operation(s) for datasets.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The datasets API from Dyno — 4 operation(s) for datasets.
   name: Dyno Datasets API
   slug: dyno-datasets-api
-- description: The files API from Dyno — 2 operation(s) for files.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The files API from Dyno — 2 operation(s) for files.
   name: Dyno Files API
   slug: dyno-files-api
-- description: The Health API from Dyno — 1 operation(s) for health.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The Health API from Dyno — 1 operation(s) for health.
   name: Dyno Health API
   slug: dyno-health-api
-- description: The ingest API from Dyno — 5 operation(s) for ingest.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The ingest API from Dyno — 5 operation(s) for ingest.
   name: Dyno Ingest API
   slug: dyno-ingest-api
-- description: The jobs API from Dyno — 7 operation(s) for jobs.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The jobs API from Dyno — 7 operation(s) for jobs.
   name: Dyno Jobs API
   slug: dyno-jobs-api
-- description: The Phi API from Dyno — 2 operation(s) for phi.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The Phi API from Dyno — 2 operation(s) for phi.
   name: Dyno Phi API
   slug: dyno-phi-api
-- description: The protocols API from Dyno — 7 operation(s) for protocols.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The protocols API from Dyno — 7 operation(s) for protocols.
   name: Dyno Protocols API
   slug: dyno-protocols-api
-- description: The research-notes API from Dyno — 1 operation(s) for research-notes.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The research-notes API from Dyno — 1 operation(s) for research-notes.
   name: Dyno Research Notes API
   slug: dyno-research-notes-api
-- description: The Runs API from Dyno — 4 operation(s) for runs.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The Runs API from Dyno — 4 operation(s) for runs.
   name: Dyno Runs API
   slug: dyno-runs-api
-- description: The tools API from Dyno — 3 operation(s) for tools.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The tools API from Dyno — 3 operation(s) for tools.
   name: Dyno Tools API
   slug: dyno-tools-api
-- description: The tutorial API from Dyno — 1 operation(s) for tutorial.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The tutorial API from Dyno — 1 operation(s) for tutorial.
   name: Dyno Tutorial API
   slug: dyno-tutorial-api
-- description: The workflows API from Dyno — 9 operation(s) for workflows.
+- baseURL: https://api.dyno-agents.app
+  baseurl_source: declared
+  description: The workflows API from Dyno — 9 operation(s) for workflows.
   name: Dyno Workflows API
   slug: dyno-workflows-api
 artifact_total: 23
@@ -291,7 +325,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/screenshots/dyno-2026-08-17T080911.png
 security:

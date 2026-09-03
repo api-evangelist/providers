@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 57 operations · 5 acting
 api_count: 1
 apis:
-- description: Alerts.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Alerts.
   name: Lex Machina Alerts API
   slug: lex-machina-alerts-api
-- description: Attorney data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Attorney data.
   name: Lex Machina Attorneys API
   slug: lex-machina-attorneys-api
-- description: Provides API authorization.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Provides API authorization.
   name: Lex Machina Authorization API
   slug: lex-machina-authorization-api
-- description: Bankruptcy court cases.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Bankruptcy court cases.
   name: Lex Machina Bankruptcy Cases API
   slug: lex-machina-bankruptcy-cases-api
-- description: Provides a filter based way to find cases.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Provides a filter based way to find cases.
   name: Lex Machina Case Query API
   slug: lex-machina-case-query-api
-- description: Docket data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Docket data.
   name: Lex Machina Dockets API
   slug: lex-machina-dockets-api
-- description: Entity data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Entity data.
   name: Lex Machina Entities API
   slug: lex-machina-entities-api
-- description: Federal court of appeals cases.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Federal court of appeals cases.
   name: Lex Machina Federal Appeals Cases API
   slug: lex-machina-federal-appeals-cases-api
-- description: Federal district court cases.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Federal district court cases.
   name: Lex Machina Federal District Cases API
   slug: lex-machina-federal-district-cases-api
-- description: ITC Investigations.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: ITC Investigations.
   name: Lex Machina ITC Investigations API
   slug: lex-machina-itc-investigations-api
-- description: Judge data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Judge data.
   name: Lex Machina Judges API
   slug: lex-machina-judges-api
-- description: Law firm data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Law firm data.
   name: Lex Machina Law Firms API
   slug: lex-machina-law-firms-api
-- description: Provides cannonical lists for specific fields.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Provides cannonical lists for specific fields.
   name: Lex Machina List API
   slug: lex-machina-list-api
-- description: Party data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Party data.
   name: Lex Machina Parties API
   slug: lex-machina-parties-api
-- description: US patent data.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: US patent data.
   name: Lex Machina Patents API
   slug: lex-machina-patents-api
-- description: PTAB Trials.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: PTAB Trials.
   name: Lex Machina PTAB Trials API
   slug: lex-machina-ptab-trials-api
-- description: State court cases.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: State court cases.
   name: Lex Machina State Cases API
   slug: lex-machina-state-cases-api
-- description: Provides API status.
+- baseURL: https://api.lexmachina.com
+  baseurl_source: declared
+  description: Provides API status.
   name: Lex Machina Status API
   slug: lex-machina-status-api
 artifact_total: 71
@@ -350,7 +386,7 @@ score:
     regime_id: government
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
 security:

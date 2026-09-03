@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Disney character data including films, TV shows, and park attractions
+- baseURL: https://api.disneyapi.dev
+  baseurl_source: declared
+  description: Disney character data including films, TV shows, and park attractions
   name: Walt Disney Characters API
   slug: walt-disney-characters-api
 artifact_total: 16
@@ -197,7 +199,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 34.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +222,9 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/walt-disney/refs/heads/main/screenshots/walt-disney-2026-09-02T170412.png
 security:
 - kind: domain-security
   name: Walt Disney Domain Security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -53,49 +53,79 @@ apis:
 - description: The Amazon Appstore Developer APIs provide tools for managing app submissions, testing, and monetization through in-app purchases on the Amazon Appstore for Android and Fire OS applications.
   name: Amazon Appstore API
   slug: appstore-api
-- description: Ad group management operations
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Ad group management operations
   name: Amazon Ad Groups API
   slug: amazon-ad-groups-api
-- description: Campaign management operations
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Campaign management operations
   name: Amazon Campaigns API
   slug: amazon-campaigns-api
-- description: Search and retrieve catalog item information
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Search and retrieve catalog item information
   name: Amazon Catalog API
   slug: amazon-catalog-api
-- description: Manage buyer charge authorizations
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Manage buyer charge authorizations
   name: Amazon Charge Permissions API
   slug: amazon-charge-permissions-api
-- description: Create and manage payment charges
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Create and manage payment charges
   name: Amazon Charges API
   slug: amazon-charges-api
-- description: Manage buyer checkout sessions
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Manage buyer checkout sessions
   name: Amazon Checkout Sessions API
   slug: amazon-checkout-sessions-api
-- description: Retrieve financial transaction data
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Retrieve financial transaction data
   name: Amazon Finances API
   slug: amazon-finances-api
-- description: Manage FBA inventory
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Manage FBA inventory
   name: Amazon Inventory API
   slug: amazon-inventory-api
-- description: Keyword management operations
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Keyword management operations
   name: Amazon Keywords API
   slug: amazon-keywords-api
-- description: Create, update, and manage product listings
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Create, update, and manage product listings
   name: Amazon Listings API
   slug: amazon-listings-api
-- description: Manage and retrieve order information
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Manage and retrieve order information
   name: Amazon Orders API
   slug: amazon-orders-api
-- description: Account profile management
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Account profile management
   name: Amazon Profiles API
   slug: amazon-profiles-api
-- description: Process refunds on captured charges
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Process refunds on captured charges
   name: Amazon Refunds API
   slug: amazon-refunds-api
-- description: Reporting and analytics
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Reporting and analytics
   name: Amazon Reports API
   slug: amazon-reports-api
-- description: Product targeting operations
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: Product targeting operations
   name: Amazon Targets API
   slug: amazon-targets-api
 artifact_total: 266
@@ -915,7 +945,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'Local HTTP/LSP API exposed by the Rust `refact-lsp` engine that runs inside the user''s IDE or as a standalone server. Implements the agent runtime: provider/model capabilities, chat command queueing, '
@@ -224,7 +224,7 @@ score:
     score: 50.0
   previous_composite: 17.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refact-ai/refs/heads/main/screenshots/refact-ai-2026-06-20T192744.png
 security:

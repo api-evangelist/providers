@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
@@ -48,10 +48,14 @@ apis:
 - description: The University of Toronto's research data repository collection inside Borealis, the Canadian Dataverse Repository operated by Scholars Portal for the Ontario Council of University Libraries. Verified
   name: U of T Dataverse (Borealis) — tenant
   slug: uoft-dataverse-borealis
-- description: Course, section and meeting-time retrieval.
+- baseURL: https://api.easi.utoronto.ca/ttb
+  baseurl_source: declared
+  description: Course, section and meeting-time retrieval.
   name: University of Toronto Courses API
   slug: university-of-toronto-courses-api
-- description: Sessions, divisions, campuses and other search facets.
+- baseURL: https://api.easi.utoronto.ca/ttb
+  baseurl_source: declared
+  description: Sessions, divisions, campuses and other search facets.
   name: University of Toronto Reference Data API
   slug: university-of-toronto-reference-data-api
 artifact_total: 26
@@ -277,7 +281,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -287,7 +291,7 @@ score:
     discoverability: 66.7
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 34.8
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     contracts:
@@ -302,7 +306,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png
 security:

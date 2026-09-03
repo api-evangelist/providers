@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Conversation threads with customers
+- baseURL: https://api.kustomerapp.com
+  baseurl_source: declared
+  description: Conversation threads with customers
   name: Kustomer Conversations API
   slug: kustomer-conversations-api
-- description: Customer records in Kustomer
+- baseURL: https://api.kustomerapp.com
+  baseurl_source: declared
+  description: Customer records in Kustomer
   name: Kustomer Customers API
   slug: kustomer-customers-api
 artifact_total: 15
@@ -169,7 +173,7 @@ score:
     catalog_gap: 71.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -179,7 +183,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 31.2
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/screenshots/kustomer-2026-06-20T184221.png
 security:

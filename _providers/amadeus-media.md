@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Operations for retrieving detailed hotel property content.
+- baseURL: https://api.amadeus.com
+  baseurl_source: declared
+  description: Operations for retrieving detailed hotel property content.
   name: Amadeus Media Hotel Content API
   slug: amadeus-media-hotel-content-api
-- description: Operations for retrieving hotel media assets including images and videos.
+- baseURL: https://api.amadeus.com
+  baseurl_source: declared
+  description: Operations for retrieving hotel media assets including images and videos.
   name: Amadeus Media Hotel Media API
   slug: amadeus-media-hotel-media-api
-- description: The Hotels API from Amadeus Media — 3 operation(s) for hotels.
+- baseURL: https://api.amadeus.com
+  baseurl_source: declared
+  description: The Hotels API from Amadeus Media — 3 operation(s) for hotels.
   name: Amadeus Media Hotels API
   slug: amadeus-media-hotels-api
 artifact_total: 82
@@ -445,7 +451,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:

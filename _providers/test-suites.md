@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,10 +68,14 @@ apis:
 - description: TestNG is a Java testing framework inspired by JUnit and NUnit that provides advanced test suite configuration including grouping, prioritization, parameterized tests, and parallel execution. It is wi
   name: TestNG
   slug: testng
-- description: The Collections API from Test Suites — 2 operation(s) for collections.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Collections API from Test Suites — 2 operation(s) for collections.
   name: Test Suites Collections API
   slug: test-suites-collections-api
-- description: The Workspaces API from Test Suites — 2 operation(s) for workspaces.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Workspaces API from Test Suites — 2 operation(s) for workspaces.
   name: Test Suites Workspaces API
   slug: test-suites-workspaces-api
 artifact_total: 27
@@ -212,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-suites/refs/heads/main/screenshots/test-suites-2026-06-20T195156.png
 security:

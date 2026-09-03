@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,10 +51,14 @@ apis:
 - description: The OpenID Connect and OAuth 2.0 authorization server for the Liquid Death customer account, hosted at account.liquiddeath.com and discoverable from both /.well-known/openid-configuration and /.well-k
   name: Liquid Death Customer Account OAuth
   slug: liquid-death-customer-account-oauth
-- description: Product and collection data
+- baseURL: https://liquiddeath.com
+  baseurl_source: declared
+  description: Product and collection data
   name: Liquid Death Catalog API
   slug: liquid-death-catalog-api
-- description: Store-level discovery documents for crawlers and agents
+- baseURL: https://liquiddeath.com
+  baseurl_source: declared
+  description: Store-level discovery documents for crawlers and agents
   name: Liquid Death Discovery API
   slug: liquid-death-discovery-api
 artifact_total: 10
@@ -240,7 +256,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/screenshots/liquid-death-2026-08-07T171733.png
 security:

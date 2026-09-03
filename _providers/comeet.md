@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The Hires API captures new-hire data from Comeet and pushes employee profile information into downstream HRIS, onboarding, and provisioning systems. It is typically used to trigger an onboarding workf
   name: Comeet Hires API
   slug: comeet-hires-api
-- description: Published positions for a company.
+- baseURL: https://www.comeet.co/careers-api/2.0
+  baseurl_source: declared
+  description: Published positions for a company.
   name: Comeet Positions API
   slug: comeet-positions-api
 artifact_total: 16
@@ -207,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/screenshots/comeet-2026-06-20T174801.png
 security:

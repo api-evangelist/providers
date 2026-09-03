@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: Account status and usage information.
+- baseURL: https://ws.detectlanguage.com/v3
+  baseurl_source: declared
+  description: Account status and usage information.
   name: DetectLanguage Account API
   slug: detectlanguage-account-api
-- description: Language detection endpoints for single and batch text analysis.
+- baseURL: https://ws.detectlanguage.com/v3
+  baseurl_source: declared
+  description: Language detection endpoints for single and batch text analysis.
   name: DetectLanguage Detection API
   slug: detectlanguage-detection-api
-- description: Retrieve the list of supported languages.
+- baseURL: https://ws.detectlanguage.com/v3
+  baseurl_source: declared
+  description: Retrieve the list of supported languages.
   name: DetectLanguage Languages API
   slug: detectlanguage-languages-api
 artifact_total: 22
@@ -222,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/screenshots/detectlanguage-2026-06-20T175940.png
 security:

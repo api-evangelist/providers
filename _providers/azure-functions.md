@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 37 operations · 26 acting
 api_count: 1
 apis:
-- description: The WebApps API from Azure Functions — 30 operation(s) for webapps.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WebApps API from Azure Functions — 30 operation(s) for webapps.
   name: Azure Functions WebApps API
   slug: azure-functions-webapps-api
 artifact_total: 72
@@ -380,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-functions/refs/heads/main/screenshots/azure-functions-2026-06-20T172856.png
 security:

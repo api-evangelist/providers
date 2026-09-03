@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 67.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 76 operations · 43 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: Agent key management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Agent key management
   name: Natural AI Agent Keys API
   slug: natural-ai-agent-keys-api
-- description: Agent management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Agent management
   name: Natural AI Agents API
   slug: natural-ai-agents-api
-- description: API key management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: API key management
   name: Natural AI API Keys API
   slug: natural-ai-api-keys-api
-- description: Approval review
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Approval review
   name: Natural AI Approvals API
   slug: natural-ai-approvals-api
-- description: Customer management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Customer management
   name: Natural AI Customers API
   slug: natural-ai-customers-api
-- description: Webhook event log
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Webhook event log
   name: Natural AI Events API
   slug: natural-ai-events-api
-- description: Linked external bank accounts
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Linked external bank accounts
   name: Natural AI External Accounts API
   slug: natural-ai-external-accounts-api
-- description: Party invitation management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Party invitation management
   name: Natural AI Invitations API
   slug: natural-ai-invitations-api
-- description: Party and organization management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Party and organization management
   name: Natural AI Parties API
   slug: natural-ai-parties-api
-- description: Payment request management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Payment request management
   name: Natural AI PaymentRequests API
   slug: natural-ai-paymentrequests-api
-- description: Payment management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Payment management
   name: Natural AI Payments API
   slug: natural-ai-payments-api
-- description: Transaction activity and history
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Transaction activity and history
   name: Natural AI Transactions API
   slug: natural-ai-transactions-api
-- description: Deposits and withdrawals
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Deposits and withdrawals
   name: Natural AI Transfers API
   slug: natural-ai-transfers-api
-- description: Wallet management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Wallet management
   name: Natural AI Wallets API
   slug: natural-ai-wallets-api
-- description: Webhook endpoint management
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Webhook endpoint management
   name: Natural AI Webhooks API
   slug: natural-ai-webhooks-api
 artifact_total: 53
@@ -377,7 +407,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -387,7 +417,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 65.6
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -405,7 +435,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/screenshots/natural-ai-2026-08-07T184702.png
 security:

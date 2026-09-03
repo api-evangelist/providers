@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage Access Control List (ACL) policies for fine-grained permission control.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Manage Access Control List (ACL) policies for fine-grained permission control.
   name: Rundeck ACL Policies API
   slug: rundeck-acl-policies-api
-- description: Monitor running executions, retrieve execution history, and manage execution state.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Monitor running executions, retrieve execution history, and manage execution state.
   name: Rundeck Executions API
   slug: rundeck-executions-api
-- description: List, create, import, export, run, and delete automation jobs.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: List, create, import, export, run, and delete automation jobs.
   name: Rundeck Jobs API
   slug: rundeck-jobs-api
-- description: Query and manage nodes (target machines) associated with Rundeck projects.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Query and manage nodes (target machines) associated with Rundeck projects.
   name: Rundeck Nodes API
   slug: rundeck-nodes-api
-- description: Create and manage Rundeck projects which organize jobs and node configurations.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Create and manage Rundeck projects which organize jobs and node configurations.
   name: Rundeck Projects API
   slug: rundeck-projects-api
-- description: Access system information, health checks, execution modes, metrics, and configuration.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Access system information, health checks, execution modes, metrics, and configuration.
   name: Rundeck System API
   slug: rundeck-system-api
-- description: Create, list, and delete API authentication tokens.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Create, list, and delete API authentication tokens.
   name: Rundeck Tokens API
   slug: rundeck-tokens-api
-- description: Manage user profiles, roles, and API token generation.
+- baseURL: http://localhost:4440/api
+  baseurl_source: declared
+  description: Manage user profiles, roles, and API token generation.
   name: Rundeck Users API
   slug: rundeck-users-api
 artifact_total: 28
@@ -241,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 107 operations · 62 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: Configs are application configurations that can be used by services. Swarm mode must be enabled for these endpoints to work.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Configs are application configurations that can be used by services. Swarm mode must be enabled for these endpoints to work.
   name: Docker Config API
   slug: docker-config-api
-- description: Create and manage containers.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Create and manage containers.
   name: Docker Container API
   slug: docker-container-api
-- description: The Distribution API from Docker — 1 operation(s) for distribution.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: The Distribution API from Docker — 1 operation(s) for distribution.
   name: Docker Distribution API
   slug: docker-distribution-api
-- description: Run new commands inside running containers. Refer to the [command-line reference](https://docs.docker.com/engine/reference/commandline/exec/) for more information. To exec a command in a container, yo
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Run new commands inside running containers. Refer to the [command-line reference](https://docs.docker.com/engine/reference/commandline/exec/) for more information. To exec a command in a container, yo
   name: Docker Exec API
   slug: docker-exec-api
-- description: The Image API from Docker — 15 operation(s) for image.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: The Image API from Docker — 15 operation(s) for image.
   name: Docker Image API
   slug: docker-image-api
-- description: Networks are user-defined networks that containers can be attached to. See the [networking documentation](https://docs.docker.com/network/) for more information.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Networks are user-defined networks that containers can be attached to. See the [networking documentation](https://docs.docker.com/network/) for more information.
   name: Docker Network API
   slug: docker-network-api
-- description: Nodes are instances of the Engine participating in a swarm. Swarm mode must be enabled for these endpoints to work.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Nodes are instances of the Engine participating in a swarm. Swarm mode must be enabled for these endpoints to work.
   name: Docker Node API
   slug: docker-node-api
-- description: The Plugin API from Docker — 11 operation(s) for plugin.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: The Plugin API from Docker — 11 operation(s) for plugin.
   name: Docker Plugin API
   slug: docker-plugin-api
-- description: Secrets are sensitive data that can be used by services. Swarm mode must be enabled for these endpoints to work.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Secrets are sensitive data that can be used by services. Swarm mode must be enabled for these endpoints to work.
   name: Docker Secret API
   slug: docker-secret-api
-- description: Services are the definitions of tasks to run on a swarm. Swarm mode must be enabled for these endpoints to work.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Services are the definitions of tasks to run on a swarm. Swarm mode must be enabled for these endpoints to work.
   name: Docker Service API
   slug: docker-service-api
-- description: The Session API from Docker — 1 operation(s) for session.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: The Session API from Docker — 1 operation(s) for session.
   name: Docker Session API
   slug: docker-session-api
-- description: Engines can be clustered together in a swarm. Refer to the [swarm mode documentation](https://docs.docker.com/engine/swarm/) for more information.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Engines can be clustered together in a swarm. Refer to the [swarm mode documentation](https://docs.docker.com/engine/swarm/) for more information.
   name: Docker Swarm API
   slug: docker-swarm-api
-- description: The System API from Docker — 6 operation(s) for system.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: The System API from Docker — 6 operation(s) for system.
   name: Docker System API
   slug: docker-system-api
-- description: A task is a container running on a swarm. It is the atomic scheduling unit of swarm. Swarm mode must be enabled for these endpoints to work.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: A task is a container running on a swarm. It is the atomic scheduling unit of swarm. Swarm mode must be enabled for these endpoints to work.
   name: Docker Task API
   slug: docker-task-api
-- description: Create and manage persistent storage that can be attached to containers.
+- baseURL: /v1.54
+  baseurl_source: spec
+  description: Create and manage persistent storage that can be attached to containers.
   name: Docker Volume API
   slug: docker-volume-api
 arazzos:
@@ -411,7 +441,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:

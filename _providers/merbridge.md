@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Merbridge uses eBPF to accelerate service mesh data planes by replacing iptables-based traffic interception and shortening the datapath between sidecars and services. It is a CNCF Sandbox project comp
@@ -137,7 +137,7 @@ score:
     score: 40.0
   previous_composite: 18.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merbridge/refs/heads/main/screenshots/merbridge-2026-06-20T185149.png
 security:

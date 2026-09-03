@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Pre-computed call metrics, team performance, and outbound dial funnel
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Pre-computed call metrics, team performance, and outbound dial funnel
   name: The Mobile First Company Analytics API
   slug: the-mobile-first-company-analytics-api
-- description: Retrieve and search call records with filtering and pagination. Filter calls by your Allo phone number.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Retrieve and search call records with filtering and pagination. Filter calls by your Allo phone number.
   name: The Mobile First Company Calls API
   slug: the-mobile-first-company-calls-api
-- description: Search and retrieve contact information with sorting and pagination. Includes engagement level tracking.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Search and retrieve contact information with sorting and pagination. Includes engagement level tracking.
   name: The Mobile First Company Contacts API
   slug: the-mobile-first-company-contacts-api
-- description: The Conversations API from The Mobile First Company — 7 operation(s) for conversations.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: The Conversations API from The Mobile First Company — 7 operation(s) for conversations.
   name: The Mobile First Company Conversations API
   slug: the-mobile-first-company-conversations-api
-- description: Manage people, companies, and deals in your CRM.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Manage people, companies, and deals in your CRM.
   name: The Mobile First Company CRM API
   slug: the-mobile-first-company-crm-api
-- description: The Partner API from The Mobile First Company — 2 operation(s) for partner.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: The Partner API from The Mobile First Company — 2 operation(s) for partner.
   name: The Mobile First Company Partner API
   slug: the-mobile-first-company-partner-api
-- description: Retrieve information about your Allo phone numbers.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Retrieve information about your Allo phone numbers.
   name: The Mobile First Company Phone Numbers API
   slug: the-mobile-first-company-phone-numbers-api
-- description: The Power Dialer API from The Mobile First Company — 2 operation(s) for power dialer.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: The Power Dialer API from The Mobile First Company — 2 operation(s) for power dialer.
   name: The Mobile First Company Power Dialer API
   slug: the-mobile-first-company-power-dialer-api
-- description: Send SMS messages to phone numbers using your Allo numbers.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Send SMS messages to phone numbers using your Allo numbers.
   name: The Mobile First Company SMS API
   slug: the-mobile-first-company-sms-api
-- description: Manage call summary templates that control how AI-generated call summaries are structured for your team.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Manage call summary templates that control how AI-generated call summaries are structured for your team.
   name: The Mobile First Company Summary Templates API
   slug: the-mobile-first-company-summary-templates-api
-- description: The Tags API from The Mobile First Company — 3 operation(s) for tags.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: The Tags API from The Mobile First Company — 3 operation(s) for tags.
   name: The Mobile First Company Tags API
   slug: the-mobile-first-company-tags-api
-- description: The Users API from The Mobile First Company — 3 operation(s) for users.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: The Users API from The Mobile First Company — 3 operation(s) for users.
   name: The Mobile First Company Users API
   slug: the-mobile-first-company-users-api
-- description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
+- baseURL: https://api.withallo.com
+  baseurl_source: declared
+  description: Manage webhook endpoints to receive real-time notifications about events in your Allo account. Each endpoint subscribes to one or more event topics and is verified with a signing secret.
   name: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
 artifact_total: 33
@@ -284,7 +310,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -294,7 +320,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 56.0
+  previous_composite: 55.8
   provenance:
     conformance: first-party
     contracts:
@@ -311,7 +337,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/screenshots/the-mobile-first-company-2026-08-17T082339.png
 security:

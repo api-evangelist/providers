@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: The Ryder 3PA Load Tracking API provides third-party logistics load tracking functionality, enabling visibility into load status and location throughout the shipment lifecycle.
   name: Ryder 3PA Load Tracking API
   slug: 3pa-load-tracking-api
-- description: Document upload to RyderShare
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Document upload to RyderShare
   name: Ryder System Documents API
   slug: ryder-system-documents-api
-- description: Fleet vehicle information and specifications
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Fleet vehicle information and specifications
   name: Ryder System Fleet API
   slug: ryder-system-fleet-api
-- description: Invoice details and payment status
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Invoice details and payment status
   name: Ryder System Invoices API
   slug: ryder-system-invoices-api
-- description: Load tender and event management
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Load tender and event management
   name: Ryder System Load Events API
   slug: ryder-system-load-events-api
-- description: Load management within shipments
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Load management within shipments
   name: Ryder System Loads API
   slug: ryder-system-loads-api
-- description: Location information and service details
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Location information and service details
   name: Ryder System Locations API
   slug: ryder-system-locations-api
-- description: Historical maintenance records
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Historical maintenance records
   name: Ryder System Service History API
   slug: ryder-system-service-history-api
-- description: Shipment confirmation operations
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Shipment confirmation operations
   name: Ryder System Ship Confirmation API
   slug: ryder-system-ship-confirmation-api
-- description: Shipment status and tracking
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Shipment status and tracking
   name: Ryder System Ship Status API
   slug: ryder-system-ship-status-api
-- description: Shipment management operations
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Shipment management operations
   name: Ryder System Shipments API
   slug: ryder-system-shipments-api
-- description: Vehicle and shipment location tracking
+- baseURL: https://developer.ryder.com/fms/apis
+  baseurl_source: declared
+  description: Vehicle and shipment location tracking
   name: Ryder System Tracking API
   slug: ryder-system-tracking-api
 artifact_total: 49
@@ -337,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png
 security:

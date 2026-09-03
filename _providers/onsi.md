@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: The members API from Onsi — 7 operation(s) for members.
+- baseURL: https://api.onsi.com
+  baseurl_source: declared
+  description: The members API from Onsi — 7 operation(s) for members.
   name: Onsi members API
   slug: onsi-members-api
-- description: The pay API from Onsi — 9 operation(s) for pay.
+- baseURL: https://api.onsi.com
+  baseurl_source: declared
+  description: The pay API from Onsi — 9 operation(s) for pay.
   name: Onsi pay API
   slug: onsi-pay-api
 artifact_total: 10
@@ -226,7 +230,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/screenshots/onsi-2026-08-07T190412.png
 security:

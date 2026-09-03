@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Authenticated member web and mobile dashboard for viewing 100+ lab biomarkers, trends across testing rounds, clinician notes, biological age, and a personalized action plan. There is no documented pub
+- baseURL: https://www.functionhealth.com
+  baseurl_source: spec
+  description: Authenticated member web and mobile dashboard for viewing 100+ lab biomarkers, trends across testing rounds, clinician notes, biological age, and a personalized action plan. There is no documented pub
   name: Function Health Member Dashboard
   slug: function-health-member-dashboard
-- description: Member-initiated PDF export of lab results from the documents area of the dashboard. This is a manual download for data portability, not a programmatic API; third-party trackers import the resulting P
+- baseURL: https://www.functionhealth.com
+  baseurl_source: spec
+  description: Member-initiated PDF export of lab results from the documents area of the dashboard. This is a manual download for data portability, not a programmatic API; third-party trackers import the resulting P
   name: Function Health Results Export
   slug: function-health-results-export
-- description: In-product Connected Apps let members link supported consumer health services (e.g. wearables and Apple Health) to sync data into Function. These are pre-built, member-authorized integrations configur
+- baseURL: https://www.functionhealth.com
+  baseurl_source: spec
+  description: In-product Connected Apps let members link supported consumer health services (e.g. wearables and Apple Health) to sync data into Function. These are pre-built, member-authorized integrations configur
   name: Function Health Connected Apps
   slug: function-health-connected-apps
-- description: An opt-in app within ChatGPT through which a member can authorize secure access to a limited, high-level summary of their lab results, with the ability to revoke access at any time. Surfaced through t
+- baseURL: https://www.functionhealth.com
+  baseurl_source: spec
+  description: An opt-in app within ChatGPT through which a member can authorize secure access to a limited, high-level summary of their lab results, with the ability to revoke access at any time. Surfaced through t
   name: Function Health ChatGPT App
   slug: function-health-chatgpt-app
 artifact_total: 11
@@ -140,7 +148,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

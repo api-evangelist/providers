@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 29 operations · 14 acting
 api_count: 2
 apis:
-- description: Query practice data using FHIR resources.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Query practice data using FHIR resources.
   name: Halo Connect FHIR API
   slug: halo-connect-fhir-api
-- description: The Registered Queries API from Halo Connect — 6 operation(s) for registered queries.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: The Registered Queries API from Halo Connect — 6 operation(s) for registered queries.
   name: Halo Connect Registered Queries API
   slug: halo-connect-registered-queries-api
-- description: Endpoints for practice onboarding and site metadata.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Endpoints for practice onboarding and site metadata.
   name: Halo Connect Sites API
   slug: halo-connect-sites-api
-- description: Send SQL queries to practices as immediate, async or registered queries. **Immediate queries** are small, time-sensitive queries that return a result in seconds. Response size is limited to 8MB. **Asy
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Send SQL queries to practices as immediate, async or registered queries. **Immediate queries** are small, time-sensitive queries that return a result in seconds. Response size is limited to 8MB. **Asy
   name: Halo Connect SQL Passthrough API
   slug: halo-connect-sql-passthrough-api
-- description: Obtain authorization tokens for desktop applications to authenticate API requests.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Obtain authorization tokens for desktop applications to authenticate API requests.
   name: Halo Connect Tokens API
   slug: halo-connect-tokens-api
 artifact_total: 14
@@ -225,7 +247,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -235,7 +257,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,7 +275,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png
 security:

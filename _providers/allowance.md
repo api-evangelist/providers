@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Mandates API from Allowance — 5 operation(s) for mandates.
+- baseURL: https://api.useallowance.com/v1
+  baseurl_source: declared
+  description: The Mandates API from Allowance — 5 operation(s) for mandates.
   name: Allowance Mandates API
   slug: allowance-mandates-api
-- description: The Pricing API from Allowance — 1 operation(s) for pricing.
+- baseURL: https://api.useallowance.com/v1
+  baseurl_source: declared
+  description: The Pricing API from Allowance — 1 operation(s) for pricing.
   name: Allowance Pricing API
   slug: allowance-pricing-api
-- description: The Status API from Allowance — 1 operation(s) for status.
+- baseURL: https://api.useallowance.com/v1
+  baseurl_source: declared
+  description: The Status API from Allowance — 1 operation(s) for status.
   name: Allowance Status API
   slug: allowance-status-api
 arazzos:
@@ -232,7 +238,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -242,7 +248,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 53.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,7 +266,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:

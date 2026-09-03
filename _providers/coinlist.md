@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 22 operations · 9 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The DocumentSubmissions API from CoinList — 1 operation(s) for documentsubmissions.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The DocumentSubmissions API from CoinList — 1 operation(s) for documentsubmissions.
   name: CoinList DocumentSubmissions API
   slug: coinlist-documentsubmissions-api
-- description: The KYC API from CoinList — 1 operation(s) for kyc.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The KYC API from CoinList — 1 operation(s) for kyc.
   name: CoinList KYC API
   slug: coinlist-kyc-api
-- description: The OAuth API from CoinList — 3 operation(s) for oauth.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The OAuth API from CoinList — 3 operation(s) for oauth.
   name: CoinList OAuth API
   slug: coinlist-oauth-api
-- description: The Offers API from CoinList — 4 operation(s) for offers.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Offers API from CoinList — 4 operation(s) for offers.
   name: CoinList Offers API
   slug: coinlist-offers-api
-- description: The Participations API from CoinList — 2 operation(s) for participations.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Participations API from CoinList — 2 operation(s) for participations.
   name: CoinList Participations API
   slug: coinlist-participations-api
-- description: The Pii API from CoinList — 1 operation(s) for pii.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Pii API from CoinList — 1 operation(s) for pii.
   name: CoinList Pii API
   slug: coinlist-pii-api
-- description: The Requirements API from CoinList — 2 operation(s) for requirements.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Requirements API from CoinList — 2 operation(s) for requirements.
   name: CoinList Requirements API
   slug: coinlist-requirements-api
-- description: The Swap API from CoinList — 3 operation(s) for swap.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Swap API from CoinList — 3 operation(s) for swap.
   name: CoinList Swap API
   slug: coinlist-swap-api
-- description: The Token API from CoinList — 2 operation(s) for token.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Token API from CoinList — 2 operation(s) for token.
   name: CoinList Token API
   slug: coinlist-token-api
-- description: The Wallet API from CoinList — 1 operation(s) for wallet.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Wallet API from CoinList — 1 operation(s) for wallet.
   name: CoinList Wallet API
   slug: coinlist-wallet-api
-- description: The Wallet Ownership API from CoinList — 1 operation(s) for wallet ownership.
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The Wallet Ownership API from CoinList — 1 operation(s) for wallet ownership.
   name: CoinList Wallet Ownership API
   slug: coinlist-wallet-ownership-api
 arazzos:
@@ -308,7 +330,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinlist/refs/heads/main/screenshots/coinlist-2026-08-17T123123.png
 security:

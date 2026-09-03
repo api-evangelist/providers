@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: Outbound event / callback surface for Dropbox Sign. The platform POSTs JSON event payloads (wrapped in a `multipart/form-data` `json` field) to a subscriber-configured URL whenever signature requests,
   name: Dropbox Sign Events and Callbacks API
   slug: events-api
-- description: The Account API from Dropbox Sign — 3 operation(s) for account.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The Account API from Dropbox Sign — 3 operation(s) for account.
   name: Dropbox Sign Account API
   slug: dropbox-sign-account-api
-- description: The API App API from Dropbox Sign — 3 operation(s) for api app.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The API App API from Dropbox Sign — 3 operation(s) for api app.
   name: Dropbox Sign API App API
   slug: dropbox-sign-api-app-api
-- description: The Bulk Send Job API from Dropbox Sign — 2 operation(s) for bulk send job.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The Bulk Send Job API from Dropbox Sign — 2 operation(s) for bulk send job.
   name: Dropbox Sign Bulk Send Job API
   slug: dropbox-sign-bulk-send-job-api
-- description: The Embedded API from Dropbox Sign — 2 operation(s) for embedded.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The Embedded API from Dropbox Sign — 2 operation(s) for embedded.
   name: Dropbox Sign Embedded API
   slug: dropbox-sign-embedded-api
-- description: The Fax API from Dropbox Sign — 2 operation(s) for fax.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The Fax API from Dropbox Sign — 2 operation(s) for fax.
   name: Dropbox Sign Fax API
   slug: dropbox-sign-fax-api
 artifact_total: 21
@@ -190,7 +200,7 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -200,7 +210,7 @@ score:
     discoverability: 66.7
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 34.6
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -209,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/screenshots/dropbox-sign-2026-06-20T180245.png
 security:

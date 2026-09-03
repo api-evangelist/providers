@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 21 operations · 14 acting
 api_count: 2
 apis:
-- description: The Neo4j Query API enables the execution of Cypher statements against a Neo4j server through HTTP requests. It provides a streamlined interface for running graph database queries, supporting both sel
+- baseURL: http://localhost:7474
+  baseurl_source: spec
+  description: The Neo4j Query API enables the execution of Cypher statements against a Neo4j server through HTTP requests. It provides a streamlined interface for running graph database queries, supporting both sel
   name: Neo4j Query API
   slug: query-api
 - description: The Neo4j GraphQL Library is an open source JavaScript library that enables rapid development of GraphQL APIs backed by a Neo4j graph database. It automatically generates a single optimized Cypher que
@@ -62,22 +64,34 @@ apis:
 - description: The Neo4j JavaScript Driver is the official library for interacting with Neo4j graph databases from JavaScript and Node.js applications. It uses the Bolt protocol for efficient communication and can b
   name: Neo4j JavaScript Driver
   slug: javascript-driver
-- description: OAuth2 token management for authenticating API requests. Access tokens are temporary and expire after one hour.
+- baseURL: https://api.neo4j.io/v1
+  baseurl_source: spec
+  description: OAuth2 token management for authenticating API requests. Access tokens are temporary and expire after one hour.
   name: Neo4j Authentication API
   slug: neo4j-authentication-api
-- description: Server discovery endpoint that returns available endpoints, server version, edition, and authentication configuration.
+- baseURL: http://localhost:7474
+  baseurl_source: spec
+  description: Server discovery endpoint that returns available endpoints, server version, edition, and authentication configuration.
   name: Neo4j Discovery API
   slug: neo4j-discovery-api
-- description: Manage AuraDB cloud database instances including provisioning, configuration, lifecycle operations such as pause and resume, and deletion.
+- baseURL: https://api.neo4j.io/v1
+  baseurl_source: spec
+  description: Manage AuraDB cloud database instances including provisioning, configuration, lifecycle operations such as pause and resume, and deletion.
   name: Neo4j Instances API
   slug: neo4j-instances-api
-- description: Manage database snapshots which are point-in-time copies of instance data used for backup and restore operations.
+- baseURL: https://api.neo4j.io/v1
+  baseurl_source: spec
+  description: Manage database snapshots which are point-in-time copies of instance data used for backup and restore operations.
   name: Neo4j Snapshots API
   slug: neo4j-snapshots-api
-- description: Manage tenants (projects) which organize multiple database instances under a single administrative unit for access control and configuration.
+- baseURL: https://api.neo4j.io/v1
+  baseurl_source: spec
+  description: Manage tenants (projects) which organize multiple database instances under a single administrative unit for access control and configuration.
   name: Neo4j Tenants API
   slug: neo4j-tenants-api
-- description: Manage explicit transactions with full control over the transaction lifecycle including open, run, commit, and rollback operations.
+- baseURL: http://localhost:7474
+  baseurl_source: spec
+  description: Manage explicit transactions with full control over the transaction lifecycle including open, run, commit, and rollback operations.
   name: Neo4j Transactions API
   slug: neo4j-transactions-api
 artifact_total: 43
@@ -272,7 +286,7 @@ score:
     catalog_gap: 65.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -282,7 +296,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 45.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -291,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/screenshots/neo4j-2026-08-17T124223.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,31 +48,49 @@ apis:
 - description: Regal publishes 40+ reporting webhook event types covering agent activity, call lifecycle (placed, completed, IVR triggered, wrapup), call recording and transcript availability, AI call analysis, task
   name: Regal Reporting Webhooks
   slug: regal-reporting-webhooks
-- description: Carrier-level branded caller ID and spam remediation
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: Carrier-level branded caller ID and spam remediation
   name: Regal Branded Phone Numbers API
   slug: regal-ai-branded-phone-numbers-api
-- description: The Business Profiles API from Regal — 1 operation(s) for business profiles.
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The Business Profiles API from Regal — 1 operation(s) for business profiles.
   name: Regal Business Profiles API
   slug: regal-ai-business-profiles-api
-- description: The Campaigns API from Regal — 1 operation(s) for campaigns.
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The Campaigns API from Regal — 1 operation(s) for campaigns.
   name: Regal Campaigns API
   slug: regal-ai-campaigns-api
-- description: The Dispositions API from Regal — 1 operation(s) for dispositions.
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The Dispositions API from Regal — 1 operation(s) for dispositions.
   name: Regal Dispositions API
   slug: regal-ai-dispositions-api
-- description: Contact creation, update, and custom event tracking
+- baseURL: https://events.regalvoice.com
+  baseurl_source: declared
+  description: Contact creation, update, and custom event tracking
   name: Regal Events API
   slug: regal-ai-events-api
-- description: The Messages API from Regal — 1 operation(s) for messages.
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The Messages API from Regal — 1 operation(s) for messages.
   name: Regal Messages API
   slug: regal-ai-messages-api
-- description: The Phone Numbers API from Regal — 1 operation(s) for phone numbers.
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The Phone Numbers API from Regal — 1 operation(s) for phone numbers.
   name: Regal Phone Numbers API
   slug: regal-ai-phone-numbers-api
-- description: List and retrieve Regal user accounts — both human agents and AI agents — with their skills, teams, custom attributes and eligible routing queues. List Users supports cursor pagination and filtering b
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: List and retrieve Regal user accounts — both human agents and AI agents — with their skills, teams, custom attributes and eligible routing queues. List Users supports cursor pagination and filtering b
   name: Regal Users API
   slug: regal-ai-users-api
-- description: Retrieve routing instructions and call metadata after a Regal AI voice agent leaves a live call. The response carries the routing decision (route.type of skill, external, agent or hangup, plus route.v
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: Retrieve routing instructions and call metadata after a Regal AI voice agent leaves a live call. The response carries the routing decision (route.type of skill, external, agent or hangup, plus route.v
   name: Regal Call Handoffs API
   slug: regal-ai-call-handoffs-api
 artifact_total: 71
@@ -612,7 +630,7 @@ score:
     catalog_gap: 29.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -622,7 +640,7 @@ score:
     discoverability: 72.2
     governance: 47.0
     operational_transparency: 84.2
-  previous_composite: 78.0
+  previous_composite: 77.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -640,7 +658,7 @@ score:
     regime_id: telecommunications
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:

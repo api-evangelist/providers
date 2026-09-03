@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
-- description: The Hermes Partner API API from Semrush — 4 operation(s) for hermes partner api.
+- baseURL: https://api.semrush.com
+  baseurl_source: declared
+  description: The Hermes Partner API API from Semrush — 4 operation(s) for hermes partner api.
   name: Semrush Hermes Partner API API
   slug: semrush-hermes-partner-api-api
-- description: The JWT Issuer API from Semrush — 1 operation(s) for jwt issuer.
+- baseURL: https://api.semrush.com
+  baseurl_source: declared
+  description: The JWT Issuer API from Semrush — 1 operation(s) for jwt issuer.
   name: Semrush JWT Issuer API
   slug: semrush-jwt-issuer-api
-- description: The Partner Service API from Semrush — 1 operation(s) for partner service.
+- baseURL: https://api.semrush.com
+  baseurl_source: declared
+  description: The Partner Service API from Semrush — 1 operation(s) for partner service.
   name: Semrush Partner Service API
   slug: semrush-partner-service-api
 - description: Semrush's first-party hosted Model Context Protocol server. Streamable HTTP transport only, OAuth-gated with the single scope mcp.access, and metered against the same API unit balance as the REST APIs
@@ -290,7 +296,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/screenshots/semrush-2026-06-20T193655.png
 security:

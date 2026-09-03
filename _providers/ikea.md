@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: The DIRIGERA hub is IKEA's next-generation smart home gateway (replacing TRADFRI). It exposes a private, locally-served REST API on the LAN with bearer-token authentication (token obtained by pressing
   name: IKEA DIRIGERA Smart Home Hub API (Unofficial, Local)
   slug: dirigera-hub
-- description: Everything about Availability
+- baseURL: https://www.ikea.com/{country}/{language}
+  baseurl_source: declared
+  description: Everything about Availability
   name: IKEA Availability API
   slug: ikea-availability-api
-- description: Everything about Categories
+- baseURL: https://www.ikea.com/{country}/{language}
+  baseurl_source: declared
+  description: Everything about Categories
   name: IKEA Categories API
   slug: ikea-categories-api
-- description: Everything about Parts
+- baseURL: https://www.ikea.com/{country}/{language}
+  baseurl_source: declared
+  description: Everything about Parts
   name: IKEA Parts API
   slug: ikea-parts-api
-- description: Everything about Products
+- baseURL: https://www.ikea.com/{country}/{language}
+  baseurl_source: declared
+  description: Everything about Products
   name: IKEA Products API
   slug: ikea-products-api
-- description: Everything about Stores
+- baseURL: https://www.ikea.com/{country}/{language}
+  baseurl_source: declared
+  description: Everything about Stores
   name: IKEA Stores API
   slug: ikea-stores-api
 artifact_total: 73
@@ -392,7 +402,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

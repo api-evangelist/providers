@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: Public endpoints accessible without authentication. Provides a list of utility companies supported for automated data import, useful for finding utility_company_id values when configuring meters.
   name: WegoWise Public API
   slug: wegowise-public
-- description: Manage apartment and unit records within buildings
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Manage apartment and unit records within buildings
   name: WegoWise Apartments API
   slug: wegowise-apartments-api
-- description: Manage commercial building area records
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Manage commercial building area records
   name: WegoWise Areas API
   slug: wegowise-areas-api
-- description: Manage building records in a portfolio
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Manage building records in a portfolio
   name: WegoWise Buildings API
   slug: wegowise-buildings-api
-- description: Manage development (property portfolio group) records
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Manage development (property portfolio group) records
   name: WegoWise Developments API
   slug: wegowise-developments-api
-- description: Track utility meters for buildings, apartments, and areas
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Track utility meters for buildings, apartments, and areas
   name: WegoWise Meters API
   slug: wegowise-meters-api
-- description: Retrieve and submit raw and aggregated utility usage datapoints
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Retrieve and submit raw and aggregated utility usage datapoints
   name: WegoWise Usage Data API
   slug: wegowise-usage-data-api
-- description: Public list of supported utility companies
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Public list of supported utility companies
   name: WegoWise Utility Companies API
   slug: wegowise-utility-companies-api
-- description: Manage automated utility data import credentials
+- baseURL: https://www.wegowise.com
+  baseurl_source: spec
+  description: Manage automated utility data import credentials
   name: WegoWise Utility Logins API
   slug: wegowise-utility-logins-api
 artifact_total: 35
@@ -272,7 +288,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/screenshots/wegowise-2026-06-20T201345.png
 security:

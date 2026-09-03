@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 110 operations · 71 acting
 api_count: 1
 apis:
-- description: The Action Runs API from Port — 6 operation(s) for action runs.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Action Runs API from Port — 6 operation(s) for action runs.
   name: Port Action Runs API
   slug: port-action-runs-api
-- description: The Actions API from Port — 5 operation(s) for actions.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Actions API from Port — 5 operation(s) for actions.
   name: Port Actions API
   slug: port-actions-api
-- description: The Apps API from Port — 3 operation(s) for apps.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Apps API from Port — 3 operation(s) for apps.
   name: Port Apps API
   slug: port-apps-api
-- description: The Audit API from Port — 1 operation(s) for audit.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Audit API from Port — 1 operation(s) for audit.
   name: Port Audit API
   slug: port-audit-api
-- description: The Authentication / Authorization API from Port — 2 operation(s) for authentication / authorization.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Authentication / Authorization API from Port — 2 operation(s) for authentication / authorization.
   name: Port Authentication / Authorization API
   slug: port-authentication-authorization-api
-- description: The Blueprints API from Port — 7 operation(s) for blueprints.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Blueprints API from Port — 7 operation(s) for blueprints.
   name: Port Blueprints API
   slug: port-blueprints-api
-- description: The Entities API from Port — 11 operation(s) for entities.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Entities API from Port — 11 operation(s) for entities.
   name: Port Entities API
   slug: port-entities-api
-- description: The Integrations API from Port — 5 operation(s) for integrations.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Integrations API from Port — 5 operation(s) for integrations.
   name: Port Integrations API
   slug: port-integrations-api
-- description: The Migrations API from Port — 3 operation(s) for migrations.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Migrations API from Port — 3 operation(s) for migrations.
   name: Port Migrations API
   slug: port-migrations-api
-- description: The Organization API from Port — 3 operation(s) for organization.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Organization API from Port — 3 operation(s) for organization.
   name: Port Organization API
   slug: port-organization-api
-- description: The Pages API from Port — 6 operation(s) for pages.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Pages API from Port — 6 operation(s) for pages.
   name: Port Pages API
   slug: port-pages-api
-- description: The Scorecards API from Port — 3 operation(s) for scorecards.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Scorecards API from Port — 3 operation(s) for scorecards.
   name: Port Scorecards API
   slug: port-scorecards-api
-- description: The Teams API from Port — 2 operation(s) for teams.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Teams API from Port — 2 operation(s) for teams.
   name: Port Teams API
   slug: port-teams-api
-- description: The Users API from Port — 3 operation(s) for users.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Users API from Port — 3 operation(s) for users.
   name: Port Users API
   slug: port-users-api
-- description: The Webhook API from Port — 3 operation(s) for webhook.
+- baseURL: https://api.getport.io
+  baseurl_source: declared
+  description: The Webhook API from Port — 3 operation(s) for webhook.
   name: Port Webhook API
   slug: port-webhook-api
 artifact_total: 40
@@ -287,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port/refs/heads/main/screenshots/port-2026-06-20T191926.png
 security:

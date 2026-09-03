@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,34 +56,54 @@ apis:
 - description: Office of Natural Resources Revenue datasets on royalty, rent, and bonus revenue from federal energy and mineral production.
   name: ONRR Natural Resources Revenue Data
   slug: onrr-revenue-data
-- description: Park alerts and emergencies
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Park alerts and emergencies
   name: Department of the Interior Alerts API
   slug: department-of-the-interior-alerts-api
-- description: News articles and releases
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: News articles and releases
   name: Department of the Interior Articles API
   slug: department-of-the-interior-articles-api
-- description: Campground listings
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Campground listings
   name: Department of the Interior Campgrounds API
   slug: department-of-the-interior-campgrounds-api
-- description: Event count queries
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Event count queries
   name: Department of the Interior Counts API
   slug: department-of-the-interior-counts-api
-- description: Daily statistical values
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Daily statistical values
   name: Department of the Interior DailyValues API
   slug: department-of-the-interior-dailyvalues-api
-- description: Park events
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Park events
   name: Department of the Interior Events API
   slug: department-of-the-interior-events-api
-- description: Real-time instantaneous values
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Real-time instantaneous values
   name: Department of the Interior InstantaneousValues API
   slug: department-of-the-interior-instantaneousvalues-api
-- description: National parks
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: National parks
   name: Department of the Interior Parks API
   slug: department-of-the-interior-parks-api
-- description: Water-monitoring sites
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Water-monitoring sites
   name: Department of the Interior Sites API
   slug: department-of-the-interior-sites-api
-- description: Visitor centers
+- baseURL: https://developer.nps.gov/api/v1
+  baseurl_source: declared
+  description: Visitor centers
   name: Department of the Interior VisitorCenters API
   slug: department-of-the-interior-visitorcenters-api
 artifact_total: 41
@@ -238,7 +258,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -248,7 +268,7 @@ score:
     discoverability: 51.9
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 33.5
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +283,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:

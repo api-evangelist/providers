@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -33,34 +44,54 @@ agentic_access:
   summary_line: 73 operations · 48 acting
 api_count: 10
 apis:
-- description: The Comments API from Boundless Bio — 2 operation(s) for comments.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Boundless Bio — 2 operation(s) for comments.
   name: Boundless Bio Comments API
   slug: boundless-bio-comments-api
-- description: The Discovery API from Boundless Bio — 4 operation(s) for discovery.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Boundless Bio — 4 operation(s) for discovery.
   name: Boundless Bio Discovery API
   slug: boundless-bio-discovery-api
-- description: The Leadership API from Boundless Bio — 2 operation(s) for leadership.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Leadership API from Boundless Bio — 2 operation(s) for leadership.
   name: Boundless Bio Leadership API
   slug: boundless-bio-leadership-api
-- description: The Media API from Boundless Bio — 3 operation(s) for media.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Boundless Bio — 3 operation(s) for media.
   name: Boundless Bio Media API
   slug: boundless-bio-media-api
-- description: The Pages API from Boundless Bio — 2 operation(s) for pages.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Boundless Bio — 2 operation(s) for pages.
   name: Boundless Bio Pages API
   slug: boundless-bio-pages-api
-- description: The Posts API from Boundless Bio — 2 operation(s) for posts.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Boundless Bio — 2 operation(s) for posts.
   name: Boundless Bio Posts API
   slug: boundless-bio-posts-api
-- description: The Search API from Boundless Bio — 1 operation(s) for search.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Boundless Bio — 1 operation(s) for search.
   name: Boundless Bio Search API
   slug: boundless-bio-search-api
-- description: The Settings API from Boundless Bio — 1 operation(s) for settings.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Boundless Bio — 1 operation(s) for settings.
   name: Boundless Bio Settings API
   slug: boundless-bio-settings-api
-- description: The Taxonomy API from Boundless Bio — 6 operation(s) for taxonomy.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Boundless Bio — 6 operation(s) for taxonomy.
   name: Boundless Bio Taxonomy API
   slug: boundless-bio-taxonomy-api
-- description: The Users API from Boundless Bio — 3 operation(s) for users.
+- baseURL: https://boundlessbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Boundless Bio — 3 operation(s) for users.
   name: Boundless Bio Users API
   slug: boundless-bio-users-api
 artifact_total: 24
@@ -213,7 +244,7 @@ score:
   band: emerging
   composite: 22.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -244,8 +275,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boundless-bio/refs/heads/main/screenshots/boundless-bio-2026-09-02T144938.png
 security:
 - kind: authentication
   name: Boundless Bio Authentication

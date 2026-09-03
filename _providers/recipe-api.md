@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,22 +36,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
+- baseURL: https://recipe-api.com
+  baseurl_source: declared
+  description: Requires API key. No credit cost. Browse categories, cuisines, and dietary options.
   name: Recipe API Discovery API
   slug: recipe-api-discovery-api
-- description: The Image Generation API from Recipe API — 1 operation(s) for image generation.
+- baseURL: https://recipe-api.com
+  baseurl_source: declared
+  description: The Image Generation API from Recipe API — 1 operation(s) for image generation.
   name: Recipe API Image Generation API
   slug: recipe-api-image-generation-api
-- description: Search ingredients free. Per-100g USDA nutrition by ID costs 1 credit.
+- baseURL: https://recipe-api.com
+  baseurl_source: declared
+  description: Search ingredients free. Per-100g USDA nutrition by ID costs 1 credit.
   name: Recipe API Ingredients API
   slug: recipe-api-ingredients-api
-- description: No authentication required. Try `/api/v1/dinner` for a complete recipe example.
+- baseURL: https://recipe-api.com
+  baseurl_source: declared
+  description: No authentication required. Try `/api/v1/dinner` for a complete recipe example.
   name: Recipe API Public API
   slug: recipe-api-public-api
-- description: Browse recipes free. Full recipe detail costs 1 credit. Sample data shown inline.
+- baseURL: https://recipe-api.com
+  baseurl_source: declared
+  description: Browse recipes free. Full recipe detail costs 1 credit. Sample data shown inline.
   name: Recipe API Recipes API
   slug: recipe-api-recipes-api
 artifact_total: 15
@@ -163,7 +185,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/screenshots/recipe-api-2026-08-17T081456.png
 security:

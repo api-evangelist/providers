@@ -29,7 +29,7 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -135,7 +135,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -210,7 +210,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -263,7 +263,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -316,7 +316,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -369,7 +369,7 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -433,7 +433,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -486,7 +486,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -539,7 +539,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -592,7 +592,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -652,7 +652,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -705,7 +705,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -758,7 +758,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -811,7 +811,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -847,59 +847,6 @@
      "rank": 15
     },
     {
-     "name": "BMO",
-     "slug": "bmo",
-     "description": "BMO Bank N.A. is the U.S. banking subsidiary of Canada's Bank of Montreal (BMO Financial Group), a nationally chartered commercial bank supervised by the Office of the Comptroller of the Currency and headquartered in Chicago, Illinois. Operating roughly 1,000 branches across 22 states following its 2023 acquisition of Bank of the West, BMO is a super-regional bank serving personal, commercial, and capital-markets customers. Unlike UK or Australian banks, BMO is under no U.S. open-banking mandate, but it runs a genuine first-party commercial developer portal (developer.bmo.com) for its Online Banking for Business / Treasury and Payment Solutions customers, publishing downloadable OpenAPI 3.0 and Swagger 2.0 specifications for account validation, payments (ACH, wire, EFT, Interac), account information, image retrieval, and OAuth authorization on an IBM API Connect platform with FAPI-aligned headers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png",
-     "score": 45.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 63.3,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 54.2,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 70.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 31.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Super-Regional",
-     "rank": 16
-    },
-    {
      "name": "Charles Schwab",
      "slug": "charles-schwab",
      "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
@@ -917,7 +864,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -950,6 +897,59 @@
       "agentic_commerce": false
      },
      "tier": "Super-Regional",
+     "rank": 16
+    },
+    {
+     "name": "BMO",
+     "slug": "bmo",
+     "description": "BMO Bank N.A. is the U.S. banking subsidiary of Canada's Bank of Montreal (BMO Financial Group), a nationally chartered commercial bank supervised by the Office of the Comptroller of the Currency and headquartered in Chicago, Illinois. Operating roughly 1,000 branches across 22 states following its 2023 acquisition of Bank of the West, BMO is a super-regional bank serving personal, commercial, and capital-markets customers. Unlike UK or Australian banks, BMO is under no U.S. open-banking mandate, but it runs a genuine first-party commercial developer portal (developer.bmo.com) for its Online Banking for Business / Treasury and Payment Solutions customers, publishing downloadable OpenAPI 3.0 and Swagger 2.0 specifications for account validation, payments (ACH, wire, EFT, Interac), account information, image retrieval, and OAuth authorization on an IBM API Connect platform with FAPI-aligned headers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png",
+     "score": 44.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 63.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 70.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Super-Regional",
      "rank": 17
     },
     {
@@ -970,7 +970,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1023,7 +1023,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1076,7 +1076,7 @@
       "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1136,7 +1136,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1189,7 +1189,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1242,7 +1242,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1295,7 +1295,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1348,7 +1348,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1401,7 +1401,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1454,7 +1454,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1517,7 +1517,7 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1562,7 +1562,7 @@
       "commercial_clarity": 19.7,
       "access_clarity": 19.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1615,7 +1615,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1668,7 +1668,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
@@ -1714,7 +1714,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1767,7 +1767,7 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1820,7 +1820,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1866,7 +1866,7 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1926,7 +1926,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1979,7 +1979,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2032,7 +2032,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2085,7 +2085,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2137,7 +2137,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2190,7 +2190,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2243,7 +2243,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2296,7 +2296,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2349,7 +2349,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2402,7 +2402,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2441,6 +2441,7 @@
      "name": "Western Alliance Bank",
      "slug": "western-alliance",
      "description": "Western Alliance Bancorporation (NYSE: WAL) is a Phoenix, Arizona based super-regional bank holding company with roughly $80 billion in assets, operating through its principal subsidiary Western Alliance Bank, an Arizona state-chartered commercial bank and member FDIC that runs regional divisions including Alliance Bank of Arizona, Bank of Nevada, Bridge Bank, and Torrey Pines Bank. It is a commercial- and business-banking focused institution rather than a consumer neobank. Western Alliance runs a real first-party developer portal, the WAB API Developer Portal (\"Developer Hub\") at developer.westernalliancebank.com, exposing commercial Treasury Management open-banking APIs for balance and transaction information, check images, funds transfers, and stop payments. Access is partner/customer-gated: API specifications are downloaded from the Developer Hub only with WAB-issued credentials, and authentication uses OAuth2 client-credentials (Client ID, Client Secret), a Client Certificate (mTLS), and access tokens across UAT and Production environments. Its APIs are also reachable through payment-platform partners such as Modern Treasury. No public consumer FDX or CFPB Section 1033 data-access API is documented, and no OpenAPI/Swagger is publicly downloadable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-alliance/refs/heads/main/screenshots/western-alliance-2026-09-02T170636.png",
      "score": 27.7,
      "band": "thin",
      "band_label": "Thin",
@@ -2454,7 +2455,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2507,7 +2508,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2560,7 +2561,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2613,7 +2614,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2676,7 +2677,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2729,7 +2730,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2782,7 +2783,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2842,7 +2843,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2895,7 +2896,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2948,7 +2949,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3001,7 +3002,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3054,7 +3055,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3107,7 +3108,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3146,6 +3147,7 @@
      "name": "UMB Bank",
      "slug": "umb-financial",
      "description": "UMB Bank, National Association is the primary banking subsidiary of UMB Financial Corporation (Nasdaq ticker UMBF), a Kansas City, Missouri financial services holding company. UMB is a commercial bank operating under a national (federal) bank charter supervised by the Office of the Comptroller of the Currency (OCC), with roughly $70 billion in assets following its 2025 acquisition of Heartland Financial and branches across the central United States. It offers personal, commercial, and institutional banking, including asset servicing, corporate trust, and healthcare (HSA) services. UMB runs a partner-facing open-banking and Banking-as-a-Service (BaaS) program through its Institutional & Fintech Banking group, exposing REST APIs across risk & compliance, customer onboarding, accounts, information (statements/check images), and cash management. Access is partner-gated through a consultation and contracting process — there is no public self-serve developer portal, no publicly downloadable OpenAPI/Swagger specification, and no published FDX or CFPB 1033 posture. Consumer-permissioned account data is reached primarily through the Plaid aggregator rather than a first-party public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/umb-financial/refs/heads/main/screenshots/umb-financial-2026-09-02T164809.png",
      "score": 15.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3159,7 +3161,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3198,6 +3200,7 @@
      "name": "Truist",
      "slug": "truist",
      "description": "Truist Financial Corporation is a U.S. bank holding company headquartered in Charlotte, North Carolina, formed in December 2019 through the merger of BB&T and SunTrust Banks. Its principal subsidiary, Truist Bank, is a North Carolina state-chartered commercial bank and member of the Federal Reserve System, ranking among the largest U.S. commercial banks by assets and serving consumer, small-business, commercial, and wealth clients. On the API and open-finance side Truist runs a first-party Truist Developer Center at developer.truist.com that publishes registration-gated Open Banking APIs in a sandbox environment returning mock data (personal and small-business accounts, balances, transactions, and credit-transfer payments), and it operates a separate Truist Open Banking API Developer Portal for consumer-permissioned data sharing. Consumer data access is delivered largely through FDX-aligned, tokenized connections and aggregator partnerships (notably a Plaid data-access agreement) rather than an open first-party production API, and Truist states it monitors and complies with evolving CFPB Section 1033 personal-financial-data rules.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/truist/refs/heads/main/screenshots/truist-2026-09-02T164418.png",
      "score": 15.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3211,7 +3214,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3264,7 +3267,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3317,7 +3320,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3370,7 +3373,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3423,7 +3426,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3476,7 +3479,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3529,7 +3532,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3568,6 +3571,7 @@
      "name": "UBS Bank USA",
      "slug": "ubs-bank-usa",
      "description": "UBS Bank USA (BUSA) is a Utah state-chartered industrial bank and FDIC-insured depository institution headquartered in Salt Lake City, Utah, established in 2003 and reporting roughly $122 billion in total assets. It is the primary US banking vehicle of UBS Wealth Management Americas, providing FDIC-insured deposit sweep programs, securities-based lending, mortgages, and credit cards almost exclusively to the high-net-worth and ultra-high-net-worth advisory clients of parent UBS Group AG. It is supervised by the FDIC, the Utah Department of Financial Institutions, and the CFPB. Unlike a fintech or a Banking-as-a-Service provider, UBS Bank USA exposes no first-party public developer API surface of its own; its services are delivered through UBS Financial Advisors rather than self-serve APIs. The only live UBS developer portal (developer.ubs.com) belongs to UBS Switzerland and serves Swiss and EU products (key4 mortgages, QR-bill, PSD2, TWINT, bLink, KeyPort/EBICS), not this US entity. US consumer-permissioned data access, where available, is mediated by third-party aggregators rather than a documented BUSA API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubs-bank-usa/refs/heads/main/screenshots/ubs-bank-usa-2026-09-02T164730.png",
      "score": 12.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3581,7 +3585,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3634,7 +3638,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3686,7 +3690,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3739,7 +3743,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3792,7 +3796,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3845,7 +3849,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3898,7 +3902,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3951,7 +3955,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4003,7 +4007,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4056,7 +4060,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4108,7 +4112,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4157,6 +4161,7 @@
      "name": "Webster Bank",
      "slug": "webster-bank",
      "description": "Webster Bank, N.A. is a nationally chartered commercial bank (National Association) and the principal banking subsidiary of Webster Financial Corporation (NYSE: WBS), a Delaware-incorporated bank and financial holding company headquartered in Stamford, Connecticut. A values-based super-regional institution with roughly $84 billion in assets, Webster serves businesses, individuals, and families across the Northeast from the New York City metro area through Connecticut, Rhode Island, and Massachusetts, and operates the HSA Bank division, a leading national provider of health savings accounts and consumer-directed benefit administration in all 50 states. Webster does not publish a first-party public developer portal or downloadable API specifications. Its open-finance posture is consumer- and commercial-permissioned data sharing delivered through aggregators rather than a direct API: in June 2026 Webster went live on Prolific Banking's FI-Streams Connector using Plaid's FDX-aligned Core Exchange specification to give commercial clients secure, tokenized connectivity to the Plaid network, and consumer account data is also reachable via Plaid and Finicity. There is no publicly documented first-party REST API, OpenAPI/Swagger definition, or self-serve developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webster-bank/refs/heads/main/screenshots/webster-bank-2026-09-02T170549.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4170,7 +4175,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4223,7 +4228,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4276,7 +4281,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4329,7 +4334,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4381,7 +4386,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4434,7 +4439,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4487,7 +4492,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4540,7 +4545,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4593,7 +4598,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4646,7 +4651,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4698,7 +4703,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4737,6 +4742,7 @@
      "name": "Valley National Bank",
      "slug": "valley-national",
      "description": "Valley National Bank is a nationally chartered commercial bank (OCC-regulated) and the principal banking subsidiary of Valley National Bancorp (NASDAQ: VLY), a regional financial holding company founded in 1927 with roughly $64 billion in assets and more than 200 offices serving consumers, families, and businesses across New Jersey, New York, Florida, Alabama, California, and Illinois. Its business spans consumer banking, commercial banking, and treasury services. As of this profile Valley National Bank operates no first-party public developer portal and publishes no downloadable API specifications; consumer-permissioned account and transaction data is reached only through third-party open-finance aggregators (Finicity by Mastercard is documented, alongside general Plaid/Tink connectivity) rather than a directly exposed FDX-conformant or first-party API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valley-national/refs/heads/main/screenshots/valley-national-2026-09-02T165326.png",
      "score": 9.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4750,7 +4756,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4803,7 +4809,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4842,6 +4848,7 @@
      "name": "SouthState Bank",
      "slug": "southstate-bank",
      "description": "SouthState Bank, National Association is an OCC-chartered national commercial bank headquartered in Winter Haven, Florida, and the principal subsidiary of SouthState Bank Corporation (NASDAQ: SSB). Formed through the 2020 merger of South State Corporation and CenterState Bank and redomiciled to Florida in 2025, it holds roughly $67 billion in assets and operates across the Southeast, Texas, Colorado, and Virginia. Like most US regional banks, SouthState runs no public first-party developer portal and publishes no downloadable OpenAPI or Swagger definitions. Consumer-permissioned data access is delivered through third-party aggregators rather than a direct API: the Open Banking Tracker records SouthState reachable via Plaid only, with no documented Financial Data Exchange (FDX) endpoint and no published CFPB Section 1033 data-access surface. Its open-finance posture is therefore aggregator-mediated, not a self-serve developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southstate-bank/refs/heads/main/screenshots/southstate-bank-2026-09-02T160259.png",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4855,7 +4862,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4908,7 +4915,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4947,6 +4954,7 @@
      "name": "Texas Capital Bank",
      "slug": "texas-capital-bank",
      "description": "Texas Capital Bank, National Association is the banking subsidiary of Texas Capital Bancshares, Inc. (NASDAQ: TCBI), a Dallas-headquartered full-service financial services firm founded in 1998 with roughly $31.5 billion in assets (FYE 2025). As a nationally chartered commercial bank it serves businesses, entrepreneurs, and institutions across Texas and the United States with commercial and business banking, treasury management, mortgage/warehouse finance, and investment banking. On the open-finance dimension the bank is relationship-first rather than developer-first: it markets treasury and ERP API integrations (including its ConnectNow embedded banking for Sage and NetSuite, direct platform integrations, and SFTP/XChange file transfer) but exposes them through partner onboarding with dedicated bankers, not a public self-serve developer portal. There is no public first-party developer portal, no downloadable OpenAPI/Swagger, and no self-serve API signup. Consumer account and transaction data is made available to permissioned third parties through the Finicity (Mastercard) aggregator rather than a first-party API, which is the honest posture for most US regional banks under the voluntary, fragmented US open-banking landscape (CFPB Section 1033 and the industry FDX standard).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-capital-bank/refs/heads/main/screenshots/texas-capital-bank-2026-09-02T163249.png",
      "score": 8.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4960,7 +4968,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5013,7 +5021,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5066,7 +5074,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5119,7 +5127,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5172,7 +5180,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5225,7 +5233,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5278,7 +5286,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5331,7 +5339,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5384,7 +5392,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5423,6 +5431,7 @@
      "name": "State Employees' Credit Union",
      "slug": "state-employees-credit-union",
      "description": "State Employees' Credit Union (SECU / NCSECU) is a member-owned, not-for-profit financial cooperative headquartered in Raleigh, North Carolina. Founded in 1937 with 17 members and $437 in deposits, it is a state-chartered credit union regulated by the Credit Union Division of the North Carolina Department of Commerce and federally insured by the NCUA (NMLS #430055). SECU is the second-largest natural-person credit union in the United States by both assets and membership, serving nearly 2.9 million member-owners with roughly $56 billion in assets across 275 branches in all 100 North Carolina counties. Membership is primarily limited to North Carolina state employees and their families. On the open-finance front, SECU operates no public first-party developer portal and publishes no downloadable OpenAPI/Swagger specifications; its consumer digital banking (Member Access) supports connecting external accounts for aggregation, and outbound consumer-permissioned data sharing is handled through data aggregators rather than a documented first-party API. No public FDX-conformant data-access endpoint or CFPB Section 1033 data-rights posture is published as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-employees-credit-union/refs/heads/main/screenshots/state-employees-credit-union-2026-09-02T160815.png",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5436,7 +5445,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5489,7 +5498,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5542,7 +5551,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5595,7 +5604,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5648,7 +5657,7 @@
       "commercial_clarity": 11.8,
       "access_clarity": 11.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5701,7 +5710,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5753,7 +5762,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5806,7 +5815,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5845,6 +5854,7 @@
      "name": "VyStar Credit Union",
      "slug": "vystar",
      "description": "VyStar Credit Union is a member-owned, not-for-profit financial cooperative headquartered in Jacksonville, Florida. Founded in 1952 as Jax Navy Federal Credit Union to serve military members at Naval Air Station Jacksonville and renamed VyStar in 2002, it is one of the largest credit unions in the United States, with roughly $14 billion in assets, more than 950,000 members, and approximately 80 branches across Florida and Georgia. It is state-chartered and federally insured by the NCUA. Like most US credit unions, VyStar publishes no public, first-party developer API program: there is no live developer portal, no downloadable OpenAPI or Swagger definition, and no documented first-party data-access API. Consumer-permissioned account data is shared with third parties through financial-data aggregators rather than a documented open API, and the United States has no single mandated open-banking contract. VyStar's open-finance posture is therefore aggregator-mediated, with the emerging CFPB Section 1033 Personal Financial Data Rights rule as the relevant regulatory horizon.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vystar/refs/heads/main/screenshots/vystar-2026-09-02T170345.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5858,7 +5868,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5911,7 +5921,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5964,7 +5974,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6016,7 +6026,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

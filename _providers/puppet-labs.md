@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Module Operations API from Puppet — 2 operation(s) for module operations.
+- baseURL: https://forgeapi.puppet.com
+  baseurl_source: declared
+  description: The Module Operations API from Puppet — 2 operation(s) for module operations.
   name: Puppet Module Operations API
   slug: puppet-labs-module-operations-api
-- description: The Release Operations API from Puppet — 5 operation(s) for release operations.
+- baseURL: https://forgeapi.puppet.com
+  baseurl_source: declared
+  description: The Release Operations API from Puppet — 5 operation(s) for release operations.
   name: Puppet Release Operations API
   slug: puppet-labs-release-operations-api
-- description: The Search Filter Operations API from Puppet — 2 operation(s) for search filter operations.
+- baseURL: https://forgeapi.puppet.com
+  baseurl_source: declared
+  description: The Search Filter Operations API from Puppet — 2 operation(s) for search filter operations.
   name: Puppet Search Filter Operations API
   slug: puppet-labs-search-filter-operations-api
-- description: The User Operations API from Puppet — 2 operation(s) for user operations.
+- baseURL: https://forgeapi.puppet.com
+  baseurl_source: declared
+  description: The User Operations API from Puppet — 2 operation(s) for user operations.
   name: Puppet User Operations API
   slug: puppet-labs-user-operations-api
 artifact_total: 14
@@ -204,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppet-labs/refs/heads/main/screenshots/puppet-labs-2026-08-17T081405.png
 security:

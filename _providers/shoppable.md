@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Catalog API from Shoppable — 1 operation(s) for catalog.
+- baseURL: https://cloud.shoppable.com
+  baseurl_source: declared
+  description: The Catalog API from Shoppable — 1 operation(s) for catalog.
   name: Shoppable Catalog API
   slug: shoppable-catalog-api
-- description: The Checkout API from Shoppable — 1 operation(s) for checkout.
+- baseURL: https://cloud.shoppable.com
+  baseurl_source: declared
+  description: The Checkout API from Shoppable — 1 operation(s) for checkout.
   name: Shoppable Checkout API
   slug: shoppable-checkout-api
-- description: The Merchants API from Shoppable — 2 operation(s) for merchants.
+- baseURL: https://cloud.shoppable.com
+  baseurl_source: declared
+  description: The Merchants API from Shoppable — 2 operation(s) for merchants.
   name: Shoppable Merchants API
   slug: shoppable-merchants-api
-- description: The OrderData API from Shoppable — 1 operation(s) for orderdata.
+- baseURL: https://cloud.shoppable.com
+  baseurl_source: declared
+  description: The OrderData API from Shoppable — 1 operation(s) for orderdata.
   name: Shoppable OrderData API
   slug: shoppable-orderdata-api
-- description: The Orders API from Shoppable — 2 operation(s) for orders.
+- baseURL: https://cloud.shoppable.com
+  baseurl_source: declared
+  description: The Orders API from Shoppable — 2 operation(s) for orders.
   name: Shoppable Orders API
   slug: shoppable-orders-api
-- description: The Products API from Shoppable — 1 operation(s) for products.
+- baseURL: https://cloud.shoppable.com
+  baseurl_source: declared
+  description: The Products API from Shoppable — 1 operation(s) for products.
   name: Shoppable Products API
   slug: shoppable-products-api
 artifact_total: 17
@@ -230,7 +242,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/screenshots/shoppable-2026-08-17T081841.png
 security:

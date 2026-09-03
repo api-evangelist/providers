@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: 'REST API endpoint for contributing new EV charging station data or updating existing POI records in the Open Charge Map global registry. Requires an authenticated API key associated with a registered '
   name: Open Charge Map POI Submit API
   slug: open-charge-map-poi-submit-api
-- description: The Comment API from Open Charge Map — 1 operation(s) for comment.
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Comment API from Open Charge Map — 1 operation(s) for comment.
   name: Open Charge Map Comment API
   slug: openchargemap-comment-api
-- description: The Mediaitem API from Open Charge Map — 1 operation(s) for mediaitem.
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Mediaitem API from Open Charge Map — 1 operation(s) for mediaitem.
   name: Open Charge Map Mediaitem API
   slug: openchargemap-mediaitem-api
-- description: The Openapi API from Open Charge Map — 1 operation(s) for openapi.
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Openapi API from Open Charge Map — 1 operation(s) for openapi.
   name: Open Charge Map Openapi API
   slug: openchargemap-openapi-api
-- description: The Poi API from Open Charge Map — 1 operation(s) for poi.
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Poi API from Open Charge Map — 1 operation(s) for poi.
   name: Open Charge Map Poi API
   slug: openchargemap-poi-api
-- description: The Profile API from Open Charge Map — 1 operation(s) for profile.
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Profile API from Open Charge Map — 1 operation(s) for profile.
   name: Open Charge Map Profile API
   slug: openchargemap-profile-api
-- description: The Referencedata API from Open Charge Map — 1 operation(s) for referencedata.
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Referencedata API from Open Charge Map — 1 operation(s) for referencedata.
   name: Open Charge Map Referencedata API
   slug: openchargemap-referencedata-api
 artifact_total: 47
@@ -301,7 +313,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png
 security:

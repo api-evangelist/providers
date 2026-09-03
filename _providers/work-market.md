@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
   name: Work Market Addressbook API
   slug: work-market-addressbook-api
-- description: The Assignments API from Work Market — 39 operation(s) for assignments.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Assignments API from Work Market — 39 operation(s) for assignments.
   name: Work Market Assignments API
   slug: work-market-assignments-api
-- description: The Authorization API from Work Market — 1 operation(s) for authorization.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Authorization API from Work Market — 1 operation(s) for authorization.
   name: Work Market Authorization API
   slug: work-market-authorization-api
-- description: The Constants API from Work Market — 6 operation(s) for constants.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Constants API from Work Market — 6 operation(s) for constants.
   name: Work Market Constants API
   slug: work-market-constants-api
-- description: The Custom Fields API from Work Market — 1 operation(s) for custom fields.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Custom Fields API from Work Market — 1 operation(s) for custom fields.
   name: Work Market Custom Fields API
   slug: work-market-custom-fields-api
-- description: The Labels API from Work Market — 3 operation(s) for labels.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Labels API from Work Market — 3 operation(s) for labels.
   name: Work Market Labels API
   slug: work-market-labels-api
-- description: The Locations API from Work Market — 1 operation(s) for locations.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Locations API from Work Market — 1 operation(s) for locations.
   name: Work Market Locations API
   slug: work-market-locations-api
-- description: The Projects API from Work Market — 2 operation(s) for projects.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Projects API from Work Market — 2 operation(s) for projects.
   name: Work Market Projects API
   slug: work-market-projects-api
-- description: The Talent Pools API from Work Market — 6 operation(s) for talent pools.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Talent Pools API from Work Market — 6 operation(s) for talent pools.
   name: Work Market Talent Pools API
   slug: work-market-talent-pools-api
-- description: The UpdateCheckIn API from Work Market — 2 operation(s) for updatecheckin.
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The UpdateCheckIn API from Work Market — 2 operation(s) for updatecheckin.
   name: Work Market UpdateCheckIn API
   slug: work-market-updatecheckin-api
 artifact_total: 35
@@ -285,7 +305,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -295,7 +315,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 22.4
-  previous_composite: 42.1
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
@@ -312,7 +332,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/work-market/refs/heads/main/screenshots/work-market-2026-08-17T082936.png
 security:

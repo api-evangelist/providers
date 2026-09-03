@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Get decisions from your knowledge maps. **Start** a session, **inject** any available facts, run a **query**, provide a **response** to any questions asked and **undo** your answers to give a differen
+- baseURL: https://api.rainbird.ai
+  baseurl_source: declared
+  description: Get decisions from your knowledge maps. **Start** a session, **inject** any available facts, run a **query**, provide a **response** to any questions asked and **undo** your answers to give a differen
   name: Rainbird Technologies Decisions API
   slug: rainbird-technologies-decisions-api
-- description: Access the facts, information and the chain of reasoning that led to a decision
+- baseURL: https://api.rainbird.ai
+  baseurl_source: declared
+  description: Access the facts, information and the chain of reasoning that led to a decision
   name: Rainbird Technologies Evidence API
   slug: rainbird-technologies-evidence-api
-- description: Retrieve information about the Rainbird Platform itself.
+- baseURL: https://api.rainbird.ai
+  baseurl_source: declared
+  description: Retrieve information about the Rainbird Platform itself.
   name: Rainbird Technologies Platform API
   slug: rainbird-technologies-platform-api
 arazzos:
@@ -230,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/screenshots/rainbird-technologies-2026-08-17T081442.png
 security:

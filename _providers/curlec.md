@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 136 operations · 73 acting
 api_count: 1
 apis:
-- description: Razorpay Billme digital receipts and bills for retail, food & beverage, events, and ecommerce.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Razorpay Billme digital receipts and bills for retail, food & beverage, events, and ecommerce.
   name: Curlec Bills API
   slug: curlec-bills-api
-- description: Customer profiles store contact information for recurring billing, saved cards, and personalised checkout. Each email+contact combination must be unique.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Customer profiles store contact information for recurring billing, saved cards, and personalised checkout. Each email+contact combination must be unique.
   name: Curlec Customers API
   slug: curlec-customers-api
-- description: Disputes (chargebacks) are raised by customers via their bank. You can accept (lose) or contest (challenge with evidence) each dispute. Monitor respond_by timestamp — missing the deadline forfeits the
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Disputes (chargebacks) are raised by customers via their bank. You can accept (lose) or contest (challenge with evidence) each dispute. Monitor respond_by timestamp — missing the deadline forfeits the
   name: Curlec Disputes API
   slug: curlec-disputes-api
-- description: Document uploads for dispute evidence. Upload JPEG, PNG, or PDF files and receive a document ID to reference in dispute contest submissions.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Document uploads for dispute evidence. Upload JPEG, PNG, or PDF files and receive a document ID to reference in dispute contest submissions.
   name: Curlec Documents API
   slug: curlec-documents-api
-- description: 'On-demand settlements let you transfer your available Razorpay balance to your bank account immediately, outside the normal settlement cycle. Fees apply. Requires Instant Settlements to be enabled on '
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: 'On-demand settlements let you transfer your available Razorpay balance to your bank account immediately, outside the normal settlement cycle. Fees apply. Requires Instant Settlements to be enabled on '
   name: Curlec Instant Settlements API
   slug: curlec-instant-settlements-api
-- description: 'Invoices and payment pages for one-time or partial-payment collection. Create in draft, issue to the customer, and track payment status. Cannot be used for GST invoices (use the Dashboard for those). '
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: 'Invoices and payment pages for one-time or partial-payment collection. Create in draft, issue to the customer, and track payment status. Cannot be used for GST invoices (use the Dashboard for those). '
   name: Curlec Invoices API
   slug: curlec-invoices-api
-- description: Reusable catalog items that can be referenced in invoice line items. Defining items once avoids repeating price and description on each invoice.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Reusable catalog items that can be referenced in invoice line items. Defining items once avoids repeating price and description on each invoice.
   name: Curlec Items API
   slug: curlec-items-api
-- description: Sub-merchant accounts (Linked Accounts) created under a Route marketplace. Includes account creation, stakeholder KYC, and Route product activation. Uses /v2/ API base path. Only one stakeholder is al
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Sub-merchant accounts (Linked Accounts) created under a Route marketplace. Includes account creation, stakeholder KYC, and Route product activation. Uses /v2/ API base path. Only one stakeholder is al
   name: Curlec Linked Accounts API
   slug: curlec-linked-accounts-api
-- description: Orders are the starting point for accepting a payment. Create an order with the amount and currency, pass the order_id to Razorpay Checkout, then verify the payment signature after success.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Orders are the starting point for accepting a payment. Create an order with the amount and currency, pass the order_id to Razorpay Checkout, then verify the payment signature after success.
   name: Curlec Orders API
   slug: curlec-orders-api
-- description: Sub-merchant account lifecycle management via Partners API (Aggregator/Platform model). Uses OAuth access_token authentication.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Sub-merchant account lifecycle management via Partners API (Aggregator/Platform model). Uses OAuth access_token authentication.
   name: Curlec Partner Accounts API
   slug: curlec-partner-accounts-api
-- description: Upload and fetch KYC documents for sub-merchant accounts and their stakeholders.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Upload and fetch KYC documents for sub-merchant accounts and their stakeholders.
   name: Curlec Partner Documents API
   slug: curlec-partner-documents-api
-- description: Manage stakeholders (directors/executives) for sub-merchant accounts. Multiple stakeholders allowed per account.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Manage stakeholders (directors/executives) for sub-merchant accounts. Multiple stakeholders allowed per account.
   name: Curlec Partner Stakeholders API
   slug: curlec-partner-stakeholders-api
-- description: Configure webhooks for sub-merchant accounts to receive payment events. Maximum 30 per account.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Configure webhooks for sub-merchant accounts to receive payment events. Maximum 30 per account.
   name: Curlec Partner Webhooks API
   slug: curlec-partner-webhooks-api
-- description: Scheduled and live downtime information for card, netbanking, and UPI. Poll or subscribe to payment.downtime webhooks to detect degraded methods and adjust your checkout UI.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Scheduled and live downtime information for card, netbanking, and UPI. Poll or subscribe to payment.downtime webhooks to detect degraded methods and adjust your checkout UI.
   name: Curlec Payment Downtimes API
   slug: curlec-payment-downtimes-api
-- description: Payment Links are shareable URLs to collect payments without a website. Share via SMS, email, or any channel. Supports partial payments, expiry, reminders, UPI-only mode, offers, and transfers to link
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Payment Links are shareable URLs to collect payments without a website. Share via SMS, email, or any channel. Supports partial payments, expiry, reminders, UPI-only mode, offers, and transfers to link
   name: Curlec Payment Links API
   slug: curlec-payment-links-api
-- description: A payment is created when a customer completes checkout. Payments can be auto-captured or manually captured. Fetch payment details to reconcile and diagnose failures.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: A payment is created when a customer completes checkout. Payments can be auto-captured or manually captured. Fetch payment details to reconcile and diagnose failures.
   name: Curlec Payments API
   slug: curlec-payments-api
-- description: Billing plan definitions for recurring subscriptions. A plan sets the billing period, interval, and per-cycle charge. Plans are reusable across multiple subscriptions and cannot be modified after crea
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Billing plan definitions for recurring subscriptions. A plan sets the billing period, interval, and per-cycle charge. Plans are reusable across multiple subscriptions and cannot be modified after crea
   name: Curlec Plans API
   slug: curlec-plans-api
-- description: QR Codes enable offline and digital payment collection. Customers scan with any UPI or card app. Supports fixed-amount and variable-amount codes, single-use and multiple-use modes.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: QR Codes enable offline and digital payment collection. Customers scan with any UPI or card app. Supports fixed-amount and variable-amount codes, single-use and multiple-use modes.
   name: Curlec QR Codes API
   slug: curlec-qr-codes-api
-- description: Refunds return captured payment amounts to customers. Normal refunds take 5-7 business days. Instant (optimum) refunds settle immediately but may fall back to normal. Use X-Refund-Idempotency header t
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Refunds return captured payment amounts to customers. Normal refunds take 5-7 business days. Instant (optimum) refunds settle immediately but may fall back to normal. Use X-Refund-Idempotency header t
   name: Curlec Refunds API
   slug: curlec-refunds-api
-- description: 'Settlements represent batch transfers of collected payment funds to your bank account. Use the recon endpoint for transaction-level reconciliation reports mapping each payment, refund, and adjustment '
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: 'Settlements represent batch transfers of collected payment funds to your bank account. Use the recon endpoint for transaction-level reconciliation reports mapping each payment, refund, and adjustment '
   name: Curlec Settlements API
   slug: curlec-settlements-api
-- description: Recurring billing subscriptions. Customers must authorize a payment mandate (UPI Autopay, NACH, or card-on-file) via the short_url before charges begin. Supports pause/resume, plan changes, add-ons, a
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Recurring billing subscriptions. Customers must authorize a payment mandate (UPI Autopay, NACH, or card-on-file) via the short_url before charges begin. Supports pause/resume, plan changes, add-ons, a
   name: Curlec Subscriptions API
   slug: curlec-subscriptions-api
-- description: Fund transfers from a merchant, payment, or order to a Linked Account (Route). Supports payment-based splits, direct on-demand transfers, settlement hold controls, and full/partial reversals. INR only
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Fund transfers from a merchant, payment, or order to a Linked Account (Route). Supports payment-based splits, direct on-demand transfers, settlement hold controls, and full/partial reversals. INR only
   name: Curlec Transfers API
   slug: curlec-transfers-api
-- description: Virtual bank accounts and UPI VPAs that accept NEFT/RTGS/IMPS/UPI payments (Smart Collect). Each incoming payment creates a BankTransfer entity. Supports Third Party Validation (TPV) to restrict payer
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Virtual bank accounts and UPI VPAs that accept NEFT/RTGS/IMPS/UPI payments (Smart Collect). Each incoming payment creates a BankTransfer entity. Supports Third Party Validation (TPV) to restrict payer
   name: Curlec Virtual Accounts API
   slug: curlec-virtual-accounts-api
-- description: Penny drop and reverse penny drop bank/VPA validation
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Penny drop and reverse penny drop bank/VPA validation
   name: Curlec X Account Validation API
   slug: curlec-x-account-validation-api
-- description: Fetch RazorpayX account balances
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Fetch RazorpayX account balances
   name: Curlec X Banking Balances API
   slug: curlec-x-banking-balances-api
-- description: RazorpayX payout recipients — create, fetch, update contacts
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: RazorpayX payout recipients — create, fetch, update contacts
   name: Curlec X Contacts API
   slug: curlec-x-contacts-api
-- description: Payout destination accounts (bank, VPA, card) linked to contacts
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Payout destination accounts (bank, VPA, card) linked to contacts
   name: Curlec X Fund Accounts API
   slug: curlec-x-fund-accounts-api
-- description: Payout links for recipients without saved fund accounts
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Payout links for recipients without saved fund accounts
   name: Curlec X Payout Links API
   slug: curlec-x-payout-links-api
-- description: Disbursements via NEFT, RTGS, IMPS, UPI, card — includes composite and approval flows
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Disbursements via NEFT, RTGS, IMPS, UPI, card — includes composite and approval flows
   name: Curlec X Payouts API
   slug: curlec-x-payouts-api
-- description: Fetch RazorpayX transaction records — credits (bank_transfer inflows) and debits (payout outflows)
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: Fetch RazorpayX transaction records — credits (bank_transfer inflows) and debits (payout outflows)
   name: Curlec X Transactions API
   slug: curlec-x-transactions-api
 artifact_total: 97
@@ -516,7 +576,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -526,7 +586,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 63.2
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -544,7 +604,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:

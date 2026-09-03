@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: Code completion and Cascade AI usage analytics
+- baseURL: https://server.codeium.com/api/v1
+  baseurl_source: declared
+  description: Code completion and Cascade AI usage analytics
   name: Windsurf analytics API
   slug: windsurfrules-analytics-api
-- description: Usage configuration and credit balance management
+- baseURL: https://server.codeium.com/api/v1
+  baseurl_source: declared
+  description: Usage configuration and credit balance management
   name: Windsurf billing API
   slug: windsurfrules-billing-api
-- description: Team and user analytics
+- baseURL: https://server.codeium.com/api/v1
+  baseurl_source: declared
+  description: Team and user analytics
   name: Windsurf teams API
   slug: windsurfrules-teams-api
 artifact_total: 19
@@ -243,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/screenshots/windsurfrules-2026-06-20T201512.png
 security:

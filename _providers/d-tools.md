@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,88 +36,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The ChangeOrders API from D-Tools — 2 operation(s) for changeorders.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The ChangeOrders API from D-Tools — 2 operation(s) for changeorders.
   name: D-Tools Change Orders API
   slug: d-tools-changeorders-api
-- description: The Clients API from D-Tools — 4 operation(s) for clients.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Clients API from D-Tools — 4 operation(s) for clients.
   name: D-Tools Clients API
   slug: d-tools-clients-api
-- description: The Files API from D-Tools — 1 operation(s) for files.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Files API from D-Tools — 1 operation(s) for files.
   name: D-Tools Files API
   slug: d-tools-files-api
-- description: The Message API from D-Tools — 2 operation(s) for message.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Message API from D-Tools — 2 operation(s) for message.
   name: D-Tools Message API
   slug: d-tools-message-api
-- description: The Opportunities API from D-Tools — 4 operation(s) for opportunities.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Opportunities API from D-Tools — 4 operation(s) for opportunities.
   name: D-Tools Opportunities API
   slug: d-tools-opportunities-api
-- description: The Products API from D-Tools — 5 operation(s) for products.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Products API from D-Tools — 5 operation(s) for products.
   name: D-Tools Products API
   slug: d-tools-products-api
-- description: The Projects API from D-Tools — 3 operation(s) for projects.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Projects API from D-Tools — 3 operation(s) for projects.
   name: D-Tools Projects API
   slug: d-tools-projects-api
-- description: Allows an integration to update a client list to a SI user.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to update a client list to a SI user.
   name: D-Tools Publish Clients API
   slug: d-tools-publishclients-api
-- description: Allows an integration to publish a product catalog to a SI user.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to publish a product catalog to a SI user.
   name: D-Tools Publish Product Catalogs API
   slug: d-tools-publishproductcatalogs-api
-- description: Allows an integration to publish or update a project to a SI user.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to publish or update a project to a SI user.
   name: D-Tools Publish Projects API
   slug: d-tools-publishprojects-api
-- description: Allows an integration to publish a service order to a SI user.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to publish a service order to a SI user.
   name: D-Tools Publish Service Orders API
   slug: d-tools-publishserviceorders-api
-- description: Allows an integration to publish a task to a SI user.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to publish a task to a SI user.
   name: D-Tools Publish Tasks API
   slug: d-tools-publishtasks-api
-- description: Allows an integration to publish a time sheet to a SI user.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to publish a time sheet to a SI user.
   name: D-Tools Publish Time Sheets API
   slug: d-tools-publishtimesheets-api
-- description: Allows an integration to update a vendor list to a SI user. d
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to update a vendor list to a SI user. d
   name: D-Tools Publish Vendors API
   slug: d-tools-publishvendors-api
-- description: The PurchaseOrders API from D-Tools — 2 operation(s) for purchaseorders.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The PurchaseOrders API from D-Tools — 2 operation(s) for purchaseorders.
   name: D-Tools Purchase Orders API
   slug: d-tools-purchaseorders-api
-- description: The Quotes API from D-Tools — 2 operation(s) for quotes.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Quotes API from D-Tools — 2 operation(s) for quotes.
   name: D-Tools Quotes API
   slug: d-tools-quotes-api
-- description: The ServiceContracts API from D-Tools — 2 operation(s) for servicecontracts.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The ServiceContracts API from D-Tools — 2 operation(s) for servicecontracts.
   name: D-Tools Service Contracts API
   slug: d-tools-servicecontracts-api
-- description: Allows an integration to subscribe to clients published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to clients published by SI users.
   name: D-Tools Subscribe Clients API
   slug: d-tools-subscribeclients-api
-- description: Allows an integration to subscribe to partial projects published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to partial projects published by SI users.
   name: D-Tools Subscribe Partial Projects API
   slug: d-tools-subscribepartialprojects-api
-- description: Allows an integration to subscribe to product catalogs published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to product catalogs published by SI users.
   name: D-Tools Subscribe Product Catalogs API
   slug: d-tools-subscribeproductcatalogs-api
-- description: Allows an integration to subscribe to projects and change orders published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to projects and change orders published by SI users.
   name: D-Tools Subscribe Projects API
   slug: d-tools-subscribeprojects-api
-- description: Allows an integration to subscribe to Purchase orders published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to Purchase orders published by SI users.
   name: D-Tools Subscribe Purchase Order API
   slug: d-tools-subscribepurchaseorder-api
-- description: Allows an integration to subscribe to Service orders published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to Service orders published by SI users.
   name: D-Tools Subscribe Service Order API
   slug: d-tools-subscribeserviceorder-api
-- description: Allows an integration to subscribe to Service plan published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to Service plan published by SI users.
   name: D-Tools Subscribe Service Plan API
   slug: d-tools-subscribeserviceplan-api
-- description: Allows an integration to subscribe to Tasks published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to Tasks published by SI users.
   name: D-Tools Subscribe Task API
   slug: d-tools-subscribetask-api
-- description: Allows an integration to subscribe to Time sheets published by SI users.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: Allows an integration to subscribe to Time sheets published by SI users.
   name: D-Tools Subscribe Time Sheet API
   slug: d-tools-subscribetimesheet-api
-- description: The TimeEntries API from D-Tools — 1 operation(s) for timeentries.
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The TimeEntries API from D-Tools — 1 operation(s) for timeentries.
   name: D-Tools Time Entries API
   slug: d-tools-timeentries-api
 artifact_total: 34
@@ -267,23 +334,23 @@ rate_limits:
   slug: d-tools-rate-limits
 score:
   band: developing
-  composite: 51.6
+  composite: 53.4
   coverage:
     artifact_dirs: 21
-    catalog_gap: 65.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 1.8
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 51.8
     developer_ergonomics: 45.8
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 51.7
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -294,7 +361,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/screenshots/d-tools-2026-08-17T080847.png
 security:

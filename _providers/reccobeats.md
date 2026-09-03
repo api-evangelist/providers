@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 14 operations · 1 acting
 api_count: 1
 apis:
-- description: Album metadata and tracklists.
+- baseURL: https://api.reccobeats.com/v1
+  baseurl_source: declared
+  description: Album metadata and tracklists.
   name: ReccoBeats Album API
   slug: reccobeats-album-api
-- description: Artist metadata and discography.
+- baseURL: https://api.reccobeats.com/v1
+  baseurl_source: declared
+  description: Artist metadata and discography.
   name: ReccoBeats Artist API
   slug: reccobeats-artist-api
-- description: Extract audio features directly from an uploaded audio file.
+- baseURL: https://api.reccobeats.com/v1
+  baseurl_source: declared
+  description: Extract audio features directly from an uploaded audio file.
   name: ReccoBeats Audio Analysis API
   slug: reccobeats-audio-analysis-api
-- description: Spotify-style audio features for a catalog track.
+- baseURL: https://api.reccobeats.com/v1
+  baseurl_source: declared
+  description: Spotify-style audio features for a catalog track.
   name: ReccoBeats Audio Features API
   slug: reccobeats-audio-features-api
-- description: Track recommendations generated from seeds.
+- baseURL: https://api.reccobeats.com/v1
+  baseurl_source: declared
+  description: Track recommendations generated from seeds.
   name: ReccoBeats Recommendation API
   slug: reccobeats-recommendation-api
-- description: Track metadata lookup by ReccoBeats or Spotify ID.
+- baseURL: https://api.reccobeats.com/v1
+  baseurl_source: declared
+  description: Track metadata lookup by ReccoBeats or Spotify ID.
   name: ReccoBeats Track API
   slug: reccobeats-track-api
 artifact_total: 19
@@ -153,7 +165,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -176,8 +188,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reccobeats/refs/heads/main/screenshots/reccobeats-2026-09-02T153043.png
 security:
 - kind: domain-security
   name: Reccobeats Domain Security

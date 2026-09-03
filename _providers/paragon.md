@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 33 operations · 20 acting
 api_count: 2
 apis:
-- description: ReBAC-style access checks over synced objects and subjects.
+- baseURL: https://managed-sync.useparagon.com
+  baseurl_source: spec
+  description: ReBAC-style access checks over synced objects and subjects.
   name: Paragon Permissions API
   slug: paragon-permissions-api
-- description: Enable, monitor, and read records from Managed Sync pipelines.
+- baseURL: https://managed-sync.useparagon.com
+  baseurl_source: spec
+  description: Enable, monitor, and read records from Managed Sync pipelines.
   name: Paragon Sync API
   slug: paragon-sync-api
-- description: List and execute ActionKit Integration Tools for AI agents and apps.
+- baseURL: https://actionkit.useparagon.com
+  baseurl_source: spec
+  description: List and execute ActionKit Integration Tools for AI agents and apps.
   name: Paragon Tools API
   slug: paragon-tools-api
 arazzos:
@@ -682,7 +688,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -692,7 +698,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 57.2
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     contracts:
@@ -701,7 +707,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/screenshots/paragon-2026-06-20T191356.png
 security:

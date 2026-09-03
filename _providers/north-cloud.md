@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Manage and retrieve cost unit metric data.
+- baseURL: https://api.north.cloud
+  baseurl_source: declared
+  description: Manage and retrieve cost unit metric data.
   name: North.Cloud Cost Units API
   slug: north-cloud-cost-units-api
 artifact_total: 10
@@ -147,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/north-cloud/refs/heads/main/screenshots/north-cloud-2026-06-20T190412.png
 security:

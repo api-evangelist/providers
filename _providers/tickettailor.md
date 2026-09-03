@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 26 operations · 13 acting
 api_count: 1
 apis:
-- description: Attendee check-ins recorded at the door.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Attendee check-ins recorded at the door.
   name: Ticket Tailor Check-ins API
   slug: tickettailor-check-ins-api
-- description: Parent containers that group one or more event dates.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Parent containers that group one or more event dates.
   name: Ticket Tailor Event Series API
   slug: tickettailor-event-series-api
-- description: Individual scheduled event dates in a box office.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Individual scheduled event dates in a box office.
   name: Ticket Tailor Events API
   slug: tickettailor-events-api
-- description: Individual tickets issued to attendees.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Individual tickets issued to attendees.
   name: Ticket Tailor Issued Tickets API
   slug: tickettailor-issued-tickets-api
-- description: Orders belonging to a box office.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Orders belonging to a box office.
   name: Ticket Tailor Orders API
   slug: tickettailor-orders-api
-- description: Ticket types and ticket groups scoped to an event series.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Ticket types and ticket groups scoped to an event series.
   name: Ticket Tailor Ticket Types API
   slug: tickettailor-ticket-types-api
-- description: Connectivity and account overview.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Connectivity and account overview.
   name: Ticket Tailor Utility API
   slug: tickettailor-utility-api
-- description: Vouchers and their redeemable codes.
+- baseURL: https://api.tickettailor.com/v1
+  baseurl_source: declared
+  description: Vouchers and their redeemable codes.
   name: Ticket Tailor Vouchers API
   slug: tickettailor-vouchers-api
 artifact_total: 25
@@ -170,7 +186,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +215,9 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tickettailor/refs/heads/main/screenshots/tickettailor-2026-09-02T163709.png
 security:
 - kind: authentication
   name: Tickettailor Authentication

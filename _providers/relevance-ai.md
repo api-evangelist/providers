@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: REST API for the Relevance AI agent platform — 521 paths and 566 operations covering agents, tools (called "studios" in the API), multi-agent workforces, knowledge tables, conversations, triggers, eva
+- baseURL: https://api-{region}.stack.tryrelevance.com/latest
+  baseurl_source: declared
+  description: REST API for the Relevance AI agent platform — 521 paths and 566 operations covering agents, tools (called "studios" in the API), multi-agent workforces, knowledge tables, conversations, triggers, eva
   name: Relevance AI API
   slug: relevance-ai
 - description: First-party hosted MCP server exposing a Relevance AI project's agents, tools, workforces, knowledge tables, evals, analytics, folders and triggers to any MCP-compatible client (Claude, ChatGPT, Curso
@@ -259,24 +261,24 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 41.8
     developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 54.4
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/screenshots/relevance-ai-2026-06-20T192832.png
 security:
 - kind: authentication

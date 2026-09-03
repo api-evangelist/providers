@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 4
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 53 operations · 51 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: The Accountpermissions API from Amazon Inspector — 1 operation(s) for accountpermissions.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Accountpermissions API from Amazon Inspector — 1 operation(s) for accountpermissions.
   name: Amazon Inspector Accountpermissions API
   slug: amazon-inspector-accountpermissions-api
-- description: The Codesnippet API from Amazon Inspector — 1 operation(s) for codesnippet.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Codesnippet API from Amazon Inspector — 1 operation(s) for codesnippet.
   name: Amazon Inspector Codesnippet API
   slug: amazon-inspector-codesnippet-api
-- description: The Configuration API from Amazon Inspector — 2 operation(s) for configuration.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Configuration API from Amazon Inspector — 2 operation(s) for configuration.
   name: Amazon Inspector Configuration API
   slug: amazon-inspector-configuration-api
-- description: The Coverage API from Amazon Inspector — 2 operation(s) for coverage.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Coverage API from Amazon Inspector — 2 operation(s) for coverage.
   name: Amazon Inspector Coverage API
   slug: amazon-inspector-coverage-api
-- description: The Delegatedadminaccounts API from Amazon Inspector — 4 operation(s) for delegatedadminaccounts.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Delegatedadminaccounts API from Amazon Inspector — 4 operation(s) for delegatedadminaccounts.
   name: Amazon Inspector Delegatedadminaccounts API
   slug: amazon-inspector-delegatedadminaccounts-api
-- description: The Disable API from Amazon Inspector — 1 operation(s) for disable.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Disable API from Amazon Inspector — 1 operation(s) for disable.
   name: Amazon Inspector Disable API
   slug: amazon-inspector-disable-api
-- description: The Ec2deepinspectionconfiguration API from Amazon Inspector — 3 operation(s) for ec2deepinspectionconfiguration.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Ec2deepinspectionconfiguration API from Amazon Inspector — 3 operation(s) for ec2deepinspectionconfiguration.
   name: Amazon Inspector Ec2deepinspectionconfiguration API
   slug: amazon-inspector-ec2deepinspectionconfiguration-api
-- description: The Ec2deepinspectionstatus API from Amazon Inspector — 2 operation(s) for ec2deepinspectionstatus.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Ec2deepinspectionstatus API from Amazon Inspector — 2 operation(s) for ec2deepinspectionstatus.
   name: Amazon Inspector Ec2deepinspectionstatus API
   slug: amazon-inspector-ec2deepinspectionstatus-api
-- description: The Enable API from Amazon Inspector — 1 operation(s) for enable.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Enable API from Amazon Inspector — 1 operation(s) for enable.
   name: Amazon Inspector Enable API
   slug: amazon-inspector-enable-api
-- description: The Encryptionkey API from Amazon Inspector — 3 operation(s) for encryptionkey.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Encryptionkey API from Amazon Inspector — 3 operation(s) for encryptionkey.
   name: Amazon Inspector Encryptionkey API
   slug: amazon-inspector-encryptionkey-api
-- description: The Filters API from Amazon Inspector — 4 operation(s) for filters.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Filters API from Amazon Inspector — 4 operation(s) for filters.
   name: Amazon Inspector Filters API
   slug: amazon-inspector-filters-api
-- description: The Findings API from Amazon Inspector — 4 operation(s) for findings.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Findings API from Amazon Inspector — 4 operation(s) for findings.
   name: Amazon Inspector Findings API
   slug: amazon-inspector-findings-api
-- description: The Freetrialinfo API from Amazon Inspector — 1 operation(s) for freetrialinfo.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Freetrialinfo API from Amazon Inspector — 1 operation(s) for freetrialinfo.
   name: Amazon Inspector Freetrialinfo API
   slug: amazon-inspector-freetrialinfo-api
-- description: The Members API from Amazon Inspector — 4 operation(s) for members.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Members API from Amazon Inspector — 4 operation(s) for members.
   name: Amazon Inspector Members API
   slug: amazon-inspector-members-api
-- description: The Organizationconfiguration API from Amazon Inspector — 2 operation(s) for organizationconfiguration.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Organizationconfiguration API from Amazon Inspector — 2 operation(s) for organizationconfiguration.
   name: Amazon Inspector Organizationconfiguration API
   slug: amazon-inspector-organizationconfiguration-api
-- description: The Reporting API from Amazon Inspector — 3 operation(s) for reporting.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Reporting API from Amazon Inspector — 3 operation(s) for reporting.
   name: Amazon Inspector Reporting API
   slug: amazon-inspector-reporting-api
-- description: The Sbomexport API from Amazon Inspector — 3 operation(s) for sbomexport.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Sbomexport API from Amazon Inspector — 3 operation(s) for sbomexport.
   name: Amazon Inspector Sbomexport API
   slug: amazon-inspector-sbomexport-api
-- description: Operations for enabling and managing vulnerability scanning
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for enabling and managing vulnerability scanning
   name: Amazon Inspector Scanning API
   slug: amazon-inspector-scanning-api
-- description: The Status API from Amazon Inspector — 1 operation(s) for status.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Status API from Amazon Inspector — 1 operation(s) for status.
   name: Amazon Inspector Status API
   slug: amazon-inspector-status-api
-- description: The Tags API from Amazon Inspector — 2 operation(s) for tags.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Inspector — 2 operation(s) for tags.
   name: Amazon Inspector Tags API
   slug: amazon-inspector-tags-api
-- description: The Usage API from Amazon Inspector — 1 operation(s) for usage.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Usage API from Amazon Inspector — 1 operation(s) for usage.
   name: Amazon Inspector Usage API
   slug: amazon-inspector-usage-api
-- description: The Vulnerabilities API from Amazon Inspector — 1 operation(s) for vulnerabilities.
+- baseURL: https://inspector2.amazonaws.com
+  baseurl_source: declared
+  description: The Vulnerabilities API from Amazon Inspector — 1 operation(s) for vulnerabilities.
   name: Amazon Inspector Vulnerabilities API
   slug: amazon-inspector-vulnerabilities-api
 artifact_total: 663
@@ -2164,7 +2208,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/screenshots/amazon-inspector-2026-06-20T171705.png
 security:

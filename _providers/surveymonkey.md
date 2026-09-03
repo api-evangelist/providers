@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 30 operations · 6 acting
 api_count: 1
 apis:
-- description: The Collectors API from SurveyMonkey — 3 operation(s) for collectors.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Collectors API from SurveyMonkey — 3 operation(s) for collectors.
   name: SurveyMonkey Collectors API
   slug: surveymonkey-collectors-api
-- description: The Contacts API from SurveyMonkey — 3 operation(s) for contacts.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Contacts API from SurveyMonkey — 3 operation(s) for contacts.
   name: SurveyMonkey Contacts API
   slug: surveymonkey-contacts-api
-- description: The Groups API from SurveyMonkey — 4 operation(s) for groups.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Groups API from SurveyMonkey — 4 operation(s) for groups.
   name: SurveyMonkey Groups API
   slug: surveymonkey-groups-api
-- description: The Responses API from SurveyMonkey — 4 operation(s) for responses.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Responses API from SurveyMonkey — 4 operation(s) for responses.
   name: SurveyMonkey Responses API
   slug: surveymonkey-responses-api
-- description: The Survey Structure API from SurveyMonkey — 4 operation(s) for survey structure.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Survey Structure API from SurveyMonkey — 4 operation(s) for survey structure.
   name: SurveyMonkey Survey Structure API
   slug: surveymonkey-survey-structure-api
-- description: The Surveys API from SurveyMonkey — 3 operation(s) for surveys.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Surveys API from SurveyMonkey — 3 operation(s) for surveys.
   name: SurveyMonkey Surveys API
   slug: surveymonkey-surveys-api
-- description: The Users API from SurveyMonkey — 3 operation(s) for users.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Users API from SurveyMonkey — 3 operation(s) for users.
   name: SurveyMonkey Users API
   slug: surveymonkey-users-api
-- description: The Workgroups API from SurveyMonkey — 2 operation(s) for workgroups.
+- baseURL: https://api.surveymonkey.com/v3
+  baseurl_source: declared
+  description: The Workgroups API from SurveyMonkey — 2 operation(s) for workgroups.
   name: SurveyMonkey Workgroups API
   slug: surveymonkey-workgroups-api
 artifact_total: 28
@@ -182,7 +198,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -192,7 +208,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 15.8
-  previous_composite: 35.8
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/screenshots/surveymonkey-2026-06-20T194739.png
 security:

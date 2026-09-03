@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The AI for Service REST estate — Automation AI (bot lifecycle, NLP training, analytics, admin, data tables), Search AI (answer generation, content and chunk management, ingestion, connectors), Contact
@@ -32,13 +45,19 @@ apis:
 - description: A stdio Model Context Protocol server, @koreai/arch-mcp-tools, that exposes the Kore.ai Agent Platform control plane to an MCP client as 45 tools across build, evaluate, optimize, debug and analyze. I
   name: Kore.ai Arch MCP Server
   slug: koreai-arch-mcp-server
-- description: The Chat API from Kore.ai — 5 operation(s) for chat.
+- baseURL: https://agents.kore.ai
+  baseurl_source: declared
+  description: The Chat API from Kore.ai — 5 operation(s) for chat.
   name: Kore.ai Chat API
   slug: koreai-chat-api
-- description: The Conversation API from Kore.ai — 3 operation(s) for conversation.
+- baseURL: https://agents.kore.ai
+  baseurl_source: declared
+  description: The Conversation API from Kore.ai — 3 operation(s) for conversation.
   name: Kore.ai Conversation API
   slug: koreai-conversation-api
-- description: The Workflows API from Kore.ai — 4 operation(s) for workflows.
+- baseURL: https://agents.kore.ai
+  baseurl_source: declared
+  description: The Workflows API from Kore.ai — 4 operation(s) for workflows.
   name: Kore.ai Workflows API
   slug: koreai-workflows-api
 artifact_total: 12
@@ -236,11 +255,11 @@ score:
   band: strong
   composite: 55.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -250,7 +269,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 55.7
+  previous_composite: 55.5
   provenance:
     conformance: first-party
     contracts:
@@ -261,8 +280,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/screenshots/koreai-2026-09-02T150132.png
 security:
 - kind: authentication
   name: Koreai Authentication

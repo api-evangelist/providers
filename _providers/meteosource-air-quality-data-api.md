@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Air quality and pollution forecasts.
+- baseURL: https://www.meteosource.com/api/v1
+  baseurl_source: declared
+  description: Air quality and pollution forecasts.
   name: MeteoSource Air Quality Data API Air Quality API
   slug: meteosource-air-quality-data-api-air-quality-api
-- description: Historical Time Machine data.
+- baseURL: https://www.meteosource.com/api/v1
+  baseurl_source: declared
+  description: Historical Time Machine data.
   name: MeteoSource Air Quality Data API History API
   slug: meteosource-air-quality-data-api-history-api
-- description: Location lookup endpoints.
+- baseURL: https://www.meteosource.com/api/v1
+  baseurl_source: declared
+  description: Location lookup endpoints.
   name: MeteoSource Air Quality Data API Locations API
   slug: meteosource-air-quality-data-api-locations-api
-- description: Tile-based weather and pollution maps.
+- baseURL: https://www.meteosource.com/api/v1
+  baseurl_source: declared
+  description: Tile-based weather and pollution maps.
   name: MeteoSource Air Quality Data API Maps API
   slug: meteosource-air-quality-data-api-maps-api
-- description: Current and forecasted weather endpoints.
+- baseURL: https://www.meteosource.com/api/v1
+  baseurl_source: declared
+  description: Current and forecasted weather endpoints.
   name: MeteoSource Air Quality Data API Weather API
   slug: meteosource-air-quality-data-api-weather-api
 artifact_total: 18
@@ -167,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/screenshots/meteosource-air-quality-data-api-2026-06-20T185257.png
 security:

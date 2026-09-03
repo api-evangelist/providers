@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: The Zonos Graph is the company's supported integration surface — a single GraphQL endpoint covering landed cost, classification, country of origin, export control, item and party restriction screening
@@ -140,7 +140,7 @@ score:
   band: emerging
   composite: 25.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -162,8 +162,9 @@ score:
       reason: never_enriched
   previous_composite: 25.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zonos/refs/heads/main/screenshots/zonos-2026-09-02T171834.png
 slug: zonos
 tags:
 - Logistics

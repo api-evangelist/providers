@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Manage rendered clips.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Manage rendered clips.
   name: WellSaid Labs Clips API
   slug: wellsaid-clips-api
-- description: Respelling suggestions and replacement libraries.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Respelling suggestions and replacement libraries.
   name: WellSaid Labs Pronunciation API
   slug: wellsaid-pronunciation-api
-- description: Render text to speech as clips or audio streams.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Render text to speech as clips or audio streams.
   name: WellSaid Labs Text-to-Speech API
   slug: wellsaid-text-to-speech-api
-- description: Discover available voice avatars.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Discover available voice avatars.
   name: WellSaid Labs Voices API
   slug: wellsaid-voices-api
 artifact_total: 17
@@ -150,7 +158,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -173,8 +181,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/screenshots/wellsaid-2026-09-02T170611.png
 security:
 - kind: authentication
   name: Wellsaid Authentication

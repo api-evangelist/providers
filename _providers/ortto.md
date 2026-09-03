@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 11 acting
 api_count: 1
 apis:
-- description: Create, update, retrieve, and manage accounts (organizations).
+- baseURL: https://api.ap3api.com/v1
+  baseurl_source: declared
+  description: Create, update, retrieve, and manage accounts (organizations).
   name: Ortto Accounts API
   slug: ortto-accounts-api
-- description: Send custom activity events and manage activity definitions.
+- baseURL: https://api.ap3api.com/v1
+  baseurl_source: declared
+  description: Send custom activity events and manage activity definitions.
   name: Ortto Activities API
   slug: ortto-activities-api
-- description: Retrieve campaigns, reports, and assets.
+- baseURL: https://api.ap3api.com/v1
+  baseurl_source: declared
+  description: Retrieve campaigns, reports, and assets.
   name: Ortto Campaigns API
   slug: ortto-campaigns-api
-- description: Create, update, retrieve, and manage people (contacts).
+- baseURL: https://api.ap3api.com/v1
+  baseurl_source: declared
+  description: Create, update, retrieve, and manage people (contacts).
   name: Ortto People API
   slug: ortto-people-api
-- description: Retrieve account tags.
+- baseURL: https://api.ap3api.com/v1
+  baseurl_source: declared
+  description: Retrieve account tags.
   name: Ortto Tags API
   slug: ortto-tags-api
-- description: Send transactional email and SMS.
+- baseURL: https://api.ap3api.com/v1
+  baseurl_source: declared
+  description: Send transactional email and SMS.
   name: Ortto Transactional API
   slug: ortto-transactional-api
 artifact_total: 24
@@ -309,7 +321,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -319,7 +331,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 89.5
-  previous_composite: 72.1
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,7 +355,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ortto/refs/heads/main/screenshots/ortto-2026-08-07T190955.png
 security:

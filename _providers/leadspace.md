@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,22 +46,32 @@ agentic_access:
   summary_line: 9 operations · 6 acting
 api_count: 3
 apis:
-- description: OAuth 2.0 token issuance and refresh
+- baseURL: https://apigw.leadspace.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance and refresh
   name: Leadspace Authorization API
   slug: leadspace-authorization-api
-- description: Bulk account expansion into net-new contacts
+- baseURL: https://apigw.leadspace.com
+  baseurl_source: declared
+  description: Bulk account expansion into net-new contacts
   name: Leadspace Discovery API
   slug: leadspace-discovery-api
-- description: Single and bulk person and company enrichment
+- baseURL: https://apigw.leadspace.com
+  baseurl_source: declared
+  description: Single and bulk person and company enrichment
   name: Leadspace Enrichment API
   slug: leadspace-enrichment-api
-- description: Buyer-intent scoring and refresh
+- baseURL: https://apigw.leadspace.com
+  baseurl_source: declared
+  description: Buyer-intent scoring and refresh
   name: Leadspace Intent API
   slug: leadspace-intent-api
 - description: 'Hosted remote MCP server exposing the Leadspace GTM Data Intelligence Cloud to AI assistants as a custom connector — account intelligence, company and contact lookup, verified email and phone reveal, '
   name: Leadspace MCP
   slug: leadspace-mcp-server
-- description: Polling for asynchronous discovery results
+- baseURL: https://apigw.leadspace.com
+  baseurl_source: declared
+  description: Polling for asynchronous discovery results
   name: Leadspace Results API
   slug: leadspace-results-api
 artifact_total: 22
@@ -303,7 +313,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -313,7 +323,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 64.5
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -325,7 +335,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:

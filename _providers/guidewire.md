@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The Guidewire BillingCenter API provides REST endpoints for payment orchestration, invoice generation, payment plans, disbursements, and collections management for insurance billing operations.
   name: Guidewire BillingCenter API
   slug: guidewire-billingcenter-api
-- description: The Guidewire Integration Gateway provides a managed API layer for connecting Guidewire Cloud applications to third-party systems, enabling event-driven integrations and REST API extensions for the Gu
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: The Guidewire Integration Gateway provides a managed API layer for connecting Guidewire Cloud applications to third-party systems, enabling event-driven integrations and REST API extensions for the Gu
   name: Guidewire Integration Gateway API
   slug: guidewire-integration-gateway-api
-- description: Customer account management
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: Customer account management
   name: Guidewire Accounts API
   slug: guidewire-accounts-api
-- description: Claims lifecycle management
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: Claims lifecycle management
   name: Guidewire Claims API
   slug: guidewire-claims-api
-- description: Claim exposure management
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: Claim exposure management
   name: Guidewire Exposures API
   slug: guidewire-exposures-api
-- description: First Notice of Loss intake
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: First Notice of Loss intake
   name: Guidewire FNOL API
   slug: guidewire-fnol-api
-- description: Claim payment and reserves
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: Claim payment and reserves
   name: Guidewire Payments API
   slug: guidewire-payments-api
-- description: Policy lifecycle management
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: Policy lifecycle management
   name: Guidewire Policies API
   slug: guidewire-policies-api
-- description: Policy quoting and rating
+- baseURL: https://api.guidewire.com
+  baseurl_source: declared
+  description: Policy quoting and rating
   name: Guidewire Quotes API
   slug: guidewire-quotes-api
 artifact_total: 32
@@ -210,7 +226,7 @@ score:
     catalog_gap: 60.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -220,7 +236,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 37.8
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -235,7 +251,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png
 security:

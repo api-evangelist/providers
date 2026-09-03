@@ -23,19 +23,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: API related to audio projects
+- baseURL: https://api.magichour.ai
+  baseurl_source: declared
+  description: API related to audio projects
   name: Magic Hour Audio Projects API
   slug: magichour-audio-projects-api
-- description: API related to uploading assets used for video generation
+- baseURL: https://api.magichour.ai
+  baseurl_source: declared
+  description: API related to uploading assets used for video generation
   name: Magic Hour Files API
   slug: magichour-files-api
-- description: API related to image projects
+- baseURL: https://api.magichour.ai
+  baseurl_source: declared
+  description: API related to image projects
   name: Magic Hour Image Projects API
   slug: magichour-image-projects-api
-- description: API related to video projects
+- baseURL: https://api.magichour.ai
+  baseurl_source: declared
+  description: API related to video projects
   name: Magic Hour Video Projects API
   slug: magichour-video-projects-api
 artifact_total: 4
@@ -65,11 +73,11 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,7 +87,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.3
+  previous_composite: 31.1
   provenance:
     contracts:
       callable: 100.0
@@ -87,8 +95,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/screenshots/magichour-2026-09-02T150355.png
 slug: magichour
 tags:
 - AI Video

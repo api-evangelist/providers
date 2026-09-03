@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 10 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token management
+- baseURL: https://business-api.gett.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: Gett Authentication API
   slug: gett-authentication-api
-- description: Employee account management
+- baseURL: https://business-api.gett.com
+  baseurl_source: declared
+  description: Employee account management
   name: Gett Employee Management API
   slug: gett-employee-management-api
-- description: Receipt retrieval and financial operations
+- baseURL: https://business-api.gett.com
+  baseurl_source: declared
+  description: Receipt retrieval and financial operations
   name: Gett Finance API
   slug: gett-finance-api
-- description: Ride booking and management operations
+- baseURL: https://business-api.gett.com
+  baseurl_source: declared
+  description: Ride booking and management operations
   name: Gett Orders API
   slug: gett-orders-api
-- description: Available ride products and services
+- baseURL: https://business-api.gett.com
+  baseurl_source: declared
+  description: Available ride products and services
   name: Gett Products API
   slug: gett-products-api
-- description: Webhook subscription management
+- baseURL: https://business-api.gett.com
+  baseurl_source: declared
+  description: Webhook subscription management
   name: Gett Webhooks API
   slug: gett-webhooks-api
 artifact_total: 30
@@ -204,7 +216,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -214,7 +226,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 40.8
-  previous_composite: 39.4
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -223,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/screenshots/gett-2026-06-20T181812.png
 security:

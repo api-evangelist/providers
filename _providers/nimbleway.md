@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 42 operations · 22 acting
 api_count: 1
 apis:
-- description: The Agents API from Nimbleway — 7 operation(s) for agents.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Agents API from Nimbleway — 7 operation(s) for agents.
   name: Nimbleway Agents API
   slug: nimbleway-agents-api
-- description: The Crawl API from Nimbleway — 2 operation(s) for crawl.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Crawl API from Nimbleway — 2 operation(s) for crawl.
   name: Nimbleway Crawl API
   slug: nimbleway-crawl-api
-- description: The Domain Knowledge API from Nimbleway — 1 operation(s) for domain knowledge.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Domain Knowledge API from Nimbleway — 1 operation(s) for domain knowledge.
   name: Nimbleway Domain Knowledge API
   slug: nimbleway-domain-knowledge-api
-- description: The Extract API from Nimbleway — 3 operation(s) for extract.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Extract API from Nimbleway — 3 operation(s) for extract.
   name: Nimbleway Extract API
   slug: nimbleway-extract-api
-- description: The Fast SERP API from Nimbleway — 1 operation(s) for fast serp.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Fast SERP API from Nimbleway — 1 operation(s) for fast serp.
   name: Nimbleway Fast SERP API
   slug: nimbleway-fast-serp-api
-- description: The Jobs API from Nimbleway — 9 operation(s) for jobs.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Jobs API from Nimbleway — 9 operation(s) for jobs.
   name: Nimbleway Jobs API
   slug: nimbleway-jobs-api
-- description: The Map API from Nimbleway — 1 operation(s) for map.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Map API from Nimbleway — 1 operation(s) for map.
   name: Nimbleway Map API
   slug: nimbleway-map-api
-- description: The Media API from Nimbleway — 2 operation(s) for media.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Media API from Nimbleway — 2 operation(s) for media.
   name: Nimbleway Media API
   slug: nimbleway-media-api
-- description: The Search API from Nimbleway — 1 operation(s) for search.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Search API from Nimbleway — 1 operation(s) for search.
   name: Nimbleway Search API
   slug: nimbleway-search-api
-- description: The SERP API from Nimbleway — 3 operation(s) for serp.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The SERP API from Nimbleway — 3 operation(s) for serp.
   name: Nimbleway SERP API
   slug: nimbleway-serp-api
-- description: The Tasks API from Nimbleway — 6 operation(s) for tasks.
+- baseURL: https://sdk.nimbleway.com/v1
+  baseurl_source: declared
+  description: The Tasks API from Nimbleway — 6 operation(s) for tasks.
   name: Nimbleway Tasks API
   slug: nimbleway-tasks-api
 artifact_total: 29
@@ -303,7 +325,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimbleway/refs/heads/main/screenshots/nimbleway-2026-08-07T185313.png
 security:

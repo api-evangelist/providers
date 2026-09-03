@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 28 operations · 6 acting
 api_count: 1
 apis:
-- description: API-key status and user authentication operations.
+- baseURL: https://api.wordnik.com/v4
+  baseurl_source: declared
+  description: API-key status and user authentication operations.
   name: Wordnik Account API
   slug: wordnik-account-api
-- description: Operations on a single English word (definitions, etymologies, examples, pronunciations, related words, frequency, hyphenation, phrases, scrabble score, audio).
+- baseURL: https://api.wordnik.com/v4
+  baseurl_source: declared
+  description: Operations on a single English word (definitions, etymologies, examples, pronunciations, related words, frequency, hyphenation, phrases, scrabble score, audio).
   name: Wordnik Word API
   slug: wordnik-word-api
-- description: Read and write operations on an individual user word list.
+- baseURL: https://api.wordnik.com/v4
+  baseurl_source: declared
+  description: Read and write operations on an individual user word list.
   name: Wordnik Word List API
   slug: wordnik-word-list-api
-- description: Create new user word lists.
+- baseURL: https://api.wordnik.com/v4
+  baseurl_source: declared
+  description: Create new user word lists.
   name: Wordnik Word Lists API
   slug: wordnik-word-lists-api
-- description: Cross-word operations (random words, reverse-dictionary search, full-text search, word-of-the-day).
+- baseURL: https://api.wordnik.com/v4
+  baseurl_source: declared
+  description: Cross-word operations (random words, reverse-dictionary search, full-text search, word-of-the-day).
   name: Wordnik Words API
   slug: wordnik-words-api
 artifact_total: 137
@@ -611,7 +621,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/screenshots/wordnik-2026-06-20T201543.png
 security:

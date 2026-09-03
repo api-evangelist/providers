@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: The APIs API from Acko — 3 operation(s) for apis.
+- baseURL: https://apisetu.gov.in/acko/v3
+  baseurl_source: declared
+  description: The APIs API from Acko — 3 operation(s) for apis.
   name: Acko APIs API
   slug: acko-apis-api
 artifact_total: 7
@@ -196,7 +198,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png
 security:

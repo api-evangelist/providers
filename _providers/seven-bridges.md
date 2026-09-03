@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,58 +35,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'CAVATICA is a pediatric-research data analysis platform Seven Bridges operates with the Children''s Hospital of Philadelphia and the NIH Common Fund. It exposes the same v2 REST API surface on its own '
   name: Seven Bridges CAVATICA API
   slug: seven-bridges-cavatica-api
-- description: The Action API from Seven Bridges — 3 operation(s) for action.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Action API from Seven Bridges — 3 operation(s) for action.
   name: Seven Bridges Action API
   slug: seven-bridges-action-api
-- description: The API Settings API from Seven Bridges — 1 operation(s) for api settings.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The API Settings API from Seven Bridges — 1 operation(s) for api settings.
   name: Seven Bridges API Settings API
   slug: seven-bridges-api-settings-api
-- description: The Apps API from Seven Bridges — 8 operation(s) for apps.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Apps API from Seven Bridges — 8 operation(s) for apps.
   name: Seven Bridges Apps API
   slug: seven-bridges-apps-api
-- description: The Billing API from Seven Bridges — 8 operation(s) for billing.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Billing API from Seven Bridges — 8 operation(s) for billing.
   name: Seven Bridges Billing API
   slug: seven-bridges-billing-api
-- description: The Bulk API from Seven Bridges — 1 operation(s) for bulk.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Bulk API from Seven Bridges — 1 operation(s) for bulk.
   name: Seven Bridges Bulk API
   slug: seven-bridges-bulk-api
-- description: The Files API from Seven Bridges — 10 operation(s) for files.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Files API from Seven Bridges — 10 operation(s) for files.
   name: Seven Bridges Files API
   slug: seven-bridges-files-api
-- description: 'The Https: API from Seven Bridges — 1 operation(s) for https:.'
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: 'The Https: API from Seven Bridges — 1 operation(s) for https:.'
   name: 'Seven Bridges Https: API'
   slug: seven-bridges-https-api
-- description: The Projects API from Seven Bridges — 9 operation(s) for projects.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Projects API from Seven Bridges — 9 operation(s) for projects.
   name: Seven Bridges Projects API
   slug: seven-bridges-projects-api
-- description: The Rate Limit API from Seven Bridges — 1 operation(s) for rate limit.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Rate Limit API from Seven Bridges — 1 operation(s) for rate limit.
   name: Seven Bridges Rate Limit API
   slug: seven-bridges-rate-limit-api
-- description: The Search API from Seven Bridges — 1 operation(s) for search.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Search API from Seven Bridges — 1 operation(s) for search.
   name: Seven Bridges Search API
   slug: seven-bridges-search-api
-- description: The Seven Bridges Platform API from Seven Bridges — 1 operation(s) for seven bridges platform.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Seven Bridges Platform API from Seven Bridges — 1 operation(s) for seven bridges platform.
   name: Seven Bridges Seven Bridges Platform API
   slug: seven-bridges-seven-bridges-platform-api
-- description: The Storage API from Seven Bridges — 14 operation(s) for storage.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Storage API from Seven Bridges — 14 operation(s) for storage.
   name: Seven Bridges Storage API
   slug: seven-bridges-storage-api
-- description: The Tasks API from Seven Bridges — 8 operation(s) for tasks.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Tasks API from Seven Bridges — 8 operation(s) for tasks.
   name: Seven Bridges Tasks API
   slug: seven-bridges-tasks-api
-- description: The Upload API from Seven Bridges — 8 operation(s) for upload.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Upload API from Seven Bridges — 8 operation(s) for upload.
   name: Seven Bridges Upload API
   slug: seven-bridges-upload-api
-- description: The User API from Seven Bridges — 1 operation(s) for user.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The User API from Seven Bridges — 1 operation(s) for user.
   name: Seven Bridges User API
   slug: seven-bridges-user-api
-- description: The Users API from Seven Bridges — 1 operation(s) for users.
+- baseURL: https://api.sbgenomics.com/v2
+  baseurl_source: declared
+  description: The Users API from Seven Bridges — 1 operation(s) for users.
   name: Seven Bridges Users API
   slug: seven-bridges-users-api
 artifact_total: 22
@@ -215,23 +259,23 @@ rate_limits:
   slug: seven-bridges-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 49.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.8
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 48.6
+    contract_quality: 52.0
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 48.5
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     contracts:
@@ -248,8 +292,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/seven-bridges/refs/heads/main/screenshots/seven-bridges-2026-09-02T155037.png
 security:
 - kind: authentication
   name: Seven Bridges Authentication

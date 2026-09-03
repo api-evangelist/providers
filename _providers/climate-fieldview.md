@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 1
 apis:
-- description: As-applied agrochemical data
+- baseURL: https://api.climate.com
+  baseurl_source: declared
+  description: As-applied agrochemical data
   name: Climate FieldView Application API
   slug: climate-fieldview-application-api
-- description: Agricultural field boundaries and metadata
+- baseURL: https://api.climate.com
+  baseurl_source: declared
+  description: Agricultural field boundaries and metadata
   name: Climate FieldView Fields API
   slug: climate-fieldview-fields-api
-- description: As-harvested yield data and maps
+- baseURL: https://api.climate.com
+  baseurl_source: declared
+  description: As-harvested yield data and maps
   name: Climate FieldView Harvest API
   slug: climate-fieldview-harvest-api
-- description: As-planted activity data and maps
+- baseURL: https://api.climate.com
+  baseurl_source: declared
+  description: As-planted activity data and maps
   name: Climate FieldView Planting API
   slug: climate-fieldview-planting-api
-- description: Soil sample results and layers
+- baseURL: https://api.climate.com
+  baseurl_source: declared
+  description: Soil sample results and layers
   name: Climate FieldView Soil Sampling API
   slug: climate-fieldview-soil-sampling-api
 artifact_total: 28
@@ -273,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/screenshots/climate-fieldview-2026-06-20T174520.png
 security:

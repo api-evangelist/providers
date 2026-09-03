@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,28 +68,44 @@ apis:
 - description: Returns reference data for airlines including airline name, IATA code, and ICAO code. Supports lookup by identifier. Useful for resolving callsign prefixes and operator codes present in flight data in
   name: Airlines
   slug: airlines
-- description: Reference data for airlines
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Reference data for airlines
   name: Flightradar24 Airlines API
   slug: flightradar24-airlines-api
-- description: Reference data for airports worldwide
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Reference data for airports worldwide
   name: Flightradar24 Airports API
   slug: flightradar24-airports-api
-- description: Synopses of individual flights including event timings and key identifiers
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Synopses of individual flights including event timings and key identifiers
   name: Flightradar24 Flight Summary API
   slug: flightradar24-flight-summary-api
-- description: Full positional track of a specific flight by FR24 flight ID
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Full positional track of a specific flight by FR24 flight ID
   name: Flightradar24 Flight Tracks API
   slug: flightradar24-flight-tracks-api
-- description: Historical flight event data (takeoff, landing, gate movements, airspace transitions)
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Historical flight event data (takeoff, landing, gate movements, airspace transitions)
   name: Flightradar24 Historic Events API
   slug: flightradar24-historic-events-api
-- description: Historical aircraft position data (back to May 11, 2016)
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Historical aircraft position data (back to May 11, 2016)
   name: Flightradar24 Historic Positions API
   slug: flightradar24-historic-positions-api
-- description: Real-time aircraft position data
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: Real-time aircraft position data
   name: Flightradar24 Live Positions API
   slug: flightradar24-live-positions-api
-- description: API account usage and credit consumption
+- baseURL: https://fr24api.flightradar24.com/api
+  baseurl_source: declared
+  description: API account usage and credit consumption
   name: Flightradar24 Usage API
   slug: flightradar24-usage-api
 artifact_total: 41
@@ -308,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/screenshots/flightradar24-2026-06-20T181313.png
 security:

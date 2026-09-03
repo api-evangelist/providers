@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 46 operations · 21 acting
 api_count: 2
 apis:
-- description: Operations for managing the delivery lifecycle. Use these endpoints to trigger a shipment, cancel an active delivery, or check whether a pickup location falls within an operating area.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: Operations for managing the delivery lifecycle. Use these endpoints to trigger a shipment, cancel an active delivery, or check whether a pickup location falls within an operating area.
   name: Cabify delivery API
   slug: cabify-delivery-api
-- description: This method returns prices, Id's and all the information for products that are available at the origin point. Before requesting a journey as a first step it is necessary to obtain the different produc
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: This method returns prices, Id's and all the information for products that are available at the origin point. Before requesting a journey as a first step it is necessary to obtain the different produc
   name: Cabify Estimates API
   slug: cabify-estimates-api
-- description: A hub is a physical location (such as a warehouse or store) where parcels are stored until they are ready to be picked up by a driver. You can reference a hub in pickup or drop-off information using i
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: A hub is a physical location (such as a warehouse or store) where parcels are stored until they are ready to be picked up by a driver. You can reference a hub in pickup or drop-off information using i
   name: Cabify hubs API
   slug: cabify-hubs-api
-- description: This section covers the mobility solution for all companies looking to transport their employees in a simple, safe and comfortable way. We offer different types of vehicles with private drivers and pr
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: This section covers the mobility solution for all companies looking to transport their employees in a simple, safe and comfortable way. We offer different types of vehicles with private drivers and pr
   name: Cabify Journeys API
   slug: cabify-journeys-api
-- description: The label API from Cabify — 1 operation(s) for label.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: The label API from Cabify — 1 operation(s) for label.
   name: Cabify label API
   slug: cabify-label-api
-- description: Cabify offers to its clients a feature where the client’s employees have to input a journey motive or a project or a dynamic cost center associated with the new journey before requesting it. This is u
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: Cabify offers to its clients a feature where the client’s employees have to input a journey motive or a project or a dynamic cost center associated with the new journey before requesting it. This is u
   name: Cabify Labels API
   slug: cabify-labels-api
-- description: A parcel is the package you need to ship. Each parcel is identified by a unique ID and contains a pickup point (where the driver collects the package) and a drop-off point (the destination). Parcels m
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: A parcel is the package you need to ship. Each parcel is identified by a unique ID and contains a pickup point (where the driver collects the package) and a drop-off point (the destination). Parcels m
   name: Cabify parcels API
   slug: cabify-parcels-api
-- description: Sales objects are created once a journey transitions into the terminated state and they are associated with the user who requested the journey (which not necessarily is the rider). <br> <br>The transi
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: Sales objects are created once a journey transitions into the terminated state and they are associated with the user who requested the journey (which not necessarily is the rider). <br> <br>The transi
   name: Cabify Sales API
   slug: cabify-sales-api
-- description: The shipment API from Cabify — 2 operation(s) for shipment.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: The shipment API from Cabify — 2 operation(s) for shipment.
   name: Cabify shipment API
   slug: cabify-shipment-api
-- description: The shipping_types API from Cabify — 1 operation(s) for shipping_types.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: The shipping_types API from Cabify — 1 operation(s) for shipping_types.
   name: Cabify shipping_types API
   slug: cabify-shipping-types-api
-- description: Track the real-time status and location of your parcels at any point during their delivery.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: Track the real-time status and location of your parcels at any point during their delivery.
   name: Cabify status API
   slug: cabify-status-api
-- description: The users API from Cabify — 4 operation(s) for users.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: The users API from Cabify — 4 operation(s) for users.
   name: Cabify users API
   slug: cabify-users-api
-- description: Subscribe to event-driven notifications to receive live updates about parcel status changes, location updates, and proof of delivery codes.
+- baseURL: https://cabify.com/api/v4
+  baseurl_source: declared
+  description: Subscribe to event-driven notifications to receive live updates about parcel status changes, location updates, and proof of delivery codes.
   name: Cabify webhooks API
   slug: cabify-webhooks-api
 artifact_total: 33
@@ -287,7 +313,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -297,7 +323,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 50.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:

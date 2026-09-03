@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: User and connected social account lookup.
+- baseURL: https://backend.blotato.com/v2
+  baseurl_source: declared
+  description: User and connected social account lookup.
   name: Blotato Accounts API
   slug: blotato-accounts-api
-- description: Upload media for use in posts.
+- baseURL: https://backend.blotato.com/v2
+  baseurl_source: declared
+  description: Upload media for use in posts.
   name: Blotato Media API
   slug: blotato-media-api
-- description: Publish, schedule, and track posts.
+- baseURL: https://backend.blotato.com/v2
+  baseurl_source: declared
+  description: Publish, schedule, and track posts.
   name: Blotato Posts API
   slug: blotato-posts-api
-- description: AI video and visual generation from templates.
+- baseURL: https://backend.blotato.com/v2
+  baseurl_source: declared
+  description: AI video and visual generation from templates.
   name: Blotato Visuals API
   slug: blotato-visuals-api
 artifact_total: 16
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/screenshots/blotato-2026-07-25T203418.png
 security:

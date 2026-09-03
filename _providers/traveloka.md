@@ -34,52 +34,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
   name: Traveloka Connect - Connectivity API
   slug: traveloka-connect-connectivity-api
-- description: The 1.1 Content - Hotel & Room API from Traveloka — 2 operation(s) for 1.1 content - hotel & room.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 1.1 Content - Hotel & Room API from Traveloka — 2 operation(s) for 1.1 content - hotel & room.
   name: Traveloka 1.1 Content - Hotel & Room API
   slug: traveloka-1-1-content-hotel-room-api
-- description: The 2.1 Search - HotelList API from Traveloka — 1 operation(s) for 2.1 search - hotellist.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 2.1 Search - HotelList API from Traveloka — 1 operation(s) for 2.1 search - hotellist.
   name: Traveloka 2.1 Search - HotelList API
   slug: traveloka-2-1-search-hotellist-api
-- description: The 2.2 Search - RoomList API from Traveloka — 1 operation(s) for 2.2 search - roomlist.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 2.2 Search - RoomList API from Traveloka — 1 operation(s) for 2.2 search - roomlist.
   name: Traveloka 2.2 Search - RoomList API
   slug: traveloka-2-2-search-roomlist-api
-- description: The 2.3 Search - BulkRoomList API from Traveloka — 1 operation(s) for 2.3 search - bulkroomlist.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 2.3 Search - BulkRoomList API from Traveloka — 1 operation(s) for 2.3 search - bulkroomlist.
   name: Traveloka 2.3 Search - BulkRoomList API
   slug: traveloka-2-3-search-bulkroomlist-api
-- description: The 3.1 Booking - Book API from Traveloka — 1 operation(s) for 3.1 booking - book.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 3.1 Booking - Book API from Traveloka — 1 operation(s) for 3.1 booking - book.
   name: Traveloka 3.1 Booking - Book API
   slug: traveloka-3-1-booking-book-api
-- description: The 3.2 Booking - IssueCheck API from Traveloka — 1 operation(s) for 3.2 booking - issuecheck.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 3.2 Booking - IssueCheck API from Traveloka — 1 operation(s) for 3.2 booking - issuecheck.
   name: Traveloka 3.2 Booking - IssueCheck API
   slug: traveloka-3-2-booking-issuecheck-api
-- description: The 3.3 Booking - Issue API from Traveloka — 1 operation(s) for 3.3 booking - issue.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 3.3 Booking - Issue API from Traveloka — 1 operation(s) for 3.3 booking - issue.
   name: Traveloka 3.3 Booking - Issue API
   slug: traveloka-3-3-booking-issue-api
-- description: The 3.4 Booking - BookingSummary API from Traveloka — 1 operation(s) for 3.4 booking - bookingsummary.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 3.4 Booking - BookingSummary API from Traveloka — 1 operation(s) for 3.4 booking - bookingsummary.
   name: Traveloka 3.4 Booking - BookingSummary API
   slug: traveloka-3-4-booking-bookingsummary-api
-- description: The 3.5 Booking - Cancel API from Traveloka — 1 operation(s) for 3.5 booking - cancel.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The 3.5 Booking - Cancel API from Traveloka — 1 operation(s) for 3.5 booking - cancel.
   name: Traveloka 3.5 Booking - Cancel API
   slug: traveloka-3-5-booking-cancel-api
-- description: The Authorization API from Traveloka — 1 operation(s) for authorization.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The Authorization API from Traveloka — 1 operation(s) for authorization.
   name: Traveloka Authorization API
   slug: traveloka-authorization-api
-- description: The Booking API from Traveloka — 4 operation(s) for booking.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The Booking API from Traveloka — 4 operation(s) for booking.
   name: Traveloka Booking API
   slug: traveloka-booking-api
-- description: The Content API from Traveloka — 2 operation(s) for content.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The Content API from Traveloka — 2 operation(s) for content.
   name: Traveloka Content API
   slug: traveloka-content-api
-- description: This API is optional and intended for partners who do not have their own master data.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: This API is optional and intended for partners who do not have their own master data.
   name: Traveloka Discovery (Optional) API
   slug: traveloka-discovery-optional-api
-- description: The Rate API from Traveloka — 2 operation(s) for rate.
+- baseURL: https://api.travelokapartnersnetwork.com/v2/
+  baseurl_source: declared
+  description: The Rate API from Traveloka — 2 operation(s) for rate.
   name: Traveloka Rate API
   slug: traveloka-rate-api
 artifact_total: 36
@@ -290,7 +318,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -300,7 +328,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -311,7 +339,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/screenshots/traveloka-2026-08-17T125942.png
 security:

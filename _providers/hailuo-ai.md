@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: OpenAI-compatible LLM chat completions.
+- baseURL: https://api.minimax.io/v1
+  baseurl_source: declared
+  description: OpenAI-compatible LLM chat completions.
   name: Hailuo AI / MiniMax Chat Completions API
   slug: hailuo-ai-chat-completions-api
-- description: Retrieve generated assets by file_id.
+- baseURL: https://api.minimax.io/v1
+  baseurl_source: declared
+  description: Retrieve generated assets by file_id.
   name: Hailuo AI / MiniMax Files API
   slug: hailuo-ai-files-api
-- description: Vocal music generation from prompt and lyrics.
+- baseURL: https://api.minimax.io/v1
+  baseurl_source: declared
+  description: Vocal music generation from prompt and lyrics.
   name: Hailuo AI / MiniMax Music Generation API
   slug: hailuo-ai-music-generation-api
-- description: Speech synthesis (T2A v2).
+- baseURL: https://api.minimax.io/v1
+  baseurl_source: declared
+  description: Speech synthesis (T2A v2).
   name: Hailuo AI / MiniMax Text to Speech API
   slug: hailuo-ai-text-to-speech-api
-- description: Asynchronous AI video generation with the Hailuo models.
+- baseURL: https://api.minimax.io/v1
+  baseurl_source: declared
+  description: Asynchronous AI video generation with the Hailuo models.
   name: Hailuo AI / MiniMax Video Generation API
   slug: hailuo-ai-video-generation-api
 artifact_total: 19
@@ -175,7 +185,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -185,7 +195,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 46.0
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -194,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/screenshots/hailuo-ai-2026-07-25T220530.png
 security:

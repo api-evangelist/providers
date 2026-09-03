@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 97 operations · 54 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Amazon Simple Storage Service API from Amazon S3 API — 48 operation(s) for amazon simple storage service.
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon Simple Storage Service API from Amazon S3 API — 48 operation(s) for amazon simple storage service.
   name: Amazon S3 API Amazon Simple Storage Service API
   slug: aws-s3-amazon-simple-storage-service-api
-- description: The WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API from Amazon S3 API — 1 operation(s) for writegetobjectresponse#x amz request route&x amz request token.
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: The WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API from Amazon S3 API — 1 operation(s) for writegetobjectresponse#x amz request route&x amz request token.
   name: Amazon S3 API WriteGetObjectResponse#x Amz Request Route&x Amz Request Token API
   slug: aws-s3-writegetobjectresponse-x-amz-request-route-x-amz-request-token-api
 artifact_total: 1755
@@ -5412,7 +5416,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:

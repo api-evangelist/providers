@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 116 operations · 78 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: An Audience is a segment of users.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: An Audience is a segment of users.
   name: Knock Audiences API
   slug: knock-audiences-api
-- description: A bulk operation is a set of changes applied across zero or more records triggered via a call to the Knock API and performed asynchronously.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A bulk operation is a set of changes applied across zero or more records triggered via a call to the Knock API and performed asynchronously.
   name: Knock Bulk operations API
   slug: knock-bulk-operations-api
-- description: Channel data is data that is specific to a recipient and a channel, like push tokens, or one or more Slack connections.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: Channel data is data that is specific to a recipient and a channel, like push tokens, or one or more Slack connections.
   name: Knock Channel data API
   slug: knock-channel-data-api
-- description: The Feeds API from Knock — 2 operation(s) for feeds.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: The Feeds API from Knock — 2 operation(s) for feeds.
   name: Knock Feeds API
   slug: knock-feeds-api
-- description: The Guides API from Knock — 8 operation(s) for guides.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: The Guides API from Knock — 8 operation(s) for guides.
   name: Knock Guides API
   slug: knock-guides-api
-- description: The Integrations API from Knock — 2 operation(s) for integrations.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: The Integrations API from Knock — 2 operation(s) for integrations.
   name: Knock Integrations API
   slug: knock-integrations-api
-- description: A message sent to a single recipient on a channel.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A message sent to a single recipient on a channel.
   name: Knock Messages API
   slug: knock-messages-api
-- description: An object represents a resource in your system that you want to map into Knock.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: An object represents a resource in your system that you want to map into Knock.
   name: Knock Objects API
   slug: knock-objects-api
-- description: A provider represents a third-party service that Knock integrates with and is configured via a channel.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A provider represents a third-party service that Knock integrates with and is configured via a channel.
   name: Knock Providers API
   slug: knock-providers-api
-- description: A schedule is a per-recipient, timezone-aware configuration for when to invoke a workflow.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A schedule is a per-recipient, timezone-aware configuration for when to invoke a workflow.
   name: Knock Schedules API
   slug: knock-schedules-api
-- description: A subscription represents a connection between a recipient and an object, used to represent a list.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A subscription represents a connection between a recipient and an object, used to represent a list.
   name: Knock Subscriptions API
   slug: knock-subscriptions-api
-- description: A tenant represents a top-level entity from your system, like a company, organization, account, or workspace.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A tenant represents a top-level entity from your system, like a company, organization, account, or workspace.
   name: Knock Tenants API
   slug: knock-tenants-api
-- description: A user is an individual from your system, represented in Knock. They are most commonly a recipient of a notification.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A user is an individual from your system, represented in Knock. They are most commonly a recipient of a notification.
   name: Knock Users API
   slug: knock-users-api
-- description: A workflow run represents an individual execution of a workflow for a specific recipient.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A workflow run represents an individual execution of a workflow for a specific recipient.
   name: Knock Workflow recipient runs API
   slug: knock-workflow-recipient-runs-api
-- description: Operations for triggering and canceling workflow executions.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: Operations for triggering and canceling workflow executions.
   name: Knock Workflow Triggers API
   slug: knock-workflow-triggers-api
-- description: A workflow is a structured set of steps that is triggered to produce notifications sent over channels.
+- baseURL: https://api.knock.app/v1
+  baseurl_source: declared
+  description: A workflow is a structured set of steps that is triggered to produce notifications sent over channels.
   name: Knock Workflows API
   slug: knock-workflows-api
 artifact_total: 45
@@ -250,7 +282,7 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -260,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 30.8
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -275,7 +307,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

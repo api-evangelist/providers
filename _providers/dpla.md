@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Self-service API key registration endpoint that issues free access keys via email. Developers submit their email address via HTTP POST and receive an API key by email. The key is then passed as the ap
   name: DPLA API Key Registration
   slug: api-key-registration
-- description: API key registration and management
+- baseURL: https://api.dp.la/v2
+  baseurl_source: declared
+  description: API key registration and management
   name: Digital Public Library of America Authentication API
   slug: dpla-authentication-api
-- description: Search and retrieve cultural heritage item metadata records
+- baseURL: https://api.dp.la/v2
+  baseurl_source: declared
+  description: Search and retrieve cultural heritage item metadata records
   name: Digital Public Library of America Items API
   slug: dpla-items-api
-- description: Search and retrieve primary source sets (PSS) for education
+- baseURL: https://api.dp.la/v2
+  baseurl_source: declared
+  description: Search and retrieve primary source sets (PSS) for education
   name: Digital Public Library of America Primary Source Sets API
   slug: dpla-primary-source-sets-api
-- description: Utility endpoints for health checks and random item retrieval
+- baseURL: https://api.dp.la/v2
+  baseurl_source: declared
+  description: Utility endpoints for health checks and random item retrieval
   name: Digital Public Library of America Utilities API
   slug: dpla-utilities-api
 artifact_total: 17
@@ -207,7 +215,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

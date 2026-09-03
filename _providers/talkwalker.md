@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The Image API API from Talkwalker — 1 operation(s) for image api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Image API API from Talkwalker — 1 operation(s) for image api.
   name: Talkwalker Image API
   slug: talkwalker-image-api-api
-- description: The Modify documents API API from Talkwalker — 4 operation(s) for modify documents api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Modify documents API API from Talkwalker — 4 operation(s) for modify documents api.
   name: Talkwalker Modify documents API
   slug: talkwalker-modify-documents-api-api
-- description: The Resources API API from Talkwalker — 8 operation(s) for resources api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Resources API API from Talkwalker — 8 operation(s) for resources api.
   name: Talkwalker Resources API
   slug: talkwalker-resources-api-api
-- description: The Search API API from Talkwalker — 3 operation(s) for search api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Search API API from Talkwalker — 3 operation(s) for search api.
   name: Talkwalker Search API
   slug: talkwalker-search-api-api
-- description: The Search API > Histogram API API from Talkwalker — 3 operation(s) for search api > histogram api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Search API > Histogram API API from Talkwalker — 3 operation(s) for search api > histogram api.
   name: Talkwalker Search API > Histogram API
   slug: talkwalker-search-api-histogram-api-api
-- description: The Source panels API API from Talkwalker — 3 operation(s) for source panels api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Source panels API API from Talkwalker — 3 operation(s) for source panels api.
   name: Talkwalker Source panels API
   slug: talkwalker-source-panels-api-api
-- description: The Status API API from Talkwalker — 1 operation(s) for status api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Status API API from Talkwalker — 1 operation(s) for status api.
   name: Talkwalker Status API
   slug: talkwalker-status-api-api
-- description: The Streaming API API from Talkwalker — 4 operation(s) for streaming api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Streaming API API from Talkwalker — 4 operation(s) for streaming api.
   name: Talkwalker Streaming API
   slug: talkwalker-streaming-api-api
-- description: The Streaming API > Collector API API from Talkwalker — 4 operation(s) for streaming api > collector api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Streaming API > Collector API API from Talkwalker — 4 operation(s) for streaming api > collector api.
   name: Talkwalker Streaming API > Collector API
   slug: talkwalker-streaming-api-collector-api-api
-- description: The Streaming API > Task API API from Talkwalker — 5 operation(s) for streaming api > task api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Streaming API > Task API API from Talkwalker — 5 operation(s) for streaming api > task api.
   name: Talkwalker Streaming API > Task API
   slug: talkwalker-streaming-api-task-api-api
-- description: The Summary API API from Talkwalker — 2 operation(s) for summary api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Summary API API from Talkwalker — 2 operation(s) for summary api.
   name: Talkwalker Summary API
   slug: talkwalker-summary-api-api
-- description: The Topic API API from Talkwalker — 4 operation(s) for topic api.
+- baseURL: https://api.talkwalker.com
+  baseurl_source: declared
+  description: The Topic API API from Talkwalker — 4 operation(s) for topic api.
   name: Talkwalker Topic API
   slug: talkwalker-topic-api-api
 artifact_total: 18
@@ -288,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/screenshots/talkwalker-2026-06-20T194908.png
 security:

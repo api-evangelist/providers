@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: JSON REST API for managing Ecwid store data including products, categories, orders, customers, discount coupons, payment and shipping methods, application data, and storefront settings. Requests are m
   name: Ecwid REST API
   slug: rest-api
-- description: The Categories API from Ecwid by Lightspeed — 2 operation(s) for categories.
+- baseURL: https://app.ecwid.com/api/v3
+  baseurl_source: declared
+  description: The Categories API from Ecwid by Lightspeed — 2 operation(s) for categories.
   name: Ecwid by Lightspeed Categories API
   slug: ecwid-categories-api
-- description: The Customers API from Ecwid by Lightspeed — 2 operation(s) for customers.
+- baseURL: https://app.ecwid.com/api/v3
+  baseurl_source: declared
+  description: The Customers API from Ecwid by Lightspeed — 2 operation(s) for customers.
   name: Ecwid by Lightspeed Customers API
   slug: ecwid-customers-api
-- description: The Discount Coupons API from Ecwid by Lightspeed — 1 operation(s) for discount coupons.
+- baseURL: https://app.ecwid.com/api/v3
+  baseurl_source: declared
+  description: The Discount Coupons API from Ecwid by Lightspeed — 1 operation(s) for discount coupons.
   name: Ecwid by Lightspeed Discount Coupons API
   slug: ecwid-discount-coupons-api
-- description: The Orders API from Ecwid by Lightspeed — 2 operation(s) for orders.
+- baseURL: https://app.ecwid.com/api/v3
+  baseurl_source: declared
+  description: The Orders API from Ecwid by Lightspeed — 2 operation(s) for orders.
   name: Ecwid by Lightspeed Orders API
   slug: ecwid-orders-api
-- description: The Products API from Ecwid by Lightspeed — 2 operation(s) for products.
+- baseURL: https://app.ecwid.com/api/v3
+  baseurl_source: declared
+  description: The Products API from Ecwid by Lightspeed — 2 operation(s) for products.
   name: Ecwid by Lightspeed Products API
   slug: ecwid-products-api
-- description: The Profile API from Ecwid by Lightspeed — 1 operation(s) for profile.
+- baseURL: https://app.ecwid.com/api/v3
+  baseurl_source: declared
+  description: The Profile API from Ecwid by Lightspeed — 1 operation(s) for profile.
   name: Ecwid by Lightspeed Profile API
   slug: ecwid-profile-api
 artifact_total: 18
@@ -187,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/screenshots/ecwid-2026-06-20T180440.png
 security:

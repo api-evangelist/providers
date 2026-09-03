@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -44,181 +44,299 @@ agentic_access:
   summary_line: 714 operations · 361 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The admin API from Windmill — 6 operation(s) for admin.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The admin API from Windmill — 6 operation(s) for admin.
   name: Windmill admin API
   slug: windmill-admin-api
-- description: The agent_workers API from Windmill — 5 operation(s) for agent_workers.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The agent_workers API from Windmill — 5 operation(s) for agent_workers.
   name: Windmill agent_workers API
   slug: windmill-agent-workers-api
-- description: The app API from Windmill — 30 operation(s) for app.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The app API from Windmill — 30 operation(s) for app.
   name: Windmill app API
   slug: windmill-app-api
-- description: The asset API from Windmill — 3 operation(s) for asset.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The asset API from Windmill — 3 operation(s) for asset.
   name: Windmill asset API
   slug: windmill-asset-api
-- description: The audit API from Windmill — 2 operation(s) for audit.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The audit API from Windmill — 2 operation(s) for audit.
   name: Windmill audit API
   slug: windmill-audit-api
-- description: The azure_trigger API from Windmill — 13 operation(s) for azure_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The azure_trigger API from Windmill — 13 operation(s) for azure_trigger.
   name: Windmill azure_trigger API
   slug: windmill-azure-trigger-api
-- description: The capture API from Windmill — 6 operation(s) for capture.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The capture API from Windmill — 6 operation(s) for capture.
   name: Windmill capture API
   slug: windmill-capture-api
-- description: The concurrencyGroups API from Windmill — 4 operation(s) for concurrencygroups.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The concurrencyGroups API from Windmill — 4 operation(s) for concurrencygroups.
   name: Windmill concurrencyGroups API
   slug: windmill-concurrencygroups-api
-- description: The config API from Windmill — 9 operation(s) for config.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The config API from Windmill — 9 operation(s) for config.
   name: Windmill config API
   slug: windmill-config-api
-- description: The documentation API from Windmill — 1 operation(s) for documentation.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The documentation API from Windmill — 1 operation(s) for documentation.
   name: Windmill documentation API
   slug: windmill-documentation-api
-- description: The draft API from Windmill — 2 operation(s) for draft.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The draft API from Windmill — 2 operation(s) for draft.
   name: Windmill draft API
   slug: windmill-draft-api
-- description: The email_trigger API from Windmill — 8 operation(s) for email_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The email_trigger API from Windmill — 8 operation(s) for email_trigger.
   name: Windmill email_trigger API
   slug: windmill-email-trigger-api
-- description: The favorite API from Windmill — 2 operation(s) for favorite.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The favorite API from Windmill — 2 operation(s) for favorite.
   name: Windmill favorite API
   slug: windmill-favorite-api
-- description: The flow API from Windmill — 21 operation(s) for flow.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The flow API from Windmill — 21 operation(s) for flow.
   name: Windmill flow API
   slug: windmill-flow-api
-- description: The flow_conversations API from Windmill — 3 operation(s) for flow_conversations.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The flow_conversations API from Windmill — 3 operation(s) for flow_conversations.
   name: Windmill flow_conversations API
   slug: windmill-flow-conversations-api
-- description: The folder API from Windmill — 11 operation(s) for folder.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The folder API from Windmill — 11 operation(s) for folder.
   name: Windmill folder API
   slug: windmill-folder-api
-- description: The gcp_trigger API from Windmill — 11 operation(s) for gcp_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The gcp_trigger API from Windmill — 11 operation(s) for gcp_trigger.
   name: Windmill gcp_trigger API
   slug: windmill-gcp-trigger-api
-- description: The Git Sync API from Windmill — 7 operation(s) for git sync.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The Git Sync API from Windmill — 7 operation(s) for git sync.
   name: Windmill Git Sync API
   slug: windmill-git-sync-api
-- description: The granular_acl API from Windmill — 3 operation(s) for granular_acl.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The granular_acl API from Windmill — 3 operation(s) for granular_acl.
   name: Windmill granular_acl API
   slug: windmill-granular-acl-api
-- description: The group API from Windmill — 19 operation(s) for group.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The group API from Windmill — 19 operation(s) for group.
   name: Windmill group API
   slug: windmill-group-api
-- description: The health API from Windmill — 2 operation(s) for health.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The health API from Windmill — 2 operation(s) for health.
   name: Windmill health API
   slug: windmill-health-api
-- description: The helpers API from Windmill — 22 operation(s) for helpers.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The helpers API from Windmill — 22 operation(s) for helpers.
   name: Windmill helpers API
   slug: windmill-helpers-api
-- description: The http_trigger API from Windmill — 9 operation(s) for http_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The http_trigger API from Windmill — 9 operation(s) for http_trigger.
   name: Windmill http_trigger API
   slug: windmill-http-trigger-api
-- description: The indexSearch API from Windmill — 7 operation(s) for indexsearch.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The indexSearch API from Windmill — 7 operation(s) for indexsearch.
   name: Windmill indexSearch API
   slug: windmill-indexsearch-api
-- description: The input API from Windmill — 6 operation(s) for input.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The input API from Windmill — 6 operation(s) for input.
   name: Windmill input API
   slug: windmill-input-api
-- description: The integration API from Windmill — 1 operation(s) for integration.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The integration API from Windmill — 1 operation(s) for integration.
   name: Windmill integration API
   slug: windmill-integration-api
-- description: The job API from Windmill — 77 operation(s) for job.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The job API from Windmill — 77 operation(s) for job.
   name: Windmill job API
   slug: windmill-job-api
-- description: The kafka_trigger API from Windmill — 10 operation(s) for kafka_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The kafka_trigger API from Windmill — 10 operation(s) for kafka_trigger.
   name: Windmill kafka_trigger API
   slug: windmill-kafka-trigger-api
-- description: The mcp API from Windmill — 1 operation(s) for mcp.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The mcp API from Windmill — 1 operation(s) for mcp.
   name: Windmill mcp API
   slug: windmill-mcp-api
-- description: The mcp_oauth API from Windmill — 3 operation(s) for mcp_oauth.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The mcp_oauth API from Windmill — 3 operation(s) for mcp_oauth.
   name: Windmill mcp_oauth API
   slug: windmill-mcp-oauth-api
-- description: The metrics API from Windmill — 3 operation(s) for metrics.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The metrics API from Windmill — 3 operation(s) for metrics.
   name: Windmill metrics API
   slug: windmill-metrics-api
-- description: The mqtt_trigger API from Windmill — 8 operation(s) for mqtt_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The mqtt_trigger API from Windmill — 8 operation(s) for mqtt_trigger.
   name: Windmill mqtt_trigger API
   slug: windmill-mqtt-trigger-api
-- description: The native_trigger API from Windmill — 13 operation(s) for native_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The native_trigger API from Windmill — 13 operation(s) for native_trigger.
   name: Windmill native_trigger API
   slug: windmill-native-trigger-api
-- description: The nats_trigger API from Windmill — 8 operation(s) for nats_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The nats_trigger API from Windmill — 8 operation(s) for nats_trigger.
   name: Windmill nats_trigger API
   slug: windmill-nats-trigger-api
-- description: The npm_proxy API from Windmill — 4 operation(s) for npm_proxy.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The npm_proxy API from Windmill — 4 operation(s) for npm_proxy.
   name: Windmill npm_proxy API
   slug: windmill-npm-proxy-api
-- description: The oauth API from Windmill — 13 operation(s) for oauth.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The oauth API from Windmill — 13 operation(s) for oauth.
   name: Windmill oauth API
   slug: windmill-oauth-api
-- description: The oidc API from Windmill — 1 operation(s) for oidc.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The oidc API from Windmill — 1 operation(s) for oidc.
   name: Windmill oidc API
   slug: windmill-oidc-api
-- description: The openapi API from Windmill — 2 operation(s) for openapi.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The openapi API from Windmill — 2 operation(s) for openapi.
   name: Windmill openapi API
   slug: windmill-openapi-api
-- description: The path_autocomplete API from Windmill — 1 operation(s) for path_autocomplete.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The path_autocomplete API from Windmill — 1 operation(s) for path_autocomplete.
   name: Windmill path_autocomplete API
   slug: windmill-path-autocomplete-api
-- description: The postgres_trigger API from Windmill — 20 operation(s) for postgres_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The postgres_trigger API from Windmill — 20 operation(s) for postgres_trigger.
   name: Windmill postgres_trigger API
   slug: windmill-postgres-trigger-api
-- description: The raw_app API from Windmill — 1 operation(s) for raw_app.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The raw_app API from Windmill — 1 operation(s) for raw_app.
   name: Windmill raw_app API
   slug: windmill-raw-app-api
-- description: The resource API from Windmill — 23 operation(s) for resource.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The resource API from Windmill — 23 operation(s) for resource.
   name: Windmill resource API
   slug: windmill-resource-api
-- description: The schedule API from Windmill — 10 operation(s) for schedule.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The schedule API from Windmill — 10 operation(s) for schedule.
   name: Windmill schedule API
   slug: windmill-schedule-api
-- description: The script API from Windmill — 34 operation(s) for script.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The script API from Windmill — 34 operation(s) for script.
   name: Windmill script API
   slug: windmill-script-api
-- description: The service_logs API from Windmill — 2 operation(s) for service_logs.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The service_logs API from Windmill — 2 operation(s) for service_logs.
   name: Windmill service_logs API
   slug: windmill-service-logs-api
-- description: The setting API from Windmill — 43 operation(s) for setting.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The setting API from Windmill — 43 operation(s) for setting.
   name: Windmill setting API
   slug: windmill-setting-api
-- description: The settings API from Windmill — 4 operation(s) for settings.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The settings API from Windmill — 4 operation(s) for settings.
   name: Windmill settings API
   slug: windmill-settings-api
-- description: The sqs_trigger API from Windmill — 8 operation(s) for sqs_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The sqs_trigger API from Windmill — 8 operation(s) for sqs_trigger.
   name: Windmill sqs_trigger API
   slug: windmill-sqs-trigger-api
-- description: The teams API from Windmill — 1 operation(s) for teams.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The teams API from Windmill — 1 operation(s) for teams.
   name: Windmill teams API
   slug: windmill-teams-api
-- description: The token API from Windmill — 1 operation(s) for token.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The token API from Windmill — 1 operation(s) for token.
   name: Windmill token API
   slug: windmill-token-api
-- description: The trigger API from Windmill — 2 operation(s) for trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The trigger API from Windmill — 2 operation(s) for trigger.
   name: Windmill trigger API
   slug: windmill-trigger-api
-- description: The user API from Windmill — 53 operation(s) for user.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The user API from Windmill — 53 operation(s) for user.
   name: Windmill user API
   slug: windmill-user-api
-- description: The variable API from Windmill — 10 operation(s) for variable.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The variable API from Windmill — 10 operation(s) for variable.
   name: Windmill variable API
   slug: windmill-variable-api
-- description: The volume API from Windmill — 4 operation(s) for volume.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The volume API from Windmill — 4 operation(s) for volume.
   name: Windmill volume API
   slug: windmill-volume-api
-- description: The websocket_trigger API from Windmill — 8 operation(s) for websocket_trigger.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The websocket_trigger API from Windmill — 8 operation(s) for websocket_trigger.
   name: Windmill websocket_trigger API
   slug: windmill-websocket-trigger-api
-- description: The worker API from Windmill — 9 operation(s) for worker.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The worker API from Windmill — 9 operation(s) for worker.
   name: Windmill worker API
   slug: windmill-worker-api
-- description: The workspace API from Windmill — 96 operation(s) for workspace.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The workspace API from Windmill — 96 operation(s) for workspace.
   name: Windmill workspace API
   slug: windmill-workspace-api
-- description: The workspace_dependencies API from Windmill — 5 operation(s) for workspace_dependencies.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The workspace_dependencies API from Windmill — 5 operation(s) for workspace_dependencies.
   name: Windmill workspace_dependencies API
   slug: windmill-workspace-dependencies-api
-- description: The workspace_integration API from Windmill — 8 operation(s) for workspace_integration.
+- baseURL: https://app.windmill.dev/api
+  baseurl_source: declared
+  description: The workspace_integration API from Windmill — 8 operation(s) for workspace_integration.
   name: Windmill workspace_integration API
   slug: windmill-workspace-integration-api
 arazzos:
@@ -946,7 +1064,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:

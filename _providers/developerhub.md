@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -47,22 +47,34 @@ apis:
 - description: DeveloperHub provides a hosted platform for creating developer documentation including API references auto-generated from OpenAPI specs, user guides with a WYSIWYG editor, versioned documentation, ful
   name: DeveloperHub Documentation Platform
   slug: platform
-- description: The Documentation API from DeveloperHub — 1 operation(s) for documentation.
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: spec
+  description: The Documentation API from DeveloperHub — 1 operation(s) for documentation.
   name: DeveloperHub Documentation API
   slug: developerhub-documentation-api
-- description: The Pages API from DeveloperHub — 4 operation(s) for pages.
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: spec
+  description: The Pages API from DeveloperHub — 4 operation(s) for pages.
   name: DeveloperHub Pages API
   slug: developerhub-pages-api
-- description: The Project API from DeveloperHub — 5 operation(s) for project.
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: spec
+  description: The Project API from DeveloperHub — 5 operation(s) for project.
   name: DeveloperHub Project API
   slug: developerhub-project-api
-- description: The Reader Access API from DeveloperHub — 1 operation(s) for reader access.
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: spec
+  description: The Reader Access API from DeveloperHub — 1 operation(s) for reader access.
   name: DeveloperHub Reader Access API
   slug: developerhub-reader-access-api
-- description: The References API from DeveloperHub — 3 operation(s) for references.
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: spec
+  description: The References API from DeveloperHub — 3 operation(s) for references.
   name: DeveloperHub References API
   slug: developerhub-references-api
-- description: The Versions API from DeveloperHub — 2 operation(s) for versions.
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: spec
+  description: The Versions API from DeveloperHub — 2 operation(s) for versions.
   name: DeveloperHub Versions API
   slug: developerhub-versions-api
 artifact_total: 22
@@ -208,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/screenshots/developerhub-2026-06-20T175947.png
 security:

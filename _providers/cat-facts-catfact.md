@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,10 +42,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 2
 apis:
-- description: Catalog of cat breeds with country, origin, coat, and pattern.
+- baseURL: https://catfact.ninja
+  baseurl_source: declared
+  description: Catalog of cat breeds with country, origin, coat, and pattern.
   name: Cat Facts (catfact.ninja) Breeds API
   slug: cat-facts-catfact-breeds-api
-- description: Random cat trivia, individually or in paginated lists.
+- baseURL: https://catfact.ninja
+  baseurl_source: declared
+  description: Random cat trivia, individually or in paginated lists.
   name: Cat Facts (catfact.ninja) Facts API
   slug: cat-facts-catfact-facts-api
 artifact_total: 26
@@ -237,7 +241,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/screenshots/cat-facts-catfact-2026-06-20T174040.png
 security:

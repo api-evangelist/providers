@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 79 operations · 55 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The align API from Athenian — 3 operation(s) for align.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The align API from Athenian — 3 operation(s) for align.
   name: Athenian align API
   slug: athenian-align-api
-- description: The events API from Athenian — 4 operation(s) for events.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The events API from Athenian — 4 operation(s) for events.
   name: Athenian events API
   slug: athenian-events-api
-- description: The filter API from Athenian — 11 operation(s) for filter.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The filter API from Athenian — 11 operation(s) for filter.
   name: Athenian filter API
   slug: athenian-filter-api
-- description: The get API from Athenian — 4 operation(s) for get.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The get API from Athenian — 4 operation(s) for get.
   name: Athenian get API
   slug: athenian-get-api
-- description: The histograms API from Athenian — 3 operation(s) for histograms.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The histograms API from Athenian — 3 operation(s) for histograms.
   name: Athenian histograms API
   slug: athenian-histograms-api
-- description: The integrations API from Athenian — 2 operation(s) for integrations.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The integrations API from Athenian — 2 operation(s) for integrations.
   name: Athenian integrations API
   slug: athenian-integrations-api
-- description: The metrics API from Athenian — 7 operation(s) for metrics.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The metrics API from Athenian — 7 operation(s) for metrics.
   name: Athenian metrics API
   slug: athenian-metrics-api
-- description: The pagination API from Athenian — 1 operation(s) for pagination.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The pagination API from Athenian — 1 operation(s) for pagination.
   name: Athenian pagination API
   slug: athenian-pagination-api
-- description: The registration API from Athenian — 6 operation(s) for registration.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The registration API from Athenian — 6 operation(s) for registration.
   name: Athenian registration API
   slug: athenian-registration-api
-- description: The reposet API from Athenian — 3 operation(s) for reposet.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The reposet API from Athenian — 3 operation(s) for reposet.
   name: Athenian reposet API
   slug: athenian-reposet-api
-- description: The security API from Athenian — 3 operation(s) for security.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The security API from Athenian — 3 operation(s) for security.
   name: Athenian security API
   slug: athenian-security-api
-- description: The settings API from Athenian — 13 operation(s) for settings.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The settings API from Athenian — 13 operation(s) for settings.
   name: Athenian settings API
   slug: athenian-settings-api
-- description: The team API from Athenian — 3 operation(s) for team.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The team API from Athenian — 3 operation(s) for team.
   name: Athenian team API
   slug: athenian-team-api
-- description: The user API from Athenian — 6 operation(s) for user.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The user API from Athenian — 6 operation(s) for user.
   name: Athenian user API
   slug: athenian-user-api
-- description: The version API from Athenian — 1 operation(s) for version.
+- baseURL: https://api.athenian.co/v1
+  baseurl_source: declared
+  description: The version API from Athenian — 1 operation(s) for version.
   name: Athenian version API
   slug: athenian-version-api
 artifact_total: 36
@@ -241,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/screenshots/athenian-2026-07-25T201535.png
 security:

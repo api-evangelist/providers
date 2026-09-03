@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: API for Katalon TestOps test automation platform, providing endpoints for test case management, test execution, reports, and integration with CI/CD pipelines.
   name: Katalon TestOps API
   slug: katalon-testops-api
-- description: The Collections API from Test Cases — 2 operation(s) for collections.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Collections API from Test Cases — 2 operation(s) for collections.
   name: Test Cases Collections API
   slug: test-cases-collections-api
-- description: The Environments API from Test Cases — 2 operation(s) for environments.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Environments API from Test Cases — 2 operation(s) for environments.
   name: Test Cases Environments API
   slug: test-cases-environments-api
-- description: The Mocks API from Test Cases — 1 operation(s) for mocks.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Mocks API from Test Cases — 1 operation(s) for mocks.
   name: Test Cases Mocks API
   slug: test-cases-mocks-api
 artifact_total: 51
@@ -269,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-cases/refs/heads/main/screenshots/test-cases-2026-06-20T195140.png
 security:

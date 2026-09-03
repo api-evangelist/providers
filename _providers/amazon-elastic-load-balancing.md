@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: Operations for creating and managing listeners
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing listeners
   name: Amazon Elastic Load Balancing Listeners API
   slug: amazon-elastic-load-balancing-listeners-api
-- description: Operations for creating and managing load balancers
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing load balancers
   name: Amazon Elastic Load Balancing Load Balancers API
   slug: amazon-elastic-load-balancing-load-balancers-api
-- description: Operations for creating and managing listener rules
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing listener rules
   name: Amazon Elastic Load Balancing Rules API
   slug: amazon-elastic-load-balancing-rules-api
-- description: Operations for creating and managing target groups
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing target groups
   name: Amazon Elastic Load Balancing Target Groups API
   slug: amazon-elastic-load-balancing-target-groups-api
-- description: Operations for registering and deregistering targets
+- baseURL: https://elasticloadbalancing.amazonaws.com
+  baseurl_source: declared
+  description: Operations for registering and deregistering targets
   name: Amazon Elastic Load Balancing Targets API
   slug: amazon-elastic-load-balancing-targets-api
 arazzos:
@@ -516,7 +526,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/screenshots/amazon-elastic-load-balancing-2026-06-20T171649.png
 security:

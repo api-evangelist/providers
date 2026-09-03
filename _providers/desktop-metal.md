@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Live Platform provisions and manages Desktop Metal AM systems and users, and Live Monitor surfaces real-time fleet, printer, and furnace data (job/event status, time reporting, consumable usage, OEE) '
+- baseURL: https://www.desktopmetal.com
+  baseurl_source: spec
+  description: 'Live Platform provisions and manages Desktop Metal AM systems and users, and Live Monitor surfaces real-time fleet, printer, and furnace data (job/event status, time reporting, consumable usage, OEE) '
   name: Printer Fleet & Live Suite
   slug: printer-fleet-live-suite
-- description: Build preparation and slicing software for Desktop Metal printers. The legacy Fabricate and Fabricate MFG desktop applications have been replaced and upgraded by Live Studio (cloud build preparation f
+- baseURL: https://www.desktopmetal.com
+  baseurl_source: spec
+  description: Build preparation and slicing software for Desktop Metal printers. The legacy Fabricate and Fabricate MFG desktop applications have been replaced and upgraded by Live Studio (cloud build preparation f
   name: Fabricate Software
   slug: fabricate-software
-- description: Qualified metal, polymer, composite, ceramic, sand, and wood material portfolio for Desktop Metal's binder jet, Bound Metal Deposition, and DLP/polymer systems, with associated material parameters and
+- baseURL: https://www.desktopmetal.com
+  baseurl_source: spec
+  description: Qualified metal, polymer, composite, ceramic, sand, and wood material portfolio for Desktop Metal's binder jet, Bound Metal Deposition, and DLP/polymer systems, with associated material parameters and
   name: Materials
   slug: materials
 artifact_total: 9
@@ -127,7 +133,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/screenshots/desktop-metal-2026-06-20T175940.png
 security:

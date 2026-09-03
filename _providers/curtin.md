@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Curtin's own REST namespace on its public web platform, keyless and live. Serves the global navigation, site menu and footer shared across Curtin's federated WordPress estate, and exposes search/elast
+- baseURL: https://www.curtin.edu.au/wp-json
+  baseurl_source: declared
+  description: Curtin's own REST namespace on its public web platform, keyless and live. Serves the global navigation, site menu and footer shared across Curtin's federated WordPress estate, and exposes search/elast
   name: Curtin Web Platform API (mimas/v1)
   slug: web-platform
-- description: Curtin's most substantial self-engineered API. Keyless, CORS-open JSON serving open-access performance statistics for 60,562 institutions and every country, keyed on ROR identifiers, with a 26-year pe
+- baseURL: https://api.coki.ac
+  baseurl_source: declared
+  description: Curtin's most substantial self-engineered API. Keyless, CORS-open JSON serving open-access performance statistics for 60,562 institutions and every country, keyed on ROR identifiers, with a 26-year pe
   name: COKI Open Access Dashboard API
   slug: coki
 - description: A Shibboleth SAML 2.0 service provider that Curtin Library runs on its own Kubernetes cluster, serving its entity metadata unauthenticated as application/samlmetadata+xml at the standard Shibboleth.ss
@@ -253,7 +257,7 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -263,7 +267,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 43.6
+  previous_composite: 35.5
   provenance:
     conformance: unknown
     contracts:
@@ -278,8 +282,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/screenshots/curtin-2026-06-20T175346.png
 security:
 - kind: authentication

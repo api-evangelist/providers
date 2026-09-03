@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Pkg API from Jetify — 1 operation(s) for pkg.
+- baseURL: https://search.devbox.sh/v2
+  baseurl_source: declared
+  description: The Pkg API from Jetify — 1 operation(s) for pkg.
   name: Jetify Pkg API
   slug: jetify-pkg-api
-- description: The Resolve API from Jetify — 1 operation(s) for resolve.
+- baseURL: https://search.devbox.sh/v2
+  baseurl_source: declared
+  description: The Resolve API from Jetify — 1 operation(s) for resolve.
   name: Jetify Resolve API
   slug: jetify-resolve-api
-- description: The Search API from Jetify — 1 operation(s) for search.
+- baseURL: https://search.devbox.sh/v2
+  baseurl_source: declared
+  description: The Search API from Jetify — 1 operation(s) for search.
   name: Jetify Search API
   slug: jetify-search-api
 artifact_total: 10
@@ -214,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetify/refs/heads/main/screenshots/jetify-2026-07-25T223137.png
 security:

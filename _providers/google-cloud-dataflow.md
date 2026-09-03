@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 29 operations · 14 acting
 api_count: 1
 apis:
-- description: Operations for retrieving debug configuration and submitting debug captures.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for retrieving debug configuration and submitting debug captures.
   name: Google Cloud Dataflow Debug API
   slug: google-cloud-dataflow-debug-api
-- description: Operations for launching Dataflow Flex Templates.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for launching Dataflow Flex Templates.
   name: Google Cloud Dataflow Flex Templates API
   slug: google-cloud-dataflow-flex-templates-api
-- description: Operations for creating, managing, and monitoring Dataflow jobs.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for creating, managing, and monitoring Dataflow jobs.
   name: Google Cloud Dataflow Jobs API
   slug: google-cloud-dataflow-jobs-api
-- description: Operations for retrieving job status messages and logs.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for retrieving job status messages and logs.
   name: Google Cloud Dataflow Messages API
   slug: google-cloud-dataflow-messages-api
-- description: Operations for obtaining job and pipeline execution metrics.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for obtaining job and pipeline execution metrics.
   name: Google Cloud Dataflow Metrics API
   slug: google-cloud-dataflow-metrics-api
-- description: Operations for creating, listing, getting, and deleting job snapshots.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for creating, listing, getting, and deleting job snapshots.
   name: Google Cloud Dataflow Snapshots API
   slug: google-cloud-dataflow-snapshots-api
-- description: Operations for retrieving stage-level execution details.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for retrieving stage-level execution details.
   name: Google Cloud Dataflow Stages API
   slug: google-cloud-dataflow-stages-api
-- description: Operations for working with Dataflow classic templates.
+- baseURL: https://dataflow.googleapis.com
+  baseurl_source: declared
+  description: Operations for working with Dataflow classic templates.
   name: Google Cloud Dataflow Templates API
   slug: google-cloud-dataflow-templates-api
 arazzos:
@@ -373,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/screenshots/google-cloud-dataflow-2026-06-20T182106.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Apache Hudi (Hadoop Upserts Deletes and Incrementals) is an open-source data lakehouse platform optimized for upserts, deletes, and incremental data processing. It supports Copy-on-Write (COW) and Mer
   name: Apache Hudi
   slug: apache-hudi
-- description: Transaction commits and metadata updates
+- baseURL: https://catalog-service/
+  baseurl_source: declared
+  description: Transaction commits and metadata updates
   name: Table Format Commits API
   slug: table-format-commits-api
-- description: Catalog configuration and discovery
+- baseURL: https://catalog-service/
+  baseurl_source: declared
+  description: Catalog configuration and discovery
   name: Table Format Configuration API
   slug: table-format-configuration-api
-- description: Namespace (database/schema) management
+- baseURL: https://catalog-service/
+  baseurl_source: declared
+  description: Namespace (database/schema) management
   name: Table Format Namespaces API
   slug: table-format-namespaces-api
-- description: OAuth2 token management
+- baseURL: https://catalog-service/
+  baseurl_source: declared
+  description: OAuth2 token management
   name: Table Format OAuth2 API
   slug: table-format-oauth2-api
-- description: Table creation, listing, loading, and management
+- baseURL: https://catalog-service/
+  baseurl_source: declared
+  description: Table creation, listing, loading, and management
   name: Table Format Tables API
   slug: table-format-tables-api
-- description: View lifecycle management
+- baseURL: https://catalog-service/
+  baseurl_source: declared
+  description: View lifecycle management
   name: Table Format Views API
   slug: table-format-views-api
 artifact_total: 30
@@ -246,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/screenshots/table-format-2026-06-20T194843.png
 security:

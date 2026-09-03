@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 37 operations
 api_count: 1
 apis:
-- description: The Alerts API from CourtListener — 2 operation(s) for alerts.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Alerts API from CourtListener — 2 operation(s) for alerts.
   name: CourtListener Alerts API
   slug: court-listener-alerts-api
-- description: The Audio API from CourtListener — 2 operation(s) for audio.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Audio API from CourtListener — 2 operation(s) for audio.
   name: CourtListener Audio API
   slug: court-listener-audio-api
-- description: The Citation API from CourtListener — 1 operation(s) for citation.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Citation API from CourtListener — 1 operation(s) for citation.
   name: CourtListener Citation API
   slug: court-listener-citation-api
-- description: The Cited By API from CourtListener — 1 operation(s) for cited by.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Cited By API from CourtListener — 1 operation(s) for cited by.
   name: CourtListener Cited By API
   slug: court-listener-cited-by-api
-- description: The Cites API from CourtListener — 1 operation(s) for cites.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Cites API from CourtListener — 1 operation(s) for cites.
   name: CourtListener Cites API
   slug: court-listener-cites-api
-- description: The Courts API from CourtListener — 2 operation(s) for courts.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Courts API from CourtListener — 2 operation(s) for courts.
   name: CourtListener Courts API
   slug: court-listener-courts-api
-- description: The Coverage API from CourtListener — 1 operation(s) for coverage.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Coverage API from CourtListener — 1 operation(s) for coverage.
   name: CourtListener Coverage API
   slug: court-listener-coverage-api
-- description: The Docket Alerts API from CourtListener — 2 operation(s) for docket alerts.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Docket Alerts API from CourtListener — 2 operation(s) for docket alerts.
   name: CourtListener Docket Alerts API
   slug: court-listener-docket-alerts-api
-- description: The Docket Entries API from CourtListener — 2 operation(s) for docket entries.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Docket Entries API from CourtListener — 2 operation(s) for docket entries.
   name: CourtListener Docket Entries API
   slug: court-listener-docket-entries-api
-- description: The Dockets API from CourtListener — 2 operation(s) for dockets.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Dockets API from CourtListener — 2 operation(s) for dockets.
   name: CourtListener Dockets API
   slug: court-listener-dockets-api
-- description: The Financial Disclosures API from CourtListener — 2 operation(s) for financial disclosures.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Financial Disclosures API from CourtListener — 2 operation(s) for financial disclosures.
   name: CourtListener Financial Disclosures API
   slug: court-listener-financial-disclosures-api
-- description: The FJC Database API from CourtListener — 2 operation(s) for fjc database.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The FJC Database API from CourtListener — 2 operation(s) for fjc database.
   name: CourtListener FJC Database API
   slug: court-listener-fjc-database-api
-- description: The Jurisdiction API from CourtListener — 1 operation(s) for jurisdiction.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Jurisdiction API from CourtListener — 1 operation(s) for jurisdiction.
   name: CourtListener Jurisdiction API
   slug: court-listener-jurisdiction-api
-- description: The Opinion API from CourtListener — 1 operation(s) for opinion.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Opinion API from CourtListener — 1 operation(s) for opinion.
   name: CourtListener Opinion API
   slug: court-listener-opinion-api
-- description: The Opinion Clusters API from CourtListener — 2 operation(s) for opinion clusters.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Opinion Clusters API from CourtListener — 2 operation(s) for opinion clusters.
   name: CourtListener Opinion Clusters API
   slug: court-listener-opinion-clusters-api
-- description: The Opinions API from CourtListener — 2 operation(s) for opinions.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Opinions API from CourtListener — 2 operation(s) for opinions.
   name: CourtListener Opinions API
   slug: court-listener-opinions-api
-- description: The People API from CourtListener — 2 operation(s) for people.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The People API from CourtListener — 2 operation(s) for people.
   name: CourtListener People API
   slug: court-listener-people-api
-- description: The Positions API from CourtListener — 2 operation(s) for positions.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Positions API from CourtListener — 2 operation(s) for positions.
   name: CourtListener Positions API
   slug: court-listener-positions-api
-- description: The RECAP Documents API from CourtListener — 2 operation(s) for recap documents.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The RECAP Documents API from CourtListener — 2 operation(s) for recap documents.
   name: CourtListener RECAP Documents API
   slug: court-listener-recap-documents-api
-- description: The Search API from CourtListener — 3 operation(s) for search.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Search API from CourtListener — 3 operation(s) for search.
   name: CourtListener Search API
   slug: court-listener-search-api
-- description: The Visualizations API from CourtListener — 2 operation(s) for visualizations.
+- baseURL: https://www.courtlistener.com/api/rest/v4/
+  baseurl_source: declared
+  description: The Visualizations API from CourtListener — 2 operation(s) for visualizations.
   name: CourtListener Visualizations API
   slug: court-listener-visualizations-api
 artifact_total: 67
@@ -357,7 +399,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/screenshots/court-listener-2026-06-20T175112.png
 security:

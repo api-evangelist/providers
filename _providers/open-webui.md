@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'REST API exposed by a self-hosted Open WebUI instance. Endpoints cover chat completions (proxying upstream backends like Ollama or OpenAI-compatible servers), models, prompts, knowledge bases, files, '
   name: Open WebUI API
   slug: platform
-- description: The Anthropic API from Open WebUI — 1 operation(s) for anthropic.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The Anthropic API from Open WebUI — 1 operation(s) for anthropic.
   name: Open WebUI Anthropic API
   slug: open-webui-anthropic-api
-- description: The Chat API from Open WebUI — 1 operation(s) for chat.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The Chat API from Open WebUI — 1 operation(s) for chat.
   name: Open WebUI Chat API
   slug: open-webui-chat-api
-- description: The Ollama API from Open WebUI — 3 operation(s) for ollama.
+- baseURL: http://localhost:3000/api/v1
+  baseurl_source: declared
+  description: The Ollama API from Open WebUI — 3 operation(s) for ollama.
   name: Open WebUI Ollama API
   slug: open-webui-ollama-api
 artifact_total: 15
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/screenshots/open-webui-2026-06-20T190859.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 40 operations · 25 acting
 api_count: 1
 apis:
-- description: The Custom fields API from Shiftmove — 2 operation(s) for custom fields.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Custom fields API from Shiftmove — 2 operation(s) for custom fields.
   name: Shiftmove Custom fields API
   slug: shiftmove-custom-fields-api
-- description: The Driver assignments API from Shiftmove — 4 operation(s) for driver assignments.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Driver assignments API from Shiftmove — 4 operation(s) for driver assignments.
   name: Shiftmove Driver assignments API
   slug: shiftmove-driver-assignments-api
-- description: The Drivers API from Shiftmove — 5 operation(s) for drivers.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Drivers API from Shiftmove — 5 operation(s) for drivers.
   name: Shiftmove Drivers API
   slug: shiftmove-drivers-api
-- description: The Invoices API from Shiftmove — 4 operation(s) for invoices.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Invoices API from Shiftmove — 4 operation(s) for invoices.
   name: Shiftmove Invoices API
   slug: shiftmove-invoices-api
-- description: The Organizations API from Shiftmove — 1 operation(s) for organizations.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Organizations API from Shiftmove — 1 operation(s) for organizations.
   name: Shiftmove Organizations API
   slug: shiftmove-organizations-api
-- description: The Vehicle assignments API from Shiftmove — 4 operation(s) for vehicle assignments.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Vehicle assignments API from Shiftmove — 4 operation(s) for vehicle assignments.
   name: Shiftmove Vehicle assignments API
   slug: shiftmove-vehicle-assignments-api
-- description: The Vehicle financing API from Shiftmove — 1 operation(s) for vehicle financing.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Vehicle financing API from Shiftmove — 1 operation(s) for vehicle financing.
   name: Shiftmove Vehicle financing API
   slug: shiftmove-vehicle-financing-api
-- description: The Vehicle license plates API from Shiftmove — 3 operation(s) for vehicle license plates.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Vehicle license plates API from Shiftmove — 3 operation(s) for vehicle license plates.
   name: Shiftmove Vehicle license plates API
   slug: shiftmove-vehicle-license-plates-api
-- description: The Vehicle usages API from Shiftmove — 1 operation(s) for vehicle usages.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Vehicle usages API from Shiftmove — 1 operation(s) for vehicle usages.
   name: Shiftmove Vehicle usages API
   slug: shiftmove-vehicle-usages-api
-- description: The Vehicles API from Shiftmove — 7 operation(s) for vehicles.
+- baseURL: https://api.avrios.com
+  baseurl_source: declared
+  description: The Vehicles API from Shiftmove — 7 operation(s) for vehicles.
   name: Shiftmove Vehicles API
   slug: shiftmove-vehicles-api
 artifact_total: 27
@@ -256,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shiftmove/refs/heads/main/screenshots/shiftmove-2026-08-17T081831.png
 security:

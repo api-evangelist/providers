@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: DagsHub provides a DVC remote and S3-compatible storage endpoint per repo for versioned data and model artifacts.
   name: DagsHub DVC / S3-Compatible Storage
   slug: dagshub-dvc-remote
-- description: The Branches API from DagsHub — 2 operation(s) for branches.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The Branches API from DagsHub — 2 operation(s) for branches.
   name: DagsHub Branches API
   slug: dagshub-branches-api
-- description: The Issues API from DagsHub — 3 operation(s) for issues.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The Issues API from DagsHub — 3 operation(s) for issues.
   name: DagsHub Issues API
   slug: dagshub-issues-api
-- description: The Orgs API from DagsHub — 2 operation(s) for orgs.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The Orgs API from DagsHub — 2 operation(s) for orgs.
   name: DagsHub Orgs API
   slug: dagshub-orgs-api
-- description: The PullRequests API from DagsHub — 2 operation(s) for pullrequests.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The PullRequests API from DagsHub — 2 operation(s) for pullrequests.
   name: DagsHub PullRequests API
   slug: dagshub-pullrequests-api
-- description: The Repos API from DagsHub — 2 operation(s) for repos.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The Repos API from DagsHub — 2 operation(s) for repos.
   name: DagsHub Repos API
   slug: dagshub-repos-api
-- description: The Storage API from DagsHub — 2 operation(s) for storage.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The Storage API from DagsHub — 2 operation(s) for storage.
   name: DagsHub Storage API
   slug: dagshub-storage-api
-- description: The User API from DagsHub — 3 operation(s) for user.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The User API from DagsHub — 3 operation(s) for user.
   name: DagsHub User API
   slug: dagshub-user-api
-- description: The Users API from DagsHub — 2 operation(s) for users.
+- baseURL: https://dagshub.com/api/v1
+  baseurl_source: declared
+  description: The Users API from DagsHub — 2 operation(s) for users.
   name: DagsHub Users API
   slug: dagshub-users-api
 artifact_total: 27
@@ -210,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/screenshots/dagshub-2026-06-20T175441.png
 security:

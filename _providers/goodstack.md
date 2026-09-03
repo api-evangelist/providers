@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 62 operations · 28 acting
 api_count: 1
 apis:
-- description: The Activities API from Goodstack — 2 operation(s) for activities.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Activities API from Goodstack — 2 operation(s) for activities.
   name: Goodstack Activities API
   slug: goodstack-activities-api
-- description: 'Agent verification is a one-off check. It is used to confirm that: 1. The person applying is who they say they are. 2. They represent the nonprofit. They are not editable once created.'
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: 'Agent verification is a one-off check. It is used to confirm that: 1. The person applying is who they say they are. 2. They represent the nonprofit. They are not editable once created.'
   name: Goodstack Agent Verifications API
   slug: goodstack-agent-verifications-api
-- description: Categories represent collections of Organisations, which can be used to group and filter Organisations.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Categories represent collections of Organisations, which can be used to group and filter Organisations.
   name: Goodstack Categories API
   slug: goodstack-categories-api
-- description: The Countries API from Goodstack — 1 operation(s) for countries.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Countries API from Goodstack — 1 operation(s) for countries.
   name: Goodstack Countries API
   slug: goodstack-countries-api
-- description: The Donation Sessions API from Goodstack — 2 operation(s) for donation sessions.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Donation Sessions API from Goodstack — 2 operation(s) for donation sessions.
   name: Goodstack Donation Sessions API
   slug: goodstack-donation-sessions-api
-- description: A Donation object tracks the lifecycle of a Donation from creation and payment to disbursement to the nonprofit. Donations can be created during a Donation Session by the Hosted Donation Gateway or cr
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: A Donation object tracks the lifecycle of a Donation from creation and payment to disbursement to the nonprofit. Donations can be created during a Donation Session by the Hosted Donation Gateway or cr
   name: Goodstack Donations API
   slug: goodstack-donations-api
-- description: The Eligibility Subscriptions API from Goodstack — 3 operation(s) for eligibility subscriptions.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Eligibility Subscriptions API from Goodstack — 3 operation(s) for eligibility subscriptions.
   name: Goodstack Eligibility Subscriptions API
   slug: goodstack-eligibility-subscriptions-api
-- description: The Gift Aid API from Goodstack — 2 operation(s) for gift aid.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Gift Aid API from Goodstack — 2 operation(s) for gift aid.
   name: Goodstack Gift Aid API
   slug: goodstack-gift-aid-api
-- description: The Monitoring Subscriptions API from Goodstack — 3 operation(s) for monitoring subscriptions.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Monitoring Subscriptions API from Goodstack — 3 operation(s) for monitoring subscriptions.
   name: Goodstack Monitoring Subscriptions API
   slug: goodstack-monitoring-subscriptions-api
-- description: The Org name search API from Goodstack — 1 operation(s) for org name search.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Org name search API from Goodstack — 1 operation(s) for org name search.
   name: Goodstack Org name search API
   slug: goodstack-org-name-search-api
-- description: The Organisation API from Goodstack — 1 operation(s) for organisation.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Organisation API from Goodstack — 1 operation(s) for organisation.
   name: Goodstack Organisation API
   slug: goodstack-organisation-api
-- description: Nonprofits are represented by the Organisation object. You can retrieve and query for Organisations.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: Nonprofits are represented by the Organisation object. You can retrieve and query for Organisations.
   name: Goodstack Organisations API
   slug: goodstack-organisations-api
-- description: The Registries API from Goodstack — 2 operation(s) for registries.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Registries API from Goodstack — 2 operation(s) for registries.
   name: Goodstack Registries API
   slug: goodstack-registries-api
-- description: The User object represents a user of your application. It can be used to track Donations that belong to that user.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The User object represents a user of your application. It can be used to track Donations that belong to that user.
   name: Goodstack Users API
   slug: goodstack-users-api
-- description: The Validation Invites API from Goodstack — 1 operation(s) for validation invites.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Validation Invites API from Goodstack — 1 operation(s) for validation invites.
   name: Goodstack Validation Invites API
   slug: goodstack-validation-invites-api
-- description: The Validation Request Documents API from Goodstack — 1 operation(s) for validation request documents.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Validation Request Documents API from Goodstack — 1 operation(s) for validation request documents.
   name: Goodstack Validation Request Documents API
   slug: goodstack-validation-request-documents-api
-- description: If you want to know if a nonprofit exists in an official registry, create a Validation Request and we will check it for you. Documentary evidence can be attached to a Validation Request. When a Valida
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: If you want to know if a nonprofit exists in an official registry, create a Validation Request and we will check it for you. Documentary evidence can be attached to a Validation Request. When a Valida
   name: Goodstack Validation Requests API
   slug: goodstack-validation-requests-api
-- description: The Validation Submission Configuration API from Goodstack — 2 operation(s) for validation submission configuration.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Validation Submission Configuration API from Goodstack — 2 operation(s) for validation submission configuration.
   name: Goodstack Validation Submission Configuration API
   slug: goodstack-validation-submission-configuration-api
-- description: The Validation Submission Documents API from Goodstack — 2 operation(s) for validation submission documents.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Validation Submission Documents API from Goodstack — 2 operation(s) for validation submission documents.
   name: Goodstack Validation Submission Documents API
   slug: goodstack-validation-submission-documents-api
-- description: The Validation Submissions API from Goodstack — 2 operation(s) for validation submissions.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Validation Submissions API from Goodstack — 2 operation(s) for validation submissions.
   name: Goodstack Validation Submissions API
   slug: goodstack-validation-submissions-api
-- description: The Webhook Subscriptions API from Goodstack — 2 operation(s) for webhook subscriptions.
+- baseURL: https://api.goodstack.io/v1
+  baseurl_source: declared
+  description: The Webhook Subscriptions API from Goodstack — 2 operation(s) for webhook subscriptions.
   name: Goodstack Webhook Subscriptions API
   slug: goodstack-webhook-subscriptions-api
 artifact_total: 48
@@ -323,7 +365,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -333,7 +375,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,7 +393,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
 security:

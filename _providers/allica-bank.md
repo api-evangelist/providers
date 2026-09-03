@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -39,52 +52,84 @@ apis:
 - description: OBIE Dynamic Client Registration (DCR) v3.2 endpoint used by regulated Third Party Providers to register OAuth clients with Allica Bank using Software Statement Assertions issued by the Open Banking D
   name: Allica Bank Dynamic Client Registration API
   slug: allica-bank-dynamic-client-registration-api
-- description: The Account Access API from Allica Bank — 2 operation(s) for account access.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Account Access API from Allica Bank — 2 operation(s) for account access.
   name: Allica Bank Account Access API
   slug: allica-bank-account-access-api
-- description: The Accounts API from Allica Bank — 2 operation(s) for accounts.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Accounts API from Allica Bank — 2 operation(s) for accounts.
   name: Allica Bank Accounts API
   slug: allica-bank-accounts-api
-- description: The Balances API from Allica Bank — 2 operation(s) for balances.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Balances API from Allica Bank — 2 operation(s) for balances.
   name: Allica Bank Balances API
   slug: allica-bank-balances-api
-- description: The Beneficiaries API from Allica Bank — 1 operation(s) for beneficiaries.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from Allica Bank — 1 operation(s) for beneficiaries.
   name: Allica Bank Beneficiaries API
   slug: allica-bank-beneficiaries-api
-- description: The Direct Debits API from Allica Bank — 1 operation(s) for direct debits.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Direct Debits API from Allica Bank — 1 operation(s) for direct debits.
   name: Allica Bank Direct Debits API
   slug: allica-bank-direct-debits-api
-- description: The Domestic Payments API from Allica Bank — 5 operation(s) for domestic payments.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Payments API from Allica Bank — 5 operation(s) for domestic payments.
   name: Allica Bank Domestic Payments API
   slug: allica-bank-domestic-payments-api
-- description: The Domestic Scheduled Payments API from Allica Bank — 4 operation(s) for domestic scheduled payments.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Allica Bank — 4 operation(s) for domestic scheduled payments.
   name: Allica Bank Domestic Scheduled Payments API
   slug: allica-bank-domestic-scheduled-payments-api
-- description: The Domestic Standing Orders API from Allica Bank — 4 operation(s) for domestic standing orders.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Allica Bank — 4 operation(s) for domestic standing orders.
   name: Allica Bank Domestic Standing Orders API
   slug: allica-bank-domestic-standing-orders-api
-- description: The File Payments API from Allica Bank — 5 operation(s) for file payments.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The File Payments API from Allica Bank — 5 operation(s) for file payments.
   name: Allica Bank File Payments API
   slug: allica-bank-file-payments-api
-- description: The Offers API from Allica Bank — 1 operation(s) for offers.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Offers API from Allica Bank — 1 operation(s) for offers.
   name: Allica Bank Offers API
   slug: allica-bank-offers-api
-- description: The Parties API from Allica Bank — 2 operation(s) for parties.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Parties API from Allica Bank — 2 operation(s) for parties.
   name: Allica Bank Parties API
   slug: allica-bank-parties-api
-- description: The Payment Details API from Allica Bank — 3 operation(s) for payment details.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Payment Details API from Allica Bank — 3 operation(s) for payment details.
   name: Allica Bank Payment Details API
   slug: allica-bank-payment-details-api
-- description: The Products API from Allica Bank — 1 operation(s) for products.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Products API from Allica Bank — 1 operation(s) for products.
   name: Allica Bank Products API
   slug: allica-bank-products-api
-- description: The Scheduled Payments API from Allica Bank — 1 operation(s) for scheduled payments.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Scheduled Payments API from Allica Bank — 1 operation(s) for scheduled payments.
   name: Allica Bank Scheduled Payments API
   slug: allica-bank-scheduled-payments-api
-- description: The Standing Orders API from Allica Bank — 1 operation(s) for standing orders.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Standing Orders API from Allica Bank — 1 operation(s) for standing orders.
   name: Allica Bank Standing Orders API
   slug: allica-bank-standing-orders-api
-- description: The Transactions API from Allica Bank — 1 operation(s) for transactions.
+- baseURL: https://rs1.api.ob.allica.bank/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Transactions API from Allica Bank — 1 operation(s) for transactions.
   name: Allica Bank Transactions API
   slug: allica-bank-transactions-api
 artifact_total: 24
@@ -276,7 +321,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
 security:

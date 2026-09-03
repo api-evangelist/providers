@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -46,37 +46,59 @@ apis:
 - description: High-performance gRPC API for model inference with support for streaming and binary tensor data.
   name: Triton GRPC API
   slug: triton-grpc-api
-- description: CUDA shared memory region management
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: CUDA shared memory region management
   name: Triton Inference Server CUDA Shared Memory API
   slug: triton-cuda-shared-memory-api
-- description: Server and model health and readiness checks
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Server and model health and readiness checks
   name: Triton Inference Server Health API
   slug: triton-health-api
-- description: Model inference requests
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Model inference requests
   name: Triton Inference Server Inference API
   slug: triton-inference-api
-- description: Server logging configuration
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Server logging configuration
   name: Triton Inference Server Logging API
   slug: triton-logging-api
-- description: Prometheus-compatible metrics endpoints
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Prometheus-compatible metrics endpoints
   name: Triton Inference Server Metrics API
   slug: triton-metrics-api
-- description: Model-level metadata, configuration, and statistics
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Model-level metadata, configuration, and statistics
   name: Triton Inference Server Model Metadata API
   slug: triton-model-metadata-api
-- description: Model repository management operations
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Model repository management operations
   name: Triton Inference Server Model Repository API
   slug: triton-model-repository-api
-- description: Server-level metadata and information
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Server-level metadata and information
   name: Triton Inference Server Server Metadata API
   slug: triton-server-metadata-api
-- description: Server and model inference statistics
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Server and model inference statistics
   name: Triton Inference Server Statistics API
   slug: triton-statistics-api
-- description: System shared memory region management
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: System shared memory region management
   name: Triton Inference Server System Shared Memory API
   slug: triton-system-shared-memory-api
-- description: Request tracing configuration
+- baseURL: http://localhost:8000
+  baseurl_source: declared
+  description: Request tracing configuration
   name: Triton Inference Server Trace API
   slug: triton-trace-api
 artifact_total: 39
@@ -338,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
 slug: triton

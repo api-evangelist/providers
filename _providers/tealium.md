@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Enables bulk import and export of event and audience data between Tealium and external systems. Supports the Tealium Events App for streaming event records. Rate limits are 500 events per second and 5
   name: Tealium Data Connect API
   slug: tealium-data-connect-api
-- description: The Auth API from Tealium — 1 operation(s) for auth.
+- baseURL: https://platform.tealiumapis.com/v3
+  baseurl_source: declared
+  description: The Auth API from Tealium — 1 operation(s) for auth.
   name: Tealium Auth API
   slug: tealium-auth-api
-- description: The Collect API from Tealium — 6 operation(s) for collect.
+- baseURL: https://platform.tealiumapis.com/v3
+  baseurl_source: declared
+  description: The Collect API from Tealium — 6 operation(s) for collect.
   name: Tealium Collect API
   slug: tealium-collect-api
-- description: The Customer API from Tealium — 2 operation(s) for customer.
+- baseURL: https://platform.tealiumapis.com/v3
+  baseurl_source: declared
+  description: The Customer API from Tealium — 2 operation(s) for customer.
   name: Tealium Customer API
   slug: tealium-customer-api
-- description: The Personalization API from Tealium — 2 operation(s) for personalization.
+- baseURL: https://platform.tealiumapis.com/v3
+  baseurl_source: declared
+  description: The Personalization API from Tealium — 2 operation(s) for personalization.
   name: Tealium Personalization API
   slug: tealium-personalization-api
-- description: The Privacy API from Tealium — 3 operation(s) for privacy.
+- baseURL: https://platform.tealiumapis.com/v3
+  baseurl_source: declared
+  description: The Privacy API from Tealium — 3 operation(s) for privacy.
   name: Tealium Privacy API
   slug: tealium-privacy-api
-- description: The Wp Json API from Tealium — 3 operation(s) for wp json.
+- baseURL: https://platform.tealiumapis.com/v3
+  baseurl_source: declared
+  description: The Wp Json API from Tealium — 3 operation(s) for wp json.
   name: Tealium Wp Json API
   slug: tealium-wp-json-api
 artifact_total: 39
@@ -365,7 +377,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -375,7 +387,7 @@ score:
     discoverability: 81.5
     governance: 43.2
     operational_transparency: 44.7
-  previous_composite: 68.3
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -387,7 +399,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/screenshots/tealium-2026-06-20T194955.png
 security:

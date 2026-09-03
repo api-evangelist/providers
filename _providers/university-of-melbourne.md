@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The University's own Shibboleth identity provider, entityID https://idp.unimelb.edu.au/idp/shibboleth, serving public SAML 2.0 metadata at that URL (verified 200 application/xml, 2026-08-19) with an I
@@ -51,16 +51,24 @@ apis:
 - description: TENANT RELATIONSHIP, and a weak one. The University of Melbourne runs a Boomi-based internal API management programme and developer portal for staff and students. It is gated behind University authent
   name: Internal API Management Programme (Boomi tenancy) — Gated
   slug: boomi-internal-api-portal
-- description: Repository content hierarchy
+- baseURL: https://sudo.eresearch.unimelb.edu.au/api/v2
+  baseurl_source: declared
+  description: Repository content hierarchy
   name: University of Melbourne Core API
   slug: university-of-melbourne-core-api
-- description: Spatial datasets held in the observatory
+- baseURL: https://sudo.eresearch.unimelb.edu.au/api/v2
+  baseurl_source: declared
+  description: Spatial datasets held in the observatory
   name: University of Melbourne Datasets API
   slug: university-of-melbourne-datasets-api
-- description: HAL root document
+- baseURL: https://sudo.eresearch.unimelb.edu.au/api/v2
+  baseurl_source: declared
+  description: HAL root document
   name: University of Melbourne Discovery API
   slug: university-of-melbourne-discovery-api
-- description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
+- baseURL: https://sudo.eresearch.unimelb.edu.au/api/v2
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
   name: University of Melbourne OAI PMH API
   slug: university-of-melbourne-oai-pmh-api
 artifact_total: 26
@@ -278,7 +286,7 @@ score:
     catalog_gap: 38.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -288,7 +296,7 @@ score:
     discoverability: 64.8
     governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 38.7
+  previous_composite: 39.0
   provenance:
     conformance: first-party
     contracts:
@@ -303,7 +311,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png
 security:

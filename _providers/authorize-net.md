@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Authorize.net Webhooks deliver real-time event notifications for transaction, subscription, and fraud management events to merchant-configured HTTP endpoints.
   name: Authorize.net Webhooks
   slug: authorize-net-webhooks
-- description: Charge, authorize, capture, void and refund transactions.
+- baseURL: https://api.authorize.net/xml/v1/request.api
+  baseurl_source: declared
+  description: Charge, authorize, capture, void and refund transactions.
   name: Authorize.net Transactions API
   slug: authorize-net-transactions-api
 artifact_total: 36
@@ -286,7 +288,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/screenshots/authorize-net-2026-06-20T172612.png
 security:

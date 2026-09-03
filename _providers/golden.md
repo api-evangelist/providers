@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Entity API API from Golden — 2 operation(s) for entity api.
+- baseURL: https://golden.com/api/v2/public
+  baseurl_source: declared
+  description: The Entity API API from Golden — 2 operation(s) for entity api.
   name: Golden Entity API API
   slug: golden-entity-api-api
-- description: The Query API API from Golden — 2 operation(s) for query api.
+- baseURL: https://golden.com/api/v2/public
+  baseurl_source: declared
+  description: The Query API API from Golden — 2 operation(s) for query api.
   name: Golden Query API API
   slug: golden-query-api-api
-- description: The Schema API API from Golden — 4 operation(s) for schema api.
+- baseURL: https://golden.com/api/v2/public
+  baseurl_source: declared
+  description: The Schema API API from Golden — 4 operation(s) for schema api.
   name: Golden Schema API API
   slug: golden-schema-api-api
 artifact_total: 13
@@ -227,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/screenshots/golden-2026-07-25T220025.png
 security:

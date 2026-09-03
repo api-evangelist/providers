@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage named CSV datasets used as lookup sources.
+- baseURL: https://api.mockaroo.com
+  baseurl_source: declared
+  description: Manage named CSV datasets used as lookup sources.
   name: Mockaroo Datasets API
   slug: mockaroo-datasets-api
-- description: Manage long-running background generation jobs.
+- baseURL: https://api.mockaroo.com
+  baseurl_source: declared
+  description: Manage long-running background generation jobs.
   name: Mockaroo Downloads API
   slug: mockaroo-downloads-api
-- description: Generate mock data records on demand in multiple formats.
+- baseURL: https://api.mockaroo.com
+  baseurl_source: declared
+  description: Generate mock data records on demand in multiple formats.
   name: Mockaroo Generate API
   slug: mockaroo-generate-api
-- description: Discover available built-in field types.
+- baseURL: https://api.mockaroo.com
+  baseurl_source: declared
+  description: Discover available built-in field types.
   name: Mockaroo Types API
   slug: mockaroo-types-api
 artifact_total: 75
@@ -417,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockaroo/refs/heads/main/screenshots/mockaroo-2026-06-20T185637.png
 security:

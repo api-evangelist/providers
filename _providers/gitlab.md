@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -129,52 +129,84 @@ apis:
 - description: The GitLab Namespaces API provides programmatic access to manage namespaces in GitLab. It supports listing namespaces, retrieving namespace details, and verifying namespace existence, which is essenti
   name: GitLab Namespaces API
   slug: apiv4namespaces
-- description: The Admin API from GitLab — 11 operation(s) for admin.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Admin API from GitLab — 11 operation(s) for admin.
   name: GitLab Admin API
   slug: gitlab-admin-api
-- description: The Application API from GitLab — 2 operation(s) for application.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Application API from GitLab — 2 operation(s) for application.
   name: GitLab Application API
   slug: gitlab-application-api
-- description: The Applications API from GitLab — 2 operation(s) for applications.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Applications API from GitLab — 2 operation(s) for applications.
   name: GitLab Applications API
   slug: gitlab-applications-api
-- description: Endpoints for initiating OAuth authorization flows.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: Endpoints for initiating OAuth authorization flows.
   name: GitLab Authorization API
   slug: gitlab-authorization-api
-- description: The Avatar API from GitLab — 1 operation(s) for avatar.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Avatar API from GitLab — 1 operation(s) for avatar.
   name: GitLab Avatar API
   slug: gitlab-avatar-api
-- description: The Broadcast Messages API from GitLab — 2 operation(s) for broadcast messages.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Broadcast Messages API from GitLab — 2 operation(s) for broadcast messages.
   name: GitLab Broadcast Messages API
   slug: gitlab-broadcast-messages-api
-- description: The Bulk Imports API from GitLab — 5 operation(s) for bulk imports.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Bulk Imports API from GitLab — 5 operation(s) for bulk imports.
   name: GitLab Bulk Imports API
   slug: gitlab-bulk-imports-api
-- description: The Groups API from GitLab — 6 operation(s) for groups.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Groups API from GitLab — 6 operation(s) for groups.
   name: GitLab Groups API
   slug: gitlab-groups-api
-- description: The Metadata API from GitLab — 1 operation(s) for metadata.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Metadata API from GitLab — 1 operation(s) for metadata.
   name: GitLab Metadata API
   slug: gitlab-metadata-api
-- description: Manage webhooks for a specific project.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: Manage webhooks for a specific project.
   name: GitLab Project Webhooks API
   slug: gitlab-project-webhooks-api
-- description: The Projects API from GitLab — 17 operation(s) for projects.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Projects API from GitLab — 17 operation(s) for projects.
   name: GitLab Projects API
   slug: gitlab-projects-api
-- description: Endpoints for exchanging, refreshing, and revoking OAuth tokens.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: Endpoints for exchanging, refreshing, and revoking OAuth tokens.
   name: GitLab Tokens API
   slug: gitlab-tokens-api
-- description: Endpoints for retrieving authenticated user information via OAuth.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: Endpoints for retrieving authenticated user information via OAuth.
   name: GitLab User Info API
   slug: gitlab-user-info-api
-- description: The Version API from GitLab — 1 operation(s) for version.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: The Version API from GitLab — 1 operation(s) for version.
   name: GitLab Version API
   slug: gitlab-version-api
-- description: Manage custom headers and URL variables for webhooks.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: Manage custom headers and URL variables for webhooks.
   name: GitLab Webhook Configuration API
   slug: gitlab-webhook-configuration-api
-- description: Access webhook delivery history and resend events.
+- baseURL: https://gitlab.com/api/graphql
+  baseurl_source: declared
+  description: Access webhook delivery history and resend events.
   name: GitLab Webhook Events API
   slug: gitlab-webhook-events-api
 arazzos:
@@ -1272,7 +1304,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1282,7 +1314,7 @@ score:
     discoverability: 66.7
     governance: 31.8
     operational_transparency: 60.5
-  previous_composite: 65.2
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1293,7 +1325,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Business insurance claim reporting and management
+- baseURL: https://api.travelers.com/v1
+  baseurl_source: declared
+  description: Business insurance claim reporting and management
   name: Travelers Claims API
   slug: travelers-claims-api
-- description: Policy information and management
+- baseURL: https://api.travelers.com/v1
+  baseurl_source: declared
+  description: Policy information and management
   name: Travelers Policies API
   slug: travelers-policies-api
-- description: Commercial insurance quoting and policy pricing
+- baseURL: https://api.travelers.com/v1
+  baseurl_source: declared
+  description: Commercial insurance quoting and policy pricing
   name: Travelers Quoting API
   slug: travelers-quoting-api
 artifact_total: 22
@@ -239,7 +245,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png
 security:

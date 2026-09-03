@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 86 operations · 30 acting
 api_count: 1
 apis:
-- description: Components defining quantity and relationships within product bundles — retrieve, update quantity, and destroy
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Components defining quantity and relationships within product bundles — retrieve, update quantity, and destroy
   name: Whiplash Bundle Items API
   slug: whiplash-bundle-items-api
-- description: Goods returning from end consumers — list, create (single/bulk), count, retrieve, update, destroy, and meta fields
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Goods returning from end consumers — list, create (single/bulk), count, retrieve, update, destroy, and meta fields
   name: Whiplash Consumer Returns API
   slug: whiplash-consumer-returns-api
-- description: Customer management — list, count, retrieve, update, and available actions
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Customer management — list, count, retrieve, update, and available actions
   name: Whiplash Customers API
   slug: whiplash-customers-api
-- description: Document handling — list, create, retrieve, destroy, and actions
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Document handling — list, create, retrieve, destroy, and actions
   name: Whiplash Documents API
   slug: whiplash-documents-api
-- description: Inventory item management — list, create, count, retrieve, update, archive, bundles, actions, locations, meta fields, originators, scancodes, history, and stock by warehouse
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Inventory item management — list, create, count, retrieve, update, archive, bundles, actions, locations, meta fields, originators, scancodes, history, and stock by warehouse
   name: Whiplash Items API
   slug: whiplash-items-api
-- description: Event tracking — list and retrieve
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Event tracking — list and retrieve
   name: Whiplash Notification Events API
   slug: whiplash-notification-events-api
-- description: Webhook subscription management — list, create, count, retrieve, update, delete, and test
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Webhook subscription management — list, create, count, retrieve, update, delete, and test
   name: Whiplash Notification Subscriptions API
   slug: whiplash-notification-subscriptions-api
-- description: Order processing — full CRUD, bulk creation, actions, customs info, history, documents, items, serial numbers, shipping details, and wholesale
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Order processing — full CRUD, bulk creation, actions, customs info, history, documents, items, serial numbers, shipping details, and wholesale
   name: Whiplash Orders API
   slug: whiplash-orders-api
-- description: Incoming inventory shipments — list, create, bulk operations, count, retrieve, update, destroy, items, and meta fields
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Incoming inventory shipments — list, create, bulk operations, count, retrieve, update, destroy, items, and meta fields
   name: Whiplash Shipnotices API
   slug: whiplash-shipnotices-api
-- description: Simulation endpoints for testing order, consumer return, and shipnotice processing in sandbox environments
+- baseURL: https://api.getwhiplash.com
+  baseurl_source: declared
+  description: Simulation endpoints for testing order, consumer return, and shipnotice processing in sandbox environments
   name: Whiplash Simulate API
   slug: whiplash-simulate-api
 artifact_total: 39
@@ -273,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/screenshots/whiplash-2026-08-17T130420.png
 security:

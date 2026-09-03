@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 43 operations · 21 acting
 api_count: 2
 apis:
-- description: Audit trail of user and system activities
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Audit trail of user and system activities
   name: Sysdig Activity Audit API
   slug: sysdig-activity-audit-api
-- description: Manage monitoring alerts and alert notifications
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Manage monitoring alerts and alert notifications
   name: Sysdig Alerts API
   slug: sysdig-alerts-api
-- description: Compliance checks and reporting
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Compliance checks and reporting
   name: Sysdig Compliance API
   slug: sysdig-compliance-api
-- description: Create and manage monitoring dashboards
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Create and manage monitoring dashboards
   name: Sysdig Dashboards API
   slug: sysdig-dashboards-api
-- description: Retrieve and create custom events
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Retrieve and create custom events
   name: Sysdig Events API
   slug: sysdig-events-api
-- description: Scan container images for vulnerabilities
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Scan container images for vulnerabilities
   name: Sysdig Image Scanning API
   slug: sysdig-image-scanning-api
-- description: Query and retrieve metrics data
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Query and retrieve metrics data
   name: Sysdig Metrics API
   slug: sysdig-metrics-api
-- description: Configure notification channels for alerts
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Configure notification channels for alerts
   name: Sysdig Notification Channels API
   slug: sysdig-notification-channels-api
-- description: Manage runtime security policies
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Manage runtime security policies
   name: Sysdig Policies API
   slug: sysdig-policies-api
-- description: Manage Falco security rules
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Manage Falco security rules
   name: Sysdig Rules API
   slug: sysdig-rules-api
-- description: Software Bill of Materials management
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Software Bill of Materials management
   name: Sysdig SBOM API
   slug: sysdig-sbom-api
-- description: Manage teams and team memberships
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Manage teams and team memberships
   name: Sysdig Teams API
   slug: sysdig-teams-api
-- description: Manage vulnerability findings and scanning results
+- baseURL: https://api.us1.sysdig.com
+  baseurl_source: declared
+  description: Manage vulnerability findings and scanning results
   name: Sysdig Vulnerabilities API
   slug: sysdig-vulnerabilities-api
 arazzos:
@@ -469,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/screenshots/sysdig-2026-06-20T194836.png
 security:

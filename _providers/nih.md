@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -59,34 +59,54 @@ apis:
 - description: APIs for programmatic access to PubMed Central's Open Access content, including file validation, Open Access service, and an ID converter for translating between PMCID, PMID, Manuscript ID, and DOI id
   name: PubMed Central (PMC) OA API
   slug: pubmed-central-pmc-oa-api
-- description: '#### Options to download BioSample data. This BioSample service allows you to get BioSample data as a data report.'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download BioSample data. This BioSample service allows you to get BioSample data as a data report.'
   name: National Institutes of Health (NIH) BioSample API
   slug: nih-biosample-api
-- description: '#### Options to download gene data, including the associated sequence and metadata. These gene services allow you to get gene metadata as a data report or download gene, transcript and protein sequenc'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download gene data, including the associated sequence and metadata. These gene services allow you to get gene metadata as a data report or download gene, transcript and protein sequenc'
   name: National Institutes of Health (NIH) Gene API
   slug: nih-gene-api
-- description: '#### Options to download assembled genome data, including the associated sequence, annotation and metadata. These genome services allow you to get genome metadata as a data report or download genome, '
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download assembled genome data, including the associated sequence, annotation and metadata. These genome services allow you to get genome metadata as a data report or download genome, '
   name: National Institutes of Health (NIH) Genome API
   slug: nih-genome-api
-- description: '#### Options to download RefSeq organelle genome data, including the associated sequence and metadata. These organelle services allow you to get RefSeq organelle genome metadata as a data report or do'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download RefSeq organelle genome data, including the associated sequence and metadata. These organelle services allow you to get RefSeq organelle genome metadata as a data report or do'
   name: National Institutes of Health (NIH) Organelle API
   slug: nih-organelle-api
-- description: '#### Options to download prokaryote gene data, including the associated sequence and metadata. These gene services allow you to download gene and protein sequence, and metadata as a prokaryote gene da'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download prokaryote gene data, including the associated sequence and metadata. These gene services allow you to download gene and protein sequence, and metadata as a prokaryote gene da'
   name: National Institutes of Health (NIH) Prokaryote API
   slug: nih-prokaryote-api
-- description: Data statistics
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Data statistics
   name: National Institutes of Health (NIH) Stats API
   slug: nih-stats-api
-- description: Related to clinical trial studies
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Related to clinical trial studies
   name: National Institutes of Health (NIH) Studies API
   slug: nih-studies-api
-- description: '#### Options to download taxonomy data. These taxonomy services allow you to get taxonomy data as a data report or download taxonomy data as a taxonomy data package, for taxonomic nodes in NCBI Taxono'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download taxonomy data. These taxonomy services allow you to get taxonomy data as a data report or download taxonomy data as a taxonomy data package, for taxonomic nodes in NCBI Taxono'
   name: National Institutes of Health (NIH) Taxonomy API
   slug: nih-taxonomy-api
-- description: Version info
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Version info
   name: National Institutes of Health (NIH) Version API
   slug: nih-version-api
-- description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
   name: National Institutes of Health (NIH) Virus API
   slug: nih-virus-api
 artifact_total: 55
@@ -328,7 +348,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/screenshots/nih-2026-06-20T190323.png
 security:

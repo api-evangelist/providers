@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,9 @@ apis:
 - description: A GitLab instance the University runs itself on the BEAR (Birmingham Environment for Academic Research) estate — gitlab.bham.ac.uk resolves through proxy-vrrp-1.bear.bham.ac.uk to 147.188.x, Birmingha
   name: BEAR GitLab (self-hosted, /api/v4)
   slug: gitlab
-- description: An open research API from the English Constructicon project, a construction-grammar database built in the College of Arts and Law with the University's Research Software Group and hosted on the instit
+- baseURL: https://englishconstructicon.bham.ac.uk/database/api
+  baseurl_source: declared
+  description: An open research API from the English Constructicon project, a construction-grammar database built in the College of Arts and Law with the University's Research Software Group and hosted on the instit
   name: English Constructicon API
   slug: english-constructicon
 - description: 'research.birmingham.ac.uk is the University''s research information portal. It is an Elsevier Pure tenancy — the hostname CNAMEs to birmingham-live.elsevierpure.com and on to eu.prod.elsevierpure.com, '
@@ -262,7 +264,7 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -14.5
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -272,7 +274,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 47.9
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +290,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-birmingham/refs/heads/main/screenshots/university-of-birmingham-2026-06-20T200137.png
 security:
 - kind: authentication

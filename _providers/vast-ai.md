@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -47,34 +47,54 @@ apis:
 - description: The Vast.ai REST API is the control plane for the GPU marketplace. It supports searching offers across hosts, renting and managing instances, configuring machines and templates, attaching persistent v
   name: Vast.ai REST API
   slug: rest-api
-- description: The Accounts API from Vast.ai — 13 operation(s) for accounts.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Accounts API from Vast.ai — 13 operation(s) for accounts.
   name: Vast.ai Accounts API
   slug: vast-ai-accounts-api
-- description: The Billing API from Vast.ai — 4 operation(s) for billing.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Billing API from Vast.ai — 4 operation(s) for billing.
   name: Vast.ai Billing API
   slug: vast-ai-billing-api
-- description: The Instances API from Vast.ai — 14 operation(s) for instances.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Instances API from Vast.ai — 14 operation(s) for instances.
   name: Vast.ai Instances API
   slug: vast-ai-instances-api
-- description: The Machines API from Vast.ai — 10 operation(s) for machines.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Machines API from Vast.ai — 10 operation(s) for machines.
   name: Vast.ai Machines API
   slug: vast-ai-machines-api
-- description: The Network Volumes API from Vast.ai — 4 operation(s) for network volumes.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Network Volumes API from Vast.ai — 4 operation(s) for network volumes.
   name: Vast.ai Network Volumes API
   slug: vast-ai-network-volumes-api
-- description: The Search API from Vast.ai — 3 operation(s) for search.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Search API from Vast.ai — 3 operation(s) for search.
   name: Vast.ai Search API
   slug: vast-ai-search-api
-- description: The Serverless API from Vast.ai — 9 operation(s) for serverless.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Serverless API from Vast.ai — 9 operation(s) for serverless.
   name: Vast.ai Serverless API
   slug: vast-ai-serverless-api
-- description: The Team API from Vast.ai — 9 operation(s) for team.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Team API from Vast.ai — 9 operation(s) for team.
   name: Vast.ai Team API
   slug: vast-ai-team-api
-- description: The Templates API from Vast.ai — 1 operation(s) for templates.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Templates API from Vast.ai — 1 operation(s) for templates.
   name: Vast.ai Templates API
   slug: vast-ai-templates-api
-- description: The Volumes API from Vast.ai — 4 operation(s) for volumes.
+- baseURL: https://console.vast.ai/api/v0
+  baseurl_source: declared
+  description: The Volumes API from Vast.ai — 4 operation(s) for volumes.
   name: Vast.ai Volumes API
   slug: vast-ai-volumes-api
 artifact_total: 39
@@ -282,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/screenshots/vast-ai-2026-06-20T200827.png
 security:

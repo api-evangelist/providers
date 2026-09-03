@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,55 +58,89 @@ apis:
 - description: High-quality air quality data derived from global and regional air quality models. Tracks six major pollutants (PM2.5, PM10, O3, NO2, SO2, CO) plus pollen levels and mold. Includes current and 72-hour
   name: Weatherbit Air Quality API
   slug: weatherbit-air-quality-api
-- description: The 16 Day / Daily Forecast API from Weatherbit — 1 operation(s) for 16 day / daily forecast.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The 16 Day / Daily Forecast API from Weatherbit — 1 operation(s) for 16 day / daily forecast.
   name: Weatherbit 16 Day / Daily Forecast API
   slug: weatherbit-16-day-daily-forecast-api
-- description: The 240 Hour / Hourly Forecast API from Weatherbit — 1 operation(s) for 240 hour / hourly forecast.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The 240 Hour / Hourly Forecast API from Weatherbit — 1 operation(s) for 240 hour / hourly forecast.
   name: Weatherbit 240 Hour / Hourly Forecast API
   slug: weatherbit-240-hour-hourly-forecast-api
-- description: The 60 Minute Rain/Snow Nowcast API from Weatherbit — 1 operation(s) for 60 minute rain/snow nowcast.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The 60 Minute Rain/Snow Nowcast API from Weatherbit — 1 operation(s) for 60 minute rain/snow nowcast.
   name: Weatherbit 60 Minute Rain/Snow Nowcast API
   slug: weatherbit-60-minute-rain-snow-nowcast-api
-- description: The AgWeather Forecast API from Weatherbit — 1 operation(s) for agweather forecast.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The AgWeather Forecast API from Weatherbit — 1 operation(s) for agweather forecast.
   name: Weatherbit AgWeather Forecast API
   slug: weatherbit-agweather-forecast-api
-- description: The Air Quality Forecast API from Weatherbit — 1 operation(s) for air quality forecast.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Air Quality Forecast API from Weatherbit — 1 operation(s) for air quality forecast.
   name: Weatherbit Air Quality Forecast API
   slug: weatherbit-air-quality-forecast-api
-- description: The Alerts API from Weatherbit — 1 operation(s) for alerts.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Alerts API from Weatherbit — 1 operation(s) for alerts.
   name: Weatherbit Alerts API
   slug: weatherbit-alerts-api
-- description: The Bulk Downloads API from Weatherbit — 1 operation(s) for bulk downloads.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Bulk Downloads API from Weatherbit — 1 operation(s) for bulk downloads.
   name: Weatherbit Bulk Downloads API
   slug: weatherbit-bulk-downloads-api
-- description: The Climate Normals (Averages) API from Weatherbit — 1 operation(s) for climate normals (averages).
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Climate Normals (Averages) API from Weatherbit — 1 operation(s) for climate normals (averages).
   name: Weatherbit Climate Normals (Averages) API
   slug: weatherbit-climate-normals-averages-api
-- description: The Current Air Quality API from Weatherbit — 1 operation(s) for current air quality.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Current Air Quality API from Weatherbit — 1 operation(s) for current air quality.
   name: Weatherbit Current Air Quality API
   slug: weatherbit-current-air-quality-api
-- description: The Current Weather Data API from Weatherbit — 1 operation(s) for current weather data.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Current Weather Data API from Weatherbit — 1 operation(s) for current weather data.
   name: Weatherbit Current Weather Data API
   slug: weatherbit-current-weather-data-api
-- description: The Daily Historical Weather Data API from Weatherbit — 1 operation(s) for daily historical weather data.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Daily Historical Weather Data API from Weatherbit — 1 operation(s) for daily historical weather data.
   name: Weatherbit Daily Historical Weather Data API
   slug: weatherbit-daily-historical-weather-data-api
-- description: The Forecast Degree Day API API from Weatherbit — 1 operation(s) for forecast degree day api.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Forecast Degree Day API API from Weatherbit — 1 operation(s) for forecast degree day api.
   name: Weatherbit Forecast Degree Day API API
   slug: weatherbit-forecast-degree-day-api-api
-- description: The Historical AgWeather Data API from Weatherbit — 1 operation(s) for historical agweather data.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Historical AgWeather Data API from Weatherbit — 1 operation(s) for historical agweather data.
   name: Weatherbit Historical AgWeather Data API
   slug: weatherbit-historical-agweather-data-api
-- description: The Historical Air Quality API from Weatherbit — 1 operation(s) for historical air quality.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Historical Air Quality API from Weatherbit — 1 operation(s) for historical air quality.
   name: Weatherbit Historical Air Quality API
   slug: weatherbit-historical-air-quality-api
-- description: The Historical Degree Day API API from Weatherbit — 1 operation(s) for historical degree day api.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Historical Degree Day API API from Weatherbit — 1 operation(s) for historical degree day api.
   name: Weatherbit Historical Degree Day API API
   slug: weatherbit-historical-degree-day-api-api
-- description: The Hourly Historical Weather Data API from Weatherbit — 1 operation(s) for hourly historical weather data.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Hourly Historical Weather Data API from Weatherbit — 1 operation(s) for hourly historical weather data.
   name: Weatherbit Hourly Historical Weather Data API
   slug: weatherbit-hourly-historical-weather-data-api
-- description: The Sub-Hourly Historical Weather Data API from Weatherbit — 1 operation(s) for sub-hourly historical weather data.
+- baseURL: https://api.weatherbit.io/v2.0
+  baseurl_source: declared
+  description: The Sub-Hourly Historical Weather Data API from Weatherbit — 1 operation(s) for sub-hourly historical weather data.
   name: Weatherbit Sub-Hourly Historical Weather Data API
   slug: weatherbit-sub-hourly-historical-weather-data-api
 artifact_total: 191
@@ -716,7 +750,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/screenshots/weatherbit-2026-06-20T201311.png
 security:

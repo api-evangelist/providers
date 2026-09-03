@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Send capability commands to a device.
+- baseURL: https://openapi.api.govee.com/router/api/v1
+  baseurl_source: declared
+  description: Send capability commands to a device.
   name: Govee Device Control API
   slug: govee-device-control-api
-- description: Query the live state of a device.
+- baseURL: https://openapi.api.govee.com/router/api/v1
+  baseurl_source: declared
+  description: Query the live state of a device.
   name: Govee Device State API
   slug: govee-device-state-api
-- description: Enumerate account devices and their capabilities.
+- baseURL: https://openapi.api.govee.com/router/api/v1
+  baseurl_source: declared
+  description: Enumerate account devices and their capabilities.
   name: Govee Devices API
   slug: govee-devices-api
-- description: Dynamic light scenes and DIY scenes.
+- baseURL: https://openapi.api.govee.com/router/api/v1
+  baseurl_source: declared
+  description: Dynamic light scenes and DIY scenes.
   name: Govee Scenes API
   slug: govee-scenes-api
 artifact_total: 16
@@ -169,7 +177,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govee/refs/heads/main/screenshots/govee-2026-07-25T220132.png
 security:

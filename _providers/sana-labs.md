@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 56 operations · 36 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Assignments API from Sana — 1 operation(s) for assignments.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Assignments API from Sana — 1 operation(s) for assignments.
   name: Sana Assignments API
   slug: sana-labs-assignments-api
-- description: The Authentication API from Sana — 1 operation(s) for authentication.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Authentication API from Sana — 1 operation(s) for authentication.
   name: Sana Authentication API
   slug: sana-labs-authentication-api
-- description: The Courses API from Sana — 6 operation(s) for courses.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Courses API from Sana — 6 operation(s) for courses.
   name: Sana Courses API
   slug: sana-labs-courses-api
-- description: The Groups API from Sana — 4 operation(s) for groups.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Groups API from Sana — 4 operation(s) for groups.
   name: Sana Groups API
   slug: sana-labs-groups-api
-- description: The Insights API from Sana — 2 operation(s) for insights.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Insights API from Sana — 2 operation(s) for insights.
   name: Sana Insights API
   slug: sana-labs-insights-api
-- description: The Paths API from Sana — 2 operation(s) for paths.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Paths API from Sana — 2 operation(s) for paths.
   name: Sana Paths API
   slug: sana-labs-paths-api
-- description: The Programs API from Sana — 3 operation(s) for programs.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Programs API from Sana — 3 operation(s) for programs.
   name: Sana Programs API
   slug: sana-labs-programs-api
-- description: The Reporting API from Sana — 3 operation(s) for reporting.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Reporting API from Sana — 3 operation(s) for reporting.
   name: Sana Reporting API
   slug: sana-labs-reporting-api
-- description: The Teamspaces API from Sana — 3 operation(s) for teamspaces.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Teamspaces API from Sana — 3 operation(s) for teamspaces.
   name: Sana Teamspaces API
   slug: sana-labs-teamspaces-api
-- description: The Users API from Sana — 7 operation(s) for users.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The Users API from Sana — 7 operation(s) for users.
   name: Sana Users API
   slug: sana-labs-users-api
-- description: The xAPI API from Sana — 2 operation(s) for xapi.
+- baseURL: https://<domain>.sana.ai
+  baseurl_source: declared
+  description: The xAPI API from Sana — 2 operation(s) for xapi.
   name: Sana xAPI API
   slug: sana-labs-xapi-api
 artifact_total: 30
@@ -192,7 +214,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -221,8 +243,9 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/screenshots/sana-labs-2026-09-02T154354.png
 security:
 - kind: authentication
   name: Sana Labs Authentication

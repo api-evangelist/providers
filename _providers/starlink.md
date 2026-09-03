@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -33,7 +47,9 @@ agentic_access:
   summary_line: 63 operations · 36 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: A low-latency JSON over HTTP streaming API for device telemetry, consumed by repeated small-batch POST requests with batchSize and maxLingerMs parameters. POST /public/v2/telemetry/stream returns comp
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: A low-latency JSON over HTTP streaming API for device telemetry, consumed by repeated small-batch POST requests with batchSize and maxLingerMs parameters. POST /public/v2/telemetry/stream returns comp
   name: Starlink Telemetry Stream API
   slug: starlink-telemetry-stream-api
 - description: SpaceX's officially supported local gRPC API on Starlink hardware, defined in protobuf and published verbatim on GitHub as device.proto. The SpaceX.API.Device service exposes a single Handle RPC carry
@@ -45,40 +61,64 @@ apis:
 - description: 'The API behind space-safety.starlink.com, SpaceX''s free conjunction screening and maneuver coordination platform for satellite operators. Version 0.1 of the reference documents five resource groups - '
   name: Starlink Space Traffic Coordination API
   slug: starlink-space-traffic-coordination-api
-- description: The Account API from Starlink — 3 operation(s) for account.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Account API from Starlink — 3 operation(s) for account.
   name: Starlink Account API
   slug: starlink-account-api
-- description: The Addresses API from Starlink — 2 operation(s) for addresses.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Addresses API from Starlink — 2 operation(s) for addresses.
   name: Starlink Addresses API
   slug: starlink-addresses-api
-- description: The Billing API from Starlink — 3 operation(s) for billing.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Billing API from Starlink — 3 operation(s) for billing.
   name: Starlink Billing API
   slug: starlink-billing-api
-- description: The Contacts API from Starlink — 2 operation(s) for contacts.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Contacts API from Starlink — 2 operation(s) for contacts.
   name: Starlink Contacts API
   slug: starlink-contacts-api
-- description: The Data Pools API from Starlink — 3 operation(s) for data pools.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Data Pools API from Starlink — 3 operation(s) for data pools.
   name: Starlink Data Pools API
   slug: starlink-data-pools-api
-- description: The Flights API from Starlink — 1 operation(s) for flights.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Flights API from Starlink — 1 operation(s) for flights.
   name: Starlink Flights API
   slug: starlink-flights-api
-- description: The Managed Accounts API from Starlink — 2 operation(s) for managed accounts.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Managed Accounts API from Starlink — 2 operation(s) for managed accounts.
   name: Starlink Managed Accounts API
   slug: starlink-managed-accounts-api
-- description: The Managed API from Starlink — 1 operation(s) for managed.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Managed API from Starlink — 1 operation(s) for managed.
   name: Starlink Managed API
   slug: starlink-managed-api
-- description: The Mobile API from Starlink — 3 operation(s) for mobile.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Mobile API from Starlink — 3 operation(s) for mobile.
   name: Starlink Mobile API
   slug: starlink-mobile-api
-- description: The Routers API from Starlink — 10 operation(s) for routers.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Routers API from Starlink — 10 operation(s) for routers.
   name: Starlink Routers API
   slug: starlink-routers-api
-- description: The Service Lines API from Starlink — 13 operation(s) for service lines.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The Service Lines API from Starlink — 13 operation(s) for service lines.
   name: Starlink Service Lines API
   slug: starlink-service-lines-api
-- description: The User Terminals API from Starlink — 6 operation(s) for user terminals.
+- baseURL: https://starlink.com/api/public/v2
+  baseurl_source: declared
+  description: The User Terminals API from Starlink — 6 operation(s) for user terminals.
   name: Starlink User Terminals API
   slug: starlink-user-terminals-api
 artifact_total: 25
@@ -329,7 +369,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -342,7 +382,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 39.3
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -360,7 +400,7 @@ score:
     regime_id: telecommunications
     score: 63.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/screenshots/starlink-2026-08-17T082120.png
 security:

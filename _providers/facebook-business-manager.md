@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,46 +72,74 @@ apis:
 - description: 'Send and receive messages, manage business profiles, and automate customer communications through the WhatsApp Business Platform. The Cloud API enables businesses to integrate WhatsApp messaging into '
   name: Facebook WhatsApp Business Platform API
   slug: facebook-whatsapp-business-platform-api
-- description: Manage advertising accounts including settings, spend limits, and account-level configurations.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Manage advertising accounts including settings, spend limits, and account-level configurations.
   name: Facebook Business Manager Ad Accounts API
   slug: facebook-business-manager-ad-accounts-api
-- description: Manage ad creative content including images, videos, copy, and call-to-action configurations.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Manage ad creative content including images, videos, copy, and call-to-action configurations.
   name: Facebook Business Manager Ad Creatives API
   slug: facebook-business-manager-ad-creatives-api
-- description: Upload and manage images used in ad creatives.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Upload and manage images used in ad creatives.
   name: Facebook Business Manager Ad Images API
   slug: facebook-business-manager-ad-images-api
-- description: Manage ad sets within campaigns, including targeting, budgets, scheduling, and optimization goals.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Manage ad sets within campaigns, including targeting, budgets, scheduling, and optimization goals.
   name: Facebook Business Manager Ad Sets API
   slug: facebook-business-manager-ad-sets-api
-- description: Manage individual ads within ad sets, including creative associations and status.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Manage individual ads within ad sets, including creative associations and status.
   name: Facebook Business Manager Ads API
   slug: facebook-business-manager-ads-api
-- description: Manage advertising campaigns including creation, updating, and status management.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Manage advertising campaigns including creation, updating, and status management.
   name: Facebook Business Manager Campaigns API
   slug: facebook-business-manager-campaigns-api
-- description: Manage comments on Page posts including reading, replying, and moderating.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Manage comments on Page posts including reading, replying, and moderating.
   name: Facebook Business Manager Comments API
   slug: facebook-business-manager-comments-api
-- description: Create and manage custom audiences for ad targeting based on customer data, website visitors, or app users.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Create and manage custom audiences for ad targeting based on customer data, website visitors, or app users.
   name: Facebook Business Manager Custom Audiences API
   slug: facebook-business-manager-custom-audiences-api
-- description: Retrieve performance metrics and analytics data for campaigns, ad sets, and ads.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Retrieve performance metrics and analytics data for campaigns, ad sets, and ads.
   name: Facebook Business Manager Insights API
   slug: facebook-business-manager-insights-api
-- description: Retrieve analytics and engagement metrics for a Facebook Page.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Retrieve analytics and engagement metrics for a Facebook Page.
   name: Facebook Business Manager Page Insights API
   slug: facebook-business-manager-page-insights-api
-- description: Retrieve and manage Facebook Page settings, information, and metadata.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Retrieve and manage Facebook Page settings, information, and metadata.
   name: Facebook Business Manager Pages API
   slug: facebook-business-manager-pages-api
-- description: Upload and manage photos on a Facebook Page.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Upload and manage photos on a Facebook Page.
   name: Facebook Business Manager Photos API
   slug: facebook-business-manager-photos-api
-- description: Create, read, update, and delete posts on a Facebook Page feed.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Create, read, update, and delete posts on a Facebook Page feed.
   name: Facebook Business Manager Posts API
   slug: facebook-business-manager-posts-api
-- description: Upload and manage videos on a Facebook Page.
+- baseURL: https://graph.facebook.com/v25.0
+  baseurl_source: declared
+  description: Upload and manage videos on a Facebook Page.
   name: Facebook Business Manager Videos API
   slug: facebook-business-manager-videos-api
 artifact_total: 98
@@ -595,7 +623,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -605,7 +633,7 @@ score:
     discoverability: 70.4
     governance: 28.0
     operational_transparency: 76.3
-  previous_composite: 67.3
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -617,7 +645,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:

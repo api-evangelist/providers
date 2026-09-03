@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: OAuth 2.0 token generation for Checkout, Payouts, and Reconciliation.
+- baseURL: https://dashboard.peachpayments.com
+  baseurl_source: declared
+  description: OAuth 2.0 token generation for Checkout, Payouts, and Reconciliation.
   name: Peach Payments Authentication API
   slug: peachpayments-authentication-api
-- description: Hosted, Embedded, and Embedded Express checkout sessions.
+- baseURL: https://dashboard.peachpayments.com
+  baseurl_source: declared
+  description: Hosted, Embedded, and Embedded Express checkout sessions.
   name: Peach Payments Checkout API
   slug: peachpayments-checkout-api
-- description: Shareable, single-use and bulk payment links.
+- baseURL: https://dashboard.peachpayments.com
+  baseurl_source: declared
+  description: Shareable, single-use and bulk payment links.
   name: Peach Payments Payment Links API
   slug: peachpayments-payment-links-api
-- description: Server-to-server debit and refund transactions.
+- baseURL: https://dashboard.peachpayments.com
+  baseurl_source: declared
+  description: Server-to-server debit and refund transactions.
   name: Peach Payments Payments API
   slug: peachpayments-payments-api
-- description: Merchant-initiated payouts and bank account verification.
+- baseURL: https://dashboard.peachpayments.com
+  baseurl_source: declared
+  description: Merchant-initiated payouts and bank account verification.
   name: Peach Payments Payouts API
   slug: peachpayments-payouts-api
-- description: Settlement and transaction reconciliation reporting.
+- baseURL: https://dashboard.peachpayments.com
+  baseurl_source: declared
+  description: Settlement and transaction reconciliation reporting.
   name: Peach Payments Reconciliation API
   slug: peachpayments-reconciliation-api
 artifact_total: 29
@@ -316,7 +328,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -326,7 +338,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 70.3
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,7 +356,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peachpayments/refs/heads/main/screenshots/peachpayments-2026-08-07T191724.png
 security:

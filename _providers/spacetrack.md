@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 1 acting
 api_count: 1
 apis:
-- description: Launch sites, boxscore, announcements, and other reference data
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Launch sites, boxscore, announcements, and other reference data
   name: Space-Track Ancillary API
   slug: spacetrack-ancillary-api
-- description: Session-based authentication via cookie
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Session-based authentication via cookie
   name: Space-Track Authentication API
   slug: spacetrack-authentication-api
-- description: Spaceflight safety conjunction data messages (CDM)
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Spaceflight safety conjunction data messages (CDM)
   name: Space-Track Conjunction Data API
   slug: spacetrack-conjunction-data-api
-- description: Satellite reentry and decay predictions
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Satellite reentry and decay predictions
   name: Space-Track Decay Predictions API
   slug: spacetrack-decay-predictions-api
-- description: Current and historical SGP4 keplerian element sets (TLE/OMM)
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Current and historical SGP4 keplerian element sets (TLE/OMM)
   name: Space-Track General Perturbations API
   slug: spacetrack-general-perturbations-api
-- description: Catalog metadata for all tracked Earth-orbiting objects
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Catalog metadata for all tracked Earth-orbiting objects
   name: Space-Track Satellite Catalog API
   slug: spacetrack-satellite-catalog-api
-- description: Reentry tracking and impact prediction messages (TIP)
+- baseURL: https://www.space-track.org
+  baseurl_source: declared
+  description: Reentry tracking and impact prediction messages (TIP)
   name: Space-Track Tracking and Impact Prediction API
   slug: spacetrack-tracking-and-impact-prediction-api
 artifact_total: 29
@@ -239,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/screenshots/spacetrack-2026-06-20T194237.png
 security:

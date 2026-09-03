@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: API information and health
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: API information and health
   name: MetaDAO Meta API
   slug: metadao-meta-api
-- description: Token supply breakdown and allocation
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: Token supply breakdown and allocation
   name: MetaDAO Supply API
   slug: metadao-supply-api
-- description: DAO trading pairs, pricing, and volume
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: DAO trading pairs, pricing, and volume
   name: MetaDAO Tickers API
   slug: metadao-tickers-api
-- description: Aggregate trading volume
+- baseURL: https://market-api.metadao.fi
+  baseurl_source: declared
+  description: Aggregate trading volume
   name: MetaDAO Volume API
   slug: metadao-volume-api
 artifact_total: 13
@@ -194,7 +202,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadao/refs/heads/main/screenshots/metadao-2026-08-07T172641.png
 security:

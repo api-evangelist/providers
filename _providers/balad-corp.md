@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The APIs/Authentication API from BALAD CORP — 1 operation(s) for apis/authentication.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Authentication API from BALAD CORP — 1 operation(s) for apis/authentication.
   name: BALAD CORP APIs/Authentication API
   slug: balad-corp-apis-authentication-api
-- description: The APIs/Core/Balance API from BALAD CORP — 1 operation(s) for apis/core/balance.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Core/Balance API from BALAD CORP — 1 operation(s) for apis/core/balance.
   name: BALAD CORP APIs/Core/Balance API
   slug: balad-corp-apis-core-balance-api
-- description: The APIs/Core/Exchange rate API from BALAD CORP — 1 operation(s) for apis/core/exchange rate.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Core/Exchange rate API from BALAD CORP — 1 operation(s) for apis/core/exchange rate.
   name: BALAD CORP APIs/Core/Exchange rate API
   slug: balad-corp-apis-core-exchange-rate-api
-- description: The APIs/Core/Secrets API from BALAD CORP — 2 operation(s) for apis/core/secrets.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Core/Secrets API from BALAD CORP — 2 operation(s) for apis/core/secrets.
   name: BALAD CORP APIs/Core/Secrets API
   slug: balad-corp-apis-core-secrets-api
-- description: The APIs/Link/Lookups API from BALAD CORP — 4 operation(s) for apis/link/lookups.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Link/Lookups API from BALAD CORP — 4 operation(s) for apis/link/lookups.
   name: BALAD CORP APIs/Link/Lookups API
   slug: balad-corp-apis-link-lookups-api
-- description: The APIs/Link/Reconciliation API from BALAD CORP — 1 operation(s) for apis/link/reconciliation.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Link/Reconciliation API from BALAD CORP — 1 operation(s) for apis/link/reconciliation.
   name: BALAD CORP APIs/Link/Reconciliation API
   slug: balad-corp-apis-link-reconciliation-api
-- description: The APIs/Link/Transactions API from BALAD CORP — 7 operation(s) for apis/link/transactions.
+- baseURL: https://developers.balad.tech/
+  baseurl_source: declared
+  description: The APIs/Link/Transactions API from BALAD CORP — 7 operation(s) for apis/link/transactions.
   name: BALAD CORP APIs/Link/Transactions API
   slug: balad-corp-apis-link-transactions-api
 artifact_total: 20
@@ -229,7 +243,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -239,7 +253,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 37.8
+  previous_composite: 37.6
   provenance:
     conformance: derived
     contracts:
@@ -256,7 +270,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/screenshots/balad-corp-2026-07-25T202259.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The tenant-scoped REST API behind the MontyCloud DAY2 platform. Requests are authenticated with an API key and API secret key issued in the DAY2 platform and are scoped to a tenant via the x-tenant-id
@@ -151,7 +164,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -170,8 +183,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/montycloud/refs/heads/main/screenshots/montycloud-2026-09-02T150629.png
 security:
 - kind: authentication
   name: Montycloud Authentication

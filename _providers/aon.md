@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Aon Insights publishes research, reports, and the "On Aon" podcast across Trade, Technology, Weather, and Workforce themes, framed by "From navigating climate change to workforce resilience, today's l
@@ -147,7 +147,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aon/refs/heads/main/screenshots/aon-2026-06-20T172037.png
 security:

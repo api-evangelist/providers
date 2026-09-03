@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage partner and customer accounts
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Manage partner and customer accounts
   name: Duda Accounts API
   slug: duda-accounts-api
-- description: SSO and access token management
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: SSO and access token management
   name: Duda Authentication API
   slug: duda-authentication-api
-- description: Manage site blogs and blog posts
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Manage site blogs and blog posts
   name: Duda Blog API
   slug: duda-blog-api
-- description: Manage dynamic data collections
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Manage dynamic data collections
   name: Duda Collections API
   slug: duda-collections-api
-- description: Manage eCommerce orders
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Manage eCommerce orders
   name: Duda eCommerce - Orders API
   slug: duda-ecommerce-orders-api
-- description: Manage eCommerce products
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Manage eCommerce products
   name: Duda eCommerce - Products API
   slug: duda-ecommerce-products-api
-- description: Create and manage site pages
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Create and manage site pages
   name: Duda Pages API
   slug: duda-pages-api
-- description: Create, read, update, and delete websites
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Create, read, update, and delete websites
   name: Duda Sites API
   slug: duda-sites-api
-- description: Manage site templates
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Manage site templates
   name: Duda Templates API
   slug: duda-templates-api
-- description: Subscribe to site and account events
+- baseURL: https://api.duda.co/api
+  baseurl_source: declared
+  description: Subscribe to site and account events
   name: Duda Webhooks API
   slug: duda-webhooks-api
 artifact_total: 27
@@ -233,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duda/refs/heads/main/screenshots/duda-2026-06-20T180313.png
 security:

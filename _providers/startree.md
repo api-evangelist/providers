@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Query API API from StarTree — 1 operation(s) for query api.
+- baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
+  baseurl_source: declared
+  description: The Query API API from StarTree — 1 operation(s) for query api.
   name: StarTree Query API API
   slug: startree-query-api-api
 artifact_total: 8
@@ -218,7 +220,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree/refs/heads/main/screenshots/startree-2026-08-17T082113.png
 security:

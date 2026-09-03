@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 4 acting
 api_count: 1
 apis:
-- description: Batch document render operations
+- baseURL: https://api.inkit.com/v1
+  baseurl_source: declared
+  description: Batch document render operations
   name: Inkit Batches API
   slug: inkit-batches-api
-- description: Manage stored documents
+- baseURL: https://api.inkit.com/v1
+  baseurl_source: declared
+  description: Manage stored documents
   name: Inkit Documents API
   slug: inkit-documents-api
-- description: Manage document folders
+- baseURL: https://api.inkit.com/v1
+  baseurl_source: declared
+  description: Manage document folders
   name: Inkit Folders API
   slug: inkit-folders-api
-- description: Generate and retrieve document renders (PDFs)
+- baseURL: https://api.inkit.com/v1
+  baseurl_source: declared
+  description: Generate and retrieve document renders (PDFs)
   name: Inkit Renders API
   slug: inkit-renders-api
-- description: Manage document templates
+- baseURL: https://api.inkit.com/v1
+  baseurl_source: declared
+  description: Manage document templates
   name: Inkit Templates API
   slug: inkit-templates-api
 artifact_total: 31
@@ -258,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/screenshots/inkit-2026-06-20T183355.png
 security:

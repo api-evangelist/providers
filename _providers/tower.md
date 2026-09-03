@@ -33,88 +33,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Tower — 2 operation(s) for accounts.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Accounts API from Tower — 2 operation(s) for accounts.
   name: Tower Accounts API
   slug: tower-accounts-api
-- description: The Alerts API from Tower — 5 operation(s) for alerts.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Alerts API from Tower — 5 operation(s) for alerts.
   name: Tower Alerts API
   slug: tower-alerts-api
-- description: The Api Keys API from Tower — 1 operation(s) for api keys.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Api Keys API from Tower — 1 operation(s) for api keys.
   name: Tower Api Keys API
   slug: tower-api-keys-api
-- description: The Apps API from Tower — 12 operation(s) for apps.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Apps API from Tower — 12 operation(s) for apps.
   name: Tower Apps API
   slug: tower-apps-api
-- description: The Catalogs API from Tower — 4 operation(s) for catalogs.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Catalogs API from Tower — 4 operation(s) for catalogs.
   name: Tower Catalogs API
   slug: tower-catalogs-api
-- description: The Environments API from Tower — 2 operation(s) for environments.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Environments API from Tower — 2 operation(s) for environments.
   name: Tower Environments API
   slug: tower-environments-api
-- description: The Feature Flags API from Tower — 1 operation(s) for feature flags.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Feature Flags API from Tower — 1 operation(s) for feature flags.
   name: Tower Feature Flags API
   slug: tower-feature-flags-api
-- description: The Guests API from Tower — 3 operation(s) for guests.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Guests API from Tower — 3 operation(s) for guests.
   name: Tower Guests API
   slug: tower-guests-api
-- description: The Login API from Tower — 3 operation(s) for login.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Login API from Tower — 3 operation(s) for login.
   name: Tower Login API
   slug: tower-login-api
-- description: The Organizations API from Tower — 1 operation(s) for organizations.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Organizations API from Tower — 1 operation(s) for organizations.
   name: Tower Organizations API
   slug: tower-organizations-api
-- description: The Plan API from Tower — 1 operation(s) for plan.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Plan API from Tower — 1 operation(s) for plan.
   name: Tower Plan API
   slug: tower-plan-api
-- description: The Runners API from Tower — 2 operation(s) for runners.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Runners API from Tower — 2 operation(s) for runners.
   name: Tower Runners API
   slug: tower-runners-api
-- description: The Runs API from Tower — 1 operation(s) for runs.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Runs API from Tower — 1 operation(s) for runs.
   name: Tower Runs API
   slug: tower-runs-api
-- description: The Sandbox API from Tower — 1 operation(s) for sandbox.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Sandbox API from Tower — 1 operation(s) for sandbox.
   name: Tower Sandbox API
   slug: tower-sandbox-api
-- description: The Schedules API from Tower — 4 operation(s) for schedules.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Schedules API from Tower — 4 operation(s) for schedules.
   name: Tower Schedules API
   slug: tower-schedules-api
-- description: The Secrets API from Tower — 5 operation(s) for secrets.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Secrets API from Tower — 5 operation(s) for secrets.
   name: Tower Secrets API
   slug: tower-secrets-api
-- description: The Service Accounts API from Tower — 3 operation(s) for service accounts.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Service Accounts API from Tower — 3 operation(s) for service accounts.
   name: Tower Service Accounts API
   slug: tower-service-accounts-api
-- description: The Session API from Tower — 2 operation(s) for session.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Session API from Tower — 2 operation(s) for session.
   name: Tower Session API
   slug: tower-session-api
-- description: The Shouldertaps API from Tower — 1 operation(s) for shouldertaps.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Shouldertaps API from Tower — 1 operation(s) for shouldertaps.
   name: Tower Shouldertaps API
   slug: tower-shouldertaps-api
-- description: The Stats API from Tower — 2 operation(s) for stats.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Stats API from Tower — 2 operation(s) for stats.
   name: Tower Stats API
   slug: tower-stats-api
-- description: The Storage API from Tower — 1 operation(s) for storage.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Storage API from Tower — 1 operation(s) for storage.
   name: Tower Storage API
   slug: tower-storage-api
-- description: The Team Invites API from Tower — 1 operation(s) for team invites.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Team Invites API from Tower — 1 operation(s) for team invites.
   name: Tower Team Invites API
   slug: tower-team-invites-api
-- description: The Teams API from Tower — 6 operation(s) for teams.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Teams API from Tower — 6 operation(s) for teams.
   name: Tower Teams API
   slug: tower-teams-api
-- description: The Usage API from Tower — 2 operation(s) for usage.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Usage API from Tower — 2 operation(s) for usage.
   name: Tower Usage API
   slug: tower-usage-api
-- description: The User API from Tower — 3 operation(s) for user.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The User API from Tower — 3 operation(s) for user.
   name: Tower User API
   slug: tower-user-api
-- description: The Webhooks API from Tower — 3 operation(s) for webhooks.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Webhooks API from Tower — 3 operation(s) for webhooks.
   name: Tower Webhooks API
   slug: tower-webhooks-api
-- description: The Whoami API from Tower — 1 operation(s) for whoami.
+- baseURL: https://api.tower.dev/v1
+  baseurl_source: declared
+  description: The Whoami API from Tower — 1 operation(s) for whoami.
   name: Tower Whoami API
   slug: tower-whoami-api
 artifact_total: 60
@@ -365,7 +419,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -375,7 +429,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 55.3
+  previous_composite: 55.0
   provenance:
     conformance: derived
     contracts:
@@ -386,7 +440,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tower/refs/heads/main/screenshots/tower-2026-08-17T082413.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: 'The Secure Code Warrior Direct Linking API is a RESTful JSON service that allows partners to retrieve application security training material including links to explainer videos and training exercises '
   name: Secure Code Warrior Direct Linking API
   slug: secure-code-warrior-direct-linking-api
-- description: The Assessments API from Secure Code Warrior — 3 operation(s) for assessments.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Assessments API from Secure Code Warrior — 3 operation(s) for assessments.
   name: Secure Code Warrior Assessments API
   slug: secure-code-warrior-assessments-api
-- description: The Audit API from Secure Code Warrior — 1 operation(s) for audit.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Audit API from Secure Code Warrior — 1 operation(s) for audit.
   name: Secure Code Warrior Audit API
   slug: secure-code-warrior-audit-api
-- description: The Courses API from Secure Code Warrior — 2 operation(s) for courses.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Courses API from Secure Code Warrior — 2 operation(s) for courses.
   name: Secure Code Warrior Courses API
   slug: secure-code-warrior-courses-api
-- description: The Learning API from Secure Code Warrior — 2 operation(s) for learning.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Learning API from Secure Code Warrior — 2 operation(s) for learning.
   name: Secure Code Warrior Learning API
   slug: secure-code-warrior-learning-api
-- description: The Metrics API from Secure Code Warrior — 3 operation(s) for metrics.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Metrics API from Secure Code Warrior — 3 operation(s) for metrics.
   name: Secure Code Warrior Metrics API
   slug: secure-code-warrior-metrics-api
-- description: The Programs API from Secure Code Warrior — 1 operation(s) for programs.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Programs API from Secure Code Warrior — 1 operation(s) for programs.
   name: Secure Code Warrior Programs API
   slug: secure-code-warrior-programs-api
-- description: The Teams API from Secure Code Warrior — 3 operation(s) for teams.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Teams API from Secure Code Warrior — 3 operation(s) for teams.
   name: Secure Code Warrior Teams API
   slug: secure-code-warrior-teams-api
-- description: The Tournaments API from Secure Code Warrior — 2 operation(s) for tournaments.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Tournaments API from Secure Code Warrior — 2 operation(s) for tournaments.
   name: Secure Code Warrior Tournaments API
   slug: secure-code-warrior-tournaments-api
-- description: The Training API from Secure Code Warrior — 5 operation(s) for training.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Training API from Secure Code Warrior — 5 operation(s) for training.
   name: Secure Code Warrior Training API
   slug: secure-code-warrior-training-api
-- description: The Users API from Secure Code Warrior — 4 operation(s) for users.
+- baseURL: https://portal-api.securecodewarrior.com/api/v2
+  baseurl_source: declared
+  description: The Users API from Secure Code Warrior — 4 operation(s) for users.
   name: Secure Code Warrior Users API
   slug: secure-code-warrior-users-api
 artifact_total: 36
@@ -292,7 +312,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/screenshots/secure-code-warrior-2026-06-20T193625.png
 security:

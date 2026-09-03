@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations
 api_count: 5
 apis:
-- description: Current Battle Pass weekly challenges.
+- baseURL: https://api.fortnitetracker.com/v1
+  baseurl_source: declared
+  description: Current Battle Pass weekly challenges.
   name: Fortnite Tracker Challenges API
   slug: fortnite-challenges-api
-- description: Top-player leaderboards by platform and region.
+- baseURL: https://api.fortnitetracker.com/v1
+  baseurl_source: declared
+  description: Top-player leaderboards by platform and region.
   name: Fortnite Tracker Leaderboards API
   slug: fortnite-leaderboards-api
-- description: Competitive Fortnite power rankings across professional events.
+- baseURL: https://api.fortnitetracker.com/v1
+  baseurl_source: declared
+  description: Competitive Fortnite power rankings across professional events.
   name: Fortnite Tracker Power Rankings API
   slug: fortnite-power-rankings-api
-- description: Per-player Fortnite lifetime and per-mode statistics.
+- baseURL: https://api.fortnitetracker.com/v1
+  baseurl_source: declared
+  description: Per-player Fortnite lifetime and per-mode statistics.
   name: Fortnite Tracker Profile API
   slug: fortnite-profile-api
-- description: Current Fortnite in-game store rotation.
+- baseURL: https://api.fortnitetracker.com/v1
+  baseurl_source: declared
+  description: Current Fortnite in-game store rotation.
   name: Fortnite Tracker Store API
   slug: fortnite-store-api
 artifact_total: 50
@@ -307,7 +317,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: Sempra is a North American energy infrastructure company with opera
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sempra.png
 layout: provider
 modified: '2026-03-21'
-name: sempra
+name: Sempra
 nav: Providers
 network: true
-overview: sempra is profiled on the [APIs.io](https://apis.io/) network.
+overview: Sempra is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 18
 score:
   band: minimal
@@ -78,10 +78,10 @@ score:
   previous_composite: 2.6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sempra/refs/heads/main/screenshots/sempra-2026-06-20T193648.png
 security:

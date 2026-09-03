@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 1
 apis:
-- description: Manage live broadcasts and recordings. Broadcasts represent a streaming or recording session in the StreamYard studio.
+- baseURL: https://api.streamyard.com
+  baseurl_source: declared
+  description: Manage live broadcasts and recordings. Broadcasts represent a streaming or recording session in the StreamYard studio.
   name: StreamYard Broadcasts API
   slug: streamyard-broadcasts-api
-- description: Manage streaming destinations — the platforms where broadcasts are streamed or published. Supported platforms include YouTube, Facebook, LinkedIn, Twitter/X, Twitch, and custom RTMP endpoints.
+- baseURL: https://api.streamyard.com
+  baseurl_source: declared
+  description: Manage streaming destinations — the platforms where broadcasts are streamed or published. Supported platforms include YouTube, Facebook, LinkedIn, Twitter/X, Twitch, and custom RTMP endpoints.
   name: StreamYard Destinations API
   slug: streamyard-destinations-api
-- description: Access recorded broadcasts. Once a broadcast ends, recordings become available for download.
+- baseURL: https://api.streamyard.com
+  baseurl_source: declared
+  description: Access recorded broadcasts. Once a broadcast ends, recordings become available for download.
   name: StreamYard Recordings API
   slug: streamyard-recordings-api
 artifact_total: 25
@@ -270,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/screenshots/streamyard-2026-06-20T194622.png
 security:

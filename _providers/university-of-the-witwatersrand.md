@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 9 operations
 api_count: 2
 apis:
-- description: HAL/JSON root document of the WIReDSpace DSpace 9.2 REST API, advertising 80 endpoint links including communities, collections, items, discovery, authn and identifiers. Operated by the University of t
+- baseURL: https://wiredspace.wits.ac.za/server/api
+  baseurl_source: declared
+  description: HAL/JSON root document of the WIReDSpace DSpace 9.2 REST API, advertising 80 endpoint links including communities, collections, items, discovery, authn and identifiers. Operated by the University of t
   name: WIReDSpace DSpace REST Root API
   slug: university-of-the-witwatersrand-root-api
-- description: Top-level and sub-community containers in WIReDSpace, aligned to Wits faculties, schools and research groupings. Anonymous read, paginated HAL collections.
+- baseURL: https://wiredspace.wits.ac.za/server/api
+  baseurl_source: declared
+  description: Top-level and sub-community containers in WIReDSpace, aligned to Wits faculties, schools and research groupings. Anonymous read, paginated HAL collections.
   name: WIReDSpace DSpace REST Communities API
   slug: university-of-the-witwatersrand-communities-api
-- description: 'Collections of items within WIReDSpace communities. Repaired on 2026-08-30: this contract had been welded to twenty-one Figshare /collections and /account/collections paths by a per-tag split across t'
+- baseURL: https://wiredspace.wits.ac.za/server/api
+  baseurl_source: declared
+  description: 'Collections of items within WIReDSpace communities. Repaired on 2026-08-30: this contract had been welded to twenty-one Figshare /collections and /account/collections paths by a per-tag split across t'
   name: WIReDSpace DSpace REST Collections API
   slug: university-of-the-witwatersrand-collections-api
-- description: Individual repository records — theses, dissertations, research articles and reports — each with Dublin Core metadata, bitstreams and a Handle under the 10539 prefix.
+- baseURL: https://wiredspace.wits.ac.za/server/api
+  baseurl_source: declared
+  description: Individual repository records — theses, dissertations, research articles and reports — each with Dublin Core metadata, bitstreams and a Handle under the 10539 prefix.
   name: WIReDSpace DSpace REST Items API
   slug: university-of-the-witwatersrand-items-api
-- description: Browse indexes and the search/discovery endpoint over WIReDSpace holdings, plus an OpenSearch 1.1 description document at /server/opensearch/service.
+- baseURL: https://wiredspace.wits.ac.za/server/api
+  baseurl_source: declared
+  description: Browse indexes and the search/discovery endpoint over WIReDSpace holdings, plus an OpenSearch 1.1 description document at /server/opensearch/service.
   name: WIReDSpace DSpace REST Discovery API
   slug: university-of-the-witwatersrand-discovery-api
-- description: OAI-PMH 2.0 metadata harvesting endpoint for WIReDSpace. Single-endpoint, verb-driven, answering anonymously, advertising thirteen metadata prefixes (oai_dc, qdc, dim, mets, mods, ore, didl, rdf, marc
+- baseURL: https://wiredspace.wits.ac.za/server/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting endpoint for WIReDSpace. Single-endpoint, verb-driven, answering anonymously, advertising thirteen metadata prefixes (oai_dc, qdc, dim, mets, mods, ore, didl, rdf, marc
   name: WIReDSpace OAI-PMH Interface
   slug: university-of-the-witwatersrand-request-api
 - description: The Wits research data repository. The hostname opendata.wits.ac.za is the university's and CNAMEs to proxy-eu-01.figshare.com; the DOIs are minted under the Wits DataCite prefix 10.71796 through Data
@@ -261,23 +273,23 @@ rules:
   slug: university-of-the-witwatersrand-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 45.5
   coverage:
     artifact_dirs: 17
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.4
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 63.7
+    contract_quality: 61.8
     developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 47.4
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,7 +305,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/screenshots/university-of-the-witwatersrand-2026-08-17T082627.png
 security:

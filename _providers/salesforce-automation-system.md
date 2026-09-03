@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: Multi-step approval automation for routing records through review chains with configurable criteria, approvers, and post-approval actions.
   name: Salesforce Approval Processes
   slug: salesforce-approval-processes
-- description: Manage Salesforce Flow definitions and metadata.
+- baseURL: https://{instance}.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Manage Salesforce Flow definitions and metadata.
   name: Salesforce Automation System Flows API
   slug: salesforce-automation-system-flows-api
-- description: Query and invoke automation processes.
+- baseURL: https://{instance}.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Query and invoke automation processes.
   name: Salesforce Automation System Process Automation API
   slug: salesforce-automation-system-process-automation-api
 artifact_total: 25
@@ -246,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/screenshots/salesforce-automation-system-2026-06-20T193343.png
 security:

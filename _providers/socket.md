@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 96 operations · 44 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The alerts API from Socket — 6 operation(s) for alerts.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The alerts API from Socket — 6 operation(s) for alerts.
   name: Socket alerts API
   slug: socket-alerts-api
-- description: The api-tokens API from Socket — 6 operation(s) for api-tokens.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The api-tokens API from Socket — 6 operation(s) for api-tokens.
   name: Socket api-tokens API
   slug: socket-api-tokens-api
-- description: The audit-log API from Socket — 1 operation(s) for audit-log.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The audit-log API from Socket — 1 operation(s) for audit-log.
   name: Socket audit-log API
   slug: socket-audit-log-api
-- description: The dependencies API from Socket — 2 operation(s) for dependencies.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The dependencies API from Socket — 2 operation(s) for dependencies.
   name: Socket dependencies API
   slug: socket-dependencies-api
-- description: The deprecated API from Socket — 17 operation(s) for deprecated.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The deprecated API from Socket — 17 operation(s) for deprecated.
   name: Socket deprecated API
   slug: socket-deprecated-api
-- description: The diff-scans API from Socket — 7 operation(s) for diff-scans.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The diff-scans API from Socket — 7 operation(s) for diff-scans.
   name: Socket diff-scans API
   slug: socket-diff-scans-api
-- description: The fixes API from Socket — 1 operation(s) for fixes.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The fixes API from Socket — 1 operation(s) for fixes.
   name: Socket fixes API
   slug: socket-fixes-api
-- description: The full-scans API from Socket — 13 operation(s) for full-scans.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The full-scans API from Socket — 13 operation(s) for full-scans.
   name: Socket full-scans API
   slug: socket-full-scans-api
-- description: The license-policy API from Socket — 4 operation(s) for license-policy.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The license-policy API from Socket — 4 operation(s) for license-policy.
   name: Socket license-policy API
   slug: socket-license-policy-api
-- description: The metadata API from Socket — 5 operation(s) for metadata.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The metadata API from Socket — 5 operation(s) for metadata.
   name: Socket metadata API
   slug: socket-metadata-api
-- description: The org-settings API from Socket — 2 operation(s) for org-settings.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The org-settings API from Socket — 2 operation(s) for org-settings.
   name: Socket org-settings API
   slug: socket-org-settings-api
-- description: The org-snapshots API from Socket — 1 operation(s) for org-snapshots.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The org-snapshots API from Socket — 1 operation(s) for org-snapshots.
   name: Socket org-snapshots API
   slug: socket-org-snapshots-api
-- description: The packages API from Socket — 2 operation(s) for packages.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The packages API from Socket — 2 operation(s) for packages.
   name: Socket packages API
   slug: socket-packages-api
-- description: The repo-labels API from Socket — 5 operation(s) for repo-labels.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The repo-labels API from Socket — 5 operation(s) for repo-labels.
   name: Socket repo-labels API
   slug: socket-repo-labels-api
-- description: The repos API from Socket — 2 operation(s) for repos.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The repos API from Socket — 2 operation(s) for repos.
   name: Socket repos API
   slug: socket-repos-api
-- description: The security-policy API from Socket — 1 operation(s) for security-policy.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The security-policy API from Socket — 1 operation(s) for security-policy.
   name: Socket security-policy API
   slug: socket-security-policy-api
-- description: The telemetry API from Socket — 1 operation(s) for telemetry.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The telemetry API from Socket — 1 operation(s) for telemetry.
   name: Socket telemetry API
   slug: socket-telemetry-api
-- description: The threat-feed API from Socket — 1 operation(s) for threat-feed.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The threat-feed API from Socket — 1 operation(s) for threat-feed.
   name: Socket threat-feed API
   slug: socket-threat-feed-api
-- description: The triage API from Socket — 2 operation(s) for triage.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The triage API from Socket — 2 operation(s) for triage.
   name: Socket triage API
   slug: socket-triage-api
-- description: The webhooks API from Socket — 2 operation(s) for webhooks.
+- baseURL: https://api.socket.dev/v0
+  baseurl_source: declared
+  description: The webhooks API from Socket — 2 operation(s) for webhooks.
   name: Socket webhooks API
   slug: socket-webhooks-api
 artifact_total: 49
@@ -351,7 +391,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -361,7 +401,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 43.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,7 +413,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/screenshots/socket-2026-08-17T081947.png
 security:

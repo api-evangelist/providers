@@ -29,7 +29,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -61,12 +61,12 @@
      "slug": "ada",
      "description": "Ada is an AI-powered customer service automation platform that enables enterprises to deploy AI agents capable of resolving customer inquiries across digital channels without human intervention. The platform exposes a suite of REST APIs for managing knowledge bases, end-user profiles, conversation handling, data export, data compliance, and external integrations. All APIs use rotatable API keys for authentication, return JSON, and support cursor-based pagination. Ada serves global brands including Pinterest, Square, Ancestry, and Zendesk, and has powered more than 6.4 billion customer interactions since its founding in 2016.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png",
-     "score": 73.8,
+     "score": 73.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 71.1,
+      "contract_quality": 71.6,
       "governance": 43.2,
       "contract_governance": 43.2,
       "operational_transparency": 60.5,
@@ -74,7 +74,7 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 45.5,
      "agent_band": "agent-native",
@@ -117,12 +117,12 @@
      "slug": "constant-contact",
      "description": "Constant Contact is a small-business email and digital marketing platform offering email campaigns, automation, SMS, contact management, surveys, and events. The Constant Contact V3 API is a REST + JSON, OAuth2-protected service published at api.cc.email/v3 covering accounts, contacts, lists, tags, custom fields, segments, email campaigns, A/B tests, schedules and tests, bulk activities (CSV/JSON import, export, list and tag mutations), events with registration and check-in, reporting, and partner provisioning.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png",
-     "score": 63.4,
+     "score": 63.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 67.9,
+      "contract_quality": 67.7,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 73.7,
@@ -130,7 +130,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -182,7 +182,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -227,7 +227,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -272,7 +272,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
@@ -317,7 +317,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -373,7 +373,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -401,6 +401,51 @@
      "rank": 8
     },
     {
+     "name": "Bonjoro",
+     "slug": "bonjoro",
+     "description": "Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — \"Bonjoros\" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png",
+     "score": 48.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 56.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
      "name": "Cast Corporation",
      "slug": "cast-corporation",
      "description": "Cast Corporation (Cast.app) is an AI-agent platform that automates customer success and post-sales revenue operations for B2B SaaS and technology companies. Its autonomous \"digital CSM\" agents deliver personalized business reviews, grounded answers, onboarding, usage adoption, churn reduction, renewal influence, and referral workflows across email, in-app, and chat in 17 languages. Cast positions itself as an autopilot layer over an existing stack, connecting natively to 60+ systems including Salesforce, HubSpot, Gainsight, Totango, and data warehouses, with customers such as Pure Storage, HPE, and Aruba Networks. Backed by Techstars, Array Ventures, Soma Capital, New York Venture Partners, Leonis Capital, and Comcast NBCUniversal LiftLabs. Cast publishes two documented REST surfaces: a Cast Analytics API for exporting campaign engagement events and summaries, and an In-app Delivery API plus embeddable loader for minting personalized presentation permalinks inside a customer's own web app. Both are documented in prose only — Cast publishes no OpenAPI, AsyncAPI, GraphQL SDL, or Postman collection.",
@@ -418,7 +463,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -434,51 +479,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Bonjoro",
-     "slug": "bonjoro",
-     "description": "Bonjoro is a personal-video customer engagement platform operated by Vimily Pty Ltd of Sydney, Australia. Sales, marketing, customer success and education teams use it to record short one-to-one videos — \"Bonjoros\" — and deliver them at the moments that decide a relationship: signup, onboarding, first purchase, renewal and churn risk. Alongside the messaging product it runs a video testimonial collection surface. Bonjoro publishes a REST API (API V2, 94 paths and 123 operations) covering greets, recipient profiles, campaigns and workspaces, recordings and media, message templates, engagement results and stats, transmissions and deliverability, replies, teams and users, custom sending domains and verified signatures, and the trigger/action automation engine that wires Bonjoro into CRMs and email platforms. REST API access is published as a Company-tier entitlement; the wider integration surface runs through 18+ native connectors and a first-party Zapier app.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 56.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -508,7 +508,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
@@ -553,7 +553,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.0,
      "agent_band": "agent-aware",
@@ -594,6 +594,7 @@
      "name": "Whisperr, Inc.",
      "slug": "whisperr-inc",
      "description": "Whisperr, Inc. builds an autonomous customer-retention platform that detects churn risk and acts on it automatically, without a lifecycle marketing team operating campaigns. Whisperr combines behavioral intelligence, autonomous decisioning, and AI-generated content to spot at-risk customers and deliver interventions in under ten seconds. It serves SaaS, DTC and subscription-commerce, and mobile-game businesses, and publishes churn calculators plus a voice retention agent (Whisperr Recall). Whisperr is a 500 Global portfolio company. It publishes a real developer surface: an OpenAPI 3.0.3 document served at https://api.whisperr.net/openapi.json, a documented three-endpoint ingestion API (track, batch, identify) authenticated with a publishable wrk_ key, ten first-party SDKs spanning JavaScript, Python, PHP, .NET, Dart and Swift, an agentic integration CLI (npx @whisperr/wizard), and a public wire-contract repository whose executable conformance fixtures every SDK runs in CI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png",
      "score": 37.6,
      "band": "thin",
      "band_label": "Thin",
@@ -607,7 +608,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -652,7 +653,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 44.3,
      "agent_band": "agent-ready",
@@ -697,7 +698,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.5,
      "agent_band": "agent-aware",
@@ -752,7 +753,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -797,7 +798,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -842,7 +843,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -897,7 +898,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -948,7 +949,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

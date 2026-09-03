@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 36 operations · 2 acting
 api_count: 3
 apis:
-- description: 'Account API credential management: list, create, rotate and revoke opaque omk_* API keys. Secrets are returned once and recoverable only via an identical Idempotency-Key replay inside 24 hours.'
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: 'Account API credential management: list, create, rotate and revoke opaque omk_* API keys. Secrets are returned once and recoverable only via an identical Idempotency-Key replay inside 24 hours.'
   name: OpenMercantil API Credentials API
   slug: openmercantil-api-credentials-api
-- description: Session-bound Stripe checkout, invoices and portal contracts. External actions are bounded, idempotent and never exposed through the public MCP.
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Session-bound Stripe checkout, invoices and portal contracts. External actions are bounded, idempotent and never exposed through the public MCP.
   name: OpenMercantil Billing API
   slug: openmercantil-billing-api
-- description: Daily BORME publications, multi-source timeline and registry events
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Daily BORME publications, multi-source timeline and registry events
   name: OpenMercantil BORME API
   slug: openmercantil-borme-api
-- description: Company reports and registry events
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Company reports and registry events
   name: OpenMercantil Companies API
   slug: openmercantil-companies-api
-- description: Bulk exports (CSV / JSON / aggregated stats)
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Bulk exports (CSV / JSON / aggregated stats)
   name: OpenMercantil Datasets API
   slug: openmercantil-datasets-api
-- description: Corporate and person-to-company relationship graphs. Every emitted record retains the source-specific terms authorized by the active public source catalog; no blanket relicensing applies.
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Corporate and person-to-company relationship graphs. Every emitted record retains the source-specific terms authorized by the active public source catalog; no blanket relicensing applies.
   name: OpenMercantil Graph API
   slug: openmercantil-graph-api
-- description: Public read-only connector catalog. Never exposes credentials, OAuth tokens, webhook secrets or operator actions.
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Public read-only connector catalog. Never exposes credentials, OAuth tokens, webhook secrets or operator actions.
   name: OpenMercantil Integrations API
   slug: openmercantil-integrations-api
-- description: 'Spanish mercantile-law layer (derecho mercantil): legislation corpus + article texts + act→norm bridge. Distributes the consolidated BOE legal corpus structured by OpenMercantil so LLMs and agents can'
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: 'Spanish mercantile-law layer (derecho mercantil): legislation corpus + article texts + act→norm bridge. Distributes the consolidated BOE legal corpus structured by OpenMercantil so LLMs and agents can'
   name: OpenMercantil Legal API
   slug: openmercantil-legal-api
-- description: Documentary mentions of natural persons in BORME (officer roles). Persons treated as documentary mentions only — no DNI, no contact data, no scoring.
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Documentary mentions of natural persons in BORME (officer roles). Persons treated as documentary mentions only — no DNI, no contact data, no scoring.
   name: OpenMercantil Persons API
   slug: openmercantil-persons-api
-- description: Public procurement awards (PLACSP) and grants (BDNS)
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Public procurement awards (PLACSP) and grants (BDNS)
   name: OpenMercantil Public Procurement API
   slug: openmercantil-public-procurement-api
-- description: Company and person search endpoints
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Company and person search endpoints
   name: OpenMercantil Search API
   slug: openmercantil-search-api
-- description: CNAE sector aggregates, ratios and company listings
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: CNAE sector aggregates, ratios and company listings
   name: OpenMercantil Sectors API
   slug: openmercantil-sectors-api
-- description: Source catalog metadata, freshness and integration status
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Source catalog metadata, freshness and integration status
   name: OpenMercantil Sources API
   slug: openmercantil-sources-api
-- description: Customer-support writes. Anonymous creation requires explicit privacy consent; replies require an authenticated owner session and CSRF. Ticket data is never exposed through the public MCP.
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Customer-support writes. Anonymous creation requires explicit privacy consent; replies require an authenticated owner session and CSRF. Ticket data is never exposed through the public MCP.
   name: OpenMercantil Support API
   slug: openmercantil-support-api
-- description: Service health and metadata
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Service health and metadata
   name: OpenMercantil System API
   slug: openmercantil-system-api
-- description: Authenticated Panel Pro endpoints — segments, lists, notes, tags, exports, audit. Requires session cookie (browser) and X-CSRF-Token header for mutations.
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Authenticated Panel Pro endpoints — segments, lists, notes, tags, exports, audit. Requires session cookie (browser) and X-CSRF-Token header for mutations.
   name: OpenMercantil User API
   slug: openmercantil-user-api
-- description: 'Account outbound webhooks: register, update, rotate the HMAC signing secret and delete event subscriptions. Three subscribable event types; deliveries are signed and fail closed on unknown events.'
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: 'Account outbound webhooks: register, update, rotate the HMAC signing secret and delete event subscriptions. Three subscribable event types; deliveries are signed and fail closed on unknown events.'
   name: OpenMercantil Webhooks API
   slug: openmercantil-webhooks-api
-- description: Public procurement (PLACSP) rankings
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Public procurement (PLACSP) rankings
   name: OpenMercantil Contracts API
   slug: openmercantil-contracts-api
-- description: Daily BORME summary feeds
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Daily BORME summary feeds
   name: OpenMercantil Daily API
   slug: openmercantil-daily-api
-- description: Bulk and per-resource export endpoints
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Bulk and per-resource export endpoints
   name: OpenMercantil Export API
   slug: openmercantil-export-api
-- description: Geolocation enrichment
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Geolocation enrichment
   name: OpenMercantil Geocode API
   slug: openmercantil-geocode-api
-- description: Company relationship network and embargoes
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Company relationship network and embargoes
   name: OpenMercantil Network API
   slug: openmercantil-network-api
-- description: Documentary risk signals from public sources (AEPD, CNMC, concursos, AEAT moroso, CENDOJ)
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Documentary risk signals from public sources (AEPD, CNMC, concursos, AEAT moroso, CENDOJ)
   name: OpenMercantil Risk Signals API
   slug: openmercantil-risk-signals-api
-- description: Company score, trust score and activity timeseries
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Company score, trust score and activity timeseries
   name: OpenMercantil Score API
   slug: openmercantil-score-api
-- description: Aggregate statistics by region and sector
+- baseURL: https://openmercantil.es
+  baseurl_source: declared
+  description: Aggregate statistics by region and sector
   name: OpenMercantil Stats API
   slug: openmercantil-stats-api
 artifact_total: 61
@@ -471,7 +521,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -481,7 +531,7 @@ score:
     discoverability: 81.5
     governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 86.4
+  previous_composite: 86.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -503,7 +553,7 @@ score:
     regime_id: government
     score: 85.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png
 security:

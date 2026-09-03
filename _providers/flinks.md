@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 11 acting
 api_count: 1
 apis:
-- description: The Authorize API from Flinks — 1 operation(s) for authorize.
+- baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
+  baseurl_source: declared
+  description: The Authorize API from Flinks — 1 operation(s) for authorize.
   name: Flinks Authorize API
   slug: flinks-authorize-api
-- description: The Connect API from Flinks — 5 operation(s) for connect.
+- baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
+  baseurl_source: declared
+  description: The Connect API from Flinks — 5 operation(s) for connect.
   name: Flinks Connect API
   slug: flinks-connect-api
-- description: The Enrich API from Flinks — 1 operation(s) for enrich.
+- baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
+  baseurl_source: declared
+  description: The Enrich API from Flinks — 1 operation(s) for enrich.
   name: Flinks Enrich API
   slug: flinks-enrich-api
-- description: The Fraud API from Flinks — 2 operation(s) for fraud.
+- baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
+  baseurl_source: declared
+  description: The Fraud API from Flinks — 2 operation(s) for fraud.
   name: Flinks Fraud API
   slug: flinks-fraud-api
-- description: The Identity API from Flinks — 1 operation(s) for identity.
+- baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
+  baseurl_source: declared
+  description: The Identity API from Flinks — 1 operation(s) for identity.
   name: Flinks Identity API
   slug: flinks-identity-api
-- description: The Score API from Flinks — 2 operation(s) for score.
+- baseURL: https://{instance}-api.private.fin.ag/v3/{customerId}/BankingServices
+  baseurl_source: declared
+  description: The Score API from Flinks — 2 operation(s) for score.
   name: Flinks Score API
   slug: flinks-score-api
 artifact_total: 22
@@ -199,7 +211,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png
 security:

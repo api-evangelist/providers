@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 32 operations · 19 acting
 api_count: 1
 apis:
-- description: The AccountOwner API from Aqueduct — 3 operation(s) for accountowner.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The AccountOwner API from Aqueduct — 3 operation(s) for accountowner.
   name: Aqueduct AccountOwner API
   slug: aqueduct-accountowner-api
-- description: The Bill API from Aqueduct — 2 operation(s) for bill.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Bill API from Aqueduct — 2 operation(s) for bill.
   name: Aqueduct Bill API
   slug: aqueduct-bill-api
-- description: The Invoice API from Aqueduct — 6 operation(s) for invoice.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Invoice API from Aqueduct — 6 operation(s) for invoice.
   name: Aqueduct Invoice API
   slug: aqueduct-invoice-api
-- description: The InvoiceLineItem API from Aqueduct — 1 operation(s) for invoicelineitem.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The InvoiceLineItem API from Aqueduct — 1 operation(s) for invoicelineitem.
   name: Aqueduct InvoiceLineItem API
   slug: aqueduct-invoicelineitem-api
-- description: The PriceModel API from Aqueduct — 3 operation(s) for pricemodel.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The PriceModel API from Aqueduct — 3 operation(s) for pricemodel.
   name: Aqueduct PriceModel API
   slug: aqueduct-pricemodel-api
-- description: The ProductPurchases API from Aqueduct — 1 operation(s) for productpurchases.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The ProductPurchases API from Aqueduct — 1 operation(s) for productpurchases.
   name: Aqueduct ProductPurchases API
   slug: aqueduct-productpurchases-api
-- description: The Products API from Aqueduct — 2 operation(s) for products.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Products API from Aqueduct — 2 operation(s) for products.
   name: Aqueduct Products API
   slug: aqueduct-products-api
-- description: The Provisioning API from Aqueduct — 1 operation(s) for provisioning.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Provisioning API from Aqueduct — 1 operation(s) for provisioning.
   name: Aqueduct Provisioning API
   slug: aqueduct-provisioning-api
-- description: The Subscriptions API from Aqueduct — 2 operation(s) for subscriptions.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Aqueduct — 2 operation(s) for subscriptions.
   name: Aqueduct Subscriptions API
   slug: aqueduct-subscriptions-api
-- description: The Webhooks API from Aqueduct — 1 operation(s) for webhooks.
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Aqueduct — 1 operation(s) for webhooks.
   name: Aqueduct Webhooks API
   slug: aqueduct-webhooks-api
 artifact_total: 26
@@ -213,7 +233,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -223,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 28.7
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,7 +261,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/screenshots/aqueduct-2026-07-25T200954.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 8 acting
 api_count: 1
 apis:
-- description: Instant digital load booking.
+- baseURL: https://identity.api.dat.com
+  baseurl_source: declared
+  description: Instant digital load booking.
   name: DAT Freight & Analytics BookNow API
   slug: dat-freight-booknow-api
-- description: Create and manage load and truck postings.
+- baseURL: https://identity.api.dat.com
+  baseurl_source: declared
+  description: Create and manage load and truck postings.
   name: DAT Freight & Analytics Freight Posting API
   slug: dat-freight-freight-posting-api
-- description: Two-tier organization and user token issuance.
+- baseURL: https://identity.api.dat.com
+  baseurl_source: declared
+  description: Two-tier organization and user token issuance.
   name: DAT Freight & Analytics Identity API
   slug: dat-freight-identity-api
-- description: Search available loads and trucks on the DAT One marketplace.
+- baseURL: https://identity.api.dat.com
+  baseurl_source: declared
+  description: Search available loads and trucks on the DAT One marketplace.
   name: DAT Freight & Analytics Load Board Search API
   slug: dat-freight-load-board-search-api
-- description: Spot and contract freight-rate lookups.
+- baseURL: https://identity.api.dat.com
+  baseurl_source: declared
+  description: Spot and contract freight-rate lookups.
   name: DAT Freight & Analytics RateView API
   slug: dat-freight-rateview-api
-- description: Shipment location and status visibility.
+- baseURL: https://identity.api.dat.com
+  baseurl_source: declared
+  description: Shipment location and status visibility.
   name: DAT Freight & Analytics Tracking API
   slug: dat-freight-tracking-api
 artifact_total: 20
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/screenshots/dat-freight-2026-07-25T211230.png
 security:

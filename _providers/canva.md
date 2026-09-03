@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -54,34 +54,54 @@ apis:
 - description: Enables embedding Canva design capabilities directly into websites and applications through HTML and JavaScript APIs for creating and editing designs.
   name: Canva Button API
   slug: canva-button-api
-- description: Upload and manage image and video assets
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Upload and manage image and video assets
   name: Canva Assets API
   slug: canva-assets-api
-- description: Create designs from brand templates using autofill data
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Create designs from brand templates using autofill data
   name: Canva Autofills API
   slug: canva-autofills-api
-- description: List and retrieve brand templates and their datasets
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: List and retrieve brand templates and their datasets
   name: Canva Brand Templates API
   slug: canva-brand-templates-api
-- description: Create and manage comments on designs
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Create and manage comments on designs
   name: Canva Comments API
   slug: canva-comments-api
-- description: Create, retrieve, and list designs
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Create, retrieve, and list designs
   name: Canva Designs API
   slug: canva-designs-api
-- description: Export designs to PDF, PNG, JPG, GIF, PPTX, and MP4
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Export designs to PDF, PNG, JPG, GIF, PPTX, and MP4
   name: Canva Exports API
   slug: canva-exports-api
-- description: Retrieve folders and list folder contents
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Retrieve folders and list folder contents
   name: Canva Folders API
   slug: canva-folders-api
-- description: Resize designs to different dimensions or preset types
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Resize designs to different dimensions or preset types
   name: Canva Resizes API
   slug: canva-resizes-api
-- description: Retrieve information about the authenticated user
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: Retrieve information about the authenticated user
   name: Canva Users API
   slug: canva-users-api
-- description: The umbrella Canva Connect REST API as Canva publishes it — 59 operations across designs, assets, folders, brand templates, autofills, exports, resizes, imports, merges, comments, analytics, users, OA
+- baseURL: https://api.canva.com/rest/v1
+  baseurl_source: declared
+  description: The umbrella Canva Connect REST API as Canva publishes it — 59 operations across designs, assets, folders, brand templates, autofills, exports, resizes, imports, merges, comments, analytics, users, OA
   name: Canva Connect API
   slug: canva-connect-api
 - description: SCIM 2.0 API for automating provisioning and deprovisioning of Canva user accounts and groups. Canva states it implements the SCIM v2 specification (RFC 7644). Available to Canva Enterprise single tea
@@ -90,49 +110,79 @@ apis:
 - description: Partner-gated REST API for print order fulfilment. Uniquely bidirectional — Canva acts as the API CLIENT when sending orders to a print partner, and as the API SERVER when the partner sends order stat
   name: Canva Print API
   slug: canva-print-api
-- description: The analytics API from Canva — 5 operation(s) for analytics.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The analytics API from Canva — 5 operation(s) for analytics.
   name: Canva Analytics API
   slug: canva-analytics-api
-- description: The app API from Canva — 1 operation(s) for app.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The app API from Canva — 1 operation(s) for app.
   name: Canva App API
   slug: canva-app-api
-- description: The asset API from Canva — 5 operation(s) for asset.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The asset API from Canva — 5 operation(s) for asset.
   name: Canva Asset API
   slug: canva-asset-api
-- description: The autofill API from Canva — 2 operation(s) for autofill.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The autofill API from Canva — 2 operation(s) for autofill.
   name: Canva Autofill API
   slug: canva-autofill-api
-- description: The brand_template API from Canva — 3 operation(s) for brand_template.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The brand_template API from Canva — 3 operation(s) for brand_template.
   name: Canva Brand Template API
   slug: canva-brand-template-api
-- description: The comment API from Canva — 5 operation(s) for comment.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The comment API from Canva — 5 operation(s) for comment.
   name: Canva Comment API
   slug: canva-comment-api
-- description: The design API from Canva — 7 operation(s) for design.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The design API from Canva — 7 operation(s) for design.
   name: Canva Design API
   slug: canva-design-api
-- description: The design_import API from Canva — 4 operation(s) for design_import.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The design_import API from Canva — 4 operation(s) for design_import.
   name: Canva Design Import API
   slug: canva-design-import-api
-- description: The export API from Canva — 3 operation(s) for export.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The export API from Canva — 3 operation(s) for export.
   name: Canva Export API
   slug: canva-export-api
-- description: The folder API from Canva — 4 operation(s) for folder.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The folder API from Canva — 4 operation(s) for folder.
   name: Canva Folder API
   slug: canva-folder-api
-- description: The merge API from Canva — 2 operation(s) for merge.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The merge API from Canva — 2 operation(s) for merge.
   name: Canva Merge API
   slug: canva-merge-api
-- description: The oauth API from Canva — 3 operation(s) for oauth.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The oauth API from Canva — 3 operation(s) for oauth.
   name: Canva OAUTH API
   slug: canva-oauth-api
-- description: The oidc API from Canva — 2 operation(s) for oidc.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The oidc API from Canva — 2 operation(s) for oidc.
   name: Canva Oidc API
   slug: canva-oidc-api
-- description: The resize API from Canva — 2 operation(s) for resize.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The resize API from Canva — 2 operation(s) for resize.
   name: Canva Resize API
   slug: canva-resize-api
-- description: The user API from Canva — 3 operation(s) for user.
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The user API from Canva — 3 operation(s) for user.
   name: Canva User API
   slug: canva-user-api
 artifact_total: 259
@@ -1081,7 +1131,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -1091,7 +1141,7 @@ score:
     discoverability: 77.8
     governance: 31.8
     operational_transparency: 60.5
-  previous_composite: 67.0
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1103,7 +1153,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:

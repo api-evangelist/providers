@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 3
 apis:
-- description: Agricultural commodity pricing and market data
+- baseURL: https://api.adm.com
+  baseurl_source: declared
+  description: Agricultural commodity pricing and market data
   name: Archer Daniels Midland Commodities API
   slug: archer-daniels-midland-commodities-api
-- description: ADM global facility and processing plant locations
+- baseURL: https://api.adm.com
+  baseurl_source: declared
+  description: ADM global facility and processing plant locations
   name: Archer Daniels Midland Locations API
   slug: archer-daniels-midland-locations-api
-- description: ADM food ingredients and product catalog
+- baseURL: https://api.adm.com
+  baseurl_source: declared
+  description: ADM food ingredients and product catalog
   name: Archer Daniels Midland Products API
   slug: archer-daniels-midland-products-api
 artifact_total: 54
@@ -300,7 +306,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png
 security:

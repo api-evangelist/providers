@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: A remote, OAuth-protected Model Context Protocol server that exposes Cloverleaf AI's government meeting intelligence to AI agents and assistants. Found by host discovery (mcp.cloverleaf.ai) rather tha
@@ -200,7 +200,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverleaf-ai/refs/heads/main/screenshots/cloverleaf-ai-2026-07-25T205722.png
 security:

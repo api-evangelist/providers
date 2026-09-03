@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,10 +47,14 @@ apis:
 - description: char.gy's commercial Open Charge Point Interface implementation in the Charge Point Operator role, used so that another network's drivers can authorise, charge and be settled on char.gy infrastructure
   name: char.gy OCPI CPO Roaming API
   slug: chargy-ocpi-cpo-api
-- description: Reference and availability data for char.gy charge points.
+- baseURL: https://char.gy/open-ocpi
+  baseurl_source: declared
+  description: Reference and availability data for char.gy charge points.
   name: char.gy Locations API
   slug: chargy-locations-api
-- description: Published price components for char.gy charging sessions.
+- baseURL: https://char.gy/open-ocpi
+  baseurl_source: declared
+  description: Published price components for char.gy charging sessions.
   name: char.gy Tariffs API
   slug: chargy-tariffs-api
 artifact_total: 10
@@ -230,7 +245,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
 security:

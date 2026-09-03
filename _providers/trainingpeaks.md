@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 49 operations · 15 acting
 api_count: 1
 apis:
-- description: Authenticated athlete profile and (deprecated) training zones.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Authenticated athlete profile and (deprecated) training zones.
   name: TrainingPeaks Athlete API
   slug: trainingpeaks-athlete-api
-- description: Coach profile, athletes, and assistant management.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Coach profile, athletes, and assistant management.
   name: TrainingPeaks Coach API
   slug: trainingpeaks-coach-api
-- description: Athlete events.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Athlete events.
   name: TrainingPeaks Events API
   slug: trainingpeaks-events-api
-- description: Asynchronous activity file uploads.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Asynchronous activity file uploads.
   name: TrainingPeaks File API
   slug: trainingpeaks-file-api
-- description: Service information and version.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Service information and version.
   name: TrainingPeaks Info API
   slug: trainingpeaks-info-api
-- description: Athlete wellness and body metrics.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Athlete wellness and body metrics.
   name: TrainingPeaks Metrics API
   slug: trainingpeaks-metrics-api
-- description: Athlete nutrition log entries.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Athlete nutrition log entries.
   name: TrainingPeaks Nutrition API
   slug: trainingpeaks-nutrition-api
-- description: Athlete GPS routes.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Athlete GPS routes.
   name: TrainingPeaks Routes API
   slug: trainingpeaks-routes-api
-- description: Workout webhook subscriptions (Early Access).
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Workout webhook subscriptions (Early Access).
   name: TrainingPeaks Webhooks API
   slug: trainingpeaks-webhooks-api
-- description: Planned and completed workouts, changes, details, and analytics.
+- baseURL: https://api.trainingpeaks.com
+  baseurl_source: declared
+  description: Planned and completed workouts, changes, details, and analytics.
   name: TrainingPeaks Workouts API
   slug: trainingpeaks-workouts-api
 artifact_total: 29
@@ -195,7 +215,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +244,9 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/screenshots/trainingpeaks-2026-09-02T164108.png
 security:
 - kind: authentication
   name: Trainingpeaks Authentication

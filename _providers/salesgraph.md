@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The org audit shortcut.
+- baseURL: https://salesgraph.com/api/v1
+  baseurl_source: declared
+  description: The org audit shortcut.
   name: Salesgraph Audit API
   slug: salesgraph-audit-api
-- description: The command catalog and synchronous/asynchronous command execution.
+- baseURL: https://salesgraph.com/api/v1
+  baseurl_source: declared
+  description: The command catalog and synchronous/asynchronous command execution.
   name: Salesgraph Commands API
   slug: salesgraph-commands-api
-- description: Polling asynchronous audit runs.
+- baseURL: https://salesgraph.com/api/v1
+  baseurl_source: declared
+  description: Polling asynchronous audit runs.
   name: Salesgraph Runs API
   slug: salesgraph-runs-api
-- description: The Opportunity Management System — query the organization's own visible sales objects, traverse their relationships, inspect where each value came from, and manage continuous, cost-capped research wa
+- baseURL: https://salesgraph.com/api/v1
+  baseurl_source: declared
+  description: The Opportunity Management System — query the organization's own visible sales objects, traverse their relationships, inspect where each value came from, and manage continuous, cost-capped research wa
   name: Salesgraph OMS API
   slug: salesgraph-oms-api
-- description: A public, unauthenticated JSON status endpoint at /api/status carrying the platform headline, overall status, active incident count, a seven-component health array with per-component lastCheckedAt tim
+- baseURL: https://salesgraph.com/api
+  baseurl_source: declared
+  description: A public, unauthenticated JSON status endpoint at /api/status carrying the platform headline, overall status, active incident count, a seven-component health array with per-component lastCheckedAt tim
   name: Salesgraph Status API
   slug: salesgraph-status-api
 - description: The remote MCP streamable-HTTP server at salesgraph.com/api/mcp, authenticated with an sg_live_ API key. It exposes 19 documented tools across three families — GTM commands (research, competitors, gtm
@@ -221,7 +231,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -246,8 +256,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/salesgraph/refs/heads/main/screenshots/salesgraph-2026-09-02T154323.png
 security:
 - kind: authentication
   name: Salesgraph Authentication

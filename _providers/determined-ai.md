@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 1
 apis:
-- description: Log in to and out of the cluster
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Log in to and out of the cluster
   name: Determined AI Authentication API
   slug: determined-ai-authentication-api
-- description: Manage checkpoints
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage checkpoints
   name: Determined AI Checkpoints API
   slug: determined-ai-checkpoints-api
-- description: Manage cluster components
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage cluster components
   name: Determined AI Cluster API
   slug: determined-ai-cluster-api
-- description: Manage experiments
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage experiments
   name: Determined AI Experiments API
   slug: determined-ai-experiments-api
-- description: Manage models
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage models
   name: Determined AI Models API
   slug: determined-ai-models-api
-- description: Manage templates
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage templates
   name: Determined AI Templates API
   slug: determined-ai-templates-api
-- description: Manage tokens
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage tokens
   name: Determined AI Tokens API
   slug: determined-ai-tokens-api
-- description: Manage users
+- baseURL: https://master.example.com
+  baseurl_source: spec
+  description: Manage users
   name: Determined AI Users API
   slug: determined-ai-users-api
 artifact_total: 24
@@ -185,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/screenshots/determined-ai-2026-07-25T211812.png
 security:

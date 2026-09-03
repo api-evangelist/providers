@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Insomnia is an open-source, cross-platform API development platform by Kong for designing, debugging, and testing HTTP, REST, GraphQL, gRPC, SOAP, WebSockets, SSE, and Socket.IO APIs. It includes an I
   name: Insomnia
   slug: insomnia
-- description: View request logs for mock servers.
+- baseURL: https://mock.insomnia.rest
+  baseurl_source: spec
+  description: View request logs for mock servers.
   name: Insomnia Mock Logs API
   slug: insomnia-mock-logs-api
-- description: Manage individual routes within a mock server.
+- baseURL: https://mock.insomnia.rest
+  baseurl_source: spec
+  description: Manage individual routes within a mock server.
   name: Insomnia Mock Routes API
   slug: insomnia-mock-routes-api
-- description: Manage mock server instances.
+- baseURL: https://mock.insomnia.rest
+  baseurl_source: spec
+  description: Manage mock server instances.
   name: Insomnia Mock Servers API
   slug: insomnia-mock-servers-api
 artifact_total: 21
@@ -203,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/screenshots/insomnia-2026-06-20T183403.png
 security:

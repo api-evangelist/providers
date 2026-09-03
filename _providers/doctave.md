@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 1
 apis:
-- description: Trigger and monitor documentation site deployments.
+- baseURL: https://api.doctave.com/v1
+  baseurl_source: spec
+  description: Trigger and monitor documentation site deployments.
   name: Doctave Deployments API
   slug: doctave-deployments-api
-- description: Create, read, update, and delete documentation pages.
+- baseURL: https://api.doctave.com/v1
+  baseurl_source: spec
+  description: Create, read, update, and delete documentation pages.
   name: Doctave Pages API
   slug: doctave-pages-api
-- description: Search across documentation site content.
+- baseURL: https://api.doctave.com/v1
+  baseurl_source: spec
+  description: Search across documentation site content.
   name: Doctave Search API
   slug: doctave-search-api
-- description: Manage documentation sites and their configurations.
+- baseURL: https://api.doctave.com/v1
+  baseurl_source: spec
+  description: Manage documentation sites and their configurations.
   name: Doctave Sites API
   slug: doctave-sites-api
 artifact_total: 20
@@ -191,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctave/refs/heads/main/screenshots/doctave-2026-06-20T180112.png
 security:

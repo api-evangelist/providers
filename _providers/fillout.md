@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: REST API for retrieving forms and submissions. Bearer API key auth. Endpoints under /v1/api/ — /forms, /forms/{formId}, /forms/{formId}/ submissions, etc. Self-hosted Fillout and the EU agent return t
   name: Fillout REST API
   slug: rest
-- description: The Forms API from Fillout — 4 operation(s) for forms.
+- baseURL: https://api.fillout.com/v1/api
+  baseurl_source: declared
+  description: The Forms API from Fillout — 4 operation(s) for forms.
   name: Fillout Forms API
   slug: fillout-forms-api
-- description: The Webhook API from Fillout — 2 operation(s) for webhook.
+- baseURL: https://api.fillout.com/v1/api
+  baseurl_source: declared
+  description: The Webhook API from Fillout — 2 operation(s) for webhook.
   name: Fillout Webhook API
   slug: fillout-webhook-api
 artifact_total: 13
@@ -172,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/screenshots/fillout-2026-06-20T181207.png
 security:

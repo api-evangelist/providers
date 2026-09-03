@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,22 +35,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require OAuth 2.1 bearer auth (observed HTTP 401 anonymously).
+- baseURL: https://www.a2bio.com/wp-json/
+  baseurl_source: declared
+  description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require OAuth 2.1 bearer auth (observed HTTP 401 anonymously).
   name: A2 Biotherapeutics MCP API
   slug: a2-biotherapeutics-mcp-api
-- description: oEmbed discovery and proxy endpoints.
+- baseURL: https://www.a2bio.com/wp-json/
+  baseurl_source: declared
+  description: oEmbed discovery and proxy endpoints.
   name: A2 Biotherapeutics Oembed/1.0 API
   slug: a2-biotherapeutics-oembed-1-0-api
-- description: REST API index / namespace discovery.
+- baseURL: https://www.a2bio.com/wp-json/
+  baseurl_source: declared
+  description: REST API index / namespace discovery.
   name: A2 Biotherapeutics Root API
   slug: a2-biotherapeutics-root-api
-- description: WordPress Abilities API — registry of named abilities an agent may discover and run. Read access is capability-gated (observed HTTP 401 anonymously).
+- baseURL: https://www.a2bio.com/wp-json/
+  baseurl_source: declared
+  description: WordPress Abilities API — registry of named abilities an agent may discover and run. Read access is capability-gated (observed HTTP 401 anonymously).
   name: A2 Biotherapeutics Wp Abilities/v1 API
   slug: a2-biotherapeutics-wp-abilities-v1-api
-- description: WordPress core content API (posts, pages, media, taxonomies, users, settings).
+- baseURL: https://www.a2bio.com/wp-json/
+  baseurl_source: declared
+  description: WordPress core content API (posts, pages, media, taxonomies, users, settings).
   name: A2 Biotherapeutics Wp/v2 API
   slug: a2-biotherapeutics-wp-v2-api
 artifact_total: 16
@@ -231,7 +252,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/screenshots/a2-biotherapeutics-2026-08-07T160729.png
 security:

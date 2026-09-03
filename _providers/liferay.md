@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 8 operations · 6 acting
 api_count: 1
 apis:
-- description: Manage roles and role associations
+- baseURL: http://localhost:8080/o/headless-admin-user/v1.0
+  baseurl_source: declared
+  description: Manage roles and role associations
   name: Liferay Roles API
   slug: liferay-roles-api
 artifact_total: 11
@@ -140,7 +142,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/screenshots/liferay-2026-06-20T184517.png
 security:

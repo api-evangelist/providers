@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The default API from Number26 — 9 operation(s) for default.
+- baseURL: https://xs2a.tech26.de/v1/berlin-group/v1
+  baseurl_source: declared
+  description: The default API from Number26 — 9 operation(s) for default.
   name: Number26 default API
   slug: number26-default-api
 artifact_total: 6
@@ -183,7 +185,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/number26/refs/heads/main/screenshots/number26-2026-08-07T185726.png
 security:

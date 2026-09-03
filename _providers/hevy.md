@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +36,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The ExerciseHistory API from Hevy — 1 operation(s) for exercisehistory.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The ExerciseHistory API from Hevy — 1 operation(s) for exercisehistory.
   name: Hevy Exercise History API
   slug: hevy-exercisehistory-api
-- description: The ExerciseTemplates API from Hevy — 2 operation(s) for exercisetemplates.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The ExerciseTemplates API from Hevy — 2 operation(s) for exercisetemplates.
   name: Hevy Exercise Templates API
   slug: hevy-exercisetemplates-api
-- description: The Measurements API from Hevy — 2 operation(s) for measurements.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The Measurements API from Hevy — 2 operation(s) for measurements.
   name: Hevy Measurements API
   slug: hevy-measurements-api
-- description: The RoutineFolders API from Hevy — 3 operation(s) for routinefolders.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The RoutineFolders API from Hevy — 3 operation(s) for routinefolders.
   name: Hevy Routine Folders API
   slug: hevy-routinefolders-api
-- description: The Routines API from Hevy — 3 operation(s) for routines.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The Routines API from Hevy — 3 operation(s) for routines.
   name: Hevy Routines API
   slug: hevy-routines-api
-- description: The Users API from Hevy — 1 operation(s) for users.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The Users API from Hevy — 1 operation(s) for users.
   name: Hevy Users API
   slug: hevy-users-api
-- description: The Workouts API from Hevy — 5 operation(s) for workouts.
+- baseURL: https://api.hevyapp.com
+  baseurl_source: declared
+  description: The Workouts API from Hevy — 5 operation(s) for workouts.
   name: Hevy Workouts API
   slug: hevy-workouts-api
 artifact_total: 11
@@ -190,11 +217,11 @@ score:
   band: developing
   composite: 50.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -204,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 50.7
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +248,9 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/screenshots/hevy-2026-09-02T145726.png
 security:
 - kind: authentication
   name: Hevy Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: The Orders API from Shopper Approved — 1 operation(s) for orders.
+- baseURL: https://api.shopperapproved.com
+  baseurl_source: declared
+  description: The Orders API from Shopper Approved — 1 operation(s) for orders.
   name: Shopper Approved Orders API
   slug: shopper-approved-orders-api
-- description: The Product Reviews API from Shopper Approved — 1 operation(s) for product reviews.
+- baseURL: https://api.shopperapproved.com
+  baseurl_source: declared
+  description: The Product Reviews API from Shopper Approved — 1 operation(s) for product reviews.
   name: Shopper Approved Product Reviews API
   slug: shopper-approved-product-reviews-api
-- description: The Reviews API from Shopper Approved — 3 operation(s) for reviews.
+- baseURL: https://api.shopperapproved.com
+  baseurl_source: declared
+  description: The Reviews API from Shopper Approved — 3 operation(s) for reviews.
   name: Shopper Approved Reviews API
   slug: shopper-approved-reviews-api
-- description: The Statistics API from Shopper Approved — 1 operation(s) for statistics.
+- baseURL: https://api.shopperapproved.com
+  baseurl_source: declared
+  description: The Statistics API from Shopper Approved — 1 operation(s) for statistics.
   name: Shopper Approved Statistics API
   slug: shopper-approved-statistics-api
 artifact_total: 23
@@ -191,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/screenshots/shopper-approved-2026-06-20T193837.png
 security:

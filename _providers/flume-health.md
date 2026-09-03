@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,67 +36,105 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
   name: Flume Context MCP Server
   slug: flume-context-mcp-server
-- description: The Account Contracts API from Flume Health — 2 operation(s) for account contracts.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Account Contracts API from Flume Health — 2 operation(s) for account contracts.
   name: Flume Health Account Contracts API
   slug: flume-health-account-contracts-api
-- description: The Accounts API from Flume Health — 4 operation(s) for accounts.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Accounts API from Flume Health — 4 operation(s) for accounts.
   name: Flume Health Accounts API
   slug: flume-health-accounts-api
-- description: The AutomapJobs API from Flume Health — 3 operation(s) for automapjobs.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The AutomapJobs API from Flume Health — 3 operation(s) for automapjobs.
   name: Flume Health Automap Jobs API
   slug: flume-health-automapjobs-api
-- description: The Connections API from Flume Health — 2 operation(s) for connections.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Connections API from Flume Health — 2 operation(s) for connections.
   name: Flume Health Connections API
   slug: flume-health-connections-api
-- description: The Context Discovery API from Flume Health — 17 operation(s) for context discovery.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Context Discovery API from Flume Health — 17 operation(s) for context discovery.
   name: Flume Health Context Discovery API
   slug: flume-health-context-discovery-api
-- description: The Context Graph API from Flume Health — 3 operation(s) for context graph.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Context Graph API from Flume Health — 3 operation(s) for context graph.
   name: Flume Health Context Graph API
   slug: flume-health-context-graph-api
-- description: The Context Knowledge API from Flume Health — 25 operation(s) for context knowledge.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Context Knowledge API from Flume Health — 25 operation(s) for context knowledge.
   name: Flume Health Context Knowledge API
   slug: flume-health-context-knowledge-api
-- description: The Endpoint Maps API from Flume Health — 2 operation(s) for endpoint maps.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Endpoint Maps API from Flume Health — 2 operation(s) for endpoint maps.
   name: Flume Health Endpoint Maps API
   slug: flume-health-endpoint-maps-api
-- description: The Endpoints API from Flume Health — 23 operation(s) for endpoints.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Endpoints API from Flume Health — 23 operation(s) for endpoints.
   name: Flume Health Endpoints API
   slug: flume-health-endpoints-api
-- description: The Flags API from Flume Health — 2 operation(s) for flags.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Flags API from Flume Health — 2 operation(s) for flags.
   name: Flume Health Flags API
   slug: flume-health-flags-api
-- description: The Jobs v2 API from Flume Health — 3 operation(s) for jobs v2.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Jobs v2 API from Flume Health — 3 operation(s) for jobs v2.
   name: Flume Health Jobs v2 API
   slug: flume-health-jobs-v2-api
-- description: The Objects API from Flume Health — 5 operation(s) for objects.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Objects API from Flume Health — 5 operation(s) for objects.
   name: Flume Health Objects API
   slug: flume-health-objects-api
-- description: The Reports API from Flume Health — 1 operation(s) for reports.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Reports API from Flume Health — 1 operation(s) for reports.
   name: Flume Health Reports API
   slug: flume-health-reports-api
-- description: The Shards API from Flume Health — 2 operation(s) for shards.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Shards API from Flume Health — 2 operation(s) for shards.
   name: Flume Health Shards API
   slug: flume-health-shards-api
-- description: The SourceFile API from Flume Health — 4 operation(s) for sourcefile.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The SourceFile API from Flume Health — 4 operation(s) for sourcefile.
   name: Flume Health Source File API
   slug: flume-health-sourcefile-api
-- description: The Telemetry API from Flume Health — 1 operation(s) for telemetry.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Telemetry API from Flume Health — 1 operation(s) for telemetry.
   name: Flume Health Telemetry API
   slug: flume-health-telemetry-api
-- description: The Transactions API from Flume Health — 2 operation(s) for transactions.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Transactions API from Flume Health — 2 operation(s) for transactions.
   name: Flume Health Transactions API
   slug: flume-health-transactions-api
-- description: The Users API from Flume Health — 5 operation(s) for users.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The Users API from Flume Health — 5 operation(s) for users.
   name: Flume Health Users API
   slug: flume-health-users-api
-- description: The WorkerSizes API from Flume Health — 2 operation(s) for workersizes.
+- baseURL: https://console.flumehealth.com/
+  baseurl_source: declared
+  description: The WorkerSizes API from Flume Health — 2 operation(s) for workersizes.
   name: Flume Health Worker Sizes API
   slug: flume-health-workersizes-api
 artifact_total: 28
@@ -280,7 +331,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
 security:

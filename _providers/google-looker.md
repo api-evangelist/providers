@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'The Looker Studio API allows you to search for and manage Looker Studio assets programmatically, enabling automation and migration of Looker Studio resources within Google Workspace or Cloud Identity '
   name: Looker Studio API
   slug: looker-studio-api
-- description: The Authentication API from Google Looker — 1 operation(s) for authentication.
+- baseURL: https://your-instance.cloud.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: The Authentication API from Google Looker — 1 operation(s) for authentication.
   name: Google Looker Authentication API
   slug: google-looker-authentication-api
-- description: The Looks API from Google Looker — 2 operation(s) for looks.
+- baseURL: https://your-instance.cloud.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: The Looks API from Google Looker — 2 operation(s) for looks.
   name: Google Looker Looks API
   slug: google-looker-looks-api
-- description: The Users API from Google Looker — 2 operation(s) for users.
+- baseURL: https://your-instance.cloud.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: The Users API from Google Looker — 2 operation(s) for users.
   name: Google Looker Users API
   slug: google-looker-users-api
 artifact_total: 20
@@ -217,10 +223,10 @@ score:
       total: 3
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/screenshots/google-looker-2026-06-20T182214.png
 security:

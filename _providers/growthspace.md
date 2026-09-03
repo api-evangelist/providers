@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 6
@@ -33,22 +46,34 @@ agentic_access:
   summary_line: 12 operations · 6 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin API from GrowthSpace — 6 operation(s) for admin.
+- baseURL: https://public-api-management-dot-growthspace-246311.oa.r.appspot.com
+  baseurl_source: declared
+  description: The Admin API from GrowthSpace — 6 operation(s) for admin.
   name: GrowthSpace Admin API
   slug: growthspace-admin-api
-- description: The Ah API from GrowthSpace — 1 operation(s) for ah.
+- baseURL: https://public-api-management-dot-growthspace-246311.oa.r.appspot.com
+  baseurl_source: declared
+  description: The Ah API from GrowthSpace — 1 operation(s) for ah.
   name: GrowthSpace Ah API
   slug: growthspace-ah-api
-- description: The @growthspace Engineering/public Api Management API from GrowthSpace — 1 operation(s) for @growthspace engineering/public api management.
+- baseURL: https://public-api-management-dot-growthspace-246311.oa.r.appspot.com
+  baseurl_source: declared
+  description: The @growthspace Engineering/public Api Management API from GrowthSpace — 1 operation(s) for @growthspace engineering/public api management.
   name: GrowthSpace @growthspace Engineering/public Api Management API
   slug: growthspace-growthspace-engineering-public-api-management-api
-- description: The Healthz API from GrowthSpace — 1 operation(s) for healthz.
+- baseURL: https://public-api-management-dot-growthspace-246311.oa.r.appspot.com
+  baseurl_source: declared
+  description: The Healthz API from GrowthSpace — 1 operation(s) for healthz.
   name: GrowthSpace Healthz API
   slug: growthspace-healthz-api
-- description: The Public API from GrowthSpace — 1 operation(s) for public.
+- baseURL: https://public-api-management-dot-growthspace-246311.oa.r.appspot.com
+  baseurl_source: declared
+  description: The Public API from GrowthSpace — 1 operation(s) for public.
   name: GrowthSpace Public API
   slug: growthspace-public-api
-- description: The Up Time Check API from GrowthSpace — 1 operation(s) for up time check.
+- baseURL: https://public-api-management-dot-growthspace-246311.oa.r.appspot.com
+  baseurl_source: declared
+  description: The Up Time Check API from GrowthSpace — 1 operation(s) for up time check.
   name: GrowthSpace Up Time Check API
   slug: growthspace-up-time-check-api
 artifact_total: 12
@@ -192,7 +217,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -218,8 +243,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/growthspace/refs/heads/main/screenshots/growthspace-2026-09-02T145640.png
 security:
 - kind: authentication
   name: Growthspace Authentication

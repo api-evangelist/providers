@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 5
 apis:
-- description: The Documents API from Apache PDFBox — 3 operation(s) for documents.
+- baseURL_template: https://{host}/pdfbox
+  baseurl_source: spec_template
+  description: The Documents API from Apache PDFBox — 3 operation(s) for documents.
   name: Apache PDFBox Documents API
   slug: apache-pdfbox-documents-api
-- description: The Forms API from Apache PDFBox — 1 operation(s) for forms.
+- baseURL_template: https://{host}/pdfbox
+  baseurl_source: spec_template
+  description: The Forms API from Apache PDFBox — 1 operation(s) for forms.
   name: Apache PDFBox Forms API
   slug: apache-pdfbox-forms-api
-- description: The Operations API from Apache PDFBox — 2 operation(s) for operations.
+- baseURL_template: https://{host}/pdfbox
+  baseurl_source: spec_template
+  description: The Operations API from Apache PDFBox — 2 operation(s) for operations.
   name: Apache PDFBox Operations API
   slug: apache-pdfbox-operations-api
-- description: The Pages API from Apache PDFBox — 1 operation(s) for pages.
+- baseURL_template: https://{host}/pdfbox
+  baseurl_source: spec_template
+  description: The Pages API from Apache PDFBox — 1 operation(s) for pages.
   name: Apache PDFBox Pages API
   slug: apache-pdfbox-pages-api
-- description: The Signatures API from Apache PDFBox — 1 operation(s) for signatures.
+- baseURL_template: https://{host}/pdfbox
+  baseurl_source: spec_template
+  description: The Signatures API from Apache PDFBox — 1 operation(s) for signatures.
   name: Apache PDFBox Signatures API
   slug: apache-pdfbox-signatures-api
 artifact_total: 69
@@ -323,7 +333,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png
 security:

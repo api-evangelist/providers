@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST domain-intelligence API (40+ endpoints under /v1) for availability, DNS, WHOIS/RDAP, SSL/TLS, email auth, valuation, security, and OSINT, with API-key authentication.
@@ -79,7 +79,7 @@ score:
       reason: never_enriched
   previous_composite: 15.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/screenshots/domscan-2026-07-25T212249.png
 slug: domscan

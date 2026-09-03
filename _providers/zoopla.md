@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 3
 apis:
-- description: The Products API from Zoopla — 4 operation(s) for products.
+- baseURL: https://services.zoopla.co.uk
+  baseurl_source: declared
+  description: The Products API from Zoopla — 4 operation(s) for products.
   name: Zoopla Products API
   slug: zoopla-products-api
-- description: The REST Endpoints API from Zoopla — 2 operation(s) for rest endpoints.
+- baseURL: https://services.zoopla.co.uk
+  baseurl_source: declared
+  description: The REST Endpoints API from Zoopla — 2 operation(s) for rest endpoints.
   name: Zoopla REST Endpoints API
   slug: zoopla-rest-endpoints-api
 artifact_total: 31
@@ -334,7 +338,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -344,7 +348,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 35.3
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -356,7 +360,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/screenshots/zoopla-2026-08-17T083116.png
 security:

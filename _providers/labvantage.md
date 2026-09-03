@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: LabVantage SDMS (Scientific Data Management System) APIs enable acquisition, management, and retrieval of raw instrument data and analytical results from laboratory instruments for archival and compli
   name: LabVantage SDMS (Scientific Data Management) API
   slug: labvantage-sdms-api
-- description: Sample containers and storage management
+- baseURL: https://api.labvantage.example.com
+  baseurl_source: declared
+  description: Sample containers and storage management
   name: LabVantage Solutions Containers API
   slug: labvantage-containers-api
-- description: Laboratory instrument integration
+- baseURL: https://api.labvantage.example.com
+  baseurl_source: declared
+  description: Laboratory instrument integration
   name: LabVantage Solutions Instruments API
   slug: labvantage-instruments-api
-- description: Test result entry and retrieval
+- baseURL: https://api.labvantage.example.com
+  baseurl_source: declared
+  description: Test result entry and retrieval
   name: LabVantage Solutions Results API
   slug: labvantage-results-api
-- description: Sample lifecycle management (login, tracking, disposal)
+- baseURL: https://api.labvantage.example.com
+  baseurl_source: declared
+  description: Sample lifecycle management (login, tracking, disposal)
   name: LabVantage Solutions Samples API
   slug: labvantage-samples-api
-- description: Test requests and analytical procedures
+- baseURL: https://api.labvantage.example.com
+  baseurl_source: declared
+  description: Test requests and analytical procedures
   name: LabVantage Solutions Tests API
   slug: labvantage-tests-api
 artifact_total: 23
@@ -184,7 +194,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/screenshots/labvantage-2026-06-20T184240.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 28 operations · 16 acting
 api_count: 1
 apis:
-- description: Konbini payment barcodes for compatible convenience-store payments.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Konbini payment barcodes for compatible convenience-store payments.
   name: KOMOJU Barcodes API
   slug: komoju-barcodes-api
-- description: Store and manage customers with saved payment details for reuse.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Store and manage customers with saved payment details for reuse.
   name: KOMOJU Customers API
   slug: komoju-customers-api
-- description: Webhook events emitted by KOMOJU, queryable after the fact.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Webhook events emitted by KOMOJU, queryable after the fact.
   name: KOMOJU Events API
   slug: komoju-events-api
-- description: List the payment methods available to the authenticated merchant.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: List the payment methods available to the authenticated merchant.
   name: KOMOJU Payment Methods API
   slug: komoju-payment-methods-api
-- description: Create, capture, refund, cancel, and query payments across all payment methods.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Create, capture, refund, cancel, and query payments across all payment methods.
   name: KOMOJU Payments API
   slug: komoju-payments-api
-- description: Hosted checkout sessions that collect payment or customer details.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Hosted checkout sessions that collect payment or customer details.
   name: KOMOJU Sessions API
   slug: komoju-sessions-api
-- description: Recurring payments charged against a saved customer.
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Recurring payments charged against a saved customer.
   name: KOMOJU Subscriptions API
   slug: komoju-subscriptions-api
-- description: Tokenize payment details (short-term tokens and 3DS secure tokens).
+- baseURL: https://komoju.com/api/v1
+  baseurl_source: declared
+  description: Tokenize payment details (short-term tokens and 3DS secure tokens).
   name: KOMOJU Tokens API
   slug: komoju-tokens-api
 artifact_total: 24
@@ -203,7 +219,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png
 security:

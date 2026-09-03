@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
-- description: Retrieve previously generated AI diagram requests
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Retrieve previously generated AI diagram requests
   name: Eraser AI Requests API
   slug: eraser-ai-requests-api
-- description: Query audit events for compliance and monitoring
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Query audit events for compliance and monitoring
   name: Eraser Audit Logs API
   slug: eraser-audit-logs-api
-- description: Manage diagram elements within files
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Manage diagram elements within files
   name: Eraser Diagram Elements API
   slug: eraser-diagram-elements-api
-- description: Generate diagrams from natural language prompts or Eraser DSL using AI
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Generate diagrams from natural language prompts or Eraser DSL using AI
   name: Eraser Diagrams (AI) API
   slug: eraser-diagrams-ai-api
-- description: Create and manage Eraser files
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Create and manage Eraser files
   name: Eraser Files API
   slug: eraser-files-api
-- description: Create and manage folders for organizing files
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Create and manage folders for organizing files
   name: Eraser Folders API
   slug: eraser-folders-api
-- description: Retrieve team usage and activity metrics
+- baseURL: https://app.eraser.io
+  baseurl_source: declared
+  description: Retrieve team usage and activity metrics
   name: Eraser Usage Metrics API
   slug: eraser-usage-metrics-api
 artifact_total: 28
@@ -236,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eraser/refs/heads/main/screenshots/eraser-2026-06-20T180810.png
 security:

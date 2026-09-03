@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 62 operations · 31 acting
 api_count: 1
 apis:
-- description: A modified OAuth 2.0 Client Credential Flow
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: A modified OAuth 2.0 Client Credential Flow
   name: Fin Authentication API
   slug: fin-authentication-api
-- description: Retrieve wallet balance information
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: Retrieve wallet balance information
   name: Fin Balances API
   slug: fin-balances-api
-- description: Manage beneficiary accounts for payments and transfers
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: Manage beneficiary accounts for payments and transfers
   name: Fin Beneficiaries API
   slug: fin-beneficiaries-api
-- description: A set of endpoints to retrieve contextual data to assemble requests to fin.com's API
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: A set of endpoints to retrieve contextual data to assemble requests to fin.com's API
   name: Fin Catalogue API
   slug: fin-catalogue-api
-- description: The Crypto Orchestration API from Fin — 3 operation(s) for crypto orchestration.
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: The Crypto Orchestration API from Fin — 3 operation(s) for crypto orchestration.
   name: Fin Crypto Orchestration API
   slug: fin-crypto-orchestration-api
-- description: Customer management and document upload operations
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: Customer management and document upload operations
   name: Fin Customers API
   slug: fin-customers-api
-- description: Retrieve fees and foreign exchange rates
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: Retrieve fees and foreign exchange rates
   name: Fin Fees & FX Rates API
   slug: fin-fees-fx-rates-api
-- description: Transaction history and management for beneficiaries
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: Transaction history and management for beneficiaries
   name: Fin Transactions API
   slug: fin-transactions-api
-- description: Create and manage virtual accounts for USD to USDC conversions
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: Create and manage virtual accounts for USD to USDC conversions
   name: Fin Virtual Accounts API
   slug: fin-virtual-accounts-api
-- description: The Webhooks API from Fin — 0 operation(s) for webhooks.
+- baseURL: https://api.fin.com
+  baseurl_source: declared
+  description: The Webhooks API from Fin — 0 operation(s) for webhooks.
   name: Fin Webhooks API
   slug: fin-webhooks-api
 artifact_total: 25
@@ -238,7 +258,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -248,7 +268,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 39.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +286,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/screenshots/fin-2026-07-25T214454.png
 security:

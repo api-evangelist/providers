@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Eden AI API is a versatile tool that leverages artificial intelligence to enhance and streamline various business processes. By providing access to advanced machine learning and natural language proce
   name: Eden AI API
   slug: eden-ai
-- description: The Audio API from Eden AI — 2 operation(s) for audio.
+- baseURL: https://api.edenai.run/v2
+  baseurl_source: spec
+  description: The Audio API from Eden AI — 2 operation(s) for audio.
   name: Eden AI Audio API
   slug: eden-ai-audio-api
-- description: The Image API from Eden AI — 1 operation(s) for image.
+- baseURL: https://api.edenai.run/v2
+  baseurl_source: spec
+  description: The Image API from Eden AI — 1 operation(s) for image.
   name: Eden AI Image API
   slug: eden-ai-image-api
-- description: The OCR API from Eden AI — 1 operation(s) for ocr.
+- baseURL: https://api.edenai.run/v2
+  baseurl_source: spec
+  description: The OCR API from Eden AI — 1 operation(s) for ocr.
   name: Eden AI OCR API
   slug: eden-ai-ocr-api
-- description: The Text API from Eden AI — 4 operation(s) for text.
+- baseURL: https://api.edenai.run/v2
+  baseurl_source: spec
+  description: The Text API from Eden AI — 4 operation(s) for text.
   name: Eden AI Text API
   slug: eden-ai-text-api
-- description: The Translation API from Eden AI — 1 operation(s) for translation.
+- baseURL: https://api.edenai.run/v2
+  baseurl_source: spec
+  description: The Translation API from Eden AI — 1 operation(s) for translation.
   name: Eden AI Translation API
   slug: eden-ai-translation-api
 artifact_total: 20
@@ -186,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/screenshots/eden-ai-2026-06-20T180450.png
 security:

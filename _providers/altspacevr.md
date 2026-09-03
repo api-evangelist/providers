@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,7 +113,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 10.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altspacevr/refs/heads/main/screenshots/altspacevr-2026-07-25T195857.png
 security:

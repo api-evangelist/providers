@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage programmatic access keys for the authenticated user.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: Manage programmatic access keys for the authenticated user.
   name: Totalis API Keys API
   slug: totalis-api-keys-api
-- description: Cached Kalshi and Polymarket market data.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: Cached Kalshi and Polymarket market data.
   name: Totalis Markets API
   slug: totalis-markets-api
-- description: The Portfolio API from Totalis — 1 operation(s) for portfolio.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: The Portfolio API from Totalis — 1 operation(s) for portfolio.
   name: Totalis Portfolio API
   slug: totalis-portfolio-api
-- description: The RFQs API from Totalis — 2 operation(s) for rfqs.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: The RFQs API from Totalis — 2 operation(s) for rfqs.
   name: Totalis RFQs API
   slug: totalis-rfqs-api
-- description: User profile, wallet, and devnet helpers.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: User profile, wallet, and devnet helpers.
   name: Totalis User API
   slug: totalis-user-api
-- description: The Vault API from Totalis — 1 operation(s) for vault.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: The Vault API from Totalis — 1 operation(s) for vault.
   name: Totalis Vault API
   slug: totalis-vault-api
-- description: The Webhooks API from Totalis — 4 operation(s) for webhooks.
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: The Webhooks API from Totalis — 4 operation(s) for webhooks.
   name: Totalis Webhooks API
   slug: totalis-webhooks-api
 artifact_total: 21
@@ -223,7 +237,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -233,7 +247,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 49.0
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -250,7 +264,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/screenshots/totalis-2026-08-17T082410.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 50 operations · 24 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounts API from Volteras — 4 operation(s) for accounts.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Accounts API from Volteras — 4 operation(s) for accounts.
   name: Volteras Accounts API
   slug: volteras-accounts-api
-- description: The Authentication API from Volteras — 2 operation(s) for authentication.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Authentication API from Volteras — 2 operation(s) for authentication.
   name: Volteras Authentication API
   slug: volteras-authentication-api
-- description: The Rate Limit API from Volteras — 1 operation(s) for rate limit.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Rate Limit API from Volteras — 1 operation(s) for rate limit.
   name: Volteras Rate Limit API
   slug: volteras-rate-limit-api
-- description: The Tags API from Volteras — 2 operation(s) for tags.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Tags API from Volteras — 2 operation(s) for tags.
   name: Volteras Tags API
   slug: volteras-tags-api
-- description: The Vehicle Alerts API from Volteras — 1 operation(s) for vehicle alerts.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Alerts API from Volteras — 1 operation(s) for vehicle alerts.
   name: Volteras Vehicle Alerts API
   slug: volteras-vehicle-alerts-api
-- description: The Vehicle Charging History API from Volteras — 2 operation(s) for vehicle charging history.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Charging History API from Volteras — 2 operation(s) for vehicle charging history.
   name: Volteras Vehicle Charging History API
   slug: volteras-vehicle-charging-history-api
-- description: The Vehicle Charging Schedule API from Volteras — 2 operation(s) for vehicle charging schedule.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Charging Schedule API from Volteras — 2 operation(s) for vehicle charging schedule.
   name: Volteras Vehicle Charging Schedule API
   slug: volteras-vehicle-charging-schedule-api
-- description: The Vehicle Command Executions API from Volteras — 15 operation(s) for vehicle command executions.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Command Executions API from Volteras — 15 operation(s) for vehicle command executions.
   name: Volteras Vehicle Command Executions API
   slug: volteras-vehicle-command-executions-api
-- description: The Vehicle Connection API from Volteras — 4 operation(s) for vehicle connection.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Connection API from Volteras — 4 operation(s) for vehicle connection.
   name: Volteras Vehicle Connection API
   slug: volteras-vehicle-connection-api
-- description: The Vehicle Eligibility API from Volteras — 2 operation(s) for vehicle eligibility.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Eligibility API from Volteras — 2 operation(s) for vehicle eligibility.
   name: Volteras Vehicle Eligibility API
   slug: volteras-vehicle-eligibility-api
-- description: The Vehicle Journeys API from Volteras — 1 operation(s) for vehicle journeys.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Journeys API from Volteras — 1 operation(s) for vehicle journeys.
   name: Volteras Vehicle Journeys API
   slug: volteras-vehicle-journeys-api
-- description: The Vehicle Listening API from Volteras — 2 operation(s) for vehicle listening.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Listening API from Volteras — 2 operation(s) for vehicle listening.
   name: Volteras Vehicle Listening API
   slug: volteras-vehicle-listening-api
-- description: The Vehicle Manufacturer Alerts API from Volteras — 1 operation(s) for vehicle manufacturer alerts.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Manufacturer Alerts API from Volteras — 1 operation(s) for vehicle manufacturer alerts.
   name: Volteras Vehicle Manufacturer Alerts API
   slug: volteras-vehicle-manufacturer-alerts-api
-- description: The Vehicle Range API from Volteras — 1 operation(s) for vehicle range.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Range API from Volteras — 1 operation(s) for vehicle range.
   name: Volteras Vehicle Range API
   slug: volteras-vehicle-range-api
-- description: The Vehicle Services API from Volteras — 1 operation(s) for vehicle services.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Services API from Volteras — 1 operation(s) for vehicle services.
   name: Volteras Vehicle Services API
   slug: volteras-vehicle-services-api
-- description: The Vehicle State of Health API from Volteras — 1 operation(s) for vehicle state of health.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle State of Health API from Volteras — 1 operation(s) for vehicle state of health.
   name: Volteras Vehicle State of Health API
   slug: volteras-vehicle-state-of-health-api
-- description: The Vehicle Telemetry API from Volteras — 1 operation(s) for vehicle telemetry.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Telemetry API from Volteras — 1 operation(s) for vehicle telemetry.
   name: Volteras Vehicle Telemetry API
   slug: volteras-vehicle-telemetry-api
-- description: The Vehicle Tires API from Volteras — 1 operation(s) for vehicle tires.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicle Tires API from Volteras — 1 operation(s) for vehicle tires.
   name: Volteras Vehicle Tires API
   slug: volteras-vehicle-tires-api
-- description: The Vehicles API from Volteras — 5 operation(s) for vehicles.
+- baseURL: https://api.volteras.com
+  baseurl_source: declared
+  description: The Vehicles API from Volteras — 5 operation(s) for vehicles.
   name: Volteras Vehicles API
   slug: volteras-vehicles-api
 artifact_total: 46
@@ -324,7 +362,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -334,7 +372,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -352,7 +390,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
 security:

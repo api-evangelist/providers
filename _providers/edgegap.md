@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 34 operations · 19 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage container image versions for an application.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Manage container image versions for an application.
   name: Edgegap App Versions API
   slug: edgegap-app-versions-api
-- description: Manage applications registered on Edgegap.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Manage applications registered on Edgegap.
   name: Edgegap Applications API
   slug: edgegap-applications-api
-- description: Deploy, inspect, and stop dedicated game servers at the edge.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Deploy, inspect, and stop dedicated game servers at the edge.
   name: Edgegap Deployments API
   slug: edgegap-deployments-api
-- description: Private fleet deployments and host inventory.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Private fleet deployments and host inventory.
   name: Edgegap Fleets API
   slug: edgegap-fleets-api
-- description: Create and poll matchmaking tickets.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Create and poll matchmaking tickets.
   name: Edgegap Matchmaking API
   slug: edgegap-matchmaking-api
-- description: Monitoring and telemetry for deployments.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Monitoring and telemetry for deployments.
   name: Edgegap Metrics API
   slug: edgegap-metrics-api
-- description: Distributed relay sessions and per-user authorization.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Distributed relay sessions and per-user authorization.
   name: Edgegap Relays API
   slug: edgegap-relays-api
-- description: Add and remove players or groups on a running deployment.
+- baseURL: https://api.edgegap.com
+  baseurl_source: declared
+  description: Add and remove players or groups on a running deployment.
   name: Edgegap Sessions API
   slug: edgegap-sessions-api
 artifact_total: 24
@@ -193,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/screenshots/edgegap-2026-07-25T212833.png
 security:

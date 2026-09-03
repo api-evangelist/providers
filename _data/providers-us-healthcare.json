@@ -29,7 +29,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -135,7 +135,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -241,7 +241,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -301,7 +301,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -354,7 +354,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -414,7 +414,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -467,7 +467,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -520,7 +520,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -573,7 +573,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -626,7 +626,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -679,7 +679,7 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -732,7 +732,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -785,7 +785,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -849,7 +849,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -902,7 +902,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -977,7 +977,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1045,7 +1045,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1097,7 +1097,7 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 59.7,
+      "contract_quality": 59.8,
       "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 47.4,
@@ -1105,7 +1105,7 @@
       "commercial_clarity": 72.4,
       "access_clarity": 72.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1158,7 +1158,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1211,7 +1211,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1271,7 +1271,7 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1324,7 +1324,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1377,7 +1377,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1430,7 +1430,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1470,12 +1470,12 @@
      "slug": "dosespot",
      "description": "DoseSpot is a Surescripts- and EPCS-certified electronic prescribing (eRx) platform that EHR, EMR, telehealth and digital-health vendors embed to add the full prescription lifecycle to their own software. The REST API v2 covers patients and demographics, allergies and allergen search, Medi-Span medication and supply search, drug-drug and drug-allergy interaction screening, the Surescripts pharmacy directory, prescription creation, signing and transmission including DEA-regulated EPCS for controlled substances, refill and RxChange queues, medication history, eligibility and real-time prescription benefit, electronic prior authorization, PDMP/Narx reports, and clinician, clinic and DEA-number administration. DoseSpot publishes two Swagger 2.0 contracts from its own SwaggerHub organization - Full + EPCS (171 operations) and JumpStart + EPCS (139 operations) - rendered at docs.dosespot.com, which DoseSpot calls the official source for its technical documentation. Access is sales-gated: credentials are issued by an assigned Integration Specialist. DoseSpot is part of Interra Health, alongside its subsidiary pVerify.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png",
-     "score": 63.0,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 55.3,
+      "contract_quality": 55.7,
       "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 31.6,
@@ -1483,7 +1483,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1543,7 +1543,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1603,7 +1603,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1656,7 +1656,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1709,7 +1709,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1773,7 +1773,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1841,7 +1841,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1901,7 +1901,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1961,7 +1961,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2014,7 +2014,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2067,7 +2067,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2120,7 +2120,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2180,7 +2180,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2216,128 +2216,15 @@
      "rank": 39
     },
     {
-     "name": "Human API",
-     "slug": "human-api",
-     "description": "Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png",
-     "score": 55.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 57.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 67.3,
-      "commercial_clarity": 38.2,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 58.1,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
-     },
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Devices & Wearables",
-     "rank": 40
-    },
-    {
-     "name": "pVerify",
-     "slug": "pverify",
-     "description": "pVerify is a US healthcare insurance eligibility and revenue-cycle API company, part of DoseSpot (now Interra Health). Its REST API at https://api.pverify.com exchanges X12 270/271 eligibility transactions and returns parsed, practice-type-specific benefit summaries; runs 276/277 claim status inquiries; discovers unknown active coverage for self-pay patients; looks up Medicare Beneficiary Identifiers; validates patient demographics; publishes a supported-payer catalog with live per-payer up/down status; and estimates patient financial responsibility at the point of service. Authentication is an OAuth2 client-credentials bearer token plus a case-sensitive Client-API-Id header. pVerify publishes no OpenAPI — its machine-readable contract is a public Postman Collection v2.0.0 at https://postman.pverify.com/, from which the OpenAPI documents in this repository were derived operation-for-operation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png",
-     "score": 55.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.8,
-      "governance": 33.3,
-      "contract_governance": 33.3,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 49.4,
-      "commercial_clarity": 61.8,
-      "access_clarity": 61.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 27.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Payer, Claims & Eligibility",
-     "rank": 41
-    },
-    {
      "name": "AdvancedMD",
      "slug": "advancedmd",
      "description": "AdvancedMD is a cloud practice-management, medical-billing and electronic health record (EHR) software company founded in 1999 and headquartered in South Jordan, Utah, serving independent ambulatory practices, mental-health and physical-medicine clinics, med spas and medical-billing services across the United States. A standalone company again since Francisco Partners acquired it from Global Payments in December 2024, AdvancedMD operates two clearly separated developer surfaces. The first is a public, no-cost HL7 FHIR R4 (4.0.1) read-only API estate published for ONC (g)(10) Cures Act certification at fhir.advancedmd.com, aligned to the US Core 6.1.0 Implementation Guide, authorized with SMART-on-FHIR OAuth 2.0 and covering both single-patient access and FHIR Bulk Data Access group export. The second is a gated proprietary Connect API estate (REST and XML-RPC) plus an ODBC data-access driver, which require a signed Certified API Developer Agreement with licensing and support fees before sandbox or production credentials are issued.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png",
-     "score": 54.3,
+     "score": 55.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 66.7,
       "contract_quality": 50.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -2346,7 +2233,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2386,6 +2273,119 @@
       "agentic_commerce": false
      },
      "tier": "Practice Management",
+     "rank": 40
+    },
+    {
+     "name": "Human API",
+     "slug": "human-api",
+     "description": "Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png",
+     "score": 55.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 57.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 67.3,
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 58.1,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "hipaa",
+        "jurisdiction": "US"
+       }
+      ]
+     },
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Devices & Wearables",
+     "rank": 41
+    },
+    {
+     "name": "pVerify",
+     "slug": "pverify",
+     "description": "pVerify is a US healthcare insurance eligibility and revenue-cycle API company, part of DoseSpot (now Interra Health). Its REST API at https://api.pverify.com exchanges X12 270/271 eligibility transactions and returns parsed, practice-type-specific benefit summaries; runs 276/277 claim status inquiries; discovers unknown active coverage for self-pay patients; looks up Medicare Beneficiary Identifiers; validates patient demographics; publishes a supported-payer catalog with live per-payer up/down status; and estimates patient financial responsibility at the point of service. Authentication is an OAuth2 client-credentials bearer token plus a case-sensitive Client-API-Id header. pVerify publishes no OpenAPI — its machine-readable contract is a public Postman Collection v2.0.0 at https://postman.pverify.com/, from which the OpenAPI documents in this repository were derived operation-for-operation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png",
+     "score": 55.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 61.8,
+      "governance": 33.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 49.4,
+      "commercial_clarity": 61.8,
+      "access_clarity": 61.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 27.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Payer, Claims & Eligibility",
      "rank": 42
     }
    ],
@@ -2417,7 +2417,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2470,7 +2470,7 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2523,7 +2523,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2591,7 +2591,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2644,7 +2644,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2697,7 +2697,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2761,7 +2761,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2814,7 +2814,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2874,7 +2874,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2934,7 +2934,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2998,7 +2998,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3037,6 +3037,7 @@
      "name": "Waystar",
      "slug": "waystar",
      "description": "Waystar is a healthcare payments and revenue cycle management (RCM) software company that operates a national clearinghouse connecting providers to payers. Its cloud platform spans financial clearance (eligibility, prior authorization, patient estimation), claim management, payment and remittance management, and denial prevention and recovery. Waystar exposes integration through REST APIs, web services, HL7, sFTP/batch, RPA, and X12 EDI transactions (270/271 eligibility, 276/277 claim status, 837 claims, 835 remittance/ERA, 278 authorization). API access is delivered through a partner/developer program at developer.waystar.com; the portal renders its full documentation navigation to anyone but serves a login form in place of every document body, and sandbox accounts are provisioned by email rather than self-service. Waystar publishes no OpenAPI, no llms.txt, no MCP server, no agent card and no client SDK in any package registry. Authentication is six hand-rolled schemes rather than one - HMAC-SHA1 body signatures on the classic Developer Suite, HMAC-SHA256 Authorization headers on Patient Estimation, credentials in the POST body on the eligibility gateway, HTTP Basic, WS-Security UsernameToken inside CAQH CORE SOAP envelopes, and X.509 client certificates - with no OAuth 2.0 and no OpenID Connect anywhere. The API surface below is documented from Waystar's public product pages, its developer-portal structure and the underlying X12 standards rather than from a published machine-readable definition.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/screenshots/waystar-2026-09-02T170509.png",
      "score": 46.2,
      "band": "developing",
      "band_label": "Developing",
@@ -3050,7 +3051,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3103,7 +3104,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3163,7 +3164,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3216,7 +3217,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3269,7 +3270,7 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3315,6 +3316,7 @@
      "name": "Surescripts",
      "slug": "surescripts",
      "description": "Surescripts operates the largest health information network in the United States, connecting prescribers, pharmacies, pharmacy benefit managers (PBMs), health plans, and health systems for e-prescribing, medication history, benefit and eligibility verification, electronic prior authorization, and clinical interoperability. Transaction services run over NCPDP SCRIPT (NewRx, RxRenewal, RxChange, RxTransfer, RxFill, CancelRx), NCPDP Real-Time Prescription Benefit, NCPDP Formulary and Benefit, X12 (270/271 eligibility, 278 prior authorization), the Direct Standard, and - since the Surescripts Developer Portal launched at docs.surescripts.com on 2026-08-06 - two publicly documented HTTP APIs - a Medication History for Populations API implemented in HL7 FHIR R4, and a four-endpoint Formulary Download REST API. Both authenticate the calling organization with a Surescripts-issued client certificate over mutual TLS plus a Participant ID header; Surescripts runs its own Certificate Authority. There is still no OpenAPI, no self-serve sign-up, no published pricing and no free API keys - production access requires Surescripts certification (conformance testing against current NCPDP standards, Certification Review Board contract approval, and a DEA third-party audit for EPCS) or integration through a certified middleware/EHR partner.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/surescripts/refs/heads/main/screenshots/surescripts-2026-09-02T161313.png",
      "score": 41.1,
      "band": "developing",
      "band_label": "Developing",
@@ -3328,7 +3330,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3381,7 +3383,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3444,7 +3446,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3508,7 +3510,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3568,7 +3570,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3628,7 +3630,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3692,7 +3694,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3744,7 +3746,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3808,7 +3810,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3868,7 +3870,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3931,7 +3933,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3991,7 +3993,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4030,6 +4032,7 @@
      "name": "Wheel",
      "slug": "wheel",
      "description": "Wheel is a healthcare technology company providing the infrastructure for modern telehealth. Its Wheel Horizon platform is a modular care-enablement system that combines a nationwide clinician network, evidence-based virtual care programs, and integrated clinical operations so digital health companies, health plans, retailers and pharmacies, and life-sciences organizations can launch and scale virtual care. Wheel also operates WheelX, an enterprise AI health exchange, and Connected Services for integration. Wheel exposes a partner API, governed by an API Terms of Use and gated behind an approval process; the platform is HIPAA compliant and maintains SOC 2 controls. Public API reference documentation, SDKs, and a developer portal are not published. Wheel was surfaced as a portfolio company of CRV.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wheel/refs/heads/main/screenshots/wheel-2026-09-02T170651.png",
      "score": 23.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4043,7 +4046,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4103,7 +4106,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4156,7 +4159,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4220,7 +4223,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4273,7 +4276,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4325,7 +4328,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4364,6 +4367,7 @@
      "name": "Sprinter Health",
      "slug": "sprinter-health",
      "description": "Sprinter Health is an in-home preventive and diagnostic healthcare company that pairs trained community health workers (\"Sprinters\") who visit patients at home with a virtual team of physicians, nurses, and care navigators. Its hybrid Sprinter Care+ model delivers vitals, blood draws, ECGs, cancer and diabetic screenings, wellness visits, medication reconciliation, care-gap closure, health risk assessments, and social-needs screening, and partners with health plans such as Humana, Molina Healthcare, and Anthem. Backed by a16z, Accel, General Catalyst, and GV. No public developer or API surface was found during enrichment; this profile captures the company's identity, security posture, and legal/trust properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sprinter-health/refs/heads/main/screenshots/sprinter-health-2026-09-02T160617.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4377,7 +4381,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4430,7 +4434,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

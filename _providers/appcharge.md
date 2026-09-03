@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 63 operations · 45 acting
 api_count: 1
 apis:
-- description: The Assets API from Appcharge — 2 operation(s) for assets.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Assets API from Appcharge — 2 operation(s) for assets.
   name: Appcharge Assets API
   slug: appcharge-assets-api
-- description: The Authentication API from Appcharge — 2 operation(s) for authentication.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Authentication API from Appcharge — 2 operation(s) for authentication.
   name: Appcharge Authentication API
   slug: appcharge-authentication-api
-- description: The Badges API from Appcharge — 2 operation(s) for badges.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Badges API from Appcharge — 2 operation(s) for badges.
   name: Appcharge Badges API
   slug: appcharge-badges-api
-- description: The Coupons API from Appcharge — 2 operation(s) for coupons.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Coupons API from Appcharge — 2 operation(s) for coupons.
   name: Appcharge Coupons API
   slug: appcharge-coupons-api
-- description: The General API from Appcharge — 9 operation(s) for general.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The General API from Appcharge — 9 operation(s) for general.
   name: Appcharge General API
   slug: appcharge-general-api
-- description: The Localization API from Appcharge — 1 operation(s) for localization.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Localization API from Appcharge — 1 operation(s) for localization.
   name: Appcharge Localization API
   slug: appcharge-localization-api
-- description: The Offer Designs API from Appcharge — 2 operation(s) for offer designs.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Offer Designs API from Appcharge — 2 operation(s) for offer designs.
   name: Appcharge Offer Designs API
   slug: appcharge-offer-designs-api
-- description: The Offers API from Appcharge — 5 operation(s) for offers.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Offers API from Appcharge — 5 operation(s) for offers.
   name: Appcharge Offers API
   slug: appcharge-offers-api
-- description: The Orders API from Appcharge — 1 operation(s) for orders.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Orders API from Appcharge — 1 operation(s) for orders.
   name: Appcharge Orders API
   slug: appcharge-orders-api
-- description: The Personalization API from Appcharge — 1 operation(s) for personalization.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Personalization API from Appcharge — 1 operation(s) for personalization.
   name: Appcharge Personalization API
   slug: appcharge-personalization-api
-- description: The Popups API from Appcharge — 1 operation(s) for popups.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Popups API from Appcharge — 1 operation(s) for popups.
   name: Appcharge Popups API
   slug: appcharge-popups-api
-- description: The Portal Content API from Appcharge — 4 operation(s) for portal content.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Portal Content API from Appcharge — 4 operation(s) for portal content.
   name: Appcharge Portal Content API
   slug: appcharge-portal-content-api
-- description: The Products API from Appcharge — 2 operation(s) for products.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Products API from Appcharge — 2 operation(s) for products.
   name: Appcharge Products API
   slug: appcharge-products-api
-- description: The Promo Codes API from Appcharge — 3 operation(s) for promo codes.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Promo Codes API from Appcharge — 3 operation(s) for promo codes.
   name: Appcharge Promo Codes API
   slug: appcharge-promo-codes-api
-- description: The Rolling Offers API from Appcharge — 2 operation(s) for rolling offers.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Rolling Offers API from Appcharge — 2 operation(s) for rolling offers.
   name: Appcharge Rolling Offers API
   slug: appcharge-rolling-offers-api
-- description: The Store Refresh Popups API from Appcharge — 2 operation(s) for store refresh popups.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Store Refresh Popups API from Appcharge — 2 operation(s) for store refresh popups.
   name: Appcharge Store Refresh Popups API
   slug: appcharge-store-refresh-popups-api
-- description: The Triggered Popups API from Appcharge — 2 operation(s) for triggered popups.
+- baseURL: https://api.appcharge.com
+  baseurl_source: declared
+  description: The Triggered Popups API from Appcharge — 2 operation(s) for triggered popups.
   name: Appcharge Triggered Popups API
   slug: appcharge-triggered-popups-api
 artifact_total: 61
@@ -404,7 +438,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -414,7 +448,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 62.0
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -432,7 +466,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcharge/refs/heads/main/screenshots/appcharge-2026-07-25T200716.png
 security:

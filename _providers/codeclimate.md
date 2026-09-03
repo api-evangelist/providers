@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 4 acting
 api_count: 1
 apis:
-- description: The Issues API from Code Climate — 1 operation(s) for issues.
+- baseURL: https://api.codeclimate.com/v1
+  baseurl_source: declared
+  description: The Issues API from Code Climate — 1 operation(s) for issues.
   name: Code Climate Issues API
   slug: codeclimate-issues-api
-- description: The Organizations API from Code Climate — 2 operation(s) for organizations.
+- baseURL: https://api.codeclimate.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Code Climate — 2 operation(s) for organizations.
   name: Code Climate Organizations API
   slug: codeclimate-organizations-api
-- description: The Repositories API from Code Climate — 4 operation(s) for repositories.
+- baseURL: https://api.codeclimate.com/v1
+  baseurl_source: declared
+  description: The Repositories API from Code Climate — 4 operation(s) for repositories.
   name: Code Climate Repositories API
   slug: codeclimate-repositories-api
-- description: The Services API from Code Climate — 1 operation(s) for services.
+- baseURL: https://api.codeclimate.com/v1
+  baseurl_source: declared
+  description: The Services API from Code Climate — 1 operation(s) for services.
   name: Code Climate Services API
   slug: codeclimate-services-api
-- description: The Snapshots API from Code Climate — 1 operation(s) for snapshots.
+- baseURL: https://api.codeclimate.com/v1
+  baseurl_source: declared
+  description: The Snapshots API from Code Climate — 1 operation(s) for snapshots.
   name: Code Climate Snapshots API
   slug: codeclimate-snapshots-api
-- description: The Test Coverage API from Code Climate — 5 operation(s) for test coverage.
+- baseURL: https://api.codeclimate.com/v1
+  baseurl_source: declared
+  description: The Test Coverage API from Code Climate — 5 operation(s) for test coverage.
   name: Code Climate Test Coverage API
   slug: codeclimate-test-coverage-api
 artifact_total: 21
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeclimate/refs/heads/main/screenshots/codeclimate-2026-07-25T205913.png
 security:

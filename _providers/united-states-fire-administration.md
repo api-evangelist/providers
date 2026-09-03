@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: OpenFEMA dataset metadata
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: OpenFEMA dataset metadata
   name: United States Fire Administration Datasets API
   slug: united-states-fire-administration-datasets-api
-- description: FEMA disaster declaration data
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: FEMA disaster declaration data
   name: United States Fire Administration Disaster Declarations API
   slug: united-states-fire-administration-disaster-declarations-api
 artifact_total: 19
@@ -182,7 +186,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/screenshots/united-states-fire-administration-2026-06-20T200055.png
 security:

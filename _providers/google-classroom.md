@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 1
 apis:
-- description: The Courses API from Google Classroom — 9 operation(s) for courses.
+- baseURL: https://classroom.googleapis.com
+  baseurl_source: declared
+  description: The Courses API from Google Classroom — 9 operation(s) for courses.
   name: Google Classroom Courses API
   slug: google-classroom-courses-api
-- description: The Invitations API from Google Classroom — 1 operation(s) for invitations.
+- baseURL: https://classroom.googleapis.com
+  baseurl_source: declared
+  description: The Invitations API from Google Classroom — 1 operation(s) for invitations.
   name: Google Classroom Invitations API
   slug: google-classroom-invitations-api
-- description: The userProfiles API from Google Classroom — 1 operation(s) for userprofiles.
+- baseURL: https://classroom.googleapis.com
+  baseurl_source: declared
+  description: The userProfiles API from Google Classroom — 1 operation(s) for userprofiles.
   name: Google Classroom userProfiles API
   slug: google-classroom-userprofiles-api
 artifact_total: 19
@@ -220,7 +226,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-classroom/refs/heads/main/screenshots/google-classroom-2026-06-20T182040.png
 security:

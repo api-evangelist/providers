@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: The US Army provides open data resources through data.gov and maintains open source projects through the US Army Research Laboratory GitHub organization. Army data includes geospatial datasets, resear
   name: US Army Open Data
   slug: us-army-open-data
-- description: The Articles API from US Army — 2 operation(s) for articles.
+- baseURL: https://api.army.mil/api/v1
+  baseurl_source: declared
+  description: The Articles API from US Army — 2 operation(s) for articles.
   name: US Army Articles API
   slug: us-army-articles-api
-- description: The Events API from US Army — 1 operation(s) for events.
+- baseURL: https://api.army.mil/api/v1
+  baseurl_source: declared
+  description: The Events API from US Army — 1 operation(s) for events.
   name: US Army Events API
   slug: us-army-events-api
-- description: The News API from US Army — 1 operation(s) for news.
+- baseURL: https://api.army.mil/api/v1
+  baseurl_source: declared
+  description: The News API from US Army — 1 operation(s) for news.
   name: US Army News API
   slug: us-army-news-api
 artifact_total: 20
@@ -182,7 +188,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-army/refs/heads/main/screenshots/us-army-2026-06-20T200556.png
 security:

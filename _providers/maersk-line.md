@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: Container Maintenance and Repair (M&R) API surfacing equipment-management events and repair workflow data for Maersk container assets.
   name: Maersk Container Maintenance and Repair API
   slug: maersk-container-maintenance-repair-api
-- description: Air freight bookings.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Air freight bookings.
   name: Maersk AirBookings API
   slug: maersk-line-airbookings-api
-- description: Electronic bill of lading lifecycle.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Electronic bill of lading lifecycle.
   name: Maersk BillOfLading API
   slug: maersk-line-billoflading-api
-- description: Create and manage ocean shipment bookings.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Create and manage ocean shipment bookings.
   name: Maersk Bookings API
   slug: maersk-line-bookings-api
-- description: Supported container size and type combinations.
+- baseURL: https://api.productmanagement.maersk.com
+  baseurl_source: spec
+  description: Supported container size and type combinations.
   name: Maersk Containers API
   slug: maersk-line-containers-api
-- description: Demurrage and detention charges and clocks.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Demurrage and detention charges and clocks.
   name: Maersk DemurrageDetention API
   slug: maersk-line-demurragedetention-api
-- description: Origin and destination port lookups.
+- baseURL: https://api.productmanagement.maersk.com
+  baseurl_source: spec
+  description: Origin and destination port lookups.
   name: Maersk Locations API
   slug: maersk-line-locations-api
-- description: Product offers, prices, and surcharges.
+- baseURL: https://api.productmanagement.maersk.com
+  baseurl_source: spec
+  description: Product offers, prices, and surcharges.
   name: Maersk Offers API
   slug: maersk-line-offers-api
-- description: Sailing schedules and vessel routings.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Sailing schedules and vessel routings.
   name: Maersk Schedules API
   slug: maersk-line-schedules-api
-- description: Container and shipment tracking events.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Container and shipment tracking events.
   name: Maersk Tracking API
   slug: maersk-line-tracking-api
-- description: Verified Gross Mass declarations.
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Verified Gross Mass declarations.
   name: Maersk VGM API
   slug: maersk-line-vgm-api
 artifact_total: 81
@@ -435,7 +455,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png
 security:

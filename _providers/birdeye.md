@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -45,85 +45,139 @@ agentic_access:
   summary_line: 162 operations · 127 acting
 api_count: 2
 apis:
-- description: Access your public data from 150+ review sites.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Access your public data from 150+ review sites.
   name: Birdeye Aggregation API
   slug: birdeye-aggregation-api
-- description: Create and maintain your business on Birdeye.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Create and maintain your business on Birdeye.
   name: Birdeye Business API
   slug: birdeye-business-api
-- description: 'Add, delete and manage business media. Supported Media Size Photo: JPG or PNG. 720 x 720px. 10KB min. Video: 30 sec long. 720p or more upto 75MB. Note Uploaded media will be pushed to your google busi'
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: 'Add, delete and manage business media. Supported Media Size Photo: JPG or PNG. 720 x 720px. 10KB min. Video: 30 sec long. 720p or more upto 75MB. Note Uploaded media will be pushed to your google busi'
   name: Birdeye Business Media API
   slug: birdeye-business-media-api
-- description: Create a short link for review requests and set review sources in the template.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Create a short link for review requests and set review sources in the template.
   name: Birdeye Campaign API
   slug: birdeye-campaign-api
-- description: Competitive intelligence, simplified by AI.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Competitive intelligence, simplified by AI.
   name: Birdeye Competitor AI API
   slug: birdeye-competitor-ai-api
-- description: Make competitive insights your unfair advantage.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Make competitive insights your unfair advantage.
   name: Birdeye Competitor API
   slug: birdeye-competitor-api
-- description: Manage contacts across locations effortlessly with a robust Contact Management System.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Manage contacts across locations effortlessly with a robust Contact Management System.
   name: Birdeye Contact API
   slug: birdeye-contact-api
-- description: Easily manage contacts across multiple locations using enhanced Contact APIs, featuring built-in support for communication preference flags.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Easily manage contacts across multiple locations using enhanced Contact APIs, featuring built-in support for communication preference flags.
   name: Birdeye Contact V2 API
   slug: birdeye-contact-v2-api
-- description: Connect with customers across a range of digital channels from one unified inbox.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Connect with customers across a range of digital channels from one unified inbox.
   name: Birdeye Conversation API
   slug: birdeye-conversation-api
-- description: Create, delete , update , associate and get custom fields easily.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Create, delete , update , associate and get custom fields easily.
   name: Birdeye Custom Fields API
   slug: birdeye-custom-fields-api
-- description: The Employee API from Birdeye — 1 operation(s) for employee.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: The Employee API from Birdeye — 1 operation(s) for employee.
   name: Birdeye Employee API
   slug: birdeye-employee-api
-- description: To retrieve all Question and Answer (QnA) entries across locations using FAQ APIs, enabling smart support and knowledge features for businesses.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: To retrieve all Question and Answer (QnA) entries across locations using FAQ APIs, enabling smart support and knowledge features for businesses.
   name: Birdeye FAQ API
   slug: birdeye-faq-api
-- description: To manage products, locations, and business details through Listing GMB platform
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: To manage products, locations, and business details through Listing GMB platform
   name: Birdeye GMB Products API
   slug: birdeye-gmb-products-api
-- description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Q&amp;A section, in the Google listing
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Q&amp;A section, in the Google listing
   name: Birdeye Google Q&A API
   slug: birdeye-google-q-a-api
-- description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Services section, in the Google listing. No two services should have the same service name. It is r
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Note Applicable to be used only by paid listings clients, for their active locations, for the Google Services section, in the Google listing. No two services should have the same service name. It is r
   name: Birdeye Google Services API
   slug: birdeye-google-services-api
-- description: Insight intelligence, simplified by AI.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Insight intelligence, simplified by AI.
   name: Birdeye Insight AI API
   slug: birdeye-insight-ai-api
-- description: Birdeye integrates with various software or tools you use.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Birdeye integrates with various software or tools you use.
   name: Birdeye Integration API
   slug: birdeye-integration-api
-- description: Keep your business information accurate and consistent across 50+ websites.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Keep your business information accurate and consistent across 50+ websites.
   name: Birdeye Listing API
   slug: birdeye-listing-api
-- description: Various reporting data points across Birdeye modules like reviews, insights and competitors etc for all your data visualisation
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Various reporting data points across Birdeye modules like reviews, insights and competitors etc for all your data visualisation
   name: Birdeye Report API
   slug: birdeye-report-api
-- description: Consistently generate more reviews and higher ratings.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Consistently generate more reviews and higher ratings.
   name: Birdeye Reviews API
   slug: birdeye-reviews-api
-- description: Search AI provides a comprehensive view of your business performance across AI-powered search platforms, including data accuracy, sentiment analysis, citations, brand ranking, and overall visibility.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Search AI provides a comprehensive view of your business performance across AI-powered search platforms, including data accuracy, sentiment analysis, citations, brand ranking, and overall visibility.
   name: Birdeye Search AI API
   slug: birdeye-search-ai-api
-- description: Create and track Social posting for all channels.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Create and track Social posting for all channels.
   name: Birdeye Social API
   slug: birdeye-social-api
-- description: Subscribe or Unsubscribe multiple webhooks with different URLs or Events for a subscription and deliver real-time notifications.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Subscribe or Unsubscribe multiple webhooks with different URLs or Events for a subscription and deliver real-time notifications.
   name: Birdeye Subscription API
   slug: birdeye-subscription-api
-- description: Engage each customer at the right time with NPS or CSAT surveys to improve your service.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Engage each customer at the right time with NPS or CSAT surveys to improve your service.
   name: Birdeye Survey API
   slug: birdeye-survey-api
-- description: Create standout customer support with ticketing across reviews, untagged, and survey responses.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Create standout customer support with ticketing across reviews, untagged, and survey responses.
   name: Birdeye Ticketing API
   slug: birdeye-ticketing-api
-- description: Delete and manage user profiles and permissions easily.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Delete and manage user profiles and permissions easily.
   name: Birdeye User API
   slug: birdeye-user-api
-- description: Configure multiple webhooks with different URLs for a subscription and deliver real-time notifications.
+- baseURL: https://api.birdeye.com
+  baseurl_source: declared
+  description: Configure multiple webhooks with different URLs for a subscription and deliver real-time notifications.
   name: Birdeye Webhook API
   slug: birdeye-webhook-api
 artifact_total: 244
@@ -976,7 +1030,7 @@ score:
     catalog_gap: 35.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -986,7 +1040,7 @@ score:
     discoverability: 75.9
     governance: 43.2
     operational_transparency: 73.7
-  previous_composite: 70.9
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -998,7 +1052,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
 security:

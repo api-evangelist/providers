@@ -29,7 +29,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -93,7 +93,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -146,12 +146,12 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -208,7 +208,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -261,7 +261,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -314,7 +314,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -374,7 +374,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -427,7 +427,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -487,7 +487,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -540,7 +540,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -600,7 +600,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -653,7 +653,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -706,7 +706,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -742,6 +742,66 @@
      "rank": 13
     },
     {
+     "name": "Form3",
+     "slug": "form3",
+     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
+     "score": 45.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 58.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 28.0,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 71.9,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 36.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Embedded Finance & BaaS",
+     "rank": 14
+    },
+    {
      "name": "Revolut",
      "slug": "revolut",
      "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
@@ -759,7 +819,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -799,18 +859,18 @@
       "agentic_commerce": false
      },
      "tier": "Cross-Border & Money Movement",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Tribe Payments",
      "slug": "tribe-payments",
      "description": "Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer processor that gives banks, acquirers, and fintechs a modular, API-driven platform to launch card and payment products without building core processing in-house. Built around its ISAAC processing engine, Tribe spans card issuing (issuer processing), merchant acquiring and a payment gateway, POS/SoftPOS terminal management, tokenization, fraud and risk monitoring, 3D Secure, digital wallets, Open Banking (PSD2 account-to-account payment initiation and account information), and Bank Connect / Banking-as-a-Service. Tribe positions itself as developer-led, publishing an extensive public API reference at doc.tribepayments.com; sandbox access is granted on request rather than through fully open self-service signup. Its home market is the United Kingdom, where PSD2/Open Banking and the Faster Payments and Bacs rails operated by Pay.UK anchor a dense cluster of API-native payment providers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png",
-     "score": 44.4,
+     "score": 43.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 57.4,
       "contract_quality": 52.2,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -819,7 +879,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -867,66 +927,6 @@
       "agentic_commerce": false
      },
      "tier": "Issuer-Processors",
-     "rank": 15
-    },
-    {
-     "name": "Form3",
-     "slug": "form3",
-     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 58.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 28.0,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 71.9,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 36.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Embedded Finance & BaaS",
      "rank": 16
     },
     {
@@ -947,7 +947,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1000,7 +1000,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1060,7 +1060,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1113,7 +1113,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1188,7 +1188,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1241,7 +1241,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1294,7 +1294,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1358,7 +1358,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1411,7 +1411,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1457,6 +1457,7 @@
      "name": "takepayments",
      "slug": "takepayments",
      "description": "takepayments (a trading name of Payzone UK Limited) is a United Kingdom payment gateway and merchant-services provider that lets businesses accept card payments online, in person, and over the phone. Its online payment gateway offers Hosted (redirect) and Direct (server-to-server) integrations for e-commerce checkouts, delivered as SOAP v1.1 XML and HTTPS form-POST requests authenticated with a merchant ID and a pre-shared-key signature hash, alongside ready-made shopping-cart plugins and backend SDK code packs. Its newer Terminal API is a modern REST/JSON surface hosted on Azure API Management, secured with OAuth 2.0 client-credentials via Microsoft Azure AD, that pairs and drives card machines (Move5000, PAX A920 Pro) for Start-Transaction, Pairing, Split Bill & Gratuity, and Pay at Table flows. takepayments runs a real public developer portal at developer.takepayments.com but does not publish a downloadable OpenAPI/Swagger definition; its API reference is documentation-only, and merchant onboarding is sales-led rather than open self-serve.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/takepayments/refs/heads/main/screenshots/takepayments-2026-09-02T162434.png",
      "score": 33.9,
      "band": "thin",
      "band_label": "Thin",
@@ -1470,7 +1471,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1533,7 +1534,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1586,7 +1587,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1625,6 +1626,7 @@
      "name": "Zilch",
      "slug": "zilch",
      "description": "Zilch is a London-headquartered \"buy now, pay later\" and ad-subsidised payments network founded in 2018, and one of the United Kingdom's most prominent BNPL brands. Rather than integrating at each retailer's checkout, Zilch is deliberately merchant-agnostic: consumers apply in the Zilch mobile app, receive a virtual (and physical) Mastercard, and can Pay-in-3, pay over six weeks, or Pay-now-and-earn-cashback anywhere Mastercard is accepted, online or in-store, through Apple Pay and Google Pay wallets. Because Zilch reaches merchants over the open Mastercard card rails and relies on partners such as Mastercard for card issuing and Checkout.com as its payments processor, it does not operate a public merchant-integration or developer platform the way a PSP or open-banking provider does. As of this review Zilch publishes no developer portal, no API reference, and no downloadable OpenAPI/Swagger specification; its public surface is a consumer marketing site, a help centre, and a customer sign-up/login app. This profile therefore records Zilch's verified public web properties honestly and carries no API entries, because none are publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zilch/refs/heads/main/screenshots/zilch-2026-09-02T171739.png",
      "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1638,7 +1640,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1691,7 +1693,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1754,7 +1756,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1793,6 +1795,7 @@
      "name": "Vyne",
      "slug": "vyne",
      "description": "Vyne was a London-based account-to-account (A2A) open banking payments platform, founded in 2019. It offered merchants real-time pay-by-bank payments, instant refunds, no-code payment links and verified payouts, built on open banking rails and real-time ACH networks with in-app biometric SCA across the UK and Europe. Vyne served retail, financial services and automotive merchants and won Best Open Banking Payments Project at the Open Banking Expo Awards 2023. In September 2024 Vyne was acquired by Dubai-based open banking platform Tarabut, and it wound down its UK operations effective 22 April 2025. The payvyne.com domain has since been repurposed to an unrelated site, and Vyne no longer operates a public developer portal, API reference or OpenAPI surface. This profile is retained as a historical record; there is no live API to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vyne/refs/heads/main/screenshots/vyne-2026-09-02T170342.png",
      "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1806,7 +1809,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

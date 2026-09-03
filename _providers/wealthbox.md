@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ apis:
 - description: REST API for managing contacts, tasks, events, opportunities, projects, notes, workflows, custom fields, teams, and activity streams in Wealthbox CRM. Supports personal Access Tokens (ACCESS_TOKEN hea
   name: Wealthbox CRM API
   slug: crm-api
-- description: The Activity API from Wealthbox — 1 operation(s) for activity.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Activity API from Wealthbox — 1 operation(s) for activity.
   name: Wealthbox Activity API
   slug: wealthbox-activity-api
-- description: The Contacts API from Wealthbox — 2 operation(s) for contacts.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Contacts API from Wealthbox — 2 operation(s) for contacts.
   name: Wealthbox Contacts API
   slug: wealthbox-contacts-api
-- description: The Events API from Wealthbox — 1 operation(s) for events.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Events API from Wealthbox — 1 operation(s) for events.
   name: Wealthbox Events API
   slug: wealthbox-events-api
-- description: The Notes API from Wealthbox — 1 operation(s) for notes.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Notes API from Wealthbox — 1 operation(s) for notes.
   name: Wealthbox Notes API
   slug: wealthbox-notes-api
-- description: The Opportunities API from Wealthbox — 1 operation(s) for opportunities.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Opportunities API from Wealthbox — 1 operation(s) for opportunities.
   name: Wealthbox Opportunities API
   slug: wealthbox-opportunities-api
-- description: The Profile API from Wealthbox — 1 operation(s) for profile.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Profile API from Wealthbox — 1 operation(s) for profile.
   name: Wealthbox Profile API
   slug: wealthbox-profile-api
-- description: The Tasks API from Wealthbox — 2 operation(s) for tasks.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Tasks API from Wealthbox — 2 operation(s) for tasks.
   name: Wealthbox Tasks API
   slug: wealthbox-tasks-api
-- description: The Teams API from Wealthbox — 1 operation(s) for teams.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Teams API from Wealthbox — 1 operation(s) for teams.
   name: Wealthbox Teams API
   slug: wealthbox-teams-api
-- description: The Users API from Wealthbox — 1 operation(s) for users.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Users API from Wealthbox — 1 operation(s) for users.
   name: Wealthbox Users API
   slug: wealthbox-users-api
-- description: The Workflows API from Wealthbox — 2 operation(s) for workflows.
+- baseURL: https://api.crmworkspace.com
+  baseurl_source: declared
+  description: The Workflows API from Wealthbox — 2 operation(s) for workflows.
   name: Wealthbox Workflows API
   slug: wealthbox-workflows-api
 artifact_total: 29
@@ -212,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/screenshots/wealthbox-2026-06-20T201306.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 221
   human_in_the_loop: 5
@@ -53,145 +53,239 @@ apis:
 - description: REST API for the InsightIDR SIEM/XDR product covering investigations, alerts, log search, threats, and SOC workflows. Authentication uses `X-Api-Key` against the regional Insight Platform endpoint.
   name: Rapid7 InsightIDR API
   slug: insightidr-api
-- description: An API used to find and search InsightIDR accounts. See https://docs.rapid7.com/insightidr/users-and-accounts-on-your-domain for further information on accounts.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to find and search InsightIDR accounts. See https://docs.rapid7.com/insightidr/users-and-accounts-on-your-domain for further information on accounts.
   name: Rapid7 Accounts API
   slug: rapid7-accounts-api
-- description: Provides access administrative operations and procedures.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Provides access administrative operations and procedures.
   name: Rapid7 Administration API
   slug: rapid7-administration-api
-- description: 'An App <i>owns</i> Scan Configs, Schedules, Scans and Vulnerabilities; you must create an App in order to create any of these other resources. Consequently, if an App is deleted it will delete all of '
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: 'An App <i>owns</i> Scan Configs, Schedules, Scans and Vulnerabilities; you must create an App in order to create any of these other resources. Consequently, if an App is deleted it will delete all of '
   name: Rapid7 Apps API
   slug: rapid7-apps-api
-- description: Resources and operations for managing assets. Assets can be created under the <a href="#operation/createAssetUsingPOST">Site Assets</a> resource.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing assets. Assets can be created under the <a href="#operation/createAssetUsingPOST">Site Assets</a> resource.
   name: Rapid7 Asset API
   slug: rapid7-asset-api
-- description: Resources for managing and viewing the mechanisms used to automatically discover assets.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources for managing and viewing the mechanisms used to automatically discover assets.
   name: Rapid7 Asset Discovery API
   slug: rapid7-asset-discovery-api
-- description: Resources and operations for managing asset groups.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing asset groups.
   name: Rapid7 Asset Group API
   slug: rapid7-asset-group-api
-- description: An API used to find and search InsightIDR assets. See https://docs.rapid7.com/insightidr/assets-on-your-domain for further information on assets.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to find and search InsightIDR assets. See https://docs.rapid7.com/insightidr/assets-on-your-domain for further information on assets.
   name: Rapid7 Assets API
   slug: rapid7-assets-api
-- description: An API used to upload, list, download and delete attachments. For example, the create API can be used to upload an attachment.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to upload, list, download and delete attachments. For example, the create API can be used to upload an attachment.
   name: Rapid7 Attachments API
   slug: rapid7-attachments-api
-- description: An Attack Template describes <i>if</i> and <i>how</i> Attacks should be executed during the execution of a Scan. There exist pre-defined, system-provided and immutable templates, as well as custom tem
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An Attack Template describes <i>if</i> and <i>how</i> Attacks should be executed during the execution of a Scan. There exist pre-defined, system-provided and immutable templates, as well as custom tem
   name: Rapid7 Attack Templates API
   slug: rapid7-attack-templates-api
-- description: A blackout is a period of time when all scanning activities for the specified scope are blocked. A blackout can be scoped globally or to a specific App, this is implied by the <code>scope</code> prope
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A blackout is a period of time when all scanning activities for the specified scope are blocked. A blackout can be scoped globally or to a specific App, this is implied by the <code>scope</code> prope
   name: Rapid7 Blackouts API
   slug: rapid7-blackouts-api
-- description: An API used to manage collectors for an organization.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to manage collectors for an organization.
   name: Rapid7 Collectors API
   slug: rapid7-collectors-api
-- description: An API used to find, create, and delete comments. For example, these APIs can be used to create a comment for a particular investigation.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to find, create, and delete comments. For example, these APIs can be used to create a comment for a particular investigation.
   name: Rapid7 Comments API
   slug: rapid7-comments-api
-- description: An API used to add and replace indicators for Community Threats. See https://insightidr.help.rapid7.com/docs/threats#section-threat-api for further information on how to generate threat keys.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to add and replace indicators for Community Threats. See https://insightidr.help.rapid7.com/docs/threats#section-threat-api for further information on how to generate threat keys.
   name: Rapid7 Community Threats API
   slug: rapid7-community-threats-api
-- description: Resources and operations for managing shared credentials.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing shared credentials.
   name: Rapid7 Credential API
   slug: rapid7-credential-api
-- description: An Engine Group is a resource which defines a container for a logical grouping of Engines and therefore the purpose of assigning Scans to one of those Engines. Any created Engine Group can contain 0 o
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An Engine Group is a resource which defines a container for a logical grouping of Engines and therefore the purpose of assigning Scans to one of those Engines. Any created Engine Group can contain 0 o
   name: Rapid7 Engine Groups API
   slug: rapid7-engine-groups-api
-- description: An Engine encapsulates the state and high-level attributes of the components which may be installed and running on a specific On-Premise host. The status of an Engine is not mutable via the API; it re
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An Engine encapsulates the state and high-level attributes of the components which may be installed and running on a specific On-Premise host. The status of an Engine is not mutable via the API; it re
   name: Rapid7 Engines API
   slug: rapid7-engines-api
-- description: Files are used primarily to manage content that can be required to successfully scan an App. For example, many supported methods of configuring authentication in a Scan Config require a payload and si
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Files are used primarily to manage content that can be required to successfully scan an App. For example, many supported methods of configuring authentication in a Scan Config require a payload and si
   name: Rapid7 Files API
   slug: rapid7-files-api
-- description: An API used to retrieve health metrics of an organization.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to retrieve health metrics of an organization.
   name: Rapid7 Health Metrics API
   slug: rapid7-health-metrics-api
-- description: The Investigations API from Rapid7 — 4 operation(s) for investigations.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: The Investigations API from Rapid7 — 4 operation(s) for investigations.
   name: Rapid7 Investigations API
   slug: rapid7-investigations-api
-- description: An API used to find and search InsightIDR local accounts. See https://docs.rapid7.com/insightidr/users-and-accounts-on-your-domain for further information on local accounts.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to find and search InsightIDR local accounts. See https://docs.rapid7.com/insightidr/users-and-accounts-on-your-domain for further information on local accounts.
   name: Rapid7 Local Accounts API
   slug: rapid7-local-accounts-api
-- description: Resources and operations for managing policies.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing policies.
   name: Rapid7 Policy API
   slug: rapid7-policy-api
-- description: Policy Override Resource Controller
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Policy Override Resource Controller
   name: Rapid7 Policy Override API
   slug: rapid7-policy-override-api
-- description: Resources for determining the details required to remediate vulnerabilities.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources for determining the details required to remediate vulnerabilities.
   name: Rapid7 Remediation API
   slug: rapid7-remediation-api
-- description: Resources and operations for managing and generating reports. Reports are broadly categorized into `document`, `export`, and `file` types. `document` reports use section-based report templates to cont
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing and generating reports. Reports are broadly categorized into `document`, `export`, and `file` types. `document` reports use section-based report templates to cont
   name: Rapid7 Report API
   slug: rapid7-report-api
-- description: 'Reports provide the ability to share information with stakeholders at both scan and app levels. The following table lists the report templates and the various formats that are available: <table> <thea'
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: 'Reports provide the ability to share information with stakeholders at both scan and app levels. The following table lists the report templates and the various formats that are available: <table> <thea'
   name: Rapid7 Reports API
   slug: rapid7-reports-api
-- description: Provides access to primary entry point for discovering the available resources in this API.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Provides access to primary entry point for discovering the available resources in this API.
   name: Rapid7 Root API
   slug: rapid7-root-api
-- description: Resources and operations for managing scans.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing scans.
   name: Rapid7 Scan API
   slug: rapid7-scan-api
-- description: A Scan Config defines all the necessary information required to perform a Scan of an App. An App <i>must</i> be created prior to creating a Scan Config. It is the main document that describes <i>what<
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Scan Config defines all the necessary information required to perform a Scan of an App. An App <i>must</i> be created prior to creating a Scan Config. It is the main document that describes <i>what<
   name: Rapid7 Scan Configs API
   slug: rapid7-scan-configs-api
-- description: Resources and operations for managing scan engines.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing scan engines.
   name: Rapid7 Scan Engine API
   slug: rapid7-scan-engine-api
-- description: Scan Template Resource Controller
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Scan Template Resource Controller
   name: Rapid7 Scan Template API
   slug: rapid7-scan-template-api
-- description: A Scan encapsulates all the information for a single execution of the criteria defined in the provided Scan Config. An App and a Scan Config <i>must</i> be created prior to submitting a Scan. All Scan
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Scan encapsulates all the information for a single execution of the criteria defined in the provided Scan Config. An App and a Scan Config <i>must</i> be created prior to submitting a Scan. All Scan
   name: Rapid7 Scans API
   slug: rapid7-scans-api
-- description: A Schedule defines the automated execution of a Scan, using a specified Scan Config. Both the App and Scan Config must be created prior to creating a Schedule. There are two options available to speci
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Schedule defines the automated execution of a Scan, using a specified Scan Config. Both the App and Scan Config must be created prior to creating a Schedule. There are two options available to speci
   name: Rapid7 Schedules API
   slug: rapid7-schedules-api
-- description: A global Search API is exposed to facilitate the execution of user-defined queries that can perform a Search across the supported resource types exposed via the API. Each Search Request must specify b
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A global Search API is exposed to facilitate the execution of user-defined queries that can perform a Search across the supported resource types exposed via the API. Each Search Request must specify b
   name: Rapid7 Search API
   slug: rapid7-search-api
-- description: Resources and operations for managing sites.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing sites.
   name: Rapid7 Site API
   slug: rapid7-site-api
-- description: Resources and operations for managing tags.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing tags.
   name: Rapid7 Tag API
   slug: rapid7-tag-api
-- description: Tags are customer-defined labels that can be used for a variety of purposes. The management of Tags is performed by this API, and other APIs facilitate applying these Tags to other resources. These ap
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Tags are customer-defined labels that can be used for a variety of purposes. The management of Tags is performed by this API, and other APIs facilitate applying these Tags to other resources. These ap
   name: Rapid7 Tags API
   slug: rapid7-tags-api
-- description: A Target essentially specifies an allowlisted Fully Qualified Domain Name (FQDN) which can be Scanned by InsightAppSec. A Target can be created, edited and deleted by an API consumer provided the perm
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Target essentially specifies an allowlisted Fully Qualified Domain Name (FQDN) which can be Scanned by InsightAppSec. A Target can be created, edited and deleted by an API consumer provided the perm
   name: Rapid7 Targets API
   slug: rapid7-targets-api
-- description: Resources and operations for managing users, permissions, and privileges.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for managing users, permissions, and privileges.
   name: Rapid7 User API
   slug: rapid7-user-api
-- description: An API used to find and search InsightIDR users. See https://docs.rapid7.com/insightidr/users-and-accounts-on-your-domain for further information on users.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: An API used to find and search InsightIDR users. See https://docs.rapid7.com/insightidr/users-and-accounts-on-your-domain for further information on users.
   name: Rapid7 Users API
   slug: rapid7-users-api
-- description: The Variances Documentation API from Rapid7 — 2 operation(s) for variances documentation.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: The Variances Documentation API from Rapid7 — 2 operation(s) for variances documentation.
   name: Rapid7 Variances Documentation API
   slug: rapid7-variances-documentation-api
-- description: A Vulnerability is a resource that encapsulates any information found by any Scan over the lifetime of an App, that <i>may</i> identify where and how an App could be exploited. Each Vulnerability cont
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Vulnerability is a resource that encapsulates any information found by any Scan over the lifetime of an App, that <i>may</i> identify where and how an App could be exploited. Each Vulnerability cont
   name: Rapid7 Vulnerabilities API
   slug: rapid7-vulnerabilities-api
-- description: Resources and operations for viewing vulnerability content and managing exceptions.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for viewing vulnerability content and managing exceptions.
   name: Rapid7 Vulnerability API
   slug: rapid7-vulnerability-api
-- description: Resources and operations for view vulnerability checks that can be run as a part of vulnerability content.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for view vulnerability checks that can be run as a part of vulnerability content.
   name: Rapid7 Vulnerability Check API
   slug: rapid7-vulnerability-check-api
-- description: A Vulnerability Comment is a resource that allows users to add context to the Vulnerability.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Vulnerability Comment is a resource that allows users to add context to the Vulnerability.
   name: Rapid7 Vulnerability Comments API
   slug: rapid7-vulnerability-comments-api
-- description: Vulnerability Exception Resource Controller
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Vulnerability Exception Resource Controller
   name: Rapid7 Vulnerability Exception API
   slug: rapid7-vulnerability-exception-api
-- description: A Vulnerability History resource represents the change applied to a specific Vulnerability at a point of time in its existence.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: A Vulnerability History resource represents the change applied to a specific Vulnerability at a point of time in its existence.
   name: Rapid7 Vulnerability History API
   slug: rapid7-vulnerability-history-api
-- description: Resources and operations for retrieving vulnerability results on assessed assets.
+- baseURL: https://us.api.insight.rapid7.com/vm/v4
+  baseurl_source: declared
+  description: Resources and operations for retrieving vulnerability results on assessed assets.
   name: Rapid7 Vulnerability Result API
   slug: rapid7-vulnerability-result-api
 artifact_total: 321
@@ -1125,7 +1219,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png
 security:

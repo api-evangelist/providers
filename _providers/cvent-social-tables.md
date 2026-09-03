@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -47,55 +47,89 @@ apis:
 - description: The legacy Social Tables Events API provided REST access to events, venues, floor plans, diagrams, and seating arrangements created in Social Tables. With Social Tables now part of Cvent's Hospitality
   name: Social Tables Events API (Legacy)
   slug: events-api
-- description: The Authentication API from Cvent Social Tables — 1 operation(s) for authentication.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Authentication API from Cvent Social Tables — 1 operation(s) for authentication.
   name: Cvent Social Tables Authentication API
   slug: cvent-social-tables-authentication-api
-- description: The Diagram Favorites API from Cvent Social Tables — 3 operation(s) for diagram favorites.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Diagram Favorites API from Cvent Social Tables — 3 operation(s) for diagram favorites.
   name: Cvent Social Tables Diagram Favorites API
   slug: cvent-social-tables-diagram-favorites-api
-- description: The Diagram Layouts API from Cvent Social Tables — 3 operation(s) for diagram layouts.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Diagram Layouts API from Cvent Social Tables — 3 operation(s) for diagram layouts.
   name: Cvent Social Tables Diagram Layouts API
   slug: cvent-social-tables-diagram-layouts-api
-- description: The Diagram Template Presets API from Cvent Social Tables — 2 operation(s) for diagram template presets.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Diagram Template Presets API from Cvent Social Tables — 2 operation(s) for diagram template presets.
   name: Cvent Social Tables Diagram Template Presets API
   slug: cvent-social-tables-diagram-template-presets-api
-- description: The Diagrams API from Cvent Social Tables — 6 operation(s) for diagrams.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Diagrams API from Cvent Social Tables — 6 operation(s) for diagrams.
   name: Cvent Social Tables Diagrams API
   slug: cvent-social-tables-diagrams-api
-- description: The Events API from Cvent Social Tables — 3 operation(s) for events.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Events API from Cvent Social Tables — 3 operation(s) for events.
   name: Cvent Social Tables Events API
   slug: cvent-social-tables-events-api
-- description: The Guest Checkin API from Cvent Social Tables — 4 operation(s) for guest checkin.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Guest Checkin API from Cvent Social Tables — 4 operation(s) for guest checkin.
   name: Cvent Social Tables Guest Checkin API
   slug: cvent-social-tables-guest-checkin-api
-- description: The Guest Groups API from Cvent Social Tables — 7 operation(s) for guest groups.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Guest Groups API from Cvent Social Tables — 7 operation(s) for guest groups.
   name: Cvent Social Tables Guest Groups API
   slug: cvent-social-tables-guest-groups-api
-- description: The Guest Lists API from Cvent Social Tables — 6 operation(s) for guest lists.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Guest Lists API from Cvent Social Tables — 6 operation(s) for guest lists.
   name: Cvent Social Tables Guest Lists API
   slug: cvent-social-tables-guest-lists-api
-- description: The Guest Meals API from Cvent Social Tables — 3 operation(s) for guest meals.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Guest Meals API from Cvent Social Tables — 3 operation(s) for guest meals.
   name: Cvent Social Tables Guest Meals API
   slug: cvent-social-tables-guest-meals-api
-- description: The Guest Tags API from Cvent Social Tables — 3 operation(s) for guest tags.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Guest Tags API from Cvent Social Tables — 3 operation(s) for guest tags.
   name: Cvent Social Tables Guest Tags API
   slug: cvent-social-tables-guest-tags-api
-- description: The Guests API from Cvent Social Tables — 12 operation(s) for guests.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Guests API from Cvent Social Tables — 12 operation(s) for guests.
   name: Cvent Social Tables Guests API
   slug: cvent-social-tables-guests-api
-- description: The Layout Automation API from Cvent Social Tables — 2 operation(s) for layout automation.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Layout Automation API from Cvent Social Tables — 2 operation(s) for layout automation.
   name: Cvent Social Tables Layout Automation API
   slug: cvent-social-tables-layout-automation-api
-- description: The Properties API from Cvent Social Tables — 2 operation(s) for properties.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Properties API from Cvent Social Tables — 2 operation(s) for properties.
   name: Cvent Social Tables Properties API
   slug: cvent-social-tables-properties-api
-- description: The Rooms API from Cvent Social Tables — 2 operation(s) for rooms.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Rooms API from Cvent Social Tables — 2 operation(s) for rooms.
   name: Cvent Social Tables Rooms API
   slug: cvent-social-tables-rooms-api
-- description: The SNC Event Integration API from Cvent Social Tables — 1 operation(s) for snc event integration.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The SNC Event Integration API from Cvent Social Tables — 1 operation(s) for snc event integration.
   name: Cvent Social Tables SNC Event Integration API
   slug: cvent-social-tables-snc-event-integration-api
-- description: The Users API from Cvent Social Tables — 1 operation(s) for users.
+- baseURL: https://api.socialtables.com
+  baseurl_source: declared
+  description: The Users API from Cvent Social Tables — 1 operation(s) for users.
   name: Cvent Social Tables Users API
   slug: cvent-social-tables-users-api
 artifact_total: 44
@@ -287,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/screenshots/cvent-social-tables-2026-06-20T175404.png
 security:

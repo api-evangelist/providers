@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Apache Sqoop provides a command-line interface for bulk data transfer between Hadoop and relational databases. Commands include sqoop-import for loading data into HDFS or Hive, sqoop-export for writin
@@ -138,7 +138,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-sqoop/refs/heads/main/screenshots/apache-sqoop-2026-06-20T172147.png
 security:

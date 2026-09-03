@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: Returns live or 15-20 minute delayed stock quotes including last price, change, volume, and bid/ask data for stocks, ETFs, indices, and forex pairs across global exchanges.
   name: EODHD Live (Delayed) Stock Prices API
   slug: live-prices-api
-- description: Streams real-time trade and quote updates over WebSockets for US stocks, forex, and cryptocurrencies, allowing low-latency consumption of live market data.
+- baseURL: wss://ws.eodhistoricaldata.com
+  baseurl_source: declared
+  description: Streams real-time trade and quote updates over WebSockets for US stocks, forex, and cryptocurrencies, allowing low-latency consumption of live market data.
   name: EODHD WebSockets Real-Time API
   slug: websockets-api
 - description: Provides company fundamentals including general info, financial statements (income statement, balance sheet, cash flow), earnings, valuation ratios, ETF holdings, and mutual fund details.
@@ -71,82 +73,134 @@ apis:
 - description: Lists supported exchanges and instruments with metadata including ticker, exchange code, name, type, and identifier mappings (CUSIP, ISIN, FIGI) to support symbol lookup and reference data workflows.
   name: EODHD Exchanges and Symbols API
   slug: exchanges-and-tickers-api
-- description: The Eod API from EODHD — 1 operation(s) for eod.
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: The Eod API from EODHD — 1 operation(s) for eod.
   name: EODHD Eod API
   slug: eodhd-eod-api
-- description: Calendar events including earnings, IPOs, splits, dividends, and trends
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Calendar events including earnings, IPOs, splits, dividends, and trends
   name: EODHD Calendar API
   slug: eodhd-calendar-api
-- description: CBOE index data and listings
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: CBOE index data and listings
   name: EODHD CBOE API
   slug: eodhd-cboe-api
-- description: Symbol changes and insider transactions
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Symbol changes and insider transactions
   name: EODHD Corporate Actions API
   slug: eodhd-corporate-actions-api
-- description: Sovereign risk premiums, credit ratings, CDS spreads, and corporate credit metrics
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Sovereign risk premiums, credit ratings, CDS spreads, and corporate credit metrics
   name: EODHD Credit & Sovereign Risk API
   slug: eodhd-credit-sovereign-risk-api
-- description: Dividend and split history
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Dividend and split history
   name: EODHD Dividends & Splits API
   slug: eodhd-dividends-splits-api
-- description: Economic events and macro indicators
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Economic events and macro indicators
   name: EODHD Economic Data API
   slug: eodhd-economic-data-api
-- description: Historical and current end-of-day price data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Historical and current end-of-day price data
   name: EODHD End-of-Day Data API
   slug: eodhd-end-of-day-data-api
-- description: Environmental, Social, and Governance ratings (Investverte)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Environmental, Social, and Governance ratings (Investverte)
   name: EODHD ESG API
   slug: eodhd-esg-api
-- description: Exchange information and symbols
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Exchange information and symbols
   name: EODHD Exchanges API
   slug: eodhd-exchanges-api
-- description: Fundamental data for stocks and companies
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Fundamental data for stocks and companies
   name: EODHD Fundamentals API
   slug: eodhd-fundamentals-api
-- description: S&P/Dow Jones indices data and components
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: S&P/Dow Jones indices data and components
   name: EODHD Indices API
   slug: eodhd-indices-api
-- description: Reference rates, central bank policy rates, and funding-stress spreads
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Reference rates, central bank policy rates, and funding-stress spreads
   name: EODHD Interest Rates API
   slug: eodhd-interest-rates-api
-- description: Intraday historical price data (time-based bars)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Intraday historical price data (time-based bars)
   name: EODHD Intraday Data API
   slug: eodhd-intraday-data-api
-- description: Risk scoring, bond analysis, bank financials, reports (PRAAMS)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Risk scoring, bond analysis, bank financials, reports (PRAAMS)
   name: EODHD Investment Analytics API
   slug: eodhd-investment-analytics-api
-- description: Delayed real-time stock prices and US delayed quotes
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Delayed real-time stock prices and US delayed quotes
   name: EODHD Live (Delayed) Data API
   slug: eodhd-live-delayed-data-api
-- description: Company and ticker logos
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Company and ticker logos
   name: EODHD Logos API
   slug: eodhd-logos-api
-- description: Market capitalization and other market data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Market capitalization and other market data
   name: EODHD Market Data API
   slug: eodhd-market-data-api
-- description: Financial news and sentiment analysis
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Financial news and sentiment analysis
   name: EODHD News API
   slug: eodhd-news-api
-- description: Options contracts and pricing data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Options contracts and pricing data
   name: EODHD Options API
   slug: eodhd-options-api
-- description: Sanctioned entities, vessels, programs, and sources (OFAC and others)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Sanctioned entities, vessels, programs, and sources (OFAC and others)
   name: EODHD Sanctions API
   slug: eodhd-sanctions-api
-- description: Stock screening tools
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Stock screening tools
   name: EODHD Screening API
   slug: eodhd-screening-api
-- description: Technical analysis indicators
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Technical analysis indicators
   name: EODHD Technical API
   slug: eodhd-technical-api
-- description: Historical and marketplace tick-level trade data
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: Historical and marketplace tick-level trade data
   name: EODHD Tick Data API
   slug: eodhd-tick-data-api
-- description: US Treasury interest rates (bills, yields, long-term, real yields)
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: US Treasury interest rates (bills, yields, long-term, real yields)
   name: EODHD US Treasury API
   slug: eodhd-us-treasury-api
-- description: User account and subscription information
+- baseURL: https://eodhd.com/api
+  baseurl_source: declared
+  description: User account and subscription information
   name: EODHD User API
   slug: eodhd-user-api
 artifact_total: 54
@@ -421,7 +475,7 @@ score:
     catalog_gap: 65.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -431,7 +485,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 26.3
-  previous_composite: 62.0
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -449,7 +503,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:

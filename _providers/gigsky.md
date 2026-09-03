@@ -34,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Programmatic access to GigSky's catalog of regional and global eSIM data plans by destination and price zone, used by partners and enterprises to browse and select connectivity. Endpoints, base URL, a
+- baseURL: https://api.gigsky.com
+  baseurl_source: declared
+  description: Programmatic access to GigSky's catalog of regional and global eSIM data plans by destination and price zone, used by partners and enterprises to browse and select connectivity. Endpoints, base URL, a
   name: GigSky Plans & Catalog API
   slug: gigsky-plans-catalog-api
-- description: RESTful eSIM/SIM provisioning and lifecycle management through the GigSky Enterprise Manager (GEM) and IoT SIM Management portal - assigning and activating eSIM profiles, country-by-country connectivi
+- baseURL: https://api.gigsky.com
+  baseurl_source: declared
+  description: RESTful eSIM/SIM provisioning and lifecycle management through the GigSky Enterprise Manager (GEM) and IoT SIM Management portal - assigning and activating eSIM profiles, country-by-country connectivi
   name: GigSky eSIM Provisioning API
   slug: gigsky-esim-provisioning-api
-- description: Order placement and fulfillment for eSIM plans and SIM deployments by partners and enterprises, tied to GigSky's pay-as-you-go and pooled-data billing models. Order endpoints, base URL, and authentica
+- baseURL: https://api.gigsky.com
+  baseurl_source: declared
+  description: Order placement and fulfillment for eSIM plans and SIM deployments by partners and enterprises, tied to GigSky's pay-as-you-go and pooled-data billing models. Order endpoints, base URL, and authentica
   name: GigSky Orders API
   slug: gigsky-orders-api
-- description: Reporting on data consumption and connectivity usage per SIM, user group, sub-account, or pooled plan, supporting GigSky's monthly statement and pay-as-you-go billing. Usage endpoints and authenticati
+- baseURL: https://api.gigsky.com
+  baseurl_source: declared
+  description: Reporting on data consumption and connectivity usage per SIM, user group, sub-account, or pooled plan, supporting GigSky's monthly statement and pay-as-you-go billing. Usage endpoints and authenticati
   name: GigSky Usage API
   slug: gigsky-usage-api
 artifact_total: 11
@@ -145,7 +153,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/screenshots/gigsky-2026-07-25T215813.png
 security:

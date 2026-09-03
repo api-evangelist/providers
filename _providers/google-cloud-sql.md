@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations on backup runs
+- baseURL: https://sqladmin.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on backup runs
   name: Google Cloud SQL BackupRuns API
   slug: google-cloud-sql-backupruns-api
-- description: Operations on databases within instances
+- baseURL: https://sqladmin.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on databases within instances
   name: Google Cloud SQL Databases API
   slug: google-cloud-sql-databases-api
-- description: Operations on Cloud SQL instances
+- baseURL: https://sqladmin.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Cloud SQL instances
   name: Google Cloud SQL Instances API
   slug: google-cloud-sql-instances-api
-- description: Operations on database users
+- baseURL: https://sqladmin.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on database users
   name: Google Cloud SQL Users API
   slug: google-cloud-sql-users-api
 artifact_total: 25
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/screenshots/google-cloud-sql-2026-06-20T182138.png
 security:

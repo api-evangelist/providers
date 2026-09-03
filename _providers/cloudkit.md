@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -52,25 +52,39 @@ apis:
 - description: The native CloudKit framework for iOS, iPadOS, macOS, tvOS, watchOS, and visionOS. Provides programmatic access to CloudKit containers, records, zones, subscriptions, and sharing. Out of band of the w
   name: CloudKit Framework
   slug: framework
-- description: The Assets API from Apple CloudKit — 2 operation(s) for assets.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Assets API from Apple CloudKit — 2 operation(s) for assets.
   name: Apple CloudKit Assets API
   slug: cloudkit-assets-api
-- description: The Changes API from Apple CloudKit — 2 operation(s) for changes.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Changes API from Apple CloudKit — 2 operation(s) for changes.
   name: Apple CloudKit Changes API
   slug: cloudkit-changes-api
-- description: The Records API from Apple CloudKit — 6 operation(s) for records.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Records API from Apple CloudKit — 6 operation(s) for records.
   name: Apple CloudKit Records API
   slug: cloudkit-records-api
-- description: The Subscriptions API from Apple CloudKit — 3 operation(s) for subscriptions.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Subscriptions API from Apple CloudKit — 3 operation(s) for subscriptions.
   name: Apple CloudKit Subscriptions API
   slug: cloudkit-subscriptions-api
-- description: The Tokens API from Apple CloudKit — 2 operation(s) for tokens.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Tokens API from Apple CloudKit — 2 operation(s) for tokens.
   name: Apple CloudKit Tokens API
   slug: cloudkit-tokens-api
-- description: The Users API from Apple CloudKit — 4 operation(s) for users.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Users API from Apple CloudKit — 4 operation(s) for users.
   name: Apple CloudKit Users API
   slug: cloudkit-users-api
-- description: The Zones API from Apple CloudKit — 4 operation(s) for zones.
+- baseURL: https://api.apple-cloudkit.com/database/1
+  baseurl_source: declared
+  description: The Zones API from Apple CloudKit — 4 operation(s) for zones.
   name: Apple CloudKit Zones API
   slug: cloudkit-zones-api
 artifact_total: 24
@@ -203,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/screenshots/cloudkit-2026-06-20T174606.png
 security:

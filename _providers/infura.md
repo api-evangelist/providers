@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: Multi-chain JSON-RPC over HTTPS and WebSockets across 23+ networks (Ethereum, Linea, Polygon, Arbitrum, Optimism, Base, Avalanche, BNB, Scroll, Mantle, Blast, Starknet, etc.).
+- baseURL: https://{network}.infura.io/v3/{apiKey}
+  baseurl_source: declared
+  description: Multi-chain JSON-RPC over HTTPS and WebSockets across 23+ networks (Ethereum, Linea, Polygon, Arbitrum, Optimism, Base, Avalanche, BNB, Scroll, Mantle, Blast, Starknet, etc.).
   name: Infura JSON-RPC API
   slug: json-rpc
 - description: Solana JSON-RPC and WebSocket endpoints.
@@ -59,7 +61,9 @@ apis:
 - description: REST API for NFT metadata, ownership, and collection data on EVM chains.
   name: Infura NFT API
   slug: nft-api
-- description: The Infura (MetaMask Developer) JSON RPC API API from Infura — 1 operation(s) for infura (metamask developer) json rpc api.
+- baseURL: https://{network}.infura.io/v3/{apiKey}
+  baseurl_source: declared
+  description: The Infura (MetaMask Developer) JSON RPC API API from Infura — 1 operation(s) for infura (metamask developer) json rpc api.
   name: Infura Infura (MetaMask Developer) JSON RPC API API
   slug: infura-infura-metamask-developer-json-rpc-api-api
 artifact_total: 17
@@ -162,7 +166,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -172,7 +176,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.6
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -181,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infura/refs/heads/main/screenshots/infura-2026-06-20T183349.png
 security:

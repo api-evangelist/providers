@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 68 operations · 25 acting
 api_count: 1
 apis:
-- description: Administrative access key management.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Administrative access key management.
   name: Truv Admin API
   slug: truv-admin-api
-- description: Verification-of-assets banking data for a connected link.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Verification-of-assets banking data for a connected link.
   name: Truv Banking API
   slug: truv-banking-api
-- description: Mint tokens that initialize the Truv Bridge widget and connect flows.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Mint tokens that initialize the Truv Bridge widget and connect flows.
   name: Truv Bridge Tokens API
   slug: truv-bridge-tokens-api
-- description: Employer companies, mappings, and data providers.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Employer companies, mappings, and data providers.
   name: Truv Companies & Providers API
   slug: truv-companies-providers-api
-- description: Direct deposit and deposit switch reports.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Direct deposit and deposit switch reports.
   name: Truv Direct Deposit API
   slug: truv-direct-deposit-api
-- description: Verification of employment data and reports.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Verification of employment data and reports.
   name: Truv Employment API
   slug: truv-employment-api
-- description: Consumer identity data for a connected link.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Consumer identity data for a connected link.
   name: Truv Identity API
   slug: truv-identity-api
-- description: Income reports, transactions, and income insights.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Income reports, transactions, and income insights.
   name: Truv Income API
   slug: truv-income-api
-- description: Insurance reports including auto and home.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Insurance reports including auto and home.
   name: Truv Insurance API
   slug: truv-insurance-api
-- description: Manage connections between a consumer and a payroll or financial data source.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Manage connections between a consumer and a payroll or financial data source.
   name: Truv Links API
   slug: truv-links-api
-- description: Verification orders and their lifecycle.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Verification orders and their lifecycle.
   name: Truv Orders API
   slug: truv-orders-api
-- description: Individual pay statement documents.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Individual pay statement documents.
   name: Truv Pay Statements API
   slug: truv-pay-statements-api
-- description: Shift-level payroll data.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Shift-level payroll data.
   name: Truv Payroll & Shifts API
   slug: truv-payroll-shifts-api
-- description: Pre-qualification lending logic reports.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Pre-qualification lending logic reports.
   name: Truv PLL API
   slug: truv-pll-api
-- description: Scoring attribute reports.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Scoring attribute reports.
   name: Truv Scoring API
   slug: truv-scoring-api
-- description: Asynchronous task tracking.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Asynchronous task tracking.
   name: Truv Tasks API
   slug: truv-tasks-api
-- description: Tax document data for a connected link.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Tax document data for a connected link.
   name: Truv Tax API
   slug: truv-tax-api
-- description: Reusable configuration templates.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Reusable configuration templates.
   name: Truv Templates API
   slug: truv-templates-api
-- description: Manage the end users (consumers) whose data is connected through Truv.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Manage the end users (consumers) whose data is connected through Truv.
   name: Truv Users API
   slug: truv-users-api
-- description: Webhook endpoint registration and delivery history.
+- baseURL: https://prod.truv.com/v1
+  baseurl_source: declared
+  description: Webhook endpoint registration and delivery history.
   name: Truv Webhooks API
   slug: truv-webhooks-api
 artifact_total: 50
@@ -254,7 +294,7 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -277,8 +317,9 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/screenshots/truv-2026-09-02T164426.png
 security:
 - kind: authentication
   name: Truv Authentication

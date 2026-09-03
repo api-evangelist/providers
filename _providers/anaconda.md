@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -40,70 +52,114 @@ apis:
 - description: Anaconda's Model Context Protocol surface for AI coding agents. `anaconda-mcp` is a unified local gateway that composes conda-aware MCP servers, giving Claude Desktop, Claude Code, Cursor, VS Code, Op
   name: Anaconda MCP
   slug: mcp
-- description: User account actions
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: User account actions
   name: Anaconda Account API
   slug: anaconda-account-api
-- description: The AI Navigator API API from Anaconda — 1 operation(s) for ai navigator api.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The AI Navigator API API from Anaconda — 1 operation(s) for ai navigator api.
   name: Anaconda AI Navigator API API
   slug: anaconda-ai-navigator-api-api
-- description: Artifact endpoints - search, retrieve, mirror
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: Artifact endpoints - search, retrieve, mirror
   name: Anaconda Artifacts API
   slug: anaconda-artifacts-api
-- description: The Audit Logs API from Anaconda — 5 operation(s) for audit logs.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The Audit Logs API from Anaconda — 5 operation(s) for audit logs.
   name: Anaconda Audit Logs API
   slug: anaconda-audit-logs-api
-- description: Authentication endpoints
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: Authentication endpoints
   name: Anaconda Auth API
   slug: anaconda-auth-api
-- description: Channel management endpoints
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: Channel management endpoints
   name: Anaconda Channels API
   slug: anaconda-channels-api
-- description: The cves API from Anaconda — 20 operation(s) for cves.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The cves API from Anaconda — 20 operation(s) for cves.
   name: Anaconda Cves API
   slug: anaconda-cves-api
-- description: The diagnosis API from Anaconda — 1 operation(s) for diagnosis.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The diagnosis API from Anaconda — 1 operation(s) for diagnosis.
   name: Anaconda Diagnosis API
   slug: anaconda-diagnosis-api
-- description: The docs API from Anaconda — 1 operation(s) for docs.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The docs API from Anaconda — 1 operation(s) for docs.
   name: Anaconda Docs API
   slug: anaconda-docs-api
-- description: The Files API from Anaconda — 2 operation(s) for files.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The Files API from Anaconda — 2 operation(s) for files.
   name: Anaconda Files API
   slug: anaconda-files-api
-- description: Group management endpoints
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: Group management endpoints
   name: Anaconda Groups API
   slug: anaconda-groups-api
-- description: The installers API from Anaconda — 2 operation(s) for installers.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The installers API from Anaconda — 2 operation(s) for installers.
   name: Anaconda Installers API
   slug: anaconda-installers-api
-- description: The mirrors API from Anaconda — 1 operation(s) for mirrors.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The mirrors API from Anaconda — 1 operation(s) for mirrors.
   name: Anaconda Mirrors API
   slug: anaconda-mirrors-api
-- description: The Models API from Anaconda — 5 operation(s) for models.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The Models API from Anaconda — 5 operation(s) for models.
   name: Anaconda Models API
   slug: anaconda-models-api
-- description: The organizations API from Anaconda — 9 operation(s) for organizations.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The organizations API from Anaconda — 9 operation(s) for organizations.
   name: Anaconda Organizations API
   slug: anaconda-organizations-api
-- description: The Repo API from Anaconda — 2 operation(s) for repo.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The Repo API from Anaconda — 2 operation(s) for repo.
   name: Anaconda Repo API
   slug: anaconda-repo-api
-- description: The reports API from Anaconda — 1 operation(s) for reports.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The reports API from Anaconda — 1 operation(s) for reports.
   name: Anaconda Reports API
   slug: anaconda-reports-api
-- description: The Servers API from Anaconda — 3 operation(s) for servers.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The Servers API from Anaconda — 3 operation(s) for servers.
   name: Anaconda Servers API
   slug: anaconda-servers-api
-- description: System endpoints - version, health, etc.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: System endpoints - version, health, etc.
   name: Anaconda System API
   slug: anaconda-system-api
-- description: User role management endpoints (CRUD is managed separately)
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: User role management endpoints (CRUD is managed separately)
   name: Anaconda Users API
   slug: anaconda-users-api
-- description: The VectorDB API from Anaconda — 4 operation(s) for vectordb.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The VectorDB API from Anaconda — 4 operation(s) for vectordb.
   name: Anaconda Vector DB API
   slug: anaconda-vectordb-api
-- description: The websocket API from Anaconda — 3 operation(s) for websocket.
+- baseURL: https://api.anaconda.cloud/api
+  baseurl_source: declared
+  description: The websocket API from Anaconda — 3 operation(s) for websocket.
   name: Anaconda Websocket API
   slug: anaconda-websocket-api
 artifact_total: 55
@@ -403,7 +459,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -413,7 +469,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -425,7 +481,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/screenshots/anaconda-2026-08-07T161352.png
 security:

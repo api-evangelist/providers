@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,13 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Chargefox's Open Charge Point Interface implementation in the Charge Point Operator role, used for roaming so that another network's drivers can authorise, charge and be billed on Chargefox infrastruc
   name: Chargefox OCPI CPO API
   slug: chargefox-ocpi-cpo-api
-- description: The Fleets API from Chargefox — 4 operation(s) for fleets.
+- baseURL: https://app.chargefox.com/api/fleets/v1
+  baseurl_source: declared
+  description: The Fleets API from Chargefox — 4 operation(s) for fleets.
   name: Chargefox Fleets API
   slug: chargefox-fleets-api
 artifact_total: 12
@@ -245,7 +259,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargefox/refs/heads/main/screenshots/chargefox-2026-08-07T163259.png
 security:

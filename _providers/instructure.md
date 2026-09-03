@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,40 +53,64 @@ apis:
 - description: The Canvas Studio API provides programmatic access to Canvas Studio, Instructure's video and media platform, enabling account administrators and developers to manage media assets, captions, analytics,
   name: Canvas Studio API
   slug: canvas-studio-api
-- description: The ExternalTool API from Instructure — 1 operation(s) for externaltool.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The ExternalTool API from Instructure — 1 operation(s) for externaltool.
   name: Instructure ExternalTool API
   slug: instructure-externaltool-api
-- description: The Lti::AccountExternalTool API from Instructure — 2 operation(s) for lti::accountexternaltool.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::AccountExternalTool API from Instructure — 2 operation(s) for lti::accountexternaltool.
   name: Instructure Lti::AccountExternalTool API
   slug: instructure-lti-accountexternaltool-api
-- description: The Lti::AccountLookup API from Instructure — 1 operation(s) for lti::accountlookup.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::AccountLookup API from Instructure — 1 operation(s) for lti::accountlookup.
   name: Instructure Lti::AccountLookup API
   slug: instructure-lti-accountlookup-api
-- description: The Lti::DataService API from Instructure — 2 operation(s) for lti::dataservice.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::DataService API from Instructure — 2 operation(s) for lti::dataservice.
   name: Instructure Lti::DataService API
   slug: instructure-lti-dataservice-api
-- description: The Lti::IMS::Authentication API from Instructure — 1 operation(s) for lti::ims::authentication.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::IMS::Authentication API from Instructure — 1 operation(s) for lti::ims::authentication.
   name: Instructure Lti::IMS::Authentication API
   slug: instructure-lti-ims-authentication-api
-- description: The Lti::IMS::DynamicRegistration API from Instructure — 3 operation(s) for lti::ims::dynamicregistration.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::IMS::DynamicRegistration API from Instructure — 3 operation(s) for lti::ims::dynamicregistration.
   name: Instructure Lti::IMS::DynamicRegistration API
   slug: instructure-lti-ims-dynamicregistration-api
-- description: The Lti::IMS::LineItem API from Instructure — 2 operation(s) for lti::ims::lineitem.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::IMS::LineItem API from Instructure — 2 operation(s) for lti::ims::lineitem.
   name: Instructure Lti::IMS::LineItem API
   slug: instructure-lti-ims-lineitem-api
-- description: The Lti::IMS::NamesAndRole API from Instructure — 2 operation(s) for lti::ims::namesandrole.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::IMS::NamesAndRole API from Instructure — 2 operation(s) for lti::ims::namesandrole.
   name: Instructure Lti::IMS::NamesAndRole API
   slug: instructure-lti-ims-namesandrole-api
-- description: The Lti::IMS::Result API from Instructure — 2 operation(s) for lti::ims::result.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::IMS::Result API from Instructure — 2 operation(s) for lti::ims::result.
   name: Instructure Lti::IMS::Result API
   slug: instructure-lti-ims-result-api
-- description: The Lti::MembershipService API from Instructure — 1 operation(s) for lti::membershipservice.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::MembershipService API from Instructure — 1 operation(s) for lti::membershipservice.
   name: Instructure Lti::MembershipService API
   slug: instructure-lti-membershipservice-api
-- description: The Lti::ToolConfigurationsApi API from Instructure — 3 operation(s) for lti::toolconfigurationsapi.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Lti::ToolConfigurationsApi API from Instructure — 3 operation(s) for lti::toolconfigurationsapi.
   name: Instructure Lti::ToolConfigurationsApi API
   slug: instructure-lti-toolconfigurationsapi-api
-- description: The Security API from Instructure — 2 operation(s) for security.
+- baseURL: https://{canvas_domain}/api/v1
+  baseurl_source: declared
+  description: The Security API from Instructure — 2 operation(s) for security.
   name: Instructure Security API
   slug: instructure-security-api
 artifact_total: 61
@@ -362,7 +386,7 @@ score:
     regime_id: education
     score: 70.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/screenshots/instructure-2026-06-20T183421.png
 security:

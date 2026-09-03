@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations
 api_count: 2
 apis:
-- description: The Company News API from Finnhub — 1 operation(s) for company news.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Company News API from Finnhub — 1 operation(s) for company news.
   name: Finnhub Company News API
   slug: finnhub-company-news-api
-- description: The Crypto API from Finnhub — 3 operation(s) for crypto.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Crypto API from Finnhub — 3 operation(s) for crypto.
   name: Finnhub Crypto API
   slug: finnhub-crypto-api
-- description: The Forex API from Finnhub — 3 operation(s) for forex.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Forex API from Finnhub — 3 operation(s) for forex.
   name: Finnhub Forex API
   slug: finnhub-forex-api
-- description: The News API from Finnhub — 1 operation(s) for news.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The News API from Finnhub — 1 operation(s) for news.
   name: Finnhub News API
   slug: finnhub-news-api
-- description: The Quote API from Finnhub — 1 operation(s) for quote.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Quote API from Finnhub — 1 operation(s) for quote.
   name: Finnhub Quote API
   slug: finnhub-quote-api
-- description: The Search API from Finnhub — 1 operation(s) for search.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Search API from Finnhub — 1 operation(s) for search.
   name: Finnhub Search API
   slug: finnhub-search-api
-- description: The Stock API from Finnhub — 5 operation(s) for stock.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Stock API from Finnhub — 5 operation(s) for stock.
   name: Finnhub Stock API
   slug: finnhub-stock-api
-- description: The Default API from Finnhub — 117 operation(s) for default.
+- baseURL: https://finnhub.io/api/v1
+  baseurl_source: declared
+  description: The Default API from Finnhub — 117 operation(s) for default.
   name: Finnhub Default API
   slug: finnhub-default-api
 artifact_total: 27
@@ -273,7 +289,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -283,7 +299,7 @@ score:
     discoverability: 68.5
     governance: 15.9
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,7 +317,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

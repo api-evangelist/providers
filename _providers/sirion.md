@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Contract Requests (CDRs) that drive intake and authoring (MODELED).
+- baseURL: https://{tenant}.sirioncloud.com
+  baseurl_source: declared
+  description: Contract Requests (CDRs) that drive intake and authoring (MODELED).
   name: Sirion Contract Requests API
   slug: sirion-contract-requests-api
-- description: Executed contracts / agreements in the SirionOne repository (MODELED).
+- baseURL: https://{tenant}.sirioncloud.com
+  baseurl_source: declared
+  description: Executed contracts / agreements in the SirionOne repository (MODELED).
   name: Sirion Contracts API
   slug: sirion-contracts-api
-- description: Contract metadata fields and AI-extracted clauses (MODELED).
+- baseURL: https://{tenant}.sirioncloud.com
+  baseurl_source: declared
+  description: Contract metadata fields and AI-extracted clauses (MODELED).
   name: Sirion Metadata & Clauses API
   slug: sirion-metadata-clauses-api
-- description: Contractual obligations and performance tracking (MODELED).
+- baseURL: https://{tenant}.sirioncloud.com
+  baseurl_source: declared
+  description: Contractual obligations and performance tracking (MODELED).
   name: Sirion Obligations API
   slug: sirion-obligations-api
-- description: Suppliers and counterparties linked to contracts (MODELED).
+- baseURL: https://{tenant}.sirioncloud.com
+  baseurl_source: declared
+  description: Suppliers and counterparties linked to contracts (MODELED).
   name: Sirion Suppliers API
   slug: sirion-suppliers-api
-- description: Outbound webhook subscriptions for event notifications (MODELED).
+- baseURL: https://{tenant}.sirioncloud.com
+  baseurl_source: declared
+  description: Outbound webhook subscriptions for event notifications (MODELED).
   name: Sirion Webhooks API
   slug: sirion-webhooks-api
 artifact_total: 20
@@ -158,7 +170,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -181,8 +193,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sirion/refs/heads/main/screenshots/sirion-2026-09-02T155648.png
 security:
 - kind: authentication
   name: Sirion Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Access analytics and insights for coaching and training programs, including learning paths, skill assessments, roleplay AI analysis, and coach analytics data.
@@ -46,70 +46,114 @@ apis:
 - description: Hosted remote Model Context Protocol server that lets AI assistants such as Claude and Cursor search Showpad assets, fetch their content, run ShowQL filters, ask questions with cited sources, and read
   name: Showpad MCP Server
   slug: showpad-mcp-server
-- description: The assets API from Showpad — 16 operation(s) for assets.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The assets API from Showpad — 16 operation(s) for assets.
   name: Showpad Assets API
   slug: showpad-assets-api
-- description: The channels API from Showpad — 22 operation(s) for channels.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The channels API from Showpad — 22 operation(s) for channels.
   name: Showpad Channels API
   slug: showpad-channels-api
-- description: The comments API from Showpad — 4 operation(s) for comments.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The comments API from Showpad — 4 operation(s) for comments.
   name: Showpad Comments API
   slug: showpad-comments-api
-- description: These are endpoints for managing crm recommendation rules and fetching shares and shared spaces cmr records
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing crm recommendation rules and fetching shares and shared spaces cmr records
   name: Showpad CRM API
   slug: showpad-crm-api
-- description: The divisionpermissions API from Showpad — 6 operation(s) for divisionpermissions.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The divisionpermissions API from Showpad — 6 operation(s) for divisionpermissions.
   name: Showpad Divisionpermissions API
   slug: showpad-divisionpermissions-api
-- description: The divisions API from Showpad — 17 operation(s) for divisions.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The divisions API from Showpad — 17 operation(s) for divisions.
   name: Showpad Divisions API
   slug: showpad-divisions-api
-- description: The exports API from Showpad — 25 operation(s) for exports.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The exports API from Showpad — 25 operation(s) for exports.
   name: Showpad Exports API
   slug: showpad-exports-api
-- description: The generic API from Showpad — 1 operation(s) for generic.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The generic API from Showpad — 1 operation(s) for generic.
   name: Showpad Generic API
   slug: showpad-generic-api
-- description: These are endpoints for fetching available Languages and Countries information.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for fetching available Languages and Countries information.
   name: Showpad Locale API
   slug: showpad-locale-api
-- description: These are endpoints for managing Mutual Action Plans
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Mutual Action Plans
   name: Showpad Mutual Action Plan API
   slug: showpad-mutual-action-plan-api
-- description: The recommendations API from Showpad — 6 operation(s) for recommendations.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The recommendations API from Showpad — 6 operation(s) for recommendations.
   name: Showpad Recommendations API
   slug: showpad-recommendations-api
-- description: These are endpoints for managing Shared Space Templates
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Shared Space Templates
   name: Showpad Shared Space Templates API
   slug: showpad-shared-space-templates-api
-- description: These are endpoints for managing Shared Spaces
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Shared Spaces
   name: Showpad Shared Spaces API
   slug: showpad-shared-spaces-api
-- description: These are endpoints for managing Shared Spaces Quick Actions
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Shared Spaces Quick Actions
   name: Showpad Shared Spaces Quick Actions API
   slug: showpad-shared-spaces-quick-actions-api
-- description: These are endpoints for managing Shares
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Shares
   name: Showpad Shares API
   slug: showpad-shares-api
-- description: These are endpoints for managing Tag Categories.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Tag Categories.
   name: Showpad Tag Categories API
   slug: showpad-tag-categories-api
-- description: The tags API from Showpad — 12 operation(s) for tags.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The tags API from Showpad — 12 operation(s) for tags.
   name: Showpad Tags API
   slug: showpad-tags-api
-- description: These are endpoints for managing Themes
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: These are endpoints for managing Themes
   name: Showpad Themes API
   slug: showpad-themes-api
-- description: The tickets API from Showpad — 9 operation(s) for tickets.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The tickets API from Showpad — 9 operation(s) for tickets.
   name: Showpad Tickets API
   slug: showpad-tickets-api
-- description: The usergroups API from Showpad — 14 operation(s) for usergroups.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The usergroups API from Showpad — 14 operation(s) for usergroups.
   name: Showpad Usergroups API
   slug: showpad-usergroups-api
-- description: The userpermissions API from Showpad — 6 operation(s) for userpermissions.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The userpermissions API from Showpad — 6 operation(s) for userpermissions.
   name: Showpad Userpermissions API
   slug: showpad-userpermissions-api
-- description: The users API from Showpad — 22 operation(s) for users.
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The users API from Showpad — 22 operation(s) for users.
   name: Showpad Users API
   slug: showpad-users-api
 artifact_total: 35
@@ -355,7 +399,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -365,7 +409,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 63.5
+  previous_composite: 63.3
   provenance:
     conformance: first-party
     contracts:
@@ -376,7 +420,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/screenshots/showpad-2026-06-20T193845.png
 security:

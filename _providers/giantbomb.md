@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: Access to character data
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to character data
   name: Giant Bomb Characters API
   slug: giantbomb-characters-api
-- description: Access to company data
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to company data
   name: Giant Bomb Companies API
   slug: giantbomb-companies-api
-- description: Access to franchise data
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to franchise data
   name: Giant Bomb Franchises API
   slug: giantbomb-franchises-api
-- description: Access to video game data
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to video game data
   name: Giant Bomb Games API
   slug: giantbomb-games-api
-- description: Access to platform data
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to platform data
   name: Giant Bomb Platforms API
   slug: giantbomb-platforms-api
-- description: Access to game release data
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to game release data
   name: Giant Bomb Releases API
   slug: giantbomb-releases-api
-- description: Access to game reviews
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to game reviews
   name: Giant Bomb Reviews API
   slug: giantbomb-reviews-api
-- description: Search across all resources
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Search across all resources
   name: Giant Bomb Search API
   slug: giantbomb-search-api
-- description: Access to videos
+- baseURL: https://www.giantbomb.com/api
+  baseurl_source: declared
+  description: Access to videos
   name: Giant Bomb Videos API
   slug: giantbomb-videos-api
 artifact_total: 30
@@ -242,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giantbomb/refs/heads/main/screenshots/giantbomb-2026-08-17T080951.png
 security:

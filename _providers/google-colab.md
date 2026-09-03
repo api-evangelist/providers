@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: The Colab Enterprise API on Google Cloud provides managed notebook runtimes integrated with Vertex AI. It enables creating and managing notebook execution schedules, runtime templates, and managed run
   name: Colab Enterprise API
   slug: colab-enterprise-api
-- description: Notebook file operations
+- baseURL: https://www.googleapis.com/drive/v3
+  baseurl_source: declared
+  description: Notebook file operations
   name: Google Colab Files API
   slug: google-colab-files-api
-- description: Sharing and access control
+- baseURL: https://www.googleapis.com/drive/v3
+  baseurl_source: declared
+  description: Sharing and access control
   name: Google Colab Permissions API
   slug: google-colab-permissions-api
 artifact_total: 19
@@ -203,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/screenshots/google-colab-2026-06-20T182152.png
 security:

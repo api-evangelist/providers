@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,43 +44,65 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 1
 apis:
-- description: REST API for creating and managing Bitcoin payment charges. Supports both on-chain Bitcoin and Lightning Network BOLT11 invoices. Merchants create a charge with an amount and currency, and OpenNode re
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: REST API for creating and managing Bitcoin payment charges. Supports both on-chain Bitcoin and Lightning Network BOLT11 invoices. Merchants create a charge with an amount and currency, and OpenNode re
   name: OpenNode Charges API
   slug: opennode-charges-api
-- description: 'REST API for initiating Bitcoin withdrawals and payouts to on-chain addresses or Lightning Network invoices. Enables businesses to pay contractors, execute payroll, or send payouts to users. Supports '
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: 'REST API for initiating Bitcoin withdrawals and payouts to on-chain addresses or Lightning Network invoices. Enables businesses to pay contractors, execute payroll, or send payouts to users. Supports '
   name: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
-- description: REST API for creating and managing Bitcoin payment refunds. Allows merchants to issue full or partial refunds for charges back to the original payer's Bitcoin or Lightning address. Supports listing an
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: REST API for creating and managing Bitcoin payment refunds. Allows merchants to issue full or partial refunds for charges back to the original payer's Bitcoin or Lightning address. Supports listing an
   name: OpenNode Refunds API
   slug: opennode-refunds-api
 - description: REST API for initiating Bitcoin exchange operations, enabling merchants to convert between Bitcoin and local currencies. Supports automatic conversion at the time of payment with exchange rates locked
   name: OpenNode Exchanges API
   slug: opennode-exchanges-api
-- description: REST API for retrieving account balance, transaction activity, and managing scheduled bank withdrawals. Provides a unified view of Bitcoin holdings, fiat settlements, and transaction history for the a
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: REST API for retrieving account balance, transaction activity, and managing scheduled bank withdrawals. Provides a unified view of Bitcoin holdings, fiat settlements, and transaction history for the a
   name: OpenNode Account API
   slug: opennode-account-api
-- description: REST API for creating and managing static on-chain Bitcoin addresses and static Lightning Network addresses via LNURL-Pay. Static addresses allow merchants to accept Bitcoin payments at a fixed addres
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: REST API for creating and managing static on-chain Bitcoin addresses and static Lightning Network addresses via LNURL-Pay. Static addresses allow merchants to accept Bitcoin payments at a fixed addres
   name: OpenNode Static Addresses API
   slug: opennode-static-addresses-api
 - description: REST API for retrieving real-time Bitcoin exchange rates across supported fiat currencies and listing all currencies supported by the OpenNode platform. Useful for displaying prices in local currency,
   name: OpenNode Rates and Currencies API
   slug: opennode-rates-and-currencies-api
-- description: Account balance and transaction activity
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: Account balance and transaction activity
   name: OpenNode Account API
   slug: opennode-account-api
-- description: Create and manage Bitcoin payment charges
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: Create and manage Bitcoin payment charges
   name: OpenNode Charges API
   slug: opennode-charges-api
-- description: Bitcoin exchange rates and supported currencies
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: Bitcoin exchange rates and supported currencies
   name: OpenNode Rates API
   slug: opennode-rates-api
-- description: Create and manage payment refunds
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: Create and manage payment refunds
   name: OpenNode Refunds API
   slug: opennode-refunds-api
-- description: Static on-chain and Lightning Network addresses
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: Static on-chain and Lightning Network addresses
   name: OpenNode Static Addresses API
   slug: opennode-static-addresses-api
-- description: Initiate Bitcoin withdrawals and payouts
+- baseURL: https://api.opennode.com
+  baseurl_source: declared
+  description: Initiate Bitcoin withdrawals and payouts
   name: OpenNode Withdrawals API
   slug: opennode-withdrawals-api
 artifact_total: 34
@@ -251,7 +273,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -261,7 +283,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 56.6
-  previous_composite: 45.5
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -276,7 +298,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opennode/refs/heads/main/screenshots/opennode-2026-06-20T191018.png
 security:

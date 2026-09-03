@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,7 +51,9 @@ apis:
 - description: Turquoise's open library of Standard Service Packages, which gather all medical services, materials and fees associated with a healthcare procedure and represent them as a single standardized code. SS
   name: Standard Service Packages (SSP)
   slug: standard-service-packages-ssp
-- description: The Consumer Pricing API from Turquoise Health — 15 operation(s) for consumer pricing.
+- baseURL: https://api.turquoise.health
+  baseurl_source: declared
+  description: The Consumer Pricing API from Turquoise Health — 15 operation(s) for consumer pricing.
   name: Turquoise Health Consumer Pricing API
   slug: turquoise-health-consumer-pricing-api
 artifact_total: 13
@@ -282,7 +284,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/screenshots/turquoise-health-2026-08-17T082500.png
 security:

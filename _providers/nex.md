@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 61 operations · 38 acting
 api_count: 1
 apis:
-- description: The AI Lists API from Nex — 2 operation(s) for ai lists.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The AI Lists API from Nex — 2 operation(s) for ai lists.
   name: Nex AI Lists API
   slug: nex-ai-lists-api
-- description: The Compounding API from Nex — 2 operation(s) for compounding.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Compounding API from Nex — 2 operation(s) for compounding.
   name: Nex Compounding API
   slug: nex-compounding-api
-- description: The Context API from Nex — 3 operation(s) for context.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Context API from Nex — 3 operation(s) for context.
   name: Nex Context API
   slug: nex-context-api
-- description: The Graph API from Nex — 1 operation(s) for graph.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Graph API from Nex — 1 operation(s) for graph.
   name: Nex Graph API
   slug: nex-graph-api
-- description: The Insights API from Nex — 2 operation(s) for insights.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Insights API from Nex — 2 operation(s) for insights.
   name: Nex Insights API
   slug: nex-insights-api
-- description: The Integrations API from Nex — 4 operation(s) for integrations.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Integrations API from Nex — 4 operation(s) for integrations.
   name: Nex Integrations API
   slug: nex-integrations-api
-- description: The Lists API from Nex — 4 operation(s) for lists.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Lists API from Nex — 4 operation(s) for lists.
   name: Nex Lists API
   slug: nex-lists-api
-- description: The Notes API from Nex — 2 operation(s) for notes.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Notes API from Nex — 2 operation(s) for notes.
   name: Nex Notes API
   slug: nex-notes-api
-- description: The Notifications API from Nex — 4 operation(s) for notifications.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Notifications API from Nex — 4 operation(s) for notifications.
   name: Nex Notifications API
   slug: nex-notifications-api
-- description: The Objects API from Nex — 1 operation(s) for objects.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Objects API from Nex — 1 operation(s) for objects.
   name: Nex Objects API
   slug: nex-objects-api
-- description: The Records API from Nex — 3 operation(s) for records.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Records API from Nex — 3 operation(s) for records.
   name: Nex Records API
   slug: nex-records-api
-- description: The Relationships API from Nex — 4 operation(s) for relationships.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Relationships API from Nex — 4 operation(s) for relationships.
   name: Nex Relationships API
   slug: nex-relationships-api
-- description: The Schema API from Nex — 4 operation(s) for schema.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Schema API from Nex — 4 operation(s) for schema.
   name: Nex Schema API
   slug: nex-schema-api
-- description: The Search API from Nex — 1 operation(s) for search.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Search API from Nex — 1 operation(s) for search.
   name: Nex Search API
   slug: nex-search-api
-- description: The Tasks API from Nex — 2 operation(s) for tasks.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Tasks API from Nex — 2 operation(s) for tasks.
   name: Nex Tasks API
   slug: nex-tasks-api
-- description: The Timeline API from Nex — 1 operation(s) for timeline.
+- baseURL: https://app.nex.ai/api/developers
+  baseurl_source: declared
+  description: The Timeline API from Nex — 1 operation(s) for timeline.
   name: Nex Timeline API
   slug: nex-timeline-api
 artifact_total: 38
@@ -305,7 +337,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/screenshots/nex-2026-08-07T185140.png
 security:

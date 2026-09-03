@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -43,223 +43,369 @@ agentic_access:
   summary_line: 73 operations · 73 acting
 api_count: 73
 apis:
-- description: The BatchUpdateRule API from Amazon VPC Lattice — 1 operation(s) for batchupdaterule.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The BatchUpdateRule API from Amazon VPC Lattice — 1 operation(s) for batchupdaterule.
   name: Amazon VPC Lattice BatchUpdateRule API
   slug: amazon-vpc-lattice-batchupdaterule-api
-- description: The CreateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for createaccesslogsubscription.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for createaccesslogsubscription.
   name: Amazon VPC Lattice CreateAccessLogSubscription API
   slug: amazon-vpc-lattice-createaccesslogsubscription-api
-- description: The CreateListener API from Amazon VPC Lattice — 1 operation(s) for createlistener.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateListener API from Amazon VPC Lattice — 1 operation(s) for createlistener.
   name: Amazon VPC Lattice CreateListener API
   slug: amazon-vpc-lattice-createlistener-api
-- description: The CreateResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for createresourceconfiguration.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for createresourceconfiguration.
   name: Amazon VPC Lattice CreateResourceConfiguration API
   slug: amazon-vpc-lattice-createresourceconfiguration-api
-- description: The CreateResourceGateway API from Amazon VPC Lattice — 1 operation(s) for createresourcegateway.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateResourceGateway API from Amazon VPC Lattice — 1 operation(s) for createresourcegateway.
   name: Amazon VPC Lattice CreateResourceGateway API
   slug: amazon-vpc-lattice-createresourcegateway-api
-- description: The CreateRule API from Amazon VPC Lattice — 1 operation(s) for createrule.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateRule API from Amazon VPC Lattice — 1 operation(s) for createrule.
   name: Amazon VPC Lattice CreateRule API
   slug: amazon-vpc-lattice-createrule-api
-- description: The CreateService API from Amazon VPC Lattice — 1 operation(s) for createservice.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateService API from Amazon VPC Lattice — 1 operation(s) for createservice.
   name: Amazon VPC Lattice CreateService API
   slug: amazon-vpc-lattice-createservice-api
-- description: The CreateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for createservicenetwork.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for createservicenetwork.
   name: Amazon VPC Lattice CreateServiceNetwork API
   slug: amazon-vpc-lattice-createservicenetwork-api
-- description: The CreateServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkresourceassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkresourceassociation.
   name: Amazon VPC Lattice CreateServiceNetworkResourceAssociation API
   slug: amazon-vpc-lattice-createservicenetworkresourceassociation-api
-- description: The CreateServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkserviceassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkserviceassociation.
   name: Amazon VPC Lattice CreateServiceNetworkServiceAssociation API
   slug: amazon-vpc-lattice-createservicenetworkserviceassociation-api
-- description: The CreateServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkvpcassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkvpcassociation.
   name: Amazon VPC Lattice CreateServiceNetworkVpcAssociation API
   slug: amazon-vpc-lattice-createservicenetworkvpcassociation-api
-- description: The CreateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for createtargetgroup.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The CreateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for createtargetgroup.
   name: Amazon VPC Lattice CreateTargetGroup API
   slug: amazon-vpc-lattice-createtargetgroup-api
-- description: The DeleteAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for deleteaccesslogsubscription.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for deleteaccesslogsubscription.
   name: Amazon VPC Lattice DeleteAccessLogSubscription API
   slug: amazon-vpc-lattice-deleteaccesslogsubscription-api
-- description: The DeleteAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for deleteauthpolicy.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for deleteauthpolicy.
   name: Amazon VPC Lattice DeleteAuthPolicy API
   slug: amazon-vpc-lattice-deleteauthpolicy-api
-- description: The DeleteDomainVerification API from Amazon VPC Lattice — 1 operation(s) for deletedomainverification.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteDomainVerification API from Amazon VPC Lattice — 1 operation(s) for deletedomainverification.
   name: Amazon VPC Lattice DeleteDomainVerification API
   slug: amazon-vpc-lattice-deletedomainverification-api
-- description: The DeleteListener API from Amazon VPC Lattice — 1 operation(s) for deletelistener.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteListener API from Amazon VPC Lattice — 1 operation(s) for deletelistener.
   name: Amazon VPC Lattice DeleteListener API
   slug: amazon-vpc-lattice-deletelistener-api
-- description: The DeleteResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for deleteresourceconfiguration.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for deleteresourceconfiguration.
   name: Amazon VPC Lattice DeleteResourceConfiguration API
   slug: amazon-vpc-lattice-deleteresourceconfiguration-api
-- description: The DeleteResourceEndpointAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteresourceendpointassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteResourceEndpointAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteresourceendpointassociation.
   name: Amazon VPC Lattice DeleteResourceEndpointAssociation API
   slug: amazon-vpc-lattice-deleteresourceendpointassociation-api
-- description: The DeleteResourceGateway API from Amazon VPC Lattice — 1 operation(s) for deleteresourcegateway.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteResourceGateway API from Amazon VPC Lattice — 1 operation(s) for deleteresourcegateway.
   name: Amazon VPC Lattice DeleteResourceGateway API
   slug: amazon-vpc-lattice-deleteresourcegateway-api
-- description: The DeleteResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for deleteresourcepolicy.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for deleteresourcepolicy.
   name: Amazon VPC Lattice DeleteResourcePolicy API
   slug: amazon-vpc-lattice-deleteresourcepolicy-api
-- description: The DeleteRule API from Amazon VPC Lattice — 1 operation(s) for deleterule.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteRule API from Amazon VPC Lattice — 1 operation(s) for deleterule.
   name: Amazon VPC Lattice DeleteRule API
   slug: amazon-vpc-lattice-deleterule-api
-- description: The DeleteService API from Amazon VPC Lattice — 1 operation(s) for deleteservice.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteService API from Amazon VPC Lattice — 1 operation(s) for deleteservice.
   name: Amazon VPC Lattice DeleteService API
   slug: amazon-vpc-lattice-deleteservice-api
-- description: The DeleteServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetwork.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetwork.
   name: Amazon VPC Lattice DeleteServiceNetwork API
   slug: amazon-vpc-lattice-deleteservicenetwork-api
-- description: The DeleteServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkresourceassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkresourceassociation.
   name: Amazon VPC Lattice DeleteServiceNetworkResourceAssociation API
   slug: amazon-vpc-lattice-deleteservicenetworkresourceassociation-api
-- description: The DeleteServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkserviceassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkserviceassociation.
   name: Amazon VPC Lattice DeleteServiceNetworkServiceAssociation API
   slug: amazon-vpc-lattice-deleteservicenetworkserviceassociation-api
-- description: The DeleteServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkvpcassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkvpcassociation.
   name: Amazon VPC Lattice DeleteServiceNetworkVpcAssociation API
   slug: amazon-vpc-lattice-deleteservicenetworkvpcassociation-api
-- description: The DeleteTargetGroup API from Amazon VPC Lattice — 1 operation(s) for deletetargetgroup.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteTargetGroup API from Amazon VPC Lattice — 1 operation(s) for deletetargetgroup.
   name: Amazon VPC Lattice DeleteTargetGroup API
   slug: amazon-vpc-lattice-deletetargetgroup-api
-- description: The DeregisterTargets API from Amazon VPC Lattice — 1 operation(s) for deregistertargets.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The DeregisterTargets API from Amazon VPC Lattice — 1 operation(s) for deregistertargets.
   name: Amazon VPC Lattice DeregisterTargets API
   slug: amazon-vpc-lattice-deregistertargets-api
-- description: The GetAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for getaccesslogsubscription.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for getaccesslogsubscription.
   name: Amazon VPC Lattice GetAccessLogSubscription API
   slug: amazon-vpc-lattice-getaccesslogsubscription-api
-- description: The GetAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for getauthpolicy.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for getauthpolicy.
   name: Amazon VPC Lattice GetAuthPolicy API
   slug: amazon-vpc-lattice-getauthpolicy-api
-- description: The GetDomainVerification API from Amazon VPC Lattice — 1 operation(s) for getdomainverification.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetDomainVerification API from Amazon VPC Lattice — 1 operation(s) for getdomainverification.
   name: Amazon VPC Lattice GetDomainVerification API
   slug: amazon-vpc-lattice-getdomainverification-api
-- description: The GetListener API from Amazon VPC Lattice — 1 operation(s) for getlistener.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetListener API from Amazon VPC Lattice — 1 operation(s) for getlistener.
   name: Amazon VPC Lattice GetListener API
   slug: amazon-vpc-lattice-getlistener-api
-- description: The GetResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for getresourceconfiguration.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for getresourceconfiguration.
   name: Amazon VPC Lattice GetResourceConfiguration API
   slug: amazon-vpc-lattice-getresourceconfiguration-api
-- description: The GetResourceGateway API from Amazon VPC Lattice — 1 operation(s) for getresourcegateway.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetResourceGateway API from Amazon VPC Lattice — 1 operation(s) for getresourcegateway.
   name: Amazon VPC Lattice GetResourceGateway API
   slug: amazon-vpc-lattice-getresourcegateway-api
-- description: The GetResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for getresourcepolicy.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for getresourcepolicy.
   name: Amazon VPC Lattice GetResourcePolicy API
   slug: amazon-vpc-lattice-getresourcepolicy-api
-- description: The GetRule API from Amazon VPC Lattice — 1 operation(s) for getrule.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetRule API from Amazon VPC Lattice — 1 operation(s) for getrule.
   name: Amazon VPC Lattice GetRule API
   slug: amazon-vpc-lattice-getrule-api
-- description: The GetService API from Amazon VPC Lattice — 1 operation(s) for getservice.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetService API from Amazon VPC Lattice — 1 operation(s) for getservice.
   name: Amazon VPC Lattice GetService API
   slug: amazon-vpc-lattice-getservice-api
-- description: The GetServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for getservicenetwork.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for getservicenetwork.
   name: Amazon VPC Lattice GetServiceNetwork API
   slug: amazon-vpc-lattice-getservicenetwork-api
-- description: The GetServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkresourceassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkresourceassociation.
   name: Amazon VPC Lattice GetServiceNetworkResourceAssociation API
   slug: amazon-vpc-lattice-getservicenetworkresourceassociation-api
-- description: The GetServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkserviceassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkserviceassociation.
   name: Amazon VPC Lattice GetServiceNetworkServiceAssociation API
   slug: amazon-vpc-lattice-getservicenetworkserviceassociation-api
-- description: The GetServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkvpcassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkvpcassociation.
   name: Amazon VPC Lattice GetServiceNetworkVpcAssociation API
   slug: amazon-vpc-lattice-getservicenetworkvpcassociation-api
-- description: The GetTargetGroup API from Amazon VPC Lattice — 1 operation(s) for gettargetgroup.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The GetTargetGroup API from Amazon VPC Lattice — 1 operation(s) for gettargetgroup.
   name: Amazon VPC Lattice GetTargetGroup API
   slug: amazon-vpc-lattice-gettargetgroup-api
-- description: The ListAccessLogSubscriptions API from Amazon VPC Lattice — 1 operation(s) for listaccesslogsubscriptions.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListAccessLogSubscriptions API from Amazon VPC Lattice — 1 operation(s) for listaccesslogsubscriptions.
   name: Amazon VPC Lattice ListAccessLogSubscriptions API
   slug: amazon-vpc-lattice-listaccesslogsubscriptions-api
-- description: The ListDomainVerifications API from Amazon VPC Lattice — 1 operation(s) for listdomainverifications.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListDomainVerifications API from Amazon VPC Lattice — 1 operation(s) for listdomainverifications.
   name: Amazon VPC Lattice ListDomainVerifications API
   slug: amazon-vpc-lattice-listdomainverifications-api
-- description: The ListListeners API from Amazon VPC Lattice — 1 operation(s) for listlisteners.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListListeners API from Amazon VPC Lattice — 1 operation(s) for listlisteners.
   name: Amazon VPC Lattice ListListeners API
   slug: amazon-vpc-lattice-listlisteners-api
-- description: The ListResourceConfigurations API from Amazon VPC Lattice — 1 operation(s) for listresourceconfigurations.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListResourceConfigurations API from Amazon VPC Lattice — 1 operation(s) for listresourceconfigurations.
   name: Amazon VPC Lattice ListResourceConfigurations API
   slug: amazon-vpc-lattice-listresourceconfigurations-api
-- description: The ListResourceEndpointAssociations API from Amazon VPC Lattice — 1 operation(s) for listresourceendpointassociations.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListResourceEndpointAssociations API from Amazon VPC Lattice — 1 operation(s) for listresourceendpointassociations.
   name: Amazon VPC Lattice ListResourceEndpointAssociations API
   slug: amazon-vpc-lattice-listresourceendpointassociations-api
-- description: The ListResourceGateways API from Amazon VPC Lattice — 1 operation(s) for listresourcegateways.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListResourceGateways API from Amazon VPC Lattice — 1 operation(s) for listresourcegateways.
   name: Amazon VPC Lattice ListResourceGateways API
   slug: amazon-vpc-lattice-listresourcegateways-api
-- description: The ListRules API from Amazon VPC Lattice — 1 operation(s) for listrules.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListRules API from Amazon VPC Lattice — 1 operation(s) for listrules.
   name: Amazon VPC Lattice ListRules API
   slug: amazon-vpc-lattice-listrules-api
-- description: The ListServiceNetworkResourceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkresourceassociations.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListServiceNetworkResourceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkresourceassociations.
   name: Amazon VPC Lattice ListServiceNetworkResourceAssociations API
   slug: amazon-vpc-lattice-listservicenetworkresourceassociations-api
-- description: The ListServiceNetworks API from Amazon VPC Lattice — 1 operation(s) for listservicenetworks.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListServiceNetworks API from Amazon VPC Lattice — 1 operation(s) for listservicenetworks.
   name: Amazon VPC Lattice ListServiceNetworks API
   slug: amazon-vpc-lattice-listservicenetworks-api
-- description: The ListServiceNetworkServiceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkserviceassociations.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListServiceNetworkServiceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkserviceassociations.
   name: Amazon VPC Lattice ListServiceNetworkServiceAssociations API
   slug: amazon-vpc-lattice-listservicenetworkserviceassociations-api
-- description: The ListServiceNetworkVpcAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkvpcassociations.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListServiceNetworkVpcAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkvpcassociations.
   name: Amazon VPC Lattice ListServiceNetworkVpcAssociations API
   slug: amazon-vpc-lattice-listservicenetworkvpcassociations-api
-- description: The ListServiceNetworkVpcEndpointAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkvpcendpointassociations.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListServiceNetworkVpcEndpointAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkvpcendpointassociations.
   name: Amazon VPC Lattice ListServiceNetworkVpcEndpointAssociations API
   slug: amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api
-- description: The ListServices API from Amazon VPC Lattice — 1 operation(s) for listservices.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListServices API from Amazon VPC Lattice — 1 operation(s) for listservices.
   name: Amazon VPC Lattice ListServices API
   slug: amazon-vpc-lattice-listservices-api
-- description: The ListTagsForResource API from Amazon VPC Lattice — 1 operation(s) for listtagsforresource.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForResource API from Amazon VPC Lattice — 1 operation(s) for listtagsforresource.
   name: Amazon VPC Lattice ListTagsForResource API
   slug: amazon-vpc-lattice-listtagsforresource-api
-- description: The ListTargetGroups API from Amazon VPC Lattice — 1 operation(s) for listtargetgroups.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListTargetGroups API from Amazon VPC Lattice — 1 operation(s) for listtargetgroups.
   name: Amazon VPC Lattice ListTargetGroups API
   slug: amazon-vpc-lattice-listtargetgroups-api
-- description: The ListTargets API from Amazon VPC Lattice — 1 operation(s) for listtargets.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The ListTargets API from Amazon VPC Lattice — 1 operation(s) for listtargets.
   name: Amazon VPC Lattice ListTargets API
   slug: amazon-vpc-lattice-listtargets-api
-- description: The PutAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for putauthpolicy.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The PutAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for putauthpolicy.
   name: Amazon VPC Lattice PutAuthPolicy API
   slug: amazon-vpc-lattice-putauthpolicy-api
-- description: The PutResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for putresourcepolicy.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The PutResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for putresourcepolicy.
   name: Amazon VPC Lattice PutResourcePolicy API
   slug: amazon-vpc-lattice-putresourcepolicy-api
-- description: The RegisterTargets API from Amazon VPC Lattice — 1 operation(s) for registertargets.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The RegisterTargets API from Amazon VPC Lattice — 1 operation(s) for registertargets.
   name: Amazon VPC Lattice RegisterTargets API
   slug: amazon-vpc-lattice-registertargets-api
-- description: The StartDomainVerification API from Amazon VPC Lattice — 1 operation(s) for startdomainverification.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The StartDomainVerification API from Amazon VPC Lattice — 1 operation(s) for startdomainverification.
   name: Amazon VPC Lattice StartDomainVerification API
   slug: amazon-vpc-lattice-startdomainverification-api
-- description: The TagResource API from Amazon VPC Lattice — 1 operation(s) for tagresource.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from Amazon VPC Lattice — 1 operation(s) for tagresource.
   name: Amazon VPC Lattice TagResource API
   slug: amazon-vpc-lattice-tagresource-api
-- description: The UntagResource API from Amazon VPC Lattice — 1 operation(s) for untagresource.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from Amazon VPC Lattice — 1 operation(s) for untagresource.
   name: Amazon VPC Lattice UntagResource API
   slug: amazon-vpc-lattice-untagresource-api
-- description: The UpdateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for updateaccesslogsubscription.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for updateaccesslogsubscription.
   name: Amazon VPC Lattice UpdateAccessLogSubscription API
   slug: amazon-vpc-lattice-updateaccesslogsubscription-api
-- description: The UpdateListener API from Amazon VPC Lattice — 1 operation(s) for updatelistener.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateListener API from Amazon VPC Lattice — 1 operation(s) for updatelistener.
   name: Amazon VPC Lattice UpdateListener API
   slug: amazon-vpc-lattice-updatelistener-api
-- description: The UpdateResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for updateresourceconfiguration.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for updateresourceconfiguration.
   name: Amazon VPC Lattice UpdateResourceConfiguration API
   slug: amazon-vpc-lattice-updateresourceconfiguration-api
-- description: The UpdateResourceGateway API from Amazon VPC Lattice — 1 operation(s) for updateresourcegateway.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateResourceGateway API from Amazon VPC Lattice — 1 operation(s) for updateresourcegateway.
   name: Amazon VPC Lattice UpdateResourceGateway API
   slug: amazon-vpc-lattice-updateresourcegateway-api
-- description: The UpdateRule API from Amazon VPC Lattice — 1 operation(s) for updaterule.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateRule API from Amazon VPC Lattice — 1 operation(s) for updaterule.
   name: Amazon VPC Lattice UpdateRule API
   slug: amazon-vpc-lattice-updaterule-api
-- description: The UpdateService API from Amazon VPC Lattice — 1 operation(s) for updateservice.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateService API from Amazon VPC Lattice — 1 operation(s) for updateservice.
   name: Amazon VPC Lattice UpdateService API
   slug: amazon-vpc-lattice-updateservice-api
-- description: The UpdateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for updateservicenetwork.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for updateservicenetwork.
   name: Amazon VPC Lattice UpdateServiceNetwork API
   slug: amazon-vpc-lattice-updateservicenetwork-api
-- description: The UpdateServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for updateservicenetworkvpcassociation.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for updateservicenetworkvpcassociation.
   name: Amazon VPC Lattice UpdateServiceNetworkVpcAssociation API
   slug: amazon-vpc-lattice-updateservicenetworkvpcassociation-api
-- description: The UpdateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for updatetargetgroup.
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for updatetargetgroup.
   name: Amazon VPC Lattice UpdateTargetGroup API
   slug: amazon-vpc-lattice-updatetargetgroup-api
 artifact_total: 161
@@ -643,7 +789,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/screenshots/amazon-vpc-lattice-2026-06-20T171847.png
 security:

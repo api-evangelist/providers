@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 32 operations · 20 acting
 api_count: 1
 apis:
-- description: Obtain access tokens for API authentication
+- baseURL: https://api.papayaglobal.com/api/v1
+  baseurl_source: declared
+  description: Obtain access tokens for API authentication
   name: Papaya Global Authentication API
   slug: papaya-global-authentication-api
-- description: Manage payment recipients including individuals and organizations
+- baseURL: https://api.papayaglobal.com/api/v1
+  baseurl_source: declared
+  description: Manage payment recipients including individuals and organizations
   name: Papaya Global Beneficiaries API
   slug: papaya-global-beneficiaries-api
-- description: Manage payment groups to consolidate payment requests
+- baseURL: https://api.papayaglobal.com/api/v1
+  baseurl_source: declared
+  description: Manage payment groups to consolidate payment requests
   name: Papaya Global Groups API
   slug: papaya-global-groups-api
-- description: Manage payment instructions and execution
+- baseURL: https://api.papayaglobal.com/api/v1
+  baseurl_source: declared
+  description: Manage payment instructions and execution
   name: Papaya Global Payments API
   slug: papaya-global-payments-api
-- description: Manage organizational wallets for payment funding
+- baseURL: https://api.papayaglobal.com/api/v1
+  baseurl_source: declared
+  description: Manage organizational wallets for payment funding
   name: Papaya Global Wallets API
   slug: papaya-global-wallets-api
 artifact_total: 25
@@ -233,7 +243,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/screenshots/papaya-global-2026-06-20T191348.png
 security:

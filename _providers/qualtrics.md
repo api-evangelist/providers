@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 10 acting
 api_count: 3
 apis:
-- description: The automations API from Qualtrics — 1 operation(s) for automations.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The automations API from Qualtrics — 1 operation(s) for automations.
   name: Qualtrics automations API
   slug: qualtrics-automations-api
-- description: The Directories API from Qualtrics — 1 operation(s) for directories.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The Directories API from Qualtrics — 1 operation(s) for directories.
   name: Qualtrics Directories API
   slug: qualtrics-directories-api
-- description: The Distributions API from Qualtrics — 2 operation(s) for distributions.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The Distributions API from Qualtrics — 2 operation(s) for distributions.
   name: Qualtrics Distributions API
   slug: qualtrics-distributions-api
-- description: The Eventsubscriptions API from Qualtrics — 3 operation(s) for eventsubscriptions.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The Eventsubscriptions API from Qualtrics — 3 operation(s) for eventsubscriptions.
   name: Qualtrics Eventsubscriptions API
   slug: qualtrics-eventsubscriptions-api
-- description: The file API from Qualtrics — 3 operation(s) for file.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The file API from Qualtrics — 3 operation(s) for file.
   name: Qualtrics file API
   slug: qualtrics-file-api
-- description: The files API from Qualtrics — 1 operation(s) for files.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The files API from Qualtrics — 1 operation(s) for files.
   name: Qualtrics files API
   slug: qualtrics-files-api
-- description: The Survey Definitions API from Qualtrics — 2 operation(s) for survey definitions.
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The Survey Definitions API from Qualtrics — 2 operation(s) for survey definitions.
   name: Qualtrics Survey Definitions API
   slug: qualtrics-survey-definitions-api
 artifact_total: 34
@@ -256,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/screenshots/qualtrics-2026-06-20T192401.png
 security:

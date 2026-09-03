@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Fish Audio API provides RESTful access to text-to-speech, speech-to-text, voice cloning, and voice management capabilities backed by the Fish Audio S2-Pro model. Endpoints support streaming low-la
   name: Fish Audio API
   slug: fish-audio-api
-- description: The Asr API from Fish Audio — 1 operation(s) for asr.
+- baseURL: https://api.fish.audio
+  baseurl_source: declared
+  description: The Asr API from Fish Audio — 1 operation(s) for asr.
   name: Fish Audio Asr API
   slug: fish-audio-asr-api
-- description: The Model API from Fish Audio — 2 operation(s) for model.
+- baseURL: https://api.fish.audio
+  baseurl_source: declared
+  description: The Model API from Fish Audio — 2 operation(s) for model.
   name: Fish Audio Model API
   slug: fish-audio-model-api
-- description: The Tts API from Fish Audio — 2 operation(s) for tts.
+- baseURL: https://api.fish.audio
+  baseurl_source: declared
+  description: The Tts API from Fish Audio — 2 operation(s) for tts.
   name: Fish Audio Tts API
   slug: fish-audio-tts-api
-- description: The Wallet API from Fish Audio — 2 operation(s) for wallet.
+- baseURL: https://api.fish.audio
+  baseurl_source: declared
+  description: The Wallet API from Fish Audio — 2 operation(s) for wallet.
   name: Fish Audio Wallet API
   slug: fish-audio-wallet-api
 artifact_total: 17
@@ -184,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fish-audio/refs/heads/main/screenshots/fish-audio-2026-06-20T181249.png
 security:

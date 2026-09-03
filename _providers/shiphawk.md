@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: ShipHawk's public REST API. Key-based authentication (X-Api-Key header or api_key query parameter), JSON request and response bodies, POST used for both create and update (no PUT/PATCH). Resources cov
@@ -171,11 +184,11 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -185,7 +198,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.9
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -196,8 +209,9 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shiphawk/refs/heads/main/screenshots/shiphawk-2026-09-02T155221.png
 security:
 - kind: authentication
   name: Shiphawk Authentication

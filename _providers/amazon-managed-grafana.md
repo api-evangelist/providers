@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 19 operations · 12 acting
 api_count: 1
 apis:
-- description: The Tags API from Amazon Managed Grafana — 2 operation(s) for tags.
+- baseURL: https://grafana.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Managed Grafana — 2 operation(s) for tags.
   name: Amazon Managed Grafana Tags API
   slug: amazon-managed-grafana-tags-api
-- description: The Versions API from Amazon Managed Grafana — 1 operation(s) for versions.
+- baseURL: https://grafana.amazonaws.com
+  baseurl_source: declared
+  description: The Versions API from Amazon Managed Grafana — 1 operation(s) for versions.
   name: Amazon Managed Grafana Versions API
   slug: amazon-managed-grafana-versions-api
-- description: The Workspaces API from Amazon Managed Grafana — 8 operation(s) for workspaces.
+- baseURL: https://grafana.amazonaws.com
+  baseurl_source: declared
+  description: The Workspaces API from Amazon Managed Grafana — 8 operation(s) for workspaces.
   name: Amazon Managed Grafana Workspaces API
   slug: amazon-managed-grafana-workspaces-api
 artifact_total: 414
@@ -1395,7 +1401,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/screenshots/amazon-managed-grafana-2026-06-20T171733.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 9 operations · 6 acting
 api_count: 1
 apis:
-- description: Baskets are containers of JSON data within a pantry
+- baseURL: https://getpantry.cloud/apiv1
+  baseurl_source: spec
+  description: Baskets are containers of JSON data within a pantry
   name: Pantry Basket API
   slug: pantry-basket-api
-- description: Pantry account (account-level operations)
+- baseURL: https://getpantry.cloud/apiv1
+  baseurl_source: spec
+  description: Pantry account (account-level operations)
   name: Pantry Pantry API
   slug: pantry-pantry-api
 artifact_total: 15
@@ -193,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/screenshots/pantry-2026-06-20T191358.png
 security:

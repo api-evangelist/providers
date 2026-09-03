@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Feeds API from Slashdot — 8 operation(s) for feeds.
+- baseURL: https://rss.slashdot.org
+  baseurl_source: spec
+  description: The Feeds API from Slashdot — 8 operation(s) for feeds.
   name: Slashdot Feeds API
   slug: slashdot-feeds-api
 artifact_total: 18
@@ -232,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/screenshots/slashdot-2026-06-20T194022.png
 security:

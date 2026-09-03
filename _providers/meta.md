@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -92,13 +92,19 @@ apis:
 - description: Access Meta's Llama large language models including Llama 4 and Llama 3 family for building AI-powered applications via a hosted API.
   name: Meta Llama API
   slug: llama-api
-- description: Manage user membership in custom audiences
+- baseURL: https://graph.facebook.com/v22.0
+  baseurl_source: spec
+  description: Manage user membership in custom audiences
   name: Meta Custom Audiences API
   slug: meta-custom-audiences-api
-- description: Page-related user operations
+- baseURL: https://graph.facebook.com/v22.0
+  baseurl_source: spec
+  description: Page-related user operations
   name: Meta Pages API
   slug: meta-pages-api
-- description: Operations on the User node
+- baseURL: https://graph.facebook.com/v22.0
+  baseurl_source: spec
+  description: Operations on the User node
   name: Meta Users API
   slug: meta-users-api
 arazzos:
@@ -618,7 +624,7 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -628,7 +634,7 @@ score:
     discoverability: 63.0
     governance: 14.4
     operational_transparency: 60.5
-  previous_composite: 58.3
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -639,7 +645,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:

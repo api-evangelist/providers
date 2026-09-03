@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 2
 apis:
-- description: The Business Units API from Fairmarkit — 2 operation(s) for business units.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Business Units API from Fairmarkit — 2 operation(s) for business units.
   name: Fairmarkit Business Units API
   slug: fairmarkit-business-units-api
-- description: The Categories API from Fairmarkit — 1 operation(s) for categories.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Categories API from Fairmarkit — 1 operation(s) for categories.
   name: Fairmarkit Categories API
   slug: fairmarkit-categories-api
-- description: The Data Exports API from Fairmarkit — 3 operation(s) for data exports.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Data Exports API from Fairmarkit — 3 operation(s) for data exports.
   name: Fairmarkit Data Exports API
   slug: fairmarkit-data-exports-api
-- description: The Data Fields API from Fairmarkit — 6 operation(s) for data fields.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Data Fields API from Fairmarkit — 6 operation(s) for data fields.
   name: Fairmarkit Data Fields API
   slug: fairmarkit-data-fields-api
-- description: The ERP Systems API from Fairmarkit — 1 operation(s) for erp systems.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The ERP Systems API from Fairmarkit — 1 operation(s) for erp systems.
   name: Fairmarkit ERP Systems API
   slug: fairmarkit-erp-systems-api
-- description: The Event API from Fairmarkit — 3 operation(s) for event.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Event API from Fairmarkit — 3 operation(s) for event.
   name: Fairmarkit Event API
   slug: fairmarkit-event-api
-- description: The File attachments API from Fairmarkit — 4 operation(s) for file attachments.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The File attachments API from Fairmarkit — 4 operation(s) for file attachments.
   name: Fairmarkit File attachments API
   slug: fairmarkit-file-attachments-api
-- description: The Identity API from Fairmarkit — 2 operation(s) for identity.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Identity API from Fairmarkit — 2 operation(s) for identity.
   name: Fairmarkit Identity API
   slug: fairmarkit-identity-api
-- description: The Price Books API from Fairmarkit — 8 operation(s) for price books.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Price Books API from Fairmarkit — 8 operation(s) for price books.
   name: Fairmarkit Price Books API
   slug: fairmarkit-price-books-api
-- description: The Purchase Orders API from Fairmarkit — 3 operation(s) for purchase orders.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Purchase Orders API from Fairmarkit — 3 operation(s) for purchase orders.
   name: Fairmarkit Purchase Orders API
   slug: fairmarkit-purchase-orders-api
-- description: The Requests API from Fairmarkit — 23 operation(s) for requests.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Requests API from Fairmarkit — 23 operation(s) for requests.
   name: Fairmarkit Requests API
   slug: fairmarkit-requests-api
-- description: The Responses API from Fairmarkit — 4 operation(s) for responses.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Responses API from Fairmarkit — 4 operation(s) for responses.
   name: Fairmarkit Responses API
   slug: fairmarkit-responses-api
-- description: The RFP API from Fairmarkit — 5 operation(s) for rfp.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The RFP API from Fairmarkit — 5 operation(s) for rfp.
   name: Fairmarkit RFP API
   slug: fairmarkit-rfp-api
-- description: The RFQ API from Fairmarkit — 11 operation(s) for rfq.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The RFQ API from Fairmarkit — 11 operation(s) for rfq.
   name: Fairmarkit RFQ API
   slug: fairmarkit-rfq-api
-- description: The Schema API from Fairmarkit — 2 operation(s) for schema.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Schema API from Fairmarkit — 2 operation(s) for schema.
   name: Fairmarkit Schema API
   slug: fairmarkit-schema-api
-- description: The Supplier API from Fairmarkit — 6 operation(s) for supplier.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The Supplier API from Fairmarkit — 6 operation(s) for supplier.
   name: Fairmarkit Supplier API
   slug: fairmarkit-supplier-api
-- description: The UOM API from Fairmarkit — 1 operation(s) for uom.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The UOM API from Fairmarkit — 1 operation(s) for uom.
   name: Fairmarkit UOM API
   slug: fairmarkit-uom-api
-- description: The User Profiles API from Fairmarkit — 1 operation(s) for user profiles.
+- baseURL: https://staging.fairmarkit.com
+  baseurl_source: declared
+  description: The User Profiles API from Fairmarkit — 1 operation(s) for user profiles.
   name: Fairmarkit User Profiles API
   slug: fairmarkit-user-profiles-api
 artifact_total: 42
@@ -305,7 +341,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -315,7 +351,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 47.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +363,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
 security:

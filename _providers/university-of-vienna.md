@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -47,46 +47,74 @@ apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for PHAIDRA, the University of Vienna's own institutional repository platform. Harvested by OpenAIRE, Europeana, BASE, OAPEN, EBSCO and Primo; supports oai_dc
   name: PHAIDRA OAI-PMH Endpoint
   slug: phaidra-oai-pmh
-- description: Requests for transforming and validating datastreams
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests for transforming and validating datastreams
   name: PHAIDRA datastream API (University of Vienna)
   slug: university-of-vienna-datastream-api
-- description: Requests related to users, user groups and organisation structure
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests related to users, user groups and organisation structure
   name: PHAIDRA directory API (University of Vienna)
   slug: university-of-vienna-directory-api
-- description: Requests to the imageserver
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests to the imageserver
   name: PHAIDRA imageserver API (University of Vienna)
   slug: university-of-vienna-imageserver-api
-- description: Requests for manipulating object lists
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests for manipulating object lists
   name: PHAIDRA lists API (University of Vienna)
   slug: university-of-vienna-lists-api
-- description: The misc API from University of Vienna — 7 operation(s) for misc.
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: The misc API from University of Vienna — 7 operation(s) for misc.
   name: PHAIDRA misc API (University of Vienna)
   slug: university-of-vienna-misc-api
-- description: Look at the [OAI-PMH protocol](https://www.openarchives.org/pmh) used in this endpoint
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Look at the [OAI-PMH protocol](https://www.openarchives.org/pmh) used in this endpoint
   name: PHAIDRA oai-pmh API (University of Vienna)
   slug: university-of-vienna-oai-pmh-api
-- description: Additional requests for the manipulation of digital objects
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Additional requests for the manipulation of digital objects
   name: PHAIDRA object-advanced API (University of Vienna)
   slug: university-of-vienna-object-advanced-api
-- description: Most important requests you'll need to manage digital objects in PHAIDRA
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Most important requests you'll need to manage digital objects in PHAIDRA
   name: PHAIDRA object-basics API (University of Vienna)
   slug: university-of-vienna-object-basics-api
-- description: Requests for adding and removing object relationships
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests for adding and removing object relationships
   name: PHAIDRA relationships API (University of Vienna)
   slug: university-of-vienna-relationships-api
-- description: The search API from University of Vienna — 1 operation(s) for search.
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: The search API from University of Vienna — 1 operation(s) for search.
   name: PHAIDRA search API (University of Vienna)
   slug: university-of-vienna-search-api
-- description: Session management
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Session management
   name: PHAIDRA session API (University of Vienna)
   slug: university-of-vienna-session-api
-- description: The stats API from University of Vienna — 4 operation(s) for stats.
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: The stats API from University of Vienna — 4 operation(s) for stats.
   name: PHAIDRA stats API (University of Vienna)
   slug: university-of-vienna-stats-api
-- description: Requests for managing metadata templates
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests for managing metadata templates
   name: PHAIDRA templates API (University of Vienna)
   slug: university-of-vienna-templates-api
-- description: Requests for controlled vocabularies
+- baseURL: https://phaidra.univie.ac.at/api
+  baseurl_source: declared
+  description: Requests for controlled vocabularies
   name: PHAIDRA vocabularies API (University of Vienna)
   slug: university-of-vienna-vocabularies-api
 - description: 'u:cris is the University of Vienna''s research information system. It runs Elsevier Pure and says so in its own OAI-PMH Identify response: ''This service is based on Pure.'' The Pure Web Service is live '
@@ -355,7 +383,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-vienna/refs/heads/main/screenshots/university-of-vienna-2026-06-20T200302.png
 security:

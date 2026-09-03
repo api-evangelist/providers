@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: ACORD Global Reinsurance & Large Commercial Data Standards define XML data exchange formats for reinsurance and large commercial lines. APIs support facultative and treaty reinsurance transactions, pl
   name: ACORD Reinsurance & Large Commercial Data Standards API
   slug: acord-reinsurance-standards-api
-- description: Claims inquiry, submission, and management
+- baseURL: https://api.insurer-internal.example.com/ngds
+  baseurl_source: spec
+  description: Claims inquiry, submission, and management
   name: ACORD Claims API
   slug: acord-claims-api
-- description: Insured party and contact management
+- baseURL: https://api.insurer-internal.example.com/ngds
+  baseurl_source: spec
+  description: Insured party and contact management
   name: ACORD Party API
   slug: acord-party-api
-- description: Policy administration and management
+- baseURL: https://api.insurer-internal.example.com/ngds
+  baseurl_source: spec
+  description: Policy administration and management
   name: ACORD Policy API
   slug: acord-policy-api
-- description: Underwriting and risk assessment
+- baseURL: https://api.insurer-internal.example.com/ngds
+  baseurl_source: spec
+  description: Underwriting and risk assessment
   name: ACORD Underwriting API
   slug: acord-underwriting-api
 artifact_total: 85
@@ -474,7 +482,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -484,7 +492,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 63.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -501,8 +509,8 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/screenshots/acord-2026-08-17T121359.png
 security:
 - kind: authentication

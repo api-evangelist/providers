@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Spotter device discovery
+- baseURL: https://api.sofarocean.com
+  baseurl_source: declared
+  description: Spotter device discovery
   name: Sofar Ocean Devices API
   slug: sofar-ocean-devices-api
-- description: Data collected by Smart Mooring subsurface sensors
+- baseURL: https://api.sofarocean.com
+  baseurl_source: declared
+  description: Data collected by Smart Mooring subsurface sensors
   name: Sofar Ocean Smart Mooring API
   slug: sofar-ocean-smart-mooring-api
-- description: Data collected by onboard Spotter sensors
+- baseURL: https://api.sofarocean.com
+  baseurl_source: declared
+  description: Data collected by onboard Spotter sensors
   name: Sofar Ocean Spotter Data API
   slug: sofar-ocean-spotter-data-api
-- description: Sofar Operational WaveWatch III wave spectra forecast
+- baseURL: https://api.sofarocean.com
+  baseurl_source: declared
+  description: Sofar Operational WaveWatch III wave spectra forecast
   name: Sofar Ocean Wave Spectra API
   slug: sofar-ocean-wave-spectra-api
 artifact_total: 14
@@ -217,7 +225,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -227,7 +235,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.2
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,7 +247,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/screenshots/sofar-ocean-2026-08-17T081949.png
 security:

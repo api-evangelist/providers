@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: The Book Demo API from Sitefire — 2 operation(s) for book demo.
+- baseURL: https://sitefire.ai/api
+  baseurl_source: declared
+  description: The Book Demo API from Sitefire — 2 operation(s) for book demo.
   name: Sitefire Book Demo API
   slug: sitefire-book-demo-api
 artifact_total: 10
@@ -237,7 +239,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitefire/refs/heads/main/screenshots/sitefire-2026-08-17T081906.png
 security:

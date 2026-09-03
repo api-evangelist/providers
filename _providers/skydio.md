@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: Mechanical, electrical, and power interface specification for building custom attachments and payloads for the Skydio X10 and X10D platforms. Access requires a request through Skydio.
   name: Skydio Attachment ICD
   slug: skydio-attachment-icd
-- description: Retrieve flights and flight metadata.
+- baseURL: https://api.skydio.com/api/v0
+  baseurl_source: spec
+  description: Retrieve flights and flight metadata.
   name: Skydio Flights API
   slug: skydio-flights-api
-- description: Create or update markers (incidents).
+- baseURL: https://api.skydio.com/api/v0
+  baseurl_source: spec
+  description: Create or update markers (incidents).
   name: Skydio Markers API
   slug: skydio-markers-api
-- description: Manage vehicles in your Skydio Cloud organization.
+- baseURL: https://api.skydio.com/api/v0
+  baseurl_source: spec
+  description: Manage vehicles in your Skydio Cloud organization.
   name: Skydio Vehicles API
   slug: skydio-vehicles-api
 artifact_total: 18
@@ -203,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skydio/refs/heads/main/screenshots/skydio-2026-06-20T194013.png
 security:

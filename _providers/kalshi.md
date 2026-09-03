@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -56,55 +56,89 @@ apis:
 - description: Official Python starter / SDK published by Kalshi for connecting to the Trade REST API and WebSocket streams. Includes request signing, authentication helpers, and example trading flows.
   name: Kalshi Python Starter Kit
   slug: python-starter
-- description: The account API from Kalshi — 2 operation(s) for account.
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: The account API from Kalshi — 2 operation(s) for account.
   name: Kalshi account API
   slug: kalshi-account-api
-- description: API key management endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: API key management endpoints
   name: Kalshi api-keys API
   slug: kalshi-api-keys-api
-- description: Request-for-quote (RFQ) endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Request-for-quote (RFQ) endpoints
   name: Kalshi communications API
   slug: kalshi-communications-api
-- description: Event endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Event endpoints
   name: Kalshi events API
   slug: kalshi-events-api
-- description: Exchange status and information endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Exchange status and information endpoints
   name: Kalshi exchange API
   slug: kalshi-exchange-api
-- description: FCM member specific endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: FCM member specific endpoints
   name: Kalshi fcm API
   slug: kalshi-fcm-api
-- description: The historical API from Kalshi — 7 operation(s) for historical.
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: The historical API from Kalshi — 7 operation(s) for historical.
   name: Kalshi historical API
   slug: kalshi-historical-api
-- description: Incentive program endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Incentive program endpoints
   name: Kalshi incentive-programs API
   slug: kalshi-incentive-programs-api
-- description: Live data endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Live data endpoints
   name: Kalshi live-data API
   slug: kalshi-live-data-api
-- description: The market API from Kalshi — 9 operation(s) for market.
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: The market API from Kalshi — 9 operation(s) for market.
   name: Kalshi market API
   slug: kalshi-market-api
-- description: Milestone endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Milestone endpoints
   name: Kalshi milestone API
   slug: kalshi-milestone-api
-- description: Multivariate event collection endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Multivariate event collection endpoints
   name: Kalshi multivariate API
   slug: kalshi-multivariate-api
-- description: Order group management endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Order group management endpoints
   name: Kalshi order-groups API
   slug: kalshi-order-groups-api
-- description: Order management endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Order management endpoints
   name: Kalshi orders API
   slug: kalshi-orders-api
-- description: Portfolio and balance information endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Portfolio and balance information endpoints
   name: Kalshi portfolio API
   slug: kalshi-portfolio-api
-- description: Search and filtering endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Search and filtering endpoints
   name: Kalshi search API
   slug: kalshi-search-api
-- description: Structured targets endpoints
+- baseURL: https://api.elections.kalshi.com/trade-api/v2
+  baseurl_source: declared
+  description: Structured targets endpoints
   name: Kalshi structured-targets API
   slug: kalshi-structured-targets-api
 artifact_total: 48
@@ -263,7 +297,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -273,7 +307,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 38.5
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -288,7 +322,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/screenshots/kalshi-2026-06-20T183909.png
 security:

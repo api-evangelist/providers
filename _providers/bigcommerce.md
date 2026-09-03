@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -68,460 +68,764 @@ apis:
 - description: 'BigCommerce Transactions API provides access to order transaction data and payment actions. The API returns transaction details for orders, including payment method information and fraud details when '
   name: Big Commerce Transactions
   slug: bigcommerce-transactions
-- description: The Abandoned Cart Emails API from BigCommerce — 3 operation(s) for abandoned cart emails.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Abandoned Cart Emails API from BigCommerce — 3 operation(s) for abandoned cart emails.
   name: BigCommerce Abandoned Cart Emails API
   slug: bigcommerce-abandoned-cart-emails-api
-- description: The Abandoned Cart Settings API from BigCommerce — 1 operation(s) for abandoned cart settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Abandoned Cart Settings API from BigCommerce — 1 operation(s) for abandoned cart settings.
   name: BigCommerce Abandoned Cart Settings API
   slug: bigcommerce-abandoned-cart-settings-api
-- description: The Abandoned Carts API from BigCommerce — 1 operation(s) for abandoned carts.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Abandoned Carts API from BigCommerce — 1 operation(s) for abandoned carts.
   name: BigCommerce Abandoned Carts API
   slug: bigcommerce-abandoned-carts-api
-- description: The Abandoned Carts Settings API from BigCommerce — 2 operation(s) for abandoned carts settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Abandoned Carts Settings API from BigCommerce — 2 operation(s) for abandoned carts settings.
   name: BigCommerce Abandoned Carts Settings API
   slug: bigcommerce-abandoned-carts-settings-api
-- description: The Access API from BigCommerce — 1 operation(s) for access.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Access API from BigCommerce — 1 operation(s) for access.
   name: BigCommerce Access API
   slug: bigcommerce-access-api
-- description: The Active Theme API from BigCommerce — 1 operation(s) for active theme.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Active Theme API from BigCommerce — 1 operation(s) for active theme.
   name: BigCommerce Active Theme API
   slug: bigcommerce-active-theme-api
-- description: The Addresses API from BigCommerce — 1 operation(s) for addresses.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Addresses API from BigCommerce — 1 operation(s) for addresses.
   name: BigCommerce Addresses API
   slug: bigcommerce-addresses-api
-- description: The Analytics API from BigCommerce — 2 operation(s) for analytics.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Analytics API from BigCommerce — 2 operation(s) for analytics.
   name: BigCommerce Analytics API
   slug: bigcommerce-analytics-api
-- description: The API Token API from BigCommerce — 1 operation(s) for api token.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The API Token API from BigCommerce — 1 operation(s) for api token.
   name: BigCommerce API Token API
   slug: bigcommerce-api-token-api
-- description: The Attribute Values API from BigCommerce — 1 operation(s) for attribute values.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Attribute Values API from BigCommerce — 1 operation(s) for attribute values.
   name: BigCommerce Attribute Values API
   slug: bigcommerce-attribute-values-api
-- description: The Attributes API from BigCommerce — 1 operation(s) for attributes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Attributes API from BigCommerce — 1 operation(s) for attributes.
   name: BigCommerce Attributes API
   slug: bigcommerce-attributes-api
-- description: The Banners API from BigCommerce — 3 operation(s) for banners.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Banners API from BigCommerce — 3 operation(s) for banners.
   name: BigCommerce Banners API
   slug: bigcommerce-banners-api
-- description: The Batch Metafields API from BigCommerce — 7 operation(s) for batch metafields.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Batch Metafields API from BigCommerce — 7 operation(s) for batch metafields.
   name: BigCommerce Batch Metafields API
   slug: bigcommerce-batch-metafields-api
-- description: The Blog Posts API from BigCommerce — 3 operation(s) for blog posts.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Blog Posts API from BigCommerce — 3 operation(s) for blog posts.
   name: BigCommerce Blog Posts API
   slug: bigcommerce-blog-posts-api
-- description: The Blog Tags API from BigCommerce — 1 operation(s) for blog tags.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Blog Tags API from BigCommerce — 1 operation(s) for blog tags.
   name: BigCommerce Blog Tags API
   slug: bigcommerce-blog-tags-api
-- description: The Brands API from BigCommerce — 2 operation(s) for brands.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Brands API from BigCommerce — 2 operation(s) for brands.
   name: BigCommerce Brands API
   slug: bigcommerce-brands-api
-- description: The Bulk Pricing Rules API from BigCommerce — 1 operation(s) for bulk pricing rules.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Bulk Pricing Rules API from BigCommerce — 1 operation(s) for bulk pricing rules.
   name: BigCommerce Bulk Pricing Rules API
   slug: bigcommerce-bulk-pricing-rules-api
-- description: The Cart API from BigCommerce — 2 operation(s) for cart.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Cart API from BigCommerce — 2 operation(s) for cart.
   name: BigCommerce Cart API
   slug: bigcommerce-cart-api
-- description: The Cart Currency API from BigCommerce — 1 operation(s) for cart currency.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Cart Currency API from BigCommerce — 1 operation(s) for cart currency.
   name: BigCommerce Cart Currency API
   slug: bigcommerce-cart-currency-api
-- description: The Cart Items API from BigCommerce — 2 operation(s) for cart items.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Cart Items API from BigCommerce — 2 operation(s) for cart items.
   name: BigCommerce Cart Items API
   slug: bigcommerce-cart-items-api
-- description: The Carts (Single) API from BigCommerce — 2 operation(s) for carts (single).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Carts (Single) API from BigCommerce — 2 operation(s) for carts (single).
   name: BigCommerce Carts (Single) API
   slug: bigcommerce-carts-single-api
-- description: The Catalog API from BigCommerce — 1 operation(s) for catalog.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Catalog API from BigCommerce — 1 operation(s) for catalog.
   name: BigCommerce Catalog API
   slug: bigcommerce-catalog-api
-- description: The Categories API from BigCommerce — 1 operation(s) for categories.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Categories API from BigCommerce — 1 operation(s) for categories.
   name: BigCommerce Categories API
   slug: bigcommerce-categories-api
-- description: The Categories (Deprecated) API from BigCommerce — 2 operation(s) for categories (deprecated).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Categories (Deprecated) API from BigCommerce — 2 operation(s) for categories (deprecated).
   name: BigCommerce Categories (Deprecated) API
   slug: bigcommerce-categories-deprecated-api
-- description: The Category Assignments API from BigCommerce — 1 operation(s) for category assignments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Category Assignments API from BigCommerce — 1 operation(s) for category assignments.
   name: BigCommerce Category Assignments API
   slug: bigcommerce-category-assignments-api
-- description: The Category Trees API from BigCommerce — 2 operation(s) for category trees.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Category Trees API from BigCommerce — 2 operation(s) for category trees.
   name: BigCommerce Category Trees API
   slug: bigcommerce-category-trees-api
-- description: The Channel Assignments API from BigCommerce — 1 operation(s) for channel assignments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Channel Assignments API from BigCommerce — 1 operation(s) for channel assignments.
   name: BigCommerce Channel Assignments API
   slug: bigcommerce-channel-assignments-api
-- description: The Channel Settings API from BigCommerce — 1 operation(s) for channel settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Channel Settings API from BigCommerce — 1 operation(s) for channel settings.
   name: BigCommerce Channel Settings API
   slug: bigcommerce-channel-settings-api
-- description: The Channels API from BigCommerce — 2 operation(s) for channels.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Channels API from BigCommerce — 2 operation(s) for channels.
   name: BigCommerce Channels API
   slug: bigcommerce-channels-api
-- description: The Checkout API from BigCommerce — 1 operation(s) for checkout.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout API from BigCommerce — 1 operation(s) for checkout.
   name: BigCommerce Checkout API
   slug: bigcommerce-checkout-api
-- description: The Checkout Billing Address API from BigCommerce — 2 operation(s) for checkout billing address.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Billing Address API from BigCommerce — 2 operation(s) for checkout billing address.
   name: BigCommerce Checkout Billing Address API
   slug: bigcommerce-checkout-billing-address-api
-- description: The Checkout Cart Items API from BigCommerce — 1 operation(s) for checkout cart items.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Cart Items API from BigCommerce — 1 operation(s) for checkout cart items.
   name: BigCommerce Checkout Cart Items API
   slug: bigcommerce-checkout-cart-items-api
-- description: The Checkout Consignments API from BigCommerce — 2 operation(s) for checkout consignments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Consignments API from BigCommerce — 2 operation(s) for checkout consignments.
   name: BigCommerce Checkout Consignments API
   slug: bigcommerce-checkout-consignments-api
-- description: The Checkout Coupons API from BigCommerce — 2 operation(s) for checkout coupons.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Coupons API from BigCommerce — 2 operation(s) for checkout coupons.
   name: BigCommerce Checkout Coupons API
   slug: bigcommerce-checkout-coupons-api
-- description: The Checkout Discounts API from BigCommerce — 1 operation(s) for checkout discounts.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Discounts API from BigCommerce — 1 operation(s) for checkout discounts.
   name: BigCommerce Checkout Discounts API
   slug: bigcommerce-checkout-discounts-api
-- description: The Checkout Gift Certificates API from BigCommerce — 2 operation(s) for checkout gift certificates.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Gift Certificates API from BigCommerce — 2 operation(s) for checkout gift certificates.
   name: BigCommerce Checkout Gift Certificates API
   slug: bigcommerce-checkout-gift-certificates-api
-- description: The Checkout Orders API from BigCommerce — 1 operation(s) for checkout orders.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Orders API from BigCommerce — 1 operation(s) for checkout orders.
   name: BigCommerce Checkout Orders API
   slug: bigcommerce-checkout-orders-api
-- description: The Checkout Settings API from BigCommerce — 1 operation(s) for checkout settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Settings API from BigCommerce — 1 operation(s) for checkout settings.
   name: BigCommerce Checkout Settings API
   slug: bigcommerce-checkout-settings-api
-- description: The Checkout Spam Protection API from BigCommerce — 1 operation(s) for checkout spam protection.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Spam Protection API from BigCommerce — 1 operation(s) for checkout spam protection.
   name: BigCommerce Checkout Spam Protection API
   slug: bigcommerce-checkout-spam-protection-api
-- description: The Checkout Store Credit API from BigCommerce — 1 operation(s) for checkout store credit.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Store Credit API from BigCommerce — 1 operation(s) for checkout store credit.
   name: BigCommerce Checkout Store Credit API
   slug: bigcommerce-checkout-store-credit-api
-- description: The Checkout Token API from BigCommerce — 1 operation(s) for checkout token.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Checkout Token API from BigCommerce — 1 operation(s) for checkout token.
   name: BigCommerce Checkout Token API
   slug: bigcommerce-checkout-token-api
-- description: The Complex Rules API from BigCommerce — 2 operation(s) for complex rules.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Complex Rules API from BigCommerce — 2 operation(s) for complex rules.
   name: BigCommerce Complex Rules API
   slug: bigcommerce-complex-rules-api
-- description: The Consent API from BigCommerce — 2 operation(s) for consent.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Consent API from BigCommerce — 2 operation(s) for consent.
   name: BigCommerce Consent API
   slug: bigcommerce-consent-api
-- description: The Countries API from BigCommerce — 3 operation(s) for countries.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Countries API from BigCommerce — 3 operation(s) for countries.
   name: BigCommerce Countries API
   slug: bigcommerce-countries-api
-- description: The Coupons API from BigCommerce — 3 operation(s) for coupons.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Coupons API from BigCommerce — 3 operation(s) for coupons.
   name: BigCommerce Coupons API
   slug: bigcommerce-coupons-api
-- description: The Currencies (Bulk) API from BigCommerce — 1 operation(s) for currencies (bulk).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Currencies (Bulk) API from BigCommerce — 1 operation(s) for currencies (bulk).
   name: BigCommerce Currencies (Bulk) API
   slug: bigcommerce-currencies-bulk-api
-- description: The Currencies (Single) API from BigCommerce — 1 operation(s) for currencies (single).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Currencies (Single) API from BigCommerce — 1 operation(s) for currencies (single).
   name: BigCommerce Currencies (Single) API
   slug: bigcommerce-currencies-single-api
-- description: The Currency Assignments API from BigCommerce — 2 operation(s) for currency assignments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Currency Assignments API from BigCommerce — 2 operation(s) for currency assignments.
   name: BigCommerce Currency Assignments API
   slug: bigcommerce-currency-assignments-api
-- description: The Current Customers API from BigCommerce — 1 operation(s) for current customers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Current Customers API from BigCommerce — 1 operation(s) for current customers.
   name: BigCommerce Current Customers API
   slug: bigcommerce-current-customers-api
-- description: The Custom Fields API from BigCommerce — 2 operation(s) for custom fields.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Custom Fields API from BigCommerce — 2 operation(s) for custom fields.
   name: BigCommerce Custom Fields API
   slug: bigcommerce-custom-fields-api
-- description: The Custom Template Associations API from BigCommerce — 1 operation(s) for custom template associations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Custom Template Associations API from BigCommerce — 1 operation(s) for custom template associations.
   name: BigCommerce Custom Template Associations API
   slug: bigcommerce-custom-template-associations-api
-- description: The Customer Batch Metafields API from BigCommerce — 1 operation(s) for customer batch metafields.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Customer Batch Metafields API from BigCommerce — 1 operation(s) for customer batch metafields.
   name: BigCommerce Customer Batch Metafields API
   slug: bigcommerce-customer-batch-metafields-api
-- description: The Customer Impersonation Token API from BigCommerce — 1 operation(s) for customer impersonation token.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Customer Impersonation Token API from BigCommerce — 1 operation(s) for customer impersonation token.
   name: BigCommerce Customer Impersonation Token API
   slug: bigcommerce-customer-impersonation-token-api
-- description: The Customer Metafields API from BigCommerce — 2 operation(s) for customer metafields.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Customer Metafields API from BigCommerce — 2 operation(s) for customer metafields.
   name: BigCommerce Customer Metafields API
   slug: bigcommerce-customer-metafields-api
-- description: The Customers API from BigCommerce — 1 operation(s) for customers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Customers API from BigCommerce — 1 operation(s) for customers.
   name: BigCommerce Customers API
   slug: bigcommerce-customers-api
-- description: The Customs Information API from BigCommerce — 1 operation(s) for customs information.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Customs Information API from BigCommerce — 1 operation(s) for customs information.
   name: BigCommerce Customs Information API
   slug: bigcommerce-customs-information-api
-- description: The Email Statuses API from BigCommerce — 1 operation(s) for email statuses.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Email Statuses API from BigCommerce — 1 operation(s) for email statuses.
   name: BigCommerce Email Statuses API
   slug: bigcommerce-email-statuses-api
-- description: The Email Templates API from BigCommerce — 2 operation(s) for email templates.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Email Templates API from BigCommerce — 2 operation(s) for email templates.
   name: BigCommerce Email Templates API
   slug: bigcommerce-email-templates-api
-- description: The Favicon Image API from BigCommerce — 1 operation(s) for favicon image.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Favicon Image API from BigCommerce — 1 operation(s) for favicon image.
   name: BigCommerce Favicon Image API
   slug: bigcommerce-favicon-image-api
-- description: The Form Field Values API from BigCommerce — 1 operation(s) for form field values.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Form Field Values API from BigCommerce — 1 operation(s) for form field values.
   name: BigCommerce Form Field Values API
   slug: bigcommerce-form-field-values-api
-- description: The Form Fields API from BigCommerce — 1 operation(s) for form fields.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Form Fields API from BigCommerce — 1 operation(s) for form fields.
   name: BigCommerce Form Fields API
   slug: bigcommerce-form-fields-api
-- description: The Gift Certificates API from BigCommerce — 2 operation(s) for gift certificates.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Gift Certificates API from BigCommerce — 2 operation(s) for gift certificates.
   name: BigCommerce Gift Certificates API
   slug: bigcommerce-gift-certificates-api
-- description: The Global Settings API from BigCommerce — 1 operation(s) for global settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Global Settings API from BigCommerce — 1 operation(s) for global settings.
   name: BigCommerce Global Settings API
   slug: bigcommerce-global-settings-api
-- description: The Images API from BigCommerce — 6 operation(s) for images.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Images API from BigCommerce — 6 operation(s) for images.
   name: BigCommerce Images API
   slug: bigcommerce-images-api
-- description: The Import-Export API from BigCommerce — 6 operation(s) for import-export.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Import-Export API from BigCommerce — 6 operation(s) for import-export.
   name: BigCommerce Import-Export API
   slug: bigcommerce-import-export-api
-- description: The Inventory API from BigCommerce — 1 operation(s) for inventory.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Inventory API from BigCommerce — 1 operation(s) for inventory.
   name: BigCommerce Inventory API
   slug: bigcommerce-inventory-api
-- description: The Inventory Notifications API from BigCommerce — 1 operation(s) for inventory notifications.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Inventory Notifications API from BigCommerce — 1 operation(s) for inventory notifications.
   name: BigCommerce Inventory Notifications API
   slug: bigcommerce-inventory-notifications-api
-- description: The Items API from BigCommerce — 2 operation(s) for items.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Items API from BigCommerce — 2 operation(s) for items.
   name: BigCommerce Items API
   slug: bigcommerce-items-api
-- description: The Listings API from BigCommerce — 2 operation(s) for listings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Listings API from BigCommerce — 2 operation(s) for listings.
   name: BigCommerce Listings API
   slug: bigcommerce-listings-api
-- description: The Login Token API from BigCommerce — 1 operation(s) for login token.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Login Token API from BigCommerce — 1 operation(s) for login token.
   name: BigCommerce Login Token API
   slug: bigcommerce-login-token-api
-- description: The Logo API from BigCommerce — 1 operation(s) for logo.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Logo API from BigCommerce — 1 operation(s) for logo.
   name: BigCommerce Logo API
   slug: bigcommerce-logo-api
-- description: The Logo Image API from BigCommerce — 1 operation(s) for logo image.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Logo Image API from BigCommerce — 1 operation(s) for logo image.
   name: BigCommerce Logo Image API
   slug: bigcommerce-logo-image-api
-- description: The Manage Webhooks (Bulk) API from BigCommerce — 1 operation(s) for manage webhooks (bulk).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Manage Webhooks (Bulk) API from BigCommerce — 1 operation(s) for manage webhooks (bulk).
   name: BigCommerce Manage Webhooks (Bulk) API
   slug: bigcommerce-manage-webhooks-bulk-api
-- description: The Manage Webhooks (Single) API from BigCommerce — 1 operation(s) for manage webhooks (single).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Manage Webhooks (Single) API from BigCommerce — 1 operation(s) for manage webhooks (single).
   name: BigCommerce Manage Webhooks (Single) API
   slug: bigcommerce-manage-webhooks-single-api
-- description: The Menus API from BigCommerce — 1 operation(s) for menus.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Menus API from BigCommerce — 1 operation(s) for menus.
   name: BigCommerce Menus API
   slug: bigcommerce-menus-api
-- description: The Metafields API from BigCommerce — 14 operation(s) for metafields.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Metafields API from BigCommerce — 14 operation(s) for metafields.
   name: BigCommerce Metafields API
   slug: bigcommerce-metafields-api
-- description: The Methods API from BigCommerce — 1 operation(s) for methods.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Methods API from BigCommerce — 1 operation(s) for methods.
   name: BigCommerce Methods API
   slug: bigcommerce-methods-api
-- description: The Methods (Deprecated) API from BigCommerce — 1 operation(s) for methods (deprecated).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Methods (Deprecated) API from BigCommerce — 1 operation(s) for methods (deprecated).
   name: BigCommerce Methods (Deprecated) API
   slug: bigcommerce-methods-deprecated-api
-- description: The Order API from BigCommerce — 1 operation(s) for order.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Order API from BigCommerce — 1 operation(s) for order.
   name: BigCommerce Order API
   slug: bigcommerce-order-api
-- description: The Order Settings API from BigCommerce — 2 operation(s) for order settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Order Settings API from BigCommerce — 2 operation(s) for order settings.
   name: BigCommerce Order Settings API
   slug: bigcommerce-order-settings-api
-- description: The Pages API from BigCommerce — 2 operation(s) for pages.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Pages API from BigCommerce — 2 operation(s) for pages.
   name: BigCommerce Pages API
   slug: bigcommerce-pages-api
-- description: The Pages (Bulk) API from BigCommerce — 1 operation(s) for pages (bulk).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Pages (Bulk) API from BigCommerce — 1 operation(s) for pages (bulk).
   name: BigCommerce Pages (Bulk) API
   slug: bigcommerce-pages-bulk-api
-- description: The Pages (Single) API from BigCommerce — 1 operation(s) for pages (single).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Pages (Single) API from BigCommerce — 1 operation(s) for pages (single).
   name: BigCommerce Pages (Single) API
   slug: bigcommerce-pages-single-api
-- description: The Payment Actions API from BigCommerce — 7 operation(s) for payment actions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Payment Actions API from BigCommerce — 7 operation(s) for payment actions.
   name: BigCommerce Payment Actions API
   slug: bigcommerce-payment-actions-api
-- description: BigCommerce Placements API Definition.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: BigCommerce Placements API Definition.
   name: BigCommerce Placement API
   slug: bigcommerce-placement-api
-- description: The Price Lists API from BigCommerce — 2 operation(s) for price lists.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Price Lists API from BigCommerce — 2 operation(s) for price lists.
   name: BigCommerce Price Lists API
   slug: bigcommerce-price-lists-api
-- description: The Price Lists Assignments API from BigCommerce — 2 operation(s) for price lists assignments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Price Lists Assignments API from BigCommerce — 2 operation(s) for price lists assignments.
   name: BigCommerce Price Lists Assignments API
   slug: bigcommerce-price-lists-assignments-api
-- description: The Price Lists Records API from BigCommerce — 4 operation(s) for price lists records.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Price Lists Records API from BigCommerce — 4 operation(s) for price lists records.
   name: BigCommerce Price Lists Records API
   slug: bigcommerce-price-lists-records-api
-- description: The Processing API from BigCommerce — 1 operation(s) for processing.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Processing API from BigCommerce — 1 operation(s) for processing.
   name: BigCommerce Processing API
   slug: bigcommerce-processing-api
-- description: The Product Modifiers API from BigCommerce — 2 operation(s) for product modifiers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Product Modifiers API from BigCommerce — 2 operation(s) for product modifiers.
   name: BigCommerce Product Modifiers API
   slug: bigcommerce-product-modifiers-api
-- description: The Product Tax Properties API from BigCommerce — 1 operation(s) for product tax properties.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Product Tax Properties API from BigCommerce — 1 operation(s) for product tax properties.
   name: BigCommerce Product Tax Properties API
   slug: bigcommerce-product-tax-properties-api
-- description: The Product Variant Options API from BigCommerce — 2 operation(s) for product variant options.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Product Variant Options API from BigCommerce — 2 operation(s) for product variant options.
   name: BigCommerce Product Variant Options API
   slug: bigcommerce-product-variant-options-api
-- description: The Product Variants API from BigCommerce — 2 operation(s) for product variants.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Product Variants API from BigCommerce — 2 operation(s) for product variants.
   name: BigCommerce Product Variants API
   slug: bigcommerce-product-variants-api
-- description: The Products API from BigCommerce — 3 operation(s) for products.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Products API from BigCommerce — 3 operation(s) for products.
   name: BigCommerce Products API
   slug: bigcommerce-products-api
-- description: The Redirects API from BigCommerce — 4 operation(s) for redirects.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Redirects API from BigCommerce — 4 operation(s) for redirects.
   name: BigCommerce Redirects API
   slug: bigcommerce-redirects-api
-- description: The Redirects - Cart Redirect URLs API from BigCommerce — 1 operation(s) for redirects - cart redirect urls.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Redirects - Cart Redirect URLs API from BigCommerce — 1 operation(s) for redirects - cart redirect urls.
   name: BigCommerce Redirects - Cart Redirect URLs API
   slug: bigcommerce-redirects-cart-redirect-urls-api
-- description: The Regions API from BigCommerce — 1 operation(s) for regions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Regions API from BigCommerce — 1 operation(s) for regions.
   name: BigCommerce Regions API
   slug: bigcommerce-regions-api
-- description: The Reviews API from BigCommerce — 2 operation(s) for reviews.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Reviews API from BigCommerce — 2 operation(s) for reviews.
   name: BigCommerce Reviews API
   slug: bigcommerce-reviews-api
-- description: The Scripts API from BigCommerce — 2 operation(s) for scripts.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Scripts API from BigCommerce — 2 operation(s) for scripts.
   name: BigCommerce Scripts API
   slug: bigcommerce-scripts-api
-- description: The Search Filters API from BigCommerce — 3 operation(s) for search filters.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Search Filters API from BigCommerce — 3 operation(s) for search filters.
   name: BigCommerce Search Filters API
   slug: bigcommerce-search-filters-api
-- description: The Settings API from BigCommerce — 2 operation(s) for settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Settings API from BigCommerce — 2 operation(s) for settings.
   name: BigCommerce Settings API
   slug: bigcommerce-settings-api
-- description: The Shipping Provider API from BigCommerce — 2 operation(s) for shipping provider.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Shipping Provider API from BigCommerce — 2 operation(s) for shipping provider.
   name: BigCommerce Shipping Provider API
   slug: bigcommerce-shipping-provider-api
-- description: The Site API from BigCommerce — 1 operation(s) for site.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Site API from BigCommerce — 1 operation(s) for site.
   name: BigCommerce Site API
   slug: bigcommerce-site-api
-- description: The Site Certificate API from BigCommerce — 2 operation(s) for site certificate.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Site Certificate API from BigCommerce — 2 operation(s) for site certificate.
   name: BigCommerce Site Certificate API
   slug: bigcommerce-site-certificate-api
-- description: The Site Checkout URL API from BigCommerce — 1 operation(s) for site checkout url.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Site Checkout URL API from BigCommerce — 1 operation(s) for site checkout url.
   name: BigCommerce Site Checkout URL API
   slug: bigcommerce-site-checkout-url-api
-- description: The Site Routes API from BigCommerce — 2 operation(s) for site routes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Site Routes API from BigCommerce — 2 operation(s) for site routes.
   name: BigCommerce Site Routes API
   slug: bigcommerce-site-routes-api
-- description: Enables creation and management of external sites (domains) where shoppers shop. Allows for the correct shopping experience to be delivered and maintained (i.e. redirect URLs, email links) when a shop
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Enables creation and management of external sites (domains) where shoppers shop. Allows for the correct shopping experience to be delivered and maintained (i.e. redirect URLs, email links) when a shop
   name: BigCommerce Sites API
   slug: bigcommerce-sites-api
-- description: The Sort Order API from BigCommerce — 1 operation(s) for sort order.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Sort Order API from BigCommerce — 1 operation(s) for sort order.
   name: BigCommerce Sort Order API
   slug: bigcommerce-sort-order-api
-- description: The States API from BigCommerce — 5 operation(s) for states.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The States API from BigCommerce — 5 operation(s) for states.
   name: BigCommerce States API
   slug: bigcommerce-states-api
-- description: The Store Information API from BigCommerce — 1 operation(s) for store information.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Store Information API from BigCommerce — 1 operation(s) for store information.
   name: BigCommerce Store Information API
   slug: bigcommerce-store-information-api
-- description: The Store Locale API from BigCommerce — 1 operation(s) for store locale.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Store Locale API from BigCommerce — 1 operation(s) for store locale.
   name: BigCommerce Store Locale API
   slug: bigcommerce-store-locale-api
-- description: The Store Profile API from BigCommerce — 1 operation(s) for store profile.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Store Profile API from BigCommerce — 1 operation(s) for store profile.
   name: BigCommerce Store Profile API
   slug: bigcommerce-store-profile-api
-- description: The Stored Instruments API from BigCommerce — 1 operation(s) for stored instruments.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Stored Instruments API from BigCommerce — 1 operation(s) for stored instruments.
   name: BigCommerce Stored Instruments API
   slug: bigcommerce-stored-instruments-api
-- description: The Storefront Category API from BigCommerce — 1 operation(s) for storefront category.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront Category API from BigCommerce — 1 operation(s) for storefront category.
   name: BigCommerce Storefront Category API
   slug: bigcommerce-storefront-category-api
-- description: The Storefront Product API from BigCommerce — 1 operation(s) for storefront product.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront Product API from BigCommerce — 1 operation(s) for storefront product.
   name: BigCommerce Storefront Product API
   slug: bigcommerce-storefront-product-api
-- description: The Storefront Robotstxt API from BigCommerce — 1 operation(s) for storefront robotstxt.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront Robotstxt API from BigCommerce — 1 operation(s) for storefront robotstxt.
   name: BigCommerce Storefront Robotstxt API
   slug: bigcommerce-storefront-robotstxt-api
-- description: The Storefront Search API from BigCommerce — 1 operation(s) for storefront search.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront Search API from BigCommerce — 1 operation(s) for storefront search.
   name: BigCommerce Storefront Search API
   slug: bigcommerce-storefront-search-api
-- description: The Storefront Security API from BigCommerce — 1 operation(s) for storefront security.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront Security API from BigCommerce — 1 operation(s) for storefront security.
   name: BigCommerce Storefront Security API
   slug: bigcommerce-storefront-security-api
-- description: The Storefront SEO API from BigCommerce — 1 operation(s) for storefront seo.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront SEO API from BigCommerce — 1 operation(s) for storefront seo.
   name: BigCommerce Storefront SEO API
   slug: bigcommerce-storefront-seo-api
-- description: The Storefront Status API from BigCommerce — 1 operation(s) for storefront status.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Storefront Status API from BigCommerce — 1 operation(s) for storefront status.
   name: BigCommerce Storefront Status API
   slug: bigcommerce-storefront-status-api
-- description: BigCommerce Customers API Definition.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: BigCommerce Customers API Definition.
   name: BigCommerce Subscribers API
   slug: bigcommerce-subscribers-api
-- description: The Subscription API from BigCommerce — 1 operation(s) for subscription.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Subscription API from BigCommerce — 1 operation(s) for subscription.
   name: BigCommerce Subscription API
   slug: bigcommerce-subscription-api
-- description: The Summary API from BigCommerce — 1 operation(s) for summary.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Summary API from BigCommerce — 1 operation(s) for summary.
   name: BigCommerce Summary API
   slug: bigcommerce-summary-api
-- description: The System Logs API from BigCommerce — 1 operation(s) for system logs.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The System Logs API from BigCommerce — 1 operation(s) for system logs.
   name: BigCommerce System Logs API
   slug: bigcommerce-system-logs-api
-- description: The Tax Properties API from BigCommerce — 1 operation(s) for tax properties.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Properties API from BigCommerce — 1 operation(s) for tax properties.
   name: BigCommerce Tax Properties API
   slug: bigcommerce-tax-properties-api
-- description: The Tax Provider API from BigCommerce — 4 operation(s) for tax provider.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Provider API from BigCommerce — 4 operation(s) for tax provider.
   name: BigCommerce Tax Provider API
   slug: bigcommerce-tax-provider-api
-- description: The Tax Provider Connection API from BigCommerce — 1 operation(s) for tax provider connection.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Provider Connection API from BigCommerce — 1 operation(s) for tax provider connection.
   name: BigCommerce Tax Provider Connection API
   slug: bigcommerce-tax-provider-connection-api
-- description: The Tax Rates API from BigCommerce — 1 operation(s) for tax rates.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Rates API from BigCommerce — 1 operation(s) for tax rates.
   name: BigCommerce Tax Rates API
   slug: bigcommerce-tax-rates-api
-- description: The Tax Settings API from BigCommerce — 1 operation(s) for tax settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Settings API from BigCommerce — 1 operation(s) for tax settings.
   name: BigCommerce Tax Settings API
   slug: bigcommerce-tax-settings-api
-- description: The Tax Zone Check API from BigCommerce — 1 operation(s) for tax zone check.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Zone Check API from BigCommerce — 1 operation(s) for tax zone check.
   name: BigCommerce Tax Zone Check API
   slug: bigcommerce-tax-zone-check-api
-- description: The Tax Zones API from BigCommerce — 1 operation(s) for tax zones.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tax Zones API from BigCommerce — 1 operation(s) for tax zones.
   name: BigCommerce Tax Zones API
   slug: bigcommerce-tax-zones-api
-- description: The Taxes API from BigCommerce — 2 operation(s) for taxes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Taxes API from BigCommerce — 2 operation(s) for taxes.
   name: BigCommerce Taxes API
   slug: bigcommerce-taxes-api
-- description: The Template Settings API from BigCommerce — 1 operation(s) for template settings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Template Settings API from BigCommerce — 1 operation(s) for template settings.
   name: BigCommerce Template Settings API
   slug: bigcommerce-template-settings-api
-- description: The Theme Actions API from BigCommerce — 2 operation(s) for theme actions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Theme Actions API from BigCommerce — 2 operation(s) for theme actions.
   name: BigCommerce Theme Actions API
   slug: bigcommerce-theme-actions-api
-- description: The Theme Configurations API from BigCommerce — 2 operation(s) for theme configurations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Theme Configurations API from BigCommerce — 2 operation(s) for theme configurations.
   name: BigCommerce Theme Configurations API
   slug: bigcommerce-theme-configurations-api
-- description: The Theme Custom Templates API from BigCommerce — 1 operation(s) for theme custom templates.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Theme Custom Templates API from BigCommerce — 1 operation(s) for theme custom templates.
   name: BigCommerce Theme Custom Templates API
   slug: bigcommerce-theme-custom-templates-api
-- description: The Theme Jobs API from BigCommerce — 1 operation(s) for theme jobs.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Theme Jobs API from BigCommerce — 1 operation(s) for theme jobs.
   name: BigCommerce Theme Jobs API
   slug: bigcommerce-theme-jobs-api
-- description: The Themes API from BigCommerce — 2 operation(s) for themes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Themes API from BigCommerce — 2 operation(s) for themes.
   name: BigCommerce Themes API
   slug: bigcommerce-themes-api
-- description: The Time Zone API from BigCommerce — 1 operation(s) for time zone.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Time Zone API from BigCommerce — 1 operation(s) for time zone.
   name: BigCommerce Time Zone API
   slug: bigcommerce-time-zone-api
-- description: The Tokens API from BigCommerce — 1 operation(s) for tokens.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Tokens API from BigCommerce — 1 operation(s) for tokens.
   name: BigCommerce Tokens API
   slug: bigcommerce-tokens-api
-- description: The Transactions API from BigCommerce — 1 operation(s) for transactions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Transactions API from BigCommerce — 1 operation(s) for transactions.
   name: BigCommerce Transactions API
   slug: bigcommerce-transactions-api
-- description: The Units of Measurement API from BigCommerce — 1 operation(s) for units of measurement.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Units of Measurement API from BigCommerce — 1 operation(s) for units of measurement.
   name: BigCommerce Units of Measurement API
   slug: bigcommerce-units-of-measurement-api
-- description: The Validate Credentials API from BigCommerce — 1 operation(s) for validate credentials.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Validate Credentials API from BigCommerce — 1 operation(s) for validate credentials.
   name: BigCommerce Validate Credentials API
   slug: bigcommerce-validate-credentials-api
-- description: The Values API from BigCommerce — 4 operation(s) for values.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Values API from BigCommerce — 4 operation(s) for values.
   name: BigCommerce Values API
   slug: bigcommerce-values-api
-- description: The Variants (Batch) API from BigCommerce — 1 operation(s) for variants (batch).
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Variants (Batch) API from BigCommerce — 1 operation(s) for variants (batch).
   name: BigCommerce Variants (Batch) API
   slug: bigcommerce-variants-batch-api
-- description: The Videos API from BigCommerce — 2 operation(s) for videos.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Videos API from BigCommerce — 2 operation(s) for videos.
   name: BigCommerce Videos API
   slug: bigcommerce-videos-api
-- description: The Webhook Events API from BigCommerce — 1 operation(s) for webhook events.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Webhook Events API from BigCommerce — 1 operation(s) for webhook events.
   name: BigCommerce Webhook Events API
   slug: bigcommerce-webhook-events-api
-- description: The Webhooks Admin API from BigCommerce — 1 operation(s) for webhooks admin.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Webhooks Admin API from BigCommerce — 1 operation(s) for webhooks admin.
   name: BigCommerce Webhooks Admin API
   slug: bigcommerce-webhooks-admin-api
-- description: The Widget API from BigCommerce — 2 operation(s) for widget.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Widget API from BigCommerce — 2 operation(s) for widget.
   name: BigCommerce Widget API
   slug: bigcommerce-widget-api
-- description: BigCommerce Widget Templates API Definition.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: BigCommerce Widget Templates API Definition.
   name: BigCommerce Widget Template API
   slug: bigcommerce-widget-template-api
-- description: The Wishlists API from BigCommerce — 2 operation(s) for wishlists.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Wishlists API from BigCommerce — 2 operation(s) for wishlists.
   name: BigCommerce Wishlists API
   slug: bigcommerce-wishlists-api
-- description: The Wishlists Items API from BigCommerce — 2 operation(s) for wishlists items.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Wishlists Items API from BigCommerce — 2 operation(s) for wishlists items.
   name: BigCommerce Wishlists Items API
   slug: bigcommerce-wishlists-items-api
 artifact_total: 1332
@@ -4092,7 +4396,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -4102,7 +4406,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 44.7
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -4117,7 +4421,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:

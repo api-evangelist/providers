@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 32 operations · 19 acting
 api_count: 4
 apis:
-- description: The Configuration API from sensible-so — 4 operation(s) for configuration.
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: The Configuration API from sensible-so — 4 operation(s) for configuration.
   name: sensible-so Configuration API
   slug: sensible-so-configuration-api
-- description: Classify documents by type
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: Classify documents by type
   name: sensible-so Document API
   slug: sensible-so-document-api
-- description: The Document type API from sensible-so — 2 operation(s) for document type.
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: The Document type API from sensible-so — 2 operation(s) for document type.
   name: sensible-so Document type API
   slug: sensible-so-document-type-api
-- description: Convert extracted document data to spreadsheet
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: Convert extracted document data to spreadsheet
   name: sensible-so Get Excel from documents API
   slug: sensible-so-get-excel-from-documents-api
-- description: Extract data from multiple documents bundled into single PDF files
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: Extract data from multiple documents bundled into single PDF files
   name: sensible-so Portfolio API
   slug: sensible-so-portfolio-api
-- description: The Reference document API from sensible-so — 4 operation(s) for reference document.
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: The Reference document API from sensible-so — 4 operation(s) for reference document.
   name: sensible-so Reference document API
   slug: sensible-so-reference-document-api
-- description: Retrieve data extracted asynchronously from documents
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: spec
+  description: Retrieve data extracted asynchronously from documents
   name: sensible-so Retrieve extractions API
   slug: sensible-so-retrieve-extractions-api
 arazzos:
@@ -486,10 +500,10 @@ score:
       total: 7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

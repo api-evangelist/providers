@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: API for tracking and managing metadata about ML artifacts, executions, and lineage information throughout the ML pipeline lifecycle, backed by ML Metadata (MLMD).
   name: Kubeflow Pipelines Metadata API
   slug: metadata-api
-- description: Group runs and recurring jobs into experiments
+- baseURL: https://your-kubeflow-host/pipeline
+  baseurl_source: declared
+  description: Group runs and recurring jobs into experiments
   name: Kubeflow Pipelines Experiments API
   slug: kubeflow-pipelines-experiments-api
-- description: Health and auth checks
+- baseURL: https://your-kubeflow-host/pipeline
+  baseurl_source: declared
+  description: Health and auth checks
   name: Kubeflow Pipelines Health API
   slug: kubeflow-pipelines-health-api
-- description: Manage pipeline definitions
+- baseURL: https://your-kubeflow-host/pipeline
+  baseurl_source: declared
+  description: Manage pipeline definitions
   name: Kubeflow Pipelines Pipelines API
   slug: kubeflow-pipelines-pipelines-api
-- description: Manage versions of pipelines
+- baseURL: https://your-kubeflow-host/pipeline
+  baseurl_source: declared
+  description: Manage versions of pipelines
   name: Kubeflow Pipelines PipelineVersions API
   slug: kubeflow-pipelines-pipelineversions-api
-- description: Pipeline runs
+- baseURL: https://your-kubeflow-host/pipeline
+  baseurl_source: declared
+  description: Pipeline runs
   name: Kubeflow Pipelines Runs API
   slug: kubeflow-pipelines-runs-api
 artifact_total: 21
@@ -215,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/screenshots/kubeflow-pipelines-2026-06-20T184205.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 33 operations · 15 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Absence records and absence categories
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Absence records and absence categories
   name: Hakuna Absences API
   slug: hakuna-absences-api
-- description: Account-wide settings
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Account-wide settings
   name: Hakuna Company API
   slug: hakuna-company-api
-- description: Admin-only management of projects, clients and tasks
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Admin-only management of projects, clients and tasks
   name: Hakuna Management API
   slug: hakuna-management-api
-- description: Organization-wide presence and absence status
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Organization-wide presence and absence status
   name: Hakuna Organization API
   slug: hakuna-organization-api
-- description: Aggregate metrics for the authenticated user
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Aggregate metrics for the authenticated user
   name: Hakuna Overview API
   slug: hakuna-overview-api
-- description: Active and archived projects
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Active and archived projects
   name: Hakuna Projects API
   slug: hakuna-projects-api
-- description: Categorization tasks
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Categorization tasks
   name: Hakuna Tasks API
   slug: hakuna-tasks-api
-- description: Recorded blocks of worked time
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Recorded blocks of worked time
   name: Hakuna Time Entries API
   slug: hakuna-time-entries-api
-- description: The single running timer for the authenticated user
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: The single running timer for the authenticated user
   name: Hakuna Timer API
   slug: hakuna-timer-api
-- description: Users of the account
+- baseURL: https://app.hakuna.ch/api/v1
+  baseurl_source: declared
+  description: Users of the account
   name: Hakuna Users API
   slug: hakuna-users-api
 artifact_total: 26
@@ -256,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png
 security:

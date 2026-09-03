@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -62,10 +62,14 @@ apis:
 - description: Following GoTo's 2024 divestment of Tokopedia's e-commerce operations to TikTok Shop, integrations for what was formerly the Tokopedia Open API and Mitra Tokopedia developer surface are now served via
   name: Tokopedia / TikTok Shop Open Platform
   slug: tokopedia-tiktok-shop
-- description: The Tokenization API from GoTo Group (Gojek + Tokopedia) — 3 operation(s) for tokenization.
+- baseURL: https://api.gojekapi.com
+  baseurl_source: declared
+  description: The Tokenization API from GoTo Group (Gojek + Tokopedia) — 3 operation(s) for tokenization.
   name: GoTo Group (Gojek + Tokopedia) Tokenization API
   slug: goto-gojek-tokenization-api
-- description: The Transactions API from GoTo Group (Gojek + Tokopedia) — 10 operation(s) for transactions.
+- baseURL: https://api.gojekapi.com
+  baseurl_source: declared
+  description: The Transactions API from GoTo Group (Gojek + Tokopedia) — 10 operation(s) for transactions.
   name: GoTo Group (Gojek + Tokopedia) Transactions API
   slug: goto-gojek-transactions-api
 artifact_total: 18
@@ -226,7 +230,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png
 security:

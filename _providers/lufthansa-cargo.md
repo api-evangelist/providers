@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Retrieves the current status of an air freight shipment by IATA Air Waybill, keyed on a 3-digit AWB prefix (020 = Lufthansa Cargo) plus an 8-digit AWB number. Returns the milestone plan, booking, flig
+- baseURL: https://api.lufthansa-cargo.com
+  baseurl_source: declared
+  description: Retrieves the current status of an air freight shipment by IATA Air Waybill, keyed on a 3-digit AWB prefix (020 = Lufthansa Cargo) plus an 8-digit AWB number. Returns the milestone plan, booking, flig
   name: Lufthansa Cargo Shipment Tracking API
   slug: lufthansa-cargo-shipment-tracking-api
-- description: Subscription API that pushes shipment milestone updates to a caller-supplied HTTPS callback URL. Create, read, update, delete and list subscriptions for a given Air Waybill and status filter; the Open
+- baseURL: https://api.lufthansa-cargo.com
+  baseurl_source: declared
+  description: Subscription API that pushes shipment milestone updates to a caller-supplied HTTPS callback URL. Create, read, update, delete and list subscriptions for a given Air Waybill and status filter; the Open
   name: Lufthansa Cargo Shipment Tracking Subscribe API
   slug: lufthansa-cargo-shipment-tracking-subscribe-api
 - description: 'Prior-agreement API. Lufthansa Cargo''s digital booking connect for forwarders wiring an in-house system to the carrier and for ePlatforms integrating LH Cargo offers and bookings. Documented services '
@@ -61,10 +65,14 @@ apis:
 - description: Prior-agreement API product covering airmail carriage for postal operators. The portal publishes an OpenAPI 3.0.3 info block titled "AirMail APIs" whose entire description is the prior-approval notice
   name: Lufthansa Cargo AirMail API
   slug: lufthansa-cargo-airmail-api
-- description: The routes API from Lufthansa Cargo — 1 operation(s) for routes.
+- baseURL: https://api.lufthansa-cargo.com
+  baseurl_source: declared
+  description: The routes API from Lufthansa Cargo — 1 operation(s) for routes.
   name: Lufthansa Cargo Routes API
   slug: lufthansa-cargo-routes-api
-- description: The stations API from Lufthansa Cargo — 3 operation(s) for stations.
+- baseURL: https://api.lufthansa-cargo.com
+  baseurl_source: declared
+  description: The stations API from Lufthansa Cargo — 3 operation(s) for stations.
   name: Lufthansa Cargo Stations API
   slug: lufthansa-cargo-stations-api
 artifact_total: 14
@@ -170,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa-cargo/refs/heads/main/screenshots/lufthansa-cargo-2026-08-07T171824.png
 slug: lufthansa-cargo

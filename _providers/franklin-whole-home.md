@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -33,40 +46,64 @@ agentic_access:
   summary_line: 38 operations · 19 acting
 api_count: 1
 apis:
-- description: Token issuance for the FranklinWH partner API.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Token issuance for the FranklinWH partner API.
   name: Franklin Whole Home Authentication API
   slug: franklin-whole-home-authentication-api
-- description: Power, energy, telemetry, inventory and historical load data.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Power, energy, telemetry, inventory and historical load data.
   name: Franklin Whole Home Device Data API
   slug: franklin-whole-home-device-data-api
-- description: Device inventory, device information and device parameters.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Device inventory, device information and device parameters.
   name: Franklin Whole Home Devices API
   slug: franklin-whole-home-devices-api
-- description: Grid-event scheduling and query.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Grid-event scheduling and query.
   name: Franklin Whole Home Grid Events API
   slug: franklin-whole-home-grid-events-api
-- description: Device grouping and bulk settings applied by group.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Device grouping and bulk settings applied by group.
   name: Franklin Whole Home Groups API
   slug: franklin-whole-home-groups-api
-- description: Audit log of setting changes.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Audit log of setting changes.
   name: Franklin Whole Home Modification Records API
   slug: franklin-whole-home-modification-records-api
-- description: Site records — query, list, modify and delete.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Site records — query, list, modify and delete.
   name: Franklin Whole Home Sites API
   slug: franklin-whole-home-sites-api
-- description: Sunrun-specific operations on the /api-sunrun namespace.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Sunrun-specific operations on the /api-sunrun namespace.
   name: Franklin Whole Home Sunrun API
   slug: franklin-whole-home-sunrun-api
-- description: Sunrun site asset inventory.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Sunrun site asset inventory.
   name: Franklin Whole Home Sunrun Sites API
   slug: franklin-whole-home-sunrun-sites-api
-- description: Sunrun energy-management and aPower switch control.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Sunrun energy-management and aPower switch control.
   name: Franklin Whole Home Sunrun System Setup API
   slug: franklin-whole-home-sunrun-system-setup-api
-- description: Time-of-use profiles, aPower switch control and smart-circuit settings.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Time-of-use profiles, aPower switch control and smart-circuit settings.
   name: Franklin Whole Home System Settings API
   slug: franklin-whole-home-system-settings-api
-- description: Historical device warnings and backup (outage) events.
+- baseURL: https://test-api.franklinwh.com
+  baseurl_source: declared
+  description: Historical device warnings and backup (outage) events.
   name: Franklin Whole Home Warnings and Events API
   slug: franklin-whole-home-warnings-and-events-api
 artifact_total: 18
@@ -236,7 +273,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/screenshots/franklin-whole-home-2026-08-17T080936.png
 security:

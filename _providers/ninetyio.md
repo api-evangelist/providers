@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 25 operations · 19 acting · 19 human-in-the-loop
 api_count: 1
 apis:
-- description: The Issues API from Ninety.io — 3 operation(s) for issues.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The Issues API from Ninety.io — 3 operation(s) for issues.
   name: Ninety.io Issues API
   slug: ninetyio-issues-api
-- description: The Milestones API from Ninety.io — 2 operation(s) for milestones.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The Milestones API from Ninety.io — 2 operation(s) for milestones.
   name: Ninety.io Milestones API
   slug: ninetyio-milestones-api
-- description: The Rocks API from Ninety.io — 3 operation(s) for rocks.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The Rocks API from Ninety.io — 3 operation(s) for rocks.
   name: Ninety.io Rocks API
   slug: ninetyio-rocks-api
-- description: The Scorecard API from Ninety.io — 5 operation(s) for scorecard.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The Scorecard API from Ninety.io — 5 operation(s) for scorecard.
   name: Ninety.io Scorecard API
   slug: ninetyio-scorecard-api
-- description: The Teams API from Ninety.io — 1 operation(s) for teams.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The Teams API from Ninety.io — 1 operation(s) for teams.
   name: Ninety.io Teams API
   slug: ninetyio-teams-api
-- description: The To-Dos API from Ninety.io — 3 operation(s) for to-dos.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The To-Dos API from Ninety.io — 3 operation(s) for to-dos.
   name: Ninety.io To-Dos API
   slug: ninetyio-to-dos-api
-- description: The Users API from Ninety.io — 1 operation(s) for users.
+- baseURL: https://api.public.ninety.io/v1
+  baseurl_source: declared
+  description: The Users API from Ninety.io — 1 operation(s) for users.
   name: Ninety.io Users API
   slug: ninetyio-users-api
 arazzos:
@@ -269,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/screenshots/ninetyio-2026-08-07T185322.png
 security:

@@ -33,67 +33,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Account API from OTO Global — 4 operation(s) for account.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Account API from OTO Global — 4 operation(s) for account.
   name: OTO Global Account API
   slug: oto-global-account-api
-- description: 'You need your refresh_token for authorization. You can obtain your token from the UI by following these steps: Go to Settings → API Integrations . Click the Connect button to activate your Refresh Tok'
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: 'You need your refresh_token for authorization. You can obtain your token from the UI by following these steps: Go to Settings → API Integrations . Click the Connect button to activate your Refresh Tok'
   name: OTO Global Authorization API
   slug: oto-global-authorization-api
-- description: The Brands API from OTO Global — 2 operation(s) for brands.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Brands API from OTO Global — 2 operation(s) for brands.
   name: OTO Global Brands API
   slug: oto-global-brands-api
-- description: The Carrier Integrations API from OTO Global — 10 operation(s) for carrier integrations.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Carrier Integrations API from OTO Global — 10 operation(s) for carrier integrations.
   name: OTO Global Carrier Integrations API
   slug: oto-global-carrier-integrations-api
-- description: The Customer Notifications API from OTO Global — 1 operation(s) for customer notifications.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Customer Notifications API from OTO Global — 1 operation(s) for customer notifications.
   name: OTO Global Customer Notifications API
   slug: oto-global-customer-notifications-api
-- description: The Marketplace API from OTO Global — 2 operation(s) for marketplace.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Marketplace API from OTO Global — 2 operation(s) for marketplace.
   name: OTO Global Marketplace API
   slug: oto-global-marketplace-api
-- description: The National Address API from OTO Global — 1 operation(s) for national address.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The National Address API from OTO Global — 1 operation(s) for national address.
   name: OTO Global National Address API
   slug: oto-global-national-address-api
-- description: The Orders API from OTO Global — 9 operation(s) for orders.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Orders API from OTO Global — 9 operation(s) for orders.
   name: OTO Global Orders API
   slug: oto-global-orders-api
-- description: The OTO FLEX API from OTO Global — 2 operation(s) for oto flex.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The OTO FLEX API from OTO Global — 2 operation(s) for oto flex.
   name: OTO Global OTO FLEX API
   slug: oto-global-oto-flex-api
-- description: The Pickup Locations API from OTO Global — 3 operation(s) for pickup locations.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Pickup Locations API from OTO Global — 3 operation(s) for pickup locations.
   name: OTO Global Pickup Locations API
   slug: oto-global-pickup-locations-api
-- description: The Products API from OTO Global — 5 operation(s) for products.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Products API from OTO Global — 5 operation(s) for products.
   name: OTO Global Products API
   slug: oto-global-products-api
-- description: The Return Shipments API from OTO Global — 4 operation(s) for return shipments.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Return Shipments API from OTO Global — 4 operation(s) for return shipments.
   name: OTO Global Return Shipments API
   slug: oto-global-return-shipments-api
-- description: The Sales Channels API from OTO Global — 3 operation(s) for sales channels.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Sales Channels API from OTO Global — 3 operation(s) for sales channels.
   name: OTO Global Sales Channels API
   slug: oto-global-sales-channels-api
-- description: The Shipments API from OTO Global — 2 operation(s) for shipments.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Shipments API from OTO Global — 2 operation(s) for shipments.
   name: OTO Global Shipments API
   slug: oto-global-shipments-api
-- description: The Shipping Label(AWB) API from OTO Global — 1 operation(s) for shipping label(awb).
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Shipping Label(AWB) API from OTO Global — 1 operation(s) for shipping label(awb).
   name: OTO Global Shipping Label(AWB) API
   slug: oto-global-shipping-label-awb-api
-- description: The Shipping Prices API from OTO Global — 4 operation(s) for shipping prices.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Shipping Prices API from OTO Global — 4 operation(s) for shipping prices.
   name: OTO Global Shipping Prices API
   slug: oto-global-shipping-prices-api
-- description: The Stock Management API from OTO Global — 8 operation(s) for stock management.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Stock Management API from OTO Global — 8 operation(s) for stock management.
   name: OTO Global Stock Management API
   slug: oto-global-stock-management-api
-- description: The Tracking API from OTO Global — 3 operation(s) for tracking.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Tracking API from OTO Global — 3 operation(s) for tracking.
   name: OTO Global Tracking API
   slug: oto-global-tracking-api
-- description: The Transactions API from OTO Global — 3 operation(s) for transactions.
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: The Transactions API from OTO Global — 3 operation(s) for transactions.
   name: OTO Global Transactions API
   slug: oto-global-transactions-api
-- description: 'WEBHOOK for ORDER There are 3 types of webhook for now, newOrders, orderStatus , shipmentError and walletTransaction. OTO will push updates to the registered webhook endpoint for the orderStatus type '
+- baseURL: https://api.tryoto.com/rest/v2
+  baseurl_source: declared
+  description: 'WEBHOOK for ORDER There are 3 types of webhook for now, newOrders, orderStatus , shipmentError and walletTransaction. OTO will push updates to the registered webhook endpoint for the orderStatus type '
   name: OTO Global Webhook API
   slug: oto-global-webhook-api
 artifact_total: 45
@@ -314,7 +354,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -324,7 +364,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 50.0
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -341,7 +381,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oto-global/refs/heads/main/screenshots/oto-global-2026-08-07T191028.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -64,7 +64,9 @@ apis:
 - description: 'The `modal` command-line interface for deploying apps, running functions, tailing logs, managing volumes/secrets/dicts, and launching shells. Wraps the same gRPC control plane the SDK uses; it is the '
   name: Modal CLI
   slug: modal-labs-cli
-- description: The Modal Web Endpoints (Representative) API from Modal — 2 operation(s) for modal web endpoints (representative).
+- baseURL: https://<workspace>--<app>-<function>.modal.run
+  baseurl_source: declared
+  description: The Modal Web Endpoints (Representative) API from Modal — 2 operation(s) for modal web endpoints (representative).
   name: Modal Modal Web Endpoints (Representative) API
   slug: modal-labs-modal-web-endpoints-representative-api
 artifact_total: 16
@@ -171,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

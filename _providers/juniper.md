@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -50,142 +50,234 @@ apis:
 - description: Python-based snapshot and test framework for Junos devices.
   name: JSNAPy API
   slug: jsnapy-api
-- description: Allowlist and blocklist management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Allowlist and blocklist management
   name: Juniper Networks Allowlists and Blocklists API
   slug: juniper-allowlists-and-blocklists-api
-- description: Analytics and operational data
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Analytics and operational data
   name: Juniper Networks Analytics API
   slug: juniper-analytics-api
-- description: Audit trail and logging
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Audit trail and logging
   name: Juniper Networks Audit Logs API
   slug: juniper-audit-logs-api
-- description: Login and token management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Login and token management
   name: Juniper Networks Authentication API
   slug: juniper-authentication-api
-- description: BGP router management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: BGP router management
   name: Juniper Networks BGP Routers API
   slug: juniper-bgp-routers-api
-- description: Data center blueprint management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Data center blueprint management
   name: Juniper Networks Blueprints API
   slug: juniper-blueprints-api
-- description: Client session and statistics tracking
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Client session and statistics tracking
   name: Juniper Networks Clients API
   slug: juniper-clients-api
-- description: Configuration template management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Configuration template management
   name: Juniper Networks Configlets API
   slug: juniper-configlets-api
-- description: Device configuration operations
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Device configuration operations
   name: Juniper Networks Configuration API
   slug: juniper-configuration-api
-- description: Connectivity template management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Connectivity template management
   name: Juniper Networks Connectivity Templates API
   slug: juniper-connectivity-templates-api
-- description: Design elements including rack types, templates, and logical devices
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Design elements including rack types, templates, and logical devices
   name: Juniper Networks Design API
   slug: juniper-design-api
-- description: Device discovery and management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Device discovery and management
   name: Juniper Networks Devices API
   slug: juniper-devices-api
-- description: Enrolled SRX device management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Enrolled SRX device management
   name: Juniper Networks Enrolled Devices API
   slug: juniper-enrolled-devices-api
-- description: Malware analysis and file submission
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Malware analysis and file submission
   name: Juniper Networks File Analysis API
   slug: juniper-file-analysis-api
-- description: Floating IP management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Floating IP management
   name: Juniper Networks Floating IPs API
   slug: juniper-floating-ips-api
-- description: IoC management and lookup
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: IoC management and lookup
   name: Juniper Networks Indicators of Compromise API
   slug: juniper-indicators-of-compromise-api
-- description: AI-driven analytics and insights
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: AI-driven analytics and insights
   name: Juniper Networks Insights API
   slug: juniper-insights-api
-- description: Intent-based analytics and anomaly detection
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Intent-based analytics and anomaly detection
   name: Juniper Networks Intent Checks API
   slug: juniper-intent-checks-api
-- description: Device inventory management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Device inventory management
   name: Juniper Networks Inventory API
   slug: juniper-inventory-api
-- description: Asynchronous job management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Asynchronous job management
   name: Juniper Networks Jobs API
   slug: juniper-jobs-api
-- description: Floorplan and map management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Floorplan and map management
   name: Juniper Networks Maps API
   slug: juniper-maps-api
-- description: IP Address Management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: IP Address Management
   name: Juniper Networks Network IPAM API
   slug: juniper-network-ipam-api
-- description: Network policy management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Network policy management
   name: Juniper Networks Network Policies API
   slug: juniper-network-policies-api
-- description: Operational data retrieval
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Operational data retrieval
   name: Juniper Networks Operational API
   slug: juniper-operational-api
-- description: Organization-level management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Organization-level management
   name: Juniper Networks Organizations API
   slug: juniper-organizations-api
-- description: Project (tenant) management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Project (tenant) management
   name: Juniper Networks Projects API
   slug: juniper-projects-api
-- description: Threat and activity reports
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Threat and activity reports
   name: Juniper Networks Reports API
   slug: juniper-reports-api
-- description: Resource pool management (ASN, IP, VNI pools)
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Resource pool management (ASN, IP, VNI pools)
   name: Juniper Networks Resources API
   slug: juniper-resources-api
-- description: Radio frequency templates
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Radio frequency templates
   name: Juniper Networks RF Templates API
   slug: juniper-rf-templates-api
-- description: Routing instance management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Routing instance management
   name: Juniper Networks Routing Instances API
   slug: juniper-routing-instances-api
-- description: Execute Junos RPC commands
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Execute Junos RPC commands
   name: Juniper Networks RPC API
   slug: juniper-rpc-api
-- description: Script bundle management and execution
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Script bundle management and execution
   name: Juniper Networks Scripts API
   slug: juniper-scripts-api
-- description: Security group and firewall rule management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Security group and firewall rule management
   name: Juniper Networks Security Groups API
   slug: juniper-security-groups-api
-- description: Operations for the authenticated user account
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Operations for the authenticated user account
   name: Juniper Networks Self API
   slug: juniper-self-api
-- description: Service chaining and service instances
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Service chaining and service instances
   name: Juniper Networks Service Instances API
   slug: juniper-service-instances-api
-- description: Logical grouping of sites
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Logical grouping of sites
   name: Juniper Networks Site Groups API
   slug: juniper-site-groups-api
-- description: Site-level management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Site-level management
   name: Juniper Networks Sites API
   slug: juniper-sites-api
-- description: Software image management and deployment
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Software image management and deployment
   name: Juniper Networks Software Management API
   slug: juniper-software-management-api
-- description: Managed system agents and device management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Managed system agents and device management
   name: Juniper Networks Systems API
   slug: juniper-systems-api
-- description: The Tag Management API from Juniper Networks — 1 operation(s) for tag management.
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: The Tag Management API from Juniper Networks — 1 operation(s) for tag management.
   name: Juniper Networks Tag Management API
   slug: juniper-tag-management-api
-- description: Threat feed and intelligence data
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Threat feed and intelligence data
   name: Juniper Networks Threat Intelligence API
   slug: juniper-threat-intelligence-api
-- description: User and role management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: User and role management
   name: Juniper Networks Users API
   slug: juniper-users-api
-- description: Virtual network and routing zone management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Virtual network and routing zone management
   name: Juniper Networks Virtual Networks API
   slug: juniper-virtual-networks-api
-- description: SD-WAN edge device management
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: SD-WAN edge device management
   name: Juniper Networks WAN Edges API
   slug: juniper-wan-edges-api
-- description: Webhook configuration for event notifications
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Webhook configuration for event notifications
   name: Juniper Networks Webhooks API
   slug: juniper-webhooks-api
-- description: Wireless LAN configuration
+- baseURL: https://[space-server]/api/space
+  baseurl_source: declared
+  description: Wireless LAN configuration
   name: Juniper Networks WLANs API
   slug: juniper-wlans-api
 artifact_total: 184
@@ -722,7 +814,7 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -732,7 +824,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -741,7 +833,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/screenshots/juniper-2026-06-20T183833.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 5
@@ -62,13 +62,17 @@ apis:
 - description: Implements OAuth 2.0 client credentials flow for managing credentials and obtaining access tokens for all Brightcove REST APIs.
   name: Brightcove OAuth API
   slug: brightcove-oauth-api
-- description: Enables server-side ad stitching directly into video streams, supporting VOD and live stream monetization with seamless ad insertion.
+- baseURL: https://ssai.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Enables server-side ad stitching directly into video streams, supporting VOD and live stream monetization with seamless ad insertion.
   name: Brightcove SSAI API
   slug: brightcove-ssai-api
 - description: Manages profiles that define video processing during ingestion, controlling encoding settings and rendition creation.
   name: Brightcove Ingest Profiles API
   slug: brightcove-ingest-profiles-api
-- description: Customizes media delivery to meet specific business objectives, enabling conditional logic for rendition selection and CDN routing.
+- baseURL: https://delivery-rules.api.brightcove.com
+  baseurl_source: declared
+  description: Customizes media delivery to meet specific business objectives, enabling conditional logic for rendition selection and CDN routing.
   name: Brightcove Delivery Rules API
   slug: brightcove-delivery-rules-api
 - description: Manages cloud-based linear channel playout with EPG (Electronic Programming Guide) and Channels APIs for scheduled programming.
@@ -83,124 +87,204 @@ apis:
 - description: Provides scalable playback management including DRM, concurrency controls, and geographic and domain restrictions.
   name: Brightcove Playback Restrictions API
   slug: brightcove-playback-restrictions-api
-- description: Get access tokens to authenticate API requests.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Get access tokens to authenticate API requests.
   name: Brightcove Access Tokens API
   slug: brightcove-access-tokens-api
-- description: Operations for managing default profiles for the account.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing default profiles for the account.
   name: Brightcove Account Configuration API
   slug: brightcove-account-configuration-api
-- description: Operations for tracking ad calls - used primarily for debugging.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for tracking ad calls - used primarily for debugging.
   name: Brightcove Ad Call Tracking API
   slug: brightcove-ad-call-tracking-api
-- description: Operations for managing ad configurations.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing ad configurations.
   name: Brightcove Ad Configurations API
   slug: brightcove-ad-configurations-api
-- description: Full analytics reports with many options for filtering, date ranges, formats, and more.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Full analytics reports with many options for filtering, date ranges, formats, and more.
   name: Brightcove Analytics Report API
   slug: brightcove-analytics-report-api
-- description: Clear_sources endpoints expose unencrypted sources to the preview players in the studio for customers who are using [Playback Rights](/playback-restrictions/references/index.html) to protect DRM and H
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Clear_sources endpoints expose unencrypted sources to the preview players in the studio for customers who are using [Playback Rights](/playback-restrictions/references/index.html) to protect DRM and H
   name: Brightcove Clear-Sources API
   slug: brightcove-clear-sources-api
-- description: Create client credentials needed to get access tokens.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Create client credentials needed to get access tokens.
   name: Brightcove Client Credentials API
   slug: brightcove-client-credentials-api
-- description: Operations for creating and managing credentials for secure destinations.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating and managing credentials for secure destinations.
   name: Brightcove Credentials API
   slug: brightcove-credentials-api
-- description: Operations for creating and managing custom fields.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating and managing custom fields.
   name: Brightcove Custom Fields API
   slug: brightcove-custom-fields-api
-- description: Operations for creating, reading, updating and deleting Delivery Rule Actions
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating, reading, updating and deleting Delivery Rule Actions
   name: Brightcove Delivery Rule Actions API
   slug: brightcove-delivery-rule-actions-api
-- description: Operations for reading and updating Delivery Rule Conditions
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for reading and updating Delivery Rule Conditions
   name: Brightcove Delivery Rule Conditions API
   slug: brightcove-delivery-rule-conditions-api
-- description: Operations for reading Delivery Rules
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for reading Delivery Rules
   name: Brightcove Delivery Rules API
   slug: brightcove-delivery-rules-api
-- description: Operations for managing player embed (child player) configurations.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing player embed (child player) configurations.
   name: Brightcove Embed Configurations API
   slug: brightcove-embed-configurations-api
-- description: Detailed engagement reports by account, video or player. Detailed engagement is available only for the most recent 32 days.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Detailed engagement reports by account, video or player. Detailed engagement is available only for the most recent 32 days.
   name: Brightcove Engagement Report API
   slug: brightcove-engagement-report-api
-- description: Operations for managing folders to organize your videos.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing folders to organize your videos.
   name: Brightcove Folders API
   slug: brightcove-folders-api
-- description: Operations for getting the history of all or a specific video.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for getting the history of all or a specific video.
   name: Brightcove History API
   slug: brightcove-history-api
-- description: The Ingest API from Brightcove — 2 operation(s) for ingest.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: The Ingest API from Brightcove — 2 operation(s) for ingest.
   name: Brightcove Ingest API
   slug: brightcove-ingest-api
-- description: Operations for managing folders to organize your videos. See [Working with Labels](/cms/managing-videos/working-with-labels.html) for more information.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing folders to organize your videos. See [Working with Labels](/cms/managing-videos/working-with-labels.html) for more information.
   name: Brightcove Labels API
   slug: brightcove-labels-api
-- description: Get leads for a Video Cloud account.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Get leads for a Video Cloud account.
   name: Brightcove Leads API
   slug: brightcove-leads-api
-- description: Analytics for Live streams
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Analytics for Live streams
   name: Brightcove Live Analytics API
   slug: brightcove-live-analytics-api
-- description: Operations for creating and managing VOD clips, including scheduling clips for SEP jobs
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating and managing VOD clips, including scheduling clips for SEP jobs
   name: Brightcove Live Job Clip API
   slug: brightcove-live-job-clip-api
-- description: Operations for creating live jobs, listing live jobs, getting job details, and canceling live jobs. There are also operations for activating and deactivating SEP jobs, scheduling activation and deacti
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating live jobs, listing live jobs, getting job details, and canceling live jobs. There are also operations for activating and deactivating SEP jobs, scheduling activation and deacti
   name: Brightcove Live Jobs API
   slug: brightcove-live-jobs-api
-- description: Operations for managing renditions, manifests, and other media assets. These operations are used mainly for remote assets.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing renditions, manifests, and other media assets. These operations are used mainly for remote assets.
   name: Brightcove Media Assets API
   slug: brightcove-media-assets-api
-- description: Operations for creating and managing hierarchical labels that can be associated with videos.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating and managing hierarchical labels that can be associated with videos.
   name: Brightcove Media Sharing API
   slug: brightcove-media-sharing-api
-- description: Operations for setting up and managing notifications of changes to your video library.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for setting up and managing notifications of changes to your video library.
   name: Brightcove Notifications API
   slug: brightcove-notifications-api
-- description: Operations for managing player configurations.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing player configurations.
   name: Brightcove Player Configurations API
   slug: brightcove-player-configurations-api
-- description: Operations for managing player embeds (child players).
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing player embeds (child players).
   name: Brightcove Player Embeds API
   slug: brightcove-player-embeds-api
-- description: Operations for managing players.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing players.
   name: Brightcove Players API
   slug: brightcove-players-api
-- description: Operations for managing video playlists.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing video playlists.
   name: Brightcove Playlists API
   slug: brightcove-playlists-api
-- description: Operations for working with the player plugin registry.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for working with the player plugin registry.
   name: Brightcove Plugin Registry API
   slug: brightcove-plugin-registry-api
-- description: Operations creating and managing ingest profiles.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations creating and managing ingest profiles.
   name: Brightcove Profiles API
   slug: brightcove-profiles-api
-- description: Operations for creating redundant groups of live jobs for failover in case one stream fails
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating redundant groups of live jobs for failover in case one stream fails
   name: Brightcove Redundant Groups API
   slug: brightcove-redundant-groups-api
-- description: Operations for creating and managing RTMP outputs. Note that RTMP output hours will be billed against event hours.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for creating and managing RTMP outputs. Note that RTMP output hours will be billed against event hours.
   name: Brightcove RTMP Outputs API
   slug: brightcove-rtmp-outputs-api
-- description: Operations for scheduling the creation of a VOD clip for SEP jobs only.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for scheduling the creation of a VOD clip for SEP jobs only.
   name: Brightcove Schedule Clip API
   slug: brightcove-schedule-clip-api
-- description: Operations for scheduling the activation and deactivation of an SEP job.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for scheduling the activation and deactivation of an SEP job.
   name: Brightcove Schedule SEP Job Start Stop API
   slug: brightcove-schedule-sep-job-start-stop-api
-- description: Operations for managing server-side ad insertion with live streams.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing server-side ad insertion with live streams.
   name: Brightcove SSAI API
   slug: brightcove-ssai-api
-- description: Operations for getting the status of all or a specific video.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for getting the status of all or a specific video.
   name: Brightcove Status API
   slug: brightcove-status-api
-- description: Low latency endpoints for quickly retrieving a single piece of data.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Low latency endpoints for quickly retrieving a single piece of data.
   name: Brightcove Video Data API
   slug: brightcove-video-data-api
-- description: Operations for managing videos, video metadata, audio tracks, and more.
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Operations for managing videos, video metadata, audio tracks, and more.
   name: Brightcove Videos API
   slug: brightcove-videos-api
-- description: Get view events for a Video Cloud account
+- baseURL: https://cms.api.brightcove.com/v1
+  baseurl_source: declared
+  description: Get view events for a Video Cloud account
   name: Brightcove View Events API
   slug: brightcove-view-events-api
 artifact_total: 103
@@ -458,7 +542,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/screenshots/brightcove-2026-06-20T173711.png
 security:

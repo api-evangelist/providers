@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 2
 common:
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memoir/refs/heads/main/screenshots/memoir-2026-08-07T172457.png
 security:

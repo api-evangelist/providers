@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Amgen discovers, develops, manufactures, and delivers innovative biologic medicines for patients with serious illnesses. The company does not currently publish a public developer API.
@@ -41,6 +41,14 @@ apis:
   slug: website
 artifact_total: 19
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amgen-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amgen-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
@@ -49,9 +57,9 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/Amgen
-- group: start
+- group: company
   title: ''
-  type: Portal
+  type: Website
   url: https://www.amgen.com
 - group: company
   title: ''
@@ -68,7 +76,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://www.amgen.com/contact-amgen
+  url: https://www.amgen.com/contact-us
 - group: company
   title: ''
   type: LinkedIn
@@ -81,6 +89,22 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/amgen
+coverage:
+  checked: '2026-09-02'
+  detail: 'Amgen manufactures biologic medicines, not software: its full 2,773-URL corporate sitemap contains no developer, API or documentation section, /developers and /openapi.json both 404, the whole /.well-known/ directory is 403 at the edge, and api.amgen.com resolves only to a shared Salesforce Commerce Cloud host serving an unrelated tenant.'
+  evidence:
+  - status: 200
+    url: https://www.amgen.com/sitemap.xml
+  - status: 404
+    url: https://www.amgen.com/developers
+  - status: 404
+    url: https://www.amgen.com/openapi.json
+  - status: 403
+    url: https://www.amgen.com/.well-known/api-catalog
+  - status: 403
+    url: https://www.amgen.com/graphql
+  reason: not-a-software-company
+  state: none
 created: '2024-01-01'
 description: Amgen is committed to unlocking the potential of biology for patients suffering from serious illnesses by discovering, developing, manufacturing and delivering innovative human therapeutics. As a pioneer in biotechnology since 1980, Amgen uses living cells to make biologic medicines addressing cardiovascular metabolic conditions, oncology, inflammation, rare diseases, and bone health, operating in approximately 100 countries worldwide.
 features:
@@ -106,17 +130,17 @@ finops:
   slug: amgen-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amgen.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Amgen
 nav: Providers
 network: true
 overview: 'Amgen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Biopharmaceutical, Oncology, inflammation, and Cardiovascular.
 
 
-  Amgen''s developer surface includes developer portal, engineering blog, support, YouTube channel, and 6 more developer resources.'
+  Amgen''s developer surface includes engineering blog, support, YouTube channel, and 9 more developer resources.'
 plans:
 - name: Amgen Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: amgen-plans-pricing
 press:
 - date: '2026-05-25'
@@ -136,27 +160,27 @@ press:
   url: https://www.amgen.com/stories/2025/05/on-the-global-stage-amgens-top-voices-drive-conversations-on-ai-and-innovation
 random_paper: 16
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Amgen Rate Limits
   slug: amgen-rate-limits
 score:
   band: emerging
-  composite: 16.9
+  composite: 13.3
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 71.0
+    artifact_dirs: 11
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -3.6
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 2.6
   previous_composite: 16.9
   regulatory:
     applies: true
@@ -165,7 +189,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amgen/refs/heads/main/screenshots/amgen-2026-06-20T171930.png
 security:

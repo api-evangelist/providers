@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
-- description: The Access Token API from Hustle — 1 operation(s) for access token.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Access Token API from Hustle — 1 operation(s) for access token.
   name: Hustle Access Token API
   slug: hustle-access-token-api
-- description: The Agents API from Hustle — 2 operation(s) for agents.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Agents API from Hustle — 2 operation(s) for agents.
   name: Hustle Agents API
   slug: hustle-agents-api
-- description: The Custom Fields API from Hustle — 1 operation(s) for custom fields.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Custom Fields API from Hustle — 1 operation(s) for custom fields.
   name: Hustle Custom Fields API
   slug: hustle-custom-fields-api
-- description: The Groups API from Hustle — 1 operation(s) for groups.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Groups API from Hustle — 1 operation(s) for groups.
   name: Hustle Groups API
   slug: hustle-groups-api
-- description: The Integrations API from Hustle — 1 operation(s) for integrations.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Integrations API from Hustle — 1 operation(s) for integrations.
   name: Hustle Integrations API
   slug: hustle-integrations-api
-- description: The Leads API from Hustle — 1 operation(s) for leads.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Leads API from Hustle — 1 operation(s) for leads.
   name: Hustle Leads API
   slug: hustle-leads-api
-- description: The Messages API from Hustle — 1 operation(s) for message delivery status.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Messages API from Hustle — 1 operation(s) for message delivery status.
   name: Hustle Messages API
   slug: hustle-messages-api
-- description: The Organizations API from Hustle — 1 operation(s) for organizations.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Organizations API from Hustle — 1 operation(s) for organizations.
   name: Hustle Organizations API
   slug: hustle-organizations-api
-- description: The Tags API from Hustle — 1 operation(s) for tags.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Tags API from Hustle — 1 operation(s) for tags.
   name: Hustle Tags API
   slug: hustle-tags-api
-- description: The Webhooks API from Hustle — 3 operation(s) for webhooks.
+- baseURL: https://api.hustle.com/v3
+  baseurl_source: declared
+  description: The Webhooks API from Hustle — 3 operation(s) for webhooks.
   name: Hustle Webhooks API
   slug: hustle-webhooks-api
 artifact_total: 30
@@ -283,7 +303,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -293,7 +313,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 63.5
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,7 +331,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:

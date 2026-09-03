@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 44 operations · 27 acting
 api_count: 1
 apis:
-- description: Asset lifecycle and downtime management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Asset lifecycle and downtime management
   name: UpKeep Assets API
   slug: upkeep-assets-api
-- description: Session token management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Session token management
   name: UpKeep Authentication API
   slug: upkeep-authentication-api
-- description: Location hierarchy management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Location hierarchy management
   name: UpKeep Locations API
   slug: upkeep-locations-api
-- description: Meter and reading management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Meter and reading management
   name: UpKeep Meters API
   slug: upkeep-meters-api
-- description: Parts and inventory management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Parts and inventory management
   name: UpKeep Parts API
   slug: upkeep-parts-api
-- description: Preventive maintenance schedules and triggers
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Preventive maintenance schedules and triggers
   name: UpKeep Preventive Maintenance API
   slug: upkeep-preventive-maintenance-api
-- description: Purchase order management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Purchase order management
   name: UpKeep Purchase Orders API
   slug: upkeep-purchase-orders-api
-- description: Maintenance request management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Maintenance request management
   name: UpKeep Requests API
   slug: upkeep-requests-api
-- description: Webhook event subscription management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Webhook event subscription management
   name: UpKeep Webhooks API
   slug: upkeep-webhooks-api
-- description: Work order creation and management
+- baseURL: https://api.onupkeep.com/api/v2
+  baseurl_source: declared
+  description: Work order creation and management
   name: UpKeep Work Orders API
   slug: upkeep-work-orders-api
 artifact_total: 37
@@ -257,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upkeep/refs/heads/main/screenshots/upkeep-2026-06-20T200501.png
 security:

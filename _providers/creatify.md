@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 31 operations · 13 acting
 api_count: 1
 apis:
-- description: Lipsync v1/v2 and Aurora avatar video generation.
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Lipsync v1/v2 and Aurora avatar video generation.
   name: Creatify AI Avatar API
   slug: creatify-ai-avatar-api
-- description: Enhance and stylize existing videos (modeled).
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Enhance and stylize existing videos (modeled).
   name: Creatify AI Editing API
   slug: creatify-ai-editing-api
-- description: Convert a text script into a short-form video (deprecated).
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Convert a text script into a short-form video (deprecated).
   name: Creatify AI Shorts API
   slug: creatify-ai-shorts-api
-- description: Generate videos from customizable templates (modeled).
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Generate videos from customizable templates (modeled).
   name: Creatify Custom Templates API
   slug: creatify-custom-templates-api
-- description: Turn a URL into a short-form video ad.
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Turn a URL into a short-form video ad.
   name: Creatify Link-to-Video API
   slug: creatify-link-to-video-api
-- description: Background-music categories and tracks (modeled).
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Background-music categories and tracks (modeled).
   name: Creatify Music API
   slug: creatify-music-api
-- description: Catalog of 1500+ AI avatars/personas.
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Catalog of 1500+ AI avatars/personas.
   name: Creatify Personas API
   slug: creatify-personas-api
-- description: Generate video ads from product images (modeled).
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Generate video ads from product images (modeled).
   name: Creatify Product-to-Video API
   slug: creatify-product-to-video-api
-- description: Generate voiceovers from text.
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Generate voiceovers from text.
   name: Creatify Text-to-Speech API
   slug: creatify-text-to-speech-api
-- description: Catalog of AI voices and accents.
+- baseURL: https://api.creatify.ai/api
+  baseurl_source: declared
+  description: Catalog of AI voices and accents.
   name: Creatify Voices API
   slug: creatify-voices-api
 artifact_total: 28
@@ -205,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/screenshots/creatify-2026-07-25T210659.png
 security:

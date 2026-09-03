@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: The BNSF Waybill Management API enables customers to submit bills of lading with transit details and retrieve submissions for carload shipments. Supports electronic submission and retrieval of waybill
   name: BNSF Waybill Management API
   slug: bnsf-waybill-management-api
-- description: The BNSF Reference Files API provides access to reference data including city names, commodity descriptions (STCC codes), station data, event codes, and hazardous materials information used in freight
+- baseURL: https://api.bnsf.com:6443
+  baseurl_source: spec
+  description: The BNSF Reference Files API provides access to reference data including city names, commodity descriptions (STCC codes), station data, event codes, and hazardous materials information used in freight
   name: BNSF Reference Files API
   slug: bnsf-reference-files-api
-- description: The Diagnostics API from BNSF — 1 operation(s) for diagnostics.
+- baseURL: https://api.bnsf.com:6443
+  baseurl_source: spec
+  description: The Diagnostics API from BNSF — 1 operation(s) for diagnostics.
   name: BNSF Diagnostics API
   slug: bnsf-diagnostics-api
-- description: The Reference Files API from BNSF — 1 operation(s) for reference files.
+- baseURL: https://api.bnsf.com:6443
+  baseurl_source: spec
+  description: The Reference Files API from BNSF — 1 operation(s) for reference files.
   name: BNSF Reference Files API
   slug: bnsf-reference-files-api
 artifact_total: 18
@@ -171,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/screenshots/bnsf-2026-06-20T173544.png
 security:

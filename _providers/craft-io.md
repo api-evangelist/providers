@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: REST API for managing customer feedback portals, including listing portals and categories, retrieving feedback items, and submitting new feedback via POST requests.
   name: Craft.io Feedback Portal API
   slug: craftio-feedback-portal-api
-- description: Feedback items are the main building blocks of your product’s feedback process.
+- baseURL: https://api.craft.io
+  baseurl_source: declared
+  description: Feedback items are the main building blocks of your product’s feedback process.
   name: Craft.io Feedback items API
   slug: craft-io-feedback-items-api
-- description: Feedback portals are the areas where various stakeholders submit their product related feedbacks
+- baseURL: https://api.craft.io
+  baseurl_source: declared
+  description: Feedback portals are the areas where various stakeholders submit their product related feedbacks
   name: Craft.io Feedback Portals API
   slug: craft-io-feedback-portals-api
-- description: The Introspection API from Craft.io — 1 operation(s) for introspection.
+- baseURL: https://api.craft.io
+  baseurl_source: declared
+  description: The Introspection API from Craft.io — 1 operation(s) for introspection.
   name: Craft.io Introspection API
   slug: craft-io-introspection-api
-- description: The Portfolios API from Craft.io — 3 operation(s) for portfolios.
+- baseURL: https://api.craft.io
+  baseurl_source: declared
+  description: The Portfolios API from Craft.io — 3 operation(s) for portfolios.
   name: Craft.io Portfolios API
   slug: craft-io-portfolios-api
-- description: Work items are the main building blocks of your product’s roadmap, and include Products, Epics, Features and Sub Features.<br /> OKRs are the goal-setting framework of your product’s roadmap, and incl
+- baseURL: https://api.craft.io
+  baseurl_source: declared
+  description: Work items are the main building blocks of your product’s roadmap, and include Products, Epics, Features and Sub Features.<br /> OKRs are the goal-setting framework of your product’s roadmap, and incl
   name: Craft.io Work Items and OKRs API
   slug: craft-io-work-items-and-okrs-api
-- description: Workspaces are the areas where product teams are managing the full lifecycle of their products
+- baseURL: https://api.craft.io
+  baseurl_source: declared
+  description: Workspaces are the areas where product teams are managing the full lifecycle of their products
   name: Craft.io Workspaces API
   slug: craft-io-workspaces-api
 artifact_total: 76
@@ -379,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/screenshots/craft-io-2026-06-20T175212.png
 security:

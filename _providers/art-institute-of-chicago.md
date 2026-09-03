@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,115 +49,189 @@ apis:
 - description: Nightly data dumps of the collection and related resources, published as JSON in a public GitHub repository. Recommended for bulk consumers instead of scraping the API.
   name: Bulk Data Dumps
   slug: bulk-data-dumps
-- description: Roles agents can play in relation to an artwork.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Roles agents can play in relation to an artwork.
   name: Art Institute of Chicago Agent Roles API
   slug: art-institute-of-chicago-agent-roles-api
-- description: Classifications of agents (Individual, Corporate, etc.).
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Classifications of agents (Individual, Corporate, etc.).
   name: Art Institute of Chicago Agent Types API
   slug: art-institute-of-chicago-agent-types-api
-- description: People and organizations (artists, makers, donors) associated with artworks.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: People and organizations (artists, makers, donors) associated with artworks.
   name: Art Institute of Chicago Agents API
   slug: art-institute-of-chicago-agents-api
-- description: Magazine-style articles published by the museum.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Magazine-style articles published by the museum.
   name: Art Institute of Chicago Articles API
   slug: art-institute-of-chicago-articles-api
-- description: Convenience alias for agents flagged as artists.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Convenience alias for agents flagged as artists.
   name: Art Institute of Chicago Artists API
   slug: art-institute-of-chicago-artists-api
-- description: Date qualifier terms used on artworks.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Date qualifier terms used on artworks.
   name: Art Institute of Chicago Artwork Date Qualifiers API
   slug: art-institute-of-chicago-artwork-date-qualifiers-api
-- description: Place qualifier terms used on artworks.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Place qualifier terms used on artworks.
   name: Art Institute of Chicago Artwork Place Qualifiers API
   slug: art-institute-of-chicago-artwork-place-qualifiers-api
-- description: Classification of artwork types (Painting, Sculpture, etc.).
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Classification of artwork types (Painting, Sculpture, etc.).
   name: Art Institute of Chicago Artwork Types API
   slug: art-institute-of-chicago-artwork-types-api
-- description: Artworks from the Art Institute of Chicago collection (~120,000 records).
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Artworks from the Art Institute of Chicago collection (~120,000 records).
   name: Art Institute of Chicago Artworks API
   slug: art-institute-of-chicago-artworks-api
-- description: Subject, department and style category terms.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Subject, department and style category terms.
   name: Art Institute of Chicago Category Terms API
   slug: art-institute-of-chicago-category-terms-api
-- description: Articles inside digital publications.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Articles inside digital publications.
   name: Art Institute of Chicago Digital Publication Articles API
   slug: art-institute-of-chicago-digital-publication-articles-api
-- description: Online scholarly publications and catalogues.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Online scholarly publications and catalogues.
   name: Art Institute of Chicago Digital Publications API
   slug: art-institute-of-chicago-digital-publications-api
-- description: Lesson plans and resources for educators.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Lesson plans and resources for educators.
   name: Art Institute of Chicago Educator Resources API
   slug: art-institute-of-chicago-educator-resources-api
-- description: Scheduled occurrences of an event.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Scheduled occurrences of an event.
   name: Art Institute of Chicago Event Occurrences API
   slug: art-institute-of-chicago-event-occurrences-api
-- description: Recurring program series the events belong to.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Recurring program series the events belong to.
   name: Art Institute of Chicago Event Programs API
   slug: art-institute-of-chicago-event-programs-api
-- description: Public events at the museum.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Public events at the museum.
   name: Art Institute of Chicago Events API
   slug: art-institute-of-chicago-events-api
-- description: Past, current and upcoming exhibitions.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Past, current and upcoming exhibitions.
   name: Art Institute of Chicago Exhibitions API
   slug: art-institute-of-chicago-exhibitions-api
-- description: Galleries inside the Art Institute of Chicago museum.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Galleries inside the Art Institute of Chicago museum.
   name: Art Institute of Chicago Galleries API
   slug: art-institute-of-chicago-galleries-api
-- description: Generic landing-style pages.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Generic landing-style pages.
   name: Art Institute of Chicago Generic Pages API
   slug: art-institute-of-chicago-generic-pages-api
-- description: Curated highlight items from the collection.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Curated highlight items from the collection.
   name: Art Institute of Chicago Highlights API
   slug: art-institute-of-chicago-highlights-api
-- description: Museum opening hours.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Museum opening hours.
   name: Art Institute of Chicago Hours API
   slug: art-institute-of-chicago-hours-api
-- description: Image assets (delivered via IIIF for binary data).
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Image assets (delivered via IIIF for binary data).
   name: Art Institute of Chicago Images API
   slug: art-institute-of-chicago-images-api
-- description: Top-level landing pages of artic.edu.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Top-level landing pages of artic.edu.
   name: Art Institute of Chicago Landing Pages API
   slug: art-institute-of-chicago-landing-pages-api
-- description: Audio tour stops and mobile-app sound content.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Audio tour stops and mobile-app sound content.
   name: Art Institute of Chicago Mobile Sounds API
   slug: art-institute-of-chicago-mobile-sounds-api
-- description: Geographic places linked to artworks (uses Getty Thesaurus of Geographic Names).
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Geographic places linked to artworks (uses Getty Thesaurus of Geographic Names).
   name: Art Institute of Chicago Places API
   slug: art-institute-of-chicago-places-api
-- description: Official press releases from the museum.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Official press releases from the museum.
   name: Art Institute of Chicago Press Releases API
   slug: art-institute-of-chicago-press-releases-api
-- description: Print catalogues and books.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Print catalogues and books.
   name: Art Institute of Chicago Printed Publications API
   slug: art-institute-of-chicago-printed-publications-api
-- description: Items for sale in the museum shop.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Items for sale in the museum shop.
   name: Art Institute of Chicago Products API
   slug: art-institute-of-chicago-products-api
-- description: All museum publications (combined index).
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: All museum publications (combined index).
   name: Art Institute of Chicago Publications API
   slug: art-institute-of-chicago-publications-api
-- description: Cross-resource Elasticsearch-style search.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Cross-resource Elasticsearch-style search.
   name: Art Institute of Chicago Search API
   slug: art-institute-of-chicago-search-api
-- description: Sections of online publications and catalogues.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Sections of online publications and catalogues.
   name: Art Institute of Chicago Sections API
   slug: art-institute-of-chicago-sections-api
-- description: Microsites and online sites published by the museum.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Microsites and online sites published by the museum.
   name: Art Institute of Chicago Sites API
   slug: art-institute-of-chicago-sites-api
-- description: Sound assets and metadata.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Sound assets and metadata.
   name: Art Institute of Chicago Sounds API
   slug: art-institute-of-chicago-sounds-api
-- description: Static content pages of artic.edu.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Static content pages of artic.edu.
   name: Art Institute of Chicago Static Pages API
   slug: art-institute-of-chicago-static-pages-api
-- description: Long-form text content.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Long-form text content.
   name: Art Institute of Chicago Texts API
   slug: art-institute-of-chicago-texts-api
-- description: Curated multi-stop museum tours.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Curated multi-stop museum tours.
   name: Art Institute of Chicago Tours API
   slug: art-institute-of-chicago-tours-api
-- description: Video assets and metadata.
+- baseURL: https://api.artic.edu/api/v1
+  baseurl_source: declared
+  description: Video assets and metadata.
   name: Art Institute of Chicago Videos API
   slug: art-institute-of-chicago-videos-api
 artifact_total: 107
@@ -456,7 +530,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/screenshots/art-institute-of-chicago-2026-06-20T172440.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -46,49 +46,79 @@ apis:
 - description: Apiman is an open source API management platform with a developer portal, API gateway, and management UI supporting policies, plans, organizations, multi-tenancy, and extensible Java-based plugin arch
   name: Apiman
   slug: apiman
-- description: The Actions API from Apiman — 2 operation(s) for actions.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Actions API from Apiman — 2 operation(s) for actions.
   name: Apiman Actions API
   slug: apiman-actions-api
-- description: The Blobs API from Apiman — 2 operation(s) for blobs.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Blobs API from Apiman — 2 operation(s) for blobs.
   name: Apiman Blobs API
   slug: apiman-blobs-api
-- description: The Developers API from Apiman — 8 operation(s) for developers.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Developers API from Apiman — 8 operation(s) for developers.
   name: Apiman Developers API
   slug: apiman-developers-api
-- description: The Devportal API from Apiman — 22 operation(s) for devportal.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Devportal API from Apiman — 22 operation(s) for devportal.
   name: Apiman Devportal API
   slug: apiman-devportal-api
-- description: The Downloads API from Apiman — 1 operation(s) for downloads.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Downloads API from Apiman — 1 operation(s) for downloads.
   name: Apiman Downloads API
   slug: apiman-downloads-api
-- description: The Events API from Apiman — 1 operation(s) for events.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Events API from Apiman — 1 operation(s) for events.
   name: Apiman Events API
   slug: apiman-events-api
-- description: The Experimental API from Apiman — 22 operation(s) for experimental.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Experimental API from Apiman — 22 operation(s) for experimental.
   name: Apiman Experimental API
   slug: apiman-experimental-api
-- description: The Gateways API from Apiman — 3 operation(s) for gateways.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Gateways API from Apiman — 3 operation(s) for gateways.
   name: Apiman Gateways API
   slug: apiman-gateways-api
-- description: The Organizations API from Apiman — 57 operation(s) for organizations.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Organizations API from Apiman — 57 operation(s) for organizations.
   name: Apiman Organizations API
   slug: apiman-organizations-api
-- description: The Plugins API from Apiman — 5 operation(s) for plugins.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Plugins API from Apiman — 5 operation(s) for plugins.
   name: Apiman Plugins API
   slug: apiman-plugins-api
-- description: The Policy Definitions API from Apiman — 2 operation(s) for policy definitions.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Policy Definitions API from Apiman — 2 operation(s) for policy definitions.
   name: Apiman Policy Definitions API
   slug: apiman-policy-definitions-api
-- description: The Roles API from Apiman — 2 operation(s) for roles.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Roles API from Apiman — 2 operation(s) for roles.
   name: Apiman Roles API
   slug: apiman-roles-api
-- description: The Search API from Apiman — 7 operation(s) for search.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Search API from Apiman — 7 operation(s) for search.
   name: Apiman Search API
   slug: apiman-search-api
-- description: The System API from Apiman — 3 operation(s) for system.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The System API from Apiman — 3 operation(s) for system.
   name: Apiman System API
   slug: apiman-system-api
-- description: The Users API from Apiman — 13 operation(s) for users.
+- baseURL: https://localhost:8080/apiman
+  baseurl_source: declared
+  description: The Users API from Apiman — 13 operation(s) for users.
   name: Apiman Users API
   slug: apiman-users-api
 artifact_total: 59
@@ -305,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png
 security:

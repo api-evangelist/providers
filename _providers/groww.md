@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 5 acting
 api_count: 1
 apis:
-- description: Access-token generation for API key + secret and TOTP flows.
+- baseURL: https://api.groww.in
+  baseurl_source: declared
+  description: Access-token generation for API key + secret and TOTP flows.
   name: Groww Authentication API
   slug: groww-authentication-api
-- description: Historical candle data.
+- baseURL: https://api.groww.in
+  baseurl_source: declared
+  description: Historical candle data.
   name: Groww Historical Data API
   slug: groww-historical-data-api
-- description: Real-time LTP, quote, OHLC, option chain and greeks.
+- baseURL: https://api.groww.in
+  baseurl_source: declared
+  description: Real-time LTP, quote, OHLC, option chain and greeks.
   name: Groww Live Data API
   slug: groww-live-data-api
-- description: Available margin and per-order margin requirements.
+- baseURL: https://api.groww.in
+  baseurl_source: declared
+  description: Available margin and per-order margin requirements.
   name: Groww Margin API
   slug: groww-margin-api
-- description: Place, modify, cancel and track orders and trades.
+- baseURL: https://api.groww.in
+  baseurl_source: declared
+  description: Place, modify, cancel and track orders and trades.
   name: Groww Orders API
   slug: groww-orders-api
-- description: Holdings and positions.
+- baseURL: https://api.groww.in
+  baseurl_source: declared
+  description: Holdings and positions.
   name: Groww Portfolio API
   slug: groww-portfolio-api
 artifact_total: 26
@@ -298,7 +310,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

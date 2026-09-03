@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: Spring Batch integration with Spring Integration for remote partitioning, remote chunking, and message-driven batch processing.
   name: Spring Batch 5.1 Integration API
   slug: spring-batch-51-integration-api
-- description: Batch job execution management and monitoring
+- baseURL: https://github.com/spring-projects/spring-batch
+  baseurl_source: declared
+  description: Batch job execution management and monitoring
   name: Spring Batch 5.1 Batch Jobs API
   slug: spring-batch-5-1-batch-jobs-api
-- description: Application and component health checks
+- baseURL: https://github.com/spring-projects/spring-batch
+  baseurl_source: declared
+  description: Application and component health checks
   name: Spring Batch 5.1 Health API
   slug: spring-batch-5-1-health-api
-- description: Micrometer-based application metrics
+- baseURL: https://github.com/spring-projects/spring-batch
+  baseurl_source: declared
+  description: Micrometer-based application metrics
   name: Spring Batch 5.1 Metrics API
   slug: spring-batch-5-1-metrics-api
 artifact_total: 25
@@ -238,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch-5-1/refs/heads/main/screenshots/spring-batch-5-1-2026-06-20T194404.png
 security:

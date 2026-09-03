@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 27 operations · 9 acting
 api_count: 1
 apis:
-- description: Access dashboard metrics and AI usage data.
+- baseURL: https://app.corridor.dev/api
+  baseurl_source: declared
+  description: Access dashboard metrics and AI usage data.
   name: Corridor Dashboard API
   slug: corridor-dashboard-api
-- description: Retrieve and manage security findings across projects.
+- baseURL: https://app.corridor.dev/api
+  baseurl_source: declared
+  description: Retrieve and manage security findings across projects.
   name: Corridor Findings API
   slug: corridor-findings-api
-- description: Manage per-project security guardrails (reports) and packs.
+- baseURL: https://app.corridor.dev/api
+  baseurl_source: declared
+  description: Manage per-project security guardrails (reports) and packs.
   name: Corridor Guardrails API
   slug: corridor-guardrails-api
-- description: Access pull request review results and AI analysis.
+- baseURL: https://app.corridor.dev/api
+  baseurl_source: declared
+  description: Access pull request review results and AI analysis.
   name: Corridor PR Reviews API
   slug: corridor-pr-reviews-api
-- description: List and inspect projects (connected repositories).
+- baseURL: https://app.corridor.dev/api
+  baseurl_source: declared
+  description: List and inspect projects (connected repositories).
   name: Corridor Projects API
   slug: corridor-projects-api
-- description: Manage team configuration, members, and permissions.
+- baseURL: https://app.corridor.dev/api
+  baseurl_source: declared
+  description: Manage team configuration, members, and permissions.
   name: Corridor Teams API
   slug: corridor-teams-api
 artifact_total: 18
@@ -245,7 +257,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/screenshots/corridor-2026-07-25T210442.png
 security:

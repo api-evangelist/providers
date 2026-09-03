@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Riiid's adaptive learning engine analyzes learner interaction data in real time to recommend personalized study paths and content. It is delivered inside Riiid/Socra products (Santa) and to partners v
+- baseURL: https://www.riiid.com
+  baseurl_source: spec
+  description: Riiid's adaptive learning engine analyzes learner interaction data in real time to recommend personalized study paths and content. It is delivered inside Riiid/Socra products (Santa) and to partners v
   name: Riiid Adaptive Learning
   slug: adaptive-learning
-- description: Proprietary deep knowledge tracing and score-prediction models (built on 100M+ student interactions, the EdNet dataset) estimate a learner's mastery and predict test outcomes in real time. Exposed thr
+- baseURL: https://www.riiid.com
+  baseurl_source: spec
+  description: Proprietary deep knowledge tracing and score-prediction models (built on 100M+ student interactions, the EdNet dataset) estimate a learner's mastery and predict test outcomes in real time. Exposed thr
   name: Riiid Knowledge Tracing
   slug: knowledge-tracing
-- description: Santa is Riiid's consumer AI tutor app for standardized English tests (TOEIC, and TOEFL via an ETS content partnership). It is distributed as iOS / Android mobile applications with no documented publi
+- baseURL: https://www.riiid.com
+  baseurl_source: spec
+  description: Santa is Riiid's consumer AI tutor app for standardized English tests (TOEIC, and TOEFL via an ETS content partnership). It is distributed as iOS / Android mobile applications with no documented publi
   name: Riiid Santa
   slug: santa
-- description: B2B / AI-as-a-Service (R.Inside) engagements that embed Riiid's adaptive learning and knowledge-tracing AI into partner education platforms. Access is sales-led and contract-based via partnership@socr
+- baseURL: https://www.riiid.com
+  baseurl_source: spec
+  description: B2B / AI-as-a-Service (R.Inside) engagements that embed Riiid's adaptive learning and knowledge-tracing AI into partner education platforms. Access is sales-led and contract-based via partnership@socr
   name: Riiid Partner Solutions
   slug: partner-solutions
 artifact_total: 10
@@ -118,7 +126,7 @@ score:
   band: emerging
   composite: 23.8
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -140,8 +148,9 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/riiid/refs/heads/main/screenshots/riiid-2026-09-02T153824.png
 security:
 - kind: domain-security
   name: Riiid Domain Security

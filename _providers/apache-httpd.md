@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Configuration directive reference for Apache HTTP Server covering VirtualHost, mod_ssl, mod_rewrite, mod_proxy, and all core directives for web server, proxy, and SSL configuration.
   name: Apache HTTP Server Configuration Reference
   slug: apache-httpd-config-api
-- description: Load balancer management
+- baseURL: http://localhost:80
+  baseurl_source: declared
+  description: Load balancer management
   name: Apache HTTP Server Balancer API
   slug: apache-httpd-balancer-api
-- description: Server status and metrics
+- baseURL: http://localhost:80
+  baseurl_source: declared
+  description: Server status and metrics
   name: Apache HTTP Server Status API
   slug: apache-httpd-status-api
 artifact_total: 46
@@ -267,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/screenshots/apache-httpd-2026-06-20T172105.png
 security:

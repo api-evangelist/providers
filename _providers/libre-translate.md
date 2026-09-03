@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: The misc API from LibreTranslate — 3 operation(s) for misc.
+- baseURL: https://libretranslate.com
+  baseurl_source: declared
+  description: The misc API from LibreTranslate — 3 operation(s) for misc.
   name: LibreTranslate misc API
   slug: libre-translate-misc-api
-- description: The translate API from LibreTranslate — 4 operation(s) for translate.
+- baseURL: https://libretranslate.com
+  baseurl_source: declared
+  description: The translate API from LibreTranslate — 4 operation(s) for translate.
   name: LibreTranslate translate API
   slug: libre-translate-translate-api
 artifact_total: 20
@@ -212,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/libre-translate/refs/heads/main/screenshots/libre-translate-2026-06-20T184504.png
 security:

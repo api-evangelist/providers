@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Pricing, prepaid balance, and checkout.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: Pricing, prepaid balance, and checkout.
   name: Overshoot Billing API
   slug: overshoot-billing-api
-- description: The Chat API from Overshoot — 1 operation(s) for chat.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: The Chat API from Overshoot — 1 operation(s) for chat.
   name: Overshoot Chat API
   slug: overshoot-chat-api
-- description: The Healthz API from Overshoot — 1 operation(s) for healthz.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: The Healthz API from Overshoot — 1 operation(s) for healthz.
   name: Overshoot Healthz API
   slug: overshoot-healthz-api
-- description: The Metrics API from Overshoot — 1 operation(s) for metrics.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: The Metrics API from Overshoot — 1 operation(s) for metrics.
   name: Overshoot Metrics API
   slug: overshoot-metrics-api
-- description: The Models API from Overshoot — 2 operation(s) for models.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: The Models API from Overshoot — 2 operation(s) for models.
   name: Overshoot Models API
   slug: overshoot-models-api
-- description: The Readyz API from Overshoot — 1 operation(s) for readyz.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: The Readyz API from Overshoot — 1 operation(s) for readyz.
   name: Overshoot Readyz API
   slug: overshoot-readyz-api
-- description: Create, inspect, keep alive, and delete live video streams.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: Create, inspect, keep alive, and delete live video streams.
   name: Overshoot Streams API
   slug: overshoot-streams-api
-- description: The V1beta API from Overshoot — 1 operation(s) for v1beta.
+- baseURL: https://api.overshoot.ai/v1beta
+  baseurl_source: declared
+  description: The V1beta API from Overshoot — 1 operation(s) for v1beta.
   name: Overshoot V1beta API
   slug: overshoot-v1beta-api
 artifact_total: 21
@@ -236,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overshoot/refs/heads/main/screenshots/overshoot-2026-08-07T191138.png
 security:

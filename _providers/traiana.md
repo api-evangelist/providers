@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 26 operations · 10 acting
 api_count: 3
 apis:
-- description: The Allocations API from Traiana — 1 operation(s) for allocations.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Allocations API from Traiana — 1 operation(s) for allocations.
   name: Traiana Allocations API
   slug: traiana-allocations-api
-- description: The Compression API from Traiana — 1 operation(s) for compression.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Compression API from Traiana — 1 operation(s) for compression.
   name: Traiana Compression API
   slug: traiana-compression-api
-- description: The Credit Limits API from Traiana — 4 operation(s) for credit limits.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Credit Limits API from Traiana — 4 operation(s) for credit limits.
   name: Traiana Credit Limits API
   slug: traiana-credit-limits-api
-- description: The Designation Notices API from Traiana — 1 operation(s) for designation notices.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Designation Notices API from Traiana — 1 operation(s) for designation notices.
   name: Traiana Designation Notices API
   slug: traiana-designation-notices-api
-- description: The Give-Ups API from Traiana — 1 operation(s) for give-ups.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Give-Ups API from Traiana — 1 operation(s) for give-ups.
   name: Traiana Give-Ups API
   slug: traiana-give-ups-api
-- description: The Matching API from Traiana — 1 operation(s) for matching.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Matching API from Traiana — 1 operation(s) for matching.
   name: Traiana Matching API
   slug: traiana-matching-api
-- description: The Netting API from Traiana — 3 operation(s) for netting.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Netting API from Traiana — 3 operation(s) for netting.
   name: Traiana Netting API
   slug: traiana-netting-api
-- description: The Settlement API from Traiana — 2 operation(s) for settlement.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Settlement API from Traiana — 2 operation(s) for settlement.
   name: Traiana Settlement API
   slug: traiana-settlement-api
-- description: The Trades API from Traiana — 3 operation(s) for trades.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Trades API from Traiana — 3 operation(s) for trades.
   name: Traiana Trades API
   slug: traiana-trades-api
-- description: The Utilization API from Traiana — 1 operation(s) for utilization.
+- baseURL: https://api.traiana.com/creditlink/v1
+  baseurl_source: spec
+  description: The Utilization API from Traiana — 1 operation(s) for utilization.
   name: Traiana Utilization API
   slug: traiana-utilization-api
 artifact_total: 42
@@ -270,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/screenshots/traiana-2026-06-20T195541.png
 security:

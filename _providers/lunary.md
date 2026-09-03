@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: 'REST API for Lunary covering ingestion (logs/traces), prompts (template management with versions and labels), datasets, evaluations, projects, users, and analytics. Authentication uses Bearer tokens; '
   name: Lunary API
   slug: platform
-- description: The Analytics API from Lunary — 1 operation(s) for analytics.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Analytics API from Lunary — 1 operation(s) for analytics.
   name: Lunary Analytics API
   slug: lunary-analytics-api
-- description: The AuditLogs API from Lunary — 1 operation(s) for auditlogs.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The AuditLogs API from Lunary — 1 operation(s) for auditlogs.
   name: Lunary AuditLogs API
   slug: lunary-auditlogs-api
-- description: The Checklists API from Lunary — 2 operation(s) for checklists.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Checklists API from Lunary — 2 operation(s) for checklists.
   name: Lunary Checklists API
   slug: lunary-checklists-api
-- description: The Datasets API from Lunary — 3 operation(s) for datasets.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Datasets API from Lunary — 3 operation(s) for datasets.
   name: Lunary Datasets API
   slug: lunary-datasets-api
-- description: The DatasetsV2 API from Lunary — 13 operation(s) for datasetsv2.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The DatasetsV2 API from Lunary — 13 operation(s) for datasetsv2.
   name: Lunary DatasetsV2 API
   slug: lunary-datasetsv2-api
-- description: The Evals API from Lunary — 7 operation(s) for evals.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Evals API from Lunary — 7 operation(s) for evals.
   name: Lunary Evals API
   slug: lunary-evals-api
-- description: The ExternalUsers API from Lunary — 2 operation(s) for externalusers.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The ExternalUsers API from Lunary — 2 operation(s) for externalusers.
   name: Lunary ExternalUsers API
   slug: lunary-externalusers-api
-- description: The Models API from Lunary — 2 operation(s) for models.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Models API from Lunary — 2 operation(s) for models.
   name: Lunary Models API
   slug: lunary-models-api
-- description: The Playground API from Lunary — 2 operation(s) for playground.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Playground API from Lunary — 2 operation(s) for playground.
   name: Lunary Playground API
   slug: lunary-playground-api
-- description: The Runs API from Lunary — 10 operation(s) for runs.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Runs API from Lunary — 10 operation(s) for runs.
   name: Lunary Runs API
   slug: lunary-runs-api
-- description: The Templates API from Lunary — 5 operation(s) for templates.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Templates API from Lunary — 5 operation(s) for templates.
   name: Lunary Templates API
   slug: lunary-templates-api
-- description: The TestEndpoint API from Lunary — 2 operation(s) for testendpoint.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The TestEndpoint API from Lunary — 2 operation(s) for testendpoint.
   name: Lunary TestEndpoint API
   slug: lunary-testendpoint-api
-- description: The Views API from Lunary — 2 operation(s) for views.
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Views API from Lunary — 2 operation(s) for views.
   name: Lunary Views API
   slug: lunary-views-api
 artifact_total: 35
@@ -234,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunary/refs/heads/main/screenshots/lunary-2026-06-20T184802.png
 security:

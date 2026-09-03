@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: Cloud Service Mesh uses the open-source xDS v3 control plane API to distribute configuration to Envoy sidecar proxies and proxyless gRPC clients. Configurations defined via the Network Services and Ne
   name: Google Cloud Service Mesh xDS Control Plane API
   slug: xds-control-plane-api
-- description: The EndpointPolicies API from Google Cloud Service Mesh — 1 operation(s) for endpointpolicies.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The EndpointPolicies API from Google Cloud Service Mesh — 1 operation(s) for endpointpolicies.
   name: Google Cloud Service Mesh EndpointPolicies API
   slug: google-cloud-service-mesh-endpointpolicies-api
-- description: The Gateways API from Google Cloud Service Mesh — 1 operation(s) for gateways.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The Gateways API from Google Cloud Service Mesh — 1 operation(s) for gateways.
   name: Google Cloud Service Mesh Gateways API
   slug: google-cloud-service-mesh-gateways-api
-- description: The Google Cloud Network Services API (Service Mesh) API from Google Cloud Service Mesh — 2 operation(s) for google cloud network services api (service mesh).
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The Google Cloud Network Services API (Service Mesh) API from Google Cloud Service Mesh — 2 operation(s) for google cloud network services api (service mesh).
   name: Google Cloud Service Mesh Google Cloud Network Services API (Service Mesh) API
   slug: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api
-- description: The GrpcRoutes API from Google Cloud Service Mesh — 1 operation(s) for grpcroutes.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The GrpcRoutes API from Google Cloud Service Mesh — 1 operation(s) for grpcroutes.
   name: Google Cloud Service Mesh GrpcRoutes API
   slug: google-cloud-service-mesh-grpcroutes-api
-- description: The HttpRoutes API from Google Cloud Service Mesh — 1 operation(s) for httproutes.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The HttpRoutes API from Google Cloud Service Mesh — 1 operation(s) for httproutes.
   name: Google Cloud Service Mesh HttpRoutes API
   slug: google-cloud-service-mesh-httproutes-api
-- description: The Locations API from Google Cloud Service Mesh — 1 operation(s) for locations.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The Locations API from Google Cloud Service Mesh — 1 operation(s) for locations.
   name: Google Cloud Service Mesh Locations API
   slug: google-cloud-service-mesh-locations-api
-- description: The Meshes API from Google Cloud Service Mesh — 1 operation(s) for meshes.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The Meshes API from Google Cloud Service Mesh — 1 operation(s) for meshes.
   name: Google Cloud Service Mesh Meshes API
   slug: google-cloud-service-mesh-meshes-api
-- description: The Operations API from Google Cloud Service Mesh — 1 operation(s) for operations.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The Operations API from Google Cloud Service Mesh — 1 operation(s) for operations.
   name: Google Cloud Service Mesh Operations API
   slug: google-cloud-service-mesh-operations-api
-- description: The ServiceLbPolicies API from Google Cloud Service Mesh — 1 operation(s) for servicelbpolicies.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The ServiceLbPolicies API from Google Cloud Service Mesh — 1 operation(s) for servicelbpolicies.
   name: Google Cloud Service Mesh ServiceLbPolicies API
   slug: google-cloud-service-mesh-servicelbpolicies-api
-- description: The TcpRoutes API from Google Cloud Service Mesh — 1 operation(s) for tcproutes.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The TcpRoutes API from Google Cloud Service Mesh — 1 operation(s) for tcproutes.
   name: Google Cloud Service Mesh TcpRoutes API
   slug: google-cloud-service-mesh-tcproutes-api
-- description: The TlsRoutes API from Google Cloud Service Mesh — 1 operation(s) for tlsroutes.
+- baseURL: https://networkservices.googleapis.com/
+  baseurl_source: declared
+  description: The TlsRoutes API from Google Cloud Service Mesh — 1 operation(s) for tlsroutes.
   name: Google Cloud Service Mesh TlsRoutes API
   slug: google-cloud-service-mesh-tlsroutes-api
 artifact_total: 34
@@ -242,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/screenshots/google-cloud-service-mesh-2026-06-20T182137.png
 security:

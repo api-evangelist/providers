@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: The dotCMS GraphQL API provides a single endpoint for querying content across all content types using a self-documenting schema. It supports Lucene-style query strings, pagination, sorting, and conten
   name: dotCMS GraphQL API
   slug: graphql
-- description: The Authentication API from dotCMS — 1 operation(s) for authentication.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Authentication API from dotCMS — 1 operation(s) for authentication.
   name: dotCMS Authentication API
   slug: dotcms-authentication-api
-- description: The Content API from dotCMS — 1 operation(s) for content.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Content API from dotCMS — 1 operation(s) for content.
   name: dotCMS Content API
   slug: dotcms-content-api
-- description: The Navigation API from dotCMS — 1 operation(s) for navigation.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Navigation API from dotCMS — 1 operation(s) for navigation.
   name: dotCMS Navigation API
   slug: dotcms-navigation-api
-- description: The Search API from dotCMS — 1 operation(s) for search.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Search API from dotCMS — 1 operation(s) for search.
   name: dotCMS Search API
   slug: dotcms-search-api
-- description: The Sites API from dotCMS — 2 operation(s) for sites.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Sites API from dotCMS — 2 operation(s) for sites.
   name: dotCMS Sites API
   slug: dotcms-sites-api
-- description: The Users API from dotCMS — 2 operation(s) for users.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Users API from dotCMS — 2 operation(s) for users.
   name: dotCMS Users API
   slug: dotcms-users-api
-- description: The Workflow API from dotCMS — 2 operation(s) for workflow.
+- baseURL: https://demo.dotcms.com/api
+  baseurl_source: declared
+  description: The Workflow API from dotCMS — 2 operation(s) for workflow.
   name: dotCMS Workflow API
   slug: dotcms-workflow-api
 artifact_total: 25
@@ -185,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/screenshots/dotcms-2026-06-20T180201.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 48 operations · 26 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Assertions API from Badgr — 6 operation(s) for assertions.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The Assertions API from Badgr — 6 operation(s) for assertions.
   name: Badgr Assertions API
   slug: badgr-assertions-api
-- description: The Authentication API from Badgr — 5 operation(s) for authentication.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The Authentication API from Badgr — 5 operation(s) for authentication.
   name: Badgr Authentication API
   slug: badgr-authentication-api
-- description: The Backpack API from Badgr — 5 operation(s) for backpack.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The Backpack API from Badgr — 5 operation(s) for backpack.
   name: Badgr Backpack API
   slug: badgr-backpack-api
-- description: The BadgeClasses API from Badgr — 4 operation(s) for badgeclasses.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The BadgeClasses API from Badgr — 4 operation(s) for badgeclasses.
   name: Badgr BadgeClasses API
   slug: badgr-badgeclasses-api
-- description: The Collections API from Badgr — 3 operation(s) for collections.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The Collections API from Badgr — 3 operation(s) for collections.
   name: Badgr Collections API
   slug: badgr-collections-api
-- description: The Issuers API from Badgr — 3 operation(s) for issuers.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The Issuers API from Badgr — 3 operation(s) for issuers.
   name: Badgr Issuers API
   slug: badgr-issuers-api
-- description: The Users API from Badgr — 3 operation(s) for users.
+- baseURL: https://api.badgr.io/v2
+  baseurl_source: declared
+  description: The Users API from Badgr — 3 operation(s) for users.
   name: Badgr Users API
   slug: badgr-users-api
 artifact_total: 23
@@ -206,7 +220,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/screenshots/badgr-2026-07-25T202239.png
 security:

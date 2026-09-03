@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -47,43 +47,69 @@ apis:
 - description: The Nomba Checkout SDK provides pre-built plugins and client libraries for integrating Nomba payment acceptance into websites and mobile applications. It includes an iOS SDK and e-commerce plugins suc
   name: Nomba Checkout SDK
   slug: checkout-sdk
-- description: Endpoints for managing Nomba business accounts, retrieving account details, balances, and terminal assignments.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for managing Nomba business accounts, retrieving account details, balances, and terminal assignments.
   name: Nomba Accounts API
   slug: nomba-accounts-api
-- description: Endpoints for obtaining, refreshing, and revoking OAuth2 access tokens used to authenticate requests to all Nomba APIs.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for obtaining, refreshing, and revoking OAuth2 access tokens used to authenticate requests to all Nomba APIs.
   name: Nomba Authentication API
   slug: nomba-authentication-api
-- description: Endpoints for submitting card details, processing OTP verification, and managing the card payment flow.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for submitting card details, processing OTP verification, and managing the card payment flow.
   name: Nomba Card Charge API
   slug: nomba-card-charge-api
-- description: Endpoints for creating and managing online checkout orders that support multiple payment channels.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for creating and managing online checkout orders that support multiple payment channels.
   name: Nomba Checkout Orders API
   slug: nomba-checkout-orders-api
-- description: Endpoints for listing supported payout corridors and their configurations.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for listing supported payout corridors and their configurations.
   name: Nomba Corridors API
   slug: nomba-corridors-api
-- description: Endpoints for fetching and locking live exchange rates for cross-border payouts.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for fetching and locking live exchange rates for cross-border payouts.
   name: Nomba Exchange Rates API
   slug: nomba-exchange-rates-api
-- description: Endpoints for retrieving order details and managing checkout transactions.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for retrieving order details and managing checkout transactions.
   name: Nomba Order Management API
   slug: nomba-order-management-api
-- description: Endpoints for initiating and tracking cross-border payout transactions.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for initiating and tracking cross-border payout transactions.
   name: Nomba Payouts API
   slug: nomba-payouts-api
-- description: Endpoints for retrieving and managing customer saved cards.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and managing customer saved cards.
   name: Nomba Saved Cards API
   slug: nomba-saved-cards-api
-- description: Endpoints for managing and charging tokenized card data for returning customers.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for managing and charging tokenized card data for returning customers.
   name: Nomba Tokenized Cards API
   slug: nomba-tokenized-cards-api
-- description: Endpoints for retrieving transaction history, filtering transactions, and querying transaction details for reconciliation and reporting.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for retrieving transaction history, filtering transactions, and querying transaction details for reconciliation and reporting.
   name: Nomba Transactions API
   slug: nomba-transactions-api
-- description: Endpoints for bank lookups, account verification, and initiating domestic fund transfers to bank accounts and between wallets.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for bank lookups, account verification, and initiating domestic fund transfers to bank accounts and between wallets.
   name: Nomba Transfers API
   slug: nomba-transfers-api
-- description: Endpoints for creating, fetching, filtering, updating, and expiring virtual bank accounts used for payment collection.
+- baseURL: https://api.nomba.com
+  baseurl_source: declared
+  description: Endpoints for creating, fetching, filtering, updating, and expiring virtual bank accounts used for payment collection.
   name: Nomba Virtual Accounts API
   slug: nomba-virtual-accounts-api
 artifact_total: 82
@@ -392,7 +418,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -402,7 +428,7 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 37.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -417,7 +443,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

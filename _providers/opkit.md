@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 5 acting
 api_count: 1
 apis:
-- description: Read structured benefit details from completed eligibility inquiries.
+- baseURL: https://api.opkit.co/v1
+  baseurl_source: declared
+  description: Read structured benefit details from completed eligibility inquiries.
   name: Opkit Benefits API
   slug: opkit-benefits-api
-- description: Create and retrieve real-time insurance eligibility inquiries.
+- baseURL: https://api.opkit.co/v1
+  baseurl_source: declared
+  description: Create and retrieve real-time insurance eligibility inquiries.
   name: Opkit Eligibility Inquiries API
   slug: opkit-eligibility-inquiries-api
-- description: Manage patient records that are the subject of eligibility inquiries.
+- baseURL: https://api.opkit.co/v1
+  baseurl_source: declared
+  description: Manage patient records that are the subject of eligibility inquiries.
   name: Opkit Patients API
   slug: opkit-patients-api
-- description: Look up insurance carriers (payers) Opkit connects to.
+- baseURL: https://api.opkit.co/v1
+  baseurl_source: declared
+  description: Look up insurance carriers (payers) Opkit connects to.
   name: Opkit Payers API
   slug: opkit-payers-api
-- description: Register and manage webhook endpoints for event notifications.
+- baseURL: https://api.opkit.co/v1
+  baseurl_source: declared
+  description: Register and manage webhook endpoints for event notifications.
   name: Opkit Webhooks API
   slug: opkit-webhooks-api
 artifact_total: 18
@@ -177,7 +187,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

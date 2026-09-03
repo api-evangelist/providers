@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 41 operations · 29 acting
 api_count: 1
 apis:
-- description: Facebook Ads content and metrics
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Facebook Ads content and metrics
   name: Socialbakers Ads API
   slug: socialbakers-ads-api
-- description: Digital asset management — collections and assets
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Digital asset management — collections and assets
   name: Socialbakers Assets API
   slug: socialbakers-assets-api
-- description: Customer care cases and messages
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Customer care cases and messages
   name: Socialbakers Care API
   slug: socialbakers-care-api
-- description: Community content, labeling and engagement metrics
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Community content, labeling and engagement metrics
   name: Socialbakers Community API
   slug: socialbakers-community-api
-- description: Social listening content and metrics
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Social listening content and metrics
   name: Socialbakers Listening API
   slug: socialbakers-listening-api
-- description: Published content (posts / videos / tweets) per network
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Published content (posts / videos / tweets) per network
   name: Socialbakers Posts API
   slug: socialbakers-posts-api
-- description: Time-series and aggregate metrics per social profile
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Time-series and aggregate metrics per social profile
   name: Socialbakers Profile Metrics API
   slug: socialbakers-profile-metrics-api
-- description: Managed profiles, labels, label groups, listening queries, ad accounts
+- baseURL: https://api.emplifi.io
+  baseurl_source: declared
+  description: Managed profiles, labels, label groups, listening queries, ad accounts
   name: Socialbakers Reference API
   slug: socialbakers-reference-api
 artifact_total: 25
@@ -261,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socialbakers/refs/heads/main/screenshots/socialbakers-2026-08-17T081949.png
 security:

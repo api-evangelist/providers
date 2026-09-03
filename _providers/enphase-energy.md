@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -50,31 +50,49 @@ apis:
 - description: The Virtual Power Plant (VPP) API allows energy aggregators and utilities to create and manage VPPs that monitor, forecast, and control large fleets of distributed energy resources (DERs) including PV
   name: Enphase VPP API
   slug: enphase-enlighten-vpp-api
-- description: The Device Level Production Monitoring API from Enphase Energy — 3 operation(s) for device level production monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Device Level Production Monitoring API from Enphase Energy — 3 operation(s) for device level production monitoring.
   name: Enphase Energy Device Level Production Monitoring API
   slug: enphase-energy-device-level-production-monitoring-api
-- description: The EV Charger Control API from Enphase Energy — 2 operation(s) for ev charger control.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The EV Charger Control API from Enphase Energy — 2 operation(s) for ev charger control.
   name: Enphase Energy EV Charger Control API
   slug: enphase-energy-ev-charger-control-api
-- description: The EV Charger Monitoring API from Enphase Energy — 6 operation(s) for ev charger monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The EV Charger Monitoring API from Enphase Energy — 6 operation(s) for ev charger monitoring.
   name: Enphase Energy EV Charger Monitoring API
   slug: enphase-energy-ev-charger-monitoring-api
-- description: The Site Level Consumption Monitoring API from Enphase Energy — 9 operation(s) for site level consumption monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Site Level Consumption Monitoring API from Enphase Energy — 9 operation(s) for site level consumption monitoring.
   name: Enphase Energy Site Level Consumption Monitoring API
   slug: enphase-energy-site-level-consumption-monitoring-api
-- description: The Site Level Production Monitoring API from Enphase Energy — 5 operation(s) for site level production monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Site Level Production Monitoring API from Enphase Energy — 5 operation(s) for site level production monitoring.
   name: Enphase Energy Site Level Production Monitoring API
   slug: enphase-energy-site-level-production-monitoring-api
-- description: The Streaming APIs API from Enphase Energy — 1 operation(s) for streaming apis.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Streaming APIs API from Enphase Energy — 1 operation(s) for streaming apis.
   name: Enphase Energy Streaming APIs API
   slug: enphase-energy-streaming-apis-api
-- description: The System Configurations API from Enphase Energy — 4 operation(s) for system configurations.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The System Configurations API from Enphase Energy — 4 operation(s) for system configurations.
   name: Enphase Energy System Configurations API
   slug: enphase-energy-system-configurations-api
-- description: The System Details API from Enphase Energy — 10 operation(s) for system details.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The System Details API from Enphase Energy — 10 operation(s) for system details.
   name: Enphase Energy System Details API
   slug: enphase-energy-system-details-api
-- description: The Systems API from Enphase Energy — 13 operation(s) for systems.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Systems API from Enphase Energy — 13 operation(s) for systems.
   name: Enphase Energy Systems API
   slug: enphase-energy-systems-api
 artifact_total: 39
@@ -296,7 +314,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/screenshots/enphase-energy-2026-06-20T180721.png
 security:

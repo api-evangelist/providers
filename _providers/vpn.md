@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: Azure VPN Gateway provides managed site-to-site, point-to-site, and VNet-to-VNet VPN connections. Managed via Azure Resource Manager REST API and Azure CLI.
   name: Azure VPN Gateway API
   slug: azure-vpn
-- description: The Catalog API from VPN — 3 operation(s) for catalog.
+- baseURL: https://api.nordvpn.com/v1
+  baseurl_source: declared
+  description: The Catalog API from VPN — 3 operation(s) for catalog.
   name: VPN Catalog API
   slug: vpn-catalog-api
-- description: The Servers API from VPN — 3 operation(s) for servers.
+- baseURL: https://api.nordvpn.com/v1
+  baseurl_source: declared
+  description: The Servers API from VPN — 3 operation(s) for servers.
   name: VPN Servers API
   slug: vpn-servers-api
-- description: The Stats API from VPN — 2 operation(s) for stats.
+- baseURL: https://api.nordvpn.com/v1
+  baseurl_source: declared
+  description: The Stats API from VPN — 2 operation(s) for stats.
   name: VPN Stats API
   slug: vpn-stats-api
 artifact_total: 21
@@ -198,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vpn/refs/heads/main/screenshots/vpn-2026-06-20T201144.png
 security:

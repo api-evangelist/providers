@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Call analytics, transcripts, keywords, and reports
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Call analytics, transcripts, keywords, and reports
   name: Tenfold Analytics API
   slug: tenfold-analytics-api
-- description: OAuth 2.0 and JWT token issuance and authorization
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: OAuth 2.0 and JWT token issuance and authorization
   name: Tenfold Authentication API
   slug: tenfold-authentication-api
-- description: Originate, query, control, and update calls
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Originate, query, control, and update calls
   name: Tenfold Calls API
   slug: tenfold-calls-api
-- description: Contact list management (BETA)
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Contact list management (BETA)
   name: Tenfold Contact Lists API
   slug: tenfold-contact-lists-api
-- description: Create, edit, and query CRM records and interactions
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Create, edit, and query CRM records and interactions
   name: Tenfold CRM Records API
   slug: tenfold-crm-records-api
-- description: Organization data and integration health
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Organization data and integration health
   name: Tenfold Organizations API
   slug: tenfold-organizations-api
-- description: Custom event tracking
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Custom event tracking
   name: Tenfold Tracking API
   slug: tenfold-tracking-api
-- description: Users, current-user profile, and settings
+- baseURL: https://api.tenfold.com
+  baseurl_source: declared
+  description: Users, current-user profile, and settings
   name: Tenfold Users API
   slug: tenfold-users-api
 artifact_total: 20
@@ -166,11 +182,11 @@ score:
   band: thin
   composite: 31.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -180,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 31.7
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -191,8 +207,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tenfold/refs/heads/main/screenshots/tenfold-2026-09-02T163056.png
 security:
 - kind: authentication
   name: Tenfold Authentication

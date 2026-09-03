@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,7 +61,9 @@ apis:
 - description: EVM-compatible JSON-RPC endpoint exposed by Hyperliquid for deploying and interacting with smart contracts on HyperEVM (chain ID 999), executed alongside HyperCore.
   name: HyperEVM JSON-RPC
   slug: hyperevm-rpc
-- description: The Info API from Hyperliquid — 1 operation(s) for info.
+- baseURL: https://api.hyperliquid.xyz
+  baseurl_source: declared
+  description: The Info API from Hyperliquid — 1 operation(s) for info.
   name: Hyperliquid Info API
   slug: hyperliquid-info-api
 artifact_total: 17
@@ -184,7 +186,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -197,7 +199,7 @@ score:
   open_source:
     applies: true
     score: 60.0
-  previous_composite: 38.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +214,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
 security:

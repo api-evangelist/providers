@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Get data for procurements in Ukraine in JSON format
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenders-in-ukraine/refs/heads/main/screenshots/tenders-in-ukraine-2026-06-20T195112.png
 slug: tenders-in-ukraine

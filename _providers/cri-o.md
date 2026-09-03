@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: CRI-O implements the Kubernetes Container Runtime Interface (CRI) gRPC API that the kubelet uses to manage pod sandboxes, containers, image lifecycle, and runtime status. The CRI gRPC API is served ov
   name: CRI-O CRI gRPC API
   slug: cri-o-cri-grpc-api
-- description: Endpoints that return information about live containers.
+- baseURL: http://localhost
+  baseurl_source: declared
+  description: Endpoints that return information about live containers.
   name: CRI-O Containers API
   slug: cri-o-containers-api
-- description: Golang debug endpoints for goroutines, heap, and profiling.
+- baseURL: http://localhost
+  baseurl_source: declared
+  description: Golang debug endpoints for goroutines, heap, and profiling.
   name: CRI-O Debug API
   slug: cri-o-debug-api
-- description: Runtime version, configuration, and general info endpoints.
+- baseURL: http://localhost
+  baseurl_source: declared
+  description: Runtime version, configuration, and general info endpoints.
   name: CRI-O Information API
   slug: cri-o-information-api
-- description: Endpoints to pause and unpause running containers.
+- baseURL: http://localhost
+  baseurl_source: declared
+  description: Endpoints to pause and unpause running containers.
   name: CRI-O Lifecycle API
   slug: cri-o-lifecycle-api
-- description: Prometheus metrics scraping endpoint.
+- baseURL: http://localhost
+  baseurl_source: declared
+  description: Prometheus metrics scraping endpoint.
   name: CRI-O Metrics API
   slug: cri-o-metrics-api
 artifact_total: 21
@@ -233,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/screenshots/cri-o-2026-06-20T175228.png
 security:

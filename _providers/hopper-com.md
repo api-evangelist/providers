@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 23 operations · 18 acting
 api_count: 1
 apis:
-- description: In order to measure and continuously improve HTS Ancillaries performance, specific events occurring during a customer session can be sent by the partner airlines using some dedicated endpoints.
+- baseURL: https://airlines-api.hopper.com/airline/v1.1
+  baseurl_source: declared
+  description: In order to measure and continuously improve HTS Ancillaries performance, specific events occurring during a customer session can be sent by the partner airlines using some dedicated endpoints.
   name: Hopper Analytics API
   slug: hopper-com-analytics-api
-- description: This API is authenticated with OAuth 2, Client Credentials grant.\ Clients should use their `client_id` and `client_secret` to obtain an `access_token`.\ The `access_token` should be included in every
+- baseURL: https://airlines-api.hopper.com/airline/v1.1
+  baseurl_source: declared
+  description: This API is authenticated with OAuth 2, Client Credentials grant.\ Clients should use their `client_id` and `client_secret` to obtain an `access_token`.\ The `access_token` should be included in every
   name: Hopper Authentication API
   slug: hopper-com-authentication-api
-- description: '**What is Cancel For Any Reason?** Cancel For Any Reason (CFAR) enables airlines to offer refundability as an ancillary with HTS powering the dynamic pricing and supporting the refund cost. **** **How'
+- baseURL: https://airlines-api.hopper.com/airline/v1.1
+  baseurl_source: declared
+  description: '**What is Cancel For Any Reason?** Cancel For Any Reason (CFAR) enables airlines to offer refundability as an ancillary with HTS powering the dynamic pricing and supporting the refund cost. **** **How'
   name: Hopper Cancel For Any Reason (CFAR) API
   slug: hopper-com-cancel-for-any-reason-cfar-api
-- description: '**What is Disruption Guarantee?** Disruption Guarantee (DG) offers a premium disruption assistance service to customers in case of flight disruption, including rebooking options on any airline or a re'
+- baseURL: https://airlines-api.hopper.com/airline/v1.1
+  baseurl_source: declared
+  description: '**What is Disruption Guarantee?** Disruption Guarantee (DG) offers a premium disruption assistance service to customers in case of flight disruption, including rebooking options on any airline or a re'
   name: Hopper Disruption Guarantee (DG) API
   slug: hopper-com-disruption-guarantee-dg-api
-- description: Hopper uses a unique ID to correlate API calls and events produced by a user's interaction with an airline application. The duration of the user's interactions is called a "session", and the correlati
+- baseURL: https://airlines-api.hopper.com/airline/v1.1
+  baseurl_source: declared
+  description: Hopper uses a unique ID to correlate API calls and events produced by a user's interaction with an airline application. The duration of the user's interactions is called a "session", and the correlati
   name: Hopper Sessions API
   slug: hopper-com-sessions-api
 artifact_total: 15
@@ -202,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/screenshots/hopper-com-2026-06-20T182832.png
 security:

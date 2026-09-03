@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Authenticate and manage API sessions for the FOREX.com trading platform. A POST request to the session endpoint with username, password, and AppKey returns a session ID used as a header credential for
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Authenticate and manage API sessions for the FOREX.com trading platform. A POST request to the session endpoint with username, password, and AppKey returns a session ID used as a header credential for
   name: FOREX.com Session API
   slug: forex-com-session-api
-- description: Retrieve client and trading account details including account IDs, balance, available margin, and personal account information. The /useraccount/ClientAndTradingAccount endpoint returns the Trading Ac
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Retrieve client and trading account details including account IDs, balance, available margin, and personal account information. The /useraccount/ClientAndTradingAccount endpoint returns the Trading Ac
   name: FOREX.com Account API
   slug: forex-com-account-api
-- description: Search and retrieve market details for tradeable instruments across 80+ forex and CFD markets. Supports full market search by name or tag to resolve Market IDs used in order placement and price subscr
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Search and retrieve market details for tradeable instruments across 80+ forex and CFD markets. Supports full market search by name or tag to resolve Market IDs used in order placement and price subscr
   name: FOREX.com Market API
   slug: forex-com-market-api
-- description: Access real-time and historical price data for forex and CFD markets. Real-time bid/ask/offer prices are delivered via Lightstreamer streaming subscriptions using MERGE mode. Historical OHLC price dat
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Access real-time and historical price data for forex and CFD markets. Real-time bid/ask/offer prices are delivered via Lightstreamer streaming subscriptions using MERGE mode. Historical OHLC price dat
   name: FOREX.com Pricing API
   slug: forex-com-pricing-api
 - description: 'Place and manage trade orders on the FOREX.com platform against live streaming prices. Supports market price orders with configurable direction (Buy/Sell), quantity, stop-loss, take-profit, and price '
@@ -62,25 +70,39 @@ apis:
 - description: List and manage open trading positions on the FOREX.com platform. Retrieve active positions including unrealised P&L, direction, quantity, and pricing details for all open trades in a trading account.
   name: FOREX.com Position API
   slug: forex-com-position-api
-- description: Client and trading account information
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Client and trading account information
   name: FOREX.com Account API
   slug: forex-com-account-api
-- description: Account margin and cash balance
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Account margin and cash balance
   name: FOREX.com Margin API
   slug: forex-com-margin-api
-- description: Market search and instrument lookup
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Market search and instrument lookup
   name: FOREX.com Market API
   slug: forex-com-market-api
-- description: Trade order placement and management
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Trade order placement and management
   name: FOREX.com Orders API
   slug: forex-com-orders-api
-- description: Open position management
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Open position management
   name: FOREX.com Positions API
   slug: forex-com-positions-api
-- description: Real-time tick history and OHLC bar history
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Real-time tick history and OHLC bar history
   name: FOREX.com Pricing API
   slug: forex-com-pricing-api
-- description: Authentication and session management
+- baseURL: https://ciapi.cityindex.com/TradingAPI
+  baseurl_source: spec
+  description: Authentication and session management
   name: FOREX.com Session API
   slug: forex-com-session-api
 artifact_total: 45
@@ -261,7 +283,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/screenshots/forex-com-2026-06-20T181434.png
 security:

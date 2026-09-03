@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -40,31 +53,49 @@ apis:
 - description: First-party remote Model Context Protocol server hosted by Salsify at app.salsify.com/mcp. Streamable HTTP transport, protected by OAuth 2.1 with RFC 9728 protected-resource metadata pointing at the a
   name: Salsify MCP Server
   slug: mcp
-- description: The Digital Assets API from Salsify — 5 operation(s) for digital assets.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Digital Assets API from Salsify — 5 operation(s) for digital assets.
   name: Salsify Digital Assets API
   slug: salsify-digital-assets-api
-- description: The Export Runs API from Salsify — 2 operation(s) for export runs.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Export Runs API from Salsify — 2 operation(s) for export runs.
   name: Salsify Export Runs API
   slug: salsify-export-runs-api
-- description: The Imports API from Salsify — 5 operation(s) for imports.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Imports API from Salsify — 5 operation(s) for imports.
   name: Salsify Imports API
   slug: salsify-imports-api
-- description: The Lists API from Salsify — 1 operation(s) for lists.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Lists API from Salsify — 1 operation(s) for lists.
   name: Salsify Lists API
   slug: salsify-lists-api
-- description: The <org ID> API from Salsify — 1 operation(s) for <org id>.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The <org ID> API from Salsify — 1 operation(s) for <org id>.
   name: Salsify <org ID> API
   slug: salsify-org-id-api
-- description: The Products API from Salsify — 5 operation(s) for products.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Products API from Salsify — 5 operation(s) for products.
   name: Salsify Products API
   slug: salsify-products-api
-- description: The Properties API from Salsify — 4 operation(s) for properties.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Properties API from Salsify — 4 operation(s) for properties.
   name: Salsify Properties API
   slug: salsify-properties-api
-- description: The Record Types API from Salsify — 1 operation(s) for record types.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Record Types API from Salsify — 1 operation(s) for record types.
   name: Salsify Record Types API
   slug: salsify-record-types-api
-- description: The Records API from Salsify — 6 operation(s) for records.
+- baseURL: https://app.salsify.com/api/v1/orgs
+  baseurl_source: declared
+  description: The Records API from Salsify — 6 operation(s) for records.
   name: Salsify Records API
   slug: salsify-records-api
 artifact_total: 31
@@ -297,7 +328,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -307,7 +338,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 54.7
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,7 +350,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/screenshots/salsify-2026-08-17T081714.png
 security:

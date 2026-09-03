@@ -35,16 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Programmatic outbound phone calls executed by an AI voice agent. Submit a task either as a plain-language brief or as a structured intent plus slots (inquiry, info_gathering, issue_resolution, booking
+- baseURL: https://api.voygr.tech
+  baseurl_source: declared
+  description: Programmatic outbound phone calls executed by an AI voice agent. Submit a task either as a plain-language brief or as a structured intent plus slots (inquiry, info_gathering, issue_resolution, booking
   name: Voygr Calls API
   slug: voygr-calls-api
 - description: Business existence and operating-status validation. POST /v1/business-status takes a business name and a full street address and returns existence_status (exists, not_exists, uncertain) and open_close
   name: Voygr Business Validation API
   slug: voygr-business-validation-api
-- description: The core API from VOYGR — 2 operation(s) for core.
+- baseURL: https://api.voygr.tech
+  baseurl_source: declared
+  description: The core API from VOYGR — 2 operation(s) for core.
   name: VOYGR Core API
   slug: voygr-core-api
 artifact_total: 7
@@ -192,7 +196,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voygr/refs/heads/main/screenshots/voygr-2026-08-17T082827.png
 security:

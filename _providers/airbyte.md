@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -45,76 +45,124 @@ agentic_access:
   summary_line: 91 operations · 53 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The public API from Airbyte — 47 operation(s) for public.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public API from Airbyte — 47 operation(s) for public.
   name: Airbyte public API
   slug: airbyte-public-api
-- description: The public_applications API from Airbyte — 3 operation(s) for public_applications.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_applications API from Airbyte — 3 operation(s) for public_applications.
   name: Airbyte public_applications API
   slug: airbyte-public-applications-api
-- description: The public_connections API from Airbyte — 2 operation(s) for public_connections.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_connections API from Airbyte — 2 operation(s) for public_connections.
   name: Airbyte public_connections API
   slug: airbyte-public-connections-api
-- description: The public_connector_definitions API from Airbyte — 1 operation(s) for public_connector_definitions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_connector_definitions API from Airbyte — 1 operation(s) for public_connector_definitions.
   name: Airbyte public_connector_definitions API
   slug: airbyte-public-connector-definitions-api
-- description: The public_dataplanes API from Airbyte — 2 operation(s) for public_dataplanes.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_dataplanes API from Airbyte — 2 operation(s) for public_dataplanes.
   name: Airbyte public_dataplanes API
   slug: airbyte-public-dataplanes-api
-- description: The public_declarative_source_definitions API from Airbyte — 2 operation(s) for public_declarative_source_definitions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_declarative_source_definitions API from Airbyte — 2 operation(s) for public_declarative_source_definitions.
   name: Airbyte public_declarative_source_definitions API
   slug: airbyte-public-declarative-source-definitions-api
-- description: The public_destination_definitions API from Airbyte — 2 operation(s) for public_destination_definitions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_destination_definitions API from Airbyte — 2 operation(s) for public_destination_definitions.
   name: Airbyte public_destination_definitions API
   slug: airbyte-public-destination-definitions-api
-- description: The public_destinations API from Airbyte — 2 operation(s) for public_destinations.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_destinations API from Airbyte — 2 operation(s) for public_destinations.
   name: Airbyte public_destinations API
   slug: airbyte-public-destinations-api
-- description: The public_group_members API from Airbyte — 2 operation(s) for public_group_members.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_group_members API from Airbyte — 2 operation(s) for public_group_members.
   name: Airbyte public_group_members API
   slug: airbyte-public-group-members-api
-- description: The public_group_permissions API from Airbyte — 2 operation(s) for public_group_permissions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_group_permissions API from Airbyte — 2 operation(s) for public_group_permissions.
   name: Airbyte public_group_permissions API
   slug: airbyte-public-group-permissions-api
-- description: The public_groups API from Airbyte — 2 operation(s) for public_groups.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_groups API from Airbyte — 2 operation(s) for public_groups.
   name: Airbyte public_groups API
   slug: airbyte-public-groups-api
-- description: The public_health API from Airbyte — 1 operation(s) for public_health.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_health API from Airbyte — 1 operation(s) for public_health.
   name: Airbyte public_health API
   slug: airbyte-public-health-api
-- description: The public_jobs API from Airbyte — 2 operation(s) for public_jobs.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_jobs API from Airbyte — 2 operation(s) for public_jobs.
   name: Airbyte public_jobs API
   slug: airbyte-public-jobs-api
-- description: The public_oauth API from Airbyte — 1 operation(s) for public_oauth.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_oauth API from Airbyte — 1 operation(s) for public_oauth.
   name: Airbyte public_oauth API
   slug: airbyte-public-oauth-api
-- description: The public_organizations API from Airbyte — 3 operation(s) for public_organizations.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_organizations API from Airbyte — 3 operation(s) for public_organizations.
   name: Airbyte public_organizations API
   slug: airbyte-public-organizations-api
-- description: The public_permissions API from Airbyte — 2 operation(s) for public_permissions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_permissions API from Airbyte — 2 operation(s) for public_permissions.
   name: Airbyte public_permissions API
   slug: airbyte-public-permissions-api
-- description: The public_regions API from Airbyte — 2 operation(s) for public_regions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_regions API from Airbyte — 2 operation(s) for public_regions.
   name: Airbyte public_regions API
   slug: airbyte-public-regions-api
-- description: The public_root API from Airbyte — 1 operation(s) for public_root.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_root API from Airbyte — 1 operation(s) for public_root.
   name: Airbyte public_root API
   slug: airbyte-public-root-api
-- description: The public_source_definitions API from Airbyte — 2 operation(s) for public_source_definitions.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_source_definitions API from Airbyte — 2 operation(s) for public_source_definitions.
   name: Airbyte public_source_definitions API
   slug: airbyte-public-source-definitions-api
-- description: The public_sources API from Airbyte — 3 operation(s) for public_sources.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_sources API from Airbyte — 3 operation(s) for public_sources.
   name: Airbyte public_sources API
   slug: airbyte-public-sources-api
-- description: The public_streams API from Airbyte — 1 operation(s) for public_streams.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_streams API from Airbyte — 1 operation(s) for public_streams.
   name: Airbyte public_streams API
   slug: airbyte-public-streams-api
-- description: The public_tags API from Airbyte — 2 operation(s) for public_tags.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_tags API from Airbyte — 2 operation(s) for public_tags.
   name: Airbyte public_tags API
   slug: airbyte-public-tags-api
-- description: The public_users API from Airbyte — 1 operation(s) for public_users.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_users API from Airbyte — 1 operation(s) for public_users.
   name: Airbyte public_users API
   slug: airbyte-public-users-api
-- description: The public_workspaces API from Airbyte — 3 operation(s) for public_workspaces.
+- baseURL: https://api.airbyte.com/v1
+  baseurl_source: declared
+  description: The public_workspaces API from Airbyte — 3 operation(s) for public_workspaces.
   name: Airbyte public_workspaces API
   slug: airbyte-public-workspaces-api
 arazzos:
@@ -2696,7 +2744,7 @@ score:
       total: 24
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

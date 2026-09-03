@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -44,115 +44,189 @@ agentic_access:
   summary_line: 37 operations · 37 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countclosedworkflowexecutions.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countclosedworkflowexecutions.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountClosedWorkflowExecutions API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-countclosedworkflowexecutions-api
-- description: 'The #X Amz Target=SimpleWorkflowService.CountOpenWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countopenworkflowexecutions.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.CountOpenWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countopenworkflowexecutions.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountOpenWorkflowExecutions API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-countopenworkflowexecutions-api
-- description: 'The #X Amz Target=SimpleWorkflowService.CountPendingActivityTasks API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countpendingactivitytasks.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.CountPendingActivityTasks API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countpendingactivitytasks.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountPendingActivityTasks API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-countpendingactivitytasks-api
-- description: 'The #X Amz Target=SimpleWorkflowService.CountPendingDecisionTasks API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countpendingdecisiontasks.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.CountPendingDecisionTasks API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.countpendingdecisiontasks.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.CountPendingDecisionTasks API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-countpendingdecisiontasks-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DeprecateActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.deprecateactivitytype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DeprecateActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.deprecateactivitytype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DeprecateActivityType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-deprecateactivitytype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DeprecateDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.deprecatedomain.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DeprecateDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.deprecatedomain.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DeprecateDomain API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-deprecatedomain-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DeprecateWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.deprecateworkflowtype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DeprecateWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.deprecateworkflowtype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DeprecateWorkflowType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-deprecateworkflowtype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DescribeActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describeactivitytype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DescribeActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describeactivitytype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DescribeActivityType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-describeactivitytype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DescribeDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describedomain.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DescribeDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describedomain.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DescribeDomain API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-describedomain-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DescribeWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describeworkflowexecution.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DescribeWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describeworkflowexecution.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DescribeWorkflowExecution API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-describeworkflowexecution-api
-- description: 'The #X Amz Target=SimpleWorkflowService.DescribeWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describeworkflowtype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.DescribeWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.describeworkflowtype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.DescribeWorkflowType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-describeworkflowtype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.GetWorkflowExecutionHistory API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.getworkflowexecutionhistory.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.GetWorkflowExecutionHistory API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.getworkflowexecutionhistory.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.GetWorkflowExecutionHistory API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-getworkflowexecutionhistory-api
-- description: 'The #X Amz Target=SimpleWorkflowService.ListActivityTypes API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listactivitytypes.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.ListActivityTypes API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listactivitytypes.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.ListActivityTypes API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-listactivitytypes-api
-- description: 'The #X Amz Target=SimpleWorkflowService.ListClosedWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listclosedworkflowexecutions.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.ListClosedWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listclosedworkflowexecutions.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.ListClosedWorkflowExecutions API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-listclosedworkflowexecutions-api
-- description: 'The #X Amz Target=SimpleWorkflowService.ListDomains API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listdomains.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.ListDomains API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listdomains.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.ListDomains API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-listdomains-api
-- description: 'The #X Amz Target=SimpleWorkflowService.ListOpenWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listopenworkflowexecutions.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.ListOpenWorkflowExecutions API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listopenworkflowexecutions.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.ListOpenWorkflowExecutions API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-listopenworkflowexecutions-api
-- description: 'The #X Amz Target=SimpleWorkflowService.ListTagsForResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listtagsforresource.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.ListTagsForResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listtagsforresource.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.ListTagsForResource API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-listtagsforresource-api
-- description: 'The #X Amz Target=SimpleWorkflowService.ListWorkflowTypes API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listworkflowtypes.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.ListWorkflowTypes API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.listworkflowtypes.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.ListWorkflowTypes API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-listworkflowtypes-api
-- description: 'The #X Amz Target=SimpleWorkflowService.PollForActivityTask API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.pollforactivitytask.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.PollForActivityTask API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.pollforactivitytask.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.PollForActivityTask API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-pollforactivitytask-api
-- description: 'The #X Amz Target=SimpleWorkflowService.PollForDecisionTask API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.pollfordecisiontask.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.PollForDecisionTask API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.pollfordecisiontask.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.PollForDecisionTask API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-pollfordecisiontask-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RecordActivityTaskHeartbeat API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.recordactivitytaskheartbeat.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RecordActivityTaskHeartbeat API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.recordactivitytaskheartbeat.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RecordActivityTaskHeartbeat API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-recordactivitytaskheartbeat-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RegisterActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.registeractivitytype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RegisterActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.registeractivitytype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RegisterActivityType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-registeractivitytype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RegisterDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.registerdomain.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RegisterDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.registerdomain.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RegisterDomain API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-registerdomain-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RegisterWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.registerworkflowtype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RegisterWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.registerworkflowtype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RegisterWorkflowType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-registerworkflowtype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RequestCancelWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.requestcancelworkflowexecution.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RequestCancelWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.requestcancelworkflowexecution.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RequestCancelWorkflowExecution API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-requestcancelworkflowexecution-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RespondActivityTaskCanceled API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.respondactivitytaskcanceled.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RespondActivityTaskCanceled API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.respondactivitytaskcanceled.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RespondActivityTaskCanceled API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-respondactivitytaskcanceled-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RespondActivityTaskCompleted API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.respondactivitytaskcompleted.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RespondActivityTaskCompleted API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.respondactivitytaskcompleted.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RespondActivityTaskCompleted API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-respondactivitytaskcompleted-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RespondActivityTaskFailed API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.respondactivitytaskfailed.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RespondActivityTaskFailed API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.respondactivitytaskfailed.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RespondActivityTaskFailed API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-respondactivitytaskfailed-api
-- description: 'The #X Amz Target=SimpleWorkflowService.RespondDecisionTaskCompleted API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.responddecisiontaskcompleted.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.RespondDecisionTaskCompleted API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.responddecisiontaskcompleted.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.RespondDecisionTaskCompleted API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-responddecisiontaskcompleted-api
-- description: 'The #X Amz Target=SimpleWorkflowService.SignalWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.signalworkflowexecution.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.SignalWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.signalworkflowexecution.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.SignalWorkflowExecution API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-signalworkflowexecution-api
-- description: 'The #X Amz Target=SimpleWorkflowService.StartWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.startworkflowexecution.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.StartWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.startworkflowexecution.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.StartWorkflowExecution API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-startworkflowexecution-api
-- description: 'The #X Amz Target=SimpleWorkflowService.TagResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.tagresource.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.TagResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.tagresource.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.TagResource API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-tagresource-api
-- description: 'The #X Amz Target=SimpleWorkflowService.TerminateWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.terminateworkflowexecution.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.TerminateWorkflowExecution API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.terminateworkflowexecution.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.TerminateWorkflowExecution API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-terminateworkflowexecution-api
-- description: 'The #X Amz Target=SimpleWorkflowService.UndeprecateActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.undeprecateactivitytype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.UndeprecateActivityType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.undeprecateactivitytype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.UndeprecateActivityType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-undeprecateactivitytype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.UndeprecateDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.undeprecatedomain.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.UndeprecateDomain API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.undeprecatedomain.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.UndeprecateDomain API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-undeprecatedomain-api
-- description: 'The #X Amz Target=SimpleWorkflowService.UndeprecateWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.undeprecateworkflowtype.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.UndeprecateWorkflowType API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.undeprecateworkflowtype.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.UndeprecateWorkflowType API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-undeprecateworkflowtype-api
-- description: 'The #X Amz Target=SimpleWorkflowService.UntagResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.untagresource.'
+- baseURL: https://swf.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=SimpleWorkflowService.UntagResource API from Amazon Simple Workflow Service — 1 operation(s) for #x amz target=simpleworkflowservice.untagresource.'
   name: 'Amazon Simple Workflow Service #X Amz Target=SimpleWorkflowService.UntagResource API'
   slug: amazon-swf-x-amz-target-simpleworkflowservice-untagresource-api
 artifact_total: 587
@@ -1920,7 +1994,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/screenshots/amazon-swf-2026-06-20T171832.png
 security:

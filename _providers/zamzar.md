@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 5 acting
 api_count: 1
 apis:
-- description: View account and plan information
+- baseURL: https://api.zamzar.com/v1/
+  baseurl_source: declared
+  description: View account and plan information
   name: Zamzar Account API
   slug: zamzar-account-api
-- description: Create, retrieve or delete files
+- baseURL: https://api.zamzar.com/v1/
+  baseurl_source: declared
+  description: Create, retrieve or delete files
   name: Zamzar Files API
   slug: zamzar-files-api
-- description: List supported source and target formats
+- baseURL: https://api.zamzar.com/v1/
+  baseurl_source: declared
+  description: List supported source and target formats
   name: Zamzar Formats API
   slug: zamzar-formats-api
-- description: Import files from an external URL, (S)FTP server or Amazon S3 bucket
+- baseURL: https://api.zamzar.com/v1/
+  baseurl_source: declared
+  description: Import files from an external URL, (S)FTP server or Amazon S3 bucket
   name: Zamzar Imports API
   slug: zamzar-imports-api
-- description: Start a new conversion job plus related operations
+- baseURL: https://api.zamzar.com/v1/
+  baseurl_source: declared
+  description: Start a new conversion job plus related operations
   name: Zamzar Jobs API
   slug: zamzar-jobs-api
-- description: Get started with the Zamzar API
+- baseURL: https://api.zamzar.com/v1/
+  baseurl_source: declared
+  description: Get started with the Zamzar API
   name: Zamzar Welcome API
   slug: zamzar-welcome-api
 artifact_total: 32
@@ -248,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zamzar/refs/heads/main/screenshots/zamzar-2026-06-20T201800.png
 security:

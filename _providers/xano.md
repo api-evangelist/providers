@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The REST APIs that Xano users build visually. Each API group is served at its own /api:{token} path on the instance and auto-generates its own OpenAPI/Swagger document; surface, paths, and auth are de
   name: Xano Generated User APIs
   slug: xano-generated-user-apis
-- description: API groups, their endpoints, and generated OpenAPI.
+- baseURL: https://{instance}.xano.io/api:meta
+  baseurl_source: declared
+  description: API groups, their endpoints, and generated OpenAPI.
   name: Xano API Groups API
   slug: xano-api-groups-api
-- description: Authenticated user and accessible workspaces.
+- baseURL: https://{instance}.xano.io/api:meta
+  baseurl_source: declared
+  description: Authenticated user and accessible workspaces.
   name: Xano Auth API
   slug: xano-auth-api
-- description: Table records (database content) CRUD and search.
+- baseURL: https://{instance}.xano.io/api:meta
+  baseurl_source: declared
+  description: Table records (database content) CRUD and search.
   name: Xano Content API
   slug: xano-content-api
-- description: Workspace file library.
+- baseURL: https://{instance}.xano.io/api:meta
+  baseurl_source: declared
+  description: Workspace file library.
   name: Xano Files API
   slug: xano-files-api
-- description: Database tables, schema, and indexes.
+- baseURL: https://{instance}.xano.io/api:meta
+  baseurl_source: declared
+  description: Database tables, schema, and indexes.
   name: Xano Tables API
   slug: xano-tables-api
-- description: Workspace details, branches, import/export.
+- baseURL: https://{instance}.xano.io/api:meta
+  baseurl_source: declared
+  description: Workspace details, branches, import/export.
   name: Xano Workspace API
   slug: xano-workspace-api
 artifact_total: 23
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/screenshots/xano-2026-06-20T201653.png
 security:

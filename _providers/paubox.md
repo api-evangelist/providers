@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,46 +37,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Hosted Model Context Protocol server exposing 30 Paubox tools across email, forms and email marketing to MCP-compatible AI clients. Reachable over streamable HTTP at https://mcp.paubox.com/mcp with OA
   name: Paubox MCP Server
   slug: paubox-mcp-server
-- description: Campaign analytics and reporting operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Campaign analytics and reporting operations
   name: Paubox Analytics API
   slug: paubox-analytics-api
-- description: Campaign mailing management and sending operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Campaign mailing management and sending operations
   name: Paubox Campaign Mailings API
   slug: paubox-campaign-mailings-api
-- description: Drip campaign management and automation operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Drip campaign management and automation operations
   name: Paubox Drip Campaigns API
   slug: paubox-drip-campaigns-api
-- description: Manage and use dynamic Handlebars templates for email content
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Manage and use dynamic Handlebars templates for email content
   name: Paubox Dynamic Templates API
   slug: paubox-dynamic-templates-api
-- description: Create, list, update, copy, and archive forms (requires API key)
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Create, list, update, copy, and archive forms (requires API key)
   name: Paubox Form management API
   slug: paubox-form-management-api
-- description: Retrieve form definitions and accept submissions
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Retrieve form definitions and accept submissions
   name: Paubox Forms API
   slug: paubox-forms-api
-- description: Send individual or bulk transactional email
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Send individual or bulk transactional email
   name: Paubox Messages API
   slug: paubox-messages-api
-- description: List and export form submissions (requires API key)
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: List and export form submissions (requires API key)
   name: Paubox Submissions API
   slug: paubox-submissions-api
-- description: Subscriber management operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Subscriber management operations
   name: Paubox Subscribers API
   slug: paubox-subscribers-api
-- description: Subscription list management operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Subscription list management operations
   name: Paubox Subscription Lists API
   slug: paubox-subscription-lists-api
-- description: Subscriber opt-in and opt-out operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Subscriber opt-in and opt-out operations
   name: Paubox Subscriptions API
   slug: paubox-subscriptions-api
-- description: Tracking link analytics and data operations
+- baseURL: https://api.paubox.com/v1/email
+  baseurl_source: declared
+  description: Tracking link analytics and data operations
   name: Paubox Tracking Links API
   slug: paubox-tracking-links-api
 artifact_total: 21
@@ -259,23 +296,23 @@ rate_limits:
   slug: paubox-rate-limits
 score:
   band: exemplar
-  composite: 71.9
+  composite: 72.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.3
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 64.7
+    contract_quality: 65.7
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 72.1
+  previous_composite: 71.9
   provenance:
     conformance: first-party
     contracts:
@@ -300,8 +337,9 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/screenshots/paubox-2026-09-02T150917.png
 security:
 - kind: authentication
   name: Paubox Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 4
 apis:
-- description: Manage approval steps and approval chains
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage approval steps and approval chains
   name: Workday Business Processes Approvals API
   slug: workday-business-processes-approvals-api
-- description: Retrieve and manage business process type definitions
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Retrieve and manage business process type definitions
   name: Workday Business Processes Business Process Definitions API
   slug: workday-business-processes-business-process-definitions-api
-- description: Manage user inbox items requiring action
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage user inbox items requiring action
   name: Workday Business Processes Inbox Items API
   slug: workday-business-processes-inbox-items-api
-- description: Manage running business process instances
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage running business process instances
   name: Workday Business Processes Process Instances API
   slug: workday-business-processes-process-instances-api
 artifact_total: 46
@@ -283,7 +291,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -293,7 +301,7 @@ score:
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 15.8
-  previous_composite: 37.2
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -303,10 +311,10 @@ score:
       total: 5
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/screenshots/workday-business-processes-2026-06-20T201558.png
 security:

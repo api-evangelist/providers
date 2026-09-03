@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,19 +36,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Api(.*) API from Smarter Sorting — 1 operation(s) for api(.*).
+- baseURL: https://api.smartersorting.com
+  baseurl_source: declared
+  description: The Api(.*) API from Smarter Sorting — 1 operation(s) for api(.*).
   name: Smarter Sorting Api(.*) API
   slug: smarter-sorting-api-api
-- description: The Assets(.*) API from Smarter Sorting — 1 operation(s) for assets(.*).
+- baseURL: https://api.smartersorting.com
+  baseurl_source: declared
+  description: The Assets(.*) API from Smarter Sorting — 1 operation(s) for assets(.*).
   name: Smarter Sorting Assets(.*) API
   slug: smarter-sorting-assets-api
-- description: The Docs(.*) API from Smarter Sorting — 2 operation(s) for docs(.*).
+- baseURL: https://api.smartersorting.com
+  baseurl_source: declared
+  description: The Docs(.*) API from Smarter Sorting — 2 operation(s) for docs(.*).
   name: Smarter Sorting Docs(.*) API
   slug: smarter-sorting-docs-api
-- description: The products API from Smarter Sorting — 4 operation(s) for products.
+- baseURL: https://api.smartersorting.com
+  baseurl_source: declared
+  description: The products API from Smarter Sorting — 4 operation(s) for products.
   name: Smarter Sorting Products API
   slug: smarter-sorting-products-api
 artifact_total: 12
@@ -173,11 +194,11 @@ score:
   band: developing
   composite: 45.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -187,7 +208,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.5
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -198,8 +219,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/screenshots/smarter-sorting-2026-09-02T155912.png
 security:
 - kind: authentication
   name: Smarter Sorting Authentication

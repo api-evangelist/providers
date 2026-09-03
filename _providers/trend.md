@@ -34,67 +34,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The AI API from Trend — 3 operation(s) for ai.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The AI API from Trend — 3 operation(s) for ai.
   name: Trend AI API
   slug: trend-ai-api
-- description: The Auth API from Trend — 2 operation(s) for auth.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Auth API from Trend — 2 operation(s) for auth.
   name: Trend Auth API
   slug: trend-auth-api
-- description: The Basic Authentication (AI) API from Trend — 5 operation(s) for basic authentication (ai).
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Basic Authentication (AI) API from Trend — 5 operation(s) for basic authentication (ai).
   name: Trend Basic Authentication (AI) API
   slug: trend-basic-authentication-ai-api
-- description: The Brand Admin API from Trend — 7 operation(s) for brand admin.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Brand Admin API from Trend — 7 operation(s) for brand admin.
   name: Trend Brand Admin API
   slug: trend-brand-admin-api
-- description: The Brand API from Trend — 10 operation(s) for brand.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Brand API from Trend — 10 operation(s) for brand.
   name: Trend Brand API
   slug: trend-brand-api
-- description: The Brand Authentication API from Trend — 7 operation(s) for brand authentication.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Brand Authentication API from Trend — 7 operation(s) for brand authentication.
   name: Trend Brand Authentication API
   slug: trend-brand-authentication-api
-- description: The Campaign API from Trend — 19 operation(s) for campaign.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Campaign API from Trend — 19 operation(s) for campaign.
   name: Trend Campaign API
   slug: trend-campaign-api
-- description: The Content API from Trend — 9 operation(s) for content.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Content API from Trend — 9 operation(s) for content.
   name: Trend Content API
   slug: trend-content-api
-- description: The Creator API from Trend — 22 operation(s) for creator.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Creator API from Trend — 22 operation(s) for creator.
   name: Trend Creator API
   slug: trend-creator-api
-- description: The Creator Authentication API from Trend — 6 operation(s) for creator authentication.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Creator Authentication API from Trend — 6 operation(s) for creator authentication.
   name: Trend Creator Authentication API
   slug: trend-creator-authentication-api
-- description: The Creator Portfolio API from Trend — 4 operation(s) for creator portfolio.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Creator Portfolio API from Trend — 4 operation(s) for creator portfolio.
   name: Trend Creator Portfolio API
   slug: trend-creator-portfolio-api
-- description: The Creator Profiles API from Trend — 6 operation(s) for creator profiles.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Creator Profiles API from Trend — 6 operation(s) for creator profiles.
   name: Trend Creator Profiles API
   slug: trend-creator-profiles-api
-- description: The Health Check API from Trend — 1 operation(s) for health check.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Health Check API from Trend — 1 operation(s) for health check.
   name: Trend Health Check API
   slug: trend-health-check-api
-- description: The Message API from Trend — 6 operation(s) for message.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Message API from Trend — 6 operation(s) for message.
   name: Trend Message API
   slug: trend-message-api
-- description: The Metrics API from Trend — 1 operation(s) for metrics.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Metrics API from Trend — 1 operation(s) for metrics.
   name: Trend Metrics API
   slug: trend-metrics-api
-- description: The Partnership API from Trend — 12 operation(s) for partnership.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Partnership API from Trend — 12 operation(s) for partnership.
   name: Trend Partnership API
   slug: trend-partnership-api
-- description: The Payment API from Trend — 6 operation(s) for payment.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Payment API from Trend — 6 operation(s) for payment.
   name: Trend Payment API
   slug: trend-payment-api
-- description: The Review API from Trend — 1 operation(s) for review.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Review API from Trend — 1 operation(s) for review.
   name: Trend Review API
   slug: trend-review-api
-- description: The Shipment API from Trend — 3 operation(s) for shipment.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Shipment API from Trend — 3 operation(s) for shipment.
   name: Trend Shipment API
   slug: trend-shipment-api
-- description: The Upload API from Trend — 2 operation(s) for upload.
+- baseURL: https://api.trend.io
+  baseurl_source: declared
+  description: The Upload API from Trend — 2 operation(s) for upload.
   name: Trend Upload API
   slug: trend-upload-api
 artifact_total: 26
@@ -264,7 +304,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png
 security:

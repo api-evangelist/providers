@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -48,25 +48,39 @@ apis:
 - description: LiveIntent's exchange-side real-time bidding integration for demand-side platforms. It implements a subset of the IAB OpenRTB API Specification 2.5 together with OpenRTB Native Ads 1.1 and 1.2, passin
   name: LiveIntent Programmatic Bidding API
   slug: programmatic-bidding
-- description: This API reference describes how to interact with the Privacy Management API.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: This API reference describes how to interact with the Privacy Management API.
   name: LiveIntent API references API
   slug: liveintent-api-references-api
-- description: The Audiences API from LiveIntent — 5 operation(s) for audiences.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: The Audiences API from LiveIntent — 5 operation(s) for audiences.
   name: LiveIntent Audiences API
   slug: liveintent-audiences-api
-- description: The Eventtrackers API from LiveIntent — 1 operation(s) for eventtrackers.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: The Eventtrackers API from LiveIntent — 1 operation(s) for eventtrackers.
   name: LiveIntent Eventtrackers API
   slug: liveintent-eventtrackers-api
-- description: Legacy endpoints for backward compatibility. These endpoints are deprecated and should not be used for new integrations.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: Legacy endpoints for backward compatibility. These endpoints are deprecated and should not be used for new integrations.
   name: LiveIntent Legacy API
   slug: liveintent-legacy-api
-- description: The Search API from LiveIntent — 2 operation(s) for search.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: The Search API from LiveIntent — 2 operation(s) for search.
   name: LiveIntent Search API
   slug: liveintent-search-api
-- description: The Trackers API from LiveIntent — 1 operation(s) for trackers.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: The Trackers API from LiveIntent — 1 operation(s) for trackers.
   name: LiveIntent Trackers API
   slug: liveintent-trackers-api
-- description: The Urltrackers API from LiveIntent — 1 operation(s) for urltrackers.
+- baseURL: https://audiences.liveintent.com
+  baseurl_source: declared
+  description: The Urltrackers API from LiveIntent — 1 operation(s) for urltrackers.
   name: LiveIntent Urltrackers API
   slug: liveintent-urltrackers-api
 artifact_total: 17
@@ -231,7 +245,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -241,7 +255,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 42.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,7 +266,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/screenshots/liveintent-2026-07-25T225352.png
 security:

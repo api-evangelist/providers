@@ -32,16 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agents API from Zoho Desk — 2 operation(s) for agents.
+- baseURL: https://desk.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Agents API from Zoho Desk — 2 operation(s) for agents.
   name: Zoho Desk Agents API
   slug: zoho-desk-agents-api
-- description: The Contacts API from Zoho Desk — 2 operation(s) for contacts.
+- baseURL: https://desk.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Contacts API from Zoho Desk — 2 operation(s) for contacts.
   name: Zoho Desk Contacts API
   slug: zoho-desk-contacts-api
-- description: The Tickets API from Zoho Desk — 2 operation(s) for tickets.
+- baseURL: https://desk.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Tickets API from Zoho Desk — 2 operation(s) for tickets.
   name: Zoho Desk Tickets API
   slug: zoho-desk-tickets-api
 artifact_total: 10
@@ -146,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/screenshots/zoho-desk-2026-06-20T201938.png
 security:

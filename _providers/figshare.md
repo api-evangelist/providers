@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The altmetric API from Figshare — 1 operation(s) for altmetric.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The altmetric API from Figshare — 1 operation(s) for altmetric.
   name: Figshare altmetric API
   slug: figshare-altmetric-api
-- description: The articles API from Figshare — 34 operation(s) for articles.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The articles API from Figshare — 34 operation(s) for articles.
   name: Figshare articles API
   slug: figshare-articles-api
-- description: The authors API from Figshare — 2 operation(s) for authors.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The authors API from Figshare — 2 operation(s) for authors.
   name: Figshare authors API
   slug: figshare-authors-api
-- description: The collections API from Figshare — 21 operation(s) for collections.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The collections API from Figshare — 21 operation(s) for collections.
   name: Figshare collections API
   slug: figshare-collections-api
-- description: The institutions API from Figshare — 20 operation(s) for institutions.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The institutions API from Figshare — 20 operation(s) for institutions.
   name: Figshare institutions API
   slug: figshare-institutions-api
-- description: The oauth API from Figshare — 1 operation(s) for oauth.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The oauth API from Figshare — 1 operation(s) for oauth.
   name: Figshare oauth API
   slug: figshare-oauth-api
-- description: The other API from Figshare — 7 operation(s) for other.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The other API from Figshare — 7 operation(s) for other.
   name: Figshare other API
   slug: figshare-other-api
-- description: The profiles API from Figshare — 2 operation(s) for profiles.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The profiles API from Figshare — 2 operation(s) for profiles.
   name: Figshare profiles API
   slug: figshare-profiles-api
-- description: The projects API from Figshare — 17 operation(s) for projects.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The projects API from Figshare — 17 operation(s) for projects.
   name: Figshare projects API
   slug: figshare-projects-api
-- description: The symplectic API from Figshare — 5 operation(s) for symplectic.
+- baseURL: https://api.figshare.com/v2
+  baseurl_source: declared
+  description: The symplectic API from Figshare — 5 operation(s) for symplectic.
   name: Figshare symplectic API
   slug: figshare-symplectic-api
 artifact_total: 57
@@ -363,7 +383,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/screenshots/figshare-2026-06-20T181159.png
 security:

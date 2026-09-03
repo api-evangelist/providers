@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 23 operations · 6 acting
 api_count: 1
 apis:
-- description: Verify API credentials
+- baseURL: https://api.emailonacid.com/v5
+  baseurl_source: declared
+  description: Verify API credentials
   name: Email on Acid Authentication API
   slug: email-on-acid-authentication-api
-- description: Manage email client lists and defaults for testing
+- baseURL: https://api.emailonacid.com/v5
+  baseurl_source: declared
+  description: Manage email client lists and defaults for testing
   name: Email on Acid Email Clients API
   slug: email-on-acid-email-clients-api
-- description: Create and manage email rendering tests
+- baseURL: https://api.emailonacid.com/v5
+  baseurl_source: declared
+  description: Create and manage email rendering tests
   name: Email on Acid Email Testing API
   slug: email-on-acid-email-testing-api
-- description: Standalone spam filter analysis and seed list management
+- baseURL: https://api.emailonacid.com/v5
+  baseurl_source: declared
+  description: Standalone spam filter analysis and seed list management
   name: Email on Acid Spam Testing API
   slug: email-on-acid-spam-testing-api
 artifact_total: 25
@@ -228,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-on-acid/refs/heads/main/screenshots/email-on-acid-2026-06-20T180618.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: The Auth API from Finch — 1 operation(s) for auth.
+- baseURL: https://api.tryfinch.com
+  baseurl_source: declared
+  description: The Auth API from Finch — 1 operation(s) for auth.
   name: Finch Auth API
   slug: finch-auth-api
-- description: The Connect API from Finch — 1 operation(s) for connect.
+- baseURL: https://api.tryfinch.com
+  baseurl_source: declared
+  description: The Connect API from Finch — 1 operation(s) for connect.
   name: Finch Connect API
   slug: finch-connect-api
-- description: The Employer API from Finch — 7 operation(s) for employer.
+- baseURL: https://api.tryfinch.com
+  baseurl_source: declared
+  description: The Employer API from Finch — 7 operation(s) for employer.
   name: Finch Employer API
   slug: finch-employer-api
 artifact_total: 15
@@ -183,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/screenshots/finch-2026-06-20T181218.png
 security:

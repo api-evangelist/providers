@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Upload and manage documents for parsing
+- baseURL: https://api.docparser.com/v1
+  baseurl_source: declared
+  description: Upload and manage documents for parsing
   name: Docparser Documents API
   slug: docparser-documents-api
-- description: Manage document parser configurations
+- baseURL: https://api.docparser.com/v1
+  baseurl_source: declared
+  description: Manage document parser configurations
   name: Docparser Parsers API
   slug: docparser-parsers-api
-- description: Health check and connectivity test
+- baseURL: https://api.docparser.com/v1
+  baseurl_source: declared
+  description: Health check and connectivity test
   name: Docparser Ping API
   slug: docparser-ping-api
-- description: Retrieve parsed data results
+- baseURL: https://api.docparser.com/v1
+  baseurl_source: declared
+  description: Retrieve parsed data results
   name: Docparser Results API
   slug: docparser-results-api
 artifact_total: 29
@@ -233,7 +241,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -243,7 +251,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 60.5
-  previous_composite: 50.3
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -252,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/screenshots/docparser-2026-06-20T180109.png
 security:

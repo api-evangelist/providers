@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Access BVAL evaluated prices, yield curves, spread data, and pricing transparency metadata for fixed income securities via BLPAPI and Data License. Supports corporate bonds, municipal bonds, governmen
@@ -139,7 +139,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-valuation-service-bval/refs/heads/main/screenshots/bloomberg-valuation-service-bval-2026-07-25T203407.png
 security:

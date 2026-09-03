@@ -35,13 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The auth API from Commure — 6 operation(s) for auth.
+- baseURL: https://api-{tenant-id}.developer.commure.com
+  baseurl_source: declared
+  description: The auth API from Commure — 6 operation(s) for auth.
   name: Commure Auth API
   slug: commure-auth-api
-- description: The FHIR API from Commure — 49 operation(s) for fhir.
+- baseURL: https://api-{tenant-id}.developer.commure.com
+  baseurl_source: declared
+  description: The FHIR API from Commure — 49 operation(s) for fhir.
   name: Commure FHIR API
   slug: commure-fhir-api
 artifact_total: 10
@@ -308,7 +312,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:

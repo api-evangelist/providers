@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,46 +47,74 @@ apis:
 - description: The core OpenSearch REST API for indexing documents, performing search queries (full text, vector, hybrid), aggregations, and managing indices, mappings, templates, aliases, and snapshots.
   name: OpenSearch Search and Indexing REST API
   slug: opensearch-search-api
-- description: Self-service account endpoints for the calling user.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Self-service account endpoints for the calling user.
   name: OpenSearch Account API
   slug: opensearch-account-api
-- description: Reusable groups of cluster and index permissions.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Reusable groups of cluster and index permissions.
   name: OpenSearch Action Groups API
   slug: opensearch-action-groups-api
-- description: Allowlist of HTTP APIs available to non-admin users.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Allowlist of HTTP APIs available to non-admin users.
   name: OpenSearch Allowlist API
   slug: opensearch-allowlist-api
-- description: Audit log configuration.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Audit log configuration.
   name: OpenSearch Audit API
   slug: opensearch-audit-api
-- description: Manage the security cache.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Manage the security cache.
   name: OpenSearch Cache API
   slug: opensearch-cache-api
-- description: Inspect SSL certificates loaded by the cluster.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Inspect SSL certificates loaded by the cluster.
   name: OpenSearch Certificates API
   slug: opensearch-certificates-api
-- description: Security plugin health check.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Security plugin health check.
   name: OpenSearch Health API
   slug: opensearch-health-api
-- description: CRUD for internal user database entries.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: CRUD for internal user database entries.
   name: OpenSearch Internal Users API
   slug: opensearch-internal-users-api
-- description: Allowlisted distinguished names for cross-cluster nodes.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Allowlisted distinguished names for cross-cluster nodes.
   name: OpenSearch Nodes DN API
   slug: opensearch-nodes-dn-api
-- description: Map users, backend roles, and hosts to security roles.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Map users, backend roles, and hosts to security roles.
   name: OpenSearch Role Mappings API
   slug: opensearch-role-mappings-api
-- description: CRUD for security roles and their permissions.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: CRUD for security roles and their permissions.
   name: OpenSearch Roles API
   slug: opensearch-roles-api
-- description: Inspect and update the running security configuration.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Inspect and update the running security configuration.
   name: OpenSearch Security Config API
   slug: opensearch-security-config-api
-- description: Inspect SSL handshake information for the calling client.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Inspect SSL handshake information for the calling client.
   name: OpenSearch SSL Info API
   slug: opensearch-ssl-info-api
-- description: Multi-tenancy support for OpenSearch Dashboards.
+- baseURL: https://{cluster-host}:9200
+  baseurl_source: declared
+  description: Multi-tenancy support for OpenSearch Dashboards.
   name: OpenSearch Tenants API
   slug: opensearch-tenants-api
 artifact_total: 52
@@ -303,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/screenshots/opensearch-2026-06-20T191032.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,16 +47,22 @@ apis:
 - description: The Sanity Mutation API enables creating, updating, patching, and deleting documents in Content Lake. Mutations are submitted as arrays of operations (create, createOrReplace, createIfNotExists, patch
   name: Sanity Mutation API
   slug: sanity-mutation-api
-- description: The Sanity Assets API handles uploading, retrieving, and managing file and image assets in Content Lake. Assets are stored as documents and referenced from content documents.
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: The Sanity Assets API handles uploading, retrieving, and managing file and image assets in Content Lake. Assets are stored as documents and referenced from content documents.
   name: Sanity Assets API
   slug: sanity-assets-api
-- description: The Sanity Projects API enables programmatic management of Sanity projects including creating projects, managing datasets, configuring CORS origins, managing access tokens, and checking user permissio
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: The Sanity Projects API enables programmatic management of Sanity projects including creating projects, managing datasets, configuring CORS origins, managing access tokens, and checking user permissio
   name: Sanity Projects API
   slug: sanity-projects-api
 - description: 'The Sanity Webhooks API enables configuring event-driven notifications for content changes. Webhooks can be created to trigger on document create, update, delete, and publish events with customizable '
   name: Sanity Webhooks API
   slug: sanity-webhooks-api
-- description: The Sanity Listen API provides real-time event streaming via Server-Sent Events (SSE) for content changes in a dataset. Clients can subscribe to a GROQ query and receive real-time notifications when m
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: The Sanity Listen API provides real-time event streaming via Server-Sent Events (SSE) for content changes in a dataset. Clients can subscribe to a GROQ query and receive real-time notifications when m
   name: Sanity Listen API
   slug: sanity-listen-api
 - description: The Sanity Roles API provides endpoints for managing user roles and permissions within Sanity projects. Supports predefined roles (Administrator, Read+Write, Read, Viewer) and custom role management.
@@ -68,22 +74,34 @@ apis:
 - description: The Sanity Embeddings Index API enables creating and managing vector embedding indexes for Content Lake documents, supporting semantic search and AI-powered content retrieval workflows.
   name: Sanity Embeddings Index API
   slug: sanity-embeddings-index-api
-- description: File and image asset management
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: File and image asset management
   name: Sanity Assets API
   slug: sanity-assets-api
-- description: Real-time event streaming
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: Real-time event streaming
   name: Sanity Listen API
   slug: sanity-listen-api
-- description: Create, update, and delete document operations
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: Create, update, and delete document operations
   name: Sanity Mutations API
   slug: sanity-mutations-api
-- description: Project and dataset management
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: Project and dataset management
   name: Sanity Projects API
   slug: sanity-projects-api
-- description: GROQ query operations against Content Lake
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: GROQ query operations against Content Lake
   name: Sanity Query API
   slug: sanity-query-api
-- description: Event notification configuration
+- baseURL_template: https://{projectId}.api.sanity.io/v{apiVersion}
+  baseurl_source: spec_template
+  description: Event notification configuration
   name: Sanity Webhooks API
   slug: sanity-webhooks-api
 arazzos:
@@ -455,7 +473,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -465,7 +483,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -474,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png
 security:

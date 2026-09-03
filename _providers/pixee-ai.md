@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The Findings API from Pixee — 2 operation(s) for findings.
+- baseURL: https://app.pixee.ai/api/v1
+  baseurl_source: declared
+  description: The Findings API from Pixee — 2 operation(s) for findings.
   name: Pixee Findings API
   slug: pixee-ai-findings-api
-- description: The Fixes API from Pixee — 2 operation(s) for fixes.
+- baseURL: https://app.pixee.ai/api/v1
+  baseurl_source: declared
+  description: The Fixes API from Pixee — 2 operation(s) for fixes.
   name: Pixee Fixes API
   slug: pixee-ai-fixes-api
-- description: The Repositories API from Pixee — 2 operation(s) for repositories.
+- baseURL: https://app.pixee.ai/api/v1
+  baseurl_source: declared
+  description: The Repositories API from Pixee — 2 operation(s) for repositories.
   name: Pixee Repositories API
   slug: pixee-ai-repositories-api
-- description: The Scans API from Pixee — 1 operation(s) for scans.
+- baseURL: https://app.pixee.ai/api/v1
+  baseurl_source: declared
+  description: The Scans API from Pixee — 1 operation(s) for scans.
   name: Pixee Scans API
   slug: pixee-ai-scans-api
-- description: The Webhooks API from Pixee — 2 operation(s) for webhooks.
+- baseURL: https://app.pixee.ai/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Pixee — 2 operation(s) for webhooks.
   name: Pixee Webhooks API
   slug: pixee-ai-webhooks-api
 artifact_total: 26
@@ -196,7 +206,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -206,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.6
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +227,8 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:
 - kind: authentication

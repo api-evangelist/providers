@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: 'The UKG HR Service Delivery API (formerly People Doc) provides access to employee request management, knowledge portal content, process automation, document storage, and compliance workflows. Enables '
   name: UKG HR Service Delivery API
   slug: ukg-hr-service-delivery-api
-- description: Accrual balances and transactions
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Accrual balances and transactions
   name: UKG Accruals API
   slug: ukg-accruals-api
-- description: Benefits enrollment and plan information
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Benefits enrollment and plan information
   name: UKG Benefits API
   slug: ukg-benefits-api
-- description: Employee records and demographic data
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Employee records and demographic data
   name: UKG Employees API
   slug: ukg-employees-api
-- description: Departments, locations, and cost centers
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Departments, locations, and cost centers
   name: UKG Organization API
   slug: ukg-organization-api
-- description: Payroll data and check history
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Payroll data and check history
   name: UKG Payroll API
   slug: ukg-payroll-api
-- description: Job changes, status changes, and employment actions
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Job changes, status changes, and employment actions
   name: UKG Personnel Actions API
   slug: ukg-personnel-actions-api
-- description: Shifts, schedules, and schedule management
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Shifts, schedules, and schedule management
   name: UKG Scheduling API
   slug: ukg-scheduling-api
-- description: Punches, time entries, and timecards
+- baseURL: https://service.ultipro.com
+  baseurl_source: declared
+  description: Punches, time entries, and timecards
   name: UKG Timekeeping API
   slug: ukg-timekeeping-api
 arazzos:
@@ -555,7 +571,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Bulk retrieval of every country in the dataset.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Bulk retrieval of every country in the dataset.
   name: REST Countries All API
   slug: rest-countries-all-api
-- description: Lookup countries by ISO 3166-1 alpha-2, alpha-3, numeric, or CIOC code.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by ISO 3166-1 alpha-2, alpha-3, numeric, or CIOC code.
   name: REST Countries Alpha API
   slug: rest-countries-alpha-api
-- description: Lookup countries by capital city.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by capital city.
   name: REST Countries Capital API
   slug: rest-countries-capital-api
-- description: Lookup countries by ISO 4217 currency code or currency name.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by ISO 4217 currency code or currency name.
   name: REST Countries Currency API
   slug: rest-countries-currency-api
-- description: Lookup countries by demonym (citizen designation).
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by demonym (citizen designation).
   name: REST Countries Demonym API
   slug: rest-countries-demonym-api
-- description: Lookup countries filtered by ISO 3166-1 independence status.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries filtered by ISO 3166-1 independence status.
   name: REST Countries Independent API
   slug: rest-countries-independent-api
-- description: Lookup countries by ISO 639 language code or language name.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by ISO 639 language code or language name.
   name: REST Countries Language API
   slug: rest-countries-language-api
-- description: Lookup countries by common or official name.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by common or official name.
   name: REST Countries Name API
   slug: rest-countries-name-api
-- description: Lookup countries within a UN geographic region.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries within a UN geographic region.
   name: REST Countries Region API
   slug: rest-countries-region-api
-- description: Lookup countries within a UN geographic subregion.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries within a UN geographic subregion.
   name: REST Countries Subregion API
   slug: rest-countries-subregion-api
-- description: Lookup countries by translated name.
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Lookup countries by translated name.
   name: REST Countries Translation API
   slug: rest-countries-translation-api
-- description: Country lookup and search endpoints
+- baseURL: https://restcountries.com/v3.1
+  baseurl_source: declared
+  description: Country lookup and search endpoints
   name: REST Countries Countries API
   slug: rest-countries-countries-api
 artifact_total: 46
@@ -322,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/screenshots/rest-countries-2026-06-20T193018.png
 security:

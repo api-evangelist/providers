@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Rabobank Australia Banking Account Balances API
   slug: rabobank-australia-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Rabobank Australia Banking Account Direct Debits API
   slug: rabobank-australia-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Rabobank Australia Banking Account Scheduled Payments API
   slug: rabobank-australia-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Rabobank Australia Banking Account Transactions API
   slug: rabobank-australia-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Rabobank Australia Banking Accounts API
   slug: rabobank-australia-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Rabobank Australia Banking Payees API
   slug: rabobank-australia-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Rabobank Australia Banking Products API
   slug: rabobank-australia-banking-products-api
 artifact_total: 19
@@ -229,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

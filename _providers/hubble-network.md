@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -33,25 +48,39 @@ agentic_access:
   summary_line: 39 operations · 19 acting
 api_count: 2
 apis:
-- description: The API Keys API from Hubble Network — 4 operation(s) for api keys.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The API Keys API from Hubble Network — 4 operation(s) for api keys.
   name: Hubble Network API Keys API
   slug: hubble-network-api-keys-api
-- description: The Billing API from Hubble Network — 6 operation(s) for billing.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Billing API from Hubble Network — 6 operation(s) for billing.
   name: Hubble Network Billing API
   slug: hubble-network-billing-api
-- description: The Devices API from Hubble Network — 3 operation(s) for devices.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Devices API from Hubble Network — 3 operation(s) for devices.
   name: Hubble Network Devices API
   slug: hubble-network-devices-api
-- description: The Organizations API from Hubble Network — 4 operation(s) for organizations.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Organizations API from Hubble Network — 4 operation(s) for organizations.
   name: Hubble Network Organizations API
   slug: hubble-network-organizations-api
-- description: The Packet Webhooks API from Hubble Network — 3 operation(s) for packet webhooks.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Packet Webhooks API from Hubble Network — 3 operation(s) for packet webhooks.
   name: Hubble Network Packet Webhooks API
   slug: hubble-network-packet-webhooks-api
-- description: The Packets API from Hubble Network — 2 operation(s) for packets.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Packets API from Hubble Network — 2 operation(s) for packets.
   name: Hubble Network Packets API
   slug: hubble-network-packets-api
-- description: The Platform Metrics API from Hubble Network — 4 operation(s) for platform metrics.
+- baseURL: https://api.hubble.com
+  baseurl_source: declared
+  description: The Platform Metrics API from Hubble Network — 4 operation(s) for platform metrics.
   name: Hubble Network Platform Metrics API
   slug: hubble-network-platform-metrics-api
 artifact_total: 33
@@ -341,7 +370,7 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -351,7 +380,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 69.5
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,7 +392,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/screenshots/hubble-network-2026-08-17T075400.png
 security:

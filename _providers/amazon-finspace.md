@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 11 acting
 api_count: 6
 apis:
-- description: Manage FinSpace environments
+- baseURL: https://finspace.amazonaws.com
+  baseurl_source: declared
+  description: Manage FinSpace environments
   name: Amazon FinSpace Environments API
   slug: amazon-finspace-environments-api
-- description: Manage kdb compute clusters
+- baseURL: https://finspace.amazonaws.com
+  baseurl_source: declared
+  description: Manage kdb compute clusters
   name: Amazon FinSpace Kdb Clusters API
   slug: amazon-finspace-kdb-clusters-api
-- description: Manage kdb databases
+- baseURL: https://finspace.amazonaws.com
+  baseurl_source: declared
+  description: Manage kdb databases
   name: Amazon FinSpace Kdb Databases API
   slug: amazon-finspace-kdb-databases-api
-- description: Manage Managed kdb Insights environments
+- baseURL: https://finspace.amazonaws.com
+  baseurl_source: declared
+  description: Manage Managed kdb Insights environments
   name: Amazon FinSpace Kdb Environments API
   slug: amazon-finspace-kdb-environments-api
-- description: Manage kdb users
+- baseURL: https://finspace.amazonaws.com
+  baseurl_source: declared
+  description: Manage kdb users
   name: Amazon FinSpace Kdb Users API
   slug: amazon-finspace-kdb-users-api
-- description: Tag FinSpace resources
+- baseURL: https://finspace.amazonaws.com
+  baseurl_source: declared
+  description: Tag FinSpace resources
   name: Amazon FinSpace Tagging API
   slug: amazon-finspace-tagging-api
 artifact_total: 58
@@ -340,7 +352,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/screenshots/amazon-finspace-2026-06-20T171652.png
 security:

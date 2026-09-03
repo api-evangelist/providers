@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 60 operations · 6 acting
 api_count: 2
 apis:
-- description: The CapabilityStatement API from Canada Health Infoway — 1 operation(s) for capabilitystatement.
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: The CapabilityStatement API from Canada Health Infoway — 1 operation(s) for capabilitystatement.
   name: Canada Health Infoway Capability Statement API
   slug: canada-health-infoway-capabilitystatement-api
-- description: The CodeSystem API from Canada Health Infoway — 5 operation(s) for codesystem.
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: The CodeSystem API from Canada Health Infoway — 5 operation(s) for codesystem.
   name: Canada Health Infoway Code System API
   slug: canada-health-infoway-codesystem-api
-- description: APIs for accessing code system data
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing code system data
   name: Canada Health Infoway Codesystems API
   slug: canada-health-infoway-codesystems-api
-- description: The ConceptMap API from Canada Health Infoway — 5 operation(s) for conceptmap.
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: The ConceptMap API from Canada Health Infoway — 5 operation(s) for conceptmap.
   name: Canada Health Infoway Concept Map API
   slug: canada-health-infoway-conceptmap-api
-- description: APIs for accessing map data
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing map data
   name: Canada Health Infoway Maps API
   slug: canada-health-infoway-maps-api
-- description: APIs for accessing user notifications
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing user notifications
   name: Canada Health Infoway Notification API
   slug: canada-health-infoway-notification-api
-- description: APIs for accessing package data
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing package data
   name: Canada Health Infoway Packages API
   slug: canada-health-infoway-packages-api
-- description: APIs for accessing resource location data
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing resource location data
   name: Canada Health Infoway Resourcelocations API
   slug: canada-health-infoway-resourcelocations-api
-- description: APIs for programmatically logging in
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for programmatically logging in
   name: Canada Health Infoway Session API
   slug: canada-health-infoway-session-api
-- description: APIs for terminology subsets
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for terminology subsets
   name: Canada Health Infoway Subsets API
   slug: canada-health-infoway-subsets-api
-- description: The ValueSet API from Canada Health Infoway — 8 operation(s) for valueset.
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: The ValueSet API from Canada Health Infoway — 8 operation(s) for valueset.
   name: Canada Health Infoway Value Set API
   slug: canada-health-infoway-valueset-api
 artifact_total: 18
@@ -218,7 +240,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -228,7 +250,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 42.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,7 +268,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:

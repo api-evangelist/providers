@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -50,19 +50,29 @@ apis:
 - description: Sectigo (formerly Comodo CA) provides certificate lifecycle management APIs for enterprise PKI, including S/MIME, code signing, and TLS certificates.
   name: Sectigo Certificate Manager API
   slug: sectigo-api
-- description: Certificate issuance and management
+- baseURL: https://acme-v02.api.letsencrypt.org/directory
+  baseurl_source: declared
+  description: Certificate issuance and management
   name: SSL/TLS Certificates API
   slug: ssl-tls-certificates-api
-- description: Domain verification and management
+- baseURL: https://acme-v02.api.letsencrypt.org/directory
+  baseurl_source: declared
+  description: Domain verification and management
   name: SSL/TLS Domains API
   slug: ssl-tls-domains-api
-- description: Certificate expiry monitoring
+- baseURL: https://acme-v02.api.letsencrypt.org/directory
+  baseurl_source: declared
+  description: Certificate expiry monitoring
   name: SSL/TLS Monitoring API
   slug: ssl-tls-monitoring-api
-- description: Certificate order lifecycle
+- baseURL: https://acme-v02.api.letsencrypt.org/directory
+  baseurl_source: declared
+  description: Certificate order lifecycle
   name: SSL/TLS Orders API
   slug: ssl-tls-orders-api
-- description: Certificate revocation
+- baseURL: https://acme-v02.api.letsencrypt.org/directory
+  baseurl_source: declared
+  description: Certificate revocation
   name: SSL/TLS Revocation API
   slug: ssl-tls-revocation-api
 artifact_total: 28
@@ -242,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/screenshots/ssl-tls-2026-06-20T194435.png
 security:

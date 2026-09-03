@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -53,37 +53,59 @@ apis:
 - description: AI toolkit providing GraphQL-based assistant management, auto-embeddings, session handling, and file stores. Enables developers to turn any Nhost project into an agentic service with built-in vector s
   name: Nhost AI API
   slug: nhost-ai-api
-- description: User authentication operations including sign-in, sign-up, and various authentication methods (email/password, passwordless, OAuth, WebAuthn, MFA)
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: User authentication operations including sign-in, sign-up, and various authentication methods (email/password, passwordless, OAuth, WebAuthn, MFA)
   name: Nhost authentication API
   slug: nhost-authentication-api
-- description: API documentation
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: API documentation
   name: Nhost documentation API
   slug: nhost-documentation-api
-- description: These operations are not intended to be used directly by clients and should be excluded from client SDKs
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: These operations are not intended to be used directly by clients and should be excluded from client SDKs
   name: Nhost excludeme API
   slug: nhost-excludeme-api
-- description: File management operations
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: File management operations
   name: Nhost files API
   slug: nhost-files-api
-- description: Administrative operations
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: Administrative operations
   name: Nhost operations API
   slug: nhost-operations-api
-- description: Security-related operations including Personal Access Tokens, WebAuthn management, account elevation, and account linking
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: Security-related operations including Personal Access Tokens, WebAuthn management, account elevation, and account linking
   name: Nhost security API
   slug: nhost-security-api
-- description: Session management operations including token refresh, verification, and sign-out
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: Session management operations including token refresh, verification, and sign-out
   name: Nhost session API
   slug: nhost-session-api
-- description: Storage operations and presigned URLs
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: Storage operations and presigned URLs
   name: Nhost storage API
   slug: nhost-storage-api
-- description: System operations including health checks, service version, and public key endpoints
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: System operations including health checks, service version, and public key endpoints
   name: Nhost system API
   slug: nhost-system-api
-- description: User profile and account management operations including email/password changes, MFA configuration, and profile updates
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: User profile and account management operations including email/password changes, MFA configuration, and profile updates
   name: Nhost user API
   slug: nhost-user-api
-- description: Email and ticket verification operations for confirming user actions
+- baseURL: https://{subdomain}.nhost.run/v1/graphql
+  baseurl_source: declared
+  description: Email and ticket verification operations for confirming user actions
   name: Nhost verification API
   slug: nhost-verification-api
 artifact_total: 43
@@ -292,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhost/refs/heads/main/screenshots/nhost-2026-06-20T190311.png
 security:

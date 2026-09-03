@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -213,970 +213,1614 @@ apis:
 - description: Manage block volume attachments for instances
   name: Oracle Volume Attachments API
   slug: oracle-volume-attachments-api
-- description: The accessGovernanceCP API from Oracle — 10 operation(s) for accessgovernancecp.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The accessGovernanceCP API from Oracle — 10 operation(s) for accessgovernancecp.
   name: Oracle Access Governance CP API
   slug: oracle-accessgovernancecp-api
-- description: The accessRequest API from Oracle — 7 operation(s) for accessrequest.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The accessRequest API from Oracle — 7 operation(s) for accessrequest.
   name: Oracle Access Request API
   slug: oracle-accessrequest-api
-- description: The accessRequests API from Oracle — 7 operation(s) for accessrequests.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The accessRequests API from Oracle — 7 operation(s) for accessrequests.
   name: Oracle Access Requests API
   slug: oracle-accessrequests-api
-- description: The Account API from Oracle — 2 operation(s) for account.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Account API from Oracle — 2 operation(s) for account.
   name: Oracle Account API
   slug: oracle-account-api
-- description: The AiDataPlatform API from Oracle — 7 operation(s) for aidataplatform.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The AiDataPlatform API from Oracle — 7 operation(s) for aidataplatform.
   name: Oracle AI Data Platform API
   slug: oracle-aidataplatform-api
-- description: The AIServiceDocument API from Oracle — 19 operation(s) for aiservicedocument.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The AIServiceDocument API from Oracle — 19 operation(s) for aiservicedocument.
   name: Oracle AI Service Document API
   slug: oracle-aiservicedocument-api
-- description: API operations for language(NLP)
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: API operations for language(NLP)
   name: Oracle AI Service Language API
   slug: oracle-aiservicelanguage-api
-- description: The AIServiceSpeech API from Oracle — 13 operation(s) for aiservicespeech.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The AIServiceSpeech API from Oracle — 13 operation(s) for aiservicespeech.
   name: Oracle AI Service Speech API
   slug: oracle-aiservicespeech-api
-- description: The AIServiceVision API from Oracle — 35 operation(s) for aiservicevision.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The AIServiceVision API from Oracle — 35 operation(s) for aiservicevision.
   name: Oracle AI Service Vision API
   slug: oracle-aiservicevision-api
-- description: The analytics API from Oracle — 17 operation(s) for analytics.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The analytics API from Oracle — 17 operation(s) for analytics.
   name: Oracle Analytics API
   slug: oracle-analytics-api
-- description: The announcement API from Oracle — 4 operation(s) for announcement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The announcement API from Oracle — 4 operation(s) for announcement.
   name: Oracle Announcement API
   slug: oracle-announcement-api
-- description: The announcementsPreferences API from Oracle — 2 operation(s) for announcementspreferences.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The announcementsPreferences API from Oracle — 2 operation(s) for announcementspreferences.
   name: Oracle Announcements Preferences API
   slug: oracle-announcementspreferences-api
-- description: The announcementSubscription API from Oracle — 5 operation(s) for announcementsubscription.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The announcementSubscription API from Oracle — 5 operation(s) for announcementsubscription.
   name: Oracle Announcement Subscription API
   slug: oracle-announcementsubscription-api
-- description: The apiGateway API from Oracle — 18 operation(s) for apigateway.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The apiGateway API from Oracle — 18 operation(s) for apigateway.
   name: Oracle API Gateway API
   slug: oracle-apigateway-api
-- description: The apiMetadata API from Oracle — 3 operation(s) for apimetadata.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The apiMetadata API from Oracle — 3 operation(s) for apimetadata.
   name: Oracle API Metadata API
   slug: oracle-apimetadata-api
-- description: The apmDomain API from Oracle — 11 operation(s) for apmdomain.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The apmDomain API from Oracle — 11 operation(s) for apmdomain.
   name: Oracle Apm Domain API
   slug: oracle-apmdomain-api
-- description: The apmSynthetic API from Oracle — 13 operation(s) for apmsynthetic.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The apmSynthetic API from Oracle — 13 operation(s) for apmsynthetic.
   name: Oracle Apm Synthetic API
   slug: oracle-apmsynthetic-api
-- description: The applicationDependencyManagement API from Oracle — 24 operation(s) for applicationdependencymanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The applicationDependencyManagement API from Oracle — 24 operation(s) for applicationdependencymanagement.
   name: Oracle Application Dependency Management API
   slug: oracle-applicationdependencymanagement-api
-- description: The appmgmtControl API from Oracle — 8 operation(s) for appmgmtcontrol.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The appmgmtControl API from Oracle — 8 operation(s) for appmgmtcontrol.
   name: Oracle Appmgmt Control API
   slug: oracle-appmgmtcontrol-api
-- description: The approvalTemplate API from Oracle — 3 operation(s) for approvaltemplate.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The approvalTemplate API from Oracle — 3 operation(s) for approvaltemplate.
   name: Oracle Approval Template API
   slug: oracle-approvaltemplate-api
-- description: The artifacts API from Oracle — 17 operation(s) for artifacts.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The artifacts API from Oracle — 17 operation(s) for artifacts.
   name: Oracle Artifacts API
   slug: oracle-artifacts-api
-- description: The attributes API from Oracle — 8 operation(s) for attributes.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The attributes API from Oracle — 8 operation(s) for attributes.
   name: Oracle Attributes API
   slug: oracle-attributes-api
-- description: The Audit API from Oracle — 2 operation(s) for audit.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Audit API from Oracle — 2 operation(s) for audit.
   name: Oracle Audit API
   slug: oracle-audit-api
-- description: Autoscaling Service
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Autoscaling Service
   name: Oracle Auto Scaling API
   slug: oracle-autoscaling-api
-- description: The bastion API from Oracle — 9 operation(s) for bastion.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The bastion API from Oracle — 9 operation(s) for bastion.
   name: Oracle Bastion API
   slug: oracle-bastion-api
-- description: The batchComputing API from Oracle — 29 operation(s) for batchcomputing.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The batchComputing API from Oracle — 29 operation(s) for batchcomputing.
   name: Oracle Batch Computing API
   slug: oracle-batchcomputing-api
-- description: The bds API from Oracle — 74 operation(s) for bds.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The bds API from Oracle — 74 operation(s) for bds.
   name: Oracle Bds API
   slug: oracle-bds-api
-- description: The billingSchedule API from Oracle — 1 operation(s) for billingschedule.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The billingSchedule API from Oracle — 1 operation(s) for billingschedule.
   name: Oracle Billing Schedule API
   slug: oracle-billingschedule-api
-- description: The blockchainPlatform API from Oracle — 15 operation(s) for blockchainplatform.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The blockchainPlatform API from Oracle — 15 operation(s) for blockchainplatform.
   name: Oracle Blockchain Platform API
   slug: oracle-blockchainplatform-api
-- description: The blockstorage API from Oracle — 33 operation(s) for blockstorage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The blockstorage API from Oracle — 33 operation(s) for blockstorage.
   name: Oracle Blockstorage API
   slug: oracle-blockstorage-api
-- description: The budget API from Oracle — 4 operation(s) for budget.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The budget API from Oracle — 4 operation(s) for budget.
   name: Oracle Budget API
   slug: oracle-budget-api
-- description: The byol API from Oracle — 4 operation(s) for byol.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The byol API from Oracle — 4 operation(s) for byol.
   name: Oracle Byol API
   slug: oracle-byol-api
-- description: The byolAllocation API from Oracle — 3 operation(s) for byolallocation.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The byolAllocation API from Oracle — 3 operation(s) for byolallocation.
   name: Oracle Byol Allocation API
   slug: oracle-byolallocation-api
-- description: The cancelEnrichmentJob API from Oracle — 1 operation(s) for cancelenrichmentjob.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The cancelEnrichmentJob API from Oracle — 1 operation(s) for cancelenrichmentjob.
   name: Oracle Cancel Enrichment Job API
   slug: oracle-cancelenrichmentjob-api
-- description: The capacityManagement API from Oracle — 9 operation(s) for capacitymanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The capacityManagement API from Oracle — 9 operation(s) for capacitymanagement.
   name: Oracle Capacity Management API
   slug: oracle-capacitymanagement-api
-- description: Certificates Service Retrieval API
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Certificates Service Retrieval API
   name: Oracle Certificates API
   slug: oracle-certificates-api
-- description: Certificates Service Management API
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Certificates Service Management API
   name: Oracle Certificates Management API
   slug: oracle-certificatesmanagement-api
-- description: The channels API from Oracle — 6 operation(s) for channels.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The channels API from Oracle — 6 operation(s) for channels.
   name: Oracle Channels API
   slug: oracle-channels-api
-- description: Cloud Account Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Cloud Account Resource.
   name: Oracle Cloud Account Resource API
   slug: oracle-cloudaccountresource-api
-- description: Cloud Account Resource collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Cloud Account Resource collection.
   name: Oracle Cloud Accounts Resource API
   slug: oracle-cloudaccountsresource-api
-- description: The cloudGuard API from Oracle — 101 operation(s) for cloudguard.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The cloudGuard API from Oracle — 101 operation(s) for cloudguard.
   name: Oracle Cloud Guard API
   slug: oracle-cloudguard-api
-- description: The cluster API from Oracle — 2 operation(s) for cluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The cluster API from Oracle — 2 operation(s) for cluster.
   name: Oracle Cluster API
   slug: oracle-cluster-api
-- description: The ClusterPlacementGroupsCP API from Oracle — 9 operation(s) for clusterplacementgroupscp.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ClusterPlacementGroupsCP API from Oracle — 9 operation(s) for clusterplacementgroupscp.
   name: Oracle Cluster Placement Groups CP API
   slug: oracle-clusterplacementgroupscp-api
-- description: The commitment API from Oracle — 2 operation(s) for commitment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The commitment API from Oracle — 2 operation(s) for commitment.
   name: Oracle Commitment API
   slug: oracle-commitment-api
-- description: The common API from Oracle — 4 operation(s) for common.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The common API from Oracle — 4 operation(s) for common.
   name: Oracle Common API
   slug: oracle-common-api
-- description: The compute API from Oracle — 82 operation(s) for compute.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The compute API from Oracle — 82 operation(s) for compute.
   name: Oracle Compute API
   slug: oracle-compute-api
-- description: The computeCloudAtCustomer API from Oracle — 6 operation(s) for computecloudatcustomer.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The computeCloudAtCustomer API from Oracle — 6 operation(s) for computecloudatcustomer.
   name: Oracle Compute Cloud At Customer API
   slug: oracle-computecloudatcustomer-api
-- description: The computedUsage API from Oracle — 3 operation(s) for computedusage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The computedUsage API from Oracle — 3 operation(s) for computedusage.
   name: Oracle Computed Usage API
   slug: oracle-computedusage-api
-- description: The computeInstanceAgent API from Oracle — 4 operation(s) for computeinstanceagent.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The computeInstanceAgent API from Oracle — 4 operation(s) for computeinstanceagent.
   name: Oracle Compute Instance Agent API
   slug: oracle-computeinstanceagent-api
-- description: The computeManagement API from Oracle — 23 operation(s) for computemanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The computeManagement API from Oracle — 23 operation(s) for computemanagement.
   name: Oracle Compute Management API
   slug: oracle-computemanagement-api
-- description: The config API from Oracle — 9 operation(s) for config.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The config API from Oracle — 9 operation(s) for config.
   name: Oracle Config API
   slug: oracle-config-api
-- description: The connectorPlugins API from Oracle — 2 operation(s) for connectorplugins.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The connectorPlugins API from Oracle — 2 operation(s) for connectorplugins.
   name: Oracle Connector Plugins API
   slug: oracle-connectorplugins-api
-- description: API operations for working with the container engine service.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: API operations for working with the container engine service.
   name: Oracle Container Engine API
   slug: oracle-containerengine-api
-- description: The containerInstance API from Oracle — 14 operation(s) for containerinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The containerInstance API from Oracle — 14 operation(s) for containerinstance.
   name: Oracle Container Instance API
   slug: oracle-containerinstance-api
-- description: The ContainerRegistry API from Oracle — 1 operation(s) for containerregistry.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ContainerRegistry API from Oracle — 1 operation(s) for containerregistry.
   name: Oracle Container Registry API
   slug: oracle-containerregistry-api
-- description: The costAd API from Oracle — 9 operation(s) for costad.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The costAd API from Oracle — 9 operation(s) for costad.
   name: Oracle Cost Ad API
   slug: oracle-costad-api
-- description: The dashboard API from Oracle — 3 operation(s) for dashboard.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dashboard API from Oracle — 3 operation(s) for dashboard.
   name: Oracle Dashboard API
   slug: oracle-dashboard-api
-- description: The dashboardGroup API from Oracle — 3 operation(s) for dashboardgroup.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dashboardGroup API from Oracle — 3 operation(s) for dashboardgroup.
   name: Oracle Dashboard Group API
   slug: oracle-dashboardgroup-api
-- description: The dashxApis API from Oracle — 12 operation(s) for dashxapis.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dashxApis API from Oracle — 12 operation(s) for dashxapis.
   name: Oracle Dashx APIS API
   slug: oracle-dashxapis-api
-- description: The database API from Oracle — 308 operation(s) for database.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The database API from Oracle — 308 operation(s) for database.
   name: Oracle Database API
   slug: oracle-database-api
-- description: Use the table of contents and search tool to explore the Database Migration API.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Use the table of contents and search tool to explore the Database Migration API.
   name: Oracle Database Migration API
   slug: oracle-databasemigration-api
-- description: The databaseRecovery API from Oracle — 20 operation(s) for databaserecovery.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The databaseRecovery API from Oracle — 20 operation(s) for databaserecovery.
   name: Oracle Database Recovery API
   slug: oracle-databaserecovery-api
-- description: The databaseTools API from Oracle — 46 operation(s) for databasetools.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The databaseTools API from Oracle — 46 operation(s) for databasetools.
   name: Oracle Database Tools API
   slug: oracle-databasetools-api
-- description: The databaseToolsRuntime API from Oracle — 25 operation(s) for databasetoolsruntime.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The databaseToolsRuntime API from Oracle — 25 operation(s) for databasetoolsruntime.
   name: Oracle Database Tools Runtime API
   slug: oracle-databasetoolsruntime-api
-- description: The dataCatalog API from Oracle — 86 operation(s) for datacatalog.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataCatalog API from Oracle — 86 operation(s) for datacatalog.
   name: Oracle Data Catalog API
   slug: oracle-datacatalog-api
-- description: The DataFlow API from Oracle — 26 operation(s) for dataflow.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DataFlow API from Oracle — 26 operation(s) for dataflow.
   name: Oracle Data Flow API
   slug: oracle-dataflow-api
-- description: The datainfracc API from Oracle — 32 operation(s) for datainfracc.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The datainfracc API from Oracle — 32 operation(s) for datainfracc.
   name: Oracle Datainfracc API
   slug: oracle-datainfracc-api
-- description: The DataIntegration API from Oracle — 85 operation(s) for dataintegration.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DataIntegration API from Oracle — 85 operation(s) for dataintegration.
   name: Oracle Data Integration API
   slug: oracle-dataintegration-api
-- description: The dataLabeling API from Oracle — 9 operation(s) for datalabeling.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataLabeling API from Oracle — 9 operation(s) for datalabeling.
   name: Oracle Data Labeling API
   slug: oracle-datalabeling-api
-- description: The dataLabelingManagement API from Oracle — 13 operation(s) for datalabelingmanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataLabelingManagement API from Oracle — 13 operation(s) for datalabelingmanagement.
   name: Oracle Data Labeling Management API
   slug: oracle-datalabelingmanagement-api
-- description: The dataMaskingActivity API from Oracle — 2 operation(s) for datamaskingactivity.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataMaskingActivity API from Oracle — 2 operation(s) for datamaskingactivity.
   name: Oracle Data Masking Activity API
   slug: oracle-datamaskingactivity-api
-- description: The dataplane API from Oracle — 2 operation(s) for dataplane.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataplane API from Oracle — 2 operation(s) for dataplane.
   name: Oracle Dataplane API
   slug: oracle-dataplane-api
-- description: The dataSafe API from Oracle — 258 operation(s) for datasafe.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataSafe API from Oracle — 258 operation(s) for datasafe.
   name: Oracle Data Safe API
   slug: oracle-datasafe-api
-- description: The dataScience API from Oracle — 99 operation(s) for datascience.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dataScience API from Oracle — 99 operation(s) for datascience.
   name: Oracle Data Science API
   slug: oracle-datascience-api
-- description: The datastore API from Oracle — 4 operation(s) for datastore.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The datastore API from Oracle — 4 operation(s) for datastore.
   name: Oracle Datastore API
   slug: oracle-datastore-api
-- description: The datastoreCluster API from Oracle — 9 operation(s) for datastorecluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The datastoreCluster API from Oracle — 9 operation(s) for datastorecluster.
   name: Oracle Datastore Cluster API
   slug: oracle-datastorecluster-api
-- description: The dbBackups API from Oracle — 7 operation(s) for dbbackups.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dbBackups API from Oracle — 7 operation(s) for dbbackups.
   name: Oracle Db Backups API
   slug: oracle-dbbackups-api
-- description: The dbManagement API from Oracle — 231 operation(s) for dbmanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dbManagement API from Oracle — 231 operation(s) for dbmanagement.
   name: Oracle Db Management API
   slug: oracle-dbmanagement-api
-- description: The DbMulticloudAwsProvider API from Oracle — 9 operation(s) for dbmulticloudawsprovider.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DbMulticloudAwsProvider API from Oracle — 9 operation(s) for dbmulticloudawsprovider.
   name: Oracle Db Multicloud Aws Provider API
   slug: oracle-dbmulticloudawsprovider-api
-- description: The DbMulticloudGCPProvider API from Oracle — 11 operation(s) for dbmulticloudgcpprovider.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DbMulticloudGCPProvider API from Oracle — 11 operation(s) for dbmulticloudgcpprovider.
   name: Oracle Db Multicloud GCP Provider API
   slug: oracle-dbmulticloudgcpprovider-api
-- description: The dbSystem API from Oracle — 16 operation(s) for dbsystem.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dbSystem API from Oracle — 16 operation(s) for dbsystem.
   name: Oracle Db System API
   slug: oracle-dbsystem-api
-- description: The delegateAccessControl API from Oracle — 20 operation(s) for delegateaccesscontrol.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The delegateAccessControl API from Oracle — 20 operation(s) for delegateaccesscontrol.
   name: Oracle Delegate Access Control API
   slug: oracle-delegateaccesscontrol-api
-- description: The demandSignal API from Oracle — 7 operation(s) for demandsignal.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The demandSignal API from Oracle — 7 operation(s) for demandsignal.
   name: Oracle Demand Signal API
   slug: oracle-demandsignal-api
-- description: The deployment API from Oracle — 5 operation(s) for deployment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The deployment API from Oracle — 5 operation(s) for deployment.
   name: Oracle Deployment API
   slug: oracle-deployment-api
-- description: The desktopService API from Oracle — 15 operation(s) for desktopservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The desktopService API from Oracle — 15 operation(s) for desktopservice.
   name: Oracle Desktop Service API
   slug: oracle-desktopservice-api
-- description: The devops API from Oracle — 91 operation(s) for devops.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The devops API from Oracle — 91 operation(s) for devops.
   name: Oracle Devops API
   slug: oracle-devops-api
-- description: The diagnosability API from Oracle — 4 operation(s) for diagnosability.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The diagnosability API from Oracle — 4 operation(s) for diagnosability.
   name: Oracle Diagnosability API
   slug: oracle-diagnosability-api
-- description: The disasterRecovery API from Oracle — 23 operation(s) for disasterrecovery.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The disasterRecovery API from Oracle — 23 operation(s) for disasterrecovery.
   name: Oracle Disaster Recovery API
   slug: oracle-disasterrecovery-api
-- description: The discovery API from Oracle — 8 operation(s) for discovery.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The discovery API from Oracle — 8 operation(s) for discovery.
   name: Oracle Discovery API
   slug: oracle-discovery-api
-- description: The DistributedAutonomousDbService API from Oracle — 20 operation(s) for distributedautonomousdbservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DistributedAutonomousDbService API from Oracle — 20 operation(s) for distributedautonomousdbservice.
   name: Oracle Distributed Autonomous Db Service API
   slug: oracle-distributedautonomousdbservice-api
-- description: The DistributedDbPrivateEndpointService API from Oracle — 4 operation(s) for distributeddbprivateendpointservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DistributedDbPrivateEndpointService API from Oracle — 4 operation(s) for distributeddbprivateendpointservice.
   name: Oracle Distributed Db Private Endpoint Service API
   slug: oracle-distributeddbprivateendpointservice-api
-- description: The DistributedDbService API from Oracle — 18 operation(s) for distributeddbservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DistributedDbService API from Oracle — 18 operation(s) for distributeddbservice.
   name: Oracle Distributed Db Service API
   slug: oracle-distributeddbservice-api
-- description: The DistributedDbWorkRequestService API from Oracle — 4 operation(s) for distributeddbworkrequestservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The DistributedDbWorkRequestService API from Oracle — 4 operation(s) for distributeddbworkrequestservice.
   name: Oracle Distributed Db Work Request Service API
   slug: oracle-distributeddbworkrequestservice-api
-- description: The ${dkim-tag} API from Oracle — 2 operation(s) for ${dkim-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${dkim-tag} API from Oracle — 2 operation(s) for ${dkim-tag}.
   name: Oracle ${dkim Tag} API
   slug: oracle-dkim-tag-api
-- description: The dns API from Oracle — 27 operation(s) for dns.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dns API from Oracle — 27 operation(s) for dns.
   name: Oracle Dns API
   slug: oracle-dns-api
-- description: The documentgenerator API from Oracle — 1 operation(s) for documentgenerator.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The documentgenerator API from Oracle — 1 operation(s) for documentgenerator.
   name: Oracle Documentgenerator API
   slug: oracle-documentgenerator-api
-- description: The domain API from Oracle — 2 operation(s) for domain.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The domain API from Oracle — 2 operation(s) for domain.
   name: Oracle Domain API
   slug: oracle-domain-api
-- description: The domainGovernance API from Oracle — 2 operation(s) for domaingovernance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The domainGovernance API from Oracle — 2 operation(s) for domaingovernance.
   name: Oracle Domain Governance API
   slug: oracle-domaingovernance-api
-- description: The dynamicSet API from Oracle — 9 operation(s) for dynamicset.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The dynamicSet API from Oracle — 9 operation(s) for dynamicset.
   name: Oracle Dynamic Set API
   slug: oracle-dynamicset-api
-- description: The Ekm API from Oracle — 2 operation(s) for ekm.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Ekm API from Oracle — 2 operation(s) for ekm.
   name: Oracle Ekm API
   slug: oracle-ekm-api
-- description: The ${email-configuration-tag} API from Oracle — 1 operation(s) for ${email-configuration-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${email-configuration-tag} API from Oracle — 1 operation(s) for ${email-configuration-tag}.
   name: Oracle ${email Configuration Tag} API
   slug: oracle-email-configuration-tag-api
-- description: The ${email-domain-tag} API from Oracle — 5 operation(s) for ${email-domain-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${email-domain-tag} API from Oracle — 5 operation(s) for ${email-domain-tag}.
   name: Oracle ${email Domain Tag} API
   slug: oracle-email-domain-tag-api
-- description: The ${email-ippool-tag} API from Oracle — 8 operation(s) for ${email-ippool-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${email-ippool-tag} API from Oracle — 8 operation(s) for ${email-ippool-tag}.
   name: Oracle ${email Ippool Tag} API
   slug: oracle-email-ippool-tag-api
-- description: The ${email-return-path-tag} API from Oracle — 4 operation(s) for ${email-return-path-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${email-return-path-tag} API from Oracle — 4 operation(s) for ${email-return-path-tag}.
   name: Oracle ${email Return Path Tag} API
   slug: oracle-email-return-path-tag-api
-- description: The esxiHost API from Oracle — 8 operation(s) for esxihost.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The esxiHost API from Oracle — 8 operation(s) for esxihost.
   name: Oracle Esxi Host API
   slug: oracle-esxihost-api
-- description: The event API from Oracle — 5 operation(s) for event.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The event API from Oracle — 5 operation(s) for event.
   name: Oracle Event API
   slug: oracle-event-api
-- description: The events API from Oracle — 3 operation(s) for events.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The events API from Oracle — 3 operation(s) for events.
   name: Oracle Events API
   slug: oracle-events-api
-- description: The fileStorage API from Oracle — 48 operation(s) for filestorage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fileStorage API from Oracle — 48 operation(s) for filestorage.
   name: Oracle File Storage API
   slug: oracle-filestorage-api
-- description: The fleetAppsManagement API from Oracle — 21 operation(s) for fleetappsmanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagement API from Oracle — 21 operation(s) for fleetappsmanagement.
   name: Oracle Fleet Apps Management API
   slug: oracle-fleetappsmanagement-api
-- description: The fleetAppsManagementAdmin API from Oracle — 15 operation(s) for fleetappsmanagementadmin.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementAdmin API from Oracle — 15 operation(s) for fleetappsmanagementadmin.
   name: Oracle Fleet Apps Management Admin API
   slug: oracle-fleetappsmanagementadmin-api
-- description: The fleetAppsManagementCatalog API from Oracle — 6 operation(s) for fleetappsmanagementcatalog.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementCatalog API from Oracle — 6 operation(s) for fleetappsmanagementcatalog.
   name: Oracle Fleet Apps Management Catalog API
   slug: oracle-fleetappsmanagementcatalog-api
-- description: The fleetAppsManagementMaintenanceWindow API from Oracle — 2 operation(s) for fleetappsmanagementmaintenancewindow.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementMaintenanceWindow API from Oracle — 2 operation(s) for fleetappsmanagementmaintenancewindow.
   name: Oracle Fleet Apps Management Maintenance Window API
   slug: oracle-fleetappsmanagementmaintenancewindow-api
-- description: The fleetAppsManagementOperations API from Oracle — 27 operation(s) for fleetappsmanagementoperations.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementOperations API from Oracle — 27 operation(s) for fleetappsmanagementoperations.
   name: Oracle Fleet Apps Management Operations API
   slug: oracle-fleetappsmanagementoperations-api
-- description: The fleetAppsManagementProvision API from Oracle — 3 operation(s) for fleetappsmanagementprovision.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementProvision API from Oracle — 3 operation(s) for fleetappsmanagementprovision.
   name: Oracle Fleet Apps Management Provision API
   slug: oracle-fleetappsmanagementprovision-api
-- description: The fleetAppsManagementRunbooks API from Oracle — 21 operation(s) for fleetappsmanagementrunbooks.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementRunbooks API from Oracle — 21 operation(s) for fleetappsmanagementrunbooks.
   name: Oracle Fleet Apps Management Runbooks API
   slug: oracle-fleetappsmanagementrunbooks-api
-- description: The fleetAppsManagementWorkRequest API from Oracle — 4 operation(s) for fleetappsmanagementworkrequest.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fleetAppsManagementWorkRequest API from Oracle — 4 operation(s) for fleetappsmanagementworkrequest.
   name: Oracle Fleet Apps Management Work Request API
   slug: oracle-fleetappsmanagementworkrequest-api
-- description: Use the table of contents and search tool to explore the Exadata Fleet Update API.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Use the table of contents and search tool to explore the Exadata Fleet Update API.
   name: Oracle Fleet Software Update API
   slug: oracle-fleetsoftwareupdate-api
-- description: The functionsInvoke API from Oracle — 1 operation(s) for functionsinvoke.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The functionsInvoke API from Oracle — 1 operation(s) for functionsinvoke.
   name: Oracle Functions Invoke API
   slug: oracle-functionsinvoke-api
-- description: The functionsManagement API from Oracle — 10 operation(s) for functionsmanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The functionsManagement API from Oracle — 10 operation(s) for functionsmanagement.
   name: Oracle Functions Management API
   slug: oracle-functionsmanagement-api
-- description: The fusionEnvironment API from Oracle — 13 operation(s) for fusionenvironment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fusionEnvironment API from Oracle — 13 operation(s) for fusionenvironment.
   name: Oracle Fusion Environment API
   slug: oracle-fusionenvironment-api
-- description: The fusionEnvironmentFamily API from Oracle — 5 operation(s) for fusionenvironmentfamily.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The fusionEnvironmentFamily API from Oracle — 5 operation(s) for fusionenvironmentfamily.
   name: Oracle Fusion Environment Family API
   slug: oracle-fusionenvironmentfamily-api
-- description: The gateway API from Oracle — 5 operation(s) for gateway.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The gateway API from Oracle — 5 operation(s) for gateway.
   name: Oracle Gateway API
   slug: oracle-gateway-api
-- description: The generateEnrichmentJob API from Oracle — 1 operation(s) for generateenrichmentjob.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The generateEnrichmentJob API from Oracle — 1 operation(s) for generateenrichmentjob.
   name: Oracle Generate Enrichment Job API
   slug: oracle-generateenrichmentjob-api
-- description: The generateSqlFromNlJob API from Oracle — 1 operation(s) for generatesqlfromnljob.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The generateSqlFromNlJob API from Oracle — 1 operation(s) for generatesqlfromnljob.
   name: Oracle Generate Sql From Nl Job API
   slug: oracle-generatesqlfromnljob-api
-- description: The GenerativeAi API from Oracle — 50 operation(s) for generativeai.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The GenerativeAi API from Oracle — 50 operation(s) for generativeai.
   name: Oracle Generative AI API
   slug: oracle-generativeai-api
-- description: The generativeAiAgent API from Oracle — 23 operation(s) for generativeaiagent.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The generativeAiAgent API from Oracle — 23 operation(s) for generativeaiagent.
   name: Oracle Generative AI Agent API
   slug: oracle-generativeaiagent-api
-- description: The generativeAiAgentRuntime API from Oracle — 4 operation(s) for generativeaiagentruntime.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The generativeAiAgentRuntime API from Oracle — 4 operation(s) for generativeaiagentruntime.
   name: Oracle Generative AI Agent Runtime API
   slug: oracle-generativeaiagentruntime-api
-- description: The GenerativeAiInference API from Oracle — 7 operation(s) for generativeaiinference.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The GenerativeAiInference API from Oracle — 7 operation(s) for generativeaiinference.
   name: Oracle Generative AI Inference API
   slug: oracle-generativeaiinference-api
-- description: The genericArtifactsContent API from Oracle — 2 operation(s) for genericartifactscontent.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The genericArtifactsContent API from Oracle — 2 operation(s) for genericartifactscontent.
   name: Oracle Generic Artifacts Content API
   slug: oracle-genericartifactscontent-api
-- description: The getEnrichmentJob API from Oracle — 1 operation(s) for getenrichmentjob.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The getEnrichmentJob API from Oracle — 1 operation(s) for getenrichmentjob.
   name: Oracle Get Enrichment Job API
   slug: oracle-getenrichmentjob-api
-- description: The goldenGate API from Oracle — 79 operation(s) for goldengate.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The goldenGate API from Oracle — 79 operation(s) for goldengate.
   name: Oracle Golden Gate API
   slug: oracle-goldengate-api
-- description: The governance API from Oracle — 2 operation(s) for governance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The governance API from Oracle — 2 operation(s) for governance.
   name: Oracle Governance API
   slug: oracle-governance-api
-- description: The greetings API from Oracle — 2 operation(s) for greetings.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The greetings API from Oracle — 2 operation(s) for greetings.
   name: Oracle Greetings API
   slug: oracle-greetings-api
-- description: The healthChecks API from Oracle — 11 operation(s) for healthchecks.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The healthChecks API from Oracle — 11 operation(s) for healthchecks.
   name: Oracle Health Checks API
   slug: oracle-healthchecks-api
-- description: The identity API from Oracle — 93 operation(s) for identity.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The identity API from Oracle — 93 operation(s) for identity.
   name: Oracle Identity API
   slug: oracle-identity-api
-- description: The identityDomains API from Oracle — 168 operation(s) for identitydomains.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The identityDomains API from Oracle — 168 operation(s) for identitydomains.
   name: Oracle Identity Domains API
   slug: oracle-identitydomains-api
-- description: The Incident API from Oracle — 5 operation(s) for incident.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Incident API from Oracle — 5 operation(s) for incident.
   name: Oracle Incident API
   slug: oracle-incident-api
-- description: The integrationInstance API from Oracle — 19 operation(s) for integrationinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The integrationInstance API from Oracle — 19 operation(s) for integrationinstance.
   name: Oracle Integration Instance API
   slug: oracle-integrationinstance-api
-- description: The inventory API from Oracle — 10 operation(s) for inventory.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The inventory API from Oracle — 10 operation(s) for inventory.
   name: Oracle Inventory API
   slug: oracle-inventory-api
-- description: The invoiceSummary API from Oracle — 2 operation(s) for invoicesummary.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The invoiceSummary API from Oracle — 2 operation(s) for invoicesummary.
   name: Oracle Invoice Summary API
   slug: oracle-invoicesummary-api
-- description: The iot API from Oracle — 24 operation(s) for iot.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The iot API from Oracle — 24 operation(s) for iot.
   name: Oracle Iot API
   slug: oracle-iot-api
-- description: Endpoints related to the Java Management Service Download feature
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Endpoints related to the Java Management Service Download feature
   name: Oracle Java Download API
   slug: oracle-javadownload-api
-- description: Endpoints related to the Java Management Service
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Endpoints related to the Java Management Service
   name: Oracle Java Management Service API
   slug: oracle-javamanagementservice-api
-- description: The jmsUtils API from Oracle — 13 operation(s) for jmsutils.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The jmsUtils API from Oracle — 13 operation(s) for jmsutils.
   name: Oracle Jms Utils API
   slug: oracle-jmsutils-api
-- description: The kafkaCluster API from Oracle — 18 operation(s) for kafkacluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The kafkaCluster API from Oracle — 18 operation(s) for kafkacluster.
   name: Oracle Kafka Cluster API
   slug: oracle-kafkacluster-api
-- description: The kmsCrypto API from Oracle — 6 operation(s) for kmscrypto.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The kmsCrypto API from Oracle — 6 operation(s) for kmscrypto.
   name: Oracle Kms Crypto API
   slug: oracle-kmscrypto-api
-- description: The kmsHsmCluster API from Oracle — 10 operation(s) for kmshsmcluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The kmsHsmCluster API from Oracle — 10 operation(s) for kmshsmcluster.
   name: Oracle Kms Hsm Cluster API
   slug: oracle-kmshsmcluster-api
-- description: The kmsManagement API from Oracle — 18 operation(s) for kmsmanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The kmsManagement API from Oracle — 18 operation(s) for kmsmanagement.
   name: Oracle Kms Management API
   slug: oracle-kmsmanagement-api
-- description: The KmsVault API from Oracle — 12 operation(s) for kmsvault.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The KmsVault API from Oracle — 12 operation(s) for kmsvault.
   name: Oracle Kms Vault API
   slug: oracle-kmsvault-api
-- description: The LicenseManager API from Oracle — 11 operation(s) for licensemanager.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The LicenseManager API from Oracle — 11 operation(s) for licensemanager.
   name: Oracle License Manager API
   slug: oracle-licensemanager-api
-- description: The lifecycleEnvironment API from Oracle — 10 operation(s) for lifecycleenvironment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The lifecycleEnvironment API from Oracle — 10 operation(s) for lifecycleenvironment.
   name: Oracle Lifecycle Environment API
   slug: oracle-lifecycleenvironment-api
-- description: The limits API from Oracle — 4 operation(s) for limits.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The limits API from Oracle — 4 operation(s) for limits.
   name: Oracle Limits API
   slug: oracle-limits-api
-- description: The LimitsIncrease API from Oracle — 7 operation(s) for limitsincrease.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The LimitsIncrease API from Oracle — 7 operation(s) for limitsincrease.
   name: Oracle Limits Increase API
   slug: oracle-limitsincrease-api
-- description: The link API from Oracle — 3 operation(s) for link.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The link API from Oracle — 3 operation(s) for link.
   name: Oracle Link API
   slug: oracle-link-api
-- description: The linkFeatures API from Oracle — 1 operation(s) for linkfeatures.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The linkFeatures API from Oracle — 1 operation(s) for linkfeatures.
   name: Oracle Link Features API
   slug: oracle-linkfeatures-api
-- description: The listEnrichmentJobs API from Oracle — 1 operation(s) for listenrichmentjobs.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The listEnrichmentJobs API from Oracle — 1 operation(s) for listenrichmentjobs.
   name: Oracle List Enrichment Jobs API
   slug: oracle-listenrichmentjobs-api
-- description: The loadBalancer API from Oracle — 34 operation(s) for loadbalancer.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The loadBalancer API from Oracle — 34 operation(s) for loadbalancer.
   name: Oracle Load Balancer API
   slug: oracle-loadbalancer-api
-- description: The lockbox API from Oracle — 5 operation(s) for lockbox.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The lockbox API from Oracle — 5 operation(s) for lockbox.
   name: Oracle Lockbox API
   slug: oracle-lockbox-api
-- description: The lockboxAccessContextAttribute API from Oracle — 2 operation(s) for lockboxaccesscontextattribute.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The lockboxAccessContextAttribute API from Oracle — 2 operation(s) for lockboxaccesscontextattribute.
   name: Oracle Lockbox Access Context Attribute API
   slug: oracle-lockboxaccesscontextattribute-api
-- description: The logAnalytics API from Oracle — 169 operation(s) for loganalytics.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The logAnalytics API from Oracle — 169 operation(s) for loganalytics.
   name: Oracle Log Analytics API
   slug: oracle-loganalytics-api
-- description: The Logging API from Oracle — 1 operation(s) for logging.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Logging API from Oracle — 1 operation(s) for logging.
   name: Oracle Logging API
   slug: oracle-logging-api
-- description: The loggingManagement API from Oracle — 17 operation(s) for loggingmanagement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The loggingManagement API from Oracle — 17 operation(s) for loggingmanagement.
   name: Oracle Logging Management API
   slug: oracle-loggingmanagement-api
-- description: The logSearch API from Oracle — 1 operation(s) for logsearch.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The logSearch API from Oracle — 1 operation(s) for logsearch.
   name: Oracle Log Search API
   slug: oracle-logsearch-api
-- description: The lustreFileStorage API from Oracle — 19 operation(s) for lustrefilestorage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The lustreFileStorage API from Oracle — 19 operation(s) for lustrefilestorage.
   name: Oracle Lustre File Storage API
   slug: oracle-lustrefilestorage-api
-- description: The macDevice API from Oracle — 3 operation(s) for macdevice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The macDevice API from Oracle — 3 operation(s) for macdevice.
   name: Oracle Mac Device API
   slug: oracle-macdevice-api
-- description: The macOrder API from Oracle — 7 operation(s) for macorder.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The macOrder API from Oracle — 7 operation(s) for macorder.
   name: Oracle Mac Order API
   slug: oracle-macorder-api
-- description: The managedInstance API from Oracle — 35 operation(s) for managedinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The managedInstance API from Oracle — 35 operation(s) for managedinstance.
   name: Oracle Managed Instance API
   slug: oracle-managedinstance-api
-- description: The managedInstanceGroup API from Oracle — 25 operation(s) for managedinstancegroup.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The managedInstanceGroup API from Oracle — 25 operation(s) for managedinstancegroup.
   name: Oracle Managed Instance Group API
   slug: oracle-managedinstancegroup-api
-- description: The managedMySqlDatabases API from Oracle — 15 operation(s) for managedmysqldatabases.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The managedMySqlDatabases API from Oracle — 15 operation(s) for managedmysqldatabases.
   name: Oracle Managed My Sql Databases API
   slug: oracle-managedmysqldatabases-api
-- description: The management API from Oracle — 23 operation(s) for management.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The management API from Oracle — 23 operation(s) for management.
   name: Oracle Management API
   slug: oracle-management-api
-- description: The managementAgent API from Oracle — 22 operation(s) for managementagent.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The managementAgent API from Oracle — 22 operation(s) for managementagent.
   name: Oracle Management Agent API
   slug: oracle-managementagent-api
-- description: The managementAppliance API from Oracle — 2 operation(s) for managementappliance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The managementAppliance API from Oracle — 2 operation(s) for managementappliance.
   name: Oracle Management Appliance API
   slug: oracle-managementappliance-api
-- description: The managementStation API from Oracle — 7 operation(s) for managementstation.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The managementStation API from Oracle — 7 operation(s) for managementstation.
   name: Oracle Management Station API
   slug: oracle-managementstation-api
-- description: The Marketplace API from Oracle — 21 operation(s) for marketplace.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Marketplace API from Oracle — 21 operation(s) for marketplace.
   name: Oracle Marketplace API
   slug: oracle-marketplace-api
-- description: The MarketplacePublisher API from Oracle — 57 operation(s) for marketplacepublisher.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The MarketplacePublisher API from Oracle — 57 operation(s) for marketplacepublisher.
   name: Oracle Marketplace Publisher API
   slug: oracle-marketplacepublisher-api
-- description: The mediaServices API from Oracle — 38 operation(s) for mediaservices.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The mediaServices API from Oracle — 38 operation(s) for mediaservices.
   name: Oracle Media Services API
   slug: oracle-mediaservices-api
-- description: The mediaStream API from Oracle — 2 operation(s) for mediastream.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The mediaStream API from Oracle — 2 operation(s) for mediastream.
   name: Oracle Media Stream API
   slug: oracle-mediastream-api
-- description: The metadata API from Oracle — 3 operation(s) for metadata.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The metadata API from Oracle — 3 operation(s) for metadata.
   name: Oracle Metadata API
   slug: oracle-metadata-api
-- description: The migration API from Oracle — 27 operation(s) for migration.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The migration API from Oracle — 27 operation(s) for migration.
   name: Oracle Migration API
   slug: oracle-migration-api
-- description: The monitoredRegion API from Oracle — 2 operation(s) for monitoredregion.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The monitoredRegion API from Oracle — 2 operation(s) for monitoredregion.
   name: Oracle Monitored Region API
   slug: oracle-monitoredregion-api
-- description: The monitoring API from Oracle — 13 operation(s) for monitoring.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The monitoring API from Oracle — 13 operation(s) for monitoring.
   name: Oracle Monitoring API
   slug: oracle-monitoring-api
-- description: The MultiCloudResourceDiscovery API from Oracle — 3 operation(s) for multicloudresourcediscovery.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The MultiCloudResourceDiscovery API from Oracle — 3 operation(s) for multicloudresourcediscovery.
   name: Oracle Multi Cloud Resource Discovery API
   slug: oracle-multicloudresourcediscovery-api
-- description: The multicloudResources API from Oracle — 1 operation(s) for multicloudresources.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The multicloudResources API from Oracle — 1 operation(s) for multicloudresources.
   name: Oracle Multicloud Resources API
   slug: oracle-multicloudresources-api
-- description: The multiCloudsMetadata API from Oracle — 2 operation(s) for multicloudsmetadata.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The multiCloudsMetadata API from Oracle — 2 operation(s) for multicloudsmetadata.
   name: Oracle Multi Clouds Metadata API
   slug: oracle-multicloudsmetadata-api
-- description: The multicloudsubscriptions API from Oracle — 1 operation(s) for multicloudsubscriptions.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The multicloudsubscriptions API from Oracle — 1 operation(s) for multicloudsubscriptions.
   name: Oracle Multicloudsubscriptions API
   slug: oracle-multicloudsubscriptions-api
-- description: The mysqlaas API from Oracle — 4 operation(s) for mysqlaas.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The mysqlaas API from Oracle — 4 operation(s) for mysqlaas.
   name: Oracle Mysqlaas API
   slug: oracle-mysqlaas-api
-- description: The networkFirewall API from Oracle — 50 operation(s) for networkfirewall.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The networkFirewall API from Oracle — 50 operation(s) for networkfirewall.
   name: Oracle Network Firewall API
   slug: oracle-networkfirewall-api
-- description: The networkLoadBalancer API from Oracle — 22 operation(s) for networkloadbalancer.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The networkLoadBalancer API from Oracle — 22 operation(s) for networkloadbalancer.
   name: Oracle Network Load Balancer API
   slug: oracle-networkloadbalancer-api
-- description: The nosql API from Oracle — 16 operation(s) for nosql.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The nosql API from Oracle — 16 operation(s) for nosql.
   name: Oracle Nosql API
   slug: oracle-nosql-api
-- description: The notificationControlPlane API from Oracle — 13 operation(s) for notificationcontrolplane.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The notificationControlPlane API from Oracle — 13 operation(s) for notificationcontrolplane.
   name: Oracle Notification Control Plane API
   slug: oracle-notificationcontrolplane-api
-- description: The notificationDataPlane API from Oracle — 9 operation(s) for notificationdataplane.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The notificationDataPlane API from Oracle — 9 operation(s) for notificationdataplane.
   name: Oracle Notification Data Plane API
   slug: oracle-notificationdataplane-api
-- description: The objectStorage API from Oracle — 41 operation(s) for objectstorage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The objectStorage API from Oracle — 41 operation(s) for objectstorage.
   name: Oracle Object Storage API
   slug: oracle-objectstorage-api
-- description: The ocbAgentSvc API from Oracle — 13 operation(s) for ocbagentsvc.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ocbAgentSvc API from Oracle — 13 operation(s) for ocbagentsvc.
   name: Oracle Ocb Agent Svc API
   slug: oracle-ocbagentsvc-api
-- description: The occDemandSignal API from Oracle — 3 operation(s) for occdemandsignal.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The occDemandSignal API from Oracle — 3 operation(s) for occdemandsignal.
   name: Oracle Occ Demand Signal API
   slug: oracle-occdemandsignal-api
-- description: The OccMetricAlarm API from Oracle — 3 operation(s) for occmetricalarm.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OccMetricAlarm API from Oracle — 3 operation(s) for occmetricalarm.
   name: Oracle Occ Metric Alarm API
   slug: oracle-occmetricalarm-api
-- description: The occMetrics API from Oracle — 3 operation(s) for occmetrics.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The occMetrics API from Oracle — 3 operation(s) for occmetrics.
   name: Oracle Occ Metrics API
   slug: oracle-occmetrics-api
-- description: The oceInstance API from Oracle — 7 operation(s) for oceinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The oceInstance API from Oracle — 7 operation(s) for oceinstance.
   name: Oracle Oce Instance API
   slug: oracle-oceinstance-api
-- description: The ociCacheBackup API from Oracle — 4 operation(s) for ocicachebackup.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ociCacheBackup API from Oracle — 4 operation(s) for ocicachebackup.
   name: Oracle Oci Cache Backup API
   slug: oracle-ocicachebackup-api
-- description: The ociCacheConfigSet API from Oracle — 4 operation(s) for ocicacheconfigset.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ociCacheConfigSet API from Oracle — 4 operation(s) for ocicacheconfigset.
   name: Oracle Oci Cache Config Set API
   slug: oracle-ocicacheconfigset-api
-- description: The ociCacheDefaultConfigSet API from Oracle — 2 operation(s) for ocicachedefaultconfigset.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ociCacheDefaultConfigSet API from Oracle — 2 operation(s) for ocicachedefaultconfigset.
   name: Oracle Oci Cache Default Config Set API
   slug: oracle-ocicachedefaultconfigset-api
-- description: The ociCacheUser API from Oracle — 4 operation(s) for ocicacheuser.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ociCacheUser API from Oracle — 4 operation(s) for ocicacheuser.
   name: Oracle Oci Cache User API
   slug: oracle-ocicacheuser-api
-- description: The oda API from Oracle — 11 operation(s) for oda.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The oda API from Oracle — 11 operation(s) for oda.
   name: Oracle Oda API
   slug: oracle-oda-api
-- description: The odapackage API from Oracle — 4 operation(s) for odapackage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The odapackage API from Oracle — 4 operation(s) for odapackage.
   name: Oracle Odapackage API
   slug: oracle-odapackage-api
-- description: The omhubNetworkAnchor API from Oracle — 2 operation(s) for omhubnetworkanchor.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The omhubNetworkAnchor API from Oracle — 2 operation(s) for omhubnetworkanchor.
   name: Oracle Omhub Network Anchor API
   slug: oracle-omhubnetworkanchor-api
-- description: The omhubResourceAnchor API from Oracle — 2 operation(s) for omhubresourceanchor.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The omhubResourceAnchor API from Oracle — 2 operation(s) for omhubresourceanchor.
   name: Oracle Omhub Resource Anchor API
   slug: oracle-omhubresourceanchor-api
-- description: The onboarding API from Oracle — 11 operation(s) for onboarding.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The onboarding API from Oracle — 11 operation(s) for onboarding.
   name: Oracle Onboarding API
   slug: oracle-onboarding-api
-- description: The opaInstance API from Oracle — 7 operation(s) for opainstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The opaInstance API from Oracle — 7 operation(s) for opainstance.
   name: Oracle Opa Instance API
   slug: oracle-opainstance-api
-- description: The opensearchCluster API from Oracle — 16 operation(s) for opensearchcluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The opensearchCluster API from Oracle — 16 operation(s) for opensearchcluster.
   name: Oracle Opensearch Cluster API
   slug: oracle-opensearchcluster-api
-- description: The opensearchClusterBackup API from Oracle — 2 operation(s) for opensearchclusterbackup.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The opensearchClusterBackup API from Oracle — 2 operation(s) for opensearchclusterbackup.
   name: Oracle Opensearch Cluster Backup API
   slug: oracle-opensearchclusterbackup-api
-- description: The opensearchClusterPipeline API from Oracle — 4 operation(s) for opensearchclusterpipeline.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The opensearchClusterPipeline API from Oracle — 4 operation(s) for opensearchclusterpipeline.
   name: Oracle Opensearch Cluster Pipeline API
   slug: oracle-opensearchclusterpipeline-api
-- description: The Operation resource represents an asynchronous task to be performed by back end services.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The Operation resource represents an asynchronous task to be performed by back end services.
   name: Oracle Operation Resource API
   slug: oracle-operationresource-api
-- description: The operationsInsights API from Oracle — 156 operation(s) for operationsinsights.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The operationsInsights API from Oracle — 156 operation(s) for operationsinsights.
   name: Oracle Operations Insights API
   slug: oracle-operationsinsights-api
-- description: Operation Resource Collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Operation Resource Collection.
   name: Oracle Operations Resource API
   slug: oracle-operationsresource-api
-- description: The operatorActions API from Oracle — 2 operation(s) for operatoractions.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The operatorActions API from Oracle — 2 operation(s) for operatoractions.
   name: Oracle Operator Actions API
   slug: oracle-operatoractions-api
-- description: The operatorControl API from Oracle — 3 operation(s) for operatorcontrol.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The operatorControl API from Oracle — 3 operation(s) for operatorcontrol.
   name: Oracle Operator Control API
   slug: oracle-operatorcontrol-api
-- description: The operatorControlAssignment API from Oracle — 3 operation(s) for operatorcontrolassignment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The operatorControlAssignment API from Oracle — 3 operation(s) for operatorcontrolassignment.
   name: Oracle Operator Control Assignment API
   slug: oracle-operatorcontrolassignment-api
-- description: The optimizer API from Oracle — 20 operation(s) for optimizer.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The optimizer API from Oracle — 20 operation(s) for optimizer.
   name: Oracle Optimizer API
   slug: oracle-optimizer-api
-- description: The OracleDBAzureBlobContainer API from Oracle — 3 operation(s) for oracledbazureblobcontainer.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OracleDBAzureBlobContainer API from Oracle — 3 operation(s) for oracledbazureblobcontainer.
   name: Oracle Oracle DB Azure Blob Container API
   slug: oracle-oracledbazureblobcontainer-api
-- description: The OracleDBAzureBlobMount API from Oracle — 3 operation(s) for oracledbazureblobmount.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OracleDBAzureBlobMount API from Oracle — 3 operation(s) for oracledbazureblobmount.
   name: Oracle Oracle DB Azure Blob Mount API
   slug: oracle-oracledbazureblobmount-api
-- description: The OracleDBAzureConnector API from Oracle — 4 operation(s) for oracledbazureconnector.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OracleDBAzureConnector API from Oracle — 4 operation(s) for oracledbazureconnector.
   name: Oracle Oracle DB Azure Connector API
   slug: oracle-oracledbazureconnector-api
-- description: The OracleDbAzureKey API from Oracle — 2 operation(s) for oracledbazurekey.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OracleDbAzureKey API from Oracle — 2 operation(s) for oracledbazurekey.
   name: Oracle Oracle Db Azure Key API
   slug: oracle-oracledbazurekey-api
-- description: The OracleDbAzureVault API from Oracle — 5 operation(s) for oracledbazurevault.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OracleDbAzureVault API from Oracle — 5 operation(s) for oracledbazurevault.
   name: Oracle Oracle Db Azure Vault API
   slug: oracle-oracledbazurevault-api
-- description: The OracleDbAzureVaultAssociation API from Oracle — 4 operation(s) for oracledbazurevaultassociation.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The OracleDbAzureVaultAssociation API from Oracle — 4 operation(s) for oracledbazurevaultassociation.
   name: Oracle Oracle Db Azure Vault Association API
   slug: oracle-oracledbazurevaultassociation-api
-- description: The orders API from Oracle — 2 operation(s) for orders.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The orders API from Oracle — 2 operation(s) for orders.
   name: Oracle Orders API
   slug: oracle-orders-api
-- description: The organization API from Oracle — 9 operation(s) for organization.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The organization API from Oracle — 9 operation(s) for organization.
   name: Oracle Organization API
   slug: oracle-organization-api
-- description: The organizationSubscription API from Oracle — 1 operation(s) for organizationsubscription.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The organizationSubscription API from Oracle — 1 operation(s) for organizationsubscription.
   name: Oracle Organization Subscription API
   slug: oracle-organizationsubscription-api
-- description: The partner API from Oracle — 3 operation(s) for partner.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The partner API from Oracle — 3 operation(s) for partner.
   name: Oracle Partner API
   slug: oracle-partner-api
-- description: The PartnerIntegeration API from Oracle — 6 operation(s) for partnerintegeration.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The PartnerIntegeration API from Oracle — 6 operation(s) for partnerintegeration.
   name: Oracle Partner Integeration API
   slug: oracle-partnerintegeration-api
-- description: The perfhub API from Oracle — 1 operation(s) for perfhub.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The perfhub API from Oracle — 1 operation(s) for perfhub.
   name: Oracle Perfhub API
   slug: oracle-perfhub-api
-- description: The plugin API from Oracle — 2 operation(s) for plugin.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The plugin API from Oracle — 2 operation(s) for plugin.
   name: Oracle Plugin API
   slug: oracle-plugin-api
-- description: The pluginconfig API from Oracle — 1 operation(s) for pluginconfig.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The pluginconfig API from Oracle — 1 operation(s) for pluginconfig.
   name: Oracle Pluginconfig API
   slug: oracle-pluginconfig-api
-- description: The postgresql API from Oracle — 26 operation(s) for postgresql.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The postgresql API from Oracle — 26 operation(s) for postgresql.
   name: Oracle Postgresql API
   slug: oracle-postgresql-api
-- description: The privateServiceAccess API from Oracle — 8 operation(s) for privateserviceaccess.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The privateServiceAccess API from Oracle — 8 operation(s) for privateserviceaccess.
   name: Oracle Private Service Access API
   slug: oracle-privateserviceaccess-api
-- description: The privilegedApiControl API from Oracle — 3 operation(s) for privilegedapicontrol.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The privilegedApiControl API from Oracle — 3 operation(s) for privilegedapicontrol.
   name: Oracle Privileged API Control API
   slug: oracle-privilegedapicontrol-api
-- description: The privilegedApiRequests API from Oracle — 6 operation(s) for privilegedapirequests.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The privilegedApiRequests API from Oracle — 6 operation(s) for privilegedapirequests.
   name: Oracle Privileged API Requests API
   slug: oracle-privilegedapirequests-api
-- description: The privilegedApiWorkRequest API from Oracle — 4 operation(s) for privilegedapiworkrequest.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The privilegedApiWorkRequest API from Oracle — 4 operation(s) for privilegedapiworkrequest.
   name: Oracle Privileged API Work Request API
   slug: oracle-privilegedapiworkrequest-api
-- description: Purchase Entitlement Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Purchase Entitlement Resource.
   name: Oracle Purchase Entitlement Resource API
   slug: oracle-purchaseentitlementresource-api
-- description: Purchase Entitlement Resource Collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Purchase Entitlement Resource Collection.
   name: Oracle Purchase Entitlements Resource API
   slug: oracle-purchaseentitlementsresource-api
-- description: The query API from Oracle — 2 operation(s) for query.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The query API from Oracle — 2 operation(s) for query.
   name: Oracle Query API
   slug: oracle-query-api
-- description: The queue API from Oracle — 6 operation(s) for queue.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The queue API from Oracle — 6 operation(s) for queue.
   name: Oracle Queue API
   slug: oracle-queue-api
-- description: The queueAdmin API from Oracle — 10 operation(s) for queueadmin.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The queueAdmin API from Oracle — 10 operation(s) for queueadmin.
   name: Oracle Queue Admin API
   slug: oracle-queueadmin-api
-- description: The quotas API from Oracle — 4 operation(s) for quotas.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The quotas API from Oracle — 4 operation(s) for quotas.
   name: Oracle Quotas API
   slug: oracle-quotas-api
-- description: The ratecard API from Oracle — 1 operation(s) for ratecard.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ratecard API from Oracle — 1 operation(s) for ratecard.
   name: Oracle Ratecard API
   slug: oracle-ratecard-api
-- description: The recipientInvitation API from Oracle — 4 operation(s) for recipientinvitation.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The recipientInvitation API from Oracle — 4 operation(s) for recipientinvitation.
   name: Oracle Recipient Invitation API
   slug: oracle-recipientinvitation-api
-- description: The redirect API from Oracle — 3 operation(s) for redirect.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The redirect API from Oracle — 3 operation(s) for redirect.
   name: Oracle Redirect API
   slug: oracle-redirect-api
-- description: The redisCluster API from Oracle — 11 operation(s) for rediscluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The redisCluster API from Oracle — 11 operation(s) for rediscluster.
   name: Oracle Redis Cluster API
   slug: oracle-rediscluster-api
-- description: The redisIdentity API from Oracle — 1 operation(s) for redisidentity.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The redisIdentity API from Oracle — 1 operation(s) for redisidentity.
   name: Oracle Redis Identity API
   slug: oracle-redisidentity-api
-- description: The refreshActivity API from Oracle — 3 operation(s) for refreshactivity.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The refreshActivity API from Oracle — 3 operation(s) for refreshactivity.
   name: Oracle Refresh Activity API
   slug: oracle-refreshactivity-api
-- description: The replicas API from Oracle — 2 operation(s) for replicas.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The replicas API from Oracle — 2 operation(s) for replicas.
   name: Oracle Replicas API
   slug: oracle-replicas-api
-- description: The reportingManagedInstance API from Oracle — 3 operation(s) for reportingmanagedinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The reportingManagedInstance API from Oracle — 3 operation(s) for reportingmanagedinstance.
   name: Oracle Reporting Managed Instance API
   slug: oracle-reportingmanagedinstance-api
-- description: The resourceAnalyticsInstance API from Oracle — 9 operation(s) for resourceanalyticsinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The resourceAnalyticsInstance API from Oracle — 9 operation(s) for resourceanalyticsinstance.
   name: Oracle Resource Analytics Instance API
   slug: oracle-resourceanalyticsinstance-api
-- description: Manages infrastructure and other Oracle cloud resources.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Manages infrastructure and other Oracle cloud resources.
   name: Oracle Resource Manager API
   slug: oracle-resourcemanager-api
-- description: The resources API from Oracle — 2 operation(s) for resources.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The resources API from Oracle — 2 operation(s) for resources.
   name: Oracle Resources API
   slug: oracle-resources-api
-- description: The ResourceSearch API from Oracle — 3 operation(s) for resourcesearch.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ResourceSearch API from Oracle — 3 operation(s) for resourcesearch.
   name: Oracle Resource Search API
   slug: oracle-resourcesearch-api
-- description: The rewards API from Oracle — 4 operation(s) for rewards.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The rewards API from Oracle — 4 operation(s) for rewards.
   name: Oracle Rewards API
   slug: oracle-rewards-api
-- description: The roverCluster API from Oracle — 4 operation(s) for rovercluster.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The roverCluster API from Oracle — 4 operation(s) for rovercluster.
   name: Oracle Rover Cluster API
   slug: oracle-rovercluster-api
-- description: The roverEntitlement API from Oracle — 3 operation(s) for roverentitlement.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The roverEntitlement API from Oracle — 3 operation(s) for roverentitlement.
   name: Oracle Rover Entitlement API
   slug: oracle-roverentitlement-api
-- description: The roverNode API from Oracle — 7 operation(s) for rovernode.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The roverNode API from Oracle — 7 operation(s) for rovernode.
   name: Oracle Rover Node API
   slug: oracle-rovernode-api
-- description: The s3ObjectStorage API from Oracle — 3 operation(s) for s3objectstorage.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The s3ObjectStorage API from Oracle — 3 operation(s) for s3objectstorage.
   name: Oracle S3 Object Storage API
   slug: oracle-s3objectstorage-api
-- description: The schedule API from Oracle — 10 operation(s) for schedule.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The schedule API from Oracle — 10 operation(s) for schedule.
   name: Oracle Schedule API
   slug: oracle-schedule-api
-- description: The scheduledActivity API from Oracle — 2 operation(s) for scheduledactivity.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The scheduledActivity API from Oracle — 2 operation(s) for scheduledactivity.
   name: Oracle Scheduled Activity API
   slug: oracle-scheduledactivity-api
-- description: The scheduledJob API from Oracle — 4 operation(s) for scheduledjob.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The scheduledJob API from Oracle — 4 operation(s) for scheduledjob.
   name: Oracle Scheduled Job API
   slug: oracle-scheduledjob-api
-- description: The sddc API from Oracle — 13 operation(s) for sddc.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The sddc API from Oracle — 13 operation(s) for sddc.
   name: Oracle Sddc API
   slug: oracle-sddc-api
-- description: Use this API to retrieve secrets and secret versions from vaults.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Use this API to retrieve secrets and secret versions from vaults.
   name: Oracle Secrets API
   slug: oracle-secrets-api
-- description: The securityAttribute API from Oracle — 12 operation(s) for securityattribute.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The securityAttribute API from Oracle — 12 operation(s) for securityattribute.
   name: Oracle Security Attribute API
   slug: oracle-securityattribute-api
-- description: Represents a Service Entitlement Service Configuration Exadata SecurityGroup Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Entitlement Service Configuration Exadata SecurityGroup Resource.
   name: Oracle SE Exadata Security Group Resource API
   slug: oracle-seexadatasecuritygroupresource-api
-- description: Represents a Service Entitlement Service Configuration Exadata SecurityGroups Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Entitlement Service Configuration Exadata SecurityGroups Resource.
   name: Oracle SE Exadata Security Groups Resource API
   slug: oracle-seexadatasecuritygroupsresource-api
-- description: The ${sender-tag} API from Oracle — 5 operation(s) for ${sender-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${sender-tag} API from Oracle — 5 operation(s) for ${sender-tag}.
   name: Oracle ${sender Tag} API
   slug: oracle-sender-tag-api
-- description: The senderInvitation API from Oracle — 3 operation(s) for senderinvitation.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The senderInvitation API from Oracle — 3 operation(s) for senderinvitation.
   name: Oracle Sender Invitation API
   slug: oracle-senderinvitation-api
-- description: The service API from Oracle — 1 operation(s) for service.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The service API from Oracle — 1 operation(s) for service.
   name: Oracle Service API
   slug: oracle-service-api
-- description: The serviceAttachment API from Oracle — 2 operation(s) for serviceattachment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The serviceAttachment API from Oracle — 2 operation(s) for serviceattachment.
   name: Oracle Service Attachment API
   slug: oracle-serviceattachment-api
-- description: The serviceCatalog API from Oracle — 18 operation(s) for servicecatalog.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The serviceCatalog API from Oracle — 18 operation(s) for servicecatalog.
   name: Oracle Service Catalog API
   slug: oracle-servicecatalog-api
-- description: The serviceConnector API from Oracle — 9 operation(s) for serviceconnector.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The serviceConnector API from Oracle — 9 operation(s) for serviceconnector.
   name: Oracle Service Connector API
   slug: oracle-serviceconnector-api
-- description: Service Definition Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Service Definition Resource.
   name: Oracle Service Definition Resource API
   slug: oracle-servicedefinitionresource-api
-- description: Represents a serviceDefinition resource collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a serviceDefinition resource collection.
   name: Oracle Service Definitions Resource API
   slug: oracle-servicedefinitionsresource-api
-- description: Service Entitlement Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Service Entitlement Resource.
   name: Oracle Service Entitlement Resource API
   slug: oracle-serviceentitlementresource-api
-- description: Service Entitlement resource collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Service Entitlement resource collection.
   name: Oracle Service Entitlements Resource API
   slug: oracle-serviceentitlementsresource-api
-- description: Service Instance Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Service Instance Resource.
   name: Oracle Service Instance Resource API
   slug: oracle-serviceinstanceresource-api
-- description: Service Instance resource collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Service Instance resource collection.
   name: Oracle Service Instances Resource API
   slug: oracle-serviceinstancesresource-api
-- description: The serviceManagerProxy API from Oracle — 2 operation(s) for servicemanagerproxy.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The serviceManagerProxy API from Oracle — 2 operation(s) for servicemanagerproxy.
   name: Oracle Service Manager Proxy API
   slug: oracle-servicemanagerproxy-api
-- description: Represents a Service Entitlement ServiceConfiguration resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Entitlement ServiceConfiguration resource.
   name: Oracle SE Service Configuration Resource API
   slug: oracle-seserviceconfigurationresource-api
-- description: Represents a Service Entitlement ServiceConfiguration resource collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Entitlement ServiceConfiguration resource collection.
   name: Oracle SE Service Configurations Resource API
   slug: oracle-seserviceconfigurationsresource-api
-- description: The shape API from Oracle — 1 operation(s) for shape.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The shape API from Oracle — 1 operation(s) for shape.
   name: Oracle Shape API
   slug: oracle-shape-api
-- description: Represents a Service Instance Service Configuration Exadata Bursting Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Instance Service Configuration Exadata Bursting Resource.
   name: Oracle SI Exadata Bursting Resource API
   slug: oracle-siexadataburstingresource-api
-- description: Represents a Service Instance Service Configuration Exadata SecurityGroupAssignment Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Instance Service Configuration Exadata SecurityGroupAssignment Resource.
   name: Oracle SI Exadata Security Group Assignment Resource API
   slug: oracle-siexadatasecuritygroupassignmentresource-api
-- description: Represents a Service Instance Service Configuration Exadata SecurityGroupAssignments Resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Instance Service Configuration Exadata SecurityGroupAssignments Resource.
   name: Oracle SI Exadata Security Group Assignments Resource API
   slug: oracle-siexadatasecuritygroupassignmentsresource-api
-- description: Represents a Service Instance ServiceConfiguration resource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Instance ServiceConfiguration resource.
   name: Oracle SI Service Configuration Resource API
   slug: oracle-siserviceconfigurationresource-api
-- description: Represents a Service Instance ServiceConfiguration resource collection.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: Represents a Service Instance ServiceConfiguration resource collection.
   name: Oracle SI Service Configurations Resource API
   slug: oracle-siserviceconfigurationsresource-api
-- description: The softwareSource API from Oracle — 29 operation(s) for softwaresource.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The softwareSource API from Oracle — 29 operation(s) for softwaresource.
   name: Oracle Software Source API
   slug: oracle-softwaresource-api
-- description: The sqlTuning API from Oracle — 16 operation(s) for sqltuning.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The sqlTuning API from Oracle — 16 operation(s) for sqltuning.
   name: Oracle Sql Tuning API
   slug: oracle-sqltuning-api
-- description: The stackMonitoring API from Oracle — 42 operation(s) for stackmonitoring.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The stackMonitoring API from Oracle — 42 operation(s) for stackmonitoring.
   name: Oracle Stack Monitoring API
   slug: oracle-stackmonitoring-api
-- description: The stream API from Oracle — 6 operation(s) for stream.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The stream API from Oracle — 6 operation(s) for stream.
   name: Oracle Stream API
   slug: oracle-stream-api
-- description: The streamAdmin API from Oracle — 13 operation(s) for streamadmin.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The streamAdmin API from Oracle — 13 operation(s) for streamadmin.
   name: Oracle Stream Admin API
   slug: oracle-streamadmin-api
-- description: The ${submit-email-tag} API from Oracle — 1 operation(s) for ${submit-email-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${submit-email-tag} API from Oracle — 1 operation(s) for ${submit-email-tag}.
   name: Oracle ${submit Email Tag} API
   slug: oracle-submit-email-tag-api
-- description: The ${submit-raw-email-tag} API from Oracle — 1 operation(s) for ${submit-raw-email-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${submit-raw-email-tag} API from Oracle — 1 operation(s) for ${submit-raw-email-tag}.
   name: Oracle ${submit Raw Email Tag} API
   slug: oracle-submit-raw-email-tag-api
-- description: The subscribedService API from Oracle — 2 operation(s) for subscribedservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The subscribedService API from Oracle — 2 operation(s) for subscribedservice.
   name: Oracle Subscribed Service API
   slug: oracle-subscribedservice-api
-- description: The subscribers API from Oracle — 5 operation(s) for subscribers.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The subscribers API from Oracle — 5 operation(s) for subscribers.
   name: Oracle Subscribers API
   slug: oracle-subscribers-api
-- description: The subscription API from Oracle — 16 operation(s) for subscription.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The subscription API from Oracle — 16 operation(s) for subscription.
   name: Oracle Subscription API
   slug: oracle-subscription-api
-- description: The ${suppression-tag} API from Oracle — 2 operation(s) for ${suppression-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${suppression-tag} API from Oracle — 2 operation(s) for ${suppression-tag}.
   name: Oracle ${suppression Tag} API
   slug: oracle-suppression-tag-api
-- description: The tenancyAttachment API from Oracle — 2 operation(s) for tenancyattachment.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The tenancyAttachment API from Oracle — 2 operation(s) for tenancyattachment.
   name: Oracle Tenancy Attachment API
   slug: oracle-tenancyattachment-api
-- description: The threatintel API from Oracle — 5 operation(s) for threatintel.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The threatintel API from Oracle — 5 operation(s) for threatintel.
   name: Oracle Threatintel API
   slug: oracle-threatintel-api
-- description: '"Everything about your trace, related spans, and tags"'
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: '"Everything about your trace, related spans, and tags"'
   name: Oracle Trace API
   slug: oracle-trace-api
-- description: The usageapi API from Oracle — 18 operation(s) for usageapi.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The usageapi API from Oracle — 18 operation(s) for usageapi.
   name: Oracle Usageapi API
   slug: oracle-usageapi-api
-- description: The usagelimits API from Oracle — 1 operation(s) for usagelimits.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The usagelimits API from Oracle — 1 operation(s) for usagelimits.
   name: Oracle Usagelimits API
   slug: oracle-usagelimits-api
-- description: The usagePlans API from Oracle — 5 operation(s) for usageplans.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The usagePlans API from Oracle — 5 operation(s) for usageplans.
   name: Oracle Usage Plans API
   slug: oracle-usageplans-api
-- description: The vanityDomain API from Oracle — 6 operation(s) for vanitydomain.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The vanityDomain API from Oracle — 6 operation(s) for vanitydomain.
   name: Oracle Vanity Domain API
   slug: oracle-vanitydomain-api
-- description: The vaults API from Oracle — 11 operation(s) for vaults.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The vaults API from Oracle — 11 operation(s) for vaults.
   name: Oracle Vaults API
   slug: oracle-vaults-api
-- description: The vbInstance API from Oracle — 10 operation(s) for vbinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The vbInstance API from Oracle — 10 operation(s) for vbinstance.
   name: Oracle Vb Instance API
   slug: oracle-vbinstance-api
-- description: The vbsInstance API from Oracle — 7 operation(s) for vbsinstance.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The vbsInstance API from Oracle — 7 operation(s) for vbsinstance.
   name: Oracle Vbs Instance API
   slug: oracle-vbsinstance-api
-- description: The virtualNetwork API from Oracle — 176 operation(s) for virtualnetwork.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The virtualNetwork API from Oracle — 176 operation(s) for virtualnetwork.
   name: Oracle Virtual Network API
   slug: oracle-virtualnetwork-api
-- description: The vnMonitoring API from Oracle — 9 operation(s) for vnmonitoring.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The vnMonitoring API from Oracle — 9 operation(s) for vnmonitoring.
   name: Oracle Vn Monitoring API
   slug: oracle-vnmonitoring-api
-- description: The vulnerabilityScanning API from Oracle — 41 operation(s) for vulnerabilityscanning.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The vulnerabilityScanning API from Oracle — 41 operation(s) for vulnerabilityscanning.
   name: Oracle Vulnerability Scanning API
   slug: oracle-vulnerabilityscanning-api
-- description: The waa API from Oracle — 7 operation(s) for waa.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The waa API from Oracle — 7 operation(s) for waa.
   name: Oracle Waa API
   slug: oracle-waa-api
-- description: The waas API from Oracle — 38 operation(s) for waas.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The waas API from Oracle — 38 operation(s) for waas.
   name: Oracle Waas API
   slug: oracle-waas-api
-- description: The waf API from Oracle — 15 operation(s) for waf.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The waf API from Oracle — 15 operation(s) for waf.
   name: Oracle Waf API
   slug: oracle-waf-api
-- description: The weblogicManagementService API from Oracle — 36 operation(s) for weblogicmanagementservice.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The weblogicManagementService API from Oracle — 36 operation(s) for weblogicmanagementservice.
   name: Oracle Weblogic Management Service API
   slug: oracle-weblogicmanagementservice-api
-- description: The weblogicManagementServiceConfiguration API from Oracle — 1 operation(s) for weblogicmanagementserviceconfiguration.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The weblogicManagementServiceConfiguration API from Oracle — 1 operation(s) for weblogicmanagementserviceconfiguration.
   name: Oracle Weblogic Management Service Configuration API
   slug: oracle-weblogicmanagementserviceconfiguration-api
-- description: The ${work-request-tag} API from Oracle — 4 operation(s) for ${work-request-tag}.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The ${work-request-tag} API from Oracle — 4 operation(s) for ${work-request-tag}.
   name: Oracle ${work Request Tag} API
   slug: oracle-work-request-tag-api
-- description: The workRequest API from Oracle — 5 operation(s) for workrequest.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The workRequest API from Oracle — 5 operation(s) for workrequest.
   name: Oracle Work Request API
   slug: oracle-workrequest-api
-- description: The workRequests API from Oracle — 4 operation(s) for workrequests.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The workRequests API from Oracle — 4 operation(s) for workrequests.
   name: Oracle Work Requests API
   slug: oracle-workrequests-api
-- description: The zpr API from Oracle — 11 operation(s) for zpr.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The zpr API from Oracle — 11 operation(s) for zpr.
   name: Oracle Zpr API
   slug: oracle-zpr-api
-- description: The zprTopology API from Oracle — 8 operation(s) for zprtopology.
+- baseURL: https://{host}:{port}/ords/
+  baseurl_source: declared
+  description: The zprTopology API from Oracle — 8 operation(s) for zprtopology.
   name: Oracle Zpr Topology API
   slug: oracle-zprtopology-api
 arazzos:
@@ -2914,7 +3558,7 @@ score:
     catalog_gap: 70.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -2924,7 +3568,7 @@ score:
     discoverability: 40.7
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 56.3
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -2933,7 +3577,7 @@ score:
       marker_coverage: 100.0
       total: 322
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 3
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 34 operations · 21 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Integrations that turn external signals into All Quiet incidents.
+- baseURL: https://allquiet.app/api/public/v1
+  baseurl_source: declared
+  description: Integrations that turn external signals into All Quiet incidents.
   name: All Quiet Inbound Integrations API
   slug: allquiet-inbound-integrations-api
-- description: Create, search, read, update, and delete incidents.
+- baseURL: https://allquiet.app/api/public/v1
+  baseurl_source: declared
+  description: Create, search, read, update, and delete incidents.
   name: All Quiet Incidents API
   slug: allquiet-incidents-api
-- description: On-call lookups, escalation tiers, and on-call overrides.
+- baseURL: https://allquiet.app/api/public/v1
+  baseurl_source: declared
+  description: On-call lookups, escalation tiers, and on-call overrides.
   name: All Quiet On-Call Schedules API
   slug: allquiet-on-call-schedules-api
-- description: Teams, team membership, and organization membership (users).
+- baseURL: https://allquiet.app/api/public/v1
+  baseurl_source: declared
+  description: Teams, team membership, and organization membership (users).
   name: All Quiet Teams API
   slug: allquiet-teams-api
-- description: Outbound integrations that forward incidents to third-party platforms.
+- baseURL: https://allquiet.app/api/public/v1
+  baseurl_source: declared
+  description: Outbound integrations that forward incidents to third-party platforms.
   name: All Quiet Webhooks API
   slug: allquiet-webhooks-api
 artifact_total: 19
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/screenshots/allquiet-2026-07-25T195712.png
 security:

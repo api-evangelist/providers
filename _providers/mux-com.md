@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -47,115 +47,189 @@ apis:
 - description: Mux Webhooks deliver signed HTTP callbacks for asset, upload, live stream, and robots job lifecycle events (video.asset.created, video.asset.ready, video.live_stream.active, video.upload.asset_created
   name: Mux Webhooks
   slug: webhooks
-- description: APIs for retrieving animated images from videos hosted using Mux.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: APIs for retrieving animated images from videos hosted using Mux.
   name: Mux Animated Images API
   slug: mux-com-animated-images-api
-- description: Annotations allow you to add notes at a specific datetime to view in the Mux Data dashboard.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Annotations allow you to add notes at a specific datetime to view in the Mux Data dashboard.
   name: Mux Annotations API
   slug: mux-com-annotations-api
-- description: Ask questions about a video and get structured answers.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Ask questions about a video and get structured answers.
   name: Mux Ask Questions API
   slug: mux-com-ask-questions-api
-- description: An asset refers to a piece of media content that is stored or is being live streamed through the Mux system. An asset always has a duration and one or more tracks (audio, video, and text data). The me
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: An asset refers to a piece of media content that is stored or is being live streamed through the Mux system. An asset always has a duration and one or more tracks (audio, video, and text data). The me
   name: Mux Assets API
   slug: mux-com-assets-api
-- description: APIs for retrieving captions and transcripts from videos hosted using Mux that have had captions generated automatically.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: APIs for retrieving captions and transcripts from videos hosted using Mux that have had captions generated automatically.
   name: Mux Captions and Transcripts API
   slug: mux-com-captions-and-transcripts-api
-- description: The Delivery Usage API allows you to get delivery/streaming usage details for each asset and across all assets. Delivery usage details are aggregated every hour at the top of the hour and can be reque
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: The Delivery Usage API allows you to get delivery/streaming usage details for each asset and across all assets. Delivery usage details are aggregated every hour at the top of the hour and can be reque
   name: Mux Delivery Usage API
   slug: mux-com-delivery-usage-api
-- description: Dimensions are the types of metadata that can be collected for a video view. Some dimensions are collected automatically based on the playback or device, such as the viewer's Country or the device inf
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Dimensions are the types of metadata that can be collected for a video view. Some dimensions are collected automatically based on the playback or device, such as the viewer's Country or the device inf
   name: Mux Dimensions API
   slug: mux-com-dimensions-api
-- description: Direct upload allows you to push assets directly to Mux storage instead of needing to go through your own first. When you create a new direct upload, we'll give you back a signed URL for a Google Clou
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Direct upload allows you to push assets directly to Mux storage instead of needing to go through your own first. When you create a new direct upload, we'll give you back a signed URL for a Google Clou
   name: Mux Direct Uploads API
   slug: mux-com-direct-uploads-api
-- description: DRM Configurations allow you to adjust the security level of content delivered through Mux Video's Digital Rights Management (DRM) feature.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: DRM Configurations allow you to adjust the security level of content delivered through Mux Video's Digital Rights Management (DRM) feature.
   name: Mux DRM Configurations API
   slug: mux-com-drm-configurations-api
-- description: Edit an existing caption track with find-and-replace edits and optional profanity censoring. This workflow is currently in beta.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Edit an existing caption track with find-and-replace edits and optional profanity censoring. This workflow is currently in beta.
   name: Mux Edit Captions API
   slug: mux-com-edit-captions-api
-- description: Playback errors are tracked and aggregated by Mux Data. Errors can be listed by the API, which contains data about the error code, message, and how often the error occurred.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Playback errors are tracked and aggregated by Mux Data. Errors can be listed by the API, which contains data about the error code, message, and how often the error occurred.
   name: Mux Errors API
   slug: mux-com-errors-api
-- description: Exports allow you to download the daily CSV files that are generated from the video views that occurred in the previous day. Please contact [support](mailto:support@mux.com) for information about enab
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Exports allow you to download the daily CSV files that are generated from the video views that occurred in the previous day. Please contact [support](mailto:support@mux.com) for information about enab
   name: Mux Exports API
   slug: mux-com-exports-api
-- description: Deprecated, please refer to the Dimensions APIs.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Deprecated, please refer to the Dimensions APIs.
   name: Mux Filters API
   slug: mux-com-filters-api
-- description: Identify key moments in a video.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Identify key moments in a video.
   name: Mux Find Key Moments API
   slug: mux-com-find-key-moments-api
-- description: Generate chapters for a video.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Generate chapters for a video.
   name: Mux Generate Chapters API
   slug: mux-com-generate-chapters-api
-- description: Incidents occur when an anomaly alert is triggered in Mux Data. The Incidents API provides operations related to the raising and managing of alerting incidents.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Incidents occur when an anomaly alert is triggered in Mux Data. The Incidents API provides operations related to the raising and managing of alerting incidents.
   name: Mux Incidents API
   slug: mux-com-incidents-api
-- description: List and cancel jobs across all workflows.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: List and cancel jobs across all workflows.
   name: Mux Jobs API
   slug: mux-com-jobs-api
-- description: A Live Stream represents a unique live stream of video being pushed to Mux. It includes configuration details (a Stream Key) for live broadcasting software/hardware and a Playback ID for playing the s
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: A Live Stream represents a unique live stream of video being pushed to Mux. It includes configuration details (a Stream Key) for live broadcasting software/hardware and a Playback ID for playing the s
   name: Mux Live Streams API
   slug: mux-com-live-streams-api
-- description: Historical metrics are used for tracking KPIs, diagnosing issues, and measuring viewers' quality of experience. Metrics are calculated using the video views that have been completed and are bucketed o
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Historical metrics are used for tracking KPIs, diagnosing issues, and measuring viewers' quality of experience. Metrics are calculated using the video views that have been completed and are bucketed o
   name: Mux Metrics API
   slug: mux-com-metrics-api
-- description: Analyze a video for inappropriate content.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Analyze a video for inappropriate content.
   name: Mux Moderate API
   slug: mux-com-moderate-api
-- description: Monitoring metrics are used for operational monitoring of a video platform. The metrics are aggregated in five second intervals, across the views that are currently being watched. The real-time metric
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Monitoring metrics are used for operational monitoring of a video platform. The metrics are aggregated in five second intervals, across the views that are currently being watched. The real-time metric
   name: Mux Monitoring API
   slug: mux-com-monitoring-api
-- description: Operations related to the manipulation of playback IDs, through which users are able to stream videos and live streams from Mux.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Operations related to the manipulation of playback IDs, through which users are able to stream videos and live streams from Mux.
   name: Mux Playback ID API
   slug: mux-com-playback-id-api
-- description: Playback Restrictions allows you to set additional rules for playing videos. You can set the domains/hostnames allowed to play your videos. For instance, viewers can play videos embedded on the `https
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Playback Restrictions allows you to set additional rules for playing videos. You can set the domains/hostnames allowed to play your videos. For instance, viewers can play videos embedded on the `https
   name: Mux Playback Restrictions API
   slug: mux-com-playback-restrictions-api
-- description: 'The Mux Data Real-time API has been deprecated, please refer to the Mux Data `Monitoring` APIs which provide the same functionality. Mux Data Monitoring metrics are available to Mux Data customers on '
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: 'The Mux Data Real-time API has been deprecated, please refer to the Mux Data `Monitoring` APIs which provide the same functionality. Mux Data Monitoring metrics are available to Mux Data customers on '
   name: Mux Real-Time API
   slug: mux-com-real-time-api
-- description: Signing keys are used to sign JSON Web Tokens (JWTs) for securing certain requests, such as secure playback URLs and access to real-time viewer counts in Mux Data. **One signing key can be used to sig
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Signing keys are used to sign JSON Web Tokens (JWTs) for securing certain requests, such as secure playback URLs and access to real-time viewer counts in Mux Data. **One signing key can be used to sig
   name: Mux Signing Keys API
   slug: mux-com-signing-keys-api
-- description: APIs for retrieving storyboards, sprites, and metadata about the storyboards from videos hosted using Mux.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: APIs for retrieving storyboards, sprites, and metadata about the storyboards from videos hosted using Mux.
   name: Mux Storyboards API
   slug: mux-com-storyboards-api
-- description: APIs for streaming video content via HLS and MP4 with customizable playback options.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: APIs for streaming video content via HLS and MP4 with customizable playback options.
   name: Mux Streaming API
   slug: mux-com-streaming-api
-- description: Generate a title, description, and tags for a video.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Generate a title, description, and tags for a video.
   name: Mux Summarize API
   slug: mux-com-summarize-api
-- description: APIs for retrieving still thumbnails from videos hosted using Mux.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: APIs for retrieving still thumbnails from videos hosted using Mux.
   name: Mux Thumbnails API
   slug: mux-com-thumbnails-api
-- description: Transcription Vocabularies allows you to provide collections of phrases like proper nouns, technical jargon, and uncommon words as part of captioning workflows. When using Auto-Generated Captions, Tra
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Transcription Vocabularies allows you to provide collections of phrases like proper nouns, technical jargon, and uncommon words as part of captioning workflows. When using Auto-Generated Captions, Tra
   name: Mux Transcription Vocabularies API
   slug: mux-com-transcription-vocabularies-api
-- description: Translate captions from one language to another.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Translate captions from one language to another.
   name: Mux Translate Captions API
   slug: mux-com-translate-captions-api
-- description: 'A URL signing key is used as the secret when signing any Mux URL. Mux requires a [JSON Web Token](https://jwt.io/) as the value of the token query parameter. The token query parameter must be set for '
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: 'A URL signing key is used as the secret when signing any Mux URL. Mux requires a [JSON Web Token](https://jwt.io/) as the value of the token query parameter. The token query parameter must be set for '
   name: Mux URL Signing Keys API
   slug: mux-com-url-signing-keys-api
-- description: Collection of utility methods for using Mux APIs. There's only one thing in here right now, maybe there will be more later.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Collection of utility methods for using Mux APIs. There's only one thing in here right now, maybe there will be more later.
   name: Mux Utilities API
   slug: mux-com-utilities-api
-- description: An individual video view tracked by Mux Data. For the full list of properties for each view please refer to the table of data fields in the [Export raw video view data guide](https://docs.mux.com/guid
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: An individual video view tracked by Mux Data. For the full list of properties for each view please refer to the table of data fields in the [Export raw video view data guide](https://docs.mux.com/guid
   name: Mux Video Views API
   slug: mux-com-video-views-api
-- description: API for retrieving the real-time count of views and viewers based on ID as collected by Mux Data.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: API for retrieving the real-time count of views and viewers based on ID as collected by Mux Data.
   name: Mux View and Viewer Counts API
   slug: mux-com-view-and-viewer-counts-api
-- description: Manage playback IDs for assets.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: Manage playback IDs for assets.
   name: Mux Playback IDs API
   slug: mux-com-playback-ids-api
-- description: The Mux API API from Mux — 0 operation(s) for mux api.
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: The Mux API API from Mux — 0 operation(s) for mux api.
   name: Mux Mux API
   slug: mux-com-mux-api-api
 arazzos:
@@ -779,7 +853,7 @@ score:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 60.6
-    contract_quality: 67.1
+    contract_quality: 66.9
     developer_ergonomics: 83.3
     discoverability: 70.4
     governance: 60.6
@@ -793,7 +867,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png
 security:

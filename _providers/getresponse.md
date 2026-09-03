@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -44,151 +44,249 @@ agentic_access:
   summary_line: 220 operations · 94 acting · 1 human-in-the-loop
 api_count: 50
 apis:
-- description: A/B tests API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: A/B tests API documentation
   name: GetResponse A/B tests API
   slug: getresponse-a-b-tests-api
-- description: A/B tests - subject API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: A/B tests - subject API documentation
   name: GetResponse A/B tests - subject API
   slug: getresponse-a-b-tests-subject-api
-- description: Accounts API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Accounts API documentation
   name: GetResponse Accounts API
   slug: getresponse-accounts-api
-- description: Addresses API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Addresses API documentation
   name: GetResponse Addresses API
   slug: getresponse-addresses-api
-- description: Autoresponders API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Autoresponders API documentation
   name: GetResponse Autoresponders API
   slug: getresponse-autoresponders-api
-- description: 'Our API v3 uses the terminology from the previous version of GetResponse. **Campaigns and lists are the same resource under a different name.** For now, please refer to lists as campaigns. Our API v4 '
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: 'Our API v3 uses the terminology from the previous version of GetResponse. **Campaigns and lists are the same resource under a different name.** For now, please refer to lists as campaigns. Our API v4 '
   name: GetResponse Campaigns (Lists) API
   slug: getresponse-campaigns-lists-api
-- description: Carts API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Carts API documentation
   name: GetResponse Carts API
   slug: getresponse-carts-api
-- description: Categories API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Categories API documentation
   name: GetResponse Categories API
   slug: getresponse-categories-api
-- description: Click tracking refers to the data collected about each link click, such as how many people clicked it, how many clicks resulted in desired actions such as sales, forwards or subscriptions.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Click tracking refers to the data collected about each link click, such as how many people clicked it, how many clicks resulted in desired actions such as sales, forwards or subscriptions.
   name: GetResponse Click Tracks API
   slug: getresponse-click-tracks-api
-- description: API documentation for contacts and their properties (e.g., tags, custom fields)
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: API documentation for contacts and their properties (e.g., tags, custom fields)
   name: GetResponse Contacts API
   slug: getresponse-contacts-api
-- description: Custom Events API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Custom Events API documentation
   name: GetResponse Custom Events API
   slug: getresponse-custom-events-api
-- description: Custom Fields API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Custom Fields API documentation
   name: GetResponse Custom Fields API
   slug: getresponse-custom-fields-api
-- description: Custom Reports API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Custom Reports API documentation
   name: GetResponse Custom Reports API
   slug: getresponse-custom-reports-api
-- description: The Ecommerce API from GetResponse — 2 operation(s) for ecommerce.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Ecommerce API from GetResponse — 2 operation(s) for ecommerce.
   name: GetResponse Ecommerce API
   slug: getresponse-ecommerce-api
-- description: File Library API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: File Library API documentation
   name: GetResponse File Library API
   slug: getresponse-file-library-api
-- description: The Form and Popup API from GetResponse — 1 operation(s) for form and popup.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Form and Popup API from GetResponse — 1 operation(s) for form and popup.
   name: GetResponse Form and Popup API
   slug: getresponse-form-and-popup-api
-- description: Forms and Popups API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Forms and Popups API documentation
   name: GetResponse Forms and Popups API
   slug: getresponse-forms-and-popups-api
-- description: Forms API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Forms API documentation
   name: GetResponse Forms API
   slug: getresponse-forms-api
-- description: From Fields API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: From Fields API documentation
   name: GetResponse From Fields API
   slug: getresponse-from-fields-api
-- description: The GDPR Fields API from GetResponse — 2 operation(s) for gdpr fields.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The GDPR Fields API from GetResponse — 2 operation(s) for gdpr fields.
   name: GetResponse GDPR Fields API
   slug: getresponse-gdpr-fields-api
-- description: Imports API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Imports API documentation
   name: GetResponse Imports API
   slug: getresponse-imports-api
-- description: The Landing Page API from GetResponse — 1 operation(s) for landing page.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Landing Page API from GetResponse — 1 operation(s) for landing page.
   name: GetResponse Landing Page API
   slug: getresponse-landing-page-api
-- description: The Landing Pages API from GetResponse — 2 operation(s) for landing pages.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Landing Pages API from GetResponse — 2 operation(s) for landing pages.
   name: GetResponse Landing Pages API
   slug: getresponse-landing-pages-api
-- description: Legacy Forms API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Legacy Forms API documentation
   name: GetResponse Legacy Forms API
   slug: getresponse-legacy-forms-api
-- description: Legacy Landing Pages description
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Legacy Landing Pages description
   name: GetResponse Legacy Landing Pages API
   slug: getresponse-legacy-landing-pages-api
-- description: Meta Fields API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Meta Fields API documentation
   name: GetResponse Meta Fields API
   slug: getresponse-meta-fields-api
-- description: Multimedia API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Multimedia API documentation
   name: GetResponse Multimedia API
   slug: getresponse-multimedia-api
-- description: Newsletters API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Newsletters API documentation
   name: GetResponse Newsletters API
   slug: getresponse-newsletters-api
-- description: Orders API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Orders API documentation
   name: GetResponse Orders API
   slug: getresponse-orders-api
-- description: Predefined Fields API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Predefined Fields API documentation
   name: GetResponse Predefined Fields API
   slug: getresponse-predefined-fields-api
-- description: Product Variants API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Product Variants API documentation
   name: GetResponse Product Variants API
   slug: getresponse-product-variants-api
-- description: Products API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Products API documentation
   name: GetResponse Products API
   slug: getresponse-products-api
-- description: RSS Newsletters API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: RSS Newsletters API documentation
   name: GetResponse RSS Newsletters API
   slug: getresponse-rss-newsletters-api
-- description: Search Contacts API documentation API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Search Contacts API documentation API documentation
   name: GetResponse Search Contacts API
   slug: getresponse-search-contacts-api
-- description: Shops API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Shops API documentation
   name: GetResponse Shops API
   slug: getresponse-shops-api
-- description: The Sms API from GetResponse — 1 operation(s) for sms.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Sms API from GetResponse — 1 operation(s) for sms.
   name: GetResponse Sms API
   slug: getresponse-sms-api
-- description: SMS Automation Messages API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: SMS Automation Messages API documentation
   name: GetResponse SMS Automation Messages API
   slug: getresponse-sms-automation-messages-api
-- description: SMS Messages API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: SMS Messages API documentation
   name: GetResponse SMS Messages API
   slug: getresponse-sms-messages-api
-- description: Subscription Confirmations API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Subscription Confirmations API documentation
   name: GetResponse Subscription Confirmations API
   slug: getresponse-subscription-confirmations-api
-- description: Suppressions API documentaion
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Suppressions API documentaion
   name: GetResponse Suppressions API
   slug: getresponse-suppressions-api
-- description: Tags API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Tags API documentation
   name: GetResponse Tags API
   slug: getresponse-tags-api
-- description: Taxes API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Taxes API documentation
   name: GetResponse Taxes API
   slug: getresponse-taxes-api
-- description: Tracking API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Tracking API documentation
   name: GetResponse Tracking API
   slug: getresponse-tracking-api
-- description: Transactional Emails API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Transactional Emails API documentation
   name: GetResponse Transactional Emails API
   slug: getresponse-transactional-emails-api
-- description: The Transactional Emails Templates API from GetResponse — 2 operation(s) for transactional emails templates.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Transactional Emails Templates API from GetResponse — 2 operation(s) for transactional emails templates.
   name: GetResponse Transactional Emails Templates API
   slug: getresponse-transactional-emails-templates-api
-- description: Webinars API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Webinars API documentation
   name: GetResponse Webinars API
   slug: getresponse-webinars-api
-- description: The Website API from GetResponse — 1 operation(s) for website.
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: The Website API from GetResponse — 1 operation(s) for website.
   name: GetResponse Website API
   slug: getresponse-website-api
-- description: Websites API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Websites API documentation
   name: GetResponse Websites API
   slug: getresponse-websites-api
-- description: Workflows API documentation
+- baseURL: https://api.getresponse.com/v3
+  baseurl_source: declared
+  description: Workflows API documentation
   name: GetResponse Workflows API
   slug: getresponse-workflows-api
 artifact_total: 106
@@ -547,7 +645,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -557,7 +655,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 70.2
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -579,7 +677,7 @@ score:
     regime_id: telecommunications
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png
 security:

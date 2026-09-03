@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -80,16 +80,24 @@ apis:
 - description: The Coupa Inventory and Receipts API provides RESTful endpoints for managing receiving transactions, inventory adjustments, inventory consumptions, pick lists, fulfillment reservations, warehouse oper
   name: Coupa Inventory and Receipts API
   slug: coupa-inventory-and-receipts-api
-- description: Create, retrieve, update, and manage invoices. Invoices represent billing documents from suppliers for goods or services delivered.
+- baseURL: https://instance.coupahost.com/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage invoices. Invoices represent billing documents from suppliers for goods or services delivered.
   name: Coupa Invoices API
   slug: coupa-invoices-api
-- description: Create, retrieve, update, and manage purchase orders. Purchase orders represent commitments to buy goods or services from suppliers.
+- baseURL: https://instance.coupahost.com/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage purchase orders. Purchase orders represent commitments to buy goods or services from suppliers.
   name: Coupa Purchase Orders API
   slug: coupa-purchase-orders-api
-- description: Create, retrieve, update, and manage requisitions. Requisitions are internal requests to purchase goods or services that go through approval workflows before becoming purchase orders.
+- baseURL: https://instance.coupahost.com/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage requisitions. Requisitions are internal requests to purchase goods or services that go through approval workflows before becoming purchase orders.
   name: Coupa Requisitions API
   slug: coupa-requisitions-api
-- description: Create, retrieve, update, and manage supplier records. Suppliers represent vendor organizations that provide goods or services.
+- baseURL: https://instance.coupahost.com/api
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage supplier records. Suppliers represent vendor organizations that provide goods or services.
   name: Coupa Suppliers API
   slug: coupa-suppliers-api
 artifact_total: 60
@@ -429,7 +437,7 @@ score:
     catalog_gap: 33.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -439,7 +447,7 @@ score:
     discoverability: 63.0
     governance: 69.7
     operational_transparency: 31.6
-  previous_composite: 52.9
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -448,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/screenshots/coupa-2026-06-20T175107.png
 security:

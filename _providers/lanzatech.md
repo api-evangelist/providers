@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -43,112 +43,184 @@ agentic_access:
   summary_line: 264 operations · 149 acting
 api_count: 36
 apis:
-- description: The block-directory API from LanzaTech — 1 operation(s) for block-directory.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The block-directory API from LanzaTech — 1 operation(s) for block-directory.
   name: LanzaTech block-directory API
   slug: lanzatech-block-directory-api
-- description: The block-patterns API from LanzaTech — 2 operation(s) for block-patterns.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The block-patterns API from LanzaTech — 2 operation(s) for block-patterns.
   name: LanzaTech block-patterns API
   slug: lanzatech-block-patterns-api
-- description: The block-renderer API from LanzaTech — 1 operation(s) for block-renderer.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The block-renderer API from LanzaTech — 1 operation(s) for block-renderer.
   name: LanzaTech block-renderer API
   slug: lanzatech-block-renderer-api
-- description: The block-types API from LanzaTech — 3 operation(s) for block-types.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The block-types API from LanzaTech — 3 operation(s) for block-types.
   name: LanzaTech block-types API
   slug: lanzatech-block-types-api
-- description: The blocks API from LanzaTech — 6 operation(s) for blocks.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The blocks API from LanzaTech — 6 operation(s) for blocks.
   name: LanzaTech blocks API
   slug: lanzatech-blocks-api
-- description: The board-member API from LanzaTech — 4 operation(s) for board-member.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The board-member API from LanzaTech — 4 operation(s) for board-member.
   name: LanzaTech board-member API
   slug: lanzatech-board-member-api
-- description: The categories API from LanzaTech — 2 operation(s) for categories.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The categories API from LanzaTech — 2 operation(s) for categories.
   name: LanzaTech categories API
   slug: lanzatech-categories-api
-- description: The comments API from LanzaTech — 2 operation(s) for comments.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The comments API from LanzaTech — 2 operation(s) for comments.
   name: LanzaTech comments API
   slug: lanzatech-comments-api
-- description: The download API from LanzaTech — 4 operation(s) for download.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The download API from LanzaTech — 4 operation(s) for download.
   name: LanzaTech download API
   slug: lanzatech-download-api
-- description: The employee API from LanzaTech — 4 operation(s) for employee.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The employee API from LanzaTech — 4 operation(s) for employee.
   name: LanzaTech employee API
   slug: lanzatech-employee-api
-- description: The global-styles API from LanzaTech — 3 operation(s) for global-styles.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The global-styles API from LanzaTech — 3 operation(s) for global-styles.
   name: LanzaTech global-styles API
   slug: lanzatech-global-styles-api
-- description: The jet-engine API from LanzaTech — 6 operation(s) for jet-engine.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The jet-engine API from LanzaTech — 6 operation(s) for jet-engine.
   name: LanzaTech jet-engine API
   slug: lanzatech-jet-engine-api
-- description: The media API from LanzaTech — 4 operation(s) for media.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The media API from LanzaTech — 4 operation(s) for media.
   name: LanzaTech media API
   slug: lanzatech-media-api
-- description: The menu-items API from LanzaTech — 4 operation(s) for menu-items.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The menu-items API from LanzaTech — 4 operation(s) for menu-items.
   name: LanzaTech menu-items API
   slug: lanzatech-menu-items-api
-- description: The menu-locations API from LanzaTech — 2 operation(s) for menu-locations.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The menu-locations API from LanzaTech — 2 operation(s) for menu-locations.
   name: LanzaTech menu-locations API
   slug: lanzatech-menu-locations-api
-- description: The menus API from LanzaTech — 2 operation(s) for menus.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The menus API from LanzaTech — 2 operation(s) for menus.
   name: LanzaTech menus API
   slug: lanzatech-menus-api
-- description: The navigation API from LanzaTech — 6 operation(s) for navigation.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The navigation API from LanzaTech — 6 operation(s) for navigation.
   name: LanzaTech navigation API
   slug: lanzatech-navigation-api
-- description: The news API from LanzaTech — 4 operation(s) for news.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The news API from LanzaTech — 4 operation(s) for news.
   name: LanzaTech news API
   slug: lanzatech-news-api
-- description: The pages API from LanzaTech — 6 operation(s) for pages.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The pages API from LanzaTech — 6 operation(s) for pages.
   name: LanzaTech pages API
   slug: lanzatech-pages-api
-- description: The pattern-directory API from LanzaTech — 1 operation(s) for pattern-directory.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The pattern-directory API from LanzaTech — 1 operation(s) for pattern-directory.
   name: LanzaTech pattern-directory API
   slug: lanzatech-pattern-directory-api
-- description: The plugins API from LanzaTech — 2 operation(s) for plugins.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The plugins API from LanzaTech — 2 operation(s) for plugins.
   name: LanzaTech plugins API
   slug: lanzatech-plugins-api
-- description: The posts API from LanzaTech — 6 operation(s) for posts.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The posts API from LanzaTech — 6 operation(s) for posts.
   name: LanzaTech posts API
   slug: lanzatech-posts-api
-- description: The search API from LanzaTech — 1 operation(s) for search.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The search API from LanzaTech — 1 operation(s) for search.
   name: LanzaTech search API
   slug: lanzatech-search-api
-- description: The settings API from LanzaTech — 1 operation(s) for settings.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The settings API from LanzaTech — 1 operation(s) for settings.
   name: LanzaTech settings API
   slug: lanzatech-settings-api
-- description: The sidebars API from LanzaTech — 2 operation(s) for sidebars.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The sidebars API from LanzaTech — 2 operation(s) for sidebars.
   name: LanzaTech sidebars API
   slug: lanzatech-sidebars-api
-- description: The statuses API from LanzaTech — 2 operation(s) for statuses.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The statuses API from LanzaTech — 2 operation(s) for statuses.
   name: LanzaTech statuses API
   slug: lanzatech-statuses-api
-- description: The tags API from LanzaTech — 2 operation(s) for tags.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The tags API from LanzaTech — 2 operation(s) for tags.
   name: LanzaTech tags API
   slug: lanzatech-tags-api
-- description: The taxonomies API from LanzaTech — 2 operation(s) for taxonomies.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from LanzaTech — 2 operation(s) for taxonomies.
   name: LanzaTech taxonomies API
   slug: lanzatech-taxonomies-api
-- description: The template-parts API from LanzaTech — 7 operation(s) for template-parts.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The template-parts API from LanzaTech — 7 operation(s) for template-parts.
   name: LanzaTech template-parts API
   slug: lanzatech-template-parts-api
-- description: The templates API from LanzaTech — 7 operation(s) for templates.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The templates API from LanzaTech — 7 operation(s) for templates.
   name: LanzaTech templates API
   slug: lanzatech-templates-api
-- description: The testimonial API from LanzaTech — 4 operation(s) for testimonial.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The testimonial API from LanzaTech — 4 operation(s) for testimonial.
   name: LanzaTech testimonial API
   slug: lanzatech-testimonial-api
-- description: The themes API from LanzaTech — 2 operation(s) for themes.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The themes API from LanzaTech — 2 operation(s) for themes.
   name: LanzaTech themes API
   slug: lanzatech-themes-api
-- description: The types API from LanzaTech — 2 operation(s) for types.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The types API from LanzaTech — 2 operation(s) for types.
   name: LanzaTech types API
   slug: lanzatech-types-api
-- description: The users API from LanzaTech — 6 operation(s) for users.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The users API from LanzaTech — 6 operation(s) for users.
   name: LanzaTech users API
   slug: lanzatech-users-api
-- description: The widget-types API from LanzaTech — 4 operation(s) for widget-types.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The widget-types API from LanzaTech — 4 operation(s) for widget-types.
   name: LanzaTech widget-types API
   slug: lanzatech-widget-types-api
-- description: The widgets API from LanzaTech — 2 operation(s) for widgets.
+- baseURL: https://lanzatech.com/wp-json
+  baseurl_source: declared
+  description: The widgets API from LanzaTech — 2 operation(s) for widgets.
   name: LanzaTech widgets API
   slug: lanzatech-widgets-api
 artifact_total: 77
@@ -394,7 +466,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -404,7 +476,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 32.8
+  previous_composite: 23.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -422,8 +494,8 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lanzatech/refs/heads/main/screenshots/lanzatech-2026-07-25T224527.png
 security:
 - kind: authentication

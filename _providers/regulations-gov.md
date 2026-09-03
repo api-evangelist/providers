@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Utilities to support submitting public comments
+- baseURL: https://api.regulations.gov
+  baseurl_source: declared
+  description: Utilities to support submitting public comments
   name: Regulations.gov comment submission utilities API
   slug: regulations-gov-comment-submission-utilities-api
-- description: Public comments submitted on regulatory documents
+- baseURL: https://api.regulations.gov
+  baseurl_source: declared
+  description: Public comments submitted on regulatory documents
   name: Regulations.gov comments API
   slug: regulations-gov-comments-api
-- description: Regulatory dockets grouping related documents
+- baseURL: https://api.regulations.gov
+  baseurl_source: declared
+  description: Regulatory dockets grouping related documents
   name: Regulations.gov dockets API
   slug: regulations-gov-dockets-api
-- description: Federal regulatory documents including notices, rules, and proposed rules
+- baseURL: https://api.regulations.gov
+  baseurl_source: declared
+  description: Federal regulatory documents including notices, rules, and proposed rules
   name: Regulations.gov documents API
   slug: regulations-gov-documents-api
 artifact_total: 24
@@ -226,7 +234,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/screenshots/regulations-gov-2026-06-20T192801.png
 security:

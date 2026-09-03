@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 68 operations · 24 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: Event-driven interface for consuming real-time CVP call lifecycle events, system alerts, device status changes, and operational notifications via JMS messaging and syslog.
+- baseURL: tcp://cvp-callserver.example.com:61616
+  baseurl_source: declared
+  description: Event-driven interface for consuming real-time CVP call lifecycle events, system alerts, device status changes, and operational notifications via JMS messaging and syslog.
   name: Cisco Voice Portal Call Events API
   slug: cisco-voice-portal-call-events-api
-- description: Configure VXML application runtime settings
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Configure VXML application runtime settings
   name: Cisco Voice Portal Application Configuration API
   slug: cisco-voice-portal-application-configuration-api
-- description: Deploy and manage VXML and Call Studio applications
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Deploy and manage VXML and Call Studio applications
   name: Cisco Voice Portal Application Management API
   slug: cisco-voice-portal-application-management-api
-- description: Access and query call detail records
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Access and query call detail records
   name: Cisco Voice Portal Call Detail Records API
   slug: cisco-voice-portal-call-detail-records-api
-- description: Manage and control active calls
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage and control active calls
   name: Cisco Voice Portal Call Management API
   slug: cisco-voice-portal-call-management-api
-- description: Call routing lookup and testing
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Call routing lookup and testing
   name: Cisco Voice Portal Call Routing API
   slug: cisco-voice-portal-call-routing-api
-- description: Configure and manage CVP Call Servers
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Configure and manage CVP Call Servers
   name: Cisco Voice Portal Call Server Management API
   slug: cisco-voice-portal-call-server-management-api
-- description: Deploy configuration to managed devices
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Deploy configuration to managed devices
   name: Cisco Voice Portal Deployment API
   slug: cisco-voice-portal-deployment-api
-- description: Manage CVP devices (Call Servers, VXML Servers, Reporting Servers)
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage CVP devices (Call Servers, VXML Servers, Reporting Servers)
   name: Cisco Voice Portal Device Management API
   slug: cisco-voice-portal-device-management-api
-- description: Manage call routing dialed number patterns
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage call routing dialed number patterns
   name: Cisco Voice Portal Dialed Number Patterns API
   slug: cisco-voice-portal-dialed-number-patterns-api
-- description: Manage speech recognition grammar files
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage speech recognition grammar files
   name: Cisco Voice Portal Grammar Management API
   slug: cisco-voice-portal-grammar-management-api
-- description: Call Server health and connectivity status
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Call Server health and connectivity status
   name: Cisco Voice Portal Health API
   slug: cisco-voice-portal-health-api
-- description: Aggregated historical reporting data
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Aggregated historical reporting data
   name: Cisco Voice Portal Historical Reports API
   slug: cisco-voice-portal-historical-reports-api
-- description: Manage audio media files and prompts
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage audio media files and prompts
   name: Cisco Voice Portal Media Management API
   slug: cisco-voice-portal-media-management-api
-- description: Manage built-in CVP micro-applications
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage built-in CVP micro-applications
   name: Cisco Voice Portal Micro-Applications API
   slug: cisco-voice-portal-micro-applications-api
-- description: Current call processing statistics
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Current call processing statistics
   name: Cisco Voice Portal Real-Time Statistics API
   slug: cisco-voice-portal-real-time-statistics-api
-- description: Execute pre-defined report templates
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Execute pre-defined report templates
   name: Cisco Voice Portal Report Templates API
   slug: cisco-voice-portal-report-templates-api
-- description: VXML Server status and monitoring
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: VXML Server status and monitoring
   name: Cisco Voice Portal Server Status API
   slug: cisco-voice-portal-server-status-api
-- description: Monitor active VXML call sessions
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Monitor active VXML call sessions
   name: Cisco Voice Portal Session Monitoring API
   slug: cisco-voice-portal-session-monitoring-api
-- description: Configure SIP server groups and settings
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Configure SIP server groups and settings
   name: Cisco Voice Portal SIP Configuration API
   slug: cisco-voice-portal-sip-configuration-api
-- description: Monitor SIP session details
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Monitor SIP session details
   name: Cisco Voice Portal SIP Sessions API
   slug: cisco-voice-portal-sip-sessions-api
-- description: Global system settings and licensing
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Global system settings and licensing
   name: Cisco Voice Portal System Configuration API
   slug: cisco-voice-portal-system-configuration-api
-- description: Manage OAMP user accounts
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Manage OAMP user accounts
   name: Cisco Voice Portal User Management API
   slug: cisco-voice-portal-user-management-api
-- description: Configure and manage CVP VXML Servers
+- baseURL: https://cvp-callserver.example.com:8000/cvp/rest
+  baseurl_source: declared
+  description: Configure and manage CVP VXML Servers
   name: Cisco Voice Portal VXML Server Management API
   slug: cisco-voice-portal-vxml-server-management-api
 artifact_total: 265
@@ -978,7 +1026,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 8.7
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -988,7 +1036,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 32.2
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -997,8 +1045,8 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:
 - kind: authentication

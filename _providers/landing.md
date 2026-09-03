@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The Public API from Landing — 9 operation(s) for public.
+- baseURL: https://www.hellolanding.com/api/public
+  baseurl_source: declared
+  description: The Public API from Landing — 9 operation(s) for public.
   name: Landing Public API
   slug: landing-public-api
 artifact_total: 7
@@ -219,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/screenshots/landing-2026-08-17T123950.png
 security:

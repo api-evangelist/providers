@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -53,106 +53,174 @@ apis:
 - description: 'The Manufacturing Data Model API exposes Fusion design and manufacturing data through a GraphQL interface, enabling cloud-based read and write access to component properties, Bill of Materials, model '
   name: Manufacturing Data Model API (Fusion Data API)
   slug: manufacturing-data-model-api
-- description: The Account Management API from Autodesk Fusion — 2 operation(s) for account management.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Account Management API from Autodesk Fusion — 2 operation(s) for account management.
   name: Autodesk Fusion Account Management API
   slug: autodesk-fusion-account-management-api
-- description: The Account Users API from Autodesk Fusion — 6 operation(s) for account users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Account Users API from Autodesk Fusion — 6 operation(s) for account users.
   name: Autodesk Fusion Account Users API
   slug: autodesk-fusion-account-users-api
-- description: Bucket related operations
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: Bucket related operations
   name: Autodesk Fusion Buckets API
   slug: autodesk-fusion-buckets-api
-- description: The Business Units API from Autodesk Fusion — 1 operation(s) for business units.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Business Units API from Autodesk Fusion — 1 operation(s) for business units.
   name: Autodesk Fusion Business Units API
   slug: autodesk-fusion-business-units-api
-- description: The Commands API from Autodesk Fusion — 1 operation(s) for commands.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Commands API from Autodesk Fusion — 1 operation(s) for commands.
   name: Autodesk Fusion Commands API
   slug: autodesk-fusion-commands-api
-- description: The Companies API from Autodesk Fusion — 7 operation(s) for companies.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Companies API from Autodesk Fusion — 7 operation(s) for companies.
   name: Autodesk Fusion Companies API
   slug: autodesk-fusion-companies-api
-- description: The Derivatives API from Autodesk Fusion — 2 operation(s) for derivatives.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Derivatives API from Autodesk Fusion — 2 operation(s) for derivatives.
   name: Autodesk Fusion Derivatives API
   slug: autodesk-fusion-derivatives-api
-- description: The Exchange Token API from Autodesk Fusion — 1 operation(s) for exchange token.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Exchange Token API from Autodesk Fusion — 1 operation(s) for exchange token.
   name: Autodesk Fusion Exchange Token API
   slug: autodesk-fusion-exchange-token-api
-- description: The Folders API from Autodesk Fusion — 8 operation(s) for folders.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Folders API from Autodesk Fusion — 8 operation(s) for folders.
   name: Autodesk Fusion Folders API
   slug: autodesk-fusion-folders-api
-- description: The Hooks API from Autodesk Fusion — 5 operation(s) for hooks.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Hooks API from Autodesk Fusion — 5 operation(s) for hooks.
   name: Autodesk Fusion Hooks API
   slug: autodesk-fusion-hooks-api
-- description: The Hubs API from Autodesk Fusion — 2 operation(s) for hubs.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Hubs API from Autodesk Fusion — 2 operation(s) for hubs.
   name: Autodesk Fusion Hubs API
   slug: autodesk-fusion-hubs-api
-- description: The Informational API from Autodesk Fusion — 1 operation(s) for informational.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Informational API from Autodesk Fusion — 1 operation(s) for informational.
   name: Autodesk Fusion Informational API
   slug: autodesk-fusion-informational-api
-- description: The Issue Attachments API from Autodesk Fusion — 3 operation(s) for issue attachments.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Attachments API from Autodesk Fusion — 3 operation(s) for issue attachments.
   name: Autodesk Fusion Issue Attachments API
   slug: autodesk-fusion-issue-attachments-api
-- description: The Issue Attribute Definitions API from Autodesk Fusion — 1 operation(s) for issue attribute definitions.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Attribute Definitions API from Autodesk Fusion — 1 operation(s) for issue attribute definitions.
   name: Autodesk Fusion Issue Attribute Definitions API
   slug: autodesk-fusion-issue-attribute-definitions-api
-- description: The Issue Attribute Mappings API from Autodesk Fusion — 1 operation(s) for issue attribute mappings.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Attribute Mappings API from Autodesk Fusion — 1 operation(s) for issue attribute mappings.
   name: Autodesk Fusion Issue Attribute Mappings API
   slug: autodesk-fusion-issue-attribute-mappings-api
-- description: The Issue Comments API from Autodesk Fusion — 1 operation(s) for issue comments.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Comments API from Autodesk Fusion — 1 operation(s) for issue comments.
   name: Autodesk Fusion Issue Comments API
   slug: autodesk-fusion-issue-comments-api
-- description: The Issue Root Cause Categories API from Autodesk Fusion — 1 operation(s) for issue root cause categories.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Root Cause Categories API from Autodesk Fusion — 1 operation(s) for issue root cause categories.
   name: Autodesk Fusion Issue Root Cause Categories API
   slug: autodesk-fusion-issue-root-cause-categories-api
-- description: The Issue Types API from Autodesk Fusion — 1 operation(s) for issue types.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Types API from Autodesk Fusion — 1 operation(s) for issue types.
   name: Autodesk Fusion Issue Types API
   slug: autodesk-fusion-issue-types-api
-- description: The Issues API from Autodesk Fusion — 2 operation(s) for issues.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issues API from Autodesk Fusion — 2 operation(s) for issues.
   name: Autodesk Fusion Issues API
   slug: autodesk-fusion-issues-api
-- description: The Issues Profile API from Autodesk Fusion — 1 operation(s) for issues profile.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issues Profile API from Autodesk Fusion — 1 operation(s) for issues profile.
   name: Autodesk Fusion Issues Profile API
   slug: autodesk-fusion-issues-profile-api
-- description: The Items API from Autodesk Fusion — 8 operation(s) for items.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Items API from Autodesk Fusion — 8 operation(s) for items.
   name: Autodesk Fusion Items API
   slug: autodesk-fusion-items-api
-- description: The Jobs API from Autodesk Fusion — 2 operation(s) for jobs.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Jobs API from Autodesk Fusion — 2 operation(s) for jobs.
   name: Autodesk Fusion Jobs API
   slug: autodesk-fusion-jobs-api
-- description: The Key Management API from Autodesk Fusion — 2 operation(s) for key management.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Key Management API from Autodesk Fusion — 2 operation(s) for key management.
   name: Autodesk Fusion Key Management API
   slug: autodesk-fusion-key-management-api
-- description: The Manifest API from Autodesk Fusion — 1 operation(s) for manifest.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Manifest API from Autodesk Fusion — 1 operation(s) for manifest.
   name: Autodesk Fusion Manifest API
   slug: autodesk-fusion-manifest-api
-- description: The Metadata API from Autodesk Fusion — 4 operation(s) for metadata.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Metadata API from Autodesk Fusion — 4 operation(s) for metadata.
   name: Autodesk Fusion Metadata API
   slug: autodesk-fusion-metadata-api
-- description: Object related operations
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: Object related operations
   name: Autodesk Fusion Objects API
   slug: autodesk-fusion-objects-api
-- description: The Project Users API from Autodesk Fusion — 3 operation(s) for project users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Project Users API from Autodesk Fusion — 3 operation(s) for project users.
   name: Autodesk Fusion Project Users API
   slug: autodesk-fusion-project-users-api
-- description: The Projects API from Autodesk Fusion — 11 operation(s) for projects.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Projects API from Autodesk Fusion — 11 operation(s) for projects.
   name: Autodesk Fusion Projects API
   slug: autodesk-fusion-projects-api
-- description: The Thumbnails API from Autodesk Fusion — 1 operation(s) for thumbnails.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Thumbnails API from Autodesk Fusion — 1 operation(s) for thumbnails.
   name: Autodesk Fusion Thumbnails API
   slug: autodesk-fusion-thumbnails-api
-- description: The Token API from Autodesk Fusion — 7 operation(s) for token.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Token API from Autodesk Fusion — 7 operation(s) for token.
   name: Autodesk Fusion Token API
   slug: autodesk-fusion-token-api
-- description: The Tokens API from Autodesk Fusion — 2 operation(s) for tokens.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Tokens API from Autodesk Fusion — 2 operation(s) for tokens.
   name: Autodesk Fusion Tokens API
   slug: autodesk-fusion-tokens-api
-- description: The User Projects API from Autodesk Fusion — 1 operation(s) for user projects.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The User Projects API from Autodesk Fusion — 1 operation(s) for user projects.
   name: Autodesk Fusion User Projects API
   slug: autodesk-fusion-user-projects-api
-- description: The Users API from Autodesk Fusion — 1 operation(s) for users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Users API from Autodesk Fusion — 1 operation(s) for users.
   name: Autodesk Fusion Users API
   slug: autodesk-fusion-users-api
-- description: The Versions API from Autodesk Fusion — 8 operation(s) for versions.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Versions API from Autodesk Fusion — 8 operation(s) for versions.
   name: Autodesk Fusion Versions API
   slug: autodesk-fusion-versions-api
 artifact_total: 80
@@ -404,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png
 security:

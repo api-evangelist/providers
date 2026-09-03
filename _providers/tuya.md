@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -56,19 +56,29 @@ apis:
 - description: The Tuya Industry API provides enterprise IoT capabilities for non-consumer deployments including industrial device registration, device management, status queries, device control, user management, an
   name: Tuya Industry API
   slug: industry
-- description: Control and command IoT devices
+- baseURL: https://openapi.tuyaus.com
+  baseurl_source: declared
+  description: Control and command IoT devices
   name: Tuya Device Control API
   slug: tuya-device-control-api
-- description: Query device operation and event logs
+- baseURL: https://openapi.tuyaus.com
+  baseurl_source: declared
+  description: Query device operation and event logs
   name: Tuya Device Logs API
   slug: tuya-device-logs-api
-- description: Manage user associations with devices
+- baseURL: https://openapi.tuyaus.com
+  baseurl_source: declared
+  description: Manage user associations with devices
   name: Tuya Device Users API
   slug: tuya-device-users-api
-- description: Query and manage IoT device information
+- baseURL: https://openapi.tuyaus.com
+  baseurl_source: declared
+  description: Query and manage IoT device information
   name: Tuya Devices API
   slug: tuya-devices-api
-- description: Manage gateway sub-devices
+- baseURL: https://openapi.tuyaus.com
+  baseurl_source: declared
+  description: Manage gateway sub-devices
   name: Tuya Sub Devices API
   slug: tuya-sub-devices-api
 artifact_total: 32
@@ -287,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuya/refs/heads/main/screenshots/tuya-2026-06-20T195841.png
 security:

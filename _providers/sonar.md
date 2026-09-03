@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: REST API for interacting with SonarQube Server, enabling management of projects, quality gates, issues, rules, users, and CI/CD integrations. Uses token-based authentication.
   name: SonarQube Web API
   slug: sonarqube-web-api
-- description: Code issue search and management
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: spec
+  description: Code issue search and management
   name: Sonar Issues API
   slug: sonar-issues-api
-- description: Component metrics and measurement data
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: spec
+  description: Component metrics and measurement data
   name: Sonar Measures API
   slug: sonar-measures-api
-- description: Organization management and discovery
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: spec
+  description: Organization management and discovery
   name: Sonar Organizations API
   slug: sonar-organizations-api
-- description: Project search and management within organizations
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: spec
+  description: Project search and management within organizations
   name: Sonar Projects API
   slug: sonar-projects-api
-- description: Quality gate configuration and status
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: spec
+  description: Quality gate configuration and status
   name: Sonar Quality Gates API
   slug: sonar-quality-gates-api
-- description: API token generation and management
+- baseURL: https://sonarcloud.io/api
+  baseurl_source: spec
+  description: API token generation and management
   name: Sonar User Tokens API
   slug: sonar-user-tokens-api
 artifact_total: 36
@@ -277,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/screenshots/sonar-2026-06-20T194158.png
 security:

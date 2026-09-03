@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 28 operations · 10 acting
 api_count: 1
 apis:
-- description: The Connectors API from Census — 2 operation(s) for connectors.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Connectors API from Census — 2 operation(s) for connectors.
   name: Census Connectors API
   slug: census-ci-connectors-api
-- description: The Datasets and Models API from Census — 3 operation(s) for datasets and models.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Datasets and Models API from Census — 3 operation(s) for datasets and models.
   name: Census Datasets and Models API
   slug: census-ci-datasets-and-models-api
-- description: The Destinations API from Census — 3 operation(s) for destinations.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Destinations API from Census — 3 operation(s) for destinations.
   name: Census Destinations API
   slug: census-ci-destinations-api
-- description: The Segments API from Census — 2 operation(s) for segments.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Segments API from Census — 2 operation(s) for segments.
   name: Census Segments API
   slug: census-ci-segments-api
-- description: The Sources API from Census — 3 operation(s) for sources.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Sources API from Census — 3 operation(s) for sources.
   name: Census Sources API
   slug: census-ci-sources-api
-- description: The Sync Runs API from Census — 3 operation(s) for sync runs.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Sync Runs API from Census — 3 operation(s) for sync runs.
   name: Census Sync Runs API
   slug: census-ci-sync-runs-api
-- description: The Syncs API from Census — 3 operation(s) for syncs.
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: The Syncs API from Census — 3 operation(s) for syncs.
   name: Census Syncs API
   slug: census-ci-syncs-api
 artifact_total: 23
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/screenshots/census-ci-2026-07-25T204919.png
 security:

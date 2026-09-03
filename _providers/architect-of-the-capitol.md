@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Accessibility API from Architect of the Capitol — 1 operation(s) for accessibility.
+- baseURL: https://api.aoc.gov/v1
+  baseurl_source: spec
+  description: The Accessibility API from Architect of the Capitol — 1 operation(s) for accessibility.
   name: Architect of the Capitol Accessibility API
   slug: architect-of-the-capitol-accessibility-api
-- description: The Art Collection API from Architect of the Capitol — 2 operation(s) for art collection.
+- baseURL: https://api.aoc.gov/v1
+  baseurl_source: spec
+  description: The Art Collection API from Architect of the Capitol — 2 operation(s) for art collection.
   name: Architect of the Capitol Art Collection API
   slug: architect-of-the-capitol-art-collection-api
-- description: The Buildings API from Architect of the Capitol — 2 operation(s) for buildings.
+- baseURL: https://api.aoc.gov/v1
+  baseurl_source: spec
+  description: The Buildings API from Architect of the Capitol — 2 operation(s) for buildings.
   name: Architect of the Capitol Buildings API
   slug: architect-of-the-capitol-buildings-api
-- description: The Preservation API from Architect of the Capitol — 2 operation(s) for preservation.
+- baseURL: https://api.aoc.gov/v1
+  baseurl_source: spec
+  description: The Preservation API from Architect of the Capitol — 2 operation(s) for preservation.
   name: Architect of the Capitol Preservation API
   slug: architect-of-the-capitol-preservation-api
-- description: The Visitor Information API from Architect of the Capitol — 1 operation(s) for visitor information.
+- baseURL: https://api.aoc.gov/v1
+  baseurl_source: spec
+  description: The Visitor Information API from Architect of the Capitol — 1 operation(s) for visitor information.
   name: Architect of the Capitol Visitor Information API
   slug: architect-of-the-capitol-visitor-information-api
 artifact_total: 56
@@ -308,7 +318,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/screenshots/architect-of-the-capitol-2026-06-20T172408.png
 security:

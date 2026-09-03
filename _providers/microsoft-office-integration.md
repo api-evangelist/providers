@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 2 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The CurrentStatus API from Microsoft Office Integration — 1 operation(s) for currentstatus.
+- baseURL_template: https://manage.office.com/api/v1.0/{tenantId}/activity/feed
+  baseurl_source: spec_template
+  description: The CurrentStatus API from Microsoft Office Integration — 1 operation(s) for currentstatus.
   name: Microsoft Office Integration CurrentStatus API
   slug: microsoft-office-integration-currentstatus-api
-- description: The HistoricalStatus API from Microsoft Office Integration — 1 operation(s) for historicalstatus.
+- baseURL_template: https://manage.office.com/api/v1.0/{tenantId}/activity/feed
+  baseurl_source: spec_template
+  description: The HistoricalStatus API from Microsoft Office Integration — 1 operation(s) for historicalstatus.
   name: Microsoft Office Integration HistoricalStatus API
   slug: microsoft-office-integration-historicalstatus-api
-- description: The Messages API from Microsoft Office Integration — 1 operation(s) for messages.
+- baseURL_template: https://manage.office.com/api/v1.0/{tenantId}/activity/feed
+  baseurl_source: spec_template
+  description: The Messages API from Microsoft Office Integration — 1 operation(s) for messages.
   name: Microsoft Office Integration Messages API
   slug: microsoft-office-integration-messages-api
-- description: The Resources API from Microsoft Office Integration — 1 operation(s) for resources.
+- baseURL_template: https://manage.office.com/api/v1.0/{tenantId}/activity/feed
+  baseurl_source: spec_template
+  description: The Resources API from Microsoft Office Integration — 1 operation(s) for resources.
   name: Microsoft Office Integration Resources API
   slug: microsoft-office-integration-resources-api
-- description: The Services API from Microsoft Office Integration — 1 operation(s) for services.
+- baseURL_template: https://manage.office.com/api/v1.0/{tenantId}/activity/feed
+  baseurl_source: spec_template
+  description: The Services API from Microsoft Office Integration — 1 operation(s) for services.
   name: Microsoft Office Integration Services API
   slug: microsoft-office-integration-services-api
-- description: The Subscriptions API from Microsoft Office Integration — 5 operation(s) for subscriptions.
+- baseURL_template: https://manage.office.com/api/v1.0/{tenantId}/activity/feed
+  baseurl_source: spec_template
+  description: The Subscriptions API from Microsoft Office Integration — 5 operation(s) for subscriptions.
   name: Microsoft Office Integration Subscriptions API
   slug: microsoft-office-integration-subscriptions-api
 artifact_total: 30
@@ -218,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-integration/refs/heads/main/screenshots/microsoft-office-integration-2026-06-20T185512.png
 security:

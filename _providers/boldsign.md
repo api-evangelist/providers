@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 85 operations · 60 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Branding API from BoldSign — 6 operation(s) for branding.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Branding API from BoldSign — 6 operation(s) for branding.
   name: BoldSign Branding API
   slug: boldsign-branding-api
-- description: The Contacts API from BoldSign — 5 operation(s) for contacts.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Contacts API from BoldSign — 5 operation(s) for contacts.
   name: BoldSign Contacts API
   slug: boldsign-contacts-api
-- description: The Custom Field API from BoldSign — 5 operation(s) for custom field.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Custom Field API from BoldSign — 5 operation(s) for custom field.
   name: BoldSign Custom Field API
   slug: boldsign-custom-field-api
-- description: The Document API from BoldSign — 25 operation(s) for document.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Document API from BoldSign — 25 operation(s) for document.
   name: BoldSign Document API
   slug: boldsign-document-api
-- description: The GroupContacts API from BoldSign — 5 operation(s) for groupcontacts.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The GroupContacts API from BoldSign — 5 operation(s) for groupcontacts.
   name: BoldSign GroupContacts API
   slug: boldsign-groupcontacts-api
-- description: The Identity Verification API from BoldSign — 3 operation(s) for identity verification.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Identity Verification API from BoldSign — 3 operation(s) for identity verification.
   name: BoldSign Identity Verification API
   slug: boldsign-identity-verification-api
-- description: The Plan API from BoldSign — 1 operation(s) for plan.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Plan API from BoldSign — 1 operation(s) for plan.
   name: BoldSign Plan API
   slug: boldsign-plan-api
-- description: The Sender Identities API from BoldSign — 7 operation(s) for sender identities.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Sender Identities API from BoldSign — 7 operation(s) for sender identities.
   name: BoldSign Sender Identities API
   slug: boldsign-sender-identities-api
-- description: The Teams API from BoldSign — 4 operation(s) for teams.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Teams API from BoldSign — 4 operation(s) for teams.
   name: BoldSign Teams API
   slug: boldsign-teams-api
-- description: The Template API from BoldSign — 16 operation(s) for template.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The Template API from BoldSign — 16 operation(s) for template.
   name: BoldSign Template API
   slug: boldsign-template-api
-- description: The User API from BoldSign — 8 operation(s) for user.
+- baseURL: https://api.boldsign.com
+  baseurl_source: declared
+  description: The User API from BoldSign — 8 operation(s) for user.
   name: BoldSign User API
   slug: boldsign-user-api
 artifact_total: 36
@@ -264,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png
 security:

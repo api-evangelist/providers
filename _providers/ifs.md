@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: IFS Enterprise Service Management APIs enable IT service management, service catalog, incident management, and CMDB integration for enterprise IT and shared service organizations using the IFS Cloud p
   name: IFS Enterprise Service Management API
   slug: ifs-enterprise-service-management-api
-- description: General ledger, vouchers, and financial entities
+- baseURL: https://api.ifs.com
+  baseurl_source: declared
+  description: General ledger, vouchers, and financial entities
   name: IFS Finance API
   slug: ifs-finance-api
-- description: Parts and inventory management
+- baseURL: https://api.ifs.com
+  baseurl_source: declared
+  description: Parts and inventory management
   name: IFS Inventory API
   slug: ifs-inventory-api
-- description: Purchase orders and supplier management
+- baseURL: https://api.ifs.com
+  baseurl_source: declared
+  description: Purchase orders and supplier management
   name: IFS Procurement API
   slug: ifs-procurement-api
-- description: Maintenance work orders and job management
+- baseURL: https://api.ifs.com
+  baseurl_source: declared
+  description: Maintenance work orders and job management
   name: IFS Work Orders API
   slug: ifs-work-orders-api
 artifact_total: 23
@@ -194,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png
 security:

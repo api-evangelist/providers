@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 39 operations · 17 acting
 api_count: 1
 apis:
-- description: The Balance API from DataCrunch — 1 operation(s) for balance.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Balance API from DataCrunch — 1 operation(s) for balance.
   name: DataCrunch Balance API
   slug: datacrunch-balance-api
-- description: The Images API from DataCrunch — 2 operation(s) for images.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Images API from DataCrunch — 2 operation(s) for images.
   name: DataCrunch Images API
   slug: datacrunch-images-api
-- description: The Instance Availability API from DataCrunch — 2 operation(s) for instance availability.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Instance Availability API from DataCrunch — 2 operation(s) for instance availability.
   name: DataCrunch Instance Availability API
   slug: datacrunch-instance-availability-api
-- description: The Instance Types API from DataCrunch — 1 operation(s) for instance types.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Instance Types API from DataCrunch — 1 operation(s) for instance types.
   name: DataCrunch Instance Types API
   slug: datacrunch-instance-types-api
-- description: The Instances API from DataCrunch — 2 operation(s) for instances.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Instances API from DataCrunch — 2 operation(s) for instances.
   name: DataCrunch Instances API
   slug: datacrunch-instances-api
-- description: The Locations API from DataCrunch — 1 operation(s) for locations.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Locations API from DataCrunch — 1 operation(s) for locations.
   name: DataCrunch Locations API
   slug: datacrunch-locations-api
-- description: The OAuth API from DataCrunch — 1 operation(s) for oauth.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The OAuth API from DataCrunch — 1 operation(s) for oauth.
   name: DataCrunch OAuth API
   slug: datacrunch-oauth-api
-- description: The Serverless Containers API from DataCrunch — 8 operation(s) for serverless containers.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Serverless Containers API from DataCrunch — 8 operation(s) for serverless containers.
   name: DataCrunch Serverless Containers API
   slug: datacrunch-serverless-containers-api
-- description: The SSH Keys API from DataCrunch — 2 operation(s) for ssh keys.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The SSH Keys API from DataCrunch — 2 operation(s) for ssh keys.
   name: DataCrunch SSH Keys API
   slug: datacrunch-ssh-keys-api
-- description: The Startup Scripts API from DataCrunch — 2 operation(s) for startup scripts.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Startup Scripts API from DataCrunch — 2 operation(s) for startup scripts.
   name: DataCrunch Startup Scripts API
   slug: datacrunch-startup-scripts-api
-- description: The Volumes API from DataCrunch — 4 operation(s) for volumes.
+- baseURL: https://api.datacrunch.io/v1
+  baseurl_source: declared
+  description: The Volumes API from DataCrunch — 4 operation(s) for volumes.
   name: DataCrunch Volumes API
   slug: datacrunch-volumes-api
 artifact_total: 31
@@ -219,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/screenshots/datacrunch-2026-07-25T211313.png
 security:

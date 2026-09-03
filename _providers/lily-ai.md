@@ -32,67 +32,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Auth API from Lily AI — 5 operation(s) for auth.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Auth API from Lily AI — 5 operation(s) for auth.
   name: Lily AI Auth API
   slug: lily-ai-auth-api
-- description: The Batch API from Lily AI — 1 operation(s) for batch.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Batch API from Lily AI — 1 operation(s) for batch.
   name: Lily AI Batch API
   slug: lily-ai-batch-api
-- description: The Config API from Lily AI — 6 operation(s) for config.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Config API from Lily AI — 6 operation(s) for config.
   name: Lily AI Config API
   slug: lily-ai-config-api
-- description: The Enrichment Platform Proxy API from Lily AI — 1 operation(s) for enrichment platform proxy.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Enrichment Platform Proxy API from Lily AI — 1 operation(s) for enrichment platform proxy.
   name: Lily AI Enrichment Platform Proxy API
   slug: lily-ai-enrichment-platform-proxy-api
-- description: The Faqs API from Lily AI — 1 operation(s) for faqs.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Faqs API from Lily AI — 1 operation(s) for faqs.
   name: Lily AI Faqs API
   slug: lily-ai-faqs-api
-- description: The Health API from Lily AI — 1 operation(s) for health.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Health API from Lily AI — 1 operation(s) for health.
   name: Lily AI Health API
   slug: lily-ai-health-api
-- description: The Integration API from Lily AI — 2 operation(s) for integration.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Integration API from Lily AI — 2 operation(s) for integration.
   name: Lily AI Integration API
   slug: lily-ai-integration-api
-- description: The LilyApp API Nest Based Application API from Lily AI — 1 operation(s) for lilyapp api nest based application.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The LilyApp API Nest Based Application API from Lily AI — 1 operation(s) for lilyapp api nest based application.
   name: Lily AI LilyApp API Nest Based Application API
   slug: lily-ai-lilyapp-api-nest-based-application-api
-- description: The Metrics API from Lily AI — 1 operation(s) for metrics.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Metrics API from Lily AI — 1 operation(s) for metrics.
   name: Lily AI Metrics API
   slug: lily-ai-metrics-api
-- description: The Mock Data API from Lily AI — 7 operation(s) for mock data.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Mock Data API from Lily AI — 7 operation(s) for mock data.
   name: Lily AI Mock Data API
   slug: lily-ai-mock-data-api
-- description: The Pi Api Proxy API from Lily AI — 1 operation(s) for pi api proxy.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Pi Api Proxy API from Lily AI — 1 operation(s) for pi api proxy.
   name: Lily AI Pi Api Proxy API
   slug: lily-ai-pi-api-proxy-api
-- description: The Pi Config Proxy API from Lily AI — 1 operation(s) for pi config proxy.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Pi Config Proxy API from Lily AI — 1 operation(s) for pi config proxy.
   name: Lily AI Pi Config Proxy API
   slug: lily-ai-pi-config-proxy-api
-- description: The Pi Connector Proxy API from Lily AI — 1 operation(s) for pi connector proxy.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Pi Connector Proxy API from Lily AI — 1 operation(s) for pi connector proxy.
   name: Lily AI Pi Connector Proxy API
   slug: lily-ai-pi-connector-proxy-api
-- description: The Productcopy API from Lily AI — 11 operation(s) for productcopy.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Productcopy API from Lily AI — 11 operation(s) for productcopy.
   name: Lily AI Productcopy API
   slug: lily-ai-productcopy-api
-- description: The ProductcopyV2 API from Lily AI — 6 operation(s) for productcopyv2.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The ProductcopyV2 API from Lily AI — 6 operation(s) for productcopyv2.
   name: Lily AI Productcopy V2 API
   slug: lily-ai-productcopyv2-api
-- description: The Products API from Lily AI — 1 operation(s) for products.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Products API from Lily AI — 1 operation(s) for products.
   name: Lily AI Products API
   slug: lily-ai-products-api
-- description: The Search API from Lily AI — 11 operation(s) for search.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Search API from Lily AI — 11 operation(s) for search.
   name: Lily AI Search API
   slug: lily-ai-search-api
-- description: The Subsidiary API from Lily AI — 2 operation(s) for subsidiary.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Subsidiary API from Lily AI — 2 operation(s) for subsidiary.
   name: Lily AI Subsidiary API
   slug: lily-ai-subsidiary-api
-- description: The Superset API from Lily AI — 2 operation(s) for superset.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Superset API from Lily AI — 2 operation(s) for superset.
   name: Lily AI Superset API
   slug: lily-ai-superset-api
-- description: The Tce Api Proxy API from Lily AI — 1 operation(s) for tce api proxy.
+- baseURL: https://lilyapp-api-prd.pub.lilyai.net
+  baseurl_source: declared
+  description: The Tce Api Proxy API from Lily AI — 1 operation(s) for tce api proxy.
   name: Lily AI Tce Api Proxy API
   slug: lily-ai-tce-api-proxy-api
 artifact_total: 26
@@ -248,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/screenshots/lily-ai-2026-07-25T225157.png
 security:

@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
-- description: Post categories.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Post categories.
   name: EDDA Technology categories API
   slug: edda-categories-api
-- description: Approved comments.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Approved comments.
   name: EDDA Technology comments API
   slug: edda-comments-api
-- description: The embed API from EDDA Technology — 1 operation(s) for embed.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: The embed API from EDDA Technology — 1 operation(s) for embed.
   name: EDDA Technology embed API
   slug: edda-embed-api
-- description: Images, manuals and video assets.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Images, manuals and video assets.
   name: EDDA Technology media API
   slug: edda-media-api
-- description: Product, company and event pages.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Product, company and event pages.
   name: EDDA Technology pages API
   slug: edda-pages-api
-- description: Press releases and news announcements.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Press releases and news announcements.
   name: EDDA Technology posts API
   slug: edda-posts-api
-- description: Cross-content search.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search.
   name: EDDA Technology search API
   slug: edda-search-api
-- description: Post statuses.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Post statuses.
   name: EDDA Technology statuses API
   slug: edda-statuses-api
-- description: Post tags.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Post tags.
   name: EDDA Technology tags API
   slug: edda-tags-api
-- description: Registered taxonomies.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Registered taxonomies.
   name: EDDA Technology taxonomies API
   slug: edda-taxonomies-api
-- description: Registered content types.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Registered content types.
   name: EDDA Technology types API
   slug: edda-types-api
-- description: Public post authors.
+- baseURL: https://www.eddatech.com/wp-json
+  baseurl_source: declared
+  description: Public post authors.
   name: EDDA Technology users API
   slug: edda-users-api
 artifact_total: 29
@@ -258,7 +282,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/screenshots/edda-2026-07-25T212816.png
 security:

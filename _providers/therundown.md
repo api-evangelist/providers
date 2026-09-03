@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 60 operations
 api_count: 1
 apis:
-- description: Delta/change feeds (V1 legacy)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Delta/change feeds (V1 legacy)
   name: The Rundown V1 Delta API
   slug: therundown-v1-delta-api
-- description: Events with line-based odds (V1 legacy)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Events with line-based odds (V1 legacy)
   name: The Rundown V1 Events API
   slug: therundown-v1-events-api
-- description: Moneyline, spread, total, best-line endpoints (V1 legacy)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Moneyline, spread, total, best-line endpoints (V1 legacy)
   name: The Rundown V1 Lines API
   slug: therundown-v1-lines-api
-- description: Reference data (V1 legacy)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Reference data (V1 legacy)
   name: The Rundown V1 Reference API
   slug: therundown-v1-reference-api
-- description: Sport listings, dates, events, schedules (V1 legacy)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Sport listings, dates, events, schedules (V1 legacy)
   name: The Rundown V1 Sports API
   slug: therundown-v1-sports-api
-- description: Real-time streaming via WebSocket (V1 legacy)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Real-time streaming via WebSocket (V1 legacy)
   name: The Rundown V1 WebSocket API
   slug: therundown-v1-websocket-api
-- description: Events with market-based odds (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Events with market-based odds (V2)
   name: The Rundown V2 Events API
   slug: therundown-v2-events-api
-- description: Market definitions, odds, deltas, and history (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Market definitions, odds, deltas, and history (V2)
   name: The Rundown V2 Markets API
   slug: therundown-v2-markets-api
-- description: Player data (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Player data (V2)
   name: The Rundown V2 Players API
   slug: therundown-v2-players-api
-- description: Reference data — affiliates, sportsbooks, season types (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Reference data — affiliates, sportsbooks, season types (V2)
   name: The Rundown V2 Reference API
   slug: therundown-v2-reference-api
-- description: Sport listings, dates, and teams (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Sport listings, dates, and teams (V2)
   name: The Rundown V2 Sports API
   slug: therundown-v2-sports-api
-- description: Team and player statistics (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Team and player statistics (V2)
   name: The Rundown V2 Stats API
   slug: therundown-v2-stats-api
-- description: Team data, players, and stats (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Team data, players, and stats (V2)
   name: The Rundown V2 Teams API
   slug: therundown-v2-teams-api
-- description: Real-time streaming via WebSocket (V2)
+- baseURL: https://therundown.io/api/v2
+  baseurl_source: declared
+  description: Real-time streaming via WebSocket (V2)
   name: The Rundown V2 WebSocket API
   slug: therundown-v2-websocket-api
 artifact_total: 102
@@ -466,7 +494,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/screenshots/therundown-2026-06-20T195255.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,7 +79,9 @@ apis:
 - description: Token bridges and cross-chain messaging integrations for moving assets between Ethereum, other chains, and Monad.
   name: Monad Bridges
   slug: bridges
-- description: The Monad JSON RPC API API from Monad — 1 operation(s) for monad json rpc api.
+- baseURL: https://rpc.monad.xyz
+  baseurl_source: declared
+  description: The Monad JSON RPC API API from Monad — 1 operation(s) for monad json rpc api.
   name: Monad Monad JSON RPC API API
   slug: monad-monad-json-rpc-api-api
 artifact_total: 22
@@ -222,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/screenshots/monad-2026-06-20T185714.png
 security:

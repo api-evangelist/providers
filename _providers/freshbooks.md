@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -49,37 +49,59 @@ apis:
 - description: Event delivery surface for the FreshBooks Callbacks API. Subscribers register an HTTPS endpoint, complete a verifier handshake, and then receive HMAC-SHA256 signed POSTs (application/x-www-form-urlenc
   name: FreshBooks Webhooks (Callbacks API)
   slug: freshbooks-webhooks
-- description: The Auth API from FreshBooks — 1 operation(s) for auth.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Auth API from FreshBooks — 1 operation(s) for auth.
   name: FreshBooks Auth API
   slug: freshbooks-auth-api
-- description: The Clients API from FreshBooks — 2 operation(s) for clients.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Clients API from FreshBooks — 2 operation(s) for clients.
   name: FreshBooks Clients API
   slug: freshbooks-clients-api
-- description: The Estimates API from FreshBooks — 1 operation(s) for estimates.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Estimates API from FreshBooks — 1 operation(s) for estimates.
   name: FreshBooks Estimates API
   slug: freshbooks-estimates-api
-- description: The Expenses API from FreshBooks — 2 operation(s) for expenses.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Expenses API from FreshBooks — 2 operation(s) for expenses.
   name: FreshBooks Expenses API
   slug: freshbooks-expenses-api
-- description: The Invoices API from FreshBooks — 2 operation(s) for invoices.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Invoices API from FreshBooks — 2 operation(s) for invoices.
   name: FreshBooks Invoices API
   slug: freshbooks-invoices-api
-- description: The Items API from FreshBooks — 1 operation(s) for items.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Items API from FreshBooks — 1 operation(s) for items.
   name: FreshBooks Items API
   slug: freshbooks-items-api
-- description: The Payments API from FreshBooks — 1 operation(s) for payments.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Payments API from FreshBooks — 1 operation(s) for payments.
   name: FreshBooks Payments API
   slug: freshbooks-payments-api
-- description: The Projects API from FreshBooks — 1 operation(s) for projects.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Projects API from FreshBooks — 1 operation(s) for projects.
   name: FreshBooks Projects API
   slug: freshbooks-projects-api
-- description: The Tasks API from FreshBooks — 1 operation(s) for tasks.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Tasks API from FreshBooks — 1 operation(s) for tasks.
   name: FreshBooks Tasks API
   slug: freshbooks-tasks-api
-- description: The Taxes API from FreshBooks — 1 operation(s) for taxes.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The Taxes API from FreshBooks — 1 operation(s) for taxes.
   name: FreshBooks Taxes API
   slug: freshbooks-taxes-api
-- description: The TimeEntries API from FreshBooks — 1 operation(s) for timeentries.
+- baseURL: https://api.freshbooks.com
+  baseurl_source: declared
+  description: The TimeEntries API from FreshBooks — 1 operation(s) for timeentries.
   name: FreshBooks TimeEntries API
   slug: freshbooks-timeentries-api
 artifact_total: 31
@@ -216,7 +238,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -226,7 +248,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 33.1
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -235,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/screenshots/freshbooks-2026-06-20T181538.png
 security:

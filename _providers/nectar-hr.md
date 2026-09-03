@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: The Analytics API from Nectar — 1 operation(s) for analytics.
+- baseURL: https://api.nectarhr.com
+  baseurl_source: declared
+  description: The Analytics API from Nectar — 1 operation(s) for analytics.
   name: Nectar Analytics API
   slug: nectar-hr-analytics-api
-- description: The Custom Awards API from Nectar — 2 operation(s) for custom awards.
+- baseURL: https://api.nectarhr.com
+  baseurl_source: declared
+  description: The Custom Awards API from Nectar — 2 operation(s) for custom awards.
   name: Nectar Custom Awards API
   slug: nectar-hr-custom-awards-api
-- description: The Flows API from Nectar — 1 operation(s) for flows.
+- baseURL: https://api.nectarhr.com
+  baseurl_source: declared
+  description: The Flows API from Nectar — 1 operation(s) for flows.
   name: Nectar Flows API
   slug: nectar-hr-flows-api
-- description: The Health API from Nectar — 1 operation(s) for health.
+- baseURL: https://api.nectarhr.com
+  baseurl_source: declared
+  description: The Health API from Nectar — 1 operation(s) for health.
   name: Nectar Health API
   slug: nectar-hr-health-api
-- description: The Recognition API from Nectar — 1 operation(s) for recognition.
+- baseURL: https://api.nectarhr.com
+  baseurl_source: declared
+  description: The Recognition API from Nectar — 1 operation(s) for recognition.
   name: Nectar Recognition API
   slug: nectar-hr-recognition-api
-- description: The Users API from Nectar — 2 operation(s) for users.
+- baseURL: https://api.nectarhr.com
+  baseurl_source: declared
+  description: The Users API from Nectar — 2 operation(s) for users.
   name: Nectar Users API
   slug: nectar-hr-users-api
 artifact_total: 21
@@ -182,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nectar-hr/refs/heads/main/screenshots/nectar-hr-2026-08-07T184814.png
 security:

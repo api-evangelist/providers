@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,16 +45,24 @@ agentic_access:
   summary_line: 26 operations · 9 acting
 api_count: 1
 apis:
-- description: Morning Consult's AI backed by survey data responses.
+- baseURL: https://api.morningconsult.com/v1
+  baseurl_source: declared
+  description: Morning Consult's AI backed by survey data responses.
   name: Morning Consult AI API
   slug: morning-consult-ai-api
-- description: Authentication related operations.
+- baseURL: https://api.morningconsult.com/v1
+  baseurl_source: declared
+  description: Authentication related operations.
   name: Morning Consult Authentication API
   slug: morning-consult-authentication-api
-- description: Syndicated tracking survey data data responses.
+- baseURL: https://api.morningconsult.com/v1
+  baseurl_source: declared
+  description: Syndicated tracking survey data data responses.
   name: Morning Consult Data API
   slug: morning-consult-data-api
-- description: Metadata information related to syndicated surveys.
+- baseURL: https://api.morningconsult.com/v1
+  baseurl_source: declared
+  description: Metadata information related to syndicated surveys.
   name: Morning Consult Lookup API
   slug: morning-consult-lookup-api
 arazzos:
@@ -244,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Mintlify is a developer documentation platform that helps product and engineering teams create, maintain, and host modern docs. It uses a docs‑as‑code workflow (Markdown in your repo) with a rich comp
   name: Mintlify
   slug: mintlify
-- description: Programmatic documentation editing via AI agent jobs.
+- baseURL: https://api.mintlify.com
+  baseurl_source: spec
+  description: Programmatic documentation editing via AI agent jobs.
   name: Mintlify Agent API
   slug: mintlify-agent-api
-- description: Export user feedback, conversations, and usage analytics.
+- baseURL: https://api.mintlify.com
+  baseurl_source: spec
+  description: Export user feedback, conversations, and usage analytics.
   name: Mintlify Analytics API
   slug: mintlify-analytics-api
-- description: Embeddable AI chat experience grounded in your documentation.
+- baseURL: https://api.mintlify.com
+  baseurl_source: spec
+  description: Embeddable AI chat experience grounded in your documentation.
   name: Mintlify Assistant API
   slug: mintlify-assistant-api
-- description: Trigger and monitor documentation deployment updates.
+- baseURL: https://api.mintlify.com
+  baseurl_source: spec
+  description: Trigger and monitor documentation deployment updates.
   name: Mintlify Update API
   slug: mintlify-update-api
 artifact_total: 31
@@ -321,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/screenshots/mintlify-2026-06-20T185606.png
 security:

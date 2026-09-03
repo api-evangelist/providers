@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: The Exposure Investigations API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for exposure investigations.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The Exposure Investigations API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for exposure investigations.
   name: Agency for Toxic Substances and Disease Registry Exposure Investigations API
   slug: agency-for-toxic-substances-and-disease-registry-exposure-investigations-api
-- description: The Minimum Risk Levels API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for minimum risk levels.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The Minimum Risk Levels API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for minimum risk levels.
   name: Agency for Toxic Substances and Disease Registry Minimum Risk Levels API
   slug: agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api
-- description: The Substance Priority List API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for substance priority list.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The Substance Priority List API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for substance priority list.
   name: Agency for Toxic Substances and Disease Registry Substance Priority List API
   slug: agency-for-toxic-substances-and-disease-registry-substance-priority-list-api
-- description: The Toxicological Profiles API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for toxicological profiles.
+- baseURL: https://data.cdc.gov/resource
+  baseurl_source: declared
+  description: The Toxicological Profiles API from Agency for Toxic Substances and Disease Registry — 1 operation(s) for toxicological profiles.
   name: Agency for Toxic Substances and Disease Registry Toxicological Profiles API
   slug: agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api
 artifact_total: 30
@@ -263,7 +271,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/screenshots/agency-for-toxic-substances-and-disease-registry-2026-06-20T165830.png
 security:

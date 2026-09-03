@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -33,16 +46,24 @@ agentic_access:
   summary_line: 17 operations · 5 acting
 api_count: 2
 apis:
-- description: The device API from Autoderm – AI Dermatology API — 1 operation(s) for device.
+- baseURL: https://api.autoderm.ai
+  baseurl_source: declared
+  description: The device API from Autoderm – AI Dermatology API — 1 operation(s) for device.
   name: Autoderm – AI Dermatology API Device API
   slug: autoderm-ai-dermatology-api-device-api
-- description: The inference API from Autoderm – AI Dermatology API — 5 operation(s) for inference.
+- baseURL: https://api.autoderm.ai
+  baseurl_source: declared
+  description: The inference API from Autoderm – AI Dermatology API — 5 operation(s) for inference.
   name: Autoderm – AI Dermatology API Inference API
   slug: autoderm-ai-dermatology-api-inference-api
-- description: The system API from Autoderm – AI Dermatology API — 6 operation(s) for system.
+- baseURL: https://api.autoderm.ai
+  baseurl_source: declared
+  description: The system API from Autoderm – AI Dermatology API — 6 operation(s) for system.
   name: Autoderm – AI Dermatology API System API
   slug: autoderm-ai-dermatology-api-system-api
-- description: The utils API from Autoderm – AI Dermatology API — 1 operation(s) for utils.
+- baseURL: https://api.autoderm.ai
+  baseurl_source: declared
+  description: The utils API from Autoderm – AI Dermatology API — 1 operation(s) for utils.
   name: Autoderm – AI Dermatology API Utils API
   slug: autoderm-ai-dermatology-api-utils-api
 artifact_total: 37
@@ -329,7 +350,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoderm-ai-dermatology-api/refs/heads/main/screenshots/autoderm-ai-dermatology-api-2026-08-17T080622.png
 security:

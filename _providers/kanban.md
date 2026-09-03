@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -49,34 +49,54 @@ apis:
 - description: Browser-side SDK for customizing the Kanban Tool interface. Enables adding custom buttons to context menus, modifying styles, and extending UI behavior.
   name: Kanban Tool Browser SDK
   slug: kanban-tool-sdk
-- description: The Attachments API from Kanban Tool — 2 operation(s) for attachments.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Attachments API from Kanban Tool — 2 operation(s) for attachments.
   name: Kanban Tool Attachments API
   slug: kanban-attachments-api
-- description: The Attachments.json API from Kanban Tool — 1 operation(s) for attachments.json.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Attachments.json API from Kanban Tool — 1 operation(s) for attachments.json.
   name: Kanban Tool Attachments.json API
   slug: kanban-attachments-json-api
-- description: The Boards API from Kanban Tool — 3 operation(s) for boards.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Boards API from Kanban Tool — 3 operation(s) for boards.
   name: Kanban Tool Boards API
   slug: kanban-boards-api
-- description: The Subtasks API from Kanban Tool — 2 operation(s) for subtasks.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Subtasks API from Kanban Tool — 2 operation(s) for subtasks.
   name: Kanban Tool Subtasks API
   slug: kanban-subtasks-api
-- description: The Subtasks.json API from Kanban Tool — 1 operation(s) for subtasks.json.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Subtasks.json API from Kanban Tool — 1 operation(s) for subtasks.json.
   name: Kanban Tool Subtasks.json API
   slug: kanban-subtasks-json-api
-- description: The Tasks API from Kanban Tool — 5 operation(s) for tasks.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Tasks API from Kanban Tool — 5 operation(s) for tasks.
   name: Kanban Tool Tasks API
   slug: kanban-tasks-api
-- description: The Tasks.json API from Kanban Tool — 1 operation(s) for tasks.json.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Tasks.json API from Kanban Tool — 1 operation(s) for tasks.json.
   name: Kanban Tool Tasks.json API
   slug: kanban-tasks-json-api
-- description: The Time Trackers API from Kanban Tool — 1 operation(s) for time trackers.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Time Trackers API from Kanban Tool — 1 operation(s) for time trackers.
   name: Kanban Tool Time Trackers API
   slug: kanban-time-trackers-api
-- description: The Time Trackers.json API from Kanban Tool — 1 operation(s) for time trackers.json.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Time Trackers.json API from Kanban Tool — 1 operation(s) for time trackers.json.
   name: Kanban Tool Time Trackers.json API
   slug: kanban-time-trackers-json-api
-- description: The Users API from Kanban Tool — 2 operation(s) for users.
+- baseURL: https://YOUR_DOMAIN.kanbantool.com/api/v3
+  baseurl_source: declared
+  description: The Users API from Kanban Tool — 2 operation(s) for users.
   name: Kanban Tool Users API
   slug: kanban-users-api
 artifact_total: 29
@@ -206,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/screenshots/kanban-2026-06-20T183911.png
 security:

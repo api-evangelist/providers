@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,7 +59,9 @@ apis:
 - description: hCaptcha Enterprise extends the core challenge with advanced bot detection, account defense (ATO and fake-account protection), MFA and pull-based SMS, fraud signals, and management APIs for provisioni
   name: hCaptcha Enterprise
   slug: enterprise
-- description: The Siteverify API from hCaptcha — 1 operation(s) for siteverify.
+- baseURL: https://api.hcaptcha.com
+  baseurl_source: declared
+  description: The Siteverify API from hCaptcha — 1 operation(s) for siteverify.
   name: hCaptcha Siteverify API
   slug: hcaptcha-siteverify-api
 artifact_total: 15
@@ -174,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/screenshots/hcaptcha-2026-06-20T182548.png
 security:

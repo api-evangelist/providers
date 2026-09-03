@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
-- description: The Transcription Jobs API from Amazon Transcribe — 4 operation(s) for transcription jobs.
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Transcription Jobs API from Amazon Transcribe — 4 operation(s) for transcription jobs.
   name: Amazon Transcribe Transcription Jobs API
   slug: amazon-transcribe-transcription-jobs-api
-- description: The Vocabularies API from Amazon Transcribe — 1 operation(s) for vocabularies.
+- baseURL: https://transcribe.amazonaws.com
+  baseurl_source: declared
+  description: The Vocabularies API from Amazon Transcribe — 1 operation(s) for vocabularies.
   name: Amazon Transcribe Vocabularies API
   slug: amazon-transcribe-vocabularies-api
 artifact_total: 29
@@ -278,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/screenshots/amazon-transcribe-2026-06-20T171840.png
 security:

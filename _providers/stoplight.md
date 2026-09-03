@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
@@ -54,7 +54,9 @@ apis:
 - description: The Stoplight CLI enables programmatic linting of API descriptions and pushing analysis results to the Stoplight Platform from CI/CD pipelines. Supports analyzing local projects, running Spectral rule
   name: Stoplight CLI
   slug: cli
-- description: The Versions API from Stoplight — 5 operation(s) for versions.
+- baseURL: https://api.stoplight.io/v1
+  baseurl_source: declared
+  description: The Versions API from Stoplight — 5 operation(s) for versions.
   name: Stoplight Versions API
   slug: stoplight-versions-api
 artifact_total: 18
@@ -355,7 +357,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -368,7 +370,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 65.2
+  previous_composite: 69.2
   provenance:
     conformance: first-party
     contracts:
@@ -379,7 +381,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
 security:

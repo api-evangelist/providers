@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 60 operations · 33 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Bank Account Balances API from End Close — 2 operation(s) for bank account balances.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Bank Account Balances API from End Close — 2 operation(s) for bank account balances.
   name: End Close Bank Account Balances API
   slug: end-close-bank-account-balances-api
-- description: The Bank Accounts API from End Close — 2 operation(s) for bank accounts.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Bank Accounts API from End Close — 2 operation(s) for bank accounts.
   name: End Close Bank Accounts API
   slug: end-close-bank-accounts-api
-- description: The Bulk Requests API from End Close — 4 operation(s) for bulk requests.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Bulk Requests API from End Close — 4 operation(s) for bulk requests.
   name: End Close Bulk Requests API
   slug: end-close-bulk-requests-api
-- description: The Data Stream Property Definitions API from End Close — 2 operation(s) for data stream property definitions.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Data Stream Property Definitions API from End Close — 2 operation(s) for data stream property definitions.
   name: End Close Data Stream Property Definitions API
   slug: end-close-data-stream-property-definitions-api
-- description: The Data Streams API from End Close — 6 operation(s) for data streams.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Data Streams API from End Close — 6 operation(s) for data streams.
   name: End Close Data Streams API
   slug: end-close-data-streams-api
-- description: The Import Batches API from End Close — 2 operation(s) for import batches.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Import Batches API from End Close — 2 operation(s) for import batches.
   name: End Close Import Batches API
   slug: end-close-import-batches-api
-- description: The Reconciliation Exceptions API from End Close — 2 operation(s) for reconciliation exceptions.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Reconciliation Exceptions API from End Close — 2 operation(s) for reconciliation exceptions.
   name: End Close Reconciliation Exceptions API
   slug: end-close-reconciliation-exceptions-api
-- description: The Reconciliation Matches API from End Close — 2 operation(s) for reconciliation matches.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Reconciliation Matches API from End Close — 2 operation(s) for reconciliation matches.
   name: End Close Reconciliation Matches API
   slug: end-close-reconciliation-matches-api
-- description: The Reconciliation Rules API from End Close — 2 operation(s) for reconciliation rules.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Reconciliation Rules API from End Close — 2 operation(s) for reconciliation rules.
   name: End Close Reconciliation Rules API
   slug: end-close-reconciliation-rules-api
-- description: The Reconciliation Stories API from End Close — 2 operation(s) for reconciliation stories.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Reconciliation Stories API from End Close — 2 operation(s) for reconciliation stories.
   name: End Close Reconciliation Stories API
   slug: end-close-reconciliation-stories-api
-- description: The Reconciliations API from End Close — 4 operation(s) for reconciliations.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Reconciliations API from End Close — 4 operation(s) for reconciliations.
   name: End Close Reconciliations API
   slug: end-close-reconciliations-api
-- description: The Records API from End Close — 3 operation(s) for records.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The Records API from End Close — 3 operation(s) for records.
   name: End Close Records API
   slug: end-close-records-api
-- description: The End Close API API from End Close — 0 operation(s) for end close api.
+- baseURL: https://api.endclose.com/v1
+  baseurl_source: declared
+  description: The End Close API API from End Close — 0 operation(s) for end close api.
   name: End Close End Close API
   slug: end-close-end-close-api-api
 artifact_total: 33
@@ -240,7 +266,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -250,7 +276,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 36.8
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,7 +293,7 @@ score:
     regime_id: banking_open_finance
     score: 35.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:

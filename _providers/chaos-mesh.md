@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 75 operations · 40 acting
 api_count: 2
 apis:
-- description: Access archived (completed or deleted) experiments, schedules, and workflows
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Access archived (completed or deleted) experiments, schedules, and workflows
   name: Chaos Mesh Archives API
   slug: chaos-mesh-archives-api
-- description: Utility endpoints for cluster metadata, namespaces, and configuration
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Utility endpoints for cluster metadata, namespaces, and configuration
   name: Chaos Mesh Common API
   slug: chaos-mesh-common-api
-- description: Query chaos experiment events and audit logs
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Query chaos experiment events and audit logs
   name: Chaos Mesh Events API
   slug: chaos-mesh-events-api
-- description: Create, manage, pause, and delete chaos experiments
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Create, manage, pause, and delete chaos experiments
   name: Chaos Mesh Experiments API
   slug: chaos-mesh-experiments-api
-- description: Create and manage scheduled chaos experiments
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Create and manage scheduled chaos experiments
   name: Chaos Mesh Schedules API
   slug: chaos-mesh-schedules-api
-- description: Manage reusable status check templates for workflows
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Manage reusable status check templates for workflows
   name: Chaos Mesh Templates API
   slug: chaos-mesh-templates-api
-- description: Create and manage chaos engineering workflows with multiple steps
+- baseURL: http://localhost:2333/api
+  baseurl_source: spec
+  description: Create and manage chaos engineering workflows with multiple steps
   name: Chaos Mesh Workflows API
   slug: chaos-mesh-workflows-api
 artifact_total: 82
@@ -315,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/screenshots/chaos-mesh-2026-06-20T174215.png
 security:

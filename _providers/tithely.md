@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 8 acting
 api_count: 1
 apis:
-- description: Authentication and login.
+- baseURL: https://tithe.ly/api/v2
+  baseurl_source: declared
+  description: Authentication and login.
   name: Tithe.ly Accounts API
   slug: tithely-accounts-api
-- description: Send templated transactional email.
+- baseURL: https://tithe.ly/api/v2
+  baseurl_source: declared
+  description: Send templated transactional email.
   name: Tithe.ly Mail API
   slug: tithely-mail-api
-- description: Look up churches/organizations.
+- baseURL: https://tithe.ly/api/v2
+  baseurl_source: declared
+  description: Look up churches/organizations.
   name: Tithe.ly Organizations API
   slug: tithely-organizations-api
-- description: Giving funds a donation is allocated to.
+- baseURL: https://tithe.ly/api/v2
+  baseurl_source: declared
+  description: Giving funds a donation is allocated to.
   name: Tithe.ly Payment Categories API
   slug: tithely-payment-categories-api
-- description: V1 tokenized payment methods and charges.
+- baseURL: https://tithe.ly/api/v2
+  baseurl_source: declared
+  description: V1 tokenized payment methods and charges.
   name: Tithe.ly Payments API
   slug: tithely-payments-api
-- description: Create donation transactions.
+- baseURL: https://tithe.ly/api/v2
+  baseurl_source: declared
+  description: Create donation transactions.
   name: Tithe.ly Transactions API
   slug: tithely-transactions-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +203,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tithely/refs/heads/main/screenshots/tithely-2026-09-02T163821.png
 security:
 - kind: authentication
   name: Tithely Authentication

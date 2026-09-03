@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -77,70 +77,114 @@ apis:
 - description: StackOne Platform API serves as the control plane for managing accounts, executing actions, controlling integrations, discovering connectors, monitoring and debugging via logs, and proxy requests acro
   name: StackOne Platform API
   slug: platform-api
-- description: The Accounts API from StackOne — 5 operation(s) for accounts.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Accounts API from StackOne — 5 operation(s) for accounts.
   name: StackOne Accounts API
   slug: stackone-accounts-api
-- description: The Applications API from StackOne — 4 operation(s) for applications.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Applications API from StackOne — 4 operation(s) for applications.
   name: StackOne Applications API
   slug: stackone-applications-api
-- description: The Campaigns API from StackOne — 2 operation(s) for campaigns.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Campaigns API from StackOne — 2 operation(s) for campaigns.
   name: StackOne Campaigns API
   slug: stackone-campaigns-api
-- description: The Candidates API from StackOne — 4 operation(s) for candidates.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Candidates API from StackOne — 4 operation(s) for candidates.
   name: StackOne Candidates API
   slug: stackone-candidates-api
-- description: The Companies API from StackOne — 2 operation(s) for companies.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Companies API from StackOne — 2 operation(s) for companies.
   name: StackOne Companies API
   slug: stackone-companies-api
-- description: The Connect Sessions API from StackOne — 2 operation(s) for connect sessions.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Connect Sessions API from StackOne — 2 operation(s) for connect sessions.
   name: StackOne Connect Sessions API
   slug: stackone-connect-sessions-api
-- description: The Contacts API from StackOne — 2 operation(s) for contacts.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Contacts API from StackOne — 2 operation(s) for contacts.
   name: StackOne Contacts API
   slug: stackone-contacts-api
-- description: The Departments API from StackOne — 2 operation(s) for departments.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Departments API from StackOne — 2 operation(s) for departments.
   name: StackOne Departments API
   slug: stackone-departments-api
-- description: The Employees API from StackOne — 4 operation(s) for employees.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Employees API from StackOne — 4 operation(s) for employees.
   name: StackOne Employees API
   slug: stackone-employees-api
-- description: The Employments API from StackOne — 2 operation(s) for employments.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Employments API from StackOne — 2 operation(s) for employments.
   name: StackOne Employments API
   slug: stackone-employments-api
-- description: The Interview Stages API from StackOne — 2 operation(s) for interview stages.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Interview Stages API from StackOne — 2 operation(s) for interview stages.
   name: StackOne Interview Stages API
   slug: stackone-interview-stages-api
-- description: The Interviews API from StackOne — 2 operation(s) for interviews.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Interviews API from StackOne — 2 operation(s) for interviews.
   name: StackOne Interviews API
   slug: stackone-interviews-api
-- description: The Job Postings API from StackOne — 2 operation(s) for job postings.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Job Postings API from StackOne — 2 operation(s) for job postings.
   name: StackOne Job Postings API
   slug: stackone-job-postings-api
-- description: The Jobs API from StackOne — 2 operation(s) for jobs.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Jobs API from StackOne — 2 operation(s) for jobs.
   name: StackOne Jobs API
   slug: stackone-jobs-api
-- description: The Lists API from StackOne — 2 operation(s) for lists.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Lists API from StackOne — 2 operation(s) for lists.
   name: StackOne Lists API
   slug: stackone-lists-api
-- description: The Locations API from StackOne — 4 operation(s) for locations.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Locations API from StackOne — 4 operation(s) for locations.
   name: StackOne Locations API
   slug: stackone-locations-api
-- description: The Offers API from StackOne — 2 operation(s) for offers.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Offers API from StackOne — 2 operation(s) for offers.
   name: StackOne Offers API
   slug: stackone-offers-api
-- description: The Proxy API from StackOne — 1 operation(s) for proxy.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Proxy API from StackOne — 1 operation(s) for proxy.
   name: StackOne Proxy API
   slug: stackone-proxy-api
-- description: The Rejected Reasons API from StackOne — 2 operation(s) for rejected reasons.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Rejected Reasons API from StackOne — 2 operation(s) for rejected reasons.
   name: StackOne Rejected Reasons API
   slug: stackone-rejected-reasons-api
-- description: The Templates API from StackOne — 6 operation(s) for templates.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Templates API from StackOne — 6 operation(s) for templates.
   name: StackOne Templates API
   slug: stackone-templates-api
-- description: The Time Off API from StackOne — 2 operation(s) for time off.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Time Off API from StackOne — 2 operation(s) for time off.
   name: StackOne Time Off API
   slug: stackone-time-off-api
-- description: The Users API from StackOne — 2 operation(s) for users.
+- baseURL: https://api.stackone.com
+  baseurl_source: spec
+  description: The Users API from StackOne — 2 operation(s) for users.
   name: StackOne Users API
   slug: stackone-users-api
 artifact_total: 274
@@ -981,7 +1025,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackone/refs/heads/main/screenshots/stackone-2026-06-20T194449.png
 security:

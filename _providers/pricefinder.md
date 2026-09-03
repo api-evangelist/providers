@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,64 +34,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The appraisals API from Pricefinder — 11 operation(s) for appraisals.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The appraisals API from Pricefinder — 11 operation(s) for appraisals.
   name: Pricefinder Appraisals API
   slug: pricefinder-appraisals-api
-- description: The events API from Pricefinder — 1 operation(s) for events.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The events API from Pricefinder — 1 operation(s) for events.
   name: Pricefinder Events API
   slug: pricefinder-events-api
-- description: The features API from Pricefinder — 1 operation(s) for features.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The features API from Pricefinder — 1 operation(s) for features.
   name: Pricefinder Features API
   slug: pricefinder-features-api
-- description: The images API from Pricefinder — 1 operation(s) for images.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The images API from Pricefinder — 1 operation(s) for images.
   name: Pricefinder Images API
   slug: pricefinder-images-api
-- description: The listings API from Pricefinder — 1 operation(s) for listings.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The listings API from Pricefinder — 1 operation(s) for listings.
   name: Pricefinder Listings API
   slug: pricefinder-listings-api
-- description: The names API from Pricefinder — 3 operation(s) for names.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The names API from Pricefinder — 3 operation(s) for names.
   name: Pricefinder Names API
   slug: pricefinder-names-api
-- description: The oauth2 API from Pricefinder — 1 operation(s) for oauth2.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The oauth2 API from Pricefinder — 1 operation(s) for oauth2.
   name: Pricefinder Oauth2 API
   slug: pricefinder-oauth2-api
-- description: The postcodes API from Pricefinder — 4 operation(s) for postcodes.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The postcodes API from Pricefinder — 4 operation(s) for postcodes.
   name: Pricefinder Postcodes API
   slug: pricefinder-postcodes-api
-- description: The properties API from Pricefinder — 20 operation(s) for properties.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The properties API from Pricefinder — 20 operation(s) for properties.
   name: Pricefinder Properties API
   slug: pricefinder-properties-api
-- description: The references API from Pricefinder — 25 operation(s) for references.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The references API from Pricefinder — 25 operation(s) for references.
   name: Pricefinder References API
   slug: pricefinder-references-api
-- description: The rentals API from Pricefinder — 1 operation(s) for rentals.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The rentals API from Pricefinder — 1 operation(s) for rentals.
   name: Pricefinder Rentals API
   slug: pricefinder-rentals-api
-- description: The sales API from Pricefinder — 1 operation(s) for sales.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The sales API from Pricefinder — 1 operation(s) for sales.
   name: Pricefinder Sales API
   slug: pricefinder-sales-api
-- description: The spatial API from Pricefinder — 4 operation(s) for spatial.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The spatial API from Pricefinder — 4 operation(s) for spatial.
   name: Pricefinder Spatial API
   slug: pricefinder-spatial-api
-- description: The sso API from Pricefinder — 9 operation(s) for sso.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The sso API from Pricefinder — 9 operation(s) for sso.
   name: Pricefinder SSO API
   slug: pricefinder-sso-api
-- description: The streets API from Pricefinder — 4 operation(s) for streets.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The streets API from Pricefinder — 4 operation(s) for streets.
   name: Pricefinder Streets API
   slug: pricefinder-streets-api
-- description: The stubs API from Pricefinder — 1 operation(s) for stubs.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The stubs API from Pricefinder — 1 operation(s) for stubs.
   name: Pricefinder Stubs API
   slug: pricefinder-stubs-api
-- description: The subscriptions API from Pricefinder — 3 operation(s) for subscriptions.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The subscriptions API from Pricefinder — 3 operation(s) for subscriptions.
   name: Pricefinder Subscriptions API
   slug: pricefinder-subscriptions-api
-- description: The suburbs API from Pricefinder — 15 operation(s) for suburbs.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The suburbs API from Pricefinder — 15 operation(s) for suburbs.
   name: Pricefinder Suburbs API
   slug: pricefinder-suburbs-api
-- description: The suggest API from Pricefinder — 6 operation(s) for suggest.
+- baseURL: https://api.pricefinder.com.au/v1
+  baseurl_source: declared
+  description: The suggest API from Pricefinder — 6 operation(s) for suggest.
   name: Pricefinder Suggest API
   slug: pricefinder-suggest-api
 artifact_total: 23
@@ -242,7 +291,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
 security:

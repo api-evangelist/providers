@@ -33,109 +33,177 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Admin API from Edge Impulse — 49 operation(s) for admin.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Admin API from Edge Impulse — 49 operation(s) for admin.
   name: Edge Impulse Admin API
   slug: edge-impulse-admin-api
-- description: The Auth API from Edge Impulse — 2 operation(s) for auth.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Auth API from Edge Impulse — 2 operation(s) for auth.
   name: Edge Impulse Auth API
   slug: edge-impulse-auth-api
-- description: The Canary API from Edge Impulse — 1 operation(s) for canary.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Canary API from Edge Impulse — 1 operation(s) for canary.
   name: Edge Impulse Canary API
   slug: edge-impulse-canary-api
-- description: The CDN API from Edge Impulse — 1 operation(s) for cdn.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The CDN API from Edge Impulse — 1 operation(s) for cdn.
   name: Edge Impulse CDN API
   slug: edge-impulse-cdn-api
-- description: The Classify API from Edge Impulse — 10 operation(s) for classify.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Classify API from Edge Impulse — 10 operation(s) for classify.
   name: Edge Impulse Classify API
   slug: edge-impulse-classify-api
-- description: The Deployment API from Edge Impulse — 10 operation(s) for deployment.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Deployment API from Edge Impulse — 10 operation(s) for deployment.
   name: Edge Impulse Deployment API
   slug: edge-impulse-deployment-api
-- description: The Devices API from Edge Impulse — 11 operation(s) for devices.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Devices API from Edge Impulse — 11 operation(s) for devices.
   name: Edge Impulse Devices API
   slug: edge-impulse-devices-api
-- description: The DSP API from Edge Impulse — 18 operation(s) for dsp.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The DSP API from Edge Impulse — 18 operation(s) for dsp.
   name: Edge Impulse DSP API
   slug: edge-impulse-dsp-api
-- description: The EmailVerification API from Edge Impulse — 4 operation(s) for emailverification.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The EmailVerification API from Edge Impulse — 4 operation(s) for emailverification.
   name: Edge Impulse EmailVerification API
   slug: edge-impulse-emailverification-api
-- description: The Export API from Edge Impulse — 1 operation(s) for export.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Export API from Edge Impulse — 1 operation(s) for export.
   name: Edge Impulse Export API
   slug: edge-impulse-export-api
-- description: The FeatureFlags API from Edge Impulse — 1 operation(s) for featureflags.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The FeatureFlags API from Edge Impulse — 1 operation(s) for featureflags.
   name: Edge Impulse FeatureFlags API
   slug: edge-impulse-featureflags-api
-- description: The Health API from Edge Impulse — 2 operation(s) for health.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Health API from Edge Impulse — 2 operation(s) for health.
   name: Edge Impulse Health API
   slug: edge-impulse-health-api
-- description: The Impulse API from Edge Impulse — 13 operation(s) for impulse.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Impulse API from Edge Impulse — 13 operation(s) for impulse.
   name: Edge Impulse Impulse API
   slug: edge-impulse-impulse-api
-- description: The Jobs API from Edge Impulse — 42 operation(s) for jobs.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Jobs API from Edge Impulse — 42 operation(s) for jobs.
   name: Edge Impulse Jobs API
   slug: edge-impulse-jobs-api
-- description: The Learn API from Edge Impulse — 21 operation(s) for learn.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Learn API from Edge Impulse — 21 operation(s) for learn.
   name: Edge Impulse Learn API
   slug: edge-impulse-learn-api
-- description: The Login API from Edge Impulse — 1 operation(s) for login.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Login API from Edge Impulse — 1 operation(s) for login.
   name: Edge Impulse Login API
   slug: edge-impulse-login-api
-- description: The Metrics API from Edge Impulse — 3 operation(s) for metrics.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Metrics API from Edge Impulse — 3 operation(s) for metrics.
   name: Edge Impulse Metrics API
   slug: edge-impulse-metrics-api
-- description: The Optimization API from Edge Impulse — 15 operation(s) for optimization.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Optimization API from Edge Impulse — 15 operation(s) for optimization.
   name: Edge Impulse Optimization API
   slug: edge-impulse-optimization-api
-- description: The OrganizationBlocks API from Edge Impulse — 17 operation(s) for organizationblocks.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationBlocks API from Edge Impulse — 17 operation(s) for organizationblocks.
   name: Edge Impulse OrganizationBlocks API
   slug: edge-impulse-organizationblocks-api
-- description: The OrganizationCreateProject API from Edge Impulse — 10 operation(s) for organizationcreateproject.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationCreateProject API from Edge Impulse — 10 operation(s) for organizationcreateproject.
   name: Edge Impulse OrganizationCreateProject API
   slug: edge-impulse-organizationcreateproject-api
-- description: The OrganizationData API from Edge Impulse — 32 operation(s) for organizationdata.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationData API from Edge Impulse — 32 operation(s) for organizationdata.
   name: Edge Impulse OrganizationData API
   slug: edge-impulse-organizationdata-api
-- description: The OrganizationDataCampaigns API from Edge Impulse — 7 operation(s) for organizationdatacampaigns.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationDataCampaigns API from Edge Impulse — 7 operation(s) for organizationdatacampaigns.
   name: Edge Impulse OrganizationDataCampaigns API
   slug: edge-impulse-organizationdatacampaigns-api
-- description: The OrganizationJobs API from Edge Impulse — 8 operation(s) for organizationjobs.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationJobs API from Edge Impulse — 8 operation(s) for organizationjobs.
   name: Edge Impulse OrganizationJobs API
   slug: edge-impulse-organizationjobs-api
-- description: The OrganizationPipelines API from Edge Impulse — 5 operation(s) for organizationpipelines.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationPipelines API from Edge Impulse — 5 operation(s) for organizationpipelines.
   name: Edge Impulse OrganizationPipelines API
   slug: edge-impulse-organizationpipelines-api
-- description: The OrganizationPortals API from Edge Impulse — 7 operation(s) for organizationportals.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The OrganizationPortals API from Edge Impulse — 7 operation(s) for organizationportals.
   name: Edge Impulse OrganizationPortals API
   slug: edge-impulse-organizationportals-api
-- description: The Organizations API from Edge Impulse — 60 operation(s) for organizations.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Edge Impulse — 60 operation(s) for organizations.
   name: Edge Impulse Organizations API
   slug: edge-impulse-organizations-api
-- description: The PerformanceCalibration API from Edge Impulse — 9 operation(s) for performancecalibration.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The PerformanceCalibration API from Edge Impulse — 9 operation(s) for performancecalibration.
   name: Edge Impulse PerformanceCalibration API
   slug: edge-impulse-performancecalibration-api
-- description: The Projects API from Edge Impulse — 46 operation(s) for projects.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Projects API from Edge Impulse — 46 operation(s) for projects.
   name: Edge Impulse Projects API
   slug: edge-impulse-projects-api
-- description: The Raw data API from Edge Impulse — 54 operation(s) for raw data.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Raw data API from Edge Impulse — 54 operation(s) for raw data.
   name: Edge Impulse Raw data API
   slug: edge-impulse-raw-data-api
-- description: The Themes API from Edge Impulse — 5 operation(s) for themes.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Themes API from Edge Impulse — 5 operation(s) for themes.
   name: Edge Impulse Themes API
   slug: edge-impulse-themes-api
-- description: The ThirdPartyAuth API from Edge Impulse — 4 operation(s) for thirdpartyauth.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The ThirdPartyAuth API from Edge Impulse — 4 operation(s) for thirdpartyauth.
   name: Edge Impulse ThirdPartyAuth API
   slug: edge-impulse-thirdpartyauth-api
-- description: The UploadPortal API from Edge Impulse — 7 operation(s) for uploadportal.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The UploadPortal API from Edge Impulse — 7 operation(s) for uploadportal.
   name: Edge Impulse UploadPortal API
   slug: edge-impulse-uploadportal-api
-- description: The User API from Edge Impulse — 43 operation(s) for user.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The User API from Edge Impulse — 43 operation(s) for user.
   name: Edge Impulse User API
   slug: edge-impulse-user-api
-- description: The Whitelabels API from Edge Impulse — 5 operation(s) for whitelabels.
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Whitelabels API from Edge Impulse — 5 operation(s) for whitelabels.
   name: Edge Impulse Whitelabels API
   slug: edge-impulse-whitelabels-api
 artifact_total: 74
@@ -373,7 +441,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/screenshots/edge-impulse-2026-06-20T180450.png
 security:

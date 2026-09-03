@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Uber Direct API (DaaS) for quoting, creating, tracking, and managing deliveries through the Uber courier network. Includes Direct, Organizations, Courier Pick & Pack, Refund, and Business Location Man
   name: Uber Direct API
   slug: uber-direct-api
-- description: The Customers API from Uber Direct — 2 operation(s) for customers.
+- baseURL: https://api.uber.com/v1/customers
+  baseurl_source: declared
+  description: The Customers API from Uber Direct — 2 operation(s) for customers.
   name: Uber Direct Customers API
   slug: uber-direct-customers-api
 artifact_total: 12
@@ -163,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/screenshots/uber-direct-2026-06-20T195931.png
 security:

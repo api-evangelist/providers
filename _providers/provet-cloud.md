@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 55 operations · 29 acting
 api_count: 1
 apis:
-- description: Appointments and online booking.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: Appointments and online booking.
   name: Provet Cloud Appointments API
   slug: provet-cloud-appointments-api
-- description: Invoices, refunds, and payments.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: Invoices, refunds, and payments.
   name: Provet Cloud Billing API
   slug: provet-cloud-billing-api
-- description: Animal owners / bill payers.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: Animal owners / bill payers.
   name: Provet Cloud Clients API
   slug: provet-cloud-clients-api
-- description: Clinical visits and their items.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: Clinical visits and their items.
   name: Provet Cloud Consultations API
   slug: provet-cloud-consultations-api
-- description: The animals under care.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: The animals under care.
   name: Provet Cloud Patients API
   slug: provet-cloud-patients-api
-- description: Items, departments, users, and code lists.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: Items, departments, users, and code lists.
   name: Provet Cloud Reference Data API
   slug: provet-cloud-reference-data-api
-- description: Event subscriptions.
+- baseURL: https://provetcloud.com/{provet_id}/api/0.1
+  baseurl_source: declared
+  description: Event subscriptions.
   name: Provet Cloud Webhooks API
   slug: provet-cloud-webhooks-api
 artifact_total: 23
@@ -173,7 +187,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -202,8 +216,9 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/screenshots/provet-cloud-2026-09-02T152308.png
 security:
 - kind: authentication
   name: Provet Cloud Authentication

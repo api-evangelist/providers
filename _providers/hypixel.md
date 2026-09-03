@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 68 operations
 api_count: 2
 apis:
-- description: Hypixel Housing — active public houses, per-player public houses, and per-house information.
+- baseURL: https://api.hypixel.net/v2
+  baseurl_source: declared
+  description: Hypixel Housing — active public houses, per-player public houses, and per-house information.
   name: Hypixel Housing API
   slug: hypixel-housing-api
-- description: Network-wide telemetry — boosters, counts, leaderboards, punishment statistics.
+- baseURL: https://api.hypixel.net/v2
+  baseurl_source: declared
+  description: Network-wide telemetry — boosters, counts, leaderboards, punishment statistics.
   name: Hypixel Other API
   slug: hypixel-other-api
-- description: Hypixel network player profiles, recent games, online status, friends, and guild lookups.
+- baseURL: https://api.hypixel.net/v2
+  baseurl_source: declared
+  description: Hypixel network player profiles, recent games, online status, friends, and guild lookups.
   name: Hypixel Player Data API
   slug: hypixel-player-data-api
-- description: Static reference data — games, achievements, challenges, quests, guild achievements, vanity pets and companions.
+- baseURL: https://api.hypixel.net/v2
+  baseurl_source: declared
+  description: Static reference data — games, achievements, challenges, quests, guild achievements, vanity pets and companions.
   name: Hypixel Resources API
   slug: hypixel-resources-api
-- description: Hypixel SkyBlock — auctions, bazaar, profiles, museum, garden, bingo, fire sales, and SkyBlock-specific reference data.
+- baseURL: https://api.hypixel.net/v2
+  baseurl_source: declared
+  description: Hypixel SkyBlock — auctions, bazaar, profiles, museum, garden, bingo, fire sales, and SkyBlock-specific reference data.
   name: Hypixel SkyBlock API
   slug: hypixel-skyblock-api
 artifact_total: 53
@@ -348,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypixel/refs/heads/main/screenshots/hypixel-2026-07-25T221929.png
 security:

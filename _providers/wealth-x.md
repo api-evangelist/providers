@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Retrieve individual and company wealth-intelligence dossiers.
+- baseURL: https://connect.wealthx.com/rest/v1
+  baseurl_source: declared
+  description: Retrieve individual and company wealth-intelligence dossiers.
   name: Wealth-X Dossiers API
   slug: wealth-x-dossiers-api
-- description: Reference / lookup data used to build searches.
+- baseURL: https://connect.wealthx.com/rest/v1
+  baseurl_source: declared
+  description: Reference / lookup data used to build searches.
   name: Wealth-X Reference API
   slug: wealth-x-reference-api
-- description: Advanced search across the Wealth-X database.
+- baseURL: https://connect.wealthx.com/rest/v1
+  baseurl_source: declared
+  description: Advanced search across the Wealth-X database.
   name: Wealth-X Search API
   slug: wealth-x-search-api
 - description: 'GraphQL search and enrichment across Altrata person and organization profiles, including the wealth dataset that Wealth-X contributes — net worth, wealth tier, wealth assets, charitable and political '
@@ -259,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealth-x/refs/heads/main/screenshots/wealth-x-2026-08-17T082844.png
 security:

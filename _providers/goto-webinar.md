@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 53 operations · 22 acting
 api_count: 1
 apis:
-- description: Session-level attendee reporting for GoTo Webinar — 5 operations covering the attendees of a session, a single attendee, and that attendee's poll answers, Q&A questions and survey responses.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Session-level attendee reporting for GoTo Webinar — 5 operations covering the attendees of a session, a single attendee, and that attendee's poll answers, Q&A questions and survey responses.
   name: GoTo Webinar Attendees API
   slug: goto-webinar-attendees-api
-- description: Panelist management for a GoTo Webinar webinar — 4 operations to list, invite, remove and resend the invitation for the presenters on a webinar.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Panelist management for a GoTo Webinar webinar — 4 operations to list, invite, remove and resend the invitation for the presenters on a webinar.
   name: GoTo Webinar Panelists API
   slug: goto-webinar-panelists-api
-- description: Registration management for GoTo Webinar — 5 operations to create, list, read and delete registrants, plus read the registration form fields and custom questions configured on a webinar.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Registration management for GoTo Webinar — 5 operations to create, list, read and delete registrants, plus read the registration form fields and custom questions configured on a webinar.
   name: GoTo Webinar Registrants API
   slug: goto-webinar-registrants-api
-- description: Session reporting for GoTo Webinar — 7 operations covering an organizer's sessions in a date range, the sessions of a webinar, one session, its attendance performance, and its polls, Q&A questions and
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Session reporting for GoTo Webinar — 7 operations covering an organizer's sessions in a date range, the sessions of a webinar, one session, its attendance performance, and its polls, Q&A questions and
   name: GoTo Webinar Sessions API
   slug: goto-webinar-sessions-api
-- description: 'The core GoTo Webinar surface — 15 operations to schedule, read, update, cancel and copy webinars, list in-session and account-wide webinars, read meeting times, start URLs, audio settings, recording '
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: 'The core GoTo Webinar surface — 15 operations to schedule, read, update, cancel and copy webinars, list in-session and account-wide webinars, read meeting times, start URLs, audio settings, recording '
   name: GoTo Webinar Webinars API
   slug: goto-webinar-webinars-api
-- description: Co-organizer management for a GoTo Webinar webinar — 4 operations to list, add, remove and resend invitations for co-hosts, internal by organizerKey or external by email.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Co-organizer management for a GoTo Webinar webinar — 4 operations to list, add, remove and resend invitations for co-hosts, internal by organizerKey or external by email.
   name: GoTo Webinar Co Organizers API
   slug: goto-webinar-co-organizers-api
-- description: Recording asset search for GoTo Webinar — 2 operations to search stored recordings for the authenticated organizer or, with an admin token, across an entire account. Assets can be reused as the source
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Recording asset search for GoTo Webinar — 2 operations to search stored recordings for the authenticated organizer or, with an admin token, across an entire account. Assets can be reused as the source
   name: GoTo Webinar Recording Assets API
   slug: goto-webinar-recordingassets-api
-- description: Webhook management for GoTo Webinar — 11 operations to create the delivery secret key, register and activate webhook callbacks, and create, read, update and delete the per-user subscriptions that make
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Webhook management for GoTo Webinar — 11 operations to create the delivery secret key, register and activate webhook callbacks, and create, read, update and delete the per-user subscriptions that make
   name: GoTo Webinar Webhooks API
   slug: goto-webinar-webhooks-api
 artifact_total: 25
@@ -296,7 +312,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -306,7 +322,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 64.7
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,7 +334,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-webinar/refs/heads/main/screenshots/goto-webinar-2026-06-20T182256.png
 security:

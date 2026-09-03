@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 108 operations
 api_count: 1
 apis:
-- description: Returns amendment data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns amendment data from the API
   name: Congress.gov API amendments API
   slug: congress-gov-amendments-api
-- description: Returns bill data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns bill data from the API
   name: Congress.gov API bill API
   slug: congress-gov-bill-api
-- description: Returns bound Congressional Record data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns bound Congressional Record data from the API
   name: Congress.gov API bound-congressional-record API
   slug: congress-gov-bound-congressional-record-api
-- description: Returns committee data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns committee data from the API
   name: Congress.gov API committee API
   slug: congress-gov-committee-api
-- description: Returns committee meeting data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns committee meeting data from the API
   name: Congress.gov API committee-meeting API
   slug: congress-gov-committee-meeting-api
-- description: Returns committee print data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns committee print data from the API
   name: Congress.gov API committee-print API
   slug: congress-gov-committee-print-api
-- description: Returns committee report data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns committee report data from the API
   name: Congress.gov API committee-report API
   slug: congress-gov-committee-report-api
-- description: Returns congress and congressional sessions data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns congress and congressional sessions data from the API
   name: Congress.gov API congress API
   slug: congress-gov-congress-api
-- description: Returns Congressional Record data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns Congressional Record data from the API
   name: Congress.gov API congressional-record API
   slug: congress-gov-congressional-record-api
-- description: Returns Congressional Research Service (CRS) report data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns Congressional Research Service (CRS) report data from the API
   name: Congress.gov API crsreport API
   slug: congress-gov-crsreport-api
-- description: Returns daily Congressional Record data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns daily Congressional Record data from the API
   name: Congress.gov API daily-congressional-record API
   slug: congress-gov-daily-congressional-record-api
-- description: Returns hearing data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns hearing data from the API
   name: Congress.gov API hearing API
   slug: congress-gov-hearing-api
-- description: Returns House communication data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns House communication data from the API
   name: Congress.gov API house-communication API
   slug: congress-gov-house-communication-api
-- description: Returns House requirement data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns House requirement data from the API
   name: Congress.gov API house-requirement API
   slug: congress-gov-house-requirement-api
-- description: '[BETA] Returns House of Representatives roll call vote data from the API'
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: '[BETA] Returns House of Representatives roll call vote data from the API'
   name: Congress.gov API house-vote API
   slug: congress-gov-house-vote-api
-- description: Returns member data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns member data from the API
   name: Congress.gov API member API
   slug: congress-gov-member-api
-- description: Returns nomination data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns nomination data from the API
   name: Congress.gov API nomination API
   slug: congress-gov-nomination-api
-- description: Returns Senate communication data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns Senate communication data from the API
   name: Congress.gov API senate-communication API
   slug: congress-gov-senate-communication-api
-- description: Returns summaries data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns summaries data from the API
   name: Congress.gov API summaries API
   slug: congress-gov-summaries-api
-- description: Returns treaty data from the API
+- baseURL: https://api.congress.gov/v3
+  baseurl_source: declared
+  description: Returns treaty data from the API
   name: Congress.gov API treaty API
   slug: congress-gov-treaty-api
 artifact_total: 192
@@ -738,7 +778,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/screenshots/congress-gov-2026-06-20T174909.png
 security:

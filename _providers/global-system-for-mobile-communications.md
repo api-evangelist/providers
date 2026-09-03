@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -48,88 +48,144 @@ apis:
 - description: Scam Signal API allows businesses to protect their customers from impersonation scams, particularly Authorized Pushed Payment (APP) fraud.
   name: GSMA Camara Project Scam Signal API
   slug: scam-signal-api
-- description: Application and Application Instance Lice Cycle Management
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Application and Application Instance Lice Cycle Management
   name: Global System for Mobile Communications Application API
   slug: global-system-for-mobile-communications-application-api
-- description: Operations to define, read and manage an application's thresholds for network quality (latency, jitter, loss, throughput)
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to define, read and manage an application's thresholds for network quality (latency, jitter, loss, throughput)
   name: Global System for Mobile Communications Application Profiles API
   slug: global-system-for-mobile-communications-application-profiles-api
-- description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
   name: Global System for Mobile Communications Call Forwarding Information Retrieval API
   slug: global-system-for-mobile-communications-call-forwarding-information-retrieval-api
-- description: The Check SIM Swap API from Global System for Mobile Communications — 1 operation(s) for check sim swap.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: The Check SIM Swap API from Global System for Mobile Communications — 1 operation(s) for check sim swap.
   name: Global System for Mobile Communications Check SIM Swap API
   slug: global-system-for-mobile-communications-check-sim-swap-api
-- description: Create and manage a subscription to receive periodic connectivity insights
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Create and manage a subscription to receive periodic connectivity insights
   name: Global System for Mobile Communications Connectivity Insights Subscriptions API
   slug: global-system-for-mobile-communications-connectivity-insights-subscriptions-api
-- description: The Discovery API from Global System for Mobile Communications — 2 operation(s) for discovery.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: The Discovery API from Global System for Mobile Communications — 2 operation(s) for discovery.
   name: Global System for Mobile Communications Discovery API
   slug: global-system-for-mobile-communications-discovery-api
-- description: Edge Cloud Zones Availability
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Edge Cloud Zones Availability
   name: Global System for Mobile Communications Edge Cloud API
   slug: global-system-for-mobile-communications-edge-cloud-api
-- description: Operations to manage event subscription on geofencing events for leaving and entering an area
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to manage event subscription on geofencing events for leaving and entering an area
   name: Global System for Mobile Communications Geofencing Subscriptions API
   slug: global-system-for-mobile-communications-geofencing-subscriptions-api
-- description: QoD control operations for home devices
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: QoD control operations for home devices
   name: Global System for Mobile Communications Home Devices QoD API
   slug: global-system-for-mobile-communications-home-devices-qod-api
-- description: Retrieve the location of a device
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Retrieve the location of a device
   name: Global System for Mobile Communications Location Retrieval API
   slug: global-system-for-mobile-communications-location-retrieval-api
-- description: Verification of the location of a device
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Verification of the location of a device
   name: Global System for Mobile Communications Location Verification API
   slug: global-system-for-mobile-communications-location-verification-api
-- description: Operations to match a customer identity against the account data bound to their phone number.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to match a customer identity against the account data bound to their phone number.
   name: Global System for Mobile Communications Match API
   slug: global-system-for-mobile-communications-match-api
-- description: Read the network's level of confidence that it can meet the quality thresholds for a given application profile and end user device.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Read the network's level of confidence that it can meet the quality thresholds for a given application profile and end user device.
   name: Global System for Mobile Communications Network Quality API
   slug: global-system-for-mobile-communications-network-quality-api
-- description: Operations to manage One Step Payment procedure
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to manage One Step Payment procedure
   name: Global System for Mobile Communications One Step Payment API
   slug: global-system-for-mobile-communications-one-step-payment-api
-- description: API operations to manage OTP codes
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: API operations to manage OTP codes
   name: Global System for Mobile Communications OTP Management API
   slug: global-system-for-mobile-communications-otp-management-api
-- description: Operations to obtain information about payments
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to obtain information about payments
   name: Global System for Mobile Communications Payment API
   slug: global-system-for-mobile-communications-payment-api
-- description: API operation to return the phone number associated to the access token.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: API operation to return the phone number associated to the access token.
   name: Global System for Mobile Communications Phone Number Share API
   slug: global-system-for-mobile-communications-phone-number-share-api
-- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: Global System for Mobile Communications Phone Number Verify API
   slug: global-system-for-mobile-communications-phone-number-verify-api
-- description: Operations to retrieve population density information.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to retrieve population density information.
   name: Global System for Mobile Communications Population Density Data API
   slug: global-system-for-mobile-communications-population-density-data-api
-- description: Manage QoS sessions
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Manage QoS sessions
   name: Global System for Mobile Communications QoS Sessions API
   slug: global-system-for-mobile-communications-qos-sessions-api
-- description: The Retrieve SIM Swap Date API from Global System for Mobile Communications — 1 operation(s) for retrieve sim swap date.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: The Retrieve SIM Swap Date API from Global System for Mobile Communications — 1 operation(s) for retrieve sim swap date.
   name: Global System for Mobile Communications Retrieve SIM Swap Date API
   slug: global-system-for-mobile-communications-retrieve-sim-swap-date-api
-- description: Operation to get device roaming status and country information (if roaming) synchronously
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operation to get device roaming status and country information (if roaming) synchronously
   name: Global System for Mobile Communications Roaming Status Retrieval API
   slug: global-system-for-mobile-communications-roaming-status-retrieval-api
-- description: The Send SMS API from Global System for Mobile Communications — 1 operation(s) for send sms.
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: The Send SMS API from Global System for Mobile Communications — 1 operation(s) for send sms.
   name: Global System for Mobile Communications Send SMS API
   slug: global-system-for-mobile-communications-send-sms-api
-- description: Operation to manage event subscription on sms delivery event (swapped)
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operation to manage event subscription on sms delivery event (swapped)
   name: Global System for Mobile Communications SMS Delivery Notification Subscription API
   slug: global-system-for-mobile-communications-sms-delivery-notification-subscription-api
-- description: Reads existing TrafficInfluence resources
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Reads existing TrafficInfluence resources
   name: Global System for Mobile Communications Traffic Influence API Read API
   slug: global-system-for-mobile-communications-traffic-influence-api-read-api
-- description: Creates of modifies a TrafficInfluence resource
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Creates of modifies a TrafficInfluence resource
   name: Global System for Mobile Communications Traffic Influence API Write API
   slug: global-system-for-mobile-communications-traffic-influence-api-write-api
-- description: Operations to manage Two Step Payment procedure
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Operations to manage Two Step Payment procedure
   name: Global System for Mobile Communications Two Step Payment API
   slug: global-system-for-mobile-communications-two-step-payment-api
-- description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
+- baseURL_template: '{apiRoot}/{basePath}'
+  baseurl_source: spec_template
+  description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: Global System for Mobile Communications Unconditional Call Forwarding Information Retrieval API
   slug: global-system-for-mobile-communications-unconditional-call-forwarding-information-retrieval-api
 artifact_total: 90
@@ -407,7 +463,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:

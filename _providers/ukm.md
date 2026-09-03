@@ -34,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: 'Universiti Kebangsaan Malaysia''s own SAML 2.0 identity provider, a SimpleSAMLphp deployment at sso.ukm.my. Publishes unauthenticated SAML 2.0 metadata (application/samlmetadata+xml, 4,261 bytes) with '
+- baseURL: https://sso.ukm.my/saml2/idp
+  baseurl_source: declared
+  description: 'Universiti Kebangsaan Malaysia''s own SAML 2.0 identity provider, a SimpleSAMLphp deployment at sso.ukm.my. Publishes unauthenticated SAML 2.0 metadata (application/samlmetadata+xml, 4,261 bytes) with '
   name: SSO@UKM — SAML 2.0 Identity Provider
   slug: identity-federation
-- description: DSpace 6.3 institutional repository operated by Perpustakaan Tun Seri Lanang (UKM Library) on the university's own host, holding theses, past-year examination papers and selected government and law pu
+- baseURL: https://ptsldigital.ukm.my/oai/request
+  baseurl_source: declared
+  description: DSpace 6.3 institutional repository operated by Perpustakaan Tun Seri Lanang (UKM Library) on the university's own host, holding theses, past-year examination papers and selected government and law pu
   name: UKM Learning and Research Repository (OAI-PMH)
   slug: learning-research-repository-oai
-- description: 'Open Journal Systems 2.4.8.1 platform self-hosted at ejournal.ukm.my (CNAME ejournals.ukm.my), carrying the journals published by UKM faculties, institutes and UKM Press. Its OAI-PMH 2.0 interface is '
+- baseURL: https://ejournal.ukm.my/index.php/index/oai
+  baseurl_source: declared
+  description: 'Open Journal Systems 2.4.8.1 platform self-hosted at ejournal.ukm.my (CNAME ejournals.ukm.my), carrying the journals published by UKM faculties, institutes and UKM Press. Its OAI-PMH 2.0 interface is '
   name: UKM e-Journal System (OAI-PMH)
   slug: ejournal-oai
-- description: 'UKM runs its web estate on self-hosted WordPress and leaves the wp/v2 REST API open for unauthenticated reads on its own domain. Two installations were verified live: the main portal at www.ukm.my/por'
+- baseURL: https://www.ukm.my/portal/wp-json
+  baseurl_source: declared
+  description: 'UKM runs its web estate on self-hosted WordPress and leaves the wp/v2 REST API open for unauthenticated reads on its own domain. Two installations were verified live: the main portal at www.ukm.my/por'
   name: UKM Web Content REST API (WordPress wp/v2)
   slug: web-content-rest
 - description: EPrints repository of journal articles published by UKM faculties, institutes and UKM Press, registered in OpenDOAR (record 2122) and ROAR as supporting OAI-PMH 2.0 via its EPrints oai2 interface. The
@@ -197,7 +205,7 @@ score:
     catalog_gap: 37.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 21.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -207,7 +215,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 21.1
-  previous_composite: 18.9
+  previous_composite: 40.2
   provenance:
     conformance: first-party
     contracts:
@@ -222,8 +230,8 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/screenshots/ukm-2026-06-20T200011.png
 security:
 - kind: authentication

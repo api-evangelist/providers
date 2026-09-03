@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,76 +66,124 @@ apis:
 - description: The Federal Motor Carrier Safety Administration's carrier data API — real-time queries on motor carrier registration, authority and safety data, including all of the passenger carrier data that used t
   name: FMCSA QCMobile API
   slug: fmcsa-qcmobile-api
-- description: The AirCarrierApi API from U.S. Department of Transportation — 4 operation(s) for aircarrierapi.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The AirCarrierApi API from U.S. Department of Transportation — 4 operation(s) for aircarrierapi.
   name: U.S. Department of Transportation Air Carrier API
   slug: us-dot-aircarrierapi-api
-- description: The Axhsubmitdiscrepancies API from U.S. Department of Transportation — 1 operation(s) for axhsubmitdiscrepancies.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Axhsubmitdiscrepancies API from U.S. Department of Transportation — 1 operation(s) for axhsubmitdiscrepancies.
   name: U.S. Department of Transportation Axhsubmitdiscrepancies API
   slug: us-dot-axhsubmitdiscrepancies-api
-- description: The Coded Instrument Flight Procedures (CIFP) API from U.S. Department of Transportation — 2 operation(s) for coded instrument flight procedures (cifp).
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Coded Instrument Flight Procedures (CIFP) API from U.S. Department of Transportation — 2 operation(s) for coded instrument flight procedures (cifp).
   name: U.S. Department of Transportation Coded Instrument Flight Procedures (CIFP) API
   slug: us-dot-coded-instrument-flight-procedures-cifp-api
-- description: The Daily Digital Obstacle File (DDOF) API from U.S. Department of Transportation — 2 operation(s) for daily digital obstacle file (ddof).
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Daily Digital Obstacle File (DDOF) API from U.S. Department of Transportation — 2 operation(s) for daily digital obstacle file (ddof).
   name: U.S. Department of Transportation Daily Digital Obstacle File (DDOF) API
   slug: us-dot-daily-digital-obstacle-file-ddof-api
-- description: The Digital Enroute Charts US (DDECUS) API from U.S. Department of Transportation — 2 operation(s) for digital enroute charts us (ddecus).
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Digital Enroute Charts US (DDECUS) API from U.S. Department of Transportation — 2 operation(s) for digital enroute charts us (ddecus).
   name: U.S. Department of Transportation Digital Enroute Charts US (DDECUS) API
   slug: us-dot-digital-enroute-charts-us-ddecus-api
-- description: The Digital Enroute Supplement (DERS) API from U.S. Department of Transportation — 2 operation(s) for digital enroute supplement (ders).
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Digital Enroute Supplement (DERS) API from U.S. Department of Transportation — 2 operation(s) for digital enroute supplement (ders).
   name: U.S. Department of Transportation Digital Enroute Supplement (DERS) API
   slug: us-dot-digital-enroute-supplement-ders-api
-- description: The FAA Airport Status Service API from U.S. Department of Transportation — 2 operation(s) for faa airport status service.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The FAA Airport Status Service API from U.S. Department of Transportation — 2 operation(s) for faa airport status service.
   name: U.S. Department of Transportation FAA Airport Status Service API
   slug: us-dot-faa-airport-status-service-api
-- description: The Grand Canyon VFR Chart API from U.S. Department of Transportation — 2 operation(s) for grand canyon vfr chart.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Grand Canyon VFR Chart API from U.S. Department of Transportation — 2 operation(s) for grand canyon vfr chart.
   name: U.S. Department of Transportation Grand Canyon VFR Chart API
   slug: us-dot-grand-canyon-vfr-chart-api
-- description: The Gulf of Mexico IFR Enroute Chart API from U.S. Department of Transportation — 2 operation(s) for gulf of mexico ifr enroute chart.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Gulf of Mexico IFR Enroute Chart API from U.S. Department of Transportation — 2 operation(s) for gulf of mexico ifr enroute chart.
   name: U.S. Department of Transportation Gulf of Mexico IFR Enroute Chart API
   slug: us-dot-gulf-of-mexico-ifr-enroute-chart-api
-- description: The IFR Enroute Charts API from U.S. Department of Transportation — 2 operation(s) for ifr enroute charts.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The IFR Enroute Charts API from U.S. Department of Transportation — 2 operation(s) for ifr enroute charts.
   name: U.S. Department of Transportation IFR Enroute Charts API
   slug: us-dot-ifr-enroute-charts-api
-- description: The IFR Planning Charts API from U.S. Department of Transportation — 2 operation(s) for ifr planning charts.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The IFR Planning Charts API from U.S. Department of Transportation — 2 operation(s) for ifr planning charts.
   name: U.S. Department of Transportation IFR Planning Charts API
   slug: us-dot-ifr-planning-charts-api
-- description: The log file API from U.S. Department of Transportation — 1 operation(s) for log file.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The log file API from U.S. Department of Transportation — 1 operation(s) for log file.
   name: U.S. Department of Transportation log file API
   slug: us-dot-log-file-api
-- description: The NASR 28 Day Subscription API from U.S. Department of Transportation — 2 operation(s) for nasr 28 day subscription.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The NASR 28 Day Subscription API from U.S. Department of Transportation — 2 operation(s) for nasr 28 day subscription.
   name: U.S. Department of Transportation NASR 28 Day Subscription API
   slug: us-dot-nasr-28-day-subscription-api
-- description: The Oceanic Route Charts API from U.S. Department of Transportation — 2 operation(s) for oceanic route charts.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Oceanic Route Charts API from U.S. Department of Transportation — 2 operation(s) for oceanic route charts.
   name: U.S. Department of Transportation Oceanic Route Charts API
   slug: us-dot-oceanic-route-charts-api
-- description: The PDM API from U.S. Department of Transportation — 1 operation(s) for pdm.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The PDM API from U.S. Department of Transportation — 1 operation(s) for pdm.
   name: U.S. Department of Transportation PDM API
   slug: us-dot-pdm-api
-- description: The Sectional Charts API from U.S. Department of Transportation — 2 operation(s) for sectional charts.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Sectional Charts API from U.S. Department of Transportation — 2 operation(s) for sectional charts.
   name: U.S. Department of Transportation Sectional Charts API
   slug: us-dot-sectional-charts-api
-- description: The SNMP API from U.S. Department of Transportation — 1 operation(s) for snmp.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The SNMP API from U.S. Department of Transportation — 1 operation(s) for snmp.
   name: U.S. Department of Transportation SNMP API
   slug: us-dot-snmp-api
-- description: The Supplement Chart API from U.S. Department of Transportation — 2 operation(s) for supplement chart .
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Supplement Chart API from U.S. Department of Transportation — 2 operation(s) for supplement chart .
   name: U.S. Department of Transportation Supplement Chart API
   slug: us-dot-supplement-chart-api
-- description: The Terminal Area Charts API from U.S. Department of Transportation — 2 operation(s) for terminal area charts.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Terminal Area Charts API from U.S. Department of Transportation — 2 operation(s) for terminal area charts.
   name: U.S. Department of Transportation Terminal Area Charts API
   slug: us-dot-terminal-area-charts-api
-- description: The TIM API from U.S. Department of Transportation — 2 operation(s) for tim.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The TIM API from U.S. Department of Transportation — 2 operation(s) for tim.
   name: U.S. Department of Transportation TIM API
   slug: us-dot-tim-api
-- description: The US Terminal Procedures Publication (TPP) API from U.S. Department of Transportation — 2 operation(s) for us terminal procedures publication (tpp).
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The US Terminal Procedures Publication (TPP) API from U.S. Department of Transportation — 2 operation(s) for us terminal procedures publication (tpp).
   name: U.S. Department of Transportation US Terminal Procedures Publication (TPP) API
   slug: us-dot-us-terminal-procedures-publication-tpp-api
-- description: The US VFR Wall Planning Chart API from U.S. Department of Transportation — 2 operation(s) for us vfr wall planning chart.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The US VFR Wall Planning Chart API from U.S. Department of Transportation — 2 operation(s) for us vfr wall planning chart.
   name: U.S. Department of Transportation US VFR Wall Planning Chart API
   slug: us-dot-us-vfr-wall-planning-chart-api
-- description: The Version API from U.S. Department of Transportation — 1 operation(s) for version.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The Version API from U.S. Department of Transportation — 1 operation(s) for version.
   name: U.S. Department of Transportation Version API
   slug: us-dot-version-api
-- description: The VFR Helicopter Route Chart API from U.S. Department of Transportation — 4 operation(s) for vfr helicopter route chart.
+- baseURL: https://external-api.faa.gov/apra
+  baseurl_source: declared
+  description: The VFR Helicopter Route Chart API from U.S. Department of Transportation — 4 operation(s) for vfr helicopter route chart.
   name: U.S. Department of Transportation VFR Helicopter Route Chart API
   slug: us-dot-vfr-helicopter-route-chart-api
 artifact_total: 51
@@ -430,7 +490,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -443,7 +503,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 50.6
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -461,7 +521,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png
 security:

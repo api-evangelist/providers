@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 96 operations · 3 acting
 api_count: 2
 apis:
-- description: The v1-gauge API from Frax Finance — 2 operation(s) for v1-gauge.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v1-gauge API from Frax Finance — 2 operation(s) for v1-gauge.
   name: Frax Finance v1-gauge API
   slug: frax-v1-gauge-api
-- description: The v1-prices API from Frax Finance — 7 operation(s) for v1-prices.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v1-prices API from Frax Finance — 7 operation(s) for v1-prices.
   name: Frax Finance v1-prices API
   slug: frax-v1-prices-api
-- description: The v1-protocol API from Frax Finance — 4 operation(s) for v1-protocol.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v1-protocol API from Frax Finance — 4 operation(s) for v1-protocol.
   name: Frax Finance v1-protocol API
   slug: frax-v1-protocol-api
-- description: The v1-staking API from Frax Finance — 6 operation(s) for v1-staking.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v1-staking API from Frax Finance — 6 operation(s) for v1-staking.
   name: Frax Finance v1-staking API
   slug: frax-v1-staking-api
-- description: The v1-vefpis API from Frax Finance — 2 operation(s) for v1-vefpis.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v1-vefpis API from Frax Finance — 2 operation(s) for v1-vefpis.
   name: Frax Finance v1-vefpis API
   slug: frax-v1-vefpis-api
-- description: The v1-vefxs API from Frax Finance — 2 operation(s) for v1-vefxs.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v1-vefxs API from Frax Finance — 2 operation(s) for v1-vefxs.
   name: Frax Finance v1-vefxs API
   slug: frax-v1-vefxs-api
-- description: The v2-fpifpis API from Frax Finance — 7 operation(s) for v2-fpifpis.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-fpifpis API from Frax Finance — 7 operation(s) for v2-fpifpis.
   name: Frax Finance v2-fpifpis API
   slug: frax-v2-fpifpis-api
-- description: The v2-frax API from Frax Finance — 6 operation(s) for v2-frax.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-frax API from Frax Finance — 6 operation(s) for v2-frax.
   name: Frax Finance v2-frax API
   slug: frax-v2-frax-api
-- description: The v2-fraxferry API from Frax Finance — 7 operation(s) for v2-fraxferry.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-fraxferry API from Frax Finance — 7 operation(s) for v2-fraxferry.
   name: Frax Finance v2-fraxferry API
   slug: frax-v2-fraxferry-api
-- description: The v2-fraxswap API from Frax Finance — 12 operation(s) for v2-fraxswap.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-fraxswap API from Frax Finance — 12 operation(s) for v2-fraxswap.
   name: Frax Finance v2-fraxswap API
   slug: frax-v2-fraxswap-api
-- description: The v2-frxeth API from Frax Finance — 12 operation(s) for v2-frxeth.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-frxeth API from Frax Finance — 12 operation(s) for v2-frxeth.
   name: Frax Finance v2-frxeth API
   slug: frax-v2-frxeth-api
-- description: The v2-frxusd API from Frax Finance — 4 operation(s) for v2-frxusd.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-frxusd API from Frax Finance — 4 operation(s) for v2-frxusd.
   name: Frax Finance v2-frxusd API
   slug: frax-v2-frxusd-api
-- description: The v2-fxb API from Frax Finance — 6 operation(s) for v2-fxb.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-fxb API from Frax Finance — 6 operation(s) for v2-fxb.
   name: Frax Finance v2-fxb API
   slug: frax-v2-fxb-api
-- description: The v2-gauges API from Frax Finance — 8 operation(s) for v2-gauges.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-gauges API from Frax Finance — 8 operation(s) for v2-gauges.
   name: Frax Finance v2-gauges API
   slug: frax-v2-gauges-api
-- description: The v2-gov API from Frax Finance — 5 operation(s) for v2-gov.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-gov API from Frax Finance — 5 operation(s) for v2-gov.
   name: Frax Finance v2-gov API
   slug: frax-v2-gov-api
-- description: The v2-lfrax API from Frax Finance — 2 operation(s) for v2-lfrax.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-lfrax API from Frax Finance — 2 operation(s) for v2-lfrax.
   name: Frax Finance v2-lfrax API
   slug: frax-v2-lfrax-api
-- description: The v2-sfrxusd API from Frax Finance — 4 operation(s) for v2-sfrxusd.
+- baseURL: https://api.frax.finance
+  baseurl_source: declared
+  description: The v2-sfrxusd API from Frax Finance — 4 operation(s) for v2-sfrxusd.
   name: Frax Finance v2-sfrxusd API
   slug: frax-v2-sfrxusd-api
 artifact_total: 41
@@ -283,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/screenshots/frax-2026-06-20T181515.png
 security:

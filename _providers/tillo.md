@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Balance checking operations
+- baseURL: https://app.tillo.io
+  baseurl_source: declared
+  description: Balance checking operations
   name: Tillo Balance API
   slug: tillo-balance-api
-- description: Brand catalog and information
+- baseURL: https://app.tillo.io
+  baseurl_source: declared
+  description: Brand catalog and information
   name: Tillo Brands API
   slug: tillo-brands-api
-- description: Digital gift card issuance
+- baseURL: https://app.tillo.io
+  baseurl_source: declared
+  description: Digital gift card issuance
   name: Tillo Digital Cards API
   slug: tillo-digital-cards-api
-- description: Float account management
+- baseURL: https://app.tillo.io
+  baseurl_source: declared
+  description: Float account management
   name: Tillo Float API
   slug: tillo-float-api
-- description: Order management and status
+- baseURL: https://app.tillo.io
+  baseurl_source: declared
+  description: Order management and status
   name: Tillo Orders API
   slug: tillo-orders-api
 artifact_total: 26
@@ -264,7 +274,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/screenshots/tillo-2026-06-20T195353.png
 security:

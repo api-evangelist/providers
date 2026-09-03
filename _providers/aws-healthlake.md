@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: API operations for adding, listing, and removing tags on HealthLake resources such as data stores. Supports up to 200 tags per resource for cost allocation and resource management.
   name: AWS HealthLake Resource Tagging API
   slug: aws-healthlake-resource-tagging-api
-- description: Operations for creating, describing, listing, and deleting FHIR R4 data stores
+- baseURL: https://healthlake.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, describing, listing, and deleting FHIR R4 data stores
   name: AWS HealthLake Datastore API
   slug: aws-healthlake-datastore-api
-- description: Asynchronous bulk export operations for exporting FHIR resources to Amazon S3
+- baseURL: https://healthlake.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Asynchronous bulk export operations for exporting FHIR resources to Amazon S3
   name: AWS HealthLake Export API
   slug: aws-healthlake-export-api
-- description: Asynchronous bulk import operations for loading FHIR resources from Amazon S3
+- baseURL: https://healthlake.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Asynchronous bulk import operations for loading FHIR resources from Amazon S3
   name: AWS HealthLake Import API
   slug: aws-healthlake-import-api
-- description: Resource tagging operations for cost allocation and resource management
+- baseURL: https://healthlake.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Resource tagging operations for cost allocation and resource management
   name: AWS HealthLake Tags API
   slug: aws-healthlake-tags-api
 artifact_total: 77
@@ -432,7 +440,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
-- description: The Mylibrary API from Google Books — 3 operation(s) for mylibrary.
+- baseURL: https://www.googleapis.com/books/v1
+  baseurl_source: declared
+  description: The Mylibrary API from Google Books — 3 operation(s) for mylibrary.
   name: Google Books Mylibrary API
   slug: google-books-mylibrary-api
-- description: The Users API from Google Books — 3 operation(s) for users.
+- baseURL: https://www.googleapis.com/books/v1
+  baseurl_source: declared
+  description: The Users API from Google Books — 3 operation(s) for users.
   name: Google Books Users API
   slug: google-books-users-api
-- description: The Volumes API from Google Books — 2 operation(s) for volumes.
+- baseURL: https://www.googleapis.com/books/v1
+  baseurl_source: declared
+  description: The Volumes API from Google Books — 2 operation(s) for volumes.
   name: Google Books Volumes API
   slug: google-books-volumes-api
 artifact_total: 19
@@ -189,7 +195,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/screenshots/google-books-2026-06-20T182027.png
 security:

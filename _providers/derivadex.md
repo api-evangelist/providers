@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Order book, tickers, mark prices, and order updates
+- baseURL: https://exchange.derivadex.com
+  baseurl_source: declared
+  description: Order book, tickers, mark prices, and order updates
   name: DerivaDEX Market API
   slug: derivadex-market-api
-- description: Protocol aggregations, supply, positions, strategies, fees, and trader data
+- baseURL: https://exchange.derivadex.com
+  baseurl_source: declared
+  description: Protocol aggregations, supply, positions, strategies, fees, and trader data
   name: DerivaDEX Stats API
   slug: derivadex-stats-api
-- description: Health, server time, and exchange configuration
+- baseURL: https://exchange.derivadex.com
+  baseurl_source: declared
+  description: Health, server time, and exchange configuration
   name: DerivaDEX System API
   slug: derivadex-system-api
 artifact_total: 10
@@ -196,7 +202,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/derivadex/refs/heads/main/screenshots/derivadex-2026-07-25T211741.png
 security:

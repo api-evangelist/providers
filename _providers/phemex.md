@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 89 operations · 32 acting
 api_count: 4
 apis:
-- description: The Account API from Phemex — 10 operation(s) for account.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Account API from Phemex — 10 operation(s) for account.
   name: Phemex Account API
   slug: phemex-account-api
-- description: The Conversion API from Phemex — 2 operation(s) for conversion.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Conversion API from Phemex — 2 operation(s) for conversion.
   name: Phemex Conversion API
   slug: phemex-conversion-api
-- description: The Market Data API from Phemex — 12 operation(s) for market data.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Market Data API from Phemex — 12 operation(s) for market data.
   name: Phemex Market Data API
   slug: phemex-market-data-api
-- description: The Orders API from Phemex — 26 operation(s) for orders.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Orders API from Phemex — 26 operation(s) for orders.
   name: Phemex Orders API
   slug: phemex-orders-api
-- description: The Positions API from Phemex — 6 operation(s) for positions.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Positions API from Phemex — 6 operation(s) for positions.
   name: Phemex Positions API
   slug: phemex-positions-api
-- description: The Sub-Account Transfers API from Phemex — 2 operation(s) for sub-account transfers.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Sub-Account Transfers API from Phemex — 2 operation(s) for sub-account transfers.
   name: Phemex Sub-Account Transfers API
   slug: phemex-sub-account-transfers-api
-- description: The Trades API from Phemex — 7 operation(s) for trades.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Trades API from Phemex — 7 operation(s) for trades.
   name: Phemex Trades API
   slug: phemex-trades-api
-- description: The Transfers API from Phemex — 2 operation(s) for transfers.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Transfers API from Phemex — 2 operation(s) for transfers.
   name: Phemex Transfers API
   slug: phemex-transfers-api
-- description: The Wallets API from Phemex — 8 operation(s) for wallets.
+- baseURL: https://api.phemex.com
+  baseurl_source: declared
+  description: The Wallets API from Phemex — 8 operation(s) for wallets.
   name: Phemex Wallets API
   slug: phemex-wallets-api
 artifact_total: 35
@@ -282,7 +300,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,25 +36,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: 'WordPress core content API (posts, pages, media, taxonomies, users, settings) plus the site''s custom post types — products, careers, events, partners, team members and FAQs — and the optical hardware '
+- baseURL: https://effectphotonics.com/wp-json/
+  baseurl_source: declared
+  description: 'WordPress core content API (posts, pages, media, taxonomies, users, settings) plus the site''s custom post types — products, careers, events, partners, team members and FAQs — and the optical hardware '
   name: EFFECT Photonics Wp/v2 API
   slug: effect-photonics-wp-v2-api
-- description: EFFECT Photonics' own custom REST namespace — a careers synchronisation trigger (POST /effect/v1/careers/sync, observed HTTP 401 anonymously) and a GLB 3D-model position endpoint used by the product v
+- baseURL: https://effectphotonics.com/wp-json/
+  baseurl_source: declared
+  description: EFFECT Photonics' own custom REST namespace — a careers synchronisation trigger (POST /effect/v1/careers/sync, observed HTTP 401 anonymously) and a GLB 3D-model position endpoint used by the product v
   name: EFFECT Photonics Effect/v1 API
   slug: effect-photonics-effect-v1-api
-- description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require authentication (observed HTTP 401 anonymously); the OAuth server answers with a correct RFC 9728 Bearer challe
+- baseURL: https://effectphotonics.com/wp-json/
+  baseurl_source: declared
+  description: Model Context Protocol servers exposed by the WordPress MCP adapter. Both servers require authentication (observed HTTP 401 anonymously); the OAuth server answers with a correct RFC 9728 Bearer challe
   name: EFFECT Photonics MCP API
   slug: effect-photonics-mcp-api
-- description: WordPress Abilities API — the registry of named abilities an agent may discover and run, and the surface the MCP adapter projects into tools. Read access is capability-gated (observed HTTP 401 anonymo
+- baseURL: https://effectphotonics.com/wp-json/
+  baseurl_source: declared
+  description: WordPress Abilities API — the registry of named abilities an agent may discover and run, and the surface the MCP adapter projects into tools. Read access is capability-gated (observed HTTP 401 anonymo
   name: EFFECT Photonics Wp Abilities/v1 API
   slug: effect-photonics-wp-abilities-v1-api
-- description: oEmbed discovery and proxy endpoints.
+- baseURL: https://effectphotonics.com/wp-json/
+  baseurl_source: declared
+  description: oEmbed discovery and proxy endpoints.
   name: EFFECT Photonics Oembed/1.0 API
   slug: effect-photonics-oembed-1-0-api
-- description: REST API index / namespace discovery, plus the WordPress batch/v1 request batching endpoint.
+- baseURL: https://effectphotonics.com/wp-json/
+  baseurl_source: declared
+  description: REST API index / namespace discovery, plus the WordPress batch/v1 request batching endpoint.
   name: EFFECT Photonics Root API
   slug: effect-photonics-root-api
 artifact_total: 19
@@ -267,7 +291,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

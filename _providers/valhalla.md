@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 12 operations · 9 acting
 api_count: 1
 apis:
-- description: The Expansion API from Valhalla — 1 operation(s) for expansion.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Expansion API from Valhalla — 1 operation(s) for expansion.
   name: Valhalla Expansion API
   slug: valhalla-expansion-api
-- description: The Height API from Valhalla — 1 operation(s) for height.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Height API from Valhalla — 1 operation(s) for height.
   name: Valhalla Height API
   slug: valhalla-height-api
-- description: The Isochrone API from Valhalla — 1 operation(s) for isochrone.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Isochrone API from Valhalla — 1 operation(s) for isochrone.
   name: Valhalla Isochrone API
   slug: valhalla-isochrone-api
-- description: The Locate API from Valhalla — 1 operation(s) for locate.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Locate API from Valhalla — 1 operation(s) for locate.
   name: Valhalla Locate API
   slug: valhalla-locate-api
-- description: The Optimized Route API from Valhalla — 1 operation(s) for optimized route.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Optimized Route API from Valhalla — 1 operation(s) for optimized route.
   name: Valhalla Optimized Route API
   slug: valhalla-optimized-route-api
-- description: The Route API from Valhalla — 1 operation(s) for route.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Route API from Valhalla — 1 operation(s) for route.
   name: Valhalla Route API
   slug: valhalla-route-api
-- description: The Sources To Targets API from Valhalla — 1 operation(s) for sources to targets.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Sources To Targets API from Valhalla — 1 operation(s) for sources to targets.
   name: Valhalla Sources To Targets API
   slug: valhalla-sources-to-targets-api
-- description: The Status API from Valhalla — 1 operation(s) for status.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Status API from Valhalla — 1 operation(s) for status.
   name: Valhalla Status API
   slug: valhalla-status-api
-- description: The Tile API from Valhalla — 1 operation(s) for tile.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Tile API from Valhalla — 1 operation(s) for tile.
   name: Valhalla Tile API
   slug: valhalla-tile-api
-- description: The Trace Attributes API from Valhalla — 1 operation(s) for trace attributes.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Trace Attributes API from Valhalla — 1 operation(s) for trace attributes.
   name: Valhalla Trace Attributes API
   slug: valhalla-trace-attributes-api
-- description: The Trace Route API from Valhalla — 1 operation(s) for trace route.
+- baseURL: https://valhalla1.openstreetmap.de
+  baseurl_source: declared
+  description: The Trace Route API from Valhalla — 1 operation(s) for trace route.
   name: Valhalla Trace Route API
   slug: valhalla-trace-route-api
 artifact_total: 38
@@ -252,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/screenshots/valhalla-2026-08-17T082706.png
 security:

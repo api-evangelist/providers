@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: 'Public oEmbed API for TechSmith Screencast (app.screencast.com), the cloud destination where Camtasia videos and images are shared. The oEmbed endpoint returns embed HTML, thumbnail, and metadata for '
   name: TechSmith Screencast oEmbed API
   slug: screencast-oembed-api
-- description: Browse and manage media assets
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Browse and manage media assets
   name: Camtasia Assets API
   slug: camtasia-assets-api
-- description: Browse asset categories
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Browse asset categories
   name: Camtasia Categories API
   slug: camtasia-categories-api
-- description: Download asset files
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Download asset files
   name: Camtasia Downloads API
   slug: camtasia-downloads-api
-- description: Manage asset libraries and collections
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Manage asset libraries and collections
   name: Camtasia Libraries API
   slug: camtasia-libraries-api
-- description: Manage media items on project tracks
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Manage media items on project tracks
   name: Camtasia Media API
   slug: camtasia-media-api
-- description: Produce and export finished videos
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Produce and export finished videos
   name: Camtasia Productions API
   slug: camtasia-productions-api
-- description: Create and manage Camtasia projects
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Create and manage Camtasia projects
   name: Camtasia Projects API
   slug: camtasia-projects-api
-- description: Manage screen recordings
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Manage screen recordings
   name: Camtasia Recordings API
   slug: camtasia-recordings-api
-- description: Manage video project templates
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Manage video project templates
   name: Camtasia Templates API
   slug: camtasia-templates-api
-- description: Manage timeline tracks within a project
+- baseURL: https://app.screencast.com/services/oembed
+  baseurl_source: declared
+  description: Manage timeline tracks within a project
   name: Camtasia Tracks API
   slug: camtasia-tracks-api
 artifact_total: 35
@@ -257,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/screenshots/camtasia-2026-06-20T173915.png
 security:

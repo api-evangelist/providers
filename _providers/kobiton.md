@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Kobiton's Appium/WebDriver endpoint for scripted mobile automation. Point an Appium or Selenium client at the hub with Kobiton desired capabilities to allocate a real device and execute a scripted tes
   name: Kobiton Appium Automation Hub
   slug: kobiton-appium-automation-hub
-- description: The app repository of builds under test.
+- baseURL: https://api.kobiton.com/v1
+  baseurl_source: declared
+  description: The app repository of builds under test.
   name: Kobiton Apps API
   slug: kobiton-apps-api
-- description: Data-driven testing input sets.
+- baseURL: https://api.kobiton.com/v1
+  baseurl_source: declared
+  description: Data-driven testing input sets.
   name: Kobiton Data Sets API
   slug: kobiton-data-sets-api
-- description: Real devices available in the Kobiton device cloud.
+- baseURL: https://api.kobiton.com/v1
+  baseurl_source: declared
+  description: Real devices available in the Kobiton device cloud.
   name: Kobiton Devices API
   slug: kobiton-devices-api
-- description: Organization member administration.
+- baseURL: https://api.kobiton.com/v1
+  baseurl_source: declared
+  description: Organization member administration.
   name: Kobiton Organization API
   slug: kobiton-organization-api
-- description: No-code test runs driven by revisit plans.
+- baseURL: https://api.kobiton.com/v1
+  baseurl_source: declared
+  description: No-code test runs driven by revisit plans.
   name: Kobiton Scriptless Automation API
   slug: kobiton-scriptless-automation-api
-- description: Test-run sessions and their captured commands.
+- baseURL: https://api.kobiton.com/v1
+  baseurl_source: declared
+  description: Test-run sessions and their captured commands.
   name: Kobiton Sessions API
   slug: kobiton-sessions-api
 artifact_total: 20
@@ -184,7 +196,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kobiton/refs/heads/main/screenshots/kobiton-2026-07-25T224033.png
 security:

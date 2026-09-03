@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: GRIN Therapeutics Discovery API
   slug: grin-therapeutics-discovery-api
-- description: Media library (174 attachments at harvest time).
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Media library (174 attachments at harvest time).
   name: GRIN Therapeutics Media API
   slug: grin-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for grintherapeutics.com URLs.
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for grintherapeutics.com URLs.
   name: GRIN Therapeutics Oembed API
   slug: grin-therapeutics-oembed-api
-- description: Corporate and clinical-programme pages (10 published at harvest time).
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Corporate and clinical-programme pages (10 published at harvest time).
   name: GRIN Therapeutics Pages API
   slug: grin-therapeutics-pages-api
-- description: Blog/news post collection. Registered and reachable, but empty (X-WP-Total 0) — the News page is authored as a WPBakery page, not as posts.
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Blog/news post collection. Registered and reachable, but empty (X-WP-Total 0) — the News page is authored as a WPBakery page, not as posts.
   name: GRIN Therapeutics Posts API
   slug: grin-therapeutics-posts-api
-- description: Cross-content search across published objects.
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects.
   name: GRIN Therapeutics Search API
   slug: grin-therapeutics-search-api
-- description: Categories and tags. Registered by WordPress core; every term reports count 0 on this deployment.
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Registered by WordPress core; every term reports count 0 on this deployment.
   name: GRIN Therapeutics Taxonomy API
   slug: grin-therapeutics-taxonomy-api
-- description: Public author records.
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: Public author records.
   name: GRIN Therapeutics Users API
   slug: grin-therapeutics-users-api
 artifact_total: 19
@@ -236,7 +263,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grin-therapeutics/refs/heads/main/screenshots/grin-therapeutics-2026-08-07T165843.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 32 operations · 13 acting
 api_count: 1
 apis:
-- description: Partner account signup, login, switching, and permissions.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Partner account signup, login, switching, and permissions.
   name: Revelator Account API
   slug: revelator-account-api
-- description: Rights contracts and payee management.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Rights contracts and payee management.
   name: Revelator Accounting API
   slug: revelator-accounting-api
-- description: Revenue, consumption, engagement, playlist, and artificial-streaming analytics.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Revenue, consumption, engagement, playlist, and artificial-streaming analytics.
   name: Revelator Analytics API
   slug: revelator-analytics-api
-- description: Release validation, distribution options, queueing, status, takedown.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Release validation, distribution options, queueing, status, takedown.
   name: Revelator Distribution API
   slug: revelator-distribution-api
-- description: Payment-provider (Tipalti) integration.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Payment-provider (Tipalti) integration.
   name: Revelator Integrations API
   slug: revelator-integrations-api
-- description: Common reference/lookup data.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Common reference/lookup data.
   name: Revelator Lookup API
   slug: revelator-lookup-api
-- description: Financial sale reports and user statements.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Financial sale reports and user statements.
   name: Revelator Revenue API
   slug: revelator-revenue-api
-- description: Minting and retrieving ERC1155 royalty tokens.
+- baseURL: https://api.revelator.com
+  baseurl_source: declared
+  description: Minting and retrieving ERC1155 royalty tokens.
   name: Revelator Royalty Tokens API
   slug: revelator-royalty-tokens-api
 artifact_total: 24
@@ -174,7 +190,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +219,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revelator/refs/heads/main/screenshots/revelator-2026-09-02T153702.png
 security:
 - kind: authentication
   name: Revelator Authentication

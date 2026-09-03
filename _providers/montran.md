@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -86,91 +86,149 @@ apis:
 - description: A backup real-time gross settlement solution providing business continuity for critical payment infrastructure, ensuring settlement operations continue even during primary system outages.
   name: Montran Backup RTGS
   slug: montran-backup-rtgs
-- description: PSD2-compliant account information operations for AISP integration. Provides account details, balances, and transaction history.
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: PSD2-compliant account information operations for AISP integration. Provides account details, balances, and transaction history.
   name: Montran Account Information API
   slug: montran-account-information-api
-- description: Virtual account hierarchy and structure management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Virtual account hierarchy and structure management
   name: Montran Account Structures API
   slug: montran-account-structures-api
-- description: Multi-bank account visibility and management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Multi-bank account visibility and management
   name: Montran Accounts API
   slug: montran-accounts-api
-- description: Screening alert management and resolution
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Screening alert management and resolution
   name: Montran Alerts API
   slug: montran-alerts-api
-- description: Payment approval workflow management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Payment approval workflow management
   name: Montran Approvals API
   slug: montran-approvals-api
-- description: Balance inquiry and reconciliation operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Balance inquiry and reconciliation operations
   name: Montran Balances API
   slug: montran-balances-api
-- description: Beneficiary management for recurring payments
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Beneficiary management for recurring payments
   name: Montran Beneficiaries API
   slug: montran-beneficiaries-api
-- description: Communication channel management and monitoring
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Communication channel management and monitoring
   name: Montran Channels API
   slug: montran-channels-api
-- description: Clearing and settlement operations across multiple CSMs
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Clearing and settlement operations across multiple CSMs
   name: Montran Clearing API
   slug: montran-clearing-api
-- description: Clearing and settlement system connectivity
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Clearing and settlement system connectivity
   name: Montran Clearing Systems API
   slug: montran-clearing-systems-api
-- description: Screening rules and channel configuration
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Screening rules and channel configuration
   name: Montran Configuration API
   slug: montran-configuration-api
-- description: PSD2 consent management for AISP and PISP access
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: PSD2 consent management for AISP and PISP access
   name: Montran Consent API
   slug: montran-consent-api
-- description: Credit transfer payment operations including SEPA and cross-border
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Credit transfer payment operations including SEPA and cross-border
   name: Montran Credit Transfers API
   slug: montran-credit-transfers-api
-- description: Direct debit payment operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Direct debit payment operations
   name: Montran Direct Debits API
   slug: montran-direct-debits-api
-- description: File upload and processing for batch payments
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: File upload and processing for batch payments
   name: Montran Files API
   slug: montran-files-api
-- description: Real-time instant payment processing with guaranteed end-to-end latency of a few seconds
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Real-time instant payment processing with guaranteed end-to-end latency of a few seconds
   name: Montran Instant Payments API
   slug: montran-instant-payments-api
-- description: Sanctions and compliance list management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Sanctions and compliance list management
   name: Montran Lists API
   slug: montran-lists-api
-- description: Message format conversion and validation
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Message format conversion and validation
   name: Montran Message Formats API
   slug: montran-message-formats-api
-- description: Message routing and transformation between systems
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Message routing and transformation between systems
   name: Montran Message Routing API
   slug: montran-message-routing-api
-- description: PSD2-compliant payment initiation operations for PISP integration. Supports instant credit transfers and request-to-pay flows.
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: PSD2-compliant payment initiation operations for PISP integration. Supports instant credit transfers and request-to-pay flows.
   name: Montran Payment Initiation API
   slug: montran-payment-initiation-api
-- description: Payment status inquiry and tracking operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Payment status inquiry and tracking operations
   name: Montran Payment Status API
   slug: montran-payment-status-api
-- description: Corporate payment initiation and management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Corporate payment initiation and management
   name: Montran Payments API
   slug: montran-payments-api
-- description: Request-to-pay initiation and management operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Request-to-pay initiation and management operations
   name: Montran Request to Pay API
   slug: montran-request-to-pay-api
-- description: Transaction and entity screening operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Transaction and entity screening operations
   name: Montran Screening API
   slug: montran-screening-api
-- description: Account statement and reporting operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Account statement and reporting operations
   name: Montran Statements API
   slug: montran-statements-api
-- description: SWIFT network connectivity and message management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: SWIFT network connectivity and message management
   name: Montran SWIFT API
   slug: montran-swift-api
-- description: Transaction processing and allocation
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Transaction processing and allocation
   name: Montran Transactions API
   slug: montran-transactions-api
-- description: Virtual account creation, management, and lifecycle operations
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Virtual account creation, management, and lifecycle operations
   name: Montran Virtual Accounts API
   slug: montran-virtual-accounts-api
-- description: Virtual IBAN issuance and management
+- baseURL: https://api.montran.com/corporate/v1
+  baseurl_source: spec
+  description: Virtual IBAN issuance and management
   name: Montran Virtual IBANs API
   slug: montran-virtual-ibans-api
 artifact_total: 185
@@ -723,7 +781,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/screenshots/montran-2026-06-20T185750.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 129 operations · 57 acting
 api_count: 1
 apis:
-- description: The Account Endpoints API from Total Expert — 7 operation(s) for account endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Account Endpoints API from Total Expert — 7 operation(s) for account endpoints.
   name: Total Expert Account Endpoints API
   slug: total-expert-account-endpoints-api
-- description: The Activity Endpoints API from Total Expert — 2 operation(s) for activity endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Activity Endpoints API from Total Expert — 2 operation(s) for activity endpoints.
   name: Total Expert Activity Endpoints API
   slug: total-expert-activity-endpoints-api
-- description: The ALM Leads (formerly Lead Opportunities) API from Total Expert — 2 operation(s) for alm leads (formerly lead opportunities).
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The ALM Leads (formerly Lead Opportunities) API from Total Expert — 2 operation(s) for alm leads (formerly lead opportunities).
   name: Total Expert ALM Leads (formerly Lead Opportunities) API
   slug: total-expert-alm-leads-formerly-lead-opportunities-api
-- description: The Authentication API from Total Expert — 1 operation(s) for authentication.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Authentication API from Total Expert — 1 operation(s) for authentication.
   name: Total Expert Authentication API
   slug: total-expert-authentication-api
-- description: The Contact Endpoints API from Total Expert — 21 operation(s) for contact endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Contact Endpoints API from Total Expert — 21 operation(s) for contact endpoints.
   name: Total Expert Contact Endpoints API
   slug: total-expert-contact-endpoints-api
-- description: The Email APIs API from Total Expert — 4 operation(s) for email apis.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Email APIs API from Total Expert — 4 operation(s) for email apis.
   name: Total Expert Email APIs API
   slug: total-expert-email-apis-api
-- description: The Email Unsubscribes API from Total Expert — 3 operation(s) for email unsubscribes.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Email Unsubscribes API from Total Expert — 3 operation(s) for email unsubscribes.
   name: Total Expert Email Unsubscribes API
   slug: total-expert-email-unsubscribes-api
-- description: The Entities API from Total Expert — 3 operation(s) for entities.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Entities API from Total Expert — 3 operation(s) for entities.
   name: Total Expert Entities API
   slug: total-expert-entities-api
-- description: The Heartbeat API from Total Expert — 2 operation(s) for heartbeat.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Heartbeat API from Total Expert — 2 operation(s) for heartbeat.
   name: Total Expert Heartbeat API
   slug: total-expert-heartbeat-api
-- description: The Insight Endpoints API from Total Expert — 3 operation(s) for insight endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Insight Endpoints API from Total Expert — 3 operation(s) for insight endpoints.
   name: Total Expert Insight Endpoints API
   slug: total-expert-insight-endpoints-api
-- description: The Lead Opportunities (New) API from Total Expert — 2 operation(s) for lead opportunities (new).
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Lead Opportunities (New) API from Total Expert — 2 operation(s) for lead opportunities (new).
   name: Total Expert Lead Opportunities (New) API
   slug: total-expert-lead-opportunities-new-api
-- description: The Loan Endpoints API from Total Expert — 10 operation(s) for loan endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Loan Endpoints API from Total Expert — 10 operation(s) for loan endpoints.
   name: Total Expert Loan Endpoints API
   slug: total-expert-loan-endpoints-api
-- description: The Scenarios API from Total Expert — 2 operation(s) for scenarios.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Scenarios API from Total Expert — 2 operation(s) for scenarios.
   name: Total Expert Scenarios API
   slug: total-expert-scenarios-api
-- description: The Schema Endpoints API from Total Expert — 2 operation(s) for schema endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Schema Endpoints API from Total Expert — 2 operation(s) for schema endpoints.
   name: Total Expert Schema Endpoints API
   slug: total-expert-schema-endpoints-api
-- description: The SMS Opting API from Total Expert — 2 operation(s) for sms opting.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The SMS Opting API from Total Expert — 2 operation(s) for sms opting.
   name: Total Expert SMS Opting API
   slug: total-expert-sms-opting-api
-- description: The User Endpoints API from Total Expert — 9 operation(s) for user endpoints.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The User Endpoints API from Total Expert — 9 operation(s) for user endpoints.
   name: Total Expert User Endpoints API
   slug: total-expert-user-endpoints-api
-- description: The Webhooks API from Total Expert — 3 operation(s) for webhooks.
+- baseURL: https://public.totalexpert.net/v1
+  baseurl_source: declared
+  description: The Webhooks API from Total Expert — 3 operation(s) for webhooks.
   name: Total Expert Webhooks API
   slug: total-expert-webhooks-api
 artifact_total: 62
@@ -414,7 +448,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -424,7 +458,7 @@ score:
     discoverability: 68.5
     governance: 33.3
     operational_transparency: 63.2
-  previous_composite: 62.6
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -442,7 +476,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/screenshots/total-expert-2026-08-17T082415.png
 security:

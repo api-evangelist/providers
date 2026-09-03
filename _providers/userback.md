@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: REST API for managing Userback feedback items, projects, users, tags, and account resources. Uses Bearer token authentication; partner integrations use an X-Partner-Code header.
   name: Userback REST API
   slug: rest-api
-- description: Feedback items captured by Userback widgets.
+- baseURL: https://rest.userback.io/1.0
+  baseurl_source: declared
+  description: Feedback items captured by Userback widgets.
   name: Userback Feedback API
   slug: userback-feedback-api
-- description: Comments attached to feedback items.
+- baseURL: https://rest.userback.io/1.0
+  baseurl_source: declared
+  description: Comments attached to feedback items.
   name: Userback Feedback Comments API
   slug: userback-feedback-comments-api
-- description: Userback projects (workspaces grouping feedback widgets).
+- baseURL: https://rest.userback.io/1.0
+  baseurl_source: declared
+  description: Userback projects (workspaces grouping feedback widgets).
   name: Userback Projects API
   slug: userback-projects-api
 artifact_total: 12
@@ -157,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/screenshots/userback-2026-06-20T200723.png
 security:

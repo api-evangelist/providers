@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 2
 apis:
-- description: The Balances API from Merit Systems — 4 operation(s) for balances.
+- baseURL: https://api.merit.systems/v1
+  baseurl_source: declared
+  description: The Balances API from Merit Systems — 4 operation(s) for balances.
   name: Merit Systems Balances API
   slug: merit-systems-balances-api
-- description: The Invite Codes API from Merit Systems — 1 operation(s) for invite codes.
+- baseURL: https://api.merit.systems/v1
+  baseurl_source: declared
+  description: The Invite Codes API from Merit Systems — 1 operation(s) for invite codes.
   name: Merit Systems Invite Codes API
   slug: merit-systems-invite-codes-api
-- description: The Organizations API from Merit Systems — 1 operation(s) for organizations.
+- baseURL: https://api.merit.systems/v1
+  baseurl_source: declared
+  description: The Organizations API from Merit Systems — 1 operation(s) for organizations.
   name: Merit Systems Organizations API
   slug: merit-systems-organizations-api
-- description: The Payments API from Merit Systems — 1 operation(s) for payments.
+- baseURL: https://api.merit.systems/v1
+  baseurl_source: declared
+  description: The Payments API from Merit Systems — 1 operation(s) for payments.
   name: Merit Systems Payments API
   slug: merit-systems-payments-api
-- description: The Search API from Merit Systems — 1 operation(s) for search.
+- baseURL: https://api.merit.systems/v1
+  baseurl_source: declared
+  description: The Search API from Merit Systems — 1 operation(s) for search.
   name: Merit Systems Search API
   slug: merit-systems-search-api
-- description: The Send API from Merit Systems — 1 operation(s) for send.
+- baseURL: https://api.merit.systems/v1
+  baseurl_source: declared
+  description: The Send API from Merit Systems — 1 operation(s) for send.
   name: Merit Systems Send API
   slug: merit-systems-send-api
 artifact_total: 17
@@ -230,7 +242,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -3.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -240,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 51.4
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,7 +270,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merit-systems/refs/heads/main/screenshots/merit-systems-2026-08-07T172603.png
 security:

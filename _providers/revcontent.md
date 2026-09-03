@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: REST API providing programmatic access to RevContent's advertising platform for managing campaigns (boosts), widgets, content, targeting, widget blacklisting, conversion pixels, sub accounts, and stat
   name: RevContent Stats & Management API
   slug: revcontent-stats-management-api
-- description: OAuth 2.0 client-credentials token issuance and account reactivation.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: OAuth 2.0 client-credentials token issuance and account reactivation.
   name: RevContent Access API
   slug: revcontent-access-api
-- description: CCPA consumer data access and deletion requests for publishers.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: CCPA consumer data access and deletion requests for publishers.
   name: RevContent CCPA API
   slug: revcontent-ccpa-api
-- description: Ad creatives attached to campaigns, and their per-widget performance.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Ad creatives attached to campaigns, and their per-widget performance.
   name: RevContent Content API
   slug: revcontent-content-api
-- description: Conversion pixel management used by CPA-optimized campaigns.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Conversion pixel management used by CPA-optimized campaigns.
   name: RevContent Conversions API
   slug: revcontent-conversions-api
-- description: Reference lookups for browsers, countries, devices, DMAs, languages, operating systems and regions — the source of every valid targeting code.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Reference lookups for browsers, countries, devices, DMAs, languages, operating systems and regions — the source of every valid targeting code.
   name: RevContent Helpers API
   slug: revcontent-helpers-api
-- description: Create, edit, list and enable/disable child accounts under a parent account.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Create, edit, list and enable/disable child accounts under a parent account.
   name: RevContent Sub Accounts API
   slug: revcontent-sub-accounts-api
-- description: Per-campaign widget targeting and widget-level bid overrides.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Per-campaign widget targeting and widget-level bid overrides.
   name: RevContent Targeting API
   slug: revcontent-targeting-api
-- description: Publisher-owned content injected into that publisher's own widget.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Publisher-owned content injected into that publisher's own widget.
   name: RevContent Widget Internal Content API
   slug: revcontent-widget-internal-content-api
-- description: Campaign-level widget blacklisting.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Campaign-level widget blacklisting.
   name: RevContent Widget Optimizer API
   slug: revcontent-widget-optimizer-api
-- description: Create, update, list, archive and report on advertising campaigns (boosts).
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Create, update, list, archive and report on advertising campaigns (boosts).
   name: RevContent Campaigns API
   slug: revcontent-campaigns-api
-- description: Publisher widget inventory, geo statistics and Sub ID reporting.
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Publisher widget inventory, geo statistics and Sub ID reporting.
   name: RevContent Widget API
   slug: revcontent-widget-api
 artifact_total: 62
@@ -433,7 +455,7 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -443,7 +465,7 @@ score:
     discoverability: 74.1
     governance: 72.7
     operational_transparency: 28.9
-  previous_composite: 58.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -455,8 +477,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/screenshots/revcontent-2026-06-20T193044.png
 security:
 - kind: authentication

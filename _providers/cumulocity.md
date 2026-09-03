@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 128 operations · 72 acting · 10 human-in-the-loop
 api_count: 17
 apis:
-- description: Constrained-device MQTT broker fronting the Cumulocity REST API with a CSV-based SmartREST 2.0 payload format that saves up to 80% of mobile traffic versus JSON. Supports static templates for common o
+- baseURL: mqtt://{tenant}.cumulocity.com:1883
+  baseurl_source: declared
+  description: Constrained-device MQTT broker fronting the Cumulocity REST API with a CSV-based SmartREST 2.0 payload format that saves up to 80% of mobile traffic versus JSON. Supports static templates for common o
   name: Cumulocity MQTT and SmartREST API
   slug: cumulocity-mqtt-api
-- description: Standards-compliant, multi-tenant MQTT broker for application-level messaging that does not need Cumulocity's domain model. Topics are tenant-scoped, persistent, and bridgeable to the Cumulocity domai
+- baseURL: mqtts://mqtt.{tenant}.cumulocity.com:8883
+  baseurl_source: declared
+  description: Standards-compliant, multi-tenant MQTT broker for application-level messaging that does not need Cumulocity's domain model. Topics are tenant-scoped, persistent, and bridgeable to the Cumulocity domai
   name: Cumulocity MQTT Service API
   slug: cumulocity-mqtt-service-api
-- description: The Alarms API from Cumulocity — 2 operation(s) for alarms.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Alarms API from Cumulocity — 2 operation(s) for alarms.
   name: Cumulocity Alarms API
   slug: cumulocity-alarms-api
-- description: The Application Binaries API from Cumulocity — 1 operation(s) for application binaries.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Application Binaries API from Cumulocity — 1 operation(s) for application binaries.
   name: Cumulocity Application Binaries API
   slug: cumulocity-application-binaries-api
-- description: The Applications API from Cumulocity — 2 operation(s) for applications.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Applications API from Cumulocity — 2 operation(s) for applications.
   name: Cumulocity Applications API
   slug: cumulocity-applications-api
-- description: The Asset Instances API from Cumulocity — 2 operation(s) for asset instances.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Asset Instances API from Cumulocity — 2 operation(s) for asset instances.
   name: Cumulocity Asset Instances API
   slug: cumulocity-asset-instances-api
-- description: The Asset Models API from Cumulocity — 2 operation(s) for asset models.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Asset Models API from Cumulocity — 2 operation(s) for asset models.
   name: Cumulocity Asset Models API
   slug: cumulocity-asset-models-api
-- description: The Audit Records API from Cumulocity — 2 operation(s) for audit records.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Audit Records API from Cumulocity — 2 operation(s) for audit records.
   name: Cumulocity Audit Records API
   slug: cumulocity-audit-records-api
-- description: The Bayeux Handshake API from Cumulocity — 1 operation(s) for bayeux handshake.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Bayeux Handshake API from Cumulocity — 1 operation(s) for bayeux handshake.
   name: Cumulocity Bayeux Handshake API
   slug: cumulocity-bayeux-handshake-api
-- description: Binary attachments associated with managed objects.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: Binary attachments associated with managed objects.
   name: Cumulocity Binaries API
   slug: cumulocity-binaries-api
-- description: The Bootstrap Users API from Cumulocity — 1 operation(s) for bootstrap users.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Bootstrap Users API from Cumulocity — 1 operation(s) for bootstrap users.
   name: Cumulocity Bootstrap Users API
   slug: cumulocity-bootstrap-users-api
-- description: The Bulk Operations API from Cumulocity — 2 operation(s) for bulk operations.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Bulk Operations API from Cumulocity — 2 operation(s) for bulk operations.
   name: Cumulocity Bulk Operations API
   slug: cumulocity-bulk-operations-api
-- description: Hierarchical relationships between managed objects.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: Hierarchical relationships between managed objects.
   name: Cumulocity Child References API
   slug: cumulocity-child-references-api
-- description: The Cloud Sync API from Cumulocity — 1 operation(s) for cloud sync.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Cloud Sync API from Cumulocity — 1 operation(s) for cloud sync.
   name: Cumulocity Cloud Sync API
   slug: cumulocity-cloud-sync-api
-- description: The Current User API from Cumulocity — 1 operation(s) for current user.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Current User API from Cumulocity — 1 operation(s) for current user.
   name: Cumulocity Current User API
   slug: cumulocity-current-user-api
-- description: The Device Credentials API from Cumulocity — 1 operation(s) for device credentials.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Device Credentials API from Cumulocity — 1 operation(s) for device credentials.
   name: Cumulocity Device Credentials API
   slug: cumulocity-device-credentials-api
-- description: The Event Binaries API from Cumulocity — 1 operation(s) for event binaries.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Event Binaries API from Cumulocity — 1 operation(s) for event binaries.
   name: Cumulocity Event Binaries API
   slug: cumulocity-event-binaries-api
-- description: The Events API from Cumulocity — 2 operation(s) for events.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Events API from Cumulocity — 2 operation(s) for events.
   name: Cumulocity Events API
   slug: cumulocity-events-api
-- description: The External IDs API from Cumulocity — 2 operation(s) for external ids.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The External IDs API from Cumulocity — 2 operation(s) for external ids.
   name: Cumulocity External IDs API
   slug: cumulocity-external-ids-api
-- description: The Groups API from Cumulocity — 2 operation(s) for groups.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Groups API from Cumulocity — 2 operation(s) for groups.
   name: Cumulocity Groups API
   slug: cumulocity-groups-api
-- description: Inventory documents representing devices, assets, groups, and digital twins.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: Inventory documents representing devices, assets, groups, and digital twins.
   name: Cumulocity Managed Objects API
   slug: cumulocity-managed-objects-api
-- description: The Measurements API from Cumulocity — 2 operation(s) for measurements.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Measurements API from Cumulocity — 2 operation(s) for measurements.
   name: Cumulocity Measurements API
   slug: cumulocity-measurements-api
-- description: The New Device Requests API from Cumulocity — 2 operation(s) for new device requests.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The New Device Requests API from Cumulocity — 2 operation(s) for new device requests.
   name: Cumulocity New Device Requests API
   slug: cumulocity-new-device-requests-api
-- description: The Offload Configurations API from Cumulocity — 2 operation(s) for offload configurations.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Offload Configurations API from Cumulocity — 2 operation(s) for offload configurations.
   name: Cumulocity Offload Configurations API
   slug: cumulocity-offload-configurations-api
-- description: The Offload Jobs API from Cumulocity — 1 operation(s) for offload jobs.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Offload Jobs API from Cumulocity — 1 operation(s) for offload jobs.
   name: Cumulocity Offload Jobs API
   slug: cumulocity-offload-jobs-api
-- description: The Operations API from Cumulocity — 2 operation(s) for operations.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Operations API from Cumulocity — 2 operation(s) for operations.
   name: Cumulocity Operations API
   slug: cumulocity-operations-api
-- description: The Queries API from Cumulocity — 1 operation(s) for queries.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Queries API from Cumulocity — 1 operation(s) for queries.
   name: Cumulocity Queries API
   slug: cumulocity-queries-api
-- description: The Retention Rules API from Cumulocity — 2 operation(s) for retention rules.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Retention Rules API from Cumulocity — 2 operation(s) for retention rules.
   name: Cumulocity Retention Rules API
   slug: cumulocity-retention-rules-api
-- description: The Roles API from Cumulocity — 1 operation(s) for roles.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Roles API from Cumulocity — 1 operation(s) for roles.
   name: Cumulocity Roles API
   slug: cumulocity-roles-api
-- description: The Series API from Cumulocity — 1 operation(s) for series.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Series API from Cumulocity — 1 operation(s) for series.
   name: Cumulocity Series API
   slug: cumulocity-series-api
-- description: The Software Updates API from Cumulocity — 1 operation(s) for software updates.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Software Updates API from Cumulocity — 1 operation(s) for software updates.
   name: Cumulocity Software Updates API
   slug: cumulocity-software-updates-api
-- description: The Subscriptions API from Cumulocity — 2 operation(s) for subscriptions.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Subscriptions API from Cumulocity — 2 operation(s) for subscriptions.
   name: Cumulocity Subscriptions API
   slug: cumulocity-subscriptions-api
-- description: Discover the measurement types reported against a managed object.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: Discover the measurement types reported against a managed object.
   name: Cumulocity Supported Measurements API
   slug: cumulocity-supported-measurements-api
-- description: The System API from Cumulocity — 2 operation(s) for system.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The System API from Cumulocity — 2 operation(s) for system.
   name: Cumulocity System API
   slug: cumulocity-system-api
-- description: The Tenant Options API from Cumulocity — 2 operation(s) for tenant options.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Tenant Options API from Cumulocity — 2 operation(s) for tenant options.
   name: Cumulocity Tenant Options API
   slug: cumulocity-tenant-options-api
-- description: The Tenant Statistics API from Cumulocity — 1 operation(s) for tenant statistics.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Tenant Statistics API from Cumulocity — 1 operation(s) for tenant statistics.
   name: Cumulocity Tenant Statistics API
   slug: cumulocity-tenant-statistics-api
-- description: The Tenants API from Cumulocity — 2 operation(s) for tenants.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Tenants API from Cumulocity — 2 operation(s) for tenants.
   name: Cumulocity Tenants API
   slug: cumulocity-tenants-api
-- description: The Tokens API from Cumulocity — 2 operation(s) for tokens.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Tokens API from Cumulocity — 2 operation(s) for tokens.
   name: Cumulocity Tokens API
   slug: cumulocity-tokens-api
-- description: The Users API from Cumulocity — 2 operation(s) for users.
+- baseURL: https://{tenant}.cumulocity.com/inventory
+  baseurl_source: declared
+  description: The Users API from Cumulocity — 2 operation(s) for users.
   name: Cumulocity Users API
   slug: cumulocity-users-api
 artifact_total: 186
@@ -874,7 +952,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -884,7 +962,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 63.2
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
@@ -893,7 +971,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:

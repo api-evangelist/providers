@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 54 operations · 30 acting
 api_count: 1
 apis:
-- description: Accounts are used to represent users that use the platform's services.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Accounts are used to represent users that use the platform's services.
   name: Bakkt Accounts API
   slug: bakkt-accounts-api
-- description: Authorization allows Client systems to authenticate and access services on behalf of their investors.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Authorization allows Client systems to authenticate and access services on behalf of their investors.
   name: Bakkt Authorization API
   slug: bakkt-authorization-api
-- description: The Block Trade & Allocate API from Bakkt — 5 operation(s) for block trade & allocate.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Block Trade & Allocate API from Bakkt — 5 operation(s) for block trade & allocate.
   name: Bakkt Block Trade & Allocate API
   slug: bakkt-block-trade-allocate-api
-- description: Client systems can use these resources to provide a connection to the platform's services and check API status.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Client systems can use these resources to provide a connection to the platform's services and check API status.
   name: Bakkt Configuration and Status API
   slug: bakkt-configuration-and-status-api
-- description: The Currency Onboarding API from Bakkt — 5 operation(s) for currency onboarding.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Currency Onboarding API from Bakkt — 5 operation(s) for currency onboarding.
   name: Bakkt Currency Onboarding API
   slug: bakkt-currency-onboarding-api
-- description: Documents allows users to upload and retrieve documents along with their relevant metadata.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Documents allows users to upload and retrieve documents along with their relevant metadata.
   name: Bakkt Documents API
   slug: bakkt-documents-api
-- description: The Fiat Onboarding API from Bakkt — 5 operation(s) for fiat onboarding.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Fiat Onboarding API from Bakkt — 5 operation(s) for fiat onboarding.
   name: Bakkt Fiat Onboarding API
   slug: bakkt-fiat-onboarding-api
-- description: The Gift API from Bakkt — 2 operation(s) for gift.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Gift API from Bakkt — 2 operation(s) for gift.
   name: Bakkt Gift API
   slug: bakkt-gift-api
-- description: Instruments provides information about assets offered on the platform.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Instruments provides information about assets offered on the platform.
   name: Bakkt Instruments API
   slug: bakkt-instruments-api
-- description: Jurisdictions provides information about trading restrictions in different jurisdictions
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Jurisdictions provides information about trading restrictions in different jurisdictions
   name: Bakkt Jurisdictions API
   slug: bakkt-jurisdictions-api
-- description: Orders enables customers to buy or sell crypto.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Orders enables customers to buy or sell crypto.
   name: Bakkt Orders API
   slug: bakkt-orders-api
-- description: The Partner Connectivity API from Bakkt — 2 operation(s) for partner connectivity.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Partner Connectivity API from Bakkt — 2 operation(s) for partner connectivity.
   name: Bakkt Partner Connectivity API
   slug: bakkt-partner-connectivity-api
-- description: The Partner Party Funding API from Bakkt — 5 operation(s) for partner party funding.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Partner Party Funding API from Bakkt — 5 operation(s) for partner party funding.
   name: Bakkt Partner Party Funding API
   slug: bakkt-partner-party-funding-api
-- description: The Partner Party Kyc API from Bakkt — 1 operation(s) for partner party kyc.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Partner Party Kyc API from Bakkt — 1 operation(s) for partner party kyc.
   name: Bakkt Partner Party Kyc API
   slug: bakkt-partner-party-kyc-api
-- description: The Partner Party Linking API from Bakkt — 3 operation(s) for partner party linking.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: The Partner Party Linking API from Bakkt — 3 operation(s) for partner party linking.
   name: Bakkt Partner Party Linking API
   slug: bakkt-partner-party-linking-api
-- description: Positions provide up-to-date information about crypto balances and transactions.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Positions provide up-to-date information about crypto balances and transactions.
   name: Bakkt Positions API
   slug: bakkt-positions-api
-- description: Transfers allow users to access deposit and withdrawal functionality both within the Bakkt network and across the blockchain.
+- baseURL: https://api.bakkt.com
+  baseurl_source: declared
+  description: Transfers allow users to access deposit and withdrawal functionality both within the Bakkt network and across the blockchain.
   name: Bakkt Transfers API
   slug: bakkt-transfers-api
 artifact_total: 40
@@ -299,7 +333,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -309,7 +343,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +361,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/screenshots/bakkt-2026-07-25T202255.png
 security:

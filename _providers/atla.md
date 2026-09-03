@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The SDK API from Atla — 3 operation(s) for sdk.
+- baseURL: https://app.atla-ai.com
+  baseurl_source: declared
+  description: The SDK API from Atla — 3 operation(s) for sdk.
   name: Atla SDK API
   slug: atla-sdk-api
 artifact_total: 6
@@ -178,7 +180,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atla/refs/heads/main/screenshots/atla-2026-07-25T201538.png
 security:

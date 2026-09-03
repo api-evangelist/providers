@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -62,37 +62,59 @@ apis:
 - description: The Mercedes-Benz Fleet API integrates vehicle data into fleet management systems without retrofit hardware. It splits into a REST Management API (add vehicles, activate/deactivate per-vehicle data pa
   name: Mercedes-Benz Fleet API
   slug: mercedes-benz-fleet-api
-- description: The Components API from Mercedes-Benz Mercedes me — 7 operation(s) for components.
+- baseURL: https://api.mercedes-benz.com/image/v1/vehicles
+  baseurl_source: declared
+  description: The Components API from Mercedes-Benz Mercedes me — 7 operation(s) for components.
   name: Mercedes-Benz Mercedes me Components API
   slug: mercedes-me-components-api
-- description: Select equipment and configure a car
+- baseURL: https://api.mercedes-benz.com/configurator/v1
+  baseurl_source: declared
+  description: Select equipment and configure a car
   name: Mercedes-Benz Mercedes me Configurations API
   slug: mercedes-me-configurations-api
-- description: Resources that provide search functions for dealers (dealer, garage, retailer, etc.) based on given attributes.
+- baseURL: https://api.mercedes-benz.com/dealer/v1
+  baseurl_source: declared
+  description: Resources that provide search functions for dealers (dealer, garage, retailer, etc.) based on given attributes.
   name: Mercedes-Benz Mercedes me Dealer search API
   slug: mercedes-me-dealer-search-api
-- description: Remote Diagnostic Support service for view dtc snapshot List.
+- baseURL: https://api.mercedes-benz.com/remotediagnostic/v1
+  baseurl_source: declared
+  description: Remote Diagnostic Support service for view dtc snapshot List.
   name: Mercedes-Benz Mercedes me Diagnostic Trouble Code (DTC) Snapshots API
   slug: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api
-- description: Remote Diagnostic Support service for view dtc List.
+- baseURL: https://api.mercedes-benz.com/remotediagnostic/v1
+  baseurl_source: declared
+  description: Remote Diagnostic Support service for view dtc List.
   name: Mercedes-Benz Mercedes me Diagnostic Trouble Codes (DTC's) API
   slug: mercedes-me-diagnostic-trouble-codes-dtc-s-api
-- description: Remote Diagnostic Support services for view ecu List.
+- baseURL: https://api.mercedes-benz.com/remotediagnostic/v1
+  baseurl_source: declared
+  description: Remote Diagnostic Support services for view ecu List.
   name: Mercedes-Benz Mercedes me Electronical Control Units (ECU's) API
   slug: mercedes-me-electronical-control-units-ecu-s-api
-- description: Get images for the vehicle configuration and its components
+- baseURL: https://api.mercedes-benz.com/configurator/v1
+  baseurl_source: declared
+  description: Get images for the vehicle configuration and its components
   name: Mercedes-Benz Mercedes me Images API
   slug: mercedes-me-images-api
-- description: The Perspectives API from Mercedes-Benz Mercedes me — 1 operation(s) for perspectives.
+- baseURL: https://api.mercedes-benz.com/image/v1/vehicles
+  baseurl_source: declared
+  description: The Perspectives API from Mercedes-Benz Mercedes me — 1 operation(s) for perspectives.
   name: Mercedes-Benz Mercedes me Perspectives API
   slug: mercedes-me-perspectives-api
-- description: Provide static reference data about cars like markets, bodies, classes, etc.
+- baseURL: https://api.mercedes-benz.com/configurator/v1
+  baseurl_source: declared
+  description: Provide static reference data about cars like markets, bodies, classes, etc.
   name: Mercedes-Benz Mercedes me References API
   slug: mercedes-me-references-api
-- description: Remote Diagnostic Support service for view all resources.
+- baseURL: https://api.mercedes-benz.com/remotediagnostic/v1
+  baseurl_source: declared
+  description: Remote Diagnostic Support service for view all resources.
   name: Mercedes-Benz Mercedes me Resources API
   slug: mercedes-me-resources-api
-- description: Store and load configurations with an onlinecode
+- baseURL: https://api.mercedes-benz.com/configurator/v1
+  baseurl_source: declared
+  description: Store and load configurations with an onlinecode
   name: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
 artifact_total: 51
@@ -408,7 +430,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -418,7 +440,7 @@ score:
     discoverability: 64.8
     governance: 47.0
     operational_transparency: 15.8
-  previous_composite: 51.3
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -430,7 +452,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
 security:

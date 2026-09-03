@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 138 operations · 66 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Authentication API from Particle — 3 operation(s) for authentication.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Authentication API from Particle — 3 operation(s) for authentication.
   name: Particle Authentication API
   slug: particle-authentication-api
-- description: The Configuration API from Particle — 2 operation(s) for configuration.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Configuration API from Particle — 2 operation(s) for configuration.
   name: Particle Configuration API
   slug: particle-configuration-api
-- description: The Customers API from Particle — 3 operation(s) for customers.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Customers API from Particle — 3 operation(s) for customers.
   name: Particle Customers API
   slug: particle-customers-api
-- description: The Devices API from Particle — 9 operation(s) for devices.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Devices API from Particle — 9 operation(s) for devices.
   name: Particle Devices API
   slug: particle-devices-api
-- description: The Diagnostics API from Particle — 4 operation(s) for diagnostics.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Diagnostics API from Particle — 4 operation(s) for diagnostics.
   name: Particle Diagnostics API
   slug: particle-diagnostics-api
-- description: The Env API from Particle — 4 operation(s) for env.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Env API from Particle — 4 operation(s) for env.
   name: Particle Env API
   slug: particle-env-api
-- description: The Events API from Particle — 6 operation(s) for events.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Events API from Particle — 6 operation(s) for events.
   name: Particle Events API
   slug: particle-events-api
-- description: The Firmware API from Particle — 3 operation(s) for firmware.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Firmware API from Particle — 3 operation(s) for firmware.
   name: Particle Firmware API
   slug: particle-firmware-api
-- description: The FleetHealth API from Particle — 5 operation(s) for fleethealth.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The FleetHealth API from Particle — 5 operation(s) for fleethealth.
   name: Particle FleetHealth API
   slug: particle-fleethealth-api
-- description: The Groups API from Particle — 5 operation(s) for groups.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Groups API from Particle — 5 operation(s) for groups.
   name: Particle Groups API
   slug: particle-groups-api
-- description: The Integrations API from Particle — 3 operation(s) for integrations.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Integrations API from Particle — 3 operation(s) for integrations.
   name: Particle Integrations API
   slug: particle-integrations-api
-- description: The Ledger API from Particle — 6 operation(s) for ledger.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Ledger API from Particle — 6 operation(s) for ledger.
   name: Particle Ledger API
   slug: particle-ledger-api
-- description: The Location API from Particle — 3 operation(s) for location.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Location API from Particle — 3 operation(s) for location.
   name: Particle Location API
   slug: particle-location-api
-- description: The Logic API from Particle — 7 operation(s) for logic.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Logic API from Particle — 7 operation(s) for logic.
   name: Particle Logic API
   slug: particle-logic-api
-- description: The OAuth API from Particle — 2 operation(s) for oauth.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The OAuth API from Particle — 2 operation(s) for oauth.
   name: Particle OAuth API
   slug: particle-oauth-api
-- description: The Organizations API from Particle — 3 operation(s) for organizations.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Organizations API from Particle — 3 operation(s) for organizations.
   name: Particle Organizations API
   slug: particle-organizations-api
-- description: The ProductFirmware API from Particle — 4 operation(s) for productfirmware.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The ProductFirmware API from Particle — 4 operation(s) for productfirmware.
   name: Particle ProductFirmware API
   slug: particle-productfirmware-api
-- description: The Products API from Particle — 5 operation(s) for products.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Products API from Particle — 5 operation(s) for products.
   name: Particle Products API
   slug: particle-products-api
-- description: The Quarantine API from Particle — 2 operation(s) for quarantine.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Quarantine API from Particle — 2 operation(s) for quarantine.
   name: Particle Quarantine API
   slug: particle-quarantine-api
-- description: The Search API from Particle — 2 operation(s) for search.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Search API from Particle — 2 operation(s) for search.
   name: Particle Search API
   slug: particle-search-api
-- description: The Secrets API from Particle — 2 operation(s) for secrets.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Secrets API from Particle — 2 operation(s) for secrets.
   name: Particle Secrets API
   slug: particle-secrets-api
-- description: The ServiceAgreements API from Particle — 7 operation(s) for serviceagreements.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The ServiceAgreements API from Particle — 7 operation(s) for serviceagreements.
   name: Particle ServiceAgreements API
   slug: particle-serviceagreements-api
-- description: The Sims API from Particle — 5 operation(s) for sims.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Sims API from Particle — 5 operation(s) for sims.
   name: Particle Sims API
   slug: particle-sims-api
-- description: The Team API from Particle — 1 operation(s) for team.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Team API from Particle — 1 operation(s) for team.
   name: Particle Team API
   slug: particle-team-api
-- description: The User API from Particle — 2 operation(s) for user.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The User API from Particle — 2 operation(s) for user.
   name: Particle User API
   slug: particle-user-api
-- description: The Access Tokens API from Particle — 3 operation(s) for access tokens.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Access Tokens API from Particle — 3 operation(s) for access tokens.
   name: Particle Access Tokens API
   slug: particle-access-tokens-api
-- description: The Clients API from Particle — 2 operation(s) for clients.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Clients API from Particle — 2 operation(s) for clients.
   name: Particle Clients API
   slug: particle-clients-api
-- description: The Serial Numbers API from Particle — 1 operation(s) for serial numbers.
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Serial Numbers API from Particle — 1 operation(s) for serial numbers.
   name: Particle Serial Numbers API
   slug: particle-serial-numbers-api
 artifact_total: 67
@@ -401,7 +457,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191427.png
 security:

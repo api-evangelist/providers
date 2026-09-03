@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -55,19 +55,29 @@ apis:
 - description: OpenSincera (from the May 2024 Sincera acquisition) provides programmatic supply-side transparency data — ad slot quality, page attributes, viewability metadata, supply-path metrics — to help buyers v
   name: OpenSincera API
   slug: trade-desk-opensincera-api
-- description: The Advertiser API from The Trade Desk — 1 operation(s) for advertiser.
+- baseURL: https://usw-data.adsrvr.org
+  baseurl_source: declared
+  description: The Advertiser API from The Trade Desk — 1 operation(s) for advertiser.
   name: The Trade Desk Advertiser API
   slug: trade-desk-advertiser-api
-- description: The DeletionOptOut API from The Trade Desk — 3 operation(s) for deletionoptout.
+- baseURL: https://usw-data.adsrvr.org
+  baseurl_source: declared
+  description: The DeletionOptOut API from The Trade Desk — 3 operation(s) for deletionoptout.
   name: The Trade Desk DeletionOptOut API
   slug: trade-desk-deletionoptout-api
-- description: The OfflineConversion API from The Trade Desk — 1 operation(s) for offlineconversion.
+- baseURL: https://offlineattrib.adsrvr.org
+  baseurl_source: declared
+  description: The OfflineConversion API from The Trade Desk — 1 operation(s) for offlineconversion.
   name: The Trade Desk OfflineConversion API
   slug: trade-desk-offlineconversion-api
-- description: The ThirdParty API from The Trade Desk — 1 operation(s) for thirdparty.
+- baseURL: https://usw-data.adsrvr.org
+  baseurl_source: declared
+  description: The ThirdParty API from The Trade Desk — 1 operation(s) for thirdparty.
   name: The Trade Desk ThirdParty API
   slug: trade-desk-thirdparty-api
-- description: IP-address ingestion endpoints of the TTD Data API — upload first-party or third-party IP-address-based targeting data for use in audience targeting. Discovered 2026-08-13 in the provider-published Sw
+- baseURL: https://usw-data.adsrvr.org
+  baseurl_source: declared
+  description: IP-address ingestion endpoints of the TTD Data API — upload first-party or third-party IP-address-based targeting data for use in audience targeting. Discovered 2026-08-13 in the provider-published Sw
   name: The Trade Desk IPAddress Data API
   slug: trade-desk-ipaddress-api
 artifact_total: 26
@@ -423,7 +433,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png
 security:

@@ -33,76 +33,122 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Account API from Kumospace — 6 operation(s) for account.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Account API from Kumospace — 6 operation(s) for account.
   name: Kumospace Account API
   slug: kumospace-account-api
-- description: The Analytics API from Kumospace — 2 operation(s) for analytics.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Analytics API from Kumospace — 2 operation(s) for analytics.
   name: Kumospace Analytics API
   slug: kumospace-analytics-api
-- description: The Calendar API from Kumospace — 7 operation(s) for calendar.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Calendar API from Kumospace — 7 operation(s) for calendar.
   name: Kumospace Calendar API
   slug: kumospace-calendar-api
-- description: The Chat API from Kumospace — 8 operation(s) for chat.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Chat API from Kumospace — 8 operation(s) for chat.
   name: Kumospace Chat API
   slug: kumospace-chat-api
-- description: The Daily (Webhook) API from Kumospace — 1 operation(s) for daily (webhook).
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Daily (Webhook) API from Kumospace — 1 operation(s) for daily (webhook).
   name: Kumospace Daily (Webhook) API
   slug: kumospace-daily-webhook-api
-- description: The Demo API from Kumospace — 2 operation(s) for demo.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Demo API from Kumospace — 2 operation(s) for demo.
   name: Kumospace Demo API
   slug: kumospace-demo-api
-- description: The Flooring API from Kumospace — 1 operation(s) for flooring.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Flooring API from Kumospace — 1 operation(s) for flooring.
   name: Kumospace Flooring API
   slug: kumospace-flooring-api
-- description: The Furniture API from Kumospace — 2 operation(s) for furniture.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Furniture API from Kumospace — 2 operation(s) for furniture.
   name: Kumospace Furniture API
   slug: kumospace-furniture-api
-- description: The Integrations API from Kumospace — 8 operation(s) for integrations.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Integrations API from Kumospace — 8 operation(s) for integrations.
   name: Kumospace Integrations API
   slug: kumospace-integrations-api
-- description: The MusicTrack API from Kumospace — 2 operation(s) for musictrack.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The MusicTrack API from Kumospace — 2 operation(s) for musictrack.
   name: Kumospace MusicTrack API
   slug: kumospace-musictrack-api
-- description: The Payments API from Kumospace — 7 operation(s) for payments.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Payments API from Kumospace — 7 operation(s) for payments.
   name: Kumospace Payments API
   slug: kumospace-payments-api
-- description: The Recordings API from Kumospace — 6 operation(s) for recordings.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Recordings API from Kumospace — 6 operation(s) for recordings.
   name: Kumospace Recordings API
   slug: kumospace-recordings-api
-- description: The Redirects API from Kumospace — 1 operation(s) for redirects.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Redirects API from Kumospace — 1 operation(s) for redirects.
   name: Kumospace Redirects API
   slug: kumospace-redirects-api
-- description: The Room Templates API from Kumospace — 2 operation(s) for room templates.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Room Templates API from Kumospace — 2 operation(s) for room templates.
   name: Kumospace Room Templates API
   slug: kumospace-room-templates-api
-- description: The Rooms API from Kumospace — 2 operation(s) for rooms.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Rooms API from Kumospace — 2 operation(s) for rooms.
   name: Kumospace Rooms API
   slug: kumospace-rooms-api
-- description: The Spaces API from Kumospace — 13 operation(s) for spaces.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Spaces API from Kumospace — 13 operation(s) for spaces.
   name: Kumospace Spaces API
   slug: kumospace-spaces-api
-- description: The Stock Furniture API from Kumospace — 2 operation(s) for stock furniture.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Stock Furniture API from Kumospace — 2 operation(s) for stock furniture.
   name: Kumospace Stock Furniture API
   slug: kumospace-stock-furniture-api
-- description: The Stock Walls API from Kumospace — 1 operation(s) for stock walls.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Stock Walls API from Kumospace — 1 operation(s) for stock walls.
   name: Kumospace Stock Walls API
   slug: kumospace-stock-walls-api
-- description: The Transcription API from Kumospace — 5 operation(s) for transcription.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Transcription API from Kumospace — 5 operation(s) for transcription.
   name: Kumospace Transcription API
   slug: kumospace-transcription-api
-- description: The Users API from Kumospace — 26 operation(s) for users.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Users API from Kumospace — 26 operation(s) for users.
   name: Kumospace Users API
   slug: kumospace-users-api
-- description: The Walls API from Kumospace — 1 operation(s) for walls.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Walls API from Kumospace — 1 operation(s) for walls.
   name: Kumospace Walls API
   slug: kumospace-walls-api
-- description: The Zone Templates API from Kumospace — 2 operation(s) for zone templates.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Zone Templates API from Kumospace — 2 operation(s) for zone templates.
   name: Kumospace Zone Templates API
   slug: kumospace-zone-templates-api
-- description: The Zones API from Kumospace — 5 operation(s) for zones.
+- baseURL: https://api.kumospace.com
+  baseurl_source: declared
+  description: The Zones API from Kumospace — 5 operation(s) for zones.
   name: Kumospace Zones API
   slug: kumospace-zones-api
 artifact_total: 51
@@ -297,7 +343,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -307,7 +353,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 43.9
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     contracts:
@@ -318,7 +364,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumospace/refs/heads/main/screenshots/kumospace-2026-07-25T224329.png
 security:

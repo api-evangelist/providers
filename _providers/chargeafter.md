@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,43 +35,67 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 60.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 26
 apis:
-- description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Accounts API from ChargeAfter — 10 operation(s) for accounts.
   name: ChargeAfter Accounts API
   slug: chargeafter-accounts-api
-- description: The ApplicationsV3 API from ChargeAfter — 2 operation(s) for applicationsv3.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The ApplicationsV3 API from ChargeAfter — 2 operation(s) for applicationsv3.
   name: ChargeAfter Applications V3 API
   slug: chargeafter-applicationsv3-api
-- description: The Charges API from ChargeAfter — 8 operation(s) for charges.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Charges API from ChargeAfter — 8 operation(s) for charges.
   name: ChargeAfter Charges API
   slug: chargeafter-charges-api
-- description: The Checkout API from ChargeAfter — 2 operation(s) for checkout.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Checkout API from ChargeAfter — 2 operation(s) for checkout.
   name: ChargeAfter Checkout API
   slug: chargeafter-checkout-api
-- description: The Consumer Management API from ChargeAfter — 3 operation(s) for consumer management.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Consumer Management API from ChargeAfter — 3 operation(s) for consumer management.
   name: ChargeAfter Consumer Management API
   slug: chargeafter-consumer-management-api
-- description: The ConsumersV2 API from ChargeAfter — 4 operation(s) for consumersv2.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The ConsumersV2 API from ChargeAfter — 4 operation(s) for consumersv2.
   name: ChargeAfter Consumers V2 API
   slug: chargeafter-consumersv2-api
-- description: The Fundings API from ChargeAfter — 1 operation(s) for fundings.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Fundings API from ChargeAfter — 1 operation(s) for fundings.
   name: ChargeAfter Fundings API
   slug: chargeafter-fundings-api
-- description: The Lenders API from ChargeAfter — 7 operation(s) for lenders.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Lenders API from ChargeAfter — 7 operation(s) for lenders.
   name: ChargeAfter Lenders API
   slug: chargeafter-lenders-api
-- description: The Links API from ChargeAfter — 3 operation(s) for links.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Links API from ChargeAfter — 3 operation(s) for links.
   name: ChargeAfter Links API
   slug: chargeafter-links-api
-- description: The Orders API from ChargeAfter — 1 operation(s) for orders.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Orders API from ChargeAfter — 1 operation(s) for orders.
   name: ChargeAfter Orders API
   slug: chargeafter-orders-api
-- description: The SessionsV3 API from ChargeAfter — 1 operation(s) for sessionsv3.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The SessionsV3 API from ChargeAfter — 1 operation(s) for sessionsv3.
   name: ChargeAfter Sessions V3 API
   slug: chargeafter-sessionsv3-api
-- description: The Transactions API from ChargeAfter — 2 operation(s) for transactions.
+- baseURL: https://api.chargeafter.com
+  baseurl_source: declared
+  description: The Transactions API from ChargeAfter — 2 operation(s) for transactions.
   name: ChargeAfter Transactions API
   slug: chargeafter-transactions-api
 artifact_total: 29
@@ -276,7 +312,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -286,7 +322,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 38.2
-  previous_composite: 45.0
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -303,7 +339,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargeafter/refs/heads/main/screenshots/chargeafter-2026-08-17T080818.png
 security:

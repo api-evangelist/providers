@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -50,28 +50,44 @@ apis:
 - description: Sandpack is an open-source component toolkit for creating live-running code editing experiences powered by CodeSandbox. It supports React via @codesandbox/sandpack-react and plain JavaScript via @code
   name: Sandpack Embed Toolkit
   slug: sandpack
-- description: API metadata and auth context
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: API metadata and auth context
   name: CodeSandbox meta API
   slug: codesandbox-meta-api
-- description: Trusted preview host management
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: Trusted preview host management
   name: CodeSandbox preview_host API
   slug: codesandbox-preview-host-api
-- description: Preview token management for private sandboxes
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: Preview token management for private sandboxes
   name: CodeSandbox preview_token API
   slug: codesandbox-preview-token-api
-- description: Browser and VM sandbox management
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: Browser and VM sandbox management
   name: CodeSandbox sandbox API
   slug: codesandbox-sandbox-api
-- description: Sandbox template management
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: Sandbox template management
   name: CodeSandbox templates API
   slug: codesandbox-templates-api
-- description: API token management
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: API token management
   name: CodeSandbox token API
   slug: codesandbox-token-api
-- description: Virtual machine lifecycle management
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: Virtual machine lifecycle management
   name: CodeSandbox vm API
   slug: codesandbox-vm-api
-- description: Workspace and organization management
+- baseURL: https://api.codesandbox.io
+  baseurl_source: declared
+  description: Workspace and organization management
   name: CodeSandbox workspace API
   slug: codesandbox-workspace-api
 artifact_total: 33
@@ -274,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:

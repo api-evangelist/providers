@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,154 +37,250 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 48
 apis:
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
   name: Splunk Observability Cloud MCP Server
   slug: splunk-observability-mcp
-- description: The APM service topology API from Splunk Observability Cloud — 2 operation(s) for apm service topology.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The APM service topology API from Splunk Observability Cloud — 2 operation(s) for apm service topology.
   name: Splunk Observability Cloud APM service topology API
   slug: splunk-observability-apm-service-topology-api
-- description: The APM visibility filters API from Splunk Observability Cloud — 3 operation(s) for apm visibility filters.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The APM visibility filters API from Splunk Observability Cloud — 3 operation(s) for apm visibility filters.
   name: Splunk Observability Cloud APM visibility filters API
   slug: splunk-observability-apm-visibility-filters-api
-- description: The Automated archival API from Splunk Observability Cloud — 3 operation(s) for automated archival.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Automated archival API from Splunk Observability Cloud — 3 operation(s) for automated archival.
   name: Splunk Observability Cloud Automated archival API
   slug: splunk-observability-automated-archival-api
-- description: The Backfill API from Splunk Observability Cloud — 1 operation(s) for backfill.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Backfill API from Splunk Observability Cloud — 1 operation(s) for backfill.
   name: Splunk Observability Cloud Backfill API
   slug: splunk-observability-backfill-api
-- description: The Charts API from Splunk Observability Cloud — 2 operation(s) for charts.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Charts API from Splunk Observability Cloud — 2 operation(s) for charts.
   name: Splunk Observability Cloud Charts API
   slug: splunk-observability-charts-api
-- description: The Client Inventory API from Splunk Observability Cloud — 5 operation(s) for client inventory.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Client Inventory API from Splunk Observability Cloud — 5 operation(s) for client inventory.
   name: Splunk Observability Cloud Client Inventory API
   slug: splunk-observability-client-inventory-api
-- description: The Dashboard groups API from Splunk Observability Cloud — 3 operation(s) for dashboard groups.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Dashboard groups API from Splunk Observability Cloud — 3 operation(s) for dashboard groups.
   name: Splunk Observability Cloud Dashboard groups API
   slug: splunk-observability-dashboard-groups-api
-- description: The Dashboards API from Splunk Observability Cloud — 3 operation(s) for dashboards.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Dashboards API from Splunk Observability Cloud — 3 operation(s) for dashboards.
   name: Splunk Observability Cloud Dashboards API
   slug: splunk-observability-dashboards-api
-- description: The Data links API from Splunk Observability Cloud — 2 operation(s) for data links.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Data links API from Splunk Observability Cloud — 2 operation(s) for data links.
   name: Splunk Observability Cloud Data links API
   slug: splunk-observability-data-links-api
-- description: The Detectors API from Splunk Observability Cloud — 7 operation(s) for detectors.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Detectors API from Splunk Observability Cloud — 7 operation(s) for detectors.
   name: Splunk Observability Cloud Detectors API
   slug: splunk-observability-detectors-api
-- description: The Download APM traces API from Splunk Observability Cloud — 3 operation(s) for download apm traces.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Download APM traces API from Splunk Observability Cloud — 3 operation(s) for download apm traces.
   name: Splunk Observability Cloud Download APM traces API
   slug: splunk-observability-download-apm-traces-api
-- description: The Incidents and alerts API from Splunk Observability Cloud — 7 operation(s) for incidents and alerts.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Incidents and alerts API from Splunk Observability Cloud — 7 operation(s) for incidents and alerts.
   name: Splunk Observability Cloud Incidents and alerts API
   slug: splunk-observability-incidents-and-alerts-api
-- description: The Integrations API from Splunk Observability Cloud — 3 operation(s) for integrations.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Integrations API from Splunk Observability Cloud — 3 operation(s) for integrations.
   name: Splunk Observability Cloud Integrations API
   slug: splunk-observability-integrations-api
-- description: The Metric ruleset API from Splunk Observability Cloud — 4 operation(s) for metric ruleset.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Metric ruleset API from Splunk Observability Cloud — 4 operation(s) for metric ruleset.
   name: Splunk Observability Cloud Metric ruleset API
   slug: splunk-observability-metric-ruleset-api
-- description: The Metrics metadata API from Splunk Observability Cloud — 8 operation(s) for metrics metadata.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Metrics metadata API from Splunk Observability Cloud — 8 operation(s) for metrics metadata.
   name: Splunk Observability Cloud Metrics metadata API
   slug: splunk-observability-metrics-metadata-api
-- description: The Navigators API from Splunk Observability Cloud — 5 operation(s) for navigators.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Navigators API from Splunk Observability Cloud — 5 operation(s) for navigators.
   name: Splunk Observability Cloud Navigators API
   slug: splunk-observability-navigators-api
-- description: The Org tokens API from Splunk Observability Cloud — 3 operation(s) for org tokens.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Org tokens API from Splunk Observability Cloud — 3 operation(s) for org tokens.
   name: Splunk Observability Cloud Org tokens API
   slug: splunk-observability-org-tokens-api
-- description: The Organizations API from Splunk Observability Cloud — 6 operation(s) for organizations.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Organizations API from Splunk Observability Cloud — 6 operation(s) for organizations.
   name: Splunk Observability Cloud Organizations API
   slug: splunk-observability-organizations-api
-- description: The Passwords API from Splunk Observability Cloud — 1 operation(s) for passwords.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Passwords API from Splunk Observability Cloud — 1 operation(s) for passwords.
   name: Splunk Observability Cloud Passwords API
   slug: splunk-observability-passwords-api
-- description: The Retrieve events V1 API from Splunk Observability Cloud — 1 operation(s) for retrieve events v1.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Retrieve events V1 API from Splunk Observability Cloud — 1 operation(s) for retrieve events v1.
   name: Splunk Observability Cloud Retrieve events V1 API
   slug: splunk-observability-retrieve-events-v1-api
-- description: The Retrieve events V2 API from Splunk Observability Cloud — 1 operation(s) for retrieve events v2.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Retrieve events V2 API from Splunk Observability Cloud — 1 operation(s) for retrieve events v2.
   name: Splunk Observability Cloud Retrieve events V2 API
   slug: splunk-observability-retrieve-events-v2-api
-- description: The Retrieve metric time series (MTS) API from Splunk Observability Cloud — 1 operation(s) for retrieve metric time series (mts).
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Retrieve metric time series (MTS) API from Splunk Observability Cloud — 1 operation(s) for retrieve metric time series (mts).
   name: Splunk Observability Cloud Retrieve metric time series (MTS) API
   slug: splunk-observability-retrieve-metric-time-series-mts-api
-- description: The Role API from Splunk Observability Cloud — 4 operation(s) for role.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Role API from Splunk Observability Cloud — 4 operation(s) for role.
   name: Splunk Observability Cloud Role API
   slug: splunk-observability-role-api
-- description: The Send traces, metrics and events API from Splunk Observability Cloud — 5 operation(s) for send traces, metrics and events.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Send traces, metrics and events API from Splunk Observability Cloud — 5 operation(s) for send traces, metrics and events.
   name: Splunk Observability Cloud Send traces, metrics and events API
   slug: splunk-observability-send-traces-metrics-and-events-api
-- description: The Session tokens API from Splunk Observability Cloud — 1 operation(s) for session tokens.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Session tokens API from Splunk Observability Cloud — 1 operation(s) for session tokens.
   name: Splunk Observability Cloud Session tokens API
   slug: splunk-observability-session-tokens-api
-- description: The SignalFlow API from Splunk Observability Cloud — 6 operation(s) for signalflow.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The SignalFlow API from Splunk Observability Cloud — 6 operation(s) for signalflow.
   name: Splunk Observability Cloud Signal Flow API
   slug: splunk-observability-signalflow-api
-- description: The SLOs API from Splunk Observability Cloud — 4 operation(s) for slos.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The SLOs API from Splunk Observability Cloud — 4 operation(s) for slos.
   name: Splunk Observability Cloud SL Os API
   slug: splunk-observability-slos-api
-- description: The Splunk Observability Cloud Audit Events API from Splunk Observability Cloud — 1 operation(s) for splunk observability cloud audit events.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Splunk Observability Cloud Audit Events API from Splunk Observability Cloud — 1 operation(s) for splunk observability cloud audit events.
   name: Splunk Observability Cloud Splunk Observability Cloud Audit Events API
   slug: splunk-observability-splunk-observability-cloud-audit-events-api
-- description: The Synthetics API tests (V1) API from Splunk Observability Cloud — 5 operation(s) for synthetics api tests (v1).
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics API tests (V1) API from Splunk Observability Cloud — 5 operation(s) for synthetics api tests (v1).
   name: Splunk Observability Cloud Synthetics API tests (V1) API
   slug: splunk-observability-synthetics-api-tests-v1-api
-- description: The Synthetics API tests V2 API from Splunk Observability Cloud — 5 operation(s) for synthetics api tests v2.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics API tests V2 API from Splunk Observability Cloud — 5 operation(s) for synthetics api tests v2.
   name: Splunk Observability Cloud Synthetics API tests V2 API
   slug: splunk-observability-synthetics-api-tests-v2-api
-- description: The Synthetics artifacts API from Splunk Observability Cloud — 3 operation(s) for synthetics artifacts.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics artifacts API from Splunk Observability Cloud — 3 operation(s) for synthetics artifacts.
   name: Splunk Observability Cloud Synthetics artifacts API
   slug: splunk-observability-synthetics-artifacts-api
-- description: The Synthetics audit API from Splunk Observability Cloud — 1 operation(s) for synthetics audit.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics audit API from Splunk Observability Cloud — 1 operation(s) for synthetics audit.
   name: Splunk Observability Cloud Synthetics audit API
   slug: splunk-observability-synthetics-audit-api
-- description: The Synthetics Browser tests (V1) API from Splunk Observability Cloud — 5 operation(s) for synthetics browser tests (v1).
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics Browser tests (V1) API from Splunk Observability Cloud — 5 operation(s) for synthetics browser tests (v1).
   name: Splunk Observability Cloud Synthetics Browser tests (V1) API
   slug: splunk-observability-synthetics-browser-tests-v1-api
-- description: The Synthetics Browser tests V2 API from Splunk Observability Cloud — 5 operation(s) for synthetics browser tests v2.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics Browser tests V2 API from Splunk Observability Cloud — 5 operation(s) for synthetics browser tests v2.
   name: Splunk Observability Cloud Synthetics Browser tests V2 API
   slug: splunk-observability-synthetics-browser-tests-v2-api
-- description: The Synthetics CA certificates API from Splunk Observability Cloud — 2 operation(s) for synthetics ca certificates.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics CA certificates API from Splunk Observability Cloud — 2 operation(s) for synthetics ca certificates.
   name: Splunk Observability Cloud Synthetics CA certificates API
   slug: splunk-observability-synthetics-ca-certificates-api
-- description: The Synthetics certificates API from Splunk Observability Cloud — 2 operation(s) for synthetics certificates.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics certificates API from Splunk Observability Cloud — 2 operation(s) for synthetics certificates.
   name: Splunk Observability Cloud Synthetics certificates API
   slug: splunk-observability-synthetics-certificates-api
-- description: The Synthetics Chrome flags API from Splunk Observability Cloud — 1 operation(s) for synthetics chrome flags.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics Chrome flags API from Splunk Observability Cloud — 1 operation(s) for synthetics chrome flags.
   name: Splunk Observability Cloud Synthetics Chrome flags API
   slug: splunk-observability-synthetics-chrome-flags-api
-- description: The Synthetics devices API from Splunk Observability Cloud — 1 operation(s) for synthetics devices.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics devices API from Splunk Observability Cloud — 1 operation(s) for synthetics devices.
   name: Splunk Observability Cloud Synthetics devices API
   slug: splunk-observability-synthetics-devices-api
-- description: The Synthetics downtime configurations API from Splunk Observability Cloud — 3 operation(s) for synthetics downtime configurations.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics downtime configurations API from Splunk Observability Cloud — 3 operation(s) for synthetics downtime configurations.
   name: Splunk Observability Cloud Synthetics downtime configurations API
   slug: splunk-observability-synthetics-downtime-configurations-api
-- description: The Synthetics excluded files API from Splunk Observability Cloud — 1 operation(s) for synthetics excluded files.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics excluded files API from Splunk Observability Cloud — 1 operation(s) for synthetics excluded files.
   name: Splunk Observability Cloud Synthetics excluded files API
   slug: splunk-observability-synthetics-excluded-files-api
-- description: The Synthetics global variables API from Splunk Observability Cloud — 2 operation(s) for synthetics global variables.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics global variables API from Splunk Observability Cloud — 2 operation(s) for synthetics global variables.
   name: Splunk Observability Cloud Synthetics global variables API
   slug: splunk-observability-synthetics-global-variables-api
-- description: The Synthetics HTTP tests API from Splunk Observability Cloud — 5 operation(s) for synthetics http tests.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics HTTP tests API from Splunk Observability Cloud — 5 operation(s) for synthetics http tests.
   name: Splunk Observability Cloud Synthetics HTTP tests API
   slug: splunk-observability-synthetics-http-tests-api
-- description: The Synthetics locations API from Splunk Observability Cloud — 4 operation(s) for synthetics locations.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics locations API from Splunk Observability Cloud — 4 operation(s) for synthetics locations.
   name: Splunk Observability Cloud Synthetics locations API
   slug: splunk-observability-synthetics-locations-api
-- description: The Synthetics Port tests API from Splunk Observability Cloud — 5 operation(s) for synthetics port tests.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics Port tests API from Splunk Observability Cloud — 5 operation(s) for synthetics port tests.
   name: Splunk Observability Cloud Synthetics Port tests API
   slug: splunk-observability-synthetics-port-tests-api
-- description: The Synthetics runs API from Splunk Observability Cloud — 1 operation(s) for synthetics runs.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics runs API from Splunk Observability Cloud — 1 operation(s) for synthetics runs.
   name: Splunk Observability Cloud Synthetics runs API
   slug: splunk-observability-synthetics-runs-api
-- description: The Synthetics SSL Certificate Tests API from Splunk Observability Cloud — 2 operation(s) for synthetics ssl certificate tests.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics SSL Certificate Tests API from Splunk Observability Cloud — 2 operation(s) for synthetics ssl certificate tests.
   name: Splunk Observability Cloud Synthetics SSL Certificate Tests API
   slug: splunk-observability-synthetics-ssl-certificate-tests-api
-- description: The Synthetics tests API from Splunk Observability Cloud — 7 operation(s) for synthetics tests.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Synthetics tests API from Splunk Observability Cloud — 7 operation(s) for synthetics tests.
   name: Splunk Observability Cloud Synthetics tests API
   slug: splunk-observability-synthetics-tests-api
-- description: The Teams API from Splunk Observability Cloud — 4 operation(s) for teams.
+- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
+  baseurl_source: declared
+  description: The Teams API from Splunk Observability Cloud — 4 operation(s) for teams.
   name: Splunk Observability Cloud Teams API
   slug: splunk-observability-teams-api
 artifact_total: 58
@@ -584,20 +694,20 @@ rate_limits:
   slug: splunk-observability-rate-limits
 score:
   band: strong
-  composite: 58.7
+  composite: 57.6
   coverage:
-    artifact_dirs: 21
-    catalog_gap: 58.0
+    artifact_dirs: 22
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 20.9
+    contract_quality: 24.2
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 81.6
   previous_composite: 58.7
@@ -611,8 +721,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/splunk-observability/refs/heads/main/screenshots/splunk-observability-2026-09-02T160527.png
 security:
 - kind: authentication
   name: Splunk Observability Authentication

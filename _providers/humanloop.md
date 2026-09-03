@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Humanloop REST API and SDKs covered prompts, tools, datasets, evaluations, evaluators, and logs for LLM applications. Developers called prompt endpoints from production to capture logs, ran evalua
   name: Humanloop LLM Platform API
   slug: llm-platform
-- description: The Datasets API from Humanloop — 2 operation(s) for datasets.
+- baseURL: https://api.humanloop.com/v5
+  baseurl_source: declared
+  description: The Datasets API from Humanloop — 2 operation(s) for datasets.
   name: Humanloop Datasets API
   slug: humanloop-datasets-api
-- description: The Evaluators API from Humanloop — 2 operation(s) for evaluators.
+- baseURL: https://api.humanloop.com/v5
+  baseurl_source: declared
+  description: The Evaluators API from Humanloop — 2 operation(s) for evaluators.
   name: Humanloop Evaluators API
   slug: humanloop-evaluators-api
-- description: The Logs API from Humanloop — 2 operation(s) for logs.
+- baseURL: https://api.humanloop.com/v5
+  baseurl_source: declared
+  description: The Logs API from Humanloop — 2 operation(s) for logs.
   name: Humanloop Logs API
   slug: humanloop-logs-api
-- description: The Prompts API from Humanloop — 4 operation(s) for prompts.
+- baseURL: https://api.humanloop.com/v5
+  baseurl_source: declared
+  description: The Prompts API from Humanloop — 4 operation(s) for prompts.
   name: Humanloop Prompts API
   slug: humanloop-prompts-api
-- description: The Sessions API from Humanloop — 2 operation(s) for sessions.
+- baseURL: https://api.humanloop.com/v5
+  baseurl_source: declared
+  description: The Sessions API from Humanloop — 2 operation(s) for sessions.
   name: Humanloop Sessions API
   slug: humanloop-sessions-api
-- description: The Tools API from Humanloop — 2 operation(s) for tools.
+- baseURL: https://api.humanloop.com/v5
+  baseurl_source: declared
+  description: The Tools API from Humanloop — 2 operation(s) for tools.
   name: Humanloop Tools API
   slug: humanloop-tools-api
 artifact_total: 21
@@ -204,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/screenshots/humanloop-2026-06-20T182933.png
 security:

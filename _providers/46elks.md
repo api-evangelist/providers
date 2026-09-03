@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 6 acting
 api_count: 1
 apis:
-- description: Make and receive programmable voice calls.
+- baseURL: https://api.46elks.com/a1
+  baseurl_source: declared
+  description: Make and receive programmable voice calls.
   name: 46elks Calls API
   slug: 46elks-calls-api
-- description: Access recordings and MMS images.
+- baseURL: https://api.46elks.com/a1
+  baseurl_source: declared
+  description: Access recordings and MMS images.
   name: 46elks Media API
   slug: 46elks-media-api
-- description: Send and receive picture messages.
+- baseURL: https://api.46elks.com/a1
+  baseurl_source: declared
+  description: Send and receive picture messages.
   name: 46elks MMS API
   slug: 46elks-mms-api
-- description: Allocate and manage virtual phone numbers.
+- baseURL: https://api.46elks.com/a1
+  baseurl_source: declared
+  description: Allocate and manage virtual phone numbers.
   name: 46elks Numbers API
   slug: 46elks-numbers-api
-- description: Send and receive text messages.
+- baseURL: https://api.46elks.com/a1
+  baseurl_source: declared
+  description: Send and receive text messages.
   name: 46elks SMS API
   slug: 46elks-sms-api
 artifact_total: 18
@@ -189,7 +199,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png
 security:

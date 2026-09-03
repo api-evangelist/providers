@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'REST API for RunReveal — manage sources, detections, pipelines, investigations, dashboards, notifications, agents, and agent skills across a workspace. OAuth2 (authorization_code + PKCE) or workspace '
@@ -175,7 +175,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +195,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/runreveal/refs/heads/main/screenshots/runreveal-2026-09-02T154209.png
 security:
 - kind: authentication
   name: Runreveal Authentication

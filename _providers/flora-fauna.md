@@ -34,43 +34,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
   name: FLORA MCP Server
   slug: flora-mcp
-- description: Prebuilt action catalog endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Prebuilt action catalog endpoints.
   name: FLORA Actions API
   slug: flora-fauna-actions-api
-- description: Asset upload and retrieval endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Asset upload and retrieval endpoints.
   name: FLORA Assets API
   slug: flora-fauna-assets-api
-- description: Project canvas endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Project canvas endpoints.
   name: FLORA Canvas API
   slug: flora-fauna-canvas-api
-- description: Product feedback endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Product feedback endpoints.
   name: FLORA Feedback API
   slug: flora-fauna-feedback-api
-- description: Generation endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Generation endpoints.
   name: FLORA Generations API
   slug: flora-fauna-generations-api
-- description: Model catalog endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Model catalog endpoints.
   name: FLORA Models API
   slug: flora-fauna-models-api
-- description: Project management endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Project management endpoints.
   name: FLORA Projects API
   slug: flora-fauna-projects-api
-- description: Top-level run creation endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Top-level run creation endpoints.
   name: FLORA Runs API
   slug: flora-fauna-runs-api
-- description: Nested technique run endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Nested technique run endpoints.
   name: FLORA Technique Runs API
   slug: flora-fauna-technique-runs-api
-- description: Technique catalog endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Technique catalog endpoints.
   name: FLORA Techniques API
   slug: flora-fauna-techniques-api
-- description: Workspace discovery endpoints.
+- baseURL: https://app.flora.ai/api/v1
+  baseurl_source: declared
+  description: Workspace discovery endpoints.
   name: FLORA Workspaces API
   slug: flora-fauna-workspaces-api
 artifact_total: 21
@@ -317,7 +339,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -327,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 63.3
+  previous_composite: 63.9
   provenance:
     conformance: first-party
     contracts:
@@ -338,7 +360,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
 security:

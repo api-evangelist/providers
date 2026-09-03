@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: FIS wealth management APIs enable integration with portfolio management, account aggregation, trading, and advisory systems for wealth management platforms and financial advisors.
   name: FIS Wealth Management API
   slug: fis-wealth-management-api
-- description: Account information and balance inquiries
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: Account information and balance inquiries
   name: FIS Global Accounts API
   slug: fis-accounts-api
-- description: ACH (Automated Clearing House) payment operations
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: ACH (Automated Clearing House) payment operations
   name: FIS Global ACH API
   slug: fis-ach-api
-- description: Initiate and manage payment transactions
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: Initiate and manage payment transactions
   name: FIS Global Payments API
   slug: fis-payments-api
-- description: Transaction history and status
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: Transaction history and status
   name: FIS Global Transactions API
   slug: fis-transactions-api
-- description: Domestic and international wire transfer operations
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: Domestic and international wire transfer operations
   name: FIS Global Wire Transfers API
   slug: fis-wire-transfers-api
 artifact_total: 24
@@ -201,7 +211,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png
 security:

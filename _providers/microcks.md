@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 46 operations · 17 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations related to configuration
+- baseURL: http://microcks.example.com/api
+  baseurl_source: spec
+  description: Operations related to configuration
   name: Microcks config API
   slug: microcks-config-api
-- description: Operations related to Jobs for discovering mocks and tests
+- baseURL: http://microcks.example.com/api
+  baseurl_source: spec
+  description: Operations related to Jobs for discovering mocks and tests
   name: Microcks job API
   slug: microcks-job-api
-- description: Operations related to metrics
+- baseURL: http://microcks.example.com/api
+  baseurl_source: spec
+  description: Operations related to metrics
   name: Microcks metrics API
   slug: microcks-metrics-api
-- description: Operations related to API and Services mocks
+- baseURL: http://microcks.example.com/api
+  baseurl_source: spec
+  description: Operations related to API and Services mocks
   name: Microcks mock API
   slug: microcks-mock-api
-- description: The Resources API from Microcks — 2 operation(s) for resources.
+- baseURL: http://microcks.example.com/api
+  baseurl_source: spec
+  description: The Resources API from Microcks — 2 operation(s) for resources.
   name: Microcks Resources API
   slug: microcks-resources-api
-- description: Operations related to API and Services tests
+- baseURL: http://microcks.example.com/api
+  baseurl_source: spec
+  description: Operations related to API and Services tests
   name: Microcks test API
   slug: microcks-test-api
 artifact_total: 22
@@ -194,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png
 security:

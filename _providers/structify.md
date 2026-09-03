@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -43,100 +43,164 @@ agentic_access:
   summary_line: 281 operations · 174 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: All the accessible information about your account through our API
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: All the accessible information about your account through our API
   name: Structify account API
   slug: structify-account-api
-- description: Admin endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Admin endpoints
   name: Structify admin API
   slug: structify-admin-api
-- description: Chat session management endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Chat session management endpoints
   name: Structify chat API
   slug: structify-chat-api
-- description: The chat_templates API from Structify — 2 operation(s) for chat_templates.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The chat_templates API from Structify — 2 operation(s) for chat_templates.
   name: Structify chat_templates API
   slug: structify-chat-templates-api
-- description: Code generation endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Code generation endpoints
   name: Structify code API
   slug: structify-code-api
-- description: The connector_catalog API from Structify — 3 operation(s) for connector_catalog.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The connector_catalog API from Structify — 3 operation(s) for connector_catalog.
   name: Structify connector_catalog API
   slug: structify-connector-catalog-api
-- description: The connectors API from Structify — 24 operation(s) for connectors.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The connectors API from Structify — 24 operation(s) for connectors.
   name: Structify connectors API
   slug: structify-connectors-api
-- description: Dataset management endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Dataset management endpoints
   name: Structify dataset API
   slug: structify-dataset-api
-- description: The documents API from Structify — 4 operation(s) for documents.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The documents API from Structify — 4 operation(s) for documents.
   name: Structify documents API
   slug: structify-documents-api
-- description: The entity API from Structify — 21 operation(s) for entity.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The entity API from Structify — 21 operation(s) for entity.
   name: Structify entity API
   slug: structify-entity-api
-- description: The jobs API from Structify — 5 operation(s) for jobs.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The jobs API from Structify — 5 operation(s) for jobs.
   name: Structify jobs API
   slug: structify-jobs-api
-- description: The match API from Structify — 2 operation(s) for match.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The match API from Structify — 2 operation(s) for match.
   name: Structify match API
   slug: structify-match-api
-- description: The Nango API from Structify — 2 operation(s) for nango.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The Nango API from Structify — 2 operation(s) for nango.
   name: Structify Nango API
   slug: structify-nango-api
-- description: Project management endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Project management endpoints
   name: Structify project API
   slug: structify-project-api
-- description: The public_sessions API from Structify — 2 operation(s) for public_sessions.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The public_sessions API from Structify — 2 operation(s) for public_sessions.
   name: Structify public_sessions API
   slug: structify-public-sessions-api
-- description: Sandbox management endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Sandbox management endpoints
   name: Structify sandbox API
   slug: structify-sandbox-api
-- description: The scrape API from Structify — 2 operation(s) for scrape.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The scrape API from Structify — 2 operation(s) for scrape.
   name: Structify scrape API
   slug: structify-scrape-api
-- description: The server API from Structify — 1 operation(s) for server.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The server API from Structify — 1 operation(s) for server.
   name: Structify server API
   slug: structify-server-api
-- description: The sessions API from Structify — 16 operation(s) for sessions.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The sessions API from Structify — 16 operation(s) for sessions.
   name: Structify sessions API
   slug: structify-sessions-api
-- description: The slack API from Structify — 1 operation(s) for slack.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The slack API from Structify — 1 operation(s) for slack.
   name: Structify slack API
   slug: structify-slack-api
-- description: The source API from Structify — 3 operation(s) for source.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The source API from Structify — 3 operation(s) for source.
   name: Structify source API
   slug: structify-source-api
-- description: The structure API from Structify — 8 operation(s) for structure.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The structure API from Structify — 8 operation(s) for structure.
   name: Structify structure API
   slug: structify-structure-api
-- description: Team management endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Team management endpoints
   name: Structify team API
   slug: structify-team-api
-- description: The teams API from Structify — 2 operation(s) for teams.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The teams API from Structify — 2 operation(s) for teams.
   name: Structify teams API
   slug: structify-teams-api
-- description: The transactions API from Structify — 3 operation(s) for transactions.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The transactions API from Structify — 3 operation(s) for transactions.
   name: Structify transactions API
   slug: structify-transactions-api
-- description: The usage API from Structify — 2 operation(s) for usage.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The usage API from Structify — 2 operation(s) for usage.
   name: Structify usage API
   slug: structify-usage-api
-- description: The user API from Structify — 2 operation(s) for user.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The user API from Structify — 2 operation(s) for user.
   name: Structify user API
   slug: structify-user-api
-- description: The webhook API from Structify — 1 operation(s) for webhook.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The webhook API from Structify — 1 operation(s) for webhook.
   name: Structify webhook API
   slug: structify-webhook-api
-- description: Whitelabeled service proxy endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Whitelabeled service proxy endpoints
   name: Structify whitelabel API
   slug: structify-whitelabel-api
-- description: Team wiki page management endpoints
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: Team wiki page management endpoints
   name: Structify wiki API
   slug: structify-wiki-api
-- description: The workflow API from Structify — 3 operation(s) for workflow.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The workflow API from Structify — 3 operation(s) for workflow.
   name: Structify workflow API
   slug: structify-workflow-api
-- description: The workflow_schedule API from Structify — 6 operation(s) for workflow_schedule.
+- baseURL: https://api.structify.ai
+  baseurl_source: declared
+  description: The workflow_schedule API from Structify — 6 operation(s) for workflow_schedule.
   name: Structify workflow_schedule API
   slug: structify-workflow-schedule-api
 artifact_total: 73
@@ -421,7 +485,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -431,7 +495,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 60.9
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -443,7 +507,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/structify/refs/heads/main/screenshots/structify-2026-08-17T082142.png
 security:

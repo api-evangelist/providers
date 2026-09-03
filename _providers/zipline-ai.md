@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The fetch API from Zipline Ai — 4 operation(s) for fetch.
+- baseURL: http://localhost:9000
+  baseurl_source: spec
+  description: The fetch API from Zipline Ai — 4 operation(s) for fetch.
   name: Zipline Ai fetch API
   slug: zipline-ai-fetch-api
-- description: The health API from Zipline Ai — 2 operation(s) for health.
+- baseURL: http://localhost:9000
+  baseurl_source: spec
+  description: The health API from Zipline Ai — 2 operation(s) for health.
   name: Zipline Ai health API
   slug: zipline-ai-health-api
-- description: The schema API from Zipline Ai — 5 operation(s) for schema.
+- baseURL: http://localhost:9000
+  baseurl_source: spec
+  description: The schema API from Zipline Ai — 5 operation(s) for schema.
   name: Zipline Ai schema API
   slug: zipline-ai-schema-api
-- description: The workflow API from Zipline Ai — 1 operation(s) for workflow.
+- baseURL: http://localhost:9000
+  baseurl_source: spec
+  description: The workflow API from Zipline Ai — 1 operation(s) for workflow.
   name: Zipline Ai workflow API
   slug: zipline-ai-workflow-api
 artifact_total: 13
@@ -111,7 +119,7 @@ score:
   band: emerging
   composite: 19.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -136,8 +144,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zipline-ai/refs/heads/main/screenshots/zipline-ai-2026-09-02T171802.png
 security:
 - kind: authentication
   name: Zipline Ai Authentication

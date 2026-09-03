@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
-- description: The Authentication API from Apache Shiro — 3 operation(s) for authentication.
+- baseURL: https://app.example.com/api
+  baseurl_source: spec
+  description: The Authentication API from Apache Shiro — 3 operation(s) for authentication.
   name: Apache Shiro Authentication API
   slug: apache-shiro-authentication-api
-- description: The Authorization API from Apache Shiro — 2 operation(s) for authorization.
+- baseURL: https://app.example.com/api
+  baseurl_source: spec
+  description: The Authorization API from Apache Shiro — 2 operation(s) for authorization.
   name: Apache Shiro Authorization API
   slug: apache-shiro-authorization-api
-- description: The Cryptography API from Apache Shiro — 1 operation(s) for cryptography.
+- baseURL: https://app.example.com/api
+  baseurl_source: spec
+  description: The Cryptography API from Apache Shiro — 1 operation(s) for cryptography.
   name: Apache Shiro Cryptography API
   slug: apache-shiro-cryptography-api
-- description: The Sessions API from Apache Shiro — 1 operation(s) for sessions.
+- baseURL: https://app.example.com/api
+  baseurl_source: spec
+  description: The Sessions API from Apache Shiro — 1 operation(s) for sessions.
   name: Apache Shiro Sessions API
   slug: apache-shiro-sessions-api
-- description: The Users API from Apache Shiro — 1 operation(s) for users.
+- baseURL: https://app.example.com/api
+  baseurl_source: spec
+  description: The Users API from Apache Shiro — 1 operation(s) for users.
   name: Apache Shiro Users API
   slug: apache-shiro-users-api
 artifact_total: 72
@@ -334,7 +344,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/screenshots/apache-shiro-2026-06-20T172141.png
 security:

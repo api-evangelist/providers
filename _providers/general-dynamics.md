@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Technology products operations
+- baseURL: https://api.gdmissionsystems.com
+  baseurl_source: declared
+  description: Technology products operations
   name: General Dynamics Products API
   slug: general-dynamics-products-api
-- description: Mission systems operations
+- baseURL: https://api.gdmissionsystems.com
+  baseurl_source: declared
+  description: Mission systems operations
   name: General Dynamics Systems API
   slug: general-dynamics-systems-api
 artifact_total: 11
@@ -154,7 +158,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png
 security:

@@ -34,46 +34,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The account API from Lighter — 26 operation(s) for account.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The account API from Lighter — 26 operation(s) for account.
   name: Lighter account API
   slug: lighter-account-api
-- description: The announcement API from Lighter — 1 operation(s) for announcement.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The announcement API from Lighter — 1 operation(s) for announcement.
   name: Lighter announcement API
   slug: lighter-announcement-api
-- description: The block API from Lighter — 3 operation(s) for block.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The block API from Lighter — 3 operation(s) for block.
   name: Lighter block API
   slug: lighter-block-api
-- description: The bridge API from Lighter — 6 operation(s) for bridge.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The bridge API from Lighter — 6 operation(s) for bridge.
   name: Lighter bridge API
   slug: lighter-bridge-api
-- description: The candlestick API from Lighter — 2 operation(s) for candlestick.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The candlestick API from Lighter — 2 operation(s) for candlestick.
   name: Lighter candlestick API
   slug: lighter-candlestick-api
-- description: The funding API from Lighter — 1 operation(s) for funding.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The funding API from Lighter — 1 operation(s) for funding.
   name: Lighter funding API
   slug: lighter-funding-api
-- description: The info API from Lighter — 5 operation(s) for info.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The info API from Lighter — 5 operation(s) for info.
   name: Lighter info API
   slug: lighter-info-api
-- description: The notification API from Lighter — 1 operation(s) for notification.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The notification API from Lighter — 1 operation(s) for notification.
   name: Lighter notification API
   slug: lighter-notification-api
-- description: The order API from Lighter — 12 operation(s) for order.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The order API from Lighter — 12 operation(s) for order.
   name: Lighter order API
   slug: lighter-order-api
-- description: The referral API from Lighter — 6 operation(s) for referral.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The referral API from Lighter — 6 operation(s) for referral.
   name: Lighter referral API
   slug: lighter-referral-api
-- description: The root API from Lighter — 2 operation(s) for root.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The root API from Lighter — 2 operation(s) for root.
   name: Lighter root API
   slug: lighter-root-api
-- description: The tokenlist API from Lighter — 1 operation(s) for tokenlist.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The tokenlist API from Lighter — 1 operation(s) for tokenlist.
   name: Lighter tokenlist API
   slug: lighter-tokenlist-api
-- description: The transaction API from Lighter — 12 operation(s) for transaction.
+- baseURL: https://mainnet.zklighter.elliot.ai
+  baseurl_source: declared
+  description: The transaction API from Lighter — 12 operation(s) for transaction.
   name: Lighter transaction API
   slug: lighter-transaction-api
 artifact_total: 34
@@ -290,7 +316,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -300,7 +326,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 53.8
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -317,7 +343,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 15 operations · 8 acting
 api_count: 1
 apis:
-- description: The Projects API from OneUptime — 9 operation(s) for projects.
+- baseURL: https://oneuptime.com/api
+  baseurl_source: spec
+  description: The Projects API from OneUptime — 9 operation(s) for projects.
   name: OneUptime Projects API
   slug: oneuptime-projects-api
 artifact_total: 10
@@ -169,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneuptime/refs/heads/main/screenshots/oneuptime-2026-06-20T190719.png
 security:

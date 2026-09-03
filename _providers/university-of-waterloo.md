@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 48 operations · 2 acting
 api_count: 1
 apis:
-- description: The AcademicOrganizations API from University of Waterloo — 2 operation(s) for academicorganizations.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The AcademicOrganizations API from University of Waterloo — 2 operation(s) for academicorganizations.
   name: University of Waterloo AcademicOrganizations API
   slug: university-of-waterloo-academicorganizations-api
-- description: The Account API from University of Waterloo — 5 operation(s) for account.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The Account API from University of Waterloo — 5 operation(s) for account.
   name: University of Waterloo Account API
   slug: university-of-waterloo-account-api
-- description: The ClassSchedules API from University of Waterloo — 3 operation(s) for classschedules.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The ClassSchedules API from University of Waterloo — 3 operation(s) for classschedules.
   name: University of Waterloo ClassSchedules API
   slug: university-of-waterloo-classschedules-api
-- description: The Courses API from University of Waterloo — 5 operation(s) for courses.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The Courses API from University of Waterloo — 5 operation(s) for courses.
   name: University of Waterloo Courses API
   slug: university-of-waterloo-courses-api
-- description: The ExamSchedules API from University of Waterloo — 2 operation(s) for examschedules.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The ExamSchedules API from University of Waterloo — 2 operation(s) for examschedules.
   name: University of Waterloo ExamSchedules API
   slug: university-of-waterloo-examschedules-api
-- description: The FoodServices API from University of Waterloo — 6 operation(s) for foodservices.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The FoodServices API from University of Waterloo — 6 operation(s) for foodservices.
   name: University of Waterloo FoodServices API
   slug: university-of-waterloo-foodservices-api
-- description: The HolidayDates API from University of Waterloo — 3 operation(s) for holidaydates.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The HolidayDates API from University of Waterloo — 3 operation(s) for holidaydates.
   name: University of Waterloo HolidayDates API
   slug: university-of-waterloo-holidaydates-api
-- description: The ImportantDates API from University of Waterloo — 2 operation(s) for importantdates.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The ImportantDates API from University of Waterloo — 2 operation(s) for importantdates.
   name: University of Waterloo ImportantDates API
   slug: university-of-waterloo-importantdates-api
-- description: The Locations API from University of Waterloo — 6 operation(s) for locations.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The Locations API from University of Waterloo — 6 operation(s) for locations.
   name: University of Waterloo Locations API
   slug: university-of-waterloo-locations-api
-- description: The Subjects API from University of Waterloo — 3 operation(s) for subjects.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The Subjects API from University of Waterloo — 3 operation(s) for subjects.
   name: University of Waterloo Subjects API
   slug: university-of-waterloo-subjects-api
-- description: The Terms API from University of Waterloo — 3 operation(s) for terms.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The Terms API from University of Waterloo — 3 operation(s) for terms.
   name: University of Waterloo Terms API
   slug: university-of-waterloo-terms-api
-- description: The Wcms API from University of Waterloo — 8 operation(s) for wcms.
+- baseURL: https://openapi.data.uwaterloo.ca/v3/
+  baseurl_source: declared
+  description: The Wcms API from University of Waterloo — 8 operation(s) for wcms.
   name: University of Waterloo Wcms API
   slug: university-of-waterloo-wcms-api
 - description: A second, deliberately gated University of Waterloo API programme providing authenticated access to data from authoritative source systems including Quest (student information) and WatIAM (identity an
@@ -412,7 +436,7 @@ score:
     catalog_gap: 40.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 21.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -425,7 +449,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 40.5
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -441,8 +465,8 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
 security:
 - kind: authentication

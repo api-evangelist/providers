@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: JavaScript API for embedding Qlik Sense visualizations and mashups into web applications.
   name: Qlik Embedding API
   slug: qlik-embedding-api
-- description: Manage Qlik Sense analytics applications including creating, copying, importing, exporting, publishing, and retrieving app metadata.
+- baseURL_template: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: spec_template
+  description: Manage Qlik Sense analytics applications including creating, copying, importing, exporting, publishing, and retrieving app metadata.
   name: Qlik Sense Apps API
   slug: qlik-sense-apps-api
-- description: Trigger and manage data reloads for apps to refresh data from connected sources.
+- baseURL_template: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: spec_template
+  description: Trigger and manage data reloads for apps to refresh data from connected sources.
   name: Qlik Sense Reloads API
   slug: qlik-sense-reloads-api
-- description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
+- baseURL_template: https://{tenant}.{region}.qlikcloud.com/api/v1
+  baseurl_source: spec_template
+  description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
   name: Qlik Sense Spaces API
   slug: qlik-sense-spaces-api
 artifact_total: 48
@@ -333,7 +339,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/screenshots/qlik-sense-2026-06-20T192340.png
 security:

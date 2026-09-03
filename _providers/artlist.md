@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,16 +48,24 @@ apis:
 - description: Hosted Model Context Protocol server for the Artlist Enterprise API documentation. Exposes a single anonymous read-only tool, searchDocs, that searches developer.artlist.io and returns documentation p
   name: Artlist Developer Docs MCP Server
   slug: docs-mcp
-- description: The album API from Artlist — 1 operation(s) for album.
+- baseURL: https://business.artlist.io/search/v1
+  baseurl_source: declared
+  description: The album API from Artlist — 1 operation(s) for album.
   name: Artlist Album API
   slug: artlist-album-api
-- description: The artist API from Artlist — 1 operation(s) for artist.
+- baseURL: https://business.artlist.io/search/v1
+  baseurl_source: declared
+  description: The artist API from Artlist — 1 operation(s) for artist.
   name: Artlist Artist API
   slug: artlist-artist-api
-- description: The downloadable API from Artlist — 1 operation(s) for downloadable.
+- baseURL: https://business.artlist.io/search/v1
+  baseurl_source: declared
+  description: The downloadable API from Artlist — 1 operation(s) for downloadable.
   name: Artlist Downloadable API
   slug: artlist-downloadable-api
-- description: The song API from Artlist — 2 operation(s) for song.
+- baseURL: https://business.artlist.io/search/v1
+  baseurl_source: declared
+  description: The song API from Artlist — 2 operation(s) for song.
   name: Artlist Song API
   slug: artlist-song-api
 artifact_total: 15
@@ -249,7 +269,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/screenshots/artlist-2026-08-07T161743.png
 security:

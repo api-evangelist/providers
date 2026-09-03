@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -47,106 +47,174 @@ apis:
 - description: Outbound webhooks fire message lifecycle (sent, delivered, seen, read, interacted, archived, link_clicked, bounced, undelivered) and environment-change (workflow / email_layout / translation / partial
   name: Knock Outbound Webhooks
   slug: knock-webhooks
-- description: Resources for managing your Knock account.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Resources for managing your Knock account.
   name: Knock Accounts API
   slug: knock-app-accounts-api
-- description: The API keys API from Knock — 1 operation(s) for api keys.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The API keys API from Knock — 1 operation(s) for api keys.
   name: Knock API keys API
   slug: knock-app-api-keys-api
-- description: The Audiences API from Knock — 4 operation(s) for audiences.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Audiences API from Knock — 4 operation(s) for audiences.
   name: Knock Audiences API
   slug: knock-app-audiences-api
-- description: Branches in Knock are a way to isolate changes to your Knock resources.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Branches in Knock are a way to isolate changes to your Knock resources.
   name: Knock Branches API
   slug: knock-app-branches-api
-- description: The Broadcasts API from Knock — 5 operation(s) for broadcasts.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Broadcasts API from Knock — 5 operation(s) for broadcasts.
   name: Knock Broadcasts API
   slug: knock-app-broadcasts-api
-- description: The Bulk operations API from Knock — 12 operation(s) for bulk operations.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Bulk operations API from Knock — 12 operation(s) for bulk operations.
   name: Knock Bulk operations API
   slug: knock-app-bulk-operations-api
-- description: The Channel data API from Knock — 2 operation(s) for channel data.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Channel data API from Knock — 2 operation(s) for channel data.
   name: Knock Channel data API
   slug: knock-app-channel-data-api
-- description: The Channel Groups API from Knock — 2 operation(s) for channel groups.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Channel Groups API from Knock — 2 operation(s) for channel groups.
   name: Knock Channel Groups API
   slug: knock-app-channel-groups-api
-- description: The Channels API from Knock — 2 operation(s) for channels.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Channels API from Knock — 2 operation(s) for channels.
   name: Knock Channels API
   slug: knock-app-channels-api
-- description: Commits are versioned changes to resources.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Commits are versioned changes to resources.
   name: Knock Commits API
   slug: knock-app-commits-api
-- description: Email layouts wrap your email templates and provide a consistent look and feel.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Email layouts wrap your email templates and provide a consistent look and feel.
   name: Knock Email layouts API
   slug: knock-app-email-layouts-api
-- description: Environments are isolated instances of your account that map to your infrastructure.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Environments are isolated instances of your account that map to your infrastructure.
   name: Knock Environments API
   slug: knock-app-environments-api
-- description: The Feeds API from Knock — 2 operation(s) for feeds.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Feeds API from Knock — 2 operation(s) for feeds.
   name: Knock Feeds API
   slug: knock-app-feeds-api
-- description: Guides let you define in-app guides that can be displayed to users based on priority and other conditions.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Guides let you define in-app guides that can be displayed to users based on priority and other conditions.
   name: Knock Guides API
   slug: knock-app-guides-api
-- description: The Integrations API from Knock — 2 operation(s) for integrations.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Integrations API from Knock — 2 operation(s) for integrations.
   name: Knock Integrations API
   slug: knock-app-integrations-api
-- description: The Members API from Knock — 2 operation(s) for members.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Members API from Knock — 2 operation(s) for members.
   name: Knock Members API
   slug: knock-app-members-api
-- description: A message type allows you to specify an in-app schema that defines the fields available for your in-app notifications.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: A message type allows you to specify an in-app schema that defines the fields available for your in-app notifications.
   name: Knock Message types API
   slug: knock-app-message-types-api
-- description: The Messages API from Knock — 24 operation(s) for messages.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Messages API from Knock — 24 operation(s) for messages.
   name: Knock Messages API
   slug: knock-app-messages-api
-- description: The Microsoft Teams API from Knock — 4 operation(s) for microsoft teams.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Microsoft Teams API from Knock — 4 operation(s) for microsoft teams.
   name: Knock Microsoft Teams API
   slug: knock-app-microsoft-teams-api
-- description: The Objects API from Knock — 19 operation(s) for objects.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Objects API from Knock — 19 operation(s) for objects.
   name: Knock Objects API
   slug: knock-app-objects-api
-- description: Partials allow you to reuse content across templates.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Partials allow you to reuse content across templates.
   name: Knock Partials API
   slug: knock-app-partials-api
-- description: The Preferences API from Knock — 16 operation(s) for preferences.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Preferences API from Knock — 16 operation(s) for preferences.
   name: Knock Preferences API
   slug: knock-app-preferences-api
-- description: The Providers API from Knock — 7 operation(s) for providers.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Providers API from Knock — 7 operation(s) for providers.
   name: Knock Providers API
   slug: knock-app-providers-api
-- description: The Schedules API from Knock — 3 operation(s) for schedules.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Schedules API from Knock — 3 operation(s) for schedules.
   name: Knock Schedules API
   slug: knock-app-schedules-api
-- description: The Slack API from Knock — 3 operation(s) for slack.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Slack API from Knock — 3 operation(s) for slack.
   name: Knock Slack API
   slug: knock-app-slack-api
-- description: The Subscriptions API from Knock — 4 operation(s) for subscriptions.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Subscriptions API from Knock — 4 operation(s) for subscriptions.
   name: Knock Subscriptions API
   slug: knock-app-subscriptions-api
-- description: The Templates API from Knock — 1 operation(s) for templates.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Templates API from Knock — 1 operation(s) for templates.
   name: Knock Templates API
   slug: knock-app-templates-api
-- description: The Tenants API from Knock — 4 operation(s) for tenants.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Tenants API from Knock — 4 operation(s) for tenants.
   name: Knock Tenants API
   slug: knock-app-tenants-api
-- description: Translations are per-locale string files that can be used in your templates.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Translations are per-locale string files that can be used in your templates.
   name: Knock Translations API
   slug: knock-app-translations-api
-- description: The Users API from Knock — 28 operation(s) for users.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Users API from Knock — 28 operation(s) for users.
   name: Knock Users API
   slug: knock-app-users-api
-- description: The Variables API from Knock — 2 operation(s) for variables.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Variables API from Knock — 2 operation(s) for variables.
   name: Knock Variables API
   slug: knock-app-variables-api
-- description: The Workflow recipient runs API from Knock — 2 operation(s) for workflow recipient runs.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Workflow recipient runs API from Knock — 2 operation(s) for workflow recipient runs.
   name: Knock Workflow recipient runs API
   slug: knock-app-workflow-recipient-runs-api
-- description: The Workflow Triggers API from Knock — 2 operation(s) for workflow triggers.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: The Workflow Triggers API from Knock — 2 operation(s) for workflow triggers.
   name: Knock Workflow Triggers API
   slug: knock-app-workflow-triggers-api
-- description: Workflows let you express your cross-channel notification logic.
+- baseURL: https://api.knock.app
+  baseurl_source: spec
+  description: Workflows let you express your cross-channel notification logic.
   name: Knock Workflows API
   slug: knock-app-workflows-api
 arazzos:
@@ -961,7 +1029,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -971,7 +1039,7 @@ score:
     discoverability: 66.7
     governance: 33.3
     operational_transparency: 73.7
-  previous_composite: 69.3
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -992,7 +1060,7 @@ score:
     regime_id: telecommunications
     score: 27.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png
 security:

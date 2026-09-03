@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -181,205 +181,339 @@ apis:
 - description: The Google Vault API provides programmatic access to Vault functionality, enabling retention management, legal hold management, and data export for compliance and eDiscovery purposes.
   name: Google Vault API
   slug: google-vault-api
-- description: Operations related to About
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to About
   name: Google About API
   slug: google-about-api
-- description: Operations related to Activity
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Activity
   name: Google Activity API
   slug: google-activity-api
-- description: Operations related to Address
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Address
   name: Google Address API
   slug: google-address-api
-- description: Operations related to Addresses
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Addresses
   name: Google Addresses API
   slug: google-addresses-api
-- description: Operations related to Append
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Append
   name: Google Append API
   slug: google-append-api
-- description: The Applications API from Google — 2 operation(s) for applications.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Applications API from Google — 2 operation(s) for applications.
   name: Google Applications API
   slug: google-applications-api
-- description: Operations related to Attachments
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Attachments
   name: Google Attachments API
   slug: google-attachments-api
-- description: Operations related to Audio Understanding
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Audio Understanding
   name: Google Audio Understanding API
   slug: google-audio-understanding-api
-- description: Operations related to Auto
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Auto
   name: Google Auto API
   slug: google-auto-api
-- description: Operations related to Batch
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Batch
   name: Google Batch API
   slug: google-batch-api
-- description: The Bookshelves API from Google — 3 operation(s) for bookshelves.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Bookshelves API from Google — 3 operation(s) for bookshelves.
   name: Google Bookshelves API
   slug: google-bookshelves-api
-- description: The Calendar ACL Rules API from Google — 1 operation(s) for calendar acl rules.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Calendar ACL Rules API from Google — 1 operation(s) for calendar acl rules.
   name: Google Calendar ACL Rules API
   slug: google-calendar-acl-rules-api
-- description: The Calendar ACLs API from Google — 2 operation(s) for calendar acls.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Calendar ACLs API from Google — 2 operation(s) for calendar acls.
   name: Google Calendar ACLs API
   slug: google-calendar-acls-api
-- description: Operations related to Calendarscalendaridevents
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Calendarscalendaridevents
   name: Google Calendar Events API
   slug: google-calendar-events-api
-- description: Operations related to Calendars
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Calendars
   name: Google Calendars API
   slug: google-calendars-api
-- description: Operations related to Changes
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Changes
   name: Google Changes API
   slug: google-changes-api
-- description: The Channels API from Google — 1 operation(s) for channels.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Channels API from Google — 1 operation(s) for channels.
   name: Google Channels API
   slug: google-channels-api
-- description: Operations related to Clear
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Clear
   name: Google Clear API
   slug: google-clear-api
-- description: Operations related to Default
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Default
   name: Google Colors API
   slug: google-colors-api
-- description: Operations related to Comments
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Comments
   name: Google Comments API
   slug: google-comments-api
-- description: Operations related to Content Generation
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Content Generation
   name: Google Content Generation API
   slug: google-content-generation-api
-- description: Operations related to Copy
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Copy
   name: Google Copy API
   slug: google-copy-api
-- description: Operations related to Create
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Create
   name: Google Create API
   slug: google-create-api
-- description: Operations related to Data
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Data
   name: Google Data API
   slug: google-data-api
-- description: Operations related to Delegates
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Delegates
   name: Google Delegates API
   slug: google-delegates-api
-- description: Operations related to Deletes
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Deletes
   name: Google Deletes API
   slug: google-deletes-api
-- description: Operations related to Developer
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Developer
   name: Google Developer API
   slug: google-developer-api
-- description: Operations related to Disables
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Disables
   name: Google Disables API
   slug: google-disables-api
-- description: Operations related to Documents
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Documents
   name: Google Documents API
   slug: google-documents-api
-- description: Operations related to Drafts
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Drafts
   name: Google Drafts API
   slug: google-drafts-api
-- description: Operations related to Drives
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Drives
   name: Google Drives API
   slug: google-drives-api
-- description: Operations related to Enables
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Enables
   name: Google Enables API
   slug: google-enables-api
-- description: Operations related to File Api
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to File Api
   name: Google File Api API
   slug: google-file-api-api
-- description: Operations related to Files
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Files
   name: Google Files API
   slug: google-files-api
-- description: The Free Busy API from Google — 1 operation(s) for free busy.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Free Busy API from Google — 1 operation(s) for free busy.
   name: Google Free Busy API
   slug: google-free-busy-api
-- description: Operations related to Get
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Get
   name: Google Get API
   slug: google-get-api
-- description: Operations related to History
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to History
   name: Google History API
   slug: google-history-api
-- description: Operations related to Image Generation
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Image Generation
   name: Google Image Generation API
   slug: google-image-generation-api
-- description: Operations related to Import
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Import
   name: Google Import API
   slug: google-import-api
-- description: Operations related to Info
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Info
   name: Google Info API
   slug: google-info-api
-- description: Operations related to Insert
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Insert
   name: Google Insert API
   slug: google-insert-api
-- description: Operations related to Labels
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Labels
   name: Google Labels API
   slug: google-labels-api
-- description: Operations related to Language
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Language
   name: Google Language API
   slug: google-language-api
-- description: Operations related to Limits
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Limits
   name: Google Limits API
   slug: google-limits-api
-- description: Operations related to Lists
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Lists
   name: Google Lists API
   slug: google-lists-api
-- description: Operations related to Messages
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Messages
   name: Google Messages API
   slug: google-messages-api
-- description: Operations related to Modify
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Modify
   name: Google Modify API
   slug: google-modify-api
-- description: The My Library API from Google — 7 operation(s) for my library.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The My Library API from Google — 7 operation(s) for my library.
   name: Google My Library API
   slug: google-my-library-api
-- description: Operations related to Notifications
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Notifications
   name: Google Notifications API
   slug: google-notifications-api
-- description: Operations related to Obliterate
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Obliterate
   name: Google Obliterate API
   slug: google-obliterate-api
-- description: Operations related to Patch
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Patch
   name: Google Patch API
   slug: google-patch-api
-- description: Operations related to Permissions
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Permissions
   name: Google Permissions API
   slug: google-permissions-api
-- description: Operations related to Pop
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Pop
   name: Google Pop API
   slug: google-pop-api
-- description: Operations related to Replies
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Replies
   name: Google Replies API
   slug: google-replies-api
-- description: Operations related to Revisions
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Revisions
   name: Google Revisions API
   slug: google-revisions-api
-- description: Operations related to Send
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Send
   name: Google Send API
   slug: google-send-api
-- description: Operations related to Sets
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Sets
   name: Google Sets API
   slug: google-sets-api
-- description: Operations related to Settings
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Settings
   name: Google Settings API
   slug: google-settings-api
-- description: Operations related to Speech Generation
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Speech Generation
   name: Google Speech Generation API
   slug: google-speech-generation-api
-- description: Operations related to Teamdrives
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Teamdrives
   name: Google Team Drives API
   slug: google-team-drives-api
-- description: Operations related to Threads
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Threads
   name: Google Threads API
   slug: google-threads-api
-- description: Operations related to Trash
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Trash
   name: Google Trash API
   slug: google-trash-api
-- description: Operations related to Update
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Update
   name: Google Update API
   slug: google-update-api
-- description: Operations related to Usersmecalendarlist
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Usersmecalendarlist
   name: Google User Calendars API
   slug: google-user-calendars-api
-- description: Operations related to Usersmesettings
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Usersmesettings
   name: Google User Settings API
   slug: google-user-settings-api
-- description: Operations related to Users
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Operations related to Users
   name: Google Users API
   slug: google-users-api
-- description: The Volumes API from Google — 2 operation(s) for volumes.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Volumes API from Google — 2 operation(s) for volumes.
   name: Google Volumes API
   slug: google-volumes-api
 artifact_total: 258
@@ -901,7 +1035,7 @@ score:
       marker_coverage: 0.0
       total: 80
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/screenshots/google-2026-06-20T182002.png
 security:

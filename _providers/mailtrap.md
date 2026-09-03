@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 23 operations · 12 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Manage sandbox inboxes
+- baseURL: https://send.api.mailtrap.io
+  baseurl_source: declared
+  description: Manage sandbox inboxes
   name: Mailtrap Inboxes API
   slug: mailtrap-inboxes-api
-- description: Inspect captured messages
+- baseURL: https://send.api.mailtrap.io
+  baseurl_source: declared
+  description: Inspect captured messages
   name: Mailtrap Messages API
   slug: mailtrap-messages-api
-- description: Send transactional and bulk emails
+- baseURL: https://send.api.mailtrap.io
+  baseurl_source: declared
+  description: Send transactional and bulk emails
   name: Mailtrap Send API
   slug: mailtrap-send-api
 artifact_total: 15
@@ -190,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/screenshots/mailtrap-2026-06-20T184904.png
 security:

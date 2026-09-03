@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Create, configure, send, sign and manage contracts.
+- baseURL: https://enterprise.api.trato.io
+  baseurl_source: declared
+  description: Create, configure, send, sign and manage contracts.
   name: Trato Contracts API
   slug: trato-contracts-api
-- description: Attach custom metadata properties to a contract.
+- baseURL: https://enterprise.api.trato.io
+  baseurl_source: declared
+  description: Attach custom metadata properties to a contract.
   name: Trato Custom Properties API
   slug: trato-custom-properties-api
-- description: Manage participants (signers) on a contract.
+- baseURL: https://enterprise.api.trato.io
+  baseurl_source: declared
+  description: Manage participants (signers) on a contract.
   name: Trato Participants API
   slug: trato-participants-api
-- description: Manage read-only observers of a contract.
+- baseURL: https://enterprise.api.trato.io
+  baseurl_source: declared
+  description: Manage read-only observers of a contract.
   name: Trato Spectators API
   slug: trato-spectators-api
-- description: List reusable contract templates.
+- baseURL: https://enterprise.api.trato.io
+  baseurl_source: declared
+  description: List reusable contract templates.
   name: Trato Templates API
   slug: trato-templates-api
 artifact_total: 15
@@ -220,7 +230,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.5
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -230,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.3
+  previous_composite: 36.8
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +251,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/screenshots/trato-2026-08-17T082426.png
 security:
 - kind: authentication

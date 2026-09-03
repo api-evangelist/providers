@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -33,37 +45,59 @@ agentic_access:
   summary_line: 26 operations · 8 acting
 api_count: 10
 apis:
-- description: The Assignment API from Solera — 3 operation(s) for assignment.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The Assignment API from Solera — 3 operation(s) for assignment.
   name: Solera Assignment API
   slug: solera-assignment-api
-- description: The EstimateReturn API from Solera — 1 operation(s) for estimatereturn.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The EstimateReturn API from Solera — 1 operation(s) for estimatereturn.
   name: Solera Estimate Return API
   slug: solera-estimatereturn-api
-- description: The GetClaimImageResponse API from Solera — 1 operation(s) for getclaimimageresponse.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GetClaimImageResponse API from Solera — 1 operation(s) for getclaimimageresponse.
   name: Solera Get Claim Image Response API
   slug: solera-getclaimimageresponse-api
-- description: The GetDocument API from Solera — 2 operation(s) for getdocument.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GetDocument API from Solera — 2 operation(s) for getdocument.
   name: Solera Get Document API
   slug: solera-getdocument-api
-- description: The GetDocuments API from Solera — 2 operation(s) for getdocuments.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GetDocuments API from Solera — 2 operation(s) for getdocuments.
   name: Solera Get Documents API
   slug: solera-getdocuments-api
-- description: The GetImage API from Solera — 4 operation(s) for getimage.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GetImage API from Solera — 4 operation(s) for getimage.
   name: Solera Get Image API
   slug: solera-getimage-api
-- description: The GetValuation API from Solera — 1 operation(s) for getvaluation.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GetValuation API from Solera — 1 operation(s) for getvaluation.
   name: Solera Get Valuation API
   slug: solera-getvaluation-api
-- description: The GetValuationResponse API from Solera — 1 operation(s) for getvaluationresponse.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GetValuationResponse API from Solera — 1 operation(s) for getvaluationresponse.
   name: Solera Get Valuation Response API
   slug: solera-getvaluationresponse-api
-- description: The GICIntegration API from Solera — 2 operation(s) for gicintegration.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The GICIntegration API from Solera — 2 operation(s) for gicintegration.
   name: Solera GIC Integration API
   slug: solera-gicintegration-api
-- description: The ValuationReturn API from Solera — 2 operation(s) for valuationreturn.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The ValuationReturn API from Solera — 2 operation(s) for valuationreturn.
   name: Solera Valuation Return API
   slug: solera-valuationreturn-api
-- description: The Version API from Solera — 2 operation(s) for version.
+- baseURL: https://api-demo.audatex.com/TestAssignmentapi
+  baseurl_source: declared
+  description: The Version API from Solera — 2 operation(s) for version.
   name: Solera Version API
   slug: solera-version-api
 artifact_total: 28
@@ -341,7 +375,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -351,7 +385,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -369,7 +403,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/screenshots/solera-2026-08-17T081956.png
 security:

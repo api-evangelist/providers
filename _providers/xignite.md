@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,73 +42,117 @@ agentic_access:
   summary_line: 354 operations
 api_count: 22
 apis:
-- description: Delayed stock quotes for equities across global exchanges, served as REST operations (GetGlobalDelayedQuote, symbol changes, chart bars) in JSON, XML, or CSV from the globalquotes.xignite.com service.
+- baseURL: https://globalquotes.xignite.com
+  baseurl_source: declared
+  description: Delayed stock quotes for equities across global exchanges, served as REST operations (GetGlobalDelayedQuote, symbol changes, chart bars) in JSON, XML, or CSV from the globalquotes.xignite.com service.
   name: Xignite Global Quotes API
   slug: xignite-global-quotes-api
-- description: Real-time stock quote data for global equities via REST request/response operations on the globalrealtime.xignite.com service.
+- baseURL: https://globalrealtime.xignite.com
+  baseurl_source: declared
+  description: Real-time stock quote data for global equities via REST request/response operations on the globalrealtime.xignite.com service.
   name: Xignite Global Real-Time API
   slug: xignite-global-real-time-api
-- description: End-of-day and historical equity prices including historical quote ranges, chart bars, adjustment factors, and cash dividend history from the globalhistorical.xignite.com service.
+- baseURL: https://globalhistorical.xignite.com
+  baseurl_source: declared
+  description: End-of-day and historical equity prices including historical quote ranges, chart bars, adjustment factors, and cash dividend history from the globalhistorical.xignite.com service.
   name: Xignite Global Historical API
   slug: xignite-global-historical-api
-- description: Real-time, historical, and average foreign exchange rates - one of Xignite's longest-running and most widely used APIs - served from the globalcurrencies.xignite.com service.
+- baseURL: https://globalcurrencies.xignite.com
+  baseurl_source: declared
+  description: Real-time, historical, and average foreign exchange rates - one of Xignite's longest-running and most widely used APIs - served from the globalcurrencies.xignite.com service.
   name: Xignite Global Currencies API
   slug: xignite-global-currencies-api
-- description: Spot prices, bars, and historical rates for precious metals such as gold, silver, platinum, and palladium from the globalmetals.xignite.com service.
+- baseURL: https://globalmetals.xignite.com
+  baseurl_source: declared
+  description: Spot prices, bars, and historical rates for precious metals such as gold, silver, platinum, and palladium from the globalmetals.xignite.com service.
   name: Xignite Global Metals API
   slug: xignite-global-metals-api
-- description: Cryptocurrency market data including quotes, chart bars, and historical prices for digital assets from the crypto.xignite.com service.
+- baseURL: https://crypto.xignite.com
+  baseurl_source: declared
+  description: Cryptocurrency market data including quotes, chart bars, and historical prices for digital assets from the crypto.xignite.com service.
   name: Xignite Crypto API
   slug: xignite-crypto-api
-- description: Stock market index and benchmark values with chart bars and index metadata from the globalindices.xignite.com service.
+- baseURL: https://globalindices.xignite.com
+  baseurl_source: declared
+  description: Stock market index and benchmark values with chart bars and index metadata from the globalindices.xignite.com service.
   name: Xignite Global Indices API
   slug: xignite-global-indices-api
-- description: Option price data including quotes and chains for listed equity options from the globaloptions.xignite.com service.
+- baseURL: https://globaloptions.xignite.com
+  baseurl_source: declared
+  description: Option price data including quotes and chains for listed equity options from the globaloptions.xignite.com service.
   name: Xignite Global Options API
   slug: xignite-global-options-api
-- description: Futures contract prices and metadata across commodity, index, and financial futures from the globalfutures.xignite.com service.
+- baseURL: https://globalfutures.xignite.com
+  baseurl_source: declared
+  description: Futures contract prices and metadata across commodity, index, and financial futures from the globalfutures.xignite.com service.
   name: Xignite Global Futures API
   slug: xignite-global-futures-api
-- description: Bond price data for fixed income securities from the bonds.xignite.com service.
+- baseURL: https://bonds.xignite.com
+  baseurl_source: declared
+  description: Bond price data for fixed income securities from the bonds.xignite.com service.
   name: Xignite Bonds API
   slug: xignite-bonds-api
-- description: Money market, treasury, swap, and interbank rate data from the moneymarkets.xignite.com service.
+- baseURL: https://moneymarkets.xignite.com
+  baseurl_source: declared
+  description: Money market, treasury, swap, and interbank rate data from the moneymarkets.xignite.com service.
   name: Xignite Money Markets API
   slug: xignite-money-markets-api
-- description: Global security master and reference data - symbology, listings, identifiers, and instrument metadata - from the globalmaster.xignite.com service.
+- baseURL: https://globalmaster.xignite.com
+  baseurl_source: declared
+  description: Global security master and reference data - symbology, listings, identifiers, and instrument metadata - from the globalmaster.xignite.com service.
   name: Xignite Global Master API
   slug: xignite-global-master-api
-- description: Corporate action events such as dividends, splits, mergers, and symbol changes from the globalcorporateactions.xignite.com service.
+- baseURL: https://globalcorporateactions.xignite.com
+  baseurl_source: declared
+  description: Corporate action events such as dividends, splits, mergers, and symbol changes from the globalcorporateactions.xignite.com service.
   name: Xignite Global Corporate Actions API
   slug: xignite-global-corporate-actions-api
-- description: Company financial news headlines, market summaries, and press release data from the globalnews.xignite.com service.
+- baseURL: https://globalnews.xignite.com
+  baseurl_source: declared
+  description: Company financial news headlines, market summaries, and press release data from the globalnews.xignite.com service.
   name: Xignite Global News API
   slug: xignite-global-news-api
-- description: Company earnings announcement dates and earnings calendar data from the earningscalendar.xignite.com service.
+- baseURL: https://earningscalendar.xignite.com
+  baseurl_source: declared
+  description: Company earnings announcement dates and earnings calendar data from the earningscalendar.xignite.com service.
   name: Xignite Earnings Calendar API
   slug: xignite-earnings-calendar-api
-- description: Mutual fund net asset values (NAVs), adjustment factors, and fund pricing history from the navs.xignite.com service.
+- baseURL: https://navs.xignite.com
+  baseurl_source: declared
+  description: Mutual fund net asset values (NAVs), adjustment factors, and fund pricing history from the navs.xignite.com service.
   name: Xignite NAVs API
   slug: xignite-navs-api
-- description: Fund fundamental data - holdings, performance, and profile details for mutual funds and ETFs - from the globalfundfundamentals.xignite.com service.
+- baseURL: https://globalfundfundamentals.xignite.com
+  baseurl_source: declared
+  description: Fund fundamental data - holdings, performance, and profile details for mutual funds and ETFs - from the globalfundfundamentals.xignite.com service.
   name: Xignite Global Fund Fundamentals API
   slug: xignite-global-fund-fundamentals-api
-- description: Company fundamentals and financial statement data sourced from FactSet, served from the factsetfundamentals.xignite.com service.
+- baseURL: https://factsetfundamentals.xignite.com
+  baseurl_source: declared
+  description: Company fundamentals and financial statement data sourced from FactSet, served from the factsetfundamentals.xignite.com service.
   name: Xignite FactSet Fundamentals API
   slug: xignite-factset-fundamentals-api
-- description: Environmental, social, and governance (ESG) data for companies from the globalesg.xignite.com service.
+- baseURL: https://globalesg.xignite.com
+  baseurl_source: declared
+  description: Environmental, social, and governance (ESG) data for companies from the globalesg.xignite.com service.
   name: Xignite Global ESG API
   slug: xignite-global-esg-api
-- description: Exchange trading hours, market holidays, and calendar data for global exchanges from the globalholidays.xignite.com service.
+- baseURL: https://globalholidays.xignite.com
+  baseurl_source: declared
+  description: Exchange trading hours, market holidays, and calendar data for global exchanges from the globalholidays.xignite.com service.
   name: Xignite Global Holidays API
   slug: xignite-global-holidays-api
-- description: Market event alerting - create and manage alerts on market data conditions - from the alerts.xignite.com service.
+- baseURL: https://alerts.xignite.com
+  baseurl_source: declared
+  description: Market event alerting - create and manage alerts on market data conditions - from the alerts.xignite.com service.
   name: Xignite CloudAlerts API
   slug: xignite-cloud-alerts-api
 - description: Streaming product for pushing real-time quotes directly to applications. The product page is live but transport details (protocol, endpoints) are only documented behind registration; no public spec wa
   name: Xignite CloudStreaming API
   slug: xignite-cloud-streaming-api
-- description: Bulk file delivery service behind Xignite's file products (historical equity prices, bonds, options, currencies, and corporate actions files), served from the cloudfiles.xignite.com service.
+- baseURL: https://cloudfiles.xignite.com
+  baseurl_source: declared
+  description: Bulk file delivery service behind Xignite's file products (historical equity prices, bonds, options, currencies, and corporate actions files), served from the cloudfiles.xignite.com service.
   name: Xignite CloudFiles API
   slug: xignite-cloud-files-api
 artifact_total: 50
@@ -340,7 +384,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/screenshots/xignite-2026-07-22T202705.png
 security:

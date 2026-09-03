@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
 - description: Browser-side JavaScript API (also called the External API) that embeds a Jitsi Meet conference into any web page through an iframe. Exposes the JitsiMeetExternalAPI constructor with commands (executeC
@@ -305,7 +305,7 @@ score:
     score: 85.0
   previous_composite: 38.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitsi-org/refs/heads/main/screenshots/jitsi-org-2026-06-20T183736.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: The SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides REST APIs for accessing company filings, XBRL financial data, and full-text search across SEC submissions. APIs deliv
   name: SEC EDGAR Company Filings API
   slug: sec-edgar-company-filings-api
-- description: Aggregated company financial facts
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Aggregated company financial facts
   name: sec-edgar Company Facts API
   slug: sec-edgar-company-facts-api
-- description: Full-text search across all EDGAR filings
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Full-text search across all EDGAR filings
   name: sec-edgar Full-Text Search API
   slug: sec-edgar-full-text-search-api
-- description: Company filing submission history
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Company filing submission history
   name: sec-edgar Submissions API
   slug: sec-edgar-submissions-api
-- description: Structured XBRL financial data
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Structured XBRL financial data
   name: sec-edgar XBRL API
   slug: sec-edgar-xbrl-api
 artifact_total: 20
@@ -147,16 +155,16 @@ jsonld:
   slug: sec-edgar-context
 layout: provider
 modified: '2026-05-19'
-name: sec-edgar
+name: Sec Edgar
 nav: Providers
 network: true
-overview: 'sec-edgar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company Facts API, Full-Text Search API, Submissions API, and 1 more.
+overview: 'Sec Edgar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including sec-edgar Company Facts API, sec-edgar Full-Text Search API, sec-edgar Submissions API, and 1 more.
 
 
-  The sec-edgar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Sec Edgar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  sec-edgar''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 8 more developer resources.'
+  Sec Edgar''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 8 more developer resources.'
 plans:
 - name: Sec Edgar Plans Pricing
   plan_count: 1
@@ -169,7 +177,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: sec-edgar API Rules
+  name: Sec Edgar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -205,10 +213,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/screenshots/sec-edgar-2026-06-20T193620.png
 security:

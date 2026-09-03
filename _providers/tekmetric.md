@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 17 operations · 1 acting
 api_count: 1
 apis:
-- description: Scheduled shop appointments.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Scheduled shop appointments.
   name: Tekmetric Appointments API
   slug: tekmetric-appointments-api
-- description: Pre-built menu services bundling standard labor and parts.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Pre-built menu services bundling standard labor and parts.
   name: Tekmetric Canned Jobs API
   slug: tekmetric-canned-jobs-api
-- description: Shop customers and their contact information.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Shop customers and their contact information.
   name: Tekmetric Customers API
   slug: tekmetric-customers-api
-- description: Shop technicians and staff.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Shop technicians and staff.
   name: Tekmetric Employees API
   slug: tekmetric-employees-api
-- description: Parts and tire inventory.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Parts and tire inventory.
   name: Tekmetric Inventory API
   slug: tekmetric-inventory-api
-- description: Individual services (labor and parts) within a repair order.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Individual services (labor and parts) within a repair order.
   name: Tekmetric Jobs API
   slug: tekmetric-jobs-api
-- description: Estimates and invoices tracking a vehicle's work.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Estimates and invoices tracking a vehicle's work.
   name: Tekmetric Repair Orders API
   slug: tekmetric-repair-orders-api
-- description: Shop locations, hours, labor rates, and settings.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Shop locations, hours, labor rates, and settings.
   name: Tekmetric Shops API
   slug: tekmetric-shops-api
-- description: Customer vehicles serviced by the shop.
+- baseURL: https://shop.tekmetric.com/api/v1
+  baseurl_source: declared
+  description: Customer vehicles serviced by the shop.
   name: Tekmetric Vehicles API
   slug: tekmetric-vehicles-api
 artifact_total: 28
@@ -193,7 +211,7 @@ score:
   band: thin
   composite: 36.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +234,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tekmetric/refs/heads/main/screenshots/tekmetric-2026-09-02T162726.png
 security:
 - kind: authentication
   name: Tekmetric Authentication

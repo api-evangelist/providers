@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 60 operations · 25 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: Manage backup agents installed on clients
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage backup agents installed on clients
   name: Commvault Agents API
   slug: commvault-agents-api
-- description: Manage alerts and notification configurations
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage alerts and notification configurations
   name: Commvault Alerts API
   slug: commvault-alerts-api
-- description: Login and token management operations
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Login and token management operations
   name: Commvault Authentication API
   slug: commvault-authentication-api
-- description: Manage clients (servers, workstations, virtual machines)
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage clients (servers, workstations, virtual machines)
   name: Commvault Clients API
   slug: commvault-clients-api
-- description: Dashboard summary and health monitoring
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Dashboard summary and health monitoring
   name: Commvault Dashboard API
   slug: commvault-dashboard-api
-- description: Manage database protection
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage database protection
   name: Commvault Databases API
   slug: commvault-databases-api
-- description: Manage file server protection
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage file server protection
   name: Commvault File Servers API
   slug: commvault-file-servers-api
-- description: View and manage backup, restore, and administrative jobs
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: View and manage backup, restore, and administrative jobs
   name: Commvault Jobs API
   slug: commvault-jobs-api
-- description: Manage laptop backup operations
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage laptop backup operations
   name: Commvault Laptops API
   slug: commvault-laptops-api
-- description: Trigger and monitor automated operations
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Trigger and monitor automated operations
   name: Commvault Operations API
   slug: commvault-operations-api
-- description: Manage server plans for data protection
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage server plans for data protection
   name: Commvault Plans API
   slug: commvault-plans-api
-- description: Manage data protection policies
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage data protection policies
   name: Commvault Policies API
   slug: commvault-policies-api
-- description: Reporting and analytics
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Reporting and analytics
   name: Commvault Reports API
   slug: commvault-reports-api
-- description: Manage schedule policies for automated operations
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage schedule policies for automated operations
   name: Commvault Schedule Policies API
   slug: commvault-schedule-policies-api
-- description: Manage job schedules and schedule policies
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage job schedules and schedule policies
   name: Commvault Schedules API
   slug: commvault-schedules-api
-- description: Manage and execute automation scripts
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage and execute automation scripts
   name: Commvault Scripts API
   slug: commvault-scripts-api
-- description: Manage server groups for organizing protected infrastructure
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage server groups for organizing protected infrastructure
   name: Commvault Server Groups API
   slug: commvault-server-groups-api
-- description: Service Level Agreement compliance monitoring
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Service Level Agreement compliance monitoring
   name: Commvault SLA API
   slug: commvault-sla-api
-- description: Storage pool and library management
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Storage pool and library management
   name: Commvault Storage API
   slug: commvault-storage-api
-- description: Manage storage policies and copies
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage storage policies and copies
   name: Commvault Storage Policies API
   slug: commvault-storage-policies-api
-- description: Manage subclients that define backup content
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage subclients that define backup content
   name: Commvault Subclients API
   slug: commvault-subclients-api
-- description: Manage Commvault users and user groups
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage Commvault users and user groups
   name: Commvault Users API
   slug: commvault-users-api
-- description: Manage virtual machine backup and recovery
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Manage virtual machine backup and recovery
   name: Commvault Virtual Machines API
   slug: commvault-virtual-machines-api
-- description: Create, manage, and execute automation workflows
+- baseURL: https://webserver.commvault.com/webconsole/api
+  baseurl_source: declared
+  description: Create, manage, and execute automation workflows
   name: Commvault Workflows API
   slug: commvault-workflows-api
 artifact_total: 87
@@ -436,7 +484,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
 security:

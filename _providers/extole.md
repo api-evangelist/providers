@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -45,136 +45,224 @@ agentic_access:
   summary_line: 743 operations · 400 acting · 151 human-in-the-loop
 api_count: 4
 apis:
-- description: The Audiences API from Extole — 17 operation(s) for audiences.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Audiences API from Extole — 17 operation(s) for audiences.
   name: Extole Audiences API
   slug: extole-audiences-api
-- description: The Authentication API from Extole — 16 operation(s) for authentication.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Authentication API from Extole — 16 operation(s) for authentication.
   name: Extole Authentication API
   slug: extole-authentication-api
-- description: The Batch Jobs API from Extole — 6 operation(s) for batch jobs.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Batch Jobs API from Extole — 6 operation(s) for batch jobs.
   name: Extole Batch Jobs API
   slug: extole-batch-jobs-api
-- description: The Blocks API from Extole — 4 operation(s) for blocks.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Blocks API from Extole — 4 operation(s) for blocks.
   name: Extole Blocks API
   slug: extole-blocks-api
-- description: The Campaign Controllers Actions API from Extole — 54 operation(s) for campaign controllers actions.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Campaign Controllers Actions API from Extole — 54 operation(s) for campaign controllers actions.
   name: Extole Campaign Controllers Actions API
   slug: extole-campaign-controllers-actions-api
-- description: The Campaign Controllers API from Extole — 2 operation(s) for campaign controllers.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Campaign Controllers API from Extole — 2 operation(s) for campaign controllers.
   name: Extole Campaign Controllers API
   slug: extole-campaign-controllers-api
-- description: The Campaign Controllers Triggers API from Extole — 63 operation(s) for campaign controllers triggers.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Campaign Controllers Triggers API from Extole — 63 operation(s) for campaign controllers triggers.
   name: Extole Campaign Controllers Triggers API
   slug: extole-campaign-controllers-triggers-api
-- description: The Campaign Flow Steps API from Extole — 12 operation(s) for campaign flow steps.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Campaign Flow Steps API from Extole — 12 operation(s) for campaign flow steps.
   name: Extole Campaign Flow Steps API
   slug: extole-campaign-flow-steps-api
-- description: The Campaigns API from Extole — 31 operation(s) for campaigns.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Campaigns API from Extole — 31 operation(s) for campaigns.
   name: Extole Campaigns API
   slug: extole-campaigns-api
-- description: The Components API from Extole — 21 operation(s) for components.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Components API from Extole — 21 operation(s) for components.
   name: Extole Components API
   slug: extole-components-api
-- description: The Components Grants API from Extole — 4 operation(s) for components grants.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Components Grants API from Extole — 4 operation(s) for components grants.
   name: Extole Components Grants API
   slug: extole-components-grants-api
-- description: The Components Settings API from Extole — 7 operation(s) for components settings.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Components Settings API from Extole — 7 operation(s) for components settings.
   name: Extole Components Settings API
   slug: extole-components-settings-api
-- description: The Components Subscriptions API from Extole — 4 operation(s) for components subscriptions.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Components Subscriptions API from Extole — 4 operation(s) for components subscriptions.
   name: Extole Components Subscriptions API
   slug: extole-components-subscriptions-api
-- description: The Components Types API from Extole — 3 operation(s) for components types.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Components Types API from Extole — 3 operation(s) for components types.
   name: Extole Components Types API
   slug: extole-components-types-api
-- description: The Content API from Extole — 6 operation(s) for content.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Content API from Extole — 6 operation(s) for content.
   name: Extole Content API
   slug: extole-content-api
-- description: The Debug API from Extole — 4 operation(s) for debug.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Debug API from Extole — 4 operation(s) for debug.
   name: Extole Debug API
   slug: extole-debug-api
-- description: The Domains API from Extole — 10 operation(s) for domains.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Domains API from Extole — 10 operation(s) for domains.
   name: Extole Domains API
   slug: extole-domains-api
-- description: The Email API from Extole — 7 operation(s) for email.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Email API from Extole — 7 operation(s) for email.
   name: Extole Email API
   slug: extole-email-api
-- description: The Erasure API from Extole — 1 operation(s) for erasure.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Erasure API from Extole — 1 operation(s) for erasure.
   name: Extole Erasure API
   slug: extole-erasure-api
-- description: The Event Prehandlers API from Extole — 6 operation(s) for event prehandlers.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Event Prehandlers API from Extole — 6 operation(s) for event prehandlers.
   name: Extole Event Prehandlers API
   slug: extole-event-prehandlers-api
-- description: The Event Streams API from Extole — 9 operation(s) for event streams.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Event Streams API from Extole — 9 operation(s) for event streams.
   name: Extole Event Streams API
   slug: extole-event-streams-api
-- description: The Events API from Extole — 6 operation(s) for events.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Events API from Extole — 6 operation(s) for events.
   name: Extole Events API
   slug: extole-events-api
-- description: The File Validation Monitors API from Extole — 6 operation(s) for file validation monitors.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The File Validation Monitors API from Extole — 6 operation(s) for file validation monitors.
   name: Extole File Validation Monitors API
   slug: extole-file-validation-monitors-api
-- description: The Files API from Extole — 4 operation(s) for files.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Files API from Extole — 4 operation(s) for files.
   name: Extole Files API
   slug: extole-files-api
-- description: The Javascript Core Extensions API from Extole — 5 operation(s) for javascript core extensions.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Javascript Core Extensions API from Extole — 5 operation(s) for javascript core extensions.
   name: Extole Javascript Core Extensions API
   slug: extole-javascript-core-extensions-api
-- description: The Optout API from Extole — 1 operation(s) for optout.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Optout API from Extole — 1 operation(s) for optout.
   name: Extole Optout API
   slug: extole-optout-api
-- description: The Persons API from Extole — 28 operation(s) for persons.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Persons API from Extole — 28 operation(s) for persons.
   name: Extole Persons API
   slug: extole-persons-api
-- description: The Profile Assets API from Extole — 4 operation(s) for profile assets.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Profile Assets API from Extole — 4 operation(s) for profile assets.
   name: Extole Profile Assets API
   slug: extole-profile-assets-api
-- description: The Profiles API from Extole — 41 operation(s) for profiles.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Profiles API from Extole — 41 operation(s) for profiles.
   name: Extole Profiles API
   slug: extole-profiles-api
-- description: The Promotion Links API from Extole — 2 operation(s) for promotion links.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Promotion Links API from Extole — 2 operation(s) for promotion links.
   name: Extole Promotion Links API
   slug: extole-promotion-links-api
-- description: The Report Schedules API from Extole — 14 operation(s) for report schedules.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Report Schedules API from Extole — 14 operation(s) for report schedules.
   name: Extole Report Schedules API
   slug: extole-report-schedules-api
-- description: The Report Types API from Extole — 9 operation(s) for report types.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Report Types API from Extole — 9 operation(s) for report types.
   name: Extole Report Types API
   slug: extole-report-types-api
-- description: The Reporting API from Extole — 7 operation(s) for reporting.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Reporting API from Extole — 7 operation(s) for reporting.
   name: Extole Reporting API
   slug: extole-reporting-api
-- description: The Reports API from Extole — 14 operation(s) for reports.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Reports API from Extole — 14 operation(s) for reports.
   name: Extole Reports API
   slug: extole-reports-api
-- description: The Reward Suppliers API from Extole — 21 operation(s) for reward suppliers.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Reward Suppliers API from Extole — 21 operation(s) for reward suppliers.
   name: Extole Reward Suppliers API
   slug: extole-reward-suppliers-api
-- description: The Rewards API from Extole — 13 operation(s) for rewards.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Rewards API from Extole — 13 operation(s) for rewards.
   name: Extole Rewards API
   slug: extole-rewards-api
-- description: The Security Keys API from Extole — 6 operation(s) for security keys.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Security Keys API from Extole — 6 operation(s) for security keys.
   name: Extole Security Keys API
   slug: extole-security-keys-api
-- description: The Settings API from Extole — 5 operation(s) for settings.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Settings API from Extole — 5 operation(s) for settings.
   name: Extole Settings API
   slug: extole-settings-api
-- description: The SFTP Servers API from Extole — 4 operation(s) for sftp servers.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The SFTP Servers API from Extole — 4 operation(s) for sftp servers.
   name: Extole SFTP Servers API
   slug: extole-sftp-servers-api
-- description: The User Notifications API from Extole — 8 operation(s) for user notifications.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The User Notifications API from Extole — 8 operation(s) for user notifications.
   name: Extole User Notifications API
   slug: extole-user-notifications-api
-- description: The User Subscriptions API from Extole — 3 operation(s) for user subscriptions.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The User Subscriptions API from Extole — 3 operation(s) for user subscriptions.
   name: Extole User Subscriptions API
   slug: extole-user-subscriptions-api
-- description: The Users API from Extole — 8 operation(s) for users.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Users API from Extole — 8 operation(s) for users.
   name: Extole Users API
   slug: extole-users-api
-- description: The Webhooks API from Extole — 4 operation(s) for webhooks.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Webhooks API from Extole — 4 operation(s) for webhooks.
   name: Extole Webhooks API
   slug: extole-webhooks-api
-- description: The Zone Rendering API from Extole — 2 operation(s) for zone rendering.
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The Zone Rendering API from Extole — 2 operation(s) for zone rendering.
   name: Extole Zone Rendering API
   slug: extole-zone-rendering-api
 artifact_total: 99
@@ -549,7 +637,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -559,7 +647,7 @@ score:
     discoverability: 81.5
     governance: 63.6
     operational_transparency: 63.2
-  previous_composite: 60.9
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -571,7 +659,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:

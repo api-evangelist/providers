@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,19 +50,27 @@ apis:
 - description: REST API to retrieve form submissions in JSON without polling webhooks. Bearer-token auth.
   name: Typeform Responses API
   slug: responses
-- description: REST endpoints for managing webhooks that POST every submission to a configured URL.
+- baseURL: https://api.typeform.com
+  baseurl_source: declared
+  description: REST endpoints for managing webhooks that POST every submission to a configured URL.
   name: Typeform Webhooks API
   slug: webhooks
 - description: JavaScript embed SDK for inline / popup / fullscreen / sidetab / popover / slider experiences in your own website or web app. Not a REST API.
   name: Typeform Embed SDK
   slug: embed
-- description: The Forms API from Typeform — 2 operation(s) for forms.
+- baseURL: https://api.typeform.com
+  baseurl_source: declared
+  description: The Forms API from Typeform — 2 operation(s) for forms.
   name: Typeform Forms API
   slug: typeform-forms-api
-- description: The Images API from Typeform — 1 operation(s) for images.
+- baseURL: https://api.typeform.com
+  baseurl_source: declared
+  description: The Images API from Typeform — 1 operation(s) for images.
   name: Typeform Images API
   slug: typeform-images-api
-- description: The Themes API from Typeform — 1 operation(s) for themes.
+- baseURL: https://api.typeform.com
+  baseurl_source: declared
+  description: The Themes API from Typeform — 1 operation(s) for themes.
   name: Typeform Themes API
   slug: typeform-themes-api
 artifact_total: 22
@@ -200,7 +208,7 @@ score:
     catalog_gap: 66.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -210,7 +218,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 39.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/screenshots/typeform-2026-06-20T195905.png
 security:

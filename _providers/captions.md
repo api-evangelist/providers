@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 23 operations · 11 acting · 5 human-in-the-loop
 api_count: 3
 apis:
-- description: The Audio API from Captions — 1 operation(s) for audio.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Audio API from Captions — 1 operation(s) for audio.
   name: Captions Audio API
   slug: captions-audio-api
-- description: The health API from Captions — 1 operation(s) for health.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The health API from Captions — 1 operation(s) for health.
   name: Captions health API
   slug: captions-health-api
-- description: The internal API from Captions — 8 operation(s) for internal.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The internal API from Captions — 8 operation(s) for internal.
   name: Captions internal API
   slug: captions-internal-api
-- description: The Meta Text Overlays API from Captions — 2 operation(s) for meta text overlays.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Meta Text Overlays API from Captions — 2 operation(s) for meta text overlays.
   name: Captions Meta Text Overlays API
   slug: captions-meta-text-overlays-api
-- description: The root API from Captions — 1 operation(s) for root.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The root API from Captions — 1 operation(s) for root.
   name: Captions root API
   slug: captions-root-api
-- description: The Video Captions API from Captions — 3 operation(s) for video captions.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Video Captions API from Captions — 3 operation(s) for video captions.
   name: Captions Video Captions API
   slug: captions-video-captions-api
-- description: The Videos API from Captions — 3 operation(s) for videos.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Videos API from Captions — 3 operation(s) for videos.
   name: Captions Videos API
   slug: captions-videos-api
-- description: Generate UGC-style AI advertising videos using AI creators
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: Generate UGC-style AI advertising videos using AI creators
   name: Captions AI Ads API
   slug: captions-ai-ads-api
-- description: Generate talking-head videos using community AI avatars or AI Twins
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: Generate talking-head videos using community AI avatars or AI Twins
   name: Captions AI Creator API
   slug: captions-ai-creator-api
 artifact_total: 35
@@ -349,7 +367,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:

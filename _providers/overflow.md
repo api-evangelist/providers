@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 38 operations · 8 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: The Campaigns API from Overflow — 2 operation(s) for campaigns.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Campaigns API from Overflow — 2 operation(s) for campaigns.
   name: Overflow Campaigns API
   slug: overflow-campaigns-api
-- description: The Chargebacks API from Overflow — 2 operation(s) for chargebacks.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Chargebacks API from Overflow — 2 operation(s) for chargebacks.
   name: Overflow Chargebacks API
   slug: overflow-chargebacks-api
-- description: The Contributions API from Overflow — 3 operation(s) for contributions.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Contributions API from Overflow — 3 operation(s) for contributions.
   name: Overflow Contributions API
   slug: overflow-contributions-api
-- description: The Deposits API from Overflow — 3 operation(s) for deposits.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Deposits API from Overflow — 3 operation(s) for deposits.
   name: Overflow Deposits API
   slug: overflow-deposits-api
-- description: The Donors API from Overflow — 2 operation(s) for donors.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Donors API from Overflow — 2 operation(s) for donors.
   name: Overflow Donors API
   slug: overflow-donors-api
-- description: The Locations API from Overflow — 2 operation(s) for locations.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Locations API from Overflow — 2 operation(s) for locations.
   name: Overflow Locations API
   slug: overflow-locations-api
-- description: The Payment Methods API from Overflow — 1 operation(s) for payment methods.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Payment Methods API from Overflow — 1 operation(s) for payment methods.
   name: Overflow Payment Methods API
   slug: overflow-payment-methods-api
-- description: The Payments API from Overflow — 1 operation(s) for payments.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Payments API from Overflow — 1 operation(s) for payments.
   name: Overflow Payments API
   slug: overflow-payments-api
-- description: The Refunds API from Overflow — 2 operation(s) for refunds.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Refunds API from Overflow — 2 operation(s) for refunds.
   name: Overflow Refunds API
   slug: overflow-refunds-api
-- description: The Status API from Overflow — 1 operation(s) for status.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Status API from Overflow — 1 operation(s) for status.
   name: Overflow Status API
   slug: overflow-status-api
-- description: The Subscriptions API from Overflow — 3 operation(s) for subscriptions.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Subscriptions API from Overflow — 3 operation(s) for subscriptions.
   name: Overflow Subscriptions API
   slug: overflow-subscriptions-api
-- description: The Tap API from Overflow — 7 operation(s) for tap.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Tap API from Overflow — 7 operation(s) for tap.
   name: Overflow Tap API
   slug: overflow-tap-api
-- description: The Webhooks API from Overflow — 3 operation(s) for webhooks.
+- baseURL: https://server.overflow.co
+  baseurl_source: declared
+  description: The Webhooks API from Overflow — 3 operation(s) for webhooks.
   name: Overflow Webhooks API
   slug: overflow-webhooks-api
 artifact_total: 32
@@ -263,7 +289,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -273,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.0
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +317,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overflow/refs/heads/main/screenshots/overflow-2026-08-07T191125.png
 security:

@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Full-text search over asset payloads.
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: Full-text search over asset payloads.
   name: Bigchaindb Assets API
   slug: bigchaindb-assets-api
-- description: Read blocks by height or by contained transaction.
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: Read blocks by height or by contained transaction.
   name: Bigchaindb Blocks API
   slug: bigchaindb-blocks-api
-- description: Full-text search over transaction metadata.
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: Full-text search over transaction metadata.
   name: Bigchaindb Metadata API
   slug: bigchaindb-metadata-api
-- description: List transaction outputs by public key.
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: List transaction outputs by public key.
   name: Bigchaindb Outputs API
   slug: bigchaindb-outputs-api
-- description: Node discovery endpoints.
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: Node discovery endpoints.
   name: Bigchaindb Root API
   slug: bigchaindb-root-api
-- description: Create and read transactions (CREATE and TRANSFER operations).
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: Create and read transactions (CREATE and TRANSFER operations).
   name: Bigchaindb Transactions API
   slug: bigchaindb-transactions-api
-- description: Read the node's validator set.
+- baseURL: https://test.ipdb.io:9984
+  baseurl_source: declared
+  description: Read the node's validator set.
   name: Bigchaindb Validators API
   slug: bigchaindb-validators-api
 artifact_total: 17
@@ -204,7 +218,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:

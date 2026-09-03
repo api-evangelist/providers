@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Discovery of the correct regional api_access_point
+- baseURL: https://api.na4.adobesign.com/api/rest/v6
+  baseurl_source: declared
+  description: Discovery of the correct regional api_access_point
   name: Adobe Acrobat Sign Base URIs API
   slug: adobe-sign-base-uris-api
 artifact_total: 10
@@ -163,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/screenshots/adobe-sign-2026-06-20T165020.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 53 operations · 28 acting
 api_count: 1
 apis:
-- description: Ping the API and inspect the authenticated account and rate-limit state.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Ping the API and inspect the authenticated account and rate-limit state.
   name: Quaderno Authentication API
   slug: quaderno-authentication-api
-- description: Hosted checkout sessions for collecting tax-compliant payments.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Hosted checkout sessions for collecting tax-compliant payments.
   name: Quaderno Checkout API
   slug: quaderno-checkout-api
-- description: Customers and vendors.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Customers and vendors.
   name: Quaderno Contacts API
   slug: quaderno-contacts-api
-- description: Credit notes issued against invoices.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Credit notes issued against invoices.
   name: Quaderno Credits API
   slug: quaderno-credits-api
-- description: Quotes and estimates issued to customers.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Quotes and estimates issued to customers.
   name: Quaderno Estimates API
   slug: quaderno-estimates-api
-- description: Location evidence records supporting tax determination for a transaction.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Location evidence records supporting tax determination for a transaction.
   name: Quaderno Evidences API
   slug: quaderno-evidences-api
-- description: Purchases and vendor bills recorded against the account.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Purchases and vendor bills recorded against the account.
   name: Quaderno Expenses API
   slug: quaderno-expenses-api
-- description: Sales invoices issued to customers.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Sales invoices issued to customers.
   name: Quaderno Invoices API
   slug: quaderno-invoices-api
-- description: Reusable products and services used as document line items.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Reusable products and services used as document line items.
   name: Quaderno Items API
   slug: quaderno-items-api
-- description: Payments recorded against invoices, credits, and expenses.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Payments recorded against invoices, credits, and expenses.
   name: Quaderno Payments API
   slug: quaderno-payments-api
-- description: Recurring document templates that auto-generate invoices.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Recurring document templates that auto-generate invoices.
   name: Quaderno Recurring API
   slug: quaderno-recurring-api
-- description: Real-time tax rate calculation, jurisdictions, tax codes, and tax ID validation.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Real-time tax rate calculation, jurisdictions, tax codes, and tax ID validation.
   name: Quaderno Taxes API
   slug: quaderno-taxes-api
-- description: Unified sales transactions that both record a sale and calculate tax.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Unified sales transactions that both record a sale and calculate tax.
   name: Quaderno Transactions API
   slug: quaderno-transactions-api
-- description: Subscriptions that deliver real-time event notifications to your app.
+- baseURL: https://ACCOUNT_NAME.quadernoapp.com/api
+  baseurl_source: declared
+  description: Subscriptions that deliver real-time event notifications to your app.
   name: Quaderno Webhooks API
   slug: quaderno-webhooks-api
 artifact_total: 36
@@ -206,7 +234,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -229,8 +257,9 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/screenshots/quaderno-2026-09-02T152547.png
 security:
 - kind: authentication
   name: Quaderno Authentication

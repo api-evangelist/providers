@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The GraphQL API from Ledgy — 1 operation(s) for graphql.
+- baseURL: https://app.ledgy.com/graphql
+  baseurl_source: declared
+  description: The GraphQL API from Ledgy — 1 operation(s) for graphql.
   name: Ledgy GraphQL API
   slug: ledgy-graphql-api
 artifact_total: 12
@@ -163,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/screenshots/ledgy-2026-07-25T224817.png
 security:

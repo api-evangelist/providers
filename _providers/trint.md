@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Export transcripts and captions in various formats.
+- baseURL: https://upload.trint.com
+  baseurl_source: declared
+  description: Export transcripts and captions in various formats.
   name: Trint Export API
   slug: trint-export-api
-- description: Live/realtime transcription via an RTMP media stream.
+- baseURL: https://upload.trint.com
+  baseurl_source: declared
+  description: Live/realtime transcription via an RTMP media stream.
   name: Trint Realtime API
   slug: trint-realtime-api
-- description: List and retrieve transcripts (files), folders, and shared drives.
+- baseURL: https://upload.trint.com
+  baseurl_source: declared
+  description: List and retrieve transcripts (files), folders, and shared drives.
   name: Trint Transcripts and Files API
   slug: trint-transcripts-and-files-api
-- description: Translate transcripts into other languages.
+- baseURL: https://upload.trint.com
+  baseurl_source: declared
+  description: Translate transcripts into other languages.
   name: Trint Translations API
   slug: trint-translations-api
-- description: Upload or ingest media and start automatic transcription.
+- baseURL: https://upload.trint.com
+  baseurl_source: declared
+  description: Upload or ingest media and start automatic transcription.
   name: Trint Upload and Transcribe API
   slug: trint-upload-and-transcribe-api
-- description: Register callbacks for transcription lifecycle events.
+- baseURL: https://upload.trint.com
+  baseurl_source: declared
+  description: Register callbacks for transcription lifecycle events.
   name: Trint Webhooks API
   slug: trint-webhooks-api
 artifact_total: 19
@@ -158,7 +170,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -181,8 +193,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trint/refs/heads/main/screenshots/trint-2026-09-02T164239.png
 security:
 - kind: authentication
   name: Trint Authentication

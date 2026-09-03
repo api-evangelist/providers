@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ematic-solutions/refs/heads/main/screenshots/ematic-solutions-2026-07-25T213225.png
 security:

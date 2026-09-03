@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 65 operations · 33 acting
 api_count: 9
 apis:
-- description: Manage automated response actions triggered by policies including email notifications, HTTP requests, and custom scripts.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage automated response actions triggered by policies including email notifications, HTTP requests, and custom scripts.
   name: AppDynamics Actions API
   slug: appdynamics-actions-api
-- description: Export and import action configurations for alerting workflows.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Export and import action configurations for alerting workflows.
   name: AppDynamics Actions Export/Import API
   slug: appdynamics-actions-export-import-api
-- description: Retrieve business application names, IDs, and related metadata from the Controller.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve business application names, IDs, and related metadata from the Controller.
   name: AppDynamics Applications API
   slug: appdynamics-applications-api
-- description: Retrieve registered backend components detected by the Controller including their properties and exit point types.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve registered backend components detected by the Controller including their properties and exit point types.
   name: AppDynamics Backends API
   slug: appdynamics-backends-api
-- description: Retrieve business transaction information including names, IDs, entry points, and detection status.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve business transaction information including names, IDs, entry points, and detection status.
   name: AppDynamics Business Transactions API
   slug: appdynamics-business-transactions-api
-- description: Configure data collection settings for cloud connections including service selection, region filtering, and resource group scoping.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Configure data collection settings for cloud connections including service selection, region filtering, and resource group scoping.
   name: AppDynamics Configurations API
   slug: appdynamics-configurations-api
-- description: Manage cloud provider connections for AWS, Azure, and GCP to enable automated cloud monitoring at scale.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage cloud provider connections for AWS, Azure, and GCP to enable automated cloud monitoring at scale.
   name: AppDynamics Connections API
   slug: appdynamics-connections-api
-- description: Export and import custom dashboard configurations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Export and import custom dashboard configurations.
   name: AppDynamics Custom Dashboards Export/Import API
   slug: appdynamics-custom-dashboards-export-import-api
-- description: Upload custom metrics to the AppDynamics Controller through the Machine Agent HTTP listener. Metrics must be uploaded at least once every 300 seconds to remain active.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Upload custom metrics to the AppDynamics Controller through the Machine Agent HTTP listener. Metrics must be uploaded at least once every 300 seconds to remain active.
   name: AppDynamics Custom Metrics API
   slug: appdynamics-custom-metrics-api
-- description: Manage database collectors that monitor performance and availability of database instances including creation, retrieval, update, and deletion.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage database collectors that monitor performance and availability of database instances including creation, retrieval, update, and deletion.
   name: AppDynamics Database Collectors API
   slug: appdynamics-database-collectors-api
-- description: Publish custom analytics events to the Events Service for storage and analysis.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Publish custom analytics events to the Events Service for storage and analysis.
   name: AppDynamics Events API
   slug: appdynamics-events-api
-- description: Manage health rules that define performance thresholds and violation conditions for monitored applications.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage health rules that define performance thresholds and violation conditions for monitored applications.
   name: AppDynamics Health Rules API
   slug: appdynamics-health-rules-api
-- description: Export and import health rule configurations for backup, migration, and provisioning across Controller instances.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Export and import health rule configurations for backup, migration, and provisioning across Controller instances.
   name: AppDynamics Health Rules Export/Import API
   slug: appdynamics-health-rules-export-import-api
-- description: Retrieve metric hierarchy and metric data for monitored applications with configurable time ranges and aggregation.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve metric hierarchy and metric data for monitored applications with configurable time ranges and aggregation.
   name: AppDynamics Metrics API
   slug: appdynamics-metrics-api
-- description: Retrieve node information for monitored applications including node names, IDs, machine details, and agent versions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve node information for monitored applications including node names, IDs, machine details, and agent versions.
   name: AppDynamics Nodes API
   slug: appdynamics-nodes-api
-- description: Generate and manage OAuth 2.0 access tokens for authenticating against AppDynamics APIs using the Client Credentials Grant flow.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Generate and manage OAuth 2.0 access tokens for authenticating against AppDynamics APIs using the Client Credentials Grant flow.
   name: AppDynamics OAuth Tokens API
   slug: appdynamics-oauth-tokens-api
-- description: Manage alerting policies that connect health rule violations to automated response actions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage alerting policies that connect health rule violations to automated response actions.
   name: AppDynamics Policies API
   slug: appdynamics-policies-api
-- description: Query stored events using the AppDynamics Analytics Query Language (ADQL) for custom analytics and reporting.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Query stored events using the AppDynamics Analytics Query Language (ADQL) for custom analytics and reporting.
   name: AppDynamics Queries API
   slug: appdynamics-queries-api
-- description: Query MELT observation data using the Cisco AppDynamics domain-specific query language.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Query MELT observation data using the Cisco AppDynamics domain-specific query language.
   name: AppDynamics Query Service API
   slug: appdynamics-query-service-api
-- description: Retrieve lists of supported cloud regions and services for connection configuration.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve lists of supported cloud regions and services for connection configuration.
   name: AppDynamics Reference Data API
   slug: appdynamics-reference-data-api
-- description: Manage custom event schemas that define the structure and data types for custom analytics events.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage custom event schemas that define the structure and data types for custom analytics events.
   name: AppDynamics Schemas API
   slug: appdynamics-schemas-api
-- description: Check the status of the AppDynamics Controller server.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Check the status of the AppDynamics Controller server.
   name: AppDynamics Server Status API
   slug: appdynamics-server-status-api
-- description: Retrieve transaction request snapshots for detailed performance analysis of individual requests.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve transaction request snapshots for detailed performance analysis of individual requests.
   name: AppDynamics Snapshots API
   slug: appdynamics-snapshots-api
-- description: Retrieve tier information for monitored applications including tier names and IDs.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve tier information for monitored applications including tier names and IDs.
   name: AppDynamics Tiers API
   slug: appdynamics-tiers-api
-- description: Export and import business transaction detection rule configurations.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Export and import business transaction detection rule configurations.
   name: AppDynamics Transaction Detection Export/Import API
   slug: appdynamics-transaction-detection-export-import-api
 artifact_total: 124
@@ -514,7 +564,7 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 10.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -524,7 +574,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 27.9
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -533,8 +583,8 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/screenshots/appdynamics-2026-06-20T172314.png
 security:
 - kind: authentication

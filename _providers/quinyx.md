@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 143 operations · 80 acting
 api_count: 3
 apis:
-- description: The Absence Schedules API from Quinyx — 1 operation(s) for absence schedules.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Absence Schedules API from Quinyx — 1 operation(s) for absence schedules.
   name: Quinyx Absence Schedules API
   slug: quinyx-absence-schedules-api
-- description: The Absence Types API from Quinyx — 1 operation(s) for absence types.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Absence Types API from Quinyx — 1 operation(s) for absence types.
   name: Quinyx Absence Types API
   slug: quinyx-absence-types-api
-- description: The Absences API from Quinyx — 3 operation(s) for absences.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Absences API from Quinyx — 3 operation(s) for absences.
   name: Quinyx Absences API
   slug: quinyx-absences-api
-- description: The Access Token API from Quinyx — 1 operation(s) for access token.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Access Token API from Quinyx — 1 operation(s) for access token.
   name: Quinyx Access Token API
   slug: quinyx-access-token-api
-- description: The Agreements API from Quinyx — 1 operation(s) for agreements.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Agreements API from Quinyx — 1 operation(s) for agreements.
   name: Quinyx Agreements API
   slug: quinyx-agreements-api
-- description: The AI Scheduled Headcount API from Quinyx — 1 operation(s) for ai scheduled headcount.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The AI Scheduled Headcount API from Quinyx — 1 operation(s) for ai scheduled headcount.
   name: Quinyx AI Scheduled Headcount API
   slug: quinyx-ai-scheduled-headcount-api
-- description: The Authentication API from Quinyx — 2 operation(s) for authentication.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Authentication API from Quinyx — 2 operation(s) for authentication.
   name: Quinyx Authentication API
   slug: quinyx-authentication-api
-- description: The Collaboration Groups API from Quinyx — 17 operation(s) for collaboration groups.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Collaboration Groups API from Quinyx — 17 operation(s) for collaboration groups.
   name: Quinyx Collaboration Groups API
   slug: quinyx-collaboration-groups-api
-- description: The Collaboration Groups Labels API from Quinyx — 3 operation(s) for collaboration groups labels.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Collaboration Groups Labels API from Quinyx — 3 operation(s) for collaboration groups labels.
   name: Quinyx Collaboration Groups Labels API
   slug: quinyx-collaboration-groups-labels-api
-- description: The Employee API from Quinyx — 2 operation(s) for employee.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Employee API from Quinyx — 2 operation(s) for employee.
   name: Quinyx Employee API
   slug: quinyx-employee-api
-- description: The Employees API from Quinyx — 1 operation(s) for employees.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Employees API from Quinyx — 1 operation(s) for employees.
   name: Quinyx Employees API
   slug: quinyx-employees-api
-- description: The Forecast Data API from Quinyx — 16 operation(s) for forecast data.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Data API from Quinyx — 16 operation(s) for forecast data.
   name: Quinyx Forecast Data API
   slug: quinyx-forecast-data-api
-- description: The Forecast Dynamic Rules API from Quinyx — 2 operation(s) for forecast dynamic rules.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Dynamic Rules API from Quinyx — 2 operation(s) for forecast dynamic rules.
   name: Quinyx Forecast Dynamic Rules API
   slug: quinyx-forecast-dynamic-rules-api
-- description: The Forecast Event Categories API from Quinyx — 2 operation(s) for forecast event categories.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Event Categories API from Quinyx — 2 operation(s) for forecast event categories.
   name: Quinyx Forecast Event Categories API
   slug: quinyx-forecast-event-categories-api
-- description: The Forecast Event Effects API from Quinyx — 1 operation(s) for forecast event effects.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Event Effects API from Quinyx — 1 operation(s) for forecast event effects.
   name: Quinyx Forecast Event Effects API
   slug: quinyx-forecast-event-effects-api
-- description: The Forecast Events API from Quinyx — 4 operation(s) for forecast events.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Events API from Quinyx — 4 operation(s) for forecast events.
   name: Quinyx Forecast Events API
   slug: quinyx-forecast-events-api
-- description: The Forecast Optimal Headcounts API from Quinyx — 3 operation(s) for forecast optimal headcounts.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Optimal Headcounts API from Quinyx — 3 operation(s) for forecast optimal headcounts.
   name: Quinyx Forecast Optimal Headcounts API
   slug: quinyx-forecast-optimal-headcounts-api
-- description: The Forecast Static Rules API from Quinyx — 2 operation(s) for forecast static rules.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Static Rules API from Quinyx — 2 operation(s) for forecast static rules.
   name: Quinyx Forecast Static Rules API
   slug: quinyx-forecast-static-rules-api
-- description: The Forecast Target Data API from Quinyx — 2 operation(s) for forecast target data.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Forecast Target Data API from Quinyx — 2 operation(s) for forecast target data.
   name: Quinyx Forecast Target Data API
   slug: quinyx-forecast-target-data-api
-- description: The Group API from Quinyx — 2 operation(s) for group.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Group API from Quinyx — 2 operation(s) for group.
   name: Quinyx Group API
   slug: quinyx-group-api
-- description: The Group Locations API from Quinyx — 2 operation(s) for group locations.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Group Locations API from Quinyx — 2 operation(s) for group locations.
   name: Quinyx Group Locations API
   slug: quinyx-group-locations-api
-- description: The Groups API from Quinyx — 3 operation(s) for groups.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Groups API from Quinyx — 3 operation(s) for groups.
   name: Quinyx Groups API
   slug: quinyx-groups-api
-- description: The Labor Standards API from Quinyx — 3 operation(s) for labor standards.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Labor Standards API from Quinyx — 3 operation(s) for labor standards.
   name: Quinyx Labor Standards API
   slug: quinyx-labor-standards-api
-- description: The Leave Applications API from Quinyx — 2 operation(s) for leave applications.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Leave Applications API from Quinyx — 2 operation(s) for leave applications.
   name: Quinyx Leave Applications API
   slug: quinyx-leave-applications-api
-- description: The Leave Reasons API from Quinyx — 1 operation(s) for leave reasons.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Leave Reasons API from Quinyx — 1 operation(s) for leave reasons.
   name: Quinyx Leave Reasons API
   slug: quinyx-leave-reasons-api
-- description: The Mappings API from Quinyx — 5 operation(s) for mappings.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Mappings API from Quinyx — 5 operation(s) for mappings.
   name: Quinyx Mappings API
   slug: quinyx-mappings-api
-- description: The Opening Hours API from Quinyx — 3 operation(s) for opening hours.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Opening Hours API from Quinyx — 3 operation(s) for opening hours.
   name: Quinyx Opening Hours API
   slug: quinyx-opening-hours-api
-- description: The Pay Schedules API from Quinyx — 1 operation(s) for pay schedules.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Pay Schedules API from Quinyx — 1 operation(s) for pay schedules.
   name: Quinyx Pay Schedules API
   slug: quinyx-pay-schedules-api
-- description: The Role API from Quinyx — 2 operation(s) for role.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Role API from Quinyx — 2 operation(s) for role.
   name: Quinyx Role API
   slug: quinyx-role-api
-- description: The Role Assignment API from Quinyx — 2 operation(s) for role assignment.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Role Assignment API from Quinyx — 2 operation(s) for role assignment.
   name: Quinyx Role Assignment API
   slug: quinyx-role-assignment-api
-- description: The Schedule Availability API from Quinyx — 3 operation(s) for schedule availability.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Schedule Availability API from Quinyx — 3 operation(s) for schedule availability.
   name: Quinyx Schedule Availability API
   slug: quinyx-schedule-availability-api
-- description: The Shift API from Quinyx — 1 operation(s) for shift.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Shift API from Quinyx — 1 operation(s) for shift.
   name: Quinyx Shift API
   slug: quinyx-shift-api
-- description: The Shifts API from Quinyx — 1 operation(s) for shifts.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Shifts API from Quinyx — 1 operation(s) for shifts.
   name: Quinyx Shifts API
   slug: quinyx-shifts-api
-- description: The Standard Variables API from Quinyx — 1 operation(s) for standard variables.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Standard Variables API from Quinyx — 1 operation(s) for standard variables.
   name: Quinyx Standard Variables API
   slug: quinyx-standard-variables-api
-- description: The Tags API from Quinyx — 5 operation(s) for tags.
+- baseURL: https://api.eu.quinyx.com
+  baseurl_source: declared
+  description: The Tags API from Quinyx — 5 operation(s) for tags.
   name: Quinyx Tags API
   slug: quinyx-tags-api
 arazzos:
@@ -431,7 +501,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quinyx/refs/heads/main/screenshots/quinyx-2026-08-17T081427.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 10 operations · 10 acting
 api_count: 10
 apis:
-- description: JSON-RPC methods in the blob module of celestia-node. Submit blobs to one or more namespaces with blob.Submit, retrieve them by height with blob.Get and blob.GetAll, generate inclusion proofs with blo
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the blob module of celestia-node. Submit blobs to one or more namespaces with blob.Submit, retrieve them by height with blob.Get and blob.GetAll, generate inclusion proofs with blo
   name: Celestia Node Blob API
   slug: celestia-blob-api
-- description: JSON-RPC methods in the header module of celestia-node. Query ExtendedHeaders with header.LocalHead, header.NetworkHead, header.GetByHeight, header.GetByHash, and header.GetRangeByHeight; track sync s
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the header module of celestia-node. Query ExtendedHeaders with header.LocalHead, header.NetworkHead, header.GetByHeight, header.GetByHash, and header.GetRangeByHeight; track sync s
   name: Celestia Node Header API
   slug: celestia-header-api
-- description: JSON-RPC methods in the da module of celestia-node implementing the modular Data Availability interface used by Rollkit, Optimism Alt-DA, Arbitrum Nitro DAS, and other rollup frameworks. Exposes da.Su
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the da module of celestia-node implementing the modular Data Availability interface used by Rollkit, Optimism Alt-DA, Arbitrum Nitro DAS, and other rollup frameworks. Exposes da.Su
   name: Celestia Node DA API
   slug: celestia-da-api
-- description: JSON-RPC methods in the share module of celestia-node. Provides direct access to Celestia's share-level data, the extended data square (EDS), namespaced shares, and share proofs via share.SharesAvaila
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the share module of celestia-node. Provides direct access to Celestia's share-level data, the extended data square (EDS), namespaced shares, and share proofs via share.SharesAvaila
   name: Celestia Node Share API
   slug: celestia-share-api
-- description: JSON-RPC methods in the state module of celestia-node. Exposes state-level operations including account balances, transfers, delegations, and most importantly state.SubmitPayForBlob, the canonical ent
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the state module of celestia-node. Exposes state-level operations including account balances, transfers, delegations, and most importantly state.SubmitPayForBlob, the canonical ent
   name: Celestia Node State API
   slug: celestia-state-api
-- description: JSON-RPC methods in the das module of celestia-node. Operational introspection over the Data Availability Sampling subsystem that light nodes run to probabilistically verify block data availability. E
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the das module of celestia-node. Operational introspection over the Data Availability Sampling subsystem that light nodes run to probabilistically verify block data availability. E
   name: Celestia Node DAS API
   slug: celestia-das-api
-- description: JSON-RPC methods in the fraud module of celestia-node. Exposes fraud proof retrieval and subscription for the BadEncoding fraud proof type used to slash bridge nodes that propagate incorrectly erasure
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the fraud module of celestia-node. Exposes fraud proof retrieval and subscription for the BadEncoding fraud proof type used to slash bridge nodes that propagate incorrectly erasure
   name: Celestia Node Fraud API
   slug: celestia-fraud-api
-- description: JSON-RPC methods in the p2p module of celestia-node. libp2p-level introspection and control over the Celestia DA network including peer info, NAT status, connection management, bandwidth stats, pubsub
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the p2p module of celestia-node. libp2p-level introspection and control over the Celestia DA network including peer info, NAT status, connection management, bandwidth stats, pubsub
   name: Celestia Node P2P API
   slug: celestia-p2p-api
-- description: JSON-RPC methods in the node module of celestia-node. Provides administrative introspection over the running node including node.Info, node.Ready, node.LogLevelSet, and the auth-token issuance methods
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the node module of celestia-node. Provides administrative introspection over the running node including node.Info, node.Ready, node.LogLevelSet, and the auth-token issuance methods
   name: Celestia Node Admin API
   slug: celestia-node-api
-- description: JSON-RPC methods in the blobstream module of celestia-node. Generates inclusion proofs against Blobstream data commitments so EVM chains can verify, via the Blobstream(X) bridge contracts, that a give
+- baseURL: http://localhost:26658
+  baseurl_source: spec
+  description: JSON-RPC methods in the blobstream module of celestia-node. Generates inclusion proofs against Blobstream data commitments so EVM chains can verify, via the Blobstream(X) bridge contracts, that a give
   name: Celestia Node Blobstream API
   slug: celestia-blobstream-api
 artifact_total: 57
@@ -307,21 +327,21 @@ jsonld:
   slug: celestia-context
 layout: provider
 modified: '2026-05-30'
-name: celestia
+name: Celestia
 nav: Providers
 network: true
-overview: 'celestia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Node Blob API, Node Header API, Node DA API, and 7 more.
+overview: 'Celestia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Node Blob API, Node Header API, Node DA API, and 7 more.
 
 
-  The celestia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Celestia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  celestia''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, and 26 more developer resources.'
+  Celestia''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, and 26 more developer resources.'
 random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []
-  name: celestia API Rules
+  name: Celestia API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -332,7 +352,7 @@ rules:
 - effective_rule_count: 45
   extends:
   - spectral:oas
-  name: celestia API Rules
+  name: Celestia API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -368,10 +388,10 @@ score:
       total: 11
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/screenshots/celestia-2026-06-20T174212.png
 security:

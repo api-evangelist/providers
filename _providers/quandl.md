@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Nasdaq Cloud Data Service (NCDS) provides streaming and REST APIs for real-time and delayed market data delivery including equities, options, and fixed income from Nasdaq exchange feeds.
   name: Nasdaq Cloud Data Service (NCDS) Streaming API
   slug: nasdaq-cloud-data-service-api
-- description: Database catalog and metadata
+- baseURL: https://data.nasdaq.com/api/v3
+  baseurl_source: declared
+  description: Database catalog and metadata
   name: Quandl (Nasdaq Data Link) Databases API
   slug: quandl-databases-api
-- description: Time-series dataset retrieval
+- baseURL: https://data.nasdaq.com/api/v3
+  baseurl_source: declared
+  description: Time-series dataset retrieval
   name: Quandl (Nasdaq Data Link) Datasets API
   slug: quandl-datasets-api
-- description: Tabular dataset retrieval
+- baseURL: https://data.nasdaq.com/api/v3
+  baseurl_source: declared
+  description: Tabular dataset retrieval
   name: Quandl (Nasdaq Data Link) Tables API
   slug: quandl-tables-api
 artifact_total: 19
@@ -230,7 +236,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/screenshots/quandl-2026-06-20T192403.png
 security:

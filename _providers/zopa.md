@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 23 operations · 6 acting
 api_count: 2
 apis:
-- description: The Account Access API from zopa — 2 operation(s) for account access.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Account Access API from zopa — 2 operation(s) for account access.
   name: zopa Account Access API
   slug: zopa-account-access-api
-- description: The Accounts API from zopa — 2 operation(s) for accounts.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Accounts API from zopa — 2 operation(s) for accounts.
   name: zopa Accounts API
   slug: zopa-accounts-api
-- description: The Balances API from zopa — 1 operation(s) for balances.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Balances API from zopa — 1 operation(s) for balances.
   name: zopa Balances API
   slug: zopa-balances-api
-- description: The Beneficiaries API from zopa — 1 operation(s) for beneficiaries.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from zopa — 1 operation(s) for beneficiaries.
   name: zopa Beneficiaries API
   slug: zopa-beneficiaries-api
-- description: The Direct Debits API from zopa — 1 operation(s) for direct debits.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Direct Debits API from zopa — 1 operation(s) for direct debits.
   name: zopa Direct Debits API
   slug: zopa-direct-debits-api
-- description: The Domestic Payments API from zopa — 5 operation(s) for domestic payments.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Domestic Payments API from zopa — 5 operation(s) for domestic payments.
   name: zopa Domestic Payments API
   slug: zopa-domestic-payments-api
-- description: The Domestic Standing Orders API from zopa — 4 operation(s) for domestic standing orders.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from zopa — 4 operation(s) for domestic standing orders.
   name: zopa Domestic Standing Orders API
   slug: zopa-domestic-standing-orders-api
-- description: The Offers API from zopa — 1 operation(s) for offers.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Offers API from zopa — 1 operation(s) for offers.
   name: zopa Offers API
   slug: zopa-offers-api
-- description: The Parties API from zopa — 2 operation(s) for parties.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Parties API from zopa — 2 operation(s) for parties.
   name: zopa Parties API
   slug: zopa-parties-api
-- description: The Standing Orders API from zopa — 1 operation(s) for standing orders.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Standing Orders API from zopa — 1 operation(s) for standing orders.
   name: zopa Standing Orders API
   slug: zopa-standing-orders-api
-- description: The Statements API from zopa — 1 operation(s) for statements.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Statements API from zopa — 1 operation(s) for statements.
   name: zopa Statements API
   slug: zopa-statements-api
-- description: The Transactions API from zopa — 1 operation(s) for transactions.
+- baseURL: https://developer.openbanking-sandbox.zopa.com/open-banking/v4.0/aisp
+  baseurl_source: declared
+  description: The Transactions API from zopa — 1 operation(s) for transactions.
   name: zopa Transactions API
   slug: zopa-transactions-api
 artifact_total: 31
@@ -303,7 +327,7 @@ score:
     regime_id: banking_open_finance
     score: 76.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/screenshots/zopa-2026-08-17T083118.png
 security:

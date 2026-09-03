@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: OpenAI-compatible chat completions.
+- baseURL: https://llm.chutes.ai/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions.
   name: Chutes Chat API
   slug: chutes-chat-api
-- description: Deploy, list, retrieve, update, and delete chutes.
+- baseURL: https://llm.chutes.ai/v1
+  baseurl_source: declared
+  description: Deploy, list, retrieve, update, and delete chutes.
   name: Chutes Chutes API
   slug: chutes-chutes-api
-- description: Build, list, retrieve, and delete container images.
+- baseURL: https://llm.chutes.ai/v1
+  baseurl_source: declared
+  description: Build, list, retrieve, and delete container images.
   name: Chutes Images API
   slug: chutes-images-api
-- description: List models available on the Chutes network.
+- baseURL: https://llm.chutes.ai/v1
+  baseurl_source: declared
+  description: List models available on the Chutes network.
   name: Chutes Models API
   slug: chutes-models-api
 artifact_total: 18
@@ -169,7 +177,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -179,7 +187,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chutes/refs/heads/main/screenshots/chutes-2026-07-25T205333.png
 security:

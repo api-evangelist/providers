@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: Real-time per-session patient cost estimates.
+- baseURL: https://coverage-api.meetnirvana.com/v1
+  baseurl_source: declared
+  description: Real-time per-session patient cost estimates.
   name: Nirvana Health Cost Estimation API
   slug: nirvana-cost-estimation-api
-- description: Multi-payer coverage discovery.
+- baseURL: https://coverage-api.meetnirvana.com/v1
+  baseurl_source: declared
+  description: Multi-payer coverage discovery.
   name: Nirvana Health Coverage Scan API
   slug: nirvana-coverage-scan-api
-- description: Active-coverage discovery and eligibility verification.
+- baseURL: https://coverage-api.meetnirvana.com/v1
+  baseurl_source: declared
+  description: Active-coverage discovery and eligibility verification.
   name: Nirvana Health Eligibility API
   slug: nirvana-eligibility-api
-- description: Medicaid coverage and eligibility.
+- baseURL: https://coverage-api.meetnirvana.com/v1
+  baseurl_source: declared
+  description: Medicaid coverage and eligibility.
   name: Nirvana Health Medicaid API
   slug: nirvana-medicaid-api
 artifact_total: 16
@@ -151,7 +159,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/screenshots/nirvana-2026-08-07T185339.png
 security:

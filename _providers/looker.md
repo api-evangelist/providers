@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,19 +59,29 @@ apis:
 - description: The Looker (Google Cloud core) REST API provides management capabilities for Looker instances running on Google Cloud, including instance lifecycle management, backups, and operations.
   name: Looker (Google Cloud core) API
   slug: google-cloud-core
-- description: Authentication endpoints for obtaining and managing API access tokens using client credentials.
+- baseURL: https://your-instance.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: Authentication endpoints for obtaining and managing API access tokens using client credentials.
   name: Looker Auth API
   slug: looker-auth-api
-- description: Manage dashboards, which are collections of tiles displaying visualizations from queries. Dashboards support filters, layouts, and can be shared across the organization.
+- baseURL: https://your-instance.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: Manage dashboards, which are collections of tiles displaying visualizations from queries. Dashboards support filters, layouts, and can be shared across the organization.
   name: Looker Dashboard API
   slug: looker-dashboard-api
-- description: Manage Looks, which are saved queries with visualizations. A Look contains a query definition and visualization configuration that can be shared, scheduled, and embedded.
+- baseURL: https://your-instance.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: Manage Looks, which are saved queries with visualizations. A Look contains a query definition and visualization configuration that can be shared, scheduled, and embedded.
   name: Looker Look API
   slug: looker-look-api
-- description: Create and run queries against your Looker models. Queries define the fields, filters, sorts, and limits used to retrieve data from the underlying database through LookML models.
+- baseURL: https://your-instance.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: Create and run queries against your Looker models. Queries define the fields, filters, sorts, and limits used to retrieve data from the underlying database through LookML models.
   name: Looker Query API
   slug: looker-query-api
-- description: Manage Looker users including creating, updating, and retrieving user accounts, credentials, roles, and sessions.
+- baseURL: https://your-instance.looker.com:19999/api/4.0
+  baseurl_source: declared
+  description: Manage Looker users including creating, updating, and retrieving user accounts, credentials, roles, and sessions.
   name: Looker User API
   slug: looker-user-api
 artifact_total: 135
@@ -588,7 +598,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/screenshots/looker-2026-06-20T184712.png
 security:

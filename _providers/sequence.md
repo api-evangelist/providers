@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: The Analytics API from Sequence — 177 operation(s) for analytics.
+- baseURL: https://mainnet-indexer.sequence.app
+  baseurl_source: declared
+  description: The Analytics API from Sequence — 177 operation(s) for analytics.
   name: Sequence Analytics API
   slug: sequence-analytics-api
-- description: The Marketplace API from Sequence — 34 operation(s) for marketplace.
+- baseURL: https://mainnet-indexer.sequence.app
+  baseurl_source: declared
+  description: The Marketplace API from Sequence — 34 operation(s) for marketplace.
   name: Sequence Marketplace API
   slug: sequence-marketplace-api
-- description: Endpoints accessible by passing your project-access-key in the header. This is injected whenever you login automatically.
+- baseURL: https://mainnet-indexer.sequence.app
+  baseurl_source: declared
+  description: Endpoints accessible by passing your project-access-key in the header. This is injected whenever you login automatically.
   name: Sequence public API
   slug: sequence-public-api
-- description: The Rpc API from Sequence — 32 operation(s) for rpc.
+- baseURL: https://mainnet-indexer.sequence.app
+  baseurl_source: declared
+  description: The Rpc API from Sequence — 32 operation(s) for rpc.
   name: Sequence Rpc API
   slug: sequence-rpc-api
-- description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
+- baseURL: https://mainnet-indexer.sequence.app
+  baseurl_source: declared
+  description: Endpoints that require a Sequence service token intended to be secret. You can manually generate one on Sequence Builder and pass it as a Bearer Token.
   name: Sequence secret API
   slug: sequence-secret-api
 artifact_total: 15
@@ -224,7 +234,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -234,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 40.6
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -251,7 +261,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequence/refs/heads/main/screenshots/sequence-2026-08-17T081813.png
 security:

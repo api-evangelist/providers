@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: OpenAI-compatible REST API exposed by `vllm serve`. Endpoints include /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/score, /v1/audio/transcriptions, /v1/audio/translations, /v1/realtime (
   name: vLLM OpenAI-Compatible Server
   slug: openai-compatible
-- description: OpenAI-compatible audio endpoints
+- baseURL: http://localhost:8000/v1
+  baseurl_source: declared
+  description: OpenAI-compatible audio endpoints
   name: vLLM Audio API
   slug: vllm-audio-api
-- description: OpenAI-compatible chat completions
+- baseURL: http://localhost:8000/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions
   name: vLLM Chat API
   slug: vllm-chat-api
-- description: OpenAI-compatible text completions
+- baseURL: http://localhost:8000/v1
+  baseurl_source: declared
+  description: OpenAI-compatible text completions
   name: vLLM Completions API
   slug: vllm-completions-api
-- description: OpenAI-compatible embeddings
+- baseURL: http://localhost:8000/v1
+  baseurl_source: declared
+  description: OpenAI-compatible embeddings
   name: vLLM Embeddings API
   slug: vllm-embeddings-api
-- description: vLLM-specific scoring and reranking endpoints
+- baseURL: http://localhost:8000/v1
+  baseurl_source: declared
+  description: vLLM-specific scoring and reranking endpoints
   name: vLLM Scoring API
   slug: vllm-scoring-api
-- description: vLLM-specific tokenize/detokenize utilities
+- baseURL: http://localhost:8000/v1
+  baseurl_source: declared
+  description: vLLM-specific tokenize/detokenize utilities
   name: vLLM Tokenize API
   slug: vllm-tokenize-api
 artifact_total: 21
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/screenshots/vllm-2026-06-20T201117.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -83,25 +83,39 @@ apis:
 - description: Complete Why delivers fast AI-powered insights so teams know what is working, what is not, and where to act next before opportunities disappear.
   name: Circana Complete Why Analytics API
   slug: complete-why-api
-- description: Brand performance and analytics
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Brand performance and analytics
   name: Circana Brands API
   slug: circana-brands-api
-- description: Product category hierarchy and management
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Product category hierarchy and management
   name: Circana Categories API
   slug: circana-categories-api
-- description: Consumer panel data and shopper insights
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Consumer panel data and shopper insights
   name: Circana Consumer Panel API
   slug: circana-consumer-panel-api
-- description: Data export and download operations
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Data export and download operations
   name: Circana Exports API
   slug: circana-exports-api
-- description: Access point-of-sale and market measurement data
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Access point-of-sale and market measurement data
   name: Circana Market Data API
   slug: circana-market-data-api
-- description: Report generation and management
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Report generation and management
   name: Circana Reports API
   slug: circana-reports-api
-- description: Retailer data and channel analytics
+- baseURL: https://api.circana.com/liquid-data/v1
+  baseurl_source: spec
+  description: Retailer data and channel analytics
   name: Circana Retailers API
   slug: circana-retailers-api
 artifact_total: 140
@@ -555,7 +569,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/screenshots/circana-2026-06-20T174349.png
 security:

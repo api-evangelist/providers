@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -56,25 +56,39 @@ apis:
 - description: 'The BigQuery Storage API provides high-throughput read and write access to BigQuery managed storage. It enables developers to read data from BigQuery tables using an efficient streaming protocol that '
   name: BigQuery Storage API
   slug: bigquery-storage
-- description: Operations for managing BigQuery datasets
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing BigQuery datasets
   name: Google BigQuery Datasets API
   slug: google-bigquery-datasets-api
-- description: Operations for managing query and load jobs
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing query and load jobs
   name: Google BigQuery Jobs API
   slug: google-bigquery-jobs-api
-- description: Operations for managing BigQuery ML models
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing BigQuery ML models
   name: Google BigQuery Models API
   slug: google-bigquery-models-api
-- description: Operations for listing projects and service accounts
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for listing projects and service accounts
   name: Google BigQuery Projects API
   slug: google-bigquery-projects-api
-- description: Operations for managing routines (functions and procedures)
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing routines (functions and procedures)
   name: Google BigQuery Routines API
   slug: google-bigquery-routines-api
-- description: Operations for reading and inserting table rows
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for reading and inserting table rows
   name: Google BigQuery Tabledata API
   slug: google-bigquery-tabledata-api
-- description: Operations for managing tables within datasets
+- baseURL: https://bigquery.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing tables within datasets
   name: Google BigQuery Tables API
   slug: google-bigquery-tables-api
 artifact_total: 64
@@ -351,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/screenshots/google-bigquery-2026-06-20T182029.png
 security:

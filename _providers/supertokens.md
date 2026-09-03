@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 31 operations · 20 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Email and password sign-up, sign-in, and password management
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Email and password sign-up, sign-in, and password management
   name: SuperTokens Email Password API
   slug: supertokens-email-password-api
-- description: Email verification token creation and validation
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Email verification token creation and validation
   name: SuperTokens Email Verification API
   slug: supertokens-email-verification-api
-- description: Service health and version checks
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Service health and version checks
   name: SuperTokens Health API
   slug: supertokens-health-api
-- description: Tenant and app management
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Tenant and app management
   name: SuperTokens Multi Tenancy API
   slug: supertokens-multi-tenancy-api
-- description: Passwordless OTP and magic link authentication
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Passwordless OTP and magic link authentication
   name: SuperTokens Passwordless API
   slug: supertokens-passwordless-api
-- description: Session creation, verification, refresh, and revocation
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Session creation, verification, refresh, and revocation
   name: SuperTokens Sessions API
   slug: supertokens-sessions-api
-- description: Social/OAuth third-party provider authentication
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: Social/OAuth third-party provider authentication
   name: SuperTokens Third Party API
   slug: supertokens-third-party-api
-- description: User metadata storage and retrieval
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: User metadata storage and retrieval
   name: SuperTokens User Metadata API
   slug: supertokens-user-metadata-api
-- description: User role assignment and management
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: User role assignment and management
   name: SuperTokens User Roles API
   slug: supertokens-user-roles-api
-- description: User management and listing
+- baseURL: https://{supertokens-core-host}:{port}
+  baseurl_source: declared
+  description: User management and listing
   name: SuperTokens Users API
   slug: supertokens-users-api
 artifact_total: 75
@@ -363,7 +383,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/screenshots/supertokens-2026-06-20T194732.png
 security:

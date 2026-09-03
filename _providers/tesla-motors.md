@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 65 operations · 54 acting · 14 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Tesla Motors — 1 operation(s) for authentication.
+- baseURL: https://owner-api.teslamotors.com
+  baseurl_source: declared
+  description: The Authentication API from Tesla Motors — 1 operation(s) for authentication.
   name: Tesla Motors Authentication API
   slug: tesla-motors-authentication-api
-- description: The Media Control API from Tesla Motors — 8 operation(s) for media control.
+- baseURL: https://owner-api.teslamotors.com
+  baseurl_source: declared
+  description: The Media Control API from Tesla Motors — 8 operation(s) for media control.
   name: Tesla Motors Media Control API
   slug: tesla-motors-media-control-api
-- description: The Vehicle Commands API from Tesla Motors — 45 operation(s) for vehicle commands.
+- baseURL: https://owner-api.teslamotors.com
+  baseurl_source: declared
+  description: The Vehicle Commands API from Tesla Motors — 45 operation(s) for vehicle commands.
   name: Tesla Motors Vehicle Commands API
   slug: tesla-motors-vehicle-commands-api
-- description: The Vehicles API from Tesla Motors — 11 operation(s) for vehicles.
+- baseURL: https://owner-api.teslamotors.com
+  baseurl_source: declared
+  description: The Vehicles API from Tesla Motors — 11 operation(s) for vehicles.
   name: Tesla Motors Vehicles API
   slug: tesla-motors-vehicles-api
 artifact_total: 22
@@ -230,7 +238,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -243,7 +251,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 34.1
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -252,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

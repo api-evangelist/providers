@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: Obtain a JWT access token via OAuth 2.0 client credentials.
+- baseURL: https://auth.calm.com
+  baseurl_source: declared
+  description: Obtain a JWT access token via OAuth 2.0 client credentials.
   name: Calm Authentication API
   slug: calm-authentication-api
-- description: Link and cancel partner-user Calm subscriptions.
+- baseURL: https://auth.calm.com
+  baseurl_source: declared
+  description: Link and cancel partner-user Calm subscriptions.
   name: Calm Subscriptions API
   slug: calm-subscriptions-api
 artifact_total: 34
@@ -475,7 +479,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:

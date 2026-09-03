@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 96 operations · 61 acting
 api_count: 1
 apis:
-- description: The alert api handles all operations for alerts
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The alert api handles all operations for alerts
   name: Panther alert API
   slug: panther-alert-api
-- description: The api token api handles all operations for api tokens
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The api token api handles all operations for api tokens
   name: Panther api token API
   slug: panther-api-token-api
-- description: The AWS Cloud Account API handles all operations for AWS Cloud Account scanner integrations
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The AWS Cloud Account API handles all operations for AWS Cloud Account scanner integrations
   name: Panther aws cloud account API
   slug: panther-aws-cloud-account-api
-- description: The comment api handles all operations for alerts comments
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The comment api handles all operations for alerts comments
   name: Panther comment API
   slug: panther-comment-api
-- description: The context tag API handles all operations for alert context tags
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The context tag API handles all operations for alert context tags
   name: Panther contexttag API
   slug: panther-contexttag-api
-- description: The correlation rule api handles all operations for correlation rules
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The correlation rule api handles all operations for correlation rules
   name: Panther correlation rule API
   slug: panther-correlation-rule-api
-- description: The data model api handles all operations for data models
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The data model api handles all operations for data models
   name: Panther data model API
   slug: panther-data-model-api
-- description: The GCS source API handles all operations for Google Cloud Storage log sources
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The GCS source API handles all operations for Google Cloud Storage log sources
   name: Panther gcs source API
   slug: panther-gcs-source-api
-- description: The global api handles all operations for globals
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The global api handles all operations for globals
   name: Panther global API
   slug: panther-global-api
-- description: The http source api handles all operations for http sources
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The http source api handles all operations for http sources
   name: Panther http source API
   slug: panther-http-source-api
-- description: The log forwarder source api handles all operations for log forwarder sources
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The log forwarder source api handles all operations for log forwarder sources
   name: Panther log forwarder source API
   slug: panther-log-forwarder-source-api
-- description: 'Manage the drop-off alarm (SOURCE_NO_DATA) for log source integrations. Other alarm types shown in the Panther UI (permissions checks, classification failures, log-processing errors, scanning errors) '
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: 'Manage the drop-off alarm (SOURCE_NO_DATA) for log source integrations. Other alarm types shown in the Panther UI (permissions checks, classification failures, log-processing errors, scanning errors) '
   name: Panther log source alarm API
   slug: panther-log-source-alarm-api
-- description: The policy api handles all operations for policies
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The policy api handles all operations for policies
   name: Panther policy API
   slug: panther-policy-api
-- description: The Pub/Sub source API handles all operations for GCP Pub/Sub log sources
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The Pub/Sub source API handles all operations for GCP Pub/Sub log sources
   name: Panther pub/sub source API
   slug: panther-pub-sub-source-api
-- description: The query api handles operations for queries
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The query api handles operations for queries
   name: Panther query API
   slug: panther-query-api
-- description: The role api handles all operations for roles
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The role api handles all operations for roles
   name: Panther role API
   slug: panther-role-api
-- description: The rule api handles all operations for rules
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The rule api handles all operations for rules
   name: Panther rule API
   slug: panther-rule-api
-- description: The S3 source API handles all operations for AWS S3 log sources
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The S3 source API handles all operations for AWS S3 log sources
   name: Panther s3 source API
   slug: panther-s3-source-api
-- description: The scheduled rule api handles all operations for scheduled rules
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The scheduled rule api handles all operations for scheduled rules
   name: Panther scheduled rule API
   slug: panther-scheduled-rule-api
-- description: The simple rule api handles all operations for simple rules
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The simple rule api handles all operations for simple rules
   name: Panther simple rule API
   slug: panther-simple-rule-api
-- description: The user api handles all operations for users
+- baseURL: https://api.your-panther-host
+  baseurl_source: declared
+  description: The user api handles all operations for users
   name: Panther user API
   slug: panther-user-api
 artifact_total: 49
@@ -319,7 +361,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -329,7 +371,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 54.8
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,7 +383,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panther/refs/heads/main/screenshots/panther-2026-08-07T191340.png
 security:

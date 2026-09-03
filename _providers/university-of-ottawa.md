@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: 'Public DSpace 8.3 REST/HATEOAS API for uO Research (Recherche uO Research), the University of Ottawa Library''s self-hosted institutional repository. Probed 2026-09-01: the root returns HTTP 200 applic'
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: 'Public DSpace 8.3 REST/HATEOAS API for uO Research (Recherche uO Research), the University of Ottawa Library''s self-hosted institutional repository. Probed 2026-09-01: the root returns HTTP 200 applic'
   name: uO Research DSpace REST API
   slug: ruor-rest
-- description: 'OAI-PMH 2.0 metadata-harvesting provider for uO Research. Probed 2026-09-01: Identify returns repositoryName "Recherche uO Research", repositoryIdentifier ruor.uottawa.ca, adminEmail ruor@uottawa.ca, '
+- baseURL: https://ruor.uottawa.ca/server/oai/request
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 metadata-harvesting provider for uO Research. Probed 2026-09-01: Identify returns repositoryName "Recherche uO Research", repositoryIdentifier ruor.uottawa.ca, adminEmail ruor@uottawa.ca, '
   name: uO Research OAI-PMH
   slug: ruor-oai
-- description: 'Undocumented, anonymously readable JSON:API 1.0 surface on the University of Ottawa''s own Drupal web platform. Probed 2026-09-01: https://www.uottawa.ca/jsonapi returns HTTP 200 application/vnd.api+js'
+- baseURL: https://www.uottawa.ca/en/jsonapi
+  baseurl_source: declared
+  description: 'Undocumented, anonymously readable JSON:API 1.0 surface on the University of Ottawa''s own Drupal web platform. Probed 2026-09-01: https://www.uottawa.ca/jsonapi returns HTTP 200 application/vnd.api+js'
   name: uottawa.ca Content JSON:API
   slug: www-jsonapi
 - description: 'The University of Ottawa''s own SAML 2.0 identity provider and its published federation metadata. Probed 2026-09-01: https://fca-caf.uottawa.ca/idp/shibboleth returns HTTP 200 application/xml (7,299 by'
@@ -247,7 +253,7 @@ score:
     catalog_gap: 34.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 24.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -257,7 +263,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 20.5
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     contracts:
@@ -272,8 +278,8 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/screenshots/university-of-ottawa-2026-06-20T200215.png
 security:
 - kind: authentication

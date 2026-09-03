@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 5
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 95 operations · 52 acting · 5 human-in-the-loop
 api_count: 2
 apis:
-- description: Log and retrieve user interaction events such as clicks, conversions, and visits for tracking search behavior and personalization.
+- baseURL: http://localhost:8108
+  baseurl_source: declared
+  description: Log and retrieve user interaction events such as clicks, conversions, and visits for tracking search behavior and personalization.
   name: Typesense Analytics Events API
   slug: typesense-analytics-events-api
-- description: Operational endpoints for managing the analytics subsystem.
+- baseURL: http://localhost:8108
+  baseurl_source: declared
+  description: Operational endpoints for managing the analytics subsystem.
   name: Typesense Analytics Operations API
   slug: typesense-analytics-operations-api
-- description: Create and manage analytics rules that control how search queries and user events are aggregated for query suggestions and relevance tuning.
+- baseURL: http://localhost:8108
+  baseurl_source: declared
+  description: Create and manage analytics rules that control how search queries and user events are aggregated for query suggestions and relevance tuning.
   name: Typesense Analytics Rules API
   slug: typesense-analytics-rules-api
-- description: Create, retrieve, update, and terminate Typesense Cloud clusters. Manage cluster lifecycle and generate Typesense Server API keys.
+- baseURL: http://localhost:8108
+  baseurl_source: declared
+  description: Create, retrieve, update, and terminate Typesense Cloud clusters. Manage cluster lifecycle and generate Typesense Server API keys.
   name: Typesense Cluster Management API
   slug: typesense-cluster-management-api
-- description: Schedule, retrieve, list, and cancel configuration changes to running clusters such as memory upgrades, version changes, and HA toggles.
+- baseURL: http://localhost:8108
+  baseurl_source: declared
+  description: Schedule, retrieve, list, and cancel configuration changes to running clusters such as memory upgrades, version changes, and HA toggles.
   name: Typesense Configuration Changes API
   slug: typesense-configuration-changes-api
-- description: Manage Typesense Server configuration parameters for cloud clusters.
+- baseURL: http://localhost:8108
+  baseurl_source: declared
+  description: Manage Typesense Server configuration parameters for cloud clusters.
   name: Typesense Server Configuration Parameters API
   slug: typesense-server-configuration-parameters-api
 artifact_total: 132
@@ -533,7 +545,7 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -543,7 +555,7 @@ score:
     discoverability: 66.7
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 39.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -552,7 +564,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/screenshots/typesense-2026-06-20T195907.png
 security:

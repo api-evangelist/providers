@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: Official Python client for the Felt REST API providing convenient wrappers for map creation, file and DataFrame uploads, layer styling and refreshing, and element management. Supports Pandas and GeoPa
   name: Felt Python SDK
   slug: felt-python-sdk
-- description: Comments bring conversations to mapping. With these APIs, you can export, resolve, and delete map comments and collaboration threads.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Comments bring conversations to mapping. With these APIs, you can export, resolve, and delete map comments and collaboration threads.
   name: Felt Comments API
   slug: felt-comments-api
-- description: Elements enable you to annotate maps with custom shapes, text, and markers. With these APIs, you can create, update, and delete map elements.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Elements enable you to annotate maps with custom shapes, text, and markers. With these APIs, you can create, update, and delete map elements.
   name: Felt Elements API
   slug: felt-elements-api
-- description: Embed tokens enable safely sharing your private maps. With these APIs, you can generate secure tokens for embedding maps.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Embed tokens enable safely sharing your private maps. With these APIs, you can generate secure tokens for embedding maps.
   name: Felt Embed Tokens API
   slug: felt-embed-tokens-api
-- description: With these APIs, you can export data to CSV, GeoJSON, and other formats.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: With these APIs, you can export data to CSV, GeoJSON, and other formats.
   name: Felt Layer Exports API
   slug: felt-layer-exports-api
-- description: With these APIs, you can publish your layers to your workspace library.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: With these APIs, you can publish your layers to your workspace library.
   name: Felt Layer Library API
   slug: felt-layer-library-api
-- description: With these APIs, you can upload your data to create new layers.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: With these APIs, you can upload your data to create new layers.
   name: Felt Layer Uploads API
   slug: felt-layer-uploads-api
-- description: Layers enable you to visualize, style and interact with your spatial data. With these APIs, you can upload data, manage layer styling, publish and refresh live data layers.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Layers enable you to visualize, style and interact with your spatial data. With these APIs, you can upload data, manage layer styling, publish and refresh live data layers.
   name: Felt Layers API
   slug: felt-layers-api
-- description: Maps are the centerpiece of Felt. With these APIs, you can create, retrieve, update, delete, move, and duplicate maps programmatically.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Maps are the centerpiece of Felt. With these APIs, you can create, retrieve, update, delete, move, and duplicate maps programmatically.
   name: Felt Maps API
   slug: felt-maps-api
-- description: Projects help you organize maps and manage team permissions. With these APIs, you can manage the projects in your workspace.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Projects help you organize maps and manage team permissions. With these APIs, you can manage the projects in your workspace.
   name: Felt Projects API
   slug: felt-projects-api
-- description: Sources connect your databases to Felt. With these APIs, you can configure data source connections, credentials, and sync settings to create live maps.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Sources connect your databases to Felt. With these APIs, you can configure data source connections, credentials, and sync settings to create live maps.
   name: Felt Sources API
   slug: felt-sources-api
-- description: Users represent the people in your workspace. With these APIs, you can retrieve user profile information.
+- baseURL: https://felt.com/api/v2
+  baseurl_source: declared
+  description: Users represent the people in your workspace. With these APIs, you can retrieve user profile information.
   name: Felt Users API
   slug: felt-users-api
 artifact_total: 43
@@ -291,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/screenshots/felt-2026-06-20T181135.png
 security:

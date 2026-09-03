@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 1
 apis:
-- description: Import media, edit projects with AI, and query jobs and projects.
+- baseURL: https://descriptapi.com/v1
+  baseurl_source: declared
+  description: Import media, edit projects with AI, and query jobs and projects.
   name: Descript API Endpoints API
   slug: descript-api-endpoints-api
-- description: '> **Note:** The Edit in Descript integration requires contacting Descript for access. [Reach out to us](https://descript.com/api) to get started. Edit in Descript API enables partners to give their us'
+- baseURL: https://descriptapi.com/v1
+  baseurl_source: declared
+  description: '> **Note:** The Edit in Descript integration requires contacting Descript for access. [Reach out to us](https://descript.com/api) to get started. Edit in Descript API enables partners to give their us'
   name: Descript Edit in Descript API
   slug: descript-edit-in-descript-api
-- description: Users of Descript currently have three options to export their edited content. They can export files in various formats, share a Descript link, or use our [one-click cloud export](https://help.descrip
+- baseURL: https://descriptapi.com/v1
+  baseurl_source: declared
+  description: Users of Descript currently have three options to export their edited content. They can export files in various formats, share a Descript link, or use our [one-click cloud export](https://help.descrip
   name: Descript Export from Descript API
   slug: descript-export-from-descript-api
 artifact_total: 32
@@ -248,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/screenshots/descript-2026-06-20T175933.png
 security:

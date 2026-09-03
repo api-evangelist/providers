@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: 'The web server in Factory I/O exposes a REST API for reading and writing simulation values from external clients. The web server uses conventional HTTP response codes to indicate success or failure: 2'
   name: FACTORY I/O Web API
   slug: factory-i-o
-- description: Operations for reading and writing tag values by ID
+- baseURL: http://localhost:7410
+  baseurl_source: spec
+  description: Operations for reading and writing tag values by ID
   name: FACTORY I/O Tag Values API
   slug: factory-i-o-tag-values-api
-- description: Operations for reading and writing tag values by name
+- baseURL: http://localhost:7410
+  baseurl_source: spec
+  description: Operations for reading and writing tag values by name
   name: FACTORY I/O Tag Values by Name API
   slug: factory-i-o-tag-values-by-name-api
-- description: Operations for listing and querying scene tags
+- baseURL: http://localhost:7410
+  baseurl_source: spec
+  description: Operations for listing and querying scene tags
   name: FACTORY I/O Tags API
   slug: factory-i-o-tags-api
 artifact_total: 23
@@ -199,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factory-i-o/refs/heads/main/screenshots/factory-i-o-2026-06-20T181011.png
 security:

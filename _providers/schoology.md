@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: REST API for the Schoology K-12 LMS. Authenticated via OAuth. Supports realm resources (districts, schools, buildings, users, groups, courses, sections), realm objects (enrollments, events, blog posts
   name: Schoology REST API v1
   slug: rest-api-v1
-- description: The Assignments API from Schoology — 2 operation(s) for assignments.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Assignments API from Schoology — 2 operation(s) for assignments.
   name: Schoology Assignments API
   slug: schoology-assignments-api
-- description: The Courses API from Schoology — 2 operation(s) for courses.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Courses API from Schoology — 2 operation(s) for courses.
   name: Schoology Courses API
   slug: schoology-courses-api
-- description: The Enrollments API from Schoology — 2 operation(s) for enrollments.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Enrollments API from Schoology — 2 operation(s) for enrollments.
   name: Schoology Enrollments API
   slug: schoology-enrollments-api
-- description: The Grades API from Schoology — 2 operation(s) for grades.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Grades API from Schoology — 2 operation(s) for grades.
   name: Schoology Grades API
   slug: schoology-grades-api
-- description: The Groups API from Schoology — 2 operation(s) for groups.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Groups API from Schoology — 2 operation(s) for groups.
   name: Schoology Groups API
   slug: schoology-groups-api
-- description: The Multi-Call API from Schoology — 2 operation(s) for multi-call.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Multi-Call API from Schoology — 2 operation(s) for multi-call.
   name: Schoology Multi-Call API
   slug: schoology-multi-call-api
-- description: The Sections API from Schoology — 4 operation(s) for sections.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Sections API from Schoology — 4 operation(s) for sections.
   name: Schoology Sections API
   slug: schoology-sections-api
-- description: The Submissions API from Schoology — 2 operation(s) for submissions.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Submissions API from Schoology — 2 operation(s) for submissions.
   name: Schoology Submissions API
   slug: schoology-submissions-api
-- description: The Subscriptions API from Schoology — 1 operation(s) for subscriptions.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Subscriptions API from Schoology — 1 operation(s) for subscriptions.
   name: Schoology Subscriptions API
   slug: schoology-subscriptions-api
-- description: The Targets API from Schoology — 2 operation(s) for targets.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Targets API from Schoology — 2 operation(s) for targets.
   name: Schoology Targets API
   slug: schoology-targets-api
-- description: The Users API from Schoology — 6 operation(s) for users.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Users API from Schoology — 6 operation(s) for users.
   name: Schoology Users API
   slug: schoology-users-api
-- description: The Events API from Schoology — 0 operation(s) for events.
+- baseURL: https://api.schoology.com/v1/
+  baseurl_source: declared
+  description: The Events API from Schoology — 0 operation(s) for events.
   name: Schoology Events API
   slug: schoology-events-api
 artifact_total: 34
@@ -239,7 +263,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

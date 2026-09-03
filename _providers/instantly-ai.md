@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -46,94 +46,154 @@ agentic_access:
   summary_line: 186 operations · 112 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: The Campaigns API from Instantly — 10 operation(s) for campaigns.
+- baseURL: https://api.instantly.ai/api/v2/campaigns
+  baseurl_source: declared
+  description: The Campaigns API from Instantly — 10 operation(s) for campaigns.
   name: Instantly Campaigns API
   slug: instantly-ai-campaigns-api
-- description: An email account that can be used to send campaigns
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: An email account that can be used to send campaigns
   name: Instantly Account API
   slug: instantly-ai-account-api
-- description: Account Campaign Mapping
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Account Campaign Mapping
   name: Instantly Account Campaign Mapping API
   slug: instantly-ai-accountcampaignmapping-api
-- description: Endpoints related to analytics
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Endpoints related to analytics
   name: Instantly Analytics API
   slug: instantly-ai-analytics-api
-- description: API Key
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: API Key
   name: Instantly API Key API
   slug: instantly-ai-apikey-api
-- description: Audit log records for tracking system activities
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Audit log records for tracking system activities
   name: Instantly Audit Log API
   slug: instantly-ai-auditlog-api
-- description: A background job that can be used to perform long-running tasks
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A background job that can be used to perform long-running tasks
   name: Instantly Background Job API
   slug: instantly-ai-backgroundjob-api
-- description: A blocked email or domain
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A blocked email or domain
   name: Instantly Block List Entry API
   slug: instantly-ai-blocklistentry-api
-- description: A campaign that can be sent to a list of recipients
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A campaign that can be sent to a list of recipients
   name: Instantly Campaign API
   slug: instantly-ai-campaign-api
-- description: A subsequence entity representing a follow-up sequence
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A subsequence entity representing a follow-up sequence
   name: Instantly Campaign Subsequence API
   slug: instantly-ai-campaignsubsequence-api
-- description: CRM related actions
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: CRM related actions
   name: Instantly CRM Actions API
   slug: instantly-ai-crmactions-api
-- description: A custom tag for organizing and categorizing accounts and campaigns. You can use them as filters in apis that list accounts and campaigns.
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A custom tag for organizing and categorizing accounts and campaigns. You can use them as filters in apis that list accounts and campaigns.
   name: Instantly Custom Tag API
   slug: instantly-ai-customtag-api
-- description: This entity represents a tag being assigned to a specific campaign or email account. When an email account is assigned a tag, a new custom tag mapping entry is created, which connects the tag (`tag_id
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: This entity represents a tag being assigned to a specific campaign or email account. When an email account is assigned a tag, a new custom tag mapping entry is created, which connects the tag (`tag_id
   name: Instantly Custom Tag Mapping API
   slug: instantly-ai-customtagmapping-api
-- description: A Done-For-You email account order
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A Done-For-You email account order
   name: Instantly DFY Email Account Order API
   slug: instantly-ai-dfyemailaccountorder-api
-- description: A campaign email, a reply, a manually sent email, or any other email that's visible in the Unibox
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A campaign email, a reply, a manually sent email, or any other email that's visible in the Unibox
   name: Instantly Email API
   slug: instantly-ai-email-api
-- description: A single email verification
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A single email verification
   name: Instantly Email Verification API
   slug: instantly-ai-emailverification-api
-- description: Analytics data for individual emails in inbox placement tests
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Analytics data for individual emails in inbox placement tests
   name: Instantly Inbox Placement Analytics API
   slug: instantly-ai-inboxplacementanalytics-api
-- description: Report data for an inbox placement test
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Report data for an inbox placement test
   name: Instantly Inbox Placement Blacklist And Spam Assassin Report API
   slug: instantly-ai-inboxplacementblacklistandspamassassinreport-api
-- description: An inbox placement test
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: An inbox placement test
   name: Instantly Inbox Placement Test API
   slug: instantly-ai-inboxplacementtest-api
-- description: A lead entity representing an individual lead
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A lead entity representing an individual lead
   name: Instantly Lead API
   slug: instantly-ai-lead-api
-- description: A custom label for categorizing and managing leads
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A custom label for categorizing and managing leads
   name: Instantly Lead Label API
   slug: instantly-ai-leadlabel-api
-- description: A list used to store leads
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A list used to store leads
   name: Instantly Lead List API
   slug: instantly-ai-leadlist-api
-- description: OAuth authentication endpoints for connecting Google and Microsoft email accounts
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: OAuth authentication endpoints for connecting Google and Microsoft email accounts
   name: Instantly O Auth API
   slug: instantly-ai-oauth-api
-- description: An enrichment can take different forms, such as email enrichment or LinkedIn enrichment. Leads may be imported from SuperSearch using the dedicated endpoint, or enriched directly within a list or camp
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: An enrichment can take different forms, such as email enrichment or LinkedIn enrichment. Leads may be imported from SuperSearch using the dedicated endpoint, or enriched directly within a list or camp
   name: Instantly Super Search Enrichment API
   slug: instantly-ai-supersearchenrichment-api
-- description: A webhook subscription for receiving event notifications
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A webhook subscription for receiving event notifications
   name: Instantly Webhook API
   slug: instantly-ai-webhook-api
-- description: A webhook event that was sent or attempted to be sent
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A webhook event that was sent or attempted to be sent
   name: Instantly Webhook Event API
   slug: instantly-ai-webhookevent-api
-- description: A workspace entity representing a workspace
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A workspace entity representing a workspace
   name: Instantly Workspace API
   slug: instantly-ai-workspace-api
-- description: Workspace Billing
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Workspace Billing
   name: Instantly Workspace Billing API
   slug: instantly-ai-workspacebilling-api
-- description: A member of a workspace group. You can use the endpoints within this entity to manage the members of a workspace group.
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A member of a workspace group. You can use the endpoints within this entity to manage the members of a workspace group.
   name: Instantly Workspace Group Member API
   slug: instantly-ai-workspacegroupmember-api
-- description: A member of a workspace with associated user details
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A member of a workspace with associated user details
   name: Instantly Workspace Member API
   slug: instantly-ai-workspacemember-api
 artifact_total: 43
@@ -393,7 +453,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -403,7 +463,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 65.5
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -415,7 +475,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/screenshots/instantly-ai-2026-06-20T183518.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: The v2 alerts API from Quadrant API — 1 operation(s) for v2 alerts.
+- baseURL: https://api.qis.io
+  baseurl_source: declared
+  description: The v2 alerts API from Quadrant API — 1 operation(s) for v2 alerts.
   name: Quadrant API v2 alerts API
   slug: quadrant-api-v2-alerts-api
 artifact_total: 10
@@ -127,7 +129,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrant-api/refs/heads/main/screenshots/quadrant-api-2026-06-20T192357.png
 security:

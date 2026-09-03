@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 2
 apis:
-- description: SaaS domain and customer account management
+- baseURL: https://api.datto.com
+  baseurl_source: spec
+  description: SaaS domain and customer account management
   name: Backupify Domains API
   slug: backupify-domains-api
-- description: User and resource seat licensing and management
+- baseURL: https://api.datto.com
+  baseurl_source: spec
+  description: User and resource seat licensing and management
   name: Backupify Seats API
   slug: backupify-seats-api
 artifact_total: 54
@@ -311,7 +315,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/screenshots/backupify-2026-06-20T172919.png
 security:

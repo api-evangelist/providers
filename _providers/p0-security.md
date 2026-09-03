@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Submit commands that trigger access workflows.
+- baseURL: https://api.p0.app
+  baseurl_source: declared
+  description: Submit commands that trigger access workflows.
   name: P0 Security Command API
   slug: p0-security-command-api
-- description: Approve, deny, or revoke just-in-time access requests.
+- baseURL: https://api.p0.app
+  baseurl_source: declared
+  description: Approve, deny, or revoke just-in-time access requests.
   name: P0 Security Permission Requests API
   slug: p0-security-permission-requests-api
 artifact_total: 10
@@ -217,7 +221,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/screenshots/p0-security-2026-08-07T191227.png
 security:

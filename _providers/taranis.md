@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Leaf-level crop intelligence delivered through the AcreForward platform using submillimeter aerial imagery and computer vision to detect weeds, insect damage, disease pressure, nutrient deficiencies, '
+- baseURL: https://www.taranis.com
+  baseurl_source: spec
+  description: 'Leaf-level crop intelligence delivered through the AcreForward platform using submillimeter aerial imagery and computer vision to detect weeds, insect damage, disease pressure, nutrient deficiencies, '
   name: Taranis Crop Intelligence
   slug: taranis-crop-intelligence
-- description: Field health imagery, agronomic insights, and Yield Impact reporting that convert leaf-level observations into measurable bushel and yield outcomes, surfaced through the Taranis web dashboard and mobi
+- baseURL: https://www.taranis.com
+  baseurl_source: spec
+  description: Field health imagery, agronomic insights, and Yield Impact reporting that convert leaf-level observations into measurable bushel and yield outcomes, surfaced through the Taranis web dashboard and mobi
   name: Taranis Imagery and Insights
   slug: taranis-imagery-insights
-- description: Generative AI agronomy engine that contextualizes Taranis leaf-level data with weather, machinery, and research data to generate product, nutrient, and input recommendations. Exposed as an in-platform
+- baseURL: https://www.taranis.com
+  baseurl_source: spec
+  description: Generative AI agronomy engine that contextualizes Taranis leaf-level data with weather, machinery, and research data to generate product, nutrient, and input recommendations. Exposed as an in-platform
   name: Taranis Ag Assistant
   slug: taranis-ag-assistant
-- description: Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners / Nutrien) and ingestion of machinery and weather data that power AcreForward. These are commercial and operational integrati
+- baseURL: https://www.taranis.com
+  baseurl_source: spec
+  description: Channel and data partnerships (e.g., Syngenta Crop Protection, Ag Partners / Nutrien) and ingestion of machinery and weather data that power AcreForward. These are commercial and operational integrati
   name: Taranis Platform Integrations
   slug: taranis-platform-integrations
 artifact_total: 10
@@ -134,7 +142,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taranis/refs/heads/main/screenshots/taranis-2026-06-20T194922.png
 security:

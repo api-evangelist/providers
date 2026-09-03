@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: The Screenshot API captures full-page or viewport screenshots of any URL using headless Chrome, with control over viewport size, full_page rendering, image format, and combination with JavaScript scen
   name: ScrapingBee Screenshot API
   slug: screenshot-api
-- description: Structured Google SERP results (web, news, maps, images).
+- baseURL: https://app.scrapingbee.com/api/v1
+  baseurl_source: declared
+  description: Structured Google SERP results (web, news, maps, images).
   name: ScrapingBee Google Search API API
   slug: scrapingbee-google-search-api-api
-- description: Headless-browser scraping with proxy rotation, screenshots, and AI extraction.
+- baseURL: https://app.scrapingbee.com/api/v1
+  baseurl_source: declared
+  description: Headless-browser scraping with proxy rotation, screenshots, and AI extraction.
   name: ScrapingBee HTML API API
   slug: scrapingbee-html-api-api
 artifact_total: 19
@@ -243,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png
 security:

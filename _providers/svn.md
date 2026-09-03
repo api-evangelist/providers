@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -54,16 +54,24 @@ apis:
 - description: SVNKit is a pure Java Subversion client library providing full access to Subversion repository and working copy data. Used by major IDE plugins including IntelliJ IDEA and Eclipse Subclipse.
   name: SVNKit Java Library
   slug: svn-java-bindings
-- description: Commit lifecycle — create transaction, stage changes, finalize
+- baseURL: https://svn.example.com/repos/
+  baseurl_source: declared
+  description: Commit lifecycle — create transaction, stage changes, finalize
   name: Subversion Commits API
   slug: svn-commits-api
-- description: File and directory content retrieval
+- baseURL: https://svn.example.com/repos/
+  baseurl_source: declared
+  description: File and directory content retrieval
   name: Subversion Files API
   slug: svn-files-api
-- description: Log, blame, and revision history operations
+- baseURL: https://svn.example.com/repos/
+  baseurl_source: declared
+  description: Log, blame, and revision history operations
   name: Subversion History API
   slug: svn-history-api
-- description: Repository root and metadata operations
+- baseURL: https://svn.example.com/repos/
+  baseurl_source: declared
+  description: Repository root and metadata operations
   name: Subversion Repository API
   slug: svn-repository-api
 artifact_total: 28
@@ -250,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/screenshots/svn-2026-06-20T194747.png
 security:

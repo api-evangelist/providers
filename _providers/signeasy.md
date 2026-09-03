@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 9 acting
 api_count: 1
 apis:
-- description: Embedded signing and sending flows for iframes and pop-ups.
+- baseURL: https://api.signeasy.com/v3
+  baseurl_source: declared
+  description: Embedded signing and sending flows for iframes and pop-ups.
   name: Signeasy Embedded API
   slug: signeasy-embedded-api
-- description: Signature requests composed of originals and templates.
+- baseURL: https://api.signeasy.com/v3
+  baseurl_source: declared
+  description: Signature requests composed of originals and templates.
   name: Signeasy Envelopes API
   slug: signeasy-envelopes-api
-- description: Master documents used to build signature requests.
+- baseURL: https://api.signeasy.com/v3
+  baseurl_source: declared
+  description: Master documents used to build signature requests.
   name: Signeasy Originals API
   slug: signeasy-originals-api
-- description: Reusable documents with predefined roles and merge fields.
+- baseURL: https://api.signeasy.com/v3
+  baseurl_source: declared
+  description: Reusable documents with predefined roles and merge fields.
   name: Signeasy Templates API
   slug: signeasy-templates-api
-- description: Authenticated account details and envelope credits.
+- baseURL: https://api.signeasy.com/v3
+  baseurl_source: declared
+  description: Authenticated account details and envelope credits.
   name: Signeasy Users API
   slug: signeasy-users-api
 artifact_total: 19
@@ -160,7 +170,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -183,8 +193,9 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signeasy/refs/heads/main/screenshots/signeasy-2026-09-02T155433.png
 security:
 - kind: authentication
   name: Signeasy Authentication

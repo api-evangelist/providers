@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Retrieve crawl run executions and their result files.
+- baseURL: https://api.import.io
+  baseurl_source: declared
+  description: Retrieve crawl run executions and their result files.
   name: Import.io Crawlrun API
   slug: import-io-crawlrun-api
-- description: Create, configure, run, and manage web data extractors.
+- baseURL: https://api.import.io
+  baseurl_source: declared
+  description: Create, configure, run, and manage web data extractors.
   name: Import.io Extractor API
   slug: import-io-extractor-api
-- description: Manage reports built on top of extractors.
+- baseURL: https://api.import.io
+  baseurl_source: declared
+  description: Manage reports built on top of extractors.
   name: Import.io Report API
   slug: import-io-report-api
-- description: Retrieve report run executions and their result files.
+- baseURL: https://api.import.io
+  baseurl_source: declared
+  description: Retrieve report run executions and their result files.
   name: Import.io ReportRun API
   slug: import-io-reportrun-api
-- description: Information about the authenticated user and their subscription.
+- baseURL: https://api.import.io
+  baseurl_source: declared
+  description: Information about the authenticated user and their subscription.
   name: Import.io User API
   slug: import-io-user-api
 artifact_total: 18
@@ -195,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import-io/refs/heads/main/screenshots/import-io-2026-06-20T183259.png
 security:

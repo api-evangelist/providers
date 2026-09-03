@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: Read API credit balance for the current API key.
+- baseURL: https://api.textcortex.com/v1
+  baseurl_source: declared
+  description: Read API credit balance for the current API key.
   name: Textcortex Balance API
   slug: textcortex-balance-api
-- description: Generate chat completions with TextCortex models.
+- baseURL: https://api.textcortex.com/v1
+  baseurl_source: declared
+  description: Generate chat completions with TextCortex models.
   name: Textcortex Chat Completions API
   slug: textcortex-chat-completions-api
-- description: Discover OpenAI-compatible TextCortex models.
+- baseURL: https://api.textcortex.com/v1
+  baseurl_source: declared
+  description: Discover OpenAI-compatible TextCortex models.
   name: Textcortex Models API
   slug: textcortex-models-api
-- description: Generate responses with TextCortex models.
+- baseURL: https://api.textcortex.com/v1
+  baseurl_source: declared
+  description: Generate responses with TextCortex models.
   name: Textcortex Responses API
   slug: textcortex-responses-api
 artifact_total: 13
@@ -212,7 +220,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/screenshots/textcortex-2026-08-17T082329.png
 security:

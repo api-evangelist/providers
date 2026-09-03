@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Sign API from Smart DCC — 1 operation(s) for sign.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Sign API from Smart DCC — 1 operation(s) for sign.
   name: Smart DCC Sign API
   slug: dcc-smart-sign-api
-- description: The Verify API from Smart DCC — 1 operation(s) for verify.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Verify API from Smart DCC — 1 operation(s) for verify.
   name: Smart DCC Verify API
   slug: dcc-smart-verify-api
 artifact_total: 9
@@ -277,7 +293,7 @@ score:
     regime_id: energy_utilities
     score: 54.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 51 operations · 21 acting
 api_count: 1
 apis:
-- description: OAuth2 client credentials token exchange.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: OAuth2 client credentials token exchange.
   name: Classy Authentication API
   slug: classy-org-authentication-api
-- description: Donation forms, peer-to-peer, crowdfunding, and event campaigns.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Donation forms, peer-to-peer, crowdfunding, and event campaigns.
   name: Classy Campaigns API
   slug: classy-org-campaigns-api
-- description: Funds or programs donors can direct gifts toward.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Funds or programs donors can direct gifts toward.
   name: Classy Designations API
   slug: classy-org-designations-api
-- description: Individual peer-to-peer fundraising pages under a campaign.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Individual peer-to-peer fundraising pages under a campaign.
   name: Classy Fundraising Pages API
   slug: classy-org-fundraising-pages-api
-- description: Teams and subteams of fundraising pages under a campaign.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Teams and subteams of fundraising pages under a campaign.
   name: Classy Fundraising Teams API
   slug: classy-org-fundraising-teams-api
-- description: The account behind a fundraiser, admin, or donor.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: The account behind a fundraiser, admin, or donor.
   name: Classy Members API
   slug: classy-org-members-api
-- description: Nonprofit organization records and their nested collections.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Nonprofit organization records and their nested collections.
   name: Classy Organizations API
   slug: classy-org-organizations-api
-- description: Sustainer / recurring donation subscriptions.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Sustainer / recurring donation subscriptions.
   name: Classy Recurring Donation Plans API
   slug: classy-org-recurring-donation-plans-api
-- description: Donor / CRM profile per organization.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Donor / CRM profile per organization.
   name: Classy Supporters API
   slug: classy-org-supporters-api
-- description: Donations, ticket, and merchandise order transactions.
+- baseURL: https://api.classy.org/2.0
+  baseurl_source: declared
+  description: Donations, ticket, and merchandise order transactions.
   name: Classy Transactions API
   slug: classy-org-transactions-api
 artifact_total: 28
@@ -215,7 +235,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/screenshots/classy-org-2026-07-25T205526.png
 security:

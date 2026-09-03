@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: The Suki Platform REST API and SDKs let healthcare technology partners embed Suki's ambient clinical documentation, dictation, voice command, and form-filling capabilities into EHRs, telehealth platfo
   name: Suki Platform REST API
   slug: suki-platform-api
-- description: The Ambient Content API from Suki AI — 6 operation(s) for ambient content.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Ambient Content API from Suki AI — 6 operation(s) for ambient content.
   name: Suki AI Ambient Content API
   slug: suki-ai-ambient-content-api
-- description: The Ambient Sessions API from Suki AI — 4 operation(s) for ambient sessions.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Ambient Sessions API from Suki AI — 4 operation(s) for ambient sessions.
   name: Suki AI Ambient Sessions API
   slug: suki-ai-ambient-sessions-api
-- description: The Authentication API from Suki AI — 3 operation(s) for authentication.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Authentication API from Suki AI — 3 operation(s) for authentication.
   name: Suki AI Authentication API
   slug: suki-ai-authentication-api
-- description: The Feedback API from Suki AI — 1 operation(s) for feedback.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Feedback API from Suki AI — 1 operation(s) for feedback.
   name: Suki AI Feedback API
   slug: suki-ai-feedback-api
-- description: The Form Filling Content API from Suki AI — 1 operation(s) for form filling content.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Form Filling Content API from Suki AI — 1 operation(s) for form filling content.
   name: Suki AI Form Filling Content API
   slug: suki-ai-form-filling-content-api
-- description: The Form Filling Sessions API from Suki AI — 4 operation(s) for form filling sessions.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Form Filling Sessions API from Suki AI — 4 operation(s) for form filling sessions.
   name: Suki AI Form Filling Sessions API
   slug: suki-ai-form-filling-sessions-api
-- description: The Info API from Suki AI — 5 operation(s) for info.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Info API from Suki AI — 5 operation(s) for info.
   name: Suki AI Info API
   slug: suki-ai-info-api
-- description: The Notifications API from Suki AI — 1 operation(s) for notifications.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The Notifications API from Suki AI — 1 operation(s) for notifications.
   name: Suki AI Notifications API
   slug: suki-ai-notifications-api
-- description: The User Preferences API from Suki AI — 1 operation(s) for user preferences.
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: The User Preferences API from Suki AI — 1 operation(s) for user preferences.
   name: Suki AI User Preferences API
   slug: suki-ai-user-preferences-api
-- description: Generated Note And Transcript Retrieval
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: Generated Note And Transcript Retrieval
   name: Suki AI Content API
   slug: suki-ai-content-api
-- description: Provider Personalization
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: Provider Personalization
   name: Suki AI Preferences API
   slug: suki-ai-preferences-api
-- description: Ambient Session Lifecycle
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: Ambient Session Lifecycle
   name: Suki AI Sessions API
   slug: suki-ai-sessions-api
-- description: Suki Hosted Form Templates
+- baseURL: https://developer.suki.ai
+  baseurl_source: declared
+  description: Suki Hosted Form Templates
   name: Suki AI Templates API
   slug: suki-ai-templates-api
 artifact_total: 65
@@ -426,7 +452,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -436,7 +462,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 58.7
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -451,7 +477,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/screenshots/suki-ai-2026-06-20T194641.png
 security:

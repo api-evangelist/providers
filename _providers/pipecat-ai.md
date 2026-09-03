@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -50,19 +50,29 @@ apis:
 - description: Realtime media transport layer of the framework. Bidirectional audio, video, and data flow over Daily WebRTC, SmallWebRTC, LiveKit, FastAPI WebSocket server, and telephony serializers (Twilio, Telnyx,
   name: Transports (WebRTC/WebSocket)
   slug: transports-webrtc-websocket
-- description: Create, list, update, and delete deployed agents and inspect logs and sessions.
+- baseURL: https://api.pipecat.daily.co/v1
+  baseurl_source: declared
+  description: Create, list, update, and delete deployed agents and inspect logs and sessions.
   name: Pipecat Agents API
   slug: pipecat-ai-agents-api
-- description: Build container images for agent deployments.
+- baseURL: https://api.pipecat.daily.co/v1
+  baseurl_source: declared
+  description: Build container images for agent deployments.
   name: Pipecat Builds API
   slug: pipecat-ai-builds-api
-- description: Organization properties and available regions.
+- baseURL: https://api.pipecat.daily.co/v1
+  baseurl_source: declared
+  description: Organization properties and available regions.
   name: Pipecat Organization API
   slug: pipecat-ai-organization-api
-- description: Manage secret sets and individual secrets used by agents.
+- baseURL: https://api.pipecat.daily.co/v1
+  baseurl_source: declared
+  description: Manage secret sets and individual secrets used by agents.
   name: Pipecat Secrets API
   slug: pipecat-ai-secrets-api
-- description: Start, stop, and proxy requests to running agent sessions.
+- baseURL: https://api.pipecat.daily.co/v1
+  baseurl_source: declared
+  description: Start, stop, and proxy requests to running agent sessions.
   name: Pipecat Sessions API
   slug: pipecat-ai-sessions-api
 artifact_total: 20
@@ -162,7 +172,7 @@ score:
   band: thin
   composite: 37.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +195,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/screenshots/pipecat-ai-2026-09-02T151314.png
 security:
 - kind: authentication
   name: Pipecat Ai Authentication

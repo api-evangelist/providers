@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: The SimpleLocalize Customer API enables creation and management of customer-specific translations. Customers represent end-user segments with their own translation overrides, identified by a unique cu
   name: SimpleLocalize Customer API
   slug: customer-api
-- description: Manage customer-specific translation segments
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Manage customer-specific translation segments
   name: SimpleLocalize Customers API
   slug: simplelocalize-customers-api
-- description: Export translation files in various formats
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Export translation files in various formats
   name: SimpleLocalize Export API
   slug: simplelocalize-export-api
-- description: Import translation files in various formats
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Import translation files in various formats
   name: SimpleLocalize Import API
   slug: simplelocalize-import-api
-- description: Manage project languages
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Manage project languages
   name: SimpleLocalize Languages API
   slug: simplelocalize-languages-api
-- description: Manage translation projects
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Manage translation projects
   name: SimpleLocalize Projects API
   slug: simplelocalize-projects-api
-- description: Publish translations to CDN environments
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Publish translations to CDN environments
   name: SimpleLocalize Publication API
   slug: simplelocalize-publication-api
-- description: Manage translation strings across languages and namespaces
+- baseURL: https://api.simplelocalize.io
+  baseurl_source: declared
+  description: Manage translation strings across languages and namespaces
   name: SimpleLocalize Translations API
   slug: simplelocalize-translations-api
 artifact_total: 42
@@ -299,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelocalize/refs/heads/main/screenshots/simplelocalize-2026-06-20T193932.png
 security:

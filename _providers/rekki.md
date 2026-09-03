@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 32 operations · 27 acting
 api_count: 1
 apis:
-- description: The catalog API from REKKI — 12 operation(s) for catalog.
+- baseURL: https://api.rekki.com
+  baseurl_source: declared
+  description: The catalog API from REKKI — 12 operation(s) for catalog.
   name: REKKI catalog API
   slug: rekki-catalog-api
-- description: The connect_customers API from REKKI — 2 operation(s) for connect_customers.
+- baseURL: https://api.rekki.com
+  baseurl_source: declared
+  description: The connect_customers API from REKKI — 2 operation(s) for connect_customers.
   name: REKKI connect_customers API
   slug: rekki-connect-customers-api
-- description: The general API from REKKI — 2 operation(s) for general.
+- baseURL: https://api.rekki.com
+  baseurl_source: declared
+  description: The general API from REKKI — 2 operation(s) for general.
   name: REKKI general API
   slug: rekki-general-api
-- description: The order-guide API from REKKI — 1 operation(s) for order-guide.
+- baseURL: https://api.rekki.com
+  baseurl_source: declared
+  description: The order-guide API from REKKI — 1 operation(s) for order-guide.
   name: REKKI order-guide API
   slug: rekki-order-guide-api
-- description: The orders API from REKKI — 11 operation(s) for orders.
+- baseURL: https://api.rekki.com
+  baseurl_source: declared
+  description: The orders API from REKKI — 11 operation(s) for orders.
   name: REKKI orders API
   slug: rekki-orders-api
 artifact_total: 15
@@ -192,7 +202,7 @@ score:
   band: thin
   composite: 36.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -218,8 +228,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/screenshots/rekki-2026-09-02T153301.png
 security:
 - kind: authentication
   name: Rekki Authentication

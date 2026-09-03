@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: The TrueLayer Data API provides access to bank account data including account information, balances, transactions, identity verification, and standing orders. Used for account verification, affordabil
   name: TrueLayer Data API
   slug: data-api
-- description: Variable recurring payment mandates
+- baseURL: https://api.truelayer.com
+  baseurl_source: declared
+  description: Variable recurring payment mandates
   name: TrueLayer Mandates API
   slug: truelayer-mandates-api
-- description: Merchant account management and balance
+- baseURL: https://api.truelayer.com
+  baseurl_source: declared
+  description: Merchant account management and balance
   name: TrueLayer Merchant Accounts API
   slug: truelayer-merchant-accounts-api
-- description: Create and manage individual bank payments
+- baseURL: https://api.truelayer.com
+  baseurl_source: declared
+  description: Create and manage individual bank payments
   name: TrueLayer Payments API
   slug: truelayer-payments-api
-- description: Payments from merchant accounts to users
+- baseURL: https://api.truelayer.com
+  baseurl_source: declared
+  description: Payments from merchant accounts to users
   name: TrueLayer Payouts API
   slug: truelayer-payouts-api
-- description: Refund payments back to users
+- baseURL: https://api.truelayer.com
+  baseurl_source: declared
+  description: Refund payments back to users
   name: TrueLayer Refunds API
   slug: truelayer-refunds-api
 artifact_total: 35
@@ -267,7 +277,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -277,7 +287,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 22.4
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -292,7 +302,7 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:

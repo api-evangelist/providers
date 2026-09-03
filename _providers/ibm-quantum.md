@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: Cloud-hosted, AI-augmented transpilation of OpenQASM 3 circuits down to IBM Quantum native gates and backend topology. Bundled with Flex and Premium plans.
   name: Qiskit Transpiler as a Service API
   slug: qiskit-transpiler-as-a-service-api
-- description: The Accounts API from ibm-quantum — 1 operation(s) for accounts.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Accounts API from ibm-quantum — 1 operation(s) for accounts.
   name: ibm-quantum Accounts API
   slug: ibm-quantum-accounts-api
-- description: The Analytics API from ibm-quantum — 4 operation(s) for analytics.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Analytics API from ibm-quantum — 4 operation(s) for analytics.
   name: ibm-quantum Analytics API
   slug: ibm-quantum-analytics-api
-- description: The Backends API from ibm-quantum — 5 operation(s) for backends.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Backends API from ibm-quantum — 5 operation(s) for backends.
   name: ibm-quantum Backends API
   slug: ibm-quantum-backends-api
-- description: The Instances API from ibm-quantum — 3 operation(s) for instances.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Instances API from ibm-quantum — 3 operation(s) for instances.
   name: ibm-quantum Instances API
   slug: ibm-quantum-instances-api
-- description: The Jobs API from ibm-quantum — 7 operation(s) for jobs.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Jobs API from ibm-quantum — 7 operation(s) for jobs.
   name: ibm-quantum Jobs API
   slug: ibm-quantum-jobs-api
-- description: The Sessions API from ibm-quantum — 3 operation(s) for sessions.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Sessions API from ibm-quantum — 3 operation(s) for sessions.
   name: ibm-quantum Sessions API
   slug: ibm-quantum-sessions-api
-- description: The Tags API from ibm-quantum — 1 operation(s) for tags.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Tags API from ibm-quantum — 1 operation(s) for tags.
   name: ibm-quantum Tags API
   slug: ibm-quantum-tags-api
-- description: The Versions API from ibm-quantum — 1 operation(s) for versions.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Versions API from ibm-quantum — 1 operation(s) for versions.
   name: ibm-quantum Versions API
   slug: ibm-quantum-versions-api
-- description: The Workloads API from ibm-quantum — 1 operation(s) for workloads.
+- baseURL: https://quantum.cloud.ibm.com/api
+  baseurl_source: spec
+  description: The Workloads API from ibm-quantum — 1 operation(s) for workloads.
   name: ibm-quantum Workloads API
   slug: ibm-quantum-workloads-api
 arazzos:
@@ -533,10 +551,10 @@ score:
       total: 9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:

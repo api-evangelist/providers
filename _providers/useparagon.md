@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Prebuilt, LLM-ready actions across connected SaaS providers.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Prebuilt, LLM-ready actions across connected SaaS providers.
   name: Paragon ActionKit API
   slug: useparagon-actionkit-api
-- description: Authenticated users and connected third-party credentials.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Authenticated users and connected third-party credentials.
   name: Paragon Connect API
   slug: useparagon-connect-api
-- description: Integrations enabled for a Paragon project.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Integrations enabled for a Paragon project.
   name: Paragon Integrations API
   slug: useparagon-integrations-api
-- description: Normalized third-party data ingestion pipelines and records.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Normalized third-party data ingestion pipelines and records.
   name: Paragon Managed Sync API
   slug: useparagon-managed-sync-api
-- description: Access control checks for ingested data.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Access control checks for ingested data.
   name: Paragon Permissions API
   slug: useparagon-permissions-api
-- description: Passthrough requests to a connected user's third-party API.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Passthrough requests to a connected user's third-party API.
   name: Paragon Proxy API
   slug: useparagon-proxy-api
-- description: Authenticated user and connected integration state.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Authenticated user and connected integration state.
   name: Paragon Users API
   slug: useparagon-users-api
-- description: Triggering workflows and checking execution status.
+- baseURL: https://zeus.useparagon.com
+  baseurl_source: declared
+  description: Triggering workflows and checking execution status.
   name: Paragon Workflows API
   slug: useparagon-workflows-api
 artifact_total: 24
@@ -174,7 +190,7 @@ score:
   band: developing
   composite: 40.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -197,8 +213,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/useparagon/refs/heads/main/screenshots/useparagon-2026-09-02T165235.png
 security:
 - kind: authentication
   name: Useparagon Authentication

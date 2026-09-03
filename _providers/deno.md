@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -53,28 +53,44 @@ apis:
 - description: The Deno Standard Library is a collection of audited TypeScript modules maintained by the Deno core team and published on JSR under the @std scope. It provides common utilities including HTTP server h
   name: Deno Standard Library
   slug: standard-library
-- description: Create, list, retrieve, update, and delete applications. Apps are the top-level containers for deployable code on Deno Deploy v2.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete applications. Apps are the top-level containers for deployable code on Deno Deploy v2.
   name: Deno Apps API
   slug: deno-apps-api
-- description: Create, list, retrieve, redeploy, and delete deployments; access build and app logs
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create, list, retrieve, redeploy, and delete deployments; access build and app logs
   name: Deno Deployments API
   slug: deno-deployments-api
-- description: Register and manage custom domains with TLS certificate support
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Register and manage custom domains with TLS certificate support
   name: Deno Domains API
   slug: deno-domains-api
-- description: Create and manage Deno KV databases and backups
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create and manage Deno KV databases and backups
   name: Deno KV Databases API
   slug: deno-kv-databases-api
-- description: Query or stream runtime application logs for apps
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Query or stream runtime application logs for apps
   name: Deno Logs API
   slug: deno-logs-api
-- description: Retrieve organization details and analytics
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve organization details and analytics
   name: Deno Organizations API
   slug: deno-organizations-api
-- description: Create, list, update, and delete Deploy projects
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Create, list, update, and delete Deploy projects
   name: Deno Projects API
   slug: deno-projects-api
-- description: Deploy new revisions, track build progress, cancel builds, and delete revisions. Revisions are immutable snapshots of deployed code.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Deploy new revisions, track build progress, cancel builds, and delete revisions. Revisions are immutable snapshots of deployed code.
   name: Deno Revisions API
   slug: deno-revisions-api
 artifact_total: 35
@@ -273,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/screenshots/deno-2026-08-17T083117.png
 security:

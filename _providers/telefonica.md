@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: The Population Density Data API provides dynamic real-time data on population density in a specific geographic area and time window, derived from anonymized and aggregated mobile network data. Used fo
   name: Telefónica Population Density Data API
   slug: population-density-data-api
-- description: The Device Roaming API from Telefónica — 1 operation(s) for device roaming.
+- baseURL: https://opengateway.telefonica.com
+  baseurl_source: declared
+  description: The Device Roaming API from Telefónica — 1 operation(s) for device roaming.
   name: Telefónica Device Roaming API
   slug: telefonica-device-roaming-api
-- description: The KYC Match API from Telefónica — 1 operation(s) for kyc match.
+- baseURL: https://opengateway.telefonica.com
+  baseurl_source: declared
+  description: The KYC Match API from Telefónica — 1 operation(s) for kyc match.
   name: Telefónica KYC Match API
   slug: telefonica-kyc-match-api
-- description: The Location Verification API from Telefónica — 1 operation(s) for location verification.
+- baseURL: https://opengateway.telefonica.com
+  baseurl_source: declared
+  description: The Location Verification API from Telefónica — 1 operation(s) for location verification.
   name: Telefónica Location Verification API
   slug: telefonica-location-verification-api
-- description: The Number Verification API from Telefónica — 2 operation(s) for number verification.
+- baseURL: https://opengateway.telefonica.com
+  baseurl_source: declared
+  description: The Number Verification API from Telefónica — 2 operation(s) for number verification.
   name: Telefónica Number Verification API
   slug: telefonica-number-verification-api
-- description: The QoD Sessions API from Telefónica — 2 operation(s) for qod sessions.
+- baseURL: https://opengateway.telefonica.com
+  baseurl_source: declared
+  description: The QoD Sessions API from Telefónica — 2 operation(s) for qod sessions.
   name: Telefónica QoD Sessions API
   slug: telefonica-qod-sessions-api
-- description: The SIM Swap API from Telefónica — 2 operation(s) for sim swap.
+- baseURL: https://opengateway.telefonica.com
+  baseurl_source: declared
+  description: The SIM Swap API from Telefónica — 2 operation(s) for sim swap.
   name: Telefónica SIM Swap API
   slug: telefonica-sim-swap-api
 artifact_total: 54
@@ -333,7 +345,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonica/refs/heads/main/screenshots/telefonica-2026-06-20T195129.png
 security:

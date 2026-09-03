@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Air quality feed endpoints for city, geo, and IP-based queries
+- baseURL: https://api.waqi.info
+  baseurl_source: declared
+  description: Air quality feed endpoints for city, geo, and IP-based queries
   name: World Air Quality Index (WAQI) Feed API
   slug: waqi-feed-api
-- description: Map tile and station boundary queries
+- baseURL: https://api.waqi.info
+  baseurl_source: declared
+  description: Map tile and station boundary queries
   name: World Air Quality Index (WAQI) Map API
   slug: waqi-map-api
-- description: Search for monitoring stations by keyword
+- baseURL: https://api.waqi.info
+  baseurl_source: declared
+  description: Search for monitoring stations by keyword
   name: World Air Quality Index (WAQI) Search API
   slug: waqi-search-api
 artifact_total: 19
@@ -203,7 +209,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/screenshots/waqi-2026-06-20T201226.png
 security:

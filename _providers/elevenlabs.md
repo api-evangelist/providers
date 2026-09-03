@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 62 operations · 40 acting
 api_count: 11
 apis:
-- description: Endpoints for creating, managing, and configuring conversational AI agents with voice capabilities.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for creating, managing, and configuring conversational AI agents with voice capabilities.
   name: elevenlabs Agents API
   slug: elevenlabs-agents-api
-- description: Endpoints for isolating vocals from background noise in audio recordings.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for isolating vocals from background noise in audio recordings.
   name: elevenlabs Audio Isolation API
   slug: elevenlabs-audio-isolation-api
-- description: Endpoints for creating and managing Audio Native embedded players for web content.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for creating and managing Audio Native embedded players for web content.
   name: elevenlabs Audio Native API
   slug: elevenlabs-audio-native-api
-- description: Endpoints for managing chapters within Studio projects.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing chapters within Studio projects.
   name: elevenlabs Chapters API
   slug: elevenlabs-chapters-api
-- description: Endpoints for retrieving and managing conversation sessions and their associated data.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for retrieving and managing conversation sessions and their associated data.
   name: elevenlabs Conversations API
   slug: elevenlabs-conversations-api
-- description: Endpoints for creating, managing, and retrieving dubbed audio and video content across languages.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for creating, managing, and retrieving dubbed audio and video content across languages.
   name: elevenlabs Dubbing API
   slug: elevenlabs-dubbing-api
-- description: Endpoints for managing individual dubbing resources including segments, translations, and dubbed output files.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing individual dubbing resources including segments, translations, and dubbed output files.
   name: elevenlabs Dubbing Resources API
   slug: elevenlabs-dubbing-resources-api
-- description: Endpoints for creating voice clones from short audio samples with instant processing.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for creating voice clones from short audio samples with instant processing.
   name: elevenlabs Instant Voice Cloning API
   slug: elevenlabs-instant-voice-cloning-api
-- description: Endpoints for managing knowledge base documents that agents use to answer questions.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing knowledge base documents that agents use to answer questions.
   name: elevenlabs Knowledge Base API
   slug: elevenlabs-knowledge-base-api
-- description: Endpoints for generating music from text prompts using AI models.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for generating music from text prompts using AI models.
   name: elevenlabs Music Generation API
   slug: elevenlabs-music-generation-api
-- description: Endpoints for creating high-fidelity voice clones from longer audio recordings with professional-grade processing.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for creating high-fidelity voice clones from longer audio recordings with professional-grade processing.
   name: elevenlabs Professional Voice Cloning API
   slug: elevenlabs-professional-voice-cloning-api
-- description: Endpoints for managing Studio projects including creation, editing, and rendering of long-form audio content.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing Studio projects including creation, editing, and rendering of long-form audio content.
   name: elevenlabs Projects API
   slug: elevenlabs-projects-api
-- description: Endpoints for managing pronunciation dictionaries used in Studio projects.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing pronunciation dictionaries used in Studio projects.
   name: elevenlabs Pronunciation Dictionaries API
   slug: elevenlabs-pronunciation-dictionaries-api
-- description: Endpoints for generating sound effects from text descriptions using AI models.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for generating sound effects from text descriptions using AI models.
   name: elevenlabs Sound Effects API
   slug: elevenlabs-sound-effects-api
-- description: Endpoints for converting speech from one voice to another while preserving the original speech characteristics.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for converting speech from one voice to another while preserving the original speech characteristics.
   name: elevenlabs Speech to Speech API
   slug: elevenlabs-speech-to-speech-api
-- description: Endpoints for converting audio into text transcriptions with support for multiple languages and audio formats.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for converting audio into text transcriptions with support for multiple languages and audio formats.
   name: elevenlabs Speech to Text API
   slug: elevenlabs-speech-to-text-api
-- description: Endpoints for converting text scripts with multiple speakers into dialogue audio.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for converting text scripts with multiple speakers into dialogue audio.
   name: elevenlabs Text to Dialogue API
   slug: elevenlabs-text-to-dialogue-api
-- description: Endpoints for converting text into speech audio with configurable voice, model, and output format settings.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for converting text into speech audio with configurable voice, model, and output format settings.
   name: elevenlabs Text to Speech API
   slug: elevenlabs-text-to-speech-api
-- description: Endpoints for managing external tools and webhook integrations that agents can invoke during conversations.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing external tools and webhook integrations that agents can invoke during conversations.
   name: elevenlabs Tools API
   slug: elevenlabs-tools-api
-- description: Endpoints for browsing and adding shared voices from the public voice library.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for browsing and adding shared voices from the public voice library.
   name: elevenlabs Voice Library API
   slug: elevenlabs-voice-library-api
-- description: Endpoints for managing voice-specific settings such as stability, similarity boost, and style parameters.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing voice-specific settings such as stability, similarity boost, and style parameters.
   name: elevenlabs Voice Settings API
   slug: elevenlabs-voice-settings-api
-- description: Endpoints for managing voices including listing, creating, editing, and deleting voices in the library.
+- baseURL: https://api.elevenlabs.io
+  baseurl_source: declared
+  description: Endpoints for managing voices including listing, creating, editing, and deleting voices in the library.
   name: elevenlabs Voices API
   slug: elevenlabs-voices-api
 artifact_total: 152
@@ -507,16 +551,16 @@ jsonld:
   slug: elevenlabs-context
 layout: provider
 modified: '2026-05-19'
-name: elevenlabs
+name: Elevenlabs
 nav: Providers
 network: true
-overview: 'elevenlabs publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio Isolation API, Audio Native API, and 19 more.
+overview: 'Elevenlabs publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio Isolation API, Audio Native API, and 19 more.
 
 
-  The elevenlabs catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Elevenlabs catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  elevenlabs'' developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Elevenlabs'' developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Elevenlabs Plans Pricing
   plan_count: 7
@@ -530,7 +574,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: elevenlabs API Rules
+  name: Elevenlabs API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -540,7 +584,7 @@ rules:
   slug: elevenlabs-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: elevenlabs API Rules
+  name: Elevenlabs API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -556,7 +600,7 @@ score:
     catalog_gap: 76.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -566,7 +610,7 @@ score:
     discoverability: 38.9
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 33.6
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -576,10 +620,10 @@ score:
       total: 22
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

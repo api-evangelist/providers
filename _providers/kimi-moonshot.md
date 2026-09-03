@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -65,22 +65,34 @@ apis:
 - description: Open-weight Kimi model releases (for example prior Kimi K1 / K2 checkpoints) published under the MoonshotAI GitHub organization for research and self-hosted use.
   name: Moonshot Open-Weights Releases
   slug: open-weights
-- description: The Batch API from Kimi (Moonshot AI) — 3 operation(s) for batch.
+- baseURL: https://api.moonshot.cn/v1/chat/completions
+  baseurl_source: declared
+  description: The Batch API from Kimi (Moonshot AI) — 3 operation(s) for batch.
   name: Kimi (Moonshot AI) Batch API
   slug: kimi-moonshot-batch-api
-- description: The Billing API from Kimi (Moonshot AI) — 1 operation(s) for billing.
+- baseURL: https://api.moonshot.cn/v1/chat/completions
+  baseurl_source: declared
+  description: The Billing API from Kimi (Moonshot AI) — 1 operation(s) for billing.
   name: Kimi (Moonshot AI) Billing API
   slug: kimi-moonshot-billing-api
-- description: The Chat API from Kimi (Moonshot AI) — 1 operation(s) for chat.
+- baseURL: https://api.moonshot.cn/v1/chat/completions
+  baseurl_source: declared
+  description: The Chat API from Kimi (Moonshot AI) — 1 operation(s) for chat.
   name: Kimi (Moonshot AI) Chat API
   slug: kimi-moonshot-chat-api
-- description: The Files API from Kimi (Moonshot AI) — 3 operation(s) for files.
+- baseURL: https://api.moonshot.cn/v1/chat/completions
+  baseurl_source: declared
+  description: The Files API from Kimi (Moonshot AI) — 3 operation(s) for files.
   name: Kimi (Moonshot AI) Files API
   slug: kimi-moonshot-files-api
-- description: The Models API from Kimi (Moonshot AI) — 1 operation(s) for models.
+- baseURL: https://api.moonshot.cn/v1/chat/completions
+  baseurl_source: declared
+  description: The Models API from Kimi (Moonshot AI) — 1 operation(s) for models.
   name: Kimi (Moonshot AI) Models API
   slug: kimi-moonshot-models-api
-- description: The Utilities API from Kimi (Moonshot AI) — 1 operation(s) for utilities.
+- baseURL: https://api.moonshot.cn/v1/chat/completions
+  baseurl_source: declared
+  description: The Utilities API from Kimi (Moonshot AI) — 1 operation(s) for utilities.
   name: Kimi (Moonshot AI) Utilities API
   slug: kimi-moonshot-utilities-api
 artifact_total: 29
@@ -202,7 +214,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -212,7 +224,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 37.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -221,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kimi-moonshot/refs/heads/main/screenshots/kimi-moonshot-2026-06-20T184035.png
 security:

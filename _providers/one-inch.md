@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,25 +65,39 @@ apis:
 - description: Gas price estimates for EIP-1559 across supported EVM chains.
   name: 1inch Gas Price API
   slug: gas-price-api
-- description: The Balance API from 1inch — 1 operation(s) for balance.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The Balance API from 1inch — 1 operation(s) for balance.
   name: 1inch Balance API
   slug: one-inch-balance-api
-- description: The GasPrice API from 1inch — 1 operation(s) for gasprice.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The GasPrice API from 1inch — 1 operation(s) for gasprice.
   name: 1inch GasPrice API
   slug: one-inch-gasprice-api
-- description: The Orderbook API from 1inch — 2 operation(s) for orderbook.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The Orderbook API from 1inch — 2 operation(s) for orderbook.
   name: 1inch Orderbook API
   slug: one-inch-orderbook-api
-- description: The Portfolio API from 1inch — 1 operation(s) for portfolio.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The Portfolio API from 1inch — 1 operation(s) for portfolio.
   name: 1inch Portfolio API
   slug: one-inch-portfolio-api
-- description: The SpotPrice API from 1inch — 1 operation(s) for spotprice.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The SpotPrice API from 1inch — 1 operation(s) for spotprice.
   name: 1inch SpotPrice API
   slug: one-inch-spotprice-api
-- description: The Swap API from 1inch — 8 operation(s) for swap.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The Swap API from 1inch — 8 operation(s) for swap.
   name: 1inch Swap API
   slug: one-inch-swap-api
-- description: The Token API from 1inch — 1 operation(s) for token.
+- baseURL: https://api.1inch.dev/swap/v6.0
+  baseurl_source: declared
+  description: The Token API from 1inch — 1 operation(s) for token.
   name: 1inch Token API
   slug: one-inch-token-api
 artifact_total: 29
@@ -216,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/screenshots/one-inch-2026-06-20T190708.png
 security:

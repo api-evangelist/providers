@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,40 +56,64 @@ apis:
 - description: A public JSON API for Carnegie Mellon dining locations, hours and menus, built and run by ScottyLabs, a CMU student organization, at api.cmueats.com. It exists because CMU's own dining surface does no
   name: CMU Eats API (ScottyLabs) — student-operated
   slug: cmu-eats-scottylabs
-- description: Published articles.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Published articles.
   name: Carnegie Mellon University Articles API
   slug: carnegie-mellon-university-articles-api
-- description: COVIDcast real-time indicator signals across geographies.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: COVIDcast real-time indicator signals across geographies.
   name: Carnegie Mellon University Covidcast API
   slug: carnegie-mellon-university-covidcast-api
-- description: Syndication.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Syndication.
   name: Carnegie Mellon University Feeds API
   slug: carnegie-mellon-university-feeds-api
-- description: US ILINet influenza-like-illness surveillance (CDC FluView).
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: US ILINet influenza-like-illness surveillance (CDC FluView).
   name: Carnegie Mellon University Fluview API
   slug: carnegie-mellon-university-fluview-api
-- description: Delphi's own nowcasts and forecasts.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Delphi's own nowcasts and forecasts.
   name: Carnegie Mellon University Forecasts API
   slug: carnegie-mellon-university-forecasts-api
-- description: Issues within a journal.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Issues within a journal.
   name: Carnegie Mellon University Issues API
   slug: carnegie-mellon-university-issues-api
-- description: The journals CMU Libraries publishes.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: The journals CMU Libraries publishes.
   name: Carnegie Mellon University Journals API
   slug: carnegie-mellon-university-journals-api
-- description: Service metadata and version.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Service metadata and version.
   name: Carnegie Mellon University Meta API
   slug: carnegie-mellon-university-meta-api
-- description: Vulnerability Notes.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Vulnerability Notes.
   name: Carnegie Mellon University Notes API
   slug: carnegie-mellon-university-notes-api
-- description: OAI-PMH 2.0 metadata harvesting provider.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting provider.
   name: Carnegie Mellon University Oai Pmh API
   slug: carnegie-mellon-university-oai-pmh-api
-- description: Preprint repository objects.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Preprint repository objects.
   name: Carnegie Mellon University Preprints API
   slug: carnegie-mellon-university-preprints-api
-- description: Per-vendor coordination status.
+- baseURL: https://api.delphi.cmu.edu/epidata
+  baseurl_source: declared
+  description: Per-vendor coordination status.
   name: Carnegie Mellon University Vendors API
   slug: carnegie-mellon-university-vendors-api
 artifact_total: 34
@@ -347,23 +371,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.8
+  composite: 42.4
   coverage:
     artifact_dirs: 18
     catalog_gap: 32.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: -0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 17.4
-    contract_quality: 30.2
+    contract_quality: 28.4
     developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 17.4
     operational_transparency: 23.7
-  previous_composite: 42.5
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,7 +403,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:

@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Edge risk assessment
+- baseURL: https://verify-api.arkoselabs.com
+  baseurl_source: declared
+  description: Edge risk assessment
   name: Arkose Labs Edge API
   slug: arkose-labs-edge-api
-- description: Machine-readable request/response schemas
+- baseURL: https://verify-api.arkoselabs.com
+  baseurl_source: declared
+  description: Machine-readable request/response schemas
   name: Arkose Labs Schema API
   slug: arkose-labs-schema-api
-- description: Session verification
+- baseURL: https://verify-api.arkoselabs.com
+  baseurl_source: declared
+  description: Session verification
   name: Arkose Labs Verify API
   slug: arkose-labs-verify-api
 artifact_total: 13
@@ -208,7 +214,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/screenshots/arkose-labs-2026-07-25T201203.png
 security:

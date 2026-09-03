@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -57,7 +57,9 @@ apis:
 - description: Retrieves stored transaction details, scanned documents, similarity scores, and decision audit history for an existing transaction. Used by compliance teams for regulatory recordkeeping and dispute re
   name: Jumio Retrieval API
   slug: retrieval
-- description: Server-to-server callback delivering verification results. Jumio POSTs the final decision and metadata to a customer-configured URL once a transaction reaches a terminal state. Customers verify the so
+- baseURL: customer-configured
+  baseurl_source: declared
+  description: Server-to-server callback delivering verification results. Jumio POSTs the final decision and metadata to a customer-configured URL once a transaction reaches a terminal state. Customers verify the so
   name: Jumio Callback / Webhook
   slug: callback
 - description: Browser-based client SDK that hosts the verification UI, captures documents and selfies, and streams them to Jumio. Initialised with a token from the ID Verification API and configured per-customer fo
@@ -176,7 +178,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -186,9 +188,9 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 28.3
+  previous_composite: 28.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/screenshots/jumio-2026-06-20T183827.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Ingredient library entities.
+- baseURL: https://api.apicbase.com/api/v2/products/ingredients
+  baseurl_source: declared
+  description: Ingredient library entities.
   name: Apicbase Ingredients API
   slug: apicbase-ingredients-api
-- description: Outlets (locations / accounts).
+- baseURL: https://api.apicbase.com/api/v2/products/ingredients
+  baseurl_source: declared
+  description: Outlets (locations / accounts).
   name: Apicbase Outlets API
   slug: apicbase-outlets-api
-- description: Purchase orders.
+- baseURL: https://api.apicbase.com/api/v2/products/ingredients
+  baseurl_source: declared
+  description: Purchase orders.
   name: Apicbase Procurement API
   slug: apicbase-procurement-api
-- description: Recipes and menu engineering entities.
+- baseURL: https://api.apicbase.com/api/v2/products/ingredients
+  baseurl_source: declared
+  description: Recipes and menu engineering entities.
   name: Apicbase Recipes API
   slug: apicbase-recipes-api
-- description: Stock items and inventory.
+- baseURL: https://api.apicbase.com/api/v2/products/ingredients
+  baseurl_source: declared
+  description: Stock items and inventory.
   name: Apicbase Stock API
   slug: apicbase-stock-api
-- description: Suppliers and their packages.
+- baseURL: https://api.apicbase.com/api/v2/products/ingredients
+  baseurl_source: declared
+  description: Suppliers and their packages.
   name: Apicbase Suppliers API
   slug: apicbase-suppliers-api
 artifact_total: 21
@@ -194,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/screenshots/apicbase-2026-07-25T200623.png
 security:

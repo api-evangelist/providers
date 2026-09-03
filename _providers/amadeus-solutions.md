@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,10 +42,14 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 4
 apis:
-- description: The Display SeatMaps API from Amadeus Solutions — 1 operation(s) for display seatmaps.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Display SeatMaps API from Amadeus Solutions — 1 operation(s) for display seatmaps.
   name: Amadeus Solutions Display SeatMaps API
   slug: amadeus-solutions-display-seatmaps-api
-- description: The Shopping API from Amadeus Solutions — 3 operation(s) for shopping.
+- baseURL: https://test.api.amadeus.com/v2
+  baseurl_source: declared
+  description: The Shopping API from Amadeus Solutions — 3 operation(s) for shopping.
   name: Amadeus Solutions Shopping API
   slug: amadeus-solutions-shopping-api
 artifact_total: 728
@@ -2364,7 +2368,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:

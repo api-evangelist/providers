@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 16 operations · 15 acting
 api_count: 1
 apis:
-- description: The Cluster API from Zeebe — 1 operation(s) for cluster.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Cluster API from Zeebe — 1 operation(s) for cluster.
   name: Zeebe Cluster API
   slug: zeebe-cluster-api
-- description: The Deployments API from Zeebe — 1 operation(s) for deployments.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Deployments API from Zeebe — 1 operation(s) for deployments.
   name: Zeebe Deployments API
   slug: zeebe-deployments-api
-- description: The Incidents API from Zeebe — 1 operation(s) for incidents.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Incidents API from Zeebe — 1 operation(s) for incidents.
   name: Zeebe Incidents API
   slug: zeebe-incidents-api
-- description: The Jobs API from Zeebe — 5 operation(s) for jobs.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Jobs API from Zeebe — 5 operation(s) for jobs.
   name: Zeebe Jobs API
   slug: zeebe-jobs-api
-- description: The Messages API from Zeebe — 1 operation(s) for messages.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Messages API from Zeebe — 1 operation(s) for messages.
   name: Zeebe Messages API
   slug: zeebe-messages-api
-- description: The Process Instances API from Zeebe — 3 operation(s) for process instances.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Process Instances API from Zeebe — 3 operation(s) for process instances.
   name: Zeebe Process Instances API
   slug: zeebe-process-instances-api
-- description: The Resources API from Zeebe — 1 operation(s) for resources.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Resources API from Zeebe — 1 operation(s) for resources.
   name: Zeebe Resources API
   slug: zeebe-resources-api
-- description: The Signals API from Zeebe — 1 operation(s) for signals.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The Signals API from Zeebe — 1 operation(s) for signals.
   name: Zeebe Signals API
   slug: zeebe-signals-api
-- description: The User Tasks API from Zeebe — 2 operation(s) for user tasks.
+- baseURL: https://{region}.zeebe.camunda.io:443/{clusterId}/v2
+  baseurl_source: declared
+  description: The User Tasks API from Zeebe — 2 operation(s) for user tasks.
   name: Zeebe User Tasks API
   slug: zeebe-user-tasks-api
 artifact_total: 66
@@ -380,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeebe/refs/heads/main/screenshots/zeebe-2026-06-20T201806.png
 security:

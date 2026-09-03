@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -49,64 +49,104 @@ apis:
 - description: Customer portal endpoints for order tracking, status monitoring and customer-facing operations.
   name: Qargo Customer API
   slug: qargo-customer-api
-- description: The API / Accounting API from Qargo — 33 operation(s) for api / accounting.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Accounting API from Qargo — 33 operation(s) for api / accounting.
   name: Qargo API / Accounting API
   slug: qargo-api-accounting-api
-- description: The API / Authentication API from Qargo — 1 operation(s) for api / authentication.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Authentication API from Qargo — 1 operation(s) for api / authentication.
   name: Qargo API / Authentication API
   slug: qargo-api-authentication-api
-- description: The API / Company API from Qargo — 6 operation(s) for api / company.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Company API from Qargo — 6 operation(s) for api / company.
   name: Qargo API / Company API
   slug: qargo-api-company-api
-- description: The API / Document API from Qargo — 2 operation(s) for api / document.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Document API from Qargo — 2 operation(s) for api / document.
   name: Qargo API / Document API
   slug: qargo-api-document-api
-- description: The API / Order API from Qargo — 8 operation(s) for api / order.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Order API from Qargo — 8 operation(s) for api / order.
   name: Qargo API / Order API
   slug: qargo-api-order-api
-- description: The API / Resource API from Qargo — 8 operation(s) for api / resource.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Resource API from Qargo — 8 operation(s) for api / resource.
   name: Qargo API / Resource API
   slug: qargo-api-resource-api
-- description: The API / Task API from Qargo — 3 operation(s) for api / task.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Task API from Qargo — 3 operation(s) for api / task.
   name: Qargo API / Task API
   slug: qargo-api-task-api
-- description: The API / Trip API from Qargo — 3 operation(s) for api / trip.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The API / Trip API from Qargo — 3 operation(s) for api / trip.
   name: Qargo API / Trip API
   slug: qargo-api-trip-api
-- description: The System API from Qargo — 1 operation(s) for system.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The System API from Qargo — 1 operation(s) for system.
   name: Qargo System API
   slug: qargo-system-api
-- description: 'Required role: `API_ACCOUNTING`. See [Accounting](/docs/section/accounting) for more information.'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required role: `API_ACCOUNTING`. See [Accounting](/docs/section/accounting) for more information.'
   name: Qargo Use case / Accounting API
   slug: qargo-use-case-accounting-api
-- description: 'This section provides an overview of all available methods to import documents into Qargo. ![Document import paths overview](/docs/static/document_import_overview.svg) ### Document import methods Ther'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'This section provides an overview of all available methods to import documents into Qargo. ![Document import paths overview](/docs/static/document_import_overview.svg) ### Document import methods Ther'
   name: Qargo Use case / Document import API
   slug: qargo-use-case-document-import-api
-- description: 'Required api role: not applicable Purpose: This interface allows an external party to send e-invoices in a structured format. A [webhook](/docs/use-case-e-invoicing/e-invoicing-webhook) can be used to'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required api role: not applicable Purpose: This interface allows an external party to send e-invoices in a structured format. A [webhook](/docs/use-case-e-invoicing/e-invoicing-webhook) can be used to'
   name: Qargo Use case / E-invoicing API
   slug: qargo-use-case-e-invoicing-api
-- description: 'Required api role: not applicable (push/push) Purpose: This interface allows an external party to integrate with driver apps and on board computer systems. The fleet dispatch uses a push/push model: Q'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required api role: not applicable (push/push) Purpose: This interface allows an external party to integrate with driver apps and on board computer systems. The fleet dispatch uses a push/push model: Q'
   name: Qargo Use case / Fleet dispatch API
   slug: qargo-use-case-fleet-dispatch-api
-- description: 'Note: this is currently only a specification meant as a preview. Implementation is still pending.'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Note: this is currently only a specification meant as a preview. Implementation is still pending.'
   name: Qargo Use case / Intermodal [partner] API
   slug: qargo-use-case-intermodal-partner-api
-- description: 'Required api role: not applicable (push/push) Purpose: This interface allows an external party to integrate with warehouse management systems and location booking platforms. The location booking uses '
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required api role: not applicable (push/push) Purpose: This interface allows an external party to integrate with warehouse management systems and location booking platforms. The location booking uses '
   name: Qargo Use case / Location booking API
   slug: qargo-use-case-location-booking-api
-- description: 'Required api role: `API_ORDER` All endpoints related to order creation and status retrieval/subscription. ### Getting started See [this section](/docs/section/transport-order-creation-and-status) to g'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required api role: `API_ORDER` All endpoints related to order creation and status retrieval/subscription. ### Getting started See [this section](/docs/section/transport-order-creation-and-status) to g'
   name: Qargo Use case / Order API
   slug: qargo-use-case-order-api
-- description: 'Required api role: not applicable (push/push) Purpose: This interface allows an external party to integrate with 3rd party transport management systems for subcontracting. The subcontractor dispatch u'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required api role: not applicable (push/push) Purpose: This interface allows an external party to integrate with 3rd party transport management systems for subcontracting. The subcontractor dispatch u'
   name: Qargo Use case / Subcontractor dispatch API
   slug: qargo-use-case-subcontractor-dispatch-api
-- description: The Use case / Tracking API from Qargo — 1 operation(s) for use case / tracking.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The Use case / Tracking API from Qargo — 1 operation(s) for use case / tracking.
   name: Qargo Use case / Tracking API
   slug: qargo-use-case-tracking-api
-- description: 'Required api role: `API_TRIP` Purpose: This interface allows an external system (e.g. a route optimisation tool) to send fully planned trips into Qargo. When a trip payload arrives, Qargo creates or u'
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: 'Required api role: `API_TRIP` Purpose: This interface allows an external system (e.g. a route optimisation tool) to send fully planned trips into Qargo. When a trip payload arrives, Qargo creates or u'
   name: Qargo Use case / Trip import API
   slug: qargo-use-case-trip-import-api
-- description: The Use case / Visibility API from Qargo — 2 operation(s) for use case / visibility.
+- baseURL: https://api.qargo.com
+  baseurl_source: declared
+  description: The Use case / Visibility API from Qargo — 2 operation(s) for use case / visibility.
   name: Qargo Use case / Visibility API
   slug: qargo-use-case-visibility-api
 artifact_total: 52
@@ -339,7 +379,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -349,7 +389,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,7 +401,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/screenshots/qargo-2026-08-17T081412.png
 security:

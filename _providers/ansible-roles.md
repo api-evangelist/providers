@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: The Red Hat Ansible Automation Hub provides certified and partner-validated Ansible collections and roles for enterprise use. The API enables access to Red Hat-certified content with SLA-backed qualit
   name: Ansible Automation Hub Roles API
   slug: ansible-automation-hub-roles-api
-- description: The Ansible Galaxy Roles & Collections API API from Ansible Roles — 2 operation(s) for ansible galaxy roles & collections api.
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: The Ansible Galaxy Roles & Collections API API from Ansible Roles — 2 operation(s) for ansible galaxy roles & collections api.
   name: Ansible Roles Ansible Galaxy Roles & Collections API API
   slug: ansible-roles-ansible-galaxy-roles-collections-api-api
-- description: Modern v3 collections (Galaxy NG / Pulp).
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: Modern v3 collections (Galaxy NG / Pulp).
   name: Ansible Roles Collections API
   slug: ansible-roles-collections-api
-- description: Track role import job status.
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: Track role import job status.
   name: Ansible Roles Imports API
   slug: ansible-roles-imports-api
-- description: Legacy v1 namespaces (mapped from GitHub orgs/users).
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: Legacy v1 namespaces (mapped from GitHub orgs/users).
   name: Ansible Roles Namespaces API
   slug: ansible-roles-namespaces-api
-- description: Legacy v1 community roles API.
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: Legacy v1 community roles API.
   name: Ansible Roles Roles API
   slug: ansible-roles-roles-api
-- description: Trigger legacy content sync.
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: Trigger legacy content sync.
   name: Ansible Roles Sync API
   slug: ansible-roles-sync-api
-- description: Legacy v1 users API.
+- baseURL: https://galaxy.ansible.com/api/v1/
+  baseurl_source: declared
+  description: Legacy v1 users API.
   name: Ansible Roles Users API
   slug: ansible-roles-users-api
 artifact_total: 45
@@ -281,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/screenshots/ansible-roles-2026-06-20T172023.png
 security:

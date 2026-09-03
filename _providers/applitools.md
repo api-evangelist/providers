@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: Cross-browser and device visual rendering grid. Renders DOM snapshots captured by Eyes SDKs across many browser/viewport combinations in parallel and applies Visual AI comparison.
   name: Applitools Ultrafast Grid
   slug: ultrafast-grid
-- description: Batch management endpoints
+- baseURL: https://eyesapi.applitools.com
+  baseurl_source: declared
+  description: Batch management endpoints
   name: Applitools Batches API
   slug: applitools-batches-api
-- description: Discussion and comment endpoints
+- baseURL: https://eyesapi.applitools.com
+  baseurl_source: declared
+  description: Discussion and comment endpoints
   name: Applitools Discussions API
   slug: applitools-discussions-api
-- description: Source-control management integrations
+- baseURL: https://eyesapi.applitools.com
+  baseurl_source: declared
+  description: Source-control management integrations
   name: Applitools SCM API
   slug: applitools-scm-api
 artifact_total: 20
@@ -186,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/screenshots/applitools-2026-06-20T172326.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: Event-driven notifications for Anvil workflow events. Receive HTTP POST callbacks when e-sign packets are completed, web forms are submitted, workflow steps are finished, and more. Configurable per or
   name: Anvil Webhooks
   slug: webhooks
-- description: The Fill API from Anvil — 1 operation(s) for fill.
+- baseURL: https://app.useanvil.com
+  baseurl_source: declared
+  description: The Fill API from Anvil — 1 operation(s) for fill.
   name: Anvil Fill API
   slug: anvil-fill-api
-- description: The Generate Pdf API from Anvil — 1 operation(s) for generate pdf.
+- baseURL: https://app.useanvil.com
+  baseurl_source: declared
+  description: The Generate Pdf API from Anvil — 1 operation(s) for generate pdf.
   name: Anvil Generate Pdf API
   slug: anvil-generate-pdf-api
 artifact_total: 22
@@ -255,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/screenshots/anvil-2026-06-20T172029.png
 security:

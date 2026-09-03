@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 37 operations · 11 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Auditors API from Vanta — 1 operation(s) for auditors.
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: The Auditors API from Vanta — 1 operation(s) for auditors.
   name: Vanta Auditors API
   slug: vanta-auditors-api
-- description: The Audits API from Vanta — 15 operation(s) for audits.
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: The Audits API from Vanta — 15 operation(s) for audits.
   name: Vanta Audits API
   slug: vanta-audits-api
-- description: OAuth 2.0 token management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: Vanta Authentication API
   slug: vanta-authentication-api
-- description: Compliance controls and framework management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Compliance controls and framework management
   name: Vanta Controls API
   slug: vanta-controls-api
-- description: Compliance evidence document management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Compliance evidence document management
   name: Vanta Documents API
   slug: vanta-documents-api
-- description: Integration configuration and status management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Integration configuration and status management
   name: Vanta Integrations API
   slug: vanta-integrations-api
-- description: Monitored resource management and scoping
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Monitored resource management and scoping
   name: Vanta Resources API
   slug: vanta-resources-api
-- description: Automated test results and evidence
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Automated test results and evidence
   name: Vanta Tests API
   slug: vanta-tests-api
-- description: User and personnel management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: User and personnel management
   name: Vanta Users API
   slug: vanta-users-api
-- description: Third-party vendor security review management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Third-party vendor security review management
   name: Vanta Vendors API
   slug: vanta-vendors-api
-- description: Vulnerability tracking and remediation management
+- baseURL: https://api.vanta.com
+  baseurl_source: declared
+  description: Vulnerability tracking and remediation management
   name: Vanta Vulnerabilities API
   slug: vanta-vulnerabilities-api
 artifact_total: 56
@@ -372,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/screenshots/vanta-2026-06-20T200811.png
 security:

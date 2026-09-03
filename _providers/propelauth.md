@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 54 operations · 36 acting · 3 human-in-the-loop
 api_count: 3
 apis:
-- description: Backend REST API for issuing, validating, listing, updating, and revoking end-user API keys that PropelAuth manages on behalf of your users and tenant organizations. Includes personal and org-scoped k
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Backend REST API for issuing, validating, listing, updating, and revoking end-user API keys that PropelAuth manages on behalf of your users and tenant organizations. Includes personal and org-scoped k
   name: PropelAuth End-User API Keys API
   slug: propelauth-api-keys-api
-- description: OAuth 2.0 / OpenID Connect identity-provider endpoints exposed by your PropelAuth Auth URL. Use PropelAuth as an OIDC provider for first-party and third-party OAuth clients, including no-code / low-co
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: OAuth 2.0 / OpenID Connect identity-provider endpoints exposed by your PropelAuth Auth URL. Use PropelAuth as an OIDC provider for first-party and third-party OAuth clients, including no-code / low-co
   name: PropelAuth OAuth2 API
   slug: propelauth-oauth2-api
-- description: Mint short-lived access tokens for impersonation and testing
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Mint short-lived access tokens for impersonation and testing
   name: PropelAuth Access Tokens API
   slug: propelauth-access-tokens-api
-- description: OpenID Connect discovery
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: OpenID Connect discovery
   name: PropelAuth Discovery API
   slug: propelauth-discovery-api
-- description: RFC 7591 dynamic client registration
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: RFC 7591 dynamic client registration
   name: PropelAuth Dynamic Client Registration API
   slug: propelauth-dynamic-client-registration-api
-- description: Inspect PropelAuth dashboard employees (internal team)
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Inspect PropelAuth dashboard employees (internal team)
   name: PropelAuth Employees API
   slug: propelauth-employees-api
-- description: Inspect and revoke pending organization invites
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Inspect and revoke pending organization invites
   name: PropelAuth Invites API
   slug: propelauth-invites-api
-- description: Issue one-time magic links for login flows
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Issue one-time magic links for login flows
   name: PropelAuth Magic Links API
   slug: propelauth-magic-links-api
-- description: OAuth 2.1 flows for MCP clients
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: OAuth 2.1 flows for MCP clients
   name: PropelAuth MCP OAuth 2.1 API
   slug: propelauth-mcp-oauth-2-1-api
-- description: Add, remove, invite, and change roles for users within an organization
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Add, remove, invite, and change roles for users within an organization
   name: PropelAuth Members API
   slug: propelauth-members-api
-- description: Authorization server metadata discovery
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Authorization server metadata discovery
   name: PropelAuth Metadata API
   slug: propelauth-metadata-api
-- description: Migrate users from external authentication providers
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Migrate users from external authentication providers
   name: PropelAuth Migration API
   slug: propelauth-migration-api
-- description: Create, read, update, and delete tenant organizations
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Create, read, update, and delete tenant organizations
   name: PropelAuth Organizations API
   slug: propelauth-organizations-api
-- description: Manage custom role mappings per organization
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Manage custom role mappings per organization
   name: PropelAuth Role Mappings API
   slug: propelauth-role-mappings-api
-- description: Manage user sessions and forced logout
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Manage user sessions and forced logout
   name: PropelAuth Sessions API
   slug: propelauth-sessions-api
-- description: Inspect API key usage statistics
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Inspect API key usage statistics
   name: PropelAuth Usage API
   slug: propelauth-usage-api
-- description: Create, query, update, disable, delete, and inspect users
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Create, query, update, disable, delete, and inspect users
   name: PropelAuth Users API
   slug: propelauth-users-api
-- description: Validate end-user, personal, organization, and imported API keys
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Validate end-user, personal, organization, and imported API keys
   name: PropelAuth Validation API
   slug: propelauth-validation-api
 arazzos:
@@ -661,7 +697,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/screenshots/propelauth-2026-06-20T192214.png
 security:

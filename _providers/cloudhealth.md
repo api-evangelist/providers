@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Partner-specific REST endpoints for MSPs to provision customers, assign AWS/Azure accounts, manage custom price books, billing rules, and customer statements at scale.
   name: CloudHealth Partner API
   slug: cloudhealth-partner-api
-- description: AWS account configuration management.
+- baseURL: https://chapi.cloudhealthtech.com
+  baseurl_source: spec
+  description: AWS account configuration management.
   name: CloudHealth AWS Accounts API
   slug: cloudhealth-aws-accounts-api
-- description: Perspective (grouping) management.
+- baseURL: https://chapi.cloudhealthtech.com
+  baseurl_source: spec
+  description: Perspective (grouping) management.
   name: CloudHealth Perspectives API
   slug: cloudhealth-perspectives-api
-- description: OLAP cost and usage reports.
+- baseURL: https://chapi.cloudhealthtech.com
+  baseurl_source: spec
+  description: OLAP cost and usage reports.
   name: CloudHealth Reports API
   slug: cloudhealth-reports-api
-- description: Asset search.
+- baseURL: https://chapi.cloudhealthtech.com
+  baseurl_source: spec
+  description: Asset search.
   name: CloudHealth Search API
   slug: cloudhealth-search-api
-- description: Single sign-on configuration.
+- baseURL: https://chapi.cloudhealthtech.com
+  baseurl_source: spec
+  description: Single sign-on configuration.
   name: CloudHealth SSO API
   slug: cloudhealth-sso-api
 - description: The CloudHealth Platform REST API programmatically retrieves and manages data from the CloudHealth Platform — AWS/Azure/GCP accounts, assets, perspectives, billing rules, metrics, OLAP reports, polici
@@ -224,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/screenshots/cloudhealth-2026-06-20T174608.png
 security:

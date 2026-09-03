@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: 'Full-text and source bulk distribution channels: an Amazon S3 Requester-Pays bucket containing every arXiv PDF and source archive, plus a periodically refreshed Kaggle dataset of the complete metadata'
   name: arXiv Bulk Data
   slug: arxiv-bulk-data
-- description: OAI-PMH v2.0 verbs for metadata harvesting.
+- baseURL: https://export.arxiv.org/api/query
+  baseurl_source: declared
+  description: OAI-PMH v2.0 verbs for metadata harvesting.
   name: arXiv OAI-PMH API
   slug: arxiv-oai-pmh-api
-- description: Search and retrieve article metadata from arXiv.
+- baseURL: https://export.arxiv.org/api/query
+  baseurl_source: declared
+  description: Search and retrieve article metadata from arXiv.
   name: arXiv Query API
   slug: arxiv-query-api
 artifact_total: 45
@@ -340,7 +344,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arxiv/refs/heads/main/screenshots/arxiv-2026-06-20T172448.png
 security:

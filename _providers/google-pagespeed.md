@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 2
 apis:
-- description: Page performance analysis
+- baseURL: https://www.googleapis.com/pagespeedonline/v5
+  baseurl_source: declared
+  description: Page performance analysis
   name: Google PageSpeed Analysis API
   slug: google-pagespeed-analysis-api
 artifact_total: 16
@@ -293,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pagespeed/refs/heads/main/screenshots/google-pagespeed-2026-06-20T182219.png
 security:

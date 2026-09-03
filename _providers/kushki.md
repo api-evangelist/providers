@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,40 +44,62 @@ agentic_access:
   summary_line: 28 operations · 20 acting
 api_count: 5
 apis:
-- description: 'Create, update, retrieve, charge, and cancel scheduled card subscriptions and one-click recurring payments. Plans support monthly, weekly, daily, biweekly, quarterly, and yearly periodicity, fixed or '
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: 'Create, update, retrieve, charge, and cancel scheduled card subscriptions and one-click recurring payments. Plans support monthly, weekly, daily, biweekly, quarterly, and yearly periodicity, fixed or '
   name: Kushki Subscriptions API
   slug: kushki-subscriptions-api
-- description: 'Disburse funds to suppliers, partners, payroll, marketplace sellers, and refunds via bank transfer, card push, or cash pickup. Supports same-day and standard rails, batch upload, and country-specific '
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: 'Disburse funds to suppliers, partners, payroll, marketplace sellers, and refunds via bank transfer, card push, or cash pickup. Supports same-day and standard rails, batch upload, and country-specific '
   name: Kushki Payouts API
   slug: kushki-payouts-api
 - description: Real-time event notifications for approved, declined, voided, refunded, and captured transactions across every product (card, transfer, cash, subscription, payout). Webhooks ship a signed JSON payload
   name: Kushki Webhooks
   slug: kushki-webhooks
-- description: Branch / sucursal management
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Branch / sucursal management
   name: Kushki Branches API
   slug: kushki-branches-api
-- description: Sale, void, and settlement for card-present
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Sale, void, and settlement for card-present
   name: Kushki Card Present Charges API
   slug: kushki-card-present-charges-api
-- description: Cash voucher generation and lookup
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Cash voucher generation and lookup
   name: Kushki Cash API
   slug: kushki-cash-api
-- description: Direct charge against a previously created card token
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Direct charge against a previously created card token
   name: Kushki Charges API
   slug: kushki-charges-api
-- description: Two-step authorize + capture flow
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Two-step authorize + capture flow
   name: Kushki Pre-Authorization API
   slug: kushki-pre-authorization-api
-- description: Kushki One terminal management
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Kushki One terminal management
   name: Kushki Terminals API
   slug: kushki-terminals-api
-- description: Card tokenization (client-side via Kushki.js, returns a one-time transactionToken)
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Card tokenization (client-side via Kushki.js, returns a one-time transactionToken)
   name: Kushki Tokens API
   slug: kushki-tokens-api
-- description: Bank-rail transfer charges
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Bank-rail transfer charges
   name: Kushki Transfer API
   slug: kushki-transfer-api
-- description: Void or refund a previously captured charge
+- baseURL: https://api.kushkipagos.com
+  baseurl_source: declared
+  description: Void or refund a previously captured charge
   name: Kushki Voids and Refunds API
   slug: kushki-voids-and-refunds-api
 artifact_total: 97
@@ -435,7 +457,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png
 security:

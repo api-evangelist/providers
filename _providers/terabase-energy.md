@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that lets Claude, ChatGPT and Cursor act on a user's own PlantPredict account — creating and running predictions, importing weather and shade scenes, browsing proj
@@ -33,76 +46,124 @@ apis:
 - description: Terabase Energy's terrain analysis and solar site-planning API, used by the Terrain Pro application for elevation data extraction, layout generation, grading/earthwork solutions, pile binning and reve
   name: Terrain Pro API
   slug: terrain-pro-api
-- description: ASHRAE climate station lookup
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: ASHRAE climate station lookup
   name: Terabase Energy ASHRAE API
   slug: terabase-energy-ashrae-api
-- description: Company settings and user management
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Company settings and user management
   name: Terabase Energy Company API
   slug: terabase-energy-company-api
-- description: Reference country data
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Reference country data
   name: Terabase Energy Country API
   slug: terabase-energy-country-api
-- description: The Definition API from Terabase Energy — 1 operation(s) for definition.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The Definition API from Terabase Energy — 1 operation(s) for definition.
   name: Terabase Energy Definition API
   slug: terabase-energy-definition-api
-- description: Enum and model type definitions
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Enum and model type definitions
   name: Terabase Energy Definitions API
   slug: terabase-energy-definitions-api
-- description: Financial model parameters and cashflow results
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Financial model parameters and cashflow results
   name: Terabase Energy Financial Model API
   slug: terabase-energy-financialmodel-api
-- description: The Home API from Terabase Energy — 1 operation(s) for home.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The Home API from Terabase Energy — 1 operation(s) for home.
   name: Terabase Energy Home API
   slug: terabase-energy-home-api
-- description: The Inverter API from Terabase Energy — 8 operation(s) for inverter.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The Inverter API from Terabase Energy — 8 operation(s) for inverter.
   name: Terabase Energy Inverter API
   slug: terabase-energy-inverter-api
-- description: Inverter library management
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Inverter library management
   name: Terabase Energy Inverters API
   slug: terabase-energy-inverters-api
-- description: The Module API from Terabase Energy — 9 operation(s) for module.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The Module API from Terabase Energy — 9 operation(s) for module.
   name: Terabase Energy Module API
   slug: terabase-energy-module-api
-- description: PV module library and single-diode parameter generation
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: PV module library and single-diode parameter generation
   name: Terabase Energy Modules API
   slug: terabase-energy-modules-api
-- description: Power plant design (blocks, arrays, inverters, transformers)
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Power plant design (blocks, arrays, inverters, transformers)
   name: Terabase Energy Power Plant API
   slug: terabase-energy-powerplant-api
-- description: Energy prediction configuration and execution
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Energy prediction configuration and execution
   name: Terabase Energy Predictions API
   slug: terabase-energy-predictions-api
-- description: The Project API from Terabase Energy — 47 operation(s) for project.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The Project API from Terabase Energy — 47 operation(s) for project.
   name: Terabase Energy Project API
   slug: terabase-energy-project-api
-- description: Solar project management
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Solar project management
   name: Terabase Energy Projects API
   slug: terabase-energy-projects-api
-- description: Report generation and export
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Report generation and export
   name: Terabase Energy Reports API
   slug: terabase-energy-reports-api
-- description: Prediction results — summary, details, nodal, average energy
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Prediction results — summary, details, nodal, average energy
   name: Terabase Energy Results API
   slug: terabase-energy-results-api
-- description: The ShadeEngine API from Terabase Energy — 14 operation(s) for shadeengine.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The ShadeEngine API from Terabase Energy — 14 operation(s) for shadeengine.
   name: Terabase Energy Shade Engine API
   slug: terabase-energy-shadeengine-api
-- description: 3D shade scene management and calculations
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: 3D shade scene management and calculations
   name: Terabase Energy Shade Scene API
   slug: terabase-energy-shadescene-api
-- description: System version and maintenance status
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: System version and maintenance status
   name: Terabase Energy System API
   slug: terabase-energy-system-api
-- description: The TABTEngine API from Terabase Energy — 7 operation(s) for tabtengine.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The TABTEngine API from Terabase Energy — 7 operation(s) for tabtengine.
   name: Terabase Energy TABT Engine API
   slug: terabase-energy-tabtengine-api
-- description: Custom time series data inputs
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Custom time series data inputs
   name: Terabase Energy Time Series API
   slug: terabase-energy-timeseries-api
-- description: The Version API from Terabase Energy — 1 operation(s) for version.
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: The Version API from Terabase Energy — 1 operation(s) for version.
   name: Terabase Energy Version API
   slug: terabase-energy-version-api
-- description: Weather file import, download, and management
+- baseURL: https://api.plantpredict.terabase.energy
+  baseurl_source: declared
+  description: Weather file import, download, and management
   name: Terabase Energy Weather API
   slug: terabase-energy-weather-api
 artifact_total: 58
@@ -390,7 +451,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/screenshots/terabase-energy-2026-08-17T082317.png
 security:

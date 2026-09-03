@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -92,22 +92,34 @@ apis:
 - description: Flutter (Dart) SDK wrapping the iOS and Android native SDKs.
   name: Authsignal Flutter SDK
   slug: sdk-flutter
-- description: The Actions API from Authsignal — 3 operation(s) for actions.
+- baseURL: https://api.authsignal.com
+  baseurl_source: declared
+  description: The Actions API from Authsignal — 3 operation(s) for actions.
   name: Authsignal Actions API
   slug: authsignal-actions-api
-- description: The Authenticators API from Authsignal — 4 operation(s) for authenticators.
+- baseURL: https://api.authsignal.com
+  baseurl_source: declared
+  description: The Authenticators API from Authsignal — 4 operation(s) for authenticators.
   name: Authsignal Authenticators API
   slug: authsignal-authenticators-api
-- description: The Challenges API from Authsignal — 5 operation(s) for challenges.
+- baseURL: https://api.authsignal.com
+  baseurl_source: declared
+  description: The Challenges API from Authsignal — 5 operation(s) for challenges.
   name: Authsignal Challenges API
   slug: authsignal-challenges-api
-- description: The Devices API from Authsignal — 3 operation(s) for devices.
+- baseURL: https://api.authsignal.com
+  baseurl_source: declared
+  description: The Devices API from Authsignal — 3 operation(s) for devices.
   name: Authsignal Devices API
   slug: authsignal-devices-api
-- description: The Sessions API from Authsignal — 5 operation(s) for sessions.
+- baseURL: https://api.authsignal.com
+  baseurl_source: declared
+  description: The Sessions API from Authsignal — 5 operation(s) for sessions.
   name: Authsignal Sessions API
   slug: authsignal-sessions-api
-- description: The Users API from Authsignal — 2 operation(s) for users.
+- baseURL: https://api.authsignal.com
+  baseurl_source: declared
+  description: The Users API from Authsignal — 2 operation(s) for users.
   name: Authsignal Users API
   slug: authsignal-users-api
 artifact_total: 36
@@ -248,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/screenshots/authsignal-2026-06-20T172610.png
 security:

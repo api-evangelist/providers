@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,19 +49,29 @@ apis:
 - description: BPA publishes real-time and historical wind and solar generation data for the Balancing Authority area. Data includes total wind generation, total solar generation, net generation, and load data avail
   name: BPA Wind and Solar Generation Data
   slug: wind-solar-data
-- description: The Customers API from Bonneville Power Administration — 3 operation(s) for customers.
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: spec
+  description: The Customers API from Bonneville Power Administration — 3 operation(s) for customers.
   name: Bonneville Power Administration Customers API
   slug: bonneville-power-administration-customers-api
-- description: The Hydrology API from Bonneville Power Administration — 1 operation(s) for hydrology.
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: spec
+  description: The Hydrology API from Bonneville Power Administration — 1 operation(s) for hydrology.
   name: Bonneville Power Administration Hydrology API
   slug: bonneville-power-administration-hydrology-api
-- description: The Right of Way API from Bonneville Power Administration — 1 operation(s) for right of way.
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: spec
+  description: The Right of Way API from Bonneville Power Administration — 1 operation(s) for right of way.
   name: Bonneville Power Administration Right of Way API
   slug: bonneville-power-administration-right-of-way-api
-- description: The Service Area API from Bonneville Power Administration — 1 operation(s) for service area.
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: spec
+  description: The Service Area API from Bonneville Power Administration — 1 operation(s) for service area.
   name: Bonneville Power Administration Service Area API
   slug: bonneville-power-administration-service-area-api
-- description: The Transmission API from Bonneville Power Administration — 2 operation(s) for transmission.
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: spec
+  description: The Transmission API from Bonneville Power Administration — 2 operation(s) for transmission.
   name: Bonneville Power Administration Transmission API
   slug: bonneville-power-administration-transmission-api
 artifact_total: 24
@@ -205,7 +215,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/screenshots/bonneville-power-administration-2026-06-20T173608.png
 security:

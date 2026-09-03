@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,22 +45,32 @@ agentic_access:
   summary_line: 23 operations · 15 acting
 api_count: 11
 apis:
-- description: Retrieve contextual cohort targeting values for a page URL without processing any user data, for ad-server integration. Returns cohort codes, per-destination activation mappings and content classifica
+- baseURL: https://api.permutive.com/ctx/v1
+  baseurl_source: declared
+  description: Retrieve contextual cohort targeting values for a page URL without processing any user data, for ad-server integration. Returns cohort codes, per-destination activation mappings and content classifica
   name: Permutive Contextual API
   slug: permutive-contextual-api
 - description: Permutive's Model Context Protocol surface. A live, anonymous documentation MCP server at https://docs.permutive.com/mcp (search, virtual-filesystem query, feedback), plus an invitation-only audience-
   name: Permutive MCP Server
   slug: permutive-mcp
-- description: The API version 1 API from Permutive — 2 operation(s) for api version 1.
+- baseURL: https://api.permutive.app/cohorts-api
+  baseurl_source: declared
+  description: The API version 1 API from Permutive — 2 operation(s) for api version 1.
   name: Permutive API version 1 API
   slug: permutive-api-version-1-api
-- description: The v1 API from Permutive — 5 operation(s) for v1.
+- baseURL: https://api.permutive.app/cohorts-api
+  baseurl_source: declared
+  description: The v1 API from Permutive — 5 operation(s) for v1.
   name: Permutive V1 API
   slug: permutive-v1-api
-- description: The v2.0 API from Permutive — 4 operation(s) for v2.0.
+- baseURL: https://api.permutive.app/cohorts-api
+  baseurl_source: declared
+  description: The v2.0 API from Permutive — 4 operation(s) for v2.0.
   name: Permutive V2.0 API
   slug: permutive-v2-0-api
-- description: The v2 API from Permutive — 2 operation(s) for v2.
+- baseURL: https://api.permutive.app/cohorts-api
+  baseurl_source: declared
+  description: The v2 API from Permutive — 2 operation(s) for v2.
   name: Permutive V2 API
   slug: permutive-v2-api
 artifact_total: 22
@@ -311,7 +321,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -321,7 +331,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 54.2
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,7 +343,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png
 security:

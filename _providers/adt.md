@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 18 operations · 5 acting · 1 human-in-the-loop
 api_count: 10
 apis:
-- description: Manage access codes and user permissions
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage access codes and user permissions
   name: ADT Access Codes API
   slug: adt-access-codes-api
-- description: Manage access control panels, credentials, and schedules
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage access control panels, credentials, and schedules
   name: ADT Access Control API
   slug: adt-access-control-api
-- description: Manage automation rules and smart home scenes
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage automation rules and smart home scenes
   name: ADT Automation API
   slug: adt-automation-api
-- description: Manage sensors, cameras, and smart home devices
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage sensors, cameras, and smart home devices
   name: ADT Devices API
   slug: adt-devices-api
-- description: Retrieve security events and alarm history
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Retrieve security events and alarm history
   name: ADT Events API
   slug: adt-events-api
-- description: Generate security and compliance reports
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Generate security and compliance reports
   name: ADT Reports API
   slug: adt-reports-api
-- description: Manage security systems and arming states
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage security systems and arming states
   name: ADT Security Systems API
   slug: adt-security-systems-api
-- description: Manage business site security systems
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage business site security systems
   name: ADT Sites API
   slug: adt-sites-api
-- description: Manage security system users and permissions
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage security system users and permissions
   name: ADT Users API
   slug: adt-users-api
-- description: Manage camera recordings and live video
+- baseURL: https://api.adt.com/v1
+  baseurl_source: declared
+  description: Manage camera recordings and live video
   name: ADT Video API
   slug: adt-video-api
 artifact_total: 120
@@ -551,7 +571,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png
 security:

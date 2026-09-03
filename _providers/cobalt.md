@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 31 operations · 17 acting
 api_count: 1
 apis:
-- description: Retrieve details about enabled applications.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Retrieve details about enabled applications.
   name: Cobalt Applications API
   slug: cobalt-applications-api
-- description: Generate hosted portal URLs for linked accounts.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Generate hosted portal URLs for linked accounts.
   name: Cobalt Cobalt Hosted API
   slug: cobalt-cobalt-hosted-api
-- description: Manage integration configurations for linked accounts.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Manage integration configurations for linked accounts.
   name: Cobalt Config API
   slug: cobalt-config-api
-- description: Manage datastores and their records.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Manage datastores and their records.
   name: Cobalt Datastores API
   slug: cobalt-datastores-api
-- description: Trigger events to initiate workflows.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Trigger events to initiate workflows.
   name: Cobalt Events API
   slug: cobalt-events-api
-- description: Retrieve details about workflow executions.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Retrieve details about workflow executions.
   name: Cobalt Executions API
   slug: cobalt-executions-api
-- description: Manage linked accounts representing your end-customers.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Manage linked accounts representing your end-customers.
   name: Cobalt Linked Accounts API
   slug: cobalt-linked-accounts-api
-- description: Create and manage public workflows.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Create and manage public workflows.
   name: Cobalt Public Workflows API
   slug: cobalt-public-workflows-api
-- description: Generate session tokens for linked account authentication.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Generate session tokens for linked account authentication.
   name: Cobalt Session Token API
   slug: cobalt-session-token-api
-- description: Subscribe to real-time notifications when events occur in Cobalt.
+- baseURL: https://api.gocobalt.io/api/v2
+  baseurl_source: declared
+  description: Subscribe to real-time notifications when events occur in Cobalt.
   name: Cobalt Webhooks API
   slug: cobalt-webhooks-api
 artifact_total: 1125
@@ -1419,7 +1439,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 36 operations · 12 acting
 api_count: 2
 apis:
-- description: The absences API from Leapsome — 1 operation(s) for absences.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The absences API from Leapsome — 1 operation(s) for absences.
   name: Leapsome absences API
   slug: leapsome-absences-api
-- description: The accessRoles API from Leapsome — 1 operation(s) for accessroles.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The accessRoles API from Leapsome — 1 operation(s) for accessroles.
   name: Leapsome accessRoles API
   slug: leapsome-accessroles-api
-- description: The auth API from Leapsome — 1 operation(s) for auth.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The auth API from Leapsome — 1 operation(s) for auth.
   name: Leapsome auth API
   slug: leapsome-auth-api
-- description: The documents API from Leapsome — 2 operation(s) for documents.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The documents API from Leapsome — 2 operation(s) for documents.
   name: Leapsome documents API
   slug: leapsome-documents-api
-- description: The feedback API from Leapsome — 4 operation(s) for feedback.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The feedback API from Leapsome — 4 operation(s) for feedback.
   name: Leapsome feedback API
   slug: leapsome-feedback-api
-- description: The goals API from Leapsome — 6 operation(s) for goals.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The goals API from Leapsome — 6 operation(s) for goals.
   name: Leapsome goals API
   slug: leapsome-goals-api
-- description: Operations on groups belonging to an organization
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: Operations on groups belonging to an organization
   name: Leapsome Groups API
   slug: leapsome-groups-api
-- description: The Leapsome API API from Leapsome — 1 operation(s) for leapsome api.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The Leapsome API API from Leapsome — 1 operation(s) for leapsome api.
   name: Leapsome Leapsome API API
   slug: leapsome-leapsome-api-api
-- description: The payroll API from Leapsome — 2 operation(s) for payroll.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The payroll API from Leapsome — 2 operation(s) for payroll.
   name: Leapsome payroll API
   slug: leapsome-payroll-api
-- description: The reviews API from Leapsome — 4 operation(s) for reviews.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The reviews API from Leapsome — 4 operation(s) for reviews.
   name: Leapsome reviews API
   slug: leapsome-reviews-api
-- description: Operations on schemas
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: Operations on schemas
   name: Leapsome Schemas API
   slug: leapsome-schemas-api
-- description: The timeTracking API from Leapsome — 1 operation(s) for timetracking.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The timeTracking API from Leapsome — 1 operation(s) for timetracking.
   name: Leapsome timeTracking API
   slug: leapsome-timetracking-api
-- description: The users API from Leapsome — 4 operation(s) for users.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The users API from Leapsome — 4 operation(s) for users.
   name: Leapsome users API
   slug: leapsome-users-api
-- description: The workLocations API from Leapsome — 1 operation(s) for worklocations.
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The workLocations API from Leapsome — 1 operation(s) for worklocations.
   name: Leapsome workLocations API
   slug: leapsome-worklocations-api
 artifact_total: 50
@@ -324,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapsome/refs/heads/main/screenshots/leapsome-2026-06-20T184400.png
 security:

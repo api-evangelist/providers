@@ -33,88 +33,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Attachments API from COR — 1 operation(s) for attachments.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Attachments API from COR — 1 operation(s) for attachments.
   name: COR Attachments API
   slug: cor-attachments-api
-- description: The Auth API from COR — 5 operation(s) for auth.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Auth API from COR — 5 operation(s) for auth.
   name: COR Auth API
   slug: cor-auth-api
-- description: The Brands API from COR — 2 operation(s) for brands.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Brands API from COR — 2 operation(s) for brands.
   name: COR Brands API
   slug: cor-brands-api
-- description: The Clients API from COR — 4 operation(s) for clients.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Clients API from COR — 4 operation(s) for clients.
   name: COR Clients API
   slug: cor-clients-api
-- description: The Collaborators API from COR — 2 operation(s) for collaborators.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Collaborators API from COR — 2 operation(s) for collaborators.
   name: COR Collaborators API
   slug: cor-collaborators-api
-- description: The Contacts API from COR — 3 operation(s) for contacts.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Contacts API from COR — 3 operation(s) for contacts.
   name: COR Contacts API
   slug: cor-contacts-api
-- description: The Contract Positions API from COR — 2 operation(s) for contract positions.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Contract Positions API from COR — 2 operation(s) for contract positions.
   name: COR Contract Positions API
   slug: cor-contract-positions-api
-- description: The Contracts API from COR — 2 operation(s) for contracts.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Contracts API from COR — 2 operation(s) for contracts.
   name: COR Contracts API
   slug: cor-contracts-api
-- description: The Contracts Users API from COR — 1 operation(s) for contracts users.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Contracts Users API from COR — 1 operation(s) for contracts users.
   name: COR Contracts Users API
   slug: cor-contracts-users-api
-- description: The Costs API from COR — 2 operation(s) for costs.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Costs API from COR — 2 operation(s) for costs.
   name: COR Costs API
   slug: cor-costs-api
-- description: The Estimates API from COR — 2 operation(s) for estimates.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Estimates API from COR — 2 operation(s) for estimates.
   name: COR Estimates API
   slug: cor-estimates-api
-- description: The Fees API from COR — 4 operation(s) for fees.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Fees API from COR — 4 operation(s) for fees.
   name: COR Fees API
   slug: cor-fees-api
-- description: The Hours API from COR — 6 operation(s) for hours.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Hours API from COR — 6 operation(s) for hours.
   name: COR Hours API
   slug: cor-hours-api
-- description: The Labels API from COR — 2 operation(s) for labels.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Labels API from COR — 2 operation(s) for labels.
   name: COR Labels API
   slug: cor-labels-api
-- description: The Messages API from COR — 2 operation(s) for messages.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Messages API from COR — 2 operation(s) for messages.
   name: COR Messages API
   slug: cor-messages-api
-- description: The Products API from COR — 2 operation(s) for products.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Products API from COR — 2 operation(s) for products.
   name: COR Products API
   slug: cor-products-api
-- description: The Project Templates API from COR — 1 operation(s) for project templates.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Project Templates API from COR — 1 operation(s) for project templates.
   name: COR Project Templates API
   slug: cor-project-templates-api
-- description: The Projects API from COR — 14 operation(s) for projects.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Projects API from COR — 14 operation(s) for projects.
   name: COR Projects API
   slug: cor-projects-api
-- description: The Ratecards API from COR — 3 operation(s) for ratecards.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Ratecards API from COR — 3 operation(s) for ratecards.
   name: COR Ratecards API
   slug: cor-ratecards-api
-- description: The Resource Allocation API from COR — 4 operation(s) for resource allocation.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Resource Allocation API from COR — 4 operation(s) for resource allocation.
   name: COR Resource Allocation API
   slug: cor-resource-allocation-api
-- description: The Tasks API from COR — 8 operation(s) for tasks.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Tasks API from COR — 8 operation(s) for tasks.
   name: COR Tasks API
   slug: cor-tasks-api
-- description: The Teams API from COR — 3 operation(s) for teams.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Teams API from COR — 3 operation(s) for teams.
   name: COR Teams API
   slug: cor-teams-api
-- description: The Transactions API from COR — 6 operation(s) for transactions.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Transactions API from COR — 6 operation(s) for transactions.
   name: COR Transactions API
   slug: cor-transactions-api
-- description: The User Leaves API from COR — 4 operation(s) for user leaves.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The User Leaves API from COR — 4 operation(s) for user leaves.
   name: COR User Leaves API
   slug: cor-user-leaves-api
-- description: The User Positions API from COR — 4 operation(s) for user positions.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The User Positions API from COR — 4 operation(s) for user positions.
   name: COR User Positions API
   slug: cor-user-positions-api
-- description: The Users API from COR — 4 operation(s) for users.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Users API from COR — 4 operation(s) for users.
   name: COR Users API
   slug: cor-users-api
-- description: The Working Time API from COR — 2 operation(s) for working time.
+- baseURL: https://api.projectcor.com/v1
+  baseurl_source: declared
+  description: The Working Time API from COR — 2 operation(s) for working time.
   name: COR Working Time API
   slug: cor-working-time-api
 artifact_total: 58
@@ -346,7 +400,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png
 security:

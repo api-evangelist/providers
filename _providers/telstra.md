@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 2
 apis:
-- description: OAuth 2.0 client credentials token issuance.
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: OAuth 2.0 client credentials token issuance.
   name: Telstra Authentication API
   slug: telstra-authentication-api
-- description: Service health checks for SMS and MMS messaging surfaces.
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: Service health checks for SMS and MMS messaging surfaces.
   name: Telstra HealthCheck API
   slug: telstra-healthcheck-api
-- description: Send, retrieve, and check status of MMS messages.
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: Send, retrieve, and check status of MMS messages.
   name: Telstra MMS API
   slug: telstra-mms-api
-- description: Create, retrieve, and delete dedicated number subscriptions.
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: Create, retrieve, and delete dedicated number subscriptions.
   name: Telstra Provisioning API
   slug: telstra-provisioning-api
-- description: Send, retrieve, and check status of SMS messages.
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: Send, retrieve, and check status of SMS messages.
   name: Telstra SMS API
   slug: telstra-sms-api
-- description: Mobile number verification operations.
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: Mobile number verification operations.
   name: Telstra Verification API
   slug: telstra-verification-api
 artifact_total: 51
@@ -363,7 +375,7 @@ score:
     regime_id: telecommunications
     score: 52.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png
 security:

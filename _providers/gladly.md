@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -65,67 +65,109 @@ apis:
 - description: Event-driven push channel that delivers Gladly platform events (conversation created/updated/closed, message created, task created/updated/closed, customer created/updated, agent state changes) to a b
   name: Gladly Webhooks
   slug: gladly-webhooks
-- description: An **Agent** represents the user profile of a person who helps customers in Gladly. The API allows you to lookup Agents who participated in conversations with customers.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: An **Agent** represents the user profile of a person who helps customers in Gladly. The API allows you to lookup Agents who participated in conversations with customers.
   name: Gladly Agents API
   slug: gladly-agents-api
-- description: The **Answer Management API** allows you to create, update, and delete Answers in Gladly. To create an Answer with content, two calls would be needed. One call to create an Answer and subsequent call(
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: The **Answer Management API** allows you to create, update, and delete Answers in Gladly. To create an Answer with content, two calls would be needed. One call to create an Answer and subsequent call(
   name: Gladly Answer Management API
   slug: gladly-answer-management-api
-- description: An **Audience** represents a brand (or segment) specially for a multi-brand company. They are used to categorize Answers, Help Centers and Chats for the specific brands. The API allows you to lookup t
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: An **Audience** represents a brand (or segment) specially for a multi-brand company. They are used to categorize Answers, Help Centers and Chats for the specific brands. The API allows you to lookup t
   name: Gladly Audiences API
   slug: gladly-audiences-api
-- description: '**Business Hours** define the operating schedule for your organization. They determine when your organization is available to handle customer communications and can be used to control routing, auto-re'
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: '**Business Hours** define the operating schedule for your organization. They determine when your organization is available to handle customer communications and can be used to control routing, auto-re'
   name: Gladly Business Hours API
   slug: gladly-business-hours-api
-- description: 'Communications API enables you to programmatically send messages to your customers. These messages are non-routable and non-searchable. ### Agent View ![Agent View](assets/agent-sms.png) ### Consumer '
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: 'Communications API enables you to programmatically send messages to your customers. These messages are non-routable and non-searchable. ### Agent View ![Agent View](assets/agent-sms.png) ### Consumer '
   name: Gladly Communications API
   slug: gladly-communications-api
-- description: '## Conversation A **Conversation** in Gladly contains the timeline of activity for a customer including communications to and from your organization along with other internal and external activity. Co'
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: '## Conversation A **Conversation** in Gladly contains the timeline of activity for a customer including communications to and from your organization along with other internal and external activity. Co'
   name: Gladly Conversations API
   slug: gladly-conversations-api
-- description: A **Customer** in Gladly represents information about a customer of your organization including their profile, contact information, notes, and transactions. Customers API allows you to add, update, an
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A **Customer** in Gladly represents information about a customer of your organization including their profile, contact information, notes, and transactions. Customers API allows you to add, update, an
   name: Gladly Customers API
   slug: gladly-customers-api
-- description: An **Event** is something that has happened in Gladly. The Events API allows you to extract event details from the past 24 hours.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: An **Event** is something that has happened in Gladly. The Events API allows you to extract event details from the past 24 hours.
   name: Gladly Events API
   slug: gladly-events-api
-- description: Export API is a simple, comprehensive, file-based data export. You can export the lifetime of your customers' conversations in Gladly to a central data repository such as your data warehouse or data l
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: Export API is a simple, comprehensive, file-based data export. You can export the lifetime of your customers' conversations in Gladly to a central data repository such as your data warehouse or data l
   name: Gladly Export API
   slug: gladly-export-api
-- description: Freeform Topics allow you to associate granular data like Order Number to a Conversation. This data can be accessed for analysis via APIs, Webhooks, and AWS EventBridge. They are powered by custom att
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: Freeform Topics allow you to associate granular data like Order Number to a Conversation. This data can be accessed for analysis via APIs, Webhooks, and AWS EventBridge. They are powered by custom att
   name: Gladly Freeform Topics API
   slug: gladly-freeform-topics-api
-- description: An **Inbox** receives customer communications in Gladly. The communications route to the inbox according to channel and destination endpoint configuration. For example, all calls to a specific phone n
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: An **Inbox** receives customer communications in Gladly. The communications route to the inbox according to channel and destination endpoint configuration. For example, all calls to a specific phone n
   name: Gladly Inboxes API
   slug: gladly-inboxes-api
-- description: An **Organization** contains metadata about your company that Gladly is configured with.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: An **Organization** contains metadata about your company that Gladly is configured with.
   name: Gladly Organization API
   slug: gladly-organization-api
-- description: The Payloads API from Gladly — 1 operation(s) for payloads.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: The Payloads API from Gladly — 1 operation(s) for payloads.
   name: Gladly Payloads API
   slug: gladly-payloads-api
-- description: A proactive conversation consists of a **campaign** and **recipients**. This APIs intended use-case would be to provide status updates to a customer and not for marketing purposes.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A proactive conversation consists of a **campaign** and **recipients**. This APIs intended use-case would be to provide status updates to a customer and not for marketing purposes.
   name: Gladly Proactive Conversations API
   slug: gladly-proactive-conversations-api
-- description: A **Public Answer** in Gladly represents a consumer-facing Answer. The Public Answers API allows you to search and retrieve Public Answers (created directly in the Gladly UI), which you can display in
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A **Public Answer** in Gladly represents a consumer-facing Answer. The Public Answers API allows you to search and retrieve Public Answers (created directly in the Gladly UI), which you can display in
   name: Gladly Public Answer API
   slug: gladly-public-answer-api
-- description: A **Report** in Gladly contains metrics that you need to run the contact center. Reports API allows you to access Gladly's reports programatically.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A **Report** in Gladly contains metrics that you need to run the contact center. Reports API allows you to access Gladly's reports programatically.
   name: Gladly Reports API
   slug: gladly-reports-api
-- description: A task is a way to create and do internal follow-up work for a customer within Gladly. Tasks have a due date, an assignee, a description of what is needed for a customer, and can be commented on. Thes
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A task is a way to create and do internal follow-up work for a customer within Gladly. Tasks have a due date, an assignee, a description of what is needed for a customer, and can be commented on. Thes
   name: Gladly Tasks API
   slug: gladly-tasks-api
-- description: A **Team** represents a group of Agents. They may handle particular **Inboxes** or types of work within Gladly.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A **Team** represents a group of Agents. They may handle particular **Inboxes** or types of work within Gladly.
   name: Gladly Teams API
   slug: gladly-teams-api
-- description: A **Topic** is a way of labeling a conversation in Gladly for specific business purposes. For example, an agent may apply the topic "Return" to a conversation where a customer returns merchandise. Top
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A **Topic** is a way of labeling a conversation in Gladly for specific business purposes. For example, an agent may apply the topic "Return" to a conversation where a customer returns merchandise. Top
   name: Gladly Topics API
   slug: gladly-topics-api
-- description: The User Identity API from Gladly — 1 operation(s) for user identity.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: The User Identity API from Gladly — 1 operation(s) for user identity.
   name: Gladly User Identity API
   slug: gladly-user-identity-api
-- description: A **Webhook** is a way to send notifications about Gladly events as a POST request to the endpoint of your choice.
+- baseURL: https://organization.gladly.com/api/v1
+  baseurl_source: declared
+  description: A **Webhook** is a way to send notifications about Gladly events as a POST request to the endpoint of your choice.
   name: Gladly Webhooks API
   slug: gladly-webhooks-api
 artifact_total: 172
@@ -632,7 +674,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png
 security:

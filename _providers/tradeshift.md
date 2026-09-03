@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,121 +36,197 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Admin API from Tradeshift — 11 operation(s) for admin.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The Admin API from Tradeshift — 11 operation(s) for admin.
   name: Tradeshift Admin API
   slug: tradeshift-admin-api
-- description: Manages document validators
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: Manages document validators
   name: Tradeshift Document Validation API
   slug: tradeshift-document-validation-api
-- description: The dx-category--accounts-branches API from Tradeshift — 4 operation(s) for dx-category--accounts-branches.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--accounts-branches API from Tradeshift — 4 operation(s) for dx-category--accounts-branches.
   name: Tradeshift Dx Category Accounts Branches API
   slug: tradeshift-dx-category-accounts-branches-api
-- description: The dx-category--accounts-company API from Tradeshift — 5 operation(s) for dx-category--accounts-company.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--accounts-company API from Tradeshift — 5 operation(s) for dx-category--accounts-company.
   name: Tradeshift Dx Category Accounts Company API
   slug: tradeshift-dx-category-accounts-company-api
-- description: The dx-category--accounts-gli_prefixes API from Tradeshift — 2 operation(s) for dx-category--accounts-gli_prefixes.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--accounts-gli_prefixes API from Tradeshift — 2 operation(s) for dx-category--accounts-gli_prefixes.
   name: Tradeshift Dx Category Accounts Gli Prefixes API
   slug: tradeshift-dx-category-accounts-gli-prefixes-api
-- description: The dx-category--accounts-legal_entities API from Tradeshift — 4 operation(s) for dx-category--accounts-legal_entities.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--accounts-legal_entities API from Tradeshift — 4 operation(s) for dx-category--accounts-legal_entities.
   name: Tradeshift Dx Category Accounts Legal Entities API
   slug: tradeshift-dx-category-accounts-legal-entities-api
-- description: The dx-category--accounts-taxes API from Tradeshift — 1 operation(s) for dx-category--accounts-taxes.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--accounts-taxes API from Tradeshift — 1 operation(s) for dx-category--accounts-taxes.
   name: Tradeshift Dx Category Accounts Taxes API
   slug: tradeshift-dx-category-accounts-taxes-api
-- description: The dx-category--accounts-validations API from Tradeshift — 8 operation(s) for dx-category--accounts-validations.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--accounts-validations API from Tradeshift — 8 operation(s) for dx-category--accounts-validations.
   name: Tradeshift Dx Category Accounts Validations API
   slug: tradeshift-dx-category-accounts-validations-api
-- description: The dx-category--assignments-create API from Tradeshift — 1 operation(s) for dx-category--assignments-create.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--assignments-create API from Tradeshift — 1 operation(s) for dx-category--assignments-create.
   name: Tradeshift Dx Category Assignments Create API
   slug: tradeshift-dx-category-assignments-create-api
-- description: The dx-category--assignments-find API from Tradeshift — 2 operation(s) for dx-category--assignments-find.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--assignments-find API from Tradeshift — 2 operation(s) for dx-category--assignments-find.
   name: Tradeshift Dx Category Assignments Find API
   slug: tradeshift-dx-category-assignments-find-api
-- description: The dx-category--assignments-logs API from Tradeshift — 2 operation(s) for dx-category--assignments-logs.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--assignments-logs API from Tradeshift — 2 operation(s) for dx-category--assignments-logs.
   name: Tradeshift Dx Category Assignments Logs API
   slug: tradeshift-dx-category-assignments-logs-api
-- description: The dx-category--assignments-reassign API from Tradeshift — 2 operation(s) for dx-category--assignments-reassign.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--assignments-reassign API from Tradeshift — 2 operation(s) for dx-category--assignments-reassign.
   name: Tradeshift Dx Category Assignments Reassign API
   slug: tradeshift-dx-category-assignments-reassign-api
-- description: The dx-category--assignments-update API from Tradeshift — 3 operation(s) for dx-category--assignments-update.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--assignments-update API from Tradeshift — 3 operation(s) for dx-category--assignments-update.
   name: Tradeshift Dx Category Assignments Update API
   slug: tradeshift-dx-category-assignments-update-api
-- description: The dx-category--bsd-documents API from Tradeshift — 6 operation(s) for dx-category--bsd-documents.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--bsd-documents API from Tradeshift — 6 operation(s) for dx-category--bsd-documents.
   name: Tradeshift Dx Category Bsd Documents API
   slug: tradeshift-dx-category-bsd-documents-api
-- description: The dx-category--document-validation-validate_document API from Tradeshift — 1 operation(s) for dx-category--document-validation-validate_document.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--document-validation-validate_document API from Tradeshift — 1 operation(s) for dx-category--document-validation-validate_document.
   name: Tradeshift Dx Category Document Validation Validate Document API
   slug: tradeshift-dx-category-document-validation-validate-document-api
-- description: The dx-category--document-validation-validators_delete API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_delete.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--document-validation-validators_delete API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_delete.
   name: Tradeshift Dx Category Document Validation Validators Delete API
   slug: tradeshift-dx-category-document-validation-validators-delete-api
-- description: The dx-category--document-validation-validators_find_all API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_find_all.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--document-validation-validators_find_all API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_find_all.
   name: Tradeshift Dx Category Document Validation Validators Find All API
   slug: tradeshift-dx-category-document-validation-validators-find-all-api
-- description: The dx-category--document-validation-validators_find API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_find.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--document-validation-validators_find API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_find.
   name: Tradeshift Dx Category Document Validation Validators Find API
   slug: tradeshift-dx-category-document-validation-validators-find-api
-- description: The dx-category--document-validation-validators_history API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_history.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--document-validation-validators_history API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_history.
   name: Tradeshift Dx Category Document Validation Validators History API
   slug: tradeshift-dx-category-document-validation-validators-history-api
-- description: The dx-category--document-validation-validators_save API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_save.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--document-validation-validators_save API from Tradeshift — 1 operation(s) for dx-category--document-validation-validators_save.
   name: Tradeshift Dx Category Document Validation Validators Save API
   slug: tradeshift-dx-category-document-validation-validators-save-api
-- description: The dx-category--documents-assignments API from Tradeshift — 9 operation(s) for dx-category--documents-assignments.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-assignments API from Tradeshift — 9 operation(s) for dx-category--documents-assignments.
   name: Tradeshift Dx Category Documents Assignments API
   slug: tradeshift-dx-category-documents-assignments-api
-- description: The dx-category--documents-attachments API from Tradeshift — 2 operation(s) for dx-category--documents-attachments.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-attachments API from Tradeshift — 2 operation(s) for dx-category--documents-attachments.
   name: Tradeshift Dx Category Documents Attachments API
   slug: tradeshift-dx-category-documents-attachments-api
-- description: The dx-category--documents-document API from Tradeshift — 28 operation(s) for dx-category--documents-document.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-document API from Tradeshift — 28 operation(s) for dx-category--documents-document.
   name: Tradeshift Dx Category Documents Document API
   slug: tradeshift-dx-category-documents-document-api
-- description: The dx-category--documents-document_files API from Tradeshift — 8 operation(s) for dx-category--documents-document_files.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-document_files API from Tradeshift — 8 operation(s) for dx-category--documents-document_files.
   name: Tradeshift Dx Category Documents Document Files API
   slug: tradeshift-dx-category-documents-document-files-api
-- description: The dx-category--documents-quotes API from Tradeshift — 1 operation(s) for dx-category--documents-quotes.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-quotes API from Tradeshift — 1 operation(s) for dx-category--documents-quotes.
   name: Tradeshift Dx Category Documents Quotes API
   slug: tradeshift-dx-category-documents-quotes-api
-- description: The dx-category--documents-receipt_advices API from Tradeshift — 2 operation(s) for dx-category--documents-receipt_advices.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-receipt_advices API from Tradeshift — 2 operation(s) for dx-category--documents-receipt_advices.
   name: Tradeshift Dx Category Documents Receipt Advices API
   slug: tradeshift-dx-category-documents-receipt-advices-api
-- description: The dx-category--documents-requisitions API from Tradeshift — 9 operation(s) for dx-category--documents-requisitions.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--documents-requisitions API from Tradeshift — 9 operation(s) for dx-category--documents-requisitions.
   name: Tradeshift Dx Category Documents Requisitions API
   slug: tradeshift-dx-category-documents-requisitions-api
-- description: The dx-category--network-connection_properties API from Tradeshift — 3 operation(s) for dx-category--network-connection_properties.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--network-connection_properties API from Tradeshift — 3 operation(s) for dx-category--network-connection_properties.
   name: Tradeshift Dx Category Network Connection Properties API
   slug: tradeshift-dx-category-network-connection-properties-api
-- description: The dx-category--network-connections API from Tradeshift — 4 operation(s) for dx-category--network-connections.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--network-connections API from Tradeshift — 4 operation(s) for dx-category--network-connections.
   name: Tradeshift Dx Category Network Connections API
   slug: tradeshift-dx-category-network-connections-api
-- description: The dx-category--network-document_profiles API from Tradeshift — 2 operation(s) for dx-category--network-document_profiles.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--network-document_profiles API from Tradeshift — 2 operation(s) for dx-category--network-document_profiles.
   name: Tradeshift Dx Category Network Document Profiles API
   slug: tradeshift-dx-category-network-document-profiles-api
-- description: The dx-category--network-requests API from Tradeshift — 4 operation(s) for dx-category--network-requests.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--network-requests API from Tradeshift — 4 operation(s) for dx-category--network-requests.
   name: Tradeshift Dx Category Network Requests API
   slug: tradeshift-dx-category-network-requests-api
-- description: The dx-category--network-search API from Tradeshift — 7 operation(s) for dx-category--network-search.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--network-search API from Tradeshift — 7 operation(s) for dx-category--network-search.
   name: Tradeshift Dx Category Network Search API
   slug: tradeshift-dx-category-network-search-api
-- description: The dx-category--users-accounts API from Tradeshift — 6 operation(s) for dx-category--users-accounts.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--users-accounts API from Tradeshift — 6 operation(s) for dx-category--users-accounts.
   name: Tradeshift Dx Category Users Accounts API
   slug: tradeshift-dx-category-users-accounts-api
-- description: The dx-category--users-memberships API from Tradeshift — 9 operation(s) for dx-category--users-memberships.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--users-memberships API from Tradeshift — 9 operation(s) for dx-category--users-memberships.
   name: Tradeshift Dx Category Users Memberships API
   slug: tradeshift-dx-category-users-memberships-api
-- description: The dx-category--users-profile_images API from Tradeshift — 1 operation(s) for dx-category--users-profile_images.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The dx-category--users-profile_images API from Tradeshift — 1 operation(s) for dx-category--users-profile_images.
   name: Tradeshift Dx Category Users Profile Images API
   slug: tradeshift-dx-category-users-profile-images-api
-- description: The Health API from Tradeshift — 2 operation(s) for health.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The Health API from Tradeshift — 2 operation(s) for health.
   name: Tradeshift Health API
   slug: tradeshift-health-api
-- description: The MCP HTTP Bridge & Management API from Tradeshift — 1 operation(s) for mcp http bridge & management.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The MCP HTTP Bridge & Management API from Tradeshift — 1 operation(s) for mcp http bridge & management.
   name: Tradeshift MCP HTTP Bridge & Management API
   slug: tradeshift-mcp-http-bridge-management-api
-- description: The Tools API from Tradeshift — 3 operation(s) for tools.
+- baseURL: https://api.tradeshift.com/tradeshift
+  baseurl_source: declared
+  description: The Tools API from Tradeshift — 3 operation(s) for tools.
   name: Tradeshift Tools API
   slug: tradeshift-tools-api
 artifact_total: 95
@@ -516,7 +605,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -526,7 +615,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 52.5
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     contracts:
@@ -537,7 +626,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/screenshots/tradeshift-2026-08-17T082420.png
 security:

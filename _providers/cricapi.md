@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Fantasy cricket squad, scorecard, and points
+- baseURL: https://api.cricapi.com/v1
+  baseurl_source: declared
+  description: Fantasy cricket squad, scorecard, and points
   name: CricAPI Fantasy API
   slug: cricapi-fantasy-api
-- description: Generic helper data (countries, flags)
+- baseURL: https://api.cricapi.com/v1
+  baseurl_source: declared
+  description: Generic helper data (countries, flags)
   name: CricAPI Generic API
   slug: cricapi-generic-api
-- description: Detailed info endpoints for series, matches, and players
+- baseURL: https://api.cricapi.com/v1
+  baseurl_source: declared
+  description: Detailed info endpoints for series, matches, and players
   name: CricAPI Info API
   slug: cricapi-info-api
-- description: All matches and current live matches
+- baseURL: https://api.cricapi.com/v1
+  baseurl_source: declared
+  description: All matches and current live matches
   name: CricAPI Matches API
   slug: cricapi-matches-api
-- description: Player listing and search
+- baseURL: https://api.cricapi.com/v1
+  baseurl_source: declared
+  description: Player listing and search
   name: CricAPI Players API
   slug: cricapi-players-api
-- description: Cricket series list and search
+- baseURL: https://api.cricapi.com/v1
+  baseurl_source: declared
+  description: Cricket series list and search
   name: CricAPI Series API
   slug: cricapi-series-api
 artifact_total: 27
@@ -245,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/screenshots/cricapi-2026-06-20T175236.png
 security:

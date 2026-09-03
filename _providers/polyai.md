@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Build, run and observe PolyAI voice and chat agents from your own systems. Three REST API families (Agents, Conversations, Webhooks & Alerts) plus Chat, SMS, Outbound Calling, Handoff, DNI, External E
@@ -137,11 +137,11 @@ score:
   band: thin
   composite: 35.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -151,12 +151,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 35.8
+  previous_composite: 35.6
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/polyai/refs/heads/main/screenshots/polyai-2026-09-02T151704.png
 security:
 - kind: authentication
   name: Polyai Authentication

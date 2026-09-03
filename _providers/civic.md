@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -50,10 +50,14 @@ apis:
 - description: Civic Auth provides OAuth 2.0 and PKCE-based authentication for web and mobile applications with support for email, Google, and Web3 wallet sign-in. Includes embedded wallet provisioning on Solana and
   name: Civic Auth API
   slug: civic-auth-api
-- description: Issue and manage Civic Passes
+- baseURL: https://app.civic.com/hub/mcp
+  baseurl_source: declared
+  description: Issue and manage Civic Passes
   name: Civic pass API
   slug: civic-pass-api
-- description: Get user PII and approve / reject receipt of PII
+- baseURL: https://app.civic.com/hub/mcp
+  baseurl_source: declared
+  description: Get user PII and approve / reject receipt of PII
   name: Civic piirequest API
   slug: civic-piirequest-api
 artifact_total: 24
@@ -256,7 +260,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/screenshots/civic-2026-06-20T174430.png
 security:

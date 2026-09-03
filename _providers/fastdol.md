@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 48 operations · 17 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Auth API from FastDOL — 7 operation(s) for auth.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Auth API from FastDOL — 7 operation(s) for auth.
   name: FastDOL Auth API
   slug: fastdol-auth-api
-- description: The Dashboard API from FastDOL — 5 operation(s) for dashboard.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Dashboard API from FastDOL — 5 operation(s) for dashboard.
   name: FastDOL Dashboard API
   slug: fastdol-dashboard-api
-- description: The Employers API from FastDOL — 14 operation(s) for employers.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Employers API from FastDOL — 14 operation(s) for employers.
   name: FastDOL Employers API
   slug: fastdol-employers-api
-- description: The Export API from FastDOL — 3 operation(s) for export.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Export API from FastDOL — 3 operation(s) for export.
   name: FastDOL Export API
   slug: fastdol-export-api
-- description: The Health API from FastDOL — 2 operation(s) for health.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Health API from FastDOL — 2 operation(s) for health.
   name: FastDOL Health API
   slug: fastdol-health-api
-- description: The Industries API from FastDOL — 2 operation(s) for industries.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Industries API from FastDOL — 2 operation(s) for industries.
   name: FastDOL Industries API
   slug: fastdol-industries-api
-- description: The Inspections API from FastDOL — 1 operation(s) for inspections.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Inspections API from FastDOL — 1 operation(s) for inspections.
   name: FastDOL Inspections API
   slug: fastdol-inspections-api
-- description: The Sitemap API from FastDOL — 1 operation(s) for sitemap.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Sitemap API from FastDOL — 1 operation(s) for sitemap.
   name: FastDOL Sitemap API
   slug: fastdol-sitemap-api
-- description: The Stats API from FastDOL — 7 operation(s) for stats.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Stats API from FastDOL — 7 operation(s) for stats.
   name: FastDOL Stats API
   slug: fastdol-stats-api
-- description: The Usage API from FastDOL — 3 operation(s) for usage.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Usage API from FastDOL — 3 operation(s) for usage.
   name: FastDOL Usage API
   slug: fastdol-usage-api
-- description: The Webhooks API from FastDOL — 1 operation(s) for webhooks.
+- baseURL: https://api.fastdol.com
+  baseurl_source: declared
+  description: The Webhooks API from FastDOL — 1 operation(s) for webhooks.
   name: FastDOL Webhooks API
   slug: fastdol-webhooks-api
 artifact_total: 137
@@ -565,7 +587,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations for managing persistent storage file systems.
+- baseURL: https://cloud.lambdalabs.com/api/v1
+  baseurl_source: declared
+  description: Operations for managing persistent storage file systems.
   name: Lambda File Systems API
   slug: lambda-file-systems-api
-- description: Operations for listing available machine images.
+- baseURL: https://cloud.lambdalabs.com/api/v1
+  baseurl_source: declared
+  description: Operations for listing available machine images.
   name: Lambda Images API
   slug: lambda-images-api
-- description: Operations for listing available GPU instance types.
+- baseURL: https://cloud.lambdalabs.com/api/v1
+  baseurl_source: declared
+  description: Operations for listing available GPU instance types.
   name: Lambda Instance Types API
   slug: lambda-instance-types-api
-- description: Operations for managing GPU cloud instances.
+- baseURL: https://cloud.lambdalabs.com/api/v1
+  baseurl_source: declared
+  description: Operations for managing GPU cloud instances.
   name: Lambda Instances API
   slug: lambda-instances-api
-- description: Operations for managing SSH keys.
+- baseURL: https://cloud.lambdalabs.com/api/v1
+  baseurl_source: declared
+  description: Operations for managing SSH keys.
   name: Lambda SSH Keys API
   slug: lambda-ssh-keys-api
 artifact_total: 40
@@ -261,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/screenshots/lambda-2026-06-20T184249.png
 security:

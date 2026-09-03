@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: API for managing subscription-based orders within the SAP BRIM suite, supporting complex offerings that combine physical products, services, and usage-based fees with full lifecycle management.
   name: SAP Subscription Order Management API
   slug: sap-subscription-order-management-api
-- description: Account balance inquiries and adjustments
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Account balance inquiries and adjustments
   name: SAP BRIM (Billing and Revenue Innovation Management) Balances API
   slug: sap-brim-billing-and-revenue-innovation-management-balances-api
-- description: Billing cycle and invoice generation operations
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Billing cycle and invoice generation operations
   name: SAP BRIM (Billing and Revenue Innovation Management) Billing API
   slug: sap-brim-billing-and-revenue-innovation-management-billing-api
-- description: Real-time charging operations for prepaid and postpaid accounts
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Real-time charging operations for prepaid and postpaid accounts
   name: SAP BRIM (Billing and Revenue Innovation Management) Charging API
   slug: sap-brim-billing-and-revenue-innovation-management-charging-api
-- description: Customer account management for subscriptions
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Customer account management for subscriptions
   name: SAP BRIM (Billing and Revenue Innovation Management) Customers API
   slug: sap-brim-billing-and-revenue-innovation-management-customers-api
-- description: Subscription plan and offer catalog management
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Subscription plan and offer catalog management
   name: SAP BRIM (Billing and Revenue Innovation Management) Plans API
   slug: sap-brim-billing-and-revenue-innovation-management-plans-api
-- description: Management of pricing plans, rate cards, and pricing structures
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Management of pricing plans, rate cards, and pricing structures
   name: SAP BRIM (Billing and Revenue Innovation Management) Pricing API
   slug: sap-brim-billing-and-revenue-innovation-management-pricing-api
-- description: Operations for rating usage events against pricing plans
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Operations for rating usage events against pricing plans
   name: SAP BRIM (Billing and Revenue Innovation Management) Rating API
   slug: sap-brim-billing-and-revenue-innovation-management-rating-api
-- description: Management of individual items within a subscription
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Management of individual items within a subscription
   name: SAP BRIM (Billing and Revenue Innovation Management) Subscription Items API
   slug: sap-brim-billing-and-revenue-innovation-management-subscription-items-api
-- description: Subscription lifecycle management operations
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Subscription lifecycle management operations
   name: SAP BRIM (Billing and Revenue Innovation Management) Subscriptions API
   slug: sap-brim-billing-and-revenue-innovation-management-subscriptions-api
-- description: Submission and management of usage event records
+- baseURL: https://api.sap.com/convergent-charging
+  baseurl_source: declared
+  description: Submission and management of usage event records
   name: SAP BRIM (Billing and Revenue Innovation Management) Usage Events API
   slug: sap-brim-billing-and-revenue-innovation-management-usage-events-api
 arazzos:
@@ -559,7 +579,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/screenshots/sap-brim-billing-and-revenue-innovation-management-2026-06-20T193418.png
 security:

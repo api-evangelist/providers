@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Accidents API from Federal Railroad Administration — 1 operation(s) for accidents.
+- baseURL: https://safetydata.fra.dot.gov/MasterWebService/publicapi
+  baseurl_source: declared
+  description: The Accidents API from Federal Railroad Administration — 1 operation(s) for accidents.
   name: Federal Railroad Administration Accidents API
   slug: federal-railroad-administration-accidents-api
-- description: The Crossings API from Federal Railroad Administration — 1 operation(s) for crossings.
+- baseURL: https://safetydata.fra.dot.gov/MasterWebService/publicapi
+  baseurl_source: declared
+  description: The Crossings API from Federal Railroad Administration — 1 operation(s) for crossings.
   name: Federal Railroad Administration Crossings API
   slug: federal-railroad-administration-crossings-api
-- description: The Incidents API from Federal Railroad Administration — 1 operation(s) for incidents.
+- baseURL: https://safetydata.fra.dot.gov/MasterWebService/publicapi
+  baseurl_source: declared
+  description: The Incidents API from Federal Railroad Administration — 1 operation(s) for incidents.
   name: Federal Railroad Administration Incidents API
   slug: federal-railroad-administration-incidents-api
-- description: The Inspections API from Federal Railroad Administration — 1 operation(s) for inspections.
+- baseURL: https://safetydata.fra.dot.gov/MasterWebService/publicapi
+  baseurl_source: declared
+  description: The Inspections API from Federal Railroad Administration — 1 operation(s) for inspections.
   name: Federal Railroad Administration Inspections API
   slug: federal-railroad-administration-inspections-api
-- description: The Operational Data API from Federal Railroad Administration — 1 operation(s) for operational data.
+- baseURL: https://safetydata.fra.dot.gov/MasterWebService/publicapi
+  baseurl_source: declared
+  description: The Operational Data API from Federal Railroad Administration — 1 operation(s) for operational data.
   name: Federal Railroad Administration Operational Data API
   slug: federal-railroad-administration-operational-data-api
 artifact_total: 17
@@ -160,7 +170,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/screenshots/federal-railroad-administration-2026-06-20T181126.png
 security:

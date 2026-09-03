@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -43,112 +43,184 @@ agentic_access:
   summary_line: 172 operations · 73 acting
 api_count: 2
 apis:
-- description: The Associated Persons API from Kota — 2 operation(s) for associated persons.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Associated Persons API from Kota — 2 operation(s) for associated persons.
   name: Kota Associated Persons API
   slug: kota-associated-persons-api
-- description: The associatedPersons API from Kota — 2 operation(s) for associatedpersons.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The associatedPersons API from Kota — 2 operation(s) for associatedpersons.
   name: Kota associatedPersons API
   slug: kota-associatedpersons-api
-- description: The Contribution Reports API from Kota — 5 operation(s) for contribution reports.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Contribution Reports API from Kota — 5 operation(s) for contribution reports.
   name: Kota Contribution Reports API
   slug: kota-contribution-reports-api
-- description: The contributionReports API from Kota — 5 operation(s) for contributionreports.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The contributionReports API from Kota — 5 operation(s) for contributionreports.
   name: Kota contributionReports API
   slug: kota-contributionreports-api
-- description: The Dependents Management Intents API from Kota — 6 operation(s) for dependents management intents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Dependents Management Intents API from Kota — 6 operation(s) for dependents management intents.
   name: Kota Dependents Management Intents API
   slug: kota-dependents-management-intents-api
-- description: The dependentsManagementIntents API from Kota — 6 operation(s) for dependentsmanagementintents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The dependentsManagementIntents API from Kota — 6 operation(s) for dependentsmanagementintents.
   name: Kota dependentsManagementIntents API
   slug: kota-dependentsmanagementintents-api
-- description: The Embed Sessions API from Kota — 1 operation(s) for embed sessions.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Embed Sessions API from Kota — 1 operation(s) for embed sessions.
   name: Kota Embed Sessions API
   slug: kota-embed-sessions-api
-- description: The embedSessions API from Kota — 1 operation(s) for embedsessions.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The embedSessions API from Kota — 1 operation(s) for embedsessions.
   name: Kota embedSessions API
   slug: kota-embedsessions-api
-- description: The employees API from Kota — 4 operation(s) for employees.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The employees API from Kota — 4 operation(s) for employees.
   name: Kota employees API
   slug: kota-employees-api
-- description: The employers API from Kota — 3 operation(s) for employers.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The employers API from Kota — 3 operation(s) for employers.
   name: Kota employers API
   slug: kota-employers-api
-- description: The Enrolment Intents API from Kota — 7 operation(s) for enrolment intents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Enrolment Intents API from Kota — 7 operation(s) for enrolment intents.
   name: Kota Enrolment Intents API
   slug: kota-enrolment-intents-api
-- description: The enrolmentIntents API from Kota — 7 operation(s) for enrolmentintents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The enrolmentIntents API from Kota — 7 operation(s) for enrolmentintents.
   name: Kota enrolmentIntents API
   slug: kota-enrolmentintents-api
-- description: The events API from Kota — 3 operation(s) for events.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The events API from Kota — 3 operation(s) for events.
   name: Kota events API
   slug: kota-events-api
-- description: The Group Policies API from Kota — 2 operation(s) for group policies.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Group Policies API from Kota — 2 operation(s) for group policies.
   name: Kota Group Policies API
   slug: kota-group-policies-api
-- description: The Group Policy Intents API from Kota — 3 operation(s) for group policy intents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Group Policy Intents API from Kota — 3 operation(s) for group policy intents.
   name: Kota Group Policy Intents API
   slug: kota-group-policy-intents-api
-- description: The Group Quote Intents API from Kota — 5 operation(s) for group quote intents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Group Quote Intents API from Kota — 5 operation(s) for group quote intents.
   name: Kota Group Quote Intents API
   slug: kota-group-quote-intents-api
-- description: The groupPolicies API from Kota — 2 operation(s) for grouppolicies.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The groupPolicies API from Kota — 2 operation(s) for grouppolicies.
   name: Kota groupPolicies API
   slug: kota-grouppolicies-api
-- description: The groupPolicyIntents API from Kota — 3 operation(s) for grouppolicyintents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The groupPolicyIntents API from Kota — 3 operation(s) for grouppolicyintents.
   name: Kota groupPolicyIntents API
   slug: kota-grouppolicyintents-api
-- description: The groupQuoteIntents API from Kota — 5 operation(s) for groupquoteintents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The groupQuoteIntents API from Kota — 5 operation(s) for groupquoteintents.
   name: Kota groupQuoteIntents API
   slug: kota-groupquoteintents-api
-- description: The groups API from Kota — 4 operation(s) for groups.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The groups API from Kota — 4 operation(s) for groups.
   name: Kota groups API
   slug: kota-groups-api
-- description: The Health Insurance API from Kota — 8 operation(s) for health insurance.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Health Insurance API from Kota — 8 operation(s) for health insurance.
   name: Kota Health Insurance API
   slug: kota-health-insurance-api
-- description: The healthInsurance API from Kota — 8 operation(s) for healthinsurance.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The healthInsurance API from Kota — 8 operation(s) for healthinsurance.
   name: Kota healthInsurance API
   slug: kota-healthinsurance-api
-- description: The Hosted Sessions API from Kota — 1 operation(s) for hosted sessions.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Hosted Sessions API from Kota — 1 operation(s) for hosted sessions.
   name: Kota Hosted Sessions API
   slug: kota-hosted-sessions-api
-- description: The hostedSessions API from Kota — 1 operation(s) for hostedsessions.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The hostedSessions API from Kota — 1 operation(s) for hostedsessions.
   name: Kota hostedSessions API
   slug: kota-hostedsessions-api
-- description: The plans API from Kota — 2 operation(s) for plans.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The plans API from Kota — 2 operation(s) for plans.
   name: Kota plans API
   slug: kota-plans-api
-- description: The policies API from Kota — 2 operation(s) for policies.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The policies API from Kota — 2 operation(s) for policies.
   name: Kota policies API
   slug: kota-policies-api
-- description: The Policy Amendment Intents API from Kota — 5 operation(s) for policy amendment intents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Policy Amendment Intents API from Kota — 5 operation(s) for policy amendment intents.
   name: Kota Policy Amendment Intents API
   slug: kota-policy-amendment-intents-api
-- description: The Policy Import Intents API from Kota — 2 operation(s) for policy import intents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Policy Import Intents API from Kota — 2 operation(s) for policy import intents.
   name: Kota Policy Import Intents API
   slug: kota-policy-import-intents-api
-- description: The policyAmendmentIntents API from Kota — 5 operation(s) for policyamendmentintents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The policyAmendmentIntents API from Kota — 5 operation(s) for policyamendmentintents.
   name: Kota policyAmendmentIntents API
   slug: kota-policyamendmentintents-api
-- description: The policyImportIntents API from Kota — 2 operation(s) for policyimportintents.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The policyImportIntents API from Kota — 2 operation(s) for policyimportintents.
   name: Kota policyImportIntents API
   slug: kota-policyimportintents-api
-- description: The providers API from Kota — 2 operation(s) for providers.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The providers API from Kota — 2 operation(s) for providers.
   name: Kota providers API
   slug: kota-providers-api
-- description: The requirements API from Kota — 1 operation(s) for requirements.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The requirements API from Kota — 1 operation(s) for requirements.
   name: Kota requirements API
   slug: kota-requirements-api
-- description: The webhooks API from Kota — 2 operation(s) for webhooks.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The webhooks API from Kota — 2 operation(s) for webhooks.
   name: Kota webhooks API
   slug: kota-webhooks-api
-- description: The API Reference API from Kota — 0 operation(s) for api reference.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The API Reference API from Kota — 0 operation(s) for api reference.
   name: Kota API Reference API
   slug: kota-api-reference-api
-- description: The Types of events API from Kota — 0 operation(s) for types of events.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Types of events API from Kota — 0 operation(s) for types of events.
   name: Kota Types of events API
   slug: kota-types-of-events-api
-- description: The Types of events V2 API from Kota — 0 operation(s) for types of events v2.
+- baseURL: https://api.kota.io
+  baseurl_source: declared
+  description: The Types of events V2 API from Kota — 0 operation(s) for types of events v2.
   name: Kota Types of events V2 API
   slug: kota-types-of-events-v2-api
 artifact_total: 110
@@ -548,7 +620,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -558,7 +630,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 59.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -580,7 +652,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

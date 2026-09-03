@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -33,52 +44,84 @@ agentic_access:
   summary_line: 167 operations · 114 acting
 api_count: 16
 apis:
-- description: The Case Studies API from Cellarity — 4 operation(s) for case studies.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Case Studies API from Cellarity — 4 operation(s) for case studies.
   name: Cellarity Case Studies API
   slug: cellarity-case-studies-api
-- description: The Comments API from Cellarity — 2 operation(s) for comments.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Cellarity — 2 operation(s) for comments.
   name: Cellarity Comments API
   slug: cellarity-comments-api
-- description: The Discovery API from Cellarity — 6 operation(s) for discovery.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Cellarity — 6 operation(s) for discovery.
   name: Cellarity Discovery API
   slug: cellarity-discovery-api
-- description: The Events API from Cellarity — 2 operation(s) for events.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Events API from Cellarity — 2 operation(s) for events.
   name: Cellarity Events API
   slug: cellarity-events-api
-- description: The Media API from Cellarity — 4 operation(s) for media.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Cellarity — 4 operation(s) for media.
   name: Cellarity Media API
   slug: cellarity-media-api
-- description: The News API from Cellarity — 2 operation(s) for news.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The News API from Cellarity — 2 operation(s) for news.
   name: Cellarity News API
   slug: cellarity-news-api
-- description: The Pages API from Cellarity — 2 operation(s) for pages.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Cellarity — 2 operation(s) for pages.
   name: Cellarity Pages API
   slug: cellarity-pages-api
-- description: The People API from Cellarity — 4 operation(s) for people.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The People API from Cellarity — 4 operation(s) for people.
   name: Cellarity People API
   slug: cellarity-people-api
-- description: The Pipeline API from Cellarity — 4 operation(s) for pipeline.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pipeline API from Cellarity — 4 operation(s) for pipeline.
   name: Cellarity Pipeline API
   slug: cellarity-pipeline-api
-- description: The Posts API from Cellarity — 2 operation(s) for posts.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Cellarity — 2 operation(s) for posts.
   name: Cellarity Posts API
   slug: cellarity-posts-api
-- description: The Projects API from Cellarity — 6 operation(s) for projects.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Projects API from Cellarity — 6 operation(s) for projects.
   name: Cellarity Projects API
   slug: cellarity-projects-api
-- description: The Search API from Cellarity — 1 operation(s) for search.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Cellarity — 1 operation(s) for search.
   name: Cellarity Search API
   slug: cellarity-search-api
-- description: The Settings API from Cellarity — 1 operation(s) for settings.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Cellarity — 1 operation(s) for settings.
   name: Cellarity Settings API
   slug: cellarity-settings-api
-- description: The Taxonomy API from Cellarity — 8 operation(s) for taxonomy.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Cellarity — 8 operation(s) for taxonomy.
   name: Cellarity Taxonomy API
   slug: cellarity-taxonomy-api
-- description: The Users API from Cellarity — 3 operation(s) for users.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Cellarity — 3 operation(s) for users.
   name: Cellarity Users API
   slug: cellarity-users-api
-- description: The Video API from Cellarity — 4 operation(s) for video.
+- baseURL: https://cellarity.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Video API from Cellarity — 4 operation(s) for video.
   name: Cellarity Video API
   slug: cellarity-video-api
 artifact_total: 36
@@ -249,7 +292,7 @@ score:
   band: emerging
   composite: 23.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -280,8 +323,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cellarity/refs/heads/main/screenshots/cellarity-2026-09-02T145024.png
 security:
 - kind: authentication
   name: Cellarity Authentication

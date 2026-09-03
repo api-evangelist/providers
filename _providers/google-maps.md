@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -146,25 +146,39 @@ apis:
 - description: Access Google Earth geospatial data and imagery analysis capabilities for developers.
   name: Google Earth
   slug: google-earth
-- description: Get place predictions based on text input
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: spec
+  description: Get place predictions based on text input
   name: Google Maps Platform Autocomplete API
   slug: google-maps-autocomplete-api
-- description: Route computation between origin and destination
+- baseURL: https://maps.googleapis.com/maps/api
+  baseurl_source: spec
+  description: Route computation between origin and destination
   name: Google Maps Platform Directions API
   slug: google-maps-directions-api
-- description: Forward and reverse geocoding operations
+- baseURL: https://maps.googleapis.com/maps/api
+  baseurl_source: spec
+  description: Forward and reverse geocoding operations
   name: Google Maps Platform Geocoding API
   slug: google-maps-geocoding-api
-- description: Search for places near a specific location
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: spec
+  description: Search for places near a specific location
   name: Google Maps Platform Nearby Search API
   slug: google-maps-nearby-search-api
-- description: Access photos associated with places
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: spec
+  description: Access photos associated with places
   name: Google Maps Platform Photos API
   slug: google-maps-photos-api
-- description: Get detailed information about a specific place
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: spec
+  description: Get detailed information about a specific place
   name: Google Maps Platform Place Details API
   slug: google-maps-place-details-api
-- description: Search for places using a text query
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: spec
+  description: Search for places using a text query
   name: Google Maps Platform Text Search API
   slug: google-maps-text-search-api
 arazzos:
@@ -1167,7 +1181,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:

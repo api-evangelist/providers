@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 51 operations · 21 acting
 api_count: 1
 apis:
-- description: The Authorization Managers API from Kondukto — 1 operation(s) for authorization managers.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Authorization Managers API from Kondukto — 1 operation(s) for authorization managers.
   name: Kondukto Authorization Managers API
   slug: kondukto-authorization-managers-api
-- description: The Events API from Kondukto — 1 operation(s) for events.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Events API from Kondukto — 1 operation(s) for events.
   name: Kondukto Events API
   slug: kondukto-events-api
-- description: The Health API from Kondukto — 1 operation(s) for health.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Health API from Kondukto — 1 operation(s) for health.
   name: Kondukto Health API
   slug: kondukto-health-api
-- description: The Labels API from Kondukto — 3 operation(s) for labels.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Labels API from Kondukto — 3 operation(s) for labels.
   name: Kondukto Labels API
   slug: kondukto-labels-api
-- description: The Products API from Kondukto — 2 operation(s) for products.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Products API from Kondukto — 2 operation(s) for products.
   name: Kondukto Products API
   slug: kondukto-products-api
-- description: The Projects API from Kondukto — 7 operation(s) for projects.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Projects API from Kondukto — 7 operation(s) for projects.
   name: Kondukto Projects API
   slug: kondukto-projects-api
-- description: The Scanners API from Kondukto — 1 operation(s) for scanners.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Scanners API from Kondukto — 1 operation(s) for scanners.
   name: Kondukto Scanners API
   slug: kondukto-scanners-api
-- description: The Scans API from Kondukto — 10 operation(s) for scans.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Scans API from Kondukto — 10 operation(s) for scans.
   name: Kondukto Scans API
   slug: kondukto-scans-api
-- description: The Teams API from Kondukto — 5 operation(s) for teams.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Teams API from Kondukto — 5 operation(s) for teams.
   name: Kondukto Teams API
   slug: kondukto-teams-api
-- description: The Users API from Kondukto — 2 operation(s) for users.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Users API from Kondukto — 2 operation(s) for users.
   name: Kondukto Users API
   slug: kondukto-users-api
-- description: The Vulnerabilities API from Kondukto — 9 operation(s) for vulnerabilities.
+- baseURL: https://api.kondukto.io/api/v2
+  baseurl_source: declared
+  description: The Vulnerabilities API from Kondukto — 9 operation(s) for vulnerabilities.
   name: Kondukto Vulnerabilities API
   slug: kondukto-vulnerabilities-api
 artifact_total: 42
@@ -337,7 +359,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -347,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,7 +381,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kondukto/refs/heads/main/screenshots/kondukto-2026-07-25T224148.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 28 operations · 20 acting
 api_count: 2
 apis:
-- description: Account-level spending caps and remaining budget.
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Account-level spending caps and remaining budget.
   name: News Break Account Billing API
   slug: news-break-account-billing-api
-- description: Ad accounts under an organization and the users who can access them.
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Ad accounts under an organization and the users who can access them.
   name: News Break Ad Account API
   slug: news-break-ad-account-api
-- description: Ads and their creatives, plus creative asset upload.
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Ads and their creatives, plus creative asset upload.
   name: News Break Ad API
   slug: news-break-ad-api
-- description: 'Ad sets: budget, bidding, schedule, platforms and audience targeting.'
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: 'Ad sets: budget, bidding, schedule, platforms and audience targeting.'
   name: News Break Ad Set API
   slug: news-break-ad-set-api
-- description: 'Campaigns: the objective-level container for ad sets.'
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: 'Campaigns: the objective-level container for ad sets.'
   name: News Break Campaign API
   slug: news-break-campaign-api
-- description: Conversion tracking events (pixel and postback).
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Conversion tracking events (pixel and postback).
   name: News Break Event Management API
   slug: news-break-event-management-api
-- description: Organizations the calling user administers.
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Organizations the calling user administers.
   name: News Break Organization API
   slug: news-break-organization-api
-- description: Synchronous and saved custom performance reports.
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Synchronous and saved custom performance reports.
   name: News Break Report API
   slug: news-break-report-api
-- description: Aggregated monetization performance reporting for MSP organizations and apps.
+- baseURL: https://business.newsbreak.com/business-api/v1
+  baseurl_source: declared
+  description: Aggregated monetization performance reporting for MSP organizations and apps.
   name: News Break Reporting API
   slug: news-break-reporting-api
 arazzos:
@@ -248,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:

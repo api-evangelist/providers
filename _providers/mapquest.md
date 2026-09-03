@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -70,7 +70,9 @@ apis:
 - description: The MapQuest Data Manager API allows developers to upload, manage, and query custom hosted data tables for use with MapQuest search and mapping services.
   name: MapQuest Data Manager API
   slug: mapquest-data-manager-api
-- description: The Directions API from MapQuest — 8 operation(s) for directions.
+- baseURL: https://www.mapquestapi.com/directions/v2
+  baseurl_source: declared
+  description: The Directions API from MapQuest — 8 operation(s) for directions.
   name: MapQuest Directions API
   slug: mapquest-directions-api
 artifact_total: 18
@@ -185,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/screenshots/mapquest-2026-06-20T184933.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -50,103 +50,169 @@ apis:
 - description: The Contentstack Image Delivery API allows developers to retrieve and transform images stored as assets in their Contentstack stacks. It supports on-the-fly image manipulation operations including res
   name: Contentstack Image Delivery API
   slug: image-delivery-api
-- description: The Contentstack Analytics API provides access to usage and performance metrics for CMS, Launch, and Automate products within a Contentstack organization. Developers can retrieve analytics data progra
+- baseURL: https://api.contentstack.io
+  baseurl_source: declared
+  description: The Contentstack Analytics API provides access to usage and performance metrics for CMS, Launch, and Automate products within a Contentstack organization. Developers can retrieve analytics data progra
   name: Contentstack Analytics API
   slug: analytics-api
-- description: Accounts represent authenticated connections to external services and third-party platforms used by automations as action targets.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Accounts represent authenticated connections to external services and third-party platforms used by automations as action targets.
   name: contentstack Accounts API
   slug: contentstack-accounts-api
-- description: Assets are media files such as images, videos, and documents stored in the Contentstack asset library.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Assets are media files such as images, videos, and documents stored in the Contentstack asset library.
   name: contentstack Assets API
   slug: contentstack-assets-api
-- description: Attributes represent individual user data characteristics such as age, location, or browsing history used to define audience segments.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Attributes represent individual user data characteristics such as age, location, or browsing history used to define audience segments.
   name: contentstack Attributes API
   slug: contentstack-attributes-api
-- description: Audiences are defined segments of users grouped by demographic, behavioral, or other attribute-based criteria for targeted content experiences.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Audiences are defined segments of users grouped by demographic, behavioral, or other attribute-based criteria for targeted content experiences.
   name: contentstack Audiences API
   slug: contentstack-audiences-api
-- description: Audit logs track all administrative actions taken within an automation project, providing a history of configuration changes.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Audit logs track all administrative actions taken within an automation project, providing a history of configuration changes.
   name: contentstack Audit Logs API
   slug: contentstack-audit-logs-api
-- description: Automations are individual workflow definitions that connect triggers (such as Contentstack content events) to actions (such as sending notifications or updating external systems).
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Automations are individual workflow definitions that connect triggers (such as Contentstack content events) to actions (such as sending notifications or updating external systems).
   name: contentstack Automations API
   slug: contentstack-automations-api
-- description: Brand Kits are centralized repositories for an organization's brand identity assets, guidelines, and AI configuration. They are used to ensure consistent brand voice and style across AI-generated cont
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Brand Kits are centralized repositories for an organization's brand identity assets, guidelines, and AI configuration. They are used to ensure consistent brand voice and style across AI-generated cont
   name: contentstack Brand Kits API
   slug: contentstack-brand-kits-api
-- description: Content types define the structure of content entries in a Contentstack stack. They specify the fields and their data types that entries must conform to.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Content types define the structure of content entries in a Contentstack stack. They specify the fields and their data types that entries must conform to.
   name: contentstack Content Types API
   slug: contentstack-content-types-api
-- description: Deployments represent individual build and publish operations to a Launch environment. Each deployment has associated build logs, server logs, and status tracking.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Deployments represent individual build and publish operations to a Launch environment. Each deployment has associated build logs, server logs, and status tracking.
   name: contentstack Deployments API
   slug: contentstack-deployments-api
-- description: Entries are instances of content types that hold the actual content data. They can be filtered, sorted, paginated, and localized.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Entries are instances of content types that hold the actual content data. They can be filtered, sorted, paginated, and localized.
   name: contentstack Entries API
   slug: contentstack-entries-api
-- description: Entry variants are customized versions of an entry created for personalization or A/B testing purposes.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Entry variants are customized versions of an entry created for personalization or A/B testing purposes.
   name: contentstack Entry Variants API
   slug: contentstack-entry-variants-api
-- description: Endpoints for managing deployment environments (e.g., production, staging) within a stack.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Endpoints for managing deployment environments (e.g., production, staging) within a stack.
   name: contentstack Environments API
   slug: contentstack-environments-api
-- description: The events endpoint allows applications to track user actions and behavioral events for experience analytics and audience rule evaluation.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: The events endpoint allows applications to track user actions and behavioral events for experience analytics and audience rule evaluation.
   name: contentstack Events API
   slug: contentstack-events-api
-- description: Execution logs record each time an automation runs, including the trigger context, steps executed, and success or failure status.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Execution logs record each time an automation runs, including the trigger context, steps executed, and success or failure status.
   name: contentstack Execution Logs API
   slug: contentstack-execution-logs-api
-- description: Experiences define personalized content variations delivered to specific audience segments, supporting both segmented and A/B test configurations.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Experiences define personalized content variations delivered to specific audience segments, supporting both segmented and A/B test configurations.
   name: contentstack Experiences API
   slug: contentstack-experiences-api
-- description: File upload endpoints provide pre-signed URLs for securely uploading build artifacts to Contentstack Launch infrastructure before triggering a deployment.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: File upload endpoints provide pre-signed URLs for securely uploading build artifacts to Contentstack Launch infrastructure before triggering a deployment.
   name: contentstack File Uploads API
   slug: contentstack-file-uploads-api
-- description: Geolocation endpoints provide geographic datasets including regions, countries, and cities for location-based audience targeting.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Geolocation endpoints provide geographic datasets including regions, countries, and cities for location-based audience targeting.
   name: contentstack Geolocation API
   slug: contentstack-geolocation-api
-- description: Global fields are reusable field groups that can be referenced across multiple content types within a Contentstack stack.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Global fields are reusable field groups that can be referenced across multiple content types within a Contentstack stack.
   name: contentstack Global Fields API
   slug: contentstack-global-fields-api
-- description: LLM Configuration endpoints allow organizations to register custom API credentials for large language model providers, enabling content generation through their own LLM subscriptions.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: LLM Configuration endpoints allow organizations to register custom API credentials for large language model providers, enabling content generation through their own LLM subscriptions.
   name: contentstack LLM Configuration API
   slug: contentstack-llm-configuration-api
-- description: The manifest endpoint returns a list of all active experiences and their corresponding variants that are activated for the current user based on their attributes and audience membership.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: The manifest endpoint returns a list of all active experiences and their corresponding variants that are activated for the current user based on their attributes and audience membership.
   name: contentstack Manifest API
   slug: contentstack-manifest-api
-- description: Endpoints for managing Contentstack organizations, including user invitations, roles, stacks, and audit logs at the organization level.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Endpoints for managing Contentstack organizations, including user invitations, roles, stacks, and audit logs at the organization level.
   name: contentstack Organizations API
   slug: contentstack-organizations-api
-- description: Automation projects are containers for automations within a Contentstack organization. Each project groups related automations and can have its own variables and account connections.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Automation projects are containers for automations within a Contentstack organization. Each project groups related automations and can have its own variables and account connections.
   name: contentstack Projects API
   slug: contentstack-projects-api
-- description: SCIM group endpoints allow Identity Providers to manage group memberships in Contentstack, which map to role-based access control within the CMS.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: SCIM group endpoints allow Identity Providers to manage group memberships in Contentstack, which map to role-based access control within the CMS.
   name: contentstack SCIM Groups API
   slug: contentstack-scim-groups-api
-- description: Schema discovery endpoints implement the SCIM 2.0 service provider configuration, returning supported schemas and resource types for IdP compatibility validation.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Schema discovery endpoints implement the SCIM 2.0 service provider configuration, returning supported schemas and resource types for IdP compatibility validation.
   name: contentstack SCIM Schema Discovery API
   slug: contentstack-scim-schema-discovery-api
-- description: SCIM user endpoints enable Identity Providers to provision, update, and deprovision user accounts within a Contentstack organization following the SCIM 2.0 User schema.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: SCIM user endpoints enable Identity Providers to provision, update, and deprovision user accounts within a Contentstack organization following the SCIM 2.0 User schema.
   name: contentstack SCIM Users API
   slug: contentstack-scim-users-api
-- description: Endpoints for creating and managing Contentstack stacks, including settings, users, sharing, and ownership transfer.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Endpoints for creating and managing Contentstack stacks, including settings, users, sharing, and ownership transfer.
   name: contentstack Stacks API
   slug: contentstack-stacks-api
-- description: The synchronization endpoints allow developers to sync published content incrementally, enabling efficient local caching and offline-first patterns.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: The synchronization endpoints allow developers to sync published content incrementally, enabling efficient local caching and offline-first patterns.
   name: contentstack Synchronization API
   slug: contentstack-synchronization-api
-- description: Endpoints for setting, updating, and merging user attribute data used to determine audience membership and personalized content targeting.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Endpoints for setting, updating, and merging user attribute data used to determine audience membership and personalized content targeting.
   name: contentstack User Attributes API
   slug: contentstack-user-attributes-api
-- description: Endpoints for authenticating users and managing session tokens within Contentstack.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Endpoints for authenticating users and managing session tokens within Contentstack.
   name: contentstack User Sessions API
   slug: contentstack-user-sessions-api
-- description: Endpoints for managing Contentstack user accounts including profile updates, password resets, and account activation.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Endpoints for managing Contentstack user accounts including profile updates, password resets, and account activation.
   name: contentstack Users API
   slug: contentstack-users-api
-- description: Project variables are reusable key-value pairs that can be referenced across multiple automations within a project.
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Project variables are reusable key-value pairs that can be referenced across multiple automations within a project.
   name: contentstack Variables API
   slug: contentstack-variables-api
-- description: Voice Profiles define the writing style, tone, and persona characteristics for AI content generation within a Brand Kit. Multiple voice profiles can be created to support different content contexts or
+- baseURL: https://cdn.contentstack.io
+  baseurl_source: declared
+  description: Voice Profiles define the writing style, tone, and persona characteristics for AI content generation within a Brand Kit. Multiple voice profiles can be created to support different content contexts or
   name: contentstack Voice Profiles API
   slug: contentstack-voice-profiles-api
 artifact_total: 200
@@ -687,16 +753,16 @@ jsonld:
   slug: contentstack-context
 layout: provider
 modified: '2026-05-19'
-name: contentstack
+name: Contentstack
 nav: Providers
 network: true
-overview: 'contentstack publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Accounts API, Assets API, and 30 more.
+overview: 'Contentstack publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Accounts API, Assets API, and 30 more.
 
 
-  The contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  contentstack''s developer surface includes authentication and 13 more developer resources.'
+  Contentstack''s developer surface includes authentication and 13 more developer resources.'
 plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
@@ -710,7 +776,7 @@ rules:
 - effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: contentstack API Rules
+  name: Contentstack API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -720,7 +786,7 @@ rules:
   slug: contentstack-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: contentstack API Rules
+  name: Contentstack API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -731,7 +797,7 @@ rules:
 - effective_rule_count: 49
   extends:
   - spectral:oas
-  name: contentstack API Rules
+  name: Contentstack API Rules
   rule_count: 8
   severity_counts:
     error: 5
@@ -747,7 +813,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -757,7 +823,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.1
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -767,10 +833,10 @@ score:
       total: 43
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:

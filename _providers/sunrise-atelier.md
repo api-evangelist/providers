@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Ip API from Sunrise Atelier — 2 operation(s) for ip.
+- baseURL: https://time.now/developer/api
+  baseurl_source: declared
+  description: The Ip API from Sunrise Atelier — 2 operation(s) for ip.
   name: Sunrise Atelier Ip API
   slug: sunrise-atelier-ip-api
-- description: The Timezone API from Sunrise Atelier — 2 operation(s) for timezone.
+- baseURL: https://time.now/developer/api
+  baseurl_source: declared
+  description: The Timezone API from Sunrise Atelier — 2 operation(s) for timezone.
   name: Sunrise Atelier Timezone API
   slug: sunrise-atelier-timezone-api
 artifact_total: 8
@@ -115,7 +119,7 @@ score:
   band: developing
   composite: 42.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -140,8 +144,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sunrise-atelier/refs/heads/main/screenshots/sunrise-atelier-2026-09-02T161146.png
 security:
 - kind: authentication
   name: Sunrise Atelier Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 4
 apis:
-- description: Location activation and location detail retrieval.
+- baseURL: https://sandbox-api.itsacheckmate.com
+  baseurl_source: declared
+  description: Location activation and location detail retrieval.
   name: ItsaCheckmate Locations API
   slug: itsacheckmate-locations-api
-- description: Menu retrieval per ordering platform.
+- baseURL: https://sandbox-api.itsacheckmate.com
+  baseurl_source: declared
+  description: Menu retrieval per ordering platform.
   name: ItsaCheckmate Menus API
   slug: itsacheckmate-menus-api
-- description: Token issuance, refresh, and introspection.
+- baseURL: https://sandbox-api.itsacheckmate.com
+  baseurl_source: declared
+  description: Token issuance, refresh, and introspection.
   name: ItsaCheckmate OAuth API
   slug: itsacheckmate-oauth-api
-- description: Standard and group order submission into the POS.
+- baseURL: https://sandbox-api.itsacheckmate.com
+  baseurl_source: declared
+  description: Standard and group order submission into the POS.
   name: ItsaCheckmate Orders API
   slug: itsacheckmate-orders-api
 artifact_total: 61
@@ -337,7 +345,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -347,7 +355,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 35.5
-  previous_composite: 40.0
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -356,7 +364,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
 security:

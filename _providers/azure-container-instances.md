@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 16 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Operations API from Azure Container Instances — 1 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operations API from Azure Container Instances — 1 operation(s) for operations.
   name: Azure Container Instances Operations API
   slug: azure-container-instances-operations-api
-- description: The Subscriptions API from Azure Container Instances — 12 operation(s) for subscriptions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Subscriptions API from Azure Container Instances — 12 operation(s) for subscriptions.
   name: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
 artifact_total: 100
@@ -468,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/screenshots/azure-container-instances-2026-06-20T172844.png
 security:

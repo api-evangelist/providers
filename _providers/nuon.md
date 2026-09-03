@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 826 operations · 350 acting · 16 human-in-the-loop
 api_count: 2
 apis:
-- description: accounts
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: accounts
   name: Nuon accounts API
   slug: nuon-accounts-api
-- description: actions
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: actions
   name: Nuon actions API
   slug: nuon-actions-api
-- description: actions/runner
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: actions/runner
   name: Nuon actions/runner API
   slug: nuon-actions-runner-api
-- description: apps
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: apps
   name: Nuon apps API
   slug: nuon-apps-api
-- description: auth
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: auth
   name: Nuon auth API
   slug: nuon-auth-api
-- description: components
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: components
   name: Nuon components API
   slug: nuon-components-api
-- description: general
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: general
   name: Nuon general API
   slug: nuon-general-api
-- description: installs
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: installs
   name: Nuon installs API
   slug: nuon-installs-api
-- description: notebooks
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: notebooks
   name: Nuon notebooks API
   slug: nuon-notebooks-api
-- description: onboarding
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: onboarding
   name: Nuon onboarding API
   slug: nuon-onboarding-api
-- description: orgs
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: orgs
   name: Nuon orgs API
   slug: nuon-orgs-api
-- description: policy-reports
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: policy-reports
   name: Nuon policy-reports API
   slug: nuon-policy-reports-api
-- description: queues
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: queues
   name: Nuon queues API
   slug: nuon-queues-api
-- description: runbooks
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: runbooks
   name: Nuon runbooks API
   slug: nuon-runbooks-api
-- description: runners
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: runners
   name: Nuon runners API
   slug: nuon-runners-api
-- description: runners/runner
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: runners/runner
   name: Nuon runners/runner API
   slug: nuon-runners-runner-api
-- description: slack
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: slack
   name: Nuon slack API
   slug: nuon-slack-api
-- description: vcs
+- baseURL: https://api.nuon.co
+  baseurl_source: declared
+  description: vcs
   name: Nuon vcs API
   slug: nuon-vcs-api
 artifact_total: 43
@@ -337,7 +373,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -347,7 +383,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 52.6
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,7 +395,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/screenshots/nuon-2026-08-07T185744.png
 security:

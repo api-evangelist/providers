@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: The Companies API from Google Cloud Talent Solution — 1 operation(s) for companies.
+- baseURL: https://jobs.googleapis.com
+  baseurl_source: declared
+  description: The Companies API from Google Cloud Talent Solution — 1 operation(s) for companies.
   name: Google Cloud Talent Solution Companies API
   slug: google-cloud-talent-solution-companies-api
-- description: The Jobs API from Google Cloud Talent Solution — 3 operation(s) for jobs.
+- baseURL: https://jobs.googleapis.com
+  baseurl_source: declared
+  description: The Jobs API from Google Cloud Talent Solution — 3 operation(s) for jobs.
   name: Google Cloud Talent Solution Jobs API
   slug: google-cloud-talent-solution-jobs-api
-- description: The Tenants API from Google Cloud Talent Solution — 2 operation(s) for tenants.
+- baseURL: https://jobs.googleapis.com
+  baseurl_source: declared
+  description: The Tenants API from Google Cloud Talent Solution — 2 operation(s) for tenants.
   name: Google Cloud Talent Solution Tenants API
   slug: google-cloud-talent-solution-tenants-api
 artifact_total: 19
@@ -191,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/screenshots/google-cloud-talent-solution-2026-08-17T083409.png
 security:

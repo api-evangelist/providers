@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,169 +36,275 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 94
 apis:
 - description: MEF 133.1 streaming template — the AsyncAPI definition published by Mplify (formerly MEF) in the MEF LSO Interlude SDK, Kylie release. LSO Interlude is the Interface Reference Point between two Servic
   name: MEF LSO Interlude MEF 133.1 streaming template
   slug: mef-lso-interlude-performance.template
-- description: The alarm API from MEF — 2 operation(s) for alarm.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The alarm API from MEF — 2 operation(s) for alarm.
   name: MEF Alarm API
   slug: mef-alarm-api
-- description: The appointment API from MEF — 2 operation(s) for appointment.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The appointment API from MEF — 2 operation(s) for appointment.
   name: MEF Appointment API
   slug: mef-appointment-api
-- description: The appointment operations API from MEF — 1 operation(s) for appointment operations.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The appointment operations API from MEF — 1 operation(s) for appointment operations.
   name: MEF appointment operations API
   slug: mef-appointment-operations-api
-- description: The cancelProductOrder API from MEF — 2 operation(s) for cancelproductorder.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The cancelProductOrder API from MEF — 2 operation(s) for cancelproductorder.
   name: MEF Cancel Product Order API
   slug: mef-cancelproductorder-api
-- description: The cancelTestJob API from MEF — 2 operation(s) for canceltestjob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The cancelTestJob API from MEF — 2 operation(s) for canceltestjob.
   name: MEF Cancel Test Job API
   slug: mef-canceltestjob-api
-- description: The category API from MEF — 2 operation(s) for category.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The category API from MEF — 2 operation(s) for category.
   name: MEF Category API
   slug: mef-category-api
-- description: The charge API from MEF — 2 operation(s) for charge.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The charge API from MEF — 2 operation(s) for charge.
   name: MEF Charge API
   slug: mef-charge-api
-- description: The CIM Incident API from MEF — 2 operation(s) for cim incident.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The CIM Incident API from MEF — 2 operation(s) for cim incident.
   name: MEF CIM Incident API
   slug: mef-cim-incident-api
-- description: The Customer Bill API from MEF — 3 operation(s) for customer bill.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Customer Bill API from MEF — 3 operation(s) for customer bill.
   name: MEF Customer Bill API
   slug: mef-customer-bill-api
-- description: Mechanism for SOF to publish *Service* notifications to BUS
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Mechanism for SOF to publish *Service* notifications to BUS
   name: MEF Event listeners API
   slug: mef-event-listeners-api
-- description: The events subscription API from MEF — 2 operation(s) for events subscription.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The events subscription API from MEF — 2 operation(s) for events subscription.
   name: MEF events subscription API
   slug: mef-events-subscription-api
-- description: Mechanisms for BUS to subscribe/unsubscribe to *Notifications*.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Mechanisms for BUS to subscribe/unsubscribe to *Notifications*.
   name: MEF Event Subscription Hub API
   slug: mef-eventsubscriptionhub-api
-- description: The faultManagementJob API from MEF — 9 operation(s) for faultmanagementjob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The faultManagementJob API from MEF — 9 operation(s) for faultmanagementjob.
   name: MEF Fault Management Job API
   slug: mef-faultmanagementjob-api
-- description: The faultManagementReport API from MEF — 3 operation(s) for faultmanagementreport.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The faultManagementReport API from MEF — 3 operation(s) for faultmanagementreport.
   name: MEF Fault Management Report API
   slug: mef-faultmanagementreport-api
-- description: The geographicAddress API from MEF — 1 operation(s) for geographicaddress.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The geographicAddress API from MEF — 1 operation(s) for geographicaddress.
   name: MEF Geographic Address API
   slug: mef-geographicaddress-api
-- description: The geographicAddressValidation API from MEF — 2 operation(s) for geographicaddressvalidation.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The geographicAddressValidation API from MEF — 2 operation(s) for geographicaddressvalidation.
   name: MEF Geographic Address Validation API
   slug: mef-geographicaddressvalidation-api
-- description: The geographicSite API from MEF — 2 operation(s) for geographicsite.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The geographicSite API from MEF — 2 operation(s) for geographicsite.
   name: MEF Geographic Site API
   slug: mef-geographicsite-api
-- description: The incident API from MEF — 2 operation(s) for incident.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The incident API from MEF — 2 operation(s) for incident.
   name: MEF Incident API
   slug: mef-incident-api
-- description: The modifyProductOrderItemRequestedDeliveryDate API from MEF — 2 operation(s) for modifyproductorderitemrequesteddeliverydate.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The modifyProductOrderItemRequestedDeliveryDate API from MEF — 2 operation(s) for modifyproductorderitemrequesteddeliverydate.
   name: MEF Modify Product Order Item Requested Delivery Date API
   slug: mef-modifyproductorderitemrequesteddeliverydate-api
-- description: The modifyTestJob API from MEF — 2 operation(s) for modifytestjob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The modifyTestJob API from MEF — 2 operation(s) for modifytestjob.
   name: MEF Modify Test Job API
   slug: mef-modifytestjob-api
-- description: The Buyer/Client's endpoint to send particular event types notifications to.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Buyer/Client's endpoint to send particular event types notifications to.
   name: MEF Notification listeners API
   slug: mef-notification-listeners-api
-- description: The performanceJob API from MEF — 9 operation(s) for performancejob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The performanceJob API from MEF — 9 operation(s) for performancejob.
   name: MEF Performance Job API
   slug: mef-performancejob-api
-- description: The performanceProfile API from MEF — 2 operation(s) for performanceprofile.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The performanceProfile API from MEF — 2 operation(s) for performanceprofile.
   name: MEF Performance Profile API
   slug: mef-performanceprofile-api
-- description: The performanceReport API from MEF — 3 operation(s) for performancereport.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The performanceReport API from MEF — 3 operation(s) for performancereport.
   name: MEF Performance Report API
   slug: mef-performancereport-api
-- description: The Pricing Discovery API from MEF — 1 operation(s) for pricing discovery.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Pricing Discovery API from MEF — 1 operation(s) for pricing discovery.
   name: MEF Pricing Discovery API
   slug: mef-pricing-discovery-api
-- description: The product API from MEF — 2 operation(s) for product.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The product API from MEF — 2 operation(s) for product.
   name: MEF Product API
   slug: mef-product-api
-- description: The Product Offering Availability API from MEF — 1 operation(s) for product offering availability.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Product Offering Availability API from MEF — 1 operation(s) for product offering availability.
   name: MEF Product Offering Availability API
   slug: mef-product-offering-availability-api
-- description: The productOffering API from MEF — 2 operation(s) for productoffering.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The productOffering API from MEF — 2 operation(s) for productoffering.
   name: MEF Product Offering API
   slug: mef-productoffering-api
-- description: Operations for managing the Product Offering Qualification request.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Operations for managing the Product Offering Qualification request.
   name: MEF Product Offering Qualification API
   slug: mef-productofferingqualification-api
-- description: The productOrder API from MEF — 2 operation(s) for productorder.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The productOrder API from MEF — 2 operation(s) for productorder.
   name: MEF Product Order API
   slug: mef-productorder-api
-- description: The productSpecification API from MEF — 2 operation(s) for productspecification.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The productSpecification API from MEF — 2 operation(s) for productspecification.
   name: MEF Product Specification API
   slug: mef-productspecification-api
-- description: The quote API from MEF — 2 operation(s) for quote.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The quote API from MEF — 2 operation(s) for quote.
   name: MEF Quote API
   slug: mef-quote-api
-- description: The quote operations API from MEF — 2 operation(s) for quote operations.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The quote operations API from MEF — 2 operation(s) for quote operations.
   name: MEF quote operations API
   slug: mef-quote-operations-api
-- description: The resumeTestJob API from MEF — 2 operation(s) for resumetestjob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The resumeTestJob API from MEF — 2 operation(s) for resumetestjob.
   name: MEF Resume Test Job API
   slug: mef-resumetestjob-api
-- description: The searchTimeSlot API from MEF — 1 operation(s) for searchtimeslot.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The searchTimeSlot API from MEF — 1 operation(s) for searchtimeslot.
   name: MEF Search Time Slot API
   slug: mef-searchtimeslot-api
-- description: Mechanisms for BUS to query and retrieve *ServiceInstances*.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Mechanisms for BUS to query and retrieve *ServiceInstances*.
   name: MEF Service API
   slug: mef-service-api
-- description: Operations for Service Order Resource
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Operations for Service Order Resource
   name: MEF Service Order API
   slug: mef-service-order-api
-- description: Mechanisms for BUS to query and retrieve *ServiceSpecifications*.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Mechanisms for BUS to query and retrieve *ServiceSpecifications*.
   name: MEF Service Specification API
   slug: mef-servicespecification-api
-- description: Mechanism for SOF to publish *ServiceSpecification* notifications to BUS
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Mechanism for SOF to publish *ServiceSpecification* notifications to BUS
   name: MEF Service Specification Notification API
   slug: mef-servicespecificationnotification-api
-- description: Groups all operations related to subscribed topics and subscription management.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Groups all operations related to subscribed topics and subscription management.
   name: MEF Subscription API
   slug: mef-subscription-api
-- description: The suspendTestJob API from MEF — 2 operation(s) for suspendtestjob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The suspendTestJob API from MEF — 2 operation(s) for suspendtestjob.
   name: MEF Suspend Test Job API
   slug: mef-suspendtestjob-api
-- description: The tapi-common API from MEF — 18 operation(s) for tapi-common.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The tapi-common API from MEF — 18 operation(s) for tapi-common.
   name: MEF Tapi Common API
   slug: mef-tapi-common-api
-- description: The tapi-connectivity API from MEF — 6 operation(s) for tapi-connectivity.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The tapi-connectivity API from MEF — 6 operation(s) for tapi-connectivity.
   name: MEF Tapi Connectivity API
   slug: mef-tapi-connectivity-api
-- description: The tapi-path-computation API from MEF — 3 operation(s) for tapi-path-computation.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The tapi-path-computation API from MEF — 3 operation(s) for tapi-path-computation.
   name: MEF Tapi Path Computation API
   slug: mef-tapi-path-computation-api
-- description: The tapi-topology API from MEF — 5 operation(s) for tapi-topology.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The tapi-topology API from MEF — 5 operation(s) for tapi-topology.
   name: MEF Tapi Topology API
   slug: mef-tapi-topology-api
-- description: The testJob API from MEF — 2 operation(s) for testjob.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The testJob API from MEF — 2 operation(s) for testjob.
   name: MEF Test Job API
   slug: mef-testjob-api
-- description: The testProfile API from MEF — 2 operation(s) for testprofile.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The testProfile API from MEF — 2 operation(s) for testprofile.
   name: MEF Test Profile API
   slug: mef-testprofile-api
-- description: The testResult API from MEF — 2 operation(s) for testresult.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The testResult API from MEF — 2 operation(s) for testresult.
   name: MEF Test Result API
   slug: mef-testresult-api
-- description: Groups all operations related to the available topic.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Groups all operations related to the available topic.
   name: MEF Topic API
   slug: mef-topic-api
-- description: The trackingRecord API from MEF — 1 operation(s) for trackingrecord.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The trackingRecord API from MEF — 1 operation(s) for trackingrecord.
   name: MEF Tracking Record API
   slug: mef-trackingrecord-api
-- description: The troubleTicket API from MEF — 2 operation(s) for troubleticket.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The troubleTicket API from MEF — 2 operation(s) for troubleticket.
   name: MEF Trouble Ticket API
   slug: mef-troubleticket-api
-- description: The troubleTicket operations API from MEF — 3 operation(s) for troubleticket operations.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The troubleTicket operations API from MEF — 3 operation(s) for troubleticket operations.
   name: MEF troubleTicket operations API
   slug: mef-troubleticket-operations-api
-- description: The workorder API from MEF — 2 operation(s) for workorder.
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The workorder API from MEF — 2 operation(s) for workorder.
   name: MEF Workorder API
   slug: mef-workorder-api
 artifact_total: 154
@@ -728,23 +847,23 @@ scopes:
   summary_line: 218 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.2
+  composite: 53.1
   coverage:
     artifact_dirs: 26
-    catalog_gap: 88.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 52.3
     developer_ergonomics: 85.1
-    discoverability: 57.4
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -761,7 +880,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png
 security:

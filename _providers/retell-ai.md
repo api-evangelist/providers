@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -44,238 +44,394 @@ agentic_access:
   summary_line: 86 operations · 49 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Add Community Voice API from Retell AI — 1 operation(s) for add community voice.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Add Community Voice API from Retell AI — 1 operation(s) for add community voice.
   name: Retell AI Add Community Voice API
   slug: retell-ai-add-community-voice-api
-- description: The Add Knowledge Base Sources API from Retell AI — 1 operation(s) for add knowledge base sources.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Add Knowledge Base Sources API from Retell AI — 1 operation(s) for add knowledge base sources.
   name: Retell AI Add Knowledge Base Sources API
   slug: retell-ai-add-knowledge-base-sources-api
-- description: The Agent Playground Completion API from Retell AI — 1 operation(s) for agent playground completion.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Agent Playground Completion API from Retell AI — 1 operation(s) for agent playground completion.
   name: Retell AI Agent Playground Completion API
   slug: retell-ai-agent-playground-completion-api
-- description: The Clone Voice API from Retell AI — 1 operation(s) for clone voice.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Clone Voice API from Retell AI — 1 operation(s) for clone voice.
   name: Retell AI Clone Voice API
   slug: retell-ai-clone-voice-api
-- description: The Create Agent API from Retell AI — 1 operation(s) for create agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Agent API from Retell AI — 1 operation(s) for create agent.
   name: Retell AI Create Agent API
   slug: retell-ai-create-agent-api
-- description: The Create Agent Version API from Retell AI — 1 operation(s) for create agent version.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Agent Version API from Retell AI — 1 operation(s) for create agent version.
   name: Retell AI Create Agent Version API
   slug: retell-ai-create-agent-version-api
-- description: The Create Batch Call API from Retell AI — 1 operation(s) for create batch call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Batch Call API from Retell AI — 1 operation(s) for create batch call.
   name: Retell AI Create Batch Call API
   slug: retell-ai-create-batch-call-api
-- description: The Create Batch Test API from Retell AI — 1 operation(s) for create batch test.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Batch Test API from Retell AI — 1 operation(s) for create batch test.
   name: Retell AI Create Batch Test API
   slug: retell-ai-create-batch-test-api
-- description: The Create Chat Agent API from Retell AI — 1 operation(s) for create chat agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Chat Agent API from Retell AI — 1 operation(s) for create chat agent.
   name: Retell AI Create Chat Agent API
   slug: retell-ai-create-chat-agent-api
-- description: The Create Chat API from Retell AI — 1 operation(s) for create chat.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Chat API from Retell AI — 1 operation(s) for create chat.
   name: Retell AI Create Chat API
   slug: retell-ai-create-chat-api
-- description: The Create Chat Completion API from Retell AI — 1 operation(s) for create chat completion.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Chat Completion API from Retell AI — 1 operation(s) for create chat completion.
   name: Retell AI Create Chat Completion API
   slug: retell-ai-create-chat-completion-api
-- description: The Create Conversation Flow API from Retell AI — 1 operation(s) for create conversation flow.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Conversation Flow API from Retell AI — 1 operation(s) for create conversation flow.
   name: Retell AI Create Conversation Flow API
   slug: retell-ai-create-conversation-flow-api
-- description: The Create Conversation Flow Component API from Retell AI — 1 operation(s) for create conversation flow component.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Conversation Flow Component API from Retell AI — 1 operation(s) for create conversation flow component.
   name: Retell AI Create Conversation Flow Component API
   slug: retell-ai-create-conversation-flow-component-api
-- description: The Create Knowledge Base API from Retell AI — 1 operation(s) for create knowledge base.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Knowledge Base API from Retell AI — 1 operation(s) for create knowledge base.
   name: Retell AI Create Knowledge Base API
   slug: retell-ai-create-knowledge-base-api
-- description: The Create Phone Call API from Retell AI — 1 operation(s) for create phone call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Phone Call API from Retell AI — 1 operation(s) for create phone call.
   name: Retell AI Create Phone Call API
   slug: retell-ai-create-phone-call-api
-- description: The Create Phone Number API from Retell AI — 1 operation(s) for create phone number.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Phone Number API from Retell AI — 1 operation(s) for create phone number.
   name: Retell AI Create Phone Number API
   slug: retell-ai-create-phone-number-api
-- description: The Create Retell Llm API from Retell AI — 1 operation(s) for create retell llm.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Retell Llm API from Retell AI — 1 operation(s) for create retell llm.
   name: Retell AI Create Retell Llm API
   slug: retell-ai-create-retell-llm-api
-- description: The Create Sms Chat API from Retell AI — 1 operation(s) for create sms chat.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Sms Chat API from Retell AI — 1 operation(s) for create sms chat.
   name: Retell AI Create Sms Chat API
   slug: retell-ai-create-sms-chat-api
-- description: The Create Test Case Definition API from Retell AI — 1 operation(s) for create test case definition.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Test Case Definition API from Retell AI — 1 operation(s) for create test case definition.
   name: Retell AI Create Test Case Definition API
   slug: retell-ai-create-test-case-definition-api
-- description: The Create Web Call API from Retell AI — 1 operation(s) for create web call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Create Web Call API from Retell AI — 1 operation(s) for create web call.
   name: Retell AI Create Web Call API
   slug: retell-ai-create-web-call-api
-- description: The Delete Agent API from Retell AI — 1 operation(s) for delete agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Agent API from Retell AI — 1 operation(s) for delete agent.
   name: Retell AI Delete Agent API
   slug: retell-ai-delete-agent-api
-- description: The Delete Agent Version API from Retell AI — 1 operation(s) for delete agent version.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Agent Version API from Retell AI — 1 operation(s) for delete agent version.
   name: Retell AI Delete Agent Version API
   slug: retell-ai-delete-agent-version-api
-- description: The Delete Call API from Retell AI — 1 operation(s) for delete call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Call API from Retell AI — 1 operation(s) for delete call.
   name: Retell AI Delete Call API
   slug: retell-ai-delete-call-api
-- description: The Delete Chat Agent API from Retell AI — 1 operation(s) for delete chat agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Chat Agent API from Retell AI — 1 operation(s) for delete chat agent.
   name: Retell AI Delete Chat Agent API
   slug: retell-ai-delete-chat-agent-api
-- description: The Delete Conversation Flow API from Retell AI — 1 operation(s) for delete conversation flow.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Conversation Flow API from Retell AI — 1 operation(s) for delete conversation flow.
   name: Retell AI Delete Conversation Flow API
   slug: retell-ai-delete-conversation-flow-api
-- description: The Delete Conversation Flow Component API from Retell AI — 1 operation(s) for delete conversation flow component.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Conversation Flow Component API from Retell AI — 1 operation(s) for delete conversation flow component.
   name: Retell AI Delete Conversation Flow Component API
   slug: retell-ai-delete-conversation-flow-component-api
-- description: The Delete Knowledge Base API from Retell AI — 1 operation(s) for delete knowledge base.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Knowledge Base API from Retell AI — 1 operation(s) for delete knowledge base.
   name: Retell AI Delete Knowledge Base API
   slug: retell-ai-delete-knowledge-base-api
-- description: The Delete Knowledge Base Source API from Retell AI — 1 operation(s) for delete knowledge base source.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Knowledge Base Source API from Retell AI — 1 operation(s) for delete knowledge base source.
   name: Retell AI Delete Knowledge Base Source API
   slug: retell-ai-delete-knowledge-base-source-api
-- description: The Delete Phone Number API from Retell AI — 1 operation(s) for delete phone number.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Phone Number API from Retell AI — 1 operation(s) for delete phone number.
   name: Retell AI Delete Phone Number API
   slug: retell-ai-delete-phone-number-api
-- description: The Delete Retell Llm API from Retell AI — 1 operation(s) for delete retell llm.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Retell Llm API from Retell AI — 1 operation(s) for delete retell llm.
   name: Retell AI Delete Retell Llm API
   slug: retell-ai-delete-retell-llm-api
-- description: The Delete Test Case Definition API from Retell AI — 1 operation(s) for delete test case definition.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Delete Test Case Definition API from Retell AI — 1 operation(s) for delete test case definition.
   name: Retell AI Delete Test Case Definition API
   slug: retell-ai-delete-test-case-definition-api
-- description: The End Chat API from Retell AI — 1 operation(s) for end chat.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The End Chat API from Retell AI — 1 operation(s) for end chat.
   name: Retell AI End Chat API
   slug: retell-ai-end-chat-api
-- description: The Get Agent API from Retell AI — 1 operation(s) for get agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Agent API from Retell AI — 1 operation(s) for get agent.
   name: Retell AI Get Agent API
   slug: retell-ai-get-agent-api
-- description: The Get Agent Versions API from Retell AI — 1 operation(s) for get agent versions.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Agent Versions API from Retell AI — 1 operation(s) for get agent versions.
   name: Retell AI Get Agent Versions API
   slug: retell-ai-get-agent-versions-api
-- description: The Get Batch Test API from Retell AI — 1 operation(s) for get batch test.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Batch Test API from Retell AI — 1 operation(s) for get batch test.
   name: Retell AI Get Batch Test API
   slug: retell-ai-get-batch-test-api
-- description: The Get Call API from Retell AI — 1 operation(s) for get call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Call API from Retell AI — 1 operation(s) for get call.
   name: Retell AI Get Call API
   slug: retell-ai-get-call-api
-- description: The Get Chat Agent API from Retell AI — 1 operation(s) for get chat agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Chat Agent API from Retell AI — 1 operation(s) for get chat agent.
   name: Retell AI Get Chat Agent API
   slug: retell-ai-get-chat-agent-api
-- description: The Get Chat Agent Versions API from Retell AI — 1 operation(s) for get chat agent versions.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Chat Agent Versions API from Retell AI — 1 operation(s) for get chat agent versions.
   name: Retell AI Get Chat Agent Versions API
   slug: retell-ai-get-chat-agent-versions-api
-- description: The Get Chat API from Retell AI — 1 operation(s) for get chat.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Chat API from Retell AI — 1 operation(s) for get chat.
   name: Retell AI Get Chat API
   slug: retell-ai-get-chat-api
-- description: The Get Concurrency API from Retell AI — 1 operation(s) for get concurrency.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Concurrency API from Retell AI — 1 operation(s) for get concurrency.
   name: Retell AI Get Concurrency API
   slug: retell-ai-get-concurrency-api
-- description: The Get Conversation Flow API from Retell AI — 1 operation(s) for get conversation flow.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Conversation Flow API from Retell AI — 1 operation(s) for get conversation flow.
   name: Retell AI Get Conversation Flow API
   slug: retell-ai-get-conversation-flow-api
-- description: The Get Conversation Flow Component API from Retell AI — 1 operation(s) for get conversation flow component.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Conversation Flow Component API from Retell AI — 1 operation(s) for get conversation flow component.
   name: Retell AI Get Conversation Flow Component API
   slug: retell-ai-get-conversation-flow-component-api
-- description: The Get Knowledge Base API from Retell AI — 1 operation(s) for get knowledge base.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Knowledge Base API from Retell AI — 1 operation(s) for get knowledge base.
   name: Retell AI Get Knowledge Base API
   slug: retell-ai-get-knowledge-base-api
-- description: The Get Mcp Tools API from Retell AI — 1 operation(s) for get mcp tools.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Mcp Tools API from Retell AI — 1 operation(s) for get mcp tools.
   name: Retell AI Get Mcp Tools API
   slug: retell-ai-get-mcp-tools-api
-- description: The Get Phone Number API from Retell AI — 1 operation(s) for get phone number.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Phone Number API from Retell AI — 1 operation(s) for get phone number.
   name: Retell AI Get Phone Number API
   slug: retell-ai-get-phone-number-api
-- description: The Get Retell Llm API from Retell AI — 1 operation(s) for get retell llm.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Retell Llm API from Retell AI — 1 operation(s) for get retell llm.
   name: Retell AI Get Retell Llm API
   slug: retell-ai-get-retell-llm-api
-- description: The Get Test Case Definition API from Retell AI — 1 operation(s) for get test case definition.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Test Case Definition API from Retell AI — 1 operation(s) for get test case definition.
   name: Retell AI Get Test Case Definition API
   slug: retell-ai-get-test-case-definition-api
-- description: The Get Test Run API from Retell AI — 1 operation(s) for get test run.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Test Run API from Retell AI — 1 operation(s) for get test run.
   name: Retell AI Get Test Run API
   slug: retell-ai-get-test-run-api
-- description: The Get Voice API from Retell AI — 1 operation(s) for get voice.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Get Voice API from Retell AI — 1 operation(s) for get voice.
   name: Retell AI Get Voice API
   slug: retell-ai-get-voice-api
-- description: The Import Phone Number API from Retell AI — 1 operation(s) for import phone number.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Import Phone Number API from Retell AI — 1 operation(s) for import phone number.
   name: Retell AI Import Phone Number API
   slug: retell-ai-import-phone-number-api
-- description: The List Agents API from Retell AI — 1 operation(s) for list agents.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Agents API from Retell AI — 1 operation(s) for list agents.
   name: Retell AI List Agents API
   slug: retell-ai-list-agents-api
-- description: The List Batch Tests API from Retell AI — 2 operation(s) for list batch tests.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Batch Tests API from Retell AI — 2 operation(s) for list batch tests.
   name: Retell AI List Batch Tests API
   slug: retell-ai-list-batch-tests-api
-- description: The List Calls API from Retell AI — 2 operation(s) for list calls.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Calls API from Retell AI — 2 operation(s) for list calls.
   name: Retell AI List Calls API
   slug: retell-ai-list-calls-api
-- description: The List Chat Agents API from Retell AI — 1 operation(s) for list chat agents.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Chat Agents API from Retell AI — 1 operation(s) for list chat agents.
   name: Retell AI List Chat Agents API
   slug: retell-ai-list-chat-agents-api
-- description: The List Chat API from Retell AI — 1 operation(s) for list chat.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Chat API from Retell AI — 1 operation(s) for list chat.
   name: Retell AI List Chat API
   slug: retell-ai-list-chat-api
-- description: The List Chats API from Retell AI — 1 operation(s) for list chats.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Chats API from Retell AI — 1 operation(s) for list chats.
   name: Retell AI List Chats API
   slug: retell-ai-list-chats-api
-- description: The List Conversation Flow Components API from Retell AI — 2 operation(s) for list conversation flow components.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Conversation Flow Components API from Retell AI — 2 operation(s) for list conversation flow components.
   name: Retell AI List Conversation Flow Components API
   slug: retell-ai-list-conversation-flow-components-api
-- description: The List Conversation Flows API from Retell AI — 2 operation(s) for list conversation flows.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Conversation Flows API from Retell AI — 2 operation(s) for list conversation flows.
   name: Retell AI List Conversation Flows API
   slug: retell-ai-list-conversation-flows-api
-- description: The List Export Requests API from Retell AI — 1 operation(s) for list export requests.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Export Requests API from Retell AI — 1 operation(s) for list export requests.
   name: Retell AI List Export Requests API
   slug: retell-ai-list-export-requests-api
-- description: The List Knowledge Bases API from Retell AI — 1 operation(s) for list knowledge bases.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Knowledge Bases API from Retell AI — 1 operation(s) for list knowledge bases.
   name: Retell AI List Knowledge Bases API
   slug: retell-ai-list-knowledge-bases-api
-- description: The List Phone Numbers API from Retell AI — 2 operation(s) for list phone numbers.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Phone Numbers API from Retell AI — 2 operation(s) for list phone numbers.
   name: Retell AI List Phone Numbers API
   slug: retell-ai-list-phone-numbers-api
-- description: The List Retell Llms API from Retell AI — 2 operation(s) for list retell llms.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Retell Llms API from Retell AI — 2 operation(s) for list retell llms.
   name: Retell AI List Retell Llms API
   slug: retell-ai-list-retell-llms-api
-- description: The List Test Case Definitions API from Retell AI — 2 operation(s) for list test case definitions.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Test Case Definitions API from Retell AI — 2 operation(s) for list test case definitions.
   name: Retell AI List Test Case Definitions API
   slug: retell-ai-list-test-case-definitions-api
-- description: The List Test Runs API from Retell AI — 2 operation(s) for list test runs.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Test Runs API from Retell AI — 2 operation(s) for list test runs.
   name: Retell AI List Test Runs API
   slug: retell-ai-list-test-runs-api
-- description: The List Voices API from Retell AI — 1 operation(s) for list voices.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The List Voices API from Retell AI — 1 operation(s) for list voices.
   name: Retell AI List Voices API
   slug: retell-ai-list-voices-api
-- description: The Publish Agent Version API from Retell AI — 1 operation(s) for publish agent version.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Publish Agent Version API from Retell AI — 1 operation(s) for publish agent version.
   name: Retell AI Publish Agent Version API
   slug: retell-ai-publish-agent-version-api
-- description: The Register Phone Call API from Retell AI — 1 operation(s) for register phone call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Register Phone Call API from Retell AI — 1 operation(s) for register phone call.
   name: Retell AI Register Phone Call API
   slug: retell-ai-register-phone-call-api
-- description: The Search Community Voice API from Retell AI — 1 operation(s) for search community voice.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Search Community Voice API from Retell AI — 1 operation(s) for search community voice.
   name: Retell AI Search Community Voice API
   slug: retell-ai-search-community-voice-api
-- description: The Stop Call API from Retell AI — 1 operation(s) for stop call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Stop Call API from Retell AI — 1 operation(s) for stop call.
   name: Retell AI Stop Call API
   slug: retell-ai-stop-call-api
-- description: The Update Agent API from Retell AI — 1 operation(s) for update agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Agent API from Retell AI — 1 operation(s) for update agent.
   name: Retell AI Update Agent API
   slug: retell-ai-update-agent-api
-- description: The Update Call API from Retell AI — 1 operation(s) for update call.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Call API from Retell AI — 1 operation(s) for update call.
   name: Retell AI Update Call API
   slug: retell-ai-update-call-api
-- description: The Update Chat Agent API from Retell AI — 1 operation(s) for update chat agent.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Chat Agent API from Retell AI — 1 operation(s) for update chat agent.
   name: Retell AI Update Chat Agent API
   slug: retell-ai-update-chat-agent-api
-- description: The Update Chat API from Retell AI — 1 operation(s) for update chat.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Chat API from Retell AI — 1 operation(s) for update chat.
   name: Retell AI Update Chat API
   slug: retell-ai-update-chat-api
-- description: The Update Conversation Flow API from Retell AI — 1 operation(s) for update conversation flow.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Conversation Flow API from Retell AI — 1 operation(s) for update conversation flow.
   name: Retell AI Update Conversation Flow API
   slug: retell-ai-update-conversation-flow-api
-- description: The Update Conversation Flow Component API from Retell AI — 1 operation(s) for update conversation flow component.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Conversation Flow Component API from Retell AI — 1 operation(s) for update conversation flow component.
   name: Retell AI Update Conversation Flow Component API
   slug: retell-ai-update-conversation-flow-component-api
-- description: The Update Phone Number API from Retell AI — 1 operation(s) for update phone number.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Phone Number API from Retell AI — 1 operation(s) for update phone number.
   name: Retell AI Update Phone Number API
   slug: retell-ai-update-phone-number-api
-- description: The Update Retell Llm API from Retell AI — 1 operation(s) for update retell llm.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Retell Llm API from Retell AI — 1 operation(s) for update retell llm.
   name: Retell AI Update Retell Llm API
   slug: retell-ai-update-retell-llm-api
-- description: The Update Test Case Definition API from Retell AI — 1 operation(s) for update test case definition.
+- baseURL: https://api.retellai.com
+  baseurl_source: declared
+  description: The Update Test Case Definition API from Retell AI — 1 operation(s) for update test case definition.
   name: Retell AI Update Test Case Definition API
   slug: retell-ai-update-test-case-definition-api
 artifact_total: 166
@@ -629,7 +785,7 @@ score:
     catalog_gap: 68.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -639,7 +795,7 @@ score:
     discoverability: 70.4
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 37.2
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -648,7 +804,7 @@ score:
       marker_coverage: 0.0
       total: 78
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/screenshots/retell-ai-2026-06-20T193039.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -95,25 +95,39 @@ apis:
 - description: Public repository of OpenAPI specifications for Clerk's APIs, used as the source for generated SDKs and documentation.
   name: Clerk OpenAPI Specifications
   slug: openapi-specs
-- description: The Invitations API from Clerk — 2 operation(s) for invitations.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The Invitations API from Clerk — 2 operation(s) for invitations.
   name: Clerk Invitations API
   slug: clerk-invitations-api
-- description: The JwtTemplates API from Clerk — 1 operation(s) for jwttemplates.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The JwtTemplates API from Clerk — 1 operation(s) for jwttemplates.
   name: Clerk JwtTemplates API
   slug: clerk-jwttemplates-api
-- description: The Organizations API from Clerk — 4 operation(s) for organizations.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The Organizations API from Clerk — 4 operation(s) for organizations.
   name: Clerk Organizations API
   slug: clerk-organizations-api
-- description: The Sessions API from Clerk — 4 operation(s) for sessions.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The Sessions API from Clerk — 4 operation(s) for sessions.
   name: Clerk Sessions API
   slug: clerk-sessions-api
-- description: The SignInTokens API from Clerk — 2 operation(s) for signintokens.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The SignInTokens API from Clerk — 2 operation(s) for signintokens.
   name: Clerk SignInTokens API
   slug: clerk-signintokens-api
-- description: The Users API from Clerk — 4 operation(s) for users.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The Users API from Clerk — 4 operation(s) for users.
   name: Clerk Users API
   slug: clerk-users-api
-- description: The Webhooks API from Clerk — 1 operation(s) for webhooks.
+- baseURL: https://api.clerk.com
+  baseurl_source: declared
+  description: The Webhooks API from Clerk — 1 operation(s) for webhooks.
   name: Clerk Webhooks API
   slug: clerk-webhooks-api
 artifact_total: 43
@@ -278,7 +292,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -291,7 +305,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -300,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png
 security:

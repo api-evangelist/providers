@@ -32,43 +32,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Account API from Johrh — 9 operation(s) for account.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Account API from Johrh — 9 operation(s) for account.
   name: Johrh Account API
   slug: johrh-account-api
-- description: The Auth API from Johrh — 4 operation(s) for auth.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Auth API from Johrh — 4 operation(s) for auth.
   name: Johrh Auth API
   slug: johrh-auth-api
-- description: The Categories API from Johrh — 3 operation(s) for categories.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Categories API from Johrh — 3 operation(s) for categories.
   name: Johrh Categories API
   slug: johrh-categories-api
-- description: The Checkout API from Johrh — 7 operation(s) for checkout.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Checkout API from Johrh — 7 operation(s) for checkout.
   name: Johrh Checkout API
   slug: johrh-checkout-api
-- description: The internal API from Johrh — 25 operation(s) for internal.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The internal API from Johrh — 25 operation(s) for internal.
   name: Johrh internal API
   slug: johrh-internal-api
-- description: The Metrics API from Johrh — 1 operation(s) for metrics.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Metrics API from Johrh — 1 operation(s) for metrics.
   name: Johrh Metrics API
   slug: johrh-metrics-api
-- description: The Orders API from Johrh — 6 operation(s) for orders.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Orders API from Johrh — 6 operation(s) for orders.
   name: Johrh Orders API
   slug: johrh-orders-api
-- description: The Payments API from Johrh — 19 operation(s) for payments.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Payments API from Johrh — 19 operation(s) for payments.
   name: Johrh Payments API
   slug: johrh-payments-api
-- description: The Products API from Johrh — 6 operation(s) for products.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Products API from Johrh — 6 operation(s) for products.
   name: Johrh Products API
   slug: johrh-products-api
-- description: The redirects API from Johrh — 30 operation(s) for redirects.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The redirects API from Johrh — 30 operation(s) for redirects.
   name: Johrh redirects API
   slug: johrh-redirects-api
-- description: The SSO API from Johrh — 3 operation(s) for sso.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The SSO API from Johrh — 3 operation(s) for sso.
   name: Johrh SSO API
   slug: johrh-sso-api
-- description: The Storefront API from Johrh — 17 operation(s) for storefront.
+- baseURL: https://johrh.com
+  baseurl_source: declared
+  description: The Storefront API from Johrh — 17 operation(s) for storefront.
   name: Johrh Storefront API
   slug: johrh-storefront-api
 artifact_total: 26
@@ -165,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johrh/refs/heads/main/screenshots/johrh-2026-07-25T223224.png
 security:

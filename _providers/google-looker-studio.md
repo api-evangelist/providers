@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: API for embedding Looker Studio reports in external applications.
   name: Google Looker Studio Embedding API
   slug: google-looker-studio-embedding-api
-- description: The Assets:search API from Google Looker Studio — 1 operation(s) for assets:search.
+- baseURL: https://datastudio.googleapis.com
+  baseurl_source: spec
+  description: The Assets:search API from Google Looker Studio — 1 operation(s) for assets:search.
   name: Google Looker Studio Assets:search API
   slug: google-looker-studio-assets-search-api
 artifact_total: 12
@@ -175,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-looker-studio/refs/heads/main/screenshots/google-looker-studio-2026-06-20T182212.png
 security:

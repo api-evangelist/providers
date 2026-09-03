@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 30 operations · 11 acting
 api_count: 1
 apis:
-- description: Appointments, booking settings, and cancellation.
+- baseURL: https://intakeq.com/api/v1
+  baseurl_source: declared
+  description: Appointments, booking settings, and cancellation.
   name: IntakeQ Appointments API
   slug: intakeq-appointments-api
-- description: Clients (patients), tags, and diagnoses.
+- baseURL: https://intakeq.com/api/v1
+  baseurl_source: declared
+  description: Clients (patients), tags, and diagnoses.
   name: IntakeQ Clients API
   slug: intakeq-clients-api
-- description: Client file attachments and folders.
+- baseURL: https://intakeq.com/api/v1
+  baseurl_source: declared
+  description: Client file attachments and folders.
   name: IntakeQ Files API
   slug: intakeq-files-api
-- description: Intake questionnaires, consent forms, templates, and practitioners.
+- baseURL: https://intakeq.com/api/v1
+  baseurl_source: declared
+  description: Intake questionnaires, consent forms, templates, and practitioners.
   name: IntakeQ Intake Forms API
   slug: intakeq-intake-forms-api
-- description: Invoice query and retrieval.
+- baseURL: https://intakeq.com/api/v1
+  baseurl_source: declared
+  description: Invoice query and retrieval.
   name: IntakeQ Invoices API
   slug: intakeq-invoices-api
-- description: Treatment / clinical notes and PDF export.
+- baseURL: https://intakeq.com/api/v1
+  baseurl_source: declared
+  description: Treatment / clinical notes and PDF export.
   name: IntakeQ Treatment Notes API
   slug: intakeq-treatment-notes-api
 artifact_total: 20
@@ -187,7 +199,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/screenshots/intakeq-2026-07-25T222634.png
 security:

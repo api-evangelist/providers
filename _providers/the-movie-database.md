@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 152 operations · 17 acting
 api_count: 1
 apis:
-- description: The Account API from The Movie Database — 11 operation(s) for account.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Account API from The Movie Database — 11 operation(s) for account.
   name: The Movie Database Account API
   slug: the-movie-database-account-api
-- description: The Authentication API from The Movie Database — 7 operation(s) for authentication.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Authentication API from The Movie Database — 7 operation(s) for authentication.
   name: The Movie Database Authentication API
   slug: the-movie-database-authentication-api
-- description: The Certification API from The Movie Database — 2 operation(s) for certification.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Certification API from The Movie Database — 2 operation(s) for certification.
   name: The Movie Database Certification API
   slug: the-movie-database-certification-api
-- description: The Collection API from The Movie Database — 3 operation(s) for collection.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Collection API from The Movie Database — 3 operation(s) for collection.
   name: The Movie Database Collection API
   slug: the-movie-database-collection-api
-- description: The Company API from The Movie Database — 3 operation(s) for company.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Company API from The Movie Database — 3 operation(s) for company.
   name: The Movie Database Company API
   slug: the-movie-database-company-api
-- description: The Configuration API from The Movie Database — 6 operation(s) for configuration.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Configuration API from The Movie Database — 6 operation(s) for configuration.
   name: The Movie Database Configuration API
   slug: the-movie-database-configuration-api
-- description: The Credit API from The Movie Database — 1 operation(s) for credit.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Credit API from The Movie Database — 1 operation(s) for credit.
   name: The Movie Database Credit API
   slug: the-movie-database-credit-api
-- description: The Discover API from The Movie Database — 2 operation(s) for discover.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Discover API from The Movie Database — 2 operation(s) for discover.
   name: The Movie Database Discover API
   slug: the-movie-database-discover-api
-- description: The Find API from The Movie Database — 1 operation(s) for find.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Find API from The Movie Database — 1 operation(s) for find.
   name: The Movie Database Find API
   slug: the-movie-database-find-api
-- description: The Genre API from The Movie Database — 2 operation(s) for genre.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Genre API from The Movie Database — 2 operation(s) for genre.
   name: The Movie Database Genre API
   slug: the-movie-database-genre-api
-- description: The Guest Session API from The Movie Database — 3 operation(s) for guest session.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Guest Session API from The Movie Database — 3 operation(s) for guest session.
   name: The Movie Database Guest Session API
   slug: the-movie-database-guest-session-api
-- description: The Keyword API from The Movie Database — 2 operation(s) for keyword.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Keyword API from The Movie Database — 2 operation(s) for keyword.
   name: The Movie Database Keyword API
   slug: the-movie-database-keyword-api
-- description: The List API from The Movie Database — 6 operation(s) for list.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The List API from The Movie Database — 6 operation(s) for list.
   name: The Movie Database List API
   slug: the-movie-database-list-api
-- description: The Movie API from The Movie Database — 23 operation(s) for movie.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Movie API from The Movie Database — 23 operation(s) for movie.
   name: The Movie Database Movie API
   slug: the-movie-database-movie-api
-- description: The Network API from The Movie Database — 3 operation(s) for network.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Network API from The Movie Database — 3 operation(s) for network.
   name: The Movie Database Network API
   slug: the-movie-database-network-api
-- description: The Person API from The Movie Database — 12 operation(s) for person.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Person API from The Movie Database — 12 operation(s) for person.
   name: The Movie Database Person API
   slug: the-movie-database-person-api
-- description: The Review API from The Movie Database — 1 operation(s) for review.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Review API from The Movie Database — 1 operation(s) for review.
   name: The Movie Database Review API
   slug: the-movie-database-review-api
-- description: The Search API from The Movie Database — 7 operation(s) for search.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Search API from The Movie Database — 7 operation(s) for search.
   name: The Movie Database Search API
   slug: the-movie-database-search-api
-- description: The Trending API from The Movie Database — 4 operation(s) for trending.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Trending API from The Movie Database — 4 operation(s) for trending.
   name: The Movie Database Trending API
   slug: the-movie-database-trending-api
-- description: The Tv API from The Movie Database — 46 operation(s) for tv.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Tv API from The Movie Database — 46 operation(s) for tv.
   name: The Movie Database Tv API
   slug: the-movie-database-tv-api
-- description: The Watch API from The Movie Database — 3 operation(s) for watch.
+- baseURL: https://api.themoviedb.org/3
+  baseurl_source: declared
+  description: The Watch API from The Movie Database — 3 operation(s) for watch.
   name: The Movie Database Watch API
   slug: the-movie-database-watch-api
 artifact_total: 58
@@ -331,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-movie-database/refs/heads/main/screenshots/the-movie-database-2026-06-20T195224.png
 security:

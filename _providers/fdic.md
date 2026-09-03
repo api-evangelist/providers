@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Demographics Information
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: Demographics Information
   name: FDIC Demographics API
   slug: fdic-demographics-api
-- description: List of bank failures to date
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: List of bank failures to date
   name: FDIC Failures API
   slug: fdic-failures-api
-- description: Financial Information
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: Financial Information
   name: FDIC Financials API
   slug: fdic-financials-api
-- description: Historical data from 1934 onward regarding financial institutions.
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: Historical data from 1934 onward regarding financial institutions.
   name: FDIC Historical API
   slug: fdic-historical-api
-- description: List of structure change events
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: List of structure change events
   name: FDIC History API
   slug: fdic-history-api
-- description: Financial institution demographic and location information
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: Financial institution demographic and location information
   name: FDIC Structure API
   slug: fdic-structure-api
-- description: List of Summary of Deposits
+- baseURL: https://api.fdic.gov/banks
+  baseurl_source: declared
+  description: List of Summary of Deposits
   name: FDIC Summary of Deposits API
   slug: fdic-summary-of-deposits-api
 artifact_total: 29
@@ -239,7 +253,7 @@ score:
     regime_id: banking_open_finance
     score: 13.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png
 security:

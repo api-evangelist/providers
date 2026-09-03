@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 34 operations · 7 acting
 api_count: 1
 apis:
-- description: WebSocket streaming API for the Korbit exchange. Public channels stream ticker, orderbook and trade market data; private channels stream the authenticated account's order, trade and balance changes. P
+- baseURL: wss://ws-api.korbit.co.kr/v2/public
+  baseurl_source: declared
+  description: WebSocket streaming API for the Korbit exchange. Public channels stream ticker, orderbook and trade market data; private channels stream the authenticated account's order, trade and balance changes. P
   name: Korbit Open API v2 WebSocket
   slug: korbit-open-api-v2-websocket
-- description: The Asset API from Korbit — 1 operation(s) for asset.
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Asset API from Korbit — 1 operation(s) for asset.
   name: Korbit Asset API
   slug: korbit-asset-api
-- description: The Deposit (Crypto) API from Korbit — 3 operation(s) for deposit (crypto).
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Deposit (Crypto) API from Korbit — 3 operation(s) for deposit (crypto).
   name: Korbit Deposit (Crypto) API
   slug: korbit-deposit-crypto-api
-- description: The Deposit/Withdrawal (KRW) API from Korbit — 4 operation(s) for deposit/withdrawal (krw).
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Deposit/Withdrawal (KRW) API from Korbit — 4 operation(s) for deposit/withdrawal (krw).
   name: Korbit Deposit/Withdrawal (KRW) API
   slug: korbit-deposit-withdrawal-krw-api
-- description: The Other API from Korbit — 8 operation(s) for other.
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Other API from Korbit — 8 operation(s) for other.
   name: Korbit Other API
   slug: korbit-other-api
-- description: The Quotation API from Korbit — 6 operation(s) for quotation.
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Quotation API from Korbit — 6 operation(s) for quotation.
   name: Korbit Quotation API
   slug: korbit-quotation-api
-- description: The Trading API from Korbit — 4 operation(s) for trading.
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Trading API from Korbit — 4 operation(s) for trading.
   name: Korbit Trading API
   slug: korbit-trading-api
-- description: The Withdrawal (Crypto) API from Korbit — 3 operation(s) for withdrawal (crypto).
+- baseURL: https://api.korbit.co.kr
+  baseurl_source: declared
+  description: The Withdrawal (Crypto) API from Korbit — 3 operation(s) for withdrawal (crypto).
   name: Korbit Withdrawal (Crypto) API
   slug: korbit-withdrawal-crypto-api
 artifact_total: 22
@@ -254,7 +270,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -264,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 39.1
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,7 +298,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:

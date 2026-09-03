@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 68 operations
 api_count: 3
 apis:
-- description: List all asset platforms (blockchains) supported by CoinGecko.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: List all asset platforms (blockchains) supported by CoinGecko.
   name: CoinGecko Asset Platforms API
   slug: coingecko-asset-platforms-api
-- description: List cryptocurrency categories and their market data.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: List cryptocurrency categories and their market data.
   name: CoinGecko Categories API
   slug: coingecko-categories-api
-- description: Comprehensive coin data including current prices, market data, historical data, tickers, and OHLCV charts.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Comprehensive coin data including current prices, market data, historical data, tickers, and OHLCV charts.
   name: CoinGecko Coins API
   slug: coingecko-coins-api
-- description: Public company cryptocurrency holdings data.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Public company cryptocurrency holdings data.
   name: CoinGecko Companies API
   slug: coingecko-companies-api
-- description: Query coin data by contract address on a specific asset platform.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Query coin data by contract address on a specific asset platform.
   name: CoinGecko Contract API
   slug: coingecko-contract-api
-- description: Derivatives market data including tickers and exchange information.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Derivatives market data including tickers and exchange information.
   name: CoinGecko Derivatives API
   slug: coingecko-derivatives-api
-- description: List decentralized exchanges on specific networks.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: List decentralized exchanges on specific networks.
   name: CoinGecko DEXes API
   slug: coingecko-dexes-api
-- description: BTC exchange rates against other currencies.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: BTC exchange rates against other currencies.
   name: CoinGecko Exchange Rates API
   slug: coingecko-exchange-rates-api
-- description: Exchange data including volumes, tickers, and status updates.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Exchange data including volumes, tickers, and status updates.
   name: CoinGecko Exchanges API
   slug: coingecko-exchanges-api
-- description: Global cryptocurrency and DeFi market data.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Global cryptocurrency and DeFi market data.
   name: CoinGecko Global API
   slug: coingecko-global-api
-- description: List and query supported blockchain networks.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: List and query supported blockchain networks.
   name: CoinGecko Networks API
   slug: coingecko-networks-api
-- description: NFT collection data including floor prices and market information.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: NFT collection data including floor prices and market information.
   name: CoinGecko NFTs API
   slug: coingecko-nfts-api
-- description: Open, High, Low, Close, Volume candlestick chart data for liquidity pools.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Open, High, Low, Close, Volume candlestick chart data for liquidity pools.
   name: CoinGecko OHLCV API
   slug: coingecko-ohlcv-api
-- description: Check API server status
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Check API server status
   name: CoinGecko Ping API
   slug: coingecko-ping-api
-- description: Query liquidity pool data including specific pools, top pools, new pools, and multi-pool lookups.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Query liquidity pool data including specific pools, top pools, new pools, and multi-pool lookups.
   name: CoinGecko Pools API
   slug: coingecko-pools-api
-- description: Search for coins, exchanges, and categories.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Search for coins, exchanges, and categories.
   name: CoinGecko Search API
   slug: coingecko-search-api
-- description: Simple price and token price lookups without the overhead of full coin data responses.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Simple price and token price lookups without the overhead of full coin data responses.
   name: CoinGecko Simple API
   slug: coingecko-simple-api
-- description: Token list endpoints for paid plan subscribers providing standardized token lists by asset platform.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Token list endpoints for paid plan subscribers providing standardized token lists by asset platform.
   name: CoinGecko Token Lists API
   slug: coingecko-token-lists-api
-- description: Query token data by contract address including price, volume, top pools, and token information.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Query token data by contract address including price, volume, top pools, and token information.
   name: CoinGecko Tokens API
   slug: coingecko-tokens-api
-- description: Recent trade data for specific liquidity pools.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Recent trade data for specific liquidity pools.
   name: CoinGecko Trades API
   slug: coingecko-trades-api
-- description: Trending coins, NFTs, and categories on CoinGecko.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Trending coins, NFTs, and categories on CoinGecko.
   name: CoinGecko Trending API
   slug: coingecko-trending-api
-- description: Discover trending liquidity pools across networks based on web visits and onchain activity.
+- baseURL: https://api.coingecko.com/api/v3
+  baseurl_source: declared
+  description: Discover trending liquidity pools across networks based on web visits and onchain activity.
   name: CoinGecko Trending Pools API
   slug: coingecko-trending-pools-api
 artifact_total: 83
@@ -426,7 +470,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -436,7 +480,7 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 50.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -451,7 +495,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:

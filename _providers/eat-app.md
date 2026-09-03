@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 15 operations · 4 acting
 api_count: 1
 apis:
-- description: Concierge bookable time-slot lookups over a date range.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Concierge bookable time-slot lookups over a date range.
   name: Eat App Concierge - Availability API
   slug: eat-app-concierge-availability-api
-- description: Concierge guest search and profile retrieval.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Concierge guest search and profile retrieval.
   name: Eat App Concierge - Guests API
   slug: eat-app-concierge-guests-api
-- description: Concierge bootstrap data - resources, groups, restaurants.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Concierge bootstrap data - resources, groups, restaurants.
   name: Eat App Concierge - Reference API
   slug: eat-app-concierge-reference-api
-- description: Concierge reservation create, list, get, and update/cancel.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Concierge reservation create, list, get, and update/cancel.
   name: Eat App Concierge - Reservations API
   slug: eat-app-concierge-reservations-api
-- description: Partner API real-time availability lookups.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Partner API real-time availability lookups.
   name: Eat App Partner - Availability API
   slug: eat-app-partner-availability-api
-- description: Partner API reservation creation.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Partner API reservation creation.
   name: Eat App Partner - Reservations API
   slug: eat-app-partner-reservations-api
-- description: Honestly-modeled table and floor-plan operations. Not documented in the public Partner or Concierge references; confirm before use.
+- baseURL: https://api.eatapp.co/partners/v2
+  baseurl_source: declared
+  description: Honestly-modeled table and floor-plan operations. Not documented in the public Partner or Concierge references; confirm before use.
   name: Eat App Tables and Floor Plans (Modeled) API
   slug: eat-app-tables-and-floor-plans-modeled-api
 artifact_total: 21
@@ -196,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/screenshots/eat-app-2026-07-25T212721.png
 security:

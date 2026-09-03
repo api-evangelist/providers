@@ -35,73 +35,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Auth API from Chorus.ai — 1 operation(s) for auth.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Auth API from Chorus.ai — 1 operation(s) for auth.
   name: Chorus.ai Auth API
   slug: chorus-ai-auth-api
-- description: The Conversations API from Chorus.ai — 11 operation(s) for conversations.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Conversations API from Chorus.ai — 11 operation(s) for conversations.
   name: Chorus.ai Conversations API
   slug: chorus-ai-conversations-api
-- description: The Emails API from Chorus.ai — 3 operation(s) for emails.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Emails API from Chorus.ai — 3 operation(s) for emails.
   name: Chorus.ai Emails API
   slug: chorus-ai-emails-api
-- description: The Engagement filter API from Chorus.ai — 3 operation(s) for engagement filter.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Engagement filter API from Chorus.ai — 3 operation(s) for engagement filter.
   name: Chorus.ai Engagement filter API
   slug: chorus-ai-engagement-filter-api
-- description: The Event API from Chorus.ai — 1 operation(s) for event.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Event API from Chorus.ai — 1 operation(s) for event.
   name: Chorus.ai Event API
   slug: chorus-ai-event-api
-- description: The External Moments API from Chorus.ai — 2 operation(s) for external moments.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The External Moments API from Chorus.ai — 2 operation(s) for external moments.
   name: Chorus.ai External Moments API
   slug: chorus-ai-external-moments-api
-- description: The Integrations Calendar API from Chorus.ai — 4 operation(s) for integrations calendar.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Integrations Calendar API from Chorus.ai — 4 operation(s) for integrations calendar.
   name: Chorus.ai Integrations Calendar API
   slug: chorus-ai-integrations-calendar-api
-- description: The Integrations CRM API from Chorus.ai — 1 operation(s) for integrations crm.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Integrations CRM API from Chorus.ai — 1 operation(s) for integrations crm.
   name: Chorus.ai Integrations CRM API
   slug: chorus-ai-integrations-crm-api
-- description: The Integrations Email API from Chorus.ai — 4 operation(s) for integrations email.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Integrations Email API from Chorus.ai — 4 operation(s) for integrations email.
   name: Chorus.ai Integrations Email API
   slug: chorus-ai-integrations-email-api
-- description: The Integrations Meet API from Chorus.ai — 6 operation(s) for integrations meet.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Integrations Meet API from Chorus.ai — 6 operation(s) for integrations meet.
   name: Chorus.ai Integrations Meet API
   slug: chorus-ai-integrations-meet-api
-- description: The Playlists API from Chorus.ai — 4 operation(s) for playlists.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Playlists API from Chorus.ai — 4 operation(s) for playlists.
   name: Chorus.ai Playlists API
   slug: chorus-ai-playlists-api
-- description: The Public External Moments API from Chorus.ai — 2 operation(s) for public external moments.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Public External Moments API from Chorus.ai — 2 operation(s) for public external moments.
   name: Chorus.ai Public External Moments API
   slug: chorus-ai-public-external-moments-api
-- description: The Public Playlist Moments API from Chorus.ai — 2 operation(s) for public playlist moments.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Public Playlist Moments API from Chorus.ai — 2 operation(s) for public playlist moments.
   name: Chorus.ai Public Playlist Moments API
   slug: chorus-ai-public-playlist-moments-api
-- description: The Reports API from Chorus.ai — 1 operation(s) for reports.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Reports API from Chorus.ai — 1 operation(s) for reports.
   name: Chorus.ai Reports API
   slug: chorus-ai-reports-api
-- description: The Sales Qualifications API from Chorus.ai — 5 operation(s) for sales qualifications.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Sales Qualifications API from Chorus.ai — 5 operation(s) for sales qualifications.
   name: Chorus.ai Sales Qualifications API
   slug: chorus-ai-sales-qualifications-api
-- description: The Saved Search API from Chorus.ai — 2 operation(s) for saved search.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Saved Search API from Chorus.ai — 2 operation(s) for saved search.
   name: Chorus.ai Saved Search API
   slug: chorus-ai-saved-search-api
-- description: The Scorecards API from Chorus.ai — 2 operation(s) for scorecards.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Scorecards API from Chorus.ai — 2 operation(s) for scorecards.
   name: Chorus.ai Scorecards API
   slug: chorus-ai-scorecards-api
-- description: The Session management API from Chorus.ai — 3 operation(s) for session management.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Session management API from Chorus.ai — 3 operation(s) for session management.
   name: Chorus.ai Session management API
   slug: chorus-ai-session-management-api
-- description: The Teams API from Chorus.ai — 2 operation(s) for teams.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Teams API from Chorus.ai — 2 operation(s) for teams.
   name: Chorus.ai Teams API
   slug: chorus-ai-teams-api
-- description: The Users API from Chorus.ai — 5 operation(s) for users.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Users API from Chorus.ai — 5 operation(s) for users.
   name: Chorus.ai Users API
   slug: chorus-ai-users-api
-- description: The Video Conferences API from Chorus.ai — 2 operation(s) for video conferences.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Video Conferences API from Chorus.ai — 2 operation(s) for video conferences.
   name: Chorus.ai Video Conferences API
   slug: chorus-ai-video-conferences-api
-- description: The Webhook API from Chorus.ai — 1 operation(s) for webhook.
+- baseURL: https://chorus.ai/api/v1
+  baseurl_source: declared
+  description: The Webhook API from Chorus.ai — 1 operation(s) for webhook.
   name: Chorus.ai Webhook API
   slug: chorus-ai-webhook-api
 artifact_total: 31
@@ -274,7 +318,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -284,7 +328,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 47.5
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -295,7 +339,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-08-17T082957.png
 security:

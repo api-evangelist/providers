@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: REST API for retrieving the geographic hierarchy used by Traffic Manager for geographic routing. Returns the supported regions, countries, and subdivisions that can be configured as endpoint geo-mappi
   name: Azure Traffic Manager Geographic Hierarchies REST API
   slug: azure-traffic-manager-geographic-hierarchies-rest-api
-- description: Endpoint operations within a profile
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Endpoint operations within a profile
   name: Azure Traffic Manager Endpoints API
   slug: microsoft-azure-traffic-manager-endpoints-api
-- description: Default geographic hierarchy
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Default geographic hierarchy
   name: Azure Traffic Manager GeographicHierarchies API
   slug: microsoft-azure-traffic-manager-geographichierarchies-api
-- description: Geographic heatmap analytics
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Geographic heatmap analytics
   name: Azure Traffic Manager HeatMap API
   slug: microsoft-azure-traffic-manager-heatmap-api
-- description: Traffic Manager profile operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Traffic Manager profile operations
   name: Azure Traffic Manager Profiles API
   slug: microsoft-azure-traffic-manager-profiles-api
-- description: Real User Measurements (RUM) keys
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Real User Measurements (RUM) keys
   name: Azure Traffic Manager UserMetrics API
   slug: microsoft-azure-traffic-manager-usermetrics-api
 artifact_total: 29
@@ -307,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/screenshots/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:

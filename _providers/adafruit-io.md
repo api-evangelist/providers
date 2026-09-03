@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: MQTT broker at io.adafruit.com for publish/subscribe access to Adafruit IO feeds and groups. TLS on port 8883, plaintext on 1883, and MQTT-over-WebSocket on port 443. Authenticate with your Adafruit I
   name: Adafruit IO MQTT API
   slug: adafruit-io-mqtt-api
-- description: The Activities API from Adafruit IO — 2 operation(s) for activities.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Activities API from Adafruit IO — 2 operation(s) for activities.
   name: Adafruit IO Activities API
   slug: adafruit-io-activities-api
-- description: The Blocks API from Adafruit IO — 2 operation(s) for blocks.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Blocks API from Adafruit IO — 2 operation(s) for blocks.
   name: Adafruit IO Blocks API
   slug: adafruit-io-blocks-api
-- description: The Dashboards API from Adafruit IO — 2 operation(s) for dashboards.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Dashboards API from Adafruit IO — 2 operation(s) for dashboards.
   name: Adafruit IO Dashboards API
   slug: adafruit-io-dashboards-api
-- description: The Data API from Adafruit IO — 14 operation(s) for data.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Data API from Adafruit IO — 14 operation(s) for data.
   name: Adafruit IO Data API
   slug: adafruit-io-data-api
-- description: The Feeds API from Adafruit IO — 6 operation(s) for feeds.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Feeds API from Adafruit IO — 6 operation(s) for feeds.
   name: Adafruit IO Feeds API
   slug: adafruit-io-feeds-api
-- description: The Groups API from Adafruit IO — 5 operation(s) for groups.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Groups API from Adafruit IO — 5 operation(s) for groups.
   name: Adafruit IO Groups API
   slug: adafruit-io-groups-api
-- description: The Permissions API from Adafruit IO — 2 operation(s) for permissions.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Permissions API from Adafruit IO — 2 operation(s) for permissions.
   name: Adafruit IO Permissions API
   slug: adafruit-io-permissions-api
-- description: The Tokens API from Adafruit IO — 2 operation(s) for tokens.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Tokens API from Adafruit IO — 2 operation(s) for tokens.
   name: Adafruit IO Tokens API
   slug: adafruit-io-tokens-api
-- description: The Triggers API from Adafruit IO — 2 operation(s) for triggers.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Triggers API from Adafruit IO — 2 operation(s) for triggers.
   name: Adafruit IO Triggers API
   slug: adafruit-io-triggers-api
-- description: The Users API from Adafruit IO — 2 operation(s) for users.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Users API from Adafruit IO — 2 operation(s) for users.
   name: Adafruit IO Users API
   slug: adafruit-io-users-api
-- description: The Webhooks API from Adafruit IO — 2 operation(s) for webhooks.
+- baseURL: https://io.adafruit.com/api/v2
+  baseurl_source: declared
+  description: The Webhooks API from Adafruit IO — 2 operation(s) for webhooks.
   name: Adafruit IO Webhooks API
   slug: adafruit-io-webhooks-api
 arazzos:
@@ -493,7 +515,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: Technical specification for evaluating how interpretable, operable, and trustworthy an API is for AI systems and autonomous agents. Defines the signals, dimensions, scoring model, and normalization ru
   name: Jentic API AI-Readiness Framework (JAIRF)
   slug: jairf
-- description: Registration and API key management for accessing the Jentic platform.
+- baseURL: https://api.jentic.com/api/v1
+  baseurl_source: declared
+  description: Registration and API key management for accessing the Jentic platform.
   name: Jentic Authentication API
   slug: jentic-authentication-api
-- description: Load execution details and execute API operations or Arazzo workflows with managed authentication and credential injection.
+- baseURL: https://api.jentic.com/api/v1
+  baseurl_source: declared
+  description: Load execution details and execute API operations or Arazzo workflows with managed authentication and credential injection.
   name: Jentic Execution API
   slug: jentic-execution-api
-- description: Semantic search over the Jentic API and workflow catalog using natural language queries.
+- baseURL: https://api.jentic.com/api/v1
+  baseurl_source: declared
+  description: Semantic search over the Jentic API and workflow catalog using natural language queries.
   name: Jentic Search API
   slug: jentic-search-api
 artifact_total: 37
@@ -331,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jentic/refs/heads/main/screenshots/jentic-2026-06-20T183721.png
 security:

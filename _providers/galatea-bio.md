@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -33,34 +46,54 @@ agentic_access:
   summary_line: 99 operations · 55 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The auth API from Galatea Bio — 5 operation(s) for auth.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The auth API from Galatea Bio — 5 operation(s) for auth.
   name: Galatea Bio Auth API
   slug: galatea-bio-auth-api
-- description: The credit API from Galatea Bio — 14 operation(s) for credit.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The credit API from Galatea Bio — 14 operation(s) for credit.
   name: Galatea Bio Credit API
   slug: galatea-bio-credit-api
-- description: The dashboard API from Galatea Bio — 7 operation(s) for dashboard.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The dashboard API from Galatea Bio — 7 operation(s) for dashboard.
   name: Galatea Bio Dashboard API
   slug: galatea-bio-dashboard-api
-- description: The data API from Galatea Bio — 12 operation(s) for data.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The data API from Galatea Bio — 12 operation(s) for data.
   name: Galatea Bio Data API
   slug: galatea-bio-data-api
-- description: The exec API from Galatea Bio — 11 operation(s) for exec.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The exec API from Galatea Bio — 11 operation(s) for exec.
   name: Galatea Bio Exec API
   slug: galatea-bio-exec-api
-- description: The internal API from Galatea Bio — 4 operation(s) for internal.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The internal API from Galatea Bio — 4 operation(s) for internal.
   name: Galatea Bio Internal API
   slug: galatea-bio-internal-api
-- description: The notification API from Galatea Bio — 3 operation(s) for notification.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The notification API from Galatea Bio — 3 operation(s) for notification.
   name: Galatea Bio Notification API
   slug: galatea-bio-notification-api
-- description: The organizations API from Galatea Bio — 13 operation(s) for organizations.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The organizations API from Galatea Bio — 13 operation(s) for organizations.
   name: Galatea Bio Organizations API
   slug: galatea-bio-organizations-api
-- description: The statistics API from Galatea Bio — 2 operation(s) for statistics.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The statistics API from Galatea Bio — 2 operation(s) for statistics.
   name: Galatea Bio Statistics API
   slug: galatea-bio-statistics-api
-- description: The users API from Galatea Bio — 8 operation(s) for users.
+- baseURL: https://api.galatea.bio/api/v1
+  baseurl_source: declared
+  description: The users API from Galatea Bio — 8 operation(s) for users.
   name: Galatea Bio Users API
   slug: galatea-bio-users-api
 artifact_total: 16
@@ -205,7 +238,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -215,7 +248,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,7 +266,7 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/screenshots/galatea-bio-2026-08-17T080949.png
 security:

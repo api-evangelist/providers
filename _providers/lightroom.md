@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 37 operations · 17 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Manage assets within albums
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: Manage assets within albums
   name: Adobe Lightroom Album Assets API
   slug: lightroom-album-assets-api
-- description: CRUD operations on albums
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: CRUD operations on albums
   name: Adobe Lightroom Albums API
   slug: lightroom-albums-api
-- description: CRUD operations on photo and video assets
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: CRUD operations on photo and video assets
   name: Adobe Lightroom Assets API
   slug: lightroom-assets-api
-- description: Automatically detect and correct image horizon alignment
+- baseURL: https://image.adobe.io
+  baseurl_source: spec
+  description: Automatically detect and correct image horizon alignment
   name: Adobe Lightroom Auto Straighten API
   slug: lightroom-auto-straighten-api
-- description: Automatically adjust tonal values for optimal exposure and contrast
+- baseURL: https://image.adobe.io
+  baseurl_source: spec
+  description: Automatically adjust tonal values for optimal exposure and contrast
   name: Adobe Lightroom Auto Tone API
   slug: lightroom-auto-tone-api
-- description: Catalog metadata and configuration
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: Catalog metadata and configuration
   name: Adobe Lightroom Catalog API
   slug: lightroom-catalog-api
-- description: Apply custom Lightroom edit settings to images
+- baseURL: https://image.adobe.io
+  baseurl_source: spec
+  description: Apply custom Lightroom edit settings to images
   name: Adobe Lightroom Edit Image API
   slug: lightroom-edit-image-api
-- description: API health and availability checks
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: API health and availability checks
   name: Adobe Lightroom Health API
   slug: lightroom-health-api
-- description: Upload and manage original master files
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: Upload and manage original master files
   name: Adobe Lightroom Master API
   slug: lightroom-master-api
-- description: Apply Lightroom presets (XMP develop settings) to images
+- baseURL: https://image.adobe.io
+  baseurl_source: spec
+  description: Apply Lightroom presets (XMP develop settings) to images
   name: Adobe Lightroom Presets API
   slug: lightroom-presets-api
-- description: Retrieve generated renditions (previews and thumbnails)
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: Retrieve generated renditions (previews and thumbnails)
   name: Adobe Lightroom Renditions API
   slug: lightroom-renditions-api
-- description: Read and write external develop XMP sidecar files
+- baseURL: https://lr.adobe.io/v2
+  baseurl_source: spec
+  description: Read and write external develop XMP sidecar files
   name: Adobe Lightroom XMP API
   slug: lightroom-xmp-api
 artifact_total: 179
@@ -722,7 +746,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/screenshots/lightroom-2026-06-20T184522.png
 security:

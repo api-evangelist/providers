@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -43,133 +43,219 @@ agentic_access:
   summary_line: 125 operations · 61 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Account Members allow you to associate an Identity with an Account on our Platform. Each Account can be linked to multiple Identities, which supports Joint Accounts (where two Identities have the abil
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Account Members allow you to associate an Identity with an Account on our Platform. Each Account can be linked to multiple Identities, which supports Joint Accounts (where two Identities have the abil
   name: Paxos Account Members API
   slug: paxos-account-members-api
-- description: 'Accounts connect Identities (persons or institutions) to Profiles (asset balances). Key features include: - **Balance Management**: Track and manage profile balances via [Subledgering](https://docs.pa'
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: 'Accounts connect Identities (persons or institutions) to Profiles (asset balances). Key features include: - **Balance Management**: Track and manage profile balances via [Subledgering](https://docs.pa'
   name: Paxos Accounts API
   slug: paxos-accounts-api
-- description: The Address Verification API from Paxos — 3 operation(s) for address verification.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Address Verification API from Paxos — 3 operation(s) for address verification.
   name: Paxos Address Verification API
   slug: paxos-address-verification-api
-- description: API credentials allow programmatic access to Paxos APIs. These endpoints enable you to manage and view your API credentials.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: API credentials allow programmatic access to Paxos APIs. These endpoints enable you to manage and view your API credentials.
   name: Paxos API Credentials API
   slug: paxos-api-credentials-api
-- description: Claims represent rewards paid out on-chain. Use claim schedules to automate daily reward claims. *These endpoints are only relevant for whitelisted Rewards partners.*
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Claims represent rewards paid out on-chain. Use claim schedules to automate daily reward claims. *These endpoints are only relevant for whitelisted Rewards partners.*
   name: Paxos Claims API
   slug: paxos-claims-api
-- description: For [Paxos Global PTE Ltd](https://help.paxos.com/hc/en-us/articles/9647005243284) users, update or reject a crypto deposit that does not contain the required [travel rule](https://help.paxos.com/hc/e
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: For [Paxos Global PTE Ltd](https://help.paxos.com/hc/en-us/articles/9647005243284) users, update or reject a crypto deposit that does not contain the required [travel rule](https://help.paxos.com/hc/e
   name: Paxos Crypto Deposits API
   slug: paxos-crypto-deposits-api
-- description: The Crypto Withdrawals API from Paxos — 3 operation(s) for crypto withdrawals.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Crypto Withdrawals API from Paxos — 3 operation(s) for crypto withdrawals.
   name: Paxos Crypto Withdrawals API
   slug: paxos-crypto-withdrawals-api
-- description: The Deposit Addresses API from Paxos — 1 operation(s) for deposit addresses.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Deposit Addresses API from Paxos — 1 operation(s) for deposit addresses.
   name: Paxos Deposit Addresses API
   slug: paxos-deposit-addresses-api
-- description: The Events API allows you to fetch events that occurred on the Paxos platform with the full event payload. This REST API can be used as part of your webhook integrations (including rebuilding your eve
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Events API allows you to fetch events that occurred on the Paxos platform with the full event payload. This REST API can be used as part of your webhook integrations (including rebuilding your eve
   name: Paxos Events API
   slug: paxos-events-api
-- description: The ExchangePublic API from Paxos — 2 operation(s) for exchangepublic.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The ExchangePublic API from Paxos — 2 operation(s) for exchangepublic.
   name: Paxos ExchangePublic API
   slug: paxos-exchangepublic-api
-- description: The Fees API from Paxos — 1 operation(s) for fees.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Fees API from Paxos — 1 operation(s) for fees.
   name: Paxos Fees API
   slug: paxos-fees-api
-- description: 'The Fiat Transfers API allows clients to deposit and withdraw fiat via the following Fiat Networks: Wire (Fedwire and SWIFT) and CUBIX. The supported asset is USD. The full set of Fiat Transfers API e'
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: 'The Fiat Transfers API allows clients to deposit and withdraw fiat via the following Fiat Networks: Wire (Fedwire and SWIFT) and CUBIX. The supported asset is USD. The full set of Fiat Transfers API e'
   name: Paxos Fiat Transfers API
   slug: paxos-fiat-transfers-api
-- description: An Identity represents a person or institution who is able to take actions on the Paxos Platform. Depending on your integration type you might not need to create Identities for your end users. Identit
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: An Identity represents a person or institution who is able to take actions on the Paxos Platform. Depending on your integration type you might not need to create Identities for your end users. Identit
   name: Paxos Identity API
   slug: paxos-identity-api
-- description: The Identity Controls API from Paxos — 1 operation(s) for identity controls.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Identity Controls API from Paxos — 1 operation(s) for identity controls.
   name: Paxos Identity Controls API
   slug: paxos-identity-controls-api
-- description: 'The Identity Documents API allows clients to send documents to Paxos to validate identities during the KYC process. Files can be updated multiple times by re-sending the document type for processing. '
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: 'The Identity Documents API allows clients to send documents to Paxos to validate identities during the KYC process. Files can be updated multiple times by re-sending the document type for processing. '
   name: Paxos Identity Documents API
   slug: paxos-identity-documents-api
-- description: Institution Members allow you to associate persons with an institution on our Platform. Each institution can have multiple members, with each member representing the relationship to a person identity.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Institution Members allow you to associate persons with an institution on our Platform. Each institution can have multiple members, with each member representing the relationship to a person identity.
   name: Paxos Institution Members API
   slug: paxos-institution-members-api
-- description: The Internal Transfers API from Paxos — 1 operation(s) for internal transfers.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Internal Transfers API from Paxos — 1 operation(s) for internal transfers.
   name: Paxos Internal Transfers API
   slug: paxos-internal-transfers-api
-- description: Issuer Quotes are "held rates" offered by Paxos to mint or redeem Paxos-issued assets at a specific price within a period of time - for example, the option to buy PAXG within the next 5 seconds for $3
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Issuer Quotes are "held rates" offered by Paxos to mint or redeem Paxos-issued assets at a specific price within a period of time - for example, the option to buy PAXG within the next 5 seconds for $3
   name: Paxos Issuer Quotes API
   slug: paxos-issuer-quotes-api
-- description: The Limits API from Paxos — 1 operation(s) for limits.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Limits API from Paxos — 1 operation(s) for limits.
   name: Paxos Limits API
   slug: paxos-limits-api
-- description: Market data provides various parameters of the order book and historical order data.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Market data provides various parameters of the order book and historical order data.
   name: Paxos Market Data API
   slug: paxos-market-data-api
-- description: A Monitoring Address is a blockchain address that Paxos monitors daily for eligible stablecoin activity and determines the amount of rewards your organization will earn. We recommend adding any addres
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: A Monitoring Address is a blockchain address that Paxos monitors daily for eligible stablecoin activity and determines the amount of rewards your organization will earn. We recommend adding any addres
   name: Paxos Monitoring Addresses API
   slug: paxos-monitoring-addresses-api
-- description: The Orchestration Rules API from Paxos — 2 operation(s) for orchestration rules.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Orchestration Rules API from Paxos — 2 operation(s) for orchestration rules.
   name: Paxos Orchestration Rules API
   slug: paxos-orchestration-rules-api
-- description: The Orchestrations API from Paxos — 2 operation(s) for orchestrations.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Orchestrations API from Paxos — 2 operation(s) for orchestrations.
   name: Paxos Orchestrations API
   slug: paxos-orchestrations-api
-- description: '<p>There are three types of orders: market, limit and post-only.</p> <p>Market orders guarantee execution at a variable price and quantity. Limit orders guarantee price and quantity at the time of exe'
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: '<p>There are three types of orders: market, limit and post-only.</p> <p>Market orders guarantee execution at a variable price and quantity. Limit orders guarantee price and quantity at the time of exe'
   name: Paxos Orders API
   slug: paxos-orders-api
-- description: Move assets between two Entities belonging to the same Organization or to a different Organization on the Paxos platform. > Transferring USD between Entities is prohibited in some jurisdictions. Conta
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Move assets between two Entities belonging to the same Organization or to a different Organization on the Paxos platform. > Transferring USD between Entities is prohibited in some jurisdictions. Conta
   name: Paxos Paxos Transfers API
   slug: paxos-paxos-transfers-api
-- description: Payments represent actual transfers of rewards to the payout address associated with a given statement. Payments are made on-chain to a specified payout address. Payments tie 1:1 with a statement amou
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Payments represent actual transfers of rewards to the payout address associated with a given statement. Payments are made on-chain to a specified payout address. Payments tie 1:1 with a statement amou
   name: Paxos Payments API
   slug: paxos-payments-api
-- description: Payout groups encapsulate common rewards characteristics. All monitored addresses that reference a payout group accumulate rewards at the same rate and claim to the payout destination specified for th
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Payout groups encapsulate common rewards characteristics. All monitored addresses that reference a payout group accumulate rewards at the same rate and claim to the payout destination specified for th
   name: Paxos Payout Groups API
   slug: paxos-payout-groups-api
-- description: 'Pricing provides historical data related to charting of asset prices. Note: Some Pricing API markets may be unavailable for trading.'
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: 'Pricing provides historical data related to charting of asset prices. Note: Some Pricing API markets may be unavailable for trading.'
   name: Paxos Pricing API
   slug: paxos-pricing-api
-- description: Profiles hold asset balances, and every Paxos transaction is on a particular profile. Depending on your integration type, Profiles may be used to reflect both corporate balances or individual user bal
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Profiles hold asset balances, and every Paxos transaction is on a particular profile. Depending on your integration type, Profiles may be used to reflect both corporate balances or individual user bal
   name: Paxos Profiles API
   slug: paxos-profiles-api
-- description: Quote Executions buy or sell assets using a Quote obtained from the [Quotes](#tag/Quotes) flow.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Quote Executions buy or sell assets using a Quote obtained from the [Quotes](#tag/Quotes) flow.
   name: Paxos Quote Executions API
   slug: paxos-quote-executions-api
-- description: Quotes are "held rates" offered by Paxos to buy or sell assets at a specific price within a period of time - for example, the option to buy BTC within the next 30 seconds for $8,000. The typical Quote
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Quotes are "held rates" offered by Paxos to buy or sell assets at a specific price within a period of time - for example, the option to buy BTC within the next 30 seconds for $8,000. The typical Quote
   name: Paxos Quotes API
   slug: paxos-quotes-api
-- description: 'Reward addresses are blockchain addresses registered for reward attribution. Custody Rewards: For EVM chains, Paxos registers these addresses on-chain for reward calculation and accrual in the token c'
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: 'Reward addresses are blockchain addresses registered for reward attribution. Custody Rewards: For EVM chains, Paxos registers these addresses on-chain for reward calculation and accrual in the token c'
   name: Paxos Reward Addresses API
   slug: paxos-reward-addresses-api
-- description: Rewards details including current reward rates, next accrual time, lifetime earned amounts, and estimated next accrual. *These endpoints are only relevant for whitelisted Rewards partners.*
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Rewards details including current reward rates, next accrual time, lifetime earned amounts, and estimated next accrual. *These endpoints are only relevant for whitelisted Rewards partners.*
   name: Paxos Rewards API
   slug: paxos-rewards-api
-- description: The Rewards Statements API from Paxos — 2 operation(s) for rewards statements.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Rewards Statements API from Paxos — 2 operation(s) for rewards statements.
   name: Paxos Rewards Statements API
   slug: paxos-rewards-statements-api
-- description: The Sandbox Deposits API from Paxos — 1 operation(s) for sandbox deposits.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Sandbox Deposits API from Paxos — 1 operation(s) for sandbox deposits.
   name: Paxos Sandbox Deposits API
   slug: paxos-sandbox-deposits-api
-- description: The Sandbox Fiat Transfers API from Paxos — 1 operation(s) for sandbox fiat transfers.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Sandbox Fiat Transfers API from Paxos — 1 operation(s) for sandbox fiat transfers.
   name: Paxos Sandbox Fiat Transfers API
   slug: paxos-sandbox-fiat-transfers-api
-- description: The Sandbox Identity API from Paxos — 4 operation(s) for sandbox identity.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The Sandbox Identity API from Paxos — 4 operation(s) for sandbox identity.
   name: Paxos Sandbox Identity API
   slug: paxos-sandbox-identity-api
-- description: 'Use the Settlements API to facilitate simultaneous exchange of pre-funded assets. Automate a variety of use cases that require two-party approval, including net settlement of over-the-counter trades, '
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: 'Use the Settlements API to facilitate simultaneous exchange of pre-funded assets. Automate a variety of use cases that require two-party approval, including net settlement of over-the-counter trades, '
   name: Paxos Settlement API
   slug: paxos-settlement-api
-- description: <p>Convert between fiat and stablecoin using <a href="#operation/CreateStablecoinConversion">Create Stablecoin Conversion</a> and check the status of a <a href="#operation/GetStablecoinConversion">sin
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: <p>Convert between fiat and stablecoin using <a href="#operation/CreateStablecoinConversion">Create Stablecoin Conversion</a> and check the status of a <a href="#operation/GetStablecoinConversion">sin
   name: Paxos Stablecoin Conversion API
   slug: paxos-stablecoin-conversion-api
-- description: A Statement summarizes all eligible stablecoin rewards for a given organization over a fixed time period. It aggregates earned reward types (e.g., custody, mint, acceptance) and records whether the st
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: A Statement summarizes all eligible stablecoin rewards for a given organization over a fixed time period. It aggregates earned reward types (e.g., custody, mint, acceptance) and records whether the st
   name: Paxos Statements API
   slug: paxos-statements-api
-- description: All tax forms are associated to a single account_id. An account_id can have multiple tax forms associated with it. US 1099-B and 1099-Misc tax forms for the previous fiscal year will be available in F
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: All tax forms are associated to a single account_id. An account_id can have multiple tax forms associated with it. US 1099-B and 1099-Misc tax forms for the previous fiscal year will be available in F
   name: Paxos Tax Forms API
   slug: paxos-tax-forms-api
-- description: Each deposit to and withdrawal from a Paxos account is a Transfer. A Transfer is associated with a particular Profile, and increases or decreases the available balance of a single asset in that Profil
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: Each deposit to and withdrawal from a Paxos account is a Transfer. A Transfer is associated with a particular Profile, and increases or decreases the available balance of a single asset in that Profil
   name: Paxos Transfers API
   slug: paxos-transfers-api
-- description: The TravelRulePublic API from Paxos — 2 operation(s) for travelrulepublic.
+- baseURL: https://api.paxos.com/v2
+  baseurl_source: declared
+  description: The TravelRulePublic API from Paxos — 2 operation(s) for travelrulepublic.
   name: Paxos TravelRulePublic API
   slug: paxos-travelrulepublic-api
 artifact_total: 93
@@ -476,7 +562,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -486,7 +572,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,7 +590,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/screenshots/paxos-2026-08-07T191628.png
 security:

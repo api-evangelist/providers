@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 21 operations · 19 acting
 api_count: 1
 apis:
-- description: The API Documentation for External Notification Handler API from Zubale — 1 operation(s) for api documentation for external notification handler.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The API Documentation for External Notification Handler API from Zubale — 1 operation(s) for api documentation for external notification handler.
   name: Zubale API Documentation for External Notification Handler API
   slug: zubale-api-documentation-for-external-notification-handler-api
-- description: The Cancel tasks API from Zubale — 2 operation(s) for cancel tasks.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The Cancel tasks API from Zubale — 2 operation(s) for cancel tasks.
   name: Zubale Cancel tasks API
   slug: zubale-cancel-tasks-api
-- description: The Delivery API API from Zubale — 3 operation(s) for delivery api.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The Delivery API API from Zubale — 3 operation(s) for delivery api.
   name: Zubale Delivery API API
   slug: zubale-delivery-api-api
-- description: The External outbound API from Zubale — 1 operation(s) for external outbound.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The External outbound API from Zubale — 1 operation(s) for external outbound.
   name: Zubale External outbound API
   slug: zubale-external-outbound-api
-- description: The Live Tracking For Cencosud API from Zubale — 4 operation(s) for live tracking for cencosud.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The Live Tracking For Cencosud API from Zubale — 4 operation(s) for live tracking for cencosud.
   name: Zubale Live Tracking For Cencosud API
   slug: zubale-live-tracking-for-cencosud-api
-- description: The Picking & Delivery API API from Zubale — 4 operation(s) for picking & delivery api.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The Picking & Delivery API API from Zubale — 4 operation(s) for picking & delivery api.
   name: Zubale Picking & Delivery API API
   slug: zubale-picking-delivery-api-api
-- description: The Product catalog API from Zubale — 3 operation(s) for product catalog.
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: The Product catalog API from Zubale — 3 operation(s) for product catalog.
   name: Zubale Product catalog API
   slug: zubale-product-catalog-api
-- description: 'The Webhook: Payload Structure for Order Notification API from Zubale — 1 operation(s) for webhook: payload structure for order notification.'
+- baseURL: https://api.zubale.com
+  baseurl_source: spec
+  description: 'The Webhook: Payload Structure for Order Notification API from Zubale — 1 operation(s) for webhook: payload structure for order notification.'
   name: 'Zubale Webhook: Payload Structure for Order Notification API'
   slug: zubale-webhook-payload-structure-for-order-notification-api
 artifact_total: 25
@@ -162,11 +178,11 @@ score:
   band: emerging
   composite: 14.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 93.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -176,7 +192,7 @@ score:
     discoverability: 48.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 14.6
+  previous_composite: 14.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,8 +203,9 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/screenshots/zubale-2026-09-02T171850.png
 security:
 - kind: authentication
   name: Zubale Authentication

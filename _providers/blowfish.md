@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
-- description: Endpoints related to downloading blocklists
+- baseURL: https://api.blowfish.xyz
+  baseurl_source: declared
+  description: Endpoints related to downloading blocklists
   name: Blowfish Download blocklist API
   slug: blowfish-download-blocklist-api
-- description: Endpoints related to scanning dApp domains
+- baseURL: https://api.blowfish.xyz
+  baseurl_source: declared
+  description: Endpoints related to scanning dApp domains
   name: Blowfish Scan domain API
   slug: blowfish-scan-domain-api
-- description: Endpoints related to scanning blockchain messages
+- baseURL: https://api.blowfish.xyz
+  baseurl_source: declared
+  description: Endpoints related to scanning blockchain messages
   name: Blowfish Scan message API
   slug: blowfish-scan-message-api
-- description: Endpoints related to scanning blockchain transactions
+- baseURL: https://api.blowfish.xyz
+  baseurl_source: declared
+  description: Endpoints related to scanning blockchain transactions
   name: Blowfish Scan transaction API
   slug: blowfish-scan-transaction-api
 artifact_total: 13
@@ -234,7 +242,7 @@ score:
     regime_id: payments
     score: 29.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/screenshots/blowfish-2026-07-25T203426.png
 security:

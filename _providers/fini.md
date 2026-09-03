@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 56 operations · 39 acting
 api_count: 1
 apis:
-- description: The Agents API from Fini — 1 operation(s) for agents.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Agents API from Fini — 1 operation(s) for agents.
   name: Fini Agents API
   slug: fini-agents-api
-- description: The Articles API from Fini — 6 operation(s) for articles.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Articles API from Fini — 6 operation(s) for articles.
   name: Fini Articles API
   slug: fini-articles-api
-- description: The Conversations API from Fini — 3 operation(s) for conversations.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Conversations API from Fini — 3 operation(s) for conversations.
   name: Fini Conversations API
   slug: fini-conversations-api
-- description: The Knowledge API from Fini — 5 operation(s) for knowledge.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Knowledge API from Fini — 5 operation(s) for knowledge.
   name: Fini Knowledge API
   slug: fini-knowledge-api
-- description: The Knowledge Folders API from Fini — 4 operation(s) for knowledge folders.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Knowledge Folders API from Fini — 4 operation(s) for knowledge folders.
   name: Fini Knowledge Folders API
   slug: fini-knowledge-folders-api
-- description: The Prompts API from Fini — 3 operation(s) for prompts.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Prompts API from Fini — 3 operation(s) for prompts.
   name: Fini Prompts API
   slug: fini-prompts-api
-- description: The Rules API from Fini — 6 operation(s) for rules.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Rules API from Fini — 6 operation(s) for rules.
   name: Fini Rules API
   slug: fini-rules-api
-- description: The Sources API from Fini — 5 operation(s) for sources.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Sources API from Fini — 5 operation(s) for sources.
   name: Fini Sources API
   slug: fini-sources-api
-- description: The Tags API from Fini — 5 operation(s) for tags.
+- baseURL: https://api-prod.usefini.com/v2
+  baseurl_source: declared
+  description: The Tags API from Fini — 5 operation(s) for tags.
   name: Fini Tags API
   slug: fini-tags-api
 artifact_total: 25
@@ -254,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fini/refs/heads/main/screenshots/fini-2026-07-25T214529.png
 security:

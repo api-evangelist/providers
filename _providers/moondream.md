@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 6 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: OpenAI-compatible chat completions endpoint.
+- baseURL: https://api.moondream.ai/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions endpoint.
   name: Moondream OpenAI Compatibility API
   slug: moondream-openai-compatibility-api
-- description: Moondream vision Skills — query, caption, detect, point, segment.
+- baseURL: https://api.moondream.ai/v1
+  baseurl_source: declared
+  description: Moondream vision Skills — query, caption, detect, point, segment.
   name: Moondream Skills API
   slug: moondream-skills-api
 artifact_total: 9
@@ -228,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/screenshots/moondream-2026-08-07T184237.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 19 acting
 api_count: 1
 apis:
-- description: Data Productivity Cloud Agents (hybrid runtime).
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Data Productivity Cloud Agents (hybrid runtime).
   name: Matillion DPC Agents API
   slug: matillion-dpc-agents-api
-- description: Data Productivity Cloud environments (warehouse connection contexts).
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Data Productivity Cloud environments (warehouse connection contexts).
   name: Matillion DPC Environments API
   slug: matillion-dpc-environments-api
-- description: Launch, inspect, and cancel Data Productivity Cloud pipeline executions.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Launch, inspect, and cancel Data Productivity Cloud pipeline executions.
   name: Matillion DPC Pipeline Executions API
   slug: matillion-dpc-pipeline-executions-api
-- description: Data Productivity Cloud projects.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Data Productivity Cloud projects.
   name: Matillion DPC Projects API
   slug: matillion-dpc-projects-api
-- description: Data Productivity Cloud pipeline schedules.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Data Productivity Cloud pipeline schedules.
   name: Matillion DPC Schedules API
   slug: matillion-dpc-schedules-api
-- description: Legacy Matillion ETL groups, projects, and versions.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Legacy Matillion ETL groups, projects, and versions.
   name: Matillion ETL Groups & Projects API
   slug: matillion-etl-groups-projects-api
-- description: Legacy Matillion ETL job execution and validation.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Legacy Matillion ETL job execution and validation.
   name: Matillion ETL Jobs & Runs API
   slug: matillion-etl-jobs-runs-api
-- description: Legacy Matillion ETL schedules.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Legacy Matillion ETL schedules.
   name: Matillion ETL Schedules API
   slug: matillion-etl-schedules-api
-- description: Legacy Matillion ETL task monitoring and control.
+- baseURL: https://eu1.api.matillion.com/dpc
+  baseurl_source: declared
+  description: Legacy Matillion ETL task monitoring and control.
   name: Matillion ETL Tasks API
   slug: matillion-etl-tasks-api
 artifact_total: 27
@@ -212,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/screenshots/matillion-2026-07-25T230414.png
 security:

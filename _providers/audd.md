@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: The Lyrics API from AudD — 1 operation(s) for lyrics.
+- baseURL: https://api.audd.io
+  baseurl_source: declared
+  description: The Lyrics API from AudD — 1 operation(s) for lyrics.
   name: AudD Lyrics API
   slug: audd-lyrics-api
-- description: The Recognition API from AudD — 2 operation(s) for recognition.
+- baseURL: https://api.audd.io
+  baseurl_source: declared
+  description: The Recognition API from AudD — 2 operation(s) for recognition.
   name: AudD Recognition API
   slug: audd-recognition-api
 artifact_total: 12
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audd/refs/heads/main/screenshots/audd-2026-07-25T201708.png
 security:

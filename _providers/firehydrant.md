@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 411 operations · 225 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
   name: FireHydrant
   slug: firehydrant
-- description: The Audits API from FireHydrant — 1 operation(s) for audits.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Audits API from FireHydrant — 1 operation(s) for audits.
   name: FireHydrant Audits API
   slug: firehydrant-audits-api
-- description: The Change Events API from FireHydrant — 2 operation(s) for change events.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Change Events API from FireHydrant — 2 operation(s) for change events.
   name: FireHydrant Change Events API
   slug: firehydrant-change-events-api
-- description: The Changes API from FireHydrant — 1 operation(s) for changes.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Changes API from FireHydrant — 1 operation(s) for changes.
   name: FireHydrant Changes API
   slug: firehydrant-changes-api
-- description: The Conversations API from FireHydrant — 1 operation(s) for conversations.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Conversations API from FireHydrant — 1 operation(s) for conversations.
   name: FireHydrant Conversations API
   slug: firehydrant-conversations-api
-- description: The Environments API from FireHydrant — 2 operation(s) for environments.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Environments API from FireHydrant — 2 operation(s) for environments.
   name: FireHydrant Environments API
   slug: firehydrant-environments-api
-- description: The Functionalities API from FireHydrant — 1 operation(s) for functionalities.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Functionalities API from FireHydrant — 1 operation(s) for functionalities.
   name: FireHydrant Functionalities API
   slug: firehydrant-functionalities-api
-- description: The Incidents API from FireHydrant — 5 operation(s) for incidents.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Incidents API from FireHydrant — 5 operation(s) for incidents.
   name: FireHydrant Incidents API
   slug: firehydrant-incidents-api
-- description: The Ping API from FireHydrant — 1 operation(s) for ping.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Ping API from FireHydrant — 1 operation(s) for ping.
   name: FireHydrant Ping API
   slug: firehydrant-ping-api
-- description: The Priorities API from FireHydrant — 1 operation(s) for priorities.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Priorities API from FireHydrant — 1 operation(s) for priorities.
   name: FireHydrant Priorities API
   slug: firehydrant-priorities-api
-- description: The Runbooks API from FireHydrant — 2 operation(s) for runbooks.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Runbooks API from FireHydrant — 2 operation(s) for runbooks.
   name: FireHydrant Runbooks API
   slug: firehydrant-runbooks-api
-- description: The Scheduled Maintenances API from FireHydrant — 1 operation(s) for scheduled maintenances.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Scheduled Maintenances API from FireHydrant — 1 operation(s) for scheduled maintenances.
   name: FireHydrant Scheduled Maintenances API
   slug: firehydrant-scheduled-maintenances-api
-- description: The Services API from FireHydrant — 2 operation(s) for services.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Services API from FireHydrant — 2 operation(s) for services.
   name: FireHydrant Services API
   slug: firehydrant-services-api
-- description: The Severities API from FireHydrant — 1 operation(s) for severities.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Severities API from FireHydrant — 1 operation(s) for severities.
   name: FireHydrant Severities API
   slug: firehydrant-severities-api
-- description: The Signals API from FireHydrant — 1 operation(s) for signals.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Signals API from FireHydrant — 1 operation(s) for signals.
   name: FireHydrant Signals API
   slug: firehydrant-signals-api
-- description: The Teams API from FireHydrant — 2 operation(s) for teams.
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The Teams API from FireHydrant — 2 operation(s) for teams.
   name: FireHydrant Teams API
   slug: firehydrant-teams-api
 artifact_total: 44
@@ -352,23 +384,23 @@ rate_limits:
   slug: firehydrant-rate-limits
 score:
   band: strong
-  composite: 62.0
+  composite: 62.4
   coverage:
     artifact_dirs: 27
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.9
+  delta: 0.4
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 63.9
+    contract_quality: 65.5
     developer_ergonomics: 51.8
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 58.1
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,7 +412,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/screenshots/firehydrant-2026-06-20T181235.png
 security:

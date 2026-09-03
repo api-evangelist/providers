@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Auth API from Wayflyer — 2 operation(s) for auth.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Auth API from Wayflyer — 2 operation(s) for auth.
   name: Wayflyer Auth API
   slug: wayflyer-auth-api
-- description: The Company Details API from Wayflyer — 3 operation(s) for company details.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Company Details API from Wayflyer — 3 operation(s) for company details.
   name: Wayflyer Company Details API
   slug: wayflyer-company-details-api
-- description: The Company Search API from Wayflyer — 1 operation(s) for company search.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Company Search API from Wayflyer — 1 operation(s) for company search.
   name: Wayflyer Company Search API
   slug: wayflyer-company-search-api
-- description: The CTA API from Wayflyer — 4 operation(s) for cta.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The CTA API from Wayflyer — 4 operation(s) for cta.
   name: Wayflyer CTA API
   slug: wayflyer-cta-api
-- description: The Data Upload API from Wayflyer — 3 operation(s) for data upload.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Data Upload API from Wayflyer — 3 operation(s) for data upload.
   name: Wayflyer Data Upload API
   slug: wayflyer-data-upload-api
-- description: The Documents API from Wayflyer — 3 operation(s) for documents.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Documents API from Wayflyer — 3 operation(s) for documents.
   name: Wayflyer Documents API
   slug: wayflyer-documents-api
-- description: The Embedded Application API from Wayflyer — 3 operation(s) for embedded application.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Embedded Application API from Wayflyer — 3 operation(s) for embedded application.
   name: Wayflyer Embedded Application API
   slug: wayflyer-embedded-application-api
-- description: The Handover API from Wayflyer — 1 operation(s) for handover.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Handover API from Wayflyer — 1 operation(s) for handover.
   name: Wayflyer Handover API
   slug: wayflyer-handover-api
-- description: The Industry Classification API from Wayflyer — 1 operation(s) for industry classification.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Industry Classification API from Wayflyer — 1 operation(s) for industry classification.
   name: Wayflyer Industry Classification API
   slug: wayflyer-industry-classification-api
-- description: The Simulation API from Wayflyer — 1 operation(s) for simulation.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Simulation API from Wayflyer — 1 operation(s) for simulation.
   name: Wayflyer Simulation API
   slug: wayflyer-simulation-api
-- description: The Tracked Login API from Wayflyer — 1 operation(s) for tracked login.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The Tracked Login API from Wayflyer — 1 operation(s) for tracked login.
   name: Wayflyer Tracked Login API
   slug: wayflyer-tracked-login-api
-- description: The User Details API from Wayflyer — 4 operation(s) for user details.
+- baseURL: https://api.wayflyer.com/financing/
+  baseurl_source: declared
+  description: The User Details API from Wayflyer — 4 operation(s) for user details.
   name: Wayflyer User Details API
   slug: wayflyer-user-details-api
 artifact_total: 29
@@ -284,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/screenshots/wayflyer-2026-08-17T082841.png
 security:

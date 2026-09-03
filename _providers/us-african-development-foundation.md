@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 5
 apis:
-- description: USADF agency spending and budget data
+- baseURL: https://api.usaspending.gov
+  baseurl_source: declared
+  description: USADF agency spending and budget data
   name: US African Development Foundation Agency API
   slug: us-african-development-foundation-agency-api
-- description: USADF grant award data
+- baseURL: https://api.usaspending.gov
+  baseurl_source: declared
+  description: USADF grant award data
   name: US African Development Foundation Awards API
   slug: us-african-development-foundation-awards-api
-- description: USADF grant opportunity listings on Grants.gov
+- baseURL: https://api.usaspending.gov
+  baseurl_source: declared
+  description: USADF grant opportunity listings on Grants.gov
   name: US African Development Foundation Opportunities API
   slug: us-african-development-foundation-opportunities-api
-- description: Organizations receiving USADF grants
+- baseURL: https://api.usaspending.gov
+  baseurl_source: declared
+  description: Organizations receiving USADF grants
   name: US African Development Foundation Recipients API
   slug: us-african-development-foundation-recipients-api
-- description: USADF spending breakdowns and analytics
+- baseURL: https://api.usaspending.gov
+  baseurl_source: declared
+  description: USADF spending breakdowns and analytics
   name: US African Development Foundation Spending API
   slug: us-african-development-foundation-spending-api
 artifact_total: 76
@@ -366,7 +376,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/screenshots/us-african-development-foundation-2026-06-20T200541.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -46,58 +46,94 @@ apis:
 - description: The Coolify platform - an open-source, Apache-2.0 licensed, self-hostable PaaS written in PHP (Laravel) that automates deployment of applications, databases, and services to user-controlled servers vi
   name: Coolify
   slug: coolify
-- description: Applications
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Applications
   name: Coolify Applications API
   slug: coolify-applications-api
-- description: Cloud Tokens
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Cloud Tokens
   name: Coolify Cloud Tokens API
   slug: coolify-cloud-tokens-api
-- description: Databases
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Databases
   name: Coolify Databases API
   slug: coolify-databases-api
-- description: Deployments
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Deployments
   name: Coolify Deployments API
   slug: coolify-deployments-api
-- description: The Disable API from Coolify — 1 operation(s) for disable.
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: The Disable API from Coolify — 1 operation(s) for disable.
   name: Coolify Disable API
   slug: coolify-disable-api
-- description: The Enable API from Coolify — 1 operation(s) for enable.
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: The Enable API from Coolify — 1 operation(s) for enable.
   name: Coolify Enable API
   slug: coolify-enable-api
-- description: GitHub Apps
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: GitHub Apps
   name: Coolify GitHub Apps API
   slug: coolify-github-apps-api
-- description: The Health API from Coolify — 1 operation(s) for health.
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: The Health API from Coolify — 1 operation(s) for health.
   name: Coolify Health API
   slug: coolify-health-api
-- description: Hetzner
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Hetzner
   name: Coolify Hetzner API
   slug: coolify-hetzner-api
-- description: The Mcp API from Coolify — 2 operation(s) for mcp.
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: The Mcp API from Coolify — 2 operation(s) for mcp.
   name: Coolify Mcp API
   slug: coolify-mcp-api
-- description: Private Keys
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Private Keys
   name: Coolify Private Keys API
   slug: coolify-private-keys-api
-- description: Projects
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Projects
   name: Coolify Projects API
   slug: coolify-projects-api
-- description: Resources
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Resources
   name: Coolify Resources API
   slug: coolify-resources-api
-- description: Scheduled Tasks
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Scheduled Tasks
   name: Coolify Scheduled Tasks API
   slug: coolify-scheduled-tasks-api
-- description: Servers
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Servers
   name: Coolify Servers API
   slug: coolify-servers-api
-- description: Services
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Services
   name: Coolify Services API
   slug: coolify-services-api
-- description: Teams
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: Teams
   name: Coolify Teams API
   slug: coolify-teams-api
-- description: The Version API from Coolify — 1 operation(s) for version.
+- baseURL: https://app.coolify.io/api/v1
+  baseurl_source: declared
+  description: The Version API from Coolify — 1 operation(s) for version.
   name: Coolify Version API
   slug: coolify-version-api
 artifact_total: 58
@@ -328,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/screenshots/coolify-2026-06-20T175004.png
 security:

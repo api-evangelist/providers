@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 123 operations · 66 acting
 api_count: 1
 apis:
-- description: The Agents API from Dixa — 7 operation(s) for agents.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Agents API from Dixa — 7 operation(s) for agents.
   name: Dixa Agents API
   slug: dixa-agents-api
-- description: The Analytics API from Dixa — 5 operation(s) for analytics.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Analytics API from Dixa — 5 operation(s) for analytics.
   name: Dixa Analytics API
   slug: dixa-analytics-api
-- description: The Anonymization API from Dixa — 5 operation(s) for anonymization.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Anonymization API from Dixa — 5 operation(s) for anonymization.
   name: Dixa Anonymization API
   slug: dixa-anonymization-api
-- description: The Business Hours API from Dixa — 4 operation(s) for business hours.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Business Hours API from Dixa — 4 operation(s) for business hours.
   name: Dixa Business Hours API
   slug: dixa-business-hours-api
-- description: The Chatbots API from Dixa — 13 operation(s) for chatbots.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Chatbots API from Dixa — 13 operation(s) for chatbots.
   name: Dixa Chatbots API
   slug: dixa-chatbots-api
-- description: The Contact Endpoints API from Dixa — 2 operation(s) for contact endpoints.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Contact Endpoints API from Dixa — 2 operation(s) for contact endpoints.
   name: Dixa Contact Endpoints API
   slug: dixa-contact-endpoints-api
-- description: The Conversations API from Dixa — 27 operation(s) for conversations.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Conversations API from Dixa — 27 operation(s) for conversations.
   name: Dixa Conversations API
   slug: dixa-conversations-api
-- description: The Custom Attributes API from Dixa — 4 operation(s) for custom attributes.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Custom Attributes API from Dixa — 4 operation(s) for custom attributes.
   name: Dixa Custom Attributes API
   slug: dixa-custom-attributes-api
-- description: The End Users API from Dixa — 6 operation(s) for end users.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The End Users API from Dixa — 6 operation(s) for end users.
   name: Dixa End Users API
   slug: dixa-end-users-api
-- description: The Internal Notes API from Dixa — 2 operation(s) for internal notes.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Internal Notes API from Dixa — 2 operation(s) for internal notes.
   name: Dixa Internal Notes API
   slug: dixa-internal-notes-api
-- description: The Knowledge API from Dixa — 16 operation(s) for knowledge.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Knowledge API from Dixa — 16 operation(s) for knowledge.
   name: Dixa Knowledge API
   slug: dixa-knowledge-api
-- description: The Messages API from Dixa — 2 operation(s) for messages.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Messages API from Dixa — 2 operation(s) for messages.
   name: Dixa Messages API
   slug: dixa-messages-api
-- description: The Organization API from Dixa — 1 operation(s) for organization.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Organization API from Dixa — 1 operation(s) for organization.
   name: Dixa Organization API
   slug: dixa-organization-api
-- description: The Queues API from Dixa — 5 operation(s) for queues.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Queues API from Dixa — 5 operation(s) for queues.
   name: Dixa Queues API
   slug: dixa-queues-api
-- description: The Ratings API from Dixa — 4 operation(s) for ratings.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Ratings API from Dixa — 4 operation(s) for ratings.
   name: Dixa Ratings API
   slug: dixa-ratings-api
-- description: The Search API from Dixa — 1 operation(s) for search.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Search API from Dixa — 1 operation(s) for search.
   name: Dixa Search API
   slug: dixa-search-api
-- description: The Tags API from Dixa — 7 operation(s) for tags.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Tags API from Dixa — 7 operation(s) for tags.
   name: Dixa Tags API
   slug: dixa-tags-api
-- description: The Teams API from Dixa — 4 operation(s) for teams.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Teams API from Dixa — 4 operation(s) for teams.
   name: Dixa Teams API
   slug: dixa-teams-api
-- description: The Templates API from Dixa — 2 operation(s) for templates.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Templates API from Dixa — 2 operation(s) for templates.
   name: Dixa Templates API
   slug: dixa-templates-api
-- description: The Webhooks API from Dixa — 4 operation(s) for webhooks.
+- baseURL: https://dev.dixa.io/v1
+  baseurl_source: declared
+  description: The Webhooks API from Dixa — 4 operation(s) for webhooks.
   name: Dixa Webhooks API
   slug: dixa-webhooks-api
 artifact_total: 64
@@ -352,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dixa/refs/heads/main/screenshots/dixa-2026-06-20T180054.png
 security:

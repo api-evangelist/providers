@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 32 operations · 13 acting
 api_count: 1
 apis:
-- description: Manage survey decline records
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Manage survey decline records
   name: Wootric Declines API
   slug: wootric-declines-api
-- description: Send email surveys and retrieve email statistics
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Send email surveys and retrieve email statistics
   name: Wootric Email Surveys API
   slug: wootric-email-surveys-api
-- description: Manage end user profiles and metadata
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Manage end user profiles and metadata
   name: Wootric End Users API
   slug: wootric-end-users-api
-- description: Retrieve NPS summary metrics
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Retrieve NPS summary metrics
   name: Wootric Metrics API
   slug: wootric-metrics-api
-- description: Manage NPS/CSAT/CES survey responses
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Manage NPS/CSAT/CES survey responses
   name: Wootric Responses API
   slug: wootric-responses-api
-- description: Access segment definitions
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Access segment definitions
   name: Wootric Segments API
   slug: wootric-segments-api
-- description: Manage end user survey settings
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Manage end user survey settings
   name: Wootric Settings API
   slug: wootric-settings-api
-- description: Access survey template configurations
+- baseURL: https://api.wootric.com
+  baseurl_source: declared
+  description: Access survey template configurations
   name: Wootric Survey Templates API
   slug: wootric-survey-templates-api
 artifact_total: 32
@@ -248,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wootric/refs/heads/main/screenshots/wootric-2026-06-20T201542.png
 security:

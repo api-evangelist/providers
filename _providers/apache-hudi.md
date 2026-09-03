@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Java API for writing Hudi tables with upserts, inserts, and deletes, plus timeline management, compaction, and Spark/Flink DataSource integration APIs.
   name: Apache Hudi Java API
   slug: apache-hudi-java-api
-- description: Hudi table management operations
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Hudi table management operations
   name: Apache Hudi Tables API
   slug: apache-hudi-tables-api
-- description: Hudi timeline and commit operations
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Hudi timeline and commit operations
   name: Apache Hudi Timeline API
   slug: apache-hudi-timeline-api
 artifact_total: 47
@@ -286,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/screenshots/apache-hudi-2026-06-20T172109.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,22 +59,34 @@ apis:
 - description: Command line tool for interacting with DataHub. The datahub CLI allows you to perform common operations including metadata ingestion, entity management, and system administration from the command line
   name: DataHub CLI
   slug: datahub-cli
-- description: Event-driven framework for responding to real-time changes in the DataHub metadata graph. The Actions Framework allows you to configure event sources, transformations, and actions using YAML configura
+- baseURL: https://pypi.org/project/acryl-datahub-actions/
+  baseurl_source: declared
+  description: Event-driven framework for responding to real-time changes in the DataHub metadata graph. The Actions Framework allows you to configure event sources, transformations, and actions using YAML configura
   name: DataHub Actions Framework
   slug: datahub-actions-framework
-- description: Batch operations for fetching multiple entities and their aspects in a single request. Supports version-specific retrieval and conditional writes.
+- baseURL: http://localhost:8080/api/graphql
+  baseurl_source: declared
+  description: Batch operations for fetching multiple entities and their aspects in a single request. Supports version-specific retrieval and conditional writes.
   name: DataHub Batch API
   slug: datahub-batch-api
-- description: 'Read, write, and delete metadata entities in the DataHub metadata graph. The entities endpoints support upserting entity-aspect pairs, retrieving the latest aspects for a given entity, and performing '
+- baseURL: http://localhost:8080/api/graphql
+  baseurl_source: declared
+  description: 'Read, write, and delete metadata entities in the DataHub metadata graph. The entities endpoints support upserting entity-aspect pairs, retrieving the latest aspects for a given entity, and performing '
   name: DataHub Entities API
   slug: datahub-entities-api
-- description: Write metadata events using the standard platform format. Provides an alternative ingestion path for emitting metadata change proposals to the DataHub metadata graph.
+- baseURL: http://localhost:8080/api/graphql
+  baseurl_source: declared
+  description: Write metadata events using the standard platform format. Provides an alternative ingestion path for emitting metadata change proposals to the DataHub metadata graph.
   name: DataHub Platform API
   slug: datahub-platform-api
-- description: Query the relationship graph to navigate connections between entities. Supports filtering by relationship type and traversal direction (incoming or outgoing) from a given entity URN.
+- baseURL: http://localhost:8080/api/graphql
+  baseurl_source: declared
+  description: Query the relationship graph to navigate connections between entities. Supports filtering by relationship type and traversal direction (incoming or outgoing) from a given entity URN.
   name: DataHub Relationships API
   slug: datahub-relationships-api
-- description: Query the versioned history of entity aspects over time. Useful for tracking schema changes, documentation updates, and other temporal metadata modifications for a given entity.
+- baseURL: http://localhost:8080/api/graphql
+  baseurl_source: declared
+  description: Query the versioned history of entity aspects over time. Useful for tracking schema changes, documentation updates, and other temporal metadata modifications for a given entity.
   name: DataHub Timeline API
   slug: datahub-timeline-api
 arazzos:
@@ -395,7 +407,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -408,7 +420,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 56.7
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -417,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
 security:

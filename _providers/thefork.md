@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 2
 apis:
-- description: Look up customer and guest profile data.
+- baseURL: https://api.thefork.io
+  baseurl_source: declared
+  description: Look up customer and guest profile data.
   name: TheFork Customers API
   slug: thefork-customers-api
-- description: Open and close point-of-sale orders tied to reservations.
+- baseURL: https://api.thefork.io
+  baseurl_source: declared
+  description: Open and close point-of-sale orders tied to reservations.
   name: TheFork Orders API
   slug: thefork-orders-api
-- description: Create, retrieve, and update reservations.
+- baseURL: https://api.thefork.io
+  baseurl_source: declared
+  description: Create, retrieve, and update reservations.
   name: TheFork Reservations API
   slug: thefork-reservations-api
-- description: Retrieve guest review details.
+- baseURL: https://api.thefork.io
+  baseurl_source: declared
+  description: Retrieve guest review details.
   name: TheFork Reviews API
   slug: thefork-reviews-api
 artifact_total: 66
@@ -352,7 +360,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/screenshots/thefork-2026-06-20T195245.png
 security:

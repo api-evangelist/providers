@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
   name: Plerion Alerts API
   slug: plerion-alerts-api
-- description: Asset Group is classifying assets into specific group based on the different criteria such as integration, asset tag, resource type and resource name. This helps users to manage, organize, and analyze
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: Asset Group is classifying assets into specific group based on the different criteria such as integration, asset tag, resource type and resource name. This helps users to manage, organize, and analyze
   name: Plerion Asset groups API
   slug: plerion-asset-groups-api
-- description: Plerion Assets form the basis upon which all Plerion contextual security is reported. Every unique cloud resource on which Plerion collects information is classified as a single asset on the Plerion p
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: Plerion Assets form the basis upon which all Plerion contextual security is reported. Every unique cloud resource on which Plerion collects information is classified as a single asset on the Plerion p
   name: Plerion Assets API
   slug: plerion-assets-api
-- description: 'Audit logs provide a comprehensive trail of user activities and system operations within a tenant. These logs capture important events such as user logins, API calls, configuration changes, and other '
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: 'Audit logs provide a comprehensive trail of user activities and system operations within a tenant. These logs capture important events such as user logins, API calls, configuration changes, and other '
   name: Plerion Audit logs API
   slug: plerion-audit-logs-api
-- description: In order to connect your AWS account to Plerion or update existing account, you will need, <ol> <li> <b>CloudFormation Template URL</b>. Retrieve the template from <a href="#tag/AWS-Integration/operat
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: In order to connect your AWS account to Plerion or update existing account, you will need, <ol> <li> <b>CloudFormation Template URL</b>. Retrieve the template from <a href="#tag/AWS-Integration/operat
   name: Plerion AWS integration API
   slug: plerion-aws-integration-api
-- description: The Code security API from Plerion — 4 operation(s) for code security.
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: The Code security API from Plerion — 4 operation(s) for code security.
   name: Plerion Code security API
   slug: plerion-code-security-api
-- description: Compliance Frameworks help our customers meet their regulatory and compliance obligations, and reduce compliance risk, enabling them to achieve their strategic objectives. Plerion offers customers hun
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: Compliance Frameworks help our customers meet their regulatory and compliance obligations, and reduce compliance risk, enabling them to achieve their strategic objectives. Plerion offers customers hun
   name: Plerion Compliance frameworks API
   slug: plerion-compliance-frameworks-api
-- description: Findings are the results of the Plerion Detection Engine (PDE) Detection reporting a finding and rating the severity of the finding as it relates to best practices or a relevant compliance standard. P
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: Findings are the results of the Plerion Detection Engine (PDE) Detection reporting a finding and rating the severity of the finding as it relates to best practices or a relevant compliance standard. P
   name: Plerion Findings API
   slug: plerion-findings-api
-- description: Integrations enable customers to connect their own cloud environments to the Plerion platform. Integrations allow for the collection of data from the integrated environment, e.g. Connecting Plerion to
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: Integrations enable customers to connect their own cloud environments to the Plerion platform. Integrations allow for the collection of data from the integrated environment, e.g. Connecting Plerion to
   name: Plerion Integrations API
   slug: plerion-integrations-api
-- description: In a cloud environment there are usually many hundreds or thousands of misconfigurations, but which of those pose a clear and present danger of a breach? That’s what the Plerion risk is about.
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: In a cloud environment there are usually many hundreds or thousands of misconfigurations, but which of those pose a clear and present danger of a breach? That’s what the Plerion risk is about.
   name: Plerion Risks API
   slug: plerion-risks-api
-- description: The Plerion platform caters for multi-tenancy. Multi-tenancy within the Plerion platform delivers isolation for the integrations supported by Plerion. Each Tenancy (Tenant) allows for multiple inbound
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: The Plerion platform caters for multi-tenancy. Multi-tenancy within the Plerion platform delivers isolation for the integrations supported by Plerion. Each Tenancy (Tenant) allows for multiple inbound
   name: Plerion Tenant API
   slug: plerion-tenant-api
-- description: The Vulnerabilities API from Plerion — 3 operation(s) for vulnerabilities.
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: The Vulnerabilities API from Plerion — 3 operation(s) for vulnerabilities.
   name: Plerion Vulnerabilities API
   slug: plerion-vulnerabilities-api
-- description: The AWS Well-Architected Framework helps customers design secure, high-performing, resilient, and efficient cloud infrastructure. Plerion continuously assesses your environment against the AWS Well-Ar
+- baseURL: https://au.api.plerion.com
+  baseurl_source: declared
+  description: The AWS Well-Architected Framework helps customers design secure, high-performing, resilient, and efficient cloud infrastructure. Plerion continuously assesses your environment against the AWS Well-Ar
   name: Plerion Well-Architected frameworks API
   slug: plerion-well-architected-frameworks-api
 artifact_total: 32
@@ -286,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/screenshots/plerion-2026-08-17T081306.png
 security:

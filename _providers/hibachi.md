@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 27 operations · 8 acting
 api_count: 1
 apis:
-- description: 'Authenticated capital movement: balance, deposit info, withdraw, transfer'
+- baseURL: https://api.hibachi.xyz
+  baseurl_source: declared
+  description: 'Authenticated capital movement: balance, deposit info, withdraw, transfer'
   name: Hibachi Capital API
   slug: hibachi-capital-api
-- description: 'Public market data: contracts, prices, stats, trades, klines, orderbook, funding rates'
+- baseURL: https://api.hibachi.xyz
+  baseurl_source: declared
+  description: 'Public market data: contracts, prices, stats, trades, klines, orderbook, funding rates'
   name: Hibachi Market API
   slug: hibachi-market-api
-- description: 'Authenticated trading: orders, positions, account info, settlements, leverage'
+- baseURL: https://api.hibachi.xyz
+  baseurl_source: declared
+  description: 'Authenticated trading: orders, positions, account info, settlements, leverage'
   name: Hibachi Trade API
   slug: hibachi-trade-api
 artifact_total: 12
@@ -215,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -225,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.7
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,7 +249,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/screenshots/hibachi-2026-07-25T221135.png
 security:

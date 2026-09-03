@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
-- description: The Filter API from OpenFIGI — 1 operation(s) for filter.
+- baseURL: https://api.openfigi.com
+  baseurl_source: declared
+  description: The Filter API from OpenFIGI — 1 operation(s) for filter.
   name: OpenFIGI Filter API
   slug: openfigi-filter-api
-- description: The Mapping API from OpenFIGI — 2 operation(s) for mapping.
+- baseURL: https://api.openfigi.com
+  baseurl_source: declared
+  description: The Mapping API from OpenFIGI — 2 operation(s) for mapping.
   name: OpenFIGI Mapping API
   slug: openfigi-mapping-api
-- description: The Search API from OpenFIGI — 1 operation(s) for search.
+- baseURL: https://api.openfigi.com
+  baseurl_source: declared
+  description: The Search API from OpenFIGI — 1 operation(s) for search.
   name: OpenFIGI Search API
   slug: openfigi-search-api
 artifact_total: 14
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfigi/refs/heads/main/screenshots/openfigi-2026-06-20T191005.png
 security:

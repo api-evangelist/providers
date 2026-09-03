@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: AsyncAPI 2.6 definition for Acuity Scheduling's outbound webhook surface. Models the documented appointment events (scheduled, rescheduled, canceled, changed) and order events (order.completed) delive
   name: Acuity Scheduling Webhooks
   slug: webhooks-asyncapi
-- description: The Appointments API from Acuity Scheduling — 2 operation(s) for appointments.
+- baseURL: https://acuityscheduling.com/api/v1
+  baseurl_source: declared
+  description: The Appointments API from Acuity Scheduling — 2 operation(s) for appointments.
   name: Acuity Scheduling Appointments API
   slug: acuity-scheduling-appointments-api
-- description: The Meta API from Acuity Scheduling — 1 operation(s) for meta.
+- baseURL: https://acuityscheduling.com/api/v1
+  baseurl_source: declared
+  description: The Meta API from Acuity Scheduling — 1 operation(s) for meta.
   name: Acuity Scheduling Meta API
   slug: acuity-scheduling-meta-api
-- description: The Payments API from Acuity Scheduling — 1 operation(s) for payments.
+- baseURL: https://acuityscheduling.com/api/v1
+  baseurl_source: declared
+  description: The Payments API from Acuity Scheduling — 1 operation(s) for payments.
   name: Acuity Scheduling Payments API
   slug: acuity-scheduling-payments-api
 artifact_total: 14
@@ -140,7 +146,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -150,7 +156,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.1
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -159,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/screenshots/acuity-scheduling-2026-06-20T164418.png
 security:

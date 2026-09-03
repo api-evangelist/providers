@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,46 +76,74 @@ apis:
 - description: CommBank Yello is the bank's customer recognition and rewards program offering eligible customers exclusive cashback offers, partner discounts, fee waivers, and home loan benefits surfaced through the
   name: CommBank Yello
   slug: commbank-yello
-- description: Obtain the list of accounts authorised to be shared by the customer. Account API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">Host URL</h3><p>C
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Obtain the list of accounts authorised to be shared by the customer. Account API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">Host URL</h3><p>C
   name: Commonwealth Bank Accounts API API
   slug: commonwealth-bank-accounts-api-api
-- description: 'Obtain the balance for a single specified account. Balances API is a consumer API. To access data you''ll need the customer''s consent.</p><h3 style="margin-top:30px;">Host URL</h3><p>CommBank requests '
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Obtain the balance for a single specified account. Balances API is a consumer API. To access data you''ll need the customer''s consent.</p><h3 style="margin-top:30px;">Host URL</h3><p>CommBank requests '
   name: Commonwealth Bank Balances API API
   slug: commonwealth-bank-balances-api-api
-- description: Banking Account Balance endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Commonwealth Bank Banking Account Balances API
   slug: commonwealth-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Commonwealth Bank Banking Account Direct Debits API
   slug: commonwealth-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Commonwealth Bank Banking Account Scheduled Payments API
   slug: commonwealth-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Commonwealth Bank Banking Account Transactions API
   slug: commonwealth-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Commonwealth Bank Banking Accounts API
   slug: commonwealth-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Commonwealth Bank Banking Payees API
   slug: commonwealth-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Commonwealth Bank Banking Products API
   slug: commonwealth-bank-banking-products-api
-- description: Access a customer's basic contact details. The customer may choose to share their personal or organisation details. Customer API is a consumer API. To access data you'll need the customer's consent.</
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Access a customer's basic contact details. The customer may choose to share their personal or organisation details. Customer API is a consumer API. To access data you'll need the customer's consent.</
   name: Commonwealth Bank Customer API API
   slug: commonwealth-bank-customer-api-api
-- description: Obtain a list of pre-registered payees authorised to be shared by the customer. Payees API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">Host UR
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Obtain a list of pre-registered payees authorised to be shared by the customer. Payees API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">Host UR
   name: Commonwealth Bank Payees API API
   slug: commonwealth-bank-payees-api-api
-- description: Get details on available CommBank products including deposit and transaction accounts, credit cards, home loans, personal loans, and offset accounts. Information available through the API includes eli
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Get details on available CommBank products including deposit and transaction accounts, credit cards, home loans, personal loans, and offset accounts. Information available through the API includes eli
   name: Commonwealth Bank Products API API
   slug: commonwealth-bank-products-api-api
-- description: Obtain the Regular Payment details authorised to be shared by the customer. Regular Payments API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">H
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Obtain the Regular Payment details authorised to be shared by the customer. Regular Payments API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">H
   name: Commonwealth Bank Regular Payments API API
   slug: commonwealth-bank-regular-payments-api-api
-- description: Obtain the list of transactions for a CommBank account and details for each transaction. Transaction API is a consumer API. To access data you'll need the customer's consent. Seven years’ worth of tra
+- baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Obtain the list of transactions for a CommBank account and details for each transaction. Transaction API is a consumer API. To access data you'll need the customer's consent. Seven years’ worth of tra
   name: Commonwealth Bank Transaction API API
   slug: commonwealth-bank-transaction-api-api
 artifact_total: 66
@@ -393,7 +421,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png
 security:

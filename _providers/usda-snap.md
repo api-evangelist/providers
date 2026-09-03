@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,10 +42,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Query SNAP retailer location records.
+- baseURL: https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/snap_retailer_location_data/FeatureServer
+  baseurl_source: declared
+  description: Query SNAP retailer location records.
   name: USDA SNAP Retailer Locator Retailers API
   slug: usda-snap-retailers-api
-- description: Feature service and layer metadata.
+- baseURL: https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/snap_retailer_location_data/FeatureServer
+  baseurl_source: declared
+  description: Feature service and layer metadata.
   name: USDA SNAP Retailer Locator Service API
   slug: usda-snap-service-api
 artifact_total: 9
@@ -109,7 +113,7 @@ score:
   band: emerging
   composite: 24.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -138,8 +142,9 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/usda-snap/refs/heads/main/screenshots/usda-snap-2026-09-02T165228.png
 security:
 - kind: domain-security
   name: Usda Snap Domain Security

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: InvestCloud's developer platform, branded "Wealthsqope Digital Developer". Its own public landing page advertises getting-started guides, "full API docs for web services and embedded widgets", video t
@@ -136,7 +148,7 @@ score:
   band: emerging
   composite: 16.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -154,8 +166,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/investcloud/refs/heads/main/screenshots/investcloud-2026-09-02T145917.png
 security:
 - kind: authentication
   name: Investcloud Authentication

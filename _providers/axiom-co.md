@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 56 operations · 31 acting
 api_count: 1
 apis:
-- description: Mark deployments, incidents, and events on charts.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Mark deployments, incidents, and events on charts.
   name: Axiom Annotations API
   slug: axiom-co-annotations-api
-- description: Collections of charts and visualizations.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Collections of charts and visualizations.
   name: Axiom Dashboards API
   slug: axiom-co-dashboards-api
-- description: Manage the datasets that store ingested event data.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Manage the datasets that store ingested event data.
   name: Axiom Datasets API
   slug: axiom-co-datasets-api
-- description: Inspect and annotate dataset fields.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Inspect and annotate dataset fields.
   name: Axiom Fields API
   slug: axiom-co-fields-api
-- description: Send logs, traces, and events into a dataset.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Send logs, traces, and events into a dataset.
   name: Axiom Ingest API
   slug: axiom-co-ingest-api
-- description: APL-backed alert monitors.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: APL-backed alert monitors.
   name: Axiom Monitors API
   slug: axiom-co-monitors-api
-- description: Notification channels monitors dispatch through.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Notification channels monitors dispatch through.
   name: Axiom Notifiers API
   slug: axiom-co-notifiers-api
-- description: Organization-level settings.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Organization-level settings.
   name: Axiom Organizations API
   slug: axiom-co-organizations-api
-- description: Run APL queries across datasets.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Run APL queries across datasets.
   name: Axiom Query API
   slug: axiom-co-query-api
-- description: Saved, shareable APL queries.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Saved, shareable APL queries.
   name: Axiom Starred Queries API
   slug: axiom-co-starred-queries-api
-- description: Scoped API tokens used to authenticate requests.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Scoped API tokens used to authenticate requests.
   name: Axiom Tokens API
   slug: axiom-co-tokens-api
-- description: Current user and organization members.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Current user and organization members.
   name: Axiom Users API
   slug: axiom-co-users-api
-- description: Derived fields computed from an APL expression at query time.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: Derived fields computed from an APL expression at query time.
   name: Axiom Virtual Fields API
   slug: axiom-co-virtual-fields-api
 artifact_total: 34
@@ -227,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 6
 apis:
-- description: Manage employee benefit enrollments and elections
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage employee benefit enrollments and elections
   name: Workday Benefits Benefit Enrollments API
   slug: workday-benefits-benefit-enrollments-api
-- description: Manage benefit qualifying events and open enrollment
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage benefit qualifying events and open enrollment
   name: Workday Benefits Benefit Events API
   slug: workday-benefits-benefit-events-api
-- description: Manage benefit plan definitions and configurations
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage benefit plan definitions and configurations
   name: Workday Benefits Benefit Plans API
   slug: workday-benefits-benefit-plans-api
-- description: Manage employee dependents and beneficiaries
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage employee dependents and beneficiaries
   name: Workday Benefits Dependents API
   slug: workday-benefits-dependents-api
-- description: Manage individual employee benefit summaries and balances
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage individual employee benefit summaries and balances
   name: Workday Benefits Employee Benefits API
   slug: workday-benefits-employee-benefits-api
-- description: Manage time off and leave benefit plans
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage time off and leave benefit plans
   name: Workday Benefits Time Off Plans API
   slug: workday-benefits-time-off-plans-api
 artifact_total: 52
@@ -321,10 +333,10 @@ score:
       total: 7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/screenshots/workday-benefits-2026-06-20T201559.png
 security:

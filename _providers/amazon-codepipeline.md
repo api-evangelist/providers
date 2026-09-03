@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -43,127 +43,209 @@ agentic_access:
   summary_line: 45 operations · 45 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for managing pipeline executions
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing pipeline executions
   name: Amazon CodePipeline Executions API
   slug: amazon-codepipeline-executions-api
-- description: Operations for managing CodePipeline pipelines
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing CodePipeline pipelines
   name: Amazon CodePipeline Pipelines API
   slug: amazon-codepipeline-pipelines-api
-- description: 'The #X Amz Target=CodePipeline 20150709.AcknowledgeJob API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.acknowledgejob.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.AcknowledgeJob API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.acknowledgejob.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.AcknowledgeJob API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-acknowledgejob-api
-- description: 'The #X Amz Target=CodePipeline 20150709.AcknowledgeThirdPartyJob API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.acknowledgethirdpartyjob.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.AcknowledgeThirdPartyJob API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.acknowledgethirdpartyjob.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.AcknowledgeThirdPartyJob API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-acknowledgethirdpartyjob-api
-- description: 'The #X Amz Target=CodePipeline 20150709.CreateCustomActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.createcustomactiontype.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.CreateCustomActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.createcustomactiontype.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.CreateCustomActionType API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-createcustomactiontype-api
-- description: 'The #X Amz Target=CodePipeline 20150709.CreatePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.createpipeline.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.CreatePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.createpipeline.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.CreatePipeline API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-createpipeline-api
-- description: 'The #X Amz Target=CodePipeline 20150709.DeleteCustomActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deletecustomactiontype.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.DeleteCustomActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deletecustomactiontype.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.DeleteCustomActionType API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-deletecustomactiontype-api
-- description: 'The #X Amz Target=CodePipeline 20150709.DeletePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deletepipeline.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.DeletePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deletepipeline.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.DeletePipeline API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-deletepipeline-api
-- description: 'The #X Amz Target=CodePipeline 20150709.DeleteWebhook API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deletewebhook.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.DeleteWebhook API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deletewebhook.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.DeleteWebhook API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-deletewebhook-api
-- description: 'The #X Amz Target=CodePipeline 20150709.DeregisterWebhookWithThirdParty API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deregisterwebhookwiththirdparty.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.DeregisterWebhookWithThirdParty API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.deregisterwebhookwiththirdparty.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.DeregisterWebhookWithThirdParty API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-deregisterwebhookwiththirdparty-api
-- description: 'The #X Amz Target=CodePipeline 20150709.DisableStageTransition API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.disablestagetransition.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.DisableStageTransition API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.disablestagetransition.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.DisableStageTransition API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-disablestagetransition-api
-- description: 'The #X Amz Target=CodePipeline 20150709.EnableStageTransition API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.enablestagetransition.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.EnableStageTransition API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.enablestagetransition.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.EnableStageTransition API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-enablestagetransition-api
-- description: 'The #X Amz Target=CodePipeline 20150709.GetActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getactiontype.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.GetActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getactiontype.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.GetActionType API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-getactiontype-api
-- description: 'The #X Amz Target=CodePipeline 20150709.GetJobDetails API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getjobdetails.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.GetJobDetails API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getjobdetails.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.GetJobDetails API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-getjobdetails-api
-- description: 'The #X Amz Target=CodePipeline 20150709.GetPipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getpipeline.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.GetPipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getpipeline.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.GetPipeline API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-getpipeline-api
-- description: 'The #X Amz Target=CodePipeline 20150709.GetPipelineExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getpipelineexecution.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.GetPipelineExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getpipelineexecution.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.GetPipelineExecution API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-getpipelineexecution-api
-- description: 'The #X Amz Target=CodePipeline 20150709.GetPipelineState API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getpipelinestate.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.GetPipelineState API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getpipelinestate.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.GetPipelineState API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-getpipelinestate-api
-- description: 'The #X Amz Target=CodePipeline 20150709.GetThirdPartyJobDetails API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getthirdpartyjobdetails.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.GetThirdPartyJobDetails API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.getthirdpartyjobdetails.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.GetThirdPartyJobDetails API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-getthirdpartyjobdetails-api
-- description: 'The #X Amz Target=CodePipeline 20150709.ListActionExecutions API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listactionexecutions.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.ListActionExecutions API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listactionexecutions.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.ListActionExecutions API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-listactionexecutions-api
-- description: 'The #X Amz Target=CodePipeline 20150709.ListActionTypes API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listactiontypes.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.ListActionTypes API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listactiontypes.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.ListActionTypes API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-listactiontypes-api
-- description: 'The #X Amz Target=CodePipeline 20150709.ListPipelineExecutions API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listpipelineexecutions.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.ListPipelineExecutions API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listpipelineexecutions.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.ListPipelineExecutions API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-listpipelineexecutions-api
-- description: 'The #X Amz Target=CodePipeline 20150709.ListPipelines API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listpipelines.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.ListPipelines API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listpipelines.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.ListPipelines API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-listpipelines-api
-- description: 'The #X Amz Target=CodePipeline 20150709.ListTagsForResource API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listtagsforresource.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.ListTagsForResource API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listtagsforresource.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.ListTagsForResource API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-listtagsforresource-api
-- description: 'The #X Amz Target=CodePipeline 20150709.ListWebhooks API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listwebhooks.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.ListWebhooks API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.listwebhooks.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.ListWebhooks API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-listwebhooks-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PollForJobs API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.pollforjobs.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PollForJobs API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.pollforjobs.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PollForJobs API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-pollforjobs-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PollForThirdPartyJobs API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.pollforthirdpartyjobs.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PollForThirdPartyJobs API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.pollforthirdpartyjobs.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PollForThirdPartyJobs API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-pollforthirdpartyjobs-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutActionRevision API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putactionrevision.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutActionRevision API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putactionrevision.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutActionRevision API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putactionrevision-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutApprovalResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putapprovalresult.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutApprovalResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putapprovalresult.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutApprovalResult API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putapprovalresult-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutJobFailureResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putjobfailureresult.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutJobFailureResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putjobfailureresult.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutJobFailureResult API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putjobfailureresult-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutJobSuccessResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putjobsuccessresult.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutJobSuccessResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putjobsuccessresult.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutJobSuccessResult API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putjobsuccessresult-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutThirdPartyJobFailureResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putthirdpartyjobfailureresult.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutThirdPartyJobFailureResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putthirdpartyjobfailureresult.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutThirdPartyJobFailureResult API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putthirdpartyjobfailureresult-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutThirdPartyJobSuccessResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putthirdpartyjobsuccessresult.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutThirdPartyJobSuccessResult API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putthirdpartyjobsuccessresult.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutThirdPartyJobSuccessResult API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putthirdpartyjobsuccessresult-api
-- description: 'The #X Amz Target=CodePipeline 20150709.PutWebhook API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putwebhook.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.PutWebhook API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.putwebhook.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.PutWebhook API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-putwebhook-api
-- description: 'The #X Amz Target=CodePipeline 20150709.RegisterWebhookWithThirdParty API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.registerwebhookwiththirdparty.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.RegisterWebhookWithThirdParty API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.registerwebhookwiththirdparty.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.RegisterWebhookWithThirdParty API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-registerwebhookwiththirdparty-api
-- description: 'The #X Amz Target=CodePipeline 20150709.RetryStageExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.retrystageexecution.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.RetryStageExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.retrystageexecution.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.RetryStageExecution API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-retrystageexecution-api
-- description: 'The #X Amz Target=CodePipeline 20150709.StartPipelineExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.startpipelineexecution.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.StartPipelineExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.startpipelineexecution.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.StartPipelineExecution API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-startpipelineexecution-api
-- description: 'The #X Amz Target=CodePipeline 20150709.StopPipelineExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.stoppipelineexecution.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.StopPipelineExecution API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.stoppipelineexecution.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.StopPipelineExecution API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-stoppipelineexecution-api
-- description: 'The #X Amz Target=CodePipeline 20150709.TagResource API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.tagresource.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.TagResource API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.tagresource.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.TagResource API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-tagresource-api
-- description: 'The #X Amz Target=CodePipeline 20150709.UntagResource API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.untagresource.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.UntagResource API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.untagresource.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.UntagResource API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-untagresource-api
-- description: 'The #X Amz Target=CodePipeline 20150709.UpdateActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.updateactiontype.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.UpdateActionType API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.updateactiontype.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.UpdateActionType API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-updateactiontype-api
-- description: 'The #X Amz Target=CodePipeline 20150709.UpdatePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.updatepipeline.'
+- baseURL: https://codepipeline.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodePipeline 20150709.UpdatePipeline API from Amazon CodePipeline — 1 operation(s) for #x amz target=codepipeline 20150709.updatepipeline.'
   name: 'Amazon CodePipeline #X Amz Target=CodePipeline 20150709.UpdatePipeline API'
   slug: amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
 artifact_total: 885
@@ -2844,7 +2926,7 @@ score:
       total: 41
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:

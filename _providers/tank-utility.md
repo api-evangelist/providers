@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Exchange account credentials for a short-lived API token.
+- baseURL: https://data.tankutility.com/api
+  baseurl_source: declared
+  description: Exchange account credentials for a short-lived API token.
   name: Tank Utility Authentication API
   slug: tank-utility-authentication-api
-- description: List and read propane tank monitor devices.
+- baseURL: https://data.tankutility.com/api
+  baseurl_source: declared
+  description: List and read propane tank monitor devices.
   name: Tank Utility Devices API
   slug: tank-utility-devices-api
 arazzos:
@@ -159,7 +163,7 @@ score:
   band: emerging
   composite: 24.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -190,8 +194,9 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/screenshots/tank-utility-2026-09-02T162519.png
 security:
 - kind: authentication
   name: Tank Utility Authentication

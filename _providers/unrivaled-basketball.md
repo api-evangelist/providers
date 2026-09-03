@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Games API from Unrivaled Basketball — 5 operation(s) for games.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The Games API from Unrivaled Basketball — 5 operation(s) for games.
   name: Unrivaled Basketball Games API
   slug: unrivaled-basketball-games-api
-- description: The League API from Unrivaled Basketball — 7 operation(s) for league.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The League API from Unrivaled Basketball — 7 operation(s) for league.
   name: Unrivaled Basketball League API
   slug: unrivaled-basketball-league-api
-- description: The Players API from Unrivaled Basketball — 1 operation(s) for players.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The Players API from Unrivaled Basketball — 1 operation(s) for players.
   name: Unrivaled Basketball Players API
   slug: unrivaled-basketball-players-api
-- description: The Seasons API from Unrivaled Basketball — 4 operation(s) for seasons.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The Seasons API from Unrivaled Basketball — 4 operation(s) for seasons.
   name: Unrivaled Basketball Seasons API
   slug: unrivaled-basketball-seasons-api
-- description: The Series API from Unrivaled Basketball — 2 operation(s) for series.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The Series API from Unrivaled Basketball — 2 operation(s) for series.
   name: Unrivaled Basketball Series API
   slug: unrivaled-basketball-series-api
-- description: The Teams API from Unrivaled Basketball — 1 operation(s) for teams.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The Teams API from Unrivaled Basketball — 1 operation(s) for teams.
   name: Unrivaled Basketball Teams API
   slug: unrivaled-basketball-teams-api
-- description: The Tournaments API from Unrivaled Basketball — 3 operation(s) for tournaments.
+- baseURL: https://api.sportradar.com/unrivaled
+  baseurl_source: declared
+  description: The Tournaments API from Unrivaled Basketball — 3 operation(s) for tournaments.
   name: Unrivaled Basketball Tournaments API
   slug: unrivaled-basketball-tournaments-api
 artifact_total: 18
@@ -218,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unrivaled-basketball/refs/heads/main/screenshots/unrivaled-basketball-2026-08-17T082632.png
 security:

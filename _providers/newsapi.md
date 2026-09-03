@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Search all articles from all sources
+- baseURL: https://newsapi.org/v2
+  baseurl_source: declared
+  description: Search all articles from all sources
   name: NewsAPI Everything API
   slug: newsapi-everything-api
-- description: Get available news sources
+- baseURL: https://newsapi.org/v2
+  baseurl_source: declared
+  description: Get available news sources
   name: NewsAPI Sources API
   slug: newsapi-sources-api
-- description: Get live top and breaking headlines
+- baseURL: https://newsapi.org/v2
+  baseurl_source: declared
+  description: Get live top and breaking headlines
   name: NewsAPI Top Headlines API
   slug: newsapi-top-headlines-api
 artifact_total: 21
@@ -215,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/screenshots/newsapi-2026-06-20T190246.png
 security:

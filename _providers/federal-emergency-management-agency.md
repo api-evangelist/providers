@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Public, individual, and hazard mitigation assistance
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: Public, individual, and hazard mitigation assistance
   name: Federal Emergency Management Agency Assistance API
   slug: federal-emergency-management-agency-assistance-api
-- description: Disaster declarations and summaries
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: Disaster declarations and summaries
   name: Federal Emergency Management Agency Disasters API
   slug: federal-emergency-management-agency-disasters-api
-- description: API and dataset metadata
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: API and dataset metadata
   name: Federal Emergency Management Agency Metadata API
   slug: federal-emergency-management-agency-metadata-api
-- description: National Flood Insurance Program data
+- baseURL: https://www.fema.gov/api/open
+  baseurl_source: declared
+  description: National Flood Insurance Program data
   name: Federal Emergency Management Agency NFIP API
   slug: federal-emergency-management-agency-nfip-api
 artifact_total: 17
@@ -180,7 +188,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

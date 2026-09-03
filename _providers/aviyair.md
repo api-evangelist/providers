@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Aviyair API provides global flight data including real-time flight tracking and status, historical flight data, airline schedules, IATA and ICAO codes, routes, and delay information.
@@ -102,7 +102,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviyair/refs/heads/main/screenshots/aviyair-2026-06-20T172731.png
 security:

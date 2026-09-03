@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,7 +47,9 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: Geração de fatura/recibo em PDF
+- baseURL: https://brazilian-invoice-receipt-pdf-api-cpf-cnpj.p.rapidapi.com
+  baseurl_source: declared
+  description: Geração de fatura/recibo em PDF
   name: FaturaPDF — Brazilian Invoice & Receipt PDF API Documents API
   slug: faturapdf-brazilian-invoice-receipt-pdf-api-documents-api
 artifact_total: 13
@@ -242,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faturapdf-brazilian-invoice-receipt-pdf-api/refs/heads/main/screenshots/faturapdf-brazilian-invoice-receipt-pdf-api-2026-08-17T080925.png
 security:

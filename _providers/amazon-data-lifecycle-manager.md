@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 1
 apis:
-- description: Operations for managing EBS snapshot and AMI lifecycle policies
+- baseURL: https://dlm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing EBS snapshot and AMI lifecycle policies
   name: Amazon Data Lifecycle Manager Lifecycle Policies API
   slug: amazon-data-lifecycle-manager-lifecycle-policies-api
-- description: Operations for managing resource tags
+- baseURL: https://dlm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing resource tags
   name: Amazon Data Lifecycle Manager Tags API
   slug: amazon-data-lifecycle-manager-tags-api
 arazzos:
@@ -426,7 +430,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/screenshots/amazon-data-lifecycle-manager-2026-06-20T171613.png
 security:

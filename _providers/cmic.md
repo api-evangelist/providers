@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: CMiC's Power BI Connector allows users to connect Microsoft Power BI directly to CMiC ERP data through the CMiC API, enabling business intelligence dashboards and reports for construction project fina
   name: CMiC API Power BI Connector
   slug: cmic-power-bi-connector
-- description: Job cost codes, budgets, and committed costs
+- baseURL: https://api.cmic.ca
+  baseurl_source: declared
+  description: Job cost codes, budgets, and committed costs
   name: CMiC Cost Tracking API
   slug: cmic-cost-tracking-api
-- description: Document management and approvals
+- baseURL: https://api.cmic.ca
+  baseurl_source: declared
+  description: Document management and approvals
   name: CMiC Documents API
   slug: cmic-documents-api
-- description: Equipment tracking and usage
+- baseURL: https://api.cmic.ca
+  baseurl_source: declared
+  description: Equipment tracking and usage
   name: CMiC Equipment API
   slug: cmic-equipment-api
-- description: Job and cost code tracking
+- baseURL: https://api.cmic.ca
+  baseurl_source: declared
+  description: Job and cost code tracking
   name: CMiC Jobs API
   slug: cmic-jobs-api
-- description: Construction project management
+- baseURL: https://api.cmic.ca
+  baseurl_source: declared
+  description: Construction project management
   name: CMiC Projects API
   slug: cmic-projects-api
-- description: Subcontractor and vendor management
+- baseURL: https://api.cmic.ca
+  baseurl_source: declared
+  description: Subcontractor and vendor management
   name: CMiC Subcontractors API
   slug: cmic-subcontractors-api
 artifact_total: 26
@@ -250,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/screenshots/cmic-2026-06-20T174629.png
 security:

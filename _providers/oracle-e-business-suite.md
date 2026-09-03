@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,70 +50,114 @@ apis:
 - description: The PL/SQL API framework provides the core programmatic interface to Oracle E-Business Suite database objects. These stored procedures and functions enable data manipulation across all EBS modules and
   name: Oracle EBS PL/SQL API Framework
   slug: oracle-ebs-plsql-api-framework
-- description: Accounts Payable invoice and payment operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Accounts Payable invoice and payment operations
   name: Oracle E-Business Suite Accounts Payable API
   slug: oracle-e-business-suite-accounts-payable-api
-- description: Accounts Receivable invoice and receipt operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Accounts Receivable invoice and receipt operations
   name: Oracle E-Business Suite Accounts Receivable API
   slug: oracle-e-business-suite-accounts-receivable-api
-- description: Login, session initialization, and logout operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Login, session initialization, and logout operations
   name: Oracle E-Business Suite Authentication API
   slug: oracle-e-business-suite-authentication-api
-- description: Benefit enrollment management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Benefit enrollment management
   name: Oracle E-Business Suite Benefits API
   slug: oracle-e-business-suite-benefits-api
-- description: BOM and routing management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: BOM and routing management
   name: Oracle E-Business Suite Bills of Material API
   slug: oracle-e-business-suite-bills-of-material-api
-- description: Cash management and bank account operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Cash management and bank account operations
   name: Oracle E-Business Suite Cash Management API
   slug: oracle-e-business-suite-cash-management-api
-- description: EDI code conversion mapping management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: EDI code conversion mapping management
   name: Oracle E-Business Suite Code Conversions API
   slug: oracle-e-business-suite-code-conversions-api
-- description: Employee and assignment management operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Employee and assignment management operations
   name: Oracle E-Business Suite Employee Management API
   slug: oracle-e-business-suite-employee-management-api
-- description: Fixed asset management operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Fixed asset management operations
   name: Oracle E-Business Suite Fixed Assets API
   slug: oracle-e-business-suite-fixed-assets-api
-- description: General Ledger journal operations
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: General Ledger journal operations
   name: Oracle E-Business Suite General Ledger API
   slug: oracle-e-business-suite-general-ledger-api
-- description: Inbound EDI document processing
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Inbound EDI document processing
   name: Oracle E-Business Suite Inbound Transactions API
   slug: oracle-e-business-suite-inbound-transactions-api
-- description: Inventory items and on-hand quantity management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Inventory items and on-hand quantity management
   name: Oracle E-Business Suite Inventory API
   slug: oracle-e-business-suite-inventory-api
-- description: Sales order processing and management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Sales order processing and management
   name: Oracle E-Business Suite Order Management API
   slug: oracle-e-business-suite-order-management-api
-- description: HR organization and position management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: HR organization and position management
   name: Oracle E-Business Suite Organization API
   slug: oracle-e-business-suite-organization-api
-- description: Outbound EDI document extraction
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Outbound EDI document extraction
   name: Oracle E-Business Suite Outbound Transactions API
   slug: oracle-e-business-suite-outbound-transactions-api
-- description: Payroll processing and run results
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Payroll processing and run results
   name: Oracle E-Business Suite Payroll API
   slug: oracle-e-business-suite-payroll-api
-- description: Purchase order, requisition, and supplier management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Purchase order, requisition, and supplier management
   name: Oracle E-Business Suite Purchasing API
   slug: oracle-e-business-suite-purchasing-api
-- description: WADL retrieval and service metadata
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: WADL retrieval and service metadata
   name: Oracle E-Business Suite Service Discovery API
   slug: oracle-e-business-suite-service-discovery-api
-- description: Invoke deployed REST service methods
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Invoke deployed REST service methods
   name: Oracle E-Business Suite Service Invocation API
   slug: oracle-e-business-suite-service-invocation-api
-- description: Shipping delivery management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Shipping delivery management
   name: Oracle E-Business Suite Shipping API
   slug: oracle-e-business-suite-shipping-api
-- description: Trading partner configuration and management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: Trading partner configuration and management
   name: Oracle E-Business Suite Trading Partners API
   slug: oracle-e-business-suite-trading-partners-api
-- description: WIP job, operation, and transaction management
+- baseURL: https://{instance}.oracle.com/webservices/rest/
+  baseurl_source: declared
+  description: WIP job, operation, and transaction management
   name: Oracle E-Business Suite Work in Process API
   slug: oracle-e-business-suite-work-in-process-api
 arazzos:
@@ -1547,7 +1591,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/screenshots/oracle-e-business-suite-2026-06-20T191127.png
 security:

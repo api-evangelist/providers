@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -53,55 +53,89 @@ apis:
 - description: The PlanetScale CLI (pscale) is a command-line tool that brings PlanetScale database management to the terminal. It allows developers to create, delete, and list databases and branches, open interacti
   name: PlanetScale CLI
   slug: cli
-- description: Manage database branch backups, including listing, creating, and retrieving backup details.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage database branch backups, including listing, creating, and retrieving backup details.
   name: planetscale Backups API
   slug: planetscale-backups-api
-- description: Access organization billing data and invoices programmatically.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Access organization billing data and invoices programmatically.
   name: planetscale Billing API
   slug: planetscale-billing-api
-- description: Manage PgBouncer connection pooling instances for database branches, including creating, listing, resizing, and deleting bouncers.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage PgBouncer connection pooling instances for database branches, including creating, listing, resizing, and deleting bouncers.
   name: planetscale Bouncers API
   slug: planetscale-bouncers-api
-- description: Manage database branches for schema development and safe migrations, including creating, listing, updating, and deleting branches.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage database branches for schema development and safe migrations, including creating, listing, updating, and deleting branches.
   name: planetscale Branches API
   slug: planetscale-branches-api
-- description: Retrieve available cluster size SKUs for Vitess and Postgres database branches.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Retrieve available cluster size SKUs for Vitess and Postgres database branches.
   name: planetscale Cluster Sizes API
   slug: planetscale-cluster-sizes-api
-- description: Manage PlanetScale databases, including creating, listing, updating settings, and deleting databases.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage PlanetScale databases, including creating, listing, updating settings, and deleting databases.
   name: planetscale Databases API
   slug: planetscale-databases-api
-- description: Manage deploy requests for applying schema changes from development branches to production, including creating, reviewing, queueing, and completing deployments.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage deploy requests for applying schema changes from development branches to production, including creating, reviewing, queueing, and completing deployments.
   name: planetscale Deploy Requests API
   slug: planetscale-deploy-requests-api
-- description: Manage IP restriction entries for controlling database access by IP address.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage IP restriction entries for controlling database access by IP address.
   name: planetscale IP Restrictions API
   slug: planetscale-ip-restrictions-api
-- description: Manage members within an organization, including listing, retrieving, updating roles, and removing members.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage members within an organization, including listing, retrieving, updating roles, and removing members.
   name: planetscale Organization Members API
   slug: planetscale-organization-members-api
-- description: Manage PlanetScale organizations, including listing organizations and retrieving organization details.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage PlanetScale organizations, including listing organizations and retrieving organization details.
   name: planetscale Organizations API
   slug: planetscale-organizations-api
-- description: Manage branch passwords and connection credentials for connecting applications to database branches.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage branch passwords and connection credentials for connecting applications to database branches.
   name: planetscale Passwords API
   slug: planetscale-passwords-api
-- description: Analyze and report on query patterns for database branches.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Analyze and report on query patterns for database branches.
   name: planetscale Query Patterns API
   slug: planetscale-query-patterns-api
-- description: Manage role-based credentials for database access.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage role-based credentials for database access.
   name: planetscale Roles API
   slug: planetscale-roles-api
-- description: View and manage schema recommendations for optimizing database performance and structure.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: View and manage schema recommendations for optimizing database performance and structure.
   name: planetscale Schema Recommendations API
   slug: planetscale-schema-recommendations-api
-- description: Manage service tokens for API authentication, including creating, listing, and deleting tokens and their access grants.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage service tokens for API authentication, including creating, listing, and deleting tokens and their access grants.
   name: planetscale Service Tokens API
   slug: planetscale-service-tokens-api
-- description: Manage teams within an organization, including creating teams, adding members, and controlling database access.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage teams within an organization, including creating teams, adding members, and controlling database access.
   name: planetscale Teams API
   slug: planetscale-teams-api
-- description: Manage webhook configurations for database event notifications.
+- baseURL: https://api.planetscale.com/v1
+  baseurl_source: declared
+  description: Manage webhook configurations for database event notifications.
   name: planetscale Webhooks API
   slug: planetscale-webhooks-api
 artifact_total: 89
@@ -304,16 +338,16 @@ jsonld:
   slug: planetscale-context
 layout: provider
 modified: '2026-05-19'
-name: planetscale
+name: Planetscale
 nav: Providers
 network: true
-overview: 'planetscale publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Backups API, Billing API, Bouncers API, and 14 more.
+overview: 'Planetscale publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Backups API, Billing API, Bouncers API, and 14 more.
 
 
-  The planetscale catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Planetscale catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  planetscale''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Planetscale''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Planetscale Plans Pricing
   plan_count: 5
@@ -327,7 +361,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: planetscale API Rules
+  name: Planetscale API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -337,7 +371,7 @@ rules:
   slug: planetscale-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: planetscale API Rules
+  name: Planetscale API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -353,7 +387,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -363,7 +397,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -373,10 +407,10 @@ score:
       total: 17
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/screenshots/planetscale-2026-06-20T191803.png
 security:

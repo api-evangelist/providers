@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,10 +60,14 @@ apis:
 - description: The Service Bindings extension specifies how external service credentials and configuration are surfaced to detect and build under $CNB_PLATFORM_DIR/bindings/. Aligns with the Service Binding Specific
   name: Service Bindings Extension
   slug: service-bindings-spec
-- description: Retrieve buildpack version metadata
+- baseURL: https://registry.buildpacks.io/api/v1
+  baseurl_source: spec
+  description: Retrieve buildpack version metadata
   name: buildpacks-io Buildpacks API
   slug: buildpacks-io-buildpacks-api
-- description: Search the buildpack registry by keyword
+- baseURL: https://registry.buildpacks.io/api/v1
+  baseurl_source: spec
+  description: Search the buildpack registry by keyword
   name: buildpacks-io Search API
   slug: buildpacks-io-search-api
 artifact_total: 44
@@ -332,21 +336,21 @@ jsonld:
   slug: buildpacks-io-context
 layout: provider
 modified: '2026-05-25'
-name: buildpacks-io
+name: Buildpacks Io
 nav: Providers
 network: true
-overview: 'buildpacks-io publishes 2 APIs on the [APIs.io](https://apis.io/) network: Buildpacks API and Search API.
+overview: 'Buildpacks Io publishes 2 APIs on the [APIs.io](https://apis.io/) network: buildpacks-io Buildpacks API and buildpacks-io Search API.
 
 
-  The buildpacks-io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Buildpacks Io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 42 more developer resources.'
+  Buildpacks Io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 42 more developer resources.'
 random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []
-  name: buildpacks-io API Rules
+  name: Buildpacks Io API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -357,7 +361,7 @@ rules:
 - effective_rule_count: 49
   extends:
   - spectral:oas
-  name: buildpacks-io API Rules
+  name: Buildpacks Io API Rules
   rule_count: 8
   severity_counts:
     error: 3
@@ -396,10 +400,10 @@ score:
       total: 2
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:

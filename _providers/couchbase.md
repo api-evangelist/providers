@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 9
@@ -45,166 +45,274 @@ agentic_access:
   summary_line: 219 operations · 117 acting · 9 human-in-the-loop
 api_count: 12
 apis:
-- description: Endpoints for managing allowed IP addresses and CIDR ranges for cluster access.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing allowed IP addresses and CIDR ranges for cluster access.
   name: Couchbase Allowed CIDRs API
   slug: couchbase-allowed-cidrs-api
-- description: Endpoints for administering and monitoring the Analytics service.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for administering and monitoring the Analytics service.
   name: Couchbase Analytics Admin API
   slug: couchbase-analytics-admin-api
-- description: Endpoints for configuring Analytics nodes and clusters.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for configuring Analytics nodes and clusters.
   name: Couchbase Analytics Configuration API
   slug: couchbase-analytics-configuration-api
-- description: Endpoints for managing JavaScript libraries used for user-defined functions.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing JavaScript libraries used for user-defined functions.
   name: Couchbase Analytics Library API
   slug: couchbase-analytics-library-api
-- description: Endpoints for executing SQL++ analytics queries and retrieving results.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for executing SQL++ analytics queries and retrieving results.
   name: Couchbase Analytics Query API
   slug: couchbase-analytics-query-api
-- description: Endpoints for configuring Analytics service settings.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for configuring Analytics service settings.
   name: Couchbase Analytics Settings API
   slug: couchbase-analytics-settings-api
-- description: Endpoints for managing API keys used to authenticate with the Management API.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing API keys used to authenticate with the Management API.
   name: Couchbase API Keys API
   slug: couchbase-api-keys-api
-- description: Endpoints for user authentication and session management.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for user authentication and session management.
   name: Couchbase Authentication API
   slug: couchbase-authentication-api
-- description: Endpoints for managing buckets within Capella clusters.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing buckets within Capella clusters.
   name: Couchbase Buckets API
   slug: couchbase-buckets-api
-- description: Endpoints for monitoring document changes and subscribing to change feeds.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for monitoring document changes and subscribing to change feeds.
   name: Couchbase Changes API
   slug: couchbase-changes-api
-- description: Endpoints for managing cluster-level backup configuration.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing cluster-level backup configuration.
   name: Couchbase Cluster API
   slug: couchbase-cluster-api
-- description: Endpoints for managing remote cluster references used as XDCR targets.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing remote cluster references used as XDCR targets.
   name: Couchbase Cluster References API
   slug: couchbase-cluster-references-api
-- description: Endpoints for provisioning, managing, and scaling Capella database clusters.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for provisioning, managing, and scaling Capella database clusters.
   name: Couchbase Clusters API
   slug: couchbase-clusters-api
-- description: Endpoints for managing auto-compaction settings and triggering compaction operations.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing auto-compaction settings and triggering compaction operations.
   name: Couchbase Compaction API
   slug: couchbase-compaction-api
-- description: Endpoints for configuring Eventing Service settings.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for configuring Eventing Service settings.
   name: Couchbase Configuration API
   slug: couchbase-configuration-api
-- description: Endpoints for triggering backup and restore data operations.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for triggering backup and restore data operations.
   name: Couchbase Data API
   slug: couchbase-data-api
-- description: Endpoints for managing database configurations within App Services.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing database configurations within App Services.
   name: Couchbase Database Administration API
   slug: couchbase-database-administration-api
-- description: Endpoints for retrieving database information.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for retrieving database information.
   name: Couchbase Database API
   slug: couchbase-database-api
-- description: Endpoints for managing database access credentials for clusters.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing database access credentials for clusters.
   name: Couchbase Database Credentials API
   slug: couchbase-database-credentials-api
-- description: Endpoints for creating, configuring, and managing databases.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, configuring, and managing databases.
   name: Couchbase Database Management API
   slug: couchbase-database-management-api
-- description: Endpoints for creating, reading, updating, and deleting documents.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, reading, updating, and deleting documents.
   name: Couchbase Documents API
   slug: couchbase-documents-api
-- description: Endpoints for creating, retrieving, updating, and deleting Eventing Functions.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and deleting Eventing Functions.
   name: Couchbase Functions API
   slug: couchbase-functions-api
-- description: Endpoints for importing and exporting Eventing Function definitions.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for importing and exporting Eventing Function definitions.
   name: Couchbase Import Export API
   slug: couchbase-import-export-api
-- description: Endpoints for managing the Global Secondary Index service.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing the Global Secondary Index service.
   name: Couchbase Index Service API
   slug: couchbase-index-service-api
-- description: Endpoints for deploying, undeploying, pausing, and resuming Eventing Functions.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for deploying, undeploying, pausing, and resuming Eventing Functions.
   name: Couchbase Lifecycle API
   slug: couchbase-lifecycle-api
-- description: Endpoints for managing local documents used by replication checkpoints.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing local documents used by replication checkpoints.
   name: Couchbase Local Documents API
   slug: couchbase-local-documents-api
-- description: Endpoints for retrieving Eventing Function application logs.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for retrieving Eventing Function application logs.
   name: Couchbase Logging API
   slug: couchbase-logging-api
-- description: Endpoints for collecting and managing diagnostic logs.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for collecting and managing diagnostic logs.
   name: Couchbase Logs API
   slug: couchbase-logs-api
-- description: Endpoints for monitoring App Services health and performance.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for monitoring App Services health and performance.
   name: Couchbase Monitoring API
   slug: couchbase-monitoring-api
-- description: Endpoints for managing individual server nodes, including adding nodes, failover, recovery, and rebalance operations.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing individual server nodes, including adding nodes, failover, recovery, and rebalance operations.
   name: Couchbase Nodes API
   slug: couchbase-nodes-api
-- description: Endpoints for managing Capella organizations.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing Capella organizations.
   name: Couchbase Organizations API
   slug: couchbase-organizations-api
-- description: Endpoints for managing backup plans that define backup schedules and data retention policies.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing backup plans that define backup schedules and data retention policies.
   name: Couchbase Plans API
   slug: couchbase-plans-api
-- description: Endpoints for creating, listing, updating, and deleting projects within an organization.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, listing, updating, and deleting projects within an organization.
   name: Couchbase Projects API
   slug: couchbase-projects-api
-- description: Endpoints for administrative operations on the Query service including monitoring active requests, completed requests, and prepared statements.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for administrative operations on the Query service including monitoring active requests, completed requests, and prepared statements.
   name: Couchbase Query Admin API
   slug: couchbase-query-admin-api
-- description: Endpoints for executing SQL++ queries and managing query results.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for executing SQL++ queries and managing query results.
   name: Couchbase Query Execution API
   slug: couchbase-query-execution-api
-- description: Endpoints for configuring Query service settings at the node and cluster level.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for configuring Query service settings at the node and cluster level.
   name: Couchbase Query Settings API
   slug: couchbase-query-settings-api
-- description: Endpoints for managing inter-Sync Gateway replications.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing inter-Sync Gateway replications.
   name: Couchbase Replication API
   slug: couchbase-replication-api
-- description: Endpoints for configuring replication-level and global XDCR settings.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for configuring replication-level and global XDCR settings.
   name: Couchbase Replication Settings API
   slug: couchbase-replication-settings-api
-- description: Endpoints for monitoring replication progress and performance statistics.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for monitoring replication progress and performance statistics.
   name: Couchbase Replication Statistics API
   slug: couchbase-replication-statistics-api
-- description: Endpoints for creating, managing, and deleting XDCR replication streams.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, managing, and deleting XDCR replication streams.
   name: Couchbase Replications API
   slug: couchbase-replications-api
-- description: Endpoints for creating, managing, and querying backup repositories.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, managing, and querying backup repositories.
   name: Couchbase Repositories API
   slug: couchbase-repositories-api
-- description: Endpoints for managing roles and their channel assignments.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing roles and their channel assignments.
   name: Couchbase Role Management API
   slug: couchbase-role-management-api
-- description: Endpoints for managing scopes and collections within Capella buckets.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing scopes and collections within Capella buckets.
   name: Couchbase Scopes and Collections API
   slug: couchbase-scopes-and-collections-api
-- description: Endpoints for creating, retrieving, updating, and deleting Full Text Search index definitions.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and deleting Full Text Search index definitions.
   name: Couchbase Search Indexes API
   slug: couchbase-search-indexes-api
-- description: Endpoints for monitoring search index statistics and service status.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for monitoring search index statistics and service status.
   name: Couchbase Search Monitoring API
   slug: couchbase-search-monitoring-api
-- description: Endpoints for executing full-text search queries against search indexes.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for executing full-text search queries against search indexes.
   name: Couchbase Search Queries API
   slug: couchbase-search-queries-api
-- description: Endpoints for managing security settings, users, roles, certificates, and audit configurations.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing security settings, users, roles, certificates, and audit configurations.
   name: Couchbase Security API
   slug: couchbase-security-api
-- description: Endpoints for managing the Sync Gateway server instance.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing the Sync Gateway server instance.
   name: Couchbase Server API
   slug: couchbase-server-api
-- description: Endpoints for managing server groups for rack-zone awareness.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing server groups for rack-zone awareness.
   name: Couchbase Server Groups API
   slug: couchbase-server-groups-api
-- description: Endpoints for managing server-wide settings and configuration parameters.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing server-wide settings and configuration parameters.
   name: Couchbase Settings API
   slug: couchbase-settings-api
-- description: Endpoints for monitoring Eventing Function execution statistics and status.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for monitoring Eventing Function execution statistics and status.
   name: Couchbase Statistics API
   slug: couchbase-statistics-api
-- description: Endpoints for monitoring and managing backup and restore tasks.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for monitoring and managing backup and restore tasks.
   name: Couchbase Tasks API
   slug: couchbase-tasks-api
-- description: Endpoints for managing users and their access permissions.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing users and their access permissions.
   name: Couchbase User Management API
   slug: couchbase-user-management-api
-- description: Endpoints for managing users within a Capella organization.
+- baseURL: https://localhost:8091
+  baseurl_source: declared
+  description: Endpoints for managing users within a Capella organization.
   name: Couchbase Users API
   slug: couchbase-users-api
 artifact_total: 229
@@ -878,7 +986,7 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -888,7 +996,7 @@ score:
     discoverability: 66.7
     governance: 69.7
     operational_transparency: 42.1
-  previous_composite: 51.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -897,7 +1005,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/screenshots/couchbase-2026-06-20T175100.png
 security:

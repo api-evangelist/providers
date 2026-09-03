@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 18 operations · 8 acting
 api_count: 1
 apis:
-- description: Application management
+- baseURL: http://localhost:8070
+  baseurl_source: declared
+  description: Application management
   name: Apollo Config Apps API
   slug: apollo-config-apps-api
-- description: Cluster management
+- baseURL: http://localhost:8070
+  baseurl_source: declared
+  description: Cluster management
   name: Apollo Config Clusters API
   slug: apollo-config-clusters-api
-- description: Configuration item management
+- baseURL: http://localhost:8070
+  baseurl_source: declared
+  description: Configuration item management
   name: Apollo Config Items API
   slug: apollo-config-items-api
-- description: Namespace management
+- baseURL: http://localhost:8070
+  baseurl_source: declared
+  description: Namespace management
   name: Apollo Config Namespaces API
   slug: apollo-config-namespaces-api
-- description: Release and publish management
+- baseURL: http://localhost:8070
+  baseurl_source: declared
+  description: Release and publish management
   name: Apollo Config Releases API
   slug: apollo-config-releases-api
 artifact_total: 69
@@ -337,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/screenshots/apollo-config-2026-06-20T172307.png
 security:

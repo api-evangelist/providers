@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: The Pulse API is targeted towards developers looking to automate tasks in Pulse.
   name: Pulse Software
   slug: pulse-software
-- description: Authentication for accessing Pulse Public API
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: Authentication for accessing Pulse Public API
   name: Pulse Software Authentication API
   slug: pulse-software-authentication-api
-- description: API for managing CPR data in Pulse
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing CPR data in Pulse
   name: Pulse Software Corporate Planning API API
   slug: pulse-software-corporate-planning-api-api
-- description: API for managing forms and records in Pulse
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing forms and records in Pulse
   name: Pulse Software Forms API API
   slug: pulse-software-forms-api-api
-- description: API for managing learning info in Pulse
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing learning info in Pulse
   name: Pulse Software Learning API API
   slug: pulse-software-learning-api-api
-- description: API for managing project info in Pulse
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing project info in Pulse
   name: Pulse Software Project API API
   slug: pulse-software-project-api-api
-- description: API for managing recruitment info in Pulse
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing recruitment info in Pulse
   name: Pulse Software Recruitment API API
   slug: pulse-software-recruitment-api-api
-- description: API for handling synchronisation data from and/or to Pulse including for managing sync history records
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for handling synchronisation data from and/or to Pulse including for managing sync history records
   name: Pulse Software Sync API API
   slug: pulse-software-sync-api-api
-- description: API for managing user details in Pulse
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing user details in Pulse
   name: Pulse Software User Details API API
   slug: pulse-software-user-details-api-api
-- description: API for managing user details in Pulse including additional attributes
+- baseURL: https://*.pulsesoftware.com/webservices/api
+  baseurl_source: spec
+  description: API for managing user details in Pulse including additional attributes
   name: Pulse Software User Details API v2 API
   slug: pulse-software-user-details-api-v2-api
 artifact_total: 27
@@ -178,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/screenshots/pulse-software-2026-06-20T192256.png
 security:

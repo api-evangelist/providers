@@ -33,64 +33,100 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
   name: OpenRelay Inference API
   slug: openrelay-inference-api
-- description: 'The signed-in user: profile, memberships, and first-time onboarding.'
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: 'The signed-in user: profile, memberships, and first-time onboarding.'
   name: OpenRelay Account API
   slug: openrelay-account-api
-- description: Programmatic access keys (vl_…) used to authenticate with this API.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Programmatic access keys (vl_…) used to authenticate with this API.
   name: OpenRelay API Keys API
   slug: openrelay-api-keys-api
-- description: 'Batch inference jobs: submit a JSONL file of requests, poll status, and download results at a discounted rate. Served by the inference endpoint (inference.openrelay.inc). Batch access is enabled per o'
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: 'Batch inference jobs: submit a JSONL file of requests, poll status, and download results at a discounted rate. Served by the inference endpoint (inference.openrelay.inc). Batch access is enabled per o'
   name: OpenRelay Batches API
   slug: openrelay-batches-api
-- description: Prepaid balance, saved cards, deposits, and auto-recharge.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Prepaid balance, saved cards, deposits, and auto-recharge.
   name: OpenRelay Billing API
   slug: openrelay-billing-api
-- description: 'Public catalog: GPU models, availability, pricing, templates, and locations.'
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: 'Public catalog: GPU models, availability, pricing, templates, and locations.'
   name: OpenRelay Catalog API
   slug: openrelay-catalog-api
-- description: Autoscaling inference clusters that serve a container image behind an endpoint.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Autoscaling inference clusters that serve a container image behind an endpoint.
   name: OpenRelay Clusters API
   slug: openrelay-clusters-api
-- description: Input and result files for the Batch API (JSONL, up to 200 MB and 50,000 records). Served by the inference endpoint (inference.openrelay.inc).
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Input and result files for the Batch API (JSONL, up to 200 MB and 50,000 records). Served by the inference endpoint (inference.openrelay.inc).
   name: OpenRelay Files API
   slug: openrelay-files-api
-- description: Machine-to-machine endpoints used by platform infrastructure. Not part of the public API.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Machine-to-machine endpoints used by platform infrastructure. Not part of the public API.
   name: OpenRelay Internal API
   slug: openrelay-internal-api
-- description: Organizations and their members. Most resources are scoped to an org.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Organizations and their members. Most resources are scoped to an org.
   name: OpenRelay Organizations API
   slug: openrelay-organizations-api
-- description: 'For GPU providers: applications, nodes, provisioning tokens, and earnings.'
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: 'For GPU providers: applications, nodes, provisioning tokens, and earnings.'
   name: OpenRelay Provider API
   slug: openrelay-provider-api
-- description: Private container-registry credentials for pulling images.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Private container-registry credentials for pulling images.
   name: OpenRelay Registry Credentials API
   slug: openrelay-registry-credentials-api
-- description: Managed GitHub Actions runner pools.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Managed GitHub Actions runner pools.
   name: OpenRelay Runners API
   slug: openrelay-runners-api
-- description: Point-in-time VM snapshots and forking new VMs from them.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Point-in-time VM snapshots and forking new VMs from them.
   name: OpenRelay Snapshots API
   slug: openrelay-snapshots-api
-- description: Org-level SSH public keys that can be attached to VMs.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Org-level SSH public keys that can be attached to VMs.
   name: OpenRelay SSH Keys API
   slug: openrelay-ssh-keys-api
-- description: Move resources between organizations you belong to.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Move resources between organizations you belong to.
   name: OpenRelay Transfers API
   slug: openrelay-transfers-api
-- description: Current-period usage and cost breakdowns.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Current-period usage and cost breakdowns.
   name: OpenRelay Usage API
   slug: openrelay-usage-api
-- description: 'GPU virtual machines: lifecycle, disks, SSH access, and console links.'
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: 'GPU virtual machines: lifecycle, disks, SSH access, and console links.'
   name: OpenRelay VMs API
   slug: openrelay-vms-api
-- description: Subscribe to platform events with signed HTTP callbacks.
+- baseURL: https://api.openrelay.inc
+  baseurl_source: declared
+  description: Subscribe to platform events with signed HTTP callbacks.
   name: OpenRelay Webhooks API
   slug: openrelay-webhooks-api
 artifact_total: 43
@@ -313,7 +349,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -323,7 +359,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 48.8
+  previous_composite: 48.6
   provenance:
     conformance: derived
     contracts:
@@ -334,7 +370,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/screenshots/openrelay-2026-08-07T190635.png
 security:

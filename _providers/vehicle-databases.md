@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 5
 apis:
-- description: OEM maintenance schedules and service intervals
+- baseURL: https://api.vehicledatabases.com/v1
+  baseurl_source: spec
+  description: OEM maintenance schedules and service intervals
   name: Vehicle Databases Maintenance API
   slug: vehicle-databases-maintenance-api
-- description: NHTSA safety recall data
+- baseURL: https://api.vehicledatabases.com/v1
+  baseurl_source: spec
+  description: NHTSA safety recall data
   name: Vehicle Databases Recalls API
   slug: vehicle-databases-recalls-api
-- description: Service items, fluids, and parts
+- baseURL: https://api.vehicledatabases.com/v1
+  baseurl_source: spec
+  description: Service items, fluids, and parts
   name: Vehicle Databases Services API
   slug: vehicle-databases-services-api
-- description: Technical service bulletins
+- baseURL: https://api.vehicledatabases.com/v1
+  baseurl_source: spec
+  description: Technical service bulletins
   name: Vehicle Databases TSBs API
   slug: vehicle-databases-tsbs-api
-- description: Vehicle lookup and VIN decoding
+- baseURL: https://api.vehicledatabases.com/v1
+  baseurl_source: spec
+  description: Vehicle lookup and VIN decoding
   name: Vehicle Databases Vehicles API
   slug: vehicle-databases-vehicles-api
 artifact_total: 47
@@ -268,7 +278,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicle-databases/refs/heads/main/screenshots/vehicle-databases-2026-06-20T200859.png
 security:

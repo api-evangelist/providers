@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 3
 apis:
-- description: Endpoint where to send the connect request
+- baseURL: https://platform-api.cachet.me
+  baseurl_source: declared
+  description: Endpoint where to send the connect request
   name: Cachet Connect API
   slug: cachet-connect-api
-- description: Event actions which are sent by the platform to Cachet involving gig-workers tasks done on the platform
+- baseURL: https://platform-api.cachet.me
+  baseurl_source: declared
+  description: Event actions which are sent by the platform to Cachet involving gig-workers tasks done on the platform
   name: Cachet Gig-Events API
   slug: cachet-gig-events-api
-- description: User actions to send user-related data from platform to Cachet
+- baseURL: https://platform-api.cachet.me
+  baseurl_source: declared
+  description: User actions to send user-related data from platform to Cachet
   name: Cachet User API
   slug: cachet-user-api
-- description: Used to notify Cachet about vehicle events
+- baseURL: https://platform-api.cachet.me
+  baseurl_source: declared
+  description: Used to notify Cachet about vehicle events
   name: Cachet Vehicle events API
   slug: cachet-vehicle-events-api
 arazzos:
@@ -226,7 +234,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
 security:

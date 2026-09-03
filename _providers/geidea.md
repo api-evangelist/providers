@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Create, update, fetch, delete, and send payment invoices (KSA) that customers settle through a Geidea-hosted payment page. Exact request paths are documented in the Geidea API reference; endpoint sche
   name: Geidea Pay by Invoice API
   slug: geidea-pay-by-invoice-api
-- description: Create a payment session for the hosted Geidea Checkout page.
+- baseURL: https://api.merchant.geidea.net
+  baseurl_source: declared
+  description: Create a payment session for the hosted Geidea Checkout page.
   name: Geidea Checkout API
   slug: geidea-checkout-api
-- description: Server-to-server 3-D Secure authentication and card payment.
+- baseURL: https://api.merchant.geidea.net
+  baseurl_source: declared
+  description: Server-to-server 3-D Secure authentication and card payment.
   name: Geidea Direct API API
   slug: geidea-direct-api-api
-- description: Retrieve stored instrument tokens for cards on file.
+- baseURL: https://api.merchant.geidea.net
+  baseurl_source: declared
+  description: Retrieve stored instrument tokens for cards on file.
   name: Geidea Tokenization API
   slug: geidea-tokenization-api
-- description: Capture, void, refund, cancel, and fetch transactions and orders.
+- baseURL: https://api.merchant.geidea.net
+  baseurl_source: declared
+  description: Capture, void, refund, cancel, and fetch transactions and orders.
   name: Geidea Transaction Management API
   slug: geidea-transaction-management-api
 artifact_total: 18
@@ -185,7 +193,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geidea/refs/heads/main/screenshots/geidea-2026-07-25T215522.png
 security:

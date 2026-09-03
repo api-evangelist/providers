@@ -33,127 +33,207 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
   name: TheSpaceDevs LL2 API Agencies API
   slug: thespacedevs-ll2-api-agencies-api
-- description: The Agency API from TheSpaceDevs LL2 API — 2 operation(s) for agency.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Agency API from TheSpaceDevs LL2 API — 2 operation(s) for agency.
   name: TheSpaceDevs LL2 API Agency API
   slug: thespacedevs-ll2-api-agency-api
-- description: The Api-throttle API from TheSpaceDevs LL2 API — 1 operation(s) for api-throttle.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Api-throttle API from TheSpaceDevs LL2 API — 1 operation(s) for api-throttle.
   name: TheSpaceDevs LL2 API Api-throttle API
   slug: thespacedevs-ll2-api-api-throttle-api
-- description: The Astronaut API from TheSpaceDevs LL2 API — 6 operation(s) for astronaut.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Astronaut API from TheSpaceDevs LL2 API — 6 operation(s) for astronaut.
   name: TheSpaceDevs LL2 API Astronaut API
   slug: thespacedevs-ll2-api-astronaut-api
-- description: The Astronauts API from TheSpaceDevs LL2 API — 2 operation(s) for astronauts.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Astronauts API from TheSpaceDevs LL2 API — 2 operation(s) for astronauts.
   name: TheSpaceDevs LL2 API Astronauts API
   slug: thespacedevs-ll2-api-astronauts-api
-- description: The Bodies API from TheSpaceDevs LL2 API — 2 operation(s) for bodies.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Bodies API from TheSpaceDevs LL2 API — 2 operation(s) for bodies.
   name: TheSpaceDevs LL2 API Bodies API
   slug: thespacedevs-ll2-api-bodies-api
-- description: The Celestial API from TheSpaceDevs LL2 API — 4 operation(s) for celestial.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Celestial API from TheSpaceDevs LL2 API — 4 operation(s) for celestial.
   name: TheSpaceDevs LL2 API Celestial API
   slug: thespacedevs-ll2-api-celestial-api
-- description: The Closure API from TheSpaceDevs LL2 API — 2 operation(s) for closure.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Closure API from TheSpaceDevs LL2 API — 2 operation(s) for closure.
   name: TheSpaceDevs LL2 API Closure API
   slug: thespacedevs-ll2-api-closure-api
-- description: The Configurations API from TheSpaceDevs LL2 API — 62 operation(s) for configurations.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Configurations API from TheSpaceDevs LL2 API — 62 operation(s) for configurations.
   name: TheSpaceDevs LL2 API Configurations API
   slug: thespacedevs-ll2-api-configurations-api
-- description: The Countries API from TheSpaceDevs LL2 API — 2 operation(s) for countries.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Countries API from TheSpaceDevs LL2 API — 2 operation(s) for countries.
   name: TheSpaceDevs LL2 API Countries API
   slug: thespacedevs-ll2-api-countries-api
-- description: The Docking API from TheSpaceDevs LL2 API — 4 operation(s) for docking.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Docking API from TheSpaceDevs LL2 API — 4 operation(s) for docking.
   name: TheSpaceDevs LL2 API Docking API
   slug: thespacedevs-ll2-api-docking-api
-- description: The Events API from TheSpaceDevs LL2 API — 10 operation(s) for events.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Events API from TheSpaceDevs LL2 API — 10 operation(s) for events.
   name: TheSpaceDevs LL2 API Events API
   slug: thespacedevs-ll2-api-events-api
-- description: The Expeditions API from TheSpaceDevs LL2 API — 2 operation(s) for expeditions.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Expeditions API from TheSpaceDevs LL2 API — 2 operation(s) for expeditions.
   name: TheSpaceDevs LL2 API Expeditions API
   slug: thespacedevs-ll2-api-expeditions-api
-- description: The Families API from TheSpaceDevs LL2 API — 4 operation(s) for families.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Families API from TheSpaceDevs LL2 API — 4 operation(s) for families.
   name: TheSpaceDevs LL2 API Families API
   slug: thespacedevs-ll2-api-families-api
-- description: The Flights API from TheSpaceDevs LL2 API — 4 operation(s) for flights.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Flights API from TheSpaceDevs LL2 API — 4 operation(s) for flights.
   name: TheSpaceDevs LL2 API Flights API
   slug: thespacedevs-ll2-api-flights-api
-- description: The Landings API from TheSpaceDevs LL2 API — 2 operation(s) for landings.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Landings API from TheSpaceDevs LL2 API — 2 operation(s) for landings.
   name: TheSpaceDevs LL2 API Landings API
   slug: thespacedevs-ll2-api-landings-api
-- description: The Languages API from TheSpaceDevs LL2 API — 2 operation(s) for languages.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Languages API from TheSpaceDevs LL2 API — 2 operation(s) for languages.
   name: TheSpaceDevs LL2 API Languages API
   slug: thespacedevs-ll2-api-languages-api
-- description: The Launch API from TheSpaceDevs LL2 API — 2 operation(s) for launch.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Launch API from TheSpaceDevs LL2 API — 2 operation(s) for launch.
   name: TheSpaceDevs LL2 API Launch API
   slug: thespacedevs-ll2-api-launch-api
-- description: The Launcher API from TheSpaceDevs LL2 API — 6 operation(s) for launcher.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Launcher API from TheSpaceDevs LL2 API — 6 operation(s) for launcher.
   name: TheSpaceDevs LL2 API Launcher API
   slug: thespacedevs-ll2-api-launcher-api
-- description: The Launchers API from TheSpaceDevs LL2 API — 2 operation(s) for launchers.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Launchers API from TheSpaceDevs LL2 API — 2 operation(s) for launchers.
   name: TheSpaceDevs LL2 API Launchers API
   slug: thespacedevs-ll2-api-launchers-api
-- description: The Launches API from TheSpaceDevs LL2 API — 6 operation(s) for launches.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Launches API from TheSpaceDevs LL2 API — 6 operation(s) for launches.
   name: TheSpaceDevs LL2 API Launches API
   slug: thespacedevs-ll2-api-launches-api
-- description: The Licenses API from TheSpaceDevs LL2 API — 2 operation(s) for licenses.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Licenses API from TheSpaceDevs LL2 API — 2 operation(s) for licenses.
   name: TheSpaceDevs LL2 API Licenses API
   slug: thespacedevs-ll2-api-licenses-api
-- description: The Locations API from TheSpaceDevs LL2 API — 4 operation(s) for locations.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Locations API from TheSpaceDevs LL2 API — 4 operation(s) for locations.
   name: TheSpaceDevs LL2 API Locations API
   slug: thespacedevs-ll2-api-locations-api
-- description: The Pads API from TheSpaceDevs LL2 API — 2 operation(s) for pads.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Pads API from TheSpaceDevs LL2 API — 2 operation(s) for pads.
   name: TheSpaceDevs LL2 API Pads API
   slug: thespacedevs-ll2-api-pads-api
-- description: The Patches API from TheSpaceDevs LL2 API — 2 operation(s) for patches.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Patches API from TheSpaceDevs LL2 API — 2 operation(s) for patches.
   name: TheSpaceDevs LL2 API Patches API
   slug: thespacedevs-ll2-api-patches-api
-- description: The Payloads API from TheSpaceDevs LL2 API — 2 operation(s) for payloads.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Payloads API from TheSpaceDevs LL2 API — 2 operation(s) for payloads.
   name: TheSpaceDevs LL2 API Payloads API
   slug: thespacedevs-ll2-api-payloads-api
-- description: The Precisions API from TheSpaceDevs LL2 API — 2 operation(s) for precisions.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Precisions API from TheSpaceDevs LL2 API — 2 operation(s) for precisions.
   name: TheSpaceDevs LL2 API Precisions API
   slug: thespacedevs-ll2-api-precisions-api
-- description: The Previous API from TheSpaceDevs LL2 API — 4 operation(s) for previous.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Previous API from TheSpaceDevs LL2 API — 4 operation(s) for previous.
   name: TheSpaceDevs LL2 API Previous API
   slug: thespacedevs-ll2-api-previous-api
-- description: The Programs API from TheSpaceDevs LL2 API — 2 operation(s) for programs.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Programs API from TheSpaceDevs LL2 API — 2 operation(s) for programs.
   name: TheSpaceDevs LL2 API Programs API
   slug: thespacedevs-ll2-api-programs-api
-- description: The Spacecraft API from TheSpaceDevs LL2 API — 12 operation(s) for spacecraft.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Spacecraft API from TheSpaceDevs LL2 API — 12 operation(s) for spacecraft.
   name: TheSpaceDevs LL2 API Spacecraft API
   slug: thespacedevs-ll2-api-spacecraft-api
-- description: The Spacewalks API from TheSpaceDevs LL2 API — 2 operation(s) for spacewalks.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Spacewalks API from TheSpaceDevs LL2 API — 2 operation(s) for spacewalks.
   name: TheSpaceDevs LL2 API Spacewalks API
   slug: thespacedevs-ll2-api-spacewalks-api
-- description: The Stages API from TheSpaceDevs LL2 API — 2 operation(s) for stages.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Stages API from TheSpaceDevs LL2 API — 2 operation(s) for stages.
   name: TheSpaceDevs LL2 API Stages API
   slug: thespacedevs-ll2-api-stages-api
-- description: The Starship API from TheSpaceDevs LL2 API — 1 operation(s) for starship.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Starship API from TheSpaceDevs LL2 API — 1 operation(s) for starship.
   name: TheSpaceDevs LL2 API Starship API
   slug: thespacedevs-ll2-api-starship-api
-- description: The Station API from TheSpaceDevs LL2 API — 2 operation(s) for station.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Station API from TheSpaceDevs LL2 API — 2 operation(s) for station.
   name: TheSpaceDevs LL2 API Station API
   slug: thespacedevs-ll2-api-station-api
-- description: The Stations API from TheSpaceDevs LL2 API — 2 operation(s) for stations.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Stations API from TheSpaceDevs LL2 API — 2 operation(s) for stations.
   name: TheSpaceDevs LL2 API Stations API
   slug: thespacedevs-ll2-api-stations-api
-- description: The Throttle API from TheSpaceDevs LL2 API — 1 operation(s) for throttle.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Throttle API from TheSpaceDevs LL2 API — 1 operation(s) for throttle.
   name: TheSpaceDevs LL2 API Throttle API
   slug: thespacedevs-ll2-api-throttle-api
-- description: The Timeline API from TheSpaceDevs LL2 API — 2 operation(s) for timeline.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Timeline API from TheSpaceDevs LL2 API — 2 operation(s) for timeline.
   name: TheSpaceDevs LL2 API Timeline API
   slug: thespacedevs-ll2-api-timeline-api
-- description: The Types API from TheSpaceDevs LL2 API — 30 operation(s) for types.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Types API from TheSpaceDevs LL2 API — 30 operation(s) for types.
   name: TheSpaceDevs LL2 API Types API
   slug: thespacedevs-ll2-api-types-api
-- description: The Updates API from TheSpaceDevs LL2 API — 2 operation(s) for updates.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Updates API from TheSpaceDevs LL2 API — 2 operation(s) for updates.
   name: TheSpaceDevs LL2 API Updates API
   slug: thespacedevs-ll2-api-updates-api
-- description: The Variants API from TheSpaceDevs LL2 API — 2 operation(s) for variants.
+- baseURL: https://ll.thespacedevs.com
+  baseurl_source: declared
+  description: The Variants API from TheSpaceDevs LL2 API — 2 operation(s) for variants.
   name: TheSpaceDevs LL2 API Variants API
   slug: thespacedevs-ll2-api-variants-api
 artifact_total: 92
@@ -405,7 +485,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/screenshots/thespacedevs-ll2-api-2026-06-20T195255.png
 security:

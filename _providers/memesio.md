@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 111 operations · 59 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The agent-infra API from Memesio — 16 operation(s) for agent-infra.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The agent-infra API from Memesio — 16 operation(s) for agent-infra.
   name: Memesio agent-infra API
   slug: memesio-agent-infra-api
-- description: The ai-captions API from Memesio — 9 operation(s) for ai-captions.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The ai-captions API from Memesio — 9 operation(s) for ai-captions.
   name: Memesio ai-captions API
   slug: memesio-ai-captions-api
-- description: The ai-jobs API from Memesio — 8 operation(s) for ai-jobs.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The ai-jobs API from Memesio — 8 operation(s) for ai-jobs.
   name: Memesio ai-jobs API
   slug: memesio-ai-jobs-api
-- description: The ai-providers API from Memesio — 7 operation(s) for ai-providers.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The ai-providers API from Memesio — 7 operation(s) for ai-providers.
   name: Memesio ai-providers API
   slug: memesio-ai-providers-api
-- description: The analytics API from Memesio — 8 operation(s) for analytics.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The analytics API from Memesio — 8 operation(s) for analytics.
   name: Memesio analytics API
   slug: memesio-analytics-api
-- description: The auth API from Memesio — 10 operation(s) for auth.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The auth API from Memesio — 10 operation(s) for auth.
   name: Memesio auth API
   slug: memesio-auth-api
-- description: The billing API from Memesio — 2 operation(s) for billing.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The billing API from Memesio — 2 operation(s) for billing.
   name: Memesio billing API
   slug: memesio-billing-api
-- description: The collaboration API from Memesio — 1 operation(s) for collaboration.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The collaboration API from Memesio — 1 operation(s) for collaboration.
   name: Memesio collaboration API
   slug: memesio-collaboration-api
-- description: The compliance API from Memesio — 1 operation(s) for compliance.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The compliance API from Memesio — 1 operation(s) for compliance.
   name: Memesio compliance API
   slug: memesio-compliance-api
-- description: The developer-api API from Memesio — 4 operation(s) for developer-api.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The developer-api API from Memesio — 4 operation(s) for developer-api.
   name: Memesio developer-api API
   slug: memesio-developer-api-api
-- description: The growth API from Memesio — 12 operation(s) for growth.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The growth API from Memesio — 12 operation(s) for growth.
   name: Memesio growth API
   slug: memesio-growth-api
-- description: The media API from Memesio — 1 operation(s) for media.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The media API from Memesio — 1 operation(s) for media.
   name: Memesio media API
   slug: memesio-media-api
-- description: The memes API from Memesio — 4 operation(s) for memes.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The memes API from Memesio — 4 operation(s) for memes.
   name: Memesio memes API
   slug: memesio-memes-api
-- description: The public-free API from Memesio — 2 operation(s) for public-free.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The public-free API from Memesio — 2 operation(s) for public-free.
   name: Memesio public-free API
   slug: memesio-public-free-api
-- description: The trend-alerts API from Memesio — 11 operation(s) for trend-alerts.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The trend-alerts API from Memesio — 11 operation(s) for trend-alerts.
   name: Memesio trend-alerts API
   slug: memesio-trend-alerts-api
-- description: The video API from Memesio — 9 operation(s) for video.
+- baseURL: https://memesio.com/api
+  baseurl_source: declared
+  description: The video API from Memesio — 9 operation(s) for video.
   name: Memesio video API
   slug: memesio-video-api
 artifact_total: 232
@@ -849,7 +881,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:

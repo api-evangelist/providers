@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -47,37 +47,59 @@ apis:
 - description: 'REST API for TalentLMS providing programmatic access to users, courses, categories, branches, groups, enrollments, and reporting data including test and survey results. Over 50 endpoints support full '
   name: TalentLMS API
   slug: talentlms-api
-- description: This section introduces endpoints that perform bulk actions. After invoking any of the below endpoints, their response includes a background task ID.. You can use the `GET api/v2/tasks/:id` endpoint t
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: This section introduces endpoints that perform bulk actions. After invoking any of the below endpoints, their response includes a background task ID.. You can use the `GET api/v2/tasks/:id` endpoint t
   name: TalentLMS Batch Actions API
   slug: talentlms-batch-actions-api
-- description: The Branch API from TalentLMS — 5 operation(s) for branch.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Branch API from TalentLMS — 5 operation(s) for branch.
   name: TalentLMS Branch API
   slug: talentlms-branch-api
-- description: The Category API from TalentLMS — 3 operation(s) for category.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Category API from TalentLMS — 3 operation(s) for category.
   name: TalentLMS Category API
   slug: talentlms-category-api
-- description: The Course API from TalentLMS — 6 operation(s) for course.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Course API from TalentLMS — 6 operation(s) for course.
   name: TalentLMS Course API
   slug: talentlms-course-api
-- description: The Group API from TalentLMS — 5 operation(s) for group.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Group API from TalentLMS — 5 operation(s) for group.
   name: TalentLMS Group API
   slug: talentlms-group-api
-- description: The Learning Paths API from TalentLMS — 3 operation(s) for learning paths.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Learning Paths API from TalentLMS — 3 operation(s) for learning paths.
   name: TalentLMS Learning Paths API
   slug: talentlms-learning-paths-api
-- description: The Portal API from TalentLMS — 2 operation(s) for portal.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Portal API from TalentLMS — 2 operation(s) for portal.
   name: TalentLMS Portal API
   slug: talentlms-portal-api
-- description: The Task API from TalentLMS — 1 operation(s) for task.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Task API from TalentLMS — 1 operation(s) for task.
   name: TalentLMS Task API
   slug: talentlms-task-api
-- description: The Timeline API from TalentLMS — 1 operation(s) for timeline.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Timeline API from TalentLMS — 1 operation(s) for timeline.
   name: TalentLMS Timeline API
   slug: talentlms-timeline-api
-- description: The Unit API from TalentLMS — 2 operation(s) for unit.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The Unit API from TalentLMS — 2 operation(s) for unit.
   name: TalentLMS Unit API
   slug: talentlms-unit-api
-- description: The User API from TalentLMS — 16 operation(s) for user.
+- baseURL: https://{domain}.talentlms.com/api/v2
+  baseurl_source: declared
+  description: The User API from TalentLMS — 16 operation(s) for user.
   name: TalentLMS User API
   slug: talentlms-user-api
 artifact_total: 44
@@ -308,7 +330,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/screenshots/talentlms-2026-06-20T194902.png
 security:

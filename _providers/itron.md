@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -65,16 +65,24 @@ apis:
 - description: GenX is the marketing umbrella under which Itron positions next-generation grid-edge solutions for developer partners; Starfish Studio is a related sandbox/prototyping surface for IoT solution builder
   name: Itron GenX / Starfish Studio
   slug: itron-genx-starfish-studio
-- description: Reusable sensor-shape templates for devices.
+- baseURL: https://partner.itron.com/
+  baseurl_source: declared
+  description: Reusable sensor-shape templates for devices.
   name: Itron Device Templates API
   slug: itron-device-templates-api
-- description: Device registration, lookup, and querying.
+- baseURL: https://partner.itron.com/
+  baseurl_source: declared
+  description: Device registration, lookup, and querying.
   name: Itron Devices API
   slug: itron-devices-api
-- description: Time-series sensor observation ingest and query.
+- baseURL: https://partner.itron.com/
+  baseurl_source: declared
+  description: Time-series sensor observation ingest and query.
   name: Itron Observations API
   slug: itron-observations-api
-- description: OAuth 2.0 token issuance for browser-suitable, short-lived bearer tokens.
+- baseURL: https://partner.itron.com/
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance for browser-suitable, short-lived bearer tokens.
   name: Itron Tokens API
   slug: itron-tokens-api
 artifact_total: 35
@@ -332,7 +340,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/screenshots/itron-2026-06-20T183633.png
 security:

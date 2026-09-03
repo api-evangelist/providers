@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -56,31 +56,49 @@ apis:
 - description: Categorize and enrich transactions, identify merchants, and surface financial insights.
   name: Salt Edge Data Enrichment API
   slug: data-enrichment-api
-- description: The Accounts API from Salt Edge — 1 operation(s) for accounts.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Accounts API from Salt Edge — 1 operation(s) for accounts.
   name: Salt Edge Accounts API
   slug: salt-edge-accounts-api
-- description: The Connect Sessions API from Salt Edge — 1 operation(s) for connect sessions.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Connect Sessions API from Salt Edge — 1 operation(s) for connect sessions.
   name: Salt Edge Connect Sessions API
   slug: salt-edge-connect-sessions-api
-- description: The Connections API from Salt Edge — 4 operation(s) for connections.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Connections API from Salt Edge — 4 operation(s) for connections.
   name: Salt Edge Connections API
   slug: salt-edge-connections-api
-- description: The Consents API from Salt Edge — 2 operation(s) for consents.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Consents API from Salt Edge — 2 operation(s) for consents.
   name: Salt Edge Consents API
   slug: salt-edge-consents-api
-- description: The Countries API from Salt Edge — 1 operation(s) for countries.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Countries API from Salt Edge — 1 operation(s) for countries.
   name: Salt Edge Countries API
   slug: salt-edge-countries-api
-- description: The Customers API from Salt Edge — 2 operation(s) for customers.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Customers API from Salt Edge — 2 operation(s) for customers.
   name: Salt Edge Customers API
   slug: salt-edge-customers-api
-- description: The Holder Info API from Salt Edge — 1 operation(s) for holder info.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Holder Info API from Salt Edge — 1 operation(s) for holder info.
   name: Salt Edge Holder Info API
   slug: salt-edge-holder-info-api
-- description: The Providers API from Salt Edge — 2 operation(s) for providers.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Providers API from Salt Edge — 2 operation(s) for providers.
   name: Salt Edge Providers API
   slug: salt-edge-providers-api
-- description: The Transactions API from Salt Edge — 1 operation(s) for transactions.
+- baseURL: https://www.saltedge.com/api/v5
+  baseurl_source: declared
+  description: The Transactions API from Salt Edge — 1 operation(s) for transactions.
   name: Salt Edge Transactions API
   slug: salt-edge-transactions-api
 artifact_total: 30
@@ -229,7 +247,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salt-edge/refs/heads/main/screenshots/salt-edge-2026-06-20T193356.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -47,79 +47,129 @@ apis:
 - description: The UNICEF SDMX REST API provides programmatic access to UNICEF's Data Warehouse Explorer, containing 748+ indicators across thematic dataflows covering child health, nutrition, maternal and newborn h
   name: UNICEF SDMX Data Warehouse API
   slug: unicef-sdmx-data-warehouse-api
-- description: The Basemap API from UNICEF Data — 2 operation(s) for basemap.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Basemap API from UNICEF Data — 2 operation(s) for basemap.
   name: UNICEF Data Basemap API
   slug: unicef-data-basemap-api
-- description: The Code List API from UNICEF Data — 3 operation(s) for code list.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Code List API from UNICEF Data — 3 operation(s) for code list.
   name: UNICEF Data Code List API
   slug: unicef-data-code-list-api
-- description: The Codelist API from UNICEF Data — 4 operation(s) for codelist.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Codelist API from UNICEF Data — 4 operation(s) for codelist.
   name: UNICEF Data Codelist API
   slug: unicef-data-codelist-api
-- description: The CollectionProcess API from UNICEF Data — 1 operation(s) for collectionprocess.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The CollectionProcess API from UNICEF Data — 1 operation(s) for collectionprocess.
   name: UNICEF Data CollectionProcess API
   slug: unicef-data-collectionprocess-api
-- description: The Context layer API from UNICEF Data — 6 operation(s) for context layer.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Context layer API from UNICEF Data — 6 operation(s) for context layer.
   name: UNICEF Data Context layer API
   slug: unicef-data-context-layer-api
-- description: The Country API from UNICEF Data — 3 operation(s) for country.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Country API from UNICEF Data — 3 operation(s) for country.
   name: UNICEF Data Country API
   slug: unicef-data-country-api
-- description: The Custodian API from UNICEF Data — 1 operation(s) for custodian.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Custodian API from UNICEF Data — 1 operation(s) for custodian.
   name: UNICEF Data Custodian API
   slug: unicef-data-custodian-api
-- description: The Dashboard API from UNICEF Data — 5 operation(s) for dashboard.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Dashboard API from UNICEF Data — 5 operation(s) for dashboard.
   name: UNICEF Data Dashboard API
   slug: unicef-data-dashboard-api
-- description: The Data Browser API from UNICEF Data — 1 operation(s) for data browser.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Data Browser API from UNICEF Data — 1 operation(s) for data browser.
   name: UNICEF Data Data Browser API
   slug: unicef-data-data-browser-api
-- description: The DataSource API from UNICEF Data — 1 operation(s) for datasource.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The DataSource API from UNICEF Data — 1 operation(s) for datasource.
   name: UNICEF Data DataSource API
   slug: unicef-data-datasource-api
-- description: The Group API from UNICEF Data — 2 operation(s) for group.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Group API from UNICEF Data — 2 operation(s) for group.
   name: UNICEF Data Group API
   slug: unicef-data-group-api
-- description: The HowMany API from UNICEF Data — 2 operation(s) for howmany.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The HowMany API from UNICEF Data — 2 operation(s) for howmany.
   name: UNICEF Data HowMany API
   slug: unicef-data-howmany-api
-- description: The Indicator API from UNICEF Data — 10 operation(s) for indicator.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Indicator API from UNICEF Data — 10 operation(s) for indicator.
   name: UNICEF Data Indicator API
   slug: unicef-data-indicator-api
-- description: The IndicatorClassification API from UNICEF Data — 1 operation(s) for indicatorclassification.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The IndicatorClassification API from UNICEF Data — 1 operation(s) for indicatorclassification.
   name: UNICEF Data IndicatorClassification API
   slug: unicef-data-indicatorclassification-api
-- description: The Language API from UNICEF Data — 1 operation(s) for language.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Language API from UNICEF Data — 1 operation(s) for language.
   name: UNICEF Data Language API
   slug: unicef-data-language-api
-- description: The Reference datasets API from UNICEF Data — 8 operation(s) for reference datasets.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Reference datasets API from UNICEF Data — 8 operation(s) for reference datasets.
   name: UNICEF Data Reference datasets API
   slug: unicef-data-reference-datasets-api
-- description: The Region API from UNICEF Data — 4 operation(s) for region.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Region API from UNICEF Data — 4 operation(s) for region.
   name: UNICEF Data Region API
   slug: unicef-data-region-api
-- description: The Related table API from UNICEF Data — 2 operation(s) for related table.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Related table API from UNICEF Data — 2 operation(s) for related table.
   name: UNICEF Data Related table API
   slug: unicef-data-related-table-api
-- description: The Related table data API from UNICEF Data — 3 operation(s) for related table data.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Related table data API from UNICEF Data — 3 operation(s) for related table data.
   name: UNICEF Data Related table data API
   slug: unicef-data-related-table-data-api
-- description: The Sector API from UNICEF Data — 4 operation(s) for sector.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Sector API from UNICEF Data — 4 operation(s) for sector.
   name: UNICEF Data Sector API
   slug: unicef-data-sector-api
-- description: The StrategicPlan API from UNICEF Data — 6 operation(s) for strategicplan.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The StrategicPlan API from UNICEF Data — 6 operation(s) for strategicplan.
   name: UNICEF Data StrategicPlan API
   slug: unicef-data-strategicplan-api
-- description: The Style API from UNICEF Data — 2 operation(s) for style.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Style API from UNICEF Data — 2 operation(s) for style.
   name: UNICEF Data Style API
   slug: unicef-data-style-api
-- description: The Tag API from UNICEF Data — 1 operation(s) for tag.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Tag API from UNICEF Data — 1 operation(s) for tag.
   name: UNICEF Data Tag API
   slug: unicef-data-tag-api
-- description: The User API from UNICEF Data — 2 operation(s) for user.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The User API from UNICEF Data — 2 operation(s) for user.
   name: UNICEF Data User API
   slug: unicef-data-user-api
-- description: The YearAssignmentMethod API from UNICEF Data — 1 operation(s) for yearassignmentmethod.
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The YearAssignmentMethod API from UNICEF Data — 1 operation(s) for yearassignmentmethod.
   name: UNICEF Data YearAssignmentMethod API
   slug: unicef-data-yearassignmentmethod-api
 artifact_total: 65
@@ -383,7 +433,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

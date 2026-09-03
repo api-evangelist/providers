@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Index of HTTP application programming interfaces.
+- baseURL: https://search-api.apis.io/
+  baseurl_source: declared
+  description: Index of HTTP application programming interfaces.
   name: Manage OpenAPI via GitHub Demo APIs API
   slug: demo-openapi-apis-api
-- description: Search using a cloud search engine.
+- baseURL: https://search-api.apis.io/
+  baseurl_source: declared
+  description: Search using a cloud search engine.
   name: Manage OpenAPI via GitHub Demo Search API
   slug: demo-openapi-search-api
 artifact_total: 11
@@ -154,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demo-openapi/refs/heads/main/screenshots/demo-openapi-2026-06-20T175908.png
 security:

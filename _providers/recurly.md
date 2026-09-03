@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Full REST API for managing accounts, subscriptions, plans, add-ons, coupons, invoices, line items, transactions, shipping, tax, and webhooks across a Recurly site. Authentication is HTTP Basic with a '
@@ -129,7 +129,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -139,7 +139,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 37.2
+  previous_composite: 37.0
   regulatory:
     applies: true
     matched_via: tags
@@ -147,7 +147,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recurly/refs/heads/main/screenshots/recurly-2026-06-20T192713.png
 security:

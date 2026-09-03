@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1656
   human_in_the_loop: 26
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 3340 operations · 1656 acting · 26 human-in-the-loop
 api_count: 1
 apis:
-- description: The SERTICA Web API - the single REST/JSON contract behind every SERTICA module. 3,340 operations across 254 resource families cover maintenance (components, jobs, job histories, counters, procedures)
+- baseURL: https://{sitename}.sertica.com/api
+  baseurl_source: declared
+  description: The SERTICA Web API - the single REST/JSON contract behind every SERTICA module. 3,340 operations across 254 resource families cover maintenance (components, jobs, job histories, counters, procedures)
   name: SERTICA Web API
   slug: sertica
 artifact_total: 8
@@ -184,23 +186,23 @@ rate_limits:
   slug: sertica-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 39.0
   coverage:
     artifact_dirs: 23
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.9
+  delta: 0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 51.4
     developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 41.3
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/screenshots/sertica-2026-06-20T193727.png
 security:

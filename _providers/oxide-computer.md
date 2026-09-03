@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,97 +35,157 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Anti-affinity groups give control over instance placement.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Anti-affinity groups give control over instance placement.
   name: Oxide Affinity API
   slug: oxide-computer-affinity-api
-- description: API for console authentication
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: API for console authentication
   name: Oxide Console Auth API
   slug: oxide-computer-console-auth-api
-- description: Information pertaining to the current user.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Information pertaining to the current user.
   name: Oxide Current User API
   slug: oxide-computer-current-user-api
-- description: Virtual disks are used to store instance-local data which includes the operating system.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Virtual disks are used to store instance-local data which includes the operating system.
   name: Oxide Disks API
   slug: oxide-computer-disks-api
-- description: Experimental, unstable interfaces, primarily for use by Oxide personnel
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Experimental, unstable interfaces, primarily for use by Oxide personnel
   name: Oxide Experimental API
   slug: oxide-computer-experimental-api
-- description: External subnets that can be attached to instances.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: External subnets that can be attached to instances.
   name: Oxide External Subnets API
   slug: oxide-computer-external-subnets-api
-- description: Floating IPs allow a project to allocate well-known IPs to instances.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Floating IPs allow a project to allocate well-known IPs to instances.
   name: Oxide Floating Ips API
   slug: oxide-computer-floating-ips-api
-- description: Images are read-only virtual disks that may be used to boot virtual machines.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Images are read-only virtual disks that may be used to boot virtual machines.
   name: Oxide Images API
   slug: oxide-computer-images-api
-- description: Virtual machine instances are the basic unit of computation. These operations are used for provisioning, controlling, and destroying instances.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Virtual machine instances are the basic unit of computation. These operations are used for provisioning, controlling, and destroying instances.
   name: Oxide Instances API
   slug: oxide-computer-instances-api
-- description: IP pools are collections of external IPs that can be allocated and attached to instances.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: IP pools are collections of external IPs that can be allocated and attached to instances.
   name: Oxide Ip Pools API
   slug: oxide-computer-ip-pools-api
-- description: Authentication endpoints
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Authentication endpoints
   name: Oxide Login API
   slug: oxide-computer-login-api
-- description: Silo-scoped metrics
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Silo-scoped metrics
   name: Oxide Metrics API
   slug: oxide-computer-metrics-api
-- description: System-wide IAM policy
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: System-wide IAM policy
   name: Oxide Policy API
   slug: oxide-computer-policy-api
-- description: Projects are a grouping of associated resources such as instances and disks within a silo for purposes of billing and access control.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Projects are a grouping of associated resources such as instances and disks within a silo for purposes of billing and access control.
   name: Oxide Projects API
   slug: oxide-computer-projects-api
-- description: Silos represent a logical partition of users and resources.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Silos represent a logical partition of users and resources.
   name: Oxide Silos API
   slug: oxide-computer-silos-api
-- description: Snapshots of virtual disks at a particular point in time.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Snapshots of virtual disks at a particular point in time.
   name: Oxide Snapshots API
   slug: oxide-computer-snapshots-api
-- description: Subnet pools are collections of external subnets that can be allocated and attached to instances.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Subnet pools are collections of external subnets that can be allocated and attached to instances.
   name: Oxide Subnet Pools API
   slug: oxide-computer-subnet-pools-api
-- description: Alerts deliver notifications for events that occur on the Oxide rack
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Alerts deliver notifications for events that occur on the Oxide rack
   name: Oxide System/alerts API
   slug: oxide-computer-system-alerts-api
-- description: These endpoints relate to audit logs.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: These endpoints relate to audit logs.
   name: Oxide System/audit Log API
   slug: oxide-computer-system-audit-log-api
-- description: These operations pertain to hardware inventory and management. Racks are the unit of expansion of an Oxide deployment. Racks are in turn composed of sleds, switches, power supplies, and a cabled backp
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: These operations pertain to hardware inventory and management. Racks are the unit of expansion of an Oxide deployment. Racks are in turn composed of sleds, switches, power supplies, and a cabled backp
   name: Oxide System/hardware API
   slug: oxide-computer-system-hardware-api
-- description: IP pools are collections of external IPs. Linking a pool to a silo makes it available for allocation by users in that silo.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: IP pools are collections of external IPs. Linking a pool to a silo makes it available for allocation by users in that silo.
   name: Oxide System/ip Pools API
   slug: oxide-computer-system-ip-pools-api
-- description: 'Metrics provide insight into the operation of the Oxide deployment. These include telemetry on hardware and software components that can be used to understand the current state as well as to diagnose '
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: 'Metrics provide insight into the operation of the Oxide deployment. These include telemetry on hardware and software components that can be used to understand the current state as well as to diagnose '
   name: Oxide System/metrics API
   slug: oxide-computer-system-metrics-api
-- description: This provides rack-level network configuration.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: This provides rack-level network configuration.
   name: Oxide System/networking API
   slug: oxide-computer-system-networking-api
-- description: Silos represent a logical partition of users and resources.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Silos represent a logical partition of users and resources.
   name: Oxide System/silos API
   slug: oxide-computer-system-silos-api
-- description: Endpoints related to system health
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Endpoints related to system health
   name: Oxide System/status API
   slug: oxide-computer-system-status-api
-- description: Subnet pools are collections of external subnets. Linking a pool to a silo makes it available for allocation by users in that silo.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Subnet pools are collections of external subnets. Linking a pool to a silo makes it available for allocation by users in that silo.
   name: Oxide System/subnet Pools API
   slug: oxide-computer-system-subnet-pools-api
-- description: Support bundles collect debugging information from the rack for use by Oxide support.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Support bundles collect debugging information from the rack for use by Oxide support.
   name: Oxide System/support Bundles API
   slug: oxide-computer-system-support-bundles-api
-- description: Upload and manage system updates
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Upload and manage system updates
   name: Oxide System/update API
   slug: oxide-computer-system-update-api
-- description: API clients use device access tokens for authentication.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: API clients use device access tokens for authentication.
   name: Oxide Tokens API
   slug: oxide-computer-tokens-api
-- description: Virtual Private Clouds (VPCs) provide isolated network environments for managing and deploying services.
+- baseURL: https://{oxide-control-plane-host}
+  baseurl_source: declared
+  description: Virtual Private Clouds (VPCs) provide isolated network environments for managing and deploying services.
   name: Oxide Vpcs API
   slug: oxide-computer-vpcs-api
 artifact_total: 36
@@ -269,23 +341,23 @@ rate_limits:
   slug: oxide-computer-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 42.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 48.3
+    contract_quality: 51.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 41.9
+  previous_composite: 41.7
   provenance:
     conformance: derived
     contracts:
@@ -296,8 +368,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/oxide-computer/refs/heads/main/screenshots/oxide-computer-2026-09-02T150902.png
 security:
 - kind: authentication
   name: Oxide Computer Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -47,40 +47,64 @@ apis:
 - description: APIContext provides synthetic API testing and monitoring that continuously tests APIs from multiple global locations to measure performance, validate responses against expected schemas, and enforce SL
   name: APIContext Synthetic API Testing
   slug: synthetic-api-testing
-- description: The Agents API from APIContext — 2 operation(s) for agents.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Agents API from APIContext — 2 operation(s) for agents.
   name: APIContext Agents API
   slug: apicontext-agents-api
-- description: The Alerts API from APIContext — 2 operation(s) for alerts.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Alerts API from APIContext — 2 operation(s) for alerts.
   name: APIContext Alerts API
   slug: apicontext-alerts-api
-- description: The API Calls API from APIContext — 3 operation(s) for api calls.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The API Calls API from APIContext — 3 operation(s) for api calls.
   name: APIContext API Calls API
   slug: apicontext-api-calls-api
-- description: The Directory API from APIContext — 2 operation(s) for directory.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Directory API from APIContext — 2 operation(s) for directory.
   name: APIContext Directory API
   slug: apicontext-directory-api
-- description: The Insights API from APIContext — 1 operation(s) for insights.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Insights API from APIContext — 1 operation(s) for insights.
   name: APIContext Insights API
   slug: apicontext-insights-api
-- description: The Projects API from APIContext — 2 operation(s) for projects.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Projects API from APIContext — 2 operation(s) for projects.
   name: APIContext Projects API
   slug: apicontext-projects-api
-- description: The Reports API from APIContext — 2 operation(s) for reports.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Reports API from APIContext — 2 operation(s) for reports.
   name: APIContext Reports API
   slug: apicontext-reports-api
-- description: The Results API from APIContext — 1 operation(s) for results.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Results API from APIContext — 1 operation(s) for results.
   name: APIContext Results API
   slug: apicontext-results-api
-- description: The Schedules API from APIContext — 3 operation(s) for schedules.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Schedules API from APIContext — 3 operation(s) for schedules.
   name: APIContext Schedules API
   slug: apicontext-schedules-api
-- description: The Statistics API from APIContext — 1 operation(s) for statistics.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Statistics API from APIContext — 1 operation(s) for statistics.
   name: APIContext Statistics API
   slug: apicontext-statistics-api
-- description: The Tokens API from APIContext — 2 operation(s) for tokens.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Tokens API from APIContext — 2 operation(s) for tokens.
   name: APIContext Tokens API
   slug: apicontext-tokens-api
-- description: The Workflows API from APIContext — 3 operation(s) for workflows.
+- baseURL: https://client.apimetrics.io/api/2
+  baseurl_source: spec
+  description: The Workflows API from APIContext — 3 operation(s) for workflows.
   name: APIContext Workflows API
   slug: apicontext-workflows-api
 artifact_total: 43
@@ -230,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/screenshots/apicontext-2026-06-20T172235.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage budget transactions and view budgetary control validation results
+- baseURL: https://your-instance.fa.us2.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: Manage budget transactions and view budgetary control validation results
   name: Oracle Financials Budgetary Control API
   slug: oracle-financials-budgetary-control-api
-- description: Create and manage chart of accounts filters and filter criteria
+- baseURL: https://your-instance.fa.us2.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: Create and manage chart of accounts filters and filter criteria
   name: Oracle Financials Chart of Accounts API
   slug: oracle-financials-chart-of-accounts-api
-- description: Retrieve currency conversion rates used for multi-currency accounting
+- baseURL: https://your-instance.fa.us2.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: Retrieve currency conversion rates used for multi-currency accounting
   name: Oracle Financials Currency Rates API
   slug: oracle-financials-currency-rates-api
-- description: Manage journal batches including headers, lines, action logs, and attachments
+- baseURL: https://your-instance.fa.us2.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: Manage journal batches including headers, lines, action logs, and attachments
   name: Oracle Financials Journal Batches API
   slug: oracle-financials-journal-batches-api
-- description: View balance amounts for account combinations or accounts defined as part of an account group
+- baseURL: https://your-instance.fa.us2.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: View balance amounts for account combinations or accounts defined as part of an account group
   name: Oracle Financials Ledger Balances API
   slug: oracle-financials-ledger-balances-api
 artifact_total: 27
@@ -223,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/screenshots/oracle-financials-2026-06-20T191131.png
 security:

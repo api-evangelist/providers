@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
@@ -58,16 +58,24 @@ apis:
 - description: 'A public API for fetching degree, specialisation and course information from the UNSW Handbook, published by the UNSW Computer Science and Engineering Society. ARCHIVED BY ITS OWNER ON 2026-04-03 and '
   name: UNSW Handbook API (CSESoc, community) — ARCHIVED
   slug: handbook-api
-- description: Communities, collections, sites and the metadata registry.
+- baseURL: https://unsworks.unsw.edu.au/server/api
+  baseurl_source: declared
+  description: Communities, collections, sites and the metadata registry.
   name: University of New South Wales Core API
   slug: unsw-sydney-core-api
-- description: Public discovery search over repository objects.
+- baseURL: https://unsworks.unsw.edu.au/server/api
+  baseurl_source: declared
+  description: Public discovery search over repository objects.
   name: University of New South Wales Discover API
   slug: unsw-sydney-discover-api
-- description: OAI-PMH 2.0 verbs, all exercised live against this endpoint.
+- baseURL: https://unsworks.unsw.edu.au/server/api
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs, all exercised live against this endpoint.
   name: University of New South Wales Oai Pmh API
   slug: unsw-sydney-oai-pmh-api
-- description: Service entry point and HAL link index.
+- baseURL: https://unsworks.unsw.edu.au/server/api
+  baseurl_source: declared
+  description: Service entry point and HAL link index.
   name: University of New South Wales Root API
   slug: unsw-sydney-root-api
 artifact_total: 22
@@ -317,7 +325,7 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -327,7 +335,7 @@ score:
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 23.7
-  previous_composite: 52.7
+  previous_composite: 52.6
   provenance:
     conformance: first-party
     contracts:
@@ -342,7 +350,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 1
 apis:
-- description: Create, update and inspect enrichment campaigns.
+- baseURL: https://leadgenius.com/api/v1/
+  baseurl_source: declared
+  description: Create, update and inspect enrichment campaigns.
   name: LeadGenius Campaigns API
   slug: leadgenius-campaigns-api
-- description: Submit accounts and contacts that should be excluded from enrichment.
+- baseURL: https://leadgenius.com/api/v1/
+  baseurl_source: declared
+  description: Submit accounts and contacts that should be excluded from enrichment.
   name: LeadGenius Exclusion API
   slug: leadgenius-exclusion-api
-- description: Real-time single-record account/contact enrichment and contact append.
+- baseURL: https://leadgenius.com/api/v1/
+  baseurl_source: declared
+  description: Real-time single-record account/contact enrichment and contact append.
   name: LeadGenius Rapid Enrichment API
   slug: leadgenius-rapid-enrichment-api
-- description: Upload records to a campaign and retrieve enriched results.
+- baseURL: https://leadgenius.com/api/v1/
+  baseurl_source: declared
+  description: Upload records to a campaign and retrieve enriched results.
   name: LeadGenius Records API
   slug: leadgenius-records-api
-- description: Subscription usage and enrichment request statistics.
+- baseURL: https://leadgenius.com/api/v1/
+  baseurl_source: declared
+  description: Subscription usage and enrichment request statistics.
   name: LeadGenius Usage API
   slug: leadgenius-usage-api
-- description: The LeadGenius Enrichment API API from LeadGenius — 0 operation(s) for leadgenius enrichment api.
+- baseURL: https://leadgenius.com/api/v1/
+  baseurl_source: declared
+  description: The LeadGenius Enrichment API API from LeadGenius — 0 operation(s) for leadgenius enrichment api.
   name: LeadGenius LeadGenius Enrichment API
   slug: leadgenius-leadgenius-enrichment-api-api
 artifact_total: 19
@@ -254,7 +266,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -264,7 +276,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 36.2
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png
 security:

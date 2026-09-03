@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 109 operations · 6 acting
 api_count: 1
 apis:
-- description: The Query API from Cosmos — 89 operation(s) for query.
+- baseURL: https://lcd.cosmos.network
+  baseurl_source: declared
+  description: The Query API from Cosmos — 89 operation(s) for query.
   name: Cosmos Query API
   slug: cosmos-query-api
-- description: The Service API from Cosmos — 19 operation(s) for service.
+- baseURL: https://lcd.cosmos.network
+  baseurl_source: declared
+  description: The Service API from Cosmos — 19 operation(s) for service.
   name: Cosmos Service API
   slug: cosmos-service-api
 artifact_total: 88
@@ -442,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/screenshots/cosmos-2026-06-20T175049.png
 security:

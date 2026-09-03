@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 11 operations
 api_count: 11
 apis:
-- description: The Aircraft Types API from Aviationstack — 1 operation(s) for aircraft types.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Aircraft Types API from Aviationstack — 1 operation(s) for aircraft types.
   name: Aviationstack Aircraft Types API
   slug: aviationstack-aircraft-types-api
-- description: The Airlines API from Aviationstack — 1 operation(s) for airlines.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Airlines API from Aviationstack — 1 operation(s) for airlines.
   name: Aviationstack Airlines API
   slug: aviationstack-airlines-api
-- description: The Airplanes API from Aviationstack — 1 operation(s) for airplanes.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Airplanes API from Aviationstack — 1 operation(s) for airplanes.
   name: Aviationstack Airplanes API
   slug: aviationstack-airplanes-api
-- description: The Airports API from Aviationstack — 1 operation(s) for airports.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Airports API from Aviationstack — 1 operation(s) for airports.
   name: Aviationstack Airports API
   slug: aviationstack-airports-api
-- description: The Cities API from Aviationstack — 1 operation(s) for cities.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Cities API from Aviationstack — 1 operation(s) for cities.
   name: Aviationstack Cities API
   slug: aviationstack-cities-api
-- description: The Countries API from Aviationstack — 1 operation(s) for countries.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Countries API from Aviationstack — 1 operation(s) for countries.
   name: Aviationstack Countries API
   slug: aviationstack-countries-api
-- description: The Flights API from Aviationstack — 1 operation(s) for flights.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Flights API from Aviationstack — 1 operation(s) for flights.
   name: Aviationstack Flights API
   slug: aviationstack-flights-api
-- description: The FlightsFuture API from Aviationstack — 1 operation(s) for flightsfuture.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The FlightsFuture API from Aviationstack — 1 operation(s) for flightsfuture.
   name: Aviationstack FlightsFuture API
   slug: aviationstack-flightsfuture-api
-- description: The Routes API from Aviationstack — 1 operation(s) for routes.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Routes API from Aviationstack — 1 operation(s) for routes.
   name: Aviationstack Routes API
   slug: aviationstack-routes-api
-- description: The Taxes API from Aviationstack — 1 operation(s) for taxes.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Taxes API from Aviationstack — 1 operation(s) for taxes.
   name: Aviationstack Taxes API
   slug: aviationstack-taxes-api
-- description: The Timetable API from Aviationstack — 1 operation(s) for timetable.
+- baseURL: https://aviationstack.com/
+  baseurl_source: declared
+  description: The Timetable API from Aviationstack — 1 operation(s) for timetable.
   name: Aviationstack Timetable API
   slug: aviationstack-timetable-api
 artifact_total: 29
@@ -190,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/screenshots/aviationstack-2026-06-20T172726.png
 security:

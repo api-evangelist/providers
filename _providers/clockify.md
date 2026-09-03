@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 2
@@ -46,85 +46,139 @@ apis:
 - description: REST API for Clockify providing access to workspaces, users, groups, projects, tasks, clients, tags, time entries, reports, webhooks, and approvals. Authentication uses the X-Api-Key request header wi
   name: Clockify REST API
   slug: rest-api
-- description: The Approval API from Clockify — 5 operation(s) for approval.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Approval API from Clockify — 5 operation(s) for approval.
   name: Clockify Approval API
   slug: clockify-approval-api
-- description: The Audit Log Report API from Clockify — 1 operation(s) for audit log report.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Audit Log Report API from Clockify — 1 operation(s) for audit log report.
   name: Clockify Audit Log Report API
   slug: clockify-audit-log-report-api
-- description: The Balance API from Clockify — 2 operation(s) for balance.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Balance API from Clockify — 2 operation(s) for balance.
   name: Clockify Balance API
   slug: clockify-balance-api
-- description: The Client API from Clockify — 2 operation(s) for client.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Client API from Clockify — 2 operation(s) for client.
   name: Clockify Client API
   slug: clockify-client-api
-- description: The Custom fields API from Clockify — 4 operation(s) for custom fields.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Custom fields API from Clockify — 4 operation(s) for custom fields.
   name: Clockify Custom fields API
   slug: clockify-custom-fields-api
-- description: For use case see [Entity Changes Use Cases](#tag/Entity-Changes:-Use-cases)
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: For use case see [Entity Changes Use Cases](#tag/Entity-Changes:-Use-cases)
   name: Clockify Entity changes (Experimental) API
   slug: clockify-entity-changes-experimental-api
-- description: The Expense API from Clockify — 6 operation(s) for expense.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Expense API from Clockify — 6 operation(s) for expense.
   name: Clockify Expense API
   slug: clockify-expense-api
-- description: The Expense Report API from Clockify — 1 operation(s) for expense report.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Expense Report API from Clockify — 1 operation(s) for expense report.
   name: Clockify Expense Report API
   slug: clockify-expense-report-api
-- description: The Group API from Clockify — 4 operation(s) for group.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Group API from Clockify — 4 operation(s) for group.
   name: Clockify Group API
   slug: clockify-group-api
-- description: The Holiday API from Clockify — 3 operation(s) for holiday.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Holiday API from Clockify — 3 operation(s) for holiday.
   name: Clockify Holiday API
   slug: clockify-holiday-api
-- description: The Invoice API from Clockify — 12 operation(s) for invoice.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Invoice API from Clockify — 12 operation(s) for invoice.
   name: Clockify Invoice API
   slug: clockify-invoice-api
-- description: The Policy API from Clockify — 2 operation(s) for policy.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Policy API from Clockify — 2 operation(s) for policy.
   name: Clockify Policy API
   slug: clockify-policy-api
-- description: The Project API from Clockify — 8 operation(s) for project.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Project API from Clockify — 8 operation(s) for project.
   name: Clockify Project API
   slug: clockify-project-api
-- description: The Scheduling API from Clockify — 10 operation(s) for scheduling.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Scheduling API from Clockify — 10 operation(s) for scheduling.
   name: Clockify Scheduling API
   slug: clockify-scheduling-api
-- description: This endpoint group contains deprecated endpoints from the [Scheduling](#tag/Scheduling) endpoint group.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: This endpoint group contains deprecated endpoints from the [Scheduling](#tag/Scheduling) endpoint group.
   name: Clockify Scheduling (Deprecated) API
   slug: clockify-scheduling-deprecated-api
-- description: The Shared Report API from Clockify — 3 operation(s) for shared report.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Shared Report API from Clockify — 3 operation(s) for shared report.
   name: Clockify Shared Report API
   slug: clockify-shared-report-api
-- description: The Tag API from Clockify — 2 operation(s) for tag.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Tag API from Clockify — 2 operation(s) for tag.
   name: Clockify Tag API
   slug: clockify-tag-api
-- description: The Task API from Clockify — 4 operation(s) for task.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Task API from Clockify — 4 operation(s) for task.
   name: Clockify Task API
   slug: clockify-task-api
-- description: The Team Report API from Clockify — 1 operation(s) for team report.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Team Report API from Clockify — 1 operation(s) for team report.
   name: Clockify Team Report API
   slug: clockify-team-report-api
-- description: This endpoint group is deprecated and should not be used.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: This endpoint group is deprecated and should not be used.
   name: Clockify Template (Deprecated) API
   slug: clockify-template-deprecated-api
-- description: The Time entry API from Clockify — 6 operation(s) for time entry.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Time entry API from Clockify — 6 operation(s) for time entry.
   name: Clockify Time entry API
   slug: clockify-time-entry-api
-- description: The Time Entry Report API from Clockify — 3 operation(s) for time entry report.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Time Entry Report API from Clockify — 3 operation(s) for time entry report.
   name: Clockify Time Entry Report API
   slug: clockify-time-entry-report-api
-- description: The Time Off API from Clockify — 4 operation(s) for time off.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Time Off API from Clockify — 4 operation(s) for time off.
   name: Clockify Time Off API
   slug: clockify-time-off-api
-- description: The User API from Clockify — 8 operation(s) for user.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The User API from Clockify — 8 operation(s) for user.
   name: Clockify User API
   slug: clockify-user-api
-- description: The Webhooks API from Clockify — 5 operation(s) for webhooks.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Clockify — 5 operation(s) for webhooks.
   name: Clockify Webhooks API
   slug: clockify-webhooks-api
-- description: The Workspace API from Clockify — 8 operation(s) for workspace.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: The Workspace API from Clockify — 8 operation(s) for workspace.
   name: Clockify Workspace API
   slug: clockify-workspace-api
-- description: This endpoint group contains deprecated endpoints from the [Workspace](#tag/Workspace) endpoint group.
+- baseURL: https://api.clockify.me/api/v1
+  baseurl_source: declared
+  description: This endpoint group contains deprecated endpoints from the [Workspace](#tag/Workspace) endpoint group.
   name: Clockify Workspace (Deprecated) API
   slug: clockify-workspace-deprecated-api
 artifact_total: 62
@@ -313,7 +367,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockify/refs/heads/main/screenshots/clockify-2026-06-20T174530.png
 security:

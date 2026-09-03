@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 3
 apis:
-- description: Common API endpoints shared across partner operations
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Common API endpoints shared across partner operations
   name: CargoDocs Common API
   slug: cargodocs-common-api
-- description: Endpoints for retrieving and downloading documents
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and downloading documents
   name: CargoDocs Documents API
   slug: cargodocs-documents-api
-- description: Partner Exchange API endpoints for customer and employee data
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Partner Exchange API endpoints for customer and employee data
   name: CargoDocs Exchange API
   slug: cargodocs-exchange-api
-- description: Endpoints for importing shipment data to create documents
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Endpoints for importing shipment data to create documents
   name: CargoDocs Import API
   slug: cargodocs-import-api
-- description: Endpoints for drafting, issuing, and re-issuing electronic bills of lading
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Endpoints for drafting, issuing, and re-issuing electronic bills of lading
   name: CargoDocs Issuance API
   slug: cargodocs-issuance-api
-- description: Endpoints for receiving surrendered electronic bills of lading
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Endpoints for receiving surrendered electronic bills of lading
   name: CargoDocs Surrender API
   slug: cargodocs-surrender-api
-- description: Endpoints for finding and managing transactions
+- baseURL: https://api.essdocs.com
+  baseurl_source: declared
+  description: Endpoints for finding and managing transactions
   name: CargoDocs Transactions API
   slug: cargodocs-transactions-api
 artifact_total: 31
@@ -248,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/screenshots/cargodocs-2026-08-17T123110.png
 security:

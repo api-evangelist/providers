@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,28 +57,44 @@ apis:
 - description: REST API for Atlassian Customer Service Management providing access to customers, organizations, products, and entitlements data.
   name: Jira Customer Service Management REST API
   slug: jira-customer-service-management-rest-api
-- description: Manage comments on issues.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage comments on issues.
   name: Jira Issue Comments API
   slug: jira-issue-comments-api
-- description: Retrieve issue priority levels.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Retrieve issue priority levels.
   name: Jira Issue Priorities API
   slug: jira-issue-priorities-api
-- description: Search for issues using JQL (Jira Query Language).
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Search for issues using JQL (Jira Query Language).
   name: Jira Issue Search API
   slug: jira-issue-search-api
-- description: Retrieve issue statuses.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Retrieve issue statuses.
   name: Jira Issue Statuses API
   slug: jira-issue-statuses-api
-- description: Retrieve and perform workflow transitions on issues.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Retrieve and perform workflow transitions on issues.
   name: Jira Issue Transitions API
   slug: jira-issue-transitions-api
-- description: Retrieve and manage issue types for projects.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Retrieve and manage issue types for projects.
   name: Jira Issue Types API
   slug: jira-issue-types-api
-- description: Create, read, update, delete, and transition Jira issues.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Create, read, update, delete, and transition Jira issues.
   name: Jira Issues API
   slug: jira-issues-api
-- description: Manage Jira projects including metadata, roles, and components.
+- baseURL: https://your-domain.atlassian.net/rest/api/3
+  baseurl_source: declared
+  description: Manage Jira projects including metadata, roles, and components.
   name: Jira Projects API
   slug: jira-projects-api
 arazzos:
@@ -885,7 +901,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -895,7 +911,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 58.0
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -906,7 +922,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:

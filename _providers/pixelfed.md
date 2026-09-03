@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 68 operations · 28 acting
 api_count: 1
 apis:
-- description: Account management, follow/block/mute operations
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Account management, follow/block/mute operations
   name: Pixelfed Accounts API
   slug: pixelfed-accounts-api
-- description: Blocked accounts and muted accounts
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Blocked accounts and muted accounts
   name: Pixelfed Blocks and Mutes API
   slug: pixelfed-blocks-and-mutes-api
-- description: Bookmarked statuses
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Bookmarked statuses
   name: Pixelfed Bookmarks API
   slug: pixelfed-bookmarks-api
-- description: Pixelfed-specific photo collections (v1.1)
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Pixelfed-specific photo collections (v1.1)
   name: Pixelfed Collections API
   slug: pixelfed-collections-api
-- description: Pixelfed-specific direct messaging (v1.1)
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Pixelfed-specific direct messaging (v1.1)
   name: Pixelfed Direct Messages API
   slug: pixelfed-direct-messages-api
-- description: Trending content, suggestions, and directory
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Trending content, suggestions, and directory
   name: Pixelfed Discovery API
   slug: pixelfed-discovery-api
-- description: Favourited statuses
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Favourited statuses
   name: Pixelfed Favourites API
   slug: pixelfed-favourites-api
-- description: Pending follow requests
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Pending follow requests
   name: Pixelfed Follow Requests API
   slug: pixelfed-follow-requests-api
-- description: Instance and federation metadata
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Instance and federation metadata
   name: Pixelfed Instance API
   slug: pixelfed-instance-api
-- description: List management and membership
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: List management and membership
   name: Pixelfed Lists API
   slug: pixelfed-lists-api
-- description: Media upload and management
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Media upload and management
   name: Pixelfed Media API
   slug: pixelfed-media-api
-- description: Notification retrieval and management
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Notification retrieval and management
   name: Pixelfed Notifications API
   slug: pixelfed-notifications-api
-- description: Web push subscription management (v1.1)
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Web push subscription management (v1.1)
   name: Pixelfed Push Notifications API
   slug: pixelfed-push-notifications-api
-- description: Full-text and entity search
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Full-text and entity search
   name: Pixelfed Search API
   slug: pixelfed-search-api
-- description: Creating, reading, and interacting with statuses (posts)
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Creating, reading, and interacting with statuses (posts)
   name: Pixelfed Statuses API
   slug: pixelfed-statuses-api
-- description: Pixelfed-specific ephemeral stories (v1.1)
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Pixelfed-specific ephemeral stories (v1.1)
   name: Pixelfed Stories API
   slug: pixelfed-stories-api
-- description: Home, public, tag, and list timelines
+- baseURL: https://{instance}/api
+  baseurl_source: declared
+  description: Home, public, tag, and list timelines
   name: Pixelfed Timelines API
   slug: pixelfed-timelines-api
 artifact_total: 43
@@ -260,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/screenshots/pixelfed-2026-06-20T191736.png
 security:

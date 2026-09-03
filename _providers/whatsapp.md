@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,55 +44,87 @@ agentic_access:
   summary_line: 43 operations · 27 acting
 api_count: 2
 apis:
-- description: 'API for creating structured, interactive forms and multi-step flows within WhatsApp conversations, enabling appointment booking, surveys, lead capture, and other guided experiences using a JSON-based '
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: 'API for creating structured, interactive forms and multi-step flows within WhatsApp conversations, enabling appointment booking, surveys, lead capture, and other guided experiences using a JSON-based '
   name: WhatsApp Flows API
   slug: flows-api
 - description: 'The self-hosted version of the WhatsApp Business API that allowed businesses to run the API on their own infrastructure. This API was deprecated on October 23, 2025, and all users must migrate to the '
   name: WhatsApp On-Premises API
   slug: on-premises-api
-- description: Retrieve conversation and template analytics
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Retrieve conversation and template analytics
   name: WhatsApp Analytics API
   slug: whatsapp-analytics-api
-- description: Upload and retrieve flow JSON assets
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Upload and retrieve flow JSON assets
   name: WhatsApp Assets API
   slug: whatsapp-assets-api
-- description: Manage user access to a WABA
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Manage user access to a WABA
   name: WhatsApp Assigned Users API
   slug: whatsapp-assigned-users-api
-- description: Manage WhatsApp Business Account information
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Manage WhatsApp Business Account information
   name: WhatsApp Business Accounts API
   slug: whatsapp-business-accounts-api
-- description: Get and update WhatsApp Business profile information
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Get and update WhatsApp Business profile information
   name: WhatsApp Business Profile API
   slug: whatsapp-business-profile-api
-- description: Publish and deprecate flows
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Publish and deprecate flows
   name: WhatsApp Lifecycle API
   slug: whatsapp-lifecycle-api
-- description: Upload, retrieve, and delete media files
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Upload, retrieve, and delete media files
   name: WhatsApp Media API
   slug: whatsapp-media-api
-- description: Create, update, and delete message templates
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Create, update, and delete message templates
   name: WhatsApp Message Templates API
   slug: whatsapp-message-templates-api
-- description: Send messages of all types to WhatsApp users
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Send messages of all types to WhatsApp users
   name: WhatsApp Messages API
   slug: whatsapp-messages-api
-- description: List and manage phone numbers on a WABA
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: List and manage phone numbers on a WABA
   name: WhatsApp Phone Numbers API
   slug: whatsapp-phone-numbers-api
-- description: Connect and manage product catalogs
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Connect and manage product catalogs
   name: WhatsApp Product Catalogs API
   slug: whatsapp-product-catalogs-api
-- description: Create and manage QR codes for customer conversations
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Create and manage QR codes for customer conversations
   name: WhatsApp QR Codes API
   slug: whatsapp-qr-codes-api
-- description: Register and deregister phone numbers
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Register and deregister phone numbers
   name: WhatsApp Registration API
   slug: whatsapp-registration-api
-- description: Manage webhook subscriptions for a WABA
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Manage webhook subscriptions for a WABA
   name: WhatsApp Subscribed Apps API
   slug: whatsapp-subscribed-apps-api
-- description: Manage two-step verification PIN
+- baseURL: https://graph.facebook.com/v21.0
+  baseurl_source: declared
+  description: Manage two-step verification PIN
   name: WhatsApp Two-Step Verification API
   slug: whatsapp-two-step-verification-api
 arazzos:
@@ -839,7 +871,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -852,7 +884,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 52.3
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -862,10 +894,10 @@ score:
       total: 16
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:

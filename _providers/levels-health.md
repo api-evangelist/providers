@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Member-facing data export of glucose/CGM, activity, zones, and nutrition logs as CSV downloads from the Levels member portal. This is a UI download only; no programmatic/public API endpoint is documen
+- baseURL: https://www.levelshealth.com
+  baseurl_source: spec
+  description: Member-facing data export of glucose/CGM, activity, zones, and nutrition logs as CSV downloads from the Levels member portal. This is a UI download only; no programmatic/public API endpoint is documen
   name: Levels Data Export
   slug: levels-data-export
-- description: Inbound connectivity that lets members link Apple Health and wearable data and upload prior labs, DEXA scans, and health records into the Levels app. These are in-app integrations, not an outbound pub
+- baseURL: https://www.levelshealth.com
+  baseurl_source: spec
+  description: Inbound connectivity that lets members link Apple Health and wearable data and upload prior labs, DEXA scans, and health records into the Levels app. These are in-app integrations, not an outbound pub
   name: Levels Health Data Integrations
   slug: levels-health-data-integrations
-- description: A "Partner With Us" program for clinics and partners surfaced in the Levels site footer. No partner-facing developer API, OAuth flow, or documented endpoints are published; engagement is via a contact
+- baseURL: https://www.levelshealth.com
+  baseurl_source: spec
+  description: A "Partner With Us" program for clinics and partners surfaced in the Levels site footer. No partner-facing developer API, OAuth flow, or documented endpoints are published; engagement is via a contact
   name: Levels Partner Program
   slug: levels-partner-program
 artifact_total: 9
@@ -137,7 +143,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/screenshots/levels-health-2026-06-20T184436.png
 security:

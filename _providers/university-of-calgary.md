@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 67 operations · 38 acting
 api_count: 2
 apis:
-- description: Endpoints to utilize the Auroral Transport Model
+- baseURL: https://api.phys.ucalgary.ca
+  baseurl_source: declared
+  description: Endpoints to utilize the Auroral Transport Model
   name: University of Calgary Auroral Transport Model (ATM) API
   slug: university-of-calgary-auroral-transport-model-atm-api
-- description: Endpoints supporting data distribution
+- baseURL: https://api.phys.ucalgary.ca
+  baseurl_source: declared
+  description: Endpoints supporting data distribution
   name: University of Calgary Data Distribution API
   slug: university-of-calgary-data-distribution-api
-- description: The HAPI 3.3 interface of the UCalgary Space Remote Sensing API — /hapi, /about, /capabilities, /catalog, /info and /data — serving ground-based instrument time series (NORSTAR riometers and related a
+- baseURL: https://api.phys.ucalgary.ca
+  baseurl_source: declared
+  description: The HAPI 3.3 interface of the UCalgary Space Remote Sensing API — /hapi, /about, /capabilities, /catalog, /info and /data — serving ground-based instrument time series (NORSTAR riometers and related a
   name: University of Calgary SRS HAPI (Heliophysics API) Server
   slug: university-of-calgary-hapi-api
-- description: Endpoints for Scientist In The Loop (SITL) operations
+- baseURL: https://api.phys.ucalgary.ca
+  baseurl_source: declared
+  description: Endpoints for Scientist In The Loop (SITL) operations
   name: University of Calgary Operations - SITL API
   slug: university-of-calgary-operations-sitl-api
-- description: Endpoints providing real-time data streams
+- baseURL: https://api.phys.ucalgary.ca
+  baseurl_source: declared
+  description: Endpoints providing real-time data streams
   name: University of Calgary Real-Time Data API
   slug: university-of-calgary-real-time-data-api
-- description: Various helper endpoints
+- baseURL: https://api.phys.ucalgary.ca
+  baseurl_source: declared
+  description: Various helper endpoints
   name: University of Calgary Utilities API
   slug: university-of-calgary-utilities-api
-- description: The WADL service-description endpoints exposed by the AuroraX API.
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: The WADL service-description endpoints exposed by the AuroraX API.
   name: University of Calgary AuroraX Application.wadl API
   slug: university-of-calgary-application-wadl-api
-- description: Authenticate via email and password to get an Access Token. Use your API Key if you are building software without user interaction to run against the API.
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Authenticate via email and password to get an Access Token. Use your API Key if you are building software without user interaction to run against the API.
   name: University of Calgary AuroraX Authenticate API
   slug: university-of-calgary-authenticate-api
-- description: Retrieve information about data in the database
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Retrieve information about data in the database
   name: University of Calgary AuroraX Availability API
   slug: university-of-calgary-availability-api
-- description: Search for conjunctions between multiple sets of data sources
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Search for conjunctions between multiple sets of data sources
   name: University of Calgary AuroraX Conjunction Search API
   slug: university-of-calgary-conjunction-search-api
-- description: Search for data products
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Search for data products
   name: University of Calgary AuroraX Data Products Search API
   slug: university-of-calgary-data-products-search-api
-- description: Interact with data sources
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Interact with data sources
   name: University of Calgary AuroraX Data Sources API
   slug: university-of-calgary-data-sources-api
-- description: Search ephemeris records
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Search ephemeris records
   name: University of Calgary AuroraX Ephemeris Search API
   slug: university-of-calgary-ephemeris-search-api
-- description: Operations relating to managing ephemeris and data products data
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Operations relating to managing ephemeris and data products data
   name: University of Calgary AuroraX Manage Data API
   slug: university-of-calgary-manage-data-api
-- description: Various utilities
+- baseURL: https://api.aurorax.space
+  baseurl_source: declared
+  description: Various utilities
   name: University of Calgary AuroraX Utils API
   slug: university-of-calgary-utils-api
 - description: The university's own Open Journal Systems 3.4.0.10 installation, hosting UCalgary scholarly journals and exposing a live OAI-PMH 2.0 harvesting endpoint under repositoryName "University of Calgary Jou
@@ -361,7 +391,7 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -371,7 +401,7 @@ score:
     discoverability: 68.5
     governance: 29.5
     operational_transparency: 23.7
-  previous_composite: 47.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -387,8 +417,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png
 security:
 - kind: authentication

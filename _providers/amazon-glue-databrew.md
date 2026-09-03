@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 44 operations · 28 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Datasets API from Amazon Glue DataBrew — 2 operation(s) for datasets.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Datasets API from Amazon Glue DataBrew — 2 operation(s) for datasets.
   name: Amazon Glue DataBrew Datasets API
   slug: amazon-glue-databrew-datasets-api
-- description: The Jobs API from Amazon Glue DataBrew — 6 operation(s) for jobs.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon Glue DataBrew — 6 operation(s) for jobs.
   name: Amazon Glue DataBrew Jobs API
   slug: amazon-glue-databrew-jobs-api
-- description: The ProfileJobs API from Amazon Glue DataBrew — 2 operation(s) for profilejobs.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The ProfileJobs API from Amazon Glue DataBrew — 2 operation(s) for profilejobs.
   name: Amazon Glue DataBrew ProfileJobs API
   slug: amazon-glue-databrew-profilejobs-api
-- description: The Projects API from Amazon Glue DataBrew — 4 operation(s) for projects.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Projects API from Amazon Glue DataBrew — 4 operation(s) for projects.
   name: Amazon Glue DataBrew Projects API
   slug: amazon-glue-databrew-projects-api
-- description: The RecipeJobs API from Amazon Glue DataBrew — 2 operation(s) for recipejobs.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The RecipeJobs API from Amazon Glue DataBrew — 2 operation(s) for recipejobs.
   name: Amazon Glue DataBrew RecipeJobs API
   slug: amazon-glue-databrew-recipejobs-api
-- description: The Recipes API from Amazon Glue DataBrew — 5 operation(s) for recipes.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Recipes API from Amazon Glue DataBrew — 5 operation(s) for recipes.
   name: Amazon Glue DataBrew Recipes API
   slug: amazon-glue-databrew-recipes-api
-- description: The RecipeVersions#name API from Amazon Glue DataBrew — 1 operation(s) for recipeversions#name.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The RecipeVersions#name API from Amazon Glue DataBrew — 1 operation(s) for recipeversions#name.
   name: Amazon Glue DataBrew RecipeVersions#name API
   slug: amazon-glue-databrew-recipeversions-name-api
-- description: The Rulesets API from Amazon Glue DataBrew — 2 operation(s) for rulesets.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Rulesets API from Amazon Glue DataBrew — 2 operation(s) for rulesets.
   name: Amazon Glue DataBrew Rulesets API
   slug: amazon-glue-databrew-rulesets-api
-- description: The Schedules API from Amazon Glue DataBrew — 2 operation(s) for schedules.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Schedules API from Amazon Glue DataBrew — 2 operation(s) for schedules.
   name: Amazon Glue DataBrew Schedules API
   slug: amazon-glue-databrew-schedules-api
-- description: The Tags API from Amazon Glue DataBrew — 2 operation(s) for tags.
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Glue DataBrew — 2 operation(s) for tags.
   name: Amazon Glue DataBrew Tags API
   slug: amazon-glue-databrew-tags-api
 artifact_total: 736
@@ -2366,7 +2386,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/screenshots/amazon-glue-databrew-2026-06-20T171658.png
 security:

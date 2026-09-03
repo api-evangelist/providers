@@ -33,67 +33,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The Availability API from Despegar — 2 operation(s) for availability.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Availability API from Despegar — 2 operation(s) for availability.
   name: Despegar Availability API
   slug: despegar-availability-api
-- description: The Booking API from Despegar — 1 operation(s) for booking.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Booking API from Despegar — 1 operation(s) for booking.
   name: Despegar Booking API
   slug: despegar-booking-api
-- description: Validation, quotation, and confirmation of cancellations.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: Validation, quotation, and confirmation of cancellations.
   name: Despegar Cancellations API
   slug: despegar-cancellations-api
-- description: Date/itinerary changes and checkout processes.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: Date/itinerary changes and checkout processes.
   name: Despegar Changes API
   slug: despegar-changes-api
-- description: The Commission Update API from Despegar — 1 operation(s) for commission update.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Commission Update API from Despegar — 1 operation(s) for commission update.
   name: Despegar Commission Update API
   slug: despegar-commission-update-api
-- description: The Discovery API from Despegar — 1 operation(s) for discovery.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Discovery API from Despegar — 1 operation(s) for discovery.
   name: Despegar Discovery API
   slug: despegar-discovery-api
-- description: The Flights API from Despegar — 2 operation(s) for flights.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Flights API from Despegar — 2 operation(s) for flights.
   name: Despegar Flights API
   slug: despegar-flights-api
-- description: The Geography API from Despegar — 12 operation(s) for geography.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Geography API from Despegar — 12 operation(s) for geography.
   name: Despegar Geography API
   slug: despegar-geography-api
-- description: The hotel API from Despegar — 1 operation(s) for hotel.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The hotel API from Despegar — 1 operation(s) for hotel.
   name: Despegar hotel API
   slug: despegar-hotel-api
-- description: The Hotel content API from Despegar — 3 operation(s) for hotel content.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Hotel content API from Despegar — 3 operation(s) for hotel content.
   name: Despegar Hotel content API
   slug: despegar-hotel-content-api
-- description: The HotelAvailability API from Despegar — 1 operation(s) for hotelavailability.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The HotelAvailability API from Despegar — 1 operation(s) for hotelavailability.
   name: Despegar HotelAvailability API
   slug: despegar-hotelavailability-api
-- description: The Hotels inventory API from Despegar — 1 operation(s) for hotels inventory.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Hotels inventory API from Despegar — 1 operation(s) for hotels inventory.
   name: Despegar Hotels inventory API
   slug: despegar-hotels-inventory-api
-- description: The Modalities API from Despegar — 1 operation(s) for modalities.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Modalities API from Despegar — 1 operation(s) for modalities.
   name: Despegar Modalities API
   slug: despegar-modalities-api
-- description: The Payments API from Despegar — 1 operation(s) for payments.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Payments API from Despegar — 1 operation(s) for payments.
   name: Despegar Payments API
   slug: despegar-payments-api
-- description: The Pre-booking API from Despegar — 1 operation(s) for pre-booking.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Pre-booking API from Despegar — 1 operation(s) for pre-booking.
   name: Despegar Pre-booking API
   slug: despegar-pre-booking-api
-- description: The Price Jump API from Despegar — 1 operation(s) for price jump.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Price Jump API from Despegar — 1 operation(s) for price jump.
   name: Despegar Price Jump API
   slug: despegar-price-jump-api
-- description: Management of major reschedulings.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: Management of major reschedulings.
   name: Despegar Reschedulings API
   slug: despegar-reschedulings-api
-- description: Reservation query and management.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: Reservation query and management.
   name: Despegar Reservations API
   slug: despegar-reservations-api
-- description: Special requests associated with a reservation.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: Special requests associated with a reservation.
   name: Despegar Special Requests API
   slug: despegar-special-requests-api
-- description: The Suggestions API from Despegar — 16 operation(s) for suggestions.
+- baseURL: https://api.despegar.com/v3
+  baseurl_source: declared
+  description: The Suggestions API from Despegar — 16 operation(s) for suggestions.
   name: Despegar Suggestions API
   slug: despegar-suggestions-api
 artifact_total: 45
@@ -300,7 +340,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/screenshots/despegar-2026-07-25T211758.png
 security:

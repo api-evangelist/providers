@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 52 operations · 36 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Learning Management System API from Cloud Academy — 9 operation(s) for learning management system.
+- baseURL: https://platform.qa.com/restapi
+  baseurl_source: declared
+  description: The Learning Management System API from Cloud Academy — 9 operation(s) for learning management system.
   name: Cloud Academy Learning Management System API
   slug: cloud-academy-learning-management-system-api
-- description: The Organizations API from Cloud Academy — 5 operation(s) for organizations.
+- baseURL: https://platform.qa.com/restapi
+  baseurl_source: declared
+  description: The Organizations API from Cloud Academy — 5 operation(s) for organizations.
   name: Cloud Academy Organizations API
   slug: cloud-academy-organizations-api
-- description: The Reports API from Cloud Academy — 32 operation(s) for reports.
+- baseURL: https://platform.qa.com/restapi
+  baseurl_source: declared
+  description: The Reports API from Cloud Academy — 32 operation(s) for reports.
   name: Cloud Academy Reports API
   slug: cloud-academy-reports-api
 artifact_total: 13
@@ -245,7 +251,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png
 security:

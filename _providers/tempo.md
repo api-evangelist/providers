@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: TraceQL is a query language developed for Grafana Tempo that allows filtering and selecting spans within traces. The TraceQL search API endpoint enables rich span-level filtering using a pipeline synt
   name: Tempo TraceQL API
   slug: tempo-traceql-api
-- description: Health and readiness endpoints
+- baseURL: http://localhost:3200
+  baseurl_source: declared
+  description: Health and readiness endpoints
   name: Tempo Health API
   slug: tempo-health-api
-- description: Generate metrics from trace data
+- baseURL: http://localhost:3200
+  baseurl_source: declared
+  description: Generate metrics from trace data
   name: Tempo Metrics API
   slug: tempo-metrics-api
-- description: Search traces and spans using TraceQL
+- baseURL: http://localhost:3200
+  baseurl_source: declared
+  description: Search traces and spans using TraceQL
   name: Tempo Search API
   slug: tempo-search-api
-- description: Discover tag keys and values in trace data
+- baseURL: http://localhost:3200
+  baseurl_source: declared
+  description: Discover tag keys and values in trace data
   name: Tempo Tags API
   slug: tempo-tags-api
-- description: Retrieve individual traces by trace ID
+- baseURL: http://localhost:3200
+  baseurl_source: declared
+  description: Retrieve individual traces by trace ID
   name: Tempo Traces API
   slug: tempo-traces-api
 artifact_total: 26
@@ -285,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/screenshots/tempo-2026-06-20T195059.png
 security:

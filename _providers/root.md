@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -47,55 +47,89 @@ apis:
 - description: 'The Root Bind API enables distribution partners to embed auto insurance quoting, checkout, and servicing within their own applications. Supports both a hosted experience (Root-managed checkout) and a '
   name: Root Bind API
   slug: root-bind-api
-- description: The Applications API from Root Insurance — 16 operation(s) for applications.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Applications API from Root Insurance — 16 operation(s) for applications.
   name: Root Insurance Applications API
   slug: root-applications-api
-- description: The Calls API from Root Insurance — 4 operation(s) for calls.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Calls API from Root Insurance — 4 operation(s) for calls.
   name: Root Insurance Calls API
   slug: root-calls-api
-- description: The Claims API from Root Insurance — 31 operation(s) for claims.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Claims API from Root Insurance — 31 operation(s) for claims.
   name: Root Insurance Claims API
   slug: root-claims-api
-- description: The Complaints API from Root Insurance — 10 operation(s) for complaints.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Complaints API from Root Insurance — 10 operation(s) for complaints.
   name: Root Insurance Complaints API
   slug: root-complaints-api
-- description: The Data exports API from Root Insurance — 9 operation(s) for data exports.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Data exports API from Root Insurance — 9 operation(s) for data exports.
   name: Root Insurance Data exports API
   slug: root-data-exports-api
-- description: The Data stores API from Root Insurance — 4 operation(s) for data stores.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Data stores API from Root Insurance — 4 operation(s) for data stores.
   name: Root Insurance Data stores API
   slug: root-data-stores-api
-- description: The Embed API from Root Insurance — 2 operation(s) for embed.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Embed API from Root Insurance — 2 operation(s) for embed.
   name: Root Insurance Embed API
   slug: root-embed-api
-- description: The Files API from Root Insurance — 1 operation(s) for files.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Files API from Root Insurance — 1 operation(s) for files.
   name: Root Insurance Files API
   slug: root-files-api
-- description: The Leads API from Root Insurance — 2 operation(s) for leads.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Leads API from Root Insurance — 2 operation(s) for leads.
   name: Root Insurance Leads API
   slug: root-leads-api
-- description: The Notifications API from Root Insurance — 3 operation(s) for notifications.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Notifications API from Root Insurance — 3 operation(s) for notifications.
   name: Root Insurance Notifications API
   slug: root-notifications-api
-- description: The Payment Methods API from Root Insurance — 7 operation(s) for payment methods.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Payment Methods API from Root Insurance — 7 operation(s) for payment methods.
   name: Root Insurance Payment Methods API
   slug: root-payment-methods-api
-- description: The Payments API from Root Insurance — 6 operation(s) for payments.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Payments API from Root Insurance — 6 operation(s) for payments.
   name: Root Insurance Payments API
   slug: root-payments-api
-- description: The Policies API from Root Insurance — 32 operation(s) for policies.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Policies API from Root Insurance — 32 operation(s) for policies.
   name: Root Insurance Policies API
   slug: root-policies-api
-- description: The Policyholders API from Root Insurance — 7 operation(s) for policyholders.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Policyholders API from Root Insurance — 7 operation(s) for policyholders.
   name: Root Insurance Policyholders API
   slug: root-policyholders-api
-- description: The Quotes API from Root Insurance — 1 operation(s) for quotes.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Quotes API from Root Insurance — 1 operation(s) for quotes.
   name: Root Insurance Quotes API
   slug: root-quotes-api
-- description: The Secret keys API from Root Insurance — 2 operation(s) for secret keys.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Secret keys API from Root Insurance — 2 operation(s) for secret keys.
   name: Root Insurance Secret keys API
   slug: root-secret-keys-api
-- description: The Webhooks API from Root Insurance — 9 operation(s) for webhooks.
+- baseURL: https://api.rootplatform.com/
+  baseurl_source: declared
+  description: The Webhooks API from Root Insurance — 9 operation(s) for webhooks.
   name: Root Insurance Webhooks API
   slug: root-webhooks-api
 artifact_total: 329
@@ -1150,7 +1184,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/screenshots/root-2026-06-20T193217.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The API host point.me operates behind its consumer search product and its Gateway embedded platform. https://api.point.me/ returns HTTP 200 text/plain "Flight Search APIs"; every other path probed (/o
@@ -161,7 +175,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +200,9 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/point-me/refs/heads/main/screenshots/point-me-2026-09-02T151619.png
 security:
 - kind: authentication
   name: Point Me Authentication

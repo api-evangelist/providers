@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: The Availability API from Open Connectivity for Tours, Activities, and Attractions — 2 operation(s) for availability.
+- baseURL: https://api.example.com/octo
+  baseurl_source: spec
+  description: The Availability API from Open Connectivity for Tours, Activities, and Attractions — 2 operation(s) for availability.
   name: Open Connectivity for Tours, Activities, and Attractions Availability API
   slug: octo-availability-api
-- description: The Bookings API from Open Connectivity for Tours, Activities, and Attractions — 5 operation(s) for bookings.
+- baseURL: https://api.example.com/octo
+  baseurl_source: spec
+  description: The Bookings API from Open Connectivity for Tours, Activities, and Attractions — 5 operation(s) for bookings.
   name: Open Connectivity for Tours, Activities, and Attractions Bookings API
   slug: octo-bookings-api
-- description: The Products API from Open Connectivity for Tours, Activities, and Attractions — 2 operation(s) for products.
+- baseURL: https://api.example.com/octo
+  baseurl_source: spec
+  description: The Products API from Open Connectivity for Tours, Activities, and Attractions — 2 operation(s) for products.
   name: Open Connectivity for Tours, Activities, and Attractions Products API
   slug: octo-products-api
-- description: The Supplier API from Open Connectivity for Tours, Activities, and Attractions — 1 operation(s) for supplier.
+- baseURL: https://api.example.com/octo
+  baseurl_source: spec
+  description: The Supplier API from Open Connectivity for Tours, Activities, and Attractions — 1 operation(s) for supplier.
   name: Open Connectivity for Tours, Activities, and Attractions Supplier API
   slug: octo-supplier-api
 artifact_total: 15
@@ -162,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octo/refs/heads/main/screenshots/octo-2026-06-20T190610.png
 security:

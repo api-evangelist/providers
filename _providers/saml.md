@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: SAML 2.0 metadata retrieval.
+- baseURL: https://idp.example.com
+  baseurl_source: spec
+  description: SAML 2.0 metadata retrieval.
   name: SAML Metadata API
   slug: saml-metadata-api
-- description: SAML 2.0 Single Logout operations.
+- baseURL: https://idp.example.com
+  baseurl_source: spec
+  description: SAML 2.0 Single Logout operations.
   name: SAML SLO API
   slug: saml-slo-api
-- description: SAML 2.0 Single Sign-On operations.
+- baseURL: https://idp.example.com
+  baseurl_source: spec
+  description: SAML 2.0 Single Sign-On operations.
   name: SAML SSO API
   slug: saml-sso-api
 artifact_total: 20
@@ -226,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/screenshots/saml-2026-06-20T193358.png
 slug: saml

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- description: Operations operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Operations operations
   name: microsoft-azure-cache-for-redis Operations API
   slug: microsoft-azure-cache-for-redis-operations-api
-- description: Redis operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Redis operations
   name: microsoft-azure-cache-for-redis Redis API
   slug: microsoft-azure-cache-for-redis-redis-api
 artifact_total: 13
@@ -122,13 +126,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-cache-for-redis.png
 layout: provider
 modified: '2026-05-19'
-name: microsoft-azure-cache-for-redis
+name: Microsoft Azure Cache For Redis
 nav: Providers
 network: true
-overview: 'microsoft-azure-cache-for-redis publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Redis API.
+overview: 'Microsoft Azure Cache For Redis publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-cache-for-redis Operations API and microsoft-azure-cache-for-redis Redis API.
 
 
-  microsoft-azure-cache-for-redis'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 7 more developer resources.'
+  Microsoft Azure Cache For Redis'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Microsoft Azure Cache For Redis Plans Pricing
   plan_count: 3
@@ -171,10 +175,10 @@ score:
       total: 3
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/screenshots/microsoft-azure-cache-for-redis-2026-06-20T185402.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Manage App Engine applications
+- baseURL: https://appengine.googleapis.com
+  baseurl_source: declared
+  description: Manage App Engine applications
   name: Google Cloud App Engine Applications API
   slug: google-cloud-app-engine-applications-api
-- description: The Apps API from Google Cloud App Engine — 2 operation(s) for apps.
+- baseURL: https://appengine.googleapis.com
+  baseurl_source: declared
+  description: The Apps API from Google Cloud App Engine — 2 operation(s) for apps.
   name: Google Cloud App Engine Apps API
   slug: google-cloud-app-engine-apps-api
-- description: Manage instances running a version
+- baseURL: https://appengine.googleapis.com
+  baseurl_source: declared
+  description: Manage instances running a version
   name: Google Cloud App Engine Instances API
   slug: google-cloud-app-engine-instances-api
-- description: Manage versions of a service
+- baseURL: https://appengine.googleapis.com
+  baseurl_source: declared
+  description: Manage versions of a service
   name: Google Cloud App Engine Versions API
   slug: google-cloud-app-engine-versions-api
 artifact_total: 25
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/screenshots/google-cloud-app-engine-2026-06-20T182039.png
 security:

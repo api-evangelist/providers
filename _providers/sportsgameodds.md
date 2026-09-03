@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: The Account API from SportsGameOdds — 1 operation(s) for account.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Account API from SportsGameOdds — 1 operation(s) for account.
   name: SportsGameOdds Account API
   slug: sportsgameodds-account-api
-- description: The Events API from SportsGameOdds — 2 operation(s) for events.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Events API from SportsGameOdds — 2 operation(s) for events.
   name: SportsGameOdds Events API
   slug: sportsgameodds-events-api
-- description: The Leagues API from SportsGameOdds — 1 operation(s) for leagues.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Leagues API from SportsGameOdds — 1 operation(s) for leagues.
   name: SportsGameOdds Leagues API
   slug: sportsgameodds-leagues-api
-- description: The Markets API from SportsGameOdds — 1 operation(s) for markets.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Markets API from SportsGameOdds — 1 operation(s) for markets.
   name: SportsGameOdds Markets API
   slug: sportsgameodds-markets-api
-- description: The Players API from SportsGameOdds — 2 operation(s) for players.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Players API from SportsGameOdds — 2 operation(s) for players.
   name: SportsGameOdds Players API
   slug: sportsgameodds-players-api
-- description: The Sports API from SportsGameOdds — 1 operation(s) for sports.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Sports API from SportsGameOdds — 1 operation(s) for sports.
   name: SportsGameOdds Sports API
   slug: sportsgameodds-sports-api
-- description: The Stats API from SportsGameOdds — 1 operation(s) for stats.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Stats API from SportsGameOdds — 1 operation(s) for stats.
   name: SportsGameOdds Stats API
   slug: sportsgameodds-stats-api
-- description: The Teams API from SportsGameOdds — 2 operation(s) for teams.
+- baseURL: https://api.sportsgameodds.com/v1
+  baseurl_source: declared
+  description: The Teams API from SportsGameOdds — 2 operation(s) for teams.
   name: SportsGameOdds Teams API
   slug: sportsgameodds-teams-api
 artifact_total: 32
@@ -261,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/screenshots/sportsgameodds-2026-06-20T194349.png
 security:

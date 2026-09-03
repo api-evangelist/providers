@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 28 operations · 6 acting
 api_count: 1
 apis:
-- description: Field Boundary data endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: Field Boundary data endpoints.
   name: The Climate Corporation Boundaries API
   slug: the-climate-corporation-boundaries-api
-- description: General data export endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: General data export endpoints.
   name: The Climate Corporation Exports API
   slug: the-climate-corporation-exports-api
-- description: Farm organization data endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: Farm organization data endpoints.
   name: The Climate Corporation FarmOrganizations API
   slug: the-climate-corporation-farmorganizations-api
-- description: Field data endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: Field data endpoints.
   name: The Climate Corporation Fields API
   slug: the-climate-corporation-fields-api
-- description: General data retrieval endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: General data retrieval endpoints.
   name: The Climate Corporation Layers API
   slug: the-climate-corporation-layers-api
-- description: Operation data endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: Operation data endpoints.
   name: The Climate Corporation Operations API
   slug: the-climate-corporation-operations-api
-- description: Resource Owner data endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: Resource Owner data endpoints.
   name: The Climate Corporation ResourceOwners API
   slug: the-climate-corporation-resourceowners-api
-- description: General data upload endpoints.
+- baseURL: https://platform.climate.com
+  baseurl_source: declared
+  description: General data upload endpoints.
   name: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
 artifact_total: 22
@@ -241,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/screenshots/the-climate-corporation-2026-08-17T082334.png
 security:

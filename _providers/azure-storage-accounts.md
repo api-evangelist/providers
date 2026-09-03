@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 40 operations · 26 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The BlobContainers API from Azure Storage Accounts — 8 operation(s) for blobcontainers.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The BlobContainers API from Azure Storage Accounts — 8 operation(s) for blobcontainers.
   name: Azure Storage Accounts BlobContainers API
   slug: azure-storage-accounts-blobcontainers-api
-- description: The BlobService API from Azure Storage Accounts — 2 operation(s) for blobservice.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The BlobService API from Azure Storage Accounts — 2 operation(s) for blobservice.
   name: Azure Storage Accounts BlobService API
   slug: azure-storage-accounts-blobservice-api
-- description: The LocationUsage API from Azure Storage Accounts — 1 operation(s) for locationusage.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The LocationUsage API from Azure Storage Accounts — 1 operation(s) for locationusage.
   name: Azure Storage Accounts LocationUsage API
   slug: azure-storage-accounts-locationusage-api
-- description: The ManagementPolicies API from Azure Storage Accounts — 1 operation(s) for managementpolicies.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ManagementPolicies API from Azure Storage Accounts — 1 operation(s) for managementpolicies.
   name: Azure Storage Accounts ManagementPolicies API
   slug: azure-storage-accounts-managementpolicies-api
-- description: The Operations API from Azure Storage Accounts — 1 operation(s) for operations.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The Operations API from Azure Storage Accounts — 1 operation(s) for operations.
   name: Azure Storage Accounts Operations API
   slug: azure-storage-accounts-operations-api
-- description: The PrivateEndpointConnections API from Azure Storage Accounts — 1 operation(s) for privateendpointconnections.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The PrivateEndpointConnections API from Azure Storage Accounts — 1 operation(s) for privateendpointconnections.
   name: Azure Storage Accounts PrivateEndpointConnections API
   slug: azure-storage-accounts-privateendpointconnections-api
-- description: The PrivateLinkResources API from Azure Storage Accounts — 1 operation(s) for privatelinkresources.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The PrivateLinkResources API from Azure Storage Accounts — 1 operation(s) for privatelinkresources.
   name: Azure Storage Accounts PrivateLinkResources API
   slug: azure-storage-accounts-privatelinkresources-api
-- description: The Skus API from Azure Storage Accounts — 1 operation(s) for skus.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The Skus API from Azure Storage Accounts — 1 operation(s) for skus.
   name: Azure Storage Accounts Skus API
   slug: azure-storage-accounts-skus-api
-- description: The StorageAccounts API from Azure Storage Accounts — 11 operation(s) for storageaccounts.
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The StorageAccounts API from Azure Storage Accounts — 11 operation(s) for storageaccounts.
   name: Azure Storage Accounts StorageAccounts API
   slug: azure-storage-accounts-storageaccounts-api
 artifact_total: 176
@@ -703,7 +721,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/screenshots/azure-storage-accounts-2026-06-20T172908.png
 security:

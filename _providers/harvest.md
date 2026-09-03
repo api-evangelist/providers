@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -46,37 +46,59 @@ apis:
 - description: REST API for managing clients, projects, tasks, time entries, expenses, invoices, estimates, and users in Harvest. Supports OAuth 2.0 and Personal Access Token authentication, requires a Harvest-Accou
   name: Harvest API v2
   slug: api-v2
-- description: The Clients API from Harvest — 2 operation(s) for clients.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Clients API from Harvest — 2 operation(s) for clients.
   name: Harvest Clients API
   slug: harvest-clients-api
-- description: The Company API from Harvest — 1 operation(s) for company.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Company API from Harvest — 1 operation(s) for company.
   name: Harvest Company API
   slug: harvest-company-api
-- description: The Estimates API from Harvest — 2 operation(s) for estimates.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Estimates API from Harvest — 2 operation(s) for estimates.
   name: Harvest Estimates API
   slug: harvest-estimates-api
-- description: The Expenses API from Harvest — 2 operation(s) for expenses.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Expenses API from Harvest — 2 operation(s) for expenses.
   name: Harvest Expenses API
   slug: harvest-expenses-api
-- description: The Invoices API from Harvest — 2 operation(s) for invoices.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Invoices API from Harvest — 2 operation(s) for invoices.
   name: Harvest Invoices API
   slug: harvest-invoices-api
-- description: The Projects API from Harvest — 2 operation(s) for projects.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Projects API from Harvest — 2 operation(s) for projects.
   name: Harvest Projects API
   slug: harvest-projects-api
-- description: The Reports API from Harvest — 4 operation(s) for reports.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Reports API from Harvest — 4 operation(s) for reports.
   name: Harvest Reports API
   slug: harvest-reports-api
-- description: The Roles API from Harvest — 2 operation(s) for roles.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Roles API from Harvest — 2 operation(s) for roles.
   name: Harvest Roles API
   slug: harvest-roles-api
-- description: The Tasks API from Harvest — 2 operation(s) for tasks.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Tasks API from Harvest — 2 operation(s) for tasks.
   name: Harvest Tasks API
   slug: harvest-tasks-api
-- description: The TimeEntries API from Harvest — 5 operation(s) for timeentries.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The TimeEntries API from Harvest — 5 operation(s) for timeentries.
   name: Harvest TimeEntries API
   slug: harvest-timeentries-api
-- description: The Users API from Harvest — 3 operation(s) for users.
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Users API from Harvest — 3 operation(s) for users.
   name: Harvest Users API
   slug: harvest-users-api
 artifact_total: 30
@@ -221,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/screenshots/harvest-2026-06-20T182526.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -59,76 +59,124 @@ apis:
 - description: Kafka-compatible event streaming and message queuing built into Oracle Database.
   name: Oracle Transactional Event Queues (TxEventQ)
   slug: oracle-transactional-event-queues-txeventq
-- description: Oracle APEX workspace and application management
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Oracle APEX workspace and application management
   name: Oracle Database APEX API
   slug: oracle-database-apex-api
-- description: Manage Oracle Autonomous Database instances
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage Oracle Autonomous Database instances
   name: Oracle Database Autonomous Databases API
   slug: oracle-database-autonomous-databases-api
-- description: Manage database backups
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage database backups
   name: Oracle Database Backups API
   slug: oracle-database-backups-api
-- description: Bulk insert, delete, and update operations
+- baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
+  baseurl_source: spec_template
+  description: Bulk insert, delete, and update operations
   name: Oracle Database Bulk Operations API
   slug: oracle-database-bulk-operations-api
-- description: Collection management operations (create, list, delete)
+- baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
+  baseurl_source: spec_template
+  description: Collection management operations (create, list, delete)
   name: Oracle Database Collections API
   slug: oracle-database-collections-api
-- description: Database tables, views, columns, indexes, and object metadata
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Database tables, views, columns, indexes, and object metadata
   name: Oracle Database Data Dictionary API
   slug: oracle-database-data-dictionary-api
-- description: Manage Data Guard associations for high availability
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage Data Guard associations for high availability
   name: Oracle Database Data Guard API
   slug: oracle-database-data-guard-api
-- description: High-speed data and metadata export/import operations
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: High-speed data and metadata export/import operations
   name: Oracle Database Data Pump API
   slug: oracle-database-data-pump-api
-- description: Manage Oracle Database Home directories
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage Oracle Database Home directories
   name: Oracle Database Database Homes API
   slug: oracle-database-database-homes-api
-- description: Manage databases within DB Systems
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage databases within DB Systems
   name: Oracle Database Databases API
   slug: oracle-database-databases-api
-- description: Manage Oracle Database Cloud Service DB Systems
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage Oracle Database Cloud Service DB Systems
   name: Oracle Database DB Systems API
   slug: oracle-database-db-systems-api
-- description: Document CRUD operations (get, insert, update, delete)
+- baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
+  baseurl_source: spec_template
+  description: Document CRUD operations (get, insert, update, delete)
   name: Oracle Database Documents API
   slug: oracle-database-documents-api
-- description: Core database instance status, version, and configuration services
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Core database instance status, version, and configuration services
   name: Oracle Database General API
   slug: oracle-database-general-api
-- description: Collection index management
+- baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
+  baseurl_source: spec_template
+  description: Collection index management
   name: Oracle Database Indexes API
   slug: oracle-database-indexes-api
-- description: Collection metadata and catalog operations
+- baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
+  baseurl_source: spec_template
+  description: Collection metadata and catalog operations
   name: Oracle Database Metadata API
   slug: oracle-database-metadata-api
-- description: Database session monitoring, locks, alerts, and wait metrics
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Database session monitoring, locks, alerts, and wait metrics
   name: Oracle Database Monitoring API
   slug: oracle-database-monitoring-api
-- description: Open Service Broker API compliant service provisioning
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Open Service Broker API compliant service provisioning
   name: Oracle Database Open Service Broker API
   slug: oracle-database-open-service-broker-api
-- description: PDB snapshot carousel management
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: PDB snapshot carousel management
   name: Oracle Database PDB Snapshots API
   slug: oracle-database-pdb-snapshots-api
-- description: SQL performance analysis, execution plans, and active session history
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: SQL performance analysis, execution plans, and active session history
   name: Oracle Database Performance API
   slug: oracle-database-performance-api
-- description: Manage pluggable databases in multitenant architecture
+- baseURL_template: https://database.{region}.oraclecloud.com/20160918
+  baseurl_source: spec_template
+  description: Manage pluggable databases in multitenant architecture
   name: Oracle Database Pluggable Databases API
   slug: oracle-database-pluggable-databases-api
-- description: Query by Example (QBE) and filter operations
+- baseURL_template: https://{host}:{port}/ords/{schema}/soda/{version}
+  baseurl_source: spec_template
+  description: Query by Example (QBE) and filter operations
   name: Oracle Database Queries API
   slug: oracle-database-queries-api
-- description: Knowledge graph management using W3C RDF, OWL, and SPARQL standards
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Knowledge graph management using W3C RDF, OWL, and SPARQL standards
   name: Oracle Database RDF Graph API
   slug: oracle-database-rdf-graph-api
-- description: Custom REST API module, handler, and OAuth management
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Custom REST API module, handler, and OAuth management
   name: Oracle Database REST Services API
   slug: oracle-database-rest-services-api
-- description: Oracle Scheduler job management
+- baseURL_template: https://{host}:{port}/ords
+  baseurl_source: spec_template
+  description: Oracle Scheduler job management
   name: Oracle Database Scheduler API
   slug: oracle-database-scheduler-api
 artifact_total: 226
@@ -862,7 +910,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -872,7 +920,7 @@ score:
     discoverability: 40.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 50.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -881,7 +929,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:

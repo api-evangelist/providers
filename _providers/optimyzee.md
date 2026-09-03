@@ -33,127 +33,207 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: App/Analyze/GoogleAds/Audit
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Analyze/GoogleAds/Audit
   name: Optimyzee App/Analyze/Google Ads/Audit API
   slug: optimyzee-app-analyze-googleads-audit-api
-- description: App/Analyze/GoogleAds/Health
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Analyze/GoogleAds/Health
   name: Optimyzee App/Analyze/Google Ads/Health API
   slug: optimyzee-app-analyze-googleads-health-api
-- description: App/Analyze/GoogleAds/Optimization
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Analyze/GoogleAds/Optimization
   name: Optimyzee App/Analyze/Google Ads/Optimization API
   slug: optimyzee-app-analyze-googleads-optimization-api
-- description: App/Analyze/GoogleAds/Reporting
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Analyze/GoogleAds/Reporting
   name: Optimyzee App/Analyze/Google Ads/Reporting API
   slug: optimyzee-app-analyze-googleads-reporting-api
-- description: App/Auth/Email
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Auth/Email
   name: Optimyzee App/Auth/Email API
   slug: optimyzee-app-auth-email-api
-- description: App/Auth/Gateway
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Auth/Gateway
   name: Optimyzee App/Auth/Gateway API
   slug: optimyzee-app-auth-gateway-api
-- description: App/Auth/Password
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Auth/Password
   name: Optimyzee App/Auth/Password API
   slug: optimyzee-app-auth-password-api
-- description: App/Auth/Profile
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Auth/Profile
   name: Optimyzee App/Auth/Profile API
   slug: optimyzee-app-auth-profile-api
-- description: App/Auth/Tfa
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Auth/Tfa
   name: Optimyzee App/Auth/Tfa API
   slug: optimyzee-app-auth-tfa-api
-- description: App/Auth/TrustedDevice
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Auth/TrustedDevice
   name: Optimyzee App/Auth/Trusted Device API
   slug: optimyzee-app-auth-trusteddevice-api
-- description: App Automation
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App Automation
   name: Optimyzee App Automation API
   slug: optimyzee-app-automation-api
-- description: App Automations
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App Automations
   name: Optimyzee App Automations API
   slug: optimyzee-app-automations-api
-- description: App/Billing/Subscription
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Billing/Subscription
   name: Optimyzee App/Billing/Subscription API
   slug: optimyzee-app-billing-subscription-api
-- description: App/Campaign/Activity
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Campaign/Activity
   name: Optimyzee App/Campaign/Activity API
   slug: optimyzee-app-campaign-activity-api
-- description: App/Campaign
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Campaign
   name: Optimyzee App/Campaign API
   slug: optimyzee-app-campaign-api
-- description: App/Campaign/GoogleAds
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Campaign/GoogleAds
   name: Optimyzee App/Campaign/Google Ads API
   slug: optimyzee-app-campaign-googleads-api
-- description: App/Create/GoogleAds/KeywordPlanner
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Create/GoogleAds/KeywordPlanner
   name: Optimyzee App/Create/Google Ads/Keyword Planner API
   slug: optimyzee-app-create-googleads-keywordplanner-api
-- description: App/Create/GoogleAds/RsaBuilder
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Create/GoogleAds/RsaBuilder
   name: Optimyzee App/Create/Google Ads/Rsa Builder API
   slug: optimyzee-app-create-googleads-rsabuilder-api
-- description: App/Create/GoogleAds/SearchCreation
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Create/GoogleAds/SearchCreation
   name: Optimyzee App/Create/Google Ads/Search Creation API
   slug: optimyzee-app-create-googleads-searchcreation-api
-- description: App/Create/GoogleAds/SearchCreationAi
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Create/GoogleAds/SearchCreationAi
   name: Optimyzee App/Create/Google Ads/Search Creation AI API
   slug: optimyzee-app-create-googleads-searchcreationai-api
-- description: App/Create/GoogleAds/SitelinkBuilder
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Create/GoogleAds/SitelinkBuilder
   name: Optimyzee App/Create/Google Ads/Sitelink Builder API
   slug: optimyzee-app-create-googleads-sitelinkbuilder-api
-- description: App/FreeLimit
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/FreeLimit
   name: Optimyzee App/Free Limit API
   slug: optimyzee-app-freelimit-api
-- description: App/Linking/GoogleAds
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Linking/GoogleAds
   name: Optimyzee App/Linking/Google Ads API
   slug: optimyzee-app-linking-googleads-api
-- description: App/Linking/Meta
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Linking/Meta
   name: Optimyzee App/Linking/Meta API
   slug: optimyzee-app-linking-meta-api
-- description: App/Lookup/GoogleAds/Campaign
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Lookup/GoogleAds/Campaign
   name: Optimyzee App/Lookup/Google Ads/Campaign API
   slug: optimyzee-app-lookup-googleads-campaign-api
-- description: App/Lookup/GoogleAds/GeoTargetConstant
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Lookup/GoogleAds/GeoTargetConstant
   name: Optimyzee App/Lookup/Google Ads/Geo Target Constant API
   slug: optimyzee-app-lookup-googleads-geotargetconstant-api
-- description: App/Lookup/GoogleAds/LanguageConstant
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Lookup/GoogleAds/LanguageConstant
   name: Optimyzee App/Lookup/Google Ads/Language Constant API
   slug: optimyzee-app-lookup-googleads-languageconstant-api
-- description: App/Lookup/GoogleAds/MerchantCenter
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Lookup/GoogleAds/MerchantCenter
   name: Optimyzee App/Lookup/Google Ads/Merchant Center API
   slug: optimyzee-app-lookup-googleads-merchantcenter-api
-- description: App Recommendation
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App Recommendation
   name: Optimyzee App Recommendation API
   slug: optimyzee-app-recommendation-api
-- description: App Signal
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App Signal
   name: Optimyzee App Signal API
   slug: optimyzee-app-signal-api
-- description: App/Support
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App/Support
   name: Optimyzee App/Support API
   slug: optimyzee-app-support-api
-- description: App Yelp
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: App Yelp
   name: Optimyzee App Yelp API
   slug: optimyzee-app-yelp-api
-- description: Operations/Admin
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Admin
   name: Optimyzee Operations/Admin API
   slug: optimyzee-operations-admin-api
-- description: Operations/Auth/Gateway
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Auth/Gateway
   name: Optimyzee Operations/Auth/Gateway API
   slug: optimyzee-operations-auth-gateway-api
-- description: Operations/Auth/Profile
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Auth/Profile
   name: Optimyzee Operations/Auth/Profile API
   slug: optimyzee-operations-auth-profile-api
-- description: Operations/Billing/Subscription
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Billing/Subscription
   name: Optimyzee Operations/Billing/Subscription API
   slug: optimyzee-operations-billing-subscription-api
-- description: Operations/Campaign
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Campaign
   name: Optimyzee Operations/Campaign API
   slug: optimyzee-operations-campaign-api
-- description: Operations/Campaign/Log
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Campaign/Log
   name: Optimyzee Operations/Campaign/Log API
   slug: optimyzee-operations-campaign-log-api
-- description: Operations/Campaign/Task
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/Campaign/Task
   name: Optimyzee Operations/Campaign/Task API
   slug: optimyzee-operations-campaign-task-api
-- description: Operations/User
+- baseURL: https://api.optimyzee.com
+  baseurl_source: declared
+  description: Operations/User
   name: Optimyzee Operations/User API
   slug: optimyzee-operations-user-api
 artifact_total: 45
@@ -301,7 +381,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimyzee/refs/heads/main/screenshots/optimyzee-2026-08-07T190810.png
 security:

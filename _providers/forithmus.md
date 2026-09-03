@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 213 operations · 129 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The 2fa API from Forithmus — 5 operation(s) for 2fa.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The 2fa API from Forithmus — 5 operation(s) for 2fa.
   name: Forithmus 2fa API
   slug: forithmus-2fa-api
-- description: The admin API from Forithmus — 15 operation(s) for admin.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The admin API from Forithmus — 15 operation(s) for admin.
   name: Forithmus admin API
   slug: forithmus-admin-api
-- description: The auth API from Forithmus — 13 operation(s) for auth.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The auth API from Forithmus — 13 operation(s) for auth.
   name: Forithmus auth API
   slug: forithmus-auth-api
-- description: The challenges API from Forithmus — 7 operation(s) for challenges.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The challenges API from Forithmus — 7 operation(s) for challenges.
   name: Forithmus challenges API
   slug: forithmus-challenges-api
-- description: The collections API from Forithmus — 15 operation(s) for collections.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The collections API from Forithmus — 15 operation(s) for collections.
   name: Forithmus collections API
   slug: forithmus-collections-api
-- description: The credits API from Forithmus — 16 operation(s) for credits.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The credits API from Forithmus — 16 operation(s) for credits.
   name: Forithmus credits API
   slug: forithmus-credits-api
-- description: The data-upload API from Forithmus — 8 operation(s) for data-upload.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The data-upload API from Forithmus — 8 operation(s) for data-upload.
   name: Forithmus data-upload API
   slug: forithmus-data-upload-api
-- description: The forum API from Forithmus — 7 operation(s) for forum.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The forum API from Forithmus — 7 operation(s) for forum.
   name: Forithmus forum API
   slug: forithmus-forum-api
-- description: The groups API from Forithmus — 10 operation(s) for groups.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The groups API from Forithmus — 10 operation(s) for groups.
   name: Forithmus groups API
   slug: forithmus-groups-api
-- description: The Health API from Forithmus — 2 operation(s) for health.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The Health API from Forithmus — 2 operation(s) for health.
   name: Forithmus Health API
   slug: forithmus-health-api
-- description: The images API from Forithmus — 1 operation(s) for images.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The images API from Forithmus — 1 operation(s) for images.
   name: Forithmus images API
   slug: forithmus-images-api
-- description: The leaderboard API from Forithmus — 2 operation(s) for leaderboard.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The leaderboard API from Forithmus — 2 operation(s) for leaderboard.
   name: Forithmus leaderboard API
   slug: forithmus-leaderboard-api
-- description: The members API from Forithmus — 7 operation(s) for members.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The members API from Forithmus — 7 operation(s) for members.
   name: Forithmus members API
   slug: forithmus-members-api
-- description: The messages API from Forithmus — 5 operation(s) for messages.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The messages API from Forithmus — 5 operation(s) for messages.
   name: Forithmus messages API
   slug: forithmus-messages-api
-- description: The notifications API from Forithmus — 3 operation(s) for notifications.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The notifications API from Forithmus — 3 operation(s) for notifications.
   name: Forithmus notifications API
   slug: forithmus-notifications-api
-- description: The pages API from Forithmus — 3 operation(s) for pages.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The pages API from Forithmus — 3 operation(s) for pages.
   name: Forithmus pages API
   slug: forithmus-pages-api
-- description: The payments API from Forithmus — 6 operation(s) for payments.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The payments API from Forithmus — 6 operation(s) for payments.
   name: Forithmus payments API
   slug: forithmus-payments-api
-- description: The phases API from Forithmus — 6 operation(s) for phases.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The phases API from Forithmus — 6 operation(s) for phases.
   name: Forithmus phases API
   slug: forithmus-phases-api
-- description: The resources API from Forithmus — 5 operation(s) for resources.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The resources API from Forithmus — 5 operation(s) for resources.
   name: Forithmus resources API
   slug: forithmus-resources-api
-- description: The roles API from Forithmus — 6 operation(s) for roles.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The roles API from Forithmus — 6 operation(s) for roles.
   name: Forithmus roles API
   slug: forithmus-roles-api
-- description: The search API from Forithmus — 1 operation(s) for search.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The search API from Forithmus — 1 operation(s) for search.
   name: Forithmus search API
   slug: forithmus-search-api
-- description: The submissions API from Forithmus — 18 operation(s) for submissions.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The submissions API from Forithmus — 18 operation(s) for submissions.
   name: Forithmus submissions API
   slug: forithmus-submissions-api
-- description: The timeline API from Forithmus — 2 operation(s) for timeline.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The timeline API from Forithmus — 2 operation(s) for timeline.
   name: Forithmus timeline API
   slug: forithmus-timeline-api
-- description: The uploads API from Forithmus — 1 operation(s) for uploads.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The uploads API from Forithmus — 1 operation(s) for uploads.
   name: Forithmus uploads API
   slug: forithmus-uploads-api
-- description: The users API from Forithmus — 8 operation(s) for users.
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The users API from Forithmus — 8 operation(s) for users.
   name: Forithmus users API
   slug: forithmus-users-api
 artifact_total: 55
@@ -340,7 +390,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forithmus/refs/heads/main/screenshots/forithmus-2026-07-25T214941.png
 security:

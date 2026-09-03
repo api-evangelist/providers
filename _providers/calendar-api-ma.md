@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,16 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: National Open business days
+- baseURL: https://calendar-api.ma
+  baseurl_source: declared
+  description: National Open business days
   name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Business Days API
   slug: calendar-api-ma-business-days-api
-- description: National holidays of any year and Religious holidays of past years
+- baseURL: https://calendar-api.ma
+  baseurl_source: declared
+  description: National holidays of any year and Religious holidays of past years
   name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Holidays API
   slug: calendar-api-ma-holidays-api
-- description: Misc endpoints
+- baseURL: https://calendar-api.ma
+  baseurl_source: declared
+  description: Misc endpoints
   name: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Misc API
   slug: calendar-api-ma-misc-api
 artifact_total: 7
@@ -171,7 +190,7 @@ score:
   band: developing
   composite: 48.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -202,8 +221,9 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/screenshots/calendar-api-ma-2026-09-02T145004.png
 security:
 - kind: authentication
   name: Calendar Api Ma Authentication

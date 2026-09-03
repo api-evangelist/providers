@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Managed, production-scale hosting of Superlinked-powered apps, available in early access via a sales-led demo. Runs the same schema-generated REST surface as the self-hosted Superlinked Server without
   name: Superlinked Cloud
   slug: superlinked-cloud
-- description: Endpoints to trigger and monitor configured batch data loaders.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: Endpoints to trigger and monitor configured batch data loaders.
   name: Superlinked Data Loader API
   slug: superlinked-data-loader-api
-- description: Schema-generated endpoints that accept records and write embeddings to the connected vector database.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: Schema-generated endpoints that accept records and write embeddings to the connected vector database.
   name: Superlinked Ingestion API
   slug: superlinked-ingestion-api
-- description: Schema-generated endpoints that run registered queries against the connected vector database.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: Schema-generated endpoints that run registered queries against the connected vector database.
   name: Superlinked Query API
   slug: superlinked-query-api
 artifact_total: 17
@@ -149,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/screenshots/superlinked-2026-06-20T194718.png
 security:

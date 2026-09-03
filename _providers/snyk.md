@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 9
@@ -51,151 +51,247 @@ apis:
 - description: The original Snyk REST API. Still in use for project import, monitor, test, and certain reporting endpoints not yet ported to the dated REST API. Subject to end-of-life migration; new integrations sho
   name: Snyk V1 API (Legacy)
   slug: v1
-- description: The user-facing half of Snyk's RFC 6749 OAuth2 flow for Snyk Apps. Served from the Snyk app subdomain rather than the API subdomain, it initiates the authorization-code grant and redirects back to the
+- baseURL: https://app.snyk.io
+  baseurl_source: declared
+  description: The user-facing half of Snyk's RFC 6749 OAuth2 flow for Snyk Apps. Served from the Snyk app subdomain rather than the API subdomain, it initiates the authorization-code grant and redirects back to the
   name: Snyk OAuth2 API - Authorize
   slug: oauth2-authorize
-- description: The token half of Snyk's OAuth2 API - exchange an authorization code for an access token, refresh an expiring token, and revoke a token. Supports authorization_code, refresh_token and client_credentia
+- baseURL: https://api.snyk.io/oauth2
+  baseurl_source: declared
+  description: The token half of Snyk's OAuth2 API - exchange an authorization code for an access token, refresh an expiring token, and revoke a token. Supports authorization_code, refresh_token and client_credentia
   name: Snyk OAuth2 API - Token
   slug: oauth2-token
 - description: 'Snyk''s first-party Model Context Protocol server, shipped inside the Snyk CLI and run locally over stdio (`npx -y snyk@latest mcp -t stdio`). Twelve security tools - code, dependency, container, IaC, '
   name: Snyk MCP Server (Snyk Studio)
   slug: mcp
-- description: The AccessRequests API from Snyk — 1 operation(s) for accessrequests.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The AccessRequests API from Snyk — 1 operation(s) for accessrequests.
   name: Snyk AccessRequests API
   slug: snyk-accessrequests-api
-- description: The AiBom API from Snyk — 4 operation(s) for aibom.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The AiBom API from Snyk — 4 operation(s) for aibom.
   name: Snyk AiBom API
   slug: snyk-aibom-api
-- description: The Apps API from Snyk — 20 operation(s) for apps.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Apps API from Snyk — 20 operation(s) for apps.
   name: Snyk Apps API
   slug: snyk-apps-api
-- description: The Asset API from Snyk — 6 operation(s) for asset.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Asset API from Snyk — 6 operation(s) for asset.
   name: Snyk Asset API
   slug: snyk-asset-api
-- description: The Audit Logs API from Snyk — 2 operation(s) for audit logs.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Audit Logs API from Snyk — 2 operation(s) for audit logs.
   name: Snyk Audit Logs API
   slug: snyk-audit-logs-api
-- description: The BrokerConnections API from Snyk — 7 operation(s) for brokerconnections.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The BrokerConnections API from Snyk — 7 operation(s) for brokerconnections.
   name: Snyk BrokerConnections API
   slug: snyk-brokerconnections-api
-- description: The BrokerContexts API from Snyk — 5 operation(s) for brokercontexts.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The BrokerContexts API from Snyk — 5 operation(s) for brokercontexts.
   name: Snyk BrokerContexts API
   slug: snyk-brokercontexts-api
-- description: The BrokerDeployments API from Snyk — 3 operation(s) for brokerdeployments.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The BrokerDeployments API from Snyk — 3 operation(s) for brokerdeployments.
   name: Snyk BrokerDeployments API
   slug: snyk-brokerdeployments-api
-- description: The Catalog Resource API from Snyk — 1 operation(s) for catalog resource.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Catalog Resource API from Snyk — 1 operation(s) for catalog resource.
   name: Snyk Catalog Resource API
   slug: snyk-catalog-resource-api
-- description: The Cloud API from Snyk — 6 operation(s) for cloud.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Cloud API from Snyk — 6 operation(s) for cloud.
   name: Snyk Cloud API
   slug: snyk-cloud-api
-- description: The Collection API from Snyk — 3 operation(s) for collection.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Collection API from Snyk — 3 operation(s) for collection.
   name: Snyk Collection API
   slug: snyk-collection-api
-- description: The ContainerImage API from Snyk — 3 operation(s) for containerimage.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The ContainerImage API from Snyk — 3 operation(s) for containerimage.
   name: Snyk ContainerImage API
   slug: snyk-containerimage-api
-- description: The ContainerRegistryImportPolicy API from Snyk — 3 operation(s) for containerregistryimportpolicy.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The ContainerRegistryImportPolicy API from Snyk — 3 operation(s) for containerregistryimportpolicy.
   name: Snyk ContainerRegistryImportPolicy API
   slug: snyk-containerregistryimportpolicy-api
-- description: The Custom Base Images API from Snyk — 2 operation(s) for custom base images.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Custom Base Images API from Snyk — 2 operation(s) for custom base images.
   name: Snyk Custom Base Images API
   slug: snyk-custom-base-images-api
-- description: The DeploymentCredentials API from Snyk — 2 operation(s) for deploymentcredentials.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The DeploymentCredentials API from Snyk — 2 operation(s) for deploymentcredentials.
   name: Snyk DeploymentCredentials API
   slug: snyk-deploymentcredentials-api
-- description: The Export API from Snyk — 6 operation(s) for export.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Export API from Snyk — 6 operation(s) for export.
   name: Snyk Export API
   slug: snyk-export-api
-- description: The Findings API from Snyk — 1 operation(s) for findings.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Findings API from Snyk — 1 operation(s) for findings.
   name: Snyk Findings API
   slug: snyk-findings-api
-- description: The Group API from Snyk — 1 operation(s) for group.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Group API from Snyk — 1 operation(s) for group.
   name: Snyk Group API
   slug: snyk-group-api
-- description: The Groups API from Snyk — 7 operation(s) for groups.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Groups API from Snyk — 7 operation(s) for groups.
   name: Snyk Groups API
   slug: snyk-groups-api
-- description: The IacSettings API from Snyk — 2 operation(s) for iacsettings.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The IacSettings API from Snyk — 2 operation(s) for iacsettings.
   name: Snyk IacSettings API
   slug: snyk-iacsettings-api
-- description: The Integrations API from Snyk — 3 operation(s) for integrations.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Integrations API from Snyk — 3 operation(s) for integrations.
   name: Snyk Integrations API
   slug: snyk-integrations-api
-- description: The Inventory Assets API from Snyk — 30 operation(s) for inventory assets.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Inventory Assets API from Snyk — 30 operation(s) for inventory assets.
   name: Snyk Inventory Assets API
   slug: snyk-inventory-assets-api
-- description: The Invites API from Snyk — 2 operation(s) for invites.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Invites API from Snyk — 2 operation(s) for invites.
   name: Snyk Invites API
   slug: snyk-invites-api
-- description: The Issues API from Snyk — 6 operation(s) for issues.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Issues API from Snyk — 6 operation(s) for issues.
   name: Snyk Issues API
   slug: snyk-issues-api
-- description: The LanguagesSettings API from Snyk — 2 operation(s) for languagessettings.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The LanguagesSettings API from Snyk — 2 operation(s) for languagessettings.
   name: Snyk LanguagesSettings API
   slug: snyk-languagessettings-api
-- description: The Learn assignment API from Snyk — 2 operation(s) for learn assignment.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Learn assignment API from Snyk — 2 operation(s) for learn assignment.
   name: Snyk Learn assignment API
   slug: snyk-learn-assignment-api
-- description: The Learn progress API from Snyk — 2 operation(s) for learn progress.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Learn progress API from Snyk — 2 operation(s) for learn progress.
   name: Snyk Learn progress API
   slug: snyk-learn-progress-api
-- description: The OpenAPI specification for this service.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The OpenAPI specification for this service.
   name: Snyk OpenAPI API
   slug: snyk-openapi-api
-- description: The OpenSourceSettings API from Snyk — 4 operation(s) for opensourcesettings.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The OpenSourceSettings API from Snyk — 4 operation(s) for opensourcesettings.
   name: Snyk OpenSourceSettings API
   slug: snyk-opensourcesettings-api
-- description: The Orgs API from Snyk — 5 operation(s) for orgs.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Orgs API from Snyk — 5 operation(s) for orgs.
   name: Snyk Orgs API
   slug: snyk-orgs-api
-- description: The Package API from Snyk — 1 operation(s) for package.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Package API from Snyk — 1 operation(s) for package.
   name: Snyk Package API
   slug: snyk-package-api
-- description: The Package Version API from Snyk — 1 operation(s) for package version.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Package Version API from Snyk — 1 operation(s) for package version.
   name: Snyk Package Version API
   slug: snyk-package-version-api
-- description: The PersonalAccessToken API from Snyk — 2 operation(s) for personalaccesstoken.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The PersonalAccessToken API from Snyk — 2 operation(s) for personalaccesstoken.
   name: Snyk PersonalAccessToken API
   slug: snyk-personalaccesstoken-api
-- description: The Policies API from Snyk — 5 operation(s) for policies.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Policies API from Snyk — 5 operation(s) for policies.
   name: Snyk Policies API
   slug: snyk-policies-api
-- description: The Projects API from Snyk — 2 operation(s) for projects.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Projects API from Snyk — 2 operation(s) for projects.
   name: Snyk Projects API
   slug: snyk-projects-api
-- description: The Pull Request Templates API from Snyk — 1 operation(s) for pull request templates.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Pull Request Templates API from Snyk — 1 operation(s) for pull request templates.
   name: Snyk Pull Request Templates API
   slug: snyk-pull-request-templates-api
-- description: The SastSettings API from Snyk — 1 operation(s) for sastsettings.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The SastSettings API from Snyk — 1 operation(s) for sastsettings.
   name: Snyk SastSettings API
   slug: snyk-sastsettings-api
-- description: The SBOM API from Snyk — 4 operation(s) for sbom.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The SBOM API from Snyk — 4 operation(s) for sbom.
   name: Snyk SBOM API
   slug: snyk-sbom-api
-- description: The ServiceAccounts API from Snyk — 6 operation(s) for serviceaccounts.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The ServiceAccounts API from Snyk — 6 operation(s) for serviceaccounts.
   name: Snyk ServiceAccounts API
   slug: snyk-serviceaccounts-api
-- description: The Slack API from Snyk — 2 operation(s) for slack.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Slack API from Snyk — 2 operation(s) for slack.
   name: Snyk Slack API
   slug: snyk-slack-api
-- description: The SlackSettings API from Snyk — 3 operation(s) for slacksettings.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The SlackSettings API from Snyk — 3 operation(s) for slacksettings.
   name: Snyk SlackSettings API
   slug: snyk-slacksettings-api
-- description: The Targets API from Snyk — 2 operation(s) for targets.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Targets API from Snyk — 2 operation(s) for targets.
   name: Snyk Targets API
   slug: snyk-targets-api
-- description: The TenantRole API from Snyk — 2 operation(s) for tenantrole.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The TenantRole API from Snyk — 2 operation(s) for tenantrole.
   name: Snyk TenantRole API
   slug: snyk-tenantrole-api
-- description: The Tenants API from Snyk — 4 operation(s) for tenants.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Tenants API from Snyk — 4 operation(s) for tenants.
   name: Snyk Tenants API
   slug: snyk-tenants-api
-- description: The Tests API from Snyk — 3 operation(s) for tests.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Tests API from Snyk — 3 operation(s) for tests.
   name: Snyk Tests API
   slug: snyk-tests-api
-- description: The Users API from Snyk — 3 operation(s) for users.
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Users API from Snyk — 3 operation(s) for users.
   name: Snyk Users API
   slug: snyk-users-api
 artifact_total: 110
@@ -574,7 +670,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.0
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -584,7 +680,7 @@ score:
     discoverability: 61.1
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 63.8
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -596,8 +692,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png
 security:
 - kind: authentication

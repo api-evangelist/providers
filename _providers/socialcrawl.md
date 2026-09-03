@@ -23,181 +23,297 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Ai-search endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Ai-search endpoints
   name: SocialCrawl AI Search API
   slug: socialcrawl-ai-search-api
-- description: Amazon endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Amazon endpoints
   name: SocialCrawl Amazon API
   slug: socialcrawl-amazon-api
-- description: App_store endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: App_store endpoints
   name: SocialCrawl App Store API
   slug: socialcrawl-app-store-api
-- description: Apple_music endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Apple_music endpoints
   name: SocialCrawl Apple Music API
   slug: socialcrawl-apple-music-api
-- description: Bluesky endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Bluesky endpoints
   name: SocialCrawl Bluesky API
   slug: socialcrawl-bluesky-api
-- description: Cohorts - tenant-private panels of public social identities with asynchronous keyword queries
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Cohorts - tenant-private panels of public social identities with asynchronous keyword queries
   name: SocialCrawl Cohorts API
   slug: socialcrawl-cohorts-api
-- description: Content_analysis endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Content_analysis endpoints
   name: SocialCrawl Content Analysis API
   slug: socialcrawl-content-analysis-api
-- description: Ebay endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Ebay endpoints
   name: SocialCrawl Ebay API
   slug: socialcrawl-ebay-api
-- description: Facebook-ads endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Facebook-ads endpoints
   name: SocialCrawl Facebook Ads API
   slug: socialcrawl-facebook-ads-api
-- description: Facebook endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Facebook endpoints
   name: SocialCrawl Facebook API
   slug: socialcrawl-facebook-api
-- description: Geo endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Geo endpoints
   name: SocialCrawl Geo API
   slug: socialcrawl-geo-api
-- description: Github endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Github endpoints
   name: SocialCrawl Github API
   slug: socialcrawl-github-api
-- description: Google-ads endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google-ads endpoints
   name: SocialCrawl Google Ads API
   slug: socialcrawl-google-ads-api
-- description: Google endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google endpoints
   name: SocialCrawl Google API
   slug: socialcrawl-google-api
-- description: Google_finance endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google_finance endpoints
   name: SocialCrawl Google Finance API
   slug: socialcrawl-google-finance-api
-- description: Google_news endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google_news endpoints
   name: SocialCrawl Google News API
   slug: socialcrawl-google-news-api
-- description: Google_play endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google_play endpoints
   name: SocialCrawl Google Play API
   slug: socialcrawl-google-play-api
-- description: Google_shopping endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google_shopping endpoints
   name: SocialCrawl Google Shopping API
   slug: socialcrawl-google-shopping-api
-- description: Google_trends endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Google_trends endpoints
   name: SocialCrawl Google Trends API
   slug: socialcrawl-google-trends-api
-- description: Hackernews endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Hackernews endpoints
   name: SocialCrawl Hackernews API
   slug: socialcrawl-hackernews-api
-- description: Home_depot endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Home_depot endpoints
   name: SocialCrawl Home Depot API
   slug: socialcrawl-home-depot-api
-- description: Instagram endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Instagram endpoints
   name: SocialCrawl Instagram API
   slug: socialcrawl-instagram-api
-- description: Kick endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Kick endpoints
   name: SocialCrawl Kick API
   slug: socialcrawl-kick-api
-- description: Komi endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Komi endpoints
   name: SocialCrawl Komi API
   slug: socialcrawl-komi-api
-- description: Kwai endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Kwai endpoints
   name: SocialCrawl Kwai API
   slug: socialcrawl-kwai-api
-- description: Linkbio endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Linkbio endpoints
   name: SocialCrawl Linkbio API
   slug: socialcrawl-linkbio-api
-- description: Linkedin-ads endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Linkedin-ads endpoints
   name: SocialCrawl Linkedin Ads API
   slug: socialcrawl-linkedin-ads-api
-- description: Linkedin endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Linkedin endpoints
   name: SocialCrawl Linkedin API
   slug: socialcrawl-linkedin-api
-- description: Linkme endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Linkme endpoints
   name: SocialCrawl Linkme API
   slug: socialcrawl-linkme-api
-- description: Linktree endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Linktree endpoints
   name: SocialCrawl Linktree API
   slug: socialcrawl-linktree-api
-- description: Account metadata - balance, usage, no credit deduction
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Account metadata - balance, usage, no credit deduction
   name: SocialCrawl Meta API
   slug: socialcrawl-meta-api
-- description: Naver endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Naver endpoints
   name: SocialCrawl Naver API
   slug: socialcrawl-naver-api
-- description: Perplexity endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Perplexity endpoints
   name: SocialCrawl Perplexity API
   slug: socialcrawl-perplexity-api
-- description: Pillar endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Pillar endpoints
   name: SocialCrawl Pillar API
   slug: socialcrawl-pillar-api
-- description: Pinterest endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Pinterest endpoints
   name: SocialCrawl Pinterest API
   slug: socialcrawl-pinterest-api
-- description: Polymarket endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Polymarket endpoints
   name: SocialCrawl Polymarket API
   slug: socialcrawl-polymarket-api
-- description: Prism endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Prism endpoints
   name: SocialCrawl Prism API
   slug: socialcrawl-prism-api
-- description: Reddit endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Reddit endpoints
   name: SocialCrawl Reddit API
   slug: socialcrawl-reddit-api
-- description: Rumble endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Rumble endpoints
   name: SocialCrawl Rumble API
   slug: socialcrawl-rumble-api
-- description: Search endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Search endpoints
   name: SocialCrawl Search API
   slug: socialcrawl-search-api
-- description: Snapchat endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Snapchat endpoints
   name: SocialCrawl Snapchat API
   slug: socialcrawl-snapchat-api
-- description: Spotify endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Spotify endpoints
   name: SocialCrawl Spotify API
   slug: socialcrawl-spotify-api
-- description: Target endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Target endpoints
   name: SocialCrawl Target API
   slug: socialcrawl-target-api
-- description: Tavily endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Tavily endpoints
   name: SocialCrawl Tavily API
   slug: socialcrawl-tavily-api
-- description: Threads endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Threads endpoints
   name: SocialCrawl Threads API
   slug: socialcrawl-threads-api
-- description: Tiktok-ads endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Tiktok-ads endpoints
   name: SocialCrawl Tiktok Ads API
   slug: socialcrawl-tiktok-ads-api
-- description: Tiktok endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Tiktok endpoints
   name: SocialCrawl Tiktok API
   slug: socialcrawl-tiktok-api
-- description: Tiktokshop endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Tiktokshop endpoints
   name: SocialCrawl Tiktokshop API
   slug: socialcrawl-tiktokshop-api
-- description: Tripadvisor endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Tripadvisor endpoints
   name: SocialCrawl Tripadvisor API
   slug: socialcrawl-tripadvisor-api
-- description: Trustpilot endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Trustpilot endpoints
   name: SocialCrawl Trustpilot API
   slug: socialcrawl-trustpilot-api
-- description: Truthsocial endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Truthsocial endpoints
   name: SocialCrawl Truthsocial API
   slug: socialcrawl-truthsocial-api
-- description: Twitch endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Twitch endpoints
   name: SocialCrawl Twitch API
   slug: socialcrawl-twitch-api
-- description: Twitter endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Twitter endpoints
   name: SocialCrawl Twitter API
   slug: socialcrawl-twitter-api
-- description: Utility endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Utility endpoints
   name: SocialCrawl Utility API
   slug: socialcrawl-utility-api
-- description: Walmart endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Walmart endpoints
   name: SocialCrawl Walmart API
   slug: socialcrawl-walmart-api
-- description: Wayfair endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Wayfair endpoints
   name: SocialCrawl Wayfair API
   slug: socialcrawl-wayfair-api
-- description: Web endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Web endpoints
   name: SocialCrawl Web API
   slug: socialcrawl-web-api
-- description: Youtube endpoints
+- baseURL: https://www.socialcrawl.dev/v1
+  baseurl_source: declared
+  description: Youtube endpoints
   name: SocialCrawl Youtube API
   slug: socialcrawl-youtube-api
 artifact_total: 58
@@ -272,23 +388,23 @@ overview: 'SocialCrawl publishes 58 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 17
 score:
   band: thin
-  composite: 37.9
+  composite: 38.1
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 98.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 57.1
+    contract_quality: 57.9
     developer_ergonomics: 57.1
     discoverability: 38.9
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.1
+  previous_composite: 37.9
   provenance:
     contracts:
       callable: 100.0
@@ -296,8 +412,9 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/socialcrawl/refs/heads/main/screenshots/socialcrawl-2026-09-02T160037.png
 slug: socialcrawl
 tags:
 - social media scraping

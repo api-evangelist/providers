@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -53,121 +53,199 @@ apis:
 - description: Technical API describing the Open Banking Directory, including participant registration, Software Statement management, and service discovery for TPPs and ASPSPs operating within the UK Open Banking e
   name: UK Open Banking Directory API
   slug: uk-open-banking-directory-api
-- description: The Account Access Consents API from UK Open Banking — 2 operation(s) for account access consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Account Access Consents API from UK Open Banking — 2 operation(s) for account access consents.
   name: UK Open Banking Account Access Consents API
   slug: open-banking-uk-account-access-consents-api
-- description: The Accounts API from UK Open Banking — 2 operation(s) for accounts.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Accounts API from UK Open Banking — 2 operation(s) for accounts.
   name: UK Open Banking Accounts API
   slug: open-banking-uk-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: UK Open Banking ATM API
   slug: open-banking-uk-atm-api
-- description: The Balances API from UK Open Banking — 2 operation(s) for balances.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Balances API from UK Open Banking — 2 operation(s) for balances.
   name: UK Open Banking Balances API
   slug: open-banking-uk-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: UK Open Banking BCA API
   slug: open-banking-uk-bca-api
-- description: The Beneficiaries API from UK Open Banking — 2 operation(s) for beneficiaries.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Beneficiaries API from UK Open Banking — 2 operation(s) for beneficiaries.
   name: UK Open Banking Beneficiaries API
   slug: open-banking-uk-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: UK Open Banking Branch API
   slug: open-banking-uk-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: UK Open Banking CCC API
   slug: open-banking-uk-ccc-api
-- description: The Direct Debits API from UK Open Banking — 2 operation(s) for direct debits.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Direct Debits API from UK Open Banking — 2 operation(s) for direct debits.
   name: UK Open Banking Direct Debits API
   slug: open-banking-uk-direct-debits-api
-- description: The Domestic Payment Consents API from UK Open Banking — 3 operation(s) for domestic payment consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from UK Open Banking — 3 operation(s) for domestic payment consents.
   name: UK Open Banking Domestic Payment Consents API
   slug: open-banking-uk-domestic-payment-consents-api
-- description: The Domestic Payments API from UK Open Banking — 3 operation(s) for domestic payments.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic Payments API from UK Open Banking — 3 operation(s) for domestic payments.
   name: UK Open Banking Domestic Payments API
   slug: open-banking-uk-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from UK Open Banking — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from UK Open Banking — 2 operation(s) for domestic scheduled payment consents.
   name: UK Open Banking Domestic Scheduled Payment Consents API
   slug: open-banking-uk-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from UK Open Banking — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from UK Open Banking — 3 operation(s) for domestic scheduled payments.
   name: UK Open Banking Domestic Scheduled Payments API
   slug: open-banking-uk-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from UK Open Banking — 2 operation(s) for domestic standing order consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from UK Open Banking — 2 operation(s) for domestic standing order consents.
   name: UK Open Banking Domestic Standing Order Consents API
   slug: open-banking-uk-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from UK Open Banking — 3 operation(s) for domestic standing orders.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from UK Open Banking — 3 operation(s) for domestic standing orders.
   name: UK Open Banking Domestic Standing Orders API
   slug: open-banking-uk-domestic-standing-orders-api
-- description: The Domestic VRP Consents API from UK Open Banking — 3 operation(s) for domestic vrp consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic VRP Consents API from UK Open Banking — 3 operation(s) for domestic vrp consents.
   name: UK Open Banking Domestic VRP Consents API
   slug: open-banking-uk-domestic-vrp-consents-api
-- description: The Domestic VRPs API from UK Open Banking — 3 operation(s) for domestic vrps.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Domestic VRPs API from UK Open Banking — 3 operation(s) for domestic vrps.
   name: UK Open Banking Domestic VRPs API
   slug: open-banking-uk-domestic-vrps-api
-- description: The Event Notification API from UK Open Banking — 1 operation(s) for event notification.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Event Notification API from UK Open Banking — 1 operation(s) for event notification.
   name: UK Open Banking Event Notification API
   slug: open-banking-uk-event-notification-api
-- description: The Event Subscriptions API from UK Open Banking — 2 operation(s) for event subscriptions.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Event Subscriptions API from UK Open Banking — 2 operation(s) for event subscriptions.
   name: UK Open Banking Event Subscriptions API
   slug: open-banking-uk-event-subscriptions-api
-- description: The Events API from UK Open Banking — 1 operation(s) for events.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Events API from UK Open Banking — 1 operation(s) for events.
   name: UK Open Banking Events API
   slug: open-banking-uk-events-api
-- description: The File Payment Consents API from UK Open Banking — 3 operation(s) for file payment consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The File Payment Consents API from UK Open Banking — 3 operation(s) for file payment consents.
   name: UK Open Banking File Payment Consents API
   slug: open-banking-uk-file-payment-consents-api
-- description: The File Payments API from UK Open Banking — 4 operation(s) for file payments.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The File Payments API from UK Open Banking — 4 operation(s) for file payments.
   name: UK Open Banking File Payments API
   slug: open-banking-uk-file-payments-api
-- description: The Funds Confirmation Consents API from UK Open Banking — 2 operation(s) for funds confirmation consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from UK Open Banking — 2 operation(s) for funds confirmation consents.
   name: UK Open Banking Funds Confirmation Consents API
   slug: open-banking-uk-funds-confirmation-consents-api
-- description: The Funds Confirmations API from UK Open Banking — 1 operation(s) for funds confirmations.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Funds Confirmations API from UK Open Banking — 1 operation(s) for funds confirmations.
   name: UK Open Banking Funds Confirmations API
   slug: open-banking-uk-funds-confirmations-api
-- description: The International Payment Consents API from UK Open Banking — 3 operation(s) for international payment consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The International Payment Consents API from UK Open Banking — 3 operation(s) for international payment consents.
   name: UK Open Banking International Payment Consents API
   slug: open-banking-uk-international-payment-consents-api
-- description: The International Payments API from UK Open Banking — 3 operation(s) for international payments.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The International Payments API from UK Open Banking — 3 operation(s) for international payments.
   name: UK Open Banking International Payments API
   slug: open-banking-uk-international-payments-api
-- description: The International Scheduled Payments API from UK Open Banking — 3 operation(s) for international scheduled payments.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The International Scheduled Payments API from UK Open Banking — 3 operation(s) for international scheduled payments.
   name: UK Open Banking International Scheduled Payments API
   slug: open-banking-uk-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from UK Open Banking — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from UK Open Banking — 3 operation(s) for international scheduled payments consents.
   name: UK Open Banking International Scheduled Payments Consents API
   slug: open-banking-uk-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from UK Open Banking — 3 operation(s) for international standing orders.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The International Standing Orders API from UK Open Banking — 3 operation(s) for international standing orders.
   name: UK Open Banking International Standing Orders API
   slug: open-banking-uk-international-standing-orders-api
-- description: The International Standing Orders Consents API from UK Open Banking — 2 operation(s) for international standing orders consents.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from UK Open Banking — 2 operation(s) for international standing orders consents.
   name: UK Open Banking International Standing Orders Consents API
   slug: open-banking-uk-international-standing-orders-consents-api
-- description: The Offers API from UK Open Banking — 2 operation(s) for offers.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Offers API from UK Open Banking — 2 operation(s) for offers.
   name: UK Open Banking Offers API
   slug: open-banking-uk-offers-api
-- description: The Parties API from UK Open Banking — 3 operation(s) for parties.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Parties API from UK Open Banking — 3 operation(s) for parties.
   name: UK Open Banking Parties API
   slug: open-banking-uk-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: UK Open Banking PCA API
   slug: open-banking-uk-pca-api
-- description: The Products API from UK Open Banking — 2 operation(s) for products.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Products API from UK Open Banking — 2 operation(s) for products.
   name: UK Open Banking Products API
   slug: open-banking-uk-products-api
-- description: The Scheduled Payments API from UK Open Banking — 2 operation(s) for scheduled payments.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Scheduled Payments API from UK Open Banking — 2 operation(s) for scheduled payments.
   name: UK Open Banking Scheduled Payments API
   slug: open-banking-uk-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: UK Open Banking SME API
   slug: open-banking-uk-sme-api
-- description: The Standing Orders API from UK Open Banking — 2 operation(s) for standing orders.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Standing Orders API from UK Open Banking — 2 operation(s) for standing orders.
   name: UK Open Banking Standing Orders API
   slug: open-banking-uk-standing-orders-api
-- description: The Statements API from UK Open Banking — 5 operation(s) for statements.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Statements API from UK Open Banking — 5 operation(s) for statements.
   name: UK Open Banking Statements API
   slug: open-banking-uk-statements-api
-- description: The Transactions API from UK Open Banking — 2 operation(s) for transactions.
+- baseURL: https://{aspsp-host}/open-banking/v4.0
+  baseurl_source: declared
+  description: The Transactions API from UK Open Banking — 2 operation(s) for transactions.
   name: UK Open Banking Transactions API
   slug: open-banking-uk-transactions-api
 artifact_total: 103
@@ -488,7 +566,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
 security:

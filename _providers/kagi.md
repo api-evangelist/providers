@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: FastGPT is Kagi's LLM-powered question answering API that combines a hosted model with live Kagi web search for grounded, cited answers.
   name: Kagi FastGPT API
   slug: fastgpt-api
-- description: Extract markdown content from web URLs.
+- baseURL: https://kagi.com/api/v0
+  baseurl_source: declared
+  description: Extract markdown content from web URLs.
   name: Kagi Extract API
   slug: kagi-extract-api
-- description: Perform Kagi web searches.
+- baseURL: https://kagi.com/api/v0
+  baseurl_source: declared
+  description: Perform Kagi web searches.
   name: Kagi Search API
   slug: kagi-search-api
 artifact_total: 17
@@ -185,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kagi/refs/heads/main/screenshots/kagi-2026-06-20T183852.png
 security:

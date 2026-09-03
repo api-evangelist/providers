@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -36,103 +49,169 @@ apis:
 - description: 'Route Mobile''s enterprise voice and cloud telephony surface, documented as narrative guides on the developer portal (send message and template management calls) and published as a first-party Postman '
   name: Route Mobile Enterprise Voice 2.0 API
   slug: route-mobile-enterprise-voice-api
-- description: APIs for account management, credit queries, and authentication tokens.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: APIs for account management, credit queries, and authentication tokens.
   name: Route Mobile Account API
   slug: route-mobile-account-api
-- description: Manage your WhatsApp Business profile settings, account details, and profile photo.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Manage your WhatsApp Business profile settings, account details, and profile photo.
   name: Route Mobile Account Management API
   slug: route-mobile-account-management-api
-- description: Retrieve account/user details
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Retrieve account/user details
   name: Route Mobile Accounts API
   slug: route-mobile-accounts-api
-- description: Authenticate with the Route Mobile WhatsApp Business API to obtain a JWT token for subsequent API calls.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Authenticate with the Route Mobile WhatsApp Business API to obtain a JWT token for subsequent API calls.
   name: Route Mobile Authentication API
   slug: route-mobile-authentication-api
-- description: Upload files, create, start, pause, and resume bulk messaging campaigns to reach large audiences.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Upload files, create, start, pause, and resume bulk messaging campaigns to reach large audiences.
   name: Route Mobile Bulk Campaigns API
   slug: route-mobile-bulk-campaigns-api
-- description: Upload campaign files and manage bulk RCS messaging campaigns at scale.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Upload campaign files and manage bulk RCS messaging campaigns at scale.
   name: Route Mobile Bulk Upload Campaign API
   slug: route-mobile-bulk-upload-campaign-api-api
-- description: Webhook receiver endpoints for real-time RCS message delivery and event notifications.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Webhook receiver endpoints for real-time RCS message delivery and event notifications.
   name: Route Mobile Callback API
   slug: route-mobile-callback-api-api
-- description: Check and retrieve RCS capability details for phone numbers in bulk.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Check and retrieve RCS capability details for phone numbers in bulk.
   name: Route Mobile Capability Check API
   slug: route-mobile-capability-check-api-api
-- description: Create, update, delete, and fetch product feeds and catalog details for WhatsApp Commerce.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Create, update, delete, and fetch product feeds and catalog details for WhatsApp Commerce.
   name: Route Mobile Catalog Management API
   slug: route-mobile-catalog-management-api
-- description: Upload media files (images, videos, PDFs) to the RCS file server for use in messages.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Upload media files (images, videos, PDFs) to the RCS file server for use in messages.
   name: Route Mobile File Server API
   slug: route-mobile-file-server-api-api
-- description: APIs for third-party platform integrations.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: APIs for third-party platform integrations.
   name: Route Mobile Integrations API
   slug: route-mobile-integrations-api
-- description: Authenticate users and obtain JWT tokens for RCS API access.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Authenticate users and obtain JWT tokens for RCS API access.
   name: Route Mobile Login API
   slug: route-mobile-login-api
-- description: APIs for managing RCS bot testers, templates, and account configuration.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: APIs for managing RCS bot testers, templates, and account configuration.
   name: Route Mobile Management API
   slug: route-mobile-management-api-api
-- description: APIs for submitting SMS messages.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: APIs for submitting SMS messages.
   name: Route Mobile Message Sending API
   slug: route-mobile-message-sending-api
-- description: Send transactional emails and retrieve message info
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Send transactional emails and retrieve message info
   name: Route Mobile Messages API
   slug: route-mobile-messages-api
-- description: Send template messages (marketing, utility, authentication) and session messages (text, media, interactive, payments, flows) to individual recipients.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Send template messages (marketing, utility, authentication) and session messages (text, media, interactive, payments, flows) to individual recipients.
   name: Route Mobile Messaging API
   slug: route-mobile-messaging-api
-- description: Store and verify user opt-in and opt-out consent for WhatsApp messaging compliance.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Store and verify user opt-in and opt-out consent for WhatsApp messaging compliance.
   name: Route Mobile Opt-in Management API
   slug: route-mobile-opt-in-management-api
-- description: APIs for OTP generation and verification.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: APIs for OTP generation and verification.
   name: Route Mobile OTP API
   slug: route-mobile-otp-api
-- description: Send RCS payment request messages to customers.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Send RCS payment request messages to customers.
   name: Route Mobile Payment API
   slug: route-mobile-payment-api-api
-- description: Send RCS notification, session, and India template messages including text, media, rich cards, carousels, and interactive suggestions.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Send RCS notification, session, and India template messages including text, media, rich cards, carousels, and interactive suggestions.
   name: Route Mobile RCS Messages API
   slug: route-mobile-rcs-messages-api-api
-- description: APIs for managing RCS message requests and retrieving request status.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: APIs for managing RCS message requests and retrieving request status.
   name: Route Mobile RCS Messages Request API
   slug: route-mobile-rcs-messages-request-api-api
-- description: The RCS Optin API API from Route Mobile — 1 operation(s) for rcs optin api.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: The RCS Optin API API from Route Mobile — 1 operation(s) for rcs optin api.
   name: Route Mobile RCS Optin API
   slug: route-mobile-rcs-optin-api-api
-- description: The RCS Template API API from Route Mobile — 3 operation(s) for rcs template api.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: The RCS Template API API from Route Mobile — 3 operation(s) for rcs template api.
   name: Route Mobile RCS Template API
   slug: route-mobile-rcs-template-api-api
-- description: Generate, download, and query messaging reports including delivery stats, campaign metrics, opt-in data, and template usage counts.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Generate, download, and query messaging reports including delivery stats, campaign metrics, opt-in data, and template usage counts.
   name: Route Mobile Reports API
   slug: route-mobile-reports-api
-- description: Add, verify, list, and delete sending domains
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Add, verify, list, and delete sending domains
   name: Route Mobile Sending Domains API
   slug: route-mobile-sending-domains-api
-- description: Manage SMTP sub-users (create, edit, reset password, list)
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Manage SMTP sub-users (create, edit, reset password, list)
   name: Route Mobile SMTP Users API
   slug: route-mobile-smtp-users-api
-- description: Add, check, list, and delete tracking domains
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Add, check, list, and delete tracking domains
   name: Route Mobile Tracking Domains API
   slug: route-mobile-tracking-domains-api
-- description: Send bulk campaign messages to multiple Viber recipients at once using a file_code from the Campaign File Upload API. Supports all message types including fallback delivery to SMS or WhatsApp, and sch
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Send bulk campaign messages to multiple Viber recipients at once using a file_code from the Campaign File Upload API. Supports all message types including fallback delivery to SMS or WhatsApp, and sch
   name: Route Mobile Viber Bulk Messaging API
   slug: route-mobile-viber-bulk-messaging-api-api
-- description: Send single messages to individual Viber users including text, images, videos, files, OTP verification, and interactive buttons. Also manage campaign file uploads and legacy campaign send operations.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Send single messages to individual Viber users including text, images, videos, files, OTP verification, and interactive buttons. Also manage campaign file uploads and legacy campaign send operations.
   name: Route Mobile Viber Business Messaging API
   slug: route-mobile-viber-business-messaging-api-api
-- description: Receive real-time webhook notifications for incoming messages and delivery reports from the Viber platform. Configure your callback URL in the webhook settings.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Receive real-time webhook notifications for incoming messages and delivery reports from the Viber platform. Configure your callback URL in the webhook settings.
   name: Route Mobile Viber Client Callback API
   slug: route-mobile-viber-client-callback-api-api
-- description: Authenticate and obtain a JWT token to access the Viber Business Messaging APIs. Tokens are valid for one hour by default.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Authenticate and obtain a JWT token to access the Viber Business Messaging APIs. Tokens are valid for one hour by default.
   name: Route Mobile Viber Login API
   slug: route-mobile-viber-login-api
-- description: Access delivery reports, campaign performance metrics, summary dashboards, and message-level tabular data. Create and download detailed CSV reports. Manage approved Viber message templates.
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Access delivery reports, campaign performance metrics, summary dashboards, and message-level tabular data. Create and download detailed CSV reports. Manage approved Viber message templates.
   name: Route Mobile Viber Reports API
   slug: route-mobile-viber-reports-api-api
-- description: Configure event webhooks for email delivery events
+- baseURL: https://api.rmlconnect.net
+  baseurl_source: declared
+  description: Configure event webhooks for email delivery events
   name: Route Mobile Webhooks API
   slug: route-mobile-webhooks-api
 artifact_total: 45
@@ -343,7 +422,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -356,7 +435,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 50.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -378,7 +457,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/screenshots/route-mobile-2026-08-17T081637.png
 security:

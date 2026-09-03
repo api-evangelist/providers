@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Activity API from Gray Swan — 1 operation(s) for activity.
+- baseURL: https://api.grayswan.ai
+  baseurl_source: declared
+  description: The Activity API from Gray Swan — 1 operation(s) for activity.
   name: Gray Swan Activity API
   slug: gray-swan-activity-api
-- description: The Cygnal API from Gray Swan — 7 operation(s) for cygnal.
+- baseURL: https://api.grayswan.ai
+  baseurl_source: declared
+  description: The Cygnal API from Gray Swan — 7 operation(s) for cygnal.
   name: Gray Swan Cygnal API
   slug: gray-swan-cygnal-api
-- description: The Policies API from Gray Swan — 8 operation(s) for policies.
+- baseURL: https://api.grayswan.ai
+  baseurl_source: declared
+  description: The Policies API from Gray Swan — 8 operation(s) for policies.
   name: Gray Swan Policies API
   slug: gray-swan-policies-api
 artifact_total: 13
@@ -222,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/screenshots/gray-swan-2026-07-25T220255.png
 security:

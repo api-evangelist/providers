@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: Slack and Discord integration endpoints
+- baseURL: https://icanhazdadjoke.com
+  baseurl_source: declared
+  description: Slack and Discord integration endpoints
   name: Dad Jokes (icanhazdadjoke) Integrations API
   slug: dad-jokes-integrations-api
-- description: Dad joke retrieval and search
+- baseURL: https://icanhazdadjoke.com
+  baseurl_source: declared
+  description: Dad joke retrieval and search
   name: Dad Jokes (icanhazdadjoke) Jokes API
   slug: dad-jokes-jokes-api
 artifact_total: 20
@@ -194,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dad-jokes/refs/heads/main/screenshots/dad-jokes-2026-06-20T175419.png
 security:

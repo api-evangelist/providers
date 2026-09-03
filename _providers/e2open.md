@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: E2open Transportation Management API provides appointment scheduling, carrier integration, and real-time rating capabilities. REST endpoints allow carriers to POST documents, retrieve current rates, m
   name: E2open Transportation Management API
   slug: e2open-transportation-management-api
-- description: Ocean shipping booking management
+- baseURL: https://api.e2open.com
+  baseurl_source: declared
+  description: Ocean shipping booking management
   name: e2open Bookings API
   slug: e2open-bookings-api
-- description: Ocean carrier schedule lookup
+- baseURL: https://api.e2open.com
+  baseurl_source: declared
+  description: Ocean carrier schedule lookup
   name: e2open Schedules API
   slug: e2open-schedules-api
-- description: Bill of lading shipping instructions
+- baseURL: https://api.e2open.com
+  baseurl_source: declared
+  description: Bill of lading shipping instructions
   name: e2open Shipping Instructions API
   slug: e2open-shipping-instructions-api
-- description: Container and shipment tracking
+- baseURL: https://api.e2open.com
+  baseurl_source: declared
+  description: Container and shipment tracking
   name: e2open Tracking API
   slug: e2open-tracking-api
 artifact_total: 22
@@ -168,16 +176,16 @@ jsonld:
   slug: e2open-context
 layout: provider
 modified: '2026-05-19'
-name: e2open
+name: E2open
 nav: Providers
 network: true
-overview: 'e2open publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Schedules API, Shipping Instructions API, and 1 more.
+overview: 'E2open publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Schedules API, Shipping Instructions API, and 1 more.
 
 
-  The e2open catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The E2open catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  e2open''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 12 more developer resources.'
+  E2open''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 12 more developer resources.'
 plans:
 - name: E2Open Plans Pricing
   plan_count: 3
@@ -190,7 +198,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: e2open API Rules
+  name: E2open API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -226,10 +234,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/screenshots/e2open-2026-06-20T180355.png
 security:

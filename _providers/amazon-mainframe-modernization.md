@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 33 operations · 15 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Applications API from Amazon Mainframe Modernization — 19 operation(s) for applications.
+- baseURL: https://m2.amazonaws.com
+  baseurl_source: declared
+  description: The Applications API from Amazon Mainframe Modernization — 19 operation(s) for applications.
   name: Amazon Mainframe Modernization Applications API
   slug: amazon-mainframe-modernization-applications-api
-- description: The Engine Versions API from Amazon Mainframe Modernization — 1 operation(s) for engine versions.
+- baseURL: https://m2.amazonaws.com
+  baseurl_source: declared
+  description: The Engine Versions API from Amazon Mainframe Modernization — 1 operation(s) for engine versions.
   name: Amazon Mainframe Modernization Engine Versions API
   slug: amazon-mainframe-modernization-engine-versions-api
-- description: The Environments API from Amazon Mainframe Modernization — 2 operation(s) for environments.
+- baseURL: https://m2.amazonaws.com
+  baseurl_source: declared
+  description: The Environments API from Amazon Mainframe Modernization — 2 operation(s) for environments.
   name: Amazon Mainframe Modernization Environments API
   slug: amazon-mainframe-modernization-environments-api
-- description: The Signed Bi Url API from Amazon Mainframe Modernization — 1 operation(s) for signed bi url.
+- baseURL: https://m2.amazonaws.com
+  baseurl_source: declared
+  description: The Signed Bi Url API from Amazon Mainframe Modernization — 1 operation(s) for signed bi url.
   name: Amazon Mainframe Modernization Signed Bi Url API
   slug: amazon-mainframe-modernization-signed-bi-url-api
-- description: The Tags API from Amazon Mainframe Modernization — 2 operation(s) for tags.
+- baseURL: https://m2.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Mainframe Modernization — 2 operation(s) for tags.
   name: Amazon Mainframe Modernization Tags API
   slug: amazon-mainframe-modernization-tags-api
 artifact_total: 540
@@ -1783,7 +1793,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/screenshots/amazon-mainframe-modernization-2026-06-20T171731.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 60 operations · 26 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Input Connectors API from Feldera — 5 operation(s) for input connectors.
+- baseURL: https://try.feldera.com
+  baseurl_source: declared
+  description: The Input Connectors API from Feldera — 5 operation(s) for input connectors.
   name: Feldera Input Connectors API
   slug: feldera-input-connectors-api
-- description: The Metrics & Debugging API from Feldera — 15 operation(s) for metrics & debugging.
+- baseURL: https://try.feldera.com
+  baseurl_source: declared
+  description: The Metrics & Debugging API from Feldera — 15 operation(s) for metrics & debugging.
   name: Feldera Metrics & Debugging API
   slug: feldera-metrics-debugging-api
-- description: The Output Connectors API from Feldera — 2 operation(s) for output connectors.
+- baseURL: https://try.feldera.com
+  baseurl_source: declared
+  description: The Output Connectors API from Feldera — 2 operation(s) for output connectors.
   name: Feldera Output Connectors API
   slug: feldera-output-connectors-api
-- description: The Pipeline CRUD API from Feldera — 2 operation(s) for pipeline crud.
+- baseURL: https://try.feldera.com
+  baseurl_source: declared
+  description: The Pipeline CRUD API from Feldera — 2 operation(s) for pipeline crud.
   name: Feldera Pipeline CRUD API
   slug: feldera-pipeline-crud-api
-- description: The Pipeline Lifecycle API from Feldera — 20 operation(s) for pipeline lifecycle.
+- baseURL: https://try.feldera.com
+  baseurl_source: declared
+  description: The Pipeline Lifecycle API from Feldera — 20 operation(s) for pipeline lifecycle.
   name: Feldera Pipeline Lifecycle API
   slug: feldera-pipeline-lifecycle-api
-- description: The Platform API from Feldera — 9 operation(s) for platform.
+- baseURL: https://try.feldera.com
+  baseurl_source: declared
+  description: The Platform API from Feldera — 9 operation(s) for platform.
   name: Feldera Platform API
   slug: feldera-platform-api
 artifact_total: 18
@@ -268,7 +280,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -33,31 +44,49 @@ agentic_access:
   summary_line: 54 operations · 25 acting
 api_count: 6
 apis:
-- description: The Account Data - Client Hosted API from Ordo — 9 operation(s) for account data - client hosted.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Account Data - Client Hosted API from Ordo — 9 operation(s) for account data - client hosted.
   name: Ordo Account Data - Client Hosted API
   slug: ordo-account-data-client-hosted-api
-- description: The Account Data - Ordo Hosted API from Ordo — 7 operation(s) for account data - ordo hosted.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Account Data - Ordo Hosted API from Ordo — 7 operation(s) for account data - ordo hosted.
   name: Ordo Account Data - Ordo Hosted API
   slug: ordo-account-data-ordo-hosted-api
-- description: The Account Verification - Client Hosted API from Ordo — 6 operation(s) for account verification - client hosted.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Account Verification - Client Hosted API from Ordo — 6 operation(s) for account verification - client hosted.
   name: Ordo Account Verification - Client Hosted API
   slug: ordo-account-verification-client-hosted-api
-- description: The Account Verification - Ordo Hosted API from Ordo — 6 operation(s) for account verification - ordo hosted.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Account Verification - Ordo Hosted API from Ordo — 6 operation(s) for account verification - ordo hosted.
   name: Ordo Account Verification - Ordo Hosted API
   slug: ordo-account-verification-ordo-hosted-api
-- description: The Bank accounts API from Ordo — 3 operation(s) for bank accounts.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Bank accounts API from Ordo — 3 operation(s) for bank accounts.
   name: Ordo Bank accounts API
   slug: ordo-bank-accounts-api
-- description: The Client hosted API from Ordo — 4 operation(s) for client hosted.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Client hosted API from Ordo — 4 operation(s) for client hosted.
   name: Ordo Client hosted API
   slug: ordo-client-hosted-api
-- description: The Create a mandate API from Ordo — 2 operation(s) for create a mandate.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Create a mandate API from Ordo — 2 operation(s) for create a mandate.
   name: Ordo Create a mandate API
   slug: ordo-create-a-mandate-api
-- description: The Ordo hosted API from Ordo — 8 operation(s) for ordo hosted.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Ordo hosted API from Ordo — 8 operation(s) for ordo hosted.
   name: Ordo Ordo hosted API
   slug: ordo-ordo-hosted-api
-- description: The Retrieve mandate details API from Ordo — 4 operation(s) for retrieve mandate details.
+- baseURL: https://test.api.ordopay.com/payments
+  baseurl_source: declared
+  description: The Retrieve mandate details API from Ordo — 4 operation(s) for retrieve mandate details.
   name: Ordo Retrieve mandate details API
   slug: ordo-retrieve-mandate-details-api
 artifact_total: 19
@@ -245,7 +274,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:

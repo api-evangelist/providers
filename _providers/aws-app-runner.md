@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 20 operations · 20 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage auto scaling configurations
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage auto scaling configurations
   name: AWS App Runner Auto Scaling API
   slug: aws-app-runner-auto-scaling-api
-- description: The AWS App Runner API API from AWS App Runner — 1 operation(s) for aws app runner api.
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The AWS App Runner API API from AWS App Runner — 1 operation(s) for aws app runner api.
   name: AWS App Runner AWS App Runner API API
   slug: aws-app-runner-aws-app-runner-api-api
-- description: Manage source code provider connections
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage source code provider connections
   name: AWS App Runner Connections API
   slug: aws-app-runner-connections-api
-- description: Manage custom domain associations
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage custom domain associations
   name: AWS App Runner Custom Domains API
   slug: aws-app-runner-custom-domains-api
-- description: 'The #DeleteService API from AWS App Runner — 1 operation(s) for #deleteservice.'
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DeleteService API from AWS App Runner — 1 operation(s) for #deleteservice.'
   name: 'AWS App Runner #DeleteService API'
   slug: aws-app-runner-deleteservice-api
-- description: Manage deployments and operations
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage deployments and operations
   name: AWS App Runner Deployments API
   slug: aws-app-runner-deployments-api
-- description: 'The #DescribeService API from AWS App Runner — 1 operation(s) for #describeservice.'
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeService API from AWS App Runner — 1 operation(s) for #describeservice.'
   name: 'AWS App Runner #DescribeService API'
   slug: aws-app-runner-describeservice-api
-- description: 'The #ListServices API from AWS App Runner — 1 operation(s) for #listservices.'
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListServices API from AWS App Runner — 1 operation(s) for #listservices.'
   name: 'AWS App Runner #ListServices API'
   slug: aws-app-runner-listservices-api
-- description: Manage observability configurations
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage observability configurations
   name: AWS App Runner Observability API
   slug: aws-app-runner-observability-api
-- description: 'The #PauseService API from AWS App Runner — 1 operation(s) for #pauseservice.'
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #PauseService API from AWS App Runner — 1 operation(s) for #pauseservice.'
   name: 'AWS App Runner #PauseService API'
   slug: aws-app-runner-pauseservice-api
-- description: 'The #ResumeService API from AWS App Runner — 1 operation(s) for #resumeservice.'
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ResumeService API from AWS App Runner — 1 operation(s) for #resumeservice.'
   name: 'AWS App Runner #ResumeService API'
   slug: aws-app-runner-resumeservice-api
-- description: 'The #UpdateService API from AWS App Runner — 1 operation(s) for #updateservice.'
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #UpdateService API from AWS App Runner — 1 operation(s) for #updateservice.'
   name: 'AWS App Runner #UpdateService API'
   slug: aws-app-runner-updateservice-api
-- description: Manage VPC connectors
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage VPC connectors
   name: AWS App Runner VPC API
   slug: aws-app-runner-vpc-api
 artifact_total: 116
@@ -509,7 +535,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/screenshots/aws-app-runner-2026-06-20T172739.png
 security:

@@ -33,40 +33,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
   name: SiliconFlow Cloud Platform API
   slug: platform
-- description: The Audio API from SiliconFlow — 4 operation(s) for audio.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Audio API from SiliconFlow — 4 operation(s) for audio.
   name: SiliconFlow Audio API
   slug: siliconflow-audio-api
-- description: The Chat API from SiliconFlow — 1 operation(s) for chat.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Chat API from SiliconFlow — 1 operation(s) for chat.
   name: SiliconFlow Chat API
   slug: siliconflow-chat-api
-- description: The Completions API from SiliconFlow — 1 operation(s) for completions.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Completions API from SiliconFlow — 1 operation(s) for completions.
   name: SiliconFlow Completions API
   slug: siliconflow-completions-api
-- description: The Embeddings API from SiliconFlow — 1 operation(s) for embeddings.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Embeddings API from SiliconFlow — 1 operation(s) for embeddings.
   name: SiliconFlow Embeddings API
   slug: siliconflow-embeddings-api
-- description: The Images API from SiliconFlow — 1 operation(s) for images.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Images API from SiliconFlow — 1 operation(s) for images.
   name: SiliconFlow Images API
   slug: siliconflow-images-api
-- description: The Messages API from SiliconFlow — 1 operation(s) for messages.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Messages API from SiliconFlow — 1 operation(s) for messages.
   name: SiliconFlow Messages API
   slug: siliconflow-messages-api
-- description: The Models API from SiliconFlow — 1 operation(s) for models.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Models API from SiliconFlow — 1 operation(s) for models.
   name: SiliconFlow Models API
   slug: siliconflow-models-api
-- description: The Rerank API from SiliconFlow — 1 operation(s) for rerank.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Rerank API from SiliconFlow — 1 operation(s) for rerank.
   name: SiliconFlow Rerank API
   slug: siliconflow-rerank-api
-- description: The User API from SiliconFlow — 1 operation(s) for user.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The User API from SiliconFlow — 1 operation(s) for user.
   name: SiliconFlow User API
   slug: siliconflow-user-api
-- description: The Videos API from SiliconFlow — 2 operation(s) for videos.
+- baseURL: https://api.siliconflow.com/v1
+  baseurl_source: declared
+  description: The Videos API from SiliconFlow — 2 operation(s) for videos.
   name: SiliconFlow Videos API
   slug: siliconflow-videos-api
 artifact_total: 26
@@ -196,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:

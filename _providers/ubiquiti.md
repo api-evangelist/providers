@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: The UISP CRM API is the per-instance REST API for the customer-relationship-management half of UISP, covering clients, services (subscriptions), invoices, payments, quotes, tickets, jobs, taxes, and p
   name: UISP CRM API
   slug: uisp-crm-api
-- description: UniFi devices managed by the account's hosts
+- baseURL: https://api.ui.com/v1
+  baseurl_source: declared
+  description: UniFi devices managed by the account's hosts
   name: Ubiquiti Devices API
   slug: ubiquiti-devices-api
-- description: UniFi OS consoles linked to the UI account
+- baseURL: https://api.ui.com/v1
+  baseurl_source: declared
+  description: UniFi OS consoles linked to the UI account
   name: Ubiquiti Hosts API
   slug: ubiquiti-hosts-api
-- description: WAN performance metrics (latency, packet loss, uptime, bandwidth)
+- baseURL: https://api.ui.com/v1
+  baseurl_source: declared
+  description: WAN performance metrics (latency, packet loss, uptime, bandwidth)
   name: Ubiquiti ISP Metrics API
   slug: ubiquiti-isp-metrics-api
-- description: SD-WAN configurations and deployment status
+- baseURL: https://api.ui.com/v1
+  baseurl_source: declared
+  description: SD-WAN configurations and deployment status
   name: Ubiquiti SD-WAN API
   slug: ubiquiti-sd-wan-api
-- description: UniFi Network application sites
+- baseURL: https://api.ui.com/v1
+  baseurl_source: declared
+  description: UniFi Network application sites
   name: Ubiquiti Sites API
   slug: ubiquiti-sites-api
 artifact_total: 33
@@ -285,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/screenshots/ubiquiti-2026-06-20T195930.png
 security:

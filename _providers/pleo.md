@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 142 operations · 83 acting
 api_count: 11
 apis:
-- description: 'The Accounting Entries API endpoints enable you to perform the following: - Apply filters and search for accounting entries and accounting receipts. - Retrieve list of accounting entries and accountin'
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: 'The Accounting Entries API endpoints enable you to perform the following: - Apply filters and search for accounting entries and accounting receipts. - Retrieve list of accounting entries and accountin'
   name: Pleo accounting-entries API
   slug: pleo-accounting-entries-api
-- description: The accounting-entries-external API from Pleo — 3 operation(s) for accounting-entries-external.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The accounting-entries-external API from Pleo — 3 operation(s) for accounting-entries-external.
   name: Pleo accounting-entries-external API
   slug: pleo-accounting-entries-external-api
-- description: The AccountingEntryEnrichmentV2 API from Pleo — 1 operation(s) for accountingentryenrichmentv2.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The AccountingEntryEnrichmentV2 API from Pleo — 1 operation(s) for accountingentryenrichmentv2.
   name: Pleo AccountingEntryEnrichmentV2 API
   slug: pleo-accountingentryenrichmentv2-api
-- description: This API enables you to create an account in Pleo, search for an account by its specific ID, update details of an account recorded in Pleo, delete an account from Pleo, or apply specific filters to re
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: This API enables you to create an account in Pleo, search for an account by its specific ID, update details of an account recorded in Pleo, delete an account from Pleo, or apply specific filters to re
   name: Pleo Accounts API
   slug: pleo-accounts-api
-- description: 'The Companies API enables you to search for company records that are managed in Pleo. You can perform the following: - Search for multiple companies - Search for a specific company record by company I'
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: 'The Companies API enables you to search for company records that are managed in Pleo. You can perform the following: - Search for multiple companies - Search for a specific company record by company I'
   name: Pleo Companies API
   slug: pleo-companies-api
-- description: 'The Employees API enables you to search for employee records that are managed in Pleo. You can perform the following: - Search for multiple employees - Search for a specific employee record by employe'
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: 'The Employees API enables you to search for employee records that are managed in Pleo. You can perform the following: - Search for multiple employees - Search for a specific employee record by employe'
   name: Pleo Employees API
   slug: pleo-employees-api
-- description: The Export API (v0) API from Pleo — 4 operation(s) for export api (v0).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export API (v0) API from Pleo — 4 operation(s) for export api (v0).
   name: Pleo Export API (v0) API
   slug: pleo-export-api-v0-api
-- description: The Export API (v1) API from Pleo — 4 operation(s) for export api (v1).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export API (v1) API from Pleo — 4 operation(s) for export api (v1).
   name: Pleo Export API (v1) API
   slug: pleo-export-api-v1-api
-- description: The Export API (v2) API from Pleo — 4 operation(s) for export api (v2).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export API (v2) API from Pleo — 4 operation(s) for export api (v2).
   name: Pleo Export API (v2) API
   slug: pleo-export-api-v2-api
-- description: The Export API (v3) API from Pleo — 6 operation(s) for export api (v3).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export API (v3) API from Pleo — 6 operation(s) for export api (v3).
   name: Pleo Export API (v3) API
   slug: pleo-export-api-v3-api
-- description: The Export Items (v0) API from Pleo — 1 operation(s) for export items (v0).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export Items (v0) API from Pleo — 1 operation(s) for export items (v0).
   name: Pleo Export Items (v0) API
   slug: pleo-export-items-v0-api
-- description: The Export Items (v1) API from Pleo — 1 operation(s) for export items (v1).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export Items (v1) API from Pleo — 1 operation(s) for export items (v1).
   name: Pleo Export Items (v1) API
   slug: pleo-export-items-v1-api
-- description: The Export Items (v2) API from Pleo — 1 operation(s) for export items (v2).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export Items (v2) API from Pleo — 1 operation(s) for export items (v2).
   name: Pleo Export Items (v2) API
   slug: pleo-export-items-v2-api
-- description: The Export Items (v3) API from Pleo — 1 operation(s) for export items (v3).
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Export Items (v3) API from Pleo — 1 operation(s) for export items (v3).
   name: Pleo Export Items (v3) API
   slug: pleo-export-items-v3-api
-- description: The External Clients API from Pleo — 1 operation(s) for external clients.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The External Clients API from Pleo — 1 operation(s) for external clients.
   name: Pleo External Clients API
   slug: pleo-external-clients-api
-- description: The external-vendors API from Pleo — 13 operation(s) for external-vendors.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The external-vendors API from Pleo — 13 operation(s) for external-vendors.
   name: Pleo external-vendors API
   slug: pleo-external-vendors-api
-- description: Installations of applications. An installation is a representation of an application being installed for a resource. Currently we support companies and organizations, future support might include user
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: Installations of applications. An installation is a representation of an application being installed for a resource. Currently we support companies and organizations, future support might include user
   name: Pleo Installations API
   slug: pleo-installations-api
-- description: The Subscriptions API from Pleo — 4 operation(s) for subscriptions.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The Subscriptions API from Pleo — 4 operation(s) for subscriptions.
   name: Pleo Subscriptions API
   slug: pleo-subscriptions-api
-- description: The tag-groups API from Pleo — 6 operation(s) for tag-groups.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The tag-groups API from Pleo — 6 operation(s) for tag-groups.
   name: Pleo tag-groups API
   slug: pleo-tag-groups-api
-- description: The tags API from Pleo — 8 operation(s) for tags.
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: The tags API from Pleo — 8 operation(s) for tags.
   name: Pleo tags API
   slug: pleo-tags-api
-- description: Tax Codes API
+- baseURL: https://external.pleo.io
+  baseurl_source: declared
+  description: Tax Codes API
   name: Pleo tax-codes API
   slug: pleo-tax-codes-api
 artifact_total: 77
@@ -397,7 +439,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/screenshots/pleo-2026-06-20T191811.png
 security:

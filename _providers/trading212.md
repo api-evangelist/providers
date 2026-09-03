@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 10 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Access fundamental information about your trading account. Retrieve details such as your account ID, currency, and current cash balance.
+- baseURL: https://live.trading212.com/api/v0
+  baseurl_source: declared
+  description: Access fundamental information about your trading account. Retrieve details such as your account ID, currency, and current cash balance.
   name: Trading 212 Accounts API
   slug: trading212-accounts-api
-- description: Review your account's trading history. Access detailed records of past orders, dividend payments, and cash transactions, or generate downloadable CSV reports for analysis and record-keeping.
+- baseURL: https://live.trading212.com/api/v0
+  baseurl_source: declared
+  description: Review your account's trading history. Access detailed records of past orders, dividend payments, and cash transactions, or generate downloadable CSV reports for analysis and record-keeping.
   name: Trading 212 Historical events API
   slug: trading212-historical-events-api
-- description: Discover what you can trade. These endpoints provide comprehensive lists of all tradable instruments and the exchanges they belong to, including details like tickers and trading hours.
+- baseURL: https://live.trading212.com/api/v0
+  baseurl_source: declared
+  description: Discover what you can trade. These endpoints provide comprehensive lists of all tradable instruments and the exchanges they belong to, including details like tickers and trading hours.
   name: Trading 212 Instruments API
   slug: trading212-instruments-api
-- description: '**⚠️ Order Limitations** * Orders can be executed only in the **main account currency** Place, monitor, and cancel equity trade orders. This section provides the core functionality for programmaticall'
+- baseURL: https://live.trading212.com/api/v0
+  baseurl_source: declared
+  description: '**⚠️ Order Limitations** * Orders can be executed only in the **main account currency** Place, monitor, and cancel equity trade orders. This section provides the core functionality for programmaticall'
   name: Trading 212 Orders API
   slug: trading212-orders-api
-- description: Manage your investment Pies. Use these endpoints to create, view, update, and delete your custom portfolios, making automated and diversified investing simple. **Deprecation notice:** The current stat
+- baseURL: https://live.trading212.com/api/v0
+  baseurl_source: declared
+  description: Manage your investment Pies. Use these endpoints to create, view, update, and delete your custom portfolios, making automated and diversified investing simple. **Deprecation notice:** The current stat
   name: Trading 212 Pies (Deprecated) API
   slug: trading212-pies-deprecated-api
-- description: Get a real-time overview of all your open positions, including quantity, average price, and current profit or loss.
+- baseURL: https://live.trading212.com/api/v0
+  baseurl_source: declared
+  description: Get a real-time overview of all your open positions, including quantity, average price, and current profit or loss.
   name: Trading 212 Positions API
   slug: trading212-positions-api
 artifact_total: 83
@@ -397,7 +409,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/screenshots/trading212-2026-06-20T195528.png
 security:

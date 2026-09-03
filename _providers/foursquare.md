@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,28 +56,44 @@ apis:
 - description: API for attribution and audience measurement using Foursquare visit panels.
   name: Foursquare Measurement API (MAPI)
   slug: measurement-api
-- description: Natural-language place search with justifications
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Natural-language place search with justifications
   name: Foursquare Ask API
   slug: foursquare-ask-api
-- description: Type-ahead search for places, addresses, and geographies
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Type-ahead search for places, addresses, and geographies
   name: Foursquare Autocomplete API
   slug: foursquare-autocomplete-api
-- description: Retrieve attributes for a specific place
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Retrieve attributes for a specific place
   name: Foursquare Details API
   slug: foursquare-details-api
-- description: Resolve a coordinate to the most likely place (Place Snap)
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Resolve a coordinate to the most likely place (Place Snap)
   name: Foursquare Geotagging API
   slug: foursquare-geotagging-api
-- description: Match an external POI record to a Foursquare place
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Match an external POI record to a Foursquare place
   name: Foursquare Match API
   slug: foursquare-match-api
-- description: Photos associated with a place
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Photos associated with a place
   name: Foursquare Photos API
   slug: foursquare-photos-api
-- description: Find and explore places
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: Find and explore places
   name: Foursquare Search API
   slug: foursquare-search-api
-- description: User tips associated with a place
+- baseURL: https://places-api.foursquare.com
+  baseurl_source: declared
+  description: User tips associated with a place
   name: Foursquare Tips API
   slug: foursquare-tips-api
 artifact_total: 47
@@ -317,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/screenshots/foursquare-2026-06-20T181457.png
 security:

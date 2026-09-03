@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -56,43 +56,69 @@ apis:
 - description: The Wrike MCP Server connects Wrike directly to AI assistants such as Claude, ChatGPT, and Microsoft Copilot Studio using the Model Context Protocol, enabling AI-driven workflows over Wrike data.
   name: Wrike MCP Server
   slug: mcp-server
-- description: Access role and permission management
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Access role and permission management
   name: Wrike Access Roles API
   slug: wrike-access-roles-api
-- description: Account settings and configuration
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Account settings and configuration
   name: Wrike Accounts API
   slug: wrike-accounts-api
-- description: Available color palette
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Available color palette
   name: Wrike Colors API
   slug: wrike-colors-api
-- description: Task and folder comment management
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Task and folder comment management
   name: Wrike Comments API
   slug: wrike-comments-api
-- description: Users and user groups in Wrike accounts
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Users and user groups in Wrike accounts
   name: Wrike Contacts API
   slug: wrike-contacts-api
-- description: Custom field definitions and management
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Custom field definitions and management
   name: Wrike Custom Fields API
   slug: wrike-custom-fields-api
-- description: Folder and project hierarchy management
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Folder and project hierarchy management
   name: Wrike Folders And Projects API
   slug: wrike-folders-and-projects-api
-- description: User group management
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: User group management
   name: Wrike Groups API
   slug: wrike-groups-api
-- description: Task creation, retrieval, updates, and deletion
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Task creation, retrieval, updates, and deletion
   name: Wrike Tasks API
   slug: wrike-tasks-api
-- description: Time tracking and timelog records
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Time tracking and timelog records
   name: Wrike Time Logs API
   slug: wrike-time-logs-api
-- description: User management and profile operations
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: User management and profile operations
   name: Wrike Users API
   slug: wrike-users-api
-- description: Event-driven webhook subscriptions
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Event-driven webhook subscriptions
   name: Wrike Webhooks API
   slug: wrike-webhooks-api
-- description: Workflow and status management
+- baseURL: https://www.wrike.com/api/v4
+  baseurl_source: declared
+  description: Workflow and status management
   name: Wrike Workflows API
   slug: wrike-workflows-api
 artifact_total: 137
@@ -523,7 +549,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/screenshots/wrike-2026-06-20T201636.png
 security:

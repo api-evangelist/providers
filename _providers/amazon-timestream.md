@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
-- description: Operations for managing Timestream databases.
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Timestream databases.
   name: Amazon Timestream Databases API
   slug: amazon-timestream-databases-api
-- description: Operations for querying time series data.
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: Operations for querying time series data.
   name: Amazon Timestream Query API
   slug: amazon-timestream-query-api
-- description: Operations for managing Timestream tables.
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Timestream tables.
   name: Amazon Timestream Tables API
   slug: amazon-timestream-tables-api
-- description: Operations for writing time series data.
+- baseURL: https://ingest.timestream.amazonaws.com
+  baseurl_source: declared
+  description: Operations for writing time series data.
   name: Amazon Timestream Write API
   slug: amazon-timestream-write-api
 artifact_total: 30
@@ -263,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/screenshots/amazon-timestream-2026-06-20T171834.png
 security:

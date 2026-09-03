@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: The HMRC Corporation Tax APIs enable accounting software to submit corporation tax returns, retrieve liabilities, manage payments, and access tax calculation data for UK businesses.
   name: HMRC Corporation Tax API
   slug: hmrc-corporation-tax-api
-- description: VAT financial liabilities
+- baseURL: https://api.service.hmrc.gov.uk
+  baseurl_source: declared
+  description: VAT financial liabilities
   name: HMRC UK Tax Authority Liabilities API
   slug: hmrc-liabilities-api
-- description: VAT return filing obligations
+- baseURL: https://api.service.hmrc.gov.uk
+  baseurl_source: declared
+  description: VAT return filing obligations
   name: HMRC UK Tax Authority Obligations API
   slug: hmrc-obligations-api
-- description: VAT payments made to HMRC
+- baseURL: https://api.service.hmrc.gov.uk
+  baseurl_source: declared
+  description: VAT payments made to HMRC
   name: HMRC UK Tax Authority Payments API
   slug: hmrc-payments-api
-- description: VAT return submission
+- baseURL: https://api.service.hmrc.gov.uk
+  baseurl_source: declared
+  description: VAT return submission
   name: HMRC UK Tax Authority Returns API
   slug: hmrc-returns-api
 artifact_total: 40
@@ -300,7 +308,7 @@ score:
     regime_id: government
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/screenshots/hmrc-2026-06-20T182805.png
 security:

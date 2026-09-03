@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 50 operations · 33 acting
 api_count: 2
 apis:
-- description: The Assets API from Mesh Connect — 2 operation(s) for assets.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Assets API from Mesh Connect — 2 operation(s) for assets.
   name: Mesh Connect Assets API
   slug: mesh-connect-assets-api
-- description: The Auth token API from Mesh Connect — 1 operation(s) for auth token.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Auth token API from Mesh Connect — 1 operation(s) for auth token.
   name: Mesh Connect Auth token API
   slug: mesh-connect-auth-token-api
-- description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
   name: Mesh Connect Balance API
   slug: mesh-connect-balance-api
-- description: The BrokerAccountDetail API from Mesh Connect — 1 operation(s) for brokeraccountdetail.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The BrokerAccountDetail API from Mesh Connect — 1 operation(s) for brokeraccountdetail.
   name: Mesh Connect BrokerAccountDetail API
   slug: mesh-connect-brokeraccountdetail-api
-- description: The Main Clients API from Mesh Connect — 1 operation(s) for main clients.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Main Clients API from Mesh Connect — 1 operation(s) for main clients.
   name: Mesh Connect Main Clients API
   slug: mesh-connect-main-clients-api
-- description: The recommended approach for account authentication. Front manages multiple authentication flows and handles all authentication steps such as MFA codes and OAuth redirect through our web and mobile SD
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The recommended approach for account authentication. Front manages multiple authentication flows and handles all authentication steps such as MFA codes and OAuth redirect through our web and mobile SD
   name: Mesh Connect Managed Account Authentication API
   slug: mesh-connect-managed-account-authentication-api
-- description: The Managed Transfers API from Mesh Connect — 10 operation(s) for managed transfers.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Managed Transfers API from Mesh Connect — 10 operation(s) for managed transfers.
   name: Mesh Connect Managed Transfers API
   slug: mesh-connect-managed-transfers-api
-- description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Op'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Op'
   name: Mesh Connect Portfolio API
   slug: mesh-connect-portfolio-api
-- description: The Registered Clients API from Mesh Connect — 3 operation(s) for registered clients.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: The Registered Clients API from Mesh Connect — 3 operation(s) for registered clients.
   name: Mesh Connect Registered Clients API
   slug: mesh-connect-registered-clients-api
-- description: Not recommended approach. Using this approach, the API client is responsible for handling multiple authentication flows and supporting future updates and changes.
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: Not recommended approach. Using this approach, the API client is responsible for handling multiple authentication flows and supporting future updates and changes.
   name: Mesh Connect Self Managed Account Authentication API
   slug: mesh-connect-self-managed-account-authentication-api
-- description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```ETrade``` ```Alpaca``` ```WeBull``` ```Stash``` ```InteractiveBrokers``` ```Public``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Bi'
   name: Mesh Connect Transactions API
   slug: mesh-connect-transactions-api
-- description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
+- baseURL: https://integration-api.meshconnect.com
+  baseurl_source: declared
+  description: '### Supported integrations: ```Robinhood``` ```Coinbase``` ```Kraken``` ```CoinbasePro``` ```CryptoCom``` ```Binance``` ```Gemini``` ```OkCoin``` ```KuCoin``` ```BinanceInternational``` ```Bitstamp```'
   name: Mesh Connect Transfers API
   slug: mesh-connect-transfers-api
 artifact_total: 31
@@ -277,7 +301,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -287,7 +311,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 54.0
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +329,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/screenshots/mesh-connect-2026-08-07T172619.png
 security:

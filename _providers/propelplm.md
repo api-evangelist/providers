@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 33 operations · 9 acting
 api_count: 10
 apis:
-- description: The assets API from Propel Software (Propel PLM) — 1 operation(s) for assets.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The assets API from Propel Software (Propel PLM) — 1 operation(s) for assets.
   name: Propel Software (Propel PLM) assets API
   slug: propelplm-assets-api
-- description: The Attachment API from Propel Software (Propel PLM) — 2 operation(s) for attachment.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The Attachment API from Propel Software (Propel PLM) — 2 operation(s) for attachment.
   name: Propel Software (Propel PLM) Attachment API
   slug: propelplm-attachment-api
-- description: The Bill of Material API from Propel Software (Propel PLM) — 1 operation(s) for bill of material.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The Bill of Material API from Propel Software (Propel PLM) — 1 operation(s) for bill of material.
   name: Propel Software (Propel PLM) Bill of Material API
   slug: propelplm-bill-of-material-api
-- description: The BOM API from Propel Software (Propel PLM) — 2 operation(s) for bom.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The BOM API from Propel Software (Propel PLM) — 2 operation(s) for bom.
   name: Propel Software (Propel PLM) BOM API
   slug: propelplm-bom-api
-- description: The categories API from Propel Software (Propel PLM) — 3 operation(s) for categories.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The categories API from Propel Software (Propel PLM) — 3 operation(s) for categories.
   name: Propel Software (Propel PLM) categories API
   slug: propelplm-categories-api
-- description: The change API from Propel Software (Propel PLM) — 3 operation(s) for change.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The change API from Propel Software (Propel PLM) — 3 operation(s) for change.
   name: Propel Software (Propel PLM) change API
   slug: propelplm-change-api
-- description: The channels API from Propel Software (Propel PLM) — 3 operation(s) for channels.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The channels API from Propel Software (Propel PLM) — 3 operation(s) for channels.
   name: Propel Software (Propel PLM) channels API
   slug: propelplm-channels-api
-- description: The Configuration API from Propel Software (Propel PLM) — 1 operation(s) for configuration.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The Configuration API from Propel Software (Propel PLM) — 1 operation(s) for configuration.
   name: Propel Software (Propel PLM) Configuration API
   slug: propelplm-configuration-api
-- description: The Item API from Propel Software (Propel PLM) — 2 operation(s) for item.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The Item API from Propel Software (Propel PLM) — 2 operation(s) for item.
   name: Propel Software (Propel PLM) Item API
   slug: propelplm-item-api
-- description: The ManufacturerItem API from Propel Software (Propel PLM) — 1 operation(s) for manufactureritem.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The ManufacturerItem API from Propel Software (Propel PLM) — 1 operation(s) for manufactureritem.
   name: Propel Software (Propel PLM) ManufacturerItem API
   slug: propelplm-manufactureritem-api
-- description: The ManufacturerPart API from Propel Software (Propel PLM) — 2 operation(s) for manufacturerpart.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The ManufacturerPart API from Propel Software (Propel PLM) — 2 operation(s) for manufacturerpart.
   name: Propel Software (Propel PLM) ManufacturerPart API
   slug: propelplm-manufacturerpart-api
-- description: The markup API from Propel Software (Propel PLM) — 1 operation(s) for markup.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The markup API from Propel Software (Propel PLM) — 1 operation(s) for markup.
   name: Propel Software (Propel PLM) markup API
   slug: propelplm-markup-api
-- description: The products API from Propel Software (Propel PLM) — 5 operation(s) for products.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The products API from Propel Software (Propel PLM) — 5 operation(s) for products.
   name: Propel Software (Propel PLM) products API
   slug: propelplm-products-api
-- description: The variants API from Propel Software (Propel PLM) — 4 operation(s) for variants.
+- baseURL: https://na85.salesforce.com/services/apexrest/PDLM/api
+  baseurl_source: declared
+  description: The variants API from Propel Software (Propel PLM) — 4 operation(s) for variants.
   name: Propel Software (Propel PLM) variants API
   slug: propelplm-variants-api
 artifact_total: 37
@@ -327,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/screenshots/propelplm-2026-08-17T081348.png
 security:

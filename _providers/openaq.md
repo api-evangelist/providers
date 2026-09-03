@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,73 +45,119 @@ agentic_access:
   summary_line: 64 operations
 api_count: 1
 apis:
-- description: The Averages API from OpenAQ — 1 operation(s) for averages.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Averages API from OpenAQ — 1 operation(s) for averages.
   name: OpenAQ Averages API
   slug: openaq-averages-api
-- description: The Cities API from OpenAQ — 2 operation(s) for cities.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Cities API from OpenAQ — 2 operation(s) for cities.
   name: OpenAQ Cities API
   slug: openaq-cities-api
-- description: The Countries API from OpenAQ — 6 operation(s) for countries.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Countries API from OpenAQ — 6 operation(s) for countries.
   name: OpenAQ Countries API
   slug: openaq-countries-api
-- description: The Daily API from OpenAQ — 2 operation(s) for daily.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Daily API from OpenAQ — 2 operation(s) for daily.
   name: OpenAQ Daily API
   slug: openaq-daily-api
-- description: The Days API from OpenAQ — 5 operation(s) for days.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Days API from OpenAQ — 5 operation(s) for days.
   name: OpenAQ Days API
   slug: openaq-days-api
-- description: The Flags API from OpenAQ — 2 operation(s) for flags.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Flags API from OpenAQ — 2 operation(s) for flags.
   name: OpenAQ Flags API
   slug: openaq-flags-api
-- description: The Hourly API from OpenAQ — 1 operation(s) for hourly.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Hourly API from OpenAQ — 1 operation(s) for hourly.
   name: OpenAQ Hourly API
   slug: openaq-hourly-api
-- description: The Hours API from OpenAQ — 7 operation(s) for hours.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Hours API from OpenAQ — 7 operation(s) for hours.
   name: OpenAQ Hours API
   slug: openaq-hours-api
-- description: The Instruments API from OpenAQ — 3 operation(s) for instruments.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Instruments API from OpenAQ — 3 operation(s) for instruments.
   name: OpenAQ Instruments API
   slug: openaq-instruments-api
-- description: The Latest API from OpenAQ — 6 operation(s) for latest.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Latest API from OpenAQ — 6 operation(s) for latest.
   name: OpenAQ Latest API
   slug: openaq-latest-api
-- description: The Licenses API from OpenAQ — 2 operation(s) for licenses.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Licenses API from OpenAQ — 2 operation(s) for licenses.
   name: OpenAQ Licenses API
   slug: openaq-licenses-api
-- description: The Locations API from OpenAQ — 11 operation(s) for locations.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Locations API from OpenAQ — 11 operation(s) for locations.
   name: OpenAQ Locations API
   slug: openaq-locations-api
-- description: The Manufacturers API from OpenAQ — 3 operation(s) for manufacturers.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Manufacturers API from OpenAQ — 3 operation(s) for manufacturers.
   name: OpenAQ Manufacturers API
   slug: openaq-manufacturers-api
-- description: The Measurements API from OpenAQ — 5 operation(s) for measurements.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Measurements API from OpenAQ — 5 operation(s) for measurements.
   name: OpenAQ Measurements API
   slug: openaq-measurements-api
-- description: The Owners API from OpenAQ — 2 operation(s) for owners.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Owners API from OpenAQ — 2 operation(s) for owners.
   name: OpenAQ Owners API
   slug: openaq-owners-api
-- description: The Parameters API from OpenAQ — 5 operation(s) for parameters.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Parameters API from OpenAQ — 5 operation(s) for parameters.
   name: OpenAQ Parameters API
   slug: openaq-parameters-api
-- description: The Project API from OpenAQ — 1 operation(s) for project.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Project API from OpenAQ — 1 operation(s) for project.
   name: OpenAQ Project API
   slug: openaq-project-api
-- description: The Projects API from OpenAQ — 2 operation(s) for projects.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Projects API from OpenAQ — 2 operation(s) for projects.
   name: OpenAQ Projects API
   slug: openaq-projects-api
-- description: The Providers API from OpenAQ — 2 operation(s) for providers.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Providers API from OpenAQ — 2 operation(s) for providers.
   name: OpenAQ Providers API
   slug: openaq-providers-api
-- description: The Readme API from OpenAQ — 1 operation(s) for readme.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Readme API from OpenAQ — 1 operation(s) for readme.
   name: OpenAQ Readme API
   slug: openaq-readme-api
-- description: The Sensors API from OpenAQ — 19 operation(s) for sensors.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Sensors API from OpenAQ — 19 operation(s) for sensors.
   name: OpenAQ Sensors API
   slug: openaq-sensors-api
-- description: The Sources API from OpenAQ — 3 operation(s) for sources.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Sources API from OpenAQ — 3 operation(s) for sources.
   name: OpenAQ Sources API
   slug: openaq-sources-api
-- description: The Summary API from OpenAQ — 1 operation(s) for summary.
+- baseURL: http://api.example.com
+  baseurl_source: declared
+  description: The Summary API from OpenAQ — 1 operation(s) for summary.
   name: OpenAQ Summary API
   slug: openaq-summary-api
 artifact_total: 60
@@ -287,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
 security:

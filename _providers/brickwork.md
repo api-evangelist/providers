@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 107 operations · 41 acting
 api_count: 1
 apis:
-- description: The Admin Appointments API from Brickwork — 4 operation(s) for admin appointments.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Appointments API from Brickwork — 4 operation(s) for admin appointments.
   name: Brickwork Admin Appointments API
   slug: brickwork-admin-appointments-api
-- description: The Admin Company Users API from Brickwork — 2 operation(s) for admin company users.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Company Users API from Brickwork — 2 operation(s) for admin company users.
   name: Brickwork Admin Company Users API
   slug: brickwork-admin-company-users-api
-- description: The Admin Customer Appointments API from Brickwork — 1 operation(s) for admin customer appointments.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Customer Appointments API from Brickwork — 1 operation(s) for admin customer appointments.
   name: Brickwork Admin Customer Appointments API
   slug: brickwork-admin-customer-appointments-api
-- description: The Admin Customer Rsvps API from Brickwork — 1 operation(s) for admin customer rsvps.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Customer Rsvps API from Brickwork — 1 operation(s) for admin customer rsvps.
   name: Brickwork Admin Customer Rsvps API
   slug: brickwork-admin-customer-rsvps-api
-- description: The Admin Customers API from Brickwork — 3 operation(s) for admin customers.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Customers API from Brickwork — 3 operation(s) for admin customers.
   name: Brickwork Admin Customers API
   slug: brickwork-admin-customers-api
-- description: The Admin Event Rsvps API from Brickwork — 1 operation(s) for admin event rsvps.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Event Rsvps API from Brickwork — 1 operation(s) for admin event rsvps.
   name: Brickwork Admin Event Rsvps API
   slug: brickwork-admin-event-rsvps-api
-- description: The Admin Events API from Brickwork — 2 operation(s) for admin events.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Events API from Brickwork — 2 operation(s) for admin events.
   name: Brickwork Admin Events API
   slug: brickwork-admin-events-api
-- description: The Admin Features API from Brickwork — 2 operation(s) for admin features.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Features API from Brickwork — 2 operation(s) for admin features.
   name: Brickwork Admin Features API
   slug: brickwork-admin-features-api
-- description: The Admin Groups API from Brickwork — 2 operation(s) for admin groups.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Groups API from Brickwork — 2 operation(s) for admin groups.
   name: Brickwork Admin Groups API
   slug: brickwork-admin-groups-api
-- description: The Admin Languages API from Brickwork — 1 operation(s) for admin languages.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Languages API from Brickwork — 1 operation(s) for admin languages.
   name: Brickwork Admin Languages API
   slug: brickwork-admin-languages-api
-- description: The Admin Question Answers API from Brickwork — 2 operation(s) for admin question answers.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Question Answers API from Brickwork — 2 operation(s) for admin question answers.
   name: Brickwork Admin Question Answers API
   slug: brickwork-admin-question-answers-api
-- description: The Admin Questions API from Brickwork — 2 operation(s) for admin questions.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Questions API from Brickwork — 2 operation(s) for admin questions.
   name: Brickwork Admin Questions API
   slug: brickwork-admin-questions-api
-- description: The Admin Rsvps API from Brickwork — 1 operation(s) for admin rsvps.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Rsvps API from Brickwork — 1 operation(s) for admin rsvps.
   name: Brickwork Admin Rsvps API
   slug: brickwork-admin-rsvps-api
-- description: The Admin Services API from Brickwork — 2 operation(s) for admin services.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Services API from Brickwork — 2 operation(s) for admin services.
   name: Brickwork Admin Services API
   slug: brickwork-admin-services-api
-- description: The Admin Store Alerts API from Brickwork — 2 operation(s) for admin store alerts.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Alerts API from Brickwork — 2 operation(s) for admin store alerts.
   name: Brickwork Admin Store Alerts API
   slug: brickwork-admin-store-alerts-api
-- description: The Admin Store Event Rsvps API from Brickwork — 1 operation(s) for admin store event rsvps.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Event Rsvps API from Brickwork — 1 operation(s) for admin store event rsvps.
   name: Brickwork Admin Store Event Rsvps API
   slug: brickwork-admin-store-event-rsvps-api
-- description: The Admin Store Events API from Brickwork — 2 operation(s) for admin store events.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Events API from Brickwork — 2 operation(s) for admin store events.
   name: Brickwork Admin Store Events API
   slug: brickwork-admin-store-events-api
-- description: The Admin Store Images API from Brickwork — 2 operation(s) for admin store images.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Images API from Brickwork — 2 operation(s) for admin store images.
   name: Brickwork Admin Store Images API
   slug: brickwork-admin-store-images-api
-- description: The Admin Store Regular Hours API from Brickwork — 2 operation(s) for admin store regular hours.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Regular Hours API from Brickwork — 2 operation(s) for admin store regular hours.
   name: Brickwork Admin Store Regular Hours API
   slug: brickwork-admin-store-regular-hours-api
-- description: The Admin Store Services API from Brickwork — 2 operation(s) for admin store services.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Services API from Brickwork — 2 operation(s) for admin store services.
   name: Brickwork Admin Store Services API
   slug: brickwork-admin-store-services-api
-- description: The Admin Store Special Hours API from Brickwork — 2 operation(s) for admin store special hours.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Special Hours API from Brickwork — 2 operation(s) for admin store special hours.
   name: Brickwork Admin Store Special Hours API
   slug: brickwork-admin-store-special-hours-api
-- description: The Admin Store Types API from Brickwork — 3 operation(s) for admin store types.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Store Types API from Brickwork — 3 operation(s) for admin store types.
   name: Brickwork Admin Store Types API
   slug: brickwork-admin-store-types-api
-- description: The Admin Stores API from Brickwork — 2 operation(s) for admin stores.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Stores API from Brickwork — 2 operation(s) for admin stores.
   name: Brickwork Admin Stores API
   slug: brickwork-admin-stores-api
-- description: The Admin Transactions API from Brickwork — 5 operation(s) for admin transactions.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin Transactions API from Brickwork — 5 operation(s) for admin transactions.
   name: Brickwork Admin Transactions API
   slug: brickwork-admin-transactions-api
-- description: The Admin User Hours API from Brickwork — 6 operation(s) for admin user hours.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Admin User Hours API from Brickwork — 6 operation(s) for admin user hours.
   name: Brickwork Admin User Hours API
   slug: brickwork-admin-user-hours-api
-- description: The Events API from Brickwork — 2 operation(s) for events.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Events API from Brickwork — 2 operation(s) for events.
   name: Brickwork Events API
   slug: brickwork-events-api
-- description: The Front End Stores API from Brickwork — 7 operation(s) for front end stores.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Front End Stores API from Brickwork — 7 operation(s) for front end stores.
   name: Brickwork Front End Stores API
   slug: brickwork-front-end-stores-api
-- description: The Questions API from Brickwork — 1 operation(s) for questions.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Questions API from Brickwork — 1 operation(s) for questions.
   name: Brickwork Questions API
   slug: brickwork-questions-api
-- description: The Service Appointments API from Brickwork — 1 operation(s) for service appointments.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Service Appointments API from Brickwork — 1 operation(s) for service appointments.
   name: Brickwork Service Appointments API
   slug: brickwork-service-appointments-api
-- description: The Services API from Brickwork — 3 operation(s) for services.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Services API from Brickwork — 3 operation(s) for services.
   name: Brickwork Services API
   slug: brickwork-services-api
-- description: The Store Events API from Brickwork — 1 operation(s) for store events.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Store Events API from Brickwork — 1 operation(s) for store events.
   name: Brickwork Store Events API
   slug: brickwork-store-events-api
-- description: The Store Services API from Brickwork — 2 operation(s) for store services.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Store Services API from Brickwork — 2 operation(s) for store services.
   name: Brickwork Store Services API
   slug: brickwork-store-services-api
-- description: The Utilities API from Brickwork — 1 operation(s) for utilities.
+- baseURL: https://production.brickworksoftware.com
+  baseurl_source: declared
+  description: The Utilities API from Brickwork — 1 operation(s) for utilities.
   name: Brickwork Utilities API
   slug: brickwork-utilities-api
 artifact_total: 71
@@ -378,7 +444,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/screenshots/brickwork-2026-07-25T203804.png
 security:

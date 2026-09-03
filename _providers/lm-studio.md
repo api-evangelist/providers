@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Anthropic-compatible messages endpoint.
+- baseURL: http://localhost:1234
+  baseurl_source: declared
+  description: Anthropic-compatible messages endpoint.
   name: LM Studio Anthropic Compatibility API
   slug: lm-studio-anthropic-compatibility-api
-- description: Native LM Studio chat inference with generation stats.
+- baseURL: http://localhost:1234
+  baseurl_source: declared
+  description: Native LM Studio chat inference with generation stats.
   name: LM Studio Chat API
   slug: lm-studio-chat-api
-- description: List, load, unload, and download local models.
+- baseURL: http://localhost:1234
+  baseurl_source: declared
+  description: List, load, unload, and download local models.
   name: LM Studio Models API
   slug: lm-studio-models-api
-- description: OpenAI-compatible endpoints for reuse of existing OpenAI clients.
+- baseURL: http://localhost:1234
+  baseurl_source: declared
+  description: OpenAI-compatible endpoints for reuse of existing OpenAI clients.
   name: LM Studio OpenAI Compatibility API
   slug: lm-studio-openai-compatibility-api
 artifact_total: 13
@@ -216,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/screenshots/lm-studio-2026-07-25T225416.png
 security:

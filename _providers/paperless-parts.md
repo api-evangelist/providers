@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,43 +36,67 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
   name: Paperless Parts Contacts API
   slug: paperless-parts-contacts-api
-- description: Endpoints for managing custom tables used by Operations to compute pricing.
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for managing custom tables used by Operations to compute pricing.
   name: Paperless Parts Custom Tables API
   slug: paperless-parts-custom-tables-api
-- description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
   name: Paperless Parts Customers API
   slug: paperless-parts-customers-api
-- description: Endpoints for viewing communications between Paperless Parts and ERP integrations
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for viewing communications between Paperless Parts and ERP integrations
   name: Paperless Parts Events API
   slug: paperless-parts-events-api
-- description: Endpoints for interacting with ERP integrations
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for interacting with ERP integrations
   name: Paperless Parts Integration Actions API
   slug: paperless-parts-integration-actions-api
-- description: Endpoints for managing Jobs
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for managing Jobs
   name: Paperless Parts Jobs API
   slug: paperless-parts-jobs-api
-- description: Endpoints for identifying newly placed orders and pulling all information related to a particular order. Also, a new order can be created via open API to turn an existing quote into order.
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for identifying newly placed orders and pulling all information related to a particular order. Also, a new order can be created via open API to turn an existing quote into order.
   name: Paperless Parts Orders API
   slug: paperless-parts-orders-api
-- description: Endpoints for managing Parts
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for managing Parts
   name: Paperless Parts Parts API
   slug: paperless-parts-parts-api
-- description: Endpoints for managing Processes, Operation Definitions, and Add on Definitions
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for managing Processes, Operation Definitions, and Add on Definitions
   name: Paperless Parts Processes API
   slug: paperless-parts-processes-api
-- description: Endpoints for managing purchased components and purchased components columns.
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for managing purchased components and purchased components columns.
   name: Paperless Parts Purchased Components API
   slug: paperless-parts-purchased-components-api
-- description: Endpoints for creating and managing line items on a quote.
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for creating and managing line items on a quote.
   name: Paperless Parts Quote Items API
   slug: paperless-parts-quote-items-api
-- description: Endpoints for identifying newly sent quotes, pulling all information related to a particular quote, and updating a quote's status.
+- baseURL: https://api.paperlessparts.com/v2
+  baseurl_source: declared
+  description: Endpoints for identifying newly sent quotes, pulling all information related to a particular quote, and updating a quote's status.
   name: Paperless Parts Quotes API
   slug: paperless-parts-quotes-api
 artifact_total: 18
@@ -247,23 +283,23 @@ rate_limits:
   slug: paperless-parts-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 50.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.8
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 60.7
+    contract_quality: 64.1
     developer_ergonomics: 49.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 49.9
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     contracts:
@@ -274,8 +310,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paperless-parts/refs/heads/main/screenshots/paperless-parts-2026-09-02T150907.png
 security:
 - kind: authentication
   name: Paperless Parts Authentication

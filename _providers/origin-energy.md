@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -54,64 +54,104 @@ apis:
 - description: The OpenID Connect authorisation server issuing the bearer tokens used by both the Kraken REST and GraphQL APIs. Its discovery document at https://auth.origin-kraken.energy/.well-known/openid-configur
   name: Origin Energy Kraken Authorization Server
   slug: origin-energy-kraken-auth-api
-- description: APIs for importing accounts.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: APIs for importing accounts.
   name: Origin Energy Account Import API
   slug: origin-energy-account-import-api
-- description: APIs for importing businesses with business contracts
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: APIs for importing businesses with business contracts
   name: Origin Energy Business Import API
   slug: origin-energy-business-import-api
-- description: Data Holder Customer endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Origin Energy Data Holder Customers API
   slug: origin-energy-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Origin Energy Data Holder Operations API
   slug: origin-energy-data-holder-operations-api
-- description: The data-import API from Origin Energy — 1 operation(s) for data-import.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: The data-import API from Origin Energy — 1 operation(s) for data-import.
   name: Origin Energy Data Import API
   slug: origin-energy-data-import-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Origin Energy Distributed Energy Resources API
   slug: origin-energy-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Origin Energy Electricity Service Points API
   slug: origin-energy-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Origin Energy Electricity Usage API
   slug: origin-energy-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Origin Energy Energy Account Balances API
   slug: origin-energy-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Origin Energy Energy Account Billing API
   slug: origin-energy-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Origin Energy Energy Accounts API
   slug: origin-energy-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Origin Energy Energy Plans API
   slug: origin-energy-energy-plans-api
-- description: The external-client-healthcheck API from Origin Energy — 1 operation(s) for external-client-healthcheck.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: The external-client-healthcheck API from Origin Energy — 1 operation(s) for external-client-healthcheck.
   name: Origin Energy External Client Healthcheck API
   slug: origin-energy-external-client-healthcheck-api
-- description: The external-events API from Origin Energy — 1 operation(s) for external-events.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: The external-events API from Origin Energy — 1 operation(s) for external-events.
   name: Origin Energy External Events API
   slug: origin-energy-external-events-api
-- description: APIs for placing and managing orders.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: APIs for placing and managing orders.
   name: Origin Energy Orders API
   slug: origin-energy-orders-api
-- description: APIs for importing additional data after an account has been imported.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: APIs for importing additional data after an account has been imported.
   name: Origin Energy Post Account Import API
   slug: origin-energy-post-account-import-api
-- description: APIs for importing additional data after a business has been imported.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: APIs for importing additional data after a business has been imported.
   name: Origin Energy Post Business Import API
   slug: origin-energy-post-business-import-api
-- description: APIs for querying import status and retrieving data
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: APIs for querying import status and retrieving data
   name: Origin Energy Query API
   slug: origin-energy-query-api
-- description: The v1 API from Origin Energy — 5 operation(s) for v1.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: The v1 API from Origin Energy — 5 operation(s) for v1.
   name: Origin Energy V1 API
   slug: origin-energy-v1-api
-- description: The v2 API from Origin Energy — 1 operation(s) for v2.
+- baseURL: https://api.mydata.cdr.originenergy.com.au
+  baseurl_source: declared
+  description: The v2 API from Origin Energy — 1 operation(s) for v2.
   name: Origin Energy V2 API
   slug: origin-energy-v2-api
 artifact_total: 48
@@ -400,7 +440,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -410,7 +450,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 53.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -428,7 +468,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:

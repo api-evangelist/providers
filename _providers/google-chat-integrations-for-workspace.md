@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: REST API for sending and managing messages, spaces, members, reactions, attachments, custom emoji, user notification settings, and read states in Google Chat. Authentication uses OAuth 2.0 user creden
   name: Google Chat API
   slug: chat-api
-- description: The CustomEmojis API from Google Chat Integrations for Workspace — 1 operation(s) for customemojis.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The CustomEmojis API from Google Chat Integrations for Workspace — 1 operation(s) for customemojis.
   name: Google Chat Integrations for Workspace CustomEmojis API
   slug: google-chat-integrations-for-workspace-customemojis-api
-- description: The Google Chat API API from Google Chat Integrations for Workspace — 1 operation(s) for google chat api.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Google Chat API API from Google Chat Integrations for Workspace — 1 operation(s) for google chat api.
   name: Google Chat Integrations for Workspace Google Chat API API
   slug: google-chat-integrations-for-workspace-google-chat-api-api
-- description: The Members API from Google Chat Integrations for Workspace — 1 operation(s) for members.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Members API from Google Chat Integrations for Workspace — 1 operation(s) for members.
   name: Google Chat Integrations for Workspace Members API
   slug: google-chat-integrations-for-workspace-members-api
-- description: The Message API from Google Chat Integrations for Workspace — 1 operation(s) for message.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Message API from Google Chat Integrations for Workspace — 1 operation(s) for message.
   name: Google Chat Integrations for Workspace Message API
   slug: google-chat-integrations-for-workspace-message-api
-- description: The Messages API from Google Chat Integrations for Workspace — 1 operation(s) for messages.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Messages API from Google Chat Integrations for Workspace — 1 operation(s) for messages.
   name: Google Chat Integrations for Workspace Messages API
   slug: google-chat-integrations-for-workspace-messages-api
-- description: The Reactions API from Google Chat Integrations for Workspace — 1 operation(s) for reactions.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Reactions API from Google Chat Integrations for Workspace — 1 operation(s) for reactions.
   name: Google Chat Integrations for Workspace Reactions API
   slug: google-chat-integrations-for-workspace-reactions-api
-- description: The Spaces API from Google Chat Integrations for Workspace — 1 operation(s) for spaces.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Spaces API from Google Chat Integrations for Workspace — 1 operation(s) for spaces.
   name: Google Chat Integrations for Workspace Spaces API
   slug: google-chat-integrations-for-workspace-spaces-api
 artifact_total: 22
@@ -198,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/screenshots/google-chat-integrations-for-workspace-2026-06-20T182041.png
 security:

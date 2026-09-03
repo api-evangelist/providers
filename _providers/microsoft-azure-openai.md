@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 4
 apis:
-- description: The Chat API from Azure OpenAI Service — 1 operation(s) for chat.
+- baseURL: https://{resource}.openai.azure.com/
+  baseurl_source: declared
+  description: The Chat API from Azure OpenAI Service — 1 operation(s) for chat.
   name: Azure OpenAI Service Chat API
   slug: microsoft-azure-openai-chat-api
-- description: The Completions API from Azure OpenAI Service — 1 operation(s) for completions.
+- baseURL: https://{resource}.openai.azure.com/
+  baseurl_source: declared
+  description: The Completions API from Azure OpenAI Service — 1 operation(s) for completions.
   name: Azure OpenAI Service Completions API
   slug: microsoft-azure-openai-completions-api
-- description: The Embeddings API from Azure OpenAI Service — 1 operation(s) for embeddings.
+- baseURL: https://{resource}.openai.azure.com/
+  baseurl_source: declared
+  description: The Embeddings API from Azure OpenAI Service — 1 operation(s) for embeddings.
   name: Azure OpenAI Service Embeddings API
   slug: microsoft-azure-openai-embeddings-api
-- description: The Images API from Azure OpenAI Service — 1 operation(s) for images.
+- baseURL: https://{resource}.openai.azure.com/
+  baseurl_source: declared
+  description: The Images API from Azure OpenAI Service — 1 operation(s) for images.
   name: Azure OpenAI Service Images API
   slug: microsoft-azure-openai-images-api
 artifact_total: 17
@@ -194,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/screenshots/microsoft-azure-openai-2026-06-20T185429.png
 security:

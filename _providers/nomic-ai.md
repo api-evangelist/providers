@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -71,13 +71,19 @@ apis:
 - description: Open-weights vision embedding model that shares an embedding space with nomic-embed-text-v1.5 to support cross-modal retrieval. Published on Hugging Face.
   name: nomic-embed-vision-v1.5 (Open Weights)
   slug: embed-vision-model
-- description: The Embeddings API from Nomic AI — 1 operation(s) for embeddings.
+- baseURL: https://api-atlas.nomic.ai
+  baseurl_source: declared
+  description: The Embeddings API from Nomic AI — 1 operation(s) for embeddings.
   name: Nomic AI Embeddings API
   slug: nomic-ai-embeddings-api
-- description: The Files API from Nomic AI — 2 operation(s) for files.
+- baseURL: https://api-atlas.nomic.ai
+  baseurl_source: declared
+  description: The Files API from Nomic AI — 2 operation(s) for files.
   name: Nomic AI Files API
   slug: nomic-ai-files-api
-- description: The Tasks API from Nomic AI — 1 operation(s) for tasks.
+- baseURL: https://api-atlas.nomic.ai
+  baseurl_source: declared
+  description: The Tasks API from Nomic AI — 1 operation(s) for tasks.
   name: Nomic AI Tasks API
   slug: nomic-ai-tasks-api
 artifact_total: 25
@@ -213,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/screenshots/nomic-ai-2026-06-20T190456.png
 security:

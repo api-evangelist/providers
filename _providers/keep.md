@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 5
@@ -43,85 +43,139 @@ agentic_access:
   summary_line: 136 operations · 81 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The actions API from Keep — 2 operation(s) for actions.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The actions API from Keep — 2 operation(s) for actions.
   name: Keep actions API
   slug: keep-actions-api
-- description: The alerts API from Keep — 24 operation(s) for alerts.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The alerts API from Keep — 24 operation(s) for alerts.
   name: Keep alerts API
   slug: keep-alerts-api
-- description: The auth API from Keep — 8 operation(s) for auth.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The auth API from Keep — 8 operation(s) for auth.
   name: Keep auth API
   slug: keep-auth-api
-- description: The dashboard API from Keep — 3 operation(s) for dashboard.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The dashboard API from Keep — 3 operation(s) for dashboard.
   name: Keep dashboard API
   slug: keep-dashboard-api
-- description: The deduplications API from Keep — 3 operation(s) for deduplications.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The deduplications API from Keep — 3 operation(s) for deduplications.
   name: Keep deduplications API
   slug: keep-deduplications-api
-- description: The enrichment API from Keep — 4 operation(s) for enrichment.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The enrichment API from Keep — 4 operation(s) for enrichment.
   name: Keep enrichment API
   slug: keep-enrichment-api
-- description: The extraction API from Keep — 2 operation(s) for extraction.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The extraction API from Keep — 2 operation(s) for extraction.
   name: Keep extraction API
   slug: keep-extraction-api
-- description: The groups API from Keep — 2 operation(s) for groups.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The groups API from Keep — 2 operation(s) for groups.
   name: Keep groups API
   slug: keep-groups-api
-- description: The healthcheck API from Keep — 1 operation(s) for healthcheck.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The healthcheck API from Keep — 1 operation(s) for healthcheck.
   name: Keep healthcheck API
   slug: keep-healthcheck-api
-- description: The incidents API from Keep — 13 operation(s) for incidents.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The incidents API from Keep — 13 operation(s) for incidents.
   name: Keep incidents API
   slug: keep-incidents-api
-- description: The Keep API API from Keep — 1 operation(s) for keep api.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The Keep API API from Keep — 1 operation(s) for keep api.
   name: Keep Keep API API
   slug: keep-keep-api-api
-- description: The maintenance API from Keep — 2 operation(s) for maintenance.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The maintenance API from Keep — 2 operation(s) for maintenance.
   name: Keep maintenance API
   slug: keep-maintenance-api
-- description: The mapping API from Keep — 2 operation(s) for mapping.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The mapping API from Keep — 2 operation(s) for mapping.
   name: Keep mapping API
   slug: keep-mapping-api
-- description: The metrics API from Keep — 1 operation(s) for metrics.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The metrics API from Keep — 1 operation(s) for metrics.
   name: Keep metrics API
   slug: keep-metrics-api
-- description: The permissions API from Keep — 2 operation(s) for permissions.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The permissions API from Keep — 2 operation(s) for permissions.
   name: Keep permissions API
   slug: keep-permissions-api
-- description: The preset API from Keep — 5 operation(s) for preset.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The preset API from Keep — 5 operation(s) for preset.
   name: Keep preset API
   slug: keep-preset-api
-- description: The providers API from Keep — 16 operation(s) for providers.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The providers API from Keep — 16 operation(s) for providers.
   name: Keep providers API
   slug: keep-providers-api
-- description: The pusher API from Keep — 1 operation(s) for pusher.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The pusher API from Keep — 1 operation(s) for pusher.
   name: Keep pusher API
   slug: keep-pusher-api
-- description: The roles API from Keep — 2 operation(s) for roles.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The roles API from Keep — 2 operation(s) for roles.
   name: Keep roles API
   slug: keep-roles-api
-- description: The rules API from Keep — 2 operation(s) for rules.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The rules API from Keep — 2 operation(s) for rules.
   name: Keep rules API
   slug: keep-rules-api
-- description: The settings API from Keep — 7 operation(s) for settings.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The settings API from Keep — 7 operation(s) for settings.
   name: Keep settings API
   slug: keep-settings-api
-- description: The status API from Keep — 1 operation(s) for status.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The status API from Keep — 1 operation(s) for status.
   name: Keep status API
   slug: keep-status-api
-- description: The tags API from Keep — 1 operation(s) for tags.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The tags API from Keep — 1 operation(s) for tags.
   name: Keep tags API
   slug: keep-tags-api
-- description: The topology API from Keep — 3 operation(s) for topology.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The topology API from Keep — 3 operation(s) for topology.
   name: Keep topology API
   slug: keep-topology-api
-- description: The users API from Keep — 2 operation(s) for users.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The users API from Keep — 2 operation(s) for users.
   name: Keep users API
   slug: keep-users-api
-- description: The whoami API from Keep — 1 operation(s) for whoami.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The whoami API from Keep — 1 operation(s) for whoami.
   name: Keep whoami API
   slug: keep-whoami-api
-- description: The workflows API from Keep — 11 operation(s) for workflows.
+- baseURL: https://api.keephq.dev
+  baseurl_source: declared
+  description: The workflows API from Keep — 11 operation(s) for workflows.
   name: Keep workflows API
   slug: keep-workflows-api
 artifact_total: 60
@@ -326,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keep/refs/heads/main/screenshots/keep-2026-06-20T183935.png
 security:

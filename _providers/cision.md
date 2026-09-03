@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -42,10 +42,14 @@ apis:
 - description: Public data API behind Cision Web Solutions, Cision's embeddable investor relations and online newsroom module library. Serves press release feeds and media feeds (JSON, XML and RSS), share price hist
   name: Cision Web Solutions Public API
   slug: cision-web-solutions-api
-- description: The mentions API from Cision — 1 operation(s) for mentions.
+- baseURL: https://api.cision.one
+  baseurl_source: declared
+  description: The mentions API from Cision — 1 operation(s) for mentions.
   name: Cision Mentions API
   slug: cision-mentions-api
-- description: The stream API from Cision — 2 operation(s) for stream.
+- baseURL: https://api.cision.one
+  baseurl_source: declared
+  description: The stream API from Cision — 2 operation(s) for stream.
   name: Cision Stream API
   slug: cision-stream-api
 artifact_total: 11
@@ -256,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:

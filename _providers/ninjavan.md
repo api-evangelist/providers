@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: OAuth2 client-credentials token issuance.
+- baseURL: https://api.ninjavan.co/{countryCode}
+  baseurl_source: declared
+  description: OAuth2 client-credentials token issuance.
   name: Ninja Van OAuth API API
   slug: ninjavan-oauth-api-api
-- description: Create and cancel delivery orders and generate waybills.
+- baseURL: https://api.ninjavan.co/{countryCode}
+  baseurl_source: declared
+  description: Create and cancel delivery orders and generate waybills.
   name: Ninja Van Order API API
   slug: ninjavan-order-api-api
-- description: Ninja Point pick-up / drop-off locations and shipper drop-off.
+- baseURL: https://api.ninjavan.co/{countryCode}
+  baseurl_source: declared
+  description: Ninja Point pick-up / drop-off locations and shipper drop-off.
   name: Ninja Van PUDO API API
   slug: ninjavan-pudo-api-api
-- description: Estimate shipping price.
+- baseURL: https://api.ninjavan.co/{countryCode}
+  baseurl_source: declared
+  description: Estimate shipping price.
   name: Ninja Van Tariff API API
   slug: ninjavan-tariff-api-api
-- description: Pull tracking events for parcels.
+- baseURL: https://api.ninjavan.co/{countryCode}
+  baseurl_source: declared
+  description: Pull tracking events for parcels.
   name: Ninja Van Tracking API API
   slug: ninjavan-tracking-api-api
 artifact_total: 18
@@ -175,7 +185,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/screenshots/ninjavan-2026-08-07T185328.png
 security:

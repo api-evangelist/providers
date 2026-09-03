@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,220 +47,364 @@ apis:
 - description: The NAIC-operated SERFF (System for Electronic Rates & Forms Filing) platform exposes machine integration services to filers, state regulators and filing vendors. The SERFF Technical Support Checklist
   name: SERFF Web Services
   slug: serff-web-services
-- description: action entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: action entity resources exposed by the NAIC JSON:API.
   name: NAIC Action API
   slug: naic-action-api
-- description: base_field_override entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: base_field_override entity resources exposed by the NAIC JSON:API.
   name: NAIC Base Field Override API
   slug: naic-base-field-override-api
-- description: block entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: block entity resources exposed by the NAIC JSON:API.
   name: NAIC Block API
   slug: naic-block-api
-- description: Reusable content blocks used to compose NAIC pages.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Reusable content blocks used to compose NAIC pages.
   name: NAIC Block Content API
   slug: naic-block-content-api
-- description: block_content_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: block_content_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Block Content Type API
   slug: naic-block-content-type-api
-- description: classy_paragraphs_style entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: classy_paragraphs_style entity resources exposed by the NAIC JSON:API.
   name: NAIC Classy Paragraphs Style API
   slug: naic-classy-paragraphs-style-api
-- description: Comment entities.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Comment entities.
   name: NAIC Comment API
   slug: naic-comment-api
-- description: comment_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: comment_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Comment Type API
   slug: naic-comment-type-api
-- description: Site-wide configuration content, including the sitewide alert.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Site-wide configuration content, including the sitewide alert.
   name: NAIC Config Pages API
   slug: naic-config-pages-api
-- description: config_pages_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: config_pages_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Config Pages Type API
   slug: naic-config-pages-type-api
-- description: configurable_language entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: configurable_language entity resources exposed by the NAIC JSON:API.
   name: NAIC Configurable Language API
   slug: naic-configurable-language-api
-- description: crop entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: crop entity resources exposed by the NAIC JSON:API.
   name: NAIC Crop API
   slug: naic-crop-api
-- description: crop_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: crop_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Crop Type API
   slug: naic-crop-type-api
-- description: date_format entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: date_format entity resources exposed by the NAIC JSON:API.
   name: NAIC Date Format API
   slug: naic-date-format-api
-- description: The JSON:API entry point.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: The JSON:API entry point.
   name: NAIC Discovery API
   slug: naic-discovery-api
-- description: editor entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: editor entity resources exposed by the NAIC JSON:API.
   name: NAIC Editor API
   slug: naic-editor-api
-- description: embed_button entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: embed_button entity resources exposed by the NAIC JSON:API.
   name: NAIC Embed Button API
   slug: naic-embed-button-api
-- description: entity_browser entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: entity_browser entity resources exposed by the NAIC JSON:API.
   name: NAIC Entity Browser API
   slug: naic-entity-browser-api
-- description: entity_extra_field entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: entity_extra_field entity resources exposed by the NAIC JSON:API.
   name: NAIC Entity Extra Field API
   slug: naic-entity-extra-field-api
-- description: entity_form_display entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: entity_form_display entity resources exposed by the NAIC JSON:API.
   name: NAIC Entity Form Display API
   slug: naic-entity-form-display-api
-- description: entity_form_mode entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: entity_form_mode entity resources exposed by the NAIC JSON:API.
   name: NAIC Entity Form Mode API
   slug: naic-entity-form-mode-api
-- description: entity_view_display entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: entity_view_display entity resources exposed by the NAIC JSON:API.
   name: NAIC Entity View Display API
   slug: naic-entity-view-display-api
-- description: entity_view_mode entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: entity_view_mode entity resources exposed by the NAIC JSON:API.
   name: NAIC Entity View Mode API
   slug: naic-entity-view-mode-api
-- description: Event entities.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Event entities.
   name: NAIC Event Entity API
   slug: naic-event-entity-api
-- description: Feeds importer configuration for state contacts, departments and meeting calendars.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Feeds importer configuration for state contacts, departments and meeting calendars.
   name: NAIC Feeds Feed API
   slug: naic-feeds-feed-api
-- description: feeds_feed_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: feeds_feed_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Feeds Feed Type API
   slug: naic-feeds-feed-type-api
-- description: feeds_subscription entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: feeds_subscription entity resources exposed by the NAIC JSON:API.
   name: NAIC Feeds Subscription API
   slug: naic-feeds-subscription-api
-- description: field_config entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: field_config entity resources exposed by the NAIC JSON:API.
   name: NAIC Field Config API
   slug: naic-field-config-api
-- description: field_storage_config entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: field_storage_config entity resources exposed by the NAIC JSON:API.
   name: NAIC Field Storage Config API
   slug: naic-field-storage-config-api
-- description: Uploaded file entities backing the media entities.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Uploaded file entities backing the media entities.
   name: NAIC File API
   slug: naic-file-api
-- description: filter_format entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: filter_format entity resources exposed by the NAIC JSON:API.
   name: NAIC Filter Format API
   slug: naic-filter-format-api
-- description: image_style entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: image_style entity resources exposed by the NAIC JSON:API.
   name: NAIC Image Style API
   slug: naic-image-style-api
-- description: imce_profile entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: imce_profile entity resources exposed by the NAIC JSON:API.
   name: NAIC Imce Profile API
   slug: naic-imce-profile-api
-- description: language_content_settings entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: language_content_settings entity resources exposed by the NAIC JSON:API.
   name: NAIC Language Content Settings API
   slug: naic-language-content-settings-api
-- description: layout_builder_browser_block entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: layout_builder_browser_block entity resources exposed by the NAIC JSON:API.
   name: NAIC Layout Builder Browser Block API
   slug: naic-layout-builder-browser-block-api
-- description: layout_builder_browser_blockcat entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: layout_builder_browser_blockcat entity resources exposed by the NAIC JSON:API.
   name: NAIC Layout Builder Browser Blockcat API
   slug: naic-layout-builder-browser-blockcat-api
-- description: linkit_profile entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: linkit_profile entity resources exposed by the NAIC JSON:API.
   name: NAIC Linkit Profile API
   slug: naic-linkit-profile-api
-- description: Media entities — documents (PDF publications, reports), images, video and audio.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Media entities — documents (PDF publications, reports), images, video and audio.
   name: NAIC Media API
   slug: naic-media-api
-- description: media_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: media_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Media Type API
   slug: naic-media-type-api
-- description: menu entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: menu entity resources exposed by the NAIC JSON:API.
   name: NAIC Menu API
   slug: naic-menu-api
-- description: Site navigation menu links.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Site navigation menu links.
   name: NAIC Menu Link Content API
   slug: naic-menu-link-content-api
-- description: metatag_defaults entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: metatag_defaults entity resources exposed by the NAIC JSON:API.
   name: NAIC Metatag Defaults API
   slug: naic-metatag-defaults-api
-- description: Drupal content nodes — the NAIC's articles, committee pages, publications pages, state insurance department contacts, newsletters, calendars and generic pages.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Drupal content nodes — the NAIC's articles, committee pages, publications pages, state insurance department contacts, newsletters, calendars and generic pages.
   name: NAIC Node API
   slug: naic-node-api
-- description: node_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: node_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Node Type API
   slug: naic-node-type-api
-- description: Paragraph entities — the composable page building blocks.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Paragraph entities — the composable page building blocks.
   name: NAIC Paragraph API
   slug: naic-paragraph-api
-- description: paragraphs_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: paragraphs_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Paragraphs Type API
   slug: naic-paragraphs-type-api
-- description: path_alias entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: path_alias entity resources exposed by the NAIC JSON:API.
   name: NAIC Path Alias API
   slug: naic-path-alias-api
-- description: pathauto_pattern entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: pathauto_pattern entity resources exposed by the NAIC JSON:API.
   name: NAIC Pathauto Pattern API
   slug: naic-pathauto-pattern-api
-- description: print_engine entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: print_engine entity resources exposed by the NAIC JSON:API.
   name: NAIC Print Engine API
   slug: naic-print-engine-api
-- description: rdf_mapping entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: rdf_mapping entity resources exposed by the NAIC JSON:API.
   name: NAIC Rdf Mapping API
   slug: naic-rdf-mapping-api
-- description: redirect entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: redirect entity resources exposed by the NAIC JSON:API.
   name: NAIC Redirect API
   slug: naic-redirect-api
-- description: rest_resource_config entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: rest_resource_config entity resources exposed by the NAIC JSON:API.
   name: NAIC Rest Resource Config API
   slug: naic-rest-resource-config-api
-- description: search_api_index entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: search_api_index entity resources exposed by the NAIC JSON:API.
   name: NAIC Search API Index API
   slug: naic-search-api-index-api
-- description: search_api_server entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: search_api_server entity resources exposed by the NAIC JSON:API.
   name: NAIC Search API Server API
   slug: naic-search-api-server-api
-- description: search_api_task entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: search_api_task entity resources exposed by the NAIC JSON:API.
   name: NAIC Search API Task API
   slug: naic-search-api-task-api
-- description: settings entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: settings entity resources exposed by the NAIC JSON:API.
   name: NAIC Settings API
   slug: naic-settings-api
-- description: shortcut entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: shortcut entity resources exposed by the NAIC JSON:API.
   name: NAIC Shortcut API
   slug: naic-shortcut-api
-- description: shortcut_set entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: shortcut_set entity resources exposed by the NAIC JSON:API.
   name: NAIC Shortcut Set API
   slug: naic-shortcut-set-api
-- description: simple_sitemap entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: simple_sitemap entity resources exposed by the NAIC JSON:API.
   name: NAIC Simple Sitemap API
   slug: naic-simple-sitemap-api
-- description: simple_sitemap_engine entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: simple_sitemap_engine entity resources exposed by the NAIC JSON:API.
   name: NAIC Simple Sitemap Engine API
   slug: naic-simple-sitemap-engine-api
-- description: simple_sitemap_type entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: simple_sitemap_type entity resources exposed by the NAIC JSON:API.
   name: NAIC Simple Sitemap Type API
   slug: naic-simple-sitemap-type-api
-- description: slick entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: slick entity resources exposed by the NAIC JSON:API.
   name: NAIC Slick API
   slug: naic-slick-api
-- description: Controlled vocabularies — model laws, insurance types, states, committees, publications, research topics and the rest of the NAIC's classification terms.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: Controlled vocabularies — model laws, insurance types, states, committees, publications, research topics and the rest of the NAIC's classification terms.
   name: NAIC Taxonomy Term API
   slug: naic-taxonomy-term-api
-- description: taxonomy_vocabulary entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: taxonomy_vocabulary entity resources exposed by the NAIC JSON:API.
   name: NAIC Taxonomy Vocabulary API
   slug: naic-taxonomy-vocabulary-api
-- description: toolbar_menu_element entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: toolbar_menu_element entity resources exposed by the NAIC JSON:API.
   name: NAIC Toolbar Menu Element API
   slug: naic-toolbar-menu-element-api
-- description: User entities (public fields only for anonymous callers).
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: User entities (public fields only for anonymous callers).
   name: NAIC User API
   slug: naic-user-api
-- description: user_role entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: user_role entity resources exposed by the NAIC JSON:API.
   name: NAIC User Role API
   slug: naic-user-role-api
-- description: view entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: view entity resources exposed by the NAIC JSON:API.
   name: NAIC View API
   slug: naic-view-api
-- description: webform entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: webform entity resources exposed by the NAIC JSON:API.
   name: NAIC Webform API
   slug: naic-webform-api
-- description: webform_options entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: webform_options entity resources exposed by the NAIC JSON:API.
   name: NAIC Webform Options API
   slug: naic-webform-options-api
-- description: webform_submission entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: webform_submission entity resources exposed by the NAIC JSON:API.
   name: NAIC Webform Submission API
   slug: naic-webform-submission-api
-- description: workflow entity resources exposed by the NAIC JSON:API.
+- baseURL: https://services.serff.com/
+  baseurl_source: declared
+  description: workflow entity resources exposed by the NAIC JSON:API.
   name: NAIC Workflow API
   slug: naic-workflow-api
 artifact_total: 83
@@ -407,20 +562,20 @@ overview: 'NAIC publishes 72 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 12
 score:
   band: thin
-  composite: 33.3
+  composite: 31.4
   coverage:
     artifact_dirs: 17
-    catalog_gap: 63.0
+    catalog_gap: 73.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 4.5
     contract_quality: 16.5
     developer_ergonomics: 39.9
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 0.0
   previous_composite: 33.3
@@ -441,7 +596,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/naic/refs/heads/main/screenshots/naic-2026-08-07T184609.png
 security:

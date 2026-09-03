@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: The AspenTech Inmation Simple Call Interface (SCI) API provides a simplified HTTP interface for communicating with the Inmation industrial data platform. Designed for straightforward read/write access
   name: AspenTech Inmation Simple Call Interface (SCI) API
   slug: inmation-sci-api
-- description: Read and write process data points
+- baseURL: http://hostname:8002
+  baseurl_source: declared
+  description: Read and write process data points
   name: AspenTech Data API
   slug: aspentech-data-api
-- description: Historical time-series data access
+- baseURL: http://hostname:8002
+  baseurl_source: declared
+  description: Historical time-series data access
   name: AspenTech Historical API
   slug: aspentech-historical-api
-- description: Configuration item management
+- baseURL: http://hostname:8002
+  baseurl_source: declared
+  description: Configuration item management
   name: AspenTech Items API
   slug: aspentech-items-api
-- description: System information and health
+- baseURL: http://hostname:8002
+  baseurl_source: declared
+  description: System information and health
   name: AspenTech System API
   slug: aspentech-system-api
 artifact_total: 30
@@ -223,7 +231,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/screenshots/aspentech-2026-06-20T172502.png
 security:

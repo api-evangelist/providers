@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 5
 apis:
-- description: The DNS API from Weave Net — 2 operation(s) for dns.
+- baseURL: http://127.0.0.1:6784
+  baseurl_source: spec
+  description: The DNS API from Weave Net — 2 operation(s) for dns.
   name: Weave Net DNS API
   slug: weave-net-dns-api
-- description: The IPAM API from Weave Net — 3 operation(s) for ipam.
+- baseURL: http://127.0.0.1:6784
+  baseurl_source: spec
+  description: The IPAM API from Weave Net — 3 operation(s) for ipam.
   name: Weave Net IPAM API
   slug: weave-net-ipam-api
-- description: The Network API from Weave Net — 1 operation(s) for network.
+- baseURL: http://127.0.0.1:6784
+  baseurl_source: spec
+  description: The Network API from Weave Net — 1 operation(s) for network.
   name: Weave Net Network API
   slug: weave-net-network-api
-- description: The Peers API from Weave Net — 2 operation(s) for peers.
+- baseURL: http://127.0.0.1:6784
+  baseurl_source: spec
+  description: The Peers API from Weave Net — 2 operation(s) for peers.
   name: Weave Net Peers API
   slug: weave-net-peers-api
-- description: The Status API from Weave Net — 1 operation(s) for status.
+- baseURL: http://127.0.0.1:6784
+  baseurl_source: spec
+  description: The Status API from Weave Net — 1 operation(s) for status.
   name: Weave Net Status API
   slug: weave-net-status-api
 artifact_total: 51
@@ -285,7 +295,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png
 slug: weave-net

@@ -23,34 +23,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: A hosted Model Context Protocol server that wraps the CargoCONNECT endpoints as tools for AI assistants - track a shipment by AWB, search flight rates, look up airline contacts and ground handling age
   name: CargoAi MCP Connector
   slug: cargoai-mcp-connector
-- description: The Ai API from CargoAi — 2 operation(s) for ai.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Ai API from CargoAi — 2 operation(s) for ai.
   name: CargoAi AI API
   slug: cargoai-ai-api
-- description: The Book API from CargoAi — 1 operation(s) for book.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Book API from CargoAi — 1 operation(s) for book.
   name: CargoAi Book API
   slug: cargoai-book-api
-- description: The Bookings API from CargoAi — 1 operation(s) for bookings.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Bookings API from CargoAi — 1 operation(s) for bookings.
   name: CargoAi Bookings API
   slug: cargoai-bookings-api
-- description: The Co2calculation API from CargoAi — 1 operation(s) for co2calculation.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Co2calculation API from CargoAi — 1 operation(s) for co2calculation.
   name: CargoAi Co2calculation API
   slug: cargoai-co2calculation-api
-- description: The Eawb API from CargoAi — 1 operation(s) for eawb.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Eawb API from CargoAi — 1 operation(s) for eawb.
   name: CargoAi Eawb API
   slug: cargoai-eawb-api
-- description: The Search API from CargoAi — 1 operation(s) for search.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Search API from CargoAi — 1 operation(s) for search.
   name: CargoAi Search API
   slug: cargoai-search-api
-- description: The Track API from CargoAi — 3 operation(s) for track.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Track API from CargoAi — 3 operation(s) for track.
   name: CargoAi Track API
   slug: cargoai-track-api
-- description: The Users API from CargoAi — 1 operation(s) for users.
+- baseURL: https://api.cargoai.co/solutions
+  baseurl_source: declared
+  description: The Users API from CargoAi — 1 operation(s) for users.
   name: CargoAi Users API
   slug: cargoai-users-api
 artifact_total: 16
@@ -172,7 +188,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png
 slug: cargoai

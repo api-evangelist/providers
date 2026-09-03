@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 27 operations · 3 acting
 api_count: 1
 apis:
-- description: Notes, email, and issue activity on an account.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Notes, email, and issue activity on an account.
   name: WM Activities API
   slug: wm-activities-api
-- description: Service cases and pickup tickets.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Service cases and pickup tickets.
   name: WM Cases & Tickets API
   slug: wm-cases-tickets-api
-- description: Billing and service contacts on an account.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Billing and service contacts on an account.
   name: WM Contacts API
   slug: wm-contacts-api
-- description: Invoice history and account balance.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Invoice history and account balance.
   name: WM Invoices & Balance API
   slug: wm-invoices-balance-api
-- description: Account profile settings and communication preferences.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Account profile settings and communication preferences.
   name: WM Profiles & Preferences API
   slug: wm-profiles-preferences-api
-- description: Routing and hauling material information.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Routing and hauling material information.
   name: WM Service Operations & Materials API
   slug: wm-service-operations-materials-api
-- description: Base rates and invoice fees.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Base rates and invoice fees.
   name: WM Service Pricing API
   slug: wm-service-pricing-api
-- description: Account services, schedule, status, and ETA.
+- baseURL: https://api.wm.com/v1
+  baseurl_source: declared
+  description: Account services, schedule, status, and ETA.
   name: WM Services API
   slug: wm-services-api
 artifact_total: 24
@@ -170,7 +186,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +209,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/screenshots/wm-2026-09-02T170901.png
 security:
 - kind: authentication
   name: Wm Authentication

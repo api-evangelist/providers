@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Register HTTP callback URLs to receive real-time notifications when events occur on your account - for example when a new episode is published. Webhooks are server-to-endpoint HTTP callbacks, not a bi
   name: Acast Webhooks
   slug: acast-webhooks-api
-- description: Place or update ad markers on an episode for dynamic ad insertion.
+- baseURL: https://api.acast.com
+  baseurl_source: declared
+  description: Place or update ad markers on an episode for dynamic ad insertion.
   name: Acast Ad Markers API
   slug: acast-ad-markers-api
-- description: Create, read, update, and delete episodes within a show.
+- baseURL: https://api.acast.com
+  baseurl_source: declared
+  description: Create, read, update, and delete episodes within a show.
   name: Acast Episodes API
   slug: acast-episodes-api
-- description: Read podcast show metadata assigned to the API key's user.
+- baseURL: https://api.acast.com
+  baseurl_source: declared
+  description: Read podcast show metadata assigned to the API key's user.
   name: Acast Shows API
   slug: acast-shows-api
 artifact_total: 15
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acast/refs/heads/main/screenshots/acast-2026-07-25T181426.png
 security:

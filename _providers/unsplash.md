@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 29 operations · 7 acting
 api_count: 1
 apis:
-- description: Photo collection management
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: Photo collection management
   name: Unsplash Collections API
   slug: unsplash-collections-api
-- description: Authenticated user operations
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: Authenticated user operations
   name: Unsplash Current User API
   slug: unsplash-current-user-api
-- description: Photo browsing and management operations
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: Photo browsing and management operations
   name: Unsplash Photos API
   slug: unsplash-photos-api
-- description: Search photos, collections, and users
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: Search photos, collections, and users
   name: Unsplash Search API
   slug: unsplash-search-api
-- description: Platform statistics
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: Platform statistics
   name: Unsplash Stats API
   slug: unsplash-stats-api
-- description: Editorial topic operations
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: Editorial topic operations
   name: Unsplash Topics API
   slug: unsplash-topics-api
-- description: User profile operations
+- baseURL: https://api.unsplash.com
+  baseurl_source: declared
+  description: User profile operations
   name: Unsplash Users API
   slug: unsplash-users-api
 artifact_total: 31
@@ -257,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/screenshots/unsplash-2026-08-17T082634.png
 security:

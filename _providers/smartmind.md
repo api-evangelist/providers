@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 34 operations · 18 acting
 api_count: 1
 apis:
-- description: The file API from SmartMind — 4 operation(s) for file.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The file API from SmartMind — 4 operation(s) for file.
   name: SmartMind file API
   slug: smartmind-file-api
-- description: The health API from SmartMind — 1 operation(s) for health.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The health API from SmartMind — 1 operation(s) for health.
   name: SmartMind health API
   slug: smartmind-health-api
-- description: The metric API from SmartMind — 1 operation(s) for metric.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The metric API from SmartMind — 1 operation(s) for metric.
   name: SmartMind metric API
   slug: smartmind-metric-api
-- description: The query API from SmartMind — 4 operation(s) for query.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The query API from SmartMind — 4 operation(s) for query.
   name: SmartMind query API
   slug: smartmind-query-api
-- description: The schema API from SmartMind — 2 operation(s) for schema.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The schema API from SmartMind — 2 operation(s) for schema.
   name: SmartMind schema API
   slug: smartmind-schema-api
-- description: The table API from SmartMind — 7 operation(s) for table.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The table API from SmartMind — 7 operation(s) for table.
   name: SmartMind table API
   slug: smartmind-table-api
-- description: The table_template API from SmartMind — 2 operation(s) for table_template.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The table_template API from SmartMind — 2 operation(s) for table_template.
   name: SmartMind table_template API
   slug: smartmind-table-template-api
-- description: The view API from SmartMind — 2 operation(s) for view.
+- baseURL: https://thanosql-sdk-python.readthedocs.io/en/latest/
+  baseurl_source: declared
+  description: The view API from SmartMind — 2 operation(s) for view.
   name: SmartMind view API
   slug: smartmind-view-api
 artifact_total: 21
@@ -206,7 +222,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -232,8 +248,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smartmind/refs/heads/main/screenshots/smartmind-2026-09-02T155926.png
 security:
 - kind: authentication
   name: Smartmind Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -47,10 +47,14 @@ apis:
 - description: ANU's research information portal and public researcher/output profiles, running on Elsevier Pure. This is a genuine institutional fact and one of the few programmable research surfaces ANU has, so th
   name: ANU Research Portal Plus (Elsevier Pure) — TENANT
   slug: research-portal-pure
-- description: OAI-PMH verbs for metadata harvesting.
+- baseURL: https://api.quantumnumbers.anu.edu.au
+  baseurl_source: declared
+  description: OAI-PMH verbs for metadata harvesting.
   name: Australian National University Harvesting API
   slug: anu-harvesting-api
-- description: Retrieval of quantum-generated random values.
+- baseURL: https://api.quantumnumbers.anu.edu.au
+  baseurl_source: declared
+  description: Retrieval of quantum-generated random values.
   name: Australian National University Random Numbers API
   slug: anu-random-numbers-api
 artifact_total: 18
@@ -266,7 +270,7 @@ score:
     catalog_gap: 30.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -276,7 +280,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 42.1
-  previous_composite: 52.4
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     contracts:
@@ -291,7 +295,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -59,70 +59,114 @@ apis:
 - description: Remote device control and maintenance for POS terminal estates. The VHQ (VerifoneHQ) API enables automated device management, software deployment, health monitoring, application configuration, and rea
   name: Verifone VHQ Device Management API
   slug: verifone-vhq-device-management-api
-- description: Operations for listing and retrieving 3DS authentication records. Use these endpoints to query historical authentication results filtered by amount, currency, card, status, and more.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: Operations for listing and retrieving 3DS authentication records. Use these endpoints to query historical authentication results filtered by amount, currency, card, status, and more.
   name: Verifone 3DS Authentication API
   slug: verifone-3ds-authentication-api
-- description: The Batch API from Verifone — 1 operation(s) for batch.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Batch API from Verifone — 1 operation(s) for batch.
   name: Verifone Batch API
   slug: verifone-batch-api
-- description: The Billing Agreement API from Verifone — 5 operation(s) for billing agreement.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Billing Agreement API from Verifone — 5 operation(s) for billing agreement.
   name: Verifone Billing Agreement API
   slug: verifone-billing-agreement-api
-- description: The Billing Plans API from Verifone — 5 operation(s) for billing plans.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Billing Plans API from Verifone — 5 operation(s) for billing plans.
   name: Verifone Billing Plans API
   slug: verifone-billing-plans-api
-- description: Create, retrieve, update, and manage checkout sessions. A checkout session generates a hosted payment page URL that the customer visits to complete payment.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage checkout sessions. A checkout session generates a hosted payment page URL that the customer visits to complete payment.
   name: Verifone Checkout API
   slug: verifone-checkout-api
-- description: Operations for creating, retrieving, updating, and deleting customer records.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting customer records.
   name: Verifone Customer API
   slug: verifone-customer-api
-- description: The Ecom Payments API from Verifone — 10 operation(s) for ecom payments.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Ecom Payments API from Verifone — 10 operation(s) for ecom payments.
   name: Verifone Ecom Payments API
   slug: verifone-ecom-payments-api
-- description: The Hardware Orders API from Verifone — 1 operation(s) for hardware orders.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Hardware Orders API from Verifone — 1 operation(s) for hardware orders.
   name: Verifone Hardware Orders API
   slug: verifone-hardware-orders-api
-- description: The Lookup API from Verifone — 1 operation(s) for lookup.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Lookup API from Verifone — 1 operation(s) for lookup.
   name: Verifone Lookup API
   slug: verifone-lookup-api
-- description: The Merchant Maintenance API from Verifone — 1 operation(s) for merchant maintenance.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Merchant Maintenance API from Verifone — 1 operation(s) for merchant maintenance.
   name: Verifone Merchant Maintenance API
   slug: verifone-merchant-maintenance-api
-- description: Operations to manage merchant orders.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: Operations to manage merchant orders.
   name: Verifone Merchant Orders API
   slug: verifone-merchant-orders-api
-- description: The Payment Modifications API from Verifone — 12 operation(s) for payment modifications.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Payment Modifications API from Verifone — 12 operation(s) for payment modifications.
   name: Verifone Payment Modifications API
   slug: verifone-payment-modifications-api
-- description: The POI Maintenance API from Verifone — 1 operation(s) for poi maintenance.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The POI Maintenance API from Verifone — 1 operation(s) for poi maintenance.
   name: Verifone POI Maintenance API
   slug: verifone-poi-maintenance-api
-- description: The POI Orders API from Verifone — 1 operation(s) for poi orders.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The POI Orders API from Verifone — 1 operation(s) for poi orders.
   name: Verifone POI Orders API
   slug: verifone-poi-orders-api
-- description: The Products API from Verifone — 2 operation(s) for products.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Products API from Verifone — 2 operation(s) for products.
   name: Verifone Products API
   slug: verifone-products-api
-- description: The Reports API from Verifone — 1 operation(s) for reports.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Reports API from Verifone — 1 operation(s) for reports.
   name: Verifone Reports API
   slug: verifone-reports-api
-- description: The Subscriptions API from Verifone — 7 operation(s) for subscriptions.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Subscriptions API from Verifone — 7 operation(s) for subscriptions.
   name: Verifone Subscriptions API
   slug: verifone-subscriptions-api
-- description: The Templating API from Verifone — 1 operation(s) for templating.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Templating API from Verifone — 1 operation(s) for templating.
   name: Verifone Templating API
   slug: verifone-templating-api
-- description: The Theming API from Verifone — 1 operation(s) for theming.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Theming API from Verifone — 1 operation(s) for theming.
   name: Verifone Theming API
   slug: verifone-theming-api
-- description: The Token Management API from Verifone — 4 operation(s) for token management.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Token Management API from Verifone — 4 operation(s) for token management.
   name: Verifone Token Management API
   slug: verifone-token-management-api
-- description: The Transaction API from Verifone — 3 operation(s) for transaction.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Transaction API from Verifone — 3 operation(s) for transaction.
   name: Verifone Transaction API
   slug: verifone-transaction-api
-- description: The Transactions API from Verifone — 7 operation(s) for transactions.
+- baseURL: https://us.gsc.verifone.cloud/oidc/checkout-service
+  baseurl_source: declared
+  description: The Transactions API from Verifone — 7 operation(s) for transactions.
   name: Verifone Transactions API
   slug: verifone-transactions-api
 artifact_total: 565
@@ -1849,7 +1893,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/screenshots/verifone-2026-06-20T200926.png
 security:

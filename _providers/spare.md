@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 99 operations · 34 acting · 2 human-in-the-loop
 api_count: 7
 apis:
-- description: The Account API from Spare — 4 operation(s) for account.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Account API from Spare — 4 operation(s) for account.
   name: Spare Account API
   slug: spare-account-api
-- description: The AccountInformationReport API from Spare — 5 operation(s) for accountinformationreport.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The AccountInformationReport API from Spare — 5 operation(s) for accountinformationreport.
   name: Spare AccountInformationReport API
   slug: spare-accountinformationreport-api
-- description: The Balance API from Spare — 3 operation(s) for balance.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Balance API from Spare — 3 operation(s) for balance.
   name: Spare Balance API
   slug: spare-balance-api
-- description: The Beneficiary API from Spare — 1 operation(s) for beneficiary.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Beneficiary API from Spare — 1 operation(s) for beneficiary.
   name: Spare Beneficiary API
   slug: spare-beneficiary-api
-- description: The Cert API from Spare — 1 operation(s) for cert.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Cert API from Spare — 1 operation(s) for cert.
   name: Spare Cert API
   slug: spare-cert-api
-- description: The Connection API from Spare — 4 operation(s) for connection.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Connection API from Spare — 4 operation(s) for connection.
   name: Spare Connection API
   slug: spare-connection-api
-- description: The Consent API from Spare — 9 operation(s) for consent.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Consent API from Spare — 9 operation(s) for consent.
   name: Spare Consent API
   slug: spare-consent-api
-- description: The Customer API from Spare — 5 operation(s) for customer.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Customer API from Spare — 5 operation(s) for customer.
   name: Spare Customer API
   slug: spare-customer-api
-- description: The DirectDebit API from Spare — 1 operation(s) for directdebit.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The DirectDebit API from Spare — 1 operation(s) for directdebit.
   name: Spare DirectDebit API
   slug: spare-directdebit-api
-- description: The Parties API from Spare — 1 operation(s) for parties.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Parties API from Spare — 1 operation(s) for parties.
   name: Spare Parties API
   slug: spare-parties-api
-- description: The Payment API from Spare — 2 operation(s) for payment.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Payment API from Spare — 2 operation(s) for payment.
   name: Spare Payment API
   slug: spare-payment-api
-- description: The Provider API from Spare — 2 operation(s) for provider.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Provider API from Spare — 2 operation(s) for provider.
   name: Spare Provider API
   slug: spare-provider-api
-- description: The Request API from Spare — 11 operation(s) for request.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Request API from Spare — 11 operation(s) for request.
   name: Spare Request API
   slug: spare-request-api
-- description: The RiskReport API from Spare — 6 operation(s) for riskreport.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The RiskReport API from Spare — 6 operation(s) for riskreport.
   name: Spare RiskReport API
   slug: spare-riskreport-api
-- description: The Statement API from Spare — 1 operation(s) for statement.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Statement API from Spare — 1 operation(s) for statement.
   name: Spare Statement API
   slug: spare-statement-api
-- description: The Token API from Spare — 2 operation(s) for token.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Token API from Spare — 2 operation(s) for token.
   name: Spare Token API
   slug: spare-token-api
-- description: The Transaction API from Spare — 5 operation(s) for transaction.
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Transaction API from Spare — 5 operation(s) for transaction.
   name: Spare Transaction API
   slug: spare-transaction-api
 artifact_total: 42
@@ -320,7 +354,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -330,7 +364,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 53.4
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -348,7 +382,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/screenshots/spare-2026-08-17T082018.png
 security:

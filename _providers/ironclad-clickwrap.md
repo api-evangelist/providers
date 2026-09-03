@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 3 acting
 api_count: 1
 apis:
-- description: Send acceptance, rejection, and view events.
+- baseURL: https://pactsafe.io
+  baseurl_source: declared
+  description: Send acceptance, rejection, and view events.
   name: Ironclad Clickwrap Activity API
   slug: ironclad-clickwrap-activity-api
-- description: Manage individual contract documents.
+- baseURL: https://pactsafe.io
+  baseurl_source: declared
+  description: Manage individual contract documents.
   name: Ironclad Clickwrap Contracts API
   slug: ironclad-clickwrap-contracts-api
-- description: Manage clickwrap groups (containers of contracts).
+- baseURL: https://pactsafe.io
+  baseurl_source: declared
+  description: Manage clickwrap groups (containers of contracts).
   name: Ironclad Clickwrap Groups API
   slug: ironclad-clickwrap-groups-api
-- description: Manage end users who accept agreements.
+- baseURL: https://pactsafe.io
+  baseurl_source: declared
+  description: Manage end users who accept agreements.
   name: Ironclad Clickwrap Signers API
   slug: ironclad-clickwrap-signers-api
-- description: Manage sites that host clickwrap groups.
+- baseURL: https://pactsafe.io
+  baseurl_source: declared
+  description: Manage sites that host clickwrap groups.
   name: Ironclad Clickwrap Sites API
   slug: ironclad-clickwrap-sites-api
 artifact_total: 20
@@ -189,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/screenshots/ironclad-clickwrap-2026-06-20T183613.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Real-time WebSocket API for streaming market data including tickers, order books, and trade executions, as well as authenticated streams for personal order updates and account changes.
   name: Bithumb WebSocket API
   slug: bithumb-websocket-api
-- description: Asset account management
+- baseURL: https://api.bithumb.com
+  baseurl_source: declared
+  description: Asset account management
   name: Bithumb Account API
   slug: bithumb-account-api
-- description: Server time and configuration
+- baseURL: https://api.bithumb.com
+  baseurl_source: declared
+  description: Server time and configuration
   name: Bithumb General API
   slug: bithumb-general-api
-- description: Public spot market data endpoints
+- baseURL: https://api.bithumb.com
+  baseurl_source: declared
+  description: Public spot market data endpoints
   name: Bithumb Market Data API
   slug: bithumb-market-data-api
-- description: Authenticated spot order management
+- baseURL: https://api.bithumb.com
+  baseurl_source: declared
+  description: Authenticated spot order management
   name: Bithumb Spot Trading API
   slug: bithumb-spot-trading-api
-- description: Deposit and withdrawal history
+- baseURL: https://api.bithumb.com
+  baseurl_source: declared
+  description: Deposit and withdrawal history
   name: Bithumb Wallet API
   slug: bithumb-wallet-api
 artifact_total: 24
@@ -220,7 +230,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png
 security:

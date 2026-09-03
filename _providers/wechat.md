@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,9 @@ apis:
 - description: Client-side JavaScript API exposed inside the WeChat runtime to Mini Programs and Mini Games. Covers network (wx.request, wx.downloadFile, wx.uploadFile), storage, UI / navigation, media (audio, video
   name: WeChat Mini Programs Client API
   slug: wechat-mini-programs-client-api
-- description: WeChat Pay's third-generation REST API for mainland-China direct-connect merchants. Authenticates with merchant API certificates and platform-key signed requests over HTTPS/JSON. Covers JSAPI / Native
+- baseURL: https://api.mch.weixin.qq.com
+  baseurl_source: declared
+  description: WeChat Pay's third-generation REST API for mainland-China direct-connect merchants. Authenticates with merchant API certificates and platform-key signed requests over HTTPS/JSON. Covers JSAPI / Native
   name: WeChat Pay APIv3 (Direct-Connect Merchant)
   slug: wechat-pay-apiv3-direct-merchant
 - description: WeChat Pay's APIv3 in "service provider" mode, used by payment platforms and ISVs to onboard and operate sub-merchants. Adds combined-order JSAPI/Native/App payments, sub-merchant onboarding ("特约商户进件"
@@ -66,10 +68,14 @@ apis:
 - description: API surface that lets authorized ISVs operate Official Accounts and Mini Programs on behalf of merchant clients ("代商家调用接口"). Covers merchant authorization onboarding, developing Mini Programs on behal
   name: WeChat Open Platform — Third-Party Platform API
   slug: wechat-open-platform-third-party
-- description: HTTPS/JSON APIs for WeChat Official Accounts (Subscription Accounts and Service Accounts) — the publishing surface used by media, brands, and businesses to reach WeChat followers. Surface includes use
+- baseURL: https://api.weixin.qq.com
+  baseurl_source: declared
+  description: HTTPS/JSON APIs for WeChat Official Accounts (Subscription Accounts and Service Accounts) — the publishing surface used by media, brands, and businesses to reach WeChat followers. Surface includes use
   name: WeChat Official Accounts API
   slug: wechat-official-accounts-api
-- description: Server API for Enterprise WeChat / WeCom — Tencent's enterprise collaboration suite. All calls are HTTPS/JSON, UTF-8 encoded, and require an access token. Covers Contacts management (members, departme
+- baseURL: https://qyapi.weixin.qq.com
+  baseurl_source: declared
+  description: Server API for Enterprise WeChat / WeCom — Tencent's enterprise collaboration suite. All calls are HTTPS/JSON, UTF-8 encoded, and require an access token. Covers Contacts management (members, departme
   name: WeChat Work (WeCom) API
   slug: wechat-work-api
 - description: WeChat Cloud Hosting (微信云托管) is Tencent's cloud-native, ops-free container deployment service tightly integrated into the WeChat ecosystem. Documented as "a cloud-native, operations-free, highly avail
@@ -81,13 +87,19 @@ apis:
 - description: WeChat Shop (微信小店) is WeChat's unified merchant storefront tying together Mini Programs, Channels livestreaming, Official Accounts, and WeChat Search. APIs cover product (SPU/SKU) management, order li
   name: WeChat Shop (微信小店) API
   slug: wechat-shop-api
-- description: Application-level access token management.
+- baseURL: https://api.weixin.qq.com
+  baseurl_source: declared
+  description: Application-level access token management.
   name: WeChat Access Token API
   slug: wechat-access-token-api
-- description: Mini Program login and session exchange.
+- baseURL: https://api.weixin.qq.com
+  baseurl_source: declared
+  description: Mini Program login and session exchange.
   name: WeChat Login API
   slug: wechat-login-api
-- description: User identity (UnionID) lookups.
+- baseURL: https://api.weixin.qq.com
+  baseurl_source: declared
+  description: User identity (UnionID) lookups.
   name: WeChat User Information API
   slug: wechat-user-information-api
 artifact_total: 42
@@ -322,7 +334,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -332,7 +344,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 52.0
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -347,7 +359,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png
 security:

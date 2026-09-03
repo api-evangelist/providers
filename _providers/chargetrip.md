@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The GraphQL API from Chargetrip — 1 operation(s) for graphql.
+- baseURL: https://api.chargetrip.io/graphql
+  baseurl_source: declared
+  description: The GraphQL API from Chargetrip — 1 operation(s) for graphql.
   name: Chargetrip GraphQL API
   slug: chargetrip-graphql-api
 artifact_total: 14
@@ -163,7 +165,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -173,7 +175,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.0
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -182,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargetrip/refs/heads/main/screenshots/chargetrip-2026-07-25T205058.png
 security:

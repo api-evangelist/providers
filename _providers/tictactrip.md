@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 20 operations · 6 acting
 api_count: 1
 apis:
-- description: The Autocomplete API from TicTacTrip — 1 operation(s) for autocomplete.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The Autocomplete API from TicTacTrip — 1 operation(s) for autocomplete.
   name: TicTacTrip Autocomplete API
   slug: tictactrip-autocomplete-api
-- description: The Booking API from TicTacTrip — 9 operation(s) for booking.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The Booking API from TicTacTrip — 9 operation(s) for booking.
   name: TicTacTrip Booking API
   slug: tictactrip-booking-api
-- description: The Cities API from TicTacTrip — 2 operation(s) for cities.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The Cities API from TicTacTrip — 2 operation(s) for cities.
   name: TicTacTrip Cities API
   slug: tictactrip-cities-api
-- description: The Results API from TicTacTrip — 1 operation(s) for results.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The Results API from TicTacTrip — 1 operation(s) for results.
   name: TicTacTrip Results API
   slug: tictactrip-results-api
-- description: The SegmentProviders API from TicTacTrip — 1 operation(s) for segmentproviders.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The SegmentProviders API from TicTacTrip — 1 operation(s) for segmentproviders.
   name: TicTacTrip SegmentProviders API
   slug: tictactrip-segmentproviders-api
-- description: The StopClusters API from TicTacTrip — 2 operation(s) for stopclusters.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The StopClusters API from TicTacTrip — 2 operation(s) for stopclusters.
   name: TicTacTrip StopClusters API
   slug: tictactrip-stopclusters-api
-- description: The StopGroups API from TicTacTrip — 2 operation(s) for stopgroups.
+- baseURL: https://api.tictactrip.eu
+  baseurl_source: declared
+  description: The StopGroups API from TicTacTrip — 2 operation(s) for stopgroups.
   name: TicTacTrip StopGroups API
   slug: tictactrip-stopgroups-api
 artifact_total: 19
@@ -212,7 +226,7 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -238,8 +252,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/screenshots/tictactrip-2026-09-02T163709.png
 security:
 - kind: authentication
   name: Tictactrip Authentication

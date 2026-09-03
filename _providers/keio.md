@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 0 operations
 api_count: 2
 apis:
-- description: KOARA (KeiO Associated Repository of Academic resources) is Keio University's institutional repository, released by the Media Center in 2006 and running on the open-source XooNips platform on Keio's o
+- baseURL: https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/oai.php
+  baseurl_source: declared
+  description: KOARA (KeiO Associated Repository of Academic resources) is Keio University's institutional repository, released by the Media Center in 2006 and running on the open-source XooNips platform on Keio's o
   name: KOARA OAI-PMH Metadata API
   slug: koara-oai-pmh
-- description: 'The Keio University Media Center serves its digitised special collections as IIIF on two hosts it owns: dcollections.lib.keio.ac.jp for IIIF Presentation API 2.1 manifests, and iiif.lib.keio.ac.jp for'
+- baseURL: https://dcollections.lib.keio.ac.jp/sites/default/files/iiif/
+  baseurl_source: declared
+  description: 'The Keio University Media Center serves its digitised special collections as IIIF on two hosts it owns: dcollections.lib.keio.ac.jp for IIIF Presentation API 2.1 manifests, and iiif.lib.keio.ac.jp for'
   name: Keio Media Center Digital Collections IIIF API
   slug: iiif
 - description: Keio operates its own SAML 2.0 identity provider under entityID https://gakunin1.keio.ac.jp/idp/shibboleth, registered in GakuNin — the Japanese academic access-management federation operated by the N
@@ -272,7 +276,7 @@ score:
     catalog_gap: 36.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 12.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -282,7 +286,7 @@ score:
     discoverability: 68.5
     governance: 15.2
     operational_transparency: 21.1
-  previous_composite: 22.9
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,8 +302,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/screenshots/keio-2026-06-20T183942.png
 security:
 - kind: authentication

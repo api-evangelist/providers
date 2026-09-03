@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 44 operations · 18 acting
 api_count: 1
 apis:
-- description: Read and write repository files, list commits, and read the Git tree.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: Read and write repository files, list commits, and read the Git tree.
   name: Codeberg Git Content API
   slug: codeberg-git-content-api
-- description: List, search, create, get, edit, and comment on issues.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: List, search, create, get, edit, and comment on issues.
   name: Codeberg Issues API
   slug: codeberg-issues-api
-- description: Server metadata.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: Server metadata.
   name: Codeberg Miscellaneous API
   slug: codeberg-miscellaneous-api
-- description: Get and manage organizations and their repositories.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: Get and manage organizations and their repositories.
   name: Codeberg Organizations API
   slug: codeberg-organizations-api
-- description: List, create, get, update, and merge pull requests.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: List, create, get, update, and merge pull requests.
   name: Codeberg Pull Requests API
   slug: codeberg-pull-requests-api
-- description: Manage repository releases attached to Git tags.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: Manage repository releases attached to Git tags.
   name: Codeberg Releases API
   slug: codeberg-releases-api
-- description: Create, search, get, edit, and delete repositories and their branches and tags.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: Create, search, get, edit, and delete repositories and their branches and tags.
   name: Codeberg Repositories API
   slug: codeberg-repositories-api
-- description: Look up and search users and the authenticated account.
+- baseURL: https://codeberg.org/api/v1
+  baseurl_source: declared
+  description: Look up and search users and the authenticated account.
   name: Codeberg Users API
   slug: codeberg-users-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/screenshots/codeberg-2026-07-25T205910.png
 security:

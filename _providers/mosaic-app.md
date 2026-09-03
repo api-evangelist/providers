@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: The Mosaic Open API exposes the workforce, project, and financial data Mosaic manages so firms can build custom integrations beyond the packaged ERP and PM connectors. It authenticates via API token a
   name: Mosaic Open API
   slug: open-api
-- description: Team membership / people management
+- baseURL: https://api-server.prod.prod.us-east-1.mosaicapp.com
+  baseurl_source: spec
+  description: Team membership / people management
   name: Mosaic Members API
   slug: mosaic-app-members-api
-- description: The Projects API from Mosaic — 3 operation(s) for projects.
+- baseURL: https://api-server.prod.prod.us-east-1.mosaicapp.com
+  baseurl_source: spec
+  description: The Projects API from Mosaic — 3 operation(s) for projects.
   name: Mosaic Projects API
   slug: mosaic-app-projects-api
-- description: The Tasks API from Mosaic — 2 operation(s) for tasks.
+- baseURL: https://api-server.prod.prod.us-east-1.mosaicapp.com
+  baseurl_source: spec
+  description: The Tasks API from Mosaic — 2 operation(s) for tasks.
   name: Mosaic Tasks API
   slug: mosaic-app-tasks-api
-- description: The Time Entries API from Mosaic — 2 operation(s) for time entries.
+- baseURL: https://api-server.prod.prod.us-east-1.mosaicapp.com
+  baseurl_source: spec
+  description: The Time Entries API from Mosaic — 2 operation(s) for time entries.
   name: Mosaic Time Entries API
   slug: mosaic-app-time-entries-api
-- description: The Work Plans API from Mosaic — 3 operation(s) for work plans.
+- baseURL: https://api-server.prod.prod.us-east-1.mosaicapp.com
+  baseurl_source: spec
+  description: The Work Plans API from Mosaic — 3 operation(s) for work plans.
   name: Mosaic Work Plans API
   slug: mosaic-app-work-plans-api
 artifact_total: 20
@@ -202,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png
 security:

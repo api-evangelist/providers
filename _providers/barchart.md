@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 95 operations
 api_count: 2
 apis:
-- description: Grain bids, commodity statistics, fuel, and crop data.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Grain bids, commodity statistics, fuel, and crop data.
   name: Barchart Commodities & Agriculture API
   slug: barchart-commodities-agriculture-api
-- description: Splits, dividends, earnings, and calendars.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Splits, dividends, earnings, and calendars.
   name: Barchart Corporate Actions & Earnings API
   slug: barchart-corporate-actions-earnings-api
-- description: Spot crypto quotes and history.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Spot crypto quotes and history.
   name: Barchart Cryptocurrency API
   slug: barchart-cryptocurrency-api
-- description: Company profiles and financial statements.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Company profiles and financial statements.
   name: Barchart Fundamentals API
   slug: barchart-fundamentals-api
-- description: Futures and options market data and analytics.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Futures and options market data and analytics.
   name: Barchart Futures & Options API
   slug: barchart-futures-options-api
-- description: Historical tick, minute, and end-of-day time series.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Historical tick, minute, and end-of-day time series.
   name: Barchart History API
   slug: barchart-history-api
-- description: Financial news and SEC filings.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Financial news and SEC filings.
   name: Barchart News & Filings API
   slug: barchart-news-filings-api
-- description: Real-time, delayed, and end-of-day price quotes.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Real-time, delayed, and end-of-day price quotes.
   name: Barchart Quotes API
   slug: barchart-quotes-api
-- description: Instrument metadata and bulk equities by exchange.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Instrument metadata and bulk equities by exchange.
   name: Barchart Reference & Equities API
   slug: barchart-reference-equities-api
-- description: Technical studies, signals, and chart images.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Technical studies, signals, and chart images.
   name: Barchart Technicals & Charts API
   slug: barchart-technicals-charts-api
-- description: Current conditions and forecasts.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: Current conditions and forecasts.
   name: Barchart Weather API
   slug: barchart-weather-api
-- description: The Charts and Analytics API from Barchart — 5 operation(s) for charts and analytics.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Charts and Analytics API from Barchart — 5 operation(s) for charts and analytics.
   name: Barchart Charts and Analytics API
   slug: barchart-charts-and-analytics-api
-- description: The Cryptocurrency Data API from Barchart — 2 operation(s) for cryptocurrency data.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Cryptocurrency Data API from Barchart — 2 operation(s) for cryptocurrency data.
   name: Barchart Cryptocurrency Data API
   slug: barchart-cryptocurrency-data-api
-- description: The ETFs API from Barchart — 2 operation(s) for etfs.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The ETFs API from Barchart — 2 operation(s) for etfs.
   name: Barchart ET Fs API
   slug: barchart-etfs-api
-- description: The Leaderboards and Lists API from Barchart — 3 operation(s) for leaderboards and lists.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Leaderboards and Lists API from Barchart — 3 operation(s) for leaderboards and lists.
   name: Barchart Leaderboards and Lists API
   slug: barchart-leaderboards-and-lists-api
-- description: The Metadata API from Barchart — 8 operation(s) for metadata.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Metadata API from Barchart — 8 operation(s) for metadata.
   name: Barchart Metadata API
   slug: barchart-metadata-api
-- description: The News and Filings API from Barchart — 4 operation(s) for news and filings.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The News and Filings API from Barchart — 4 operation(s) for news and filings.
   name: Barchart News and Filings API
   slug: barchart-news-and-filings-api
-- description: The Other Data API from Barchart — 12 operation(s) for other data.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Other Data API from Barchart — 12 operation(s) for other data.
   name: Barchart Other Data API
   slug: barchart-other-data-api
-- description: The Price Data API from Barchart — 18 operation(s) for price data.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Price Data API from Barchart — 18 operation(s) for price data.
   name: Barchart Price Data API
   slug: barchart-price-data-api
-- description: The Profiles and Financial Data API from Barchart — 9 operation(s) for profiles and financial data.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Profiles and Financial Data API from Barchart — 9 operation(s) for profiles and financial data.
   name: Barchart Profiles and Financial Data API
   slug: barchart-profiles-and-financial-data-api
-- description: The Splits, Dividends, and Earnings API from Barchart — 8 operation(s) for splits, dividends, and earnings.
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The Splits, Dividends, and Earnings API from Barchart — 8 operation(s) for splits, dividends, and earnings.
   name: Barchart Splits, Dividends, and Earnings API
   slug: barchart-splits-dividends-and-earnings-api
 artifact_total: 53
@@ -390,7 +432,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/screenshots/barchart-2026-08-17T122638.png
 security:

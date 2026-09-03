@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,19 +36,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Asset API from PVcase — 14 operation(s) for asset.
+- baseURL: https://core-v1.carbon.prod.andersonopt.com
+  baseurl_source: declared
+  description: The Asset API from PVcase — 14 operation(s) for asset.
   name: PVcase Asset API
   slug: pvcase-asset-api
-- description: The Company API from PVcase — 9 operation(s) for company.
+- baseURL: https://core-v1.carbon.prod.andersonopt.com
+  baseurl_source: declared
+  description: The Company API from PVcase — 9 operation(s) for company.
   name: PVcase Company API
   slug: pvcase-company-api
-- description: The Project API from PVcase — 12 operation(s) for project.
+- baseURL: https://core-v1.carbon.prod.andersonopt.com
+  baseurl_source: declared
+  description: The Project API from PVcase — 12 operation(s) for project.
   name: PVcase Project API
   slug: pvcase-project-api
-- description: The Team API from PVcase — 2 operation(s) for team.
+- baseURL: https://core-v1.carbon.prod.andersonopt.com
+  baseurl_source: declared
+  description: The Team API from PVcase — 2 operation(s) for team.
   name: PVcase Team API
   slug: pvcase-team-api
 artifact_total: 10
@@ -167,23 +188,23 @@ rate_limits:
   slug: pvcase-rate-limits
 score:
   band: developing
-  composite: 48.2
+  composite: 48.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.2
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 0.0
-    contract_quality: 50.5
+    contract_quality: 51.4
     developer_ergonomics: 49.4
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 47.3
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +221,9 @@ score:
     regime_id: energy_utilities
     score: 35.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/screenshots/pvcase-2026-09-02T152352.png
 security:
 - kind: authentication
   name: Pvcase Authentication

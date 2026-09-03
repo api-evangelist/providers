@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The Clearview AI facial recognition platform provides image-based identity matching backed by an indexed corpus of publicly available imagery. Access is restricted to vetted government, law enforcemen
@@ -151,7 +151,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearview-ai/refs/heads/main/screenshots/clearview-ai-2026-06-20T174501.png
 security:

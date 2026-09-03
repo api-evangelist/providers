@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: REST API to provision server-managed wallets and sign transactions in backend services.
   name: Magic Server Wallets API
   slug: server-wallets
-- description: SDK client configuration
+- baseURL: https://api.magic.link
+  baseurl_source: declared
+  description: SDK client configuration
   name: Magic Client API
   slug: magic-link-client-api
-- description: Magic user metadata and session management
+- baseURL: https://api.magic.link
+  baseurl_source: declared
+  description: Magic user metadata and session management
   name: Magic Users API
   slug: magic-link-users-api
 artifact_total: 14
@@ -165,7 +169,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

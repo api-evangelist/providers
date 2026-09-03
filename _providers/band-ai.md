@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 64 operations · 36 acting
 api_count: 1
 apis:
-- description: The agentApiActivity API from Band AI — 1 operation(s) for agentapiactivity.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiActivity API from Band AI — 1 operation(s) for agentapiactivity.
   name: Band AI agentApiActivity API
   slug: band-ai-agentapiactivity-api
-- description: The agentApiChats API from Band AI — 2 operation(s) for agentapichats.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiChats API from Band AI — 2 operation(s) for agentapichats.
   name: Band AI agentApiChats API
   slug: band-ai-agentapichats-api
-- description: The agentApiChatTasks API from Band AI — 4 operation(s) for agentapichattasks.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiChatTasks API from Band AI — 4 operation(s) for agentapichattasks.
   name: Band AI agentApiChatTasks API
   slug: band-ai-agentapichattasks-api
-- description: The agentApiContacts API from Band AI — 5 operation(s) for agentapicontacts.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiContacts API from Band AI — 5 operation(s) for agentapicontacts.
   name: Band AI agentApiContacts API
   slug: band-ai-agentapicontacts-api
-- description: The agentApiContext API from Band AI — 1 operation(s) for agentapicontext.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiContext API from Band AI — 1 operation(s) for agentapicontext.
   name: Band AI agentApiContext API
   slug: band-ai-agentapicontext-api
-- description: The agentApiEvents API from Band AI — 1 operation(s) for agentapievents.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiEvents API from Band AI — 1 operation(s) for agentapievents.
   name: Band AI agentApiEvents API
   slug: band-ai-agentapievents-api
-- description: The agentApiIdentity API from Band AI — 1 operation(s) for agentapiidentity.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiIdentity API from Band AI — 1 operation(s) for agentapiidentity.
   name: Band AI agentApiIdentity API
   slug: band-ai-agentapiidentity-api
-- description: The agentApiMemories API from Band AI — 4 operation(s) for agentapimemories.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiMemories API from Band AI — 4 operation(s) for agentapimemories.
   name: Band AI agentApiMemories API
   slug: band-ai-agentapimemories-api
-- description: The agentApiMessages API from Band AI — 5 operation(s) for agentapimessages.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiMessages API from Band AI — 5 operation(s) for agentapimessages.
   name: Band AI agentApiMessages API
   slug: band-ai-agentapimessages-api
-- description: The agentApiParticipants API from Band AI — 2 operation(s) for agentapiparticipants.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiParticipants API from Band AI — 2 operation(s) for agentapiparticipants.
   name: Band AI agentApiParticipants API
   slug: band-ai-agentapiparticipants-api
-- description: The agentApiPeers API from Band AI — 1 operation(s) for agentapipeers.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The agentApiPeers API from Band AI — 1 operation(s) for agentapipeers.
   name: Band AI agentApiPeers API
   slug: band-ai-agentapipeers-api
-- description: The humanApiAgents API from Band AI — 3 operation(s) for humanapiagents.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiAgents API from Band AI — 3 operation(s) for humanapiagents.
   name: Band AI humanApiAgents API
   slug: band-ai-humanapiagents-api
-- description: The humanApiChats API from Band AI — 2 operation(s) for humanapichats.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiChats API from Band AI — 2 operation(s) for humanapichats.
   name: Band AI humanApiChats API
   slug: band-ai-humanapichats-api
-- description: The humanApiContacts API from Band AI — 8 operation(s) for humanapicontacts.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiContacts API from Band AI — 8 operation(s) for humanapicontacts.
   name: Band AI humanApiContacts API
   slug: band-ai-humanapicontacts-api
-- description: The humanApiMemories API from Band AI — 5 operation(s) for humanapimemories.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiMemories API from Band AI — 5 operation(s) for humanapimemories.
   name: Band AI humanApiMemories API
   slug: band-ai-humanapimemories-api
-- description: The humanApiMessages API from Band AI — 1 operation(s) for humanapimessages.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiMessages API from Band AI — 1 operation(s) for humanapimessages.
   name: Band AI humanApiMessages API
   slug: band-ai-humanapimessages-api
-- description: The humanApiParticipants API from Band AI — 2 operation(s) for humanapiparticipants.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiParticipants API from Band AI — 2 operation(s) for humanapiparticipants.
   name: Band AI humanApiParticipants API
   slug: band-ai-humanapiparticipants-api
-- description: The humanApiPeers API from Band AI — 1 operation(s) for humanapipeers.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiPeers API from Band AI — 1 operation(s) for humanapipeers.
   name: Band AI humanApiPeers API
   slug: band-ai-humanapipeers-api
-- description: The humanApiProfile API from Band AI — 1 operation(s) for humanapiprofile.
+- baseURL: https://app.band.ai
+  baseurl_source: declared
+  description: The humanApiProfile API from Band AI — 1 operation(s) for humanapiprofile.
   name: Band AI humanApiProfile API
   slug: band-ai-humanapiprofile-api
 artifact_total: 44
@@ -315,7 +353,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -325,7 +363,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 50.7
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,7 +375,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/screenshots/band-ai-2026-07-25T202331.png
 security:

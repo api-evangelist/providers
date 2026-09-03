@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 82 operations · 48 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for managing bucket and object access control lists (ACLs)
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing bucket and object access control lists (ACLs)
   name: Amazon S3 Access Control API
   slug: amazon-s3-access-control-api
-- description: Operations for S3 Access Grants management
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for S3 Access Grants management
   name: Amazon S3 Access Grants API
   slug: amazon-s3-access-grants-api
-- description: Operations for creating and managing S3 access points
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing S3 access points
   name: Amazon S3 Access Points API
   slug: amazon-s3-access-points-api
-- description: Operations for creating and managing S3 Batch Operations jobs
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing S3 Batch Operations jobs
   name: Amazon S3 Batch Operations API
   slug: amazon-s3-batch-operations-api
-- description: Operations for managing bucket-level configuration such as versioning, lifecycle, CORS, and encryption
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing bucket-level configuration such as versioning, lifecycle, CORS, and encryption
   name: Amazon S3 Bucket Configuration API
   slug: amazon-s3-bucket-configuration-api
-- description: Operations for creating, listing, and managing S3 buckets
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, listing, and managing S3 buckets
   name: Amazon S3 Buckets API
   slug: amazon-s3-buckets-api
-- description: Operations for Multi-Region Access Points
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for Multi-Region Access Points
   name: Amazon S3 Multi-Region Access Points API
   slug: amazon-s3-multi-region-access-points-api
-- description: Operations for multipart upload of large objects
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for multipart upload of large objects
   name: Amazon S3 Multipart Upload API
   slug: amazon-s3-multipart-upload-api
-- description: Operations for uploading, downloading, copying, and deleting objects
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for uploading, downloading, copying, and deleting objects
   name: Amazon S3 Objects API
   slug: amazon-s3-objects-api
-- description: Operations for managing public access block settings
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing public access block settings
   name: Amazon S3 Public Access Block API
   slug: amazon-s3-public-access-block-api
-- description: Operations for S3 Storage Lens configurations
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for S3 Storage Lens configurations
   name: Amazon S3 Storage Lens API
   slug: amazon-s3-storage-lens-api
-- description: Operations for managing bucket and object tags
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing bucket and object tags
   name: Amazon S3 Tagging API
   slug: amazon-s3-tagging-api
 arazzos:
@@ -1051,7 +1075,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: The Wikimedia Event Stream provides real-time Server-Sent Events (SSE) for Wikidata changes, revision creations, and page events. Available at stream.wikimedia.org. Ideal for monitoring Wikidata edits
   name: Recent Changes Event Stream
   slug: event-stream
-- description: Description management
+- baseURL: https://www.wikidata.org/w/rest.php/wikibase/v0
+  baseurl_source: declared
+  description: Description management
   name: Wikidata Descriptions API
   slug: wikidata-descriptions-api
-- description: Wikidata item (Q-entity) operations
+- baseURL: https://www.wikidata.org/w/rest.php/wikibase/v0
+  baseurl_source: declared
+  description: Wikidata item (Q-entity) operations
   name: Wikidata Items API
   slug: wikidata-items-api
-- description: Label management
+- baseURL: https://www.wikidata.org/w/rest.php/wikibase/v0
+  baseurl_source: declared
+  description: Label management
   name: Wikidata Labels API
   slug: wikidata-labels-api
-- description: Wikidata property (P-entity) operations
+- baseURL: https://www.wikidata.org/w/rest.php/wikibase/v0
+  baseurl_source: declared
+  description: Wikidata property (P-entity) operations
   name: Wikidata Properties API
   slug: wikidata-properties-api
-- description: Statement (claim) operations
+- baseURL: https://www.wikidata.org/w/rest.php/wikibase/v0
+  baseurl_source: declared
+  description: Statement (claim) operations
   name: Wikidata Statements API
   slug: wikidata-statements-api
 artifact_total: 81
@@ -418,7 +428,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/screenshots/wikidata-2026-06-20T201453.png
 security:

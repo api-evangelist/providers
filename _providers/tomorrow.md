@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 32 operations · 20 acting
 api_count: 11
 apis:
-- description: Persistent alerts linked to one or more locations with webhook delivery.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Persistent alerts linked to one or more locations with webhook delivery.
   name: Tomorrow.io Alerts API
   slug: tomorrow-alerts-api
-- description: 30-year climate normals for a location.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: 30-year climate normals for a location.
   name: Tomorrow.io Climate API
   slug: tomorrow-climate-api
-- description: Query events matching insights at a location or buffered geometry.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Query events matching insights at a location or buffered geometry.
   name: Tomorrow.io Events API
   slug: tomorrow-events-api
-- description: Hourly and daily forecast timelines via a simple GET interface.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Hourly and daily forecast timelines via a simple GET interface.
   name: Tomorrow.io Forecast API
   slug: tomorrow-forecast-api
-- description: Historical weather data for a point or polygon, up to 20 years back.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Historical weather data for a point or polygon, up to 20 years back.
   name: Tomorrow.io Historical API
   slug: tomorrow-historical-api
-- description: Define threshold rules over weather fields to detect business-significant events.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Define threshold rules over weather fields to detect business-significant events.
   name: Tomorrow.io Insights API
   slug: tomorrow-insights-api
-- description: CRUD over monitored point / polygon / polyline locations with tags.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: CRUD over monitored point / polygon / polyline locations with tags.
   name: Tomorrow.io Locations API
   slug: tomorrow-locations-api
-- description: Raster tile endpoint for weather field overlays.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Raster tile endpoint for weather field overlays.
   name: Tomorrow.io Map Tiles API
   slug: tomorrow-map-tiles-api
-- description: Current-conditions snapshot for a single location.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Current-conditions snapshot for a single location.
   name: Tomorrow.io Realtime API
   slug: tomorrow-realtime-api
-- description: Weather along a polyline / list of waypoints with arrival-time interpolation.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Weather along a polyline / list of waypoints with arrival-time interpolation.
   name: Tomorrow.io Routes API
   slug: tomorrow-routes-api
-- description: Advanced multi-step (minutely / hourly / daily / current) forecast and historical timelines.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Advanced multi-step (minutely / hourly / daily / current) forecast and historical timelines.
   name: Tomorrow.io Timelines API
   slug: tomorrow-timelines-api
 artifact_total: 125
@@ -572,7 +594,7 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png
 security:

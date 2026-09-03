@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,13 +45,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 3
 apis:
-- description: Build a purchasable Zazzle product from a template plus partner-supplied images and text.
+- baseURL: https://www.zazzle.com/api/create/
+  baseurl_source: declared
+  description: Build a purchasable Zazzle product from a template plus partner-supplied images and text.
   name: Zazzle Create a Product API
   slug: zazzle-create-a-product-api
-- description: Dynamic product mockup image rendering.
+- baseURL: https://www.zazzle.com/api/create/
+  baseurl_source: declared
+  description: Dynamic product mockup image rendering.
   name: Zazzle Real View API
   slug: zazzle-realview-api
-- description: Maker order retrieval, acknowledgement, packing sheets and shipping labels.
+- baseURL: https://www.zazzle.com/api/create/
+  baseurl_source: declared
+  description: Maker order retrieval, acknowledgement, packing sheets and shipping labels.
   name: Zazzle Vendor API
   slug: zazzle-vendor-api
 artifact_total: 12
@@ -203,7 +221,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -229,8 +247,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zazzle/refs/heads/main/screenshots/zazzle-2026-09-02T171459.png
 security:
 - kind: authentication
   name: Zazzle Authentication

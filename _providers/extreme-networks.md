@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 364
   human_in_the_loop: 21
@@ -64,139 +64,229 @@ apis:
 - description: Ansible collection for Extreme Fabric Engine, used to automate Shortest Path Bridging (SPB) fabric configuration across Extreme VSP and ERS platforms.
   name: Ansible Network Collection for Extreme Fabric Engine
   slug: ansible-extreme-fabric-engine
-- description: ExtremeCloud IQ Account
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: ExtremeCloud IQ Account
   name: Extreme Networks Account API
   slug: extreme-networks-account-api
-- description: API Token Management and 3rd Party API Connections
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: API Token Management and 3rd Party API Connections
   name: Extreme Networks Administration API
   slug: extreme-networks-administration-api
-- description: ExtremeCloud IQ AFC Feature.
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: ExtremeCloud IQ AFC Feature.
   name: Extreme Networks AFC API
   slug: extreme-networks-afc-api
-- description: ExtremeCloud IQ generated alerts and events
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: ExtremeCloud IQ generated alerts and events
   name: Extreme Networks Alert API
   slug: extreme-networks-alert-api
-- description: Application management and application metrics
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Application management and application metrics
   name: Extreme Networks Application API
   slug: extreme-networks-application-api
-- description: User login & logout
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: User login & logout
   name: Extreme Networks Authentication API
   slug: extreme-networks-authentication-api
-- description: API token and permissions
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: API token and permissions
   name: Extreme Networks Authorization API
   slug: extreme-networks-authorization-api
-- description: The clients associate to the devices of ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The clients associate to the devices of ExtremeCloud IQ
   name: Extreme Networks Client API
   slug: extreme-networks-client-api
-- description: The details of client associate to the devices of ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The details of client associate to the devices of ExtremeCloud IQ
   name: Extreme Networks Client - Details API
   slug: extreme-networks-client-details-api
-- description: AD/LDAP/RADIUS/RADSEC/CWP/...
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: AD/LDAP/RADIUS/RADSEC/CWP/...
   name: Extreme Networks Configuration - Authentication API
   slug: extreme-networks-configuration-authentication-api
-- description: VLAN Profile/DHCP Server/...
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: VLAN Profile/DHCP Server/...
   name: Extreme Networks Configuration - Basic API
   slug: extreme-networks-configuration-basic-api
-- description: Certificate
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Certificate
   name: Extreme Networks Configuration - Certificate API
   slug: extreme-networks-configuration-certificate-api
-- description: Push configuration to devices
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Push configuration to devices
   name: Extreme Networks Configuration - Deployment API
   slug: extreme-networks-configuration-deployment-api
-- description: Tunnel Concentrator Service, Network service
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Tunnel Concentrator Service, Network service
   name: Extreme Networks Configuration - Network API
   slug: extreme-networks-configuration-network-api
-- description: SSID/User Profile/Classification Rule/CCG/Radio Profile/...
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: SSID/User Profile/Classification Rule/CCG/Radio Profile/...
   name: Extreme Networks Configuration - Policy API
   slug: extreme-networks-configuration-policy-api
-- description: User Group/End User/PCG/PPSK Classification
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: User Group/End User/PCG/PPSK Classification
   name: Extreme Networks Configuration - User Management API
   slug: extreme-networks-configuration-user-management-api
-- description: The Copilot Anomalies API
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The Copilot Anomalies API
   name: Extreme Networks Copilot - Anomalies API
   slug: extreme-networks-copilot-anomalies-api
-- description: The Copilot Connectivity Experience API
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The Copilot Connectivity Experience API
   name: Extreme Networks Copilot - Connectivity Experience API
   slug: extreme-networks-copilot-connectivity-experience-api
-- description: Device 360
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Device 360
   name: Extreme Networks D360 API
   slug: extreme-networks-d360-api
-- description: Device and client health and status/dashboard
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Device and client health and status/dashboard
   name: Extreme Networks Dashboard API
   slug: extreme-networks-dashboard-api
-- description: Client dashboard
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Client dashboard
   name: Extreme Networks Dashboard - Wired Client Health API
   slug: extreme-networks-dashboard-wired-client-health-api
-- description: Device dashboard
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Device dashboard
   name: Extreme Networks Dashboard - Wired Device Health API
   slug: extreme-networks-dashboard-wired-device-health-api
-- description: Wired Usage and Capacity
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Wired Usage and Capacity
   name: Extreme Networks Dashboard - Wired Usage and Capacity API
   slug: extreme-networks-dashboard-wired-usage-and-capacity-api
-- description: Client dashboard
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Client dashboard
   name: Extreme Networks Dashboard - Wireless Client Health API
   slug: extreme-networks-dashboard-wireless-client-health-api
-- description: Device dashboard
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Device dashboard
   name: Extreme Networks Dashboard - Wireless Device Health API
   slug: extreme-networks-dashboard-wireless-device-health-api
-- description: Usage and capacity dashboard
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Usage and capacity dashboard
   name: Extreme Networks Dashboard - Wireless Usage and Capacity API
   slug: extreme-networks-dashboard-wireless-usage-and-capacity-api
-- description: 'Supported device platforms: Cloud Engine, IQ Engine, WiNG, VOSS, EXOS...'
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: 'Supported device platforms: Cloud Engine, IQ Engine, WiNG, VOSS, EXOS...'
   name: Extreme Networks Device API
   slug: extreme-networks-device-api
-- description: The ExtremeLocation and Analytics API
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The ExtremeLocation and Analytics API
   name: Extreme Networks Essentials - ExtremeLocation API
   slug: extreme-networks-essentials-extremelocation-api
-- description: Geo View
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Geo View
   name: Extreme Networks Geo-View API
   slug: extreme-networks-geo-view-api
-- description: Hierarchical ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Hierarchical ExtremeCloud IQ
   name: Extreme Networks HIQ API
   slug: extreme-networks-hiq-api
-- description: Hierarchical locations and floor plan
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Hierarchical locations and floor plan
   name: Extreme Networks Location API
   slug: extreme-networks-location-api
-- description: Access all kinds of logs in ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Access all kinds of logs in ExtremeCloud IQ
   name: Extreme Networks Log API
   slug: extreme-networks-log-api
-- description: Metadata - Country/...
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Metadata - Country/...
   name: Extreme Networks Misc API
   slug: extreme-networks-misc-api
-- description: Unified configuration management for wireless and wired network devices
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Unified configuration management for wireless and wired network devices
   name: Extreme Networks Network Policy API
   slug: extreme-networks-network-policy-api
-- description: The network scorecard containing device, client, network, Wi-Fi, services health of the selected location.
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The network scorecard containing device, client, network, Wi-Fi, services health of the selected location.
   name: Extreme Networks Network Scorecard API
   slug: extreme-networks-network-scorecard-api
-- description: The NG Reports - On Demand Analytics and Scheduled Reporting
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The NG Reports - On Demand Analytics and Scheduled Reporting
   name: Extreme Networks NG Reports API
   slug: extreme-networks-ng-reports-api
-- description: The NG Reports - Scheduled Reporting
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The NG Reports - Scheduled Reporting
   name: Extreme Networks NG Scheduled Reports API
   slug: extreme-networks-ng-scheduled-reports-api
-- description: Push events/logs to users via Webhook, Email, SMS, etc.
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Push events/logs to users via Webhook, Email, SMS, etc.
   name: Extreme Networks Notification API
   slug: extreme-networks-notification-api
-- description: Long-Running Operations (LRO) management for asynchronous APIs
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Long-Running Operations (LRO) management for asynchronous APIs
   name: Extreme Networks Operation API
   slug: extreme-networks-operation-api
-- description: Packet capture sessions in ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Packet capture sessions in ExtremeCloud IQ
   name: Extreme Networks PacketCaptures API
   slug: extreme-networks-packetcaptures-api
-- description: RTT sessions in ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: RTT sessions in ExtremeCloud IQ
   name: Extreme Networks RTTS API
   slug: extreme-networks-rtts-api
-- description: Switch Inspector Panel
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Switch Inspector Panel
   name: Extreme Networks Switch Inspector Panel API
   slug: extreme-networks-switch-inspector-panel-api
-- description: Thread Networks in ExtremeCloud IQ
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Thread Networks in ExtremeCloud IQ
   name: Extreme Networks Thread API
   slug: extreme-networks-thread-api
-- description: The Universal Compute Platform (UCP) API
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: The Universal Compute Platform (UCP) API
   name: Extreme Networks Universal Compute Platform API
   slug: extreme-networks-universal-compute-platform-api
-- description: Local and external user management in ExtremeCloud IQ account
+- baseURL: https://api.extremecloudiq.com
+  baseurl_source: declared
+  description: Local and external user management in ExtremeCloud IQ account
   name: Extreme Networks User API
   slug: extreme-networks-user-api
 artifact_total: 102
@@ -492,7 +582,7 @@ score:
       marker_coverage: 0.0
       total: 45
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/screenshots/extreme-networks-2026-06-20T180950.png
 security:

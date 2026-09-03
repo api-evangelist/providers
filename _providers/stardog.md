@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 7
@@ -45,76 +45,124 @@ apis:
 - description: Comprehensive HTTP API for managing Stardog databases, executing SPARQL queries, running transactions, managing users and roles, and administering the server. Authentication supports HTTP Basic over S
   name: Stardog HTTP API
   slug: http-api
-- description: Operations for database checkpoints
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for database checkpoints
   name: Stardog Checkpoints API
   slug: stardog-checkpoints-api
-- description: Cluster administration operations
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Cluster administration operations
   name: Stardog Cluster Admin API
   slug: stardog-cluster-admin-api
-- description: Operations for working with cached data
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for working with cached data
   name: Stardog Data Caching API
   slug: stardog-data-caching-api
-- description: Operations for managing data sources, which are used by virtual graphs
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for managing data sources, which are used by virtual graphs
   name: Stardog Data Sources API
   slug: stardog-data-sources-api
-- description: Database administration operations
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Database administration operations
   name: Stardog DB Admin API
   slug: stardog-db-admin-api
-- description: Operations for running Entity Resolution
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for running Entity Resolution
   name: Stardog EntityResolution API
   slug: stardog-entityresolution-api
-- description: Operations on named graphs as detailed in https://www.w3.org/TR/sparql11-http-rdf-update/
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations on named graphs as detailed in https://www.w3.org/TR/sparql11-http-rdf-update/
   name: Stardog Graph Store Protocol API
   slug: stardog-graph-store-protocol-api
-- description: GraphQL Queries
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: GraphQL Queries
   name: Stardog GraphQL API
   slug: stardog-graphql-api
-- description: The Integrity Constraints / SHACL API from Stardog — 5 operation(s) for integrity constraints / shacl.
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: The Integrity Constraints / SHACL API from Stardog — 5 operation(s) for integrity constraints / shacl.
   name: Stardog Integrity Constraints / SHACL API
   slug: stardog-integrity-constraints-shacl-api
-- description: Operations for managing the Knowledge Catalog module
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for managing the Knowledge Catalog module
   name: Stardog Knowledge Catalog API
   slug: stardog-knowledge-catalog-api
-- description: The Matcher, aligning schemas from various data sources API from Stardog — 1 operation(s) for matcher, aligning schemas from various data sources.
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: The Matcher, aligning schemas from various data sources API from Stardog — 1 operation(s) for matcher, aligning schemas from various data sources.
   name: Stardog Matcher, aligning schemas from various data sources API
   slug: stardog-matcher-aligning-schemas-from-various-data-sources-api
-- description: Operations relating to monitoring processes on the server
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations relating to monitoring processes on the server
   name: Stardog Monitoring API
   slug: stardog-monitoring-api
-- description: Operations on system permissions
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations on system permissions
   name: Stardog Permissions API
   slug: stardog-permissions-api
-- description: Operations relating to queries running on the server
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations relating to queries running on the server
   name: Stardog Queries API
   slug: stardog-queries-api
-- description: Operations for interacting with the inference engine
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for interacting with the inference engine
   name: Stardog Reasoning API
   slug: stardog-reasoning-api
-- description: Operations on system roles
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations on system roles
   name: Stardog Roles API
   slug: stardog-roles-api
-- description: Server administration operations. May require superuser permissions
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Server administration operations. May require superuser permissions
   name: Stardog Server Admin API
   slug: stardog-server-admin-api
-- description: The Server Status/Metrics API from Stardog — 3 operation(s) for server status/metrics.
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: The Server Status/Metrics API from Stardog — 3 operation(s) for server status/metrics.
   name: Stardog Server Status/Metrics API
   slug: stardog-server-status-metrics-api
-- description: SPARQL Update Queries
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: SPARQL Update Queries
   name: Stardog SPARQL API
   slug: stardog-sparql-api
-- description: Operations relating to user-defined functions stored on the server
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations relating to user-defined functions stored on the server
   name: Stardog Stored Functions API
   slug: stardog-stored-functions-api
-- description: Transactional operations
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Transactional operations
   name: Stardog Transactions API
   slug: stardog-transactions-api
-- description: Operations on system users
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations on system users
   name: Stardog Users API
   slug: stardog-users-api
-- description: Operations for virtualizing structured data
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for virtualizing structured data
   name: Stardog Virtual Graphs API
   slug: stardog-virtual-graphs-api
-- description: Operations for virtualizing structured data on external compute engines
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for virtualizing structured data on external compute engines
   name: Stardog Virtual Graphs External Compute API
   slug: stardog-virtual-graphs-external-compute-api
 artifact_total: 55
@@ -282,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stardog/refs/heads/main/screenshots/stardog-2026-06-20T194510.png
 security:

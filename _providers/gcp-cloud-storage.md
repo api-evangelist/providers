@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -47,19 +47,29 @@ apis:
 - description: Amazon S3-compatible XML API for Google Cloud Storage.
   name: Google Cloud Storage XML API
   slug: google-cloud-storage-xml-api
-- description: Operations for managing bucket-level access control lists
+- baseURL: https://storage.googleapis.com/storage/v1
+  baseurl_source: declared
+  description: Operations for managing bucket-level access control lists
   name: Google Cloud Storage BucketAccessControls API
   slug: gcp-cloud-storage-bucketaccesscontrols-api
-- description: Operations for managing Cloud Storage buckets
+- baseURL: https://storage.googleapis.com/storage/v1
+  baseurl_source: declared
+  description: Operations for managing Cloud Storage buckets
   name: Google Cloud Storage Buckets API
   slug: gcp-cloud-storage-buckets-api
-- description: Operations for managing default object access controls on buckets
+- baseURL: https://storage.googleapis.com/storage/v1
+  baseurl_source: declared
+  description: Operations for managing default object access controls on buckets
   name: Google Cloud Storage DefaultObjectAccessControls API
   slug: gcp-cloud-storage-defaultobjectaccesscontrols-api
-- description: Operations for managing object-level access control lists
+- baseURL: https://storage.googleapis.com/storage/v1
+  baseurl_source: declared
+  description: Operations for managing object-level access control lists
   name: Google Cloud Storage ObjectAccessControls API
   slug: gcp-cloud-storage-objectaccesscontrols-api
-- description: Operations for managing objects within Cloud Storage buckets
+- baseURL: https://storage.googleapis.com/storage/v1
+  baseurl_source: declared
+  description: Operations for managing objects within Cloud Storage buckets
   name: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
 artifact_total: 75
@@ -392,7 +402,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
 security:

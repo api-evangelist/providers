@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 128 operations · 62 acting · 6 human-in-the-loop
 api_count: 8
 apis:
-- description: The Auth API from Freestyle — 2 operation(s) for auth.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: The Auth API from Freestyle — 2 operation(s) for auth.
   name: Freestyle Auth API
   slug: freestyle-sh-auth-api
-- description: APIs for managing SSL certificates.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for managing SSL certificates.
   name: Freestyle Certs API
   slug: freestyle-sh-certs-api
-- description: The Cron API from Freestyle — 5 operation(s) for cron.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: The Cron API from Freestyle — 5 operation(s) for cron.
   name: Freestyle Cron API
   slug: freestyle-sh-cron-api
-- description: APIs for managing DNS records.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for managing DNS records.
   name: Freestyle DNS API
   slug: freestyle-sh-dns-api
-- description: APIs for managing domains. This is only relevant when you want to start to deploy to custom domains. Please read [this guide](https://github.com/freestyle-sh/sandbox_sdks/blob/main/docs/custom_domains
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for managing domains. This is only relevant when you want to start to deploy to custom domains. Please read [this guide](https://github.com/freestyle-sh/sandbox_sdks/blob/main/docs/custom_domains
   name: Freestyle Domains API
   slug: freestyle-sh-domains-api
-- description: APIs for running code. Send the code using the [execute](#tag/execute/POST/execute/v1/execute) endpoint, and you'll get the output back. Works with any TypeScript or JavaScript code + handles any node
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for running code. Send the code using the [execute](#tag/execute/POST/execute/v1/execute) endpoint, and you'll get the output back. Works with any TypeScript or JavaScript code + handles any node
   name: Freestyle Execute API
   slug: freestyle-sh-execute-api
-- description: APIs for managing git repositories and accessing git objects like commits, trees, blobs, tags, and refs.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for managing git repositories and accessing git objects like commits, trees, blobs, tags, and refs.
   name: Freestyle Git API
   slug: freestyle-sh-git-api
-- description: APIs for managing identities and access tokens.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for managing identities and access tokens.
   name: Freestyle Identity API
   slug: freestyle-sh-identity-api
-- description: APIs for observability.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for observability.
   name: Freestyle Observability API
   slug: freestyle-sh-observability-api
-- description: APIs for managing lightweight virtual machines (VMs) to run your code in isolated environments.
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: APIs for managing lightweight virtual machines (VMs) to run your code in isolated environments.
   name: Freestyle VM API
   slug: freestyle-sh-vm-api
-- description: 'APIs for deploying websites. We handle node modules caching, scaling, certificates and the whole end to end process. Send the code using the [deploy](#tag/web/POST/web/v1/deploy) endpoint, and you''ll '
+- baseURL: https://api.freestyle.sh
+  baseurl_source: spec
+  description: 'APIs for deploying websites. We handle node modules caching, scaling, certificates and the whole end to end process. Send the code using the [deploy](#tag/web/POST/web/v1/deploy) endpoint, and you''ll '
   name: Freestyle Web API
   slug: freestyle-sh-web-api
 artifact_total: 99
@@ -486,7 +508,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:

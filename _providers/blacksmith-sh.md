@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Drop-in faster GitHub-hosted runner replacement selected by changing the runs-on tag (e.g. blacksmith-2vcpu-ubuntu-2404). Linux/Windows jobs run in ephemeral Firecracker microVMs; x64, ARM64, and macO
+- baseURL: https://app.blacksmith.sh
+  baseurl_source: declared
+  description: Drop-in faster GitHub-hosted runner replacement selected by changing the runs-on tag (e.g. blacksmith-2vcpu-ubuntu-2404). Linux/Windows jobs run in ephemeral Firecracker microVMs; x64, ARM64, and macO
   name: Blacksmith GitHub Actions Runners
   slug: github-actions-runners
-- description: Accelerated Docker image builds via Blacksmith's BuildKit and the useblacksmith/build-push-action and useblacksmith/setup-docker-builder GitHub Actions, reusing cached layers on sticky disks to rebuil
+- baseURL: https://app.blacksmith.sh
+  baseurl_source: declared
+  description: Accelerated Docker image builds via Blacksmith's BuildKit and the useblacksmith/build-push-action and useblacksmith/setup-docker-builder GitHub Actions, reusing cached layers on sticky disks to rebuil
   name: Blacksmith Docker Builds
   slug: docker-builds
-- description: Co-located CI cache that transparently backs official GitHub and popular third-party cache actions (e.g. actions/cache, useblacksmith/cache) at roughly 400MB/s, plus Sticky Disks, container init pre-h
+- baseURL: https://app.blacksmith.sh
+  baseurl_source: declared
+  description: Co-located CI cache that transparently backs official GitHub and popular third-party cache actions (e.g. actions/cache, useblacksmith/cache) at roughly 400MB/s, plus Sticky Disks, container init pre-h
   name: Blacksmith Cache
   slug: cache
 - description: Command-line interface (beta) that lets coding agents run CI against local changes instantly - blacksmith testbox warmup/run/status dispatch a workflow to a warm microVM, rsync local changes, and exec
@@ -167,7 +173,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 34.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/screenshots/blacksmith-sh-2026-06-20T173338.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 25 operations · 15 acting
 api_count: 19
 apis:
-- description: Large Language Model chat completion services
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: Large Language Model chat completion services
   name: Simplismart Chat Completion API
   slug: simplismart-chat-completion-api
-- description: The Flux API from Simplismart — 2 operation(s) for flux.
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: The Flux API from Simplismart — 2 operation(s) for flux.
   name: Simplismart Flux API
   slug: simplismart-flux-api
-- description: Flux model training endpoints
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: Flux model training endpoints
   name: Simplismart Flux Training API
   slug: simplismart-flux-training-api
-- description: The Llm API from Simplismart — 1 operation(s) for llm.
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: The Llm API from Simplismart — 1 operation(s) for llm.
   name: Simplismart Llm API
   slug: simplismart-llm-api
-- description: Performance and usage metrics for LLM requests
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: Performance and usage metrics for LLM requests
   name: Simplismart Metrics API
   slug: simplismart-metrics-api
-- description: The Model API from Simplismart — 1 operation(s) for model.
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: The Model API from Simplismart — 1 operation(s) for model.
   name: Simplismart Model API
   slug: simplismart-model-api
-- description: The Speech to Text API from Simplismart — 2 operation(s) for speech to text.
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: The Speech to Text API from Simplismart — 2 operation(s) for speech to text.
   name: Simplismart Speech to Text API
   slug: simplismart-speech-to-text-api
-- description: LLM/VLM model training endpoints
+- baseURL: https://api.simplismart.live
+  baseurl_source: declared
+  description: LLM/VLM model training endpoints
   name: Simplismart Training API
   slug: simplismart-training-api
 artifact_total: 22
@@ -264,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/screenshots/simplismart-2026-08-17T081859.png
 security:

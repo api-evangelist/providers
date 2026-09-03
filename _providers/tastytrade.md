@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -49,85 +49,139 @@ apis:
 - description: WebSocket-based account streaming that delivers real-time notifications for order fills, position changes, account balance updates, and margin requirement changes. Clients authenticate using a tastytr
   name: tastytrade Account Streamer API
   slug: tastytrade-account-streamer-api
-- description: Operations about accounts
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about accounts
   name: tastytrade accounts API
   slug: tastytrade-accounts-api
-- description: Operations about api-quote-tokens
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about api-quote-tokens
   name: tastytrade api-quote-tokens API
   slug: tastytrade-api-quote-tokens-api
-- description: The Available Dates API from tastytrade — 1 operation(s) for available dates.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The Available Dates API from tastytrade — 1 operation(s) for available dates.
   name: tastytrade Available Dates API
   slug: tastytrade-available-dates-api
-- description: The Backtests API from tastytrade — 4 operation(s) for backtests.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The Backtests API from tastytrade — 4 operation(s) for backtests.
   name: tastytrade Backtests API
   slug: tastytrade-backtests-api
-- description: Operations about balance-snapshots
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about balance-snapshots
   name: tastytrade balance-snapshots API
   slug: tastytrade-balance-snapshots-api
-- description: Allows an API client to retreive information about complex orders on a per account basis.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Allows an API client to retreive information about complex orders on a per account basis.
   name: tastytrade complex-orders API
   slug: tastytrade-complex-orders-api
-- description: Operations about customers
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about customers
   name: tastytrade customers API
   slug: tastytrade-customers-api
-- description: Operations about futures-option-chains
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about futures-option-chains
   name: tastytrade futures-option-chains API
   slug: tastytrade-futures-option-chains-api
-- description: Operations about instruments
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about instruments
   name: tastytrade instruments API
   slug: tastytrade-instruments-api
-- description: allows a client to fetch margin-requirements for positions and orders
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: allows a client to fetch margin-requirements for positions and orders
   name: tastytrade margin-requirements API
   slug: tastytrade-margin-requirements-api
-- description: Operations about margin-requirements-public-configurations
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about margin-requirements-public-configurations
   name: tastytrade margin-requirements-public-configuration API
   slug: tastytrade-margin-requirements-public-configuration-api
-- description: The market-data-controller API from tastytrade — 1 operation(s) for market-data-controller.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The market-data-controller API from tastytrade — 1 operation(s) for market-data-controller.
   name: tastytrade market-data-controller API
   slug: tastytrade-market-data-controller-api
-- description: The Market Metrics API from tastytrade — 3 operation(s) for market metrics.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The Market Metrics API from tastytrade — 3 operation(s) for market metrics.
   name: tastytrade Market Metrics API
   slug: tastytrade-market-metrics-api
-- description: Operations about market-times
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about market-times
   name: tastytrade market-time API
   slug: tastytrade-market-time-api
-- description: The net-liq-controller API from tastytrade — 1 operation(s) for net-liq-controller.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The net-liq-controller API from tastytrade — 1 operation(s) for net-liq-controller.
   name: tastytrade net-liq-controller API
   slug: tastytrade-net-liq-controller-api
-- description: Operations about option-chains
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about option-chains
   name: tastytrade option-chains API
   slug: tastytrade-option-chains-api
-- description: Allows an API client to view, filter, create, cancel and replace orders.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Allows an API client to view, filter, create, cancel and replace orders.
   name: tastytrade orders API
   slug: tastytrade-orders-api
-- description: Allows an API client to fetch pairs watchlists.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Allows an API client to fetch pairs watchlists.
   name: tastytrade pairs-watchlists API
   slug: tastytrade-pairs-watchlists-api
-- description: Operations about positions
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about positions
   name: tastytrade positions API
   slug: tastytrade-positions-api
-- description: Allows an API client to fetch tastyworks watchlists.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Allows an API client to fetch tastyworks watchlists.
   name: tastytrade public-watchlists API
   slug: tastytrade-public-watchlists-api
-- description: Operations about quote-alerts
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about quote-alerts
   name: tastytrade quote-alerts API
   slug: tastytrade-quote-alerts-api
-- description: The Simulate Trade API from tastytrade — 1 operation(s) for simulate trade.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The Simulate Trade API from tastytrade — 1 operation(s) for simulate trade.
   name: tastytrade Simulate Trade API
   slug: tastytrade-simulate-trade-api
-- description: Operations about spans
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about spans
   name: tastytrade span API
   slug: tastytrade-span-api
-- description: The Symbols API from tastytrade — 1 operation(s) for symbols.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: The Symbols API from tastytrade — 1 operation(s) for symbols.
   name: tastytrade Symbols API
   slug: tastytrade-symbols-api
-- description: Allows an API client to request information about the basic trade status of an account. \ This includes information about the strategies an account can trade.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Allows an API client to request information about the basic trade status of an account. \ This includes information about the strategies an account can trade.
   name: tastytrade trading-status API
   slug: tastytrade-trading-status-api
-- description: Operations about transactions
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Operations about transactions
   name: tastytrade transactions API
   slug: tastytrade-transactions-api
-- description: Allows an API client to fetch a user's watchlists.
+- baseURL: https://api.tastyworks.com
+  baseurl_source: declared
+  description: Allows an API client to fetch a user's watchlists.
   name: tastytrade user-watchlists API
   slug: tastytrade-user-watchlists-api
 artifact_total: 169
@@ -680,7 +734,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tastytrade/refs/heads/main/screenshots/tastytrade-2026-06-20T194927.png
 security:

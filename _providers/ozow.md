@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 2 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Retrieve the list of supported banks for the payment flow.
+- baseURL: https://api.ozow.com
+  baseurl_source: declared
+  description: Retrieve the list of supported banks for the payment flow.
   name: Ozow Banks API
   slug: ozow-banks-api
-- description: Create and initiate instant EFT payment requests.
+- baseURL: https://api.ozow.com
+  baseurl_source: declared
+  description: Create and initiate instant EFT payment requests.
   name: Ozow Payments API
   slug: ozow-payments-api
-- description: Refund previously completed EFT payments from the merchant float.
+- baseURL: https://api.ozow.com
+  baseurl_source: declared
+  description: Refund previously completed EFT payments from the merchant float.
   name: Ozow Refunds API
   slug: ozow-refunds-api
-- description: Query transaction status by Ozow reference or merchant reference.
+- baseURL: https://api.ozow.com
+  baseurl_source: declared
+  description: Query transaction status by Ozow reference or merchant reference.
   name: Ozow Transactions API
   slug: ozow-transactions-api
 artifact_total: 23
@@ -270,7 +278,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -280,7 +288,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 57.9
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,7 +306,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ozow/refs/heads/main/screenshots/ozow-2026-08-07T191227.png
 security:

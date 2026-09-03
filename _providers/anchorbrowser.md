@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 13
@@ -53,55 +53,89 @@ apis:
 - description: LangChain-ready tools that wrap Anchor Browser-powered browser actions for use inside LangChain and LangGraph agent workflows.
   name: LangChain Anchor Browser Tools
   slug: anchor-browser-langchain
-- description: The Agentic capabilities API from Anchor Browser — 3 operation(s) for agentic capabilities.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Agentic capabilities API from Anchor Browser — 3 operation(s) for agentic capabilities.
   name: Anchor Browser Agentic capabilities API
   slug: anchorbrowser-agentic-capabilities-api
-- description: The AI Tools API from Anchor Browser — 2 operation(s) for ai tools.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The AI Tools API from Anchor Browser — 2 operation(s) for ai tools.
   name: Anchor Browser AI Tools API
   slug: anchorbrowser-ai-tools-api
-- description: The Applications API from Anchor Browser — 6 operation(s) for applications.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Applications API from Anchor Browser — 6 operation(s) for applications.
   name: Anchor Browser Applications API
   slug: anchorbrowser-applications-api
-- description: The Batch Sessions API from Anchor Browser — 3 operation(s) for batch sessions.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Batch Sessions API from Anchor Browser — 3 operation(s) for batch sessions.
   name: Anchor Browser Batch Sessions API
   slug: anchorbrowser-batch-sessions-api
-- description: The Billing API from Anchor Browser — 1 operation(s) for billing.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Billing API from Anchor Browser — 1 operation(s) for billing.
   name: Anchor Browser Billing API
   slug: anchorbrowser-billing-api
-- description: The Browser Sessions API from Anchor Browser — 10 operation(s) for browser sessions.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Browser Sessions API from Anchor Browser — 10 operation(s) for browser sessions.
   name: Anchor Browser Browser Sessions API
   slug: anchorbrowser-browser-sessions-api
-- description: The Certificates API from Anchor Browser — 2 operation(s) for certificates.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Certificates API from Anchor Browser — 2 operation(s) for certificates.
   name: Anchor Browser Certificates API
   slug: anchorbrowser-certificates-api
-- description: The Event Coordination API from Anchor Browser — 2 operation(s) for event coordination.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Event Coordination API from Anchor Browser — 2 operation(s) for event coordination.
   name: Anchor Browser Event Coordination API
   slug: anchorbrowser-event-coordination-api
-- description: The Extensions API from Anchor Browser — 2 operation(s) for extensions.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Extensions API from Anchor Browser — 2 operation(s) for extensions.
   name: Anchor Browser Extensions API
   slug: anchorbrowser-extensions-api
-- description: The Identities API from Anchor Browser — 2 operation(s) for identities.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Identities API from Anchor Browser — 2 operation(s) for identities.
   name: Anchor Browser Identities API
   slug: anchorbrowser-identities-api
-- description: The Integrations API from Anchor Browser — 2 operation(s) for integrations.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Integrations API from Anchor Browser — 2 operation(s) for integrations.
   name: Anchor Browser Integrations API
   slug: anchorbrowser-integrations-api
-- description: The OS Level Control API from Anchor Browser — 14 operation(s) for os level control.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The OS Level Control API from Anchor Browser — 14 operation(s) for os level control.
   name: Anchor Browser OS Level Control API
   slug: anchorbrowser-os-level-control-api
-- description: The Profiles API from Anchor Browser — 2 operation(s) for profiles.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Profiles API from Anchor Browser — 2 operation(s) for profiles.
   name: Anchor Browser Profiles API
   slug: anchorbrowser-profiles-api
-- description: The Session Recordings API from Anchor Browser — 5 operation(s) for session recordings.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Session Recordings API from Anchor Browser — 5 operation(s) for session recordings.
   name: Anchor Browser Session Recordings API
   slug: anchorbrowser-session-recordings-api
-- description: The Tasks API from Anchor Browser — 2 operation(s) for tasks.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Tasks API from Anchor Browser — 2 operation(s) for tasks.
   name: Anchor Browser Tasks API
   slug: anchorbrowser-tasks-api
-- description: The Tasks (Legacy) API from Anchor Browser — 11 operation(s) for tasks (legacy).
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Tasks (Legacy) API from Anchor Browser — 11 operation(s) for tasks (legacy).
   name: Anchor Browser Tasks (Legacy) API
   slug: anchorbrowser-tasks-legacy-api
-- description: The Tools API from Anchor Browser — 4 operation(s) for tools.
+- baseURL: https://api.anchorbrowser.io
+  baseurl_source: spec
+  description: The Tools API from Anchor Browser — 4 operation(s) for tools.
   name: Anchor Browser Tools API
   slug: anchorbrowser-tools-api
 artifact_total: 66
@@ -328,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/screenshots/anchorbrowser-2026-06-20T171955.png
 security:

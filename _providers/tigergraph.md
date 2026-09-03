@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 22 operations · 9 acting
 api_count: 1
 apis:
-- description: The Authentication API from TigerGraph — 1 operation(s) for authentication.
+- baseURL: http://localhost:9000/restpp
+  baseurl_source: declared
+  description: The Authentication API from TigerGraph — 1 operation(s) for authentication.
   name: TigerGraph Authentication API
   slug: tigergraph-authentication-api
-- description: The Data API from TigerGraph — 5 operation(s) for data.
+- baseURL: http://localhost:9000/restpp
+  baseurl_source: declared
+  description: The Data API from TigerGraph — 5 operation(s) for data.
   name: TigerGraph Data API
   slug: tigergraph-data-api
-- description: The Query API from TigerGraph — 4 operation(s) for query.
+- baseURL: http://localhost:9000/restpp
+  baseurl_source: declared
+  description: The Query API from TigerGraph — 4 operation(s) for query.
   name: TigerGraph Query API
   slug: tigergraph-query-api
-- description: The Schema API from TigerGraph — 3 operation(s) for schema.
+- baseURL: http://localhost:9000/restpp
+  baseurl_source: declared
+  description: The Schema API from TigerGraph — 3 operation(s) for schema.
   name: TigerGraph Schema API
   slug: tigergraph-schema-api
-- description: The System API from TigerGraph — 4 operation(s) for system.
+- baseURL: http://localhost:9000/restpp
+  baseurl_source: declared
+  description: The System API from TigerGraph — 4 operation(s) for system.
   name: TigerGraph System API
   slug: tigergraph-system-api
 artifact_total: 19
@@ -184,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/screenshots/tigergraph-2026-06-20T195352.png
 security:

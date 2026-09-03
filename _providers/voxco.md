@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 53 operations · 35 acting
 api_count: 1
 apis:
-- description: The AICoder API from Voxco — 15 operation(s) for aicoder.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The AICoder API from Voxco — 15 operation(s) for aicoder.
   name: Voxco AICoder API
   slug: voxco-aicoder-api
-- description: The Codebooks API from Voxco — 5 operation(s) for codebooks.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Codebooks API from Voxco — 5 operation(s) for codebooks.
   name: Voxco Codebooks API
   slug: voxco-codebooks-api
-- description: The Companies API from Voxco — 1 operation(s) for companies.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Companies API from Voxco — 1 operation(s) for companies.
   name: Voxco Companies API
   slug: voxco-companies-api
-- description: The Exports API from Voxco — 2 operation(s) for exports.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Exports API from Voxco — 2 operation(s) for exports.
   name: Voxco Exports API
   slug: voxco-exports-api
-- description: The Languages API from Voxco — 1 operation(s) for languages.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Languages API from Voxco — 1 operation(s) for languages.
   name: Voxco Languages API
   slug: voxco-languages-api
-- description: The Questions API from Voxco — 7 operation(s) for questions.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Questions API from Voxco — 7 operation(s) for questions.
   name: Voxco Questions API
   slug: voxco-questions-api
-- description: The Responses API from Voxco — 4 operation(s) for responses.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Responses API from Voxco — 4 operation(s) for responses.
   name: Voxco Responses API
   slug: voxco-responses-api
-- description: The Sessions API from Voxco — 1 operation(s) for sessions.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Sessions API from Voxco — 1 operation(s) for sessions.
   name: Voxco Sessions API
   slug: voxco-sessions-api
-- description: The Studies API from Voxco — 3 operation(s) for studies.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Studies API from Voxco — 3 operation(s) for studies.
   name: Voxco Studies API
   slug: voxco-studies-api
-- description: The StudyRespondents API from Voxco — 1 operation(s) for studyrespondents.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The StudyRespondents API from Voxco — 1 operation(s) for studyrespondents.
   name: Voxco StudyRespondents API
   slug: voxco-studyrespondents-api
-- description: The Users API from Voxco — 1 operation(s) for users.
+- baseURL: https://na1.voxco.com
+  baseurl_source: declared
+  description: The Users API from Voxco — 1 operation(s) for users.
   name: Voxco Users API
   slug: voxco-users-api
 artifact_total: 255
@@ -909,7 +931,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/screenshots/voxco-2026-06-20T201139.png
 security:

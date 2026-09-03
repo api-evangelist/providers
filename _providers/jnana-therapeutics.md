@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +35,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Comment collection. Registered and reachable, but empty — no post carries comments.
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and reachable, but empty — no post carries comments.
   name: Jnana Therapeutics Comments API
   slug: jnana-therapeutics-comments-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Jnana Therapeutics Discovery API
   slug: jnana-therapeutics-discovery-api
-- description: Media library (376 attachments at harvest time).
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Media library (376 attachments at harvest time).
   name: Jnana Therapeutics Media API
   slug: jnana-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for www.jnanatx.com URLs.
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.jnanatx.com URLs.
   name: Jnana Therapeutics Oembed API
   slug: jnana-therapeutics-oembed-api
-- description: Corporate pages — home, RAPID platform, programs, team, join us, news, contact, privacy policy, terms of use (9 published at harvest time).
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — home, RAPID platform, programs, team, join us, news, contact, privacy policy, terms of use (9 published at harvest time).
   name: Jnana Therapeutics Pages API
   slug: jnana-therapeutics-pages-api
-- description: News archive — press releases, in-the-news coverage, presentations and insights (62 published at harvest time).
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: News archive — press releases, in-the-news coverage, presentations and insights (62 published at harvest time).
   name: Jnana Therapeutics Posts API
   slug: jnana-therapeutics-posts-api
-- description: Cross-content search across published objects (73 indexed at harvest time).
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects (73 indexed at harvest time).
   name: Jnana Therapeutics Search API
   slug: jnana-therapeutics-search-api
-- description: Yoast SEO head-metadata document for a given site URL.
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Yoast SEO head-metadata document for a given site URL.
   name: Jnana Therapeutics Seo API
   slug: jnana-therapeutics-seo-api
-- description: 'Post categories (7 registered — press-releases 43, in-the-news 16, presentations 3, insights 2, publications 0, blogs 0, videos 0) and team departments (4 registered). The core `post_tag` taxonomy is '
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: 'Post categories (7 registered — press-releases 43, in-the-news 16, presentations 3, insights 2, publications 0, blogs 0, videos 0) and team departments (4 registered). The core `post_tag` taxonomy is '
   name: Jnana Therapeutics Taxonomy API
   slug: jnana-therapeutics-taxonomy-api
-- description: '`team` custom post type — leadership, board and scientific advisory profiles (9 published at harvest time).'
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: '`team` custom post type — leadership, board and scientific advisory profiles (9 published at harvest time).'
   name: Jnana Therapeutics Team API
   slug: jnana-therapeutics-team-api
-- description: Genesis theme reading-settings and breadcrumb documents.
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Genesis theme reading-settings and breadcrumb documents.
   name: Jnana Therapeutics Theme API
   slug: jnana-therapeutics-theme-api
-- description: Author collection (4 records). Anonymously readable, exposing WordPress author display names and slugs. Flagged in conventions/ as an exposure worth reviewing, not a documented product.
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: Author collection (4 records). Anonymously readable, exposing WordPress author display names and slugs. Flagged in conventions/ as an exposure worth reviewing, not a documented product.
   name: Jnana Therapeutics Users API
   slug: jnana-therapeutics-users-api
 artifact_total: 16
@@ -198,7 +234,7 @@ score:
   band: thin
   composite: 29.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -229,8 +265,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jnana-therapeutics/refs/heads/main/screenshots/jnana-therapeutics-2026-09-02T145947.png
 security:
 - kind: authentication
   name: Jnana Therapeutics Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -49,100 +49,164 @@ apis:
 - description: Alert ingestion API for sending incident events from monitoring, observability, and custom systems into Zenduty.
   name: Zenduty Events API
   slug: events-api
-- description: This object represents a custom role of the account. Each custom role object has custom permissions, which the account admin can set from account level permissions and assign this custom role to a par
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents a custom role of the account. Each custom role object has custom permissions, which the account admin can set from account level permissions and assign this custom role to a par
   name: Zenduty Account Custom Role API
   slug: zenduty-account-custom-role-api
-- description: This object represents a user of the account. Each account member object has a role, which can be owner, admin, or user. Each account has a single owner, but the admins and users can be multiple.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents a user of the account. Each account member object has a role, which can be owner, admin, or user. Each account has a single owner, but the admins and users can be multiple.
   name: Zenduty Account Member API
   slug: zenduty-account-member-api
-- description: Alert Rules in Zenduty are advanced conditions for incoming alerts. They dictate how Zenduty handles alerts and their incidents upon receipt, altering behavior and routing based on predefined rules an
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: Alert Rules in Zenduty are advanced conditions for incoming alerts. They dictate how Zenduty handles alerts and their incidents upon receipt, altering behavior and routing based on predefined rules an
   name: Zenduty Alert Rules API
   slug: zenduty-alert-rules-api
-- description: These endpoints provide incident analytics for your account. All analytics endpoints accept POST requests with optional filter parameters and return metrics such as incident counts, MTTA, and MTTR.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: These endpoints provide incident analytics for your account. All analytics endpoints accept POST requests with optional filter parameters and return metrics such as incident counts, MTTA, and MTTR.
   name: Zenduty Analytics API
   slug: zenduty-analytics-api
-- description: This object represents one of the following communication channels(Email, SMS, Phone Call, Slack, Microsoft Team, Google Chat). A user can add multiple contacts methods.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents one of the following communication channels(Email, SMS, Phone Call, Slack, Microsoft Team, Google Chat). A user can add multiple contacts methods.
   name: Zenduty Contact Methods API
   slug: zenduty-contact-methods-api
-- description: This object represents the escalation policy of a team. You can checkout the escalation policy docs here https://docs.zenduty.com/docs/escalationpolicies
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the escalation policy of a team. You can checkout the escalation policy docs here https://docs.zenduty.com/docs/escalationpolicies
   name: Zenduty Escalation Policies API
   slug: zenduty-escalation-policies-api
-- description: This object represents the events of an integration.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the events of an integration.
   name: Zenduty Events API
   slug: zenduty-events-api
-- description: This object represents a user's forwarding rules. A user can forward his notifications to the other account members in case an incident occurs.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents a user's forwarding rules. A user can forward his notifications to the other account members in case an incident occurs.
   name: Zenduty Forwarding Rules API
   slug: zenduty-forwarding-rules-api
-- description: This object represents the Global Router of the Account. You can checkout the global alert routing docs here https://docs.zenduty.com/docs/globalalertrouting
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the Global Router of the Account. You can checkout the global alert routing docs here https://docs.zenduty.com/docs/globalalertrouting
   name: Zenduty Global Router API
   slug: zenduty-global-router-api
-- description: The Rules of the Global Router in an Account are represented by this object. Visit this link to view the documentation for the global alert routing rules https://docs.zenduty.com/docs/globalalertrouti
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: The Rules of the Global Router in an Account are represented by this object. Visit this link to view the documentation for the global alert routing rules https://docs.zenduty.com/docs/globalalertrouti
   name: Zenduty Global Router Rules API
   slug: zenduty-global-router-rules-api
-- description: This object represents the incident alerts of an incident.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the incident alerts of an incident.
   name: Zenduty Incident Alerts API
   slug: zenduty-incident-alerts-api
-- description: This object represents the incident notes of an incident.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the incident notes of an incident.
   name: Zenduty Incident Notes API
   slug: zenduty-incident-notes-api
-- description: This object represents the incident responders of an incident.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the incident responders of an incident.
   name: Zenduty Incident Responders API
   slug: zenduty-incident-responders-api
-- description: This object represents the incident roles of an incident. You can checkout the incident role docs here https://docs.zenduty.com/docs/incidentroles
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the incident roles of an incident. You can checkout the incident role docs here https://docs.zenduty.com/docs/incidentroles
   name: Zenduty Incident Roles API
   slug: zenduty-incident-roles-api
-- description: This object represents the incident tags of an incident.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the incident tags of an incident.
   name: Zenduty Incident Tags API
   slug: zenduty-incident-tags-api
-- description: This object represents the incidents of the account. You can checkout the incident docs here https://docs.zenduty.com/docs/incidents
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the incidents of the account. You can checkout the incident docs here https://docs.zenduty.com/docs/incidents
   name: Zenduty Incidents API
   slug: zenduty-incidents-api
-- description: This object represents the integrations associated with a service. You can checkout the integration docs here https://docs.zenduty.com/docs/integrations
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the integrations associated with a service. You can checkout the integration docs here https://docs.zenduty.com/docs/integrations
   name: Zenduty Integrations API
   slug: zenduty-integrations-api
-- description: This object represents a user's notification rules. A user can have notification rules for high urgency and low urgency incidents.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents a user's notification rules. A user can have notification rules for high urgency and low urgency incidents.
   name: Zenduty Notification Rules API
   slug: zenduty-notification-rules-api
-- description: This object represents the user who is oncall.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the user who is oncall.
   name: Zenduty OnCall API
   slug: zenduty-oncall-api
-- description: This object represents the postmortem of an incident. You can checkout the postmortem docs here https://docs.zenduty.com/docs/incidentpostmortem
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the postmortem of an incident. You can checkout the postmortem docs here https://docs.zenduty.com/docs/incidentpostmortem
   name: Zenduty Postmortem API
   slug: zenduty-postmortem-api
-- description: This object represents the priority of an incident. You can checkout the priority docs here https://docs.zenduty.com/docs/incidentpriority
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the priority of an incident. You can checkout the priority docs here https://docs.zenduty.com/docs/incidentpriority
   name: Zenduty Priorities API
   slug: zenduty-priorities-api
-- description: This object represents the Override of a Schedule. You can checkout the Schedule Override docs here https://docs.zenduty.com/docs/schedules/#schedule-override
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the Override of a Schedule. You can checkout the Schedule Override docs here https://docs.zenduty.com/docs/schedules/#schedule-override
   name: Zenduty Schedule Overrides API
   slug: zenduty-schedule-overrides-api
-- description: This object represents the schedule of a team. You can checkout the schedule docs here https://docs.zenduty.com/docs/schedules
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the schedule of a team. You can checkout the schedule docs here https://docs.zenduty.com/docs/schedules
   name: Zenduty Schedules API
   slug: zenduty-schedules-api
-- description: This object represents the services associated with a team. You can checkout the services docs here https://docs.zenduty.com/docs/services
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the services associated with a team. You can checkout the services docs here https://docs.zenduty.com/docs/services
   name: Zenduty Services API
   slug: zenduty-services-api
-- description: This object represents the SLA of an incident. You can checkout the SLA docs here https://docs.zenduty.com/docs/incidentsla
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the SLA of an incident. You can checkout the SLA docs here https://docs.zenduty.com/docs/incidentsla
   name: Zenduty SLA API
   slug: zenduty-sla-api
-- description: This object represents the tags of an incident. You can checkout the tag docs here https://docs.zenduty.com/docs/incidenttags
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the tags of an incident. You can checkout the tag docs here https://docs.zenduty.com/docs/incidenttags
   name: Zenduty Tags API
   slug: zenduty-tags-api
-- description: This object represents the task templates of the team. You can checkout the task template docs here https://docs.zenduty.com/docs/tasktemplates
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the task templates of the team. You can checkout the task template docs here https://docs.zenduty.com/docs/tasktemplates
   name: Zenduty Task Templates API
   slug: zenduty-task-templates-api
-- description: This object represents the maintenance mode of a team. You can checkout the team maintenance mode docs here https://docs.zenduty.com/docs/maintenancewindows
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the maintenance mode of a team. You can checkout the team maintenance mode docs here https://docs.zenduty.com/docs/maintenancewindows
   name: Zenduty Team Maintenance Mode API
   slug: zenduty-team-maintenance-mode-api
-- description: This object represents the users of a team. Each team member has a role which can be a manager or a user. You can checkout the team member docs here https://docs.zenduty.com/docs/users
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the users of a team. Each team member has a role which can be a manager or a user. You can checkout the team member docs here https://docs.zenduty.com/docs/users
   name: Zenduty Team Members API
   slug: zenduty-team-members-api
-- description: This object represents the permissions of a team. It lets you access the particular team elements that the team has given permissions to use.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents the permissions of a team. It lets you access the particular team elements that the team has given permissions to use.
   name: Zenduty Team Permissions API
   slug: zenduty-team-permissions-api
-- description: This object represents a team of the account. It lets you create different independent operational units in the account. You can check out the team docs here https://docs.zenduty.com/docs/teams.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents a team of the account. It lets you create different independent operational units in the account. You can check out the team docs here https://docs.zenduty.com/docs/teams.
   name: Zenduty Teams API
   slug: zenduty-teams-api
-- description: This object represents a user's custom role. Each user can be assigned to only one custom role.
+- baseURL: https://www.zenduty.com/api
+  baseurl_source: declared
+  description: This object represents a user's custom role. Each user can be assigned to only one custom role.
   name: Zenduty User Custom Role API
   slug: zenduty-user-custom-role-api
 artifact_total: 72
@@ -334,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenduty/refs/heads/main/screenshots/zenduty-2026-06-20T201810.png
 security:

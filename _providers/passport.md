@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +35,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Cart API from Passport — 1 operation(s) for cart.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Cart API from Passport — 1 operation(s) for cart.
   name: Passport Cart API
   slug: passport-cart-api
-- description: The Healthcheck API from Passport — 1 operation(s) for healthcheck.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Healthcheck API from Passport — 1 operation(s) for healthcheck.
   name: Passport Healthcheck API
   slug: passport-healthcheck-api
-- description: The Order API from Passport — 1 operation(s) for order.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Order API from Passport — 1 operation(s) for order.
   name: Passport Order API
   slug: passport-order-api
-- description: The Product Price API from Passport — 1 operation(s) for product price.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Product Price API from Passport — 1 operation(s) for product price.
   name: Passport Product Price API
   slug: passport-product-price-api
-- description: The Rate API from Passport — 1 operation(s) for rate.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Rate API from Passport — 1 operation(s) for rate.
   name: Passport Rate API
   slug: passport-rate-api
-- description: The Ship API from Passport — 1 operation(s) for ship.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Ship API from Passport — 1 operation(s) for ship.
   name: Passport Ship API
   slug: passport-ship-api
-- description: The Tax And Duty API from Passport — 1 operation(s) for tax and duty.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Tax And Duty API from Passport — 1 operation(s) for tax and duty.
   name: Passport Tax And Duty API
   slug: passport-tax-and-duty-api
-- description: The Void API from Passport — 1 operation(s) for void.
+- baseURL: https://api.passportshipping.com/v3
+  baseurl_source: declared
+  description: The Void API from Passport — 1 operation(s) for void.
   name: Passport Void API
   slug: passport-void-api
 artifact_total: 20
@@ -244,7 +272,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport/refs/heads/main/screenshots/passport-2026-08-07T191541.png
 security:

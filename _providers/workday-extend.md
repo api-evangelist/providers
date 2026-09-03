@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -50,46 +50,74 @@ apis:
 - description: AI-powered APIs within Workday Illuminate that provide skills and sentiment analysis, document intelligence, natural language WQL queries, and machine learning forecasting capabilities. Enables develo
   name: Workday Illuminate AI API
   slug: workday-illuminate-ai-api
-- description: Operations for managing application configuration settings and environment-specific parameters.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for managing application configuration settings and environment-specific parameters.
   name: Workday Extend App Configurations API
   slug: workday-extend-app-configurations-api
-- description: Operations for deploying and managing Extend application instances within a tenant.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for deploying and managing Extend application instances within a tenant.
   name: Workday Extend App Deployments API
   slug: workday-extend-app-deployments-api
-- description: Operations for managing application versions and release lifecycle.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for managing application versions and release lifecycle.
   name: Workday Extend App Versions API
   slug: workday-extend-app-versions-api
-- description: Operations for managing Extend applications including registration, deployment, and configuration.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for managing Extend applications including registration, deployment, and configuration.
   name: Workday Extend Apps API
   slug: workday-extend-apps-api
-- description: Operations for defining and managing custom object types including their schemas, attributes, and relationships to standard Workday objects.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for defining and managing custom object types including their schemas, attributes, and relationships to standard Workday objects.
   name: Workday Extend Custom Object Definitions API
   slug: workday-extend-custom-object-definitions-api
-- description: Operations for managing the fields and attributes defined within custom object schemas.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for managing the fields and attributes defined within custom object schemas.
   name: Workday Extend Custom Object Fields API
   slug: workday-extend-custom-object-fields-api
-- description: Operations for creating, reading, updating, and deleting custom object data instances attached to Workday business objects.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for creating, reading, updating, and deleting custom object data instances attached to Workday business objects.
   name: Workday Extend Custom Object Instances API
   slug: workday-extend-custom-object-instances-api
-- description: Operations for querying Workday business objects using the Graph API. Supports flexible field selection and relationship traversal.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for querying Workday business objects using the Graph API. Supports flexible field selection and relationship traversal.
   name: Workday Extend Graph Query API
   slug: workday-extend-graph-query-api
-- description: Operations for triggering orchestration runs, monitoring execution status, and retrieving execution results.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for triggering orchestration runs, monitoring execution status, and retrieving execution results.
   name: Workday Extend Orchestration Executions API
   slug: workday-extend-orchestration-executions-api
-- description: Operations for managing individual steps within an orchestration flow, including connectors, transformations, and conditions.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for managing individual steps within an orchestration flow, including connectors, transformations, and conditions.
   name: Workday Extend Orchestration Steps API
   slug: workday-extend-orchestration-steps-api
-- description: Operations for configuring orchestration triggers including event-based, scheduled, and API-triggered orchestrations.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for configuring orchestration triggers including event-based, scheduled, and API-triggered orchestrations.
   name: Workday Extend Orchestration Triggers API
   slug: workday-extend-orchestration-triggers-api
-- description: Operations for managing orchestration definitions including creation, configuration, versioning, and lifecycle management.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for managing orchestration definitions including creation, configuration, versioning, and lifecycle management.
   name: Workday Extend Orchestrations API
   slug: workday-extend-orchestrations-api
-- description: Operations for discovering available business objects, their fields, relationships, and query capabilities through the Graph API.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for discovering available business objects, their fields, relationships, and query capabilities through the Graph API.
   name: Workday Extend Schema Introspection API
   slug: workday-extend-schema-introspection-api
-- description: Operations for executing Workday Query Language (WQL) queries against the Workday data model. WQL provides SQL-like syntax for complex data retrieval across business objects.
+- baseURL: https://api.workday.com/extend/v1
+  baseurl_source: declared
+  description: Operations for executing Workday Query Language (WQL) queries against the Workday data model. WQL provides SQL-like syntax for complex data retrieval across business objects.
   name: Workday Extend WQL Query API
   slug: workday-extend-wql-query-api
 arazzos:
@@ -602,7 +630,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:

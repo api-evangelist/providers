@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 37 operations · 3 acting
 api_count: 1
 apis:
-- description: The Account API from Bullet — 8 operation(s) for account.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Account API from Bullet — 8 operation(s) for account.
   name: Bullet Account API
   slug: bullet-account-api
-- description: The Address API from Bullet — 1 operation(s) for address.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Address API from Bullet — 1 operation(s) for address.
   name: Bullet Address API
   slug: bullet-address-api
-- description: The Health API from Bullet — 4 operation(s) for health.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Health API from Bullet — 4 operation(s) for health.
   name: Bullet Health API
   slug: bullet-health-api
-- description: The Market-Data API from Bullet — 11 operation(s) for market-data.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Market-Data API from Bullet — 11 operation(s) for market-data.
   name: Bullet Market-Data API
   slug: bullet-market-data-api
-- description: The Rollup API from Bullet — 3 operation(s) for rollup.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Rollup API from Bullet — 3 operation(s) for rollup.
   name: Bullet Rollup API
   slug: bullet-rollup-api
-- description: The SolanaOffchainTx API from Bullet — 1 operation(s) for solanaoffchaintx.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The SolanaOffchainTx API from Bullet — 1 operation(s) for solanaoffchaintx.
   name: Bullet SolanaOffchainTx API
   slug: bullet-solanaoffchaintx-api
-- description: The Trading API from Bullet — 2 operation(s) for trading.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Trading API from Bullet — 2 operation(s) for trading.
   name: Bullet Trading API
   slug: bullet-trading-api
-- description: The Tx API from Bullet — 1 operation(s) for tx.
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The Tx API from Bullet — 1 operation(s) for tx.
   name: Bullet Tx API
   slug: bullet-tx-api
-- description: The User Data (Beta) API from Bullet — 6 operation(s) for user data (beta).
+- baseURL: https://tradingapi.bullet.xyz
+  baseurl_source: declared
+  description: The User Data (Beta) API from Bullet — 6 operation(s) for user data (beta).
   name: Bullet User Data (Beta) API
   slug: bullet-user-data-beta-api
 arazzos:
@@ -292,7 +310,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullet/refs/heads/main/screenshots/bullet-2026-07-25T204059.png
 security:

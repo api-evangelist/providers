@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 35 operations · 22 acting
 api_count: 1
 apis:
-- description: Cron-style monitors that expect periodic pings from scheduled tasks.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Cron-style monitors that expect periodic pings from scheduled tasks.
   name: Hyperping Healthchecks API
   slug: hyperping-healthchecks-api
-- description: Status page incident lifecycle and updates.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Status page incident lifecycle and updates.
   name: Hyperping Incidents API
   slug: hyperping-incidents-api
-- description: Scheduled maintenance windows.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Scheduled maintenance windows.
   name: Hyperping Maintenance API
   slug: hyperping-maintenance-api
-- description: Create, retrieve, update, and delete uptime monitors.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete uptime monitors.
   name: Hyperping Monitors API
   slug: hyperping-monitors-api
-- description: On-call outage acknowledgement, resolution, and escalation.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: On-call outage acknowledgement, resolution, and escalation.
   name: Hyperping Outages API
   slug: hyperping-outages-api
-- description: Uptime, SLA, and MTTR reporting for monitors.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Uptime, SLA, and MTTR reporting for monitors.
   name: Hyperping Reports API
   slug: hyperping-reports-api
-- description: Public machine-readable status feed for a status page.
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Public machine-readable status feed for a status page.
   name: Hyperping Status Pages API
   slug: hyperping-status-pages-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperping/refs/heads/main/screenshots/hyperping-2026-07-25T221925.png
 security:

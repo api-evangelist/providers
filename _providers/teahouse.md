@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Share transaction logs
+- baseURL: https://vault-content-api.teahouse.finance
+  baseurl_source: declared
+  description: Share transaction logs
   name: Teahouse Finance Logs API
   slug: teahouse-logs-api
-- description: Vault performance time series
+- baseURL: https://vault-content-api.teahouse.finance
+  baseurl_source: declared
+  description: Vault performance time series
   name: Teahouse Finance Performance API
   slug: teahouse-performance-api
-- description: Vault catalog and metadata
+- baseURL: https://vault-content-api.teahouse.finance
+  baseurl_source: declared
+  description: Vault catalog and metadata
   name: Teahouse Finance Vaults API
   slug: teahouse-vaults-api
 artifact_total: 10
@@ -161,7 +167,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/teahouse/refs/heads/main/screenshots/teahouse-2026-09-02T162648.png
 security:
 - kind: authentication
   name: Teahouse Authentication

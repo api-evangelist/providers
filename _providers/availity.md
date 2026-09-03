@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: The Availity Configurations API (v1.0.0) provides provider details and payer-specific validation requirements. Returns configuration rules for enhanced claim status, prior authorization, and other tra
   name: Availity Configurations API
   slug: availity-configurations-api
-- description: Attach documentation to authorization requests
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Attach documentation to authorization requests
   name: availity Auth Attachments API
   slug: availity-auth-attachments-api
-- description: Electronic claim attachment submission and retrieval
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Electronic claim attachment submission and retrieval
   name: availity Claim Attachments API
   slug: availity-claim-attachments-api
-- description: Claim status inquiries and tracking
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Claim status inquiries and tracking
   name: availity Claim Status API
   slug: availity-claim-status-api
-- description: Real-time eligibility and benefits verification
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Real-time eligibility and benefits verification
   name: availity Eligibility API
   slug: availity-eligibility-api
-- description: Enhanced claim status with value-add data
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Enhanced claim status with value-add data
   name: availity Enhanced Claim Status API
   slug: availity-enhanced-claim-status-api
-- description: Check if authorization is required before submission
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Check if authorization is required before submission
   name: availity Is Auth Required API
   slug: availity-is-auth-required-api
-- description: Prior authorization and service review requests
+- baseURL: https://api.availity.com
+  baseurl_source: declared
+  description: Prior authorization and service review requests
   name: availity Service Reviews API
   slug: availity-service-reviews-api
 arazzos:
@@ -932,7 +946,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png
 security:

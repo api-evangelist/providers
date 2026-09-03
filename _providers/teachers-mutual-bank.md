@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Teachers Mutual Bank Banking Account Balances API
   slug: teachers-mutual-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Teachers Mutual Bank Banking Account Direct Debits API
   slug: teachers-mutual-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Teachers Mutual Bank Banking Account Scheduled Payments API
   slug: teachers-mutual-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Teachers Mutual Bank Banking Account Transactions API
   slug: teachers-mutual-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Teachers Mutual Bank Banking Accounts API
   slug: teachers-mutual-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Teachers Mutual Bank Banking Payees API
   slug: teachers-mutual-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://ob.tmbl.com.au/tmbank/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Teachers Mutual Bank Banking Products API
   slug: teachers-mutual-bank-banking-products-api
 artifact_total: 20
@@ -253,7 +267,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/screenshots/teachers-mutual-bank-2026-07-21T114753.png
 security:

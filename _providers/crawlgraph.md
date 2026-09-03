@@ -12,11 +12,11 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -27,29 +27,42 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-09-01'
+  score: 31.2
+  scored_at: '2026-09-02'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Crawlgraph Agentic Access
+  operation_count: 6
+  slug: crawlgraph-agentic-access
+  summary_line: 6 operations · 3 acting
 api_count: 2
 apis:
 - description: Hosted remote Model Context Protocol server at https://crawlgraph.com/mcp over Streamable HTTP, plus an open-source local stdio fallback published to npm as crawlgraph-mcp (MIT). Four tools — backlink
   name: CrawlGraph MCP Server
   slug: crawlgraph-mcp-server
-- description: CrawlGraph public REST API v1 — backlink lookups, Common Crawl release discovery, async gap analysis, and cross-release change comparison.
+- baseURL: https://crawlgraph.com/api/v1/
+  baseurl_source: declared
+  description: CrawlGraph public REST API v1 — backlink lookups, Common Crawl release discovery, async gap analysis, and cross-release change comparison.
   name: CrawlGraph V1 API
   slug: crawlgraph-v1-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: CrawlGraph
   slug: open-crawlgraph-v1
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/crawlgraph-agentic-access.yml
 - group: commercial
   title: ''
   type: License
@@ -93,7 +106,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/crawlgraph-v1-openapi.yml
+  url: openapi/crawlgraph-v1-api-openapi.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -170,6 +183,22 @@ common:
   title: ''
   type: Overlay
   url: overlays/crawlgraph-v1-overlay.yaml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/crawlgraph-v1-examples.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://crawlgraph.com/#pricing
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/pucilpet
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/crawlgraph-lifecycle.yml
 created: '2026-07-03'
 description: 'CrawlGraph is a backlink-intelligence SaaS built on Common Crawl''s open hyperlink graph (121.1M domains / 3.90B domain-level links), positioned as a low-cost alternative to Ahrefs, Moz, Semrush and Majestic. It offers referring-domain lookups with authority scoring, competitor gap analysis, warm outreach-target discovery, and cross-release change comparison. The product ships an unusually complete developer surface for a solo-operator SaaS: a public OpenAPI 3.1 contract, a self-serve free API tier (15 backlink calls a month, no card), a hosted remote MCP server whose tools publish both input and output schemas, an open-source local MCP package on npm, a published llms.txt, and open CC-BY study datasets. It is operated by Search Engine Wizards in Finland and priced as a one-time $99 lifetime licence rather than a subscription.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawlgraph.png
@@ -178,14 +207,14 @@ mcp_servers:
 - description: ''
   name: CrawlGraph MCP Server
   slug: crawlgraph-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-02'
 name: CrawlGraph
 nav: Providers
 network: true
 overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: V1 API. Tagged areas include SEO, backlink-intelligence, MarTech, Competitive Intelligence, and Web Data.
 
 
-  CrawlGraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 25 more developer resources.'
+  CrawlGraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, code examples, pricing, and 28 more developer resources.'
 plans:
 - name: Crawlgraph Plans Pricing
   plan_count: 3
@@ -196,25 +225,26 @@ rate_limits:
   name: Crawlgraph Rate Limits
   slug: crawlgraph-rate-limits
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 57.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 22
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.0
   facets:
-    access_clarity: 59.2
-    commercial_clarity: 59.2
+    access_clarity: 69.7
+    commercial_clarity: 69.7
     contract_governance: 18.2
-    contract_quality: 59.2
+    contract_quality: 62.6
     developer_ergonomics: 54.2
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 47.4
+    operational_transparency: 55.3
   previous_composite: 53.4
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -224,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png
 security:

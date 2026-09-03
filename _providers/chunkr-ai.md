@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 16 operations · 6 acting
 api_count: 1
 apis:
-- description: Upload and manage files referenced by tasks.
+- baseURL: https://api.chunkr.ai
+  baseurl_source: declared
+  description: Upload and manage files referenced by tasks.
   name: Chunkr Files API
   slug: chunkr-ai-files-api
-- description: Liveness and metadata utilities.
+- baseURL: https://api.chunkr.ai
+  baseurl_source: declared
+  description: Liveness and metadata utilities.
   name: Chunkr Health API
   slug: chunkr-ai-health-api
-- description: Create, poll, list, cancel, and delete parse and extract tasks.
+- baseURL: https://api.chunkr.ai
+  baseurl_source: declared
+  description: Create, poll, list, cancel, and delete parse and extract tasks.
   name: Chunkr Tasks API
   slug: chunkr-ai-tasks-api
 artifact_total: 15
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chunkr-ai/refs/heads/main/screenshots/chunkr-ai-2026-06-20T174340.png
 security:

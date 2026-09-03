@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 92 operations · 27 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Charts API from Rarible — 2 operation(s) for charts.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Charts API from Rarible — 2 operation(s) for charts.
   name: Rarible Charts API
   slug: rarible-charts-api
-- description: The Collection Leader Board API from Rarible — 2 operation(s) for collection leader board.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Collection Leader Board API from Rarible — 2 operation(s) for collection leader board.
   name: Rarible Collection Leader Board API
   slug: rarible-collection-leader-board-api
-- description: The Collection Statistics API from Rarible — 7 operation(s) for collection statistics.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Collection Statistics API from Rarible — 7 operation(s) for collection statistics.
   name: Rarible Collection Statistics API
   slug: rarible-collection-statistics-api
-- description: The Currencies and rates API from Rarible — 2 operation(s) for currencies and rates.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Currencies and rates API from Rarible — 2 operation(s) for currencies and rates.
   name: Rarible Currencies and rates API
   slug: rarible-currencies-and-rates-api
-- description: The Domain lookup API from Rarible — 1 operation(s) for domain lookup.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Domain lookup API from Rarible — 1 operation(s) for domain lookup.
   name: Rarible Domain lookup API
   slug: rarible-domain-lookup-api
-- description: The Encode operations API from Rarible — 1 operation(s) for encode operations.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Encode operations API from Rarible — 1 operation(s) for encode operations.
   name: Rarible Encode operations API
   slug: rarible-encode-operations-api
-- description: The Indexer blocks API from Rarible — 1 operation(s) for indexer blocks.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Indexer blocks API from Rarible — 1 operation(s) for indexer blocks.
   name: Rarible Indexer blocks API
   slug: rarible-indexer-blocks-api
-- description: The NFT Activities API from Rarible — 7 operation(s) for nft activities.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The NFT Activities API from Rarible — 7 operation(s) for nft activities.
   name: Rarible NFT Activities API
   slug: rarible-nft-activities-api
-- description: The NFT Collections API from Rarible — 6 operation(s) for nft collections.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The NFT Collections API from Rarible — 6 operation(s) for nft collections.
   name: Rarible NFT Collections API
   slug: rarible-nft-collections-api
-- description: The NFT Data and Historical Statistics API from Rarible — 10 operation(s) for nft data and historical statistics.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The NFT Data and Historical Statistics API from Rarible — 10 operation(s) for nft data and historical statistics.
   name: Rarible NFT Data and Historical Statistics API
   slug: rarible-nft-data-and-historical-statistics-api
-- description: The NFT Items API from Rarible — 14 operation(s) for nft items.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The NFT Items API from Rarible — 14 operation(s) for nft items.
   name: Rarible NFT Items API
   slug: rarible-nft-items-api
-- description: The NFT Ownerships API from Rarible — 5 operation(s) for nft ownerships.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The NFT Ownerships API from Rarible — 5 operation(s) for nft ownerships.
   name: Rarible NFT Ownerships API
   slug: rarible-nft-ownerships-api
-- description: The NFT Sales API from Rarible — 19 operation(s) for nft sales.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The NFT Sales API from Rarible — 19 operation(s) for nft sales.
   name: Rarible NFT Sales API
   slug: rarible-nft-sales-api
-- description: The Points API from Rarible — 3 operation(s) for points.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Points API from Rarible — 3 operation(s) for points.
   name: Rarible Points API
   slug: rarible-points-api
-- description: The Reconciliation API from Rarible — 2 operation(s) for reconciliation.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Reconciliation API from Rarible — 2 operation(s) for reconciliation.
   name: Rarible Reconciliation API
   slug: rarible-reconciliation-api
-- description: The Search API API from Rarible — 7 operation(s) for search api.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Search API API from Rarible — 7 operation(s) for search api.
   name: Rarible Search API API
   slug: rarible-search-api-api
-- description: The Signature operations API from Rarible — 2 operation(s) for signature operations.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The Signature operations API from Rarible — 2 operation(s) for signature operations.
   name: Rarible Signature operations API
   slug: rarible-signature-operations-api
-- description: The User balances API from Rarible — 1 operation(s) for user balances.
+- baseURL: https://api.rarible.org/v0.1
+  baseurl_source: declared
+  description: The User balances API from Rarible — 1 operation(s) for user balances.
   name: Rarible User balances API
   slug: rarible-user-balances-api
 artifact_total: 328
@@ -1183,7 +1219,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:

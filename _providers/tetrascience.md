@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 7
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 239 operations · 88 acting · 7 human-in-the-loop
 api_count: 2
 apis:
-- description: The Access Groups API from TetraScience — 6 operation(s) for access groups.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Access Groups API from TetraScience — 6 operation(s) for access groups.
   name: TetraScience Access Groups API
   slug: tetrascience-access-groups-api
-- description: The Agents API from TetraScience — 8 operation(s) for agents.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Agents API from TetraScience — 8 operation(s) for agents.
   name: TetraScience Agents API
   slug: tetrascience-agents-api
-- description: The ai-workflows API from TetraScience — 8 operation(s) for ai-workflows.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The ai-workflows API from TetraScience — 8 operation(s) for ai-workflows.
   name: TetraScience ai-workflows API
   slug: tetrascience-ai-workflows-api
-- description: The Attributes API from TetraScience — 2 operation(s) for attributes.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Attributes API from TetraScience — 2 operation(s) for attributes.
   name: TetraScience Attributes API
   slug: tetrascience-attributes-api
-- description: The Audit Trail API from TetraScience — 1 operation(s) for audit trail.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Audit Trail API from TetraScience — 1 operation(s) for audit trail.
   name: TetraScience Audit Trail API
   slug: tetrascience-audit-trail-api
-- description: The clusters API from TetraScience — 2 operation(s) for clusters.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The clusters API from TetraScience — 2 operation(s) for clusters.
   name: TetraScience clusters API
   slug: tetrascience-clusters-api
-- description: The Commands API from TetraScience — 4 operation(s) for commands.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Commands API from TetraScience — 4 operation(s) for commands.
   name: TetraScience Commands API
   slug: tetrascience-commands-api
-- description: The Connectors API from TetraScience — 23 operation(s) for connectors.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Connectors API from TetraScience — 23 operation(s) for connectors.
   name: TetraScience Connectors API
   slug: tetrascience-connectors-api
-- description: The Data Acquisition API from TetraScience — 6 operation(s) for data acquisition.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Data Acquisition API from TetraScience — 6 operation(s) for data acquisition.
   name: TetraScience Data Acquisition API
   slug: tetrascience-data-acquisition-api
-- description: The Data App Providers API from TetraScience — 3 operation(s) for data app providers.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Data App Providers API from TetraScience — 3 operation(s) for data app providers.
   name: TetraScience Data App Providers API
   slug: tetrascience-data-app-providers-api
-- description: The Data Apps API from TetraScience — 12 operation(s) for data apps.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Data Apps API from TetraScience — 12 operation(s) for data apps.
   name: TetraScience Data Apps API
   slug: tetrascience-data-apps-api
-- description: The databricks API from TetraScience — 2 operation(s) for databricks.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The databricks API from TetraScience — 2 operation(s) for databricks.
   name: TetraScience databricks API
   slug: tetrascience-databricks-api
-- description: The Edit Subscriptions API from TetraScience — 4 operation(s) for edit subscriptions.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Edit Subscriptions API from TetraScience — 4 operation(s) for edit subscriptions.
   name: TetraScience Edit Subscriptions API
   slug: tetrascience-edit-subscriptions-api
-- description: The Embedded Data Apps API from TetraScience — 1 operation(s) for embedded data apps.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Embedded Data Apps API from TetraScience — 1 operation(s) for embedded data apps.
   name: TetraScience Embedded Data Apps API
   slug: tetrascience-embedded-data-apps-api
-- description: The Files API from TetraScience — 5 operation(s) for files.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Files API from TetraScience — 5 operation(s) for files.
   name: TetraScience Files API
   slug: tetrascience-files-api
-- description: The Hubs API from TetraScience — 2 operation(s) for hubs.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Hubs API from TetraScience — 2 operation(s) for hubs.
   name: TetraScience Hubs API
   slug: tetrascience-hubs-api
-- description: The IDS API from TetraScience — 8 operation(s) for ids.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The IDS API from TetraScience — 8 operation(s) for ids.
   name: TetraScience IDS API
   slug: tetrascience-ids-api
-- description: The lakehouse API from TetraScience — 8 operation(s) for lakehouse.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The lakehouse API from TetraScience — 8 operation(s) for lakehouse.
   name: TetraScience lakehouse API
   slug: tetrascience-lakehouse-api
-- description: The Linked Data Apps API from TetraScience — 2 operation(s) for linked data apps.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Linked Data Apps API from TetraScience — 2 operation(s) for linked data apps.
   name: TetraScience Linked Data Apps API
   slug: tetrascience-linked-data-apps-api
-- description: The Login API from TetraScience — 7 operation(s) for login.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Login API from TetraScience — 7 operation(s) for login.
   name: TetraScience Login API
   slug: tetrascience-login-api
-- description: The Logs API from TetraScience — 1 operation(s) for logs.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Logs API from TetraScience — 1 operation(s) for logs.
   name: TetraScience Logs API
   slug: tetrascience-logs-api
-- description: The Organizations API from TetraScience — 3 operation(s) for organizations.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Organizations API from TetraScience — 3 operation(s) for organizations.
   name: TetraScience Organizations API
   slug: tetrascience-organizations-api
-- description: The Pipelines API from TetraScience — 17 operation(s) for pipelines.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Pipelines API from TetraScience — 17 operation(s) for pipelines.
   name: TetraScience Pipelines API
   slug: tetrascience-pipelines-api
-- description: The Protocols API from TetraScience — 11 operation(s) for protocols.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Protocols API from TetraScience — 11 operation(s) for protocols.
   name: TetraScience Protocols API
   slug: tetrascience-protocols-api
-- description: The Requests API from TetraScience — 5 operation(s) for requests.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Requests API from TetraScience — 5 operation(s) for requests.
   name: TetraScience Requests API
   slug: tetrascience-requests-api
-- description: The Roles API from TetraScience — 5 operation(s) for roles.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Roles API from TetraScience — 5 operation(s) for roles.
   name: TetraScience Roles API
   slug: tetrascience-roles-api
-- description: The Schemas API from TetraScience — 9 operation(s) for schemas.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Schemas API from TetraScience — 9 operation(s) for schemas.
   name: TetraScience Schemas API
   slug: tetrascience-schemas-api
-- description: The Search API from TetraScience — 2 operation(s) for search.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Search API from TetraScience — 2 operation(s) for search.
   name: TetraScience Search API
   slug: tetrascience-search-api
-- description: The Task Scripts API from TetraScience — 8 operation(s) for task scripts.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Task Scripts API from TetraScience — 8 operation(s) for task scripts.
   name: TetraScience Task Scripts API
   slug: tetrascience-task-scripts-api
-- description: The Tenants API from TetraScience — 4 operation(s) for tenants.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Tenants API from TetraScience — 4 operation(s) for tenants.
   name: TetraScience Tenants API
   slug: tetrascience-tenants-api
-- description: The tetraflows API from TetraScience — 8 operation(s) for tetraflows.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The tetraflows API from TetraScience — 8 operation(s) for tetraflows.
   name: TetraScience tetraflows API
   slug: tetrascience-tetraflows-api
-- description: The tetraspheres API from TetraScience — 8 operation(s) for tetraspheres.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The tetraspheres API from TetraScience — 8 operation(s) for tetraspheres.
   name: TetraScience tetraspheres API
   slug: tetrascience-tetraspheres-api
-- description: The Users API from TetraScience — 10 operation(s) for users.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Users API from TetraScience — 10 operation(s) for users.
   name: TetraScience Users API
   slug: tetrascience-users-api
-- description: The View Subscriptions API from TetraScience — 2 operation(s) for view subscriptions.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The View Subscriptions API from TetraScience — 2 operation(s) for view subscriptions.
   name: TetraScience View Subscriptions API
   slug: tetrascience-view-subscriptions-api
-- description: The Workflows API from TetraScience — 5 operation(s) for workflows.
+- baseURL: https://api.tetrascience.com
+  baseurl_source: declared
+  description: The Workflows API from TetraScience — 5 operation(s) for workflows.
   name: TetraScience Workflows API
   slug: tetrascience-workflows-api
 artifact_total: 116
@@ -543,7 +613,7 @@ score:
     regime_id: health
     score: 24.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/screenshots/tetrascience-2026-06-20T195201.png
 security:

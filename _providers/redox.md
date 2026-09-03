@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -376,7 +376,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -386,7 +386,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 62.1
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -405,7 +405,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redox/refs/heads/main/screenshots/redox-2026-06-20T192731.png
 security:

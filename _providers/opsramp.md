@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 10
 apis:
-- description: The Alerts API from OpsRamp — 3 operation(s) for alerts.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Alerts API from OpsRamp — 3 operation(s) for alerts.
   name: OpsRamp Alerts API
   slug: opsramp-alerts-api
-- description: The Alerts Search API from OpsRamp — 1 operation(s) for alerts search.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Alerts Search API from OpsRamp — 1 operation(s) for alerts search.
   name: OpsRamp Alerts Search API
   slug: opsramp-alerts-search-api
-- description: The Jobs API from OpsRamp — 2 operation(s) for jobs.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Jobs API from OpsRamp — 2 operation(s) for jobs.
   name: OpsRamp Jobs API
   slug: opsramp-jobs-api
-- description: The Monitoring API from OpsRamp — 1 operation(s) for monitoring.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Monitoring API from OpsRamp — 1 operation(s) for monitoring.
   name: OpsRamp Monitoring API
   slug: opsramp-monitoring-api
-- description: The Resourcemonitors API from OpsRamp — 1 operation(s) for resourcemonitors.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Resourcemonitors API from OpsRamp — 1 operation(s) for resourcemonitors.
   name: OpsRamp Resourcemonitors API
   slug: opsramp-resourcemonitors-api
-- description: The Resources API from OpsRamp — 3 operation(s) for resources.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Resources API from OpsRamp — 3 operation(s) for resources.
   name: OpsRamp Resources API
   slug: opsramp-resources-api
-- description: The Resources Search API from OpsRamp — 1 operation(s) for resources search.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Resources Search API from OpsRamp — 1 operation(s) for resources search.
   name: OpsRamp Resources Search API
   slug: opsramp-resources-search-api
-- description: The Tenancy API from OpsRamp — 1 operation(s) for tenancy.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Tenancy API from OpsRamp — 1 operation(s) for tenancy.
   name: OpsRamp Tenancy API
   slug: opsramp-tenancy-api
-- description: The Ticketentity API from OpsRamp — 2 operation(s) for ticketentity.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Ticketentity API from OpsRamp — 2 operation(s) for ticketentity.
   name: OpsRamp Ticketentity API
   slug: opsramp-ticketentity-api
-- description: The Ticketentity Search API from OpsRamp — 1 operation(s) for ticketentity search.
+- baseURL: https://api.opsramp.com
+  baseurl_source: spec
+  description: The Ticketentity Search API from OpsRamp — 1 operation(s) for ticketentity search.
   name: OpsRamp Ticketentity Search API
   slug: opsramp-ticketentity-search-api
 artifact_total: 27
@@ -192,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/screenshots/opsramp-2026-06-20T191106.png
 security:

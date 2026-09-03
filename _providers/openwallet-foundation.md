@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,22 +59,34 @@ apis:
 - description: OpenWallet Foundation maintains Selective Disclosure for JSON Web Tokens (SD-JWT) libraries across multiple languages including JavaScript, Python, Rust, Kotlin, and .NET. These libraries expose progr
   name: SD-JWT Libraries
   slug: sd-jwt-api
-- description: The Basicmessages API from OpenWallet Foundation — 1 operation(s) for basicmessages.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Basicmessages API from OpenWallet Foundation — 1 operation(s) for basicmessages.
   name: OpenWallet Foundation Basicmessages API
   slug: openwallet-foundation-basicmessages-api
-- description: The Connections API from OpenWallet Foundation — 1 operation(s) for connections.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Connections API from OpenWallet Foundation — 1 operation(s) for connections.
   name: OpenWallet Foundation Connections API
   slug: openwallet-foundation-connections-api
-- description: The Forward API from OpenWallet Foundation — 1 operation(s) for forward.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Forward API from OpenWallet Foundation — 1 operation(s) for forward.
   name: OpenWallet Foundation Forward API
   slug: openwallet-foundation-forward-api
-- description: The Issue Credential API from OpenWallet Foundation — 1 operation(s) for issue credential.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Issue Credential API from OpenWallet Foundation — 1 operation(s) for issue credential.
   name: OpenWallet Foundation Issue Credential API
   slug: openwallet-foundation-issue-credential-api
-- description: The Present Proof API from OpenWallet Foundation — 1 operation(s) for present proof.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Present Proof API from OpenWallet Foundation — 1 operation(s) for present proof.
   name: OpenWallet Foundation Present Proof API
   slug: openwallet-foundation-present-proof-api
-- description: The Ws API from OpenWallet Foundation — 1 operation(s) for ws.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Ws API from OpenWallet Foundation — 1 operation(s) for ws.
   name: OpenWallet Foundation Ws API
   slug: openwallet-foundation-ws-api
 artifact_total: 25
@@ -245,7 +257,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/screenshots/openwallet-foundation-2026-06-20T191051.png
 security:

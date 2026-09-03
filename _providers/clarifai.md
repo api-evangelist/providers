@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 247
   human_in_the_loop: 6
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 466 operations · 247 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The V2 API from Clarifai — 297 operation(s) for v2.
+- baseURL: https://api.clarifai.com/v2
+  baseurl_source: declared
+  description: The V2 API from Clarifai — 297 operation(s) for v2.
   name: Clarifai V2 API
   slug: clarifai-v2-api
 artifact_total: 42
@@ -278,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/screenshots/clarifai-2026-06-20T174436.png
 security:

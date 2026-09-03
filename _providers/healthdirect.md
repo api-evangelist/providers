@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Real-time, read-only HL7 FHIR API over the National Health Services Directory, aligned to the HL7 AU Provider Directory (AU-PD) implementation guide. Supports querying Organization, HealthcareService,
+- baseURL: https://api.fhir.nhsd.healthdirect.org.au/v4
+  baseurl_source: declared
+  description: Real-time, read-only HL7 FHIR API over the National Health Services Directory, aligned to the HL7 AU Provider Directory (AU-PD) implementation guide. Supports querying Organization, HealthcareService,
   name: NHSD FHIR API
   slug: nhsd-fhir-api
 - description: Read-only HL7 FHIR bulk data export for retrieving large NHSD datasets at a specified frequency, for integrators that need the full directory rather than real-time single-record lookups.
@@ -211,7 +225,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png
 security:

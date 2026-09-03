@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 4 acting
 api_count: 1
 apis:
-- description: Equipment catalog and availability
+- baseURL: https://api.unitedrentals.com/v1
+  baseurl_source: declared
+  description: Equipment catalog and availability
   name: United Rentals Equipment API
   slug: united-rentals-equipment-api
-- description: Fleet and worksite management
+- baseURL: https://api.unitedrentals.com/v1
+  baseurl_source: declared
+  description: Fleet and worksite management
   name: United Rentals Fleet API
   slug: united-rentals-fleet-api
-- description: Invoice and billing management
+- baseURL: https://api.unitedrentals.com/v1
+  baseurl_source: declared
+  description: Invoice and billing management
   name: United Rentals Invoices API
   slug: united-rentals-invoices-api
-- description: Branch locations and service areas
+- baseURL: https://api.unitedrentals.com/v1
+  baseurl_source: declared
+  description: Branch locations and service areas
   name: United Rentals Locations API
   slug: united-rentals-locations-api
-- description: Rental reservations and orders
+- baseURL: https://api.unitedrentals.com/v1
+  baseurl_source: declared
+  description: Rental reservations and orders
   name: United Rentals Rentals API
   slug: united-rentals-rentals-api
 artifact_total: 27
@@ -270,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/screenshots/united-rentals-2026-06-20T200042.png
 security:

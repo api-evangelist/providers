@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -33,40 +46,64 @@ agentic_access:
   summary_line: 52 operations · 24 acting
 api_count: 2
 apis:
-- description: Endpoints for AISP/PISP.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Endpoints for AISP/PISP.
   name: Fipto AISP/PISP API
   slug: fipto-aisp-pisp-api
-- description: Retrieve information about assets supported by Fipto.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Retrieve information about assets supported by Fipto.
   name: Fipto Assets API
   slug: fipto-assets-api
-- description: The Automations API from Fipto — 2 operation(s) for automations.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: The Automations API from Fipto — 2 operation(s) for automations.
   name: Fipto Automations API
   slug: fipto-automations-api
-- description: Manage your beneficiaries to whitelist addresses for payout.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Manage your beneficiaries to whitelist addresses for payout.
   name: Fipto Beneficiaries API
   slug: fipto-beneficiaries-api
-- description: Manage information and settings of a company.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Manage information and settings of a company.
   name: Fipto Companies API
   slug: fipto-companies-api
-- description: Manage conversions.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Manage conversions.
   name: Fipto Conversions API
   slug: fipto-conversions-api
-- description: The Internal Transfers API from Fipto — 1 operation(s) for internal transfers.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: The Internal Transfers API from Fipto — 1 operation(s) for internal transfers.
   name: Fipto Internal Transfers API
   slug: fipto-internal-transfers-api
-- description: The Payin Simulation API from Fipto — 1 operation(s) for payin simulation.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: The Payin Simulation API from Fipto — 1 operation(s) for payin simulation.
   name: Fipto Payin Simulation API
   slug: fipto-payin-simulation-api
-- description: Manage payment links.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Manage payment links.
   name: Fipto Payment links API
   slug: fipto-payment-links-api
-- description: Initiate payout and retrieve information about ongoing and completed transactions.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Initiate payout and retrieve information about ongoing and completed transactions.
   name: Fipto Transactions API
   slug: fipto-transactions-api
-- description: The Travel Rule API from Fipto — 1 operation(s) for travel rule.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: The Travel Rule API from Fipto — 1 operation(s) for travel rule.
   name: Fipto Travel Rule API
   slug: fipto-travel-rule-api
-- description: Manage wallets and their related wallet details.
+- baseURL: https://api.fipto.app
+  baseurl_source: declared
+  description: Manage wallets and their related wallet details.
   name: Fipto Wallets API
   slug: fipto-wallets-api
 artifact_total: 20
@@ -243,11 +280,11 @@ score:
   band: developing
   composite: 51.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -257,7 +294,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 52.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,8 +320,9 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fipto/refs/heads/main/screenshots/fipto-2026-09-02T145515.png
 security:
 - kind: authentication
   name: Fipto Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token operations for issuing and revoking access tokens against Encompass Developer Connect. Supports user impersonation, ISV partner API user, and federated SAML SSO grant flows.
+- baseURL: https://api.elliemae.com/encompass/v3
+  baseurl_source: declared
+  description: OAuth 2.0 token operations for issuing and revoking access tokens against Encompass Developer Connect. Supports user impersonation, ISV partner API user, and federated SAML SSO grant flows.
   name: Encompass Developer Connect Authentication API
   slug: encompass-developer-connect-authentication-api
-- description: Operations for searching and filtering Encompass loan pipelines, including saved pipeline views and ad-hoc cursor-based queries across the loan portfolio.
+- baseURL: https://api.elliemae.com/encompass/v3
+  baseurl_source: declared
+  description: Operations for searching and filtering Encompass loan pipelines, including saved pipeline views and ad-hoc cursor-based queries across the loan portfolio.
   name: Encompass Developer Connect Loan Pipeline API
   slug: encompass-developer-connect-loan-pipeline-api
-- description: Operations for retrieving, creating, updating, and deleting Encompass loan files and the rich loan field data model used across the mortgage origination lifecycle.
+- baseURL: https://api.elliemae.com/encompass/v3
+  baseurl_source: declared
+  description: Operations for retrieving, creating, updating, and deleting Encompass loan files and the rich loan field data model used across the mortgage origination lifecycle.
   name: Encompass Developer Connect Loans API
   slug: encompass-developer-connect-loans-api
 artifact_total: 15
@@ -180,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/screenshots/encompass-developer-connect-2026-06-20T180652.png
 security:

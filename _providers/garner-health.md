@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: The Facilities API from Garner Health — 1 operation(s) for facilities.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Facilities API from Garner Health — 1 operation(s) for facilities.
   name: Garner Health Facilities API
   slug: garner-health-facilities-api
-- description: The Professionals API from Garner Health — 1 operation(s) for professionals.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Professionals API from Garner Health — 1 operation(s) for professionals.
   name: Garner Health Professionals API
   slug: garner-health-professionals-api
-- description: The Provider Annotations API from Garner Health — 1 operation(s) for provider annotations.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Provider Annotations API from Garner Health — 1 operation(s) for provider annotations.
   name: Garner Health Provider Annotations API
   slug: garner-health-provider-annotations-api
-- description: The Providers API from Garner Health — 1 operation(s) for providers.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Providers API from Garner Health — 1 operation(s) for providers.
   name: Garner Health Providers API
   slug: garner-health-providers-api
 artifact_total: 13
@@ -230,7 +238,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/screenshots/garner-health-2026-07-25T215450.png
 security:

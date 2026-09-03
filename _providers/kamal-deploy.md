@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Kamal CLI (`kamal`) is the primary command-line interface for packaging, shipping, and operating containerized web apps across one or more SSH-reachable servers. It reads `config/deploy.yml` (plus
@@ -148,7 +148,7 @@ score:
     score: 65.0
   previous_composite: 20.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kamal-deploy/refs/heads/main/screenshots/kamal-deploy-2026-06-20T183906.png
 security:

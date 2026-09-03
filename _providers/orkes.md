@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 35 operations · 22 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Orkes — 1 operation(s) for authentication.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Authentication API from Orkes — 1 operation(s) for authentication.
   name: Orkes Authentication API
   slug: orkes-authentication-api
-- description: The Human Tasks API from Orkes — 5 operation(s) for human tasks.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Human Tasks API from Orkes — 5 operation(s) for human tasks.
   name: Orkes Human Tasks API
   slug: orkes-human-tasks-api
-- description: The Schedules API from Orkes — 4 operation(s) for schedules.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Schedules API from Orkes — 4 operation(s) for schedules.
   name: Orkes Schedules API
   slug: orkes-schedules-api
-- description: The Secrets API from Orkes — 2 operation(s) for secrets.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Secrets API from Orkes — 2 operation(s) for secrets.
   name: Orkes Secrets API
   slug: orkes-secrets-api
-- description: The Task Metadata API from Orkes — 2 operation(s) for task metadata.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Task Metadata API from Orkes — 2 operation(s) for task metadata.
   name: Orkes Task Metadata API
   slug: orkes-task-metadata-api
-- description: The Tasks API from Orkes — 2 operation(s) for tasks.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Tasks API from Orkes — 2 operation(s) for tasks.
   name: Orkes Tasks API
   slug: orkes-tasks-api
-- description: The Workflow Execution API from Orkes — 7 operation(s) for workflow execution.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Workflow Execution API from Orkes — 7 operation(s) for workflow execution.
   name: Orkes Workflow Execution API
   slug: orkes-workflow-execution-api
-- description: The Workflow Metadata API from Orkes — 2 operation(s) for workflow metadata.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Workflow Metadata API from Orkes — 2 operation(s) for workflow metadata.
   name: Orkes Workflow Metadata API
   slug: orkes-workflow-metadata-api
 artifact_total: 26
@@ -193,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/screenshots/orkes-2026-06-20T191209.png
 security:

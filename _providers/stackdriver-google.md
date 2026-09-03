@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Cloud Monitoring API (v3) collects metrics, events, and metadata from Google Cloud, AWS, and application instrumentation, and exposes them for dashboards, uptime checks, alerting policies, and time-se
@@ -151,7 +151,7 @@ score:
   band: thin
   composite: 29.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -167,8 +167,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stackdriver-google/refs/heads/main/screenshots/stackdriver-google-2026-09-02T160705.png
 security:
 - kind: domain-security
   name: Stackdriver Google Domain Security

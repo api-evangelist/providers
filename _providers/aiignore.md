@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
 api_count: 1
 apis:
 - description: 'Command-line tool that generates .aiignore configuration files to protect secrets from AI coding tools including JetBrains AI, Cursor, GitHub Copilot, Claude Code, Codeium, and Windsurf with a single '
@@ -184,28 +159,6 @@ rules:
     info: 1
     warn: 4
   slug: aiignore-jsonschema-spectral-rules
-score:
-  band: emerging
-  composite: 19.9
-  coverage:
-    artifact_dirs: 11
-    catalog_gap: 62.8
-    catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
-  facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 9.8
-    contract_quality: 10.7
-    developer_ergonomics: 26.2
-    discoverability: 59.3
-    governance: 9.8
-    operational_transparency: 13.2
-  previous_composite: 19.9
-  schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiignore/refs/heads/main/screenshots/aiignore-2026-06-20T170859.png
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: List, retrieve, import and download meetings
+- baseURL: https://pasta.tldv.io
+  baseurl_source: declared
+  description: List, retrieve, import and download meetings
   name: tl;dv Meetings API
   slug: tl-dv-meetings-api
-- description: Retrieve AI-generated meeting notes
+- baseURL: https://pasta.tldv.io
+  baseurl_source: declared
+  description: Retrieve AI-generated meeting notes
   name: tl;dv Notes API
   slug: tl-dv-notes-api
-- description: Service health
+- baseURL: https://pasta.tldv.io
+  baseurl_source: declared
+  description: Service health
   name: tl;dv System API
   slug: tl-dv-system-api
-- description: Retrieve meeting transcripts
+- baseURL: https://pasta.tldv.io
+  baseurl_source: declared
+  description: Retrieve meeting transcripts
   name: tl;dv Transcripts API
   slug: tl-dv-transcripts-api
 artifact_total: 18
@@ -261,7 +269,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png
 security:

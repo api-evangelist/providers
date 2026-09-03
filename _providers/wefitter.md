@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 77 operations · 34 acting
 api_count: 1
 apis:
-- description: The app API from WeFitter — 1 operation(s) for app.
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: The app API from WeFitter — 1 operation(s) for app.
   name: WeFitter app API
   slug: wefitter-app-api
-- description: WeFitter API’s challenge engine will bring endless engagement to your platform. For more information about the possibilities in challenges please go to https://www.wefitter.com/en-us/features/gamifica
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: WeFitter API’s challenge engine will bring endless engagement to your platform. For more information about the possibilities in challenges please go to https://www.wefitter.com/en-us/features/gamifica
   name: WeFitter challenge API
   slug: wefitter-challenge-api
-- description: Connections are the links between profiles and their wearables.
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: Connections are the links between profiles and their wearables.
   name: WeFitter connection API
   slug: wefitter-connection-api
-- description: The insights API from WeFitter — 1 operation(s) for insights.
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: The insights API from WeFitter — 1 operation(s) for insights.
   name: WeFitter insights API
   slug: wefitter-insights-api
-- description: The loyalty API from WeFitter — 2 operation(s) for loyalty.
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: The loyalty API from WeFitter — 2 operation(s) for loyalty.
   name: WeFitter loyalty API
   slug: wefitter-loyalty-api
-- description: 'Send a notification to all devices for the specified profiles The data will be sent to the client in the following format: ``` { "app": <app public id>, "title": <title>, "body": <body>, "link": <opti'
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: 'Send a notification to all devices for the specified profiles The data will be sent to the client in the following format: ``` { "app": <app public id>, "title": <title>, "body": <body>, "link": <opti'
   name: WeFitter notification API
   slug: wefitter-notification-api
-- description: 'Profiles are containers for wearables data. The profiles can be seen as an extension of users in a different system. Profiles are anonymous objects which can participate in teams and challenges. Keep '
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: 'Profiles are containers for wearables data. The profiles can be seen as an extension of users in a different system. Profiles are anonymous objects which can participate in teams and challenges. Keep '
   name: WeFitter profile API
   slug: wefitter-profile-api
-- description: The team API from WeFitter — 5 operation(s) for team.
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: The team API from WeFitter — 5 operation(s) for team.
   name: WeFitter team API
   slug: wefitter-team-api
-- description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
+- baseURL: https://api.wefitter.com/api/v1.3
+  baseurl_source: declared
+  description: <p> Before any calls can be made to wefitter, BasicAuth is needed to verify the identity of the requesting party. This call will result into a Bearer token which has administrator privileges and is va
   name: WeFitter token API
   slug: wefitter-token-api
 artifact_total: 24
@@ -259,7 +277,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -269,7 +287,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +309,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/screenshots/wefitter-2026-08-17T082909.png
 security:

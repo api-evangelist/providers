@@ -34,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Orchestrates identity verification workflows (the Back Office Server, "BOS"). Creates a verification session/workflow, accepts document and selfie media, and returns a unique session/document identifi
+- baseURL: https://eus-api.au10tixservices.com
+  baseurl_source: declared
+  description: Orchestrates identity verification workflows (the Back Office Server, "BOS"). Creates a verification session/workflow, accepts document and selfie media, and returns a unique session/document identifi
   name: AU10TIX Identity Verification API
   slug: au10tix-identity-verification-api
-- description: Authenticates government-issued ID documents (passports, driver's licenses, national ID cards) using document structure checks, data integrity validation, and digital forensic analysis, returning extr
+- baseURL: https://eus-api.au10tixservices.com
+  baseurl_source: declared
+  description: Authenticates government-issued ID documents (passports, driver's licenses, national ID cards) using document structure checks, data integrity validation, and digital forensic analysis, returning extr
   name: AU10TIX Document Authentication API
   slug: au10tix-document-authentication-api
-- description: Compares a captured selfie against the portrait on a verified ID document (1:1 face match) and performs passive/active liveness and deepfake detection to confirm a genuine, present person.
+- baseURL: https://eus-api.au10tixservices.com
+  baseurl_source: declared
+  description: Compares a captured selfie against the portrait on a verified ID document (1:1 face match) and performs passive/active liveness and deepfake detection to confirm a genuine, present person.
   name: AU10TIX Face Comparison & Liveness API
   slug: au10tix-face-liveness-api
-- description: Retrieves the structured result of a verification session by its session/document identifier (polling with retry/backoff), returning the verification status (e.g. VERIFIED, FAILED, REVIEW) and the con
+- baseURL: https://eus-api.au10tixservices.com
+  baseurl_source: declared
+  description: Retrieves the structured result of a verification session by its session/document identifier (polling with retry/backoff), returning the verification status (e.g. VERIFIED, FAILED, REVIEW) and the con
   name: AU10TIX Results API
   slug: au10tix-results-api
-- description: Pushes verification decisions to a customer-registered callback URL the moment a workflow reaches a terminal state, removing the need to poll for status. Payload schemas are documented in AU10TIX's au
+- baseURL: https://eus-api.au10tixservices.com
+  baseurl_source: declared
+  description: Pushes verification decisions to a customer-registered callback URL the moment a workflow reaches a terminal state, removing the need to poll for status. Payload schemas are documented in AU10TIX's au
   name: AU10TIX Webhooks API
   slug: au10tix-webhooks-api
 artifact_total: 12
@@ -142,7 +152,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 29.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/screenshots/au10tix-2026-07-25T201647.png
 security:

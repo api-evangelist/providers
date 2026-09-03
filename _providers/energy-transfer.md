@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Manage gas pipeline nominations.
+- baseURL: https://dev.messenger.energytransfer.com
+  baseurl_source: declared
+  description: Manage gas pipeline nominations.
   name: Energy Transfer Nominations API
   slug: energy-transfer-nominations-api
-- description: Retrieve pipeline information and status.
+- baseURL: https://dev.messenger.energytransfer.com
+  baseurl_source: declared
+  description: Retrieve pipeline information and status.
   name: Energy Transfer Pipelines API
   slug: energy-transfer-pipelines-api
-- description: Access gas scheduling and capacity data.
+- baseURL: https://dev.messenger.energytransfer.com
+  baseurl_source: declared
+  description: Access gas scheduling and capacity data.
   name: Energy Transfer Schedules API
   slug: energy-transfer-schedules-api
 artifact_total: 14
@@ -145,7 +151,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/screenshots/energy-transfer-2026-06-20T180705.png
 security:

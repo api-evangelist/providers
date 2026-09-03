@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 26 operations · 26 acting · 2 human-in-the-loop
 api_count: 6
 apis:
-- description: Operations for managing discovery agents and collectors
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing discovery agents and collectors
   name: Amazon Application Discovery Service Agents API
   slug: amazon-application-discovery-service-agents-api
-- description: Operations for managing application groupings
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing application groupings
   name: Amazon Application Discovery Service Applications API
   slug: amazon-application-discovery-service-applications-api
-- description: Operations for querying discovered configuration items
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for querying discovered configuration items
   name: Amazon Application Discovery Service Configurations API
   slug: amazon-application-discovery-service-configurations-api
-- description: Operations for exporting discovered data
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for exporting discovered data
   name: Amazon Application Discovery Service Exports API
   slug: amazon-application-discovery-service-exports-api
-- description: Operations for importing server data
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for importing server data
   name: Amazon Application Discovery Service Imports API
   slug: amazon-application-discovery-service-imports-api
-- description: Operations for managing configuration item tags
+- baseURL: https://discovery.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing configuration item tags
   name: Amazon Application Discovery Service Tags API
   slug: amazon-application-discovery-service-tags-api
 artifact_total: 245
@@ -820,7 +832,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:

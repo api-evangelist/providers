@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -46,40 +46,64 @@ apis:
 - description: REST API for managing contacts, sales accounts, deals, tasks, appointments, notes, and CPQ products in Freshsales. Authentication uses a token-based scheme via the Authorization header tied to a bundl
   name: Freshsales CRM API
   slug: crm-api
-- description: The Appointments API from Freshsales — 2 operation(s) for appointments.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Appointments API from Freshsales — 2 operation(s) for appointments.
   name: Freshsales Appointments API
   slug: freshsales-appointments-api
-- description: The Calls API from Freshsales — 1 operation(s) for calls.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Calls API from Freshsales — 1 operation(s) for calls.
   name: Freshsales Calls API
   slug: freshsales-calls-api
-- description: The Contacts API from Freshsales — 7 operation(s) for contacts.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Contacts API from Freshsales — 7 operation(s) for contacts.
   name: Freshsales Contacts API
   slug: freshsales-contacts-api
-- description: The Deals API from Freshsales — 3 operation(s) for deals.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Deals API from Freshsales — 3 operation(s) for deals.
   name: Freshsales Deals API
   slug: freshsales-deals-api
-- description: The Jobs API from Freshsales — 1 operation(s) for jobs.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Jobs API from Freshsales — 1 operation(s) for jobs.
   name: Freshsales Jobs API
   slug: freshsales-jobs-api
-- description: The Lists API from Freshsales — 2 operation(s) for lists.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Lists API from Freshsales — 2 operation(s) for lists.
   name: Freshsales Lists API
   slug: freshsales-lists-api
-- description: The Notes API from Freshsales — 2 operation(s) for notes.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Notes API from Freshsales — 2 operation(s) for notes.
   name: Freshsales Notes API
   slug: freshsales-notes-api
-- description: The Products API from Freshsales — 2 operation(s) for products.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Products API from Freshsales — 2 operation(s) for products.
   name: Freshsales Products API
   slug: freshsales-products-api
-- description: The SalesAccounts API from Freshsales — 3 operation(s) for salesaccounts.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The SalesAccounts API from Freshsales — 3 operation(s) for salesaccounts.
   name: Freshsales SalesAccounts API
   slug: freshsales-salesaccounts-api
-- description: The SalesActivities API from Freshsales — 1 operation(s) for salesactivities.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The SalesActivities API from Freshsales — 1 operation(s) for salesactivities.
   name: Freshsales SalesActivities API
   slug: freshsales-salesactivities-api
-- description: The Search API from Freshsales — 1 operation(s) for search.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Search API from Freshsales — 1 operation(s) for search.
   name: Freshsales Search API
   slug: freshsales-search-api
-- description: The Tasks API from Freshsales — 2 operation(s) for tasks.
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Tasks API from Freshsales — 2 operation(s) for tasks.
   name: Freshsales Tasks API
   slug: freshsales-tasks-api
 artifact_total: 33
@@ -223,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshsales/refs/heads/main/screenshots/freshsales-2026-06-20T181548.png
 security:

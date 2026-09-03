@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,22 +48,34 @@ apis:
 - description: JavaScript and TypeScript API used to build JupyterLab extensions and plugins. JupyterLab is composed of plugins that consume and provide services on the front-end application object.
   name: JupyterLab Extension API
   slug: jupyterlab-extension-api
-- description: Third-party license reports for installed extensions.
+- baseURL: http://localhost:8888/lab/api
+  baseurl_source: declared
+  description: Third-party license reports for installed extensions.
   name: JupyterLab Licenses API
   slug: jupyterlab-licenses-api
-- description: Extension manager listing data (allowed and blocked extensions).
+- baseURL: http://localhost:8888/lab/api
+  baseurl_source: declared
+  description: Extension manager listing data (allowed and blocked extensions).
   name: JupyterLab Listings API
   slug: jupyterlab-listings-api
-- description: User-defined settings for JupyterLab plugins.
+- baseURL: http://localhost:8888/lab/api
+  baseurl_source: declared
+  description: User-defined settings for JupyterLab plugins.
   name: JupyterLab Settings API
   slug: jupyterlab-settings-api
-- description: Static theme files served to the browser.
+- baseURL: http://localhost:8888/lab/api
+  baseurl_source: declared
+  description: Static theme files served to the browser.
   name: JupyterLab Themes API
   slug: jupyterlab-themes-api
-- description: Locale translation bundles.
+- baseURL: http://localhost:8888/lab/api
+  baseurl_source: declared
+  description: Locale translation bundles.
   name: JupyterLab Translations API
   slug: jupyterlab-translations-api
-- description: JupyterLab user workspaces.
+- baseURL: http://localhost:8888/lab/api
+  baseurl_source: declared
+  description: JupyterLab user workspaces.
   name: JupyterLab Workspaces API
   slug: jupyterlab-workspaces-api
 artifact_total: 26
@@ -254,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/screenshots/jupyterlab-2026-06-20T183842.png
 security:

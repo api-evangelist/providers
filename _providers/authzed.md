@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The managed cloud offering of SpiceDB by Authzed, providing production-ready authorization infrastructure with hourly metered billing. Includes all SpiceDB API capabilities plus Authzed-specific featu
   name: Authzed Cloud API
   slug: authzed-cloud-api
-- description: Experimental and preview endpoints subject to change
+- baseURL: https://grpc.authzed.com
+  baseurl_source: declared
+  description: Experimental and preview endpoints subject to change
   name: Authzed Experimental API
   slug: authzed-experimental-api
-- description: Check, expand, and lookup permissions on resources and subjects
+- baseURL: https://grpc.authzed.com
+  baseurl_source: declared
+  description: Check, expand, and lookup permissions on resources and subjects
   name: Authzed Permissions API
   slug: authzed-permissions-api
-- description: Read, write, delete, and bulk import/export relationship tuples
+- baseURL: https://grpc.authzed.com
+  baseurl_source: declared
+  description: Read, write, delete, and bulk import/export relationship tuples
   name: Authzed Relationships API
   slug: authzed-relationships-api
-- description: Manage SpiceDB schema definitions, diff schemas, and reflect schema metadata
+- baseURL: https://grpc.authzed.com
+  baseurl_source: declared
+  description: Manage SpiceDB schema definitions, diff schemas, and reflect schema metadata
   name: Authzed Schema API
   slug: authzed-schema-api
-- description: Stream real-time relationship change updates
+- baseURL: https://grpc.authzed.com
+  baseurl_source: declared
+  description: Stream real-time relationship change updates
   name: Authzed Watch API
   slug: authzed-watch-api
 artifact_total: 42
@@ -302,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/screenshots/authzed-2026-06-20T172614.png
 security:

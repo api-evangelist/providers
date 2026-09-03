@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -49,34 +49,54 @@ apis:
 - description: The Gusto Embedded React SDK provides pre-built UI flows and components that platforms can drop into their own React applications to surface Gusto Embedded Payroll experiences (company onboarding, emp
   name: Gusto Embedded React SDK
   slug: embedded-react-sdk
-- description: The BankAccounts API from Gusto — 3 operation(s) for bankaccounts.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The BankAccounts API from Gusto — 3 operation(s) for bankaccounts.
   name: Gusto BankAccounts API
   slug: gusto-bankaccounts-api
-- description: The Companies API from Gusto — 4 operation(s) for companies.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Companies API from Gusto — 4 operation(s) for companies.
   name: Gusto Companies API
   slug: gusto-companies-api
-- description: The ContractorPayments API from Gusto — 2 operation(s) for contractorpayments.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The ContractorPayments API from Gusto — 2 operation(s) for contractorpayments.
   name: Gusto ContractorPayments API
   slug: gusto-contractorpayments-api
-- description: The Contractors API from Gusto — 2 operation(s) for contractors.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Contractors API from Gusto — 2 operation(s) for contractors.
   name: Gusto Contractors API
   slug: gusto-contractors-api
-- description: The Employees API from Gusto — 1 operation(s) for employees.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Employees API from Gusto — 1 operation(s) for employees.
   name: Gusto Employees API
   slug: gusto-employees-api
-- description: The Flows API from Gusto — 1 operation(s) for flows.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Flows API from Gusto — 1 operation(s) for flows.
   name: Gusto Flows API
   slug: gusto-flows-api
-- description: The Payrolls API from Gusto — 3 operation(s) for payrolls.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Payrolls API from Gusto — 3 operation(s) for payrolls.
   name: Gusto Payrolls API
   slug: gusto-payrolls-api
-- description: The PaySchedules API from Gusto — 2 operation(s) for payschedules.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The PaySchedules API from Gusto — 2 operation(s) for payschedules.
   name: Gusto PaySchedules API
   slug: gusto-payschedules-api
-- description: The Reports API from Gusto — 2 operation(s) for reports.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Reports API from Gusto — 2 operation(s) for reports.
   name: Gusto Reports API
   slug: gusto-reports-api
-- description: The Webhooks API from Gusto — 1 operation(s) for webhooks.
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Webhooks API from Gusto — 1 operation(s) for webhooks.
   name: Gusto Webhooks API
   slug: gusto-webhooks-api
 artifact_total: 31
@@ -246,7 +266,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -259,7 +279,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 36.3
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -268,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png
 security:

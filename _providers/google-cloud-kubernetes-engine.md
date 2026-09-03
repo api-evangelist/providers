@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Manage GKE clusters
+- baseURL: https://container.googleapis.com
+  baseurl_source: declared
+  description: Manage GKE clusters
   name: Google Cloud Kubernetes Engine Clusters API
   slug: google-cloud-kubernetes-engine-clusters-api
-- description: Manage node pools within clusters
+- baseURL: https://container.googleapis.com
+  baseurl_source: declared
+  description: Manage node pools within clusters
   name: Google Cloud Kubernetes Engine NodePools API
   slug: google-cloud-kubernetes-engine-nodepools-api
-- description: View long-running operations
+- baseURL: https://container.googleapis.com
+  baseurl_source: declared
+  description: View long-running operations
   name: Google Cloud Kubernetes Engine Operations API
   slug: google-cloud-kubernetes-engine-operations-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/screenshots/google-cloud-kubernetes-engine-2026-06-20T182119.png
 security:

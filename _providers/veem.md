@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 50 operations · 27 acting · 27 human-in-the-loop
 api_count: 1
 apis:
-- description: Attachment Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Attachment Controller
   name: Veem attachment-controller API
   slug: veem-attachment-controller-api
-- description: Bank Account Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Bank Account Controller
   name: Veem bank-account-controller API
   slug: veem-bank-account-controller-api
-- description: Beneficial Owner Information Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Beneficial Owner Information Controller
   name: Veem beneficial-owner-information-controller API
   slug: veem-beneficial-owner-information-controller-api
-- description: Claimless Payment Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Claimless Payment Controller
   name: Veem claimless-payment-controller API
   slug: veem-claimless-payment-controller-api
-- description: Contact Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Contact Controller
   name: Veem contact-controller API
   slug: veem-contact-controller-api
-- description: For managing crypto wallets, including balances, details, transactions and pay-ins
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: For managing crypto wallets, including balances, details, transactions and pay-ins
   name: Veem crypto-wallet-controller API
   slug: veem-crypto-wallet-controller-api
-- description: Customer Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Customer Controller
   name: Veem customer-controller API
   slug: veem-customer-controller-api
-- description: Exchange Rate Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Exchange Rate Controller
   name: Veem exchange-rate-controller API
   slug: veem-exchange-rate-controller-api
-- description: Invoice Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Invoice Controller
   name: Veem invoice-controller API
   slug: veem-invoice-controller-api
-- description: Meta Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Meta Controller
   name: Veem meta-controller API
   slug: veem-meta-controller-api
-- description: Open Account Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Open Account Controller
   name: Veem open-account-controller API
   slug: veem-open-account-controller-api
-- description: Payment Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Payment Controller
   name: Veem payment-controller API
   slug: veem-payment-controller-api
-- description: Wallet Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Wallet Controller
   name: Veem wallet-controller API
   slug: veem-wallet-controller-api
-- description: Webhook Controller
+- baseURL: https://api.veem.com
+  baseurl_source: declared
+  description: Webhook Controller
   name: Veem webhook-controller API
   slug: veem-webhook-controller-api
 artifact_total: 35
@@ -286,7 +314,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -296,7 +324,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 37.9
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,7 +342,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/screenshots/veem-2026-08-17T082715.png
 security:

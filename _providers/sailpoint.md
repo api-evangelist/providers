@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: 'The NERM V2025 API provides the latest annual-release endpoints for the Non-Employee Risk Management platform, supporting application integrations and programmatic management of non-employee profiles '
   name: SailPoint Non-Employee Risk Management V2025 API
   slug: nerm-v2025-api
-- description: Use this API to implement and customize access profile functionality. Access profiles group entitlements, which represent access rights on sources. For example, an Active Directory source can have mul
+- baseURL_template: https://{tenant}.api.identitynow.com/v3
+  baseurl_source: spec_template
+  description: Use this API to implement and customize access profile functionality. Access profiles group entitlements, which represent access rights on sources. For example, an Active Directory source can have mul
   name: SailPoint Access Profiles API
   slug: sailpoint-access-profiles-api
-- description: Use this API to implement certification functionality. Certifications enable administrators and designated reviewers to review users' access to entitlements and decide whether to approve, revoke, or r
+- baseURL_template: https://{tenant}.api.identitynow.com/v3
+  baseurl_source: spec_template
+  description: Use this API to implement certification functionality. Certifications enable administrators and designated reviewers to review users' access to entitlements and decide whether to approve, revoke, or r
   name: SailPoint Certifications API
   slug: sailpoint-certifications-api
-- description: Use this API to retrieve and manage public identity information. Public identities represent users within the Identity Security Cloud platform, including their attributes, lifecycle state, and manager
+- baseURL_template: https://{tenant}.api.identitynow.com/v3
+  baseurl_source: spec_template
+  description: Use this API to retrieve and manage public identity information. Public identities represent users within the Identity Security Cloud platform, including their attributes, lifecycle state, and manager
   name: SailPoint Identities API
   slug: sailpoint-identities-api
-- description: Use this API to implement and customize role functionality. Roles represent the broadest level of access and group one or more access profiles. When you create a role and configure it with role criter
+- baseURL_template: https://{tenant}.api.identitynow.com/v3
+  baseurl_source: spec_template
+  description: Use this API to implement and customize role functionality. Roles represent the broadest level of access and group one or more access profiles. When you create a role and configure it with role criter
   name: SailPoint Roles API
   slug: sailpoint-roles-api
 artifact_total: 76
@@ -523,7 +531,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/screenshots/sailpoint-2026-06-20T193336.png
 security:

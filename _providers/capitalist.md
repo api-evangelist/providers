@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Capitalist API enables programmatic mass payouts, transfers, currency conversion, and balance and transaction management across Capitalist's supported payment systems and cryptocurrencies. It is d
   name: Capitalist API
   slug: capitalist-api
-- description: The Capitalist Payments API API from Capitalist — 1 operation(s) for capitalist payments api.
+- baseURL: https://api.capitalist.net
+  baseurl_source: spec
+  description: The Capitalist Payments API API from Capitalist — 1 operation(s) for capitalist payments api.
   name: Capitalist Capitalist Payments API API
   slug: capitalist-capitalist-payments-api-api
 artifact_total: 11
@@ -168,7 +170,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/screenshots/capitalist-2026-06-20T173944.png
 security:

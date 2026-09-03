@@ -33,64 +33,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The AOI API from Pixxel — 3 operation(s) for aoi.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The AOI API from Pixxel — 3 operation(s) for aoi.
   name: Pixxel AOI API
   slug: pixxel-aoi-api
-- description: The Archives API from Pixxel — 5 operation(s) for archives.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Archives API from Pixxel — 5 operation(s) for archives.
   name: Pixxel Archives API
   slug: pixxel-archives-api
-- description: The Assets API from Pixxel — 1 operation(s) for assets.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Assets API from Pixxel — 1 operation(s) for assets.
   name: Pixxel Assets API
   slug: pixxel-assets-api
-- description: The Bandset API from Pixxel — 1 operation(s) for bandset.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Bandset API from Pixxel — 1 operation(s) for bandset.
   name: Pixxel Bandset API
   slug: pixxel-bandset-api
-- description: The Blocks API from Pixxel — 3 operation(s) for blocks.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Blocks API from Pixxel — 3 operation(s) for blocks.
   name: Pixxel Blocks API
   slug: pixxel-blocks-api
-- description: The Catalog API from Pixxel — 5 operation(s) for catalog.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Catalog API from Pixxel — 5 operation(s) for catalog.
   name: Pixxel Catalog API
   slug: pixxel-catalog-api
-- description: The Downloads API from Pixxel — 2 operation(s) for downloads.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Downloads API from Pixxel — 2 operation(s) for downloads.
   name: Pixxel Downloads API
   slug: pixxel-downloads-api
-- description: The external API from Pixxel — 1 operation(s) for external.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The external API from Pixxel — 1 operation(s) for external.
   name: Pixxel external API
   slug: pixxel-external-api
-- description: The Indices API from Pixxel — 1 operation(s) for indices.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Indices API from Pixxel — 1 operation(s) for indices.
   name: Pixxel Indices API
   slug: pixxel-indices-api
-- description: The Insights API from Pixxel — 4 operation(s) for insights.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Insights API from Pixxel — 4 operation(s) for insights.
   name: Pixxel Insights API
   slug: pixxel-insights-api
-- description: The Jobs API from Pixxel — 3 operation(s) for jobs.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Jobs API from Pixxel — 3 operation(s) for jobs.
   name: Pixxel Jobs API
   slug: pixxel-jobs-api
-- description: The Order API from Pixxel — 4 operation(s) for order.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Order API from Pixxel — 4 operation(s) for order.
   name: Pixxel Order API
   slug: pixxel-order-api
-- description: The Project API from Pixxel — 2 operation(s) for project.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Project API from Pixxel — 2 operation(s) for project.
   name: Pixxel Project API
   slug: pixxel-project-api
-- description: The Report API from Pixxel — 1 operation(s) for report.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Report API from Pixxel — 1 operation(s) for report.
   name: Pixxel Report API
   slug: pixxel-report-api
-- description: The Search API from Pixxel — 1 operation(s) for search.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Search API from Pixxel — 1 operation(s) for search.
   name: Pixxel Search API
   slug: pixxel-search-api
-- description: The Stores API from Pixxel — 2 operation(s) for stores.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Stores API from Pixxel — 2 operation(s) for stores.
   name: Pixxel Stores API
   slug: pixxel-stores-api
-- description: The Tasks API from Pixxel — 1 operation(s) for tasks.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Tasks API from Pixxel — 1 operation(s) for tasks.
   name: Pixxel Tasks API
   slug: pixxel-tasks-api
-- description: The Visualizations API from Pixxel — 4 operation(s) for visualizations.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Visualizations API from Pixxel — 4 operation(s) for visualizations.
   name: Pixxel Visualizations API
   slug: pixxel-visualizations-api
-- description: The Workflows API from Pixxel — 3 operation(s) for workflows.
+- baseURL: https://api.pixxel.space
+  baseurl_source: declared
+  description: The Workflows API from Pixxel — 3 operation(s) for workflows.
   name: Pixxel Workflows API
   slug: pixxel-workflows-api
 artifact_total: 42
@@ -294,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixxel/refs/heads/main/screenshots/pixxel-2026-08-17T121353.png
 security:

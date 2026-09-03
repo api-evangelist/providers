@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 34 operations · 18 acting
 api_count: 4
 apis:
-- description: Distribute funds globally with multi-currency support and local compliance across 60+ emerging market countries. Includes payout submission and retrieval, balance checking, quote generation for curren
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Distribute funds globally with multi-currency support and local compliance across 60+ emerging market countries. Includes payout submission and retrieval, balance checking, quote generation for curren
   name: dLocal Payouts API
   slug: dlocal-payouts-api
 - description: Complete solution for marketplaces and platforms with automated account onboarding, KYC information handling, bank account management, transfer operations, and account status and balance queries.
@@ -53,46 +55,74 @@ apis:
 - description: Identity verification and document management API supporting verification creation and retrieval, document management, and status updates for compliance workflows across emerging markets.
   name: dLocal Verification API
   slug: dlocal-verification-api
-- description: Platform sub-account management
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Platform sub-account management
   name: dLocal Accounts API
   slug: dlocal-accounts-api
-- description: Query account balances
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Query account balances
   name: dLocal Balance API
   slug: dlocal-balance-api
-- description: Bank account registration and management
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Bank account registration and management
   name: dLocal Bank Accounts API
   slug: dlocal-bank-accounts-api
-- description: Manage chargeback disputes
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Manage chargeback disputes
   name: dLocal Chargebacks API
   slug: dlocal-chargebacks-api
-- description: Foreign exchange rate queries
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Foreign exchange rate queries
   name: dLocal Currency API
   slug: dlocal-currency-api
-- description: Document upload and management
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Document upload and management
   name: dLocal Documents API
   slug: dlocal-documents-api
-- description: Know Your Customer verification
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Know Your Customer verification
   name: dLocal KYC API
   slug: dlocal-kyc-api
-- description: Query available local payment methods
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Query available local payment methods
   name: dLocal Payment Methods API
   slug: dlocal-payment-methods-api
-- description: Create and manage payment transactions
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Create and manage payment transactions
   name: dLocal Payments API
   slug: dlocal-payments-api
-- description: Submit and manage disbursements
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Submit and manage disbursements
   name: dLocal Payouts API
   slug: dlocal-payouts-api
-- description: Reverse payment transactions
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Reverse payment transactions
   name: dLocal Refunds API
   slug: dlocal-refunds-api
-- description: Card tokenization operations
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Card tokenization operations
   name: dLocal Tokens API
   slug: dlocal-tokens-api
-- description: Fund transfers between accounts
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Fund transfers between accounts
   name: dLocal Transfers API
   slug: dlocal-transfers-api
-- description: Identity verification requests
+- baseURL: https://api.dlocal.com
+  baseurl_source: declared
+  description: Identity verification requests
   name: dLocal Verifications API
   slug: dlocal-verifications-api
 artifact_total: 44
@@ -302,7 +332,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/screenshots/dlocal-2026-06-20T180058.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,40 +50,64 @@ apis:
 - description: Financial Information eXchange protocol interface for institutional trading on Deribit. Designed for professional trading firms requiring low-latency order entry and execution reports using the indust
   name: Deribit FIX API
   slug: deribit-fix-api
-- description: The Account Management API from Deribit — 37 operation(s) for account management.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Account Management API from Deribit — 37 operation(s) for account management.
   name: Deribit Account Management API
   slug: deribit-account-management-api
-- description: The Authentication API from Deribit — 4 operation(s) for authentication.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Authentication API from Deribit — 4 operation(s) for authentication.
   name: Deribit Authentication API
   slug: deribit-authentication-api
-- description: The Block RFQ API from Deribit — 13 operation(s) for block rfq.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Block RFQ API from Deribit — 13 operation(s) for block rfq.
   name: Deribit Block RFQ API
   slug: deribit-block-rfq-api
-- description: The Block Trade API from Deribit — 11 operation(s) for block trade.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Block Trade API from Deribit — 11 operation(s) for block trade.
   name: Deribit Block Trade API
   slug: deribit-block-trade-api
-- description: The Combo Books API from Deribit — 5 operation(s) for combo books.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Combo Books API from Deribit — 5 operation(s) for combo books.
   name: Deribit Combo Books API
   slug: deribit-combo-books-api
-- description: The Market Data API from Deribit — 31 operation(s) for market data.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Market Data API from Deribit — 31 operation(s) for market data.
   name: Deribit Market Data API
   slug: deribit-market-data-api
-- description: Endpoints that operate on the authenticated portfolio.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: Endpoints that operate on the authenticated portfolio.
   name: Deribit Portfolio Management API
   slug: deribit-portfolio-management-api
-- description: The Session Management API from Deribit — 5 operation(s) for session management.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Session Management API from Deribit — 5 operation(s) for session management.
   name: Deribit Session Management API
   slug: deribit-session-management-api
-- description: Subscription works as [notifications](#notifications), so users will automatically (after subscribing) receive messages from the server. Overview for each channel response format is described in [subs
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: Subscription works as [notifications](#notifications), so users will automatically (after subscribing) receive messages from the server. Overview for each channel response format is described in [subs
   name: Deribit Subscription Management API
   slug: deribit-subscription-management-api
-- description: The Supporting API from Deribit — 4 operation(s) for supporting.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Supporting API from Deribit — 4 operation(s) for supporting.
   name: Deribit Supporting API
   slug: deribit-supporting-api
-- description: The Trading API from Deribit — 38 operation(s) for trading.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Trading API from Deribit — 38 operation(s) for trading.
   name: Deribit Trading API
   slug: deribit-trading-api
-- description: The Wallet API from Deribit — 21 operation(s) for wallet.
+- baseURL: https://www.deribit.com/api/v2
+  baseurl_source: declared
+  description: The Wallet API from Deribit — 21 operation(s) for wallet.
   name: Deribit Wallet API
   slug: deribit-wallet-api
 artifact_total: 607
@@ -1991,7 +2015,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/screenshots/deribit-2026-06-20T175930.png
 security:

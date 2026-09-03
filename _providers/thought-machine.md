@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Vault Core is Thought Machine's cloud-native core banking engine. Its API surface spans a REST Core API for external integrations (channels, CRM, operator UI), a Posting API that manages financial mov
@@ -136,11 +149,11 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -150,7 +163,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 35.1
+  previous_composite: 34.9
   provenance:
     conformance: first-party
   regulatory:
@@ -160,8 +173,9 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thought-machine/refs/heads/main/screenshots/thought-machine-2026-09-02T163605.png
 security:
 - kind: authentication
   name: Thought Machine Authentication

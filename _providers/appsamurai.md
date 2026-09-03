@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
   name: Appsamurai Campaign Spend API
   slug: appsamurai-campaign-spend-api
-- description: App management endpoints
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: App management endpoints
   name: Appsamurai App API
   slug: appsamurai-app-api
-- description: Audience management endpoints
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: Audience management endpoints
   name: Appsamurai Audience API
   slug: appsamurai-audience-api
-- description: Instance management endpoints
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: Instance management endpoints
   name: Appsamurai Instance API
   slug: appsamurai-instance-api
-- description: Segment management endpoints
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: Segment management endpoints
   name: Appsamurai Segment API
   slug: appsamurai-segment-api
-- description: Story management endpoints
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: Story management endpoints
   name: Appsamurai Story API
   slug: appsamurai-story-api
-- description: Story group management endpoints
+- baseURL: http://api.appsamurai.com
+  baseurl_source: declared
+  description: Story group management endpoints
   name: Appsamurai Story Group API
   slug: appsamurai-story-group-api
 artifact_total: 16
@@ -251,7 +265,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.8
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -261,7 +275,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 49.8
+  previous_composite: 53.6
   provenance:
     conformance: first-party
     contracts:
@@ -272,7 +286,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: The Raster Map API delivers visual raster layers of climate perils for mapping and visualization use cases.
   name: First Street Raster Map API
   slug: raster-map
-- description: The Enterprise API from First Street — 1 operation(s) for enterprise.
+- baseURL: https://api.firststreet.org
+  baseurl_source: spec
+  description: The Enterprise API from First Street — 1 operation(s) for enterprise.
   name: First Street Enterprise API
   slug: first-street-enterprise-api
-- description: The Graphql API from First Street — 1 operation(s) for graphql.
+- baseURL: https://api.firststreet.org
+  baseurl_source: spec
+  description: The Graphql API from First Street — 1 operation(s) for graphql.
   name: First Street Graphql API
   slug: first-street-graphql-api
-- description: The Maps API from First Street — 1 operation(s) for maps.
+- baseURL: https://api.firststreet.org
+  baseurl_source: spec
+  description: The Maps API from First Street — 1 operation(s) for maps.
   name: First Street Maps API
   slug: first-street-maps-api
 artifact_total: 19
@@ -172,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/screenshots/first-street-2026-06-20T181242.png
 security:

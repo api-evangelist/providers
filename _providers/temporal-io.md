@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -53,19 +53,29 @@ apis:
 - description: Temporal Nexus connects Temporal applications across namespaces and teams via named Nexus endpoints backed by synchronous and asynchronous Nexus operations. Endpoints are registered through the Operat
   name: Temporal Nexus API
   slug: temporal-io-nexus-api
-- description: Cluster and system information.
+- baseURL: https://docs.temporal.io/references/api-reference
+  baseurl_source: declared
+  description: Cluster and system information.
   name: Temporal Cluster API
   slug: temporal-io-cluster-api
-- description: Read namespace metadata (read-only subset over HTTP).
+- baseURL: https://docs.temporal.io/references/api-reference
+  baseurl_source: declared
+  description: Read namespace metadata (read-only subset over HTTP).
   name: Temporal Namespaces API
   slug: temporal-io-namespaces-api
-- description: Cancel, terminate, and reset workflow executions.
+- baseURL: https://docs.temporal.io/references/api-reference
+  baseurl_source: declared
+  description: Cancel, terminate, and reset workflow executions.
   name: Temporal Workflow Lifecycle API
   slug: temporal-io-workflow-lifecycle-api
-- description: Signal, query, and update running workflow executions.
+- baseURL: https://docs.temporal.io/references/api-reference
+  baseurl_source: declared
+  description: Signal, query, and update running workflow executions.
   name: Temporal Workflow Messaging API
   slug: temporal-io-workflow-messaging-api
-- description: Start, describe, list, count, and read the history of workflow executions.
+- baseURL: https://docs.temporal.io/references/api-reference
+  baseurl_source: declared
+  description: Start, describe, list, count, and read the history of workflow executions.
   name: Temporal Workflows API
   slug: temporal-io-workflows-api
 artifact_total: 23
@@ -173,7 +183,7 @@ score:
   band: developing
   composite: 40.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +206,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/temporal-io/refs/heads/main/screenshots/temporal-io-2026-09-02T163040.png
 security:
 - kind: authentication
   name: Temporal Io Authentication

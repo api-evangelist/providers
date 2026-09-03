@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 21 acting
 api_count: 1
 apis:
-- description: Manage Coalesce deployment environments
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: Manage Coalesce deployment environments
   name: Coalesce Environments API
   slug: coalesce-environments-api
-- description: Manage Git account integrations
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: Manage Git account integrations
   name: Coalesce Git Accounts API
   slug: coalesce-git-accounts-api
-- description: Manage environment and workspace nodes
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: Manage environment and workspace nodes
   name: Coalesce Nodes API
   slug: coalesce-nodes-api
-- description: Manage Coalesce projects
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: Manage Coalesce projects
   name: Coalesce Projects API
   slug: coalesce-projects-api
-- description: List and inspect pipeline run records
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: List and inspect pipeline run records
   name: Coalesce Runs API
   slug: coalesce-runs-api
-- description: Start, stop, retry, and monitor pipeline runs
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: Start, stop, retry, and monitor pipeline runs
   name: Coalesce Scheduler API
   slug: coalesce-scheduler-api
-- description: Manage organization users and roles
+- baseURL: https://app.coalescesoftware.io/api/v1
+  baseurl_source: declared
+  description: Manage organization users and roles
   name: Coalesce Users API
   slug: coalesce-users-api
 artifact_total: 29
@@ -244,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coalesce/refs/heads/main/screenshots/coalesce-2026-06-20T174640.png
 security:

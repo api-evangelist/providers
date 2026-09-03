@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 58 operations
 api_count: 1
 apis:
-- description: The Australia API from The Racing API — 3 operation(s) for australia.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Australia API from The Racing API — 3 operation(s) for australia.
   name: The Racing API Australia API
   slug: the-racing-api-australia-api
-- description: The Courses API from The Racing API — 2 operation(s) for courses.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Courses API from The Racing API — 2 operation(s) for courses.
   name: The Racing API Courses API
   slug: the-racing-api-courses-api
-- description: The Dams API from The Racing API — 4 operation(s) for dams.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Dams API from The Racing API — 4 operation(s) for dams.
   name: The Racing API Dams API
   slug: the-racing-api-dams-api
-- description: The Damsires API from The Racing API — 4 operation(s) for damsires.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Damsires API from The Racing API — 4 operation(s) for damsires.
   name: The Racing API Damsires API
   slug: the-racing-api-damsires-api
-- description: The Horses API from The Racing API — 5 operation(s) for horses.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Horses API from The Racing API — 5 operation(s) for horses.
   name: The Racing API Horses API
   slug: the-racing-api-horses-api
-- description: The Jockeys API from The Racing API — 6 operation(s) for jockeys.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Jockeys API from The Racing API — 6 operation(s) for jockeys.
   name: The Racing API Jockeys API
   slug: the-racing-api-jockeys-api
-- description: The North America API from The Racing API — 3 operation(s) for north america.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The North America API from The Racing API — 3 operation(s) for north america.
   name: The Racing API North America API
   slug: the-racing-api-north-america-api
-- description: The Odds API from The Racing API — 1 operation(s) for odds.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Odds API from The Racing API — 1 operation(s) for odds.
   name: The Racing API Odds API
   slug: the-racing-api-odds-api
-- description: The Owners API from The Racing API — 6 operation(s) for owners.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Owners API from The Racing API — 6 operation(s) for owners.
   name: The Racing API Owners API
   slug: the-racing-api-owners-api
-- description: The Pro Plan API from The Racing API — 46 operation(s) for pro plan.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Pro Plan API from The Racing API — 46 operation(s) for pro plan.
   name: The Racing API Pro Plan API
   slug: the-racing-api-pro-plan-api
-- description: The Racecards API from The Racing API — 8 operation(s) for racecards.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Racecards API from The Racing API — 8 operation(s) for racecards.
   name: The Racing API Racecards API
   slug: the-racing-api-racecards-api
-- description: The Results API from The Racing API — 4 operation(s) for results.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Results API from The Racing API — 4 operation(s) for results.
   name: The Racing API Results API
   slug: the-racing-api-results-api
-- description: The Sires API from The Racing API — 4 operation(s) for sires.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Sires API from The Racing API — 4 operation(s) for sires.
   name: The Racing API Sires API
   slug: the-racing-api-sires-api
-- description: The Trainers API from The Racing API — 7 operation(s) for trainers.
+- baseURL: https://api.theracingapi.com
+  baseurl_source: declared
+  description: The Trainers API from The Racing API — 7 operation(s) for trainers.
   name: The Racing API Trainers API
   slug: the-racing-api-trainers-api
 artifact_total: 419
@@ -1402,7 +1430,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/screenshots/the-racing-api-2026-06-20T195235.png
 security:

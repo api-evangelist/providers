@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Developer SDK for high-fidelity 3D avatar generation from a single photo, delivered as Unreal and Unity engine plugins backed by a deployable avatar-generation API. No public machine-readable API desc
@@ -105,7 +105,7 @@ score:
   band: minimal
   composite: 8.1
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -121,8 +121,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pinscreen/refs/heads/main/screenshots/pinscreen-2026-09-02T151340.png
 security:
 - kind: domain-security
   name: Pinscreen Domain Security

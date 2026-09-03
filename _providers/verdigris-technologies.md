@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Endpoints that return control data from building management systems (BMS)
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return control data from building management systems (BMS)
   name: Verdigris Technologies Control API
   slug: verdigris-technologies-control-api
-- description: Endpoints that return current data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return current data
   name: Verdigris Technologies Current API
   slug: verdigris-technologies-current-api
-- description: Endpoints that return energy data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return energy data
   name: Verdigris Technologies Energy API
   slug: verdigris-technologies-energy-api
-- description: The Events API from Verdigris Technologies — 3 operation(s) for events.
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: The Events API from Verdigris Technologies — 3 operation(s) for events.
   name: Verdigris Technologies Events API
   slug: verdigris-technologies-events-api
-- description: The Forecast API from Verdigris Technologies — 1 operation(s) for forecast.
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: The Forecast API from Verdigris Technologies — 1 operation(s) for forecast.
   name: Verdigris Technologies Forecast API
   slug: verdigris-technologies-forecast-api
-- description: Endpoints that return power data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return power data
   name: Verdigris Technologies Power API
   slug: verdigris-technologies-power-api
-- description: Endpoints that return power factor data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return power factor data
   name: Verdigris Technologies Power Factor API
   slug: verdigris-technologies-power-factor-api
-- description: Endpoints that return total harmonic distortion data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return total harmonic distortion data
   name: Verdigris Technologies Total Harmonic Distortion API
   slug: verdigris-technologies-total-harmonic-distortion-api
-- description: Endpoints that return voltage data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return voltage data
   name: Verdigris Technologies Voltage API
   slug: verdigris-technologies-voltage-api
-- description: Endpoints that return weather data
+- baseURL: https://api.verdigris.co/data/v4
+  baseurl_source: declared
+  description: Endpoints that return weather data
   name: Verdigris Technologies Weather API
   slug: verdigris-technologies-weather-api
 artifact_total: 26
@@ -259,7 +279,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Single-ticker real-time or delayed pricing snapshot (Snap). Returns the current quote and trade fields - last price, bid/ask, volume, and related market data - for one instrument across QUODD's global
+- baseURL: https://api.quodd.com
+  baseurl_source: declared
+  description: Single-ticker real-time or delayed pricing snapshot (Snap). Returns the current quote and trade fields - last price, bid/ask, volume, and related market data - for one instrument across QUODD's global
   name: QUODD Snap API
   slug: quodd-snap-api
-- description: Batch snapshot retrieval for many tickers in a single request, via GET (query list) or POST (ticker array). Returns real-time or delayed pricing for each requested instrument. Documented in QUODD's RE
+- baseURL: https://api.quodd.com
+  baseurl_source: declared
+  description: Batch snapshot retrieval for many tickers in a single request, via GET (query list) or POST (ticker array). Returns real-time or delayed pricing for each requested instrument. Documented in QUODD's RE
   name: QUODD Batch Snaps API
   slug: quodd-batch-snaps-api
-- description: Real-time or delayed options pricing snapshots for single contracts (Options Snap) and for many contracts at once (Batch Options Snaps, GET and POST). Documented in the QUODD REST API reference.
+- baseURL: https://api.quodd.com
+  baseurl_source: declared
+  description: Real-time or delayed options pricing snapshots for single contracts (Options Snap) and for many contracts at once (Batch Options Snaps, GET and POST). Documented in the QUODD REST API reference.
   name: QUODD Options Snaps API
   slug: quodd-options-snaps-api
-- description: Token generation for trial and firm users. Exchanges username and password credentials for an access token that is appended to REST requests as the _token query parameter. Tokens expire after 24 hours
+- baseURL: https://api.quodd.com
+  baseurl_source: declared
+  description: Token generation for trial and firm users. Exchanges username and password credentials for an access token that is appended to REST requests as the _token query parameter. Tokens expire after 24 hours
   name: QUODD Authentication Token API
   slug: quodd-authentication-token-api
 - description: Ticker and symbol lookup for discovering securities across asset classes and identifiers (Cloud Search). Listed as Beta Access on the QUODD Developer Platform; endpoint paths are modeled.
@@ -246,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png
 security:

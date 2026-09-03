@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -34,19 +49,29 @@ agentic_access:
   summary_line: 21 operations · 10 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Booking flow API from LaFourchette — 8 operation(s) for booking flow.
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Booking flow API from LaFourchette — 8 operation(s) for booking flow.
   name: LaFourchette Booking flow API
   slug: lafourchette-booking-flow-api
-- description: The Data API from LaFourchette — 4 operation(s) for data.
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Data API from LaFourchette — 4 operation(s) for data.
   name: LaFourchette Data API
   slug: lafourchette-data-api
-- description: The Phone API from LaFourchette — 3 operation(s) for phone.
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Phone API from LaFourchette — 3 operation(s) for phone.
   name: LaFourchette Phone API
   slug: lafourchette-phone-api
-- description: The Review flow API from LaFourchette — 3 operation(s) for review flow.
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The Review flow API from LaFourchette — 3 operation(s) for review flow.
   name: LaFourchette Review flow API
   slug: lafourchette-review-flow-api
-- description: The v1 API from LaFourchette — 3 operation(s) for v1.
+- baseURL: https://api.thefork.io/manager
+  baseurl_source: declared
+  description: The v1 API from LaFourchette — 3 operation(s) for v1.
   name: LaFourchette V1 API
   slug: lafourchette-v1-api
 artifact_total: 13
@@ -233,11 +258,11 @@ score:
   band: developing
   composite: 42.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -247,7 +272,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 42.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +284,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/screenshots/lafourchette-2026-09-02T150204.png
 security:
 - kind: authentication
   name: Lafourchette Authentication

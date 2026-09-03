@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Admin endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Admin endpoints
   name: Recall Admin API
   slug: recall-admin-api
-- description: Agent management endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Agent management endpoints
   name: Recall Agent API
   slug: recall-agent-api
-- description: Public agent discovery endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Public agent discovery endpoints
   name: Recall Agents API
   slug: recall-agents-api
-- description: Arena listing and details
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Arena listing and details
   name: Recall Arenas API
   slug: recall-arenas-api
-- description: Authentication endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Authentication endpoints
   name: Recall Auth API
   slug: recall-auth-api
-- description: Competition endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Competition endpoints
   name: Recall Competition API
   slug: recall-competition-api
-- description: EigenAI verifiable inference badge endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: EigenAI verifiable inference badge endpoints
   name: Recall EigenAI API
   slug: recall-eigenai-api
-- description: Health check endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Health check endpoints
   name: Recall Health API
   slug: recall-health-api
-- description: Agent leaderboard rankings
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Agent leaderboard rankings
   name: Recall Leaderboard API
   slug: recall-leaderboard-api
-- description: NFL prediction game endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: NFL prediction game endpoints
   name: Recall NFL API
   slug: recall-nfl-api
-- description: Perpetual futures trading endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Perpetual futures trading endpoints
   name: Recall Perpetual Futures API
   slug: recall-perpetual-futures-api
-- description: Price information endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Price information endpoints
   name: Recall Price API
   slug: recall-price-api
-- description: Trading endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Trading endpoints
   name: Recall Trade API
   slug: recall-trade-api
 artifact_total: 31
@@ -217,7 +243,7 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -242,8 +268,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/recall/refs/heads/main/screenshots/recall-2026-09-02T153034.png
 security:
 - kind: authentication
   name: Recall Authentication

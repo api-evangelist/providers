@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 65 operations
 api_count: 1
 apis:
-- description: The Alerts API from National Weather Service — 8 operation(s) for alerts.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Alerts API from National Weather Service — 8 operation(s) for alerts.
   name: National Weather Service Alerts API
   slug: national-weather-service-alerts-api
-- description: The Aviation API from National Weather Service — 7 operation(s) for aviation.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Aviation API from National Weather Service — 7 operation(s) for aviation.
   name: National Weather Service Aviation API
   slug: national-weather-service-aviation-api
-- description: The Glossary API from National Weather Service — 1 operation(s) for glossary.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Glossary API from National Weather Service — 1 operation(s) for glossary.
   name: National Weather Service Glossary API
   slug: national-weather-service-glossary-api
-- description: The Gridpoints API from National Weather Service — 4 operation(s) for gridpoints.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Gridpoints API from National Weather Service — 4 operation(s) for gridpoints.
   name: National Weather Service Gridpoints API
   slug: national-weather-service-gridpoints-api
-- description: The Icons API from National Weather Service — 3 operation(s) for icons.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Icons API from National Weather Service — 3 operation(s) for icons.
   name: National Weather Service Icons API
   slug: national-weather-service-icons-api
-- description: The Offices API from National Weather Service — 8 operation(s) for offices.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Offices API from National Weather Service — 8 operation(s) for offices.
   name: National Weather Service Offices API
   slug: national-weather-service-offices-api
-- description: The Points API from National Weather Service — 3 operation(s) for points.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Points API from National Weather Service — 3 operation(s) for points.
   name: National Weather Service Points API
   slug: national-weather-service-points-api
-- description: The Products API from National Weather Service — 9 operation(s) for products.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Products API from National Weather Service — 9 operation(s) for products.
   name: National Weather Service Products API
   slug: national-weather-service-products-api
-- description: The Radar API from National Weather Service — 7 operation(s) for radar.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Radar API from National Weather Service — 7 operation(s) for radar.
   name: National Weather Service Radar API
   slug: national-weather-service-radar-api
-- description: The Radio API from National Weather Service — 1 operation(s) for radio.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Radio API from National Weather Service — 1 operation(s) for radio.
   name: National Weather Service Radio API
   slug: national-weather-service-radio-api
-- description: The Stations API from National Weather Service — 7 operation(s) for stations.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Stations API from National Weather Service — 7 operation(s) for stations.
   name: National Weather Service Stations API
   slug: national-weather-service-stations-api
-- description: The Thumbnails API from National Weather Service — 1 operation(s) for thumbnails.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Thumbnails API from National Weather Service — 1 operation(s) for thumbnails.
   name: National Weather Service Thumbnails API
   slug: national-weather-service-thumbnails-api
-- description: The Zones API from National Weather Service — 6 operation(s) for zones.
+- baseURL: https://api.weather.gov/
+  baseurl_source: declared
+  description: The Zones API from National Weather Service — 6 operation(s) for zones.
   name: National Weather Service Zones API
   slug: national-weather-service-zones-api
 artifact_total: 34
@@ -217,7 +243,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-weather-service/refs/heads/main/screenshots/national-weather-service-2026-06-20T190047.png
 security:

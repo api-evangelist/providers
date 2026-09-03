@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 13 operations · 13 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=HealthLake.CreateFHIRDatastore API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.createfhirdatastore.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.CreateFHIRDatastore API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.createfhirdatastore.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.CreateFHIRDatastore API'
   slug: amazon-healthlake-x-amz-target-healthlake-createfhirdatastore-api
-- description: 'The #X Amz Target=HealthLake.DeleteFHIRDatastore API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.deletefhirdatastore.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.DeleteFHIRDatastore API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.deletefhirdatastore.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.DeleteFHIRDatastore API'
   slug: amazon-healthlake-x-amz-target-healthlake-deletefhirdatastore-api
-- description: 'The #X Amz Target=HealthLake.DescribeFHIRDatastore API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.describefhirdatastore.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.DescribeFHIRDatastore API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.describefhirdatastore.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.DescribeFHIRDatastore API'
   slug: amazon-healthlake-x-amz-target-healthlake-describefhirdatastore-api
-- description: 'The #X Amz Target=HealthLake.DescribeFHIRExportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.describefhirexportjob.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.DescribeFHIRExportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.describefhirexportjob.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.DescribeFHIRExportJob API'
   slug: amazon-healthlake-x-amz-target-healthlake-describefhirexportjob-api
-- description: 'The #X Amz Target=HealthLake.DescribeFHIRImportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.describefhirimportjob.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.DescribeFHIRImportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.describefhirimportjob.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.DescribeFHIRImportJob API'
   slug: amazon-healthlake-x-amz-target-healthlake-describefhirimportjob-api
-- description: 'The #X Amz Target=HealthLake.ListFHIRDatastores API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listfhirdatastores.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.ListFHIRDatastores API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listfhirdatastores.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.ListFHIRDatastores API'
   slug: amazon-healthlake-x-amz-target-healthlake-listfhirdatastores-api
-- description: 'The #X Amz Target=HealthLake.ListFHIRExportJobs API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listfhirexportjobs.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.ListFHIRExportJobs API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listfhirexportjobs.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.ListFHIRExportJobs API'
   slug: amazon-healthlake-x-amz-target-healthlake-listfhirexportjobs-api
-- description: 'The #X Amz Target=HealthLake.ListFHIRImportJobs API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listfhirimportjobs.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.ListFHIRImportJobs API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listfhirimportjobs.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.ListFHIRImportJobs API'
   slug: amazon-healthlake-x-amz-target-healthlake-listfhirimportjobs-api
-- description: 'The #X Amz Target=HealthLake.ListTagsForResource API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listtagsforresource.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.ListTagsForResource API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.listtagsforresource.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.ListTagsForResource API'
   slug: amazon-healthlake-x-amz-target-healthlake-listtagsforresource-api
-- description: 'The #X Amz Target=HealthLake.StartFHIRExportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.startfhirexportjob.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.StartFHIRExportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.startfhirexportjob.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.StartFHIRExportJob API'
   slug: amazon-healthlake-x-amz-target-healthlake-startfhirexportjob-api
-- description: 'The #X Amz Target=HealthLake.StartFHIRImportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.startfhirimportjob.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.StartFHIRImportJob API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.startfhirimportjob.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.StartFHIRImportJob API'
   slug: amazon-healthlake-x-amz-target-healthlake-startfhirimportjob-api
-- description: 'The #X Amz Target=HealthLake.TagResource API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.tagresource.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.TagResource API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.tagresource.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.TagResource API'
   slug: amazon-healthlake-x-amz-target-healthlake-tagresource-api
-- description: 'The #X Amz Target=HealthLake.UntagResource API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.untagresource.'
+- baseURL: https://healthlake.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=HealthLake.UntagResource API from Amazon HealthLake — 1 operation(s) for #x amz target=healthlake.untagresource.'
   name: 'Amazon HealthLake #X Amz Target=HealthLake.UntagResource API'
   slug: amazon-healthlake-x-amz-target-healthlake-untagresource-api
 arazzos:
@@ -980,7 +1006,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/screenshots/amazon-healthlake-2026-07-25T200010.png
 security:

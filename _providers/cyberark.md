@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: The CyberArk Identity REST API enables programmatic management of users, roles, applications, MFA policies, SSO, and SCIM-based provisioning across the workforce identity tenant. Tenants are addressed
   name: CyberArk Identity REST API
   slug: identity
-- description: Authenticate hosts and users, exchange credentials for access tokens.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Authenticate hosts and users, exchange credentials for access tokens.
   name: CyberArk Authentication API
   slug: cyberark-authentication-api
-- description: Health and information endpoints.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Health and information endpoints.
   name: CyberArk Health API
   slug: cyberark-health-api
-- description: Load, update, and replace Conjur policy YAML.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Load, update, and replace Conjur policy YAML.
   name: CyberArk Policies API
   slug: cyberark-policies-api
-- description: Retrieve public keys associated with users and hosts.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Retrieve public keys associated with users and hosts.
   name: CyberArk PublicKeys API
   slug: cyberark-publickeys-api
-- description: Inspect resources (hosts, users, groups, layers, variables) and check permissions.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Inspect resources (hosts, users, groups, layers, variables) and check permissions.
   name: CyberArk Resources API
   slug: cyberark-resources-api
-- description: Manage role membership and inspect role information.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Manage role membership and inspect role information.
   name: CyberArk Roles API
   slug: cyberark-roles-api
-- description: Store and retrieve secret values bound to variable resources.
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Store and retrieve secret values bound to variable resources.
   name: CyberArk Secrets API
   slug: cyberark-secrets-api
 artifact_total: 31
@@ -296,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png
 security:

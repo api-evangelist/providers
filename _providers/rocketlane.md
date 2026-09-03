@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 76 operations · 47 acting
 api_count: 1
 apis:
-- description: Endpoints for comments resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for comments resource
   name: Rocketlane Comments API
   slug: rocketlane-comments-api
-- description: Endpoints for conversations resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for conversations resource
   name: Rocketlane Conversations API
   slug: rocketlane-conversations-api
-- description: Endpoints for fields resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for fields resource
   name: Rocketlane Fields API
   slug: rocketlane-fields-api
-- description: Endpoints for invoices resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for invoices resource
   name: Rocketlane Invoices API
   slug: rocketlane-invoices-api
-- description: Endpoints for phases resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for phases resource
   name: Rocketlane Phases API
   slug: rocketlane-phases-api
-- description: Endpoints for projects resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for projects resource
   name: Rocketlane Projects API
   slug: rocketlane-projects-api
-- description: Endpoints for resource allocation resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for resource allocation resource
   name: Rocketlane Resource Allocations API
   slug: rocketlane-resource-allocations-api
-- description: Endpoints for space tabs resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for space tabs resource
   name: Rocketlane Space Documents API
   slug: rocketlane-space-documents-api
-- description: Endpoints for space resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for space resource
   name: Rocketlane Spaces API
   slug: rocketlane-spaces-api
-- description: Endpoints for tasks resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for tasks resource
   name: Rocketlane Tasks API
   slug: rocketlane-tasks-api
-- description: Endpoints for time-offs resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for time-offs resource
   name: Rocketlane Time-Offs API
   slug: rocketlane-time-offs-api
-- description: Endpoints for time entries and timesheets
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for time entries and timesheets
   name: Rocketlane Time Tracking API
   slug: rocketlane-time-tracking-api
-- description: Endpoints for users resource
+- baseURL: https://api.rocketlane.com/api/1.0/
+  baseurl_source: declared
+  description: Endpoints for users resource
   name: Rocketlane Users API
   slug: rocketlane-users-api
 artifact_total: 35
@@ -307,7 +333,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -317,7 +343,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/screenshots/rocketlane-2026-08-17T081626.png
 security:

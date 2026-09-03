@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 79 operations · 34 acting
 api_count: 1
 apis:
-- description: Reservations against a property, including dates, guest, and charges.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Reservations against a property, including dates, guest, and charges.
   name: OwnerRez Bookings API
   slug: ownerrez-bookings-api
-- description: Security and damage deposits.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Security and damage deposits.
   name: OwnerRez Deposits API
   slug: ownerrez-deposits-api
-- description: Discount rules.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Discount rules.
   name: OwnerRez Discounts API
   slug: ownerrez-discounts-api
-- description: Fees applied to bookings and quotes.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Fees applied to bookings and quotes.
   name: OwnerRez Fees API
   slug: ownerrez-fees-api
-- description: Definitions of custom fields.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Definitions of custom fields.
   name: OwnerRez FieldDefinitions API
   slug: ownerrez-fielddefinitions-api
-- description: Custom field values attached to records.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Custom field values attached to records.
   name: OwnerRez Fields API
   slug: ownerrez-fields-api
-- description: Guest contact records and their addresses, emails, and phones.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Guest contact records and their addresses, emails, and phones.
   name: OwnerRez Guests API
   slug: ownerrez-guests-api
-- description: Inbound guest inquiries and leads.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Inbound guest inquiries and leads.
   name: OwnerRez Inquiries API
   slug: ownerrez-inquiries-api
-- description: Public listing content and channel listing sites for properties.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Public listing content and channel listing sites for properties.
   name: OwnerRez Listings API
   slug: ownerrez-listings-api
-- description: Guest messaging threads and outbound messages.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Guest messaging threads and outbound messages.
   name: OwnerRez Messages API
   slug: ownerrez-messages-api
-- description: Property owners.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Property owners.
   name: OwnerRez Owners API
   slug: ownerrez-owners-api
-- description: Payments recorded against bookings.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Payments recorded against bookings.
   name: OwnerRez Payments API
   slug: ownerrez-payments-api
-- description: Rental properties managed in OwnerRez.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Rental properties managed in OwnerRez.
   name: OwnerRez Properties API
   slug: ownerrez-properties-api
-- description: Availability and criteria search across properties.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Availability and criteria search across properties.
   name: OwnerRez PropertySearch API
   slug: ownerrez-propertysearch-api
-- description: Price quotes generated for a stay.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Price quotes generated for a stay.
   name: OwnerRez Quotes API
   slug: ownerrez-quotes-api
-- description: Refunds issued against payments.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Refunds issued against payments.
   name: OwnerRez Refunds API
   slug: ownerrez-refunds-api
-- description: Guest reviews collected for stays and properties.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Guest reviews collected for stays and properties.
   name: OwnerRez Reviews API
   slug: ownerrez-reviews-api
-- description: Ad hoc nightly spot-rate overrides.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Ad hoc nightly spot-rate overrides.
   name: OwnerRez SpotRates API
   slug: ownerrez-spotrates-api
-- description: Surcharge rules applied to bookings and quotes.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Surcharge rules applied to bookings and quotes.
   name: OwnerRez Surcharges API
   slug: ownerrez-surcharges-api
-- description: Definitions of tags.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Definitions of tags.
   name: OwnerRez TagDefinitions API
   slug: ownerrez-tagdefinitions-api
-- description: Tag values applied to records.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Tag values applied to records.
   name: OwnerRez Tags API
   slug: ownerrez-tags-api
-- description: The authenticated user context.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: The authenticated user context.
   name: OwnerRez Users API
   slug: ownerrez-users-api
-- description: Outbound webhook subscriptions and their event categories.
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Outbound webhook subscriptions and their event categories.
   name: OwnerRez WebhookSubscriptions API
   slug: ownerrez-webhooksubscriptions-api
 artifact_total: 54
@@ -297,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/screenshots/ownerrez-2026-08-07T191158.png
 security:

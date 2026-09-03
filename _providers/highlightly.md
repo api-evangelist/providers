@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 24 operations
 api_count: 1
 apis:
-- description: The Catalog API from Highlightly — 4 operation(s) for catalog.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Catalog API from Highlightly — 4 operation(s) for catalog.
   name: Highlightly Catalog API
   slug: highlightly-catalog-api
-- description: The Highlights API from Highlightly — 3 operation(s) for highlights.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Highlights API from Highlightly — 3 operation(s) for highlights.
   name: Highlightly Highlights API
   slug: highlightly-highlights-api
-- description: The Matches API from Highlightly — 6 operation(s) for matches.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Matches API from Highlightly — 6 operation(s) for matches.
   name: Highlightly Matches API
   slug: highlightly-matches-api
-- description: The Odds API from Highlightly — 3 operation(s) for odds.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Odds API from Highlightly — 3 operation(s) for odds.
   name: Highlightly Odds API
   slug: highlightly-odds-api
-- description: The Standings API from Highlightly — 1 operation(s) for standings.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Standings API from Highlightly — 1 operation(s) for standings.
   name: Highlightly Standings API
   slug: highlightly-standings-api
-- description: The Statistics API from Highlightly — 5 operation(s) for statistics.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Statistics API from Highlightly — 5 operation(s) for statistics.
   name: Highlightly Statistics API
   slug: highlightly-statistics-api
-- description: The Teams API from Highlightly — 2 operation(s) for teams.
+- baseURL: https://sports.highlightly.net
+  baseurl_source: declared
+  description: The Teams API from Highlightly — 2 operation(s) for teams.
   name: Highlightly Teams API
   slug: highlightly-teams-api
 artifact_total: 22
@@ -183,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/screenshots/highlightly-2026-07-25T221204.png
 security:

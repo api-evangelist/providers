@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 26 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Server-side key/value cache.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: Server-side key/value cache.
   name: Backendless Cache API
   slug: backendless-cache-api
-- description: Invocation of custom serverless API services.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: Invocation of custom serverless API services.
   name: Backendless CloudCode API
   slug: backendless-cloudcode-api
-- description: Thread-safe atomic counters.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: Thread-safe atomic counters.
   name: Backendless Counters API
   slug: backendless-counters-api
-- description: CRUD and search over schema-backed database tables.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: CRUD and search over schema-backed database tables.
   name: Backendless Data API
   slug: backendless-data-api
-- description: File and directory storage operations.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: File and directory storage operations.
   name: Backendless Files API
   slug: backendless-files-api
-- description: Geolocation point management and proximity search.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: Geolocation point management and proximity search.
   name: Backendless Geo API
   slug: backendless-geo-api
-- description: Publish-subscribe messaging, push notifications, and email.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: Publish-subscribe messaging, push notifications, and email.
   name: Backendless Messaging API
   slug: backendless-messaging-api
-- description: User registration, authentication, and session management.
+- baseURL: https://api.backendless.com/{app-id}/{rest-api-key}/data
+  baseurl_source: declared
+  description: User registration, authentication, and session management.
   name: Backendless Users API
   slug: backendless-users-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/screenshots/backendless-2026-06-20T172920.png
 security:

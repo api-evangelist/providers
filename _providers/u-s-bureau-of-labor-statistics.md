@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 2
 apis:
-- description: Time series data operations for retrieving labor statistics across BLS surveys including employment, CPI, wages, and more.
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Time series data operations for retrieving labor statistics across BLS surveys including employment, CPI, wages, and more.
   name: U.S. Bureau of Labor Statistics Series API
   slug: u-s-bureau-of-labor-statistics-series-api
-- description: Survey metadata and catalog operations for discovering available BLS surveys and their series identifiers.
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Survey metadata and catalog operations for discovering available BLS surveys and their series identifiers.
   name: U.S. Bureau of Labor Statistics Surveys API
   slug: u-s-bureau-of-labor-statistics-surveys-api
 artifact_total: 68
@@ -335,7 +339,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png
 security:

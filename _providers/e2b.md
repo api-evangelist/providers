@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -47,10 +47,14 @@ apis:
 - description: The E2B Sandbox API creates and controls per-agent Linux microVMs that can run arbitrary code, install packages, read and write files, stream terminal output, and host headless browsers. Code Interpre
   name: E2B Sandbox API
   slug: sandbox-api
-- description: The Sandboxes API from E2B — 12 operation(s) for sandboxes.
+- baseURL: https://api.e2b.dev
+  baseurl_source: declared
+  description: The Sandboxes API from E2B — 12 operation(s) for sandboxes.
   name: E2B Sandboxes API
   slug: e2b-sandboxes-api
-- description: The Templates API from E2B — 1 operation(s) for templates.
+- baseURL: https://api.e2b.dev
+  baseurl_source: declared
+  description: The Templates API from E2B — 1 operation(s) for templates.
   name: E2B Templates API
   slug: e2b-templates-api
 artifact_total: 14
@@ -176,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b/refs/heads/main/screenshots/e2b-2026-06-20T180350.png
 security:

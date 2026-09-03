@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: General ledger account resources used to map Ramp activity to accounting systems.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: General ledger account resources used to map Ramp activity to accounting systems.
   name: Ramp Accounts API
   slug: ramp-accounts-api
-- description: Audit events recording activity within a Ramp organization.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Audit events recording activity within a Ramp organization.
   name: Ramp Audit Logs API
   slug: ramp-audit-logs-api
-- description: Bill pay records and approval workflows.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Bill pay records and approval workflows.
   name: Ramp Bills API
   slug: ramp-bills-api
-- description: Physical and virtual cards issued to users and departments.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Physical and virtual cards issued to users and departments.
   name: Ramp Cards API
   slug: ramp-cards-api
-- description: Department records used to organize spend.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Department records used to organize spend.
   name: Ramp Departments API
   slug: ramp-departments-api
-- description: Location records used to organize spend.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Location records used to organize spend.
   name: Ramp Locations API
   slug: ramp-locations-api
-- description: Out-of-pocket reimbursement requests.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Out-of-pocket reimbursement requests.
   name: Ramp Reimbursements API
   slug: ramp-reimbursements-api
-- description: Card statement records.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Card statement records.
   name: Ramp Statements API
   slug: ramp-statements-api
-- description: Card and bill transactions across the organization.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Card and bill transactions across the organization.
   name: Ramp Transactions API
   slug: ramp-transactions-api
-- description: User accounts within a Ramp organization.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: User accounts within a Ramp organization.
   name: Ramp Users API
   slug: ramp-users-api
-- description: Vendor records used by accounting integrations and bill pay workflows.
+- baseURL: https://api.ramp.com/developer/v1
+  baseurl_source: declared
+  description: Vendor records used by accounting integrations and bill pay workflows.
   name: Ramp Vendors API
   slug: ramp-vendors-api
 arazzos:
@@ -454,7 +476,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -464,7 +486,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -479,7 +501,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:

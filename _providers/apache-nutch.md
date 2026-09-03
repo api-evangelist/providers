@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 24 operations · 10 acting
 api_count: 1
 apis:
-- description: Server administration operations
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Server administration operations
   name: Apache Nutch Admin API
   slug: apache-nutch-admin-api
-- description: Manage Nutch configurations
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Manage Nutch configurations
   name: Apache Nutch Configuration API
   slug: apache-nutch-configuration-api
-- description: Query the CrawlDB and FetchDB
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Query the CrawlDB and FetchDB
   name: Apache Nutch Database API
   slug: apache-nutch-database-api
-- description: Manage crawl jobs
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Manage crawl jobs
   name: Apache Nutch Job API
   slug: apache-nutch-job-api
-- description: Read sequence files and webgraph data
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Read sequence files and webgraph data
   name: Apache Nutch Reader API
   slug: apache-nutch-reader-api
-- description: Manage seed URL lists
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Manage seed URL lists
   name: Apache Nutch Seed API
   slug: apache-nutch-seed-api
-- description: Auxiliary service operations such as CommonCrawl data dumps
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Auxiliary service operations such as CommonCrawl data dumps
   name: Apache Nutch Services API
   slug: apache-nutch-services-api
 artifact_total: 101
@@ -466,7 +480,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/screenshots/apache-nutch-2026-06-20T172129.png
 security:

@@ -34,49 +34,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
   name: Bendigo and Adelaide Bank Accounts API
   slug: bendigo-and-adelaide-bank-accounts-api
-- description: Attachments represent uploaded files that are attached to transactions, these are commonly receipts.
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Attachments represent uploaded files that are attached to transactions, these are commonly receipts.
   name: Bendigo and Adelaide Bank Attachments API
   slug: bendigo-and-adelaide-bank-attachments-api
-- description: Banking Account Balance endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Bendigo and Adelaide Bank Banking Account Balances API
   slug: bendigo-and-adelaide-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Bendigo and Adelaide Bank Banking Account Direct Debits API
   slug: bendigo-and-adelaide-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Bendigo and Adelaide Bank Banking Account Scheduled Payments API
   slug: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Bendigo and Adelaide Bank Banking Account Transactions API
   slug: bendigo-and-adelaide-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Bendigo and Adelaide Bank Banking Accounts API
   slug: bendigo-and-adelaide-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Bendigo and Adelaide Bank Banking Payees API
   slug: bendigo-and-adelaide-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Bendigo and Adelaide Bank Banking Products API
   slug: bendigo-and-adelaide-bank-banking-products-api
-- description: Categories enable understanding where your money goes by driving powerful insights in Up. All categories in Up are pre-defined and are automatically assigned to new purchases in most cases. A parent-c
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Categories enable understanding where your money goes by driving powerful insights in Up. All categories in Up are pre-defined and are automatically assigned to new purchases in most cases. A parent-c
   name: Bendigo and Adelaide Bank Categories API
   slug: bendigo-and-adelaide-bank-categories-api
-- description: 'Tags are custom labels that can be associated with transactions on Up. Within the Up application, tags provide additional insight into spending. For example, you could have a "Take Away" tag that you '
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Tags are custom labels that can be associated with transactions on Up. Within the Up application, tags provide additional insight into spending. For example, you could have a "Take Away" tag that you '
   name: Bendigo and Adelaide Bank Tags API
   slug: bendigo-and-adelaide-bank-tags-api
-- description: Transactions represent the movement of money into and out of an account. They have many characteristics that vary depending on the kind of transaction. Transactions may be temporarily `HELD` (pending)
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Transactions represent the movement of money into and out of an account. They have many characteristics that vary depending on the kind of transaction. Transactions may be temporarily `HELD` (pending)
   name: Bendigo and Adelaide Bank Transactions API
   slug: bendigo-and-adelaide-bank-transactions-api
-- description: 'Some endpoints exist not to expose data, but to test the API itself. Currently there is only one endpoint in this group: ping!'
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Some endpoints exist not to expose data, but to test the API itself. Currently there is only one endpoint in this group: ping!'
   name: Bendigo and Adelaide Bank Utility endpoints API
   slug: bendigo-and-adelaide-bank-utility-endpoints-api
-- description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
+- baseURL: https://api.cdr.bendigobank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
   name: Bendigo and Adelaide Bank Webhooks API
   slug: bendigo-and-adelaide-bank-webhooks-api
 artifact_total: 35
@@ -300,7 +328,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -310,7 +338,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 41.3
+  previous_composite: 41.5
   provenance:
     conformance: first-party
     contracts:
@@ -327,7 +355,7 @@ score:
     regime_id: banking_open_finance
     score: 58.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

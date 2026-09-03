@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -50,22 +50,34 @@ apis:
 - description: 'The Ludo.ai Unity Plugin integrates AI-powered asset generation directly into the Unity game engine. It provides a native interface for Unity developers to access Ludo.ai''s image generation, 3D model '
   name: Ludo.ai Unity Plugin
   slug: unity-plugin
-- description: Convert 2D images into textured 3D GLB models with PBR textures and configurable quality settings.
+- baseURL: https://api.ludo.ai/api/
+  baseurl_source: declared
+  description: Convert 2D images into textured 3D GLB models with PBR textures and configurable quality settings.
   name: Ludo.ai 3D Models API
   slug: ludo-ai-3d-models-api
-- description: Create animated spritesheets from static sprites, transfer motion from videos or presets, and list available animation presets.
+- baseURL: https://api.ludo.ai/api/
+  baseurl_source: declared
+  description: Create animated spritesheets from static sprites, transfer motion from videos or presets, and list available animation presets.
   name: Ludo.ai Animation API
   slug: ludo-ai-animation-api
-- description: Generate sound effects, background music, character voices, and text-to-speech audio for games.
+- baseURL: https://api.ludo.ai/api/
+  baseurl_source: declared
+  description: Generate sound effects, background music, character voices, and text-to-speech audio for games.
   name: Ludo.ai Audio API
   slug: ludo-ai-audio-api
-- description: Generate, edit, and manipulate game-ready images including sprites, icons, UI assets, textures, and backgrounds.
+- baseURL: https://api.ludo.ai/api/
+  baseurl_source: declared
+  description: Generate, edit, and manipulate game-ready images including sprites, icons, UI assets, textures, and backgrounds.
   name: Ludo.ai Images API
   slug: ludo-ai-images-api
-- description: Retrieve previously generated assets using request IDs or browse recent API-generated content.
+- baseURL: https://api.ludo.ai/api/
+  baseurl_source: declared
+  description: Retrieve previously generated assets using request IDs or browse recent API-generated content.
   name: Ludo.ai Results API
   slug: ludo-ai-results-api
-- description: Generate short videos from images with motion prompts, suitable for cinematics, trailers, and dynamic backgrounds.
+- baseURL: https://api.ludo.ai/api/
+  baseurl_source: declared
+  description: Generate short videos from images with motion prompts, suitable for cinematics, trailers, and dynamic backgrounds.
   name: Ludo.ai Video API
   slug: ludo-ai-video-api
 artifact_total: 26
@@ -226,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
 security:

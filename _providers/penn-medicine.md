@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: 'Penn Medicine and the Perelman School of Medicine publish open-source health-informatics software across several GitHub organizations: Penn Medicine Center for Health Care Innovation (Penn-Medicine-CH'
   name: Penn Medicine Open Source Health Informatics
   slug: penn-medicine-open-source-health-informatics
-- description: HL7 FHIR Bulk Data Access (Flat FHIR) Group-level export.
+- baseURL: https://ssproxy.pennhealth.com/PRD-FHIR/api/FHIR/R4
+  baseurl_source: declared
+  description: HL7 FHIR Bulk Data Access (Flat FHIR) Group-level export.
   name: Penn Medicine Bulk Data API
   slug: penn-medicine-bulk-data-api
-- description: Patient-mediated clinical and claims data resources required under CMS-9115-F.
+- baseURL: https://ssproxy.pennhealth.com/PRD-FHIR/api/FHIR/R4
+  baseurl_source: declared
+  description: Patient-mediated clinical and claims data resources required under CMS-9115-F.
   name: Penn Medicine Patient Access API
   slug: penn-medicine-patient-access-api
-- description: Public provider, organization, location, and endpoint resources required under CMS-9115-F.
+- baseURL: https://ssproxy.pennhealth.com/PRD-FHIR/api/FHIR/R4
+  baseurl_source: declared
+  description: Public provider, organization, location, and endpoint resources required under CMS-9115-F.
   name: Penn Medicine Provider Directory API
   slug: penn-medicine-provider-directory-api
-- description: SMART on FHIR launch and discovery endpoints.
+- baseURL: https://ssproxy.pennhealth.com/PRD-FHIR/api/FHIR/R4
+  baseurl_source: declared
+  description: SMART on FHIR launch and discovery endpoints.
   name: Penn Medicine SMART API
   slug: penn-medicine-smart-api
 artifact_total: 55
@@ -338,7 +346,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:

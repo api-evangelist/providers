@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 59 operations · 35 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Dashboard management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Dashboard management
   name: Semaphore Dashboards API
   slug: semaphore-dashboards-api
-- description: Deployment target management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Deployment target management
   name: Semaphore DeploymentTargets API
   slug: semaphore-deploymenttargets-api
-- description: Notification management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Notification management
   name: Semaphore Notifications API
   slug: semaphore-notifications-api
-- description: Pipeline management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Pipeline management
   name: Semaphore Pipelines API
   slug: semaphore-pipelines-api
-- description: Project management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Project management
   name: Semaphore Projects API
   slug: semaphore-projects-api
-- description: Project-level secrets
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Project-level secrets
   name: Semaphore ProjectSecrets API
   slug: semaphore-projectsecrets-api
-- description: Organization-level secrets
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Organization-level secrets
   name: Semaphore Secrets API
   slug: semaphore-secrets-api
-- description: Self-hosted agent management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Self-hosted agent management
   name: Semaphore SelfHostedAgents API
   slug: semaphore-selfhostedagents-api
-- description: Self-hosted agent type management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Self-hosted agent type management
   name: Semaphore SelfHostedAgentTypes API
   slug: semaphore-selfhostedagenttypes-api
-- description: Task management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Task management
   name: Semaphore Tasks API
   slug: semaphore-tasks-api
-- description: Workflow management
+- baseURL: https://{organization}.semaphoreci.com/api/v1alpha
+  baseurl_source: declared
+  description: Workflow management
   name: Semaphore Workflows API
   slug: semaphore-workflows-api
 artifact_total: 32
@@ -240,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/screenshots/semaphore-2026-06-20T193644.png
 security:

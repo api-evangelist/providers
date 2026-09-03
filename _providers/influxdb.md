@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -44,124 +44,204 @@ agentic_access:
   summary_line: 194 operations · 119 acting
 api_count: 1
 apis:
-- description: Create and manage authorizations (API tokens). An _authorization_ contains a list of `read` and `write` permissions for organization resources and provides an API token for authentication. An authoriz
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Create and manage authorizations (API tokens). An _authorization_ contains a list of `read` and `write` permissions for organization resources and provides an API token for authentication. An authoriz
   name: InfluxDB Authorizations (API tokens) API
   slug: influxdb-authorizations-api-tokens-api
-- description: The Bucket Schemas API from InfluxDB — 2 operation(s) for bucket schemas.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Bucket Schemas API from InfluxDB — 2 operation(s) for bucket schemas.
   name: InfluxDB Bucket Schemas API
   slug: influxdb-bucket-schemas-api
-- description: Store your data in InfluxDB [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket). A bucket is a named location where time series data is stored. All buckets have a [retenti
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Store your data in InfluxDB [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket). A bucket is a named location where time series data is stored. All buckets have a [retenti
   name: InfluxDB Buckets API
   slug: influxdb-buckets-api
-- description: The Cells API from InfluxDB — 3 operation(s) for cells.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Cells API from InfluxDB — 3 operation(s) for cells.
   name: InfluxDB Cells API
   slug: influxdb-cells-api
-- description: The Checks API from InfluxDB — 5 operation(s) for checks.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Checks API from InfluxDB — 5 operation(s) for checks.
   name: InfluxDB Checks API
   slug: influxdb-checks-api
-- description: The Config API from InfluxDB — 1 operation(s) for config.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Config API from InfluxDB — 1 operation(s) for config.
   name: InfluxDB Config API
   slug: influxdb-config-api
-- description: The Dashboards API from InfluxDB — 11 operation(s) for dashboards.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Dashboards API from InfluxDB — 11 operation(s) for dashboards.
   name: InfluxDB Dashboards API
   slug: influxdb-dashboards-api
-- description: The Data I/O endpoints API from InfluxDB — 9 operation(s) for data i/o endpoints.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Data I/O endpoints API from InfluxDB — 9 operation(s) for data i/o endpoints.
   name: InfluxDB Data I/O endpoints API
   slug: influxdb-data-i-o-endpoints-api
-- description: The InfluxDB 1.x data model includes [databases](https://docs.influxdata.com/influxdb/v1.8/concepts/glossary/#database) and [retention policies](https://docs.influxdata.com/influxdb/v1.8/concepts/glos
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The InfluxDB 1.x data model includes [databases](https://docs.influxdata.com/influxdb/v1.8/concepts/glossary/#database) and [retention policies](https://docs.influxdata.com/influxdb/v1.8/concepts/glos
   name: InfluxDB DBRPs API
   slug: influxdb-dbrps-api
-- description: Delete data from an InfluxDB bucket.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Delete data from an InfluxDB bucket.
   name: InfluxDB Delete API
   slug: influxdb-delete-api
-- description: 'Store, manage, and execute scripts in InfluxDB. A script stores your custom Flux script and provides an invokable endpoint that accepts runtime parameters. In a script, you can specify custom runtime '
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: 'Store, manage, and execute scripts in InfluxDB. A script stores your custom Flux script and provides an invokable endpoint that accepts runtime parameters. In a script, you can specify custom runtime '
   name: InfluxDB Invokable Scripts API
   slug: influxdb-invokable-scripts-api
-- description: The Labels API from InfluxDB — 2 operation(s) for labels.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Labels API from InfluxDB — 2 operation(s) for labels.
   name: InfluxDB Labels API
   slug: influxdb-labels-api
-- description: The Legacy Authorizations API from InfluxDB — 3 operation(s) for legacy authorizations.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Legacy Authorizations API from InfluxDB — 3 operation(s) for legacy authorizations.
   name: InfluxDB Legacy Authorizations API
   slug: influxdb-legacy-authorizations-api
-- description: The Legacy Query API from InfluxDB — 1 operation(s) for legacy query.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Legacy Query API from InfluxDB — 1 operation(s) for legacy query.
   name: InfluxDB Legacy Query API
   slug: influxdb-legacy-query-api
-- description: The Legacy Write API from InfluxDB — 1 operation(s) for legacy write.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Legacy Write API from InfluxDB — 1 operation(s) for legacy write.
   name: InfluxDB Legacy Write API
   slug: influxdb-legacy-write-api
-- description: The Limits API from InfluxDB — 1 operation(s) for limits.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Limits API from InfluxDB — 1 operation(s) for limits.
   name: InfluxDB Limits API
   slug: influxdb-limits-api
-- description: The Maps API from InfluxDB — 1 operation(s) for maps.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Maps API from InfluxDB — 1 operation(s) for maps.
   name: InfluxDB Maps API
   slug: influxdb-maps-api
-- description: The NotificationEndpoints API from InfluxDB — 4 operation(s) for notificationendpoints.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The NotificationEndpoints API from InfluxDB — 4 operation(s) for notificationendpoints.
   name: InfluxDB NotificationEndpoints API
   slug: influxdb-notificationendpoints-api
-- description: The NotificationRules API from InfluxDB — 4 operation(s) for notificationrules.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The NotificationRules API from InfluxDB — 4 operation(s) for notificationrules.
   name: InfluxDB NotificationRules API
   slug: influxdb-notificationrules-api
-- description: Manage your [organization](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#organization). An organization is a workspace for a group of users. Organizations can be used to separate diff
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Manage your [organization](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#organization). An organization is a workspace for a group of users. Organizations can be used to separate diff
   name: InfluxDB Organizations API
   slug: influxdb-organizations-api
-- description: The Ping API from InfluxDB — 1 operation(s) for ping.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Ping API from InfluxDB — 1 operation(s) for ping.
   name: InfluxDB Ping API
   slug: influxdb-ping-api
-- description: Retrieve data, analyze queries, and get query suggestions.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Retrieve data, analyze queries, and get query suggestions.
   name: InfluxDB Query API
   slug: influxdb-query-api
-- description: The Resources API from InfluxDB — 1 operation(s) for resources.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Resources API from InfluxDB — 1 operation(s) for resources.
   name: InfluxDB Resources API
   slug: influxdb-resources-api
-- description: The Routes API from InfluxDB — 1 operation(s) for routes.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Routes API from InfluxDB — 1 operation(s) for routes.
   name: InfluxDB Routes API
   slug: influxdb-routes-api
-- description: The Rules API from InfluxDB — 1 operation(s) for rules.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Rules API from InfluxDB — 1 operation(s) for rules.
   name: InfluxDB Rules API
   slug: influxdb-rules-api
-- description: The Secrets API from InfluxDB — 3 operation(s) for secrets.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Secrets API from InfluxDB — 3 operation(s) for secrets.
   name: InfluxDB Secrets API
   slug: influxdb-secrets-api
-- description: The Security and access endpoints API from InfluxDB — 15 operation(s) for security and access endpoints.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Security and access endpoints API from InfluxDB — 15 operation(s) for security and access endpoints.
   name: InfluxDB Security and access endpoints API
   slug: influxdb-security-and-access-endpoints-api
-- description: The Setup API from InfluxDB — 2 operation(s) for setup.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Setup API from InfluxDB — 2 operation(s) for setup.
   name: InfluxDB Setup API
   slug: influxdb-setup-api
-- description: The Signin API from InfluxDB — 1 operation(s) for signin.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Signin API from InfluxDB — 1 operation(s) for signin.
   name: InfluxDB Signin API
   slug: influxdb-signin-api
-- description: The Signout API from InfluxDB — 1 operation(s) for signout.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Signout API from InfluxDB — 1 operation(s) for signout.
   name: InfluxDB Signout API
   slug: influxdb-signout-api
-- description: The System information endpoints API from InfluxDB — 3 operation(s) for system information endpoints.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The System information endpoints API from InfluxDB — 3 operation(s) for system information endpoints.
   name: InfluxDB System information endpoints API
   slug: influxdb-system-information-endpoints-api
-- description: Process and analyze your data with [tasks](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#task) in the InfluxDB task engine. Use the `/api/v2/tasks` endpoints to schedule and manage ta
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Process and analyze your data with [tasks](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#task) in the InfluxDB task engine. Use the `/api/v2/tasks` endpoints to schedule and manage ta
   name: InfluxDB Tasks API
   slug: influxdb-tasks-api
-- description: The Telegraf Plugins API from InfluxDB — 1 operation(s) for telegraf plugins.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Telegraf Plugins API from InfluxDB — 1 operation(s) for telegraf plugins.
   name: InfluxDB Telegraf Plugins API
   slug: influxdb-telegraf-plugins-api
-- description: The Telegrafs API from InfluxDB — 8 operation(s) for telegrafs.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Telegrafs API from InfluxDB — 8 operation(s) for telegrafs.
   name: InfluxDB Telegrafs API
   slug: influxdb-telegrafs-api
-- description: Export and apply InfluxDB **templates**. Manage **stacks** of templated InfluxDB resources. InfluxDB templates are prepackaged configurations for resources. Use InfluxDB templates to configure a fresh
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Export and apply InfluxDB **templates**. Manage **stacks** of templated InfluxDB resources. InfluxDB templates are prepackaged configurations for resources. Use InfluxDB templates to configure a fresh
   name: InfluxDB Templates API
   slug: influxdb-templates-api
-- description: The Usage API from InfluxDB — 1 operation(s) for usage.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Usage API from InfluxDB — 1 operation(s) for usage.
   name: InfluxDB Usage API
   slug: influxdb-usage-api
-- description: Retrieve specific users. InfluxDB Cloud lets you invite and collaborate with multiple users in your organization. To invite and remove users from your organization, use the InfluxDB Cloud user interfa
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Retrieve specific users. InfluxDB Cloud lets you invite and collaborate with multiple users in your organization. To invite and remove users from your organization, use the InfluxDB Cloud user interfa
   name: InfluxDB Users API
   slug: influxdb-users-api
-- description: The Variables API from InfluxDB — 4 operation(s) for variables.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Variables API from InfluxDB — 4 operation(s) for variables.
   name: InfluxDB Variables API
   slug: influxdb-variables-api
-- description: The Views API from InfluxDB — 1 operation(s) for views.
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Views API from InfluxDB — 1 operation(s) for views.
   name: InfluxDB Views API
   slug: influxdb-views-api
-- description: Write time series data to [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket).
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: Write time series data to [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket).
   name: InfluxDB Write API
   slug: influxdb-write-api
 artifact_total: 91
@@ -432,7 +512,7 @@ score:
       marker_coverage: 0.0
       total: 41
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/screenshots/influxdb-2026-06-20T183337.png
 security:

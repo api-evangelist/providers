@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The Connections API from Prophecy.io — 2 operation(s) for connections.
+- baseURL: https://app.prophecy.io/api
+  baseurl_source: declared
+  description: The Connections API from Prophecy.io — 2 operation(s) for connections.
   name: Prophecy.io Connections API
   slug: prophecyio-connections-api
-- description: The Fabrics API from Prophecy.io — 2 operation(s) for fabrics.
+- baseURL: https://app.prophecy.io/api
+  baseurl_source: declared
+  description: The Fabrics API from Prophecy.io — 2 operation(s) for fabrics.
   name: Prophecy.io Fabrics API
   slug: prophecyio-fabrics-api
-- description: The Pipeline Runs API from Prophecy.io — 3 operation(s) for pipeline runs.
+- baseURL: https://app.prophecy.io/api
+  baseurl_source: declared
+  description: The Pipeline Runs API from Prophecy.io — 3 operation(s) for pipeline runs.
   name: Prophecy.io Pipeline Runs API
   slug: prophecyio-pipeline-runs-api
-- description: The Project Deployment API from Prophecy.io — 1 operation(s) for project deployment.
+- baseURL: https://app.prophecy.io/api
+  baseurl_source: declared
+  description: The Project Deployment API from Prophecy.io — 1 operation(s) for project deployment.
   name: Prophecy.io Project Deployment API
   slug: prophecyio-project-deployment-api
-- description: The Secrets API from Prophecy.io — 2 operation(s) for secrets.
+- baseURL: https://app.prophecy.io/api
+  baseurl_source: declared
+  description: The Secrets API from Prophecy.io — 2 operation(s) for secrets.
   name: Prophecy.io Secrets API
   slug: prophecyio-secrets-api
 artifact_total: 15
@@ -238,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prophecyio/refs/heads/main/screenshots/prophecyio-2026-08-17T081352.png
 security:

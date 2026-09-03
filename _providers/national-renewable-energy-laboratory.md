@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: Average direct normal, global horizontal, and tilt at latitude irradiance for a US location.
   name: Solar Resource Data
   slug: solar-resource-data
-- description: The Alt Fuel Stations API from National Renewable Energy Laboratory — 2 operation(s) for alt fuel stations.
+- baseURL: https://developer.nrel.gov/api/
+  baseurl_source: declared
+  description: The Alt Fuel Stations API from National Renewable Energy Laboratory — 2 operation(s) for alt fuel stations.
   name: National Renewable Energy Laboratory Alt Fuel Stations API
   slug: national-renewable-energy-laboratory-alt-fuel-stations-api
-- description: The Pvwatts API from National Renewable Energy Laboratory — 1 operation(s) for pvwatts.
+- baseURL: https://developer.nrel.gov/api/
+  baseurl_source: declared
+  description: The Pvwatts API from National Renewable Energy Laboratory — 1 operation(s) for pvwatts.
   name: National Renewable Energy Laboratory Pvwatts API
   slug: national-renewable-energy-laboratory-pvwatts-api
-- description: The Solar API from National Renewable Energy Laboratory — 1 operation(s) for solar.
+- baseURL: https://developer.nrel.gov/api/
+  baseurl_source: declared
+  description: The Solar API from National Renewable Energy Laboratory — 1 operation(s) for solar.
   name: National Renewable Energy Laboratory Solar API
   slug: national-renewable-energy-laboratory-solar-api
-- description: The Utility Rates API from National Renewable Energy Laboratory — 1 operation(s) for utility rates.
+- baseURL: https://developer.nrel.gov/api/
+  baseurl_source: declared
+  description: The Utility Rates API from National Renewable Energy Laboratory — 1 operation(s) for utility rates.
   name: National Renewable Energy Laboratory Utility Rates API
   slug: national-renewable-energy-laboratory-utility-rates-api
 artifact_total: 19
@@ -175,7 +183,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

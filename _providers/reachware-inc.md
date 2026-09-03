@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Card save / tokenization flows
+- baseURL: https://api.reachware.com
+  baseurl_source: declared
+  description: Card save / tokenization flows
   name: Reachware Inc. Cards API
   slug: reachware-inc-cards-api
-- description: Request payments, retrieve payment details, and refunds
+- baseURL: https://api.reachware.com
+  baseurl_source: declared
+  description: Request payments, retrieve payment details, and refunds
   name: Reachware Inc. Payments API
   slug: reachware-inc-payments-api
 artifact_total: 8
@@ -194,7 +198,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachware-inc/refs/heads/main/screenshots/reachware-inc-2026-08-17T081449.png
 security:

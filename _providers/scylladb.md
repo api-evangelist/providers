@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: Node-level administrative REST API exposing endpoints to check and update configuration, retrieve cluster-level and node-level information, and execute administrative operations. Exposed locally on po
   name: ScyllaDB Admin REST API
   slug: admin-rest-api
-- description: The Account API from ScyllaDB — 5 operation(s) for account.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Account API from ScyllaDB — 5 operation(s) for account.
   name: ScyllaDB Account API
   slug: scylladb-account-api
-- description: The Account Cluster Network API from ScyllaDB — 4 operation(s) for account cluster network.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Account Cluster Network API from ScyllaDB — 4 operation(s) for account cluster network.
   name: ScyllaDB Account Cluster Network API
   slug: scylladb-account-cluster-network-api
-- description: The Account network cluster connection API from ScyllaDB — 2 operation(s) for account network cluster connection.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Account network cluster connection API from ScyllaDB — 2 operation(s) for account network cluster connection.
   name: ScyllaDB Account network cluster connection API
   slug: scylladb-account-network-cluster-connection-api
-- description: The Cluster API from ScyllaDB — 10 operation(s) for cluster.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Cluster API from ScyllaDB — 10 operation(s) for cluster.
   name: ScyllaDB Cluster API
   slug: scylladb-cluster-api
-- description: The Cluster Request API from ScyllaDB — 2 operation(s) for cluster request.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Cluster Request API from ScyllaDB — 2 operation(s) for cluster request.
   name: ScyllaDB Cluster Request API
   slug: scylladb-cluster-request-api
-- description: The Deployment API from ScyllaDB — 4 operation(s) for deployment.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Deployment API from ScyllaDB — 4 operation(s) for deployment.
   name: ScyllaDB Deployment API
   slug: scylladb-deployment-api
-- description: The Pricing API from ScyllaDB — 1 operation(s) for pricing.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The Pricing API from ScyllaDB — 1 operation(s) for pricing.
   name: ScyllaDB Pricing API
   slug: scylladb-pricing-api
-- description: The VectorSearch API from ScyllaDB — 1 operation(s) for vectorsearch.
+- baseURL: https://api.cloud.scylladb.com
+  baseurl_source: declared
+  description: The VectorSearch API from ScyllaDB — 1 operation(s) for vectorsearch.
   name: ScyllaDB VectorSearch API
   slug: scylladb-vectorsearch-api
 artifact_total: 42
@@ -307,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/screenshots/scylladb-2026-06-20T193611.png
 security:

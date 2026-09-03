@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations
 api_count: 1
 apis:
-- description: The Candidate API from OpenFEC — 3 operation(s) for candidate.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Candidate API from OpenFEC — 3 operation(s) for candidate.
   name: OpenFEC Candidate API
   slug: open-fec-candidate-api
-- description: The Candidates API from OpenFEC — 2 operation(s) for candidates.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Candidates API from OpenFEC — 2 operation(s) for candidates.
   name: OpenFEC Candidates API
   slug: open-fec-candidates-api
-- description: The Committee API from OpenFEC — 2 operation(s) for committee.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Committee API from OpenFEC — 2 operation(s) for committee.
   name: OpenFEC Committee API
   slug: open-fec-committee-api
-- description: The Committees API from OpenFEC — 1 operation(s) for committees.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Committees API from OpenFEC — 1 operation(s) for committees.
   name: OpenFEC Committees API
   slug: open-fec-committees-api
-- description: The Elections API from OpenFEC — 1 operation(s) for elections.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Elections API from OpenFEC — 1 operation(s) for elections.
   name: OpenFEC Elections API
   slug: open-fec-elections-api
-- description: The Filings API from OpenFEC — 1 operation(s) for filings.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Filings API from OpenFEC — 1 operation(s) for filings.
   name: OpenFEC Filings API
   slug: open-fec-filings-api
-- description: The Names API from OpenFEC — 2 operation(s) for names.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Names API from OpenFEC — 2 operation(s) for names.
   name: OpenFEC Names API
   slug: open-fec-names-api
-- description: The Schedules API from OpenFEC — 3 operation(s) for schedules.
+- baseURL: https://api.open.fec.gov/v1
+  baseurl_source: declared
+  description: The Schedules API from OpenFEC — 3 operation(s) for schedules.
   name: OpenFEC Schedules API
   slug: open-fec-schedules-api
 artifact_total: 24
@@ -191,7 +207,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/screenshots/open-fec-2026-06-20T190743.png
 security:

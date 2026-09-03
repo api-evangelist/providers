@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -46,40 +46,64 @@ apis:
 - description: REST API that lets approved developers and sellers manage Amazon Selling Partner accounts including catalog items, listings, orders, shipments, inventory, pricing, fees, reports, feeds, finances, noti
   name: Amazon Selling Partner API (SP-API)
   slug: sp-api
-- description: The Authentication API from Amazon Selling Partner API — 1 operation(s) for authentication.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Authentication API from Amazon Selling Partner API — 1 operation(s) for authentication.
   name: Amazon Selling Partner API Authentication API
   slug: amazon-seller-central-authentication-api
-- description: The Catalog API from Amazon Selling Partner API — 2 operation(s) for catalog.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Catalog API from Amazon Selling Partner API — 2 operation(s) for catalog.
   name: Amazon Selling Partner API Catalog API
   slug: amazon-seller-central-catalog-api
-- description: The Feeds API from Amazon Selling Partner API — 1 operation(s) for feeds.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Feeds API from Amazon Selling Partner API — 1 operation(s) for feeds.
   name: Amazon Selling Partner API Feeds API
   slug: amazon-seller-central-feeds-api
-- description: The Finances API from Amazon Selling Partner API — 1 operation(s) for finances.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Finances API from Amazon Selling Partner API — 1 operation(s) for finances.
   name: Amazon Selling Partner API Finances API
   slug: amazon-seller-central-finances-api
-- description: The Inventory API from Amazon Selling Partner API — 1 operation(s) for inventory.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Inventory API from Amazon Selling Partner API — 1 operation(s) for inventory.
   name: Amazon Selling Partner API Inventory API
   slug: amazon-seller-central-inventory-api
-- description: The Listings API from Amazon Selling Partner API — 1 operation(s) for listings.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Listings API from Amazon Selling Partner API — 1 operation(s) for listings.
   name: Amazon Selling Partner API Listings API
   slug: amazon-seller-central-listings-api
-- description: The Notifications API from Amazon Selling Partner API — 1 operation(s) for notifications.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Notifications API from Amazon Selling Partner API — 1 operation(s) for notifications.
   name: Amazon Selling Partner API Notifications API
   slug: amazon-seller-central-notifications-api
-- description: The Orders API from Amazon Selling Partner API — 3 operation(s) for orders.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Orders API from Amazon Selling Partner API — 3 operation(s) for orders.
   name: Amazon Selling Partner API Orders API
   slug: amazon-seller-central-orders-api
-- description: The Pricing API from Amazon Selling Partner API — 1 operation(s) for pricing.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Pricing API from Amazon Selling Partner API — 1 operation(s) for pricing.
   name: Amazon Selling Partner API Pricing API
   slug: amazon-seller-central-pricing-api
-- description: The Reports API from Amazon Selling Partner API — 2 operation(s) for reports.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Reports API from Amazon Selling Partner API — 2 operation(s) for reports.
   name: Amazon Selling Partner API Reports API
   slug: amazon-seller-central-reports-api
-- description: The Shipping API from Amazon Selling Partner API — 1 operation(s) for shipping.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Shipping API from Amazon Selling Partner API — 1 operation(s) for shipping.
   name: Amazon Selling Partner API Shipping API
   slug: amazon-seller-central-shipping-api
-- description: The Tokens API from Amazon Selling Partner API — 1 operation(s) for tokens.
+- baseURL: https://sellingpartnerapi-na.amazon.com
+  baseurl_source: declared
+  description: The Tokens API from Amazon Selling Partner API — 1 operation(s) for tokens.
   name: Amazon Selling Partner API Tokens API
   slug: amazon-seller-central-tokens-api
 artifact_total: 30
@@ -203,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png
 security:

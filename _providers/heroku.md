@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 44 operations · 23 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Account management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Account management
   name: Heroku Account API
   slug: heroku-account-api
-- description: Add-on service management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Add-on service management
   name: Heroku Add-ons API
   slug: heroku-add-ons-api
-- description: Application management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Application management
   name: Heroku Apps API
   slug: heroku-apps-api
-- description: Build management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Build management
   name: Heroku Builds API
   slug: heroku-builds-api
-- description: App collaborator management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: App collaborator management
   name: Heroku Collaborators API
   slug: heroku-collaborators-api
-- description: Environment configuration variables
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Environment configuration variables
   name: Heroku Config Vars API
   slug: heroku-config-vars-api
-- description: Custom domain management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Custom domain management
   name: Heroku Domains API
   slug: heroku-domains-api
-- description: Process (dyno) management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Process (dyno) management
   name: Heroku Dynos API
   slug: heroku-dynos-api
-- description: Process type scaling
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Process type scaling
   name: Heroku Formation API
   slug: heroku-formation-api
-- description: Application logging
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Application logging
   name: Heroku Log Sessions API
   slug: heroku-log-sessions-api
-- description: Deployment pipeline management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Deployment pipeline management
   name: Heroku Pipelines API
   slug: heroku-pipelines-api
-- description: Available regions
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Available regions
   name: Heroku Regions API
   slug: heroku-regions-api
-- description: Release management
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Release management
   name: Heroku Releases API
   slug: heroku-releases-api
-- description: Available stacks
+- baseURL: https://api.heroku.com
+  baseurl_source: declared
+  description: Available stacks
   name: Heroku Stacks API
   slug: heroku-stacks-api
 artifact_total: 81
@@ -368,7 +396,7 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -378,7 +406,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 45.8
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -387,7 +415,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/screenshots/heroku-2026-06-20T182649.png
 security:

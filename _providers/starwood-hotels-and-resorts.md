@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: The Starwood Property Data API provided detailed information about individual hotel properties including room types, amenities, dining options, meeting and event spaces, photos, geo-coordinates, and c
   name: Property Data API
   slug: property-data-api
-- description: Rate and availability operations
+- baseURL: https://www.starwoodhotels.com/api
+  baseurl_source: declared
+  description: Rate and availability operations
   name: Starwood Hotels and Resorts Availability API
   slug: starwood-hotels-and-resorts-availability-api
-- description: Hotel search and property operations
+- baseURL: https://www.starwoodhotels.com/api
+  baseurl_source: declared
+  description: Hotel search and property operations
   name: Starwood Hotels and Resorts Hotels API
   slug: starwood-hotels-and-resorts-hotels-api
-- description: Property detail operations
+- baseURL: https://www.starwoodhotels.com/api
+  baseurl_source: declared
+  description: Property detail operations
   name: Starwood Hotels and Resorts Properties API
   slug: starwood-hotels-and-resorts-properties-api
 artifact_total: 21
@@ -250,10 +256,10 @@ score:
       total: 3
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starwood-hotels-and-resorts/refs/heads/main/screenshots/starwood-hotels-and-resorts-2026-06-20T194521.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -49,70 +49,114 @@ apis:
 - description: Network-signal services for fraud prevention and mobile identity - HLR and reachability lookup (operator, ported status, active/blocked SIM state), SIM-swap detection, and device-location signals used
   name: BICS Fraud Prevention and Reachability API
   slug: bics-fraud-prevention-reachability-api
-- description: Manage your addresses
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Manage your addresses
   name: BICS Address Management API
   slug: bics-network-address-management-api
-- description: The following methods allows you to request your Call Detail Records (CDRs), request the status of your requests and download your CDRs. The CDRs are available for both Inbound and Outbound calls term
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The following methods allows you to request your Call Detail Records (CDRs), request the status of your requests and download your CDRs. The CDRs are available for both Inbound and Outbound calls term
   name: BICS CDR API
   slug: bics-network-cdr-api
-- description: The Connections Management API from BICS — 3 operation(s) for connections management.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Connections Management API from BICS — 3 operation(s) for connections management.
   name: BICS Connections Management API
   slug: bics-network-connections-management-api
-- description: The Conversions API from BICS — 1 operation(s) for conversions.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Conversions API from BICS — 1 operation(s) for conversions.
   name: BICS Conversions API
   slug: bics-network-conversions-api
-- description: The Conversionsinfos API from BICS — 1 operation(s) for conversionsinfos.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Conversionsinfos API from BICS — 1 operation(s) for conversionsinfos.
   name: BICS Conversionsinfos API
   slug: bics-network-conversionsinfos-api
-- description: Manage your disconnection order
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Manage your disconnection order
   name: BICS Disconnection Services API
   slug: bics-network-disconnection-services-api
-- description: The Document Management API from BICS — 1 operation(s) for document management.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Document Management API from BICS — 1 operation(s) for document management.
   name: BICS Document Management API
   slug: bics-network-document-management-api
-- description: Manage your emergency services request
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Manage your emergency services request
   name: BICS Emergency Services API
   slug: bics-network-emergency-services-api
-- description: The Inbound API from BICS — 2 operation(s) for inbound.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Inbound API from BICS — 2 operation(s) for inbound.
   name: BICS Inbound API
   slug: bics-network-inbound-api
-- description: The Interconnects List API from BICS — 1 operation(s) for interconnects list.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Interconnects List API from BICS — 1 operation(s) for interconnects list.
   name: BICS Interconnects List API
   slug: bics-network-interconnects-list-api
-- description: Query the numbers you have bought over time.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Query the numbers you have bought over time.
   name: BICS inventory API
   slug: bics-network-inventory-api
-- description: The number API from BICS — 1 operation(s) for number.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The number API from BICS — 1 operation(s) for number.
   name: BICS number API
   slug: bics-network-number-api
-- description: Purchase a number from the stock.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Purchase a number from the stock.
   name: BICS order API
   slug: bics-network-order-api
-- description: The Outbound API from BICS — 3 operation(s) for outbound.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Outbound API from BICS — 3 operation(s) for outbound.
   name: BICS Outbound API
   slug: bics-network-outbound-api
-- description: The porting API from BICS — 4 operation(s) for porting.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The porting API from BICS — 4 operation(s) for porting.
   name: BICS porting API
   slug: bics-network-porting-api
-- description: Recive porting specification
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Recive porting specification
   name: BICS Porting Specification API
   slug: bics-network-porting-specification-api
-- description: Query your pricelist.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Query your pricelist.
   name: BICS pricelist API
   slug: bics-network-pricelist-api
-- description: Query BICS reference data.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Query BICS reference data.
   name: BICS reference API
   slug: bics-network-reference-api
-- description: The Reference Data API from BICS — 1 operation(s) for reference data.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The Reference Data API from BICS — 1 operation(s) for reference data.
   name: BICS Reference Data API
   slug: bics-network-reference-data-api
-- description: Modify routing details for customer numbers.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Modify routing details for customer numbers.
   name: BICS routing API
   slug: bics-network-routing-api
-- description: The specification API from BICS — 1 operation(s) for specification.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: The specification API from BICS — 1 operation(s) for specification.
   name: BICS specification API
   slug: bics-network-specification-api
-- description: Query the available stock.
+- baseURL: https://api.bics.com/sms/v3
+  baseurl_source: declared
+  description: Query the available stock.
   name: BICS stock API
   slug: bics-network-stock-api
 artifact_total: 52
@@ -281,7 +325,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bics-network/refs/heads/main/screenshots/bics-network-2026-07-25T202908.png
 security:

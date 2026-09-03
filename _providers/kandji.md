@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -36,46 +48,74 @@ apis:
 - description: 'Hosted, tenant-scoped Model Context Protocol server that exposes the Iru Enterprise API surface as MCP tools for Claude Desktop, Cursor, OpenAI Codex and other MCP clients. Enabled per API token with '
   name: Iru MCP Server
   slug: iru-mcp-server
-- description: The Audit API from Iru — 1 operation(s) for audit.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Audit API from Iru — 1 operation(s) for audit.
   name: Iru Audit API
   slug: kandji-audit-api
-- description: The Behavioral Detections API from Iru — 1 operation(s) for behavioral detections.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Behavioral Detections API from Iru — 1 operation(s) for behavioral detections.
   name: Iru Behavioral Detections API
   slug: kandji-behavioral-detections-api
-- description: The Blueprints API from Iru — 6 operation(s) for blueprints.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Blueprints API from Iru — 6 operation(s) for blueprints.
   name: Iru Blueprints API
   slug: kandji-blueprints-api
-- description: The Devices API from Iru — 34 operation(s) for devices.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Devices API from Iru — 34 operation(s) for devices.
   name: Iru Devices API
   slug: kandji-devices-api
-- description: The Integrations API from Iru — 8 operation(s) for integrations.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Integrations API from Iru — 8 operation(s) for integrations.
   name: Iru Integrations API
   slug: kandji-integrations-api
-- description: The Library API from Iru — 13 operation(s) for library.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Library API from Iru — 13 operation(s) for library.
   name: Iru Library API
   slug: kandji-library-api
-- description: The Prism API from Iru — 19 operation(s) for prism.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Prism API from Iru — 19 operation(s) for prism.
   name: Iru Prism API
   slug: kandji-prism-api
-- description: The Self Service API from Iru — 1 operation(s) for self service.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Self Service API from Iru — 1 operation(s) for self service.
   name: Iru Self Service API
   slug: kandji-self-service-api
-- description: The Settings API from Iru — 1 operation(s) for settings.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Settings API from Iru — 1 operation(s) for settings.
   name: Iru Settings API
   slug: kandji-settings-api
-- description: The Tags API from Iru — 2 operation(s) for tags.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Tags API from Iru — 2 operation(s) for tags.
   name: Iru Tags API
   slug: kandji-tags-api
-- description: The Threat Details API from Iru — 1 operation(s) for threat details.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Threat Details API from Iru — 1 operation(s) for threat details.
   name: Iru Threat Details API
   slug: kandji-threat-details-api
-- description: The Upload To S3 API from Iru — 1 operation(s) for upload to s3.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Upload To S3 API from Iru — 1 operation(s) for upload to s3.
   name: Iru Upload To S3 API
   slug: kandji-upload-to-s3-api
-- description: The Users API from Iru — 2 operation(s) for users.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Users API from Iru — 2 operation(s) for users.
   name: Iru Users API
   slug: kandji-users-api
-- description: The Vulnerability Management API from Iru — 5 operation(s) for vulnerability management.
+- baseURL: https://your-subdomain.api.kandji.io
+  baseurl_source: declared
+  description: The Vulnerability Management API from Iru — 5 operation(s) for vulnerability management.
   name: Iru Vulnerability Management API
   slug: kandji-vulnerability-management-api
 artifact_total: 24
@@ -284,7 +324,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -294,7 +334,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 57.8
+  previous_composite: 58.2
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -306,7 +346,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:

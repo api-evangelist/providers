@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The health API from Taste — 2 operation(s) for health.
+- baseURL: https://api.tastelabs.com
+  baseurl_source: declared
+  description: The health API from Taste — 2 operation(s) for health.
   name: Taste health API
   slug: taste-health-api
-- description: The Prompt Enhancement API from Taste — 2 operation(s) for prompt enhancement.
+- baseURL: https://api.tastelabs.com
+  baseurl_source: declared
+  description: The Prompt Enhancement API from Taste — 2 operation(s) for prompt enhancement.
   name: Taste Prompt Enhancement API
   slug: taste-prompt-enhancement-api
-- description: The Taste Engine API API from Taste — 1 operation(s) for taste engine api.
+- baseURL: https://api.tastelabs.com
+  baseurl_source: declared
+  description: The Taste Engine API API from Taste — 1 operation(s) for taste engine api.
   name: Taste Taste Engine API API
   slug: taste-taste-engine-api-api
 artifact_total: 10
@@ -137,7 +143,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -162,8 +168,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/taste/refs/heads/main/screenshots/taste-2026-09-02T162559.png
 security:
 - kind: authentication
   name: Taste Authentication

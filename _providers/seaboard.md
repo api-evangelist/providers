@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 artifact_total: 6
 collections:
@@ -64,10 +64,10 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seaboard.png
 layout: provider
 modified: '2026-03-21'
-name: seaboard
+name: Seaboard
 nav: Providers
 network: true
-overview: seaboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: Seaboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 plans:
 - name: Seaboard Plans Pricing
   plan_count: 1
@@ -122,7 +122,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 12.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

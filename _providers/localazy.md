@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Download translated files for a specific language.
+- baseURL: https://api.localazy.com
+  baseurl_source: declared
+  description: Download translated files for a specific language.
   name: Localazy Export API
   slug: localazy-export-api
-- description: List files and read file content as keys and translations.
+- baseURL: https://api.localazy.com
+  baseurl_source: declared
+  description: List files and read file content as keys and translations.
   name: Localazy Files API
   slug: localazy-files-api
-- description: Import and upload source and translation content.
+- baseURL: https://api.localazy.com
+  baseurl_source: declared
+  description: Import and upload source and translation content.
   name: Localazy Import API
   slug: localazy-import-api
-- description: List and create projects, and read project languages.
+- baseURL: https://api.localazy.com
+  baseurl_source: declared
+  description: List and create projects, and read project languages.
   name: Localazy Projects API
   slug: localazy-projects-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localazy/refs/heads/main/screenshots/localazy-2026-07-25T225430.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 16 operations · 12 acting
 api_count: 1
 apis:
-- description: Affiliate session management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Affiliate session management
   name: OpenCart Affiliates API
   slug: opencart-affiliates-api
-- description: API login and session token management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: API login and session token management
   name: OpenCart Authentication API
   slug: opencart-authentication-api
-- description: Shopping cart product management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Shopping cart product management
   name: OpenCart Cart API
   slug: opencart-cart-api
-- description: Customer session and profile management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Customer session and profile management
   name: OpenCart Customer API
   slug: opencart-customer-api
-- description: Order creation, confirmation, and history
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Order creation, confirmation, and history
   name: OpenCart Orders API
   slug: opencart-orders-api
-- description: Billing address management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Billing address management
   name: OpenCart Payment Address API
   slug: opencart-payment-address-api
-- description: Available payment method retrieval and selection
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Available payment method retrieval and selection
   name: OpenCart Payment Methods API
   slug: opencart-payment-methods-api
-- description: Shipping address management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Shipping address management
   name: OpenCart Shipping Address API
   slug: opencart-shipping-address-api
-- description: Available shipping method retrieval and selection
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Available shipping method retrieval and selection
   name: OpenCart Shipping Methods API
   slug: opencart-shipping-methods-api
-- description: Subscription order management
+- baseURL: https://yourstore.com/api
+  baseurl_source: declared
+  description: Subscription order management
   name: OpenCart Subscriptions API
   slug: opencart-subscriptions-api
 artifact_total: 38
@@ -285,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/screenshots/opencart-2026-06-20T190918.png
 security:

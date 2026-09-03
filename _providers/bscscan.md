@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 71 operations · 1 acting
 api_count: 1
 apis:
-- description: The Accounts API from BscScan — 12 operation(s) for accounts.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Accounts API from BscScan — 12 operation(s) for accounts.
   name: BscScan Accounts API
   slug: bscscan-accounts-api
-- description: The API PRO Endpoints API from BscScan — 20 operation(s) for api pro endpoints.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The API PRO Endpoints API from BscScan — 20 operation(s) for api pro endpoints.
   name: BscScan API PRO Endpoints API
   slug: bscscan-api-pro-endpoints-api
-- description: The Blocks API from BscScan — 8 operation(s) for blocks.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Blocks API from BscScan — 8 operation(s) for blocks.
   name: BscScan Blocks API
   slug: bscscan-blocks-api
-- description: The Contracts API from BscScan — 5 operation(s) for contracts.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Contracts API from BscScan — 5 operation(s) for contracts.
   name: BscScan Contracts API
   slug: bscscan-contracts-api
-- description: The Gas Tracker API from BscScan — 5 operation(s) for gas tracker.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Gas Tracker API from BscScan — 5 operation(s) for gas tracker.
   name: BscScan Gas Tracker API
   slug: bscscan-gas-tracker-api
-- description: The Geth/Parity Proxy API from BscScan — 14 operation(s) for geth/parity proxy.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Geth/Parity Proxy API from BscScan — 14 operation(s) for geth/parity proxy.
   name: BscScan Geth/Parity Proxy API
   slug: bscscan-geth-parity-proxy-api
-- description: The Logs API from BscScan — 3 operation(s) for logs.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Logs API from BscScan — 3 operation(s) for logs.
   name: BscScan Logs API
   slug: bscscan-logs-api
-- description: The Stats API from BscScan — 13 operation(s) for stats.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Stats API from BscScan — 13 operation(s) for stats.
   name: BscScan Stats API
   slug: bscscan-stats-api
-- description: The Tokens API from BscScan — 9 operation(s) for tokens.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Tokens API from BscScan — 9 operation(s) for tokens.
   name: BscScan Tokens API
   slug: bscscan-tokens-api
-- description: The Transactions API from BscScan — 2 operation(s) for transactions.
+- baseURL: https://api.bscscan.com/v2/api
+  baseurl_source: declared
+  description: The Transactions API from BscScan — 2 operation(s) for transactions.
   name: BscScan Transactions API
   slug: bscscan-transactions-api
 artifact_total: 37
@@ -220,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

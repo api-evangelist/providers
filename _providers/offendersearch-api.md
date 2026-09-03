@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -33,52 +46,84 @@ agentic_access:
   summary_line: 36 operations · 18 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Account API from Offendersearch API — 1 operation(s) for account.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Account API from Offendersearch API — 1 operation(s) for account.
   name: Offendersearch API Account API
   slug: offendersearch-api-account-api
-- description: The Admin API from Offendersearch API — 11 operation(s) for admin.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Admin API from Offendersearch API — 11 operation(s) for admin.
   name: Offendersearch API Admin API
   slug: offendersearch-api-admin-api
-- description: The Auth API from Offendersearch API — 2 operation(s) for auth.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Auth API from Offendersearch API — 2 operation(s) for auth.
   name: Offendersearch API Auth API
   slug: offendersearch-api-auth-api
-- description: The Batch API from Offendersearch API — 1 operation(s) for batch.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Batch API from Offendersearch API — 1 operation(s) for batch.
   name: Offendersearch API Batch API
   slug: offendersearch-api-batch-api
-- description: The Billing API from Offendersearch API — 1 operation(s) for billing.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Billing API from Offendersearch API — 1 operation(s) for billing.
   name: Offendersearch API Billing API
   slug: offendersearch-api-billing-api
-- description: The Compat API from Offendersearch API — 1 operation(s) for compat.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Compat API from Offendersearch API — 1 operation(s) for compat.
   name: Offendersearch API Compat API
   slug: offendersearch-api-compat-api
-- description: The Keys API from Offendersearch API — 3 operation(s) for keys.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Keys API from Offendersearch API — 3 operation(s) for keys.
   name: Offendersearch API Keys API
   slug: offendersearch-api-keys-api
-- description: The Proof Docs API from Offendersearch API — 1 operation(s) for proof docs.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Proof Docs API from Offendersearch API — 1 operation(s) for proof docs.
   name: Offendersearch API Proof Docs API
   slug: offendersearch-api-proof-docs-api
-- description: The Records API from Offendersearch API — 1 operation(s) for records.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Records API from Offendersearch API — 1 operation(s) for records.
   name: Offendersearch API Records API
   slug: offendersearch-api-records-api
-- description: The Report API from Offendersearch API — 1 operation(s) for report.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Report API from Offendersearch API — 1 operation(s) for report.
   name: Offendersearch API Report API
   slug: offendersearch-api-report-api
-- description: The Search API from Offendersearch API — 1 operation(s) for search.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Search API from Offendersearch API — 1 operation(s) for search.
   name: Offendersearch API Search API
   slug: offendersearch-api-search-api
-- description: The Searches API from Offendersearch API — 3 operation(s) for searches.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Searches API from Offendersearch API — 3 operation(s) for searches.
   name: Offendersearch API Searches API
   slug: offendersearch-api-searches-api
-- description: The Sources API from Offendersearch API — 1 operation(s) for sources.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Sources API from Offendersearch API — 1 operation(s) for sources.
   name: Offendersearch API Sources API
   slug: offendersearch-api-sources-api
-- description: The Support API from Offendersearch API — 1 operation(s) for support.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Support API from Offendersearch API — 1 operation(s) for support.
   name: Offendersearch API Support API
   slug: offendersearch-api-support-api
-- description: The Team API from Offendersearch API — 2 operation(s) for team.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Team API from Offendersearch API — 2 operation(s) for team.
   name: Offendersearch API Team API
   slug: offendersearch-api-team-api
-- description: The Usage API from Offendersearch API — 1 operation(s) for usage.
+- baseURL: https://api.offendersearch.app
+  baseurl_source: declared
+  description: The Usage API from Offendersearch API — 1 operation(s) for usage.
   name: Offendersearch API Usage API
   slug: offendersearch-api-usage-api
 artifact_total: 23
@@ -212,11 +257,11 @@ score:
   band: developing
   composite: 52.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -226,7 +271,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 52.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +289,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/screenshots/offendersearch-api-2026-09-02T150826.png
 security:
 - kind: authentication
   name: Offendersearch Api Authentication

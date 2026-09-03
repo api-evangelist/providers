@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 17 acting
 api_count: 1
 apis:
-- description: Create and update billable accounts.
+- baseURL: https://api.123formbuilder.com/v2
+  baseurl_source: declared
+  description: Create and update billable accounts.
   name: 123FormBuilder Accounts API
   slug: 123formbuilder-accounts-api
-- description: Create, list, read, update, and delete forms, fields, and submissions.
+- baseURL: https://api.123formbuilder.com/v2
+  baseurl_source: declared
+  description: Create, list, read, update, and delete forms, fields, and submissions.
   name: 123FormBuilder Forms API
   slug: 123formbuilder-forms-api
-- description: Organize forms into groups and share groups with subusers.
+- baseURL: https://api.123formbuilder.com/v2
+  baseurl_source: declared
+  description: Organize forms into groups and share groups with subusers.
   name: 123FormBuilder Groups API
   slug: 123formbuilder-groups-api
-- description: JWT issuance, refresh, and invalidation.
+- baseURL: https://api.123formbuilder.com/v2
+  baseurl_source: declared
+  description: JWT issuance, refresh, and invalidation.
   name: 123FormBuilder Login API
   slug: 123formbuilder-login-api
-- description: Manage subusers, their permissions, and master account info.
+- baseURL: https://api.123formbuilder.com/v2
+  baseurl_source: declared
+  description: Manage subusers, their permissions, and master account info.
   name: 123FormBuilder Users API
   slug: 123formbuilder-users-api
 arazzos:
@@ -458,7 +468,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:

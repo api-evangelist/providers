@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: SemGroup was a midstream service provider that gathered, transporte
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semgroup.png
 layout: provider
 modified: '2026-03-24'
-name: semgroup
+name: Semgroup
 nav: Providers
 network: true
-overview: semgroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Semgroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: SemGroup buying Houston Fuel Oil Terminal Co. in $2B deal
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semgroup/refs/heads/main/screenshots/semgroup-2026-06-20T193648.png
 security:

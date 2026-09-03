@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 3
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 218 operations · 97 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: The accesstokens API from Schematic — 1 operation(s) for accesstokens.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The accesstokens API from Schematic — 1 operation(s) for accesstokens.
   name: Schematic accesstokens API
   slug: schematic-accesstokens-api
-- description: The accounts API from Schematic — 12 operation(s) for accounts.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The accounts API from Schematic — 12 operation(s) for accounts.
   name: Schematic accounts API
   slug: schematic-accounts-api
-- description: The billing API from Schematic — 17 operation(s) for billing.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The billing API from Schematic — 17 operation(s) for billing.
   name: Schematic billing API
   slug: schematic-billing-api
-- description: The checkout API from Schematic — 7 operation(s) for checkout.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The checkout API from Schematic — 7 operation(s) for checkout.
   name: Schematic checkout API
   slug: schematic-checkout-api
-- description: The companies API from Schematic — 29 operation(s) for companies.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The companies API from Schematic — 29 operation(s) for companies.
   name: Schematic companies API
   slug: schematic-companies-api
-- description: The components API from Schematic — 4 operation(s) for components.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The components API from Schematic — 4 operation(s) for components.
   name: Schematic components API
   slug: schematic-components-api
-- description: The componentspublic API from Schematic — 1 operation(s) for componentspublic.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The componentspublic API from Schematic — 1 operation(s) for componentspublic.
   name: Schematic componentspublic API
   slug: schematic-componentspublic-api
-- description: The credits API from Schematic — 20 operation(s) for credits.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The credits API from Schematic — 20 operation(s) for credits.
   name: Schematic credits API
   slug: schematic-credits-api
-- description: The dataexports API from Schematic — 2 operation(s) for dataexports.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The dataexports API from Schematic — 2 operation(s) for dataexports.
   name: Schematic dataexports API
   slug: schematic-dataexports-api
-- description: The entitlements API from Schematic — 16 operation(s) for entitlements.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The entitlements API from Schematic — 16 operation(s) for entitlements.
   name: Schematic entitlements API
   slug: schematic-entitlements-api
-- description: The events API from Schematic — 5 operation(s) for events.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The events API from Schematic — 5 operation(s) for events.
   name: Schematic events API
   slug: schematic-events-api
-- description: The features API from Schematic — 11 operation(s) for features.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The features API from Schematic — 11 operation(s) for features.
   name: Schematic features API
   slug: schematic-features-api
-- description: The insights API from Schematic — 6 operation(s) for insights.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The insights API from Schematic — 6 operation(s) for insights.
   name: Schematic insights API
   slug: schematic-insights-api
-- description: The integrationsapi API from Schematic — 6 operation(s) for integrationsapi.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The integrationsapi API from Schematic — 6 operation(s) for integrationsapi.
   name: Schematic integrationsapi API
   slug: schematic-integrationsapi-api
-- description: The planbundle API from Schematic — 2 operation(s) for planbundle.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The planbundle API from Schematic — 2 operation(s) for planbundle.
   name: Schematic planbundle API
   slug: schematic-planbundle-api
-- description: The plangroups API from Schematic — 2 operation(s) for plangroups.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The plangroups API from Schematic — 2 operation(s) for plangroups.
   name: Schematic plangroups API
   slug: schematic-plangroups-api
-- description: The planmigrations API from Schematic — 5 operation(s) for planmigrations.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The planmigrations API from Schematic — 5 operation(s) for planmigrations.
   name: Schematic planmigrations API
   slug: schematic-planmigrations-api
-- description: The plans API from Schematic — 14 operation(s) for plans.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The plans API from Schematic — 14 operation(s) for plans.
   name: Schematic plans API
   slug: schematic-plans-api
-- description: The scheduledcheckout API from Schematic — 2 operation(s) for scheduledcheckout.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The scheduledcheckout API from Schematic — 2 operation(s) for scheduledcheckout.
   name: Schematic scheduledcheckout API
   slug: schematic-scheduledcheckout-api
-- description: The webhooks API from Schematic — 6 operation(s) for webhooks.
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The webhooks API from Schematic — 6 operation(s) for webhooks.
   name: Schematic webhooks API
   slug: schematic-webhooks-api
 artifact_total: 61
@@ -353,7 +393,7 @@ score:
       marker_coverage: 4.8
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png
 security:

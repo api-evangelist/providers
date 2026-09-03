@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,91 +50,149 @@ apis:
 - description: Hosted stateless Streamable HTTP MCP server exposing 11 astronomy tools backed by the v2 REST endpoints. Requires Bearer RapidAPI key on every call; basic plan free. Works with Claude Code, custom con
   name: CycleCalcs MCP Server
   slug: cyclecalcs-mcp-server
-- description: The Apsides API from CycleCalcs — 1 operation(s) for apsides.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Apsides API from CycleCalcs — 1 operation(s) for apsides.
   name: CycleCalcs Apsides API
   slug: cyclecalcs-apsides-api
-- description: The Attribution API from CycleCalcs — 1 operation(s) for attribution.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Attribution API from CycleCalcs — 1 operation(s) for attribution.
   name: CycleCalcs Attribution API
   slug: cyclecalcs-attribution-api
-- description: The Conjunctions API from CycleCalcs — 1 operation(s) for conjunctions.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Conjunctions API from CycleCalcs — 1 operation(s) for conjunctions.
   name: CycleCalcs Conjunctions API
   slug: cyclecalcs-conjunctions-api
-- description: The Conventions API from CycleCalcs — 1 operation(s) for conventions.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Conventions API from CycleCalcs — 1 operation(s) for conventions.
   name: CycleCalcs Conventions API
   slug: cyclecalcs-conventions-api
-- description: The CycleCalcs Astronomy API API from CycleCalcs — 1 operation(s) for cyclecalcs astronomy api.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The CycleCalcs Astronomy API API from CycleCalcs — 1 operation(s) for cyclecalcs astronomy api.
   name: CycleCalcs CycleCalcs Astronomy API API
   slug: cyclecalcs-cyclecalcs-astronomy-api-api
-- description: The Cycles API from CycleCalcs — 1 operation(s) for cycles.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Cycles API from CycleCalcs — 1 operation(s) for cycles.
   name: CycleCalcs Cycles API
   slug: cyclecalcs-cycles-api
-- description: The Dark Window API from CycleCalcs — 1 operation(s) for dark window.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Dark Window API from CycleCalcs — 1 operation(s) for dark window.
   name: CycleCalcs Dark Window API
   slug: cyclecalcs-dark-window-api
-- description: The Eclipses API from CycleCalcs — 1 operation(s) for eclipses.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Eclipses API from CycleCalcs — 1 operation(s) for eclipses.
   name: CycleCalcs Eclipses API
   slug: cyclecalcs-eclipses-api
-- description: The Enums API from CycleCalcs — 1 operation(s) for enums.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Enums API from CycleCalcs — 1 operation(s) for enums.
   name: CycleCalcs Enums API
   slug: cyclecalcs-enums-api
-- description: The Equation Of Time API from CycleCalcs — 1 operation(s) for equation of time.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Equation Of Time API from CycleCalcs — 1 operation(s) for equation of time.
   name: CycleCalcs Equation Of Time API
   slug: cyclecalcs-equation-of-time-api
-- description: The Jupiter Moons API from CycleCalcs — 1 operation(s) for jupiter moons.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Jupiter Moons API from CycleCalcs — 1 operation(s) for jupiter moons.
   name: CycleCalcs Jupiter Moons API
   slug: cyclecalcs-jupiter-moons-api
-- description: The Libration API from CycleCalcs — 1 operation(s) for libration.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Libration API from CycleCalcs — 1 operation(s) for libration.
   name: CycleCalcs Libration API
   slug: cyclecalcs-libration-api
-- description: The Moon API from CycleCalcs — 1 operation(s) for moon.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Moon API from CycleCalcs — 1 operation(s) for moon.
   name: CycleCalcs Moon API
   slug: cyclecalcs-moon-api
-- description: The Moon Nodes API from CycleCalcs — 1 operation(s) for moon nodes.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Moon Nodes API from CycleCalcs — 1 operation(s) for moon nodes.
   name: CycleCalcs Moon Nodes API
   slug: cyclecalcs-moon-nodes-api
-- description: The Phases API from CycleCalcs — 1 operation(s) for phases.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Phases API from CycleCalcs — 1 operation(s) for phases.
   name: CycleCalcs Phases API
   slug: cyclecalcs-phases-api
-- description: The Places API from CycleCalcs — 1 operation(s) for places.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Places API from CycleCalcs — 1 operation(s) for places.
   name: CycleCalcs Places API
   slug: cyclecalcs-places-api
-- description: The Planet Board API from CycleCalcs — 1 operation(s) for planet board.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Planet Board API from CycleCalcs — 1 operation(s) for planet board.
   name: CycleCalcs Planet Board API
   slug: cyclecalcs-planet-board-api
-- description: The Planet Events API from CycleCalcs — 1 operation(s) for planet events.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Planet Events API from CycleCalcs — 1 operation(s) for planet events.
   name: CycleCalcs Planet Events API
   slug: cyclecalcs-planet-events-api
-- description: The Positions API from CycleCalcs — 1 operation(s) for positions.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Positions API from CycleCalcs — 1 operation(s) for positions.
   name: CycleCalcs Positions API
   slug: cyclecalcs-positions-api
-- description: The Retrogrades API from CycleCalcs — 1 operation(s) for retrogrades.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Retrogrades API from CycleCalcs — 1 operation(s) for retrogrades.
   name: CycleCalcs Retrogrades API
   slug: cyclecalcs-retrogrades-api
-- description: The Rise Set API from CycleCalcs — 1 operation(s) for rise set.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Rise Set API from CycleCalcs — 1 operation(s) for rise set.
   name: CycleCalcs Rise Set API
   slug: cyclecalcs-rise-set-api
-- description: The Seasons API from CycleCalcs — 1 operation(s) for seasons.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Seasons API from CycleCalcs — 1 operation(s) for seasons.
   name: CycleCalcs Seasons API
   slug: cyclecalcs-seasons-api
-- description: The Separation API from CycleCalcs — 1 operation(s) for separation.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Separation API from CycleCalcs — 1 operation(s) for separation.
   name: CycleCalcs Separation API
   slug: cyclecalcs-separation-api
-- description: The Sidereal Time API from CycleCalcs — 1 operation(s) for sidereal time.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Sidereal Time API from CycleCalcs — 1 operation(s) for sidereal time.
   name: CycleCalcs Sidereal Time API
   slug: cyclecalcs-sidereal-time-api
-- description: The Sky Quality API from CycleCalcs — 1 operation(s) for sky quality.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Sky Quality API from CycleCalcs — 1 operation(s) for sky quality.
   name: CycleCalcs Sky Quality API
   slug: cyclecalcs-sky-quality-api
-- description: The Sun API from CycleCalcs — 1 operation(s) for sun.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Sun API from CycleCalcs — 1 operation(s) for sun.
   name: CycleCalcs Sun API
   slug: cyclecalcs-sun-api
-- description: The Time API from CycleCalcs — 1 operation(s) for time.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Time API from CycleCalcs — 1 operation(s) for time.
   name: CycleCalcs Time API
   slug: cyclecalcs-time-api
-- description: The Today API from CycleCalcs — 1 operation(s) for today.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Today API from CycleCalcs — 1 operation(s) for today.
   name: CycleCalcs Today API
   slug: cyclecalcs-today-api
-- description: The Twilight API from CycleCalcs — 1 operation(s) for twilight.
+- baseURL: https://www.cyclecalcs.com/v2
+  baseurl_source: declared
+  description: The Twilight API from CycleCalcs — 1 operation(s) for twilight.
   name: CycleCalcs Twilight API
   slug: cyclecalcs-twilight-api
 arazzos:
@@ -465,7 +537,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/screenshots/cyclecalcs-2026-08-17T080843.png
 security:

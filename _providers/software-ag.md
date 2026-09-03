@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -50,16 +50,24 @@ apis:
 - description: The webMethods Integration Server is a comprehensive integration platform that enables connectivity between enterprise applications, databases, legacy systems, and cloud services. It provides flow ser
   name: webMethods Integration Server
   slug: webmethods-integration-server
-- description: API lifecycle management operations
+- baseURL: http://localhost:5555/rest/apigateway
+  baseurl_source: declared
+  description: API lifecycle management operations
   name: Software AG APIs API
   slug: software-ag-apis-api
-- description: Application and consumer management
+- baseURL: http://localhost:5555/rest/apigateway
+  baseurl_source: declared
+  description: Application and consumer management
   name: Software AG Applications API
   slug: software-ag-applications-api
-- description: Policy and scope management
+- baseURL: http://localhost:5555/rest/apigateway
+  baseurl_source: declared
+  description: Policy and scope management
   name: Software AG Policies API
   slug: software-ag-policies-api
-- description: API portal publishing operations
+- baseURL: http://localhost:5555/rest/apigateway
+  baseurl_source: declared
+  description: API portal publishing operations
   name: Software AG Publishing API
   slug: software-ag-publishing-api
 artifact_total: 25
@@ -258,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png
 security:

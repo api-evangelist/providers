@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: The Broadridge Post-Trade Processing API provides access to trade settlement, reconciliation, and regulatory reporting functions. APIs and SFTP interfaces enable post-trade processing automation, fail
   name: Broadridge Post-Trade Processing API
   slug: broadridge-post-trade-api
-- description: Account information and balances
+- baseURL: https://api.broadridge.example.com
+  baseurl_source: declared
+  description: Account information and balances
   name: broadridge Accounts API
   slug: broadridge-accounts-api
-- description: Portfolio performance data
+- baseURL: https://api.broadridge.example.com
+  baseurl_source: declared
+  description: Portfolio performance data
   name: broadridge Performance API
   slug: broadridge-performance-api
-- description: Portfolio positions and holdings
+- baseURL: https://api.broadridge.example.com
+  baseurl_source: declared
+  description: Portfolio positions and holdings
   name: broadridge Positions API
   slug: broadridge-positions-api
-- description: Account transactions and activity
+- baseURL: https://api.broadridge.example.com
+  baseurl_source: declared
+  description: Account transactions and activity
   name: broadridge Transactions API
   slug: broadridge-transactions-api
 artifact_total: 24
@@ -170,16 +178,16 @@ jsonld:
   slug: broadridge-context
 layout: provider
 modified: '2026-05-19'
-name: broadridge
+name: Broadridge
 nav: Providers
 network: true
-overview: 'broadridge publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Performance API, Positions API, and 1 more. Tagged areas include Fortune 1000.
+overview: 'Broadridge publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Performance API, Positions API, and 1 more. Tagged areas include Fortune 1000.
 
 
-  The broadridge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Broadridge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  broadridge''s developer surface includes authentication, developer portal, support, documentation, and 12 more developer resources.'
+  Broadridge''s developer surface includes authentication, developer portal, support, documentation, and 12 more developer resources.'
 plans:
 - name: Broadridge Plans Pricing
   plan_count: 1
@@ -208,7 +216,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: broadridge API Rules
+  name: Broadridge API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -248,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: RESTful JSON API for the Agari Platform, secured with OAuth 2.0 Client Credentials. Provides access to Agari email-security telemetry — alerts, domain tracking, DMARC policy-enforcement reporting, and
@@ -124,7 +124,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agari/refs/heads/main/screenshots/agari-2026-07-25T181754.png
 security:

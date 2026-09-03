@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'The Genius API exposes the music knowledge community behind genius.com: annotations (crowd-sourced explanations attached to a fragment of a document), referents (the fragments annotations attach to), '
   name: Genius API
   slug: genius-api
-- description: 'The Imgur API (version 3) exposes the Imgur image-sharing and community platform over a RESTful HTTPS interface: image upload and retrieval, albums, the public gallery and its tags, comments, and acco'
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: 'The Imgur API (version 3) exposes the Imgur image-sharing and community platform over a RESTful HTTPS interface: image upload and retrieval, albums, the public gallery and its tags, comments, and acco'
   name: Imgur API
   slug: imgur-api
 artifact_total: 9
@@ -241,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medialab-ai/refs/heads/main/screenshots/medialab-ai-2026-08-07T172332.png
 security:

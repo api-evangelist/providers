@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -47,106 +47,174 @@ apis:
 - description: Java Management Extensions (JMX) API for programmatic management and monitoring of WebSphere Application Server. Provides MBean access for server configuration, performance monitoring, and resource ma
   name: WebSphere Application Server JMX API
   slug: websphere-jmx-api
-- description: Application deployment and lifecycle management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Application deployment and lifecycle management
   name: IBM WebSphere Applications API
   slug: websphere-applications-api
-- description: Authentication and authorization
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Authentication and authorization
   name: IBM WebSphere Authentication API
   slug: websphere-authentication-api
-- description: Jakarta Batch job management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Jakarta Batch job management
   name: IBM WebSphere Batch API
   slug: websphere-batch-api
-- description: Channel administration
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Channel administration
   name: IBM WebSphere Channels API
   slug: websphere-channels-api
-- description: Cluster management operations
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Cluster management operations
   name: IBM WebSphere Clusters API
   slug: websphere-clusters-api
-- description: Compliance and configuration drift detection
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Compliance and configuration drift detection
   name: IBM WebSphere Compliance API
   slug: websphere-compliance-api
-- description: Server configuration API
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Server configuration API
   name: IBM WebSphere Config API
   slug: websphere-config-api
-- description: Server configuration management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Server configuration management
   name: IBM WebSphere Configuration API
   slug: websphere-configuration-api
-- description: Collective controller operations
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Collective controller operations
   name: IBM WebSphere Controller API
   slug: websphere-controller-api
-- description: Liberty feature management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Liberty feature management
   name: IBM WebSphere Features API
   slug: websphere-features-api
-- description: File upload and download operations
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: File upload and download operations
   name: IBM WebSphere File Transfer API
   slug: websphere-file-transfer-api
-- description: Fix management and automated patching
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Fix management and automated patching
   name: IBM WebSphere Fixes API
   slug: websphere-fixes-api
-- description: MicroProfile Health Check API
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: MicroProfile Health Check API
   name: IBM WebSphere Health API
   slug: websphere-health-api
-- description: Host management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Host management
   name: IBM WebSphere Hosts API
   slug: websphere-hosts-api
-- description: Log access and configuration
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Log access and configuration
   name: IBM WebSphere Logging API
   slug: websphere-logging-api
-- description: JMX MBean operations and attribute access
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: JMX MBean operations and attribute access
   name: IBM WebSphere MBeans API
   slug: websphere-mbeans-api
-- description: Collective member management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Collective member management
   name: IBM WebSphere Members API
   slug: websphere-members-api
-- description: Message operations - send and receive
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Message operations - send and receive
   name: IBM WebSphere Messages API
   slug: websphere-messages-api
-- description: MicroProfile Metrics API
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: MicroProfile Metrics API
   name: IBM WebSphere Metrics API
   slug: websphere-metrics-api
-- description: Performance monitoring and health checks
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Performance monitoring and health checks
   name: IBM WebSphere Monitoring API
   slug: websphere-monitoring-api
-- description: Node management operations
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Node management operations
   name: IBM WebSphere Nodes API
   slug: websphere-nodes-api
-- description: Alert and notification management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Alert and notification management
   name: IBM WebSphere Notifications API
   slug: websphere-notifications-api
-- description: MicroProfile OpenAPI documentation endpoints
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: MicroProfile OpenAPI documentation endpoints
   name: IBM WebSphere OpenAPI API
   slug: websphere-openapi-api
-- description: Queue manager administration
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Queue manager administration
   name: IBM WebSphere Queue Manager API
   slug: websphere-queue-manager-api
-- description: Queue administration and management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Queue administration and management
   name: IBM WebSphere Queues API
   slug: websphere-queues-api
-- description: Shared configuration repository management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Shared configuration repository management
   name: IBM WebSphere Repositories API
   slug: websphere-repositories-api
-- description: Resource management including data sources and JMS
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Resource management including data sources and JMS
   name: IBM WebSphere Resources API
   slug: websphere-resources-api
-- description: Scaling policy and auto-scaling management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Scaling policy and auto-scaling management
   name: IBM WebSphere Scaling API
   slug: websphere-scaling-api
-- description: Security configuration and management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Security configuration and management
   name: IBM WebSphere Security API
   slug: websphere-security-api
-- description: Server runtime management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Server runtime management
   name: IBM WebSphere Server API
   slug: websphere-server-api
-- description: Server configuration and management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Server configuration and management
   name: IBM WebSphere Servers API
   slug: websphere-servers-api
-- description: Subscription management
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Subscription management
   name: IBM WebSphere Subscriptions API
   slug: websphere-subscriptions-api
-- description: Topic administration for publish/subscribe
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Topic administration for publish/subscribe
   name: IBM WebSphere Topics API
   slug: websphere-topics-api
-- description: Security vulnerability tracking and remediation
+- baseURL: https://localhost:9443/ibm/api
+  baseurl_source: declared
+  description: Security vulnerability tracking and remediation
   name: IBM WebSphere Vulnerabilities API
   slug: websphere-vulnerabilities-api
 arazzos:
@@ -1727,7 +1795,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/screenshots/websphere-2026-06-20T201348.png
 security:

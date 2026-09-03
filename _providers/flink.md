@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 29 operations · 7 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Checkpoint configuration, status, and details.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Checkpoint configuration, status, and details.
   name: Apache Flink Checkpoints API
   slug: flink-checkpoints-api
-- description: Cluster lifecycle and configuration.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Cluster lifecycle and configuration.
   name: Apache Flink Cluster API
   slug: flink-cluster-api
-- description: Cluster dataset listing and deletion.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Cluster dataset listing and deletion.
   name: Apache Flink Datasets API
   slug: flink-datasets-api
-- description: JAR upload, listing, run, and delete.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: JAR upload, listing, run, and delete.
   name: Apache Flink JARs API
   slug: flink-jars-api
-- description: JobManager configuration, environment, logs, metrics, and threads.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: JobManager configuration, environment, logs, metrics, and threads.
   name: Apache Flink JobManager API
   slug: flink-jobmanager-api
-- description: Job lifecycle and inspection.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: Job lifecycle and inspection.
   name: Apache Flink Jobs API
   slug: flink-jobs-api
-- description: TaskManager listing and inspection.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: TaskManager listing and inspection.
   name: Apache Flink TaskManagers API
   slug: flink-taskmanagers-api
 artifact_total: 21
@@ -194,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/screenshots/flink-2026-06-20T181313.png
 security:

@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +38,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Model selectors, published prices, and route capability metadata.
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: Model selectors, published prices, and route capability metadata.
   name: Infer by Flow7 Catalog API
   slug: infer-by-flow7-catalog-api
-- description: Authenticated customer inference operations.
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: Authenticated customer inference operations.
   name: Infer by Flow7 Inference API
   slug: infer-by-flow7-inference-api
-- description: Customer-facing service state without private routing topology.
+- baseURL: https://infer.flow7.org/v1
+  baseurl_source: declared
+  description: Customer-facing service state without private routing topology.
   name: Infer by Flow7 Status API
   slug: infer-by-flow7-status-api
 artifact_total: 12
@@ -200,7 +221,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Independent monthly reserve attestation reports.
+- baseURL: https://loon.finance
+  baseurl_source: declared
+  description: Independent monthly reserve attestation reports.
   name: Loon Finance Attestations API
   slug: loon-finance-attestations-api
-- description: On-chain CADC mint events per chain.
+- baseURL: https://loon.finance
+  baseurl_source: declared
+  description: On-chain CADC mint events per chain.
   name: Loon Finance Issuances API
   slug: loon-finance-issuances-api
-- description: Circulating and total CADC supply, overall and per chain.
+- baseURL: https://loon.finance
+  baseurl_source: declared
+  description: Circulating and total CADC supply, overall and per chain.
   name: Loon Finance Supply API
   slug: loon-finance-supply-api
 artifact_total: 11
@@ -207,7 +213,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:

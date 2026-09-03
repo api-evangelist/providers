@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: The PMC ID Converter API translates between different article identifier formats including PubMed IDs (PMIDs), PubMed Central IDs (PMCIDs), Digital Object Identifiers (DOIs), and manuscript IDs. Essen
   name: PMC ID Converter API
   slug: pmc-id-converter-api
-- description: Operations for managing sets of records on the Entrez History server
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Operations for managing sets of records on the Entrez History server
   name: PubMed History API
   slug: pubmed-history-api
-- description: Operations for retrieving database metadata and information
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Operations for retrieving database metadata and information
   name: PubMed Info API
   slug: pubmed-info-api
-- description: Operations for finding linked records between databases
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Operations for finding linked records between databases
   name: PubMed Links API
   slug: pubmed-links-api
-- description: Operations for retrieving records from Entrez databases
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Operations for retrieving records from Entrez databases
   name: PubMed Retrieval API
   slug: pubmed-retrieval-api
-- description: Operations for searching Entrez databases
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Operations for searching Entrez databases
   name: PubMed Search API
   slug: pubmed-search-api
-- description: Operations for retrieving document summaries
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: Operations for retrieving document summaries
   name: PubMed Summary API
   slug: pubmed-summary-api
 artifact_total: 32
@@ -215,7 +227,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/screenshots/pubmed-2026-06-20T192246.png
 security:

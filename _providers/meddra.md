@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
-- description: MedDRA hierarchy navigation (SOC → HLGT → HLT → PT → LLT)
+- baseURL: https://api.meddra.example.com
+  baseurl_source: declared
+  description: MedDRA hierarchy navigation (SOC → HLGT → HLT → PT → LLT)
   name: meddra Hierarchy API
   slug: meddra-hierarchy-api
-- description: MedDRA term search and retrieval
+- baseURL: https://api.meddra.example.com
+  baseurl_source: declared
+  description: MedDRA term search and retrieval
   name: meddra Terms API
   slug: meddra-terms-api
-- description: Code validation for regulatory submissions
+- baseURL: https://api.meddra.example.com
+  baseurl_source: declared
+  description: Code validation for regulatory submissions
   name: meddra Validation API
   slug: meddra-validation-api
-- description: Dictionary version management
+- baseURL: https://api.meddra.example.com
+  baseurl_source: declared
+  description: Dictionary version management
   name: meddra Versions API
   slug: meddra-versions-api
 artifact_total: 19
@@ -131,16 +139,16 @@ jsonld:
   slug: meddra-context
 layout: provider
 modified: '2026-05-19'
-name: meddra
+name: Meddra
 nav: Providers
 network: true
-overview: 'meddra publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Hierarchy API, Terms API, Validation API, and 1 more.
+overview: 'Meddra publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Hierarchy API, Terms API, Validation API, and 1 more.
 
 
-  The meddra catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Meddra catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  meddra''s developer surface includes authentication, developer portal, and 7 more developer resources.'
+  Meddra''s developer surface includes authentication, developer portal, and 7 more developer resources.'
 plans:
 - name: Meddra Plans Pricing
   plan_count: 3
@@ -153,7 +161,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: meddra API Rules
+  name: Meddra API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -189,10 +197,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/screenshots/meddra-2026-06-20T185114.png
 security:

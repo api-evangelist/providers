@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 17 operations · 11 acting
 api_count: 1
 apis:
-- description: Carrier, caller-name (CNAM), and portability intelligence for a phone number.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Carrier, caller-name (CNAM), and portability intelligence for a phone number.
   name: Telnyx Verify API Number Lookup API
   slug: telnyx-verify-number-lookup-api
-- description: Trigger and check OTP / 2FA verifications over SMS, call, flash call, and WhatsApp.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Trigger and check OTP / 2FA verifications over SMS, call, flash call, and WhatsApp.
   name: Telnyx Verify API Verify API
   slug: telnyx-verify-verify-api
-- description: Reusable per-channel verification configuration and message templates.
+- baseURL: https://api.telnyx.com/v2
+  baseurl_source: declared
+  description: Reusable per-channel verification configuration and message templates.
   name: Telnyx Verify API Verify Profiles API
   slug: telnyx-verify-verify-profiles-api
 artifact_total: 14
@@ -140,7 +146,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +175,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/screenshots/telnyx-verify-2026-09-02T162750.png
 security:
 - kind: authentication
   name: Telnyx Verify Authentication

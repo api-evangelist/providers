@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: Over-the-air firmware update management
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: Over-the-air firmware update management
   name: Amazon FreeRTOS OTA Updates API
   slug: amazon-freertos-ota-updates-api
-- description: FreeRTOS software configuration management
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: FreeRTOS software configuration management
   name: Amazon FreeRTOS Software Configurations API
   slug: amazon-freertos-software-configurations-api
-- description: Resource metadata labels
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: Resource metadata labels
   name: Amazon FreeRTOS Tags API
   slug: amazon-freertos-tags-api
 arazzos:
@@ -381,7 +387,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/screenshots/amazon-freertos-2026-06-20T171652.png
 security:

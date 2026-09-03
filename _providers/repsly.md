@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 24 operations · 6 acting
 api_count: 1
 apis:
-- description: Export and import clients and client notes.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export and import clients and client notes.
   name: Repsly Clients API
   slug: repsly-clients-api
-- description: Export completed forms and retail audits.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export completed forms and retail audits.
   name: Repsly Forms API
   slug: repsly-forms-api
-- description: Bulk import surface and import job status.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Bulk import surface and import job status.
   name: Repsly Import API
   slug: repsly-import-api
-- description: Export photos captured in the field.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export photos captured in the field.
   name: Repsly Photos API
   slug: repsly-photos-api
-- description: Export and import pricelists and pricelist items.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export and import pricelists and pricelist items.
   name: Repsly Pricelists API
   slug: repsly-pricelists-api
-- description: Export and import products, product lists, packages, and document types.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export and import products, product lists, packages, and document types.
   name: Repsly Products API
   slug: repsly-products-api
-- description: Export purchase orders and update sales document status.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export purchase orders and update sales document status.
   name: Repsly Purchase Orders API
   slug: repsly-purchase-orders-api
-- description: Export representatives, users, and daily working time.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export representatives, users, and daily working time.
   name: Repsly Representatives API
   slug: repsly-representatives-api
-- description: Export visits, visit schedules, and realizations; import schedules.
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export visits, visit schedules, and realizations; import schedules.
   name: Repsly Visits API
   slug: repsly-visits-api
 artifact_total: 27
@@ -180,7 +198,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +221,9 @@ score:
       marker_coverage: 11.1
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/screenshots/repsly-2026-09-02T153511.png
 security:
 - kind: authentication
   name: Repsly Authentication

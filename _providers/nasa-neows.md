@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Browse API from NASA NeoWs — 1 operation(s) for browse.
+- baseURL: https://api.nasa.gov/neo/rest/v1
+  baseurl_source: declared
+  description: The Browse API from NASA NeoWs — 1 operation(s) for browse.
   name: NASA NeoWs Browse API
   slug: nasa-neows-browse-api
-- description: The Feed API from NASA NeoWs — 1 operation(s) for feed.
+- baseURL: https://api.nasa.gov/neo/rest/v1
+  baseurl_source: declared
+  description: The Feed API from NASA NeoWs — 1 operation(s) for feed.
   name: NASA NeoWs Feed API
   slug: nasa-neows-feed-api
-- description: The Lookup API from NASA NeoWs — 1 operation(s) for lookup.
+- baseURL: https://api.nasa.gov/neo/rest/v1
+  baseurl_source: declared
+  description: The Lookup API from NASA NeoWs — 1 operation(s) for lookup.
   name: NASA NeoWs Lookup API
   slug: nasa-neows-lookup-api
 artifact_total: 21
@@ -232,7 +238,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-neows/refs/heads/main/screenshots/nasa-neows-2026-06-20T185953.png
 security:

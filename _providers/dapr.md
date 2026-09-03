@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 49 operations · 33 acting · 1 human-in-the-loop
 api_count: 13
 apis:
-- description: Virtual actor operations including state, timers, and reminders.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Virtual actor operations including state, timers, and reminders.
   name: Dapr Actors API
   slug: dapr-actors-api
-- description: Input and output binding operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Input and output binding operations.
   name: Dapr Bindings API
   slug: dapr-bindings-api
-- description: Configuration management operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Configuration management operations.
   name: Dapr Configuration API
   slug: dapr-configuration-api
-- description: Cryptographic operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Cryptographic operations.
   name: Dapr Cryptography API
   slug: dapr-cryptography-api
-- description: Distributed locking operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Distributed locking operations.
   name: Dapr DistributedLock API
   slug: dapr-distributedlock-api
-- description: Health check operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Health check operations.
   name: Dapr Health API
   slug: dapr-health-api
-- description: Job scheduling operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Job scheduling operations.
   name: Dapr Jobs API
   slug: dapr-jobs-api
-- description: Sidecar metadata operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Sidecar metadata operations.
   name: Dapr Metadata API
   slug: dapr-metadata-api
-- description: Publish and subscribe messaging operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Publish and subscribe messaging operations.
   name: Dapr PubSub API
   slug: dapr-pubsub-api
-- description: Secret management operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Secret management operations.
   name: Dapr Secrets API
   slug: dapr-secrets-api
-- description: Service-to-service invocation operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Service-to-service invocation operations.
   name: Dapr ServiceInvocation API
   slug: dapr-serviceinvocation-api
-- description: State management operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: State management operations.
   name: Dapr State API
   slug: dapr-state-api
-- description: Workflow orchestration operations.
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Workflow orchestration operations.
   name: Dapr Workflow API
   slug: dapr-workflow-api
 artifact_total: 59
@@ -344,7 +370,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -354,7 +380,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -363,7 +389,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:

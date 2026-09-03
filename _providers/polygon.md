@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,217 +44,359 @@ agentic_access:
   summary_line: 175 operations
 api_count: 7
 apis:
-- description: Real-time streaming WebSocket clusters per asset class (stocks/options/indices/forex/crypto). Subscribers authenticate with an API key and subscribe to channels for trades, quotes, aggregates, and boo
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: Real-time streaming WebSocket clusters per asset class (stocks/options/indices/forex/crypto). Subscribers authenticate with an API key and subscribe to channels for trades, quotes, aggregates, and boo
   name: Polygon WebSocket API
   slug: websocket-api
-- description: Crypto aggregate bars.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Crypto aggregate bars.
   name: Polygon Aggregates API
   slug: polygon-aggregates-api
-- description: Level-2 order book.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Level-2 order book.
   name: Polygon Books API
   slug: polygon-books-api
-- description: Option contract reference data.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Option contract reference data.
   name: Polygon Contracts API
   slug: polygon-contracts-api
-- description: Real-time currency conversion.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time currency conversion.
   name: Polygon Conversion API
   slug: polygon-conversion-api
-- description: Stock splits and dividends.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Stock splits and dividends.
   name: Polygon CorporateActions API
   slug: polygon-corporateactions-api
-- description: Daily open/close.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Daily open/close.
   name: Polygon DailyBars API
   slug: polygon-dailybars-api
-- description: Markets, exchanges, holidays, and status.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Markets, exchanges, holidays, and status.
   name: Polygon Markets API
   slug: polygon-markets-api
-- description: Ticker news.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Ticker news.
   name: Polygon News API
   slug: polygon-news-api
-- description: FX quote endpoints.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: FX quote endpoints.
   name: Polygon Quotes API
   slug: polygon-quotes-api
-- description: Snapshot endpoints.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Snapshot endpoints.
   name: Polygon Snapshots API
   slug: polygon-snapshots-api
-- description: Ticker reference and metadata.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Ticker reference and metadata.
   name: Polygon Tickers API
   slug: polygon-tickers-api
-- description: The benzinga API from Polygon — 9 operation(s) for benzinga.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The benzinga API from Polygon — 9 operation(s) for benzinga.
   name: Polygon Benzinga API
   slug: polygon-benzinga-api
-- description: The crypto:aggregates API from Polygon — 7 operation(s) for crypto:aggregates.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The crypto:aggregates API from Polygon — 7 operation(s) for crypto:aggregates.
   name: Polygon Crypto:aggregates API
   slug: polygon-crypto-aggregates-api
-- description: The crypto:last:trade API from Polygon — 1 operation(s) for crypto:last:trade.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The crypto:last:trade API from Polygon — 1 operation(s) for crypto:last:trade.
   name: Polygon Crypto:last:trade API
   slug: polygon-crypto-last-trade-api
-- description: The crypto:open-close API from Polygon — 1 operation(s) for crypto:open-close.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The crypto:open-close API from Polygon — 1 operation(s) for crypto:open-close.
   name: Polygon Crypto:open Close API
   slug: polygon-crypto-open-close-api
-- description: The crypto:snapshot API from Polygon — 4 operation(s) for crypto:snapshot.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The crypto:snapshot API from Polygon — 4 operation(s) for crypto:snapshot.
   name: Polygon Crypto:snapshot API
   slug: polygon-crypto-snapshot-api
-- description: The crypto:trades API from Polygon — 2 operation(s) for crypto:trades.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The crypto:trades API from Polygon — 2 operation(s) for crypto:trades.
   name: Polygon Crypto:trades API
   slug: polygon-crypto-trades-api
-- description: The etfglobal API from Polygon — 5 operation(s) for etfglobal.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The etfglobal API from Polygon — 5 operation(s) for etfglobal.
   name: Polygon Etfglobal API
   slug: polygon-etfglobal-api
-- description: The fable API from Polygon — 2 operation(s) for fable.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fable API from Polygon — 2 operation(s) for fable.
   name: Polygon Fable API
   slug: polygon-fable-api
-- description: The fed API from Polygon — 4 operation(s) for fed.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fed API from Polygon — 4 operation(s) for fed.
   name: Polygon Fed API
   slug: polygon-fed-api
-- description: The financials API from Polygon — 4 operation(s) for financials.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The financials API from Polygon — 4 operation(s) for financials.
   name: Polygon Financials API
   slug: polygon-financials-api
-- description: The futures:aggregates API from Polygon — 1 operation(s) for futures:aggregates.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The futures:aggregates API from Polygon — 1 operation(s) for futures:aggregates.
   name: Polygon Futures:aggregates API
   slug: polygon-futures-aggregates-api
-- description: The fx:aggregates API from Polygon — 7 operation(s) for fx:aggregates.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fx:aggregates API from Polygon — 7 operation(s) for fx:aggregates.
   name: Polygon Fx:aggregates API
   slug: polygon-fx-aggregates-api
-- description: The fx:conversion API from Polygon — 1 operation(s) for fx:conversion.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fx:conversion API from Polygon — 1 operation(s) for fx:conversion.
   name: Polygon Fx:conversion API
   slug: polygon-fx-conversion-api
-- description: The fx:last:quote API from Polygon — 1 operation(s) for fx:last:quote.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fx:last:quote API from Polygon — 1 operation(s) for fx:last:quote.
   name: Polygon Fx:last:quote API
   slug: polygon-fx-last-quote-api
-- description: The fx:quotes API from Polygon — 1 operation(s) for fx:quotes.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fx:quotes API from Polygon — 1 operation(s) for fx:quotes.
   name: Polygon Fx:quotes API
   slug: polygon-fx-quotes-api
-- description: The fx:snapshot API from Polygon — 3 operation(s) for fx:snapshot.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fx:snapshot API from Polygon — 3 operation(s) for fx:snapshot.
   name: Polygon Fx:snapshot API
   slug: polygon-fx-snapshot-api
-- description: The fx:trades API from Polygon — 1 operation(s) for fx:trades.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The fx:trades API from Polygon — 1 operation(s) for fx:trades.
   name: Polygon Fx:trades API
   slug: polygon-fx-trades-api
-- description: The global_crypto API from Polygon — 1 operation(s) for global_crypto.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The global_crypto API from Polygon — 1 operation(s) for global_crypto.
   name: Polygon Global Crypto API
   slug: polygon-global-crypto-api
-- description: The global_forex API from Polygon — 1 operation(s) for global_forex.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The global_forex API from Polygon — 1 operation(s) for global_forex.
   name: Polygon Global Forex API
   slug: polygon-global-forex-api
-- description: The indices:aggregates API from Polygon — 6 operation(s) for indices:aggregates.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The indices:aggregates API from Polygon — 6 operation(s) for indices:aggregates.
   name: Polygon Indices:aggregates API
   slug: polygon-indices-aggregates-api
-- description: The indices:snapshot API from Polygon — 1 operation(s) for indices:snapshot.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The indices:snapshot API from Polygon — 1 operation(s) for indices:snapshot.
   name: Polygon Indices:snapshot API
   slug: polygon-indices-snapshot-api
-- description: The options:aggregates API from Polygon — 6 operation(s) for options:aggregates.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The options:aggregates API from Polygon — 6 operation(s) for options:aggregates.
   name: Polygon Options:aggregates API
   slug: polygon-options-aggregates-api
-- description: The options:last:trade API from Polygon — 1 operation(s) for options:last:trade.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The options:last:trade API from Polygon — 1 operation(s) for options:last:trade.
   name: Polygon Options:last:trade API
   slug: polygon-options-last-trade-api
-- description: The options:open-close API from Polygon — 1 operation(s) for options:open-close.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The options:open-close API from Polygon — 1 operation(s) for options:open-close.
   name: Polygon Options:open Close API
   slug: polygon-options-open-close-api
-- description: The options:quotes API from Polygon — 1 operation(s) for options:quotes.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The options:quotes API from Polygon — 1 operation(s) for options:quotes.
   name: Polygon Options:quotes API
   slug: polygon-options-quotes-api
-- description: The options:snapshot API from Polygon — 2 operation(s) for options:snapshot.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The options:snapshot API from Polygon — 2 operation(s) for options:snapshot.
   name: Polygon Options:snapshot API
   slug: polygon-options-snapshot-api
-- description: The options:trades API from Polygon — 1 operation(s) for options:trades.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The options:trades API from Polygon — 1 operation(s) for options:trades.
   name: Polygon Options:trades API
   slug: polygon-options-trades-api
-- description: Reference API
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: Reference API
   name: Polygon Reference API
   slug: polygon-reference-api
-- description: The reference:conditions API from Polygon — 1 operation(s) for reference:conditions.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:conditions API from Polygon — 1 operation(s) for reference:conditions.
   name: Polygon Reference:conditions API
   slug: polygon-reference-conditions-api
-- description: The reference:dividends API from Polygon — 1 operation(s) for reference:dividends.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:dividends API from Polygon — 1 operation(s) for reference:dividends.
   name: Polygon Reference:dividends API
   slug: polygon-reference-dividends-api
-- description: The reference:exchanges API from Polygon — 1 operation(s) for reference:exchanges.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:exchanges API from Polygon — 1 operation(s) for reference:exchanges.
   name: Polygon Reference:exchanges API
   slug: polygon-reference-exchanges-api
-- description: The reference:news API from Polygon — 1 operation(s) for reference:news.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:news API from Polygon — 1 operation(s) for reference:news.
   name: Polygon Reference:news API
   slug: polygon-reference-news-api
-- description: The reference:options:contract API from Polygon — 1 operation(s) for reference:options:contract.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:options:contract API from Polygon — 1 operation(s) for reference:options:contract.
   name: Polygon Reference:options:contract API
   slug: polygon-reference-options-contract-api
-- description: The reference:options:contracts:list API from Polygon — 1 operation(s) for reference:options:contracts:list.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:options:contracts:list API from Polygon — 1 operation(s) for reference:options:contracts:list.
   name: Polygon Reference:options:contracts:list API
   slug: polygon-reference-options-contracts-list-api
-- description: The reference:related:companies API from Polygon — 1 operation(s) for reference:related:companies.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:related:companies API from Polygon — 1 operation(s) for reference:related:companies.
   name: Polygon Reference:related:companies API
   slug: polygon-reference-related-companies-api
-- description: The reference:sec:filing API from Polygon — 1 operation(s) for reference:sec:filing.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:sec:filing API from Polygon — 1 operation(s) for reference:sec:filing.
   name: Polygon Reference:sec:filing API
   slug: polygon-reference-sec-filing-api
-- description: The reference:sec:filing:file API from Polygon — 1 operation(s) for reference:sec:filing:file.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:sec:filing:file API from Polygon — 1 operation(s) for reference:sec:filing:file.
   name: Polygon Reference:sec:filing:file API
   slug: polygon-reference-sec-filing-file-api
-- description: The reference:sec:filing:files API from Polygon — 1 operation(s) for reference:sec:filing:files.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:sec:filing:files API from Polygon — 1 operation(s) for reference:sec:filing:files.
   name: Polygon Reference:sec:filing:files API
   slug: polygon-reference-sec-filing-files-api
-- description: The reference:sec:filings API from Polygon — 1 operation(s) for reference:sec:filings.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:sec:filings API from Polygon — 1 operation(s) for reference:sec:filings.
   name: Polygon Reference:sec:filings API
   slug: polygon-reference-sec-filings-api
-- description: The reference:stocks API from Polygon — 2 operation(s) for reference:stocks.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:stocks API from Polygon — 2 operation(s) for reference:stocks.
   name: Polygon Reference:stocks API
   slug: polygon-reference-stocks-api
-- description: The reference:stocks:ipos API from Polygon — 1 operation(s) for reference:stocks:ipos.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:stocks:ipos API from Polygon — 1 operation(s) for reference:stocks:ipos.
   name: Polygon Reference:stocks:ipos API
   slug: polygon-reference-stocks-ipos-api
-- description: The reference:stocks:market API from Polygon — 2 operation(s) for reference:stocks:market.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:stocks:market API from Polygon — 2 operation(s) for reference:stocks:market.
   name: Polygon Reference:stocks:market API
   slug: polygon-reference-stocks-market-api
-- description: The reference:tickers:get API from Polygon — 2 operation(s) for reference:tickers:get.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:tickers:get API from Polygon — 2 operation(s) for reference:tickers:get.
   name: Polygon Reference:tickers:get API
   slug: polygon-reference-tickers-get-api
-- description: The reference:tickers:list API from Polygon — 1 operation(s) for reference:tickers:list.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:tickers:list API from Polygon — 1 operation(s) for reference:tickers:list.
   name: Polygon Reference:tickers:list API
   slug: polygon-reference-tickers-list-api
-- description: The reference:tickers:types API from Polygon — 1 operation(s) for reference:tickers:types.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The reference:tickers:types API from Polygon — 1 operation(s) for reference:tickers:types.
   name: Polygon Reference:tickers:types API
   slug: polygon-reference-tickers-types-api
-- description: The Snapshot API from Polygon — 1 operation(s) for snapshot.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The Snapshot API from Polygon — 1 operation(s) for snapshot.
   name: Polygon Snapshot API
   slug: polygon-snapshot-api
-- description: The stocks:aggregates API from Polygon — 7 operation(s) for stocks:aggregates.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:aggregates API from Polygon — 7 operation(s) for stocks:aggregates.
   name: Polygon Stocks:aggregates API
   slug: polygon-stocks-aggregates-api
-- description: The stocks:last:quote API from Polygon — 1 operation(s) for stocks:last:quote.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:last:quote API from Polygon — 1 operation(s) for stocks:last:quote.
   name: Polygon Stocks:last:quote API
   slug: polygon-stocks-last-quote-api
-- description: The stocks:last:trade API from Polygon — 1 operation(s) for stocks:last:trade.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:last:trade API from Polygon — 1 operation(s) for stocks:last:trade.
   name: Polygon Stocks:last:trade API
   slug: polygon-stocks-last-trade-api
-- description: The stocks:open-close API from Polygon — 2 operation(s) for stocks:open-close.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:open-close API from Polygon — 2 operation(s) for stocks:open-close.
   name: Polygon Stocks:open Close API
   slug: polygon-stocks-open-close-api
-- description: The stocks:quotes API from Polygon — 2 operation(s) for stocks:quotes.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:quotes API from Polygon — 2 operation(s) for stocks:quotes.
   name: Polygon Stocks:quotes API
   slug: polygon-stocks-quotes-api
-- description: The stocks:snapshot API from Polygon — 3 operation(s) for stocks:snapshot.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:snapshot API from Polygon — 3 operation(s) for stocks:snapshot.
   name: Polygon Stocks:snapshot API
   slug: polygon-stocks-snapshot-api
-- description: The stocks:trades API from Polygon — 2 operation(s) for stocks:trades.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The stocks:trades API from Polygon — 2 operation(s) for stocks:trades.
   name: Polygon Stocks:trades API
   slug: polygon-stocks-trades-api
-- description: The Summaries API from Polygon — 1 operation(s) for summaries.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The Summaries API from Polygon — 1 operation(s) for summaries.
   name: Polygon Summaries API
   slug: polygon-summaries-api
-- description: The tmx API from Polygon — 1 operation(s) for tmx.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The tmx API from Polygon — 1 operation(s) for tmx.
   name: Polygon Tmx API
   slug: polygon-tmx-api
-- description: The us_futures API from Polygon — 8 operation(s) for us_futures.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The us_futures API from Polygon — 8 operation(s) for us_futures.
   name: Polygon Us Futures API
   slug: polygon-us-futures-api
-- description: The us_options API from Polygon — 3 operation(s) for us_options.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The us_options API from Polygon — 3 operation(s) for us_options.
   name: Polygon Us Options API
   slug: polygon-us-options-api
-- description: The us_stocks_all API from Polygon — 2 operation(s) for us_stocks_all.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The us_stocks_all API from Polygon — 2 operation(s) for us_stocks_all.
   name: Polygon Us Stocks All API
   slug: polygon-us-stocks-all-api
-- description: The us_stocks_reference API from Polygon — 3 operation(s) for us_stocks_reference.
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: The us_stocks_reference API from Polygon — 3 operation(s) for us_stocks_reference.
   name: Polygon Us Stocks Reference API
   slug: polygon-us-stocks-reference-api
 arazzos:
@@ -786,7 +928,7 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -796,7 +938,7 @@ score:
     discoverability: 66.7
     governance: 33.3
     operational_transparency: 57.9
-  previous_composite: 68.3
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -814,7 +956,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

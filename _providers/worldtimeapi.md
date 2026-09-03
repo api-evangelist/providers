@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- description: The Geo API from World Time API — 3 operation(s) for geo.
+- baseURL: https://timeapi.world/api
+  baseurl_source: declared
+  description: The Geo API from World Time API — 3 operation(s) for geo.
   name: World Time API Geo API
   slug: worldtimeapi-geo-api
-- description: The Geo.txt API from World Time API — 1 operation(s) for geo.txt.
+- baseURL: https://timeapi.world/api
+  baseurl_source: declared
+  description: The Geo.txt API from World Time API — 1 operation(s) for geo.txt.
   name: World Time API Geo.txt API
   slug: worldtimeapi-geo-txt-api
-- description: The Ip API from World Time API — 3 operation(s) for ip.
+- baseURL: https://timeapi.world/api
+  baseurl_source: declared
+  description: The Ip API from World Time API — 3 operation(s) for ip.
   name: World Time API Ip API
   slug: worldtimeapi-ip-api
-- description: The Ip.txt API from World Time API — 1 operation(s) for ip.txt.
+- baseURL: https://timeapi.world/api
+  baseurl_source: declared
+  description: The Ip.txt API from World Time API — 1 operation(s) for ip.txt.
   name: World Time API Ip.txt API
   slug: worldtimeapi-ip-txt-api
-- description: The Timezone API from World Time API — 7 operation(s) for timezone.
+- baseURL: https://timeapi.world/api
+  baseurl_source: declared
+  description: The Timezone API from World Time API — 7 operation(s) for timezone.
   name: World Time API Timezone API
   slug: worldtimeapi-timezone-api
-- description: The Timezone.txt API from World Time API — 1 operation(s) for timezone.txt.
+- baseURL: https://timeapi.world/api
+  baseurl_source: declared
+  description: The Timezone.txt API from World Time API — 1 operation(s) for timezone.txt.
   name: World Time API Timezone.txt API
   slug: worldtimeapi-timezone-txt-api
 artifact_total: 26
@@ -227,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldtimeapi/refs/heads/main/screenshots/worldtimeapi-2026-06-20T201622.png
 security:

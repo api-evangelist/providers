@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: The subpackage_auth API from Murf — 1 operation(s) for subpackage_auth.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_auth API from Murf — 1 operation(s) for subpackage_auth.
   name: Murf subpackage_auth API
   slug: murf-subpackage-auth-api
-- description: The subpackage_dubbing.subpackage_dubbing/jobs API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/jobs.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_dubbing.subpackage_dubbing/jobs API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/jobs.
   name: Murf subpackage_dubbing.subpackage_dubbing/jobs API
   slug: murf-subpackage-dubbing-subpackage-dubbing-jobs-api
-- description: The subpackage_dubbing.subpackage_dubbing/languages API from Murf — 2 operation(s) for subpackage_dubbing.subpackage_dubbing/languages.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_dubbing.subpackage_dubbing/languages API from Murf — 2 operation(s) for subpackage_dubbing.subpackage_dubbing/languages.
   name: Murf subpackage_dubbing.subpackage_dubbing/languages API
   slug: murf-subpackage-dubbing-subpackage-dubbing-languages-api
-- description: The subpackage_dubbing.subpackage_dubbing/projects API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/projects.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_dubbing.subpackage_dubbing/projects API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/projects.
   name: Murf subpackage_dubbing.subpackage_dubbing/projects API
   slug: murf-subpackage-dubbing-subpackage-dubbing-projects-api
-- description: The subpackage_text API from Murf — 1 operation(s) for subpackage_text.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_text API from Murf — 1 operation(s) for subpackage_text.
   name: Murf subpackage_text API
   slug: murf-subpackage-text-api
-- description: The subpackage_textToSpeech API from Murf — 3 operation(s) for subpackage_texttospeech.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_textToSpeech API from Murf — 3 operation(s) for subpackage_texttospeech.
   name: Murf subpackage_textToSpeech API
   slug: murf-subpackage-texttospeech-api
-- description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
+- baseURL: https://api.murf.ai
+  baseurl_source: declared
+  description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
   name: Murf subpackage_voiceChanger API
   slug: murf-subpackage-voicechanger-api
 artifact_total: 22
@@ -198,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
 security:

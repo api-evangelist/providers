@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Read account profile and settings.
+- baseURL: https://api.documo.com/v1
+  baseurl_source: declared
+  description: Read account profile and settings.
   name: Documo Account API
   slug: documo-account-api
-- description: Send, resend, retrieve, list, and download faxes.
+- baseURL: https://api.documo.com/v1
+  baseurl_source: declared
+  description: Send, resend, retrieve, list, and download faxes.
   name: Documo Fax API
   slug: documo-fax-api
-- description: Search, provision, list, and release inbound fax numbers.
+- baseURL: https://api.documo.com/v1
+  baseurl_source: declared
+  description: Search, provision, list, and release inbound fax numbers.
   name: Documo Numbers API
   slug: documo-numbers-api
-- description: Manage webhook subscriptions for fax and number events.
+- baseURL: https://api.documo.com/v1
+  baseurl_source: declared
+  description: Manage webhook subscriptions for fax and number events.
   name: Documo Webhooks API
   slug: documo-webhooks-api
 artifact_total: 17
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/documo/refs/heads/main/screenshots/documo-2026-07-25T212222.png
 security:

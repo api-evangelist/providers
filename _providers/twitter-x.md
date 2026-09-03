@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 165 operations · 68 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Endpoints relating to retrieving, managing AAA subscriptions
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints relating to retrieving, managing AAA subscriptions
   name: Twitter/X Account Activity API
   slug: twitter-x-account-activity-api
-- description: The Activity API from Twitter/X — 3 operation(s) for activity.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Activity API from Twitter/X — 3 operation(s) for activity.
   name: Twitter/X Activity API
   slug: twitter-x-activity-api
-- description: Endpoints related to retrieving, creating & modifying Articles
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, creating & modifying Articles
   name: Twitter/X Articles API
   slug: twitter-x-articles-api
-- description: Endpoints related to retrieving, managing bookmarks of a user
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing bookmarks of a user
   name: Twitter/X Bookmarks API
   slug: twitter-x-bookmarks-api
-- description: The Chat API from Twitter/X — 16 operation(s) for chat.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Chat API from Twitter/X — 16 operation(s) for chat.
   name: Twitter/X Chat API
   slug: twitter-x-chat-api
-- description: The Communities API from Twitter/X — 2 operation(s) for communities.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Communities API from Twitter/X — 2 operation(s) for communities.
   name: Twitter/X Communities API
   slug: twitter-x-communities-api
-- description: The Community Notes API from Twitter/X — 5 operation(s) for community notes.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Community Notes API from Twitter/X — 5 operation(s) for community notes.
   name: Twitter/X Community Notes API
   slug: twitter-x-community-notes-api
-- description: Endpoints related to keeping X data in your systems compliant
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to keeping X data in your systems compliant
   name: Twitter/X Compliance API
   slug: twitter-x-compliance-api
-- description: Endpoints related to streaming connections
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to streaming connections
   name: Twitter/X Connections API
   slug: twitter-x-connections-api
-- description: Endpoints related to retrieving, managing Direct Messages
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Direct Messages
   name: Twitter/X Direct Messages API
   slug: twitter-x-direct-messages-api
-- description: Miscellaneous endpoints for general API functionality
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Miscellaneous endpoints for general API functionality
   name: Twitter/X General API
   slug: twitter-x-general-api
-- description: The Likes API from Twitter/X — 2 operation(s) for likes.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Likes API from Twitter/X — 2 operation(s) for likes.
   name: Twitter/X Likes API
   slug: twitter-x-likes-api
-- description: Endpoints related to retrieving, managing Lists
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Lists
   name: Twitter/X Lists API
   slug: twitter-x-lists-api
-- description: Endpoints related to Media
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to Media
   name: Twitter/X Media API
   slug: twitter-x-media-api
-- description: Endpoint for retrieving news stories
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoint for retrieving news stories
   name: Twitter/X News API
   slug: twitter-x-news-api
-- description: Endpoints related to retrieving, managing Spaces
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing Spaces
   name: Twitter/X Spaces API
   slug: twitter-x-spaces-api
-- description: Endpoints related to streaming
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to streaming
   name: Twitter/X Stream API
   slug: twitter-x-stream-api
-- description: The Trends API from Twitter/X — 2 operation(s) for trends.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Trends API from Twitter/X — 2 operation(s) for trends.
   name: Twitter/X Trends API
   slug: twitter-x-trends-api
-- description: Endpoints related to retrieving, searching, and modifying Tweets
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, searching, and modifying Tweets
   name: Twitter/X Tweets API
   slug: twitter-x-tweets-api
-- description: The Usage API from Twitter/X — 1 operation(s) for usage.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Usage API from Twitter/X — 1 operation(s) for usage.
   name: Twitter/X Usage API
   slug: twitter-x-usage-api
-- description: Endpoints related to retrieving, managing relationships of Users
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: Endpoints related to retrieving, managing relationships of Users
   name: Twitter/X Users API
   slug: twitter-x-users-api
-- description: The Webhooks API from Twitter/X — 5 operation(s) for webhooks.
+- baseURL: https://api.x.com
+  baseurl_source: declared
+  description: The Webhooks API from Twitter/X — 5 operation(s) for webhooks.
   name: Twitter/X Webhooks API
   slug: twitter-x-webhooks-api
 artifact_total: 75
@@ -453,7 +497,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -463,7 +507,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 59.5
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -475,7 +519,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/screenshots/twitter-x-2026-08-17T082510.png
 security:

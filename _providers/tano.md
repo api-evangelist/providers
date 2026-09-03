@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 9 acting
 api_count: 1
 apis:
-- description: Brand signups for product offerings (Creator Partnership Ads, Content Analysis Framework, Creator Discovery Guide, USA waitlist).
+- baseURL: https://tano.ai
+  baseurl_source: spec
+  description: Brand signups for product offerings (Creator Partnership Ads, Content Analysis Framework, Creator Discovery Guide, USA waitlist).
   name: Tano Brand Signups API
   slug: tano-brand-signups-api
-- description: Contact form submissions and updates.
+- baseURL: https://tano.ai
+  baseurl_source: spec
+  description: Contact form submissions and updates.
   name: Tano Contact API
   slug: tano-contact-api
-- description: Creator-side signups.
+- baseURL: https://tano.ai
+  baseurl_source: spec
+  description: Creator-side signups.
   name: Tano Creator Signups API
   slug: tano-creator-signups-api
-- description: Static discovery files for AI agents (llms.txt, manifests, sitemap).
+- baseURL: https://tano.ai
+  baseurl_source: spec
+  description: Static discovery files for AI agents (llms.txt, manifests, sitemap).
   name: Tano Discovery API
   slug: tano-discovery-api
-- description: Webinar and event registrations.
+- baseURL: https://tano.ai
+  baseurl_source: spec
+  description: Webinar and event registrations.
   name: Tano Events API
   slug: tano-events-api
 artifact_total: 15
@@ -106,7 +127,7 @@ score:
   band: emerging
   composite: 17.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 100.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -132,8 +153,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tano/refs/heads/main/screenshots/tano-2026-09-02T162520.png
 security:
 - kind: authentication
   name: Tano Authentication

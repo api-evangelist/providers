@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,13 +64,19 @@ apis:
 - description: The Helm Chart Template API defines the Go template language extensions, built-in objects, and Sprig function library available for authoring Helm chart templates. Templates render Kubernetes manifest
   name: Helm Chart Template API
   slug: chart-template-api
-- description: Extended API endpoints provided by ChartMuseum and compatible chart repository servers for JSON-based chart management.
+- baseURL_template: https://{repository-host}
+  baseurl_source: spec_template
+  description: Extended API endpoints provided by ChartMuseum and compatible chart repository servers for JSON-based chart management.
   name: Helm ChartMuseum API
   slug: helm-chartmuseum-api
-- description: Chart package download endpoints for retrieving packaged chart archives and provenance files for signature verification.
+- baseURL_template: https://{repository-host}
+  baseurl_source: spec_template
+  description: Chart package download endpoints for retrieving packaged chart archives and provenance files for signature verification.
   name: Helm Charts API
   slug: helm-charts-api
-- description: Standard Helm chart repository endpoints for index and chart download. These endpoints are required for any Helm-compatible chart repository.
+- baseURL_template: https://{repository-host}
+  baseurl_source: spec_template
+  description: Standard Helm chart repository endpoints for index and chart download. These endpoints are required for any Helm-compatible chart repository.
   name: Helm Repository API
   slug: helm-repository-api
 artifact_total: 26
@@ -262,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/screenshots/helm-2026-06-20T182629.png
 security:

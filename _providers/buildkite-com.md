@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -56,61 +56,99 @@ apis:
 - description: Official Model Context Protocol server that exposes Buildkite REST API surfaces (pipelines, builds, jobs, agents, artifacts, annotations) as MCP tools and toolsets for AI coding agents. Available as b
   name: Buildkite MCP Server
   slug: buildkite-mcp-server
-- description: The Access Token API from Buildkite — 1 operation(s) for access token.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Access Token API from Buildkite — 1 operation(s) for access token.
   name: Buildkite Access Token API
   slug: buildkite-com-access-token-api
-- description: The Agent Tokens API from Buildkite — 1 operation(s) for agent tokens.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Agent Tokens API from Buildkite — 1 operation(s) for agent tokens.
   name: Buildkite Agent Tokens API
   slug: buildkite-com-agent-tokens-api
-- description: The Agents API from Buildkite — 3 operation(s) for agents.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Agents API from Buildkite — 3 operation(s) for agents.
   name: Buildkite Agents API
   slug: buildkite-com-agents-api
-- description: The Annotations API from Buildkite — 1 operation(s) for annotations.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Annotations API from Buildkite — 1 operation(s) for annotations.
   name: Buildkite Annotations API
   slug: buildkite-com-annotations-api
-- description: The Artifacts API from Buildkite — 1 operation(s) for artifacts.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Artifacts API from Buildkite — 1 operation(s) for artifacts.
   name: Buildkite Artifacts API
   slug: buildkite-com-artifacts-api
-- description: The Builds API from Buildkite — 4 operation(s) for builds.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Builds API from Buildkite — 4 operation(s) for builds.
   name: Buildkite Builds API
   slug: buildkite-com-builds-api
-- description: The Clusters API from Buildkite — 1 operation(s) for clusters.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Clusters API from Buildkite — 1 operation(s) for clusters.
   name: Buildkite Clusters API
   slug: buildkite-com-clusters-api
-- description: The Emojis API from Buildkite — 1 operation(s) for emojis.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Emojis API from Buildkite — 1 operation(s) for emojis.
   name: Buildkite Emojis API
   slug: buildkite-com-emojis-api
-- description: The Jobs API from Buildkite — 2 operation(s) for jobs.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Jobs API from Buildkite — 2 operation(s) for jobs.
   name: Buildkite Jobs API
   slug: buildkite-com-jobs-api
-- description: The Meta API from Buildkite — 1 operation(s) for meta.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Meta API from Buildkite — 1 operation(s) for meta.
   name: Buildkite Meta API
   slug: buildkite-com-meta-api
-- description: The Metrics API from Buildkite — 1 operation(s) for metrics.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Metrics API from Buildkite — 1 operation(s) for metrics.
   name: Buildkite Metrics API
   slug: buildkite-com-metrics-api
-- description: The Organizations API from Buildkite — 2 operation(s) for organizations.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Organizations API from Buildkite — 2 operation(s) for organizations.
   name: Buildkite Organizations API
   slug: buildkite-com-organizations-api
-- description: The Pipeline Templates API from Buildkite — 1 operation(s) for pipeline templates.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Pipeline Templates API from Buildkite — 1 operation(s) for pipeline templates.
   name: Buildkite Pipeline Templates API
   slug: buildkite-com-pipeline-templates-api
-- description: The Pipelines API from Buildkite — 2 operation(s) for pipelines.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Pipelines API from Buildkite — 2 operation(s) for pipelines.
   name: Buildkite Pipelines API
   slug: buildkite-com-pipelines-api
-- description: The Queues API from Buildkite — 1 operation(s) for queues.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Queues API from Buildkite — 1 operation(s) for queues.
   name: Buildkite Queues API
   slug: buildkite-com-queues-api
-- description: The Rules API from Buildkite — 1 operation(s) for rules.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Rules API from Buildkite — 1 operation(s) for rules.
   name: Buildkite Rules API
   slug: buildkite-com-rules-api
-- description: The Stacks API from Buildkite — 1 operation(s) for stacks.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Stacks API from Buildkite — 1 operation(s) for stacks.
   name: Buildkite Stacks API
   slug: buildkite-com-stacks-api
-- description: The Teams API from Buildkite — 1 operation(s) for teams.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Teams API from Buildkite — 1 operation(s) for teams.
   name: Buildkite Teams API
   slug: buildkite-com-teams-api
-- description: The User API from Buildkite — 1 operation(s) for user.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The User API from Buildkite — 1 operation(s) for user.
   name: Buildkite User API
   slug: buildkite-com-user-api
 arazzos:
@@ -630,7 +668,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

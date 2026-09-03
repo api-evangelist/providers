@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: News releases, careers postings, conference listings, case studies, presentations and publications published on ionetix.com, served as JSON by the WordPress REST wp/v2 namespace. 66 posts across 10 ca
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: News releases, careers postings, conference listings, case studies, presentations and publications published on ionetix.com, served as JSON by the WordPress REST wp/v2 namespace. 66 posts across 10 ca
   name: Ionetix Posts API
   slug: ionetix-posts-api
-- description: The ionetix.com marketing and product page tree — Cardiac PET, N-13 Ammonia, N-13 Ammonia Sites, Actinium-225, Astatine-211, Alpha Therapy, PSMA PET, Cyclotron Solutions, Education, Careers, About and
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: The ionetix.com marketing and product page tree — Cardiac PET, N-13 Ammonia, N-13 Ammonia Sites, Actinium-225, Astatine-211, Alpha Therapy, PSMA PET, Cyclotron Solutions, Education, Careers, About and
   name: Ionetix Pages API
   slug: ionetix-pages-api
-- description: The ionetix.com media library as JSON — 291 attachments including product photography, leadership portraits and the IONETIX ION-12SC Cyclotron System data sheet PDFs, with rendered source URLs and gen
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: The ionetix.com media library as JSON — 291 attachments including product photography, leadership portraits and the IONETIX ION-12SC Cyclotron System data sheet PDFs, with rendered source URLs and gen
   name: Ionetix Media API
   slug: ionetix-media-api
-- description: Categories, tags and taxonomy registrations that classify ionetix.com content — News, Case Studies, Conferences, Presentations, Publications, Education and Careers.
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags and taxonomy registrations that classify ionetix.com content — News, Case Studies, Conferences, Presentations, Publications, Education and Careers.
   name: Ionetix Taxonomy API
   slug: ionetix-taxonomy-api
-- description: Site-wide search across ionetix.com posts and pages, returning id, title, url, type and subtype for each match with X-WP-Total / X-WP-TotalPages result counts.
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: Site-wide search across ionetix.com posts and pages, returning id, title, url, type and subtype for each match with X-WP-Total / X-WP-TotalPages result counts.
   name: Ionetix Search API
   slug: ionetix-search-api
-- description: The authors publishing content on ionetix.com, exposed anonymously by the WordPress REST wp/v2 namespace with name, slug, author archive link and avatar URLs.
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: The authors publishing content on ionetix.com, exposed anonymously by the WordPress REST wp/v2 namespace with name, slug, author archive link and avatar URLs.
   name: Ionetix Users API
   slug: ionetix-users-api
-- description: Comment threads attached to ionetix.com posts, served by the WordPress REST wp/v2 namespace.
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: Comment threads attached to ionetix.com posts, served by the WordPress REST wp/v2 namespace.
   name: Ionetix Comments API
   slug: ionetix-comments-api
-- description: Route, content-type and post-status discovery for the ionetix.com content API — the wp/v2 namespace index, registered post types and registered statuses.
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: Route, content-type and post-status discovery for the ionetix.com content API — the wp/v2 namespace index, registered post types and registered statuses.
   name: Ionetix Discovery API
   slug: ionetix-discovery-api
-- description: oEmbed 1.0 discovery for ionetix.com URLs, returning embeddable representations of posts and pages.
+- baseURL: https://ionetix.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 discovery for ionetix.com URLs, returning embeddable representations of posts and pages.
   name: Ionetix oEmbed API
   slug: ionetix-oembed-api
 artifact_total: 20
@@ -181,18 +211,18 @@ rate_limits:
   slug: ionetix-rate-limits
 score:
   band: emerging
-  composite: 20.6
+  composite: 21.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 21.1
+    contract_quality: 24.5
     developer_ergonomics: 20.8
     discoverability: 74.1
     governance: 4.5
@@ -214,8 +244,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/screenshots/ionetix-2026-09-02T145923.png
 security:
 - kind: authentication
   name: Ionetix Authentication

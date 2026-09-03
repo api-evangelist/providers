@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,106 +44,174 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The Account Access Consents API from Aldermore Bank — 2 operation(s) for account access consents.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Account Access Consents API from Aldermore Bank — 2 operation(s) for account access consents.
   name: Aldermore Bank Account Access Consents API
   slug: aldermore-account-access-consents-api
-- description: The Accounts API from Aldermore Bank — 2 operation(s) for accounts.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Accounts API from Aldermore Bank — 2 operation(s) for accounts.
   name: Aldermore Bank Accounts API
   slug: aldermore-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting ATM data
   name: Aldermore Bank ATM API
   slug: aldermore-atm-api
-- description: The Balances API from Aldermore Bank — 2 operation(s) for balances.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Balances API from Aldermore Bank — 2 operation(s) for balances.
   name: Aldermore Bank Balances API
   slug: aldermore-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Business Current Account data
   name: Aldermore Bank BCA API
   slug: aldermore-bca-api
-- description: The Beneficiaries API from Aldermore Bank — 2 operation(s) for beneficiaries.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Beneficiaries API from Aldermore Bank — 2 operation(s) for beneficiaries.
   name: Aldermore Bank Beneficiaries API
   slug: aldermore-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Branch data
   name: Aldermore Bank Branch API
   slug: aldermore-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Commercial Credit Card data
   name: Aldermore Bank CCC API
   slug: aldermore-ccc-api
-- description: The Direct Debits API from Aldermore Bank — 2 operation(s) for direct debits.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Direct Debits API from Aldermore Bank — 2 operation(s) for direct debits.
   name: Aldermore Bank Direct Debits API
   slug: aldermore-direct-debits-api
-- description: The Domestic Payment Consents API from Aldermore Bank — 3 operation(s) for domestic payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payment Consents API from Aldermore Bank — 3 operation(s) for domestic payment consents.
   name: Aldermore Bank Domestic Payment Consents API
   slug: aldermore-domestic-payment-consents-api
-- description: The Domestic Payments API from Aldermore Bank — 3 operation(s) for domestic payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Payments API from Aldermore Bank — 3 operation(s) for domestic payments.
   name: Aldermore Bank Domestic Payments API
   slug: aldermore-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Aldermore Bank — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payment Consents API from Aldermore Bank — 2 operation(s) for domestic scheduled payment consents.
   name: Aldermore Bank Domestic Scheduled Payment Consents API
   slug: aldermore-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Aldermore Bank — 3 operation(s) for domestic scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payments API from Aldermore Bank — 3 operation(s) for domestic scheduled payments.
   name: Aldermore Bank Domestic Scheduled Payments API
   slug: aldermore-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Aldermore Bank — 2 operation(s) for domestic standing order consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Order Consents API from Aldermore Bank — 2 operation(s) for domestic standing order consents.
   name: Aldermore Bank Domestic Standing Order Consents API
   slug: aldermore-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Aldermore Bank — 3 operation(s) for domestic standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Orders API from Aldermore Bank — 3 operation(s) for domestic standing orders.
   name: Aldermore Bank Domestic Standing Orders API
   slug: aldermore-domestic-standing-orders-api
-- description: The File Payment Consents API from Aldermore Bank — 3 operation(s) for file payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payment Consents API from Aldermore Bank — 3 operation(s) for file payment consents.
   name: Aldermore Bank File Payment Consents API
   slug: aldermore-file-payment-consents-api
-- description: The File Payments API from Aldermore Bank — 4 operation(s) for file payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The File Payments API from Aldermore Bank — 4 operation(s) for file payments.
   name: Aldermore Bank File Payments API
   slug: aldermore-file-payments-api
-- description: The Funds Confirmation Consents API from Aldermore Bank — 2 operation(s) for funds confirmation consents.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmation Consents API from Aldermore Bank — 2 operation(s) for funds confirmation consents.
   name: Aldermore Bank Funds Confirmation Consents API
   slug: aldermore-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Aldermore Bank — 1 operation(s) for funds confirmations.
+- baseURL: /open-banking/v4.0/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmations API from Aldermore Bank — 1 operation(s) for funds confirmations.
   name: Aldermore Bank Funds Confirmations API
   slug: aldermore-funds-confirmations-api
-- description: The International Payment Consents API from Aldermore Bank — 3 operation(s) for international payment consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payment Consents API from Aldermore Bank — 3 operation(s) for international payment consents.
   name: Aldermore Bank International Payment Consents API
   slug: aldermore-international-payment-consents-api
-- description: The International Payments API from Aldermore Bank — 3 operation(s) for international payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Payments API from Aldermore Bank — 3 operation(s) for international payments.
   name: Aldermore Bank International Payments API
   slug: aldermore-international-payments-api
-- description: The International Scheduled Payments API from Aldermore Bank — 3 operation(s) for international scheduled payments.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments API from Aldermore Bank — 3 operation(s) for international scheduled payments.
   name: Aldermore Bank International Scheduled Payments API
   slug: aldermore-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Aldermore Bank — 3 operation(s) for international scheduled payments consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments Consents API from Aldermore Bank — 3 operation(s) for international scheduled payments consents.
   name: Aldermore Bank International Scheduled Payments Consents API
   slug: aldermore-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Aldermore Bank — 3 operation(s) for international standing orders.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders API from Aldermore Bank — 3 operation(s) for international standing orders.
   name: Aldermore Bank International Standing Orders API
   slug: aldermore-international-standing-orders-api
-- description: The International Standing Orders Consents API from Aldermore Bank — 2 operation(s) for international standing orders consents.
+- baseURL: /open-banking/v4.0/pisp
+  baseurl_source: spec
+  description: The International Standing Orders Consents API from Aldermore Bank — 2 operation(s) for international standing orders consents.
   name: Aldermore Bank International Standing Orders Consents API
   slug: aldermore-international-standing-orders-consents-api
-- description: The Offers API from Aldermore Bank — 2 operation(s) for offers.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Offers API from Aldermore Bank — 2 operation(s) for offers.
   name: Aldermore Bank Offers API
   slug: aldermore-offers-api
-- description: The Parties API from Aldermore Bank — 3 operation(s) for parties.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Parties API from Aldermore Bank — 3 operation(s) for parties.
   name: Aldermore Bank Parties API
   slug: aldermore-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Personal Current Account data
   name: Aldermore Bank PCA API
   slug: aldermore-pca-api
-- description: The Products API from Aldermore Bank — 2 operation(s) for products.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Products API from Aldermore Bank — 2 operation(s) for products.
   name: Aldermore Bank Products API
   slug: aldermore-products-api
-- description: The Scheduled Payments API from Aldermore Bank — 2 operation(s) for scheduled payments.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Scheduled Payments API from Aldermore Bank — 2 operation(s) for scheduled payments.
   name: Aldermore Bank Scheduled Payments API
   slug: aldermore-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Unsecured SME Loan data
   name: Aldermore Bank SME API
   slug: aldermore-sme-api
-- description: The Standing Orders API from Aldermore Bank — 2 operation(s) for standing orders.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Standing Orders API from Aldermore Bank — 2 operation(s) for standing orders.
   name: Aldermore Bank Standing Orders API
   slug: aldermore-standing-orders-api
-- description: The Statements API from Aldermore Bank — 5 operation(s) for statements.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Statements API from Aldermore Bank — 5 operation(s) for statements.
   name: Aldermore Bank Statements API
   slug: aldermore-statements-api
-- description: The Transactions API from Aldermore Bank — 2 operation(s) for transactions.
+- baseURL: /open-banking/v4.0/aisp
+  baseurl_source: spec
+  description: The Transactions API from Aldermore Bank — 2 operation(s) for transactions.
   name: Aldermore Bank Transactions API
   slug: aldermore-transactions-api
 artifact_total: 41
@@ -320,7 +399,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/screenshots/aldermore-2026-07-25T195550.png
 security:

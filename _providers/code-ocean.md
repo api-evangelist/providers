@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 26 operations · 19 acting
 api_count: 1
 apis:
-- description: Reproducible compute capsules and pipelines
+- baseURL: https://codeocean.com/api/v1
+  baseurl_source: declared
+  description: Reproducible compute capsules and pipelines
   name: Code Ocean Capsules API
   slug: code-ocean-capsules-api
-- description: Runs of capsules and pipelines
+- baseURL: https://codeocean.com/api/v1
+  baseurl_source: declared
+  description: Runs of capsules and pipelines
   name: Code Ocean Computations API
   slug: code-ocean-computations-api
-- description: Versioned datasets and result data
+- baseURL: https://codeocean.com/api/v1
+  baseurl_source: declared
+  description: Versioned datasets and result data
   name: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
 artifact_total: 12
@@ -201,7 +207,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
 security:

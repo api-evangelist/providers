@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 8 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The core Photon protocol - NOT a REST or JSON API. Clients connect through a Name Server to a Master Server (matchmaking/lobby) and then a Game Server (room gameplay), exchanging a proprietary binary '
+- baseURL: wss://ns.exitgames.com:443
+  baseurl_source: declared
+  description: 'The core Photon protocol - NOT a REST or JSON API. Clients connect through a Name Server to a Master Server (matchmaking/lobby) and then a Game Server (room gameplay), exchanging a proprietary binary '
   name: Photon Realtime Transport Protocol
   slug: photonengine-realtime-transport-api
 - description: 'Photon Unity Networking 2, the original high-level Unity multiplayer SDK layered over the Photon Realtime transport protocol (same binary messages, same UDP/TCP/WebSocket transports). Still supported '
@@ -64,10 +66,14 @@ apis:
 - description: Legacy UDP-based Unity netcode product from Exit Games. No longer actively developed and not recommended for new projects - superseded by Photon Fusion. Documented here for completeness since it remai
   name: Photon Bolt (Legacy, Deprecated)
   slug: photonengine-bolt-api
-- description: Endpoint Photon's server calls to validate a connecting client's credentials. You implement this; Photon is the caller.
+- baseURL: wss://ns.exitgames.com:443
+  baseurl_source: declared
+  description: Endpoint Photon's server calls to validate a connecting client's credentials. You implement this; Photon is the caller.
   name: Photon Engine Custom Authentication API
   slug: photonengine-custom-authentication-api
-- description: Endpoints Photon's Game Server calls (HTTP POST) at points in a room's lifecycle. You implement these; Photon is the caller.
+- baseURL: wss://ns.exitgames.com:443
+  baseurl_source: declared
+  description: Endpoints Photon's Game Server calls (HTTP POST) at points in a room's lifecycle. You implement these; Photon is the caller.
   name: Photon Engine Room Lifecycle WebHooks API
   slug: photonengine-room-lifecycle-webhooks-api
 artifact_total: 20
@@ -175,7 +181,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -185,7 +191,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 35.8
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -194,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/screenshots/photonengine-2026-08-17T081233.png
 security:

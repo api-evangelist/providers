@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 1
 apis:
-- description: Per-voyage CO2 emission computation using vessel-model and GLEC tradelane methods.
+- baseURL: https://api.sinay.ai/ports-vessels/api/v1
+  baseurl_source: declared
+  description: Per-voyage CO2 emission computation using vessel-model and GLEC tradelane methods.
   name: Sinay CO2 Emission API
   slug: sinay-co2-emission-api
-- description: Estimated time of arrival prediction for a vessel to a destination port.
+- baseURL: https://api.sinay.ai/ports-vessels/api/v1
+  baseurl_source: declared
+  description: Estimated time of arrival prediction for a vessel to a destination port.
   name: Sinay ETA API
   slug: sinay-eta-api
-- description: Meteorological and oceanographic conditions for an area and time.
+- baseURL: https://api.sinay.ai/ports-vessels/api/v1
+  baseurl_source: declared
+  description: Meteorological and oceanographic conditions for an area and time.
   name: Sinay Metocean API
   slug: sinay-metocean-api
-- description: Aggregated live port congestion data.
+- baseURL: https://api.sinay.ai/ports-vessels/api/v1
+  baseurl_source: declared
+  description: Aggregated live port congestion data.
   name: Sinay Port Congestion API
   slug: sinay-port-congestion-api
-- description: Vessel and port lookup from combined satellite and terrestrial AIS.
+- baseURL: https://api.sinay.ai/ports-vessels/api/v1
+  baseurl_source: declared
+  description: Vessel and port lookup from combined satellite and terrestrial AIS.
   name: Sinay Ports and Vessels API
   slug: sinay-ports-and-vessels-api
-- description: Monthly API usage and credit-consumption reporting.
+- baseURL: https://api.sinay.ai/ports-vessels/api/v1
+  baseurl_source: declared
+  description: Monthly API usage and credit-consumption reporting.
   name: Sinay Usage API
   slug: sinay-usage-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/screenshots/sinay-2026-09-02T155607.png
 security:
 - kind: authentication
   name: Sinay Authentication

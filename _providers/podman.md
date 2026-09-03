@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 193 operations · 115 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: Actions related to artifacts
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to artifacts
   name: Podman artifacts API
   slug: podman-artifacts-api
-- description: Actions related to containers
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to containers
   name: Podman containers API
   slug: podman-containers-api
-- description: Actions related to containers for the compatibility endpoints
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to containers for the compatibility endpoints
   name: Podman containers (compat) API
   slug: podman-containers-compat-api
-- description: Actions related to exec
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to exec
   name: Podman exec API
   slug: podman-exec-api
-- description: Actions related to exec for the compatibility endpoints
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to exec for the compatibility endpoints
   name: Podman exec (compat) API
   slug: podman-exec-compat-api
-- description: Actions related to images
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to images
   name: Podman images API
   slug: podman-images-api
-- description: Actions related to images for the compatibility endpoints
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to images for the compatibility endpoints
   name: Podman images (compat) API
   slug: podman-images-compat-api
-- description: Actions related to manifests
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to manifests
   name: Podman manifests API
   slug: podman-manifests-api
-- description: Actions related to networks
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to networks
   name: Podman networks API
   slug: podman-networks-api
-- description: Actions related to networks for the compatibility endpoints
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to networks for the compatibility endpoints
   name: Podman networks (compat) API
   slug: podman-networks-compat-api
-- description: Actions related to pods
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to pods
   name: Podman pods API
   slug: podman-pods-api
-- description: The quadlets API from Podman — 5 operation(s) for quadlets.
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: The quadlets API from Podman — 5 operation(s) for quadlets.
   name: Podman quadlets API
   slug: podman-quadlets-api
-- description: Actions related to secrets
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to secrets
   name: Podman secrets API
   slug: podman-secrets-api
-- description: Actions related to secrets for the compatibility endpoints
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to secrets for the compatibility endpoints
   name: Podman secrets (compat) API
   slug: podman-secrets-compat-api
-- description: Actions related to Podman engine
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to Podman engine
   name: Podman system API
   slug: podman-system-api
-- description: Actions related to Podman and compatibility engines
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to Podman and compatibility engines
   name: Podman system (compat) API
   slug: podman-system-compat-api
-- description: Actions related to volumes
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to volumes
   name: Podman volumes API
   slug: podman-volumes-api
-- description: Actions related to volumes for the compatibility endpoints
+- baseURL: http://d/v6.0.0/libpod
+  baseurl_source: declared
+  description: Actions related to volumes for the compatibility endpoints
   name: Podman volumes (compat) API
   slug: podman-volumes-compat-api
 artifact_total: 43
@@ -275,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/screenshots/podman-2026-06-20T191837.png
 security:

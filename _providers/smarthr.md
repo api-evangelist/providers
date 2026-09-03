@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 27 operations · 16 acting
 api_count: 1
 apis:
-- description: Business establishments (jigyosho) registered for the tenant.
+- baseURL: https://{tenant}.smarthr.jp/api
+  baseurl_source: declared
+  description: Business establishments (jigyosho) registered for the tenant.
   name: SmartHR Business Establishments API
   slug: smarthr-business-establishments-api
-- description: Employee ("crew") records - the core personnel objects in SmartHR.
+- baseURL: https://{tenant}.smarthr.jp/api
+  baseurl_source: declared
+  description: Employee ("crew") records - the core personnel objects in SmartHR.
   name: SmartHR Crews API
   slug: smarthr-crews-api
-- description: Templates defining custom fields attached to crew records.
+- baseURL: https://{tenant}.smarthr.jp/api
+  baseurl_source: declared
+  description: Templates defining custom fields attached to crew records.
   name: SmartHR Custom Field Templates API
   slug: smarthr-custom-field-templates-api
-- description: Organizational departments that crews belong to.
+- baseURL: https://{tenant}.smarthr.jp/api
+  baseurl_source: declared
+  description: Organizational departments that crews belong to.
   name: SmartHR Departments API
   slug: smarthr-departments-api
-- description: Employment type master data (full-time, part-time, contract, etc.).
+- baseURL: https://{tenant}.smarthr.jp/api
+  baseurl_source: declared
+  description: Employment type master data (full-time, part-time, contract, etc.).
   name: SmartHR Employment Types API
   slug: smarthr-employment-types-api
-- description: Webhook subscriptions that notify external systems of changes.
+- baseURL: https://{tenant}.smarthr.jp/api
+  baseurl_source: declared
+  description: Webhook subscriptions that notify external systems of changes.
   name: SmartHR Webhooks API
   slug: smarthr-webhooks-api
 artifact_total: 20
@@ -158,7 +170,7 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -181,8 +193,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/screenshots/smarthr-2026-09-02T155924.png
 security:
 - kind: authentication
   name: Smarthr Authentication

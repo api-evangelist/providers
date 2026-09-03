@@ -33,31 +33,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
   name: Unifonic Conversations (WhatsApp) API
   slug: unifonic-conversations-whatsapp-api
-- description: The Call Management and Status API from Unifonic — 2 operation(s) for call management and status.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Call Management and Status API from Unifonic — 2 operation(s) for call management and status.
   name: Unifonic Call Management and Status API
   slug: unifonic-call-management-and-status-api
-- description: The Call Queue Management API from Unifonic — 2 operation(s) for call queue management.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Call Queue Management API from Unifonic — 2 operation(s) for call queue management.
   name: Unifonic Call Queue Management API
   slug: unifonic-call-queue-management-api
-- description: The Number Masking API from Unifonic — 3 operation(s) for number masking.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Number Masking API from Unifonic — 3 operation(s) for number masking.
   name: Unifonic Number Masking API
   slug: unifonic-number-masking-api
-- description: The Rest API from Unifonic — 3 operation(s) for rest.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Rest API from Unifonic — 3 operation(s) for rest.
   name: Unifonic Rest API
   slug: unifonic-rest-api
-- description: The Verifications API from Unifonic — 2 operation(s) for verifications.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Verifications API from Unifonic — 2 operation(s) for verifications.
   name: Unifonic Verifications API
   slug: unifonic-verifications-api
-- description: The Webhooks API from Unifonic — 1 operation(s) for webhooks.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Webhooks API from Unifonic — 1 operation(s) for webhooks.
   name: Unifonic Webhooks API
   slug: unifonic-webhooks-api
-- description: The Wrapper API from Unifonic — 2 operation(s) for wrapper.
+- baseURL: https://el.cloud.unifonic.com
+  baseurl_source: declared
+  description: The Wrapper API from Unifonic — 2 operation(s) for wrapper.
   name: Unifonic Wrapper API
   slug: unifonic-wrapper-api
 artifact_total: 28
@@ -280,7 +294,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -290,7 +304,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 58.2
+  previous_composite: 58.0
   provenance:
     conformance: derived
     contracts:
@@ -307,7 +321,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/screenshots/unifonic-2026-08-17T082602.png
 security:

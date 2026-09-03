@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The Roblox Engine API documents all classes, data types, enumerations, global functions, variables, and libraries available when scripting Roblox experiences in Luau. This is the primary reference for
   name: Roblox Engine API
   slug: roblox-engine-api
-- description: Asset management and operations
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Asset management and operations
   name: Roblox Engine API Assets API
   slug: roblox-engine-api-assets-api
-- description: Persistent data storage for experiences
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Persistent data storage for experiences
   name: Roblox Engine API Data Stores API
   slug: roblox-engine-api-data-stores-api
-- description: Roblox group management
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Roblox group management
   name: Roblox Engine API Groups API
   slug: roblox-engine-api-groups-api
-- description: Cross-server messaging service
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Cross-server messaging service
   name: Roblox Engine API Messaging API
   slug: roblox-engine-api-messaging-api
-- description: Place publishing and management
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Place publishing and management
   name: Roblox Engine API Places API
   slug: roblox-engine-api-places-api
-- description: Experience (universe) management
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Experience (universe) management
   name: Roblox Engine API Universes API
   slug: roblox-engine-api-universes-api
-- description: Roblox user information
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Roblox user information
   name: Roblox Engine API Users API
   slug: roblox-engine-api-users-api
 artifact_total: 39
@@ -283,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/screenshots/roblox-engine-api-2026-06-20T193143.png
 security:

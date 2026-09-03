@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -33,25 +45,39 @@ agentic_access:
   summary_line: 48 operations · 22 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Snappt — 1 operation(s) for account.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The Account API from Snappt — 1 operation(s) for account.
   name: Snappt Account API
   slug: snappt-account-api
-- description: The Applicant Sessions API from Snappt — 8 operation(s) for applicant sessions.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The Applicant Sessions API from Snappt — 8 operation(s) for applicant sessions.
   name: Snappt Applicant Sessions API
   slug: snappt-applicant-sessions-api
-- description: The Applicants API from Snappt — 7 operation(s) for applicants.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The Applicants API from Snappt — 7 operation(s) for applicants.
   name: Snappt Applicants API
   slug: snappt-applicants-api
-- description: The ID Verification API from Snappt — 8 operation(s) for id verification.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The ID Verification API from Snappt — 8 operation(s) for id verification.
   name: Snappt ID Verification API
   slug: snappt-id-verification-api
-- description: The Internal IDV API from Snappt — 1 operation(s) for internal idv.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The Internal IDV API from Snappt — 1 operation(s) for internal idv.
   name: Snappt Internal IDV API
   slug: snappt-internal-idv-api
-- description: The Properties API from Snappt — 8 operation(s) for properties.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The Properties API from Snappt — 8 operation(s) for properties.
   name: Snappt Properties API
   slug: snappt-properties-api
-- description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
+- baseURL: https://enterprise-api.snappt.com
+  baseurl_source: declared
+  description: The Webhooks API from Snappt — 3 operation(s) for webhooks.
   name: Snappt Webhooks API
   slug: snappt-webhooks-api
 artifact_total: 21
@@ -253,7 +279,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -263,7 +289,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 51.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,7 +301,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/screenshots/snappt-2026-08-17T081942.png
 security:

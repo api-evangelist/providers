@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,76 +37,120 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
   name: WhoisFreaks MCP Server
   slug: whoisfreaks-mcp-server
-- description: Account, API key, and usage utilities
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Account, API key, and usage utilities
   name: WhoisFreaks Account API
   slug: whoisfreaks-account-api
-- description: Autonomous System Number WHOIS
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Autonomous System Number WHOIS
   name: WhoisFreaks ASN WHOIS API
   slug: whoisfreaks-asn-whois-api
-- description: ASN WHOIS database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: ASN WHOIS database snapshots
   name: WhoisFreaks Databases - ASN WHOIS API
   slug: whoisfreaks-databases-asn-whois-api
-- description: DNS database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: DNS database snapshots
   name: WhoisFreaks Databases - DNS API
   slug: whoisfreaks-databases-dns-api
-- description: Expiring and dropped domain downloads
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Expiring and dropped domain downloads
   name: WhoisFreaks Databases - Expiring & Dropped API
   slug: whoisfreaks-databases-expiring-dropped-api
-- description: IP geolocation database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: IP geolocation database snapshots
   name: WhoisFreaks Databases - IP Geolocation API
   slug: whoisfreaks-databases-ip-geolocation-api
-- description: IP security database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: IP security database snapshots
   name: WhoisFreaks Databases - IP Security API
   slug: whoisfreaks-databases-ip-security-api
-- description: IP WHOIS database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: IP WHOIS database snapshots
   name: WhoisFreaks Databases - IP WHOIS API
   slug: whoisfreaks-databases-ip-whois-api
-- description: Newly registered domain downloads
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Newly registered domain downloads
   name: WhoisFreaks Databases - Newly Registered API
   slug: whoisfreaks-databases-newly-registered-api
-- description: Subdomain database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Subdomain database snapshots
   name: WhoisFreaks Databases - Subdomains API
   slug: whoisfreaks-databases-subdomains-api
-- description: The Databases - Threat Feed API from WhoisFreaks — 6 operation(s) for databases - threat feed.
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: The Databases - Threat Feed API from WhoisFreaks — 6 operation(s) for databases - threat feed.
   name: WhoisFreaks Databases - Threat Feed API
   slug: whoisfreaks-databases-threat-feed-api
-- description: WHOIS database snapshots
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: WHOIS database snapshots
   name: WhoisFreaks Databases - WHOIS API
   slug: whoisfreaks-databases-whois-api
-- description: DNS lookup APIs (live, historical, reverse, bulk)
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: DNS lookup APIs (live, historical, reverse, bulk)
   name: WhoisFreaks DNS API
   slug: whoisfreaks-dns-api
-- description: Check domain availability
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Check domain availability
   name: WhoisFreaks Domain Availability API
   slug: whoisfreaks-domain-availability-api
-- description: Real-time domain threat assessment and trust scoring
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Real-time domain threat assessment and trust scoring
   name: WhoisFreaks Domain Reputation API
   slug: whoisfreaks-domain-reputation-api
-- description: IP geolocation lookup
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: IP geolocation lookup
   name: WhoisFreaks Geolocation API
   slug: whoisfreaks-geolocation-api
-- description: IP threat intelligence
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: IP threat intelligence
   name: WhoisFreaks IP Reputation API
   slug: whoisfreaks-ip-reputation-api
-- description: IP address WHOIS
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: IP address WHOIS
   name: WhoisFreaks IP WHOIS API
   slug: whoisfreaks-ip-whois-api
-- description: SSL certificate lookup
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: SSL certificate lookup
   name: WhoisFreaks SSL API
   slug: whoisfreaks-ssl-api
-- description: Subdomain enumeration
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Subdomain enumeration
   name: WhoisFreaks Subdomains API
   slug: whoisfreaks-subdomains-api
-- description: Detect typo variants of brand domains
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: Detect typo variants of brand domains
   name: WhoisFreaks Typosquatting API
   slug: whoisfreaks-typosquatting-api
-- description: WHOIS lookup APIs (live, historical, reverse, bulk)
+- baseURL: https://api.whoisfreaks.com
+  baseurl_source: declared
+  description: WHOIS lookup APIs (live, historical, reverse, bulk)
   name: WhoisFreaks WHOIS API
   slug: whoisfreaks-whois-api
 artifact_total: 52
@@ -359,7 +417,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -372,7 +430,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 62.9
+  previous_composite: 62.7
   provenance:
     conformance: derived
     contracts:
@@ -383,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/screenshots/whoisfreaks-2026-08-17T080443.png
 security:

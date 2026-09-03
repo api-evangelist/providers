@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Odoo's external API for integrating with the platform using JSON-RPC and XML-RPC protocols for accessing all business modules.
   name: Odoo External API
   slug: odoo-external-api
-- description: Unauthenticated XML-RPC endpoint for version + authentication
+- baseURL_template: https://{instance}.odoo.com
+  baseurl_source: spec_template
+  description: Unauthenticated XML-RPC endpoint for version + authentication
   name: Odoo Common API
   slug: odoo-common-api
-- description: JSON-RPC transport for the same operations
+- baseURL_template: https://{instance}.odoo.com
+  baseurl_source: spec_template
+  description: JSON-RPC transport for the same operations
   name: Odoo JSON-RPC API
   slug: odoo-json-rpc-api
-- description: Authenticated XML-RPC endpoint for model operations
+- baseURL_template: https://{instance}.odoo.com
+  baseurl_source: spec_template
+  description: Authenticated XML-RPC endpoint for model operations
   name: Odoo Object API
   slug: odoo-object-api
 artifact_total: 16
@@ -162,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odoo/refs/heads/main/screenshots/odoo-2026-06-20T190621.png
 security:

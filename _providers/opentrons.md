@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -46,31 +46,49 @@ apis:
 - description: The Opentrons Python Protocol API is an open-source Python framework for writing automated biology lab protocols that run on Opentrons Flex and OT-2 robots. It provides programmatic control over pipet
   name: Opentrons Python Protocol API
   slug: opentrons-python-protocol-api
-- description: Query attached pipettes and grippers
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Query attached pipettes and grippers
   name: Opentrons Attached Instruments API
   slug: opentrons-attached-instruments-api
-- description: Query attached hardware modules
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Query attached hardware modules
   name: Opentrons Attached Modules API
   slug: opentrons-attached-modules-api
-- description: Configure the Flex robot deck
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Configure the Flex robot deck
   name: Opentrons Flex Deck Configuration API
   slug: opentrons-flex-deck-configuration-api
-- description: Robot server health and status endpoints
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Robot server health and status endpoints
   name: Opentrons Health API
   slug: opentrons-health-api
-- description: Upload, manage, and analyze protocols
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Upload, manage, and analyze protocols
   name: Opentrons Protocol Management API
   slug: opentrons-protocol-management-api
-- description: Robot-level control including estop and door status
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Robot-level control including estop and door status
   name: Opentrons Robot API
   slug: opentrons-robot-api
-- description: Create and control protocol runs
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Create and control protocol runs
   name: Opentrons Run Management API
   slug: opentrons-run-management-api
-- description: Stateless atomic liquid handling commands
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: Stateless atomic liquid handling commands
   name: Opentrons Simple Commands API
   slug: opentrons-simple-commands-api
-- description: System time and robot control
+- baseURL: http://{ROBOT_IP}:31950
+  baseurl_source: declared
+  description: System time and robot control
   name: Opentrons System Control API
   slug: opentrons-system-control-api
 artifact_total: 30
@@ -283,7 +301,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/screenshots/opentrons-2026-06-20T191056.png
 security:

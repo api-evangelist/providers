@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: 'The Synthflow Platform API provides REST endpoints to manage assistants, phone numbers, calls, knowledge bases, and custom actions for no-code voice AI agents. Authentication is via bearer tokens and '
   name: Synthflow Platform API
   slug: platform-api
-- description: The Default API from Synthflow — 49 operation(s) for default.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The Default API from Synthflow — 49 operation(s) for default.
   name: Synthflow Default API
   slug: synthflow-default-api
-- description: The chat API from Synthflow — 4 operation(s) for chat.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The chat API from Synthflow — 4 operation(s) for chat.
   name: Synthflow Chat API
   slug: synthflow-chat-api
-- description: The contacts API from Synthflow — 2 operation(s) for contacts.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The contacts API from Synthflow — 2 operation(s) for contacts.
   name: Synthflow Contacts API
   slug: synthflow-contacts-api
-- description: The mcp API from Synthflow — 3 operation(s) for mcp.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The mcp API from Synthflow — 3 operation(s) for mcp.
   name: Synthflow MCP API
   slug: synthflow-mcp-api
-- description: The memoryStores API from Synthflow — 1 operation(s) for memorystores.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The memoryStores API from Synthflow — 1 operation(s) for memorystores.
   name: Synthflow Memory Stores API
   slug: synthflow-memorystores-api
-- description: The phoneNumbers API from Synthflow — 3 operation(s) for phonenumbers.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The phoneNumbers API from Synthflow — 3 operation(s) for phonenumbers.
   name: Synthflow Phone Numbers API
   slug: synthflow-phonenumbers-api
-- description: The webhookLogs API from Synthflow — 2 operation(s) for webhooklogs.
+- baseURL: https://api.synthflow.ai
+  baseurl_source: declared
+  description: The webhookLogs API from Synthflow — 2 operation(s) for webhooklogs.
   name: Synthflow Webhook Logs API
   slug: synthflow-webhooklogs-api
 artifact_total: 28
@@ -314,7 +328,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -324,7 +338,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 59.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,7 +350,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png
 security:

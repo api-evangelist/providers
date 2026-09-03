@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -47,391 +47,649 @@ apis:
 - description: API for Amazon Redshift Serverless, which makes it easy to run analytics workloads without managing data warehouse infrastructure. Automatically provisions and scales data warehouse capacity on demand
   name: Amazon Redshift Serverless API
   slug: amazon-redshift-serverless-api
-- description: 'The #Action=AcceptReservedNodeExchange API from AWS Redshift — 1 operation(s) for #action=acceptreservednodeexchange.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AcceptReservedNodeExchange API from AWS Redshift — 1 operation(s) for #action=acceptreservednodeexchange.'
   name: 'AWS Redshift #Action=AcceptReservedNodeExchange API'
   slug: aws-redshift-action-acceptreservednodeexchange-api
-- description: 'The #Action=AddPartner API from AWS Redshift — 1 operation(s) for #action=addpartner.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AddPartner API from AWS Redshift — 1 operation(s) for #action=addpartner.'
   name: 'AWS Redshift #Action=AddPartner API'
   slug: aws-redshift-action-addpartner-api
-- description: 'The #Action=AssociateDataShareConsumer API from AWS Redshift — 1 operation(s) for #action=associatedatashareconsumer.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AssociateDataShareConsumer API from AWS Redshift — 1 operation(s) for #action=associatedatashareconsumer.'
   name: 'AWS Redshift #Action=AssociateDataShareConsumer API'
   slug: aws-redshift-action-associatedatashareconsumer-api
-- description: 'The #Action=AuthorizeClusterSecurityGroupIngress API from AWS Redshift — 1 operation(s) for #action=authorizeclustersecuritygroupingress.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AuthorizeClusterSecurityGroupIngress API from AWS Redshift — 1 operation(s) for #action=authorizeclustersecuritygroupingress.'
   name: 'AWS Redshift #Action=AuthorizeClusterSecurityGroupIngress API'
   slug: aws-redshift-action-authorizeclustersecuritygroupingress-api
-- description: 'The #Action=AuthorizeDataShare API from AWS Redshift — 1 operation(s) for #action=authorizedatashare.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AuthorizeDataShare API from AWS Redshift — 1 operation(s) for #action=authorizedatashare.'
   name: 'AWS Redshift #Action=AuthorizeDataShare API'
   slug: aws-redshift-action-authorizedatashare-api
-- description: 'The #Action=AuthorizeEndpointAccess API from AWS Redshift — 1 operation(s) for #action=authorizeendpointaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AuthorizeEndpointAccess API from AWS Redshift — 1 operation(s) for #action=authorizeendpointaccess.'
   name: 'AWS Redshift #Action=AuthorizeEndpointAccess API'
   slug: aws-redshift-action-authorizeendpointaccess-api
-- description: 'The #Action=AuthorizeSnapshotAccess API from AWS Redshift — 1 operation(s) for #action=authorizesnapshotaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AuthorizeSnapshotAccess API from AWS Redshift — 1 operation(s) for #action=authorizesnapshotaccess.'
   name: 'AWS Redshift #Action=AuthorizeSnapshotAccess API'
   slug: aws-redshift-action-authorizesnapshotaccess-api
-- description: 'The #Action=BatchDeleteClusterSnapshots API from AWS Redshift — 1 operation(s) for #action=batchdeleteclustersnapshots.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=BatchDeleteClusterSnapshots API from AWS Redshift — 1 operation(s) for #action=batchdeleteclustersnapshots.'
   name: 'AWS Redshift #Action=BatchDeleteClusterSnapshots API'
   slug: aws-redshift-action-batchdeleteclustersnapshots-api
-- description: 'The #Action=BatchModifyClusterSnapshots API from AWS Redshift — 1 operation(s) for #action=batchmodifyclustersnapshots.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=BatchModifyClusterSnapshots API from AWS Redshift — 1 operation(s) for #action=batchmodifyclustersnapshots.'
   name: 'AWS Redshift #Action=BatchModifyClusterSnapshots API'
   slug: aws-redshift-action-batchmodifyclustersnapshots-api
-- description: 'The #Action=CancelResize API from AWS Redshift — 1 operation(s) for #action=cancelresize.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CancelResize API from AWS Redshift — 1 operation(s) for #action=cancelresize.'
   name: 'AWS Redshift #Action=CancelResize API'
   slug: aws-redshift-action-cancelresize-api
-- description: 'The #Action=CopyClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=copyclustersnapshot.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CopyClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=copyclustersnapshot.'
   name: 'AWS Redshift #Action=CopyClusterSnapshot API'
   slug: aws-redshift-action-copyclustersnapshot-api
-- description: 'The #Action=CreateAuthenticationProfile API from AWS Redshift — 1 operation(s) for #action=createauthenticationprofile.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateAuthenticationProfile API from AWS Redshift — 1 operation(s) for #action=createauthenticationprofile.'
   name: 'AWS Redshift #Action=CreateAuthenticationProfile API'
   slug: aws-redshift-action-createauthenticationprofile-api
-- description: 'The #Action=CreateCluster API from AWS Redshift — 1 operation(s) for #action=createcluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateCluster API from AWS Redshift — 1 operation(s) for #action=createcluster.'
   name: 'AWS Redshift #Action=CreateCluster API'
   slug: aws-redshift-action-createcluster-api
-- description: 'The #Action=CreateClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=createclusterparametergroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=createclusterparametergroup.'
   name: 'AWS Redshift #Action=CreateClusterParameterGroup API'
   slug: aws-redshift-action-createclusterparametergroup-api
-- description: 'The #Action=CreateClusterSecurityGroup API from AWS Redshift — 1 operation(s) for #action=createclustersecuritygroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateClusterSecurityGroup API from AWS Redshift — 1 operation(s) for #action=createclustersecuritygroup.'
   name: 'AWS Redshift #Action=CreateClusterSecurityGroup API'
   slug: aws-redshift-action-createclustersecuritygroup-api
-- description: 'The #Action=CreateClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=createclustersnapshot.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=createclustersnapshot.'
   name: 'AWS Redshift #Action=CreateClusterSnapshot API'
   slug: aws-redshift-action-createclustersnapshot-api
-- description: 'The #Action=CreateClusterSubnetGroup API from AWS Redshift — 1 operation(s) for #action=createclustersubnetgroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateClusterSubnetGroup API from AWS Redshift — 1 operation(s) for #action=createclustersubnetgroup.'
   name: 'AWS Redshift #Action=CreateClusterSubnetGroup API'
   slug: aws-redshift-action-createclustersubnetgroup-api
-- description: 'The #Action=CreateEndpointAccess API from AWS Redshift — 1 operation(s) for #action=createendpointaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateEndpointAccess API from AWS Redshift — 1 operation(s) for #action=createendpointaccess.'
   name: 'AWS Redshift #Action=CreateEndpointAccess API'
   slug: aws-redshift-action-createendpointaccess-api
-- description: 'The #Action=CreateEventSubscription API from AWS Redshift — 1 operation(s) for #action=createeventsubscription.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateEventSubscription API from AWS Redshift — 1 operation(s) for #action=createeventsubscription.'
   name: 'AWS Redshift #Action=CreateEventSubscription API'
   slug: aws-redshift-action-createeventsubscription-api
-- description: 'The #Action=CreateHsmClientCertificate API from AWS Redshift — 1 operation(s) for #action=createhsmclientcertificate.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateHsmClientCertificate API from AWS Redshift — 1 operation(s) for #action=createhsmclientcertificate.'
   name: 'AWS Redshift #Action=CreateHsmClientCertificate API'
   slug: aws-redshift-action-createhsmclientcertificate-api
-- description: 'The #Action=CreateHsmConfiguration API from AWS Redshift — 1 operation(s) for #action=createhsmconfiguration.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateHsmConfiguration API from AWS Redshift — 1 operation(s) for #action=createhsmconfiguration.'
   name: 'AWS Redshift #Action=CreateHsmConfiguration API'
   slug: aws-redshift-action-createhsmconfiguration-api
-- description: 'The #Action=CreateScheduledAction API from AWS Redshift — 1 operation(s) for #action=createscheduledaction.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateScheduledAction API from AWS Redshift — 1 operation(s) for #action=createscheduledaction.'
   name: 'AWS Redshift #Action=CreateScheduledAction API'
   slug: aws-redshift-action-createscheduledaction-api
-- description: 'The #Action=CreateSnapshotCopyGrant API from AWS Redshift — 1 operation(s) for #action=createsnapshotcopygrant.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateSnapshotCopyGrant API from AWS Redshift — 1 operation(s) for #action=createsnapshotcopygrant.'
   name: 'AWS Redshift #Action=CreateSnapshotCopyGrant API'
   slug: aws-redshift-action-createsnapshotcopygrant-api
-- description: 'The #Action=CreateSnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=createsnapshotschedule.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateSnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=createsnapshotschedule.'
   name: 'AWS Redshift #Action=CreateSnapshotSchedule API'
   slug: aws-redshift-action-createsnapshotschedule-api
-- description: 'The #Action=CreateTags API from AWS Redshift — 1 operation(s) for #action=createtags.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateTags API from AWS Redshift — 1 operation(s) for #action=createtags.'
   name: 'AWS Redshift #Action=CreateTags API'
   slug: aws-redshift-action-createtags-api
-- description: 'The #Action=CreateUsageLimit API from AWS Redshift — 1 operation(s) for #action=createusagelimit.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateUsageLimit API from AWS Redshift — 1 operation(s) for #action=createusagelimit.'
   name: 'AWS Redshift #Action=CreateUsageLimit API'
   slug: aws-redshift-action-createusagelimit-api
-- description: 'The #Action=DeauthorizeDataShare API from AWS Redshift — 1 operation(s) for #action=deauthorizedatashare.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeauthorizeDataShare API from AWS Redshift — 1 operation(s) for #action=deauthorizedatashare.'
   name: 'AWS Redshift #Action=DeauthorizeDataShare API'
   slug: aws-redshift-action-deauthorizedatashare-api
-- description: 'The #Action=DeleteAuthenticationProfile API from AWS Redshift — 1 operation(s) for #action=deleteauthenticationprofile.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteAuthenticationProfile API from AWS Redshift — 1 operation(s) for #action=deleteauthenticationprofile.'
   name: 'AWS Redshift #Action=DeleteAuthenticationProfile API'
   slug: aws-redshift-action-deleteauthenticationprofile-api
-- description: 'The #Action=DeleteCluster API from AWS Redshift — 1 operation(s) for #action=deletecluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteCluster API from AWS Redshift — 1 operation(s) for #action=deletecluster.'
   name: 'AWS Redshift #Action=DeleteCluster API'
   slug: aws-redshift-action-deletecluster-api
-- description: 'The #Action=DeleteClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=deleteclusterparametergroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=deleteclusterparametergroup.'
   name: 'AWS Redshift #Action=DeleteClusterParameterGroup API'
   slug: aws-redshift-action-deleteclusterparametergroup-api
-- description: 'The #Action=DeleteClusterSecurityGroup API from AWS Redshift — 1 operation(s) for #action=deleteclustersecuritygroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteClusterSecurityGroup API from AWS Redshift — 1 operation(s) for #action=deleteclustersecuritygroup.'
   name: 'AWS Redshift #Action=DeleteClusterSecurityGroup API'
   slug: aws-redshift-action-deleteclustersecuritygroup-api
-- description: 'The #Action=DeleteClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=deleteclustersnapshot.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=deleteclustersnapshot.'
   name: 'AWS Redshift #Action=DeleteClusterSnapshot API'
   slug: aws-redshift-action-deleteclustersnapshot-api
-- description: 'The #Action=DeleteClusterSubnetGroup API from AWS Redshift — 1 operation(s) for #action=deleteclustersubnetgroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteClusterSubnetGroup API from AWS Redshift — 1 operation(s) for #action=deleteclustersubnetgroup.'
   name: 'AWS Redshift #Action=DeleteClusterSubnetGroup API'
   slug: aws-redshift-action-deleteclustersubnetgroup-api
-- description: 'The #Action=DeleteEndpointAccess API from AWS Redshift — 1 operation(s) for #action=deleteendpointaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteEndpointAccess API from AWS Redshift — 1 operation(s) for #action=deleteendpointaccess.'
   name: 'AWS Redshift #Action=DeleteEndpointAccess API'
   slug: aws-redshift-action-deleteendpointaccess-api
-- description: 'The #Action=DeleteEventSubscription API from AWS Redshift — 1 operation(s) for #action=deleteeventsubscription.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteEventSubscription API from AWS Redshift — 1 operation(s) for #action=deleteeventsubscription.'
   name: 'AWS Redshift #Action=DeleteEventSubscription API'
   slug: aws-redshift-action-deleteeventsubscription-api
-- description: 'The #Action=DeleteHsmClientCertificate API from AWS Redshift — 1 operation(s) for #action=deletehsmclientcertificate.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteHsmClientCertificate API from AWS Redshift — 1 operation(s) for #action=deletehsmclientcertificate.'
   name: 'AWS Redshift #Action=DeleteHsmClientCertificate API'
   slug: aws-redshift-action-deletehsmclientcertificate-api
-- description: 'The #Action=DeleteHsmConfiguration API from AWS Redshift — 1 operation(s) for #action=deletehsmconfiguration.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteHsmConfiguration API from AWS Redshift — 1 operation(s) for #action=deletehsmconfiguration.'
   name: 'AWS Redshift #Action=DeleteHsmConfiguration API'
   slug: aws-redshift-action-deletehsmconfiguration-api
-- description: 'The #Action=DeletePartner API from AWS Redshift — 1 operation(s) for #action=deletepartner.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeletePartner API from AWS Redshift — 1 operation(s) for #action=deletepartner.'
   name: 'AWS Redshift #Action=DeletePartner API'
   slug: aws-redshift-action-deletepartner-api
-- description: 'The #Action=DeleteScheduledAction API from AWS Redshift — 1 operation(s) for #action=deletescheduledaction.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteScheduledAction API from AWS Redshift — 1 operation(s) for #action=deletescheduledaction.'
   name: 'AWS Redshift #Action=DeleteScheduledAction API'
   slug: aws-redshift-action-deletescheduledaction-api
-- description: 'The #Action=DeleteSnapshotCopyGrant API from AWS Redshift — 1 operation(s) for #action=deletesnapshotcopygrant.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteSnapshotCopyGrant API from AWS Redshift — 1 operation(s) for #action=deletesnapshotcopygrant.'
   name: 'AWS Redshift #Action=DeleteSnapshotCopyGrant API'
   slug: aws-redshift-action-deletesnapshotcopygrant-api
-- description: 'The #Action=DeleteSnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=deletesnapshotschedule.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteSnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=deletesnapshotschedule.'
   name: 'AWS Redshift #Action=DeleteSnapshotSchedule API'
   slug: aws-redshift-action-deletesnapshotschedule-api
-- description: 'The #Action=DeleteTags API from AWS Redshift — 1 operation(s) for #action=deletetags.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteTags API from AWS Redshift — 1 operation(s) for #action=deletetags.'
   name: 'AWS Redshift #Action=DeleteTags API'
   slug: aws-redshift-action-deletetags-api
-- description: 'The #Action=DeleteUsageLimit API from AWS Redshift — 1 operation(s) for #action=deleteusagelimit.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteUsageLimit API from AWS Redshift — 1 operation(s) for #action=deleteusagelimit.'
   name: 'AWS Redshift #Action=DeleteUsageLimit API'
   slug: aws-redshift-action-deleteusagelimit-api
-- description: 'The #Action=DescribeAccountAttributes API from AWS Redshift — 1 operation(s) for #action=describeaccountattributes.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAccountAttributes API from AWS Redshift — 1 operation(s) for #action=describeaccountattributes.'
   name: 'AWS Redshift #Action=DescribeAccountAttributes API'
   slug: aws-redshift-action-describeaccountattributes-api
-- description: 'The #Action=DescribeAuthenticationProfiles API from AWS Redshift — 1 operation(s) for #action=describeauthenticationprofiles.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAuthenticationProfiles API from AWS Redshift — 1 operation(s) for #action=describeauthenticationprofiles.'
   name: 'AWS Redshift #Action=DescribeAuthenticationProfiles API'
   slug: aws-redshift-action-describeauthenticationprofiles-api
-- description: 'The #Action=DescribeClusterDbRevisions API from AWS Redshift — 1 operation(s) for #action=describeclusterdbrevisions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterDbRevisions API from AWS Redshift — 1 operation(s) for #action=describeclusterdbrevisions.'
   name: 'AWS Redshift #Action=DescribeClusterDbRevisions API'
   slug: aws-redshift-action-describeclusterdbrevisions-api
-- description: 'The #Action=DescribeClusterParameterGroups API from AWS Redshift — 1 operation(s) for #action=describeclusterparametergroups.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterParameterGroups API from AWS Redshift — 1 operation(s) for #action=describeclusterparametergroups.'
   name: 'AWS Redshift #Action=DescribeClusterParameterGroups API'
   slug: aws-redshift-action-describeclusterparametergroups-api
-- description: 'The #Action=DescribeClusterParameters API from AWS Redshift — 1 operation(s) for #action=describeclusterparameters.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterParameters API from AWS Redshift — 1 operation(s) for #action=describeclusterparameters.'
   name: 'AWS Redshift #Action=DescribeClusterParameters API'
   slug: aws-redshift-action-describeclusterparameters-api
-- description: 'The #Action=DescribeClusters API from AWS Redshift — 1 operation(s) for #action=describeclusters.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusters API from AWS Redshift — 1 operation(s) for #action=describeclusters.'
   name: 'AWS Redshift #Action=DescribeClusters API'
   slug: aws-redshift-action-describeclusters-api
-- description: 'The #Action=DescribeClusterSecurityGroups API from AWS Redshift — 1 operation(s) for #action=describeclustersecuritygroups.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterSecurityGroups API from AWS Redshift — 1 operation(s) for #action=describeclustersecuritygroups.'
   name: 'AWS Redshift #Action=DescribeClusterSecurityGroups API'
   slug: aws-redshift-action-describeclustersecuritygroups-api
-- description: 'The #Action=DescribeClusterSnapshots API from AWS Redshift — 1 operation(s) for #action=describeclustersnapshots.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterSnapshots API from AWS Redshift — 1 operation(s) for #action=describeclustersnapshots.'
   name: 'AWS Redshift #Action=DescribeClusterSnapshots API'
   slug: aws-redshift-action-describeclustersnapshots-api
-- description: 'The #Action=DescribeClusterSubnetGroups API from AWS Redshift — 1 operation(s) for #action=describeclustersubnetgroups.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterSubnetGroups API from AWS Redshift — 1 operation(s) for #action=describeclustersubnetgroups.'
   name: 'AWS Redshift #Action=DescribeClusterSubnetGroups API'
   slug: aws-redshift-action-describeclustersubnetgroups-api
-- description: 'The #Action=DescribeClusterTracks API from AWS Redshift — 1 operation(s) for #action=describeclustertracks.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterTracks API from AWS Redshift — 1 operation(s) for #action=describeclustertracks.'
   name: 'AWS Redshift #Action=DescribeClusterTracks API'
   slug: aws-redshift-action-describeclustertracks-api
-- description: 'The #Action=DescribeClusterVersions API from AWS Redshift — 1 operation(s) for #action=describeclusterversions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeClusterVersions API from AWS Redshift — 1 operation(s) for #action=describeclusterversions.'
   name: 'AWS Redshift #Action=DescribeClusterVersions API'
   slug: aws-redshift-action-describeclusterversions-api
-- description: 'The #Action=DescribeDataShares API from AWS Redshift — 1 operation(s) for #action=describedatashares.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeDataShares API from AWS Redshift — 1 operation(s) for #action=describedatashares.'
   name: 'AWS Redshift #Action=DescribeDataShares API'
   slug: aws-redshift-action-describedatashares-api
-- description: 'The #Action=DescribeDataSharesForConsumer API from AWS Redshift — 1 operation(s) for #action=describedatasharesforconsumer.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeDataSharesForConsumer API from AWS Redshift — 1 operation(s) for #action=describedatasharesforconsumer.'
   name: 'AWS Redshift #Action=DescribeDataSharesForConsumer API'
   slug: aws-redshift-action-describedatasharesforconsumer-api
-- description: 'The #Action=DescribeDataSharesForProducer API from AWS Redshift — 1 operation(s) for #action=describedatasharesforproducer.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeDataSharesForProducer API from AWS Redshift — 1 operation(s) for #action=describedatasharesforproducer.'
   name: 'AWS Redshift #Action=DescribeDataSharesForProducer API'
   slug: aws-redshift-action-describedatasharesforproducer-api
-- description: 'The #Action=DescribeDefaultClusterParameters API from AWS Redshift — 1 operation(s) for #action=describedefaultclusterparameters.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeDefaultClusterParameters API from AWS Redshift — 1 operation(s) for #action=describedefaultclusterparameters.'
   name: 'AWS Redshift #Action=DescribeDefaultClusterParameters API'
   slug: aws-redshift-action-describedefaultclusterparameters-api
-- description: 'The #Action=DescribeEndpointAccess API from AWS Redshift — 1 operation(s) for #action=describeendpointaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeEndpointAccess API from AWS Redshift — 1 operation(s) for #action=describeendpointaccess.'
   name: 'AWS Redshift #Action=DescribeEndpointAccess API'
   slug: aws-redshift-action-describeendpointaccess-api
-- description: 'The #Action=DescribeEndpointAuthorization API from AWS Redshift — 1 operation(s) for #action=describeendpointauthorization.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeEndpointAuthorization API from AWS Redshift — 1 operation(s) for #action=describeendpointauthorization.'
   name: 'AWS Redshift #Action=DescribeEndpointAuthorization API'
   slug: aws-redshift-action-describeendpointauthorization-api
-- description: 'The #Action=DescribeEventCategories API from AWS Redshift — 1 operation(s) for #action=describeeventcategories.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeEventCategories API from AWS Redshift — 1 operation(s) for #action=describeeventcategories.'
   name: 'AWS Redshift #Action=DescribeEventCategories API'
   slug: aws-redshift-action-describeeventcategories-api
-- description: 'The #Action=DescribeEvents API from AWS Redshift — 1 operation(s) for #action=describeevents.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeEvents API from AWS Redshift — 1 operation(s) for #action=describeevents.'
   name: 'AWS Redshift #Action=DescribeEvents API'
   slug: aws-redshift-action-describeevents-api
-- description: 'The #Action=DescribeEventSubscriptions API from AWS Redshift — 1 operation(s) for #action=describeeventsubscriptions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeEventSubscriptions API from AWS Redshift — 1 operation(s) for #action=describeeventsubscriptions.'
   name: 'AWS Redshift #Action=DescribeEventSubscriptions API'
   slug: aws-redshift-action-describeeventsubscriptions-api
-- description: 'The #Action=DescribeHsmClientCertificates API from AWS Redshift — 1 operation(s) for #action=describehsmclientcertificates.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeHsmClientCertificates API from AWS Redshift — 1 operation(s) for #action=describehsmclientcertificates.'
   name: 'AWS Redshift #Action=DescribeHsmClientCertificates API'
   slug: aws-redshift-action-describehsmclientcertificates-api
-- description: 'The #Action=DescribeHsmConfigurations API from AWS Redshift — 1 operation(s) for #action=describehsmconfigurations.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeHsmConfigurations API from AWS Redshift — 1 operation(s) for #action=describehsmconfigurations.'
   name: 'AWS Redshift #Action=DescribeHsmConfigurations API'
   slug: aws-redshift-action-describehsmconfigurations-api
-- description: 'The #Action=DescribeLoggingStatus API from AWS Redshift — 1 operation(s) for #action=describeloggingstatus.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeLoggingStatus API from AWS Redshift — 1 operation(s) for #action=describeloggingstatus.'
   name: 'AWS Redshift #Action=DescribeLoggingStatus API'
   slug: aws-redshift-action-describeloggingstatus-api
-- description: 'The #Action=DescribeNodeConfigurationOptions API from AWS Redshift — 1 operation(s) for #action=describenodeconfigurationoptions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeNodeConfigurationOptions API from AWS Redshift — 1 operation(s) for #action=describenodeconfigurationoptions.'
   name: 'AWS Redshift #Action=DescribeNodeConfigurationOptions API'
   slug: aws-redshift-action-describenodeconfigurationoptions-api
-- description: 'The #Action=DescribeOrderableClusterOptions API from AWS Redshift — 1 operation(s) for #action=describeorderableclusteroptions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeOrderableClusterOptions API from AWS Redshift — 1 operation(s) for #action=describeorderableclusteroptions.'
   name: 'AWS Redshift #Action=DescribeOrderableClusterOptions API'
   slug: aws-redshift-action-describeorderableclusteroptions-api
-- description: 'The #Action=DescribePartners API from AWS Redshift — 1 operation(s) for #action=describepartners.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribePartners API from AWS Redshift — 1 operation(s) for #action=describepartners.'
   name: 'AWS Redshift #Action=DescribePartners API'
   slug: aws-redshift-action-describepartners-api
-- description: 'The #Action=DescribeReservedNodeExchangeStatus API from AWS Redshift — 1 operation(s) for #action=describereservednodeexchangestatus.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeReservedNodeExchangeStatus API from AWS Redshift — 1 operation(s) for #action=describereservednodeexchangestatus.'
   name: 'AWS Redshift #Action=DescribeReservedNodeExchangeStatus API'
   slug: aws-redshift-action-describereservednodeexchangestatus-api
-- description: 'The #Action=DescribeReservedNodeOfferings API from AWS Redshift — 1 operation(s) for #action=describereservednodeofferings.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeReservedNodeOfferings API from AWS Redshift — 1 operation(s) for #action=describereservednodeofferings.'
   name: 'AWS Redshift #Action=DescribeReservedNodeOfferings API'
   slug: aws-redshift-action-describereservednodeofferings-api
-- description: 'The #Action=DescribeReservedNodes API from AWS Redshift — 1 operation(s) for #action=describereservednodes.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeReservedNodes API from AWS Redshift — 1 operation(s) for #action=describereservednodes.'
   name: 'AWS Redshift #Action=DescribeReservedNodes API'
   slug: aws-redshift-action-describereservednodes-api
-- description: 'The #Action=DescribeResize API from AWS Redshift — 1 operation(s) for #action=describeresize.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeResize API from AWS Redshift — 1 operation(s) for #action=describeresize.'
   name: 'AWS Redshift #Action=DescribeResize API'
   slug: aws-redshift-action-describeresize-api
-- description: 'The #Action=DescribeScheduledActions API from AWS Redshift — 1 operation(s) for #action=describescheduledactions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeScheduledActions API from AWS Redshift — 1 operation(s) for #action=describescheduledactions.'
   name: 'AWS Redshift #Action=DescribeScheduledActions API'
   slug: aws-redshift-action-describescheduledactions-api
-- description: 'The #Action=DescribeSnapshotCopyGrants API from AWS Redshift — 1 operation(s) for #action=describesnapshotcopygrants.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeSnapshotCopyGrants API from AWS Redshift — 1 operation(s) for #action=describesnapshotcopygrants.'
   name: 'AWS Redshift #Action=DescribeSnapshotCopyGrants API'
   slug: aws-redshift-action-describesnapshotcopygrants-api
-- description: 'The #Action=DescribeSnapshotSchedules API from AWS Redshift — 1 operation(s) for #action=describesnapshotschedules.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeSnapshotSchedules API from AWS Redshift — 1 operation(s) for #action=describesnapshotschedules.'
   name: 'AWS Redshift #Action=DescribeSnapshotSchedules API'
   slug: aws-redshift-action-describesnapshotschedules-api
-- description: 'The #Action=DescribeStorage API from AWS Redshift — 1 operation(s) for #action=describestorage.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeStorage API from AWS Redshift — 1 operation(s) for #action=describestorage.'
   name: 'AWS Redshift #Action=DescribeStorage API'
   slug: aws-redshift-action-describestorage-api
-- description: 'The #Action=DescribeTableRestoreStatus API from AWS Redshift — 1 operation(s) for #action=describetablerestorestatus.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeTableRestoreStatus API from AWS Redshift — 1 operation(s) for #action=describetablerestorestatus.'
   name: 'AWS Redshift #Action=DescribeTableRestoreStatus API'
   slug: aws-redshift-action-describetablerestorestatus-api
-- description: 'The #Action=DescribeTags API from AWS Redshift — 1 operation(s) for #action=describetags.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeTags API from AWS Redshift — 1 operation(s) for #action=describetags.'
   name: 'AWS Redshift #Action=DescribeTags API'
   slug: aws-redshift-action-describetags-api
-- description: 'The #Action=DescribeUsageLimits API from AWS Redshift — 1 operation(s) for #action=describeusagelimits.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeUsageLimits API from AWS Redshift — 1 operation(s) for #action=describeusagelimits.'
   name: 'AWS Redshift #Action=DescribeUsageLimits API'
   slug: aws-redshift-action-describeusagelimits-api
-- description: 'The #Action=DisableLogging API from AWS Redshift — 1 operation(s) for #action=disablelogging.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DisableLogging API from AWS Redshift — 1 operation(s) for #action=disablelogging.'
   name: 'AWS Redshift #Action=DisableLogging API'
   slug: aws-redshift-action-disablelogging-api
-- description: 'The #Action=DisableSnapshotCopy API from AWS Redshift — 1 operation(s) for #action=disablesnapshotcopy.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DisableSnapshotCopy API from AWS Redshift — 1 operation(s) for #action=disablesnapshotcopy.'
   name: 'AWS Redshift #Action=DisableSnapshotCopy API'
   slug: aws-redshift-action-disablesnapshotcopy-api
-- description: 'The #Action=DisassociateDataShareConsumer API from AWS Redshift — 1 operation(s) for #action=disassociatedatashareconsumer.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DisassociateDataShareConsumer API from AWS Redshift — 1 operation(s) for #action=disassociatedatashareconsumer.'
   name: 'AWS Redshift #Action=DisassociateDataShareConsumer API'
   slug: aws-redshift-action-disassociatedatashareconsumer-api
-- description: 'The #Action=EnableLogging API from AWS Redshift — 1 operation(s) for #action=enablelogging.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=EnableLogging API from AWS Redshift — 1 operation(s) for #action=enablelogging.'
   name: 'AWS Redshift #Action=EnableLogging API'
   slug: aws-redshift-action-enablelogging-api
-- description: 'The #Action=EnableSnapshotCopy API from AWS Redshift — 1 operation(s) for #action=enablesnapshotcopy.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=EnableSnapshotCopy API from AWS Redshift — 1 operation(s) for #action=enablesnapshotcopy.'
   name: 'AWS Redshift #Action=EnableSnapshotCopy API'
   slug: aws-redshift-action-enablesnapshotcopy-api
-- description: 'The #Action=GetClusterCredentials API from AWS Redshift — 1 operation(s) for #action=getclustercredentials.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetClusterCredentials API from AWS Redshift — 1 operation(s) for #action=getclustercredentials.'
   name: 'AWS Redshift #Action=GetClusterCredentials API'
   slug: aws-redshift-action-getclustercredentials-api
-- description: 'The #Action=GetClusterCredentialsWithIAM API from AWS Redshift — 1 operation(s) for #action=getclustercredentialswithiam.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetClusterCredentialsWithIAM API from AWS Redshift — 1 operation(s) for #action=getclustercredentialswithiam.'
   name: 'AWS Redshift #Action=GetClusterCredentialsWithIAM API'
   slug: aws-redshift-action-getclustercredentialswithiam-api
-- description: 'The #Action=GetReservedNodeExchangeConfigurationOptions API from AWS Redshift — 1 operation(s) for #action=getreservednodeexchangeconfigurationoptions.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetReservedNodeExchangeConfigurationOptions API from AWS Redshift — 1 operation(s) for #action=getreservednodeexchangeconfigurationoptions.'
   name: 'AWS Redshift #Action=GetReservedNodeExchangeConfigurationOptions API'
   slug: aws-redshift-action-getreservednodeexchangeconfigurationoptions-api
-- description: 'The #Action=GetReservedNodeExchangeOfferings API from AWS Redshift — 1 operation(s) for #action=getreservednodeexchangeofferings.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetReservedNodeExchangeOfferings API from AWS Redshift — 1 operation(s) for #action=getreservednodeexchangeofferings.'
   name: 'AWS Redshift #Action=GetReservedNodeExchangeOfferings API'
   slug: aws-redshift-action-getreservednodeexchangeofferings-api
-- description: 'The #Action=ModifyAquaConfiguration API from AWS Redshift — 1 operation(s) for #action=modifyaquaconfiguration.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyAquaConfiguration API from AWS Redshift — 1 operation(s) for #action=modifyaquaconfiguration.'
   name: 'AWS Redshift #Action=ModifyAquaConfiguration API'
   slug: aws-redshift-action-modifyaquaconfiguration-api
-- description: 'The #Action=ModifyAuthenticationProfile API from AWS Redshift — 1 operation(s) for #action=modifyauthenticationprofile.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyAuthenticationProfile API from AWS Redshift — 1 operation(s) for #action=modifyauthenticationprofile.'
   name: 'AWS Redshift #Action=ModifyAuthenticationProfile API'
   slug: aws-redshift-action-modifyauthenticationprofile-api
-- description: 'The #Action=ModifyCluster API from AWS Redshift — 1 operation(s) for #action=modifycluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyCluster API from AWS Redshift — 1 operation(s) for #action=modifycluster.'
   name: 'AWS Redshift #Action=ModifyCluster API'
   slug: aws-redshift-action-modifycluster-api
-- description: 'The #Action=ModifyClusterDbRevision API from AWS Redshift — 1 operation(s) for #action=modifyclusterdbrevision.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterDbRevision API from AWS Redshift — 1 operation(s) for #action=modifyclusterdbrevision.'
   name: 'AWS Redshift #Action=ModifyClusterDbRevision API'
   slug: aws-redshift-action-modifyclusterdbrevision-api
-- description: 'The #Action=ModifyClusterIamRoles API from AWS Redshift — 1 operation(s) for #action=modifyclusteriamroles.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterIamRoles API from AWS Redshift — 1 operation(s) for #action=modifyclusteriamroles.'
   name: 'AWS Redshift #Action=ModifyClusterIamRoles API'
   slug: aws-redshift-action-modifyclusteriamroles-api
-- description: 'The #Action=ModifyClusterMaintenance API from AWS Redshift — 1 operation(s) for #action=modifyclustermaintenance.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterMaintenance API from AWS Redshift — 1 operation(s) for #action=modifyclustermaintenance.'
   name: 'AWS Redshift #Action=ModifyClusterMaintenance API'
   slug: aws-redshift-action-modifyclustermaintenance-api
-- description: 'The #Action=ModifyClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=modifyclusterparametergroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=modifyclusterparametergroup.'
   name: 'AWS Redshift #Action=ModifyClusterParameterGroup API'
   slug: aws-redshift-action-modifyclusterparametergroup-api
-- description: 'The #Action=ModifyClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=modifyclustersnapshot.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=modifyclustersnapshot.'
   name: 'AWS Redshift #Action=ModifyClusterSnapshot API'
   slug: aws-redshift-action-modifyclustersnapshot-api
-- description: 'The #Action=ModifyClusterSnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=modifyclustersnapshotschedule.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterSnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=modifyclustersnapshotschedule.'
   name: 'AWS Redshift #Action=ModifyClusterSnapshotSchedule API'
   slug: aws-redshift-action-modifyclustersnapshotschedule-api
-- description: 'The #Action=ModifyClusterSubnetGroup API from AWS Redshift — 1 operation(s) for #action=modifyclustersubnetgroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyClusterSubnetGroup API from AWS Redshift — 1 operation(s) for #action=modifyclustersubnetgroup.'
   name: 'AWS Redshift #Action=ModifyClusterSubnetGroup API'
   slug: aws-redshift-action-modifyclustersubnetgroup-api
-- description: 'The #Action=ModifyEndpointAccess API from AWS Redshift — 1 operation(s) for #action=modifyendpointaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyEndpointAccess API from AWS Redshift — 1 operation(s) for #action=modifyendpointaccess.'
   name: 'AWS Redshift #Action=ModifyEndpointAccess API'
   slug: aws-redshift-action-modifyendpointaccess-api
-- description: 'The #Action=ModifyEventSubscription API from AWS Redshift — 1 operation(s) for #action=modifyeventsubscription.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyEventSubscription API from AWS Redshift — 1 operation(s) for #action=modifyeventsubscription.'
   name: 'AWS Redshift #Action=ModifyEventSubscription API'
   slug: aws-redshift-action-modifyeventsubscription-api
-- description: 'The #Action=ModifyScheduledAction API from AWS Redshift — 1 operation(s) for #action=modifyscheduledaction.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyScheduledAction API from AWS Redshift — 1 operation(s) for #action=modifyscheduledaction.'
   name: 'AWS Redshift #Action=ModifyScheduledAction API'
   slug: aws-redshift-action-modifyscheduledaction-api
-- description: 'The #Action=ModifySnapshotCopyRetentionPeriod API from AWS Redshift — 1 operation(s) for #action=modifysnapshotcopyretentionperiod.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifySnapshotCopyRetentionPeriod API from AWS Redshift — 1 operation(s) for #action=modifysnapshotcopyretentionperiod.'
   name: 'AWS Redshift #Action=ModifySnapshotCopyRetentionPeriod API'
   slug: aws-redshift-action-modifysnapshotcopyretentionperiod-api
-- description: 'The #Action=ModifySnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=modifysnapshotschedule.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifySnapshotSchedule API from AWS Redshift — 1 operation(s) for #action=modifysnapshotschedule.'
   name: 'AWS Redshift #Action=ModifySnapshotSchedule API'
   slug: aws-redshift-action-modifysnapshotschedule-api
-- description: 'The #Action=ModifyUsageLimit API from AWS Redshift — 1 operation(s) for #action=modifyusagelimit.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ModifyUsageLimit API from AWS Redshift — 1 operation(s) for #action=modifyusagelimit.'
   name: 'AWS Redshift #Action=ModifyUsageLimit API'
   slug: aws-redshift-action-modifyusagelimit-api
-- description: 'The #Action=PauseCluster API from AWS Redshift — 1 operation(s) for #action=pausecluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PauseCluster API from AWS Redshift — 1 operation(s) for #action=pausecluster.'
   name: 'AWS Redshift #Action=PauseCluster API'
   slug: aws-redshift-action-pausecluster-api
-- description: 'The #Action=PurchaseReservedNodeOffering API from AWS Redshift — 1 operation(s) for #action=purchasereservednodeoffering.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PurchaseReservedNodeOffering API from AWS Redshift — 1 operation(s) for #action=purchasereservednodeoffering.'
   name: 'AWS Redshift #Action=PurchaseReservedNodeOffering API'
   slug: aws-redshift-action-purchasereservednodeoffering-api
-- description: 'The #Action=RebootCluster API from AWS Redshift — 1 operation(s) for #action=rebootcluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RebootCluster API from AWS Redshift — 1 operation(s) for #action=rebootcluster.'
   name: 'AWS Redshift #Action=RebootCluster API'
   slug: aws-redshift-action-rebootcluster-api
-- description: 'The #Action=RejectDataShare API from AWS Redshift — 1 operation(s) for #action=rejectdatashare.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RejectDataShare API from AWS Redshift — 1 operation(s) for #action=rejectdatashare.'
   name: 'AWS Redshift #Action=RejectDataShare API'
   slug: aws-redshift-action-rejectdatashare-api
-- description: 'The #Action=ResetClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=resetclusterparametergroup.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ResetClusterParameterGroup API from AWS Redshift — 1 operation(s) for #action=resetclusterparametergroup.'
   name: 'AWS Redshift #Action=ResetClusterParameterGroup API'
   slug: aws-redshift-action-resetclusterparametergroup-api
-- description: 'The #Action=ResizeCluster API from AWS Redshift — 1 operation(s) for #action=resizecluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ResizeCluster API from AWS Redshift — 1 operation(s) for #action=resizecluster.'
   name: 'AWS Redshift #Action=ResizeCluster API'
   slug: aws-redshift-action-resizecluster-api
-- description: 'The #Action=RestoreFromClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=restorefromclustersnapshot.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RestoreFromClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=restorefromclustersnapshot.'
   name: 'AWS Redshift #Action=RestoreFromClusterSnapshot API'
   slug: aws-redshift-action-restorefromclustersnapshot-api
-- description: 'The #Action=RestoreTableFromClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=restoretablefromclustersnapshot.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RestoreTableFromClusterSnapshot API from AWS Redshift — 1 operation(s) for #action=restoretablefromclustersnapshot.'
   name: 'AWS Redshift #Action=RestoreTableFromClusterSnapshot API'
   slug: aws-redshift-action-restoretablefromclustersnapshot-api
-- description: 'The #Action=ResumeCluster API from AWS Redshift — 1 operation(s) for #action=resumecluster.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ResumeCluster API from AWS Redshift — 1 operation(s) for #action=resumecluster.'
   name: 'AWS Redshift #Action=ResumeCluster API'
   slug: aws-redshift-action-resumecluster-api
-- description: 'The #Action=RevokeClusterSecurityGroupIngress API from AWS Redshift — 1 operation(s) for #action=revokeclustersecuritygroupingress.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RevokeClusterSecurityGroupIngress API from AWS Redshift — 1 operation(s) for #action=revokeclustersecuritygroupingress.'
   name: 'AWS Redshift #Action=RevokeClusterSecurityGroupIngress API'
   slug: aws-redshift-action-revokeclustersecuritygroupingress-api
-- description: 'The #Action=RevokeEndpointAccess API from AWS Redshift — 1 operation(s) for #action=revokeendpointaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RevokeEndpointAccess API from AWS Redshift — 1 operation(s) for #action=revokeendpointaccess.'
   name: 'AWS Redshift #Action=RevokeEndpointAccess API'
   slug: aws-redshift-action-revokeendpointaccess-api
-- description: 'The #Action=RevokeSnapshotAccess API from AWS Redshift — 1 operation(s) for #action=revokesnapshotaccess.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RevokeSnapshotAccess API from AWS Redshift — 1 operation(s) for #action=revokesnapshotaccess.'
   name: 'AWS Redshift #Action=RevokeSnapshotAccess API'
   slug: aws-redshift-action-revokesnapshotaccess-api
-- description: 'The #Action=RotateEncryptionKey API from AWS Redshift — 1 operation(s) for #action=rotateencryptionkey.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RotateEncryptionKey API from AWS Redshift — 1 operation(s) for #action=rotateencryptionkey.'
   name: 'AWS Redshift #Action=RotateEncryptionKey API'
   slug: aws-redshift-action-rotateencryptionkey-api
-- description: 'The #Action=UpdatePartnerStatus API from AWS Redshift — 1 operation(s) for #action=updatepartnerstatus.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdatePartnerStatus API from AWS Redshift — 1 operation(s) for #action=updatepartnerstatus.'
   name: 'AWS Redshift #Action=UpdatePartnerStatus API'
   slug: aws-redshift-action-updatepartnerstatus-api
-- description: 'The #X Amz Target=RedshiftData.BatchExecuteStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.batchexecutestatement.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.BatchExecuteStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.batchexecutestatement.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.BatchExecuteStatement API'
   slug: aws-redshift-x-amz-target-redshiftdata-batchexecutestatement-api
-- description: 'The #X Amz Target=RedshiftData.CancelStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.cancelstatement.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.CancelStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.cancelstatement.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.CancelStatement API'
   slug: aws-redshift-x-amz-target-redshiftdata-cancelstatement-api
-- description: 'The #X Amz Target=RedshiftData.DescribeStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.describestatement.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.DescribeStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.describestatement.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.DescribeStatement API'
   slug: aws-redshift-x-amz-target-redshiftdata-describestatement-api
-- description: 'The #X Amz Target=RedshiftData.DescribeTable API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.describetable.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.DescribeTable API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.describetable.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.DescribeTable API'
   slug: aws-redshift-x-amz-target-redshiftdata-describetable-api
-- description: 'The #X Amz Target=RedshiftData.ExecuteStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.executestatement.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.ExecuteStatement API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.executestatement.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ExecuteStatement API'
   slug: aws-redshift-x-amz-target-redshiftdata-executestatement-api
-- description: 'The #X Amz Target=RedshiftData.GetStatementResult API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.getstatementresult.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.GetStatementResult API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.getstatementresult.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.GetStatementResult API'
   slug: aws-redshift-x-amz-target-redshiftdata-getstatementresult-api
-- description: 'The #X Amz Target=RedshiftData.ListDatabases API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listdatabases.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.ListDatabases API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listdatabases.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ListDatabases API'
   slug: aws-redshift-x-amz-target-redshiftdata-listdatabases-api
-- description: 'The #X Amz Target=RedshiftData.ListSchemas API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listschemas.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.ListSchemas API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listschemas.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ListSchemas API'
   slug: aws-redshift-x-amz-target-redshiftdata-listschemas-api
-- description: 'The #X Amz Target=RedshiftData.ListStatements API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.liststatements.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.ListStatements API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.liststatements.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ListStatements API'
   slug: aws-redshift-x-amz-target-redshiftdata-liststatements-api
-- description: 'The #X Amz Target=RedshiftData.ListTables API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listtables.'
+- baseURL: https://redshift.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=RedshiftData.ListTables API from AWS Redshift — 1 operation(s) for #x amz target=redshiftdata.listtables.'
   name: 'AWS Redshift #X Amz Target=RedshiftData.ListTables API'
   slug: aws-redshift-x-amz-target-redshiftdata-listtables-api
 artifact_total: 2203
@@ -6761,7 +7019,7 @@ score:
       marker_coverage: 0.0
       total: 129
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-redshift/refs/heads/main/screenshots/aws-redshift-2026-06-20T172800.png
 security:

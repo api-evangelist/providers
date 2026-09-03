@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 57 operations · 35 acting
 api_count: 1
 apis:
-- description: Authentication check and account discovery.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Authentication check and account discovery.
   name: Tito Account API
   slug: tito-account-api
-- description: Capacity-bound sessions releases can attach to.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Capacity-bound sessions releases can attach to.
   name: Tito Activities API
   slug: tito-activities-api
-- description: Lists defining which tickets can be checked in.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Lists defining which tickets can be checked in.
   name: Tito Check-in Lists API
   slug: tito-check-in-lists-api
-- description: Percentage or fixed discounts applied at checkout.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Percentage or fixed discounts applied at checkout.
   name: Tito Discount Codes API
   slug: tito-discount-codes-api
-- description: Events that tickets are sold for.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Events that tickets are sold for.
   name: Tito Events API
   slug: tito-events-api
-- description: Refund records against registrations.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Refund records against registrations.
   name: Tito Refunds API
   slug: tito-refunds-api
-- description: Orders that group one or more tickets.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Orders that group one or more tickets.
   name: Tito Registrations API
   slug: tito-registrations-api
-- description: Ticket types (releases) for an event.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Ticket types (releases) for an event.
   name: Tito Releases API
   slug: tito-releases-api
-- description: Individual tickets held by attendees.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Individual tickets held by attendees.
   name: Tito Tickets API
   slug: tito-tickets-api
-- description: Endpoints Tito POSTs event notifications to.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: Endpoints Tito POSTs event notifications to.
   name: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
-- description: The Tito Admin API API from Tito — 0 operation(s) for tito admin api.
+- baseURL: https://api.tito.io/v3
+  baseurl_source: declared
+  description: The Tito Admin API API from Tito — 0 operation(s) for tito admin api.
   name: Tito Tito Admin API
   slug: tito-tito-admin-api-api
 artifact_total: 29
@@ -189,7 +211,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -212,8 +234,9 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tito/refs/heads/main/screenshots/tito-2026-09-02T163823.png
 security:
 - kind: authentication
   name: Tito Authentication

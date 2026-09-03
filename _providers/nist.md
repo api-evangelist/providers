@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Provides access to official NIST time services for time synchronization.
   name: NIST Time API
   slug: nist-time-api
-- description: The Cvehistory API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cvehistory.
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: declared
+  description: The Cvehistory API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cvehistory.
   name: National Institute of Standards and Technology (NIST) Cvehistory API
   slug: nist-cvehistory-api
-- description: The Cves API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cves.
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: declared
+  description: The Cves API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cves.
   name: National Institute of Standards and Technology (NIST) Cves API
   slug: nist-cves-api
 artifact_total: 15
@@ -148,7 +152,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/screenshots/nist-2026-06-20T190331.png
 security:

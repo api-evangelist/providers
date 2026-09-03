@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: Survicate Webhooks enable real-time event-driven integrations by subscribing to events triggered by Survicate surveys such as new responses and survey completions.
   name: Survicate Webhooks
   slug: survicate-webhooks
-- description: GDPR personal data management operations
+- baseURL: https://data.survicate.com
+  baseurl_source: declared
+  description: GDPR personal data management operations
   name: Survicate Personal Data API
   slug: survicate-personal-data-api
-- description: Operations related to survey respondents
+- baseURL: https://data.survicate.com
+  baseurl_source: declared
+  description: Operations related to survey respondents
   name: Survicate Respondents API
   slug: survicate-respondents-api
-- description: Operations related to survey responses
+- baseURL: https://data.survicate.com
+  baseurl_source: declared
+  description: Operations related to survey responses
   name: Survicate Responses API
   slug: survicate-responses-api
-- description: Operations related to surveys and their questions
+- baseURL: https://data.survicate.com
+  baseurl_source: declared
+  description: Operations related to surveys and their questions
   name: Survicate Surveys API
   slug: survicate-surveys-api
 artifact_total: 26
@@ -240,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/screenshots/survicate-2026-06-20T194742.png
 security:

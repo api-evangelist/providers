@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Live and historical news articles from global publishers.
+- baseURL: https://api.mediastack.com/v1
+  baseurl_source: declared
+  description: Live and historical news articles from global publishers.
   name: Mediastack News API
   slug: mediastack-news-api
-- description: Discovery of supported news sources, publishers, and blogs.
+- baseURL: https://api.mediastack.com/v1
+  baseurl_source: declared
+  description: Discovery of supported news sources, publishers, and blogs.
   name: Mediastack Sources API
   slug: mediastack-sources-api
 artifact_total: 50
@@ -295,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/screenshots/mediastack-2026-08-17T124139.png
 security:

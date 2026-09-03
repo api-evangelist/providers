@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations
 api_count: 4
 apis:
-- description: Endpoints for retrieving gestational limit abortion policies by state or zip code.
+- baseURL: https://api.abortionpolicyapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for retrieving gestational limit abortion policies by state or zip code.
   name: Abortion Policy API Gestational Limits API
   slug: abortion-policy-api-gestational-limits-api
-- description: Endpoints for retrieving abortion insurance coverage restrictions by state or zip code.
+- baseURL: https://api.abortionpolicyapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for retrieving abortion insurance coverage restrictions by state or zip code.
   name: Abortion Policy API Insurance Coverage API
   slug: abortion-policy-api-insurance-coverage-api
-- description: Endpoints for retrieving abortion restrictions targeting minors by state or zip code.
+- baseURL: https://api.abortionpolicyapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for retrieving abortion restrictions targeting minors by state or zip code.
   name: Abortion Policy API Minors API
   slug: abortion-policy-api-minors-api
-- description: Endpoints for retrieving abortion waiting period restrictions by state or zip code.
+- baseURL: https://api.abortionpolicyapi.com/v1
+  baseurl_source: spec
+  description: Endpoints for retrieving abortion waiting period restrictions by state or zip code.
   name: Abortion Policy API Waiting Periods API
   slug: abortion-policy-api-waiting-periods-api
 artifact_total: 49
@@ -286,7 +294,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/screenshots/abortion-policy-api-2026-06-20T161254.png
 security:

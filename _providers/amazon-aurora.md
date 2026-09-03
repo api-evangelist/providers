@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 21 operations · 21 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations for managing Aurora cluster endpoints
+- baseURL: https://rds.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Aurora cluster endpoints
   name: Amazon Aurora DB Cluster Endpoints API
   slug: amazon-aurora-db-cluster-endpoints-api
-- description: Operations for managing Aurora cluster parameter groups
+- baseURL: https://rds.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Aurora cluster parameter groups
   name: Amazon Aurora DB Cluster Parameter Groups API
   slug: amazon-aurora-db-cluster-parameter-groups-api
-- description: Operations for managing Aurora cluster snapshots
+- baseURL: https://rds.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Aurora cluster snapshots
   name: Amazon Aurora DB Cluster Snapshots API
   slug: amazon-aurora-db-cluster-snapshots-api
-- description: Operations for managing Aurora DB clusters
+- baseURL: https://rds.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Aurora DB clusters
   name: Amazon Aurora DB Clusters API
   slug: amazon-aurora-db-clusters-api
-- description: Operations for managing Aurora DB instances within clusters
+- baseURL: https://rds.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Aurora DB instances within clusters
   name: Amazon Aurora DB Instances API
   slug: amazon-aurora-db-instances-api
-- description: Operations for managing Aurora Global Databases
+- baseURL: https://rds.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Aurora Global Databases
   name: Amazon Aurora Global Clusters API
   slug: amazon-aurora-global-clusters-api
 artifact_total: 210
@@ -719,7 +731,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/screenshots/amazon-aurora-2026-07-25T195929.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 1
 apis:
-- description: OAuth2 token generation for API access
+- baseURL: https://api.instamojo.com/v2/
+  baseurl_source: declared
+  description: OAuth2 token generation for API access
   name: Instamojo Authentication API
   slug: instamojo-authentication-api
-- description: Create and manage orders
+- baseURL: https://api.instamojo.com/v2/
+  baseurl_source: declared
+  description: Create and manage orders
   name: Instamojo Orders API
   slug: instamojo-orders-api
-- description: Create and manage payment requests
+- baseURL: https://api.instamojo.com/v2/
+  baseurl_source: declared
+  description: Create and manage payment requests
   name: Instamojo Payment Requests API
   slug: instamojo-payment-requests-api
-- description: Retrieve payment details
+- baseURL: https://api.instamojo.com/v2/
+  baseurl_source: declared
+  description: Retrieve payment details
   name: Instamojo Payments API
   slug: instamojo-payments-api
-- description: Create and retrieve refunds
+- baseURL: https://api.instamojo.com/v2/
+  baseurl_source: declared
+  description: Create and retrieve refunds
   name: Instamojo Refunds API
   slug: instamojo-refunds-api
 artifact_total: 24
@@ -226,7 +236,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/screenshots/instamojo-2026-06-20T183413.png
 security:

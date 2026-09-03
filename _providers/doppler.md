@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: Versioned REST API (v3) for managing Doppler workplaces, projects, environments, configs, secrets, dynamic secrets, service tokens, service accounts, integrations, audit logs, and webhooks. Authentica
   name: Doppler REST API
   slug: rest-api
-- description: The ActivityLogs API from Doppler — 1 operation(s) for activitylogs.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The ActivityLogs API from Doppler — 1 operation(s) for activitylogs.
   name: Doppler ActivityLogs API
   slug: doppler-activitylogs-api
-- description: The Auth API from Doppler — 1 operation(s) for auth.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Auth API from Doppler — 1 operation(s) for auth.
   name: Doppler Auth API
   slug: doppler-auth-api
-- description: The Configs API from Doppler — 2 operation(s) for configs.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Configs API from Doppler — 2 operation(s) for configs.
   name: Doppler Configs API
   slug: doppler-configs-api
-- description: The Environments API from Doppler — 1 operation(s) for environments.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Environments API from Doppler — 1 operation(s) for environments.
   name: Doppler Environments API
   slug: doppler-environments-api
-- description: The Projects API from Doppler — 2 operation(s) for projects.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Projects API from Doppler — 2 operation(s) for projects.
   name: Doppler Projects API
   slug: doppler-projects-api
-- description: The Secrets API from Doppler — 3 operation(s) for secrets.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Secrets API from Doppler — 3 operation(s) for secrets.
   name: Doppler Secrets API
   slug: doppler-secrets-api
-- description: The ServiceTokens API from Doppler — 1 operation(s) for servicetokens.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The ServiceTokens API from Doppler — 1 operation(s) for servicetokens.
   name: Doppler ServiceTokens API
   slug: doppler-servicetokens-api
-- description: The Webhooks API from Doppler — 1 operation(s) for webhooks.
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Webhooks API from Doppler — 1 operation(s) for webhooks.
   name: Doppler Webhooks API
   slug: doppler-webhooks-api
 artifact_total: 24
@@ -199,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/screenshots/doppler-2026-06-20T180156.png
 security:

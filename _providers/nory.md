@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authorization API from Nory — 1 operation(s) for authorization.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Authorization API from Nory — 1 operation(s) for authorization.
   name: Nory Authorization API
   slug: nory-authorization-api
-- description: The Branch API from Nory — 1 operation(s) for branch.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Branch API from Nory — 1 operation(s) for branch.
   name: Nory Branch API
   slug: nory-branch-api
-- description: The Brands API from Nory — 1 operation(s) for brands.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Brands API from Nory — 1 operation(s) for brands.
   name: Nory Brands API
   slug: nory-brands-api
-- description: The Employee Punch API from Nory — 2 operation(s) for employee punch.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Employee Punch API from Nory — 2 operation(s) for employee punch.
   name: Nory Employee Punch API
   slug: nory-employee-punch-api
-- description: The Integration API from Nory — 1 operation(s) for integration.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Integration API from Nory — 1 operation(s) for integration.
   name: Nory Integration API
   slug: nory-integration-api
-- description: The Inventory API from Nory — 4 operation(s) for inventory.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Inventory API from Nory — 4 operation(s) for inventory.
   name: Nory Inventory API
   slug: nory-inventory-api
-- description: The Inventory Orders API from Nory — 2 operation(s) for inventory orders.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Inventory Orders API from Nory — 2 operation(s) for inventory orders.
   name: Nory Inventory Orders API
   slug: nory-inventory-orders-api
-- description: The Location Settings API from Nory — 1 operation(s) for location settings.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Location Settings API from Nory — 1 operation(s) for location settings.
   name: Nory Location Settings API
   slug: nory-location-settings-api
-- description: The Refresh token API from Nory — 1 operation(s) for refresh token.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Refresh token API from Nory — 1 operation(s) for refresh token.
   name: Nory Refresh token API
   slug: nory-refresh-token-api
-- description: The Templates API from Nory — 5 operation(s) for templates.
+- baseURL: https://sandbox.nory.ai/app/v1
+  baseurl_source: declared
+  description: The Templates API from Nory — 5 operation(s) for templates.
   name: Nory Templates API
   slug: nory-templates-api
 artifact_total: 14
@@ -202,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/screenshots/nory-2026-08-07T185535.png
 security:

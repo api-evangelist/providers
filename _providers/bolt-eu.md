@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 97 operations · 97 acting
 api_count: 3
 apis:
-- description: The GenericClient API from Bolt — 17 operation(s) for genericclient.
+- baseURL: https://node.bolt.eu/delivery-provider-pos
+  baseurl_source: declared
+  description: The GenericClient API from Bolt — 17 operation(s) for genericclient.
   name: Bolt GenericClient API
   slug: bolt-eu-genericclient-api
-- description: The Pim API from Bolt — 27 operation(s) for pim.
+- baseURL: https://node.bolt.eu/delivery-provider-pos
+  baseurl_source: declared
+  description: The Pim API from Bolt — 27 operation(s) for pim.
   name: Bolt Pim API
   slug: bolt-eu-pim-api
-- description: The ValidateLoyaltyCard API from Bolt — 1 operation(s) for validateloyaltycard.
+- baseURL: https://node.bolt.eu/delivery-provider-pos
+  baseurl_source: declared
+  description: The ValidateLoyaltyCard API from Bolt — 1 operation(s) for validateloyaltycard.
   name: Bolt ValidateLoyaltyCard API
   slug: bolt-eu-validateloyaltycard-api
-- description: The Bolt Delivery API API from Bolt — 0 operation(s) for bolt delivery api.
+- baseURL: https://node.bolt.eu/delivery-provider-pos
+  baseurl_source: declared
+  description: The Bolt Delivery API API from Bolt — 0 operation(s) for bolt delivery api.
   name: Bolt Bolt Delivery API
   slug: bolt-eu-bolt-delivery-api-api
-- description: The Bolt Food API API from Bolt — 0 operation(s) for bolt food api.
+- baseURL: https://node.bolt.eu/delivery-provider-pos
+  baseurl_source: declared
+  description: The Bolt Food API API from Bolt — 0 operation(s) for bolt food api.
   name: Bolt Bolt Food API
   slug: bolt-eu-bolt-food-api-api
-- description: The Bolt Stores API API from Bolt — 0 operation(s) for bolt stores api.
+- baseURL: https://node.bolt.eu/delivery-provider-pos
+  baseurl_source: declared
+  description: The Bolt Stores API API from Bolt — 0 operation(s) for bolt stores api.
   name: Bolt Bolt Stores API
   slug: bolt-eu-bolt-stores-api-api
 artifact_total: 16
@@ -173,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/screenshots/bolt-eu-2026-07-25T203541.png
 security:

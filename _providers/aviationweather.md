@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,10 +42,14 @@ agentic_access:
   summary_line: 20 operations
 api_count: 1
 apis:
-- description: Decoded navigational information
+- baseURL: https://aviationweather.gov/api/data
+  baseurl_source: declared
+  description: Decoded navigational information
   name: Aviation Weather Center Navigational Data API
   slug: aviationweather-navigational-data-api
-- description: Decoded weather information
+- baseURL: https://aviationweather.gov/api/data
+  baseurl_source: declared
+  description: Decoded weather information
   name: Aviation Weather Center Weather Data API
   slug: aviationweather-weather-data-api
 artifact_total: 52
@@ -338,7 +342,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

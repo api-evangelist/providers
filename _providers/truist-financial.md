@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: The Truist Association Services API provides banking and payment capabilities tailored for associations, non-profit organizations, and community groups. The API supports dues collection, payment proce
   name: Truist Association Services API
   slug: truist-association-services-api
-- description: Personal and small business account operations
+- baseURL: https://api.truist.com/v1
+  baseurl_source: declared
+  description: Personal and small business account operations
   name: Truist Financial Accounts API
   slug: truist-financial-accounts-api
-- description: Commercial banking account operations
+- baseURL: https://api.truist.com/v1
+  baseurl_source: declared
+  description: Commercial banking account operations
   name: Truist Financial Commercial Accounts API
   slug: truist-financial-commercial-accounts-api
-- description: Commercial account transaction operations
+- baseURL: https://api.truist.com/v1
+  baseurl_source: declared
+  description: Commercial account transaction operations
   name: Truist Financial Commercial Transactions API
   slug: truist-financial-commercial-transactions-api
-- description: Personal and small business transaction operations
+- baseURL: https://api.truist.com/v1
+  baseurl_source: declared
+  description: Personal and small business transaction operations
   name: Truist Financial Transactions API
   slug: truist-financial-transactions-api
 artifact_total: 39
@@ -301,7 +309,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/screenshots/truist-financial-2026-06-20T195759.png
 security:

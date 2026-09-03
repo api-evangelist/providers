@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -33,43 +46,69 @@ agentic_access:
   summary_line: 26 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Create Export Profiles API from n3rgy — 1 operation(s) for create export profiles.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Create Export Profiles API from n3rgy — 1 operation(s) for create export profiles.
   name: n3rgy Create Export Profiles API
   slug: n3rgy-create-export-profiles-api
-- description: The Customer Service API V2 API from n3rgy — 1 operation(s) for customer service api v2.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Customer Service API V2 API from n3rgy — 1 operation(s) for customer service api v2.
   name: n3rgy Customer Service API V2 API
   slug: n3rgy-customer-service-api-v2-api
-- description: The Find Mpxn API from n3rgy — 2 operation(s) for find mpxn.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Find Mpxn API from n3rgy — 2 operation(s) for find mpxn.
   name: n3rgy Find Mpxn API
   slug: n3rgy-find-mpxn-api
-- description: The Get Update Frequencies API from n3rgy — 1 operation(s) for get update frequencies.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Get Update Frequencies API from n3rgy — 1 operation(s) for get update frequencies.
   name: n3rgy Get Update Frequencies API
   slug: n3rgy-get-update-frequencies-api
-- description: The Internal API from n3rgy — 1 operation(s) for internal.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Internal API from n3rgy — 1 operation(s) for internal.
   name: n3rgy Internal API
   slug: n3rgy-internal-api
-- description: The Mpxn API from n3rgy — 3 operation(s) for mpxn.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Mpxn API from n3rgy — 3 operation(s) for mpxn.
   name: n3rgy Mpxn API
   slug: n3rgy-mpxn-api
-- description: The Push API from n3rgy — 2 operation(s) for push.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Push API from n3rgy — 2 operation(s) for push.
   name: n3rgy Push API
   slug: n3rgy-push-api
-- description: The Read Inventory API from n3rgy — 1 operation(s) for read inventory.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Read Inventory API from n3rgy — 1 operation(s) for read inventory.
   name: n3rgy Read Inventory API
   slug: n3rgy-read-inventory-api
-- description: The Reset All Update Frequencies API from n3rgy — 1 operation(s) for reset all update frequencies.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Reset All Update Frequencies API from n3rgy — 1 operation(s) for reset all update frequencies.
   name: n3rgy Reset All Update Frequencies API
   slug: n3rgy-reset-all-update-frequencies-api
-- description: The Set Defaults API from n3rgy — 1 operation(s) for set defaults.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Set Defaults API from n3rgy — 1 operation(s) for set defaults.
   name: n3rgy Set Defaults API
   slug: n3rgy-set-defaults-api
-- description: The Set Meter Update Frequency API from n3rgy — 1 operation(s) for set meter update frequency.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Set Meter Update Frequency API from n3rgy — 1 operation(s) for set meter update frequency.
   name: n3rgy Set Meter Update Frequency API
   slug: n3rgy-set-meter-update-frequency-api
-- description: The Update Now API from n3rgy — 1 operation(s) for update now.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Update Now API from n3rgy — 1 operation(s) for update now.
   name: n3rgy Update Now API
   slug: n3rgy-update-now-api
-- description: The Upload API from n3rgy — 4 operation(s) for upload.
+- baseURL: https://api-v2.data.n3rgy.com
+  baseurl_source: declared
+  description: The Upload API from n3rgy — 4 operation(s) for upload.
   name: n3rgy Upload API
   slug: n3rgy-upload-api
 artifact_total: 26
@@ -237,7 +276,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -247,7 +286,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,7 +304,7 @@ score:
     regime_id: energy_utilities
     score: 60.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png
 security:

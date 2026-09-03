@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Customer status and deletion operations for partners.
+- baseURL: https://www.gonift.com
+  baseurl_source: declared
+  description: Customer status and deletion operations for partners.
   name: NIFT Customers API
   slug: nift-customers-api
 artifact_total: 11
@@ -248,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/screenshots/nift-2026-08-07T185254.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 50
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 69 operations · 50 acting · 50 human-in-the-loop
 api_count: 1
 apis:
-- description: The App API from Earnipay — 1 operation(s) for app.
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: The App API from Earnipay — 1 operation(s) for app.
   name: Earnipay App API
   slug: earnipay-app-api
-- description: Third-party APP provider integration (Taxly) for FIRS submission
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Third-party APP provider integration (Taxly) for FIRS submission
   name: Earnipay APP Provider API
   slug: earnipay-app-provider-api
-- description: User authentication and authorization endpoints
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: User authentication and authorization endpoints
   name: Earnipay Authentication API
   slug: earnipay-authentication-api
-- description: The Bank API from Earnipay — 2 operation(s) for bank.
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: The Bank API from Earnipay — 2 operation(s) for bank.
   name: Earnipay Bank API
   slug: earnipay-bank-api
-- description: Business profile management and FIRS configuration
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Business profile management and FIRS configuration
   name: Earnipay Business API
   slug: earnipay-business-api
-- description: Customer management for invoicing
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Customer management for invoicing
   name: Earnipay Customers API
   slug: earnipay-customers-api
-- description: Invoice creation, management, and FIRS validation
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Invoice creation, management, and FIRS validation
   name: Earnipay Invoices API
   slug: earnipay-invoices-api
-- description: Generate FIRS-compliant Invoice Reference Numbers
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Generate FIRS-compliant Invoice Reference Numbers
   name: Earnipay IRN Generator API
   slug: earnipay-irn-generator-api
-- description: The Payment Details API from Earnipay — 2 operation(s) for payment details.
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: The Payment Details API from Earnipay — 2 operation(s) for payment details.
   name: Earnipay Payment Details API
   slug: earnipay-payment-details-api
-- description: The Products API from Earnipay — 2 operation(s) for products.
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: The Products API from Earnipay — 2 operation(s) for products.
   name: Earnipay Products API
   slug: earnipay-products-api
-- description: Generate FIRS-compliant encrypted QR codes for invoices
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Generate FIRS-compliant encrypted QR codes for invoices
   name: Earnipay QR Code Generator API
   slug: earnipay-qr-code-generator-api
-- description: Team member and invitation management
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: Team member and invitation management
   name: Earnipay Team API
   slug: earnipay-team-api
-- description: User profile management
+- baseURL: https://e-invoicing.earnipay.com/v1
+  baseurl_source: declared
+  description: User profile management
   name: Earnipay Users API
   slug: earnipay-users-api
 artifact_total: 31
@@ -256,7 +282,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/screenshots/earnipay-2026-07-25T212700.png
 security:

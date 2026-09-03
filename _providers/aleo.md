@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 13 operations · 1 acting
 api_count: 1
 apis:
-- description: Block and transaction queries
+- baseURL: https://api.explorer.provable.com/v1
+  baseurl_source: declared
+  description: Block and transaction queries
   name: Aleo Blocks API
   slug: aleo-blocks-api
-- description: Latest chain state
+- baseURL: https://api.explorer.provable.com/v1
+  baseurl_source: declared
+  description: Latest chain state
   name: Aleo Chain API
   slug: aleo-chain-api
-- description: Committee and consensus state
+- baseURL: https://api.explorer.provable.com/v1
+  baseurl_source: declared
+  description: Committee and consensus state
   name: Aleo Network API
   slug: aleo-network-api
-- description: Deployed program and mapping queries
+- baseURL: https://api.explorer.provable.com/v1
+  baseurl_source: declared
+  description: Deployed program and mapping queries
   name: Aleo Programs API
   slug: aleo-programs-api
-- description: Transaction submission
+- baseURL: https://api.explorer.provable.com/v1
+  baseurl_source: declared
+  description: Transaction submission
   name: Aleo Transactions API
   slug: aleo-transactions-api
 artifact_total: 15
@@ -242,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/screenshots/aleo-2026-07-25T195557.png
 security:

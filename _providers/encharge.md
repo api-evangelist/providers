@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -50,43 +50,69 @@ apis:
 - description: Single-endpoint Ingest API for creating/updating people and submitting product events into Encharge from an application backend. POSTs JSON to https://ingest.encharge.io/v1/ with the account write key
   name: Encharge Ingest API
   slug: ingest-api
-- description: The Account API from Encharge — 2 operation(s) for account information.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Account API from Encharge — 2 operation(s) for account information.
   name: Encharge Account API
   slug: encharge-account-api
-- description: The Broadcasts API from Encharge — 1 operation(s) for sending broadcasts.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Broadcasts API from Encharge — 1 operation(s) for sending broadcasts.
   name: Encharge Broadcasts API
   slug: encharge-broadcasts-api
-- description: The Custom Objects API from Encharge — 18 operation(s) for creating, reading, searching and associating custom objects and companies.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Custom Objects API from Encharge — 18 operation(s) for creating, reading, searching and associating custom objects and companies.
   name: Encharge Custom Objects API
   slug: encharge-customobjects-api
-- description: The Custom Objects Schema API from Encharge — 10 operation(s) for defining object types, their fields, and the associations between them.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Custom Objects Schema API from Encharge — 10 operation(s) for defining object types, their fields, and the associations between them.
   name: Encharge Custom Objects Schema API
   slug: encharge-customobjectsschema-api
-- description: The Email Templates API from Encharge — 9 operation(s) for creating and versioning email templates.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Email Templates API from Encharge — 9 operation(s) for creating and versioning email templates.
   name: Encharge Email Templates API
   slug: encharge-emailtemplates-api
-- description: The Folders API from Encharge — 2 operation(s) for organizing assets into folders.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Folders API from Encharge — 2 operation(s) for organizing assets into folders.
   name: Encharge Folders API
   slug: encharge-folders-api
-- description: The People API from Encharge — 5 operation(s) for creating, updating, reading, unsubscribing and archiving people.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The People API from Encharge — 5 operation(s) for creating, updating, reading, unsubscribing and archiving people.
   name: Encharge People API
   slug: encharge-people-api
-- description: The Person Fields API from Encharge — 4 operation(s) for managing person fields.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Person Fields API from Encharge — 4 operation(s) for managing person fields.
   name: Encharge Person Fields API
   slug: encharge-personfields-api
-- description: The Segments API from Encharge — 4 operation(s) for dynamic segments.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Segments API from Encharge — 4 operation(s) for dynamic segments.
   name: Encharge Segments API
   slug: encharge-segments-api
-- description: The email settings API from Encharge — 5 operation(s) for adding and verifying sending domains.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The email settings API from Encharge — 5 operation(s) for adding and verifying sending domains.
   name: Encharge Email Domain Settings API
   slug: encharge-settings-api
-- description: The Tags API from Encharge — 2 operation(s) for tagging and untagging people.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Tags API from Encharge — 2 operation(s) for tagging and untagging people.
   name: Encharge Tags API
   slug: encharge-tags-api
-- description: The Tags Management API from Encharge — 5 operation(s) for the account tag registry and tag counts.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Tags Management API from Encharge — 5 operation(s) for the account tag registry and tag counts.
   name: Encharge Tags Management API
   slug: encharge-tags-management-api
-- description: The Webhooks API from Encharge — 2 operation(s) for creating and deleting event subscriptions against Encharge's event catalog.
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Webhooks API from Encharge — 2 operation(s) for creating and deleting event subscriptions against Encharge's event catalog.
   name: Encharge Webhooks API
   slug: encharge-webhooks-api
 artifact_total: 34
@@ -331,7 +357,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -341,7 +367,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 54.1
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,7 +379,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/screenshots/encharge-2026-06-20T180652.png
 security:

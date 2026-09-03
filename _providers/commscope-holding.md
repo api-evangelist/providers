@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: REST API (v2.2) for the RUCKUS IoT Platform Controller. Manages the IoT controller, IoT-enabled access points, and downstream devices and sensors.
   name: RUCKUS IoT Platform API
   slug: ruckus-iot-api
-- description: Wi-Fi access points (APs) registered to a tenant.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Wi-Fi access points (APs) registered to a tenant.
   name: CommScope Holding AccessPoints API
   slug: commscope-holding-accesspoints-api
-- description: Track asynchronous request status.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Track asynchronous request status.
   name: CommScope Holding Activities API
   slug: commscope-holding-activities-api
-- description: OAuth2 client-credentials token exchange.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: OAuth2 client-credentials token exchange.
   name: CommScope Holding Authentication API
   slug: commscope-holding-authentication-api
-- description: Connected client devices.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Connected client devices.
   name: CommScope Holding Clients API
   slug: commscope-holding-clients-api
-- description: Managed-service-provider delegation and end-customer accounts.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Managed-service-provider delegation and end-customer accounts.
   name: CommScope Holding MSP API
   slug: commscope-holding-msp-api
-- description: Wi-Fi SSID and network configuration.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Wi-Fi SSID and network configuration.
   name: CommScope Holding Networks API
   slug: commscope-holding-networks-api
-- description: ICX switches managed via RUCKUS One.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: ICX switches managed via RUCKUS One.
   name: CommScope Holding Switches API
   slug: commscope-holding-switches-api
-- description: Physical sites that group networks and devices.
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Physical sites that group networks and devices.
   name: CommScope Holding Venues API
   slug: commscope-holding-venues-api
 artifact_total: 31
@@ -289,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png
 security:

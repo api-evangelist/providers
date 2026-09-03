@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 65 operations · 35 acting
 api_count: 1
 apis:
-- description: SmartApp registrations (Lambda or webhook endpoints).
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: SmartApp registrations (Lambda or webhook endpoints).
   name: Samsung SmartThings Apps API
   slug: smartthings-apps-api
-- description: Standard and custom capability definitions.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Standard and custom capability definitions.
   name: Samsung SmartThings Capabilities API
   slug: smartthings-capabilities-api
-- description: Execute commands, create events, and read device/component/capability status.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Execute commands, create events, and read device/component/capability status.
   name: Samsung SmartThings Device Commands & Status API
   slug: smartthings-device-commands-status-api
-- description: Access, control, install, update, and delete devices.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Access, control, install, update, and delete devices.
   name: Samsung SmartThings Devices API
   slug: smartthings-devices-api
-- description: Event history for devices and locations.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Event history for devices and locations.
   name: Samsung SmartThings History API
   slug: smartthings-history-api
-- description: Per-user installations of a SmartApp.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Per-user installations of a SmartApp.
   name: Samsung SmartThings Installed Apps API
   slug: smartthings-installed-apps-api
-- description: Locations (homes) and their Modes.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Locations (homes) and their Modes.
   name: Samsung SmartThings Locations API
   slug: smartthings-locations-api
-- description: Device presentation and configuration metadata.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Device presentation and configuration metadata.
   name: Samsung SmartThings Presentations API
   slug: smartthings-presentations-api
-- description: Groupings of devices within a Location.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Groupings of devices within a Location.
   name: Samsung SmartThings Rooms API
   slug: smartthings-rooms-api
-- description: Condition/action Automations over connected devices.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Condition/action Automations over connected devices.
   name: Samsung SmartThings Rules API
   slug: smartthings-rules-api
-- description: Saved sets of device states that can be executed on demand.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Saved sets of device states that can be executed on demand.
   name: Samsung SmartThings Scenes API
   slug: smartthings-scenes-api
-- description: Future/cron executions for Installed Apps.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Future/cron executions for Installed Apps.
   name: Samsung SmartThings Schedules API
   slug: smartthings-schedules-api
-- description: Event subscriptions for Installed Apps.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Event subscriptions for Installed Apps.
   name: Samsung SmartThings Subscriptions API
   slug: smartthings-subscriptions-api
-- description: Software devices for testing automations and integrations.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Software devices for testing automations and integrations.
   name: Samsung SmartThings Virtual Devices API
   slug: smartthings-virtual-devices-api
 artifact_total: 38
@@ -219,7 +247,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -242,8 +270,9 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/screenshots/smartthings-2026-09-02T155939.png
 security:
 - kind: authentication
   name: Smartthings Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Genome assembly discovery and search
+- baseURL: https://api.genome.ucsc.edu
+  baseurl_source: declared
+  description: Genome assembly discovery and search
   name: UCSC Genomic Data Genomes API
   slug: ucsc-genomic-data-genomes-api
-- description: Track hub management
+- baseURL: https://api.genome.ucsc.edu
+  baseurl_source: declared
+  description: Track hub management
   name: UCSC Genomic Data Hubs API
   slug: ucsc-genomic-data-hubs-api
-- description: Genome browser search
+- baseURL: https://api.genome.ucsc.edu
+  baseurl_source: declared
+  description: Genome browser search
   name: UCSC Genomic Data Search API
   slug: ucsc-genomic-data-search-api
-- description: DNA sequence retrieval
+- baseURL: https://api.genome.ucsc.edu
+  baseurl_source: declared
+  description: DNA sequence retrieval
   name: UCSC Genomic Data Sequences API
   slug: ucsc-genomic-data-sequences-api
-- description: Annotation track listings and data retrieval
+- baseURL: https://api.genome.ucsc.edu
+  baseurl_source: declared
+  description: Annotation track listings and data retrieval
   name: UCSC Genomic Data Tracks API
   slug: ucsc-genomic-data-tracks-api
 artifact_total: 26
@@ -206,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsc-genomic-data/refs/heads/main/screenshots/ucsc-genomic-data-2026-06-20T195951.png
 security:

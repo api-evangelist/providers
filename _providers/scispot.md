@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 1
 apis:
-- description: Electronic Lab Notebook protocols and experimental records
+- baseURL: https://api.scispot.com/v1
+  baseurl_source: declared
+  description: Electronic Lab Notebook protocols and experimental records
   name: Scispot ELN API
   slug: scispot-eln-api
-- description: LIMS-style structured data tables for registries, sample tracking, and assay data
+- baseURL: https://api.scispot.com/v1
+  baseurl_source: declared
+  description: LIMS-style structured data tables for registries, sample tracking, and assay data
   name: Scispot Labsheets API
   slug: scispot-labsheets-api
-- description: Physical container management including plates, boxes, and racks
+- baseURL: https://api.scispot.com/v1
+  baseurl_source: declared
+  description: Physical container management including plates, boxes, and racks
   name: Scispot Manifests API
   slug: scispot-manifests-api
-- description: Sample lifecycle management including barcoding and metadata
+- baseURL: https://api.scispot.com/v1
+  baseurl_source: declared
+  description: Sample lifecycle management including barcoding and metadata
   name: Scispot Samples API
   slug: scispot-samples-api
-- description: Biological sequence management for DNA, RNA, and protein sequences
+- baseURL: https://api.scispot.com/v1
+  baseurl_source: declared
+  description: Biological sequence management for DNA, RNA, and protein sequences
   name: Scispot Sequences API
   slug: scispot-sequences-api
 artifact_total: 26
@@ -221,7 +231,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/screenshots/scispot-2026-06-20T193537.png
 security:

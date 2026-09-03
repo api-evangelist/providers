@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Manage Dockerfile builds, build logs, build triggers, and build configuration.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage Dockerfile builds, build logs, build triggers, and build configuration.
   name: Quay Build API
   slug: quay-build-api
-- description: Inspect image manifests, manifest layers, and labels associated with a pushed image.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Inspect image manifests, manifest layers, and labels associated with a pushed image.
   name: Quay Manifest API
   slug: quay-manifest-api
-- description: Manage Quay organizations, organization members, billing, application tokens, and organization-wide settings.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage Quay organizations, organization members, billing, application tokens, and organization-wide settings.
   name: Quay Organization API
   slug: quay-organization-api
-- description: Manage user and team permissions on repositories.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage user and team permissions on repositories.
   name: Quay Permission API
   slug: quay-permission-api
-- description: Manage container image repositories including create, list, update, delete, visibility, descriptions, and metadata.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage container image repositories including create, list, update, delete, visibility, descriptions, and metadata.
   name: Quay Repository API
   slug: quay-repository-api
-- description: Manage robot accounts used for automated repository access including credentials and permissions.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage robot accounts used for automated repository access including credentials and permissions.
   name: Quay Robot API
   slug: quay-robot-api
-- description: Retrieve vulnerability scan results for repository images.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Retrieve vulnerability scan results for repository images.
   name: Quay Security API
   slug: quay-security-api
-- description: Manage repository image tags including listing, restoring, expiring, and deleting tags.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage repository image tags including listing, restoring, expiring, and deleting tags.
   name: Quay Tag API
   slug: quay-tag-api
-- description: Manage organization teams, team membership, team roles, and team permissions on repositories.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage organization teams, team membership, team roles, and team permissions on repositories.
   name: Quay Team API
   slug: quay-team-api
-- description: Manage Quay user accounts, profile, starred repositories, and personal OAuth tokens.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: declared
+  description: Manage Quay user accounts, profile, starred repositories, and personal OAuth tokens.
   name: Quay User API
   slug: quay-user-api
 artifact_total: 35
@@ -255,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/screenshots/quay-2026-06-20T192420.png
 security:

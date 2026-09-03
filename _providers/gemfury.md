@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 6 acting
 api_count: 1
 apis:
-- description: Retrieve account information
+- baseURL: https://api.fury.io
+  baseurl_source: declared
+  description: Retrieve account information
   name: Gemfury Accounts API
   slug: gemfury-accounts-api
-- description: Manage collaborators and members
+- baseURL: https://api.fury.io
+  baseurl_source: declared
+  description: Manage collaborators and members
   name: Gemfury Members API
   slug: gemfury-members-api
-- description: Manage packages in a Gemfury repository
+- baseURL: https://api.fury.io
+  baseurl_source: declared
+  description: Manage packages in a Gemfury repository
   name: Gemfury Packages API
   slug: gemfury-packages-api
-- description: Manage API tokens
+- baseURL: https://api.fury.io
+  baseurl_source: declared
+  description: Manage API tokens
   name: Gemfury Tokens API
   slug: gemfury-tokens-api
-- description: Manage package versions
+- baseURL: https://api.fury.io
+  baseurl_source: declared
+  description: Manage package versions
   name: Gemfury Versions API
   slug: gemfury-versions-api
 artifact_total: 29
@@ -266,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/screenshots/gemfury-2026-06-20T181711.png
 security:

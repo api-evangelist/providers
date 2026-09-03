@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,28 +50,44 @@ apis:
 - description: The Amberflo AI Gateway provides a unified API for routing requests to 1,500+ LLM models with intelligent model routing, cost optimization, built-in fallbacks, and MCP server traffic monitoring. It tr
   name: Amberflo AI Gateway API
   slug: ai-gateway-api
-- description: Manage customer accounts and lifecycle
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Manage customer accounts and lifecycle
   name: Amberflo Customers API
   slug: amberflo-customers-api
-- description: Ingest meter events for usage tracking
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Ingest meter events for usage tracking
   name: Amberflo Event Ingestion API
   slug: amberflo-event-ingestion-api
-- description: Manage meter event filtering rules
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Manage meter event filtering rules
   name: Amberflo Filtering Rules API
   slug: amberflo-filtering-rules-api
-- description: Retrieve customer invoices
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Retrieve customer invoices
   name: Amberflo Invoices API
   slug: amberflo-invoices-api
-- description: Create, read, update, and delete meter definitions
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Create, read, update, and delete meter definitions
   name: Amberflo Meter Definitions API
   slug: amberflo-meter-definitions-api
-- description: Manage customer prepaid credit orders
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Manage customer prepaid credit orders
   name: Amberflo Prepaid Orders API
   slug: amberflo-prepaid-orders-api
-- description: Manage pricing plans and customer plan assignments
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Manage pricing plans and customer plan assignments
   name: Amberflo Pricing Plans API
   slug: amberflo-pricing-plans-api
-- description: Query aggregated usage data and raw events
+- baseURL: https://app.amberflo.io
+  baseurl_source: declared
+  description: Query aggregated usage data and raw events
   name: Amberflo Usage Queries API
   slug: amberflo-usage-queries-api
 arazzos:
@@ -586,7 +602,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/screenshots/amberflo-2026-06-20T171855.png
 security:

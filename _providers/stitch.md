@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,10 +62,14 @@ apis:
 - description: Stitch Disbursements (Payouts) API enabling businesses to programmatically send funds to bank accounts, enabling mass payments, refunds, and marketplace disbursements.
   name: Stitch Disbursements
   slug: stitch-disbursements
-- description: OAuth 2.0 token operations.
+- baseURL: https://api.stitch.money
+  baseurl_source: spec
+  description: OAuth 2.0 token operations.
   name: Stitch Authentication API
   slug: stitch-authentication-api
-- description: Payment initiation and management.
+- baseURL: https://api.stitch.money
+  baseurl_source: spec
+  description: Payment initiation and management.
   name: Stitch Payments API
   slug: stitch-payments-api
 artifact_total: 47
@@ -279,7 +283,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/screenshots/stitch-2026-06-20T194553.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -92,61 +92,99 @@ apis:
 - description: React component for in-browser WebRTC broadcasting to a Livepeer live stream, with device selection and settings controls.
   name: Livepeer React Broadcast Component
   slug: react-broadcast
-- description: Operations related to access control/signing keys api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to access control/signing keys api
   name: Livepeer accessControl API
   slug: livepeer-accesscontrol-api
-- description: Operations related to asset/vod api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to asset/vod api
   name: Livepeer asset API
   slug: livepeer-asset-api
-- description: Operations related to AI generate api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to AI generate api
   name: Livepeer generate API
   slug: livepeer-generate-api
-- description: Operations related to metrics api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to metrics api
   name: Livepeer metrics API
   slug: livepeer-metrics-api
-- description: Operations related to multistream api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to multistream api
   name: Livepeer multistream API
   slug: livepeer-multistream-api
-- description: Operations related to playback api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to playback api
   name: Livepeer playback API
   slug: livepeer-playback-api
-- description: Operations related to rooms api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to rooms api
   name: Livepeer room API
   slug: livepeer-room-api
-- description: Operations related to session api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to session api
   name: Livepeer session API
   slug: livepeer-session-api
-- description: Operations related to livestream api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to livestream api
   name: Livepeer stream API
   slug: livepeer-stream-api
-- description: Operations related to tasks api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to tasks api
   name: Livepeer task API
   slug: livepeer-task-api
-- description: Operations related to transcode api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to transcode api
   name: Livepeer transcode API
   slug: livepeer-transcode-api
-- description: Operations related to webhook api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to webhook api
   name: Livepeer webhook API
   slug: livepeer-webhook-api
-- description: Ethereum operations and token transfers
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Ethereum operations and token transfers
   name: Livepeer Ethereum API
   slug: livepeer-ethereum-api
-- description: Gateway/broadcaster configuration
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Gateway/broadcaster configuration
   name: Livepeer Gateway API
   slug: livepeer-gateway-api
-- description: The Hardware API from Livepeer — 2 operation(s) for hardware.
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: The Hardware API from Livepeer — 2 operation(s) for hardware.
   name: Livepeer Hardware API
   slug: livepeer-hardware-api
-- description: The Health API from Livepeer — 1 operation(s) for health.
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: The Health API from Livepeer — 1 operation(s) for health.
   name: Livepeer Health API
   slug: livepeer-health-api
-- description: Orchestrator configuration and management
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Orchestrator configuration and management
   name: Livepeer Orchestrator API
   slug: livepeer-orchestrator-api
-- description: Token bonding and delegation operations
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Token bonding and delegation operations
   name: Livepeer Staking API
   slug: livepeer-staking-api
-- description: Node status and information
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Node status and information
   name: Livepeer Status API
   slug: livepeer-status-api
 arazzos:
@@ -616,18 +654,18 @@ rules:
   slug: livepeer-studio-rules
 score:
   band: developing
-  composite: 53.7
+  composite: 53.6
   coverage:
     artifact_dirs: 19
     catalog_gap: 25.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.1
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 69.7
-    contract_quality: 57.9
+    contract_quality: 57.4
     developer_ergonomics: 40.5
     discoverability: 81.5
     governance: 69.7
@@ -635,7 +673,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 53.9
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -644,7 +682,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184614.png
 security:

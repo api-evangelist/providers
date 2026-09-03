@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create, retrieve, list and stop screen share sessions.
+- baseURL: https://api.screenleap.com/v2
+  baseurl_source: declared
+  description: Create, retrieve, list and stop screen share sessions.
   name: Screenleap Screen Shares API
   slug: screenleap-screen-shares-api
 artifact_total: 6
@@ -190,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenleap/refs/heads/main/screenshots/screenleap-2026-08-17T081734.png
 security:

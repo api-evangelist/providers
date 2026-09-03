@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 9 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Operations for managing connections
+- baseURL: https://api.flow.microsoft.com
+  baseurl_source: declared
+  description: Operations for managing connections
   name: Microsoft Power Automate Connections API
   slug: microsoft-power-automate-connections-api
-- description: Operations for managing connectors
+- baseURL: https://api.flow.microsoft.com
+  baseurl_source: declared
+  description: Operations for managing connectors
   name: Microsoft Power Automate Connectors API
   slug: microsoft-power-automate-connectors-api
-- description: Operations for managing Power Automate environments
+- baseURL: https://api.flow.microsoft.com
+  baseurl_source: declared
+  description: Operations for managing Power Automate environments
   name: Microsoft Power Automate Environments API
   slug: microsoft-power-automate-environments-api
-- description: Operations for managing flow sharing and ownership
+- baseURL: https://api.flow.microsoft.com
+  baseurl_source: declared
+  description: Operations for managing flow sharing and ownership
   name: Microsoft Power Automate Flow Permissions API
   slug: microsoft-power-automate-flow-permissions-api
-- description: Operations for managing flow run history
+- baseURL: https://api.flow.microsoft.com
+  baseurl_source: declared
+  description: Operations for managing flow run history
   name: Microsoft Power Automate Flow Runs API
   slug: microsoft-power-automate-flow-runs-api
-- description: Operations for managing cloud flows
+- baseURL: https://api.flow.microsoft.com
+  baseurl_source: declared
+  description: Operations for managing cloud flows
   name: Microsoft Power Automate Flows API
   slug: microsoft-power-automate-flows-api
 arazzos:
@@ -476,7 +488,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-08-17T083607.png
 security:

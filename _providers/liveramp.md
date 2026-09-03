@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -68,130 +68,214 @@ apis:
 - description: Service enabling SSPs to decrypt RampID identity envelopes into DSP-specific identifiers for programmatic activation. Documented on its own ReadMe site rather than the main developer portal.
   name: LiveRamp Sidecar
   slug: sidecar
-- description: The Billable Configs API from LiveRamp — 2 operation(s) for billable configs.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Billable Configs API from LiveRamp — 2 operation(s) for billable configs.
   name: LiveRamp Billable Configs API
   slug: liveramp-billable-configs-api
-- description: The Cleanroom API from LiveRamp — 2 operation(s) for cleanroom.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom API from LiveRamp — 2 operation(s) for cleanroom.
   name: LiveRamp Cleanroom API
   slug: liveramp-cleanroom-api
-- description: The Cleanroom Datasets API from LiveRamp — 5 operation(s) for cleanroom datasets.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Datasets API from LiveRamp — 5 operation(s) for cleanroom datasets.
   name: LiveRamp Cleanroom Datasets API
   slug: liveramp-cleanroom-datasets-api
-- description: The Cleanroom Destinations API from LiveRamp — 3 operation(s) for cleanroom destinations.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Destinations API from LiveRamp — 3 operation(s) for cleanroom destinations.
   name: LiveRamp Cleanroom Destinations API
   slug: liveramp-cleanroom-destinations-api
-- description: The Cleanroom Exports API from LiveRamp — 4 operation(s) for cleanroom exports.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Exports API from LiveRamp — 4 operation(s) for cleanroom exports.
   name: LiveRamp Cleanroom Exports API
   slug: liveramp-cleanroom-exports-api
-- description: The Cleanroom Flow Runs API from LiveRamp — 10 operation(s) for cleanroom flow runs.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Flow Runs API from LiveRamp — 10 operation(s) for cleanroom flow runs.
   name: LiveRamp Cleanroom Flow Runs API
   slug: liveramp-cleanroom-flow-runs-api
-- description: The Cleanroom Flows API from LiveRamp — 10 operation(s) for cleanroom flows.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Flows API from LiveRamp — 10 operation(s) for cleanroom flows.
   name: LiveRamp Cleanroom Flows API
   slug: liveramp-cleanroom-flows-api
-- description: The Cleanroom Partners API from LiveRamp — 8 operation(s) for cleanroom partners.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Partners API from LiveRamp — 8 operation(s) for cleanroom partners.
   name: LiveRamp Cleanroom Partners API
   slug: liveramp-cleanroom-partners-api
-- description: The Cleanroom Question Datasets API from LiveRamp — 4 operation(s) for cleanroom question datasets.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Question Datasets API from LiveRamp — 4 operation(s) for cleanroom question datasets.
   name: LiveRamp Cleanroom Question Datasets API
   slug: liveramp-cleanroom-question-datasets-api
-- description: The Cleanroom Question Permissions API from LiveRamp — 1 operation(s) for cleanroom question permissions.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Question Permissions API from LiveRamp — 1 operation(s) for cleanroom question permissions.
   name: LiveRamp Cleanroom Question Permissions API
   slug: liveramp-cleanroom-question-permissions-api
-- description: The Cleanroom Question Result Shares API from LiveRamp — 1 operation(s) for cleanroom question result shares.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Question Result Shares API from LiveRamp — 1 operation(s) for cleanroom question result shares.
   name: LiveRamp Cleanroom Question Result Shares API
   slug: liveramp-cleanroom-question-result-shares-api
-- description: The Cleanroom Question Run Schedule API from LiveRamp — 2 operation(s) for cleanroom question run schedule.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Question Run Schedule API from LiveRamp — 2 operation(s) for cleanroom question run schedule.
   name: LiveRamp Cleanroom Question Run Schedule API
   slug: liveramp-cleanroom-question-run-schedule-api
-- description: The Cleanroom Question Runs API from LiveRamp — 10 operation(s) for cleanroom question runs.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Question Runs API from LiveRamp — 10 operation(s) for cleanroom question runs.
   name: LiveRamp Cleanroom Question Runs API
   slug: liveramp-cleanroom-question-runs-api
-- description: The Cleanroom Question Tags API from LiveRamp — 2 operation(s) for cleanroom question tags.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Question Tags API from LiveRamp — 2 operation(s) for cleanroom question tags.
   name: LiveRamp Cleanroom Question Tags API
   slug: liveramp-cleanroom-question-tags-api
-- description: The Cleanroom Questions API from LiveRamp — 5 operation(s) for cleanroom questions.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Questions API from LiveRamp — 5 operation(s) for cleanroom questions.
   name: LiveRamp Cleanroom Questions API
   slug: liveramp-cleanroom-questions-api
-- description: The Cleanroom Roles API from LiveRamp — 2 operation(s) for cleanroom roles.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Roles API from LiveRamp — 2 operation(s) for cleanroom roles.
   name: LiveRamp Cleanroom Roles API
   slug: liveramp-cleanroom-roles-api
-- description: The Cleanroom Users API from LiveRamp — 3 operation(s) for cleanroom users.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanroom Users API from LiveRamp — 3 operation(s) for cleanroom users.
   name: LiveRamp Cleanroom Users API
   slug: liveramp-cleanroom-users-api
-- description: The Cleanrooms API from LiveRamp — 4 operation(s) for cleanrooms.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Cleanrooms API from LiveRamp — 4 operation(s) for cleanrooms.
   name: LiveRamp Cleanrooms API
   slug: liveramp-cleanrooms-api
-- description: The Configure Distributions API from LiveRamp — 4 operation(s) for configure distributions.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Configure Distributions API from LiveRamp — 4 operation(s) for configure distributions.
   name: LiveRamp Configure Distributions API
   slug: liveramp-configure-distributions-api
-- description: The Credential Sources API from LiveRamp — 3 operation(s) for credential sources.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Credential Sources API from LiveRamp — 3 operation(s) for credential sources.
   name: LiveRamp Credential Sources API
   slug: liveramp-credential-sources-api
-- description: The Data Connections API from LiveRamp — 5 operation(s) for data connections.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Data Connections API from LiveRamp — 5 operation(s) for data connections.
   name: LiveRamp Data Connections API
   slug: liveramp-data-connections-api
-- description: The Data Source Parameters API from LiveRamp — 1 operation(s) for data source parameters.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Data Source Parameters API from LiveRamp — 1 operation(s) for data source parameters.
   name: LiveRamp Data Source Parameters API
   slug: liveramp-data-source-parameters-api
-- description: The Data Sources API from LiveRamp — 2 operation(s) for data sources.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Data Sources API from LiveRamp — 2 operation(s) for data sources.
   name: LiveRamp Data Sources API
   slug: liveramp-data-sources-api
-- description: The Data Types API from LiveRamp — 2 operation(s) for data types.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Data Types API from LiveRamp — 2 operation(s) for data types.
   name: LiveRamp Data Types API
   slug: liveramp-data-types-api
-- description: The DataConnectionViews API from LiveRamp — 2 operation(s) for dataconnectionviews.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The DataConnectionViews API from LiveRamp — 2 operation(s) for dataconnectionviews.
   name: LiveRamp Data Connection Views API
   slug: liveramp-dataconnectionviews-api
-- description: The Destinations API from LiveRamp — 3 operation(s) for destinations.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Destinations API from LiveRamp — 3 operation(s) for destinations.
   name: LiveRamp Destinations API
   slug: liveramp-destinations-api
-- description: The Distribute Data API from LiveRamp — 2 operation(s) for distribute data.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Distribute Data API from LiveRamp — 2 operation(s) for distribute data.
   name: LiveRamp Distribute Data API
   slug: liveramp-distribute-data-api
-- description: View Destinations and Integrations where you can distribute data
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: View Destinations and Integrations where you can distribute data
   name: LiveRamp Explore Destinations API
   slug: liveramp-explore-destinations-api
-- description: The Flow Decision Configurations API from LiveRamp — 1 operation(s) for flow decision configurations.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Flow Decision Configurations API from LiveRamp — 1 operation(s) for flow decision configurations.
   name: LiveRamp Flow Decision Configurations API
   slug: liveramp-flow-decision-configurations-api
-- description: The Health API from LiveRamp — 1 operation(s) for health.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Health API from LiveRamp — 1 operation(s) for health.
   name: LiveRamp Health API
   slug: liveramp-health-api
-- description: The Import Data Types API from LiveRamp — 1 operation(s) for import data types.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Import Data Types API from LiveRamp — 1 operation(s) for import data types.
   name: LiveRamp Import Data Types API
   slug: liveramp-import-data-types-api
-- description: The Intelligence API from LiveRamp — 4 operation(s) for intelligence.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Intelligence API from LiveRamp — 4 operation(s) for intelligence.
   name: LiveRamp Intelligence API
   slug: liveramp-intelligence-api
-- description: For internal LiveRamp consumption. These operations are not part of the supported external customer contract and may change without notice.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: For internal LiveRamp consumption. These operations are not part of the supported external customer contract and may change without notice.
   name: LiveRamp Internal API
   slug: liveramp-internal-api
-- description: The Invitations API from LiveRamp — 3 operation(s) for invitations.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Invitations API from LiveRamp — 3 operation(s) for invitations.
   name: LiveRamp Invitations API
   slug: liveramp-invitations-api
-- description: The OAuth Configuration API from LiveRamp — 4 operation(s) for oauth configuration.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The OAuth Configuration API from LiveRamp — 4 operation(s) for oauth configuration.
   name: LiveRamp OAuth Configuration API
   slug: liveramp-oauth-configuration-api
-- description: The Organization Credentials API from LiveRamp — 2 operation(s) for organization credentials.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Organization Credentials API from LiveRamp — 2 operation(s) for organization credentials.
   name: LiveRamp Organization Credentials API
   slug: liveramp-organization-credentials-api
-- description: The Organization Users API from LiveRamp — 1 operation(s) for organization users.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Organization Users API from LiveRamp — 1 operation(s) for organization users.
   name: LiveRamp Organization Users API
   slug: liveramp-organization-users-api
-- description: (resource) Manage privacy requests.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: (resource) Manage privacy requests.
   name: LiveRamp Privacy Requests API
   slug: liveramp-privacyrequests-api
-- description: The Questions API from LiveRamp — 3 operation(s) for questions.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The Questions API from LiveRamp — 3 operation(s) for questions.
   name: LiveRamp Questions API
   slug: liveramp-questions-api
-- description: (resource) Represents a segment's status
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: (resource) Represents a segment's status
   name: LiveRamp V2/Segment Status API
   slug: liveramp-v2-segmentstatus-api
-- description: The View Deliveries API from LiveRamp — 1 operation(s) for view deliveries.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The View Deliveries API from LiveRamp — 1 operation(s) for view deliveries.
   name: LiveRamp View Deliveries API
   slug: liveramp-view-deliveries-api
-- description: The View Segments API from LiveRamp — 2 operation(s) for view segments.
+- baseURL: https://api.liveramp.com/activation
+  baseurl_source: declared
+  description: The View Segments API from LiveRamp — 2 operation(s) for view segments.
   name: LiveRamp View Segments API
   slug: liveramp-view-segments-api
 artifact_total: 74
@@ -516,7 +600,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png
 security:

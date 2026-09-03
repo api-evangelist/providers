@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 52 operations · 25 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Borrowers, coborrowers, realtors, employers, incomes, and positions.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Borrowers, coborrowers, realtors, employers, incomes, and positions.
   name: Blend Borrowers & Parties API
   slug: blend-mortgage-borrowers-parties-api
-- description: Closings, packages, eNotes, and RON sessions.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Closings, packages, eNotes, and RON sessions.
   name: Blend Closings & eSignature API
   slug: blend-mortgage-closings-esignature-api
-- description: Consumer lending, account opening, and deposit account applications.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Consumer lending, account opening, and deposit account applications.
   name: Blend Consumer Lending & Deposit API
   slug: blend-mortgage-consumer-lending-deposit-api
-- description: Documents, disclosures, tax transcripts, and loan file export.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Documents, disclosures, tax transcripts, and loan file export.
   name: Blend Documents & Disclosures API
   slug: blend-mortgage-documents-disclosures-api
-- description: Event notifications and event status.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Event notifications and event status.
   name: Blend Events & Webhooks API
   slug: blend-mortgage-events-webhooks-api
-- description: Borrower tasks and conditions.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Borrower tasks and conditions.
   name: Blend Follow-ups API
   slug: blend-mortgage-follow-ups-api
-- description: Create and manage mortgage (home lending) applications.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Create and manage mortgage (home lending) applications.
   name: Blend Home Lending Applications API
   slug: blend-mortgage-home-lending-applications-api
-- description: Lender users and application assignments.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Lender users and application assignments.
   name: Blend Lenders & Assignments API
   slug: blend-mortgage-lenders-assignments-api
-- description: Apply a priced product to a loan.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Apply a priced product to a loan.
   name: Blend Products & Pricing API
   slug: blend-mortgage-products-pricing-api
-- description: Reporting and analytics datasets.
+- baseURL: https://api.blendlabs.com
+  baseurl_source: declared
+  description: Reporting and analytics datasets.
   name: Blend Reporting API
   slug: blend-mortgage-reporting-api
 artifact_total: 28
@@ -223,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/screenshots/blend-mortgage-2026-07-25T203309.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 11 operations · 2 acting
 api_count: 2
 apis:
-- description: Liquidity pool deposit operations
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: Liquidity pool deposit operations
   name: SushiSwap Deposit API
   slug: sushiswap-deposit-api
-- description: All liquidity provider endpoints
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: All liquidity provider endpoints
   name: SushiSwap liquidity-providers API
   slug: sushiswap-liquidity-providers-api
-- description: Pool information and liquidity data endpoints
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: Pool information and liquidity data endpoints
   name: SushiSwap Pool API
   slug: sushiswap-pool-api
-- description: All price endpoints
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: All price endpoints
   name: SushiSwap price API
   slug: sushiswap-price-api
-- description: Quote generation and signing
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: Quote generation and signing
   name: SushiSwap Quote API
   slug: sushiswap-quote-api
-- description: All swap endpoints
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: All swap endpoints
   name: SushiSwap swap API
   slug: sushiswap-swap-api
-- description: All token endpoints
+- baseURL: https://api.sushi.com/price/v1
+  baseurl_source: declared
+  description: All token endpoints
   name: SushiSwap token API
   slug: sushiswap-token-api
 artifact_total: 39
@@ -280,7 +294,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/screenshots/sushiswap-2026-06-20T194745.png
 security:

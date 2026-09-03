@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 37 operations
 api_count: 1
 apis:
-- description: Area geography, geoId lookups, and boundaries (v2/v4).
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Area geography, geoId lookups, and boundaries (v2/v4).
   name: ATTOM Area API
   slug: attom-data-area-api
-- description: County tax assessment data.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: County tax assessment data.
   name: ATTOM Assessment API
   slug: attom-data-assessment-api
-- description: Neighborhood and community context (v4).
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Neighborhood and community context (v4).
   name: ATTOM Community API
   slug: attom-data-community-api
-- description: Consolidated all-event property history.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Consolidated all-event property history.
   name: ATTOM Events API
   slug: attom-data-events-api
-- description: Estimated home equity and loan-to-value.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Estimated home equity and loan-to-value.
   name: ATTOM Home Equity API
   slug: attom-data-home-equity-api
-- description: Property records enriched with mortgage and owner data.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Property records enriched with mortgage and owner data.
   name: ATTOM Mortgage API
   slug: attom-data-mortgage-api
-- description: Points of interest (v4).
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Points of interest (v4).
   name: ATTOM POI API
   slug: attom-data-poi-api
-- description: Core property characteristics packages.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Core property characteristics packages.
   name: ATTOM Property API
   slug: attom-data-property-api
-- description: Recorded sale, deed, sales history, and sales trend data.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Recorded sale, deed, sales history, and sales trend data.
   name: ATTOM Sales API
   slug: attom-data-sales-api
-- description: Schools, school districts, and attendance zones.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Schools, school districts, and attendance zones.
   name: ATTOM School API
   slug: attom-data-school-api
-- description: Modeled transportation-noise scores.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Modeled transportation-noise scores.
   name: ATTOM Transportation Noise API
   slug: attom-data-transportation-noise-api
-- description: Automated Valuation Model (AVM) and rental value.
+- baseURL: https://api.gateway.attomdata.com/propertyapi/v1.0.0
+  baseurl_source: declared
+  description: Automated Valuation Model (AVM) and rental value.
   name: ATTOM Valuation API
   slug: attom-data-valuation-api
 artifact_total: 32
@@ -221,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attom-data/refs/heads/main/screenshots/attom-data-2026-07-25T201637.png
 security:

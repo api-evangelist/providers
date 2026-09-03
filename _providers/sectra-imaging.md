@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: 'Web-based access to imaging studies, series, and instances using the DICOM standard''s RESTful services - QIDO-RS (query), WADO-RS (retrieve), and STOW-RS (store). Sectra''s enterprise imaging platform '
@@ -102,7 +102,7 @@ score:
   band: minimal
   composite: 8.5
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -124,8 +124,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sectra-imaging/refs/heads/main/screenshots/sectra-imaging-2026-09-02T154711.png
 security:
 - kind: domain-security
   name: Sectra Imaging Domain Security

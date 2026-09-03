@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 18 operations · 6 acting
 api_count: 11
 apis:
-- description: The DockerImages API from Google Artifact Registry — 1 operation(s) for dockerimages.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The DockerImages API from Google Artifact Registry — 1 operation(s) for dockerimages.
   name: Google Artifact Registry DockerImages API
   slug: google-artifact-registry-dockerimages-api
-- description: The Files API from Google Artifact Registry — 1 operation(s) for files.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Files API from Google Artifact Registry — 1 operation(s) for files.
   name: Google Artifact Registry Files API
   slug: google-artifact-registry-files-api
-- description: The Google Artifact Registry API API from Google Artifact Registry — 4 operation(s) for google artifact registry api.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Google Artifact Registry API API from Google Artifact Registry — 4 operation(s) for google artifact registry api.
   name: Google Artifact Registry Google Artifact Registry API API
   slug: google-artifact-registry-google-artifact-registry-api-api
-- description: The Locations API from Google Artifact Registry — 1 operation(s) for locations.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Locations API from Google Artifact Registry — 1 operation(s) for locations.
   name: Google Artifact Registry Locations API
   slug: google-artifact-registry-locations-api
-- description: The MavenArtifacts API from Google Artifact Registry — 1 operation(s) for mavenartifacts.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The MavenArtifacts API from Google Artifact Registry — 1 operation(s) for mavenartifacts.
   name: Google Artifact Registry MavenArtifacts API
   slug: google-artifact-registry-mavenartifacts-api
-- description: The NpmPackages API from Google Artifact Registry — 1 operation(s) for npmpackages.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The NpmPackages API from Google Artifact Registry — 1 operation(s) for npmpackages.
   name: Google Artifact Registry NpmPackages API
   slug: google-artifact-registry-npmpackages-api
-- description: The Packages API from Google Artifact Registry — 1 operation(s) for packages.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Packages API from Google Artifact Registry — 1 operation(s) for packages.
   name: Google Artifact Registry Packages API
   slug: google-artifact-registry-packages-api
-- description: The PythonPackages API from Google Artifact Registry — 1 operation(s) for pythonpackages.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The PythonPackages API from Google Artifact Registry — 1 operation(s) for pythonpackages.
   name: Google Artifact Registry PythonPackages API
   slug: google-artifact-registry-pythonpackages-api
-- description: The Repositories API from Google Artifact Registry — 1 operation(s) for repositories.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Repositories API from Google Artifact Registry — 1 operation(s) for repositories.
   name: Google Artifact Registry Repositories API
   slug: google-artifact-registry-repositories-api
-- description: The Tags API from Google Artifact Registry — 1 operation(s) for tags.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Tags API from Google Artifact Registry — 1 operation(s) for tags.
   name: Google Artifact Registry Tags API
   slug: google-artifact-registry-tags-api
-- description: The Versions API from Google Artifact Registry — 1 operation(s) for versions.
+- baseURL: https://artifactregistry.googleapis.com
+  baseurl_source: spec
+  description: The Versions API from Google Artifact Registry — 1 operation(s) for versions.
   name: Google Artifact Registry Versions API
   slug: google-artifact-registry-versions-api
 artifact_total: 32
@@ -228,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/screenshots/google-artifact-registry-2026-06-20T182019.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 15 operations · 1 acting
 api_count: 13
 apis:
-- description: The Account API from EmailEngine — 3 operation(s) for account.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Account API from EmailEngine — 3 operation(s) for account.
   name: EmailEngine Account API
   slug: emailengine-account-api
-- description: The Accounts API from EmailEngine — 1 operation(s) for accounts.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Accounts API from EmailEngine — 1 operation(s) for accounts.
   name: EmailEngine Accounts API
   slug: emailengine-accounts-api
-- description: The Autoconfig API from EmailEngine — 1 operation(s) for autoconfig.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Autoconfig API from EmailEngine — 1 operation(s) for autoconfig.
   name: EmailEngine Autoconfig API
   slug: emailengine-autoconfig-api
-- description: The Deliverytest API from EmailEngine — 1 operation(s) for deliverytest.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Deliverytest API from EmailEngine — 1 operation(s) for deliverytest.
   name: EmailEngine Deliverytest API
   slug: emailengine-deliverytest-api
-- description: The Gateways API from EmailEngine — 1 operation(s) for gateways.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Gateways API from EmailEngine — 1 operation(s) for gateways.
   name: EmailEngine Gateways API
   slug: emailengine-gateways-api
-- description: The License API from EmailEngine — 1 operation(s) for license.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The License API from EmailEngine — 1 operation(s) for license.
   name: EmailEngine License API
   slug: emailengine-license-api
-- description: The Logs API from EmailEngine — 1 operation(s) for logs.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Logs API from EmailEngine — 1 operation(s) for logs.
   name: EmailEngine Logs API
   slug: emailengine-logs-api
-- description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
   name: EmailEngine Oauth2 API
   slug: emailengine-oauth2-api
-- description: The Outbox API from EmailEngine — 1 operation(s) for outbox.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Outbox API from EmailEngine — 1 operation(s) for outbox.
   name: EmailEngine Outbox API
   slug: emailengine-outbox-api
-- description: The Stats API from EmailEngine — 1 operation(s) for stats.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Stats API from EmailEngine — 1 operation(s) for stats.
   name: EmailEngine Stats API
   slug: emailengine-stats-api
-- description: The Templates API from EmailEngine — 1 operation(s) for templates.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Templates API from EmailEngine — 1 operation(s) for templates.
   name: EmailEngine Templates API
   slug: emailengine-templates-api
-- description: The Tokens API from EmailEngine — 1 operation(s) for tokens.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Tokens API from EmailEngine — 1 operation(s) for tokens.
   name: EmailEngine Tokens API
   slug: emailengine-tokens-api
-- description: The Webhookroutes API from EmailEngine — 1 operation(s) for webhookroutes.
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Webhookroutes API from EmailEngine — 1 operation(s) for webhookroutes.
   name: EmailEngine Webhookroutes API
   slug: emailengine-webhookroutes-api
 artifact_total: 33
@@ -249,7 +275,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
 security:

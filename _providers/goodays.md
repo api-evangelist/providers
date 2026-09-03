@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The core API from Goodays — 22 operation(s) for core.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The core API from Goodays — 22 operation(s) for core.
   name: Goodays core API
   slug: goodays-core-api
-- description: The dashboard API from Goodays — 1 operation(s) for dashboard.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The dashboard API from Goodays — 1 operation(s) for dashboard.
   name: Goodays dashboard API
   slug: goodays-dashboard-api
-- description: The events API from Goodays — 5 operation(s) for events.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The events API from Goodays — 5 operation(s) for events.
   name: Goodays events API
   slug: goodays-events-api
-- description: The response API from Goodays — 9 operation(s) for response.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The response API from Goodays — 9 operation(s) for response.
   name: Goodays response API
   slug: goodays-response-api
-- description: The session API from Goodays — 1 operation(s) for session.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The session API from Goodays — 1 operation(s) for session.
   name: Goodays session API
   slug: goodays-session-api
-- description: The solicitation API from Goodays — 3 operation(s) for solicitation.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The solicitation API from Goodays — 3 operation(s) for solicitation.
   name: Goodays solicitation API
   slug: goodays-solicitation-api
-- description: The stats API from Goodays — 8 operation(s) for stats.
+- baseURL: https://api.goodays.co/v2
+  baseurl_source: declared
+  description: The stats API from Goodays — 8 operation(s) for stats.
   name: Goodays stats API
   slug: goodays-stats-api
 artifact_total: 18
@@ -238,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/screenshots/goodays-2026-07-25T220046.png
 security:

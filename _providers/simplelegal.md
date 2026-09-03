@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: The Cost Codes API from SimpleLegal — 1 operation(s) for cost codes.
+- baseURL: https://app.simplelegal.com/api
+  baseurl_source: declared
+  description: The Cost Codes API from SimpleLegal — 1 operation(s) for cost codes.
   name: SimpleLegal Cost Codes API
   slug: simplelegal-cost-codes-api
-- description: The Invoices API from SimpleLegal — 2 operation(s) for invoices.
+- baseURL: https://app.simplelegal.com/api
+  baseurl_source: declared
+  description: The Invoices API from SimpleLegal — 2 operation(s) for invoices.
   name: SimpleLegal Invoices API
   slug: simplelegal-invoices-api
-- description: The Matters API from SimpleLegal — 2 operation(s) for matters.
+- baseURL: https://app.simplelegal.com/api
+  baseurl_source: declared
+  description: The Matters API from SimpleLegal — 2 operation(s) for matters.
   name: SimpleLegal Matters API
   slug: simplelegal-matters-api
-- description: The Payments API from SimpleLegal — 1 operation(s) for payments.
+- baseURL: https://app.simplelegal.com/api
+  baseurl_source: declared
+  description: The Payments API from SimpleLegal — 1 operation(s) for payments.
   name: SimpleLegal Payments API
   slug: simplelegal-payments-api
-- description: The Users API from SimpleLegal — 1 operation(s) for users.
+- baseURL: https://app.simplelegal.com/api
+  baseurl_source: declared
+  description: The Users API from SimpleLegal — 1 operation(s) for users.
   name: SimpleLegal Users API
   slug: simplelegal-users-api
-- description: The Vendors API from SimpleLegal — 2 operation(s) for vendors.
+- baseURL: https://app.simplelegal.com/api
+  baseurl_source: declared
+  description: The Vendors API from SimpleLegal — 2 operation(s) for vendors.
   name: SimpleLegal Vendors API
   slug: simplelegal-vendors-api
 artifact_total: 32
@@ -266,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:

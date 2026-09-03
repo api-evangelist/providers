@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Public, keyless REST + JSON API served by every Supra RPC node. Covers accounts (resources, modules, coin and fungible-asset statements), transaction submission and simulation, gas price estimation, b
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Public, keyless REST + JSON API served by every Supra RPC node. Covers accounts (resources, modules, coin and fungible-asset statements), transaction submission and simulation, gas price estimation, b
   name: Supra RPC Node API
   slug: supra-rpc-node-api
 - description: Oracle market-data REST API returning the latest price for a trading pair and historical OHLC candles for up to one month, on the DORA data feeds Supra publishes on-chain. Two documented endpoints, GE
@@ -35,7 +49,9 @@ apis:
 - description: Streaming oracle market-data API. Clients open a WebSocket to wss://prod-kline-ws.supra.com with an x-api-key header and send a subscribe action naming the ohlc_datafeed channel, a resolution in minut
   name: Supra Price Feeds WebSocket API
   slug: supra-price-feeds-websocket-api
-- description: 'Read and observation surface for Supra''s native on-chain automation (AutoFi) registry. Automation tasks are registered and cancelled through the Supra CLI and Move entry functions rather than an HTTP '
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: 'Read and observation surface for Supra''s native on-chain automation (AutoFi) registry. Automation tasks are registered and cancelled through the Supra CLI and Move entry functions rather than an HTTP '
   name: Supra Automation API
   slug: supra-automation-api
 artifact_total: 9
@@ -185,11 +201,11 @@ score:
   band: developing
   composite: 49.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -3.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -199,7 +215,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 53.6
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +232,9 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/screenshots/supra-2026-09-02T161308.png
 security:
 - kind: authentication
   name: Supra Authentication

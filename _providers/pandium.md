@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
-- description: Proxy calls to external APIs on behalf of a tenant.
+- baseURL: https://api.pandium.io
+  baseurl_source: spec
+  description: Proxy calls to external APIs on behalf of a tenant.
   name: Pandium Connector Calls API
   slug: pandium-connector-calls-api
-- description: Manage integrations on the Pandium platform.
+- baseURL: https://api.pandium.io
+  baseurl_source: spec
+  description: Manage integrations on the Pandium platform.
   name: Pandium Integrations API
   slug: pandium-integrations-api
-- description: View run status and trigger syncs.
+- baseURL: https://api.pandium.io
+  baseurl_source: spec
+  description: View run status and trigger syncs.
   name: Pandium Runs API
   slug: pandium-runs-api
-- description: Manage metadata associated with tenants.
+- baseURL: https://api.pandium.io
+  baseurl_source: spec
+  description: Manage metadata associated with tenants.
   name: Pandium Tenant Metadata API
   slug: pandium-tenant-metadata-api
-- description: Manage tenants (customer instances of integrations).
+- baseURL: https://api.pandium.io
+  baseurl_source: spec
+  description: Manage tenants (customer instances of integrations).
   name: Pandium Tenants API
   slug: pandium-tenants-api
 artifact_total: 234
@@ -480,7 +490,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:

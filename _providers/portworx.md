@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 9
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 131 operations · 82 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: The OpenStorageAlerts API from Portworx — 2 operation(s) for openstoragealerts.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageAlerts API from Portworx — 2 operation(s) for openstoragealerts.
   name: Portworx OpenStorageAlerts API
   slug: portworx-openstoragealerts-api
-- description: The OpenStorageBucket API from Portworx — 4 operation(s) for openstoragebucket.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageBucket API from Portworx — 4 operation(s) for openstoragebucket.
   name: Portworx OpenStorageBucket API
   slug: portworx-openstoragebucket-api
-- description: The OpenStorageCloudBackup API from Portworx — 13 operation(s) for openstoragecloudbackup.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageCloudBackup API from Portworx — 13 operation(s) for openstoragecloudbackup.
   name: Portworx OpenStorageCloudBackup API
   slug: portworx-openstoragecloudbackup-api
-- description: The OpenStorageCluster API from Portworx — 1 operation(s) for openstoragecluster.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageCluster API from Portworx — 1 operation(s) for openstoragecluster.
   name: Portworx OpenStorageCluster API
   slug: portworx-openstoragecluster-api
-- description: The OpenStorageClusterDomains API from Portworx — 4 operation(s) for openstorageclusterdomains.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageClusterDomains API from Portworx — 4 operation(s) for openstorageclusterdomains.
   name: Portworx OpenStorageClusterDomains API
   slug: portworx-openstorageclusterdomains-api
-- description: The OpenStorageClusterPair API from Portworx — 4 operation(s) for openstorageclusterpair.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageClusterPair API from Portworx — 4 operation(s) for openstorageclusterpair.
   name: Portworx OpenStorageClusterPair API
   slug: portworx-openstorageclusterpair-api
-- description: The OpenStorageCredentials API from Portworx — 5 operation(s) for openstoragecredentials.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageCredentials API from Portworx — 5 operation(s) for openstoragecredentials.
   name: Portworx OpenStorageCredentials API
   slug: portworx-openstoragecredentials-api
-- description: The OpenStorageDiags API from Portworx — 1 operation(s) for openstoragediags.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageDiags API from Portworx — 1 operation(s) for openstoragediags.
   name: Portworx OpenStorageDiags API
   slug: portworx-openstoragediags-api
-- description: The OpenStorageFilesystemCheck API from Portworx — 6 operation(s) for openstoragefilesystemcheck.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageFilesystemCheck API from Portworx — 6 operation(s) for openstoragefilesystemcheck.
   name: Portworx OpenStorageFilesystemCheck API
   slug: portworx-openstoragefilesystemcheck-api
-- description: The OpenStorageFilesystemDefrag API from Portworx — 4 operation(s) for openstoragefilesystemdefrag.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageFilesystemDefrag API from Portworx — 4 operation(s) for openstoragefilesystemdefrag.
   name: Portworx OpenStorageFilesystemDefrag API
   slug: portworx-openstoragefilesystemdefrag-api
-- description: The OpenStorageFilesystemTrim API from Portworx — 7 operation(s) for openstoragefilesystemtrim.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageFilesystemTrim API from Portworx — 7 operation(s) for openstoragefilesystemtrim.
   name: Portworx OpenStorageFilesystemTrim API
   slug: portworx-openstoragefilesystemtrim-api
-- description: The OpenStorageIdentity API from Portworx — 2 operation(s) for openstorageidentity.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageIdentity API from Portworx — 2 operation(s) for openstorageidentity.
   name: Portworx OpenStorageIdentity API
   slug: portworx-openstorageidentity-api
-- description: The OpenStorageJob API from Portworx — 2 operation(s) for openstoragejob.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageJob API from Portworx — 2 operation(s) for openstoragejob.
   name: Portworx OpenStorageJob API
   slug: portworx-openstoragejob-api
-- description: The OpenStorageMigrate API from Portworx — 2 operation(s) for openstoragemigrate.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageMigrate API from Portworx — 2 operation(s) for openstoragemigrate.
   name: Portworx OpenStorageMigrate API
   slug: portworx-openstoragemigrate-api
-- description: The OpenStorageMountAttach API from Portworx — 4 operation(s) for openstoragemountattach.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageMountAttach API from Portworx — 4 operation(s) for openstoragemountattach.
   name: Portworx OpenStorageMountAttach API
   slug: portworx-openstoragemountattach-api
-- description: The OpenStorageNode API from Portworx — 9 operation(s) for openstoragenode.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageNode API from Portworx — 9 operation(s) for openstoragenode.
   name: Portworx OpenStorageNode API
   slug: portworx-openstoragenode-api
-- description: The OpenStorageObjectstore API from Portworx — 3 operation(s) for openstorageobjectstore.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageObjectstore API from Portworx — 3 operation(s) for openstorageobjectstore.
   name: Portworx OpenStorageObjectstore API
   slug: portworx-openstorageobjectstore-api
-- description: The OpenStoragePolicy API from Portworx — 6 operation(s) for openstoragepolicy.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStoragePolicy API from Portworx — 6 operation(s) for openstoragepolicy.
   name: Portworx OpenStoragePolicy API
   slug: portworx-openstoragepolicy-api
-- description: The OpenStoragePool API from Portworx — 5 operation(s) for openstoragepool.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStoragePool API from Portworx — 5 operation(s) for openstoragepool.
   name: Portworx OpenStoragePool API
   slug: portworx-openstoragepool-api
-- description: The OpenStorageRole API from Portworx — 3 operation(s) for openstoragerole.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageRole API from Portworx — 3 operation(s) for openstoragerole.
   name: Portworx OpenStorageRole API
   slug: portworx-openstoragerole-api
-- description: The OpenStorageSchedule API from Portworx — 2 operation(s) for openstorageschedule.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageSchedule API from Portworx — 2 operation(s) for openstorageschedule.
   name: Portworx OpenStorageSchedule API
   slug: portworx-openstorageschedule-api
-- description: The OpenStorageSchedulePolicy API from Portworx — 3 operation(s) for openstorageschedulepolicy.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageSchedulePolicy API from Portworx — 3 operation(s) for openstorageschedulepolicy.
   name: Portworx OpenStorageSchedulePolicy API
   slug: portworx-openstorageschedulepolicy-api
-- description: The OpenStorageVerifyChecksum API from Portworx — 3 operation(s) for openstorageverifychecksum.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageVerifyChecksum API from Portworx — 3 operation(s) for openstorageverifychecksum.
   name: Portworx OpenStorageVerifyChecksum API
   slug: portworx-openstorageverifychecksum-api
-- description: The OpenStorageVolume API from Portworx — 13 operation(s) for openstoragevolume.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageVolume API from Portworx — 13 operation(s) for openstoragevolume.
   name: Portworx OpenStorageVolume API
   slug: portworx-openstoragevolume-api
-- description: The OpenStorageWatch API from Portworx — 1 operation(s) for openstoragewatch.
+- baseURL: https://libopenstorage.github.io/
+  baseurl_source: declared
+  description: The OpenStorageWatch API from Portworx — 1 operation(s) for openstoragewatch.
   name: Portworx OpenStorageWatch API
   slug: portworx-openstoragewatch-api
 artifact_total: 58
@@ -299,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portworx/refs/heads/main/screenshots/portworx-2026-06-20T191941.png
 security:

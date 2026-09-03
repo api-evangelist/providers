@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: 'A real-time WebSocket API provided by Litecoin Space (litecoinspace.org) for subscribing to live Litecoin network events. Clients connect to the WebSocket endpoint and subscribe to channels including '
   name: Litecoin Space WebSocket API
   slug: litecoin-space-websocket-api
-- description: Address lookup, transaction history, and UTXO endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Address lookup, transaction history, and UTXO endpoints
   name: Litecoin Addresses API
   slug: litecoin-addresses-api
-- description: Chain state information endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Chain state information endpoints
   name: Litecoin Blockchain API
   slug: litecoin-blockchain-api
-- description: Block and header retrieval endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Block and header retrieval endpoints
   name: Litecoin Blocks API
   slug: litecoin-blocks-api
-- description: Fee estimation and recommendation endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Fee estimation and recommendation endpoints
   name: Litecoin Fees API
   slug: litecoin-fees-api
-- description: Litecoin Core JSON-RPC 2.0 interface. All methods are accessed via a single POST endpoint using the method field to select the operation.
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Litecoin Core JSON-RPC 2.0 interface. All methods are accessed via a single POST endpoint using the method field to select the operation.
   name: Litecoin JSON-RPC API
   slug: litecoin-json-rpc-api
-- description: Mempool state and contents endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Mempool state and contents endpoints
   name: Litecoin Mempool API
   slug: litecoin-mempool-api
-- description: Mining pool statistics, hashrate, and difficulty endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Mining pool statistics, hashrate, and difficulty endpoints
   name: Litecoin Mining API
   slug: litecoin-mining-api
-- description: Transaction retrieval endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Transaction retrieval endpoints
   name: Litecoin Transactions API
   slug: litecoin-transactions-api
-- description: Unspent transaction output query endpoints
+- baseURL: http://localhost:9332
+  baseurl_source: declared
+  description: Unspent transaction output query endpoints
   name: Litecoin UTXO API
   slug: litecoin-utxo-api
 artifact_total: 35
@@ -215,7 +233,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -225,7 +243,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.8
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -240,7 +258,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/screenshots/litecoin-2026-06-20T184600.png
 security:

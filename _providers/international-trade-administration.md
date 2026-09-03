@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Search the consolidated list of parties for which the U.S. Government maintains restrictions on certain exports, reexports, or transfers of items. Combines screening lists from the Departments of Comm
+- baseURL: https://data.trade.gov
+  baseurl_source: declared
+  description: Search the consolidated list of parties for which the U.S. Government maintains restrictions on certain exports, reexports, or transfers of items. Combines screening lists from the Departments of Comm
   name: International Trade Administration Consolidated Screening List API
   slug: international-trade-administration-consolidated-screening-list-api
-- description: Country-specific reports prepared by U.S. embassies covering the market conditions, opportunities, regulations, and business customs for U.S. exporters.
+- baseURL: https://data.trade.gov
+  baseurl_source: declared
+  description: Country-specific reports prepared by U.S. embassies covering the market conditions, opportunities, regulations, and business customs for U.S. exporters.
   name: International Trade Administration Country Commercial Guides API
   slug: international-trade-administration-country-commercial-guides-api
-- description: Tariff rates and import requirements for U.S. exports across global markets via the Customs Info Database.
+- baseURL: https://data.trade.gov
+  baseurl_source: declared
+  description: Tariff rates and import requirements for U.S. exports across global markets via the Customs Info Database.
   name: International Trade Administration Customs Tariff API
   slug: international-trade-administration-customs-tariff-api
-- description: Country-level customs de minimis values - the threshold below which duty and tax do not apply to imported goods.
+- baseURL: https://data.trade.gov
+  baseurl_source: declared
+  description: Country-level customs de minimis values - the threshold below which duty and tax do not apply to imported goods.
   name: International Trade Administration De Minimis API
   slug: international-trade-administration-de-minimis-api
-- description: Curated market intelligence articles authored by ITA's network of international trade specialists.
+- baseURL: https://data.trade.gov
+  baseurl_source: declared
+  description: Curated market intelligence articles authored by ITA's network of international trade specialists.
   name: International Trade Administration Market Intelligence API
   slug: international-trade-administration-market-intelligence-api
-- description: Aggregated international trade events including trade missions, conferences, webinars, and trade shows from federal partners.
+- baseURL: https://data.trade.gov
+  baseurl_source: declared
+  description: Aggregated international trade events including trade missions, conferences, webinars, and trade shows from federal partners.
   name: International Trade Administration Trade Events API
   slug: international-trade-administration-trade-events-api
 artifact_total: 21
@@ -213,7 +225,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-trade-administration/refs/heads/main/screenshots/international-trade-administration-2026-06-20T183459.png
 security:

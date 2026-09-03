@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -45,28 +45,44 @@ agentic_access:
   summary_line: 11 operations · 4 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: SAML 2.0 authentication request and response endpoints for initiating and completing SSO login flows.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: SAML 2.0 authentication request and response endpoints for initiating and completing SSO login flows.
   name: SSO Authentication API
   slug: sso-authentication-api
-- description: OIDC authorization endpoints for initiating authentication flows and exchanging authorization codes for tokens.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: OIDC authorization endpoints for initiating authentication flows and exchanging authorization codes for tokens.
   name: SSO Authorization API
   slug: sso-authorization-api
-- description: OpenID Provider Discovery endpoint for retrieving provider configuration metadata.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: OpenID Provider Discovery endpoint for retrieving provider configuration metadata.
   name: SSO Discovery API
   slug: sso-discovery-api
-- description: JSON Web Key Set (JWKS) endpoint for retrieving public keys used to verify ID token signatures.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: JSON Web Key Set (JWKS) endpoint for retrieving public keys used to verify ID token signatures.
   name: SSO Keys API
   slug: sso-keys-api
-- description: SAML 2.0 Single Logout (SLO) endpoints for terminating SSO sessions across all service providers.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: SAML 2.0 Single Logout (SLO) endpoints for terminating SSO sessions across all service providers.
   name: SSO Logout API
   slug: sso-logout-api
-- description: SAML 2.0 metadata endpoints for exchanging federation configuration between identity providers and service providers.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: SAML 2.0 metadata endpoints for exchanging federation configuration between identity providers and service providers.
   name: SSO Metadata API
   slug: sso-metadata-api
-- description: Token endpoint operations for exchanging authorization codes and refresh tokens for access tokens and ID tokens.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: Token endpoint operations for exchanging authorization codes and refresh tokens for access tokens and ID tokens.
   name: SSO Token API
   slug: sso-token-api
-- description: UserInfo endpoint for retrieving authenticated user profile claims.
+- baseURL: https://your-idp.example.com
+  baseurl_source: declared
+  description: UserInfo endpoint for retrieving authenticated user profile claims.
   name: SSO User Info API
   slug: sso-user-info-api
 artifact_total: 32
@@ -254,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sso/refs/heads/main/screenshots/sso-2026-06-20T194436.png
 security:

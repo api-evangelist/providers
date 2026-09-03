@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 80 operations · 40 acting
 api_count: 12
 apis:
-- description: Operations for searching available phone numbers for purchase.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for searching available phone numbers for purchase.
   name: messagebird Available Numbers API
   slug: messagebird-available-numbers-api
-- description: Operations for retrieving account balance information.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for retrieving account balance information.
   name: messagebird Balance API
   slug: messagebird-balance-api
-- description: Operations for managing call flows that define interactive voice response sequences.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing call flows that define interactive voice response sequences.
   name: messagebird Call Flows API
   slug: messagebird-call-flows-api
-- description: Operations for creating, listing, and managing voice calls.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for creating, listing, and managing voice calls.
   name: messagebird Calls API
   slug: messagebird-calls-api
-- description: Operations for managing individual contacts.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing individual contacts.
   name: messagebird Contacts API
   slug: messagebird-contacts-api
-- description: Operations for listing and managing conversations across channels.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for listing and managing conversations across channels.
   name: messagebird Conversations API
   slug: messagebird-conversations-api
-- description: Operations for managing contact groups.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing contact groups.
   name: messagebird Groups API
   slug: messagebird-groups-api
-- description: Operations for creating and viewing HLR network queries.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for creating and viewing HLR network queries.
   name: messagebird HLR API
   slug: messagebird-hlr-api
-- description: Operations for viewing and managing call legs. A leg represents a single voice connection within a call.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for viewing and managing call legs. A leg represents a single voice connection within a call.
   name: messagebird Legs API
   slug: messagebird-legs-api
-- description: Operations for looking up and validating phone numbers.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for looking up and validating phone numbers.
   name: messagebird Lookup API
   slug: messagebird-lookup-api
-- description: Operations for sending and retrieving messages within conversations.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for sending and retrieving messages within conversations.
   name: messagebird Messages API
   slug: messagebird-messages-api
-- description: Operations for managing purchased phone numbers.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing purchased phone numbers.
   name: messagebird Purchased Numbers API
   slug: messagebird-purchased-numbers-api
-- description: Operations for managing call recordings.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing call recordings.
   name: messagebird Recordings API
   slug: messagebird-recordings-api
-- description: Operations for managing message templates on supported platforms.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing message templates on supported platforms.
   name: messagebird Templates API
   slug: messagebird-templates-api
-- description: Operations for creating and viewing transcriptions of call recordings.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for creating and viewing transcriptions of call recordings.
   name: messagebird Transcriptions API
   slug: messagebird-transcriptions-api
-- description: Operations for creating, verifying, and managing verification tokens.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for creating, verifying, and managing verification tokens.
   name: messagebird Verify API
   slug: messagebird-verify-api
-- description: Operations for sending and managing text-to-speech voice messages.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for sending and managing text-to-speech voice messages.
   name: messagebird Voice Messages API
   slug: messagebird-voice-messages-api
-- description: Operations for managing conversation webhooks that receive real-time event notifications.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for managing conversation webhooks that receive real-time event notifications.
   name: messagebird Webhooks API
   slug: messagebird-webhooks-api
-- description: Operations for sending and receiving WhatsApp messages through the Conversations API interface.
+- baseURL: https://rest.messagebird.com
+  baseurl_source: declared
+  description: Operations for sending and receiving WhatsApp messages through the Conversations API interface.
   name: messagebird WhatsApp Messages API
   slug: messagebird-whatsapp-messages-api
 artifact_total: 152
@@ -503,16 +541,16 @@ jsonld:
   slug: messagebird-context
 layout: provider
 modified: '2026-05-19'
-name: messagebird
+name: Messagebird
 nav: Providers
 network: true
-overview: 'messagebird publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Available Numbers API, Balance API, Call Flows API, and 16 more.
+overview: 'Messagebird publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Available Numbers API, Balance API, Call Flows API, and 16 more.
 
 
-  The messagebird catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Messagebird catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  messagebird''s developer surface includes authentication and 10 more developer resources.'
+  Messagebird''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Messagebird Plans Pricing
   plan_count: 6
@@ -526,7 +564,7 @@ rules:
 - effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: messagebird API Rules
+  name: Messagebird API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -536,7 +574,7 @@ rules:
   slug: messagebird-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: messagebird API Rules
+  name: Messagebird API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -552,7 +590,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -562,7 +600,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.6
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -572,10 +610,10 @@ score:
       total: 19
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png
 security:

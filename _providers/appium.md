@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -52,34 +52,54 @@ apis:
 - description: The primary Appium driver for iOS and tvOS automation, backed by Apple's XCTest framework. Supports iOS 12+ and macOS Sequoia.
   name: Appium XCUITest Driver
   slug: appium-xcuitest-driver
-- description: W3C Actions API for complex input sequences
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: W3C Actions API for complex input sequences
   name: Appium Actions API
   slug: appium-actions-api
-- description: Dialog and alert handling
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Dialog and alert handling
   name: Appium Alerts API
   slug: appium-alerts-api
-- description: Appium-specific device commands (app management, files, keyboard)
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Appium-specific device commands (app management, files, keyboard)
   name: Appium Appium Device API
   slug: appium-appium-device-api
-- description: Appium session settings and capabilities
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Appium session settings and capabilities
   name: Appium Appium Session API
   slug: appium-appium-session-api
-- description: Cookie management
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Cookie management
   name: Appium Cookies API
   slug: appium-cookies-api
-- description: Element discovery and interaction
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Element discovery and interaction
   name: Appium Elements API
   slug: appium-elements-api
-- description: Browser and app navigation commands
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Browser and app navigation commands
   name: Appium Navigation API
   slug: appium-navigation-api
-- description: Screenshot capture
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Screenshot capture
   name: Appium Screenshots API
   slug: appium-screenshots-api
-- description: Server status and session listing
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: Server status and session listing
   name: Appium Server API
   slug: appium-server-api
-- description: WebDriver session lifecycle management
+- baseURL: http://localhost:4723
+  baseurl_source: declared
+  description: WebDriver session lifecycle management
   name: Appium Sessions API
   slug: appium-sessions-api
 artifact_total: 80
@@ -390,7 +410,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:

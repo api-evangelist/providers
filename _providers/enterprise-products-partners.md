@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Operational data operations
+- baseURL: https://api.enterpriseproducts.com
+  baseurl_source: declared
+  description: Operational data operations
   name: Enterprise Products Partners Operations API
   slug: enterprise-products-partners-operations-api
-- description: Pipeline information operations
+- baseURL: https://api.enterpriseproducts.com
+  baseurl_source: declared
+  description: Pipeline information operations
   name: Enterprise Products Partners Pipelines API
   slug: enterprise-products-partners-pipelines-api
 artifact_total: 11
@@ -159,7 +163,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/screenshots/enterprise-products-partners-2026-06-20T180729.png
 security:

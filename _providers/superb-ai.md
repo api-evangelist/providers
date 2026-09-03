@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Multi-tenant REST backend for the Superb Platform. 164 operations across tenants, workspaces, image datasets and assets, projects and labeling workflow, annotations, comments, auto-label runs, model t
+- baseURL: https://api.bdai.superb-ai.com
+  baseurl_source: declared
+  description: Multi-tenant REST backend for the Superb Platform. 164 operations across tenants, workspaces, image datasets and assets, projects and labeling workflow, annotations, comments, auto-label runs, model t
   name: Superb AI MLOps Platform API
   slug: superb-ai-mlops-platform-api
 artifact_total: 7
@@ -188,11 +201,11 @@ score:
   band: developing
   composite: 42.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -202,14 +215,15 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.5
+  previous_composite: 42.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/superb-ai/refs/heads/main/screenshots/superb-ai-2026-09-02T161212.png
 security:
 - kind: authentication
   name: Superb Ai Authentication

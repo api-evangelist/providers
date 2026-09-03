@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 86 operations · 68 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: API endpoints for implementing OAuth 2.0 Authorization Endpoint.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OAuth 2.0 Authorization Endpoint.
   name: Authlete Authorization Endpoint API
   slug: authlete-authorization-endpoint-api
-- description: API endpoints for implementing Client-Initiated Backchannel Authentication (CIBA).
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing Client-Initiated Backchannel Authentication (CIBA).
   name: Authlete CIBA API
   slug: authlete-ciba-api
-- description: API endpoints for managing OAuth clients, including creation, update, and deletion of clients.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for managing OAuth clients, including creation, update, and deletion of clients.
   name: Authlete Client Management API
   slug: authlete-client-management-api
-- description: API endpoints for implementing OAuth 2.0 Device Flow
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OAuth 2.0 Device Flow
   name: Authlete Device Flow API
   slug: authlete-device-flow-api
-- description: API endpoints for implementing OAuth 2.0 Dynamic Client Registration.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OAuth 2.0 Dynamic Client Registration.
   name: Authlete Dynamic Client Registration API
   slug: authlete-dynamic-client-registration-api
-- description: API endpoints for implementing OpenID Federation using Authlete.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OpenID Federation using Authlete.
   name: Authlete Federation Endpoint API
   slug: authlete-federation-endpoint-api
-- description: API endpoint for implementing OAuth 2.0 grants, including grant management actions like updating and revoking grants.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoint for implementing OAuth 2.0 grants, including grant management actions like updating and revoking grants.
   name: Authlete Grant Management Endpoint API
   slug: authlete-grant-management-endpoint-api
-- description: API endpoints for managing hardware security keys (HSK).
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for managing hardware security keys (HSK).
   name: Authlete Hardware Security Key API
   slug: authlete-hardware-security-key-api
-- description: API endpoints for implementing OAuth 2.0 Introspection Endpoint.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OAuth 2.0 Introspection Endpoint.
   name: Authlete Introspection Endpoint API
   slug: authlete-introspection-endpoint-api
-- description: API endpoints for JOSE objects.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for JOSE objects.
   name: Authlete Jose Object API
   slug: authlete-jose-object-api
-- description: API endpoints for to generate JSON Web Key Set (JWKS) for a service.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for to generate JSON Web Key Set (JWKS) for a service.
   name: Authlete JWK Set Endpoint API
   slug: authlete-jwk-set-endpoint-api
-- description: The Lifecycle API from Authlete — 1 operation(s) for lifecycle.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: The Lifecycle API from Authlete — 1 operation(s) for lifecycle.
   name: Authlete Lifecycle API
   slug: authlete-lifecycle-api
-- description: API endpoints for Native SSO
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for Native SSO
   name: Authlete Native SSO API
   slug: authlete-native-sso-api
-- description: API endpoints for implementing OAuth 2.0 Pushed Authorization Requests (PAR).
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OAuth 2.0 Pushed Authorization Requests (PAR).
   name: Authlete Pushed Authorization Endpoint API
   slug: authlete-pushed-authorization-endpoint-api
-- description: API endpoint for implementing OAuth 2.0 Revocation Endpoint.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoint for implementing OAuth 2.0 Revocation Endpoint.
   name: Authlete Revocation Endpoint API
   slug: authlete-revocation-endpoint-api
-- description: API endpoints for managing services, including creation, update, and deletion of services.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for managing services, including creation, update, and deletion of services.
   name: Authlete Service Management API
   slug: authlete-service-management-api
-- description: API endpoints for implementing OAuth 2.0 Token Endpoint.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OAuth 2.0 Token Endpoint.
   name: Authlete Token Endpoint API
   slug: authlete-token-endpoint-api
-- description: API endpoints for various token related operations, including creating, revoking and deleting access_tokens with specified scopes.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for various token related operations, including creating, revoking and deleting access_tokens with specified scopes.
   name: Authlete Token Operations API
   slug: authlete-token-operations-api
-- description: API endpoints for implementing OpenID Connect UserInfo Endpoint.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing OpenID Connect UserInfo Endpoint.
   name: Authlete UserInfo Endpoint API
   slug: authlete-userinfo-endpoint-api
-- description: API endpoints for various utility operations.
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for various utility operations.
   name: Authlete Utility Endpoints API
   slug: authlete-utility-endpoints-api
-- description: API endpoints for implementing and running a Verifiable Credential Issuer (VCI).
+- baseURL: https://us.authlete.com
+  baseurl_source: declared
+  description: API endpoints for implementing and running a Verifiable Credential Issuer (VCI).
   name: Authlete Verifiable Credential Issuer API
   slug: authlete-verifiable-credential-issuer-api
 artifact_total: 48
@@ -362,7 +404,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authlete/refs/heads/main/screenshots/authlete-2026-07-25T201804.png
 security:

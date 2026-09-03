@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Create and manage transactions.
+- baseURL: https://secure.paytabs.com
+  baseurl_source: declared
+  description: Create and manage transactions.
   name: PayTabs Payments API
   slug: paytabs-payments-api
-- description: Query and manage existing transactions.
+- baseURL: https://secure.paytabs.com
+  baseurl_source: declared
+  description: Query and manage existing transactions.
   name: PayTabs Transactions API
   slug: paytabs-transactions-api
 artifact_total: 17
@@ -280,7 +284,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -290,7 +294,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 70.8
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,7 +312,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytabs/refs/heads/main/screenshots/paytabs-2026-08-07T191705.png
 security:

@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The University of Sheffield's own research API, built and run by the Sheffield Solar group in the Department of Physics and Astronomy. It publishes PV_Live — near-real-time and historical estimates of
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The University of Sheffield's own research API, built and run by the Sheffield Solar group in the Department of Physics and Astronomy. It publishes PV_Live — near-real-time and historical estimates of
   name: Sheffield Solar API
   slug: sheffield-solar-api
 - description: The institution's own SAML 2.0 identity provider, entityID https://idp.shef.ac.uk/shibboleth, serving live Shibboleth metadata from Sheffield's own domain. Machine-readable, institution-operated by de
@@ -246,23 +248,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
+  composite: 44.7
   coverage:
     artifact_dirs: 16
     catalog_gap: 32.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -7.2
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 34.1
-    contract_quality: 28.1
+    contract_quality: 26.2
     developer_ergonomics: 42.9
     discoverability: 68.5
     governance: 34.1
     operational_transparency: 23.7
-  previous_composite: 52.4
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     contracts:
@@ -277,8 +279,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/screenshots/university-of-sheffield-2026-06-20T200244.png
 security:
 - kind: authentication

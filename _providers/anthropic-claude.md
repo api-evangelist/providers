@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Submit and manage asynchronous Message Batches.
+- baseURL: https://api.anthropic.com
+  baseurl_source: declared
+  description: Submit and manage asynchronous Message Batches.
   name: Anthropic Claude Message Batches API
   slug: anthropic-claude-message-batches-api
-- description: Create messages with Claude models.
+- baseURL: https://api.anthropic.com
+  baseurl_source: declared
+  description: Create messages with Claude models.
   name: Anthropic Claude Messages API
   slug: anthropic-claude-messages-api
-- description: List and inspect available Claude models.
+- baseURL: https://api.anthropic.com
+  baseurl_source: declared
+  description: List and inspect available Claude models.
   name: Anthropic Claude Models API
   slug: anthropic-claude-models-api
-- description: Count tokens for a prospective Messages request.
+- baseURL: https://api.anthropic.com
+  baseurl_source: declared
+  description: Count tokens for a prospective Messages request.
   name: Anthropic Claude Token Counting API
   slug: anthropic-claude-token-counting-api
 artifact_total: 17
@@ -240,7 +248,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -250,7 +258,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/screenshots/anthropic-claude-2026-06-20T172031.png
 security:

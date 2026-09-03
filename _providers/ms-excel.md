@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: The Me API from Microsoft Excel API — 9 operation(s) for me.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me API from Microsoft Excel API — 9 operation(s) for me.
   name: Microsoft Excel API Me API
   slug: ms-excel-me-api
 artifact_total: 12
@@ -160,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-excel/refs/heads/main/screenshots/ms-excel-2026-06-20T185845.png
 security:

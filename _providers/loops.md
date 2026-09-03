@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,67 +44,107 @@ agentic_access:
   summary_line: 24 operations · 10 acting
 api_count: 1
 apis:
-- description: Validate a Loops API key and discover which team it belongs to. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Validate a Loops API key and discover which team it belongs to. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops API key API
   slug: loops-api-key-api
-- description: Read and create saved audience segments used to target campaigns and workflows. 3 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Read and create saved audience segments used to target campaigns and workflows. 3 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Audience segments API
   slug: loops-audience-segments-api
-- description: Organize campaigns into groups. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Organize campaigns into groups. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Campaign groups API
   slug: loops-campaign-groups-api
-- description: Create, target, schedule and update email campaigns. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create, target, schedule and update email campaigns. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Campaigns API
   slug: loops-campaigns-api
-- description: Create, read and update reusable LMX email components. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create, read and update reusable LMX email components. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Components API
   slug: loops-components-api
-- description: Read team configuration, including dedicated sending IP addresses. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Read team configuration, including dedicated sending IP addresses. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Configuration API
   slug: loops-configuration-api
-- description: Create and list the custom properties available on contacts. 2 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create and list the custom properties available on contacts. 2 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Contact properties API
   slug: loops-contact-properties-api
-- description: Create, update, find and delete contacts, and manage suppression status. 6 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create, update, find and delete contacts, and manage suppression status. 6 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Contacts API
   slug: loops-contacts-api
-- description: Read, update, preview and Guardian-validate the LMX body of campaigns, workflow emails and transactional templates. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Read, update, preview and Guardian-validate the LMX body of campaigns, workflow emails and transactional templates. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Email messages API
   slug: loops-email-messages-api
-- description: Read the event patterns Loops has detected from incoming events, including their observed properties. 3 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Read the event patterns Loops has detected from incoming events, including their observed properties. 3 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Event patterns API
   slug: loops-event-patterns-api
-- description: Send events that update contact activity and trigger published workflows. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Send events that update contact activity and trigger published workflows. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Events API
   slug: loops-events-api
-- description: List the mailing lists in your account. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: List the mailing lists in your account. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Mailing lists API
   slug: loops-mailing-lists-api
-- description: Create, read and update reusable email themes. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create, read and update reusable email themes. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Themes API
   slug: loops-themes-api
-- description: Create, edit, publish, list and send transactional email templates with data variables. 8 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create, edit, publish, list and send transactional email templates with data variables. 8 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Transactional emails API
   slug: loops-transactional-emails-api
-- description: Organize transactional emails into groups. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Organize transactional emails into groups. 4 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Transactional groups API
   slug: loops-transactional-groups-api
-- description: Upload image assets for use in emails via a presigned-URL flow. 2 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Upload image assets for use in emails via a presigned-URL flow. 2 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Uploads API
   slug: loops-uploads-api
-- description: Create, read, update, delete and reroute the nodes of a workflow graph. 7 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Create, read, update, delete and reroute the nodes of a workflow graph. 7 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Workflow nodes API
   slug: loops-workflow-nodes-api
-- description: List, create, inspect and update automation workflows and their mailing-list targeting. 5 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: List, create, inspect and update automation workflows and their mailing-list targeting. 5 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops Workflows API
   slug: loops-workflows-api
 - description: Remote Model Context Protocol server for Loops, reachable at https://mcp.loops.so over Streamable HTTP with OAuth 2.0 (PKCE, scope "mcp"). Exposes four meta-tools — search, describe, execute and teams
   name: Loops MCP Server
   slug: loops-mcp-server
-- description: Outbound event surface. Seventeen signed event types covering contact lifecycle, mailing-list membership, and email delivery, engagement and complaint signals, delivered by HTTP POST to one subscriber
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: Outbound event surface. Seventeen signed event types covering contact lifecycle, mailing-list membership, and email delivery, engagement and complaint signals, delivered by HTTP POST to one subscriber
   name: Loops Webhooks
   slug: loops-webhooks
-- description: 'Events Loops sends to your configured webhook endpoint when certain events happen in your account. Configure an endpoint in Settings → Webhooks. Each account supports one webhook endpoint. Events are '
+- baseURL: https://app.loops.so/api/v1
+  baseurl_source: declared
+  description: 'Events Loops sends to your configured webhook endpoint when certain events happen in your account. Configure an endpoint in Settings → Webhooks. Each account supports one webhook endpoint. Events are '
   name: Loops Webhooks API
   slug: loops-webhooks-api
 artifact_total: 43
@@ -379,7 +419,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -389,7 +429,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 68.9
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -401,7 +441,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/screenshots/loops-2026-06-20T184718.png
 security:

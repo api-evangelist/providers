@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -44,166 +44,274 @@ agentic_access:
   summary_line: 46 operations · 26 acting · 1 human-in-the-loop
 api_count: 20
 apis:
-- description: The Authentication API from Toast — 1 operation(s) for authentication.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Authentication API from Toast — 1 operation(s) for authentication.
   name: Toast Authentication API
   slug: toast-authentication-api
-- description: The ConnectedRestaurants API from Toast — 1 operation(s) for connectedrestaurants.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The ConnectedRestaurants API from Toast — 1 operation(s) for connectedrestaurants.
   name: Toast ConnectedRestaurants API
   slug: toast-connectedrestaurants-api
-- description: Related to price reduction applied to restaurant orders. For example, a restaurant might apply a discount for a promotion.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: Related to price reduction applied to restaurant orders. For example, a restaurant might apply a discount for a promotion.
   name: Toast Discounts API
   slug: toast-discounts-api
-- description: The Employees API from Toast — 6 operation(s) for employees.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Employees API from Toast — 6 operation(s) for employees.
   name: Toast Employees API
   slug: toast-employees-api
-- description: The Groups API from Toast — 1 operation(s) for groups.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Groups API from Toast — 1 operation(s) for groups.
   name: Toast Groups API
   slug: toast-groups-api
-- description: The Jobs API from Toast — 3 operation(s) for jobs.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Jobs API from Toast — 3 operation(s) for jobs.
   name: Toast Jobs API
   slug: toast-jobs-api
-- description: The Menus API from Toast — 1 operation(s) for menus.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Menus API from Toast — 1 operation(s) for menus.
   name: Toast Menus API
   slug: toast-menus-api
-- description: The Metadata API from Toast — 1 operation(s) for metadata.
+- baseURL: https://toast-api-server/menus/v3
+  baseurl_source: spec
+  description: The Metadata API from Toast — 1 operation(s) for metadata.
   name: Toast Metadata API
   slug: toast-metadata-api
-- description: Related to orders made by restaurant guests. For example, a restaurant guest orders items from a menu. Toast platform orders include one or more guest check.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: Related to orders made by restaurant guests. For example, a restaurant guest orders items from a menu. Toast platform orders include one or more guest check.
   name: Toast Orders API
   slug: toast-orders-api
-- description: Related to guests' payments for restaurant orders. Toast platform payments apply to a check in an order.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: Related to guests' payments for restaurant orders. Toast platform payments apply to a check in an order.
   name: Toast Payments API
   slug: toast-payments-api
-- description: The Restaurants API from Toast — 2 operation(s) for restaurants.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Restaurants API from Toast — 2 operation(s) for restaurants.
   name: Toast Restaurants API
   slug: toast-restaurants-api
-- description: The Shifts API from Toast — 2 operation(s) for shifts.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Shifts API from Toast — 2 operation(s) for shifts.
   name: Toast Shifts API
   slug: toast-shifts-api
-- description: The Stock API from Toast — 3 operation(s) for stock.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Stock API from Toast — 3 operation(s) for stock.
   name: Toast Stock API
   slug: toast-stock-api
-- description: The Time entries API from Toast — 2 operation(s) for time entries.
+- baseURL: https://toast-api-server/authentication/v1
+  baseurl_source: spec
+  description: The Time entries API from Toast — 2 operation(s) for time entries.
   name: Toast Time entries API
   slug: toast-time-entries-api
-- description: The analytics API endpoints for aggregated sales reporting data covering sales and labor information.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoints for aggregated sales reporting data covering sales and labor information.
   name: Toast Aggregated sales API
   slug: toast-aggregated-sales-api
-- description: The Alternate Payment Types API from Toast — 2 operation(s) for alternate payment types.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Alternate Payment Types API from Toast — 2 operation(s) for alternate payment types.
   name: Toast Alternate Payment Types API
   slug: toast-alternate-payment-types-api
-- description: The availability API from Toast — 1 operation(s) for availability.
+- baseURL: https://toast-api-server/restaurant-availability/v1
+  baseurl_source: spec
+  description: The availability API from Toast — 1 operation(s) for availability.
   name: Toast Availability API
   slug: toast-availability-api
-- description: The Break Types API from Toast — 2 operation(s) for break types.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Break Types API from Toast — 2 operation(s) for break types.
   name: Toast Break Types API
   slug: toast-break-types-api
-- description: The Cash Drawers API from Toast — 2 operation(s) for cash drawers.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Cash Drawers API from Toast — 2 operation(s) for cash drawers.
   name: Toast Cash Drawers API
   slug: toast-cash-drawers-api
-- description: The analytics API endpoints for check reporting data.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoints for check reporting data.
   name: Toast Check API
   slug: toast-check-api
-- description: The Deposits API from Toast — 1 operation(s) for deposits.
+- baseURL: https://toast-api-server/cashmgmt/v1
+  baseurl_source: spec
+  description: The Deposits API from Toast — 1 operation(s) for deposits.
   name: Toast Deposits API
   slug: toast-deposits-api
-- description: The Device details API from Toast — 1 operation(s) for device details.
+- baseURL: https://toast-api-server/device-details/v1
+  baseurl_source: spec
+  description: The Device details API from Toast — 1 operation(s) for device details.
   name: Toast Device details API
   slug: toast-device-details-api
-- description: The Dining Options API from Toast — 2 operation(s) for dining options.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Dining Options API from Toast — 2 operation(s) for dining options.
   name: Toast Dining Options API
   slug: toast-dining-options-api
-- description: The Entries API from Toast — 1 operation(s) for entries.
+- baseURL: https://toast-api-server/cashmgmt/v1
+  baseurl_source: spec
+  description: The Entries API from Toast — 1 operation(s) for entries.
   name: Toast Entries API
   slug: toast-entries-api
-- description: The Export API from Toast — 1 operation(s) for export.
+- baseURL: https://toast-api-server/kitchen/v1
+  baseurl_source: spec
+  description: The Export API from Toast — 1 operation(s) for export.
   name: Toast Export API
   slug: toast-export-api
-- description: The analytics API endpoint for guest reporting data organized by payment.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoint for guest reporting data organized by payment.
   name: Toast Guest API
   slug: toast-guest-api
-- description: The analytics API endpoints for labor reporting data. This only supports hourly job and employee data.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoints for labor reporting data. This only supports hourly job and employee data.
   name: Toast Labor API
   slug: toast-labor-api
-- description: The analytics API endpoints for menu reporting data.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoints for menu reporting data.
   name: Toast Menu API
   slug: toast-menu-api
-- description: The Menu Groups API from Toast — 2 operation(s) for menu groups.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Menu Groups API from Toast — 2 operation(s) for menu groups.
   name: Toast Menu Groups API
   slug: toast-menu-groups-api
-- description: The Menu Items API from Toast — 2 operation(s) for menu items.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Menu Items API from Toast — 2 operation(s) for menu items.
   name: Toast Menu Items API
   slug: toast-menu-items-api
-- description: The Merchants API from Toast — 1 operation(s) for merchants.
+- baseURL: https://toast-api-server/ccpartner/v1
+  baseurl_source: spec
+  description: The Merchants API from Toast — 1 operation(s) for merchants.
   name: Toast Merchants API
   slug: toast-merchants-api
-- description: The Modifier Groups API from Toast — 2 operation(s) for modifier groups.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Modifier Groups API from Toast — 2 operation(s) for modifier groups.
   name: Toast Modifier Groups API
   slug: toast-modifier-groups-api
-- description: The No Sale Reasons API from Toast — 2 operation(s) for no sale reasons.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The No Sale Reasons API from Toast — 2 operation(s) for no sale reasons.
   name: Toast No Sale Reasons API
   slug: toast-no-sale-reasons-api
-- description: Operations related to online ordering schedules
+- baseURL: https://toast-api-server/ordermgmt-config/v1
+  baseurl_source: spec
+  description: Operations related to online ordering schedules
   name: Toast Ordering Schedule API
   slug: toast-ordering-schedule-api
-- description: The analytics API endpoint for payout reporting data organized by payments.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoint for payout reporting data organized by payments.
   name: Toast Payout by payments API
   slug: toast-payout-by-payments-api
-- description: The analytics API endpoint for payout reporting data organized by sales date.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoint for payout reporting data organized by sales date.
   name: Toast Payout by sales date API
   slug: toast-payout-by-sales-date-api
-- description: The analytics API endpoint for payout reporting data organized by settled date.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoint for payout reporting data organized by settled date.
   name: Toast Payout by settled date API
   slug: toast-payout-by-settled-date-api
-- description: The Payout Reasons API from Toast — 2 operation(s) for payout reasons.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Payout Reasons API from Toast — 2 operation(s) for payout reasons.
   name: Toast Payout Reasons API
   slug: toast-payout-reasons-api
-- description: The Pre Modifier Groups API from Toast — 2 operation(s) for pre modifier groups.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Pre Modifier Groups API from Toast — 2 operation(s) for pre modifier groups.
   name: Toast Pre Modifier Groups API
   slug: toast-pre-modifier-groups-api
-- description: The Pre Modifiers API from Toast — 2 operation(s) for pre modifiers.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Pre Modifiers API from Toast — 2 operation(s) for pre modifiers.
   name: Toast Pre Modifiers API
   slug: toast-pre-modifiers-api
-- description: The Price Groups API from Toast — 2 operation(s) for price groups.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Price Groups API from Toast — 2 operation(s) for price groups.
   name: Toast Price Groups API
   slug: toast-price-groups-api
-- description: The Printers API from Toast — 2 operation(s) for printers.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Printers API from Toast — 2 operation(s) for printers.
   name: Toast Printers API
   slug: toast-printers-api
-- description: The Published API from Toast — 3 operation(s) for published.
+- baseURL: https://toast-api-server/kitchen/v1
+  baseurl_source: spec
+  description: The Published API from Toast — 3 operation(s) for published.
   name: Toast Published API
   slug: toast-published-api
-- description: The Restaurant Services API from Toast — 2 operation(s) for restaurant services.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Restaurant Services API from Toast — 2 operation(s) for restaurant services.
   name: Toast Restaurant Services API
   slug: toast-restaurant-services-api
-- description: The analytics API endpoint for providing information about restaurants in a management group.
+- baseURL: https://toast-api-server/era/v1
+  baseurl_source: spec
+  description: The analytics API endpoint for providing information about restaurants in a management group.
   name: Toast Restaurants information API
   slug: toast-restaurants-information-api
-- description: The Revenue Centers API from Toast — 2 operation(s) for revenue centers.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Revenue Centers API from Toast — 2 operation(s) for revenue centers.
   name: Toast Revenue Centers API
   slug: toast-revenue-centers-api
-- description: The Sales Categories API from Toast — 2 operation(s) for sales categories.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Sales Categories API from Toast — 2 operation(s) for sales categories.
   name: Toast Sales Categories API
   slug: toast-sales-categories-api
-- description: The Service Areas API from Toast — 2 operation(s) for service areas.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Service Areas API from Toast — 2 operation(s) for service areas.
   name: Toast Service Areas API
   slug: toast-service-areas-api
-- description: The Service Charges API from Toast — 2 operation(s) for service charges.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Service Charges API from Toast — 2 operation(s) for service charges.
   name: Toast Service Charges API
   slug: toast-service-charges-api
-- description: The Tables API from Toast — 2 operation(s) for tables.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Tables API from Toast — 2 operation(s) for tables.
   name: Toast Tables API
   slug: toast-tables-api
-- description: The Tax Rates API from Toast — 2 operation(s) for tax rates.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Tax Rates API from Toast — 2 operation(s) for tax rates.
   name: Toast Tax Rates API
   slug: toast-tax-rates-api
-- description: The Tip Withholding API from Toast — 1 operation(s) for tip withholding.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Tip Withholding API from Toast — 1 operation(s) for tip withholding.
   name: Toast Tip Withholding API
   slug: toast-tip-withholding-api
-- description: The Void Reasons API from Toast — 2 operation(s) for void reasons.
+- baseURL: https://toast-api-server/config/v2
+  baseurl_source: spec
+  description: The Void Reasons API from Toast — 2 operation(s) for void reasons.
   name: Toast Void Reasons API
   slug: toast-void-reasons-api
-- description: The Yourendpointname API from Toast — 1 operation(s) for yourendpointname.
+- baseURL: https://toast-api-server/yourapiname/v1
+  baseurl_source: spec
+  description: The Yourendpointname API from Toast — 1 operation(s) for yourendpointname.
   name: Toast Yourendpointname API
   slug: toast-yourendpointname-api
 artifact_total: 420
@@ -1626,23 +1734,23 @@ scopes:
   summary_line: 28 scopes
 score:
   band: strong
-  composite: 65.8
+  composite: 65.6
   coverage:
     artifact_dirs: 32
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.9
+  delta: -0.2
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 33.3
-    contract_quality: 74.7
+    contract_quality: 73.9
     developer_ergonomics: 63.7
     discoverability: 57.4
     governance: 33.3
     operational_transparency: 92.1
-  previous_composite: 60.9
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1654,7 +1762,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png
 security:

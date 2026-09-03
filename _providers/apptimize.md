@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Track user events used as experiment and feature-flag goals.
+- baseURL: https://api.apptimize.com
+  baseurl_source: declared
+  description: Track user events used as experiment and feature-flag goals.
   name: Apptimize Events API
   slug: apptimize-events-api
-- description: Retrieve variant assignments and experiment data for a user.
+- baseURL: https://api.apptimize.com
+  baseurl_source: declared
+  description: Retrieve variant assignments and experiment data for a user.
   name: Apptimize Experiments API
   slug: apptimize-experiments-api
 artifact_total: 8
@@ -176,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/screenshots/apptimize-2026-07-25T200851.png
 security:

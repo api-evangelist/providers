@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: Container booking management
+- baseURL: https://api.cargosmart.com
+  baseurl_source: declared
+  description: Container booking management
   name: CargoSmart Bookings API
   slug: cargosmart-bookings-api
-- description: Container tracking and event history
+- baseURL: https://api.cargosmart.com
+  baseurl_source: declared
+  description: Container tracking and event history
   name: CargoSmart Containers API
   slug: cargosmart-containers-api
-- description: Shipping documentation
+- baseURL: https://api.cargosmart.com
+  baseurl_source: declared
+  description: Shipping documentation
   name: CargoSmart Documents API
   slug: cargosmart-documents-api
-- description: Shipment visibility and status
+- baseURL: https://api.cargosmart.com
+  baseurl_source: declared
+  description: Shipment visibility and status
   name: CargoSmart Shipments API
   slug: cargosmart-shipments-api
-- description: Vessel position and schedule
+- baseURL: https://api.cargosmart.com
+  baseurl_source: declared
+  description: Vessel position and schedule
   name: CargoSmart Vessels API
   slug: cargosmart-vessels-api
 artifact_total: 25
@@ -225,7 +235,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -235,7 +245,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 34.9
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -244,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png
 security:

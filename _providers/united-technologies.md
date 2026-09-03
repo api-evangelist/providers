@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 3
 apis:
-- description: Flight information and tracking operations
+- baseURL: https://api.arinconline.collinsaerospace.com
+  baseurl_source: declared
+  description: Flight information and tracking operations
   name: United Technologies Flights API
   slug: united-technologies-flights-api
-- description: Aviation message transmission and retrieval operations
+- baseURL: https://api.arinconline.collinsaerospace.com
+  baseurl_source: declared
+  description: Aviation message transmission and retrieval operations
   name: United Technologies Messages API
   slug: united-technologies-messages-api
-- description: Aviation weather data operations
+- baseURL: https://api.arinconline.collinsaerospace.com
+  baseurl_source: declared
+  description: Aviation weather data operations
   name: United Technologies Weather API
   slug: united-technologies-weather-api
 artifact_total: 58
@@ -307,7 +313,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/screenshots/united-technologies-2026-06-20T200101.png
 security:

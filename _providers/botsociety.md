@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage conversations (legacy apisociety 2.0 API)
+- baseURL: https://app.botsociety.io
+  baseurl_source: declared
+  description: Manage conversations (legacy apisociety 2.0 API)
   name: BotSociety Conversations API
   slug: botsociety-conversations-api
-- description: Retrieve design/integration content (current API)
+- baseURL: https://app.botsociety.io
+  baseurl_source: declared
+  description: Retrieve design/integration content (current API)
   name: BotSociety Designs API
   slug: botsociety-designs-api
-- description: Manage messages within a conversation (legacy apisociety 2.0 API)
+- baseURL: https://app.botsociety.io
+  baseurl_source: declared
+  description: Manage messages within a conversation (legacy apisociety 2.0 API)
   name: BotSociety Messages API
   slug: botsociety-messages-api
-- description: Manage variables within a conversation (legacy apisociety 2.0 API)
+- baseURL: https://app.botsociety.io
+  baseurl_source: declared
+  description: Manage variables within a conversation (legacy apisociety 2.0 API)
   name: BotSociety Variables API
   slug: botsociety-variables-api
 artifact_total: 12
@@ -184,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/screenshots/botsociety-2026-07-25T203642.png
 security:

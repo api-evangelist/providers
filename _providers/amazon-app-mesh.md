@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 76 operations · 46 acting
 api_count: 2
 apis:
-- description: The Meshes API from Amazon App Mesh — 14 operation(s) for meshes.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Meshes API from Amazon App Mesh — 14 operation(s) for meshes.
   name: Amazon App Mesh Meshes API
   slug: amazon-app-mesh-meshes-api
-- description: The Tag#resourceArn API from Amazon App Mesh — 1 operation(s) for tag#resourcearn.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Tag#resourceArn API from Amazon App Mesh — 1 operation(s) for tag#resourcearn.
   name: Amazon App Mesh Tag#resourceArn API
   slug: amazon-app-mesh-tag-resourcearn-api
-- description: The Tags#resourceArn API from Amazon App Mesh — 1 operation(s) for tags#resourcearn.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon App Mesh — 1 operation(s) for tags#resourcearn.
   name: Amazon App Mesh Tags#resourceArn API
   slug: amazon-app-mesh-tags-resourcearn-api
-- description: The Untag#resourceArn API from Amazon App Mesh — 1 operation(s) for untag#resourcearn.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Untag#resourceArn API from Amazon App Mesh — 1 operation(s) for untag#resourcearn.
   name: Amazon App Mesh Untag#resourceArn API
   slug: amazon-app-mesh-untag-resourcearn-api
 artifact_total: 999
@@ -3183,7 +3191,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

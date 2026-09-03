@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Housing properties.
+- baseURL: https://data.1degree.org/v1
+  baseurl_source: declared
+  description: Housing properties.
   name: One Degree Housing API
   slug: one-degree-housing-api
-- description: Physical locations, phones, and schedules.
+- baseURL: https://data.1degree.org/v1
+  baseurl_source: declared
+  description: Physical locations, phones, and schedules.
   name: One Degree Locations API
   slug: one-degree-locations-api
-- description: Programs/services offered by organizations.
+- baseURL: https://data.1degree.org/v1
+  baseurl_source: declared
+  description: Programs/services offered by organizations.
   name: One Degree Opportunities API
   slug: one-degree-opportunities-api
-- description: Social-service organizations.
+- baseURL: https://data.1degree.org/v1
+  baseurl_source: declared
+  description: Social-service organizations.
   name: One Degree Organizations API
   slug: one-degree-organizations-api
-- description: Property types, rating types, and guides.
+- baseURL: https://data.1degree.org/v1
+  baseurl_source: declared
+  description: Property types, rating types, and guides.
   name: One Degree Reference API
   slug: one-degree-reference-api
-- description: Community submissions.
+- baseURL: https://data.1degree.org/v1
+  baseurl_source: declared
+  description: Community submissions.
   name: One Degree Submissions API
   slug: one-degree-submissions-api
 arazzos:
@@ -229,7 +241,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-degree/refs/heads/main/screenshots/one-degree-2026-08-07T190242.png
 security:

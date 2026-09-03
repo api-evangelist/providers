@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 10 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Jobs API from Amazon Elastic Transcoder — 2 operation(s) for jobs.
+- baseURL: https://elastictranscoder.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon Elastic Transcoder — 2 operation(s) for jobs.
   name: Amazon Elastic Transcoder Jobs API
   slug: amazon-elastic-transcoder-jobs-api
-- description: The JobsByPipeline API from Amazon Elastic Transcoder — 1 operation(s) for jobsbypipeline.
+- baseURL: https://elastictranscoder.amazonaws.com
+  baseurl_source: declared
+  description: The JobsByPipeline API from Amazon Elastic Transcoder — 1 operation(s) for jobsbypipeline.
   name: Amazon Elastic Transcoder JobsByPipeline API
   slug: amazon-elastic-transcoder-jobsbypipeline-api
-- description: The JobsByStatus API from Amazon Elastic Transcoder — 1 operation(s) for jobsbystatus.
+- baseURL: https://elastictranscoder.amazonaws.com
+  baseurl_source: declared
+  description: The JobsByStatus API from Amazon Elastic Transcoder — 1 operation(s) for jobsbystatus.
   name: Amazon Elastic Transcoder JobsByStatus API
   slug: amazon-elastic-transcoder-jobsbystatus-api
-- description: The Pipelines API from Amazon Elastic Transcoder — 4 operation(s) for pipelines.
+- baseURL: https://elastictranscoder.amazonaws.com
+  baseurl_source: declared
+  description: The Pipelines API from Amazon Elastic Transcoder — 4 operation(s) for pipelines.
   name: Amazon Elastic Transcoder Pipelines API
   slug: amazon-elastic-transcoder-pipelines-api
-- description: The Presets API from Amazon Elastic Transcoder — 2 operation(s) for presets.
+- baseURL: https://elastictranscoder.amazonaws.com
+  baseurl_source: declared
+  description: The Presets API from Amazon Elastic Transcoder — 2 operation(s) for presets.
   name: Amazon Elastic Transcoder Presets API
   slug: amazon-elastic-transcoder-presets-api
-- description: The RoleTests API from Amazon Elastic Transcoder — 1 operation(s) for roletests.
+- baseURL: https://elastictranscoder.amazonaws.com
+  baseurl_source: declared
+  description: The RoleTests API from Amazon Elastic Transcoder — 1 operation(s) for roletests.
   name: Amazon Elastic Transcoder RoleTests API
   slug: amazon-elastic-transcoder-roletests-api
 arazzos:
@@ -1609,7 +1621,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/screenshots/amazon-elastic-transcoder-2026-06-20T171639.png
 security:

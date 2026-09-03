@@ -33,70 +33,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
   name: Kusama JSON-RPC API
   slug: json-rpc
-- description: The accounts API from Kusama — 11 operation(s) for accounts.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The accounts API from Kusama — 11 operation(s) for accounts.
   name: Kusama accounts API
   slug: kusama-accounts-api
-- description: Asset Hub Migration information
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: Asset Hub Migration information
   name: Kusama ahm API
   slug: kusama-ahm-api
-- description: The blocks API from Kusama — 8 operation(s) for blocks.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The blocks API from Kusama — 8 operation(s) for blocks.
   name: Kusama blocks API
   slug: kusama-blocks-api
-- description: The contracts API from Kusama — 1 operation(s) for contracts.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The contracts API from Kusama — 1 operation(s) for contracts.
   name: Kusama contracts API
   slug: kusama-contracts-api
-- description: The coretime API from Kusama — 6 operation(s) for coretime.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The coretime API from Kusama — 6 operation(s) for coretime.
   name: Kusama coretime API
   slug: kusama-coretime-api
-- description: node connected to sidecar
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: node connected to sidecar
   name: Kusama node API
   slug: kusama-node-api
-- description: pallets employed in the runtime
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: pallets employed in the runtime
   name: Kusama pallets API
   slug: kusama-pallets-api
-- description: The paras API from Kusama — 9 operation(s) for paras.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The paras API from Kusama — 9 operation(s) for paras.
   name: Kusama paras API
   slug: kusama-paras-api
-- description: The rc accounts API from Kusama — 5 operation(s) for rc accounts.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc accounts API from Kusama — 5 operation(s) for rc accounts.
   name: Kusama rc accounts API
   slug: kusama-rc-accounts-api
-- description: relay chain specific endpoints for asset hub
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: relay chain specific endpoints for asset hub
   name: Kusama rc API
   slug: kusama-rc-api
-- description: The rc blocks API from Kusama — 8 operation(s) for rc blocks.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc blocks API from Kusama — 8 operation(s) for rc blocks.
   name: Kusama rc blocks API
   slug: kusama-rc-blocks-api
-- description: The rc node API from Kusama — 3 operation(s) for rc node.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc node API from Kusama — 3 operation(s) for rc node.
   name: Kusama rc node API
   slug: kusama-rc-node-api
-- description: The rc pallets API from Kusama — 13 operation(s) for rc pallets.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc pallets API from Kusama — 13 operation(s) for rc pallets.
   name: Kusama rc pallets API
   slug: kusama-rc-pallets-api
-- description: The rc runtime API from Kusama — 5 operation(s) for rc runtime.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc runtime API from Kusama — 5 operation(s) for rc runtime.
   name: Kusama rc runtime API
   slug: kusama-rc-runtime-api
-- description: The rc staking API from Kusama — 4 operation(s) for rc staking.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc staking API from Kusama — 4 operation(s) for rc staking.
   name: Kusama rc staking API
   slug: kusama-rc-staking-api
-- description: The rc transaction API from Kusama — 5 operation(s) for rc transaction.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The rc transaction API from Kusama — 5 operation(s) for rc transaction.
   name: Kusama rc transaction API
   slug: kusama-rc-transaction-api
-- description: The runtime API from Kusama — 5 operation(s) for runtime.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The runtime API from Kusama — 5 operation(s) for runtime.
   name: Kusama runtime API
   slug: kusama-runtime-api
-- description: The staking API from Kusama — 4 operation(s) for staking.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The staking API from Kusama — 4 operation(s) for staking.
   name: Kusama staking API
   slug: kusama-staking-api
-- description: The trace API from Kusama — 4 operation(s) for trace.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The trace API from Kusama — 4 operation(s) for trace.
   name: Kusama trace API
   slug: kusama-trace-api
-- description: The transaction API from Kusama — 6 operation(s) for transaction.
+- baseURL: https://kusama-rpc.polkadot.io/
+  baseurl_source: declared
+  description: The transaction API from Kusama — 6 operation(s) for transaction.
   name: Kusama transaction API
   slug: kusama-transaction-api
 artifact_total: 49
@@ -325,7 +367,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -335,7 +377,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 48.4
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -346,7 +388,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

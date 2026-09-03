@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 69 operations · 32 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Delinquency event tracking and lien-unit auctions.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Delinquency event tracking and lien-unit auctions.
   name: Storable Delinquency & Auctions API
   slug: storable-delinquency-auctions-api
-- description: Lease/rental documents and electronic signature.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Lease/rental documents and electronic signature.
   name: Storable Documents & eSign API
   slug: storable-documents-esign-api
-- description: Gate codes, access points, and gate activity logging.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Gate codes, access points, and gate activity logging.
   name: Storable Gate Access API
   slug: storable-gate-access-api
-- description: Tenant protection plan summary, activity, and enrollment settings.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Tenant protection plan summary, activity, and enrollment settings.
   name: Storable Insurance API
   slug: storable-insurance-api
-- description: Lead pipeline - reservations, inquiries, waitlist.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Lead pipeline - reservations, inquiries, waitlist.
   name: Storable Leads & Reservations API
   slug: storable-leads-reservations-api
-- description: Tenant ledgers, payments, payment methods, invoices.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Tenant ledgers, payments, payment methods, invoices.
   name: Storable Ledgers & Payments API
   slug: storable-ledgers-payments-api
-- description: Rental move-in and move-out lifecycle.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Rental move-in and move-out lifecycle.
   name: Storable Move Ins & Outs API
   slug: storable-move-ins-outs-api
-- description: Asynchronous report requests at the facility and company level.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Asynchronous report requests at the facility and company level.
   name: Storable Reporting API
   slug: storable-reporting-api
-- description: Facility and unit-level operational task management.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Facility and unit-level operational task management.
   name: Storable Tasks API
   slug: storable-tasks-api
-- description: Tenant accounts, preferences, notes, and eligibility.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Tenant accounts, preferences, notes, and eligibility.
   name: Storable Tenants API
   slug: storable-tenants-api
-- description: Unit inventory, unit groups/types, and tiered rate management.
+- baseURL: https://api.storedgefms.com/v1
+  baseurl_source: declared
+  description: Unit inventory, unit groups/types, and tiered rate management.
   name: Storable Units & Rates API
   slug: storable-units-rates-api
 artifact_total: 29
@@ -185,7 +207,7 @@ score:
   band: emerging
   composite: 26.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -214,8 +236,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/screenshots/storable-2026-09-02T160924.png
 security:
 - kind: authentication
   name: Storable Authentication

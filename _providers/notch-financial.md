@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 6 acting
 api_count: 1
 apis:
-- description: The Bank Accounts API from Notch — 1 operation(s) for bank accounts.
+- baseURL: https://api.notch.financial
+  baseurl_source: spec
+  description: The Bank Accounts API from Notch — 1 operation(s) for bank accounts.
   name: Notch Bank Accounts API
   slug: notch-financial-bank-accounts-api
-- description: The Customers API from Notch — 2 operation(s) for customers.
+- baseURL: https://api.notch.financial
+  baseurl_source: spec
+  description: The Customers API from Notch — 2 operation(s) for customers.
   name: Notch Customers API
   slug: notch-financial-customers-api
-- description: The Invoices API from Notch — 2 operation(s) for invoices.
+- baseURL: https://api.notch.financial
+  baseurl_source: spec
+  description: The Invoices API from Notch — 2 operation(s) for invoices.
   name: Notch Invoices API
   slug: notch-financial-invoices-api
-- description: The Payment Methods API from Notch — 1 operation(s) for payment methods.
+- baseURL: https://api.notch.financial
+  baseurl_source: spec
+  description: The Payment Methods API from Notch — 1 operation(s) for payment methods.
   name: Notch Payment Methods API
   slug: notch-financial-payment-methods-api
-- description: The Payments API from Notch — 2 operation(s) for payments.
+- baseURL: https://api.notch.financial
+  baseurl_source: spec
+  description: The Payments API from Notch — 2 operation(s) for payments.
   name: Notch Payments API
   slug: notch-financial-payments-api
-- description: The Webhooks API from Notch — 1 operation(s) for webhooks.
+- baseURL: https://api.notch.financial
+  baseurl_source: spec
+  description: The Webhooks API from Notch — 1 operation(s) for webhooks.
   name: Notch Webhooks API
   slug: notch-financial-webhooks-api
 artifact_total: 20
@@ -187,7 +199,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notch-financial/refs/heads/main/screenshots/notch-financial-2026-08-07T185542.png
 security:

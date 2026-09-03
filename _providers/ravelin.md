@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -46,37 +46,59 @@ apis:
 - description: A purpose-built API surface for Payment Service Providers (PSPs) embedding Ravelin's risk scoring and dispute capture into their own merchant-facing product. Exposes Score, Transaction, Dispute, and t
   name: Ravelin PSP API
   slug: ravelin-psp-api
-- description: EMV 3DS 2.x authentication operations.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: EMV 3DS 2.x authentication operations.
   name: Ravelin 3D Secure API
   slug: ravelin-3d-secure-api
-- description: Login and registration events for account takeover scoring.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Login and registration events for account takeover scoring.
   name: Ravelin Authentication API
   slug: ravelin-authentication-api
-- description: Pre-payment order risk scoring.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Pre-payment order risk scoring.
   name: Ravelin Checkout API
   slug: ravelin-checkout-api
-- description: Cross-merchant identity and signal sharing.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Cross-merchant identity and signal sharing.
   name: Ravelin Connect API
   slug: ravelin-connect-api
-- description: Customer profile, identity, and label events.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Customer profile, identity, and label events.
   name: Ravelin Customer API
   slug: ravelin-customer-api
-- description: Chargebacks, disputes, and reclaim events.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Chargebacks, disputes, and reclaim events.
   name: Ravelin Disputes API
   slug: ravelin-disputes-api
-- description: Outbound payouts to suppliers and recipients.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Outbound payouts to suppliers and recipients.
   name: Ravelin Payouts API
   slug: ravelin-payouts-api
-- description: Refund requests and decisioning.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Refund requests and decisioning.
   name: Ravelin Refunds API
   slug: ravelin-refunds-api
-- description: Supplier, driver, courier, and seller events for marketplace risk.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Supplier, driver, courier, and seller events for marketplace risk.
   name: Ravelin Supplier API
   slug: ravelin-supplier-api
-- description: Payment attempts, captures, refunds, and authorizations.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Payment attempts, captures, refunds, and authorizations.
   name: Ravelin Transactions API
   slug: ravelin-transactions-api
-- description: Voucher, promo, and payment-method voucher events.
+- baseURL: https://api.ravelin.com
+  baseurl_source: declared
+  description: Voucher, promo, and payment-method voucher events.
   name: Ravelin Vouchers API
   slug: ravelin-vouchers-api
 artifact_total: 55
@@ -329,7 +351,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:

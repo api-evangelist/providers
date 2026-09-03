@@ -33,70 +33,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Auth API from TrustLayer — 1 operation(s) for auth.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Auth API from TrustLayer — 1 operation(s) for auth.
   name: TrustLayer Auth API
   slug: trustlayer-auth-api
-- description: The branding API from TrustLayer — 2 operation(s) for branding.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The branding API from TrustLayer — 2 operation(s) for branding.
   name: TrustLayer branding API
   slug: trustlayer-branding-api
-- description: The compliance-profiles API from TrustLayer — 8 operation(s) for compliance-profiles.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The compliance-profiles API from TrustLayer — 8 operation(s) for compliance-profiles.
   name: TrustLayer compliance-profiles API
   slug: trustlayer-compliance-profiles-api
-- description: The contacts API from TrustLayer — 4 operation(s) for contacts.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The contacts API from TrustLayer — 4 operation(s) for contacts.
   name: TrustLayer contacts API
   slug: trustlayer-contacts-api
-- description: The Context Objects API from TrustLayer — 2 operation(s) for context objects.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Context Objects API from TrustLayer — 2 operation(s) for context objects.
   name: TrustLayer Context Objects API
   slug: trustlayer-context-objects-api
-- description: The Context Records API from TrustLayer — 7 operation(s) for context records.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Context Records API from TrustLayer — 7 operation(s) for context records.
   name: TrustLayer Context Records API
   slug: trustlayer-context-records-api
-- description: The custom-fields API from TrustLayer — 4 operation(s) for custom-fields.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The custom-fields API from TrustLayer — 4 operation(s) for custom-fields.
   name: TrustLayer custom-fields API
   slug: trustlayer-custom-fields-api
-- description: The Document Types API from TrustLayer — 2 operation(s) for document types.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Document Types API from TrustLayer — 2 operation(s) for document types.
   name: TrustLayer Document Types API
   slug: trustlayer-document-types-api
-- description: The documents API from TrustLayer — 15 operation(s) for documents.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The documents API from TrustLayer — 15 operation(s) for documents.
   name: TrustLayer documents API
   slug: trustlayer-documents-api
-- description: The Parties API from TrustLayer — 20 operation(s) for parties.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Parties API from TrustLayer — 20 operation(s) for parties.
   name: TrustLayer Parties API
   slug: trustlayer-parties-api
-- description: The party-types API from TrustLayer — 1 operation(s) for party-types.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The party-types API from TrustLayer — 1 operation(s) for party-types.
   name: TrustLayer party-types API
   slug: trustlayer-party-types-api
-- description: The Policies API from TrustLayer — 11 operation(s) for policies.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Policies API from TrustLayer — 11 operation(s) for policies.
   name: TrustLayer Policies API
   slug: trustlayer-policies-api
-- description: The Primary Objects API from TrustLayer — 2 operation(s) for primary objects.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Primary Objects API from TrustLayer — 2 operation(s) for primary objects.
   name: TrustLayer Primary Objects API
   slug: trustlayer-primary-objects-api
-- description: The Primary Records API from TrustLayer — 12 operation(s) for primary records.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Primary Records API from TrustLayer — 12 operation(s) for primary records.
   name: TrustLayer Primary Records API
   slug: trustlayer-primary-records-api
-- description: The Projects API from TrustLayer — 9 operation(s) for projects.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Projects API from TrustLayer — 9 operation(s) for projects.
   name: TrustLayer Projects API
   slug: trustlayer-projects-api
-- description: The reports API from TrustLayer — 2 operation(s) for reports.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The reports API from TrustLayer — 2 operation(s) for reports.
   name: TrustLayer reports API
   slug: trustlayer-reports-api
-- description: The Request Records API from TrustLayer — 7 operation(s) for request records.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Request Records API from TrustLayer — 7 operation(s) for request records.
   name: TrustLayer Request Records API
   slug: trustlayer-request-records-api
-- description: The Requirements API from TrustLayer — 2 operation(s) for requirements.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Requirements API from TrustLayer — 2 operation(s) for requirements.
   name: TrustLayer Requirements API
   slug: trustlayer-requirements-api
-- description: The tags API from TrustLayer — 4 operation(s) for tags.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The tags API from TrustLayer — 4 operation(s) for tags.
   name: TrustLayer tags API
   slug: trustlayer-tags-api
-- description: The Views API from TrustLayer — 2 operation(s) for views.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Views API from TrustLayer — 2 operation(s) for views.
   name: TrustLayer Views API
   slug: trustlayer-views-api
-- description: The Workspaces API from TrustLayer — 1 operation(s) for workspaces.
+- baseURL: https://api.trustlayer.io/v2
+  baseurl_source: declared
+  description: The Workspaces API from TrustLayer — 1 operation(s) for workspaces.
   name: TrustLayer Workspaces API
   slug: trustlayer-workspaces-api
 artifact_total: 48
@@ -304,7 +346,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -314,7 +356,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     conformance: derived
     contracts:
@@ -331,7 +373,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustlayer/refs/heads/main/screenshots/trustlayer-2026-08-17T082453.png
 security:

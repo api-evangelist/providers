@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 99 operations · 80 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage connected cloud accounts onboarded to Eon.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Manage connected cloud accounts onboarded to Eon.
   name: Eon accounts API
   slug: eon-accounts-api
-- description: The actionApprovals API from Eon — 3 operation(s) for actionapprovals.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: The actionApprovals API from Eon — 3 operation(s) for actionapprovals.
   name: Eon actionApprovals API
   slug: eon-actionapprovals-api
-- description: Authentication and access token management.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Authentication and access token management.
   name: Eon auth API
   slug: eon-auth-api
-- description: Define and manage backup policies and schedules.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Define and manage backup policies and schedules.
   name: Eon backupPolicies API
   slug: eon-backuppolicies-api
-- description: The backups API from Eon — 1 operation(s) for backups.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: The backups API from Eon — 1 operation(s) for backups.
   name: Eon backups API
   slug: eon-backups-api
-- description: Access billing and usage metering information.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Access billing and usage metering information.
   name: Eon billing API
   slug: eon-billing-api
-- description: The dashboard API from Eon — 1 operation(s) for dashboard.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: The dashboard API from Eon — 1 operation(s) for dashboard.
   name: Eon dashboard API
   slug: eon-dashboard-api
-- description: Manage database snapshots and their recovery points.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Manage database snapshots and their recovery points.
   name: Eon databaseSnapshots API
   slug: eon-databasesnapshots-api
-- description: The iam API from Eon — 8 operation(s) for iam.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: The iam API from Eon — 8 operation(s) for iam.
   name: Eon iam API
   slug: eon-iam-api
-- description: Track backup, restore, and other asynchronous jobs.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Track backup, restore, and other asynchronous jobs.
   name: Eon jobs API
   slug: eon-jobs-api
-- description: Discover and manage protected cloud resources.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Discover and manage protected cloud resources.
   name: Eon resources API
   slug: eon-resources-api
-- description: Manage resource snapshots and point-in-time recovery points.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Manage resource snapshots and point-in-time recovery points.
   name: Eon snapshots API
   slug: eon-snapshots-api
-- description: Manage backup vaults that store snapshots.
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Manage backup vaults that store snapshots.
   name: Eon vaults API
   slug: eon-vaults-api
 artifact_total: 32
@@ -290,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eon/refs/heads/main/screenshots/eon-2026-08-17T123419.png
 security:

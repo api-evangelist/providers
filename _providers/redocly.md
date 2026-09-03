@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
@@ -61,16 +61,24 @@ apis:
 - description: Arazzo is the OpenAPI Initiative's specification for describing multi-step API workflows; Redocly is a primary tooling vendor with first-class Arazzo support across Redocly CLI (lint, validate, genera
   name: Arazzo Specification (Redocly Tooling)
   slug: redocly-arazzo
-- description: 'The Search API is the machine-readable query surface of any Realm project: POST /_search returns documentation and API-reference matches and POST /_search-facets returns facet aggregations. It is the '
+- baseURL: https://redocly.com
+  baseurl_source: declared
+  description: 'The Search API is the machine-readable query surface of any Realm project: POST /_search returns documentation and API-reference matches and POST /_search-facets returns facet aggregations. It is the '
   name: Redocly Realm Search API
   slug: redocly-search-api
-- description: 'The Docs MCP server is Realm''s Model Context Protocol endpoint, generated automatically from a project''s documentation and OpenAPI descriptions and served at /mcp on the project root. Redocly runs it '
+- baseURL: https://redocly.com/mcp
+  baseurl_source: declared
+  description: 'The Docs MCP server is Realm''s Model Context Protocol endpoint, generated automatically from a project''s documentation and OpenAPI descriptions and served at /mcp on the project root. Redocly runs it '
   name: Redocly Docs MCP Server
   slug: redocly-docs-mcp
-- description: 'Scout is Redocly''s API-discovery service: it crawls connected Git remotes, tracks pull requests and runs jobs that find hidden, duplicate and undocumented APIs, then pushes what it finds into a Reunit'
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: 'Scout is Redocly''s API-discovery service: it crawls connected Git remotes, tracks pull requests and runs jobs that find hidden, duplicate and undocumented APIs, then pushes what it finds into a Reunit'
   name: Redocly Scout API
   slug: redocly-scout
-- description: 'The Scout agent is the self-hosted worker half of Scout, deployed inside the customer''s own infrastructure (Redocly documents an AWS ECS task definition). Its API is small and operational: a health ch'
+- baseURL: http://{host}
+  baseurl_source: declared
+  description: 'The Scout agent is the self-hosted worker half of Scout, deployed inside the customer''s own infrastructure (Redocly documents an AWS ECS task definition). Its API is small and operational: a health ch'
   name: Redocly Scout Agent API
   slug: redocly-scout-agent
 artifact_total: 31
@@ -388,7 +396,7 @@ score:
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.9
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -398,7 +406,7 @@ score:
     discoverability: 72.2
     governance: 43.2
     operational_transparency: 92.1
-  previous_composite: 65.2
+  previous_composite: 73.1
   provenance:
     conformance: first-party
     contracts:
@@ -409,8 +417,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png
 security:
 - kind: authentication

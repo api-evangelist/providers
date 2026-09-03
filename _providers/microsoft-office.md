@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: API for integrating with Microsoft Teams, including messaging, channels, and collaboration features.
   name: Teams API
   slug: teams-api
-- description: The Drive API from Microsoft Office — 4 operation(s) for drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Drive API from Microsoft Office — 4 operation(s) for drive.
   name: Microsoft Office Drive API
   slug: microsoft-office-drive-api
-- description: The Mail API from Microsoft Office — 4 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Mail API from Microsoft Office — 4 operation(s) for mail.
   name: Microsoft Office Mail API
   slug: microsoft-office-mail-api
-- description: The Teams API from Microsoft Office — 4 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams API from Microsoft Office — 4 operation(s) for teams.
   name: Microsoft Office Teams API
   slug: microsoft-office-teams-api
 arazzos:
@@ -333,7 +339,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/screenshots/microsoft-office-2026-06-20T185511.png
 security:

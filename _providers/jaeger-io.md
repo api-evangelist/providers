@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 11 operations · 4 acting
 api_count: 3
 apis:
-- description: The CollectorService API from Jaeger — 1 operation(s) for collectorservice.
+- baseURL: http://localhost:14268
+  baseurl_source: spec
+  description: The CollectorService API from Jaeger — 1 operation(s) for collectorservice.
   name: Jaeger CollectorService API
   slug: jaeger-io-collectorservice-api
-- description: The QueryService API from Jaeger — 6 operation(s) for queryservice.
+- baseURL: http://localhost:14268
+  baseurl_source: spec
+  description: The QueryService API from Jaeger — 6 operation(s) for queryservice.
   name: Jaeger QueryService API
   slug: jaeger-io-queryservice-api
-- description: The SamplingManager API from Jaeger — 2 operation(s) for samplingmanager.
+- baseURL: http://localhost:14268
+  baseurl_source: spec
+  description: The SamplingManager API from Jaeger — 2 operation(s) for samplingmanager.
   name: Jaeger SamplingManager API
   slug: jaeger-io-samplingmanager-api
 artifact_total: 30
@@ -327,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/screenshots/jaeger-io-2026-06-20T183651.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,49 +45,79 @@ agentic_access:
   summary_line: 26 operations
 api_count: 2
 apis:
-- description: 'Real-time price streaming over a persistent, bidirectional WebSocket at wss://ws.twelvedata.com/v1/quotes/price. Clients authenticate with an apikey query parameter, send JSON subscribe / unsubscribe '
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: 'Real-time price streaming over a persistent, bidirectional WebSocket at wss://ws.twelvedata.com/v1/quotes/price. Clients authenticate with an apikey query parameter, send JSON subscribe / unsubscribe '
   name: Twelve Data WebSocket Streaming API
   slug: twelvedata-websocket-streaming-api
-- description: Real-time quotes, latest prices, and end-of-day data.
+- baseURL: https://api.twelvedata.com
+  baseurl_source: declared
+  description: Real-time quotes, latest prices, and end-of-day data.
   name: Twelve Data Core Data API
   slug: twelvedata-core-data-api
-- description: Company profiles, statements, dividends, earnings, and analysis.
+- baseURL: https://api.twelvedata.com
+  baseurl_source: declared
+  description: Company profiles, statements, dividends, earnings, and analysis.
   name: Twelve Data Fundamentals API
   slug: twelvedata-fundamentals-api
-- description: Catalogs of instruments, exchanges, and supporting metadata.
+- baseURL: https://api.twelvedata.com
+  baseurl_source: declared
+  description: Catalogs of instruments, exchanges, and supporting metadata.
   name: Twelve Data Reference Data API
   slug: twelvedata-reference-data-api
-- description: 100+ technical analysis indicators computed over time series.
+- baseURL: https://api.twelvedata.com
+  baseurl_source: declared
+  description: 100+ technical analysis indicators computed over time series.
   name: Twelve Data Technical Indicators API
   slug: twelvedata-technical-indicators-api
-- description: Historical and real-time OHLCV time series.
+- baseURL: https://api.twelvedata.com
+  baseurl_source: declared
+  description: Historical and real-time OHLCV time series.
   name: Twelve Data Time Series API
   slug: twelvedata-time-series-api
-- description: The advanced API from Twelve Data — 2 operation(s) for advanced.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The advanced API from Twelve Data — 2 operation(s) for advanced.
   name: Twelve Data Advanced API
   slug: twelvedata-advanced-api
-- description: The analysis API from Twelve Data — 9 operation(s) for analysis.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The analysis API from Twelve Data — 9 operation(s) for analysis.
   name: Twelve Data Analysis API
   slug: twelvedata-analysis-api
-- description: The currencies API from Twelve Data — 2 operation(s) for currencies.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The currencies API from Twelve Data — 2 operation(s) for currencies.
   name: Twelve Data Currencies API
   slug: twelvedata-currencies-api
-- description: The etfs API from Twelve Data — 8 operation(s) for etfs.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The etfs API from Twelve Data — 8 operation(s) for etfs.
   name: Twelve Data Etfs API
   slug: twelvedata-etfs-api
-- description: The market_data API from Twelve Data — 6 operation(s) for market_data.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The market_data API from Twelve Data — 6 operation(s) for market_data.
   name: Twelve Data Market Data API
   slug: twelvedata-market-data-api
-- description: The money_market_funds API from Twelve Data — 2 operation(s) for money_market_funds.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The money_market_funds API from Twelve Data — 2 operation(s) for money_market_funds.
   name: Twelve Data Money Market Funds API
   slug: twelvedata-money-market-funds-api
-- description: The mutual_funds API from Twelve Data — 11 operation(s) for mutual_funds.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The mutual_funds API from Twelve Data — 11 operation(s) for mutual_funds.
   name: Twelve Data Mutual Funds API
   slug: twelvedata-mutual-funds-api
-- description: The regulatory API from Twelve Data — 7 operation(s) for regulatory.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The regulatory API from Twelve Data — 7 operation(s) for regulatory.
   name: Twelve Data Regulatory API
   slug: twelvedata-regulatory-api
-- description: The technical_indicator API from Twelve Data — 102 operation(s) for technical_indicator.
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The technical_indicator API from Twelve Data — 102 operation(s) for technical_indicator.
   name: Twelve Data Technical Indicator API
   slug: twelvedata-technical-indicator-api
 artifact_total: 39
@@ -351,7 +381,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -361,7 +391,7 @@ score:
     discoverability: 75.9
     governance: 15.9
     operational_transparency: 68.4
-  previous_composite: 74.9
+  previous_composite: 74.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,7 +413,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
 security:

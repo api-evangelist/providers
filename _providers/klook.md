@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Availability API from Klook — 2 operation(s) for availability.
+- baseURL: https://{supplier_endpoint}/octo
+  baseurl_source: declared
+  description: The Availability API from Klook — 2 operation(s) for availability.
   name: Klook Availability API
   slug: klook-availability-api
-- description: The Bookings API from Klook — 5 operation(s) for bookings.
+- baseURL: https://{supplier_endpoint}/octo
+  baseurl_source: declared
+  description: The Bookings API from Klook — 5 operation(s) for bookings.
   name: Klook Bookings API
   slug: klook-bookings-api
-- description: The Products API from Klook — 2 operation(s) for products.
+- baseURL: https://{supplier_endpoint}/octo
+  baseurl_source: declared
+  description: The Products API from Klook — 2 operation(s) for products.
   name: Klook Products API
   slug: klook-products-api
-- description: The Supplier API from Klook — 1 operation(s) for supplier.
+- baseURL: https://{supplier_endpoint}/octo
+  baseurl_source: declared
+  description: The Supplier API from Klook — 1 operation(s) for supplier.
   name: Klook Supplier API
   slug: klook-supplier-api
 artifact_total: 13
@@ -214,7 +222,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -224,7 +232,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 43.3
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     contracts:
@@ -235,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klook/refs/heads/main/screenshots/klook-2026-08-17T123946.png
 security:

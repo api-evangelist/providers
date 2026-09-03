@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 18 operations · 12 acting
 api_count: 3
 apis:
-- description: The CustomProps API from Plausible — 2 operation(s) for customprops.
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The CustomProps API from Plausible — 2 operation(s) for customprops.
   name: Plausible CustomProps API
   slug: plausible-customprops-api
-- description: Submit pageviews and custom events.
+- baseURL: https://plausible.io/api
+  baseurl_source: declared
+  description: Submit pageviews and custom events.
   name: Plausible Events API
   slug: plausible-events-api
-- description: The Goals API from Plausible — 2 operation(s) for goals.
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The Goals API from Plausible — 2 operation(s) for goals.
   name: Plausible Goals API
   slug: plausible-goals-api
-- description: The Guests API from Plausible — 2 operation(s) for guests.
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The Guests API from Plausible — 2 operation(s) for guests.
   name: Plausible Guests API
   slug: plausible-guests-api
-- description: Run analytics queries against site data.
+- baseURL: https://plausible.io/api/v2
+  baseurl_source: declared
+  description: Run analytics queries against site data.
   name: Plausible Query API
   slug: plausible-query-api
-- description: The SharedLinks API from Plausible — 1 operation(s) for sharedlinks.
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The SharedLinks API from Plausible — 1 operation(s) for sharedlinks.
   name: Plausible SharedLinks API
   slug: plausible-sharedlinks-api
-- description: The Sites API from Plausible — 2 operation(s) for sites.
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The Sites API from Plausible — 2 operation(s) for sites.
   name: Plausible Sites API
   slug: plausible-sites-api
-- description: The Teams API from Plausible — 1 operation(s) for teams.
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The Teams API from Plausible — 1 operation(s) for teams.
   name: Plausible Teams API
   slug: plausible-teams-api
 artifact_total: 28
@@ -374,7 +390,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:

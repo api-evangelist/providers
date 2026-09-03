@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Plugin interface that allows extending Porter's core functionality, such as storing installation data, credential sets, and parameter sets in external systems like cloud storage instead of the local f
   name: Porter Plugins API
   slug: porter-plugins-api
-- description: Operations for searching, inspecting, and managing CNAB bundles published to OCI registries.
+- baseURL: https://porter.sh
+  baseurl_source: declared
+  description: Operations for searching, inspecting, and managing CNAB bundles published to OCI registries.
   name: Porter Bundles API
   slug: porter-bundles-api
-- description: Operations for managing credential sets that supply secret values to bundle executions.
+- baseURL: https://porter.sh
+  baseurl_source: declared
+  description: Operations for managing credential sets that supply secret values to bundle executions.
   name: Porter CredentialSets API
   slug: porter-credentialsets-api
-- description: Operations for managing bundle installations, including install, upgrade, invoke, and uninstall lifecycle actions.
+- baseURL: https://porter.sh
+  baseurl_source: declared
+  description: Operations for managing bundle installations, including install, upgrade, invoke, and uninstall lifecycle actions.
   name: Porter Installations API
   slug: porter-installations-api
-- description: Operations for managing parameter sets that supply configuration values to bundle executions.
+- baseURL: https://porter.sh
+  baseurl_source: declared
+  description: Operations for managing parameter sets that supply configuration values to bundle executions.
   name: Porter ParameterSets API
   slug: porter-parametersets-api
-- description: Operations for querying the history of bundle action executions and their outputs.
+- baseURL: https://porter.sh
+  baseurl_source: declared
+  description: Operations for querying the history of bundle action executions and their outputs.
   name: Porter Runs API
   slug: porter-runs-api
 artifact_total: 23
@@ -243,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/screenshots/porter-2026-06-20T191932.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 4
 apis:
-- description: Operations for managing Clean Rooms collaborations
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Clean Rooms collaborations
   name: Amazon Clean Rooms Collaborations API
   slug: amazon-clean-rooms-collaborations-api
-- description: Operations for managing configured tables
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing configured tables
   name: Amazon Clean Rooms Configured Tables API
   slug: amazon-clean-rooms-configured-tables-api
-- description: Operations for managing collaboration memberships
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing collaboration memberships
   name: Amazon Clean Rooms Memberships API
   slug: amazon-clean-rooms-memberships-api
-- description: Operations for executing and managing protected queries
+- baseURL: https://cleanrooms.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for executing and managing protected queries
   name: Amazon Clean Rooms Protected Queries API
   slug: amazon-clean-rooms-protected-queries-api
 artifact_total: 94
@@ -528,7 +536,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -538,7 +546,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 92.1
-  previous_composite: 64.5
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -550,7 +558,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:

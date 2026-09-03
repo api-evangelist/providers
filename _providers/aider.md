@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -46,46 +46,74 @@ apis:
 - description: Aider exposes a Python module entrypoint (`python -m aider`) and an importable package (`aider.main.main`) so Aider can be embedded in Python scripts, CI workflows, and other agents. The same flags an
   name: Aider Python Module
   slug: python-module
-- description: Aider Commands That Manage the Chat Session and History.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Manage the Chat Session and History.
   name: Aider Chat API
   slug: aider-chat-api
-- description: Aider Commands That Drive Code Edits and Diffs.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Drive Code Edits and Diffs.
   name: Aider Editing API
   slug: aider-editing-api
-- description: Aider Commands That Manage Files in the Chat Session.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Manage Files in the Chat Session.
   name: Aider Files API
   slug: aider-files-api
-- description: Aider Commands That Wrap Git Operations.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Wrap Git Operations.
   name: Aider Git API
   slug: aider-git-api
-- description: Aider Commands That Move Data In and Out of the Session.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Move Data In and Out of the Session.
   name: Aider IO API
   slug: aider-io-api
-- description: Aider Launch-Time Configuration via Flags, YAML, and Environment Variables.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Launch-Time Configuration via Flags, YAML, and Environment Variables.
   name: Aider Launch API
   slug: aider-launch-api
-- description: Aider Repository-Map Inspection.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Repository-Map Inspection.
   name: Aider Map API
   slug: aider-map-api
-- description: Aider Commands That Switch or Query LLM Models.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Switch or Query LLM Models.
   name: Aider Models API
   slug: aider-models-api
-- description: Aider Chat Modes (Code, Architect, Ask, Help, Context).
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Chat Modes (Code, Architect, Ask, Help, Context).
   name: Aider Modes API
   slug: aider-modes-api
-- description: Aider Commands That Run Linters and Tests.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Run Linters and Tests.
   name: Aider Quality API
   slug: aider-quality-api
-- description: Aider Session Lifecycle Commands.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Session Lifecycle Commands.
   name: Aider Session API
   slug: aider-session-api
-- description: Aider Settings, Tokens, and Reasoning Controls.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Settings, Tokens, and Reasoning Controls.
   name: Aider Settings API
   slug: aider-settings-api
-- description: Aider Voice-to-Code Input.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Voice-to-Code Input.
   name: Aider Voice API
   slug: aider-voice-api
-- description: Aider Commands That Pull in Web Content.
+- baseURL: https://aider.chat
+  baseurl_source: declared
+  description: Aider Commands That Pull in Web Content.
   name: Aider Web API
   slug: aider-web-api
 artifact_total: 116
@@ -598,7 +626,7 @@ score:
       marker_coverage: 100.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/screenshots/aider-2026-06-20T170838.png
 security:

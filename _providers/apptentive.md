@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 36 operations · 1 acting
 api_count: 1
 apis:
-- description: experimental data endpoints
+- baseURL: https://data.apptentive.com
+  baseurl_source: declared
+  description: experimental data endpoints
   name: Apptentive experimental API
   slug: apptentive-experimental-api
-- description: info endpoints
+- baseURL: https://data.apptentive.com
+  baseurl_source: declared
+  description: info endpoints
   name: Apptentive info API
   slug: apptentive-info-api
-- description: metrics data endpoints
+- baseURL: https://data.apptentive.com
+  baseurl_source: declared
+  description: metrics data endpoints
   name: Apptentive metrics API
   slug: apptentive-metrics-api
-- description: raw data endpoints
+- baseURL: https://data.apptentive.com
+  baseurl_source: declared
+  description: raw data endpoints
   name: Apptentive raw API
   slug: apptentive-raw-api
 artifact_total: 15
@@ -208,7 +216,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apptentive/refs/heads/main/screenshots/apptentive-2026-07-25T200848.png
 security:

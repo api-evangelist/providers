@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 20 operations · 15 acting
 api_count: 1
 apis:
-- description: Datasets and dataset logs.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: Datasets and dataset logs.
   name: Keywords AI Datasets API
   slug: keywordsai-datasets-api
-- description: Output-scoring evaluators.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: Output-scoring evaluators.
   name: Keywords AI Evaluators API
   slug: keywordsai-evaluators-api
-- description: Prompt / model experiments.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: Prompt / model experiments.
   name: Keywords AI Experiments API
   slug: keywordsai-experiments-api
-- description: OpenAI-compatible LLM proxy (chat completions).
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: OpenAI-compatible LLM proxy (chat completions).
   name: Keywords AI Gateway API
   slug: keywordsai-gateway-api
-- description: Asynchronous request / span logging.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: Asynchronous request / span logging.
   name: Keywords AI Logging API
   slug: keywordsai-logging-api
-- description: Prompt and prompt-version management.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: Prompt and prompt-version management.
   name: Keywords AI Prompts API
   slug: keywordsai-prompts-api
-- description: Multi-turn conversation threads.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: Multi-turn conversation threads.
   name: Keywords AI Threads API
   slug: keywordsai-threads-api
-- description: OpenTelemetry-aligned distributed traces.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: OpenTelemetry-aligned distributed traces.
   name: Keywords AI Traces API
   slug: keywordsai-traces-api
-- description: End-user (customer) analytics.
+- baseURL: https://api.keywordsai.co/api
+  baseurl_source: declared
+  description: End-user (customer) analytics.
   name: Keywords AI Users API
   slug: keywordsai-users-api
 artifact_total: 29
@@ -203,7 +221,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -213,7 +231,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.8
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -222,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/screenshots/keywordsai-2026-06-20T184016.png
 security:

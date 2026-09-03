@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -47,31 +47,49 @@ apis:
 - description: Partner API for onboarding customers, managing their optimization strategies, and creating marketplace offers through AWS CPPO, Microsoft MPO / ISV-to-CSP Private Offer, and Google MCPO programs.
   name: Archera Partner API
   slug: archera-partner-api
-- description: API for managing commitment plans
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: API for managing commitment plans
   name: Archera Commitment Plans API
   slug: archera-commitment-plans-api
-- description: API for retrieving and analyzing cloud commitment inventory, including Reserved Instances, Savings Plans, and Azure Reserved VM Instances. Provides access to detailed commitment data, utilization metr
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: API for retrieving and analyzing cloud commitment inventory, including Reserved Instances, Savings Plans, and Azure Reserved VM Instances. Provides access to detailed commitment data, utilization metr
   name: Archera Commitments API
   slug: archera-commitments-api
-- description: API for commitment exchange recommendations
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: API for commitment exchange recommendations
   name: Archera Exchanges API
   slug: archera-exchanges-api
-- description: High level metrics to track commitment performance.
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: High level metrics to track commitment performance.
   name: Archera Metrics API
   slug: archera-metrics-api
-- description: OAuth 2.0 authorization endpoints for third-party integrations
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints for third-party integrations
   name: Archera OAuth API
   slug: archera-oauth-api
-- description: Endpoints for organizations accessible to the authenticated user
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: Endpoints for organizations accessible to the authenticated user
   name: Archera Orgs API
   slug: archera-orgs-api
-- description: API for retrieving and analyzing infrastructure resources
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: API for retrieving and analyzing infrastructure resources
   name: Archera Resources API
   slug: archera-resources-api
-- description: API for uploading billing files for savings analysis
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: API for uploading billing files for savings analysis
   name: Archera Uploads API
   slug: archera-uploads-api
-- description: OAuth 2.0 discovery endpoints (JWKS and Authorization Server Metadata)
+- baseURL: https://api.archera.ai
+  baseurl_source: declared
+  description: OAuth 2.0 discovery endpoints (JWKS and Authorization Server Metadata)
   name: Archera Well-Known API
   slug: archera-well-known-api
 artifact_total: 26
@@ -271,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

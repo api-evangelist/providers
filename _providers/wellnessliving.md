@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 55 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Appointments API from WellnessLiving — 4 operation(s) for appointments.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Appointments API from WellnessLiving — 4 operation(s) for appointments.
   name: WellnessLiving Appointments API
   slug: wellnessliving-appointments-api
-- description: The Authentication API from WellnessLiving — 4 operation(s) for authentication.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Authentication API from WellnessLiving — 4 operation(s) for authentication.
   name: WellnessLiving Authentication API
   slug: wellnessliving-authentication-api
-- description: The Booking API from WellnessLiving — 4 operation(s) for booking.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Booking API from WellnessLiving — 4 operation(s) for booking.
   name: WellnessLiving Booking API
   slug: wellnessliving-booking-api
-- description: The Business API from WellnessLiving — 4 operation(s) for business.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Business API from WellnessLiving — 4 operation(s) for business.
   name: WellnessLiving Business API
   slug: wellnessliving-business-api
-- description: The Catalog API from WellnessLiving — 4 operation(s) for catalog.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Catalog API from WellnessLiving — 4 operation(s) for catalog.
   name: WellnessLiving Catalog API
   slug: wellnessliving-catalog-api
-- description: The Classes API from WellnessLiving — 4 operation(s) for classes.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Classes API from WellnessLiving — 4 operation(s) for classes.
   name: WellnessLiving Classes API
   slug: wellnessliving-classes-api
-- description: The Clients API from WellnessLiving — 4 operation(s) for clients.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Clients API from WellnessLiving — 4 operation(s) for clients.
   name: WellnessLiving Clients API
   slug: wellnessliving-clients-api
-- description: The Locations API from WellnessLiving — 4 operation(s) for locations.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Locations API from WellnessLiving — 4 operation(s) for locations.
   name: WellnessLiving Locations API
   slug: wellnessliving-locations-api
-- description: The Payments API from WellnessLiving — 4 operation(s) for payments.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Payments API from WellnessLiving — 4 operation(s) for payments.
   name: WellnessLiving Payments API
   slug: wellnessliving-payments-api
-- description: The Promotions API from WellnessLiving — 4 operation(s) for promotions.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Promotions API from WellnessLiving — 4 operation(s) for promotions.
   name: WellnessLiving Promotions API
   slug: wellnessliving-promotions-api
-- description: The Reports API from WellnessLiving — 3 operation(s) for reports.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Reports API from WellnessLiving — 3 operation(s) for reports.
   name: WellnessLiving Reports API
   slug: wellnessliving-reports-api
-- description: The Reviews API from WellnessLiving — 3 operation(s) for reviews.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Reviews API from WellnessLiving — 3 operation(s) for reviews.
   name: WellnessLiving Reviews API
   slug: wellnessliving-reviews-api
-- description: The Rewards API from WellnessLiving — 4 operation(s) for rewards.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Rewards API from WellnessLiving — 4 operation(s) for rewards.
   name: WellnessLiving Rewards API
   slug: wellnessliving-rewards-api
-- description: The Staff API from WellnessLiving — 4 operation(s) for staff.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The Staff API from WellnessLiving — 4 operation(s) for staff.
   name: WellnessLiving Staff API
   slug: wellnessliving-staff-api
-- description: The WebSocket API from WellnessLiving — 1 operation(s) for websocket.
+- baseURL: https://us.wellnessliving.com
+  baseurl_source: declared
+  description: The WebSocket API from WellnessLiving — 1 operation(s) for websocket.
   name: WellnessLiving WebSocket API
   slug: wellnessliving-websocket-api
 artifact_total: 39
@@ -237,7 +267,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -247,7 +277,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.7
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellnessliving/refs/heads/main/screenshots/wellnessliving-2026-08-17T082912.png
 security:

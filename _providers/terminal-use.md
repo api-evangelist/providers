@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 2
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 151 operations · 78 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agent APIKeys API from Terminal Use — 4 operation(s) for agent apikeys.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Agent APIKeys API from Terminal Use — 4 operation(s) for agent apikeys.
   name: Terminal Use Agent APIKeys API
   slug: terminal-use-agent-apikeys-api
-- description: The Agent Task Tracker API from Terminal Use — 2 operation(s) for agent task tracker.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Agent Task Tracker API from Terminal Use — 2 operation(s) for agent task tracker.
   name: Terminal Use Agent Task Tracker API
   slug: terminal-use-agent-task-tracker-api
-- description: The Agents API from Terminal Use — 7 operation(s) for agents.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Agents API from Terminal Use — 7 operation(s) for agents.
   name: Terminal Use Agents API
   slug: terminal-use-agents-api
-- description: The API Keys API from Terminal Use — 3 operation(s) for api keys.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The API Keys API from Terminal Use — 3 operation(s) for api keys.
   name: Terminal Use API Keys API
   slug: terminal-use-api-keys-api
-- description: The Authentication API from Terminal Use — 1 operation(s) for authentication.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Authentication API from Terminal Use — 1 operation(s) for authentication.
   name: Terminal Use Authentication API
   slug: terminal-use-authentication-api
-- description: The Branch Events API from Terminal Use — 1 operation(s) for branch events.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Branch Events API from Terminal Use — 1 operation(s) for branch events.
   name: Terminal Use Branch Events API
   slug: terminal-use-branch-events-api
-- description: The Branches API from Terminal Use — 10 operation(s) for branches.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Branches API from Terminal Use — 10 operation(s) for branches.
   name: Terminal Use Branches API
   slug: terminal-use-branches-api
-- description: The Builds API from Terminal Use — 3 operation(s) for builds.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Builds API from Terminal Use — 3 operation(s) for builds.
   name: Terminal Use Builds API
   slug: terminal-use-builds-api
-- description: The CLI Authentication API from Terminal Use — 2 operation(s) for cli authentication.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The CLI Authentication API from Terminal Use — 2 operation(s) for cli authentication.
   name: Terminal Use CLI Authentication API
   slug: terminal-use-cli-authentication-api
-- description: The Environments API from Terminal Use — 4 operation(s) for environments.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Environments API from Terminal Use — 4 operation(s) for environments.
   name: Terminal Use Environments API
   slug: terminal-use-environments-api
-- description: The Events API from Terminal Use — 2 operation(s) for events.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Events API from Terminal Use — 2 operation(s) for events.
   name: Terminal Use Events API
   slug: terminal-use-events-api
-- description: The Filesystems API from Terminal Use — 9 operation(s) for filesystems.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Filesystems API from Terminal Use — 9 operation(s) for filesystems.
   name: Terminal Use Filesystems API
   slug: terminal-use-filesystems-api
-- description: The Groups API from Terminal Use — 8 operation(s) for groups.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Groups API from Terminal Use — 8 operation(s) for groups.
   name: Terminal Use Groups API
   slug: terminal-use-groups-api
-- description: The Logs API from Terminal Use — 3 operation(s) for logs.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Logs API from Terminal Use — 3 operation(s) for logs.
   name: Terminal Use Logs API
   slug: terminal-use-logs-api
-- description: The Messages v2 API from Terminal Use — 2 operation(s) for messages v2.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Messages v2 API from Terminal Use — 2 operation(s) for messages v2.
   name: Terminal Use Messages v2 API
   slug: terminal-use-messages-v2-api
-- description: The Namespaces API from Terminal Use — 5 operation(s) for namespaces.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Namespaces API from Terminal Use — 5 operation(s) for namespaces.
   name: Terminal Use Namespaces API
   slug: terminal-use-namespaces-api
-- description: The OAuth API from Terminal Use — 2 operation(s) for oauth.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The OAuth API from Terminal Use — 2 operation(s) for oauth.
   name: Terminal Use OAuth API
   slug: terminal-use-oauth-api
-- description: The Organizations API from Terminal Use — 7 operation(s) for organizations.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Organizations API from Terminal Use — 7 operation(s) for organizations.
   name: Terminal Use Organizations API
   slug: terminal-use-organizations-api
-- description: The Projects API from Terminal Use — 4 operation(s) for projects.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Projects API from Terminal Use — 4 operation(s) for projects.
   name: Terminal Use Projects API
   slug: terminal-use-projects-api
-- description: The Raw Events API from Terminal Use — 1 operation(s) for raw events.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Raw Events API from Terminal Use — 1 operation(s) for raw events.
   name: Terminal Use Raw Events API
   slug: terminal-use-raw-events-api
-- description: The Registry API from Terminal Use — 1 operation(s) for registry.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Registry API from Terminal Use — 1 operation(s) for registry.
   name: Terminal Use Registry API
   slug: terminal-use-registry-api
-- description: The Schedules API from Terminal Use — 5 operation(s) for schedules.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Schedules API from Terminal Use — 5 operation(s) for schedules.
   name: Terminal Use Schedules API
   slug: terminal-use-schedules-api
-- description: The Search API from Terminal Use — 1 operation(s) for search.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Search API from Terminal Use — 1 operation(s) for search.
   name: Terminal Use Search API
   slug: terminal-use-search-api
-- description: The Secrets API from Terminal Use — 4 operation(s) for secrets.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Secrets API from Terminal Use — 4 operation(s) for secrets.
   name: Terminal Use Secrets API
   slug: terminal-use-secrets-api
-- description: The States API from Terminal Use — 2 operation(s) for states.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The States API from Terminal Use — 2 operation(s) for states.
   name: Terminal Use States API
   slug: terminal-use-states-api
-- description: The Tasks API from Terminal Use — 14 operation(s) for tasks.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Tasks API from Terminal Use — 14 operation(s) for tasks.
   name: Terminal Use Tasks API
   slug: terminal-use-tasks-api
-- description: The Version Events API from Terminal Use — 1 operation(s) for version events.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Version Events API from Terminal Use — 1 operation(s) for version events.
   name: Terminal Use Version Events API
   slug: terminal-use-version-events-api
-- description: The Versions API from Terminal Use — 6 operation(s) for versions.
+- baseURL: https://api.terminaluse.com
+  baseurl_source: declared
+  description: The Versions API from Terminal Use — 6 operation(s) for versions.
   name: Terminal Use Versions API
   slug: terminal-use-versions-api
 artifact_total: 62
@@ -341,11 +397,11 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -355,7 +411,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.2
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,8 +423,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-use/refs/heads/main/screenshots/terminal-use-2026-09-02T163149.png
 security:
 - kind: authentication
   name: Terminal Use Authentication

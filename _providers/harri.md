@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -33,238 +46,394 @@ agentic_access:
   summary_line: 385 operations · 256 acting · 6 human-in-the-loop
 api_count: 2
 apis:
-- description: The Absences API from Harri — 7 operation(s) for absences.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Absences API from Harri — 7 operation(s) for absences.
   name: Harri Absences API
   slug: harri-absences-api
-- description: The AnnualRates API from Harri — 3 operation(s) for annualrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The AnnualRates API from Harri — 3 operation(s) for annualrates.
   name: Harri Annual Rates API
   slug: harri-annualrates-api
-- description: The BankAccounts API from Harri — 1 operation(s) for bankaccounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The BankAccounts API from Harri — 1 operation(s) for bankaccounts.
   name: Harri Bank Accounts API
   slug: harri-bankaccounts-api
-- description: The Corporate Users API from Harri — 2 operation(s) for corporate users.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Corporate Users API from Harri — 2 operation(s) for corporate users.
   name: Harri Corporate Users API
   slug: harri-corporate-users-api
-- description: The CostCenters API from Harri — 1 operation(s) for costcenters.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The CostCenters API from Harri — 1 operation(s) for costcenters.
   name: Harri Cost Centers API
   slug: harri-costcenters-api
-- description: The Deprecated AnnualRates API from Harri — 2 operation(s) for deprecated annualrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated AnnualRates API from Harri — 2 operation(s) for deprecated annualrates.
   name: Harri Deprecated AnnualRates API
   slug: harri-deprecated-annualrates-api
-- description: The Deprecated BankAccounts API from Harri — 1 operation(s) for deprecated bankaccounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated BankAccounts API from Harri — 1 operation(s) for deprecated bankaccounts.
   name: Harri Deprecated BankAccounts API
   slug: harri-deprecated-bankaccounts-api
-- description: The Deprecated Employee API from Harri — 17 operation(s) for deprecated employee.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Employee API from Harri — 17 operation(s) for deprecated employee.
   name: Harri Deprecated Employee API
   slug: harri-deprecated-employee-api
-- description: The Deprecated EmployeeLocation API from Harri — 4 operation(s) for deprecated employeelocation.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated EmployeeLocation API from Harri — 4 operation(s) for deprecated employeelocation.
   name: Harri Deprecated EmployeeLocation API
   slug: harri-deprecated-employeelocation-api
-- description: The Deprecated EmployeePositions API from Harri — 8 operation(s) for deprecated employeepositions.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated EmployeePositions API from Harri — 8 operation(s) for deprecated employeepositions.
   name: Harri Deprecated EmployeePositions API
   slug: harri-deprecated-employeepositions-api
-- description: The Deprecated Employment API from Harri — 8 operation(s) for deprecated employment.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Employment API from Harri — 8 operation(s) for deprecated employment.
   name: Harri Deprecated Employment API
   slug: harri-deprecated-employment-api
-- description: The Deprecated Event API from Harri — 1 operation(s) for deprecated event.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Event API from Harri — 1 operation(s) for deprecated event.
   name: Harri Deprecated Event API
   slug: harri-deprecated-event-api
-- description: The Deprecated Financial API from Harri — 4 operation(s) for deprecated financial.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Financial API from Harri — 4 operation(s) for deprecated financial.
   name: Harri Deprecated Financial API
   slug: harri-deprecated-financial-api
-- description: The Deprecated Franchisee AnnualRates API from Harri — 2 operation(s) for deprecated franchisee annualrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee AnnualRates API from Harri — 2 operation(s) for deprecated franchisee annualrates.
   name: Harri Deprecated Franchisee AnnualRates API
   slug: harri-deprecated-franchisee-annualrates-api
-- description: The Deprecated Franchisee BankAccounts API from Harri — 1 operation(s) for deprecated franchisee bankaccounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee BankAccounts API from Harri — 1 operation(s) for deprecated franchisee bankaccounts.
   name: Harri Deprecated Franchisee BankAccounts API
   slug: harri-deprecated-franchisee-bankaccounts-api
-- description: The Deprecated Franchisee Employee API from Harri — 16 operation(s) for deprecated franchisee employee.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee Employee API from Harri — 16 operation(s) for deprecated franchisee employee.
   name: Harri Deprecated Franchisee Employee API
   slug: harri-deprecated-franchisee-employee-api
-- description: The Deprecated Franchisee EmployeeLocation API from Harri — 4 operation(s) for deprecated franchisee employeelocation.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee EmployeeLocation API from Harri — 4 operation(s) for deprecated franchisee employeelocation.
   name: Harri Deprecated Franchisee EmployeeLocation API
   slug: harri-deprecated-franchisee-employeelocation-api
-- description: The Deprecated Franchisee EmployeePositions API from Harri — 8 operation(s) for deprecated franchisee employeepositions.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee EmployeePositions API from Harri — 8 operation(s) for deprecated franchisee employeepositions.
   name: Harri Deprecated Franchisee EmployeePositions API
   slug: harri-deprecated-franchisee-employeepositions-api
-- description: The Deprecated Franchisee Employment API from Harri — 8 operation(s) for deprecated franchisee employment.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee Employment API from Harri — 8 operation(s) for deprecated franchisee employment.
   name: Harri Deprecated Franchisee Employment API
   slug: harri-deprecated-franchisee-employment-api
-- description: The Deprecated Franchisee Financial API from Harri — 3 operation(s) for deprecated franchisee financial.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee Financial API from Harri — 3 operation(s) for deprecated franchisee financial.
   name: Harri Deprecated Franchisee Financial API
   slug: harri-deprecated-franchisee-financial-api
-- description: The Deprecated Franchisee HourlyRates API from Harri — 4 operation(s) for deprecated franchisee hourlyrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee HourlyRates API from Harri — 4 operation(s) for deprecated franchisee hourlyrates.
   name: Harri Deprecated Franchisee HourlyRates API
   slug: harri-deprecated-franchisee-hourlyrates-api
-- description: The Deprecated Franchisee MaxWeeklyHours API from Harri — 2 operation(s) for deprecated franchisee maxweeklyhours.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee MaxWeeklyHours API from Harri — 2 operation(s) for deprecated franchisee maxweeklyhours.
   name: Harri Deprecated Franchisee MaxWeeklyHours API
   slug: harri-deprecated-franchisee-maxweeklyhours-api
-- description: The Deprecated Franchisee PayTypes API from Harri — 3 operation(s) for deprecated franchisee paytypes.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee PayTypes API from Harri — 3 operation(s) for deprecated franchisee paytypes.
   name: Harri Deprecated Franchisee PayTypes API
   slug: harri-deprecated-franchisee-paytypes-api
-- description: The Deprecated Franchisee TippedStatuses API from Harri — 2 operation(s) for deprecated franchisee tippedstatuses.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee TippedStatuses API from Harri — 2 operation(s) for deprecated franchisee tippedstatuses.
   name: Harri Deprecated Franchisee TippedStatuses API
   slug: harri-deprecated-franchisee-tippedstatuses-api
-- description: The Deprecated Franchisee TroncAmounts API from Harri — 2 operation(s) for deprecated franchisee troncamounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee TroncAmounts API from Harri — 2 operation(s) for deprecated franchisee troncamounts.
   name: Harri Deprecated Franchisee TroncAmounts API
   slug: harri-deprecated-franchisee-troncamounts-api
-- description: The Deprecated Franchisee TroncPoints API from Harri — 2 operation(s) for deprecated franchisee troncpoints.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated Franchisee TroncPoints API from Harri — 2 operation(s) for deprecated franchisee troncpoints.
   name: Harri Deprecated Franchisee TroncPoints API
   slug: harri-deprecated-franchisee-troncpoints-api
-- description: The Deprecated HourlyRates API from Harri — 4 operation(s) for deprecated hourlyrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated HourlyRates API from Harri — 4 operation(s) for deprecated hourlyrates.
   name: Harri Deprecated HourlyRates API
   slug: harri-deprecated-hourlyrates-api
-- description: The Deprecated MaxWeeklyHours API from Harri — 2 operation(s) for deprecated maxweeklyhours.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated MaxWeeklyHours API from Harri — 2 operation(s) for deprecated maxweeklyhours.
   name: Harri Deprecated MaxWeeklyHours API
   slug: harri-deprecated-maxweeklyhours-api
-- description: The Deprecated PayTypes API from Harri — 4 operation(s) for deprecated paytypes.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated PayTypes API from Harri — 4 operation(s) for deprecated paytypes.
   name: Harri Deprecated PayTypes API
   slug: harri-deprecated-paytypes-api
-- description: The Deprecated TippedStatuses API from Harri — 2 operation(s) for deprecated tippedstatuses.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated TippedStatuses API from Harri — 2 operation(s) for deprecated tippedstatuses.
   name: Harri Deprecated TippedStatuses API
   slug: harri-deprecated-tippedstatuses-api
-- description: The Deprecated TroncAmounts API from Harri — 2 operation(s) for deprecated troncamounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated TroncAmounts API from Harri — 2 operation(s) for deprecated troncamounts.
   name: Harri Deprecated TroncAmounts API
   slug: harri-deprecated-troncamounts-api
-- description: The Deprecated TroncPoints API from Harri — 2 operation(s) for deprecated troncpoints.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Deprecated TroncPoints API from Harri — 2 operation(s) for deprecated troncpoints.
   name: Harri Deprecated TroncPoints API
   slug: harri-deprecated-troncpoints-api
-- description: The Employee API from Harri — 5 operation(s) for employee.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Employee API from Harri — 5 operation(s) for employee.
   name: Harri Employee API
   slug: harri-employee-api
-- description: The EmployeeJobTitle API from Harri — 2 operation(s) for employeejobtitle.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The EmployeeJobTitle API from Harri — 2 operation(s) for employeejobtitle.
   name: Harri Employee Job Title API
   slug: harri-employeejobtitle-api
-- description: The EmployeeLocation API from Harri — 3 operation(s) for employeelocation.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The EmployeeLocation API from Harri — 3 operation(s) for employeelocation.
   name: Harri Employee Location API
   slug: harri-employeelocation-api
-- description: The EmployeePositions API from Harri — 5 operation(s) for employeepositions.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The EmployeePositions API from Harri — 5 operation(s) for employeepositions.
   name: Harri Employee Positions API
   slug: harri-employeepositions-api
-- description: The Employer APIs API from Harri — 2 operation(s) for employer apis.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Employer APIs API from Harri — 2 operation(s) for employer apis.
   name: Harri Employer APIs API
   slug: harri-employer-apis-api
-- description: The Employer APIs V2 API from Harri — 2 operation(s) for employer apis v2.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Employer APIs V2 API from Harri — 2 operation(s) for employer apis v2.
   name: Harri Employer APIs V2 API
   slug: harri-employer-apis-v2-api
-- description: The Employment API from Harri — 8 operation(s) for employment.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Employment API from Harri — 8 operation(s) for employment.
   name: Harri Employment API
   slug: harri-employment-api
-- description: The Event API from Harri — 2 operation(s) for event.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Event API from Harri — 2 operation(s) for event.
   name: Harri Event API
   slug: harri-event-api
-- description: The Franchisee Absences API from Harri — 7 operation(s) for franchisee absences.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Absences API from Harri — 7 operation(s) for franchisee absences.
   name: Harri Franchisee Absences API
   slug: harri-franchisee-absences-api
-- description: The Franchisee AnnualRates API from Harri — 3 operation(s) for franchisee annualrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee AnnualRates API from Harri — 3 operation(s) for franchisee annualrates.
   name: Harri Franchisee AnnualRates API
   slug: harri-franchisee-annualrates-api
-- description: The Franchisee BankAccounts API from Harri — 1 operation(s) for franchisee bankaccounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee BankAccounts API from Harri — 1 operation(s) for franchisee bankaccounts.
   name: Harri Franchisee BankAccounts API
   slug: harri-franchisee-bankaccounts-api
-- description: The Franchisee CostCenters API from Harri — 1 operation(s) for franchisee costcenters.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee CostCenters API from Harri — 1 operation(s) for franchisee costcenters.
   name: Harri Franchisee CostCenters API
   slug: harri-franchisee-costcenters-api
-- description: The Franchisee Employee API from Harri — 6 operation(s) for franchisee employee.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Employee API from Harri — 6 operation(s) for franchisee employee.
   name: Harri Franchisee Employee API
   slug: harri-franchisee-employee-api
-- description: The Franchisee EmployeeJobTitle API from Harri — 2 operation(s) for franchisee employeejobtitle.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee EmployeeJobTitle API from Harri — 2 operation(s) for franchisee employeejobtitle.
   name: Harri Franchisee EmployeeJobTitle API
   slug: harri-franchisee-employeejobtitle-api
-- description: The Franchisee EmployeeLocation API from Harri — 3 operation(s) for franchisee employeelocation.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee EmployeeLocation API from Harri — 3 operation(s) for franchisee employeelocation.
   name: Harri Franchisee EmployeeLocation API
   slug: harri-franchisee-employeelocation-api
-- description: The Franchisee EmployeePositions API from Harri — 5 operation(s) for franchisee employeepositions.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee EmployeePositions API from Harri — 5 operation(s) for franchisee employeepositions.
   name: Harri Franchisee EmployeePositions API
   slug: harri-franchisee-employeepositions-api
-- description: The Franchisee Employer APIs API from Harri — 2 operation(s) for franchisee employer apis.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Employer APIs API from Harri — 2 operation(s) for franchisee employer apis.
   name: Harri Franchisee Employer APIs API
   slug: harri-franchisee-employer-apis-api
-- description: The Franchisee Employer APIs V2 API from Harri — 2 operation(s) for franchisee employer apis v2.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Employer APIs V2 API from Harri — 2 operation(s) for franchisee employer apis v2.
   name: Harri Franchisee Employer APIs V2 API
   slug: harri-franchisee-employer-apis-v2-api
-- description: The Franchisee Employment API from Harri — 8 operation(s) for franchisee employment.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Employment API from Harri — 8 operation(s) for franchisee employment.
   name: Harri Franchisee Employment API
   slug: harri-franchisee-employment-api
-- description: The Franchisee Event API from Harri — 3 operation(s) for franchisee event.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Event API from Harri — 3 operation(s) for franchisee event.
   name: Harri Franchisee Event API
   slug: harri-franchisee-event-api
-- description: The Franchisee HourlyRates API from Harri — 2 operation(s) for franchisee hourlyrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee HourlyRates API from Harri — 2 operation(s) for franchisee hourlyrates.
   name: Harri Franchisee HourlyRates API
   slug: harri-franchisee-hourlyrates-api
-- description: The Franchisee JobTitle API from Harri — 1 operation(s) for franchisee jobtitle.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee JobTitle API from Harri — 1 operation(s) for franchisee jobtitle.
   name: Harri Franchisee JobTitle API
   slug: harri-franchisee-jobtitle-api
-- description: The Franchisee Location API from Harri — 1 operation(s) for franchisee location.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Location API from Harri — 1 operation(s) for franchisee location.
   name: Harri Franchisee Location API
   slug: harri-franchisee-location-api
-- description: The Franchisee Mapping API from Harri — 11 operation(s) for franchisee mapping.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Mapping API from Harri — 11 operation(s) for franchisee mapping.
   name: Harri Franchisee Mapping API
   slug: harri-franchisee-mapping-api
-- description: The Franchisee MaxWeeklyHours API from Harri — 6 operation(s) for franchisee maxweeklyhours.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee MaxWeeklyHours API from Harri — 6 operation(s) for franchisee maxweeklyhours.
   name: Harri Franchisee MaxWeeklyHours API
   slug: harri-franchisee-maxweeklyhours-api
-- description: The Franchisee PayTypes API from Harri — 4 operation(s) for franchisee paytypes.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee PayTypes API from Harri — 4 operation(s) for franchisee paytypes.
   name: Harri Franchisee PayTypes API
   slug: harri-franchisee-paytypes-api
-- description: The Franchisee Position API from Harri — 1 operation(s) for franchisee position.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Position API from Harri — 1 operation(s) for franchisee position.
   name: Harri Franchisee Position API
   slug: harri-franchisee-position-api
-- description: The Franchisee Subscriptions API from Harri — 1 operation(s) for franchisee subscriptions.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Subscriptions API from Harri — 1 operation(s) for franchisee subscriptions.
   name: Harri Franchisee Subscriptions API
   slug: harri-franchisee-subscriptions-api
-- description: The Franchisee TippedStatuses API from Harri — 2 operation(s) for franchisee tippedstatuses.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee TippedStatuses API from Harri — 2 operation(s) for franchisee tippedstatuses.
   name: Harri Franchisee TippedStatuses API
   slug: harri-franchisee-tippedstatuses-api
-- description: The Franchisee TroncAmounts API from Harri — 3 operation(s) for franchisee troncamounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee TroncAmounts API from Harri — 3 operation(s) for franchisee troncamounts.
   name: Harri Franchisee TroncAmounts API
   slug: harri-franchisee-troncamounts-api
-- description: The Franchisee TroncPoints API from Harri — 3 operation(s) for franchisee troncpoints.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee TroncPoints API from Harri — 3 operation(s) for franchisee troncpoints.
   name: Harri Franchisee TroncPoints API
   slug: harri-franchisee-troncpoints-api
-- description: The Franchisee Troncs API from Harri — 2 operation(s) for franchisee troncs.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisee Troncs API from Harri — 2 operation(s) for franchisee troncs.
   name: Harri Franchisee Troncs API
   slug: harri-franchisee-troncs-api
-- description: The Franchisees API from Harri — 1 operation(s) for franchisees.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Franchisees API from Harri — 1 operation(s) for franchisees.
   name: Harri Franchisees API
   slug: harri-franchisees-api
-- description: The HourlyRates API from Harri — 2 operation(s) for hourlyrates.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The HourlyRates API from Harri — 2 operation(s) for hourlyrates.
   name: Harri Hourly Rates API
   slug: harri-hourlyrates-api
-- description: The JobTitle API from Harri — 1 operation(s) for jobtitle.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The JobTitle API from Harri — 1 operation(s) for jobtitle.
   name: Harri Job Title API
   slug: harri-jobtitle-api
-- description: The Location API from Harri — 1 operation(s) for location.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Location API from Harri — 1 operation(s) for location.
   name: Harri Location API
   slug: harri-location-api
-- description: The Mapping API from Harri — 11 operation(s) for mapping.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Mapping API from Harri — 11 operation(s) for mapping.
   name: Harri Mapping API
   slug: harri-mapping-api
-- description: The MaxWeeklyHours API from Harri — 6 operation(s) for maxweeklyhours.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The MaxWeeklyHours API from Harri — 6 operation(s) for maxweeklyhours.
   name: Harri Max Weekly Hours API
   slug: harri-maxweeklyhours-api
-- description: The Minor Details API from Harri — 2 operation(s) for minor details.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Minor Details API from Harri — 2 operation(s) for minor details.
   name: Harri Minor Details API
   slug: harri-minor-details-api
-- description: The PayTypes API from Harri — 3 operation(s) for paytypes.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The PayTypes API from Harri — 3 operation(s) for paytypes.
   name: Harri Pay Types API
   slug: harri-paytypes-api
-- description: The Position API from Harri — 1 operation(s) for position.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Position API from Harri — 1 operation(s) for position.
   name: Harri Position API
   slug: harri-position-api
-- description: The Subscriptions API from Harri — 1 operation(s) for subscriptions.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Subscriptions API from Harri — 1 operation(s) for subscriptions.
   name: Harri Subscriptions API
   slug: harri-subscriptions-api
-- description: The TippedStatuses API from Harri — 2 operation(s) for tippedstatuses.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The TippedStatuses API from Harri — 2 operation(s) for tippedstatuses.
   name: Harri Tipped Statuses API
   slug: harri-tippedstatuses-api
-- description: The TroncAmounts API from Harri — 3 operation(s) for troncamounts.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The TroncAmounts API from Harri — 3 operation(s) for troncamounts.
   name: Harri Tronc Amounts API
   slug: harri-troncamounts-api
-- description: The TroncPoints API from Harri — 3 operation(s) for troncpoints.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The TroncPoints API from Harri — 3 operation(s) for troncpoints.
   name: Harri Tronc Points API
   slug: harri-troncpoints-api
-- description: The Troncs API from Harri — 2 operation(s) for troncs.
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Troncs API from Harri — 2 operation(s) for troncs.
   name: Harri Troncs API
   slug: harri-troncs-api
 artifact_total: 164
@@ -671,23 +840,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.0
+  composite: 45.9
   coverage:
     artifact_dirs: 23
-    catalog_gap: 83.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 57.0
     developer_ergonomics: 58.9
-    discoverability: 44.4
+    discoverability: 63.0
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 44.2
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -699,7 +868,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:

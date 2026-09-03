@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Undocumented, authentication-required API gateway serving the Propico web application. Observed on 2026-07-19: an unauthenticated GET /health returns 200 and reports a gateway fronting four internal s'
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png
 security:

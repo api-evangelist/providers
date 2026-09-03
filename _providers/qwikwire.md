@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The Aqwire Connect (Access) API is a developer-facing payments API that lets merchants integrate their application with Aqwire to create cross-border payment transactions. The reference documentation '
@@ -97,7 +97,7 @@ score:
   band: minimal
   composite: 10.4
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -119,8 +119,9 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qwikwire/refs/heads/main/screenshots/qwikwire-2026-09-02T152737.png
 security:
 - kind: domain-security
   name: Qwikwire Domain Security

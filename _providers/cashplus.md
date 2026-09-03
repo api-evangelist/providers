@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -36,7 +47,9 @@ apis:
 - description: First-party partner API for authentication and registration against the Cashplus/Zempler developer platform, used to obtain credentials and tokens before calling the proprietary Accounts, Payments, Ap
   name: Cashplus Identity API
   slug: cashplus-identity-api
-- description: First-party partner API to retrieve real-time account details and current balance for Cashplus/Zempler business and personal current accounts, for reconciliation and financial analysis. Requires a dir
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: First-party partner API to retrieve real-time account details and current balance for Cashplus/Zempler business and personal current accounts, for reconciliation and financial analysis. Requires a dir
   name: Cashplus Accounts API
   slug: cashplus-accounts-api
 - description: First-party partner API to create applications that open new Cashplus/Zempler current accounts programmatically, enabling embedded account onboarding within partner platforms. Requires a direct commer
@@ -48,73 +61,119 @@ apis:
 - description: First-party partner API to initiate single and batch domestic GBP payments at low cost from Cashplus/Zempler accounts, marketed for partners as a lower-cost alternative to standard payment rails. Requ
   name: Cashplus Payments API
   slug: cashplus-payments-api
-- description: First-party partner API to query the catalogue of Cashplus/Zempler banking products. Requires a direct commercial relationship with the bank.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: First-party partner API to query the catalogue of Cashplus/Zempler banking products. Requires a direct commercial relationship with the bank.
   name: Cashplus Products API
   slug: cashplus-products-api
-- description: First-party partner API to search and filter transactions on Cashplus/Zempler accounts, for reconciliation and reporting. Requires a direct commercial relationship with the bank.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: First-party partner API to search and filter transactions on Cashplus/Zempler accounts, for reconciliation and reporting. Requires a direct commercial relationship with the bank.
   name: Cashplus Transactions API
   slug: cashplus-transactions-api
-- description: The Account Access API from Cashplus Bank — 2 operation(s) for account access.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Account Access API from Cashplus Bank — 2 operation(s) for account access.
   name: Cashplus Bank Account Access API
   slug: cashplus-account-access-api
-- description: The Accounts API from Cashplus Bank — 2 operation(s) for accounts.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Accounts API from Cashplus Bank — 2 operation(s) for accounts.
   name: Cashplus Bank Accounts API
   slug: cashplus-accounts-api
-- description: The Balances API from Cashplus Bank — 2 operation(s) for balances.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Balances API from Cashplus Bank — 2 operation(s) for balances.
   name: Cashplus Bank Balances API
   slug: cashplus-balances-api
-- description: The Beneficiaries API from Cashplus Bank — 2 operation(s) for beneficiaries.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Beneficiaries API from Cashplus Bank — 2 operation(s) for beneficiaries.
   name: Cashplus Bank Beneficiaries API
   slug: cashplus-beneficiaries-api
-- description: The Direct Debits API from Cashplus Bank — 2 operation(s) for direct debits.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Direct Debits API from Cashplus Bank — 2 operation(s) for direct debits.
   name: Cashplus Bank Direct Debits API
   slug: cashplus-direct-debits-api
-- description: The Domestic Payments API from Cashplus Bank — 5 operation(s) for domestic payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Domestic Payments API from Cashplus Bank — 5 operation(s) for domestic payments.
   name: Cashplus Bank Domestic Payments API
   slug: cashplus-domestic-payments-api
-- description: The Domestic Scheduled Payments API from Cashplus Bank — 4 operation(s) for domestic scheduled payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payments API from Cashplus Bank — 4 operation(s) for domestic scheduled payments.
   name: Cashplus Bank Domestic Scheduled Payments API
   slug: cashplus-domestic-scheduled-payments-api
-- description: The Domestic Standing Orders API from Cashplus Bank — 4 operation(s) for domestic standing orders.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Orders API from Cashplus Bank — 4 operation(s) for domestic standing orders.
   name: Cashplus Bank Domestic Standing Orders API
   slug: cashplus-domestic-standing-orders-api
-- description: The File Payments API from Cashplus Bank — 6 operation(s) for file payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The File Payments API from Cashplus Bank — 6 operation(s) for file payments.
   name: Cashplus Bank File Payments API
   slug: cashplus-file-payments-api
-- description: The Funds Confirmations API from Cashplus Bank — 3 operation(s) for funds confirmations.
+- baseURL: /open-banking/v3.1/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmations API from Cashplus Bank — 3 operation(s) for funds confirmations.
   name: Cashplus Bank Funds Confirmations API
   slug: cashplus-funds-confirmations-api
-- description: The International Payments API from Cashplus Bank — 5 operation(s) for international payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The International Payments API from Cashplus Bank — 5 operation(s) for international payments.
   name: Cashplus Bank International Payments API
   slug: cashplus-international-payments-api
-- description: The International Scheduled Payments API from Cashplus Bank — 5 operation(s) for international scheduled payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments API from Cashplus Bank — 5 operation(s) for international scheduled payments.
   name: Cashplus Bank International Scheduled Payments API
   slug: cashplus-international-scheduled-payments-api
-- description: The International Standing Orders API from Cashplus Bank — 4 operation(s) for international standing orders.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The International Standing Orders API from Cashplus Bank — 4 operation(s) for international standing orders.
   name: Cashplus Bank International Standing Orders API
   slug: cashplus-international-standing-orders-api
-- description: The Offers API from Cashplus Bank — 2 operation(s) for offers.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Offers API from Cashplus Bank — 2 operation(s) for offers.
   name: Cashplus Bank Offers API
   slug: cashplus-offers-api
-- description: The Parties API from Cashplus Bank — 3 operation(s) for parties.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Parties API from Cashplus Bank — 3 operation(s) for parties.
   name: Cashplus Bank Parties API
   slug: cashplus-parties-api
-- description: The Payment Details API from Cashplus Bank — 7 operation(s) for payment details.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Payment Details API from Cashplus Bank — 7 operation(s) for payment details.
   name: Cashplus Bank Payment Details API
   slug: cashplus-payment-details-api
-- description: The Products API from Cashplus Bank — 2 operation(s) for products.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Products API from Cashplus Bank — 2 operation(s) for products.
   name: Cashplus Bank Products API
   slug: cashplus-products-api
-- description: The Scheduled Payments API from Cashplus Bank — 2 operation(s) for scheduled payments.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Scheduled Payments API from Cashplus Bank — 2 operation(s) for scheduled payments.
   name: Cashplus Bank Scheduled Payments API
   slug: cashplus-scheduled-payments-api
-- description: The Standing Orders API from Cashplus Bank — 2 operation(s) for standing orders.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Standing Orders API from Cashplus Bank — 2 operation(s) for standing orders.
   name: Cashplus Bank Standing Orders API
   slug: cashplus-standing-orders-api
-- description: The Statements API from Cashplus Bank — 4 operation(s) for statements.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Statements API from Cashplus Bank — 4 operation(s) for statements.
   name: Cashplus Bank Statements API
   slug: cashplus-statements-api
-- description: The Transactions API from Cashplus Bank — 3 operation(s) for transactions.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Transactions API from Cashplus Bank — 3 operation(s) for transactions.
   name: Cashplus Bank Transactions API
   slug: cashplus-transactions-api
 artifact_total: 36
@@ -320,7 +379,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

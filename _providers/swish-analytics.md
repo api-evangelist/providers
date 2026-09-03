@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The ATP Tennis API from Swish Analytics — 3 operation(s) for atp tennis.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The ATP Tennis API from Swish Analytics — 3 operation(s) for atp tennis.
   name: Swish Analytics ATP Tennis API
   slug: swish-analytics-atp-tennis-api
-- description: The Bet Request API from Swish Analytics — 3 operation(s) for bet request.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The Bet Request API from Swish Analytics — 3 operation(s) for bet request.
   name: Swish Analytics Bet Request API
   slug: swish-analytics-bet-request-api
-- description: The MLB API from Swish Analytics — 12 operation(s) for mlb.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The MLB API from Swish Analytics — 12 operation(s) for mlb.
   name: Swish Analytics MLB API
   slug: swish-analytics-mlb-api
-- description: The NBA API from Swish Analytics — 10 operation(s) for nba.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The NBA API from Swish Analytics — 10 operation(s) for nba.
   name: Swish Analytics NBA API
   slug: swish-analytics-nba-api
-- description: The NCAA Basketball API from Swish Analytics — 4 operation(s) for ncaa basketball.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The NCAA Basketball API from Swish Analytics — 4 operation(s) for ncaa basketball.
   name: Swish Analytics NCAA Basketball API
   slug: swish-analytics-ncaa-basketball-api
-- description: The NCAA Football API from Swish Analytics — 6 operation(s) for ncaa football.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The NCAA Football API from Swish Analytics — 6 operation(s) for ncaa football.
   name: Swish Analytics NCAA Football API
   slug: swish-analytics-ncaa-football-api
-- description: The NFL API from Swish Analytics — 12 operation(s) for nfl.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The NFL API from Swish Analytics — 12 operation(s) for nfl.
   name: Swish Analytics NFL API
   slug: swish-analytics-nfl-api
-- description: The NHL API from Swish Analytics — 5 operation(s) for nhl.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The NHL API from Swish Analytics — 5 operation(s) for nhl.
   name: Swish Analytics NHL API
   slug: swish-analytics-nhl-api
-- description: The Soccer API from Swish Analytics — 8 operation(s) for soccer.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The Soccer API from Swish Analytics — 8 operation(s) for soccer.
   name: Swish Analytics Soccer API
   slug: swish-analytics-soccer-api
-- description: The WTA Tennis API from Swish Analytics — 3 operation(s) for wta tennis.
+- baseURL: https://api.swishanalytics.com
+  baseurl_source: declared
+  description: The WTA Tennis API from Swish Analytics — 3 operation(s) for wta tennis.
   name: Swish Analytics WTA Tennis API
   slug: swish-analytics-wta-tennis-api
 artifact_total: 24
@@ -207,7 +227,7 @@ score:
   band: emerging
   composite: 16.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -232,8 +252,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/swish-analytics/refs/heads/main/screenshots/swish-analytics-2026-09-02T161411.png
 security:
 - kind: authentication
   name: Swish Analytics Authentication

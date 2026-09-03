@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -44,166 +44,274 @@ agentic_access:
   summary_line: 164 operations · 164 acting
 api_count: 2
 apis:
-- description: The API Key API from Ashby — 1 operation(s) for api key.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The API Key API from Ashby — 1 operation(s) for api key.
   name: Ashby API Key API
   slug: ashby-api-key-api
-- description: The Application API from Ashby — 12 operation(s) for application.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Application API from Ashby — 12 operation(s) for application.
   name: Ashby Application API
   slug: ashby-application-api
-- description: The Application Feedback API from Ashby — 2 operation(s) for application feedback.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Application Feedback API from Ashby — 2 operation(s) for application feedback.
   name: Ashby Application Feedback API
   slug: ashby-application-feedback-api
-- description: The Application Form API from Ashby — 1 operation(s) for application form.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Application Form API from Ashby — 1 operation(s) for application form.
   name: Ashby Application Form API
   slug: ashby-application-form-api
-- description: The Application Hiring Team Role API from Ashby — 1 operation(s) for application hiring team role.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Application Hiring Team Role API from Ashby — 1 operation(s) for application hiring team role.
   name: Ashby Application Hiring Team Role API
   slug: ashby-application-hiring-team-role-api
-- description: The Approval API from Ashby — 1 operation(s) for approval.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Approval API from Ashby — 1 operation(s) for approval.
   name: Ashby Approval API
   slug: ashby-approval-api
-- description: The Approval Definition API from Ashby — 1 operation(s) for approval definition.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Approval Definition API from Ashby — 1 operation(s) for approval definition.
   name: Ashby Approval Definition API
   slug: ashby-approval-definition-api
-- description: The Archive Reason API from Ashby — 1 operation(s) for archive reason.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Archive Reason API from Ashby — 1 operation(s) for archive reason.
   name: Ashby Archive Reason API
   slug: ashby-archive-reason-api
-- description: The Assessment API from Ashby — 6 operation(s) for assessment.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Assessment API from Ashby — 6 operation(s) for assessment.
   name: Ashby Assessment API
   slug: ashby-assessment-api
-- description: The Brand API from Ashby — 1 operation(s) for brand.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Brand API from Ashby — 1 operation(s) for brand.
   name: Ashby Brand API
   slug: ashby-brand-api
-- description: The Candidate API from Ashby — 19 operation(s) for candidate.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Candidate API from Ashby — 19 operation(s) for candidate.
   name: Ashby Candidate API
   slug: ashby-candidate-api
-- description: The Candidate Tag API from Ashby — 3 operation(s) for candidate tag.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Candidate Tag API from Ashby — 3 operation(s) for candidate tag.
   name: Ashby Candidate Tag API
   slug: ashby-candidate-tag-api
-- description: The Close Reason API from Ashby — 1 operation(s) for close reason.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Close Reason API from Ashby — 1 operation(s) for close reason.
   name: Ashby Close Reason API
   slug: ashby-close-reason-api
-- description: The Communication Template API from Ashby — 1 operation(s) for communication template.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Communication Template API from Ashby — 1 operation(s) for communication template.
   name: Ashby Communication Template API
   slug: ashby-communication-template-api
-- description: The Custom Field API from Ashby — 6 operation(s) for custom field.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Custom Field API from Ashby — 6 operation(s) for custom field.
   name: Ashby Custom Field API
   slug: ashby-custom-field-api
-- description: The Department API from Ashby — 2 operation(s) for department.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Department API from Ashby — 2 operation(s) for department.
   name: Ashby Department API
   slug: ashby-department-api
-- description: The Department & Team API from Ashby — 5 operation(s) for department & team.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Department & Team API from Ashby — 5 operation(s) for department & team.
   name: Ashby Department & Team API
   slug: ashby-department-team-api
-- description: The Feedback Form Definition API from Ashby — 2 operation(s) for feedback form definition.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Feedback Form Definition API from Ashby — 2 operation(s) for feedback form definition.
   name: Ashby Feedback Form Definition API
   slug: ashby-feedback-form-definition-api
-- description: The File API from Ashby — 2 operation(s) for file.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The File API from Ashby — 2 operation(s) for file.
   name: Ashby File API
   slug: ashby-file-api
-- description: The Hiring Team API from Ashby — 2 operation(s) for hiring team.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Hiring Team API from Ashby — 2 operation(s) for hiring team.
   name: Ashby Hiring Team API
   slug: ashby-hiring-team-api
-- description: The Hiring Team Role API from Ashby — 1 operation(s) for hiring team role.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Hiring Team Role API from Ashby — 1 operation(s) for hiring team role.
   name: Ashby Hiring Team Role API
   slug: ashby-hiring-team-role-api
-- description: The Interview API from Ashby — 2 operation(s) for interview.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interview API from Ashby — 2 operation(s) for interview.
   name: Ashby Interview API
   slug: ashby-interview-api
-- description: The Interview Event API from Ashby — 1 operation(s) for interview event.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interview Event API from Ashby — 1 operation(s) for interview event.
   name: Ashby Interview Event API
   slug: ashby-interview-event-api
-- description: The Interview Plan API from Ashby — 1 operation(s) for interview plan.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interview Plan API from Ashby — 1 operation(s) for interview plan.
   name: Ashby Interview Plan API
   slug: ashby-interview-plan-api
-- description: The Interview Schedule API from Ashby — 4 operation(s) for interview schedule.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interview Schedule API from Ashby — 4 operation(s) for interview schedule.
   name: Ashby Interview Schedule API
   slug: ashby-interview-schedule-api
-- description: The Interview Stage API from Ashby — 2 operation(s) for interview stage.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interview Stage API from Ashby — 2 operation(s) for interview stage.
   name: Ashby Interview Stage API
   slug: ashby-interview-stage-api
-- description: The Interview Stage Group API from Ashby — 1 operation(s) for interview stage group.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interview Stage Group API from Ashby — 1 operation(s) for interview stage group.
   name: Ashby Interview Stage Group API
   slug: ashby-interview-stage-group-api
-- description: The Interviewer Pool API from Ashby — 8 operation(s) for interviewer pool.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Interviewer Pool API from Ashby — 8 operation(s) for interviewer pool.
   name: Ashby Interviewer Pool API
   slug: ashby-interviewer-pool-api
-- description: The Job API from Ashby — 7 operation(s) for job.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Job API from Ashby — 7 operation(s) for job.
   name: Ashby Job API
   slug: ashby-job-api
-- description: The Job Board API from Ashby — 1 operation(s) for job board.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Job Board API from Ashby — 1 operation(s) for job board.
   name: Ashby Job Board API
   slug: ashby-job-board-api
-- description: The Job Interview Plan API from Ashby — 1 operation(s) for job interview plan.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Job Interview Plan API from Ashby — 1 operation(s) for job interview plan.
   name: Ashby Job Interview Plan API
   slug: ashby-job-interview-plan-api
-- description: The Job Posting API from Ashby — 3 operation(s) for job posting.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Job Posting API from Ashby — 3 operation(s) for job posting.
   name: Ashby Job Posting API
   slug: ashby-job-posting-api
-- description: The Job Template API from Ashby — 1 operation(s) for job template.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Job Template API from Ashby — 1 operation(s) for job template.
   name: Ashby Job Template API
   slug: ashby-job-template-api
-- description: The Location API from Ashby — 10 operation(s) for location.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Location API from Ashby — 10 operation(s) for location.
   name: Ashby Location API
   slug: ashby-location-api
-- description: The Notetaker Transcript API from Ashby — 1 operation(s) for notetaker transcript.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Notetaker Transcript API from Ashby — 1 operation(s) for notetaker transcript.
   name: Ashby Notetaker Transcript API
   slug: ashby-notetaker-transcript-api
-- description: The Offer API from Ashby — 7 operation(s) for offer.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Offer API from Ashby — 7 operation(s) for offer.
   name: Ashby Offer API
   slug: ashby-offer-api
-- description: The Offer Process API from Ashby — 1 operation(s) for offer process.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Offer Process API from Ashby — 1 operation(s) for offer process.
   name: Ashby Offer Process API
   slug: ashby-offer-process-api
-- description: The Openings API from Ashby — 11 operation(s) for openings.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Openings API from Ashby — 11 operation(s) for openings.
   name: Ashby Openings API
   slug: ashby-openings-api
-- description: The Project API from Ashby — 3 operation(s) for project.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Project API from Ashby — 3 operation(s) for project.
   name: Ashby Project API
   slug: ashby-project-api
-- description: The Referral API from Ashby — 1 operation(s) for referral.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Referral API from Ashby — 1 operation(s) for referral.
   name: Ashby Referral API
   slug: ashby-referral-api
-- description: The Referral Form API from Ashby — 1 operation(s) for referral form.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Referral Form API from Ashby — 1 operation(s) for referral form.
   name: Ashby Referral Form API
   slug: ashby-referral-form-api
-- description: The Report API from Ashby — 2 operation(s) for report.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Report API from Ashby — 2 operation(s) for report.
   name: Ashby Report API
   slug: ashby-report-api
-- description: The Source API from Ashby — 1 operation(s) for source.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Source API from Ashby — 1 operation(s) for source.
   name: Ashby Source API
   slug: ashby-source-api
-- description: The Source Tracking Links API from Ashby — 1 operation(s) for source tracking links.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Source Tracking Links API from Ashby — 1 operation(s) for source tracking links.
   name: Ashby Source Tracking Links API
   slug: ashby-source-tracking-links-api
-- description: The Survey Form Definition API from Ashby — 2 operation(s) for survey form definition.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Survey Form Definition API from Ashby — 2 operation(s) for survey form definition.
   name: Ashby Survey Form Definition API
   slug: ashby-survey-form-definition-api
-- description: The Survey Request API from Ashby — 2 operation(s) for survey request.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Survey Request API from Ashby — 2 operation(s) for survey request.
   name: Ashby Survey Request API
   slug: ashby-survey-request-api
-- description: The Survey Submission API from Ashby — 2 operation(s) for survey submission.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Survey Submission API from Ashby — 2 operation(s) for survey submission.
   name: Ashby Survey Submission API
   slug: ashby-survey-submission-api
-- description: The User API from Ashby — 8 operation(s) for user.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The User API from Ashby — 8 operation(s) for user.
   name: Ashby User API
   slug: ashby-user-api
-- description: The Webhook API from Ashby — 4 operation(s) for webhook.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Webhook API from Ashby — 4 operation(s) for webhook.
   name: Ashby Webhook API
   slug: ashby-webhook-api
-- description: The Workflow.info API from Ashby — 1 operation(s) for workflow.info.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Workflow.info API from Ashby — 1 operation(s) for workflow.info.
   name: Ashby Workflow.info API
   slug: ashby-workflow-info-api
-- description: The Workflow.list API from Ashby — 1 operation(s) for workflow.list.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Workflow.list API from Ashby — 1 operation(s) for workflow.list.
   name: Ashby Workflow.list API
   slug: ashby-workflow-list-api
-- description: The Workflow.start API from Ashby — 1 operation(s) for workflow.start.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Workflow.start API from Ashby — 1 operation(s) for workflow.start.
   name: Ashby Workflow.start API
   slug: ashby-workflow-start-api
-- description: The Workflow.update API from Ashby — 1 operation(s) for workflow.update.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Workflow.update API from Ashby — 1 operation(s) for workflow.update.
   name: Ashby Workflow.update API
   slug: ashby-workflow-update-api
-- description: The Webhook Payloads API from Ashby — 0 operation(s) for webhook payloads.
+- baseURL: https://api.ashbyhq.com
+  baseurl_source: spec
+  description: The Webhook Payloads API from Ashby — 0 operation(s) for webhook payloads.
   name: Ashby Webhook Payloads API
   slug: ashby-webhook-payloads-api
 artifact_total: 128
@@ -520,7 +628,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -530,7 +638,7 @@ score:
     discoverability: 51.9
     governance: 0.0
     operational_transparency: 30.3
-  previous_composite: 41.0
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -539,7 +647,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: Manage resources in your workspace programmatically with the mabl API. By integrating mabl API endpoints into your workflow, you can manage tests, runs, environments, applications, plans, deployments,
   name: Mabl API
   slug: mabl-api
-- description: The Applications API from Mabl — 2 operation(s) for applications.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Applications API from Mabl — 2 operation(s) for applications.
   name: Mabl Applications API
   slug: mabl-applications-api
-- description: The Credentials API from Mabl — 2 operation(s) for credentials.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Credentials API from Mabl — 2 operation(s) for credentials.
   name: Mabl Credentials API
   slug: mabl-credentials-api
-- description: The Database Connections API from Mabl — 2 operation(s) for database connections.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Database Connections API from Mabl — 2 operation(s) for database connections.
   name: Mabl Database Connections API
   slug: mabl-database-connections-api
-- description: The Deployment Events API from Mabl — 2 operation(s) for deployment events.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Deployment Events API from Mabl — 2 operation(s) for deployment events.
   name: Mabl Deployment Events API
   slug: mabl-deployment-events-api
-- description: The Environments API from Mabl — 2 operation(s) for environments.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Environments API from Mabl — 2 operation(s) for environments.
   name: Mabl Environments API
   slug: mabl-environments-api
-- description: The Flows API from Mabl — 1 operation(s) for flows.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Flows API from Mabl — 1 operation(s) for flows.
   name: Mabl Flows API
   slug: mabl-flows-api
-- description: The Issues API from Mabl — 2 operation(s) for issues.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Issues API from Mabl — 2 operation(s) for issues.
   name: Mabl Issues API
   slug: mabl-issues-api
-- description: The Test Runs API from Mabl — 3 operation(s) for test runs.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Test Runs API from Mabl — 3 operation(s) for test runs.
   name: Mabl Test Runs API
   slug: mabl-test-runs-api
-- description: The Tests API from Mabl — 1 operation(s) for tests.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Tests API from Mabl — 1 operation(s) for tests.
   name: Mabl Tests API
   slug: mabl-tests-api
-- description: The Users API from Mabl — 1 operation(s) for users.
+- baseURL: https://api.mabl.com
+  baseurl_source: spec
+  description: The Users API from Mabl — 1 operation(s) for users.
   name: Mabl Users API
   slug: mabl-users-api
 artifact_total: 30
@@ -212,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mabl/refs/heads/main/screenshots/mabl-2026-06-20T184832.png
 security:

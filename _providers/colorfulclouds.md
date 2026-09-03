@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 8 operations
 api_count: 6
 apis:
-- description: Real-time pollutant readings and AQI values under CHN and USA standards.
+- baseURL: https://api.caiyunapp.com/v2.6
+  baseurl_source: declared
+  description: Real-time pollutant readings and AQI values under CHN and USA standards.
   name: ColorfulClouds Air Quality API
   slug: colorfulclouds-air-quality-api
-- description: Severe-weather alerts published by the China Meteorological Administration.
+- baseURL: https://api.caiyunapp.com/v2.6
+  baseurl_source: declared
+  description: Severe-weather alerts published by the China Meteorological Administration.
   name: ColorfulClouds Alerts API
   slug: colorfulclouds-alerts-api
-- description: Minute-level, hourly, and daily forecast endpoints.
+- baseURL: https://api.caiyunapp.com/v2.6
+  baseurl_source: declared
+  description: Minute-level, hourly, and daily forecast endpoints.
   name: ColorfulClouds Forecast API
   slug: colorfulclouds-forecast-api
-- description: Radar + nowcast precipitation map raster for live overlays.
+- baseURL: https://api.caiyunapp.com/v2.6
+  baseurl_source: declared
+  description: Radar + nowcast precipitation map raster for live overlays.
   name: ColorfulClouds Precipitation Map API
   slug: colorfulclouds-precipitation-map-api
-- description: Real-time weather conditions at the requested location.
+- baseURL: https://api.caiyunapp.com/v2.6
+  baseurl_source: declared
+  description: Real-time weather conditions at the requested location.
   name: ColorfulClouds Realtime API
   slug: colorfulclouds-realtime-api
-- description: Combined weather envelope returning realtime, minutely, hourly, daily, and alerts in one call.
+- baseURL: https://api.caiyunapp.com/v2.6
+  baseurl_source: declared
+  description: Combined weather envelope returning realtime, minutely, hourly, daily, and alerts in one call.
   name: ColorfulClouds Weather API
   slug: colorfulclouds-weather-api
 artifact_total: 154
@@ -638,7 +650,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/screenshots/colorfulclouds-2026-06-20T174759.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,37 +45,59 @@ apis:
 - description: The PokéAPI GraphQL beta exposes the same Pokémon dataset as the REST API through a single endpoint with field-level selection, joins, and filtering. It is well suited to clients that want to cherry-p
   name: PokéAPI GraphQL API (Beta)
   slug: pokeapi-graphql
-- description: Berries, their flavors, and firmness ratings.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Berries, their flavors, and firmness ratings.
   name: PokéAPI Berries API
   slug: pokeapi-berries-api
-- description: Contest types, contest effects, and super-contest effects.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Contest types, contest effects, and super-contest effects.
   name: PokéAPI Contests API
   slug: pokeapi-contests-api
-- description: Encounter methods, conditions, and condition values used in the wild.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Encounter methods, conditions, and condition values used in the wild.
   name: PokéAPI Encounters API
   slug: pokeapi-encounters-api
-- description: Evolution chains and the triggers that drive them.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Evolution chains and the triggers that drive them.
   name: PokéAPI Evolution API
   slug: pokeapi-evolution-api
-- description: Generations, Pokédexes, individual versions, and version groups.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Generations, Pokédexes, individual versions, and version groups.
   name: PokéAPI Games API
   slug: pokeapi-games-api
-- description: Items, item attributes, categories, fling effects, and bag pockets.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Items, item attributes, categories, fling effects, and bag pockets.
   name: PokéAPI Items API
   slug: pokeapi-items-api
-- description: Locations, location areas, Pal Park areas, and regions.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Locations, location areas, Pal Park areas, and regions.
   name: PokéAPI Locations API
   slug: pokeapi-locations-api
-- description: Items that teach moves to Pokémon (TMs and HMs).
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Items that teach moves to Pokémon (TMs and HMs).
   name: PokéAPI Machines API
   slug: pokeapi-machines-api
-- description: Moves, ailments, battle styles, categories, damage classes, learn methods, and targets.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Moves, ailments, battle styles, categories, damage classes, learn methods, and targets.
   name: PokéAPI Moves API
   slug: pokeapi-moves-api
-- description: Pokémon, species, abilities, types, stats, natures, egg groups, growth rates, genders, characteristics, and Pokéathlon stats.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Pokémon, species, abilities, types, stats, natures, egg groups, growth rates, genders, characteristics, and Pokéathlon stats.
   name: PokéAPI Pokémon API
   slug: pokeapi-pok-mon-api
-- description: Cross-cutting utility resources such as supported languages.
+- baseURL: https://pokeapi.co/api/v2
+  baseurl_source: declared
+  description: Cross-cutting utility resources such as supported languages.
   name: PokéAPI Utility API
   slug: pokeapi-utility-api
 artifact_total: 217
@@ -810,7 +832,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/screenshots/pokeapi-2026-06-20T191844.png
 security:

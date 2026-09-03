@@ -35,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The attempts API from Tadeus API — 2 operation(s) for attempts.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The attempts API from Tadeus API — 2 operation(s) for attempts.
   name: Tadeus API Attempts API
   slug: tadeus-api-attempts-api
-- description: The billing API from Tadeus API — 6 operation(s) for billing.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The billing API from Tadeus API — 6 operation(s) for billing.
   name: Tadeus API Billing API
   slug: tadeus-api-billing-api
-- description: The campaigns API from Tadeus API — 5 operation(s) for campaigns.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The campaigns API from Tadeus API — 5 operation(s) for campaigns.
   name: Tadeus API Campaigns API
   slug: tadeus-api-campaigns-api
-- description: The insights API from Tadeus API — 6 operation(s) for insights.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The insights API from Tadeus API — 6 operation(s) for insights.
   name: Tadeus API Insights API
   slug: tadeus-api-insights-api
-- description: The organisation API from Tadeus API — 2 operation(s) for organisation.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The organisation API from Tadeus API — 2 operation(s) for organisation.
   name: Tadeus API Organisation API
   slug: tadeus-api-organisation-api
-- description: The results API from Tadeus API — 4 operation(s) for results.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The results API from Tadeus API — 4 operation(s) for results.
   name: Tadeus API Results API
   slug: tadeus-api-results-api
-- description: The sessions API from Tadeus API — 2 operation(s) for sessions.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The sessions API from Tadeus API — 2 operation(s) for sessions.
   name: Tadeus API Sessions API
   slug: tadeus-api-sessions-api
-- description: The templates API from Tadeus API — 2 operation(s) for templates.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The templates API from Tadeus API — 2 operation(s) for templates.
   name: Tadeus API Templates API
   slug: tadeus-api-templates-api
-- description: The transcripts API from Tadeus API — 2 operation(s) for transcripts.
+- baseURL: https://app.tadeus.net/api/integration/v1
+  baseurl_source: declared
+  description: The transcripts API from Tadeus API — 2 operation(s) for transcripts.
   name: Tadeus API Transcripts API
   slug: tadeus-api-transcripts-api
 artifact_total: 17
@@ -237,7 +255,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/screenshots/tadeus-api-2026-08-17T082242.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 185 operations · 84 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: Read and write account information and preferences. <https://lichess.org/account/preferences/game-display>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Read and write account information and preferences. <https://lichess.org/account/preferences/game-display>
   name: Lichess Account API
   slug: lichess-account-api
-- description: Access Lichess cloud evaluations database. <https://lichess.org/analysis>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access Lichess cloud evaluations database. <https://lichess.org/analysis>
   name: Lichess Analysis API
   slug: lichess-analysis-api
-- description: 'Play on Lichess with physical boards and third-party clients. Works with normal Lichess accounts. Engine play or assistance is [forbidden](https://lichess.org/page/fair-play). ### Features - [Stream i'
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: 'Play on Lichess with physical boards and third-party clients. Works with normal Lichess accounts. Engine play or assistance is [forbidden](https://lichess.org/page/fair-play). ### Features - [Stream i'
   name: Lichess Board API
   slug: lichess-board-api
-- description: Play on Lichess as a bot. Allows engine play. Read the [blog post announcement of lichess bots](https://lichess.org/blog/WvDNticAAMu_mHKP/welcome-lichess-bots). Only works with [Bot accounts](#tag/bot
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Play on Lichess as a bot. Allows engine play. Read the [blog post announcement of lichess bots](https://lichess.org/blog/WvDNticAAMu_mHKP/welcome-lichess-bots). Only works with [Bot accounts](#tag/bot
   name: Lichess Bot API
   slug: lichess-bot-api
-- description: 'Relay chess events on Lichess. [Official broadcasts](https://lichess.org/broadcast) are maintained by Lichess, but you can [create your own broadcasts](https://lichess.org/broadcast/new) to cover any '
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: 'Relay chess events on Lichess. [Official broadcasts](https://lichess.org/broadcast) are maintained by Lichess, but you can [create your own broadcasts](https://lichess.org/broadcast/new) to cover any '
   name: Lichess Broadcasts API
   slug: lichess-broadcasts-api
-- description: Create many games for other players. These endpoints are intended for tournament organisers.
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Create many games for other players. These endpoints are intended for tournament organisers.
   name: Lichess Bulk pairings API
   slug: lichess-bulk-pairings-api
-- description: Send and receive challenges to play. To create a lot of challenges, consider [bulk pairing](#tag/bulk-pairings/POST/api/bulk-pairing) instead.
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Send and receive challenges to play. To create a lot of challenges, consider [bulk pairing](#tag/bulk-pairings/POST/api/bulk-pairing) instead.
   name: Lichess Challenges API
   slug: lichess-challenges-api
-- description: '**This API is in alpha and subject to change.** Use or provide external engine analysis. External engines can provide analysis on pages like the [analysis board](https://lichess.org/analysis), running'
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: '**This API is in alpha and subject to change.** Use or provide external engine analysis. External engines can provide analysis on pages like the [analysis board](https://lichess.org/analysis), running'
   name: Lichess External engine API
   slug: lichess-external-engine-api
-- description: FIDE players and federations from [their public download](https://ratings.fide.com/download_lists.phtml). <https://lichess.org/fide>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: FIDE players and federations from [their public download](https://ratings.fide.com/download_lists.phtml). <https://lichess.org/fide>
   name: Lichess FIDE API
   slug: lichess-fide-api
-- description: Access games played on Lichess. <https://lichess.org/games>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access games played on Lichess. <https://lichess.org/games>
   name: Lichess Games API
   slug: lichess-games-api
-- description: Private messages with other players. <https://lichess.org/inbox>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Private messages with other players. <https://lichess.org/inbox>
   name: Lichess Messaging API
   slug: lichess-messaging-api
-- description: Obtaining and revoking OAuth tokens. [Read about the Lichess API authentication methods and code examples](https://github.com/lichess-org/api/blob/master/example/README.md).
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Obtaining and revoking OAuth tokens. [Read about the Lichess API authentication methods and code examples](https://github.com/lichess-org/api/blob/master/example/README.md).
   name: Lichess OAuth API
   slug: lichess-oauth-api
-- description: Lookup positions from the [Lichess opening explorer](https://lichess.org/analysis#explorer). Runs <https://github.com/lichess-org/lila-openingexplorer>. > [!important] > The hostname for these endpoin
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Lookup positions from the [Lichess opening explorer](https://lichess.org/analysis#explorer). Runs <https://github.com/lichess-org/lila-openingexplorer>. > [!important] > The hostname for these endpoin
   name: Lichess Opening Explorer API
   slug: lichess-opening-explorer-api
-- description: Fetch and solve [puzzles](https://lichess.org/training), view your puzzle history and dashboard. Our collection of puzzles is in the public domain, you can [download it here](https://database.lichess.
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Fetch and solve [puzzles](https://lichess.org/training), view your puzzle history and dashboard. Our collection of puzzles is in the public domain, you can [download it here](https://database.lichess.
   name: Lichess Puzzles API
   slug: lichess-puzzles-api
-- description: Access relations between users.
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access relations between users.
   name: Lichess Relations API
   slug: lichess-relations-api
-- description: Access simuls played on Lichess. <https://lichess.org/simul>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access simuls played on Lichess. <https://lichess.org/simul>
   name: Lichess Simuls API
   slug: lichess-simuls-api
-- description: Access Lichess studies. <https://lichess.org/study>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access Lichess studies. <https://lichess.org/study>
   name: Lichess Studies API
   slug: lichess-studies-api
-- description: Lookup positions from the [Lichess tablebase server](https://lichess.org/blog/W3WeMyQAACQAdfAL/7-piece-syzygy-tablebases-are-complete). > [!important] > The hostname for these endpoints is `tablebase.
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Lookup positions from the [Lichess tablebase server](https://lichess.org/blog/W3WeMyQAACQAdfAL/7-piece-syzygy-tablebases-are-complete). > [!important] > The hostname for these endpoints is `tablebase.
   name: Lichess Tablebase API
   slug: lichess-tablebase-api
-- description: Access and manage Lichess teams and their members. <https://lichess.org/team>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access and manage Lichess teams and their members. <https://lichess.org/team>
   name: Lichess Teams API
   slug: lichess-teams-api
-- description: Access Arena tournaments played on Lichess. [Official Arena tournaments](https://lichess.org/tournament) are maintained by Lichess, but you can [create your own Arena tournaments](https://lichess.org/
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access Arena tournaments played on Lichess. [Official Arena tournaments](https://lichess.org/tournament) are maintained by Lichess, but you can [create your own Arena tournaments](https://lichess.org/
   name: Lichess Tournaments (Arena) API
   slug: lichess-tournaments-arena-api
-- description: Access Swiss tournaments played on Lichess. [Read more about Swiss tournaments.](https://lichess.org/swiss).
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access Swiss tournaments played on Lichess. [Read more about Swiss tournaments.](https://lichess.org/swiss).
   name: Lichess Tournaments (Swiss) API
   slug: lichess-tournaments-swiss-api
-- description: Access Lichess TV channels and games. <https://lichess.org/tv> & <https://lichess.org/games>
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Access Lichess TV channels and games. <https://lichess.org/tv> & <https://lichess.org/games>
   name: Lichess TV API
   slug: lichess-tv-api
-- description: 'Access registered users on Lichess. <https://lichess.org/player> - Each user blog exposes an atom (RSS) feed, like <https://lichess.org/@/thibault/blog.atom> - User blogs mashup feed: https://lichess.'
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: 'Access registered users on Lichess. <https://lichess.org/player> - Each user blog exposes an atom (RSS) feed, like <https://lichess.org/@/thibault/blog.atom> - User blogs mashup feed: https://lichess.'
   name: Lichess Users API
   slug: lichess-users-api
 artifact_total: 111
@@ -568,7 +614,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -578,7 +624,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 57.6
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     contracts:
@@ -587,7 +633,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:

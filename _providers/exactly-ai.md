@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
-- description: The Images v1 API from Exactly Ai — 6 operation(s) for images v1.
+- baseURL: https://api.exactly.ai
+  baseurl_source: declared
+  description: The Images v1 API from Exactly Ai — 6 operation(s) for images v1.
   name: Exactly Ai Images v1 API
   slug: exactly-ai-images-v1-api
-- description: The Models v1 API from Exactly Ai — 9 operation(s) for models v1.
+- baseURL: https://api.exactly.ai
+  baseurl_source: declared
+  description: The Models v1 API from Exactly Ai — 9 operation(s) for models v1.
   name: Exactly Ai Models v1 API
   slug: exactly-ai-models-v1-api
 arazzos:
@@ -227,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,16 +65,24 @@ apis:
 - description: Official Rust SDK for the Polymarket CLOB API.
   name: clob-client (Rust SDK)
   slug: clob-client-rust
-- description: Public CLOB market data.
+- baseURL: https://clob.polymarket.com
+  baseurl_source: declared
+  description: Public CLOB market data.
   name: Polymarket CLOB Market Data API
   slug: polymarket-clob-market-data-api
-- description: Order placement and management on the central-limit order book.
+- baseURL: https://clob.polymarket.com
+  baseurl_source: declared
+  description: Order placement and management on the central-limit order book.
   name: Polymarket CLOB Trade API
   slug: polymarket-clob-trade-api
-- description: Read-only event metadata.
+- baseURL: https://clob.polymarket.com
+  baseurl_source: declared
+  description: Read-only event metadata.
   name: Polymarket Gamma Events API
   slug: polymarket-gamma-events-api
-- description: Read-only market metadata.
+- baseURL: https://clob.polymarket.com
+  baseurl_source: declared
+  description: Read-only market metadata.
   name: Polymarket Gamma Markets API
   slug: polymarket-gamma-markets-api
 artifact_total: 25
@@ -222,7 +230,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -235,7 +243,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 46.9
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -250,7 +258,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

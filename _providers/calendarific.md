@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: List supported countries and their ISO codes.
+- baseURL: https://calendarific.com/api/v2
+  baseurl_source: declared
+  description: List supported countries and their ISO codes.
   name: Calendarific Countries API
   slug: calendarific-countries-api
-- description: Retrieve holiday data for any country and year.
+- baseURL: https://calendarific.com/api/v2
+  baseurl_source: declared
+  description: Retrieve holiday data for any country and year.
   name: Calendarific Holidays API
   slug: calendarific-holidays-api
-- description: List supported languages and their ISO codes.
+- baseURL: https://calendarific.com/api/v2
+  baseurl_source: declared
+  description: List supported languages and their ISO codes.
   name: Calendarific Languages API
   slug: calendarific-languages-api
 artifact_total: 48
@@ -324,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/screenshots/calendarific-2026-06-20T173842.png
 security:

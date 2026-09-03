@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: Realtime channels active for a room.
+- baseURL: https://api.superviz.com
+  baseurl_source: declared
+  description: Realtime channels active for a room.
   name: SuperViz Channels API
   slug: superviz-channels-api
-- description: Contextual comments (annotations) created via the Collaboration SDK.
+- baseURL: https://api.superviz.com
+  baseurl_source: declared
+  description: Contextual comments (annotations) created via the Collaboration SDK.
   name: SuperViz Comments API
   slug: superviz-comments-api
-- description: Video huddle / meeting statistics.
+- baseURL: https://api.superviz.com
+  baseurl_source: declared
+  description: Video huddle / meeting statistics.
   name: SuperViz Meetings API
   slug: superviz-meetings-api
-- description: Participants currently connected to realtime channels.
+- baseURL: https://api.superviz.com
+  baseurl_source: declared
+  description: Participants currently connected to realtime channels.
   name: SuperViz Presence API
   slug: superviz-presence-api
-- description: Publishing events into realtime channels from a backend.
+- baseURL: https://api.superviz.com
+  baseurl_source: declared
+  description: Publishing events into realtime channels from a backend.
   name: SuperViz Realtime API
   slug: superviz-realtime-api
-- description: Collaboration rooms and their participants.
+- baseURL: https://api.superviz.com
+  baseurl_source: declared
+  description: Collaboration rooms and their participants.
   name: SuperViz Rooms API
   slug: superviz-rooms-api
 artifact_total: 22
@@ -176,7 +188,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/screenshots/superviz-2026-08-17T082204.png
 security:

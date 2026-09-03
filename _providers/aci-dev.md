@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 15 operations · 5 acting
 api_count: 1
 apis:
-- description: The app-configurations API from ACI.dev — 2 operation(s) for app-configurations.
+- baseURL: https://api.aci.dev
+  baseurl_source: spec
+  description: The app-configurations API from ACI.dev — 2 operation(s) for app-configurations.
   name: ACI.dev app-configurations API
   slug: aci-dev-app-configurations-api
-- description: The apps API from ACI.dev — 2 operation(s) for apps.
+- baseURL: https://api.aci.dev
+  baseurl_source: spec
+  description: The apps API from ACI.dev — 2 operation(s) for apps.
   name: ACI.dev apps API
   slug: aci-dev-apps-api
-- description: The functions API from ACI.dev — 3 operation(s) for functions.
+- baseURL: https://api.aci.dev
+  baseurl_source: spec
+  description: The functions API from ACI.dev — 3 operation(s) for functions.
   name: ACI.dev functions API
   slug: aci-dev-functions-api
-- description: The linked-accounts API from ACI.dev — 4 operation(s) for linked-accounts.
+- baseURL: https://api.aci.dev
+  baseurl_source: spec
+  description: The linked-accounts API from ACI.dev — 4 operation(s) for linked-accounts.
   name: ACI.dev linked-accounts API
   slug: aci-dev-linked-accounts-api
 artifact_total: 45
@@ -335,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-dev/refs/heads/main/screenshots/aci-dev-2026-06-20T163831.png
 security:

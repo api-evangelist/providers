@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: RiskOS is Socure's identity and fraud orchestration platform that combines ID+ modules, customer-configured workflows, case management, and a no-code rules editor under a unified API. RiskOS Enterpris
   name: Socure RiskOS API
   slug: socure-riskos-api
-- description: The Alerts API from socure — 2 operation(s) for alerts.
+- baseURL: https://api.socure.com
+  baseurl_source: spec
+  description: The Alerts API from socure — 2 operation(s) for alerts.
   name: socure Alerts API
   slug: socure-alerts-api
-- description: Unified multi-module identity, fraud, and risk evaluation
+- baseURL: https://api.socure.com
+  baseurl_source: spec
+  description: Unified multi-module identity, fraud, and risk evaluation
   name: socure ID+ API
   slug: socure-id-api
-- description: The Monitoring API from socure — 2 operation(s) for monitoring.
+- baseURL: https://api.socure.com
+  baseurl_source: spec
+  description: The Monitoring API from socure — 2 operation(s) for monitoring.
   name: socure Monitoring API
   slug: socure-monitoring-api
-- description: DocV session orchestration
+- baseURL: https://api.socure.com
+  baseurl_source: spec
+  description: DocV session orchestration
   name: socure Transactions API
   slug: socure-transactions-api
-- description: Document and selfie upload management
+- baseURL: https://api.socure.com
+  baseurl_source: spec
+  description: Document and selfie upload management
   name: socure Uploads API
   slug: socure-uploads-api
 arazzos:
@@ -419,16 +429,16 @@ jsonld:
   slug: socure-context
 layout: provider
 modified: '2026-05-25'
-name: socure
+name: Socure
 nav: Providers
 network: true
-overview: 'socure publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, ID+ API, Monitoring API, and 2 more.
+overview: 'Socure publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, ID+ API, Monitoring API, and 2 more.
 
 
-  The socure catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Socure catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  socure''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, tooling, and 47 more developer resources.'
+  Socure''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, tooling, and 47 more developer resources.'
 plans:
 - name: Socure Plans Pricing
   plan_count: 3
@@ -442,7 +452,7 @@ rules:
 - effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: socure API Rules
+  name: Socure API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -452,7 +462,7 @@ rules:
   slug: socure-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: socure API Rules
+  name: Socure API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -463,7 +473,7 @@ rules:
 - effective_rule_count: 48
   extends:
   - spectral:oas
-  name: socure API Rules
+  name: Socure API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -479,7 +489,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -489,7 +499,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 64.7
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     contracts:
@@ -499,10 +509,10 @@ score:
       total: 7
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Collect design briefs.
+- baseURL: https://api.99designs.com/resources/v1
+  baseurl_source: declared
+  description: Collect design briefs.
   name: 99designs Briefs API
   slug: 99designs-briefs-api
-- description: Generate partner coupon tokens.
+- baseURL: https://api.99designs.com/resources/v1
+  baseurl_source: declared
+  description: Generate partner coupon tokens.
   name: 99designs Coupons API
   slug: 99designs-coupons-api
-- description: Search and retrieve designers, reviews, and portfolios.
+- baseURL: https://api.99designs.com/resources/v1
+  baseurl_source: declared
+  description: Search and retrieve designers, reviews, and portfolios.
   name: 99designs Designers API
   slug: 99designs-designers-api
-- description: List the 99designs products a partner has available for sale, with prices and the brief schema each product version requires.
+- baseURL: https://api.99designs.com/resources/v1
+  baseurl_source: declared
+  description: List the 99designs products a partner has available for sale, with prices and the brief schema each product version requires.
   name: 99designs Products API
   slug: 99designs-products-api
-- description: Place orders against 99designs products.
+- baseURL: https://api.99designs.com/resources/v1
+  baseurl_source: declared
+  description: Place orders against 99designs products.
   name: 99designs Orders API
   slug: 99designs-orders-api
 artifact_total: 18
@@ -266,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
 security:

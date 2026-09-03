@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -65,25 +65,39 @@ apis:
 - description: gRPC server reflection provides information about publicly-accessible gRPC services on a server, enabling discovery and dynamic invocation. gRPC is widely used for high-performance inter-service commu
   name: gRPC Reflection API
   slug: grpc
-- description: The ConfigMaps API from Scalable Services — 1 operation(s) for configmaps.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The ConfigMaps API from Scalable Services — 1 operation(s) for configmaps.
   name: Scalable Services ConfigMaps API
   slug: scalable-services-configmaps-api
-- description: The Namespaces API from Scalable Services — 2 operation(s) for namespaces.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Namespaces API from Scalable Services — 2 operation(s) for namespaces.
   name: Scalable Services Namespaces API
   slug: scalable-services-namespaces-api
-- description: The Nodes API from Scalable Services — 2 operation(s) for nodes.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Nodes API from Scalable Services — 2 operation(s) for nodes.
   name: Scalable Services Nodes API
   slug: scalable-services-nodes-api
-- description: The PersistentVolumes API from Scalable Services — 1 operation(s) for persistentvolumes.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The PersistentVolumes API from Scalable Services — 1 operation(s) for persistentvolumes.
   name: Scalable Services PersistentVolumes API
   slug: scalable-services-persistentvolumes-api
-- description: The Pods API from Scalable Services — 3 operation(s) for pods.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Pods API from Scalable Services — 3 operation(s) for pods.
   name: Scalable Services Pods API
   slug: scalable-services-pods-api
-- description: The Secrets API from Scalable Services — 1 operation(s) for secrets.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Secrets API from Scalable Services — 1 operation(s) for secrets.
   name: Scalable Services Secrets API
   slug: scalable-services-secrets-api
-- description: The Services API from Scalable Services — 2 operation(s) for services.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Services API from Scalable Services — 2 operation(s) for services.
   name: Scalable Services Services API
   slug: scalable-services-services-api
 artifact_total: 36
@@ -262,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/screenshots/scalable-services-2026-06-20T193455.png
 security:

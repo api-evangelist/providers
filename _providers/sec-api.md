@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
-- description: Real-time, push-based WebSocket feed of newly published SEC EDGAR filings. Connect to wss://stream.sec-api.io with an API key and receive a stringified JSON array of filing metadata objects the moment
+- baseURL: wss://stream.sec-api.io
+  baseurl_source: declared
+  description: Real-time, push-based WebSocket feed of newly published SEC EDGAR filings. Connect to wss://stream.sec-api.io with an API key and receive a stringified JSON array of filing metadata objects the moment
   name: SEC API Filing Stream API
   slug: sec-api-filing-stream-api
-- description: Extract textual sections (items) from 10-K, 10-Q, and 8-K filings.
+- baseURL: https://api.sec-api.io
+  baseurl_source: declared
+  description: Extract textual sections (items) from 10-K, 10-Q, and 8-K filings.
   name: SEC API Extractor API
   slug: sec-api-extractor-api
-- description: Search 18M+ EDGAR filings by metadata using Lucene syntax.
+- baseURL: https://api.sec-api.io
+  baseurl_source: declared
+  description: Search 18M+ EDGAR filings by metadata using Lucene syntax.
   name: SEC API Filing Query API
   slug: sec-api-filing-query-api
-- description: Institutional investment manager holdings and cover pages.
+- baseURL: https://api.sec-api.io
+  baseurl_source: declared
+  description: Institutional investment manager holdings and cover pages.
   name: SEC API Form 13F API
   slug: sec-api-form-13f-api
-- description: Keyword and phrase search over filing bodies and exhibits since 2001.
+- baseURL: https://api.sec-api.io
+  baseurl_source: declared
+  description: Keyword and phrase search over filing bodies and exhibits since 2001.
   name: SEC API Full-Text Search API
   slug: sec-api-full-text-search-api
-- description: Structured insider transactions from Form 3, 4, and 5.
+- baseURL: https://api.sec-api.io
+  baseurl_source: declared
+  description: Structured insider transactions from Form 3, 4, and 5.
   name: SEC API Insider Trading API
   slug: sec-api-insider-trading-api
-- description: Convert XBRL financial data in filings to standardized JSON.
+- baseURL: https://api.sec-api.io
+  baseurl_source: declared
+  description: Convert XBRL financial data in filings to standardized JSON.
   name: SEC API XBRL API
   slug: sec-api-xbrl-api
 artifact_total: 23
@@ -180,7 +194,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -190,7 +204,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 41.4
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +219,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/screenshots/sec-api-2026-08-17T081743.png
 security:

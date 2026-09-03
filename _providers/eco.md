@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Quotes V1 API from Eco — 2 operation(s) for quotes v1.
+- baseURL: https://quotes.eco.com
+  baseurl_source: declared
+  description: The Quotes V1 API from Eco — 2 operation(s) for quotes v1.
   name: Eco Quotes V1 API
   slug: eco-quotes-v1-api
-- description: The Quotes V2 API from Eco — 4 operation(s) for quotes v2.
+- baseURL: https://quotes.eco.com
+  baseurl_source: declared
+  description: The Quotes V2 API from Eco — 4 operation(s) for quotes v2.
   name: Eco Quotes V2 API
   slug: eco-quotes-v2-api
-- description: The Quotes V3 API from Eco — 9 operation(s) for quotes v3.
+- baseURL: https://quotes.eco.com
+  baseurl_source: declared
+  description: The Quotes V3 API from Eco — 9 operation(s) for quotes v3.
   name: Eco Quotes V3 API
   slug: eco-quotes-v3-api
 artifact_total: 10
@@ -213,7 +219,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
 security:

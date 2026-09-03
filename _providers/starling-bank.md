@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
@@ -73,22 +73,34 @@ apis:
 - description: 'UK Open Banking Read/Write Confirmation of Funds (CBPII) API allowing a card-based payment instrument issuer to confirm whether funds are available, as an FCA-authorised ASPSP, conformant to the OBIE '
   name: Starling Confirmation of Funds API (CBPII, OBIE Read/Write)
   slug: starling-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api.starlingbank.com/api/v2
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Starling Bank ATM API
   slug: starling-bank-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api.starlingbank.com/api/v2
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Starling Bank BCA API
   slug: starling-bank-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api.starlingbank.com/api/v2
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Starling Bank Branch API
   slug: starling-bank-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api.starlingbank.com/api/v2
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Starling Bank CCC API
   slug: starling-bank-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api.starlingbank.com/api/v2
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Starling Bank PCA API
   slug: starling-bank-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api.starlingbank.com/api/v2
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Starling Bank SME API
   slug: starling-bank-sme-api
 artifact_total: 22
@@ -272,7 +284,7 @@ score:
     regime_id: banking_open_finance
     score: 62.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/screenshots/starling-bank-2026-08-17T082108.png
 security:

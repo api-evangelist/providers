@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,10 +60,10 @@ description: Xylem is a leading global water technology company committed to dev
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xylem.png
 layout: provider
 modified: '2026-03-21'
-name: xylem
+name: Xylem
 nav: Providers
 network: true
-overview: xylem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Xylem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: 'Reimagining Water Management: Generative AI as a ...'
@@ -101,7 +101,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/screenshots/xylem-2026-06-20T201717.png
 security:

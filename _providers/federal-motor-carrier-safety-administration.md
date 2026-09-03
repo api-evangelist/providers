@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: The Carriers API from Federal Motor Carrier Safety Administration — 7 operation(s) for carriers.
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: The Carriers API from Federal Motor Carrier Safety Administration — 7 operation(s) for carriers.
   name: Federal Motor Carrier Safety Administration Carriers API
   slug: federal-motor-carrier-safety-administration-carriers-api
 artifact_total: 10
@@ -141,7 +143,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/screenshots/federal-motor-carrier-safety-administration-2026-06-20T181123.png
 security:

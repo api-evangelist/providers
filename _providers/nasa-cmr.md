@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,16 +58,24 @@ apis:
 - description: 'OpenSearch-compliant API wrapper for CMR Search enabling standard OpenSearch client integration. Supports collection discovery with spatial and temporal parameters. Complements the native REST search '
   name: CMR OpenSearch API
   slug: cmr-opensearch
-- description: essential characteristics of this API
+- baseURL: https://cmr.earthdata.nasa.gov/search
+  baseurl_source: declared
+  description: essential characteristics of this API
   name: NASA CMR Capabilities API
   slug: nasa-cmr-capabilities-api
-- description: Collection Search
+- baseURL: https://cmr.earthdata.nasa.gov/search
+  baseurl_source: declared
+  description: Collection Search
   name: NASA CMR Collections API
   slug: nasa-cmr-collections-api
-- description: access to data (features)
+- baseURL: https://cmr.earthdata.nasa.gov/search
+  baseurl_source: declared
+  description: access to data (features)
   name: NASA CMR Data API
   slug: nasa-cmr-data-api
-- description: Extension to WFS3 Core to support STAC metadata model and search API
+- baseURL: https://cmr.earthdata.nasa.gov/search
+  baseurl_source: declared
+  description: Extension to WFS3 Core to support STAC metadata model and search API
   name: NASA CMR STAC API
   slug: nasa-cmr-stac-api
 artifact_total: 33
@@ -268,7 +276,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:

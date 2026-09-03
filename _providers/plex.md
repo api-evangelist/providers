@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -40,91 +52,149 @@ apis:
 - description: A first-party remote Model Context Protocol server operated by Plex at https://plex.tv/internal/mcp. It advertises RFC 9728 protected-resource metadata, RFC 8414 authorization-server metadata and Open
   name: Plex MCP Server
   slug: plex-mcp-server
-- description: Activities provide a way to monitor and control asynchronous operations on the server. In order to receive real-time updates for activities, a client would normally subscribe via either EventSource or
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Activities provide a way to monitor and control asynchronous operations on the server. In order to receive real-time updates for activities, a client would normally subscribe via either EventSource or
   name: Plex Activities API
   slug: plex-activities-api
-- description: 'The butler is responsible for running periodic tasks. Some tasks run daily, others every few days, and some weekly. These includes database maintenance, metadata updating, thumbnail generation, media '
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: 'The butler is responsible for running periodic tasks. Some tasks run daily, others every few days, and some weekly. These includes database maintenance, metadata updating, thumbnail generation, media '
   name: Plex Butler API
   slug: plex-butler-api
-- description: The Collections API from Plex — 1 operation(s) for collections.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The Collections API from Plex — 1 operation(s) for collections.
   name: Plex Collections API
   slug: plex-collections-api
-- description: The actual content of the media provider
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The actual content of the media provider
   name: Plex Content API
   slug: plex-content-api
-- description: Media grabbers provide ways for media to be obtained for a given protocol. The simplest ones are `stream` and `download`. More complex grabbers can have associated devices Network tuners can present t
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Media grabbers provide ways for media to be obtained for a given protocol. The simplest ones are `stream` and `download`. More complex grabbers can have associated devices Network tuners can present t
   name: Plex Devices API
   slug: plex-devices-api
-- description: The Download Queue API from Plex — 8 operation(s) for download queue.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The Download Queue API from Plex — 8 operation(s) for download queue.
   name: Plex Download Queue API
   slug: plex-download-queue-api
-- description: The DVR provides means to watch and record live TV. This section of endpoints describes how to setup the DVR itself
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The DVR provides means to watch and record live TV. This section of endpoints describes how to setup the DVR itself
   name: Plex DV Rs API
   slug: plex-dvrs-api
-- description: The EPG (Electronic Program Guide) is responsible for obtaining metadata for what is airing on each channel and when
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The EPG (Electronic Program Guide) is responsible for obtaining metadata for what is airing on each channel and when
   name: Plex EPG API
   slug: plex-epg-api
-- description: The server can notify clients in real-time of a wide range of events, from library scanning, to preferences being modified, to changes to media, and many other things. This is also the mechanism by wh
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The server can notify clients in real-time of a wide range of events, from library scanning, to preferences being modified, to changes to media, and many other things. This is also the mechanism by wh
   name: Plex Events API
   slug: plex-events-api
-- description: General endpoints for basic PMS operation not specific to any media provider
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: General endpoints for basic PMS operation not specific to any media provider
   name: Plex General API
   slug: plex-general-api
-- description: The hubs within a media provider
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The hubs within a media provider
   name: Plex Hubs API
   slug: plex-hubs-api
-- description: Library endpoints which are outside of the Media Provider API. Typically this is manipulation of the library (adding/removing sections, modifying preferences, etc).
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Library endpoints which are outside of the Media Provider API. Typically this is manipulation of the library (adding/removing sections, modifying preferences, etc).
   name: Plex Library API
   slug: plex-library-api
-- description: Endpoints for manipulating collections. In addition to these endpoints, `/library/collections/:collectionId/X` will be rerouted to `/library/metadata/:collectionId/X` and respond to those endpoints as
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Endpoints for manipulating collections. In addition to these endpoints, `/library/collections/:collectionId/X` will be rerouted to `/library/metadata/:collectionId/X` and respond to those endpoints as
   name: Plex Library Collections API
   slug: plex-library-collections-api
-- description: Endpoints for manipulating playlists.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Endpoints for manipulating playlists.
   name: Plex Library Playlists API
   slug: plex-library-playlists-api
-- description: LiveTV contains the playback sessions of a channel from a DVR device
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: LiveTV contains the playback sessions of a channel from a DVR device
   name: Plex Live TV API
   slug: plex-live-tv-api
-- description: Logging mechanism to allow clients to log to the server
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Logging mechanism to allow clients to log to the server
   name: Plex Log API
   slug: plex-log-api
-- description: The Metadata Agents API from Plex — 5 operation(s) for metadata agents.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The Metadata Agents API from Plex — 5 operation(s) for metadata agents.
   name: Plex Metadata Agents API
   slug: plex-metadata-agents-api
-- description: The playqueue feature within a media provider A play queue represents the current list of media for playback. Although queues are persisted by the server, they should be regarded by the user as a fair
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The playqueue feature within a media provider A play queue represents the current list of media for playback. Although queues are persisted by the server, they should be regarded by the user as a fair
   name: Plex Play Queue API
   slug: plex-play-queue-api
-- description: The playlist feature within a media provider Playlists are ordered collections of media. They can be dumb (just a list of media) or smart (based on a media query, such as "all albums from 2017"). They
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The playlist feature within a media provider Playlists are ordered collections of media. They can be dumb (just a list of media) or smart (based on a media query, such as "all albums from 2017"). They
   name: Plex Playlist API
   slug: plex-playlist-api
-- description: The Preferences API from Plex — 2 operation(s) for preferences.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The Preferences API from Plex — 2 operation(s) for preferences.
   name: Plex Preferences API
   slug: plex-preferences-api
-- description: 'Media providers are the starting points for the entire Plex Media Server media library API. It defines the paths for the groups of endpoints. The `/media/providers` should be the only hard-coded path '
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: 'Media providers are the starting points for the entire Plex Media Server media library API. It defines the paths for the groups of endpoints. The `/media/providers` should be the only hard-coded path '
   name: Plex Provider API
   slug: plex-provider-api
-- description: The rate feature within a media provider
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The rate feature within a media provider
   name: Plex Rate API
   slug: plex-rate-api
-- description: The search feature within a media provider
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The search feature within a media provider
   name: Plex Search API
   slug: plex-search-api
-- description: The status endpoints give you information about current playbacks, play history, and even terminating sessions.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The status endpoints give you information about current playbacks, play history, and even terminating sessions.
   name: Plex Status API
   slug: plex-status-api
-- description: Subscriptions determine which media will be recorded and the criteria for selecting an airing when multiple are available
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Subscriptions determine which media will be recorded and the criteria for selecting an airing when multiple are available
   name: Plex Subscriptions API
   slug: plex-subscriptions-api
-- description: The actions feature within a media provider
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The actions feature within a media provider
   name: Plex Timeline API
   slug: plex-timeline-api
-- description: The Transcoder API from Plex — 5 operation(s) for transcoder.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: The Transcoder API from Plex — 5 operation(s) for transcoder.
   name: Plex Transcoder API
   slug: plex-transcoder-api
-- description: Service provided to compute UltraBlur colors and images.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: Service provided to compute UltraBlur colors and images.
   name: Plex Ultra Blur API
   slug: plex-ultrablur-api
-- description: This describes the API for searching and applying updates to the Plex Media Server. Updates to the status can be observed via the Event API.
+- baseURL: https://1-2-3-4.0123456789abcdef0123456789abcdef.plex.direct:32400
+  baseurl_source: declared
+  description: This describes the API for searching and applying updates to the Plex Media Server. Updates to the status can be observed via the Event API.
   name: Plex Updater API
   slug: plex-updater-api
 artifact_total: 68
@@ -425,7 +495,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -435,7 +505,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 52.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -447,7 +517,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plex/refs/heads/main/screenshots/plex-2026-08-17T081305.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -44,157 +44,259 @@ agentic_access:
   summary_line: 189 operations · 189 acting · 8 human-in-the-loop
 api_count: 13
 apis:
-- description: Robotic arms — joint and end-effector control.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Robotic arms — joint and end-effector control.
   name: Viam Arm API
   slug: viam-arm-api
-- description: Audio capture devices.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Audio capture devices.
   name: Viam Audio In API
   slug: viam-audio-in-api
-- description: Audio playback devices.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Audio playback devices.
   name: Viam Audio Out API
   slug: viam-audio-out-api
-- description: Mobile platforms (wheeled, tracked).
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Mobile platforms (wheeled, tracked).
   name: Viam Base API
   slug: viam-base-api
-- description: Available billing tiers for end-customer billing.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Available billing tiers for end-customer billing.
   name: Viam Billing Tiers API
   slug: viam-billing-tiers-api
-- description: Images, video, audio, and other binary blobs captured by cameras and audio components.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Images, video, audio, and other binary blobs captured by cameras and audio components.
   name: Viam Binary Data API
   slug: viam-binary-data-api
-- description: GPIO boards (Raspberry Pi, Jetson, ESP32).
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: GPIO boards (Raspberry Pi, Jetson, ESP32).
   name: Viam Board API
   slug: viam-board-api
-- description: Physical buttons.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Physical buttons.
   name: Viam Button API
   slug: viam-button-api
-- description: 2D image and 3D point cloud sources.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: 2D image and 3D point cloud sources.
   name: Viam Camera API
   slug: viam-camera-api
-- description: Charge an organization or create-and-charge an invoice.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Charge an organization or create-and-charge an invoice.
   name: Viam Charges API
   slug: viam-charges-api
-- description: Direct database connection (MongoDB) for advanced analytics.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Direct database connection (MongoDB) for advanced analytics.
   name: Viam Database API
   slug: viam-database-api
-- description: Curated collections of binary data used for ML training.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Curated collections of binary data used for ML training.
   name: Viam Datasets API
   slug: viam-datasets-api
-- description: Position encoders.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Position encoders.
   name: Viam Encoder API
   slug: viam-encoder-api
-- description: Reusable machine configuration snippets, versioned and shareable across orgs.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Reusable machine configuration snippets, versioned and shareable across orgs.
   name: Viam Fragments API
   slug: viam-fragments-api
-- description: Frame system config and pose transformations.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Frame system config and pose transformations.
   name: Viam Frame System API
   slug: viam-frame-system-api
-- description: Linear actuator coordination.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Linear actuator coordination.
   name: Viam Gantry API
   slug: viam-gantry-api
-- description: Custom component with DoCommand-only interface.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Custom component with DoCommand-only interface.
   name: Viam Generic API
   slug: viam-generic-api
-- description: End-effector grippers.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: End-effector grippers.
   name: Viam Gripper API
   slug: viam-gripper-api
-- description: Cloud-hosted inference against registry-deployed models.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Cloud-hosted inference against registry-deployed models.
   name: Viam Inference API
   slug: viam-inference-api
-- description: Invoices and invoice PDFs.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Invoices and invoice PDFs.
   name: Viam Invoices API
   slug: viam-invoices-api
-- description: Logical grouping of machines (e.g., a building, site, or robot fleet).
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Logical grouping of machines (e.g., a building, site, or robot fleet).
   name: Viam Locations API
   slug: viam-locations-api
-- description: A single viam-server process running on a device. A machine can have multiple parts.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: A single viam-server process running on a device. A machine can have multiple parts.
   name: Viam Machine Parts API
   slug: viam-machine-parts-api
-- description: A robot or smart machine running viam-server. Composed of one or more parts.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: A robot or smart machine running viam-server. Composed of one or more parts.
   name: Viam Machines API
   slug: viam-machines-api
-- description: Organization membership, invites, and authorizations (RBAC).
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Organization membership, invites, and authorizations (RBAC).
   name: Viam Members API
   slug: viam-members-api
-- description: Device-side ML inference.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Device-side ML inference.
   name: Viam ML Model API
   slug: viam-ml-model-api
-- description: Modular component and service lifecycle.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Modular component and service lifecycle.
   name: Viam Modules API
   slug: viam-modules-api
-- description: Plan and execute motion across components.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Plan and execute motion across components.
   name: Viam Motion API
   slug: viam-motion-api
-- description: DC, servo, and stepper motors.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: DC, servo, and stepper motors.
   name: Viam Motor API
   slug: viam-motor-api
-- description: GPS, IMU, odometry.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: GPS, IMU, odometry.
   name: Viam Movement Sensor API
   slug: viam-movement-sensor-api
-- description: OAuth applications registered against a Viam organization for third-party integrations.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: OAuth applications registered against a Viam organization for third-party integrations.
   name: Viam OAuth Apps API
   slug: viam-oauth-apps-api
-- description: Long-running operations executing on the machine.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Long-running operations executing on the machine.
   name: Viam Operations API
   slug: viam-operations-api
-- description: Tenant boundary for Viam — owns locations, machines, members, billing, and registry items.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Tenant boundary for Viam — owns locations, machines, members, billing, and registry items.
   name: Viam Organizations API
   slug: viam-organizations-api
-- description: Scheduled MQL aggregation pipelines.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Scheduled MQL aggregation pipelines.
   name: Viam Pipelines API
   slug: viam-pipelines-api
-- description: Voltage, current, and power measurements.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Voltage, current, and power measurements.
   name: Viam Power Sensor API
   slug: viam-power-sensor-api
-- description: Resources (components and services) registered on the machine.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Resources (components and services) registered on the machine.
   name: Viam Resources API
   slug: viam-resources-api
-- description: Reusable SQL/MQL queries stored in the cloud.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Reusable SQL/MQL queries stored in the cloud.
   name: Viam Saved Queries API
   slug: viam-saved-queries-api
-- description: Location and machine-part secrets used by SDKs to authenticate.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Location and machine-part secrets used by SDKs to authenticate.
   name: Viam Secrets API
   slug: viam-secrets-api
-- description: Generic sensor readings.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Generic sensor readings.
   name: Viam Sensor API
   slug: viam-sensor-api
-- description: Ordered sequences of dataset items for time-series training.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Ordered sequences of dataset items for time-series training.
   name: Viam Sequences API
   slug: viam-sequences-api
-- description: Angular-position servos.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Angular-position servos.
   name: Viam Servo API
   slug: viam-servo-api
-- description: Client sessions with safety-timeout heartbeats.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Client sessions with safety-timeout heartbeats.
   name: Viam Sessions API
   slug: viam-sessions-api
-- description: Simultaneous Localization And Mapping.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Simultaneous Localization And Mapping.
   name: Viam SLAM API
   slug: viam-slam-api
-- description: Status, version, cloud metadata, and machine state.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Status, version, cloud metadata, and machine state.
   name: Viam Status API
   slug: viam-status-api
-- description: Multi-position switches.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Multi-position switches.
   name: Viam Switch API
   slug: viam-switch-api
-- description: Time-series and structured data captured by sensor and movement-sensor components.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Time-series and structured data captured by sensor and movement-sensor components.
   name: Viam Tabular Data API
   slug: viam-tabular-data-api
-- description: Bounding boxes and labels applied to binary data items.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Bounding boxes and labels applied to binary data items.
   name: Viam Tags API
   slug: viam-tags-api
-- description: Built-in TFLite trainers and custom containerized trainers.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Built-in TFLite trainers and custom containerized trainers.
   name: Viam Training Jobs API
   slug: viam-training-jobs-api
-- description: TCP tunneling through the machine.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: TCP tunneling through the machine.
   name: Viam Tunneling API
   slug: viam-tunneling-api
-- description: Streaming and one-shot uploads of captured data.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Streaming and one-shot uploads of captured data.
   name: Viam Upload API
   slug: viam-upload-api
-- description: Current-month usage reporting.
+- baseURL: https://app.viam.com
+  baseurl_source: spec
+  description: Current-month usage reporting.
   name: Viam Usage API
   slug: viam-usage-api
-- description: Detections, classifications, and 3D segmentation.
+- baseURL_template: https://{machine_address}
+  baseurl_source: spec_template
+  description: Detections, classifications, and 3D segmentation.
   name: Viam Vision API
   slug: viam-vision-api
 arazzos:
@@ -863,7 +965,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -873,7 +975,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 61.6
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -882,7 +984,7 @@ score:
       marker_coverage: 0.0
       total: 52
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:

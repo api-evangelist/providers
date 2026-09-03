@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Multi-platform embeddable SDK for peer-to-peer and cloud-synced data storage. Supports Swift, Kotlin, Flutter, React Native, JavaScript, .NET/C#, C++, Rust, Go, and Java. Developers use DQL to create,
   name: Ditto SDK
   slug: sdk
-- description: Big Peer HTTP API keys
+- baseURL: https://{app-id}.cloud.dittolive.app
+  baseurl_source: declared
+  description: Big Peer HTTP API keys
   name: Ditto API Keys API
   slug: ditto-live-api-keys-api
-- description: The Apps API from Ditto — 6 operation(s) for apps.
+- baseURL: https://{app-id}.cloud.dittolive.app
+  baseurl_source: declared
+  description: The Apps API from Ditto — 6 operation(s) for apps.
   name: Ditto Apps API
   slug: ditto-live-apps-api
-- description: The BigPeerReplication API from Ditto — 2 operation(s) for bigpeerreplication.
+- baseURL: https://{app-id}.cloud.dittolive.app
+  baseurl_source: declared
+  description: The BigPeerReplication API from Ditto — 2 operation(s) for bigpeerreplication.
   name: Ditto BigPeerReplication API
   slug: ditto-live-bigpeerreplication-api
-- description: Apps' data bridges (CDC)
+- baseURL: https://{app-id}.cloud.dittolive.app
+  baseurl_source: declared
+  description: Apps' data bridges (CDC)
   name: Ditto Data Bridge API
   slug: ditto-live-data-bridge-api
-- description: The Store API from Ditto — 5 operation(s) for store.
+- baseURL: https://{app-id}.cloud.dittolive.app
+  baseurl_source: declared
+  description: The Store API from Ditto — 5 operation(s) for store.
   name: Ditto Store API
   slug: ditto-live-store-api
-- description: The Sync API from Ditto — 1 operation(s) for sync.
+- baseURL: https://{app-id}.cloud.dittolive.app
+  baseurl_source: declared
+  description: The Sync API from Ditto — 1 operation(s) for sync.
   name: Ditto Sync API
   slug: ditto-live-sync-api
 artifact_total: 40
@@ -277,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ditto-live/refs/heads/main/screenshots/ditto-live-2026-06-20T180058.png
 security:

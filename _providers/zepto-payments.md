@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -33,70 +46,114 @@ agentic_access:
   summary_line: 72 operations · 37 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Modify existing agreements
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Modify existing agreements
   name: Zepto Agreement modification API
   slug: zepto-payments-agreement-modification-api
-- description: Create and query agreements
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Create and query agreements
   name: Zepto Agreements API
   slug: zepto-payments-agreements-api
-- description: Resolve the display name associated with a PayID alias
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Resolve the display name associated with a PayID alias
   name: Zepto Alias Resolution API
   slug: zepto-payments-alias-resolution-api
-- description: Your currently linked up bank accounts.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Your currently linked up bank accounts.
   name: Zepto Bank Accounts API
   slug: zepto-payments-bank-accounts-api
-- description: The Zepto Clients API allows registration of clients who indirectly use the Zepto platform via your Zepto integration.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: The Zepto Clients API allows registration of clients who indirectly use the Zepto platform via your Zepto integration.
   name: Zepto Clients API
   slug: zepto-payments-clients-api
-- description: 'Your Contacts form an address book of parties with whom you can interact. In order to initiate any type of transaction you must first have the party in your Contact list. <aside class="notice">In the '
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: 'Your Contacts form an address book of parties with whom you can interact. In order to initiate any type of transaction you must first have the party in your Contact list. <aside class="notice">In the '
   name: Zepto Contacts API
   slug: zepto-payments-contacts-api
-- description: The Contacts (Receivable) API from Zepto — 4 operation(s) for contacts (receivable).
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: The Contacts (Receivable) API from Zepto — 4 operation(s) for contacts (receivable).
   name: Zepto Contacts (Receivable) API
   slug: zepto-payments-contacts-receivable-api
-- description: The CoP Account Validations API from Zepto — 1 operation(s) for cop account validations.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: The CoP Account Validations API from Zepto — 1 operation(s) for cop account validations.
   name: Zepto CoP Account Validations API
   slug: zepto-payments-cop-account-validations-api
-- description: The Zepto Disputes API is for managing disputes. Access to this API is limited. Please contact Zepto for more information.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: The Zepto Disputes API is for managing disputes. Access to this API is limited. Please contact Zepto for more information.
   name: Zepto Disputes (Beta) API
   slug: zepto-payments-disputes-beta-api
-- description: Webhooks relating to out of band activity on float bank accounts
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Webhooks relating to out of band activity on float bank accounts
   name: Zepto Float Accounts API
   slug: zepto-payments-float-accounts-api
-- description: A Payment Request (PR) is used to collect funds, via direct debit, from one of your Contacts (as long as there is an accepted Agreement in place). <div class="middle-header">Applicable scenarios</div>
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: A Payment Request (PR) is used to collect funds, via direct debit, from one of your Contacts (as long as there is an accepted Agreement in place). <div class="middle-header">Applicable scenarios</div>
   name: Zepto Payment Requests API
   slug: zepto-payments-payment-requests-api
-- description: Make payments using an existing agreement
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Make payments using an existing agreement
   name: Zepto Payments API
   slug: zepto-payments-payments-api
-- description: 'This endpoint gives you some control over a transaction: * After it has been created; and * Before it has been submitted to the banks. <aside class="notice"> Payments and Payment Requests are made up '
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: 'This endpoint gives you some control over a transaction: * After it has been created; and * Before it has been submitted to the banks. <aside class="notice"> Payments and Payment Requests are made up '
   name: Zepto Payouts API
   slug: zepto-payments-payouts-api
-- description: The PayTo Settlement API from Zepto — 1 operation(s) for payto settlement.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: The PayTo Settlement API from Zepto — 1 operation(s) for payto settlement.
   name: Zepto PayTo Settlement API
   slug: zepto-payments-payto-settlement-api
-- description: Test your connectivity and authentication.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Test your connectivity and authentication.
   name: Zepto Ping API
   slug: zepto-payments-ping-api
-- description: 'Refunds can be issued for any successfully completed Payment Request transaction. This includes: 1. Payment Requests for direct debit payments **(Collections)**: 2. Payment Requests for funds received'
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: 'Refunds can be issued for any successfully completed Payment Request transaction. This includes: 1. Payment Requests for direct debit payments **(Collections)**: 2. Payment Requests for funds received'
   name: Zepto Refunds API
   slug: zepto-payments-refunds-api
-- description: 'Refund existing settled PayTo Payments ## Beta Release We''re excited to announce that this feature is now in beta! While we''ll aim to minimize breaking changes, some adjustments may occur as we refine'
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: 'Refund existing settled PayTo Payments ## Beta Release We''re excited to announce that this feature is now in beta! While we''ll aim to minimize breaking changes, some adjustments may occur as we refine'
   name: Zepto Refunds (Beta) API
   slug: zepto-payments-refunds-beta-api
-- description: Special testing endpoints that only exist in the sandbox environment.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: Special testing endpoints that only exist in the sandbox environment.
   name: Zepto Sandbox Only API
   slug: zepto-payments-sandbox-only-api
-- description: By default, the transactions endpoint provides a detailed look at all past, current and future debits & credits related to your account. <aside class="notice">Want to also know about the debits & cred
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: By default, the transactions endpoint provides a detailed look at all past, current and future debits & credits related to your account. <aside class="notice">Want to also know about the debits & cred
   name: Zepto Transactions API
   slug: zepto-payments-transactions-api
-- description: 'This endpoint lets you Transfer funds between any bank & float accounts registered under your Zepto account: 1. **From**: Bank Account **To**: Float Account: * Topping up a float account via Direct De'
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: 'This endpoint lets you Transfer funds between any bank & float accounts registered under your Zepto account: 1. **From**: Bank Account **To**: Float Account: * Topping up a float account via Direct De'
   name: Zepto Transfers API
   slug: zepto-payments-transfers-api
-- description: All about the currently authenticated user.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: All about the currently authenticated user.
   name: Zepto Users API
   slug: zepto-payments-users-api
-- description: The Webhooks API from Zepto — 4 operation(s) for webhooks.
+- baseURL: https://api.zeptopayments.com
+  baseurl_source: declared
+  description: The Webhooks API from Zepto — 4 operation(s) for webhooks.
   name: Zepto Webhooks API
   slug: zepto-payments-webhooks-api
 artifact_total: 44
@@ -346,7 +403,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -356,7 +413,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 56.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -374,7 +431,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zepto-payments/refs/heads/main/screenshots/zepto-payments-2026-08-17T083057.png
 security:

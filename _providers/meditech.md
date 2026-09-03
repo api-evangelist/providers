@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: 'MEDITECH''s FHIR API surface for Expanse, exposed to approved developers through the Greenfield Workspace. US Core FHIR R4 provides view-only access to patient-facing data after the patient authorizes '
   name: MEDITECH Expanse FHIR API
   slug: meditech-api
-- description: Allergy and intolerance records
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: Allergy and intolerance records
   name: meditech Allergy API
   slug: meditech-allergy-api
-- description: FHIR server capability
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: FHIR server capability
   name: meditech Capability API
   slug: meditech-capability-api
-- description: Problem list and diagnoses
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: Problem list and diagnoses
   name: meditech Condition API
   slug: meditech-condition-api
-- description: Diagnostic reports (lab, radiology, pathology)
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: Diagnostic reports (lab, radiology, pathology)
   name: meditech Diagnostic API
   slug: meditech-diagnostic-api
-- description: Clinical encounters and visits
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: Clinical encounters and visits
   name: meditech Encounter API
   slug: meditech-encounter-api
-- description: Medication requests and prescriptions
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: Medication requests and prescriptions
   name: meditech Medication API
   slug: meditech-medication-api
-- description: Vital signs and laboratory results
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: Vital signs and laboratory results
   name: meditech Observation API
   slug: meditech-observation-api
-- description: US Core Patient resources
+- baseURL: https://{facility}.meditech.com/fhir/r4
+  baseurl_source: declared
+  description: US Core Patient resources
   name: meditech Patient API
   slug: meditech-patient-api
 artifact_total: 31
@@ -409,7 +425,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:

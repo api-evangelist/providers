@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 587 operations · 294 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The api API from vivenu — 449 operation(s) for api.
+- baseURL: https://vivenu.com/api
+  baseurl_source: declared
+  description: The api API from vivenu — 449 operation(s) for api.
   name: vivenu api API
   slug: vivenu-api-api
-- description: The Payments API from vivenu — 4 operation(s) for payments.
+- baseURL: https://vivenu.com/api
+  baseurl_source: declared
+  description: The Payments API from vivenu — 4 operation(s) for payments.
   name: vivenu Payments API
   slug: vivenu-payments-api
 artifact_total: 82
@@ -406,7 +410,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -416,7 +420,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.1
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -438,7 +442,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png
 security:

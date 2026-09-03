@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 53 operations · 34 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Bounces API from listmonk — 2 operation(s) for bounces.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Bounces API from listmonk — 2 operation(s) for bounces.
   name: listmonk Bounces API
   slug: listmonk-bounces-api
-- description: The Campaigns API from listmonk — 8 operation(s) for campaigns.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Campaigns API from listmonk — 8 operation(s) for campaigns.
   name: listmonk Campaigns API
   slug: listmonk-campaigns-api
-- description: The Import API from listmonk — 2 operation(s) for import.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Import API from listmonk — 2 operation(s) for import.
   name: listmonk Import API
   slug: listmonk-import-api
-- description: The Lists API from listmonk — 3 operation(s) for lists.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Lists API from listmonk — 3 operation(s) for lists.
   name: listmonk Lists API
   slug: listmonk-lists-api
-- description: The Media API from listmonk — 2 operation(s) for media.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Media API from listmonk — 2 operation(s) for media.
   name: listmonk Media API
   slug: listmonk-media-api
-- description: The Subscribers API from listmonk — 10 operation(s) for subscribers.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Subscribers API from listmonk — 10 operation(s) for subscribers.
   name: listmonk Subscribers API
   slug: listmonk-subscribers-api
-- description: The Templates API from listmonk — 5 operation(s) for templates.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Templates API from listmonk — 5 operation(s) for templates.
   name: listmonk Templates API
   slug: listmonk-templates-api
-- description: The Transactional API from listmonk — 1 operation(s) for transactional.
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: The Transactional API from listmonk — 1 operation(s) for transactional.
   name: listmonk Transactional API
   slug: listmonk-transactional-api
-- description: Admin API
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: Admin API
   name: listmonk Admin API
   slug: listmonk-admin-api
-- description: Logs API
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: Logs API
   name: listmonk Logs API
   slug: listmonk-logs-api
-- description: Maintenance API
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: Maintenance API
   name: listmonk Maintenance API
   slug: listmonk-maintenance-api
-- description: Misc API
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: Misc API
   name: listmonk Miscellaneous API
   slug: listmonk-miscellaneous-api
-- description: Listmonk Public API
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: Listmonk Public API
   name: listmonk Public API
   slug: listmonk-public-api
-- description: Settings API
+- baseURL: https://{listmonk_host}/api
+  baseurl_source: declared
+  description: Settings API
   name: listmonk Settings API
   slug: listmonk-settings-api
 artifact_total: 32
@@ -299,7 +327,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -309,7 +337,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 48.8
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +355,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/screenshots/listmonk-2026-07-25T225325.png
 security:

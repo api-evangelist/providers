@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: AI Colleague run metrics.
+- baseURL: https://us-east-1-aic.leena.ai
+  baseurl_source: declared
+  description: AI Colleague run metrics.
   name: Leena AI Analytics API
   slug: leena-ai-analytics-api
-- description: Agent Operating Procedure execution and status.
+- baseURL: https://us-east-1-aic.leena.ai
+  baseurl_source: declared
+  description: Agent Operating Procedure execution and status.
   name: Leena AI AOP API
   slug: leena-ai-aop-api
-- description: Retrieve audit log records for the authenticated bot.
+- baseURL: https://us-east-1-aic.leena.ai
+  baseurl_source: declared
+  description: Retrieve audit log records for the authenticated bot.
   name: Leena AI Audit Logs API
   slug: leena-ai-audit-logs-api
-- description: Obtain a bearer token.
+- baseURL: https://us-east-1-aic.leena.ai
+  baseurl_source: declared
+  description: Obtain a bearer token.
   name: Leena AI Authentication API
   slug: leena-ai-authentication-api
-- description: Stage attachments and sync articles into the Leena Knowledge Base.
+- baseURL: https://us-east-1-aic.leena.ai
+  baseurl_source: declared
+  description: Stage attachments and sync articles into the Leena Knowledge Base.
   name: Leena AI Knowledge Articles API
   slug: leena-ai-knowledge-articles-api
 artifact_total: 18
@@ -239,7 +249,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -249,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 43.8
+  previous_composite: 33.9
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +270,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/screenshots/leena-ai-2026-07-25T224821.png
 security:
 - kind: authentication

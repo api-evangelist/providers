@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 18 operations · 11 acting
 api_count: 1
 apis:
-- description: The Calendars API from Google Calendar — 6 operation(s) for calendars.
+- baseURL: https://www.googleapis.com/calendar/v3
+  baseurl_source: declared
+  description: The Calendars API from Google Calendar — 6 operation(s) for calendars.
   name: Google Calendar Calendars API
   slug: google-calendar-calendars-api
-- description: The Colors API from Google Calendar — 1 operation(s) for colors.
+- baseURL: https://www.googleapis.com/calendar/v3
+  baseurl_source: declared
+  description: The Colors API from Google Calendar — 1 operation(s) for colors.
   name: Google Calendar Colors API
   slug: google-calendar-colors-api
-- description: The freeBusy API from Google Calendar — 1 operation(s) for freebusy.
+- baseURL: https://www.googleapis.com/calendar/v3
+  baseurl_source: declared
+  description: The freeBusy API from Google Calendar — 1 operation(s) for freebusy.
   name: Google Calendar freeBusy API
   slug: google-calendar-freebusy-api
-- description: The Users API from Google Calendar — 2 operation(s) for users.
+- baseURL: https://www.googleapis.com/calendar/v3
+  baseurl_source: declared
+  description: The Users API from Google Calendar — 2 operation(s) for users.
   name: Google Calendar Users API
   slug: google-calendar-users-api
 artifact_total: 22
@@ -223,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-calendar/refs/heads/main/screenshots/google-calendar-2026-06-20T182032.png
 security:

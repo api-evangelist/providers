@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 67 operations · 29 acting
 api_count: 1
 apis:
-- description: The Api-Key API from Fincura — 1 operation(s) for api-key.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The Api-Key API from Fincura — 1 operation(s) for api-key.
   name: Fincura Api-Key API
   slug: fincura-api-key-api
-- description: A record in our system to link financials and analyses to.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: A record in our system to link financials and analyses to.
   name: Fincura Borrowers API
   slug: fincura-borrowers-api
-- description: The CustomAttributes API from Fincura — 2 operation(s) for customattributes.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The CustomAttributes API from Fincura — 2 operation(s) for customattributes.
   name: Fincura CustomAttributes API
   slug: fincura-customattributes-api
-- description: The DataViews API from Fincura — 7 operation(s) for dataviews.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The DataViews API from Fincura — 7 operation(s) for dataviews.
   name: Fincura DataViews API
   slug: fincura-dataviews-api
-- description: The DscrAnalysis API from Fincura — 4 operation(s) for dscranalysis.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The DscrAnalysis API from Fincura — 4 operation(s) for dscranalysis.
   name: Fincura DscrAnalysis API
   slug: fincura-dscranalysis-api
-- description: DSCR Templates
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: DSCR Templates
   name: Fincura DscrTemplate API
   slug: fincura-dscrtemplate-api
-- description: Embedded Document Workflows enable a 3rd party user to use the Fincura UI to complete a portion of our document parsing pipeline and then return to the 3rd parties website.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Embedded Document Workflows enable a 3rd party user to use the Fincura UI to complete a portion of our document parsing pipeline and then return to the 3rd parties website.
   name: Fincura EmbeddedDocument API
   slug: fincura-embeddeddocument-api
-- description: Embedded DSCR Analysis allows an API user to authenticate and embedded previously created DSCR analysis into a 3rd party workflow.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Embedded DSCR Analysis allows an API user to authenticate and embedded previously created DSCR analysis into a 3rd party workflow.
   name: Fincura EmbeddedDscrAnalysis API
   slug: fincura-embeddeddscranalysis-api
-- description: Embedded Financials allows an API user to authenticate and embedded borrower financials into a 3rd party workflow.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Embedded Financials allows an API user to authenticate and embedded borrower financials into a 3rd party workflow.
   name: Fincura EmbeddedFinancials API
   slug: fincura-embeddedfinancials-api
-- description: Embedded Global Cashflow Analysis allows an API user to authenticate and embed previously created Global Cashflow analyses into a 3rd party applications.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Embedded Global Cashflow Analysis allows an API user to authenticate and embed previously created Global Cashflow analyses into a 3rd party applications.
   name: Fincura EmbeddedGlobalCashflowAnalysis API
   slug: fincura-embeddedglobalcashflowanalysis-api
-- description: Files serve as the source input data for our insights engine. They are represented by a `DocumentFile` record.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Files serve as the source input data for our insights engine. They are represented by a `DocumentFile` record.
   name: Fincura Files API
   slug: fincura-files-api
-- description: The FinancialStatementSubmission API from Fincura — 1 operation(s) for financialstatementsubmission.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The FinancialStatementSubmission API from Fincura — 1 operation(s) for financialstatementsubmission.
   name: Fincura FinancialStatementSubmission API
   slug: fincura-financialstatementsubmission-api
-- description: The GlobalCashflowAnalysis API from Fincura — 5 operation(s) for globalcashflowanalysis.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The GlobalCashflowAnalysis API from Fincura — 5 operation(s) for globalcashflowanalysis.
   name: Fincura GlobalCashflowAnalysis API
   slug: fincura-globalcashflowanalysis-api
-- description: The GlobalCashflowTemplate API from Fincura — 1 operation(s) for globalcashflowtemplate.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The GlobalCashflowTemplate API from Fincura — 1 operation(s) for globalcashflowtemplate.
   name: Fincura GlobalCashflowTemplate API
   slug: fincura-globalcashflowtemplate-api
-- description: A Borrower loan record in our system.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: A Borrower loan record in our system.
   name: Fincura Loans API
   slug: fincura-loans-api
-- description: Portfolios allow for grouping Borrowers.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Portfolios allow for grouping Borrowers.
   name: Fincura Portfolios API
   slug: fincura-portfolios-api
-- description: Set rules/covenants for your borrowers
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Set rules/covenants for your borrowers
   name: Fincura Requirements API
   slug: fincura-requirements-api
-- description: Spreading Templates
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: Spreading Templates
   name: Fincura SpreadingTemplate API
   slug: fincura-spreadingtemplate-api
-- description: The TenantSettings API from Fincura — 1 operation(s) for tenantsettings.
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The TenantSettings API from Fincura — 1 operation(s) for tenantsettings.
   name: Fincura TenantSettings API
   slug: fincura-tenantsettings-api
-- description: '## Supported Events The following are events you can listen to via webhooks. | Event&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | | --------------------------------------------- | ---------'
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: '## Supported Events The following are events you can listen to via webhooks. | Event&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | | --------------------------------------------- | ---------'
   name: Fincura Webhooks API
   slug: fincura-webhooks-api
 arazzos:
@@ -289,7 +329,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -299,7 +339,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,7 +357,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/screenshots/fincura-2026-07-25T214509.png
 security:

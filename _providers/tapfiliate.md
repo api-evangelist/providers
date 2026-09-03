@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 77 operations · 41 acting
 api_count: 1
 apis:
-- description: Manage affiliate groups
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage affiliate groups
   name: Tapfiliate Affiliate Groups API
   slug: tapfiliate-affiliate-groups-api
-- description: Manage affiliate prospects (pending applicants)
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage affiliate prospects (pending applicants)
   name: Tapfiliate Affiliate Prospects API
   slug: tapfiliate-affiliate-prospects-api
-- description: Manage affiliates, their groups, notes, and payout methods
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage affiliates, their groups, notes, and payout methods
   name: Tapfiliate Affiliates API
   slug: tapfiliate-affiliates-api
-- description: View affiliate balances
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: View affiliate balances
   name: Tapfiliate Balances API
   slug: tapfiliate-balances-api
-- description: Track and manage clicks
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Track and manage clicks
   name: Tapfiliate Clicks API
   slug: tapfiliate-clicks-api
-- description: Manage individual commissions
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage individual commissions
   name: Tapfiliate Commissions API
   slug: tapfiliate-commissions-api
-- description: Track and manage conversions and commissions
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Track and manage conversions and commissions
   name: Tapfiliate Conversions API
   slug: tapfiliate-conversions-api
-- description: Manage customers and their metadata
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage customers and their metadata
   name: Tapfiliate Customers API
   slug: tapfiliate-customers-api
-- description: Manage affiliate payments
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage affiliate payments
   name: Tapfiliate Payments API
   slug: tapfiliate-payments-api
-- description: Manage affiliate programs and program affiliates
+- baseURL: https://api.tapfiliate.com/1.6/
+  baseurl_source: declared
+  description: Manage affiliate programs and program affiliates
   name: Tapfiliate Programs API
   slug: tapfiliate-programs-api
 - description: Official remote Model Context Protocol server for Tapfiliate, announced 2026-08-07. A read-only analytics surface over live account data — clicks, conversions, customers, revenue, commissions, payouts
@@ -367,7 +387,7 @@ score:
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -377,7 +397,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 39.5
-  previous_composite: 66.0
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -389,7 +409,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:

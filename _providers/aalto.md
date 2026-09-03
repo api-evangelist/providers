@@ -34,25 +34,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Aalto's own Red Hat 3scale API gateway, the front door to every institution-operated API at Aalto. Five API products are documented on the portal; the underlying ActiveDocs index is public and lists f
   name: Aalto API Gateway
   slug: api-gateway
-- description: Buildings, building details, opening hours, rooms and room reservations across Aalto's Espoo campus. OpenAPI 3.0.1, version 1.0.2, contact it-integ@aalto.fi, served from facilities.api.aalto.fi. Docum
+- baseURL: https://facilities.api.aalto.fi/api/aalto
+  baseurl_source: declared
+  description: Buildings, building details, opening hours, rooms and room reservations across Aalto's Espoo campus. OpenAPI 3.0.1, version 1.0.2, contact it-integ@aalto.fi, served from facilities.api.aalto.fi. Docum
   name: Aalto Facilities API
   slug: facilities
-- description: Course units and course-unit realisations drawn from SISU, the Finnish higher-education student information system Aalto runs. OpenAPI 3.0.1, version 0.0.18, titled "Sisu API (replaces /oodiapi)" — th
+- baseURL: https://course.api.aalto.fi/api/sisu/v1
+  baseurl_source: declared
+  description: Course units and course-unit realisations drawn from SISU, the Finnish higher-education student information system Aalto runs. OpenAPI 3.0.1, version 0.0.18, titled "Sisu API (replaces /oodiapi)" — th
   name: Aalto Course API (SISU)
   slug: course-sisu
-- description: Aalto's own four-path gateway contract over Acris, its research information system, exposing research outputs, a single output by id, an enhanced output view and output fingerprints. OpenAPI 3.0.0 ser
+- baseURL: https://research.api.aalto.fi/api/acris/v1
+  baseurl_source: declared
+  description: Aalto's own four-path gateway contract over Acris, its research information system, exposing research outputs, a single output by id, an enhanced output view and output fingerprints. OpenAPI 3.0.0 ser
   name: Aalto Research Publications API (Acris gateway)
   slug: acris-research
-- description: Administrative reference data — cost centres, projects, departments and schools — from Aalto's data warehouse. OpenAPI 3.0.0, version 1.0.10, X-ApiKey header, served from api.aalto.fi. The contract st
+- baseURL: https://api.aalto.fi/api/dw_projects
+  baseurl_source: declared
+  description: Administrative reference data — cost centres, projects, departments and schools — from Aalto's data warehouse. OpenAPI 3.0.0, version 1.0.10, X-ApiKey header, served from api.aalto.fi. The contract st
   name: Aalto Projects and Cost Centers API
   slug: projects-costcenters
-- description: A two-path proxy over Aaltopeople returning groups and public staff profiles. OpenAPI 3.0.1, version 1.0.3, contact it-integ@aalto.fi, served from aaltopeople.api.aalto.fi. Present in the public Activ
+- baseURL: https://aaltopeople.api.aalto.fi/api/aaltopeople/v1
+  baseurl_source: declared
+  description: A two-path proxy over Aaltopeople returning groups and public staff profiles. OpenAPI 3.0.1, version 1.0.3, contact it-integ@aalto.fi, served from aaltopeople.api.aalto.fi. Present in the public Activ
   name: Aalto People Profile API
   slug: people-profile
 - description: 'The Oodi-sourced course API, still published on the portal and explicitly marked deprecated: "This API source is OODI and should not be used." Swagger 2.0, two paths, superseded by the SISU Course API'
@@ -231,7 +241,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -241,7 +251,7 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 41.6
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     contracts:
@@ -256,7 +266,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aalto/refs/heads/main/screenshots/aalto-2026-06-20T162945.png
 security:

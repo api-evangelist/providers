@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 21 operations · 15 acting
 api_count: 1
 apis:
-- description: List connected channels.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: List connected channels.
   name: Trengo Channels API
   slug: trengo-channels-api
-- description: Manage contacts and contact profiles.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: Manage contacts and contact profiles.
   name: Trengo Contacts API
   slug: trengo-contacts-api
-- description: Manage labels and custom fields.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: Manage labels and custom fields.
   name: Trengo Labels and Custom Fields API
   slug: trengo-labels-and-custom-fields-api
-- description: List and send text and media messages on a ticket.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: List and send text and media messages on a ticket.
   name: Trengo Messages API
   slug: trengo-messages-api
-- description: Manage teams and list agents.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: Manage teams and list agents.
   name: Trengo Teams and Users API
   slug: trengo-teams-and-users-api
-- description: Create, list, assign, label, and close conversations.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: Create, list, assign, label, and close conversations.
   name: Trengo Tickets API
   slug: trengo-tickets-api
-- description: Register and manage webhook subscriptions.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: Register and manage webhook subscriptions.
   name: Trengo Webhooks API
   slug: trengo-webhooks-api
-- description: Send approved WhatsApp Business templates.
+- baseURL: https://app.trengo.com/api/v2
+  baseurl_source: declared
+  description: Send approved WhatsApp Business templates.
   name: Trengo WhatsApp API
   slug: trengo-whatsapp-api
 artifact_total: 26
@@ -205,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trengo/refs/heads/main/screenshots/trengo-2026-06-20T195707.png
 security:

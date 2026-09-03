@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The JSON-RPC API from ZeroDev — 1 operation(s) for json-rpc.
+- baseURL: https://rpc.zerodev.app/api/v3/{projectId}/chain/{chainId}
+  baseurl_source: declared
+  description: The JSON-RPC API from ZeroDev — 1 operation(s) for json-rpc.
   name: ZeroDev JSON-RPC API
   slug: zerodev-json-rpc-api
 artifact_total: 9
@@ -163,7 +165,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/screenshots/zerodev-2026-06-20T201834.png
 security:

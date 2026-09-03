@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 11 operations · 8 acting
 api_count: 1
 apis:
-- description: The Address API from Pitney Bowes — 1 operation(s) for address.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Address API from Pitney Bowes — 1 operation(s) for address.
   name: Pitney Bowes Address API
   slug: pitney-bowes-address-api
-- description: The Manifests API from Pitney Bowes — 1 operation(s) for manifests.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Manifests API from Pitney Bowes — 1 operation(s) for manifests.
   name: Pitney Bowes Manifests API
   slug: pitney-bowes-manifests-api
-- description: The Oauth API from Pitney Bowes — 1 operation(s) for oauth.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Oauth API from Pitney Bowes — 1 operation(s) for oauth.
   name: Pitney Bowes Oauth API
   slug: pitney-bowes-oauth-api
-- description: The Pickups API from Pitney Bowes — 2 operation(s) for pickups.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Pickups API from Pitney Bowes — 2 operation(s) for pickups.
   name: Pitney Bowes Pickups API
   slug: pitney-bowes-pickups-api
-- description: The Rating API from Pitney Bowes — 1 operation(s) for rating.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Rating API from Pitney Bowes — 1 operation(s) for rating.
   name: Pitney Bowes Rating API
   slug: pitney-bowes-rating-api
-- description: The Reports API from Pitney Bowes — 1 operation(s) for reports.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Reports API from Pitney Bowes — 1 operation(s) for reports.
   name: Pitney Bowes Reports API
   slug: pitney-bowes-reports-api
-- description: The Shipments API from Pitney Bowes — 2 operation(s) for shipments.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Shipments API from Pitney Bowes — 2 operation(s) for shipments.
   name: Pitney Bowes Shipments API
   slug: pitney-bowes-shipments-api
-- description: The Tracking API from Pitney Bowes — 1 operation(s) for tracking.
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Tracking API from Pitney Bowes — 1 operation(s) for tracking.
   name: Pitney Bowes Tracking API
   slug: pitney-bowes-tracking-api
 artifact_total: 25
@@ -206,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -64,58 +64,94 @@ apis:
 - description: The Envoy Tap Service API provides a mechanism for intercepting and recording HTTP and TCP traffic passing through Envoy. The tap filter matches requests and responses based on configurable conditions
   name: Envoy Proxy Tap Service API
   slug: tap-service-api
-- description: TLS certificate information endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: TLS certificate information endpoints.
   name: Envoy Proxy Certificates API
   slug: envoy-proxy-certificates-api
-- description: Cluster Discovery Service (CDS) endpoints for dynamically discovering upstream clusters.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Cluster Discovery Service (CDS) endpoints for dynamically discovering upstream clusters.
   name: Envoy Proxy Cluster Discovery API
   slug: envoy-proxy-cluster-discovery-api
-- description: Cluster management and information endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Cluster management and information endpoints.
   name: Envoy Proxy Clusters API
   slug: envoy-proxy-clusters-api
-- description: Configuration inspection and dump endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Configuration inspection and dump endpoints.
   name: Envoy Proxy Configuration API
   slug: envoy-proxy-configuration-api
-- description: Debugging and traffic inspection endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Debugging and traffic inspection endpoints.
   name: Envoy Proxy Debugging API
   slug: envoy-proxy-debugging-api
-- description: Endpoint Discovery Service (EDS) endpoints for dynamically discovering cluster endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Endpoint Discovery Service (EDS) endpoints for dynamically discovering cluster endpoints.
   name: Envoy Proxy Endpoint Discovery API
   slug: envoy-proxy-endpoint-discovery-api
-- description: General admin interface endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: General admin interface endpoints.
   name: Envoy Proxy General API
   slug: envoy-proxy-general-api
-- description: Health check management endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Health check management endpoints.
   name: Envoy Proxy Health API
   slug: envoy-proxy-health-api
-- description: Listener Discovery Service (LDS) endpoints for dynamically discovering listeners.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Listener Discovery Service (LDS) endpoints for dynamically discovering listeners.
   name: Envoy Proxy Listener Discovery API
   slug: envoy-proxy-listener-discovery-api
-- description: Listener management endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Listener management endpoints.
   name: Envoy Proxy Listeners API
   slug: envoy-proxy-listeners-api
-- description: Logging level management endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Logging level management endpoints.
   name: Envoy Proxy Logging API
   slug: envoy-proxy-logging-api
-- description: CPU and heap profiling endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: CPU and heap profiling endpoints.
   name: Envoy Proxy Profiling API
   slug: envoy-proxy-profiling-api
-- description: Route Discovery Service (RDS) endpoints for dynamically discovering route configurations.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Route Discovery Service (RDS) endpoints for dynamically discovering route configurations.
   name: Envoy Proxy Route Discovery API
   slug: envoy-proxy-route-discovery-api
-- description: Runtime configuration management endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Runtime configuration management endpoints.
   name: Envoy Proxy Runtime API
   slug: envoy-proxy-runtime-api
-- description: Runtime Discovery Service (RTDS) endpoints for dynamically discovering runtime configuration layers.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Runtime Discovery Service (RTDS) endpoints for dynamically discovering runtime configuration layers.
   name: Envoy Proxy Runtime Discovery API
   slug: envoy-proxy-runtime-discovery-api
-- description: Secret Discovery Service (SDS) endpoints for dynamically discovering TLS certificates and keys.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Secret Discovery Service (SDS) endpoints for dynamically discovering TLS certificates and keys.
   name: Envoy Proxy Secret Discovery API
   slug: envoy-proxy-secret-discovery-api
-- description: Server information and lifecycle endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Server information and lifecycle endpoints.
   name: Envoy Proxy Server API
   slug: envoy-proxy-server-api
-- description: Statistics and metrics endpoints.
+- baseURL: http://localhost:9901
+  baseurl_source: spec
+  description: Statistics and metrics endpoints.
   name: Envoy Proxy Statistics API
   slug: envoy-proxy-statistics-api
 artifact_total: 57
@@ -363,7 +399,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/screenshots/envoy-proxy-2026-06-20T180741.png
 security:

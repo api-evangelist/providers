@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -33,190 +46,314 @@ agentic_access:
   summary_line: 312 operations · 150 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The admin API from Outdoorsy — 1 operation(s) for admin.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The admin API from Outdoorsy — 1 operation(s) for admin.
   name: Outdoorsy Admin API
   slug: outdoorsy-admin-api
-- description: The amenities API from Outdoorsy — 1 operation(s) for amenities.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The amenities API from Outdoorsy — 1 operation(s) for amenities.
   name: Outdoorsy Amenities API
   slug: outdoorsy-amenities-api
-- description: The announcements API from Outdoorsy — 7 operation(s) for announcements.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The announcements API from Outdoorsy — 7 operation(s) for announcements.
   name: Outdoorsy Announcements API
   slug: outdoorsy-announcements-api
-- description: The auth API from Outdoorsy — 7 operation(s) for auth.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The auth API from Outdoorsy — 7 operation(s) for auth.
   name: Outdoorsy Auth API
   slug: outdoorsy-auth-api
-- description: The banks API from Outdoorsy — 6 operation(s) for banks.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The banks API from Outdoorsy — 6 operation(s) for banks.
   name: Outdoorsy Banks API
   slug: outdoorsy-banks-api
-- description: The bookingBundles API from Outdoorsy — 2 operation(s) for bookingbundles.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bookingBundles API from Outdoorsy — 2 operation(s) for bookingbundles.
   name: Outdoorsy Booking Bundles API
   slug: outdoorsy-bookingbundles-api
-- description: The bookingItems API from Outdoorsy — 6 operation(s) for bookingitems.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bookingItems API from Outdoorsy — 6 operation(s) for bookingitems.
   name: Outdoorsy Booking Items API
   slug: outdoorsy-bookingitems-api
-- description: The bookingProposals API from Outdoorsy — 5 operation(s) for bookingproposals.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bookingProposals API from Outdoorsy — 5 operation(s) for bookingproposals.
   name: Outdoorsy Booking Proposals API
   slug: outdoorsy-bookingproposals-api
-- description: The Bookings API from Outdoorsy — 9 operation(s) for bookings.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Bookings API from Outdoorsy — 9 operation(s) for bookings.
   name: Outdoorsy Bookings API
   slug: outdoorsy-bookings-api
-- description: The bookingServices API from Outdoorsy — 4 operation(s) for bookingservices.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bookingServices API from Outdoorsy — 4 operation(s) for bookingservices.
   name: Outdoorsy Booking Services API
   slug: outdoorsy-bookingservices-api
-- description: The bookingTransactions API from Outdoorsy — 3 operation(s) for bookingtransactions.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bookingTransactions API from Outdoorsy — 3 operation(s) for bookingtransactions.
   name: Outdoorsy Booking Transactions API
   slug: outdoorsy-bookingtransactions-api
-- description: The breadcrumbs API from Outdoorsy — 3 operation(s) for breadcrumbs.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The breadcrumbs API from Outdoorsy — 3 operation(s) for breadcrumbs.
   name: Outdoorsy Breadcrumbs API
   slug: outdoorsy-breadcrumbs-api
-- description: The bundleFeatures API from Outdoorsy — 2 operation(s) for bundlefeatures.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bundleFeatures API from Outdoorsy — 2 operation(s) for bundlefeatures.
   name: Outdoorsy Bundle Features API
   slug: outdoorsy-bundlefeatures-api
-- description: The bundleRules API from Outdoorsy — 2 operation(s) for bundlerules.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bundleRules API from Outdoorsy — 2 operation(s) for bundlerules.
   name: Outdoorsy Bundle Rules API
   slug: outdoorsy-bundlerules-api
-- description: The bundles API from Outdoorsy — 3 operation(s) for bundles.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The bundles API from Outdoorsy — 3 operation(s) for bundles.
   name: Outdoorsy Bundles API
   slug: outdoorsy-bundles-api
-- description: The campgrounds API from Outdoorsy — 3 operation(s) for campgrounds.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The campgrounds API from Outdoorsy — 3 operation(s) for campgrounds.
   name: Outdoorsy Campgrounds API
   slug: outdoorsy-campgrounds-api
-- description: The checkoutSteps API from Outdoorsy — 1 operation(s) for checkoutsteps.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The checkoutSteps API from Outdoorsy — 1 operation(s) for checkoutsteps.
   name: Outdoorsy Checkout Steps API
   slug: outdoorsy-checkoutsteps-api
-- description: The conversations API from Outdoorsy — 4 operation(s) for conversations.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The conversations API from Outdoorsy — 4 operation(s) for conversations.
   name: Outdoorsy Conversations API
   slug: outdoorsy-conversations-api
-- description: The Convert Currency API from Outdoorsy — 1 operation(s) for convert currency.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Convert Currency API from Outdoorsy — 1 operation(s) for convert currency.
   name: Outdoorsy Convert Currency API
   slug: outdoorsy-convert-currency-api
-- description: The externalCampgrounds API from Outdoorsy — 3 operation(s) for externalcampgrounds.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The externalCampgrounds API from Outdoorsy — 3 operation(s) for externalcampgrounds.
   name: Outdoorsy External Campgrounds API
   slug: outdoorsy-externalcampgrounds-api
-- description: The favorites API from Outdoorsy — 2 operation(s) for favorites.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The favorites API from Outdoorsy — 2 operation(s) for favorites.
   name: Outdoorsy Favorites API
   slug: outdoorsy-favorites-api
-- description: The files API from Outdoorsy — 2 operation(s) for files.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The files API from Outdoorsy — 2 operation(s) for files.
   name: Outdoorsy Files API
   slug: outdoorsy-files-api
-- description: The funds API from Outdoorsy — 5 operation(s) for funds.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The funds API from Outdoorsy — 5 operation(s) for funds.
   name: Outdoorsy Funds API
   slug: outdoorsy-funds-api
-- description: The gateways API from Outdoorsy — 4 operation(s) for gateways.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The gateways API from Outdoorsy — 4 operation(s) for gateways.
   name: Outdoorsy Gateways API
   slug: outdoorsy-gateways-api
-- description: The geodata API from Outdoorsy — 1 operation(s) for geodata.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The geodata API from Outdoorsy — 1 operation(s) for geodata.
   name: Outdoorsy Geodata API
   slug: outdoorsy-geodata-api
-- description: The getHomepageParks API from Outdoorsy — 1 operation(s) for gethomepageparks.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The getHomepageParks API from Outdoorsy — 1 operation(s) for gethomepageparks.
   name: Outdoorsy Get Homepage Parks API
   slug: outdoorsy-gethomepageparks-api
-- description: The GiftCards API from Outdoorsy — 3 operation(s) for giftcards.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The GiftCards API from Outdoorsy — 3 operation(s) for giftcards.
   name: Outdoorsy Gift Cards API
   slug: outdoorsy-giftcards-api
-- description: The ics-calendars API from Outdoorsy — 5 operation(s) for ics-calendars.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The ics-calendars API from Outdoorsy — 5 operation(s) for ics-calendars.
   name: Outdoorsy Ics Calendars API
   slug: outdoorsy-ics-calendars-api
-- description: The instamatch API from Outdoorsy — 5 operation(s) for instamatch.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The instamatch API from Outdoorsy — 5 operation(s) for instamatch.
   name: Outdoorsy Instamatch API
   slug: outdoorsy-instamatch-api
-- description: The localities API from Outdoorsy — 2 operation(s) for localities.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The localities API from Outdoorsy — 2 operation(s) for localities.
   name: Outdoorsy Localities API
   slug: outdoorsy-localities-api
-- description: The locations API from Outdoorsy — 3 operation(s) for locations.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The locations API from Outdoorsy — 3 operation(s) for locations.
   name: Outdoorsy Locations API
   slug: outdoorsy-locations-api
-- description: The messages API from Outdoorsy — 3 operation(s) for messages.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The messages API from Outdoorsy — 3 operation(s) for messages.
   name: Outdoorsy Messages API
   slug: outdoorsy-messages-api
-- description: The messageTemplates API from Outdoorsy — 2 operation(s) for messagetemplates.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The messageTemplates API from Outdoorsy — 2 operation(s) for messagetemplates.
   name: Outdoorsy Message Templates API
   slug: outdoorsy-messagetemplates-api
-- description: The notes-to-renters API from Outdoorsy — 2 operation(s) for notes-to-renters.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The notes-to-renters API from Outdoorsy — 2 operation(s) for notes-to-renters.
   name: Outdoorsy Notes To Renters API
   slug: outdoorsy-notes-to-renters-api
-- description: The notices API from Outdoorsy — 1 operation(s) for notices.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The notices API from Outdoorsy — 1 operation(s) for notices.
   name: Outdoorsy Notices API
   slug: outdoorsy-notices-api
-- description: The parks API from Outdoorsy — 5 operation(s) for parks.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The parks API from Outdoorsy — 5 operation(s) for parks.
   name: Outdoorsy Parks API
   slug: outdoorsy-parks-api
-- description: The payouts API from Outdoorsy — 1 operation(s) for payouts.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The payouts API from Outdoorsy — 1 operation(s) for payouts.
   name: Outdoorsy Payouts API
   slug: outdoorsy-payouts-api
-- description: The pricing API from Outdoorsy — 3 operation(s) for pricing.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The pricing API from Outdoorsy — 3 operation(s) for pricing.
   name: Outdoorsy Pricing API
   slug: outdoorsy-pricing-api
-- description: The quote API from Outdoorsy — 1 operation(s) for quote.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The quote API from Outdoorsy — 1 operation(s) for quote.
   name: Outdoorsy Quote API
   slug: outdoorsy-quote-api
-- description: The quotes API from Outdoorsy — 1 operation(s) for quotes.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The quotes API from Outdoorsy — 1 operation(s) for quotes.
   name: Outdoorsy Quotes API
   slug: outdoorsy-quotes-api
-- description: The Referrals API from Outdoorsy — 4 operation(s) for referrals.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Referrals API from Outdoorsy — 4 operation(s) for referrals.
   name: Outdoorsy Referrals API
   slug: outdoorsy-referrals-api
-- description: The rentalImages API from Outdoorsy — 4 operation(s) for rentalimages.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The rentalImages API from Outdoorsy — 4 operation(s) for rentalimages.
   name: Outdoorsy Rental Images API
   slug: outdoorsy-rentalimages-api
-- description: The rentalItems API from Outdoorsy — 2 operation(s) for rentalitems.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The rentalItems API from Outdoorsy — 2 operation(s) for rentalitems.
   name: Outdoorsy Rental Items API
   slug: outdoorsy-rentalitems-api
-- description: The RentalItemsCategories API from Outdoorsy — 4 operation(s) for rentalitemscategories.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The RentalItemsCategories API from Outdoorsy — 4 operation(s) for rentalitemscategories.
   name: Outdoorsy Rental Items Categories API
   slug: outdoorsy-rentalitemscategories-api
-- description: The Rentals API from Outdoorsy — 16 operation(s) for rentals.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Rentals API from Outdoorsy — 16 operation(s) for rentals.
   name: Outdoorsy Rentals API
   slug: outdoorsy-rentals-api
-- description: The reports API from Outdoorsy — 5 operation(s) for reports.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The reports API from Outdoorsy — 5 operation(s) for reports.
   name: Outdoorsy Reports API
   slug: outdoorsy-reports-api
-- description: The reviews API from Outdoorsy — 4 operation(s) for reviews.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The reviews API from Outdoorsy — 4 operation(s) for reviews.
   name: Outdoorsy Reviews API
   slug: outdoorsy-reviews-api
-- description: The search API from Outdoorsy — 6 operation(s) for search.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The search API from Outdoorsy — 6 operation(s) for search.
   name: Outdoorsy Search API
   slug: outdoorsy-search-api
-- description: The specialHours API from Outdoorsy — 2 operation(s) for specialhours.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The specialHours API from Outdoorsy — 2 operation(s) for specialhours.
   name: Outdoorsy Special Hours API
   slug: outdoorsy-specialhours-api
-- description: The systemEmails API from Outdoorsy — 3 operation(s) for systememails.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The systemEmails API from Outdoorsy — 3 operation(s) for systememails.
   name: Outdoorsy System Emails API
   slug: outdoorsy-systememails-api
-- description: The toweable API from Outdoorsy — 1 operation(s) for toweable.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The toweable API from Outdoorsy — 1 operation(s) for toweable.
   name: Outdoorsy Toweable API
   slug: outdoorsy-toweable-api
-- description: The towingInfo API from Outdoorsy — 1 operation(s) for towinginfo.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The towingInfo API from Outdoorsy — 1 operation(s) for towinginfo.
   name: Outdoorsy Towing Info API
   slug: outdoorsy-towinginfo-api
-- description: The transactions API from Outdoorsy — 5 operation(s) for transactions.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The transactions API from Outdoorsy — 5 operation(s) for transactions.
   name: Outdoorsy Transactions API
   slug: outdoorsy-transactions-api
-- description: The twoFactorAuth API from Outdoorsy — 3 operation(s) for twofactorauth.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The twoFactorAuth API from Outdoorsy — 3 operation(s) for twofactorauth.
   name: Outdoorsy Two Factor Auth API
   slug: outdoorsy-twofactorauth-api
-- description: The usageBasedItems API from Outdoorsy — 2 operation(s) for usagebaseditems.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The usageBasedItems API from Outdoorsy — 2 operation(s) for usagebaseditems.
   name: Outdoorsy Usage Based Items API
   slug: outdoorsy-usagebaseditems-api
-- description: The usageBasedItemTiers API from Outdoorsy — 2 operation(s) for usagebaseditemtiers.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The usageBasedItemTiers API from Outdoorsy — 2 operation(s) for usagebaseditemtiers.
   name: Outdoorsy Usage Based Item Tiers API
   slug: outdoorsy-usagebaseditemtiers-api
-- description: The userCards API from Outdoorsy — 2 operation(s) for usercards.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The userCards API from Outdoorsy — 2 operation(s) for usercards.
   name: Outdoorsy User Cards API
   slug: outdoorsy-usercards-api
-- description: The userNoticeEvents API from Outdoorsy — 2 operation(s) for usernoticeevents.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The userNoticeEvents API from Outdoorsy — 2 operation(s) for usernoticeevents.
   name: Outdoorsy User Notice Events API
   slug: outdoorsy-usernoticeevents-api
-- description: The users API from Outdoorsy — 9 operation(s) for users.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The users API from Outdoorsy — 9 operation(s) for users.
   name: Outdoorsy Users API
   slug: outdoorsy-users-api
-- description: The vacationPackages API from Outdoorsy — 3 operation(s) for vacationpackages.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The vacationPackages API from Outdoorsy — 3 operation(s) for vacationpackages.
   name: Outdoorsy Vacation Packages API
   slug: outdoorsy-vacationpackages-api
-- description: The validations API from Outdoorsy — 7 operation(s) for validations.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The validations API from Outdoorsy — 7 operation(s) for validations.
   name: Outdoorsy Validations API
   slug: outdoorsy-validations-api
-- description: The wishlists API from Outdoorsy — 9 operation(s) for wishlists.
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The wishlists API from Outdoorsy — 9 operation(s) for wishlists.
   name: Outdoorsy Wishlists API
   slug: outdoorsy-wishlists-api
 artifact_total: 131
@@ -557,20 +694,20 @@ rate_limits:
   slug: outdoorsy-rate-limits
 score:
   band: developing
-  composite: 41.1
+  composite: 43.0
   coverage:
     artifact_dirs: 22
-    catalog_gap: 83.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 47.4
     developer_ergonomics: 73.2
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 4.5
     operational_transparency: 23.7
   previous_composite: 41.1
@@ -591,7 +728,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outdoorsy/refs/heads/main/screenshots/outdoorsy-2026-08-17T124435.png
 security:

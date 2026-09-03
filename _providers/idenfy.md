@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -53,34 +53,52 @@ apis:
 - description: The iDenfy AML Screening API screens individuals and companies against sanctions lists, politically exposed persons (PEPs), and adverse media, with one-time and ongoing monitoring options.
   name: iDenfy AML Screening API
   slug: idenfy-aml-screening-api
-- description: The iDenfy Fraud Prevention API provides risk scoring, proxy detection, phone and address verification, and proof of address checks to identify and stop fraudulent activities.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The iDenfy Fraud Prevention API provides risk scoring, proxy detection, phone and address verification, and proof of address checks to identify and stop fraudulent activities.
   name: iDenfy Fraud Prevention API
   slug: idenfy-fraud-api
-- description: The iDenfy Face Authentication API re-authenticates returning users by comparing a live facial scan against a previously verified identity.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The iDenfy Face Authentication API re-authenticates returning users by comparing a live facial scan against a previously verified identity.
   name: iDenfy Face Authentication API
   slug: idenfy-face-authentication-api
 - description: The iDenfy Bank Verification API verifies bank accounts via open banking connections to over 2,500 European banks.
   name: iDenfy Bank Verification API
   slug: idenfy-bank-verification-api
-- description: The Aml API from iDenfy — 6 operation(s) for aml.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Aml API from iDenfy — 6 operation(s) for aml.
   name: iDenfy Aml API
   slug: idenfy-aml-api
-- description: The Bank API from iDenfy — 2 operation(s) for bank.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Bank API from iDenfy — 2 operation(s) for bank.
   name: iDenfy Bank API
   slug: idenfy-bank-api
-- description: The Face Authentication API from iDenfy — 2 operation(s) for face authentication.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Face Authentication API from iDenfy — 2 operation(s) for face authentication.
   name: iDenfy Face Authentication API
   slug: idenfy-face-authentication-api
-- description: The Fraud API from iDenfy — 5 operation(s) for fraud.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Fraud API from iDenfy — 5 operation(s) for fraud.
   name: iDenfy Fraud API
   slug: idenfy-fraud-api
-- description: The Kyb API from iDenfy — 7 operation(s) for kyb.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Kyb API from iDenfy — 7 operation(s) for kyb.
   name: iDenfy Kyb API
   slug: idenfy-kyb-api
-- description: The Kyc API from iDenfy — 5 operation(s) for kyc.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Kyc API from iDenfy — 5 operation(s) for kyc.
   name: iDenfy Kyc API
   slug: idenfy-kyc-api
-- description: The Token API from iDenfy — 1 operation(s) for token.
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: spec
+  description: The Token API from iDenfy — 1 operation(s) for token.
   name: iDenfy Token API
   slug: idenfy-token-api
 artifact_total: 29
@@ -205,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/screenshots/idenfy-2026-06-20T183205.png
 security:

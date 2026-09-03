@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 32 operations · 16 acting
 api_count: 2
 apis:
-- description: API for translating existing videos into 100+ languages using AI-driven speech translation, voice cloning, and lip-sync technology. Enables brands and content creators to localize video content at sca
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: API for translating existing videos into 100+ languages using AI-driven speech translation, voice cloning, and lip-sync technology. Enables brands and content creators to localize video content at sca
   name: D-ID Translations API
   slug: d-id-translations-api
-- description: Create and manage AI agent definitions
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Create and manage AI agent definitions
   name: D-ID Agents API
   slug: d-id-agents-api
-- description: Send messages and receive responses in an agent chat
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Send messages and receive responses in an agent chat
   name: D-ID Chat API
   slug: d-id-chat-api
-- description: Retrieve account credit balance
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Retrieve account credit balance
   name: D-ID Credits API
   slug: d-id-credits-api
-- description: Manage knowledge bases and documents for RAG
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Manage knowledge bases and documents for RAG
   name: D-ID Knowledge API
   slug: d-id-knowledge-api
-- description: Manage real-time streaming sessions for agents
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Manage real-time streaming sessions for agents
   name: D-ID Sessions API
   slug: d-id-sessions-api
-- description: Generate AI talking-head videos (V2 Photo / V3 Pro avatars)
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Generate AI talking-head videos (V2 Photo / V3 Pro avatars)
   name: D-ID Talks API
   slug: d-id-talks-api
-- description: Translate existing videos into 100+ languages with lip-sync
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Translate existing videos into 100+ languages with lip-sync
   name: D-ID Translations API
   slug: d-id-translations-api
-- description: Generate V4 Expressive full-HD avatar videos
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: Generate V4 Expressive full-HD avatar videos
   name: D-ID Videos V4 API
   slug: d-id-videos-v4-api
-- description: List available TTS voices
+- baseURL: https://api.d-id.com
+  baseurl_source: declared
+  description: List available TTS voices
   name: D-ID Voices API
   slug: d-id-voices-api
 artifact_total: 43
@@ -302,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/screenshots/d-id-2026-06-20T175418.png
 security:

@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Generate signed URLs for embedding Zenlytic content in host apps.
+- baseURL: https://api.zenlytic.com
+  baseurl_source: declared
+  description: Generate signed URLs for embedding Zenlytic content in host apps.
   name: Zenlytic Embedding API
   slug: zenlytic-embedding-api
 artifact_total: 5
@@ -172,7 +174,7 @@ score:
       total: 1
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenlytic/refs/heads/main/screenshots/zenlytic-2026-08-17T083051.png
 security:

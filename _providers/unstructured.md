@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 46 operations · 24 acting
 api_count: 2
 apis:
-- description: The channels API from Unstructured — 3 operation(s) for channels.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The channels API from Unstructured — 3 operation(s) for channels.
   name: Unstructured channels API
   slug: unstructured-channels-api
-- description: The destinations API from Unstructured — 3 operation(s) for destinations.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The destinations API from Unstructured — 3 operation(s) for destinations.
   name: Unstructured destinations API
   slug: unstructured-destinations-api
-- description: The general API from Unstructured — 1 operation(s) for general.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The general API from Unstructured — 1 operation(s) for general.
   name: Unstructured general API
   slug: unstructured-general-api
-- description: The jobs API from Unstructured — 6 operation(s) for jobs.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The jobs API from Unstructured — 6 operation(s) for jobs.
   name: Unstructured jobs API
   slug: unstructured-jobs-api
-- description: The notifications API from Unstructured — 4 operation(s) for notifications.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The notifications API from Unstructured — 4 operation(s) for notifications.
   name: Unstructured notifications API
   slug: unstructured-notifications-api
-- description: The sources API from Unstructured — 3 operation(s) for sources.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The sources API from Unstructured — 3 operation(s) for sources.
   name: Unstructured sources API
   slug: unstructured-sources-api
-- description: The templates API from Unstructured — 2 operation(s) for templates.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The templates API from Unstructured — 2 operation(s) for templates.
   name: Unstructured templates API
   slug: unstructured-templates-api
-- description: The workflow-channels API from Unstructured — 3 operation(s) for workflow-channels.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The workflow-channels API from Unstructured — 3 operation(s) for workflow-channels.
   name: Unstructured workflow-channels API
   slug: unstructured-workflow-channels-api
-- description: The workflows API from Unstructured — 6 operation(s) for workflows.
+- baseURL: https://platform.unstructuredapp.io/api/v1
+  baseurl_source: declared
+  description: The workflows API from Unstructured — 6 operation(s) for workflows.
   name: Unstructured workflows API
   slug: unstructured-workflows-api
 artifact_total: 30
@@ -267,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/screenshots/unstructured-2026-06-20T200434.png
 security:

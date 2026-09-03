@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,37 +53,59 @@ apis:
 - description: Ollama Cloud provides cloud-hosted inference for large language models, giving access to larger models and faster responses without requiring a powerful local GPU. Cloud models are accessed through th
   name: Ollama Cloud API
   slug: ollama-cloud-api
-- description: Manage binary large objects used by models.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Manage binary large objects used by models.
   name: Ollama Blobs API
   slug: ollama-blobs-api
-- description: Generate chat completions with multi-turn conversation support.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate chat completions with multi-turn conversation support.
   name: Ollama Chat API
   slug: ollama-chat-api
-- description: Generate chat completions using the OpenAI-compatible chat endpoint with multi-turn conversation support.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate chat completions using the OpenAI-compatible chat endpoint with multi-turn conversation support.
   name: Ollama Chat Completions API
   slug: ollama-chat-completions-api
-- description: Generate text completions using the OpenAI-compatible completions endpoint.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate text completions using the OpenAI-compatible completions endpoint.
   name: Ollama Completions API
   slug: ollama-completions-api
-- description: Generate vector embeddings from text input.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate vector embeddings from text input.
   name: Ollama Embeddings API
   slug: ollama-embeddings-api
-- description: Generate text completions from a prompt using a specified model.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate text completions from a prompt using a specified model.
   name: Ollama Generate API
   slug: ollama-generate-api
-- description: Generate images from text descriptions using the OpenAI-compatible images endpoint. Experimental feature.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate images from text descriptions using the OpenAI-compatible images endpoint. Experimental feature.
   name: Ollama Images API
   slug: ollama-images-api
-- description: List, show, create, copy, pull, push, and delete models.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: List, show, create, copy, pull, push, and delete models.
   name: Ollama Models API
   slug: ollama-models-api
-- description: Generate structured responses with optional reasoning using the OpenAI-compatible Responses API.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Generate structured responses with optional reasoning using the OpenAI-compatible Responses API.
   name: Ollama Responses API
   slug: ollama-responses-api
-- description: View models currently loaded in memory and their resource usage.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: View models currently loaded in memory and their resource usage.
   name: Ollama Running Models API
   slug: ollama-running-models-api
-- description: Retrieve the Ollama server version.
+- baseURL: http://localhost:11434/api
+  baseurl_source: declared
+  description: Retrieve the Ollama server version.
   name: Ollama Version API
   slug: ollama-version-api
 artifact_total: 34
@@ -395,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/screenshots/ollama-2026-06-20T190657.png
 security:

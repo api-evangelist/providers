@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations
 api_count: 5
 apis:
-- description: Job candidates from connected ATS systems
+- baseURL: https://api.bindbee.dev/v1
+  baseurl_source: spec
+  description: Job candidates from connected ATS systems
   name: Bindbee Candidates API
   slug: bindbee-candidates-api
-- description: Organizational departments
+- baseURL: https://api.bindbee.dev/v1
+  baseurl_source: spec
+  description: Organizational departments
   name: Bindbee Departments API
   slug: bindbee-departments-api
-- description: Employee records from connected HRIS systems
+- baseURL: https://api.bindbee.dev/v1
+  baseurl_source: spec
+  description: Employee records from connected HRIS systems
   name: Bindbee Employees API
   slug: bindbee-employees-api
-- description: Job listings from connected ATS systems
+- baseURL: https://api.bindbee.dev/v1
+  baseurl_source: spec
+  description: Job listings from connected ATS systems
   name: Bindbee Jobs API
   slug: bindbee-jobs-api
-- description: Employee time-off requests and balances
+- baseURL: https://api.bindbee.dev/v1
+  baseurl_source: spec
+  description: Employee time-off requests and balances
   name: Bindbee Time Off API
   slug: bindbee-time-off-api
 artifact_total: 61
@@ -308,7 +318,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/screenshots/bindbee-2026-06-20T173245.png
 security:

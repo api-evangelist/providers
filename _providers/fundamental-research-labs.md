@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: API key authentication and verification
+- baseURL: https://api.shortcut.ai
+  baseurl_source: declared
+  description: API key authentication and verification
   name: Fundamental Research Labs Authentication API
   slug: fundamental-research-labs-authentication-api
-- description: Spreadsheet processing and automation endpoints
+- baseURL: https://api.shortcut.ai
+  baseurl_source: declared
+  description: Spreadsheet processing and automation endpoints
   name: Fundamental Research Labs Spreadsheets API
   slug: fundamental-research-labs-spreadsheets-api
-- description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
+- baseURL: https://api.shortcut.ai
+  baseurl_source: declared
+  description: 'Export team usage metrics for reporting, finance, and internal analytics. Usage Metrics in Shortcut provides a prefilled request with your team_id; use this reference to customize date range, format, '
   name: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
 artifact_total: 17
@@ -249,7 +255,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -259,7 +265,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 62.4
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 78 operations · 2 acting
 api_count: 9
 apis:
-- description: The AIS API API from MarineTraffic — 3 operation(s) for ais api.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The AIS API API from MarineTraffic — 3 operation(s) for ais api.
   name: MarineTraffic AIS API API
   slug: marine-traffic-ais-api-api
-- description: The Balances API from MarineTraffic — 1 operation(s) for balances.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Balances API from MarineTraffic — 1 operation(s) for balances.
   name: MarineTraffic Balances API
   slug: marine-traffic-balances-api
-- description: The Fleets API from MarineTraffic — 4 operation(s) for fleets.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Fleets API from MarineTraffic — 4 operation(s) for fleets.
   name: MarineTraffic Fleets API
   slug: marine-traffic-fleets-api
-- description: The Passage Plans API from MarineTraffic — 1 operation(s) for passage plans.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Passage Plans API from MarineTraffic — 1 operation(s) for passage plans.
   name: MarineTraffic Passage Plans API
   slug: marine-traffic-passage-plans-api
-- description: The Port Events API from MarineTraffic — 2 operation(s) for port events.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Port Events API from MarineTraffic — 2 operation(s) for port events.
   name: MarineTraffic Port Events API
   slug: marine-traffic-port-events-api
-- description: The Ports Information API from MarineTraffic — 4 operation(s) for ports information.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Ports Information API from MarineTraffic — 4 operation(s) for ports information.
   name: MarineTraffic Ports Information API
   slug: marine-traffic-ports-information-api
-- description: The Reverse Geocoding API from MarineTraffic — 1 operation(s) for reverse geocoding.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Reverse Geocoding API from MarineTraffic — 1 operation(s) for reverse geocoding.
   name: MarineTraffic Reverse Geocoding API
   slug: marine-traffic-reverse-geocoding-api
-- description: The Routing Information API from MarineTraffic — 2 operation(s) for routing information.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Routing Information API from MarineTraffic — 2 operation(s) for routing information.
   name: MarineTraffic Routing Information API
   slug: marine-traffic-routing-information-api
-- description: The Search Vessel API from MarineTraffic — 2 operation(s) for search vessel.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Search Vessel API from MarineTraffic — 2 operation(s) for search vessel.
   name: MarineTraffic Search Vessel API
   slug: marine-traffic-search-vessel-api
-- description: The Single Vessel Events API from MarineTraffic — 3 operation(s) for single vessel events.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Single Vessel Events API from MarineTraffic — 3 operation(s) for single vessel events.
   name: MarineTraffic Single Vessel Events API
   slug: marine-traffic-single-vessel-events-api
-- description: The Vessel Historical Track API from MarineTraffic — 2 operation(s) for vessel historical track.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Vessel Historical Track API from MarineTraffic — 2 operation(s) for vessel historical track.
   name: MarineTraffic Vessel Historical Track API
   slug: marine-traffic-vessel-historical-track-api
-- description: The Vessel Information API from MarineTraffic — 2 operation(s) for vessel information.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Vessel Information API from MarineTraffic — 2 operation(s) for vessel information.
   name: MarineTraffic Vessel Information API
   slug: marine-traffic-vessel-information-api
-- description: The Vessel Positions (Legacy API) API from MarineTraffic — 7 operation(s) for vessel positions (legacy api).
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Vessel Positions (Legacy API) API from MarineTraffic — 7 operation(s) for vessel positions (legacy api).
   name: MarineTraffic Vessel Positions (Legacy API) API
   slug: marine-traffic-vessel-positions-legacy-api-api
-- description: The Voyage Information API from MarineTraffic — 5 operation(s) for voyage information.
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: spec
+  description: The Voyage Information API from MarineTraffic — 5 operation(s) for voyage information.
   name: MarineTraffic Voyage Information API
   slug: marine-traffic-voyage-information-api
 artifact_total: 90
@@ -412,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
 security:

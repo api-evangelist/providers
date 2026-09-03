@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -47,16 +47,24 @@ apis:
 - description: OAuth-based hosted checkout that lets third parties charge a customer's Paga wallet and read account/merchant details after the customer authorizes access. Documented separately from the hash-authenti
   name: Paga Connect
   slug: paga-connect-api
-- description: Disbursements, airtime/data, merchant payments, deposits, onboarding.
+- baseURL: https://collect.paga.com
+  baseurl_source: declared
+  description: Disbursements, airtime/data, merchant payments, deposits, onboarding.
   name: Paga Business API
   slug: paga-business-api
-- description: NGN collections - payment requests and persistent payment accounts.
+- baseURL: https://collect.paga.com
+  baseurl_source: declared
+  description: NGN collections - payment requests and persistent payment accounts.
   name: Paga Collect API
   slug: paga-collect-api
-- description: Bank-account mandate tokenization and recurring debits.
+- baseURL: https://collect.paga.com
+  baseurl_source: declared
+  description: Bank-account mandate tokenization and recurring debits.
   name: Paga Direct Debit API
   slug: paga-direct-debit-api
-- description: Look-up operations - banks, mobile operators, status.
+- baseURL: https://collect.paga.com
+  baseurl_source: declared
+  description: Look-up operations - banks, mobile operators, status.
   name: Paga Reference API
   slug: paga-reference-api
 artifact_total: 24
@@ -273,7 +281,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -283,7 +291,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 56.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,7 +309,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:

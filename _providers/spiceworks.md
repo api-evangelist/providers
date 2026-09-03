@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Ticket comment operations for adding and retrieving comments on Help Desk support tickets
+- baseURL: https://community.spiceworks.com
+  baseurl_source: spec
+  description: Ticket comment operations for adding and retrieving comments on Help Desk support tickets
   name: Spiceworks Comments API
   slug: spiceworks-comments-api
-- description: Device inventory operations for accessing information about managed IT devices including computers, servers, and network equipment
+- baseURL: https://community.spiceworks.com
+  baseurl_source: spec
+  description: Device inventory operations for accessing information about managed IT devices including computers, servers, and network equipment
   name: Spiceworks Devices API
   slug: spiceworks-devices-api
-- description: Help Desk ticket management operations for creating, reading, updating, and listing support tickets within the Spiceworks IT management platform
+- baseURL: https://community.spiceworks.com
+  baseurl_source: spec
+  description: Help Desk ticket management operations for creating, reading, updating, and listing support tickets within the Spiceworks IT management platform
   name: Spiceworks Tickets API
   slug: spiceworks-tickets-api
-- description: User management operations for accessing Spiceworks user and technician profiles
+- baseURL: https://community.spiceworks.com
+  baseurl_source: spec
+  description: User management operations for accessing Spiceworks user and technician profiles
   name: Spiceworks Users API
   slug: spiceworks-users-api
 artifact_total: 29
@@ -286,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/screenshots/spiceworks-2026-06-20T194312.png
 security:

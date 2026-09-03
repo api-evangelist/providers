@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 2
 apis:
-- description: Endpoints for initiating the OAuth2 authorization flow by redirecting users to Medium's authorization page.
+- baseURL: https://api.medium.com/v1
+  baseurl_source: declared
+  description: Endpoints for initiating the OAuth2 authorization flow by redirecting users to Medium's authorization page.
   name: medium Authorization API
   slug: medium-authorization-api
-- description: Operations for uploading images to Medium for use in posts. Supports JPEG, PNG, GIF, and TIFF formats.
+- baseURL: https://api.medium.com/v1
+  baseurl_source: declared
+  description: Operations for uploading images to Medium for use in posts. Supports JPEG, PNG, GIF, and TIFF formats.
   name: medium Images API
   slug: medium-images-api
-- description: Operations for creating new posts on a user's profile or within a publication, supporting HTML and Markdown content formats.
+- baseURL: https://api.medium.com/v1
+  baseurl_source: declared
+  description: Operations for creating new posts on a user's profile or within a publication, supporting HTML and Markdown content formats.
   name: medium Posts API
   slug: medium-posts-api
-- description: Operations for listing publications a user is associated with and retrieving contributors for a given publication.
+- baseURL: https://api.medium.com/v1
+  baseurl_source: declared
+  description: Operations for listing publications a user is associated with and retrieving contributors for a given publication.
   name: medium Publications API
   slug: medium-publications-api
-- description: Endpoints for exchanging authorization codes for access tokens and refreshing expired access tokens.
+- baseURL: https://api.medium.com/v1
+  baseurl_source: declared
+  description: Endpoints for exchanging authorization codes for access tokens and refreshing expired access tokens.
   name: medium Tokens API
   slug: medium-tokens-api
-- description: Operations for retrieving authenticated user profile information including username, name, URL, and avatar image.
+- baseURL: https://api.medium.com/v1
+  baseurl_source: declared
+  description: Operations for retrieving authenticated user profile information including username, name, URL, and avatar image.
   name: medium Users API
   slug: medium-users-api
 artifact_total: 26
@@ -151,16 +163,16 @@ jsonld:
   slug: medium-context
 layout: provider
 modified: '2026-05-19'
-name: medium
+name: Medium
 nav: Providers
 network: true
-overview: 'medium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Images API, Posts API, and 3 more.
+overview: 'Medium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Images API, Posts API, and 3 more.
 
 
-  The medium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Medium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  medium''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Medium''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Medium Plans Pricing
   plan_count: 3
@@ -173,7 +185,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: medium API Rules
+  name: Medium API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -209,10 +221,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/screenshots/medium-2026-06-20T185123.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Astronomy API provides access to astronomical data including celestial body positions, moon phases, planet positions, star charts, astronomical events, and deep space object search for any locatio
   name: Astronomy API
   slug: astronomy-api
-- description: Celestial body information and positions
+- baseURL: https://api.astronomyapi.com/api/v2
+  baseurl_source: declared
+  description: Celestial body information and positions
   name: Astronomy API Bodies API
   slug: astronomy-api-bodies-api
-- description: Astronomical events for a given location and date range
+- baseURL: https://api.astronomyapi.com/api/v2
+  baseurl_source: declared
+  description: Astronomical events for a given location and date range
   name: Astronomy API Events API
   slug: astronomy-api-events-api
-- description: Search for stars and deep space objects
+- baseURL: https://api.astronomyapi.com/api/v2
+  baseurl_source: declared
+  description: Search for stars and deep space objects
   name: Astronomy API Search API
   slug: astronomy-api-search-api
-- description: Generated imagery (moon phase and star charts)
+- baseURL: https://api.astronomyapi.com/api/v2
+  baseurl_source: declared
+  description: Generated imagery (moon phase and star charts)
   name: Astronomy API Studio API
   slug: astronomy-api-studio-api
 artifact_total: 27
@@ -184,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/screenshots/astronomy-api-2026-06-20T172510.png
 security:

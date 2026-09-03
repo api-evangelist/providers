@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
-- description: Check inventory availability.
+- baseURL: https://api.danaaftermarket.com
+  baseurl_source: declared
+  description: Check inventory availability.
   name: Dana Availability API
   slug: dana-availability-api
-- description: Place and manage orders.
+- baseURL: https://api.danaaftermarket.com
+  baseurl_source: declared
+  description: Place and manage orders.
   name: Dana Orders API
   slug: dana-orders-api
-- description: Search and retrieve part information.
+- baseURL: https://api.danaaftermarket.com
+  baseurl_source: declared
+  description: Search and retrieve part information.
   name: Dana Parts API
   slug: dana-parts-api
-- description: Retrieve pricing information.
+- baseURL: https://api.danaaftermarket.com
+  baseurl_source: declared
+  description: Retrieve pricing information.
   name: Dana Pricing API
   slug: dana-pricing-api
-- description: Track shipments and delivery status.
+- baseURL: https://api.danaaftermarket.com
+  baseurl_source: declared
+  description: Track shipments and delivery status.
   name: Dana Shipping API
   slug: dana-shipping-api
 artifact_total: 23
@@ -220,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png
 security:

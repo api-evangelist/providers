@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 9 acting
 api_count: 1
 apis:
-- description: Recurring contract terms that generate invoices.
+- baseURL: https://eu.sequencehq.com
+  baseurl_source: declared
+  description: Recurring contract terms that generate invoices.
   name: Sequence Billing Schedules API
   slug: sequence-hq-billing-schedules-api
-- description: Billable customer entities, contacts, and aliases.
+- baseURL: https://eu.sequencehq.com
+  baseurl_source: declared
+  description: Billable customer entities, contacts, and aliases.
   name: Sequence Customers API
   slug: sequence-hq-customers-api
-- description: Invoice and credit note lifecycle.
+- baseURL: https://eu.sequencehq.com
+  baseurl_source: declared
+  description: Invoice and credit note lifecycle.
   name: Sequence Invoices API
   slug: sequence-hq-invoices-api
-- description: Product and price catalog.
+- baseURL: https://eu.sequencehq.com
+  baseurl_source: declared
+  description: Product and price catalog.
   name: Sequence Products API
   slug: sequence-hq-products-api
-- description: Quotes and quote analytics.
+- baseURL: https://eu.sequencehq.com
+  baseurl_source: declared
+  description: Quotes and quote analytics.
   name: Sequence Quotes API
   slug: sequence-hq-quotes-api
-- description: Usage event ingestion, usage metrics, and seats.
+- baseURL: https://eu.sequencehq.com
+  baseurl_source: declared
+  description: Usage event ingestion, usage metrics, and seats.
   name: Sequence Usage API
   slug: sequence-hq-usage-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 83.3
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sequence-hq/refs/heads/main/screenshots/sequence-hq-2026-09-02T154939.png
 security:
 - kind: authentication
   name: Sequence Hq Authentication

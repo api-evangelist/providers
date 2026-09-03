@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -36,7 +47,9 @@ apis:
 - description: The accessFlow Model Context Protocol server connects AI clients such as GitHub Copilot and Cursor directly to accessFlow accessibility data. It exposes three tools — getMostUrgentIssues, getIssueReme
   name: accessFlow MCP Server
   slug: accessflow-mcp
-- description: The Accounts API from accessiBe — 5 operation(s) for accounts.
+- baseURL: https://dashboard.accessibe.com/api/v1/partners
+  baseurl_source: declared
+  description: The Accounts API from accessiBe — 5 operation(s) for accounts.
   name: accessiBe Accounts API
   slug: accessibe-accounts-api
 artifact_total: 7
@@ -224,7 +237,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
 security:

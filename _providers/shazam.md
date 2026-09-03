@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: 'ShazamKit is Apple''s official framework for integrating Shazam music recognition into iOS, macOS, tvOS, visionOS, watchOS, and Android applications. It supports matching audio against Shazam''s global '
   name: ShazamKit
   slug: shazamkit
-- description: Album metadata
+- baseURL: https://developer.apple.com/shazamkit/
+  baseurl_source: declared
+  description: Album metadata
   name: Shazam Albums API
   slug: shazam-albums-api
-- description: Artist profiles and albums
+- baseURL: https://developer.apple.com/shazamkit/
+  baseurl_source: declared
+  description: Artist profiles and albums
   name: Shazam Artists API
   slug: shazam-artists-api
-- description: Music charts by country, city, and genre
+- baseURL: https://developer.apple.com/shazamkit/
+  baseurl_source: declared
+  description: Music charts by country, city, and genre
   name: Shazam Charts API
   slug: shazam-charts-api
-- description: Audio fingerprint recognition against the Shazam catalog
+- baseURL: https://developer.apple.com/shazamkit/
+  baseurl_source: declared
+  description: Audio fingerprint recognition against the Shazam catalog
   name: Shazam Recognition API
   slug: shazam-recognition-api
-- description: Full-text search across Shazam's track and artist catalog
+- baseURL: https://developer.apple.com/shazamkit/
+  baseurl_source: declared
+  description: Full-text search across Shazam's track and artist catalog
   name: Shazam Search API
   slug: shazam-search-api
-- description: Track metadata, related tracks, and listening counters
+- baseURL: https://developer.apple.com/shazamkit/
+  baseurl_source: declared
+  description: Track metadata, related tracks, and listening counters
   name: Shazam Tracks API
   slug: shazam-tracks-api
 artifact_total: 26
@@ -226,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/screenshots/shazam-2026-06-20T193748.png
 security:

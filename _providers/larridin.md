@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 41 operations
 api_count: 1
 apis:
-- description: Organization- and department-level AI adoption metrics.
+- baseURL: https://scout-api.larridin.com/api/v1
+  baseurl_source: declared
+  description: Organization- and department-level AI adoption metrics.
   name: Larridin Adoption API
   slug: larridin-adoption-api
-- description: AI proficiency scoring, prompt categories, and conversation metrics. Period-based selection.
+- baseURL: https://scout-api.larridin.com/api/v1
+  baseurl_source: declared
+  description: AI proficiency scoring, prompt categories, and conversation metrics. Period-based selection.
   name: Larridin Proficiency API
   slug: larridin-proficiency-api
-- description: Survey campaigns, questions, options, and responses.
+- baseURL: https://scout-api.larridin.com/api/v1
+  baseurl_source: declared
+  description: Survey campaigns, questions, options, and responses.
   name: Larridin Surveys API
   slug: larridin-surveys-api
-- description: Browser and desktop AI tool adoption, policy enforcement, and unapproved tool discovery.
+- baseURL: https://scout-api.larridin.com/api/v1
+  baseurl_source: declared
+  description: Browser and desktop AI tool adoption, policy enforcement, and unapproved tool discovery.
   name: Larridin Tools API
   slug: larridin-tools-api
-- description: Clustered workflow analysis, friction, recommendations, and tool verdicts.
+- baseURL: https://scout-api.larridin.com/api/v1
+  baseurl_source: declared
+  description: Clustered workflow analysis, friction, recommendations, and tool verdicts.
   name: Larridin Workflow Intelligence API
   slug: larridin-workflow-intelligence-api
 artifact_total: 18
@@ -255,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/screenshots/larridin-2026-07-25T224539.png
 security:

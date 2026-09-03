@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 10 acting
 api_count: 2
 apis:
-- description: The Categories API from Metrilo — 2 operation(s) for categories.
+- baseURL: https://trk.mtrl.me/v2
+  baseurl_source: declared
+  description: The Categories API from Metrilo — 2 operation(s) for categories.
   name: Metrilo Categories API
   slug: metrilo-categories-api
-- description: The Customers API from Metrilo — 4 operation(s) for customers.
+- baseURL: https://trk.mtrl.me/v2
+  baseurl_source: declared
+  description: The Customers API from Metrilo — 4 operation(s) for customers.
   name: Metrilo Customers API
   slug: metrilo-customers-api
-- description: The Orders API from Metrilo — 2 operation(s) for orders.
+- baseURL: https://trk.mtrl.me/v2
+  baseurl_source: declared
+  description: The Orders API from Metrilo — 2 operation(s) for orders.
   name: Metrilo Orders API
   slug: metrilo-orders-api
-- description: The Products API from Metrilo — 2 operation(s) for products.
+- baseURL: https://trk.mtrl.me/v2
+  baseurl_source: declared
+  description: The Products API from Metrilo — 2 operation(s) for products.
   name: Metrilo Products API
   slug: metrilo-products-api
-- description: The API API from Metrilo — 10 operation(s) for api.
+- baseURL: https://trk.mtrl.me/v2
+  baseurl_source: declared
+  description: The API API from Metrilo — 10 operation(s) for api.
   name: Metrilo API
   slug: metrilo-api-api
 artifact_total: 16
@@ -256,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: OpenAI-compatible chat, responses, embedding, batch, image (Seedream), video (Seedance), 3D, and TTS APIs serving the Doubao model family. Base URL https://ark.cn-beijing.volces.com/api/v3. Includes t
   name: Volcano Engine Ark API
   slug: ark
-- description: The Batch API from ByteDance Doubao — 1 operation(s) for batch.
+- baseURL: https://ark.cn-beijing.volces.com/api/v3
+  baseurl_source: declared
+  description: The Batch API from ByteDance Doubao — 1 operation(s) for batch.
   name: ByteDance Doubao Batch API
   slug: doubao-batch-api
-- description: The Chat API from ByteDance Doubao — 1 operation(s) for chat.
+- baseURL: https://ark.cn-beijing.volces.com/api/v3
+  baseurl_source: declared
+  description: The Chat API from ByteDance Doubao — 1 operation(s) for chat.
   name: ByteDance Doubao Chat API
   slug: doubao-chat-api
-- description: The Embeddings API from ByteDance Doubao — 1 operation(s) for embeddings.
+- baseURL: https://ark.cn-beijing.volces.com/api/v3
+  baseurl_source: declared
+  description: The Embeddings API from ByteDance Doubao — 1 operation(s) for embeddings.
   name: ByteDance Doubao Embeddings API
   slug: doubao-embeddings-api
-- description: The Images API from ByteDance Doubao — 1 operation(s) for images.
+- baseURL: https://ark.cn-beijing.volces.com/api/v3
+  baseurl_source: declared
+  description: The Images API from ByteDance Doubao — 1 operation(s) for images.
   name: ByteDance Doubao Images API
   slug: doubao-images-api
-- description: The Videos API from ByteDance Doubao — 2 operation(s) for videos.
+- baseURL: https://ark.cn-beijing.volces.com/api/v3
+  baseurl_source: declared
+  description: The Videos API from ByteDance Doubao — 2 operation(s) for videos.
   name: ByteDance Doubao Videos API
   slug: doubao-videos-api
 artifact_total: 20
@@ -178,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/screenshots/doubao-2026-06-20T180218.png
 security:

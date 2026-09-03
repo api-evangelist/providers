@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,43 +46,69 @@ apis:
 - description: Browser-side JavaScript API loaded by script tag from cdn1.kongregate.com. Exposes kongregate.services.* for player identity (getUserId, getUsername, getGameAuthToken, isGuest, showRegistrationBox, re
   name: Kongregate Client JavaScript API
   slug: kongregate-client-javascript-api
-- description: The Authenticate.json API from Kongregate — 1 operation(s) for authenticate.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Authenticate.json API from Kongregate — 1 operation(s) for authenticate.json.
   name: Kongregate Authenticate.json API
   slug: kongregate-authenticate-json-api
-- description: The Characters.json API from Kongregate — 1 operation(s) for characters.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Characters.json API from Kongregate — 1 operation(s) for characters.json.
   name: Kongregate Characters.json API
   slug: kongregate-characters-json-api
-- description: The Guilds API from Kongregate — 1 operation(s) for guilds.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Guilds API from Kongregate — 1 operation(s) for guilds.
   name: Kongregate Guilds API
   slug: kongregate-guilds-api
-- description: The Guilds.json API from Kongregate — 1 operation(s) for guilds.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Guilds.json API from Kongregate — 1 operation(s) for guilds.json.
   name: Kongregate Guilds.json API
   slug: kongregate-guilds-json-api
-- description: The High Scores API from Kongregate — 2 operation(s) for high scores.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The High Scores API from Kongregate — 2 operation(s) for high scores.
   name: Kongregate High Scores API
   slug: kongregate-high-scores-api
-- description: The Items.json API from Kongregate — 1 operation(s) for items.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Items.json API from Kongregate — 1 operation(s) for items.json.
   name: Kongregate Items.json API
   slug: kongregate-items-json-api
-- description: The Kongpanions API from Kongregate — 1 operation(s) for kongpanions.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Kongpanions API from Kongregate — 1 operation(s) for kongpanions.
   name: Kongregate Kongpanions API
   slug: kongregate-kongpanions-api
-- description: The Kongpanions.json API from Kongregate — 1 operation(s) for kongpanions.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Kongpanions.json API from Kongregate — 1 operation(s) for kongpanions.json.
   name: Kongregate Kongpanions.json API
   slug: kongregate-kongpanions-json-api
-- description: The Shared Links API from Kongregate — 2 operation(s) for shared links.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Shared Links API from Kongregate — 2 operation(s) for shared links.
   name: Kongregate Shared Links API
   slug: kongregate-shared-links-api
-- description: The Submit Statistics.json API from Kongregate — 1 operation(s) for submit statistics.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Submit Statistics.json API from Kongregate — 1 operation(s) for submit statistics.json.
   name: Kongregate Submit Statistics.json API
   slug: kongregate-submit-statistics-json-api
-- description: The Use Item.json API from Kongregate — 1 operation(s) for use item.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The Use Item.json API from Kongregate — 1 operation(s) for use item.json.
   name: Kongregate Use Item.json API
   slug: kongregate-use-item-json-api
-- description: The User Info.json API from Kongregate — 1 operation(s) for user info.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The User Info.json API from Kongregate — 1 operation(s) for user info.json.
   name: Kongregate User Info.json API
   slug: kongregate-user-info-json-api
-- description: The User Items.json API from Kongregate — 1 operation(s) for user items.json.
+- baseURL: https://api.kongregate.com/api
+  baseurl_source: declared
+  description: The User Items.json API from Kongregate — 1 operation(s) for user items.json.
   name: Kongregate User Items.json API
   slug: kongregate-user-items-json-api
 artifact_total: 33
@@ -278,7 +304,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -288,7 +314,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,7 +326,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/screenshots/kongregate-2026-07-25T224157.png
 security:

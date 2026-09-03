@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Authenticate with Reuters Connect to obtain an authorization token. Tokens are required for all content API calls and should be cached and renewed periodically.
+- baseURL: https://rmb.reuters.com/rmd/rest/xml
+  baseurl_source: spec
+  description: Authenticate with Reuters Connect to obtain an authorization token. Tokens are required for all content API calls and should be cached and renewed periodically.
   name: Reuters Authentication API
   slug: reuters-authentication-api
-- description: Retrieve available content channels within your subscription. Channels are organized by category including text (TXT), images (PIX), video (VID), and graphics (GFX).
+- baseURL: https://rmb.reuters.com/rmd/rest/xml
+  baseurl_source: spec
+  description: Retrieve available content channels within your subscription. Channels are organized by category including text (TXT), images (PIX), video (VID), and graphics (GFX).
   name: Reuters Channels API
   slug: reuters-channels-api
-- description: Retrieve content items from specific channels. Items represent individual pieces of editorial content such as news stories, images, video clips, or graphics.
+- baseURL: https://rmb.reuters.com/rmd/rest/xml
+  baseurl_source: spec
+  description: Retrieve content items from specific channels. Items represent individual pieces of editorial content such as news stories, images, video clips, or graphics.
   name: Reuters Items API
   slug: reuters-items-api
-- description: Search for content items across channels using keyword queries. Search supports filtering by headline, channel, date range, and other metadata fields.
+- baseURL: https://rmb.reuters.com/rmd/rest/xml
+  baseurl_source: spec
+  description: Search for content items across channels using keyword queries. Search supports filtering by headline, channel, date range, and other metadata fields.
   name: Reuters Search API
   slug: reuters-search-api
 artifact_total: 29
@@ -254,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/screenshots/reuters-2026-08-17T125210.png
 security:

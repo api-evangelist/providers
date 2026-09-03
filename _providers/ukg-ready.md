@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: RESTful API for UKG Ready providing programmatic access to employees, HR records, payroll, time and attendance, schedules, accruals, benefits, and workforce reporting. The base URL is per-tenant (http
   name: UKG Ready REST API
   slug: rest-api
-- description: Access token issuance
+- baseURL: https://{hostname}/api
+  baseurl_source: declared
+  description: Access token issuance
   name: UKG Ready Authentication API
   slug: ukg-ready-authentication-api
-- description: Tenant content and posts
+- baseURL: https://{hostname}/api
+  baseurl_source: declared
+  description: Tenant content and posts
   name: UKG Ready Content API
   slug: ukg-ready-content-api
-- description: Workgroup and organizational unit management
+- baseURL: https://{hostname}/api
+  baseurl_source: declared
+  description: Workgroup and organizational unit management
   name: UKG Ready Groups API
   slug: ukg-ready-groups-api
 artifact_total: 13
@@ -165,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/screenshots/ukg-ready-2026-06-20T200009.png
 security:

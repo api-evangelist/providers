@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Chatgpt Openapi API from Preply — 2 operation(s) for chatgpt openapi.
+- baseURL: https://preply.com/api/chatgpt_openapi
+  baseurl_source: declared
+  description: The Chatgpt Openapi API from Preply — 2 operation(s) for chatgpt openapi.
   name: Preply Chatgpt Openapi API
   slug: preply-chatgpt-openapi-api
 artifact_total: 7
@@ -179,7 +181,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

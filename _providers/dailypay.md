@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,28 +46,44 @@ agentic_access:
   summary_line: 18 operations · 6 acting
 api_count: 1
 apis:
-- description: The _accounts_ endpoint provides comprehensive information about money accounts. You can retrieve account details, including the account's unique ID, a link to the account holder, type, subtype, verif
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _accounts_ endpoint provides comprehensive information about money accounts. You can retrieve account details, including the account's unique ID, a link to the account holder, type, subtype, verif
   name: DailyPay Accounts API
   slug: dailypay-accounts-api
-- description: Securely tokenize personal cards for use in the accounts API.
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: Securely tokenize personal cards for use in the accounts API.
   name: DailyPay Card Tokenization API
   slug: dailypay-card-tokenization-api
-- description: The _health_ endpoint provides a simple health check for the API. **Functionality:** Check the status of the API to ensure it is functioning correctly.
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _health_ endpoint provides a simple health check for the API. **Functionality:** Check the status of the API to ensure it is functioning correctly.
   name: DailyPay Health API
   slug: dailypay-health-api
-- description: The _jobs_ endpoint provides access to comprehensive information about a person's employment. It enables you to retrieve details about individual jobs, including information about the organization the
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _jobs_ endpoint provides access to comprehensive information about a person's employment. It enables you to retrieve details about individual jobs, including information about the organization the
   name: DailyPay Jobs API
   slug: dailypay-jobs-api
-- description: The _organizations_ endpoint provides details about a business entity, such as an employer, or a group of people, such as a division. The response includes the organization name and ID which can be us
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _organizations_ endpoint provides details about a business entity, such as an employer, or a group of people, such as a division. The response includes the organization name and ID which can be us
   name: DailyPay Organizations API
   slug: dailypay-organizations-api
-- description: The _paychecks_ endpoint provides detailed information about paychecks. You can retrieve individual paycheck details, including the person and job associated with the paycheck, its status, pay period,
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _paychecks_ endpoint provides detailed information about paychecks. You can retrieve individual paycheck details, including the person and job associated with the paycheck, its status, pay period,
   name: DailyPay Paychecks API
   slug: dailypay-paychecks-api
-- description: The _people_ endpoint allows you to see information related to who owns resources such as jobs and accounts. **Functionality:** Retrieve limited details about a person, including their name, global st
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _people_ endpoint allows you to see information related to who owns resources such as jobs and accounts. **Functionality:** Retrieve limited details about a person, including their name, global st
   name: DailyPay People API
   slug: dailypay-people-api
-- description: The _transfers_ endpoint allows you to initiate and track money movement. You can access transfer details, including the transfer's unique ID, amount, currency, status, schedule, submission and resolu
+- baseURL: https://api.dailypay.com/rest
+  baseurl_source: declared
+  description: The _transfers_ endpoint allows you to initiate and track money movement. You can access transfer details, including the transfer's unique ID, amount, currency, status, schedule, submission and resolu
   name: DailyPay Transfers API
   slug: dailypay-transfers-api
 artifact_total: 15
@@ -285,7 +314,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/screenshots/dailypay-2026-08-07T164026.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 52 operations · 19 acting
 api_count: 1
 apis:
-- description: Conversational agent jobs
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Conversational agent jobs
   name: Biolevate Agent API
   slug: biolevate-agent-api
-- description: Collection resource management
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Collection resource management
   name: Biolevate Collections API
   slug: biolevate-collections-api
-- description: Extraction resource management
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Extraction resource management
   name: Biolevate Extraction API
   slug: biolevate-extraction-api
-- description: EliseFile resource management
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: EliseFile resource management
   name: Biolevate Files API
   slug: biolevate-files-api
-- description: Find similar files locally and via remote bibliographic search
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Find similar files locally and via remote bibliographic search
   name: Biolevate Find similar files API
   slug: biolevate-find-similar-files-api
-- description: Multi-dimensional (entity / schema-based) extraction resource management
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Multi-dimensional (entity / schema-based) extraction resource management
   name: Biolevate Multi-Dimensional Extraction API
   slug: biolevate-multi-dimensional-extraction-api
-- description: File and folder operations on storage providers
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: File and folder operations on storage providers
   name: Biolevate Provider Items API
   slug: biolevate-provider-items-api
-- description: Storage provider management (read-only)
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Storage provider management (read-only)
   name: Biolevate Providers API
   slug: biolevate-providers-api
-- description: Question Answering resource management
+- baseURL: https://api-docs.biolevatecloud.com
+  baseurl_source: declared
+  description: Question Answering resource management
   name: Biolevate Question Answering API
   slug: biolevate-question-answering-api
 artifact_total: 23
@@ -272,7 +290,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
 security:

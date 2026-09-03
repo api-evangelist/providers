@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 2
 apis:
-- description: Endpoints for verifying API credentials and retrieving account information
+- baseURL: https://api.pdfmonkey.io/api/v1
+  baseurl_source: declared
+  description: Endpoints for verifying API credentials and retrieving account information
   name: PDF Monkey Authentication API
   slug: pdf-monkey-authentication-api
-- description: Create, retrieve, update, delete, and list PDF documents
+- baseURL: https://api.pdfmonkey.io/api/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, delete, and list PDF documents
   name: PDF Monkey Documents API
   slug: pdf-monkey-documents-api
-- description: Manage document templates for PDF generation
+- baseURL: https://api.pdfmonkey.io/api/v1
+  baseurl_source: declared
+  description: Manage document templates for PDF generation
   name: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
-- description: Lightweight document representations for status polling and listing.
+- baseURL: https://api.pdfmonkey.io/api/v1
+  baseurl_source: declared
+  description: Lightweight document representations for status polling and listing.
   name: PDF Monkey Document Cards API
   slug: pdf-monkey-document-cards-api
 artifact_total: 23
@@ -225,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/screenshots/pdf-monkey-2026-08-07T191719.png
 security:

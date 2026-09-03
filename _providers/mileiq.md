@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: The groups API from MileIQ — 3 operation(s) for groups.
+- baseURL: https://external-api.mileiq.com
+  baseurl_source: declared
+  description: The groups API from MileIQ — 3 operation(s) for groups.
   name: MileIQ groups API
   slug: mileiq-groups-api
-- description: The users API from MileIQ — 3 operation(s) for users.
+- baseURL: https://external-api.mileiq.com
+  baseurl_source: declared
+  description: The users API from MileIQ — 3 operation(s) for users.
   name: MileIQ users API
   slug: mileiq-users-api
 artifact_total: 11
@@ -229,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/screenshots/mileiq-2026-08-07T172909.png
 security:

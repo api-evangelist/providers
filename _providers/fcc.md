@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -57,40 +57,64 @@ apis:
 - description: Makes FCC website content accessible to applications, leveraging Drupal as a content management system to deliver news, documents, and regulatory content programmatically.
   name: FCC Content API
   slug: content
-- description: Get AM antenna pattern data
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get AM antenna pattern data
   name: FCC (Federal Communications Commission) Am Pattern API
   slug: fcc-am-pattern-api
-- description: Get antenna pattern data for TV and FM stations
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get antenna pattern data for TV and FM stations
   name: FCC (Federal Communications Commission) Antenna API
   slug: fcc-antenna-api
-- description: Get market area data by latitude and longitude
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get market area data by latitude and longitude
   name: FCC (Federal Communications Commission) Area API
   slug: fcc-area-api
-- description: Get census block, county, and state FIPS codes by latitude and longitude
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get census block, county, and state FIPS codes by latitude and longitude
   name: FCC (Federal Communications Commission) Block API
   slug: fcc-block-api
-- description: Convert between decimal degrees and degrees-minutes-seconds
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Convert between decimal degrees and degrees-minutes-seconds
   name: FCC (Federal Communications Commission) Coordinate Conversion API
   slug: fcc-coordinate-conversion-api
-- description: Get service contour for TV and FM stations
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get service contour for TV and FM stations
   name: FCC (Federal Communications Commission) Coverage API
   slug: fcc-coverage-api
-- description: Calculate distance using F-curve propagation curves
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Calculate distance using F-curve propagation curves
   name: FCC (Federal Communications Commission) Distance API
   slug: fcc-distance-api
-- description: Get terrain elevation data at a given location
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get terrain elevation data at a given location
   name: FCC (Federal Communications Commission) Elevation API
   slug: fcc-elevation-api
-- description: Get coverage contour by entity (call sign, facility ID, or application ID)
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get coverage contour by entity (call sign, facility ID, or application ID)
   name: FCC (Federal Communications Commission) Entity API
   slug: fcc-entity-api
-- description: Get Height Above Average Terrain (HAAT) data
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get Height Above Average Terrain (HAAT) data
   name: FCC (Federal Communications Commission) Haat API
   slug: fcc-haat-api
-- description: Get terrain elevation profile between two points
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Get terrain elevation profile between two points
   name: FCC (Federal Communications Commission) Profile API
   slug: fcc-profile-api
-- description: Project coordinates between coordinate reference systems
+- baseURL: https://data.fcc.gov/api/license-view
+  baseurl_source: declared
+  description: Project coordinates between coordinate reference systems
   name: FCC (Federal Communications Commission) Projection API
   slug: fcc-projection-api
 artifact_total: 36
@@ -252,7 +276,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:

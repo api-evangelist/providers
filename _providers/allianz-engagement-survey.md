@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 5
 apis:
-- description: Action plan tracking and management operations
+- baseURL: https://api.allianz.com/engagement/v1
+  baseurl_source: declared
+  description: Action plan tracking and management operations
   name: Allianz Engagement Survey Action Plans API
   slug: allianz-engagement-survey-action-plans-api
-- description: Survey analytics, reporting, and insights operations
+- baseURL: https://api.allianz.com/engagement/v1
+  baseurl_source: declared
+  description: Survey analytics, reporting, and insights operations
   name: Allianz Engagement Survey Analytics API
   slug: allianz-engagement-survey-analytics-api
-- description: Survey participant and invitation management operations
+- baseURL: https://api.allianz.com/engagement/v1
+  baseurl_source: declared
+  description: Survey participant and invitation management operations
   name: Allianz Engagement Survey Participants API
   slug: allianz-engagement-survey-participants-api
-- description: Survey response submission and retrieval operations
+- baseURL: https://api.allianz.com/engagement/v1
+  baseurl_source: declared
+  description: Survey response submission and retrieval operations
   name: Allianz Engagement Survey Responses API
   slug: allianz-engagement-survey-responses-api
-- description: Survey lifecycle management operations
+- baseURL: https://api.allianz.com/engagement/v1
+  baseurl_source: declared
+  description: Survey lifecycle management operations
   name: Allianz Engagement Survey Surveys API
   slug: allianz-engagement-survey-surveys-api
 artifact_total: 77
@@ -380,7 +390,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/screenshots/allianz-engagement-survey-2026-07-25T195701.png
 security:

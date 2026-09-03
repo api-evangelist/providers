@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for image-to-3D, text-to-3D, and 3D world generation/simulation. API access is gated by CSM subscription plan tier. Documentation at https://docs.csm.ai/.
@@ -118,7 +118,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

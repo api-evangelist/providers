@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -43,253 +56,419 @@ apis:
 - description: 'The Western Australian equivalent of NEMWeb, covering the Wholesale Electricity Market that AEMO operates separately from the NEM. Confirmed anonymous and live on 2026-07-27: GET https://data.wa.aemo.'
   name: AEMO WA Market Data Public Feed
   slug: aemo-wa-market-data-public-feed
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO B2 B Messaging Async API
   slug: aemo-b2bmessagingasync-api
-- description: The B2BMessagingPull API is a B2B SMP API used to send and receive B2B messages between the participants in a Pull messaging pattern. The messages will be queued in the e-Hub and the receiving partici
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: The B2BMessagingPull API is a B2B SMP API used to send and receive B2B messages between the participants in a Pull messaging pattern. The messages will be queued in the e-Hub and the receiving partici
   name: AEMO B2 B Messaging Pull API
   slug: aemo-b2bmessagingpull-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO B2 B Messaging Sync API
   slug: aemo-b2bmessagingsync-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO B2 M Messaging Async API
   slug: aemo-b2mmessagingasync-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO B2 M Messaging Pull API
   slug: aemo-b2mmessagingpull-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO B2 M Messaging Sync API
   slug: aemo-b2mmessagingsync-api
-- description: Balancing Reports v2.1
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Reports v2.1
   name: AEMO Balancing Reports v2.1 API
   slug: aemo-balancing-reports-v2-1-api
-- description: Balancing Reports v2.2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Reports v2.2
   name: AEMO Balancing Reports v2.2 API
   slug: aemo-balancing-reports-v2-2-api
-- description: Balancing Reports v2.3
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Reports v2.3
   name: AEMO Balancing Reports v2.3 API
   slug: aemo-balancing-reports-v2-3-api
-- description: Balancing Reports v2.4
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Reports v2.4
   name: AEMO Balancing Reports v2.4 API
   slug: aemo-balancing-reports-v2-4-api
-- description: Balancing Reports v2.5
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Reports v2.5
   name: AEMO Balancing Reports v2.5 API
   slug: aemo-balancing-reports-v2-5-api
-- description: Balancing Reports v2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Reports v2
   name: AEMO Balancing Reports v2 API
   slug: aemo-balancing-reports-v2-api
-- description: Balancing Submission v2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Balancing Submission v2
   name: AEMO Balancing Submission v2 API
   slug: aemo-balancing-submission-v2-api
-- description: Bilateral/Stem Submission v1
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Bilateral/Stem Submission v1
   name: AEMO Bilateral/Stem Submission v1 API
   slug: aemo-bilateral-stem-submission-v1-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Blind Update API
   slug: aemo-blindupdate-api
-- description: Capacity
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Capacity
   name: AEMO Capacity API
   slug: aemo-capacity-api
-- description: CapacityAuction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: CapacityAuction
   name: AEMO Capacity Auction API
   slug: aemo-capacityauction-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO CDR API
   slug: aemo-cdr-api
-- description: CDR Common
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: CDR Common
   name: AEMO CDR Common API
   slug: aemo-cdr-common-api
-- description: Data Holder Customer endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: AEMO Data Holder Customers API
   slug: aemo-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: AEMO Data Holder Operations API
   slug: aemo-data-holder-operations-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO DER Registration For Account Holders API
   slug: aemo-der-registration-for-account-holders-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO DER Registration for NSPs API
   slug: aemo-der-registration-for-nsps-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: AEMO Distributed Energy Resources API
   slug: aemo-distributed-energy-resources-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO EE Simulation Status Update API
   slug: aemo-ee-simulation-status-update-api
-- description: Electricity Service Point endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: AEMO Electricity Service Points API
   slug: aemo-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: AEMO Electricity Usage API
   slug: aemo-electricity-usage-api
-- description: EnablementInstruction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: EnablementInstruction
   name: AEMO Enablement Instruction API
   slug: aemo-enablementinstruction-api
-- description: Energy Account Balance endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: AEMO Energy Account Balances API
   slug: aemo-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: AEMO Energy Account Billing API
   slug: aemo-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: AEMO Energy Accounts API
   slug: aemo-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: AEMO Energy Plans API
   slug: aemo-energy-plans-api
-- description: This API is intended for AEMO's use only, used by AEMO web pages and is not supported for any other use. It can change at any time. See https://dev.aemo.com.au/ for information on using AEMO APIs.
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: This API is intended for AEMO's use only, used by AEMO web pages and is not supported for any other use. It can change at any time. See https://dev.aemo.com.au/ for information on using AEMO APIs.
   name: AEMO GasBB Reporting Public Data API
   slug: aemo-gasbb-reporting-public-data-api
-- description: The Generator Recall API is used by generators to send information about recall times into the Generator Recall web-based interface in the EMMS Markets Portal. The system will then transfer the inform
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: The Generator Recall API is used by generators to send information about recall times into the Generator Recall web-based interface in the EMMS Markets Portal. The system will then transfer the inform
   name: AEMO Generator Recall API
   slug: aemo-generatorrecall-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Hub Message Management API
   slug: aemo-hubmessagemanagement-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Hub Message Management V2 API
   slug: aemo-hubmessagemanagementv2-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Identity Service(v2) API
   slug: aemo-identityservice-v2-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Intermittent Generation Availability Submissions API
   slug: aemo-intermittent-generation-availability-submissions-api
-- description: LFAS Reports v2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: LFAS Reports v2
   name: AEMO LFAS Reports v2 API
   slug: aemo-lfas-reports-v2-api
-- description: LFAS Submission v2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: LFAS Submission v2
   name: AEMO LFAS Submission v2 API
   slug: aemo-lfas-submission-v2-api
-- description: Market Reports v2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Market Reports v2
   name: AEMO Market Reports v2 API
   slug: aemo-market-reports-v2-api
-- description: The Meter Exemptions API enables registered Metering Coordinators (MCs) to create and manage metering exemptions within MSATS.
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: The Meter Exemptions API enables registered Metering Coordinators (MCs) to create and manage metering exemptions within MSATS.
   name: AEMO Meter Exemption API
   slug: aemo-meterexemption-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO MT PASA Offers API
   slug: aemo-mt-pasa-offers-api
-- description: Bidding Service Open API specification
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Bidding Service Open API specification
   name: AEMO NEM Dispatch Bidding API
   slug: aemo-nemdispatchbidding-api
-- description: oauth-v1
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: oauth-v1
   name: AEMO OAUTH V1 API
   slug: aemo-oauth-v1-api
-- description: OIP
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: OIP
   name: AEMO OIP API
   slug: aemo-oip-api
-- description: Outage Management
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Outage Management
   name: AEMO Outage Management API
   slug: aemo-outage-management-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO P2 P Messaging Sync API
   slug: aemo-p2pmessagingsync-api
-- description: Pre-Balancing Reports v6
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Pre-Balancing Reports v6
   name: AEMO Pre-Balancing Reports v6 API
   slug: aemo-pre-balancing-reports-v6-api
-- description: Pre-Balancing Reports v7.1
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Pre-Balancing Reports v7.1
   name: AEMO Pre-Balancing Reports v7.1 API
   slug: aemo-pre-balancing-reports-v7-1-api
-- description: Pre-Balancing Reports v7
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Pre-Balancing Reports v7
   name: AEMO Pre-Balancing Reports v7 API
   slug: aemo-pre-balancing-reports-v7-api
-- description: Pre-Balancing Reports v8
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Pre-Balancing Reports v8
   name: AEMO Pre-Balancing Reports v8 API
   slug: aemo-pre-balancing-reports-v8-api
-- description: This API supports the various operations performed on Prudentials dashboard
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: This API supports the various operations performed on Prudentials dashboard
   name: AEMO Prudentials API
   slug: aemo-prudentials-api
-- description: RCM Operations
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: RCM Operations
   name: AEMO RCM Operations API
   slug: aemo-rcm-operations-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Reallocations API
   slug: aemo-reallocations-api
-- description: Report
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Report
   name: AEMO Report API
   slug: aemo-report-api
-- description: The WEM-Reform API for Real-Time Market submissions available to all Market Participants.
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: The WEM-Reform API for Real-Time Market submissions available to all Market Participants.
   name: AEMO RTMS API
   slug: aemo-rtms-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO Self Forecast API
   slug: aemo-selfforecast-api
-- description: This API supports the various operations performed in Settlement Direct API
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: This API supports the various operations performed in Settlement Direct API
   name: AEMO Settlement Direct API
   slug: aemo-settlement-direct-api
-- description: Submission
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Submission
   name: AEMO Submission API
   slug: aemo-submission-api
-- description: System Management Reports v2.1
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2.1
   name: AEMO System Management Reports v2.1 API
   slug: aemo-system-management-reports-v2-1-api
-- description: System Management Reports v2.2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2.2
   name: AEMO System Management Reports v2.2 API
   slug: aemo-system-management-reports-v2-2-api
-- description: System Management Reports v2.3
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2.3
   name: AEMO System Management Reports v2.3 API
   slug: aemo-system-management-reports-v2-3-api
-- description: System Management Reports v2.4
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2.4
   name: AEMO System Management Reports v2.4 API
   slug: aemo-system-management-reports-v2-4-api
-- description: System Management Reports v2.5
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2.5
   name: AEMO System Management Reports v2.5 API
   slug: aemo-system-management-reports-v2-5-api
-- description: System Management Reports v2.6
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2.6
   name: AEMO System Management Reports v2.6 API
   slug: aemo-system-management-reports-v2-6-api
-- description: System Management Reports v2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: System Management Reports v2
   name: AEMO System Management Reports v2 API
   slug: aemo-system-management-reports-v2-api
-- description: 'The TLS Certificate Management API allows authorised participants to self-manage their AEMO-signed TLS certificates. This API provides the following features:'
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: 'The TLS Certificate Management API allows authorised participants to self-manage their AEMO-signed TLS certificates. This API provides the following features:'
   name: AEMO TLS Certificate Mgmt v1 API
   slug: aemo-tls-certificate-mgmt-v1-api
-- description: VariableParameter
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: VariableParameter
   name: AEMO Variable Parameter API
   slug: aemo-variableparameter-api
-- description: WEM Attributes Report
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEM Attributes Report
   name: AEMO WEM Attributes Report API
   slug: aemo-wem-attributes-report-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO WEM DER Installation V2 API
   slug: aemo-wem-der-installation-v2-api
-- description: Introduction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: Introduction
   name: AEMO WEM DER NMI API
   slug: aemo-wem-der-nmi-api
-- description: WEMDE DispatchCase
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DispatchCase
   name: AEMO WEMDE DispatchCase API
   slug: aemo-wemde-dispatchcase-api
-- description: WEMDE DispatchCase V2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DispatchCase V2
   name: AEMO WEMDE DispatchCase V2 API
   slug: aemo-wemde-dispatchcase-v2-api
-- description: WEMDE DispatchInstruction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DispatchInstruction
   name: AEMO WEMDE DispatchInstruction API
   slug: aemo-wemde-dispatchinstruction-api
-- description: WEMDE DispatchSolution
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DispatchSolution
   name: AEMO WEMDE DispatchSolution API
   slug: aemo-wemde-dispatchsolution-api
-- description: WEMDE DispatchSolution V2
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DispatchSolution V2
   name: AEMO WEMDE DispatchSolution V2 API
   slug: aemo-wemde-dispatchsolution-v2-api
-- description: WEMDE DispatchSummary
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DispatchSummary
   name: AEMO WEMDE DispatchSummary API
   slug: aemo-wemde-dispatchsummary-api
-- description: WEMDE DSPDispatchInstruction
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE DSPDispatchInstruction
   name: AEMO WEMDE DSPDispatchInstruction API
   slug: aemo-wemde-dspdispatchinstruction-api
-- description: WEMDE NCESS
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE NCESS
   name: AEMO WEMDE NCESS API
   slug: aemo-wemde-ncess-api
-- description: WEMDE NotInServiceCapacity
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE NotInServiceCapacity
   name: AEMO WEMDE NotInServiceCapacity API
   slug: aemo-wemde-notinservicecapacity-api
-- description: WEMDE ReferenceTradingPrice
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE ReferenceTradingPrice
   name: AEMO WEMDE ReferenceTradingPrice API
   slug: aemo-wemde-referencetradingprice-api
-- description: WEMDE TradingDayReport
+- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
+  baseurl_source: declared
+  description: WEMDE TradingDayReport
   name: AEMO WEMDE TradingDayReport API
   slug: aemo-wemde-tradingdayreport-api
 artifact_total: 169
@@ -775,23 +954,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 56.9
+  composite: 57.8
   coverage:
     artifact_dirs: 25
-    catalog_gap: 78.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 19.7
     contract_quality: 55.7
     developer_ergonomics: 70.8
-    discoverability: 59.3
+    discoverability: 68.5
     governance: 19.7
     operational_transparency: 52.6
-  previous_composite: 57.1
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -809,7 +988,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png
 security:

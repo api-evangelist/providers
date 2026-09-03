@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 2
 apis:
-- description: Operations relating to absences
+- baseURL: https://publicapi.wagestream.io/pushapi-prod
+  baseurl_source: declared
+  description: Operations relating to absences
   name: Wagestream Absences API
   slug: wagestream-absences-api
-- description: Operations relating to employees
+- baseURL: https://publicapi.wagestream.io/pushapi-prod
+  baseurl_source: declared
+  description: Operations relating to employees
   name: Wagestream Employees API
   slug: wagestream-employees-api
-- description: Operations relating to enrolling employees in Wagestream
+- baseURL: https://publicapi.wagestream.io/pushapi-prod
+  baseurl_source: declared
+  description: Operations relating to enrolling employees in Wagestream
   name: Wagestream Enrollment API
   slug: wagestream-enrollment-api
-- description: Operations relating to off-cycle payments
+- baseURL: https://publicapi.wagestream.io/pushapi-prod
+  baseurl_source: declared
+  description: Operations relating to off-cycle payments
   name: Wagestream Off Cycle Payment API
   slug: wagestream-off-cycle-payment-api
-- description: Operations relating to Shifts
+- baseURL: https://publicapi.wagestream.io/pushapi-prod
+  baseurl_source: declared
+  description: Operations relating to Shifts
   name: Wagestream Shifts API
   slug: wagestream-shifts-api
 artifact_total: 16
@@ -236,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/screenshots/wagestream-2026-08-17T082831.png
 security:

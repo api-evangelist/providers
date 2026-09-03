@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'Request-only REST API for searching and retrieving current and historical crypto news coverage from The Block, returned as JSON filtered by keyword, topic, article length, and publication date (up to '
@@ -99,7 +99,7 @@ score:
   band: emerging
   composite: 14.3
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -121,8 +121,9 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-block/refs/heads/main/screenshots/the-block-2026-09-02T163324.png
 security:
 - kind: domain-security
   name: The Block Domain Security

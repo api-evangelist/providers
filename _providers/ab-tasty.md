@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: The AB Tasty Public API provides programmatic access to manage campaigns, monitor and control experiments, manage account users, and integrate AB Tasty with third-party tools. It uses OAuth-style cred
   name: AB Tasty Public API
   slug: ab-tasty-public-api
-- description: The Activate API from AB Tasty — 1 operation(s) for activate.
+- baseURL: https://decision.flagship.io/v2
+  baseurl_source: spec
+  description: The Activate API from AB Tasty — 1 operation(s) for activate.
   name: AB Tasty Activate API
   slug: ab-tasty-activate-api
-- description: Campaign assignment operations
+- baseURL: https://decision.flagship.io/v2
+  baseurl_source: spec
+  description: Campaign assignment operations
   name: AB Tasty Campaigns API
   slug: ab-tasty-campaigns-api
-- description: The Environments API from AB Tasty — 3 operation(s) for environments.
+- baseURL: https://decision.flagship.io/v2
+  baseurl_source: spec
+  description: The Environments API from AB Tasty — 3 operation(s) for environments.
   name: AB Tasty Environments API
   slug: ab-tasty-environments-api
 artifact_total: 89
@@ -418,7 +424,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/screenshots/ab-tasty-2026-06-20T163043.png
 security:

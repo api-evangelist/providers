@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,73 +56,119 @@ apis:
 - description: SOAP revenue-cycle operations covering charges, encounters, payments, and transactions - GetCharges, GetEncounterDetails, CreateEncounter, UpdateEncounterStatus, GetPayments, CreatePayment, and GetTra
   name: Tebra Billing and Claims API
   slug: tebra-billing-claims-api
-- description: SOAP operations for attaching and removing documents on practice records - CreateDocument and DeleteDocument - along with external-vendor utilities GetExternalVendors, RegisterExternalVendor, GetCusto
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: SOAP operations for attaching and removing documents on practice records - CreateDocument and DeleteDocument - along with external-vendor utilities GetExternalVendors, RegisterExternalVendor, GetCusto
   name: Tebra Documents API
   slug: tebra-documents-api
-- description: USCDI-aligned clinical data classes for the authenticated patient. Base host (api.tebra.com) is the host documented in Tebra's own "General API Documentation" (Oct 2023) PDF and matches this spec's se
+- baseURL: https://api.tebra.com/clinical/v1/api
+  baseurl_source: declared
+  description: USCDI-aligned clinical data classes for the authenticated patient. Base host (api.tebra.com) is the host documented in Tebra's own "General API Documentation" (Oct 2023) PDF and matches this spec's se
   name: Tebra Clinical API
   slug: tebra-clinical-api
-- description: Binary clinical summary documents (e.g. C-CDA). Base host (api.tebra.com) matches the Oct 2023 "General API Documentation" PDF and this spec's servers[], but as of 2026-08-14 it returns NXDOMAIN on pu
+- baseURL: https://api.tebra.com/clinical/v1/api
+  baseurl_source: declared
+  description: Binary clinical summary documents (e.g. C-CDA). Base host (api.tebra.com) matches the Oct 2023 "General API Documentation" PDF and this spec's servers[], but as of 2026-08-14 it returns NXDOMAIN on pu
   name: Tebra Documents API
   slug: tebra-documents-api
-- description: Core patient demographic record. Base host (api.tebra.com) matches the Oct 2023 "General API Documentation" PDF and this spec's servers[], but as of 2026-08-14 it returns NXDOMAIN on public DNS resolv
+- baseURL: https://api.tebra.com/clinical/v1/api
+  baseurl_source: declared
+  description: Core patient demographic record. Base host (api.tebra.com) matches the Oct 2023 "General API Documentation" PDF and this spec's servers[], but as of 2026-08-14 it returns NXDOMAIN on public DNS resolv
   name: Tebra Patient API
   slug: tebra-patient-api
-- description: The AllergyIntolerance API from Tebra — 1 operation(s) for allergyintolerance.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The AllergyIntolerance API from Tebra — 1 operation(s) for allergyintolerance.
   name: Tebra Allergy Intolerance API
   slug: tebra-allergyintolerance-api
-- description: The CarePlan API from Tebra — 1 operation(s) for careplan.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The CarePlan API from Tebra — 1 operation(s) for careplan.
   name: Tebra Care Plan API
   slug: tebra-careplan-api
-- description: The CareTeam API from Tebra — 1 operation(s) for careteam.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The CareTeam API from Tebra — 1 operation(s) for careteam.
   name: Tebra Care Team API
   slug: tebra-careteam-api
-- description: The Condition API from Tebra — 1 operation(s) for condition.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Condition API from Tebra — 1 operation(s) for condition.
   name: Tebra Condition API
   slug: tebra-condition-api
-- description: The Device API from Tebra — 1 operation(s) for device.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Device API from Tebra — 1 operation(s) for device.
   name: Tebra Device API
   slug: tebra-device-api
-- description: The DiagnosticReport API from Tebra — 1 operation(s) for diagnosticreport.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The DiagnosticReport API from Tebra — 1 operation(s) for diagnosticreport.
   name: Tebra Diagnostic Report API
   slug: tebra-diagnosticreport-api
-- description: The DocumentReference API from Tebra — 1 operation(s) for documentreference.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The DocumentReference API from Tebra — 1 operation(s) for documentreference.
   name: Tebra Document Reference API
   slug: tebra-documentreference-api
-- description: The Encounter API from Tebra — 1 operation(s) for encounter.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Encounter API from Tebra — 1 operation(s) for encounter.
   name: Tebra Encounter API
   slug: tebra-encounter-api
-- description: The Goal API from Tebra — 1 operation(s) for goal.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Goal API from Tebra — 1 operation(s) for goal.
   name: Tebra Goal API
   slug: tebra-goal-api
-- description: The Immunization API from Tebra — 1 operation(s) for immunization.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Immunization API from Tebra — 1 operation(s) for immunization.
   name: Tebra Immunization API
   slug: tebra-immunization-api
-- description: The Location API from Tebra — 1 operation(s) for location.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Location API from Tebra — 1 operation(s) for location.
   name: Tebra Location API
   slug: tebra-location-api
-- description: The Medication API from Tebra — 1 operation(s) for medication.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Medication API from Tebra — 1 operation(s) for medication.
   name: Tebra Medication API
   slug: tebra-medication-api
-- description: The MedicationRequest API from Tebra — 1 operation(s) for medicationrequest.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The MedicationRequest API from Tebra — 1 operation(s) for medicationrequest.
   name: Tebra Medication Request API
   slug: tebra-medicationrequest-api
-- description: The Observation API from Tebra — 1 operation(s) for observation.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Observation API from Tebra — 1 operation(s) for observation.
   name: Tebra Observation API
   slug: tebra-observation-api
-- description: The Organization API from Tebra — 1 operation(s) for organization.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Organization API from Tebra — 1 operation(s) for organization.
   name: Tebra Organization API
   slug: tebra-organization-api
-- description: The Practitioner API from Tebra — 1 operation(s) for practitioner.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Practitioner API from Tebra — 1 operation(s) for practitioner.
   name: Tebra Practitioner API
   slug: tebra-practitioner-api
-- description: The PractitionerRole API from Tebra — 1 operation(s) for practitionerrole.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The PractitionerRole API from Tebra — 1 operation(s) for practitionerrole.
   name: Tebra Practitioner Role API
   slug: tebra-practitionerrole-api
-- description: The Procedure API from Tebra — 1 operation(s) for procedure.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Procedure API from Tebra — 1 operation(s) for procedure.
   name: Tebra Procedure API
   slug: tebra-procedure-api
-- description: The Provenance API from Tebra — 1 operation(s) for provenance.
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Provenance API from Tebra — 1 operation(s) for provenance.
   name: Tebra Provenance API
   slug: tebra-provenance-api
 artifact_total: 40
@@ -299,7 +345,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -309,7 +355,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 65.6
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,7 +381,7 @@ score:
     regime_id: health
     score: 86.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/screenshots/tebra-2026-08-17T082258.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 13 operations · 13 acting
 api_count: 2
 apis:
-- description: The Auth API from CRM Bonus — 1 operation(s) for auth.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Auth API from CRM Bonus — 1 operation(s) for auth.
   name: CRM Bonus Auth API
   slug: crm-bonus-auth-api
-- description: The Blocked API from CRM Bonus — 1 operation(s) for blocked.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Blocked API from CRM Bonus — 1 operation(s) for blocked.
   name: CRM Bonus Blocked API
   slug: crm-bonus-blocked-api
-- description: The Cashback API from CRM Bonus — 1 operation(s) for cashback.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Cashback API from CRM Bonus — 1 operation(s) for cashback.
   name: CRM Bonus Cashback API
   slug: crm-bonus-cashback-api
-- description: The Customers API from CRM Bonus — 1 operation(s) for customers.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Customers API from CRM Bonus — 1 operation(s) for customers.
   name: CRM Bonus Customers API
   slug: crm-bonus-customers-api
-- description: The Nps API from CRM Bonus — 1 operation(s) for nps.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Nps API from CRM Bonus — 1 operation(s) for nps.
   name: CRM Bonus Nps API
   slug: crm-bonus-nps-api
-- description: The Order Items API from CRM Bonus — 1 operation(s) for order items.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Order Items API from CRM Bonus — 1 operation(s) for order items.
   name: CRM Bonus Order Items API
   slug: crm-bonus-order-items-api
-- description: The Orders API from CRM Bonus — 1 operation(s) for orders.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Orders API from CRM Bonus — 1 operation(s) for orders.
   name: CRM Bonus Orders API
   slug: crm-bonus-orders-api
-- description: The Products API from CRM Bonus — 1 operation(s) for products.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Products API from CRM Bonus — 1 operation(s) for products.
   name: CRM Bonus Products API
   slug: crm-bonus-products-api
-- description: The Sellers API from CRM Bonus — 1 operation(s) for sellers.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Sellers API from CRM Bonus — 1 operation(s) for sellers.
   name: CRM Bonus Sellers API
   slug: crm-bonus-sellers-api
-- description: The Stores API from CRM Bonus — 1 operation(s) for stores.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Stores API from CRM Bonus — 1 operation(s) for stores.
   name: CRM Bonus Stores API
   slug: crm-bonus-stores-api
-- description: The Tag Hits API from CRM Bonus — 1 operation(s) for tag hits.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Tag Hits API from CRM Bonus — 1 operation(s) for tag hits.
   name: CRM Bonus Tag Hits API
   slug: crm-bonus-tag-hits-api
-- description: The Tag Ids API from CRM Bonus — 1 operation(s) for tag ids.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Tag Ids API from CRM Bonus — 1 operation(s) for tag ids.
   name: CRM Bonus Tag Ids API
   slug: crm-bonus-tag-ids-api
-- description: The Tag Interactions API from CRM Bonus — 1 operation(s) for tag interactions.
+- baseURL: https://data-api.otocrm.com.br
+  baseurl_source: declared
+  description: The Tag Interactions API from CRM Bonus — 1 operation(s) for tag interactions.
   name: CRM Bonus Tag Interactions API
   slug: crm-bonus-tag-interactions-api
 artifact_total: 20
@@ -269,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png
 security:

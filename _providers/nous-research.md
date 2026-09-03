@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 2
 apis:
-- description: OpenAI-compatible chat completions.
+- baseURL: https://inference-api.nousresearch.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions.
   name: Nous Research Chat API
   slug: nous-research-chat-api
-- description: Model discovery and catalog.
+- baseURL: https://inference-api.nousresearch.com/v1
+  baseurl_source: declared
+  description: Model discovery and catalog.
   name: Nous Research Models API
   slug: nous-research-models-api
 artifact_total: 9
@@ -200,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/screenshots/nous-research-2026-08-07T185555.png
 security:

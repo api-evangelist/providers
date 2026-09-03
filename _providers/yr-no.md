@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: Forecasts of air quality for locations in Norway, including concentrations of PM2.5, PM10, NO2, and ozone, with daily and hourly granularity.
   name: Air Quality Forecast API
   slug: air-quality-forecast-api
-- description: Weather alert endpoints
+- baseURL: https://api.met.no/weatherapi/locationforecast/2.0/
+  baseurl_source: declared
+  description: Weather alert endpoints
   name: Yr alerts API
   slug: yr-no-alerts-api
-- description: Forecast data endpoints
+- baseURL: https://api.met.no/weatherapi/locationforecast/2.0/
+  baseurl_source: declared
+  description: Forecast data endpoints
   name: Yr data API
   slug: yr-no-data-api
-- description: Service metadata endpoints
+- baseURL: https://api.met.no/weatherapi/locationforecast/2.0/
+  baseurl_source: declared
+  description: Service metadata endpoints
   name: Yr metadata API
   slug: yr-no-metadata-api
 artifact_total: 22
@@ -242,7 +248,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png
 security:

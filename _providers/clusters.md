@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 1
 apis:
-- description: Wallet-signature authentication for write operations
+- baseURL: https://api.clusters.xyz/v1
+  baseurl_source: declared
+  description: Wallet-signature authentication for write operations
   name: Clusters Authentication API
   slug: clusters-authentication-api
-- description: Read and create clusters (profiles bundling wallets)
+- baseURL: https://api.clusters.xyz/v1
+  baseurl_source: declared
+  description: Read and create clusters (profiles bundling wallets)
   name: Clusters Clusters API
   slug: clusters-clusters-api
-- description: Community cluster name availability and registration
+- baseURL: https://api.clusters.xyz/v1
+  baseurl_source: declared
+  description: Community cluster name availability and registration
   name: Clusters Communities API
   slug: clusters-communities-api
-- description: Replayable historical event feed
+- baseURL: https://api.clusters.xyz/v1
+  baseurl_source: declared
+  description: Replayable historical event feed
   name: Clusters Events API
   slug: clusters-events-api
-- description: Resolve addresses to cluster/wallet names and back
+- baseURL: https://api.clusters.xyz/v1
+  baseurl_source: declared
+  description: Resolve addresses to cluster/wallet names and back
   name: Clusters Names API
   slug: clusters-names-api
-- description: Check availability and build registration transaction data
+- baseURL: https://api.clusters.xyz/v1
+  baseurl_source: declared
+  description: Check availability and build registration transaction data
   name: Clusters Registration API
   slug: clusters-registration-api
 arazzos:
@@ -269,7 +281,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/screenshots/clusters-2026-07-25T205748.png
 security:

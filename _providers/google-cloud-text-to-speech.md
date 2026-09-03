@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: The Text:synthesize API from Google Cloud Text-To-Speech — 1 operation(s) for text:synthesize.
+- baseURL: https://texttospeech.googleapis.com
+  baseurl_source: declared
+  description: The Text:synthesize API from Google Cloud Text-To-Speech — 1 operation(s) for text:synthesize.
   name: Google Cloud Text-To-Speech Text:synthesize API
   slug: google-cloud-text-to-speech-text-synthesize-api
-- description: The Voices API from Google Cloud Text-To-Speech — 1 operation(s) for voices.
+- baseURL: https://texttospeech.googleapis.com
+  baseurl_source: declared
+  description: The Voices API from Google Cloud Text-To-Speech — 1 operation(s) for voices.
   name: Google Cloud Text-To-Speech Voices API
   slug: google-cloud-text-to-speech-voices-api
 artifact_total: 17
@@ -209,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-text-to-speech/refs/heads/main/screenshots/google-cloud-text-to-speech-2026-06-20T182149.png
 security:

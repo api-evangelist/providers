@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 6
 apis:
-- description: Ingest and manage monitoring alerts
+- baseURL: https://api.bigpanda.io
+  baseurl_source: spec
+  description: Ingest and manage monitoring alerts
   name: BigPanda Alerts API
   slug: bigpanda-alerts-api
-- description: Access audit logs
+- baseURL: https://api.bigpanda.io
+  baseurl_source: spec
+  description: Access audit logs
   name: BigPanda Audit API
   slug: bigpanda-audit-api
-- description: Ingest change events for correlation
+- baseURL: https://api.bigpanda.io
+  baseurl_source: spec
+  description: Ingest change events for correlation
   name: BigPanda Changes API
   slug: bigpanda-changes-api
-- description: Define incident grouping environments
+- baseURL: https://api.bigpanda.io
+  baseurl_source: spec
+  description: Define incident grouping environments
   name: BigPanda Environments API
   slug: bigpanda-environments-api
-- description: View and manage correlated incidents
+- baseURL: https://api.bigpanda.io
+  baseurl_source: spec
+  description: View and manage correlated incidents
   name: BigPanda Incidents API
   slug: bigpanda-incidents-api
-- description: Schedule maintenance windows to suppress alerts
+- baseURL: https://api.bigpanda.io
+  baseurl_source: spec
+  description: Schedule maintenance windows to suppress alerts
   name: BigPanda Maintenance Plans API
   slug: bigpanda-maintenance-plans-api
 artifact_total: 85
@@ -399,7 +411,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/screenshots/bigpanda-2026-06-20T173234.png
 security:

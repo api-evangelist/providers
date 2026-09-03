@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 21 operations · 11 acting
 api_count: 9
 apis:
-- description: Session and authentication management
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Session and authentication management
   name: Apache CouchDB Authentication API
   slug: apache-couchdb-authentication-api
-- description: Database changes feed
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Database changes feed
   name: Apache CouchDB Changes API
   slug: apache-couchdb-changes-api
-- description: Cluster membership and configuration
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Cluster membership and configuration
   name: Apache CouchDB Cluster API
   slug: apache-couchdb-cluster-api
-- description: Database management operations
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Database management operations
   name: Apache CouchDB Database API
   slug: apache-couchdb-database-api
-- description: Design documents, views, and indexes
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Design documents, views, and indexes
   name: Apache CouchDB Design Documents API
   slug: apache-couchdb-design-documents-api
-- description: Document CRUD and bulk operations
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Document CRUD and bulk operations
   name: Apache CouchDB Documents API
   slug: apache-couchdb-documents-api
-- description: Mango declarative JSON query API
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Mango declarative JSON query API
   name: Apache CouchDB Mango API
   slug: apache-couchdb-mango-api
-- description: Replication management
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Replication management
   name: Apache CouchDB Replication API
   slug: apache-couchdb-replication-api
-- description: Server-level information and utilities
+- baseURL: http://localhost:5984
+  baseurl_source: spec
+  description: Server-level information and utilities
   name: Apache CouchDB Server API
   slug: apache-couchdb-server-api
 artifact_total: 132
@@ -538,7 +556,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -551,7 +569,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 39.1
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -560,7 +578,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/screenshots/apache-couchdb-2026-06-20T172052.png
 security:

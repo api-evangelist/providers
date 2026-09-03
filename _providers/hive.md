@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -46,40 +46,64 @@ apis:
 - description: REST API for the Hive work management platform, providing CRUD access to workspaces, projects, actions (tasks), users, comments, labels, and attachments. Authentication uses workspace-scoped API token
   name: Hive Public API
   slug: public-api
-- description: The Actions API from Hive — 9 operation(s) for actions.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Actions API from Hive — 9 operation(s) for actions.
   name: Hive Actions API
   slug: hive-actions-api
-- description: The Agile Sprints API from Hive — 1 operation(s) for agile sprints.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Agile Sprints API from Hive — 1 operation(s) for agile sprints.
   name: Hive Agile Sprints API
   slug: hive-agile-sprints-api
-- description: The Dashboard Widgets API from Hive — 2 operation(s) for dashboard widgets.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Dashboard Widgets API from Hive — 2 operation(s) for dashboard widgets.
   name: Hive Dashboard Widgets API
   slug: hive-dashboard-widgets-api
-- description: The Form Submissions API from Hive — 1 operation(s) for form submissions.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Form Submissions API from Hive — 1 operation(s) for form submissions.
   name: Hive Form Submissions API
   slug: hive-form-submissions-api
-- description: The Messages API from Hive — 1 operation(s) for messages.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Messages API from Hive — 1 operation(s) for messages.
   name: Hive Messages API
   slug: hive-messages-api
-- description: The Projects API from Hive — 6 operation(s) for projects.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Projects API from Hive — 6 operation(s) for projects.
   name: Hive Projects API
   slug: hive-projects-api
-- description: The Resource Assignments API from Hive — 2 operation(s) for resource assignments.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Resource Assignments API from Hive — 2 operation(s) for resource assignments.
   name: Hive Resource Assignments API
   slug: hive-resource-assignments-api
-- description: The Teams API from Hive — 3 operation(s) for teams.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Teams API from Hive — 3 operation(s) for teams.
   name: Hive Teams API
   slug: hive-teams-api
-- description: The Users API from Hive — 2 operation(s) for users.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Hive — 2 operation(s) for users.
   name: Hive Users API
   slug: hive-users-api
-- description: The Webhooks API from Hive — 2 operation(s) for webhooks.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Hive — 2 operation(s) for webhooks.
   name: Hive Webhooks API
   slug: hive-webhooks-api
-- description: The Workflows API from Hive — 1 operation(s) for workflows.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Workflows API from Hive — 1 operation(s) for workflows.
   name: Hive Workflows API
   slug: hive-workflows-api
-- description: The Workspaces API from Hive — 15 operation(s) for workspaces.
+- baseURL: https://app.hive.com/api/v1
+  baseurl_source: declared
+  description: The Workspaces API from Hive — 15 operation(s) for workspaces.
   name: Hive Workspaces API
   slug: hive-workspaces-api
 artifact_total: 30
@@ -215,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hive/refs/heads/main/screenshots/hive-2026-06-20T182800.png
 security:

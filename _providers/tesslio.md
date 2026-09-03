@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 225 operations · 111 acting · 19 human-in-the-loop
 api_count: 1
 apis:
-- description: Admin-scoped API keys for support tooling.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Admin-scoped API keys for support tooling.
   name: tessl.io Admin Keys API
   slug: tesslio-admin-keys-api
-- description: Agent and hosted-execution log uploads.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Agent and hosted-execution log uploads.
   name: tessl.io Agent Logs API
   slug: tesslio-agent-logs-api
-- description: Workspace and organization API keys.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Workspace and organization API keys.
   name: tessl.io API Keys API
   slug: tesslio-api-keys-api
-- description: Workspace badge generation.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Workspace badge generation.
   name: tessl.io Badges API
   slug: tesslio-badges-api
-- description: The Billing API from tessl.io — 4 operation(s) for billing.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Billing API from tessl.io — 4 operation(s) for billing.
   name: tessl.io Billing API
   slug: tesslio-billing-api
-- description: Sandbox and capacity-lease scheduling.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Sandbox and capacity-lease scheduling.
   name: tessl.io Capacity API
   slug: tesslio-capacity-api
-- description: Endpoints used by the Tessl CLI.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Endpoints used by the Tessl CLI.
   name: tessl.io CLI API
   slug: tesslio-cli-api
-- description: The Context API from tessl.io — 3 operation(s) for context.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Context API from tessl.io — 3 operation(s) for context.
   name: tessl.io Context API
   slug: tesslio-context-api
-- description: Curated tile lists and items.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Curated tile lists and items.
   name: tessl.io Curated Lists API
   slug: tesslio-curated-lists-api
-- description: The Environments API from tessl.io — 2 operation(s) for environments.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Environments API from tessl.io — 2 operation(s) for environments.
   name: tessl.io Environments API
   slug: tesslio-environments-api
-- description: Eval runs, scenarios, and solution scoring.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Eval runs, scenarios, and solution scoring.
   name: tessl.io Evals API
   slug: tesslio-evals-api
-- description: The Fix Runs API from tessl.io — 4 operation(s) for fix runs.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Fix Runs API from tessl.io — 4 operation(s) for fix runs.
   name: tessl.io Fix Runs API
   slug: tesslio-fix-runs-api
-- description: Eval scenario generation runs.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Eval scenario generation runs.
   name: tessl.io Generation API
   slug: tesslio-generation-api
-- description: The InstallPolicy API from tessl.io — 2 operation(s) for installpolicy.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The InstallPolicy API from tessl.io — 2 operation(s) for installpolicy.
   name: tessl.io InstallPolicy API
   slug: tesslio-installpolicy-api
-- description: Third-party integrations (GitHub, GitLab, etc).
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Third-party integrations (GitHub, GitLab, etc).
   name: tessl.io Integrations API
   slug: tesslio-integrations-api
-- description: The Launch Runs API from tessl.io — 4 operation(s) for launch runs.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Launch Runs API from tessl.io — 4 operation(s) for launch runs.
   name: tessl.io Launch Runs API
   slug: tesslio-launch-runs-api
-- description: The LLM API from tessl.io — 2 operation(s) for llm.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The LLM API from tessl.io — 2 operation(s) for llm.
   name: tessl.io LLM API
   slug: tesslio-llm-api
-- description: The ManagedProjectPolicy API from tessl.io — 1 operation(s) for managedprojectpolicy.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The ManagedProjectPolicy API from tessl.io — 1 operation(s) for managedprojectpolicy.
   name: tessl.io ManagedProjectPolicy API
   slug: tesslio-managedprojectpolicy-api
-- description: The MCP API from tessl.io — 4 operation(s) for mcp.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The MCP API from tessl.io — 4 operation(s) for mcp.
   name: tessl.io MCP API
   slug: tesslio-mcp-api
-- description: Organizations, members, and invitations.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Organizations, members, and invitations.
   name: tessl.io Orgs API
   slug: tesslio-orgs-api
-- description: The Policy API from tessl.io — 3 operation(s) for policy.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Policy API from tessl.io — 3 operation(s) for policy.
   name: tessl.io Policy API
   slug: tesslio-policy-api
-- description: Workspace projects.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Workspace projects.
   name: tessl.io Projects API
   slug: tesslio-projects-api
-- description: The PublishPolicy API from tessl.io — 1 operation(s) for publishpolicy.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The PublishPolicy API from tessl.io — 1 operation(s) for publishpolicy.
   name: tessl.io PublishPolicy API
   slug: tesslio-publishpolicy-api
-- description: Source-control repository helpers.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Source-control repository helpers.
   name: tessl.io Repos API
   slug: tesslio-repos-api
-- description: The Review Runs API from tessl.io — 3 operation(s) for review runs.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Review Runs API from tessl.io — 3 operation(s) for review runs.
   name: tessl.io Review Runs API
   slug: tesslio-review-runs-api
-- description: The Reviews API from tessl.io — 3 operation(s) for reviews.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Reviews API from tessl.io — 3 operation(s) for reviews.
   name: tessl.io Reviews API
   slug: tesslio-reviews-api
-- description: Search across tiles, skills, and repos.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Search across tiles, skills, and repos.
   name: tessl.io Search API
   slug: tesslio-search-api
-- description: The Security Review Runs API from tessl.io — 2 operation(s) for security review runs.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Security Review Runs API from tessl.io — 2 operation(s) for security review runs.
   name: tessl.io Security Review Runs API
   slug: tesslio-security-review-runs-api
-- description: The SkillInventory API from tessl.io — 24 operation(s) for skillinventory.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The SkillInventory API from tessl.io — 24 operation(s) for skillinventory.
   name: tessl.io SkillInventory API
   slug: tesslio-skillinventory-api
-- description: Skill discovery, reviews, and security checks.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Skill discovery, reviews, and security checks.
   name: tessl.io Skills API
   slug: tesslio-skills-api
-- description: The Tasks API from tessl.io — 8 operation(s) for tasks.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: The Tasks API from tessl.io — 8 operation(s) for tasks.
   name: tessl.io Tasks API
   slug: tesslio-tasks-api
-- description: Tile catalog, versions, and metadata.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Tile catalog, versions, and metadata.
   name: tessl.io Tiles API
   slug: tesslio-tiles-api
-- description: User accounts and identity.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: User accounts and identity.
   name: tessl.io Users API
   slug: tesslio-users-api
-- description: Background workflow executions and repository workflow configs.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Background workflow executions and repository workflow configs.
   name: tessl.io Workflows API
   slug: tesslio-workflows-api
-- description: Workspaces and workspace membership.
+- baseURL: https://api.tessl.io
+  baseurl_source: declared
+  description: Workspaces and workspace membership.
   name: tessl.io Workspaces API
   slug: tesslio-workspaces-api
 artifact_total: 74
@@ -441,7 +511,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/screenshots/tesslio-2026-08-17T082329.png
 security:

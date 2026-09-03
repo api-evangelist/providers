@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 22 operations · 12 acting
 api_count: 3
 apis:
-- description: Certificate templates for Qwilt-managed CSR workflows
+- baseURL: https://media-sites.cqloud.com
+  baseurl_source: declared
+  description: Certificate templates for Qwilt-managed CSR workflows
   name: Qwilt Certificate Templates API
   slug: qwilt-certificate-templates-api
-- description: TLS certificates
+- baseURL: https://media-sites.cqloud.com
+  baseurl_source: declared
+  description: TLS certificates
   name: Qwilt Certificates API
   slug: qwilt-certificates-api
-- description: Qwilt CDN egress IP addresses for origin allow-listing
+- baseURL: https://media-sites.cqloud.com
+  baseurl_source: declared
+  description: Qwilt CDN egress IP addresses for origin allow-listing
   name: Qwilt Origin Allow List API
   slug: qwilt-origin-allow-list-api
-- description: Publish, un-publish, republish and cancel operations
+- baseURL: https://media-sites.cqloud.com
+  baseurl_source: declared
+  description: Publish, un-publish, republish and cancel operations
   name: Qwilt Publishing Operations API
   slug: qwilt-publishing-operations-api
-- description: Versioned site configuration revisions
+- baseURL: https://media-sites.cqloud.com
+  baseurl_source: declared
+  description: Versioned site configuration revisions
   name: Qwilt Site Configurations API
   slug: qwilt-site-configurations-api
-- description: CDN media-delivery site objects
+- baseURL: https://media-sites.cqloud.com
+  baseurl_source: declared
+  description: CDN media-delivery site objects
   name: Qwilt Sites API
   slug: qwilt-sites-api
 artifact_total: 18
@@ -226,7 +238,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -252,8 +264,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qwilt/refs/heads/main/screenshots/qwilt-2026-09-02T152731.png
 security:
 - kind: authentication
   name: Qwilt Authentication

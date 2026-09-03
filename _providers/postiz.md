@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -48,91 +48,147 @@ apis:
 - description: Configure a webhook URL in Postiz to receive an HTTP POST notifying your own systems when a post is published, so you can sync downstream tools such as spreadsheets, Slack, or a CRM. Webhooks are conf
   name: Postiz Webhooks
   slug: webhooks
-- description: Platform- and post-level analytics.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: Platform- and post-level analytics.
   name: Postiz Analytics API
   slug: postiz-analytics-api
-- description: Connected social media channels and scheduling slots.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: Connected social media channels and scheduling slots.
   name: Postiz Integrations API
   slug: postiz-integrations-api
-- description: Account notifications.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: Account notifications.
   name: Postiz Notifications API
   slug: postiz-notifications-api
-- description: Create, schedule, list, and delete posts.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: Create, schedule, list, and delete posts.
   name: Postiz Posts API
   slug: postiz-posts-api
-- description: Upload media files referenced by posts.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: Upload media files referenced by posts.
   name: Postiz Uploads API
   slug: postiz-uploads-api
 - description: Hosted, remote Model Context Protocol server run as part of the Postiz backend, exposing 11 tools for listing channels, reading platform settings schemas, scheduling and re-settings posts, and generat
   name: Postiz MCP Server
   slug: postiz-mcp-server
-- description: The Admin API from Postiz — 3 operation(s) for admin.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Admin API from Postiz — 3 operation(s) for admin.
   name: Postiz Admin API
   slug: postiz-admin-api
-- description: The Announcements API from Postiz — 2 operation(s) for announcements.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Announcements API from Postiz — 2 operation(s) for announcements.
   name: Postiz Announcements API
   slug: postiz-announcements-api
-- description: The Approved Apps API from Postiz — 2 operation(s) for approved apps.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Approved Apps API from Postiz — 2 operation(s) for approved apps.
   name: Postiz Approved Apps API
   slug: postiz-approved-apps-api
-- description: The Auth API from Postiz — 10 operation(s) for auth.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Auth API from Postiz — 10 operation(s) for auth.
   name: Postiz Auth API
   slug: postiz-auth-api
-- description: The Autopost API from Postiz — 4 operation(s) for autopost.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Autopost API from Postiz — 4 operation(s) for autopost.
   name: Postiz Autopost API
   slug: postiz-autopost-api
-- description: The Billing API from Postiz — 20 operation(s) for billing.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Billing API from Postiz — 20 operation(s) for billing.
   name: Postiz Billing API
   slug: postiz-billing-api
-- description: The Copilot API from Postiz — 5 operation(s) for copilot.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Copilot API from Postiz — 5 operation(s) for copilot.
   name: Postiz Copilot API
   slug: postiz-copilot-api
-- description: The Enterprise API from Postiz — 3 operation(s) for enterprise.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Enterprise API from Postiz — 3 operation(s) for enterprise.
   name: Postiz Enterprise API
   slug: postiz-enterprise-api
-- description: The Media API from Postiz — 13 operation(s) for media.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Media API from Postiz — 13 operation(s) for media.
   name: Postiz Media API
   slug: postiz-media-api
-- description: The Monitor API from Postiz — 1 operation(s) for monitor.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Monitor API from Postiz — 1 operation(s) for monitor.
   name: Postiz Monitor API
   slug: postiz-monitor-api
-- description: The OAuth API from Postiz — 2 operation(s) for oauth.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The OAuth API from Postiz — 2 operation(s) for oauth.
   name: Postiz O Auth API
   slug: postiz-oauth-api
-- description: The OAuth App API from Postiz — 2 operation(s) for oauth app.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The OAuth App API from Postiz — 2 operation(s) for oauth app.
   name: Postiz OAuth App API
   slug: postiz-oauth-app-api
-- description: The Public API API from Postiz — 22 operation(s) for public api.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Public API API from Postiz — 22 operation(s) for public api.
   name: Postiz Public API
   slug: postiz-public-api-api
-- description: The Public API from Postiz — 6 operation(s) for public.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Public API from Postiz — 6 operation(s) for public.
   name: Postiz Public API
   slug: postiz-public-api
-- description: The Root API from Postiz — 1 operation(s) for root.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Root API from Postiz — 1 operation(s) for root.
   name: Postiz Root API
   slug: postiz-root-api
-- description: The Sets API from Postiz — 2 operation(s) for sets.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Sets API from Postiz — 2 operation(s) for sets.
   name: Postiz Sets API
   slug: postiz-sets-api
-- description: The Settings API from Postiz — 4 operation(s) for settings.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Settings API from Postiz — 4 operation(s) for settings.
   name: Postiz Settings API
   slug: postiz-settings-api
-- description: The Signatures API from Postiz — 3 operation(s) for signatures.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Signatures API from Postiz — 3 operation(s) for signatures.
   name: Postiz Signatures API
   slug: postiz-signatures-api
-- description: The Stripe API from Postiz — 1 operation(s) for stripe.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Stripe API from Postiz — 1 operation(s) for stripe.
   name: Postiz Stripe API
   slug: postiz-stripe-api
-- description: The Third Party API from Postiz — 7 operation(s) for third party.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Third Party API from Postiz — 7 operation(s) for third party.
   name: Postiz Third Party API
   slug: postiz-third-party-api
-- description: The User API from Postiz — 15 operation(s) for user.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The User API from Postiz — 15 operation(s) for user.
   name: Postiz User API
   slug: postiz-user-api
-- description: Generate videos with AI
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: Generate videos with AI
   name: Postiz Video Generation API
   slug: postiz-video-generation-api
-- description: The Webhooks API from Postiz — 3 operation(s) for webhooks.
+- baseURL: https://api.postiz.com/public/v1
+  baseurl_source: declared
+  description: The Webhooks API from Postiz — 3 operation(s) for webhooks.
   name: Postiz Webhooks API
   slug: postiz-webhooks-api
 artifact_total: 47
@@ -392,7 +448,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -402,7 +458,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 89.5
-  previous_composite: 64.3
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,7 +470,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:

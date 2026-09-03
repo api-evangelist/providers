@@ -33,250 +33,412 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Address API from Precisely APIs — 2 operation(s) for address.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Address API from Precisely APIs — 2 operation(s) for address.
   name: Precisely APIs Address API
   slug: precisely-apis-address-api
-- description: The Address Verification Service API from Precisely APIs — 6 operation(s) for address verification service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Address Verification Service API from Precisely APIs — 6 operation(s) for address verification service.
   name: Precisely APIs Address  Verification  Service API
   slug: precisely-apis-address-verification-service-api
-- description: The Addresses API from Precisely APIs — 4 operation(s) for addresses.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Addresses API from Precisely APIs — 4 operation(s) for addresses.
   name: Precisely APIs Addresses API
   slug: precisely-apis-addresses-api
-- description: The Addresses Service. API from Precisely APIs — 2 operation(s) for addresses service..
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Addresses Service. API from Precisely APIs — 2 operation(s) for addresses service..
   name: Precisely APIs Addresses  Service. API
   slug: precisely-apis-addresses-service-api
-- description: The Advanced API from Precisely APIs — 1 operation(s) for advanced.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Advanced API from Precisely APIs — 1 operation(s) for advanced.
   name: Precisely APIs Advanced API
   slug: precisely-apis-advanced-api
-- description: The Ahj API from Precisely APIs — 3 operation(s) for ahj.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Ahj API from Precisely APIs — 3 operation(s) for ahj.
   name: Precisely APIs Ahj API
   slug: precisely-apis-ahj-api
-- description: The Attributes API from Precisely APIs — 1 operation(s) for attributes.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Attributes API from Precisely APIs — 1 operation(s) for attributes.
   name: Precisely APIs Attributes API
   slug: precisely-apis-attributes-api
-- description: The Autocomplete API from Precisely APIs — 1 operation(s) for autocomplete.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Autocomplete API from Precisely APIs — 1 operation(s) for autocomplete.
   name: Precisely APIs Autocomplete API
   slug: precisely-apis-autocomplete-api
-- description: The Basic API from Precisely APIs — 1 operation(s) for basic.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Basic API from Precisely APIs — 1 operation(s) for basic.
   name: Precisely APIs Basic API
   slug: precisely-apis-basic-api
-- description: The Bundles API from Precisely APIs — 2 operation(s) for bundles.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Bundles API from Precisely APIs — 2 operation(s) for bundles.
   name: Precisely APIs Bundles API
   slug: precisely-apis-bundles-api
-- description: The Byaddress API from Precisely APIs — 10 operation(s) for byaddress.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byaddress API from Precisely APIs — 10 operation(s) for byaddress.
   name: Precisely APIs Byaddress API
   slug: precisely-apis-byaddress-api
-- description: The Byarea API from Precisely APIs — 1 operation(s) for byarea.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byarea API from Precisely APIs — 1 operation(s) for byarea.
   name: Precisely APIs Byarea API
   slug: precisely-apis-byarea-api
-- description: The Byboundary API from Precisely APIs — 2 operation(s) for byboundary.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byboundary API from Precisely APIs — 2 operation(s) for byboundary.
   name: Precisely APIs Byboundary API
   slug: precisely-apis-byboundary-api
-- description: The Byboundaryids API from Precisely APIs — 1 operation(s) for byboundaryids.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byboundaryids API from Precisely APIs — 1 operation(s) for byboundaryids.
   name: Precisely APIs Byboundaryids API
   slug: precisely-apis-byboundaryids-api
-- description: The Byboundaryname API from Precisely APIs — 1 operation(s) for byboundaryname.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byboundaryname API from Precisely APIs — 1 operation(s) for byboundaryname.
   name: Precisely APIs Byboundaryname API
   slug: precisely-apis-byboundaryname-api
-- description: The Bydistance API from Precisely APIs — 1 operation(s) for bydistance.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Bydistance API from Precisely APIs — 1 operation(s) for bydistance.
   name: Precisely APIs Bydistance API
   slug: precisely-apis-bydistance-api
-- description: The Byfccid API from Precisely APIs — 1 operation(s) for byfccid.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byfccid API from Precisely APIs — 1 operation(s) for byfccid.
   name: Precisely APIs Byfccid API
   slug: precisely-apis-byfccid-api
-- description: The Bylocation API from Precisely APIs — 9 operation(s) for bylocation.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Bylocation API from Precisely APIs — 9 operation(s) for bylocation.
   name: Precisely APIs Bylocation API
   slug: precisely-apis-bylocation-api
-- description: The Byprecisely API from Precisely APIs — 1 operation(s) for byprecisely.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Byprecisely API from Precisely APIs — 1 operation(s) for byprecisely.
   name: Precisely APIs Byprecisely API
   slug: precisely-apis-byprecisely-api
-- description: The Categories API from Precisely APIs — 1 operation(s) for categories.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Categories API from Precisely APIs — 1 operation(s) for categories.
   name: Precisely APIs Categories API
   slug: precisely-apis-categories-api
-- description: The Crime API from Precisely APIs — 2 operation(s) for crime.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Crime API from Precisely APIs — 2 operation(s) for crime.
   name: Precisely APIs Crime API
   slug: precisely-apis-crime-api
-- description: The Demographics Service API from Precisely APIs — 2 operation(s) for demographics service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Demographics Service API from Precisely APIs — 2 operation(s) for demographics service.
   name: Precisely APIs Demographics  Service API
   slug: precisely-apis-demographics-service-api
-- description: The Earthquake API from Precisely APIs — 2 operation(s) for earthquake.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Earthquake API from Precisely APIs — 2 operation(s) for earthquake.
   name: Precisely APIs Earthquake API
   slug: precisely-apis-earthquake-api
-- description: The Earthquakehistory API from Precisely APIs — 1 operation(s) for earthquakehistory.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Earthquakehistory API from Precisely APIs — 1 operation(s) for earthquakehistory.
   name: Precisely APIs Earthquakehistory API
   slug: precisely-apis-earthquakehistory-api
-- description: The Email Verification Service API from Precisely APIs — 1 operation(s) for email verification service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Email Verification Service API from Precisely APIs — 1 operation(s) for email verification service.
   name: Precisely APIs Email  Verification  Service API
   slug: precisely-apis-email-verification-service-api
-- description: The Fire API from Precisely APIs — 4 operation(s) for fire.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Fire API from Precisely APIs — 4 operation(s) for fire.
   name: Precisely APIs Fire API
   slug: precisely-apis-fire-api
-- description: The Firehistory API from Precisely APIs — 2 operation(s) for firehistory.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Firehistory API from Precisely APIs — 2 operation(s) for firehistory.
   name: Precisely APIs Firehistory API
   slug: precisely-apis-firehistory-api
-- description: The Firestation API from Precisely APIs — 2 operation(s) for firestation.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Firestation API from Precisely APIs — 2 operation(s) for firestation.
   name: Precisely APIs Firestation API
   slug: precisely-apis-firestation-api
-- description: The Flood API from Precisely APIs — 2 operation(s) for flood.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Flood API from Precisely APIs — 2 operation(s) for flood.
   name: Precisely APIs Flood API
   slug: precisely-apis-flood-api
-- description: The Geocode API from Precisely APIs — 4 operation(s) for geocode.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Geocode API from Precisely APIs — 4 operation(s) for geocode.
   name: Precisely APIs Geocode API
   slug: precisely-apis-geocode-api
-- description: The Geocode Service API from Precisely APIs — 2 operation(s) for geocode service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Geocode Service API from Precisely APIs — 2 operation(s) for geocode service.
   name: Precisely APIs Geocode  Service API
   slug: precisely-apis-geocode-service-api
-- description: The Geolocation API from Precisely APIs — 2 operation(s) for geolocation.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Geolocation API from Precisely APIs — 2 operation(s) for geolocation.
   name: Precisely APIs Geolocation API
   slug: precisely-apis-geolocation-api
-- description: The Geolocation Service API from Precisely APIs — 2 operation(s) for geolocation service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Geolocation Service API from Precisely APIs — 2 operation(s) for geolocation service.
   name: Precisely APIs Geolocation  Service API
   slug: precisely-apis-geolocation-service-api
-- description: The Getcitystateprovince API from Precisely APIs — 1 operation(s) for getcitystateprovince.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Getcitystateprovince API from Precisely APIs — 1 operation(s) for getcitystateprovince.
   name: Precisely APIs Getcitystateprovince API
   slug: precisely-apis-getcitystateprovince-api
-- description: The Getpostalcodes API from Precisely APIs — 1 operation(s) for getpostalcodes.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Getpostalcodes API from Precisely APIs — 1 operation(s) for getpostalcodes.
   name: Precisely APIs Getpostalcodes API
   slug: precisely-apis-getpostalcodes-api
-- description: The Intersection API from Precisely APIs — 2 operation(s) for intersection.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Intersection API from Precisely APIs — 2 operation(s) for intersection.
   name: Precisely APIs Intersection API
   slug: precisely-apis-intersection-api
-- description: The Key API from Precisely APIs — 1 operation(s) for key.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Key API from Precisely APIs — 1 operation(s) for key.
   name: Precisely APIs Key API
   slug: precisely-apis-key-api
-- description: The Local Tax Service API from Precisely APIs — 4 operation(s) for local tax service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Local Tax Service API from Precisely APIs — 4 operation(s) for local tax service.
   name: Precisely APIs Local  Tax  Service API
   slug: precisely-apis-local-tax-service-api
-- description: The Location API from Precisely APIs — 2 operation(s) for location.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Location API from Precisely APIs — 2 operation(s) for location.
   name: Precisely APIs Location API
   slug: precisely-apis-location-api
-- description: The Locations API from Precisely APIs — 2 operation(s) for locations.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Locations API from Precisely APIs — 2 operation(s) for locations.
   name: Precisely APIs Locations API
   slug: precisely-apis-locations-api
-- description: The Metadata API from Precisely APIs — 2 operation(s) for metadata.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Metadata API from Precisely APIs — 2 operation(s) for metadata.
   name: Precisely APIs Metadata API
   slug: precisely-apis-metadata-api
-- description: The Neighborhoods Service. API from Precisely APIs — 1 operation(s) for neighborhoods service..
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Neighborhoods Service. API from Precisely APIs — 1 operation(s) for neighborhoods service..
   name: Precisely APIs Neighborhoods  Service. API
   slug: precisely-apis-neighborhoods-service-api
-- description: The P S A P/911 Service API from Precisely APIs — 2 operation(s) for p s a p/911 service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The P S A P/911 Service API from Precisely APIs — 2 operation(s) for p s a p/911 service.
   name: Precisely APIs P S A P/911  Service API
   slug: precisely-apis-p-s-a-p-911-service-api
-- description: The Phone Verification Service API from Precisely APIs — 1 operation(s) for phone verification service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Phone Verification Service API from Precisely APIs — 1 operation(s) for phone verification service.
   name: Precisely APIs Phone  Verification  Service API
   slug: precisely-apis-phone-verification-service-api
-- description: The Place API from Precisely APIs — 1 operation(s) for place.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Place API from Precisely APIs — 1 operation(s) for place.
   name: Precisely APIs Place API
   slug: precisely-apis-place-api
-- description: The Places API from Precisely APIs — 9 operation(s) for places.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Places API from Precisely APIs — 9 operation(s) for places.
   name: Precisely APIs Places API
   slug: precisely-apis-places-api
-- description: The Places Service. API from Precisely APIs — 2 operation(s) for places service..
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Places Service. API from Precisely APIs — 2 operation(s) for places service..
   name: Precisely APIs Places  Service. API
   slug: precisely-apis-places-service-api
-- description: The Properties API from Precisely APIs — 4 operation(s) for properties.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Properties API from Precisely APIs — 4 operation(s) for properties.
   name: Precisely APIs Properties API
   slug: precisely-apis-properties-api
-- description: The Property Information Service API from Precisely APIs — 2 operation(s) for property information service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Property Information Service API from Precisely APIs — 2 operation(s) for property information service.
   name: Precisely APIs Property  Information  Service API
   slug: precisely-apis-property-information-service-api
-- description: The Psap API from Precisely APIs — 2 operation(s) for psap.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Psap API from Precisely APIs — 2 operation(s) for psap.
   name: Precisely APIs Psap API
   slug: precisely-apis-psap-api
-- description: The Ratecenter API from Precisely APIs — 2 operation(s) for ratecenter.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Ratecenter API from Precisely APIs — 2 operation(s) for ratecenter.
   name: Precisely APIs Ratecenter API
   slug: precisely-apis-ratecenter-api
-- description: The Rates API from Precisely APIs — 4 operation(s) for rates.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Rates API from Precisely APIs — 4 operation(s) for rates.
   name: Precisely APIs Rates API
   slug: precisely-apis-rates-api
-- description: The Reverse API from Precisely APIs — 1 operation(s) for reverse.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Reverse API from Precisely APIs — 1 operation(s) for reverse.
   name: Precisely APIs Reverse API
   slug: precisely-apis-reverse-api
-- description: The Risks Service API from Precisely APIs — 12 operation(s) for risks service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Risks Service API from Precisely APIs — 12 operation(s) for risks service.
   name: Precisely APIs Risks  Service API
   slug: precisely-apis-risks-service-api
-- description: The Route API from Precisely APIs — 2 operation(s) for route.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Route API from Precisely APIs — 2 operation(s) for route.
   name: Precisely APIs Route API
   slug: precisely-apis-route-api
-- description: The Routing API from Precisely APIs — 4 operation(s) for routing.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Routing API from Precisely APIs — 4 operation(s) for routing.
   name: Precisely APIs Routing API
   slug: precisely-apis-routing-api
-- description: The Routing Service API from Precisely APIs — 2 operation(s) for routing service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Routing Service API from Precisely APIs — 2 operation(s) for routing service.
   name: Precisely APIs Routing  Service API
   slug: precisely-apis-routing-service-api
-- description: The School API from Precisely APIs — 1 operation(s) for school.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The School API from Precisely APIs — 1 operation(s) for school.
   name: Precisely APIs School API
   slug: precisely-apis-school-api
-- description: The Schools Service API from Precisely APIs — 1 operation(s) for schools service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Schools Service API from Precisely APIs — 1 operation(s) for schools service.
   name: Precisely APIs Schools  Service API
   slug: precisely-apis-schools-service-api
-- description: The Segmentation API from Precisely APIs — 7 operation(s) for segmentation.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Segmentation API from Precisely APIs — 7 operation(s) for segmentation.
   name: Precisely APIs Segmentation API
   slug: precisely-apis-segmentation-api
-- description: The Select API from Precisely APIs — 1 operation(s) for select.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Select API from Precisely APIs — 1 operation(s) for select.
   name: Precisely APIs Select API
   slug: precisely-apis-select-api
-- description: The Shoreline API from Precisely APIs — 2 operation(s) for shoreline.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Shoreline API from Precisely APIs — 2 operation(s) for shoreline.
   name: Precisely APIs Shoreline API
   slug: precisely-apis-shoreline-api
-- description: The Sic API from Precisely APIs — 1 operation(s) for sic.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Sic API from Precisely APIs — 1 operation(s) for sic.
   name: Precisely APIs Sic API
   slug: precisely-apis-sic-api
-- description: The Speedlimit API from Precisely APIs — 1 operation(s) for speedlimit.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Speedlimit API from Precisely APIs — 1 operation(s) for speedlimit.
   name: Precisely APIs Speedlimit API
   slug: precisely-apis-speedlimit-api
-- description: The Streets Service API from Precisely APIs — 2 operation(s) for streets service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Streets Service API from Precisely APIs — 2 operation(s) for streets service.
   name: Precisely APIs Streets  Service API
   slug: precisely-apis-streets-service-api
-- description: The Tax API from Precisely APIs — 2 operation(s) for tax.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Tax API from Precisely APIs — 2 operation(s) for tax.
   name: Precisely APIs Tax API
   slug: precisely-apis-tax-api
-- description: The Taxdistrict API from Precisely APIs — 1 operation(s) for taxdistrict.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Taxdistrict API from Precisely APIs — 1 operation(s) for taxdistrict.
   name: Precisely APIs Taxdistrict API
   slug: precisely-apis-taxdistrict-api
-- description: The Taxes API from Precisely APIs — 4 operation(s) for taxes.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Taxes API from Precisely APIs — 4 operation(s) for taxes.
   name: Precisely APIs Taxes API
   slug: precisely-apis-taxes-api
-- description: The Taxrate API from Precisely APIs — 2 operation(s) for taxrate.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Taxrate API from Precisely APIs — 2 operation(s) for taxrate.
   name: Precisely APIs Taxrate API
   slug: precisely-apis-taxrate-api
-- description: The Telecomm Info Service API from Precisely APIs — 2 operation(s) for telecomm info service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Telecomm Info Service API from Precisely APIs — 2 operation(s) for telecomm info service.
   name: Precisely APIs Telecomm  Info  Service API
   slug: precisely-apis-telecomm-info-service-api
-- description: The Time Zone Service API from Precisely APIs — 2 operation(s) for time zone service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Time Zone Service API from Precisely APIs — 2 operation(s) for time zone service.
   name: Precisely APIs Time  Zone  Service API
   slug: precisely-apis-time-zone-service-api
-- description: The Timezone API from Precisely APIs — 2 operation(s) for timezone.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Timezone API from Precisely APIs — 2 operation(s) for timezone.
   name: Precisely APIs Timezone API
   slug: precisely-apis-timezone-api
-- description: The Type API from Precisely APIs — 4 operation(s) for type.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Type API from Precisely APIs — 4 operation(s) for type.
   name: Precisely APIs Type API
   slug: precisely-apis-type-api
-- description: The Validateemailaddress API from Precisely APIs — 1 operation(s) for validateemailaddress.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Validateemailaddress API from Precisely APIs — 1 operation(s) for validateemailaddress.
   name: Precisely APIs Validateemailaddress API
   slug: precisely-apis-validateemailaddress-api
-- description: The Validatemailingaddress API from Precisely APIs — 1 operation(s) for validatemailingaddress.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Validatemailingaddress API from Precisely APIs — 1 operation(s) for validatemailingaddress.
   name: Precisely APIs Validatemailingaddress API
   slug: precisely-apis-validatemailingaddress-api
-- description: The Validatemailingaddresspremium API from Precisely APIs — 1 operation(s) for validatemailingaddresspremium.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Validatemailingaddresspremium API from Precisely APIs — 1 operation(s) for validatemailingaddresspremium.
   name: Precisely APIs Validatemailingaddresspremium API
   slug: precisely-apis-validatemailingaddresspremium-api
-- description: The Validatemailingaddresspro API from Precisely APIs — 1 operation(s) for validatemailingaddresspro.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Validatemailingaddresspro API from Precisely APIs — 1 operation(s) for validatemailingaddresspro.
   name: Precisely APIs Validatemailingaddresspro API
   slug: precisely-apis-validatemailingaddresspro-api
-- description: The Validatemailingaddressuscan API from Precisely APIs — 1 operation(s) for validatemailingaddressuscan.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Validatemailingaddressuscan API from Precisely APIs — 1 operation(s) for validatemailingaddressuscan.
   name: Precisely APIs Validatemailingaddressuscan API
   slug: precisely-apis-validatemailingaddressuscan-api
-- description: The Validatephonenumber API from Precisely APIs — 1 operation(s) for validatephonenumber.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Validatephonenumber API from Precisely APIs — 1 operation(s) for validatephonenumber.
   name: Precisely APIs Validatephonenumber API
   slug: precisely-apis-validatephonenumber-api
-- description: The Zones API from Precisely APIs — 6 operation(s) for zones.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Zones API from Precisely APIs — 6 operation(s) for zones.
   name: Precisely APIs Zones API
   slug: precisely-apis-zones-api
-- description: The Zones Service API from Precisely APIs — 1 operation(s) for zones service.
+- baseURL: https://api.precisely.com
+  baseurl_source: spec
+  description: The Zones Service API from Precisely APIs — 1 operation(s) for zones service.
   name: Precisely APIs Zones  Service API
   slug: precisely-apis-zones-service-api
 artifact_total: 168
@@ -671,7 +833,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/screenshots/precisely-apis-2026-06-20T192041.png
 security:

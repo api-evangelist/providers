@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 11 acting
 api_count: 1
 apis:
-- description: Generate summaries, chapters, sentiment, and entity analysis from transcripts.
+- baseURL: https://api.sonix.ai/v1
+  baseurl_source: declared
+  description: Generate summaries, chapters, sentiment, and entity analysis from transcripts.
   name: Sonix AI Analysis API
   slug: sonix-ai-analysis-api
-- description: Export transcripts as subtitles, captions, documents, and media burn-ins.
+- baseURL: https://api.sonix.ai/v1
+  baseurl_source: declared
+  description: Export transcripts as subtitles, captions, documents, and media burn-ins.
   name: Sonix Exports API
   slug: sonix-exports-api
-- description: Organize media into folders.
+- baseURL: https://api.sonix.ai/v1
+  baseurl_source: declared
+  description: Organize media into folders.
   name: Sonix Folders API
   slug: sonix-folders-api
-- description: Upload and manage audio and video media files for transcription.
+- baseURL: https://api.sonix.ai/v1
+  baseurl_source: declared
+  description: Upload and manage audio and video media files for transcription.
   name: Sonix Media API
   slug: sonix-media-api
-- description: Retrieve and edit transcripts produced from media.
+- baseURL: https://api.sonix.ai/v1
+  baseurl_source: declared
+  description: Retrieve and edit transcripts produced from media.
   name: Sonix Transcripts API
   slug: sonix-transcripts-api
-- description: Translate a completed transcript into another language.
+- baseURL: https://api.sonix.ai/v1
+  baseurl_source: declared
+  description: Translate a completed transcript into another language.
   name: Sonix Translations API
   slug: sonix-translations-api
 artifact_total: 19
@@ -158,7 +170,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -181,8 +193,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/screenshots/sonix-2026-09-02T160215.png
 security:
 - kind: authentication
   name: Sonix Authentication

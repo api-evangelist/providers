@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 4
@@ -48,40 +48,64 @@ apis:
 - description: 'Criteo operates two remote Model Context Protocol servers. The documentation server at developers.criteo.com/mcp is anonymous and was introspected live: three tools (search_criteo_docs, query_docs_fil'
   name: Criteo MCP Servers
   slug: criteo-mcp
-- description: The Accounts API from Criteo — 12 operation(s) for accounts.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Accounts API from Criteo — 12 operation(s) for accounts.
   name: Criteo Accounts API
   slug: criteo-accounts-api
-- description: The Advertiser API from Criteo — 1 operation(s) for advertiser.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Advertiser API from Criteo — 1 operation(s) for advertiser.
   name: Criteo Advertiser API
   slug: criteo-advertiser-api
-- description: The Analytics API from Criteo — 16 operation(s) for analytics.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Analytics API from Criteo — 16 operation(s) for analytics.
   name: Criteo Analytics API
   slug: criteo-analytics-api
-- description: The Audience API from Criteo — 24 operation(s) for audience.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Audience API from Criteo — 24 operation(s) for audience.
   name: Criteo Audience API
   slug: criteo-audience-api
-- description: The Balance API from Criteo — 8 operation(s) for balance.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Balance API from Criteo — 8 operation(s) for balance.
   name: Criteo Balance API
   slug: criteo-balance-api
-- description: The Billing API from Criteo — 3 operation(s) for billing.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Billing API from Criteo — 3 operation(s) for billing.
   name: Criteo Billing API
   slug: criteo-billing-api
-- description: The Campaign API from Criteo — 86 operation(s) for campaign.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Campaign API from Criteo — 86 operation(s) for campaign.
   name: Criteo Campaign API
   slug: criteo-campaign-api
-- description: The Catalog API from Criteo — 2 operation(s) for catalog.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Catalog API from Criteo — 2 operation(s) for catalog.
   name: Criteo Catalog API
   slug: criteo-catalog-api
-- description: The Creative API from Criteo — 9 operation(s) for creative.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Creative API from Criteo — 9 operation(s) for creative.
   name: Criteo Creative API
   slug: criteo-creative-api
-- description: The Gateway API from Criteo — 3 operation(s) for gateway.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Gateway API from Criteo — 3 operation(s) for gateway.
   name: Criteo Gateway API
   slug: criteo-gateway-api
-- description: The Reco API from Criteo — 8 operation(s) for reco.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Reco API from Criteo — 8 operation(s) for reco.
   name: Criteo Reco API
   slug: criteo-reco-api
-- description: The Segment API from Criteo — 7 operation(s) for segment.
+- baseURL: https://api.criteo.com/2026-07/retail-media
+  baseurl_source: declared
+  description: The Segment API from Criteo — 7 operation(s) for segment.
   name: Criteo Segment API
   slug: criteo-segment-api
 artifact_total: 29
@@ -350,7 +374,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png
 security:

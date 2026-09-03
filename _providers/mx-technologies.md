@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -59,82 +59,134 @@ apis:
 - description: Supports reporting functionality and analytics for financial institutions and fintech partners integrating with the MX platform.
   name: MX Reporting API
   slug: mx-reporting-api
-- description: The accounts API from MX Technologies — 13 operation(s) for accounts.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The accounts API from MX Technologies — 13 operation(s) for accounts.
   name: MX Technologies accounts API
   slug: mx-technologies-accounts-api
-- description: The ach return API from MX Technologies — 2 operation(s) for ach return.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The ach return API from MX Technologies — 2 operation(s) for ach return.
   name: MX Technologies ach return API
   slug: mx-technologies-ach-return-api
-- description: The budgets API from MX Technologies — 3 operation(s) for budgets.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The budgets API from MX Technologies — 3 operation(s) for budgets.
   name: MX Technologies budgets API
   slug: mx-technologies-budgets-api
-- description: The categories API from MX Technologies — 5 operation(s) for categories.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The categories API from MX Technologies — 5 operation(s) for categories.
   name: MX Technologies categories API
   slug: mx-technologies-categories-api
-- description: The goals API from MX Technologies — 3 operation(s) for goals.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The goals API from MX Technologies — 3 operation(s) for goals.
   name: MX Technologies goals API
   slug: mx-technologies-goals-api
-- description: The insights API from MX Technologies — 9 operation(s) for insights.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The insights API from MX Technologies — 9 operation(s) for insights.
   name: MX Technologies insights API
   slug: mx-technologies-insights-api
-- description: The institutions API from MX Technologies — 5 operation(s) for institutions.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The institutions API from MX Technologies — 5 operation(s) for institutions.
   name: MX Technologies institutions API
   slug: mx-technologies-institutions-api
-- description: The investment holdings API from MX Technologies — 5 operation(s) for investment holdings.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The investment holdings API from MX Technologies — 5 operation(s) for investment holdings.
   name: MX Technologies investment holdings API
   slug: mx-technologies-investment-holdings-api
-- description: The managed data API from MX Technologies — 7 operation(s) for managed data.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The managed data API from MX Technologies — 7 operation(s) for managed data.
   name: MX Technologies managed data API
   slug: mx-technologies-managed-data-api
-- description: The managed data [deprecated] API from MX Technologies — 7 operation(s) for managed data [deprecated].
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The managed data [deprecated] API from MX Technologies — 7 operation(s) for managed data [deprecated].
   name: MX Technologies managed data [deprecated] API
   slug: mx-technologies-managed-data-deprecated-api
-- description: The members API from MX Technologies — 20 operation(s) for members.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The members API from MX Technologies — 20 operation(s) for members.
   name: MX Technologies members API
   slug: mx-technologies-members-api
-- description: The merchants API from MX Technologies — 3 operation(s) for merchants.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The merchants API from MX Technologies — 3 operation(s) for merchants.
   name: MX Technologies merchants API
   slug: mx-technologies-merchants-api
-- description: The microdeposits API from MX Technologies — 4 operation(s) for microdeposits.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The microdeposits API from MX Technologies — 4 operation(s) for microdeposits.
   name: MX Technologies microdeposits API
   slug: mx-technologies-microdeposits-api
-- description: The monthly cash flow profile API from MX Technologies — 2 operation(s) for monthly cash flow profile.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The monthly cash flow profile API from MX Technologies — 2 operation(s) for monthly cash flow profile.
   name: MX Technologies monthly cash flow profile API
   slug: mx-technologies-monthly-cash-flow-profile-api
-- description: The notifications API from MX Technologies — 2 operation(s) for notifications.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The notifications API from MX Technologies — 2 operation(s) for notifications.
   name: MX Technologies notifications API
   slug: mx-technologies-notifications-api
-- description: The processor token API from MX Technologies — 7 operation(s) for processor token.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The processor token API from MX Technologies — 7 operation(s) for processor token.
   name: MX Technologies processor token API
   slug: mx-technologies-processor-token-api
-- description: The rewards API from MX Technologies — 5 operation(s) for rewards.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The rewards API from MX Technologies — 5 operation(s) for rewards.
   name: MX Technologies rewards API
   slug: mx-technologies-rewards-api
-- description: The spending plan API from MX Technologies — 9 operation(s) for spending plan.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The spending plan API from MX Technologies — 9 operation(s) for spending plan.
   name: MX Technologies spending plan API
   slug: mx-technologies-spending-plan-api
-- description: The statements API from MX Technologies — 5 operation(s) for statements.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The statements API from MX Technologies — 5 operation(s) for statements.
   name: MX Technologies statements API
   slug: mx-technologies-statements-api
-- description: The taggings API from MX Technologies — 2 operation(s) for taggings.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The taggings API from MX Technologies — 2 operation(s) for taggings.
   name: MX Technologies taggings API
   slug: mx-technologies-taggings-api
-- description: The tags API from MX Technologies — 2 operation(s) for tags.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The tags API from MX Technologies — 2 operation(s) for tags.
   name: MX Technologies tags API
   slug: mx-technologies-tags-api
-- description: The transaction rules API from MX Technologies — 2 operation(s) for transaction rules.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The transaction rules API from MX Technologies — 2 operation(s) for transaction rules.
   name: MX Technologies transaction rules API
   slug: mx-technologies-transaction-rules-api
-- description: The transactions API from MX Technologies — 19 operation(s) for transactions.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The transactions API from MX Technologies — 19 operation(s) for transactions.
   name: MX Technologies transactions API
   slug: mx-technologies-transactions-api
-- description: The users API from MX Technologies — 3 operation(s) for users.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The users API from MX Technologies — 3 operation(s) for users.
   name: MX Technologies users API
   slug: mx-technologies-users-api
-- description: The verifiable credentials API from MX Technologies — 3 operation(s) for verifiable credentials.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The verifiable credentials API from MX Technologies — 3 operation(s) for verifiable credentials.
   name: MX Technologies verifiable credentials API
   slug: mx-technologies-verifiable-credentials-api
-- description: The widgets API from MX Technologies — 4 operation(s) for widgets.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The widgets API from MX Technologies — 4 operation(s) for widgets.
   name: MX Technologies widgets API
   slug: mx-technologies-widgets-api
 artifact_total: 71
@@ -386,7 +438,7 @@ score:
     regime_id: banking_open_finance
     score: 35.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/screenshots/mx-technologies-2026-06-20T185910.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ score:
   band: minimal
   composite: 7.1
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -85,8 +85,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stealth-worker/refs/heads/main/screenshots/stealth-worker-2026-09-02T160828.png
 security:
 - kind: domain-security
   name: Stealth Worker Domain Security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 11 operations · 10 acting
 api_count: 1
 apis:
-- description: The Code API from Relace — 5 operation(s) for code.
+- baseURL: https://api.relace.run
+  baseurl_source: declared
+  description: The Code API from Relace — 5 operation(s) for code.
   name: Relace Code API
   slug: relace-code-api
-- description: The Repo API from Relace — 5 operation(s) for repo.
+- baseURL: https://api.relace.run
+  baseurl_source: declared
+  description: The Repo API from Relace — 5 operation(s) for repo.
   name: Relace Repo API
   slug: relace-repo-api
 artifact_total: 9
@@ -228,7 +232,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/screenshots/relace-2026-08-17T081505.png
 security:

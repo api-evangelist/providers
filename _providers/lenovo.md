@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: The Lenovo XClarity Administrator REST API provides programmatic access to XClarity Administrator data and services from applications running outside of the XClarity Administrator framework. It suppor
   name: Lenovo XClarity Administrator REST API
   slug: lenovo-xclarity-administrator-rest-api
-- description: Query inventory of managed devices.
+- baseURL_template: https://{xclarityHost}
+  baseurl_source: spec_template
+  description: Query inventory of managed devices.
   name: Lenovo Inventory API
   slug: lenovo-inventory-api
-- description: Authenticate and manage XClarity Administrator sessions.
+- baseURL_template: https://{xclarityHost}
+  baseurl_source: spec_template
+  description: Authenticate and manage XClarity Administrator sessions.
   name: Lenovo Sessions API
   slug: lenovo-sessions-api
 artifact_total: 10
@@ -163,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/screenshots/lenovo-2026-06-20T184423.png
 security:

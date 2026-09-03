@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Individual Pokémon, Trainer, and Energy cards with full gameplay data, images, legalities, and market prices.
+- baseURL: https://api.pokemontcg.io/v2
+  baseurl_source: declared
+  description: Individual Pokémon, Trainer, and Energy cards with full gameplay data, images, legalities, and market prices.
   name: Pokémon TCG API Cards API
   slug: pokemon-tcg-cards-api
-- description: The controlled vocabularies used across cards - energy types, card subtypes, supertypes, and rarities.
+- baseURL: https://api.pokemontcg.io/v2
+  baseurl_source: declared
+  description: The controlled vocabularies used across cards - energy types, card subtypes, supertypes, and rarities.
   name: Pokémon TCG API Metadata API
   slug: pokemon-tcg-metadata-api
-- description: Trading card game sets (expansions), from Base Set onward.
+- baseURL: https://api.pokemontcg.io/v2
+  baseurl_source: declared
+  description: Trading card game sets (expansions), from Base Set onward.
   name: Pokémon TCG API Sets API
   slug: pokemon-tcg-sets-api
 artifact_total: 14
@@ -156,7 +162,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +191,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/screenshots/pokemon-tcg-2026-09-02T151635.png
 security:
 - kind: authentication
   name: Pokemon Tcg Authentication

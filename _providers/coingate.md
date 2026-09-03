@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 1
 apis:
-- description: Convert between currencies in ledger accounts
+- baseURL: https://api.coingate.com/v2
+  baseurl_source: declared
+  description: Convert between currencies in ledger accounts
   name: CoinGate Conversions API
   slug: coingate-conversions-api
-- description: Retrieve supported currencies and platforms
+- baseURL: https://api.coingate.com/v2
+  baseurl_source: declared
+  description: Retrieve supported currencies and platforms
   name: CoinGate Currencies API
   slug: coingate-currencies-api
-- description: Create and manage payment orders
+- baseURL: https://api.coingate.com/v2
+  baseurl_source: declared
+  description: Create and manage payment orders
   name: CoinGate Orders API
   slug: coingate-orders-api
-- description: Process order refunds
+- baseURL: https://api.coingate.com/v2
+  baseurl_source: declared
+  description: Process order refunds
   name: CoinGate Refunds API
   slug: coingate-refunds-api
-- description: Send cryptocurrency payouts to beneficiaries
+- baseURL: https://api.coingate.com/v2
+  baseurl_source: declared
+  description: Send cryptocurrency payouts to beneficiaries
   name: CoinGate Send Requests API
   slug: coingate-send-requests-api
 artifact_total: 18
@@ -226,7 +236,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/screenshots/coingate-2026-06-20T174732.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: LeMUR related operations
+- baseURL: https://api.assemblyai.com
+  baseurl_source: declared
+  description: LeMUR related operations
   name: AssemblyAI LeMUR API
   slug: assemblyai-lemur-api
-- description: Streaming Speech-to-Text
+- baseURL: https://api.assemblyai.com
+  baseurl_source: declared
+  description: Streaming Speech-to-Text
   name: AssemblyAI Streaming API
   slug: assemblyai-streaming-api
-- description: Transcript related operations
+- baseURL: https://api.assemblyai.com
+  baseurl_source: declared
+  description: Transcript related operations
   name: AssemblyAI Transcript API
   slug: assemblyai-transcript-api
 artifact_total: 31
@@ -195,7 +201,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -205,7 +211,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 45.5
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -214,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/screenshots/assemblyai-2026-06-20T172502.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Hosted Model Context Protocol server exposing the parcelLab order tracking and returns registration workflow to MCP-compatible agents, authenticated via OAuth 2.1 bearer tokens with scopes such as `tr
   name: parcelLab MCP Server
   slug: parcellab-mcp
-- description: Evaluate campaign targeting and redirect analytics events.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Evaluate campaign targeting and redirect analytics events.
   name: parcelLab Campaigns API
   slug: parcellab-campaigns-api
-- description: Send custom shop or warehouse events into the tracking timeline.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Send custom shop or warehouse events into the tracking timeline.
   name: parcelLab Events API
   slug: parcellab-events-api
-- description: Create, update, and inspect orders and their trackings.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Create, update, and inspect orders and their trackings.
   name: parcelLab Orders API
   slug: parcellab-orders-api
-- description: Look up nearby pickup and drop-off (PUDO) locations.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Look up nearby pickup and drop-off (PUDO) locations.
   name: parcelLab Place Info API
   slug: parcellab-place-info-api
-- description: Pre-checkout delivery date predictions.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Pre-checkout delivery date predictions.
   name: parcelLab Promise API
   slug: parcellab-promise-api
-- description: Return registrations, configurations, and document templates.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Return registrations, configurations, and document templates.
   name: parcelLab Returns API
   slug: parcellab-returns-api
-- description: Retrieve survey definitions and submit responses.
+- baseURL: https://api.parcellab.com
+  baseurl_source: declared
+  description: Retrieve survey definitions and submit responses.
   name: parcelLab Surveys API
   slug: parcellab-surveys-api
 arazzos:
@@ -516,7 +530,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:

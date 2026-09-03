@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Operations for discovering and retrieving activities
+- baseURL: https://bored-api.appbrewery.com
+  baseurl_source: declared
+  description: Operations for discovering and retrieving activities
   name: Bored API Activities API
   slug: bored-api-activities-api
 artifact_total: 12
@@ -186,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/screenshots/bored-api-2026-06-20T173608.png
 security:

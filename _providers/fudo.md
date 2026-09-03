@@ -33,64 +33,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Customers API from Fudo — 2 operation(s) for customers.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Customers API from Fudo — 2 operation(s) for customers.
   name: Fudo Customers API
   slug: fudo-customers-api
-- description: The Discounts API from Fudo — 2 operation(s) for discounts.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Discounts API from Fudo — 2 operation(s) for discounts.
   name: Fudo Discounts API
   slug: fudo-discounts-api
-- description: The Expense Categories API from Fudo — 2 operation(s) for expense categories.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Expense Categories API from Fudo — 2 operation(s) for expense categories.
   name: Fudo Expense Categories API
   slug: fudo-expense-categories-api
-- description: The Expenses API from Fudo — 2 operation(s) for expenses.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Expenses API from Fudo — 2 operation(s) for expenses.
   name: Fudo Expenses API
   slug: fudo-expenses-api
-- description: The Ingredients API from Fudo — 2 operation(s) for ingredients.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Ingredients API from Fudo — 2 operation(s) for ingredients.
   name: Fudo Ingredients API
   slug: fudo-ingredients-api
-- description: The Items API from Fudo — 2 operation(s) for items.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Items API from Fudo — 2 operation(s) for items.
   name: Fudo Items API
   slug: fudo-items-api
-- description: The Kitchens API from Fudo — 2 operation(s) for kitchens.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Kitchens API from Fudo — 2 operation(s) for kitchens.
   name: Fudo Kitchens API
   slug: fudo-kitchens-api
-- description: The Payment Methods API from Fudo — 2 operation(s) for payment methods.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Payment Methods API from Fudo — 2 operation(s) for payment methods.
   name: Fudo Payment Methods API
   slug: fudo-payment-methods-api
-- description: The Payments API from Fudo — 2 operation(s) for payments.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Payments API from Fudo — 2 operation(s) for payments.
   name: Fudo Payments API
   slug: fudo-payments-api
-- description: The Product Categories API from Fudo — 2 operation(s) for product categories.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Product Categories API from Fudo — 2 operation(s) for product categories.
   name: Fudo Product Categories API
   slug: fudo-product-categories-api
-- description: The Product Modifiers API from Fudo — 2 operation(s) for product modifiers.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Product Modifiers API from Fudo — 2 operation(s) for product modifiers.
   name: Fudo Product Modifiers API
   slug: fudo-product-modifiers-api
-- description: The Products API from Fudo — 2 operation(s) for products.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Products API from Fudo — 2 operation(s) for products.
   name: Fudo Products API
   slug: fudo-products-api
-- description: The Providers API from Fudo — 2 operation(s) for providers.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Providers API from Fudo — 2 operation(s) for providers.
   name: Fudo Providers API
   slug: fudo-providers-api
-- description: The Roles API from Fudo — 2 operation(s) for roles.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Roles API from Fudo — 2 operation(s) for roles.
   name: Fudo Roles API
   slug: fudo-roles-api
-- description: The Rooms API from Fudo — 2 operation(s) for rooms.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Rooms API from Fudo — 2 operation(s) for rooms.
   name: Fudo Rooms API
   slug: fudo-rooms-api
-- description: The Sales API from Fudo — 2 operation(s) for sales.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Sales API from Fudo — 2 operation(s) for sales.
   name: Fudo Sales API
   slug: fudo-sales-api
-- description: The Subitems API from Fudo — 1 operation(s) for subitems.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Subitems API from Fudo — 1 operation(s) for subitems.
   name: Fudo Subitems API
   slug: fudo-subitems-api
-- description: The Tables API from Fudo — 2 operation(s) for tables.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Tables API from Fudo — 2 operation(s) for tables.
   name: Fudo Tables API
   slug: fudo-tables-api
-- description: The Users API from Fudo — 2 operation(s) for users.
+- baseURL: https://api.fu.do/v1alpha1
+  baseurl_source: declared
+  description: The Users API from Fudo — 2 operation(s) for users.
   name: Fudo Users API
   slug: fudo-users-api
 artifact_total: 42
@@ -295,7 +333,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/screenshots/fudo-2026-07-25T215250.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,64 +37,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Comments API from Namely — 3 operation(s) for comments.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Comments API from Namely — 3 operation(s) for comments.
   name: Namely Comments API
   slug: namely-comments-api
-- description: The Company Info API from Namely — 1 operation(s) for company info.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Company Info API from Namely — 1 operation(s) for company info.
   name: Namely Company Info API
   slug: namely-company-info-api
-- description: The Company Resources API from Namely — 5 operation(s) for company resources.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Company Resources API from Namely — 5 operation(s) for company resources.
   name: Namely Company Resources API
   slug: namely-company-resources-api
-- description: The Countries API from Namely — 2 operation(s) for countries.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Countries API from Namely — 2 operation(s) for countries.
   name: Namely Countries API
   slug: namely-countries-api
-- description: The Events API from Namely — 2 operation(s) for events.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Events API from Namely — 2 operation(s) for events.
   name: Namely Events API
   slug: namely-events-api
-- description: The Groups API from Namely — 3 operation(s) for groups.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Groups API from Namely — 3 operation(s) for groups.
   name: Namely Groups API
   slug: namely-groups-api
-- description: The Groups & Teams API from Namely — 7 operation(s) for groups & teams.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Groups & Teams API from Namely — 7 operation(s) for groups & teams.
   name: Namely Groups & Teams API
   slug: namely-groups-teams-api
-- description: The Home Feed API from Namely — 10 operation(s) for home feed.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Home Feed API from Namely — 10 operation(s) for home feed.
   name: Namely Home Feed API
   slug: namely-home-feed-api
-- description: The Job Tier API from Namely — 2 operation(s) for job tier.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Job Tier API from Namely — 2 operation(s) for job tier.
   name: Namely Job Tier API
   slug: namely-job-tier-api
-- description: The Job Title API from Namely — 2 operation(s) for job title.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Job Title API from Namely — 2 operation(s) for job title.
   name: Namely Job Title API
   slug: namely-job-title-api
-- description: The Jobs Info API from Namely — 4 operation(s) for jobs info.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Jobs Info API from Namely — 4 operation(s) for jobs info.
   name: Namely Jobs Info API
   slug: namely-jobs-info-api
-- description: The Likes API from Namely — 1 operation(s) for likes.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Likes API from Namely — 1 operation(s) for likes.
   name: Namely Likes API
   slug: namely-likes-api
-- description: The Namely System Info API from Namely — 2 operation(s) for namely system info.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Namely System Info API from Namely — 2 operation(s) for namely system info.
   name: Namely Namely System Info API
   slug: namely-namely-system-info-api
-- description: The Notifications API from Namely — 2 operation(s) for notifications.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Notifications API from Namely — 2 operation(s) for notifications.
   name: Namely Notifications API
   slug: namely-notifications-api
-- description: The Profile Fields API from Namely — 4 operation(s) for profile fields.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Profile Fields API from Namely — 4 operation(s) for profile fields.
   name: Namely Profile Fields API
   slug: namely-profile-fields-api
-- description: The Profile Fields Sections API from Namely — 2 operation(s) for profile fields sections.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Profile Fields Sections API from Namely — 2 operation(s) for profile fields sections.
   name: Namely Profile Fields Sections API
   slug: namely-profile-fields-sections-api
-- description: The Profiles API from Namely — 3 operation(s) for profiles.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Profiles API from Namely — 3 operation(s) for profiles.
   name: Namely Profiles API
   slug: namely-profiles-api
-- description: The Reports API from Namely — 1 operation(s) for reports.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Reports API from Namely — 1 operation(s) for reports.
   name: Namely Reports API
   slug: namely-reports-api
-- description: The Teams API from Namely — 1 operation(s) for teams.
+- baseURL: https://{company}.namely.com/api/v1
+  baseurl_source: declared
+  description: The Teams API from Namely — 1 operation(s) for teams.
   name: Namely Teams API
   slug: namely-teams-api
 artifact_total: 24
@@ -237,18 +289,18 @@ rate_limits:
   slug: namely-rate-limits
 score:
   band: strong
-  composite: 56.5
+  composite: 56.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 18.2
-    contract_quality: 43.9
+    contract_quality: 45.6
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 18.2
@@ -264,8 +316,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/screenshots/namely-2026-09-02T150721.png
 security:
 - kind: authentication
   name: Namely Authentication

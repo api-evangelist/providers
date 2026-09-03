@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -37,79 +51,129 @@ apis:
 - description: FieldPulse serves an anonymous, publicly reachable Model Context Protocol server from its documentation host at https://help.fieldpulse.com/mcp. The server reports protocol version 2025-06-18 and expo
   name: FieldPulse Docs MCP Server
   slug: fieldpulse-docs-mcp
-- description: Endpoints related to assets
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to assets
   name: FieldPulse Assets API
   slug: fieldpulse-assets-api
-- description: Endpoints related to assets category
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to assets category
   name: FieldPulse Assets Category API
   slug: fieldpulse-assets-category-api
-- description: Endpoints related to comments
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to comments
   name: FieldPulse Comments API
   slug: fieldpulse-comments-api
-- description: Endpoints related to contracts
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to contracts
   name: FieldPulse Company Profile API
   slug: fieldpulse-company-profile-api
-- description: Endpoints related to contracts
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to contracts
   name: FieldPulse Contracts API
   slug: fieldpulse-contracts-api
-- description: Endpoints related to custom fields
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to custom fields
   name: FieldPulse Custom Fields API
   slug: fieldpulse-custom-fields-api
-- description: Endpoints related to customers
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to customers
   name: FieldPulse Customers API
   slug: fieldpulse-customers-api
-- description: Endpoints related to estimates
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: Endpoints related to estimates
   name: FieldPulse Estimates API
   slug: fieldpulse-estimates-api
-- description: The Invoices API from FieldPulse — 4 operation(s) for invoices.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Invoices API from FieldPulse — 4 operation(s) for invoices.
   name: FieldPulse Invoices API
   slug: fieldpulse-invoices-api
-- description: The Items API from FieldPulse — 2 operation(s) for items.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Items API from FieldPulse — 2 operation(s) for items.
   name: FieldPulse Items API
   slug: fieldpulse-items-api
-- description: The Jobs API from FieldPulse — 5 operation(s) for jobs.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Jobs API from FieldPulse — 5 operation(s) for jobs.
   name: FieldPulse Jobs API
   slug: fieldpulse-jobs-api
-- description: The Lead Source API from FieldPulse — 1 operation(s) for lead source.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Lead Source API from FieldPulse — 1 operation(s) for lead source.
   name: FieldPulse Lead Source API
   slug: fieldpulse-lead-source-api
-- description: The Locations API from FieldPulse — 2 operation(s) for locations.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Locations API from FieldPulse — 2 operation(s) for locations.
   name: FieldPulse Locations API
   slug: fieldpulse-locations-api
-- description: The Material Lists API from FieldPulse — 6 operation(s) for material lists.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Material Lists API from FieldPulse — 6 operation(s) for material lists.
   name: FieldPulse Material Lists API
   slug: fieldpulse-material-lists-api
-- description: The Payments API from FieldPulse — 2 operation(s) for payments.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Payments API from FieldPulse — 2 operation(s) for payments.
   name: FieldPulse Payments API
   slug: fieldpulse-payments-api
-- description: The Pipeline Status API from FieldPulse — 1 operation(s) for pipeline status.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Pipeline Status API from FieldPulse — 1 operation(s) for pipeline status.
   name: FieldPulse Pipeline Status API
   slug: fieldpulse-pipeline-status-api
-- description: The Projects API from FieldPulse — 2 operation(s) for projects.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Projects API from FieldPulse — 2 operation(s) for projects.
   name: FieldPulse Projects API
   slug: fieldpulse-projects-api
-- description: The Purchase Orders API from FieldPulse — 2 operation(s) for purchase orders.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Purchase Orders API from FieldPulse — 2 operation(s) for purchase orders.
   name: FieldPulse Purchase Orders API
   slug: fieldpulse-purchase-orders-api
-- description: The Subtasks API from FieldPulse — 2 operation(s) for subtasks.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Subtasks API from FieldPulse — 2 operation(s) for subtasks.
   name: FieldPulse Subtasks API
   slug: fieldpulse-subtasks-api
-- description: The Tags API from FieldPulse — 2 operation(s) for tags.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Tags API from FieldPulse — 2 operation(s) for tags.
   name: FieldPulse Tags API
   slug: fieldpulse-tags-api
-- description: The Teams API from FieldPulse — 1 operation(s) for teams.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Teams API from FieldPulse — 1 operation(s) for teams.
   name: FieldPulse Teams API
   slug: fieldpulse-teams-api
-- description: The Timesheets API from FieldPulse — 2 operation(s) for timesheets.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Timesheets API from FieldPulse — 2 operation(s) for timesheets.
   name: FieldPulse Timesheets API
   slug: fieldpulse-timesheets-api
-- description: The Users API from FieldPulse — 1 operation(s) for users.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Users API from FieldPulse — 1 operation(s) for users.
   name: FieldPulse Users API
   slug: fieldpulse-users-api
-- description: The Vendors API from FieldPulse — 2 operation(s) for vendors.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Vendors API from FieldPulse — 2 operation(s) for vendors.
   name: FieldPulse Vendors API
   slug: fieldpulse-vendors-api
-- description: The Version API from FieldPulse — 1 operation(s) for version.
+- baseURL: https://ywe3crmpll.execute-api.us-east-2.amazonaws.com/stage
+  baseurl_source: declared
+  description: The Version API from FieldPulse — 1 operation(s) for version.
   name: FieldPulse Version API
   slug: fieldpulse-version-api
 artifact_total: 59
@@ -374,7 +438,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -384,7 +448,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 62.3
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -402,7 +466,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:

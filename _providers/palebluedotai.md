@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: OpenAI-, Anthropic- and Gemini-compatible inference gateway. One API key and one base URL route requests across 131 listed models from 22 vendors, with cross-provider failover, prompt caching and per-
@@ -163,7 +176,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -182,8 +195,9 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/screenshots/palebluedotai-2026-09-02T150903.png
 security:
 - kind: authentication
   name: Palebluedotai Authentication

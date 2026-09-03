@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 30 operations
 api_count: 1
 apis:
-- description: Persistent WebSocket connection at wss://stream.tradingeconomics.com delivering live market quote ticks by symbol and push notifications for economic calendar releases, news, and earnings via subscrib
+- baseURL: wss://stream.tradingeconomics.com
+  baseurl_source: declared
+  description: Persistent WebSocket connection at wss://stream.tradingeconomics.com delivering live market quote ticks by symbol and push notifications for economic calendar releases, news, and earnings via subscrib
   name: Trading Economics Streaming API
   slug: tradingeconomics-streaming-api
-- description: The Economic Calendar API from Trading Economics — 5 operation(s) for economic calendar.
+- baseURL: https://api.tradingeconomics.com
+  baseurl_source: declared
+  description: The Economic Calendar API from Trading Economics — 5 operation(s) for economic calendar.
   name: Trading Economics Economic Calendar API
   slug: tradingeconomics-economic-calendar-api
-- description: The Financials API from Trading Economics — 2 operation(s) for financials.
+- baseURL: https://api.tradingeconomics.com
+  baseurl_source: declared
+  description: The Financials API from Trading Economics — 2 operation(s) for financials.
   name: Trading Economics Financials API
   slug: tradingeconomics-financials-api
-- description: The Forecasts API from Trading Economics — 4 operation(s) for forecasts.
+- baseURL: https://api.tradingeconomics.com
+  baseurl_source: declared
+  description: The Forecasts API from Trading Economics — 4 operation(s) for forecasts.
   name: Trading Economics Forecasts API
   slug: tradingeconomics-forecasts-api
-- description: The Historical API from Trading Economics — 5 operation(s) for historical.
+- baseURL: https://api.tradingeconomics.com
+  baseurl_source: declared
+  description: The Historical API from Trading Economics — 5 operation(s) for historical.
   name: Trading Economics Historical API
   slug: tradingeconomics-historical-api
-- description: The Indicators API from Trading Economics — 5 operation(s) for indicators.
+- baseURL: https://api.tradingeconomics.com
+  baseurl_source: declared
+  description: The Indicators API from Trading Economics — 5 operation(s) for indicators.
   name: Trading Economics Indicators API
   slug: tradingeconomics-indicators-api
-- description: The Markets API from Trading Economics — 9 operation(s) for markets.
+- baseURL: https://api.tradingeconomics.com
+  baseurl_source: declared
+  description: The Markets API from Trading Economics — 9 operation(s) for markets.
   name: Trading Economics Markets API
   slug: tradingeconomics-markets-api
 artifact_total: 24
@@ -192,7 +206,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -202,7 +216,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 41.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -211,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradingeconomics/refs/heads/main/screenshots/tradingeconomics-2026-08-17T082424.png
 security:

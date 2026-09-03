@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Diffs API from Agent Diff — 1 operation(s) for diffs.
+- baseURL: https://api.agentdiff.dev/v1
+  baseurl_source: declared
+  description: The Diffs API from Agent Diff — 1 operation(s) for diffs.
   name: Agent Diff Diffs API
   slug: agent-diff-diffs-api
-- description: The Sandboxes API from Agent Diff — 2 operation(s) for sandboxes.
+- baseURL: https://api.agentdiff.dev/v1
+  baseurl_source: declared
+  description: The Sandboxes API from Agent Diff — 2 operation(s) for sandboxes.
   name: Agent Diff Sandboxes API
   slug: agent-diff-sandboxes-api
 artifact_total: 30
@@ -239,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/screenshots/agent-diff-2026-06-20T165854.png
 security:

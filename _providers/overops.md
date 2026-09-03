@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 137 operations · 68 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Fetch and manipulate alerting rules for detecting and disseminating anomalies such as introduction of new events and regressions to different communication channels (e.g. Email, Jira, Slack, Uder defi
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate alerting rules for detecting and disseminating anomalies such as introduction of new events and regressions to different communication channels (e.g. Email, Jira, Slack, Uder defi
   name: Overops Alerts API
   slug: overops-alerts-api
-- description: Fetch and manipulate grouping of views into logical categories (e.g "CI/CD", "Favorites")
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate grouping of views into logical categories (e.g "CI/CD", "Favorites")
   name: Overops Categories API
   slug: overops-categories-api
-- description: Fetch and manipulate code filters to include / exclude 3rd party and utility classes from OverOps analysis and data capture.
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate code filters to include / exclude 3rd party and utility classes from OverOps analysis and data capture.
   name: Overops Code Redaction API
   slug: overops-code-redaction-api
-- description: Fetch and manipulate data redaction of PII with target environments.
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate data redaction of PII with target environments.
   name: Overops Data Redaction API
   slug: overops-data-redaction-api
-- description: The Entry Points API from Overops — 11 operation(s) for entry points.
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: The Entry Points API from Overops — 11 operation(s) for entry points.
   name: Overops Entry Points API
   slug: overops-entry-points-api
-- description: Fetch monitoring status and control OverOps Agents and Collectors
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch monitoring status and control OverOps Agents and Collectors
   name: Overops Environment Management API
   slug: overops-environment-management-api
-- description: Fetch and manipulate OverOps Automated Root Cause Events and Snapshots
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate OverOps Automated Root Cause Events and Snapshots
   name: Overops Events API
   slug: overops-events-api
-- description: Fetch general information about provisioned OverOps enviroments
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch general information about provisioned OverOps enviroments
   name: Overops General API
   slug: overops-general-api
-- description: Fetch and manipulate events labels
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate events labels
   name: Overops Labels API
   slug: overops-labels-api
-- description: Fetch and manipulate dynamic data exported to StatsD, which enables using a variety of third-party tools, providing control over application data from OverOps.
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate dynamic data exported to StatsD, which enables using a variety of third-party tools, providing control over application data from OverOps.
   name: Overops Publish Metrics API
   slug: overops-publish-metrics-api
-- description: Fetch system metrics
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch system metrics
   name: Overops System Metrics API
   slug: overops-system-metrics-api
-- description: APIs related to team management of a service
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: APIs related to team management of a service
   name: Overops Team Management API
   slug: overops-team-management-api
-- description: Fetch and manipulate OverOps Timers - bottleneck detection and performance diagnosis
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate OverOps Timers - bottleneck detection and performance diagnosis
   name: Overops Timers API
   slug: overops-timers-api
-- description: Fetch and manipulate User Defined Functinos - OverOps extensions using Lambdas.
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate User Defined Functinos - OverOps extensions using Lambdas.
   name: Overops UDFs API
   slug: overops-udfs-api
-- description: Fetch volumetric time series data about observed code events within OverOps monitored applications filtered by server cluster, application and deployments.
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch volumetric time series data about observed code events within OverOps monitored applications filtered by server cluster, application and deployments.
   name: Overops View Metrics API
   slug: overops-view-metrics-api
-- description: Fetch and manipulate grouping of events (i.e. Views) according to attribute sets (e.g. "uncaught exceptions", "errors from package com.acme")
+- baseURL: https://api.overops.com/api/v1
+  baseurl_source: declared
+  description: Fetch and manipulate grouping of events (i.e. Views) according to attribute sets (e.g. "uncaught exceptions", "errors from package com.acme")
   name: Overops Views API
   slug: overops-views-api
 artifact_total: 37
@@ -284,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/screenshots/overops-2026-08-07T191135.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 28 operations · 14 acting
 api_count: 1
 apis:
-- description: Manage cloud connectors that forward device traffic.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Manage cloud connectors that forward device traffic.
   name: Onomondo Connectors API
   slug: onomondo-connectors-api
-- description: Manage network allow-lists (whitelists) of MCC/MNC entries.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Manage network allow-lists (whitelists) of MCC/MNC entries.
   name: Onomondo Network Lists API
   slug: onomondo-network-lists-api
-- description: Manage and inspect SIMs in your fleet.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Manage and inspect SIMs in your fleet.
   name: Onomondo SIMs API
   slug: onomondo-sims-api
-- description: Send SMS to devices and retrieve SMS usage.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Send SMS to devices and retrieve SMS usage.
   name: Onomondo SMS API
   slug: onomondo-sms-api
-- description: Search organization tags used to group SIMs.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Search organization tags used to group SIMs.
   name: Onomondo Tags API
   slug: onomondo-tags-api
-- description: Retrieve data usage for SIMs and tags.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Retrieve data usage for SIMs and tags.
   name: Onomondo Usage API
   slug: onomondo-usage-api
-- description: Subscribe to SIM events delivered as HTTP POST callbacks.
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Subscribe to SIM events delivered as HTTP POST callbacks.
   name: Onomondo Webhooks API
   slug: onomondo-webhooks-api
 artifact_total: 22
@@ -201,7 +215,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/screenshots/onomondo-2026-08-07T190606.png
 security:

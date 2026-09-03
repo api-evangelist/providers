@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: Cambridge's open-access research repository (Apollo) on the DSpace platform, exposing OAI-PMH metadata harvesting and a DSpace REST API. Managed by Cambridge University Library Open Research Systems.
   name: Apollo Institutional Repository API (DSpace)
   slug: apollo
-- description: 'Methods for querying and manipulating groups. #### The fetch parameter for groups All methods that return groups also accept an optional `fetch` parameter that may be used to request additional inform'
+- baseURL: https://www.lookup.cam.ac.uk/api/v1/
+  baseurl_source: declared
+  description: 'Methods for querying and manipulating groups. #### The fetch parameter for groups All methods that return groups also accept an optional `fetch` parameter that may be used to request additional inform'
   name: University of Cambridge group API
   slug: university-of-cambridge-group-api
-- description: Common methods for searching for objects in the Lookup/Ibis database.
+- baseURL: https://www.lookup.cam.ac.uk/api/v1/
+  baseurl_source: declared
+  description: Common methods for searching for objects in the Lookup/Ibis database.
   name: University of Cambridge ibis API
   slug: university-of-cambridge-ibis-api
-- description: 'Methods for querying and manipulating institutions. #### The fetch parameter for institutions All methods that return institutions also accept an optional `fetch` parameter that may be used to request'
+- baseURL: https://www.lookup.cam.ac.uk/api/v1/
+  baseurl_source: declared
+  description: 'Methods for querying and manipulating institutions. #### The fetch parameter for institutions All methods that return institutions also accept an optional `fetch` parameter that may be used to request'
   name: University of Cambridge institution API
   slug: university-of-cambridge-institution-api
-- description: 'Methods for querying and manipulating people. #### Notes on the fetch parameter All methods that return people, institutions or groups also accept an optional `fetch` parameter that may be used to req'
+- baseURL: https://www.lookup.cam.ac.uk/api/v1/
+  baseurl_source: declared
+  description: 'Methods for querying and manipulating people. #### Notes on the fetch parameter All methods that return people, institutions or groups also accept an optional `fetch` parameter that may be used to req'
   name: University of Cambridge person API
   slug: university-of-cambridge-person-api
 - description: The University's Shibboleth identity provider, publishing signed SAML 2.0 IdP metadata at https://shib.raven.cam.ac.uk/shibboleth. The EntityDescriptor carries entityID https://shib.raven.cam.ac.uk/sh
@@ -330,7 +338,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-cambridge/refs/heads/main/screenshots/university-of-cambridge-2026-06-20T200140.png
 security:

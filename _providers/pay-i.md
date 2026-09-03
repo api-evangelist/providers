@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,49 +35,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Anthropic Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Anthropic Requests
   name: Pay-i Anthropic Requests API
   slug: pay-i-anthropic-requests-api
-- description: AWS Bedrock Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: AWS Bedrock Requests
   name: Pay-i AWS Bedrock Requests API
   slug: pay-i-aws-bedrock-requests-api
-- description: Azure Anthropic Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Azure Anthropic Requests
   name: Pay-i Azure Anthropic Requests API
   slug: pay-i-azure-anthropic-requests-api
-- description: Azure OpenAI Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Azure OpenAI Requests
   name: Pay-i Azure OpenAI Requests API
   slug: pay-i-azure-openai-requests-api
-- description: System and Custom Categories
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: System and Custom Categories
   name: Pay-i Categories API
   slug: pay-i-categories-api
-- description: Google Vertex Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Google Vertex Requests
   name: Pay-i Google Vertex Requests API
   slug: pay-i-google-vertex-requests-api
-- description: Ingest Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Ingest Requests
   name: Pay-i Ingest Events API
   slug: pay-i-ingest-events-api
-- description: KPIs
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: KPIs
   name: Pay-i KP Is API
   slug: pay-i-kpis-api
-- description: Limits
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Limits
   name: Pay-i Limits API
   slug: pay-i-limits-api
-- description: OpenAI Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: OpenAI Requests
   name: Pay-i OpenAI Requests API
   slug: pay-i-openai-requests-api
-- description: Public API for retrieving reports.
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Public API for retrieving reports.
   name: Pay-i Reports API
   slug: pay-i-reports-api
-- description: Requests
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Requests
   name: Pay-i Requests API
   slug: pay-i-requests-api
-- description: Resources
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Resources
   name: Pay-i Resources API
   slug: pay-i-resources-api
-- description: Use Cases
+- baseURL: https://api.pay-i.com
+  baseurl_source: declared
+  description: Use Cases
   name: Pay-i Use Cases API
   slug: pay-i-use-cases-api
 artifact_total: 19
@@ -189,18 +229,18 @@ rate_limits:
   slug: pay-i-rate-limits
 score:
   band: thin
-  composite: 37.7
+  composite: 38.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 51.8
+    contract_quality: 53.3
     developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 4.5
@@ -216,8 +256,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pay-i/refs/heads/main/screenshots/pay-i-2026-09-02T150923.png
 security:
 - kind: authentication
   name: Pay I Authentication

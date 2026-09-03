@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -56,40 +56,64 @@ apis:
 - description: The Red Hat Ansible Automation Hub API provides access to certified Ansible collections and roles curated by Red Hat and partners. Available through console.redhat.com, it serves certified content for
   name: Ansible Automation Hub API
   slug: ansible-automation-hub-api
-- description: OAuth2 token management.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: OAuth2 token management.
   name: Ansible Auth API
   slug: ansible-auth-api
-- description: The Credentials API from Ansible — 1 operation(s) for credentials.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Credentials API from Ansible — 1 operation(s) for credentials.
   name: Ansible Credentials API
   slug: ansible-credentials-api
-- description: The Hosts API from Ansible — 1 operation(s) for hosts.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Hosts API from Ansible — 1 operation(s) for hosts.
   name: Ansible Hosts API
   slug: ansible-hosts-api
-- description: The Inventories API from Ansible — 2 operation(s) for inventories.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Inventories API from Ansible — 2 operation(s) for inventories.
   name: Ansible Inventories API
   slug: ansible-inventories-api
-- description: The Job Templates API from Ansible — 3 operation(s) for job templates.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Job Templates API from Ansible — 3 operation(s) for job templates.
   name: Ansible Job Templates API
   slug: ansible-job-templates-api
-- description: The Jobs API from Ansible — 4 operation(s) for jobs.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Jobs API from Ansible — 4 operation(s) for jobs.
   name: Ansible Jobs API
   slug: ansible-jobs-api
-- description: The Organizations API from Ansible — 2 operation(s) for organizations.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Organizations API from Ansible — 2 operation(s) for organizations.
   name: Ansible Organizations API
   slug: ansible-organizations-api
-- description: The Projects API from Ansible — 3 operation(s) for projects.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Projects API from Ansible — 3 operation(s) for projects.
   name: Ansible Projects API
   slug: ansible-projects-api
-- description: The Schedules API from Ansible — 1 operation(s) for schedules.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Schedules API from Ansible — 1 operation(s) for schedules.
   name: Ansible Schedules API
   slug: ansible-schedules-api
-- description: The Users API from Ansible — 1 operation(s) for users.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Users API from Ansible — 1 operation(s) for users.
   name: Ansible Users API
   slug: ansible-users-api
-- description: The Workflow Job Templates API from Ansible — 2 operation(s) for workflow job templates.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Workflow Job Templates API from Ansible — 2 operation(s) for workflow job templates.
   name: Ansible Workflow Job Templates API
   slug: ansible-workflow-job-templates-api
-- description: The Workflow Jobs API from Ansible — 1 operation(s) for workflow jobs.
+- baseURL: https://your-controller-host/api/v2/
+  baseurl_source: declared
+  description: The Workflow Jobs API from Ansible — 1 operation(s) for workflow jobs.
   name: Ansible Workflow Jobs API
   slug: ansible-workflow-jobs-api
 artifact_total: 71
@@ -391,7 +415,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 1 acting
 api_count: 1
 apis:
-- description: Access token generation.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Access token generation.
   name: Entity Sport Authentication API
   slug: entitysport-authentication-api
-- description: Competitions, seasons, and standings.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Competitions, seasons, and standings.
   name: Entity Sport Competitions API
   slug: entitysport-competitions-api
-- description: Fantasy points and squads.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Fantasy points and squads.
   name: Entity Sport Fantasy API
   slug: entitysport-fantasy-api
-- description: Match listing, info, and live scoring.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Match listing, info, and live scoring.
   name: Entity Sport Matches API
   slug: entitysport-matches-api
-- description: Cricket Exchange live odds.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Cricket Exchange live odds.
   name: Entity Sport Odds API
   slug: entitysport-odds-api
-- description: Player profiles and statistics.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Player profiles and statistics.
   name: Entity Sport Players API
   slug: entitysport-players-api
-- description: Match scorecards and innings detail.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Match scorecards and innings detail.
   name: Entity Sport Scorecards API
   slug: entitysport-scorecards-api
-- description: Team profiles and rosters.
+- baseURL: https://restapi.entitysport.com/v2
+  baseurl_source: declared
+  description: Team profiles and rosters.
   name: Entity Sport Teams API
   slug: entitysport-teams-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/screenshots/entitysport-2026-07-25T213432.png
 security:

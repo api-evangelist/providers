@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: REST API for placing calls, sending SMS and MMS messages, managing contacts, phone numbers, users, and call dispositions in JustCall. Authentication uses an API key and API secret passed in the Author
   name: JustCall REST API
   slug: rest-api
-- description: Manage and query voice calls handled through JustCall.
+- baseURL: https://api.justcall.io/v2.1
+  baseurl_source: declared
+  description: Manage and query voice calls handled through JustCall.
   name: JustCall Calls API
   slug: justcall-calls-api
-- description: Create and manage contacts in the JustCall directory.
+- baseURL: https://api.justcall.io/v2.1
+  baseurl_source: declared
+  description: Create and manage contacts in the JustCall directory.
   name: JustCall Contacts API
   slug: justcall-contacts-api
-- description: Send and manage SMS/MMS messages.
+- baseURL: https://api.justcall.io/v2.1
+  baseurl_source: declared
+  description: Send and manage SMS/MMS messages.
   name: JustCall SMS API
   slug: justcall-sms-api
 artifact_total: 13
@@ -150,7 +156,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -160,7 +166,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -175,7 +181,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/screenshots/justcall-2026-06-20T183845.png
 security:

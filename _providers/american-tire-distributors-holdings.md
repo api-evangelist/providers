@@ -15,7 +15,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -26,15 +26,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-01'
+  score: 5.0
+  scored_at: '2026-09-02'
 api_count: 0
-artifact_total: 13
+artifact_total: 16
 common:
 - group: auth
   title: ''
@@ -51,7 +51,63 @@ common:
 - group: start
   title: ''
   type: Portal
-  url: https://www.atd.com/login
+  url: https://atdonline.com/login
+- group: start
+  title: ''
+  type: SignUp
+  url: https://atdonline.com/register
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.atd.com/contactus/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.atd.com/about-us/articles/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.atd.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.atd.com/privacy-policy/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-tire-distributors-holdings-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/american-tire-distributors-holdings-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/american-tire-distributors-holdings-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/american-tire-distributors-holdings-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/american-tire-distributors-holdings-rate-limits.yml
+coverage:
+  checked: '2026-09-02'
+  detail: ATD runs a real dropship/inventory partner API that every major integration platform connects to, but it publishes no developer site at all - api., developer. and developers. subdomains of atd.com and atd-us.com do not resolve, atdonline.com 302s every path including /openapi.json and /.well-known/* to /login, and the reference plus the API key and secret are handed out by an ATD representative only to an approved dealer.
+  evidence:
+  - status: 302
+    url: https://atdonline.com/openapi.json
+  - status: 404
+    url: https://www.atd.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.atd.com/login
+  - status: 302
+    url: https://customer.atd-us.com/.well-known/openid-configuration
+  - status: 200
+    url: https://atdonline.com/register
+  reason: customer-only-docs
+  state: gated
 created: '2024-11-15'
 description: American Tire Distributors (ATD) is one of the largest independent suppliers of replacement tires in North America, distributing passenger, light truck, medium truck, and specialty tires from more than 110 distribution centers. ATD delivers over 30.5 million tire units annually to more than 85,000 delivery points across the United States and Canada, serving independent tire dealers, automotive service centers, and retailers.
 features:
@@ -81,7 +137,11 @@ network: true
 overview: 'American Tire Distributors Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Tires, Automotive, Distribution, Wholesale, and Supply Chain.
 
 
-  American Tire Distributors Holdings'' developer surface includes developer portal and 3 more developer resources.'
+  American Tire Distributors Holdings'' developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 9 more developer resources.'
+plans:
+- name: American Tire Distributors Holdings Plans Pricing
+  plan_count: 0
+  slug: american-tire-distributors-holdings-plans-pricing
 press:
 - date: '2026-05-25'
   title: Recovering auto sales may spur supplier deals, drawing Ross, ...
@@ -99,34 +159,44 @@ press:
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1838163/000149315224024559/forms-1.htm
 random_paper: 15
+rate_limits:
+- limit_count: 0
+  name: American Tire Distributors Holdings Rate Limits
+  slug: american-tire-distributors-holdings-rate-limits
 score:
-  band: minimal
-  composite: 6.9
+  band: emerging
+  composite: 17.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 11
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 10.7
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 28.6
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.9
+  provenance:
+    conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/screenshots/american-tire-distributors-holdings-2026-06-20T171922.png
 security:
+- kind: authentication
+  name: American Tire Distributors Holdings Authentication
+  slug: american-tire-distributors-holdings-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: American Tire Distributors Holdings Domain Security
   slug: american-tire-distributors-holdings-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: american-tire-distributors-holdings
 tags:
 - Tires

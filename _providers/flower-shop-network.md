@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 11 operations · 11 acting
 api_count: 1
 apis:
-- description: Token issuance and validation
+- baseURL: https://api.flowershopnetwork.com/api/
+  baseurl_source: declared
+  description: Token issuance and validation
   name: Flower Shop Network Authentication API
   slug: flower-shop-network-authentication-api
-- description: Florist directory lookup
+- baseURL: https://api.flowershopnetwork.com/api/
+  baseurl_source: declared
+  description: Florist directory lookup
   name: Flower Shop Network Florists API
   slug: flower-shop-network-florists-api
-- description: Wire order receipt, acceptance, sending, and delivery
+- baseURL: https://api.flowershopnetwork.com/api/
+  baseurl_source: declared
+  description: Wire order receipt, acceptance, sending, and delivery
   name: Flower Shop Network Orders API
   slug: flower-shop-network-orders-api
-- description: Product catalog access
+- baseURL: https://api.flowershopnetwork.com/api/
+  baseurl_source: declared
+  description: Product catalog access
   name: Flower Shop Network Products API
   slug: flower-shop-network-products-api
 artifact_total: 15
@@ -152,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flower-shop-network/refs/heads/main/screenshots/flower-shop-network-2026-06-20T181329.png
 security:

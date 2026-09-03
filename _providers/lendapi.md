@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Amortization API from LendAPI — 1 operation(s) for amortization.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Amortization API from LendAPI — 1 operation(s) for amortization.
   name: LendAPI Amortization API
   slug: lendapi-amortization-api
-- description: The Application API from LendAPI — 3 operation(s) for application.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Application API from LendAPI — 3 operation(s) for application.
   name: LendAPI Application API
   slug: lendapi-application-api
-- description: The Credit Risk API from LendAPI — 1 operation(s) for credit risk.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Credit Risk API from LendAPI — 1 operation(s) for credit risk.
   name: LendAPI Credit Risk API
   slug: lendapi-credit-risk-api
-- description: The Decision API from LendAPI — 3 operation(s) for decision.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Decision API from LendAPI — 3 operation(s) for decision.
   name: LendAPI Decision API
   slug: lendapi-decision-api
-- description: The Decisions API from LendAPI — 1 operation(s) for decisions.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Decisions API from LendAPI — 1 operation(s) for decisions.
   name: LendAPI Decisions API
   slug: lendapi-decisions-api
-- description: The Get App Credit Report API from LendAPI — 1 operation(s) for get app credit report.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Get App Credit Report API from LendAPI — 1 operation(s) for get app credit report.
   name: LendAPI Get App Credit Report API
   slug: lendapi-get-app-credit-report-api
-- description: The Outcomes API from LendAPI — 1 operation(s) for outcomes.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Outcomes API from LendAPI — 1 operation(s) for outcomes.
   name: LendAPI Outcomes API
   slug: lendapi-outcomes-api
-- description: The Page Submit API from LendAPI — 1 operation(s) for page submit.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Page Submit API from LendAPI — 1 operation(s) for page submit.
   name: LendAPI Page Submit API
   slug: lendapi-page-submit-api
-- description: The Pricing Engine API from LendAPI — 3 operation(s) for pricing engine.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Pricing Engine API from LendAPI — 3 operation(s) for pricing engine.
   name: LendAPI Pricing Engine API
   slug: lendapi-pricing-engine-api
-- description: The Pricing Engines API from LendAPI — 1 operation(s) for pricing engines.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Pricing Engines API from LendAPI — 1 operation(s) for pricing engines.
   name: LendAPI Pricing Engines API
   slug: lendapi-pricing-engines-api
-- description: The Sub Tenant API from LendAPI — 2 operation(s) for sub tenant.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Sub Tenant API from LendAPI — 2 operation(s) for sub tenant.
   name: LendAPI Sub Tenant API
   slug: lendapi-sub-tenant-api
-- description: The Sub Tenants API from LendAPI — 1 operation(s) for sub tenants.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Sub Tenants API from LendAPI — 1 operation(s) for sub tenants.
   name: LendAPI Sub Tenants API
   slug: lendapi-sub-tenants-api
-- description: The Variable API from LendAPI — 1 operation(s) for variable.
+- baseURL: https://app.lendapi.com/api/v1/
+  baseurl_source: declared
+  description: The Variable API from LendAPI — 1 operation(s) for variable.
   name: LendAPI Variable API
   slug: lendapi-variable-api
 artifact_total: 31
@@ -301,7 +327,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -311,7 +337,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 6.6
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     contracts:
@@ -328,7 +354,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendapi/refs/heads/main/screenshots/lendapi-2026-07-25T224857.png
 security:

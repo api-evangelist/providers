@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -68,22 +68,34 @@ apis:
 - description: REST API for the Helix Authentication Service, a Node.js based authentication protocol integration service supporting OpenID Connect and SAML 2.0 for authenticating users across Perforce products.
   name: Perforce Helix Authentication Service API
   slug: perforce-helix-authentication-service-api
-- description: Endpoints for viewing and creating activity stream entries.
+- baseURL: https://api.perforce.com/helix-core/v1
+  baseurl_source: declared
+  description: Endpoints for viewing and creating activity stream entries.
   name: Perforce Activity API
   slug: perforce-activity-api
-- description: Endpoints for inspecting changelists and their relationships.
+- baseURL: https://api.perforce.com/helix-core/v1
+  baseurl_source: declared
+  description: Endpoints for inspecting changelists and their relationships.
   name: Perforce Changes API
   slug: perforce-changes-api
-- description: Endpoints for managing review and changelist comments.
+- baseURL: https://api.perforce.com/helix-core/v1
+  baseurl_source: declared
+  description: Endpoints for managing review and changelist comments.
   name: Perforce Comments API
   slug: perforce-comments-api
-- description: Endpoints for managing Swarm projects.
+- baseURL: https://api.perforce.com/helix-core/v1
+  baseurl_source: declared
+  description: Endpoints for managing Swarm projects.
   name: Perforce Projects API
   slug: perforce-projects-api
-- description: Endpoints for managing code reviews.
+- baseURL: https://api.perforce.com/helix-core/v1
+  baseurl_source: declared
+  description: Endpoints for managing code reviews.
   name: Perforce Reviews API
   slug: perforce-reviews-api
-- description: Endpoints for retrieving Swarm server version information.
+- baseURL: https://api.perforce.com/helix-core/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving Swarm server version information.
   name: Perforce Version API
   slug: perforce-version-api
 artifact_total: 97
@@ -463,10 +475,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:

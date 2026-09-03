@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Upload files referenced by response fields.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Upload files referenced by response fields.
   name: Department of Better Technology Files API
   slug: department-of-better-technology-files-api
-- description: Manage the form fields collected for a project.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Manage the form fields collected for a project.
   name: Department of Better Technology Forms API
   slug: department-of-better-technology-forms-api
-- description: Manage labels used to tag responses within a project.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Manage labels used to tag responses within a project.
   name: Department of Better Technology Labels API
   slug: department-of-better-technology-labels-api
-- description: Manage projects (forms and their workflow) within a site.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Manage projects (forms and their workflow) within a site.
   name: Department of Better Technology Projects API
   slug: department-of-better-technology-projects-api
-- description: Assign users or teams to an individual response.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Assign users or teams to an individual response.
   name: Department of Better Technology Response Assignments API
   slug: department-of-better-technology-response-assignments-api
-- description: Attach or detach labels on an individual response.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Attach or detach labels on an individual response.
   name: Department of Better Technology Response Labels API
   slug: department-of-better-technology-response-labels-api
-- description: Create, read, update, trash, and recover form submissions.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Create, read, update, trash, and recover form submissions.
   name: Department of Better Technology Responses API
   slug: department-of-better-technology-responses-api
-- description: Manage the status workflow stages for a project's responses.
+- baseURL: https://screendoor.dobt.co/api
+  baseurl_source: declared
+  description: Manage the status workflow stages for a project's responses.
   name: Department of Better Technology Statuses API
   slug: department-of-better-technology-statuses-api
 artifact_total: 20
@@ -234,7 +250,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:

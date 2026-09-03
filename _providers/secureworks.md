@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: The Authentication API from Secureworks — 1 operation(s) for authentication.
+- baseURL: https://api.ctpx.secureworks.com
+  baseurl_source: declared
+  description: The Authentication API from Secureworks — 1 operation(s) for authentication.
   name: Secureworks Authentication API
   slug: secureworks-authentication-api
-- description: The GraphQL API from Secureworks — 1 operation(s) for graphql.
+- baseURL: https://api.ctpx.secureworks.com
+  baseurl_source: declared
+  description: The GraphQL API from Secureworks — 1 operation(s) for graphql.
   name: Secureworks GraphQL API
   slug: secureworks-graphql-api
-- description: The System API from Secureworks — 1 operation(s) for system.
+- baseURL: https://api.ctpx.secureworks.com
+  baseurl_source: declared
+  description: The System API from Secureworks — 1 operation(s) for system.
   name: Secureworks System API
   slug: secureworks-system-api
 artifact_total: 21
@@ -237,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/screenshots/secureworks-2026-06-20T193632.png
 security:

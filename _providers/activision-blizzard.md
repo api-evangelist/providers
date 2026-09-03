@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: Battle.net account and user profile APIs
+- baseURL_template: https://{region}.api.blizzard.com
+  baseurl_source: spec_template
+  description: Battle.net account and user profile APIs
   name: activision-blizzard Account API
   slug: activision-blizzard-account-api
-- description: Diablo III game data and profile APIs
+- baseURL_template: https://{region}.api.blizzard.com
+  baseurl_source: spec_template
+  description: Diablo III game data and profile APIs
   name: activision-blizzard Diablo III API
   slug: activision-blizzard-diablo-iii-api
-- description: Hearthstone game data APIs
+- baseURL_template: https://{region}.api.blizzard.com
+  baseurl_source: spec_template
+  description: Hearthstone game data APIs
   name: activision-blizzard Hearthstone API
   slug: activision-blizzard-hearthstone-api
-- description: StarCraft II game data and profile APIs
+- baseURL_template: https://{region}.api.blizzard.com
+  baseurl_source: spec_template
+  description: StarCraft II game data and profile APIs
   name: activision-blizzard StarCraft II API
   slug: activision-blizzard-starcraft-ii-api
-- description: World of Warcraft game data and profile APIs
+- baseURL_template: https://{region}.api.blizzard.com
+  baseurl_source: spec_template
+  description: World of Warcraft game data and profile APIs
   name: activision-blizzard World of Warcraft API
   slug: activision-blizzard-world-of-warcraft-api
 artifact_total: 74
@@ -405,7 +415,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/screenshots/activision-blizzard-2026-06-20T164248.png
 security:

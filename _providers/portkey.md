@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 1
@@ -44,157 +44,259 @@ agentic_access:
   summary_line: 231 operations · 122 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Get data points for graphical representation.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Get data points for graphical representation.
   name: Portkey Analytics > Graphs API
   slug: portkey-analytics-graphs-api
-- description: Get grouped metrics for the selected time bucket.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Get grouped metrics for the selected time bucket.
   name: Portkey Analytics > Groups API
   slug: portkey-analytics-groups-api
-- description: Get overall summary for the selected time bucket.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Get overall summary for the selected time bucket.
   name: Portkey Analytics > Summary API
   slug: portkey-analytics-summary-api
-- description: Create, List, Retrieve, Update, and Delete your Portkey API keys.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete your Portkey API keys.
   name: Portkey Api-Keys API
   slug: portkey-api-keys-api
-- description: Build Assistants that can call models and use tools.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Build Assistants that can call models and use tools.
   name: Portkey Assistants API
   slug: portkey-assistants-api
-- description: Turn audio into text or text into audio.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Turn audio into text or text into audio.
   name: Portkey Audio API
   slug: portkey-audio-api
-- description: Get audit logs for your Portkey account.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Get audit logs for your Portkey account.
   name: Portkey Audit Logs API
   slug: portkey-audit-logs-api
-- description: Create large batches of API requests to run asynchronously.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create large batches of API requests to run asynchronously.
   name: Portkey Batch API
   slug: portkey-batch-api
-- description: Given a list of messages comprising a conversation, the model will return a response.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Given a list of messages comprising a conversation, the model will return a response.
   name: Portkey Chat API
   slug: portkey-chat-api
-- description: Create, List, Retrieve, Update, and Delete collections of prompts.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete collections of prompts.
   name: Portkey Collections API
   slug: portkey-collections-api
-- description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Given a prompt, the model will return one or more predicted completions, and can also return the probabilities of alternative tokens at each position.
   name: Portkey Completions API
   slug: portkey-completions-api
-- description: Create, List, Retrieve, and Update your Portkey Configs.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, and Update your Portkey Configs.
   name: Portkey Configs API
   slug: portkey-configs-api
-- description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Get a vector representation of a given input that can be easily consumed by machine learning models and algorithms.
   name: Portkey Embeddings API
   slug: portkey-embeddings-api
-- description: Send and Update any feedback.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Send and Update any feedback.
   name: Portkey Feedback API
   slug: portkey-feedback-api
-- description: Files are used to upload documents that can be used with features like Assistants and Fine-tuning.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Files are used to upload documents that can be used with features like Assistants and Fine-tuning.
   name: Portkey Files API
   slug: portkey-files-api
-- description: Manage fine-tuning jobs to tailor a model to your specific training data.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Manage fine-tuning jobs to tailor a model to your specific training data.
   name: Portkey Fine-tuning API
   slug: portkey-fine-tuning-api
-- description: The Finetune API from Portkey — 1 operation(s) for finetune.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: The Finetune API from Portkey — 1 operation(s) for finetune.
   name: Portkey Finetune API
   slug: portkey-finetune-api
-- description: Create, List, Retrieve, Update, and Delete prompt Guardrails.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete prompt Guardrails.
   name: Portkey Guardrails API
   slug: portkey-guardrails-api
-- description: Given a prompt and/or an input image, the model will generate a new image.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Given a prompt and/or an input image, the model will generate a new image.
   name: Portkey Images API
   slug: portkey-images-api
-- description: Create, List, Retrieve, Update, and Delete your Portkey Integrations.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete your Portkey Integrations.
   name: Portkey Integrations API
   slug: portkey-integrations-api
-- description: Manage model access for your Portkey Integrations.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Manage model access for your Portkey Integrations.
   name: Portkey Integrations > Models API
   slug: portkey-integrations-models-api
-- description: Manage workspace access for your Portkey Integrations.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Manage workspace access for your Portkey Integrations.
   name: Portkey Integrations > Workspaces API
   slug: portkey-integrations-workspaces-api
-- description: Create, List, Retrieve, Update, and Delete labels.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete labels.
   name: Portkey Labels API
   slug: portkey-labels-api
-- description: Custom Logger to add external logs to Portkey.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Custom Logger to add external logs to Portkey.
   name: Portkey Logs API
   slug: portkey-logs-api
-- description: Exports logs service.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Exports logs service.
   name: Portkey Logs Export API
   slug: portkey-logs-export-api
-- description: Create, List, Retrieve, Update, and Delete MCP Integrations.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete MCP Integrations.
   name: Portkey MCP Integrations API
   slug: portkey-mcp-integrations-api
-- description: List and manage capabilities for MCP Integrations.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: List and manage capabilities for MCP Integrations.
   name: Portkey MCP Integrations > Capabilities API
   slug: portkey-mcp-integrations-capabilities-api
-- description: Get MCP Integration metadata and sync info.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Get MCP Integration metadata and sync info.
   name: Portkey MCP Integrations > Metadata API
   slug: portkey-mcp-integrations-metadata-api
-- description: Manage workspace access for MCP Integrations.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Manage workspace access for MCP Integrations.
   name: Portkey MCP Integrations > Workspaces API
   slug: portkey-mcp-integrations-workspaces-api
-- description: Create, List, Retrieve, Update, and Delete MCP Servers (workspace instances of MCP Integrations).
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete MCP Servers (workspace instances of MCP Integrations).
   name: Portkey MCP Servers API
   slug: portkey-mcp-servers-api
-- description: List and manage capabilities for MCP Servers.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: List and manage capabilities for MCP Servers.
   name: Portkey MCP Servers > Capabilities API
   slug: portkey-mcp-servers-capabilities-api
-- description: List and manage user connections for MCP Servers.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: List and manage user connections for MCP Servers.
   name: Portkey MCP Servers > Connections API
   slug: portkey-mcp-servers-connections-api
-- description: List and manage user access for MCP Servers.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: List and manage user access for MCP Servers.
   name: Portkey MCP Servers > User Access API
   slug: portkey-mcp-servers-user-access-api
-- description: Model pricing configurations for 2300+ LLMs across 40+ providers
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Model pricing configurations for 2300+ LLMs across 40+ providers
   name: Portkey Model Pricing API
   slug: portkey-model-pricing-api
-- description: List and describe the various models available in the API.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: List and describe the various models available in the API.
   name: Portkey Models API
   slug: portkey-models-api
-- description: Given a input text, outputs if the model classifies it as potentially harmful.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Given a input text, outputs if the model classifies it as potentially harmful.
   name: Portkey Moderations API
   slug: portkey-moderations-api
-- description: Create, List, Retrieve, Update, and Delete prompt partials.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete prompt partials.
   name: Portkey PromptPartials API
   slug: portkey-promptpartials-api
-- description: Given a prompt template ID and variables, will run the saved prompt template and return a response.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Given a prompt template ID and variables, will run the saved prompt template and return a response.
   name: Portkey Prompts API
   slug: portkey-prompts-api
-- description: Create, List, Retrieve, Update, and Delete your Portkey Providers.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete your Portkey Providers.
   name: Portkey Providers API
   slug: portkey-providers-api
-- description: Manage rate limits policies to control request or token rates
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Manage rate limits policies to control request or token rates
   name: Portkey Rate Limits Policies API
   slug: portkey-rate-limits-policies-api
-- description: WebSocket proxy for provider Realtime APIs
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: WebSocket proxy for provider Realtime APIs
   name: Portkey Realtime API
   slug: portkey-realtime-api
-- description: Rerank a list of documents based on their relevance to a query. Supported providers include Cohere, Voyage, Jina, Pinecone, Bedrock, and Azure AI.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Rerank a list of documents based on their relevance to a query. Supported providers include Cohere, Voyage, Jina, Pinecone, Bedrock, and Azure AI.
   name: Portkey Rerank API
   slug: portkey-rerank-api
-- description: The Responses API from Portkey — 3 operation(s) for responses.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: The Responses API from Portkey — 3 operation(s) for responses.
   name: Portkey Responses API
   slug: portkey-responses-api
-- description: Create, List, Retrieve, Update, and Delete secret references to external secret managers.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete secret references to external secret managers.
   name: Portkey Secret-References API
   slug: portkey-secret-references-api
-- description: Manage usage limits policies to control total usage over time
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Manage usage limits policies to control total usage over time
   name: Portkey Usage Limits Policies API
   slug: portkey-usage-limits-policies-api
-- description: Create and manage user invites.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create and manage user invites.
   name: Portkey User-invites API
   slug: portkey-user-invites-api
-- description: Create and manage users.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create and manage users.
   name: Portkey Users API
   slug: portkey-users-api
-- description: The Vector Stores API from Portkey — 8 operation(s) for vector stores.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: The Vector Stores API from Portkey — 8 operation(s) for vector stores.
   name: Portkey Vector Stores API
   slug: portkey-vector-stores-api
-- description: Create, List, Retrieve, Update, and Delete your Portkey Virtual keys.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create, List, Retrieve, Update, and Delete your Portkey Virtual keys.
   name: Portkey Virtual-keys API
   slug: portkey-virtual-keys-api
-- description: Create and manage workspaces.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create and manage workspaces.
   name: Portkey Workspaces API
   slug: portkey-workspaces-api
-- description: Create and manage workspace members.
+- baseURL: https://api.portkey.ai/v1
+  baseurl_source: declared
+  description: Create and manage workspace members.
   name: Portkey Workspaces > Members API
   slug: portkey-workspaces-members-api
 artifact_total: 110
@@ -535,7 +637,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/screenshots/portkey-2026-06-20T191938.png
 security:

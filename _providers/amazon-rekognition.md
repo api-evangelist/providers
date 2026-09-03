@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 15 operations · 15 acting
 api_count: 10
 apis:
-- description: Identify celebrities in images and videos.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Identify celebrities in images and videos.
   name: Amazon Rekognition Celebrity Recognition API
   slug: amazon-rekognition-celebrity-recognition-api
-- description: Detect inappropriate or explicit content.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Detect inappropriate or explicit content.
   name: Amazon Rekognition Content Moderation API
   slug: amazon-rekognition-content-moderation-api
-- description: Train and use custom image classifiers.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Train and use custom image classifiers.
   name: Amazon Rekognition Custom Labels API
   slug: amazon-rekognition-custom-labels-api
-- description: Create and manage searchable face collections.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Create and manage searchable face collections.
   name: Amazon Rekognition Face Collections API
   slug: amazon-rekognition-face-collections-api
-- description: Verify that a user is physically present during identity verification.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Verify that a user is physically present during identity verification.
   name: Amazon Rekognition Face Liveness API
   slug: amazon-rekognition-face-liveness-api
-- description: Search for matching faces within collections.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Search for matching faces within collections.
   name: Amazon Rekognition Face Search API
   slug: amazon-rekognition-face-search-api
-- description: Detect and analyze faces with detailed attributes.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Detect and analyze faces with detailed attributes.
   name: Amazon Rekognition Facial Analysis API
   slug: amazon-rekognition-facial-analysis-api
-- description: Detect labels, objects, scenes, and concepts in images.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Detect labels, objects, scenes, and concepts in images.
   name: Amazon Rekognition Image Analysis API
   slug: amazon-rekognition-image-analysis-api
-- description: Asynchronous analysis of videos stored in Amazon S3.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Asynchronous analysis of videos stored in Amazon S3.
   name: Amazon Rekognition Stored Video Analysis API
   slug: amazon-rekognition-stored-video-analysis-api
-- description: Detect and extract text from images and videos.
+- baseURL: https://rekognition.amazonaws.com
+  baseurl_source: declared
+  description: Detect and extract text from images and videos.
   name: Amazon Rekognition Text Detection API
   slug: amazon-rekognition-text-detection-api
 arazzos:
@@ -1242,7 +1262,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:

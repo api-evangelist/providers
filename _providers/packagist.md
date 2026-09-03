@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 3 acting
 api_count: 1
 apis:
-- description: Composer v2 static metadata and change tracking.
+- baseURL: https://packagist.org
+  baseurl_source: declared
+  description: Composer v2 static metadata and change tracking.
   name: Packagist Metadata API
   slug: packagist-metadata-api
-- description: Discover and manage Composer packages.
+- baseURL: https://packagist.org
+  baseurl_source: declared
+  description: Discover and manage Composer packages.
   name: Packagist Packages API
   slug: packagist-packages-api
-- description: Search the Packagist registry.
+- baseURL: https://packagist.org
+  baseurl_source: declared
+  description: Search the Packagist registry.
   name: Packagist Search API
   slug: packagist-search-api
-- description: PHP security advisory database.
+- baseURL: https://packagist.org
+  baseurl_source: declared
+  description: PHP security advisory database.
   name: Packagist Security API
   slug: packagist-security-api
-- description: Download and registry statistics.
+- baseURL: https://packagist.org
+  baseurl_source: declared
+  description: Download and registry statistics.
   name: Packagist Statistics API
   slug: packagist-statistics-api
 artifact_total: 38
@@ -358,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/screenshots/packagist-2026-06-20T191311.png
 security:

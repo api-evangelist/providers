@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 31 operations · 3 acting
 api_count: 6
 apis:
-- description: Endpoints for querying currently active alerts.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Endpoints for querying currently active alerts.
   name: Thanos Alerts API
   slug: thanos-alerts-api
-- description: Block metadata inspection and compaction status endpoints.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Block metadata inspection and compaction status endpoints.
   name: Thanos Blocks API
   slug: thanos-blocks-api
-- description: Liveness and readiness probes for the Compactor.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Liveness and readiness probes for the Compactor.
   name: Thanos Health API
   slug: thanos-health-api
-- description: The Metadata API from Thanos — 3 operation(s) for metadata.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: The Metadata API from Thanos — 3 operation(s) for metadata.
   name: Thanos Metadata API
   slug: thanos-metadata-api
-- description: Prometheus metrics for monitoring Compactor performance.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Prometheus metrics for monitoring Compactor performance.
   name: Thanos Metrics API
   slug: thanos-metrics-api
-- description: The Query API from Thanos — 2 operation(s) for query.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: The Query API from Thanos — 2 operation(s) for query.
   name: Thanos Query API
   slug: thanos-query-api
-- description: Prometheus Remote Write ingestion endpoint.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: Prometheus Remote Write ingestion endpoint.
   name: Thanos Remote Write API
   slug: thanos-remote-write-api
-- description: The Rules API from Thanos — 2 operation(s) for rules.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: The Rules API from Thanos — 2 operation(s) for rules.
   name: Thanos Rules API
   slug: thanos-rules-api
-- description: The Stores API from Thanos — 1 operation(s) for stores.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: The Stores API from Thanos — 1 operation(s) for stores.
   name: Thanos Stores API
   slug: thanos-stores-api
-- description: The Targets API from Thanos — 1 operation(s) for targets.
+- baseURL: http://localhost:9090
+  baseurl_source: declared
+  description: The Targets API from Thanos — 1 operation(s) for targets.
   name: Thanos Targets API
   slug: thanos-targets-api
 artifact_total: 62
@@ -357,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanos/refs/heads/main/screenshots/thanos-2026-06-20T195209.png
 security:

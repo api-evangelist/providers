@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 2
 apis:
-- description: Exchange CSP API tokens for Bearer access tokens
+- baseURL: https://prod-2.nsxservicemesh.vmware.com
+  baseurl_source: spec
+  description: Exchange CSP API tokens for Bearer access tokens
   name: VMware Tanzu Authentication API
   slug: vmware-tanzu-authentication-api
-- description: Manage Kubernetes clusters onboarded to Tanzu Service Mesh
+- baseURL: https://prod-2.nsxservicemesh.vmware.com
+  baseurl_source: spec
+  description: Manage Kubernetes clusters onboarded to Tanzu Service Mesh
   name: VMware Tanzu Clusters API
   slug: vmware-tanzu-clusters-api
-- description: Manage global namespaces connecting workloads across clusters
+- baseURL: https://prod-2.nsxservicemesh.vmware.com
+  baseurl_source: spec
+  description: Manage global namespaces connecting workloads across clusters
   name: VMware Tanzu Global Namespaces API
   slug: vmware-tanzu-global-namespaces-api
-- description: Manage resource groups for policy enforcement and monitoring
+- baseURL: https://prod-2.nsxservicemesh.vmware.com
+  baseurl_source: spec
+  description: Manage resource groups for policy enforcement and monitoring
   name: VMware Tanzu Resource Groups API
   slug: vmware-tanzu-resource-groups-api
-- description: Create and manage TanzuKubernetesCluster resources
+- baseURL_template: https://{supervisor-ip}:6443
+  baseurl_source: spec_template
+  description: Create and manage TanzuKubernetesCluster resources
   name: VMware Tanzu Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
 artifact_total: 26
@@ -250,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/screenshots/vmware-tanzu-2026-06-20T201119.png
 security:

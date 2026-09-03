@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 39 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Checkouts represent online payment sessions that you create before attempting to charge a payer. A checkout captures the payment intent, such as the amount, currency, merchant, and optional customer o
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: Checkouts represent online payment sessions that you create before attempting to charge a payer. A checkout captures the payment intent, such as the amount, currency, merchant, and optional customer o
   name: SumUp Checkouts API
   slug: sumup-checkouts-api
-- description: 'Allow your regular customers to save their information with the Customers model. This will prevent re-entering payment instrument information for recurring payments on your platform. Depending on the '
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: 'Allow your regular customers to save their information with the Customers model. This will prevent re-entering payment instrument information for recurring payments on your platform. Depending on the '
   name: SumUp Customers API
   slug: sumup-customers-api
-- description: Endpoints to manage account members. Members are users that have membership within merchant accounts.
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: Endpoints to manage account members. Members are users that have membership within merchant accounts.
   name: SumUp Members API
   slug: sumup-members-api
-- description: Endpoints to manage user's memberships. Memberships are used to connect the user to merchant accounts and to grant them access to the merchant's resources via roles.
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: Endpoints to manage user's memberships. Memberships are used to connect the user to merchant accounts and to grant them access to the merchant's resources via roles.
   name: SumUp Memberships API
   slug: sumup-memberships-api
-- description: Merchant account represents a single business entity at SumUp.
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: Merchant account represents a single business entity at SumUp.
   name: SumUp Merchants API
   slug: sumup-merchants-api
-- description: The Payouts model will allow you to track funds you’ve received from SumUp. You can receive a detailed payouts list with information like dates, fees, references and statuses, using the `List payouts`
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: The Payouts model will allow you to track funds you’ve received from SumUp. You can receive a detailed payouts list with information like dates, fees, references and statuses, using the `List payouts`
   name: SumUp Payouts API
   slug: sumup-payouts-api
-- description: A reader represents a device that accepts payments. You can use the SumUp Solo to accept in-person payments.
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: A reader represents a device that accepts payments. You can use the SumUp Solo to accept in-person payments.
   name: SumUp Readers API
   slug: sumup-readers-api
-- description: The Receipts model obtains receipt-like details for specific transactions.
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: The Receipts model obtains receipt-like details for specific transactions.
   name: SumUp Receipts API
   slug: sumup-receipts-api
-- description: Endpoints to manage custom roles. Custom roles allow you to tailor roles from individual permissions to match your needs. Once created, you can assign your custom roles to your merchant account member
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: Endpoints to manage custom roles. Custom roles allow you to tailor roles from individual permissions to match your needs. Once created, you can assign your custom roles to your merchant account member
   name: SumUp Roles API
   slug: sumup-roles-api
-- description: Transactions represent completed or attempted payment operations processed for a merchant account. A transaction contains the core payment result, such as the amount, currency, payment method, creatio
+- baseURL: https://api.sumup.com
+  baseurl_source: declared
+  description: Transactions represent completed or attempted payment operations processed for a merchant account. A transaction contains the core payment result, such as the amount, currency, payment method, creatio
   name: SumUp Transactions API
   slug: sumup-transactions-api
 artifact_total: 142
@@ -617,7 +637,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png
 security:

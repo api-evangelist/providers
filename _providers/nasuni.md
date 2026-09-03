@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,97 +36,155 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
-- description: HTTP API providing programmatic access to the filesystem of a Nasuni Edge Appliance — create, read, update and delete files and folders, list shares, and read previous versions. Requires Mobile Access
+- baseURL: https://hostname/mobileapi/1
+  baseurl_source: declared
+  description: HTTP API providing programmatic access to the filesystem of a Nasuni Edge Appliance — create, read, update and delete files and folders, list shares, and read previous versions. Requires Mobile Access
   name: Nasuni Data API
   slug: nasuni-data-api
 - description: Hosted, OAuth 2.0-authenticated Model Context Protocol server that exposes the Nasuni Portal to AI clients (Claude, ChatGPT, Microsoft Copilot Studio) as roughly 40 tools spanning appliance and volume
   name: Nasuni Portal MCP Server
   slug: nasuni-portal-mcp-server
-- description: The Account API from Nasuni — 4 operation(s) for account.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Account API from Nasuni — 4 operation(s) for account.
   name: Nasuni Account API
   slug: nasuni-account-api
-- description: The Account Management API from Nasuni — 3 operation(s) for account management.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Account Management API from Nasuni — 3 operation(s) for account management.
   name: Nasuni Account Management API
   slug: nasuni-account-management-api
-- description: The Activity Logs API from Nasuni — 2 operation(s) for activity logs.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Activity Logs API from Nasuni — 2 operation(s) for activity logs.
   name: Nasuni Activity Logs API
   slug: nasuni-activity-logs-api
-- description: The AI Activate API from Nasuni — 5 operation(s) for ai activate.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The AI Activate API from Nasuni — 5 operation(s) for ai activate.
   name: Nasuni AI Activate API
   slug: nasuni-ai-activate-api
-- description: The Auth API from Nasuni — 5 operation(s) for auth.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Auth API from Nasuni — 5 operation(s) for auth.
   name: Nasuni Auth API
   slug: nasuni-auth-api
-- description: The Cloud Credentials API from Nasuni — 5 operation(s) for cloud credentials.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Cloud Credentials API from Nasuni — 5 operation(s) for cloud credentials.
   name: Nasuni Cloud Credentials API
   slug: nasuni-cloud-credentials-api
-- description: The Configuration API from Nasuni — 5 operation(s) for configuration.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Configuration API from Nasuni — 5 operation(s) for configuration.
   name: Nasuni Configuration API
   slug: nasuni-configuration-api
-- description: The Data API from Nasuni — 1 operation(s) for data.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Data API from Nasuni — 1 operation(s) for data.
   name: Nasuni Data API
   slug: nasuni-data-api
-- description: The Edge Appliances (Edge) API from Nasuni — 4 operation(s) for edge appliances (edge).
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Edge Appliances (Edge) API from Nasuni — 4 operation(s) for edge appliances (edge).
   name: Nasuni Edge Appliances (Edge) API
   slug: nasuni-edge-appliances-edge-api
-- description: The File IQ Appliances (File IQ) API from Nasuni — 2 operation(s) for file iq appliances (file iq).
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The File IQ Appliances (File IQ) API from Nasuni — 2 operation(s) for file iq appliances (file iq).
   name: Nasuni File IQ Appliances (File IQ) API
   slug: nasuni-file-iq-appliances-file-iq-api
-- description: The Filers API from Nasuni — 30 operation(s) for filers.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Filers API from Nasuni — 30 operation(s) for filers.
   name: Nasuni Filers API
   slug: nasuni-filers-api
-- description: The Global File Accelerator (GFA) API from Nasuni — 2 operation(s) for global file accelerator (gfa).
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Global File Accelerator (GFA) API from Nasuni — 2 operation(s) for global file accelerator (gfa).
   name: Nasuni Global File Accelerator (GFA) API
   slug: nasuni-global-file-accelerator-gfa-api
-- description: The Health API from Nasuni — 1 operation(s) for health.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Health API from Nasuni — 1 operation(s) for health.
   name: Nasuni Health API
   slug: nasuni-health-api
-- description: The IAM API from Nasuni — 13 operation(s) for iam.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The IAM API from Nasuni — 13 operation(s) for iam.
   name: Nasuni IAM API
   slug: nasuni-iam-api
-- description: The Index API from Nasuni — 1 operation(s) for index.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Index API from Nasuni — 1 operation(s) for index.
   name: Nasuni Index API
   slug: nasuni-index-api
-- description: The Jobs API from Nasuni — 3 operation(s) for jobs.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Jobs API from Nasuni — 3 operation(s) for jobs.
   name: Nasuni Jobs API
   slug: nasuni-jobs-api
-- description: The ?list Type=2 API from Nasuni — 1 operation(s) for ?list type=2.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The ?list Type=2 API from Nasuni — 1 operation(s) for ?list type=2.
   name: Nasuni ?list Type=2 API
   slug: nasuni-list-type-2-api
-- description: The Messages API from Nasuni — 2 operation(s) for messages.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Messages API from Nasuni — 2 operation(s) for messages.
   name: Nasuni Messages API
   slug: nasuni-messages-api
-- description: The Nasuni Data Service (NDS) API API from Nasuni — 3 operation(s) for nasuni data service (nds) api.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Nasuni Data Service (NDS) API API from Nasuni — 3 operation(s) for nasuni data service (nds) api.
   name: Nasuni Nasuni Data Service (NDS) API
   slug: nasuni-nasuni-data-service-nds-api-api
-- description: The Nasuni Data Service (NDS) AWS API API from Nasuni — 2 operation(s) for nasuni data service (nds) aws api.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Nasuni Data Service (NDS) AWS API API from Nasuni — 2 operation(s) for nasuni data service (nds) aws api.
   name: Nasuni Nasuni Data Service (NDS) AWS API
   slug: nasuni-nasuni-data-service-nds-aws-api-api
-- description: The Notifications API from Nasuni — 3 operation(s) for notifications.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Notifications API from Nasuni — 3 operation(s) for notifications.
   name: Nasuni Notifications API
   slug: nasuni-notifications-api
-- description: '**Requires Premium Ops IQ license** (`ops-iq-premium`). The Ops IQ Telemetry API is available only to accounts with the Premium Ops IQ license bit enabled. Reach out to your Nasuni account team or Sup'
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: '**Requires Premium Ops IQ license** (`ops-iq-premium`). The Ops IQ Telemetry API is available only to accounts with the Premium Ops IQ license bit enabled. Reach out to your Nasuni account team or Sup'
   name: Nasuni Ops IQ API
   slug: nasuni-ops-iq-api
-- description: The Portal API API from Nasuni — 1 operation(s) for portal api.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Portal API API from Nasuni — 1 operation(s) for portal api.
   name: Nasuni Portal API
   slug: nasuni-portal-api-api
-- description: The Serials API from Nasuni — 3 operation(s) for serials.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Serials API from Nasuni — 3 operation(s) for serials.
   name: Nasuni Serials API
   slug: nasuni-serials-api
-- description: The Software API from Nasuni — 2 operation(s) for software.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Software API from Nasuni — 2 operation(s) for software.
   name: Nasuni Software API
   slug: nasuni-software-api
-- description: The UniFS As A Service (UaaS) API from Nasuni — 10 operation(s) for unifs as a service (uaas).
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The UniFS As A Service (UaaS) API from Nasuni — 10 operation(s) for unifs as a service (uaas).
   name: Nasuni UniFS As A Service (UaaS) API
   slug: nasuni-unifs-as-a-service-uaas-api
-- description: The Volume Connections API from Nasuni — 1 operation(s) for volume connections.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Volume Connections API from Nasuni — 1 operation(s) for volume connections.
   name: Nasuni Volume Connections API
   slug: nasuni-volume-connections-api
-- description: The Volumes API from Nasuni — 52 operation(s) for volumes.
+- baseURL: https://hostname/api/v1.2
+  baseurl_source: declared
+  description: The Volumes API from Nasuni — 52 operation(s) for volumes.
   name: Nasuni Volumes API
   slug: nasuni-volumes-api
 artifact_total: 40
@@ -306,23 +377,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.9
+  composite: 61.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.4
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 59.2
+    contract_quality: 61.0
     developer_ergonomics: 66.1
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 60.7
+  previous_composite: 60.9
   provenance:
     conformance: first-party
     contracts:
@@ -333,8 +404,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/screenshots/nasuni-2026-09-02T150723.png
 security:
 - kind: authentication
   name: Nasuni Authentication

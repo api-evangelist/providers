@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,10 +52,10 @@ description: Newmont Corporation is the world's leading gold company and a produ
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newmont.png
 layout: provider
 modified: '2026-04-28'
-name: newmont
+name: Newmont
 nav: Providers
 network: true
-overview: newmont is profiled on the [APIs.io](https://apis.io/) network.
+overview: Newmont is profiled on the [APIs.io](https://apis.io/) network.
 random_paper: 20
 score:
   band: minimal
@@ -78,10 +78,10 @@ score:
   previous_composite: 2.6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newmont/refs/heads/main/screenshots/newmont-2026-08-07T185122.png
 security:

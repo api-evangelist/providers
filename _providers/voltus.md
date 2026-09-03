@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -36,16 +49,24 @@ apis:
 - description: Standards-based alternative to the REST dispatch integration. Voltus states it "supports OpenADR2.0a via Simple HTTP (PULL)" and that "Voltus provides a VTN, and our partners run one or more VENs". Pa
   name: Voltus OpenADR 2.0a VTN
   slug: voltus-openadr-vtn
-- description: The Dispatches API from Voltus — 2 operation(s) for dispatches.
+- baseURL: https://api.voltus.co/2022-04-15
+  baseurl_source: declared
+  description: The Dispatches API from Voltus — 2 operation(s) for dispatches.
   name: Voltus Dispatches API
   slug: voltus-dispatches-api
-- description: The Sites API from Voltus — 1 operation(s) for sites.
+- baseURL: https://api.voltus.co/2022-04-15
+  baseurl_source: declared
+  description: The Sites API from Voltus — 1 operation(s) for sites.
   name: Voltus Sites API
   slug: voltus-sites-api
-- description: The Telemetry API from Voltus — 3 operation(s) for telemetry.
+- baseURL: https://api.voltus.co/2022-04-15
+  baseurl_source: declared
+  description: The Telemetry API from Voltus — 3 operation(s) for telemetry.
   name: Voltus Telemetry API
   slug: voltus-telemetry-api
-- description: The Webhooks API from Voltus — 2 operation(s) for webhooks.
+- baseURL: https://api.voltus.co/2022-04-15
+  baseurl_source: declared
+  description: The Webhooks API from Voltus — 2 operation(s) for webhooks.
   name: Voltus Webhooks API
   slug: voltus-webhooks-api
 arazzos:
@@ -290,7 +311,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -300,7 +321,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 54.4
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,7 +339,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/screenshots/voltus-2026-08-17T082820.png
 security:

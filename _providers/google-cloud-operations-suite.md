@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: The Entries:list API from Google Cloud Operations Suite — 1 operation(s) for entries:list.
+- baseURL: https://monitoring.googleapis.com
+  baseurl_source: declared
+  description: The Entries:list API from Google Cloud Operations Suite — 1 operation(s) for entries:list.
   name: Google Cloud Operations Suite Entries:list API
   slug: google-cloud-operations-suite-entries-list-api
-- description: The Entries:write API from Google Cloud Operations Suite — 1 operation(s) for entries:write.
+- baseURL: https://monitoring.googleapis.com
+  baseurl_source: declared
+  description: The Entries:write API from Google Cloud Operations Suite — 1 operation(s) for entries:write.
   name: Google Cloud Operations Suite Entries:write API
   slug: google-cloud-operations-suite-entries-write-api
-- description: The Projects API from Google Cloud Operations Suite — 4 operation(s) for projects.
+- baseURL: https://monitoring.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Cloud Operations Suite — 4 operation(s) for projects.
   name: Google Cloud Operations Suite Projects API
   slug: google-cloud-operations-suite-projects-api
 artifact_total: 18
@@ -205,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-operations-suite/refs/heads/main/screenshots/google-cloud-operations-suite-2026-06-20T182127.png
 security:

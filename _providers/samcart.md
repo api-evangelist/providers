@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 4 acting
 api_count: 1
 apis:
-- description: Individual charges, including failed charges.
+- baseURL: https://api.samcart.com/v1
+  baseurl_source: declared
+  description: Individual charges, including failed charges.
   name: SamCart Charges API
   slug: samcart-charges-api
-- description: Customers who have purchased in a marketplace.
+- baseURL: https://api.samcart.com/v1
+  baseurl_source: declared
+  description: Customers who have purchased in a marketplace.
   name: SamCart Customers API
   slug: samcart-customers-api
-- description: Orders placed in a SamCart marketplace.
+- baseURL: https://api.samcart.com/v1
+  baseurl_source: declared
+  description: Orders placed in a SamCart marketplace.
   name: SamCart Orders API
   slug: samcart-orders-api
-- description: Products sold through SamCart checkout pages.
+- baseURL: https://api.samcart.com/v1
+  baseurl_source: declared
+  description: Products sold through SamCart checkout pages.
   name: SamCart Products API
   slug: samcart-products-api
-- description: Refunds issued against charges.
+- baseURL: https://api.samcart.com/v1
+  baseurl_source: declared
+  description: Refunds issued against charges.
   name: SamCart Refunds API
   slug: samcart-refunds-api
-- description: Recurring subscriptions and payment plans.
+- baseURL: https://api.samcart.com/v1
+  baseurl_source: declared
+  description: Recurring subscriptions and payment plans.
   name: SamCart Subscriptions API
   slug: samcart-subscriptions-api
 artifact_total: 20
@@ -158,7 +170,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +199,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/samcart/refs/heads/main/screenshots/samcart-2026-09-02T154341.png
 security:
 - kind: authentication
   name: Samcart Authentication

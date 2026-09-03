@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 38 operations · 22 acting
 api_count: 1
 apis:
-- description: Create and retrieve bulk campaigns to lists and segments.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Create and retrieve bulk campaigns to lists and segments.
   name: SimpleTexting Campaigns API
   slug: simpletexting-campaigns-api
-- description: Manage contact lists and list membership.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Manage contact lists and list membership.
   name: SimpleTexting Contact Lists API
   slug: simpletexting-contact-lists-api
-- description: Read dynamic contact segments.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Read dynamic contact segments.
   name: SimpleTexting Contact Segments API
   slug: simpletexting-contact-segments-api
-- description: Create, read, update, and delete individual contacts.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Create, read, update, and delete individual contacts.
   name: SimpleTexting Contacts API
   slug: simpletexting-contacts-api
-- description: Batch update and delete groups of contacts.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Batch update and delete groups of contacts.
   name: SimpleTexting Contacts - Batch Operations API
   slug: simpletexting-contacts-batch-operations-api
-- description: Read account custom fields / merge tags.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Read account custom fields / merge tags.
   name: SimpleTexting Custom Fields API
   slug: simpletexting-custom-fields-api
-- description: Upload and manage MMS media items.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Upload and manage MMS media items.
   name: SimpleTexting Media Items API
   slug: simpletexting-media-items-api
-- description: Send and retrieve one-to-one SMS / MMS messages.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Send and retrieve one-to-one SMS / MMS messages.
   name: SimpleTexting Messages API
   slug: simpletexting-messages-api
-- description: Account information and sending phone numbers.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Account information and sending phone numbers.
   name: SimpleTexting Tenant API
   slug: simpletexting-tenant-api
-- description: Subscribe to platform events via HTTP callbacks.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: Subscribe to platform events via HTTP callbacks.
   name: SimpleTexting Webhooks API
   slug: simpletexting-webhooks-api
-- description: The Tenant phones API from SimpleTexting — 1 operation(s) for tenant phones.
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: The Tenant phones API from SimpleTexting — 1 operation(s) for tenant phones.
   name: SimpleTexting Tenant phones API
   slug: simpletexting-tenant-phones-api
-- description: 'Use webhooks to communicate between the SimpleTexting platform and your server. Webhooks can be used to forward messages as well as provide info about unsubscribes and message delivery. SimpleTexting '
+- baseURL: https://api-app2.simpletexting.com/v2
+  baseurl_source: declared
+  description: 'Use webhooks to communicate between the SimpleTexting platform and your server. Webhooks can be used to forward messages as well as provide info about unsubscribes and message delivery. SimpleTexting '
   name: SimpleTexting Webhook Reports API
   slug: simpletexting-webhook-reports-api
 artifact_total: 32
@@ -290,7 +314,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -300,7 +324,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 57.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,7 +342,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/screenshots/simpletexting-2026-06-20T193933.png
 security:

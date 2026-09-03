@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The GraphQL API from Stitch — 1 operation(s) for graphql.
+- baseURL: https://api.stitch.money/graphql
+  baseurl_source: declared
+  description: The GraphQL API from Stitch — 1 operation(s) for graphql.
   name: Stitch GraphQL API
   slug: stitch-money-graphql-api
 artifact_total: 12
@@ -140,7 +142,7 @@ score:
   band: thin
   composite: 38.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +171,9 @@ score:
     regime_id: banking_open_finance
     score: 22.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stitch-money/refs/heads/main/screenshots/stitch-money-2026-09-02T160909.png
 security:
 - kind: authentication
   name: Stitch Money Authentication

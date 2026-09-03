@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: Macquarie's DEFT payments platform, surfaced through the registered Macquarie developer portal, lets businesses build branded payment experiences with tokenised credit card, bank account and direct de
   name: Macquarie DEFT Payments API
   slug: macquarie-deft-payments-api
-- description: Banking Account Balance endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Macquarie Bank Banking Account Balances API
   slug: macquarie-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Macquarie Bank Banking Account Direct Debits API
   slug: macquarie-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Macquarie Bank Banking Account Scheduled Payments API
   slug: macquarie-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Macquarie Bank Banking Account Transactions API
   slug: macquarie-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Macquarie Bank Banking Accounts API
   slug: macquarie-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Macquarie Bank Banking Payees API
   slug: macquarie-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.macquariebank.io/cds-au/v1/banking
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Macquarie Bank Banking Products API
   slug: macquarie-bank-banking-products-api
 artifact_total: 23
@@ -275,7 +289,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png
 security:

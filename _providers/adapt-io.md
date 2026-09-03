@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: Search the company database using firmographic filters.
+- baseURL: https://api.adapt.io/v3
+  baseurl_source: declared
+  description: Search the company database using firmographic filters.
   name: Adapt Company Search API
   slug: adapt-io-company-search-api
-- description: Enrich a known contact with verified email and phone data.
+- baseURL: https://api.adapt.io/v3
+  baseurl_source: declared
+  description: Enrich a known contact with verified email and phone data.
   name: Adapt Contact Enrichment API
   slug: adapt-io-contact-enrichment-api
-- description: Purchase contacts returned from search to reveal email and phone.
+- baseURL: https://api.adapt.io/v3
+  baseurl_source: declared
+  description: Purchase contacts returned from search to reveal email and phone.
   name: Adapt Contact Purchase API
   slug: adapt-io-contact-purchase-api
-- description: Search the contact database using contact and company filters.
+- baseURL: https://api.adapt.io/v3
+  baseurl_source: declared
+  description: Search the contact database using contact and company filters.
   name: Adapt Contact Search API
   slug: adapt-io-contact-search-api
 artifact_total: 41
@@ -357,7 +365,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapt-io/refs/heads/main/screenshots/adapt-io-2026-06-20T164545.png
 security:

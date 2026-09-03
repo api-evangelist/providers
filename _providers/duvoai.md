@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 213 operations · 124 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: Organize agents into folders
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Organize agents into folders
   name: duvo.ai Agent Folders API
   slug: duvoai-agent-folders-api
-- description: Read an agent's memory files (the Memory feature in the Duvo UI)
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Read an agent's memory files (the Memory feature in the Duvo UI)
   name: duvo.ai Agent Memory API
   slug: duvoai-agent-memory-api
-- description: Create and manage agents for automation workloads
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Create and manage agents for automation workloads
   name: duvo.ai Agents API
   slug: duvoai-agents-api
-- description: Configure case triggers that automatically dispatch agent runs (Runs in the Duvo UI) for cases added to a queue
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Configure case triggers that automatically dispatch agent runs (Runs in the Duvo UI) for cases added to a queue
   name: duvo.ai Case Triggers API
   slug: duvoai-case-triggers-api
-- description: Create, list, and manage cases and their labels within queues
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Create, list, and manage cases and their labels within queues
   name: duvo.ai Cases API
   slug: duvoai-cases-api
-- description: The Clarity API from duvo.ai — 17 operation(s) for clarity.
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: The Clarity API from duvo.ai — 17 operation(s) for clarity.
   name: duvo.ai Clarity API
   slug: duvoai-clarity-api
-- description: Manage Clarity v2 process snapshots, transformation proposals, and the extra-capture-request follow-up loop
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage Clarity v2 process snapshots, transformation proposals, and the extra-capture-request follow-up loop
   name: duvo.ai ClarityV2 API
   slug: duvoai-clarityv2-api
-- description: Manage your connected integrations
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage your connected integrations
   name: duvo.ai Connections API
   slug: duvoai-connections-api
-- description: Manage logins (domain + username + password + TOTP) used by agents to sign in to websites and desktop applications, and attach them to assignment revisions
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage logins (domain + username + password + TOTP) used by agents to sign in to websites and desktop applications, and attach them to assignment revisions
   name: duvo.ai Credentials API
   slug: duvoai-credentials-api
-- description: Create, list, iterate on, and delete Duvo Pulse dashboards — live, agent-generated visualizations of your Duvo data
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Create, list, iterate on, and delete Duvo Pulse dashboards — live, agent-generated visualizations of your Duvo data
   name: duvo.ai Duvo Pulse API
   slug: duvoai-duvo-pulse-api
-- description: Manage team files.
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage team files.
   name: duvo.ai Files API
   slug: duvoai-files-api
-- description: Browse the team's catalog of available integration types
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Browse the team's catalog of available integration types
   name: duvo.ai Integrations API
   slug: duvoai-integrations-api
-- description: MCP JSON-RPC endpoint exposing public API routes as LLM-callable tools
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: MCP JSON-RPC endpoint exposing public API routes as LLM-callable tools
   name: duvo.ai MCP API
   slug: duvoai-mcp-api
-- description: Inspect organizations you belong to and the teams within them
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Inspect organizations you belong to and the teams within them
   name: duvo.ai Organizations API
   slug: duvoai-organizations-api
-- description: Discover plugins that can be referenced from a revision.
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Discover plugins that can be referenced from a revision.
   name: duvo.ai Plugins API
   slug: duvoai-plugins-api
-- description: Manage queues and their agent bindings
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage queues and their agent bindings
   name: duvo.ai Queues API
   slug: duvoai-queues-api
-- description: Attach integrations to assignment revisions, pin specific connections, and link queues
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Attach integrations to assignment revisions, pin specific connections, and link queues
   name: duvo.ai Revision Integrations API
   slug: duvoai-revision-integrations-api
-- description: Create and manage agent revisions — the underlying Setup for an Agent
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Create and manage agent revisions — the underlying Setup for an Agent
   name: duvo.ai Revisions API
   slug: duvoai-revisions-api
-- description: Start, monitor, and manage agent runs (Runs in the Duvo UI)
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Start, monitor, and manage agent runs (Runs in the Duvo UI)
   name: duvo.ai Runs API
   slug: duvoai-runs-api
-- description: Create sandboxes and upload files for agent runs
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Create sandboxes and upload files for agent runs
   name: duvo.ai Sandboxes API
   slug: duvoai-sandboxes-api
-- description: List schedules configured for an agent
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: List schedules configured for an agent
   name: duvo.ai Schedules API
   slug: duvoai-schedules-api
-- description: Manage env-var secrets injected into runs, and attach them to assignment revisions. Only metadata is exposed; values are never returned
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage env-var secrets injected into runs, and attach them to assignment revisions. Only metadata is exposed; values are never returned
   name: duvo.ai Secrets API
   slug: duvoai-secrets-api
-- description: Manage team and system skills (reusable knowledge packs).
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Manage team and system skills (reusable knowledge packs).
   name: duvo.ai Skills API
   slug: duvoai-skills-api
-- description: List, apply, and dismiss an Agent's improvement suggestions (the suggestions inbox in the Duvo UI)
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: List, apply, and dismiss an Agent's improvement suggestions (the suggestions inbox in the Duvo UI)
   name: duvo.ai Suggestions API
   slug: duvoai-suggestions-api
-- description: Inspect the team and members associated with the API key
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Inspect the team and members associated with the API key
   name: duvo.ai Team API
   slug: duvoai-team-api
-- description: Configure event triggers that start a Run automatically when an external event fires (e.g. an email arrives, a Linear issue is created, or a file changes in Google Drive)
+- baseURL: https://api.duvo.ai
+  baseurl_source: declared
+  description: Configure event triggers that start a Run automatically when an external event fires (e.g. an email arrives, a Linear issue is created, or a file changes in Google Drive)
   name: duvo.ai Triggers API
   slug: duvoai-triggers-api
 artifact_total: 59
@@ -359,7 +411,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -369,7 +421,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -381,7 +433,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvoai/refs/heads/main/screenshots/duvoai-2026-07-25T212701.png
 security:

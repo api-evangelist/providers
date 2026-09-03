@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 27 operations · 5 acting
 api_count: 1
 apis:
-- description: The Callback API from GreyNoise Intelligence — 4 operation(s) for callback.
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: The Callback API from GreyNoise Intelligence — 4 operation(s) for callback.
   name: GreyNoise Intelligence Callback API
   slug: greynoise-callback-api
-- description: Endpoints for the community level users
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Endpoints for the community level users
   name: GreyNoise Intelligence Community API
   slug: greynoise-community-api
-- description: Endpoints that are used for retrieving information about Common Vulnerabilities and Exposures (CVEs).
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Endpoints that are used for retrieving information about Common Vulnerabilities and Exposures (CVEs).
   name: GreyNoise Intelligence CVE API
   slug: greynoise-cve-api
-- description: Calls to interface with GNQL (GreyNoise Query Language).
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Calls to interface with GNQL (GreyNoise Query Language).
   name: GreyNoise Intelligence GNQL API
   slug: greynoise-gnql-api
-- description: Calls to identify whether or not an IP address is noise, or get more information about a given IP address.
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Calls to identify whether or not an IP address is noise, or get more information about a given IP address.
   name: GreyNoise Intelligence IP Lookup API
   slug: greynoise-ip-lookup-api
-- description: 'Noise data captures internet scanning activity against GreyNoise sensors deployed globally. The IP Timeline APIs allow temporal analysis and presents the user with a view of how this data has changed '
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: 'Noise data captures internet scanning activity against GreyNoise sensors deployed globally. The IP Timeline APIs allow temporal analysis and presents the user with a view of how this data has changed '
   name: GreyNoise Intelligence IP Timeline API
   slug: greynoise-ip-timeline-api
-- description: Endpoint that are used for retrieving GNQL data over time. Allows users to view hourly snapshots of IP activity for IPs that return for any GNQL query.
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Endpoint that are used for retrieving GNQL data over time. Allows users to view hourly snapshots of IP activity for IPs that return for any GNQL query.
   name: GreyNoise Intelligence Recall API
   slug: greynoise-recall-api
-- description: Endpoints for querying, analyzing, and exporting raw network session (PCAP) data captured by GreyNoise sensors. Use the `scope` parameter to control data access (workspace or demo). Required entitleme
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Endpoints for querying, analyzing, and exporting raw network session (PCAP) data captured by GreyNoise sensors. Use the `scope` parameter to control data access (workspace or demo). Required entitleme
   name: GreyNoise Intelligence Sessions API
   slug: greynoise-sessions-api
-- description: Endpoints for retrieving tag information, metadata, and associated activity data.
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Endpoints for retrieving tag information, metadata, and associated activity data.
   name: GreyNoise Intelligence Tags API
   slug: greynoise-tags-api
-- description: Endpoints that are used for checking status or retrieving basic metadata
+- baseURL: https://api.greynoise.io
+  baseurl_source: declared
+  description: Endpoints that are used for checking status or retrieving basic metadata
   name: GreyNoise Intelligence Utility API
   slug: greynoise-utility-api
 arazzos:
@@ -1096,7 +1116,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/screenshots/greynoise-2026-06-20T182405.png
 security:

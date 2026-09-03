@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -47,49 +47,79 @@ apis:
 - description: Bright Data's Model Context Protocol server exposes 60+ web-access tools (search, scrape, structured extraction, browser automation, datasets) to MCP-compatible clients including Claude Desktop, Claud
   name: Bright Data MCP Server
   slug: mcp-server
-- description: The Access API from Bright Data — 3 operation(s) for access.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Access API from Bright Data — 3 operation(s) for access.
   name: Bright Data Access API
   slug: bright-data-access-api
-- description: The Archive API from Bright Data — 4 operation(s) for archive.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Archive API from Bright Data — 4 operation(s) for archive.
   name: Bright Data Archive API
   slug: bright-data-archive-api
-- description: The Billing API from Bright Data — 2 operation(s) for billing.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Billing API from Bright Data — 2 operation(s) for billing.
   name: Bright Data Billing API
   slug: bright-data-billing-api
-- description: The Datasets API from Bright Data — 2 operation(s) for datasets.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Datasets API from Bright Data — 2 operation(s) for datasets.
   name: Bright Data Datasets API
   slug: bright-data-datasets-api
-- description: The Delivery API from Bright Data — 2 operation(s) for delivery.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Delivery API from Bright Data — 2 operation(s) for delivery.
   name: Bright Data Delivery API
   slug: bright-data-delivery-api
-- description: The IPs API from Bright Data — 2 operation(s) for ips.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The IPs API from Bright Data — 2 operation(s) for ips.
   name: Bright Data IPs API
   slug: bright-data-ips-api
-- description: The Lookup API from Bright Data — 6 operation(s) for lookup.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Lookup API from Bright Data — 6 operation(s) for lookup.
   name: Bright Data Lookup API
   slug: bright-data-lookup-api
-- description: The Proxies API from Bright Data — 4 operation(s) for proxies.
+- baseURL: http://localhost:22999
+  baseurl_source: spec
+  description: The Proxies API from Bright Data — 4 operation(s) for proxies.
   name: Bright Data Proxies API
   slug: bright-data-proxies-api
-- description: Trigger and monitor asynchronous scraping jobs.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: Trigger and monitor asynchronous scraping jobs.
   name: Bright Data Scrape API
   slug: bright-data-scrape-api
-- description: Inspect active Scraping Browser sessions.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: Inspect active Scraping Browser sessions.
   name: Bright Data Sessions API
   slug: bright-data-sessions-api
-- description: The Shield API from Bright Data — 4 operation(s) for shield.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Shield API from Bright Data — 4 operation(s) for shield.
   name: Bright Data Shield API
   slug: bright-data-shield-api
-- description: The Snapshots API from Bright Data — 6 operation(s) for snapshots.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Snapshots API from Bright Data — 6 operation(s) for snapshots.
   name: Bright Data Snapshots API
   slug: bright-data-snapshots-api
-- description: The Tokens API from Bright Data — 1 operation(s) for tokens.
+- baseURL: http://localhost:22999
+  baseurl_source: spec
+  description: The Tokens API from Bright Data — 1 operation(s) for tokens.
   name: Bright Data Tokens API
   slug: bright-data-tokens-api
-- description: Submit and retrieve unlock requests.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: Submit and retrieve unlock requests.
   name: Bright Data Unlock API
   slug: bright-data-unlock-api
-- description: The Zones API from Bright Data — 3 operation(s) for zones.
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The Zones API from Bright Data — 3 operation(s) for zones.
   name: Bright Data Zones API
   slug: bright-data-zones-api
 arazzos:
@@ -528,17 +558,17 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 13.6
-    contract_quality: 64.9
+    contract_quality: 65.0
     developer_ergonomics: 59.5
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 53.3
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -547,7 +577,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
 security:

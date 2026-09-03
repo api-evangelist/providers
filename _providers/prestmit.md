@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Prestmit Partner API allows developers to automate the buying and selling of gift cards, manage wallet balances and payouts, and integrate Prestmit transactions into their own applications. The AP
   name: Prestmit Partner API
   slug: prestmit-partner-api
-- description: Manage Naira and Cedis payout bank accounts.
+- baseURL: https://api.prestmit.io
+  baseurl_source: spec
+  description: Manage Naira and Cedis payout bank accounts.
   name: Prestmit Bank Accounts API
   slug: prestmit-bank-accounts-api
-- description: Account profile, commissions, service availability, and bank lookups.
+- baseURL: https://api.prestmit.io
+  baseurl_source: spec
+  description: Account profile, commissions, service availability, and bank lookups.
   name: Prestmit General API
   slug: prestmit-general-api
-- description: Purchase gift cards programmatically.
+- baseURL: https://api.prestmit.io
+  baseurl_source: spec
+  description: Purchase gift cards programmatically.
   name: Prestmit Gift Cards - Buy API
   slug: prestmit-gift-cards-buy-api
-- description: Sell gift cards and configure payout methods.
+- baseURL: https://api.prestmit.io
+  baseurl_source: spec
+  description: Sell gift cards and configure payout methods.
   name: Prestmit Gift Cards - Sell API
   slug: prestmit-gift-cards-sell-api
-- description: Reference data for banks, gift card categories, and payout methods.
+- baseURL: https://api.prestmit.io
+  baseurl_source: spec
+  description: Reference data for banks, gift card categories, and payout methods.
   name: Prestmit Lookup API
   slug: prestmit-lookup-api
-- description: Wallet balance and fiat withdrawal management.
+- baseURL: https://api.prestmit.io
+  baseurl_source: spec
+  description: Wallet balance and fiat withdrawal management.
   name: Prestmit Wallet API
   slug: prestmit-wallet-api
 artifact_total: 21
@@ -210,7 +222,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/screenshots/prestmit-2026-06-20T192051.png
 security:

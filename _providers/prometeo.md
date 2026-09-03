@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 5
@@ -47,19 +47,29 @@ apis:
 - description: Government / fiscal data access - Colombia DIAN, Mexico SAT and CEP (payment receipt), and Uruguay BCU (central bank) filings and statements. Sandbox host fiscal.sandbox.prometeoapi.com.
   name: Prometeo Fiscal API
   slug: prometeo-fiscal-api
-- description: Real-time bank account verification / ownership checks.
+- baseURL: https://banking.prometeoapi.net
+  baseurl_source: declared
+  description: Real-time bank account verification / ownership checks.
   name: Prometeo Account Validation API
   slug: prometeo-account-validation-api
-- description: Bank account access, movements, transfers, credit cards, providers.
+- baseURL: https://banking.prometeoapi.net
+  baseurl_source: declared
+  description: Bank account access, movements, transfers, credit cards, providers.
   name: Prometeo Banking API
   slug: prometeo-banking-api
-- description: Pay-in intents, payouts over local rails, and FX exchange.
+- baseURL: https://banking.prometeoapi.net
+  baseurl_source: declared
+  description: Pay-in intents, payouts over local rails, and FX exchange.
   name: Prometeo Cross-Border API
   slug: prometeo-cross-border-api
-- description: Mexico CURP query and reverse query.
+- baseURL: https://banking.prometeoapi.net
+  baseurl_source: declared
+  description: Mexico CURP query and reverse query.
   name: Prometeo Identity API
   slug: prometeo-identity-api
-- description: Account-to-account (open banking initiated) payment intents.
+- baseURL: https://banking.prometeoapi.net
+  baseurl_source: declared
+  description: Account-to-account (open banking initiated) payment intents.
   name: Prometeo Payment API
   slug: prometeo-payment-api
 artifact_total: 27
@@ -302,7 +312,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -312,7 +322,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.8
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,7 +344,7 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometeo/refs/heads/main/screenshots/prometeo-2026-08-17T081352.png
 security:

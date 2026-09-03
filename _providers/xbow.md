@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 40 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Endpoints related to assessments for assets. All endpoints require an _organization_ API key.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Endpoints related to assessments for assets. All endpoints require an _organization_ API key.
   name: Xbow Assessments API
   slug: xbow-assessments-api
-- description: Endpoints related to assets within an organization. All endpoints require an _organization_ API key.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Endpoints related to assets within an organization. All endpoints require an _organization_ API key.
   name: Xbow Assets API
   slug: xbow-assets-api
-- description: Endpoints for viewing and managing findings. All endpoints require an _organization_ API key.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Endpoints for viewing and managing findings. All endpoints require an _organization_ API key.
   name: Xbow Findings API
   slug: xbow-findings-api
-- description: Endpoints related to Lightspeed assessment requests.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Endpoints related to Lightspeed assessment requests.
   name: Xbow Lightspeed API
   slug: xbow-lightspeed-api
-- description: Instance metadata endpoints.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Instance metadata endpoints.
   name: Xbow Meta API
   slug: xbow-meta-api
-- description: Endpoints related to organizations and their management.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Endpoints related to organizations and their management.
   name: Xbow Organizations API
   slug: xbow-organizations-api
-- description: Endpoints for downloading and viewing reports. All endpoints require an _organization_ API key.
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Endpoints for downloading and viewing reports. All endpoints require an _organization_ API key.
   name: Xbow Reports API
   slug: xbow-reports-api
-- description: 'Upload and manage files used in assessments, such as source code archives. All endpoints require an _organization_ API key. ## Upload flow Resources use a multipart S3 upload. The full flow is: 1. **C'
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: 'Upload and manage files used in assessments, such as source code archives. All endpoints require an _organization_ API key. ## Upload flow Resources use a multipart S3 upload. The full flow is: 1. **C'
   name: Xbow Resources API
   slug: xbow-resources-api
-- description: Manage webhook subscriptions and receive event notifications. When creating an organization, you may provide an HTTPS webhook URL to receive events related to the organization's resources. We implemen
+- baseURL: https://console.xbow.com/api/v1
+  baseurl_source: declared
+  description: Manage webhook subscriptions and receive event notifications. When creating an organization, you may provide an HTTPS webhook URL to receive events related to the organization's resources. We implemen
   name: Xbow Webhooks API
   slug: xbow-webhooks-api
 artifact_total: 26
@@ -263,7 +281,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -273,7 +291,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 54.1
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xbow/refs/heads/main/screenshots/xbow-2026-08-17T083001.png
 security:

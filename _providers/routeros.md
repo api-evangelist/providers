@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: 'The RouterOS TCP API is the native binary protocol for RouterOS, running on TCP port 8728 (standard) and TCP port 8729 (SSL/TLS). It uses a sentence-based word protocol with variable-length encoding, '
   name: RouterOS TCP API
   slug: routeros-tcp-api
-- description: Bridge interface management
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: Bridge interface management
   name: RouterOS Bridge API
   slug: routeros-bridge-api
-- description: DHCP server and client management
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: DHCP server and client management
   name: RouterOS DHCP API
   slug: routeros-dhcp-api
-- description: DNS cache and configuration
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: DNS cache and configuration
   name: RouterOS DNS API
   slug: routeros-dns-api
-- description: Firewall rules, NAT, and address lists
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: Firewall rules, NAT, and address lists
   name: RouterOS Firewall API
   slug: routeros-firewall-api
-- description: Network interface management
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: Network interface management
   name: RouterOS Interface API
   slug: routeros-interface-api
-- description: IP address configuration and management
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: IP address configuration and management
   name: RouterOS IP Address API
   slug: routeros-ip-address-api
-- description: Routing tables, BGP, OSPF, and static routes
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: Routing tables, BGP, OSPF, and static routes
   name: RouterOS Routing API
   slug: routeros-routing-api
-- description: System information, identity, and scripts
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: System information, identity, and scripts
   name: RouterOS System API
   slug: routeros-system-api
-- description: VPN tunnels and configurations
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: VPN tunnels and configurations
   name: RouterOS VPN API
   slug: routeros-vpn-api
-- description: Wireless interface and station management
+- baseURL: https://{router-ip}/rest
+  baseurl_source: declared
+  description: Wireless interface and station management
   name: RouterOS Wireless API
   slug: routeros-wireless-api
 artifact_total: 40
@@ -270,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routeros/refs/heads/main/screenshots/routeros-2026-06-20T193227.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: REST API for organizing CIDs into named Groups with bulk add/remove operations.
   name: Pinata Groups API
   slug: groups-api
-- description: Test API credentials.
+- baseURL: https://api.pinata.cloud/v3
+  baseurl_source: declared
+  description: Test API credentials.
   name: Pinata Auth API
   slug: pinata-auth-api
-- description: Upload, list, and manage pinned files.
+- baseURL: https://api.pinata.cloud/v3
+  baseurl_source: declared
+  description: Upload, list, and manage pinned files.
   name: Pinata Files API
   slug: pinata-files-api
 artifact_total: 16
@@ -173,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinata/refs/heads/main/screenshots/pinata-2026-06-20T191714.png
 security:

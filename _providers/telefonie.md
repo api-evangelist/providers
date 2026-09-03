@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations · 11 acting
 api_count: 4
 apis:
-- description: Search for phone numbers to purchase
+- baseURL: https://api.telefonie.com/v1/voice
+  baseurl_source: declared
+  description: Search for phone numbers to purchase
   name: Telefonie Available Numbers API
   slug: telefonie-available-numbers-api
-- description: Make and manage voice calls
+- baseURL: https://api.telefonie.com/v1/voice
+  baseurl_source: declared
+  description: Make and manage voice calls
   name: Telefonie Calls API
   slug: telefonie-calls-api
-- description: Multi-party conferencing
+- baseURL: https://api.telefonie.com/v1/voice
+  baseurl_source: declared
+  description: Multi-party conferencing
   name: Telefonie Conferences API
   slug: telefonie-conferences-api
-- description: Send and receive SMS/MMS messages
+- baseURL: https://api.telefonie.com/v1/voice
+  baseurl_source: declared
+  description: Send and receive SMS/MMS messages
   name: Telefonie Messages API
   slug: telefonie-messages-api
-- description: Manage phone numbers in your account
+- baseURL: https://api.telefonie.com/v1/voice
+  baseurl_source: declared
+  description: Manage phone numbers in your account
   name: Telefonie Owned Numbers API
   slug: telefonie-owned-numbers-api
-- description: Manage call recordings
+- baseURL: https://api.telefonie.com/v1/voice
+  baseurl_source: declared
+  description: Manage call recordings
   name: Telefonie Recordings API
   slug: telefonie-recordings-api
 artifact_total: 36
@@ -290,7 +302,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/screenshots/telefonie-2026-06-20T195029.png
 security:

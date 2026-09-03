@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,25 +45,39 @@ agentic_access:
   summary_line: 19 operations · 1 acting
 api_count: 2
 apis:
-- description: Behaviour APIs
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: Behaviour APIs
   name: Aquabyte Behaviour API
   slug: aquabyte-behaviour-api
-- description: Biomass APIs
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: Biomass APIs
   name: Aquabyte Biomass API
   slug: aquabyte-biomass-api
-- description: The Environmental API from Aquabyte — 2 operation(s) for environmental.
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: The Environmental API from Aquabyte — 2 operation(s) for environmental.
   name: Aquabyte Environmental API
   slug: aquabyte-environmental-api
-- description: Lice APIs
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: Lice APIs
   name: Aquabyte Lice API
   slug: aquabyte-lice-api
-- description: The Sites API from Aquabyte — 2 operation(s) for sites.
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: The Sites API from Aquabyte — 2 operation(s) for sites.
   name: Aquabyte Sites API
   slug: aquabyte-sites-api
-- description: Deprecated. Use v3.1 equivalents.
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: Deprecated. Use v3.1 equivalents.
   name: Aquabyte V3.0 API
   slug: aquabyte-v3-0-api
-- description: Welfare APIs
+- baseURL: https://api.aquabyte.ai/v3
+  baseurl_source: declared
+  description: Welfare APIs
   name: Aquabyte Welfare API
   slug: aquabyte-welfare-api
 artifact_total: 19
@@ -191,7 +217,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png
 security:

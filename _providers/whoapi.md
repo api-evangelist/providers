@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: A single HTTP GET endpoint (api.whoapi.com) exposing nine domain-intelligence tasks selected by the `r` query parameter — whois, taken (availability), cert (SSL), domainscore and domainscore-check, em
+- baseURL: https://api.whoapi.com/
+  baseurl_source: declared
+  description: A single HTTP GET endpoint (api.whoapi.com) exposing nine domain-intelligence tasks selected by the `r` query parameter — whois, taken (availability), cert (SSL), domainscore and domainscore-check, em
   name: WhoAPI Domain Intelligence API
   slug: whoapi-domain-intelligence-api
 artifact_total: 10
@@ -211,7 +213,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -221,7 +223,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 45.3
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoapi/refs/heads/main/screenshots/whoapi-2026-08-17T082916.png
 security:

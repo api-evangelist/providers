@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations for managing challenges that members complete to earn points and rewards.
+- baseURL: https://api.harbor.gg/v1
+  baseurl_source: spec
+  description: Operations for managing challenges that members complete to earn points and rewards.
   name: Harbor Challenges API
   slug: harbor-challenges-api
-- description: Operations for managing community configuration and settings.
+- baseURL: https://api.harbor.gg/v1
+  baseurl_source: spec
+  description: Operations for managing community configuration and settings.
   name: Harbor Communities API
   slug: harbor-communities-api
-- description: Operations for retrieving leaderboard rankings of community members by points or other engagement metrics.
+- baseURL: https://api.harbor.gg/v1
+  baseurl_source: spec
+  description: Operations for retrieving leaderboard rankings of community members by points or other engagement metrics.
   name: Harbor Leaderboards API
   slug: harbor-leaderboards-api
-- description: Operations for managing community members, their profiles, point balances, and tier status.
+- baseURL: https://api.harbor.gg/v1
+  baseurl_source: spec
+  description: Operations for managing community members, their profiles, point balances, and tier status.
   name: Harbor Members API
   slug: harbor-members-api
-- description: Operations for managing reward redemption requests from members.
+- baseURL: https://api.harbor.gg/v1
+  baseurl_source: spec
+  description: Operations for managing reward redemption requests from members.
   name: Harbor Redemptions API
   slug: harbor-redemptions-api
-- description: Operations for managing the rewards catalog that members can redeem with earned points.
+- baseURL: https://api.harbor.gg/v1
+  baseurl_source: spec
+  description: Operations for managing the rewards catalog that members can redeem with earned points.
   name: Harbor Rewards API
   slug: harbor-rewards-api
 artifact_total: 24
@@ -203,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/screenshots/harbor-2026-06-20T182512.png
 security:

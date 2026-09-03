@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Operations related to Clojars artifacts and releases
+- baseURL: https://clojars.org/api
+  baseurl_source: declared
+  description: Operations related to Clojars artifacts and releases
   name: Clojars Artifacts API
   slug: clojars-artifacts-api
-- description: Release feed and bulk data operations
+- baseURL: https://clojars.org/api
+  baseurl_source: declared
+  description: Release feed and bulk data operations
   name: Clojars Feeds API
   slug: clojars-feeds-api
-- description: Operations related to Clojars artifact groups
+- baseURL: https://clojars.org/api
+  baseurl_source: declared
+  description: Operations related to Clojars artifact groups
   name: Clojars Groups API
   slug: clojars-groups-api
-- description: Search operations across the Clojars artifact index
+- baseURL: https://clojars.org/api
+  baseurl_source: declared
+  description: Search operations across the Clojars artifact index
   name: Clojars Search API
   slug: clojars-search-api
-- description: Operations related to Clojars user profiles and group memberships
+- baseURL: https://clojars.org/api
+  baseurl_source: declared
+  description: Operations related to Clojars user profiles and group memberships
   name: Clojars Users API
   slug: clojars-users-api
 artifact_total: 26
@@ -217,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clojars/refs/heads/main/screenshots/clojars-2026-06-20T174532.png
 security:

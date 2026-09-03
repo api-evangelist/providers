@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,25 +45,39 @@ agentic_access:
   summary_line: 23 operations
 api_count: 7
 apis:
-- description: Public, unauthenticated read access to the Metalenz newsroom via the WordPress core REST API. The `post` content type on metalenz.com is registered with the label "Press Releases" and carries the comp
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Metalenz newsroom via the WordPress core REST API. The `post` content type on metalenz.com is registered with the label "Press Releases" and carries the comp
   name: Metalenz Press Releases API
   slug: metalenz-press-releases-api
-- description: Public, unauthenticated read access to the static page tree behind metalenz.com — the Polar ID, Polar 3D, PolarEyes, Orion and Gemini product pages, the meta-optics and foundational technology explain
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static page tree behind metalenz.com — the Polar ID, Polar 3D, PolarEyes, Orion and Gemini product pages, the meta-optics and foundational technology explain
   name: Metalenz Pages API
   slug: metalenz-pages-api
-- description: Public, unauthenticated read access to the media library behind metalenz.com — Polar ID and Polar 3D product imagery, metasurface and meta-optics diagrams, conference and event photography, leadership
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind metalenz.com — Polar ID and Polar 3D product imagery, metasurface and meta-optics diagrams, conference and event photography, leadership
   name: Metalenz Media API
   slug: metalenz-media-api
-- description: Public, unauthenticated read access to the classification layer over the Metalenz newsroom — the `category` taxonomy and the `post_tag` taxonomy, with their term records, counts and archive links. Ver
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the classification layer over the Metalenz newsroom — the `category` taxonomy and the `post_tag` taxonomy, with their term records, counts and archive links. Ver
   name: Metalenz Taxonomy API
   slug: metalenz-taxonomy-api
-- description: Public, unauthenticated cross-content search over metalenz.com — press releases and static pages together — returning lightweight id / title / url / type / subtype records that link back to the full o
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over metalenz.com — press releases and static pages together — returning lightweight id / title / url / type / subtype records that link back to the full o
   name: Metalenz Search API
   slug: metalenz-search-api
-- description: The self-describing surface of the metalenz.com WordPress REST API — the route index, the per-namespace indexes, the registered content types and taxonomies, the publication statuses, the public autho
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: The self-describing surface of the metalenz.com WordPress REST API — the route index, the per-namespace indexes, the registered content types and taxonomies, the publication statuses, the public autho
   name: Metalenz Discovery API
   slug: metalenz-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for metalenz.com URLs, returning embeddable rich metadata — title, author, provider, thumbnail and iframe HTML — for any published post or page. The endpoint is adv
+- baseURL: https://metalenz.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for metalenz.com URLs, returning embeddable rich metadata — title, author, provider, thumbnail and iframe HTML — for any published post or page. The endpoint is adv
   name: Metalenz oEmbed API
   slug: metalenz-oembed-api
 artifact_total: 12
@@ -218,11 +244,11 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -232,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.9
+  previous_composite: 18.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +270,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/screenshots/metalenz-2026-09-02T150607.png
 security:
 - kind: authentication
   name: Metalenz Authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: The Check Payroll API is a comprehensive REST API for embedding end-to-end U.S. payroll inside another platform. It models companies, workplaces, employees, contractors, pay schedules, paydays, payrol
@@ -155,7 +155,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -165,7 +165,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 20.8
+  previous_composite: 20.7
   regulatory:
     applies: true
     matched_via: tags
@@ -173,7 +173,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/screenshots/check-hq-2026-06-20T174239.png
 security:

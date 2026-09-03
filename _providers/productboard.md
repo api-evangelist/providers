@@ -32,40 +32,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for managing features, components, products, notes (customer feedback), users, companies, objectives, releases, and webhooks within Productboard. Supports both v1 and v2 endpoints. Authentica
   name: Productboard Public API
   slug: public-api
-- description: The Entities API from Productboard — 5 operation(s) for entities.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Entities API from Productboard — 5 operation(s) for entities.
   name: Productboard Entities API
   slug: productboard-entities-api
-- description: The Entity Field Values API from Productboard — 2 operation(s) for entity field values.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Entity Field Values API from Productboard — 2 operation(s) for entity field values.
   name: Productboard Entity Field Values API
   slug: productboard-entity-field-values-api
-- description: The Entity Relationships API from Productboard — 2 operation(s) for entity relationships.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Entity Relationships API from Productboard — 2 operation(s) for entity relationships.
   name: Productboard Entity Relationships API
   slug: productboard-entity-relationships-api
-- description: The Jira Integrations API from Productboard — 4 operation(s) for jira integrations.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Jira Integrations API from Productboard — 4 operation(s) for jira integrations.
   name: Productboard Jira Integrations API
   slug: productboard-jira-integrations-api
-- description: The Members API from Productboard — 4 operation(s) for members.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Members API from Productboard — 4 operation(s) for members.
   name: Productboard Members API
   slug: productboard-members-api
-- description: The Note Relationships API from Productboard — 3 operation(s) for note relationships.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Note Relationships API from Productboard — 3 operation(s) for note relationships.
   name: Productboard Note Relationships API
   slug: productboard-note-relationships-api
-- description: The Notes API from Productboard — 5 operation(s) for notes.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Notes API from Productboard — 5 operation(s) for notes.
   name: Productboard Notes API
   slug: productboard-notes-api
-- description: The Plugin Integrations API from Productboard — 5 operation(s) for plugin integrations.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Plugin Integrations API from Productboard — 5 operation(s) for plugin integrations.
   name: Productboard Plugin Integrations API
   slug: productboard-plugin-integrations-api
-- description: The Teams API from Productboard — 4 operation(s) for teams.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Teams API from Productboard — 4 operation(s) for teams.
   name: Productboard Teams API
   slug: productboard-teams-api
-- description: The Webhooks API from Productboard — 2 operation(s) for webhooks.
+- baseURL: https://api.productboard.com
+  baseurl_source: declared
+  description: The Webhooks API from Productboard — 2 operation(s) for webhooks.
   name: Productboard Webhooks API
   slug: productboard-webhooks-api
 artifact_total: 26
@@ -199,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/screenshots/productboard-2026-06-20T192139.png
 security:

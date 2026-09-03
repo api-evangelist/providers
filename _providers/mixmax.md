@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 24 operations · 13 acting
 api_count: 1
 apis:
-- description: Contact groups you own or that are shared with you — deprecated
+- baseURL: https://api.mixmax.com/v1
+  baseurl_source: declared
+  description: Contact groups you own or that are shared with you — deprecated
   name: Mixmax Contact Groups API
   slug: mixmax-contact-groups-api
-- description: Mixmax Contacts (people you've emailed) — deprecated resource group
+- baseURL: https://api.mixmax.com/v1
+  baseurl_source: declared
+  description: Mixmax Contacts (people you've emailed) — deprecated resource group
   name: Mixmax Contacts API
   slug: mixmax-contacts-api
-- description: File requests you've sent out
+- baseURL: https://api.mixmax.com/v1
+  baseurl_source: declared
+  description: File requests you've sent out
   name: Mixmax File Requests API
   slug: mixmax-file-requests-api
-- description: Meeting Copilot summaries and transcripts (requires mixmaxApi feature)
+- baseURL: https://api.mixmax.com/v1
+  baseurl_source: declared
+  description: Meeting Copilot summaries and transcripts (requires mixmaxApi feature)
   name: Mixmax Meetings API
   slug: mixmax-meetings-api
-- description: Sequences you have access to, and their recipients
+- baseURL: https://api.mixmax.com/v1
+  baseurl_source: declared
+  description: Sequences you have access to, and their recipients
   name: Mixmax Sequences API
   slug: mixmax-sequences-api
-- description: Snippet tag management
+- baseURL: https://api.mixmax.com/v1
+  baseurl_source: declared
+  description: Snippet tag management
   name: Mixmax Snippet Tags API
   slug: mixmax-snippet-tags-api
 artifact_total: 22
@@ -247,7 +259,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -257,7 +269,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 51.2
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,7 +281,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/screenshots/mixmax-2026-08-07T183824.png
 security:

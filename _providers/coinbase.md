@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -53,82 +53,134 @@ apis:
 - description: Coinbase AgentKit is a toolkit that enables AI agents to interact with blockchain networks through secure wallet management and comprehensive onchain capabilities. Built on the Coinbase Developer Plat
   name: Coinbase AgentKit
   slug: agentkit
-- description: Manage user accounts and retrieve account information including balances and holds.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage user accounts and retrieve account information including balances and holds.
   name: Coinbase Accounts API
   slug: coinbase-accounts-api
-- description: View activity history for portfolios including trades, transfers, and other events.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: View activity history for portfolios including trades, transfers, and other events.
   name: Coinbase Activities API
   slug: coinbase-activities-api
-- description: Manage approved withdrawal addresses in the address book.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage approved withdrawal addresses in the address book.
   name: Coinbase Address Book API
   slug: coinbase-address-book-api
-- description: View and manage order allocations across sub-portfolios.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: View and manage order allocations across sub-portfolios.
   name: Coinbase Allocations API
   slug: coinbase-allocations-api
-- description: Retrieve information about supported assets and products.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Retrieve information about supported assets and products.
   name: Coinbase Assets API
   slug: coinbase-assets-api
-- description: Retrieve portfolio balance information across all assets.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Retrieve portfolio balance information across all assets.
   name: Coinbase Balances API
   slug: coinbase-balances-api
-- description: Endpoints for discovering buy options, generating buy quotes, and retrieving buy configuration for fiat-to-crypto purchases.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Endpoints for discovering buy options, generating buy quotes, and retrieving buy configuration for fiat-to-crypto purchases.
   name: Coinbase Buy API
   slug: coinbase-buy-api
-- description: Create and manage payment charges. A charge represents a request for cryptocurrency payment from a customer.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Create and manage payment charges. A charge represents a request for cryptocurrency payment from a customer.
   name: Coinbase Charges API
   slug: coinbase-charges-api
-- description: Create and manage reusable checkout pages for accepting recurring or standardized payments.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Create and manage reusable checkout pages for accepting recurring or standardized payments.
   name: Coinbase Checkouts API
   slug: coinbase-checkouts-api
-- description: Convert between stablecoin currencies on the exchange.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Convert between stablecoin currencies on the exchange.
   name: Coinbase Conversions API
   slug: coinbase-conversions-api
-- description: Retrieve information about supported currencies on the exchange.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Retrieve information about supported currencies on the exchange.
   name: Coinbase Currencies API
   slug: coinbase-currencies-api
-- description: View deposit information and payment methods for funding exchange accounts.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: View deposit information and payment methods for funding exchange accounts.
   name: Coinbase Deposits API
   slug: coinbase-deposits-api
-- description: Retrieve webhook events that track the lifecycle of charges, checkouts, and invoices.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Retrieve webhook events that track the lifecycle of charges, checkouts, and invoices.
   name: Coinbase Events API
   slug: coinbase-events-api
-- description: Retrieve transaction summary and fee information for the authenticated user.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Retrieve transaction summary and fee information for the authenticated user.
   name: Coinbase Fees API
   slug: coinbase-fees-api
-- description: Create and manage invoices for billing customers with cryptocurrency payment options.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Create and manage invoices for billing customers with cryptocurrency payment options.
   name: Coinbase Invoices API
   slug: coinbase-invoices-api
-- description: Access public market data including products, order books, trades, and candles without authentication.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Access public market data including products, order books, trades, and candles without authentication.
   name: Coinbase Market Data API
   slug: coinbase-market-data-api
-- description: Create, cancel, and manage trading orders including market, limit, and stop-limit order types.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Create, cancel, and manage trading orders including market, limit, and stop-limit order types.
   name: Coinbase Orders API
   slug: coinbase-orders-api
-- description: Create and manage portfolios for organizing trading activity and asset allocation.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Create and manage portfolios for organizing trading activity and asset allocation.
   name: Coinbase Portfolios API
   slug: coinbase-portfolios-api
-- description: Retrieve product information, market trades, product books, and candle data for trading pairs.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Retrieve product information, market trades, product books, and candle data for trading pairs.
   name: Coinbase Products API
   slug: coinbase-products-api
-- description: Manage exchange profiles and transfer funds between them.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage exchange profiles and transfer funds between them.
   name: Coinbase Profiles API
   slug: coinbase-profiles-api
-- description: Endpoints for discovering sell options and generating sell quotes for crypto-to-fiat transactions.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Endpoints for discovering sell options and generating sell quotes for crypto-to-fiat transactions.
   name: Coinbase Sell API
   slug: coinbase-sell-api
-- description: Manage session tokens for embedded onramp widget authentication.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage session tokens for embedded onramp widget authentication.
   name: Coinbase Session API
   slug: coinbase-session-api
-- description: View and create transactions including withdrawals and transfers.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: View and create transactions including withdrawals and transfers.
   name: Coinbase Transactions API
   slug: coinbase-transactions-api
-- description: Manage users associated with a portfolio.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage users associated with a portfolio.
   name: Coinbase Users API
   slug: coinbase-users-api
-- description: Manage wallets within a portfolio for different asset types.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage wallets within a portfolio for different asset types.
   name: Coinbase Wallets API
   slug: coinbase-wallets-api
-- description: Manage crypto withdrawals from exchange accounts to external addresses or Coinbase accounts.
+- baseURL: https://api.coinbase.com
+  baseurl_source: declared
+  description: Manage crypto withdrawals from exchange accounts to external addresses or Coinbase accounts.
   name: Coinbase Withdrawals API
   slug: coinbase-withdrawals-api
 artifact_total: 146
@@ -618,7 +670,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -628,7 +680,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 44.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -643,7 +695,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:

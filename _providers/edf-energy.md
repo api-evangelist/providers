@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -36,28 +50,44 @@ apis:
 - description: EDF Energy's primary developer API, and the surface EDF markets as its "open tariff APIs". It is the Kraken GraphQL API, licensed from Octopus Energy Group and hosted for EDF GB. Introspection is enab
   name: EDF Kraken GraphQL API
   slug: edf-kraken-graphql-api
-- description: APIs for importing accounts.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: APIs for importing accounts.
   name: EDF Energy Account Import API
   slug: edf-energy-account-import-api
-- description: The data-import API from EDF Energy — 1 operation(s) for data-import.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: The data-import API from EDF Energy — 1 operation(s) for data-import.
   name: EDF Energy Data Import API
   slug: edf-energy-data-import-api
-- description: The external-client-healthcheck API from EDF Energy — 1 operation(s) for external-client-healthcheck.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: The external-client-healthcheck API from EDF Energy — 1 operation(s) for external-client-healthcheck.
   name: EDF Energy External Client Healthcheck API
   slug: edf-energy-external-client-healthcheck-api
-- description: The external-events API from EDF Energy — 1 operation(s) for external-events.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: The external-events API from EDF Energy — 1 operation(s) for external-events.
   name: EDF Energy External Events API
   slug: edf-energy-external-events-api
-- description: APIs for importing additional data after an account has been imported.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: APIs for importing additional data after an account has been imported.
   name: EDF Energy Post Account Import API
   slug: edf-energy-post-account-import-api
-- description: APIs for querying import status and retrieving data
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: APIs for querying import status and retrieving data
   name: EDF Energy Query API
   slug: edf-energy-query-api
-- description: The v1 API from EDF Energy — 23 operation(s) for v1.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: The v1 API from EDF Energy — 23 operation(s) for v1.
   name: EDF Energy V1 API
   slug: edf-energy-v1-api
-- description: The v2 API from EDF Energy — 1 operation(s) for v2.
+- baseURL: https://api.edfgb-kraken.energy/v1/graphql/
+  baseurl_source: declared
+  description: The v2 API from EDF Energy — 1 operation(s) for v2.
   name: EDF Energy V2 API
   slug: edf-energy-v2-api
 artifact_total: 18
@@ -350,7 +380,7 @@ score:
     regime_id: energy_utilities
     score: 78.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/screenshots/edf-energy-2026-08-07T164723.png
 security:

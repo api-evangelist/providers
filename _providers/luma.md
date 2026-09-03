@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 62 operations · 40 acting
 api_count: 1
 apis:
-- description: The Calendars API from Luma — 25 operation(s) for calendars.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Calendars API from Luma — 25 operation(s) for calendars.
   name: Luma Calendars API
   slug: luma-calendars-api
-- description: The Events API from Luma — 21 operation(s) for events.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Events API from Luma — 21 operation(s) for events.
   name: Luma Events API
   slug: luma-events-api
-- description: The Memberships API from Luma — 3 operation(s) for memberships.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Memberships API from Luma — 3 operation(s) for memberships.
   name: Luma Memberships API
   slug: luma-memberships-api
-- description: The Miscellaneous API from Luma — 3 operation(s) for miscellaneous.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Miscellaneous API from Luma — 3 operation(s) for miscellaneous.
   name: Luma Miscellaneous API
   slug: luma-miscellaneous-api
-- description: The Organizations API from Luma — 5 operation(s) for organizations.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Organizations API from Luma — 5 operation(s) for organizations.
   name: Luma Organizations API
   slug: luma-organizations-api
-- description: The Webhooks API from Luma — 5 operation(s) for webhooks.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Webhooks API from Luma — 5 operation(s) for webhooks.
   name: Luma Webhooks API
   slug: luma-webhooks-api
-- description: The Webhook Types API from Luma — 0 operation(s) for webhook types.
+- baseURL: https://public-api.luma.com
+  baseurl_source: declared
+  description: The Webhook Types API from Luma — 0 operation(s) for webhook types.
   name: Luma Webhook Types API
   slug: luma-webhook-types-api
 artifact_total: 223
@@ -815,7 +829,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/screenshots/luma-2026-06-20T184751.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Extract structured data from PDF documents and images (JPEG, PNG) using AgentQL query language or natural language prompts. Useful for processing invoices, reports, and other document formats.
   name: AgentQL Query Document API
   slug: query-document-api
-- description: Extract structured data from web pages using AgentQL queries
+- baseURL: https://api.agentql.com
+  baseurl_source: declared
+  description: Extract structured data from web pages using AgentQL queries
   name: AgentQL Query Data API
   slug: agentql-query-data-api
-- description: Extract structured data from PDF and image documents
+- baseURL: https://api.agentql.com
+  baseurl_source: declared
+  description: Extract structured data from PDF and image documents
   name: AgentQL Query Document API
   slug: agentql-query-document-api
-- description: Manage remote Chrome browser sessions with CDP access
+- baseURL: https://api.agentql.com
+  baseurl_source: declared
+  description: Manage remote Chrome browser sessions with CDP access
   name: AgentQL Remote Browser API
   slug: agentql-remote-browser-api
 artifact_total: 50
@@ -288,7 +294,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/screenshots/agentql-2026-06-20T170057.png
 security:

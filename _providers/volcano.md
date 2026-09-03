@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 3
 apis:
-- description: Operations for managing Volcano Job (vcjob) custom resources. A Volcano Job defines a batch workload with one or more task groups, lifecycle policies, and scheduling requirements.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing Volcano Job (vcjob) custom resources. A Volcano Job defines a batch workload with one or more task groups, lifecycle policies, and scheduling requirements.
   name: Volcano Jobs API
   slug: volcano-jobs-api
-- description: Operations for managing Volcano PodGroup custom resources. PodGroups define gang scheduling units with minimum availability requirements and queue assignment.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing Volcano PodGroup custom resources. PodGroups define gang scheduling units with minimum availability requirements and queue assignment.
   name: Volcano PodGroups API
   slug: volcano-podgroups-api
-- description: Operations for managing Volcano Queue cluster-scoped custom resources. Queues define scheduling namespaces with weight-based fair sharing, resource capacity, and state management for batch workloads.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing Volcano Queue cluster-scoped custom resources. Queues define scheduling namespaces with weight-based fair sharing, resource capacity, and state management for batch workloads.
   name: Volcano Queues API
   slug: volcano-queues-api
 artifact_total: 23
@@ -263,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/screenshots/volcano-2026-06-20T201130.png
 security:

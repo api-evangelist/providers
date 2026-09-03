@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: REST API for managing pipeline approvals and checks on resources such as environments, service connections, agent pools, variable groups, and secure files. Provides the ability to create and modify ch
   name: Azure Pipelines Approvals and Checks REST API
   slug: azure-pipelines-approvals-and-checks-rest-api
-- description: Operations for listing and retrieving artifacts produced by pipeline runs including compiled outputs, test results, and published files.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for listing and retrieving artifacts produced by pipeline runs including compiled outputs, test results, and published files.
   name: Azure Pipelines Artifacts API
   slug: microsoft-azure-pipelines-artifacts-api
-- description: Operations for listing and retrieving build artifacts including compiled binaries, test results, and other published output files.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for listing and retrieving build artifacts including compiled binaries, test results, and other published output files.
   name: Azure Pipelines Build Artifacts API
   slug: microsoft-azure-pipelines-build-artifacts-api
-- description: Operations for creating, listing, retrieving, and updating build pipeline definitions that specify how builds are executed.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for creating, listing, retrieving, and updating build pipeline definitions that specify how builds are executed.
   name: Azure Pipelines Build Definitions API
   slug: microsoft-azure-pipelines-build-definitions-api
-- description: Operations for managing tags on builds for categorization, filtering, and retention policy purposes.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for managing tags on builds for categorization, filtering, and retention policy purposes.
   name: Azure Pipelines Build Tags API
   slug: microsoft-azure-pipelines-build-tags-api
-- description: Operations for queuing, listing, retrieving, and updating builds including filtering by status, result, branch, and definition.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for queuing, listing, retrieving, and updating builds including filtering by status, result, branch, and definition.
   name: Azure Pipelines Builds API
   slug: microsoft-azure-pipelines-builds-api
-- description: Operations for retrieving pipeline run execution logs for debugging, auditing, and monitoring purposes.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for retrieving pipeline run execution logs for debugging, auditing, and monitoring purposes.
   name: Azure Pipelines Logs API
   slug: microsoft-azure-pipelines-logs-api
-- description: Operations for managing YAML-based pipeline definitions including creating, listing, and retrieving pipeline configurations.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for managing YAML-based pipeline definitions including creating, listing, and retrieving pipeline configurations.
   name: Azure Pipelines Pipelines API
   slug: microsoft-azure-pipelines-pipelines-api
-- description: Operations for triggering, monitoring, and retrieving pipeline run executions including run state, result, and parameters.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis
+  baseurl_source: declared
+  description: Operations for triggering, monitoring, and retrieving pipeline run executions including run state, result, and parameters.
   name: Azure Pipelines Runs API
   slug: microsoft-azure-pipelines-runs-api
 artifact_total: 36
@@ -304,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
 security:

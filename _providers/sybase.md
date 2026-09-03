@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: SAP ASE Cockpit is a web-based administration and management console for SAP Adaptive Server Enterprise. It provides monitoring, configuration, and management capabilities for ASE servers through a br
   name: SAP ASE Cockpit
   slug: sap-ase-cockpit
-- description: Operations for managing database backup and recovery operations including scheduling and status monitoring.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for managing database backup and recovery operations including scheduling and status monitoring.
   name: Sybase Backups API
   slug: sybase-backups-api
-- description: Operations for viewing and modifying SAP ASE server configuration parameters via sp_configure equivalents.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for viewing and modifying SAP ASE server configuration parameters via sp_configure equivalents.
   name: Sybase Configuration API
   slug: sybase-configuration-api
-- description: Operations for managing databases within an SAP ASE server including creation, configuration, and status monitoring.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for managing databases within an SAP ASE server including creation, configuration, and status monitoring.
   name: Sybase Databases API
   slug: sybase-databases-api
-- description: Operations for managing database devices and disk storage resources used by SAP ASE.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for managing database devices and disk storage resources used by SAP ASE.
   name: Sybase Devices API
   slug: sybase-devices-api
-- description: Operations for monitoring server performance metrics including cache statistics, lock activity, and resource utilization.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for monitoring server performance metrics including cache statistics, lock activity, and resource utilization.
   name: Sybase Performance API
   slug: sybase-performance-api
-- description: Operations for retrieving server information, status, and configuration details for SAP ASE instances.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for retrieving server information, status, and configuration details for SAP ASE instances.
   name: Sybase Servers API
   slug: sybase-servers-api
-- description: Operations for managing server logins and database users including role assignments and permission management.
+- baseURL: https://{server}:{port}/ase/v1
+  baseurl_source: declared
+  description: Operations for managing server logins and database users including role assignments and permission management.
   name: Sybase Users API
   slug: sybase-users-api
 artifact_total: 58
@@ -360,7 +374,7 @@ score:
     catalog_gap: 70.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -370,7 +384,7 @@ score:
     discoverability: 53.7
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 44.6
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -379,7 +393,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:

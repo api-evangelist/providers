@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 3
 apis:
-- description: The Coaching API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for coaching.
+- baseURL: https://api.stellaconnect.net
+  baseurl_source: declared
+  description: The Coaching API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for coaching.
   name: Stella Connect (Medallia Agent Connect) Coaching API
   slug: stellaconnect-coaching-api
-- description: The Data API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for data.
+- baseURL: https://api.stellaconnect.net
+  baseurl_source: declared
+  description: The Data API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for data.
   name: Stella Connect (Medallia Agent Connect) Data API
   slug: stellaconnect-data-api
-- description: The Employees API from Stella Connect (Medallia Agent Connect) — 5 operation(s) for employees.
+- baseURL: https://api.stellaconnect.net
+  baseurl_source: declared
+  description: The Employees API from Stella Connect (Medallia Agent Connect) — 5 operation(s) for employees.
   name: Stella Connect (Medallia Agent Connect) Employees API
   slug: stellaconnect-employees-api
-- description: The Qa API from Stella Connect (Medallia Agent Connect) — 3 operation(s) for qa.
+- baseURL: https://api.stellaconnect.net
+  baseurl_source: declared
+  description: The Qa API from Stella Connect (Medallia Agent Connect) — 3 operation(s) for qa.
   name: Stella Connect (Medallia Agent Connect) Qa API
   slug: stellaconnect-qa-api
-- description: The Recoveries API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for recoveries.
+- baseURL: https://api.stellaconnect.net
+  baseurl_source: declared
+  description: The Recoveries API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for recoveries.
   name: Stella Connect (Medallia Agent Connect) Recoveries API
   slug: stellaconnect-recoveries-api
-- description: The Requests API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for requests.
+- baseURL: https://api.stellaconnect.net
+  baseurl_source: declared
+  description: The Requests API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for requests.
   name: Stella Connect (Medallia Agent Connect) Requests API
   slug: stellaconnect-requests-api
 artifact_total: 18
@@ -260,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/screenshots/stellaconnect-2026-08-17T082119.png
 security:

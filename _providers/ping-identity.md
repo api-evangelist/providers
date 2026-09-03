@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 54 operations · 29 acting
 api_count: 1
 apis:
-- description: Operations for managing PingOne configuration management actions.
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing PingOne configuration management actions.
   name: Ping Identity Configuration Management API
   slug: ping-identity-configuration-management-api
-- description: Operations for managing DaVinci application flows policies
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci application flows policies
   name: Ping Identity DaVinci Admin Application Flow Policies API
   slug: ping-identity-davinci-admin-application-flow-policies-api
-- description: Operations for managing DaVinci applications
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci applications
   name: Ping Identity DaVinci Admin Applications API
   slug: ping-identity-davinci-admin-applications-api
-- description: Operations for managing DaVinci connectors and connector instances
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci connectors and connector instances
   name: Ping Identity DaVinci Admin Connector Instances API
   slug: ping-identity-davinci-admin-connector-instances-api
-- description: Operations for managing DaVinci connectors and connector instances
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci connectors and connector instances
   name: Ping Identity DaVinci Admin Connectors API
   slug: ping-identity-davinci-admin-connectors-api
-- description: Operations for managing DaVinci flow versions
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci flow versions
   name: Ping Identity DaVinci Admin Flow Versions API
   slug: ping-identity-davinci-admin-flow-versions-api
-- description: Operations for managing DaVinci flows
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci flows
   name: Ping Identity DaVinci Admin Flows API
   slug: ping-identity-davinci-admin-flows-api
-- description: Operations for managing DaVinci variables
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing DaVinci variables
   name: Ping Identity DaVinci Admin Variables API
   slug: ping-identity-davinci-admin-variables-api
-- description: Operations for managing PingOne environments
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing PingOne environments
   name: Ping Identity Environments API
   slug: ping-identity-environments-api
-- description: Operations for managing flow policies in a PingOne environment.
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for managing flow policies in a PingOne environment.
   name: Ping Identity Flow Policies API
   slug: ping-identity-flow-policies-api
-- description: Operations for retrieving PingOne directory total identity reports
+- baseURL: https://api.pingone.com/v1
+  baseurl_source: declared
+  description: Operations for retrieving PingOne directory total identity reports
   name: Ping Identity Total Identities API
   slug: ping-identity-total-identities-api
 artifact_total: 37
@@ -263,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/screenshots/ping-identity-2026-06-20T191712.png
 security:

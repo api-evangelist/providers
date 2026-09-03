@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: Search Artists
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Search Artists
   name: JamBase Artists API
   slug: jambase-artists-api
-- description: Search Events
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Search Events
   name: JamBase Events API
   slug: jambase-events-api
-- description: Lookup Genres
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Lookup Genres
   name: JamBase Genres API
   slug: jambase-genres-api
-- description: Lookup Countries, Cities, Etc
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Lookup Countries, Cities, Etc
   name: JamBase Geographies API
   slug: jambase-geographies-api
-- description: Lookup Identifiers
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Lookup Identifiers
   name: JamBase Lookups API
   slug: jambase-lookups-api
-- description: Search Streams
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Search Streams
   name: JamBase Streams API
   slug: jambase-streams-api
-- description: Search Venues
+- baseURL: https://data.jambase.com/v3
+  baseurl_source: declared
+  description: Search Venues
   name: JamBase Venues API
   slug: jambase-venues-api
 artifact_total: 51
@@ -299,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jambase/refs/heads/main/screenshots/jambase-2026-06-20T183655.png
 security:

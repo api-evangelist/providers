@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage persistent disks
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage persistent disks
   name: Google Cloud Compute Engine Disks API
   slug: google-cloud-compute-engine-disks-api
-- description: Manage firewall rules
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage firewall rules
   name: Google Cloud Compute Engine Firewalls API
   slug: google-cloud-compute-engine-firewalls-api
-- description: Manage virtual machine instances
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage virtual machine instances
   name: Google Cloud Compute Engine Instances API
   slug: google-cloud-compute-engine-instances-api
-- description: Manage VPC networks
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage VPC networks
   name: Google Cloud Compute Engine Networks API
   slug: google-cloud-compute-engine-networks-api
 artifact_total: 25
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/screenshots/google-cloud-compute-engine-2026-06-20T182054.png
 security:

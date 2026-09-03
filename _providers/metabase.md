@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 24 operations · 11 acting
 api_count: 1
 apis:
-- description: Saved questions used to power dashboards and embedded analytics.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Saved questions used to power dashboards and embedded analytics.
   name: Metabase Cards API
   slug: metabase-cards-api
-- description: Organize dashboards, questions, and pulses.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Organize dashboards, questions, and pulses.
   name: Metabase Collections API
   slug: metabase-collections-api
-- description: Build and manage interactive dashboards.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Build and manage interactive dashboards.
   name: Metabase Dashboards API
   slug: metabase-dashboards-api
-- description: Manage data source connections and metadata.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Manage data source connections and metadata.
   name: Metabase Databases API
   slug: metabase-databases-api
-- description: Execute ad-hoc queries against connected databases.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Execute ad-hoc queries against connected databases.
   name: Metabase Datasets API
   slug: metabase-datasets-api
-- description: Group and permission management.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Group and permission management.
   name: Metabase Permissions API
   slug: metabase-permissions-api
-- description: Search across cards, dashboards, collections, and more.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Search across cards, dashboards, collections, and more.
   name: Metabase Search API
   slug: metabase-search-api
-- description: Authentication and session management.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Authentication and session management.
   name: Metabase Sessions API
   slug: metabase-sessions-api
-- description: Global application settings.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: Global application settings.
   name: Metabase Settings API
   slug: metabase-settings-api
-- description: User account management.
+- baseURL: https://your-metabase-instance.com/api
+  baseurl_source: spec
+  description: User account management.
   name: Metabase Users API
   slug: metabase-users-api
 artifact_total: 29
@@ -225,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metabase/refs/heads/main/screenshots/metabase-2026-06-20T185245.png
 security:

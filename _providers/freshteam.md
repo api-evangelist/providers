@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 25 operations · 8 acting
 api_count: 1
 apis:
-- description: Applicants (candidates) and candidate sources (ATS).
+- baseURL: https://{domain}.freshteam.com/api
+  baseurl_source: declared
+  description: Applicants (candidates) and candidate sources (ATS).
   name: Freshteam Applicants API
   slug: freshteam-applicants-api
-- description: Employee records, custom fields, and organization structure (HRIS).
+- baseURL: https://{domain}.freshteam.com/api
+  baseurl_source: declared
+  description: Employee records, custom fields, and organization structure (HRIS).
   name: Freshteam Employees API
   slug: freshteam-employees-api
-- description: Job postings and their custom fields (recruiting).
+- baseURL: https://{domain}.freshteam.com/api
+  baseurl_source: declared
+  description: Job postings and their custom fields (recruiting).
   name: Freshteam Job Postings API
   slug: freshteam-job-postings-api
-- description: New-hire records for pre-boarding and onboarding.
+- baseURL: https://{domain}.freshteam.com/api
+  baseurl_source: declared
+  description: New-hire records for pre-boarding and onboarding.
   name: Freshteam Onboarding API
   slug: freshteam-onboarding-api
-- description: Time-off (leave) requests and types.
+- baseURL: https://{domain}.freshteam.com/api
+  baseurl_source: declared
+  description: Time-off (leave) requests and types.
   name: Freshteam Time-off API
   slug: freshteam-time-off-api
 artifact_total: 17
@@ -167,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/screenshots/freshteam-2026-07-25T215212.png
 security:

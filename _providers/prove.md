@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 26 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Phone-based authentication and device binding.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: Phone-based authentication and device binding.
   name: Prove Auth API
   slug: prove-auth-api
-- description: OAuth 2.0 token issuance.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance.
   name: Prove Authentication API
   slug: prove-authentication-api
-- description: Cross-domain linking of identity scopes.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: Cross-domain linking of identity scopes.
   name: Prove Domain API
   slug: prove-domain-api
-- description: Persistent identity lifecycle management.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: Persistent identity lifecycle management.
   name: Prove Identity API
   slug: prove-identity-api
-- description: Ordered Pre-Fill verification flow - start, validate, challenge, complete.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: Ordered Pre-Fill verification flow - start, validate, challenge, complete.
   name: Prove Identity Verification API
   slug: prove-identity-verification-api
-- description: Identity discovery and verified attribute retrieval.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: Identity discovery and verified attribute retrieval.
   name: Prove Pre-Fill API
   slug: prove-pre-fill-api
-- description: Unified Authentication possession and trust evaluation.
+- baseURL: https://api.prove.com/v3
+  baseurl_source: declared
+  description: Unified Authentication possession and trust evaluation.
   name: Prove Trust Score API
   slug: prove-trust-score-api
 artifact_total: 23
@@ -177,7 +191,7 @@ score:
   band: thin
   composite: 34.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +214,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/screenshots/prove-2026-09-02T152234.png
 security:
 - kind: authentication
   name: Prove Authentication

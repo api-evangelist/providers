@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 36 operations · 19 acting
 api_count: 1
 apis:
-- description: The Companies API from Zeal — 3 operation(s) for companies.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Companies API from Zeal — 3 operation(s) for companies.
   name: Zeal Companies API
   slug: zeal-hq-companies-api
-- description: The Contractor Payments API from Zeal — 2 operation(s) for contractor payments.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Contractor Payments API from Zeal — 2 operation(s) for contractor payments.
   name: Zeal Contractor Payments API
   slug: zeal-hq-contractor-payments-api
-- description: The Contractors API from Zeal — 2 operation(s) for contractors.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Contractors API from Zeal — 2 operation(s) for contractors.
   name: Zeal Contractors API
   slug: zeal-hq-contractors-api
-- description: The Employee Check API from Zeal — 3 operation(s) for employee check.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Employee Check API from Zeal — 3 operation(s) for employee check.
   name: Zeal Employee Check API
   slug: zeal-hq-employee-check-api
-- description: The Employees API from Zeal — 4 operation(s) for employees.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Employees API from Zeal — 4 operation(s) for employees.
   name: Zeal Employees API
   slug: zeal-hq-employees-api
-- description: The Funding API from Zeal — 1 operation(s) for funding.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Funding API from Zeal — 1 operation(s) for funding.
   name: Zeal Funding API
   slug: zeal-hq-funding-api
-- description: The Onboarding API from Zeal — 3 operation(s) for onboarding.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Onboarding API from Zeal — 3 operation(s) for onboarding.
   name: Zeal Onboarding API
   slug: zeal-hq-onboarding-api
-- description: The Pay Schedules API from Zeal — 3 operation(s) for pay schedules.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Pay Schedules API from Zeal — 3 operation(s) for pay schedules.
   name: Zeal Pay Schedules API
   slug: zeal-hq-pay-schedules-api
-- description: The Reports API from Zeal — 4 operation(s) for reports.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Reports API from Zeal — 4 operation(s) for reports.
   name: Zeal Reports API
   slug: zeal-hq-reports-api
-- description: The Tax API from Zeal — 4 operation(s) for tax.
+- baseURL: https://api.zeal.com
+  baseurl_source: declared
+  description: The Tax API from Zeal — 4 operation(s) for tax.
   name: Zeal Tax API
   slug: zeal-hq-tax-api
 artifact_total: 28
@@ -182,7 +202,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -205,8 +225,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zeal-hq/refs/heads/main/screenshots/zeal-hq-2026-09-02T171511.png
 security:
 - kind: authentication
   name: Zeal Hq Authentication

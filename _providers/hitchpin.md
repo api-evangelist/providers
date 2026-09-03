@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 11 operations · 7 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Invoices shared with a buyer.
+- baseURL: https://apiv2.hitchpin.com
+  baseurl_source: declared
+  description: Invoices shared with a buyer.
   name: HitchPin instant-invoice-share API
   slug: hitchpin-instant-invoice-share-api
-- description: Invoices created by a seller.
+- baseURL: https://apiv2.hitchpin.com
+  baseurl_source: declared
+  description: Invoices created by a seller.
   name: HitchPin instant-invoices API
   slug: hitchpin-instant-invoices-api
-- description: The rendering API from HitchPin — 3 operation(s) for rendering.
+- baseURL: https://apiv2.hitchpin.com
+  baseurl_source: declared
+  description: The rendering API from HitchPin — 3 operation(s) for rendering.
   name: HitchPin rendering API
   slug: hitchpin-rendering-api
 artifact_total: 13
@@ -227,7 +233,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/screenshots/hitchpin-2026-07-25T221300.png
 security:

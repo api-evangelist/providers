@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: 'Local-network REST API served by the PreFormServer application for automating job preparation (import, auto-orient, auto-support, auto-layout, hollow, label), scene management, print-time estimation, '
   name: Formlabs Local API (PreFormServer)
   slug: formlabs-local-api
-- description: The Consumables API from Formlabs — 2 operation(s) for consumables.
+- baseURL: https://api.formlabs.com/developer/v1
+  baseurl_source: declared
+  description: The Consumables API from Formlabs — 2 operation(s) for consumables.
   name: Formlabs Consumables API
   slug: formlabs-consumables-api
-- description: The Events API from Formlabs — 1 operation(s) for events.
+- baseURL: https://api.formlabs.com/developer/v1
+  baseurl_source: declared
+  description: The Events API from Formlabs — 1 operation(s) for events.
   name: Formlabs Events API
   slug: formlabs-events-api
-- description: The Groups API from Formlabs — 5 operation(s) for groups.
+- baseURL: https://api.formlabs.com/developer/v1
+  baseurl_source: declared
+  description: The Groups API from Formlabs — 5 operation(s) for groups.
   name: Formlabs Groups API
   slug: formlabs-groups-api
-- description: The Printers API from Formlabs — 2 operation(s) for printers.
+- baseURL: https://api.formlabs.com/developer/v1
+  baseurl_source: declared
+  description: The Printers API from Formlabs — 2 operation(s) for printers.
   name: Formlabs Printers API
   slug: formlabs-printers-api
-- description: The Prints API from Formlabs — 2 operation(s) for prints.
+- baseURL: https://api.formlabs.com/developer/v1
+  baseurl_source: declared
+  description: The Prints API from Formlabs — 2 operation(s) for prints.
   name: Formlabs Prints API
   slug: formlabs-prints-api
 artifact_total: 20
@@ -195,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/screenshots/formlabs-2026-06-20T181439.png
 security:

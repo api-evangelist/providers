@@ -33,58 +33,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The Hummingbot API is a FastAPI backend service (default port 8000) that orchestrates multiple trading bots and exposes REST routers for accounts and exchange credentials, trading (orders, positions, '
   name: Hummingbot API
   slug: hummingbot-api
-- description: Ethereum and EVM-based chain endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Ethereum and EVM-based chain endpoints
   name: Hummingbot /chain/ethereum API
   slug: hummingbot-chain-ethereum-api
-- description: Solana and SVM-based chain endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Solana and SVM-based chain endpoints
   name: Hummingbot /chain/solana API
   slug: hummingbot-chain-solana-api
-- description: System configuration endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: System configuration endpoints
   name: Hummingbot /config API
   slug: hummingbot-config-api
-- description: 0x connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: 0x connector endpoints
   name: Hummingbot /connector/0x API
   slug: hummingbot-connector-0x-api
-- description: Jupiter connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Jupiter connector endpoints
   name: Hummingbot /connector/jupiter API
   slug: hummingbot-connector-jupiter-api
-- description: Meteora connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Meteora connector endpoints
   name: Hummingbot /connector/meteora API
   slug: hummingbot-connector-meteora-api
-- description: Orca connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Orca connector endpoints
   name: Hummingbot /connector/orca API
   slug: hummingbot-connector-orca-api
-- description: PancakeSwap EVM connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: PancakeSwap EVM connector endpoints
   name: Hummingbot /connector/pancakeswap API
   slug: hummingbot-connector-pancakeswap-api
-- description: PancakeSwap Solana connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: PancakeSwap Solana connector endpoints
   name: Hummingbot /connector/pancakeswap-sol API
   slug: hummingbot-connector-pancakeswap-sol-api
-- description: Raydium connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Raydium connector endpoints
   name: Hummingbot /connector/raydium API
   slug: hummingbot-connector-raydium-api
-- description: Uniswap connector endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Uniswap connector endpoints
   name: Hummingbot /connector/uniswap API
   slug: hummingbot-connector-uniswap-api
-- description: Pool management endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Pool management endpoints
   name: Hummingbot /pools API
   slug: hummingbot-pools-api
-- description: Token management endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Token management endpoints
   name: Hummingbot /tokens API
   slug: hummingbot-tokens-api
-- description: Unified cross-chain CLMM (Concentrated Liquidity) endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Unified cross-chain CLMM (Concentrated Liquidity) endpoints
   name: Hummingbot /trading/clmm API
   slug: hummingbot-trading-clmm-api
-- description: Unified cross-chain swap endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Unified cross-chain swap endpoints
   name: Hummingbot /trading/swap API
   slug: hummingbot-trading-swap-api
-- description: Wallet management endpoints
+- baseURL: http://localhost:15888
+  baseurl_source: declared
+  description: Wallet management endpoints
   name: Hummingbot /wallet API
   slug: hummingbot-wallet-api
 artifact_total: 38
@@ -297,7 +329,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hummingbot/refs/heads/main/screenshots/hummingbot-2026-07-25T221727.png
 security:

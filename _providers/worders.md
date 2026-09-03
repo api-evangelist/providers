@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 13 operations · 2 acting
 api_count: 1
 apis:
-- description: The Customers API from Worders — 1 operation(s) for customers.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The Customers API from Worders — 1 operation(s) for customers.
   name: Worders Customers API
   slug: worders-customers-api
-- description: The Freelancers API from Worders — 1 operation(s) for freelancers.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The Freelancers API from Worders — 1 operation(s) for freelancers.
   name: Worders Freelancers API
   slug: worders-freelancers-api
-- description: The Invoices API from Worders — 2 operation(s) for invoices.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The Invoices API from Worders — 2 operation(s) for invoices.
   name: Worders Invoices API
   slug: worders-invoices-api
-- description: The Orders API from Worders — 2 operation(s) for orders.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The Orders API from Worders — 2 operation(s) for orders.
   name: Worders Orders API
   slug: worders-orders-api
-- description: The PurchaseOrders API from Worders — 2 operation(s) for purchaseorders.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The PurchaseOrders API from Worders — 2 operation(s) for purchaseorders.
   name: Worders PurchaseOrders API
   slug: worders-purchaseorders-api
-- description: The Quotes API from Worders — 2 operation(s) for quotes.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The Quotes API from Worders — 2 operation(s) for quotes.
   name: Worders Quotes API
   slug: worders-quotes-api
-- description: The Templates API from Worders — 1 operation(s) for templates.
+- baseURL: https://api.worders.net
+  baseurl_source: declared
+  description: The Templates API from Worders — 1 operation(s) for templates.
   name: Worders Templates API
   slug: worders-templates-api
 artifact_total: 19
@@ -184,7 +198,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -210,8 +224,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/worders/refs/heads/main/screenshots/worders-2026-09-02T170926.png
 security:
 - kind: authentication
   name: Worders Authentication

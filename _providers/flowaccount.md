@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 153 operations · 104 acting
 api_count: 1
 apis:
-- description: The BatchImport API from FlowAccount — 10 operation(s) for batchimport.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The BatchImport API from FlowAccount — 10 operation(s) for batchimport.
   name: FlowAccount BatchImport API
   slug: flowaccount-batchimport-api
-- description: The BillingNote API from FlowAccount — 8 operation(s) for billingnote.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The BillingNote API from FlowAccount — 8 operation(s) for billingnote.
   name: FlowAccount BillingNote API
   slug: flowaccount-billingnote-api
-- description: The CashInvoice API from FlowAccount — 8 operation(s) for cashinvoice.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The CashInvoice API from FlowAccount — 8 operation(s) for cashinvoice.
   name: FlowAccount CashInvoice API
   slug: flowaccount-cashinvoice-api
-- description: The CompanyCurrency API from FlowAccount — 2 operation(s) for companycurrency.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The CompanyCurrency API from FlowAccount — 2 operation(s) for companycurrency.
   name: FlowAccount CompanyCurrency API
   slug: flowaccount-companycurrency-api
-- description: The Contact API from FlowAccount — 4 operation(s) for contact.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Contact API from FlowAccount — 4 operation(s) for contact.
   name: FlowAccount Contact API
   slug: flowaccount-contact-api
-- description: The CreditNote API from FlowAccount — 9 operation(s) for creditnote.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The CreditNote API from FlowAccount — 9 operation(s) for creditnote.
   name: FlowAccount CreditNote API
   slug: flowaccount-creditnote-api
-- description: The DebitNote API from FlowAccount — 9 operation(s) for debitnote.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The DebitNote API from FlowAccount — 9 operation(s) for debitnote.
   name: FlowAccount DebitNote API
   slug: flowaccount-debitnote-api
-- description: The Employee API from FlowAccount — 3 operation(s) for employee.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Employee API from FlowAccount — 3 operation(s) for employee.
   name: FlowAccount Employee API
   slug: flowaccount-employee-api
-- description: The Expense API from FlowAccount — 12 operation(s) for expense.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Expense API from FlowAccount — 12 operation(s) for expense.
   name: FlowAccount Expense API
   slug: flowaccount-expense-api
-- description: The ProductCategory API from FlowAccount — 2 operation(s) for productcategory.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The ProductCategory API from FlowAccount — 2 operation(s) for productcategory.
   name: FlowAccount ProductCategory API
   slug: flowaccount-productcategory-api
-- description: The ProductInventory API from FlowAccount — 2 operation(s) for productinventory.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The ProductInventory API from FlowAccount — 2 operation(s) for productinventory.
   name: FlowAccount ProductInventory API
   slug: flowaccount-productinventory-api
-- description: The Products API from FlowAccount — 3 operation(s) for products.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Products API from FlowAccount — 3 operation(s) for products.
   name: FlowAccount Products API
   slug: flowaccount-products-api
-- description: The ProductUnit API from FlowAccount — 2 operation(s) for productunit.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The ProductUnit API from FlowAccount — 2 operation(s) for productunit.
   name: FlowAccount ProductUnit API
   slug: flowaccount-productunit-api
-- description: The Purchase API from FlowAccount — 8 operation(s) for purchase.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Purchase API from FlowAccount — 8 operation(s) for purchase.
   name: FlowAccount Purchase API
   slug: flowaccount-purchase-api
-- description: The PurchaseOrder API from FlowAccount — 8 operation(s) for purchaseorder.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The PurchaseOrder API from FlowAccount — 8 operation(s) for purchaseorder.
   name: FlowAccount PurchaseOrder API
   slug: flowaccount-purchaseorder-api
-- description: The Quotation API from FlowAccount — 10 operation(s) for quotation.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Quotation API from FlowAccount — 10 operation(s) for quotation.
   name: FlowAccount Quotation API
   slug: flowaccount-quotation-api
-- description: The Receipt API from FlowAccount — 10 operation(s) for receipt.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Receipt API from FlowAccount — 10 operation(s) for receipt.
   name: FlowAccount Receipt API
   slug: flowaccount-receipt-api
-- description: The ReceivableInvoice API from FlowAccount — 8 operation(s) for receivableinvoice.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The ReceivableInvoice API from FlowAccount — 8 operation(s) for receivableinvoice.
   name: FlowAccount ReceivableInvoice API
   slug: flowaccount-receivableinvoice-api
-- description: The TaxInvoice API from FlowAccount — 9 operation(s) for taxinvoice.
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The TaxInvoice API from FlowAccount — 9 operation(s) for taxinvoice.
   name: FlowAccount TaxInvoice API
   slug: flowaccount-taxinvoice-api
 artifact_total: 46
@@ -304,7 +342,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -314,7 +352,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,7 +364,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowaccount/refs/heads/main/screenshots/flowaccount-2026-07-25T214832.png
 security:

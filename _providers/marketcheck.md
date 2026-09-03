@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 27 operations
 api_count: 1
 apis:
-- description: Decode 17-digit VINs to extract year, make, model, trim, installed equipment, and full vehicle specifications. Available in Basic and NeoVIN Enhanced tiers for comprehensive build-level data.
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Decode 17-digit VINs to extract year, make, model, trim, installed equipment, and full vehicle specifications. Available in Basic and NeoVIN Enhanced tiers for comprehensive build-level data.
   name: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
 - description: Access complete price history, odometer readings, and full listing details for vehicles up to six years back by VIN, enabling market analysis and vehicle valuation insights.
@@ -52,7 +54,9 @@ apis:
 - description: 'Predict market prices and retrieve MSRP for used vehicles. Three tiers available: Base (predicted price + MSRP), Premium (adds comparable vehicles), and Premium Plus (adds full NeoVIN decode).'
   name: MarketCheck Price API
   slug: marketcheck-price-api
-- description: Search individual dealerships or locate multiple dealerships in a geographic area by radius. Access dealer profiles, inventory counts, and dealership group information.
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Search individual dealerships or locate multiple dealerships in a geographic area by radius. Access dealer profiles, inventory counts, and dealership group information.
   name: MarketCheck Dealer API
   slug: marketcheck-dealer-api
 - description: Obtain Market Days Supply (MDS) values, sales statistics, and popular vehicle data to understand supply and demand dynamics across the automotive market.
@@ -64,28 +68,44 @@ apis:
 - description: Search recreational vehicle (RV) inventory and dealer listings across the US and Canada. Supports filtering by price, options, photos, and equipment details.
   name: MarketCheck RV API
   slug: marketcheck-rv-api
-- description: Dealer search and information
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Dealer search and information
   name: MarketCheck Dealer API
   slug: marketcheck-dealer-api
-- description: Search facets for filtering
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Search facets for filtering
   name: MarketCheck Facets API
   slug: marketcheck-facets-api
-- description: Plot data for visualizations
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Plot data for visualizations
   name: MarketCheck Graphs API
   slug: marketcheck-graphs-api
-- description: Vehicle listing history
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Vehicle listing history
   name: MarketCheck History API
   slug: marketcheck-history-api
-- description: Dealer inventory operations
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Dealer inventory operations
   name: MarketCheck Inventory API
   slug: marketcheck-inventory-api
-- description: Search and retrieve active car listings
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Search and retrieve active car listings
   name: MarketCheck Listings API
   slug: marketcheck-listings-api
-- description: Market analytics, trends, and pricing insights
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: Market analytics, trends, and pricing insights
   name: MarketCheck Market API
   slug: marketcheck-market-api
-- description: VIN decoding and vehicle specifications
+- baseURL: https://mc-api.marketcheck.com
+  baseurl_source: declared
+  description: VIN decoding and vehicle specifications
   name: MarketCheck VIN Decoder API
   slug: marketcheck-vin-decoder-api
 artifact_total: 35
@@ -261,7 +281,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/screenshots/marketcheck-2026-06-20T184954.png
 security:

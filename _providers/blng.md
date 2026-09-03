@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 3
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 88 operations · 49 acting · 3 human-in-the-loop
 api_count: 4
 apis:
-- description: REST API that manages BLNG users, roles and permissions, workspaces and workspace members, workspace and subscription invitations, organizations, SSO configuration, marketing consent, tooltips, and us
+- baseURL: https://users.blng.ai
+  baseurl_source: declared
+  description: REST API that manages BLNG users, roles and permissions, workspaces and workspace members, workspace and subscription invitations, organizations, SSO configuration, marketing consent, tooltips, and us
   name: BLNG User API
   slug: blng-user-api
-- description: REST API that manages BLNG payment and billing — listing Stripe products and prices, creating Stripe checkout sessions and customer-portal sessions, confirming checkout, and submitting enterprise "con
+- baseURL: https://billing.blng.ai
+  baseurl_source: declared
+  description: REST API that manages BLNG payment and billing — listing Stripe products and prices, creating Stripe checkout sessions and customer-portal sessions, confirming checkout, and submitting enterprise "con
   name: BLNG Billing API
   slug: blng-billing-api
-- description: The Chat Prompts API from Blng — 2 operation(s) for chat prompts.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Chat Prompts API from Blng — 2 operation(s) for chat prompts.
   name: Blng Chat Prompts API
   slug: blng-chat-prompts-api
-- description: The Composite API from Blng — 2 operation(s) for composite.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Composite API from Blng — 2 operation(s) for composite.
   name: Blng Composite API
   slug: blng-composite-api
-- description: The Design Journey API from Blng — 16 operation(s) for design journey.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Design Journey API from Blng — 16 operation(s) for design journey.
   name: Blng Design Journey API
   slug: blng-design-journey-api
-- description: The Invitation API from Blng — 5 operation(s) for invitation.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Invitation API from Blng — 5 operation(s) for invitation.
   name: Blng Invitation API
   slug: blng-invitation-api
-- description: The Journeys API from Blng — 6 operation(s) for journeys.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Journeys API from Blng — 6 operation(s) for journeys.
   name: Blng Journeys API
   slug: blng-journeys-api
-- description: The Organization API from Blng — 3 operation(s) for organization.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Organization API from Blng — 3 operation(s) for organization.
   name: Blng Organization API
   slug: blng-organization-api
-- description: The Prompts API from Blng — 4 operation(s) for prompts.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Prompts API from Blng — 4 operation(s) for prompts.
   name: Blng Prompts API
   slug: blng-prompts-api
-- description: The Subscription API from Blng — 4 operation(s) for subscription.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Subscription API from Blng — 4 operation(s) for subscription.
   name: Blng Subscription API
   slug: blng-subscription-api
-- description: The User Subscription API from Blng — 3 operation(s) for user subscription.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The User Subscription API from Blng — 3 operation(s) for user subscription.
   name: Blng User Subscription API
   slug: blng-user-subscription-api
-- description: The User Tooltip API from Blng — 2 operation(s) for user tooltip.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The User Tooltip API from Blng — 2 operation(s) for user tooltip.
   name: Blng User Tooltip API
   slug: blng-user-tooltip-api
-- description: The Webhook API from Blng — 3 operation(s) for webhook.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Webhook API from Blng — 3 operation(s) for webhook.
   name: Blng Webhook API
   slug: blng-webhook-api
-- description: The Workspace API from Blng — 15 operation(s) for workspace.
+- baseURL: https://journeys.blng.ai/v2
+  baseurl_source: declared
+  description: The Workspace API from Blng — 15 operation(s) for workspace.
   name: Blng Workspace API
   slug: blng-workspace-api
 artifact_total: 22
@@ -254,7 +282,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -264,7 +292,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/screenshots/blng-2026-07-25T203330.png
 security:

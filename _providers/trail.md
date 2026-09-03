@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The Areas API from Trail — 1 operation(s) for areas.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Areas API from Trail — 1 operation(s) for areas.
   name: Trail Areas API
   slug: trail-areas-api
-- description: The Scores API from Trail — 1 operation(s) for scores.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Scores API from Trail — 1 operation(s) for scores.
   name: Trail Scores API
   slug: trail-scores-api
-- description: The Sites API from Trail — 2 operation(s) for sites.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Sites API from Trail — 2 operation(s) for sites.
   name: Trail Sites API
   slug: trail-sites-api
-- description: The Tags API from Trail — 1 operation(s) for tags.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Tags API from Trail — 1 operation(s) for tags.
   name: Trail Tags API
   slug: trail-tags-api
-- description: The Task Instances API from Trail — 2 operation(s) for task instances.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Task Instances API from Trail — 2 operation(s) for task instances.
   name: Trail Task Instances API
   slug: trail-task-instances-api
-- description: The Task Reports API from Trail — 4 operation(s) for task reports.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Task Reports API from Trail — 4 operation(s) for task reports.
   name: Trail Task Reports API
   slug: trail-task-reports-api
-- description: The Task Templates API from Trail — 2 operation(s) for task templates.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Task Templates API from Trail — 2 operation(s) for task templates.
   name: Trail Task Templates API
   slug: trail-task-templates-api
-- description: The Tasks API from Trail — 1 operation(s) for tasks.
+- baseURL: https://web.trailapp.com/api
+  baseurl_source: declared
+  description: The Tasks API from Trail — 1 operation(s) for tasks.
   name: Trail Tasks API
   slug: trail-tasks-api
 artifact_total: 22
@@ -265,7 +281,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/screenshots/trail-2026-08-17T082424.png
 security:

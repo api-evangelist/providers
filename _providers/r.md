@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 14 operations
 api_count: 3
 apis:
-- description: Download count badge endpoints
+- baseURL: https://crandb.r-pkg.org
+  baseurl_source: declared
+  description: Download count badge endpoints
   name: R Badges API
   slug: r-badges-api
-- description: Package download statistics
+- baseURL: https://crandb.r-pkg.org
+  baseurl_source: declared
+  description: Package download statistics
   name: R Downloads API
   slug: r-downloads-api
-- description: CRAN package metadata
+- baseURL: https://crandb.r-pkg.org
+  baseurl_source: declared
+  description: CRAN package metadata
   name: R Packages API
   slug: r-packages-api
-- description: Most-downloaded CRAN packages
+- baseURL: https://crandb.r-pkg.org
+  baseurl_source: declared
+  description: Most-downloaded CRAN packages
   name: R Top Packages API
   slug: r-top-packages-api
-- description: R release version information
+- baseURL: https://crandb.r-pkg.org
+  baseurl_source: declared
+  description: R release version information
   name: R Versions API
   slug: r-versions-api
 artifact_total: 29
@@ -246,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/screenshots/r-2026-06-20T192458.png
 security:

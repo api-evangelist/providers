@@ -32,31 +32,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
   name: B3 Investor Area (Área do Investidor) APIs
   slug: b3-investor-area-apis
-- description: Treasury Direct platform APIs - the Bonds API serves reference data for Brazilian public bonds (name, maturity, Selic code, platform identifiers), Positions serves investor position balances, and Orde
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: Treasury Direct platform APIs - the Bonds API serves reference data for Brazilian public bonds (name, maturity, Selic code, platform identifiers), Positions serves investor position balances, and Orde
   name: B3 Tesouro Direto APIs
   slug: b3-tesouro-direto-apis
-- description: Registration, custody, and consultation APIs for the OTC segment - bank funding instruments (CDB, RDB, LCA, LCI, LF, LIG), credit notes (CCB, CPR, NC), OTC derivatives (swaps, flexible options, term c
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: Registration, custody, and consultation APIs for the OTC segment - bank funding instruments (CDB, RDB, LCA, LCI, LF, LIG), credit notes (CCB, CPR, NC), OTC derivatives (swaps, flexible options, term c
   name: B3 OTC (Balcão) APIs
   slug: b3-otc-balcao-apis
-- description: Post-trade APIs for the listed segment - iMercado investment fund registration and equities fee details, CORE risk calculation and simulation, unified client registration, asset lending, reconciliatio
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: Post-trade APIs for the listed segment - iMercado investment fund registration and equities fee details, CORE risk calculation and simulation, unified client registration, asset lending, reconciliatio
   name: B3 Listed Markets (Listados) APIs
   slug: b3-listed-markets-apis
-- description: ISIN issuance and management for financial instruments - B3 is the Brazilian numbering agency - covering ISIN requests, updates, and consultation of instrument identifier records.
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: ISIN issuance and management for financial instruments - B3 is the Brazilian numbering agency - covering ISIN requests, updates, and consultation of instrument identifier records.
   name: B3 ISIN API
   slug: b3-isin-api
-- description: Banco B3 Custody API for operation billing, position reports, and fund quote validation, plus the Settlement API for Pix statement consultation.
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: Banco B3 Custody API for operation billing, position reports, and fund quote validation, plus the Settlement API for Pix statement consultation.
   name: Banco B3 APIs
   slug: b3-banco-b3-apis
-- description: Insurance-segment registration APIs (V3) covering accepted co-insurance registration, claim registration, document registration, and batch processing return with data-quality feedback.
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: Insurance-segment registration APIs (V3) covering accepted co-insurance registration, claim registration, document registration, and batch processing return with data-quality feedback.
   name: B3 Insurance (Seguros) APIs
   slug: b3-insurance-apis
-- description: OAuth 2.0 token issuance APIs used across the B3 API catalog - Client Credentials flows (plain, plus category_ID, key, or scope parameter variants) and Resource Owner Password Credentials flows.
+- baseURL: https://developers.b3.com.br:8065
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance APIs used across the B3 API catalog - Client Credentials flows (plain, plus category_ID, key, or scope parameter variants) and Resource Owner Password Credentials flows.
   name: B3 Authentication APIs
   slug: b3-authentication-apis
 - description: 'B3''s real-time market data distribution over the Unified Market Data Feed (UMDF) - event-based bid, ask, trade, and statistics data in L1 (top of book) or L2 (full book) depth, real-time or 15-minute '
@@ -274,7 +290,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:

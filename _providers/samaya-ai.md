@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
@@ -33,13 +46,19 @@ apis:
 - description: Application GraphQL endpoint at https://api.samaya.ai/graphql/ serving the Samaya web app at app.samaya.ai. The API host root 302s to /graphql/, and an anonymous introspection POST returns HTTP 401 "U
   name: Samaya GraphQL API
   slug: samaya-graphql-api
-- description: The Organizations API from Samaya AI — 1 operation(s) for organizations.
+- baseURL: https://api.samaya.ai
+  baseurl_source: declared
+  description: The Organizations API from Samaya AI — 1 operation(s) for organizations.
   name: Samaya AI Organizations API
   slug: samaya-ai-organizations-api
-- description: The Teams API from Samaya AI — 2 operation(s) for teams.
+- baseURL: https://api.samaya.ai
+  baseurl_source: declared
+  description: The Teams API from Samaya AI — 2 operation(s) for teams.
   name: Samaya AI Teams API
   slug: samaya-ai-teams-api
-- description: The Users API from Samaya AI — 1 operation(s) for users.
+- baseURL: https://api.samaya.ai
+  baseurl_source: declared
+  description: The Users API from Samaya AI — 1 operation(s) for users.
   name: Samaya AI Users API
   slug: samaya-ai-users-api
 artifact_total: 13
@@ -218,7 +237,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

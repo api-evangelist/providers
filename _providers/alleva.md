@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,118 +35,192 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
   name: Alleva Advanced Form API
   slug: alleva-advancedform-api
-- description: The AdvancedFormDataBackup API from Alleva — 2 operation(s) for advancedformdatabackup.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The AdvancedFormDataBackup API from Alleva — 2 operation(s) for advancedformdatabackup.
   name: Alleva Advanced Form Data Backup API
   slug: alleva-advancedformdatabackup-api
-- description: The AdvancedFormElement API from Alleva — 2 operation(s) for advancedformelement.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The AdvancedFormElement API from Alleva — 2 operation(s) for advancedformelement.
   name: Alleva Advanced Form Element API
   slug: alleva-advancedformelement-api
-- description: The AdvancedFormInstance API from Alleva — 2 operation(s) for advancedforminstance.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The AdvancedFormInstance API from Alleva — 2 operation(s) for advancedforminstance.
   name: Alleva Advanced Form Instance API
   slug: alleva-advancedforminstance-api
-- description: The Appointments API from Alleva — 4 operation(s) for appointments.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Appointments API from Alleva — 4 operation(s) for appointments.
   name: Alleva Appointments API
   slug: alleva-appointments-api
-- description: The Bed API from Alleva — 4 operation(s) for bed.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Bed API from Alleva — 4 operation(s) for bed.
   name: Alleva Bed API
   slug: alleva-bed-api
-- description: The BedOccupancy API from Alleva — 28 operation(s) for bedoccupancy.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The BedOccupancy API from Alleva — 28 operation(s) for bedoccupancy.
   name: Alleva Bed Occupancy API
   slug: alleva-bedoccupancy-api
-- description: The BedReservation API from Alleva — 20 operation(s) for bedreservation.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The BedReservation API from Alleva — 20 operation(s) for bedreservation.
   name: Alleva Bed Reservation API
   slug: alleva-bedreservation-api
-- description: The ClientDevice API from Alleva — 4 operation(s) for clientdevice.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The ClientDevice API from Alleva — 4 operation(s) for clientdevice.
   name: Alleva Client Device API
   slug: alleva-clientdevice-api
-- description: The Clients API from Alleva — 38 operation(s) for clients.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Clients API from Alleva — 38 operation(s) for clients.
   name: Alleva Clients API
   slug: alleva-clients-api
-- description: The DataFacet API from Alleva — 2 operation(s) for datafacet.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The DataFacet API from Alleva — 2 operation(s) for datafacet.
   name: Alleva Data Facet API
   slug: alleva-datafacet-api
-- description: The DataValue API from Alleva — 4 operation(s) for datavalue.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The DataValue API from Alleva — 4 operation(s) for datavalue.
   name: Alleva Data Value API
   slug: alleva-datavalue-api
-- description: The DischargePlan API from Alleva — 4 operation(s) for dischargeplan.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The DischargePlan API from Alleva — 4 operation(s) for dischargeplan.
   name: Alleva Discharge Plan API
   slug: alleva-dischargeplan-api
-- description: The Document API from Alleva — 6 operation(s) for document.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Document API from Alleva — 6 operation(s) for document.
   name: Alleva Document API
   slug: alleva-document-api
-- description: The Facilities API from Alleva — 8 operation(s) for facilities.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Facilities API from Alleva — 8 operation(s) for facilities.
   name: Alleva Facilities API
   slug: alleva-facilities-api
-- description: The Homework API from Alleva — 8 operation(s) for homework.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Homework API from Alleva — 8 operation(s) for homework.
   name: Alleva Homework API
   slug: alleva-homework-api
-- description: The IncidentReport API from Alleva — 4 operation(s) for incidentreport.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The IncidentReport API from Alleva — 4 operation(s) for incidentreport.
   name: Alleva Incident Report API
   slug: alleva-incidentreport-api
-- description: The Intake API from Alleva — 8 operation(s) for intake.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Intake API from Alleva — 8 operation(s) for intake.
   name: Alleva Intake API
   slug: alleva-intake-api
-- description: The LevelOfCare API from Alleva — 4 operation(s) for levelofcare.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The LevelOfCare API from Alleva — 4 operation(s) for levelofcare.
   name: Alleva Level Of Care API
   slug: alleva-levelofcare-api
-- description: The ManageIntake API from Alleva — 12 operation(s) for manageintake.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The ManageIntake API from Alleva — 12 operation(s) for manageintake.
   name: Alleva Manage Intake API
   slug: alleva-manageintake-api
-- description: The MasterCodes API from Alleva — 2 operation(s) for mastercodes.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The MasterCodes API from Alleva — 2 operation(s) for mastercodes.
   name: Alleva Master Codes API
   slug: alleva-mastercodes-api
-- description: The Medications API from Alleva — 4 operation(s) for medications.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Medications API from Alleva — 4 operation(s) for medications.
   name: Alleva Medications API
   slug: alleva-medications-api
-- description: The Organizations API from Alleva — 6 operation(s) for organizations.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Organizations API from Alleva — 6 operation(s) for organizations.
   name: Alleva Organizations API
   slug: alleva-organizations-api
-- description: The Pronoun API from Alleva — 4 operation(s) for pronoun.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Pronoun API from Alleva — 4 operation(s) for pronoun.
   name: Alleva Pronoun API
   slug: alleva-pronoun-api
-- description: The Prospects API from Alleva — 12 operation(s) for prospects.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Prospects API from Alleva — 12 operation(s) for prospects.
   name: Alleva Prospects API
   slug: alleva-prospects-api
-- description: The ReferralCompanies API from Alleva — 14 operation(s) for referralcompanies.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The ReferralCompanies API from Alleva — 14 operation(s) for referralcompanies.
   name: Alleva Referral Companies API
   slug: alleva-referralcompanies-api
-- description: The ReferralContacts API from Alleva — 14 operation(s) for referralcontacts.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The ReferralContacts API from Alleva — 14 operation(s) for referralcontacts.
   name: Alleva Referral Contacts API
   slug: alleva-referralcontacts-api
-- description: The Rehab API from Alleva — 8 operation(s) for rehab.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Rehab API from Alleva — 8 operation(s) for rehab.
   name: Alleva Rehab API
   slug: alleva-rehab-api
-- description: The Room API from Alleva — 4 operation(s) for room.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Room API from Alleva — 4 operation(s) for room.
   name: Alleva Room API
   slug: alleva-room-api
-- description: The Sessions API from Alleva — 1 operation(s) for sessions.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Sessions API from Alleva — 1 operation(s) for sessions.
   name: Alleva Sessions API
   slug: alleva-sessions-api
-- description: The ShiftRounds API from Alleva — 6 operation(s) for shiftrounds.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The ShiftRounds API from Alleva — 6 operation(s) for shiftrounds.
   name: Alleva Shift Rounds API
   slug: alleva-shiftrounds-api
-- description: The Snapshot API from Alleva — 8 operation(s) for snapshot.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Snapshot API from Alleva — 8 operation(s) for snapshot.
   name: Alleva Snapshot API
   slug: alleva-snapshot-api
-- description: The Survey API from Alleva — 6 operation(s) for survey.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Survey API from Alleva — 6 operation(s) for survey.
   name: Alleva Survey API
   slug: alleva-survey-api
-- description: The TreatmentPlans API from Alleva — 10 operation(s) for treatmentplans.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The TreatmentPlans API from Alleva — 10 operation(s) for treatmentplans.
   name: Alleva Treatment Plans API
   slug: alleva-treatmentplans-api
-- description: The TreatmentReviews API from Alleva — 4 operation(s) for treatmentreviews.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The TreatmentReviews API from Alleva — 4 operation(s) for treatmentreviews.
   name: Alleva Treatment Reviews API
   slug: alleva-treatmentreviews-api
-- description: The UserLicense API from Alleva — 4 operation(s) for userlicense.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The UserLicense API from Alleva — 4 operation(s) for userlicense.
   name: Alleva User License API
   slug: alleva-userlicense-api
-- description: The Users API from Alleva — 20 operation(s) for users.
+- baseURL: https://api.helloalleva.com
+  baseurl_source: declared
+  description: The Users API from Alleva — 20 operation(s) for users.
   name: Alleva Users API
   slug: alleva-users-api
 artifact_total: 80
@@ -420,7 +506,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:

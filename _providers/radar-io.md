@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 26 operations · 7 acting
 api_count: 1
 apis:
-- description: Validate and verify addresses.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Validate and verify addresses.
   name: Radar Addresses API
   slug: radar-io-addresses-api
-- description: List and manage geofence and place events.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: List and manage geofence and place events.
   name: Radar Events API
   slug: radar-io-events-api
-- description: Forward, reverse, and IP geocoding.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Forward, reverse, and IP geocoding.
   name: Radar Geocoding API
   slug: radar-io-geocoding-api
-- description: Create, read, update, and delete geofences.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete geofences.
   name: Radar Geofences API
   slug: radar-io-geofences-api
-- description: Distance, matrix, directions, and route matching.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Distance, matrix, directions, and route matching.
   name: Radar Routing API
   slug: radar-io-routing-api
-- description: Address and place autocomplete, place search, and geofence search.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Address and place autocomplete, place search, and geofence search.
   name: Radar Search API
   slug: radar-io-search-api
-- description: Raster and vector map tiles.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Raster and vector map tiles.
   name: Radar Tiles API
   slug: radar-io-tiles-api
-- description: Track device location and manage users.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Track device location and manage users.
   name: Radar Track API
   slug: radar-io-track-api
-- description: Create, update, and list trips for trip tracking.
+- baseURL: https://api.radar.io/v1
+  baseurl_source: declared
+  description: Create, update, and list trips for trip tracking.
   name: Radar Trips API
   slug: radar-io-trips-api
 artifact_total: 26
@@ -180,7 +198,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +221,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/radar-io/refs/heads/main/screenshots/radar-io-2026-09-02T152742.png
 security:
 - kind: authentication
   name: Radar Io Authentication

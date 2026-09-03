@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -47,46 +47,74 @@ apis:
 - description: 'The Shareworks Public API is a REST-based system for managing equity compensation plans including stock options, RSU grants, ESPP, and participant data. The API supports both read-only and read-write '
   name: Shareworks Public API
   slug: shareworks-public-api
-- description: The Authentication Token API from Shareworks — 3 operation(s) for authentication token.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Authentication Token API from Shareworks — 3 operation(s) for authentication token.
   name: Shareworks Authentication Token API
   slug: shareworks-authentication-token-api
-- description: The Authorized Capital API from Shareworks — 5 operation(s) for authorized capital.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Authorized Capital API from Shareworks — 5 operation(s) for authorized capital.
   name: Shareworks Authorized Capital API
   slug: shareworks-authorized-capital-api
-- description: The Award Type API from Shareworks — 1 operation(s) for award type.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Award Type API from Shareworks — 1 operation(s) for award type.
   name: Shareworks Award Type API
   slug: shareworks-award-type-api
-- description: The Company API from Shareworks — 2 operation(s) for company.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Company API from Shareworks — 2 operation(s) for company.
   name: Shareworks Company API
   slug: shareworks-company-api
-- description: The Company Board API from Shareworks — 3 operation(s) for company board.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Company Board API from Shareworks — 3 operation(s) for company board.
   name: Shareworks Company Board API
   slug: shareworks-company-board-api
-- description: The Company Integration API from Shareworks — 1 operation(s) for company integration.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Company Integration API from Shareworks — 1 operation(s) for company integration.
   name: Shareworks Company Integration API
   slug: shareworks-company-integration-api
-- description: The Entity Stakeholder API from Shareworks — 3 operation(s) for entity stakeholder.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Entity Stakeholder API from Shareworks — 3 operation(s) for entity stakeholder.
   name: Shareworks Entity Stakeholder API
   slug: shareworks-entity-stakeholder-api
-- description: The Grant API from Shareworks — 2 operation(s) for grant.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Grant API from Shareworks — 2 operation(s) for grant.
   name: Shareworks Grant API
   slug: shareworks-grant-api
-- description: The Holdings API from Shareworks — 2 operation(s) for holdings.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Holdings API from Shareworks — 2 operation(s) for holdings.
   name: Shareworks Holdings API
   slug: shareworks-holdings-api
-- description: The Individual Stakeholder API from Shareworks — 3 operation(s) for individual stakeholder.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Individual Stakeholder API from Shareworks — 3 operation(s) for individual stakeholder.
   name: Shareworks Individual Stakeholder API
   slug: shareworks-individual-stakeholder-api
-- description: The Plan API from Shareworks — 1 operation(s) for plan.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Plan API from Shareworks — 1 operation(s) for plan.
   name: Shareworks Plan API
   slug: shareworks-plan-api
-- description: The Stock Certificate API from Shareworks — 2 operation(s) for stock certificate.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Stock Certificate API from Shareworks — 2 operation(s) for stock certificate.
   name: Shareworks Stock Certificate API
   slug: shareworks-stock-certificate-api
-- description: The Stock Filing API from Shareworks — 2 operation(s) for stock filing.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Stock Filing API from Shareworks — 2 operation(s) for stock filing.
   name: Shareworks Stock Filing API
   slug: shareworks-stock-filing-api
-- description: The Vesting Schedule API from Shareworks — 3 operation(s) for vesting schedule.
+- baseURL: https://shareworks-api.solium.com/
+  baseurl_source: declared
+  description: The Vesting Schedule API from Shareworks — 3 operation(s) for vesting schedule.
   name: Shareworks Vesting Schedule API
   slug: shareworks-vesting-schedule-api
 artifact_total: 119
@@ -510,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/screenshots/shareworks-2026-06-20T193746.png
 security:

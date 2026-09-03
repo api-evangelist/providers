@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Account and reference data
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Account and reference data
   name: CryptoNews API Account API
   slug: cryptonews-account-api
-- description: News by category or sector
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: News by category or sector
   name: CryptoNews API Categories API
   slug: cryptonews-categories-api
-- description: Curated digest endpoints
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Curated digest endpoints
   name: CryptoNews API Digest API
   slug: cryptonews-digest-api
-- description: Cryptocurrency news articles aggregated from 50+ sources
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Cryptocurrency news articles aggregated from 50+ sources
   name: CryptoNews API News API
   slug: cryptonews-news-api
-- description: Delayed cryptocurrency pricing data
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Delayed cryptocurrency pricing data
   name: CryptoNews API Prices API
   slug: cryptonews-prices-api
-- description: Sentiment analysis and statistical summaries
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Sentiment analysis and statistical summaries
   name: CryptoNews API Sentiment & Stats API
   slug: cryptonews-sentiment-stats-api
-- description: Trending headlines and top mentions
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Trending headlines and top mentions
   name: CryptoNews API Trending API
   slug: cryptonews-trending-api
-- description: Large on-chain whale transaction tracking
+- baseURL: https://cryptonews-api.com/api/v1
+  baseurl_source: declared
+  description: Large on-chain whale transaction tracking
   name: CryptoNews API Whale Transactions API
   slug: cryptonews-whale-transactions-api
 artifact_total: 31
@@ -251,7 +267,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptonews/refs/heads/main/screenshots/cryptonews-2026-06-20T175312.png
 security:

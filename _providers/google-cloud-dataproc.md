@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Operations on Dataproc clusters
+- baseURL: https://dataproc.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Dataproc clusters
   name: Google Cloud Dataproc Clusters API
   slug: google-cloud-dataproc-clusters-api
-- description: Operations on Dataproc jobs
+- baseURL: https://dataproc.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Dataproc jobs
   name: Google Cloud Dataproc Jobs API
   slug: google-cloud-dataproc-jobs-api
-- description: Operations on workflow templates
+- baseURL: https://dataproc.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on workflow templates
   name: Google Cloud Dataproc WorkflowTemplates API
   slug: google-cloud-dataproc-workflowtemplates-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/screenshots/google-cloud-dataproc-2026-06-20T182106.png
 security:

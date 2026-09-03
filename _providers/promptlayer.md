@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 11 acting
 api_count: 1
 apis:
-- description: Create, run, and score evaluation reports against datasets.
+- baseURL: https://api.promptlayer.com
+  baseurl_source: declared
+  description: Create, run, and score evaluation reports against datasets.
   name: PromptLayer Evaluations & Datasets API
   slug: promptlayer-evaluations-datasets-api
-- description: Log and track LLM requests, scores, and metadata.
+- baseURL: https://api.promptlayer.com
+  baseurl_source: declared
+  description: Log and track LLM requests, scores, and metadata.
   name: PromptLayer Logging & Tracking API
   slug: promptlayer-logging-tracking-api
-- description: Retrieve and publish versioned prompt templates.
+- baseURL: https://api.promptlayer.com
+  baseurl_source: declared
+  description: Retrieve and publish versioned prompt templates.
   name: PromptLayer Prompt Registry API
   slug: promptlayer-prompt-registry-api
-- description: Ingest spans and manage traces for LLM observability.
+- baseURL: https://api.promptlayer.com
+  baseurl_source: declared
+  description: Ingest spans and manage traces for LLM observability.
   name: PromptLayer Spans & Traces API
   slug: promptlayer-spans-traces-api
 artifact_total: 16
@@ -169,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptlayer/refs/heads/main/screenshots/promptlayer-2026-06-20T192157.png
 security:

@@ -34,31 +34,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: Browse the Sendoso marketplace catalog, get AI-selected gift recommendations for a recipient, and send either. Four operations on /api/v3, scoped to `marketplace` and `smartsend`.
+- baseURL: https://app.sendoso.com/api/v3
+  baseurl_source: declared
+  description: Browse the Sendoso marketplace catalog, get AI-selected gift recommendations for a recipient, and send either. Four operations on /api/v3, scoped to `marketplace` and `smartsend`.
   name: Sendoso Marketplace and SmartSend API
   slug: sendoso-marketplace-api
-- description: Twenty-eight Svix-signed send lifecycle events delivered to an endpoint you control. Subscriptions are configured in a hosted portal; there is no webhook management API.
+- baseURL: https://developer.sendoso.com/webhooks/introduction
+  baseurl_source: declared
+  description: Twenty-eight Svix-signed send lifecycle events delivered to an endpoint you control. Subscriptions are configured in a hosted portal; there is no webhook management API.
   name: Sendoso Webhooks
   slug: sendoso-webhooks
 - description: OAuth-protected remote MCP server over the Sendoso platform, at https://app.sendoso.com/mcp. Publishes RFC 9728 protected-resource and RFC 8414 authorization-server metadata with dynamic client regist
   name: Sendoso MCP Server
   slug: sendoso-mcp
-- description: Campaigns, called "touches" in the API.
+- baseURL: https://app.sendoso.com/api/v3
+  baseurl_source: declared
+  description: Campaigns, called "touches" in the API.
   name: Sendoso Campaigns API
   slug: sendoso-campaigns-api
-- description: Create and retrieve gift, direct mail and eGift sends.
+- baseURL: https://app.sendoso.com/api/v3
+  baseurl_source: declared
+  description: Create and retrieve gift, direct mail and eGift sends.
   name: Sendoso Sends API
   slug: sendoso-sends-api
-- description: AI-selected gift recommendations and sending them.
+- baseURL: https://app.sendoso.com/api/v3
+  baseurl_source: declared
+  description: AI-selected gift recommendations and sending them.
   name: Sendoso Smart Send API
   slug: sendoso-smartsend-api
-- description: Team groups and their members.
+- baseURL: https://app.sendoso.com/api/v3
+  baseurl_source: declared
+  description: Team groups and their members.
   name: Sendoso Teams API
   slug: sendoso-teams-api
-- description: Read the authorized user, list organization users, invite new users.
+- baseURL: https://app.sendoso.com/api/v3
+  baseurl_source: declared
+  description: Read the authorized user, list organization users, invite new users.
   name: Sendoso Users API
   slug: sendoso-users-api
 artifact_total: 19
@@ -310,7 +324,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -320,7 +334,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 54.7
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
@@ -331,7 +345,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/screenshots/sendoso-2026-06-20T193656.png
 security:

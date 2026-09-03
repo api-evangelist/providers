@@ -23,22 +23,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Boards API from Savee — 3 operation(s) for boards.
+- baseURL: https://api.savee.com/v1
+  baseurl_source: declared
+  description: The Boards API from Savee — 3 operation(s) for boards.
   name: Savee Boards API
   slug: savee-boards-api
-- description: The Saves API from Savee — 3 operation(s) for saves.
+- baseURL: https://api.savee.com/v1
+  baseurl_source: declared
+  description: The Saves API from Savee — 3 operation(s) for saves.
   name: Savee Saves API
   slug: savee-saves-api
-- description: The Search API from Savee — 1 operation(s) for search.
+- baseURL: https://api.savee.com/v1
+  baseurl_source: declared
+  description: The Search API from Savee — 1 operation(s) for search.
   name: Savee Search API
   slug: savee-search-api
-- description: The System API from Savee — 2 operation(s) for system.
+- baseURL: https://api.savee.com/v1
+  baseurl_source: declared
+  description: The System API from Savee — 2 operation(s) for system.
   name: Savee System API
   slug: savee-system-api
-- description: The User API from Savee — 1 operation(s) for user.
+- baseURL: https://api.savee.com/v1
+  baseurl_source: declared
+  description: The User API from Savee — 1 operation(s) for user.
   name: Savee User API
   slug: savee-user-api
 artifact_total: 5
@@ -68,7 +78,7 @@ score:
   band: emerging
   composite: 24.8
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -90,8 +100,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/screenshots/savee-2026-09-02T154444.png
 slug: savee
 tags:
 - Design

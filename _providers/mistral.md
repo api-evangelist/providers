@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 29 operations · 19 acting
 api_count: 13
 apis:
-- description: Agent completion operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Agent completion operations
   name: Mistral AI Agents API
   slug: mistral-agents-api
-- description: Audio transcription operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Audio transcription operations
   name: Mistral AI Audio API
   slug: mistral-audio-api
-- description: Batch inference job operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Batch inference job operations
   name: Mistral AI Batch Jobs API
   slug: mistral-batch-jobs-api
-- description: Chat completion operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Chat completion operations
   name: Mistral AI Chat API
   slug: mistral-chat-api
-- description: Text embedding operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Text embedding operations
   name: Mistral AI Embeddings API
   slug: mistral-embeddings-api
-- description: File management operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: File management operations
   name: Mistral AI Files API
   slug: mistral-files-api
-- description: Fill-in-the-Middle code completion operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Fill-in-the-Middle code completion operations
   name: Mistral AI FIM API
   slug: mistral-fim-api
-- description: Create and manage fine-tuning jobs
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Create and manage fine-tuning jobs
   name: Mistral AI Fine-Tuning Jobs API
   slug: mistral-fine-tuning-jobs-api
-- description: Model management operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Model management operations
   name: Mistral AI Models API
   slug: mistral-models-api
-- description: Content moderation and classification operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Content moderation and classification operations
   name: Mistral AI Moderation API
   slug: mistral-moderation-api
-- description: Document OCR and text extraction operations
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Document OCR and text extraction operations
   name: Mistral AI OCR API
   slug: mistral-ocr-api
-- description: Endpoints for generating chat completions using Mistral language models in a conversational format.
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Endpoints for generating chat completions using Mistral language models in a conversational format.
   name: Mistral AI Chat Completions API
   slug: mistral-chat-completions-api
-- description: Endpoints for creating and managing training jobs including pre-training, supervised fine-tuning, and reinforcement learning pipelines.
+- baseURL: https://api.mistral.ai/v1
+  baseurl_source: declared
+  description: Endpoints for creating and managing training jobs including pre-training, supervised fine-tuning, and reinforcement learning pipelines.
   name: Mistral AI Training Jobs API
   slug: mistral-training-jobs-api
 artifact_total: 142
@@ -614,7 +640,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -624,7 +650,7 @@ score:
     discoverability: 70.4
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 53.9
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -634,10 +660,10 @@ score:
       total: 13
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185616.png
 security:

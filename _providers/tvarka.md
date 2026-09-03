@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 15
@@ -33,19 +47,29 @@ agentic_access:
   summary_line: 44 operations · 31 acting · 15 human-in-the-loop
 api_count: 4
 apis:
-- description: The eID authentication ceremony (`/v1/auth/*`).
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The eID authentication ceremony (`/v1/auth/*`).
   name: Tvarka ATK API Auth API
   slug: tvarka-atk-api-auth-api
-- description: The Erasure API from Tvarka ATK API — 3 operation(s) for erasure.
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The Erasure API from Tvarka ATK API — 3 operation(s) for erasure.
   name: Tvarka ATK API Erasure API
   slug: tvarka-atk-api-erasure-api
-- description: Post-signature timestamp and long-term-validation upgrades.
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Post-signature timestamp and long-term-validation upgrades.
   name: Tvarka ATK API LTV API
   slug: tvarka-atk-api-ltv-api
-- description: NFC remote pairing - complete a request by tapping a card on a different device.
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: NFC remote pairing - complete a request by tapping a card on a different device.
   name: Tvarka ATK API Pairing API
   slug: tvarka-atk-api-pairing-api
-- description: The QES signing ceremony (`/v1/sign/*`).
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The QES signing ceremony (`/v1/sign/*`).
   name: Tvarka ATK API Sign API
   slug: tvarka-atk-api-sign-api
 - description: The Tvarka ATK API API from Tvarka ATK API — 0 operation(s) for tvarka atk api.
@@ -54,13 +78,19 @@ apis:
 - description: The Tvarka ATK QES Signing API (paid Tier Addendum) API from Tvarka ATK API — 0 operation(s) for tvarka atk qes signing api (paid tier addendum).
   name: Tvarka ATK API Tvarka ATK QES Signing API (paid Tier Addendum) API
   slug: tvarka-atk-api-tvarka-atk-qes-signing-api-paid-tier-addendum-api
-- description: Standalone advisory validation of signed artifacts.
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Standalone advisory validation of signed artifacts.
   name: Tvarka ATK API Validation API
   slug: tvarka-atk-api-validation-api
-- description: Keys for verifying the optional `assertion` JWT.
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Keys for verifying the optional `assertion` JWT.
   name: Tvarka ATK API Well Known API
   slug: tvarka-atk-api-well-known-api
-- description: 'Machine channel for Tvarka Sign: post a document and a list of signers and Tvarka runs its ordinary qualified signing ceremony for each of them on the hosted page or in the Tvarka Sign mobile app (LT '
+- baseURL: https://sign-api.tvarka.pro
+  baseurl_source: declared
+  description: 'Machine channel for Tvarka Sign: post a document and a list of signers and Tvarka runs its ordinary qualified signing ceremony for each of them on the hosted page or in the Tvarka Sign mobile app (LT '
   name: Tvarka Sign API
   slug: tvarka-sign-api
 arazzos:
@@ -362,23 +392,23 @@ rate_limits:
   slug: tvarka-sign-api-rate-limits
 score:
   band: strong
-  composite: 65.8
+  composite: 66.1
   coverage:
     artifact_dirs: 24
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.3
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 64.1
+    contract_quality: 65.0
     developer_ergonomics: 75.6
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 66.3
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -390,7 +420,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/screenshots/tvarka-atk-api-2026-08-17T082503.png
 security:

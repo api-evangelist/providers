@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: The Health API from Syncly — 1 operation(s) for health.
+- baseURL: https://mcp.syncly.app
+  baseurl_source: declared
+  description: The Health API from Syncly — 1 operation(s) for health.
   name: Syncly Health API
   slug: syncly-health-api
-- description: The .well Known API from Syncly — 3 operation(s) for .well known.
+- baseURL: https://mcp.syncly.app
+  baseurl_source: declared
+  description: The .well Known API from Syncly — 3 operation(s) for .well known.
   name: Syncly .well Known API
   slug: syncly-well-known-api
 artifact_total: 10
@@ -228,7 +232,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/screenshots/syncly-2026-08-17T082226.png
 security:

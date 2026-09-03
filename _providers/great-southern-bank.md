@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Great Southern Bank Banking Account Balances API
   slug: great-southern-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Great Southern Bank Banking Account Direct Debits API
   slug: great-southern-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Great Southern Bank Banking Account Scheduled Payments API
   slug: great-southern-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Great Southern Bank Banking Account Transactions API
   slug: great-southern-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Great Southern Bank Banking Accounts API
   slug: great-southern-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Great Southern Bank Banking Payees API
   slug: great-southern-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.open-banking.greatsouthernbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Great Southern Bank Banking Products API
   slug: great-southern-bank-banking-products-api
 artifact_total: 19
@@ -250,7 +264,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/screenshots/great-southern-bank-2026-07-21T114729.png
 security:

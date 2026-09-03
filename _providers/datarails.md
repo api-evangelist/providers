@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,16 +51,24 @@ apis:
 - description: REST file-upload endpoint used to push a CSV or Excel file into a Datarails Filebox. Authenticated with HTTP Basic using a base64-encoded Datarails sync user (which must not have MFA enabled). The tar
   name: Datarails Data Gateway Service (DGS)
   slug: data-gateway-service
-- description: The Health API from Datarails — 1 operation(s) for health.
+- baseURL: https://mcp.datarails.com/mcp
+  baseurl_source: declared
+  description: The Health API from Datarails — 1 operation(s) for health.
   name: Datarails Health API
   slug: datarails-health-api
-- description: The Oauth API from Datarails — 1 operation(s) for oauth.
+- baseURL: https://mcp.datarails.com/mcp
+  baseurl_source: declared
+  description: The Oauth API from Datarails — 1 operation(s) for oauth.
   name: Datarails OAUTH API
   slug: datarails-oauth-api
-- description: The Ready API from Datarails — 1 operation(s) for ready.
+- baseURL: https://mcp.datarails.com/mcp
+  baseurl_source: declared
+  description: The Ready API from Datarails — 1 operation(s) for ready.
   name: Datarails Ready API
   slug: datarails-ready-api
-- description: The .well Known API from Datarails — 2 operation(s) for .well known.
+- baseURL: https://mcp.datarails.com/mcp
+  baseurl_source: declared
+  description: The .well Known API from Datarails — 2 operation(s) for .well known.
   name: Datarails .well Known API
   slug: datarails-well-known-api
 artifact_total: 14
@@ -274,7 +297,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:

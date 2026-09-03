@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -48,196 +48,324 @@ apis:
 - description: The LinkedIn Consumer Solutions Platform enables sites and applications the power to enhance their sign-in experience using the world's largest professional network. The Consumer Solutions Platform co
   name: LinkedIn Consumer API
   slug: linkedin-consumer-api
-- description: Manage entity ACLs and assignees
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Manage entity ACLs and assignees
   name: LinkedIn Access Control API
   slug: linkedin-access-control-api
-- description: APIs to create and manage ad accounts
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to create and manage ad accounts
   name: LinkedIn Account Management API
   slug: linkedin-account-management-api
-- description: APIs to retrieve and manage ad accounts
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to retrieve and manage ad accounts
   name: LinkedIn Ad Accounts API
   slug: linkedin-ad-accounts-api
-- description: APIs to discover and retrieve ad targeting facets and entities
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to discover and retrieve ad targeting facets and entities
   name: LinkedIn Ad Targeting Entities API
   slug: linkedin-ad-targeting-entities-api
-- description: Operations for retrieving advertiser transparency data for sponsored accounts
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Operations for retrieving advertiser transparency data for sponsored accounts
   name: LinkedIn Advertiser Transparency API
   slug: linkedin-advertiser-transparency-api
-- description: APIs for retrieving child application details
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs for retrieving child application details
   name: LinkedIn Application Retrieval API
   slug: linkedin-application-retrieval-api
-- description: Sync job applications and related data
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Sync job applications and related data
   name: LinkedIn Application Synchronization API
   slug: linkedin-application-synchronization-api
-- description: APIs for updating child application configurations
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs for updating child application configurations
   name: LinkedIn Application Updates API
   slug: linkedin-application-updates-api
-- description: APIs for creating and managing Apply Connect enabled job postings
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs for creating and managing Apply Connect enabled job postings
   name: LinkedIn Apply Connect Jobs API
   slug: linkedin-apply-connect-jobs-api
-- description: APIs to retrieve audience counts based on targeting criteria
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to retrieve audience counts based on targeting criteria
   name: LinkedIn Audience Counts API
   slug: linkedin-audience-counts-api
-- description: APIs to fetch audience insights based on targeting criteria
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to fetch audience insights based on targeting criteria
   name: LinkedIn Audience Insights API
   slug: linkedin-audience-insights-api
-- description: OAuth 2.0 token management for customer applications
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management for customer applications
   name: LinkedIn Authentication API
   slug: linkedin-authentication-api
-- description: Business manager account relationships
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Business manager account relationships
   name: LinkedIn Business Manager API
   slug: linkedin-business-manager-api
-- description: APIs to create and manage campaign groups
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to create and manage campaign groups
   name: LinkedIn Campaign Group Management API
   slug: linkedin-campaign-group-management-api
-- description: APIs to create and manage campaigns
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to create and manage campaigns
   name: LinkedIn Campaign Management API
   slug: linkedin-campaign-management-api
-- description: Sync candidate data from ATS to LinkedIn
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Sync candidate data from ATS to LinkedIn
   name: LinkedIn Candidate Synchronization API
   slug: linkedin-candidate-synchronization-api
-- description: APIs for provisioning and managing customer (child) applications
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs for provisioning and managing customer (child) applications
   name: LinkedIn Child Application Provisioning API
   slug: linkedin-child-application-provisioning-api
-- description: APIs to stream company data for account targeting
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to stream company data for account targeting
   name: LinkedIn Company Streaming API
   slug: linkedin-company-streaming-api
-- description: APIs to opt-in and opt-out members for compliance monitoring on LinkedIn
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to opt-in and opt-out members for compliance monitoring on LinkedIn
   name: LinkedIn Compliance Authorization API
   slug: linkedin-compliance-authorization-api
-- description: APIs to retrieve compliance events for regulated members
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to retrieve compliance events for regulated members
   name: LinkedIn Compliance Events API
   slug: linkedin-compliance-events-api
-- description: 1. Obtain user authorization with consent to create and manage conversions using `rw_conversions`, `r_ads` permissions in the scope. 2. Retrieve authenticated user's sponsored Ad Accounts where user h
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: 1. Obtain user authorization with consent to create and manage conversions using `rw_conversions`, `r_ads` permissions in the scope. 2. Retrieve authenticated user's sponsored Ad Accounts where user h
   name: LinkedIn Conversion Events Streaming Workflow API
   slug: linkedin-conversion-events-streaming-workflow-api
-- description: APIs to create and manage ad creatives
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to create and manage ad creatives
   name: LinkedIn Creative Management API
   slug: linkedin-creative-management-api
-- description: Create and manage CRM data validation export jobs
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Create and manage CRM data validation export jobs
   name: LinkedIn CRM Data Validation API
   slug: linkedin-crm-data-validation-api
-- description: APIs for managing customer ATS integrations for premium job posting
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs for managing customer ATS integrations for premium job posting
   name: LinkedIn Customer Integrations API
   slug: linkedin-customer-integrations-api
-- description: Delete synced data from LinkedIn
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Delete synced data from LinkedIn
   name: LinkedIn Data Deletion API
   slug: linkedin-data-deletion-api
-- description: Retrieve exported candidates and recruiter interactions
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Retrieve exported candidates and recruiter interactions
   name: LinkedIn Data Retrieval API
   slug: linkedin-data-retrieval-api
-- description: APIs to create and manage DMP segments for audience targeting
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to create and manage DMP segments for audience targeting
   name: LinkedIn DMP Segments API
   slug: linkedin-dmp-segments-api
-- description: Events and live video data
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Events and live video data
   name: LinkedIn Events API
   slug: linkedin-events-api
-- description: Posts, reactions, comments, and social metadata
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Posts, reactions, comments, and social metadata
   name: LinkedIn Feed Content API
   slug: linkedin-feed-content-api
-- description: Media Planning API can help Media Planners understand the reach and ROI that LinkedIn can offer to their client. It allows them to make budget allocation recommendations with confidence and know how t
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Media Planning API can help Media Planners understand the reach and ROI that LinkedIn can offer to their client. It allows them to make budget allocation recommendations with confidence and know how t
   name: LinkedIn Fetch Media Plan API
   slug: linkedin-fetch-media-plan-api
-- description: Configure and manage customer ATS integrations
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Configure and manage customer ATS integrations
   name: LinkedIn Integration Configuration API
   slug: linkedin-integration-configuration-api
-- description: APIs for managing the lifecycle of job postings
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs for managing the lifecycle of job postings
   name: LinkedIn Job Lifecycle Management API
   slug: linkedin-job-lifecycle-management-api
-- description: Lead generation forms and responses
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Lead generation forms and responses
   name: LinkedIn Lead Generation API
   slug: linkedin-lead-generation-api
-- description: APIs to retrieve learning activity reports including completions, views, and logins
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to retrieve learning activity reports including completions, views, and logins
   name: LinkedIn Learning Activity Reports API
   slug: linkedin-learning-activity-reports-api
-- description: APIs to upload and attach CSV lists to DMP segments
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to upload and attach CSV lists to DMP segments
   name: LinkedIn List Uploads API
   slug: linkedin-list-uploads-api
-- description: Organization ACLs and authorization data
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Organization ACLs and authorization data
   name: LinkedIn Organization Access Control API
   slug: linkedin-organization-access-control-api
-- description: Organization profile data retrieval
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Organization profile data retrieval
   name: LinkedIn Organizations API
   slug: linkedin-organizations-api
-- description: Organizational page content and edge analytics
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Organizational page content and edge analytics
   name: LinkedIn Page Analytics API
   slug: linkedin-page-analytics-api
-- description: Fetch Sales Navigator profile associations from CRM records
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Fetch Sales Navigator profile associations from CRM records
   name: LinkedIn Profile Associations API
   slug: linkedin-profile-associations-api
-- description: Retrieve sales access tokens for authenticated iframe sessions
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Retrieve sales access tokens for authenticated iframe sessions
   name: LinkedIn Sales Access Tokens API
   slug: linkedin-sales-access-tokens-api
-- description: Create and manage sales analytics export jobs
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Create and manage sales analytics export jobs
   name: LinkedIn Sales Analytics Export API
   slug: linkedin-sales-analytics-export-api
-- description: Manage and retrieve Sales Navigator contracts
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Manage and retrieve Sales Navigator contracts
   name: LinkedIn Sales Contracts API
   slug: linkedin-sales-contracts-api
-- description: This template provides detailed conversion analyses, ideal for in-flight optimization, check-ins, QBRs
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: This template provides detailed conversion analyses, ideal for in-flight optimization, check-ins, QBRs
   name: LinkedIn Use Cases > B2B Templates > Conversions Deep Dive API
   slug: linkedin-use-cases-b2b-templates-conversions-deep-dive-api
-- description: Linkedin is introducing its next generation of APIs to create and manage Conversation Ads, enabling advertisers to better deliver automated messages to a targeted LinkedIn member's inbox. This API rep
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Linkedin is introducing its next generation of APIs to create and manage Conversation Ads, enabling advertisers to better deliver automated messages to a targeted LinkedIn member's inbox. This API rep
   name: LinkedIn Use Cases > Conversation Ad > Sponsored Conversations API
   slug: linkedin-use-cases-conversation-ad-sponsored-conversations-api
-- description: Within our API, Conversation Ads are represented by the Sponsored Conversation entity. Sponsored Conversations are composed of Sponsored Message Content.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Within our API, Conversation Ads are represented by the Sponsored Conversation entity. Sponsored Conversations are composed of Sponsored Message Content.
   name: LinkedIn Use Cases > Conversation Ad > Sponsored Message Contents API
   slug: linkedin-use-cases-conversation-ad-sponsored-message-contents-api
-- description: 'The Creatives API contains all the data and information for visually rendering an ad. There are several types of Ad Creatives that you can associate with campaigns including:'
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: 'The Creatives API contains all the data and information for visually rendering an ad. There are several types of Ad Creatives that you can associate with campaigns including:'
   name: LinkedIn Use Cases > Creatives API
   slug: linkedin-use-cases-creatives-api
-- description: The Use Cases > Document Ad API from LinkedIn — 5 operation(s) for use cases > document ad.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Use Cases > Document Ad API from LinkedIn — 5 operation(s) for use cases > document ad.
   name: LinkedIn Use Cases > Document Ad API
   slug: linkedin-use-cases-document-ad-api
-- description: 'Image ads help you engage business decision-makers on LinkedIn''s mobile and desktop news feed. You can create image ads in two ways: \* Post images to your Company Page and sponsor the post to reach m'
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: 'Image ads help you engage business decision-makers on LinkedIn''s mobile and desktop news feed. You can create image ads in two ways: \* Post images to your Company Page and sponsor the post to reach m'
   name: LinkedIn Use Cases > Image Ad API
   slug: linkedin-use-cases-image-ad-api
-- description: You can set up the message contents sent to targeted LinkedIn members' inbox, either as a Message Ad or a Conversation Ad.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: You can set up the message contents sent to targeted LinkedIn members' inbox, either as a Message Ad or a Conversation Ad.
   name: LinkedIn Use Cases > InMail Content API
   slug: linkedin-use-cases-inmail-content-api
-- description: The Use Cases > Organization Access Controls API from LinkedIn — 1 operation(s) for use cases > organization access controls.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Use Cases > Organization Access Controls API from LinkedIn — 1 operation(s) for use cases > organization access controls.
   name: LinkedIn Use Cases > Organization Access Controls API
   slug: linkedin-use-cases-organization-access-controls-api
-- description: The Use Cases > Organization Followers API from LinkedIn — 2 operation(s) for use cases > organization followers.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Use Cases > Organization Followers API from LinkedIn — 2 operation(s) for use cases > organization followers.
   name: LinkedIn Use Cases > Organization Followers API
   slug: linkedin-use-cases-organization-followers-api
-- description: The Use Cases > Organization Lookup > Organization Brands API from LinkedIn — 4 operation(s) for use cases > organization lookup > organization brands.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Use Cases > Organization Lookup > Organization Brands API from LinkedIn — 4 operation(s) for use cases > organization lookup > organization brands.
   name: LinkedIn Use Cases > Organization Lookup > Organization Brands API
   slug: linkedin-use-cases-organization-lookup-organization-brands-api
-- description: The Use Cases > Organization Lookup > Organizations API from LinkedIn — 3 operation(s) for use cases > organization lookup > organizations.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Use Cases > Organization Lookup > Organizations API from LinkedIn — 3 operation(s) for use cases > organization lookup > organizations.
   name: LinkedIn Use Cases > Organization Lookup > Organizations API
   slug: linkedin-use-cases-organization-lookup-organizations-api
-- description: The Posts API facilities the creation and retrieval of organic and sponsored posts.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Posts API facilities the creation and retrieval of organic and sponsored posts.
   name: LinkedIn Use Cases > Posts API
   slug: linkedin-use-cases-posts-api
-- description: Notifications for the authenticated member’s organizations can be queried using a criteria finder. Notifications are retained and available to pull for 60 days.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Notifications for the authenticated member’s organizations can be queried using a criteria finder. Notifications are retained and available to pull for 60 days.
   name: LinkedIn Use Cases > Social Actions Notifications > Organization Social Actions Notifications - Pull Workflow API
   slug: linkedin-use-cases-social-actions-notifications-organization-social-actions-notifications-pull-workflow-api
-- description: Registered webhook URLs will receive notifications from LinkedIn for subscribed events.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Registered webhook URLs will receive notifications from LinkedIn for subscribed events.
   name: LinkedIn Use Cases > Social Actions Notifications > Organization Social Actions Notifications - Push Workflow API
   slug: linkedin-use-cases-social-actions-notifications-organization-social-actions-notifications-push-workflow-api
-- description: 'In order to support collecting leads for sponsored use cases, a partner app needs to build a UX where a user is able to select the sponsored accounts and forms to collect leads for. ###### Step 1: Obt'
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: 'In order to support collecting leads for sponsored use cases, a partner app needs to build a UX where a user is able to select the sponsored accounts and forms to collect leads for. ###### Step 1: Obt'
   name: LinkedIn Use Cases > Sponsored API
   slug: linkedin-use-cases-sponsored-api
-- description: Spotlight Ads allow you to showcase your product, service, event, content, and more. Upon clicking your Ad, you navigate to the website or landing page of your choice. Learn more about [Spotlight Ads]
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: Spotlight Ads allow you to showcase your product, service, event, content, and more. Upon clicking your Ad, you navigate to the website or landing page of your choice. Learn more about [Spotlight Ads]
   name: LinkedIn Use Cases > Spotlight Ad API
   slug: linkedin-use-cases-spotlight-ad-api
-- description: This API describes usage of Organization Follower Statistics. Fore more details, check [here](https://docs.microsoft.com/en-us/linkedin/marketing/integrations/community-management/organizations/follow
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: This API describes usage of Organization Follower Statistics. Fore more details, check [here](https://docs.microsoft.com/en-us/linkedin/marketing/integrations/community-management/organizations/follow
   name: LinkedIn Use Cases > Statistics APIs > Organization Follower Statistics API
   slug: linkedin-use-cases-statistics-apis-organization-follower-statistics-api
-- description: This API describes usage of Organization Page Statistics. Fore more details, check [here](https://docs.microsoft.com/en-us/linkedin/marketing/integrations/community-management/organizations/page-stati
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: This API describes usage of Organization Page Statistics. Fore more details, check [here](https://docs.microsoft.com/en-us/linkedin/marketing/integrations/community-management/organizations/page-stati
   name: LinkedIn Use Cases > Statistics APIs > Organization Page Statistics API
   slug: linkedin-use-cases-statistics-apis-organization-page-statistics-api
-- description: This API describes usage of Organization Share Statistics. Fore more details, check [here](https://docs.microsoft.com/en-us/linkedin/marketing/integrations/community-management/organizations/share-sta
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: This API describes usage of Organization Share Statistics. Fore more details, check [here](https://docs.microsoft.com/en-us/linkedin/marketing/integrations/community-management/organizations/share-sta
   name: LinkedIn Use Cases > Statistics APIs > Organization Share Statistics API
   slug: linkedin-use-cases-statistics-apis-organization-share-statistics-api
-- description: The Videos API is a new offering from LinkedIn that features the ability to upload a captions file as well as thumbnail video functionality.
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Videos API is a new offering from LinkedIn that features the ability to upload a captions file as well as thumbnail video functionality.
   name: LinkedIn Use Cases > Video Ad API
   slug: linkedin-use-cases-video-ad-api
-- description: APIs to manage ad account user access and roles
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to manage ad account user access and roles
   name: LinkedIn User Access API
   slug: linkedin-user-access-api
-- description: APIs to stream user data for contact targeting
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: APIs to stream user data for contact targeting
   name: LinkedIn User Streaming API
   slug: linkedin-user-streaming-api
 arazzos:
@@ -3105,7 +3233,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -3115,7 +3243,7 @@ score:
     discoverability: 50.0
     governance: 47.0
     operational_transparency: 71.1
-  previous_composite: 70.5
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3127,7 +3255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:

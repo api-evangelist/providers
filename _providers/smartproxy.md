@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Authenticate and obtain API access tokens
+- baseURL: https://api.decodo.com/v1
+  baseurl_source: spec
+  description: Authenticate and obtain API access tokens
   name: Smartproxy Authentication API
   slug: smartproxy-authentication-api
-- description: Discover available proxy endpoints and ports
+- baseURL: https://api.decodo.com/v1
+  baseurl_source: spec
+  description: Discover available proxy endpoints and ports
   name: Smartproxy Endpoints API
   slug: smartproxy-endpoints-api
-- description: Manage proxy sub-user accounts
+- baseURL: https://api.decodo.com/v1
+  baseurl_source: spec
+  description: Manage proxy sub-user accounts
   name: Smartproxy Sub-Users API
   slug: smartproxy-sub-users-api
-- description: View subscription details and limits
+- baseURL: https://api.decodo.com/v1
+  baseurl_source: spec
+  description: View subscription details and limits
   name: Smartproxy Subscriptions API
   slug: smartproxy-subscriptions-api
-- description: Monitor and control proxy traffic usage
+- baseURL: https://api.decodo.com/v1
+  baseurl_source: spec
+  description: Monitor and control proxy traffic usage
   name: Smartproxy Traffic API
   slug: smartproxy-traffic-api
-- description: Manage IP whitelist for proxy authentication
+- baseURL: https://api.decodo.com/v1
+  baseurl_source: spec
+  description: Manage IP whitelist for proxy authentication
   name: Smartproxy Whitelisted IPs API
   slug: smartproxy-whitelisted-ips-api
 artifact_total: 28
@@ -268,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartproxy/refs/heads/main/screenshots/smartproxy-2026-06-20T194046.png
 security:

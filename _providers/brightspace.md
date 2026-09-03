@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 55 operations · 18 acting
 api_count: 1
 apis:
-- description: Assignment (Dropbox) folders, submissions, and feedback.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Assignment (Dropbox) folders, submissions, and feedback.
   name: D2L Brightspace Assignments API
   slug: brightspace-assignments-api
-- description: Course calendar events.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Course calendar events.
   name: D2L Brightspace Calendar API
   slug: brightspace-calendar-api
-- description: Course content - modules and topics.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Course content - modules and topics.
   name: D2L Brightspace Content API
   slug: brightspace-content-api
-- description: Data Export Framework and Brightspace Data Sets.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Data Export Framework and Brightspace Data Sets.
   name: D2L Brightspace Data Hub API
   slug: brightspace-data-hub-api
-- description: Discussion forums, topics, and posts.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Discussion forums, topics, and posts.
   name: D2L Brightspace Discussions API
   slug: brightspace-discussions-api
-- description: Membership of users in org units.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Membership of users in org units.
   name: D2L Brightspace Enrollments API
   slug: brightspace-enrollments-api
-- description: Course gradebook - grade objects, values, categories, and schemes.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Course gradebook - grade objects, values, categories, and schemes.
   name: D2L Brightspace Grades API
   slug: brightspace-grades-api
-- description: Learning outcome sets, outcomes, and alignments.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Learning outcome sets, outcomes, and alignments.
   name: D2L Brightspace Learning Outcomes API
   slug: brightspace-learning-outcomes-api
-- description: News (announcement) items.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: News (announcement) items.
   name: D2L Brightspace News API
   slug: brightspace-news-api
-- description: Organization structure, course offerings, departments, and semesters.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Organization structure, course offerings, departments, and semesters.
   name: D2L Brightspace Org Units API
   slug: brightspace-org-units-api
-- description: Quizzes, attempts, questions, and special access.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Quizzes, attempts, questions, and special access.
   name: D2L Brightspace Quizzes API
   slug: brightspace-quizzes-api
-- description: User accounts and roles on the Learning Platform.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: User accounts and roles on the Learning Platform.
   name: D2L Brightspace Users API
   slug: brightspace-users-api
-- description: Product component version discovery.
+- baseURL: https://{host}/d2l/api/lp
+  baseurl_source: declared
+  description: Product component version discovery.
   name: D2L Brightspace Versions API
   slug: brightspace-versions-api
 artifact_total: 35
@@ -246,7 +272,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/screenshots/brightspace-2026-07-25T203856.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 16 operations · 3 acting
 api_count: 1
 apis:
-- description: The Conference Records API from Google Meet — 2 operation(s) for conference records.
+- baseURL: https://meet.googleapis.com/v2
+  baseurl_source: declared
+  description: The Conference Records API from Google Meet — 2 operation(s) for conference records.
   name: Google Meet Conference Records API
   slug: meet-conference-records-api
-- description: The Participants API from Google Meet — 4 operation(s) for participants.
+- baseURL: https://meet.googleapis.com/v2
+  baseurl_source: declared
+  description: The Participants API from Google Meet — 4 operation(s) for participants.
   name: Google Meet Participants API
   slug: meet-participants-api
-- description: The Recordings API from Google Meet — 2 operation(s) for recordings.
+- baseURL: https://meet.googleapis.com/v2
+  baseurl_source: declared
+  description: The Recordings API from Google Meet — 2 operation(s) for recordings.
   name: Google Meet Recordings API
   slug: meet-recordings-api
-- description: The Spaces API from Google Meet — 3 operation(s) for spaces.
+- baseURL: https://meet.googleapis.com/v2
+  baseurl_source: declared
+  description: The Spaces API from Google Meet — 3 operation(s) for spaces.
   name: Google Meet Spaces API
   slug: meet-spaces-api
-- description: The Transcripts API from Google Meet — 4 operation(s) for transcripts.
+- baseURL: https://meet.googleapis.com/v2
+  baseurl_source: declared
+  description: The Transcripts API from Google Meet — 4 operation(s) for transcripts.
   name: Google Meet Transcripts API
   slug: meet-transcripts-api
 artifact_total: 17
@@ -163,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/screenshots/meet-2026-06-20T185127.png
 security:

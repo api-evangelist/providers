@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 156 operations · 97 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The Identity Management API from SlashID — 72 operation(s) for identity management.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The Identity Management API from SlashID — 72 operation(s) for identity management.
   name: SlashID Identity Management API
   slug: slashid-identity-management-api
-- description: The OIDC discovery API from SlashID — 2 operation(s) for oidc discovery.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The OIDC discovery API from SlashID — 2 operation(s) for oidc discovery.
   name: SlashID OIDC discovery API
   slug: slashid-oidc-discovery-api
-- description: The Organization SSO config API from SlashID — 4 operation(s) for organization sso config.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The Organization SSO config API from SlashID — 4 operation(s) for organization sso config.
   name: SlashID Organization SSO config API
   slug: slashid-organization-sso-config-api
-- description: The Organization Webhooks API from SlashID — 5 operation(s) for organization webhooks.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The Organization Webhooks API from SlashID — 5 operation(s) for organization webhooks.
   name: SlashID Organization Webhooks API
   slug: slashid-organization-webhooks-api
-- description: The Super Admin Management API from SlashID — 3 operation(s) for super admin management.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The Super Admin Management API from SlashID — 3 operation(s) for super admin management.
   name: SlashID Super Admin Management API
   slug: slashid-super-admin-management-api
-- description: The Tokens API from SlashID — 3 operation(s) for tokens.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The Tokens API from SlashID — 3 operation(s) for tokens.
   name: SlashID Tokens API
   slug: slashid-tokens-api
-- description: The Workflows API from SlashID — 10 operation(s) for workflows.
+- baseURL: https://api.slashid.com
+  baseurl_source: declared
+  description: The Workflows API from SlashID — 10 operation(s) for workflows.
   name: SlashID Workflows API
   slug: slashid-workflows-api
 artifact_total: 53
@@ -320,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:

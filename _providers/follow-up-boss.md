@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: REST API for managing real estate leads, contacts, deals, notes, tasks, calls, text messages, events, and webhooks in Follow Up Boss. Authenticated with HTTP Basic using an API key issued from the Fol
   name: Follow Up Boss API
   slug: rest-api
-- description: The Calls API from Follow Up Boss — 2 operation(s) for calls.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The Calls API from Follow Up Boss — 2 operation(s) for calls.
   name: Follow Up Boss Calls API
   slug: follow-up-boss-calls-api
-- description: The Deals API from Follow Up Boss — 2 operation(s) for deals.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The Deals API from Follow Up Boss — 2 operation(s) for deals.
   name: Follow Up Boss Deals API
   slug: follow-up-boss-deals-api
-- description: The Events API from Follow Up Boss — 2 operation(s) for events.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The Events API from Follow Up Boss — 2 operation(s) for events.
   name: Follow Up Boss Events API
   slug: follow-up-boss-events-api
-- description: The Notes API from Follow Up Boss — 2 operation(s) for notes.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The Notes API from Follow Up Boss — 2 operation(s) for notes.
   name: Follow Up Boss Notes API
   slug: follow-up-boss-notes-api
-- description: The People API from Follow Up Boss — 5 operation(s) for people.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The People API from Follow Up Boss — 5 operation(s) for people.
   name: Follow Up Boss People API
   slug: follow-up-boss-people-api
-- description: The Tasks API from Follow Up Boss — 2 operation(s) for tasks.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The Tasks API from Follow Up Boss — 2 operation(s) for tasks.
   name: Follow Up Boss Tasks API
   slug: follow-up-boss-tasks-api
-- description: The TextMessages API from Follow Up Boss — 2 operation(s) for textmessages.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The TextMessages API from Follow Up Boss — 2 operation(s) for textmessages.
   name: Follow Up Boss TextMessages API
   slug: follow-up-boss-textmessages-api
-- description: The Webhooks API from Follow Up Boss — 2 operation(s) for webhooks.
+- baseURL: https://api.followupboss.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Follow Up Boss — 2 operation(s) for webhooks.
   name: Follow Up Boss Webhooks API
   slug: follow-up-boss-webhooks-api
 artifact_total: 23
@@ -180,7 +196,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -190,7 +206,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.3
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +215,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/follow-up-boss/refs/heads/main/screenshots/follow-up-boss-2026-06-20T181354.png
 security:

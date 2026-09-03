@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Common Platform Enumeration
+- baseURL: https://services.nvd.nist.gov
+  baseurl_source: declared
+  description: Common Platform Enumeration
   name: National Institute of Standards and Technology CPE API
   slug: national-institute-of-standards-and-technology-cpe-api
-- description: Common Vulnerabilities and Exposures
+- baseURL: https://services.nvd.nist.gov
+  baseurl_source: declared
+  description: Common Vulnerabilities and Exposures
   name: National Institute of Standards and Technology CVE API
   slug: national-institute-of-standards-and-technology-cve-api
-- description: CVE change history events
+- baseURL: https://services.nvd.nist.gov
+  baseurl_source: declared
+  description: CVE change history events
   name: National Institute of Standards and Technology CVE History API
   slug: national-institute-of-standards-and-technology-cve-history-api
 artifact_total: 14
@@ -168,7 +174,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/screenshots/national-institute-of-standards-and-technology-2026-06-20T190029.png
 security:

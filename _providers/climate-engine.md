@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 23 operations · 13 acting
 api_count: 1
 apis:
-- description: Key validation, expiration, and user quotas.
+- baseURL: https://api.climateengine.org
+  baseurl_source: declared
+  description: Key validation, expiration, and user quotas.
   name: Climate Engine Home API
   slug: climate-engine-home-api
-- description: Dataset dates, variables, county names, and raster classifications.
+- baseURL: https://api.climateengine.org
+  baseurl_source: declared
+  description: Dataset dates, variables, county names, and raster classifications.
   name: Climate Engine Metadata API
   slug: climate-engine-metadata-api
-- description: Earth Engine map IDs and asynchronous raster exports.
+- baseURL: https://api.climateengine.org
+  baseurl_source: declared
+  description: Earth Engine map IDs and asynchronous raster exports.
   name: Climate Engine Raster API
   slug: climate-engine-raster-api
-- description: Pre-built drought, vegetation, and site characterization reports.
+- baseURL: https://api.climateengine.org
+  baseurl_source: declared
+  description: Pre-built drought, vegetation, and site characterization reports.
   name: Climate Engine Reports API
   slug: climate-engine-reports-api
-- description: Native, interannual, standard-index, and regression time series.
+- baseURL: https://api.climateengine.org
+  baseurl_source: declared
+  description: Native, interannual, standard-index, and regression time series.
   name: Climate Engine Timeseries API
   slug: climate-engine-timeseries-api
-- description: Statistics reduced over coordinates and feature collections.
+- baseURL: https://api.climateengine.org
+  baseurl_source: declared
+  description: Statistics reduced over coordinates and feature collections.
   name: Climate Engine Zonal Statistics API
   slug: climate-engine-zonal-statistics-api
 artifact_total: 20
@@ -177,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/screenshots/climate-engine-2026-06-20T174522.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 2 acting
 api_count: 5
 apis:
-- description: Suggest search terms based on a query prefix.
+- baseURL: https://api.thenounproject.com
+  baseurl_source: declared
+  description: Suggest search terms based on a query prefix.
   name: Noun Project Autocomplete API
   slug: noun-project-autocomplete-api
-- description: Manage per-client blocklists for icon IDs, collection IDs, and terms.
+- baseURL: https://api.thenounproject.com
+  baseurl_source: declared
+  description: Manage per-client blocklists for icon IDs, collection IDs, and terms.
   name: Noun Project Blocklist API
   slug: noun-project-blocklist-api
-- description: Search and retrieve curated icon collections (icon sets).
+- baseURL: https://api.thenounproject.com
+  baseurl_source: declared
+  description: Search and retrieve curated icon collections (icon sets).
   name: Noun Project Collection API
   slug: noun-project-collection-api
-- description: Search, filter, retrieve, and download icons from the Noun Project library.
+- baseURL: https://api.thenounproject.com
+  baseurl_source: declared
+  description: Search, filter, retrieve, and download icons from the Noun Project library.
   name: Noun Project Icon API
   slug: noun-project-icon-api
-- description: Inspect current API key usage against documented quotas.
+- baseURL: https://api.thenounproject.com
+  baseurl_source: declared
+  description: Inspect current API key usage against documented quotas.
   name: Noun Project Usage API
   slug: noun-project-usage-api
 artifact_total: 69
@@ -380,7 +390,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noun-project/refs/heads/main/screenshots/noun-project-2026-06-20T190429.png
 security:

@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Login, logout and signup.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: Login, logout and signup.
   name: NewsBlur authentication API
   slug: newsblur-authentication-api
-- description: Intelligence training classifiers.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: Intelligence training classifiers.
   name: NewsBlur classifiers API
   slug: newsblur-classifiers-api
-- description: Subscriptions, folders and organization.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: Subscriptions, folders and organization.
   name: NewsBlur feed-management API
   slug: newsblur-feed-management-api
-- description: Feed subscription, search and metadata.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: Feed subscription, search and metadata.
   name: NewsBlur feeds API
   slug: newsblur-feeds-api
-- description: OPML import and export.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: OPML import and export.
   name: NewsBlur import-export API
   slug: newsblur-import-export-api
-- description: Blurblogs, sharing, following and comments.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: Blurblogs, sharing, following and comments.
   name: NewsBlur social API
   slug: newsblur-social-api
-- description: Reading, marking and starring stories.
+- baseURL: https://www.newsblur.com
+  baseurl_source: declared
+  description: Reading, marking and starring stories.
   name: NewsBlur stories API
   slug: newsblur-stories-api
 artifact_total: 18
@@ -218,7 +232,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/screenshots/newsblur-2026-08-07T185129.png
 security:

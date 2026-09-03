@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: A complete, unauthenticated OAI-PMH 2.0 repository operated by the university on its own host. verb=Identify names the repository "University of Copenhagen", gives adminEmail curis@adm.ku.dk and attri
+- baseURL: https://curis.ku.dk/ws/oai
+  baseurl_source: declared
+  description: A complete, unauthenticated OAI-PMH 2.0 repository operated by the university on its own host. verb=Identify names the repository "University of Copenhagen", gives adminEmail curis@adm.ku.dk and attri
   name: University of Copenhagen CURIS OAI-PMH Repository Interface
   slug: curis-oai-pmh
 - description: The university publishes a signed SAML 2.0 EntityDescriptor at https://id.ku.dk/nidp/saml2/metadata (200, 24,737 bytes, text/xml), entityID https://id.ku.dk/nidp/saml2/metadata. Three ku.dk SAML entit
@@ -188,7 +190,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -198,7 +200,7 @@ score:
     discoverability: 59.3
     governance: 8.3
     operational_transparency: 26.3
-  previous_composite: 40.5
+  previous_composite: 29.3
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +215,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/screenshots/university-of-copenhagen-2026-06-20T200145.png
 security:
 - kind: authentication

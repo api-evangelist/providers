@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API returning Shariah-compliance screening for stocks and ETFs — a compliance status and 0-5 ranking per ticker, a full screening report with revenue breakdown and interest-bearing securities/deb
@@ -155,11 +168,11 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -169,7 +182,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 47.3
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -180,8 +193,9 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/screenshots/musaffa-2026-09-02T150701.png
 security:
 - kind: authentication
   name: Musaffa Authentication

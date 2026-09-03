@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: GraphQL `vessels` query returning up to 1,000 vessels per page - static data (name, MMSI, IMO, callsign, flag, shipType, dimensions), last position update (lat/long, course, heading, speed, collection
+- baseURL: https://api.spire.com/graphql
+  baseurl_source: declared
+  description: GraphQL `vessels` query returning up to 1,000 vessels per page - static data (name, MMSI, IMO, callsign, flag, shipType, dimensions), last position update (lat/long, course, heading, speed, collection
   name: Spire Maritime Vessels API
   slug: spire-maritime-vessels-api
 - description: GraphQL query surface for decoded AIS messages (position and static/voyage reports) filtered by MMSI and time window, returned in large paginated batches. Used to pull recent and historical AIS messag
@@ -123,7 +125,7 @@ score:
   band: thin
   composite: 33.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -139,8 +141,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spire-maritime/refs/heads/main/screenshots/spire-maritime-2026-09-02T160445.png
 security:
 - kind: authentication
   name: Spire Maritime Authentication

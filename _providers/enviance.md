@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 2
@@ -43,121 +43,199 @@ agentic_access:
   summary_line: 252 operations · 171 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Activity API from Enviance — 2 operation(s) for activity.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Activity API from Enviance — 2 operation(s) for activity.
   name: Enviance Activity API
   slug: enviance-activity-api
-- description: The Authentication API from Enviance — 6 operation(s) for authentication.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Authentication API from Enviance — 6 operation(s) for authentication.
   name: Enviance Authentication API
   slug: enviance-authentication-api
-- description: The BatchRequest API from Enviance — 1 operation(s) for batchrequest.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The BatchRequest API from Enviance — 1 operation(s) for batchrequest.
   name: Enviance BatchRequest API
   slug: enviance-batchrequest-api
-- description: The Bulk API from Enviance — 10 operation(s) for bulk.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Bulk API from Enviance — 10 operation(s) for bulk.
   name: Enviance Bulk API
   slug: enviance-bulk-api
-- description: The Chemical API from Enviance — 2 operation(s) for chemical.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Chemical API from Enviance — 2 operation(s) for chemical.
   name: Enviance Chemical API
   slug: enviance-chemical-api
-- description: The ChemicalGroup API from Enviance — 3 operation(s) for chemicalgroup.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The ChemicalGroup API from Enviance — 3 operation(s) for chemicalgroup.
   name: Enviance ChemicalGroup API
   slug: enviance-chemicalgroup-api
-- description: The ChemicalList API from Enviance — 3 operation(s) for chemicallist.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The ChemicalList API from Enviance — 3 operation(s) for chemicallist.
   name: Enviance ChemicalList API
   slug: enviance-chemicallist-api
-- description: The Command API from Enviance — 1 operation(s) for command.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Command API from Enviance — 1 operation(s) for command.
   name: Enviance Command API
   slug: enviance-command-api
-- description: The Compliance API from Enviance — 3 operation(s) for compliance.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Compliance API from Enviance — 3 operation(s) for compliance.
   name: Enviance Compliance API
   slug: enviance-compliance-api
-- description: The CompliancePermissions API from Enviance — 1 operation(s) for compliancepermissions.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The CompliancePermissions API from Enviance — 1 operation(s) for compliancepermissions.
   name: Enviance CompliancePermissions API
   slug: enviance-compliancepermissions-api
-- description: The CustomField API from Enviance — 3 operation(s) for customfield.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The CustomField API from Enviance — 3 operation(s) for customfield.
   name: Enviance CustomField API
   slug: enviance-customfield-api
-- description: The Data API from Enviance — 10 operation(s) for data.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Data API from Enviance — 10 operation(s) for data.
   name: Enviance Data API
   slug: enviance-data-api
-- description: The Document API from Enviance — 5 operation(s) for document.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Document API from Enviance — 5 operation(s) for document.
   name: Enviance Document API
   slug: enviance-document-api
-- description: The DomainWhitelistService API from Enviance — 1 operation(s) for domainwhitelistservice.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The DomainWhitelistService API from Enviance — 1 operation(s) for domainwhitelistservice.
   name: Enviance DomainWhitelistService API
   slug: enviance-domainwhitelistservice-api
-- description: The Eql API from Enviance — 7 operation(s) for eql.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Eql API from Enviance — 7 operation(s) for eql.
   name: Enviance Eql API
   slug: enviance-eql-api
-- description: The Event API from Enviance — 2 operation(s) for event.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Event API from Enviance — 2 operation(s) for event.
   name: Enviance Event API
   slug: enviance-event-api
-- description: The FormTemplate API from Enviance — 7 operation(s) for formtemplate.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The FormTemplate API from Enviance — 7 operation(s) for formtemplate.
   name: Enviance FormTemplate API
   slug: enviance-formtemplate-api
-- description: The MainMenuService API from Enviance — 1 operation(s) for mainmenuservice.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The MainMenuService API from Enviance — 1 operation(s) for mainmenuservice.
   name: Enviance MainMenuService API
   slug: enviance-mainmenuservice-api
-- description: The Material API from Enviance — 2 operation(s) for material.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Material API from Enviance — 2 operation(s) for material.
   name: Enviance Material API
   slug: enviance-material-api
-- description: The MaterialData API from Enviance — 5 operation(s) for materialdata.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The MaterialData API from Enviance — 5 operation(s) for materialdata.
   name: Enviance MaterialData API
   slug: enviance-materialdata-api
-- description: The MaterialGroup API from Enviance — 3 operation(s) for materialgroup.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The MaterialGroup API from Enviance — 3 operation(s) for materialgroup.
   name: Enviance MaterialGroup API
   slug: enviance-materialgroup-api
-- description: The MaterialProperty API from Enviance — 2 operation(s) for materialproperty.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The MaterialProperty API from Enviance — 2 operation(s) for materialproperty.
   name: Enviance MaterialProperty API
   slug: enviance-materialproperty-api
-- description: The MaterialTemplate API from Enviance — 2 operation(s) for materialtemplate.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The MaterialTemplate API from Enviance — 2 operation(s) for materialtemplate.
   name: Enviance MaterialTemplate API
   slug: enviance-materialtemplate-api
-- description: The Message API from Enviance — 2 operation(s) for message.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Message API from Enviance — 2 operation(s) for message.
   name: Enviance Message API
   slug: enviance-message-api
-- description: The Package API from Enviance — 5 operation(s) for package.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Package API from Enviance — 5 operation(s) for package.
   name: Enviance Package API
   slug: enviance-package-api
-- description: The Portal API from Enviance — 13 operation(s) for portal.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Portal API from Enviance — 13 operation(s) for portal.
   name: Enviance Portal API
   slug: enviance-portal-api
-- description: The Report API from Enviance — 1 operation(s) for report.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Report API from Enviance — 1 operation(s) for report.
   name: Enviance Report API
   slug: enviance-report-api
-- description: The Requirement API from Enviance — 4 operation(s) for requirement.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Requirement API from Enviance — 4 operation(s) for requirement.
   name: Enviance Requirement API
   slug: enviance-requirement-api
-- description: The ScimIdentity API from Enviance — 9 operation(s) for scimidentity.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The ScimIdentity API from Enviance — 9 operation(s) for scimidentity.
   name: Enviance ScimIdentity API
   slug: enviance-scimidentity-api
-- description: The Security API from Enviance — 6 operation(s) for security.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Security API from Enviance — 6 operation(s) for security.
   name: Enviance Security API
   slug: enviance-security-api
-- description: The Sync API from Enviance — 1 operation(s) for sync.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Sync API from Enviance — 1 operation(s) for sync.
   name: Enviance Sync API
   slug: enviance-sync-api
-- description: The Tag API from Enviance — 2 operation(s) for tag.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Tag API from Enviance — 2 operation(s) for tag.
   name: Enviance Tag API
   slug: enviance-tag-api
-- description: The TagScheme API from Enviance — 2 operation(s) for tagscheme.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The TagScheme API from Enviance — 2 operation(s) for tagscheme.
   name: Enviance TagScheme API
   slug: enviance-tagscheme-api
-- description: The Task API from Enviance — 5 operation(s) for task.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Task API from Enviance — 5 operation(s) for task.
   name: Enviance Task API
   slug: enviance-task-api
-- description: The UOMService API from Enviance — 4 operation(s) for uomservice.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The UOMService API from Enviance — 4 operation(s) for uomservice.
   name: Enviance UOMService API
   slug: enviance-uomservice-api
-- description: The UUID API from Enviance — 2 operation(s) for uuid.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The UUID API from Enviance — 2 operation(s) for uuid.
   name: Enviance UUID API
   slug: enviance-uuid-api
-- description: The Wab API from Enviance — 1 operation(s) for wab.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Wab API from Enviance — 1 operation(s) for wab.
   name: Enviance Wab API
   slug: enviance-wab-api
-- description: The Workflow API from Enviance — 18 operation(s) for workflow.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Workflow API from Enviance — 18 operation(s) for workflow.
   name: Enviance Workflow API
   slug: enviance-workflow-api
-- description: The WorkflowRole API from Enviance — 3 operation(s) for workflowrole.
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The WorkflowRole API from Enviance — 3 operation(s) for workflowrole.
   name: Enviance WorkflowRole API
   slug: enviance-workflowrole-api
 artifact_total: 83
@@ -398,7 +476,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enviance/refs/heads/main/screenshots/enviance-2026-07-25T213455.png
 security:

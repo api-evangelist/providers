@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: EPA tailpipe emissions data per vehicle
+- baseURL: https://www.fueleconomy.gov/ws/rest
+  baseurl_source: declared
+  description: EPA tailpipe emissions data per vehicle
   name: FuelEconomy.gov Emissions API
   slug: fueleconomy-emissions-api
-- description: Current US fuel prices used by the FuelEconomy.gov platform
+- baseURL: https://www.fueleconomy.gov/ws/rest
+  baseurl_source: declared
+  description: Current US fuel prices used by the FuelEconomy.gov platform
   name: FuelEconomy.gov Fuel Prices API
   slug: fueleconomy-fuel-prices-api
-- description: Navigation menus for year/make/model vehicle lookup
+- baseURL: https://www.fueleconomy.gov/ws/rest
+  baseurl_source: declared
+  description: Navigation menus for year/make/model vehicle lookup
   name: FuelEconomy.gov Menus API
   slug: fueleconomy-menus-api
-- description: Community-contributed real-world MPG data
+- baseURL: https://www.fueleconomy.gov/ws/rest
+  baseurl_source: declared
+  description: Community-contributed real-world MPG data
   name: FuelEconomy.gov User MPG API
   slug: fueleconomy-user-mpg-api
-- description: Navigation menus for community MPG data lookup
+- baseURL: https://www.fueleconomy.gov/ws/rest
+  baseurl_source: declared
+  description: Navigation menus for community MPG data lookup
   name: FuelEconomy.gov User MPG Menus API
   slug: fueleconomy-user-mpg-menus-api
-- description: Retrieve EPA fuel economy and specifications for specific vehicles
+- baseURL: https://www.fueleconomy.gov/ws/rest
+  baseurl_source: declared
+  description: Retrieve EPA fuel economy and specifications for specific vehicles
   name: FuelEconomy.gov Vehicles API
   slug: fueleconomy-vehicles-api
 artifact_total: 24
@@ -219,7 +231,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fueleconomy/refs/heads/main/screenshots/fueleconomy-2026-06-20T181604.png
 security:

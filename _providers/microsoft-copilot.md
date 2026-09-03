@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: APIs for building, publishing, and integrating custom agents and copilots using Microsoft Copilot Studio, including Direct Line API for connecting web and custom applications.
   name: Microsoft Copilot Studio API
   slug: microsoft-copilot-studio-api
-- description: Subscribe to change notifications for Copilot interactions across Microsoft 365.
+- baseURL: https://api.copilot.microsoft.com
+  baseurl_source: declared
+  description: Subscribe to change notifications for Copilot interactions across Microsoft 365.
   name: Microsoft Copilot Change Notifications API
   slug: microsoft-copilot-change-notifications-api
-- description: Programmatically start and continue conversations with Microsoft 365 Copilot using enterprise search and web search grounding. Preview API.
+- baseURL: https://api.copilot.microsoft.com
+  baseurl_source: declared
+  description: Programmatically start and continue conversations with Microsoft 365 Copilot using enterprise search and web search grounding. Preview API.
   name: Microsoft Copilot Chat API
   slug: microsoft-copilot-chat-api
-- description: Export and archive user interactions with Copilot across Microsoft 365 applications for compliance and auditing.
+- baseURL: https://api.copilot.microsoft.com
+  baseurl_source: declared
+  description: Export and archive user interactions with Copilot across Microsoft 365 applications for compliance and auditing.
   name: Microsoft Copilot Interaction Export API
   slug: microsoft-copilot-interaction-export-api
-- description: Retrieve relevant text chunks from SharePoint, OneDrive, and Copilot connectors content for Retrieval Augmented Generation (RAG) scenarios.
+- baseURL: https://api.copilot.microsoft.com
+  baseurl_source: declared
+  description: Retrieve relevant text chunks from SharePoint, OneDrive, and Copilot connectors content for Retrieval Augmented Generation (RAG) scenarios.
   name: Microsoft Copilot Retrieval API
   slug: microsoft-copilot-retrieval-api
-- description: Perform hybrid search (semantic and lexical) across OneDrive for work or school content using natural language queries. Preview API.
+- baseURL: https://api.copilot.microsoft.com
+  baseurl_source: declared
+  description: Perform hybrid search (semantic and lexical) across OneDrive for work or school content using natural language queries. Preview API.
   name: Microsoft Copilot Search API
   slug: microsoft-copilot-search-api
 artifact_total: 157
@@ -641,7 +651,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/screenshots/microsoft-copilot-2026-06-20T185448.png
 security:

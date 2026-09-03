@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -92,49 +92,79 @@ apis:
 - description: APIs for managing digital workplace experiences, integrating business applications into unified workpages, and administering work zone sites and content.
   name: SAP Build Work Zone API
   slug: sap-build-work-zone-api
-- description: Business partner address management
+- baseURL_template: https://{host}/sap/opu/odata/sap/API_BUSINESS_PARTNER
+  baseurl_source: spec_template
+  description: Business partner address management
   name: SAP Addresses API
   slug: sap-addresses-api
-- description: Model artifacts and dataset management
+- baseURL_template: https://api.ai.{region}.cfapps.{landscape}.hana.ondemand.com/v2
+  baseurl_source: spec_template
+  description: Model artifacts and dataset management
   name: SAP Artifacts API
   slug: sap-artifacts-api
-- description: Login and session management
+- baseURL_template: https://{server}:50000/b1s/v1
+  baseurl_source: spec_template
+  description: Login and session management
   name: SAP Authentication API
   slug: sap-authentication-api
-- description: Business partner bank account details
+- baseURL_template: https://{host}/sap/opu/odata/sap/API_BUSINESS_PARTNER
+  baseurl_source: spec_template
+  description: Business partner bank account details
   name: SAP Bank Accounts API
   slug: sap-bank-accounts-api
-- description: Manage customers, vendors, and leads
+- baseURL_template: https://{server}:50000/b1s/v1
+  baseurl_source: spec_template
+  description: Manage customers, vendors, and leads
   name: SAP Business Partners API
   slug: sap-business-partners-api
-- description: Execution and deployment configurations
+- baseURL_template: https://api.ai.{region}.cfapps.{landscape}.hana.ondemand.com/v2
+  baseurl_source: spec_template
+  description: Execution and deployment configurations
   name: SAP Configurations API
   slug: sap-configurations-api
-- description: Model deployment and serving management
+- baseURL_template: https://api.ai.{region}.cfapps.{landscape}.hana.ondemand.com/v2
+  baseurl_source: spec_template
+  description: Model deployment and serving management
   name: SAP Deployments API
   slug: sap-deployments-api
-- description: Training execution lifecycle management
+- baseURL_template: https://api.ai.{region}.cfapps.{landscape}.hana.ondemand.com/v2
+  baseurl_source: spec_template
+  description: Training execution lifecycle management
   name: SAP Executions API
   slug: sap-executions-api
-- description: AR and AP invoice management
+- baseURL_template: https://{server}:50000/b1s/v1
+  baseurl_source: spec_template
+  description: AR and AP invoice management
   name: SAP Invoices API
   slug: sap-invoices-api
-- description: Product and item master data management
+- baseURL_template: https://{server}:50000/b1s/v1
+  baseurl_source: spec_template
+  description: Product and item master data management
   name: SAP Items API
   slug: sap-items-api
-- description: Financial journal entries and postings
+- baseURL_template: https://{server}:50000/b1s/v1
+  baseurl_source: spec_template
+  description: Financial journal entries and postings
   name: SAP Journal Entries API
   slug: sap-journal-entries-api
-- description: Sales orders, purchase orders, and delivery management
+- baseURL_template: https://{server}:50000/b1s/v1
+  baseurl_source: spec_template
+  description: Sales orders, purchase orders, and delivery management
   name: SAP Orders API
   slug: sap-orders-api
-- description: Business partner role assignments (customer, supplier)
+- baseURL_template: https://{host}/sap/opu/odata/sap/API_BUSINESS_PARTNER
+  baseurl_source: spec_template
+  description: Business partner role assignments (customer, supplier)
   name: SAP Roles API
   slug: sap-roles-api
-- description: AI scenario definitions and metadata
+- baseURL_template: https://api.ai.{region}.cfapps.{landscape}.hana.ondemand.com/v2
+  baseurl_source: spec_template
+  description: AI scenario definitions and metadata
   name: SAP Scenarios API
   slug: sap-scenarios-api
-- description: Business partner tax identification numbers
+- baseURL_template: https://{host}/sap/opu/odata/sap/API_BUSINESS_PARTNER
+  baseurl_source: spec_template
+  description: Business partner tax identification numbers
   name: SAP Tax Numbers API
   slug: sap-tax-numbers-api
 artifact_total: 176
@@ -774,7 +804,7 @@ score:
     catalog_gap: 75.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -784,7 +814,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 51.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -793,7 +823,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

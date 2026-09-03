@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -33,16 +47,24 @@ agentic_access:
   summary_line: 15 operations · 8 acting
 api_count: 1
 apis:
-- description: The Authentication API from Niural — 1 operation(s) for authentication.
+- baseURL: https://api-live.niural.com
+  baseurl_source: declared
+  description: The Authentication API from Niural — 1 operation(s) for authentication.
   name: Niural Authentication API
   slug: niural-authentication-api
-- description: The Contracts API from Niural — 4 operation(s) for contracts.
+- baseURL: https://api-live.niural.com
+  baseurl_source: declared
+  description: The Contracts API from Niural — 4 operation(s) for contracts.
   name: Niural Contracts API
   slug: niural-contracts-api
-- description: The Invoices API from Niural — 2 operation(s) for invoices.
+- baseURL: https://api-live.niural.com
+  baseurl_source: declared
+  description: The Invoices API from Niural — 2 operation(s) for invoices.
   name: Niural Invoices API
   slug: niural-invoices-api
-- description: The Transactions API from Niural — 4 operation(s) for transactions.
+- baseURL: https://api-live.niural.com
+  baseurl_source: declared
+  description: The Transactions API from Niural — 4 operation(s) for transactions.
   name: Niural Transactions API
   slug: niural-transactions-api
 artifact_total: 18
@@ -243,7 +265,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -253,7 +275,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 55.4
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +293,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/niural/refs/heads/main/screenshots/niural-2026-08-07T185346.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 34 operations · 18 acting
 api_count: 1
 apis:
-- description: Backing image management for volumes that use pre-populated disk images as their base data. Backing images are immutable and can be shared across multiple volumes in the same namespace.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: Backing image management for volumes that use pre-populated disk images as their base data. Backing images are immutable and can be shared across multiple volumes in the same namespace.
   name: Longhorn BackingImages API
   slug: longhorn-backingimages-api
-- description: Backup operations for storing volume snapshots to external storage targets such as S3-compatible storage or NFS. Backups can be restored to new volumes for disaster recovery.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: Backup operations for storing volume snapshots to external storage targets such as S3-compatible storage or NFS. Backups can be restored to new volumes for disaster recovery.
   name: Longhorn Backups API
   slug: longhorn-backups-api
-- description: Engine image management for the Longhorn storage engine. Engine images are OCI images containing the Longhorn engine binary and are used to upgrade or manage storage engine versions.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: Engine image management for the Longhorn storage engine. Engine images are OCI images containing the Longhorn engine binary and are used to upgrade or manage storage engine versions.
   name: Longhorn EngineImages API
   slug: longhorn-engineimages-api
-- description: Node management for the Longhorn storage cluster including listing nodes, updating disk configurations, enabling or disabling scheduling, and managing node tags for workload placement.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: Node management for the Longhorn storage cluster including listing nodes, updating disk configurations, enabling or disabling scheduling, and managing node tags for workload placement.
   name: Longhorn Nodes API
   slug: longhorn-nodes-api
-- description: Recurring job management for scheduling automated snapshot and backup operations on a cron-based schedule. Recurring jobs can be applied to individual volumes or all volumes via groups.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: Recurring job management for scheduling automated snapshot and backup operations on a cron-based schedule. Recurring jobs can be applied to individual volumes or all volumes via groups.
   name: Longhorn RecurringJobs API
   slug: longhorn-recurringjobs-api
-- description: System-wide Longhorn settings management including backup targets, replica counts, node scheduling policies, data locality settings, and storage over-provisioning configuration.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: System-wide Longhorn settings management including backup targets, replica counts, node scheduling policies, data locality settings, and storage over-provisioning configuration.
   name: Longhorn Settings API
   slug: longhorn-settings-api
-- description: 'Snapshot operations for volumes including creating, listing, deleting, reverting to, and purging snapshots. Snapshots capture the state of a volume at a point in time and can be used as the basis for '
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: 'Snapshot operations for volumes including creating, listing, deleting, reverting to, and purging snapshots. Snapshots capture the state of a volume at a point in time and can be used as the basis for '
   name: Longhorn Snapshots API
   slug: longhorn-snapshots-api
-- description: System-level backup and restore operations for the entire Longhorn configuration including all volumes, settings, and resource definitions.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: System-level backup and restore operations for the entire Longhorn configuration including all volumes, settings, and resource definitions.
   name: Longhorn SystemBackups API
   slug: longhorn-systembackups-api
-- description: Volume lifecycle management including creating, attaching, detaching, expanding, and deleting volumes. Also includes volume actions such as activating, canceling expansion, and managing replicas.
+- baseURL_template: http://{longhornManagerHost}:{longhornManagerPort}
+  baseurl_source: spec_template
+  description: Volume lifecycle management including creating, attaching, detaching, expanding, and deleting volumes. Also includes volume actions such as activating, canceling expansion, and managing replicas.
   name: Longhorn Volumes API
   slug: longhorn-volumes-api
 artifact_total: 29
@@ -257,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/longhorn/refs/heads/main/screenshots/longhorn-2026-06-20T184706.png
 security:

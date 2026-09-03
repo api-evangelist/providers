@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: 'The Yammer REST API (now Viva Engage) provides access to enterprise social networking features including messages, groups, users, and networks. Developers can post messages, manage group memberships, '
   name: Yammer REST API
   slug: rest-api
-- description: The Files API from Microsoft Yammer — 1 operation(s) for files.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Files API from Microsoft Yammer — 1 operation(s) for files.
   name: Microsoft Yammer Files API
   slug: microsoft-yammer-files-api
-- description: The Groups API from Microsoft Yammer — 2 operation(s) for groups.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Groups API from Microsoft Yammer — 2 operation(s) for groups.
   name: Microsoft Yammer Groups API
   slug: microsoft-yammer-groups-api
-- description: The Messages API from Microsoft Yammer — 12 operation(s) for messages.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Messages API from Microsoft Yammer — 12 operation(s) for messages.
   name: Microsoft Yammer Messages API
   slug: microsoft-yammer-messages-api
-- description: The Networks API from Microsoft Yammer — 1 operation(s) for networks.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Networks API from Microsoft Yammer — 1 operation(s) for networks.
   name: Microsoft Yammer Networks API
   slug: microsoft-yammer-networks-api
-- description: The Search API from Microsoft Yammer — 1 operation(s) for search.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Search API from Microsoft Yammer — 1 operation(s) for search.
   name: Microsoft Yammer Search API
   slug: microsoft-yammer-search-api
-- description: The Subscriptions API from Microsoft Yammer — 2 operation(s) for subscriptions.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Subscriptions API from Microsoft Yammer — 2 operation(s) for subscriptions.
   name: Microsoft Yammer Subscriptions API
   slug: microsoft-yammer-subscriptions-api
-- description: The Threads API from Microsoft Yammer — 1 operation(s) for threads.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Threads API from Microsoft Yammer — 1 operation(s) for threads.
   name: Microsoft Yammer Threads API
   slug: microsoft-yammer-threads-api
-- description: The Topics API from Microsoft Yammer — 1 operation(s) for topics.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Topics API from Microsoft Yammer — 1 operation(s) for topics.
   name: Microsoft Yammer Topics API
   slug: microsoft-yammer-topics-api
-- description: The Users API from Microsoft Yammer — 5 operation(s) for users.
+- baseURL: https://www.yammer.com/api/v1/
+  baseurl_source: declared
+  description: The Users API from Microsoft Yammer — 5 operation(s) for users.
   name: Microsoft Yammer Users API
   slug: microsoft-yammer-users-api
 artifact_total: 28
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/screenshots/microsoft-yammer-2026-06-20T185547.png
 security:

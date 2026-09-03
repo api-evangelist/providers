@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -34,55 +46,89 @@ agentic_access:
   summary_line: 83 operations · 42 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: The Alerts API from PydanticAI — 2 operation(s) for alerts.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Alerts API from PydanticAI — 2 operation(s) for alerts.
   name: PydanticAI Alerts API
   slug: pydantic-ai-alerts-api
-- description: The API Keys API from PydanticAI — 2 operation(s) for api keys.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The API Keys API from PydanticAI — 2 operation(s) for api keys.
   name: PydanticAI API Keys API
   slug: pydantic-ai-api-keys-api
-- description: The Audit Logs API from PydanticAI — 2 operation(s) for audit logs.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Audit Logs API from PydanticAI — 2 operation(s) for audit logs.
   name: PydanticAI Audit Logs API
   slug: pydantic-ai-audit-logs-api
-- description: The Billing API from PydanticAI — 1 operation(s) for billing.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Billing API from PydanticAI — 1 operation(s) for billing.
   name: PydanticAI Billing API
   slug: pydantic-ai-billing-api
-- description: The Channels API from PydanticAI — 2 operation(s) for channels.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Channels API from PydanticAI — 2 operation(s) for channels.
   name: PydanticAI Channels API
   slug: pydantic-ai-channels-api
-- description: The Dashboards API from PydanticAI — 2 operation(s) for dashboards.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Dashboards API from PydanticAI — 2 operation(s) for dashboards.
   name: PydanticAI Dashboards API
   slug: pydantic-ai-dashboards-api
-- description: The discovery API from PydanticAI — 1 operation(s) for discovery.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The discovery API from PydanticAI — 1 operation(s) for discovery.
   name: PydanticAI discovery API
   slug: pydantic-ai-discovery-api
-- description: The Group Mappings API from PydanticAI — 2 operation(s) for group mappings.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Group Mappings API from PydanticAI — 2 operation(s) for group mappings.
   name: PydanticAI Group Mappings API
   slug: pydantic-ai-group-mappings-api
-- description: The Instance API from PydanticAI — 3 operation(s) for instance.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Instance API from PydanticAI — 3 operation(s) for instance.
   name: PydanticAI Instance API
   slug: pydantic-ai-instance-api
-- description: The Invitations API from PydanticAI — 1 operation(s) for invitations.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Invitations API from PydanticAI — 1 operation(s) for invitations.
   name: PydanticAI Invitations API
   slug: pydantic-ai-invitations-api
-- description: The Members API from PydanticAI — 2 operation(s) for members.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Members API from PydanticAI — 2 operation(s) for members.
   name: PydanticAI Members API
   slug: pydantic-ai-members-api
-- description: The OAuth API from PydanticAI — 6 operation(s) for oauth.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The OAuth API from PydanticAI — 6 operation(s) for oauth.
   name: PydanticAI OAuth API
   slug: pydantic-ai-oauth-api
-- description: The Organizations API from PydanticAI — 3 operation(s) for organizations.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Organizations API from PydanticAI — 3 operation(s) for organizations.
   name: PydanticAI Organizations API
   slug: pydantic-ai-organizations-api
-- description: The Projects API from PydanticAI — 16 operation(s) for projects.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Projects API from PydanticAI — 16 operation(s) for projects.
   name: PydanticAI Projects API
   slug: pydantic-ai-projects-api
-- description: The SCIM API from PydanticAI — 8 operation(s) for scim.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The SCIM API from PydanticAI — 8 operation(s) for scim.
   name: PydanticAI SCIM API
   slug: pydantic-ai-scim-api
-- description: The Usage API from PydanticAI — 6 operation(s) for usage.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Usage API from PydanticAI — 6 operation(s) for usage.
   name: PydanticAI Usage API
   slug: pydantic-ai-usage-api
-- description: The Variables API from PydanticAI — 2 operation(s) for variables.
+- baseURL: https://pydantic.dev
+  baseurl_source: declared
+  description: The Variables API from PydanticAI — 2 operation(s) for variables.
   name: PydanticAI Variables API
   slug: pydantic-ai-variables-api
 artifact_total: 70
@@ -402,7 +448,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:

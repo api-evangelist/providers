@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: The Export API from Boostup — 3 operation(s) for export.
+- baseURL: https://app.boostup.ai/export
+  baseurl_source: declared
+  description: The Export API from Boostup — 3 operation(s) for export.
   name: Boostup Export API
   slug: boostup-export-api
 arazzos:
@@ -238,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/screenshots/boostup-2026-07-25T203626.png
 security:

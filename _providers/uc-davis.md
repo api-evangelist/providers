@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -60,31 +60,49 @@ apis:
 - description: 'The CAES Computing Resources Unit documents an ACE API supporting college administrative and content workflows. Probed 2026-08-19: the documentation page returns HTTP 200, but no ACE host resolves (ac'
   name: CAES ACE API
   slug: ace
-- description: The Access resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Un
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The Access resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Un
   name: PEAKS (CAES) — Access API
   slug: uc-davis-access-api
-- description: The Documents resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The Documents resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources
   name: PEAKS (CAES) — Documents API
   slug: uc-davis-documents-api
-- description: The Equipment resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The Equipment resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources
   name: PEAKS (CAES) — Equipment API
   slug: uc-davis-equipment-api
-- description: The Keys resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Unit
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The Keys resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Unit
   name: PEAKS (CAES) — Keys API
   slug: uc-davis-keys-api
-- description: The KeySerials resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resource
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The KeySerials resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resource
   name: PEAKS (CAES) — KeySerials API
   slug: uc-davis-keyserials-api
-- description: The People resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Un
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The People resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Un
   name: PEAKS (CAES) — People API
   slug: uc-davis-people-api
-- description: The PeopleAdmin resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resourc
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The PeopleAdmin resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resourc
   name: PEAKS (CAES) — PeopleAdmin API
   slug: uc-davis-peopleadmin-api
-- description: The Spaces resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Un
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The Spaces resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resources Un
   name: PEAKS (CAES) — Spaces API
   slug: uc-davis-spaces-api
-- description: The Workstations resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resour
+- baseURL: https://peaks.ucdavis.edu
+  baseurl_source: declared
+  description: The Workstations resource of PEAKS (People, Equipment, Access, Keys, Space), the asset- and access-tracking application the UC Davis College of Agricultural and Environmental Sciences Computing Resour
   name: PEAKS (CAES) — Workstations API
   slug: uc-davis-workstations-api
 - description: UC Davis's open-access scholarly output is deposited into eScholarship, the University of California's shared repository, under the campus unit path /uc/ucd. The content, the deposits and the DOIs are
@@ -93,16 +111,24 @@ apis:
 - description: 'Library discovery at search.library.ucdavis.edu is an Ex Libris Primo instance. The subdomain is UC Davis''s and the collection is UC Davis''s, but the application is Ex Libris''s: the served document is'
   name: UC Davis Library discovery — Ex Libris Primo (tenant)
   slug: library-primo-tenant
-- description: The collection API from University of California, Davis — 2 operation(s) for collection.
+- baseURL: https://experts.ucdavis.edu/api
+  baseurl_source: declared
+  description: The collection API from University of California, Davis — 2 operation(s) for collection.
   name: University of California, Davis Collection API
   slug: uc-davis-collection-api
-- description: Expert Information
+- baseURL: https://experts.ucdavis.edu/api
+  baseurl_source: declared
+  description: Expert Information
   name: University of California, Davis Expert API
   slug: uc-davis-expert-api
-- description: The item API from University of California, Davis — 1 operation(s) for item.
+- baseURL: https://experts.ucdavis.edu/api
+  baseurl_source: declared
+  description: The item API from University of California, Davis — 1 operation(s) for item.
   name: University of California, Davis Item API
   slug: uc-davis-item-api
-- description: The page search API from University of California, Davis — 1 operation(s) for page search.
+- baseURL: https://experts.ucdavis.edu/api
+  baseurl_source: declared
+  description: The page search API from University of California, Davis — 1 operation(s) for page search.
   name: University of California, Davis page search API
   slug: uc-davis-page-search-api
 artifact_total: 53
@@ -446,7 +472,7 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -456,7 +482,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 47.9
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,7 +498,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png
 security:

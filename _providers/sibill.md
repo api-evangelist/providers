@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 48 operations · 25 acting · 25 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Sibill — 2 operation(s) for account.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Account API from Sibill — 2 operation(s) for account.
   name: Sibill Account API
   slug: sibill-account-api
-- description: The Category API from Sibill — 2 operation(s) for category.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Category API from Sibill — 2 operation(s) for category.
   name: Sibill Category API
   slug: sibill-category-api
-- description: The Company API from Sibill — 1 operation(s) for company.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Company API from Sibill — 1 operation(s) for company.
   name: Sibill Company API
   slug: sibill-company-api
-- description: The Counterpart API from Sibill — 3 operation(s) for counterpart.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Counterpart API from Sibill — 3 operation(s) for counterpart.
   name: Sibill Counterpart API
   slug: sibill-counterpart-api
-- description: The Document API from Sibill — 5 operation(s) for document.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Document API from Sibill — 5 operation(s) for document.
   name: Sibill Document API
   slug: sibill-document-api
-- description: The DocumentSectional API from Sibill — 2 operation(s) for documentsectional.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The DocumentSectional API from Sibill — 2 operation(s) for documentsectional.
   name: Sibill DocumentSectional API
   slug: sibill-documentsectional-api
-- description: The Flow API from Sibill — 2 operation(s) for flow.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Flow API from Sibill — 2 operation(s) for flow.
   name: Sibill Flow API
   slug: sibill-flow-api
-- description: The Payment API from Sibill — 2 operation(s) for payment.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Payment API from Sibill — 2 operation(s) for payment.
   name: Sibill Payment API
   slug: sibill-payment-api
-- description: The Product API from Sibill — 2 operation(s) for product.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Product API from Sibill — 2 operation(s) for product.
   name: Sibill Product API
   slug: sibill-product-api
-- description: The Reconciliation API from Sibill — 2 operation(s) for reconciliation.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Reconciliation API from Sibill — 2 operation(s) for reconciliation.
   name: Sibill Reconciliation API
   slug: sibill-reconciliation-api
-- description: The Subcategory API from Sibill — 2 operation(s) for subcategory.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Subcategory API from Sibill — 2 operation(s) for subcategory.
   name: Sibill Subcategory API
   slug: sibill-subcategory-api
-- description: The Transaction API from Sibill — 2 operation(s) for transaction.
+- baseURL: https://integration.sibill.com/api/v1
+  baseurl_source: declared
+  description: The Transaction API from Sibill — 2 operation(s) for transaction.
   name: Sibill Transaction API
   slug: sibill-transaction-api
 artifact_total: 31
@@ -281,7 +305,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -291,7 +315,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,7 +333,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sibill/refs/heads/main/screenshots/sibill-2026-08-17T081842.png
 security:

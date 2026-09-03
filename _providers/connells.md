@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Connells branch (office) directory.
+- baseURL: https://www.connells.co.uk/api
+  baseurl_source: declared
+  description: Connells branch (office) directory.
   name: Connells Group Branches API
   slug: connells-branches-api
-- description: Geographic locations and place-name lookup.
+- baseURL: https://www.connells.co.uk/api
+  baseurl_source: declared
+  description: Geographic locations and place-name lookup.
   name: Connells Group Locations API
   slug: connells-locations-api
-- description: Connells staff directory.
+- baseURL: https://www.connells.co.uk/api
+  baseurl_source: declared
+  description: Connells staff directory.
   name: Connells Group People API
   slug: connells-people-api
-- description: Published customer testimonials.
+- baseURL: https://www.connells.co.uk/api
+  baseurl_source: declared
+  description: Published customer testimonials.
   name: Connells Group Testimonials API
   slug: connells-testimonials-api
 artifact_total: 15
@@ -270,7 +278,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:

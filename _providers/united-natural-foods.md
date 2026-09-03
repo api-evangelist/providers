@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: UNFI supports Electronic Data Interchange (EDI) for automated exchanges of purchase orders, invoices, and fulfillment data between UNFI and its supplier and retail partners. EDI integration supports t
   name: UNFI EDI Integration
   slug: unfi-edi-integration
-- description: Analytics and data reporting
+- baseURL: https://api.unfi.com/v1
+  baseurl_source: declared
+  description: Analytics and data reporting
   name: United Natural Foods (UNFI) Insights API
   slug: united-natural-foods-insights-api
-- description: Purchase orders and fulfillment
+- baseURL: https://api.unfi.com/v1
+  baseurl_source: declared
+  description: Purchase orders and fulfillment
   name: United Natural Foods (UNFI) Orders API
   slug: united-natural-foods-orders-api
-- description: Product catalog and listing management
+- baseURL: https://api.unfi.com/v1
+  baseurl_source: declared
+  description: Product catalog and listing management
   name: United Natural Foods (UNFI) Products API
   slug: united-natural-foods-products-api
-- description: Supplier profile and warehouse management
+- baseURL: https://api.unfi.com/v1
+  baseurl_source: declared
+  description: Supplier profile and warehouse management
   name: United Natural Foods (UNFI) Suppliers API
   slug: united-natural-foods-suppliers-api
 artifact_total: 26
@@ -263,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

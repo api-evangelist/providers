@@ -33,118 +33,192 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Articles Admin API from Kitchen Stories — 1 operation(s) for articles admin.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Articles Admin API from Kitchen Stories — 1 operation(s) for articles admin.
   name: Kitchen Stories Articles Admin API
   slug: kitchenstories-articles-admin-api
-- description: The Articles API from Kitchen Stories — 4 operation(s) for articles.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Articles API from Kitchen Stories — 4 operation(s) for articles.
   name: Kitchen Stories Articles API
   slug: kitchenstories-articles-api
-- description: The Authentication API from Kitchen Stories — 10 operation(s) for authentication.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Authentication API from Kitchen Stories — 10 operation(s) for authentication.
   name: Kitchen Stories Authentication API
   slug: kitchenstories-authentication-api
-- description: The Categories Admin API from Kitchen Stories — 1 operation(s) for categories admin.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Categories Admin API from Kitchen Stories — 1 operation(s) for categories admin.
   name: Kitchen Stories Categories Admin API
   slug: kitchenstories-categories-admin-api
-- description: The Categories API from Kitchen Stories — 3 operation(s) for categories.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Categories API from Kitchen Stories — 3 operation(s) for categories.
   name: Kitchen Stories Categories API
   slug: kitchenstories-categories-api
-- description: The Content Collections Admin API from Kitchen Stories — 4 operation(s) for content collections admin.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Content Collections Admin API from Kitchen Stories — 4 operation(s) for content collections admin.
   name: Kitchen Stories Content Collections Admin API
   slug: kitchenstories-content-collections-admin-api
-- description: The Content Collections API from Kitchen Stories — 4 operation(s) for content collections.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Content Collections API from Kitchen Stories — 4 operation(s) for content collections.
   name: Kitchen Stories Content Collections API
   slug: kitchenstories-content-collections-api
-- description: The Feed API from Kitchen Stories — 2 operation(s) for feed.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Feed API from Kitchen Stories — 2 operation(s) for feed.
   name: Kitchen Stories Feed API
   slug: kitchenstories-feed-api
-- description: The Indexer API from Kitchen Stories — 3 operation(s) for indexer.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Indexer API from Kitchen Stories — 3 operation(s) for indexer.
   name: Kitchen Stories Indexer API
   slug: kitchenstories-indexer-api
-- description: The Ingredients API from Kitchen Stories — 7 operation(s) for ingredients.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Ingredients API from Kitchen Stories — 7 operation(s) for ingredients.
   name: Kitchen Stories Ingredients API
   slug: kitchenstories-ingredients-api
-- description: The Other API from Kitchen Stories — 5 operation(s) for other.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Other API from Kitchen Stories — 5 operation(s) for other.
   name: Kitchen Stories Other API
   slug: kitchenstories-other-api
-- description: The Personalization Admin API from Kitchen Stories — 4 operation(s) for personalization admin.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Personalization Admin API from Kitchen Stories — 4 operation(s) for personalization admin.
   name: Kitchen Stories Personalization Admin API
   slug: kitchenstories-personalization-admin-api
-- description: The Personalization API from Kitchen Stories — 8 operation(s) for personalization.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Personalization API from Kitchen Stories — 8 operation(s) for personalization.
   name: Kitchen Stories Personalization API
   slug: kitchenstories-personalization-api
-- description: The QA API from Kitchen Stories — 4 operation(s) for qa.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The QA API from Kitchen Stories — 4 operation(s) for qa.
   name: Kitchen Stories QA API
   slug: kitchenstories-qa-api
-- description: The Recipes Admin API from Kitchen Stories — 1 operation(s) for recipes admin.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Recipes Admin API from Kitchen Stories — 1 operation(s) for recipes admin.
   name: Kitchen Stories Recipes Admin API
   slug: kitchenstories-recipes-admin-api
-- description: The Recipes API from Kitchen Stories — 6 operation(s) for recipes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Recipes API from Kitchen Stories — 6 operation(s) for recipes.
   name: Kitchen Stories Recipes API
   slug: kitchenstories-recipes-api
-- description: The Reports API from Kitchen Stories — 1 operation(s) for reports.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Reports API from Kitchen Stories — 1 operation(s) for reports.
   name: Kitchen Stories Reports API
   slug: kitchenstories-reports-api
-- description: The Search Categories API from Kitchen Stories — 2 operation(s) for search categories.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Search Categories API from Kitchen Stories — 2 operation(s) for search categories.
   name: Kitchen Stories Search Categories API
   slug: kitchenstories-search-categories-api
-- description: The Shopping Tips (Affiliate Pages) API from Kitchen Stories — 3 operation(s) for shopping tips (affiliate pages).
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Shopping Tips (Affiliate Pages) API from Kitchen Stories — 3 operation(s) for shopping tips (affiliate pages).
   name: Kitchen Stories Shopping Tips (Affiliate Pages) API
   slug: kitchenstories-shopping-tips-affiliate-pages-api
-- description: The Stats API from Kitchen Stories — 1 operation(s) for stats.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Stats API from Kitchen Stories — 1 operation(s) for stats.
   name: Kitchen Stories Stats API
   slug: kitchenstories-stats-api
-- description: The Tags API from Kitchen Stories — 2 operation(s) for tags.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Tags API from Kitchen Stories — 2 operation(s) for tags.
   name: Kitchen Stories Tags API
   slug: kitchenstories-tags-api
-- description: The Upload API from Kitchen Stories — 2 operation(s) for upload.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Upload API from Kitchen Stories — 2 operation(s) for upload.
   name: Kitchen Stories Upload API
   slug: kitchenstories-upload-api
-- description: The User API from Kitchen Stories — 2 operation(s) for user.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User API from Kitchen Stories — 2 operation(s) for user.
   name: Kitchen Stories User API
   slug: kitchenstories-user-api
-- description: The User Comment Likes API from Kitchen Stories — 2 operation(s) for user comment likes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Comment Likes API from Kitchen Stories — 2 operation(s) for user comment likes.
   name: Kitchen Stories User Comment Likes API
   slug: kitchenstories-user-comment-likes-api
-- description: The User Comments API from Kitchen Stories — 3 operation(s) for user comments.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Comments API from Kitchen Stories — 3 operation(s) for user comments.
   name: Kitchen Stories User Comments API
   slug: kitchenstories-user-comments-api
-- description: The User Cookbooks API from Kitchen Stories — 5 operation(s) for user cookbooks.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Cookbooks API from Kitchen Stories — 5 operation(s) for user cookbooks.
   name: Kitchen Stories User Cookbooks API
   slug: kitchenstories-user-cookbooks-api
-- description: The User External Recipes API from Kitchen Stories — 3 operation(s) for user external recipes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User External Recipes API from Kitchen Stories — 3 operation(s) for user external recipes.
   name: Kitchen Stories User External Recipes API
   slug: kitchenstories-user-external-recipes-api
-- description: The User Likes API from Kitchen Stories — 3 operation(s) for user likes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Likes API from Kitchen Stories — 3 operation(s) for user likes.
   name: Kitchen Stories User Likes API
   slug: kitchenstories-user-likes-api
-- description: The User Meal Plan API from Kitchen Stories — 2 operation(s) for user meal plan.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Meal Plan API from Kitchen Stories — 2 operation(s) for user meal plan.
   name: Kitchen Stories User Meal Plan API
   slug: kitchenstories-user-meal-plan-api
-- description: The User Private Favorite Ingredients API from Kitchen Stories — 1 operation(s) for user private favorite ingredients.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Private Favorite Ingredients API from Kitchen Stories — 1 operation(s) for user private favorite ingredients.
   name: Kitchen Stories User Private Favorite Ingredients API
   slug: kitchenstories-user-private-favorite-ingredients-api
-- description: The User Private Recipes API from Kitchen Stories — 3 operation(s) for user private recipes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Private Recipes API from Kitchen Stories — 3 operation(s) for user private recipes.
   name: Kitchen Stories User Private Recipes API
   slug: kitchenstories-user-private-recipes-api
-- description: The User Public Cookbooks API from Kitchen Stories — 4 operation(s) for user public cookbooks.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Public Cookbooks API from Kitchen Stories — 4 operation(s) for user public cookbooks.
   name: Kitchen Stories User Public Cookbooks API
   slug: kitchenstories-user-public-cookbooks-api
-- description: The User Public Recipes API from Kitchen Stories — 2 operation(s) for user public recipes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Public Recipes API from Kitchen Stories — 2 operation(s) for user public recipes.
   name: Kitchen Stories User Public Recipes API
   slug: kitchenstories-user-public-recipes-api
-- description: The User Ratings API from Kitchen Stories — 2 operation(s) for user ratings.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The User Ratings API from Kitchen Stories — 2 operation(s) for user ratings.
   name: Kitchen Stories User Ratings API
   slug: kitchenstories-user-ratings-api
-- description: The UserCookbooksRecipes API from Kitchen Stories — 2 operation(s) for usercookbooksrecipes.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The UserCookbooksRecipes API from Kitchen Stories — 2 operation(s) for usercookbooksrecipes.
   name: Kitchen Stories UserCookbooksRecipes API
   slug: kitchenstories-usercookbooksrecipes-api
-- description: The Utensils API from Kitchen Stories — 4 operation(s) for utensils.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Utensils API from Kitchen Stories — 4 operation(s) for utensils.
   name: Kitchen Stories Utensils API
   slug: kitchenstories-utensils-api
-- description: The Videos API from Kitchen Stories — 5 operation(s) for videos.
+- baseURL: https://api.kitchenstories.io/api
+  baseurl_source: declared
+  description: The Videos API from Kitchen Stories — 5 operation(s) for videos.
   name: Kitchen Stories Videos API
   slug: kitchenstories-videos-api
 artifact_total: 78
@@ -394,7 +468,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchenstories/refs/heads/main/screenshots/kitchenstories-2026-07-25T223912.png
 security:

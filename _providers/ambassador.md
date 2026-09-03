@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -59,22 +59,34 @@ apis:
 - description: The Ambassador Edge Stack Developer Portal automatically detects and publishes API documentation, serving as a single point of reference for all microservice APIs. It supports Swagger and OpenAPI V3 s
   name: Ambassador Edge Stack Developer Portal
   slug: edge-stack-developer-portal
-- description: Access diagnostic and health check endpoints for monitoring Ambassador Edge Stack operational status.
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Access diagnostic and health check endpoints for monitoring Ambassador Edge Stack operational status.
   name: Ambassador Diagnostics API
   slug: ambassador-diagnostics-api
-- description: Manage Host resources that configure TLS termination, ACME certificate management, and hostname-based routing rules.
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Manage Host resources that configure TLS termination, ACME certificate management, and hostname-based routing rules.
   name: Ambassador Hosts API
   slug: ambassador-hosts-api
-- description: Manage Mapping resources that associate URL prefixes or paths with backend services. Mappings are the core routing mechanism in Ambassador.
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Manage Mapping resources that associate URL prefixes or paths with backend services. Mappings are the core routing mechanism in Ambassador.
   name: Ambassador Mappings API
   slug: ambassador-mappings-api
-- description: Manage Ambassador Module resources for global configuration of the Ambassador gateway including diagnostics, tracing, and circuit breaking.
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Manage Ambassador Module resources for global configuration of the Ambassador gateway including diagnostics, tracing, and circuit breaking.
   name: Ambassador Modules API
   slug: ambassador-modules-api
-- description: Manage rate limiting configuration for controlling request throughput to backend services using labels and descriptors.
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Manage rate limiting configuration for controlling request throughput to backend services using labels and descriptors.
   name: Ambassador RateLimits API
   slug: ambassador-ratelimits-api
-- description: Manage TLSContext resources that configure TLS settings for Ambassador, including certificates, protocols, and cipher suites.
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Manage TLSContext resources that configure TLS settings for Ambassador, including certificates, protocols, and cipher suites.
   name: Ambassador TLSContexts API
   slug: ambassador-tlscontexts-api
 artifact_total: 159
@@ -664,7 +676,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

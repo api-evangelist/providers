@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 112 operations · 67 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The 3rd-Party Integration API from MedAdvisor — 4 operation(s) for 3rd-party integration.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The 3rd-Party Integration API from MedAdvisor — 4 operation(s) for 3rd-party integration.
   name: MedAdvisor 3rd-Party Integration API
   slug: medadvisor-3rd-party-integration-api
-- description: The Account API from MedAdvisor — 1 operation(s) for account.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Account API from MedAdvisor — 1 operation(s) for account.
   name: MedAdvisor Account API
   slug: medadvisor-account-api
-- description: The Booking API from MedAdvisor — 27 operation(s) for booking.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Booking API from MedAdvisor — 27 operation(s) for booking.
   name: MedAdvisor Booking API
   slug: medadvisor-booking-api
-- description: The BookingService API from MedAdvisor — 34 operation(s) for bookingservice.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The BookingService API from MedAdvisor — 34 operation(s) for bookingservice.
   name: MedAdvisor Booking Service API
   slug: medadvisor-bookingservice-api
-- description: The CalendarSetting API from MedAdvisor — 6 operation(s) for calendarsetting.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The CalendarSetting API from MedAdvisor — 6 operation(s) for calendarsetting.
   name: MedAdvisor Calendar Setting API
   slug: medadvisor-calendarsetting-api
-- description: The Clinic API from MedAdvisor — 8 operation(s) for clinic.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Clinic API from MedAdvisor — 8 operation(s) for clinic.
   name: MedAdvisor Clinic API
   slug: medadvisor-clinic-api
-- description: The Communication API from MedAdvisor — 6 operation(s) for communication.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Communication API from MedAdvisor — 6 operation(s) for communication.
   name: MedAdvisor Communication API
   slug: medadvisor-communication-api
-- description: The Config API from MedAdvisor — 2 operation(s) for config.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Config API from MedAdvisor — 2 operation(s) for config.
   name: MedAdvisor Config API
   slug: medadvisor-config-api
-- description: The HeadOffice API from MedAdvisor — 6 operation(s) for headoffice.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The HeadOffice API from MedAdvisor — 6 operation(s) for headoffice.
   name: MedAdvisor Head Office API
   slug: medadvisor-headoffice-api
-- description: The Inbox API from MedAdvisor — 8 operation(s) for inbox.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Inbox API from MedAdvisor — 8 operation(s) for inbox.
   name: MedAdvisor Inbox API
   slug: medadvisor-inbox-api
-- description: The Logging API from MedAdvisor — 1 operation(s) for logging.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Logging API from MedAdvisor — 1 operation(s) for logging.
   name: MedAdvisor Logging API
   slug: medadvisor-logging-api
-- description: The Pharmacist API from MedAdvisor — 3 operation(s) for pharmacist.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Pharmacist API from MedAdvisor — 3 operation(s) for pharmacist.
   name: MedAdvisor Pharmacist API
   slug: medadvisor-pharmacist-api
-- description: The Pharmacy API from MedAdvisor — 31 operation(s) for pharmacy.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The Pharmacy API from MedAdvisor — 31 operation(s) for pharmacy.
   name: MedAdvisor Pharmacy API
   slug: medadvisor-pharmacy-api
-- description: The RefillOrder API from MedAdvisor — 14 operation(s) for refillorder.
+- baseURL: https://pharmacy-unified.api.medadvisor.com.au
+  baseurl_source: declared
+  description: The RefillOrder API from MedAdvisor — 14 operation(s) for refillorder.
   name: MedAdvisor Refill Order API
   slug: medadvisor-refillorder-api
 artifact_total: 21
@@ -267,7 +295,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png
 security:

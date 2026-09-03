@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -44,115 +44,189 @@ agentic_access:
   summary_line: 281 operations · 137 acting · 7 human-in-the-loop
 api_count: 6
 apis:
-- description: Import and export GGSA artifacts
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Import and export GGSA artifacts
   name: Oracle GoldenGate Artifacts API
   slug: oracle-goldengate-artifacts-api
-- description: Manage AsyncAPI specifications for data streams
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage AsyncAPI specifications for data streams
   name: Oracle GoldenGate AsyncAPI API
   slug: oracle-goldengate-asyncapi-api
-- description: Manage SSL certificates for deployments
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage SSL certificates for deployments
   name: Oracle GoldenGate Certificates API
   slug: oracle-goldengate-certificates-api
-- description: Execute GoldenGate commands
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Execute GoldenGate commands
   name: Oracle GoldenGate Commands API
   slug: oracle-goldengate-commands-api
-- description: Manage compare pairs within groups
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage compare pairs within groups
   name: Oracle GoldenGate Compare Pairs API
   slug: oracle-goldengate-compare-pairs-api
-- description: Configuration files and settings for big data handlers
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Configuration files and settings for big data handlers
   name: Oracle GoldenGate Configuration API
   slug: oracle-goldengate-configuration-api
-- description: Manage connection-to-deployment assignments
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage connection-to-deployment assignments
   name: Oracle GoldenGate Connection Assignments API
   slug: oracle-goldengate-connection-assignments-api
-- description: Manage database and service connections
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage database and service connections
   name: Oracle GoldenGate Connections API
   slug: oracle-goldengate-connections-api
-- description: Manage credential store for big data target connections
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage credential store for big data target connections
   name: Oracle GoldenGate Credentials API
   slug: oracle-goldengate-credentials-api
-- description: Manage data stream configurations
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage data stream configurations
   name: Oracle GoldenGate Data Streams API
   slug: oracle-goldengate-data-streams-api
-- description: Manage big data target type configurations
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage big data target type configurations
   name: Oracle GoldenGate Data Targets API
   slug: oracle-goldengate-data-targets-api
-- description: Manage registered source and target databases
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage registered source and target databases
   name: Oracle GoldenGate Database Registrations API
   slug: oracle-goldengate-database-registrations-api
-- description: Manage deployment backups
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage deployment backups
   name: Oracle GoldenGate Deployment Backups API
   slug: oracle-goldengate-deployment-backups-api
-- description: Query available deployment versions
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Query available deployment versions
   name: Oracle GoldenGate Deployment Versions API
   slug: oracle-goldengate-deployment-versions-api
-- description: Manage GoldenGate deployment instances
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage GoldenGate deployment instances
   name: Oracle GoldenGate Deployments API
   slug: oracle-goldengate-deployments-api
-- description: Distribution paths for trail data delivery
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Distribution paths for trail data delivery
   name: Oracle GoldenGate Distribution API
   slug: oracle-goldengate-distribution-api
-- description: Manage encryption keys and profiles
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage encryption keys and profiles
   name: Oracle GoldenGate Encryption API
   slug: oracle-goldengate-encryption-api
-- description: Run and stop comparison jobs
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Run and stop comparison jobs
   name: Oracle GoldenGate Execution API
   slug: oracle-goldengate-execution-api
-- description: Manage Extract processes for source data capture
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage Extract processes for source data capture
   name: Oracle GoldenGate Extracts API
   slug: oracle-goldengate-extracts-api
-- description: Manage compare groups
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage compare groups
   name: Oracle GoldenGate Groups API
   slug: oracle-goldengate-groups-api
-- description: Manage heartbeat tables for lag monitoring
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage heartbeat tables for lag monitoring
   name: Oracle GoldenGate Heartbeat API
   slug: oracle-goldengate-heartbeat-api
-- description: Import and export Veridata configurations
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Import and export Veridata configurations
   name: Oracle GoldenGate Import/Export API
   slug: oracle-goldengate-import-export-api
-- description: Manage and execute comparison jobs
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage and execute comparison jobs
   name: Oracle GoldenGate Jobs API
   slug: oracle-goldengate-jobs-api
-- description: Access service and process logs
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Access service and process logs
   name: Oracle GoldenGate Logs API
   slug: oracle-goldengate-logs-api
-- description: Performance metrics and process monitoring
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Performance metrics and process monitoring
   name: Oracle GoldenGate Monitoring API
   slug: oracle-goldengate-monitoring-api
-- description: Manage data replication pipelines
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage data replication pipelines
   name: Oracle GoldenGate Pipelines API
   slug: oracle-goldengate-pipelines-api
-- description: Manage comparison profiles
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage comparison profiles
   name: Oracle GoldenGate Profiles API
   slug: oracle-goldengate-profiles-api
-- description: Manage receiver/collector paths
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage receiver/collector paths
   name: Oracle GoldenGate Receiver API
   slug: oracle-goldengate-receiver-api
-- description: Repair out-of-sync data
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Repair out-of-sync data
   name: Oracle GoldenGate Repair API
   slug: oracle-goldengate-repair-api
-- description: Manage Replicat processes targeting big data systems
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage Replicat processes targeting big data systems
   name: Oracle GoldenGate Replicats API
   slug: oracle-goldengate-replicats-api
-- description: Server information and configuration
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Server information and configuration
   name: Oracle GoldenGate Server API
   slug: oracle-goldengate-server-api
-- description: The Services API from Oracle GoldenGate — 2 operation(s) for services.
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: The Services API from Oracle GoldenGate — 2 operation(s) for services.
   name: Oracle GoldenGate Services API
   slug: oracle-goldengate-services-api
-- description: Manage automated tasks
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage automated tasks
   name: Oracle GoldenGate Tasks API
   slug: oracle-goldengate-tasks-api
-- description: Trail file management
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Trail file management
   name: Oracle GoldenGate Trails API
   slug: oracle-goldengate-trails-api
-- description: User management and authorization
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: User management and authorization
   name: Oracle GoldenGate Users API
   slug: oracle-goldengate-users-api
-- description: Validate connections and configurations
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Validate connections and configurations
   name: Oracle GoldenGate Validation API
   slug: oracle-goldengate-validation-api
-- description: Track asynchronous operations
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Track asynchronous operations
   name: Oracle GoldenGate Work Requests API
   slug: oracle-goldengate-work-requests-api
 arazzos:
@@ -4190,7 +4264,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -4203,7 +4277,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 58.4
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -4212,7 +4286,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:

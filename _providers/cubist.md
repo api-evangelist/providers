@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 173 operations · 126 acting · 13 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Cubist — 1 operation(s) for account.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Account API from Cubist — 1 operation(s) for account.
   name: Cubist Account API
   slug: cubist-account-api
-- description: The Accounts API from Cubist — 1 operation(s) for accounts.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Accounts API from Cubist — 1 operation(s) for accounts.
   name: Cubist Accounts API
   slug: cubist-accounts-api
-- description: The Audit API from Cubist — 1 operation(s) for audit.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Audit API from Cubist — 1 operation(s) for audit.
   name: Cubist Audit API
   slug: cubist-audit-api
-- description: The AuthMigration API from Cubist — 3 operation(s) for authmigration.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The AuthMigration API from Cubist — 3 operation(s) for authmigration.
   name: Cubist AuthMigration API
   slug: cubist-authmigration-api
-- description: The Babylon API from Cubist — 2 operation(s) for babylon.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Babylon API from Cubist — 2 operation(s) for babylon.
   name: Cubist Babylon API
   slug: cubist-babylon-api
-- description: The Contact API from Cubist — 3 operation(s) for contact.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Contact API from Cubist — 3 operation(s) for contact.
   name: Cubist Contact API
   slug: cubist-contact-api
-- description: The Cube3Signer API from Cubist — 1 operation(s) for cube3signer.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Cube3Signer API from Cubist — 1 operation(s) for cube3signer.
   name: Cubist Cube3Signer API
   slug: cubist-cube3signer-api
-- description: The Identity API from Cubist — 4 operation(s) for identity.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Identity API from Cubist — 4 operation(s) for identity.
   name: Cubist Identity API
   slug: cubist-identity-api
-- description: The Internal API from Cubist — 4 operation(s) for internal.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Internal API from Cubist — 4 operation(s) for internal.
   name: Cubist Internal API
   slug: cubist-internal-api
-- description: The Keys API from Cubist — 10 operation(s) for keys.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Keys API from Cubist — 10 operation(s) for keys.
   name: Cubist Keys API
   slug: cubist-keys-api
-- description: The Keys In Role API from Cubist — 2 operation(s) for keys in role.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Keys In Role API from Cubist — 2 operation(s) for keys in role.
   name: Cubist Keys In Role API
   slug: cubist-keys-in-role-api
-- description: The Login API from Cubist — 2 operation(s) for login.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Login API from Cubist — 2 operation(s) for login.
   name: Cubist Login API
   slug: cubist-login-api
-- description: The Metrics API from Cubist — 2 operation(s) for metrics.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Metrics API from Cubist — 2 operation(s) for metrics.
   name: Cubist Metrics API
   slug: cubist-metrics-api
-- description: The MFA API from Cubist — 5 operation(s) for mfa.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The MFA API from Cubist — 5 operation(s) for mfa.
   name: Cubist MFA API
   slug: cubist-mfa-api
-- description: The Misc API from Cubist — 1 operation(s) for misc.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Misc API from Cubist — 1 operation(s) for misc.
   name: Cubist Misc API
   slug: cubist-misc-api
-- description: The MMI API from Cubist — 6 operation(s) for mmi.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The MMI API from Cubist — 6 operation(s) for mmi.
   name: Cubist MMI API
   slug: cubist-mmi-api
-- description: The OAuth2 API from Cubist — 7 operation(s) for oauth2.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The OAuth2 API from Cubist — 7 operation(s) for oauth2.
   name: Cubist OAuth2 API
   slug: cubist-oauth2-api
-- description: The Org API from Cubist — 1 operation(s) for org.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Org API from Cubist — 1 operation(s) for org.
   name: Cubist Org API
   slug: cubist-org-api
-- description: The Orgs API from Cubist — 4 operation(s) for orgs.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Orgs API from Cubist — 4 operation(s) for orgs.
   name: Cubist Orgs API
   slug: cubist-orgs-api
-- description: The Policies API from Cubist — 11 operation(s) for policies.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Policies API from Cubist — 11 operation(s) for policies.
   name: Cubist Policies API
   slug: cubist-policies-api
-- description: The Role Access Tokens API from Cubist — 2 operation(s) for role access tokens.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Role Access Tokens API from Cubist — 2 operation(s) for role access tokens.
   name: Cubist Role Access Tokens API
   slug: cubist-role-access-tokens-api
-- description: The Roles API from Cubist — 7 operation(s) for roles.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Roles API from Cubist — 7 operation(s) for roles.
   name: Cubist Roles API
   slug: cubist-roles-api
-- description: The RPC API from Cubist — 1 operation(s) for rpc.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The RPC API from Cubist — 1 operation(s) for rpc.
   name: Cubist RPC API
   slug: cubist-rpc-api
-- description: The Sessions API from Cubist — 3 operation(s) for sessions.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Sessions API from Cubist — 3 operation(s) for sessions.
   name: Cubist Sessions API
   slug: cubist-sessions-api
-- description: The SignerSession API from Cubist — 1 operation(s) for signersession.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The SignerSession API from Cubist — 1 operation(s) for signersession.
   name: Cubist SignerSession API
   slug: cubist-signersession-api
-- description: The Signing API from Cubist — 21 operation(s) for signing.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Signing API from Cubist — 21 operation(s) for signing.
   name: Cubist Signing API
   slug: cubist-signing-api
-- description: The User API from Cubist — 11 operation(s) for user.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The User API from Cubist — 11 operation(s) for user.
   name: Cubist User API
   slug: cubist-user-api
-- description: The User Export API from Cubist — 1 operation(s) for user export.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The User Export API from Cubist — 1 operation(s) for user export.
   name: Cubist User Export API
   slug: cubist-user-export-api
-- description: The Users In Org API from Cubist — 9 operation(s) for users in org.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Users In Org API from Cubist — 9 operation(s) for users in org.
   name: Cubist Users In Org API
   slug: cubist-users-in-org-api
-- description: The Users In Role API from Cubist — 2 operation(s) for users in role.
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The Users In Role API from Cubist — 2 operation(s) for users in role.
   name: Cubist Users In Role API
   slug: cubist-users-in-role-api
 artifact_total: 67
@@ -407,7 +467,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
 security:

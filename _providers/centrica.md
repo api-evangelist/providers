@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Oauth2 API from Centrica — 1 operation(s) for oauth2.
+- baseURL: https://api.dev.fieldops.centrica.com/api/v1/identity
+  baseurl_source: declared
+  description: The Oauth2 API from Centrica — 1 operation(s) for oauth2.
   name: Centrica Oauth2 API
   slug: centrica-oauth2-api
 artifact_total: 8
@@ -216,7 +232,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

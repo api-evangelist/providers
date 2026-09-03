@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 52 operations · 19 acting
 api_count: 6
 apis:
-- description: 'Real-time, pub/sub-based event streaming surface. Lets institutions and partners react to events emitted across Jack Henry''s platform (account events, transaction events, alert events, user-lifecycle '
+- baseURL: https://events.jackhenry.com
+  baseurl_source: declared
+  description: 'Real-time, pub/sub-based event streaming surface. Lets institutions and partners react to events emitted across Jack Henry''s platform (account events, transaction events, alert events, user-lifecycle '
   name: Enterprise Event System
   slug: enterprise-event-system
 - description: Translation surface for the Symitar credit-union core. Query member accounts, post transactions, and execute PowerOn scripts.
@@ -59,115 +61,189 @@ apis:
 - description: Cloud-native core banking platform — the next-generation successor surface alongside SilverLake, CIF 20/20, and Symitar. Targets modern API-first deployments for de novo banks and modernization progra
   name: Digital Core
   slug: digital-core
-- description: Institution feature-flag map.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Institution feature-flag map.
   name: Jack Henry & Associates Abilities API
   slug: jack-henry-abilities-api
-- description: Deposit, loan, line-of-credit, and investment accounts.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Deposit, loan, line-of-credit, and investment accounts.
   name: Jack Henry & Associates Accounts API
   slug: jack-henry-accounts-api
-- description: ACH credit and debit origination.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: ACH credit and debit origination.
   name: Jack Henry & Associates ACH Origination API
   slug: jack-henry-ach-origination-api
-- description: Account and security alerts.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Account and security alerts.
   name: Jack Henry & Associates Alerts API
   slug: jack-henry-alerts-api
-- description: OAuth authorization endpoint.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: OAuth authorization endpoint.
   name: Jack Henry & Associates Authorization API
   slug: jack-henry-authorization-api
-- description: Bill-payment payees and payments.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Bill-payment payees and payments.
   name: Jack Henry & Associates Bill Pay API
   slug: jack-henry-bill-pay-api
-- description: Consumer and small-business bill pay.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Consumer and small-business bill pay.
   name: Jack Henry & Associates Bill Payments API
   slug: jack-henry-bill-payments-api
-- description: Debit and credit card management.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Debit and credit card management.
   name: Jack Henry & Associates Cards API
   slug: jack-henry-cards-api
-- description: Consumer account administration.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Consumer account administration.
   name: Jack Henry & Associates Consumers API
   slug: jack-henry-consumers-api
-- description: Customer (CIF) records.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Customer (CIF) records.
   name: Jack Henry & Associates Customers API
   slug: jack-henry-customers-api
-- description: DDA/savings/CD deposit accounts.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: DDA/savings/CD deposit accounts.
   name: Jack Henry & Associates Deposit Accounts API
   slug: jack-henry-deposit-accounts-api
-- description: OpenID Connect discovery and JWKS.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: OpenID Connect discovery and JWKS.
   name: Jack Henry & Associates Discovery API
   slug: jack-henry-discovery-api
-- description: GL account inquiry.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: GL account inquiry.
   name: Jack Henry & Associates General Ledger API
   slug: jack-henry-general-ledger-api
-- description: Sensitive operations requiring elevated authorization.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Sensitive operations requiring elevated authorization.
   name: Jack Henry & Associates High Risk Actions API
   slug: jack-henry-high-risk-actions-api
-- description: Audit and activity history.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Audit and activity history.
   name: Jack Henry & Associates History API
   slug: jack-henry-history-api
-- description: Drive scheduled or emergency offline modes.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Drive scheduled or emergency offline modes.
   name: Jack Henry & Associates Institution Offline Status API
   slug: jack-henry-institution-offline-status-api
-- description: Public institution profile lookup.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Public institution profile lookup.
   name: Jack Henry & Associates Institutions API
   slug: jack-henry-institutions-api
-- description: Consumer and commercial loans.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Consumer and commercial loans.
   name: Jack Henry & Associates Loan Accounts API
   slug: jack-henry-loan-accounts-api
-- description: Configure marketing/ad cards in the dashboard.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Configure marketing/ad cards in the dashboard.
   name: Jack Henry & Associates Marketing Ads API
   slug: jack-henry-marketing-ads-api
-- description: Two-way secure messaging with the institution.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Two-way secure messaging with the institution.
   name: Jack Henry & Associates Messages API
   slug: jack-henry-messages-api
-- description: Cross-rail routing and virtual accounts.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Cross-rail routing and virtual accounts.
   name: Jack Henry & Associates Payments Orchestrator API
   slug: jack-henry-payments-orchestrator-api
-- description: P2P transfers via partner networks.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: P2P transfers via partner networks.
   name: Jack Henry & Associates Peer To Peer API
   slug: jack-henry-peer-to-peer-api
-- description: Bridge handshake and lifecycle.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Bridge handshake and lifecycle.
   name: Jack Henry & Associates Plugin Bridge API
   slug: jack-henry-plugin-bridge-api
-- description: Plugin metadata published by the host.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Plugin metadata published by the host.
   name: Jack Henry & Associates Plugin Configuration API
   slug: jack-henry-plugin-configuration-api
-- description: Configure external applications and plugins.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Configure external applications and plugins.
   name: Jack Henry & Associates Plugin Management API
   slug: jack-henry-plugin-management-api
-- description: Consumer and commercial RDC.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Consumer and commercial RDC.
   name: Jack Henry & Associates Remote Deposit Capture API
   slug: jack-henry-remote-deposit-capture-api
-- description: Operational and audit reports.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Operational and audit reports.
   name: Jack Henry & Associates Reports API
   slug: jack-henry-reports-api
-- description: Routing number validation.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Routing number validation.
   name: Jack Henry & Associates Routing Numbers API
   slug: jack-henry-routing-numbers-api
-- description: User segments for targeted experiences.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: User segments for targeted experiences.
   name: Jack Henry & Associates Segments API
   slug: jack-henry-segments-api
-- description: OAuth token exchange.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: OAuth token exchange.
   name: Jack Henry & Associates Token API
   slug: jack-henry-token-api
-- description: Posted and pending transactions per account.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Posted and pending transactions per account.
   name: Jack Henry & Associates Transactions API
   slug: jack-henry-transactions-api
-- description: Account-to-account and external transfers.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Account-to-account and external transfers.
   name: Jack Henry & Associates Transfers API
   slug: jack-henry-transfers-api
-- description: Profile and identity of the authenticated user.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Profile and identity of the authenticated user.
   name: Jack Henry & Associates User API
   slug: jack-henry-user-api
-- description: Authenticated user/account context surfaced to a plugin.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Authenticated user/account context surfaced to a plugin.
   name: Jack Henry & Associates User Context API
   slug: jack-henry-user-context-api
-- description: OpenID Connect UserInfo endpoint.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: OpenID Connect UserInfo endpoint.
   name: Jack Henry & Associates UserInfo API
   slug: jack-henry-userinfo-api
-- description: Outbound wire requests.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Outbound wire requests.
   name: Jack Henry & Associates Wire Transfers API
   slug: jack-henry-wire-transfers-api
-- description: Zelle peer-to-peer payments.
+- baseURL: https://api.banno.com
+  baseurl_source: declared
+  description: Zelle peer-to-peer payments.
   name: Jack Henry & Associates Zelle API
   slug: jack-henry-zelle-api
 artifact_total: 120
@@ -563,7 +639,7 @@ score:
     catalog_gap: 41.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -573,7 +649,7 @@ score:
     discoverability: 68.5
     governance: 54.5
     operational_transparency: 5.3
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -588,7 +664,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:

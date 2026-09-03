@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -44,124 +44,204 @@ agentic_access:
   summary_line: 184 operations · 105 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Query analytics data and manage data stores
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Query analytics data and manage data stores
   name: Apigee Analytics API
   slug: apigee-analytics-api
-- description: Track API deployment records
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Track API deployment records
   name: Apigee API Deployments API
   slug: apigee-api-deployments-api
-- description: View and manage discovered API observations
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: View and manage discovered API observations
   name: Apigee API Observations API
   slug: apigee-api-observations-api
-- description: View discovered API operations
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: View discovered API operations
   name: Apigee API Operations API
   slug: apigee-api-operations-api
-- description: Bundle APIs into products for consumption
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Bundle APIs into products for consumption
   name: Apigee API Products API
   slug: apigee-api-products-api
-- description: Create, deploy, and manage API proxy definitions
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Create, deploy, and manage API proxy definitions
   name: Apigee API Proxies API
   slug: apigee-api-proxies-api
-- description: Manage revisions of API proxies
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage revisions of API proxies
   name: Apigee API Proxy Revisions API
   slug: apigee-api-proxy-revisions-api
-- description: Manage API specification documents
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API specification documents
   name: Apigee API Specs API
   slug: apigee-api-specs-api
-- description: Manage API version records
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API version records
   name: Apigee API Versions API
   slug: apigee-api-versions-api
-- description: Manage developer groups and their applications
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage developer groups and their applications
   name: Apigee App Groups API
   slug: apigee-app-groups-api
-- description: Manage metadata artifacts
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage metadata artifacts
   name: Apigee Artifacts API
   slug: apigee-artifacts-api
-- description: Manage custom attributes
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage custom attributes
   name: Apigee Attributes API
   slug: apigee-attributes-api
-- description: Manage authentication configurations
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage authentication configurations
   name: Apigee Auth Configs API
   slug: apigee-auth-configs-api
-- description: Manage SSL/TLS certificates
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage SSL/TLS certificates
   name: Apigee Certificates API
   slug: apigee-certificates-api
-- description: Track API dependencies
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Track API dependencies
   name: Apigee Dependencies API
   slug: apigee-dependencies-api
-- description: Manage API deployments
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API deployments
   name: Apigee Deployments API
   slug: apigee-deployments-api
-- description: Manage API keys and credentials for developer apps
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API keys and credentials for developer apps
   name: Apigee Developer App Keys API
   slug: apigee-developer-app-keys-api
-- description: Manage applications registered by developers
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage applications registered by developers
   name: Apigee Developer Apps API
   slug: apigee-developer-apps-api
-- description: Manage developer accounts and credentials
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage developer accounts and credentials
   name: Apigee Developers API
   slug: apigee-developers-api
-- description: Manage runtime execution environments
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage runtime execution environments
   name: Apigee Environments API
   slug: apigee-environments-api
-- description: View integration execution results
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: View integration execution results
   name: Apigee Executions API
   slug: apigee-executions-api
-- description: Manage external API references
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage external API references
   name: Apigee External APIs API
   slug: apigee-external-apis-api
-- description: Manage Apigee runtime instances
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage Apigee runtime instances
   name: Apigee Instances API
   slug: apigee-instances-api
-- description: Manage integration versions and publishing
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage integration versions and publishing
   name: Apigee Integration Versions API
   slug: apigee-integration-versions-api
-- description: Manage and execute integrations
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage and execute integrations
   name: Apigee Integrations API
   slug: apigee-integrations-api
-- description: Manage key-value storage maps
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage key-value storage maps
   name: Apigee Key Value Maps API
   slug: apigee-key-value-maps-api
-- description: Manage project locations and search resources
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage project locations and search resources
   name: Apigee Locations API
   slug: apigee-locations-api
-- description: Manage API observation jobs for shadow API discovery
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API observation jobs for shadow API discovery
   name: Apigee Observation Jobs API
   slug: apigee-observation-jobs-api
-- description: Manage sources for API observation
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage sources for API observation
   name: Apigee Observation Sources API
   slug: apigee-observation-sources-api
-- description: Manage long-running operations
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage long-running operations
   name: Apigee Operations API
   slug: apigee-operations-api
-- description: Manage Apigee organizations and their configuration
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage Apigee organizations and their configuration
   name: Apigee Organizations API
   slug: apigee-organizations-api
-- description: The Projects API from Apigee — 2 operation(s) for projects.
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Apigee — 2 operation(s) for projects.
   name: Apigee Projects API
   slug: apigee-projects-api
-- description: Manage runtime project attachments
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage runtime project attachments
   name: Apigee Runtime Project Attachments API
   slug: apigee-runtime-project-attachments-api
-- description: Manage Salesforce channels
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage Salesforce channels
   name: Apigee SFDC Channels API
   slug: apigee-sfdc-channels-api
-- description: Manage Salesforce instances
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage Salesforce instances
   name: Apigee SFDC Instances API
   slug: apigee-sfdc-instances-api
-- description: Manage reusable shared flow logic
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage reusable shared flow logic
   name: Apigee Shared Flows API
   slug: apigee-shared-flows-api
-- description: Manage API specifications
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API specifications
   name: Apigee Specs API
   slug: apigee-specs-api
-- description: Manage integration execution suspensions
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage integration execution suspensions
   name: Apigee Suspensions API
   slug: apigee-suspensions-api
-- description: Configure backend target server endpoints
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Configure backend target server endpoints
   name: Apigee Target Servers API
   slug: apigee-target-servers-api
-- description: Manage API versions
+- baseURL: https://apigee.googleapis.com
+  baseurl_source: declared
+  description: Manage API versions
   name: Apigee Versions API
   slug: apigee-versions-api
 arazzos:
@@ -1186,7 +1266,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png
 security:

@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
   name: Voltair ApiKeys API
   slug: voltair-apikeys-api
-- description: The Assets API from Voltair — 6 operation(s) for assets.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Assets API from Voltair — 6 operation(s) for assets.
   name: Voltair Assets API
   slug: voltair-assets-api
-- description: The Clusters API from Voltair — 3 operation(s) for clusters.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Clusters API from Voltair — 3 operation(s) for clusters.
   name: Voltair Clusters API
   slug: voltair-clusters-api
-- description: The ClusterVisits API from Voltair — 2 operation(s) for clustervisits.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The ClusterVisits API from Voltair — 2 operation(s) for clustervisits.
   name: Voltair ClusterVisits API
   slug: voltair-clustervisits-api
-- description: The Events API from Voltair — 2 operation(s) for events.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Events API from Voltair — 2 operation(s) for events.
   name: Voltair Events API
   slug: voltair-events-api
-- description: The Identity API from Voltair — 1 operation(s) for identity.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Identity API from Voltair — 1 operation(s) for identity.
   name: Voltair Identity API
   slug: voltair-identity-api
-- description: The Inspections API from Voltair — 4 operation(s) for inspections.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Inspections API from Voltair — 4 operation(s) for inspections.
   name: Voltair Inspections API
   slug: voltair-inspections-api
-- description: The Media API from Voltair — 7 operation(s) for media.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Media API from Voltair — 7 operation(s) for media.
   name: Voltair Media API
   slug: voltair-media-api
-- description: The Missions API from Voltair — 3 operation(s) for missions.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Missions API from Voltair — 3 operation(s) for missions.
   name: Voltair Missions API
   slug: voltair-missions-api
-- description: The Organization API from Voltair — 1 operation(s) for organization.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Organization API from Voltair — 1 operation(s) for organization.
   name: Voltair Organization API
   slug: voltair-organization-api
-- description: The Roles API from Voltair — 2 operation(s) for roles.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Roles API from Voltair — 2 operation(s) for roles.
   name: Voltair Roles API
   slug: voltair-roles-api
-- description: The Sites API from Voltair — 3 operation(s) for sites.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Sites API from Voltair — 3 operation(s) for sites.
   name: Voltair Sites API
   slug: voltair-sites-api
-- description: The SiteVisits API from Voltair — 2 operation(s) for sitevisits.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The SiteVisits API from Voltair — 2 operation(s) for sitevisits.
   name: Voltair SiteVisits API
   slug: voltair-sitevisits-api
-- description: The Transactions API from Voltair — 3 operation(s) for transactions.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Transactions API from Voltair — 3 operation(s) for transactions.
   name: Voltair Transactions API
   slug: voltair-transactions-api
-- description: The Users API from Voltair — 5 operation(s) for users.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Users API from Voltair — 5 operation(s) for users.
   name: Voltair Users API
   slug: voltair-users-api
-- description: The Webhooks API from Voltair — 5 operation(s) for webhooks.
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The Webhooks API from Voltair — 5 operation(s) for webhooks.
   name: Voltair Webhooks API
   slug: voltair-webhooks-api
 artifact_total: 38
@@ -262,7 +294,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -272,7 +304,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 30.4
+  previous_composite: 30.6
   provenance:
     conformance: derived
     contracts:
@@ -289,7 +321,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

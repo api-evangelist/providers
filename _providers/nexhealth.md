@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 88 operations · 22 acting
 api_count: 1
 apis:
-- description: Adjustment types used to create adjustment
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Adjustment types used to create adjustment
   name: NexHealth Adjustment Types API
   slug: nexhealth-adjustment-types-api
-- description: Adjustments resources
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Adjustments resources
   name: NexHealth Adjustments API
   slug: nexhealth-adjustments-api
-- description: Defines booking parameters for services offerred by the practice
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Defines booking parameters for services offerred by the practice
   name: NexHealth Appointment Types API
   slug: nexhealth-appointment-types-api
-- description: A booking on the Practice's calendar
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A booking on the Practice's calendar
   name: NexHealth Appointments API
   slug: nexhealth-appointments-api
-- description: Authentication endpoints for NexHealth resources
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Authentication endpoints for NexHealth resources
   name: NexHealth Authenticates API
   slug: nexhealth-authenticates-api
-- description: Available start date/times for an appointment
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Available start date/times for an appointment
   name: NexHealth Available Slots API
   slug: nexhealth-available-slots-api
-- description: Guarantor and Insurance Balances resources
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Guarantor and Insurance Balances resources
   name: NexHealth Balances API
   slug: nexhealth-balances-api
-- description: Charges resources
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Charges resources
   name: NexHealth Charges API
   slug: nexhealth-charges-api
-- description: Claims resources
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Claims resources
   name: NexHealth Claims API
   slug: nexhealth-claims-api
-- description: Clinical notes are the official documentation of a patient's clinical encounter or care interaction
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Clinical notes are the official documentation of a patient's clinical encounter or care interaction
   name: NexHealth Clinical Notes API
   slug: nexhealth-clinical-notes-api
-- description: A document types resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A document types resource
   name: NexHealth Document Types API
   slug: nexhealth-document-types-api
-- description: A fee schedules resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A fee schedules resource
   name: NexHealth Fee Schedules API
   slug: nexhealth-fee-schedules-api
-- description: An organization containing at least one location is refered to as Institution
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: An organization containing at least one location is refered to as Institution
   name: NexHealth Institutions API
   slug: nexhealth-institutions-api
-- description: An insurance resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: An insurance resource
   name: NexHealth Insurance API
   slug: nexhealth-insurance-api
-- description: A singular Practice/clinic/office
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A singular Practice/clinic/office
   name: NexHealth Locations API
   slug: nexhealth-locations-api
-- description: NexHealth staff users
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: NexHealth staff users
   name: NexHealth Nex Staff API
   slug: nexhealth-nex-staff-api
-- description: An Onboarding resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: An Onboarding resource
   name: NexHealth Onboardings API
   slug: nexhealth-onboardings-api
-- description: A chair or room that can be booked
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A chair or room that can be booked
   name: NexHealth Operatories API
   slug: nexhealth-operatories-api
-- description: Short communication contents to Patients requiring a response
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Short communication contents to Patients requiring a response
   name: NexHealth Patient Alerts API
   slug: nexhealth-patient-alerts-api
-- description: A patient documents resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A patient documents resource
   name: NexHealth Patient Documents API
   slug: nexhealth-patient-documents-api
-- description: Notifications used for encouraging patients to book follow-up appointments with providers
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Notifications used for encouraging patients to book follow-up appointments with providers
   name: NexHealth Patient Recalls API
   slug: nexhealth-patient-recalls-api
-- description: A patients resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A patients resource
   name: NexHealth Patients API
   slug: nexhealth-patients-api
-- description: Payment plans resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Payment plans resource
   name: NexHealth Payment Plans API
   slug: nexhealth-payment-plans-api
-- description: Payments types used to create payments
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Payments types used to create payments
   name: NexHealth Payment Types API
   slug: nexhealth-payment-types-api
-- description: Payments resources to view and create payments
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Payments resources to view and create payments
   name: NexHealth Payments API
   slug: nexhealth-payments-api
-- description: A procedures resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A procedures resource
   name: NexHealth Procedures API
   slug: nexhealth-procedures-api
-- description: A providers resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A providers resource
   name: NexHealth Providers API
   slug: nexhealth-providers-api
-- description: A recall notification type
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A recall notification type
   name: NexHealth Recall Types API
   slug: nexhealth-recall-types-api
-- description: Status of a NexHealth EHR synchronization service
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Status of a NexHealth EHR synchronization service
   name: NexHealth Sync Status API
   slug: nexhealth-sync-status-api
-- description: A treatment plans resource
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: A treatment plans resource
   name: NexHealth Treatment Plans API
   slug: nexhealth-treatment-plans-api
-- description: Save and configure API user endpoints for use with webhooks
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Save and configure API user endpoints for use with webhooks
   name: NexHealth Webhook Endpoints API
   slug: nexhealth-webhook-endpoints-api
-- description: Configure webhook subscriptions to receive event based hooks
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Configure webhook subscriptions to receive event based hooks
   name: NexHealth Webhook Subscriptions API
   slug: nexhealth-webhook-subscriptions-api
-- description: Configure working hours for providers
+- baseURL: https://nexhealth.info
+  baseurl_source: declared
+  description: Configure working hours for providers
   name: NexHealth Working Hours API
   slug: nexhealth-working-hours-api
 artifact_total: 106
@@ -522,7 +588,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -532,7 +598,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 30.3
-  previous_composite: 50.4
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -554,7 +620,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
 security:

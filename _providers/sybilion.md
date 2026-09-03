@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: Hosted Streamable-HTTP MCP server providing agent-native tools for forecasts (submit_forecast, get_forecast, get_forecast_chart, get_forecast_artifact), alerts (get_alerts) and catalog discovery (list
   name: Sybilion MCP Server
   slug: sybilion-mcp-server
-- description: The Alerts API from Sybilion — 1 operation(s) for alerts.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Alerts API from Sybilion — 1 operation(s) for alerts.
   name: Sybilion Alerts API
   slug: sybilion-alerts-api
-- description: The Categories API from Sybilion — 1 operation(s) for categories.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Categories API from Sybilion — 1 operation(s) for categories.
   name: Sybilion Categories API
   slug: sybilion-categories-api
-- description: The Drivers API from Sybilion — 1 operation(s) for drivers.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Drivers API from Sybilion — 1 operation(s) for drivers.
   name: Sybilion Drivers API
   slug: sybilion-drivers-api
-- description: The Forecasts API from Sybilion — 3 operation(s) for forecasts.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Forecasts API from Sybilion — 3 operation(s) for forecasts.
   name: Sybilion Forecasts API
   slug: sybilion-forecasts-api
-- description: The Health API from Sybilion — 1 operation(s) for health.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Health API from Sybilion — 1 operation(s) for health.
   name: Sybilion Health API
   slug: sybilion-health-api
-- description: The Jobs API from Sybilion — 1 operation(s) for jobs.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Jobs API from Sybilion — 1 operation(s) for jobs.
   name: Sybilion Jobs API
   slug: sybilion-jobs-api
-- description: The Me API from Sybilion — 1 operation(s) for me.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Me API from Sybilion — 1 operation(s) for me.
   name: Sybilion Me API
   slug: sybilion-me-api
-- description: The Regions API from Sybilion — 1 operation(s) for regions.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Regions API from Sybilion — 1 operation(s) for regions.
   name: Sybilion Regions API
   slug: sybilion-regions-api
-- description: The Usage API from Sybilion — 1 operation(s) for usage.
+- baseURL: https://api.sybilion.dev
+  baseurl_source: declared
+  description: The Usage API from Sybilion — 1 operation(s) for usage.
   name: Sybilion Usage API
   slug: sybilion-usage-api
 artifact_total: 19
@@ -271,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/screenshots/sybilion-2026-08-17T082216.png
 security:

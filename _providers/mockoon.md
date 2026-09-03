@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Mockoon ships as a desktop application, a CLI, and a serverless package for designing and running mock REST APIs. Mocks are configured in Mockoon and exposed locally as HTTP endpoints; the tool itself
   name: Mockoon
   slug: mockoon
-- description: Inspect and reset data buckets defined in the mock environment.
+- baseURL_template: http://localhost:{port}
+  baseurl_source: spec_template
+  description: Inspect and reset data buckets defined in the mock environment.
   name: Mockoon Data Buckets API
   slug: mockoon-data-buckets-api
 artifact_total: 11
@@ -176,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png
 security:

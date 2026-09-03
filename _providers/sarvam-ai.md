@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
-- description: The Chat API from Sarvam AI — 1 operation(s) for chat.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Chat API from Sarvam AI — 1 operation(s) for chat.
   name: Sarvam AI Chat API
   slug: sarvam-ai-chat-api
-- description: The Language Identification API from Sarvam AI — 1 operation(s) for language identification.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Language Identification API from Sarvam AI — 1 operation(s) for language identification.
   name: Sarvam AI Language Identification API
   slug: sarvam-ai-language-identification-api
-- description: The Speech to Text API from Sarvam AI — 2 operation(s) for speech to text.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Speech to Text API from Sarvam AI — 2 operation(s) for speech to text.
   name: Sarvam AI Speech to Text API
   slug: sarvam-ai-speech-to-text-api
-- description: The Text to Speech API from Sarvam AI — 1 operation(s) for text to speech.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Text to Speech API from Sarvam AI — 1 operation(s) for text to speech.
   name: Sarvam AI Text to Speech API
   slug: sarvam-ai-text-to-speech-api
-- description: The Translate API from Sarvam AI — 1 operation(s) for translate.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Translate API from Sarvam AI — 1 operation(s) for translate.
   name: Sarvam AI Translate API
   slug: sarvam-ai-translate-api
-- description: The Transliterate API from Sarvam AI — 1 operation(s) for transliterate.
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Transliterate API from Sarvam AI — 1 operation(s) for transliterate.
   name: Sarvam AI Transliterate API
   slug: sarvam-ai-transliterate-api
 artifact_total: 22
@@ -185,7 +197,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -195,7 +207,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.7
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -204,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarvam-ai/refs/heads/main/screenshots/sarvam-ai-2026-08-17T081724.png
 security:

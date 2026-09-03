@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 5
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 49 operations · 24 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from Gumloop — 5 operation(s) for agents.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Agents API from Gumloop — 5 operation(s) for agents.
   name: Gumloop Agents API
   slug: gumloop-agents-api
-- description: The Artifacts API from Gumloop — 2 operation(s) for artifacts.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Artifacts API from Gumloop — 2 operation(s) for artifacts.
   name: Gumloop Artifacts API
   slug: gumloop-artifacts-api
-- description: The Brain API from Gumloop — 1 operation(s) for brain.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Brain API from Gumloop — 1 operation(s) for brain.
   name: Gumloop Brain API
   slug: gumloop-brain-api
-- description: The Chat completions API from Gumloop — 1 operation(s) for chat completions.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Chat completions API from Gumloop — 1 operation(s) for chat completions.
   name: Gumloop Chat completions API
   slug: gumloop-chat-completions-api
-- description: The Data Access API from Gumloop — 5 operation(s) for data access.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Data Access API from Gumloop — 5 operation(s) for data access.
   name: Gumloop Data Access API
   slug: gumloop-data-access-api
-- description: The Evaluations API from Gumloop — 4 operation(s) for evaluations.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Evaluations API from Gumloop — 4 operation(s) for evaluations.
   name: Gumloop Evaluations API
   slug: gumloop-evaluations-api
-- description: The Execution API from Gumloop — 2 operation(s) for execution.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Execution API from Gumloop — 2 operation(s) for execution.
   name: Gumloop Execution API
   slug: gumloop-execution-api
-- description: The File Handling API from Gumloop — 4 operation(s) for file handling.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The File Handling API from Gumloop — 4 operation(s) for file handling.
   name: Gumloop File Handling API
   slug: gumloop-file-handling-api
-- description: The MCP API from Gumloop — 4 operation(s) for mcp.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The MCP API from Gumloop — 4 operation(s) for mcp.
   name: Gumloop MCP API
   slug: gumloop-mcp-api
-- description: The Models API from Gumloop — 1 operation(s) for models.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Models API from Gumloop — 1 operation(s) for models.
   name: Gumloop Models API
   slug: gumloop-models-api
-- description: The Organization API from Gumloop — 5 operation(s) for organization.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Organization API from Gumloop — 5 operation(s) for organization.
   name: Gumloop Organization API
   slug: gumloop-organization-api
-- description: The Sessions API from Gumloop — 4 operation(s) for sessions.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Sessions API from Gumloop — 4 operation(s) for sessions.
   name: Gumloop Sessions API
   slug: gumloop-sessions-api
-- description: The Skills API from Gumloop — 3 operation(s) for skills.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Skills API from Gumloop — 3 operation(s) for skills.
   name: Gumloop Skills API
   slug: gumloop-skills-api
-- description: The Teams API from Gumloop — 1 operation(s) for teams.
+- baseURL: https://api.gumloop.com/api/v1
+  baseurl_source: declared
+  description: The Teams API from Gumloop — 1 operation(s) for teams.
   name: Gumloop Teams API
   slug: gumloop-teams-api
 artifact_total: 36
@@ -299,7 +327,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -309,7 +337,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +349,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumloop/refs/heads/main/screenshots/gumloop-2026-07-25T220434.png
 security:

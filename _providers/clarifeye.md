@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 75 operations · 46 acting
 api_count: 2
 apis:
-- description: Manage AI agent configurations
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Manage AI agent configurations
   name: Clarifeye Agent Settings API
   slug: clarifeye-agent-settings-api
-- description: Create and interact with AI-powered conversations
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Create and interact with AI-powered conversations
   name: Clarifeye Conversations API
   slug: clarifeye-conversations-api
-- description: Manage documents within a project
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Manage documents within a project
   name: Clarifeye Documents API
   slug: clarifeye-documents-api
-- description: Manage extraction flows (auto-sync DAGs) — list, run, inspect statistics, update, and publish
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Manage extraction flows (auto-sync DAGs) — list, run, inspect statistics, update, and publish
   name: Clarifeye Extraction Flows API
   slug: clarifeye-extraction-flows-api
-- description: Submit feedback on conversation messages
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Submit feedback on conversation messages
   name: Clarifeye Feedback API
   slug: clarifeye-feedback-api
-- description: Assign and review structured interview conversations
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Assign and review structured interview conversations
   name: Clarifeye Interviews API
   slug: clarifeye-interviews-api
-- description: Manage project invitations
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Manage project invitations
   name: Clarifeye Invitations API
   slug: clarifeye-invitations-api
-- description: Manage project-scoped notifications for users
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Manage project-scoped notifications for users
   name: Clarifeye Notifications API
   slug: clarifeye-notifications-api
-- description: Inspect pipeline runs queued by extraction flows or other pipeline triggers — list runs and fetch the details/status of a single run
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Inspect pipeline runs queued by extraction flows or other pipeline triggers — list runs and fetch the details/status of a single run
   name: Clarifeye Pipeline Runs API
   slug: clarifeye-pipeline-runs-api
-- description: Submit signals about the project's content for domain experts to review
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Submit signals about the project's content for domain experts to review
   name: Clarifeye Signals API
   slug: clarifeye-signals-api
-- description: Perform CRUD operations on warehouse tables
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Perform CRUD operations on warehouse tables
   name: Clarifeye Tables API
   slug: clarifeye-tables-api
-- description: Execute configured AI tools with custom parameters
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Execute configured AI tools with custom parameters
   name: Clarifeye Tools API
   slug: clarifeye-tools-api
-- description: Manage users within a project
+- baseURL: https://eu.app.clarifeye.ai/api/v1
+  baseurl_source: declared
+  description: Manage users within a project
   name: Clarifeye Users API
   slug: clarifeye-users-api
 artifact_total: 32
@@ -296,7 +322,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifeye/refs/heads/main/screenshots/clarifeye-2026-07-25T205502.png
 security:

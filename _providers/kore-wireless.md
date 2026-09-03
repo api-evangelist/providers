@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -33,109 +46,179 @@ agentic_access:
   summary_line: 117 operations · 46 acting · 1 human-in-the-loop
 api_count: 8
 apis:
-- description: Account details of customer
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: Account details of customer
   name: KORE Wireless Account API
   slug: kore-wireless-account-api
-- description: The Accounts API from KORE Wireless — 2 operation(s) for accounts.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The Accounts API from KORE Wireless — 2 operation(s) for accounts.
   name: KORE Wireless Accounts API
   slug: kore-wireless-accounts-api
-- description: API to manage activation profile related activities for a given account . <br> For more details please go to our help desk article [here](https://helpdesk.korewireless.com/hc/en-us/articles/3600501444
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: API to manage activation profile related activities for a given account . <br> For more details please go to our help desk article [here](https://helpdesk.korewireless.com/hc/en-us/articles/3600501444
   name: KORE Wireless Activation Profiles API
   slug: kore-wireless-activation-profiles-api
-- description: APIs that provides alerts on subscribed events
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: APIs that provides alerts on subscribed events
   name: KORE Wireless Alerting API
   slug: kore-wireless-alerting-api
-- description: The Auth API from KORE Wireless — 1 operation(s) for auth.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The Auth API from KORE Wireless — 1 operation(s) for auth.
   name: KORE Wireless Auth API
   slug: kore-wireless-auth-api
-- description: These APIs enable users to perform various operations, including creating, retrieving, updating, and deleting client information. Through these APIs, users can interact with a wide range of client dat
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: These APIs enable users to perform various operations, including creating, retrieving, updating, and deleting client information. Through these APIs, users can interact with a wide range of client dat
   name: KORE Wireless Clients API
   slug: kore-wireless-clients-api
-- description: The Commands Resource API from KORE Wireless — 2 operation(s) for commands resource.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The Commands Resource API from KORE Wireless — 2 operation(s) for commands resource.
   name: KORE Wireless Commands Resource API
   slug: kore-wireless-commands-resource-api
-- description: The DataSessions Resource API from KORE Wireless — 1 operation(s) for datasessions resource.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The DataSessions Resource API from KORE Wireless — 1 operation(s) for datasessions resource.
   name: KORE Wireless DataSessions Resource API
   slug: kore-wireless-datasessions-resource-api
-- description: The Diagnostics API from KORE Wireless — 2 operation(s) for diagnostics.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The Diagnostics API from KORE Wireless — 2 operation(s) for diagnostics.
   name: KORE Wireless Diagnostics API
   slug: kore-wireless-diagnostics-api
-- description: Retrieve details about the eligibility of a given account
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: Retrieve details about the eligibility of a given account
   name: KORE Wireless Eligibility API
   slug: kore-wireless-eligibility-api
-- description: API to manage eSIM Switch related activities for a given account <br> Refer to the <a href="https://korewireless.service-now.com/csm?sys_kb_id=ec87a82f976ee110d038301e6253afa3&id=kb_article_view&syspa
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: API to manage eSIM Switch related activities for a given account <br> Refer to the <a href="https://korewireless.service-now.com/csm?sys_kb_id=ec87a82f976ee110d038301e6253afa3&id=kb_article_view&syspa
   name: KORE Wireless eSIM Profile Management API
   slug: kore-wireless-esim-profile-management-api
-- description: ping health service
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: ping health service
   name: KORE Wireless Health API
   slug: kore-wireless-health-api
-- description: API to send message to the SIMs about any software upgrade/similar things.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: API to send message to the SIMs about any software upgrade/similar things.
   name: KORE Wireless Messages API
   slug: kore-wireless-messages-api
-- description: Status of requests made by the customer
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: Status of requests made by the customer
   name: KORE Wireless Provisioning API
   slug: kore-wireless-provisioning-api
-- description: The RatePlans Resource API from KORE Wireless — 2 operation(s) for rateplans resource.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The RatePlans Resource API from KORE Wireless — 2 operation(s) for rateplans resource.
   name: KORE Wireless RatePlans Resource API
   slug: kore-wireless-rateplans-resource-api
-- description: Customers of KORE who pre-configure report schedules have reports automatically generated and securely stored at the scheduled times — when accessed via API, they receive data in the agreed format, wi
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: Customers of KORE who pre-configure report schedules have reports automatically generated and securely stored at the scheduled times — when accessed via API, they receive data in the agreed format, wi
   name: KORE Wireless Reports API
   slug: kore-wireless-reports-api
-- description: The Secrets API from KORE Wireless — 2 operation(s) for secrets.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The Secrets API from KORE Wireless — 2 operation(s) for secrets.
   name: KORE Wireless Secrets API
   slug: kore-wireless-secrets-api
-- description: 'Customers of KORE having Radius Accounting integrated at carrier level will have session events collected at KORE. Session START and STOP events are correlated, and data is exposed as Session API for '
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: 'Customers of KORE having Radius Accounting integrated at carrier level will have session events collected at KORE. Session START and STOP events are correlated, and data is exposed as Session API for '
   name: KORE Wireless Session API
   slug: kore-wireless-session-api
-- description: The Sims Resource API from KORE Wireless — 2 operation(s) for sims resource.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The Sims Resource API from KORE Wireless — 2 operation(s) for sims resource.
   name: KORE Wireless Sims Resource API
   slug: kore-wireless-sims-resource-api
-- description: API provides subscription enquiries made by the customer.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: API provides subscription enquiries made by the customer.
   name: KORE Wireless Subscription API
   slug: kore-wireless-subscription-api
-- description: The SupersimV1BillingPeriod API from KORE Wireless — 1 operation(s) for supersimv1billingperiod.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1BillingPeriod API from KORE Wireless — 1 operation(s) for supersimv1billingperiod.
   name: KORE Wireless Supersim V1 Billing Period API
   slug: kore-wireless-supersimv1billingperiod-api
-- description: The SupersimV1EsimProfile API from KORE Wireless — 2 operation(s) for supersimv1esimprofile.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1EsimProfile API from KORE Wireless — 2 operation(s) for supersimv1esimprofile.
   name: KORE Wireless Supersim V1 Esim Profile API
   slug: kore-wireless-supersimv1esimprofile-api
-- description: The SupersimV1Fleet API from KORE Wireless — 2 operation(s) for supersimv1fleet.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1Fleet API from KORE Wireless — 2 operation(s) for supersimv1fleet.
   name: KORE Wireless Supersim V1 Fleet API
   slug: kore-wireless-supersimv1fleet-api
-- description: The SupersimV1IpCommand API from KORE Wireless — 2 operation(s) for supersimv1ipcommand.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1IpCommand API from KORE Wireless — 2 operation(s) for supersimv1ipcommand.
   name: KORE Wireless Supersim V1 Ip Command API
   slug: kore-wireless-supersimv1ipcommand-api
-- description: The SupersimV1Network API from KORE Wireless — 2 operation(s) for supersimv1network.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1Network API from KORE Wireless — 2 operation(s) for supersimv1network.
   name: KORE Wireless Supersim V1 Network API
   slug: kore-wireless-supersimv1network-api
-- description: The SupersimV1NetworkAccessProfile API from KORE Wireless — 2 operation(s) for supersimv1networkaccessprofile.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1NetworkAccessProfile API from KORE Wireless — 2 operation(s) for supersimv1networkaccessprofile.
   name: KORE Wireless Supersim V1 Network Access Profile API
   slug: kore-wireless-supersimv1networkaccessprofile-api
-- description: The SupersimV1NetworkAccessProfileNetwork API from KORE Wireless — 2 operation(s) for supersimv1networkaccessprofilenetwork.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1NetworkAccessProfileNetwork API from KORE Wireless — 2 operation(s) for supersimv1networkaccessprofilenetwork.
   name: KORE Wireless Supersim V1 Network Access Profile Network API
   slug: kore-wireless-supersimv1networkaccessprofilenetwork-api
-- description: The SupersimV1SettingsUpdate API from KORE Wireless — 1 operation(s) for supersimv1settingsupdate.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1SettingsUpdate API from KORE Wireless — 1 operation(s) for supersimv1settingsupdate.
   name: KORE Wireless Supersim V1 Settings Update API
   slug: kore-wireless-supersimv1settingsupdate-api
-- description: The SupersimV1Sim API from KORE Wireless — 2 operation(s) for supersimv1sim.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1Sim API from KORE Wireless — 2 operation(s) for supersimv1sim.
   name: KORE Wireless Supersim V1 Sim API
   slug: kore-wireless-supersimv1sim-api
-- description: The SupersimV1SimIpAddress API from KORE Wireless — 1 operation(s) for supersimv1simipaddress.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1SimIpAddress API from KORE Wireless — 1 operation(s) for supersimv1simipaddress.
   name: KORE Wireless Supersim V1 Sim Ip Address API
   slug: kore-wireless-supersimv1simipaddress-api
-- description: The SupersimV1SmsCommand API from KORE Wireless — 2 operation(s) for supersimv1smscommand.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1SmsCommand API from KORE Wireless — 2 operation(s) for supersimv1smscommand.
   name: KORE Wireless Supersim V1 Sms Command API
   slug: kore-wireless-supersimv1smscommand-api
-- description: The SupersimV1UsageRecord API from KORE Wireless — 1 operation(s) for supersimv1usagerecord.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The SupersimV1UsageRecord API from KORE Wireless — 1 operation(s) for supersimv1usagerecord.
   name: KORE Wireless Supersim V1 Usage Record API
   slug: kore-wireless-supersimv1usagerecord-api
-- description: APIs that are currently under testing
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: APIs that are currently under testing
   name: KORE Wireless Testing API
   slug: kore-wireless-testing-api
-- description: A user can retrieve usage records for a given subscription or plan
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: A user can retrieve usage records for a given subscription or plan
   name: KORE Wireless Usage API
   slug: kore-wireless-usage-api
-- description: The UsageRecords Resource API from KORE Wireless — 2 operation(s) for usagerecords resource.
+- baseURL: https://api.korewireless.com/connectivity
+  baseurl_source: declared
+  description: The UsageRecords Resource API from KORE Wireless — 2 operation(s) for usagerecords resource.
   name: KORE Wireless UsageRecords Resource API
   slug: kore-wireless-usagerecords-resource-api
 artifact_total: 50
@@ -411,7 +494,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -421,7 +504,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 49.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -439,7 +522,7 @@ score:
     regime_id: telecommunications
     score: 63.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/screenshots/kore-wireless-2026-08-07T171327.png
 security:

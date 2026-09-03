@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations
 api_count: 4
 apis:
-- description: Treasury reporting rates of exchange for foreign currencies.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Treasury reporting rates of exchange for foreign currencies.
   name: U.S. Treasury Fiscal Data Exchange Rates API
   slug: u-s-treasury-fiscal-data-exchange-rates-api
-- description: Federal debt, public debt outstanding, and interest rate data.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Federal debt, public debt outstanding, and interest rate data.
   name: U.S. Treasury Fiscal Data National Debt API
   slug: u-s-treasury-fiscal-data-national-debt-api
-- description: Treasury securities, savings bonds, and investment data.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Treasury securities, savings bonds, and investment data.
   name: U.S. Treasury Fiscal Data Securities API
   slug: u-s-treasury-fiscal-data-securities-api
-- description: Daily and monthly Treasury financial statements.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Daily and monthly Treasury financial statements.
   name: U.S. Treasury Fiscal Data Treasury Statements API
   slug: u-s-treasury-fiscal-data-treasury-statements-api
 artifact_total: 74
@@ -344,7 +352,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-treasury-fiscal-data/refs/heads/main/screenshots/u-s-treasury-fiscal-data-2026-06-20T195919.png
 security:

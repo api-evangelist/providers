@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 12 operations · 2 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: VS Code / IDE marketplace extensions with risk assessment
+- baseURL: https://agentmesh.knostic.ai/api
+  baseurl_source: declared
+  description: VS Code / IDE marketplace extensions with risk assessment
   name: Knostic extensions API
   slug: knostic-extensions-api
-- description: Model Context Protocol servers discovered and scanned by AgentMesh
+- baseURL: https://agentmesh.knostic.ai/api
+  baseurl_source: declared
+  description: Model Context Protocol servers discovered and scanned by AgentMesh
   name: Knostic mcp API
   slug: knostic-mcp-api
-- description: On-demand security scans and scan history (API key required)
+- baseURL: https://agentmesh.knostic.ai/api
+  baseurl_source: declared
+  description: On-demand security scans and scan history (API key required)
   name: Knostic scans API
   slug: knostic-scans-api
-- description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
+- baseURL: https://agentmesh.knostic.ai/api
+  baseurl_source: declared
+  description: AI agent skills (SKILL.md) discovered and scanned by AgentMesh
   name: Knostic skills API
   slug: knostic-skills-api
 artifact_total: 18
@@ -258,7 +266,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knostic/refs/heads/main/screenshots/knostic-2026-07-25T224003.png
 security:

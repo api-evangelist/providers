@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 1
 apis:
-- description: The Booking API from HeadOut — 2 operation(s) for booking.
+- baseURL: https://www.headout.com/api/public/v2
+  baseurl_source: declared
+  description: The Booking API from HeadOut — 2 operation(s) for booking.
   name: HeadOut Booking API
   slug: headout-booking-api
-- description: The Categories API from HeadOut — 1 operation(s) for categories.
+- baseURL: https://www.headout.com/api/public/v2
+  baseurl_source: declared
+  description: The Categories API from HeadOut — 1 operation(s) for categories.
   name: HeadOut Categories API
   slug: headout-categories-api
-- description: The Collections API from HeadOut — 1 operation(s) for collections.
+- baseURL: https://www.headout.com/api/public/v2
+  baseurl_source: declared
+  description: The Collections API from HeadOut — 1 operation(s) for collections.
   name: HeadOut Collections API
   slug: headout-collections-api
-- description: The Inventory API from HeadOut — 1 operation(s) for inventory.
+- baseURL: https://www.headout.com/api/public/v2
+  baseurl_source: declared
+  description: The Inventory API from HeadOut — 1 operation(s) for inventory.
   name: HeadOut Inventory API
   slug: headout-inventory-api
-- description: The Products API from HeadOut — 1 operation(s) for products.
+- baseURL: https://www.headout.com/api/public/v2
+  baseurl_source: declared
+  description: The Products API from HeadOut — 1 operation(s) for products.
   name: HeadOut Products API
   slug: headout-products-api
-- description: The Subcategories API from HeadOut — 1 operation(s) for subcategories.
+- baseURL: https://www.headout.com/api/public/v2
+  baseurl_source: declared
+  description: The Subcategories API from HeadOut — 1 operation(s) for subcategories.
   name: HeadOut Subcategories API
   slug: headout-subcategories-api
 artifact_total: 17
@@ -240,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/screenshots/headout-2026-07-25T220821.png
 security:

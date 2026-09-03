@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 25 operations · 7 acting
 api_count: 3
 apis:
-- description: The v1 API from Shapeshift — 14 operation(s) for v1.
+- baseURL: https://api.ethereum.shapeshift.com/api/v1
+  baseurl_source: declared
+  description: The v1 API from Shapeshift — 14 operation(s) for v1.
   name: Shapeshift v1 API
   slug: shapeshift-v1-api
 artifact_total: 8
@@ -211,7 +213,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -224,7 +226,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 42.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +244,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shapeshift/refs/heads/main/screenshots/shapeshift-2026-08-17T081822.png
 security:

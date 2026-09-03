@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 58 operations · 29 acting
 api_count: 5
 apis:
-- description: The Apartment API from Holidu — 5 operation(s) for apartment.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Apartment API from Holidu — 5 operation(s) for apartment.
   name: Holidu Apartment API
   slug: holidu-apartment-api
-- description: The Availabilities API from Holidu — 1 operation(s) for availabilities.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Availabilities API from Holidu — 1 operation(s) for availabilities.
   name: Holidu Availabilities API
   slug: holidu-availabilities-api
-- description: The Availability API from Holidu — 1 operation(s) for availability.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Availability API from Holidu — 1 operation(s) for availability.
   name: Holidu Availability API
   slug: holidu-availability-api
-- description: The Booking Terms API from Holidu — 5 operation(s) for booking terms.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Booking Terms API from Holidu — 5 operation(s) for booking terms.
   name: Holidu Booking Terms API
   slug: holidu-booking-terms-api
-- description: The Bookings API from Holidu — 3 operation(s) for bookings.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Bookings API from Holidu — 3 operation(s) for bookings.
   name: Holidu Bookings API
   slug: holidu-bookings-api
-- description: The Changed API from Holidu — 1 operation(s) for changed.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Changed API from Holidu — 1 operation(s) for changed.
   name: Holidu Changed API
   slug: holidu-changed-api
-- description: The Descriptions API from Holidu — 1 operation(s) for descriptions.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Descriptions API from Holidu — 1 operation(s) for descriptions.
   name: Holidu Descriptions API
   slug: holidu-descriptions-api
-- description: The Details API from Holidu — 1 operation(s) for details.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Details API from Holidu — 1 operation(s) for details.
   name: Holidu Details API
   slug: holidu-details-api
-- description: The Discounts API from Holidu — 2 operation(s) for discounts.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Discounts API from Holidu — 2 operation(s) for discounts.
   name: Holidu Discounts API
   slug: holidu-discounts-api
-- description: The Extra Costs API from Holidu — 1 operation(s) for extra costs.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Extra Costs API from Holidu — 1 operation(s) for extra costs.
   name: Holidu Extra Costs API
   slug: holidu-extra-costs-api
-- description: The Facilities API from Holidu — 3 operation(s) for facilities.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Facilities API from Holidu — 3 operation(s) for facilities.
   name: Holidu Facilities API
   slug: holidu-facilities-api
-- description: The LOS API from Holidu — 2 operation(s) for los.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The LOS API from Holidu — 2 operation(s) for los.
   name: Holidu LOS API
   slug: holidu-los-api
-- description: Length of Stay pricing push operations.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: Length of Stay pricing push operations.
   name: Holidu LOS Push API API
   slug: holidu-los-push-api-api
-- description: The MultiUnit API from Holidu — 1 operation(s) for multiunit.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The MultiUnit API from Holidu — 1 operation(s) for multiunit.
   name: Holidu MultiUnit API
   slug: holidu-multiunit-api
-- description: The MultiUnit Facility API from Holidu — 1 operation(s) for multiunit facility.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The MultiUnit Facility API from Holidu — 1 operation(s) for multiunit facility.
   name: Holidu MultiUnit Facility API
   slug: holidu-multiunit-facility-api
-- description: The MultiUnit Localization API from Holidu — 1 operation(s) for multiunit localization.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The MultiUnit Localization API from Holidu — 1 operation(s) for multiunit localization.
   name: Holidu MultiUnit Localization API
   slug: holidu-multiunit-localization-api
-- description: The MultiUnit Photo API from Holidu — 1 operation(s) for multiunit photo.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The MultiUnit Photo API from Holidu — 1 operation(s) for multiunit photo.
   name: Holidu MultiUnit Photo API
   slug: holidu-multiunit-photo-api
-- description: The Photos API from Holidu — 1 operation(s) for photos.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Photos API from Holidu — 1 operation(s) for photos.
   name: Holidu Photos API
   slug: holidu-photos-api
-- description: The Rates API from Holidu — 1 operation(s) for rates.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Rates API from Holidu — 1 operation(s) for rates.
   name: Holidu Rates API
   slug: holidu-rates-api
-- description: The Reviews API from Holidu — 1 operation(s) for reviews.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Reviews API from Holidu — 1 operation(s) for reviews.
   name: Holidu Reviews API
   slug: holidu-reviews-api
-- description: The Search API from Holidu — 1 operation(s) for search.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Search API from Holidu — 1 operation(s) for search.
   name: Holidu Search API
   slug: holidu-search-api
-- description: The Test API from Holidu — 1 operation(s) for test.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Test API from Holidu — 1 operation(s) for test.
   name: Holidu Test API
   slug: holidu-test-api
-- description: The Testa API from Holidu — 1 operation(s) for testa.
+- baseURL: https://external-api.holidu.com
+  baseurl_source: declared
+  description: The Testa API from Holidu — 1 operation(s) for testa.
   name: Holidu Testa API
   slug: holidu-testa-api
 artifact_total: 53
@@ -361,7 +407,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -371,7 +417,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 48.7
-  previous_composite: 38.5
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,7 +429,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -46,13 +46,19 @@ apis:
 - description: MQTT 3.x and MQTT 5 messaging endpoints exposed over WebSocket for browser and edge clients to publish and subscribe to topics. Used by web dashboards and JavaScript IoT clients to interact with the H
   name: HiveMQ MQTT over WebSocket
   slug: mqtt-websocket
-- description: The Data Hub API from HiveMQ — 4 operation(s) for data hub.
+- baseURL: http://127.0.0.1:8888
+  baseurl_source: declared
+  description: The Data Hub API from HiveMQ — 4 operation(s) for data hub.
   name: HiveMQ Data Hub API
   slug: hivemq-data-hub-api
-- description: The Management API from HiveMQ — 9 operation(s) for management.
+- baseURL: http://127.0.0.1:8888
+  baseurl_source: declared
+  description: The Management API from HiveMQ — 9 operation(s) for management.
   name: HiveMQ Management API
   slug: hivemq-management-api
-- description: The Mqtt API from HiveMQ — 5 operation(s) for mqtt.
+- baseURL: http://127.0.0.1:8888
+  baseurl_source: declared
+  description: The Mqtt API from HiveMQ — 5 operation(s) for mqtt.
   name: HiveMQ Mqtt API
   slug: hivemq-mqtt-api
 artifact_total: 16
@@ -241,7 +247,7 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -251,7 +257,7 @@ score:
     discoverability: 66.7
     governance: 29.5
     operational_transparency: 28.9
-  previous_composite: 48.4
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:

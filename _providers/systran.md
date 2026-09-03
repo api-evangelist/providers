@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 55 operations · 30 acting
 api_count: 1
 apis:
-- description: The Corpus API from SYSTRAN — 11 operation(s) for corpus.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The Corpus API from SYSTRAN — 11 operation(s) for corpus.
   name: SYSTRAN Corpus API
   slug: systran-corpus-api
-- description: The Dictionary API from SYSTRAN — 14 operation(s) for dictionary.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The Dictionary API from SYSTRAN — 14 operation(s) for dictionary.
   name: SYSTRAN Dictionary API
   slug: systran-dictionary-api
-- description: The File Translation API from SYSTRAN — 8 operation(s) for file translation.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The File Translation API from SYSTRAN — 8 operation(s) for file translation.
   name: SYSTRAN File Translation API
   slug: systran-file-translation-api
-- description: The Language Detection API from SYSTRAN — 2 operation(s) for language detection.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The Language Detection API from SYSTRAN — 2 operation(s) for language detection.
   name: SYSTRAN Language Detection API
   slug: systran-language-detection-api
-- description: The NLP API from SYSTRAN — 4 operation(s) for nlp.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The NLP API from SYSTRAN — 4 operation(s) for nlp.
   name: SYSTRAN NLP API
   slug: systran-nlp-api
-- description: The Profiles API from SYSTRAN — 7 operation(s) for profiles.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The Profiles API from SYSTRAN — 7 operation(s) for profiles.
   name: SYSTRAN Profiles API
   slug: systran-profiles-api
-- description: The Supported Languages API from SYSTRAN — 4 operation(s) for supported languages.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The Supported Languages API from SYSTRAN — 4 operation(s) for supported languages.
   name: SYSTRAN Supported Languages API
   slug: systran-supported-languages-api
-- description: The Translation API from SYSTRAN — 4 operation(s) for translation.
+- baseURL: https://api-translate.systran.net
+  baseurl_source: declared
+  description: The Translation API from SYSTRAN — 4 operation(s) for translation.
   name: SYSTRAN Translation API
   slug: systran-translation-api
 artifact_total: 24
@@ -170,7 +186,7 @@ score:
   band: thin
   composite: 28.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +209,9 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/systran/refs/heads/main/screenshots/systran-2026-09-02T161649.png
 security:
 - kind: authentication
   name: Systran Authentication

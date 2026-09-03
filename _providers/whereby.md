@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Outbound webhook notifications for room and session lifecycle events including client join/leave, knock, session start/end, recording finished, transcription started/finished/failed, and assistant req
   name: Whereby Webhooks
   slug: whereby-webhooks
-- description: The Insights API from Whereby — 4 operation(s) for insights.
+- baseURL: https://api.whereby.dev/v1
+  baseurl_source: spec
+  description: The Insights API from Whereby — 4 operation(s) for insights.
   name: Whereby Insights API
   slug: whereby-insights-api
-- description: The Meetings API from Whereby — 2 operation(s) for meetings.
+- baseURL: https://api.whereby.dev/v1
+  baseurl_source: spec
+  description: The Meetings API from Whereby — 2 operation(s) for meetings.
   name: Whereby Meetings API
   slug: whereby-meetings-api
-- description: The Recordings API from Whereby — 4 operation(s) for recordings.
+- baseURL: https://api.whereby.dev/v1
+  baseurl_source: spec
+  description: The Recordings API from Whereby — 4 operation(s) for recordings.
   name: Whereby Recordings API
   slug: whereby-recordings-api
-- description: The Rooms API from Whereby — 4 operation(s) for rooms.
+- baseURL: https://api.whereby.dev/v1
+  baseurl_source: spec
+  description: The Rooms API from Whereby — 4 operation(s) for rooms.
   name: Whereby Rooms API
   slug: whereby-rooms-api
-- description: The Summaries API from Whereby — 2 operation(s) for summaries.
+- baseURL: https://api.whereby.dev/v1
+  baseurl_source: spec
+  description: The Summaries API from Whereby — 2 operation(s) for summaries.
   name: Whereby Summaries API
   slug: whereby-summaries-api
-- description: The Transcriptions API from Whereby — 4 operation(s) for transcriptions.
+- baseURL: https://api.whereby.dev/v1
+  baseurl_source: spec
+  description: The Transcriptions API from Whereby — 4 operation(s) for transcriptions.
   name: Whereby Transcriptions API
   slug: whereby-transcriptions-api
 artifact_total: 37
@@ -260,7 +272,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -270,7 +282,7 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 53.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     contracts:
@@ -279,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whereby/refs/heads/main/screenshots/whereby-2026-06-20T201431.png
 security:

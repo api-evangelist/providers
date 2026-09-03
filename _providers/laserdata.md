@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: User account, sign-in, sessions, settings
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: User account, sign-in, sessions, settings
   name: LaserData Account API
   slug: laserdata-account-api
-- description: Tenant API key management
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant API key management
   name: LaserData API Keys API
   slug: laserdata-api-keys-api
-- description: Tenant audit log + user activity
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant audit log + user activity
   name: LaserData Audit API
   slug: laserdata-audit-api
-- description: Pricing, billing reports, invoices
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Pricing, billing reports, invoices
   name: LaserData Billing API
   slug: laserdata-billing-api
-- description: BYOC cloud accounts
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: BYOC cloud accounts
   name: LaserData Cloud Accounts API
   slug: laserdata-cloud-accounts-api
-- description: Available clouds, regions, clusters, storages, tiers
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Available clouds, regions, clusters, storages, tiers
   name: LaserData Clouds API
   slug: laserdata-clouds-api
-- description: Deployment connectors
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Deployment connectors
   name: LaserData Connectors API
   slug: laserdata-connectors-api
-- description: Deployment lifecycle
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Deployment lifecycle
   name: LaserData Deployments API
   slug: laserdata-deployments-api
-- description: Tenant divisions
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant divisions
   name: LaserData Divisions API
   slug: laserdata-divisions-api
-- description: Environments within a division
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Environments within a division
   name: LaserData Environments API
   slug: laserdata-environments-api
-- description: Tenant invitations
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant invitations
   name: LaserData Invitations API
   slug: laserdata-invitations-api
-- description: Tenant members
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant members
   name: LaserData Members API
   slug: laserdata-members-api
-- description: Notification channels (email, slack, webhook)
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Notification channels (email, slack, webhook)
   name: LaserData Notification Channels API
   slug: laserdata-notification-channels-api
-- description: Channel subscriptions to notification types
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Channel subscriptions to notification types
   name: LaserData Notification Subscriptions API
   slug: laserdata-notification-subscriptions-api
-- description: Notifications listing
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Notifications listing
   name: LaserData Notifications API
   slug: laserdata-notifications-api
-- description: Payment methods (Stripe)
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Payment methods (Stripe)
   name: LaserData Payments API
   slug: laserdata-payments-api
-- description: Tenant roles and permissions
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant roles and permissions
   name: LaserData Roles API
   slug: laserdata-roles-api
-- description: Tenant CRUD, config, structure
+- baseURL: https://api.laserdata.cloud
+  baseurl_source: declared
+  description: Tenant CRUD, config, structure
   name: LaserData Tenants API
   slug: laserdata-tenants-api
 artifact_total: 42
@@ -314,7 +350,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -324,7 +360,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 54.7
+  previous_composite: 54.5
   provenance:
     conformance: derived
     contracts:
@@ -335,7 +371,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

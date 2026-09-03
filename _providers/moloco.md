@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -33,127 +47,209 @@ agentic_access:
   summary_line: 203 operations · 131 acting · 2 human-in-the-loop
 api_count: 11
 apis:
-- description: The AdAccount API from MOLOCO — 7 operation(s) for adaccount.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The AdAccount API from MOLOCO — 7 operation(s) for adaccount.
   name: MOLOCO Ad Account API
   slug: moloco-adaccount-api
-- description: The AdGroup API from MOLOCO — 2 operation(s) for adgroup.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The AdGroup API from MOLOCO — 2 operation(s) for adgroup.
   name: MOLOCO Ad Group API
   slug: moloco-adgroup-api
-- description: The AdManagerAccount API from MOLOCO — 2 operation(s) for admanageraccount.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The AdManagerAccount API from MOLOCO — 2 operation(s) for admanageraccount.
   name: MOLOCO Ad Manager Account API
   slug: moloco-admanageraccount-api
-- description: The Analytics API from MOLOCO — 3 operation(s) for analytics.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Analytics API from MOLOCO — 3 operation(s) for analytics.
   name: MOLOCO Analytics API
   slug: moloco-analytics-api
-- description: The Asset API from MOLOCO — 6 operation(s) for asset.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Asset API from MOLOCO — 6 operation(s) for asset.
   name: MOLOCO Asset API
   slug: moloco-asset-api
-- description: The AudienceTarget API from MOLOCO — 2 operation(s) for audiencetarget.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The AudienceTarget API from MOLOCO — 2 operation(s) for audiencetarget.
   name: MOLOCO Audience Target API
   slug: moloco-audiencetarget-api
-- description: The Campaign API from MOLOCO — 9 operation(s) for campaign.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Campaign API from MOLOCO — 9 operation(s) for campaign.
   name: MOLOCO Campaign API
   slug: moloco-campaign-api
-- description: The CampaignSummary API from MOLOCO — 2 operation(s) for campaignsummary.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The CampaignSummary API from MOLOCO — 2 operation(s) for campaignsummary.
   name: MOLOCO Campaign Summary API
   slug: moloco-campaignsummary-api
-- description: The ChangeHistory API from MOLOCO — 5 operation(s) for changehistory.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The ChangeHistory API from MOLOCO — 5 operation(s) for changehistory.
   name: MOLOCO Change History API
   slug: moloco-changehistory-api
-- description: The CohortSummary API from MOLOCO — 1 operation(s) for cohortsummary.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The CohortSummary API from MOLOCO — 1 operation(s) for cohortsummary.
   name: MOLOCO Cohort Summary API
   slug: moloco-cohortsummary-api
-- description: The Creative API from MOLOCO — 5 operation(s) for creative.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Creative API from MOLOCO — 5 operation(s) for creative.
   name: MOLOCO Creative API
   slug: moloco-creative-api
-- description: The CreativeGroup API from MOLOCO — 3 operation(s) for creativegroup.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The CreativeGroup API from MOLOCO — 3 operation(s) for creativegroup.
   name: MOLOCO Creative Group API
   slug: moloco-creativegroup-api
-- description: The CustomerSet API from MOLOCO — 2 operation(s) for customerset.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The CustomerSet API from MOLOCO — 2 operation(s) for customerset.
   name: MOLOCO Customer Set API
   slug: moloco-customerset-api
-- description: The CustomTargeting API from MOLOCO — 6 operation(s) for customtargeting.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The CustomTargeting API from MOLOCO — 6 operation(s) for customtargeting.
   name: MOLOCO Custom Targeting API
   slug: moloco-customtargeting-api
-- description: The DataExport API from MOLOCO — 1 operation(s) for dataexport.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The DataExport API from MOLOCO — 1 operation(s) for dataexport.
   name: MOLOCO Data Export API
   slug: moloco-dataexport-api
-- description: The Decision API from MOLOCO — 4 operation(s) for decision.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Decision API from MOLOCO — 4 operation(s) for decision.
   name: MOLOCO Decision API
   slug: moloco-decision-api
-- description: The Event API from MOLOCO — 1 operation(s) for event.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Event API from MOLOCO — 1 operation(s) for event.
   name: MOLOCO Event API
   slug: moloco-event-api
-- description: The Health API from MOLOCO — 1 operation(s) for health.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Health API from MOLOCO — 1 operation(s) for health.
   name: MOLOCO Health API
   slug: moloco-health-api
-- description: The Intelligence API from MOLOCO — 4 operation(s) for intelligence.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Intelligence API from MOLOCO — 4 operation(s) for intelligence.
   name: MOLOCO Intelligence API
   slug: moloco-intelligence-api
-- description: The Item API from MOLOCO — 1 operation(s) for item.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Item API from MOLOCO — 1 operation(s) for item.
   name: MOLOCO Item API
   slug: moloco-item-api
-- description: The Log API from MOLOCO — 3 operation(s) for log.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Log API from MOLOCO — 3 operation(s) for log.
   name: MOLOCO Log API
   slug: moloco-log-api
-- description: The Password API from MOLOCO — 1 operation(s) for password.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Password API from MOLOCO — 1 operation(s) for password.
   name: MOLOCO Password API
   slug: moloco-password-api
-- description: The Permission API from MOLOCO — 1 operation(s) for permission.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Permission API from MOLOCO — 1 operation(s) for permission.
   name: MOLOCO Permission API
   slug: moloco-permission-api
-- description: The Product API from MOLOCO — 5 operation(s) for product.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Product API from MOLOCO — 5 operation(s) for product.
   name: MOLOCO Product API
   slug: moloco-product-api
-- description: The ReadEntityCount API from MOLOCO — 1 operation(s) for readentitycount.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The ReadEntityCount API from MOLOCO — 1 operation(s) for readentitycount.
   name: MOLOCO Read Entity Count API
   slug: moloco-readentitycount-api
-- description: The Report API from MOLOCO — 9 operation(s) for report.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Report API from MOLOCO — 9 operation(s) for report.
   name: MOLOCO Report API
   slug: moloco-report-api
-- description: The ReportExport API from MOLOCO — 2 operation(s) for reportexport.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The ReportExport API from MOLOCO — 2 operation(s) for reportexport.
   name: MOLOCO Report Export API
   slug: moloco-reportexport-api
-- description: The ReservedDisplay API from MOLOCO — 5 operation(s) for reserveddisplay.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The ReservedDisplay API from MOLOCO — 5 operation(s) for reserveddisplay.
   name: MOLOCO Reserved Display API
   slug: moloco-reserveddisplay-api
-- description: The RmpAdAccount API from MOLOCO — 2 operation(s) for rmpadaccount.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The RmpAdAccount API from MOLOCO — 2 operation(s) for rmpadaccount.
   name: MOLOCO Rmp Ad Account API
   slug: moloco-rmpadaccount-api
-- description: The Role API from MOLOCO — 2 operation(s) for role.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Role API from MOLOCO — 2 operation(s) for role.
   name: MOLOCO Role API
   slug: moloco-role-api
-- description: The RoleGrant API from MOLOCO — 1 operation(s) for rolegrant.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The RoleGrant API from MOLOCO — 1 operation(s) for rolegrant.
   name: MOLOCO Role Grant API
   slug: moloco-rolegrant-api
-- description: The SpendCap API from MOLOCO — 2 operation(s) for spendcap.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The SpendCap API from MOLOCO — 2 operation(s) for spendcap.
   name: MOLOCO Spend Cap API
   slug: moloco-spendcap-api
-- description: The SpendingLimit API from MOLOCO — 8 operation(s) for spendinglimit.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The SpendingLimit API from MOLOCO — 8 operation(s) for spendinglimit.
   name: MOLOCO Spending Limit API
   slug: moloco-spendinglimit-api
-- description: The Token API from MOLOCO — 2 operation(s) for token.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Token API from MOLOCO — 2 operation(s) for token.
   name: MOLOCO Token API
   slug: moloco-token-api
-- description: The TrackingLink API from MOLOCO — 3 operation(s) for trackinglink.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The TrackingLink API from MOLOCO — 3 operation(s) for trackinglink.
   name: MOLOCO Tracking Link API
   slug: moloco-trackinglink-api
-- description: The User API from MOLOCO — 18 operation(s) for user.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The User API from MOLOCO — 18 operation(s) for user.
   name: MOLOCO User API
   slug: moloco-user-api
-- description: The UserDataDeletionRequest API from MOLOCO — 1 operation(s) for userdatadeletionrequest.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The UserDataDeletionRequest API from MOLOCO — 1 operation(s) for userdatadeletionrequest.
   name: MOLOCO User Data Deletion Request API
   slug: moloco-userdatadeletionrequest-api
-- description: The Userspace API from MOLOCO — 1 operation(s) for userspace.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Userspace API from MOLOCO — 1 operation(s) for userspace.
   name: MOLOCO Userspace API
   slug: moloco-userspace-api
-- description: The Wallet API from MOLOCO — 5 operation(s) for wallet.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Wallet API from MOLOCO — 5 operation(s) for wallet.
   name: MOLOCO Wallet API
   slug: moloco-wallet-api
-- description: The Workplace API from MOLOCO — 6 operation(s) for workplace.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Workplace API from MOLOCO — 6 operation(s) for workplace.
   name: MOLOCO Workplace API
   slug: moloco-workplace-api
-- description: The WorkplaceSummary API from MOLOCO — 1 operation(s) for workplacesummary.
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The WorkplaceSummary API from MOLOCO — 1 operation(s) for workplacesummary.
   name: MOLOCO Workplace Summary API
   slug: moloco-workplacesummary-api
 artifact_total: 56
@@ -420,23 +516,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 54.8
+  composite: 56.7
   coverage:
     artifact_dirs: 27
-    catalog_gap: 76.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 1.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 72.1
     developer_ergonomics: 66.1
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 72.4
-  previous_composite: 54.7
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -448,7 +544,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: The Committees API from Apache Software Foundation — 3 operation(s) for committees.
+- baseURL: https://whimsy.apache.org/public
+  baseurl_source: spec
+  description: The Committees API from Apache Software Foundation — 3 operation(s) for committees.
   name: Apache Software Foundation Committees API
   slug: apache-software-foundation-committees-api
-- description: The Groups API from Apache Software Foundation — 1 operation(s) for groups.
+- baseURL: https://whimsy.apache.org/public
+  baseurl_source: spec
+  description: The Groups API from Apache Software Foundation — 1 operation(s) for groups.
   name: Apache Software Foundation Groups API
   slug: apache-software-foundation-groups-api
-- description: The ICLA API from Apache Software Foundation — 1 operation(s) for icla.
+- baseURL: https://whimsy.apache.org/public
+  baseurl_source: spec
+  description: The ICLA API from Apache Software Foundation — 1 operation(s) for icla.
   name: Apache Software Foundation ICLA API
   slug: apache-software-foundation-icla-api
-- description: The Members API from Apache Software Foundation — 1 operation(s) for members.
+- baseURL: https://whimsy.apache.org/public
+  baseurl_source: spec
+  description: The Members API from Apache Software Foundation — 1 operation(s) for members.
   name: Apache Software Foundation Members API
   slug: apache-software-foundation-members-api
-- description: The People API from Apache Software Foundation — 3 operation(s) for people.
+- baseURL: https://whimsy.apache.org/public
+  baseurl_source: spec
+  description: The People API from Apache Software Foundation — 3 operation(s) for people.
   name: Apache Software Foundation People API
   slug: apache-software-foundation-people-api
-- description: The Podlings API from Apache Software Foundation — 2 operation(s) for podlings.
+- baseURL: https://whimsy.apache.org/public
+  baseurl_source: spec
+  description: The Podlings API from Apache Software Foundation — 2 operation(s) for podlings.
   name: Apache Software Foundation Podlings API
   slug: apache-software-foundation-podlings-api
 artifact_total: 47
@@ -271,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/screenshots/apache-software-foundation-2026-06-20T172144.png
 security:

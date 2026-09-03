@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: The Contensis Image API provides real-time image manipulation and optimization features as part of the Delivery API. It supports on-the-fly transformations such as resizing, cropping, format conversio
   name: Contensis Image API
   slug: image-api
-- description: The Content Types API from Contensis — 2 operation(s) for content types.
+- baseURL_template: https://{instance}.contensis.com
+  baseurl_source: spec_template
+  description: The Content Types API from Contensis — 2 operation(s) for content types.
   name: Contensis Content Types API
   slug: contensis-content-types-api
-- description: The Entries API from Contensis — 3 operation(s) for entries.
+- baseURL_template: https://{instance}.contensis.com
+  baseurl_source: spec_template
+  description: The Entries API from Contensis — 3 operation(s) for entries.
   name: Contensis Entries API
   slug: contensis-entries-api
-- description: The Projects API from Contensis — 1 operation(s) for projects.
+- baseURL_template: https://{instance}.contensis.com
+  baseurl_source: spec_template
+  description: The Projects API from Contensis — 1 operation(s) for projects.
   name: Contensis Projects API
   slug: contensis-projects-api
-- description: The Taxonomy API from Contensis — 1 operation(s) for taxonomy.
+- baseURL_template: https://{instance}.contensis.com
+  baseurl_source: spec_template
+  description: The Taxonomy API from Contensis — 1 operation(s) for taxonomy.
   name: Contensis Taxonomy API
   slug: contensis-taxonomy-api
 artifact_total: 20
@@ -181,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/screenshots/contensis-2026-06-20T174925.png
 security:

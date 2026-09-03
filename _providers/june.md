@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: API for managing data within the June platform, including the ability to delete users and workspaces to support GDPR and privacy compliance requirements.
   name: June Data Deletions API
   slug: data-deletions-api
-- description: The Companies API from June — 1 operation(s) for companies.
+- baseURL: https://api.june.so/sdk
+  baseurl_source: declared
+  description: The Companies API from June — 1 operation(s) for companies.
   name: June Companies API
   slug: june-companies-api
-- description: The Events API from June — 1 operation(s) for events.
+- baseURL: https://api.june.so/sdk
+  baseurl_source: declared
+  description: The Events API from June — 1 operation(s) for events.
   name: June Events API
   slug: june-events-api
-- description: The Page Views API from June — 1 operation(s) for page views.
+- baseURL: https://api.june.so/sdk
+  baseurl_source: declared
+  description: The Page Views API from June — 1 operation(s) for page views.
   name: June Page Views API
   slug: june-page-views-api
-- description: The Users API from June — 1 operation(s) for users.
+- baseURL: https://api.june.so/sdk
+  baseurl_source: declared
+  description: The Users API from June — 1 operation(s) for users.
   name: June Users API
   slug: june-users-api
 artifact_total: 29
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/screenshots/june-2026-06-20T183828.png
 security:

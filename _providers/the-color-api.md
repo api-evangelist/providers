@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Retrieve color information and format conversions for any color input.
+- baseURL: https://www.thecolorapi.com
+  baseurl_source: declared
+  description: Retrieve color information and format conversions for any color input.
   name: The Color API Colors API
   slug: the-color-api-colors-api
-- description: Generate harmonious color palettes from a seed color using color theory.
+- baseURL: https://www.thecolorapi.com
+  baseurl_source: declared
+  description: Generate harmonious color palettes from a seed color using color theory.
   name: The Color API Schemes API
   slug: the-color-api-schemes-api
 artifact_total: 18
@@ -191,7 +195,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-color-api/refs/heads/main/screenshots/the-color-api-2026-06-20T195217.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -46,22 +46,34 @@ apis:
 - description: REST API for managing AWS Batch compute environments, job queues, job definitions, scheduling policies, consumable resources, and jobs. Operations are exposed as POST endpoints under /v1/ paths with J
   name: AWS Batch API
   slug: api
-- description: The Compute Environments API from AWS Batch — 4 operation(s) for compute environments.
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Compute Environments API from AWS Batch — 4 operation(s) for compute environments.
   name: AWS Batch Compute Environments API
   slug: aws-batch-compute-environments-api
-- description: The Job Definitions API from AWS Batch — 3 operation(s) for job definitions.
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Job Definitions API from AWS Batch — 3 operation(s) for job definitions.
   name: AWS Batch Job Definitions API
   slug: aws-batch-job-definitions-api
-- description: The Job Queues API from AWS Batch — 4 operation(s) for job queues.
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Job Queues API from AWS Batch — 4 operation(s) for job queues.
   name: AWS Batch Job Queues API
   slug: aws-batch-job-queues-api
-- description: The Jobs API from AWS Batch — 5 operation(s) for jobs.
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from AWS Batch — 5 operation(s) for jobs.
   name: AWS Batch Jobs API
   slug: aws-batch-jobs-api
-- description: The Scheduling Policies API from AWS Batch — 5 operation(s) for scheduling policies.
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Scheduling Policies API from AWS Batch — 5 operation(s) for scheduling policies.
   name: AWS Batch Scheduling Policies API
   slug: aws-batch-scheduling-policies-api
-- description: The Tags API from AWS Batch — 1 operation(s) for tags.
+- baseURL: https://batch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from AWS Batch — 1 operation(s) for tags.
   name: AWS Batch Tags API
   slug: aws-batch-tags-api
 artifact_total: 20
@@ -167,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-batch/refs/heads/main/screenshots/aws-batch-2026-06-20T172748.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Bank of us Banking Account Balances API
   slug: bank-of-us-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Bank of us Banking Account Direct Debits API
   slug: bank-of-us-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Bank of us Banking Account Scheduled Payments API
   slug: bank-of-us-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Bank of us Banking Account Transactions API
   slug: bank-of-us-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Bank of us Banking Accounts API
   slug: bank-of-us-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Bank of us Banking Payees API
   slug: bank-of-us-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.bankofus.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Bank of us Banking Products API
   slug: bank-of-us-banking-products-api
 artifact_total: 21
@@ -261,7 +275,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/screenshots/bank-of-us-2026-07-21T114712.png
 security:

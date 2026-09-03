@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 64 operations · 32 acting
 api_count: 1
 apis:
-- description: Manage content within a change request.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage content within a change request.
   name: GitBook Change Request Content API
   slug: gitbook-change-request-content-api
-- description: Manage reviewers for change requests.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage reviewers for change requests.
   name: GitBook Change Request Reviewers API
   slug: gitbook-change-request-reviewers-api
-- description: Create, list, review, merge, and update change requests for collaborative editing.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Create, list, review, merge, and update change requests for collaborative editing.
   name: GitBook Change Requests API
   slug: gitbook-change-requests-api
-- description: Organize and manage grouped sets of spaces.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Organize and manage grouped sets of spaces.
   name: GitBook Collections API
   slug: gitbook-collections-api
-- description: Configure custom hostnames for docs sites.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Configure custom hostnames for docs sites.
   name: GitBook Custom Hostnames API
   slug: gitbook-custom-hostnames-api
-- description: Manage published documentation sites.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage published documentation sites.
   name: GitBook Docs Sites API
   slug: gitbook-docs-sites-api
-- description: Import content into spaces.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Import content into spaces.
   name: GitBook Imports API
   slug: gitbook-imports-api
-- description: Install and manage third-party integrations.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Install and manage third-party integrations.
   name: GitBook Integrations API
   slug: gitbook-integrations-api
-- description: Upload and manage OpenAPI specifications.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Upload and manage OpenAPI specifications.
   name: GitBook OpenAPI Specs API
   slug: gitbook-openapi-specs-api
-- description: Manage members and their roles within an organization.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage members and their roles within an organization.
   name: GitBook Organization Members API
   slug: gitbook-organization-members-api
-- description: Manage teams within an organization.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage teams within an organization.
   name: GitBook Organization Teams API
   slug: gitbook-organization-teams-api
-- description: Create and configure organizations to group users, spaces, and collections.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Create and configure organizations to group users, spaces, and collections.
   name: GitBook Organizations API
   slug: gitbook-organizations-api
-- description: Search content across an organization.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Search content across an organization.
   name: GitBook Search API
   slug: gitbook-search-api
-- description: Manage spaces within a docs site.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage spaces within a docs site.
   name: GitBook Site Spaces API
   slug: gitbook-site-spaces-api
-- description: Manage pages and content within a space.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage pages and content within a space.
   name: GitBook Space Content API
   slug: gitbook-space-content-api
-- description: Manage user permissions within a space.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage user permissions within a space.
   name: GitBook Space Users API
   slug: gitbook-space-users-api
-- description: Manage spaces which are containers for documentation or knowledge base content.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage spaces which are containers for documentation or knowledge base content.
   name: GitBook Spaces API
   slug: gitbook-spaces-api
-- description: Resolve and manage content URLs.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Resolve and manage content URLs.
   name: GitBook URLs API
   slug: gitbook-urls-api
-- description: Manage user accounts and profiles.
+- baseURL: https://api.gitbook.com/v1
+  baseurl_source: spec
+  description: Manage user accounts and profiles.
   name: GitBook Users API
   slug: gitbook-users-api
 artifact_total: 56
@@ -289,7 +327,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -299,7 +337,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -308,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:

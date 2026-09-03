@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 33 operations · 22 acting
 api_count: 1
 apis:
-- description: The Exports API from Google Vault — 2 operation(s) for exports.
+- baseURL: https://vault.googleapis.com
+  baseurl_source: declared
+  description: The Exports API from Google Vault — 2 operation(s) for exports.
   name: Google Vault Exports API
   slug: google-vault-exports-api
-- description: The HeldAccounts API from Google Vault — 2 operation(s) for heldaccounts.
+- baseURL: https://vault.googleapis.com
+  baseurl_source: declared
+  description: The HeldAccounts API from Google Vault — 2 operation(s) for heldaccounts.
   name: Google Vault HeldAccounts API
   slug: google-vault-heldaccounts-api
-- description: The Holds API from Google Vault — 4 operation(s) for holds.
+- baseURL: https://vault.googleapis.com
+  baseurl_source: declared
+  description: The Holds API from Google Vault — 4 operation(s) for holds.
   name: Google Vault Holds API
   slug: google-vault-holds-api
-- description: The Matters API from Google Vault — 8 operation(s) for matters.
+- baseURL: https://vault.googleapis.com
+  baseurl_source: declared
+  description: The Matters API from Google Vault — 8 operation(s) for matters.
   name: Google Vault Matters API
   slug: google-vault-matters-api
-- description: The Operations API from Google Vault — 3 operation(s) for operations.
+- baseURL: https://vault.googleapis.com
+  baseurl_source: declared
+  description: The Operations API from Google Vault — 3 operation(s) for operations.
   name: Google Vault Operations API
   slug: google-vault-operations-api
-- description: The SavedQueries API from Google Vault — 2 operation(s) for savedqueries.
+- baseURL: https://vault.googleapis.com
+  baseurl_source: declared
+  description: The SavedQueries API from Google Vault — 2 operation(s) for savedqueries.
   name: Google Vault SavedQueries API
   slug: google-vault-savedqueries-api
 artifact_total: 22
@@ -195,10 +207,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/screenshots/google-vault-2026-06-20T182245.png
 security:

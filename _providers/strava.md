@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 22 operations · 3 acting
 api_count: 1
 apis:
-- description: Create, read, update, and delete workout activities. Activities represent recorded workouts including runs, rides, swims, and 200+ other sport types.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Create, read, update, and delete workout activities. Activities represent recorded workouts including runs, rides, swims, and 200+ other sport types.
   name: Strava Activities API
   slug: strava-activities-api
-- description: Access athlete profiles and statistics. Retrieve the authenticated athlete's profile and update their preferences.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access athlete profiles and statistics. Retrieve the authenticated athlete's profile and update their preferences.
   name: Strava Athletes API
   slug: strava-athletes-api
-- description: Access Strava clubs — groups of athletes. View club details, members, and recent club activities.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access Strava clubs — groups of athletes. View club details, members, and recent club activities.
   name: Strava Clubs API
   slug: strava-clubs-api
-- description: Access athlete gear (bikes and shoes) used during activities.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access athlete gear (bikes and shoes) used during activities.
   name: Strava Gear API
   slug: strava-gear-api
-- description: Access and manage athlete-created routes. Routes are planned courses for rides or runs.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access and manage athlete-created routes. Routes are planned courses for rides or runs.
   name: Strava Routes API
   slug: strava-routes-api
-- description: Access segment efforts — an athlete's attempt at a specific segment. Includes time, pace, and power data for each effort.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access segment efforts — an athlete's attempt at a specific segment. Includes time, pace, and power data for each effort.
   name: Strava Segment Efforts API
   slug: strava-segment-efforts-api
-- description: Access segments — specific sections of road or trail that athletes compete on. View segment details, starred segments, and leaderboards.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access segments — specific sections of road or trail that athletes compete on. View segment details, starred segments, and leaderboards.
   name: Strava Segments API
   slug: strava-segments-api
-- description: Access time-series data streams for activities and segments, including GPS coordinates, heart rate, power, cadence, speed, and altitude.
+- baseURL: https://www.strava.com/api/v3
+  baseurl_source: declared
+  description: Access time-series data streams for activities and segments, including GPS coordinates, heart rate, power, cadence, speed, and altitude.
   name: Strava Streams API
   slug: strava-streams-api
 artifact_total: 37
@@ -294,7 +310,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -304,7 +320,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 49.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -313,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/screenshots/strava-2026-06-20T194613.png
 security:

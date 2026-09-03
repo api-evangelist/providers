@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The Fivetran REST API allows programmatic management of all platform resources including users, roles, teams, groups, destinations, connections, webhooks, transformations, transformation projects, cer
   name: Fivetran REST API
   slug: fivetran-rest-api
-- description: The Connections API from Fivetran — 7 operation(s) for connections.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Connections API from Fivetran — 7 operation(s) for connections.
   name: Fivetran Connections API
   slug: fivetran-connections-api
-- description: The Destinations API from Fivetran — 2 operation(s) for destinations.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Destinations API from Fivetran — 2 operation(s) for destinations.
   name: Fivetran Destinations API
   slug: fivetran-destinations-api
-- description: The Groups API from Fivetran — 2 operation(s) for groups.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Groups API from Fivetran — 2 operation(s) for groups.
   name: Fivetran Groups API
   slug: fivetran-groups-api
-- description: The Metadata API from Fivetran — 1 operation(s) for metadata.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Metadata API from Fivetran — 1 operation(s) for metadata.
   name: Fivetran Metadata API
   slug: fivetran-metadata-api
-- description: The Roles API from Fivetran — 1 operation(s) for roles.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Roles API from Fivetran — 1 operation(s) for roles.
   name: Fivetran Roles API
   slug: fivetran-roles-api
-- description: The Teams API from Fivetran — 1 operation(s) for teams.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Teams API from Fivetran — 1 operation(s) for teams.
   name: Fivetran Teams API
   slug: fivetran-teams-api
-- description: The Users API from Fivetran — 2 operation(s) for users.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Users API from Fivetran — 2 operation(s) for users.
   name: Fivetran Users API
   slug: fivetran-users-api
-- description: The Webhooks API from Fivetran — 5 operation(s) for webhooks.
+- baseURL: https://api.fivetran.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Fivetran — 5 operation(s) for webhooks.
   name: Fivetran Webhooks API
   slug: fivetran-webhooks-api
 artifact_total: 44
@@ -233,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/screenshots/fivetran-2026-06-20T181255.png
 security:

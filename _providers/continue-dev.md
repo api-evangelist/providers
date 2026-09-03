@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Observability surface for tracking check outcomes, agent runs, and adoption metrics across an organization's repositories. Part of the Team and Company tiers.
   name: Continue Mission Control
   slug: mission-control
-- description: The Ide API from Continue — 8 operation(s) for ide.
+- baseURL: https://api.continue.dev
+  baseurl_source: declared
+  description: The Ide API from Continue — 8 operation(s) for ide.
   name: Continue Ide API
   slug: continue-dev-ide-api
 artifact_total: 68
@@ -403,7 +405,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continue-dev/refs/heads/main/screenshots/continue-dev-2026-06-20T174940.png
 security:

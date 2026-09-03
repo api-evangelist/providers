@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,25 +36,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
   name: RunBuggy Data Science MCP Server
   slug: mcp-datascience
-- description: Companies operations.
+- baseURL: https://ng-staging.runbuggy.com/staging/api
+  baseurl_source: declared
+  description: Companies operations.
   name: RunBuggy Companies API
   slug: runbuggy-companies-api
-- description: The Order operations.
+- baseURL: https://ng-staging.runbuggy.com/staging/api
+  baseurl_source: declared
+  description: The Order operations.
   name: RunBuggy Orders API
   slug: runbuggy-orders-api
-- description: The Token API from RunBuggy — 1 operation(s) for token.
+- baseURL: https://ng-staging.runbuggy.com/staging/api
+  baseurl_source: declared
+  description: The Token API from RunBuggy — 1 operation(s) for token.
   name: RunBuggy Token API
   slug: runbuggy-token-api
-- description: The Vehicle Transfer Order operations.
+- baseURL: https://ng-staging.runbuggy.com/staging/api
+  baseurl_source: declared
+  description: The Vehicle Transfer Order operations.
   name: RunBuggy Vehicle Transfer Orders API
   slug: runbuggy-vehicle-transfer-orders-api
-- description: Webhook operations.
+- baseURL: https://ng-staging.runbuggy.com/staging/api
+  baseurl_source: declared
+  description: Webhook operations.
   name: RunBuggy Webhooks API
   slug: runbuggy-webhooks-api
 artifact_total: 19
@@ -234,7 +257,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -244,7 +267,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -255,7 +278,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/screenshots/runbuggy-2026-08-17T081656.png
 security:

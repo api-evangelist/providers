@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: The Authentication API from ClearVIN — 1 operation(s) for authentication.
+- baseURL: https://www.clearvin.com/rest/vendor
+  baseurl_source: declared
+  description: The Authentication API from ClearVIN — 1 operation(s) for authentication.
   name: ClearVIN Authentication API
   slug: clearvin-authentication-api
-- description: The Report API from ClearVIN — 1 operation(s) for report.
+- baseURL: https://www.clearvin.com/rest/vendor
+  baseurl_source: declared
+  description: The Report API from ClearVIN — 1 operation(s) for report.
   name: ClearVIN Report API
   slug: clearvin-report-api
 artifact_total: 12
@@ -153,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearvin/refs/heads/main/screenshots/clearvin-2026-07-25T205553.png
 security:

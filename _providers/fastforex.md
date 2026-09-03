@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 20 operations
 api_count: 1
 apis:
-- description: Account admin
+- baseURL: https://api.fastforex.io
+  baseurl_source: declared
+  description: Account admin
   name: FastForex admin API
   slug: fastforex-admin-api
-- description: Digital currencies, pairs & prices
+- baseURL: https://api.fastforex.io
+  baseurl_source: declared
+  description: Digital currencies, pairs & prices
   name: FastForex crypto API
   slug: fastforex-crypto-api
-- description: Physical currencies, rates and conversions
+- baseURL: https://api.fastforex.io
+  baseurl_source: declared
+  description: Physical currencies, rates and conversions
   name: FastForex currency API
   slug: fastforex-currency-api
-- description: Realtime FX trading pairs - instruments, prices and history
+- baseURL: https://api.fastforex.io
+  baseurl_source: declared
+  description: Realtime FX trading pairs - instruments, prices and history
   name: FastForex fx API
   slug: fastforex-fx-api
 artifact_total: 32
@@ -246,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastforex/refs/heads/main/screenshots/fastforex-2026-06-20T181050.png
 security:

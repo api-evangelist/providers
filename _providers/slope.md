@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 40 operations · 25 acting
 api_count: 1
 apis:
-- description: The Auth API from Slope — 2 operation(s) for auth.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Auth API from Slope — 2 operation(s) for auth.
   name: Slope Auth API
   slug: slope-auth-api
-- description: The Customers API from Slope — 6 operation(s) for customers.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Customers API from Slope — 6 operation(s) for customers.
   name: Slope Customers API
   slug: slope-customers-api
-- description: The Files API from Slope — 1 operation(s) for files.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Files API from Slope — 1 operation(s) for files.
   name: Slope Files API
   slug: slope-files-api
-- description: The Orders API from Slope — 11 operation(s) for orders.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Orders API from Slope — 11 operation(s) for orders.
   name: Slope Orders API
   slug: slope-orders-api
-- description: The Payout Accounts API from Slope — 2 operation(s) for payout accounts.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Payout Accounts API from Slope — 2 operation(s) for payout accounts.
   name: Slope Payout Accounts API
   slug: slope-payout-accounts-api
-- description: The Persons API from Slope — 1 operation(s) for persons.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Persons API from Slope — 1 operation(s) for persons.
   name: Slope Persons API
   slug: slope-persons-api
-- description: The Prescreens API from Slope — 2 operation(s) for prescreens.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Prescreens API from Slope — 2 operation(s) for prescreens.
   name: Slope Prescreens API
   slug: slope-prescreens-api
-- description: The Simulation API from Slope — 7 operation(s) for simulation.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Simulation API from Slope — 7 operation(s) for simulation.
   name: Slope Simulation API
   slug: slope-simulation-api
-- description: The Transactions API from Slope — 1 operation(s) for transactions.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The Transactions API from Slope — 1 operation(s) for transactions.
   name: Slope Transactions API
   slug: slope-transactions-api
-- description: The User Links API from Slope — 2 operation(s) for user links.
+- baseURL: https://api.slopepay.com
+  baseurl_source: declared
+  description: The User Links API from Slope — 2 operation(s) for user links.
   name: Slope User Links API
   slug: slope-user-links-api
 arazzos:
@@ -305,7 +325,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -315,7 +335,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 43.4
-  previous_composite: 45.8
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,7 +353,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/screenshots/slope-2026-08-17T081924.png
 security:

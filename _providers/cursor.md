@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: Create and manage AI coding agents in the cloud. Beta, available across all plans.
   name: Cursor Cloud Agents API
   slug: cloud-agents
-- description: Retrieve security and configuration audit events
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: Retrieve security and configuration audit events
   name: Cursor Audit Logs API
   slug: cursor-audit-logs-api
-- description: Billing groups for cost allocation
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: Billing groups for cost allocation
   name: Cursor Groups API
   slug: cursor-groups-api
-- description: Manage team members
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: Manage team members
   name: Cursor Members API
   slug: cursor-members-api
-- description: Repository indexing blocklist configuration
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: Repository indexing blocklist configuration
   name: Cursor Repo Blocklists API
   slug: cursor-repo-blocklists-api
-- description: Spending data and per-user spend limits
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: Spending data and per-user spend limits
   name: Cursor Spend API
   slug: cursor-spend-api
-- description: Daily usage and granular usage event data
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: Daily usage and granular usage event data
   name: Cursor Usage API
   slug: cursor-usage-api
 artifact_total: 31
@@ -249,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/screenshots/cursor-2026-06-20T175349.png
 security:

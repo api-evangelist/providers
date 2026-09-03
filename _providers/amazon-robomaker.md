@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -44,169 +44,279 @@ agentic_access:
   summary_line: 57 operations · 56 acting
 api_count: 1
 apis:
-- description: The BatchDeleteWorlds API from Amazon RoboMaker — 1 operation(s) for batchdeleteworlds.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The BatchDeleteWorlds API from Amazon RoboMaker — 1 operation(s) for batchdeleteworlds.
   name: Amazon RoboMaker BatchDeleteWorlds API
   slug: amazon-robomaker-batchdeleteworlds-api
-- description: The BatchDescribeSimulationJob API from Amazon RoboMaker — 1 operation(s) for batchdescribesimulationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The BatchDescribeSimulationJob API from Amazon RoboMaker — 1 operation(s) for batchdescribesimulationjob.
   name: Amazon RoboMaker BatchDescribeSimulationJob API
   slug: amazon-robomaker-batchdescribesimulationjob-api
-- description: The CancelDeploymentJob API from Amazon RoboMaker — 1 operation(s) for canceldeploymentjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CancelDeploymentJob API from Amazon RoboMaker — 1 operation(s) for canceldeploymentjob.
   name: Amazon RoboMaker CancelDeploymentJob API
   slug: amazon-robomaker-canceldeploymentjob-api
-- description: The CancelSimulationJob API from Amazon RoboMaker — 1 operation(s) for cancelsimulationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CancelSimulationJob API from Amazon RoboMaker — 1 operation(s) for cancelsimulationjob.
   name: Amazon RoboMaker CancelSimulationJob API
   slug: amazon-robomaker-cancelsimulationjob-api
-- description: The CancelSimulationJobBatch API from Amazon RoboMaker — 1 operation(s) for cancelsimulationjobbatch.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CancelSimulationJobBatch API from Amazon RoboMaker — 1 operation(s) for cancelsimulationjobbatch.
   name: Amazon RoboMaker CancelSimulationJobBatch API
   slug: amazon-robomaker-cancelsimulationjobbatch-api
-- description: The CancelWorldExportJob API from Amazon RoboMaker — 1 operation(s) for cancelworldexportjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CancelWorldExportJob API from Amazon RoboMaker — 1 operation(s) for cancelworldexportjob.
   name: Amazon RoboMaker CancelWorldExportJob API
   slug: amazon-robomaker-cancelworldexportjob-api
-- description: The CancelWorldGenerationJob API from Amazon RoboMaker — 1 operation(s) for cancelworldgenerationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CancelWorldGenerationJob API from Amazon RoboMaker — 1 operation(s) for cancelworldgenerationjob.
   name: Amazon RoboMaker CancelWorldGenerationJob API
   slug: amazon-robomaker-cancelworldgenerationjob-api
-- description: The CreateDeploymentJob API from Amazon RoboMaker — 1 operation(s) for createdeploymentjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateDeploymentJob API from Amazon RoboMaker — 1 operation(s) for createdeploymentjob.
   name: Amazon RoboMaker CreateDeploymentJob API
   slug: amazon-robomaker-createdeploymentjob-api
-- description: The CreateFleet API from Amazon RoboMaker — 1 operation(s) for createfleet.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateFleet API from Amazon RoboMaker — 1 operation(s) for createfleet.
   name: Amazon RoboMaker CreateFleet API
   slug: amazon-robomaker-createfleet-api
-- description: The CreateRobot API from Amazon RoboMaker — 1 operation(s) for createrobot.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateRobot API from Amazon RoboMaker — 1 operation(s) for createrobot.
   name: Amazon RoboMaker CreateRobot API
   slug: amazon-robomaker-createrobot-api
-- description: The CreateRobotApplication API from Amazon RoboMaker — 1 operation(s) for createrobotapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateRobotApplication API from Amazon RoboMaker — 1 operation(s) for createrobotapplication.
   name: Amazon RoboMaker CreateRobotApplication API
   slug: amazon-robomaker-createrobotapplication-api
-- description: The CreateRobotApplicationVersion API from Amazon RoboMaker — 1 operation(s) for createrobotapplicationversion.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateRobotApplicationVersion API from Amazon RoboMaker — 1 operation(s) for createrobotapplicationversion.
   name: Amazon RoboMaker CreateRobotApplicationVersion API
   slug: amazon-robomaker-createrobotapplicationversion-api
-- description: The CreateSimulationApplication API from Amazon RoboMaker — 1 operation(s) for createsimulationapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateSimulationApplication API from Amazon RoboMaker — 1 operation(s) for createsimulationapplication.
   name: Amazon RoboMaker CreateSimulationApplication API
   slug: amazon-robomaker-createsimulationapplication-api
-- description: The CreateSimulationApplicationVersion API from Amazon RoboMaker — 1 operation(s) for createsimulationapplicationversion.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateSimulationApplicationVersion API from Amazon RoboMaker — 1 operation(s) for createsimulationapplicationversion.
   name: Amazon RoboMaker CreateSimulationApplicationVersion API
   slug: amazon-robomaker-createsimulationapplicationversion-api
-- description: The CreateSimulationJob API from Amazon RoboMaker — 1 operation(s) for createsimulationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateSimulationJob API from Amazon RoboMaker — 1 operation(s) for createsimulationjob.
   name: Amazon RoboMaker CreateSimulationJob API
   slug: amazon-robomaker-createsimulationjob-api
-- description: The CreateWorldExportJob API from Amazon RoboMaker — 1 operation(s) for createworldexportjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateWorldExportJob API from Amazon RoboMaker — 1 operation(s) for createworldexportjob.
   name: Amazon RoboMaker CreateWorldExportJob API
   slug: amazon-robomaker-createworldexportjob-api
-- description: The CreateWorldGenerationJob API from Amazon RoboMaker — 1 operation(s) for createworldgenerationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateWorldGenerationJob API from Amazon RoboMaker — 1 operation(s) for createworldgenerationjob.
   name: Amazon RoboMaker CreateWorldGenerationJob API
   slug: amazon-robomaker-createworldgenerationjob-api
-- description: The CreateWorldTemplate API from Amazon RoboMaker — 1 operation(s) for createworldtemplate.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The CreateWorldTemplate API from Amazon RoboMaker — 1 operation(s) for createworldtemplate.
   name: Amazon RoboMaker CreateWorldTemplate API
   slug: amazon-robomaker-createworldtemplate-api
-- description: The DeleteFleet API from Amazon RoboMaker — 1 operation(s) for deletefleet.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteFleet API from Amazon RoboMaker — 1 operation(s) for deletefleet.
   name: Amazon RoboMaker DeleteFleet API
   slug: amazon-robomaker-deletefleet-api
-- description: The DeleteRobot API from Amazon RoboMaker — 1 operation(s) for deleterobot.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteRobot API from Amazon RoboMaker — 1 operation(s) for deleterobot.
   name: Amazon RoboMaker DeleteRobot API
   slug: amazon-robomaker-deleterobot-api
-- description: The DeleteRobotApplication API from Amazon RoboMaker — 1 operation(s) for deleterobotapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteRobotApplication API from Amazon RoboMaker — 1 operation(s) for deleterobotapplication.
   name: Amazon RoboMaker DeleteRobotApplication API
   slug: amazon-robomaker-deleterobotapplication-api
-- description: The DeleteSimulationApplication API from Amazon RoboMaker — 1 operation(s) for deletesimulationapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteSimulationApplication API from Amazon RoboMaker — 1 operation(s) for deletesimulationapplication.
   name: Amazon RoboMaker DeleteSimulationApplication API
   slug: amazon-robomaker-deletesimulationapplication-api
-- description: The DeleteWorldTemplate API from Amazon RoboMaker — 1 operation(s) for deleteworldtemplate.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteWorldTemplate API from Amazon RoboMaker — 1 operation(s) for deleteworldtemplate.
   name: Amazon RoboMaker DeleteWorldTemplate API
   slug: amazon-robomaker-deleteworldtemplate-api
-- description: The DeregisterRobot API from Amazon RoboMaker — 1 operation(s) for deregisterrobot.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DeregisterRobot API from Amazon RoboMaker — 1 operation(s) for deregisterrobot.
   name: Amazon RoboMaker DeregisterRobot API
   slug: amazon-robomaker-deregisterrobot-api
-- description: The DescribeDeploymentJob API from Amazon RoboMaker — 1 operation(s) for describedeploymentjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeDeploymentJob API from Amazon RoboMaker — 1 operation(s) for describedeploymentjob.
   name: Amazon RoboMaker DescribeDeploymentJob API
   slug: amazon-robomaker-describedeploymentjob-api
-- description: The DescribeFleet API from Amazon RoboMaker — 1 operation(s) for describefleet.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeFleet API from Amazon RoboMaker — 1 operation(s) for describefleet.
   name: Amazon RoboMaker DescribeFleet API
   slug: amazon-robomaker-describefleet-api
-- description: The DescribeRobot API from Amazon RoboMaker — 1 operation(s) for describerobot.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeRobot API from Amazon RoboMaker — 1 operation(s) for describerobot.
   name: Amazon RoboMaker DescribeRobot API
   slug: amazon-robomaker-describerobot-api
-- description: The DescribeRobotApplication API from Amazon RoboMaker — 1 operation(s) for describerobotapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeRobotApplication API from Amazon RoboMaker — 1 operation(s) for describerobotapplication.
   name: Amazon RoboMaker DescribeRobotApplication API
   slug: amazon-robomaker-describerobotapplication-api
-- description: The DescribeSimulationApplication API from Amazon RoboMaker — 1 operation(s) for describesimulationapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSimulationApplication API from Amazon RoboMaker — 1 operation(s) for describesimulationapplication.
   name: Amazon RoboMaker DescribeSimulationApplication API
   slug: amazon-robomaker-describesimulationapplication-api
-- description: The DescribeSimulationJob API from Amazon RoboMaker — 1 operation(s) for describesimulationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSimulationJob API from Amazon RoboMaker — 1 operation(s) for describesimulationjob.
   name: Amazon RoboMaker DescribeSimulationJob API
   slug: amazon-robomaker-describesimulationjob-api
-- description: The DescribeSimulationJobBatch API from Amazon RoboMaker — 1 operation(s) for describesimulationjobbatch.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSimulationJobBatch API from Amazon RoboMaker — 1 operation(s) for describesimulationjobbatch.
   name: Amazon RoboMaker DescribeSimulationJobBatch API
   slug: amazon-robomaker-describesimulationjobbatch-api
-- description: The DescribeWorld API from Amazon RoboMaker — 1 operation(s) for describeworld.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWorld API from Amazon RoboMaker — 1 operation(s) for describeworld.
   name: Amazon RoboMaker DescribeWorld API
   slug: amazon-robomaker-describeworld-api
-- description: The DescribeWorldExportJob API from Amazon RoboMaker — 1 operation(s) for describeworldexportjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWorldExportJob API from Amazon RoboMaker — 1 operation(s) for describeworldexportjob.
   name: Amazon RoboMaker DescribeWorldExportJob API
   slug: amazon-robomaker-describeworldexportjob-api
-- description: The DescribeWorldGenerationJob API from Amazon RoboMaker — 1 operation(s) for describeworldgenerationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWorldGenerationJob API from Amazon RoboMaker — 1 operation(s) for describeworldgenerationjob.
   name: Amazon RoboMaker DescribeWorldGenerationJob API
   slug: amazon-robomaker-describeworldgenerationjob-api
-- description: The DescribeWorldTemplate API from Amazon RoboMaker — 1 operation(s) for describeworldtemplate.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeWorldTemplate API from Amazon RoboMaker — 1 operation(s) for describeworldtemplate.
   name: Amazon RoboMaker DescribeWorldTemplate API
   slug: amazon-robomaker-describeworldtemplate-api
-- description: The GetWorldTemplateBody API from Amazon RoboMaker — 1 operation(s) for getworldtemplatebody.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The GetWorldTemplateBody API from Amazon RoboMaker — 1 operation(s) for getworldtemplatebody.
   name: Amazon RoboMaker GetWorldTemplateBody API
   slug: amazon-robomaker-getworldtemplatebody-api
-- description: The ListDeploymentJobs API from Amazon RoboMaker — 1 operation(s) for listdeploymentjobs.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListDeploymentJobs API from Amazon RoboMaker — 1 operation(s) for listdeploymentjobs.
   name: Amazon RoboMaker ListDeploymentJobs API
   slug: amazon-robomaker-listdeploymentjobs-api
-- description: The ListFleets API from Amazon RoboMaker — 1 operation(s) for listfleets.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListFleets API from Amazon RoboMaker — 1 operation(s) for listfleets.
   name: Amazon RoboMaker ListFleets API
   slug: amazon-robomaker-listfleets-api
-- description: The ListRobotApplications API from Amazon RoboMaker — 1 operation(s) for listrobotapplications.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListRobotApplications API from Amazon RoboMaker — 1 operation(s) for listrobotapplications.
   name: Amazon RoboMaker ListRobotApplications API
   slug: amazon-robomaker-listrobotapplications-api
-- description: The ListRobots API from Amazon RoboMaker — 1 operation(s) for listrobots.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListRobots API from Amazon RoboMaker — 1 operation(s) for listrobots.
   name: Amazon RoboMaker ListRobots API
   slug: amazon-robomaker-listrobots-api
-- description: The ListSimulationApplications API from Amazon RoboMaker — 1 operation(s) for listsimulationapplications.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListSimulationApplications API from Amazon RoboMaker — 1 operation(s) for listsimulationapplications.
   name: Amazon RoboMaker ListSimulationApplications API
   slug: amazon-robomaker-listsimulationapplications-api
-- description: The ListSimulationJobBatches API from Amazon RoboMaker — 1 operation(s) for listsimulationjobbatches.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListSimulationJobBatches API from Amazon RoboMaker — 1 operation(s) for listsimulationjobbatches.
   name: Amazon RoboMaker ListSimulationJobBatches API
   slug: amazon-robomaker-listsimulationjobbatches-api
-- description: The ListSimulationJobs API from Amazon RoboMaker — 1 operation(s) for listsimulationjobs.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListSimulationJobs API from Amazon RoboMaker — 1 operation(s) for listsimulationjobs.
   name: Amazon RoboMaker ListSimulationJobs API
   slug: amazon-robomaker-listsimulationjobs-api
-- description: The ListWorldExportJobs API from Amazon RoboMaker — 1 operation(s) for listworldexportjobs.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorldExportJobs API from Amazon RoboMaker — 1 operation(s) for listworldexportjobs.
   name: Amazon RoboMaker ListWorldExportJobs API
   slug: amazon-robomaker-listworldexportjobs-api
-- description: The ListWorldGenerationJobs API from Amazon RoboMaker — 1 operation(s) for listworldgenerationjobs.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorldGenerationJobs API from Amazon RoboMaker — 1 operation(s) for listworldgenerationjobs.
   name: Amazon RoboMaker ListWorldGenerationJobs API
   slug: amazon-robomaker-listworldgenerationjobs-api
-- description: The ListWorlds API from Amazon RoboMaker — 1 operation(s) for listworlds.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorlds API from Amazon RoboMaker — 1 operation(s) for listworlds.
   name: Amazon RoboMaker ListWorlds API
   slug: amazon-robomaker-listworlds-api
-- description: The ListWorldTemplates API from Amazon RoboMaker — 1 operation(s) for listworldtemplates.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorldTemplates API from Amazon RoboMaker — 1 operation(s) for listworldtemplates.
   name: Amazon RoboMaker ListWorldTemplates API
   slug: amazon-robomaker-listworldtemplates-api
-- description: The RegisterRobot API from Amazon RoboMaker — 1 operation(s) for registerrobot.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The RegisterRobot API from Amazon RoboMaker — 1 operation(s) for registerrobot.
   name: Amazon RoboMaker RegisterRobot API
   slug: amazon-robomaker-registerrobot-api
-- description: The RestartSimulationJob API from Amazon RoboMaker — 1 operation(s) for restartsimulationjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The RestartSimulationJob API from Amazon RoboMaker — 1 operation(s) for restartsimulationjob.
   name: Amazon RoboMaker RestartSimulationJob API
   slug: amazon-robomaker-restartsimulationjob-api
-- description: The StartSimulationJobBatch API from Amazon RoboMaker — 1 operation(s) for startsimulationjobbatch.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The StartSimulationJobBatch API from Amazon RoboMaker — 1 operation(s) for startsimulationjobbatch.
   name: Amazon RoboMaker StartSimulationJobBatch API
   slug: amazon-robomaker-startsimulationjobbatch-api
-- description: The SyncDeploymentJob API from Amazon RoboMaker — 1 operation(s) for syncdeploymentjob.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The SyncDeploymentJob API from Amazon RoboMaker — 1 operation(s) for syncdeploymentjob.
   name: Amazon RoboMaker SyncDeploymentJob API
   slug: amazon-robomaker-syncdeploymentjob-api
-- description: The Tags API from Amazon RoboMaker — 2 operation(s) for tags.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon RoboMaker — 2 operation(s) for tags.
   name: Amazon RoboMaker Tags API
   slug: amazon-robomaker-tags-api
-- description: The UpdateRobotApplication API from Amazon RoboMaker — 1 operation(s) for updaterobotapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateRobotApplication API from Amazon RoboMaker — 1 operation(s) for updaterobotapplication.
   name: Amazon RoboMaker UpdateRobotApplication API
   slug: amazon-robomaker-updaterobotapplication-api
-- description: The UpdateSimulationApplication API from Amazon RoboMaker — 1 operation(s) for updatesimulationapplication.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateSimulationApplication API from Amazon RoboMaker — 1 operation(s) for updatesimulationapplication.
   name: Amazon RoboMaker UpdateSimulationApplication API
   slug: amazon-robomaker-updatesimulationapplication-api
-- description: The UpdateWorldTemplate API from Amazon RoboMaker — 1 operation(s) for updateworldtemplate.
+- baseURL: https://robomaker.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateWorldTemplate API from Amazon RoboMaker — 1 operation(s) for updateworldtemplate.
   name: Amazon RoboMaker UpdateWorldTemplate API
   slug: amazon-robomaker-updateworldtemplate-api
 artifact_total: 906
@@ -5813,7 +5923,7 @@ score:
       marker_coverage: 0.0
       total: 55
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/screenshots/amazon-robomaker-2026-06-20T171810.png
 security:

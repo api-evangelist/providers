@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 1
 apis:
-- description: Analyze files such as PDFs for text and features
+- baseURL: https://vision.googleapis.com/v1
+  baseurl_source: declared
+  description: Analyze files such as PDFs for text and features
   name: Google Cloud Vision Files API
   slug: google-cloud-vision-files-api
-- description: Analyze images for various features
+- baseURL: https://vision.googleapis.com/v1
+  baseurl_source: declared
+  description: Analyze images for various features
   name: Google Cloud Vision Images API
   slug: google-cloud-vision-images-api
-- description: Search for products similar to an image
+- baseURL: https://vision.googleapis.com/v1
+  baseurl_source: declared
+  description: Search for products similar to an image
   name: Google Cloud Vision ProductSearch API
   slug: google-cloud-vision-productsearch-api
 artifact_total: 20
@@ -223,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/screenshots/google-cloud-vision-2026-06-20T182154.png
 security:

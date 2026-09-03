@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 26 operations · 11 acting
 api_count: 1
 apis:
-- description: The Analytics API from Limrun — 3 operation(s) for analytics.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Analytics API from Limrun — 3 operation(s) for analytics.
   name: Limrun Analytics API
   slug: limrun-analytics-api
-- description: The Android Instances API from Limrun — 2 operation(s) for android instances.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Android Instances API from Limrun — 2 operation(s) for android instances.
   name: Limrun Android Instances API
   slug: limrun-android-instances-api
-- description: The Assets API from Limrun — 2 operation(s) for assets.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Assets API from Limrun — 2 operation(s) for assets.
   name: Limrun Assets API
   slug: limrun-assets-api
-- description: The Downloads API from Limrun — 1 operation(s) for downloads.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Downloads API from Limrun — 1 operation(s) for downloads.
   name: Limrun Downloads API
   slug: limrun-downloads-api
-- description: The Gradle Instances API from Limrun — 2 operation(s) for gradle instances.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Gradle Instances API from Limrun — 2 operation(s) for gradle instances.
   name: Limrun Gradle Instances API
   slug: limrun-gradle-instances-api
-- description: The Ios Instances API from Limrun — 2 operation(s) for ios instances.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Ios Instances API from Limrun — 2 operation(s) for ios instances.
   name: Limrun Ios Instances API
   slug: limrun-ios-instances-api
-- description: The Xcode Instances API from Limrun — 4 operation(s) for xcode instances.
+- baseURL: https://api.limrun.com
+  baseurl_source: declared
+  description: The Xcode Instances API from Limrun — 4 operation(s) for xcode instances.
   name: Limrun Xcode Instances API
   slug: limrun-xcode-instances-api
 artifact_total: 21
@@ -276,7 +290,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/screenshots/limrun-2026-07-25T225212.png
 security:

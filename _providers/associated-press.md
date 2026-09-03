@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Integrate your election systems with AP Elections API. Your election results delivery application retrieves election race information from AP Elections API to power election websites, reporting system
   name: AP Elections API
   slug: ap-elections-api
-- description: The Account API from Associated Press — 6 operation(s) for account.
+- baseURL: https://api.ap.org
+  baseurl_source: declared
+  description: The Account API from Associated Press — 6 operation(s) for account.
   name: Associated Press Account API
   slug: associated-press-account-api
-- description: The Content API from Associated Press — 6 operation(s) for content.
+- baseURL: https://api.ap.org
+  baseurl_source: declared
+  description: The Content API from Associated Press — 6 operation(s) for content.
   name: Associated Press Content API
   slug: associated-press-content-api
-- description: The Monitors and Alerts API from Associated Press — 10 operation(s) for monitors and alerts.
+- baseURL: https://api.ap.org
+  baseurl_source: declared
+  description: The Monitors and Alerts API from Associated Press — 10 operation(s) for monitors and alerts.
   name: Associated Press Monitors and Alerts API
   slug: associated-press-monitors-and-alerts-api
 artifact_total: 24
@@ -177,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/screenshots/associated-press-2026-06-20T172505.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 217 operations · 206 acting · 2 human-in-the-loop
 api_count: 12
 apis:
-- description: The Zoom Meeting API lets developers access meeting and webinar data from Zoom Meeting. Use this API to build private services or public applications on the Zoom App Marketplace.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Zoom Meeting API lets developers access meeting and webinar data from Zoom Meeting. Use this API to build private services or public applications on the Zoom App Marketplace.
   name: Zoom Meeting API
   slug: zoom-meeting-api
 - description: The Zoom Phone API allows developers to access Zoom Phone functionality to build private services or public applications on the Zoom App Marketplace, including account management, caller ID management
@@ -137,52 +139,84 @@ apis:
 - description: The Zoom Cobrowse SDK API enables real-time collaborative browsing with annotation tools, data masking, and secure screen sharing, allowing users to share their web browsing experience with an organiz
   name: Zoom Cobrowse SDK API
   slug: zoom-cobrowse-sdk-api
-- description: The Account API from Zoom — 10 operation(s) for account.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Account API from Zoom — 10 operation(s) for account.
   name: Zoom Account API
   slug: zoom-account-api
-- description: The Chat API from Zoom — 2 operation(s) for chat.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Chat API from Zoom — 2 operation(s) for chat.
   name: Zoom Chat API
   slug: zoom-chat-api
-- description: Cloud Recording operations
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Cloud Recording operations
   name: Zoom Cloud Recording API
   slug: zoom-cloud-recording-api
-- description: The Dashboard API from Zoom — 9 operation(s) for dashboard.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Dashboard API from Zoom — 9 operation(s) for dashboard.
   name: Zoom Dashboard API
   slug: zoom-dashboard-api
-- description: The Device API from Zoom — 4 operation(s) for device.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Device API from Zoom — 4 operation(s) for device.
   name: Zoom Device API
   slug: zoom-device-api
-- description: The Group API from Zoom — 8 operation(s) for group.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The Group API from Zoom — 8 operation(s) for group.
   name: Zoom Group API
   slug: zoom-group-api
-- description: The IM Group API from Zoom — 7 operation(s) for im group.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: The IM Group API from Zoom — 7 operation(s) for im group.
   name: Zoom IM Group API
   slug: zoom-im-group-api
-- description: Manage live streaming for Zoom meetings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Manage live streaming for Zoom meetings.
   name: Zoom Meeting Live Stream API
   slug: zoom-meeting-live-stream-api
-- description: Manage participants in Zoom meetings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Manage participants in Zoom meetings.
   name: Zoom Meeting Participants API
   slug: zoom-meeting-participants-api
-- description: Create and manage polls for Zoom meetings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Create and manage polls for Zoom meetings.
   name: Zoom Meeting Polls API
   slug: zoom-meeting-polls-api
-- description: Access and manage meeting recordings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Access and manage meeting recordings.
   name: Zoom Meeting Recordings API
   slug: zoom-meeting-recordings-api
-- description: Manage meeting registration and registrants.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Manage meeting registration and registrants.
   name: Zoom Meeting Registrants API
   slug: zoom-meeting-registrants-api
-- description: Create and manage Zoom meetings.
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Create and manage Zoom meetings.
   name: Zoom Meetings API
   slug: zoom-meetings-api
-- description: Report operations
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Report operations
   name: Zoom Report API
   slug: zoom-report-api
-- description: User operations
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: User operations
   name: Zoom User API
   slug: zoom-user-api
-- description: Webinar operations
+- baseURL: https://api.zoom.us/v2
+  baseurl_source: declared
+  description: Webinar operations
   name: Zoom Webinar API
   slug: zoom-webinar-api
 arazzos:
@@ -892,7 +926,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -905,7 +939,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 49.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -914,7 +948,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png
 security:

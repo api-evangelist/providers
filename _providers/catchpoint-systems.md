@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -43,97 +43,159 @@ agentic_access:
   summary_line: 145 operations · 54 acting
 api_count: 1
 apis:
-- description: The Account API from Catchpoint Systems — 1 operation(s) for account.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Account API from Catchpoint Systems — 1 operation(s) for account.
   name: Catchpoint Systems Account API
   slug: catchpoint-systems-account-api
-- description: The Alerts API from Catchpoint Systems — 2 operation(s) for alerts.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Alerts API from Catchpoint Systems — 2 operation(s) for alerts.
   name: Catchpoint Systems Alerts API
   slug: catchpoint-systems-alerts-api
-- description: The ASNs API from Catchpoint Systems — 3 operation(s) for asns.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The ASNs API from Catchpoint Systems — 3 operation(s) for asns.
   name: Catchpoint Systems ASNs API
   slug: catchpoint-systems-asns-api
-- description: The Assertions API from Catchpoint Systems — 1 operation(s) for assertions.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Assertions API from Catchpoint Systems — 1 operation(s) for assertions.
   name: Catchpoint Systems Assertions API
   slug: catchpoint-systems-assertions-api
-- description: The CommandControl API from Catchpoint Systems — 1 operation(s) for commandcontrol.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The CommandControl API from Catchpoint Systems — 1 operation(s) for commandcontrol.
   name: Catchpoint Systems CommandControl API
   slug: catchpoint-systems-commandcontrol-api
-- description: The Contacts API from Catchpoint Systems — 3 operation(s) for contacts.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Contacts API from Catchpoint Systems — 3 operation(s) for contacts.
   name: Catchpoint Systems Contacts API
   slug: catchpoint-systems-contacts-api
-- description: The Credentials API from Catchpoint Systems — 3 operation(s) for credentials.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Credentials API from Catchpoint Systems — 3 operation(s) for credentials.
   name: Catchpoint Systems Credentials API
   slug: catchpoint-systems-credentials-api
-- description: The Divisions API from Catchpoint Systems — 1 operation(s) for divisions.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Divisions API from Catchpoint Systems — 1 operation(s) for divisions.
   name: Catchpoint Systems Divisions API
   slug: catchpoint-systems-divisions-api
-- description: The EndpointDevice API from Catchpoint Systems — 7 operation(s) for endpointdevice.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The EndpointDevice API from Catchpoint Systems — 7 operation(s) for endpointdevice.
   name: Catchpoint Systems EndpointDevice API
   slug: catchpoint-systems-endpointdevice-api
-- description: The EndpointDevicePerformance API from Catchpoint Systems — 3 operation(s) for endpointdeviceperformance.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The EndpointDevicePerformance API from Catchpoint Systems — 3 operation(s) for endpointdeviceperformance.
   name: Catchpoint Systems EndpointDevicePerformance API
   slug: catchpoint-systems-endpointdeviceperformance-api
-- description: The Folder API from Catchpoint Systems — 3 operation(s) for folder.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Folder API from Catchpoint Systems — 3 operation(s) for folder.
   name: Catchpoint Systems Folder API
   slug: catchpoint-systems-folder-api
-- description: The Insights API from Catchpoint Systems — 4 operation(s) for insights.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Insights API from Catchpoint Systems — 4 operation(s) for insights.
   name: Catchpoint Systems Insights API
   slug: catchpoint-systems-insights-api
-- description: The Instances API from Catchpoint Systems — 6 operation(s) for instances.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Instances API from Catchpoint Systems — 6 operation(s) for instances.
   name: Catchpoint Systems Instances API
   slug: catchpoint-systems-instances-api
-- description: The InstantTest API from Catchpoint Systems — 4 operation(s) for instanttest.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The InstantTest API from Catchpoint Systems — 4 operation(s) for instanttest.
   name: Catchpoint Systems InstantTest API
   slug: catchpoint-systems-instanttest-api
-- description: The InternetWeather API from Catchpoint Systems — 1 operation(s) for internetweather.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The InternetWeather API from Catchpoint Systems — 1 operation(s) for internetweather.
   name: Catchpoint Systems InternetWeather API
   slug: catchpoint-systems-internetweather-api
-- description: The Label API from Catchpoint Systems — 3 operation(s) for label.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Label API from Catchpoint Systems — 3 operation(s) for label.
   name: Catchpoint Systems Label API
   slug: catchpoint-systems-label-api
-- description: The Node API from Catchpoint Systems — 13 operation(s) for node.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Node API from Catchpoint Systems — 13 operation(s) for node.
   name: Catchpoint Systems Node API
   slug: catchpoint-systems-node-api
-- description: The NodeGroup API from Catchpoint Systems — 5 operation(s) for nodegroup.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The NodeGroup API from Catchpoint Systems — 5 operation(s) for nodegroup.
   name: Catchpoint Systems NodeGroup API
   slug: catchpoint-systems-nodegroup-api
-- description: The NodeUtilization API from Catchpoint Systems — 6 operation(s) for nodeutilization.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The NodeUtilization API from Catchpoint Systems — 6 operation(s) for nodeutilization.
   name: Catchpoint Systems NodeUtilization API
   slug: catchpoint-systems-nodeutilization-api
-- description: The Product API from Catchpoint Systems — 3 operation(s) for product.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Product API from Catchpoint Systems — 3 operation(s) for product.
   name: Catchpoint Systems Product API
   slug: catchpoint-systems-product-api
-- description: The RealUser API from Catchpoint Systems — 6 operation(s) for realuser.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The RealUser API from Catchpoint Systems — 6 operation(s) for realuser.
   name: Catchpoint Systems RealUser API
   slug: catchpoint-systems-realuser-api
-- description: The RecentErrors API from Catchpoint Systems — 2 operation(s) for recenterrors.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The RecentErrors API from Catchpoint Systems — 2 operation(s) for recenterrors.
   name: Catchpoint Systems RecentErrors API
   slug: catchpoint-systems-recenterrors-api
-- description: The SLA API from Catchpoint Systems — 4 operation(s) for sla.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The SLA API from Catchpoint Systems — 4 operation(s) for sla.
   name: Catchpoint Systems SLA API
   slug: catchpoint-systems-sla-api
-- description: The SLO API from Catchpoint Systems — 4 operation(s) for slo.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The SLO API from Catchpoint Systems — 4 operation(s) for slo.
   name: Catchpoint Systems SLO API
   slug: catchpoint-systems-slo-api
-- description: The Test API from Catchpoint Systems — 7 operation(s) for test.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Test API from Catchpoint Systems — 7 operation(s) for test.
   name: Catchpoint Systems Test API
   slug: catchpoint-systems-test-api
-- description: The TestPerformance API from Catchpoint Systems — 11 operation(s) for testperformance.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The TestPerformance API from Catchpoint Systems — 11 operation(s) for testperformance.
   name: Catchpoint Systems TestPerformance API
   slug: catchpoint-systems-testperformance-api
-- description: The TestTemplates API from Catchpoint Systems — 4 operation(s) for testtemplates.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The TestTemplates API from Catchpoint Systems — 4 operation(s) for testtemplates.
   name: Catchpoint Systems TestTemplates API
   slug: catchpoint-systems-testtemplates-api
-- description: The UsageReport API from Catchpoint Systems — 1 operation(s) for usagereport.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The UsageReport API from Catchpoint Systems — 1 operation(s) for usagereport.
   name: Catchpoint Systems UsageReport API
   slug: catchpoint-systems-usagereport-api
-- description: The UserIdentity API from Catchpoint Systems — 1 operation(s) for useridentity.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The UserIdentity API from Catchpoint Systems — 1 operation(s) for useridentity.
   name: Catchpoint Systems UserIdentity API
   slug: catchpoint-systems-useridentity-api
-- description: The UserRole API from Catchpoint Systems — 3 operation(s) for userrole.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The UserRole API from Catchpoint Systems — 3 operation(s) for userrole.
   name: Catchpoint Systems UserRole API
   slug: catchpoint-systems-userrole-api
-- description: The Workflow API from Catchpoint Systems — 1 operation(s) for workflow.
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Workflow API from Catchpoint Systems — 1 operation(s) for workflow.
   name: Catchpoint Systems Workflow API
   slug: catchpoint-systems-workflow-api
 artifact_total: 68
@@ -379,7 +441,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -389,7 +451,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 46.3
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -401,7 +463,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint-systems/refs/heads/main/screenshots/catchpoint-systems-2026-07-25T204812.png
 security:

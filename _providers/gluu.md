@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: Agama Lab is a developer portal for authoring Cedar schema and policies, building authentication workflows using the Agama domain specific language, and managing hosted Gluu infrastructure.
   name: Agama Lab
   slug: agama-lab
-- description: The discovery API from Gluu — 3 operation(s) for discovery.
+- baseURL: https://docs.gluu.org/
+  baseurl_source: declared
+  description: The discovery API from Gluu — 3 operation(s) for discovery.
   name: Gluu discovery API
   slug: gluu-discovery-api
-- description: The fido API from Gluu — 2 operation(s) for fido.
+- baseURL: https://docs.gluu.org/
+  baseurl_source: declared
+  description: The fido API from Gluu — 2 operation(s) for fido.
   name: Gluu fido API
   slug: gluu-fido-api
-- description: The groups API from Gluu — 3 operation(s) for groups.
+- baseURL: https://docs.gluu.org/
+  baseurl_source: declared
+  description: The groups API from Gluu — 3 operation(s) for groups.
   name: Gluu groups API
   slug: gluu-groups-api
-- description: The users API from Gluu — 4 operation(s) for users.
+- baseURL: https://docs.gluu.org/
+  baseurl_source: declared
+  description: The users API from Gluu — 4 operation(s) for users.
   name: Gluu users API
   slug: gluu-users-api
 artifact_total: 20
@@ -200,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png
 security:

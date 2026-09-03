@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: The Gracenote OnConnect Data API provides extended metadata for TV, movies, celebrities, and sports. It is designed for connected experiences and mobile applications that need rich entertainment data,
   name: Gracenote OnConnect Data API
   slug: onconnect-data-api
-- description: The Celebrities API from Gracenote — 2 operation(s) for celebrities.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Celebrities API from Gracenote — 2 operation(s) for celebrities.
   name: Gracenote Celebrities API
   slug: gracenote-celebrities-api
-- description: The Lineups API from Gracenote — 4 operation(s) for lineups.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Lineups API from Gracenote — 4 operation(s) for lineups.
   name: Gracenote Lineups API
   slug: gracenote-lineups-api
-- description: The Movies API from Gracenote — 2 operation(s) for movies.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Movies API from Gracenote — 2 operation(s) for movies.
   name: Gracenote Movies API
   slug: gracenote-movies-api
-- description: The Programs API from Gracenote — 2 operation(s) for programs.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Programs API from Gracenote — 2 operation(s) for programs.
   name: Gracenote Programs API
   slug: gracenote-programs-api
-- description: The Series API from Gracenote — 2 operation(s) for series.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Series API from Gracenote — 2 operation(s) for series.
   name: Gracenote Series API
   slug: gracenote-series-api
-- description: The Sports API from Gracenote — 2 operation(s) for sports.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Sports API from Gracenote — 2 operation(s) for sports.
   name: Gracenote Sports API
   slug: gracenote-sports-api
-- description: The Stations API from Gracenote — 3 operation(s) for stations.
+- baseURL: http://data.tmsapi.com/v1.1
+  baseurl_source: spec
+  description: The Stations API from Gracenote — 3 operation(s) for stations.
   name: Gracenote Stations API
   slug: gracenote-stations-api
 artifact_total: 24
@@ -209,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gracenote/refs/heads/main/screenshots/gracenote-2026-06-20T182312.png
 security:

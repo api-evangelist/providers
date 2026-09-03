@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 25 operations · 16 acting
 api_count: 1
 apis:
-- description: The Operation API from Azure Container Registry — 2 operation(s) for operation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operation API from Azure Container Registry — 2 operation(s) for operation.
   name: Azure Container Registry Operation API
   slug: azure-container-registry-operation-api
-- description: The Registries API from Azure Container Registry — 7 operation(s) for registries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Registries API from Azure Container Registry — 7 operation(s) for registries.
   name: Azure Container Registry Registries API
   slug: azure-container-registry-registries-api
-- description: The Replications API from Azure Container Registry — 2 operation(s) for replications.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Replications API from Azure Container Registry — 2 operation(s) for replications.
   name: Azure Container Registry Replications API
   slug: azure-container-registry-replications-api
-- description: The Webhooks API from Azure Container Registry — 5 operation(s) for webhooks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Webhooks API from Azure Container Registry — 5 operation(s) for webhooks.
   name: Azure Container Registry Webhooks API
   slug: azure-container-registry-webhooks-api
 artifact_total: 107
@@ -489,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/screenshots/azure-container-registry-2026-06-20T172845.png
 security:

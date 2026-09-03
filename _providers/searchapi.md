@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,16 +37,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
+- baseURL: https://www.searchapi.io/api/v1/search
+  baseurl_source: declared
+  description: REST API returning structured JSON search results across 100+ engines (Google, Bing, Maps, News, Scholar, Images, Shopping, Trends, Jobs, YouTube, Amazon, Walmart, eBay). Single /api/v1/search endpoin
   name: SearchApi SERP API
   slug: searchapi-serp-api
-- description: The two account-management endpoints SearchApi documents alongside its SERP surface. GET /api/v1/me returns the calling key's monthly allowance, month-to-date usage, remaining credits, searches made i
+- baseURL: https://www.searchapi.io/api/v1
+  baseurl_source: declared
+  description: The two account-management endpoints SearchApi documents alongside its SERP surface. GET /api/v1/me returns the calling key's monthly allowance, month-to-date usage, remaining credits, searches made i
   name: SearchApi Account & Analytics API
   slug: searchapi-account-analytics-api
-- description: Aggregated performance and error analytics for the account's own searches.
+- baseURL: https://www.searchapi.io/api/v1/search
+  baseurl_source: declared
+  description: Aggregated performance and error analytics for the account's own searches.
   name: SearchApi Analytics API
   slug: searchapi-analytics-api
 artifact_total: 12
@@ -247,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/screenshots/searchapi-2026-08-17T081744.png
 security:

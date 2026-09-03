@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The DataSourceFields API from Templafy — 2 operation(s) for datasourcefields.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The DataSourceFields API from Templafy — 2 operation(s) for datasourcefields.
   name: Templafy DataSourceFields API
   slug: templafy-datasourcefields-api
-- description: The DataSourceItemFields API from Templafy — 1 operation(s) for datasourceitemfields.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The DataSourceItemFields API from Templafy — 1 operation(s) for datasourceitemfields.
   name: Templafy DataSourceItemFields API
   slug: templafy-datasourceitemfields-api
-- description: The DataSourceItems API from Templafy — 2 operation(s) for datasourceitems.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The DataSourceItems API from Templafy — 2 operation(s) for datasourceitems.
   name: Templafy DataSourceItems API
   slug: templafy-datasourceitems-api
-- description: The DataSources API from Templafy — 2 operation(s) for datasources.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The DataSources API from Templafy — 2 operation(s) for datasources.
   name: Templafy DataSources API
   slug: templafy-datasources-api
-- description: The Documents API from Templafy — 3 operation(s) for documents.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Documents API from Templafy — 3 operation(s) for documents.
   name: Templafy Documents API
   slug: templafy-documents-api
-- description: The EmailElements API from Templafy — 2 operation(s) for emailelements.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The EmailElements API from Templafy — 2 operation(s) for emailelements.
   name: Templafy EmailElements API
   slug: templafy-emailelements-api
-- description: The Folders API from Templafy — 3 operation(s) for folders.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Folders API from Templafy — 3 operation(s) for folders.
   name: Templafy Folders API
   slug: templafy-folders-api
-- description: The Images API from Templafy — 2 operation(s) for images.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Images API from Templafy — 2 operation(s) for images.
   name: Templafy Images API
   slug: templafy-images-api
-- description: The Libraries API from Templafy — 2 operation(s) for libraries.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Libraries API from Templafy — 2 operation(s) for libraries.
   name: Templafy Libraries API
   slug: templafy-libraries-api
-- description: The Links API from Templafy — 2 operation(s) for links.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Links API from Templafy — 2 operation(s) for links.
   name: Templafy Links API
   slug: templafy-links-api
-- description: The Pdfs API from Templafy — 2 operation(s) for pdfs.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Pdfs API from Templafy — 2 operation(s) for pdfs.
   name: Templafy Pdfs API
   slug: templafy-pdfs-api
-- description: The Presentations API from Templafy — 3 operation(s) for presentations.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Presentations API from Templafy — 3 operation(s) for presentations.
   name: Templafy Presentations API
   slug: templafy-presentations-api
-- description: The SlideElements API from Templafy — 2 operation(s) for slideelements.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The SlideElements API from Templafy — 2 operation(s) for slideelements.
   name: Templafy SlideElements API
   slug: templafy-slideelements-api
-- description: The Slides API from Templafy — 2 operation(s) for slides.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Slides API from Templafy — 2 operation(s) for slides.
   name: Templafy Slides API
   slug: templafy-slides-api
-- description: The Spaces API from Templafy — 1 operation(s) for spaces.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Spaces API from Templafy — 1 operation(s) for spaces.
   name: Templafy Spaces API
   slug: templafy-spaces-api
-- description: The Spreadsheets API from Templafy — 3 operation(s) for spreadsheets.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Spreadsheets API from Templafy — 3 operation(s) for spreadsheets.
   name: Templafy Spreadsheets API
   slug: templafy-spreadsheets-api
-- description: The TextElements API from Templafy — 3 operation(s) for textelements.
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The TextElements API from Templafy — 3 operation(s) for textelements.
   name: Templafy TextElements API
   slug: templafy-textelements-api
 artifact_total: 39
@@ -297,7 +331,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/templafy/refs/heads/main/screenshots/templafy-2026-08-17T082310.png
 security:

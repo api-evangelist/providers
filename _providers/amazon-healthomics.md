@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 72 operations · 49 acting
 api_count: 1
 apis:
-- description: The AnnotationStore API from Amazon HealthOmics — 2 operation(s) for annotationstore.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The AnnotationStore API from Amazon HealthOmics — 2 operation(s) for annotationstore.
   name: Amazon HealthOmics AnnotationStore API
   slug: amazon-healthomics-annotationstore-api
-- description: The AnnotationStores API from Amazon HealthOmics — 1 operation(s) for annotationstores.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The AnnotationStores API from Amazon HealthOmics — 1 operation(s) for annotationstores.
   name: Amazon HealthOmics AnnotationStores API
   slug: amazon-healthomics-annotationstores-api
-- description: The Import API from Amazon HealthOmics — 6 operation(s) for import.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Import API from Amazon HealthOmics — 6 operation(s) for import.
   name: Amazon HealthOmics Import API
   slug: amazon-healthomics-import-api
-- description: The Referencestore API from Amazon HealthOmics — 9 operation(s) for referencestore.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Referencestore API from Amazon HealthOmics — 9 operation(s) for referencestore.
   name: Amazon HealthOmics Referencestore API
   slug: amazon-healthomics-referencestore-api
-- description: The Referencestores API from Amazon HealthOmics — 1 operation(s) for referencestores.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Referencestores API from Amazon HealthOmics — 1 operation(s) for referencestores.
   name: Amazon HealthOmics Referencestores API
   slug: amazon-healthomics-referencestores-api
-- description: The Run API from Amazon HealthOmics — 5 operation(s) for run.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Run API from Amazon HealthOmics — 5 operation(s) for run.
   name: Amazon HealthOmics Run API
   slug: amazon-healthomics-run-api
-- description: The RunGroup API from Amazon HealthOmics — 2 operation(s) for rungroup.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The RunGroup API from Amazon HealthOmics — 2 operation(s) for rungroup.
   name: Amazon HealthOmics RunGroup API
   slug: amazon-healthomics-rungroup-api
-- description: The Sequencestore API from Amazon HealthOmics — 21 operation(s) for sequencestore.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Sequencestore API from Amazon HealthOmics — 21 operation(s) for sequencestore.
   name: Amazon HealthOmics Sequencestore API
   slug: amazon-healthomics-sequencestore-api
-- description: The Sequencestores API from Amazon HealthOmics — 1 operation(s) for sequencestores.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Sequencestores API from Amazon HealthOmics — 1 operation(s) for sequencestores.
   name: Amazon HealthOmics Sequencestores API
   slug: amazon-healthomics-sequencestores-api
-- description: The Tags API from Amazon HealthOmics — 2 operation(s) for tags.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon HealthOmics — 2 operation(s) for tags.
   name: Amazon HealthOmics Tags API
   slug: amazon-healthomics-tags-api
-- description: The VariantStore API from Amazon HealthOmics — 2 operation(s) for variantstore.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The VariantStore API from Amazon HealthOmics — 2 operation(s) for variantstore.
   name: Amazon HealthOmics VariantStore API
   slug: amazon-healthomics-variantstore-api
-- description: The VariantStores API from Amazon HealthOmics — 1 operation(s) for variantstores.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The VariantStores API from Amazon HealthOmics — 1 operation(s) for variantstores.
   name: Amazon HealthOmics VariantStores API
   slug: amazon-healthomics-variantstores-api
-- description: The Workflow API from Amazon HealthOmics — 2 operation(s) for workflow.
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Workflow API from Amazon HealthOmics — 2 operation(s) for workflow.
   name: Amazon HealthOmics Workflow API
   slug: amazon-healthomics-workflow-api
 arazzos:
@@ -3779,7 +3805,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/screenshots/amazon-healthomics-2026-07-25T200010.png
 security:

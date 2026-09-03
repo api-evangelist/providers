@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 17 operations · 13 acting
 api_count: 1
 apis:
-- description: Discover and retrieve details about quantum devices
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Discover and retrieve details about quantum devices
   name: Amazon Braket Devices API
   slug: amazon-braket-devices-api
-- description: Manage hybrid quantum-classical jobs
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage hybrid quantum-classical jobs
   name: Amazon Braket Jobs API
   slug: amazon-braket-jobs-api
-- description: Submit and manage quantum tasks on QPUs and simulators
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Submit and manage quantum tasks on QPUs and simulators
   name: Amazon Braket Quantum Tasks API
   slug: amazon-braket-quantum-tasks-api
-- description: Control QPU and simulator spending
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Control QPU and simulator spending
   name: Amazon Braket Spending Limits API
   slug: amazon-braket-spending-limits-api
-- description: Manage resource tags
+- baseURL: https://braket.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage resource tags
   name: Amazon Braket Tags API
   slug: amazon-braket-tags-api
 artifact_total: 24
@@ -262,7 +272,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/screenshots/amazon-braket-2026-07-25T195944.png
 security:

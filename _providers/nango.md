@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Nango provides a unified API platform for building product integrations with 600+ external APIs. It offers managed API authentication (OAuth and other auth methods), a syncing framework, proxy for API
   name: Nango
   slug: nango
-- description: Trigger one-shot actions.
+- baseURL: https://api.nango.dev
+  baseurl_source: spec
+  description: Trigger one-shot actions.
   name: Nango Actions API
   slug: nango-actions-api
-- description: Manage end-user connections and credentials.
+- baseURL: https://api.nango.dev
+  baseurl_source: spec
+  description: Manage end-user connections and credentials.
   name: Nango Connections API
   slug: nango-connections-api
-- description: Manage integration definitions.
+- baseURL: https://api.nango.dev
+  baseurl_source: spec
+  description: Manage integration definitions.
   name: Nango Integrations API
   slug: nango-integrations-api
-- description: Proxy requests to upstream APIs with credential injection.
+- baseURL: https://api.nango.dev
+  baseurl_source: spec
+  description: Proxy requests to upstream APIs with credential injection.
   name: Nango Proxy API
   slug: nango-proxy-api
-- description: Manage and trigger data syncs.
+- baseURL: https://api.nango.dev
+  baseurl_source: spec
+  description: Manage and trigger data syncs.
   name: Nango Syncs API
   slug: nango-syncs-api
 artifact_total: 36
@@ -215,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-08-17T083516.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Bankwest Banking Account Balances API
   slug: bankwest-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Bankwest Banking Account Direct Debits API
   slug: bankwest-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Bankwest Banking Account Scheduled Payments API
   slug: bankwest-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Bankwest Banking Account Transactions API
   slug: bankwest-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Bankwest Banking Accounts API
   slug: bankwest-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Bankwest Banking Payees API
   slug: bankwest-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://open-api.bankwest.com.au/bwpublic/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Bankwest Banking Products API
   slug: bankwest-banking-products-api
 artifact_total: 20
@@ -241,7 +255,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/screenshots/bankwest-2026-07-21T114718.png
 security:

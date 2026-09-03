@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 81 operations · 39 acting
 api_count: 4
 apis:
-- description: The Agents API from Fintary — 7 operation(s) for agents.
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: The Agents API from Fintary — 7 operation(s) for agents.
   name: Fintary Agents API
   slug: fintary-agents-api
-- description: Agent management endpoints
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: Agent management endpoints
   name: Fintary AMS - Agents API
   slug: fintary-ams-agents-api
-- description: AMS configuration endpoints (statuses, roles)
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: AMS configuration endpoints (statuses, roles)
   name: Fintary AMS - Configs API
   slug: fintary-ams-configs-api
-- description: Customer management endpoints
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: Customer management endpoints
   name: Fintary AMS - Customers API
   slug: fintary-ams-customers-api
-- description: Policy management endpoints
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: Policy management endpoints
   name: Fintary AMS - Policies API
   slug: fintary-ams-policies-api
-- description: The AMS - Registry API from Fintary — 5 operation(s) for ams - registry.
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: The AMS - Registry API from Fintary — 5 operation(s) for ams - registry.
   name: Fintary AMS - Registry API
   slug: fintary-ams-registry-api
-- description: The AMS - Tasks API from Fintary — 5 operation(s) for ams - tasks.
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: The AMS - Tasks API from Fintary — 5 operation(s) for ams - tasks.
   name: Fintary AMS - Tasks API
   slug: fintary-ams-tasks-api
-- description: The Analytics API from Fintary — 8 operation(s) for analytics.
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: The Analytics API from Fintary — 8 operation(s) for analytics.
   name: Fintary Analytics API
   slug: fintary-analytics-api
-- description: The Commission Reports API from Fintary — 1 operation(s) for commission reports.
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: The Commission Reports API from Fintary — 1 operation(s) for commission reports.
   name: Fintary Commission Reports API
   slug: fintary-commission-reports-api
-- description: The Documents API from Fintary — 2 operation(s) for documents.
+- baseURL: https://api.fintary.com
+  baseurl_source: declared
+  description: The Documents API from Fintary — 2 operation(s) for documents.
   name: Fintary Documents API
   slug: fintary-documents-api
 artifact_total: 16
@@ -246,7 +266,7 @@ score:
     regime_id: insurance
     score: 53.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/screenshots/fintary-2026-07-25T214544.png
 security:

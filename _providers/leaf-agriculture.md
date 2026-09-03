@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 1
@@ -490,7 +490,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaf-agriculture/refs/heads/main/screenshots/leaf-agriculture-2026-06-20T184352.png
 security:

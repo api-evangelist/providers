@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -46,22 +46,34 @@ apis:
 - description: AgentGateway provides AI-native gateway capabilities for routing LLM traffic, federating MCP tools, enabling agent-to-agent communication, and applying security and observability controls across AI ag
   name: AgentGateway
   slug: agentgateway
-- description: The Config API from AgentGateway — 1 operation(s) for config.
+- baseURL: http://127.0.0.1:15000
+  baseurl_source: declared
+  description: The Config API from AgentGateway — 1 operation(s) for config.
   name: AgentGateway Config API
   slug: agentgateway-config-api
-- description: The Debug API from AgentGateway — 2 operation(s) for debug.
+- baseURL: http://127.0.0.1:15000
+  baseurl_source: declared
+  description: The Debug API from AgentGateway — 2 operation(s) for debug.
   name: AgentGateway Debug API
   slug: agentgateway-debug-api
-- description: The Lifecycle API from AgentGateway — 1 operation(s) for lifecycle.
+- baseURL: http://127.0.0.1:15000
+  baseurl_source: declared
+  description: The Lifecycle API from AgentGateway — 1 operation(s) for lifecycle.
   name: AgentGateway Lifecycle API
   slug: agentgateway-lifecycle-api
-- description: The Logging API from AgentGateway — 1 operation(s) for logging.
+- baseURL: http://127.0.0.1:15000
+  baseurl_source: declared
+  description: The Logging API from AgentGateway — 1 operation(s) for logging.
   name: AgentGateway Logging API
   slug: agentgateway-logging-api
-- description: The Memory API from AgentGateway — 1 operation(s) for memory.
+- baseURL: http://127.0.0.1:15000
+  baseurl_source: declared
+  description: The Memory API from AgentGateway — 1 operation(s) for memory.
   name: AgentGateway Memory API
   slug: agentgateway-memory-api
-- description: The Profiling API from AgentGateway — 2 operation(s) for profiling.
+- baseURL: http://127.0.0.1:15000
+  baseurl_source: declared
+  description: The Profiling API from AgentGateway — 2 operation(s) for profiling.
   name: AgentGateway Profiling API
   slug: agentgateway-profiling-api
 artifact_total: 59
@@ -416,7 +428,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -429,7 +441,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 55.8
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -441,7 +453,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/screenshots/agentgateway-2026-06-20T170015.png
 security:

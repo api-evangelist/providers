@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: The API Gateway Portals control plane (introduced November 19, 2025) lets you create branded developer portals that catalog REST APIs. A portal contains PortalProducts (logical groupings of REST APIs)
   name: Amazon API Gateway Portals
   slug: aws-api-gateway-portals
-- description: Manage API keys
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage API keys
   name: Amazon API Gateway ApiKeys API
   slug: aws-api-gateway-apikeys-api
-- description: The Apis API from Amazon API Gateway — 2 operation(s) for apis.
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Apis API from Amazon API Gateway — 2 operation(s) for apis.
   name: Amazon API Gateway Apis API
   slug: aws-api-gateway-apis-api
-- description: Manage authorizers
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage authorizers
   name: Amazon API Gateway Authorizers API
   slug: aws-api-gateway-authorizers-api
-- description: Manage and message active WebSocket connections
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage and message active WebSocket connections
   name: Amazon API Gateway Connections API
   slug: aws-api-gateway-connections-api
-- description: Manage API deployments
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage API deployments
   name: Amazon API Gateway Deployments API
   slug: aws-api-gateway-deployments-api
-- description: Manage backend integrations
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage backend integrations
   name: Amazon API Gateway Integrations API
   slug: aws-api-gateway-integrations-api
-- description: Manage HTTP methods on resources
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage HTTP methods on resources
   name: Amazon API Gateway Methods API
   slug: aws-api-gateway-methods-api
-- description: Manage resources within a REST API
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage resources within a REST API
   name: Amazon API Gateway Resources API
   slug: aws-api-gateway-resources-api
-- description: Manage REST API definitions
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage REST API definitions
   name: Amazon API Gateway RestApis API
   slug: aws-api-gateway-restapis-api
-- description: Manage routes within an API
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage routes within an API
   name: Amazon API Gateway Routes API
   slug: aws-api-gateway-routes-api
-- description: Manage deployment stages
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage deployment stages
   name: Amazon API Gateway Stages API
   slug: aws-api-gateway-stages-api
-- description: Manage usage plans
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage usage plans
   name: Amazon API Gateway UsagePlans API
   slug: aws-api-gateway-usageplans-api
 arazzos:
@@ -965,7 +989,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -975,7 +999,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 65.8
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     contracts:
@@ -984,7 +1008,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

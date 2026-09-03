@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 2
 apis:
-- description: Menu groups, categories, and items.
+- baseURL: https://admin.poslavu.com/cp/reqserv
+  baseurl_source: spec
+  description: Menu groups, categories, and items.
   name: Lavu Menu API
   slug: lavu-menu-api
-- description: Orders, order contents, and payments.
+- baseURL: https://admin.poslavu.com/cp/reqserv
+  baseurl_source: spec
+  description: Orders, order contents, and payments.
   name: Lavu Orders API
   slug: lavu-orders-api
 artifact_total: 38
@@ -277,7 +281,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/screenshots/lavu-2026-06-20T184344.png
 security:

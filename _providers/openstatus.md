@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 12 acting
 api_count: 1
 apis:
-- description: On-demand synthetic checks.
+- baseURL: https://api.openstatus.dev/v1
+  baseurl_source: declared
+  description: On-demand synthetic checks.
   name: OpenStatus Check API
   slug: openstatus-check-api
-- description: Incidents automatically opened when a monitor fails.
+- baseURL: https://api.openstatus.dev/v1
+  baseurl_source: declared
+  description: Incidents automatically opened when a monitor fails.
   name: OpenStatus Incident API
   slug: openstatus-incident-api
-- description: HTTP, TCP, and DNS uptime monitors.
+- baseURL: https://api.openstatus.dev/v1
+  baseurl_source: declared
+  description: HTTP, TCP, and DNS uptime monitors.
   name: OpenStatus Monitor API
   slug: openstatus-monitor-api
-- description: Public status pages and subscribers.
+- baseURL: https://api.openstatus.dev/v1
+  baseurl_source: declared
+  description: Public status pages and subscribers.
   name: OpenStatus Page API
   slug: openstatus-page-api
-- description: Status reports and their updates.
+- baseURL: https://api.openstatus.dev/v1
+  baseurl_source: declared
+  description: Status reports and their updates.
   name: OpenStatus Status Report API
   slug: openstatus-status-report-api
 artifact_total: 20
@@ -187,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/screenshots/openstatus-2026-08-07T190644.png
 security:

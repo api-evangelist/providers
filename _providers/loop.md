@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 41 operations · 15 acting
 api_count: 2
 apis:
-- description: The artifacts API from Loop — 6 operation(s) for artifacts.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The artifacts API from Loop — 6 operation(s) for artifacts.
   name: Loop artifacts API
   slug: loop-artifacts-api
-- description: The artifacts-schema-validated API from Loop — 6 operation(s) for artifacts-schema-validated.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The artifacts-schema-validated API from Loop — 6 operation(s) for artifacts-schema-validated.
   name: Loop artifacts-schema-validated API
   slug: loop-artifacts-schema-validated-api
-- description: The business-exceptions API from Loop — 3 operation(s) for business-exceptions.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The business-exceptions API from Loop — 3 operation(s) for business-exceptions.
   name: Loop business-exceptions API
   slug: loop-business-exceptions-api
-- description: The factoring-relationships API from Loop — 2 operation(s) for factoring-relationships.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The factoring-relationships API from Loop — 2 operation(s) for factoring-relationships.
   name: Loop factoring-relationships API
   slug: loop-factoring-relationships-api
-- description: The invoicing-relationships API from Loop — 2 operation(s) for invoicing-relationships.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The invoicing-relationships API from Loop — 2 operation(s) for invoicing-relationships.
   name: Loop invoicing-relationships API
   slug: loop-invoicing-relationships-api
-- description: The onboarding.api.loop.com API from Loop — 1 operation(s) for onboarding.api.loop.com.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The onboarding.api.loop.com API from Loop — 1 operation(s) for onboarding.api.loop.com.
   name: Loop onboarding.api.loop.com API
   slug: loop-onboarding-api-loop-com-api
-- description: The organizations API from Loop — 3 operation(s) for organizations.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The organizations API from Loop — 3 operation(s) for organizations.
   name: Loop organizations API
   slug: loop-organizations-api
-- description: The payable-allocations API from Loop — 2 operation(s) for payable-allocations.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The payable-allocations API from Loop — 2 operation(s) for payable-allocations.
   name: Loop payable-allocations API
   slug: loop-payable-allocations-api
-- description: The payable-invoice-reviews API from Loop — 2 operation(s) for payable-invoice-reviews.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The payable-invoice-reviews API from Loop — 2 operation(s) for payable-invoice-reviews.
   name: Loop payable-invoice-reviews API
   slug: loop-payable-invoice-reviews-api
-- description: The payable-invoices API from Loop — 2 operation(s) for payable-invoices.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The payable-invoices API from Loop — 2 operation(s) for payable-invoices.
   name: Loop payable-invoices API
   slug: loop-payable-invoices-api
-- description: The payments API from Loop — 2 operation(s) for payments.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The payments API from Loop — 2 operation(s) for payments.
   name: Loop payments API
   slug: loop-payments-api
-- description: The ping API from Loop — 1 operation(s) for ping.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The ping API from Loop — 1 operation(s) for ping.
   name: Loop ping API
   slug: loop-ping-api
-- description: The receivable-invoices API from Loop — 3 operation(s) for receivable-invoices.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The receivable-invoices API from Loop — 3 operation(s) for receivable-invoices.
   name: Loop receivable-invoices API
   slug: loop-receivable-invoices-api
-- description: The shipment-jobs API from Loop — 2 operation(s) for shipment-jobs.
+- baseURL: https://api.loop.com
+  baseurl_source: declared
+  description: The shipment-jobs API from Loop — 2 operation(s) for shipment-jobs.
   name: Loop shipment-jobs API
   slug: loop-shipment-jobs-api
 artifact_total: 33
@@ -271,7 +299,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -281,7 +309,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 45.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +327,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
 security:

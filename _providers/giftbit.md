@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: Browse available reward brands and catalogs
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Browse available reward brands and catalogs
   name: Giftbit Brands API
   slug: giftbit-brands-api
-- description: Create and manage email reward orders
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Create and manage email reward orders
   name: Giftbit Campaigns API
   slug: giftbit-campaigns-api
-- description: Create direct link reward orders
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Create direct link reward orders
   name: Giftbit Direct Links API
   slug: giftbit-direct-links-api
-- description: Create in-app embedded reward orders
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Create in-app embedded reward orders
   name: Giftbit Embedded Rewards API
   slug: giftbit-embedded-rewards-api
-- description: Manage account balance and credit card funding
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Manage account balance and credit card funding
   name: Giftbit Funds API
   slug: giftbit-funds-api
-- description: Health check and authentication test
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Health check and authentication test
   name: Giftbit Ping API
   slug: giftbit-ping-api
-- description: List supported geographical regions
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: List supported geographical regions
   name: Giftbit Regions API
   slug: giftbit-regions-api
-- description: List, retrieve, resend, or cancel individual rewards
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: List, retrieve, resend, or cancel individual rewards
   name: Giftbit Rewards API
   slug: giftbit-rewards-api
-- description: Create shortlink reward orders
+- baseURL: https://api.giftbit.com/papi/v1
+  baseurl_source: declared
+  description: Create shortlink reward orders
   name: Giftbit Shortlinks API
   slug: giftbit-shortlinks-api
 artifact_total: 36
@@ -268,7 +286,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/screenshots/giftbit-2026-06-20T181826.png
 security:

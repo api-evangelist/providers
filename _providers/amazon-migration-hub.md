@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 17 operations · 17 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.associatecreatedartifact.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.associatecreatedartifact.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-associatecreatedartifact-api
-- description: 'The #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.associatediscoveredresource.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.associatediscoveredresource.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.AssociateDiscoveredResource API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-associatediscoveredresource-api
-- description: 'The #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.createprogressupdatestream.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.createprogressupdatestream.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.CreateProgressUpdateStream API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-createprogressupdatestream-api
-- description: 'The #X Amz Target=AWSMigrationHub.DeleteProgressUpdateStream API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.deleteprogressupdatestream.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.DeleteProgressUpdateStream API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.deleteprogressupdatestream.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.DeleteProgressUpdateStream API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-deleteprogressupdatestream-api
-- description: 'The #X Amz Target=AWSMigrationHub.DescribeApplicationState API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.describeapplicationstate.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.DescribeApplicationState API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.describeapplicationstate.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.DescribeApplicationState API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-describeapplicationstate-api
-- description: 'The #X Amz Target=AWSMigrationHub.DescribeMigrationTask API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.describemigrationtask.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.DescribeMigrationTask API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.describemigrationtask.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.DescribeMigrationTask API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-describemigrationtask-api
-- description: 'The #X Amz Target=AWSMigrationHub.DisassociateCreatedArtifact API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.disassociatecreatedartifact.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.DisassociateCreatedArtifact API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.disassociatecreatedartifact.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.DisassociateCreatedArtifact API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-disassociatecreatedartifact-api
-- description: 'The #X Amz Target=AWSMigrationHub.DisassociateDiscoveredResource API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.disassociatediscoveredresource.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.DisassociateDiscoveredResource API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.disassociatediscoveredresource.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.DisassociateDiscoveredResource API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-disassociatediscoveredresource-api
-- description: 'The #X Amz Target=AWSMigrationHub.ImportMigrationTask API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.importmigrationtask.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.ImportMigrationTask API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.importmigrationtask.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.ImportMigrationTask API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-importmigrationtask-api
-- description: 'The #X Amz Target=AWSMigrationHub.ListApplicationStates API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listapplicationstates.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.ListApplicationStates API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listapplicationstates.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.ListApplicationStates API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-listapplicationstates-api
-- description: 'The #X Amz Target=AWSMigrationHub.ListCreatedArtifacts API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listcreatedartifacts.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.ListCreatedArtifacts API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listcreatedartifacts.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.ListCreatedArtifacts API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-listcreatedartifacts-api
-- description: 'The #X Amz Target=AWSMigrationHub.ListDiscoveredResources API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listdiscoveredresources.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.ListDiscoveredResources API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listdiscoveredresources.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.ListDiscoveredResources API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-listdiscoveredresources-api
-- description: 'The #X Amz Target=AWSMigrationHub.ListMigrationTasks API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listmigrationtasks.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.ListMigrationTasks API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listmigrationtasks.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.ListMigrationTasks API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-listmigrationtasks-api
-- description: 'The #X Amz Target=AWSMigrationHub.ListProgressUpdateStreams API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listprogressupdatestreams.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.ListProgressUpdateStreams API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.listprogressupdatestreams.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.ListProgressUpdateStreams API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-listprogressupdatestreams-api
-- description: 'The #X Amz Target=AWSMigrationHub.NotifyApplicationState API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.notifyapplicationstate.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.NotifyApplicationState API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.notifyapplicationstate.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.NotifyApplicationState API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-notifyapplicationstate-api
-- description: 'The #X Amz Target=AWSMigrationHub.NotifyMigrationTaskState API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.notifymigrationtaskstate.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.NotifyMigrationTaskState API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.notifymigrationtaskstate.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.NotifyMigrationTaskState API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-notifymigrationtaskstate-api
-- description: 'The #X Amz Target=AWSMigrationHub.PutResourceAttributes API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.putresourceattributes.'
+- baseURL: http://mgh.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSMigrationHub.PutResourceAttributes API from Amazon Migration Hub — 1 operation(s) for #x amz target=awsmigrationhub.putresourceattributes.'
   name: 'Amazon Migration Hub #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
   slug: amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
 artifact_total: 306
@@ -1077,7 +1111,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/screenshots/amazon-migration-hub-2026-06-20T171744.png
 security:

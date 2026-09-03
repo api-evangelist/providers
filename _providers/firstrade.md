@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: 'Access to Firstrade account data is available through the Plaid financial data aggregation platform. Plaid supports four product categories for Firstrade: Assets (consolidated balance summaries and as'
   name: Firstrade Account Data API (via Plaid)
   slug: firstrade-account-data-api-via-plaid
-- description: Account list, balances, positions, and history
+- baseURL: https://production.plaid.com
+  baseurl_source: declared
+  description: Account list, balances, positions, and history
   name: Firstrade Account API
   slug: firstrade-account-api
-- description: Session login and MFA flows
+- baseURL: https://production.plaid.com
+  baseurl_source: declared
+  description: Session login and MFA flows
   name: Firstrade Authentication API
   slug: firstrade-authentication-api
-- description: Stock quotes, OHLC chart data, and option chains
+- baseURL: https://production.plaid.com
+  baseurl_source: declared
+  description: Stock quotes, OHLC chart data, and option chains
   name: Firstrade Market Data API
   slug: firstrade-market-data-api
-- description: Equity and option order placement, listing, and cancellation
+- baseURL: https://production.plaid.com
+  baseurl_source: declared
+  description: Equity and option order placement, listing, and cancellation
   name: Firstrade Orders API
   slug: firstrade-orders-api
-- description: Watchlist CRUD operations
+- baseURL: https://production.plaid.com
+  baseurl_source: declared
+  description: Watchlist CRUD operations
   name: Firstrade Watchlist API
   slug: firstrade-watchlist-api
 artifact_total: 18
@@ -197,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/screenshots/firstrade-2026-06-20T181243.png
 security:

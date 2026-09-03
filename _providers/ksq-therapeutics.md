@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +35,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: WordPress page collection behind ksqtx.com — Home, About, Platform, Pipeline, Partners, News, Press Releases, Careers and the Expanded Access Policy. 9 items on 2026-08-23. Bodies are Divi page-builde
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: WordPress page collection behind ksqtx.com — Home, About, Platform, Pipeline, Partners, News, Press Releases, Careers and the Expanded Access Policy. 9 items on 2026-08-23. Bodies are Divi page-builde
   name: KSQ Therapeutics Pages API
   slug: ksq-therapeutics-pages-api
-- description: WordPress media library — 235 attachments on 2026-08-23, including leadership and board headshots, pipeline and platform graphics, poster PDFs and the homepage background video.
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: WordPress media library — 235 attachments on 2026-08-23, including leadership and board headshots, pipeline and platform graphics, poster PDFs and the homepage background video.
   name: KSQ Therapeutics Media API
   slug: ksq-therapeutics-media-api
-- description: Cross-type WordPress search over every REST-exposed post type. 48 results anonymously on 2026-08-23. Returns lightweight {id, title, url, type, subtype} records.
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: Cross-type WordPress search over every REST-exposed post type. 48 results anonymously on 2026-08-23. Returns lightweight {id, title, url, type, subtype} records.
   name: KSQ Therapeutics Search API
   slug: ksq-therapeutics-search-api
-- description: The WordPress REST route index, namespace index, registered post types, taxonomies and statuses. 349 routes across 9 namespaces on 2026-08-23. This is the only machine-readable contract KSQ Therapeuti
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: The WordPress REST route index, namespace index, registered post types, taxonomies and statuses. 349 routes across 9 namespaces on 2026-08-23. This is the only machine-readable contract KSQ Therapeuti
   name: KSQ Therapeutics Discovery API
   slug: ksq-therapeutics-discovery-api
-- description: Category and post_tag term collections. Registered and anonymously reachable; one category term ("Uncategorized", 5 posts) and zero tags on 2026-08-23.
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: Category and post_tag term collections. Registered and anonymously reachable; one category term ("Uncategorized", 5 posts) and zero tags on 2026-08-23.
   name: KSQ Therapeutics Taxonomy API
   slug: ksq-therapeutics-taxonomy-api
-- description: The core WordPress post collection. Registered and anonymously reachable, but empty on this deployment (X-WP-Total 0 on 2026-08-23) — KSQ publishes news through press_release instead.
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: The core WordPress post collection. Registered and anonymously reachable, but empty on this deployment (X-WP-Total 0 on 2026-08-23) — KSQ publishes news through press_release instead.
   name: KSQ Therapeutics Posts API
   slug: ksq-therapeutics-posts-api
-- description: oEmbed 1.0 discovery for ksqtx.com URLs. Verified live anonymously on 2026-08-23 — provider_name "KSQ Therapeutics", provider_url https://ksqtx.com.
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 discovery for ksqtx.com URLs. Verified live anonymously on 2026-08-23 — provider_name "KSQ Therapeutics", provider_url https://ksqtx.com.
   name: KSQ Therapeutics oEmbed API
   slug: ksq-therapeutics-oembed-api
-- description: Press Releases API operations on the ksqtx.com WordPress deployment.
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: Press Releases API operations on the ksqtx.com WordPress deployment.
   name: KSQ Therapeutics Press Release API
   slug: ksq-therapeutics-press-release-api
 artifact_total: 12
@@ -202,7 +230,7 @@ score:
   band: thin
   composite: 27.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -233,8 +261,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ksq-therapeutics/refs/heads/main/screenshots/ksq-therapeutics-2026-09-02T150151.png
 security:
 - kind: authentication
   name: Ksq Therapeutics Authentication

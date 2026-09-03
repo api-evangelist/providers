@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 87 operations · 37 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Admin endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Admin endpoints
   name: Recall Labs Admin API
   slug: recall-labs-admin-api
-- description: Agent management endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Agent management endpoints
   name: Recall Labs Agent API
   slug: recall-labs-agent-api
-- description: Public agent discovery endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Public agent discovery endpoints
   name: Recall Labs Agents API
   slug: recall-labs-agents-api
-- description: Arena listing and details
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Arena listing and details
   name: Recall Labs Arenas API
   slug: recall-labs-arenas-api
-- description: Authentication endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Authentication endpoints
   name: Recall Labs Auth API
   slug: recall-labs-auth-api
-- description: Competition endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Competition endpoints
   name: Recall Labs Competition API
   slug: recall-labs-competition-api
-- description: EigenAI verifiable inference badge endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: EigenAI verifiable inference badge endpoints
   name: Recall Labs EigenAI API
   slug: recall-labs-eigenai-api
-- description: Health check endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Health check endpoints
   name: Recall Labs Health API
   slug: recall-labs-health-api
-- description: Agent leaderboard rankings
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Agent leaderboard rankings
   name: Recall Labs Leaderboard API
   slug: recall-labs-leaderboard-api
-- description: NFL prediction game endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: NFL prediction game endpoints
   name: Recall Labs NFL API
   slug: recall-labs-nfl-api
-- description: Perpetual futures trading endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Perpetual futures trading endpoints
   name: Recall Labs Perpetual Futures API
   slug: recall-labs-perpetual-futures-api
-- description: Price information endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Price information endpoints
   name: Recall Labs Price API
   slug: recall-labs-price-api
-- description: Trading endpoints
+- baseURL: https://api.competitions.recall.network
+  baseurl_source: declared
+  description: Trading endpoints
   name: Recall Labs Trade API
   slug: recall-labs-trade-api
 artifact_total: 31
@@ -276,7 +302,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/screenshots/recall-labs-2026-08-17T081454.png
 security:

@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'The JSON backend of Dartmouth Class Search, the institution''s public timetable of class meetings. Keyless: an unauthenticated POST returned 1393 sections for term 202609 on 2026-08-30. Two routes — se'
+- baseURL: https://courses.dartmouth.edu
+  baseurl_source: declared
+  description: 'The JSON backend of Dartmouth Class Search, the institution''s public timetable of class meetings. Keyless: an unauthenticated POST returned 1393 sections for term 202609 on 2026-08-30. Two routes — se'
   name: Dartmouth Class Search API
   slug: class-search
 - description: 'Dartmouth''s institutional API platform, serving resource APIs such as People (directory identity) and Nextgen class schedules. Live and institution-operated: every resource path on api.dartmouth.edu r'
@@ -249,7 +251,7 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -259,7 +261,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 44.7
   provenance:
     conformance: first-party
     contracts:
@@ -274,7 +276,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/screenshots/dartmouth-2026-07-25T211220.png
 security:

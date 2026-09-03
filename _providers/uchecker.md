@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +37,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Вход, регистрация, управление JWT-токенами и API ключами, привязка Telegram
+- baseURL: https://api.uchecker.net
+  baseurl_source: declared
+  description: Вход, регистрация, управление JWT-токенами и API ключами, привязка Telegram
   name: uChecker Аутентификация API
   slug: uchecker-default-api
-- description: Проверка email-адресов, управление задачами валидации, получение и скачивание результатов
+- baseURL: https://api.uchecker.net
+  baseurl_source: declared
+  description: Проверка email-адресов, управление задачами валидации, получение и скачивание результатов
   name: uChecker Валидация Email API
   slug: uchecker-email-api
-- description: 'Программный интерфейс для ESP-провайдеров: расчёт стоимости и автоматическое создание аккаунтов с зачислением кредитов'
+- baseURL: https://api.uchecker.net
+  baseurl_source: declared
+  description: 'Программный интерфейс для ESP-провайдеров: расчёт стоимости и автоматическое создание аккаунтов с зачислением кредитов'
   name: uChecker ESP Провайдеры API
   slug: uchecker-esp-api
 artifact_total: 10
@@ -188,7 +208,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -198,7 +218,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -209,7 +229,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/screenshots/uchecker-2026-08-17T082530.png
 security:

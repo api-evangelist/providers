@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -47,46 +47,74 @@ apis:
 - description: Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed engine for serverless functions running on Akamai Cloud. Developers author functions with the Spin Framework and deploy them to a
   name: Fermyon Wasm Functions
   slug: fermyon
-- description: The accounts API from Fermyon — 1 operation(s) for accounts.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The accounts API from Fermyon — 1 operation(s) for accounts.
   name: Fermyon accounts API
   slug: fermyon-accounts-api
-- description: The apps API from Fermyon — 6 operation(s) for apps.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The apps API from Fermyon — 6 operation(s) for apps.
   name: Fermyon apps API
   slug: fermyon-apps-api
-- description: The auth-tokens API from Fermyon — 2 operation(s) for auth-tokens.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The auth-tokens API from Fermyon — 2 operation(s) for auth-tokens.
   name: Fermyon auth-tokens API
   slug: fermyon-auth-tokens-api
-- description: The channels API from Fermyon — 6 operation(s) for channels.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The channels API from Fermyon — 6 operation(s) for channels.
   name: Fermyon channels API
   slug: fermyon-channels-api
-- description: The custom-domains API from Fermyon — 1 operation(s) for custom-domains.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The custom-domains API from Fermyon — 1 operation(s) for custom-domains.
   name: Fermyon custom-domains API
   slug: fermyon-custom-domains-api
-- description: The device-codes API from Fermyon — 3 operation(s) for device-codes.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The device-codes API from Fermyon — 3 operation(s) for device-codes.
   name: Fermyon device-codes API
   slug: fermyon-device-codes-api
-- description: The key-value-pairs API from Fermyon — 1 operation(s) for key-value-pairs.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The key-value-pairs API from Fermyon — 1 operation(s) for key-value-pairs.
   name: Fermyon key-value-pairs API
   slug: fermyon-key-value-pairs-api
-- description: The key-value-stores API from Fermyon — 4 operation(s) for key-value-stores.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The key-value-stores API from Fermyon — 4 operation(s) for key-value-stores.
   name: Fermyon key-value-stores API
   slug: fermyon-key-value-stores-api
-- description: The oci API from Fermyon — 4 operation(s) for oci.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The oci API from Fermyon — 4 operation(s) for oci.
   name: Fermyon oci API
   slug: fermyon-oci-api
-- description: The payments API from Fermyon — 3 operation(s) for payments.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The payments API from Fermyon — 3 operation(s) for payments.
   name: Fermyon payments API
   slug: fermyon-payments-api
-- description: The personal-access-tokens API from Fermyon — 2 operation(s) for personal-access-tokens.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The personal-access-tokens API from Fermyon — 2 operation(s) for personal-access-tokens.
   name: Fermyon personal-access-tokens API
   slug: fermyon-personal-access-tokens-api
-- description: The revisions API from Fermyon — 1 operation(s) for revisions.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The revisions API from Fermyon — 1 operation(s) for revisions.
   name: Fermyon revisions API
   slug: fermyon-revisions-api
-- description: The sql-databases API from Fermyon — 5 operation(s) for sql-databases.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The sql-databases API from Fermyon — 5 operation(s) for sql-databases.
   name: Fermyon sql-databases API
   slug: fermyon-sql-databases-api
-- description: The variable-pairs API from Fermyon — 1 operation(s) for variable-pairs.
+- baseURL: https://cloud.fermyon.com
+  baseurl_source: spec
+  description: The variable-pairs API from Fermyon — 1 operation(s) for variable-pairs.
   name: Fermyon variable-pairs API
   slug: fermyon-variable-pairs-api
 artifact_total: 38
@@ -236,7 +264,7 @@ score:
       marker_coverage: 100.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/screenshots/fermyon-2026-06-20T181140.png
 security:

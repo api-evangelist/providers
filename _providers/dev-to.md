@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 42 operations · 15 acting
 api_count: 1
 apis:
-- description: The Dev.to Webhooks API allows developers to subscribe to real-time notifications for events occurring on the Dev.to platform. By creating webhook subscriptions, applications can receive HTTP callback
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The Dev.to Webhooks API allows developers to subscribe to real-time notifications for events occurring on the Dev.to platform. By creating webhook subscriptions, applications can receive HTTP callback
   name: Dev.to Webhooks API
   slug: webhooks-api
-- description: Endpoints for creating, reading, updating, and managing articles (blog posts, discussions, help threads) on the platform.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for creating, reading, updating, and managing articles (blog posts, discussions, help threads) on the platform.
   name: dev-to Articles API
   slug: dev-to-articles-api
-- description: Endpoints for retrieving comments on articles and podcast episodes, including threaded conversation views.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving comments on articles and podcast episodes, including threaded conversation views.
   name: dev-to Comments API
   slug: dev-to-comments-api
-- description: Endpoints for managing display advertisements on the platform. Requires admin-level API key.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for managing display advertisements on the platform. Requires admin-level API key.
   name: dev-to DisplayAds API
   slug: dev-to-displayads-api
-- description: Endpoints for retrieving the tags followed by the authenticated user.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving the tags followed by the authenticated user.
   name: dev-to FollowedTags API
   slug: dev-to-followedtags-api
-- description: Endpoints for retrieving followers of the authenticated user.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving followers of the authenticated user.
   name: dev-to Followers API
   slug: dev-to-followers-api
-- description: Endpoints for retrieving organization details, members, and articles.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving organization details, members, and articles.
   name: dev-to Organizations API
   slug: dev-to-organizations-api
-- description: Endpoints for managing static pages on the platform. Requires admin-level API key.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for managing static pages on the platform. Requires admin-level API key.
   name: dev-to Pages API
   slug: dev-to-pages-api
-- description: Endpoints for retrieving published podcast episodes.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving published podcast episodes.
   name: dev-to PodcastEpisodes API
   slug: dev-to-podcastepisodes-api
-- description: Endpoints for retrieving profile images of users and organizations.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving profile images of users and organizations.
   name: dev-to ProfileImages API
   slug: dev-to-profileimages-api
-- description: Endpoints for creating and toggling reactions on articles, comments, and users.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for creating and toggling reactions on articles, comments, and users.
   name: dev-to Reactions API
   slug: dev-to-reactions-api
-- description: Endpoints for retrieving the authenticated user's reading list.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving the authenticated user's reading list.
   name: dev-to ReadingList API
   slug: dev-to-readinglist-api
-- description: The Tags API from dev-to — 1 operation(s) for tags.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The Tags API from dev-to — 1 operation(s) for tags.
   name: dev-to Tags API
   slug: dev-to-tags-api
-- description: Endpoints for retrieving user profiles and managing user accounts.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving user profiles and managing user accounts.
   name: dev-to Users API
   slug: dev-to-users-api
-- description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions for real-time event notifications.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions for real-time event notifications.
   name: dev-to Webhooks API
   slug: dev-to-webhooks-api
 artifact_total: 42
@@ -193,16 +223,16 @@ jsonld:
   slug: dev-to-context
 layout: provider
 modified: '2026-05-19'
-name: dev-to
+name: Dev To
 nav: Providers
 network: true
-overview: 'dev-to publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Dev.to Webhooks API, Articles API, Comments API, and 12 more.
+overview: 'Dev To publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Dev.to Webhooks API, dev-to Articles API, dev-to Comments API, and 12 more.
 
 
-  The dev-to catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Dev To catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  dev-to''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Dev To''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Dev To Plans Pricing
   plan_count: 3
@@ -216,7 +246,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: dev-to API Rules
+  name: Dev To API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -226,7 +256,7 @@ rules:
   slug: dev-to-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: dev-to API Rules
+  name: Dev To API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -242,7 +272,7 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -252,7 +282,7 @@ score:
     discoverability: 53.7
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -262,10 +292,10 @@ score:
       total: 14
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/screenshots/dev-to-2026-06-20T175954.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: WordPress REST API discovery documents.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST API discovery documents.
   name: Emulate Discovery API
   slug: emulate-discovery-api
-- description: Gated content request forms.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: Gated content request forms.
   name: Emulate Forms API
   slug: emulate-forms-api
-- description: Careers / job listings.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: Careers / job listings.
   name: Emulate Jobs API
   slug: emulate-jobs-api
-- description: Press coverage and newsroom items.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: Press coverage and newsroom items.
   name: Emulate News API
   slug: emulate-news-api
-- description: Emulate blog posts.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: Emulate blog posts.
   name: Emulate Posts API
   slug: emulate-posts-api
-- description: Resource library items and their taxonomies.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: Resource library items and their taxonomies.
   name: Emulate Resources API
   slug: emulate-resources-api
-- description: Organ-Chip protocols, user guides and data-analysis content.
+- baseURL: https://emulatebio.com/wp-json
+  baseurl_source: declared
+  description: Organ-Chip protocols, user guides and data-analysis content.
   name: Emulate Support API
   slug: emulate-support-api
 artifact_total: 11
@@ -197,7 +222,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emulate/refs/heads/main/screenshots/emulate-2026-08-07T164847.png
 security:

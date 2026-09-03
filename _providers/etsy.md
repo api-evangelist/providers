@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -47,85 +47,139 @@ apis:
 - description: AsyncAPI 2.6 description of Etsy's outbound webhook surface for the Open API v3. Covers the four documented event types (order.paid, order.canceled, order.shipped, order.delivered), the common webhook
   name: Etsy Open API v3 Webhooks
   slug: webhooks
-- description: The BuyerTaxonomy API from Etsy — 2 operation(s) for buyertaxonomy.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The BuyerTaxonomy API from Etsy — 2 operation(s) for buyertaxonomy.
   name: Etsy BuyerTaxonomy API
   slug: etsy-buyertaxonomy-api
-- description: The Ledger Entry API from Etsy — 2 operation(s) for ledger entry.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Ledger Entry API from Etsy — 2 operation(s) for ledger entry.
   name: Etsy Ledger Entry API
   slug: etsy-ledger-entry-api
-- description: The Other API from Etsy — 2 operation(s) for other.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Other API from Etsy — 2 operation(s) for other.
   name: Etsy Other API
   slug: etsy-other-api
-- description: The Payment API from Etsy — 3 operation(s) for payment.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Payment API from Etsy — 3 operation(s) for payment.
   name: Etsy Payment API
   slug: etsy-payment-api
-- description: The Review API from Etsy — 2 operation(s) for review.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Review API from Etsy — 2 operation(s) for review.
   name: Etsy Review API
   slug: etsy-review-api
-- description: The SellerTaxonomy API from Etsy — 2 operation(s) for sellertaxonomy.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The SellerTaxonomy API from Etsy — 2 operation(s) for sellertaxonomy.
   name: Etsy SellerTaxonomy API
   slug: etsy-sellertaxonomy-api
-- description: The Shop API from Etsy — 3 operation(s) for shop.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop API from Etsy — 3 operation(s) for shop.
   name: Etsy Shop API
   slug: etsy-shop-api
-- description: The Shop HolidayPreferences API from Etsy — 2 operation(s) for shop holidaypreferences.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop HolidayPreferences API from Etsy — 2 operation(s) for shop holidaypreferences.
   name: Etsy Shop HolidayPreferences API
   slug: etsy-shop-holidaypreferences-api
-- description: The Shop ProcessingProfiles API from Etsy — 2 operation(s) for shop processingprofiles.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop ProcessingProfiles API from Etsy — 2 operation(s) for shop processingprofiles.
   name: Etsy Shop ProcessingProfiles API
   slug: etsy-shop-processingprofiles-api
-- description: The Shop ProductionPartner API from Etsy — 1 operation(s) for shop productionpartner.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop ProductionPartner API from Etsy — 1 operation(s) for shop productionpartner.
   name: Etsy Shop ProductionPartner API
   slug: etsy-shop-productionpartner-api
-- description: The Shop Receipt API from Etsy — 3 operation(s) for shop receipt.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop Receipt API from Etsy — 3 operation(s) for shop receipt.
   name: Etsy Shop Receipt API
   slug: etsy-shop-receipt-api
-- description: The Shop Receipt Transactions API from Etsy — 4 operation(s) for shop receipt transactions.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop Receipt Transactions API from Etsy — 4 operation(s) for shop receipt transactions.
   name: Etsy Shop Receipt Transactions API
   slug: etsy-shop-receipt-transactions-api
-- description: The Shop Return Policy API from Etsy — 3 operation(s) for shop return policy.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop Return Policy API from Etsy — 3 operation(s) for shop return policy.
   name: Etsy Shop Return Policy API
   slug: etsy-shop-return-policy-api
-- description: The Shop Section API from Etsy — 2 operation(s) for shop section.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop Section API from Etsy — 2 operation(s) for shop section.
   name: Etsy Shop Section API
   slug: etsy-shop-section-api
-- description: The Shop ShippingProfile API from Etsy — 7 operation(s) for shop shippingprofile.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The Shop ShippingProfile API from Etsy — 7 operation(s) for shop shippingprofile.
   name: Etsy Shop ShippingProfile API
   slug: etsy-shop-shippingprofile-api
-- description: The ShopListing API from Etsy — 13 operation(s) for shoplisting.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing API from Etsy — 13 operation(s) for shoplisting.
   name: Etsy ShopListing API
   slug: etsy-shoplisting-api
-- description: The ShopListing File API from Etsy — 2 operation(s) for shoplisting file.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing File API from Etsy — 2 operation(s) for shoplisting file.
   name: Etsy ShopListing File API
   slug: etsy-shoplisting-file-api
-- description: The ShopListing Image API from Etsy — 4 operation(s) for shoplisting image.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Image API from Etsy — 4 operation(s) for shoplisting image.
   name: Etsy ShopListing Image API
   slug: etsy-shoplisting-image-api
-- description: The ShopListing Inventory API from Etsy — 1 operation(s) for shoplisting inventory.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Inventory API from Etsy — 1 operation(s) for shoplisting inventory.
   name: Etsy ShopListing Inventory API
   slug: etsy-shoplisting-inventory-api
-- description: The ShopListing Offering API from Etsy — 1 operation(s) for shoplisting offering.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Offering API from Etsy — 1 operation(s) for shoplisting offering.
   name: Etsy ShopListing Offering API
   slug: etsy-shoplisting-offering-api
-- description: The ShopListing Personalization API from Etsy — 2 operation(s) for shoplisting personalization.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Personalization API from Etsy — 2 operation(s) for shoplisting personalization.
   name: Etsy ShopListing Personalization API
   slug: etsy-shoplisting-personalization-api
-- description: The ShopListing Product API from Etsy — 1 operation(s) for shoplisting product.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Product API from Etsy — 1 operation(s) for shoplisting product.
   name: Etsy ShopListing Product API
   slug: etsy-shoplisting-product-api
-- description: The ShopListing Translation API from Etsy — 1 operation(s) for shoplisting translation.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Translation API from Etsy — 1 operation(s) for shoplisting translation.
   name: Etsy ShopListing Translation API
   slug: etsy-shoplisting-translation-api
-- description: The ShopListing VariationImage API from Etsy — 1 operation(s) for shoplisting variationimage.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing VariationImage API from Etsy — 1 operation(s) for shoplisting variationimage.
   name: Etsy ShopListing VariationImage API
   slug: etsy-shoplisting-variationimage-api
-- description: The ShopListing Video API from Etsy — 4 operation(s) for shoplisting video.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The ShopListing Video API from Etsy — 4 operation(s) for shoplisting video.
   name: Etsy ShopListing Video API
   slug: etsy-shoplisting-video-api
-- description: The User API from Etsy — 2 operation(s) for user.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The User API from Etsy — 2 operation(s) for user.
   name: Etsy User API
   slug: etsy-user-api
-- description: The UserAddress API from Etsy — 2 operation(s) for useraddress.
+- baseURL: https://openapi.etsy.com
+  baseurl_source: declared
+  description: The UserAddress API from Etsy — 2 operation(s) for useraddress.
   name: Etsy UserAddress API
   slug: etsy-useraddress-api
 arazzos:
@@ -1338,7 +1392,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -1351,7 +1405,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 61.7
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1366,7 +1420,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
 security:

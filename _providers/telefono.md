@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 3
 apis:
-- description: Batch validation for multiple numbers
+- baseURL: https://api.telefono.com/v1/validate
+  baseurl_source: declared
+  description: Batch validation for multiple numbers
   name: Telefono Batch API
   slug: telefono-batch-api
-- description: Carrier lookup endpoints
+- baseURL: https://api.telefono.com/v1/validate
+  baseurl_source: declared
+  description: Carrier lookup endpoints
   name: Telefono Carrier API
   slug: telefono-carrier-api
-- description: Number formatting and parsing endpoints
+- baseURL: https://api.telefono.com/v1/validate
+  baseurl_source: declared
+  description: Number formatting and parsing endpoints
   name: Telefono Format API
   slug: telefono-format-api
-- description: Phone number validation endpoints
+- baseURL: https://api.telefono.com/v1/validate
+  baseurl_source: declared
+  description: Phone number validation endpoints
   name: Telefono Validation API
   slug: telefono-validation-api
 artifact_total: 24
@@ -259,7 +267,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/screenshots/telefono-2026-06-20T195031.png
 security:

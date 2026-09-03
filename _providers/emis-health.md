@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -39,34 +52,54 @@ apis:
 - description: EMIS-X Analytics provides partner access to an EMIS-X data warehouse with modelled datasets across domains including Community Pharmacy, Incremental Primary Care Views (iPCVs), OpenSAFELY, Recruit, an
   name: EMIS-X Analytics
   slug: emis-x-analytics
-- description: The appointments API from EMIS Health — 17 operation(s) for appointments.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The appointments API from EMIS Health — 17 operation(s) for appointments.
   name: EMIS Health Appointments API
   slug: emis-health-appointments-api
-- description: The CORS API from EMIS Health — 40 operation(s) for cors.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The CORS API from EMIS Health — 40 operation(s) for cors.
   name: EMIS Health CORS API
   slug: emis-health-cors-api
-- description: The health API from EMIS Health — 1 operation(s) for health.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The health API from EMIS Health — 1 operation(s) for health.
   name: EMIS Health Health API
   slug: emis-health-health-api
-- description: The medicalRecord API from EMIS Health — 12 operation(s) for medicalrecord.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The medicalRecord API from EMIS Health — 12 operation(s) for medicalrecord.
   name: EMIS Health Medical Record API
   slug: emis-health-medicalrecord-api
-- description: The organisation API from EMIS Health — 2 operation(s) for organisation.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The organisation API from EMIS Health — 2 operation(s) for organisation.
   name: EMIS Health Organisation API
   slug: emis-health-organisation-api
-- description: The patient API from EMIS Health — 1 operation(s) for patient.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The patient API from EMIS Health — 1 operation(s) for patient.
   name: EMIS Health Patient API
   slug: emis-health-patient-api
-- description: The patientMatching API from EMIS Health — 4 operation(s) for patientmatching.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The patientMatching API from EMIS Health — 4 operation(s) for patientmatching.
   name: EMIS Health Patient Matching API
   slug: emis-health-patientmatching-api
-- description: The search API from EMIS Health — 1 operation(s) for search.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The search API from EMIS Health — 1 operation(s) for search.
   name: EMIS Health Search API
   slug: emis-health-search-api
-- description: The swagger API from EMIS Health — 1 operation(s) for swagger.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The swagger API from EMIS Health — 1 operation(s) for swagger.
   name: EMIS Health Swagger API
   slug: emis-health-swagger-api
-- description: The user API from EMIS Health — 1 operation(s) for user.
+- baseURL: https://api.platform.emis-x.uk/partner
+  baseurl_source: declared
+  description: The user API from EMIS Health — 1 operation(s) for user.
   name: EMIS Health User API
   slug: emis-health-user-api
 artifact_total: 18
@@ -225,7 +258,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png
 security:

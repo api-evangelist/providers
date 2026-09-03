@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 47 operations · 14 acting
 api_count: 1
 apis:
-- description: These endpoints allows your application to upload assets such as images or audio.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: These endpoints allows your application to upload assets such as images or audio.
   name: Epidemic Sound Assets API
   slug: epidemic-sound-assets-api
-- description: Endpoints for user authentication.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: Endpoints for user authentication.
   name: Epidemic Sound Authentication API
   slug: epidemic-sound-authentication-api
-- description: These endpoints are in beta.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: These endpoints are in beta.
   name: Epidemic Sound Beta API
   slug: epidemic-sound-beta-api
-- description: These endpoints will allow you to explore the Epidemic Sound library. You can display tracks grouped in curated playlists, moods or genres or use search to get tracks by any term.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: These endpoints will allow you to explore the Epidemic Sound library. You can display tracks grouped in curated playlists, moods or genres or use search to get tracks by any term.
   name: Epidemic Sound Browse & search API
   slug: epidemic-sound-browse-search-api
-- description: These endpoints will allow you to report how tracks are used in your application.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: These endpoints will allow you to report how tracks are used in your application.
   name: Epidemic Sound Reporting API
   slug: epidemic-sound-reporting-api
-- description: Endpoints for managing safelisting licenses. Allows partners to create, list, update, and delete licenses for channels and videos on behalf of their end users.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: Endpoints for managing safelisting licenses. Allows partners to create, list, update, and delete licenses for channels and videos on behalf of their end users.
   name: Epidemic Sound Safelisting API
   slug: epidemic-sound-safelisting-api
-- description: Endpoints to get sound effect specific information. These endpoints allow you to build a UI to browse and search for sound effects.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: Endpoints to get sound effect specific information. These endpoints allow you to build a UI to browse and search for sound effects.
   name: Epidemic Sound Sound effects API
   slug: epidemic-sound-sound-effects-api
-- description: Endpoints to get track specific information.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: Endpoints to get track specific information.
   name: Epidemic Sound Tracks API
   slug: epidemic-sound-tracks-api
-- description: These endpoints allows your application to get user specific information such as liked sounds.
+- baseURL: https://partner-content-api.epidemicsound.com
+  baseurl_source: declared
+  description: These endpoints allows your application to get user specific information such as liked sounds.
   name: Epidemic Sound Users API
   slug: epidemic-sound-users-api
 artifact_total: 48
@@ -335,7 +353,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/screenshots/epidemic-sound-2026-06-20T180755.png
 security:

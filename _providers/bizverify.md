@@ -23,37 +23,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
   name: BizVerify MCP Server
   slug: bizverify-mcp-server
-- description: The Account API from BizVerify — 5 operation(s) for account.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Account API from BizVerify — 5 operation(s) for account.
   name: BizVerify Account API
   slug: bizverify-account-api
-- description: The Auth API from BizVerify — 2 operation(s) for auth.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Auth API from BizVerify — 2 operation(s) for auth.
   name: BizVerify Auth API
   slug: bizverify-auth-api
-- description: The Billing API from BizVerify — 2 operation(s) for billing.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Billing API from BizVerify — 2 operation(s) for billing.
   name: BizVerify Billing API
   slug: bizverify-billing-api
-- description: The Entities API from BizVerify — 2 operation(s) for entities.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Entities API from BizVerify — 2 operation(s) for entities.
   name: BizVerify Entities API
   slug: bizverify-entities-api
-- description: The Meta API from BizVerify — 2 operation(s) for meta.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Meta API from BizVerify — 2 operation(s) for meta.
   name: BizVerify Meta API
   slug: bizverify-meta-api
-- description: The Public API from BizVerify — 2 operation(s) for public.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Public API from BizVerify — 2 operation(s) for public.
   name: BizVerify Public API
   slug: bizverify-public-api
-- description: The Search API from BizVerify — 1 operation(s) for search.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Search API from BizVerify — 1 operation(s) for search.
   name: BizVerify Search API
   slug: bizverify-search-api
-- description: The Tools API from BizVerify — 2 operation(s) for tools.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Tools API from BizVerify — 2 operation(s) for tools.
   name: BizVerify Tools API
   slug: bizverify-tools-api
-- description: The Verification API from BizVerify — 2 operation(s) for verification.
+- baseURL: https://api.bizverify.co
+  baseurl_source: declared
+  description: The Verification API from BizVerify — 2 operation(s) for verification.
   name: BizVerify Verification API
   slug: bizverify-verification-api
 artifact_total: 22
@@ -182,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify

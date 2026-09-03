@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 2
 apis:
-- description: The Wells Fargo ACH Payments API enables commercial banking customers to initiate ACH credit and debit transactions, including same-day ACH, for payroll, vendor payments, and collections. The API inte
+- baseURL: https://api.wellsfargo.com
+  baseurl_source: declared
+  description: The Wells Fargo ACH Payments API enables commercial banking customers to initiate ACH credit and debit transactions, including same-day ACH, for payroll, vendor payments, and collections. The API inte
   name: Wells Fargo ACH Payments API
   slug: ach-payments-api
-- description: Account information and balance queries.
+- baseURL: https://api.wellsfargo.com
+  baseurl_source: declared
+  description: Account information and balance queries.
   name: wells-fargo Accounts API
   slug: wells-fargo-accounts-api
-- description: Batch ACH payment file management.
+- baseURL: https://api.wellsfargo.com
+  baseurl_source: declared
+  description: Batch ACH payment file management.
   name: wells-fargo Payment Batches API
   slug: wells-fargo-payment-batches-api
-- description: ACH return and NOC (Notification of Change) processing.
+- baseURL: https://api.wellsfargo.com
+  baseurl_source: declared
+  description: ACH return and NOC (Notification of Change) processing.
   name: wells-fargo Payment Returns API
   slug: wells-fargo-payment-returns-api
-- description: Initiate and manage payments.
+- baseURL: https://api.wellsfargo.com
+  baseurl_source: declared
+  description: Initiate and manage payments.
   name: wells-fargo Payments API
   slug: wells-fargo-payments-api
-- description: Retrieve and search account transaction data.
+- baseURL: https://api.wellsfargo.com
+  baseurl_source: declared
+  description: Retrieve and search account transaction data.
   name: wells-fargo Transactions API
   slug: wells-fargo-transactions-api
 artifact_total: 34
@@ -289,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
 security:

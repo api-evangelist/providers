@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -65,22 +65,34 @@ apis:
 - description: Beta API enabling Bolt checkout links and checkout experiences across any surface, including social commerce, email, and other off-site channels.
   name: Checkout Everywhere API
   slug: checkout-everywhere-api
-- description: Use the Accounts API to access shoppers' accounts to empower your checkout and facilitate shoppers' choices.
+- baseURL: https://api.bolt.com
+  baseurl_source: declared
+  description: Use the Accounts API to access shoppers' accounts to empower your checkout and facilitate shoppers' choices.
   name: Bolt Account API
   slug: bolt-account-api
-- description: Implement Callback endpoints on your servers to power Bolt experiences. Different Bolt packages require different callbacks to be implemented. Consult your relevant product documentation for a list of
+- baseURL: https://api.bolt.com
+  baseurl_source: declared
+  description: Implement Callback endpoints on your servers to power Bolt experiences. Different Bolt packages require different callbacks to be implemented. Consult your relevant product documentation for a list of
   name: Bolt Callbacks API
   slug: bolt-callbacks-api
-- description: Use the OAuth API to enable your ecommerce server to make API calls on behalf of a Bolt logged-in shopper.
+- baseURL: https://api.bolt.com
+  baseurl_source: declared
+  description: Use the OAuth API to enable your ecommerce server to make API calls on behalf of a Bolt logged-in shopper.
   name: Bolt OAuth API
   slug: bolt-oauth-api
-- description: Use the Orders API to create and manage orders, including orders that have been placed outside the Bolt ecosystem.
+- baseURL: https://api.bolt.com
+  baseurl_source: declared
+  description: Use the Orders API to create and manage orders, including orders that have been placed outside the Bolt ecosystem.
   name: Bolt Orders API
   slug: bolt-orders-api
-- description: Use the Payments API to process credit card and alternative payment methods with Bolt.
+- baseURL: https://api.bolt.com
+  baseurl_source: declared
+  description: Use the Payments API to process credit card and alternative payment methods with Bolt.
   name: Bolt Payments API
   slug: bolt-payments-api
-- description: Use the Testing API to generate and retrieve test data to verify a subset of flows in non-production environments.
+- baseURL: https://api.bolt.com
+  baseurl_source: declared
+  description: Use the Testing API to generate and retrieve test data to verify a subset of flows in non-production environments.
   name: Bolt Testing API
   slug: bolt-testing-api
 artifact_total: 117
@@ -532,7 +544,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/screenshots/bolt-2026-06-20T173600.png
 security:

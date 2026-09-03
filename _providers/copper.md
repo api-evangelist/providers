@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 31 operations · 25 acting
 api_count: 1
 apis:
-- description: Activity log entries
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: Activity log entries
   name: Copper Activities API
   slug: copper-activities-api
-- description: Company records management
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: Company records management
   name: Copper Companies API
   slug: copper-companies-api
-- description: Lead records and conversion
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: Lead records and conversion
   name: Copper Leads API
   slug: copper-leads-api
-- description: Sales opportunity pipelines
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: Sales opportunity pipelines
   name: Copper Opportunities API
   slug: copper-opportunities-api
-- description: People (contacts) management
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: People (contacts) management
   name: Copper People API
   slug: copper-people-api
-- description: Task records management
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: Task records management
   name: Copper Tasks API
   slug: copper-tasks-api
-- description: Event subscription webhooks
+- baseURL: https://api.copper.com/developer_api/v1
+  baseurl_source: declared
+  description: Event subscription webhooks
   name: Copper Webhooks API
   slug: copper-webhooks-api
 artifact_total: 65
@@ -339,7 +353,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -349,7 +363,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 44.6
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png
 security:

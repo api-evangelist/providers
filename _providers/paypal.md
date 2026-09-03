@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -44,115 +44,189 @@ agentic_access:
   summary_line: 111 operations · 75 acting
 api_count: 14
 apis:
-- description: The Activate API from PayPal — 2 operation(s) for activate.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Activate API from PayPal — 2 operation(s) for activate.
   name: PayPal Activate API
   slug: paypal-activate-api
-- description: Use the `/authorizations` resource to show details for, capture payment for, reauthorize, and void authorized payments.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/authorizations` resource to show details for, capture payment for, reauthorize, and void authorized payments.
   name: PayPal Authorizations API
   slug: paypal-authorizations-api
-- description: Use the `/balances` resource to list balances.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/balances` resource to list balances.
   name: PayPal Balances API
   slug: paypal-balances-api
-- description: The Billing API from PayPal — 13 operation(s) for billing.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Billing API from PayPal — 13 operation(s) for billing.
   name: PayPal Billing API
   slug: paypal-billing-api
-- description: The Cancel API from PayPal — 1 operation(s) for cancel.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Cancel API from PayPal — 1 operation(s) for cancel.
   name: PayPal Cancel API
   slug: paypal-cancel-api
-- description: The Capture API from PayPal — 1 operation(s) for capture.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Capture API from PayPal — 1 operation(s) for capture.
   name: PayPal Capture API
   slug: paypal-capture-api
-- description: Use the `/captures` resource to show details for and refund a captured payment.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/captures` resource to show details for and refund a captured payment.
   name: PayPal Captures API
   slug: paypal-captures-api
-- description: The Deactivate API from PayPal — 1 operation(s) for deactivate.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Deactivate API from PayPal — 1 operation(s) for deactivate.
   name: PayPal Deactivate API
   slug: paypal-deactivate-api
-- description: Use the `/disputes` resource with a dispute ID and an action to:<ul><li>Accept a claim.</li><li>Accept an offer to resolve a dispute.</li><li>Acknowledge the return of an item related to a dispute.</l
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/disputes` resource with a dispute ID and an action to:<ul><li>Accept a claim.</li><li>Accept an offer to resolve a dispute.</li><li>Acknowledge the return of an item related to a dispute.</l
   name: PayPal Disputes-Actions API
   slug: paypal-disputes-actions-api
-- description: Use the `/disputes` resource to list disputes, create disputes, show dispute details, and partially a dispute. Normally, an agent at PayPal creates disputes but now you can run test cases in the sandb
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/disputes` resource to list disputes, create disputes, show dispute details, and partially a dispute. Normally, an agent at PayPal creates disputes but now you can run test cases in the sandb
   name: PayPal Disputes API
   slug: paypal-disputes-api
-- description: Use the `/invoices` resource to create, update, and send invoices and invoice reminders. To manage invoices, you can also list invoices, show details for invoices, delete draft invoices, and cancel se
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/invoices` resource to create, update, and send invoices and invoice reminders. To manage invoices, you can also list invoices, show details for invoices, delete draft invoices, and cancel se
   name: PayPal Invoices API
   slug: paypal-invoices-api
-- description: Use the `/orders` resource to create, update, retrieve, authorize, capture and track orders.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/orders` resource to create, update, retrieve, authorize, capture and track orders.
   name: PayPal Orders API
   slug: paypal-orders-api
-- description: Enables you to create and get information about shared customer data.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Enables you to create and get information about shared customer data.
   name: PayPal Partner-Referrals API
   slug: paypal-partner-referrals-api
-- description: Use the `/vault/payment-tokens` resource to create, retrieve, and delete a payment token that may optionally be associated with a customer.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/vault/payment-tokens` resource to create, retrieve, and delete a payment token that may optionally be associated with a customer.
   name: PayPal Payment-Tokens API
   slug: paypal-payment-tokens-api
-- description: Use the `/payouts` resource to create a batch payout, update the status for a batch payout, show the status of a batch payout with the transaction status and other data for individual payout items, an
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/payouts` resource to create a batch payout, update the status for a batch payout, show the status of a batch payout with the transaction status and other data for individual payout items, an
   name: PayPal Payouts API
   slug: paypal-payouts-api
-- description: Use the `/payouts-item` resource to show payout item details and cancel an unclaimed payout item.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/payouts-item` resource to show payout item details and cancel an unclaimed payout item.
   name: PayPal Payouts-Item API
   slug: paypal-payouts-item-api
-- description: The Plans API from PayPal — 5 operation(s) for plans.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Plans API from PayPal — 5 operation(s) for plans.
   name: PayPal Plans API
   slug: paypal-plans-api
-- description: The Pricing API from PayPal — 1 operation(s) for pricing.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Pricing API from PayPal — 1 operation(s) for pricing.
   name: PayPal Pricing API
   slug: paypal-pricing-api
-- description: Use `/products` resource to create and manage products.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use `/products` resource to create and manage products.
   name: PayPal Products API
   slug: paypal-products-api
-- description: Use the `/refunds` resource to show refund details.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/refunds` resource to show refund details.
   name: PayPal Refunds API
   slug: paypal-refunds-api
-- description: The Revise API from PayPal — 1 operation(s) for revise.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Revise API from PayPal — 1 operation(s) for revise.
   name: PayPal Revise API
   slug: paypal-revise-api
-- description: The Schemes API from PayPal — 1 operation(s) for schemes.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Schemes API from PayPal — 1 operation(s) for schemes.
   name: PayPal Schemes API
   slug: paypal-schemes-api
-- description: Use the `/search-invoices` resource to search for and list invoices that match search criteria.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/search-invoices` resource to search for and list invoices that match search criteria.
   name: PayPal Search-Invoices API
   slug: paypal-search-invoices-api
-- description: Use the `/vault/setup-tokens` resource to create and retrieve temporary vault payment methods.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/vault/setup-tokens` resource to create and retrieve temporary vault payment methods.
   name: PayPal Setup-Tokens API
   slug: paypal-setup-tokens-api
-- description: Use the `/simulate-event` resource to use a sample payload to simulate a webhook event. The events that this call generates only serve to validate the connection to the listener URL and to show how we
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/simulate-event` resource to use a sample payload to simulate a webhook event. The events that this call generates only serve to validate the connection to the listener URL and to show how we
   name: PayPal Simulate-Event API
   slug: paypal-simulate-event-api
-- description: The Subscriptions API from PayPal — 8 operation(s) for subscriptions.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Subscriptions API from PayPal — 8 operation(s) for subscriptions.
   name: PayPal Subscriptions API
   slug: paypal-subscriptions-api
-- description: The Suspend API from PayPal — 1 operation(s) for suspend.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Suspend API from PayPal — 1 operation(s) for suspend.
   name: PayPal Suspend API
   slug: paypal-suspend-api
-- description: 'Use the `/templates` resource to create, list, show details for, update, and delete invoice templates. Use the `/templates` resource when you create a third-party invoicing application. For instance, '
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: 'Use the `/templates` resource to create, list, show details for, update, and delete invoice templates. Use the `/templates` resource when you create a third-party invoicing application. For instance, '
   name: PayPal Templates API
   slug: paypal-templates-api
-- description: Use the `/trackers` resource to update and retrieve tracking information for PayPal orders.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/trackers` resource to update and retrieve tracking information for PayPal orders.
   name: PayPal Trackers API
   slug: paypal-trackers-api
-- description: Use the `/trackers-batch` resource to add tracking information for multiple PayPal transactions.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/trackers-batch` resource to add tracking information for multiple PayPal transactions.
   name: PayPal Trackers-Batch API
   slug: paypal-trackers-batch-api
-- description: The Transactions API from PayPal — 2 operation(s) for transactions.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: The Transactions API from PayPal — 2 operation(s) for transactions.
   name: PayPal Transactions API
   slug: paypal-transactions-api
-- description: Use the `/verify-webhook-signature` resource to verify a webhook signature.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/verify-webhook-signature` resource to verify a webhook signature.
   name: PayPal Verify-Webhook-Signature API
   slug: paypal-verify-webhook-signature-api
-- description: Use the `/payment-experience/web-profiles` resource to create, show details for, list, update, partially update, and delete web experience profiles.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/payment-experience/web-profiles` resource to create, show details for, list, update, partially update, and delete web experience profiles.
   name: PayPal Web-Profiles API
   slug: paypal-web-profiles-api
-- description: Use the `/webhooks` resource to subscribe your webhook listener to events, list webhooks for an app, show details for, update, delete, and list event subscriptions for webhooks.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/webhooks` resource to subscribe your webhook listener to events, list webhooks for an app, show details for, update, delete, and list event subscriptions for webhooks.
   name: PayPal Webhooks API
   slug: paypal-webhooks-api
-- description: Use the `/webhooks-event-types` resource to list available events to which any webhook can subscribe.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/webhooks-event-types` resource to list available events to which any webhook can subscribe.
   name: PayPal Webhooks-Event-Types API
   slug: paypal-webhooks-event-types-api
-- description: Use the `/webhooks-events` resource to list, show details for, and resend event notifications.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/webhooks-events` resource to list, show details for, and resend event notifications.
   name: PayPal Webhooks-Events API
   slug: paypal-webhooks-events-api
-- description: Use the `/webhooks-lookup` resource to create, list, show details for, and delete webhook lookups.
+- baseURL: https://api-m.sandbox.paypal.com
+  baseurl_source: spec
+  description: Use the `/webhooks-lookup` resource to create, list, show details for, and delete webhook lookups.
   name: PayPal Webhooks-Lookup API
   slug: paypal-webhooks-lookup-api
 artifact_total: 747
@@ -2403,7 +2477,7 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -2413,7 +2487,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 54.6
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2428,7 +2502,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png
 security:

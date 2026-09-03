@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -56,25 +56,39 @@ apis:
 - description: Retrieve and manage payment batches for processed expense reports ready for reimbursement. Provides visibility into batch payment status, amounts, and payee information for integration with payroll an
   name: Payment Batch v1 API
   slug: payment-batch-v1-api
-- description: Manage cost center, project, or GL account allocations for expense entries. Supports percentage-based and amount-based splits.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Manage cost center, project, or GL account allocations for expense entries. Supports percentage-based and amount-based splits.
   name: SAP Concur Expense Allocations API
   slug: sap-concur-expense-allocations-api
-- description: Manage individual expense line items within expense reports including itemizations, attendees, and custom fields.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Manage individual expense line items within expense reports including itemizations, attendees, and custom fields.
   name: SAP Concur Expense Expense Entries API
   slug: sap-concur-expense-expense-entries-api
-- description: Create, read, update, and submit expense reports. Manage the full report lifecycle from draft through approval and reimbursement.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Create, read, update, and submit expense reports. Manage the full report lifecycle from draft through approval and reimbursement.
   name: SAP Concur Expense Expense Reports API
   slug: sap-concur-expense-expense-reports-api
-- description: Retrieve expense group policy configurations including expense types, payment types, and workflow settings.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Retrieve expense group policy configurations including expense types, payment types, and workflow settings.
   name: SAP Concur Expense Group Configurations API
   slug: sap-concur-expense-group-configurations-api
-- description: Retrieve payment batch information for approved expense reports ready for reimbursement processing.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Retrieve payment batch information for approved expense reports ready for reimbursement processing.
   name: SAP Concur Expense Payment Batches API
   slug: sap-concur-expense-payment-batches-api
-- description: Create and manage quick expenses captured outside of a formal report. Quick expenses can be promoted to full expense report entries.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Create and manage quick expenses captured outside of a formal report. Quick expenses can be promoted to full expense report entries.
   name: SAP Concur Expense Quick Expenses API
   slug: sap-concur-expense-quick-expenses-api
-- description: Upload and retrieve receipt images associated with expense entries. Supports PNG, JPG, PDF, and TIFF image formats.
+- baseURL: https://us.api.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Upload and retrieve receipt images associated with expense entries. Supports PNG, JPG, PDF, and TIFF image formats.
   name: SAP Concur Expense Receipt Images API
   slug: sap-concur-expense-receipt-images-api
 arazzos:
@@ -478,7 +492,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -488,7 +502,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 47.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -497,7 +511,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/screenshots/sap-concur-expense-2026-06-20T193425.png
 security:

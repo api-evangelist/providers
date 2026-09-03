@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,19 +55,29 @@ apis:
 - description: Elasticsearch-backed REST API for querying PANGAEA's controlled vocabulary and term dictionary used for classifying datasets by topic, parameter, and method.
   name: PANGAEA Term Dictionary API
   slug: pangaea-term-dictionary-api
-- description: Filter dataset data by DOI and parameter values
+- baseURL: https://ws.pangaea.de/es/pangaea/panmd/_search
+  baseurl_source: declared
+  description: Filter dataset data by DOI and parameter values
   name: PANGAEA DOI Filter API
   slug: pangaea-doi-filter-api
-- description: Filter cross-dataset data by geographic and temporal constraints
+- baseURL: https://ws.pangaea.de/es/pangaea/panmd/_search
+  baseurl_source: declared
+  description: Filter cross-dataset data by geographic and temporal constraints
   name: PANGAEA Geo Filter API
   slug: pangaea-geo-filter-api
-- description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
+- baseURL: https://ws.pangaea.de/es/pangaea/panmd/_search
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
   name: PANGAEA OAI-PMH API
   slug: pangaea-oai-pmh-api
-- description: Full-text and faceted dataset search
+- baseURL: https://ws.pangaea.de/es/pangaea/panmd/_search
+  baseurl_source: declared
+  description: Full-text and faceted dataset search
   name: PANGAEA Search API
   slug: pangaea-search-api
-- description: Controlled vocabulary and term dictionary
+- baseURL: https://ws.pangaea.de/es/pangaea/panmd/_search
+  baseurl_source: declared
+  description: Controlled vocabulary and term dictionary
   name: PANGAEA Terms API
   slug: pangaea-terms-api
 artifact_total: 24
@@ -167,7 +177,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/screenshots/pangaea-2026-06-20T191337.png
 security:

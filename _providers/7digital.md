@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 107 operations · 26 acting · 1 human-in-the-loop
 api_count: 23
 apis:
-- description: Browse, search, chart, and resolve 7digital artists and their releases.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Browse, search, chart, and resolve 7digital artists and their releases.
   name: 7digital Artists API
   slug: 7digital-artists-api
-- description: Manage purchase baskets, apply vouchers, and complete PayPal checkout.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Manage purchase baskets, apply vouchers, and complete PayPal checkout.
   name: 7digital Basket API
   slug: 7digital-basket-api
-- description: Resolve catalogue entities (artist, release) from 7digital web URLs.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Resolve catalogue entities (artist, release) from 7digital web URLs.
   name: 7digital Catalogue API
   slug: 7digital-catalogue-api
-- description: Bulk media transfer for content delivery / catalogue ingestion partners.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Bulk media transfer for content delivery / catalogue ingestion partners.
   name: 7digital Content Delivery API
   slug: 7digital-content-delivery-api
-- description: Download a previously purchased track or release (ZIP or single-file).
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Download a previously purchased track or release (ZIP or single-file).
   name: 7digital Download Purchases API
   slug: 7digital-download-purchases-api
-- description: List 7digital editorial features, banners, and curated content slots.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: List 7digital editorial features, banners, and curated content slots.
   name: 7digital Editorial API
   slug: 7digital-editorial-api
-- description: Lean-back, ruleset-governed (DMCA, GVL) radio listening sessions.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Lean-back, ruleset-governed (DMCA, GVL) radio listening sessions.
   name: 7digital Interactive Radio API
   slug: 7digital-interactive-radio-api
-- description: Resolve an end-user's country from an IP address.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Resolve an end-user's country from an IP address.
   name: 7digital IpLookup API
   slug: 7digital-iplookup-api
-- description: Stream / preview / subscription play reporting required for licensor royalty calculations.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Stream / preview / subscription play reporting required for licensor royalty calculations.
   name: 7digital Logging API
   slug: 7digital-logging-api
-- description: Authorise, list, and inspect devices registered for offline subscription playback.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Authorise, list, and inspect devices registered for offline subscription playback.
   name: 7digital Offline Devices API
   slug: 7digital-offline-devices-api
-- description: Payment metadata — supported card types and voucher details.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Payment metadata — supported card types and voucher details.
   name: 7digital Payment API
   slug: 7digital-payment-api
-- description: Partner-level playlist management — create, list, update and add tracks.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Partner-level playlist management — create, list, update and add tracks.
   name: 7digital Playlists API
   slug: 7digital-playlists-api
-- description: Browse, search, recommend, and chart 7digital releases (albums, singles, EPs).
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Browse, search, recommend, and chart 7digital releases (albums, singles, EPs).
   name: 7digital Releases API
   slug: 7digital-releases-api
-- description: Log sales, log refunds, and manage a user's locker of purchased content.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Log sales, log refunds, and manage a user's locker of purchased content.
   name: 7digital Sales API
   slug: 7digital-sales-api
-- description: HLS and HTTP Progressive streaming for previews, catalogue, locker and subscriber playback.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: HLS and HTTP Progressive streaming for previews, catalogue, locker and subscriber playback.
   name: 7digital Streaming API
   slug: 7digital-streaming-api
-- description: Notify the platform of subscription state — required for royalty + entitlement.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Notify the platform of subscription state — required for royalty + entitlement.
   name: 7digital Subscriptions API
   slug: 7digital-subscriptions-api
-- description: List the curated tag vocabulary used across the 7digital catalogue.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: List the curated tag vocabulary used across the 7digital catalogue.
   name: 7digital Tags API
   slug: 7digital-tags-api
-- description: List supported countries / sales territories.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: List supported countries / sales territories.
   name: 7digital Territories API
   slug: 7digital-territories-api
-- description: Search, chart, and look up 7digital track metadata.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Search, chart, and look up 7digital track metadata.
   name: 7digital Tracks API
   slug: 7digital-tracks-api
-- description: Localised translation bundles for the 7digital catalogue.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Localised translation bundles for the 7digital catalogue.
   name: 7digital Translations API
   slug: 7digital-translations-api
-- description: Per-user account operations — locker, purchases, payment cards, subscriptions, signup.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Per-user account operations — locker, purchases, payment cards, subscriptions, signup.
   name: 7digital User API
   slug: 7digital-user-api
-- description: Create and manage user accounts on the partner's behalf.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Create and manage user accounts on the partner's behalf.
   name: 7digital User Management API
   slug: 7digital-user-management-api
-- description: Partner-scoped user directory operations — find and update users.
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Partner-scoped user directory operations — find and update users.
   name: 7digital Users API
   slug: 7digital-users-api
 artifact_total: 310
@@ -1071,7 +1117,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7digital/refs/heads/main/screenshots/7digital-2026-06-20T162807.png
 security:

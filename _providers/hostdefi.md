@@ -1,4 +1,13 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +32,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Token risk scanning for Solana mints — authority state, liquidity, holder concentration, Token-2022 extension flags and sell simulation. 26 operations, API-key authentication.
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: Token risk scanning for Solana mints — authority state, liquidity, holder concentration, Token-2022 extension flags and sell simulation. 26 operations, API-key authentication.
   name: HostDeFi Token Risk API
   slug: hostdefi-token-risk-api
-- description: The Analyze Token API from HostDeFi — 1 operation(s) for analyze token.
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: The Analyze Token API from HostDeFi — 1 operation(s) for analyze token.
   name: HostDeFi Analyze Token API
   slug: hostdefi-analyze-token-api
-- description: The Health API from HostDeFi — 1 operation(s) for health.
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: The Health API from HostDeFi — 1 operation(s) for health.
   name: HostDeFi Health API
   slug: hostdefi-health-api
-- description: The Keys API from HostDeFi — 1 operation(s) for keys.
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: The Keys API from HostDeFi — 1 operation(s) for keys.
   name: HostDeFi Keys API
   slug: hostdefi-keys-api
-- description: The Scan API from HostDeFi — 1 operation(s) for scan.
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: The Scan API from HostDeFi — 1 operation(s) for scan.
   name: HostDeFi Scan API
   slug: hostdefi-scan-api
-- description: The Usage API from HostDeFi — 1 operation(s) for usage.
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: The Usage API from HostDeFi — 1 operation(s) for usage.
   name: HostDeFi Usage API
   slug: hostdefi-usage-api
-- description: 'Pay-per-call lane for AI agents (x402 protocol): no key, no account - pay USDC per request and get the same A+-F Safety Read. Free tier and API-key plans are unchanged and remain the better per-call p'
+- baseURL: https://hostdefi.com/api
+  baseurl_source: declared
+  description: 'Pay-per-call lane for AI agents (x402 protocol): no key, no account - pay USDC per request and get the same A+-F Safety Read. Free tier and API-key plans are unchanged and remain the better per-call p'
   name: HostDeFi x402 (machine-payable) API
   slug: hostdefi-x402-machine-payable-api
 artifact_total: 8
@@ -86,7 +109,7 @@ score:
   band: thin
   composite: 26.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -108,8 +131,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hostdefi/refs/heads/main/screenshots/hostdefi-2026-09-02T145742.png
 slug: hostdefi
 tags:
 - Solana

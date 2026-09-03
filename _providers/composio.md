@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 107 operations · 60 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: Authentication configuration management
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Authentication configuration management
   name: Composio Auth Configs API
   slug: composio-auth-configs-api
-- description: Authentication related endpoints
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Authentication related endpoints
   name: Composio Authentication API
   slug: composio-authentication-api
-- description: CLI integration endpoints
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: CLI integration endpoints
   name: Composio CLI API
   slug: composio-cli-api
-- description: The CLI Authentication API from Composio — 2 operation(s) for cli authentication.
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: The CLI Authentication API from Composio — 2 operation(s) for cli authentication.
   name: Composio CLI Authentication API
   slug: composio-cli-authentication-api
-- description: Connected account management
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Connected account management
   name: Composio Connected Accounts API
   slug: composio-connected-accounts-api
-- description: File management
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: File management
   name: Composio Files API
   slug: composio-files-api
-- description: Logging and monitoring
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Logging and monitoring
   name: Composio Logs API
   slug: composio-logs-api
-- description: MCP server management
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: MCP server management
   name: Composio MCP API
   slug: composio-mcp-api
-- description: Endpoints to help with migration from v1 to v3
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Endpoints to help with migration from v1 to v3
   name: Composio Migration API
   slug: composio-migration-api
-- description: The Organization Management API from Composio — 5 operation(s) for organization management.
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: The Organization Management API from Composio — 5 operation(s) for organization management.
   name: Composio Organization Management API
   slug: composio-organization-management-api
-- description: The Projects API from Composio — 6 operation(s) for projects.
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: The Projects API from Composio — 6 operation(s) for projects.
   name: Composio Projects API
   slug: composio-projects-api
-- description: (Labs) Tool router endpoints
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: (Labs) Tool router endpoints
   name: Composio Tool Router API
   slug: composio-tool-router-api
-- description: Toolkit and tool management
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Toolkit and tool management
   name: Composio Toolkits API
   slug: composio-toolkits-api
-- description: Tool execution endpoints
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Tool execution endpoints
   name: Composio Tools API
   slug: composio-tools-api
-- description: Trigger management and execution
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Trigger management and execution
   name: Composio Triggers API
   slug: composio-triggers-api
-- description: Per-OAuth-app webhook ingress endpoints. Inbound URLs the provider posts to, plus signing secret storage and verification.
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Per-OAuth-app webhook ingress endpoints. Inbound URLs the provider posts to, plus signing secret storage and verification.
   name: Composio Webhook Endpoints API
   slug: composio-webhook-endpoints-api
-- description: Webhook delivery subscriptions. Outbound URLs Composio posts trigger events to, plus signing secret rotation and event-type filters.
+- baseURL: https://backend.composio.dev/api/v3
+  baseurl_source: declared
+  description: Webhook delivery subscriptions. Outbound URLs Composio posts trigger events to, plus signing secret rotation and event-type filters.
   name: Composio Webhook Subscriptions API
   slug: composio-webhook-subscriptions-api
 arazzos:
@@ -703,7 +737,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
 security:

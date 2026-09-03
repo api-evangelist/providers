@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 354
   human_in_the_loop: 0
@@ -33,67 +44,109 @@ agentic_access:
   summary_line: 601 operations · 354 acting
 api_count: 21
 apis:
-- description: The complianz/v1 API from Ascend Elements — 11 operation(s) for complianz/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The complianz/v1 API from Ascend Elements — 11 operation(s) for complianz/v1.
   name: Ascend Elements Complianz/v1 API
   slug: ascend-elements-complianz-v1-api
-- description: The core API from Ascend Elements — 2 operation(s) for core.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The core API from Ascend Elements — 2 operation(s) for core.
   name: Ascend Elements Core API
   slug: ascend-elements-core-api
-- description: The cptui/v1 API from Ascend Elements — 2 operation(s) for cptui/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The cptui/v1 API from Ascend Elements — 2 operation(s) for cptui/v1.
   name: Ascend Elements Cptui/v1 API
   slug: ascend-elements-cptui-v1-api
-- description: The ea11y/v1 API from Ascend Elements — 20 operation(s) for ea11y/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The ea11y/v1 API from Ascend Elements — 20 operation(s) for ea11y/v1.
   name: Ascend Elements Ea11y/v1 API
   slug: ascend-elements-ea11y-v1-api
-- description: The elementor-ai/v1 API from Ascend Elements — 2 operation(s) for elementor-ai/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The elementor-ai/v1 API from Ascend Elements — 2 operation(s) for elementor-ai/v1.
   name: Ascend Elements Elementor Ai/v1 API
   slug: ascend-elements-elementor-ai-v1-api
-- description: The elementor-one/v1 API from Ascend Elements — 16 operation(s) for elementor-one/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The elementor-one/v1 API from Ascend Elements — 16 operation(s) for elementor-one/v1.
   name: Ascend Elements Elementor One/v1 API
   slug: ascend-elements-elementor-one-v1-api
-- description: The elementor-pro/v1 API from Ascend Elements — 7 operation(s) for elementor-pro/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The elementor-pro/v1 API from Ascend Elements — 7 operation(s) for elementor-pro/v1.
   name: Ascend Elements Elementor Pro/v1 API
   slug: ascend-elements-elementor-pro-v1-api
-- description: The elementor/v1 API from Ascend Elements — 53 operation(s) for elementor/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The elementor/v1 API from Ascend Elements — 53 operation(s) for elementor/v1.
   name: Ascend Elements Elementor/v1 API
   slug: ascend-elements-elementor-v1-api
-- description: The elementor/v1/documents API from Ascend Elements — 2 operation(s) for elementor/v1/documents.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The elementor/v1/documents API from Ascend Elements — 2 operation(s) for elementor/v1/documents.
   name: Ascend Elements Elementor/v1/documents API
   slug: ascend-elements-elementor-v1-documents-api
-- description: The elementor/v1/feedback API from Ascend Elements — 2 operation(s) for elementor/v1/feedback.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The elementor/v1/feedback API from Ascend Elements — 2 operation(s) for elementor/v1/feedback.
   name: Ascend Elements Elementor/v1/feedback API
   slug: ascend-elements-elementor-v1-feedback-api
-- description: The facetwp/v1 API from Ascend Elements — 3 operation(s) for facetwp/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The facetwp/v1 API from Ascend Elements — 3 operation(s) for facetwp/v1.
   name: Ascend Elements Facetwp/v1 API
   slug: ascend-elements-facetwp-v1-api
-- description: The image-optimizer/v1 API from Ascend Elements — 16 operation(s) for image-optimizer/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The image-optimizer/v1 API from Ascend Elements — 16 operation(s) for image-optimizer/v1.
   name: Ascend Elements Image Optimizer/v1 API
   slug: ascend-elements-image-optimizer-v1-api
-- description: The oembed/1.0 API from Ascend Elements — 3 operation(s) for oembed/1.0.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The oembed/1.0 API from Ascend Elements — 3 operation(s) for oembed/1.0.
   name: Ascend Elements Oembed/1.0 API
   slug: ascend-elements-oembed-1-0-api
-- description: The site-mailer/v1 API from Ascend Elements — 21 operation(s) for site-mailer/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The site-mailer/v1 API from Ascend Elements — 21 operation(s) for site-mailer/v1.
   name: Ascend Elements Site Mailer/v1 API
   slug: ascend-elements-site-mailer-v1-api
-- description: The wp-abilities/v1 API from Ascend Elements — 6 operation(s) for wp-abilities/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The wp-abilities/v1 API from Ascend Elements — 6 operation(s) for wp-abilities/v1.
   name: Ascend Elements Wp Abilities/v1 API
   slug: ascend-elements-wp-abilities-v1-api
-- description: The wp-block-editor/v1 API from Ascend Elements — 4 operation(s) for wp-block-editor/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The wp-block-editor/v1 API from Ascend Elements — 4 operation(s) for wp-block-editor/v1.
   name: Ascend Elements Wp Block Editor/v1 API
   slug: ascend-elements-wp-block-editor-v1-api
-- description: The wp-site-health/v1 API from Ascend Elements — 8 operation(s) for wp-site-health/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The wp-site-health/v1 API from Ascend Elements — 8 operation(s) for wp-site-health/v1.
   name: Ascend Elements Wp Site Health/v1 API
   slug: ascend-elements-wp-site-health-v1-api
-- description: The wp/v2 API from Ascend Elements — 130 operation(s) for wp/v2.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The wp/v2 API from Ascend Elements — 130 operation(s) for wp/v2.
   name: Ascend Elements Wp/v2 API
   slug: ascend-elements-wp-v2-api
-- description: The wpe/cache-plugin/v1 API from Ascend Elements — 3 operation(s) for wpe/cache-plugin/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The wpe/cache-plugin/v1 API from Ascend Elements — 3 operation(s) for wpe/cache-plugin/v1.
   name: Ascend Elements Wpe/cache Plugin/v1 API
   slug: ascend-elements-wpe-cache-plugin-v1-api
-- description: The wpe_sign_on_plugin/v1 API from Ascend Elements — 4 operation(s) for wpe_sign_on_plugin/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The wpe_sign_on_plugin/v1 API from Ascend Elements — 4 operation(s) for wpe_sign_on_plugin/v1.
   name: Ascend Elements Wpe Sign On Plugin/v1 API
   slug: ascend-elements-wpe-sign-on-plugin-v1-api
-- description: The yoast/v1 API from Ascend Elements — 46 operation(s) for yoast/v1.
+- baseURL: https://ascendelements.com/wp-json
+  baseurl_source: declared
+  description: The yoast/v1 API from Ascend Elements — 46 operation(s) for yoast/v1.
   name: Ascend Elements Yoast/v1 API
   slug: ascend-elements-yoast-v1-api
 artifact_total: 47
@@ -329,7 +382,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

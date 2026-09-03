@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -50,7 +50,9 @@ apis:
 - description: The Google Forms API provides programmatic access to create, modify, and retrieve form content and responses.
   name: Google Forms API
   slug: google-forms-api
-- description: The Gmail API from Google Workspace (G Suite) — 10 operation(s) for gmail.
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Gmail API from Google Workspace (G Suite) — 10 operation(s) for gmail.
   name: Google Workspace (G Suite) Gmail API
   slug: google-suite-gmail-api
 artifact_total: 14
@@ -174,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-suite/refs/heads/main/screenshots/google-suite-2026-06-20T182235.png
 security:

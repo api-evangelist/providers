@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 67 operations · 37 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The Buckets API from Cloudflare R2 — 2 operation(s) for buckets.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Buckets API from Cloudflare R2 — 2 operation(s) for buckets.
   name: Cloudflare R2 Buckets API
   slug: cloudflare-r2-buckets-api
-- description: The CORS API from Cloudflare R2 — 1 operation(s) for cors.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The CORS API from Cloudflare R2 — 1 operation(s) for cors.
   name: Cloudflare R2 CORS API
   slug: cloudflare-r2-cors-api
-- description: The Credential Management API from Cloudflare R2 — 1 operation(s) for credential management.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Credential Management API from Cloudflare R2 — 1 operation(s) for credential management.
   name: Cloudflare R2 Credential Management API
   slug: cloudflare-r2-credential-management-api
-- description: The Lifecycle API from Cloudflare R2 — 1 operation(s) for lifecycle.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Lifecycle API from Cloudflare R2 — 1 operation(s) for lifecycle.
   name: Cloudflare R2 Lifecycle API
   slug: cloudflare-r2-lifecycle-api
-- description: The Maintenance Configuration API from Cloudflare R2 — 1 operation(s) for maintenance configuration.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Maintenance Configuration API from Cloudflare R2 — 1 operation(s) for maintenance configuration.
   name: Cloudflare R2 Maintenance Configuration API
   slug: cloudflare-r2-maintenance-configuration-api
-- description: The Multipart Upload API from Cloudflare R2 — 4 operation(s) for multipart upload.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Multipart Upload API from Cloudflare R2 — 4 operation(s) for multipart upload.
   name: Cloudflare R2 Multipart Upload API
   slug: cloudflare-r2-multipart-upload-api
-- description: The Namespace Management API from Cloudflare R2 — 1 operation(s) for namespace management.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Namespace Management API from Cloudflare R2 — 1 operation(s) for namespace management.
   name: Cloudflare R2 Namespace Management API
   slug: cloudflare-r2-namespace-management-api
-- description: The Objects API from Cloudflare R2 — 3 operation(s) for objects.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Objects API from Cloudflare R2 — 3 operation(s) for objects.
   name: Cloudflare R2 Objects API
   slug: cloudflare-r2-objects-api
-- description: The R2 Account API from Cloudflare R2 — 1 operation(s) for r2 account.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The R2 Account API from Cloudflare R2 — 1 operation(s) for r2 account.
   name: Cloudflare R2 R2 Account API
   slug: cloudflare-r2-r2-account-api
-- description: The R2 Bucket API from Cloudflare R2 — 13 operation(s) for r2 bucket.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The R2 Bucket API from Cloudflare R2 — 13 operation(s) for r2 bucket.
   name: Cloudflare R2 R2 Bucket API
   slug: cloudflare-r2-r2-bucket-api
-- description: The R2 Catalog Management API from Cloudflare R2 — 4 operation(s) for r2 catalog management.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The R2 Catalog Management API from Cloudflare R2 — 4 operation(s) for r2 catalog management.
   name: Cloudflare R2 R2 Catalog Management API
   slug: cloudflare-r2-r2-catalog-management-api
-- description: The R2 Object API from Cloudflare R2 — 2 operation(s) for r2 object.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The R2 Object API from Cloudflare R2 — 2 operation(s) for r2 object.
   name: Cloudflare R2 R2 Object API
   slug: cloudflare-r2-r2-object-api
-- description: The Table Maintenance Configuration API from Cloudflare R2 — 1 operation(s) for table maintenance configuration.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Table Maintenance Configuration API from Cloudflare R2 — 1 operation(s) for table maintenance configuration.
   name: Cloudflare R2 Table Maintenance Configuration API
   slug: cloudflare-r2-table-maintenance-configuration-api
-- description: The Table Management API from Cloudflare R2 — 1 operation(s) for table management.
+- baseURL: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
+  baseurl_source: declared
+  description: The Table Management API from Cloudflare R2 — 1 operation(s) for table management.
   name: Cloudflare R2 Table Management API
   slug: cloudflare-r2-table-management-api
 artifact_total: 48
@@ -320,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/screenshots/cloudflare-r2-2026-06-20T174556.png
 security:

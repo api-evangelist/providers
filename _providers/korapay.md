@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 30 operations · 15 acting
 api_count: 1
 apis:
-- description: Real-time available and pending balances per currency.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Real-time available and pending balances per currency.
   name: Kora Balances API
   slug: korapay-balances-api
-- description: Pay-ins - card, bank transfer, mobile money, and pay-with-bank.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Pay-ins - card, bank transfer, mobile money, and pay-with-bank.
   name: Kora Charges API
   slug: korapay-charges-api
-- description: Exchange rates and multi-currency conversions.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Exchange rates and multi-currency conversions.
   name: Kora Currency Conversion API
   slug: korapay-currency-conversion-api
-- description: Bank / mobile-money lookups, account resolution, and payout utilities.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Bank / mobile-money lookups, account resolution, and payout utilities.
   name: Kora Misc API
   slug: korapay-misc-api
-- description: Disbursements to bank accounts and mobile money wallets.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Disbursements to bank accounts and mobile money wallets.
   name: Kora Payouts API
   slug: korapay-payouts-api
-- description: Refunds for completed pay-in transactions.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Refunds for completed pay-in transactions.
   name: Kora Refunds API
   slug: korapay-refunds-api
-- description: Dedicated NGN and USD virtual bank accounts.
+- baseURL: https://api.korapay.com/merchant/api/v1
+  baseurl_source: declared
+  description: Dedicated NGN and USD virtual bank accounts.
   name: Kora Virtual Bank Accounts API
   slug: korapay-virtual-bank-accounts-api
 artifact_total: 22
@@ -193,7 +207,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korapay/refs/heads/main/screenshots/korapay-2026-07-25T224217.png
 security:

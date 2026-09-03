@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 30 operations · 9 acting
 api_count: 1
 apis:
-- description: Allows filtering live data based on geopolitical boundaries, such as states/provinces, countries, regions, or even continents. All endpoints support ISO 3166-1 alpha-2 country codes and ISO 3166-2 sub
+- baseURL: https://gateway.adsbexchange.com/api/aircraft/v2
+  baseurl_source: declared
+  description: Allows filtering live data based on geopolitical boundaries, such as states/provinces, countries, regions, or even continents. All endpoints support ISO 3166-1 alpha-2 country codes and ISO 3166-2 sub
   name: ADS-B Exchange Geopolitical Filtering API
   slug: adsbexchange-geopolitical-filtering-api
-- description: 'Endpoints allow filtering live data based on geospatial boundaries, such as latitude, longitude, altitudes, or even custom GeoJSON shapes. Use these endpoints to get information about aircraft within '
+- baseURL: https://gateway.adsbexchange.com/api/aircraft/v2
+  baseurl_source: declared
+  description: 'Endpoints allow filtering live data based on geospatial boundaries, such as latitude, longitude, altitudes, or even custom GeoJSON shapes. Use these endpoints to get information about aircraft within '
   name: ADS-B Exchange Geospatial Filtering API
   slug: adsbexchange-geospatial-filtering-api
-- description: Endpoints provide access to airborne or recently landed aircraft, as well as last known positions. Use these endpoints to get information about aircraft, such as location, flight, altitude, speed, and
+- baseURL: https://gateway.adsbexchange.com/api/aircraft/v2
+  baseurl_source: declared
+  description: Endpoints provide access to airborne or recently landed aircraft, as well as last known positions. Use these endpoints to get information about aircraft, such as location, flight, altitude, speed, and
   name: ADS-B Exchange Live Positional Data API
   slug: adsbexchange-live-positional-data-api
-- description: Endpoints provide access to Takeoffs/Landings operational events.
+- baseURL: https://gateway.adsbexchange.com/api/aircraft/v2
+  baseurl_source: declared
+  description: Endpoints provide access to Takeoffs/Landings operational events.
   name: ADS-B Exchange Operations API
   slug: adsbexchange-operations-api
-- description: Endpoints provide access to historical trace files for an aircraft.
+- baseURL: https://gateway.adsbexchange.com/api/aircraft/v2
+  baseurl_source: declared
+  description: Endpoints provide access to historical trace files for an aircraft.
   name: ADS-B Exchange Traces API
   slug: adsbexchange-traces-api
 artifact_total: 79
@@ -385,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png
 security:

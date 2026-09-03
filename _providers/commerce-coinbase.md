@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 2
 apis:
-- description: Create and retrieve crypto payment charges
+- baseURL: https://api.commerce.coinbase.com
+  baseurl_source: declared
+  description: Create and retrieve crypto payment charges
   name: Coinbase Commerce Charges API
   slug: commerce-coinbase-charges-api
-- description: Create and manage single-use hosted payment checkouts
+- baseURL: https://api.commerce.coinbase.com
+  baseurl_source: declared
+  description: Create and manage single-use hosted payment checkouts
   name: Coinbase Commerce Checkouts API
   slug: commerce-coinbase-checkouts-api
-- description: Retrieve charge-related webhook events
+- baseURL: https://api.commerce.coinbase.com
+  baseurl_source: declared
+  description: Retrieve charge-related webhook events
   name: Coinbase Commerce Events API
   slug: commerce-coinbase-events-api
-- description: Checkout lifecycle event notifications
+- baseURL: https://api.commerce.coinbase.com
+  baseurl_source: declared
+  description: Checkout lifecycle event notifications
   name: Coinbase Commerce Webhooks API
   slug: commerce-coinbase-webhooks-api
 artifact_total: 24
@@ -243,7 +251,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/screenshots/commerce-coinbase-2026-06-20T174814.png
 security:

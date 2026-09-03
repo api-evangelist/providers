@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: Firewall Manager administrator account management
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: Firewall Manager administrator account management
   name: Amazon Firewall Manager Admin Accounts API
   slug: amazon-firewall-manager-admin-accounts-api
-- description: Compliance status and violations
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: Compliance status and violations
   name: Amazon Firewall Manager Compliance API
   slug: amazon-firewall-manager-compliance-api
-- description: Member account association
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: Member account association
   name: Amazon Firewall Manager Member Accounts API
   slug: amazon-firewall-manager-member-accounts-api
-- description: Firewall Manager security policies
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: Firewall Manager security policies
   name: Amazon Firewall Manager Policies API
   slug: amazon-firewall-manager-policies-api
-- description: Resource sets and tags
+- baseURL: https://fms.amazonaws.com
+  baseurl_source: declared
+  description: Resource sets and tags
   name: Amazon Firewall Manager Resources API
   slug: amazon-firewall-manager-resources-api
 arazzos:
@@ -376,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/screenshots/amazon-firewall-manager-2026-06-20T171659.png
 security:

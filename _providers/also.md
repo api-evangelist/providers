@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,16 +52,24 @@ apis:
 - description: ALSO's Universal Commerce Protocol (UCP) endpoint, advertised in its own /.well-known/ucp discovery profile and /agents.md. Exposes the dev.ucp.shopping service over MCP transport for agent-driven cat
   name: ALSO UCP Commerce MCP API
   slug: also-ucp-commerce-mcp-api
-- description: The current session cart.
+- baseURL: https://ridealso.com/api/2026-07/graphql.json
+  baseurl_source: declared
+  description: The current session cart.
   name: Also Cart API
   slug: also-cart-api
-- description: Collection listings and the products within a collection.
+- baseURL: https://ridealso.com/api/2026-07/graphql.json
+  baseurl_source: declared
+  description: Collection listings and the products within a collection.
   name: Also Collections API
   slug: also-collections-api
-- description: Product catalog listings and per-product detail.
+- baseURL: https://ridealso.com/api/2026-07/graphql.json
+  baseurl_source: declared
+  description: Product catalog listings and per-product detail.
   name: Also Products API
   slug: also-products-api
-- description: Storefront search.
+- baseURL: https://ridealso.com/api/2026-07/graphql.json
+  baseurl_source: declared
+  description: Storefront search.
   name: Also Search API
   slug: also-search-api
 artifact_total: 17
@@ -269,7 +290,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/also/refs/heads/main/screenshots/also-2026-08-07T161241.png
 security:

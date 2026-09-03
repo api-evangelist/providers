@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 22 operations · 16 acting
 api_count: 2
 apis:
-- description: Identity verification, customer onboarding, DigiLocker integration, Aadhaar OTP, document classification, and face match.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: Identity verification, customer onboarding, DigiLocker integration, Aadhaar OTP, document classification, and face match.
   name: Decentro KYC & Onboarding API
   slug: kyc-api
-- description: Create and manage virtual bank accounts, balances, statements, and remitter whitelisting for collections and reconciliation.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: Create and manage virtual bank accounts, balances, statements, and remitter whitelisting for collections and reconciliation.
   name: Decentro Virtual Accounts API
   slug: virtual-accounts-api
-- description: The Accounts API from Decentro — 2 operation(s) for accounts.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Accounts API from Decentro — 2 operation(s) for accounts.
   name: Decentro Accounts API
   slug: decentro-accounts-api
-- description: The Collections API from Decentro — 2 operation(s) for collections.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Collections API from Decentro — 2 operation(s) for collections.
   name: Decentro Collections API
   slug: decentro-collections-api
-- description: The Forensics API from Decentro — 2 operation(s) for forensics.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Forensics API from Decentro — 2 operation(s) for forensics.
   name: Decentro Forensics API
   slug: decentro-forensics-api
-- description: The Journals API from Decentro — 1 operation(s) for journals.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Journals API from Decentro — 1 operation(s) for journals.
   name: Decentro Journals API
   slug: decentro-journals-api
-- description: The Mandates API from Decentro — 2 operation(s) for mandates.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Mandates API from Decentro — 2 operation(s) for mandates.
   name: Decentro Mandates API
   slug: decentro-mandates-api
-- description: The Payouts API from Decentro — 2 operation(s) for payouts.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Payouts API from Decentro — 2 operation(s) for payouts.
   name: Decentro Payouts API
   slug: decentro-payouts-api
-- description: The Settlements API from Decentro — 1 operation(s) for settlements.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Settlements API from Decentro — 1 operation(s) for settlements.
   name: Decentro Settlements API
   slug: decentro-settlements-api
-- description: The Transactions API from Decentro — 1 operation(s) for transactions.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Transactions API from Decentro — 1 operation(s) for transactions.
   name: Decentro Transactions API
   slug: decentro-transactions-api
-- description: The Verification API from Decentro — 1 operation(s) for verification.
+- baseURL: https://in.decentro.tech
+  baseurl_source: declared
+  description: The Verification API from Decentro — 1 operation(s) for verification.
   name: Decentro Verification API
   slug: decentro-verification-api
 artifact_total: 36
@@ -273,7 +295,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png
 security:

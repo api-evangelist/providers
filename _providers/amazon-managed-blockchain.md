@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 27 operations · 14 acting
 api_count: 1
 apis:
-- description: The Accessors API from Amazon Managed Blockchain — 2 operation(s) for accessors.
+- baseURL: https://managedblockchain.amazonaws.com
+  baseurl_source: declared
+  description: The Accessors API from Amazon Managed Blockchain — 2 operation(s) for accessors.
   name: Amazon Managed Blockchain Accessors API
   slug: amazon-managed-blockchain-accessors-api
-- description: The Invitations API from Amazon Managed Blockchain — 2 operation(s) for invitations.
+- baseURL: https://managedblockchain.amazonaws.com
+  baseurl_source: declared
+  description: The Invitations API from Amazon Managed Blockchain — 2 operation(s) for invitations.
   name: Amazon Managed Blockchain Invitations API
   slug: amazon-managed-blockchain-invitations-api
-- description: The Networks API from Amazon Managed Blockchain — 9 operation(s) for networks.
+- baseURL: https://managedblockchain.amazonaws.com
+  baseurl_source: declared
+  description: The Networks API from Amazon Managed Blockchain — 9 operation(s) for networks.
   name: Amazon Managed Blockchain Networks API
   slug: amazon-managed-blockchain-networks-api
-- description: The Tags API from Amazon Managed Blockchain — 2 operation(s) for tags.
+- baseURL: https://managedblockchain.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Managed Blockchain — 2 operation(s) for tags.
   name: Amazon Managed Blockchain Tags API
   slug: amazon-managed-blockchain-tags-api
 artifact_total: 492
@@ -1635,7 +1643,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/screenshots/amazon-managed-blockchain-2026-06-20T171732.png
 security:

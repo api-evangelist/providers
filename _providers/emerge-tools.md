@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Analysis API from Emerge Tools — 1 operation(s) for analysis.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The Analysis API from Emerge Tools — 1 operation(s) for analysis.
   name: Emerge Tools Analysis API
   slug: emerge-tools-analysis-api
-- description: The AppHistory API from Emerge Tools — 1 operation(s) for apphistory.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The AppHistory API from Emerge Tools — 1 operation(s) for apphistory.
   name: Emerge Tools AppHistory API
   slug: emerge-tools-apphistory-api
-- description: The BuildDetails API from Emerge Tools — 1 operation(s) for builddetails.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The BuildDetails API from Emerge Tools — 1 operation(s) for builddetails.
   name: Emerge Tools BuildDetails API
   slug: emerge-tools-builddetails-api
-- description: The Comment API from Emerge Tools — 1 operation(s) for comment.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The Comment API from Emerge Tools — 1 operation(s) for comment.
   name: Emerge Tools Comment API
   slug: emerge-tools-comment-api
-- description: The DeadCode API from Emerge Tools — 1 operation(s) for deadcode.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The DeadCode API from Emerge Tools — 1 operation(s) for deadcode.
   name: Emerge Tools DeadCode API
   slug: emerge-tools-deadcode-api
-- description: The GetPerfTest API from Emerge Tools — 1 operation(s) for getperftest.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The GetPerfTest API from Emerge Tools — 1 operation(s) for getperftest.
   name: Emerge Tools GetPerfTest API
   slug: emerge-tools-getperftest-api
-- description: The Snapshots API from Emerge Tools — 3 operation(s) for snapshots.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The Snapshots API from Emerge Tools — 3 operation(s) for snapshots.
   name: Emerge Tools Snapshots API
   slug: emerge-tools-snapshots-api
-- description: The Trace API from Emerge Tools — 1 operation(s) for trace.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The Trace API from Emerge Tools — 1 operation(s) for trace.
   name: Emerge Tools Trace API
   slug: emerge-tools-trace-api
-- description: The Upload API from Emerge Tools — 1 operation(s) for upload.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The Upload API from Emerge Tools — 1 operation(s) for upload.
   name: Emerge Tools Upload API
   slug: emerge-tools-upload-api
-- description: The UploadFromLink API from Emerge Tools — 1 operation(s) for uploadfromlink.
+- baseURL: https://api.emergetools.com/
+  baseurl_source: declared
+  description: The UploadFromLink API from Emerge Tools — 1 operation(s) for uploadfromlink.
   name: Emerge Tools UploadFromLink API
   slug: emerge-tools-uploadfromlink-api
 artifact_total: 26
@@ -264,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge-tools/refs/heads/main/screenshots/emerge-tools-2026-07-25T213232.png
 security:

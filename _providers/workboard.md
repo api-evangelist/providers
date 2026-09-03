@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 12
@@ -47,37 +47,59 @@ apis:
 - description: SCIM 2.0 provisioning API for organization users — create, read, update (title and manager), and disable. Groups, bulk operations, and filtering are not supported. Authenticated with an admin-requeste
   name: WorkBoard SCIM API
   slug: workboard-scim-api
-- description: The Activity (Action Items) API from WorkBoard — 2 operation(s) for activity (action items).
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The Activity (Action Items) API from WorkBoard — 2 operation(s) for activity (action items).
   name: WorkBoard Activity (Action Items) API
   slug: workboard-activity-action-items-api
-- description: Read and write custom field values on Objectives, Key Results, Work Items, and Users
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: Read and write custom field values on Objectives, Key Results, Work Items, and Users
   name: WorkBoard custom-attributes API
   slug: workboard-custom-attributes-api
-- description: '[WorkBoard''s help center documentation on Datastreams.](https://support.workboard.com/hc/en-us/articles/360006666652-Pushing-Business-Data-into-Workboard-with-Data-Streams#pushing-business-data-into-w'
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: '[WorkBoard''s help center documentation on Datastreams.](https://support.workboard.com/hc/en-us/articles/360006666652-Pushing-Business-Data-into-Workboard-with-Data-Streams#pushing-business-data-into-w'
   name: WorkBoard Datastream API
   slug: workboard-datastream-api
-- description: The Goal (Objective) API from WorkBoard — 5 operation(s) for goal (objective).
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The Goal (Objective) API from WorkBoard — 5 operation(s) for goal (objective).
   name: WorkBoard Goal (Objective) API
   slug: workboard-goal-objective-api
-- description: The Metric (Key Result) API from WorkBoard — 6 operation(s) for metric (key result).
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The Metric (Key Result) API from WorkBoard — 6 operation(s) for metric (key result).
   name: WorkBoard Metric (Key Result) API
   slug: workboard-metric-key-result-api
-- description: The Tags API from WorkBoard — 4 operation(s) for tags.
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The Tags API from WorkBoard — 4 operation(s) for tags.
   name: WorkBoard Tags API
   slug: workboard-tags-api
-- description: The Team API from WorkBoard — 4 operation(s) for team.
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The Team API from WorkBoard — 4 operation(s) for team.
   name: WorkBoard Team API
   slug: workboard-team-api
-- description: The User API from WorkBoard — 2 operation(s) for user.
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The User API from WorkBoard — 2 operation(s) for user.
   name: WorkBoard User API
   slug: workboard-user-api
-- description: The User Goals (User Objectives) API from WorkBoard — 2 operation(s) for user goals (user objectives).
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The User Goals (User Objectives) API from WorkBoard — 2 operation(s) for user goals (user objectives).
   name: WorkBoard User Goals (User Objectives) API
   slug: workboard-user-goals-user-objectives-api
-- description: The Webhook API from WorkBoard — 1 operation(s) for webhook.
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: The Webhook API from WorkBoard — 1 operation(s) for webhook.
   name: WorkBoard Webhook API
   slug: workboard-webhook-api
-- description: '[WorkBoard''s help center documentation on Workstreams.](https://support.workboard.com/hc/en-us/articles/115005163567-Workstreams#workstreams-0-0)'
+- baseURL: https://www.myworkboard.com/wb/apis
+  baseurl_source: declared
+  description: '[WorkBoard''s help center documentation on Workstreams.](https://support.workboard.com/hc/en-us/articles/115005163567-Workstreams#workstreams-0-0)'
   name: WorkBoard Workstream API
   slug: workboard-workstream-api
 artifact_total: 32
@@ -282,7 +304,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -292,7 +314,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,7 +326,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workboard/refs/heads/main/screenshots/workboard-2026-08-17T082939.png
 security:

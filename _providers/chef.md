@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,43 +48,69 @@ apis:
 - description: InSpec is an open-source language and runner for security and compliance testing. It is consumed via the InSpec CLI and Ruby DSL, and surfaced inside Chef Automate as compliance profiles, scan jobs, a
   name: Chef InSpec
   slug: chef-inspec
-- description: The Channels API from Chef — 1 operation(s) for channels.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Channels API from Chef — 1 operation(s) for channels.
   name: Chef Channels API
   slug: chef-channels-api
-- description: The Clients API from Chef — 1 operation(s) for clients.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Clients API from Chef — 1 operation(s) for clients.
   name: Chef Clients API
   slug: chef-clients-api
-- description: The Cookbooks API from Chef — 2 operation(s) for cookbooks.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Cookbooks API from Chef — 2 operation(s) for cookbooks.
   name: Chef Cookbooks API
   slug: chef-cookbooks-api
-- description: The Data Bags API from Chef — 1 operation(s) for data bags.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Data Bags API from Chef — 1 operation(s) for data bags.
   name: Chef Data Bags API
   slug: chef-data-bags-api
-- description: The Environments API from Chef — 1 operation(s) for environments.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Environments API from Chef — 1 operation(s) for environments.
   name: Chef Environments API
   slug: chef-environments-api
-- description: The IAM API from Chef — 1 operation(s) for iam.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The IAM API from Chef — 1 operation(s) for iam.
   name: Chef IAM API
   slug: chef-iam-api
-- description: The Nodes API from Chef — 3 operation(s) for nodes.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Nodes API from Chef — 3 operation(s) for nodes.
   name: Chef Nodes API
   slug: chef-nodes-api
-- description: The Packages API from Chef — 2 operation(s) for packages.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Packages API from Chef — 2 operation(s) for packages.
   name: Chef Packages API
   slug: chef-packages-api
-- description: The Profiles API from Chef — 1 operation(s) for profiles.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Profiles API from Chef — 1 operation(s) for profiles.
   name: Chef Profiles API
   slug: chef-profiles-api
-- description: The Reports API from Chef — 1 operation(s) for reports.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Reports API from Chef — 1 operation(s) for reports.
   name: Chef Reports API
   slug: chef-reports-api
-- description: The Roles API from Chef — 2 operation(s) for roles.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Roles API from Chef — 2 operation(s) for roles.
   name: Chef Roles API
   slug: chef-roles-api
-- description: The Scans API from Chef — 1 operation(s) for scans.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Scans API from Chef — 1 operation(s) for scans.
   name: Chef Scans API
   slug: chef-scans-api
-- description: The Users API from Chef — 1 operation(s) for users.
+- baseURL: https://chef.example.com/organizations/example
+  baseurl_source: declared
+  description: The Users API from Chef — 1 operation(s) for users.
   name: Chef Users API
   slug: chef-users-api
 arazzos:
@@ -439,7 +465,7 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -449,7 +475,7 @@ score:
     discoverability: 64.8
     governance: 14.4
     operational_transparency: 44.7
-  previous_composite: 48.1
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,7 +486,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/screenshots/chef-2026-06-20T174250.png
 security:

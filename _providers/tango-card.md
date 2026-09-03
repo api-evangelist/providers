@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 46 operations · 20 acting
 api_count: 1
 apis:
-- description: Manage customer accounts and balances
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Manage customer accounts and balances
   name: Tango Card Accounts API
   slug: tango-card-accounts-api
-- description: Reward brand category information
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Reward brand category information
   name: Tango Card Brand Categories API
   slug: tango-card-brand-categories-api
-- description: Reward catalog access
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Reward catalog access
   name: Tango Card Catalog API
   slug: tango-card-catalog-api
-- description: Choice product management
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Choice product management
   name: Tango Card Choice Products API
   slug: tango-card-choice-products-api
-- description: Supported reward countries
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Supported reward countries
   name: Tango Card Countries & Currencies API
   slug: tango-card-countries-currencies-api
-- description: Credential type definitions
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Credential type definitions
   name: Tango Card Credential Types API
   slug: tango-card-credential-types-api
-- description: Manage platform customers
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Manage platform customers
   name: Tango Card Customers API
   slug: tango-card-customers-api
-- description: Email and digital template management
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Email and digital template management
   name: Tango Card Digital Templates API
   slug: tango-card-digital-templates-api
-- description: Currency exchange rates
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Currency exchange rates
   name: Tango Card Exchange Rates API
   slug: tango-card-exchange-rates-api
-- description: Credit card deposits, registrations, and fund transfers
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Credit card deposits, registrations, and fund transfers
   name: Tango Card Fund Management API
   slug: tango-card-fund-management-api
-- description: Order line item management and actions
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Order line item management and actions
   name: Tango Card Line Items API
   slug: tango-card-line-items-api
-- description: Account low balance alert configuration
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Account low balance alert configuration
   name: Tango Card Low Balance Alerts API
   slug: tango-card-low-balance-alerts-api
-- description: Reward order creation and management
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Reward order creation and management
   name: Tango Card Orders API
   slug: tango-card-orders-api
 artifact_total: 43
@@ -268,7 +294,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -278,7 +304,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 30.3
-  previous_composite: 40.6
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -293,7 +319,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/screenshots/tango-card-2026-06-20T194915.png
 security:

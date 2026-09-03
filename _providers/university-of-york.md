@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The keyless JSON search interface behind discover.york.ac.uk, the University of York's Digital Collections. Two live endpoints — /api/search-simple, which the public search page calls, and /api/search
+- baseURL: https://discover.york.ac.uk
+  baseurl_source: declared
+  description: The keyless JSON search interface behind discover.york.ac.uk, the University of York's Digital Collections. Two live endpoints — /api/search-simple, which the public search page calls, and /api/search
   name: University of York Digital Collections Search API
   slug: digital-collections-search
-- description: 'The University of York serves its digitised material through two IIIF specifications on its own host: IIIF Image API 3.0 at compliance level 2 (the served info.json declares "profile": "level2", "type'
+- baseURL: https://discover.york.ac.uk
+  baseurl_source: declared
+  description: 'The University of York serves its digitised material through two IIIF specifications on its own host: IIIF Image API 3.0 at compliance level 2 (the served info.json declares "profile": "level2", "type'
   name: University of York Digital Collections IIIF APIs
   slug: digital-collections-iiif
-- description: OAI-PMH 2.0 harvesting on the University's own registrable domain. The Identify response names the repository "The University of York", gives adminEmail pure-support@york.ac.uk and an earliest datesta
+- baseURL: https://pure.york.ac.uk/ws/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 harvesting on the University's own registrable domain. The Identify response names the repository "The University of York", gives adminEmail pure-support@york.ac.uk and an earliest datesta
   name: University of York Research Portal OAI-PMH
   slug: research-portal-oai-pmh
 - description: The University's own SAML 2.0 identity provider at shib.york.ac.uk, running Shibboleth. It is the authentication surface through which every bought platform — Pure, Primo, the VLE — is actually reache
@@ -304,7 +310,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-york/refs/heads/main/screenshots/university-of-york-2026-06-20T200333.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: The SearchAttractionAndActivity API from Trip.com — 1 operation(s) for searchattractionandactivity.
+- baseURL: https://www.trip.com/ai-resource
+  baseurl_source: declared
+  description: The SearchAttractionAndActivity API from Trip.com — 1 operation(s) for searchattractionandactivity.
   name: Trip.com SearchAttractionAndActivity API
   slug: tripcom-searchattractionandactivity-api
-- description: The SearchCars API from Trip.com — 1 operation(s) for searchcars.
+- baseURL: https://www.trip.com/ai-resource
+  baseurl_source: declared
+  description: The SearchCars API from Trip.com — 1 operation(s) for searchcars.
   name: Trip.com SearchCars API
   slug: tripcom-searchcars-api
-- description: The SearchFlightTicket API from Trip.com — 1 operation(s) for searchflightticket.
+- baseURL: https://www.trip.com/ai-resource
+  baseurl_source: declared
+  description: The SearchFlightTicket API from Trip.com — 1 operation(s) for searchflightticket.
   name: Trip.com SearchFlightTicket API
   slug: tripcom-searchflightticket-api
-- description: The SearchHotel API from Trip.com — 1 operation(s) for searchhotel.
+- baseURL: https://www.trip.com/ai-resource
+  baseurl_source: declared
+  description: The SearchHotel API from Trip.com — 1 operation(s) for searchhotel.
   name: Trip.com SearchHotel API
   slug: tripcom-searchhotel-api
 artifact_total: 12
@@ -153,7 +161,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +187,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tripcom/refs/heads/main/screenshots/tripcom-2026-09-02T164241.png
 security:
 - kind: domain-security
   name: Tripcom Domain Security

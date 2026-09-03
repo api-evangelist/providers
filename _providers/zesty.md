@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 2
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 86 operations · 47 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: The Zesty.io Instances API is a REST API that allows CRUD operations on Zesty.io instances. It provides access to content models, content items, fields, views, stylesheets, scripts, settings, head tag
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: The Zesty.io Instances API is a REST API that allows CRUD operations on Zesty.io instances. It provides access to content models, content items, fields, views, stylesheets, scripts, settings, head tag
   name: Zesty Instances API
   slug: instances-api
-- description: Manage registered applications.
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: Manage registered applications.
   name: Zesty Apps API
   slug: zesty-apps-api
-- description: User authentication and session management.
+- baseURL: https://auth.api.zesty.io
+  baseurl_source: spec
+  description: User authentication and session management.
   name: Zesty Authentication API
   slug: zesty-authentication-api
-- description: Manage media bins (top-level containers).
+- baseURL: https://media-manager.api.zesty.io
+  baseurl_source: spec
+  description: Manage media bins (top-level containers).
   name: Zesty Bins API
   slug: zesty-bins-api
-- description: Manage and upload media files.
+- baseURL: https://media-manager.api.zesty.io
+  baseurl_source: spec
+  description: Manage and upload media files.
   name: Zesty Files API
   slug: zesty-files-api
-- description: Manage media groups (folders within bins).
+- baseURL: https://media-manager.api.zesty.io
+  baseurl_source: spec
+  description: Manage media groups (folders within bins).
   name: Zesty Groups API
   slug: zesty-groups-api
-- description: Password management operations.
+- baseURL: https://auth.api.zesty.io
+  baseurl_source: spec
+  description: Password management operations.
   name: Zesty Password API
   slug: zesty-password-api
-- description: Resolve file ZUIDs to CDN URLs.
+- baseURL: https://media-manager.api.zesty.io
+  baseurl_source: spec
+  description: Resolve file ZUIDs to CDN URLs.
   name: Zesty Resolver API
   slug: zesty-resolver-api
-- description: Manage roles and permissions.
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: Manage roles and permissions.
   name: Zesty Roles API
   slug: zesty-roles-api
-- description: Manage teams.
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: Manage teams.
   name: Zesty Teams API
   slug: zesty-teams-api
-- description: Manage API access tokens.
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: Manage API access tokens.
   name: Zesty Tokens API
   slug: zesty-tokens-api
-- description: Manage user accounts.
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: Manage user accounts.
   name: Zesty Users API
   slug: zesty-users-api
-- description: Manage webhook subscriptions.
+- baseURL: https://accounts.api.zesty.io/v1
+  baseurl_source: spec
+  description: Manage webhook subscriptions.
   name: Zesty Webhooks API
   slug: zesty-webhooks-api
 artifact_total: 62
@@ -330,7 +356,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png
 security:

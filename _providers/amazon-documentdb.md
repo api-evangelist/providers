@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: The Amazon DocumentDB API API from Amazon DocumentDB — 1 operation(s) for amazon documentdb api.
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon DocumentDB API API from Amazon DocumentDB — 1 operation(s) for amazon documentdb api.
   name: Amazon DocumentDB Amazon DocumentDB API API
   slug: amazon-documentdb-amazon-documentdb-api-api
-- description: 'The #CreateDBInstance API from Amazon DocumentDB — 1 operation(s) for #createdbinstance.'
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateDBInstance API from Amazon DocumentDB — 1 operation(s) for #createdbinstance.'
   name: 'Amazon DocumentDB #CreateDBInstance API'
   slug: amazon-documentdb-createdbinstance-api
-- description: 'The #DeleteDBCluster API from Amazon DocumentDB — 1 operation(s) for #deletedbcluster.'
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DeleteDBCluster API from Amazon DocumentDB — 1 operation(s) for #deletedbcluster.'
   name: 'Amazon DocumentDB #DeleteDBCluster API'
   slug: amazon-documentdb-deletedbcluster-api
-- description: 'The #DescribeDBInstances API from Amazon DocumentDB — 1 operation(s) for #describedbinstances.'
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeDBInstances API from Amazon DocumentDB — 1 operation(s) for #describedbinstances.'
   name: 'Amazon DocumentDB #DescribeDBInstances API'
   slug: amazon-documentdb-describedbinstances-api
 arazzos:
@@ -365,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/screenshots/amazon-documentdb-2026-06-20T171627.png
 security:

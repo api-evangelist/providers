@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 97 operations · 52 acting · 2 human-in-the-loop
 api_count: 5
 apis:
-- description: Discover and inspect the 2,000+ supported UK and European banks (ASPSPs), including supported features, payment methods, countries, BIC/BBAN identifiers, media assets, and authentication mechanisms.
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Discover and inspect the 2,000+ supported UK and European banks (ASPSPs), including supported features, payment methods, countries, BIC/BBAN identifiers, media assets, and authentication mechanisms.
   name: Yapily Institutions API
   slug: yapily-institutions-api
-- description: Create, retrieve, revoke, and re-authorise PSD2 consents for AIS and PIS interactions across UK Open Banking and Berlin Group ASPSPs. Supports redirect, embedded, and decoupled flows.
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Create, retrieve, revoke, and re-authorise PSD2 consents for AIS and PIS interactions across UK Open Banking and Berlin Group ASPSPs. Supports redirect, embedded, and decoupled flows.
   name: Yapily Consents and Authorisations API
   slug: yapily-consents-api
-- description: Payment Initiation Service Provider (PISP) endpoints for initiating single, scheduled, periodic, bulk, and international payments directly from a customer's bank account. Single-use consent per paymen
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Payment Initiation Service Provider (PISP) endpoints for initiating single, scheduled, periodic, bulk, and international payments directly from a customer's bank account. Single-use consent per paymen
   name: Yapily Payments API (PIS)
   slug: yapily-payments-api
-- description: Transaction enrichment endpoints providing merchant detection, MCC categorisation, and spending insights across consumer and business accounts.
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Transaction enrichment endpoints providing merchant detection, MCC categorisation, and spending insights across consumer and business accounts.
   name: Yapily Data Plus API
   slug: yapily-data-plus-api
-- description: Application Beneficiaries Endpoints
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Application Beneficiaries Endpoints
   name: Yapily Application Beneficiaries API
   slug: yapily-application-beneficiaries-api
-- description: Application Management endpoints help with creating and managing client sub-applications.
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Application Management endpoints help with creating and managing client sub-applications.
   name: Yapily Application Management API
   slug: yapily-application-management-api
-- description: Before calling [Financial Data](#yapily-api-financial-data) or [Payments](#yapily-api-payments) endpoints, a consent from an end-user must be obtained. Consents are valid for up to 90 days for Financi
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Before calling [Financial Data](#yapily-api-financial-data) or [Payments](#yapily-api-payments) endpoints, a consent from an end-user must be obtained. Consents are valid for up to 90 days for Financi
   name: Yapily Authorisations API
   slug: yapily-authorisations-api
-- description: The constraints endpoints can be used to retrieve institution specific data requirements and rules that will apply when performing other operations.
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: The constraints endpoints can be used to retrieve institution specific data requirements and rules that will apply when performing other operations.
   name: Yapily Constraints API
   slug: yapily-constraints-api
-- description: In order to access a user's Financial Data, you are required to request an [Authorisation](#tag/Authorisations) from the user to share the account information the bank has. Once a `consent-token` is o
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: In order to access a user's Financial Data, you are required to request an [Authorisation](#tag/Authorisations) from the user to share the account information the bank has. Once a `consent-token` is o
   name: Yapily Financial Data API
   slug: yapily-financial-data-api
-- description: Hosted Consent Pages endpoints for data products
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Hosted Consent Pages endpoints for data products
   name: Yapily Hosted Consent Pages API
   slug: yapily-hosted-consent-pages-api
-- description: Hosted Payment Pages endpoints for payments products
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Hosted Payment Pages endpoints for payments products
   name: Yapily Hosted Payment Pages API
   slug: yapily-hosted-payment-pages-api
-- description: 'The Notifications endpoints provide an interactive way for user to receive notifications according to different event-types. This feature is currently in private beta. Please reach out if you require '
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: 'The Notifications endpoints provide an interactive way for user to receive notifications according to different event-types. This feature is currently in private beta. Please reach out if you require '
   name: Yapily Notifications API
   slug: yapily-notifications-api
-- description: User Beneficiaries Endpoints
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: User Beneficiaries Endpoints
   name: Yapily User Beneficiaries API
   slug: yapily-user-beneficiaries-api
-- description: The Users endpoints are used to manage each user (otherwise known as the PSU) in Yapily. Each user belongs to an Application and as a consequence, so do each `Consent` created for a particular `User`.
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: The Users endpoints are used to manage each user (otherwise known as the PSU) in Yapily. Each user belongs to an Application and as a consequence, so do each `Consent` created for a particular `User`.
   name: Yapily Users API
   slug: yapily-users-api
-- description: Variable Recurring Payments enables transfer of money between accounts held by the same person or transfer of money for business payments. In order to make Sweeping Variable Recurring Payments on beha
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Variable Recurring Payments enables transfer of money between accounts held by the same person or transfer of money for business payments. In order to make Sweeping Variable Recurring Payments on beha
   name: Yapily Variable Recurring Payments API
   slug: yapily-variable-recurring-payments-api
-- description: Webhook endpoints
+- baseURL: https://api.yapily.com
+  baseurl_source: declared
+  description: Webhook endpoints
   name: Yapily Webhooks API
   slug: yapily-webhooks-api
 artifact_total: 58
@@ -377,7 +409,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png
 security:

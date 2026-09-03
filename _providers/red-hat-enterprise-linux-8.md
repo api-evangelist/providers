@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: RHEL System Roles are a collection of Ansible roles and modules for automating RHEL system configuration tasks including networking, storage, certificate management, SELinux, time sync, and firewall c
   name: RHEL 8 System Roles API
   slug: system-roles-api
-- description: Red Hat security, bug fix, and enhancement advisories
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Red Hat security, bug fix, and enhancement advisories
   name: Red Hat Enterprise Linux 8 Advisories API
   slug: red-hat-enterprise-linux-8-advisories-api
-- description: Common Vulnerabilities and Exposures data for Red Hat products
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Common Vulnerabilities and Exposures data for Red Hat products
   name: Red Hat Enterprise Linux 8 CVEs API
   slug: red-hat-enterprise-linux-8-cves-api
-- description: OVAL XML definitions for vulnerability scanning
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: OVAL XML definitions for vulnerability scanning
   name: Red Hat Enterprise Linux 8 OVAL API
   slug: red-hat-enterprise-linux-8-oval-api
 artifact_total: 30
@@ -292,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:

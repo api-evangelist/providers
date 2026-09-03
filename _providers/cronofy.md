@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 10 acting
 api_count: 1
 apis:
-- description: Availability queries and hosted real-time scheduling.
+- baseURL: https://api.cronofy.com/v1
+  baseurl_source: declared
+  description: Availability queries and hosted real-time scheduling.
   name: Cronofy Availability API
   slug: cronofy-availability-api
-- description: Connected calendars, application calendars, and account identity.
+- baseURL: https://api.cronofy.com/v1
+  baseurl_source: declared
+  description: Connected calendars, application calendars, and account identity.
   name: Cronofy Calendars API
   slug: cronofy-calendars-api
-- description: Reading, creating, updating, and deleting events plus free/busy.
+- baseURL: https://api.cronofy.com/v1
+  baseurl_source: declared
+  description: Reading, creating, updating, and deleting events plus free/busy.
   name: Cronofy Events API
   slug: cronofy-events-api
-- description: Notification channels for real-time calendar changes.
+- baseURL: https://api.cronofy.com/v1
+  baseurl_source: declared
+  description: Notification channels for real-time calendar changes.
   name: Cronofy Push Notifications API
   slug: cronofy-push-notifications-api
-- description: Calendar invites tracked without calendar authorization.
+- baseURL: https://api.cronofy.com/v1
+  baseurl_source: declared
+  description: Calendar invites tracked without calendar authorization.
   name: Cronofy Smart Invites API
   slug: cronofy-smart-invites-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cronofy/refs/heads/main/screenshots/cronofy-2026-07-25T210745.png
 security:

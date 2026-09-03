@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 4
 apis:
-- description: Endpoint connection management
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Endpoint connection management
   name: Amazon PrivateLink Endpoint Connections API
   slug: amazon-privatelink-endpoint-connections-api
-- description: VPC endpoint services (provider side)
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: VPC endpoint services (provider side)
   name: Amazon PrivateLink Endpoint Services API
   slug: amazon-privatelink-endpoint-services-api
-- description: Endpoint service principal management
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Endpoint service principal management
   name: Amazon PrivateLink Principals API
   slug: amazon-privatelink-principals-api
-- description: VPC endpoints (consumer side)
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: VPC endpoints (consumer side)
   name: Amazon PrivateLink VPC Endpoints API
   slug: amazon-privatelink-vpc-endpoints-api
 artifact_total: 91
@@ -642,7 +650,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/screenshots/amazon-privatelink-2026-06-20T171800.png
 security:

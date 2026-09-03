@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,22 +59,34 @@ apis:
 - description: Import and Export Services API for handling document and Relativity Dynamic Object (RDO) transfers, including bulk import operations for large data sets.
   name: Import and Export API
   slug: import-export-api
-- description: Operations for legal hold communications and notifications
+- baseURL: https://relativity.rest/api
+  baseurl_source: declared
+  description: Operations for legal hold communications and notifications
   name: RelativityOne Communications API
   slug: relativityone-communications-api
-- description: Operations for managing legal hold custodians
+- baseURL: https://relativity.rest/api
+  baseurl_source: declared
+  description: Operations for managing legal hold custodians
   name: RelativityOne Custodians API
   slug: relativityone-custodians-api
-- description: Operations for managing HR entities and employees
+- baseURL: https://relativity.rest/api
+  baseurl_source: declared
+  description: Operations for managing HR entities and employees
   name: RelativityOne Entities API
   slug: relativityone-entities-api
-- description: Operations for managing legal hold projects
+- baseURL: https://relativity.rest/api
+  baseurl_source: declared
+  description: Operations for managing legal hold projects
   name: RelativityOne Legal Hold Projects API
   slug: relativityone-legal-hold-projects-api
-- description: Operations for data preservation and releases
+- baseURL: https://relativity.rest/api
+  baseurl_source: declared
+  description: Operations for data preservation and releases
   name: RelativityOne Preservation API
   slug: relativityone-preservation-api
-- description: Operations for legal hold task management
+- baseURL: https://relativity.rest/api
+  baseurl_source: declared
+  description: Operations for legal hold task management
   name: RelativityOne Tasks API
   slug: relativityone-tasks-api
 artifact_total: 52
@@ -319,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/screenshots/relativityone-2026-06-20T192820.png
 security:

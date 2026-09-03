@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -77,28 +77,44 @@ apis:
 - description: Eaton + NVIDIA reference architecture announced March 2026 for end-to-end AI-factory deployment on NVIDIA's Vera Rubin platform. Bundles supercapacitor-backed power, busbar power distribution, hot-ais
   name: Eaton Beam Rubin DSX Platform
   slug: eaton-beam-rubin-dsx-platform
-- description: OAuth2 token issuance and user/service-account authentication.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: OAuth2 token issuance and user/service-account authentication.
   name: Eaton Authorization API
   slug: eaton-authorization-api
-- description: Per-device and batch device-control commands.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Per-device and batch device-control commands.
   name: Eaton Device Commands API
   slug: eaton-device-commands-api
-- description: Smart breakers and EV chargers (emcb, ev-emcb).
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Smart breakers and EV chargers (emcb, ev-emcb).
   name: Eaton Devices API
   slug: eaton-devices-api
-- description: Real-time and historical energy telemetry.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Real-time and historical energy telemetry.
   name: Eaton Energy Data API
   slug: eaton-energy-data-api
-- description: Operations supported only by Eaton EV Smart Breaker Chargers.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Operations supported only by Eaton EV Smart Breaker Chargers.
   name: Eaton EV Only API
   slug: eaton-ev-only-api
-- description: Device events, alarms, and notifications.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Device events, alarms, and notifications.
   name: Eaton Events API
   slug: eaton-events-api
-- description: Sites, buildings, and panels grouping devices.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Sites, buildings, and panels grouping devices.
   name: Eaton Locations API
   slug: eaton-locations-api
-- description: Tenant organizations that own devices and users.
+- baseURL: https://api.em.eaton.com
+  baseurl_source: declared
+  description: Tenant organizations that own devices and users.
   name: Eaton Organizations API
   slug: eaton-organizations-api
 artifact_total: 49
@@ -400,7 +416,7 @@ score:
     regime_id: energy_utilities
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/screenshots/eaton-2026-06-20T180408.png
 security:

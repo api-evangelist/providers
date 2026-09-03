@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 4
 apis:
-- description: The Chat API from osmAPI — 1 operation(s) for chat.
+- baseURL: https://api.osmapi.com/v1
+  baseurl_source: declared
+  description: The Chat API from osmAPI — 1 operation(s) for chat.
   name: osmAPI Chat API
   slug: osmapi-chat-api
-- description: The Messages API from osmAPI — 1 operation(s) for messages.
+- baseURL: https://api.osmapi.com/v1
+  baseurl_source: declared
+  description: The Messages API from osmAPI — 1 operation(s) for messages.
   name: osmAPI Messages API
   slug: osmapi-messages-api
-- description: The Models API from osmAPI — 1 operation(s) for models.
+- baseURL: https://api.osmapi.com/v1
+  baseurl_source: declared
+  description: The Models API from osmAPI — 1 operation(s) for models.
   name: osmAPI Models API
   slug: osmapi-models-api
-- description: The OsmAPI Health API API from osmAPI — 1 operation(s) for osmapi health api.
+- baseURL: https://api.osmapi.com/v1
+  baseurl_source: declared
+  description: The OsmAPI Health API API from osmAPI — 1 operation(s) for osmapi health api.
   name: osmAPI OsmAPI Health API API
   slug: osmapi-osmapi-health-api-api
 artifact_total: 23
@@ -228,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/screenshots/osmapi-2026-06-20T191217.png
 security:

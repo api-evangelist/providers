@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 30 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Intralinks — 2 operation(s) for authentication.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Authentication API from Intralinks — 2 operation(s) for authentication.
   name: Intralinks Authentication API
   slug: intralinks-authentication-api
-- description: The Custom Fields API from Intralinks — 1 operation(s) for custom fields.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Custom Fields API from Intralinks — 1 operation(s) for custom fields.
   name: Intralinks Custom Fields API
   slug: intralinks-custom-fields-api
-- description: The Documents API from Intralinks — 3 operation(s) for documents.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Documents API from Intralinks — 3 operation(s) for documents.
   name: Intralinks Documents API
   slug: intralinks-documents-api
-- description: The Folders API from Intralinks — 2 operation(s) for folders.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Folders API from Intralinks — 2 operation(s) for folders.
   name: Intralinks Folders API
   slug: intralinks-folders-api
-- description: The Groups API from Intralinks — 3 operation(s) for groups.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Groups API from Intralinks — 3 operation(s) for groups.
   name: Intralinks Groups API
   slug: intralinks-groups-api
-- description: The Permissions API from Intralinks — 1 operation(s) for permissions.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Permissions API from Intralinks — 1 operation(s) for permissions.
   name: Intralinks Permissions API
   slug: intralinks-permissions-api
-- description: The Splash API from Intralinks — 1 operation(s) for splash.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Splash API from Intralinks — 1 operation(s) for splash.
   name: Intralinks Splash API
   slug: intralinks-splash-api
-- description: The Workspaces API from Intralinks — 2 operation(s) for workspaces.
+- baseURL: https://api.intralinks.com/v2
+  baseurl_source: spec
+  description: The Workspaces API from Intralinks — 2 operation(s) for workspaces.
   name: Intralinks Workspaces API
   slug: intralinks-workspaces-api
 artifact_total: 34
@@ -233,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/screenshots/intralinks-2026-06-20T183611.png
 security:

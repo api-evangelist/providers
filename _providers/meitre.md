@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Partner integration API for accessing Meitre's restaurant reservations, availability, and guest data. Documentation is behind an authenticated developer portal at meitre-api.com; access is arranged vi
@@ -119,7 +119,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meitre/refs/heads/main/screenshots/meitre-2026-08-07T172434.png
 security:

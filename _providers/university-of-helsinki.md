@@ -33,46 +33,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 13
 apis:
 - description: The University's own API developer portal and gateway — a self-hosted Gravitee API Management deployment. The portal REST API answers anonymously and is, in practice, the University's API discovery su
   name: University of Helsinki API Portal (Gravitee)
   slug: api-gateway
-- description: 'Organisation Registry Public API — the University''s organisational units and their hierarchy. The largest gateway contract: 22 paths and 19 component schemas, OpenAPI 3.0.3, X-Api-Key.'
+- baseURL: https://gw.api.helsinki.fi/organisation
+  baseurl_source: declared
+  description: 'Organisation Registry Public API — the University''s organisational units and their hierarchy. The largest gateway contract: 22 paths and 19 component schemas, OpenAPI 3.0.3, X-Api-Key.'
   name: HY Organisation API
   slug: hy-organisation
-- description: Expert and contact search, used by the public helsinki.fi pages and the Flamma intranet. OpenAPI 3.1.0, 22 paths, 33 schemas — the only 3.1 document in the estate. Returns records about identifiable s
+- baseURL: https://gw.api.helsinki.fi/contact-search
+  baseurl_source: declared
+  description: Expert and contact search, used by the public helsinki.fi pages and the Flamma intranet. OpenAPI 3.1.0, 22 paths, 33 schemas — the only 3.1 document in the estate. Returns records about identifiable s
   name: Contact Search API
   slug: contact-search
-- description: 'Drupal JSON:API behind the course pages — course descriptions, materials and related content. Declares an oauth2 scheme with no flows whose description links a third-party CRM vendor''s documentation, '
+- baseURL: https://gw.api.helsinki.fi/course-pages-cms
+  baseurl_source: declared
+  description: 'Drupal JSON:API behind the course pages — course descriptions, materials and related content. Declares an oauth2 scheme with no flows whose description links a third-party CRM vendor''s documentation, '
   name: Course pages CMS
   slug: course-pages-cms
-- description: Content API for helsinki.fi — news and study search. Notable for declaring two distinct X-Api-Key schemes, NewsApiKey and StudySearchApiKey, described as issued by two different plans; it is the clear
+- baseURL: https://gw.api.helsinki.fi/public_web
+  baseurl_source: declared
+  description: Content API for helsinki.fi — news and study search. Notable for declaring two distinct X-Api-Key schemes, NewsApiKey and StudySearchApiKey, described as issued by two different plans; it is the clear
   name: Helsinki.fi content
   slug: helsinki-fi-content
-- description: Buildings and spaces on the University estate. Small (2 paths) and the stalest API in the gallery — created 2020-03-18, last updated 2023-05-29.
+- baseURL: https://gw.api.helsinki.fi/building
+  baseurl_source: declared
+  description: Buildings and spaces on the University estate. Small (2 paths) and the stalest API in the gallery — created 2020-03-18, last updated 2023-05-29.
   name: HY Building API
   slug: hy-building
-- description: Queries the University's service catalogue. Contact is the IT Centre integration services group address, not an individual.
+- baseURL: https://gw.api.helsinki.fi/serviceapi
+  baseurl_source: declared
+  description: Queries the University's service catalogue. Contact is the IT Centre integration services group address, not an individual.
   name: ServiceAPI
   slug: serviceapi
-- description: Employee information lookup. Returns records about identifiable staff — structural examples only, no live response stored. The portal card advertises 1.4.0 while the spec it serves declares info.versi
+- baseURL: https://gw.api.helsinki.fi/employeeinformation
+  baseurl_source: declared
+  description: Employee information lookup. Returns records about identifiable staff — structural examples only, no live response stored. The portal card advertises 1.4.0 while the spec it serves declares info.versi
   name: EmployeeInformationAPI
   slug: employeeinformation
-- description: Selected groups and their member data. Personal data; structural examples only.
+- baseURL: https://gw.api.helsinki.fi/persongroup
+  baseurl_source: declared
+  description: Selected groups and their member data. Personal data; structural examples only.
   name: PersonGroup
   slug: persongroup
-- description: Creates service requests in Efecte, the University's IT service management platform. University-operated endpoint in front of a commercial ITSM product.
+- baseURL: https://gw.api.helsinki.fi/efecte
+  baseurl_source: declared
+  description: Creates service requests in Efecte, the University's IT service management platform. University-operated endpoint in front of a commercial ITSM product.
   name: General Efecte API
   slug: general-efecte
-- description: Interface to the University's network registry data (production instance). Declares its API key header as X-API-Key where the rest of the estate uses X-Api-Key.
+- baseURL: https://gw.api.helsinki.fi/netdata
+  baseurl_source: declared
+  description: Interface to the University's network registry data (production instance). Declares its API key header as X-API-Key where the rest of the estate uses X-Api-Key.
   name: Network registry API
   slug: network-registry
-- description: The University's application-portfolio register — a machine-readable inventory of the software the institution runs. Declares no security scheme and no error responses, so its published contract canno
+- baseURL: https://gw.api.helsinki.fi/ssapi
+  baseurl_source: declared
+  description: The University's application-portfolio register — a machine-readable inventory of the software the institution runs. Declares no security scheme and no error responses, so its published contract canno
   name: Sovellussalkku API
   slug: sovellussalkku
-- description: Posts data into named data-warehouse tables. Newest API in the gallery (created 2026-04-20) and, like Sovellussalkku, publishes no security scheme or error responses.
+- baseURL: https://gw.api.helsinki.fi/secure/dawasync
+  baseurl_source: declared
+  description: Posts data into named data-warehouse tables. Newest API in the gallery (created 2026-04-20) and, like Sovellussalkku, publishes no security scheme or error responses.
   name: Dawa Sync API
   slug: dawa-sync
 - description: SBOM upload to the University's Dependency Track instance from external networks. Public and running in the portal, but publishes no OpenAPI page, so no contract is stored here.
@@ -84,7 +108,9 @@ apis:
 - description: Authenticated access to the Drupal JSON:API behind the internal guide, covering published and unpublished content. No OpenAPI page is published.
   name: Internal Guide CMS JSON-API
   slug: internal-guide-cms
-- description: 'The largest contract the University of Helsinki operates: 177 paths and 239 component schemas over Finnish species, taxonomy, occurrence records, collections, image bank and data requests. Operated by'
+- baseURL: https://api.laji.fi
+  baseurl_source: declared
+  description: 'The largest contract the University of Helsinki operates: 177 paths and 239 component schemas over Finnish species, taxonomy, occurrence records, collections, image bank and data requests. Operated by'
   name: FinBIF Laji API (Finnish Biodiversity Information Facility)
   slug: finbif-laji
 - description: Public HAL REST API for Helda, the University's open institutional repository, running DSpace 7.6.2. Discovery/search, items, collections, communities and the metadata registry are all readable anonym
@@ -362,23 +388,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.4
+  composite: 54.9
   coverage:
     artifact_dirs: 19
     catalog_gap: 44.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -6.3
+  delta: 0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 29.5
-    contract_quality: 61.6
+    contract_quality: 63.6
     developer_ergonomics: 40.5
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 10.5
-  previous_composite: 60.7
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     contracts:
@@ -393,8 +419,8 @@ score:
     regime_id: education
     score: 83.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/screenshots/university-of-helsinki-2026-06-20T200155.png
 security:
 - kind: authentication

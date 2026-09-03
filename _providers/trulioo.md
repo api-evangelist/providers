@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 54 operations · 20 acting
 api_count: 1
 apis:
-- description: Normalized KYC / electronic identity verification API. Submit a Verify request with normalized PersonInfo, Communication, Location, NationalIds, and Documents fields and Trulioo's GlobalGateway routes
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Normalized KYC / electronic identity verification API. Submit a Verify request with normalized PersonInfo, Communication, Location, NationalIds, and Documents fields and Trulioo's GlobalGateway routes
   name: Trulioo Verifications API
   slug: trulioo-verifications-api
-- description: 'Discovery endpoints for the GlobalGateway. Learn which countries, datasources, fields, document types, consents, and test entities are available for a configured product / package before submitting a '
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: 'Discovery endpoints for the GlobalGateway. Learn which countries, datasources, fields, document types, consents, and test entities are available for a configured product / package before submitting a '
   name: Trulioo Configuration API
   slug: trulioo-configuration-api
-- description: Health-check and authentication-test endpoints. `sayhello` is an unauthenticated ping; `testauthentication` verifies your credentials before exercising paid endpoints.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Health-check and authentication-test endpoints. `sayhello` is an unauthenticated ping; `testauthentication` verifies your credentials before exercising paid endpoints.
   name: Trulioo Connection API
   slug: trulioo-connection-api
-- description: Know Your Business (KYB) API for verifying legal entities, retrieving business registration data from official registries, listing officers and persons of significant control, and downloading business
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Know Your Business (KYB) API for verifying legal entities, retrieving business registration data from official registries, listing officers and persons of significant control, and downloading business
   name: Trulioo Business Verification API
   slug: trulioo-business-verification-api
-- description: Fraud Intelligence — Person Fraud risk scoring. Submit an identity payload and receive a risk verdict that aggregates third-party fraud signals, velocity checks, device intelligence, and identity-grap
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Fraud Intelligence — Person Fraud risk scoring. Submit an identity payload and receive a risk verdict that aggregates third-party fraud signals, velocity checks, device intelligence, and identity-grap
   name: Trulioo Person Fraud API
   slug: trulioo-person-fraud-api
-- description: 'Capture, classify, and verify government-issued identity documents (driver''s license, passport, national ID) paired with optional liveness selfie checks. Used to authenticate documents, extract MRZ / '
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: 'Capture, classify, and verify government-issued identity documents (driver''s license, passport, national ID) paired with optional liveness selfie checks. Used to authenticate documents, extract MRZ / '
   name: Trulioo Identity Document Verification API
   slug: trulioo-document-verification-api
-- description: OAuth2 client-credential token acquisition.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: OAuth2 client-credential token acquisition.
   name: Trulioo Authentication API
   slug: trulioo-authentication-api
-- description: Discover JOIs and registration number requirements.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Discover JOIs and registration number requirements.
   name: Trulioo Business Configuration API
   slug: trulioo-business-configuration-api
-- description: Download business reports.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Download business reports.
   name: Trulioo Business Reports API
   slug: trulioo-business-reports-api
-- description: Search the Trulioo business registry universe.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Search the Trulioo business registry universe.
   name: Trulioo Business Search API
   slug: trulioo-business-search-api
-- description: Discover document types per country.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Discover document types per country.
   name: Trulioo Document Configuration API
   slug: trulioo-document-configuration-api
-- description: Download evidence documents from completed transactions.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Download evidence documents from completed transactions.
   name: Trulioo Documents API
   slug: trulioo-documents-api
-- description: Profiles, files, and bulk operations on end clients.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Profiles, files, and bulk operations on end clients.
   name: Trulioo End Clients API
   slug: trulioo-end-clients-api
-- description: Webhook event dispatch.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Webhook event dispatch.
   name: Trulioo Events API
   slug: trulioo-events-api
-- description: Initialize and drive a workflow flow.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Initialize and drive a workflow flow.
   name: Trulioo Flows API
   slug: trulioo-flows-api
-- description: Manage Known Faces lists for biometric watchlists.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Manage Known Faces lists for biometric watchlists.
   name: Trulioo Known Faces API
   slug: trulioo-known-faces-api
-- description: Generate signed URLs for user sessions.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Generate signed URLs for user sessions.
   name: Trulioo Sessions API
   slug: trulioo-sessions-api
-- description: Retrieve verification transactions and status.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Retrieve verification transactions and status.
   name: Trulioo Transactions API
   slug: trulioo-transactions-api
-- description: Retrieve workflow definitions.
+- baseURL: https://api.trulioo.com
+  baseurl_source: declared
+  description: Retrieve workflow definitions.
   name: Trulioo Workflows API
   slug: trulioo-workflows-api
 arazzos:
@@ -679,7 +717,7 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -689,7 +727,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 46.1
-  previous_composite: 56.1
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -698,7 +736,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png
 security:

@@ -33,19 +33,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Public, unauthenticated OAI-PMH 2.0 metadata harvesting interface for QUT's institutional research repository. All six verbs served. Advertises oai_dc, oai_bibl, oai_openaire and uketd_dc. Identify na
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: Public, unauthenticated OAI-PMH 2.0 metadata harvesting interface for QUT's institutional research repository. All six verbs served. Advertises oai_dc, oai_bibl, oai_openaire and uketd_dc. Identify na
   name: QUT ePrints OAI-PMH 2.0
   slug: qut-eprints-oai-pmh-20
-- description: QUT's enterprise single sign-on authorization server, a Keycloak deployment on QUT's own address space. Publishes OpenID Connect Discovery 1.0 metadata, an RFC 8414 authorization server metadata docum
+- baseURL: https://esoe.qut.edu.au/auth/realms/qut
+  baseurl_source: declared
+  description: QUT's enterprise single sign-on authorization server, a Keycloak deployment on QUT's own address space. Publishes OpenID Connect Discovery 1.0 metadata, an RFC 8414 authorization server metadata docum
   name: QUT ESOE OpenID Connect Provider
   slug: qut-esoe-openid-connect-provider
 - description: QUT's self-hosted Shibboleth SAML 2.0 identity provider. Publishes per-entity metadata that dereferences from its own entityID, asserts shibmd:Scope qut.edu.au, and is registered in the Australian Acc
   name: QUT Shibboleth Identity Provider
   slug: qut-shibboleth-identity-provider
-- description: The GNU EPrints REST dataset interface. The index is open and the payload is closed — /rest/, /rest/eprint/ and /rest/subject/ return 200 without credentials, while every individual record returns 401
+- baseURL: https://eprints.qut.edu.au/rest
+  baseurl_source: declared
+  description: The GNU EPrints REST dataset interface. The index is open and the payload is closed — /rest/, /rest/eprint/ and /rest/subject/ return 200 without credentials, while every individual record returns 401
   name: QUT ePrints REST Interface
   slug: qut-eprints-rest-interface
 - description: A public agent plugin marketplace published by QUT eResearch, carrying one MCP server definition that wraps the QUT eResearch documentation site. Institution-authored and a rare find for a university.
@@ -238,7 +244,7 @@ score:
     catalog_gap: 38.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 20.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -248,7 +254,7 @@ score:
     discoverability: 85.2
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 15.8
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     contracts:
@@ -264,8 +270,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 security:
 - kind: authentication
   name: Qut Authentication

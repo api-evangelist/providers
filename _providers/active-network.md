@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Activities API from Active Network — 1 operation(s) for activities.
+- baseURL: http://api.amp.active.com
+  baseurl_source: declared
+  description: The Activities API from Active Network — 1 operation(s) for activities.
   name: Active Network Activities API
   slug: active-network-activities-api
-- description: The Camping API from Active Network — 1 operation(s) for camping.
+- baseURL: http://api.amp.active.com
+  baseurl_source: declared
+  description: The Camping API from Active Network — 1 operation(s) for camping.
   name: Active Network Camping API
   slug: active-network-camping-api
 artifact_total: 9
@@ -196,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
 security:

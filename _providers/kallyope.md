@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: Site-wide search and the registered post-type / taxonomy indexes.
+- baseURL: https://kallyope.com/wp-json
+  baseurl_source: declared
+  description: Site-wide search and the registered post-type / taxonomy indexes.
   name: Kallyope Discovery API
   slug: kallyope-discovery-api
-- description: Kallyope's first-party library of scientific posters, presentations, publications and video.
+- baseURL: https://kallyope.com/wp-json
+  baseurl_source: declared
+  description: Kallyope's first-party library of scientific posters, presentations, publications and video.
   name: Kallyope Documents API
   slug: kallyope-documents-api
-- description: The uploaded media library backing documents and pages.
+- baseURL: https://kallyope.com/wp-json
+  baseurl_source: declared
+  description: The uploaded media library backing documents and pages.
   name: Kallyope Media API
   slug: kallyope-media-api
-- description: Company news and press-release posts.
+- baseURL: https://kallyope.com/wp-json
+  baseurl_source: declared
+  description: Company news and press-release posts.
   name: Kallyope News API
   slug: kallyope-news-api
-- description: Site pages (about, pipeline, platform, partnering, careers, contact).
+- baseURL: https://kallyope.com/wp-json
+  baseurl_source: declared
+  description: Site pages (about, pipeline, platform, partnering, careers, contact).
   name: Kallyope Pages API
   slug: kallyope-pages-api
-- description: The first-party program / event / content-type / document-type classifications applied to documents.
+- baseURL: https://kallyope.com/wp-json
+  baseurl_source: declared
+  description: The first-party program / event / content-type / document-type classifications applied to documents.
   name: Kallyope Taxonomies API
   slug: kallyope-taxonomies-api
 artifact_total: 11
@@ -171,7 +194,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png
 security:

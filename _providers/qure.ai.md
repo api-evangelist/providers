@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,16 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Fetch Results API from Qure.ai — 3 operation(s) for fetch results.
+- baseURL: BASE_URL
+  baseurl_source: declared
+  description: The Fetch Results API from Qure.ai — 3 operation(s) for fetch results.
   name: Qure.ai Fetch Results API
   slug: qure.ai-fetch-results-api
-- description: The Initiate Computation API from Qure.ai — 1 operation(s) for initiate computation.
+- baseURL: BASE_URL
+  baseurl_source: declared
+  description: The Initiate Computation API from Qure.ai — 1 operation(s) for initiate computation.
   name: Qure.ai Initiate Computation API
   slug: qure.ai-initiate-computation-api
-- description: The Upload DICOMs API from Qure.ai — 1 operation(s) for upload dicoms.
+- baseURL: BASE_URL
+  baseurl_source: declared
+  description: The Upload DICOMs API from Qure.ai — 1 operation(s) for upload dicoms.
   name: Qure.ai Upload DICOMs API
   slug: qure.ai-upload-dicoms-api
 artifact_total: 7
@@ -190,7 +209,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -227,8 +246,9 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qure.ai/refs/heads/main/screenshots/qure.ai-2026-09-02T152720.png
 security:
 - kind: authentication
   name: Qure.Ai Authentication

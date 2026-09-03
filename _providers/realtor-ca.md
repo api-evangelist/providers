@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -39,22 +51,34 @@ apis:
 - description: CREA's OAuth 2.0 / OpenID Connect authorization server at identity.crea.ca, which issues the access tokens every DDF® Web API call requires. Its discovery document is served anonymously and advertises
   name: CREA Identity Server
   slug: crea-identity-server
-- description: Get details about each destination linked to the Technology Provider
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Get details about each destination linked to the Technology Provider
   name: REALTOR.ca Destination API
   slug: realtor-ca-destination-api
-- description: Create Lead
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Create Lead
   name: REALTOR.ca Lead API
   slug: realtor-ca-lead-api
-- description: Get Members
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Get Members
   name: REALTOR.ca Member API
   slug: realtor-ca-member-api
-- description: Get Offices
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Get Offices
   name: REALTOR.ca Office API
   slug: realtor-ca-office-api
-- description: The OpenHouse API from REALTOR.ca — 2 operation(s) for openhouse.
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: The OpenHouse API from REALTOR.ca — 2 operation(s) for openhouse.
   name: REALTOR.ca Open House API
   slug: realtor-ca-openhouse-api
-- description: Get Properties
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Get Properties
   name: REALTOR.ca Property API
   slug: realtor-ca-property-api
 artifact_total: 16
@@ -257,7 +281,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -283,8 +307,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/screenshots/realtor-ca-2026-09-02T153017.png
 security:
 - kind: authentication
   name: Realtor Ca Authentication

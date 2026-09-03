@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Credential-gated MDM API that lets an approved third-party asset or device-management system pull an inventory list of devices (iPads, Macs, Apple TVs) managed in Securly MDM. Access is provisioned pe
@@ -92,7 +92,7 @@ score:
   band: minimal
   composite: 8.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -114,8 +114,9 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/securly/refs/heads/main/screenshots/securly-2026-09-02T154725.png
 security:
 - kind: domain-security
   name: Securly Domain Security

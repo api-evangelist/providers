@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: CTA publishes a GTFS (General Transit Feed Specification) schedule feed covering the physical layout, stop locations, and static schedules for the entire CTA bus and L train system. The feed is a down
   name: CTA GTFS Schedule Feed
   slug: gtfs-feed
-- description: Train arrival prediction operations
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: Train arrival prediction operations
   name: Chicago Transit Authority Arrivals API
   slug: chicago-transit-authority-arrivals-api
-- description: The Bulletins API from Chicago Transit Authority — 1 operation(s) for bulletins.
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: The Bulletins API from Chicago Transit Authority — 1 operation(s) for bulletins.
   name: Chicago Transit Authority Bulletins API
   slug: chicago-transit-authority-bulletins-api
-- description: Follow an individual train run
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: Follow an individual train run
   name: Chicago Transit Authority Follow API
   slug: chicago-transit-authority-follow-api
-- description: Train geolocation operations
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: Train geolocation operations
   name: Chicago Transit Authority Locations API
   slug: chicago-transit-authority-locations-api
-- description: The Predictions API from Chicago Transit Authority — 1 operation(s) for predictions.
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: The Predictions API from Chicago Transit Authority — 1 operation(s) for predictions.
   name: Chicago Transit Authority Predictions API
   slug: chicago-transit-authority-predictions-api
-- description: The Routes API from Chicago Transit Authority — 3 operation(s) for routes.
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: The Routes API from Chicago Transit Authority — 3 operation(s) for routes.
   name: Chicago Transit Authority Routes API
   slug: chicago-transit-authority-routes-api
-- description: The Stops API from Chicago Transit Authority — 1 operation(s) for stops.
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: The Stops API from Chicago Transit Authority — 1 operation(s) for stops.
   name: Chicago Transit Authority Stops API
   slug: chicago-transit-authority-stops-api
-- description: The System API from Chicago Transit Authority — 1 operation(s) for system.
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: The System API from Chicago Transit Authority — 1 operation(s) for system.
   name: Chicago Transit Authority System API
   slug: chicago-transit-authority-system-api
-- description: The Vehicles API from Chicago Transit Authority — 1 operation(s) for vehicles.
+- baseURL: http://lapi.transitchicago.com/api/1.0
+  baseurl_source: declared
+  description: The Vehicles API from Chicago Transit Authority — 1 operation(s) for vehicles.
   name: Chicago Transit Authority Vehicles API
   slug: chicago-transit-authority-vehicles-api
 artifact_total: 49
@@ -257,7 +275,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/screenshots/chicago-transit-authority-2026-06-20T174303.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,70 +36,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The Addresses API from viagogo — 2 operation(s) for addresses.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The Addresses API from viagogo — 2 operation(s) for addresses.
   name: viagogo Addresses API
   slug: viagogo-addresses-api
-- description: View categories on the viagogo platform
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: View categories on the viagogo platform
   name: viagogo Categories API
   slug: viagogo-categories-api
-- description: The E-Tickets API from viagogo — 13 operation(s) for e-tickets.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The E-Tickets API from viagogo — 13 operation(s) for e-tickets.
   name: viagogo E Tickets API
   slug: viagogo-e-tickets-api
-- description: View events on the viagogo platform
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: View events on the viagogo platform
   name: viagogo Events API
   slug: viagogo-events-api
-- description: Manage instant liquidity offers (buyer bids) on the viagogo platform
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: Manage instant liquidity offers (buyer bids) on the viagogo platform
   name: viagogo Listing Offers API
   slug: viagogo-listing-offers-api
-- description: The ListingConstraints API from viagogo — 3 operation(s) for listingconstraints.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The ListingConstraints API from viagogo — 3 operation(s) for listingconstraints.
   name: viagogo Listing Constraints API
   slug: viagogo-listingconstraints-api
-- description: The PaymentMethods API from viagogo — 1 operation(s) for paymentmethods.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The PaymentMethods API from viagogo — 1 operation(s) for paymentmethods.
   name: viagogo Payment Methods API
   slug: viagogo-paymentmethods-api
-- description: The Payments API from viagogo — 3 operation(s) for payments.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The Payments API from viagogo — 3 operation(s) for payments.
   name: viagogo Payments API
   slug: viagogo-payments-api
-- description: View your sales details and fulfill your sales.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: View your sales details and fulfill your sales.
   name: viagogo Sales API
   slug: viagogo-sales-api
-- description: The SellerEvents API from viagogo — 2 operation(s) for sellerevents.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The SellerEvents API from viagogo — 2 operation(s) for sellerevents.
   name: viagogo Seller Events API
   slug: viagogo-sellerevents-api
-- description: List tickets, update your listings and search your inventory.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: List tickets, update your listings and search your inventory.
   name: viagogo Seller Listings API
   slug: viagogo-sellerlistings-api
-- description: Manage your inventory using identifiers from an external inventory management system.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: Manage your inventory using identifiers from an external inventory management system.
   name: viagogo SellerListings (External Id) API
   slug: viagogo-sellerlistings-external-id-api
-- description: Preview the changes you want to make to your inventory.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: Preview the changes you want to make to your inventory.
   name: viagogo SellerListings (Preview) API
   slug: viagogo-sellerlistings-preview-api
-- description: The Shipments API from viagogo — 6 operation(s) for shipments.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The Shipments API from viagogo — 6 operation(s) for shipments.
   name: viagogo Shipments API
   slug: viagogo-shipments-api
-- description: The TicketHolders API from viagogo — 1 operation(s) for ticketholders.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The TicketHolders API from viagogo — 1 operation(s) for ticketholders.
   name: viagogo Ticket Holders API
   slug: viagogo-ticketholders-api
-- description: The TransferStatusProof API from viagogo — 1 operation(s) for transferstatusproof.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The TransferStatusProof API from viagogo — 1 operation(s) for transferstatusproof.
   name: viagogo Transfer Status Proof API
   slug: viagogo-transferstatusproof-api
-- description: The User API from viagogo — 1 operation(s) for user.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The User API from viagogo — 1 operation(s) for user.
   name: viagogo User API
   slug: viagogo-user-api
-- description: View venue configurations on the viagogo platform
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: View venue configurations on the viagogo platform
   name: viagogo Venue Configurations API
   slug: viagogo-venue-configurations-api
-- description: View venues on the viagogo platform
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: View venues on the viagogo platform
   name: viagogo Venues API
   slug: viagogo-venues-api
-- description: The Webhooks API from viagogo — 3 operation(s) for webhooks.
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The Webhooks API from viagogo — 3 operation(s) for webhooks.
   name: viagogo Webhooks API
   slug: viagogo-webhooks-api
-- description: When configuring a webhook, you can choose the topics you would like to receive payloads for. You should only subscribe to the specific topics that you plan on handling so that you can limit the numbe
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: When configuring a webhook, you can choose the topics you would like to receive payloads for. You should only subscribe to the specific topics that you plan on handling so that you can limit the numbe
   name: viagogo Topics API
   slug: viagogo-topics-api
 artifact_total: 47
@@ -316,7 +371,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -326,7 +381,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -337,7 +392,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/screenshots/viagogo-2026-08-17T082740.png
 security:

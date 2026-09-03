@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: The Advanced API from Moon-API — 1 operation(s) for advanced.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Advanced API from Moon-API — 1 operation(s) for advanced.
   name: Moon-API Advanced API
   slug: moon-api-advanced-api
-- description: The Astrology API from Moon-API — 1 operation(s) for astrology.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Astrology API from Moon-API — 1 operation(s) for astrology.
   name: Moon-API Astrology API
   slug: moon-api-astrology-api
-- description: The Basic API from Moon-API — 1 operation(s) for basic.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Basic API from Moon-API — 1 operation(s) for basic.
   name: Moon-API Basic API
   slug: moon-api-basic-api
-- description: The Calendar API from Moon-API — 1 operation(s) for calendar.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Calendar API from Moon-API — 1 operation(s) for calendar.
   name: Moon-API Calendar API
   slug: moon-api-calendar-api
-- description: The Emoji API from Moon-API — 1 operation(s) for emoji.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Emoji API from Moon-API — 1 operation(s) for emoji.
   name: Moon-API Emoji API
   slug: moon-api-emoji-api
-- description: The Phase API from Moon-API — 1 operation(s) for phase.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Phase API from Moon-API — 1 operation(s) for phase.
   name: Moon-API Phase API
   slug: moon-api-phase-api
-- description: The Plain Text API from Moon-API — 1 operation(s) for plain text.
+- baseURL: https://moon-phase.p.rapidapi.com
+  baseurl_source: spec
+  description: The Plain Text API from Moon-API — 1 operation(s) for plain text.
   name: Moon-API Plain Text API
   slug: moon-api-plain-text-api
 artifact_total: 23
@@ -179,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moon-api/refs/heads/main/screenshots/moon-api-2026-06-20T185757.png
 security:

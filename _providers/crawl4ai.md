@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'The hosted Crawl4AI API. One key, plain JSON, one fast endpoint per job: POST /scrape turns a URL into clean Markdown or HTML, GET /search runs a browser-free multi-engine web search, GET /answer retu'
@@ -260,7 +260,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -270,7 +270,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 97.4
-  previous_composite: 58.8
+  previous_composite: 66.3
   provenance:
     conformance: first-party
     contracts:
@@ -281,8 +281,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/screenshots/crawl4ai-2026-06-20T175215.png
 security:
 - kind: authentication

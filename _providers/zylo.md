@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Applications represent SaaS software products tracked within the Zylo platform, including metadata such as owner, category, and custom fields.
+- baseURL: https://api.zylo.com/v1
+  baseurl_source: declared
+  description: Applications represent SaaS software products tracked within the Zylo platform, including metadata such as owner, category, and custom fields.
   name: Zylo Applications API
   slug: zylo-applications-api
-- description: Export Jobs allow you to export subscription data asynchronously. You first create an export job, then retrieve the results when the job is complete.
+- baseURL: https://api.zylo.com/v1
+  baseurl_source: declared
+  description: Export Jobs allow you to export subscription data asynchronously. You first create an export job, then retrieve the results when the job is complete.
   name: Zylo Export Jobs API
   slug: zylo-export-jobs-api
-- description: Import Jobs allow you to import user, license, and activity data from non-integrated applications via CSV upload to optimize license usage across SaaS applications.
+- baseURL: https://api.zylo.com/v1
+  baseurl_source: declared
+  description: Import Jobs allow you to import user, license, and activity data from non-integrated applications via CSV upload to optimize license usage across SaaS applications.
   name: Zylo Import Jobs API
   slug: zylo-import-jobs-api
-- description: Subscriptions are configured instances created in the Zylo user interface. They typically have a 1:1 relationship to a given application, though you may also have multiple subscriptions to the same ap
+- baseURL: https://api.zylo.com/v1
+  baseurl_source: declared
+  description: Subscriptions are configured instances created in the Zylo user interface. They typically have a 1:1 relationship to a given application, though you may also have multiple subscriptions to the same ap
   name: Zylo Subscriptions API
   slug: zylo-subscriptions-api
 artifact_total: 44
@@ -279,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/screenshots/zylo-2026-06-20T202009.png
 security:

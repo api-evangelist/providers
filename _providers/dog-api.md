@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 24 operations
 api_count: 3
 apis:
-- description: List and look up master breeds and their sub-breeds.
+- baseURL: https://dog.ceo/api
+  baseurl_source: declared
+  description: List and look up master breeds and their sub-breeds.
   name: Dog API Breeds API
   slug: dog-api-breeds-api
-- description: Fetch random or breed-specific dog images (with optional alt text).
+- baseURL: https://dog.ceo/api
+  baseurl_source: declared
+  description: Fetch random or breed-specific dog images (with optional alt text).
   name: Dog API Images API
   slug: dog-api-images-api
-- description: Look up free-text breed information where available.
+- baseURL: https://dog.ceo/api
+  baseurl_source: declared
+  description: Look up free-text breed information where available.
   name: Dog API Info API
   slug: dog-api-info-api
 artifact_total: 44
@@ -294,7 +300,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-api/refs/heads/main/screenshots/dog-api-2026-06-20T180122.png
 security:

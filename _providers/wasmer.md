@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The wasmer command-line client (wasmer login, publish, deploy, run, ssh) - a first-class consumer of the Registry GraphQL API that wraps publish and Edge deployment workflows.
   name: Wasmer CLI
   slug: wasmer-cli
-- description: The GraphQL API from Wasmer — 1 operation(s) for graphql.
+- baseURL: https://registry.wasmer.io/graphql
+  baseurl_source: declared
+  description: The GraphQL API from Wasmer — 1 operation(s) for graphql.
   name: Wasmer GraphQL API
   slug: wasmer-graphql-api
 artifact_total: 13
@@ -166,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/screenshots/wasmer-2026-06-20T201241.png
 security:

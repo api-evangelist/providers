@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Account and wallet service.
+- baseURL: https://production-gameflip.fingershock.com/api/v1
+  baseurl_source: declared
+  description: Account and wallet service.
   name: Gameflip Account API
   slug: gameflip-account-api
-- description: Create and manage sell/buy records (exchanges).
+- baseURL: https://production-gameflip.fingershock.com/api/v1
+  baseurl_source: declared
+  description: Create and manage sell/buy records (exchanges).
   name: Gameflip Exchange API
   slug: gameflip-exchange-api
-- description: Create and manipulate listings of items for sale.
+- baseURL: https://production-gameflip.fingershock.com/api/v1
+  baseurl_source: declared
+  description: Create and manipulate listings of items for sale.
   name: Gameflip Listing API
   slug: gameflip-listing-api
-- description: Account profile service.
+- baseURL: https://production-gameflip.fingershock.com/api/v1
+  baseurl_source: declared
+  description: Account profile service.
   name: Gameflip Profile API
   slug: gameflip-profile-api
-- description: Create listings/escrow for multiple Steam items with one trade offer.
+- baseURL: https://production-gameflip.fingershock.com/api/v1
+  baseurl_source: declared
+  description: Create listings/escrow for multiple Steam items with one trade offer.
   name: Gameflip Steam Bulk API
   slug: gameflip-steam-bulk-api
-- description: Escrow Steam items.
+- baseURL: https://production-gameflip.fingershock.com/api/v1
+  baseurl_source: declared
+  description: Escrow Steam items.
   name: Gameflip Steam Escrow API
   slug: gameflip-steam-escrow-api
 artifact_total: 17
@@ -210,7 +222,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:

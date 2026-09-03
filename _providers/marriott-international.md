@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Check room availability and rates.
+- baseURL: https://devportalprod.marriott.com
+  baseurl_source: declared
+  description: Check room availability and rates.
   name: Marriott International Availability API
   slug: marriott-international-availability-api
-- description: Search and retrieve hotel property information.
+- baseURL: https://devportalprod.marriott.com
+  baseurl_source: declared
+  description: Search and retrieve hotel property information.
   name: Marriott International Properties API
   slug: marriott-international-properties-api
-- description: Create and manage hotel reservations.
+- baseURL: https://devportalprod.marriott.com
+  baseurl_source: declared
+  description: Create and manage hotel reservations.
   name: Marriott International Reservations API
   slug: marriott-international-reservations-api
 artifact_total: 16
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/screenshots/marriott-international-2026-06-20T185001.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 14 acting
 api_count: 1
 apis:
-- description: Aggregator-specific feature actions.
+- baseURL: https://pos-int.urbanpiper.com
+  baseurl_source: declared
+  description: Aggregator-specific feature actions.
   name: UrbanPiper Aggregator API
   slug: urbanpiper-aggregator-api
-- description: Catalogue push and item/option availability.
+- baseURL: https://pos-int.urbanpiper.com
+  baseurl_source: declared
+  description: Catalogue push and item/option availability.
   name: UrbanPiper Menu API
   slug: urbanpiper-menu-api
-- description: Order status updates and stock-out on active orders.
+- baseURL: https://pos-int.urbanpiper.com
+  baseurl_source: declared
+  description: Order status updates and stock-out on active orders.
   name: UrbanPiper Orders API
   slug: urbanpiper-orders-api
-- description: Create, update and toggle stores/locations.
+- baseURL: https://pos-int.urbanpiper.com
+  baseurl_source: declared
+  description: Create, update and toggle stores/locations.
   name: UrbanPiper Stores API
   slug: urbanpiper-stores-api
-- description: Register and manage outbound webhook endpoints.
+- baseURL: https://pos-int.urbanpiper.com
+  baseurl_source: declared
+  description: Register and manage outbound webhook endpoints.
   name: UrbanPiper Webhooks API
   slug: urbanpiper-webhooks-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/urbanpiper/refs/heads/main/screenshots/urbanpiper-2026-09-02T165211.png
 security:
 - kind: authentication
   name: Urbanpiper Authentication

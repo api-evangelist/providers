@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: The Compass REST API v1 provides operations for component management, scorecard configuration, and webhook registration via standard HTTP REST conventions with OAuth 2.0 authentication.
   name: Atlassian Compass REST API
   slug: atlassian-compass-rest-api
-- description: Ingest events into a Compass event source
+- baseURL: https://api.atlassian.com/graphql
+  baseurl_source: declared
+  description: Ingest events into a Compass event source
   name: Atlassian Compass Events API
   slug: atlassian-compass-events-api
-- description: Ingest metric values
+- baseURL: https://api.atlassian.com/graphql
+  baseurl_source: declared
+  description: Ingest metric values
   name: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
 artifact_total: 37
@@ -242,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/screenshots/atlassian-compass-2026-06-20T172526.png
 security:

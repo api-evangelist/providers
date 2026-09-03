@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 5 acting
 api_count: 8
 apis:
-- description: Account metadata and usage counters.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Account metadata and usage counters.
   name: Hunter Account API
   slug: hunter-io-account-api
-- description: Company discovery and prospecting.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Company discovery and prospecting.
   name: Hunter Discover API
   slug: hunter-io-discover-api
-- description: Discover all emails for a domain or company.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Discover all emails for a domain or company.
   name: Hunter Domain Search API
   slug: hunter-io-domain-search-api
-- description: Count emails for a domain.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Count emails for a domain.
   name: Hunter Email Count API
   slug: hunter-io-email-count-api
-- description: Find the email address of a person at a company.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Find the email address of a person at a company.
   name: Hunter Email Finder API
   slug: hunter-io-email-finder-api
-- description: Verify the deliverability of an email address.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Verify the deliverability of an email address.
   name: Hunter Email Verifier API
   slug: hunter-io-email-verifier-api
-- description: Person, company, and combined enrichment.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Person, company, and combined enrichment.
   name: Hunter Enrichment API
   slug: hunter-io-enrichment-api
-- description: Lead management.
+- baseURL: https://api.hunter.io/v2
+  baseurl_source: spec
+  description: Lead management.
   name: Hunter Leads API
   slug: hunter-io-leads-api
 arazzos:
@@ -512,7 +528,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter-io/refs/heads/main/screenshots/hunter-io-2026-06-20T182944.png
 security:

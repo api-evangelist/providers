@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Air quality index and pollutant data
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Air quality index and pollutant data
   name: Xweather Air Quality API
   slug: xweather-air-quality-api
-- description: Severe weather alerts and warnings
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Severe weather alerts and warnings
   name: Xweather Alerts API
   slug: xweather-alerts-api
-- description: Current and historical weather conditions
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Current and historical weather conditions
   name: Xweather Conditions API
   slug: xweather-conditions-api
-- description: Wildfire data
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Wildfire data
   name: Xweather Fires API
   slug: xweather-fires-api
-- description: Weather forecasts
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Weather forecasts
   name: Xweather Forecasts API
   slug: xweather-forecasts-api
-- description: Lightning strike data and nowcasts
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Lightning strike data and nowcasts
   name: Xweather Lightning API
   slug: xweather-lightning-api
-- description: Marine and ocean weather data
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Marine and ocean weather data
   name: Xweather Maritime API
   slug: xweather-maritime-api
-- description: Weather station observations
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Weather station observations
   name: Xweather Observations API
   slug: xweather-observations-api
-- description: Tropical cyclone and hurricane data
+- baseURL: https://data.api.xweather.com
+  baseurl_source: declared
+  description: Tropical cyclone and hurricane data
   name: Xweather Tropical API
   slug: xweather-tropical-api
 artifact_total: 74
@@ -411,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png
 security:

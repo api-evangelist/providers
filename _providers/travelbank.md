@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 21.0
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -143,8 +143,9 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/travelbank/refs/heads/main/screenshots/travelbank-2026-09-02T164139.png
 security:
 - kind: domain-security
   name: Travelbank Domain Security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 18 operations · 10 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The audit API from Method Security — 1 operation(s) for audit.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The audit API from Method Security — 1 operation(s) for audit.
   name: Method Security audit API
   slug: method-security-audit-api
-- description: The auth API from Method Security — 1 operation(s) for auth.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The auth API from Method Security — 1 operation(s) for auth.
   name: Method Security auth API
   slug: method-security-auth-api
-- description: The blueprints API from Method Security — 2 operation(s) for blueprints.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The blueprints API from Method Security — 2 operation(s) for blueprints.
   name: Method Security blueprints API
   slug: method-security-blueprints-api
-- description: The environments API from Method Security — 2 operation(s) for environments.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The environments API from Method Security — 2 operation(s) for environments.
   name: Method Security environments API
   slug: method-security-environments-api
-- description: The issues API from Method Security — 2 operation(s) for issues.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The issues API from Method Security — 2 operation(s) for issues.
   name: Method Security issues API
   slug: method-security-issues-api
-- description: The reports API from Method Security — 1 operation(s) for reports.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The reports API from Method Security — 1 operation(s) for reports.
   name: Method Security reports API
   slug: method-security-reports-api
-- description: The signals API from Method Security — 1 operation(s) for signals.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The signals API from Method Security — 1 operation(s) for signals.
   name: Method Security signals API
   slug: method-security-signals-api
-- description: The skills API from Method Security — 3 operation(s) for skills.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The skills API from Method Security — 3 operation(s) for skills.
   name: Method Security skills API
   slug: method-security-skills-api
-- description: The system API from Method Security — 1 operation(s) for system.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The system API from Method Security — 1 operation(s) for system.
   name: Method Security system API
   slug: method-security-system-api
-- description: The targets API from Method Security — 3 operation(s) for targets.
+- baseURL: https://your-instance.method.delivery/method-api-gateway/api
+  baseurl_source: declared
+  description: The targets API from Method Security — 3 operation(s) for targets.
   name: Method Security targets API
   slug: method-security-targets-api
 artifact_total: 28
@@ -270,7 +290,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -280,7 +300,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 55.9
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,7 +318,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:

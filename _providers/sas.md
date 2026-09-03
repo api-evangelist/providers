@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 16 operations · 3 acting
 api_count: 1
 apis:
-- description: The BusinessRules API from SAS Institute — 1 operation(s) for businessrules.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The BusinessRules API from SAS Institute — 1 operation(s) for businessrules.
   name: SAS Institute BusinessRules API
   slug: sas-businessrules-api
-- description: The CAS API from SAS Institute — 1 operation(s) for cas.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The CAS API from SAS Institute — 1 operation(s) for cas.
   name: SAS Institute CAS API
   slug: sas-cas-api
-- description: The Decisions API from SAS Institute — 2 operation(s) for decisions.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Decisions API from SAS Institute — 2 operation(s) for decisions.
   name: SAS Institute Decisions API
   slug: sas-decisions-api
-- description: The Files API from SAS Institute — 1 operation(s) for files.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Files API from SAS Institute — 1 operation(s) for files.
   name: SAS Institute Files API
   slug: sas-files-api
-- description: The Folders API from SAS Institute — 1 operation(s) for folders.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Folders API from SAS Institute — 1 operation(s) for folders.
   name: SAS Institute Folders API
   slug: sas-folders-api
-- description: The Identities API from SAS Institute — 2 operation(s) for identities.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Identities API from SAS Institute — 2 operation(s) for identities.
   name: SAS Institute Identities API
   slug: sas-identities-api
-- description: The Jobs API from SAS Institute — 2 operation(s) for jobs.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Jobs API from SAS Institute — 2 operation(s) for jobs.
   name: SAS Institute Jobs API
   slug: sas-jobs-api
-- description: The Logon API from SAS Institute — 1 operation(s) for logon.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Logon API from SAS Institute — 1 operation(s) for logon.
   name: SAS Institute Logon API
   slug: sas-logon-api
-- description: The Models API from SAS Institute — 2 operation(s) for models.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Models API from SAS Institute — 2 operation(s) for models.
   name: SAS Institute Models API
   slug: sas-models-api
-- description: The Reports API from SAS Institute — 2 operation(s) for reports.
+- baseURL_template: https://{viya-host}
+  baseurl_source: spec_template
+  description: The Reports API from SAS Institute — 2 operation(s) for reports.
   name: SAS Institute Reports API
   slug: sas-reports-api
 artifact_total: 57
@@ -321,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:

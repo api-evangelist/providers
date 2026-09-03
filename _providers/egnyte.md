@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: The File System API from Egnyte — 2 operation(s) for file system.
+- baseURL: https://{domain}.egnyte.com/pubapi
+  baseurl_source: declared
+  description: The File System API from Egnyte — 2 operation(s) for file system.
   name: Egnyte File System API
   slug: egnyte-file-system-api
-- description: The Groups API from Egnyte — 1 operation(s) for groups.
+- baseURL: https://{domain}.egnyte.com/pubapi
+  baseurl_source: declared
+  description: The Groups API from Egnyte — 1 operation(s) for groups.
   name: Egnyte Groups API
   slug: egnyte-groups-api
-- description: The Links API from Egnyte — 1 operation(s) for links.
+- baseURL: https://{domain}.egnyte.com/pubapi
+  baseurl_source: declared
+  description: The Links API from Egnyte — 1 operation(s) for links.
   name: Egnyte Links API
   slug: egnyte-links-api
-- description: The Permissions API from Egnyte — 1 operation(s) for permissions.
+- baseURL: https://{domain}.egnyte.com/pubapi
+  baseurl_source: declared
+  description: The Permissions API from Egnyte — 1 operation(s) for permissions.
   name: Egnyte Permissions API
   slug: egnyte-permissions-api
-- description: The Users API from Egnyte — 2 operation(s) for users.
+- baseURL: https://{domain}.egnyte.com/pubapi
+  baseurl_source: declared
+  description: The Users API from Egnyte — 2 operation(s) for users.
   name: Egnyte Users API
   slug: egnyte-users-api
 artifact_total: 18
@@ -231,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/screenshots/egnyte-2026-06-20T180523.png
 security:

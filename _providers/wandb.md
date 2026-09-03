@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -65,31 +65,49 @@ apis:
 - description: Outbound webhook integrations driven by W&B automations. Customers register endpoints that W&B POSTs to when configured events fire (artifact created, alias added, run state changes, registry events).
   name: W&B Webhook Automations
   slug: webhook-automations
-- description: The Calls API from Weights and Biases — 8 operation(s) for calls.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Calls API from Weights and Biases — 8 operation(s) for calls.
   name: Weights and Biases Calls API
   slug: wandb-calls-api
-- description: The Costs API from Weights and Biases — 3 operation(s) for costs.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Costs API from Weights and Biases — 3 operation(s) for costs.
   name: Weights and Biases Costs API
   slug: wandb-costs-api
-- description: The Feedback API from Weights and Biases — 4 operation(s) for feedback.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Feedback API from Weights and Biases — 4 operation(s) for feedback.
   name: Weights and Biases Feedback API
   slug: wandb-feedback-api
-- description: The Files API from Weights and Biases — 2 operation(s) for files.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Files API from Weights and Biases — 2 operation(s) for files.
   name: Weights and Biases Files API
   slug: wandb-files-api
-- description: The Objects API from Weights and Biases — 4 operation(s) for objects.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Objects API from Weights and Biases — 4 operation(s) for objects.
   name: Weights and Biases Objects API
   slug: wandb-objects-api
-- description: The Refs API from Weights and Biases — 1 operation(s) for refs.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Refs API from Weights and Biases — 1 operation(s) for refs.
   name: Weights and Biases Refs API
   slug: wandb-refs-api
-- description: The Service API from Weights and Biases — 2 operation(s) for service.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Service API from Weights and Biases — 2 operation(s) for service.
   name: Weights and Biases Service API
   slug: wandb-service-api
-- description: The Table API from Weights and Biases — 1 operation(s) for table.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Table API from Weights and Biases — 1 operation(s) for table.
   name: Weights and Biases Table API
   slug: wandb-table-api
-- description: The Tables API from Weights and Biases — 4 operation(s) for tables.
+- baseURL: https://api.wandb.ai/graphql
+  baseurl_source: declared
+  description: The Tables API from Weights and Biases — 4 operation(s) for tables.
   name: Weights and Biases Tables API
   slug: wandb-tables-api
 artifact_total: 35
@@ -275,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/screenshots/wandb-2026-06-20T201222.png
 security:

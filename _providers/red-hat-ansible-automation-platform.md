@@ -33,28 +33,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: 'Enterprise REST API for the Red Hat Ansible Automation Controller providing centralized management of automation jobs, workflows, inventories, credentials, and RBAC with enterprise authentication and '
+- baseURL: https://controller-host/api/v2/
+  baseurl_source: declared
+  description: 'Enterprise REST API for the Red Hat Ansible Automation Controller providing centralized management of automation jobs, workflows, inventories, credentials, and RBAC with enterprise authentication and '
   name: Red Hat Ansible Automation Controller API
   slug: controller-api
-- description: REST API for managing a private instance of Ansible Automation Hub, enabling organizations to curate, publish, and distribute certified and custom Ansible content collections within their enterprise.
+- baseURL: https://hub-host/api/galaxy/
+  baseurl_source: declared
+  description: REST API for managing a private instance of Ansible Automation Hub, enabling organizations to curate, publish, and distribute certified and custom Ansible content collections within their enterprise.
   name: Red Hat Ansible Private Automation Hub API
   slug: private-hub-api
-- description: 'REST API for the Event-Driven Ansible Controller enabling management of event sources, rulebook activations, decision environments, and automated response workflows for infrastructure and application '
+- baseURL: https://eda-host/api/eda/v1/
+  baseurl_source: declared
+  description: 'REST API for the Event-Driven Ansible Controller enabling management of event sources, rulebook activations, decision environments, and automated response workflows for infrastructure and application '
   name: Red Hat Event-Driven Ansible Controller API
   slug: eda-controller-api
 - description: REST API for the Automation Services Catalog providing a self-service portal where users can order and manage pre-approved automation services with governance controls and approval workflows.
   name: Red Hat Automation Services Catalog API
   slug: services-catalog-api
-- description: REST API for the Ansible Automation Platform Gateway, the single front door introduced in AAP 2.5 that fronts every platform component. Manages users, teams, organizations, role definitions and assign
+- baseURL: https://gateway-host/api/gateway/v1/
+  baseurl_source: declared
+  description: REST API for the Ansible Automation Platform Gateway, the single front door introduced in AAP 2.5 that fronts every platform component. Manages users, teams, organizations, role definitions and assign
   name: Red Hat Ansible Automation Platform Gateway API
   slug: platform-gateway-api
-- description: REST API for Ansible Lightspeed, the generative AI service that produces and explains Ansible content. Provides playbook and role generation, content explanations, chat and streaming chat, content-mat
+- baseURL: https://lightspeed-instance/api/v1
+  baseurl_source: declared
+  description: REST API for Ansible Lightspeed, the generative AI service that produces and explains Ansible content. Provides playbook and role generation, content explanations, chat and streaming chat, content-mat
   name: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant API
   slug: ansible-lightspeed-api
-- description: The Red Hat-hosted Automation Hub on console.redhat.com, where subscribers consume Red Hat certified and validated Ansible Content Collections. Same galaxy_ng/Pulp contract as a private hub, served fr
+- baseURL: https://console.redhat.com/api/automation-hub/
+  baseurl_source: declared
+  description: The Red Hat-hosted Automation Hub on console.redhat.com, where subscribers consume Red Hat certified and validated Ansible Content Collections. Same galaxy_ng/Pulp contract as a private hub, served fr
   name: Red Hat Automation Hub API (Hybrid Cloud Console)
   slug: hosted-automation-hub-api
 artifact_total: 34
@@ -292,23 +304,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/password
 score:
   band: strong
-  composite: 61.9
+  composite: 62.8
   coverage:
     artifact_dirs: 24
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.9
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 49.6
+    contract_quality: 52.9
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 60.0
+  previous_composite: 61.9
   provenance:
     conformance: first-party
     contracts:
@@ -319,7 +331,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/screenshots/red-hat-ansible-automation-platform-2026-06-20T192716.png
 security:

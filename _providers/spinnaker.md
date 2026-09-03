@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 23 operations · 7 acting
 api_count: 1
 apis:
-- description: Application management operations for Spinnaker application lifecycle including creation, retrieval, and pipeline access
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Application management operations for Spinnaker application lifecycle including creation, retrieval, and pipeline access
   name: Spinnaker Applications API
   slug: spinnaker-applications-api
-- description: CI build service integration for discovering build masters, jobs, and build artifacts
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: CI build service integration for discovering build masters, jobs, and build artifacts
   name: Spinnaker Build Services API
   slug: spinnaker-build-services-api
-- description: Cloud cluster and server group operations for managing deployment targets across cloud providers
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Cloud cluster and server group operations for managing deployment targets across cloud providers
   name: Spinnaker Clusters API
   slug: spinnaker-clusters-api
-- description: Cloud image discovery and management across cloud providers and regions
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Cloud image discovery and management across cloud providers and regions
   name: Spinnaker Images API
   slug: spinnaker-images-api
-- description: Load balancer management operations for cloud load balancing resources across supported cloud providers
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Load balancer management operations for cloud load balancing resources across supported cloud providers
   name: Spinnaker Load Balancers API
   slug: spinnaker-load-balancers-api
-- description: Pipeline definition and execution management including saving pipeline configurations, triggering runs, and controlling execution state
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Pipeline definition and execution management including saving pipeline configurations, triggering runs, and controlling execution state
   name: Spinnaker Pipelines API
   slug: spinnaker-pipelines-api
-- description: Spinnaker project management for grouping applications and pipelines into organizational units
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Spinnaker project management for grouping applications and pipelines into organizational units
   name: Spinnaker Projects API
   slug: spinnaker-projects-api
-- description: Cross-entity search for finding applications, clusters, and other Spinnaker-managed resources
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Cross-entity search for finding applications, clusters, and other Spinnaker-managed resources
   name: Spinnaker Search API
   slug: spinnaker-search-api
-- description: Task management for tracking long-running Spinnaker operations and checking their completion status
+- baseURL: http://localhost:8084
+  baseurl_source: spec
+  description: Task management for tracking long-running Spinnaker operations and checking their completion status
   name: Spinnaker Tasks API
   slug: spinnaker-tasks-api
 artifact_total: 34
@@ -300,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/screenshots/spinnaker-2026-06-20T194321.png
 security:

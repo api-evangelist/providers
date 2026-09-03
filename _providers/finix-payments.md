@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 91 operations · 39 acting
 api_count: 1
 apis:
-- description: '{''$ref'': ''api-descriptions/tags/authorizations.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/authorizations.md''}'
   name: Finix Payments Authorizations API
   slug: finix-payments-authorizations-api
-- description: '{''$ref'': ''api-descriptions/tags/balance-transfers.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/balance-transfers.md''}'
   name: Finix Payments Balance Transfers API
   slug: finix-payments-balance-transfers-api
-- description: '{''$ref'': ''api-descriptions/tags/compliance-forms.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/compliance-forms.md''}'
   name: Finix Payments Compliance Forms API
   slug: finix-payments-compliance-forms-api
-- description: '{''$ref'': ''api-descriptions/tags/devices.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/devices.md''}'
   name: Finix Payments Devices API
   slug: finix-payments-devices-api
-- description: '{''$ref'': ''api-descriptions/tags/disputes.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/disputes.md''}'
   name: Finix Payments Disputes API
   slug: finix-payments-disputes-api
-- description: '{''$ref'': ''api-descriptions/tags/fee-profiles.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/fee-profiles.md''}'
   name: Finix Payments Fee Profiles API
   slug: finix-payments-fee-profiles-api
-- description: '{''$ref'': ''api-descriptions/tags/files.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/files.md''}'
   name: Finix Payments Files API
   slug: finix-payments-files-api
-- description: '{''$ref'': ''api-descriptions/tags/identities.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/identities.md''}'
   name: Finix Payments Identities API
   slug: finix-payments-identities-api
-- description: '{''$ref'': ''api-descriptions/tags/instrument-updates.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/instrument-updates.md''}'
   name: Finix Payments Instrument Updates API
   slug: finix-payments-instrument-updates-api
-- description: '{''$ref'': ''api-descriptions/tags/merchant-profiles.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/merchant-profiles.md''}'
   name: Finix Payments Merchant Profiles API
   slug: finix-payments-merchant-profiles-api
-- description: '{''$ref'': ''api-descriptions/tags/merchants.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/merchants.md''}'
   name: Finix Payments Merchants API
   slug: finix-payments-merchants-api
-- description: '{''$ref'': ''api-descriptions/tags/onboarding-forms.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/onboarding-forms.md''}'
   name: Finix Payments Onboarding Forms API
   slug: finix-payments-onboarding-forms-api
-- description: '{''$ref'': ''api-descriptions/tags/payment-instruments.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/payment-instruments.md''}'
   name: Finix Payments Payment Instruments API
   slug: finix-payments-payment-instruments-api
-- description: '{''$ref'': ''api-descriptions/tags/payout-profiles.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/payout-profiles.md''}'
   name: Finix Payments Payout Profiles API
   slug: finix-payments-payout-profiles-api
-- description: '{''$ref'': ''api-descriptions/tags/settlements.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/settlements.md''}'
   name: Finix Payments Settlements API
   slug: finix-payments-settlements-api
-- description: '{''$ref'': ''api-descriptions/tags/split-transfers.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/split-transfers.md''}'
   name: Finix Payments Split Transfers API
   slug: finix-payments-split-transfers-api
-- description: '{''$ref'': ''api-descriptions/tags/transfers.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/transfers.md''}'
   name: Finix Payments Transfers API
   slug: finix-payments-transfers-api
-- description: '{''$ref'': ''api-descriptions/tags/verifications.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/verifications.md''}'
   name: Finix Payments Verifications API
   slug: finix-payments-verifications-api
-- description: '{''$ref'': ''api-descriptions/tags/webhooks.md''}'
+- baseURL: https://finix.live-payments-api.com
+  baseurl_source: declared
+  description: '{''$ref'': ''api-descriptions/tags/webhooks.md''}'
   name: Finix Payments Webhooks API
   slug: finix-payments-webhooks-api
 arazzos:
@@ -419,7 +457,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -429,7 +467,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 63.8
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -447,7 +485,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:
